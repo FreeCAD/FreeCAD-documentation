@@ -1,5 +1,5 @@
 # Category:Pages to delete/de
-
+[Category   *Categories/de](Category   *Categories/de.md)
 
 ### Contents
 

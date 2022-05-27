@@ -1,6 +1,8 @@
 # Category:FEM/hr
 This category lists pages related to the [FEM Workbench/hr](FEM_Workbench/hr.md).
 
+[Category   *Workbenches/hr](Category   *Workbenches/hr.md)
+
 ### Contents
 
 |     |     |     |

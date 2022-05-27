@@ -180,7 +180,13 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Solutore Calculix Standard](FEM_SolverCalculixCxxtools/it.md)   * Crea un nuovo solutore per questa analisi. Nella maggior parte dei casi viene creato il risolutore unitamente all\'analisi.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solutore CalculiX (sperimentale)](FEM_SolverCalculiX/it.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solutore Elmer](FEM_SolverElmer/it.md)   * Crea il controller del risolutore per Elmer. È indipendente da altri oggetti del risolutore.
 

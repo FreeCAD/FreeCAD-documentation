@@ -1,6 +1,8 @@
 # Category:FEM
 This category lists pages related to the [FEM Workbench](FEM_Workbench.md) and FEM simulations.
 
+[Category   *Workbenches](Category_Workbenches.md) [Category   *User\_Documentation](Category_User_Documentation.md)
+
 ### Contents
 
 |     |     |     |

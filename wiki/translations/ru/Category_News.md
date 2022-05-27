@@ -1,6 +1,8 @@
 # Category:News/ru
 This category contains articles with news and messages about FreeCAD.
 
+[Category   *Categories/ru](Category   *Categories/ru.md)
+
 ### Contents
 
 |     |     |     |

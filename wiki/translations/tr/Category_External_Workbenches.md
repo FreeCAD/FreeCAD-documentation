@@ -1,6 +1,8 @@
 # Category:External Workbenches/tr
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
+[Category   *Workbenches/tr](Category   *Workbenches/tr.md) [Category   *Addons/tr](Category   *Addons/tr.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:Wiki
 This category contains all documents that relate to the Wiki.
 
+[Category   *Administration](Category_Administration.md) [Category   *Categories](Category_Categories.md) [Category   *Documentation](Category_Documentation.md)
+
 ### Contents
 
 |     |     |     |

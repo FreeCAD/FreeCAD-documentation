@@ -1,6 +1,8 @@
 # Category:Python Code/ro
 This category contains python code examples for FreeCAD
 
+[Category   *Categories/ro](Category   *Categories/ro.md)
+
 ### Contents
 
 |     |     |     |

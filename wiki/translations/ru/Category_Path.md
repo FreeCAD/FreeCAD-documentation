@@ -1,6 +1,8 @@
 # Category:Path/ru
 This category lists pages related to the [PartDesign Workbench/ru](PartDesign_Workbench/ru.md).
 
+[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
+
 ### Contents
 
 |     |     |     |

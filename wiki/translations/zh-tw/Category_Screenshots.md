@@ -1,6 +1,8 @@
 # Category:Screenshots/zh-tw
 This category lists pages with screenshots.
 
+[Category   *Documentation/zh-tw](Category   *Documentation/zh-tw.md)
+
 ### Contents
 
 |     |     |     |

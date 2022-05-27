@@ -1,6 +1,8 @@
 # Category:Roadmap
 This category gathers all articles documenting what is planned in the Roadmap of FreeCAD.
 
+[Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

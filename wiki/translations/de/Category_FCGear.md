@@ -1,6 +1,8 @@
 # Category:FCGear/de
 All relevant pages to the [FCGear workbench](FCGear_Workbench.md) (an [external workbench](external_workbenches.md))
 
+[Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+
 ### Contents
 
 |     |     |     |

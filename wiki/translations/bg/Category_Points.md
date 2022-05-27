@@ -1,6 +1,8 @@
 # Category:Points/bg
 This category lists pages related to the [Points Workbench/bg](Points_Workbench/bg.md).
 
+[Category   *Workbenches/bg](Category   *Workbenches/bg.md)
+
 ### Contents
 
 |     |     |     |

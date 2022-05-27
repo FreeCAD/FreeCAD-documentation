@@ -1,6 +1,8 @@
 # Category:Obsolete Workbenches/es
 This category lists pages related to the [Drawing Workbench/es](Drawing_Workbench/es.md).
 
+[Category   *Obsolete Workbenches/es](Category   *Obsolete_Workbenches/es.md)
+
 ### Contents
 
 |     |     |     |

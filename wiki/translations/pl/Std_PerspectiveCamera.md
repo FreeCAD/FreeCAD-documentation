@@ -1,43 +1,44 @@
 ---
-- GuiCommand:
-   Name:Std PerspectiveCamera
-   MenuLocation:View → Perspective view
-   Workbenches:All
-   Shortcut:**V** **P**
-   SeeAlso:[Std OrthographicCamera](Std_OrthographicCamera.md)
+- GuiCommand   */pl
+   Name   *Std PerspectiveCamera
+   Name/pl   *Std   * Widok perspektywy
+   MenuLocation   *Widok → Widok perspektywy
+   Workbenches   *wszystkie
+   Shortcut   ***V** → **P**
+   SeeAlso   *[Widok ortograficzny](Std_OrthographicCamera/pl.md)
 ---
 
 # Std PerspectiveCamera/pl
 
-## Description
+## Opis
 
-The **Std PerspectiveCamera** command switches the camera in the active [3D view](3D_view.md) to perspective view mode. In this mode, objects that are further from the camera appear smaller than those that are closer.
+Polecenie **Widok perspektywy** przełącza ujęcie widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) w tryb widoku perspektywy. W tym trybie obiekty znajdujące się dalej od kamery wydają się mniejsze niż te znajdujące się bliżej.
 
 ![](images/Std_PerspectiveCamera_example.svg ) 
-*Two cubes with the same dimensions in perspective view*
+*Dwa sześciany o tych samych wymiarach w widoku perspektywy*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select the **View → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspective view** option from the menu.
-    -   Use the keyboard shortcut: **V** then **P**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz z menu opcję **Widok → <img src="images/Std_PerspectiveCamera.svg" width=16px> Widok perspektywy**.
+    -   Użyj skrótu klawiaturowego   * **V** kolejnie **P**.
 
-## Notes
+## Uwagi
 
--   It is also possible to switch to perspective view mode via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
+-   Można również przełączyć się do trybu widoku perspektywy za pomocą menu Mini-sześcianu [kostki nawigacyjnej](Navigation_Cube/pl.md).
 
-## Preferences
+## Ustawienia
 
--   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Typ ujęcia widoku można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Typ projekcji**. Wybrany typ będzie używany dla wszystkich widoków 3D wszystkich otwartych dokumentów, a także dla nowych dokumentów. Zobacz dodatkowe informacje o [konfiguracji](Preferences_Editor/pl#Widok_3D.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the view to perspective use the `setCameraType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok perspektywy, należy użyć metody `setCameraType` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

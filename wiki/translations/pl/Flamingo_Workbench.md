@@ -7,13 +7,13 @@ Jest to zestaw dostosowanych poleceń i obiektów programu FreeCAD, które pomag
 
 
 
-:   \"**Flamingo** jest przeznaczony dla wersji używających środowiska Python \> 2.7 i zestawu narzędzi Qt4.
+   *   \"**Flamingo** jest przeznaczony dla wersji używających środowiska Python \> 2.7 i zestawu narzędzi Qt4.
 
 
 
 
 
-:   \"**Dodo** jest przeznaczony dla wersji używających środowiska Python \> 3.6 i zestawu narzędzi Qt5.
+   *   \"**Dodo** jest przeznaczony dla wersji używających środowiska Python \> 3.6 i zestawu narzędzi Qt5.
 
 
 
@@ -23,29 +23,29 @@ Dla wygody narzędzia Flamingo / Dodo są pogrupowane w trzy paski narzędziowe/
 
 ![](images/dodoBlob.png )
 
--   **Narzędzia ram**: służą do rozmieszczania ram, kratownic i podobnych elementów w programie FreeCAD przy użyciu obiektów Konstrukcji modułu Arch. \.../flamingo/tutorial/tutorialFrame.pdf
--   **Narzędzia rur**: to logiczna kontynuacja narzędzia ram, ponieważ zajmuje się tworzeniem rurociągów i konstrukcji rurowych. Posiada również własne klasy Python do tworzenia obiektów rurociągów, takich jak rury, kolanka, kołnierze itp. \.../flamingo/tutorials/tutorialPype2.pdf
--   **Narzędzia Eagle**: to w zasadzie dodatek i skrót do bardzo profesjonalnego programu [FreeCAD-PCB](https://github.com/marmni/FreeCAD-PCB) *(dostępnego także w repozytorium dodatków programu FreeCAD)* do importowania pozycji obiektów z pliku .brd programu Eagle na płytce drukowanej narysowanej w programie FreeCAD za pomocą programu a.m., odnoszący się tylko do ich nazw. Jest to także początek, a właściwie nazwa całego środowiska pracy. \.../flamingo/tutorial/tutorialEagle.pdf
+-   **Narzędzia ram**   * służą do rozmieszczania ram, kratownic i podobnych elementów w programie FreeCAD przy użyciu obiektów Konstrukcji modułu Arch. \.../flamingo/tutorial/tutorialFrame.pdf
+-   **Narzędzia rur**   * to logiczna kontynuacja narzędzia ram, ponieważ zajmuje się tworzeniem rurociągów i konstrukcji rurowych. Posiada również własne klasy Python do tworzenia obiektów rurociągów, takich jak rury, kolanka, kołnierze itp. \.../flamingo/tutorials/tutorialPype2.pdf
+-   **Narzędzia Eagle**   * to w zasadzie dodatek i skrót do bardzo profesjonalnego programu [FreeCAD-PCB](https   *//github.com/marmni/FreeCAD-PCB) *(dostępnego także w repozytorium dodatków programu FreeCAD)* do importowania pozycji obiektów z pliku .brd programu Eagle na płytce drukowanej narysowanej w programie FreeCAD za pomocą programu a.m., odnoszący się tylko do ich nazw. Jest to także początek, a właściwie nazwa całego środowiska pracy. \.../flamingo/tutorial/tutorialEagle.pdf
 
-:\* Pasek narzędzi **Przybory** umożliwia wyszukiwanie obiektów w modelu i ich odległości, przesuwanie / obracanie płaszczyzny roboczej oraz mały hack okna dialogowego [Linia łamana](Draft_Wire/pl.md) środowiska Rysunek Roboczy, który pozwala na zmianę położenia płaszczyzny roboczej w locie.
+   ** Pasek narzędzi **Przybory** umożliwia wyszukiwanie obiektów w modelu i ich odległości, przesuwanie / obracanie płaszczyzny roboczej oraz mały hack okna dialogowego [Linia łamana](Draft_Wire/pl.md) środowiska Rysunek Roboczy, który pozwala na zmianę położenia płaszczyzny roboczej w locie.
 
 ## Bibliografia
 
--   Autor: oddtopus
--   Kod źródłowy na platformie GitHub:
+-   Autor   * oddtopus
+-   Kod źródłowy na platformie GitHub   *
 
-<https://github.com/oddtopus/flamingo>
+<https   *//github.com/oddtopus/flamingo>
 
-<https://github.com/oddtopus/dodo>
+<https   *//github.com/oddtopus/dodo>
 
 ## Instalacja
 
-To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Aby zainstalować je samodzielnie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
+To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Aby zainstalować je samodzielnie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
 
 ## Narzędzia do ram 
 
 
-<div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
+<div class="center" style="width   * auto; margin-left   * auto; margin-right   * auto;">
 
 ![](images/Flamingos_frame2.jpg )
 
@@ -53,31 +53,31 @@ To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_Addon
 </div>
 
 
-:   1\) Umieść jedną belkę na jednej krawędzi *(klasa frameIt)*
+   *   1\) Umieść jedną belkę na jednej krawędzi *(klasa frameIt)*
 
 W przypadku obiektu belki i krawędzi w modelu narzędzie to nakłada belkę na krawędź, zaznaczając je kolejno aż do naciśnięcia klawisza **ESC**.
 
-:   2\) Wypełnij ramę *(klasa fillFrame)*
+   *   2\) Wypełnij ramę *(klasa fillFrame)*
 
 Okno dialogowe służące do tworzenia na wielu krawędziach zaznaczonych w rzucie belek o typie wybranym wcześniej, spośród tych występujących w modelu.
 
 Za pomocą przycisku **Wybierz** można zmienić typ belki.
 
 
-**Dodo: ta funkcja została zastąpiona w oknie dialogowym "Wstaw rozgałęzienie ramy" przyciskiem **Dodaj pojedynczy**.**
+**Dodo   * ta funkcja została zastąpiona w oknie dialogowym "Wstaw rozgałęzienie ramy" przyciskiem **Dodaj pojedynczy**.**
 
 
-:   3\) Wstaw ścieżkę *(klasa insertPath)*.
+   *   3\) Wstaw ścieżkę *(klasa insertPath)*.
 
 Narzędzie do tworzenia ciągłego obrysu na ścieżce zdefiniowanej przez krawędzie zaznaczone w rzutni, nawet jeśli nie stykają się one ze sobą, przecinają się w środku lub należą do różnych obiektów. Jedynym ograniczeniem jest istnienie przecięcia dwóch kolejnych krawędzi w kolejności, w jakiej zostały one wybrane. Również linia środkowa otrzymuje właściwości widoku linii środkowej, tj. pomarańczowy kolor i kreskowanie.
 
-:   4\) Wstaw przekrój *(klasa insertSection)*.
+   *   4\) Wstaw przekrój *(klasa insertSection)*.
 
 Okno dialogowe do tworzenia zestawu profili, które będą używane w modelu dla obiektu FrameLine.
 
--   Lista **Przekroje**: zawiera wszystkie przekroje zdefiniowane w pliku .csv odpowiadającym wybranemu typowi przekroju.
--   Lista **Typy przekrojów**: typy przekrojów zdefiniowane za pomocą plików .csv znajdujących się w folderze /tables
--   Przycisk **Wstaw**: tworzy grupę \"Profile\_zestaw\", jeśli jeszcze nie istnieje, i dodaje do niej obiekt wybranego profilu.
+-   Lista **Przekroje**   * zawiera wszystkie przekroje zdefiniowane w pliku .csv odpowiadającym wybranemu typowi przekroju.
+-   Lista **Typy przekrojów**   * typy przekrojów zdefiniowane za pomocą plików .csv znajdujących się w folderze /tables
+-   Przycisk **Wstaw**   * tworzy grupę \"Profile\_zestaw\", jeśli jeszcze nie istnieje, i dodaje do niej obiekt wybranego profilu.
 
 Inne tabele profili można tworzyć poprzez dodanie odpowiedniego pliku .csv w folderze /tables. Zasady tworzenia i dostosowywania takich tabel są podobne do tych, które obowiązują w przypadku linii rurowych.
 
@@ -86,8 +86,8 @@ Inne profile można szkicować w modelu i przeciągać do grupy \"Profile\_zesta
 Orientacja dwuteowników może mieć wpływ na odwzorowanie belek.
 
 
-**Dodo: zmieniono zakres działania tej funkcji.
-W dodo otwiera okno dialogowe, w którym można utworzyć 10 kształtów przekroju belki o niestandardowych wymiarach:
+**Dodo   * zmieniono zakres działania tej funkcji.
+W dodo otwiera okno dialogowe, w którym można utworzyć 10 kształtów przekroju belki o niestandardowych wymiarach   *
 * kwadrat wydrążony i pełny,
 * okrąg wydrążony i pełny,
 * T, I, C, L, Z,
@@ -95,121 +95,121 @@ W dodo otwiera okno dialogowe, w którym można utworzyć 10 kształtów przekro
 Możliwa jest także zmiana położenia środka lub edycja istniejącego przekroju..**
 
 
-:   5\) Menedżer linii ram *(klasa FrameLineManager)*.
+   *   5\) Menedżer linii ram *(klasa FrameLineManager)*.
 
 Podobnie jak w przypadku obiektów \"linii rur\", jest to okno dialogowe do tworzenia i zmiany właściwości obiektów \"linii ram\".
 
-Podobnie jak powyżej, linie ramy są obiektami, które gromadzą właściwości wspólne dla zestawu belek *(mianowicie przekrój belki)*, które są włączone do wspólnej grupy w drzewie modelu. Posiadają one również opcjonalną właściwość `.Base`, domyślnie ustawioną na wartość `None`, która jest linią środkową belek ramy. Po zdefiniowaniu ścieżki o aliasie .Base *(DWire lub Szkic)* można dodawać inne belki do linii ramy, ale zostaną one usunięte po wywołaniu polecenia **Przerysuj**. W oknie dialogowym dostępne są następujące funkcje:
+Podobnie jak powyżej, linie ramy są obiektami, które gromadzą właściwości wspólne dla zestawu belek *(mianowicie przekrój belki)*, które są włączone do wspólnej grupy w drzewie modelu. Posiadają one również opcjonalną właściwość `.Base`, domyślnie ustawioną na wartość `None`, która jest linią środkową belek ramy. Po zdefiniowaniu ścieżki o aliasie .Base *(DWire lub Szkic)* można dodawać inne belki do linii ramy, ale zostaną one usunięte po wywołaniu polecenia **Przerysuj**. W oknie dialogowym dostępne są następujące funkcje   *
 
 -   lista profili belek włączonych wcześniej do modelu przez okno dialogowe \"Wstaw przekroje standardowe\" *(czytaj dalej)*,
 -   pole wyboru, aby wybrać aktywną linię ramy spośród już utworzonych lub wartość `nowa`, aby utworzyć nową,
 -   pole tekstowe, w którym należy wpisać nazwę tworzonej linii szkieletowej. Jeśli nie zostanie wpisana żadna nazwa lub zostanie wpisane słowo `name`, linia szkieletowa zostanie nazwana domyślnie `Telaio00n`,
--   przycisk **Wstaw**: tworzy nowy obiekt FrameLine lub dodaje nowe elementy do tego, który został wybrany w polu wyboru, jeśli w aktywnej rzutni zaznaczone są krawędzie,
--   przycisk **Przerysuj**: tworzy nowe belki i umieszcza je nad wybraną ścieżką. Nowe belki zostaną zebrane wewnątrz grupy FrameLine. Opcja nie tworzy ani nie aktualizuje belek dodanych do linii FrameLine poza zdefiniowaną ścieżką,
--   przycisk **Wyczyść**: usuwa wszystkie belki w grupie FrameLine. Dotyczy to również belek dodanych do linii FrameLine poza jej zdefiniowaną ścieżką,
--   przycisk **Pobierz ścieżkę**: przypisuje wybrany dwuteownik do atrybutu Ścieżka obiektu FrameLine,
--   przycisk **Pobierz profil**: zmienia atrybut Profil obiektu FrameLine na taki, jaki posiada belka wybrana w rzutni lub wybrany z listy,
--   pole wyboru {{CheckBox|TRUE|Kopiuj profil}}: zaznaczenie tego pola powoduje wygenerowanie nowego obiektu profilu dla każdej belki, aby uniknąć wielokrotnych odniesień w modelu,
--   pole wyboru {{CheckBox|Przesuń do początku}}: jeśli jest zaznaczone, przesuwa środek masy profilu do początku układu współrzędnych: dzięki temu linia środkowa belki pokrywa się z punktem środkowym profilu.
+-   przycisk **Wstaw**   * tworzy nowy obiekt FrameLine lub dodaje nowe elementy do tego, który został wybrany w polu wyboru, jeśli w aktywnej rzutni zaznaczone są krawędzie,
+-   przycisk **Przerysuj**   * tworzy nowe belki i umieszcza je nad wybraną ścieżką. Nowe belki zostaną zebrane wewnątrz grupy FrameLine. Opcja nie tworzy ani nie aktualizuje belek dodanych do linii FrameLine poza zdefiniowaną ścieżką,
+-   przycisk **Wyczyść**   * usuwa wszystkie belki w grupie FrameLine. Dotyczy to również belek dodanych do linii FrameLine poza jej zdefiniowaną ścieżką,
+-   przycisk **Pobierz ścieżkę**   * przypisuje wybrany dwuteownik do atrybutu Ścieżka obiektu FrameLine,
+-   przycisk **Pobierz profil**   * zmienia atrybut Profil obiektu FrameLine na taki, jaki posiada belka wybrana w rzutni lub wybrany z listy,
+-   pole wyboru {{CheckBox|TRUE|Kopiuj profil}}   * zaznaczenie tego pola powoduje wygenerowanie nowego obiektu profilu dla każdej belki, aby uniknąć wielokrotnych odniesień w modelu,
+-   pole wyboru {{CheckBox|Przesuń do początku}}   * jeśli jest zaznaczone, przesuwa środek masy profilu do początku układu współrzędnych   * dzięki temu linia środkowa belki pokrywa się z punktem środkowym profilu.
 
 Jeśli nazwa obiektu FrameLine zostanie zmieniona, automatycznie zmieni się także nazwa odpowiedniej grupy, ale nie odwrotnie.
 
-:   6\) FrameBranch manager
+   *   6\) Menedżer rozgałęzień ramy
 
-Similar to the analogous feature in the Pype menu, this is a container for beams structured on a .Base. The base can be a DWire, a Sketch or also the edges of a solid shape. When the underlying base is changed, also the position and length of the beams is modified accordingly. It\'s possible to trim/extend to any geometry the beams and rotate the sections aroud the center-line through the commands provided in the dialog: in this way the modification is not lost when the document is recomputed.
+Podobnie jak analogiczna funkcja w menu Rura, jest to kontener dla belek zbudowanych na bazie .Base. Bazą może być linia łamana, szkic lub krawędzie bryły. Gdy baza zostanie zmieniona, pozycja i długość belek również zostaną odpowiednio zmodyfikowane. Możliwe jest przycięcie / wydłużenie belek do dowolnej geometrii oraz obrócenie sekcji wokół linii środkowej za pomocą poleceń dostępnych w oknie dialogowym   * w ten sposób modyfikacje nie zostaną utracone podczas ponownego obliczania dokumentu.
 
--   **OK** creates one framebranch over the pre-selected geometry
--   **Cancel** closes the dialog
--   the **** text box allow to insert a custom name to the feature
--   the **combo box** allow to select the type of section that will be displayed in the **list box**. (see ../Mod/flamingo/shapes or ../Mod/dodo/shapez to customize)
--   **AddBeams** adds one member to a frame to the currently selected edge. The edge must belong to an existing framebranch
--   **RemoveBeams** removes the selected beam from the corresponding edge
--   **ChangeProfile** change the profiles to the framebranch. To select the framebranch just select in the view area one of its members.
--   **Get targets** selects geometry from the view area to trim/extend to the beams. Targets can also not belong to any framebranch.
--   **Trim/Extend** changes the lenght of selected members to the targets
--   **Add single** creates one beam, of the specified ****, not linked to the base on any edge or surface selected.
--   **Redraw** recreates the frame, deleting all the offsets and rotations
+-   **OK** tworzy jedną gałąź ramy nad wybraną geometrią.
+-   **Anuluj** zamyka okno dialogowe.
+-   pole tekstowe **** umożliwia wprowadzenie własnej nazwy elementu.
+-   **Pole wyboru** pozwala określić typ przekroju, który będzie wyświetlany w **polu listy** *(zobacz ../Mod/flamingo/shapes lub ../Mod/dodo/shapez, aby dostosować)*.
+-   **Dodaj belki** dodaje jeden element do zaznaczonej krawędzi ramy. Krawędź musi należeć do istniejącej gałęzi ramy.
+-   **Usuń belki** usuwa wybraną belkę z odpowiadającej jej krawędzi.
+-   **Zmień profil** zmienia profile w ramach. Aby zaznaczyć obramowanie, wystarczy wybrać w obszarze widoku jeden z jego elementów.
+-   **Pobierz cele** wybiera geometrię z obszaru widoku do przycięcia / rozciągnięcia belki. Obiekty docelowe mogą nie należeć do żadnej gałęzi ramy.
+-   **Przytnij / Wydłuż** zmienia długość wybranych prętów na docelową.
+-   **Dodaj pojedynczy** tworzy jedną belkę, o określonej ****, niepołączoną z podstawą na żadnej wybranej krawędzi lub powierzchni.
+-   **Przerysuj** odtwarza ramę, usuwając wszystkie przesunięcia i obroty.
 
-When one beam belonging to a framebranch is selected in the view area, the TAIL is visually highlighted. That allows to change manually the offsets of tail and head, beside the rotation of the section, using the commands provided in the dialog.
+Gdy w obszarze widoku zostanie zaznaczona jedna z belek należących do ramy, zostanie wizualnie podświetlony jej TYLNY koniec. Pozwala to na ręczną zmianę przesunięć ogona i głowy oraz obrotu przekroju za pomocą poleceń dostępnych w oknie dialogowym.
 
-:   7\) Spin beams by 45 deg. (class spinSect)
+   *   7\) Łączenie belek pod kątem 45 stopni *(klasa spinSect)*
 
-Tool to spin one object around the \"Z\" axis of its shape by 45 degrees.
+Narzędzie do obracania jednego obiektu wokół osi \"Z\" jego kształtu o 45 stopni.
 
-:   8\) Reverse orientation (class reverseBeam)
+   *   8\) Odwróć orientację *(klasa reverseBeam)*
 
-Tool to spin one object around the \"X\" axis of its shape by 180 degrees. Notes: if one edge of the object is selected, that is used as the pivot of rotation.
+Narzędzie do obracania jednego obiektu wokół osi \"X\" jego kształtu o 180 stopni. Uwaga   * Jeśli zaznaczona jest jedna krawędź obiektu, jest ona używana jako środek obrotu.
 
-:   9\) Shift the beam (class shiftBeam)
+   *   9\) Przesuń belkę *(klasa shiftBeam)*
 
 Okno dialogowe do przesuwania i kopiowania obiektów.
 
-**X**, **Y** and **Z** textboxes for direct input the amount of translation in each direction.
+Pola tekstowe **X**, **Y** i **Z** do bezpośredniego wprowadzania wielkości przesunięcia w każdym kierunku.
 
-**Multiple** textbox is the multiple coefficient of the translation amount.
+Pole tekstowe **Wielokrotność** to współczynnik wielokrotności wartości przesunięcia.
 
-**Steps** textbox is the denominator of the translation amount. It\'s used when the amount of translation is to be covered in some steps.
+Pole tekstowe **Kroki** jest mianownikiem ilości przesunięcia. Używa się go, gdy wartość przeliczenia ma być ujęta w kilku krokach.
 
-**Get displacement** button to take the amount and direction of translation from the distance of selected entities (points, edges, faces) or even from a single edge. In the latter case, a green arrow is displayed to show the direction.
+Przycisk **Pobierz przemieszczenie** umożliwia określenie wielkości i kierunku przesunięcia na podstawie odległości między wybranymi obiektami *(punktami, krawędziami, ścianami)* lub nawet na podstawie pojedynczej krawędzi. W tym ostatnim przypadku wyświetlana jest zielona strzałka wskazująca kierunek.
 
-**OK** to perform the action and **Cancel** to close the dialog.
+**OK**, aby wykonać działanie, oraz **Anuluj**, aby zamknąć okno dialogowe.
 
-:   13\) Rotate + mate the edges (class rotJoin)
+   *   13\) Obracanie + dopasowywanie krawędzi *(klasa rotJoin)*
 
-Tool to translate and rotate the beams to mate two edges. Same as above but it also makes the edges co-linear.
+Narzędzie do przesuwania i obracania belek w celu dopasowania dwóch krawędzi. To samo, co powyżej, ale dodatkowo sprawia, że krawędzie są współliniowe.
 
-:   10\) pivotTheBeam (class pivotBeam)
+   *   10\) pivot Belki *(class pivotBeam)*
 
-Dialog to rotate one beam or other object around one of its edges.
+Okno dialogowe służące do obracania belki lub innego obiektu wokół jednej z jego krawędzi.
 
-**Angle** textbox to insert the degree of rotation.
+**Kąt** - pole tekstowe umożliwiające wprowadzenie wartości obrotu w stopniach.
 
-**Reverse** button to rotate in the opposite direction, if necessary.
+Przycisk \>\>Odwróć\<\< umożliwia w razie potrzeby obracanie w przeciwnym kierunku.
 
-**OK** to perform the action and **Cancel** to close the dialog.
+**OK**, aby wykonać działanie, oraz **Anuluj**, aby zamknąć okno dialogowe.
 
-:   11\) Flush the surfaces (class levelBeam)
+   *   11\) Zlicuj powierzchnie *(klasa LevelBeam)*
 
-Tool to flush the parallel faces of two objects. Actually the command takes to the same level, respect the position and orientation of the first face selected, the center-of-mass of all faces selected. Thus it translates the objects even if the faces are not parallel.
+Narzędzie do wyrównywania równoległych powierzchni dwóch obiektów. W rzeczywistości polecenie to przenosi na ten sam poziom, z uwzględnieniem położenia i orientacji pierwszej zaznaczonej powierzchni, środek masy wszystkich zaznaczonych powierzchni. W ten sposób dokonuje przesunięcia obiektów, nawet jeśli ich powierzchnie nie są równoległe.
 
-:   12\) Mate the Edges (class alignEdge)
+   *   12\) Wyrównaj krawędzie *(klasa alignEdge)*
 
-Tool to mate two parallel edges. Actually the command moves the objects along the minimum distance of their selected edge to the first one. Thus it translates the object even if edges are not parallel and it\'s a good way to place objects in desired position. It is also possible to select two edges of the same objects. With this method is possible to move quickly one object by steps defined on its own geometry.
+Narzędzie do łączenia dwóch równoległych krawędzi. W rzeczywistości polecenie to przesuwa obiekty wzdłuż minimalnej odległości ich wybranej krawędzi od pierwszej. W ten sposób przesuwa obiekt, nawet jeśli krawędzie nie są równoległe, i jest to dobry sposób na umieszczenie obiektów w pożądanym położeniu. Możliwe jest również wybranie dwóch krawędzi tego samego obiektu. Dzięki tej metodzie można szybko przesuwać jeden obiekt o kroki zdefiniowane na jego własnej geometrii.
 
-:   14\) alignFlange (class alignFlange)
+   *   14\) Wyrównaj kołnierz *(klasa alignFlange)*
 
-Dialog to rotate beams so that their surfaces are parallel to one reference plane.
+Dialog umożliwiający obracanie belek tak, aby ich powierzchnie były równoległe do jednej płaszczyzny odniesienia.
 
-It\'s possible to preselect the reference face before invoking the command.
+Możliwe jest wstępne wybranie powierzchni odniesienia przed wywołaniem tego polecenia.
 
-The three **XY**, **XZ** and **YZ** buttons allow to choose directly the orientation of principal planes as the reference.
+Trzy przyciski **XY**, **XZ** i **YZ** umożliwiają bezpośredni wybór orientacji płaszczyzn głównych jako odniesienia.
 
-Finally it\'s possible to enter directly the new orientation of faces by the three coordinates of the normal and the button **Set normal**.
+Można też bezpośrednio wprowadzić nową orientację powierzchni za pomocą trzech współrzędnych wektora normalnej i przycisku **Ustaw normalną**.
 
-:   15\) Stretch the beam (class stretchBeam)
+   *   15\) Rozciągnij belkę *(klasa stretchBeam)*
 
-Dialog to change the length of beams.
+Okno dialogowe umożliwiające zmianę długości belek.
 
-In the textbox write the new length that will be applied to selected beams or pipes. Otherwise **Get Length** button takes the new length from the selected geometry (either the length of a beam or edge or the distance between geometric entities).
+W polu tekstowym wpisz nową długość, która zostanie zastosowana do wybranych belek lub rur. W przeciwnym razie przycisk **Pobierz długość** pobiera nową długość z wybranej geometrii *(długość belki lub krawędzi albo odległość między obiektami geometrycznymi)*.
 
-With the slider it\'s possible to change the length wirtten in the text-box from -100% to +100%.
+Za pomocą suwaka można zmieniać długość tekstu w polu tekstowym w zakresie od -100% do +100%.
 
-Radio buttons **Head** and **Tail** allow to choose the side of the beam that will be changed.
+Przyciski **Początek** i **Koniec** pozwalają wybrać stronę belki, która zostanie zmieniona.
 
-:   16\) Extend the beam (class extend)
+   *   16\) Przedłuż belkę *(klasa extend)*.
 
-Dialog to extend one beam to one selected target.
+Dialog umożliwiający przedłużenie jednej belki do jednego wybranego celu.
 
-If entities are preselected before calling this command, the first entity is automatically taken as target and the object attached to it is removed from the selection set. In any case it\'s possible to change the target object with the push-button **Select**.
+Jeśli przed wywołaniem tego polecenia zaznaczono wcześniej elementy, pierwszy z nich jest automatycznie wybierany jako obiekt docelowy, a obiekt do niego dołączony jest usuwany z zestawu wyboru. W każdym przypadku możliwa jest zmiana obiektu docelowego za pomocą przycisku **Wybierz**.
 
-:   17\) Adjust frames\' angle (class adjustFrameAngle)
+   *   17\) Dostosuj kąt nachylenia ramy *(class adjustFrameAngle)*
 
-Tool to adjust the beams at square angles of frames. To understand at best how it works, refer to the previous tutorial.
+Narzędzie do ustawiania belek pod kątem prostym w ramach. Aby jak najlepiej zrozumieć działanie tego narzędzia, zapoznaj się z poprzednim samouczkiem.
 
 ## Narzędzia do rur 
 
 
-<div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
+<div class="center" style="width   * auto; margin-left   * auto; margin-right   * auto;">
 
 ![](images/Flamingos_pype2.jpg )
 
@@ -217,210 +217,223 @@ Tool to adjust the beams at square angles of frames. To understand at best how i
 </div>
 
 
-:   1\) Wstaw rurę.
+   *   1\) Wstaw rurę.
 
-Opens a dialog to insert tubes.
+Otwiera okno dialogowe do wstawiania rur.
 
-The top-right combo is a common feature for all \"Insert \...\" dialogs: it lists the pype-line objects defined in the current document: with this it\'s possible to select to which pype-line to assign the newly created pipes. You can also leave it to  so that the object is created on the root line of the part model. In the top-left corner is printed the currently selected pipe rating, taken from the listbox in the right column. Pipes dimensions for each pipe-rating are defined in .csv files, which is possible to add or modify, with few simple naming rules, according needs. Curves, reductions etc. have the same rules for definition of their tables of dimensions: see files in ../Mod/flamingo/Tables. Read also \"tutorialPype.pdf\" to know how to customize or create them.
+Kombinacja w prawym górnym rogu jest wspólna dla wszystkich okien dialogowych \"Wstaw \...\"   * zawiera listę obiektów linii rurowych zdefiniowanych w bieżącym dokumencie. Za jej pomocą można wybrać, do której linii rurowej przypisać nowo utworzone rury. Można również pozostawić ustawienie , aby obiekt był tworzony w linii głównej modelu części. W lewym górnym rogu wypisana jest aktualnie wybrana klasyfikacja rury, pobrana z pola listy w prawej kolumnie. Wymiary rur dla każdej klasy rur są zdefiniowane w plikach .csv, które można dodawać lub modyfikować, stosując kilka prostych zasad nazewnictwa, w zależności od potrzeb. Krzywe, redukcje itp. mają takie same zasady definiowania swoich tabel wymiarów   * patrz pliki w ../Mod/flamingo/Tabele. Przeczytaj także \"tutorialPype.pdf\", aby dowiedzieć się, jak je dostosować lub utworzyć.
 
-To define position and orientation of pipes, following selections are possible:
+Aby określić położenie i orientację rur, można wybrać następujące opcje   *
 
--   one or more straight edges
--   one or more curved edges
--   one or more vertexes
--   nothing; in this case the tube will be placed at origin.
+-   jedna lub więcej prostych krawędzi
+-   jedna lub więcej krawędzi zakrzywionych
+-   jeden lub więcej wierzchołków
+-   nic; w tym przypadku rura zostanie umieszczona w punkcie początkowym.
 
-If no length is specified, the default is 200 units (just a convenient length, in mm).
+Jeśli nie zostanie podana długość, domyślnie jest to 200 jednostek *(wygodna długość w mm)*.
 
-**Reverse** button allow to rotate by 180° the last tube created or those currently selected.
+Przycisk **Odwróć** umożliwia obrócenie o 180° ostatnio utworzonej lub aktualnie wybranej rury.
 
-**Apply** button allow to apply a different lenght or Nominal diameter to the tubes currently selected.
+Przycisk **Zastosuj** umożliwia zastosowanie innej długości lub średnicy nominalnej do aktualnie wybranych rur.
 
 
-**Dodo: added a pie-menu (keyboard shortcut: "Z") to create "pype" objects: this is intended to insert faster refinements to the drawing**
+**Dodo   * dodano menu kołowe ''(skrót klawiszowy   * "Z")'' do tworzenia obiektów typu "rura"   * ma to na celu szybsze wprowadzanie poprawek do rysunku**
 
 
-:   2\) Insert a curve
+   *   2\) Wstaw łuk.
 
-Opens a dialog to insert one elbow.
+Otwiera okno dialogowe umożliwiające wstawienie jednego kolanka.
 
-Beside the common widgets with other \"Insert\...\" dialogs, the **Trim/Extend** button allow to adjust the length of selected pipes to the selected edge of the curve. To define position and orientation following selections are possible:
+Oprócz widżetów wspólnych z innymi oknami dialogowymi \"Wstaw\...\", przycisk **Przytnij / Przedłuż** umożliwia dostosowanie długości wybranych rur do wybranej krawędzi łuku. Aby określić położenie i orientację, można wybrać następujące opcje   *
 
--   one vertex,
--   one circular edge
--   one pipe at one of its ends; in this case the curve\'s diameter and thickness will automatically fit those of the selected pipe
--   a pair of edges or pipes or beams, also not contiguous but intersecting; in this case curve\'s properties will automatically fit to connect the two selected objects; also selected pipes will be automatically trimmed or extended to the curve\'s edges
--   nothing; in this case the curve will be placed at origin.
+-   jeden wierzchołek,
+-   jedna krawędź łuku,
+-   jedną rurę na jednym z jej końców.
 
-If no angle is specified the default is 90 degrees.
+W tym przypadku średnica i grubość łuku zostaną automatycznie dopasowane do średnicy i grubości wybranej rury.
 
-:   3\) Insert a reduction
+-   para krawędzi, rur lub belek, również nie przylegających do siebie, ale przecinających się.
 
-Opens a dialog to insert concentric reductions.
+W tym przypadku właściwości krzywej zostaną automatycznie dopasowane do połączenia dwóch wybranych obiektów. Również wybrane rury zostaną automatycznie przycięte lub przedłużone do krawędzi krzywej
 
-To define position and orientation following selections are possible: two pipes parallel (possibly co-linear)
+-   nic.
 
--   one pipe at one of its ends
--   one pipe
--   one circular edge
--   one straight edge
--   one vertex
--   nothing (created at origin)
+W tym przypadku krzywa zostanie umieszczona w punkcie początkowym. Jeśli nie określono kąta, domyślnie jest to 90 stopni.
 
-In case one pipe is selected, its properties are applied to the reduction.
+   *   3\) Wstaw redukcję.
 
-In case two pipes are selected, the tool will try automatically to connect them with the right major and minor diameter.
+Otwiera okno dialogowe umożliwiające wstawienie zwężeń koncentrycznych.
 
-:   4\) Insert a cap
+Aby określić położenie i orientację, można wybrać następujące opcje   *
 
-Opens dialog to insert caps.
+-   dwie rury równoległe *(ewentualnie współliniowe)*,
+-   jedna rura na jednym z końców,
+-   jedna rura,
+-   jedna krawędź okręgu,
+-   jedna prosta krawędź,
+-   jeden wierzchołek,
+-   nic *(utworzony w punkcie początkowym)*.
 
-To define position and orientation following selections are possible: one or more curved edges (axis and origin across the center) one or more vertexes nothing If a pipe edge is selected the caps\' properties will automatically fit to those of the pipe.
+Jeśli zostanie wybrana jedna rura, jej właściwości zostaną zastosowane do redukcji.
 
-:   5\) Insert a valve
+Jeśli zostaną wybrane dwie rury, narzędzie spróbuje automatycznie połączyć je za pomocą odpowiedniej średnicy głównej i małej.
 
-Create a \"placeholder\" of a valve from a .csv table like above. Beside the offset dimension, it\'s important because it defines also the Kv coefficient that will be used to calculate pressure losses with the relevant tool in \"Utils\" menu. Note that the symbol of the placeholder changes according the type of the valve, if in its name is found one keyword among \"ball\", \"butterfly\" or \"globe\".
+   *   4\) Wstaw zaślepkę.
 
-:   6\) Insert a flange
+Otwiera okno dialogowe do wstawiania zaślepek.
 
-Opens dialog to insert flanges. To define position and orientation following selections are possible:
+Aby określić położenie i orientację, można wybrać następujące opcje   *
 
--   one or more circular edges,
--   one or more vertexes,
--   nothing.
+-   jedna lub więcej krawędzi zakrzywionych *(oś i początek przez środek)*,
+-   jeden lub więcej wierzchołków,
+-   nic,
 
-In case one pipe is selected, its properties are applied to the flange.
+Jeśli zostanie wybrana krawędź rury, właściwości zaślepek zostaną automatycznie dopasowane do właściwości rury.
 
-:   7\) Insert a U-bolt
+   *   5\) Wstaw zawór.
 
-Opens dialog to insert U-bolts.
+Utwórz \"obiekt zastępczy\" zaworu z tabeli .csv, jak powyżej. Oprócz wymiaru przesunięcia, jest on ważny, ponieważ definiuje również współczynnik Kv, który będzie używany do obliczania strat ciśnienia za pomocą odpowiedniego narzędzia w menu \"Narzędzia\". Zwróć uwagę, że oznaczenie symbolu zastępczego zmienia się w zależności od typu zaworu, jeśli w jego nazwie znajduje się jedno słowo kluczowe spośród \"ball\", \"butterfly\" lub \"globe\".
 
-To define position and orientation following selections are possible:
+   *   6\) Wstaw kołnierz.
 
--   one or more circular edges
--   one or more pipes
--   nothing.
+Otwiera okno dialogowe do wstawiania kołnierzy. Aby określić położenie i orientację, można wybrać następujące opcje   *
 
-In case one pipe is selected, its properties are aplied to the U-bolt. Moreover it\'s possible to choose to place the U-bolt at the **Head** or **Tail** ends or in the **Middle** of the pipes by checking the relevant box.
+-   jedna lub więcej krawędzi okręgu,
+-   jeden lub więcej wierzchołków,
+-   nic.
 
-With **Ref. face** button it\'s possible to select the face of the support to which to orient the U-bolt axis.
+Jeśli zostanie wybrana jedna rura, jej właściwości zostaną zastosowane do kołnierza.
 
+   *   7\) Włóż śrubę w kształcie U.
 
+Otwiera okno dialogowe do wstawienia śruby w kształcie litery U.
 
-*Only in **dodo**: the above piping components can be inserted also wfrom the dedicated pie-menu.*
+Aby określić położenie i orientację, można wybrać następujące opcje   *
 
+-   jedna lub więcej krawędzi okręgu
+-   jedna lub więcej rur
+-   nic.
 
+Jeśli zostanie wybrana jedna rura, jej właściwości zostaną zastosowane do śruby w kształcie litery U. Ponadto można wybrać umieszczenie śruby w kształcie litery U na jednym z końców lub \"Pośrodku\" rury, zaznaczając odpowiednie pole.
 
-:   8\) PypeLine Manager
+Za pomocą przycisku **Odniesienie do powierzchni** można wybrać powierzchnię podpory, względem której ma być ustawiona oś śruby w kształcie litery U.
 
-Before talking about the dialog it\'s worth to recall what the pype-line object is in the context of Flamingo workbench.
 
-This object represent a collection of objects \"PType\" that are updated with the methods defined in the Python class itself. At present time it creates, with the method \"obj.Proxy.update(obj,\[edges\])\", pipes and curves over the given edges and collect them in a group named according the object\'s obj.Label. A standard bending radius \"3D\" (i.e. 1.5xO.D.) is applied for curves. The Bend Radius is a common property of object pype-line, thus it can be changed and then redrawn. When the Label of the object pype-line is renamed, the name of its group is changed accordingly.
 
-The class PypeLine2 has also the optional attribute \".Base\", which namely represent the centerline of the piping:
+*Tylko w **dodo**   * powyższe elementy rurociągów można wstawiać także z dedykowanego menu kołowego*.
 
--   If Base is None, PypeLine2 behaves like a bare container of objects, with possibility to group them automatically, assign one color and extract the part-list.
--   .Base can be a Wire or a Sketch or any object which has edges in its Shape.
--   Running \"obj.Proxy.update(obj)\", without any \[edges\], the class attempts to render the pypeline (Pipe and Elbow objects) on the \"obj.Base\" edges: for well defined geometries this usually leads to the desired result. If \[edges\] are given, pipes and curves will be drawn along them.
--   Running \"obj.Proxy.purge(obj)\" deletes from the model all Pipes and Elbows that belongs to the pype-line.
--   Remember that the object created outside the .Base won\'t be updated when the .Base is changed and the pypeline is redrawn and (except pipe and curves) won\'t be deleted if the pype-line is purged.
 
-This understood, the command opens the dialog to create or modify one pype-line.
 
-The dialog is very similar to those for insert other objects seen before.
+   *   8\) Menedżer trasy rur
 
-The pipe ratings tables, where the O.D. and thickness are defined, are the same of those for tubes (e.g. Pipe\_SCH-STD.csv).
+Przed omówieniem okna dialogowego warto przypomnieć, czym jest obiekt linia rurowa w kontekście środowiska pracy Flamingo.
 
-When  is in the combo and **Insert** is pressed, a new pype-line object is created in the document with the relevant group.
+Obiekt ten reprezentuje kolekcję obiektów \"PType\", które są aktualizowane za pomocą metod zdefiniowanych w samej klasie Python. Obecnie tworzy on, za pomocą metody \"obj.Proxy.update(obj,\[edges\])\", rury i łuki nad podanymi krawędziami i zbiera je w grupę o nazwie zgodnej z etykietą obiektu obj.Label. Dla krzywych stosowany jest standardowy promień gięcia \"3D\" *(tzn. 1,5xO.D.)*. Promień gięcia jest wspólną właściwością obiektu linia rurowa, dlatego można go zmienić, a następnie przerysować. W przypadku zmiany nazwy etykiety obiektu linia rurowa, nazwa jego grupy zostaje odpowiednio zmieniona.
 
-It is possible to create one pypeline in three ways, according to the objects selected in the viewport when Insert is pushed:
+Klasa PypeLine2 ma także opcjonalny atrybut \".Base\", który reprezentuje linię środkową rurociągu   *
 
--   nothing is selected. One pype-line is created with property .Base = None and included in its group with the specified name and color (or default values). The piping objects to populate it can be created one-by-one with the commands seen above or alternatively a centerline can be selected afterwards with **Get Profile** and **Redraw** buttons.
--   one DWire object is selected. It is automatically taken as Base and converted in a Path (orange, dash-dotted) and pipes and curves are drawn along it.
--   a set of edges are selected (even not contiguous but anyway having intersections extending their ends). One Path is created connecting all the edges (see the Path tool in the Frame toolbar) and assigned as .Base to the newly created pype-line. Then pipes and curves are drawn on it as above.
+-   Jeśli parametr Base ma wartość None, PypeLine2 zachowuje się jak pusty kontener obiektów, z możliwością ich automatycznego grupowania, przypisania jednego koloru i wyodrębnienia listy części.
+-   .Base może być linią, szkicem lub dowolnym obiektem, który ma krawędzie w swoim kształcie.
+-   Uruchamiając \"obj.Proxy.update(obj)\", bez żadnych \[krawędzi\], klasa próbuje renderować linię rurową *(obiekty Rura i Kolano)* na krawędziach \"obj.Base\"   * dla dobrze zdefiniowanych geometrii prowadzi to zwykle do pożądanego rezultatu. Jeśli podano \[krawędzie\], to rury i łuki będą rysowane wzdłuż nich.
+-   Uruchomienie polecenia \"obj.Proxy.purge(obj)\" spowoduje usunięcie z modelu wszystkich rur i kolan należących do danej linii.
+-   Należy pamiętać, że obiekt utworzony poza .Base nie zostanie zaktualizowany, gdy .Base zostanie zmienione i rurociąg zostanie narysowany na nowo, a także *(z wyjątkiem rur i łuków)* nie zostanie usunięty, gdy linia rurowa zostanie usunięta.
 
-After that it\'s still possible to add other objects (such as Flange, Reduct\...) using the relevant insertion commands described above. When objects are created within a pype-line they are automatically included in the relevant group of the model and the common properties (i.e. O.D., thickness, color, bending radius etc.) are applied.
+Tak rozumiane polecenie otwiera okno dialogowe umożliwiające utworzenie lub modyfikację jednego przewodu rurowego.
 
-If at least one pype-line is already in the model, that can be selected from the combo-box: in this case, pushing Insert creates the pipes and curves like described above but, instead of creating a new pype-line object, it adds them to the selected existing pype-line. Beware that the piping created in this way will be deleted at next **Redraw**.
+Okno dialogowe jest bardzo podobne do okna dialogowego wstawiania innych obiektów, które widzieliśmy wcześniej.
 
-**Get Path**, Get Profile and Color allow to change the .Base property, the nominal size and color of the object respectively.
+Tabele klasyfikacji rur, w których określa się średnicę zewnętrzną i grubość, są takie same jak tabele dla rur *(np. Pipe\_SCH-STD.csv)*.
 
-**Redraw** re-create tubes and curves along the .Base (if defined) after any modification to the path or the properties of the pype-line.
+Gdy  znajduje się w kombi i zostanie naciśnięty klawisz **Wstaw**, w dokumencie zostanie utworzony nowy obiekt linii rurowej z odpowiednią grupą.
 
-**Part list** generates a .csv file with the bill of material of the piping object included in the pype-line selected in the combo.
+Jedną linię rurową można utworzyć na trzy sposoby, w zależności od obiektów zaznaczonych w rzutni w momencie naciśnięcia przycisku Wstaw   *
 
-:   9\) Insert a PypeBranch
+-   nic nie jest zaznaczone. Tworzona jest jedna linia rurowa z właściwością .Base = None i dołączana do swojej grupy z określoną nazwą i kolorem *(lub wartościami domyślnymi)*. Obiekty rurociągów, które mają ją wypełniać, można tworzyć pojedynczo za pomocą poleceń opisanych powyżej lub alternatywnie wybrać linię środkową za pomocą przycisków **Pobierz profil** i **Przerysuj**.
+-   Wybrano jeden obiekt linii. Zostaje on automatycznie potraktowany jako Podstawa i przekształcony w Ścieżkę *(pomarańczowa kreska)*, a wzdłuż niego rysowane są rury i łuki.
+-   wybrano zestaw krawędzi *(nawet nieprzylegających do siebie, ale mających przecięcia przedłużające ich końce)*. Tworzona jest jedna ścieżka łącząca wszystkie krawędzie *(patrz narzędzie Ścieżka na pasku narzędziowym Ramka)* i przypisywana jako .Baza do nowo utworzonej linii rurowej. Następnie rysowane są na niej rury i łuki w sposób opisany powyżej.
 
-This pype object behave like a PypeLine except it automatically updates whenever the Base (a DWire or a SketchObject) is modified: that includes changing the placement, stretching, moving, adding or deleting edges. It is mainly intended to represent the secondary branches of the PypeLine (see the dedicated tutorial) but it can also act as a stand-alone object. This is an important task that allow to change quickly the layout of pipes but, as a drawback, its geometry is more rigidly defined. In other words, pipes can not be splitted or resized independently because they will be eventually redrawn on the Base. Changin the OD, thk or BendRadius of the PypeBranch, instead, will apply on all tubes and curves of it.
+Potem można jeszcze dodać inne obiekty *(takie jak kołnierz, redukcja\...)*, używając odpowiednich poleceń wstawiania opisanych powyżej. Gdy obiekty są tworzone w obrębie linii rurowej, są one automatycznie włączane do odpowiedniej grupy modelu i stosowane są ich wspólne właściwości *(tj. średnica zewnętrzna, grubość, kolor, promień gięcia itd.)*.
 
-:   10\) Insert a tank
+Jeśli w modelu znajduje się już co najmniej jeden rurociąg, można go wybrać z pola kombi   * w takim przypadku polecenie Wstaw tworzy rury i łuki w sposób opisany powyżej, ale zamiast tworzyć nowy obiekt linii rurowej, dodaje je do wybranego istniejącego rurociągu. Należy pamiętać, że rurociągi utworzone w ten sposób zostaną usunięte podczas następnego **Przerysowania**.
 
-[See tutorial Part 4 (1/2)](#Links.md)
+Funkcje **Pobierz ścieżkę**, *Pobierz profil* i *Kolor* umożliwiają zmianę odpowiednio właściwości .Base, rozmiaru nominalnego i koloru obiektu.
 
-:   11\) Insert a piperoute
+**Przerysuj** - ponowne utworzenie rur i łuków wzdłuż .Bazy *(jeśli jest zdefiniowana)* po każdej modyfikacji ścieżki lub właściwości linii rurowej.
 
-[See tutorial Part 4 (2/2)](#Links.md)
+**Lista części** generuje plik .csv z zestawieniem materiałów obiektów rurociągowych wchodzących w skład linii rurowej wybranej w polu wyboru.
 
-:   12\) Break the pipe
+   *   9\) Wstaw odgałęzienie rury.
 
-Opens a dialog to break one pipe at a defined point, optionally making a gap between the ends of the two parts. Multiple selection is possible.
+Ten obiekt rurowy zachowuje się jak linia rurowa, z tą różnicą, że jest automatycznie aktualizowany za każdym razem, gdy podstawa *(linia lub obiekt szkicu)* jest modyfikowana   * obejmuje to zmianę położenia, rozciąganie, przesuwanie, dodawanie lub usuwanie krawędzi. Jest on przeznaczony głównie do reprezentowania drugorzędnych gałęzi linii rurowej *(zobacz dedykowany samouczek)*, ale może również działać jako samodzielny obiekt. Jest to ważne zadanie, które pozwala szybko zmieniać układ rur, ale jego wadą jest to, że jego geometria jest bardziej sztywno zdefiniowana. Innymi słowy, rur nie można dzielić ani zmieniać ich rozmiarów niezależnie, ponieważ w końcu zostaną przerysowane na Podstawie. Zmiana średnicy zewnętrznej, grubości lub promienia gięcia odgałęzienia rury będzie dotyczyła wszystkich rur i ich łuków.
 
-Insert in the **Point** text-box the length where the pipe or pipes are going to break: this can be an absolute value or just a percentage of the length (a numeral followed by %). In some case it\'s quicker to use the slide-bar at the bottom to change this value.
+10\) Wstaw zbiornik.
 
-The **Length** button allow to measure the length of the selected pipe and use that as the reference of the slide-bar scale.
+[zobacz poradnik część 4 *(1/2)*](Flamingo_Workbench/pl#Odno.C5.9Bniki_internetowe.md)
 
-If it\'s needed just to break pipes in two, leave the **Gap** text-box to 0; otherwise define the length of the gap. If a reference length is choosen, also the gap can be defined as a percentage. As seen in the [tutorial](https://github.com/oddtopus/flamingo/blob/master/tutorials), it\'s possible to measure the gap from geometries in the model with the **Get gap** button: that\'s the distance between any geometric entity or even the length of a single edge.
+   *   11\) Wstaw trasę rury
 
-Pushing on **Break** performs the action.
+[zobacz poradnik część 4 *(2/2)*](Flamingo_Workbench/pl#Odno.C5.9Bniki_internetowe.md)
 
-The Pypeline combo, as usual, allow to choose the group to which to assign the new objects created.
+   *   12\) Przerwij rurę
 
-:   13\) Mate pipes edges.
+Otwiera okno dialogowe, aby przerwać jedną rurę w określonym punkcie, opcjonalnie tworząc szczelinę między końcami dwóch części. Możliwy jest wybór wielokrotny.
 
-When two circular edges belonging to different objects are selected, pressing this button will make the second object move to make the edges concentric and coplanar.
+W polu tekstowym **Punkt** wpisz długość, na której rura lub rury mają zostać przerwane   * może to być wartość bezwzględna lub tylko procent długości *(cyfra, po której następuje %)*. W niektórych przypadkach szybciej jest zmienić tę wartość za pomocą suwaka znajdującego się na dole.
 
-This works not only with pipes.
+Przycisk **Długość** pozwala zmierzyć długość wybranej rury i użyć jej jako odniesienia dla skali suwaka.
 
-:   14\) Join the pypes
+Jeśli jest to potrzebne tylko do rozdzielenia rur na dwie części, pozostaw pole tekstowe **Odstęp** ustawione na 0. W przeciwnym razie zdefiniuj długość odstępu. Jeśli wybrano długość referencyjną, można również zdefiniować szczelinę jako wartość procentową. Jak pokazano w [poradniku](https   *//github.com/oddtopus/flamingo/blob/master/tutorials), można zmierzyć szczelinę na podstawie geometrii w modelu za pomocą przycisku **Pobierz szczelinę**   * jest to odległość między dowolnymi elementami geometrycznymi lub nawet długość pojedynczej krawędzi.
 
-Joins the Ports of different objects in a graphical way. It works only among pype-objects, also from different workbenches, where the Ports\[\] property is defined congruently.
+Naciśnięcie przycisku **Przerwij** powoduje wykonanie akcji.
 
-:   15\) Fit one elbow
+Przycisk wyboru, jak zwykle, pozwala wybrać grupę, do której mają być przypisane nowo utworzone obiekty.
 
-Select 2 intersecting pipes + 1 elbow: executing this command, they will be joined. It works only among pype-objects, also from different workbenches.
+   *   13\) Zrównaj krawędzie rur.
 
-:   16\) Extend pipes to intersection
+Gdy zaznaczone są dwie okrągłe krawędzie należące do różnych obiektów, naciśnięcie tego przycisku spowoduje, że drugi obiekt przesunie się, aby krawędzie były współśrodkowe i współpłaszczyznowe.
 
-By selecting two pipes, this command extend them both to their intersection point, if exists.
+Funkcja działa nie tylko w przypadku rur.
 
-:   17\) Extend pipe to intersection
+   *   14\) Połącz rury.
 
-By selecting two pipes, this command extend the first to the intersection with the other, if exists.
+Łączy porty różnych obiektów w sposób graficzny. Działa to tylko między obiektami rurowymi, także z różnych obszarów roboczych, gdzie właściwość Ports\[\] jest zdefiniowana w sposób spójny.
 
-:   18\) Lay-down the pipes
+   *   15\) Zamontuj jedno kolanko.
 
-By selecting one face and multiple pipes, this command translates the pipe along the normal of the face in order to make them lie on its plane.
+Wybierz 2 przecinające się rury + 1 kolanko   * wykonując to polecenie, zostaną one połączone. Funkcja działa tylko między obiektami rurowymi, także z różnych obszarów roboczych.
 
-:   19\) Raise-up the support
+   *   16\) Przedłuż rury do skrzyżowania.
 
-Similar to the tool above but in this case is the support that is raised or lowered, so that the face is tangent to the pipe.
+Wybierając dwie rury, polecenie to przedłuża je do punktu przecięcia, jeśli taki istnieje.
 
-:   20\) Attach to tube
+   *   17\) Przedłuż rurę do skrzyżowania.
 
-Attaches a pype object (2, 3, 4, 5 or 6) rigidly to the nearest end of a pipe (1). To detach, click on the button while the attached object is selected alone.
+Wybierając dwie rury, polecenie to powoduje przedłużenie pierwszej z nich do punktu przecięcia z drugą, jeśli taka istnieje.
 
-:   21\) Create pipes point-to-point
+   *   18\) Ułóż rury.
 
-Opens a dialog similar to \"Draw a DWire\" together with the dialog of \"Insert a pipe\": this allows to draw a sequence of pipes, connected by curves, just selecting one point after the other. It is also allowed to change properties of the pipe and/or the pype-line on the fly.
+Wybierając jedną ścianę i wiele rur, polecenie to powoduje przesunięcie rur wzdłuż normalnej ściany, tak aby leżały na jej płaszczyźnie.
 
-:   22\) Insert Any Shape
+   *   19\) Wznieś podporę.
 
-This is a tool to create a \"pype\" object from a .STEP or .IGES or .BREP file. It loads the imported file into the Shape property of a FeaturePython.
+Podobne do powyższego narzędzia, ale w tym przypadku jest to podpora, która jest podnoszona lub opuszczana, tak aby powierzchnia czołowa była styczna do rury.
 
-## Utilities
+   *   20\) Zamocuj do rury.
 
+Przymocowuje na sztywno obiekt rurowy *(2, 3, 4, 5 lub 6)* do najbliższego końca rury *(1)*. Aby odłączyć, kliknij na przycisk, gdy dołączony obiekt jest zaznaczony indywidualnie.
 
-<div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
+   *   21\) Tworzenie rur punkt-punkt.
+
+Otwiera okno dialogowe podobne do \"Rysuj linię\" wraz z oknem dialogowym \"Wstaw rurę\"   * pozwala to narysować sekwencję rur, połączonych krzywymi, wybierając po prostu jeden punkt za drugim. Można także w locie zmieniać właściwości rury i/lub linii rurowej.
+
+   *   22\) Wstaw dowolny kształt.
+
+Jest to narzędzie do tworzenia obiektu \"rury\" z pliku .STEP, .IGES lub .BREP. Wczytuje ono zaimportowany plik do właściwości Kształt w pliku FeaturePython.
+
+## Narzędzia
+
+
+<div class="center" style="width   * auto; margin-left   * auto; margin-right   * auto;">
 
 ![](images/Flamingos_utils.jpg )
 
@@ -428,85 +441,90 @@ This is a tool to create a \"pype\" object from a .STEP or .IGES or .BREP file. 
 </div>
 
 
-:   1\) Make a polygon
+   *   1\) Utwórz wielokąt.
 
-The first two tools of utils are part of a separate project which aims to create an automatic scanner of rooms with a stepper motor and an ultrasonic distance meter. This tool creates one regular polygon inside a sketch.
+Pierwsze dwa narzędzia z pakietu narzędzi są częścią osobnego projektu, którego celem jest stworzenie automatycznego skanera pomieszczeń z silnikiem krokowym i ultradźwiękowym miernikiem odległości. To narzędzie tworzy jeden regularny wielokąt wewnątrz szkicu.
 
-:   2\) Polygon from file
+   *   2\) Wielokąt z pliku.
 
-Tool to create any polygon inside a sketch taking vertexes from a .csv file, where they are stored in polar coordinates.
+Narzędzie do tworzenia dowolnego wielokąta wewnątrz szkicu, pobierając wierzchołki z pliku .csv, w którym są one zapisane w postaci współrzędnych biegunowych.
 
-:   3\) Query the model
+   *   3\) Tworzenie zapytań do modelu.
 
-Tool to get various informations according to the object or objects selected. Beside length or distances, it is specifically suited to give informations related to beams and pipes (length, section, angle-between).
+Narzędzie do uzyskiwania różnych informacji w zależności od wybranego obiektu lub obiektów. Oprócz długości i odległości, narzędzie to jest szczególnie przydatne do podawania informacji związanych z belkami i rurami *(długość, przekrój, kąt między nimi)*.
 
-:   4\) Align workplane
+   *   4\) Wyrównaj płaszczyznę roboczą.
 
-Tool to set the position and rotation of working plane according to the selected existing geometry.
+Narzędzie do ustawiania położenia i obrotu płaszczyzny roboczej zgodnie z wybraną istniejącą geometrią.
 
-The normal of working plane is defined scanning the elements in the following order:
+Normalna płaszczyzny roboczej jest określona przez skanowanie elementów w następującej kolejności   *
 
-1.  the normal of a face
-2.  the normal of the plane of a curve
-3.  the normal of the plane containing two segments
+1.  normalna ściany,
+2.  normalna płaszczyzny łuku,
+3.  normalna płaszczyzny zawierającej dwa odcinki.
 
-The origin of working plane is defined (in order) by
+Początek płaszczyzny roboczej jest określony *(w kolejności)* przez   *
 
-1.  one vertex
-2.  the center of curvature of a line
-3.  the intersection of two lines
-4.  the center of an edge
+1.  jeden wierzchołek,
+2.  środek krzywizny prostej,
+3.  punkt przecięcia dwóch prostych,
+4.  środek krawędzi.
 
-:   5\) Offset workplane
+   *   5\) Odsunięcie płaszczyzny roboczej.
 
-Shifts the working plane along its normal vector. To show the direction of offset, a temporary green arrow is displayed on the screen. Clearly also negative values are allowed.
+Odsuwa płaszczyznę roboczą wzdłuż jej wektora normalnego. Aby pokazać kierunek przesunięcia, na ekranie wyświetlana jest tymczasowa zielona strzałka. Wyraźnie widać, że dozwolone są również wartości ujemne.
 
-:   6\) Rotate workplane
+   *   6\) Obróć płaszczyznę roboczą.
 
-Rotates the working plane around one of its axis. Also in this case a green arrow is displayed in the viewport to identify the present orientation of the WP: the arrow is pointed in the Z direction and the long base of the arrow is layed over the X direction.
+Obraca płaszczyznę roboczą wokół jednej z jej osi. Również w tym przypadku w rzutni wyświetlana jest zielona strzałka określająca aktualną orientację narzędzia Płaszczyzny roboczej   * strzałka jest skierowana w kierunku Z, a długa podstawa strzałki znajduje się w kierunku X.
 
-:   7\) Draw a DWire
+   *   7\) Narysuj linę.
 
-This tool works exactly like the corresponding tool of Draft workbench but with few additional options at the end of the dialog. As default, the origin of working plane is redefined at each point added because this makes simpler to draw segments of known length and orientation using the snap-to-grid option. Then two push-buttons, invoked also with the short-key Ctrl+Shift+(), allow to rotate and offset the working plane as seen above without breaking the DWire object. The last three buttons allow to quickly change the rotation of working plane to be parallel to the principal planes.
+Narzędzie to działa dokładnie tak samo, jak odpowiadające mu narzędzie w oknie środowiska Rysunek Roboczy, ale z kilkoma dodatkowymi opcjami dostępnymi u dołu okna dialogowego. Domyślnie początek płaszczyzny roboczej jest definiowany na nowo dla każdego dodanego punktu, ponieważ ułatwia to rysowanie odcinków o znanej długości i orientacji przy użyciu opcji przyciągania do siatki. Następnie dwa przyciski, wywoływane również za pomocą skrótu klawiszowego **Ctrl** + **Shift** + **(** **)**, pozwalają obracać i przesuwać płaszczyznę roboczą w sposób widoczny powyżej, bez przerywania pracy obiektu Linii. Ostatnie trzy przyciski pozwalają szybko zmienić obrót płaszczyzny roboczej tak, aby była ona równoległa do płaszczyzn głównych.
 
-:   8\) Quick move objects
+   *   8\) Szybkie przesuwanie obiektów.
 
-To move quickly any part, to access the underlying objects for instance, this tool provides a graphic handle (green arrow) by clicking on which it\'s possible to displace and rotate the selected objects.
+Aby szybko przesunąć dowolną część, na przykład w celu uzyskania dostępu do obiektów znajdujących się pod nią, narzędzie to udostępnia uchwyt graficzny *(zielona strzałka)*, po kliknięciu którego można przesuwać i obracać wybrane obiekty.
 
-:   9\) Pressure loss calculator
+   *   9\) Kalkulator strat ciśnienia.
 
-Opens one dialog to calculate the pressure losses across the pype-parts selected in the viewport or across one PypeBranch. The friction coefficient is calculated for each straight tube and elbow. For other objects the concentrated pressure loss is calculated through the flow factor, provided that the attribute Kv is available and set to a positive value.
+Otwiera jedno okno dialogowe do obliczania strat ciśnienia na odcinkach rur zaznaczonych w rzutni lub na jednym odgałęzieniu rur. Współczynnik tarcia jest obliczany dla każdej rury prostej i kolana. Dla innych obiektów skupiona strata ciśnienia jest obliczana za pomocą współczynnika przepływu, pod warunkiem że atrybut Kv jest dostępny i ustawiony na wartość dodatnią.
 
 ## Odnośniki internetowe 
 
--   Forum: [New workbench for metal structures](http://forum.freecadweb.org/viewtopic.php?f=8&t=17035) (announcement)
--   Forum: [Flamingo & Dodo workbench(s) discussion thread](https://forum.freecadweb.org/viewtopic.php?t=22711)
--   Tutorials: [flamingo/tutorials](https://github.com/oddtopus/flamingo/tree/master/tutorials)
+-   Forum   * [Nowe środowisko pracy dla konstrukcji metalowych](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=17035) *(ogłoszenie)*.
+-   Forum   * [środowiska pracy Flamingo & Dodo - dyskusja na forum](https   *//forum.freecadweb.org/viewtopic.php?t=22711)
+-   Poradniki   * [flamingo/tutorials](https   *//github.com/oddtopus/flamingo/tree/master/tutorials)
 
--   Video tutorials:
-    -   [Simple video tutorial for frame creation with pipes](https://www.youtube.com/watch?v=_Or91gdBLMU)
-    -   [Part 1: how to created pipe lines](https://www.youtube.com/watch?v=cBj0umlvzAk)
-    -   [Part 2: frames, supports, flanges, and imported components](https://www.youtube.com/watch?v=e81PpWY5L00)
-    -   [Part 3: drawing one building with four sketches (and a bunch of other features)](https://www.youtube.com/watch?v=IqEccmsg5dU)
-    -   [Part 4 (1/2): Pump room layout and piping plan](https://www.youtube.com/watch?v=aPF8SS_1Aqo)
-    -   [Part 4 (2/2): Pump room import in building and pipe-route](https://www.youtube.com/watch?v=iGnW88x9bKQ)
--   Reporting bugs:
-    -   [Flamingo GitHub issue queue](https://github.com/oddtopus/flamingo/issues)
-    -   [Dodo GitHub issue queue](https://github.com/oddtopus/dodo/issues)
+-   Poradniki wideo   *
+    -   [Prosty samouczek wideo do tworzenia ram z rur](https   *//www.youtube.com/watch?v=_Or91gdBLMU).
+    -   [Część 1   * jak tworzyć linie rur](https   *//www.youtube.com/watch?v=cBj0umlvzAk).
+    -   [Część 2   * ramy, podpory, kołnierze i importowane komponenty](https   *//www.youtube.com/watch?v=e81PpWY5L00).
+    -   [Część 3   * rysowanie jednego budynku za pomocą czterech szkiców *(i wiele innych funkcji)*](https   *//www.youtube.com/watch?v=IqEccmsg5dU).
+    -   [Część 4 (1/2)   * Rozmieszczenie pompowni i plan rurociągów](https   *//www.youtube.com/watch?v=aPF8SS_1Aqo).
+    -   [Część 4 (2/2)   * Import pompowni do budynku i trasa rurociągu](https   *//www.youtube.com/watch?v=iGnW88x9bKQ).
+-   Zgłaszanie błędów   *
+    -   [Flamingo kolejka zgłoszeń GitHub](https   *//github.com/oddtopus/flamingo/issues).
+    -   [Dodo kolejka zgłoszeń GitHub](https   *//github.com/oddtopus/dodo/issues).
 
-## Other useful links 
+## Inne użyteczne odnośniki 
 
--   [External workbenches](External_workbenches.md)
--   [Macros recipes](Macros_recipes.md)
--   [OSE-Piping-Workbench: to create extra pipe fittings](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
+-   [Przepisy na makropolecenia](Macros_recipes/pl.md)
+-   [OSE-Piping-Workbench   * tworzenie dodatkowych złączy rurowych](https   *//wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
 
 ## Zewnętrzne środowiska pracy 
 
 Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [Python](Python/pl.md). Dlatego też, wiele osób opracowuje dodatkowe \"przestrzenie robocze\" wykraczające poza główny obszar rozwoju programu FreeCAD.
 
-Strona [Zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera informacje i poradniki na temat niektórych z nich, a projekt [Dodatki FreeCAD](https://github.com/FreeCAD/FreeCAD-addons) ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
+Strona [Zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera informacje i poradniki na temat niektórych z nich, a projekt [Dodatki FreeCAD](https   *//github.com/FreeCAD/FreeCAD-addons) ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
 
 Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

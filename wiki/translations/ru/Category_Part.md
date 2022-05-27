@@ -1,6 +1,8 @@
 # Category:Part/ru
 This category lists pages related to the [Part Workbench/ru](Part_Workbench/ru.md).
 
+[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher ConstrainAngle
-   Name/de   *Skizzierer BeschränkeWinkel
-   MenuLocation   *Skizze → Skizzierer Beschränkungen → Winkel beschränken
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut   ***A**
-   SeeAlso   *[Skizzierer Beschränke Abstand](Sketcher_ConstrainDistance/de.md), [Skizzierer Beschränkung Senkrecht](Sketcher_ConstrainPerpendicular/de.md)
+   Name/de   *Sketcher WinkelFestlegen
+   MenuLocation   *Sketch → Sketcher constraints → Winkel festlegen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***K** **A**
+   SeeAlso   *[Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher RechtwinkligFestlegen](Sketcher_ConstrainPerpendicular/de.md)
 ---
 
 # Sketcher ConstrainAngle/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -26,22 +23,16 @@ Es gibt vier verschiedene Möglichkeiten, wie die Beschränkung angewendet werde
 -   zu Schnittpunkten von Kurven
 -   zu Kreisbögen
 
-
-<div class="mw-translate-fuzzy">
-
 Um die Winkelbeschränkung anzuwenden, sollte man den Schritten folgen   *
 
 1.  Wähle ein, zwei oder drei Elemente in der Skizze aus. Der Modus wird abhängig von der Auswahl gewählt.
 2.  Rufe die Beschränkung mit verschiedenen Methoden auf   *
-    -   Drücken der **[<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> [Beschränke Winkel](Sketcher_ConstrainAngle/de.md)** Schaltfläche in der Werkzeugleiste.
-    -   Verwendung der **A** Tastaturkürzel. (**A**\' steht für **A**ngle, engl.   * Winkel)
-    -   Verwendung des **Skizze → Skizzierer Beschränkungen → [<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> Beschränke Winkel** aus dem obersten Menüeintrag
+    -   Drücken der **[<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> [Winkel festlegen](Sketcher_ConstrainAngle/de.md)** Schaltfläche in der Werkzeugleiste.
+    -   Verwendung der **K** dann **A** Tastaturkürzel.
+    -   Verwendung des **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> Winkel festlegen** aus dem obersten Menüeintrag
 3.  Ein Bezugs Bezugsbearbeitungsdialogfeld klappt auf.
 4.  Ändere den Winkel, falls erforderlich. **Hinweis   *** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
 5.  Klicke **OK**
-
-
-</div>
 
 Wie bei jeder Bezugsbeschränkung ist es möglich, den Winkelwert später zu ändern, durch Doppelklick der Beschränkung in der Beschränkungsliste oder der 3D Ansicht. Die Eingabe eines negativen Wertes führt zum Umkippen der Winkelrichtung.
 
@@ -83,15 +74,7 @@ Damit die Beschränkung korrekt funktioniert, muss der Punkt auf beiden Kurven l
 
 ## Skripten
 
-
-<div class="mw-translate-fuzzy">
-
-Winkelbeschränkung kann aus [Makros](Macros/de.md) und aus der Python Konsole wie folgt erstellt werden   *
-
-
-</div>
-
-
+Die Randbedingung WinkelFestlegen kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus wie folgt erstellt werden   * 
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))
@@ -104,9 +87,7 @@ Sketch.addConstraint(Sketcher.Constraint('Angle',iline1,pointpos1,iline2,pointpo
 
 # angle-via-point (no helper constraints are added automatically when from python)
 Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpoint,pointpos,angle))
-```
-
-wobei   *
+``` wobei   *
 
    ** `Sketch` ein Skizzenobjekt ist
 
@@ -121,13 +102,7 @@ wobei   *
 Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

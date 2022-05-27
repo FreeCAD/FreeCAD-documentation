@@ -18,7 +18,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style=
 <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimensionExample.png  style="width   *400px;"> 
 *Rechts schräge Maße mit gleichen Abständen*
 
-## Verwendung
+## Anwendung
 
 1.  Optional   * lege den Abstand mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) fest.
 2.  Wähle zwei oder mehr schräge Maße.

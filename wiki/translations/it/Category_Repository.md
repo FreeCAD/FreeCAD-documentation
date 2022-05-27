@@ -1,7 +1,9 @@
 # Category:Repository/it
-## Categoria: Repositorio 
+## Categoria   * Repositorio 
 
 Questa categoria raccoglie le pagine che costituiscono un repositorio di risorse per FreeCAD, come macro, parti, ecc ..
+
+[Category   *Categories/it](Category   *Categories/it.md)
 
 ### Contents
 

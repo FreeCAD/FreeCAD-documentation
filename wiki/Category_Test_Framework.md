@@ -1,6 +1,8 @@
 # Category:Test Framework
 This category lists pages related to the [Test Framework Workbench](Testing.md).
 
+[Category   *Workbenches](Category_Workbenches.md) [Category   *User\_Documentation](Category_User_Documentation.md) [Category   *Testing](Category_Testing.md)
+
 ### Contents
 
 |     |     |     |

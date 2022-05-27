@@ -1,6 +1,8 @@
 # Category:Robot/pl
 This category lists pages related to the [Robot Workbench/pl](Robot_Workbench/pl.md).
 
+[Category   *Workbenches/pl](Category   *Workbenches/pl.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:Points/ru
 This category lists pages related to the [Points Workbench/ru](Points_Workbench/ru.md).
 
+[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
+
 ### Contents
 
 |     |     |     |

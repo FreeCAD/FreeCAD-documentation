@@ -1,6 +1,8 @@
 # Category:Template:Navigation/ru
 This category lists templates that create navigation elements.
 
+[Category   *Template/ru](Category   *Template/ru.md)
+
 ### Contents
 
 |     |     |     |

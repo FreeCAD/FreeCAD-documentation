@@ -1,6 +1,8 @@
 # Category:Template:Text Format/fr
 Cette catégorie répertorie les modèles au format texte donnés en entrée.
 
+[Category   *Template/fr](Category   *Template/fr.md)
+
 ### Contents
 
 |     |     |     |

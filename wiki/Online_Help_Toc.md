@@ -142,7 +142,7 @@
     - [Translating an external workbench](Translating_an_external_workbench.md)
     - [File Format FCStd](File_Format_FCStd.md)
     - [0.20 Development Cycle](0.20_Development_Cycle.md)
-    - [IRC channel](Irc://chat.freenode.net/freecad)
+    - [IRC channel](Irc   *//chat.freenode.net/freecad)
     - [Development roadmap](Development_roadmap.md)
     - [Contributors](Contributors.md)
 - [Manual](Manual_Summary.md)

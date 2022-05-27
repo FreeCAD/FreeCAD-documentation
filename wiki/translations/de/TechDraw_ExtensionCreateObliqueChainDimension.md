@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  st
 <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimensionExample.png  style="width   *350px;"> 
 *Rechts die erzeugten Bemaßungen*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle drei oder mehr Knotenpunkte.
 2.  Die beiden zuerst gewählten Knotenpunkte bestimmen die Richtung und die Position der Maßkette.

@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style
 <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimensionExample.png  style="width   *300px;"> 
 *Rechts die erzeugten Bemaßungen*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle drei oder mehr Knotenpunkte.
 2.  Die beiden höchsten Knotenpunkte bestimmen die Position der Maßkette.

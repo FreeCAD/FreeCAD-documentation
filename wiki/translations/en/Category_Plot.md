@@ -1,6 +1,8 @@
 # Category:Plot/en
 This category lists pages related to the [Plot Workbench](Plot_Workbench.md).
 
+[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *Workbenches](Category_Workbenches.md)
+
 ### Contents
 
 |     |     |     |

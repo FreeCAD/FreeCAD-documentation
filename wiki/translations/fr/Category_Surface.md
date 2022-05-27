@@ -1,6 +1,8 @@
 # Category:Surface/fr
 Cette catégorie répertorie les pages liées à la [Surface Workbench/fr](Surface_Workbench/fr.md).
 
+[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,38 +1,40 @@
 ---
-- GuiCommand:
-   Name:Std ViewFitAll
-   MenuLocation:View → Standard views → Fit all
-   Workbenches:All
-   Shortcut:**V** **F**
-   SeeAlso:[Std ViewFitSelection](Std_ViewFitSelection.md)
+- GuiCommand   */pl
+   Name   *Std ViewFitAll
+   Name/pl   *Std   * Dopasuj wszystko
+   MenuLocation   *Widok → Widoki standardowe → Dopasuj wszystko
+   Workbenches   *wszystkie
+   Shortcut   ***V** → **F**
+   SeeAlso   *[Widok dopasowany do wyboru](Std_ViewFitSelection/pl.md)
 ---
 
 # Std ViewFitAll/pl
 
-## Description
+## Opis
 
-The **Std ViewFitAll** command zooms and pans the camera so that all visible objects fit inside the active [3D view](3D_view.md).
+Polecenie **Przybliż i dopasuj wszystko** powiększa i przesuwa ujęcie widoku tak, że wszystkie widoczne obiekty mieszczą się w aktywnym oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewFitAll.svg" width=16px> [Std ViewFitAll](Std_ViewFitAll.md)** button.
-    -   Select the **View → Standard views → <img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the menu.
-    -   Select the **<img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **V** then **F**.
+1.  Wybierz jeden lub więcej obiektów.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_ViewFitAll.svg" width=16px> [Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)**.
+    -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewFitAll.svg" width=16px> Przybliż i dopasuj wszystko**.
+    -   Wybierz z menu opcję **<img src="images/Std_ViewFitAll.svg" width=16px> Przybliż i dopasuj wszystko** z menu kontekstowego w oknie [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **V**, a następnie **F**.
 
-## Notes
+## Uwagi
 
--   It is also possible to zoom to \'fit all\' via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
+-   Można również przełączyć się do trybu widoku *Przybliż i dopasuj wszystko* za pomocą menu Mini-sześcianu [kostki nawigacyjnej](Navigation_Cube/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the view to \'fit all\' use the `fitAll` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok *Przybliż i dopasuj wszystko*, należy użyć metody `fitAll` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python
@@ -41,7 +43,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.ActiveView.fitAll()
 ```
 
-Alternatively the `SendMsgToActiveView` method of the FreeCADGui object can be used. This method is not available if FreeCAD is in console mode.
+Alternatywnie można użyć metody `SendMsgToActiveView` obiektu FreeCADGui. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

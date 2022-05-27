@@ -1,6 +1,8 @@
 # Category:Robot/ru
 This category lists pages related to the [Robot Workbench/ru](Robot_Workbench/ru.md).
 
+[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
+
 ### Contents
 
 |     |     |     |

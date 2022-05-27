@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/es
-   Name:Draft BSpline
-   Name/es:Borrador BSpline
-   MenuLocation:Borrador → B-Spline 
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**B** **S**
-   Version:0.7
-   SeeAlso:[Borrador Hilo](Draft_Wire/es.md), [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md), [Borrador BezCurva](Draft_BezCurve/es.md)
+- GuiCommand   */es
+   Name   *Draft BSpline
+   Name/es   *Borrador BSpline
+   MenuLocation   *Borrador → B-Spline 
+   Workbenches   *[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut   ***B** **S**
+   Version   *0.7
+   SeeAlso   *[Borrador Hilo](Draft_Wire/es.md), [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md), [Borrador BezCurva](Draft_BezCurve/es.md)
 ---
 
 # Draft BSpline/es
@@ -16,21 +16,21 @@
 
 ## Descripción
 
-El <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> comando **Borrador BSpline** crea una [curva B-spline](https://es.wikipedia.org/wiki/B-spline) a partir de varios puntos.
+El <img alt="" src=images/Draft_BSpline.svg  style="width   *24px;"> comando **Borrador BSpline** crea una [curva B-spline](https   *//es.wikipedia.org/wiki/B-spline) a partir de varios puntos.
 
 El comando Borrador BSpline especifica los **puntos exactos** por los que pasará la curva. Los comandos [Borrador BezCurva](Draft_BezCurve/es.md) y [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md), por otro lado, utilizan **puntos de control** para definir la posición y la curvatura de la spline.
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;"> 
 *Spline definida por múltiples puntos*
 
 ## Utilización
 
-Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restricción](Draft_Constrain/es.md).
+Ver también   * [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restricción](Draft_Constrain/es.md).
 
-1.  Hay varias formas de invocar el comando:
+1.  Hay varias formas de invocar el comando   *
     -   Pulsar el **<img src="images/Draft_BSpline.svg" width=16px> [Borrador BSpline](Draft_BSpline/es.md)**.
     -   Seleccione la opción **Borrador → <img src="images/Draft_BSpline.svg" width=16px> B-spline** en el menú.
-    -   Utilice el atajo de teclado: **B** y luego **S**.
+    -   Utilice el atajo de teclado   * **B** y luego **S**.
 2.  Se abre el panel de tareas **B-spline**. Ver [Opciones](#Opciones.md) para más información.
 3.  Elige el primer punto en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
 4.  Elige puntos adicionales en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el botón **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
@@ -39,6 +39,9 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
 ## Opciones
 
 Los atajos de teclado de un solo carácter disponibles en el panel de tareas se pueden cambiar. Ver [Preferencias de Borrador](Draft_Preferences/rs.md). Los atajos mencionados aquí son los atajos por defecto.
+
+
+<div class="mw-translate-fuzzy">
 
 -   Para introducir manualmente las coordenadas introduzca el componente X, Y y Z, y pulse **Enter** después de cada una. O puede pulsar el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** cuando tenga los valores deseados. Es aconsejable mover el puntero fuera de la [Vista 3D](3D_view/es.md) antes de introducir las coordenadas.
 -   Pulse **R** o haga clic en la casilla **Relative** para activar el modo relativo. Si el modo relativo está activado, las coordenadas son relativas al último punto, si está disponible, sino son relativas al origen del sistema de coordenadas.
@@ -53,6 +56,9 @@ Los atajos de teclado de un solo carácter disponibles en el panel de tareas se 
 -   Pulsar **S** para activar o desactivar el [Borrador](Draft_Snap.md).
 -   Pulse **Esc** o el botón {{button|Close}} para finalizar el comando.
 
+
+</div>
+
 ## Notas
 
 -   Un Borrador BSpline puede ser editado con el comando [Borrador Edición](Draft_Edit/es.md).
@@ -60,56 +66,56 @@ Los atajos de teclado de un solo carácter disponibles en el panel de tareas se 
 
 ## Preferencias
 
-Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
+Ver también   * [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
 
--   Para cambiar el número de decimales utilizados para la entrada de coordenadas: **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
--   Para cambiar el valor inicial del modo relleno: **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
+-   Para cambiar el número de decimales utilizados para la entrada de coordenadas   * **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
+-   Para cambiar el valor inicial del modo relleno   * **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
 
 ## Propiedades
 
 
 <div class="mw-translate-fuzzy">
 
-Ver también: [Editor de propiedades](property_editor/es.md).
+Ver también   * [Editor de propiedades](property_editor/es.md).
 
 
 </div>
 
-Un objeto Borrador BSpline deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y hereda todas sus propiedades. También tiene las siguientes propiedades adicionales:
+Un objeto Borrador BSpline deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y hereda todas sus propiedades. También tiene las siguientes propiedades adicionales   *
 
 ### Datos
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the spline. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
+-    **Area|Area**   * (read-only) specifies the area of the face of the spline. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
 
--    **Closed|Bool**: specifies if the spline is closed or not. If the spline is initially open this value is `False`, setting it to `True` will draw a curve segment to close the spline. If the spline is initially closed this value is `True`, setting it to `False` will remove the last curve segment and make the spline open.
+-    **Closed|Bool**   * specifies if the spline is closed or not. If the spline is initially open this value is `False`, setting it to `True` will draw a curve segment to close the spline. If the spline is initially closed this value is `True`, setting it to `False` will remove the last curve segment and make the spline open.
 
--    **Make Face|Bool**: specifies if the spline makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the spline does not self-intersect.
+-    **Make Face|Bool**   * specifies if the spline makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the spline does not self-intersect.
 
--    **Parameterization|Float**: affects the shape of the spline.
+-    **Parameterization|Float**   * affects the shape of the spline.
 
--    **Points|VectorList**: specifies the points of the spline in its local coordinate system.
+-    **Points|VectorList**   * specifies the points of the spline in its local coordinate system.
 
 ### Vista
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the end of the spline.
+-    **Arrow Size|Length**   * specifies the size of the symbol displayed at the end of the spline.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the end of the spline, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**   * specifies the type of symbol displayed at the end of the spline, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
 
--    **End Arrow|Bool**: specifies whether to show a symbol at the end of the spline, so it can be used as an annotation line.
+-    **End Arrow|Bool**   * specifies whether to show a symbol at the end of the spline, so it can be used as an annotation line.
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed spline. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed spline. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Guión
 
-Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
+Ver también   * [Documentación de la API autogenerada](https   *//freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para crear una Borrador BSpline utilice el método `make_bspline` ({{Version/es|0.19}}) del módulo Borrador. Este método sustituye al método obsoleto `makeBSpline`.
 
@@ -126,7 +132,7 @@ bspline = make_bspline(Part.Wire, closed=False, placement=None, face=None, suppo
 -   Si `placement` es `None` la spline se crea en el origen.
 -   Si `face` es `True`, y la spline está cerrada, la spline hará una cara, es decir, aparecerá rellena.
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python

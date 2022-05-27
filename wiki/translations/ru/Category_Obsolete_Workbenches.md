@@ -1,6 +1,8 @@
 # Category:Obsolete Workbenches/ru
 This category lists pages related to the [Drawing Workbench/ru](Drawing_Workbench/ru.md).
 
+[Category   *Obsolete Workbenches/ru](Category   *Obsolete_Workbenches/ru.md)
+
 ### Contents
 
 |     |     |     |

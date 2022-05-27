@@ -1,41 +1,42 @@
 ---
-- GuiCommand:
-   Name:Std ViewIsometric
-   MenuLocation:View → Standard views → Axonometric → Isometric
-   Workbenches:All
-   Shortcut:**0**
-   SeeAlso:[Std ViewDimetric](Std_ViewDimetric.md), [Std ViewTrimetric](Std_ViewTrimetric.md)
+- GuiCommand   */pl
+   Name   *Std ViewIsometric
+   Name/pl   *Std   * Widok izometryczny
+   MenuLocation   *Widok → Widoki standardowe → Aksonometryczny → Izometryczny
+   Workbenches   *wszystkie
+   Shortcut   ***0**
+   SeeAlso   *[Widok dimetryczny](Std_ViewDimetric/pl.md), [Widok trimetryczny](Std_ViewTrimetric/pl.md)
 ---
 
 # Std ViewIsometric/pl
 
-## Description
+## Opis
 
-The **Std ViewIsometric** command realigns the camera in the active [3D view](3D_view.md) to obtain an [isometric](https://en.wikipedia.org/wiki/Isometric_projection) view. For a truly isometric view the 3D view must be in [orthographic mode](Std_OrthographicCamera.md), but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
+Polecenie **Widok izometryczny** zmienia ustawienie ujęcia widoku w aktywnym oknie [widoku 3D](3D_view/pl.md), aby uzyskać widok [izometryczny](https   *//en.wikipedia.org/wiki/Isometric_projection). Aby uzyskać realnie izometryczny widok, okno widoku 3D powinno być w trybie [ortogonalnym](Std_OrthographicCamera/pl.md), ale polecenie działa również, jeśli widok jest ustawiony w trybie [perspektywy](Std_PerspectiveCamera/pl.md).
 
 ![](images/Std_ViewIsometric_example.svg ) 
-*The [axis cross](Std_AxisCross.md) and a cube in isometric view*
+*[Symbol osi](Std_AxisCross/pl.md) i sześcian w rzucie izometrycznym*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewIsometric.svg" width=16px> [Std ViewIsometric](Std_ViewIsometric.md)** button.
-    -   Select the **View → Standard views → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **0**.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_ViewIsometric.svg" width=16px> [Izometryczny](Std_ViewIsometric/pl.md)**.
+    -   Wybierz z menu opcję **Widok → Widoki standardowe → Aksonometria → <img src="images/Std_ViewIsometric.svg" width=16px> Izometryczny**.
+    -   Wybierz opcję z menu podręcznego **Widoki standardowe → <img src="images/Std_ViewIsometric.svg" width=16px> Izometryczny** w oknie [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **0**.
 
-## Notes
+## Uwagi
 
--   It is also possible to switch to isometric view via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
+-   Można również przełączyć się do trybu widoku izometrii za pomocą menu Mini-sześcianu [kostki nawigacyjnej](Navigation_Cube/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change to isometric view use the `viewIsometric` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok *izometryczny*, należy użyć metody `viewIsometric` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

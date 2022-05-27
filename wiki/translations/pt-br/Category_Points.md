@@ -1,6 +1,8 @@
 # Category:Points/pt-br
 This category lists pages related to the [Points Workbench/pt-br](Points_Workbench/pt-br.md).
 
+[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:Template:Text Format/it
 Questa categoria elenca i modelli di formato testo forniti come input.
 
+[Category   *Template/it](Category   *Template/it.md)
+
 ### Contents
 
 |     |     |     |

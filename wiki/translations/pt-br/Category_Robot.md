@@ -1,6 +1,8 @@
 # Category:Robot/pt-br
 This category lists pages related to the [Robot Workbench/pt-br](Robot_Workbench/pt-br.md).
 
+[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
+
 ### Contents
 
 |     |     |     |

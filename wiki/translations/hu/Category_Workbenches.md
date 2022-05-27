@@ -1,6 +1,8 @@
 # Category:Workbenches/hu
 This category lists workbenches included in FreeCAD.
 
+[Category   *User Documentation/hu](Category   *User_Documentation/hu.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:Ship/uk
 This category lists pages related to the [Ship Workbench/uk](Ship_Workbench/uk.md).
 
+[Category   *Workbenches/uk](Category   *Workbenches/uk.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:User Documentation/pt-br
 This category contains articles about the usage of FreeCAD. It is also the central download list for the online documentation of FreeCAD.
 
+[Category   *Documentation/pt-br](Category   *Documentation/pt-br.md)
+
 ### Contents
 
 |     |     |     |

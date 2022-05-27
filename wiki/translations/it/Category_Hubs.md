@@ -3,6 +3,8 @@
 
 Questa categoria raccoglie e riunisce i punti di incontro delle 3 grandi categorie di utenti di FreeCAD \...
 
+[Category   *Categories/it](Category   *Categories/it.md)
+
 ### Contents
 
 |     |     |     |

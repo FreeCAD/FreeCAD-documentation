@@ -1,6 +1,8 @@
 # Category:News/pt
 This category contains articles with news and messages about FreeCAD.
 
+[Category   *Categories/pt](Category   *Categories/pt.md)
+
 ### Contents
 
 |     |     |     |

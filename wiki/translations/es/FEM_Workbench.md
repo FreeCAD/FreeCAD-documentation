@@ -177,7 +177,13 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Herramientas del Solucionador CalculiX Estándar](FEM_SolverCalculixCxxtools/es.md)   * Crea un nuevo solucionador para este analisis. En la mayoria de los casos el solucionador es creado junto con el analisis.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solucionador CalculiX (experimental)](FEM_SolverCalculiX/es.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solucionador Elmer](FEM_SolverElmer/es.md)   * Crea el controlador del Solucionador para Elmer. Es independiente de otros objetos solucionadores.
 

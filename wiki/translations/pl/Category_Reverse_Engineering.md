@@ -1,6 +1,8 @@
 # Category:Reverse Engineering/pl
 Ta kategoria zawiera strony związane ze środowiskiem pracy [Inżynieria wsteczna](Reverse_Engineering_Workbench/pl.md).
 
+[Category   *Workbenches/pl](Category   *Workbenches/pl.md) [Category   *User\_Documentation/pl](Category   *User_Documentation/pl.md)
+
 ### Contents
 
 |     |     |     |

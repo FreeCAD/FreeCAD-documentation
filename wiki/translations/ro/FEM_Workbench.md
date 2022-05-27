@@ -174,7 +174,13 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 -   <img alt="" src=images/Fem-solver.svg  style="width   *32px;"> [Solver Calculix CCX tools](FEM_SolverCalculixCxxtools/ro.md)   * Creează un nou rezolvitor pentru această analiză. În cele mai multe cazuri rezolvitorul este creat împreună cu analiza.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-solver.svg  style="width   *32px;"> [Solver CalculiX](FEM_SolverCalculiX.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/Fem-elmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md)   *
 

@@ -41,40 +41,40 @@ W przypadku złożonych wiązań między częściami środowisko pracy A2plus mo
 
 ### Bieżące monitorowanie 
 
-The more parts you add, the more important it is to keep track. A2plus therefore offers these tools to move and view parts   *
+Im więcej części dodajesz, tym ważniejsze jest, aby je śledzić. Dlatego A2plus oferuje narzędzia do przenoszenia i przeglądania części   *
 
--   To move a part around in the assembly, select it in the model tree and use the toolbar button <img alt="" src=images/A2p_MovePart.svg  style="width   *24px;">. When you placed the part where you like it, left-click with the mouse. If the moved part already has constraints it will be placed accordingly by pressing the toolbar button <img alt="" src=images/A2p_solver.svg  style="width   *24px;"> because this triggers to resolve all constraints of the assembly.
--   To show a constraint select it in the model tree and use the toolbar button <img alt="" src=images/A2p_ViewConnection.svg  style="width   *24px;">. This will make the whole assembly transparent and highlight the two objects that are connected via the constraint. To go back to the normal view, left-click into the assembly.
--   To show only certain parts in the assembly, select these parts in the model tree and use the toolbar button <img alt="" src=images/A2p_Isolate_Element.svg  style="width   *24px;">. Alternatively you can hide a certain part by selecting it in the model tree and pressing **Space** to toggle its visibility.
--   To toggle the transparency view of the whole assembly you can use the toolbar button <img alt="" src=images/A2p_ToggleTransparency.svg  style="width   *24px;">.
--   Every part can be made transparent using the normal FreeCAD editing. However sometimes the transparency setting for parts is lost when reopening the assembly due to a bug in FreeCAD. As workaround you can use the toolbar button <img alt="" src=images/A2p_Restore_Transparency.svg  style="width   *24px;"> to restore the transparency settings.
+-   Aby przesunąć część w złożeniu, zaznacz ją w drzewie modelu i użyj przycisku na pasku narzędzi <img alt="" src=images/A2p_MovePart.svg  style="width   *24px;">. Gdy umieścisz część tam, gdzie chcesz, kliknij lewym przyciskiem myszy. Jeśli przeniesiona część ma już wiązania, zostanie ona odpowiednio umieszczona po naciśnięciu przycisku paska narzędzi <img alt="" src=images/A2p_solver.svg  style="width   *24px;">, ponieważ powoduje to rozwiązanie wszystkich więzów złożenia.
+-   Aby pokazać wiązanie, wybierz je w drzewie modelu i użyj przycisku na pasku narzędzi <img alt="" src=images/A2p_ViewConnection.svg  style="width   *24px;">. Spowoduje to, że cały zespół stanie się przezroczysty i zostaną podświetlone dwa obiekty, które są połączone wiązaniem. Aby powrócić do normalnego widoku, kliknij lewym przyciskiem myszki na złożeniu.
+-   Aby pokazać tylko niektóre części złożenia, wybierz te części w drzewie modelu i użyj przycisku paska narzędzi <img alt="" src=images/A2p_Isolate_Element.svg  style="width   *24px;">. Alternatywnie możesz ukryć określoną część, zaznaczając ją w drzewie modelu i naciskając klawisz **Spacja**, aby przełączyć jej widoczność.
+-   Aby przełączyć widok przezroczystości całego złożenia, możesz użyć przycisku na pasku narzędzi <img alt="" src=images/A2p_ToggleTransparency.svg  style="width   *24px;">.
+-   Każdą część można uczynić przezroczystą za pomocą normalnej edycji w programie FreeCAD. Jednak czasami ustawienie przezroczystości dla części jest tracone przy ponownym otwieraniu złożenia z powodu błędu w programie FreeCAD. Jako obejście tego problemu możesz użyć przycisku paska narzędzi <img alt="" src=images/A2p_Restore_Transparency.svg  style="width   *24px;">, aby przywrócić ustawienia przezroczystości.
 
 ### Wiązania
 
-When creating a constraint such a dialog will be displayed after you pressed a constraint toolbar button   *
+Podczas tworzenia wiązania takie okno dialogowe zostanie wyświetlone po naciśnięciu przycisku paska narzędziowego wiązania   *
 
 ![](images/A2p_ConstraintPropertiesDialog.png ) 
-*Above   * The A2plus Constraint Properties Dialog*
+*Powyżej   * Okno dialogowe właściwości wiązań A2plus*
 
-For certain constraints it allows you to modify the constraint direction. With the button **<img src="images/A2p_solver.svg" width=24px> Solve** you can check beforehand if this new constraint can be solved by A2plus. If not, have a look at section [Troubleshooting](#Troubleshooting.md).
+W przypadku niektórych wiązań można modyfikować kierunek wiązania. Za pomocą przycisku **<img src="images/A2p_solver.svg" width=24px> Rozwiąż** można wcześniej sprawdzić, czy to nowe wiązanie może być rozwiązane przez A2plus. Jeśli nie, zajrzyj do rozdziału [Rozwiązywanie problemów](#Rozwi.C4.85zywanie_problem.C3.B3w.md).
 
-Constraints can be disabled by changing its [visibility](Std_ToggleVisibility.md). This is done by selecting the constraint in the tree view and pressing **Space**. This toggles the property **Suppressed**. A suppressed constraint is not taken into account when the assembly is solved.
+Wiązania można wyłączyć, zmieniając ich [widzialność](Std_ToggleVisibility/pl.md). Robi się to przez wybranie wiązania w widoku drzewa i naciśnięcie klawisza **Spacja**. Powoduje to włączenie właściwości **Stłumione**. Wyciszone wiązanie nie jest brane pod uwagę podczas rozwiązywania zespołu.
 
-A2plus provides the following constraints   *
+A2plus zapewnia następujące wiązania   *
 
 #### Punkt w punkcie 
 
-Select either a [vertex](Glossary#Vertex.md) (point), circle or sphere on each part. If a circle or sphere was selected, its center point will be used for the constraint. The toolbar button <img alt="" src=images/A2p_PointIdentity.svg  style="width   *24px;"> adds the constraint {{Variable|pointIdentity}} that make the vertices coincident.
+Wybierz [wierzchołek](Glosariusz#Wertex.md) *(punkt)*, okrąg lub sferę na każdej części. Jeśli wybrano okrąg lub sferę, to jej punkt środkowy zostanie użyty w Wiązaniu. Przycisk na pasku narzędzi <img alt="" src=images/A2p_PointIdentity.svg  style="width   *24px;"> dodaje wiązanie {{Variable|PunktIdentyfikacja}}, które sprawia, że wierzchołki są zbieżne.
 
 #### Punkt na linii 
 
-Select a [vertex](Glossary#Vertex.md) (point), or circular [edge](Glossary#Edge.md) (will select its center point), or a spherical [face](Glossary#Face.md) (will also select its center point) on one part and an [edge](Glossary#Edge.md) on the other part. The toolbar button <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|pointOnLine}}. It will put the vertex on the edge.
+Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, lub okrągłą [krawędź](Glossary#Edge.md) *(wybierze jej punkt środkowy)*, lub kulistą [ścinę](Glossary#Face.md) *(również wybierze jej punkt środkowy)* na jednej części i [krawędź](Glossary#Edge.md) na drugiej. Przycisk paska narzędzi <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width   *24px;"> dodaje wiązanie {{zmienna|PunktNaLinii}}. Spowoduje ono umieszczenie wierzchołka na krawędzi.
 
 #### Punkt na płaszczyźnie 
 
-Select a [vertex](Glossary#Vertex.md) (point), or circular [edge](Glossary#Edge.md) (will select its center point), or a spherical [face](Glossary#Face.md) (will also select its center point) on one part and a plane on the other part. The toolbar button <img alt="" src=images/A2p_PointOnPlaneConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|pointOnPlane}}. The constraint dialog allows you to specify an offset between the point and the plane. This offset can also be flipped between both sides of the plane. If the offset is zero, the constraint will put the vertex on the plane.
+Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, okrągłą [krawędź](Glossary#Edge.md) *(zostanie wybrany jej punkt środkowy)* lub kulistą [ścianę](Glossary#Face.md) *(również zostanie wybrany jej punkt środkowy)* na jednej części i płaszczyznę na drugiej części. Przycisk paska narzędzi <img alt="" src=images/A2p_PointOnPlaneConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|Punkt na płaszczyźnie}}. W oknie dialogowym wiązania można określić przesunięcie między punktem a płaszczyzną. Przesunięcie to można również przerzucić między obiema stronami płaszczyzny. Jeśli przesunięcie wynosi zero, ograniczenie spowoduje umieszczenie wierzchołka na płaszczyźnie.
 
-#### Sphere on Sphere 
+#### Sfera w sferze 
 
 Select either a spherical [face](Glossary#Face.md) or a [vertex](Glossary#Vertex.md) (point) on both parts. The toolbar button <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|sphereCenterIdent}}. It will either make the center of the spheres, the center of the sphere and the vertex, or the vertices coincident.
 

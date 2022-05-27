@@ -18,7 +18,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style=
 <img alt="" src=images/TechDraw_ExtensionAreaAnnotationExample.png  style="width   *400px;"> 
 *Rechts die eingefügte Flächenanmerkung*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle einen oder mehrere Flächenbereiche mit ausschließlich geraden Rändern.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

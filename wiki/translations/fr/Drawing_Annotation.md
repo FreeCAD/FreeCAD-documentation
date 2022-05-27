@@ -1,17 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:Drawing Annotation
-   Name/fr: Annotation Mise en plan
-   Workbenches:[Mise en plan](Drawing_Workbench/fr.md), [Complet](Complete_Workbench/fr.md)
-
-   MenuLocation:Mise en plan → Annotation
-   Raccourci:Aucun
+- GuiCommand   */fr
+   Name   *Drawing Annotation
+   Name/fr   * Annotation Mise en plan
+   MenuLocation   *Mise en plan → Annotation
+   Workbenches   *[Mise en plan](Drawing_Workbench/fr.md), [Complet](Complete_Workbench/fr.md)
 ---
 
 # Drawing Annotation/fr
-
-
-</div>
 
 ## Description
 
@@ -33,13 +28,7 @@ Cette commande vous permet de placer un bloc de texte sur une [Feuille A3 paysag
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Drawing Tools navi

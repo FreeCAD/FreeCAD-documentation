@@ -1,6 +1,8 @@
 # Category:Template:Text Format
 This category lists templates that format text given as input.
 
+[Category   *Template](Category_Template.md)
+
 ### Contents
 
 |     |     |     |

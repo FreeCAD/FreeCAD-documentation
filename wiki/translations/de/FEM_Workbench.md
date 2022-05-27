@@ -176,7 +176,13 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Löser CalculiX Standard](FEM_SolverCalculixCxxtools/de.md)   * Erstellt einen neuen Löser für diese Analyse. In den meisten Fällen wird der Löser zusammen mit der Analyse erstellt.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Löser CalculiX (experimentell)](FEM_SolverCalculiX/de.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Löser Elmer](FEM_SolverElmer/de.md)   * Erstellt den Löser Steuerung für Elmer. Er ist unabhängig von anderen Löser Objekten.
 

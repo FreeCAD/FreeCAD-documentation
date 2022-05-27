@@ -1,6 +1,8 @@
 # Category:News/ro
 This category contains articles with news and messages about FreeCAD.
 
+[Category   *Categories/ro](Category   *Categories/ro.md)
+
 ### Contents
 
 |     |     |     |

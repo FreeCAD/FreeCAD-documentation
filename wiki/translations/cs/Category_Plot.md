@@ -1,6 +1,8 @@
 # Category:Plot/cs
 This category lists pages related to the [Plot Workbench/cs](Plot_Workbench/cs.md).
 
+[Category   *Workbenches/cs](Category   *Workbenches/cs.md)
+
 ### Contents
 
 |     |     |     |

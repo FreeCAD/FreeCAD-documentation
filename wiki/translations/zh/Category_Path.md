@@ -1,6 +1,8 @@
 # Category:Path/zh
 This category lists pages related to the [PartDesign Workbench/zh](PartDesign_Workbench/zh.md).
 
+[Category   *Workbenches/zh](Category   *Workbenches/zh.md)
+
 ### Contents
 
 |     |     |     |

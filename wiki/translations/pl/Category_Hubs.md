@@ -1,6 +1,8 @@
 # Category:Hubs/pl
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
+[Category   *Categories/pl](Category   *Categories/pl.md)
+
 ### Contents
 
 |     |     |     |

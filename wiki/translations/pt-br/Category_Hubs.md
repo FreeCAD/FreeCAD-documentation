@@ -1,6 +1,8 @@
 # Category:Hubs/pt-br
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
+[Category   *Categories/pt-br](Category   *Categories/pt-br.md)
+
 ### Contents
 
 |     |     |     |

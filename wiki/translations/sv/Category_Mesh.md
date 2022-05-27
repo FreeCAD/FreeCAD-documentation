@@ -1,6 +1,8 @@
 # Category:Mesh/sv
 This category lists pages related to the [Mesh\_Workbench/sv](Mesh_Workbench/sv.md).
 
+[Category   *Workbenches/sv](Category   *Workbenches/sv.md)
+
 ### Contents
 
 |     |     |     |

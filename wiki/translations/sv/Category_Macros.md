@@ -1,6 +1,8 @@
 # Category:Macros/sv
 Denna kategori innehåller makron om du vill utöka din FreeCAD installation med ny funktionalitet
 
+[Category   *Categories/sv](Category   *Categories/sv.md)
+
 ### Contents
 
 |     |     |     |

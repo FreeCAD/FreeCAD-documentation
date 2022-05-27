@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  st
 <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimensionExample.png  style="width   *450px;"> 
 *Rechts die erzeugte Bemaßung*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle zwei Knotenpunkte.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

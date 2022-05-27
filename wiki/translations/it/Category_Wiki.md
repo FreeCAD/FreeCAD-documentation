@@ -1,6 +1,8 @@
 # Category:Wiki/it
 This category contains all documents that relate to the Wiki/it.
 
+[Category   *Administration/it](Category   *Administration/it.md) [Category   *Categories/it](Category   *Categories/it.md) [Category   *Documentation/it](Category   *Documentation/it.md)
+
 ### Contents
 
 |     |     |     |

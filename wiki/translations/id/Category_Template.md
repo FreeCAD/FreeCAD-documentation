@@ -1,6 +1,8 @@
 # Category:Template/id
 This category contains all the Templates
 
+[Category   *Categories/id](Category   *Categories/id.md)
+
 ### Contents
 
 |     |     |     |

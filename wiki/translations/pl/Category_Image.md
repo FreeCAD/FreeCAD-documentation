@@ -1,6 +1,8 @@
 # Category:Image/pl
 This category lists pages related to the [Image Workbench/pl](Image_Workbench/pl.md).
 
+[Category   *Workbenches/pl](Category   *Workbenches/pl.md)
+
 ### Contents
 
 |     |     |     |

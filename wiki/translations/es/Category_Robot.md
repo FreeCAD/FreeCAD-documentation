@@ -1,6 +1,8 @@
 # Category:Robot/es
 This category lists pages related to the [Robot Workbench/es](Robot_Workbench/es.md).
 
+[Category   *Workbenches/es](Category   *Workbenches/es.md)
+
 ### Contents
 
 |     |     |     |

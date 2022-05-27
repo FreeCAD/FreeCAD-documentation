@@ -1,6 +1,8 @@
 # Category:Mesh/pl
 Ta kategoria zawiera strony związane ze środowiskiem [Siatka](Mesh_Workbench/pl.md).
 
+[Category   *Workbenches/pl](Category   *Workbenches/pl.md)
+
 ### Contents
 
 |     |     |     |

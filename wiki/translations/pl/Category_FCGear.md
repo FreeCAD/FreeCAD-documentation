@@ -1,6 +1,8 @@
 # Category:FCGear/pl
 Wszystkie strony związane ze środowiskiem pracy [FCGear](FCGear_Workbench/pl.md) *([Zewnętrzne środowiska pracy](External_workbenches.md))*
 
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+
 ### Contents
 
 |     |     |     |

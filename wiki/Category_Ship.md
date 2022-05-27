@@ -1,6 +1,8 @@
 # Category:Ship
 This category lists pages related to the [Ship Workbench](Ship_Workbench.md).
 
+[Category   *Workbenches](Category_Workbenches.md) [Category   *User\_Documentation](Category_User_Documentation.md)
+
 ### Contents
 
 |     |     |     |

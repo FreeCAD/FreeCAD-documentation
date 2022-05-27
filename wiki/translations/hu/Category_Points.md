@@ -1,6 +1,8 @@
 # Category:Points/hu
 This category lists pages related to the [Points Workbench/hu](Points_Workbench/hu.md).
 
+[Category   *Workbenches/hu](Category   *Workbenches/hu.md)
+
 ### Contents
 
 |     |     |     |

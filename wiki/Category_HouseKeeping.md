@@ -5,6 +5,8 @@ Pages in this category typically has status and short info for different type of
 
 The first one out is renaming the Module pages to Workbench, with all the needed re-linking required.
 
+[Category   *Administration](Category_Administration.md) [Category   *Categories](Category_Categories.md) [Category   *Documentation](Category_Documentation.md)
+
 ### Contents
 
 |     |     |     |

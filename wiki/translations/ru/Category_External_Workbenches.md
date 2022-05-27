@@ -1,5 +1,5 @@
 # Category:External Workbenches/ru
-
+[Category   *Workbenches/ru](Category   *Workbenches/ru.md) [Category   *Addons/ru](Category   *Addons/ru.md)
 
 ### Contents
 

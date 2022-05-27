@@ -1,6 +1,8 @@
 # Category:Robot/tr
 Bu kategoride [Robot tezgahı](Robot_Workbench/tr.md) dosyaları listelenecektir.
 
+[Category   *Workbenches/tr](Category   *Workbenches/tr.md)
+
 ### Contents
 
 |     |     |     |

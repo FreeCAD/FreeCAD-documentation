@@ -1,6 +1,8 @@
 # Category:Workbenches/id
 This category lists workbenches included in FreeCAD.
 
+[Category   *User Documentation/id](Category   *User_Documentation/id.md)
+
 ### Contents
 
 |     |     |     |

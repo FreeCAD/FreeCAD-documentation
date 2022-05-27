@@ -1,7 +1,9 @@
 # Category:Help/it
-## Categoria: Aiuto 
+## Categoria   * Aiuto 
 
 Questa categoria elenca le pagine che contengono informazioni utili su MediaWiki editing.
+
+[Category   *Categories/it](Category   *Categories/it.md)
 
 ### Contents
 

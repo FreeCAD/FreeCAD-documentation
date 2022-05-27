@@ -278,6 +278,12 @@ This is a Persistence class
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> PropertyType <small>(value, names=None, *, module=None, qualname=None, type=None, start=1)</small>
+
+An enumeration.
+
+
+
 #### <img src="images/type_module.svg" style="width:16px;"> Qt
 
 This module is the Translate module

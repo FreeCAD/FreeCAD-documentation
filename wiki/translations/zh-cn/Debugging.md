@@ -1,97 +1,45 @@
 # Debugging/zh-cn
 {{TOCright}}
 
+## 测试先行
 
-<div class="mw-translate-fuzzy">
-
-## 测试第一
-
-在你经历痛苦的调试过程之前请使用 [测试框架](Testing.md) 来检查标准测试是否正常工作。如果它们未运行完成, 则可能是安装中断。
-
-
-</div>
-
-Before you go through the pain of debugging use the [Test framework](Testing.md) to check if the standard tests work properly. If they do not run complete there is possibly a broken installation.
-
-
-<div class="mw-translate-fuzzy">
+在你经历痛苦的调试过程之前请使用 [测试框架](Testing.md) 来检查标准测试是否正常工作。如果它们未完全运行, 则可能这是不完整的安装。
 
 ## 命令行
 
-FreeCAD 的 \"调试\" 是由一些内部机制支持的。FreeCAD 的命令行版本提供了一些用于调试支持的选项。
+FreeCAD 的 \"调试\" 是由一些内部机制支持的。FreeCAD 的命令行版本提供了一些用于支持调试的选项。
 
-
-</div>
-
-The *debugging* of FreeCAD is supported by a few internal mechanisms. The command line version of FreeCAD provides some options for debugging support.
-
-
-<div class="mw-translate-fuzzy">
-
-以下是 FreeCAD 0.15 中能识别的选项   *
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+以下是 FreeCAD 0.19 中能识别的选项   *
 
 一般性选项   *
 
  -v [ --version ]      打印版本字符串
- -h [ --help ]         打印帮助信息
- -c [ --console ]      以控制台模式启动
- --response-file arg   也能使用 '@name' 指定
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+ -h [ --help ]         打印帮助信息 
+ -c [ --console ]      以控制台模式启动 
+ --response-file arg   也能使用 '@name' 指定 
+ --dump-config         转储配置 
+ -get-config arg       根据关键字打印特定的配置
 
 配置   *
 
  -l [ --write-log ]       输出 log 文件到   *
-                          $HOME/.FreeCAD/FreeCAD.log
- --log-file arg           不像 --write-log，这个命令允许记录到任意文件
+                          $HOME/.FreeCAD/FreeCAD.log(Linux)
+                          $HOME/Library/Preferences/FreeCAD/FreeCAD.log (macOS)
+                          %APPDATA%\FreeCAD\FreeCAD.log (Windows)
+
+ --log-file arg           不像 --write-log，这个命令允许记录log到任意文件
  -u [ --user-cfg ] arg    用于加载/保存用户设置的用户配置文件
  -s [ --system-cfg ] arg  用于加载/保存系统设置的用户配置文件
- -t [ --run-test ] arg    测试等级
+ -t [ --run-test ] arg    测试用例
  -M [ --module-path ] arg 额外的模块路径
- -P [ --python-path ] arg 额外的python路径
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+ -P [ --python-path ] arg 额外的python脚本路径
+ --single-instance        允许以单例模式运行
 
 ## 生成回溯
 
-如果你运行 FreeCAD 开发中的出血边缘(bleeding edge)版本, 则可能会发生 \"崩溃 \"。 您可以通过向开发人员提供 \"回溯 \" 来帮助解决此类问题。 为此, 您需要运行软件的 \"调试版本 \"。 \"调试生成 \" 是在编译时设置的参数, 因此您需要自己编译 FreeCAD, 或者获取编译 \"调试 \" 版本。
-
-
-</div>
-
-If you are running a version of FreeCAD from the bleeding edge of the development curve, it may \"crash\". You can help solve such problems by providing the developers with a \"backtrace\". To do this, you need to be running a \"debug build\" of the software. \"Debug build\" is a parameter that is set at compile time, so you\'ll either need to compile FreeCAD yourself, or obtain a pre-compiled \"debug\" version.
-
-
-<div class="mw-translate-fuzzy">
+如果你运行 FreeCAD 开发中的出血边缘(bleeding edge)版本, 则可能会发生 \"崩溃 \"。 您可以通过向开发人员提供 \"回溯 \" 来帮助解决此类问题。 为此, 您需要运行软件的 \"调试版本 \"。 \"调试生成 \" 是在编译时设置的参数, 因此您需要自己编译 FreeCAD, 或者获取预编译的\"调试 \" 版本。
 
 ### 对于 Linux 
-
-
-<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
-
-Linux 调试 \-\-\--\>
-
-
-<div class="mw-collapsible-content">
-
-必要条件   *
-
-
-</div>
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
@@ -290,12 +238,12 @@ For a more modern approach to debugging Python, see these posts   *
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
 
-winpdb Debugging →
+winpdb 调试 →
 
 
 <div class="mw-collapsible-content">
 
-Here is an example of using *Winpdb* inside FreeCAD   *
+这里是一个在FreeCAD内使用"Winpdb"的例子
 
 We need the Python debugger   * *Winpdb*. If you do not have it installed, on Ubuntu/Debian install it with   *
 

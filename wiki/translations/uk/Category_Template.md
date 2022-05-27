@@ -3,6 +3,8 @@ This category contains all the Templates
 
 See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
+[Category   *Categories/uk](Category   *Categories/uk.md)
+
 ### Contents
 
 |     |     |     |

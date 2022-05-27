@@ -18,7 +18,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  
 <img alt="" src=images/TechDraw_ExtensionCascadeVertDimensionExample.png  style="width   *400px;"> 
 *Rechts vertikale Maße mit gleichen Abständen*
 
-## Verwendung
+## Anwendung
 
 1.  Optional   * lege den Abstand mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) fest.
 2.  Wähle zwei oder mehr vertikale Maße.
@@ -28,7 +28,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  
     -   Wähle die **TechDraw → Extensions   * Attributes/Modifications → <img src="images/TechDraw_ExtensionCascadeVertDimension.svg" width=16px> Cascade Vertical Dimensions** Option aus dem Menü.
 5.  Die Maße werden mit gleichen Abständen angeordnet, die Maßzahlen werden zentriert.
 
-## Anmerkungen
+## Hinweise
 
 -   Dieses Werkzeug kann auch zum Zentrieren der Maßzahlen einzelner Maße verwendet werden.
 

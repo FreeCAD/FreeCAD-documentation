@@ -1,6 +1,8 @@
 # Category:Poweruser Documentation/sv
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
+[Category   *Documentation/sv](Category   *Documentation/sv.md)
+
 ### Contents
 
 |     |     |     |

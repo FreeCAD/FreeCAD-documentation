@@ -1,6 +1,8 @@
 # Category:Reverse Engineering/tr
 Bu kategoride [Ters Mühendislik tezgahı](Reverse_Engineering_Workbench/tr.md) ile ilgili sayfalar listelenecektir.
 
+[Category   *Workbenches/tr](Category   *Workbenches/tr.md)
+
 ### Contents
 
 |     |     |     |

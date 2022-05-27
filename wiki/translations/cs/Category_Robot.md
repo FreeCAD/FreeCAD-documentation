@@ -1,6 +1,8 @@
 # Category:Robot/cs
 This category lists pages related to the [Robot Workbench/cs](Robot_Workbench/cs.md).
 
+[Category   *Workbenches/cs](Category   *Workbenches/cs.md)
+
 ### Contents
 
 |     |     |     |

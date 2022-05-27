@@ -1,6 +1,8 @@
 # Category:Raytracing/pl
 This category lists pages related to the [Raytracing Workbench/pl](Raytracing_Workbench/pl.md).
 
+[Category   *Workbenches/pl](Category   *Workbenches/pl.md)
+
 ### Contents
 
 |     |     |     |

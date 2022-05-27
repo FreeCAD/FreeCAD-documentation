@@ -1,30 +1,30 @@
-# <img alt="Rocket Workbench icon" src=images/RocketWorkbench.svg  style="width   *64px;"> Rocket Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Rakieta" src=images/RocketWorkbench.svg  style="width   *64px;"> Rocket Workbench/pl
 
 
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
-The <img alt="" src=images/RocketWorkbench.svg  style="width   *24px;"> [Rocket Workbench](Rocket_Workbench.md) is a set of tools for designing rockets and rocket components. The intended audience is builders of model and amateur rockets of all types and sizes.
+Środowisko pracy <img alt="" src=images/RocketWorkbench.svg  style="width   *24px;"> [Rakieta](Rocket_Workbench/pl.md) to zestaw narzędzi do projektowania rakiet i ich podzespołów. Przeznaczony jest dla konstruktorów modeli i rakiet amatorskich wszystkich typów i rozmiarów.
 
-Currently, the tool is used primarily to create individual components rather than complete rockets. Based on [Part Workbench](Part_Workbench.md), the designed components can then be 3D printed, CNC manufactured, or laser cut. Future development will allow the modeler to construct complete rockets.
+Obecnie narzędzie to jest używane głównie do tworzenia pojedynczych elementów, a nie całych rakiet. W oparciu o środowisko [Projekt Części](Part_Workbench/pl.md), zaprojektowane komponenty mogą być następnie drukowane metodą 3D, obrabiane mechanicznie na maszynach CNC lub wycinane laserowo. Przyszły rozwój pozwoli modelarzowi na konstruowanie kompletnych rakiet.
 
-Parts are created by specifying parameters in the task dialog. No drawing is required.
+Części są tworzone przez określenie parametrów w oknie dialogowym zadania. Nie jest wymagany żaden rysunek.
 
 <img alt="" src=images/RocketAnim.gif  style="width   *300px;">
 
-## Installation
+## Instalacja
 
 
-**The Rocket workbench is a work in progress, and will change often. Be sure to update it regularly!**
+**Środowisko pracy Rakieta jest w trakcie opracowywania i będzie się często zmieniać. Pamiętaj, aby regularnie go aktualizować!**
 
-This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
+To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Menadżera dodatków](Std_AddonMgr.md). Aby zainstalować go ręcznie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
 
-## Getting Started 
+## Rozpoczęcie pracy 
 
-TBD
+Do opracowania.
 
-## Tools
+## Przybory
 
 Components created using the Rocket Workbench are essentially parts similar to what you would create using the [Part Workbench](Part_Workbench.md). They can be combined with other parts or modified using that workbench. The advantage of using the Rocket Workbench is that parts can be created with far fewer operations.
 

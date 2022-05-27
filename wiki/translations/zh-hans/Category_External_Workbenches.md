@@ -1,5 +1,5 @@
 # Category:External Workbenches/zh-hans
-
+[Category   *Workbenches/zh-hans](Category   *Workbenches/zh-hans.md) [Category   *Addons/zh-hans](Category   *Addons/zh-hans.md)
 
 ### Contents
 

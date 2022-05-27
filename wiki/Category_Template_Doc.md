@@ -1,6 +1,8 @@
 # Category:Template:Doc
 This category lists templates that produce text boxes used for documenting commands, tutorials, and other elements.
 
+[Category   *Template](Category_Template.md)
+
 ### Contents
 
 |     |     |     |

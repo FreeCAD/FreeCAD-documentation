@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  styl
 <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimensionExample.png  style="width   *400px;"> 
 *Rechts die erzeugten Bemaßungen*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle drei oder mehr Knotenpunkte.
 2.  Die beiden linken Knotenpunkte bestimmen die Position der Maßkette.

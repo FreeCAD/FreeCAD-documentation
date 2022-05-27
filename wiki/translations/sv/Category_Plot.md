@@ -1,6 +1,8 @@
 # Category:Plot/sv
 This category lists pages related to the [Plot Workbench/sv](Plot_Workbench/sv.md).
 
+[Category   *Workbenches/sv](Category   *Workbenches/sv.md)
+
 ### Contents
 
 |     |     |     |

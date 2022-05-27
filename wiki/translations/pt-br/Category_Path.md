@@ -1,6 +1,8 @@
 # Category:Path/pt-br
 This category lists pages related to the [PartDesign Workbench/pt-br](PartDesign_Workbench/pt-br.md).
 
+[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
+
 ### Contents
 
 |     |     |     |

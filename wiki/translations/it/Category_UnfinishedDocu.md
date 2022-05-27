@@ -1,6 +1,8 @@
 # Category:UnfinishedDocu/it
 This category contains all Unfinished Documents
 
+[Category   *Administration/it](Category   *Administration/it.md) [Category   *Categories/it](Category   *Categories/it.md)
+
 ### Contents
 
 |     |     |     |

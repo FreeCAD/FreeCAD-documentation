@@ -1,6 +1,8 @@
 # Category:Template:Navigation/pl
 This category lists templates that create navigation elements.
 
+[Category   *Template/pl](Category   *Template/pl.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,5 +1,5 @@
 # Category:UnfinishedDocu/ru
-{Category:UnfinishedDocu}
+{Category   *UnfinishedDocu}
 
 ### Contents
 

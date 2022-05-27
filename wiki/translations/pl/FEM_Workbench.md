@@ -138,7 +138,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md)   * Creates a new solver for this analysis. In most cases the solver is created together with the analysis.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solver CalculiX (experimental)](FEM_SolverCalculiX.md)   *
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solver CalculiX (new framework)](FEM_SolverCalculiX.md)   *
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md)   * Creates the solver controller for Elmer. It is independent from other solver objects.
 
@@ -162,7 +162,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width   *32px;"> [Run solver calculations](FEM_SolverRun.md)   * Runs the selected solver of the active analysis.
 
-## Menu   * Results 
+## Menu   * Wyniki 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width   *32px;"> [Purge results](FEM_ResultsPurge.md)   * Deletes the results of the active analysis.
 

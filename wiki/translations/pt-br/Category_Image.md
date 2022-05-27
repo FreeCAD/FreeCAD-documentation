@@ -1,6 +1,8 @@
 # Category:Image/pt-br
 This category lists pages related to the [Image Workbench/pt-br](Image_Workbench/pt-br.md).
 
+[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
+
 ### Contents
 
 |     |     |     |

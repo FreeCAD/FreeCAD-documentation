@@ -1,6 +1,8 @@
 # Category:Hubs/es
 Esta categoría recopila los puntos de encuentro de las 3 categorías de usuarios de FreeCAD\...
 
+[Category   *Categories/es](Category   *Categories/es.md)
+
 ### Contents
 
 |     |     |     |

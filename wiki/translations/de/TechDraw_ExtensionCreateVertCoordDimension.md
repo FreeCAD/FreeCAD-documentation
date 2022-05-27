@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style
 <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimensionExample.png  style="width   *400px;"> 
 *Rechts die erzeugten Bemaßungen*
 
-## Verwendung
+## Anwendung
 
 1.  Optional   * definiere den Abstand zwischen den Bemaßungen mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
 2.  Wähle drei oder mehr Knotenpunkte.

@@ -2,29 +2,20 @@
 <div class="mw-translate-fuzzy">
 
 
-**Esta página registra las nuevas características a medida que se añaden a la versión de desarrollo de FreeCAD, que actualmente es la 0.20. Cuando se produzca la congelación de las características de la 0.20, se borrarán estos mensajes y no se añadirán más características a esta página. Se espera que FreeCAD 0.20 sea lanzado en 202x.**
+**Esta página registra las nuevas características a medida que se añaden a la versión de desarrollo de FreeCAD, que actualmente es la 0.20. Cuando se produzca la congelación de las características de la 0.20, se borrarán estos mensajes y no se añadirán más características a esta página. Se espera que FreeCAD 0.20 sea lanzado en 2022.**
 
 
 </div>
 
 
-**!!! Todas las imágenes de esta página deben utilizar el sufijo **_relnotes_0.20** !!!**
-
-
-<div class="mw-translate-fuzzy">
+**¡¡¡ Todas las imágenes de esta página deben utilizar el sufijo **_relnotes_0.20** !!!**
 
 
 <div style="text-align   *center; background   *#e0e0ee; margin   *1em 7em; padding   *0.5em 2em; border   *2px solid #bb7736;">
 
-¿Faltan características? Menciónelas en el hilo del foro [Notas de la versión v0.20](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=56135).
+¿Faltan características? Menciónelas en el hilo del foro [Notas de la versión 0.20](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=56135).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ver [Ayuda FreeCAD](Help_FreeCAD/es.md) para saber cómo contribuir a FreeCAD.
+Vea [Ayuda FreeCAD](Help_FreeCAD/es.md) para saber cómo contribuir a FreeCAD.
 
 
 </div>
@@ -33,87 +24,72 @@ Ver [Ayuda FreeCAD](Help_FreeCAD/es.md) para saber cómo contribuir a FreeCAD.
 <div>
 
 
-</div>
-
-
 {{TOCright}}
 
+**FreeCAD 0.20** fue liberado el **DD de Mes del 2022**, consíguelo desde la página [Descarga](Download/es.md). Este es un resumen de las nuevas características y los cambios más interesantes.
 
-<div class="mw-translate-fuzzy">
+Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar en [Lista de características](Feature_list/es#Notas_de_lanzamiento.md).
 
-**FreeCAD 0.20** fue liberado en el **Mes del DD 202x**, consíguelo desde la página [Descarga](Download/es.md). Este es un resumen de los cambios más interesantes. La lista completa de cambios se puede encontrar en el [MantisBT bugtracker FC 0.20 changelog](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=78).
-
-
-</div>
-
-Las notas de la versión anterior de FreeCAD se pueden encontrar en [Lista de características](Feature_list/es#Notas_de_lanzamiento.md).
-
-## Puntos culminante 
+## Destacados
 
 ## General
 
+### Compilación
 
-<div class="mw-translate-fuzzy">
+Desde esta versión de FreeCAD solo puede ser compilado usando Qt 5 y Python 3.
 
-### Desarrollo
+Para [compilar FreeCAD en Windows](Compile_on_Windows.md), hay diferentes Libpacks (bibliotecas pre-empaquetadas) disponibles   *
 
+-   Libpack para Windows con Qt xx, OCC yy, y Python zz
 
-</div>
+La versión de Python más vieja soportada es 3.6.9 según este [hilo del foro de FC](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701).
 
-Since this release FreeCAD can only be compiled using Qt 5 and Python 3.
+Sistemas operativos soportados   *
 
-To [compile FreeCAD under Windows](Compile_on_Windows.md), there are different Libpacks (prepackaged libraries) available   *
+-   Windows 7, 8 y 10
+-   Linux Ubuntu Bionic Beaver (18.04) y Focal Fossa (20.04)
+-   MacOS versión mínima 10.12 Sierra
 
--   Libpack for Windows with Qt xx, OCC yy, and Python zz
+### Seguimiento de problemas/bugs 
 
-Lowest supported Python version is 3.6.9 according to this [FC forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701).
+El seguimiento de problemas de FreeCAD se ha movido a GitHub   * <https   *//github.com/FreeCAD/FreeCAD/issues>
 
-Supported operating systems   *
-
--   Windows 7, 8 and 10
--   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
--   MacOS minimum version 10.12 Sierra
-
-### Bug/Issue Tracker 
-
-The FreeCAD bug tracker was moved to GitHub   * <https   *//github.com/FreeCAD/FreeCAD/issues>
-
-**Note   *** Only bug reports with a prior forum discussion will be considered. Reports without this will be closed.
+**Nota   *** Solo se considerarán los informes de errores con una discusión del foro anterior. Los informes sin esto serán cerrados.
 
 ### freecad.org
 
-We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [KiCAD services corp.](https   *//www.kipro-pcb.com/), sponsored us the domain freecad.org. Now all FreeCAD websites are available under [freecadweb.org](https   *//freecadweb.org) and [freecad.org](https   *//freecad.org).
+Estamos contentos de que el proyecto [KiCad](https   *//www.kicad.org/), a través de [KiCad Services Corp.](https   *//www.kipro-pcb.com/), nos patrocinó el dominio freecad.org. Ahora todos los sitios web de FreeCAD están disponibles en [freecadweb.org](https   *//freecadweb.org) y [freecad.org](https   *//freecad.org).
 
 ### Documentación
 
-
-<div class="mw-translate-fuzzy">
-
 ### Limitaciones conocidas 
-
-
-</div>
 
 ## Interfaz de usuario 
 
 +++
-| ![](images/Navi_Cube_relnotes_0.20.gif ) | The navigation cube was reworked to enable these new features   *                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                | -   There are now edge faces to view the scene at angles of 45°.                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                                | -   The new preferences option [Rotate to nearest](Preferences_Editor#Navigation.md) allows to view the scene at the nearest sensible state. When it is off, clicking to a cube face will end up always to the same position, no matter in what cube state you were when you clicked the face. See the animation at the left to understand what this means. Try the same click sequence as in the animation without the option *Rotate to nearest* to experience the difference. |
-|                                                                | -   By clicking at the dot at the upper right of the cube you can quickly see the backview of the current scene.                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                                | -   The size of the cube can be adjusted by the preferences option [Cube size](Preferences_Editor#Navigation.md).                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=52118), [Pull request \#4502](https   *//github.com/FreeCAD/FreeCAD/pull/4502).                                                                                                                                                                                                                                                                                                                                         |
+| ![](images/Navi_Cube_relnotes_0.20.gif ) | El cubo de navegación fue reelaborado para habilitar estas nuevas características   *                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                | -   Ahora hay caras en las aristas para ver la escena en ángulos de 45°.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                | -   La opción nueva de preferencias [Girar al más cercano](Preferences_Editor#Navigation.md) permite ver la escena en el estado sensible más cercano. Cuando está apagado, hacer clic en una cara del cubo terminará siempre en la misma posición, sin importar en qué estado se encontraba el cubo al hacer clic en la cara. Vea la animación a la izquierda para comprender lo que esto significa. Pruebe la misma secuencia de clics que en la animación sin la opción \'\' Girar al más cercano \'\' para experimentar la diferencia. |
+|                                                                | -   Al hacer clic en el punto en la parte superior derecha del cubo, puede ver rápidamente la vista posterior de la escena actual.                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | -   El tamaño del cubo se puede ajustar en la opción de preferencias [Tamaño del cubo](Preferences_Editor#Navigation.md).                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                | [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=52118), [Pull request \#4502](https   *//github.com/FreeCAD/FreeCAD/pull/4502).                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
 
    
-  ![](images/Improved_tooltips_relnotes_0.20.gif )   Tooltips now display the command name in the title, making it easier for new users to look for help. At the end of the tooltip the \"internal\" command name is added in parentheses   * *(Std\_WhatsThis)*. This is also the name of the page that documents the command in the Wiki. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=58747), [Pull request \#4978](https   *//github.com/FreeCAD/FreeCAD/pull/4978).
+  ![](images/Improved_tooltips_relnotes_0.20.gif )   La información sobre herramientas ahora muestra el nombre del comando en el título, lo que facilita que los nuevos usuarios busquen ayuda. Al final de la información sobre herramientas, el nombre del comando \"interno\" se agrega entre paréntesis   * *(Std\_WhatsThis)*. Este es también el nombre de la página que documenta el comando en la Wiki. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=58747), [Pull request \#4978](https   *//github.com/FreeCAD/FreeCAD/pull/4978).
    
 
+
+<div class="mw-translate-fuzzy">
+
    
-  <img alt="" src=images/Std_UserEditMode_relnotes_0.20.gif  style="width   *384px;">   The new [Std UserEditMode](Std_UserEditMode.md) command allows the user to choose an edit mode that will be used when an object is double-clicked in the [Tree view](Tree_view.md). Click the image at the left so see an animation of the selection. If a selected edit mode is not applicable, the object\'s default edit mode is used instead. [Pull request \#5110](https   *//github.com/FreeCAD/FreeCAD/pull/5110).
+  <img alt="" src=images/Std_UserEditMode_relnotes_0.20.gif  style="width   *384px;">   El nuevo comando [Std UserEditMode](Std_UserEditMode.md) permite al usuario elegir un modo de edición que será usado al dar doble clic a un objeto en la [vista de árbol](Tree_view.md). Da clic en la imagen de la izquierda para ver una animación de la selección. Si un modo de edición no es aplicable, el modo de edición por defecto de del objeto es usado en su lugar. [Pull request \#5110](https   *//github.com/FreeCAD/FreeCAD/pull/5110).
    
+
+
+</div>
 
 +++
 | ![](images/Dependencies-selection_relnotes_0.20.png ) | The [Tree view](Tree_view.md) context menu has the new entry **Add dependent objects to selection**.           |
@@ -128,13 +104,7 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 |                                                                                                         | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=52441), [Pull request \#4118](https   *//github.com/FreeCAD/FreeCAD/pull/4118). |
 +++
 
-
-<div class="mw-translate-fuzzy">
-
 ### Otras mejoras de la interfaz de usuario 
-
-
-</div>
 
 -   It is now possible to use the decimal separator belonging to the language specified for the FreeCAD interface. For example on a German Windows, when you set the interface language to **English** and select the new option **Use selected language number format**, the dot will be used as the decimal separator. See [Preferences](Preferences_Editor#General.md). [Pull request \#6364](https   *//github.com/FreeCAD/FreeCAD/pull/6364)**Note**   * For [FEM](FEM_Workbench.md) simulations using the dot as decimal separator is highly recommended to get correct results.
 -   Two new mouse navigation styles have been added. One based on **[OpenSCAD](Mouse_navigation#OpenSCAD_navigation.md)**, the other on **[TinkerCAD](Mouse_navigation#TinkerCAD_navigation.md)**. [Forum discussion OpenSCAD](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=60975), [Forum discussion TinkerCAD](https   *//forum.freecadweb.org/viewtopic.php?p=544639#p544376), [commit 1](https   *//github.com/FreeCAD/FreeCAD/commit/a1c9ab658c), [commit 2](https   *//github.com/FreeCAD/FreeCAD/commit/ef100d55e9d50), [commit 3](https   *//github.com/FreeCAD/FreeCAD/commit/549e5b5650).
@@ -144,13 +114,7 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 -   A new setting in [Preferences → General](Preferences_Editor#General.md) allows to substitute the numerical keypad decimal separator with the appropriate locale separator if they are different. [Pull request \#3256](https   *//github.com/FreeCAD/FreeCAD/pull/3256) [Pull request \#5150](https   *//github.com/FreeCAD/FreeCAD/pull/5150) [Pull request 5203](https   *//github.com/FreeCAD/FreeCAD/pull/5203)
 -   It is now possible to set the **Backspace** key as a standalone shortcut key without the need to specify an additional modifier key. [Pull request \#5428](https   *//github.com/FreeCAD/FreeCAD/pull/5428)
 
-
-<div class="mw-translate-fuzzy">
-
-## Núcleo sistema, Aplicación, Base, y Gui espaciosnombres 
-
-
-</div>
+## Núcleo del sistema y API 
 
 ### Core
 
@@ -314,7 +278,8 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 ## Ambiente de Trabajo MEF 
 
    
-  <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width   *384px;">The new Z88 settings and their default values                                                                               The [Z88 solver](FEM_SolverZ88.md) is now fully usable. You can now specify the solver method and change the memory settings. The new default values allow you to also perform complex simulations directly. [commit d035bbc1ca and following](https   *//github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
+  <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width   *384px;">The new Z88 settings and their default values                                                                               The [Z88 solver](FEM_SolverZ88.md) is now fully usable. You can now specify the solver method and change the memory settings. The new default values allow you to perform also complex simulations directly. [commit d035bbc1ca and following](https   *//github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
+  <img alt="" src=images/FEM_buckling-analysis_relnotes_0.20.gif  style="width   *384px;">Result of a linear buckling analysis.Click on the image to see the animation.                       It is now possible to perform buckling analyses using the [Calculix](FEM_SolverCalculixCxxtools.md) solver. [Pull request \#4379](https   *//github.com/FreeCAD/FreeCAD/pull/4379)
   <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width   *384px;">Effect of *Mesh Size From Curvature*; left   * set to 12, right   * deactivated                       There is a new property for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. The number of mesh elements per $2\pi$ times the radius of the curvature can be specified. The default is 12 and to get a finer mesh at small corners or holes, this value can be increased for better results. This feature requires Gmsh 4.8 or newer. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=56401), [Pull request \#4596](https   *//github.com/FreeCAD/FreeCAD/pull/4596)
   <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width   *384px;">Effect of the rcombination algorithm; left   * using *Simple*, right   * using *Simple full-quad*   FreeCAD allows now to select an algorithm as well as 3D mesh recombination for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. For more details about the mesh element recombination see [FEM MeshGmshFromShape](FEM_MeshGmshFromShape#Element_Recombination.md). [Pull request \#4706](https   *//github.com/FreeCAD/FreeCAD/pull/4706)
    
@@ -328,8 +293,7 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 </div>
 
 -   **Important   *** Starting from this release, FreeCAD will use SI units (m, kg, s, K, A, mol, cd) to write the [Elmer solver](FEM_SolverElmer.md) input files (*case.sif* and *mesh.nodes*). This is independent of the used FreeCAD [unit system](Preferences_Editor#Units.md).
--   **Important   *** Starting from this release, the scale of [result pipelines](FEM_PostPipelineFromResult.md) and their filters will use SI units (m, kg, s, K, A, mol, cd). So the displacement is given in meter, the stress in Pascal. This applies for all SI-derived FreeCAD [unit systems](Preferences_Editor#Units.md).
--   Support for linear buckling analyses was added for the [Calculix](FEM_SolverCalculixCxxtools.md) solver. [Pull request \#4379](https   *//github.com/FreeCAD/FreeCAD/pull/4379)
+-   **Important   *** Starting from this release, the scale of [result pipelines](FEM_PostPipelineFromResult.md) and their [filters](FEM_Workbench#Menu__Results.md) will use SI units (m, kg, s, K, A, mol, cd). So the displacement is given in meter, the stress in Pascal. This applies for all SI-derived FreeCAD [unit systems](Preferences_Editor#Units.md).
 -   Solving with the [Calculix](FEM_SolverCalculixCxxtools.md) solver now uses all CPU cores. [Pull request \#6374](https   *//github.com/FreeCAD/FreeCAD/pull/6374)
 -   Meshing with [Gmsh](FEM_MeshGmshFromShape.md) now uses all CPU cores. [Pull request \#6370](https   *//github.com/FreeCAD/FreeCAD/pull/6370)
 -   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [Pull request \#4660](https   *//github.com/FreeCAD/FreeCAD/pull/4660)
@@ -404,7 +368,7 @@ There is also a text box for feedback of OpenSCAD errors.
 ### Ambiente de Trabajo DiseñoPieza 
 
 +++
-| <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width   *384px;">Padding along an edge from the model.Click on the image to show the animation.                                                                     | There is a new option to pad along the direction of an edge in the 3D model. [Pull request \#4685](https   *//github.com/FreeCAD/FreeCAD/pull/4685)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width   *384px;">Padding along an edge from the model.Click on the image to see the animation.                                                                      | There is a new option to pad along the direction of an edge in the 3D model. [Pull request \#4685](https   *//github.com/FreeCAD/FreeCAD/pull/4685)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
 | <img alt="" src=images/PartDesign_Chamfer_Face_Selection_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                           | When Distance and Angle is specified in the [Chamfer](PartDesign_Chamfer.md) tool and faces are selected, the distance will be applied along the selected faces. Likewise if two distances are specified then Size 1 will be applied along the selected face. This behaviour can be swapped to the other face using the flip direction button. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=62084), [Pull request \#5039](https   *//github.com/FreeCAD/FreeCAD/pull/5039)                                                                                                                                                                                                                                                                     |
 +++
@@ -412,7 +376,7 @@ There is also a text box for feedback of OpenSCAD errors.
 +++
 | <img alt="" src=images/PD_Pad-Taper-angle_relnotes_0.20.png  style="width   *384px;">A tapered pocket within a non-tapered pad.                                                                                                                                             | The dialog for [Pad](PartDesign_Pad.md) and [Pocket](PartDesign_Pocket.md) offers to set a taper angle for the extrusion. [Pull request \#5357](https   *//github.com/FreeCAD/FreeCAD/pull/5357)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 +++
-| <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width   *384px;">Pocketing along different directions.Click on the image to show the animation.                                                                                         | It is now possible to specify the direction for the pocket extrusion. [Pull request \#5164](https   *//github.com/FreeCAD/FreeCAD/pull/5164)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width   *384px;">Pocketing along different directions.Click on the image to see the animation.                                                                                          | It is now possible to specify the direction for the pocket extrusion. [Pull request \#5164](https   *//github.com/FreeCAD/FreeCAD/pull/5164)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 | <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                                   | The dialog to edit [Cylinders](PartDesign_AdditiveCylinder.md) (additive and subtractive) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
@@ -421,7 +385,7 @@ There is also a text box for feedback of OpenSCAD errors.
 | <img alt="" src=images/PartDesign_Islands-Extrude_relnotes_0.20.png  style="width   *384px;">A single Pad and a single [Revolution](PartDesign_Revolution.md) with nested profiles. The base block is only there to ensure that the part is a single solid. | All PartDesign features that can extrude sketches can now handle sketches with nested profiles that form islands. For example it is possible to revolve a sketch consisting of 3 nested circles with the same center point.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                                                                                                                                                                                                                       | **Note**   * Extruding nested profiles only works if the result is still a single body. [Pull request \#6381](https   *//github.com/FreeCAD/FreeCAD/pull/6381)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-| <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width   *384px;">Effect of the new option *Length along sketch normal*.Click on the image to show the animation.                                                      | There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https   *//github.com/FreeCAD/FreeCAD/pull/3893)                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width   *384px;">Effect of the new option *Length along sketch normal*.Click on the image to see the animation.                                                       | There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https   *//github.com/FreeCAD/FreeCAD/pull/3893)                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
 | <img alt="" src=images/PartDesign_Hole_thread_relnotes_0.20.PNG  style="width   *384px;">                                                                                                                                                                                                 | The [Hole](PartDesign_Hole.md) feature can now model true threads. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=54240) [Pull request \#4274](https   *//github.com/FreeCAD/FreeCAD/pull/4274)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 +++

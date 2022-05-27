@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Part Slice
    Name/fr   *Part Scinder
-   MenuLocation   *Part → Scinder → Trancher vers composé
+   MenuLocation   *Part → Scinder → Scinder vers composé
    Workbenches   *[Part](Part_Workbench/fr.md)
    Version   *0.17
    SeeAlso   *[Part Fragments booléens](Part_BooleanFragments/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Jointure](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Part_Slice.svg  style="width   *24px;"> [Part Scinder](Part_Slice/fr.md) aussi connue sous **Slice to compound** est utilisé pour diviser des formes par intersection avec d\'autres formes. Par exemple, pour une boîte et un plan, un composé de deux solides est créé.
+L\'outil <img alt="" src=images/Part_Slice.svg  style="width   *24px;"> [Part Scinder](Part_Slice/fr.md) aussi connue sous **Scinder vers composé** est utilisé pour diviser des formes par intersection avec d\'autres formes. Par exemple, pour une boîte et un plan, un composé de deux solides est créé.
 
 ![600px](images/Part_Slice_Demo.png)
 
@@ -26,11 +26,11 @@ La forme finale occupe le même volume que l\'original. Mais elle est divisée l
 
 L\'outil comporte trois modes    * \"Standard\", \"Split\" (fractionné) et \"CompSolid\" (composé de solides). Il n\'y a pas de formulaire de sélection, ils sont prédéfinis, mais sont accessibles après l\'opération au niveau des tranches obtenues.
 
-\"Standard\" et \"Split\" (fractionné) diffèrent par l\'action de l\'outil sur les fils, les coques et les solides composés    * Pour \"Split\", ceux-ci sont séparés ; Pour \"Standard\", ils sont conservés ensemble (on obtient des segments supplémentaires).
+\"Standard\" et \"Split\" diffèrent par l\'action de l\'outil sur les fils, les coques et les solides composés    * pour \"Split\", ceux-ci sont séparés ; Pour \"Standard\", ils sont conservés ensemble (on obtient des segments supplémentaires).
 
 Le composé dans les modes \"Standard\" et \"Split\" suit la structure de la pièce tranchée.
 
-En mode \"CompSolid\", la sortie est un compsolid (ou un composé de solides, si les solides résultants ne sont pas connectés). Un compsolid est un ensemble de solides reliés par des faces ; ils sont liés aux solides, comme les fils sont liés aux bords, et les coques sont liées aux faces; le nom est probablement une phrase abrégée \"solide composite\".
+En mode \"CompSolid\", la sortie est un composé de solides (ou un composé de composés de solides, si les solides résultants ne sont pas connectés). Un compsolid est un ensemble de solides reliés par des faces ; ils sont liés aux solides, comme les fils sont liés aux bords, et les coques sont liées aux faces; le nom est probablement une phrase abrégée \"solide composite\".
 
 Le résultat de l\'outil est très similaire à <img alt="" src=images/Part_BooleanFragments.svg  style="width   *24px;"> [Part Fragments booléens](Part_BooleanFragments/fr.md) sauf que les parties de la première forme sont dans le résultat.
 
@@ -38,16 +38,16 @@ Le résultat de l\'outil est très similaire à <img alt="" src=images/Part_Bool
 
 1.  Sélectionnez d\'abord l\'objet à découper, puis certains objets à découper.
     L\'ordre de sélection est important. Les composés avec auto-intersections ne sont pas autorisés (les auto-intersections peuvent parfois être prises en compte en passant le composé à travers <img alt="" src=images/Part_BooleanFragments.svg  style="width   *24px;"> [Part Fragments booléens](Part_BooleanFragments/fr.md))
-2.  Appelez la commande Part Scinder de plusieurs manières    *
-    -   Appuyez sur le bouton <img alt="" src=images/Part_Slice.svg  style="width   *24px;"> [Trancher vers composé](Part_Slice/fr.md) dans la barre d\'outils Part
-    -   Utilisez l\'entrée **Part → Scinder → Trancher vers composé** depuis le menu
+2.  Lancez la commande Part Scinder de plusieurs manières    *
+    -   Appuyez sur le bouton <img alt="" src=images/Part_Slice.svg  style="width   *24px;"> [Scinder vers composé](Part_Slice/fr.md) dans la barre d\'outils Part
+    -   Utilisez l\'entrée **Part → Scinder → Scinder vers composé** depuis le menu
 
 
 
 
 1.  Remarque ː Les objets à découper doivent séparer complètement l'objet à découper. Ainsi, un cube ne peut pas être coupé par un fil mais par un plan dérivé d\'un fil extrudé, par exemple.
 
-Un objet paramétrique Slice est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md).
+Un objet paramétrique Scinder est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md).
 
 ### Arborescence de Scinder 
 
@@ -91,9 +91,9 @@ Le tranchage est créé et chaque morceau est uni dans un composé.
 4.  Revenez à l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [atelier Part](Part_Workbench/fr.md).
     -   Sélectionnez l\'esquisse de fractionnement et appliquez <img alt="" src=images/Part_BooleanFragments.svg  style="width   *24px;"> [Part Fragments booléens](Part_BooleanFragments/fr.md). Cela insérera des sommets où les lignes de l\'esquisse de séparation se coupent. Les avoir est essentiel pour que la prochaine étape fonctionne.
         ![320px](images/slice_example_step4.png)
-5.  Sélectionnez la face rectangulaire et les BooleanFragments of splitter sketch et appliquez <img alt="" src=images/Part_Slice.svg  style="width   *24px;"> Part Slice.
+5.  Sélectionnez la face rectangulaire et les fragments booléens de l\'esquisse de séparation, puis appliquez <img alt="" src=images/Part_Slice.svg  style="width   *24px;"> Part Scinder.
     ![320px](images/slice_example_step5.png)
-6.  Utilisez <img alt="" src=images/Part_ExplodeCompound.svg  style="width   *24px;"> [Part Éclater le composé](Part_ExplodeCompound/fr.md) sur la face tranchée, pour séparer le composé fabriqué par Part Slice en morceaux individuels.
+6.  Utilisez <img alt="" src=images/Part_ExplodeCompound.svg  style="width   *24px;"> [Part Éclater le composé](Part_ExplodeCompound/fr.md) sur la face tranchée, pour séparer le composé fabriqué par Part Scinder en morceaux individuels.
 
 **Remarques    *** les étapes 5 et 6 peuvent être effectuées en un seul clic en utilisant <img alt="" src=images/Part_SliceApart.svg  style="width   *24px;"> [Part Séparer/exploser](Part_SliceApart/fr.md)
 

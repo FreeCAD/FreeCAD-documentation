@@ -1,6 +1,8 @@
 # Category:Plot/pt-br
 This category lists pages related to the [Plot Workbench/pt-br](Plot_Workbench/pt-br.md).
 
+[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
+
 ### Contents
 
 |     |     |     |

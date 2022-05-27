@@ -1,6 +1,8 @@
 # Category:Raytracing/hr
 This category lists pages related to the [Raytracing Workbench/hr](Raytracing_Workbench/hr.md).
 
+[Category   *Workbenches/hr](Category   *Workbenches/hr.md)
+
 ### Contents
 
 |     |     |     |

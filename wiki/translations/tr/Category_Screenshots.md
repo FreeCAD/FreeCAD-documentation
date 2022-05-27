@@ -1,6 +1,8 @@
 # Category:Screenshots/tr
 This category lists pages with screenshots.
 
+[Category   *Documentation/tr](Category   *Documentation/tr.md)
+
 ### Contents
 
 |     |     |     |

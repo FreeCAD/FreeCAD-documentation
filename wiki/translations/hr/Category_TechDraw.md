@@ -1,6 +1,8 @@
 # Category:TechDraw/hr
 This category lists pages related to the [TechDraw Workbench/hr](TechDraw_Workbench/hr.md).
 
+[Category   *Workbenches/hr](Category   *Workbenches/hr.md)
+
 ### Contents
 
 |     |     |     |

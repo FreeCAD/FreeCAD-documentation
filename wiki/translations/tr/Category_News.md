@@ -1,6 +1,8 @@
 # Category:News/tr
 This category contains articles with news and messages about FreeCAD.
 
+[Category   *Categories/tr](Category   *Categories/tr.md)
+
 ### Contents
 
 |     |     |     |

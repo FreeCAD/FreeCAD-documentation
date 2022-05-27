@@ -1,6 +1,8 @@
 # Category:FEM/es
 This category lists pages related to the [FEM Workbench/es](FEM_Workbench/es.md).
 
+[Category   *Workbenches/es](Category   *Workbenches/es.md)
+
 ### Contents
 
 |     |     |     |

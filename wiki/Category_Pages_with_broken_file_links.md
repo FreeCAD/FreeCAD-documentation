@@ -1,6 +1,8 @@
 # Category:Pages with broken file links
 This category groups all of the Pages with broken file links
 
+[Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

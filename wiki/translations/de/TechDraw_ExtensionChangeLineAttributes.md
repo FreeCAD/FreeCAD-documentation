@@ -18,7 +18,7 @@ Das <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="wi
 <img alt="" src=images/TechDraw_ExtensionChangeLineAttributesExample.png  style="width   *300px;"> 
 *Rechts Mittellinien mit den geänderten Eigenschaften   * Linienart&#61;DashDot, Linienbreite&#61;Thin und Farbe&#61;Blue*
 
-## Verwendung
+## Anwendung
 
 1.  Optional lege die Eigenschaften mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) Werkzeug fest.
 2.  Wähle eine oder mehrere Hilfslinie/Mittellinie.

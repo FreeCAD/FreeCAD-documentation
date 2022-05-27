@@ -1,6 +1,8 @@
 # Category:SheetMetal/fr
 This page collects the documentation pages for the [SheetMetal Workbench](SheetMetal_Workbench.md), one of the [external workbenches](external_workbenches.md).
 
+[Category   *External Workbenches](Category_External_Workbenches.md)
+
 ### Contents
 
 |     |     |     |

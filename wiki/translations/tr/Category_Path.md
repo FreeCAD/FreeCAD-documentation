@@ -1,6 +1,8 @@
 # Category:Path/tr
 This category lists pages related to the [PartDesign Workbench/tr](PartDesign_Workbench/tr.md).
 
+[Category   *Workbenches/tr](Category   *Workbenches/tr.md)
+
 ### Contents
 
 |     |     |     |

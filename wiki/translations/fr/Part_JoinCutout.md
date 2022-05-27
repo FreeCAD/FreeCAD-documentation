@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Part JoinCutout
    Name/fr   *Part Découpe
-   |MenuLocation   *Part → Joindre → Découpe pour objet
+   |MenuLocation   *Part → Joindre → Découper un objet
    Workbenches   *[Part](Part_Workbench/fr.md)
    Version   *0.16
    SeeAlso   *[Part Connecter](Part_JoinConnect/fr.md), [Part Intégrer](Part_JoinEmbed/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
@@ -20,11 +20,11 @@ L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width   *24px;"> [Pa
 
 1.  Sélectionnez d\'abord l\'objet de base, puis l\'objet pour définir la découpe.
     L\'ordre de sélection est important. Il suffit de sélectionner une sous-forme de chaque objet (par ex. des faces).
-2.  Appelez la commande Part Découpe de plusieurs manières    *
-    -   En appuyant sur le bouton <img alt="" src=images/Part_JoinCutout.svg  style="width   *24px;"> [Part Découpe](Part_JoinCutout/fr.md) dans la barre d\'outils Part
-    -   Utilisation de l\'entrée **Part → Joindre → Découpe de l'objet** dans le menu Part
+2.  Lancez la commande Part Découpe de plusieurs manières    *
+    -   En appuyant sur le bouton <img alt="" src=images/Part_JoinCutout.svg  style="width   *24px;"> [Découper un objet](Part_JoinCutout/fr.md) dans la barre d\'outils Part
+    -   Utilisation de l\'entrée **Part → Joindre → Découper un objet** du menu Part
 
-Un objet Part JoinFeature est créé avec le mode défini sur \'Cutout\' (Découpe). Les objets originaux sont masqués et le résultat de la découpe est affiché dans la [vue 3D](3D_view/fr.md).
+Un objet Part JoinFeature est créé avec le mode défini sur \"Cutout\" (Découpe). Les objets originaux sont masqués et le résultat de la découpe est affiché dans la [vue 3D](3D_view/fr.md).
 
 ## Propriétés
 
@@ -45,7 +45,7 @@ Un objet Part JoinFeature est créé avec le mode défini sur \'Cutout\' (Décou
     ![320px](images/JoinFeatures_Example_step1.png)
 2.  Créez un autre tuyau de plus petit diamètre et placez-le de manière à ce qu\'il perce la paroi du premier tuyau    *
     ![320px](images/_JoinFeatures_Example_step2.png)
-3.  Sélectionnez le premier tuyau, puis le second (l\'ordre de sélection est important), puis cliquez sur l\'option \'Découpe pour l\'objet\' dans le bouton de la barre d\'outils déroulante Outils de jointure.
+3.  Sélectionnez le premier tuyau, puis le second (l\'ordre de sélection est important), puis cliquez le bouton \"Découper un objet\" de la barre d\'outils déroulante Joindre les objets.
     ![320px](images/JoinFeatures_Example_step3_Cutout.png)
 
 ## Algorithme

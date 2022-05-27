@@ -1,6 +1,8 @@
 # Category:Poweruser Documentation/hr
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
+[Category   *Documentation/hr](Category   *Documentation/hr.md)
+
 ### Contents
 
 |     |     |     |

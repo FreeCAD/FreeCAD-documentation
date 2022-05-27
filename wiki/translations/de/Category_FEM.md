@@ -1,6 +1,8 @@
 # Category:FEM/de
 Diese Kategorie zeigt eine Liste der Seiten, die zum [FEM-Arbeitbereich](FEM_Workbench/de.md) gehören.
 
+[Category   *Workbenches/de](Category   *Workbenches/de.md)
+
 ### Contents
 
 |     |     |     |

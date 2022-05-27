@@ -1,6 +1,8 @@
 # Category:Ship/es
 This category lists pages related to the [Ship Workbench/es](Ship_Workbench/es.md).
 
+[Category   *Workbenches/es](Category   *Workbenches/es.md)
+
 ### Contents
 
 |     |     |     |

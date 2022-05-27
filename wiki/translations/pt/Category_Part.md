@@ -1,6 +1,8 @@
 # Category:Part/pt
 This category lists pages related to the [Part Workbench/pt](Part_Workbench/pt.md).
 
+[Category   *Workbenches/pt](Category   *Workbenches/pt.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:Surface/de
 Diese Kategorie zeigt eine Liste von Seiten, die zum [Surface-Arbeitsbereich](Surface_Workbench/de.md) gehören.
 
+[Category   *Workbenches/de](Category   *Workbenches/de.md)
+
 ### Contents
 
 |     |     |     |

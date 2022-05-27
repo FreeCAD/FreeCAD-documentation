@@ -1,6 +1,8 @@
 # Category:Obsolete Workbenches/en
 This category lists obsolete workbenches, that is, workbenches that are old and unmaintained, and which have been superseded by other workbenches.
 
+[Category   *Workbenches](Category_Workbenches.md)
+
 ### Contents
 
 |     |     |     |

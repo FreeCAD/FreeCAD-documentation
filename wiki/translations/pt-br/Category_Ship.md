@@ -1,6 +1,8 @@
 # Category:Ship/pt-br
 This category lists pages related to the [Ship Workbench/pt-br](Ship_Workbench/pt-br.md).
 
+[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
+
 ### Contents
 
 |     |     |     |

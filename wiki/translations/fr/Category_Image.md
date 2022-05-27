@@ -1,6 +1,8 @@
 # Category:Image/fr
 Cette catégorie est la catégorie de niveau supérieur pour **images**. Il ne doit contenir aucun fichier, mais uniquement des sous-catégories.
 
+[Category   *Categories/fr](Category   *Categories/fr.md)
+
 ### Contents
 
 |     |     |     |

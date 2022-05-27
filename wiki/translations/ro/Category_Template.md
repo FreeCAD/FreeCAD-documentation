@@ -1,6 +1,8 @@
 # Category:Template/ro
 This category contains all the Templates
 
+[Category   *Categories/ro](Category   *Categories/ro.md)
+
 ### Contents
 
 |     |     |     |

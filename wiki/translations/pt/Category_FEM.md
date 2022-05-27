@@ -1,6 +1,8 @@
 # Category:FEM/pt
 This category lists pages related to the [FEM Workbench/pt](FEM_Workbench/pt.md).
 
+[Category   *Workbenches/pt](Category   *Workbenches/pt.md)
+
 ### Contents
 
 |     |     |     |

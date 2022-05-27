@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width   
 <img alt="" src=images/TechDraw_ExtensionDrawCosmCircleExample.png  style="width   *250px;"> 
 *Rechts ein eingefügter Hilfslinienkreis*
 
-## Verwendung
+## Anwendung
 
 1.  Optional   * definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
 2.  Wähle den ersten Knotenpunkt um den Mittelpunkt des Kreises festzulegen.

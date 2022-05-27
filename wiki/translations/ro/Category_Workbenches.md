@@ -1,6 +1,8 @@
 # Category:Workbenches/ro
 This category lists workbenches included in FreeCAD.
 
+[Category   *User Documentation/ro](Category   *User_Documentation/ro.md)
+
 ### Contents
 
 |     |     |     |

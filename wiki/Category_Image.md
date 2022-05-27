@@ -1,6 +1,8 @@
 # Category:Image
 This category is the top level category for **images**. It should not contain any files, but only sub categories.
 
+[Category   *Categories](Category_Categories.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Workbenches](Category_Workbenches.md)
+
 ### Contents
 
 |     |     |     |

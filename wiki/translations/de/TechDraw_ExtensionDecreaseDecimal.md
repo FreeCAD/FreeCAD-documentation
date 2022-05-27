@@ -14,7 +14,7 @@
 
 Das <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width   *24px;"> **TechDraw ExtensionDecreaseDecimal** Werkzeug verkleinert die Anzahl der Dezimalstellen im Maßtext.
 
-## Verwendung
+## Anwendung
 
 1.  Wähle eine oder mehrere Bemaßungen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
@@ -22,7 +22,7 @@ Das <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width  
     -   Wähle die **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> Decrease Decimal Places** Option aus dem Menü.
 3.  Die Anzahl der Dezimalstellen der gewählten Bemaßungen wird um eins verkleinert.
 
-## Bemerkungen
+## Hinweise
 
 -   Die minimale Anzahl der Dezimalstellen ist 0.
 

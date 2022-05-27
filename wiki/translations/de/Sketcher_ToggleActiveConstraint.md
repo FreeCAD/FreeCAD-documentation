@@ -1,48 +1,46 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher ToggleActiveConstraint
-   Name/de:Skizzierer UmschaltenAktiveBeschränkung
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation:Skizze → Skizzierer Beschränkungen → Umschalten Aktivieren/Deaktivieren Beschränkung
-   SeeAlso:[Sketcher Umschalten treibende Beschränkungen](Sketcher_ToggleDrivingConstraint.md)
-   Version:0.19
+- GuiCommand   */de
+   Name   *Sketcher ToggleActiveConstraint
+   Name/de   *Sketcher UmschalterAktiveRandbedingung
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation   *Sketch → Skizzen-Beschränkungen → Einschränkung zwischen festlegend und anzeigend umschalten
+   Shortcut   ***K** **Z**
+   Version   *0.19
+   SeeAlso   *[Sketcher UmschalterFührendeRandbedingung](Sketcher_ToggleDrivingConstraint/de.md)
 ---
 
 # Sketcher ToggleActiveConstraint/de
 
-
-</div>
-
 ## Beschreibung
 
 
-**[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px">[UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)**
+**[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width   *16px">[UmschalterAktiveRandbedingung](Sketcher_ToggleActiveConstraint/de.md)**
 
-ermöglicht es dir, eine bereits platzierte Randbedingung zu aktivieren und zu deaktivieren. Dadurch kannst du die Beschränkung im Hintergrund halten, aber vorübergehend eine andere Anordnung der vorhandenen Geometrie testen.
+ermöglicht es, eine bereits platzierte Randbedingung zu aktivieren und zu deaktivieren. Dadurch kann man die Randbedingung im Hintergrund behalten, aber vorübergehend eine andere Anordnung der vorhandenen Geometrie testen.
 
-Das **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Umschalten Treibende Beschränkung](Sketcher_ToggleDrivingConstraint/de.md)** Werkzeug ist insofern ähnlich, als es die Wirkung der Beschränkung deaktiviert; mit diesem Werkzeug behält die Beschränkung jedoch nicht ihren alten Wert. Andererseits kann mit **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschaltenAktive Beschränkung](Sketcher_ToggleActiveConstraint/de.md)** kannst du die alte Beschränkung sofort wieder aktivieren.
+Das Werkzeug **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width   *16px"> [UmschalterFührendeRandbedingung](Sketcher_ToggleDrivingConstraint/de.md)** ist insofern ähnlich, als dass es die Wirkung der Randbedingung deaktiviert; mit diesem Werkzeug behält die Randbedingung jedoch nicht ihren alten Wert. Andererseits kann mit **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width   *16px"> [UmschalterAktiveRandbedingung](Sketcher_ToggleActiveConstraint/de.md)** die alte Randbedingung sofort wieder aktiviert werden.
 
 ## Anwendung
 
-1.  Wähle eine bereits platzierte Beschränkung und drücke dann **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)**.
-2.  Alternativ kannst du in der [Aufgabenkonsole](task_panel/de.md) zum Abschnitt {{MenuCommand/de|Beschränkungen}} gehen, die Beschränkung wählen, dann das Kontextmenü öffnen (Rechtsklick) und {{MenuCommand/de|Deaktivieren}} wählen.
-3.  Um die Beschränkung wieder zu aktivieren, wähle sie aus und drücke **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)** nochmals.
+1.  Eine bereits platzierte Randbedingung auswählen und dann die Schaltfläche **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width   *16px"> [Einschränkung zwischen festlegend und anzeigend umschalten](Sketcher_ToggleActiveConstraint/de.md)** drücken.
+2.  Alternativ kann man im [Aufgabenbereich](task_panel/de.md) zum Abschnitt {{MenuCommand/de|Constraints}} gehen, die Randbedingung wählen, dann das Kontextmenü öffnen (Rechtsklick) und {{MenuCommand/de|Deaktivieren}} wählen.
+3.  Um die Randbedingung wieder zu aktivieren, wählt man sie aus und drückt die Schaltfläche **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width   *16px"> [Einschränkung zwischen festlegend und anzeigend umschalten](Sketcher_ToggleActiveConstraint/de.md)** erneut.
 
 ## Beispiele
 
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_active.png  style="width:" height="350px;"> 
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_active.png  style="width   *" height="350px;"> 
 *Vollständig beschränkte Skizze‎.*
 
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_1.png  style="width:" height="350px;"> <img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_2.png  style="width:" height="350px;"> 
-*Links: Deaktivierte Beschränkung; die Skizze ist nicht mehr vollständig beschränkt. Rechts: die nicht gebundene Geometrie kann verschoben werden; die ältere Abhängigkeit ist immer noch verfügbar und kann reaktiviert werden, um zur vollständig gebundenen Skizze zurückzukehren.*
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_1.png  style="width   *" height="350px;"> <img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_2.png  style="width   *" height="350px;"> 
+*Links   * Deaktivierte Beschränkung; die Skizze ist nicht mehr vollständig beschränkt. Rechts   * die nicht gebundene Geometrie kann verschoben werden; die ältere Abhängigkeit ist immer noch verfügbar und kann reaktiviert werden, um zur vollständig gebundenen Skizze zurückzukehren.*
 
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_task_panel.png  style="width:" height="350px;"> 
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_task_panel.png  style="width   *" height="350px;"> 
 *Aufgabenbereich mit der deaktivierten Beschränkung.*
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -53,7 +51,7 @@ SketchObject.toggleActive(index)
 
 Verwende die `toggleActive` Methode einer vorhandenen [Skizzierer SkizzenObjekt](Sketcher_SketchObject/de.md) und den `index` der Beschränkung, um sie zu aktivieren oder zu deaktivieren. Der Index beginnt bei `0` bis hin zu `N-1`, wobei `N` die Gesamtanzahl der Beschränkungen ist.
 
-Beispiel: 
+Beispiel   * 
 ```python
 import FreeCAD as App
 
@@ -62,13 +60,7 @@ sketch.toggleActive(3)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

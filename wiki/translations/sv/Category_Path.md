@@ -1,6 +1,8 @@
 # Category:Path/sv
 This category lists pages related to the [PartDesign Workbench/sv](PartDesign_Workbench/sv.md).
 
+[Category   *Workbenches/sv](Category   *Workbenches/sv.md)
+
 ### Contents
 
 |     |     |     |

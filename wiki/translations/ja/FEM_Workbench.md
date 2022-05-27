@@ -143,7 +143,7 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md)   * Creates a new solver for this analysis. In most cases the solver is created together with the analysis.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solver CalculiX (experimental)](FEM_SolverCalculiX.md)   *
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solver CalculiX (new framework)](FEM_SolverCalculiX.md)   *
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md)   * Creates the solver controller for Elmer. It is independent from other solver objects.
 

@@ -1,6 +1,8 @@
 # Category:Sketcher/hr
 This category lists pages related to the [Sketcher Workbench/hr](Sketcher_Workbench/hr.md).
 
+[Category   *Workbenches/hr](Category   *Workbenches/hr.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,32 +1,33 @@
 ---
-- GuiCommand:
-   Name:Std ViewTrimetric
-   MenuLocation:View → Standard views → Axonometric → Trimetric
-   Workbenches:All
-   SeeAlso:[Std ViewIsometric](Std_ViewIsometric.md), [Std ViewDimetric](Std_ViewDimetric.md)
+- GuiCommand   */pl
+   Name   *Std ViewTrimetric
+   Name/pl   *Std   * Widok Trimetryczny
+   MenuLocation   *Widok → Widoki standardowe → Aksonometryczny → Trimetryczny
+   Workbenches   *wszystkie
+   SeeAlso   *[Widok izometryczny](Std_ViewIsometric/pl.md), [Widok dimertyczny](Std_ViewDimetric/pl.md)
 ---
 
 # Std ViewTrimetric/pl
 
-## Description
+## Opis
 
-The **Std ViewTrimetric** command realigns the camera in the active [3D view](3D_view.md) to obtain a [trimetric](https://en.wikipedia.org/wiki/Axonometric_projection#Three_types) view. For a truly trimetric view the 3D view must be in [orthographic mode](Std_OrthographicCamera.md), but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
+Polecenie **Widok trimetryczny** zmienia ustawienie ujęcia widoku w aktywnym oknie [widoku 3D](3D_view/pl.md), aby uzyskać widok [trimetryczny](https   *//en.wikipedia.org/wiki/Axonometric_projection#Three_types). Aby uzyskać realnie trimetryczny widok, okno widoku 3D powinno być w trybie [ortogonalnym](Std_OrthographicCamera/pl.md), ale polecenie działa również, jeśli widok jest ustawiony w trybie [perspektywy](Std_PerspectiveCamera/pl.md).
 
 ![](images/Std_ViewTrimetric_example.svg ) 
-*The [axis cross](Std_AxisCross.md) and a cube in trimetric view*
+*[Symbol osi](Std_AxisCross/pl.md) i sześcian w rzucie trimetrycznym*
 
-## Usage
+## Użycie
 
-1.  Select the **View → Standard views → Axonometric → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimetric** option from the menu.
+1.  Wybierz z menu głównego opcję **Widok → Widoki standardowe → Aksonometria → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimetryczny**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change to trimetric view use the `viewTrimetric` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok *trimetryczny*, należy użyć metody `viewTrimetric` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

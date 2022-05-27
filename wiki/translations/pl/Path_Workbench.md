@@ -1,178 +1,178 @@
-# <img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Path" src=images/Workbench_Path.svg  style="width   *64px;"> Path Workbench/pl
 
 
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
-The <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md) is used to produce machine instructions for [CNC machines](https://en.wikipedia.org/wiki/CNC_router) from a FreeCAD 3D model. These produce real-world 3D objects on CNC machines such as mills, lathes, lasercutters, or similar. Typically, instructions are a [G-code](https://en.wikipedia.org/wiki/G-code) dialect. A [general CNC lathe tool path sequence simulation example](https://www.ange-softs.com/SIMULCNCHTML/index.html) is presented here.
+Środowisko pracy <img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [Path](Path_Workbench/pl.md) jest używany do tworzenia instrukcji maszynowych dla [maszyn CNC](https   *//en.wikipedia.org/wiki/CNC_router) z modelu 3D FreeCAD. Instrukcje te wytwarzają rzeczywiste obiekty 3D na maszynach CNC, takich jak frezarki, tokarki, wycinarki laserowe i podobne. Zazwyczaj instrukcje są dialektem [G-code](https   *//en.wikipedia.org/wiki/G-code). Przedstawiono tu [ogólny przykład symulacji sekwencji ścieżki narzędzia tokarki CNC](https   *//www.ange-softs.com/SIMULCNCHTML/index.html).
 
-<img alt="" src=images/pathwb.png  style="width:600px;">
+<img alt="" src=images/pathwb.png  style="width   *600px;">
 
-The FreeCAD Path Workbench workflow creates these machine instructions as follows:
+Przepływ pracy środowiska FreeCAD Path tworzy te instrukcje maszynowe w następujący sposób   *
 
--   A 3D model is the base object, typically created using one or more of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench.md), <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) Workbenches.
--   A [Path Job](Path_Job.md) is created in the Path Workbench. This contains all the information required to generate the necessary G-code to process the Job on a CNC mill: there is Stock material, the mill has a certain [set of tools](Path_ToolLibraryEdit.md) and it follows certain commands controlling speed and movements (usually G-code).
--   [Path Tools](Path_Tools.md) are selected as required by the Job Operations.
--   Milling paths are created using e.g. [Contour](Path_Profile.md) and [Pocket](Path_Pocket_3D.md) Operations. These Path objects use internal FreeCAD G-code dialect, independent of the CNC machine.
--   Export the job with a G-code, matching to your machine. This step is called *post processing*; there are different post processors available.
+-   Model 3D jest obiektem bazowym, zwykle tworzonym przy użyciu jednego lub więcej środowisk pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Projekt Części](PartDesign_Workbench/pl.md), <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Część](Part_Workbench/pl.md) lub <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;">. [Rysunek Roboczy](Draft_Workbench/pl.md).
+-   W środowisku Path tworzone jest [Zadamnie](Path_Job/pl.md). Zawiera ono wszystkie informacje potrzebne do wygenerowania niezbędnego G-kodu do obróbki zadania na frezarce CNC   * jest materiał magazynowy, frezarka ma określony [zestaw narzędzi](Path_ToolLibraryEdit/pl.md) i wykonuje określone polecenia kontrolujące prędkość i ruchy *(zwykle G-kod)*.
+-   [Narzędzia](Path_Tools/pl.md) są wybierane zgodnie z wymaganiami zadania.
+-   Ścieżki frezowania są tworzone przy użyciu np. operacji [konturu](Path_Profile/pl.md) i [kieszeni](Path_Pocket_3D/pl.md). Te obiekty ścieżek używają wewnętrznego dialektu kodu G FreeCAD, niezależnego od maszyny CNC.
+-   Wyeksportuj zadanie z G-kodem, dopasowanym do Twojej maszyny. Ten krok nazywany jest *postprocesowaniem*. Dostępne są różne postprocesory.
 
-## General concepts 
+## Koncepcje ogólne 
 
-The Path Workbench generates G-code defining the paths required to mill the Project represented by the 3D model on the target mill in [the Path Job Operations FreeCAD G-code dialect](Path_scripting#The_FreeCAD_Internal_GCode_Format.md), which is later translated to the appropriate dialect for the target CNC controller by selecting the appropriate postprocessor.
+Środowisko robocze Path generuje G-kod definiujący ścieżki wymagane do frezowania projektu reprezentowanego przez model 3D na docelowej frezarce w [wewnętrznym formacie GCode programu FreeCAD](Path_scripting/pl#Wewn.C4.99trzny_format_GCode_programu_FreeCAD.md), który jest następnie tłumaczony na odpowiedni dialekt dla docelowego sterownika CNC poprzez wybór odpowiedniego postprocesora.
 
-The G-code is generated from directives and Operations contained in a Path Job. The Job Workflow lists these in the order they will be executed. The list is populated by adding Path Operations, Path Dressups, Path Supplemental Commands, and Path Modifications from the Path Menu, or GUI buttons.
+G-kod jest generowany na podstawie dyrektyw i operacji zawartych w zadaniu ścieżki. Obieg zadań zawiera ich listę w kolejności, w jakiej będą wykonywane. Listę tę tworzy się, dodając Operacje na ścieżce, Stylizacje na ścieżce, Polecenia uzupełniające na ścieżce i Modyfikacje na ścieżce z menu ścieżki lub przycisków graficznego interfejsu użytkownika.
 
-The Path Workbench provides a Tool Manager (Library, Tool-Table), and G-code Inspection, and Simulation tools. It links the Postprocessor, and allows importing and exporting Job Templates.
+Środowisko robocze Path udostępnia menedżera narzędzi *(bibliotekę, tabelę narzędzi)*, narzędzia do inspekcji G-kodu oraz symulacji. Łączy się z postprocesorem i umożliwia importowanie i eksportowanie szablonów zadań.
 
-The Path Workbench has external dependencies including:
+Środowisko Path ma zewnętrzne zależności, w tym   *
 
-1.  The FreeCAD 3D model units are defined in the **Edit → Preference → General → Units tab's Units settings**. The Postprocessor configuration defines the final G-code units.
-2.  The Macro file path, and Geometric tolerances, are defined in the **Edit → Preferences → Path → Job Preferences** tab.
-3.  Colors are defined in the **Edit → Preferences → Path → Path colors** tab.
-4.  Holding tag parameters are defined in the **Edit → Preferences → Path → Dressups** tab.
-5.  That the Base 3D model quality supports the Path workbench requirements, passes Check Geometry.
+1.  Jednostki modelu FreeCAD 3D są zdefiniowane w **Edycja → Preferencje ... → Ogólne → Jednostki → Ustawienia jednostek**. Konfiguracja Postprocesora definiuje jednostki wynikowe G-kodu.
+2.  Ścieżka do pliku Makrodefinicji oraz tolerancje geometryczne są zdefiniowane w zakładce **Edycja → Preferencje ... → Path → Ustawienia dla zadania**.
+3.  Kolory są definiowane w zakładce **Edycja → Preferencje ... → Path → GUI**.
+4.  Parametry znaczników trzymania definiuje się w zakładce **Edycja → Preferencje ... → Path → Ulepszenia**.
+5.  To, że jakość modelu Base 3D jest zgodna z wymaganiami środowiska Path, potwierdza sprawdzenie geometrii.
 
-## Limitations
+## Ograniczenia
 
-Some current limitations of which you should be aware are:
+Niektóre z obecnych ograniczeń, o których należy pamiętać, to   *
 
--   Most of the Path Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths: **<img src="images/Path_3DPocket.svg" width=24px> [3D Pocket](Path_Pocket_3D.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** (which is still an [experimental feature](Path_experimental.md) as of November 2020).
--   Most of Path workbench is designed for a simple, standard 3-axis (xyz) CNC mill/router, but lathe tools are under development in 0.19\_pre.
--   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operations.
--   The operations within the Path workbench are not aware of clamping mechanisms in use to secure the model to your machine. Consequently, please review and simulate the paths you generate prior to sending the code to your machine. If necessary, model your clamping mechanisms in FreeCAD in order to better inspect the paths generated. Look for possible collisions with clamps or other obstacles along the paths.
+-   Większość narzędzi Path nie jest prawdziwymi narzędziami 3D, a jedynie 2,5D. Oznacza to, że przyjmują one ustalony kształt 2D i mogą go przyciąć do określonej głębokości. Istnieją jednak dwa narzędzia, które tworzą prawdziwe ścieżki 3D   * **<img src="images/Path_3DPocket.svg" width=24px> [Kieszeń 3D](Path_Pocket_3D/pl.md)** i **<img src="images/Path_Surface.svg" width=24px> [Powierzchnia 3D](Path_Surface/pl.md)** *(która jest wciąż [funkcją eksperymentalną](Path_experimental/pl.md) od listopada 2020 roku)*.
+-   Większość środowiska pracy Path jest zaprojektowana dla standardowej, prostej, 3-osiowej *(xyz)* frezarki / routera CNC, ale narzędzia tokarskie są w trakcie opracowywania w wersji 0.19\_pre.
+-   Większość operacji w środowisku pracy Path zwróci ścieżki oparte tylko na standardowym narzędziu / bicie, niezależnie od typu narzędzia / bita przypisanego w danym kontrolerze narzędzia, z wyjątkiem operacji <img alt="" src=images/Path_Engrave.svg  style="width   *24px;"> [Grawer](Path_Engrave/pl.md) i <img alt="" src=images/Path_Surface.svg  style="width   *24px;"> [powierzchnia 3D](Path_Surface/pl.md).
+-   Operacje wykonywane w środowisku roboczym Path nie uwzględniają mechanizmów mocujących, które są używane do mocowania modelu na maszynie. W związku z tym przed wysłaniem kodu do maszyny należy przejrzeć i zasymulować generowane ścieżki. Jeśli to konieczne, wymodeluj mechanizmy mocujące w programie FreeCAD, aby lepiej sprawdzić wygenerowane ścieżki. Zwróć uwagę na ewentualne kolizje z zaciskami lub innymi przeszkodami na ścieżkach.
 
-## Units
+## Jednostki
 
-Unit handling in Path can be confusing. There are several points to understand:
+Obsługa jednostek w środowisku Path może być myląca. Należy zrozumieć kilka kwestii   *
 
-1.  FreeCAD base units for length and time are \'mm\' and \'s\' respectively. Velocity is thus \'mm/s\'. This is what FreeCAD stores internally regardless of anything else
-2.  The default unit schema uses the default units. If you\'re using the default schema and you enter a feed rate without a unit string, it will get entered as \'mm/s\'
-3.  Most CNC machines expect feed rate in the form of either \'mm/min\' or \'in/min\'. Most post-processors will automatically convert the unit when generating gcode.
+1.  Jednostkami podstawowymi FreeCAD dla długości i czasu są odpowiednio \"mm\" i \"s\". Prędkość jest więc \"mm / s\". To jest to, co FreeCAD przechowuje wewnętrznie, niezależnie od wszystkiego innego.
+2.  Domyślny schemat jednostek używa jednostek domyślnych. Jeśli używasz domyślnego schematu i wprowadzasz prędkość posuwu bez łańcucha jednostek, zostanie ona wprowadzona jako \"mm/s\".
+3.  Większość maszyn CNC oczekuje prędkości posuwu w postaci \"mm / min\" lub \"in / min\". Większość postprocesorów automatycznie konwertuje jednostkę podczas generowania G-kodu.
 
-Schemas:
+Schematy   *
 
-1.  Changing schema in preferences changes default unit string for the input fields. If you\'re a Path user and prefer to design in metric, it\'s highly recommended that you use the \"Metric Small Parts & CNC\" schema. If you design in US units, either the Imperial Decimal and Building US will work
-2.  Changing your preferred unit schema will have no effect on output but will help avoid input errors
+1.  Zmiana schematu w preferencjach zmienia domyślny ciąg jednostek dla pól wejściowych. Jeśli jesteś użytkownikiem Path i wolisz projektować w jednostkach metrycznych, zalecane jest użycie schematu \"Metryczny drobne części i CNC\". Jeśli projektujesz w jednostkach amerykańskich, możesz użyć schematu Calowy dziesiętny lub Budowlany US.
+2.  Zmiana preferowanego schematu jednostek nie będzie miała wpływu na wynik, ale pomoże uniknąć błędów przy wprowadzaniu danych.
 
-Output:
+Wyjście   *
 
-1.  Generating the correct unit in output is the responsibility of the post-processor and is done only at that time
-2.  Machine output unit is completely unrelated to your selected unit schema
-3.  Post-processors produce either metric (G21) output, Imperial (G20) output or are configurable.
-4.  Configurable post-processors default to metric (G21)
-5.  If you want your configurable post-processor to output imperial gcode (G20), Set the correct argument in your job output configation (ie \--inches for linuxcnc). This can be stored in a job template and set as your default template to make it automatic for all future jobs
+1.  Generowanie poprawnej jednostki na wyjściu jest zadaniem postprocesora i jest wykonywane tylko w tym czasie.
+2.  Jednostka wyjściowa maszyny jest całkowicie niezwiązana z wybranym przez użytkownika schematem jednostek.
+3.  Postprocesory generują dane wyjściowe w systemie metrycznym *(G21)*, imperialnym *(G20)* lub są konfigurowalne.
+4.  Konfigurowalne postprocesory domyślnie produkują dane metryczne *(G21)*.
+5.  Jeśli chcesz, aby twój konfigurowalny postprocesor generował kod imperialny *(G20)*, ustaw odpowiedni argument w konfiguracji wyjścia zadania *(np. \--inches dla linuxcnc)*. Można to zapisać w szablonie zadania i ustawić jako szablon domyślny, aby działało to automatycznie dla wszystkich przyszłych zadań.
 
-Path Inspection:
+Inspekcja ścieżki   *
 
-1.  If you use the Path Inspect tool to look at g-code, you will see it in \'mm/s\' because it is not being post-processed
+1.  Jeśli użyjesz narzędzia Inspekcja Path do obejrzenia G-kodu, zobaczysz go w \"mm / s\", ponieważ nie jest on poddawany obróbce postprocesora.
 
-## Heights and depths 
+## Wysokość i głębokość 
 
-Many of the commands have various heights and depths:
+Wiele poleceń ma zróżnicowaną wysokość i głębokość   *
 
-<img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Visual reference for Depth properties (settings)*
+<img alt="" src=images/Path-DepthsAndHeights.gif  style="width   *500px;"> 
+*Wizualne odniesienie do właściwości ''(ustawień)'' głębokości*
 
-## Commands
+## Polecenia
 
-Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
+Niektóre polecenia są eksperymentalne i nie są domyślnie dostępne. Aby je włączyć, zobacz stronę [Funkcje eksperymentalne](Path_experimental/pl.md).
 
-### Project Commands 
+### Polecenia projektu 
 
--   <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Job](Path_Job.md): Creates a new CNC job.
+-   <img alt="" src=images/Path_Job.svg  style="width   *32px;"> [Zadanie](Path_Job/pl.md)   * Tworzy nowe zadanie obróbki CNC.
 
--   <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Post Process](Path_Post.md): Exports a project to G-code.
+-   <img alt="" src=images/Path_Post.svg  style="width   *32px;"> [Post Process](Path_Post/pl.md)   * Eksportuje projekt do G-kodu.
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Check the path job for common errors](Path_Sanity.md): Checks the selected job for missing values. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Sanity.svg  style="width   *32px;"> [Sprawdź, czy zadanie trasy nie zawiera typowych błędów](Path_Sanity/pl.md)   * Sprawdza, czy w wybranym zadaniu nie występują brakujące wartości. [**funkcja eksperymentalna**](Path_experimental/pl.md). {{Version/pl|0.19}}
 
--   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Template](Path_ExportTemplate.md): Export the current job as a template.
+-   <img alt="" src=images/Path_ExportTemplate.svg  style="width   *32px;"> [Eksport szablonu](Path_ExportTemplate/pl.md)   * Eksportuj aktualne zadanie jako szablon.
 
-### Tool Commands 
+### Polecenia narzędzi 
 
--   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Inspect G-code](Path_Inspect.md): Shows the G-code for checking.
+-   <img alt="" src=images/Path_Inspect.svg  style="width   *32px;"> [Kontrola G-kodu](Path_Inspect/pl.md)   * Wyświetla G-kod do weryfikacji.
 
--   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [CAM Simulator](Path_Simulator.md): Shows the milling operation like it\'s done on the machine.
+-   <img alt="" src=images/Path_Simulator.svg  style="width   *32px;"> [ Symulator CAM](Path_Simulator/pl.md)   * Przedstawia operację frezowania w sposób, w jaki jest ona wykonywana na maszynie.
 
--   <img alt="" src=images/Path_SelectLoop.svg  style="width:32px;"> [Finish Selecting Loop](Path_SelectLoop.md): Completes a loop from two selected edges.
+-   <img alt="" src=images/Path_SelectLoop.svg  style="width   *32px;"> [Zakończ zaznaczanie pętli](Path_SelectLoop/pl.md)   * Uzupełnia pętlę na podstawie dwóch wybranych krawędzi.
 
--   <img alt="" src=images/Path_OpActiveToggle.svg  style="width:32px;"> [Toggle the Active State of the Operation](Path_OpActiveToggle.md): Activates or de-activates a path operation.
+-   <img alt="" src=images/Path_OpActiveToggle.svg  style="width   *32px;"> [Przełącz aktywność operacji](Path_OpActiveToggle/pl.md)   * Aktywuje lub dezaktywuje operację na ścieżce.
 
--   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width   *32px;"> [Edytor biblioteki narzędzi](Path_ToolBitLibraryOpen/pl.md)   * Otwiera edytor do zarządzania bibliotekami końcówek narzędzi. {{Version/pl|0.19}}
 
--   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_ToolBitDock.svg  style="width   *32px;"> [Stacja dokująca narzędzi](Path_ToolBitDock/pl.md)   * Przełącza stacja dokującą narzędzi. {{Version/pl|0.19}}
 
-### Basic Operations 
+### Operacje podstawowe 
 
--   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Profile.svg  style="width   *32px;"> [Profil](Path_Profile/pl.md)   * Tworzy operację profilowania całego modelu albo jednej lub kilku wybranych powierzchni lub krawędzi. {{Version/pl|0.19}}
 
--   <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Pocket Shape](Path_Pocket_Shape.md): Creates a pocketing operation from one ore more selected pocket(s).
+-   <img alt="" src=images/Path_Pocket_Shape.svg  style="width   *32px;"> [Kształt kieszeni](Path_Pocket_Shape/pl.md)   * Tworzy operację kieszeni z jednej lub kilku wybranych kieszeni.
 
--   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Drilling](Path_Drilling.md): Performs a drilling cycle.
+-   <img alt="" src=images/Path_Drilling.svg  style="width   *32px;"> [Owierty](Path_Drilling/pl.md)   * Przeprowadza cykl wiercenia.
 
--   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Face](Path_MillFace.md): Creates a surfacing path.
+-   <img alt="" src=images/Path_Face.svg  style="width   *32px;"> [Ściana](Path_MillFace/pl.md)   * Tworzy ścieżkę obróbki powierzchni.
 
--   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix.md): Creates a helical path.
+-   <img alt="" src=images/Path_Helix.svg  style="width   *32px;"> [Helisa](Path_Helix/pl.md)   * Tworzy ścieżkę o kształcie helisy.
 
--   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
+-   <img alt="" src=images/Path_Adaptive.svg  style="width   *32px;"> [Algorytm adaptacyjny](Path_Adaptive/pl.md)   * Tworzy operację dostosowania oczyszczania i profilowania.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width   *32px;"> [Rowek](Path_Slot/pl.md)   * Tworzy operację szczelinowania na podstawie wybranych elementów lub punktów niestandardowych. [**funkcja eksperymentalna**](Path_experimental/pl.md). {{Version/pl|0.19}}
 
--   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
+-   <img alt="" src=images/Path_Engrave.svg  style="width   *32px;"> [Grawer](Path_Engrave/pl.md)   * Tworzy trasę grawerowania.
 
--   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [Vcarve](Path_Vcarve.md): Creates an engraving path using a V tool shape. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Vcarve.svg  style="width   *32px;"> [Wycięcie V](Path_Vcarve/pl.md)   * Tworzy ścieżkę grawerowania przy użyciu kształtu narzędzia V. {{Version/pl|0.19}}
 
-### 3D Operations 
+### Operacje przestrzenne 
 
--   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
+-   <img alt="" src=images/Path_3DPocket.svg  style="width   *32px;"> [Kieszeń 3D](Path_Pocket_3D/pl.md)   * Tworzy ścieżkę dla kieszeni 3D.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Surface](Path_Surface.md): Creates a path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Surface.svg  style="width   *32px;"> [Powierzchnia 3D](Path_Surface/pl.md)   * Tworzy ścieżkę dla powierzchni 3D. [**funkcja eksperymentalna**](Path_experimental/pl.md). {{Version/pl|0.19}}
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width   *32px;"> [Linia poziomu](Path_Waterline/pl.md)   * Tworzy ścieżkę linii poziomu dla powierzchni 3D. [**Experimental**](Path_experimental/pl.md). {{Version/pl|0.19}}
 
-### Path Dressup 
+### Ścieżki ulepszenia 
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary Dressup](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width   *32px;"> [Ulepszenie konturu](Path_DressupPathBoundary/pl.md)   * Dodaje ulepszenie obrysu krawędzi do wybranej ścieżki.
 
--   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Dogbone Dressup](Path_DressupDogbone.md): Adds a dogbone dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupDogbone.svg  style="width   *32px;"> [Ulepszenie - nadcięcie w narożnikach](Path_DressupDogbone/pl.md)   * Dodaje modyfikację nadcięcia narożników do wybranej ścieżki.
 
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [DragKnife Dressup](Path_DressupDragKnife.md): Adds a dragknife dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width   *32px;"> [Ulepszenie - nóż wleczony](Path_DressupDragKnife/pl.md)   * Dodaje modyfikację dla noża do przeciągania do wybranej ścieżki.
 
--   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [LeadInOut Dressup](Path_DressupLeadInOut.md): Adds a lead-in and/or lead-out point to a selected path.
+-   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width   *32px;"> [Ulepszenie wprowadzenia / wyprowadzenia](Path_DressupLeadInOut/pl.md)   * Dodaje punkt wejścia i / lub wyjścia do wybranej ścieżki.
 
--   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [RampEntry Dressup](Path_DressupRampEntry.md): Adds ramp entry dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupRampEntry.svg  style="width   *32px;"> [Ulepszenie - parkowanie narzędzia](Path_DressupRampEntry/pl.md)   * Dodaje modyfikację wejścia na rampę do wybranej ścieżki.
 
--   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Dressup](Path_DressupTag.md): Adds a holding tag dressup modification to a selected path.
+-   <img alt="" src=images/Path_DressupTag.svg  style="width   *32px;"> [Ulepszenie - pola mocujące](Path_DressupTag/pl.md)   * Dodaje modyfikację mostka przytrzymującego do wybranej ścieżki.
 
-### Supplemental Commands 
+### Polecenia uzupełniające 
 
--   <img alt="" src=images/Path_Fixture.svg  style="width:32px;"> [Fixture](Path_Fixture.md): Changes the fixture position.
+-   <img alt="" src=images/Path_Fixture.svg  style="width   *32px;"> [Mocowanie](Path_Fixture/pl.md)   * Zmienia położenie uchwytu.
 
--   <img alt="" src=images/Path_Comment.svg  style="width:32px;"> [Comment](Path_Comment.md): Inserts a comment in the G-code of a path.
+-   <img alt="" src=images/Path_Comment.svg  style="width   *32px;"> [Komentarz](Path_Comment/pl.md)   * Wstawia komentarz do G-kodu ścieżki.
 
--   <img alt="" src=images/Path_Stop.svg  style="width:32px;"> [Stop](Path_Stop.md): Inserts a full stop of the machine.
+-   <img alt="" src=images/Path_Stop.svg  style="width   *32px;"> [Stop](Path_Stop/pl.md)   * Wstawia instrukcję pełnego zatrzymania maszyny.
 
--   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Custom](Path_Custom.md): Inserts custom G-code.
+-   <img alt="" src=images/Path_Custom.svg  style="width   *32px;"> [Wstawka Gcode](Path_Custom/pl.md)   * Wstawia G-kod użytkownika.
 
--   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [From Shape](Path_Shape.md): Creates a path object from a selected Part object. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Shape.svg  style="width   *32px;"> [G-kod z kształtu](Path_Shape/pl.md)   * Tworzy obiekt ścieżki z wybranego obiektu części. [**funkcja eksperymentalna**](Path_experimental/pl.md).
 
-### Path Modification 
+### Modyfikacja ścieżki 
 
--   <img alt="" src=images/Path_Copy.svg  style="width:32px;"> [Copy the operation in the job](Path_Copy.md): Creates a parametric Copy of a selected path object.
+-   <img alt="" src=images/Path_Copy.svg  style="width   *32px;"> [Kopia](Path_Copy/pl.md)   * Tworzy parametryczną Kopię wybranego obiektu ścieżki.
 
--   <img alt="" src=images/Path_Array.svg  style="width:32px;"> [Array](Path_Array.md): Creates an array by duplicating a selected path.
+-   <img alt="" src=images/Path_Array.svg  style="width   *32px;"> [Szyk](Path_Array/pl.md)   * Tworzy szyk przez powielanie wybranej ścieżki.
 
--   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Simple Copy](Path_SimpleCopy.md): Creates a non-parametric copy of a selected path object.
+-   <img alt="" src=images/Path_SimpleCopy.svg  style="width   *32px;"> [Szybka kopia](Path_SimpleCopy/pl.md)   * Tworzy nieparametryczną kopię wybranego obiektu ścieżki.
 
-### Miscellaneous
+### Różności
 
--   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Area](Path_Area.md): Creates a feature area from selected objects. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Area.svg  style="width   *32px;"> [Area](Path_Area.md)   * Creates a feature area from selected objects. [**Experimental**](Path_experimental.md).
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Area workplane](Path_Area_Workplane.md): Creates a feature area workplane. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width   *32px;"> [Area workplane](Path_Area_Workplane.md)   * Creates a feature area workplane. [**Experimental**](Path_experimental.md).
 
 ### Obsolete
 
--   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:32px;"> [Tool Manager](Path_ToolLibraryEdit.md): Edit the Tool Manager. \'Legacy\' tool system. {{VersionMinus|0.18}}
+-   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width   *32px;"> [Tool Manager](Path_ToolLibraryEdit.md)   * Edit the Tool Manager. \'Legacy\' tool system. {{VersionMinus|0.18}}
 
 ## ToolBit architecture 
 
@@ -186,14 +186,14 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <sm
 
 ## Other
 
--   [Path FAQ](Path_FAQ.md): The Path Workbench shares many concepts with other CAM software packages but has its own peculiarities. If something seems wrong this is a good place to start.
--   [Path SetupSheet](Path_SetupSheet.md): You can use a SetupSheet to customize how various property values for operations are calculated.
--   [Path Postprocessor Customization](Path_Postprocessor_Customization.md): If you have a special machine which cannot use one of the available post-processors you may need to write your own post-processor.
--   [Path fourth axis](Path_fourth_axis.md): Experimental four axis milling.
+-   [Path FAQ](Path_FAQ.md)   * The Path Workbench shares many concepts with other CAM software packages but has its own peculiarities. If something seems wrong this is a good place to start.
+-   [Path SetupSheet](Path_SetupSheet.md)   * You can use a SetupSheet to customize how various property values for operations are calculated.
+-   [Path Postprocessor Customization](Path_Postprocessor_Customization.md)   * If you have a special machine which cannot use one of the available post-processors you may need to write your own post-processor.
+-   [Path fourth axis](Path_fourth_axis.md)   * Experimental four axis milling.
 
 ## Preferences
 
--   <img alt="" src=images/Preferences-path.svg  style="width:32px;"> [Preferences\...](Path_Preferences.md): Preferences available for the Path Workbench.
+-   <img alt="" src=images/Preferences-path.svg  style="width   *32px;"> [Preferences\...](Path_Preferences.md)   * Preferences available for the Path Workbench.
 
 ## Scripting
 
@@ -201,17 +201,17 @@ See [Path scripting](Path_scripting.md).
 
 ## Tutorials
 
--   [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md): a quick tutorial to get familiar with Path.
+-   [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md)   * a quick tutorial to get familiar with Path.
 
 ## Videos
 
--   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
--   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
--   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
+-   [FreeCAD Path   * Custom paths with Python - Part 1 - 5](https   *//www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL)   * a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
+-   [FreeCAD CAM Path Workbench](https   *//www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC)   * a playlist with a series of 7 videos in English by CAD CAM Lessons.
+-   [FreeCAD CAM CNC](https   *//www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
 ## Roadmap
 
--   [Path Development Roadmap](Path_Development_Roadmap.md): Read this if you are a developer and want to contribute to Path.
+-   [Path Development Roadmap](Path_Development_Roadmap.md)   * Read this if you are a developer and want to contribute to Path.
 
 
 
@@ -219,7 +219,9 @@ See [Path scripting](Path_scripting.md).
 
 {{Path_Tools_navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

@@ -1,6 +1,8 @@
 # Category:Robot/fr
 This category lists pages related to the [Robot Workbench/fr](Robot_Workbench/fr.md).
 
+[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
+
 ### Contents
 
 |     |     |     |

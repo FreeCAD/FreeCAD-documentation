@@ -1,32 +1,33 @@
 ---
-- GuiCommand:
-   Name:Std ViewDimetric
-   MenuLocation:View → Standard views → Axonometric → Dimetric
-   Workbenches:All
-   SeeAlso:[Std ViewIsometric](Std_ViewIsometric.md), [Std ViewTrimetric](Std_ViewTrimetric.md)
+- GuiCommand   */pl
+   Name   *Std ViewDimetric
+   Name/pl   *Std   * Widok dimetryczny
+   MenuLocation   *Widok → Widoki standardowe → Aksonometryczny → Dimetryczny
+   Workbenches   *wszystkie
+   SeeAlso   *[Widok izometryczny](Std_ViewIsometric/pl.md), [Widok trimetryczny](Std_ViewTrimetric/pl.md)
 ---
 
 # Std ViewDimetric/pl
 
-## Description
+## Opis
 
-The **Std ViewDimetric** command realigns the camera in the active [3D view](3D_view.md) to obtain a [dimetric](https://en.wikipedia.org/wiki/Axonometric_projection#Three_types) view. For a truly dimetric view the 3D view must be in [orthographic mode](Std_OrthographicCamera.md), but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
+Polecenie **Widok dimetryczny** zmienia ustawienie ujęcia widoku w aktywnym oknie [widoku 3D](3D_view/pl.md), aby uzyskać widok [dimetryczny](https   *//en.wikipedia.org/wiki/Axonometric_projection#Three_types). Aby uzyskać realnie dimetryczny widok, okno widoku 3D powinno być w trybie [ortogonalnym](Std_OrthographicCamera/pl.md), ale polecenie działa również, jeśli widok jest ustawiony w trybie [perspektywy](Std_PerspectiveCamera/pl.md).
 
 ![](images/Std_ViewDimetric_example.svg ) 
-*The [axis cross](Std_AxisCross.md) and a cube in dimetric view*
+*[Symbol osi](Std_AxisCross/pl.md) i sześcian w rzucie dimetrycznym*
 
-## Usage
+## Użycie
 
-1.  Select the **View → Standard views → Axonometric → <img src="images/Std_ViewDimetric.svg" width=16px> Dimetric** option from the menu.
+1.  Wybierz z menu głównego opcję **Widok → Widoki standardowe → Aksonometria → <img src="images/Std_ViewDimetric.svg" width=16px> Dimetryczny**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change to dimetric view use the `viewDimetric` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok *dimetryczny*, należy użyć metody `viewDimetric` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

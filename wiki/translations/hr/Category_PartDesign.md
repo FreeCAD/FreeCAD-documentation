@@ -1,6 +1,8 @@
 # Category:PartDesign/hr
 This category lists pages related to the [PartDesign Workbench/hr](PartDesign_Workbench/hr.md).
 
+[Category   *Workbenches/hr](Category   *Workbenches/hr.md)
+
 ### Contents
 
 |     |     |     |

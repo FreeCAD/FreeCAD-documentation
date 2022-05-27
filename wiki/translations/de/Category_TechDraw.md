@@ -1,6 +1,8 @@
 # Category:TechDraw/de
 Diese Kategorie zeigt eine Liste von Seiten, die zum [TechDraw](TechDraw_Workbench/de.md)-Arbeitsbereich gehören.
 
+[Category   *Workbenches/de](Category   *Workbenches/de.md)
+
 ### Contents
 
 |     |     |     |

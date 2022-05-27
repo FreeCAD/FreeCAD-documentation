@@ -1,6 +1,8 @@
 # Category:Path/es
 This category lists pages related to the [PartDesign Workbench/es](PartDesign_Workbench/es.md).
 
+[Category   *Workbenches/es](Category   *Workbenches/es.md)
+
 ### Contents
 
 |     |     |     |

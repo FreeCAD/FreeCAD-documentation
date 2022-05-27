@@ -28,7 +28,33 @@ Les ailerons sont utilisés pour contrôler aérodynamiquement la direction du v
 
 ### Type d\'aileron 
 
-Pour le moment, seules les ailettes de forme \"trapézoïdale\" sont supportées. Cela changera au fur et à mesure du développement de l\'atelier.
+La forme générale de l\'aileron.
+
+-   Trapézoïde.
+
+Ce type d\'aileron est utilisé pour presque tous les ailettes à 4 côtés. L\'emplanture reste fixe, mais les bords d\'attaque et de fuite peuvent avoir des valeurs de flèche variables. La longueur de corde de l\'emplanture et de la pointe sont réglées indépendamment.
+
+<img alt="" src=images/Fin_Trapezoid_small.png  style="width   *128px;"> 
+*Type d'aileron trapézoïdal*
+
+-   Elliptique.
+
+Une forme arrondie généralisée. Les ailerons circulaires sont un cas particulier où la hauteur est égale à la moitié de la corde d\'emplanture.
+
+<img alt="" src=images/Fin_Elliptical_small.png  style="width   *128px;"> 
+*Type d'aileron elliptique*
+
+-   Personnalisé.
+
+La plupart des ailerons s\'adaptent à l\'une des formes standards. Si ce n\'est pas le cas, il est possible de créer une forme personnalisée à l\'aide d\'une esquisse.
+
+L\'esquisse doit d\'abord être créée. La racine de l\'aileron est dessinée le long de l\'axe X positif. Une fois l\'esquisse sélectionnée dans l\'arborescence du modèle, la sélection de l\'icône Fin permet de créer l\'aileron personnalisé. Le profil de l\'aileron peut être modifié à ce stade.
+
+Il n\'y a aucun moyen d\'associer un aileron personnalisé à une esquisse dans la boîte de dialogue après sa création, il est donc important de créer d\'abord l\'esquisse. Il peut être sélectionné dans la vue Propriétés. La mise à jour de l\'esquisse entraîne celle de l\'aileron.
+
+<img alt="" src=images/Fin_Sketch_small.png  style="width   *128px;"> 
+*Esquisse utilisée pour créer une forme d'aileron personnalisée* <img alt="" src=images/Fin_Custom_small.png  style="width   *128px;"> 
+*L'aileron personnalisé créé à partir d'une esquisse*
 
 ### Section transversale 
 
@@ -76,7 +102,7 @@ La forme en coupe d\'un aileron peut grandement affecter ses performances à dif
 
 ### Attaches à travers la paroi 
 
-Les ailerons à travers la paroi (**Through the Wall = TTW**) ajoutent une résistance structurelle en s\'étendant à travers le tube du corps externe jusqu\'à un tube du corps interne tel qu\'un support de moteur. Au lieu de se fixer uniquement à l\'extérieur du tube du corps extérieur, il peut être fixé en plusieurs points. En tant que telle, la hauteur de l\'attache serait la distance entre le diamètre extérieur du tube de corps interne et le diamètre externe du tube de corps externe. Les autres paramètres varient en fonction des besoins.
+Les ailerons à travers la paroi (Through the Wall = TTW) ajoutent une résistance structurelle en s\'étendant à travers le tube du corps externe jusqu\'à un tube du corps interne tel qu\'un support de moteur. Au lieu de se fixer uniquement à l\'extérieur du tube du corps extérieur, ils peuvent être fixés en plusieurs points. En tant que telle, la hauteur de l\'attache serait la distance entre le diamètre extérieur du tube de corps interne et le diamètre externe du tube de corps externe. Les autres paramètres varient en fonction des besoins.
 
 ![](images/TTWx4.png ) 
 *4 ailerons TTW fixées à un support du moteur central à l'intérieur du tube du corps externe*
@@ -90,7 +116,7 @@ Les ailerons à travers la paroi (**Through the Wall = TTW**) ajoutent une rési
 
 -    **Height**   * La hauteur de l\'aileron.
 
--    **Profile**   *
+-    **Profile**   * L\'esquisse associée au type d\'aileron personnalisé.
 
 -    **Root Chord**   * La distance entre le bord d\'attaque et le bord de fuite de l\'aileron à la racine.
 
@@ -143,12 +169,6 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 -    **Part Number**   * Numéro de pièce du fabricant
 
-## Script
-
-Voir aussi    * [   *Category   *API/fr](   *Category   *API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
-
-A définir
-
 ## Tutoriels et apprentissage 
 
 [Aileron atelier Rocket](https   *//youtu.be/8MmEVyGkA0I) Tutoriel sur YouTube
@@ -164,4 +184,4 @@ A définir
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Fin/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Fin/fr

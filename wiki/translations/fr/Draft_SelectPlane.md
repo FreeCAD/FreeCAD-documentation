@@ -94,7 +94,7 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width   *24px;"
 
 -   Appuyez sur le bouton **<img src="images/edit-undo.svg" width=16px> Précédent** pour réinitialiser le plan de travail à sa position précédente.
 
--   Appuyez sur **Echap** ou sur le bouton {{button|Fermez}} pour abandonner la commande.
+-   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
 ## Remarques
 

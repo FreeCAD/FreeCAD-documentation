@@ -1,6 +1,8 @@
 # Category:Plot/bg
 This category lists pages related to the [Plot Workbench/bg](Plot_Workbench/bg.md).
 
+[Category   *Workbenches/bg](Category   *Workbenches/bg.md)
+
 ### Contents
 
 |     |     |     |

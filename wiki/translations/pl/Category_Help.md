@@ -1,6 +1,8 @@
 # Category:Help/pl
 This category lists pages that contain helpfull information on MediaWiki and editing.
 
+[Category   *Categories/pl](Category   *Categories/pl.md)
+
 ### Contents
 
 |     |     |     |

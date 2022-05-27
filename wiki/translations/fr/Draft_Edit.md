@@ -57,14 +57,14 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 ### Panneau des tâches des nœuds 
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Vous pouvez aussi appuyer sur le bouton {{button|<img src="images/Draft_AddPoint.svg" width=16px> Ajouter un point}} lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Vous pouvez aussi appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Ajouter un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Pour utiliser des coordonnées polaires, entrez une valeur pour la **Length** et une valeur pour la **Angle**, et appuyez sur **Entrée** après chacune d\'elles.
 -   Cochez la case **Angle** pour contraindre le pointeur à l\'angle spécifié.
 -   La case à cocher **Relative** n\'a pas d\'utilité pour cette commande.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   La case à cocher **Continue** n\'a aucune utilité pour cette commande.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Le bouton {{button|<img src="images/Draft_UndoLine.svg" width=16px> Annuler}} n\'a pas d\'utilité pour cette commande.
+-   Le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** n\'a pas d\'utilité pour cette commande.
 
 ## Objets pris en charge 
 

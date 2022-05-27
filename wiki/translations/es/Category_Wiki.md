@@ -1,6 +1,8 @@
 # Category:Wiki/es
 This category contains all documents that relate to the Wiki/es.
 
+[Category   *Administration/es](Category   *Administration/es.md) [Category   *Categories/es](Category   *Categories/es.md) [Category   *Documentation/es](Category   *Documentation/es.md)
+
 ### Contents
 
 |     |     |     |

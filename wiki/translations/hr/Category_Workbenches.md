@@ -1,6 +1,8 @@
 # Category:Workbenches/hr
 This category lists workbenches included in FreeCAD.
 
+[Category   *User Documentation/hr](Category   *User_Documentation/hr.md)
+
 ### Contents
 
 |     |     |     |

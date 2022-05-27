@@ -176,7 +176,13 @@ Translations   *FEM Module/141/ru
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools/ru.md)   * Создает новый решатель для этого анализа. В большинстве случаев решатель создается вместе с анализом.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Решатель CalculiX (экспериментальный)](FEM_SolverCalculiX/ru.md)   * Создает решатель МКЭ CalculiX (экспериментальный).
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer/ru.md)   * Создает контроллер решателя для Элмера. Он не зависит от других объектов решателя.
 

@@ -1,6 +1,8 @@
 # Category:Obsolete Workbenches/fr
 Cette catégorie répertorie les ateliers obsolètes, c\'est-à-dire les ateliers anciens et non entretenus, qui ont été remplacés par d\'autres.
 
+[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:Part/sv
 This category lists pages related to the [Part Workbench/sv](Part_Workbench/sv.md).
 
+[Category   *Workbenches/sv](Category   *Workbenches/sv.md)
+
 ### Contents
 
 |     |     |     |

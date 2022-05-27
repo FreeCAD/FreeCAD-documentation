@@ -1,6 +1,8 @@
 # Category:Sketcher/tr
 This category lists pages related to the [Sketcher Workbench/tr](Sketcher_Workbench/tr.md).
 
+[Category   *Workbenches/tr](Category   *Workbenches/tr.md)
+
 ### Contents
 
 |     |     |     |

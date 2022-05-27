@@ -1,6 +1,8 @@
 # Category:Ship/it
 Questa categoria elenca le pagine relative a [Ship Workbench/it](Ship_Workbench/it.md).
 
+[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User\_Documentation/it](Category   *User_Documentation/it.md)
+
 ### Contents
 
 |     |     |     |

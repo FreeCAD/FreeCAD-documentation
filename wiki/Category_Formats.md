@@ -1,6 +1,8 @@
 # Category:Formats
 1.  REDIRECT
 
+[Category   *File\_Formats](Category_File_Formats.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:OpenSCAD/pl
 This category lists pages related to the [OpenSCAD\_Workbench/pl](OpenSCAD_Workbench/pl.md).
 
+[Category   *Workbenches/pl](Category   *Workbenches/pl.md)
+
 ### Contents
 
 |     |     |     |

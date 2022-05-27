@@ -39,7 +39,7 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width   *32px;"> [Vue détaillée](TechDraw_DetailView/fr.md)    * ajoute une vue détaillée d\'une partie d\'une vue existante.
 
--   <img alt="" src=images/TechDraw_DraftView.svg  style="width   *32px;"> [/fr\|Vue d\'un objet Draft](TechDraw_DraftView.md)    * ajoute une vue d\'un objet [Draft](Draft_Workbench/fr.md).
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width   *32px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md)    * ajoute une vue d\'un objet [Draft](Draft_Workbench/fr.md).
 
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width   *32px;"> [Vue d\'un objet Arch](TechDraw_ArchView/fr.md)   * ajoute une vue d\'un objet [Arch Plan de section](Arch_SectionPlane/fr.md) de l\'[Atelier Arch](Arch_Workbench/fr.md).
 
@@ -73,9 +73,9 @@ Ce sont les outils pour décorer l\'apparence des pages et des vues.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width   *32px;"> [Bascule des cadres](TechDraw_ToggleFrame/fr.md)    * bascule l\'affichage des cadres et des étiquettes entourant une vue.
 
-## Cotations
+## Cotes
 
-Ce sont les outils pour créer et travailler avec des objets Dimension.
+Ce sont les outils pour créer et travailler avec des objets Cote.
 
 Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur deux lignes.
 
@@ -195,7 +195,7 @@ Ce sont des outils pour améliorer vos dessins TechDraw.
 
 -   <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width   *32px;"> [Ligne perpendiculaire](TechDraw_ExtensionLinePerpendicular/fr.md)    * dessine une ligne cosmétique perpendiculaire à une autre ligne passant par un sommet. {{Version/fr|0.20}}
 
-### Cotations 
+### Cotes 
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width   *32px;"> [Cotes horizontales](TechDraw_ExtensionCreateHorizChainDimension/fr.md)    * crée une séquence horizontale de cotes. {{Version/fr|0.20}}
 

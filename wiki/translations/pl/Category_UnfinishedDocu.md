@@ -1,6 +1,8 @@
 # Category:UnfinishedDocu/pl
 This category contains all Unfinished Documents
 
+[Category   *Administration/pl](Category   *Administration/pl.md) [Category   *Categories/pl](Category   *Categories/pl.md)
+
 ### Contents
 
 |     |     |     |

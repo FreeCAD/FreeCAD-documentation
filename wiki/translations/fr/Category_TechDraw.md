@@ -1,6 +1,8 @@
 # Category:TechDraw/fr
 Cette catégorie répertorie les pages liées à l\'atelier [Workbench](TechDraw_Workbench/fr.md).
 
+[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,6 +1,8 @@
 # Category:Mesh/id
 This category lists pages related to the [Mesh\_Workbench/id](Mesh_Workbench/id.md).
 
+[Category   *Workbenches/id](Category   *Workbenches/id.md)
+
 ### Contents
 
 |     |     |     |

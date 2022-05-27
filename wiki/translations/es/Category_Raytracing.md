@@ -1,6 +1,8 @@
 # Category:Raytracing/es
 This category lists pages related to the [Raytracing Workbench/es](Raytracing_Workbench/es.md).
 
+[Category   *Workbenches/es](Category   *Workbenches/es.md)
+
 ### Contents
 
 |     |     |     |

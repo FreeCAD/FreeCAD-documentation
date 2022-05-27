@@ -1,6 +1,8 @@
 # Category:Ship/ja
 This category lists pages related to the [Ship Workbench/ja](Ship_Workbench/ja.md).
 
+[Category   *Workbenches/ja](Category   *Workbenches/ja.md)
+
 ### Contents
 
 |     |     |     |

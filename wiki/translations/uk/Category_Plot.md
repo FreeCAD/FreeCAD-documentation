@@ -1,6 +1,8 @@
 # Category:Plot/uk
 This category lists pages related to the [Plot Workbench/uk](Plot_Workbench/uk.md).
 
+[Category   *Workbenches/uk](Category   *Workbenches/uk.md)
+
 ### Contents
 
 |     |     |     |

@@ -178,7 +178,13 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Solucionador Calculix CCX](FEM_SolverCalculixCxxtools/pt-br.md)   * Cria um novo solucionador para esta análise. Na maioria dos casos, o solucionador é criado junto com a análise.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solucionador CalculiX(experimental)](FEM_SolverCalculiX/pt-br.md)
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solucionador Elmer](FEM_SolverElmer/pt-br.md)   * Cria o controlador solver para Elmer. Ele é independente de outros objetos solucionadores.
 

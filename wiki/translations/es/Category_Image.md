@@ -1,6 +1,8 @@
 # Category:Image/es
 This category is the top level category for **images**. It should not contain any files, but only sub categories.
 
+[Category   *Categories/es](Category   *Categories/es.md)
+
 ### Contents
 
 |     |     |     |

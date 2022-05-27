@@ -1,21 +1,21 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign WizardShaft
-   Name/de:PartDesign WellenAssistent
-   MenuLocation:Part Design → Wellenkonstruktionsassistent...
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+- GuiCommand   */de
+   Name   *PartDesign WizardShaft
+   Name/de   *PartDesign WellenAssistent
+   MenuLocation   *Part Design → Wellenkonstruktionsassistent...
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
 ---
 
 # PartDesign WizardShaft/de
 
-## Description
+## Beschreibung
 
 
 <div class="mw-translate-fuzzy">
 
-## Beschreibung
+## Beschreibung 
 
-Dieses Werkzeug ermöglicht es dir, eine Welle aus einer Wertetabelle zu erstellen und Kräfte und Momente zu analysieren. Du kannst den Assistenten über das Menü Part Design starten **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px">  Wellenauslegungs-Assistent...**.
+Dieses Werkzeug ermöglicht es dir, eine Welle aus einer Wertetabelle zu erstellen und Kräfte und Momente zu analysieren. Du kannst den Assistenten über das Menü Part Design starten **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width   *20px">  Wellenauslegungs-Assistent...**.
 
 
 </div>
@@ -25,7 +25,7 @@ Der Assistent startet und zeigt eine Standardtabelle, den entsprechenden Wellent
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;"> 
+<img alt="" src=images/WizardShaft_Part.jpg  style="width   *780px;"> 
 
 
 </div>
@@ -35,7 +35,7 @@ Der obere Teil des Fensters wird von der Tabelle eingenommen. Diese ist in numme
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/shaftwizard1.jpg  style="width:1024px;"> 
+<img alt="" src=images/shaftwizard1.jpg  style="width   *1024px;"> 
 
 
 </div>
@@ -47,7 +47,7 @@ Der obere Teil des Fensters wird von der Tabelle eingenommen. Diese ist in numme
 
 ## Vorbedingungen
 
-Der Wellenentwurfsassistent hängt von der Bibliothek [matplotlib](http://matplotlib.org/) ab, um die Diagramme der Scherkraft und des Biegemoments zu erstellen und anzuzeigen. Auf Debian / Ubuntu-basierten Systemen ist diese über das Paket python-matplotlib verfügbar.
+Der Wellenentwurfsassistent hängt von der Bibliothek [matplotlib](http   *//matplotlib.org/) ab, um die Diagramme der Scherkraft und des Biegemoments zu erstellen und anzuzeigen. Auf Debian / Ubuntu-basierten Systemen ist diese über das Paket python-matplotlib verfügbar.
 
 
 </div>
@@ -59,14 +59,14 @@ Der Wellenentwurfsassistent hängt von der Bibliothek [matplotlib](http://matplo
 
 ## Parameter
 
-Für jedes Wellensegment können die folgenden Parameter definiert werden:
+Für jedes Wellensegment können die folgenden Parameter definiert werden   *
 
 -   Länge des Segments
 -   Durchmesser des Segments
 -   Lasttyp. Beachten Sie, dass Sie nach dem Scrollen auf den gewünschten Eintrag im Menü klicken müssen, sonst wird er nicht ausgewählt!
-    -   Keine: Keine Last
-    -   Feststehend: Das Ende der Welle ist fixiert (z. B. mit einem anderen Teil verschweißt). Dieser Lasttyp kann nur für das erste oder letzte Segment definiert werden.
-    -   Statisch: Dieses Wellensegment ist statisch belastet.
+    -   Keine   * Keine Last
+    -   Feststehend   * Das Ende der Welle ist fixiert (z. B. mit einem anderen Teil verschweißt). Dieser Lasttyp kann nur für das erste oder letzte Segment definiert werden.
+    -   Statisch   * Dieses Wellensegment ist statisch belastet.
 -   Belastung des Wellensegments
 -   Position, an der die Last auf das Segment aufgebracht wird. Der Standort wird vom linken Rand des Segments gezählt (andere Zeilen und Lastarten existieren, aber es ist noch keine Funktionalität implementiert)
 

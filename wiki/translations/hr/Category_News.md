@@ -1,6 +1,8 @@
 # Category:News/hr
 This category contains articles with news and messages about FreeCAD.
 
+[Category   *Categories/hr](Category   *Categories/hr.md)
+
 ### Contents
 
 |     |     |     |

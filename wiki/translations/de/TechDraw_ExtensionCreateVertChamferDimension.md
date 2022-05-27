@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  sty
 <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimensionExample.png  style="width   *450px;"> 
 *Rechts die erzeugte Bemaßung*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle zwei Knotenpunkte.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

@@ -175,7 +175,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**   * spécifie comment le texte est affiché. S\'il s\'agit de {{value|2D text}}, le texte sera affiché dans un plan défini par la **Normal** de la mesure. S\'il s\'agit de {{value|3D text}}, le texte fera toujours face à la caméra. Notez que ces valeurs sont inversées par rapport à [Draft Texte](Draft_Text/fr.md). Il s\'agit d\'une propriété héritée.
+-    **Display Mode|Enumeration**   * spécifie comment le texte est affiché. S\'il s\'agit de {{value|2D text}}, le texte sera affiché dans un plan défini par la **Normal** de la mesure. S\'il s\'agit de {{value|3D}}, le texte fera toujours face à la caméra. Notez que ces valeurs sont inversées par rapport à [Draft Texte](Draft_Text/fr.md). Il s\'agit d\'une propriété héritée.
 
 
 {{TitleProperty|Graphics}}

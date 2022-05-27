@@ -1,6 +1,8 @@
 # Category:News/ko
 This category contains articles with news and messages about FreeCAD.
 
+[Category   *Categories/ko](Category   *Categories/ko.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw DecorateLine
-   Name/de:TechDraw AusgestaltenLinie
-   MenuLocation:TechDraw → Ändern Erscheinung von Linie(n)
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw  Mittelinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw  Kosmetik Radierer](TechDraw_CosmeticEraser/de.md)
+- GuiCommand   */de
+   Name   *TechDraw DecorateLine
+   Name/de   *TechDraw AusgestaltenLinie
+   MenuLocation   *TechDraw → Ändern Erscheinung von Linie(n)
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw  Mittelinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw  Kosmetik Radierer](TechDraw_CosmeticEraser/de.md)
 ---
 
 # TechDraw DecorateLine/de
@@ -14,19 +14,19 @@
 
 Das Werkzeug AusgestaltenLinie ändert die Darstellung von Kanten.
 
-<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
+<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 
 
 
 *Beispielkanten vor der Ausgestaltung*
 
-<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
+<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width   *180px;">
 
 
 
 *Beispielkanten nach der Ausgestaltung*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle eine oder mehrere Linien in der Ansicht aus.
 2.  Klicke die **<img src="images/TechDraw_DecorateLine.svg" width=16px> [Ändern Darstellung von Linie(n)](TechDraw_DecorateLine/de.md)
@@ -40,7 +40,7 @@ Das Werkzeug, welches die Darstellung von Linien ändert ist kein Objekt innerha
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

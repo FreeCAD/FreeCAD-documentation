@@ -1,6 +1,8 @@
 # Category:Ship/zh
 This category lists pages related to the [Ship Workbench/zh](Ship_Workbench/zh.md).
 
+[Category   *Workbenches/zh](Category   *Workbenches/zh.md)
+
 ### Contents
 
 |     |     |     |

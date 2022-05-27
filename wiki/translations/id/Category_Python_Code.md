@@ -1,6 +1,8 @@
 # Category:Python Code/id
 This category contains python code examples for FreeCAD
 
+[Category   *Categories/id](Category   *Categories/id.md)
+
 ### Contents
 
 |     |     |     |

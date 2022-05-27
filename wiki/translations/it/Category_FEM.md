@@ -1,6 +1,8 @@
 # Category:FEM/it
 This category lists pages related to the [FEM Workbench/it](FEM_Workbench/it.md).
 
+[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User\_Documentation/it](Category   *User_Documentation/it.md)
+
 ### Contents
 
 |     |     |     |

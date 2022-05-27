@@ -1,6 +1,8 @@
 # Category:Mesh/bg
 This category lists pages related to the [Mesh\_Workbench/bg](Mesh_Workbench/bg.md).
 
+[Category   *Workbenches/bg](Category   *Workbenches/bg.md)
+
 ### Contents
 
 |     |     |     |

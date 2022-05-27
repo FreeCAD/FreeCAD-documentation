@@ -1,6 +1,8 @@
 # Category:Sketcher/zh-hant
 This category lists pages related to the [Sketcher Workbench/zh-hant](Sketcher_Workbench/zh-hant.md).
 
+[Category   *Workbenches/zh-hant](Category   *Workbenches/zh-hant.md)
+
 ### Contents
 
 |     |     |     |

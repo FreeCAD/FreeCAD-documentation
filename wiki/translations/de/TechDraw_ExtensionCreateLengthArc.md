@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width  
 <img alt="" src=images/TechDraw_ExtensionCreateLengthArcExample.png  style="width   *300px;"> 
 *Rechts die erzeugte Bemaßung*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle einen Kreisbogen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

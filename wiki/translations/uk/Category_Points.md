@@ -1,11 +1,13 @@
 # Category:Points/uk
 This category lists pages related to the [Points Workbench/uk](Points_Workbench/uk.md).
 
+[Category   *Workbenches/uk](Category   *Workbenches/uk.md)
+
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-|
+| [Points Workbench/uk](wiki/Points Workbench/uk.md) |
 
 
 

@@ -1,6 +1,8 @@
 # Category:SheetMetal/pl
 Ta strona zbiera strony z dokumentacją dla środowiska pracy [Blacha](SheetMetal_Workbench/pl.md), jednego z [zewnętrznych środowisk pracy](External_workbenches/pl.md).
 
+[Category   *External Workbenches}](Category   *External_Workbenches}.md)
+
 ### Contents
 
 |     |     |     |

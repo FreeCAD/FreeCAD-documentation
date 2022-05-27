@@ -2,9 +2,9 @@
 - GuiCommand   */fr
    Name   *FEM PostApplyChanges
    Name/fr   *FEM Appliquer les modifications
-   MenuLocation   *Results → Apply changes to pipeline
+   MenuLocation   *Résultats → Appliquer les modifications au pipeline
    |Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostApplyChanges/fr

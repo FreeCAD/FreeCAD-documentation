@@ -1,6 +1,8 @@
 # Category:Screenshots/sv
 This category lists pages with screenshots.
 
+[Category   *Documentation/sv](Category   *Documentation/sv.md)
+
 ### Contents
 
 |     |     |     |

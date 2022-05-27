@@ -1,6 +1,8 @@
 # Category:Path/fr
 This category lists pages related to the [PartDesign Workbench/fr](PartDesign_Workbench/fr.md).
 
+[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
+
 ### Contents
 
 |     |     |     |

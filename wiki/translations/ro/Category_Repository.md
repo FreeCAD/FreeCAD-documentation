@@ -1,6 +1,8 @@
 # Category:Repository/ro
 This category gathers pages that act as a repository of resources for FreeCAD, such as macros, parts, etc\...
 
+[Category   *Categories/ro](Category   *Categories/ro.md)
+
 ### Contents
 
 |     |     |     |

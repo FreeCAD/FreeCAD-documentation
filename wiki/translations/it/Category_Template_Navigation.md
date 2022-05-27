@@ -1,6 +1,8 @@
 # Category:Template:Navigation/it
 This category lists templates that create navigation elements.
 
+[Category   *Template](Category_Template.md)
+
 ### Contents
 
 |     |     |     |

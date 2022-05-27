@@ -8,14 +8,14 @@
 
 # Rocket Fin/pl
 
-## Description
+## Opis
 
-Fins are used to aerodynamically control the direction of flight.
+Płetwy służą do aerodynamicznej kontroli kierunku lotu.
 
 <img alt="" src=images/Nike_Fin_TTW_2.png  style="width   *256px;"> 
-*A Tapered fin with TTW tab*
+*Płetwa zwężana z wypustką TTW*
 
-## Usage
+## Użycie
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Rocket_Fin.svg" width=16px> [Fin](Rocket_Fin.md)** button.
@@ -27,7 +27,33 @@ Fins are used to aerodynamically control the direction of flight.
 
 ### Fin Type 
 
-At the moment, only *trapezoid* shape fins are supported. This will change as the workbench continues to be developed.
+The general shape of the fin.
+
+-   Trapezoid.
+
+This fin type is used for almost all 4 sided fins. The root remains fixed, but the leading and trailing edges can have variable amounts of sweep. The chord length of the root and tip are set independently.
+
+<img alt="" src=images/Fin_Trapezoid_small.png  style="width   *128px;"> 
+*Trapezoid fin type*
+
+-   Elliptical.
+
+A generalized rounded shape. Circular fins are a special case where the height is 1/2 of the root chord.
+
+<img alt="" src=images/Fin_Elliptical_small.png  style="width   *128px;"> 
+*Elliptical fin type*
+
+-   Custom.
+
+Most fins will fit into one of the standard shapes. In cases where they don\'t it\'s possible to create a custom shape using a sketch.
+
+The sketch must be created first. The fin root is drawn along the positive X axis. With the sketch selected in the model tree, selecting the Fin icon will create the custom fin. The fin profile can be changed at this time.
+
+There is no way to associate a custom fin with a sketch within the dialog after it\'s been created, so it is important to create the sketch first. It can be selected from the Properties view. Updating the sketch will update the fin.
+
+<img alt="" src=images/Fin_Sketch_small.png  style="width   *128px;"> 
+*Sketch used to create a custom fin shape* <img alt="" src=images/Fin_Custom_small.png  style="width   *128px;"> 
+*The custom fin created from the sketch*
 
 ### Cross Section 
 
@@ -75,7 +101,7 @@ The cross sectional shape of a fin can greatly affect its performance at differe
 
 ### Through the Wall (TTW) Tabs 
 
-Through the Wall fins add structural strength by extending though the outer body tube to an inner body tube such as a motor mount. Instead of attaching just to the outside of the outer body tube, it can be attached at multiple points. As such, tthe height of the tab would be the distance from the outer diameter of the inner body tube to the outer diameter of the outer body tube. Other parameters would vary depending on requirements.
+Through the Wall fins add structural strength by extending though the outer body tube to an inner body tube such as a motor mount. Instead of attaching just to the outside of the outer body tube, it can be attached at multiple points. As such, the height of the tab would be the distance from the outer diameter of the inner body tube to the outer diameter of the outer body tube. Other parameters would vary depending on requirements.
 
 ![](images/TTWx4.png ) 
 *4 TTW fins attached to a central motor mount inside the outer body tube*
@@ -89,7 +115,7 @@ Through the Wall fins add structural strength by extending though the outer body
 
 -    **Height**   * The fin height.
 
--    **Profile**   *
+-    **Profile**   * The sketch associated with the custom fin type.
 
 -    **Root Chord**   * The distance between the fin leading and trailing edges at the root
 
@@ -142,12 +168,6 @@ These parameters are provided for information and have no effect on the design o
 
 -    **Part Number**   * Manufacturer part number
 
-## Scripting
-
-See also   * [   *Category   *API](   *Category_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-TBD
-
 ## Tutorials and Learning 
 
 [Rocket Workbench Fins](https   *//youtu.be/8MmEVyGkA0I) Tutorial on YouTube
@@ -163,4 +183,4 @@ TBD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API]] and ](Category_API]] and .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Fin/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Fin/pl

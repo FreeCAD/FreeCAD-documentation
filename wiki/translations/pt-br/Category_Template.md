@@ -1,6 +1,8 @@
 # Category:Template/pt-br
 This category contains all the Templates
 
+[Category   *Categories/pt-br](Category   *Categories/pt-br.md)
+
 ### Contents
 
 |     |     |     |

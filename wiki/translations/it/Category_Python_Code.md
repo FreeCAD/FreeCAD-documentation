@@ -1,6 +1,8 @@
 # Category:Python Code/it
 Questa categoria contiene esempi di codice Python per FreeCAD
 
+[Category   *Poweruser Documentation/it](Category   *Poweruser_Documentation/it.md) [Category   *Categories/it](Category   *Categories/it.md)
+
 ### Contents
 
 |     |     |     |

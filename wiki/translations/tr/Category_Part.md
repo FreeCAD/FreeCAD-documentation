@@ -1,6 +1,8 @@
 # Category:Part/tr
 This category lists pages related to the [Part Workbench/tr](Part_Workbench/tr.md).
 
+[Category   *Workbenches/tr](Category   *Workbenches/tr.md)
+
 ### Contents
 
 |     |     |     |

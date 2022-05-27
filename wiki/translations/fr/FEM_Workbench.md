@@ -138,7 +138,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md)    * Crée un nouveau solveur pour cette analyse. Dans la plupart des cas, le solveur est créé avec l\'analyse.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solveur CalculiX (experimental)](FEM_SolverCalculiX/fr.md)    *
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width   *32px;"> [Solveur CalculiX (nouveau modèle)](FEM_SolverCalculiX/fr.md)    *
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solveur Elmer](FEM_SolverElmer/fr.md)    * Crée le contrôleur de solveur pour Elmer. Il est indépendant des autres objets du solveur.
 
@@ -164,11 +164,11 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 ## Menu    * Résultats 
 
--   <img alt="" src=images/FEM_ResultsPurge.svg  style="width   *32px;"> [Purge les résultats](FEM_ResultsPurge/fr.md)    * Supprime les résultats de l\'analyse active.
+-   <img alt="" src=images/FEM_ResultsPurge.svg  style="width   *32px;"> [Purger les résultats](FEM_ResultsPurge/fr.md)    * Supprime les résultats de l\'analyse active.
 
--   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Affiche le résultat](FEM_ResultShow/fr.md)    * Utilisé pour afficher le résultat d\'une analyse.
+-   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Afficher les résultats](FEM_ResultShow/fr.md)    * Utilisé pour afficher les résultats d\'une analyse.
 
--   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md)    *
+-   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Appliquer les modifications au pipeline](FEM_PostApplyChanges/fr.md)    *
 
 -   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *32px;"> [Pipeline à partir du résultat](FEM_PostPipelineFromResult/fr.md)    * Permet d\'ajouter une nouvelle représentation graphique des résultats d\'analyse FEM (échelle de couleurs et plus d\'options d\'affichage).
 

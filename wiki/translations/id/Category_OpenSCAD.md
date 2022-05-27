@@ -1,6 +1,8 @@
 # Category:OpenSCAD/id
 This category lists pages related to the [OpenSCAD\_Workbench/id](OpenSCAD_Workbench/id.md).
 
+[Category   *Workbenches/id](Category   *Workbenches/id.md)
+
 ### Contents
 
 |     |     |     |
