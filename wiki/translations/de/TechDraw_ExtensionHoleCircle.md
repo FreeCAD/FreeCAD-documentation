@@ -18,7 +18,7 @@ Das <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width   *24p
 <img alt="" src=images/TechDraw_ExtensionHoleCircleExample.png  style="width   *400px;"> 
 *Rechts ein Kreismuster mit Mittellinien*
 
-## Verwendung
+## Anwendung
 
 1.  Optional   * definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
 2.  Wähle drei oder mehr Kreise, die ein Kreismuster bilden.

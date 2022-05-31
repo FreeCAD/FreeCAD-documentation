@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width   *2
 <img alt="" src=images/TechDraw_ExtensionLineParallelExample.png  style="width   *250px;"> 
 *Rechts eine eingefügte parallele Hilfslinie*
 
-## Verwendung
+## Anwendung
 
 1.  Optional   * definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
 2.  Wähle eine Gerade Linie um die Richtung und die Länge der Linie festzulegen.

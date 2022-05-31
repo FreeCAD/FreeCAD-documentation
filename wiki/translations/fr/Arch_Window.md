@@ -45,13 +45,6 @@ Si vous installez la [Bibliothèques de pièces](Parts_Library_Workbench/fr.md) 
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/**
 
-Il est également possible de placer des fenêtres et des portes personnalisées dans le répertoire **Arch** de votre utilisateur. {{Version/fr|0.20}}
-
-
-**$ROOT_DIR/Mod/Arch/Doors/Custom/**
-
-**$ROOT_DIR/Mod/Arch/Windows/Custom/**
-
 -    **$ROOT_DIR**est le répertoire utilisateur où sont stockés les fichiers de configuration de FreeCAD, les macros, et les ateliers externes. Il peut être trouvé en entrant `FreeCAD.getUserAppDataDir()` dans la [console Python](Python_console/fr.md).
 
     -   Sous Linux, c\'est généralement **/home/username/.FreeCAD/**

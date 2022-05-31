@@ -107,6 +107,12 @@ Base class of all Body objects
 
 
 
+#### <img src="images/type_module.svg" style="width:16px;"> ChFi2d
+
+This is a module working with the ChFi2d framework.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> [Circle](Circle_API.md)
 
 Describes a circle in 3D space

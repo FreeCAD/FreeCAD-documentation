@@ -18,7 +18,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg
 <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimensionExample.png  style="width   *400px;"> 
 *Rechts die als Kette angeordneten Maße*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle zwei oder mehr horizontale Maße.
 2.  Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt.

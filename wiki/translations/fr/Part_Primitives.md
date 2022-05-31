@@ -1,6 +1,6 @@
 ---
 - GuiCommand   */fr
-   Name   *Part CreatePrimitives
+   Name   *Part Primitives
    Name/fr   *Part Primitives
    MenuLocation   *Part → Créer des primitives...
    Workbenches   *[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)

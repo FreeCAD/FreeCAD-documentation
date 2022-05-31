@@ -177,7 +177,17 @@ Normalement, un élément de contenu est supposé se trouver dans un sous-réper
 
 OBLIGATOIRE pour les ateliers
 
-Pour les ateliers, le nom de la classe d\'entrée principale en Python.
+Pour les ateliers, le nom de la classe d\'entrée principale en Python. C\'est la classe que FreeCAD essaiera de charger au démarrage pour localiser l\'icône de l\'atelier, qui doit être définie comme une variable membre de la classe. Par exemple, si votre atelier définit la classe suivante (généralement dans InitGui.py)    *
+
+
+```python
+class MyNewWB   *
+    Icon = "resources/icon.svg"
+```
+
+alors le fichier package.xml attend    *
+
+    <classname>MyNewWB</classname>
 
 ####  
 

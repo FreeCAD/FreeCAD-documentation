@@ -1,54 +1,79 @@
 # Report view/pl
-## Introduction
+## Wprowadzenie
 
-The [Report view](Report_view.md) is a panel that shows text messages from FreeCAD processes and tools. It is available in the menu **{{StdMenu|[View](Std_View_Menu.md)** → Panels → Report view}}.
+[Widok raportu](Report_view/pl.md) to panel, w którym wyświetlane są komunikaty tekstowe z procesów i narzędzi programu FreeCAD. Jest on dostępny w menu **{{StdMenu|[Widok](Std_View_Menu/pl.md)** → Panele → Widok raportu}}.
 
-Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Output window** tab of the [preferences editor](Preferences_Editor.md).
+Niektóre właściwości tego panelu, takie jak kolor tekstu oraz to, czy ma być on automatycznie wyświetlany w przypadku ostrzeżeń lub błędów, można skonfigurować w zakładce **Ogólne → Okno raportów** [Edytora preferencji](Preferences_Editor/pl#Widok_raportu.md).
 
-<img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
-
-
-
-*The report view showing messages when FreeCAD has just started.*
-
-## Messages
-
-
-**See also:**
-
-[Console API](Console_API.md), and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-The report view displays messages from the internal FreeCAD `Console` class.
-
--    `FreeCAD.Console.PrintMessage("text")`, print any sort of informative message, that doesn\'t imply any misbehavior; for example, print the coordinates of points, the result of a distance calculation, the number of vertices in a shape, etc. By default, in black color.
-
--    `FreeCAD.Console.PrintWarning("text")`, print messages that are intended to warn the user about strange behavior in the application. Warnings should be shown when some functionality is missing but the software still works acceptably. By default, in yellow color.
-
--    `FreeCAD.Console.PrintError("text")`, print messages that are intended to be error messages, that is, when a critical component is missing that makes a certain operation fail. By default, in red color.
-
--    `FreeCAD.Console.PrintLog("text")`, print messages that are going into the logs. These messages could be anything that is valuable to troubleshoot a problem in the future by reading the logs, for example, starting or closing a workbench. By default, in blue color.
-
-These functions can be used from the [Python console](Python_console.md) directly, or from [macros](Macros.md) and custom workbenches.
-
-<img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
+<img alt="" src=images/FreeCAD_Report_view.png  style="width   *800px;">
 
 
 
-*Example messages in the report view: a general message, a warning, an error, and a logged message.*
+*Okno ''Widok raportu'' pokazujące komunikaty, gdy program FreeCAD został właśnie uruchomiony.*
 
-## Actions
+## Komunikaty
 
-Right click on the report view shows some commands:
 
--    **Options**: logging, warning, error, redirect Python output, redirect Python errors, go to end.
+**Zobacz również   ***
 
--    **Copy**: stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
+[API w konsoli](Console_API/pl.md), and [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
--    **Select all**: selects all text in the report view.
+Widok raportu wyświetla komunikaty z wewnętrznej klasy FreeCAD `Console`.
 
--    **Clear**: erases all messages in the report view. This is useful if you want to troubleshoot a tool that prints messages to the report view, and want to be sure there are no old messages from previous tools.
+-    `FreeCAD.Console.PrintMessage("text")`, wyświetla dowolny komunikat informacyjny, który nie sugeruje błędnego działania; na przykład, wyświetla współrzędne punktów, wynik obliczenia odległości, liczbę wierzchołków w kształcie, itp. Domyślnie w kolorze czarnym.
 
--    **Save as**: save the messages in the report view to a text file.
+-    `FreeCAD.Console.PrintWarning("text")`, wyświetla komunikaty, które mają na celu ostrzeżenie użytkownika o dziwnym zachowaniu aplikacji. Ostrzeżenia powinny być wyświetlane, gdy brakuje jakiejś funkcjonalności, ale program nadal działa poprawnie. Domyślnie w kolorze żółtym.
+
+-    `FreeCAD.Console.PrintError("text")`, wyświetla komunikaty, które mają być komunikatami o błędach, tzn. gdy brakuje krytycznego komponentu, który powoduje, że dana operacja nie powiedzie się. Domyślnie w kolorze czerwonym.
+
+-    `FreeCAD.Console.PrintLog("text")`, wyświetla komunikaty, które trafiają do dziennika. Mogą to być dowolne komunikaty, które mogą być przydatne do rozwiązywania problemów w przyszłości poprzez czytanie dzienników, na przykład uruchamianie lub zamykanie środowiska pracy. Domyślnie w kolorze niebieskim.
+
+Z funkcji tych można korzystać bezpośrednio z [konsoli Python](Python_console/pl.md) lub z [makrodefinicji](Macros/pl.md) i niestandardowych okien roboczych.
+
+<img alt="" src=images/FreeCAD_Report_view_example.png  style="width   *800px;">
+
+
+
+*Przykładowe komunikaty w oknie Widoku raportu   * komunikat ogólny, ostrzeżenie, błąd i komunikat zarejestrowany.*
+
+## Działania
+
+Kliknięcie prawym przyciskiem myszki w oknie widoku raportu powoduje wyświetlenie menu podręcznego z kilkoma poleceniami   *
+
+-    **Opcje**   *
+
+    -   
+        **Wyświetl typy wiadomości**
+        
+           * zobacz stronę [Edytormpreferencji](Preferences_Editor/pl#Widok_raportu.md) aby poznać więcej szczegółów,
+
+    -   
+        **Pokaż okno Widok raportu dla**
+        
+           * zobacz stronę [Edytor preferencji](Preferences_Editor/pl#Widok_raportu.md) aby poznać więcej szczegółów,
+
+    -   
+        **Przekierowanie wyjście z Pythona**
+        
+           * zobacz stronę [Edytor preferencji](Preferences_Editor/pl#Widok_raportu.md) aby poznać więcej szczegółów,
+
+    -   
+        **Przekieruj błędy Pythona**
+        
+           * zobacz stronę [Edytor preferencji](Preferences_Editor/pl#Widok_raportu.md) aby poznać więcej szczegółów,
+
+    -   
+        **Przejdź na koniec**
+        
+        jeżeli opcja ta jest zaznaczona, widok raportu będzie przewijany do dołu po dodaniu nowej wiadomości.
+
+-    **Kopiuj**   * zapisuje zaznaczony tekst w schowku w celu późniejszego wklejenia. Opcja ta jest nieaktywna, jeśli nic nie jest zaznaczone.
+
+-   Polecenie **Zaznacz wszystko**   * zaznacza cały tekst w widoku raportu.
+
+-    **Wyczyść**   * usuwa wszystkie wiadomości w widoku raportu. Jest to przydatne, jeśli chcesz rozwiązać problem z narzędziem, które wysyła komunikaty do widoku raportu i chcesz się upewnić, że nie ma w nim starych komunikatów z poprzednich narzędzi.
+
+-    **Zapisz jako**   * zapisuje komunikaty w widoku raportu do pliku tekstowego.
 
 
 {{Interface navi

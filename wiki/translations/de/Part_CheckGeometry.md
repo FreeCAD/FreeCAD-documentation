@@ -10,58 +10,32 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Beschreibung 
-
-Das **<img src="images/Part_CheckGeometry.svg" width=16px> [Part GeometriePrüfen](Part_CheckGeometry.md)** Werkzeug führt eine Überprüfung durch und meldet, ob die Geometrie ein gültiger Körper ist.
-
-
-</div>
+Das Werkzeug **<img src="images/Part_CheckGeometry.svg" width=16px> [Part GeometriePrüfen](Part_CheckGeometry.md)** führt eine Überprüfung durch und meldet, ob die Geometrie ein gültiger Volumenkörper ist.
 
 ## Anwendung
 
+1.  Ein Teil auswählen (dabei darauf achten, das gesamte Teil auszuwählen und nicht nur eine Fläche, um zu prüfen, ob es ein gültiger Volumenkörper ist)
+2.  Das Werkzeug aufrufen, durch eine der folgenden Möglichkeiten   *
+    -   Die Schaltfläche **<img src="images/Part_CheckGeometry.svg" width=16px> Geometrie überprüfen** anklicken, die sich in der Werkzeugleiste des Arbeitsbereichs Part befindet.
+    -   Den Meinüeintrag **Formteil → <img src="images/Part_CheckGeometry.svg" width=16px> Geometrie überprüfen** im Hauptmenü auswählen.
 
-<div class="mw-translate-fuzzy">
+Ergebnisse werden im [Aufgabenbereich](Task_panel/de.md) aufgeführt. Wenn die Prüfung einen Fehler anzeigt   * Im Reportfenster eine bestimmte Fehlernachricht anklicken und das entsprechende geometrische Objekt (Kante, Fläche usw.) wird in der [3D-Ansicht](3D_view/de.md) hervorgehoben.
 
-1.  Wähle ein Teil aus (achte darauf, das gesamte Teil auszuwählen und nicht nur eine Fläche, um auf ein gültiges Volumenmodell zu prüfen)
-2.  Rufe das Werkzeug auf, durch entweder   *
-    -   Klicke auf die **<img src="images/Part_CheckGeometry.svg" width=16px>** Schaltfläche, die in der Werkzeugleiste des Teil Arbeitsbereichs verfügbar ist.
-    -   Verwenden des **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Geometrie prüfen** Eintrags im oberen Menü.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ergebnisse werden im [Aufgabenpaneel](Task_panel/de.md) aufgeführt.
-
-
-</div>
-
-## Options
+## Optionen
 
 ### Skip settings page 
 
 If ticked, subsequent invocations of the tool skip showing the **Settings** task panel.
 
-### Run BOP check 
+### BOP-Check ausführen 
 
-
-<div class="mw-translate-fuzzy">
-
-Die Funktion PrüfeGeometrie prüft, ob die [Randdarstellung](https   *//en.wikipedia.org/wiki/Boundary_representation) korrekt ist. (BRep oder B-rep) des Modells ist gültig. Zusätzlich zu dieser BRep Prüfung ist es möglich, eine zusätzliche BOP Prüfung (BOP= Boolesche OPerationen) durchzuführen.
-
-
-</div>
+Wenn aktiviert, wird eine zusätzliche eine Prüfung der booleschen Operationen durchgeführt (BOP check). {{Version/de|0.19}}
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+Wenn aktiviert, werden alle gefundenen Fehler auch im [Ausgabefenster](Report_view/de.md) gelistet. {{Version/de|0.19}}
 
-## Shape Content 
+## Form-Inhalt 
 
 In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object   *
 
@@ -84,19 +58,10 @@ In addition to detecting potential geometry errors, this tool shows a range of p
     -   Radius of gyration
     -   Global placement
 
-## Notes
+## Hinweise
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be checked using this tool. For [App Links](App_Link.md) the shape of the linked object is checked. For [App Part](App_Part.md) containers the visible objects within are checked as compounds. <small>(v0.20)</small> 
--   FreeCAD has no methods to automatically repair geometry. If faults are detected the steps involved to create the model need to be examined and fixed manually.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   [App-Link](App_Link/de.md)-Objekte verknüpft mit passenden Objektarten und [App-Part](App_Part/de.md)-Container, die passende sichtbare Objekte enthalten, können auch mit diesem Werkzeug überprüft werden. Für [App-Link](App_Link/de.md)-Objekte wird die Form des verknüpften Objekts geprüft. Für [App-Part](App_Part/de.md)-Container werden die enthaltenen sichtbaren Objekte als Verbund geprüft. {{Version/de|0.20}}
+-   FreeCAD hat keine Möglichkeiten Geometrien automatisch zu reparieren. Wenn Fehler entdeckt werden, müssen die erforderlichen Schritte, um das Modell zu erstellen, untersucht und von Hand korrigiert werden.
 
 
 

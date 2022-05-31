@@ -25,7 +25,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  styl
     -   Sélectionnez l\'option **TechDraw → Extensions    * Attributs/Modifications → <img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> Sélectionnez les attributs de ligne, l'espacement de cascade et la distance delta** dans le menu.
 2.  Le panneau de tâches **Sélectionner les attributs de ligne** s\'ouvre.
 3.  Changez à votre convenance le **Style des lignes**, la **Largeur des lignes** et la **Couleur des lignes**.
-4.  Vous pouvez également modifier l\'espacement en cascade. Les outils **Cotes en cascade** et les outils **Créer des dimensions en coordonnées** utilisent cette valeur.
+4.  Vous pouvez également modifier l\'espacement en cascade. Les outils [Cotes en cascade](TechDraw_Workbench/fr#Caract.C3.A9ristiques_et_modifications.md) et les outils [Créer des dimensions en coordonnées](TechDraw_Workbench/fr#Cotes.md) utilisent cette valeur.
 5.  Vous pouvez également modifier la **Distance delta**. Les outils <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width   *16px;"> [TechDraw Prolonger](TechDraw_ExtensionExtendLine/fr.md) et <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width   *16px;"> [TechDraw Raccourcir](TechDraw_ExtensionShortenLine/fr.md) utilisent cette valeur.
 6.  Appuyez sur le bouton **OK**.
 

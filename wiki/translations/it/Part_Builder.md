@@ -1,6 +1,6 @@
 # Part Builder/it
 ---
-- GuiCommand:/it   Name:Part Builder   Name/it:Crea forme   Workbenches:[MenuLocation:Parte → Genera una forma...   Shortcut:Nessuno   SeeAlso:[[Part_CreatePrimitives/it| Crea primitive...](Part_Workbench/it___Parte]].md), [Assembla](Draft_Upgrade/it.md), [Scomponi](Draft_Downgrade/it.md)---
+- GuiCommand   */it   Name   *Part Builder   Name/it   *Crea forme   Workbenches   *[MenuLocation   *Parte → Genera una forma...   Shortcut   *Nessuno   SeeAlso   *[[Part_CreatePrimitives/it| Crea primitive...](Part_Workbench/it___Parte]].md), [Assembla](Draft_Upgrade/it.md), [Scomponi](Draft_Downgrade/it.md)---
 
 
 </div>
@@ -114,7 +114,7 @@ Questo strumento permette di creare delle forme creando
 
 ## Note
 
-Un possibile flusso di lavoro potrebbe essere:
+Un possibile flusso di lavoro potrebbe essere   *
 
 -   Disegnare un modello filiforme della forma utilizzando gli strumenti dell\'ambiente Draft (ad esempio, linea e polilinea)
 -   Creare tutte le facce con \"Faccia da bordi\"
@@ -122,15 +122,6 @@ Un possibile flusso di lavoro potrebbe essere:
 -   Creare un \"Solido da shell\"
 
 Nell\'ambiente [Draft](Draft_Workbench/it.md) sono disponibili gli strumenti **<img src="images/Draft_Upgrade.png" width=16px> [Promuovi](Draft_Upgrade/it.md)** e **<img src="images/Draft_Downgrade.png" width=16px> [Declassa](Draft_Downgrade/it.md)** che permettono di lavorare sulla composizione e scomposizione delle forme.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
 
 
 </div>

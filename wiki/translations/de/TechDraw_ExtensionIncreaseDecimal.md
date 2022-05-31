@@ -14,7 +14,7 @@
 
 Das <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width   *24px;"> **TechDraw ExtensionIncreaseDecimal** Werkzeug vergrößert die Anzahl der Dezimalstellen im Maßtext.
 
-## Verwendung
+## Anwendung
 
 1.  Wähle eine oder mehrere Bemaßungen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

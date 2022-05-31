@@ -1,6 +1,5 @@
-# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;"> Developer hub/zh-cn
-
-
+# Developer hub/zh-cn
+{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;">
 
 
 

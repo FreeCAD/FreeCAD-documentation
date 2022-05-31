@@ -18,14 +18,23 @@ This is a Document class
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> Axis
 
-Axis
-An defines a direction and a position (base) in 3D space.
+Base.Axis class.
+
+An Axis defines a direction and a position (base) in 3D space.
 
 The following constructors are supported:
-Axis() -- empty constructor
-Axis(Axis) -- copy constructor
-Axis(Base, Direction) -- define position and direction
-		
+
+Axis()
+Empty constructor.
+
+Axis(axis)
+Copy constructor.
+axis : Base.Axis
+
+Axis(base, direction)
+Define from a position and a direction.
+base : Base.Vector
+direction : Base.Vector
 
 
 
@@ -257,18 +266,40 @@ This class handles document objects in Part
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> [Placement](Placement_API.md)
 
-Placement
-A placement defines an orientation (rotation) and a position (base) in 3D space.
+Base.Placement class.
+
+A Placement defines an orientation (rotation) and a position (base) in 3D space.
 It is used when no scaling or other distortion is needed.
 
 The following constructors are supported:
-Placement() -- empty constructor
-Placement(Placement) -- copy constructor
-Placement(Matrix) -- 4D matrix consisting of rotation and translation
-Placement(Base, Rotation) -- define position and rotation
-Placement(Base, Rotation,Center) -- define position and rotation with center
-Placement(Base, Axis, Angle) -- define position and rotation
-		
+
+Placement()
+Empty constructor.
+
+Placement(placement)
+Copy constructor.
+placement : Base.Placement
+
+Placement(matrix)
+Define from a 4D matrix consisting of rotation and translation.
+matrix : Base.Matrix
+
+Placement(base, rotation)
+Define from position and rotation.
+base : Base.Vector
+rotation : Base.Rotation
+
+Placement(base, rotation, center)
+Define from position and rotation with center.
+base : Base.Vector
+rotation : Base.Rotation
+center : Base.Vector
+
+Placement(base, axis, angle)
+define position and rotation
+base : Base.Vector
+axis : Base.Vector
+angle : float
 
 
 
@@ -292,23 +323,70 @@ This module is the Translate module
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> Rotation
 
+Base.Rotation class.
 
-				A Rotation using a quaternion.
-				The Rotation object can be created by:
-				-- an empty parameter list
-				-- a Rotation object
-				-- a Vector (axis) and a float (angle)
-				-- two Vectors (rotation from/to vector)
-				-- three floats (Euler angles) as yaw-pitch-roll in XY'Z'' convention
-                -- one string and three floats (Euler angles) as euler rotation 
-                   of a given type. Call toEulerSequence() for supported sequence types.
-				-- four floats (Quaternion) where the quaternion is specified as:
-				   q=xi+yj+zk+w, i.e. the last parameter is the real part
-				-- three vectors that define rotated axes directions + an optional
-				   3-characher string of capital letters 'X', 'Y', 'Z' that sets the
-				   order of importance of the axes (e.g., 'ZXY' means z direction is
-				   followed strictly, x is used but corrected if necessary, y is ignored).
-			
+A Rotation using a quaternion.
+
+The following constructors are supported:
+
+Rotation()
+Empty constructor.
+
+Rotation(rotation)
+Copy constructor.
+
+Rotation(Axis, Radian)
+Rotation(Axis, Degree)
+Define from an axis and an angle (in radians or degrees according to the keyword).
+Axis : Base.Vector
+Radian : float
+Degree : float
+
+Rotation(vector_start, vector_end)
+Define from two vectors (rotation from/to vector).
+vector_start : Base.Vector
+vector_end : Base.Vector
+
+Rotation(angle1, angle2, angle3)
+Define from three floats (Euler angles) as yaw-pitch-roll in XY'Z'' convention.
+angle1 : float
+angle2 : float
+angle3 : float
+
+Rotation(seq, angle1, angle2, angle3)
+Define from one string and three floats (Euler angles) as Euler rotation
+of a given type. Call toEulerSequence() for supported sequence types.
+seq : str
+angle1 : float
+angle2 : float
+angle3 : float
+
+Rotation(x, y, z, w)
+Define from four floats (quaternion) where the quaternion is specified as:
+q = xi+yj+zk+w, i.e. the last parameter is the real part.
+x : float
+y : float
+z : float
+w : float
+
+Rotation(dir1, dir2, dir3, seq)
+Define from three vectors that define rotated axes directions plus an optional
+3-characher string of capital letters 'X', 'Y', 'Z' that sets the order of 
+importance of the axes (e.g., 'ZXY' means z direction is followed strictly,
+x is used but corrected if necessary, y is ignored).
+dir1 : Base.Vector
+dir2 : Base.Vector
+dir3 : Base.Vector
+seq : str
+
+Rotation(matrix)
+Define from a matrix rotation in the 4D representation.
+matrix : Base.Matrix
+
+Rotation(*coef)
+Define from 16 or 9 elements which represent the rotation in the 4D matrix
+representation or in the 3D matrix representation, respectively.
+coef : sequence of float
 
 
 

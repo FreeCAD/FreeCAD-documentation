@@ -18,7 +18,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  styl
 <img alt="" src=images/TechDraw_ExtensionThreadBoltBottomExample.png  style="width   *200px;"> 
 *Rechts eine Stange mit Gewindedarstellung*
 
-## Verwendung
+## Anwendung
 
 1.  Optional   * definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
 2.  Wähle einen oder mehrere Kreise.

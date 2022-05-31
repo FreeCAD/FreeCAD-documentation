@@ -64,11 +64,11 @@ A2plus zapewnia następujące wiązania   *
 
 #### Punkt w punkcie 
 
-Wybierz [wierzchołek](Glosariusz#Wertex.md) *(punkt)*, okrąg lub sferę na każdej części. Jeśli wybrano okrąg lub sferę, to jej punkt środkowy zostanie użyty w Wiązaniu. Przycisk na pasku narzędzi <img alt="" src=images/A2p_PointIdentity.svg  style="width   *24px;"> dodaje wiązanie {{Variable|PunktIdentyfikacja}}, które sprawia, że wierzchołki są zbieżne.
+Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, okrąg lub sferę na każdej części. Jeśli wybrano okrąg lub sferę, to jej punkt środkowy zostanie użyty w Wiązaniu. Przycisk na pasku narzędzi <img alt="" src=images/A2p_PointIdentity.svg  style="width   *24px;"> dodaje wiązanie {{Variable|PunktIdentyfikacja}}, które sprawia, że wierzchołki są zbieżne.
 
 #### Punkt na linii 
 
-Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, lub okrągłą [krawędź](Glossary#Edge.md) *(wybierze jej punkt środkowy)*, lub kulistą [ścinę](Glossary#Face.md) *(również wybierze jej punkt środkowy)* na jednej części i [krawędź](Glossary#Edge.md) na drugiej. Przycisk paska narzędzi <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width   *24px;"> dodaje wiązanie {{zmienna|PunktNaLinii}}. Spowoduje ono umieszczenie wierzchołka na krawędzi.
+Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, lub okrągłą [krawędź](Glossary#Edge.md) *(wybierze jej punkt środkowy)*, lub kulistą [ścinę](Glossary#Face.md) *(również wybierze jej punkt środkowy)* na jednej części i [krawędź](Glossary#Edge.md) na drugiej. Przycisk paska narzędzi <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|PunktNaLinii}}. Spowoduje ono umieszczenie wierzchołka na krawędzi.
 
 #### Punkt na płaszczyźnie 
 
@@ -76,9 +76,9 @@ Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, okrągłą [krawędź](Glo
 
 #### Sfera w sferze 
 
-Select either a spherical [face](Glossary#Face.md) or a [vertex](Glossary#Vertex.md) (point) on both parts. The toolbar button <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|sphereCenterIdent}}. It will either make the center of the spheres, the center of the sphere and the vertex, or the vertices coincident.
+Wybierz sferyczną [powierzchnię](Glosariusz#Powierzchnia.md) lub [wierzchołek](Glosariusz#Wertex.md) *(punkt)* na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|sphereCenterIdent}} *(sfera o wspólnym środku)*. Sprawi ono, że środki sfer, środki sfery i wierzchołka lub wierzchołki będą się pokrywać.
 
-#### Circular Edge on Circular Edge 
+#### Okrągła krawędź na okrągłej krawędzi 
 
 Select a circular [edge](Glossary#Edge.md) on both parts. The toolbar button <img alt="" src=images/A2p_CircularEdgeConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|circularEdge}}. The constraint dialog allows you to specify an offset between the edges. This offset can also be flipped. You can furthermore set the constraint direction and lock the rotation of the parts. If the offset is zero, the constraint will put the edges concentric in the same plane.
 
@@ -306,7 +306,7 @@ Then A2plus outputs the info about the failed solution, but sometimes you only s
 
 Therefore check that at least one of your parts in the assembly has **fixed Position** set to *true*. Then assure that you only set constraints to a part which is somehow connected to the fixed part. To visualise these dependencies, see section [Assembly Structure](#Assembly_Structure.md).
 
-### Rotating Parts 
+### Obracanie części 
 
 **This strategy is no longer necessary for assemblies created with A2plus 0.4.0 or newer because A2plus rotates the parts now automatically a bit in the background to get a sufficient start angle for the solver.**
 
@@ -314,11 +314,11 @@ The solver often fails for the constraint {{Variable|angledPlanes}} if the two s
 
 **Note   *** Assure that at least one part of the constraint has the property **fixed Position** set to *false*.
 
-## Animation
+## Animacja
 
-A2plus offers animations via dragging and via Python scripts.
+A2plus oferuje animacje za pomocą przeciągania oraz skryptów Pythona.
 
-### Dragging
+### Przeciąganie
 
 Dragging animations are interactive since you trigger it by dragging a part of the assembly. To get these kind of animations   *
 

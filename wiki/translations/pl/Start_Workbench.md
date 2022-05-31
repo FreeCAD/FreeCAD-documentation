@@ -1,14 +1,22 @@
-# <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Start" src=images/Workbench_Start.svg  style="width   *64px;"> Start Workbench/pl
 
-The <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Workbench](Start_Workbench.md) is not really a workbench, it\'s just the page that is presented when you open FreeCAD with no document loaded.
+Środowisko pracy <img alt="" src=images/Workbench_Start.svg  style="width   *24px;"> [Start](Start_Workbench/pl.md) nie jest tak naprawdę środowiskiem roboczym, jest to po prostu strona, która jest prezentowana po uruchomieniu programu FreeCAD bez załadowanego dokumentu.
 
-From this interface you can see useful information and jump to recently opened files, examples, the documentation, and latest news from the FreeCAD world. You can change how the Start Workbench behaves, or change the default workbench, in the [Preferences Editor](Preferences_Editor.md) in the menu **Edit → Preferences → Start**.
+Z tego interfejsu możesz zobaczyć przydatne informacje i przejść do ostatnio otwieranych plików, przykładów, dokumentacji i najnowszych wiadomości ze świata FreeCAD. Możesz zmienić sposób funkcjonowania środowiska pracy Start lub zmienić domyślne środowisko pracy w [Edytorze ustawień](Preferences_Editor.md) w menu **Edycja → Preferencje ... → Start**.
 
-<img alt="Start workbench, documents tab" src=images/FreeCad_Start_0.18_documents.png  style="width:500px;">
+<img alt="środowisko pracy Start, zakładka dokumenty" src=images/FreeCad_Start_0.18_documents.png  style="width   *500px;">
 
-<img alt="Start workbench, help tab" src=images/FreeCad_Start_0.18_help.png  style="width:500px;">
+<img alt="środowisko pracy Start, zakładka pomoc" src=images/FreeCad_Start_0.18_help.png  style="width   *500px;">
 
-<img alt="Start workbench, activity tab" src=images/FreeCad_Start_0.18_activity.png  style="width:500px;">
+<img alt="środowisko pracy Start, zakładka aktywność" src=images/FreeCad_Start_0.18_activity.png  style="width   *500px;">
+
+
+
+
+
+
+
+[Category   *Start](Category_Start.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

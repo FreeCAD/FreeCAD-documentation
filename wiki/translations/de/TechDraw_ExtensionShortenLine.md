@@ -18,7 +18,7 @@ Das <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width   *24
 <img alt="" src=images/TechDraw_ExtensionShortenLineExample.png  style="width   *300px;"> 
 *Rechte eine an beiden Enden verkürzte Mittelline*
 
-## Verwendung
+## Anwendung
 
 1.  Optional   * lege die Verkürzung mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug fest.
 2.  Wähle eine einzelne Hilfslinie oder Mittellinie.

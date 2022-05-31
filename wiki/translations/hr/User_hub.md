@@ -1,6 +1,5 @@
-# <img alt="" src=images/User_hub.png  style="width   *64px;"> User hub/hr
-
-
+# User hub/hr
+{{TOCright}} <img alt="" src=images/User_hub.png  style="width   *64px;">
 
 
 

@@ -1,22 +1,22 @@
 ---
-- GuiCommand:/de
-   Name:Part Defeaturing
-   Name/de:Part Beseitigen der Funktionalität
-   MenuLocation:Part → Beseitigen der Funktionalität
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[Defeaturing](Defeaturing_Workbench/de.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
+- GuiCommand   */de
+   Name   *Part Defeaturing
+   Name/de   *Part MerkmalEntfernen
+   MenuLocation   *Formteil → Merkmal entfernen
+   Workbenches   *[Part](Part_Workbench/de.md)
+   Version   *0.18
+   SeeAlso   *[Defeaturing](Defeaturing_Workbench/de.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
 ---
 
 # Part Defeaturing/de
 
 ## Beschreibung
 
-Das Werkzeug **Merkmal aus einer Form entfernen** ist für die Entfernung ausgewählter Merkmale aus dem Modell vorgesehen. In diesem Zusammenhang sind Grundelemente als Löcher, Vorsprünge, Lücken, Fasen, Verrundungen usw. gemeint, die sich auf dem Modell befinden.
+Das Werkzeug **MerkmalEntfernen** ist für die Entfernung ausgewählter Formelemente aus dem Modell vorgesehen. In diesem Zusammenhang sind es Formelemente wie Löcher, Vorsprünge, Lücken, Fasen, Verrundungen usw., die sich in dem Modell befinden.
 
-Das Werkzeug \'Merkmal aus einer Form entfernen\' kann in verschiedenen Zusammenhängen sehr nützlich sein:
+Das Werkzeug \'MerkmalEntfernen\' kann in verschiedenen Zusammenhängen sehr nützlich sein   *
 
--   Um einen importierten Festkörper zu bearbeiten, wenn keine Historie der Operationen verfügbar ist;
+-   Um einen importierten Volumenkörper zu bearbeiten, wenn keine Historie der Bearbeitung verfügbar ist.
 -   Beheben von Fehlern im Modell, z. B. Füllen von Lücken, Löchern usw.
 -   Modellvereinfachung für die numerische Analyse, Anzeige auf mobilen Geräten, usw.
 
@@ -29,12 +29,12 @@ Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren.
 ## Anwendung
 
 1.  Wähle die zu entfernende(n) Fläche(n) auf dem Modell.
-2.  Klicke auf die Schaltfläche **[<img src=images/Part_Defeaturing.svg style="width:24px"> '''Merkmal aus einer Form entfernen'''**
+2.  Klicke auf die Schaltfläche **[<img src=images/Part_Defeaturing.svg style="width   *24px"> '''Merkmal aus einer Form entfernen'''**
 3.  Ein neues Objekt wird in der Modell [Baumansicht](Tree_view/de.md) mit der Bezeichnung *\'Defeatured* erstellt und das ursprüngliche Objekt wird nicht mehr angezeigt.
 
 ## Verweise
 
--   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), die offizielle Ankündigung auf dem Open Cascade Collaborative Development Portal.
+-   [3D Model Defeaturing](https   *//dev.opencascade.org/index.php?q=node/1211), die offizielle Ankündigung auf dem Open Cascade Collaborative Development Portal.
 
 
 

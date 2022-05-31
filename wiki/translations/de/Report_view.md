@@ -3,9 +3,15 @@
 
 Die [Berichtsansicht](Report_view/de.md) ist eine Konsole, die Textnachrichten von FreeCAD Prozessen und Werkzeugen anzeigt. Sie ist im Menü **{{StdMenu|[Ansicht](Std_View_Menu/de.md)** verfügbar. → Konsole → Berichtsansicht}}.
 
+
+<div class="mw-translate-fuzzy">
+
 Bestimmte Eigenschaften dieser Konsole, wie die Farbe des Textes und ob er bei Warnungen oder Fehlern automatisch angezeigt werden soll, können im **Allgemein→ Ausgabefenster** Reiter des [Einstellungseditor](Preferences_Editor/de.md) konfiguriert werden.
 
-<img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
+
+</div>
+
+<img alt="" src=images/FreeCAD_Report_view.png  style="width   *800px;">
 
 
 
@@ -14,7 +20,7 @@ Bestimmte Eigenschaften dieser Konsole, wie die Farbe des Textes und ob er bei W
 ## Meldungen
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Konsole API](Console_API/de.md), und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -30,25 +36,31 @@ Die Berichtsansicht zeigt Meldungen der internen FreeCAD `Console` Klasse an.
 
 Diese Funktionen können direkt von der [Python Konsole](Python_console/de.md) oder von [Makros](Macros/de.md) und benutzerdefinierten Arbeitsbereichen aus verwendet werden.
 
-<img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
+<img alt="" src=images/FreeCAD_Report_view_example.png  style="width   *800px;">
 
 
 
-*Beispielmeldungen in der Berichtsansicht: eine allgemeine Meldung, eine Warnung, ein Fehler und eine protokollierte Meldung.*
+*Beispielmeldungen in der Berichtsansicht   * eine allgemeine Meldung, eine Warnung, ein Fehler und eine protokollierte Meldung.*
 
 ## Maßnahmen
 
-Rechtsklick auf die Berichtsansicht zeigt einige Befehle:
 
--    **Optionen**: Protokollierung, Warnung, Fehler, Python Ausgabe umleiten, Python Fehler umleiten, zum Ende gehen.
+<div class="mw-translate-fuzzy">
 
--    **Kopieren**: speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
+Rechtsklick auf die Berichtsansicht zeigt einige Befehle   *
 
--    **Alles markieren**: wählt den gesamten Text in der Berichtsansicht aus.
+-    **Optionen**   * Protokollierung, Warnung, Fehler, Python Ausgabe umleiten, Python Fehler umleiten, zum Ende gehen.
 
--    **Löschen**: löscht alle Meldungen in der Berichtsansicht. Dies ist nützlich, wenn du eine Fehlersuche bei einem Werkzeug durchführen willst, das Meldungen in der Berichtsansicht ausgibt, und sicher sein willst, dass keine alten Meldungen von früheren Werkzeugen vorhanden sind.
+-    **Kopieren**   * speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
 
--    **Speichern als**: speichert die Meldungen in der Berichtsansicht in einer Textdatei.
+-    **Alles markieren**   * wählt den gesamten Text in der Berichtsansicht aus.
+
+-    **Löschen**   * löscht alle Meldungen in der Berichtsansicht. Dies ist nützlich, wenn du eine Fehlersuche bei einem Werkzeug durchführen willst, das Meldungen in der Berichtsansicht ausgibt, und sicher sein willst, dass keine alten Meldungen von früheren Werkzeugen vorhanden sind.
+
+-    **Speichern als**   * speichert die Meldungen in der Berichtsansicht in einer Textdatei.
+
+
+</div>
 
 
 {{Interface navi

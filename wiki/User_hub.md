@@ -1,8 +1,9 @@
-# <img alt="" src=images/User_hub.png  style="width   *64px;"> User hub
+# User hub
+{{TOCright}} <img alt="" src=images/User_hub.png  style="width   *64px;">
 
 
 
- 
+
 
 This is the main help area for newcomers to FreeCAD.
 

@@ -36,13 +36,13 @@ Les instructions d\'utilisation pour plusieurs variantes de [Surface](Path_Surfa
 5.  Faites des ajustements dans l\'onglet Hauteurs si nécessaire.
 6.  Configurez les paramètres dans l\'onglet Opérations si nécessaire   *
     -   Choisissez votre mode de refroidissement.
-    -   Choisissez la BoundBox   * Stock ou BaseBoundBox
+    -   Choisissez la boîte de délimitation   * Brut ou Boîte de délimitation de base
     -   Définissez le type de scan pour l\'opération   * planaire ou rotationnel
     -   Sélectionnez le mode de calque pour l\'opération   * passe unique ou passe multiple
         1.  Un seul passage est pour une passe finale
         2.  Multi-pass peut être utilisé pour le dégagement en combinaison avec l\'utilisation du décalage de profondeur pour laisser une couche de surface mince pour une passe de finition
-    -   Ajoutez un décalage supplémentaire BoundBox supplémentaire à X et Y comme vous le souhaitez (*Rotational scans only*)
-    -   Réglez la direction du Drop Cutter   * X ou Y. Il s\'agit de la direction linéaire dans laquelle la fraise (broche) se déplacera. (*Rotational scans only*)
+    -   Ajoutez un décalage supplémentaire à la boîte de délimitation en X et Y comme vous le souhaitez (*Scans rotatifs uniquement*)
+    -   Réglez la direction du Drop Cutter   * X ou Y. Il s\'agit de la direction linéaire dans laquelle la fraise (broche) se déplacera. (*Scans rotatifs uniquement*)
     -   Ajoutez une valeur de décalage de profondeur si vous souhaitez laisser une épaisseur de matériau spécifiée sur la surface, par exemple une passe de finition finale
     -   Définissez l\'intervalle d\'échantillonnage utilisé pour l\'analyse OCL.
     -   Définissez la valeur Step Over en pourcentage du diamètre de l\'outil.
@@ -54,23 +54,23 @@ Les instructions d\'utilisation pour plusieurs variantes de [Surface](Path_Surfa
 
 Pour obtenir des effets différents ou plus complexes, définissez des propriétés d\'opération supplémentaires dans l\'onglet Données de la vue Propriétés pour l\'opération.
 
-#### Balayages rotationnels (4ème axe) 
+#### Scans rotationnels (4ème axe) 
 
-1.  Lancez une [Opération de base](#Op.C3.A9ration_de_base.md) comme décrit ci-dessus et définissez le **Scan Type** à **Rotational**.
+1.  Lancez une [Opération de base](#Op.C3.A9ration_de_base.md) comme décrit ci-dessus et définissez le **Type de scan** à **Rotationel**.
 2.  **Remarque   *** La sélection de face n\'est pas disponible pour les scans rotationnels, les modifications apportées à la géométrie de base sont donc ignorées.
 3.  Localisez l\'onglet Données et la vue Propriétés pour la nouvelle opération [Parcours](Path_Surface/fr.md). Une section **Rotation** devrait être disponible avec des propriétés supplémentaires à ajuster, listées ci-dessous.
     Il est recommandé de définir toutes les propriétés de rotation souhaitées en une seule fois avant de recalculer. Pour ce faire, cliquez sur la touche ENTRÉE immédiatement après avoir modifié un paramètre de propriété. Ce processus vous permettra de modifier et d\'enregistrer plusieurs propriétés avant de recalculer l\'opération.
 4.  Ajustez les paramètres suivants selon vos besoins   *
-    -   Définissez **Cutter Tilt** sur l\'index de décalage (angle) \[0-90\]. (Utilisé pour les fraises à boulets)
+    -   Définissez **Cutter Tilt** sur l\'index de décalage (angle) \[0-90\]. (Utilisé pour les fraises hémisphériques)
     -   Remplacez **Drop Cutter Dir** par l\'axe de déplacement de la fraise (broche).
-    -   Modifiez **Drop Cutter Extra Offset** pour étendre le BoundBox dans les directions X et Y.
+    -   Modifiez **Drop Cutter Extra Offset** pour étendre la boîte de délimitation dans les directions X et Y.
     -   Définissez **Rotation Axis** sur l\'axe souhaité.
     -   Ajustez **Start Index** pour démarrer l\'index (angle) \[0-360\].
     -   Ajustez **Stop Index** pour arrêter l\'index (angle) \[0-360\].
 5.  Cliquez sur l\'icône **[<img src=images/_View-refresh.svg style="width   *16px"> [Rafraîchir](Std_Refresh/fr.md)** dans la barre d\'outils.
 6.  Attendez les résultats \...
 
-##### Remarques sur les balayages rotationnels 
+##### Remarques sur les scans rotationnels 
 
 -   Les balayages **Rotationnels** nécessitent beaucoup plus de temps et de traitement que les balayages **Planaires**. Les facteurs ayant une incidence sur le temps de traitement comprennent   * l\'intervalle d\'échantillonnage, l\'interpolation, le diamètre de l\'outil et la taille du modèle. Encore une fois, les analyses en rotation peuvent prendre beaucoup de temps. Certains peuvent prendre 3, 5 ou 10 minutes ou plus.
 -   Pour des raisons de temps, il est préférable de ne pas recalculer un balayage rotationnel après chaque changement de propriété. considérez plutôt l'un des éléments suivants   *
@@ -97,8 +97,8 @@ Pour faire de cette valeur la valeur par défaut pour toutes les nouvelles **<im
 **Outils → Editer paramètres... → Préférences → Mod → Path → GeometryTolerance **.
 Notez qu\'à partir de la version 0.19, la **Linear Deflection** par défaut = GeometryTolerance / 4.
 
-***Géométrie non valide***
-Si un modèle contient une géométrie invalide, le temps de numérisation peut augmenter considérablement. Un modèle peut être vérifié à l\'aide de la fonction **Check Geometry** dans l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;">**atelier Part**.
+**\'\'Géométrie non valide**\'\'
+Si un modèle contient une géométrie invalide, le temps de numérisation peut augmenter considérablement. Un modèle peut être vérifié à l\'aide de la fonction [Part Vérifier la géométrie](Part_CheckGeometry/fr.md) dans l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;">**atelier Part**.
 Pour exécuter l\'outil    *
 
 1.  Passez dans l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;">**atelier Part** et sélectionnez le modèle à vérifier.
@@ -330,7 +330,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 {{TitleProperty|Surface}}
 
--    **Scan Type**   * Planaire   * scan de surface plane en 3D. Rotationnel   * balayage rotationnel 4ème axe.
+-    **Scan Type**   * Planaire    * scan de surface plat et 3D. Rotationnel    * balayage de rotation sur le 4ème axe.
 
 
 {{TitleProperty|Waste}}
@@ -341,7 +341,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 -    **Release From Waste**   * coupe les déchets jusqu\'à la profondeur sur le bord du modèle, ce qui libère le modèle.
 
-## Disposition de l\'éditeur de fenêtre de tâches 
+## Editeur de la fenêtre des tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 

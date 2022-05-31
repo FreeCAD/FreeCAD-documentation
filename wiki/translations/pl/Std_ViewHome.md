@@ -1,29 +1,30 @@
 ---
-- GuiCommand:
-   Name:Std ViewHome
-   MenuLocation:View → Standard views → Home
-   Workbenches:All
-   Shortcut:**Home**
-   Version:0.19
-   SeeAlso:[Std ViewFitAll](Std_ViewFitAll.md)
+- GuiCommand   */pl
+   Name   *Std ViewHome
+   Name/pl   *Std   * Widok domyślny
+   MenuLocation   *Widok → Widoki standardowe → Widok domyślny
+   Workbenches   *wszystkie
+   Shortcut   ***Home**
+   Version   *0.19
+   SeeAlso   *[Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)
 ---
 
 # Std ViewHome/pl
 
-## Description
+## Opis
 
-The **Std ViewHome** command changes the camera in the active [3D view](3D_view.md) to the default camera orientation. And then zooms and pans the camera so that all visible objects fit inside the view.
+Polecenie **Widok domyślny** zmienia orientację ujęcia widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) na widok domyślny. A następnie powiększa i pochyla ujęcie widoku tak, aby wszystkie widoczne obiekty znajdowały się w jego obrębie.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select the **View → Standard views → <img src="images/Std_ViewHome.svg" width=16px> Home** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewHome.svg" width=16px> Home** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **Home**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz opcję **Widok → Widoki standardowe → <img src="images/Std_ViewHome.svg" width=16px> Widok domyślny** z menu.
+    -   Wybierz opcję **Widoki standardowe → <img src="images/Std_ViewHome.svg" width=16px> Widok domyślny** z menu podręcznego w oknie [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **Home**.
 
-## Preferences
+## Ustawienia
 
--   The default camera orientation can be customized in the preferences: **Edit → Preferences... → Display → Navigation → Default camera orientation**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+-   Domyślne ustawienie ujęcia widoku można dostosować w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Domyślna orientacja ujęcia widoku**. Zobacz również [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
 
 
 

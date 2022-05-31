@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Path Drilling
-   Name/fr:Path Perçage
-   MenuLocation:Path → Perçage
-   Workbenches:[Path](Path_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Path Drilling
+   Name/fr   *Path Perçage
+   MenuLocation   *Path → Perçage
+   Workbenches   *[Path](Path_Workbench/fr.md)
 ---
 
 # Path Drilling/fr
@@ -12,157 +12,157 @@
 
 La commande Perçage génère une opération de perçage durant l\'opération.
 
-<img alt="" src=images/Path_Drilling_Sample.png  style="width:400px;"> 
-*Ci-dessus: exemple d'opérations de perçage*
+<img alt="" src=images/Path_Drilling_Sample.png  style="width   *400px;"> 
+*Ci-dessus   * exemple d'opérations de perçage*
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande :
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le Button **<img src="images/Path_Drilling.svg" width=16px> [Perçage](Path_Drilling/fr.md)**.
     -   Sélectionnez l\'option **Path → <img src="images/Path_Drilling.svg" width=16px> Perçage** dans le menu.
-2.  Dans la section **Opération** :
+2.  Dans la section **Opération**    *
     -   Sélectionnez un **Contrôleur d'outil**.
     -   Sélectionnez un **Mode de refroidissement**.
-    -   En option, activez et ajustez les éléments suivants :
+    -   En option, activez et ajustez les éléments suivants    *
         -   
-            **Peck**
+            **Rétractation**
             
-            définissez la **Depth**.
+            définissez la **Profondeur**.
 
         -   
-            **Dwell**
+            **Temps d'arrêt**
             
-            définit le **Time** en secondes.
+            définit le **Temps** en secondes.
 
         -   
-            **Extended Depth**
+            **Profondeur étendue**
             
             .
 3.  Dans la section **Géométrie de base**, vérifiez que la liste correspond aux trous destinés à être traités, et ajustez l\'ajout, l\'activation ou la désactivation, si nécessaire. Les trous peuvent être ajoutés en sélectionnant les faces des murs des Trous.
-4.  Dans la section **Depths**, vérifiez et ajustez si nécessaire les **Start Depth** et **Final Depth**.
-5.  Dans la section **Heights**, vérifiez et, si nécessaire, ajustez les **Safe Height** et **Clearance Height**.
+4.  Dans la section **Profondeurs**, vérifiez et ajustez si nécessaire les **Profondeur de départ** et **Profondeur finale**.
+5.  Dans la section **Hauteurs**, vérifiez et, si nécessaire, ajustez les **Hauteur de sécurité** et **Hauteur de dégagement**.
 6.  Appuyez sur le bouton **OK** pour générer le(s) chemin(s) de perçage.
 
 ## Remarques
 
 -   Lorsque vous utilisez des arêtes pour la géométrie de base, sélectionnez toujours le bord inférieur du trou.
 -   Vérifiez toujours que l\'outil choisi est le bon diamètre pour le(s) trou(s) sélectionné(s).
--   **Peck désactivé** génère (cycles de forage pré-programmés G81). **Peck activé** génère (cycles de forage prédéfinis G83).
--   **Dwell activé** est actuellement non pris en charge, mais il est destiné à générer (cycles de forage fixes G82).
+-   **Rétractation désactivée** génère (cycles de forage pré-programmés G81). **Rétractation activée** génère (cycles de forage prédéfinis G83).
+-   **Temps d\'arrêt activé** est actuellement non pris en charge, mais il est destiné à générer (cycles de forage fixes G82).
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\': toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
+\'\'\' *Remarque* \'\'\'   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
 
 {{TitleProperty|Base}}
 
-Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
+Remarque   * il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
--    **Placement**: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+-    **Placement**   * emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
     -   
         **Angle**
         
-        : angle en degrés appliqué à la rotation de l\'objet autour de la valeur de la propriété Axis.
+           * angle en degrés appliqué à la rotation de l\'objet autour de la valeur de la propriété Axis.
 
     -   
         **Axis**
         
-        : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: x, y, z.
+           * axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés   * x, y, z.
 
         -   
             **X**
             
-            : valeur de l\'axe x.
+               * valeur de l\'axe x.
 
         -   
             **Y**
             
-            : valeur de l\'axe y.
+               * valeur de l\'axe y.
 
         -   
             **Z**
             
-            : valeur de l\'axe z.
+               * valeur de l\'axe z.
 
     -   
         **Position**
         
-        : Position de l\'objet, définie dans les sous-propriétés: x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+           * Position de l\'objet, définie dans les sous-propriétés   * x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
         -   
             **X**
             
-            : valeur de distance x.
+               * valeur de distance x.
 
         -   
             **Y**
             
-            : valeur de distance y.
+               * valeur de distance y.
 
         -   
             **Z**
             
-            : valeur de distance z.
+               * valeur de distance z.
 
--    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
+-    **Label**   * nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
--    **Disabled**: liste des fonctionnalités désactivées.
+-    **Disabled**   * liste des fonctionnalités désactivées.
 
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
+-    **Clearance Height**   * hauteur nécessaire pour supprimer les pinces et les obstructions.
 
--    **Final Depth**: profondeur finale de l\'outil - valeur la plus basse de Z.
+-    **Final Depth**   * profondeur finale de l\'outil - valeur la plus basse de Z.
 
--    **Safe Height**: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
+-    **Safe Height**   * hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
 
--    **Start Depth**: profondeur de départ de l\'outil - *profondeur de la première coupe en Z*.
+-    **Start Depth**   * profondeur de départ de l\'outil - *profondeur de la première coupe en Z*.
 
 
 {{TitleProperty|Drill}}
 
--    **Add Tip Length**: calcule la longueur de la pointe et soustrait de la profondeur finale.
+-    **Add Tip Length**   * calcule la longueur de la pointe et soustrait de la profondeur finale.
 
--    **Dwell Enabled**: activer le temps (? ndt).
+-    **Dwell Enabled**   * activer le temps (? ndt).
 
--    **Dwell Time**: le temps de pause entre les cycles de picage.
+-    **Dwell Time**   * le temps de pause entre les cycles de picage.
 
--    **Peck Depth**: profondeur de forage incrémental avant de se rétracter pour nettoyer les copeaux.
+-    **Peck Depth**   * profondeur de forage incrémental avant de se rétracter pour nettoyer les copeaux.
 
--    **Peck Enabled**: active le picage.
+-    **Peck Enabled**   * active le picage.
 
--    **Retract Height**: la hauteur du début de l\'alimentation et la hauteur lors de la rétraction de l\'outil lorsque le tracé est terminé.
+-    **Retract Height**   * la hauteur du début de l\'alimentation et la hauteur lors de la rétraction de l\'outil lorsque le tracé est terminé.
 
--    **Return Level**: contrôle le retrait de l\'outil. Par défaut = G98.
+-    **Return Level**   * contrôle le retrait de l\'outil. Par défaut = G98.
 
 
 {{TitleProperty|Path}}
 
--    **Active**: mis à False, pour empêcher l\'opération de générer du code.
+-    **Active**   * mis à False, pour empêcher l\'opération de générer du code.
 
--    **Comment**: commentaire facultatif pour cette opération.
+-    **Comment**   * commentaire facultatif pour cette opération.
 
--    **User Label**: étiquette attribuée par l\'utilisateur.
+-    **User Label**   * étiquette attribuée par l\'utilisateur.
 
--    **Tool Controller**: définit le contrôleur d\'outil utilisé dans l\'opération.
+-    **Tool Controller**   * définit le contrôleur d\'outil utilisé dans l\'opération.
 
 
 {{TitleProperty|Rotation}}
 
 (*si disponible*)
 
--    **Attempt Inverse Angle**: tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
+-    **Attempt Inverse Angle**   * tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
 -    
 
--    **Enable Rotation**: active la rotation pour accéder aux trous non normaux sur l\'axe Z.
+-    **Enable Rotation**   * active la rotation pour accéder aux trous non normaux sur l\'axe Z.
 
--    **Angle Inverse**: inverse l\'angle de la rotation. \'\' **Exemple:** change une rotation de -22,5 à 22,5 degrés.\'\'
+-    **Angle Inverse**   * inverse l\'angle de la rotation. \'\' **Exemple   *** change une rotation de -22,5 à 22,5 degrés.\'\'
 
--    **Reverse Direction**: inverse l\'orientation de l\'opération de 180 degrés.
+-    **Reverse Direction**   * inverse l\'orientation de l\'opération de 180 degrés.
 
 ## Disposition de l\'éditeur de fenêtre de tâches 
 
@@ -170,15 +170,15 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 ### Géométrie de base 
 
--   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
--   **Supprimer**: supprime le ou les éléments sélectionnés dans la liste géométrie de base.
--   **Clear**: efface tous les éléments de la liste géométrie de base.
+-   **Ajouter**    * ajoute le(s) élément(s) sélectionné(s) qui doit(vent) être la(les) base(s) pour le(s) trajectoire(s).
+-   **Enlever**    * supprime le ou les éléments sélectionnés dans la liste de la géométrie de base.
+-   **Réinitialiser**    * efface tous les éléments de la liste de la géométrie de base.
 
-### Localisation de la base 
+### Emplacement de base 
 
--   **Add**: ajoute un emplacement de coordonnées (X, Y) à l\'opération de forage en cours.
--   **Remove**: supprime le ou les éléments d\'emplacement sélectionnés de la liste Emplacement de base.
--   **Edit**: édite l\'élément de lieu sélectionné.
+-   **Ajouter**    * ajoute un emplacement de coordonnées (X, Y) à l\'opération de forage en cours.
+-   **Enlever**    * supprime le(s) élément(s) de localisation sélectionné(s) de la liste de Emplacement de base.
+-   **Éditer**    * modifie l\'élément l\'emplacement sélectionné.
 
 ### Profondeurs
 
@@ -222,11 +222,11 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-Exemple :
+Exemple    *
 
 
 ```python

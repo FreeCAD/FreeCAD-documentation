@@ -62,7 +62,7 @@ Para instalar la versión de desarrollo del Snap use   *
 
 
 {{Code|lang=bash|code=
-sudo snap install --edge freecad-ppd
+sudo snap install --edge freecad
 }}
 
 ### Manjaro
@@ -78,7 +78,7 @@ To install the development version of the Snap use   *
 
 
 {{Code|lang=bash|code=
-snap install --edge freecad-ppd
+snap install --edge freecad
 }}
 
 ## Notes
@@ -87,12 +87,12 @@ To figure out which development version is installed type the following in the C
 
 
 {{Code|lang=bash|code=
-snap info freecad-ppd
+snap info freecad
 }}
 
 ## Advanced
 
-The following commands are geared towards users that are familiar with git and have a locally cloned repository of the upstream FreeCAD repository.
+The following commands are geared towards users that are familiar with `git` and have a locally cloned repository of the upstream FreeCAD repository.
 
 
 {{Code|lang=bash|code=
@@ -112,7 +112,7 @@ To translate the current snap development version in to a revision number (make 
 
 
 {{Code|lang=bash|code=
-snap info freecad-ppd <nowiki>|</nowiki>\
+snap info freecad <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
@@ -126,7 +126,7 @@ Taking it a step further, if you want a short summary of the commits between the
 
 
 {{Code|lang=bash|code=
-snap info freecad-ppd <nowiki>|</nowiki>\
+snap info freecad <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git log --oneline --ancestry-path {}..HEAD

@@ -45,13 +45,6 @@ se si installa la \"Parts Library\" da [AddonManager](Std_AddonMgr/it.md), lo st
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/**
 
-It is also possible to place custom windows and doors in your user **Arch** directory. <small>(v0.20)</small> 
-
-
-**$ROOT_DIR/Mod/Arch/Doors/Custom/**
-
-**$ROOT_DIR/Mod/Arch/Windows/Custom/**
-
 
 <div class="mw-translate-fuzzy">
 

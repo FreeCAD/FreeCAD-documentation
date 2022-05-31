@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width   
 <img alt="" src=images/TechDraw_ExtensionInsertDiameterExample.png  style="width   *600px;"> 
 *Rechts Bemaßungen mit dem eingefügten Symbol*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle eine oder mehrere Bemaßungen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

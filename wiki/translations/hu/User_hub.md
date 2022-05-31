@@ -1,6 +1,5 @@
-# <img alt="" src=images/User_hub.png  style="width   *64px;"> User hub/hu
-
-
+# User hub/hu
+{{TOCright}} <img alt="" src=images/User_hub.png  style="width   *64px;">
 
 
 

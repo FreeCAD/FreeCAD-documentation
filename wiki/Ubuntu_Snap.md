@@ -33,7 +33,7 @@ sudo snap install freecad
 To install the development version of the Snap use   *
 
  {{Code|lang=bash|code=
-sudo snap install --edge freecad-ppd
+sudo snap install --edge freecad
 }}
 
 ### Manjaro
@@ -47,7 +47,7 @@ snap install freecad
 To install the development version of the Snap use   *
 
  {{Code|lang=bash|code=
-snap install --edge freecad-ppd
+snap install --edge freecad
 }}
 
 ## Notes
@@ -55,12 +55,12 @@ snap install --edge freecad-ppd
 To figure out which development version is installed type the following in the Command-line interface   *
 
  {{Code|lang=bash|code=
-snap info freecad-ppd
+snap info freecad
 }}
 
 ## Advanced
 
-The following commands are geared towards users that are familiar with git and have a locally cloned repository of the upstream FreeCAD repository.
+The following commands are geared towards users that are familiar with `git` and have a locally cloned repository of the upstream FreeCAD repository.
 
  {{Code|lang=bash|code=
 git clone https   *//github.com/FreeCAD/FreeCAD
@@ -77,7 +77,7 @@ git rev-list --count HEAD # 'HEAD' refers to the current commit you are viewing 
 To translate the current snap development version in to a revision number (make sure you\'re within your cloned FreeCAD repository as mentioned above)   *
 
  {{Code|lang=bash|code=
-snap info freecad-ppd <nowiki>|</nowiki>\
+snap info freecad <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
@@ -90,7 +90,7 @@ The difference between HEAD and the snap edge revision numbers indicates the amo
 Taking it a step further, if you want a short summary of the commits between the current snap edge and HEAD   *
 
  {{Code|lang=bash|code=
-snap info freecad-ppd <nowiki>|</nowiki>\
+snap info freecad <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git log --oneline --ancestry-path {}..HEAD
@@ -102,8 +102,8 @@ xargs -I{} git log --oneline --ancestry-path {}..HEAD
 
 More information about the current efforts to deal with Snaps   *
 
--   [0.19 Snap Preview needs \"testers\"](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=46044), older Snap by **vejmarie**.
--   [Discussion   * State of the snap (Snap Packaging)](https   *//forum.freecadweb.org/viewtopic.php?f=42&t=46853), newer version of the Snap by **ppd**.
+-   [0.19 Snap Preview needs \"testers\"](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=46044), older Snap by **vejmarie**. (deprecated)
+-   [Discussion   * State of the snap (Snap Packaging)](https   *//forum.freecadweb.org/viewtopic.php?f=42&t=46853), newer version of the Snap by **ppd**. (deprecated)
 
 -   [AppImage](AppImage.md) - another self-contained \'binary\' like format to run FreeCAD
 -   [Flatpak](Flatpak.md)

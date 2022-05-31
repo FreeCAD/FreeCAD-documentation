@@ -51,7 +51,7 @@ but it's not readable or writable by FEniCS</p></td></tr><tr class="even"><td><p
    * Import and export of mesh elements
 
 -   \"NI\" means the element type is not implemented in FreeCAD but the format would support it.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *20px;"> \"-\" means the format specification does not support this element type, thus FreeCAD cannot support it.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width   *20px;"> means the format specification does not support this element type, thus FreeCAD cannot support it.
 -   \"?\" means it is not known if the format supports this element type.
 
 ## FEM element types 

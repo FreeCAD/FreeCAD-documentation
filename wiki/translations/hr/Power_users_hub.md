@@ -1,6 +1,5 @@
-# <img alt="" src=images/Power_user_hub.png  style="width   *64px;"> Power users hub/hr
-
-
+# Power users hub/hr
+{{TOCright}} <img alt="" src=images/Power_user_hub.png  style="width   *64px;">
 
 
 

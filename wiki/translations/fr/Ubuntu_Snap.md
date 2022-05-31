@@ -38,7 +38,7 @@ Pour installer la version de développement de Snap, utilisez   *
 
 
 {{Code|lang=bash|code=
-sudo snap install --edge freecad-ppd
+sudo snap install --edge freecad
 }}
 
 ### Manjaro
@@ -54,7 +54,7 @@ Pour installer la version de développement de Snap, utilisez   *
 
 
 {{Code|lang=bash|code=
-snap install --edge freecad-ppd
+snap install --edge freecad
 }}
 
 ## Remarques
@@ -63,12 +63,12 @@ Pour savoir quelle version de développement est installée, tapez ce qui suit d
 
 
 {{Code|lang=bash|code=
-snap info freecad-ppd
+snap info freecad
 }}
 
 ## Mode avancé 
 
-Les commandes suivantes sont destinées aux utilisateurs qui sont familiers avec git et ont un dépôt cloné localement du dépôt FreeCAD en amont.
+Les commandes suivantes sont destinées aux utilisateurs qui sont familiers avec `git` et ont un dépôt cloné localement du dépôt FreeCAD en amont.
 
 
 {{Code|lang=bash|code=
@@ -88,7 +88,7 @@ Pour traduire la version de développement en cours en un numéro de révision (
 
 
 {{Code|lang=bash|code=
-snap info freecad-ppd <nowiki>|</nowiki>\
+snap info freecad <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
@@ -102,7 +102,7 @@ Pour aller plus loin, si vous voulez un bref résumé des commits entre le snap 
 
 
 {{Code|lang=bash|code=
-snap info freecad-ppd <nowiki>|</nowiki>\
+snap info freecad <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git log --oneline --ancestry-path {}..HEAD
@@ -114,8 +114,8 @@ xargs -I{} git log --oneline --ancestry-path {}..HEAD
 
 Plus d\'informations sur les efforts en cours pour gérer Snaps    *
 
--   [0.19 Snap Preview a besoin de \"testeurs\"](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=46044), ancien Snap de **vejmarie**.
--   [Discussion   * Discussion   * état du composant logiciel Snap (Snap Packaging)](https   *//forum.freecadweb.org/viewtopic.php?f=42&t=46853), version plus récente du Snap par **ppd**.
+-   [0.19 Snap Preview a besoin de \"testeurs\"](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=46044), ancien Snap de **vejmarie**. (obsolète)
+-   [Discussion   * Discussion   * état du composant logiciel Snap (Snap Packaging)](https   *//forum.freecadweb.org/viewtopic.php?f=42&t=46853), version plus récente du Snap par **ppd**. (obsolète)
 
 -   [AppImage](AppImage/fr.md) - un autre format autonome de type \'binaire\' pour exécuter FreeCAD
 -   [Flatpak](Flatpak/fr.md)

@@ -552,7 +552,7 @@ You need the following packages    *
 -   SoQt-devel
 -   freetype
 -   freetype-devel
--   vtk
+-   vtk-devel
 -   med
 -   med-devel
 

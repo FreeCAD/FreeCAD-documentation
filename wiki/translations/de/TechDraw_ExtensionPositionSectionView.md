@@ -18,7 +18,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  s
 <img alt="" src=images/TechDraw_ExtensionPositionSectionViewExample.png  style="width   *400px;"> 
 *Rechts eine ausgerichtete Schnittansicht*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle eine einzelne Schnittansicht.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

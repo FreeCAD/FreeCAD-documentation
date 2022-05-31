@@ -1,6 +1,5 @@
-# <img alt="" src=images/Power_user_hub.png  style="width   *64px;"> Power users hub/es
-
-
+# Power users hub/es
+{{TOCright}} <img alt="" src=images/Power_user_hub.png  style="width   *64px;">
 
 
 

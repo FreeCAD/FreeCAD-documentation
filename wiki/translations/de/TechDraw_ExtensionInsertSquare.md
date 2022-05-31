@@ -17,7 +17,7 @@ Das <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width   *2
 <img alt="" src=images/TechDraw_extensionInsertSquareExample.png  style="width   *500px;"> 
 *Rechts Bemaßungen mit dem eingefügten Symbol*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle eine oder mehrere Bemaßungen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

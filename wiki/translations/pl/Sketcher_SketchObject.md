@@ -1,26 +1,26 @@
 # Sketcher SketchObject/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width   *32px;">
 
-A [Sketcher SketchObject](Sketcher_SketchObject.md), or formally a `Sketcher   *   *SketchObject`, is the base element to create 2D objects with the [Sketcher Workbench](Sketcher_Workbench.md).
+Obiekt [SketchObject](Sketcher_SketchObject/pl.md), lub formalnie `Sketcher   *   *SketchObject`, jest podstawowym elementem do tworzenia obiektów 2D za pomocą środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md).
 
-The `Sketcher   *   *SketchObject` is derived from the [Part Part2DObject](Part_Part2DObject.md), which means it is a [Part Feature](Part_Feature.md) object specialized for 2D geometry. Like the Part2DObject, the SketchObject can be attached to planes and faces. In addition, the SketchObject can handle geometrical constraints.
+Obiekt `Sketcher   *   *SketchObject` wywodzi się z obiektu [Part2DObject](Part_Part2DObject/pl.md), co oznacza, że jest to obiekt [Cecha](Part_Feature/pl.md) wyspecjalizowany dla geometrii 2D. Podobnie jak obiekt Part2DObject, obiekt SketchObject może być dołączany do płaszczyzn i powierzchni. Ponadto obiekt SketchObject może obsługiwać wiązania geometryczne.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
+*Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
-## Usage
+## Użycie
 
-1.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
-2.  Press **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
-3.  Select a **Sketch orientation**   * XY-plane, XZ-plane, or YZ-plane. Optionally also choose **Reverse direction**, and give an **Offset** value.
-4.  Press **OK**.
+1.  Przejdź do środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md).
+2.  Naciśnij przycisk **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Utwórz szkic](Sketcher_NewSketch/pl.md)**.
+3.  Wybierz **orientację szkicu** jako   * Płaszczyzna XY, Płaszczyzna XZ lub Płaszczyzna YZ. Opcjonalnie wybierz także opcję **Odwróć kierunek** i podaj wartość **Odsunięcia**.
+4.  Naciśnij przycisk **OK**.
 
 Although the SketchObject can be used by itself to draw on a plane, it is most commonly used in conjunction with the [PartDesign Workbench](PartDesign_Workbench.md) to create extruded solids.
 
@@ -103,16 +103,16 @@ The Sketcher SketchObject also has the following additional properties in the [p
 
 -    **Tempo Vis|PythonObject|Hidden**   * a custom class associated with this object, that handles hiding and showing other objects when opening and closing the sketch.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
+[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część   * właściwość](Part_Feature/pl.md).
 
-A SketchObject is created with the `addObject()` method of the document.
+Obiekt *SketchObject* jest tworzony za pomocą metody dokumentu `addObject()`.
 
 
 ```python
@@ -123,7 +123,7 @@ obj = App.ActiveDocument.addObject("Sketcher   *   *SketchObject", "Sketch")
 obj.Label = "Custom label"
 ```
 
-For [Python](Python.md) subclassing you should create the `Sketcher   *   *SketchObjectPython` object.
+Dlatego też, dla klasy podrzędnej [Python](Python/pl.md), powinieneś stworzyć obiekt `Sketcher   *   *SketchObjectPython`.
 
 
 ```python

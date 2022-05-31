@@ -1,37 +1,37 @@
-# <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Punkty" src=images/Workbench_Points.svg  style="width   *64px;"> Points Workbench/pl
 
-## Introduction
+## Wprowadzenie
 
 
 {{TOCright}}
 
-The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Workbench](Points_Workbench.md) offers specific tools for working with [point clouds](http://en.wikipedia.org/wiki/Point_cloud). The workbench is still in development.
+Środowisko pracy <img alt="" src=images/Workbench_Points.svg  style="width   *24px;"> [Punkty](Points_Workbench/pl.md) oferuje specjalne narzędzia do pracy z [chmurami punktów](http   *//en.wikipedia.org/wiki/Point_cloud). Środowisko to jest wciąż w fazie rozwoju.
 
-A point cloud is a collection of points in 3D space. A point cloud is generally produced by scanning the surface of a solid object. The cloud of points can then be used for many purposes including building a mesh for the object, reconstructing the surfaces and solid volumes, reverse engineering, as well as for visualization and quality inspection.
+Chmura punktów to zbiór punktów w przestrzeni 3D. Chmura punktów jest zwykle tworzona przez skanowanie powierzchni obiektu bryłowego. Chmurę punktów można następnie wykorzystać do wielu celów, takich jak tworzenie siatki obiektu, rekonstrukcja powierzchni i objętości bryły, inżynieria odwrotna, a także wizualizacja i kontrola jakości.
 
-## Tools
+## Przybory
 
-All Points Workbench tools can be accessed from the **Points** menu. Some tools are also available in the **Points tools** toolbar.
+Wszystkie narzędzia Środowiska pracy **Punkty** są dostępne w menu **Punkty**. Niektóre narzędzia są również dostępne na pasku narzędzi **Narzędzia do punktów**.
 
--   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Convert to points\...](Points_Convert.md): Creates point clouds from shape objects.
+-   <img alt="" src=images/Points_Convert.svg  style="width   *32px;"> [Konwertuj na punkty \...](Points_Convert/pl.md)   * Tworzy chmury punktów z obiektów kształtu.
 
--   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Structured point cloud](Points_Structure.md): Creates a structured point cloud from the points of an existing point cloud.
+-   <img alt="" src=images/Points_Structure.svg  style="width   *32px;"> [Uporządkowana chmura punktów](Points_Structure/pl.md)   * Tworzy uporządkowaną chmurę punktów z punktów istniejącej chmury punktów.
 
--   <img alt="" src=images/Points_Import.svg  style="width:32px;"> [Import points\...](Points_Import.md): Imports a point cloud from a file.
+-   <img alt="" src=images/Points_Import.svg  style="width   *32px;"> [Import punktów \...](Points_Import/pl.md)   * Importuje chmurę punktów z pliku.
 
--   <img alt="" src=images/Points_Export.svg  style="width:32px;"> [Export points\...](Points_Export.md): Exports a point cloud to a file.
+-   <img alt="" src=images/Points_Export.svg  style="width   *32px;"> [Eksport punktów \...](Points_Export/pl.md)   * Eksportuje chmurę punktów do pliku.
 
--   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Cut point cloud](Points_PolyCut.md): Cuts points from point clouds.
+-   <img alt="" src=images/Points_PolyCut.svg  style="width   *32px;"> [Wytnij punkt chmury](Points_PolyCut/pl.md)   * Wycina punkty z chmury punktów.
 
--   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Merge point clouds](Points_Merge.md): Creates a point cloud by combining the points of two or more point clouds.
+-   <img alt="" src=images/Points_Merge.svg  style="width   *32px;"> [Scal chmury punktów](Points_Merge/pl.md)   * Tworzy chmurę punktów przez połączenie punktów z dwóch lub więcej chmur punktów.
 
-## Notes
+## Uwagi
 
--   [Draft](Draft_Workbench.md) commands such as <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Line](Draft_Line.md) and <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline.md) can be used to connect the points in a point cloud. Use <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Draft Snap Endpoint](Draft_Snap_Endpoint.md) to snap to the points.
--   [Python](Python.md) can be used to analyze and process point clouds. See the following forum discussions:
-    -   [Inspecting Point cloud](http://forum.freecadweb.org/viewtopic.php?f=3&t=16098).
-    -   [Fläche aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=15988) (German)
-    -   [Schnitte durch Flächen aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=16103) (German)
+-   Polecenia środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) takie jak <img alt="" src=images/Draft_Line.svg  style="width   *24px;"> [Linia](Draft_Line/pl.md) i <img alt="" src=images/Draft_BSpline.svg  style="width   *24px;"> [Krzywa złożona](Draft_BSpline/pl.md) mogą być używane do łączenia punktów w chmurze punktów. Użyj polecenia <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *24px;"> [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md), aby przyciągnąć się do punktów.
+-   [Python](Python/pl.md) może być użyty do analizy i przetwarzania chmur punktów. Zobacz następujące dyskusje na forum   *
+    -   [Inspekcja chmury Punktów](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=16098).
+    -   [Powierzchnia z pomiarów](http   *//forum.freecadweb.org/viewtopic.php?f=13&t=15988) *(niemiecki)*.
+    -   [Przekroje przez powierzchnie z mierzonych wartości](http   *//forum.freecadweb.org/viewtopic.php?f=13&t=16103) *(niemiecki)*.
 
 
 
@@ -42,7 +42,9 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 
 {{Points Tools navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

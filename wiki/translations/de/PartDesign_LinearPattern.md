@@ -1,131 +1,97 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign LinearPattern
-   Name/de:PartDesign Lineares Muster
-   MenuLocation:PartDesign → Ein Muster anwenden → LinearesMuster
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+- GuiCommand   */de
+   Name   *PartDesign LinearPattern
+   Name/de   *PartDesign LinearPattern
+   MenuLocation   *Part Design → Muster anwenden → Lineares Muster
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
 ---
 
 # PartDesign LinearPattern/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearesMuster'''** Werkzeug erzeugt gleichmäßig verteilte Kopien eines Formelements in einer linearen Richtung.
-
-
-</div>
+Das Werkzeug **LinearesMuster** erzeugt gleichmäßig verteilte Kopien eines Formelements entlang einer geraden Linie oder Kante.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
-\'Oben: Ein L-förmiger KLotz (B), das auf einem Basisklotz (A, auch als *Auflager* bezeichnet) angebracht ist, wird für ein lineares Muster verwendet. Das Ergebnis (C) ist rechts gezeigt.\'\'
+\'\'Oben   * Ein L-förmiger Block (B), der auf einer Grundplatte (A, auch als *Träger* bezeichnet) angebracht ist, wird für ein lineares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.\'\'
 
 ## Anwendung
 
+Um ein Muster zu erstellen   *
 
-<div class="mw-translate-fuzzy">
+1.  Das Formelement (oder mehrere Formelemente {{Version/de|0.19}}) auswählen, das (die) angeordnet werden soll(en).
 
-Um ein Muster zu erstellen:
+2.  Die Schaltfläche **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px">  '''Lineares Muster'''** drücken.
 
-1.  Wähle das Formelement ({{Version/de|0.19}} oder mehrere Formelemente), die gemustert werden sollen.
-2.  Drücke die **[<img src=images/PartDesign_LinearPattern.svg style="width:24px">  '''LinearesMuster'''** Schaltfläche.
-3.  Definiere die **Richtung**. Siehe [Optionen](#Options/de.md).
-4.  Definiere die **Länge** (Abstand) zwischen dem letzten kopierten Auftreten und dem Original Formelement.
-5.  Lege die Anzahl der **Häufigkeiten** fest.
-6.  Wenn du mehrere Formelemente im Muster hast, kann deren Reihenfolge wichtig sein, siehe z.B. das Bild im Abschnitt [PolarMuster Formelement](PartDesign_PolarPattern#Usage/de.md). {{Version/de|0.19}} Du kannst die Reihenfolge ändern, indem du das Formelement in die Liste ziehst, und du siehst das Ergebnis sofort als Vorschau.
-7.  Drücke **OK**.
+3.  Die **Richtung** definieren. Siehe [Optionen](#Options/de.md).
 
+4.  Die **Länge** (Abstand) zwischen dem letzten kopierten Vorkommen und dem originalen Formelement definieren.
 
-</div>
+5.  Die Anzahl der **Vorkommen** festlegen.
 
+6.  Wenn das Muster mehrere Formelemente enthält, kann ihre Reihenfolge wichtig sein, siehe z.B. das Bild im Abschnitt [PolaresMuster, Formelemente ordnen](PartDesign_PolarPattern/de#Anwendung.md). Die Reihenfolge kann geändert werden, indem man das Formelement in der Liste verschiebt, wobei das Ergebnis sofort als Vorschau zu sehen ist {{Version/de|0.19}}.
 
-<div class="mw-translate-fuzzy">
+7.  
+    **OK**drücken.
 
-Zum Hinzufügen oder Entfernen von Formelementen zu einem bestehenden Muster:
+Zum Hinzufügen oder Entfernen von Formelementen zu einem bestehenden Muster   *
 
-1.  Drücke **Formelement hinzufügen**, um ein Formelement hinzuzufügen, das gemustert werden soll. Das Formelement muss in der [3D Ansicht](3D_view/de.md) sichtbar sein:
-    1.  Wechsle in den Modellbaum;
-    2.  Wähle in der Struktur das hinzuzufügende Formelement aus und drücke die **Leertaste**, um es in der [3D Ansicht](3D_view/de.md) sichtbar zu machen;
-    3.  Wechsle zurück zum Aufgabenpaneel;
-    4.  Wähle das Formelement in der 3D Ansicht; es wird der Liste hinzugefügt.
-    5.  Wiederhole diesen Vorgang, um weitere Formelemente hinzuzufügen.
-    6.  Drücke **Formelement entfernen**, um ein Formelement aus der Liste zu entfernen, oder klicke mit der rechten Maustaste auf das Formelement in der Liste und wähle **Entfernen**.
+1.  
+    **Element hinzufügen**drücken, um ein Formelement hinzuzufügen, das gemustert werden soll. Das Formelement muss in der [3D-Ansicht](3D_view/de.md) sichtbar sein   *
 
+    1.  In den Modellbaum wechseln;
 
-</div>
+    2.  Im Baum das hinzuzufügende Formelement auswählen und die **Leertaste** drücken, um es in der [3D-Ansicht](3D_view/de.md) sichtbar zu machen;
+
+    3.  Zum Aufgabenbereich zurück wechseln;
+
+    4.  Das Formelement in der 3D-Ansicht auswählen; es wird der Liste hinzugefügt.
+
+    5.  Diesen Vorgang wiederholen, um weitere Formelemente hinzuzufügen.
+
+    6.  
+        **Element entfernen**
+        
+        drücken, um ein Formelement aus der Liste zu entfernen, oder mit der rechten Maustaste auf das Formelement in der Liste klicken und **Entfernen** auswählen.
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
-![Lineares Muster Parameters in v0.16 und davor.](images/Linearpattern_parameters.png ) ![Lineares Muster Parameter in v0.17 und höher.](images/Linearpattern_parameters_v017.png )
-
-
-</div>
+![Parameter des linearen Musters](images/Linearpattern_parameters_v017.png )
 
 ### Richtung
 
-Bei der Erstellung eines Formelements Lineares Muster bietet der Dialog **LinearMuster Parameter** verschiedene Möglichkeiten die Richtung des Musters auszuwählen.
+Bei der Erstellung eines LinearPattern-Objekts bietet der Dialog **Parameter des Linearen Musters** verschiedene Möglichkeiten, die Richtung des Musters auszuwählen.
 
 #### Horizontale Skizzenachse 
 
-Verwendet die horizontale Skizzenachse für die Richtung.
+Verwendet die horizontale Skizzenachse als Richtung.
 
 #### Vertikale Skizzenachse 
 
-Verwendet die vertikale Skizzenachse für die Richtung.
+Verwendet die vertikale Skizzenachse als Richtung.
 
-#### Flächennormale Skizzenachse 
+#### Senkrecht zur Skizze 
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{VersionPlus/de|0.17}}
-
-Verwendet die Flächennormale Skizzenachse für die Richtung.
-
-
-</div>
+Verwendet die Flächennormale der Skizze als Richtung.
 
 #### Referenz auswählen\... 
 
-
-<div class="mw-translate-fuzzy">
-
-Ermöglicht entweder eine Bezugslinie (DatumLine) oder eine Kante eines Objekts oder eine Linie einer Skizze als Richtungsangabe zu verwenden.
-
-
-</div>
+Ermöglicht eine Bezugslinie (DatumLine), eine gerade Kante eines Objekts oder eine Linie aus einer Skizze als Richtung zu verwenden.
 
 #### Angepasste Skizzenachse 
 
-Wenn die Skizze für das zu wiederholende Muster Konstruktionslinien besitzen, werden diese Konstruktionslinien in dem Dropdown-MenüI als jeweils spezielle Achsen aufgelistet. Die erste Konstruktionslinie wird im Menü als *Konstruktionslinie 1* aufgelistet.
+Wenn die Skizze für das zu wiederholende Muster Konstruktionslinien besitzt, werden diese Konstruktionslinien in dem Dropdown-MenüI als jeweils spezielle Achsen aufgelistet. Die erste Konstruktionslinie wird im Menü als *Konstruktionslinie 1* aufgelistet.
 
 #### Basis (X/Y/Z) Achse 
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{VersionPlus/de|0.17}}
-
-Wähle eine der Standardachsen des Körperursprungs (X, Y oder Z) als Richtung. 
-
-
-</div>
+Eine der Standardachsen (X, Y oder Z) des Körperursprungs als Richtung auswählen. 
 
 ## Einschränkungen
 
 -   Musterformen dürfen einander nicht überlappen, außer im Sonderfall von nur zwei Vorkommen (Original plus eine Kopie)
 -   Alle Musterformen, die die Auflage des Originals nicht überlappen, werden ausgeschlossen. Dies stellt sicher, dass ein PartDesign Formelement immer aus einem einzelnen, verbundenen Festkörper besteht.
--   Die PartDesign Muster sind noch nicht so optimiert wie ihre Draft Gegenstücke. Bei einer größeren Anzahl von Instanzen solltest du daher stattdessen die Verwendung von [Draft Anordnung](Draft_OrthoArray/de.md) in Kombination mit einer booleschen Part Operation in Betracht ziehen. Dies kann größere Änderungen an deinem Modell beinhalten, wenn du PartDesign verlässt, was bedeutet, dass du nicht einfach mit weiteren PartDesign Formelementen im selben Körper fortfahren kannst. Ein Beispiel wird in diesem [Forum Thema](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192) gezeigt.
+-   Die PartDesign Muster sind noch nicht so optimiert wie ihre Draft Gegenstücke. Bei einer größeren Anzahl von Instanzen solltest du daher stattdessen die Verwendung von [Draft Anordnung](Draft_OrthoArray/de.md) in Kombination mit einer booleschen Part Operation in Betracht ziehen. Dies kann größere Änderungen an deinem Modell beinhalten, wenn du PartDesign verlässt, was bedeutet, dass du nicht einfach mit weiteren PartDesign Formelementen im selben Körper fortfahren kannst. Ein Beispiel wird in diesem [Forum Thema](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192) gezeigt.
 -   Eine lineare Anordnung kann nicht direkt auf andere Anordnungen angewendet werden, egal ob sie linear, polar oder eine Spiegelung sind. Dafür benutzt man die Funktion [PartDesign Mehrfach-Transformation erstellen](PartDesign_MultiTransform/de.md).
 -   Für weitere Einschränkungen siehe die Funktion [PartDesign Spiegeln](PartDesign_Mirrored/de.md).
 

@@ -3,9 +3,15 @@
 
 La [Vista report](Report_view/it.md) è un pannello che mostra i messaggi di testo dei processi e degli strumenti di FreeCAD. È disponibile nel menu **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista report}}.
 
+
+<div class="mw-translate-fuzzy">
+
 Alcune proprietà di questo pannello, come il colore del testo e se visualizzarlo automaticamente in caso di avvisi o di errori, possono essere configurate nella scheda **Generali → Output** nell\'[editor delle preferenze](Preferences_Editor/it.md).
 
-<img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
+
+</div>
+
+<img alt="" src=images/FreeCAD_Report_view.png  style="width   *800px;">
 
 
 
@@ -14,7 +20,7 @@ Alcune proprietà di questo pannello, come il colore del testo e se visualizzarl
 ## Messagi
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -30,25 +36,31 @@ La vista report mostra i messaggi della classe interna `Console` di FreeCAD.
 
 Queste funzioni possono essere utilizzate direttamente dalla [console Python](Python_console/it.md), o tramite le [macro](Macros/it.md) e gli ambienti personalizzati.
 
-<img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
+<img alt="" src=images/FreeCAD_Report_view_example.png  style="width   *800px;">
 
 
 
-*Esempio di messaggi nella vista report: un messaggio generale, un avviso, un errore e un messaggio registrato.*
+*Esempio di messaggi nella vista report   * un messaggio generale, un avviso, un errore e un messaggio registrato.*
 
 ## Azioni
 
-Fare clic con il tasto destro sulla vista del report per mostrare alcuni comandi:
 
--    **Opzioni**: registro, avviso, errore, reindirizza l\'output Python, reindirizza gli errori di Python, vai alla fine.
+<div class="mw-translate-fuzzy">
 
--    **Copia**: memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
+Fare clic con il tasto destro sulla vista del report per mostrare alcuni comandi   *
 
--    **Seleziona tutto**: seleziona tutto il testo della vista report.
+-    **Opzioni**   * registro, avviso, errore, reindirizza l\'output Python, reindirizza gli errori di Python, vai alla fine.
 
--    **Pulisci**: cancella tutti i messaggi nella vista report. Ciò è utile se si desidera risolvere uno problema che stampa i messaggi nella vista report e si desidera assicurarsi che non vi siano vecchi messaggi di problemi precedenti.
+-    **Copia**   * memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
 
--    **Salva con nome**: salva i messaggi della vista report in un file di testo.
+-    **Seleziona tutto**   * seleziona tutto il testo della vista report.
+
+-    **Pulisci**   * cancella tutti i messaggi nella vista report. Ciò è utile se si desidera risolvere uno problema che stampa i messaggi nella vista report e si desidera assicurarsi che non vi siano vecchi messaggi di problemi precedenti.
+
+-    **Salva con nome**   * salva i messaggi della vista report in un file di testo.
+
+
+</div>
 
 
 {{Interface navi

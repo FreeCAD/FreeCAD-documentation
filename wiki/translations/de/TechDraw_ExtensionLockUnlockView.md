@@ -15,7 +15,7 @@
 
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width   *24px;"> **TechDraw ErgänzungAnsichtSperrenEntsperren** sperrt oder öffnet die Position einer Ansicht durch Umschalten seiner {{PropertyData/de|Lock Position}}. Eine gesperrte Ansicht hat eine feste Position relativ zur Seite oder Gruppe zu der sie gehört.
 
-## Verwendung
+## Anwendung
 
 1.  Wähle eine einzelne Ansicht.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *

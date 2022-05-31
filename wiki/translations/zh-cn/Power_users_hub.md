@@ -1,6 +1,5 @@
-# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/zh-cn
-
-
+# Power users hub/zh-cn
+{{TOCright}} <img alt="" src=images/Power_user_hub.png  style="width   *64px;">
 
 
 
@@ -15,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任何编译，不需要接触源代码，就可以写脚本，就可以作扩展，可触范围极广。所有的脚本都用[Python](http://en.wikipedia.org/wiki/Python_(programming_language))完成。它是一门强大而简洁的编程语言。有了简洁的Python脚本，你有权触及FreeCAD的任何部分。比如说，你可以：
+FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任何编译，不需要接触源代码，就可以写脚本，就可以作扩展，可触范围极广。所有的脚本都用[Python](http   *//en.wikipedia.org/wiki/Python_(programming_language))完成。它是一门强大而简洁的编程语言。有了简洁的Python脚本，你有权触及FreeCAD的任何部分。比如说，你可以：
 
 -   **创建和修改几何体**：有没有这种情况？你需要的特殊对象，没有出现在FreeCAD的默认安装包里？你可以轻松创建一个新对象类型，既可以写脚本，也可以调配一个已有的类型。
 -   **创建定制的工具和命令**：目前，FreeCAD已经有了很广泛的功能，但是给终端用户的工具和命令还不是很多。不过，你已经可以很容易地创建自己的工具包了。
@@ -28,7 +27,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 <div class="mw-translate-fuzzy">
 
-这些页面还远没有成熟。如果你没找到你要找的信息，或者你在别的地方发现了有用的信息，而我们没有链接在这里，那为什么不[自己添加进来](Help_FreeCAD.md)？同时，请在[论坛](http://forum.freecadweb.org/)留下你的意见。
+这些页面还远没有成熟。如果你没找到你要找的信息，或者你在别的地方发现了有用的信息，而我们没有链接在这里，那为什么不[自己添加进来](Help_FreeCAD.md)？同时，请在[论坛](http   *//forum.freecadweb.org/)留下你的意见。
 
 
 </div>
@@ -38,13 +37,13 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 <div class="mw-translate-fuzzy">
 
--   [界面定制](Interface_Customization.md): 从头开始：工具栏和快捷方式
--   [用宏工作](Macros.md): 轻松录制多遍任务或Python代码
+-   [界面定制](Interface_Customization.md)   * 从头开始：工具栏和快捷方式
+-   [用宏工作](Macros.md)   * 轻松录制多遍任务或Python代码
 -   [宏菜单](Macros_recipes.md)
 -   [定制工具栏](Customize_Toolbars.md)
 -   [安装更多工作台](Installing_more_workbenches.md)
--   [插件装载器](http://forum.freecadweb.org/viewtopic.php?t=10556)
--   [Addons installer.FCMacro](https://github.com/FreeCAD/FreeCAD-addons)
+-   [插件装载器](http   *//forum.freecadweb.org/viewtopic.php?t=10556)
+-   [Addons installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)
 
 
 </div>
@@ -105,7 +104,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 ### 零件类工作
 
--   [零件模块](Part_Workbench.md)：[开源CASCADE技术](http://en.wikipedia.org/wiki/Open_CASCADE)的工具和体系如何用在FreeCAD中。
+-   [零件模块](Part_Workbench.md)：[开源CASCADE技术](http   *//en.wikipedia.org/wiki/Open_CASCADE)的工具和体系如何用在FreeCAD中。
 -   [拓扑数据脚本](Topological_data_scripting.md)：怎样与零件模块交互。
 -   [PythonOCC](PythonOCC.md)：怎样释放开源CASCADE的全部能量。
 -   [网格到零件](Mesh_to_Part.md)：转换对象类型。
@@ -150,10 +149,10 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 </div>
 
--   [Scripted objects](Scripted_objects.md): how to make 100% Python-scripted objects.
-    -   [Scripted objects with attachment](Scripted_objects_with_attachment.md): how to make scripted objects attachable to other objects.
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `__getstate__` and `__setstate__`.
-    -   [Scripted objects migration](Scripted_objects_migration.md): how to migrate old scripted objects to a new class.
+-   [Scripted objects](Scripted_objects.md)   * how to make 100% Python-scripted objects.
+    -   [Scripted objects with attachment](Scripted_objects_with_attachment.md)   * how to make scripted objects attachable to other objects.
+    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md)   * how to save and restore attributes of the proxy class with `__getstate__` and `__setstate__`.
+    -   [Scripted objects migration](Scripted_objects_migration.md)   * how to migrate old scripted objects to a new class.
 
 ### Examples
 
@@ -174,9 +173,9 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 ## API函数
 
-FreeCAD完整的API文档放在http://www.freecadweb.org/api/中。它既有C++也有Python的API，还没有完全格式化好。当你想找只含Python的代码，就会发现那里有点乱。更便于浏览的版本在[这里](:Category_API.md)。注意，它可能并不完整，因为它得用人工更新。要找更精确信息的话，直接在FreeCAD的Python控制台里浏览相应模块吧。
+FreeCAD完整的API文档放在http   *//www.freecadweb.org/api/中。它既有C++也有Python的API，还没有完全格式化好。当你想找只含Python的代码，就会发现那里有点乱。更便于浏览的版本在[这里](   *Category_API.md)。注意，它可能并不完整，因为它得用人工更新。要找更精确信息的话，直接在FreeCAD的Python控制台里浏览相应模块吧。
 
-Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
+Related   * [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 ## 高级修改
 
@@ -201,29 +200,29 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 **Python**
 
--   [官方Python2.7教程](https://docs.python.org/2.7/tutorial/index.html) - 发现Python之旅的完全指南。
--   [非程序员的Python教程](http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python) - 超赞的维基书。
--   [为新手写的Python](http://npt.cc.rsu.ru/user/wanderer/ODP/Python_for_Newbies.htm) - 一本大型指南，涵盖了方方面面的基础内容。
+-   [官方Python2.7教程](https   *//docs.python.org/2.7/tutorial/index.html) - 发现Python之旅的完全指南。
+-   [非程序员的Python教程](http   *//en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python) - 超赞的维基书。
+-   [为新手写的Python](http   *//npt.cc.rsu.ru/user/wanderer/ODP/Python_for_Newbies.htm) - 一本大型指南，涵盖了方方面面的基础内容。
 
 
 </div>
 
 **PySide** - 怎样通过Python创建和管理FreeCAD的Qt用户交互界面。
 
--   [PySide教程](http://zetcode.com/gui/pysidetutorial/)：一个平台不可知论者的教程，通过很多例子，展示PySide的用法。
--   [PySide/PyQt教程](http://www.pythoncentral.io/series/python-pyside-pyqt-tutorial/)：一个PySide和PyQt教程，很容易读，有例子。
--   [PySide文档](http://qt-project.org/wiki/PySideDocumentation)：来自于Qt项目（全部都是那些人写的）。
--   [在PySide里使用QtCreator](http://qt-project.org/wiki/QtCreator_and_PySide)：也是来自于Qt项目。
--   [PySide参考](http://srinikom.github.io/pyside-docs/index.html)：无微不至地详解PySide和Qt的各种小细节，一个可靠的参考源。
--   [PySide代码片段](http://nullege.com/codes/search?cq=PySide)：一个可以搜索的PySide代码片段数据库。
+-   [PySide教程](http   *//zetcode.com/gui/pysidetutorial/)：一个平台不可知论者的教程，通过很多例子，展示PySide的用法。
+-   [PySide/PyQt教程](http   *//www.pythoncentral.io/series/python-pyside-pyqt-tutorial/)：一个PySide和PyQt教程，很容易读，有例子。
+-   [PySide文档](http   *//qt-project.org/wiki/PySideDocumentation)：来自于Qt项目（全部都是那些人写的）。
+-   [在PySide里使用QtCreator](http   *//qt-project.org/wiki/QtCreator_and_PySide)：也是来自于Qt项目。
+-   [PySide参考](http   *//srinikom.github.io/pyside-docs/index.html)：无微不至地详解PySide和Qt的各种小细节，一个可靠的参考源。
+-   [PySide代码片段](http   *//nullege.com/codes/search?cq=PySide)：一个可以搜索的PySide代码片段数据库。
 
 
 <div class="mw-translate-fuzzy">
 
 下面两个参考源，是PyQt特定的（不是PySide），但它们可能给了一些有用的信息：
 
--   [基础PyQt教程](http://www.cs.usfca.edu/~afedosov/qttut/)：一个基于Linux的简短教程，解释了怎样使用PyQt和Qt Designer。
--   [用Python编程Qt应用](http://vizzzion.org/?id=pyqt)：一个更深入的教程，涵盖了用Qt和Python工作的所有方面。
+-   [基础PyQt教程](http   *//www.cs.usfca.edu/~afedosov/qttut/)：一个基于Linux的简短教程，解释了怎样使用PyQt和Qt Designer。
+-   [用Python编程Qt应用](http   *//vizzzion.org/?id=pyqt)：一个更深入的教程，涵盖了用Qt和Python工作的所有方面。
 
 
 </div>
@@ -233,8 +232,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 **Pivy** - 怎样与FreeCAD的3D场景交互
 
--   [基础Pivy教程](http://pivy.coin3d.org/documentation/pycon)：来自官方Pivy站点，非常简单的教程。
--   [介绍Pivy给studierstube](http://www.google.com.br/url?sa=U&start=3&q=http://studierstube.icg.tu-graz.ac.at/doc/pdf/PivyStudierstubeTutorial.pdf&ei=XyC1Sc2wOeCKmQem_eHnBQ&usg=AFQjCNEYhb-0DcUc6OxFVijAe1epBb-4aA)：这份文档算不上是教程，但是它很好地展示了Pivy是怎样工作的。
+-   [基础Pivy教程](http   *//pivy.coin3d.org/documentation/pycon)：来自官方Pivy站点，非常简单的教程。
+-   [介绍Pivy给studierstube](http   *//www.google.com.br/url?sa=U&start=3&q=http   *//studierstube.icg.tu-graz.ac.at/doc/pdf/PivyStudierstubeTutorial.pdf&ei=XyC1Sc2wOeCKmQem_eHnBQ&usg=AFQjCNEYhb-0DcUc6OxFVijAe1epBb-4aA)：这份文档算不上是教程，但是它很好地展示了Pivy是怎样工作的。
 
 
 </div>
@@ -249,7 +248,12 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 </div>
 
--   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
+-   [Scientific literature](Scientific_literature.md)   * articles that reference or use the FreeCAD system in different ways.
+
+
+
+
+[Category   *Hubs](Category_Hubs.md)
 
 
 

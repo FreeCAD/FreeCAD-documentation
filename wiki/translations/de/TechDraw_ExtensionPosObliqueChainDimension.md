@@ -18,7 +18,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.s
 <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimensionExample.png  style="width   *400px;"> 
 *Rechts die als Kette angeordneten Maße*
 
-## Verwendung
+## Anwendung
 
 1.  Wähle zwei oder mehr parallele schräge Maße.
 2.  Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt.

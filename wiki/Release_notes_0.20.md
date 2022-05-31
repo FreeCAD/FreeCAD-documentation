@@ -52,6 +52,17 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 
 ### Known limitations 
 
+#### 32bit Windows 
+
+Already since FreeCAD 0.19 we don\'t officially support 32bit Windows. It might work there but no support is given for these systems.
+
+#### Remote Desktop under Windows 
+
+Depending on the OpenGL graphics capabilities of a computer, it might be that one encounters a crash when running FreeCAD via remote desktop. To fix this upgrade your OpenGL driver. Only if this doesn\'t help   *
+
+-   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
+-   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
+
 ## User interface 
 
 +++
@@ -235,6 +246,8 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | A new command **Create multiple Arch Structure** was also added. It uses the first selected object as a Base, and creates Arch Structures objects for every Edge of the other selected objects. Then, the properties of individual Structure objects can be adjusted in the Property editor. This command was added for workflow with a master Sketch (there is risk of topological naming problem unless you create non-parametric copy of the master Sketch or use Realthunder\'s version) |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                               | Support for **2D data** such as linework, hatches, texts or dimensions is now enabled in IFC import and export, which contributes to turn the IFC format more and more suitable for traditional 2D CAD work. A similar effort is being made in [BlenderBIM](https   *//blenderbim.org). More 2D workflow improvements are documented [in this forum thread](https   *//forum.freecadweb.org/viewtopic.php?p=563067#p563067).                                                                       |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request \#3229](https   *//github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                    |
 +++
 
@@ -291,8 +304,6 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 -   Nonlinear solid materials with simple hardening can now have an arbitrary number of yield points. [Pull request \#5024](https   *//github.com/FreeCAD/FreeCAD/pull/5024)
 -   Allow modal adding/removal of geometric entities to constraints acting on boundaries. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
 -   Most FEM constraint dialogs now behave uniformly and provide the same 3D object selection features. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
-
-## Import
 
 ## Export
 
@@ -391,8 +402,6 @@ There is also a text box for feedback of OpenSCAD errors.
 
 -   FreeCAD now provides the Plot module by default, so any other module/workbench may create plots without requiring external tools [Pull request \#4971](https   *//github.com/FreeCAD/FreeCAD/pull/4971).
 
-## Render Workbench 
-
 ## Sketcher Workbench 
 
    
@@ -436,10 +445,6 @@ There is also a text box for feedback of OpenSCAD errors.
 -   Improved navigation using the **Tab** and **Enter** keys.
 -   Improved interface for cutting and pasting blocks of cells.
 
-## Start Workbench 
-
-## Surface Workbench 
-
 ## TechDraw Workbench 
 
    
@@ -470,6 +475,10 @@ these are the new workbenches created in this development cycle, or older workbe
 ### 3D Printing Tools 
 
 ### A2plus
+
+A2plus got several new features to view, inspect and edit existing constraints. One can this way e.g. highlight constraints with a label, suppress a constraint temporarily or to run the solver only for a particular constraint.
+
+For more information see [the constraint handling description](A2plus_Workbench#Constraint_Handling.md).
 
 ### Assembly3
 

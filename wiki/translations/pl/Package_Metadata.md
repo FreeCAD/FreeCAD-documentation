@@ -177,7 +177,17 @@ Normally a content item is assumed to be located in a subdirectory with the same
 
 REQUIRED for Workbenches
 
-For workbenches, the name of the Python main entry class.
+For workbenches, the name of the Python main entry class. This is the class that FreeCAD will try to load on startup to locate the workbench\'s icon, which should be set as a member variable of the class. For example, if your workbench defines the following class (usually in InitGui.py)   *
+
+
+```python
+class MyNewWB   *
+    Icon = "resources/icon.svg"
+```
+
+then the package.xml file expects   *
+
+    <classname>MyNewWB</classname>
 
 ####  
 

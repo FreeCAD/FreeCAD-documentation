@@ -1,12 +1,11 @@
-# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/ro
-
-
+# Developer hub/ro
+{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;">
 
 
 
 Acesta este locul unde veți veni dacă doriți să contribuiți la dezvoltarea software-ului FreeCAD.
 
-Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informațiile pe care le căutați, sau aveți invormații utile undeva unde nu am făcut link-ul, atunci vă rog lăsați un comentariu pe [forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) și cineva se va uita acole la el (sau, dacă te simți îndrăzneț, de ce să nu editezi direct această pagină!).
+Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informațiile pe care le căutați, sau aveți invormații utile undeva unde nu am făcut link-ul, atunci vă rog lăsați un comentariu pe [forum](http   *//forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) și cineva se va uita acole la el (sau, dacă te simți îndrăzneț, de ce să nu editezi direct această pagină!).
 
 ## Developer Documentation 
 
@@ -15,7 +14,7 @@ Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informa
 
 ## Documentație Dezvoltatori 
 
-Documentația dezvoltatorului a inclus următoarele secțiuni:
+Documentația dezvoltatorului a inclus următoarele secțiuni   *
 
 
 </div>
@@ -25,7 +24,7 @@ Documentația dezvoltatorului a inclus următoarele secțiuni:
 
 <div class="mw-translate-fuzzy">
 
-### Fă-o singur: Compilare FreeCAD 
+### Fă-o singur   * Compilare FreeCAD 
 
 -   [Source code management](Source_code_management.md)
 -   [Find assistance](Tracker.md) când aveți o problemă sau credeți că poate ați găsit un bug
@@ -97,12 +96,12 @@ Documentația dezvoltatorului a inclus următoarele secțiuni:
 
 ### Ghidul deszvoltatorului de Module 
 
-[FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): Aceasta este o carte electronică scrisă pe github. \"Este un proiect colaborativ și sunteți binevenit să adăugați îmbunătățiri\" Vă rugăm să ne trimiteți cererea dvs. de a vă aduce contribuția.
+[FreeCAD Mod Dev Guide](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide)   * Aceasta este o carte electronică scrisă pe github. \"Este un proiect colaborativ și sunteți binevenit să adăugați îmbunătățiri\" Vă rugăm să ne trimiteți cererea dvs. de a vă aduce contribuția.
 
 
 </div>
 
-Capitole:
+Capitole   *
 
 -   Overview and Software Architecture
 -   Source code structure
@@ -115,7 +114,7 @@ Capitole:
 -   Module testing and debugging
 -   Contribute code with git
 
-Cel mai recent preview pdf poate fi descărcat din depozitul: git[pdf folder](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf)
+Cel mai recent preview pdf poate fi descărcat din depozitul   * git[pdf folder](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf)
 
 ### Internals
 
@@ -124,34 +123,34 @@ Cel mai recent preview pdf poate fi descărcat din depozitul: git[pdf folder](ht
 
 ### Documentație OpenCascade 
 
--   [Roman Lygin\'s tutorials](http://opencascade.wikidot.com/romansarticles)
--   [Full Online Documentation](https://dev.opencascade.org/doc/overview/html/index.html)
--   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
--   [The openCascade wiki](http://opencascade.wikidot.com)
+-   [Roman Lygin\'s tutorials](http   *//opencascade.wikidot.com/romansarticles)
+-   [Full Online Documentation](https   *//dev.opencascade.org/doc/overview/html/index.html)
+-   [Reference Manual](https   *//dev.opencascade.org/doc/refman/html/index.html)
+-   [The openCascade wiki](http   *//opencascade.wikidot.com)
 
 
 </div>
 
 OpenCascade is a software development platform for 3D surface and solid modeling, CAD data exchange, and visualization, mostly in the form of C++ libraries.
 
--   [Roman Lygin\'s tutorials](http://opencascade.wikidot.com/romansarticles)
--   [Full Online Documentation](https://dev.opencascade.org/cdoc/overview/html/index.html)
--   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
--   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
+-   [Roman Lygin\'s tutorials](http   *//opencascade.wikidot.com/romansarticles)
+-   [Full Online Documentation](https   *//dev.opencascade.org/cdoc/overview/html/index.html)
+-   [Reference Manual](https   *//dev.opencascade.org/doc/refman/html/index.html)
+-   [The openCascade wiki](http   *//opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
 #### File format 
 
-[File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
+[File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https   *//en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
 
 #### Sketcher solver 
 
--   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
--   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
--   [Recent Several Sketcher improvements](https://forum.freecadweb.org/viewtopic.php?f=9&t=29192).
+-   [Sketcher Solver Architecture Booklet](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https   *//github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
+-   [PlaneGCS solver](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
+-   [Recent Several Sketcher improvements](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192).
 
-The sketcher solver isn\'t perfect, as there are some issues with numerical precision when using large values, see [Adventure of fixing sketcher solver for large sketches](https://forum.freecadweb.org/viewtopic.php?f=10&t=40502).
+The sketcher solver isn\'t perfect, as there are some issues with numerical precision when using large values, see [Adventure of fixing sketcher solver for large sketches](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=40502).
 
-The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
+The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
 ## Roadmap
 
@@ -169,8 +168,8 @@ FreeCAD, deși utilizabilă în anumite domenii, este la începutul unei lungi d
 
 ## Community
 
--   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](irc   *//chat.freenode.net/freecad) ,synchronized with [gitter channel](https   *//gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https   *//forum.freecadweb.org/viewforum.php?f=6)
 
 
 <div class="mw-translate-fuzzy">
@@ -189,6 +188,11 @@ FreeCAD, deși utilizabilă în anumite domenii, este la începutul unei lungi d
 
 
 </div>
+
+
+
+
+[Category   *Hubs](Category_Hubs.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

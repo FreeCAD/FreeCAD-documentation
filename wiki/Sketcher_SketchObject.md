@@ -7,7 +7,7 @@ A [Sketcher SketchObject](Sketcher_SketchObject.md), or formally a `Sketcher   *
 
 The `Sketcher   *   *SketchObject` is derived from the [Part Part2DObject](Part_Part2DObject.md), which means it is a [Part Feature](Part_Feature.md) object specialized for 2D geometry. Like the Part2DObject, the SketchObject can be attached to planes and faces. In addition, the SketchObject can handle geometrical constraints.
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
+ <img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;"> 
 
 
 

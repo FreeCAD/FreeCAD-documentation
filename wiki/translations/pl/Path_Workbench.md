@@ -166,52 +166,52 @@ Niektóre polecenia są eksperymentalne i nie są domyślnie dostępne. Aby je w
 
 ### Różności
 
--   <img alt="" src=images/Path_Area.svg  style="width   *32px;"> [Area](Path_Area.md)   * Creates a feature area from selected objects. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Area.svg  style="width   *32px;"> [Obszar](Path_Area/pl.md)   * Tworzy obszar charakterystyczny z wybranych obiektów. [**funkcja eksperymentalna**](Path_experimental/pl.md).
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width   *32px;"> [Area workplane](Path_Area_Workplane.md)   * Creates a feature area workplane. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width   *32px;"> [Obszar płaszczyzny roboczej](Path_Area_Workplane/pl.md)   * Tworzy płaszczyznę roboczą obszaru cechy. [**funkcja eksperymentalna**](Path_experimental/pl.md).
 
-### Obsolete
+### Przestarzałe
 
--   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width   *32px;"> [Tool Manager](Path_ToolLibraryEdit.md)   * Edit the Tool Manager. \'Legacy\' tool system. {{VersionMinus|0.18}}
+-   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width   *32px;"> [Menadżer narzędzi](Path_ToolLibraryEdit/pl.md)   * Edycja Menedżera narzędzi. Starszy system narzędziowy. {{VersionMinus/pl|0.18}}
 
-## ToolBit architecture 
+## Noże tokarskie, architektura 
 
-Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
+Umożliwia zarządzanie narzędziami, nożami tokarskimi i biblioteką narzędzi. Oparte na architekturze noży tokarskich. {{Version/pl|0.19}}
 
--   [Path Tools](Path_Tools.md)
--   [Path ToolShape](Path_ToolShape.md)
--   [Path ToolBit](Path_ToolBit.md)
--   [Path ToolBit Library](Path_ToolBit_Library.md)
--   [Path ToolController](Path_ToolController.md)
+-   [Narzędzia](Path_Tools/pl.md)
+-   [Profil narzędzia](Path_ToolShape/pl.md)
+-   [Noże tokarskie](Path_ToolBit/pl.md)
+-   [Biblioteka narzędzi](Path_ToolBit_Library/pl.md)
+-   [Kontroler narzędzi](Path_ToolController/pl.md)
 
-## Other
+## Pozostałe
 
--   [Path FAQ](Path_FAQ.md)   * The Path Workbench shares many concepts with other CAM software packages but has its own peculiarities. If something seems wrong this is a good place to start.
--   [Path SetupSheet](Path_SetupSheet.md)   * You can use a SetupSheet to customize how various property values for operations are calculated.
--   [Path Postprocessor Customization](Path_Postprocessor_Customization.md)   * If you have a special machine which cannot use one of the available post-processors you may need to write your own post-processor.
--   [Path fourth axis](Path_fourth_axis.md)   * Experimental four axis milling.
+-   [Często zadawane pytania](Path_FAQ/pl.md)   * Środowisko Path ma wiele wspólnych koncepcji z innymi pakietami oprogramowania CAM, ale ma też swoje własne cechy szczególne. Jeśli coś wydaje się nie tak, to jest to dobre miejsce, aby zacząć.
+-   [Karta konfiguracji](Path_SetupSheet/pl.md)   * Można użyć arkusza ustawień, aby dostosować sposób obliczania różnych wartości właściwości dla operacji.
+-   [Dostosowywanie przetwarzania końcowego](Path_Postprocessor_Customization/pl.md)   * Jeśli masz specjalną maszynę, która nie może używać jednego z dostępnych postprocesorów, może być konieczne napisanie własnego postprocesora.
+-   [Oś czwarta](Path_fourth_axis/pl.md)   * Eksperymentalne frezowanie w czterech osiach.
 
-## Preferences
+## Ustawienia
 
--   <img alt="" src=images/Preferences-path.svg  style="width   *32px;"> [Preferences\...](Path_Preferences.md)   * Preferences available for the Path Workbench.
+-   <img alt="" src=images/Preferences-path.svg  style="width   *32px;"> [Ustawienia](Path_Preferences/pl.md)   * Preferencje dostępne dla środowiska pracy Path.
 
-## Scripting
+## Tworzenie skryptów 
 
-See [Path scripting](Path_scripting.md).
+Zobacz również   * [skrypty dla środowiska Path](Path_scripting/pl.md)
 
-## Tutorials
+## Poradniki
 
--   [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md)   * a quick tutorial to get familiar with Path.
+-   [opis dla niecierpliwych](Path_Walkthrough_for_the_Impatient/pl.md)   * krótki samouczek pozwalający zapoznać się ze środowiskiem pracy Path.
 
-## Videos
+## Filmy
 
--   [FreeCAD Path   * Custom paths with Python - Part 1 - 5](https   *//www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL)   * a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
--   [FreeCAD CAM Path Workbench](https   *//www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC)   * a playlist with a series of 7 videos in English by CAD CAM Lessons.
--   [FreeCAD CAM CNC](https   *//www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
+-   [FreeCAD Path   * Niestandardowe ścieżki z Pythonem - część 1 - 5](https   *//www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL)   * lista odtwarzania z serią 5 filmów w języku angielskim autorstwa Sliptonic. Seria ta pokazuje, jak pracować ze środowiskiem [Path](Path_Workbench/pl.md).
+-   [FreeCAD CAM Path Workbench](https   *//www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC)   * lista odtwarzania z serią 7 filmów w języku angielskim przygotowana przez CAD CAM Lessons.
+-   [FreeCAD CAM CNC](https   *//www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ)   * lista odtwarzania z serią 8 filmów w języku angielskim przygotowana przez CAD CAM Lessons.
 
-## Roadmap
+## Plan rozwoju 
 
--   [Path Development Roadmap](Path_Development_Roadmap.md)   * Read this if you are a developer and want to contribute to Path.
+-   [Path Development Roadmap](Path_Development_Roadmap.md)   * Przeczytaj ten artykuł, jeśli jesteś programistą i chcesz przyczynić się do rozwoju środowiska Path.
 
 
 

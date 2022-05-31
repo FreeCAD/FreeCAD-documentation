@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:Part SectionCut
-   Name/pl:Część: Wycinek przekroju
-   MenuLocation:Widok → Wycinek z przekroju
-   Workbenches:All
-   Version:0.20
-   SeeAlso:[[Std_ToggleClipPlane/pl]]
+- GuiCommand   *
+   Name   *Part SectionCut
+   Name/pl   *Część   * Wycinek przekroju
+   MenuLocation   *Widok → Wycinek z przekroju
+   Workbenches   *All
+   Version   *0.20
+   SeeAlso   *[[Std_ToggleClipPlane/pl]]
 ---
 
 # Part SectionCut/pl
@@ -14,7 +14,7 @@
 
 Funkcja **Wycinek przekroju** jest dostępna dla wszystkich środowisk pracy, choć działa tylko dla obiektów Część i Projekt Części oraz ich złożeń. Tworzy ona trwałe przecięcie obiektów i złożeń. Ponieważ wynik cięcia jest normalnym obiektem [wycięcia](Part_Cut/pl.md) środowiska Część, może być dalej modyfikowany lub np. drukowany na drukarce 3D. Zobacz poniżej możliwe zastosowania.
 
-<img alt="" src=images/Part_SectionCut_example.png  style="width:300px;"> 
+<img alt="" src=images/Part_SectionCut_example.png  style="width   *300px;"> 
 *Przekrój złożenia. Niektóre przecięte powierzchnie zostały ręcznie pokolorowane. Żółta część nie jest cięta, ponieważ została celowo przesunięta o jeden mikron w głąb innej części.*
 
 ## Użycie
@@ -35,7 +35,7 @@ Po usunięciu zaznaczenia wszystkich opcji **Wycinania** uaktywnia się przycisk
 
 Jeśli zaznaczona jest opcja **Auto** w sekcji powierzchni cięcia, dla powierzchni cięcia zostanie przyjęty kolor i przezroczystość wyciętych obiektów. Działa to tylko wtedy, gdy wszystkie wycięte obiekty mają taką samą wartość parametru barwy lub przezroczystości.
 
-**Uwaga:** W przypadku złożeń suwaki w oknie dialogowym są wyłączone *(z wyjątkiem suwaka przezroczystości)*. Powodem tego jest fakt, że przesunięcie suwaka powoduje wykonanie wielu operacji cięcia w krótkim czasie. W przypadku złożeń szybko zużywa to całą moc procesora, a ciągłe przesuwanie suwaka nie jest użyteczne.
+**Uwaga   *** W przypadku złożeń suwaki w oknie dialogowym są wyłączone *(z wyjątkiem suwaka przezroczystości)*. Powodem tego jest fakt, że przesunięcie suwaka powoduje wykonanie wielu operacji cięcia w krótkim czasie. W przypadku złożeń szybko zużywa to całą moc procesora, a ciągłe przesuwanie suwaka nie jest użyteczne.
 
 Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialogowego Wycinek przekroju, pozycje przekroju zostaną wczytane do okna dialogowego.
 
@@ -46,15 +46,15 @@ Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialog
 -   Ograniczenie polegające na tym, że można wycinać tylko te części, które nie przecinają się wzajemnie (patrz poniżej), można użyć jako testu kolizji.
 -   Funkcja Wycinek przekroju może być używana w rysunkach technicznych w celu wyróżnienia pewnych obszarów lub umożliwienia narysowania wymiarów. Poniższy obrazek pokazuje przykład, w którym użyto funkcji środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) takich jak [Aktywny widok](TechDraw_ActiveView/pl.md) i [Widok](TechDraw_View/pl.md).
 
-<img alt="" src=images/Part_SectionCut_TD-example.png  style="width:400px;"> 
+<img alt="" src=images/Part_SectionCut_TD-example.png  style="width   *400px;"> 
 *Rysunek techniczny, na którym zaprezentowano wynik działania funkcji. ''(Kliknij obrazek, aby uzyskać pełny rozmiar)''.*
 
 ## Specjalne pozycje cięcia 
 
-<img alt="Ukośne przecięcie złożenia." src=images/Part_SectionCut_slant-cut.png  style="width:200px;">
+<img alt="Ukośne przecięcie złożenia." src=images/Part_SectionCut_slant-cut.png  style="width   *200px;">
 
 -   Na przykład na pierwszym rysunku na tej stronie wycięto tylko jedną czwartą złożenia. Zostało to wykonane przez utworzenie cięcia w kierunku X. Następnie w wynikowym obiekcie cięcia **SectionCutX** zmieniono [umiejscowienie](Placement/pl.md) obiektu podrzędnego **SectionCutBoxX**\'.
--   Aby uzyskać cięcie w dowolnym kierunku, możesz zrobić tak:
+-   Aby uzyskać cięcie w dowolnym kierunku, możesz zrobić tak   *
 
 1.  Utwórz nową zawartość [części](Std_Part/pl.md).
 2.  W widoku drzewa zaznacz wszystkie obiekty, które chcesz przeciąć i przenieś je do zawartości.
@@ -65,10 +65,10 @@ Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialog
 
 ## Ograniczenia
 
-<img alt="Złożenie, w którym dwie części krzyżują się ze sobą i dlatego nie są przecięte. Zwróć uwagę na artefakty kolorystyczne na powierzchni przecięcia." src=images/Part_SectionCut_Color-artifact.png  style="width:200px;">
+<img alt="Złożenie, w którym dwie części krzyżują się ze sobą i dlatego nie są przecięte. Zwróć uwagę na artefakty kolorystyczne na powierzchni przecięcia." src=images/Part_SectionCut_Color-artifact.png  style="width   *200px;">
 
--   **Ważne:** Funkcja wycinania przekroju źle działa z [OpenCASCADE](OpenCASCADE/pl.md) 7.4 i starszym z powodu błędów. Dlatego zalecane jest używanie OpenCASCADE 7.5 lub nowszego *(wszystkie wersje FreeCAD 0.20 to zapewniają)*.
--   Na złożeniach części, które wzajemnie na siebie nachodzą, nie są możliwe przecięcia. Zazwyczaj elementy wzajemnie na siebie nachodzące nie są cięte, podczas gdy pozostałe są cięte. Jednakże, czasami cięcie może dać dziwne rezultaty, co jest błędem w bibliotekach OpenCASCADE. Aby uzyskać widok przekroju również dla przecinających się obiektów, można użyć makrodefinicji [Przekrój](Macro_cross_section/pl.md).
+-   **Ważne   *** Funkcja wycinania przekroju źle działa z [OpenCASCADE](OpenCASCADE/pl.md) 7.4 i starszym z powodu błędów. Dlatego zalecane jest używanie OpenCASCADE 7.5 lub nowszego *(wszystkie wersje FreeCAD 0.20 to zapewniają)*.
+-   Na złożeniach części, **które wzajemnie na siebie nachodzą**, nie są możliwe przecięcia. Zazwyczaj elementy wzajemnie na siebie nachodzące nie są cięte, podczas gdy pozostałe są cięte. Jednakże, czasami cięcie może dać dziwne rezultaty, co jest błędem w bibliotekach OpenCASCADE. Aby uzyskać widok przekroju również dla przecinających się obiektów, można użyć makrodefinicji [Przekrój](Macro_cross_section/pl.md).
 -   Szczególnie w przypadku korzystania ze środowiska pracy [A2plus](A2plus_Workbench/pl.md) niektóre złożenia mogą nachodzić na siebie zaledwie o mikron z powodu wewnętrznych błędów zaokrąglania. Aby to naprawić, dodaj mikron jako odstęp w ustawieniach wiązań.
 -   W wyniku cięcia mogą pojawić się artefakty kolorystyczne. Czy i w jaki sposób zależą one od biblioteki OpenCASCADE, a także od położenia widoku. W wielu przypadkach artefakty kolorystyczne znikają po lekkim obróceniu widoku 3D.
 -   Jeśli przecięte obiekty mają różne kolory, nie jest możliwe automatyczne zastosowanie ich koloru do odpowiednich powierzchni cięcia. Wszystkie wycięte powierzchnie otrzymają ten sam kolor, który został wybrany w oknie dialogowym.
@@ -79,7 +79,7 @@ Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialog
 
 ## Informacje ogólne 
 
-Funkcja **Wycinek z przekroju** została zainspirowana makrodefinicją [Przekrój](Macro_cross_section/pl.md) i działa technicznie w ten sposób:
+Funkcja **Wycinek z przekroju** została zainspirowana makrodefinicją [Przekrój](Macro_cross_section/pl.md) i działa technicznie w ten sposób   *
 
 Wszystkie widoczne obiekty umieszcza się w kontenerze [złożenia](Part_Compound/pl.md), a następnie rozcina się go za pomocą obiektu [prostopadłościanu](Part_Box/pl.md). Prostopadłościan musi być tak duży, aby objął całą objętość wszystkich widocznych obiektów. Aby to osiągnąć, pobierane jest ramka otaczającej obiektów. Podczas zmiany widoku przez dodanie / usunięcie obiektów lub zmianę dokumentu należy zaktualizować ramkę. Odbywa się to po kliknięciu przycisku **Odśwież widok**.
 
