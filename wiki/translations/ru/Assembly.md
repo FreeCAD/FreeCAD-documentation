@@ -8,11 +8,11 @@
 
 Например, болт, шайба и гайка - это три отдельных тела, которые при соединении составляют сборку.
 
-<img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
+<img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width   *" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width   *" height="200px;">
 
 
 
-*Слева: три отдельных смежных тела, каждое из которых моделируется как [тела PartDesign](PartDesign_Body/ru.md). Справа: три отдельных тела, собранных вместе внутри [Std Part](Std_Part/ru.md) для создания сборки.*
+*Слева   * три отдельных смежных тела, каждое из которых моделируется как [тела PartDesign](PartDesign_Body/ru.md). Справа   * три отдельных тела, собранных вместе внутри [Std Part](Std_Part/ru.md) для создания сборки.*
 
 ## Применение
 
@@ -26,7 +26,7 @@
 Для позиционирования тел в нужные места, Вы можете
 
 -   использовать инструмент [Преобразовать](Std_Transform/ru.md), или
--   использовать диалоговое окно [1](File:Std_Placement.svg%7C16px)\] \[\[Std\_Placement/ru\|Расположение\], или
+-   использовать диалоговое окно [1](File   *Std_Placement.svg%7C16px)\] \[\[Std\_Placement/ru\|Расположение\], или
 -   менять параметр [placement](Placement/ru.md) в [редакторе свойств](property_editor/ru.md).
 
 
@@ -34,11 +34,11 @@
 
 Вы можете использовать один из псевдо-сборочных [внешних верстаков](external_workbenches/ru.md), вроде Lattice2, Manipulator, Part-o-magic или WorkFeature, чтобы помочь себе найти пересечения, померить расстояния и распределить ваши объекты нужным образом.
 
-Вообще, объекты **[<img src=images/Std_Part.svg style="width:16px"> [Создать деталь (Std Part)](Std_Part/ru.md)** спроектированы для использования как базовые строительные блоки для получения сборок. Эти объекты используются для группировки нескольких [тел](body/ru.md) и движения их вместе как узел, то есть под-сборка. Затем эта под-сборка может быть поставлена к, или использована внутри других под-сборок, чтобы создать финальную сборку.
+Вообще, объекты **[<img src=images/Std_Part.svg style="width   *16px"> [Создать деталь (Std Part)](Std_Part/ru.md)** спроектированы для использования как базовые строительные блоки для получения сборок. Эти объекты используются для группировки нескольких [тел](body/ru.md) и движения их вместе как узел, то есть под-сборка. Затем эта под-сборка может быть поставлена к, или использована внутри других под-сборок, чтобы создать финальную сборку.
 
 ### Сборка с ограничениями 
 
-Вы можете так же использовать специализированный верстак для сборок, вроде <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/ru.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/ru.md) или <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/ru.md). Пожалуйста, учтите, что [Assembly2](Assembly2_Workbench/ru.md) больше не поддерживается, и не рекомендован для новых моделей.
+Вы можете так же использовать специализированный верстак для сборок, вроде <img alt="" src=images/A2p_workbench.svg  style="width   *24px;"> [A2plus](A2plus_Workbench/ru.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *24px;"> [Assembly3](Assembly3_Workbench/ru.md) или <img alt="" src=images/Assembly4_workbench_icon.svg  style="width   *24px;"> [Assembly4](Assembly4_Workbench/ru.md). Пожалуйста, учтите, что [Assembly2](Assembly2_Workbench/ru.md) больше не поддерживается, и не рекомендован для новых моделей.
 
 Верстаки для сборок используют ограничения и выражения для создания отношений между объектами в Вашей модели, чтобы математически привязать объекты к месту, например, \"эта плоскость должна прилипнуть к другой плоскости\", \"этот цилиндр должен быть по одной оси с этой окружностью\", \"эта точка должна быть на этой кромке\" и так далее.
 
@@ -55,7 +55,9 @@
 
 {{Std Base navi
 
-}} {{Document objects navi}}
+}} {{Document objects navi}} 
+
+[Category   *Glossary](Category_Glossary.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_Redo
-   Name/it:Ripristina
-   MenuLocation:Modifica → Ripristina
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**Y**
-   SeeAlso:[Annulla](Std_Undo/it.md)
+- GuiCommand   */it
+   Name   *Std_Redo
+   Name/it   *Ripristina
+   MenuLocation   *Modifica → Ripristina
+   Workbenches   *Tutti
+   Shortcut   ***Ctrl**+**Y**
+   SeeAlso   *[Annulla](Std_Undo/it.md)
 ---
 
 # Std Redo/it
@@ -16,10 +16,10 @@ Il comando **Ripristina** inverte l\'azione del comando [Annulla](Std_Undo/it.md
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_Redo.svg" width=16px> Ripristina**.
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Redo.svg" width=16px> Ripristina** dal menu.
-    -   Usare la scorciatoia da tastiera: **Ctrl**+**Y**.
+    -   Usare la scorciatoia da tastiera   * **Ctrl**+**Y**.
 
 ## Opzioni
 
@@ -33,7 +33,7 @@ Il comando **Ripristina** inverte l\'azione del comando [Annulla](Std_Undo/it.md
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

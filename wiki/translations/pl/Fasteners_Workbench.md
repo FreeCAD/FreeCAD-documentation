@@ -221,6 +221,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN podkładka, seria szeroka.
 
+-   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
+
 ### Nakrętki
 
 -   <img alt="" src=images/Fasteners_ISO4032.svg  style="width   *32px;"> **ISO 4032** Nakrętka sześciokątna, styl 1. *Klasy produktów A i B.*.

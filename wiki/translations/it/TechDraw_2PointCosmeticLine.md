@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw_2PointCosmeticLine
-   Name/it:Linea tra 2 punti
-   Icon:TechDraw-line2points.svg
-   MenuLocation:TechDraw → Aggiungi linee → Linea tra 2 punti
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Linea a centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *TechDraw_2PointCosmeticLine
+   Name/it   *Linea tra 2 punti
+   Icon   *TechDraw-line2points.svg
+   MenuLocation   *TechDraw → Aggiungi linee → Linea tra 2 punti
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Linea a centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md)
+   Version   *0.19
 ---
 
 # TechDraw 2PointCosmeticLine/it
@@ -18,7 +18,7 @@
 
 Lo strumento **Linea tra 2 punti** aggiunge una linea cosmetica tra due vertici (punti). I vertici possono essere 2d o 3d. La linea risultante può essere utilizzata per il dimensionamento. L\'aspetto della linea può essere modificato utilizzando lo strumento [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md).
 
-<img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
+<img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
 
 
 
@@ -55,7 +55,7 @@ Cosmetic lines have no properties of their own, as they are not document objects
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

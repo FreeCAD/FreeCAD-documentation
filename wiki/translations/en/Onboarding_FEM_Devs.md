@@ -96,11 +96,11 @@ The FEM code lives in `src/Mod/Fem`
 
 ### Coding Conventions 
 
-Please see [coding\_conventions.md](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) file on the FreeCAD repository.
+Please see [coding\_conventions.md](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) file on the FreeCAD repository.
 
 ## Adding New FEM Solvers 
 
-A new FEM solver requires the following:
+A new FEM solver requires the following   *
 
 -   Mesh exporter
 -   Results importer
@@ -111,12 +111,12 @@ A new FEM solver requires the following:
 -   A solver input writing unit test. Best to take the ccx cantilever. This is available for all mesh element types
 -   Having one or two beers
 
-See also:
+See also   *
 
 -   [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
 -   [Extend FEM Module](Extend_FEM_Module.md)
--   The implementation efforts of the [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem) solver
--   The implementation efforts of the \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\] solver
+-   The implementation efforts of the [oofem](https   *//github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem) solver
+-   The implementation efforts of the \[<https   *//github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\] solver
 
 ## Writing Unit Tests 
 
@@ -130,11 +130,13 @@ TBD
 
 ## Related
 
--   FEM bugs in the [FreeCAD bugtracker](https://tracker.freecadweb.org/set_project.php?project_id=4;14)
--   Open FEM [FIXME](https://github.com/FreeCAD/FreeCAD/search?q=FIXME+AND+fem) comments in the FreeCAD source code
--   Open FEM [TODO](https://github.com/FreeCAD/FreeCAD/search?q=TODO+AND+fem) comments in the FreeCAD source code
--   [Original thread discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=60574) for this wiki page
+-   FEM bugs in the [FreeCAD bugtracker](https   *//tracker.freecadweb.org/set_project.php?project_id=4;14)
+-   Open FEM [FIXME](https   *//github.com/FreeCAD/FreeCAD/search?q=FIXME+AND+fem) comments in the FreeCAD source code
+-   Open FEM [TODO](https   *//github.com/FreeCAD/FreeCAD/search?q=TODO+AND+fem) comments in the FreeCAD source code
+-   [Original thread discussion](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=60574) for this wiki page
 -   [FEM Workbench](FEM_Workbench.md)
+
+[Category   *FEM](Category_FEM.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

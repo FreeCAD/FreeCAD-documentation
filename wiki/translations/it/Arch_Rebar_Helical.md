@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch Rebar Helical
-   Name/it:Armatura elicoidale
-   MenuLocation:Arch → Strumenti armatura → Armatura elicoidale o 3D/BIM → Reinforcement → Helical Rebar
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Staffa armatura](Arch_Rebar_Stirrup/it.md), [Rinforzo di pilastro](Arch_Rebar_ColumnReinforcement/it.md)
-   Version:0.17
+- GuiCommand   */it
+   Name   *Arch Rebar Helical
+   Name/it   *Armatura elicoidale
+   MenuLocation   *Arch → Strumenti armatura → Armatura elicoidale o 3D/BIM → Reinforcement → Helical Rebar
+   Workbenches   *[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso   *[Staffa armatura](Arch_Rebar_Stirrup/it.md), [Rinforzo di pilastro](Arch_Rebar_ColumnReinforcement/it.md)
+   Version   *0.17
 ---
 
 # Arch Rebar Helical/it
@@ -22,13 +22,13 @@ Lo strumento **Armatura elicoidale** è anche integrato in [BIM](BIM_Workbench/i
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
 
 
-:   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
+   *   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width   *80px;">
 
 
 
@@ -57,7 +57,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 10. Cliccare **Annulla** per uscire dal pannello delle azioni.
 
-:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
+   *   <img alt="" src=images/HelicalRebarDialog.png  style="width   *250px;">
 
 
 
@@ -65,24 +65,24 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 ## Proprietà
 
--    {{PropertyData/it|Side Cover}}: La distanza tra l\'armatura e la faccia curva.
+-    {{PropertyData/it|Side Cover}}   * La distanza tra l\'armatura e la faccia curva.
 
--    {{PropertyData/it|Bottom Cover}}: La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
+-    {{PropertyData/it|Bottom Cover}}   * La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
 
--    {{PropertyData/it|Top Cover}}: La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
+-    {{PropertyData/it|Top Cover}}   * La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
 
--    {{PropertyData/it|Pitch}}: Il passo dell\'elica, che è l\'altezza di un giro completo di elica, misurato parallelo all\'asse dell\'elica.
+-    {{PropertyData/it|Pitch}}   * Il passo dell\'elica, che è l\'altezza di un giro completo di elica, misurato parallelo all\'asse dell\'elica.
 
--    {{PropertyData/it|Diameter}}: Diametro della barra elicoidale.
+-    {{PropertyData/it|Diameter}}   * Diametro della barra elicoidale.
 
 ## Scripting
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura elicoidale può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento Armatura elicoidale può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 ```python
@@ -114,7 +114,7 @@ Rebar = HelicalRebar.makeHelicalRebar(10, 50, 8, 50, 50, structure, "Face2")
 
 ### Modifica delle barre 
 
-È possibile modificare le proprietà dell\'armatura con la seguente funzione:
+È possibile modificare le proprietà dell\'armatura con la seguente funzione   *
 
 
 ```python
@@ -142,6 +142,11 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

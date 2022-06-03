@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std ShowObjects
-   Name/it:Std ShowObjects
-   Empty:1
-   MenuLocation:Visualizza → Visibilità → Mostra tutti gli oggetti
-   Workbenches:Tutti
-   SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
+- GuiCommand   */it
+   Name   *Std ShowObjects
+   Name/it   *Std ShowObjects
+   Empty   *1
+   MenuLocation   *Visualizza → Visibilità → Mostra tutti gli oggetti
+   Workbenches   *Tutti
+   SeeAlso   *[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
 ---
 
 # Std ShowObjects/it
@@ -29,7 +29,7 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

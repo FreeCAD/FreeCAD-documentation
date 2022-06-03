@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Std DrawStyle
-   Name/ru:Std DrawStyle
-   MenuLocation:Вид → Стиль представления → ...
-   Workbenches:All
-   Shortcut:**V** **1** - **V** **7**
-   SeeAlso:[Std SelBoundingBox](Std_SelBoundingBox/ru.md)
+- GuiCommand   */ru
+   Name   *Std DrawStyle
+   Name/ru   *Std DrawStyle
+   MenuLocation   *Вид → Стиль представления → ...
+   Workbenches   *All
+   Shortcut   ***V** **1** - **V** **7**
+   SeeAlso   *[Std SelBoundingBox](Std_SelBoundingBox/ru.md)
 ---
 
 # Std DrawStyle/ru
@@ -16,18 +16,18 @@ The **Std DrawStyle** command can override the effect of the **Display Mode** [p
 
 ## Применение
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Click on the black down arrow to the right of the **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Std DrawStyle](Std_DrawStyle.md)** button and select a style from the flyout.
     -   In the menu go to **View → Draw style** and select a style.
     -   In the [3D view](3D_view.md) context menu go to **Draw style** and select a style.
-    -   Use one of the keyboard shortcut: **V** then **1**, **2**, **3**, **4**, **5**, **6** or **7**.
+    -   Use one of the keyboard shortcut   * **V** then **1**, **2**, **3**, **4**, **5**, **6** or **7**.
 
 ## Available draw styles 
 
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> Как есть 
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *32px;"> Как есть 
 
 
 </div>
@@ -35,12 +35,12 @@ The **Std DrawStyle** command can override the effect of the **Display Mode** [p
 The **As is** style does not override the **Display Mode** of objects.
 
 ![](images/Std_DrawStyleAsIs_example.png ) 
-*4 identical objects each with a different Display Mode (from left to right: 'Points', 'Wireframe', 'Shaded' and 'Flat lines') with the 'As is' draw style applied*
+*4 identical objects each with a different Display Mode (from left to right   * 'Points', 'Wireframe', 'Shaded' and 'Flat lines') with the 'As is' draw style applied*
 
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> Точки 
+### <img alt="" src=images/Std_DrawStylePoints.svg  style="width   *32px;"> Точки 
 
 
 </div>
@@ -53,7 +53,7 @@ The **Points** style overrides the **Display Mode** of objects. This style match
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> Каркас 
+### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *32px;"> Каркас 
 
 
 </div>
@@ -66,7 +66,7 @@ The **Wireframe** style overrides the **Display Mode** of objects. This style ma
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> Скрытые линии 
+### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width   *32px;"> Скрытые линии 
 
 
 </div>
@@ -79,7 +79,7 @@ The **Hidden line** style overrides the **Display Mode** of objects. Objects are
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> Без затенения 
+### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width   *32px;"> Без затенения 
 
 
 </div>
@@ -89,7 +89,7 @@ The **No shading** style overrides the **Display Mode** of objects. Vertices, ed
 ![](images/Std_DrawStyleNoShading_example.png ) 
 *The same objects with the 'No shading' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Shaded 
+### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width   *24px;"> Shaded 
 
 The **Shaded** style overrides the **Display Mode** of objects. This style matches the \'Shaded\' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
 
@@ -99,7 +99,7 @@ The **Shaded** style overrides the **Display Mode** of objects. This style match
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> Плоские линии 
+### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width   *32px;"> Плоские линии 
 
 
 </div>
@@ -112,7 +112,7 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 ## Примечания
 
 -   Objects in a [3D view](3D_view.md) also have a **Draw Style** property. This property controls the linetype used for the edges. The Std DrawStyle command does not override this property.
--   For a macro to toggle between two draw styles see: [Macro Toggle Drawstyle](Macro_Toggle_Drawstyle.md).
+-   For a macro to toggle between two draw styles see   * [Macro Toggle Drawstyle](Macro_Toggle_Drawstyle.md).
 
 
 

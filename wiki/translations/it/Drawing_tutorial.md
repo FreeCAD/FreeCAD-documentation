@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Stampa proiezioni
-   Level: Base
-   Time: 15 minuti
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 o superiore
-   Files:
+- TutorialInfo   */it
+   Topic   * Stampa proiezioni
+   Level   * Base
+   Time   * 15 minuti
+   Author   *[http   *//freecadweb.org/wiki/index.php?title=User   *Drei Drei]
+   FCVersion   *0.16 o superiore
+   Files   *
 ---
 
 # Drawing tutorial/it
@@ -24,7 +24,7 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 </div>
 
-<img alt="" src=images/Drawing_tutorial_result.png  style="width:480px;">
+<img alt="" src=images/Drawing_tutorial_result.png  style="width   *480px;">
 
 ### Requisiti
 
@@ -44,7 +44,7 @@ Per velocizzare questo tutorial, è necessario raggruppare gli elementi simili n
 2.  Selezionare **Crea gruppo**. È possibile modificare il nome del gruppo di con un doppio clic su di esso nella **Vista a albero**.
 3.  Selezionare gli elementi che si desidera aggiungere e trascinarli nel gruppo
 
-Creare i seguenti gruppi:
+Creare i seguenti gruppi   *
 
 -   Draft\_oggetti
 -   Draft\_dimensioni
@@ -54,7 +54,7 @@ Creare i seguenti gruppi:
 
 Le squadrature sono la base dei disegni, è possibile utilizzare uno dei modelli forniti oppure crearne una propria.
 
-1.  Selezionare il menu a discesa accanto a <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [Nuovo disegno A3 orizzontale](Drawing_Landscape_A3/it.md)
+1.  Selezionare il menu a discesa accanto a <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [Nuovo disegno A3 orizzontale](Drawing_Landscape_A3/it.md)
 2.  Selezionare **A4 orizzontale**
 
 Ora nella **Vista ad albero** appare una nuova cartella chiamata **Pagina**. Questo oggetto contiene tutto ciò che riguarda il **Disegno**.
@@ -65,12 +65,12 @@ Le proiezioni sono definite come la rappresentazione visiva di un oggetto su un 
 
 ##### Proiezioni ortografiche 
 
-Queste proiezioni sono utilizzate in Ingegneria per specificare le proprietà di un oggetto che verrà lavorato. Ci sono due standard comuni: **Terzo angolo** e **Primo angolo**.
+Queste proiezioni sono utilizzate in Ingegneria per specificare le proprietà di un oggetto che verrà lavorato. Ci sono due standard comuni   * **Terzo angolo** e **Primo angolo**.
 
 In questo tutorial, queste proiezioni non sono utilizzate perché i nostri oggetti hanno una rappresentazione significativa solo nel piano XY.
 
 1.  Selezionare l\'oggetto che si desidera proiettare nel disegno.
-2.  Selezionare <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Vista ortogonale](Drawing_Orthoviews/it.md)
+2.  Selezionare <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Vista ortogonale](Drawing_Orthoviews/it.md)
 3.  Selezionare il tipo di **proiezione** che si intende usare
 4.  Selezionare la vista che si desidera aggiungere
 
@@ -81,7 +81,7 @@ Nelle schede **Generale** e **Assonometria** si può specificare **posizione**, 
 E\' possibile creare visualizzazioni personalizzate dell\'oggetto.
 
 1.  Selezionare l\'oggetto che si desidera proiettare nel disegno.
-2.  Selezionare <img alt="" src=images/Drawing_View.png  style="width:32px;"> [Inserisci una nuova vista](Drawing_View/it.md)
+2.  Selezionare <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [Inserisci una nuova vista](Drawing_View/it.md)
 3.  Nella scheda **Dati** editare la **Direzione della proiezione** modificando i valori degli assi **X**, **Y**, e **Z**. Di default, i valori sono **(0, 0, 1)**
 
 Dalla tabella dei **Dati** si può anche modificare **posizione**, **scala** e **rotazione** della **Vista**, come per la **Proiezione ortografica**.
@@ -104,7 +104,7 @@ FreeCAD supporta l\'esportazione di file SVG e PDF basati su **Drawing**
 
 ##### SVG
 
-1.  Selezionare <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Salva disegno](Drawing_Save/it.md)
+1.  Selezionare <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Salva disegno](Drawing_Save/it.md)
 2.  Specificare il percorso e il nome del file esportato
 
 ##### PDF

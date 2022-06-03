@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw Midpoints
-   Name/it:Punti mediani
-   MenuLocation:TechDraw → Aggiungi vertici → Punti mediani
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Vertice cosmetico](TechDraw_CosmeticVertex/it.md), [Quadrante](TechDraw_Quadrants/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *TechDraw Midpoints
+   Name/it   *Punti mediani
+   MenuLocation   *TechDraw → Aggiungi vertici → Punti mediani
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Vertice cosmetico](TechDraw_CosmeticVertex/it.md), [Quadrante](TechDraw_Quadrants/it.md)
+   Version   *0.19
 ---
 
 # TechDraw Midpoints/it
@@ -17,7 +17,7 @@
 
 Lo strumento Punti mediani aggiunge dei [vertici](Glossary#V.md) cosmetici nei punti medi di uno o più bordi.
 
-<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width   *250px;"> 
 *Vertici cosmetici nei punti mediani dei bordi*
 
 ## Utilizzo
@@ -39,7 +39,7 @@ I vertici cosmetici non hanno proprietà proprie, in quanto non sono dei Documen
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

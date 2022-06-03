@@ -1,6 +1,6 @@
 # Path Comment/ro
 ---
-- GuiCommand:   Name:Path Comment   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Partial Commands → Comment   Shortcut:P,C   SeeAlso:---
+- GuiCommand   *   Name   *Path Comment   Workbenches   *[[Path Workbench   Path]]|MenuLocation   *Path → Partial Commands → Comment   Shortcut   *P,C   SeeAlso   *---
 
 
 </div>
@@ -23,16 +23,16 @@ Acest instrument introduce un comentariu. Când exportați un proiect în codul 
 
 ## Proprietăți
 
--    **Comment**: Textul comentariului dvs
+-    **Comment**   * Textul comentariului dvs
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

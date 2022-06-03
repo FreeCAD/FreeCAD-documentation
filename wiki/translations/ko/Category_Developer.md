@@ -1,6 +1,8 @@
 # Category:Developer/ko
 This category contains articles that are relevant for developers.
 
+[Category   *Categories/ko](Category   *Categories/ko.md)
+
 ### Contents
 
 |     |     |     |

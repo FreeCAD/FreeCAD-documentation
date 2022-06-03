@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Arch_MultiMaterial
-   Name/it:Arch MultiMaterial
-   MenuLocation:Arch → Strumenti materiale → Multi-materiale
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Imposta materiale](Arch_SetMaterial/it.md), [Multimateriale](Arch_CompSetMaterial/it.md)
+- GuiCommand   */it
+   Name   *Arch_MultiMaterial
+   Name/it   *Arch MultiMaterial
+   MenuLocation   *Arch → Strumenti materiale → Multi-materiale
+   Workbenches   *[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso   *[Imposta materiale](Arch_SetMaterial/it.md), [Multimateriale](Arch_CompSetMaterial/it.md)
 ---
 
 # Arch MultiMaterial/it
@@ -24,15 +24,15 @@ Lo strumento Multi-materiale definisce una lista di [materiali](Material.md) con
 
 ![](images/Arch_multimaterial_example.png )
 
-Non tutti gli oggetti Arch possono utilizzare i multi-materiali, e l\'utilizzo che ne fanno è diverso. Attualmente:
+Non tutti gli oggetti Arch possono utilizzare i multi-materiali, e l\'utilizzo che ne fanno è diverso. Attualmente   *
 
--   <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Muro](Arch_Wall/it.md) con una Multi-materiale utilizza le definizioni dei materiali e gli spessori per creare una parete multistrato
--   <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Finestra](Arch_Window/it.md) con un Multi-materiale attribuisce i materiali con un nome specificato all\'interno del Multi-materiale ai componenti della finestra con lo stesso nome, o dello stesso tipo (vedere sotto). Lo spessore del materiale non viene considerato.
--   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Pannello](Arch_Panel/it.md) con una Multi-materiale utilizza le definizioni dei materiali e gli spessori per creare un pannello multistrato
+-   <img alt="" src=images/Arch_Wall.svg  style="width   *24px;"> [Muro](Arch_Wall/it.md) con una Multi-materiale utilizza le definizioni dei materiali e gli spessori per creare una parete multistrato
+-   <img alt="" src=images/Arch_Window.svg  style="width   *24px;"> [Finestra](Arch_Window/it.md) con un Multi-materiale attribuisce i materiali con un nome specificato all\'interno del Multi-materiale ai componenti della finestra con lo stesso nome, o dello stesso tipo (vedere sotto). Lo spessore del materiale non viene considerato.
+-   <img alt="" src=images/Arch_Panel.svg  style="width   *24px;"> [Pannello](Arch_Panel/it.md) con una Multi-materiale utilizza le definizioni dei materiali e gli spessori per creare un pannello multistrato
 
 ## Uso
 
-1.  Creare prima la serie di <img alt="" src=images/Arch_SetMaterial.svg  style="width:16px;"> [Materiali Arch](Arch_SetMaterial/it.md) che sono necessari nel Multi-materiale
+1.  Creare prima la serie di <img alt="" src=images/Arch_SetMaterial.svg  style="width   *16px;"> [Materiali Arch](Arch_SetMaterial/it.md) che sono necessari nel Multi-materiale
 2.  Facoltativamente, selezionare un oggetto Arch a cui si desidera attribuire il nuovo Multi-materiale
 3.  Premere il pulsante **<img src="images/Arch_MultiMaterial.svg" width=16px> [Multi-materiale](Arch_MultiMaterial/it.md)
 **
@@ -42,7 +42,7 @@ Non tutti gli oggetti Arch possono utilizzare i multi-materiali, e l\'utilizzo c
 
 ![](images/Arch_multimaterial_panel.png )
 
-Quando si crea o si modifica un multi-materiale facendo doppio clic sull\'albero, sono disponibili le seguenti opzioni:
+Quando si crea o si modifica un multi-materiale facendo doppio clic sull\'albero, sono disponibili le seguenti opzioni   *
 
 -   **Duplicate** un altro Multi-materiale esistente dello stesso documento. Questo copia solo i valori dall\'originale e non lega i due multi-materiali in alcun modo.
 -   Il campo **Name** imposta anche l\'etichetta dell\'oggetto materiale
@@ -58,7 +58,7 @@ Quando si crea o si modifica un multi-materiale facendo doppio clic sull\'albero
 
 <div class="mw-translate-fuzzy">
 
-Ciò corrisponde approssimativamente a una combinazione di [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) e [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
+Ciò corrisponde approssimativamente a una combinazione di [IfcMaterialLayerSet](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) e [IfcMaterialLayer](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 
 
 </div>

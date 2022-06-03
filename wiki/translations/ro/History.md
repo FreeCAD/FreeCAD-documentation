@@ -6,7 +6,7 @@
 
 ## Istorie
 
-<img alt="Early FreeCAD version unknown" src=images/Screenshot_mesh.jpg  style="width:300px;"> <img alt="FreeCAD version 0.7 from 2009" src=images/Part_BooleanOperations.png  style="width:300px;">
+<img alt="Early FreeCAD version unknown" src=images/Screenshot_mesh.jpg  style="width   *300px;"> <img alt="FreeCAD version 0.7 from 2009" src=images/Part_BooleanOperations.png  style="width   *300px;">
 
 
 </div>
@@ -19,16 +19,16 @@ Istoricul FreeCAD a început în ianuarie 2001, când [Jürgen Riegel](User_Jrie
 
 </div>
 
-Cuvintele lui Jürgen\'s au fost:
+Cuvintele lui Jürgen\'s au fost   *
 
 
 {{Quote|text=''Proiectul freecad a fost inițiat de mine în ianuarie 2001, ca asa numita GOM (Graphical Object Modeler), cu ideea de a folosi Qt, Python și Cas.CADE, un comercial CAD-Kernel din acel timp am folosit în proiectele Daimler. Cas.CADE a plecat cu o sursă deschisă cu puțin timp înainte, așa că timpul părea corect să încerc o mișcare în spatiul gol al CAD open source. Am avut o experiență de doi ani cu OpenCascade într-un proiect numit QSpect în care, la final, eram principalul designer de software. Am învățat multe despre programarea 3D și CAD. De asemenea, am fost influențată de Catia V5 și interfața foarte specială de utilizare și de programare ... În 17 martie 2002, în cadrul proiectului OpenCascade, am înregistrat software-ul ca FreeCAD. Nu m-am gândit la un nume mai bun, sunt foarte neinspirat cu numele ... În aprilie 2003, Werner Meyer, unul dintre colegiile din proiectul QSpect, a trecut la o companie numită Imetric. Contactul cu Imetric a avut un rezultat foarte promițător, deoarece a căutat o nouă platformă software 3D pentru senzorii 3D. În 2005, Imetric a donat cea mai mare parte a modulelor sale de plasă  la FreeCAD și comunitatea Open Source, iar de atunci aceștia au folosit FreeCAD ca bază pentru software-ul sistemului de senzori. Din acel moment, Werner Meyer este un dezvoltator foarte activ al FreeCAD. În 2005, după un an de luptă, am decis să rup cadrul documentului OpenCascade și să îl înlocuiesc cu o implementare proprie. Deci, în final, folosim doar kernel-ul CAD al OpenCascade și nu restul cadrului său. 2007 a fost o altă piatră de hotar interesantă. Am trecut la QT4 și, prin urmare, la LGPL. În acel moment am făcut multă treabă, mai ales Werner.''.
-|sign=[Jürgen Riegel](User_Jriegel.md)|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
+|sign=[Jürgen Riegel](User_Jriegel.md)|source=''[http   *//forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
 
 
 <div class="mw-translate-fuzzy">
 
-Proiectul a fost anunțat publicului larg pe [OpenCascade Forum](http://www.opencascade.org/org/forum) in 2003. Again, in Jürgen\'s words:
+Proiectul a fost anunțat publicului larg pe [OpenCascade Forum](http   *//www.opencascade.org/org/forum) in 2003. Again, in Jürgen\'s words   *
 
 
 </div>
@@ -38,14 +38,14 @@ Proiectul a fost anunțat publicului larg pe [OpenCascade Forum](http://www.open
 
 
 {{Quote|text=''Hi together, my name is Juergen Riegel and today I want announce an OpenCasCade project, FreeCAD. It is an Open Source CAx RAD based on OpenCasCade, QT and Python. It features some key concepts like Macro Recording, Workbenches, ability to run as a server and as a dynamically loadable applications' extension, and it is designed to be platform independent… Although it is in an early stage and not usable for users nor developers—the first user release is planned for the end of 2003—, I would like to get some feedback on the direction and design of FreeCAD. The GUI is nearly finished and now we, my co-developer Werner Mayer and me, have started adding the first CAD functions. FreeCAD can be seen as a general purpose mechanical CAD system, but its first audience, I think, will be CAx developers which need groundwork for own development''.
-|sign=[Jürgen Riegel](User_Jriegel.md)|source=''[http://www.opencascade.org/org/forum/thread_6572/?forum=11 Announcing FreeCAD Project]''}}
+|sign=[Jürgen Riegel](User_Jriegel.md)|source=''[http   *//www.opencascade.org/org/forum/thread_6572/?forum=11 Announcing FreeCAD Project]''}}
 
 
 </div>
 
 ### Werner Mayer 
 
-Werner Mayer joined the project as soon as it was announced as an open source project (prior to the announcement the project was a private project of Jürgen). See this forum post from Werner in German: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
+Werner Mayer joined the project as soon as it was announced as an open source project (prior to the announcement the project was a private project of Jürgen). See this forum post from Werner in German   * <https   *//forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
 
 
 <div class="mw-translate-fuzzy">
@@ -58,12 +58,12 @@ Werner Mayer joined the project as soon as it was announced as an open source pr
 -   **Linux beginning**
 
 
-{{Quote|text=''A fun fact is that he wanted to have an open-source CAD software mainly for Linux because at that time there existed actually nothing for this platform. However, from the beginning on we exclusively developed on Windows for the next 1.5 years. Then a Czech guy made a contribution to make the code of the core build on Linux: https://github.com/berndhahnebach/All_FreeCAD/commit/9fd2e27c95ba3dc84778d92e2564cd094793ce2f#diff-480477e89f9b6ddafb30c4383dcdd705''}}
+{{Quote|text=''A fun fact is that he wanted to have an open-source CAD software mainly for Linux because at that time there existed actually nothing for this platform. However, from the beginning on we exclusively developed on Windows for the next 1.5 years. Then a Czech guy made a contribution to make the code of the core build on Linux   * https   *//github.com/berndhahnebach/All_FreeCAD/commit/9fd2e27c95ba3dc84778d92e2564cd094793ce2f#diff-480477e89f9b6ddafb30c4383dcdd705''}}
 
 
-{{Quote|text=''Half a year later I continued the Linux build: https://github.com/berndhahnebach/All_FreeCAD/commit/35b962d7d751dd80f7c7781df60f93bc9a3da992''}}
+{{Quote|text=''Half a year later I continued the Linux build   * https   *//github.com/berndhahnebach/All_FreeCAD/commit/35b962d7d751dd80f7c7781df60f93bc9a3da992''}}
 
-**Q:** Could you share how that first 1.5 years went? Were you meeting in person or online?
+**Q   *** Could you share how that first 1.5 years went? Were you meeting in person or online?
 
 
 {{Quote|text=''Well, at that time we were colleagues (until 2005) so we could discuss things face to face. After that time we still had some personal meetings but discussed most things by email or phone.''}}
@@ -71,7 +71,7 @@ Werner Mayer joined the project as soon as it was announced as an open source pr
 
 {{Quote|text=''As third core developer Yorik joined around end of 2007 but it took another 3 or 4 years until the community and number of contributors started to grow significantly.''}}
 
-**Q:** Did you divide the tasks or work on competing implementations?
+**Q   *** Did you divide the tasks or work on competing implementations?
 
 
 {{Quote|text=''Yes. Jürgen was designing and implementing most of the application and document logic and I was doing the basics of the GUI.''}}
@@ -79,12 +79,12 @@ Werner Mayer joined the project as soon as it was announced as an open source pr
 
 {{Quote|text=''However, this wasn't a gradual process but we have experimented with many things at the beginning. For example, in the initial version we used OCC's document framework OCAF and its viewer but after a year or two we got into a dead end because documentation about OCC was very poor and we couldn't get it to work to extend OCAF with our own feature types. So, we decided to only use OCC's modeling capacities but develop our own application/document framework.''}}
 
-**Q:** At the time did you think FreeCAD would be where it is today?
+**Q   *** At the time did you think FreeCAD would be where it is today?
 
 
 {{Quote|text=''We didn't know but we hoped. Of course we couldn't anticipate how exactly FreeCAD will look today.<br>The most important design decisions were to make it available on all major platforms and make the whole SW as accessible as possible, i.e. to impose all important functions to Python so that (power) users are able to extend FreeCAD with own functions. This way we hoped to get a broad audience.''}}
 
-(See this forum post from Werner [Re: FreeCAD History](https://forum.freecadweb.org/viewtopic.php?f=8&t=47703#p411612))
+(See this forum post from Werner [Re   * FreeCAD History](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=47703#p411612))
 
 
 <div class="mw-translate-fuzzy">
@@ -108,7 +108,7 @@ Version 0.10 released on July 2010 introduced the [Sketcher Workbench](Sketcher_
 
 </div>
 
-In early 2011, taking the opportunity given by the [Launchpad](https://launchpad.net) online platform, the [FreeCAD Maintainers team](https://launchpad.net/~freecad-maintainers) was created to provide fresh stable releases along with daily build packages of FreeCAD to users of the Ubuntu operating system.
+In early 2011, taking the opportunity given by the [Launchpad](https   *//launchpad.net) online platform, the [FreeCAD Maintainers team](https   *//launchpad.net/~freecad-maintainers) was created to provide fresh stable releases along with daily build packages of FreeCAD to users of the Ubuntu operating system.
 
 
 <div class="mw-translate-fuzzy">
@@ -128,19 +128,19 @@ Version 0.12 released in January 2012 featured a more complete Sketcher workbenc
 
 ### Enlargement of core developer team 
 
-In April 2019 the team of core developers was expanded: Jürgen, Werner and Yorik were joined by Abdullah, Bernd, sliptonic and WandererFan
+In April 2019 the team of core developers was expanded   * Jürgen, Werner and Yorik were joined by Abdullah, Bernd, sliptonic and WandererFan
 
 ## Interesting Posts on the forum 
 
--   about PartDesignNext and other design decisions: <https://forum.freecadweb.org/viewtopic.php?f=8&t=34923&start=130#p297074>
--   about Forum history: <https://forum.freecadweb.org/viewtopic.php?f=8&t=7448&start=200#p287106>
--   about Project history: <https://forum.freecadweb.org/viewtopic.php?f=8&t=47703>
--   about Code history: <https://forum.freecadweb.org/viewtopic.php?f=10&t=46733&start=10#p405068> BTW: initial code checkin was on March 18th in 2002 (may be the birthday?)
--   about Project to be OpenSource: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
--   about The release commit history: <https://forum.freecadweb.org/viewtopic.php?f=8&t=23695#p184940>
--   about Who is behind FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=8&t=295>
--   about FEM history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
--   about FEM mesher history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
+-   about PartDesignNext and other design decisions   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=34923&start=130#p297074>
+-   about Forum history   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=7448&start=200#p287106>
+-   about Project history   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=47703>
+-   about Code history   * <https   *//forum.freecadweb.org/viewtopic.php?f=10&t=46733&start=10#p405068> BTW   * initial code checkin was on March 18th in 2002 (may be the birthday?)
+-   about Project to be OpenSource   * <https   *//forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
+-   about The release commit history   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=23695#p184940>
+-   about Who is behind FreeCAD   * <http   *//forum.freecadweb.org/viewtopic.php?f=8&t=295>
+-   about FEM history   * <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
+-   about FEM mesher history   * <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
 ## Istoricul edițiilor 
 
@@ -175,47 +175,47 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 </div>
 
-\|- \| style=\"background-color: \#C1E6F5;\"\| 0.20 \| ? \| in development \| [Release notes 0.20](Release_notes_0.20.md) \| [head master](https://github.com/FreeCAD/FreeCAD/commits/master) \|
+\|- \| style=\"background-color   * \#C1E6F5;\"\| 0.20 \| ? \| in development \| [Release notes 0.20](Release_notes_0.20.md) \| [head master](https   *//github.com/FreeCAD/FreeCAD/commits/master) \|
 
-\|- \| style=\"background-color: \#D4F4B4;\"\| 0.19 \| - \| 2021-03-20 \| [Release notes 0.19](Release_notes_0.19.md) \| [release commit 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19) \| [branch bugfixes 0.19](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
+\|- \| style=\"background-color   * \#D4F4B4;\"\| 0.19 \| - \| 2021-03-20 \| [Release notes 0.19](Release_notes_0.19.md) \| [release commit 0.19](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19) \| [branch bugfixes 0.19](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.18 \| - \| 2019-03-12 \| [Release notes 0.18](Release_notes_0.18.md) \| [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18) \| [branch bugfixes 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.18 \| - \| 2019-03-12 \| [Release notes 0.18](Release_notes_0.18.md) \| [release commit 0.18](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18) \| [branch bugfixes 0.18](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.17 \| Roland \| 2018-04-06 \| [Release notes 0.17](Release_notes_0.17.md) \| [release commit 0.17](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-17) \| [branch bugfixes 0.17](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-17)
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.17 \| Roland \| 2018-04-06 \| [Release notes 0.17](Release_notes_0.17.md) \| [release commit 0.17](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-17) \| [branch bugfixes 0.17](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-17)
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.16 \| - \| 2016-04-18 \| [Release notes 0.16](Release_notes_0.16.md) \| [release commit 0.16](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-16) \| [branch bugfixes 0.16](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-16)
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.16 \| - \| 2016-04-18 \| [Release notes 0.16](Release_notes_0.16.md) \| [release commit 0.16](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-16) \| [branch bugfixes 0.16](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-16)
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.15 \| - \| 2015-04-08 \| [Release notes 0.15](Release_notes_0.15.md) \| [release commit 0.15](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-15) \| [branch bugfixes 0.15](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-15)
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.15 \| - \| 2015-04-08 \| [Release notes 0.15](Release_notes_0.15.md) \| [release commit 0.15](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-15) \| [branch bugfixes 0.15](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-15)
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.14 \| - \| 2014-07-01 \| [Release notes 0.14](Release_notes_0.14.md) \| [release commit 0.14](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-14) \| [branch bugfixes 0.14](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-14)
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.14 \| - \| 2014-07-01 \| [Release notes 0.14](Release_notes_0.14.md) \| [release commit 0.14](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-14) \| [branch bugfixes 0.14](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-14)
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.13 \| - \| 2013-01-29 \| [Release notes 0.13](Release_notes_0.13.md) \| [release commit 0.13](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-13) \| [branch bugfixes 0.13](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-13)
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.13 \| - \| 2013-01-29 \| [Release notes 0.13](Release_notes_0.13.md) \| [release commit 0.13](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-13) \| [branch bugfixes 0.13](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-13)
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.12 \| - \| 2011-12-20 \| [Release notes 0.12](Release_notes_0.12.md) \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.12 \| - \| 2011-12-20 \| [Release notes 0.12](Release_notes_0.12.md) \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.11 \| - \| 2011-05-03 \| [Release notes 0.11](Release_notes_0.11.md) \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.11 \| - \| 2011-05-03 \| [Release notes 0.11](Release_notes_0.11.md) \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.10 \| - \| 2010-07-24 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.10 \| - \| 2010-07-24 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.9 \| - \| 2010-01-16 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.9 \| - \| 2010-01-16 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.8 \| - \| 2009-07-10 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.8 \| - \| 2009-07-10 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.7 \| - \| 2009-04-24 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.7 \| - \| 2009-04-24 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.6 \| - \| 2007-02-27 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.6 \| - \| 2007-02-27 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.5 \| - \| 2006-10-05 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.5 \| - \| 2006-10-05 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.4 \| - \| 2006-01-15 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.4 \| - \| 2006-01-15 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.3 \| - \| 2005-10-31 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.3 \| - \| 2005-10-31 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.2 \| - \| 2005-08-09 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.2 \| - \| 2005-08-09 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.1 \| - \| 2003-01-27 \| \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.1 \| - \| 2003-01-27 \| \| \|
 
-\|- \| style=\"background-color: \#FDB3AB;\"\| 0.0.1 \| - \| 2002-10-29 \| Initial Upload of a version \| \|
+\|- \| style=\"background-color   * \#FDB3AB;\"\| 0.0.1 \| - \| 2002-10-29 \| Initial Upload of a version \| \|
 
 \|}
 
@@ -247,13 +247,15 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 ## Legături
 
--   [SourceForge Files section](http://sourceforge.net/projects/free-cad/files/)
--   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)
--   [Who is behind FreeCad?](http://forum.freecadweb.org/viewtopic.php?f=8&t=295) topic on the FreeCAD forum
--   [Announcing FreeCAD Project](http://www.opencascade.org/org/forum/thread_6572/?forum=11) on the OpenCascade forum
+-   [SourceForge Files section](http   *//sourceforge.net/projects/free-cad/files/)
+-   [SourceForge Old Files section](http   *//sourceforge.net/projects/free-cad/files/OldFiles/)
+-   [Who is behind FreeCad?](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=295) topic on the FreeCAD forum
+-   [Announcing FreeCAD Project](http   *//www.opencascade.org/org/forum/thread_6572/?forum=11) on the OpenCascade forum
 
 
 </div>
+
+[Category   *News](Category_News.md)
 
 
 

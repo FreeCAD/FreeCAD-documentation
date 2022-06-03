@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh RemoveCompByHand
-   Name/fr:Mesh Suppression manuelle de composants
-   MenuLocation:Maillages → Supprimer manuellement des composants...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Supprimer des composants](Mesh_RemoveComponents/fr.md), [Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md)
+- GuiCommand   */fr
+   Name   *Mesh RemoveCompByHand
+   Name/fr   *Mesh Suppression manuelle de composants
+   MenuLocation   *Maillages → Supprimer manuellement des composants...
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso   *[Mesh Supprimer des composants](Mesh_RemoveComponents/fr.md), [Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md)
 ---
 
 # Mesh RemoveCompByHand/fr
@@ -16,7 +16,7 @@ La commande **Mesh Suppression manuelle de composants** supprime des composants 
 ## Utilisation
 
 1.  Un composant fait référence à un groupe complet de faces connectées. Un objet maillé contient généralement un seul composant. Mais, par exemple après avoir utilisé la commande [Mesh Fusionner](Mesh_Merge/fr.md), un objet maillé peut contenir plusieurs composants.
-2.  La commande utilise la couleur rouge pour marquer les composants sélectionnés. Pour les voir correctement:
+2.  La commande utilise la couleur rouge pour marquer les composants sélectionnés. Pour les voir correctement   *
     -   Le {{PropertyView/fr|Display Mode}} des objets maillés doit montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
     -   La {{PropertyView/fr|Shape Color}} des objets maillés ne doit pas être rouge.
 3.  Sélectionnez l\'option **Maillages → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Supprimer manuellement des composants... ** dans le menu.

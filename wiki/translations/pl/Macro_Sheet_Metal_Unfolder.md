@@ -7,15 +7,15 @@
 |Version=17.0
 |Date=2018-08-14
 |FCVersion=17.0
-|Download=[https://www.freecadweb.org/wiki/images/1/16/Macro_Sheet_Metal_Unfolder.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/1/16/Macro_Sheet_Metal_Unfolder.png ToolBar Icon]
 }}
 
 ## Description
 
-The macro can unfold simple sheet-metal-parts. The parts must have everywhere the same material thickness as typical for sheet-metal-parts. See example:
+The macro can unfold simple sheet-metal-parts. The parts must have everywhere the same material thickness as typical for sheet-metal-parts. See example   *
 
 
-{{Codeextralink|https://raw.githubusercontent.com/ulrich1a/sheet_ufo/master/sheet_ufo.py}}
+{{Codeextralink|https   *//raw.githubusercontent.com/ulrich1a/sheet_ufo/master/sheet_ufo.py}}
 
 ![](images/Unfolding_test2.png )
 
@@ -27,13 +27,13 @@ Select a flat face from your part in the 3D-view. Start the macro.
 
 The macro creates a lot of text in the report-view. This is still a remains of the debugging process of this macro. The edges of the sheet-metal-part may be round or slanting. But if you \"walk\" from the upper side to the lower side of the sheet-metal-part you should not cross more than one face. In best case the macro generates a new flat solid from your part. If the macro has problems, you may get only a flat shell or a bunch of flattened faces or only an error message.
 
-The macro can be thought of as a companion to the AddWall tool from JMG published here: [FreeCAD: Sheet metal tool \"Add Wall\"](http://linuxforanengineer.blogspot.com.es/2014/12/freecad-sheet-metal-tool-add-wall.html)
+The macro can be thought of as a companion to the AddWall tool from JMG published here   * [FreeCAD   * Sheet metal tool \"Add Wall\"](http   *//linuxforanengineer.blogspot.com.es/2014/12/freecad-sheet-metal-tool-add-wall.html)
 
 ## Link
 
-The forum discussion [Sheet metal: add wall tool](http://forum.freecadweb.org/viewtopic.php?f=24&t=8789)
+The forum discussion [Sheet metal   * add wall tool](http   *//forum.freecadweb.org/viewtopic.php?f=24&t=8789)
 
-An updated version is available at: [<https://github.com/ulrich1a/sheet_ufo>](https://github.com/ulrich1a/sheet_ufo)
+An updated version is available at   * [<https   *//github.com/ulrich1a/sheet_ufo>](https   *//github.com/ulrich1a/sheet_ufo)
 
 ## Script
 
@@ -45,7 +45,7 @@ ToolBar Icon ![](images/Macro_Sheet_Metal_Unfolder.png )
 {{MacroCode|code=
 
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 #
 #  sheet_ufo.py
 #  
@@ -72,7 +72,7 @@ ToolBar Icon ![](images/Macro_Sheet_Metal_Unfolder.png )
 # Refactored version December 2015
 # Clear division of tasks between analysis and folding
 
-# To do:
+# To do   *
 # change code to handle face indexes in the node instead of faces
 
 
@@ -80,12 +80,12 @@ ToolBar Icon ![](images/Macro_Sheet_Metal_Unfolder.png )
 # Die Weiterreichung eines schon geschnittenen Seitenfaces macht Probleme.
 # Die Seitenfaces passen hinterher nicht mehr mit den Hauptflächen zusammen.
 
-# Geänderter Ansatz: lasse die Seitenflächen in der Suchliste und 
+# Geänderter Ansatz   * lasse die Seitenflächen in der Suchliste und 
 # schneide jeweils nur den benötigten Teil raus.
 # Ich brauche jetzt eine Suchliste und eine Unfoldliste für die 
 # Face-Indices.
 
-# To do: 
+# To do   * 
 # - handle a selected seam
 # - handle not-circle-curves in bends
 # - detect features like welded screws
@@ -96,9 +96,9 @@ ToolBar Icon ![](images/Macro_Sheet_Metal_Unfolder.png )
 
 '''
 
-def main():return 0
+def main()   *return 0
 
-if __name__ == '__main__':
+if __name__ == '__main__'   *
     main()
 
 
@@ -110,45 +110,45 @@ from PySide import QtGui
 from FreeCAD import Base
 import DraftVecUtils, DraftGeomUtils, math, time
 
-# to do: 
+# to do   * 
 # - Put error numbers into the text
 # - Put user help into more texts
 unfold_error = {
   # error codes for the tree-object
-  1: ('starting: volume unusable, needs a real 3D-sheet-metal with thickness'), 
-  2: ('Starting: invalid point for thickness measurement'), 
-  3: ('Starting: invalid thickness'), 
-  4: ('Starting: invalid shape'), 
+  1   * ('starting   * volume unusable, needs a real 3D-sheet-metal with thickness'), 
+  2   * ('Starting   * invalid point for thickness measurement'), 
+  3   * ('Starting   * invalid thickness'), 
+  4   * ('Starting   * invalid shape'), 
   # error codes for the bend-analysis 
-  10: ('Analysis: zero wires in sheet edge analysis'), 
-  11: ('Analysis: double bends not implemented'), 
-  12: ('Analysis: more than one bend-child actually not supported'), 
-  13: ('Analysis: counter face not found'), 
-  14: ('Analysis: the code can not handle edges without neighbor faces'), 
-  15: ('Analysis: the code needs a face at all sheet edges'), 
-  16: ('Analysis: did not find startangle of bend, please post failing sample for analysis'), 
+  10   * ('Analysis   * zero wires in sheet edge analysis'), 
+  11   * ('Analysis   * double bends not implemented'), 
+  12   * ('Analysis   * more than one bend-child actually not supported'), 
+  13   * ('Analysis   * counter face not found'), 
+  14   * ('Analysis   * the code can not handle edges without neighbor faces'), 
+  15   * ('Analysis   * the code needs a face at all sheet edges'), 
+  16   * ('Analysis   * did not find startangle of bend, please post failing sample for analysis'), 
   # error codes for the unfolding
-  20: ('Unfold: section wire with less than 4 edges'),
-  21: ('Unfold: Unfold: section wire not closed'),
-  22: ('Unfold: section failed'),
-  23: ('Unfold: CutToolWire not closed'),
-  24: ('Unfold: bend-face without child not implemented'),
-  25: ('Unfold: '),
-  -1: ('unknown error')} 
+  20   * ('Unfold   * section wire with less than 4 edges'),
+  21   * ('Unfold   * Unfold   * section wire not closed'),
+  22   * ('Unfold   * section failed'),
+  23   * ('Unfold   * CutToolWire not closed'),
+  24   * ('Unfold   * bend-face without child not implemented'),
+  25   * ('Unfold   * '),
+  -1   * ('unknown error')} 
 
 
 
 
 
-def equal_vertex(vert1, vert2, p=5):
+def equal_vertex(vert1, vert2, p=5)   *
   # compares two vertices 
   return (round(vert1.X - vert2.X,p)==0 and round(vert1.Y - vert2.Y,p)==0 and round(vert1.Z - vert2.Z,p)==0)
 
-def equal_vector(vec1, vec2, p=5):
+def equal_vector(vec1, vec2, p=5)   *
   # compares two vectors 
   return (round(vec1.x - vec2.x,p)==0 and round(vec1.y - vec2.y,p)==0 and round(vec1.z - vec2.z,p)==0)
 
-def radial_vector(point, axis_pnt, axis):
+def radial_vector(point, axis_pnt, axis)   *
   chord = axis_pnt.sub(point)
   norm = axis.cross(chord)
   perp = axis.cross(norm)
@@ -164,13 +164,13 @@ def radial_vector(point, axis_pnt, axis):
 
 
 
-class Simple_node(object):
+class Simple_node(object)   *
   ''' This class defines the nodes of a tree, that is the result of
   the analysis of a sheet-metal-part.
   Each flat or bend part of the metal-sheet gets a node in the tree.
   The indexes are the number of the face in the original part.
   '''
-  def __init__(self, f_idx=None, Parent_node= None, Parent_edge = None):
+  def __init__(self, f_idx=None, Parent_node= None, Parent_edge = None)   *
     self.idx = f_idx  # index of the "top-face"
     self.c_face_idx = None # face index to the opposite face of the sheet (counter-face)
     self.node_type = None  # 'Flat' or 'Bend'
@@ -184,15 +184,15 @@ class Simple_node(object):
     self.facePosi = None
     self.bendCenter = None
     self.distCenter = None
-    # self.axis for 'Flat'-face: vector pointing from the surface into the metal
-    self.bend_dir = None # bend direction values: "up" or "down"
+    # self.axis for 'Flat'-face   * vector pointing from the surface into the metal
+    self.bend_dir = None # bend direction values   * "up" or "down"
     self.bend_angle = None # angle in radians
     self.tan_vec = None # direction of translation for Bend nodes
     self._trans_length = None # length of translation for Bend nodes, k-factor used according to DIN 6935
     self.analysis_ok = True # indicator if something went wrong with the analysis of the face
     self.error_code = None # index to unfold_error dictionary
-    # here the new features of the nodes:
-    self.nfIndexes = [] # list of all face-indexes of a node (flat and bend: folded state)
+    # here the new features of the nodes   *
+    self.nfIndexes = [] # list of all face-indexes of a node (flat and bend   * folded state)
     self.seam_edges = [] # list with edges to seams
     # bend faces are needed for movement simulation at single other bends.
     # otherwise unfolded faces are recreated from self.b_edges
@@ -202,7 +202,7 @@ class Simple_node(object):
     self.c_wire = None # wire common with child node, used for bend node
     self.b_edges = [] # list of edges in a bend node, that needs to be recalculated, at unfolding
 
-  def get_Face_idx(self):
+  def get_Face_idx(self)   *
     # get the face index from the tree-element
     return self.idx
 
@@ -210,25 +210,25 @@ class Simple_node(object):
 
 
 
-class SheetTree(object):
-  def __init__(self, TheShape, f_idx):
+class SheetTree(object)   *
+  def __init__(self, TheShape, f_idx)   *
     self.cFaceTol = 0.002 # tolerance to detect counter-face vertices
     # this high tolerance was needed for more real parts
     self.root = None # make_new_face_node adds the root node if parent_node == None
     self.__Shape = TheShape.copy()
     self.error_code = None
-    self.failed_face_idx = Noneif not self.__Shape.isValid():
+    self.failed_face_idx = Noneif not self.__Shape.isValid()   *
       print "The shape is not valid!"
-      self.error_code = 4  # Starting: invalid shape
+      self.error_code = 4  # Starting   * invalid shape
       self.failed_face_idx = f_idx#Part.show(self.__Shape)# List of indices to the shape.Faces. The list is used a lot for face searches.
     # Some faces will be cut and the new ones added to the list.
     # So a list of faces independent of the shape is needed.
     self.f_list = []  #self.__Shape.Faces.copy() does not work
     self.index_list =[]
     self.index_unfold_list = [] # indexes needed for unfolding
-    for i in range(len (self.__Shape.Faces)):
-    #for i in range(len (self.f_list)):
-      # if i<>(f_idx):
+    for i in range(len (self.__Shape.Faces))   *
+    #for i in range(len (self.f_list))   *
+      # if i<>(f_idx)   *
       self.index_list.append(i)
       self.index_unfold_list.append(i)
       self.f_list.append(self.__Shape.Faces[i])
@@ -236,68 +236,68 @@ class SheetTree(object):
     self.max_f_idx = len(self.f_list) # need this value to make correct indices to new faces
 
     theVol = self.__Shape.Volume
-    if theVol < 0.0001:
+    if theVol < 0.0001   *
       print "Shape is not a real 3D-object or to small for a metal-sheet!"
       self.error_code = 1
       self.failed_face_idx = f_idx
 
-    else:
+    else   *
       # Make a first estimate of the thickness
       estimated_thickness = theVol/(self.__Shape.Area / 2.0)
-      print "approximate Thickness: ", estimated_thickness
-      # Measure the real thickness of the initial face: Use Orientation and
+      print "approximate Thickness   * ", estimated_thickness
+      # Measure the real thickness of the initial face   * Use Orientation and
       # Axis to make an measurement vector
-        if hasattr(self.__Shape.Faces[f_idx],'Surface'):
+        if hasattr(self.__Shape.Faces[f_idx],'Surface')   *
         # Part.show(self.__Shape.Faces[f_idx])
-        # print 'the object is a face! vertices: ', len(self.__Shape.Faces[f_idx].Vertexes)
+        # print 'the object is a face! vertices   * ', len(self.__Shape.Faces[f_idx].Vertexes)
         F_type = self.__Shape.Faces[f_idx].Surface
-        # fixme: through an error, if not Plane Object
-        print 'It is a: ', str(F_type)
-        print 'Orientation: ', str(self.__Shape.Faces[f_idx].Orientation)
+        # fixme   * through an error, if not Plane Object
+        print 'It is a   * ', str(F_type)
+        print 'Orientation   * ', str(self.__Shape.Faces[f_idx].Orientation)
         
         # Need a point on the surface to measure the thickness.
         # Sheet edges could be sloping, so there is a danger to measure
         # right at the edge. 
         # Try with Arithmetic mean of plane vertices
         m_vec = Base.Vector(0.0,0.0,0.0) # calculating a mean vector
-        for Vvec in self.__Shape.Faces[f_idx].Vertexes:
+        for Vvec in self.__Shape.Faces[f_idx].Vertexes   *
             #m_vec = m_vec.add(Base.Vector(Vvec.X, Vvec.Y, Vvec.Z))
             m_vec = m_vec.add(Vvec.Point)
         mvec = m_vec.multiply(1.0/len(self.__Shape.Faces[f_idx].Vertexes))
-        print "mvec: ", mvec
+        print "mvec   * ", mvec
         
-        if hasattr(self.__Shape.Faces[f_idx].Surface,'Position'):
+        if hasattr(self.__Shape.Faces[f_idx].Surface,'Position')   *
           s_Posi = self.__Shape.Faces[f_idx].Surface.Position
           k = 0
-          # while k < len(self.__Shape.Faces[f_idx].Vertexes):
-          # fixme: what if measurepoint is outside?
+          # while k < len(self.__Shape.Faces[f_idx].Vertexes)   *
+          # fixme   * what if measurepoint is outside?
           pvert = self.__Shape.Faces[f_idx].Vertexes[k]
           pvec = Base.Vector(pvert.X, pvert.Y, pvert.Z)
           shiftvec =  mvec.sub(pvec)
           shiftvec = shiftvec.normalize()*2.0*estimated_thickness
           measure_pos = pvec.add(shiftvec)
-          # Description: Checks if a point is inside a solid with a certain tolerance.
+          # Description   * Checks if a point is inside a solid with a certain tolerance.
           # If the 3rd parameter is True a point on a face is considered as inside
 
-          if not self.__Shape.isInside(measure_pos, 0.00001, True):
+          if not self.__Shape.isInside(measure_pos, 0.00001, True)   *
             print "Starting measure_pos for thickness measurement is outside!"
             self.error_code = 2
             self.failed_face_idx = f_idx
 
         
-        if hasattr(self.__Shape.Faces[f_idx].Surface,'Axis'):
+        if hasattr(self.__Shape.Faces[f_idx].Surface,'Axis')   *
           s_Axis =  self.__Shape.Faces[f_idx].Surface.Axis
-          # print 'We have an axis: ', s_Axis
-          if hasattr(self.__Shape.Faces[f_idx].Surface,'Position'):
+          # print 'We have an axis   * ', s_Axis
+          if hasattr(self.__Shape.Faces[f_idx].Surface,'Position')   *
             s_Posi = self.__Shape.Faces[f_idx].Surface.Position
-            # print 'We have a position: ', s_Posi
+            # print 'We have a position   * ', s_Posi
             s_Ori = self.__Shape.Faces[f_idx].Orientation
             s_Axismp = Base.Vector(s_Axis.x, s_Axis.y, s_Axis.z).multiply(2.0*estimated_thickness)
-            if s_Ori == 'Forward':
+            if s_Ori == 'Forward'   *
               Meassure_axis = Part.makeLine(measure_pos,measure_pos.sub(s_Axismp))
               ext_Vec = Base.Vector(-s_Axis.x, -s_Axis.y, -s_Axis.z)
               # Meassure_axis = Part.makeLine(measure_pos,measure_pos.sub(s_Axis.multiply(2.0*estimated_thickness)))
-            else:                    
+            else   *                    
               # Meassure_axis = Part.makeLine(measure_pos,measure_pos.add(s_Axis.multiply(2.0*estimated_thickness)))
               Meassure_axis = Part.makeLine(measure_pos,measure_pos.add(s_Axismp))
               ext_Vec = Base.Vector(s_Axis.x, s_Axis.y, s_Axis.z)
@@ -306,25 +306,25 @@ class SheetTree(object):
         lostShape = self.__Shape.copy()
         lLine = Meassure_axis.common(lostShape)
         lLine = Meassure_axis.common(self.__Shape)
-        print "lLine number edges: ", len(lLine.Edges)
+        print "lLine number edges   * ", len(lLine.Edges)
         measVert = Part.Vertex(measure_pos)
-        for mEdge in lLine.Edges:
-          if equal_vertex(mEdge.Vertexes[0], measVert) or equal_vertex(mEdge.Vertexes[1], measVert):
+        for mEdge in lLine.Edges   *
+          if equal_vertex(mEdge.Vertexes[0], measVert) or equal_vertex(mEdge.Vertexes[1], measVert)   *
             self.__thickness = mEdge.Length
         
         # self.__thickness = lLine.Length
-        if (self.__thickness < estimated_thickness) or (self.__thickness > 1.9 * estimated_thickness):
+        if (self.__thickness < estimated_thickness) or (self.__thickness > 1.9 * estimated_thickness)   *
           self.error_code = 3
           self.failed_face_idx = f_idx
-          print "estimated thickness: ", estimated_thickness, " measured thickness: ", self.__thickness
+          print "estimated thickness   * ", estimated_thickness, " measured thickness   * ", self.__thickness
           Part.show(lLine)
 
 
-  def get_node_faces(self, theNode, wires_e_lists):
+  def get_node_faces(self, theNode, wires_e_lists)   *
     ''' This function searches for all faces making up the node, except
     of the top and bottom face, which are already there.
     wires_e_list is the list of wires lists of the top face without the parent-edge
-    theNode: the actual node to be filled with data.
+    theNode   * the actual node to be filled with data.
     '''# How to begin?
     # searching for all faces, that have two vertices in common with 
     # an edge from the list should give the sheet edge.
@@ -339,77 +339,77 @@ class SheetTree(object):
     # A search strategy for faces based on the wires_e_lists is needed.
     # 
 
-    for theWire in wires_e_lists:
-      for theEdge in theWire:
+    for theWire in wires_e_lists   *
+      for theEdge in theWire   *
         analyVert = theEdge.Vertexes[0]
         search_list = []
-        for x in self.index_list:
+        for x in self.index_list   *
           search_list.append(x)
-        for i in search_list:
-          for lookVert in self.f_list[i].Vertexes:
-            if equal_vertex(lookVert, analyVert):
-              if len(theEdge.Vertexes) == 1: # Edge is a circle
-                if not self.is_sheet_edge_face(theEdge, theNode):
+        for i in search_list   *
+          for lookVert in self.f_list[i].Vertexes   *
+            if equal_vertex(lookVert, analyVert)   *
+              if len(theEdge.Vertexes) == 1   * # Edge is a circle
+                if not self.is_sheet_edge_face(theEdge, theNode)   *
                   found_indices.append(i) # found a node face
                   theNode.child_idx_lists.append([i,theEdge])
                   #self.index_list.remove(i) # remove this face from the index_list
                   #Part.show(self.f_list[i])
-              else:
+              else   *
                 nextVert = theEdge.Vertexes[1]
-                for looknextVert in self.f_list[i].Vertexes:
-                  if equal_vertex(looknextVert, nextVert):
-                    if not self.is_sheet_edge_face(theEdge, theNode):
+                for looknextVert in self.f_list[i].Vertexes   *
+                  if equal_vertex(looknextVert, nextVert)   *
+                    if not self.is_sheet_edge_face(theEdge, theNode)   *
                       found_indices.append(i) # found a node face
                       theNode.child_idx_lists.append([i,theEdge])
                       #self.index_list.remove(i) # remove this face from the index_list
                       #Part.show(self.f_list[i])
-    print "found_indices: ", found_indices
+    print "found_indices   * ", found_indices
                 
 
 
-  def is_sheet_edge_face(self, ise_edge, tree_node): # ise_edge: IsSheetEdge_edge
-    # idea: look at properties of neighbor face
+  def is_sheet_edge_face(self, ise_edge, tree_node)   * # ise_edge   * IsSheetEdge_edge
+    # idea   * look at properties of neighbor face
     # look at edges with distance of sheet-thickness.
     #    if found and surface == cylinder, check if it could be a bend-node.  
-    # look at number of edges:
+    # look at number of edges   *
     # A face with 3 edges is at the sheet edge Cylinder-face or triangle (oh no!)
     # need to look also at surface!
     # A sheet edge face with more as 4 edges, is common to more than 1 node.# get the face which has a common edge with ise_edge
     the_index = None
     has_sheet_distance_vertex = False
-    for i in self.index_list:
-      for sf_edge in self.f_list[i].Edges:
-        if sf_edge.isSame(ise_edge):
+    for i in self.index_list   *
+      for sf_edge in self.f_list[i].Edges   *
+        if sf_edge.isSame(ise_edge)   *
           the_index = i
           break
-      if the_index <> None:
+      if the_index <> None   *
         break
           
-    # Simple strategy applied: look if the connecting face has vertexes
+    # Simple strategy applied   * look if the connecting face has vertexes
     # with sheet-thickness distance to the top face.
-    # fix me: this will fail with sharpened sheet edges with two faces
+    # fix me   * this will fail with sharpened sheet edges with two faces
     # between top and bottom.
-    if the_index <> None:
+    if the_index <> None   *
       distVerts = 0
       vertList = []
       F_type = str(self.f_list[tree_node.idx].Surface)
       # now we need to search for vertexes with sheet_thickness_distance
-      #if F_type == "<Plane object>":
-      for F_vert in self.f_list[i].Vertexes:
-        if self.isVertOpposite(F_vert, tree_node):
+      #if F_type == "<Plane object>"   *
+      for F_vert in self.f_list[i].Vertexes   *
+        if self.isVertOpposite(F_vert, tree_node)   *
           has_sheet_distance_vertex = True
-          if len(self.f_list[i].Edges)<5:
+          if len(self.f_list[i].Edges)<5   *
             tree_node.nfIndexes.append(i)
             self.index_list.remove(i)
             #Part.show(self.f_list[i])
-          else:
+          else   *
             # need to cut the face at the ends of ise_edge
             self.divideEdgeFace(i, ise_edge, F_vert, tree_node)
           break
 
-    else:
+    else   *
       tree_node.analysis_ok = False 
-      tree_node.error_code = 15  # Analysis: the code needs a face at all sheet edges
+      tree_node.error_code = 15  # Analysis   * the code needs a face at all sheet edges
       self.error_code = 15
       self.failed_face_idx = tree_node.idx
       Part.show(self.f_list[tree_node.idx])
@@ -417,24 +417,24 @@ class SheetTree(object):
     return has_sheet_distance_vertex
 
 
-  def isVertOpposite(self, theVert, theNode):
+  def isVertOpposite(self, theVert, theNode)   *
     F_type = str(self.f_list[theNode.idx].Surface)
     vF_vert = Base.Vector(theVert.X, theVert.Y, theVert.Z)
-    if F_type == "<Plane object>":
+    if F_type == "<Plane object>"   *
       distFailure = vF_vert.distanceToPlane (theNode.facePosi, theNode.axis) - self.__thickness
-    if F_type == "<Cylinder object>":
+    if F_type == "<Cylinder object>"   *
       distFailure = vF_vert.distanceToLine (theNode.bendCenter, theNode.axis) - theNode.distCenter
-    # print "counter face distance: ", dist_v + self.__thickness
-    if (distFailure < self.cFaceTol) and (distFailure > -self.cFaceTol):
+    # print "counter face distance   * ", dist_v + self.__thickness
+    if (distFailure < self.cFaceTol) and (distFailure > -self.cFaceTol)   *
       return True
-    else:
+    else   *
       return False
 
 
 
 
 
-  def divideEdgeFace(self, fIdx, ise_edge, F_vert, tree_node):
+  def divideEdgeFace(self, fIdx, ise_edge, F_vert, tree_node)   *
     print "Sheet edge face has more than 4 edges!"
     # first find out where the Sheet edge face has no edge to the opposite side of the sheet
     # There is a need to cut the face.
@@ -444,17 +444,17 @@ class SheetTree(object):
     F_type = str(self.f_list[tree_node.idx].Surface)
     needCut0 = True
     firstCutFaceIdx = None
-    for sEdge in self.f_list[fIdx].Edges:
+    for sEdge in self.f_list[fIdx].Edges   *
       if equal_vertex(ise_edge.Vertexes[0], sEdge.Vertexes[0]) and \
-        self.isVertOpposite(sEdge.Vertexes[1], tree_node):
+        self.isVertOpposite(sEdge.Vertexes[1], tree_node)   *
         needCut0 = False
         theEdge = sEdge
       if equal_vertex(ise_edge.Vertexes[0], sEdge.Vertexes[1]) and \
-        self.isVertOpposite(sEdge.Vertexes[0], tree_node):
+        self.isVertOpposite(sEdge.Vertexes[0], tree_node)   *
         needCut0 = False
         theEdge = sEdge
-    if needCut0:
-      #print "need Cut at 0 with fIdx: ", fIdx
+    if needCut0   *
+      #print "need Cut at 0 with fIdx   * ", fIdx
       nFace = self.cutEdgeFace(0, fIdx, ise_edge, tree_node)
       
       tree_node.nfIndexes.append(self.max_f_idx)
@@ -466,24 +466,24 @@ class SheetTree(object):
       #self.max_f_idx += 1
       #self.index_list.remove(fIdx)
       #Part.show(nFace)
-    #else:
+    #else   *
     #  Part.show(theEdge)
         
     needCut1 = True        
-    for sEdge in self.f_list[fIdx].Edges:
-      if equal_vertex(ise_edge.Vertexes[1], sEdge.Vertexes[0]):
-        if self.isVertOpposite(sEdge.Vertexes[1], tree_node):
+    for sEdge in self.f_list[fIdx].Edges   *
+      if equal_vertex(ise_edge.Vertexes[1], sEdge.Vertexes[0])   *
+        if self.isVertOpposite(sEdge.Vertexes[1], tree_node)   *
           needCut1 = False
           theEdge = sEdge
-      if equal_vertex(ise_edge.Vertexes[1], sEdge.Vertexes[1]):
-        if self.isVertOpposite(sEdge.Vertexes[0], tree_node):
+      if equal_vertex(ise_edge.Vertexes[1], sEdge.Vertexes[1])   *
+        if self.isVertOpposite(sEdge.Vertexes[0], tree_node)   *
           needCut1 = False
           theEdge = sEdge
-    if needCut1:
-      if needCut0:
+    if needCut1   *
+      if needCut0   *
         fIdx = firstCutFaceIdx
         tree_node.nfIndexes.remove(fIdx)
-      #print "need Cut at 1 with fIdx: ", fIdx
+      #print "need Cut at 1 with fIdx   * ", fIdx
       nFace = self.cutEdgeFace(1, fIdx, ise_edge, tree_node)
       tree_node.nfIndexes.append(self.max_f_idx)
       self.f_list.append(nFace)
@@ -492,25 +492,25 @@ class SheetTree(object):
       #self.f_list.append(rFace)
       #self.index_list.append(self.max_f_idx)
       #self.max_f_idx += 1
-      #if not needCut0:
+      #if not needCut0   *
       #  self.index_list.remove(fIdx)
       #Part.show(nFace)
-    #else:
+    #else   *
     #  Part.show(theEdge)
 
 
     
-  def cutEdgeFace(self, eIdx, fIdx, theEdge, theNode):
+  def cutEdgeFace(self, eIdx, fIdx, theEdge, theNode)   *
     ''' This function cuts a face in two pieces.
     one piece is connected to the node. The residual pieces is given
     for assignment to other nodes.
     The function returns both pieces of the original face.
     '''
-    # print "now the face cutter" if eIdx == 0:
+    # print "now the face cutter" if eIdx == 0   *
       otherIdx = 1
-    else:
+    else   *
       otherIdx = 0origin = theEdge.Vertexes[eIdx].PointF_type = str(self.f_list[theNode.idx].Surface)
-    if F_type == "<Plane object>":
+    if F_type == "<Plane object>"   *
       tan_vec = theEdge.Vertexes[eIdx].Point - theEdge.Vertexes[otherIdx].Point
       #o_thick = Base.Vector(o_vec.x, o_vec.y, o_vec.z) 
       tan_vec.normalize()
@@ -520,7 +520,7 @@ class SheetTree(object):
       crossVec.multiply(3.0*self.__thickness)
 
       vec1.multiply(self.__thickness)
-      # defining the points of the cutting plane:
+      # defining the points of the cutting plane   *
       Spnt1 = origin - theNode.axis - crossVec
       Spnt2 = origin - theNode.axis + crossVec
       Spnt3 = origin + theNode.axis +  vec1 + crossVec
@@ -528,12 +528,12 @@ class SheetTree(object):
   
       
       
-    if F_type == "<Cylinder object>":
+    if F_type == "<Cylinder object>"   *
       ePar = theEdge.parameterAt(theEdge.Vertexes[eIdx])
-      print "Idx: ", eIdx, " ePar: ", ePar
+      print "Idx   * ", eIdx, " ePar   * ", ePar
       otherPar = theEdge.parameterAt(theEdge.Vertexes[otherIdx])
       tan_vec = theEdge.tangentAt(ePar)
-      if ePar < otherPar:
+      if ePar < otherPar   *
         tan_vec.multiply(-1.0)
       
       #tan_line = Part.makeLine(theEdge.Vertexes[eIdx].Point.add(tan_vec), theEdge.Vertexes[eIdx].Point)
@@ -541,7 +541,7 @@ class SheetTree(object):
       
       edge_vec = theEdge.Vertexes[eIdx].copy().Point
       radVector = radial_vector(edge_vec, theNode.bendCenter, theNode.axis)
-      if theNode.bend_dir == "down":
+      if theNode.bend_dir == "down"   *
         radVector.multiply(-1.0)
   
       #rad_line = Part.makeLine(theEdge.Vertexes[eIdx].Point.add(radVector), theEdge.Vertexes[eIdx].Point)
@@ -552,7 +552,7 @@ class SheetTree(object):
       vec1 = Base.Vector(radVector.x, radVector.y, radVector.z) # make a copy
 
       vec1.multiply(self.__thickness)
-      # defining the points of the cutting plane:
+      # defining the points of the cutting plane   *
       Spnt1 = origin - radVector - crossVec
       Spnt2 = origin - radVector + crossVec
       Spnt3 = origin + radVector +  vec1 + crossVec
@@ -566,9 +566,9 @@ class SheetTree(object):
     cut_solid = Sf1.extrude(tan_vec.multiply(5.0))
     #Part.show(cut_solid)
     #cut_opposite = Sf1.extrude(tan_vec.multiply(-5.0))cutFaces_node = self.f_list[fIdx].cut(cut_solid)
-    for cFace in cutFaces_node.Faces:
-      for myVert in cFace.Vertexes:
-        if equal_vertex(theEdge.Vertexes[eIdx], myVert):
+    for cFace in cutFaces_node.Faces   *
+      for myVert in cFace.Vertexes   *
+        if equal_vertex(theEdge.Vertexes[eIdx], myVert)   *
           nodeFace = cFace
           #print "The nodeFace"
           #Part.show(nodeFace)
@@ -576,9 +576,9 @@ class SheetTree(object):
 
     '''
     cutFaces_residue = self.f_list[fIdx].cut(cut_opposite)
-    for cFace in cutFaces_residue.Faces:
-      for myVert in cFace.Vertexes:
-        if equal_vertex(theEdge.Vertexes[eIdx], myVert):
+    for cFace in cutFaces_residue.Faces   *
+      for myVert in cFace.Vertexes   *
+        if equal_vertex(theEdge.Vertexes[eIdx], myVert)   *
           residueFace = cFace
           #print "the residueFace"
           #Part.show(residueFace)
@@ -589,44 +589,44 @@ class SheetTree(object):
     
 
 
-  def is_sheet_edge3(self, ise_edge, tree_node): # ise_edge: IsSheetEdge_edge
-    # idea: look at properties of neighbor face
+  def is_sheet_edge3(self, ise_edge, tree_node)   * # ise_edge   * IsSheetEdge_edge
+    # idea   * look at properties of neighbor face
     # look at edges with distance of sheet-thickness.
     #    if found and surface == cylinder, check if it could be a bend-node.  
-    # look at number of edges:
+    # look at number of edges   *
     # A face with 3 edges is at the sheet edge Cylinder-face or triangle (oh no!)
     # need to look also at surface!
     # A sheet edge face with more as 4 edges, is common to more than 1 node.# get the face which has a common edge with ise_edge
     the_index = None
     has_sheet_distance_vertex = False
-    for i in self.index_list:
-      for sf_edge in self.f_list[i].Edges:
-        if sf_edge.isSame(ise_edge):
+    for i in self.index_list   *
+      for sf_edge in self.f_list[i].Edges   *
+        if sf_edge.isSame(ise_edge)   *
           the_index = i
           break
-      if the_index <> None:
+      if the_index <> None   *
         break
           
-    if the_index <> None:
+    if the_index <> None   *
       distVerts = 0
       vertList = []
       F_type = str(self.f_list[tree_node.idx].Surface)
       # now we need to search for vertexes with sheet_thickness_distance
-      #if F_type == "<Plane object>":
-      for F_vert in self.f_list[i].Vertexes:
+      #if F_type == "<Plane object>"   *
+      for F_vert in self.f_list[i].Vertexes   *
         vF_vert = Base.Vector(F_vert.X, F_vert.Y, F_vert.Z)
-        if F_type == "<Plane object>":
+        if F_type == "<Plane object>"   *
           distFailure = vF_vert.distanceToPlane (tree_node.facePosi, tree_node.axis) - self.__thickness
-        if F_type == "<Cylinder object>":
+        if F_type == "<Cylinder object>"   *
           distFailure = vF_vert.distanceToLine (tree_node.bendCenter, tree_node.axis) - tree_node.distCenter
-        # print "counter face distance: ", dist_v + self.__thickness
-        if (distFailure < self.cFaceTol) and (distFailure > -self.cFaceTol):
+        # print "counter face distance   * ", dist_v + self.__thickness
+        if (distFailure < self.cFaceTol) and (distFailure > -self.cFaceTol)   *
           has_sheet_distance_vertex = True
           break
 
-    else:
+    else   *
       tree_node.analysis_ok = False 
-      tree_node.error_code = 15  # Analysis: the code needs a face at all sheet edges
+      tree_node.error_code = 15  # Analysis   * the code needs a face at all sheet edges
       self.error_code = 15
       self.failed_face_idx = tree_node.idx
       Part.show(self.f_list[tree_node.idx])
@@ -636,8 +636,8 @@ class SheetTree(object):
 
 
 
-  def make_new_face_node(self, face_idx, P_node, P_edge, wires_e_lists):
-    # e_list: list of edges of the top face of a node without the parent-edge (P_edge)
+  def make_new_face_node(self, face_idx, P_node, P_edge, wires_e_lists)   *
+    # e_list   * list of edges of the top face of a node without the parent-edge (P_edge)
     # analyze the face and get type of face ("Flat" or "Bend")
     # search the counter face, get axis of Face
     # In case of "Bend" get angle, k_factor and trans_length
@@ -649,18 +649,18 @@ class SheetTree(object):
     # This means, it could also not be found as neighbor face anymore.
     #newNode.node_faces.append(self.f_list[face_idx].copy())
     newNode.nfIndexes.append(face_idx)such_list = [] 
-    for k in self.index_list:
-      such_list.append(k)if F_type == "<Plane object>":
+    for k in self.index_list   *
+      such_list.append(k)if F_type == "<Plane object>"   *
       newNode.node_type = 'Flat' # fixme
-      print "Face", face_idx+1, " Type: ", newNode.node_type
+      print "Face", face_idx+1, " Type   * ", newNode.node_type
 
       s_Posi = self.__Shape.Faces[face_idx].Surface.Position
       newNode.facePosi = s_Posi
       s_Ori = self.__Shape.Faces[face_idx].Orientation
       s_Axis = self.__Shape.Faces[face_idx].Surface.Axis
-      if s_Ori == 'Forward':
+      if s_Ori == 'Forward'   *
         ext_Vec = Base.Vector(-s_Axis.x, -s_Axis.y, -s_Axis.z)
-      else:                    
+      else   *                    
         ext_Vec = Base.Vector(s_Axis.x, s_Axis.y, s_Axis.z)
 
       newNode.axis = ext_Vec
@@ -669,97 +669,97 @@ class SheetTree(object):
       
       # nead a mean point of the face to avoid false counter faces
       faceMiddle = Base.Vector(0.0,0.0,0.0) # calculating a mean vector
-      for Vvec in self.__Shape.Faces[face_idx].OuterWire.Vertexes:
+      for Vvec in self.__Shape.Faces[face_idx].OuterWire.Vertexes   *
           faceMiddle = faceMiddle.add(Vvec.Point)
       faceMiddle = faceMiddle.multiply(1.0/len(self.__Shape.Faces[face_idx].OuterWire.Vertexes))
       
       # search for the counter face
-      for i in such_list:
+      for i in such_list   *
         counter_found = True
-        for F_vert in self.f_list[i].Vertexes:
+        for F_vert in self.f_list[i].Vertexes   *
           vF_vert = Base.Vector(F_vert.X, F_vert.Y, F_vert.Z)
           dist_v = vF_vert.distanceToPlane (s_Posi, ext_Vec) - self.__thickness
-          # print "counter face distance: ", dist_v + self.__thickness
-          if (dist_v > self.cFaceTol) or (dist_v < -self.cFaceTol):
+          # print "counter face distance   * ", dist_v + self.__thickness
+          if (dist_v > self.cFaceTol) or (dist_v < -self.cFaceTol)   *
               counter_found = False
   
-        if counter_found:
+        if counter_found   *
           # nead a mean point of the face to avoid false counter faces
           counterMiddle = Base.Vector(0.0,0.0,0.0) # calculating a mean vector
-          for Vvec in self.__Shape.Faces[i].OuterWire.Vertexes:
+          for Vvec in self.__Shape.Faces[i].OuterWire.Vertexes   *
               counterMiddle = counterMiddle.add(Vvec.Point)
           counterMiddle = counterMiddle.multiply(1.0/len(self.__Shape.Faces[i].OuterWire.Vertexes))
           
           distVector = counterMiddle.sub(faceMiddle)
           counterDistance = distVector.Length
           
-          if counterDistance < 3*self.__thickness:
+          if counterDistance < 3*self.__thickness   *
             print "found counter-face", i + 1
             newNode.c_face_idx = i
             self.index_list.remove(i)
             newNode.nfIndexes.append(i)
             
             # Part.show(self.__Shape.Faces[newNode.c_face_idx])
-          else:
+          else   *
             counter_found = False
-            print "faceMiddle: ", str(faceMiddle), "counterMiddle: ", str(counterMiddle)
-      #if newNode.c_face_idx == None:
+            print "faceMiddle   * ", str(faceMiddle), "counterMiddle   * ", str(counterMiddle)
+      #if newNode.c_face_idx == None   *
       #  Part.show(axis_line)
           
         
 
             
-    if F_type == "<Cylinder object>":
+    if F_type == "<Cylinder object>"   *
       newNode.node_type = 'Bend' # fixme
       s_Center = self.__Shape.Faces[face_idx].Surface.Center
       s_Axis = self.__Shape.Faces[face_idx].Surface.Axis
       newNode.axis = s_Axis
       newNode.bendCenter = s_Center
       edge_vec = P_edge.Vertexes[0].copy().Point
-      print "edge_vec: ", str(edge_vec)
+      print "edge_vec   * ", str(edge_vec)
       
-      if P_node.node_type == 'Flat':
+      if P_node.node_type == 'Flat'   *
         dist_c = edge_vec.distanceToPlane (s_Center, P_node.axis) # distance to center
-      else:
+      else   *
         P_face = self.__Shape.Faces[P_node.idx]
         radVector = radial_vector(edge_vec, P_face.Surface.Center, P_face.Surface.Axis)
-        if P_node.bend_dir == "down":
+        if P_node.bend_dir == "down"   *
           dist_c = edge_vec.distanceToPlane (s_Center, radVector.multiply(-1.0))
-        else:
+        else   *
           dist_c = edge_vec.distanceToPlane (s_Center, radVector)
           
-      if dist_c < 0.0:
+      if dist_c < 0.0   *
         newNode.bend_dir = "down"
         thick_test = self.__Shape.Faces[face_idx].Surface.Radius - self.__thickness
-      else:
+      else   *
         newNode.bend_dir = "up"
         thick_test = self.__Shape.Faces[face_idx].Surface.Radius + self.__thickness
       newNode.distCenter = thick_test
-      # print "Face idx: ", face_idx, " bend_dir: ", newNode.bend_dir
-      print "Face", face_idx+1, " Type: ", newNode.node_type, " bend_dir: ", newNode.bend_dir
+      # print "Face idx   * ", face_idx, " bend_dir   * ", newNode.bend_dir
+      print "Face", face_idx+1, " Type   * ", newNode.node_type, " bend_dir   * ", newNode.bend_dir
       
       # need to define the bending angle relative to the Center and the
-      # Axis of the bend surface:
-      # search for line-edges with no common point with edge_vec and fixme: not in the same line
-      # fixme: there could be more than one edge meeting the criteria!
+      # Axis of the bend surface   *
+      # search for line-edges with no common point with edge_vec and fixme   * not in the same line
+      # fixme   * there could be more than one edge meeting the criteria!
       number_c_edges = 0
-      for s_edge in self.__Shape.Faces[face_idx].Edges:
+      for s_edge in self.__Shape.Faces[face_idx].Edges   *
         c_edg_found = True
         type_str = str(s_edge.Curve)
-        if type_str.find('Line') == -1:
+        if type_str.find('Line') == -1   *
           c_edg_found = False
           # print "found circle in c_edge search"
-        else:
+        else   *
           # print "found line in c_edge search"
-          for E_vert in s_edge.Vertexes:
-            if equal_vertex(E_vert, P_edge.Vertexes[0]):
+          for E_vert in s_edge.Vertexes   *
+            if equal_vertex(E_vert, P_edge.Vertexes[0])   *
               c_edg_found = False
-        if c_edg_found:
+        if c_edg_found   *
           c_edge = s_edge
           number_c_edges = number_c_edges + 1
           # print " found the second Line edge of the bend face"
           # Part.show(c_edge)
-      if number_c_edges > 1:
+      if number_c_edges > 1   *
         newNode.analysis_ok = False # the code can not handle bend faces with more than one child!
         newNode.error_code = 12 # ('more than one bend-childs')
         self.error_code = 12
@@ -771,7 +771,7 @@ class SheetTree(object):
       length_0 = self.__Shape.Faces[face_idx].ParameterRange[2]
       length_1 = self.__Shape.Faces[face_idx].ParameterRange[3]
       
-      # idea: identify the angle at edge_vec = P_edge.Vertexes[0].copy().Point
+      # idea   * identify the angle at edge_vec = P_edge.Vertexes[0].copy().Point
       # This will be = angle_start
       # identify rotSign from angle_end minus angle_start
       # The tangentvector will be in direction of position at angle_sta + rotSign*90°
@@ -781,41 +781,41 @@ class SheetTree(object):
       parPos10 = self.__Shape.Faces[face_idx].valueAt(angle_1,length_0)
       parPos11 = self.__Shape.Faces[face_idx].valueAt(angle_1,length_1)
       
-      if equal_vector(edge_vec, parPos00):
+      if equal_vector(edge_vec, parPos00)   *
         print "got case 00"
         angle_start = angle_0
         angle_end = angle_1
         len_start = length_0
-      else:
-        if equal_vector(edge_vec, parPos01):
+      else   *
+        if equal_vector(edge_vec, parPos01)   *
           print "got case 01"
           angle_start = angle_0
           angle_end = angle_1
           len_start = length_1
-        else:
-          if equal_vector(edge_vec, parPos10):
+        else   *
+          if equal_vector(edge_vec, parPos10)   *
             print "got case 10"
             angle_start = angle_1
             angle_end = angle_0
             len_start = length_0
-          else:
-            if equal_vector(edge_vec, parPos11):
+          else   *
+            if equal_vector(edge_vec, parPos11)   *
               print "got case 11" 
               angle_start = angle_1
               angle_end = angle_0
               len_start = length_1
-            else:
+            else   *
               newNode.analysis_ok = False
-              newNode.error_code = 16 # Analysis: did not find startangle of bend
+              newNode.error_code = 16 # Analysis   * did not find startangle of bend
               self.error_code = 16
               self.failed_face_idx = face_idx
               print "did not found start angle, to do to fix"
         
       newNode.bend_angle = angle_end - angle_start
-      if newNode.bend_angle < 0.0:
+      if newNode.bend_angle < 0.0   *
         angle_tan = angle_start - math.pi/2.0
         # newNode.bend_angle = -newNode.bend_angle
-      else:
+      else   *
         angle_tan = angle_start + math.pi/2.0
       tanPos = self.__Shape.Faces[face_idx].valueAt(angle_tan,len_start)
       tan_vec = radial_vector(tanPos, s_Center, s_Axis)
@@ -824,43 +824,43 @@ class SheetTree(object):
       first_vec = radial_vector(edge_vec, s_Center, s_Axis)
       cross_vec = first_vec.cross(tan_vec)
       triple_prod = cross_vec.dot(s_Axis)
-      print " the new bend_angle: ", math.degrees(newNode.bend_angle), "triple_prod: ", triple_prod
+      print " the new bend_angle   * ", math.degrees(newNode.bend_angle), "triple_prod   * ", triple_prod
       # testing showed, that the bend_angle has to be changed in sign
       # at the following conditions.
       if ((triple_prod > 0.0) and (newNode.bend_angle > 0.0)) or \
-        ((triple_prod < 0.0) and (newNode.bend_angle < 0.0)):
+        ((triple_prod < 0.0) and (newNode.bend_angle < 0.0))   *
         newNode.bend_angle = -newNode.bend_angle
         print "minus bend_angle"
 
 
 
-      if newNode.bend_dir == 'up':
+      if newNode.bend_dir == 'up'   *
         k_Factor = 0.65 + 0.5*math.log10(self.__Shape.Faces[face_idx].Surface.Radius/self.__thickness)
-        print "Face", newNode.idx+1, " k-factor: ", k_Factor
+        print "Face", newNode.idx+1, " k-factor   * ", k_Factor
         newNode._trans_length = (self.__Shape.Faces[face_idx].Surface.Radius + k_Factor * self.__thickness/2.0) * newNode.bend_angle
-      else:
+      else   *
         k_Factor = 0.65 + 0.5*math.log10((self.__Shape.Faces[face_idx].Surface.Radius - self.__thickness)/self.__thickness)
         newNode._trans_length = (self.__Shape.Faces[face_idx].Surface.Radius - self.__thickness \
                                   + k_Factor * self.__thickness/2.0) * newNode.bend_angle
-      if newNode._trans_length < 0.0:
+      if newNode._trans_length < 0.0   *
         newNode._trans_length = -newNode._trans_length
         # the _trans_length is always positive, due to correct tan_vec
 
 
-      # calculate mean point of face:
+      # calculate mean point of face   *
       # fixme implement also for cylindric faces
 
-      # Search the face at the opposite site of the sheet:
-      #for i in range(len(such_list)):
-      for i in such_list:
+      # Search the face at the opposite site of the sheet   *
+      #for i in range(len(such_list))   *
+      for i in such_list   *
         counter_found = True
-        for F_vert in self.f_list[i].Vertexes:
+        for F_vert in self.f_list[i].Vertexes   *
           vF_vert = Base.Vector(F_vert.X, F_vert.Y, F_vert.Z)
           dist_c = vF_vert.distanceToLine (s_Center, s_Axis) - thick_test
-          if (dist_c > self.cFaceTol) or (dist_c < -self.cFaceTol):
+          if (dist_c > self.cFaceTol) or (dist_c < -self.cFaceTol)   *
             counter_found = False
   
-        if counter_found:
+        if counter_found   *
           # to do calculate mean point of counter face
 
           #print "found counter Face", such_list[i]+1
@@ -873,49 +873,49 @@ class SheetTree(object):
 
     # Part.show(self.__Shape.Faces[newNode.c_face_idx])
     # Part.show(self.__Shape.Faces[newNode.idx])
-    if newNode.c_face_idx == None:
+    if newNode.c_face_idx == None   *
       newNode.analysis_ok = False
-      newNode.error_code = 13 # Analysis: counter face not found
+      newNode.error_code = 13 # Analysis   * counter face not found
       self.error_code = 13
       self.failed_face_idx = face_idx
-      print "No counter-face Debugging Thickness: ", self.__thickness
+      print "No counter-face Debugging Thickness   * ", self.__thickness
       Part.show(self.__Shape.Faces[face_idx])
 
     # now we call the new code
     self.get_node_faces(newNode, wires_e_lists)
-    #for nFace in newNode.nfIndexes:
+    #for nFace in newNode.nfIndexes   *
     #  Part.show(nFace)
 
 
-    if P_node == None:
+    if P_node == None   *
       self.root = newNode
-    else:
+    else   *
       P_node.child_list.append(newNode)
     return newNode
 
 
 
 
-  def search_face(self, sf_edge, the_node):
+  def search_face(self, sf_edge, the_node)   *
     # search for the connecting face to sf_edge in the faces of a node
-    search_List = the_node.nfIndexes[:]
+    search_List = the_node.nfIndexes[   *]
     search_List.remove(the_node.idx)
     the_index = None
-    for i in search_List:     #self.index_list:
-      for n_edge in self.f_list[i].Edges:
-        if sf_edge.isSame(n_edge):
+    for i in search_List   *     #self.index_list   *
+      for n_edge in self.f_list[i].Edges   *
+        if sf_edge.isSame(n_edge)   *
           the_index = i
           
-    #if the_index == None:
+    #if the_index == None   *
     #  the_node.analysis_ok = False # the code can not handle? edges without neighbor faces
-    #  the_node.error_code = 14 # Analysis: the code can not handle? edges without neighbor faces
+    #  the_node.error_code = 14 # Analysis   * the code can not handle? edges without neighbor faces
     #  self.error_code = 14
     #  self.failed_face_idx = the_node.idx
       
     return the_index
 
 
-  def Bend_analysis(self, face_idx, parent_node = None, parent_edge = None):
+  def Bend_analysis(self, face_idx, parent_node = None, parent_edge = None)   *
     # This functions traverses the shape in order to build the bend-tree
     # For each relevant face a t_node is created and linked into the tree
     # the linking is done in the call of self.make_new_face_node
@@ -924,72 +924,72 @@ class SheetTree(object):
     # edge_list = []
     wires_edge_lists = []
     wire_idx = -1
-    for n_wire in self.f_list[face_idx].Wires:
+    for n_wire in self.f_list[face_idx].Wires   *
       wire_idx += 1
       wires_edge_lists.append([])
-      #for n_edge in self.__Shape.Faces[face_idx].Edges:
-      for n_edge in n_wire.Edges:
-        if parent_edge:
-          if not parent_edge.isSame(n_edge):
+      #for n_edge in self.__Shape.Faces[face_idx].Edges   *
+      for n_edge in n_wire.Edges   *
+        if parent_edge   *
+          if not parent_edge.isSame(n_edge)   *
             #edge_list.append(n_edge)
             wires_edge_lists[wire_idx].append(n_edge)
           #
-        else:
+        else   *
           #edge_list.append(n_edge)
           wires_edge_lists[wire_idx].append(n_edge)
-    if parent_node:
+    if parent_node   *
       print " Parent Face", parent_node.idx + 1
-    print "Die Liste: ", self.index_list
+    print "Die Liste   * ", self.index_list
     t_node = self.make_new_face_node(face_idx, parent_node, parent_edge, wires_edge_lists)
     # Need also the edge_list in the node!
-    print "Die Liste nach make_new_face_node: ", self.index_list# in the new code, only the list of child faces will be analyzed.
+    print "Die Liste nach make_new_face_node   * ", self.index_list# in the new code, only the list of child faces will be analyzed.
     removalList = []
-    for child_info in t_node.child_idx_lists:
-      if child_info[0] in self.index_list:
-        print "child in List: ", child_info[0]
+    for child_info in t_node.child_idx_lists   *
+      if child_info[0] in self.index_list   *
+        print "child in List   * ", child_info[0]
         self.Bend_analysis(child_info[0], t_node, child_info[1])
-      else:
-        print "remove child from List: ", child_info[0]
+      else   *
+        print "remove child from List   * ", child_info[0]
         t_node.seam_edges.append(child_info[1]) # give Information to the node, that it has a seam.
-        print "node faces before: ", t_node.nfIndexes
+        print "node faces before   * ", t_node.nfIndexes
         self.makeSeamFace(child_info[1], t_node)
         removalList.append(child_info)
-        print "node faces with seam: ", t_node.nfIndexes
+        print "node faces with seam   * ", t_node.nfIndexes
         otherSeamNode = self.searchNode(child_info[0], self.root)
-        print "counterface on otherSeamNode: Face", otherSeamNode.c_face_idx+1
+        print "counterface on otherSeamNode   * Face", otherSeamNode.c_face_idx+1
         self.makeSeamFace(child_info[1], otherSeamNode)
         #t_node.analysis_ok = False # the code can not handle? edges without neighbor faces
-        #t_node.error_code = 14 # Analysis: the code can not handle? edges without neighbor faces
+        #t_node.error_code = 14 # Analysis   * the code can not handle? edges without neighbor faces
         #self.error_code = 14
         #self.failed_face_idx = t_node.idx
         #break
-    for seams in removalList:
+    for seams in removalList   *
       t_node.child_idx_lists.remove(seams)
       
   
   
-  def searchNode(self, theIdx, sNode):
+  def searchNode(self, theIdx, sNode)   *
     # search for a Node with theIdx in sNode.idx
-    print "my Idx: ", sNode.idx
+    print "my Idx   * ", sNode.idx
 
-    if sNode.idx == theIdx:
+    if sNode.idx == theIdx   *
       return sNode
-    else:
+    else   *
       result = None
       childFaces = []
-      for n_node in sNode.child_list:
+      for n_node in sNode.child_list   *
         childFaces.append(n_node.idx)
-      print "my children: ", childFaces
+      print "my children   * ", childFaces
       
-      for n_node in sNode.child_list:
+      for n_node in sNode.child_list   *
         nextSearch = self.searchNode(theIdx, n_node)
-        if nextSearch <> None:
+        if nextSearch <> None   *
           result = nextSearch
           break
-    if result<>None:
-      print "this is the result: ", result.idx
-    else:
-      print "this is the result: ", Nonereturn result# suche bei mir. wenn ja liefere ab
+    if result<>None   *
+      print "this is the result   * ", result.idx
+    else   *
+      print "this is the result   * ", Nonereturn result# suche bei mir. wenn ja liefere ab
     # sonst sind Kinder da?
     # Wenn Kinder vorhanden, frag solange Kinder bis gefunden
     # oder kein Kind mehr da.
@@ -997,7 +997,7 @@ class SheetTree(object):
 
 
 
-  def makeSectionWire(self, theEdge, W_node, Dir = 'up'):
+  def makeSectionWire(self, theEdge, W_node, Dir = 'up')   *
     #print "mSW Face", W_node.idx +1
     # makes a Section wire through the shape
     # The section wire is used to generate a new flat shell
@@ -1010,13 +1010,13 @@ class SheetTree(object):
     s_Center = self.f_list[W_node.idx].Surface.Center
     s_Axis = self.f_list[W_node.idx].Surface.Axis
     vec1 = radial_vector(origin, s_Center, s_Axis)
-    vec1.multiply(self.__thickness)# defining the points of the section plane:
-    if W_node.bend_dir == 'up':
+    vec1.multiply(self.__thickness)# defining the points of the section plane   *
+    if W_node.bend_dir == 'up'   *
       Spnt1 = origin - vec1 - o_thick
       Spnt2 = origin - vec1 + o_vec + o_thick
       Spnt3 = origin +  vec1 +  vec1 + o_vec + o_thick
       Spnt4 = origin +  vec1 +  vec1 - o_thick
-    else:
+    else   *
       Spnt4 = origin - vec1 - vec1 - o_thick
       Spnt3 = origin - vec1 - vec1 + o_vec + o_thick
       Spnt2 = origin +  vec1  + o_vec + o_thick
@@ -1032,34 +1032,34 @@ class SheetTree(object):
     # Part.show(Sf1)# find the nearest vertex of theEdge to a plane through s_Center
     # The section-wire should start at this vertex
     if (theEdge.Vertexes[0].Point.distanceToPlane(s_Center, s_Axis) <
-        theEdge.Vertexes[1].Point.distanceToPlane(s_Center, s_Axis)):
+        theEdge.Vertexes[1].Point.distanceToPlane(s_Center, s_Axis))   *
       next_pnt = theEdge.Vertexes[1]
       start_pnt = theEdge.Vertexes[0]
       start_idx = 0
       end_idx = 1
-    else:
+    else   *
       next_pnt = theEdge.Vertexes[0]
       start_pnt = theEdge.Vertexes[1]
       start_idx = 1
       end_idx = 0
 
-    # for i in self.index_list:    
-    for i in W_node.nfIndexes:
+    # for i in self.index_list   *    
+    for i in W_node.nfIndexes   *
       singleEdge = Sf1.section(self.f_list[i])
       # Part.show(singleEdge)
-      #print "section edges: ", len(singleEdge.Edges)
-      for j in range(len(singleEdge.Edges)):
-        if (equal_vertex(singleEdge.Edges[j].Vertexes[0], start_pnt)):
+      #print "section edges   * ", len(singleEdge.Edges)
+      for j in range(len(singleEdge.Edges))   *
+        if (equal_vertex(singleEdge.Edges[j].Vertexes[0], start_pnt))   *
           lastEdge = singleEdge.Edges[j].copy()
           lastConnect = 1
-        if (equal_vertex(singleEdge.Edges[j].Vertexes[1], start_pnt)):
+        if (equal_vertex(singleEdge.Edges[j].Vertexes[1], start_pnt))   *
           lastEdge = singleEdge.Edges[j].copy()
           lastConnect = 0
       
-        if (equal_vertex(singleEdge.Edges[j].Vertexes[0], next_pnt)):
+        if (equal_vertex(singleEdge.Edges[j].Vertexes[0], next_pnt))   *
           nextEdge = singleEdge.Edges[j].copy()
           nextConnect = 1
-        if (equal_vertex(singleEdge.Edges[j].Vertexes[1], next_pnt)):
+        if (equal_vertex(singleEdge.Edges[j].Vertexes[1], next_pnt))   *
           nextEdge = singleEdge.Edges[j].copy()
           nextConnect = 0startEdge = Part.makeLine(start_pnt.Point, next_pnt.Point)
     middleEdge = Part.makeLine(nextEdge.Vertexes[nextConnect].Point, lastEdge.Vertexes[lastConnect].Point)Swire1 = Part.Wire([startEdge, nextEdge, middleEdge, lastEdge ])
@@ -1070,7 +1070,7 @@ class SheetTree(object):
     
 
 
-  def generateBendShell(self, bend_node):
+  def generateBendShell(self, bend_node)   *
     #print "genBendShell Face", bend_node.idx +1
     # make new flat faces for the bend_node and return them
     # the k-Factor is already included in bend_node._trans_length# Part.show(self.__Shape.copy())
@@ -1078,37 +1078,37 @@ class SheetTree(object):
       
     trans_vec = bend_node.tan_vec * bend_node._trans_length
 
-    # o_edge: originating edge of the bend = parent edge
+    # o_edge   * originating edge of the bend = parent edge
     o_edge = bend_node.p_edge.copy()
     # We want a section wire at the start of the bend_node, in order
     # to regenerate a flat body with this section wire.
-    # 3 vectors are needed to generate a section plane: vec1 and 
+    # 3 vectors are needed to generate a section plane   * vec1 and 
     # a vector from o_edge and a vector with same direction of o_edge,
     # but with a length of two times the thickness
     o_wire = self.makeSectionWire(o_edge, bend_node, bend_node.bend_dir)
     #Part.show(o_wire)
 # The same vectors are needed for the other side of the bend face
-    if len(bend_node.child_list)>=1:
-      child_node = bend_node.child_list[0] # fixme: there could be more than one child node for a bend face.
+    if len(bend_node.child_list)>=1   *
+      child_node = bend_node.child_list[0] # fixme   * there could be more than one child node for a bend face.
       # bend_edge = bend_node.edge_pool[child_node.idx][0] 
       bend_edge = child_node.p_edge.copy()
 
       b_wire = self.makeSectionWire(bend_edge, bend_node, bend_node.bend_dir).copy()
       
-    else:
+    else   *
       number_c_edges = 0
-      for s_edge in self.f_list[bend_node.idx].Edges:
+      for s_edge in self.f_list[bend_node.idx].Edges   *
         c_edg_found = True
         type_str = str(s_edge.Curve)
-        if type_str.find('Line') == -1:
+        if type_str.find('Line') == -1   *
           c_edg_found = False
           print "found circle in c_edge search in bend Face", bend_node.idx+1
-        else:
+        else   *
           print "found line in c_edge search in bend Face", bend_node.idx+1
-          for E_vert in s_edge.Vertexes:
-            if equal_vertex(E_vert, bend_node.p_edge.Vertexes[0]):
+          for E_vert in s_edge.Vertexes   *
+            if equal_vertex(E_vert, bend_node.p_edge.Vertexes[0])   *
               c_edg_found = False
-        if c_edg_found:
+        if c_edg_found   *
           bend_edge = s_edge
           number_c_edges = number_c_edges + 1
           print " found the second Line edge of the bend Face", bend_node.idx+1
@@ -1121,7 +1121,7 @@ class SheetTree(object):
       
       t_idx = self.search_face(bend_edge, bend_node)
       # Part.show(self.f_list[t_idx])
-      if t_idx <> None:
+      if t_idx <> None   *
         topFace = self.f_list[t_idx].copy()
         topFace.rotate(self.f_list[bend_node.idx].Surface.Center,bend_node.axis,math.degrees(bend_node.bend_angle))
         topFace.translate(trans_vec)
@@ -1134,41 +1134,41 @@ class SheetTree(object):
         # find the nearest vertex of bend_edge to a plane through s_Center
         # The section-wire should start at this vertex
         if (bend_edge.Vertexes[0].Point.distanceToPlane(s_Center, s_Axis) <
-            bend_edge.Vertexes[1].Point.distanceToPlane(s_Center, s_Axis)):
+            bend_edge.Vertexes[1].Point.distanceToPlane(s_Center, s_Axis))   *
           next_pnt = bend_edge.Vertexes[1].Point
           start_pnt = bend_edge.Vertexes[0].Point
           start_idx = 0
           end_idx = 1
-        else:
+        else   *
           next_pnt = bend_edge.Vertexes[0].Point
           start_pnt = bend_edge.Vertexes[1].Point
           start_idx = 1
-          end_idx = 0    b_wireList = self.f_list[t_idx].Edges[:]
-        #for remEdge in b_wireList:
+          end_idx = 0    b_wireList = self.f_list[t_idx].Edges[   *]
+        #for remEdge in b_wireList   *
         #  print "in b_wireList"
         #  Part.show(remEdge)
 
-        for remEdge in b_wireList:
+        for remEdge in b_wireList   *
           # Part.show(remEdge)
-          if remEdge.isSame(bend_edge):
+          if remEdge.isSame(bend_edge)   *
             b_wireList.remove(remEdge)
             break
         
-        for singleEdge in b_wireList:
+        for singleEdge in b_wireList   *
           #Part.show(singleEdge)
-          # print "section edges: ", len(singleEdge.Edges)
-          if len(singleEdge.Edges) == 1:
-            if (DraftVecUtils.equals(singleEdge.Edges[0].Vertexes[0].Point, start_pnt)):
+          # print "section edges   * ", len(singleEdge.Edges)
+          if len(singleEdge.Edges) == 1   *
+            if (DraftVecUtils.equals(singleEdge.Edges[0].Vertexes[0].Point, start_pnt))   *
               lastEdge = singleEdge.Edges[0].copy()
               lastConnect = 1
-            if (DraftVecUtils.equals(singleEdge.Edges[0].Vertexes[1].Point, start_pnt)):
+            if (DraftVecUtils.equals(singleEdge.Edges[0].Vertexes[1].Point, start_pnt))   *
               lastEdge = singleEdge.Edges[0].copy()
               lastConnect = 0
           
-            if (DraftVecUtils.equals(singleEdge.Edges[0].Vertexes[0].Point, next_pnt)):
+            if (DraftVecUtils.equals(singleEdge.Edges[0].Vertexes[0].Point, next_pnt))   *
               nextEdge = singleEdge.Edges[0].copy()
               nextConnect = 1
-            if (DraftVecUtils.equals(singleEdge.Edges[0].Vertexes[1].Point, next_pnt)):
+            if (DraftVecUtils.equals(singleEdge.Edges[0].Vertexes[1].Point, next_pnt))   *
               nextEdge = singleEdge.Edges[0].copy()
               nextConnect = 0
         
@@ -1178,7 +1178,7 @@ class SheetTree(object):
         b_wire = Part.Wire([startEdge, nextEdge, middleEdge, lastEdge ])
         # Part.show(Swire1)
         
-      else:
+      else   *
         print "Found no Face?!"
         # there is a seam in the metal sheet. 
         # Generate a new face for the seam.
@@ -1195,90 +1195,90 @@ class SheetTree(object):
         # find the nearest vertex of bend_edge to a plane through s_Center
         # The section-wire should start at this vertex
         if (bend_edge.Vertexes[0].Point.distanceToPlane(s_Center, s_Axis) <
-            bend_edge.Vertexes[1].Point.distanceToPlane(s_Center, s_Axis)):
+            bend_edge.Vertexes[1].Point.distanceToPlane(s_Center, s_Axis))   *
           next_pnt = bend_edge.Vertexes[1].Point
           start_pnt = bend_edge.Vertexes[0].Point
           start_idx = 0
           end_idx = 1
-        else:
+        else   *
           next_pnt = bend_edge.Vertexes[0].Point
           start_pnt = bend_edge.Vertexes[1].Point
           start_idx = 1
           end_idx = 0
         # find the nextEdge in the node faces
         
-        search_List = bend_node.nfIndexes[:]
+        search_List = bend_node.nfIndexes[   *]
         search_List.remove(bend_node.idx)
         the_index = None
         next_idx = None
-        for i in search_List:
-          for theEdge in self.f_list[i].Edges:
-            if len(theEdge.Vertexes)>1:
-              if equal_vector(theEdge.Vertexes[0].Point, next_pnt):
+        for i in search_List   *
+          for theEdge in self.f_list[i].Edges   *
+            if len(theEdge.Vertexes)>1   *
+              if equal_vector(theEdge.Vertexes[0].Point, next_pnt)   *
                 next_idx = 1
-              if equal_vector(theEdge.Vertexes[1].Point, next_pnt):
+              if equal_vector(theEdge.Vertexes[1].Point, next_pnt)   *
                 next_idx = 0
-              if next_idx <> None:
-                if self.isVertOpposite(theEdge.Vertexes[next_idx], bend_node):
+              if next_idx <> None   *
+                if self.isVertOpposite(theEdge.Vertexes[next_idx], bend_node)   *
                   nextEdge = theEdge.copy()
                   search_List.remove(i)
                   the_index = i
                   break
-                else:
+                else   *
                   next_idx = None
-          if the_index <> None:
+          if the_index <> None   *
             break
 
         #find the lastEdge
         last_idx = None
-        for i in search_List:
-          for theEdge in self.f_list[i].Edges:
-            if len(theEdge.Vertexes)>1:
-              if equal_vector(theEdge.Vertexes[0].Point, start_pnt):
+        for i in search_List   *
+          for theEdge in self.f_list[i].Edges   *
+            if len(theEdge.Vertexes)>1   *
+              if equal_vector(theEdge.Vertexes[0].Point, start_pnt)   *
                 last_idx = 1
-              if equal_vector(theEdge.Vertexes[1].Point, start_pnt):
+              if equal_vector(theEdge.Vertexes[1].Point, start_pnt)   *
                 last_idx = 0
-              if last_idx <> None:
-                if self.isVertOpposite(theEdge.Vertexes[last_idx], bend_node):
+              if last_idx <> None   *
+                if self.isVertOpposite(theEdge.Vertexes[last_idx], bend_node)   *
                   lastEdge = theEdge.copy()
                   search_List.remove(i)
                   the_index = i
                   break
-                else:
+                else   *
                   last_idx = None
-          if the_index <> None:
+          if the_index <> None   *
             break
             
         # find the middleEdge
-        for theEdge in self.f_list[bend_node.c_face_idx].Edges:
-          if len(theEdge.Vertexes)>1:
-            if equal_vector(theEdge.Vertexes[0].Point, start_pnt):
+        for theEdge in self.f_list[bend_node.c_face_idx].Edges   *
+          if len(theEdge.Vertexes)>1   *
+            if equal_vector(theEdge.Vertexes[0].Point, start_pnt)   *
               last_idx = 1
-            if equal_vector(theEdge.Vertexes[1].Point, start_pnt):
+            if equal_vector(theEdge.Vertexes[1].Point, start_pnt)   *
               last_idx = 0
-            if last_idx <> None:
-              if self.isVertOpposite(theEdge.Vertexes[last_idx], bend_node):
+            if last_idx <> None   *
+              if self.isVertOpposite(theEdge.Vertexes[last_idx], bend_node)   *
                 lastEdge = theEdge.copy()
                 search_List.remove(i)
                 the_index = i
                 break
-              else:
+              else   *
                 last_idx = None
         '''
 
 
     b_wire.rotate(self.f_list[bend_node.idx].Surface.Center,bend_node.axis,math.degrees(bend_node.bend_angle))
     b_wire.translate(trans_vec)#Part.show(b_wire)
-    #for vert in b_wire.Vertexes:
-    #  print "b_wire1 tol: ", vert.Tolerance#for ed in b_wire.Edges:
-    #  print "b_wire1 tol: ", ed.Vertexes[0].Tolerance, " ", ed.Vertexes[1].Tolerance
+    #for vert in b_wire.Vertexes   *
+    #  print "b_wire1 tol   * ", vert.Tolerance#for ed in b_wire.Edges   *
+    #  print "b_wire1 tol   * ", ed.Vertexes[0].Tolerance, " ", ed.Vertexes[1].Tolerance
       
     sweep_path = Part.makeLine(o_wire.Vertexes[0].Point, b_wire.Vertexes[0].Point)
     #Part.show(sweep_path)
 
     Bend_shell = Part.makeRuledSurface (o_wire, b_wire)
     # Part.show(Bend_shell)
-    for shell_face in Bend_shell.Faces:
+    for shell_face in Bend_shell.Faces   *
       flat_shell.append(shell_face )
 
 
@@ -1288,7 +1288,7 @@ class SheetTree(object):
     return flat_shell
 
 
-  def makeSeamFace(self, sEdge, theNode):
+  def makeSeamFace(self, sEdge, theNode)   *
     ''' This function creates a face at a seam of the sheet metal.
     It works currently only at a flat node.
     '''
@@ -1296,72 +1296,72 @@ class SheetTree(object):
     nextVert = sEdge.Vertexes[1]
     startVert = sEdge.Vertexes[0]
     start_idx = 0
-    end_idx = 1search_List = theNode.nfIndexes[:]
-    print "This is the search_List: ", search_List
+    end_idx = 1search_List = theNode.nfIndexes[   *]
+    print "This is the search_List   * ", search_List
     search_List.remove(theNode.idx)
     the_index = None
     next_idx = None
-    for i in search_List:
-      for theEdge in self.f_list[i].Edges:
-        if len(theEdge.Vertexes)>1:
-          if equal_vertex(theEdge.Vertexes[0], nextVert):
+    for i in search_List   *
+      for theEdge in self.f_list[i].Edges   *
+        if len(theEdge.Vertexes)>1   *
+          if equal_vertex(theEdge.Vertexes[0], nextVert)   *
             next_idx = 1
-          if equal_vertex(theEdge.Vertexes[1], nextVert):
+          if equal_vertex(theEdge.Vertexes[1], nextVert)   *
             next_idx = 0
-          if next_idx <> None:
-            if self.isVertOpposite(theEdge.Vertexes[next_idx], theNode):
+          if next_idx <> None   *
+            if self.isVertOpposite(theEdge.Vertexes[next_idx], theNode)   *
               nextEdge = theEdge.copy()
               search_List.remove(i)
               the_index = i
               #Part.show(nextEdge)
               break
-            else:
+            else   *
               next_idx = None
-      if the_index <> None:
+      if the_index <> None   *
         break
 
     #find the lastEdge
     last_idx = None
-    print "This is the search_List: ", search_List
-    for i in search_List:
+    print "This is the search_List   * ", search_List
+    for i in search_List   *
       #Part.show(self.f_list[i])
-      for theEdge in self.f_list[i].Edges:
-        print "find last Edge in Face: ", i, " at Edge: ", theEdge
-        if len(theEdge.Vertexes)>1:
-          if equal_vertex(theEdge.Vertexes[0], startVert):
+      for theEdge in self.f_list[i].Edges   *
+        print "find last Edge in Face   * ", i, " at Edge   * ", theEdge
+        if len(theEdge.Vertexes)>1   *
+          if equal_vertex(theEdge.Vertexes[0], startVert)   *
             last_idx = 1
-          if equal_vertex(theEdge.Vertexes[1], startVert):
+          if equal_vertex(theEdge.Vertexes[1], startVert)   *
             last_idx = 0
-          if last_idx <> None:
+          if last_idx <> None   *
             print "test for the last Edge"
-            if self.isVertOpposite(theEdge.Vertexes[last_idx], theNode):
+            if self.isVertOpposite(theEdge.Vertexes[last_idx], theNode)   *
               lastEdge = theEdge.copy()
               search_List.remove(i)
               the_index = i
               #Part.show(lastEdge)
               break
-            else:
+            else   *
               last_idx = None
-      if last_idx <> None:
+      if last_idx <> None   *
         break
         
     # find the middleEdge
     mid_idx = None
     midEdge = None
-    for theEdge in self.f_list[theNode.c_face_idx].Edges:
-      if len(theEdge.Vertexes)>1:
-        if equal_vertex(theEdge.Vertexes[0], nextEdge.Vertexes[next_idx]):
+    for theEdge in self.f_list[theNode.c_face_idx].Edges   *
+      if len(theEdge.Vertexes)>1   *
+        if equal_vertex(theEdge.Vertexes[0], nextEdge.Vertexes[next_idx])   *
           mid_idx = 1
-        if equal_vertex(theEdge.Vertexes[1], nextEdge.Vertexes[next_idx]):
+        if equal_vertex(theEdge.Vertexes[1], nextEdge.Vertexes[next_idx])   *
           mid_idx = 0
-        if mid_idx <> None:
-          if equal_vertex(theEdge.Vertexes[mid_idx], lastEdge.Vertexes[last_idx]):
+        if mid_idx <> None   *
+          if equal_vertex(theEdge.Vertexes[mid_idx], lastEdge.Vertexes[last_idx])   *
             midEdge = theEdge.copy()
             #Part.show(midEdge)
             break
-          else:
+          else   *
             mid_idx = None
-      if midEdge:
+      if midEdge   *
         break
 
     seam_wire = Part.Wire([sEdge, nextEdge, midEdge, lastEdge ])
@@ -1371,34 +1371,34 @@ class SheetTree(object):
     self.max_f_idx += 1
 
 
-  def showFaces(self):
-    for i in self.index_list:
+  def showFaces(self)   *
+    for i in self.index_list   *
       Part.show(self.f_list[i])
 
 
-  def unfold_tree2(self, node):
+  def unfold_tree2(self, node)   *
     # This function traverses the tree and unfolds the faces 
     # beginning at the outermost nodes.
     #print "unfold_tree face", node.idx + 1
     theShell = []
     nodeShell = []
-    for n_node in node.child_list:
-      if self.error_code == None:
+    for n_node in node.child_list   *
+      if self.error_code == None   *
         theShell = theShell + self.unfold_tree2(n_node)
-    if node.node_type == 'Bend':
+    if node.node_type == 'Bend'   *
       trans_vec = node.tan_vec * node._trans_length
-      for bFaces in theShell:
+      for bFaces in theShell   *
         bFaces.rotate(self.f_list[node.idx].Surface.Center,node.axis,math.degrees(node.bend_angle))
         bFaces.translate(trans_vec)
-      if self.error_code == None:
+      if self.error_code == None   *
         nodeShell = self.generateBendShell(node)
-    else:
-      if self.error_code == None:
+    else   *
+      if self.error_code == None   *
         # nodeShell = self.generateShell(node)
-        for idx in node.nfIndexes:
+        for idx in node.nfIndexes   *
           nodeShell.append(self.f_list[idx].copy())
-        #if len(node.seam_edges)>0:
-        #  for seamEdge in node.seam_edges:
+        #if len(node.seam_edges)>0   *
+        #  for seamEdge in node.seam_edges   *
         #    self.makeSeamFace(seamEdge, node)
     print "ufo finish face",node.idx +1
     return (theShell + nodeShell)
@@ -1408,80 +1408,80 @@ class SheetTree(object):
 
 
 mylist = Gui.Selection.getSelectionEx()
-# print 'Die Selektion: ',mylist
-# print 'Zahl der Selektionen: ', mylist.__len__()
+# print 'Die Selektion   * ',mylist
+# print 'Zahl der Selektionen   * ', mylist.__len__()
 
-if mylist.__len__() == 0:
+if mylist.__len__() == 0   *
   mw=FreeCADGui.getMainWindow()
   QtGui.QMessageBox.information(mw,"Error","""One flat face needs to be selected!""")
-else:
-  if mylist.__len__() > 1:
+else   *
+  if mylist.__len__() > 1   *
     mw=FreeCADGui.getMainWindow()
     QtGui.QMessageBox.information(mw,"Error","""Only one flat face has to be selected!""")
-  else:
+  else   *
     o = Gui.Selection.getSelectionEx()[0]
     print o.ObjectName
-    if len(o.SubObjects)>1:
+    if len(o.SubObjects)>1   *
       mw=FreeCADGui.getMainWindow()
       QtGui.QMessageBox.information(mw,"SubelementError","""Only one flat face has to be selected!""")
-    else:
+    else   *
       subelement = o.SubObjects[0]
-      if hasattr(subelement,'Surface'):
+      if hasattr(subelement,'Surface')   *
         s_type = str(subelement.Surface)
-        if s_type == "<Plane object>":
+        if s_type == "<Plane object>"   *
           mw=FreeCADGui.getMainWindow()
           #QtGui.QMessageBox.information(mw,"Hurra","""Lets try unfolding!""")
-          print "name: ",subelement
+          print "name   * ",subelement
           f_number = int(o.SubElementNames[0].lstrip('Face'))-1
           #print f_number
           startzeit = time.clock()
           TheTree = SheetTree(o.Object.Shape, f_number) # initializes the tree-structure
-          if TheTree.error_code == None:
+          if TheTree.error_code == None   *
             TheTree.Bend_analysis(f_number, None) # traverses the shape builds the tree-structure
             endzeit = time.clock()
-            print "Analytical time: ",endzeit-startzeit
+            print "Analytical time   * ",endzeit-startzeit
             
-            if TheTree.error_code == None:
+            if TheTree.error_code == None   *
               # TheTree.showFaces()
               theFaceList = TheTree.unfold_tree2(TheTree.root) # traverses the tree-structure
-              if TheTree.error_code == None:
+              if TheTree.error_code == None   *
                 unfoldTime = time.clock()
-                print "time to run the unfold: ", unfoldTime - endzeit
+                print "time to run the unfold   * ", unfoldTime - endzeit
 
-                try:
+                try   *
                     newShell = Part.Shell(theFaceList)
-                except:
+                except   *
                     print("couldn't join some faces, show only single faces")
-                    for newFace in theFaceList:
+                    for newFace in theFaceList   *
                       Part.show(newFace)
-                else:
+                else   *
                   
-                  try:
+                  try   *
                       TheSolid = Part.Solid(newShell)
                       solidTime = time.clock()
-                      print "time to make the solid: ", solidTime - unfoldTime
-                  except:
-                      print ("couldn't make a solid, show only a shell, Faces in List: ", len(theFaceList)) 
+                      print "time to make the solid   * ", solidTime - unfoldTime
+                  except   *
+                      print ("couldn't make a solid, show only a shell, Faces in List   * ", len(theFaceList)) 
                       Part.show(newShell)
                       showTime = time.clock()
-                      print "Show time: ", showTime - unfoldTime
-                  else:
+                      print "Show time   * ", showTime - unfoldTime
+                  else   *
                     Part.show(TheSolid)
                     showTime = time.clock()
-                    print "Show time: ", showTime - solidTime, " total time: ", showTime - startzeit
+                    print "Show time   * ", showTime - solidTime, " total time   * ", showTime - startzeit
           
-          if TheTree.error_code <> None:
+          if TheTree.error_code <> None   *
             print "Error ", unfold_error[TheTree.error_code],
             print " at Face", TheTree.failed_face_idx+1
             QtGui.QMessageBox.information(mw,"Error",unfold_error[TheTree.error_code])
-          else:
+          else   *
             print "unfold successful"
 
                   
-        else:
+        else   *
           mw=FreeCADGui.getMainWindow()
           QtGui.QMessageBox.information(mw,"Selection Error","""Sheet UFO works only with a flat face as starter!\n Select a flat face.""")
-      else:
+      else   *
         mw=FreeCADGui.getMainWindow()
         QtGui.QMessageBox.information(mw,"Selection Error","""Sheet UFO works only with a flat face as starter!\n Select a flat face.""")
 

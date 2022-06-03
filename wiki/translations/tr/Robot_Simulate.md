@@ -1,10 +1,10 @@
 # Robot Simulate/tr
 ---
-- GuiCommand:/tr
-   Name:Robot Simulate
-   Name/tr:Simülasyon
-   Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot → Yörünge Simülasyonu---
+- GuiCommand   */tr
+   Name   *Robot Simulate
+   Name/tr   *Simülasyon
+   Workbenches   *[Robot](Robot_Workbench/tr.md)
+   MenuLocation   *Robot → Yörünge Simülasyonu---
 
 
 </div>
@@ -30,7 +30,7 @@ Simülasyon diyalog penceresini açar ve bir yörünge boyunca robot hareketini 
 
 </div>
 
-Result: This will open up a player dialog menu in the [Tree view](Tree_view.md).
+Result   * This will open up a player dialog menu in the [Tree view](Tree_view.md).
 
 ![](images/Robot_Simulation_Player.jpg )
 

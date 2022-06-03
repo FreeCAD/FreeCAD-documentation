@@ -16,7 +16,7 @@ Nach dem Import ist das Modell (für FreeCAD) nur eine Baugruppe von Flächen. D
 
 <div class="mw-translate-fuzzy">
 
-Um dies zu tun:
+Um dies zu tun   *
 
 -   zum Teile Arbeitsbereich wechseln
 -   Wähle das Netz aus und gehe zum Menü Teil \--\> Erzeuge Form aus Netz
@@ -29,7 +29,7 @@ Um dies zu tun:
 
 </div>
 
-**Hinweis**: Der letzte Schritt ist nicht notwendig, aber er reinigt den Festkörper von den meisten seiner Restkanten auf ebenen und zylindrischen Oberflächen.
+**Hinweis**   * Der letzte Schritt ist nicht notwendig, aber er reinigt den Festkörper von den meisten seiner Restkanten auf ebenen und zylindrischen Oberflächen.
 
 ## Fehler
 
@@ -50,8 +50,8 @@ Nun, deine Schale scheint Fehler zu haben, vielleicht ist sie nicht geschlossen 
 
 ## Drittanbieterprogramme
 
--   [Meshlab](http://meshlab.sourceforge.net/)
-    -   Lizenz: Quelloffen (GPL V2)
+-   [Meshlab](http   *//meshlab.sourceforge.net/)
+    -   Lizenz   * Quelloffen (GPL V2)
     -   Läuft unter Windows 32/64 Bit, Linux und Mac OS X
 
 
@@ -60,8 +60,8 @@ Nun, deine Schale scheint Fehler zu haben, vielleicht ist sie nicht geschlossen 
 
 <div class="mw-translate-fuzzy">
 
--   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1)
-    -   Lizenz: Freeware
+-   [netFabb basic](http   *//www.netfabb.com/downloadcenter.php?basic=1)
+    -   Lizenz   * Freeware
     -   Läuft unter Windows XP/7/8, Linux und Mac OS X
 
 
@@ -83,6 +83,8 @@ Nun, deine Schale scheint Fehler zu haben, vielleicht ist sie nicht geschlossen 
 ## Verwandt
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
+
+[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
 
 
 

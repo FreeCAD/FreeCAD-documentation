@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw Annotation
-   Name/it:Annotazione
-   MenuLocation:TechDraw → Annotazioni → Annotazione
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Testo Draft](Draft_Text/it.md), [Forma da testo di Draft](Draft_ShapeString/it.md)
+- GuiCommand   */it
+   Name   *TechDraw Annotation
+   Name/it   *Annotazione
+   MenuLocation   *TechDraw → Annotazioni → Annotazione
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Testo Draft](Draft_Text/it.md), [Forma da testo di Draft](Draft_ShapeString/it.md)
 ---
 
 # TechDraw Annotation/it
@@ -16,7 +16,7 @@
 
 Lo strumento Annotazione aggiunge un blocco di testo a una pagina di disegno.
 
-<img alt="" src=images/AnnotationSample.png  style="width:250px;"> 
+<img alt="" src=images/AnnotationSample.png  style="width   *250px;"> 
 *Annotazione nella pagina di disegno*
 
 ## Utilizzo
@@ -30,27 +30,27 @@ Lo strumento Annotazione aggiunge un blocco di testo a una pagina di disegno.
 *Modifica dell'annotazione tramite l'editor delle proprietà*
 
 
-**Note:**
+**Note   ***
 
-alcuni caratteri interferiscono con la rappresentazione interna del testo dell\'annotazione. Nello specifico, questi sono le doppie virgolette `"`, i simboli minore di `<` e maggiore di `>`; questi caratteri devono essere sostituiti rispettivamente dai caratteri di escape HTML,`&amp;quot;`, `&amp;lt;`, e `&amp;gt;`. Per i dettagli vedere [Character encodings in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references).
+alcuni caratteri interferiscono con la rappresentazione interna del testo dell\'annotazione. Nello specifico, questi sono le doppie virgolette `"`, i simboli minore di `<` e maggiore di `>`; questi caratteri devono essere sostituiti rispettivamente dai caratteri di escape HTML,`&amp;quot;`, `&amp;lt;`, e `&amp;gt;`. Per i dettagli vedere [Character encodings in HTML](https   *//en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references).
 
 ## Proprietà
 
 L\'Annotazione eredita tutte proprietà applicabili dalla Vista di base, tranne **Scale**. Al suo posto usa la proprietà **TextSize**.
 
--    **Text**: Il testo da visualizzare.
+-    **Text**   * Il testo da visualizzare.
 
--    **Font**: Il nome del font da usare. Annotazione utilizza la migliore combinazione di font installati.
+-    **Font**   * Il nome del font da usare. Annotazione utilizza la migliore combinazione di font installati.
 
--    **TextColor**: Il colore del testo.
+-    **TextColor**   * Il colore del testo.
 
--    **TextSize**: La dimensione del testo in mm.
+-    **TextSize**   * La dimensione del testo in mm.
 
--    **MaxWidth**: La larghezza massima del blocco di annotazione. -1 Indica nessuna larghezza massima.
+-    **MaxWidth**   * La larghezza massima del blocco di annotazione. -1 Indica nessuna larghezza massima.
 
--    **LineSpace**: Regolazione dell\'interlinea (%).
+-    **LineSpace**   * Regolazione dell\'interlinea (%).
 
--    **TextStyle**: Stile del testo \"Normal\", \"Bold\", \"Italic\", \"Bold-Italic\"
+-    **TextStyle**   * Stile del testo \"Normal\", \"Bold\", \"Italic\", \"Bold-Italic\"
 
 ## Script
 
@@ -58,7 +58,7 @@ L\'Annotazione eredita tutte proprietà applicabili dalla Vista di base, tranne 
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -68,14 +68,14 @@ L\'Annotazione eredita tutte proprietà applicabili dalla Vista di base, tranne 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Annotazione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Annotazione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
 
 
 ```python
-anno = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewAnnotation','TestAnno')
+anno = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewAnnotation','TestAnno')
 anno.Text = ['Different Text']
 anno.TextStyle = 'Bold'
 rc = page.addView(anno)

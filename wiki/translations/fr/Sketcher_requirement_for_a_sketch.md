@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Sketcher
-   Level:Débutant
-   Author:[Maker](User_Maker.md)
-   FCVersion:
+- TutorialInfo   */fr
+   Topic   *Sketcher
+   Level   *Débutant
+   Author   *[Maker](User_Maker.md)
+   FCVersion   *
 ---
 
 # Sketcher requirement for a sketch/fr
@@ -16,16 +16,16 @@
 
 La création d\'un corps dans l\'espace de travail PartDesign est déjà possible et **seulement** à l\'aide d\'une courbe fermée (profil). La détermination complète de toutes leurs dimensions et propriétés (*totalement contrainte*) n\'est pas encore requise.
 
-Qu\'une courbe fermée soit présente, ne va pas de soi et n\'est pas reconnaissable. Lorsque vous connectez un arc de cercle à une ligne droite, par ex. les deux points d\'extrémité sont créés uniquement l\'un au-dessus de l\'autre. Vous devez utiliser l\'outil Contrainte <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/fr.md) pour créer un seul point qui relie réellement la ligne et l\'arc.
+Qu\'une courbe fermée soit présente, ne va pas de soi et n\'est pas reconnaissable. Lorsque vous connectez un arc de cercle à une ligne droite, par ex. les deux points d\'extrémité sont créés uniquement l\'un au-dessus de l\'autre. Vous devez utiliser l\'outil Contrainte <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [Coincidente](Sketcher_ConstrainCoincident/fr.md) pour créer un seul point qui relie réellement la ligne et l\'arc.
 
 ![](images/Skizze2a.png )
 
 
 
 *Un simple croquis. 
-A gauche: courbe uniquement à quatre endroits (rouge, contraintes automatiques lors du dessin avec [<img src=images/Sketcher_CreatePolyline.svg style="width:32px"> [Polyligne](Sketcher_CreatePolyline/fr.md)) fermée.
-Au milieu: avertissement - ... face brisée (courbe brisée).
-A droite: courbe fermée aux quatre places restantes (vert)*
+A gauche   * courbe uniquement à quatre endroits (rouge, contraintes automatiques lors du dessin avec [<img src=images/Sketcher_CreatePolyline.svg style="width   *32px"> [Polyligne](Sketcher_CreatePolyline/fr.md)) fermée.
+Au milieu   * avertissement - ... face brisée (courbe brisée).
+A droite   * courbe fermée aux quatre places restantes (vert)*
 
 Cependant, un travail paramétrique cohérent signifie que l\'esquisse est complètement déterminée.
 

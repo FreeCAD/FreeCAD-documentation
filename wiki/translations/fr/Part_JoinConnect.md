@@ -5,7 +5,7 @@
    MenuLocation   *Part → Joindre → Connecter des objets
    Workbenches   *[Part](Part_Workbench/fr.md)
    Version   *0.16
-   SeeAlso   *[Part Intégrer des objets](Part_JoinEmbed/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+   SeeAlso   *[Part Intégrer](Part_JoinEmbed/fr.md), [Part Découper](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
 # Part JoinConnect/fr
@@ -60,7 +60,7 @@ Les algorithmes derrière les outils Joindre sont très simples, et les comprend
 
 ### Remarques
 
--   Si, à l\'étape 1, chaque objet reste en un seul morceau, le résultat de Connecter sera équivalent à l\'[Part union](Part_Fuse/fr.md) des objets.
+-   Si, à l\'étape 1, chaque objet reste en un seul morceau, le résultat de Connecter sera équivalent à la [Part Union](Part_Fuse/fr.md) des objets.
 -   Actuellement, tous les composés fournis sont explosés avant la connexion. Cela signifie que les composés à intersection automatique, qui ne sont pas valides pour toutes les autres opérations booléennes, sont valables pour Connecter. (Cela pourra être changé à l\'avenir.)
 -   La \"plus grande\" pièce est celle qui a la plus grande masse. C\'est-à-dire que pour les solides, les volumes sont comparés; pour les coques et les faces, les zones sont comparées, etc.
 -   Depuis FreeCAD v0.17.8053, et si la version OCC est la version 6.9.0 et ultérieure, Connecter est presque aussi rapide que toutes les autres opérations booléennes. Pour les versions plus anciennes, Connecter est environ 5 fois plus lent qu\'une opération booléenne normale et ne fonctionne que sur les solides.

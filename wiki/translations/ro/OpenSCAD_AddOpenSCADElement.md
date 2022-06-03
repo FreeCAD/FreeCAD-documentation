@@ -1,6 +1,6 @@
 # OpenSCAD AddOpenSCADElement/ro
 ---
-- GuiCommand:/ro   Nume:OpenSCAD_AddOpenSCADElement   Name/ro:OpenSCAD_AddOpenSCADElement   Workbenches:[[OpenSCAD Workbench/ro   OpenSCAD]]|MenuLocation:OpenSCAD → Add OpenSCAD Element---
+- GuiCommand   */ro   Nume   *OpenSCAD_AddOpenSCADElement   Name/ro   *OpenSCAD_AddOpenSCADElement   Workbenches   *[[OpenSCAD Workbench/ro   OpenSCAD]]|MenuLocation   *OpenSCAD → Add OpenSCAD Element---
 
 
 </div>
@@ -40,7 +40,7 @@ ar include primele exemple cunoscute și sub numele de iconița/pictograma OpenS
 #### Setarea inițială din cadrul FreeCAD 
 
 -   OpenSCAD trebuie să fie instalat pe computer înainte ca FreeCAD să aibă această funcționalitate
-    -   instalați OpenSCAD în modul corespunzător pentru sistemul dvs. de operare. Consultați [site-ul web OpenSCAD](http://www.openscad.org/) pentru mai multe informații
+    -   instalați OpenSCAD în modul corespunzător pentru sistemul dvs. de operare. Consultați [site-ul web OpenSCAD](http   *//www.openscad.org/) pentru mai multe informații
 -   FreeCAD trebuie să-i spună unde să găsească executabilul OpenSCAD
     -   Comutați la meniul OpenBSD Workbench -\> View Workbench -\> OpenSCAD
     -   Deschideți meniul dialogului Preferințe -\> Editare -\> Preferințe
@@ -54,7 +54,7 @@ ar include primele exemple cunoscute și sub numele de iconița/pictograma OpenS
 
 FreeCAD needs to be told where to find the OpenSCAD executable
 
--   Switch to the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) via 
+-   Switch to the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) via 
 **Menu → View Workbench → OpenSCAD**
 -   Open the preferences dialog **Menu  
     → Edit → Preferences**
@@ -62,9 +62,9 @@ FreeCAD needs to be told where to find the OpenSCAD executable
 -   Click on the button labled **...** in **General Settings → General OpenSCAD Settings → OpenSCAD executable** to browse the directory or enter the path (e.g. Ubuntu based Linux distributions `/usr/bin/openscad`) directly into the line input right to the button
 -   Close and restart FreeCAD
 
-:   **Result:** A new OpenSCAD icon will appear on the tool bar, and in the OpenSCAD menu, in the FreeCAD OpenSCAD workbench
+   *   **Result   *** A new OpenSCAD icon will appear on the tool bar, and in the OpenSCAD menu, in the FreeCAD OpenSCAD workbench
 
-Note: It is also possible to add another optional Parameter which controls the maximum sides of a polygon before it is considered a circle (fn).
+Note   * It is also possible to add another optional Parameter which controls the maximum sides of a polygon before it is considered a circle (fn).
 
 
 <div class="mw-translate-fuzzy">

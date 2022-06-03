@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std ToggleObjects
-   Name/fr:Std Basculer tous les objets
-   MenuLocation:Affichage → Visibilité → Basculer tous les objets
-   Workbenches:Tous
-   SeeAlso:[Std Basculer visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Afficher tous les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
+- GuiCommand   */fr
+   Name   *Std ToggleObjects
+   Name/fr   *Std Basculer tous les objets
+   MenuLocation   *Affichage → Visibilité → Basculer tous les objets
+   Workbenches   *Tous
+   SeeAlso   *[Std Basculer visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Afficher tous les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
 ---
 
 # Std ToggleObjects/fr
@@ -28,7 +28,7 @@ La commande **Std Basculer tous les objets** bascule la visibilité de tous les 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

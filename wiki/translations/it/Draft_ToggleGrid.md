@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft ToggleGrid
-   Name/it:Mostra/Nascondi la griglia
-   MenuLocation:Draft → Utilità → Mostra/Nascondi la griglia
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**G** **R**
-   SeeAlso:[Agganciare](Draft_Snap/it.md)
+- GuiCommand   */it
+   Name   *Draft ToggleGrid
+   Name/it   *Mostra/Nascondi la griglia
+   MenuLocation   *Draft → Utilità → Mostra/Nascondi la griglia
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut   ***G** **R**
+   SeeAlso   *[Agganciare](Draft_Snap/it.md)
 ---
 
 # Draft ToggleGrid/it
@@ -44,8 +44,8 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   To use the grid select   * **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
+-   Several other grid preferences are also available   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
 
 

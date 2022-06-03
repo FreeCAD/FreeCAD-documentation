@@ -1,6 +1,6 @@
 # PartDesign Groove/es
 ---
-- GuiCommand:/es   Name:PartDesign_Groove   Name/es:PartDesign Groove   Workbenches:[[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation:PartDesign → Groove---
+- GuiCommand   */es   Name   *PartDesign_Groove   Name/es   *PartDesign Groove   Workbenches   *[[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation   *PartDesign → Groove---
 
 
 </div>
@@ -12,7 +12,7 @@
 
 Esta herramienta revoluciona un croquis seleccionado o un objeto 2D alrededor de un eje indicado, cortando material del soporte. Por ejemplo, la imagen muestra un corte de muesca que se elimina del eje.
 
-<img alt="" src=images/Groove_example.png  style="width:500px;">
+<img alt="" src=images/Groove_example.png  style="width   *500px;">
 
 
 
@@ -26,14 +26,14 @@ The **Groove** tool revolves a selected sketch or profile about a given axis, cu
 
 
 
-*Above: sketch (A) is revolved around axis (B); resulting groove on solid (C) is shown right.*
+*Above   * sketch (A) is revolved around axis (B); resulting groove on solid (C) is shown right.*
 
 ## Usage
 
 1.  Select the sketch to be revolved.
 
-    :   A face on the existing solid can alternatively be used. <small>(v0.17)</small> 
-    :   The sketch must be mapped to the planar face of an existing solid or Part Design feature, or an error message will appear. {{VersionMinus|0.16}}
+       *   A face on the existing solid can alternatively be used. <small>(v0.17)</small> 
+       *   The sketch must be mapped to the planar face of an existing solid or Part Design feature, or an error message will appear. {{VersionMinus|0.16}}
 2.  Press the **<img src="images/PartDesign_Groove.svg" width=24px> '''Groove'''** button.
 3.  Set the Groove parameters (see next section).
 4.  Press **OK**.
@@ -57,12 +57,12 @@ When creating a groove, the **Groove parameters** dialogue offers several parame
 |                                                                          |                                                                                                                                                                                                                                                                                                         |
 |                                                                          | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                |
 |                                                                          |                                                                                                                                                                                                                                                                                                         |
-|                                                                          | -   **Vertical sketch axis**: selects the vertical sketch axis .                                                                                                                                                                                                                                        |
-|                                                                          | -   **Horizontal sketch axis**: selects the horizontal sketch axis.                                                                                                                                                                                                                                     |
-|                                                                          | -   **Sketch axis**: selects a construction line contained in the sketch used by the Groove. The first construction line created in the sketch will be labelled *Sketch axis 0*. The drop down list will contain one custom sketch axis for each construction line. {{VersionMinus|0.16}} |
-|                                                                          | -   **Construction line**: selects a construction line contained in the sketch used by the Groove. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*. <small>(v0.17)</small>     |
-|                                                                          | -   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin; <small>(v0.17)</small>                                                                                                                                                                                          |
-|                                                                          | -   **Select reference\...**: allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md). <small>(v0.17)</small>                                                                                                                                  |
+|                                                                          | -   **Vertical sketch axis**   * selects the vertical sketch axis .                                                                                                                                                                                                                                        |
+|                                                                          | -   **Horizontal sketch axis**   * selects the horizontal sketch axis.                                                                                                                                                                                                                                     |
+|                                                                          | -   **Sketch axis**   * selects a construction line contained in the sketch used by the Groove. The first construction line created in the sketch will be labelled *Sketch axis 0*. The drop down list will contain one custom sketch axis for each construction line. {{VersionMinus|0.16}} |
+|                                                                          | -   **Construction line**   * selects a construction line contained in the sketch used by the Groove. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*. <small>(v0.17)</small>     |
+|                                                                          | -   **Base (X/Y/Z) axis**   * selects the X, Y or Z axis of the Body\'s Origin; <small>(v0.17)</small>                                                                                                                                                                                          |
+|                                                                          | -   **Select reference\...**   * allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md). <small>(v0.17)</small>                                                                                                                                  |
 |                                                                          |                                                                                                                                                                                                                                                                                                         |
 |                                                                          | ### Angle                                                                                                                                                                                                                                                                                               |
 |                                                                          |                                                                                                                                                                                                                                                                                                         |
@@ -84,15 +84,15 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Angle}}: angle of rotation. See [Angle](#Angle.md) .
+-    {{PropertyData/es|Angle}}   * angle of rotation. See [Angle](#Angle.md) .
 
--    {{PropertyData/es|Label}}: label given to the operation, can be changed at convenience.
+-    {{PropertyData/es|Label}}   * label given to the operation, can be changed at convenience.
 
--    {{PropertyData/es|Midplane}}: true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
+-    {{PropertyData/es|Midplane}}   * true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
 
--    {{PropertyData/es|Reversed}}: true or false. See [Reversed](#Reversed.md).
+-    {{PropertyData/es|Reversed}}   * true or false. See [Reversed](#Reversed.md).
 
--    {{PropertyData/es|Refine}}: v0.17 and above true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    {{PropertyData/es|Refine}}   * v0.17 and above true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
 
 
 </div>

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh SegmentationBestFit
-   Name/fr:Mesh Segmentation adaptée
-   MenuLocation:Maillages → Créer des segments de maillage de surfaces ajustées ...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Division](Mesh_Segmentation/fr.md)
+- GuiCommand   */fr
+   Name   *Mesh SegmentationBestFit
+   Name/fr   *Mesh Segmentation adaptée
+   MenuLocation   *Maillages → Créer des segments de maillage de surfaces ajustées ...
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso   *[Mesh Division](Mesh_Segmentation/fr.md)
 ---
 
 # Mesh SegmentationBestFit/fr
@@ -15,23 +15,23 @@ La commande **Mesh Segmentation adaptée** crée des segments de maillage sépar
 
 ## Utilisation
 
-1.  Si vous envisagez d\'identifier les paramètres d\'un type de surface, notez que la commande utilise la couleur rouge pour marquer les faces sélectionnées pour cette option. Pour les voir correctement:
+1.  Si vous envisagez d\'identifier les paramètres d\'un type de surface, notez que la commande utilise la couleur rouge pour marquer les faces sélectionnées pour cette option. Pour les voir correctement   *
     -   La {{PropertyView/fr|Display Mode}} de l\'objet maillage devrait idéalement être {{Value|Flat lines}}, mais devrait au moins montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
     -   La {{PropertyView/fr|Shape Color}} de l\'objet mesh ne doit pas être rouge.
 2.  Sélectionnez un seul objet maillé.
-3.  Il existe plusieurs façons d\'appeler la commande:
+3.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Créer des segments de maillage de surface ajustées](Mesh_SegmentationBestFit/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Créer des segments de maillage de surfaces ajustées ...** dans le menu.
 4.  Le panneau des tâches **Mesh Segmentation** s\'ouvre.
-5.  Appuyez éventuellement sur l\'un des boutons **Parameters...** pour identifier les paramètres d\'une surface:
+5.  Appuyez éventuellement sur l\'un des boutons **Parameters...** pour identifier les paramètres d\'une surface   *
     -   La boîte de dialogue **Surface fit** s\'ouvre.
-    -   Sélectionnez une ou plusieurs faces appartenant à la surface:
+    -   Sélectionnez une ou plusieurs faces appartenant à la surface   *
         -   Appuyez sur le bouton **Region** et tout en maintenant le bouton gauche de la souris, dessinez une région, une spline fermée, dans la [vue 3D](3D_view.md). Les faces qui tombent (partiellement) à l\'intérieur de la région seront sélectionnées.
         -   Appuyez sur le bouton **Triangle** pour sélectionner des visages individuels.
         -   Appuyez éventuellement sur le bouton **Clear** pour effacer la sélection.
     -   Appuyez sur le bouton **Compute** pour calculer les paramètres.
     -   Appuyez sur le bouton **OK** ou **Cancel** pour fermer la boîte de dialogue.
-6.  Sélectionnez le ou les types de surface pour lesquels vous souhaitez créer des segments de maillage:
+6.  Sélectionnez le ou les types de surface pour lesquels vous souhaitez créer des segments de maillage   *
     -   
         **Plane**
         

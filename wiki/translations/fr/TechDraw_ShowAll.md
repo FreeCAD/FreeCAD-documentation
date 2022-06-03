@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw ShowAll
-   Name/fr:TechDraw Montrer tout
-   MenuLocation:TechDraw → Afficher/Masquer les arrêtes cachées
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw ShowAll
+   Name/fr   *TechDraw Montrer tout
+   MenuLocation   *TechDraw → Afficher/Masquer les arrêtes cachées
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md)
 ---
 
 # TechDraw ShowAll/fr
@@ -27,7 +27,7 @@ L\'outil Montrer tout n\'a aucune propriété car il ne s\'agit pas d\'un objet 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 

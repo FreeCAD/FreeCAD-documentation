@@ -1,6 +1,8 @@
 # Category:Arch/pl
 Pages relating to Architectural and Building Information Management
 
+[Category   *User Documentation/pl](Category   *User_Documentation/pl.md) [Category   *BIM/pl](Category   *BIM/pl.md) [Category   *Workbenches/pl](Category   *Workbenches/pl.md)
+
 ### Contents
 
 |     |     |     |

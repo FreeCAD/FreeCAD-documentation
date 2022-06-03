@@ -7,14 +7,14 @@
 
 </div>
 
-<img alt="L\'icona di Web" src=images/Workbench_Web.svg  style="width:128px;">
+<img alt="L\'icona di Web" src=images/Workbench_Web.svg  style="width   *128px;">
 
 ## Introduzione
 
 
 <div class="mw-translate-fuzzy">
 
-L\'ambiente Web fornisce una finestra del browser all\'interno della vista 3D di FreeCAD, basata su [WebKit](https://webkit.org/).
+L\'ambiente Web fornisce una finestra del browser all\'interno della vista 3D di FreeCAD, basata su [WebKit](https   *//webkit.org/).
 
 
 </div>
@@ -29,6 +29,11 @@ Da questo browser è possibile navigare sul web, e accedere a siti web (i cookie
 
 
 </div>
+
+
+
+
+[Category   *Web](Category_Web.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

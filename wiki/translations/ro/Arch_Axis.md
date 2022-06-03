@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Arch Axis
-   Name/ro:Arch Axis
-   MenuLocation:Arch → Axis
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**A** **X**
-   SeeAlso:[Axis System](Arch_AxisSystem/ro.md), [Grid](Arch_Grid.md)
+- GuiCommand   */ro
+   Name   *Arch Axis
+   Name/ro   *Arch Axis
+   MenuLocation   *Arch → Axis
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   Shortcut   ***A** **X**
+   SeeAlso   *[Axis System](Arch_AxisSystem/ro.md), [Grid](Arch_Grid.md)
 ---
 
 # Arch Axis/ro
@@ -23,7 +23,7 @@ Instrumentul Axis vă permite să plasați o serie de axe în documentul curent.
 
 </div>
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Axis_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -69,19 +69,19 @@ Instrumentul Axis vă permite să plasați o serie de axe în documentul curent.
 
 <div class="mw-translate-fuzzy">
 
--    **Length**: Lungimea axelor
+-    **Length**   * Lungimea axelor
 
--    **Bubble Size**: Mărimea bulei axei
+-    **Bubble Size**   * Mărimea bulei axei
 
--    **Numeration style**: cum sunt numerotate axele: 1,2,3, A,B,C, etc\...
+-    **Numeration style**   * cum sunt numerotate axele   * 1,2,3, A,B,C, etc\...
 
--    **Bubble Position**: Unde este plasată bula pe axă: La început, la capăt, ambele sau niciuna.
+-    **Bubble Position**   * Unde este plasată bula pe axă   * La început, la capăt, ambele sau niciuna.
 
--    **Font Name**: Fontul folosit pentru a desena numprul bulei și/sau etichetei
+-    **Font Name**   * Fontul folosit pentru a desena numprul bulei și/sau etichetei
 
--    **Font Size**: Mărimea etichetei text (Textul bulei este controlat de mărimea bulei)
+-    **Font Size**   * Mărimea etichetei text (Textul bulei este controlat de mărimea bulei)
 
--    **Show Labels**: Activează/dezactivează afișarea textului etichetei
+-    **Show Labels**   * Activează/dezactivează afișarea textului etichetei
 
 
 </div>
@@ -101,7 +101,7 @@ By setting the **Bubble Position** property to **Arrow left/right** or **Bar lef
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Axis poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție:
+Instrumentul Axis poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție   *
 
 
 </div>
@@ -115,7 +115,7 @@ Axes = makeAxis(num=5, size=1000, name="Axes")
 <div class="mw-translate-fuzzy">
 
 
-:   makes an axes series bazat pe numărul dat de axe și de intervalul dintre ele
+   *   makes an axes series bazat pe numărul dat de axe și de intervalul dintre ele
 
 
 </div>

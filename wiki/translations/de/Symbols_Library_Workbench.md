@@ -10,13 +10,13 @@ Es wird von der Gemeinschaft der FreeCAD Benutzer gepflegt und ist nicht Teil de
 
 ## Referenzen
 
--   Autor: yorik
--   Startseite: <https://github.com/FreeCAD/FreeCAD-symbols>
--   Quellcode auf github: <https://github.com/FreeCAD/FreeCAD-symbols>
+-   Autor   * yorik
+-   Startseite   * <https   *//github.com/FreeCAD/FreeCAD-symbols>
+-   Quellcode auf github   * <https   *//github.com/FreeCAD/FreeCAD-symbols>
 
 ## Symbole
 
-<img alt="" src=images/CompassRose.svg  style="width:128px;"> ![](images/FirstAngleProjection.svg ) ![](images/ThirdAngleProjection.svg ) ![](images/SectionMark01.png ) ![](images/SectionMark02.png ) ![](images/SectionMark03.png ) ![](images/SectionMark04.png )
+<img alt="" src=images/CompassRose.svg  style="width   *128px;"> ![](images/FirstAngleProjection.svg ) ![](images/ThirdAngleProjection.svg ) ![](images/SectionMark01.png ) ![](images/SectionMark02.png ) ![](images/SectionMark03.png ) ![](images/SectionMark04.png )
 
 ## Einrichtung
 
@@ -30,21 +30,25 @@ Die Bibliothek ist ein einfacher Behälter für SVG Dateien. Du kannst sie über
 
 ## Verweise zur Symbolbibliothek 
 
--   Arbeitsbereichs Wiki:
--   FreeCAD Wiki:
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=9&t=10641>
--   Tutorien:
--   Videos:
--   Dateien:
--   Fehler melden: Bitte melde Fehler unter [FreeCAD Forum](http://forum.freecadweb.org/index.php)
+-   Arbeitsbereichs Wiki   *
+-   FreeCAD Wiki   *
+-   FreeCAD Forum   * <http   *//forum.freecadweb.org/viewtopic.php?f=9&t=10641>
+-   Tutorien   *
+-   Videos   *
+-   Dateien   *
+-   Fehler melden   * Bitte melde Fehler unter [FreeCAD Forum](http   *//forum.freecadweb.org/index.php)
 
 ## Andere nützliche Verweise 
 
--   [Parts Library](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library), [Schrauben](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Verbindungselemente](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCZahnrad](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
+-   [Parts Library](http   *//www.freecadweb.org/wiki/index.php?title=Sandbox   *Parts_Library), [Schrauben](http   *//www.freecadweb.org/wiki/index.php?title=Sandbox   *Bolts), [Verbindungselemente](http   *//www.freecadweb.org/wiki/index.php?title=Sandbox   *Fasteners), [FCZahnrad](http   *//www.freecadweb.org/wiki/index.php?title=Sandbox   *FCGear)
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 -   [Makrorezepte](Macros_recipes/de.md)
 -   [FreeCAD Herunterladen](Download/de.md)
 -   [FreeCAD Gemeinschaftsportal](FreeCAD_Community_Portal/de.md)
+
+
+
+[Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

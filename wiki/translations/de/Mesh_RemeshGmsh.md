@@ -1,23 +1,23 @@
 ---
-- GuiCommand:/de
-   Name:Mesh RemeshGmsh
-   Name/de:Netz WiedervernetzenGmsh
-   MenuLocation:Netze → Verfeinerung...
-   Workbenches:[Netz](Mesh_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Netz AusTeilForm](Mesh_FromPartShape/de.md)
+- GuiCommand   */de
+   Name   *Mesh RemeshGmsh
+   Name/de   *Netz WiedervernetzenGmsh
+   MenuLocation   *Netze → Verfeinerung...
+   Workbenches   *[Netz](Mesh_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[Netz AusTeilForm](Mesh_FromPartShape/de.md)
 ---
 
 # Mesh RemeshGmsh/de
 
 ## Beschreibung
 
-Der **Netz WiedervernetzenGmsh** Befehl wiedervernetzt ein Netzobjekt unter Verwendung des [Gmsh](https://gmsh.info/) Vernetzers. Das neue Netz kann feiner oder gröber sein.
+Der **Netz WiedervernetzenGmsh** Befehl wiedervernetzt ein Netzobjekt unter Verwendung des [Gmsh](https   *//gmsh.info/) Vernetzers. Das neue Netz kann feiner oder gröber sein.
 
 ## Anwendung
 
 1.  Select a single mesh object.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Mesh RemeshGmsh](Mesh_RemeshGmsh.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Refinement...** option from the menu.
 3.  The **Remesh by gmsh** task panel opens.
@@ -32,7 +32,7 @@ Der **Netz WiedervernetzenGmsh** Befehl wiedervernetzt ein Netzobjekt unter Verw
 
 ## Eigenschaften
 
-See: [Mesh Feature](Mesh_Feature.md).
+See   * [Mesh Feature](Mesh_Feature.md).
 
 
 <div class="mw-translate-fuzzy">

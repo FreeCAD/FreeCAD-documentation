@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:OpenSCAD ScaleMeshFeature
-   Name/fr:OpenSCAD Mise à l'échelle du maillage
-   MenuLocation:OpenSCAD → Mise à l'échelle du maillage...
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Mesh Échelle](Mesh_Scale/fr.md)
+- GuiCommand   */fr
+   Name   *OpenSCAD ScaleMeshFeature
+   Name/fr   *OpenSCAD Mise à l'échelle du maillage
+   MenuLocation   *OpenSCAD → Mise à l'échelle du maillage...
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso   *[Mesh Échelle](Mesh_Scale/fr.md)
 ---
 
 # OpenSCAD ScaleMeshFeature/fr
@@ -28,7 +28,7 @@ Crée un nouvel objet maillé mis à l\'échelle avec une mise à l\'échelle in
 ## Remarques
 
 -   La fonction ne modifie pas le maillage existant mais renvoie un nouveau maillage.
--   La fonction est accessible via python:
+-   La fonction est accessible via python   *
 
 
 ```python

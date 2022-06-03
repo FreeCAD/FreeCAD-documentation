@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Raytracing Render
-   Name/it:Raytracing Render
-   MenuLocation:Raytracing → Render
-   Workbenches:[Raytracing](Raytracing_Workbench/it.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */it
+   Name   *Raytracing Render
+   Name/it   *Raytracing Render
+   MenuLocation   *Raytracing → Render
+   Workbenches   *[Raytracing](Raytracing_Workbench/it.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Raytracing Render/it
@@ -33,7 +33,7 @@ Renderizza il progetto raytracing selezionato utilizzando un renderer esterno.
 ## Uso
 
 1.  Selezionare il progetto raytracing nella vista ad albero.
-2.  Cliccare su <img alt="" src=images/Raytracing_Render.png  style="width:32px;"> o scegliere ** Raytracing** → **<img src="images/Raytracing_Render.png" width=32px> Render** dal menu principale.
+2.  Cliccare su <img alt="" src=images/Raytracing_Render.png  style="width   *32px;"> o scegliere ** Raytracing** → **<img src="images/Raytracing_Render.png" width=32px> Render** dal menu principale.
 
 
 </div>

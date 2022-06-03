@@ -1,6 +1,6 @@
 # Drawing Symbol/fr
 ---
-- GuiCommand:/fr   Name:Drawing Symbol   Name/fr:Symbole   Workbenches:[[Drawing Workbench/fr   drawing]], Complet|MenuLocation:Mise en Plan → Symbole   Shortcut:Aucun---
+- GuiCommand   */fr   Name   *Drawing Symbol   Name/fr   *Symbole   Workbenches   *[[Drawing Workbench/fr   drawing]], Complet|MenuLocation   *Mise en Plan → Symbole   Shortcut   *Aucun---
 
 ## Description
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name:Draft ShowSnapBar
-   Name/ru:Draft ShowSnapBar
-   MenuLocation:Черчение → Утилиты → Показывать панель привязок
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+- GuiCommand   */ru
+   Name   *Draft ShowSnapBar
+   Name/ru   *Draft ShowSnapBar
+   MenuLocation   *Черчение → Утилиты → Показывать панель привязок
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 # Draft ShowSnapBar/ru
@@ -29,7 +29,7 @@
 
 ## Notes
 
--   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
+-   Like any toolbar the Draft Snap toolbar can be toggled using these methods   *
     -   Select the **View → Toolbars → Draft Snap** option from the menu.
     -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
 

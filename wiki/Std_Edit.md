@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Std Edit
-   MenuLocation:Edit → Toggle Edit mode
-   Workbenches:All
-   SeeAlso:[Std UserEditMode](Std_UserEditMode.md)
+- GuiCommand   *
+   Name   *Std Edit
+   MenuLocation   *Edit → Toggle Edit mode
+   Workbenches   *All
+   SeeAlso   *[Std UserEditMode](Std_UserEditMode.md)
 ---
 
 # Std Edit
@@ -14,7 +14,7 @@ The **Std Edit** command activates or deactivates an object\'s edit mode.
 
 ## Usage
 
-1.  If no object is in edit mode: select a single object.
+1.  If no object is in edit mode   * select a single object.
 2.  Select the **Edit → <img src="images/Std_Edit.svg" width=16px> Toggle Edit mode** option from the menu.
 3.  Either the default edit mode of the selected object is activated or the existing edit mode deactivated.
 
@@ -28,7 +28,7 @@ The **Std Edit** command activates or deactivates an object\'s edit mode.
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
@@ -41,7 +41,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-The second argument is the EditMode. The following options are available:
+The second argument is the EditMode. The following options are available   *
 
 0 = Default
 1 = Transform

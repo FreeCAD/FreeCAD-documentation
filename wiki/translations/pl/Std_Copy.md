@@ -1,32 +1,33 @@
 ---
-- GuiCommand:
-   Name:Std Copy
-   MenuLocation:Edit → Copy
-   Workbenches:All
-   Shortcut:**Ctrl**+**C**
-   SeeAlso:[Std Cut](Std_Cut.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
+- GuiCommand   */pl
+   Name   *Std Copy
+   Name/pl   *Std   * Kopiuj
+   MenuLocation   *Edycja→ Kopiuj
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **C**
+   SeeAlso   *[Wytnij](Std_Cut/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
 ---
 
 # Std Copy/pl
 
-## Description
+## Opis
 
-The **Std Copy** command copies objects to the Clipboard.
+Polecenie **Kopiuj** kopiuje zaznaczone obiekty do schowka.
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Copy.svg" width=16px> [Std Copy](Std_Copy.md)** button.
-    -   Select the **Edit → <img src="images/Std_Copy.svg" width=16px> Copy** option from the menu.
-    -   Select the **<img src="images/Std_Copy.svg" width=16px> Copy** option from the [Tree view](Tree_view.md) context menu.
-    -   Use the keyboard shortcut: **Ctrl**+**C**.
-3.  If the objects have dependencies that have not been selected, a dialog box will prompt you to specify which should be included.
+1.  Wybierz jeden lub więcej obiektów.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_Copy.svg" width=16px> [Std Copy](Std_Copy/pl.md)** na pasku narzędzi.
+    -   Wybierz z menu opcję **Edycja → <img src="images/Std_Copy.svg" width=16px> Kopiuj**.
+    -   Wybierz opcję **<img src="images/Std_Copy.svg" width=16px> Kopiuj** z menu podręcznego [Widoku drzewa](Tree_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **C**.
+3.  Jeśli obiekty mają zależności, które nie zostały wybrane, zostanie wyświetlone okno dialogowe z prośbą o określenie, które z nich powinny zostać uwzględnione.
 
-## Notes
+## Uwagi
 
--   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**C**, in almost all cases, does not call the **Std Copy** command but uses the Copy function from the OS instead.
--   It is not possible to copy-paste native objects between FreeCAD and other applications.
+-   Podczas pracy w oknie tekstowym programu FreeCAD, w polu wprowadzania danych lub arkuszu kalkulacyjnym standardowy skrót klawiaturowy **Ctrl** + **C** w prawie wszystkich przypadkach nie wywołuje polecenia **Std Kopiuj**, ale zamiast tego używa funkcji Kopiuj z systemu operacyjnego.
+-   Nie jest możliwe kopiowanie i wklejanie natywnych obiektów między programem FreeCAD a innymi aplikacjami.
 
 
 

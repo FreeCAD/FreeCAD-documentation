@@ -1,6 +1,6 @@
 # Sketcher CreateHexagon/it
 ---
-- GuiCommand:/it   Name:Sketcher CreateHexagon   Name/it:Esagono   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Esagono   Shortcut:   SeeAlso:   Version:0.15---
+- GuiCommand   */it   Name   *Sketcher CreateHexagon   Name/it   *Esagono   Workbenches   *[[Sketcher Workbench/it   Sketcher]]|MenuLocation   *Sketch → Geometrie → Esagono   Shortcut   *   SeeAlso   *   Version   *0.15---
 
 
 </div>
@@ -16,7 +16,7 @@ Disegna un esagono inscritto nella circonferenza che costituisce la sua geometri
 
 <div class="mw-translate-fuzzy">
 
--   Premere il pulsante **[<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> Crea esagono**,
+-   Premere il pulsante **[<img src=images/Sketcher_CreateHexagon.svg style="width   *16px"> Crea esagono**,
 -   Cliccare un punto per definire il centro,
 -   Muovere il mouse e cliccare per stabilire uno dei vertici.
 -   Premere **Esc** o cliccare sul tasto destro del nouse per uscire dalla funzione.

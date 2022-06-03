@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pt-br
-   Name:Constraint Parallel
-   Name/pt-br:Constraint Parallel
-   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain parallel
-   SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical/pt-br.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/pt-br.md)
+- GuiCommand   */pt-br
+   Name   *Constraint Parallel
+   Name/pt-br   *Constraint Parallel
+   Workbenches   *[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
+   MenuLocation   *Sketch → Sketcher constraints → Constrain parallel
+   SeeAlso   *[Constraint Vertical](Sketcher_ConstrainVertical/pt-br.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/pt-br.md)
 ---
 
 # Sketcher ConstrainParallel/pt-br
@@ -20,25 +20,25 @@ The Constrain Parallel constraint forces two selected straight lines or edges to
 
 The sketch contains two randomly oriented lines.
 
-<img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
+<img alt="" src=images/ConstrainParallel1.png  style="width   *500px;">
 
 
 
 *Select both lines by clicking successively on each of them.*
 
-<img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
+<img alt="" src=images/ConstrainParallel2.png  style="width   *500px;">
 
-Apply the Constrain Parallel constraint by either:
+Apply the Constrain Parallel constraint by either   *
 
--   Pressing the **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Constrain parallel](Sketcher_ConstrainParallel.md)** button from the Sketcher constraints toolbar.
+-   Pressing the **[<img src=images/Sketcher_ConstrainParallel.svg style="width   *16px"> [Constrain parallel](Sketcher_ConstrainParallel.md)** button from the Sketcher constraints toolbar.
 -   Use the **P** keyboard shortcut.
--   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> Constrain parallel** entry from the top menu.
+-   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainParallel.svg style="width   *16px"> Constrain parallel** entry from the top menu.
 
-<img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
+<img alt="" src=images/ConstrainParallel3.png  style="width   *500px;">
 
 
 
-*Result: The selected lines are forced to be parallel to each other. Changing the orientation of one line will change the orientation of the other to be the same.*
+*Result   * The selected lines are forced to be parallel to each other. Changing the orientation of one line will change the orientation of the other to be the same.*
 
 ## Scripting
 

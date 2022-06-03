@@ -1,16 +1,16 @@
 ---
-- GuiCommand:
-   Name:FEM MeshGmshFromShape
-   MenuLocation:Mesh → FEM mesh from shape by Gmsh
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+- GuiCommand   *
+   Name   *FEM MeshGmshFromShape
+   MenuLocation   *Mesh → FEM mesh from shape by Gmsh
+   Workbenches   *[FEM](FEM_Workbench.md)
+   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM MeshGmshFromShape/pt-br
 
 ## Descrição
 
-For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the program [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) for calculating the mesh.
+For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the program [Gmsh](https   *//en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) for calculating the mesh.
 
 Gmsh is bundled with the FreeCAD installation binaries. Alternatively you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
 
@@ -27,53 +27,53 @@ After the mesh has been crated you can change its properties using the [property
 
 ## Propriedades
 
--    **Algorithm2D**: The algorithm to create 2D meshes. The different algorithms are [explained here](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm). For Delaunay, see [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation).
+-    **Algorithm2D**   * The algorithm to create 2D meshes. The different algorithms are [explained here](https   *//gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm). For Delaunay, see [Delaunay triangulation](https   *//en.wikipedia.org/wiki/Delaunay_triangulation).
 
--    **Algorithm3D**: The algorithm to create 3D meshes. The different algorithms are [explained here](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm).
+-    **Algorithm3D**   * The algorithm to create 3D meshes. The different algorithms are [explained here](https   *//gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm).
 
--    **Characteristic Length Max**: The maximal size of the mesh elements. If set to *0.0*, the size will be set automatically. This property can also be changed in the Gmsh dialog in the field **Max element size**.
+-    **Characteristic Length Max**   * The maximal size of the mesh elements. If set to *0.0*, the size will be set automatically. This property can also be changed in the Gmsh dialog in the field **Max element size**.
 
--    **Characteristic Length Min**: The minimal size of the mesh elements. If set to *0.0*, the size will be set automatically. This property can also be changed in the Gmsh dialog in the field **Min element size**.
+-    **Characteristic Length Min**   * The minimal size of the mesh elements. If set to *0.0*, the size will be set automatically. This property can also be changed in the Gmsh dialog in the field **Min element size**.
 
--    **Coherence Mesh**:
+-    **Coherence Mesh**   *
 
     -   true (default); duplicate mesh nodes will be removed
     -   false
 
--    **Element Dimension**: The dimension of the mesh elements. This property can also be changed in the Gmsh dialog in the field **Mesh element dimension**.
+-    **Element Dimension**   * The dimension of the mesh elements. This property can also be changed in the Gmsh dialog in the field **Mesh element dimension**.
 
     -   From Shape (default); the dimension will be determined from the dimension of the object that is meshed
     -   1D
     -   2D
     -   3D
 
--    **Element Order**: The [mesh element order](https://www.comsol.de/support/knowledgebase/1270). This property can also be changed in the Gmsh dialog in the field **Mesh order**. <small>(v0.20)</small> 
+-    **Element Order**   * The [mesh element order](https   *//www.comsol.de/support/knowledgebase/1270). This property can also be changed in the Gmsh dialog in the field **Mesh order**. <small>(v0.20)</small> 
 
     -   1st
     -   2nd (default)
 
--    **Geometrical Tolerance**: The geometrical tolerance for the mesh to match the object edges. The default *0.0* means that Gmsh\'s default of 1e-8 is used.
+-    **Geometrical Tolerance**   * The geometrical tolerance for the mesh to match the object edges. The default *0.0* means that Gmsh\'s default of 1e-8 is used.
 
--    **Groups Of Nodes**: All nodes and not only the elements will be saved for each physical mesh group. Physical groups are collections of mesh entities (points, curves, surfaces and volumes). They and are identified by their dimension and by a tag. For example a mesh of the same object region is internally tagged the same. So all surfaces of this region will form one physical group.
+-    **Groups Of Nodes**   * All nodes and not only the elements will be saved for each physical mesh group. Physical groups are collections of mesh entities (points, curves, surfaces and volumes). They and are identified by their dimension and by a tag. For example a mesh of the same object region is internally tagged the same. So all surfaces of this region will form one physical group.
 
--    **High Order Optimize**: If and how meshes with <small>(v0.20)</small>  Gmsh supports different optimization algorithms. **Elastic** is an algorithm in which the mesh elements are treated as a collection of deformable viscoelastic solids. 1st order meshes cannot be optimized because their element borders are linear an cannot be deformed.
+-    **High Order Optimize**   * If and how meshes with <small>(v0.20)</small>  Gmsh supports different optimization algorithms. **Elastic** is an algorithm in which the mesh elements are treated as a collection of deformable viscoelastic solids. 1st order meshes cannot be optimized because their element borders are linear an cannot be deformed.
 
--    **Mesh Size From Curvature**<small>(v0.20)</small> : The number of mesh elements per $2\pi$ times the radius of the curvature. To get a finer mesh at small corners or holes, this value can be increased for better results
+-    **Mesh Size From Curvature**<small>(v0.20)</small>    * The number of mesh elements per $2\pi$ times the radius of the curvature. To get a finer mesh at small corners or holes, this value can be increased for better results
 
-<img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature.png  style="width:450px;"> 
-*Effect of  ''Mesh Size From Curvature'''; left: set to 12, right: deactivated*
+<img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature.png  style="width   *450px;"> 
+*Effect of  ''Mesh Size From Curvature'''; left   * set to 12, right   * deactivated*
 
--    **Optimize Netgen**: Whether the mesh will be optimized using the 3D mesh generator [Netgen](https://github.com/NGSolve/netgen) to improve the quality of tetrahedral elements. **Note:** since Netgen can only create tetrahedral elements, this option is ignored for meshes whose **Element Dimension** is not *3D*.
+-    **Optimize Netgen**   * Whether the mesh will be optimized using the 3D mesh generator [Netgen](https   *//github.com/NGSolve/netgen) to improve the quality of tetrahedral elements. **Note   *** since Netgen can only create tetrahedral elements, this option is ignored for meshes whose **Element Dimension** is not *3D*.
 
--    **Recombination Algorithm**<small>(v0.20)</small> : The algorithm used for **Recombine 3D All** and also for **Recombine All**. For more info, see section [Element Recombination](#Element_Recombination.md) and for technical details see the [Gmsh documentation](https://www.gmsh.info/doc/texinfo/gmsh.html#t11).
+-    **Recombination Algorithm**<small>(v0.20)</small>    * The algorithm used for **Recombine 3D All** and also for **Recombine All**. For more info, see section [Element Recombination](#Element_Recombination.md) and for technical details see the [Gmsh documentation](https   *//www.gmsh.info/doc/texinfo/gmsh.html#t11).
 
--    **Recombine 3D All**<small>(v0.20)</small> : Applies a recombination 3D-algorithm to all volumes. Tetrahedra will be recombined into prisms, hexahedra or pyramids if possible.
+-    **Recombine 3D All**<small>(v0.20)</small>    * Applies a recombination 3D-algorithm to all volumes. Tetrahedra will be recombined into prisms, hexahedra or pyramids if possible.
 
--    **Recombine All**: Applies a recombination algorithm to all surfaces. Triangles will be recombined into quadrangles when possible.
+-    **Recombine All**   * Applies a recombination algorithm to all surfaces. Triangles will be recombined into quadrangles when possible.
 
 -    **Optimize Std**Optimizes the mesh to improve the quality of tetrahedral elements.
 
--    **Second Order Linear**: Option if second order nodes (if **Element Order** set to *2nd*) and/or mesh refinement points are created by linear interpolation.
+-    **Second Order Linear**   * Option if second order nodes (if **Element Order** set to *2nd*) and/or mesh refinement points are created by linear interpolation.
 
     -   true; linear interpolation is used
     -   false (default); curvilinear interpolation is used
@@ -82,7 +82,7 @@ After the mesh has been crated you can change its properties using the [property
 
 ### Nonpositive Jacobians 
 
-When you get a meshing erro about nonpositive Jacobians, you can try out the following strategies:
+When you get a meshing erro about nonpositive Jacobians, you can try out the following strategies   *
 
 -   Set **Second Order Linear** to *true* but keep **Element Order** at *2nd*.
 -   Set **Element Order** to *1st*.
@@ -91,14 +91,14 @@ When you get a meshing erro about nonpositive Jacobians, you can try out the fol
 
 ### Mesh Growth 
 
-At edges and small geometric entities the mesh has to be smaller than in areas without edges. So the mesh element size grows away from edges. The growing strategy of Gmsh is to grow between edges with different sizes. So the growing fails when an area has the same sized edges like for example this tube:
+At edges and small geometric entities the mesh has to be smaller than in areas without edges. So the mesh element size grows away from edges. The growing strategy of Gmsh is to grow between edges with different sizes. So the growing fails when an area has the same sized edges like for example this tube   *
 
-<img alt="" src=images/FEM_Gmsh-MeshGrowth-failing.png  style="width:400px;"> 
+<img alt="" src=images/FEM_Gmsh-MeshGrowth-failing.png  style="width   *400px;"> 
 *Failing mesh growing because the cylindrical area is surrounded be the same edges*
 
-To enable a sensible mesh growing, you must in this case add an edge to the area. In the example this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https://forum.freecadweb.org/download/file.php?id=146255) of the example.
+To enable a sensible mesh growing, you must in this case add an edge to the area. In the example this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https   *//forum.freecadweb.org/download/file.php?id=146255) of the example.
 
-<img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
+<img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width   *400px;"> 
 *Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*
 
 ### Element Recombination 
@@ -107,10 +107,10 @@ Elements can be recombined in two ways, on the surface of objects so that triang
 
 To illustrate this, look at the image below. A cuboid body is meshed using the standard settings (tetrahedra, 2nd order mesh). This is the subimage at the upper left. The image at the upper right shows the result, when additionally the elements are recombined only at the surface of the body. The result is bad because the changed surface elements don\'t fit to the unchanged volume elements. So When we use now also **Recombine 3D All**, the result is better, see the lower left subimage. However, the result doesn\'t show a great difference compared to the mesh without recombinations. Since our body is a cuboid, it is therefore sensible to use a recombination algorithm that tries to create cuboids as well. And this result is shown in the subimage at the lower right.
 
-The *Simple* recombination algorithm will leave some triangles in the mesh in case the recombining leads to badly shaped quads. In such cases use a *full-quad* recombination algorithm, which will automatically perform a coarser mesh followed by the recombination, smoothing and subdividing. See [forum topic](https://forum.freecadweb.org/viewtopic.php?f=18&t=20351#p520392)
+The *Simple* recombination algorithm will leave some triangles in the mesh in case the recombining leads to badly shaped quads. In such cases use a *full-quad* recombination algorithm, which will automatically perform a coarser mesh followed by the recombination, smoothing and subdividing. See [forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20351#p520392)
 
-<img alt="" src=images/FEM_Gmsh-Recombination.png  style="width:600px;"> 
-*Effect of mesh element recombination. Upper left: standard mesh, Upper right: recombination only at the surface using the '''Simple''' algorithm, Lower left: recombination at the surface and in the volume using the ''Simple'' algorithm, Lower right: recombination at the surface and in the volume using the '''Simple full-quad''' algorithm*
+<img alt="" src=images/FEM_Gmsh-Recombination.png  style="width   *600px;"> 
+*Effect of mesh element recombination. Upper left   * standard mesh, Upper right   * recombination only at the surface using the '''Simple''' algorithm, Lower left   * recombination at the surface and in the volume using the ''Simple'' algorithm, Lower right   * recombination at the surface and in the volume using the '''Simple full-quad''' algorithm*
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw AngleDimension
-   Name/fr:TechDraw Cote angulaire
-   MenuLocation:TechDraw → Dimensions → Insérer une cote angulaire
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw AngleDimension
+   Name/fr   *TechDraw Cote angulaire
+   MenuLocation   *TechDraw → Dimensions → Insérer une cote angulaire
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso   *[TechDraw Cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md)
 ---
 
 # TechDraw AngleDimension/fr
@@ -14,7 +14,7 @@
 L\'outil Cote angulaire ajoute une dimension angulaire à une vue. La dimension peut être l\'angle intérieur entre deux bords rectilignes quelconques. La dimension sera initialement l\'angle projeté (c.-à-d. comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réel à l\'aide de l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)
 **
 
-<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width:200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width   *200px;"> 
 *Mesurer l'angle entre deux droites*
 
 ## Comment faire 
@@ -38,15 +38,15 @@ Voir [Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s/fr.md).
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Cote angulaire peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Cote angulaire peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "Angle"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

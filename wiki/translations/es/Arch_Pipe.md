@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/es
-   Name:Arch Pipe
-   Name/es:Arch Pipe
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   MenuLocation:Arch → Pipe Tools → Pipe
-   Shortcut:P I
-   SeeAlso:[Arch PipeConnector](Arch_PipeConnector.md)
-   Version:0.17
+- GuiCommand   */es
+   Name   *Arch Pipe
+   Name/es   *Arch Pipe
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   MenuLocation   *Arch → Pipe Tools → Pipe
+   Shortcut   *P I
+   SeeAlso   *[Arch PipeConnector](Arch_PipeConnector.md)
+   Version   *0.17
 ---
 
 # Arch Pipe/es
@@ -50,13 +50,13 @@ Esta herramienta permite crear tuberías desde cero, o desde objetos seleccionad
 
 ## Properties
 
--    **Length**: Sets the length of this pipe, when it is not based on a wire
+-    **Length**   * Sets the length of this pipe, when it is not based on a wire
 
--    **Diameter**: The diameter of this pipe, when it is not based on a profile
+-    **Diameter**   * The diameter of this pipe, when it is not based on a profile
 
--    **Base**: The base wire of this pipe, if any
+-    **Base**   * The base wire of this pipe, if any
 
--    **Profile**: The base profile of this pipe. If not given, the pipe is cylindrical.
+-    **Profile**   * The base profile of this pipe. If not given, the pipe is cylindrical.
 
 ## Typical workflow 
 
@@ -64,17 +64,17 @@ Esta herramienta permite crear tuberías desde cero, o desde objetos seleccionad
 
 ![](images/Arch_pipe_example_01.jpg )
 
--   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to python, though. In the case above I added a new snap point at the exit of the wc appliance. The vectors inside SnapPoints appear on the model as white dots:
+-   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to python, though. In the case above I added a new snap point at the exit of the wc appliance. The vectors inside SnapPoints appear on the model as white dots   *
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_02.jpg )
 
--   With the new [\"Snap Special\"](Draft_Snap_Special.md) Draft Snap, you can now snap to these custom points:
+-   With the new [\"Snap Special\"](Draft_Snap_Special.md) Draft Snap, you can now snap to these custom points   *
 
 ![](images/Arch_pipe_example_03.jpg )
 
--   Now we can draw our piping using Draft Lines, Draft Wires, or Sketches. The best way, though, is using only Draft Lines:
+-   Now we can draw our piping using Draft Lines, Draft Wires, or Sketches. The best way, though, is using only Draft Lines   *
 
 ![](images/Arch_pipe_example_04.jpg )
 
@@ -86,7 +86,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_06.jpg )
 
--   We can now create connections by selecting 2 or 3 coincident tubes, and press the [Arch PipeConnector](Arch_PipeConnector.md) button. If 3 pipes are selected, two of them must be aligned in order to create a tee element:
+-   We can now create connections by selecting 2 or 3 coincident tubes, and press the [Arch PipeConnector](Arch_PipeConnector.md) button. If 3 pipes are selected, two of them must be aligned in order to create a tee element   *
 
 ![](images/Arch_pipe_example_07.jpg )
 
@@ -105,7 +105,7 @@ It is also possible to create Arch Pipes without a base line, in this case use i
 
 <div class="mw-translate-fuzzy">
 
-La herramienta de Tubería/Pipe se puede utilizar en [macros](macros/es.md) y desde la consola de Python mediante la utilización de las siguientes funciones:
+La herramienta de Tubería/Pipe se puede utilizar en [macros](macros/es.md) y desde la consola de Python mediante la utilización de las siguientes funciones   *
 
 
 </div>

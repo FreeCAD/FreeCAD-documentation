@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:FEM Examples
-   Name/ru:FEM Examples
-   MenuLocation: Utilities → Open FEM Examples
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand   */ru
+   Name   *FEM Examples
+   Name/ru   *FEM Examples
+   MenuLocation   * Utilities → Open FEM Examples
+   Workbenches   *[FEM](FEM_Workbench/ru.md)
+   Version   *0.19
+   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM Examples/ru
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[FEM Examples](FEM_Examples/ru.md) запускает диалог, в котором можно выбрать различные примеры из списка, доступные для верстака <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/ru.md).
+[FEM Examples](FEM_Examples/ru.md) запускает диалог, в котором можно выбрать различные примеры из списка, доступные для верстака <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench/ru.md).
 
 
 </div>

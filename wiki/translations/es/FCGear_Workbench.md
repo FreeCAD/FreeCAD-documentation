@@ -1,4 +1,4 @@
-# <img alt="FCEngranaje Icono Ambiente de trabajo Externo" src=images/FCGear_workbench_icon.svg  style="width:64px;"> FCGear Workbench/es
+# <img alt="FCEngranaje Icono Ambiente de trabajo Externo" src=images/FCGear_workbench_icon.svg  style="width   *64px;"> FCGear Workbench/es
 
 ## Introducción
 
@@ -13,8 +13,8 @@ Junto con la impresión 3D, los usuarios domésticos tienen ahora la oportunidad
 
 Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be installed (how it is done see below at **Installation**). After installation, the tools are available in the toolbar.
 
-:   ![](images/FCGear_Drop-down-menu_example-en.png )
-:   
+   *   ![](images/FCGear_Drop-down-menu_example-en.png )
+   *   
     
 *The FCGear Drop down menu*
     
@@ -23,106 +23,106 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 
 ### Engranaje envolvente 
 
-:   ![](images/Involute-Gear_example.png )
-:   
+   *   ![](images/Involute-Gear_example.png )
+   *   
     
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
     
 
 ### Involute Rack 
 
-:   ![](images/Involute-Rack_example.png )
-:   
+   *   ![](images/Involute-Rack_example.png )
+   *   
     
-*From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
+*From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
     
 
 ### Engranaje cicloide 
 
-:   ![](images/Cycloid-Gear_example_1.png )
-:   
+   *   ![](images/Cycloid-Gear_example_1.png )
+   *   
     
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloideGear](FCGear_CycloideGear.md))*
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear CycloideGear](FCGear_CycloideGear.md))*
     
 
 ### Engranaje cónico 
 
-:   ![](images/Bevel-Gear_example.png )
-:   
+   *   ![](images/Bevel-Gear_example.png )
+   *   
     
-*From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
+*From left to right   * Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
     
 
 ### Engranaje sinfín 
 
-:   ![](images/Worm-Gear_example.png )
-:   
+   *   ![](images/Worm-Gear_example.png )
+   *   
     
-*Above: Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
+*Above   * Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
     
 
 ### Engranaje de la corona 
 
-:   ![](images/Crown-Gear_example.png )
-:   
+   *   ![](images/Crown-Gear_example.png )
+   *   
     
-*Above: Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
+*Above   * Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
     
 
 ### Timing Gear and Lantern Gear 
 
-:   ![](images/Timing+Latern-gear_example.png )
-:   
+   *   ![](images/Timing+Latern-gear_example.png )
+   *   
     
-*From left to right: Timing gearing, lantern gearing (see [FCGear TimingGear](FCGear_TimingGear.md) or [FCGear LanternGear](FCGear_LanternGear.md))*
+*From left to right   * Timing gearing, lantern gearing (see [FCGear TimingGear](FCGear_TimingGear.md) or [FCGear LanternGear](FCGear_LanternGear.md))*
     
 
 ## Referencias
 
--   Author: looooo
--   Home page: <https://github.com/looooo/FCGear>
--   Source code on github: <https://github.com/looooo/FCGear>
+-   Author   * looooo
+-   Home page   * <https   *//github.com/looooo/FCGear>
+-   Source code on github   * <https   *//github.com/looooo/FCGear>
 
 ## Herramientas
 
 ### Barra Herramienta 
 
--   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:32px;"> [FCGear InvoluteGear](FCGear_InvoluteGear.md) Creates an Involute gear
--   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width:32px;"> [FCGear InvoluteRack](FCGear_InvoluteRack.md) Creates an Involute rack
--   <img alt="" src=images/FCGear_CycloideGear.svg  style="width:32px;"> [FCGear CycloideGear](FCGear_CycloideGear.md) Creates a Cycloide gear
--   <img alt="" src=images/FCGear_BevelGear.svg  style="width:32px;"> [FCGear BevelGear](FCGear_BevelGear.md) Creates a Bevel gear
--   <img alt="" src=images/FCGear_WormGear.svg  style="width:32px;"> [FCGear WormGear](FCGear_WormGear.md) Creates a Worm gear
--   <img alt="" src=images/FCGear_CrownGear.svg  style="width:32px;"> [FCGear CrownGear](FCGear_CrownGear.md) Creates a Crown gear
--   <img alt="" src=images/FCGear_TimingGear.svg  style="width:32px;"> [FCGear TimingGear](FCGear_TimingGear.md) Creates a Timing gear
--   <img alt="" src=images/FCGear_LanternGear.svg  style="width:32px;"> [FCGear LanternGear](FCGear_LanternGear.md) Creates a Lantern gear
+-   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *32px;"> [FCGear InvoluteGear](FCGear_InvoluteGear.md) Creates an Involute gear
+-   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width   *32px;"> [FCGear InvoluteRack](FCGear_InvoluteRack.md) Creates an Involute rack
+-   <img alt="" src=images/FCGear_CycloideGear.svg  style="width   *32px;"> [FCGear CycloideGear](FCGear_CycloideGear.md) Creates a Cycloide gear
+-   <img alt="" src=images/FCGear_BevelGear.svg  style="width   *32px;"> [FCGear BevelGear](FCGear_BevelGear.md) Creates a Bevel gear
+-   <img alt="" src=images/FCGear_WormGear.svg  style="width   *32px;"> [FCGear WormGear](FCGear_WormGear.md) Creates a Worm gear
+-   <img alt="" src=images/FCGear_CrownGear.svg  style="width   *32px;"> [FCGear CrownGear](FCGear_CrownGear.md) Creates a Crown gear
+-   <img alt="" src=images/FCGear_TimingGear.svg  style="width   *32px;"> [FCGear TimingGear](FCGear_TimingGear.md) Creates a Timing gear
+-   <img alt="" src=images/FCGear_LanternGear.svg  style="width   *32px;"> [FCGear LanternGear](FCGear_LanternGear.md) Creates a Lantern gear
 
 ## Instalación
 
 ### Instalación automática 
 
-The recommended method of installation as of v0.17 is via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). It can be found in the 
+The recommended method of installation as of v0.17 is via the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md). It can be found in the 
 **Tools → Addon Manager**
 
 
-<div class="mw-collapsible mw-collapsed toccolours" style="width:700px">
+<div class="mw-collapsible mw-collapsed toccolours" style="width   *700px">
 
 ### Instalación manual 
 
-If there is a necessity to manually install this workbench the following instructions are provided to do so:
+If there is a necessity to manually install this workbench the following instructions are provided to do so   *
 
 
 <div class="mw-collapsible-content">
 
 #### Linux
 
--    `git clone https://github.com/looooo/FCGear.git`
+-    `git clone https   *//github.com/looooo/FCGear.git`
     
 
--   link or copy the folder into {{FileName|/freecad/Mod}}
+-   link or copy the folder into **/freecad/Mod**
 
-:   
+   *   
 
-    :   
+       *   
         `sudo ln -s (path_to_FCGear) (path_to_freecad)/Mod`
         
 
@@ -132,7 +132,7 @@ Tested on (7/8/8.1/10) (From GitHub)
 
 -   download ZIP-archive by clicking on button in top right corner
 -   go to FreeCAD-Macro-Folder (inside FreeCAD, choose \"Edit \> Preferences \> General \> Macro to see Macro Path)
--   if you haven\'t changed the standard settings, it should be \"C:\\Users\\Your\_Windows\_User\_Name\\AppData\\Roaming\\FreeCAD\"
+-   if you haven\'t changed the standard settings, it should be \"C   *Users\\Your\_Windows\_User\_Name\\AppData\\Roaming\\FreeCAD\"
 -   \\appdata is a HIDDEN folder, so you may have to change the settings of the file explorer to see it
 -   create a sub-folder called \"FCGear\"
 -   make sure to copy files and folders EXACTLY as shown above to the just created sub-folder
@@ -151,25 +151,30 @@ Vea las instrucciones para Linux arriba
 
 ## Enlaces a la WB de engranajes 
 
--   Wiki de Ambiente de trabajo: <https://github.com/looooo/FCGear/wiki>
--   Wiki de FreeCAD: [Macro\_FCGear](http://www.freecadweb.org/wiki/index.php?title=Macro_FCGear) y [Engranaje cónico](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878)
--   Foro de FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=21&t=12968>
--   Tutoriales:
--   Vídeos:
--   Archivos:
--   Reportar errores: Por favor, informa de los errores en <https://github.com/looooo/FCGear/issues>
+-   Wiki de Ambiente de trabajo   * <https   *//github.com/looooo/FCGear/wiki>
+-   Wiki de FreeCAD   * [Macro\_FCGear](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCGear) y [Engranaje cónico](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878)
+-   Foro de FreeCAD   * <http   *//forum.freecadweb.org/viewtopic.php?f=21&t=12968>
+-   Tutoriales   *
+-   Vídeos   *
+-   Archivos   *
+-   Reportar errores   * Por favor, informa de los errores en <https   *//github.com/looooo/FCGear/issues>
 
 ## Otros enlaces útiles 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign EngranajeEnvolvente](PartDesign_InvoluteGear/es.md): Esta herramienta permite crear un perfil 2D de un Engranaje envolvente. Este perfil 2D es totalmente paramétrico, y puede ser alcochado con la función [PartDesign Pastilla](PartDesign_Pad/es.md).
--   [Ambientes de trabajo externos](External_workbenches/es.md): Una lista de todos los ambientes de trabajo externos actuales de FreeCAD
+-   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width   *24px;"> [PartDesign EngranajeEnvolvente](PartDesign_InvoluteGear/es.md)   * Esta herramienta permite crear un perfil 2D de un Engranaje envolvente. Este perfil 2D es totalmente paramétrico, y puede ser alcochado con la función [PartDesign Pastilla](PartDesign_Pad/es.md).
+-   [Ambientes de trabajo externos](External_workbenches/es.md)   * Una lista de todos los ambientes de trabajo externos actuales de FreeCAD
 -   [Recetas de macros](Macros_recipes/es.md)
 
 
 </div>
+
+
+
+
+[Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md)
 
 
 

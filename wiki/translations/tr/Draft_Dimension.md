@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Dimension
-   Name/tr:Boyut
-   MenuLocation:Taslak → Boyut
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:**D** **I**
-   Version:0.18
-   SeeAlso:[FlipDimension](Draft_FlipDimension/tr.md),[Teknik resim](TechDraw_Workbench/tr.md)
+- GuiCommand   */tr
+   Name   *Draft Dimension
+   Name/tr   *Boyut
+   MenuLocation   *Taslak → Boyut
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut   ***D** **I**
+   Version   *0.18
+   SeeAlso   *[FlipDimension](Draft_FlipDimension/tr.md),[Teknik resim](TechDraw_Workbench/tr.md)
 ---
 
 # Draft Dimension/tr
@@ -42,7 +42,7 @@ Ortaya çıkan boyut 3D görünümüne yerleştirilir ve bir Taslak nesnesi olar
 
 </div>
 
-<img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width:400px;">
+<img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ Ortaya çıkan boyut 3D görünümüne yerleştirilir ve bir Taslak nesnesi olar
 
 ## Create
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 ### Usage linear dimension 
 
@@ -79,26 +79,26 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ### Usage radial dimension 
 
 1.  Optionally select a circular edge in the [3D view](3D_view.md).
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
+    -   Use the keyboard shortcut   * **D** then **I**.
 3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an edge do one of the following:
+4.  If you have not yet selected an edge do one of the following   *
     -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a circular edge in the [3D view](3D_view.md).
     -   Hold down the **Alt** key, select a circular edge in the [3D view](3D_view.md) and release the **Alt** key.
-5.  To position the dimension line do one of the following:
-    -   For a diameter dimension:
+5.  To position the dimension line do one of the following   *
+    -   For a diameter dimension   *
         -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-    -   For a radial dimension:
+    -   For a radial dimension   *
         -   Hold down the **Shift** key and pick a point in the [3D view](3D_view.md).
 
 ### Usage angular dimension 
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
+    -   Use the keyboard shortcut   * **D** then **I**.
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
@@ -129,10 +129,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 ### Usage
 
 1.  Select one or more [Std MeasureDistance](Std_MeasureDistance.md) objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
+    -   Use the keyboard shortcut   * **D** then **I**.
 3.  Each selected object is replaced by a non-parametric linear Draft Dimension.
 
 ## Notes
@@ -147,9 +147,9 @@ Boyut, ağaç görünümündeki öğeye çift tıklayarak veya {{Button | <img s
 
 ## Özellikler
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
+A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated   *
 
 ### Data linear and radial dimension 
 
@@ -161,15 +161,15 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 ### Veri
 
--    {{PropertyData | Start}}: ölçülecek mesafenin başlangıç noktasını belirtir.
+-    {{PropertyData | Start}}   * ölçülecek mesafenin başlangıç noktasını belirtir.
 
--    {{PropertyData | End}}: ölçülecek mesafenin bitiş noktasını belirtir.
+-    {{PropertyData | End}}   * ölçülecek mesafenin bitiş noktasını belirtir.
 
--    {{PropertyData | Dimline}}: boyut çizgisinin geçmesi gereken bir noktayı belirtir.
+-    {{PropertyData | Dimline}}   * boyut çizgisinin geçmesi gereken bir noktayı belirtir.
 
--    {{PropertyData | Distance}}: (salt okunur) ölçülen uzunluğu belirtir.
+-    {{PropertyData | Distance}}   * (salt okunur) ölçülen uzunluğu belirtir.
 
--    {{PropertyData | Diameter}}: `True` ise, bir çap boyutu görüntüler; aksi takdirde bir yarıçap boyutu görüntüler; Bu özellik yalnızca boyut dairesel bir yaya bağlıysa çalışır.
+-    {{PropertyData | Diameter}}   * `True` ise, bir çap boyutu görüntüler; aksi takdirde bir yarıçap boyutu görüntüler; Bu özellik yalnızca boyut dairesel bir yaya bağlıysa çalışır.
 
 
 </div>
@@ -177,56 +177,56 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Linear/radial dimension}}
 
--    **Direction|Vector**: specifies the direction of the measurement.
+-    **Direction|Vector**   * specifies the direction of the measurement.
 
--    **Distance|Length**: (read-only) specifies the value of the measurement.
+-    **Distance|Length**   * (read-only) specifies the value of the measurement.
 
--    **End|VectorDistance**: specifies the end point of the measurement.
+-    **End|VectorDistance**   * specifies the end point of the measurement.
 
--    **Start|VectorDistance**: specifies the start point of the measurement.
+-    **Start|VectorDistance**   * specifies the start point of the measurement.
 
 
 {{TitleProperty|Radial dimension}}
 
--    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
+-    **Diameter|Bool**   * specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
 
 ### Data angular dimension 
 
 
 {{TitleProperty|Angular dimension}}
 
--    **Angle|Angle**: (read-only) specifies the value of the measurement.
+-    **Angle|Angle**   * (read-only) specifies the value of the measurement.
 
--    **Center|VectorDistance**: specifies the center of the measurement.
+-    **Center|VectorDistance**   * specifies the center of the measurement.
 
--    **First Angle|Angle**: specifies the start angle of the measurement.
+-    **First Angle|Angle**   * specifies the start angle of the measurement.
 
--    **Last Angle|Angle**: specifies the end angle of the measurement.
+-    **Last Angle|Angle**   * specifies the end angle of the measurement.
 
 
 {{TitleProperty|Dimension}}
 
--    **Dimline|VectorDistance**: specifies the point through which the dimension arc passes.
+-    **Dimline|VectorDistance**   * specifies the point through which the dimension arc passes.
 
--    **Linked Geometry|LinkSubList|hidden**: not used.
+-    **Linked Geometry|LinkSubList|hidden**   * not used.
 
--    **Normal|Vector|hidden**: specifies the normal of the plane of the dimension.
+-    **Normal|Vector|hidden**   * specifies the normal of the plane of the dimension.
 
--    **Support|Link|hidden**: not used.
+-    **Support|Link|hidden**   * not used.
 
 ### View
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the dimension. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**   * specifies the annotation style applied to the dimension. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the dimension.
+-    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the dimension.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|2D text}} the text will be displayed in a plane defined by the **Normal** of the measurement. If it is {{value|3D text}} the text will always face the camera. Note that these values are switched compared to [Draft Texts](Draft_Text.md). This is an inherited property.
+-    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|2D}} the text will be displayed in a plane defined by the **Normal** of the measurement. If it is {{value|3D}} the text will always face the camera. Note that these values are switched compared to [Draft Texts](Draft_Text.md). This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
@@ -236,35 +236,35 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 ### Görünüm
 
--    {{PropertyView | Ext Lines}}: Ölçüm noktalarından boyut çizgisine giden uzatma hatlarının maksimum uzunluğunu belirtir.
+-    {{PropertyView | Ext Lines}}   * Ölçüm noktalarından boyut çizgisine giden uzatma hatlarının maksimum uzunluğunu belirtir.
 
--    {{PropertyView | Ext Overshoot}}: uzantı çizgilerinin boyut çizgisinin ötesindeki ek uzunluğunu belirtir.
+-    {{PropertyView | Ext Overshoot}}   * uzantı çizgilerinin boyut çizgisinin ötesindeki ek uzunluğunu belirtir.
 
--    {{PropertyView | Dim Overshoot}}: boyut çizgisine eklenen ilave uzunluğu belirtir.
+-    {{PropertyView | Dim Overshoot}}   * boyut çizgisine eklenen ilave uzunluğu belirtir.
 
-* {{PropertyView | Arrow Size}}: boyut çizgisinin sonunda görüntülenen sembolün boyutunu belirtir. 
+* {{PropertyView | Arrow Size}}   * boyut çizgisinin sonunda görüntülenen sembolün boyutunu belirtir. 
 
--    {{PropertyView | Arrow Type}}: \"Çizgi\", \"Daire\", \"Ok\" veya \"Tik\" olabilen, boyut çizgisinin sonunda görüntülenen sembolün türünü belirtir.
+-    {{PropertyView | Arrow Type}}   * \"Çizgi\", \"Daire\", \"Ok\" veya \"Tik\" olabilen, boyut çizgisinin sonunda görüntülenen sembolün türünü belirtir.
 
--    {{PropertyView | Flip Arrows}}: sembollerin boyut çizgisinin uçlarında çevrilip çevrilmeyeceğini belirtir; sadece bu semboller ok ise işe yarar.
+-    {{PropertyView | Flip Arrows}}   * sembollerin boyut çizgisinin uçlarında çevrilip çevrilmeyeceğini belirtir; sadece bu semboller ok ise işe yarar.
 
--    {{PropertyView | Font Name}}: metni çizmek için kullanılacak fontu belirtir. \"Arial\" gibi bir font adı, \"sans\", \"serif\" veya \"mono\" gibi bir varsayılan stil, \"Arial, Helvetica, sans\" gibi bir aile veya \"gibi bir stil içeren bir ad olabilir. Arial: \"Kalın. Belirtilen font sistemde bulunmuyorsa, bunun yerine genel olan kullanılır.
+-    {{PropertyView | Font Name}}   * metni çizmek için kullanılacak fontu belirtir. \"Arial\" gibi bir font adı, \"sans\", \"serif\" veya \"mono\" gibi bir varsayılan stil, \"Arial, Helvetica, sans\" gibi bir aile veya \"gibi bir stil içeren bir ad olabilir. Arial   * \"Kalın. Belirtilen font sistemde bulunmuyorsa, bunun yerine genel olan kullanılır.
 
--    {{PropertyView | Font Size}}: harflerin boyutunu belirtir. Boyut nesnesi ağaç görünümünde oluşturulmuşsa ancak metin görünmüyorsa, görünene kadar metnin boyutunu artırın.
+-    {{PropertyView | Font Size}}   * harflerin boyutunu belirtir. Boyut nesnesi ağaç görünümünde oluşturulmuşsa ancak metin görünmüyorsa, görünene kadar metnin boyutunu artırın.
 
--    {{PropertyView | Flip Text}}: ölçümü gösteren metnin yönünün çevrilip çevrilmeyeceğini belirtir.
+-    {{PropertyView | Flip Text}}   * ölçümü gösteren metnin yönünün çevrilip çevrilmeyeceğini belirtir.
 
--    {{PropertyView | Text Position}}: orijine (0,0,0) atıfta bulunulan metnin mutlak koordinatlardaki konumunu belirtir; metni boyut çizgisinin yanında görüntülemek için bu özelliği varsayılan değerinde (0,0,0) bırakın.
+-    {{PropertyView | Text Position}}   * orijine (0,0,0) atıfta bulunulan metnin mutlak koordinatlardaki konumunu belirtir; metni boyut çizgisinin yanında görüntülemek için bu özelliği varsayılan değerinde (0,0,0) bırakın.
 
--    {{PropertyView | Text Spacing}}: Metin ve boyut çizgisi arasındaki boşluğu belirtir.
+-    {{PropertyView | Text Spacing}}   * Metin ve boyut çizgisi arasındaki boşluğu belirtir.
 
--    {{PropertyView | Override}}: gerçek ölçüm yerine görüntülenecek özel bir metin belirtir. Ölçüm değerini görüntülemek için metnin içindeki {{incode | $ dim}} dizesini kullanın.
+-    {{PropertyView | Override}}   * gerçek ölçüm yerine görüntülenecek özel bir metin belirtir. Ölçüm değerini görüntülemek için metnin içindeki {{incode | $ dim}} dizesini kullanın.
 
--    {{PropertyView | Decimals}}: ölçümde görüntülenecek ondalık basamak sayısını belirtir.
+-    {{PropertyView | Decimals}}   * ölçümde görüntülenecek ondalık basamak sayısını belirtir.
 
--    {{PropertyView | Show Unit}}: `True` ise, birim ölçümün sayısal değerinin yanında görüntülenir.
+-    {{PropertyView | Show Unit}}   * `True` ise, birim ölçümün sayısal değerinin yanında görüntülenir.
 
--    {{PropertyView | Unit Override}}: ölçümü \"örneğin\" km \",\" m \",\" cm \",\" mm \",\" mi \",\" ft \",\" in \"olarak ifade edeceği bir birim belirtir. ; varsayılan birimleri kullanmak için bu özelliği boş bırakın. {{Version/tr | 0.17}}
+-    {{PropertyView | Unit Override}}   * ölçümü \"örneğin\" km \",\" m \",\" cm \",\" mm \",\" mi \",\" ft \",\" in \"olarak ifade edeceği bir birim belirtir. ; varsayılan birimleri kullanmak için bu özelliği boş bırakın. {{Version/tr | 0.17}}
 
 
 </div>
@@ -272,26 +272,26 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Text}}
 
--    **Flip Text|Bool**: specifies whether to flip the orientation of the text.
+-    **Flip Text|Bool**   * specifies whether to flip the orientation of the text.
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Font Name|Font**   * specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial   *Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Font Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
--    **Override|String**: specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
+-    **Override|String**   * specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
 
--    **Text Position|VectorDistance**: specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
+-    **Text Position|VectorDistance**   * specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
 
--    **Text Spacing|Length**: specifies the space between the text and the dimension line or arc.
+-    **Text Spacing|Length**   * specifies the space between the text and the dimension line or arc.
 
 
 {{TitleProperty|Units}}
 
--    **Decimals|Integer**: specifies the number of decimal places to display for the measurement.
+-    **Decimals|Integer**   * specifies the number of decimal places to display for the measurement.
 
--    **Show Unit|Bool**: specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
+-    **Show Unit|Bool**   * specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
 
--    **Unit Override|String**: specifies the unit in which to express the measurement, for example, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} or {{value|arch}} for arch units. Leave this blank to use the default unit. Not used for angular dimensions.
+-    **Unit Override|String**   * specifies the unit in which to express the measurement, for example, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} or {{value|arch}} for arch units. Leave this blank to use the default unit. Not used for angular dimensions.
 
 ## Scripting
 
@@ -301,7 +301,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -311,7 +311,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 <div class="mw-translate-fuzzy">
 
-Boyut aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
+Boyut aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
 
 
 </div>
@@ -323,7 +323,7 @@ dimension = make_dimension(p1, p2, p3=None, p4=None)```
 
 <div class="mw-translate-fuzzy">
 
-Kendisine iletilen argümanlara bağlı olarak, bu işlevi çağırmanın çeşitli yolları vardır:
+Kendisine iletilen argümanlara bağlı olarak, bu işlevi çağırmanın çeşitli yolları vardır   *
 
 
 </div>
@@ -353,7 +353,7 @@ dimension = make_dimension(object, i1, mode, p4=None)
 
 <div class="mw-translate-fuzzy">
 
-Açısal bir boyut oluşturmak için aşağıdaki işlevi kullanın:
+Açısal bir boyut oluşturmak için aşağıdaki işlevi kullanın   *
 
 
 </div>
@@ -385,7 +385,7 @@ görünüm özellikleri niteliklerinin üzerine yazılarak değiştirilebilir; �
 
 </div>
 
-Örnek:
+Örnek   *
 
 
 ```python

@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Arc
-   Name/tr:Yay
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   MenuLocation:Taslak → Yay
-   Shortcut:**A** **R**
-   Version:0.17
-   SeeAlso:[Çember](Draft_Circle/tr.md),[Elips](Draft_Ellipse/tr.md)
+- GuiCommand   */tr
+   Name   *Draft Arc
+   Name/tr   *Yay
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation   *Taslak → Yay
+   Shortcut   ***A** **R**
+   Version   *0.17
+   SeeAlso   *[Çember](Draft_Circle/tr.md),[Elips](Draft_Ellipse/tr.md)
 ---
 
 # Draft Arc/tr
@@ -26,7 +26,7 @@ Yay aracı, geçerli [Çalışma düzlemi](Draft_SelectPlane/tr.md) içinde dör
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
-<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Arc_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -41,7 +41,7 @@ A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** 
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -71,7 +71,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Seçenekler
 
--   Yay aracının birincil kullanımı dört nokta seçmektir: merkez, çevre üzerinde bir nokta, yayın başlangıcı ve bitişi.
+-   Yay aracının birincil kullanımı dört nokta seçmektir   * merkez, çevre üzerinde bir nokta, yayın başlangıcı ve bitişi.
     -   
         **Alt**
         
@@ -98,9 +98,9 @@ Ağaç görünümündeki öğeye çift tıklayarak veya **<img src="images/_Draf
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates, radii and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
@@ -123,7 +123,7 @@ Bir yay nesnesi [Çember](Draft_Circle/tr.md) \'in tüm özelliklerini paylaşı
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -138,7 +138,7 @@ Yay aracı, [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan ek ar
 
 </div>
 
-Örnek:
+Örnek   *
 
 
 ```python

@@ -1,7 +1,7 @@
 # Part API/de
-**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].**
+**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https   *//www.freecadweb.org/api autogenerierte API-Dokumentation].**
 
-Das Part-Modul ist die direkte Verbindung zwischen FreeCAD und dem OpenCasCade-Kern. Es bietet im Wesentlichen \[TopoShape\_API/de\|TopoShapes\], welches der von OpenCasCade hauptsächlich verwendete Objekttyp ist. Das Part-Modul enthält außerdem verschiedene nützliche Funktionen zur Erzeugung und Behandlung von topoShapes. Beispiel: 
+Das Part-Modul ist die direkte Verbindung zwischen FreeCAD und dem OpenCasCade-Kern. Es bietet im Wesentlichen \[TopoShape\_API/de\|TopoShapes\], welches der von OpenCasCade hauptsächlich verwendete Objekttyp ist. Das Part-Modul enthält außerdem verschiedene nützliche Funktionen zur Erzeugung und Behandlung von topoShapes. Beispiel   * 
 ```python
 import Part
 mycube = Part.makeBox(2,2,2)
@@ -66,7 +66,7 @@ Part.show(mycube)
 {{APIFunction|makeRuledSurface|Edge or Wire,Edge or Wire|Creates a ruled surface out of two edges or wires. If wires are used then these must have the same number of edges.|the created shape}}
 
 
-{{APIFunction|makeShell|list|Creates a shell out of a list of faces.    Note: Resulting shell should be manifold.   Non-manifold shells are not well supported.|the created shape}}
+{{APIFunction|makeShell|list|Creates a shell out of a list of faces.    Note   * Resulting shell should be manifold.   Non-manifold shells are not well supported.|the created shape}}
 
 
 {{APIFunction|makeSolid|Part.Shape|Creates a solid out of the shells inside a shape.|the created shape}}
@@ -88,6 +88,11 @@ Part.show(mycube)
 
 
 {{APIFunction|show|shape|Adds the shape to the active document or create one if no document exists.| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

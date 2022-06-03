@@ -1,23 +1,23 @@
 ---
-- GuiCommand:/fr
-   Name:Fasteners ScrewCalculator
-   Name/fr:Fasteners ScrewCalculator
-   MenuLocation:Fasteners → Screw calculator
-   Workbenches:[Fasteners](Fasteners_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Fasteners ScrewCalculator
+   Name/fr   *Fasteners ScrewCalculator
+   MenuLocation   *Fasteners → Screw calculator
+   Workbenches   *[Fasteners](Fasteners_Workbench/fr.md)
 ---
 
 # Fasteners ScrewCalculator/fr
 
 ## Description
 
-La commande <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> **Fasteners ScrewCalculator** affiche une calculatrice permettant de déterminer la taille du trou taraudé des vis.
+La commande <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *24px;"> **Fasteners ScrewCalculator** affiche une calculatrice permettant de déterminer la taille du trou taraudé des vis.
 
 ![](images/Fasteners_ScrewCalculator_Dialog.png ) 
 *Boîte de dialogue du Calculateur de trous de vis*
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'invoquer la commande :
+1.  Il existe plusieurs façons d\'invoquer la commande    *
     -   Appuyez sur le bouton **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** dans le menu.
 
@@ -38,7 +38,9 @@ La commande <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:2
 
 {{Fasteners Tools navi
 
-}}
+}} 
+
+[Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

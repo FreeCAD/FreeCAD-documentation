@@ -8,7 +8,7 @@
 
 ## Страница Инструментов 
 
-В процессе разработки серьезного програмного обеспечения, вам нужны инструменты. Вот список инструментов, которые мы использовали для разработки FreeCAD:
+В процессе разработки серьезного програмного обеспечения, вам нужны инструменты. Вот список инструментов, которые мы использовали для разработки FreeCAD   *
 
 
 </div>
@@ -24,7 +24,7 @@
 
 #### Qt-Toolkit 
 
-Инструментарий Qt настоящее произведение искуссва, платформа независомый инструмент для проектирования пользовательского интерфейса. Он содержится в [LibPack](Third_Party_Libraries/ru.md) FreeCAD, а также его можно скачать с [Qt project](http://qt-project.org/downloads).
+Инструментарий Qt настоящее произведение искуссва, платформа независомый инструмент для проектирования пользовательского интерфейса. Он содержится в [LibPack](Third_Party_Libraries/ru.md) FreeCAD, а также его можно скачать с [Qt project](http   *//qt-project.org/downloads).
 
 
 </div>
@@ -36,7 +36,7 @@
 
 #### InkScape 
 
-Отличная программа для работы с векторной графикой. Соответствует стандарту SVG и используется для создания Иконок и Изображений. Установить можно с сайта [www.inkscape.org](http://www.inkscape.org).
+Отличная программа для работы с векторной графикой. Соответствует стандарту SVG и используется для создания Иконок и Изображений. Установить можно с сайта [www.inkscape.org](http   *//www.inkscape.org).
 
 
 </div>
@@ -65,18 +65,18 @@
 
 </div>
 
-Получить GIMP можно здесь: [www.gimp.org](http://www.gimp.org/)
+Получить GIMP можно здесь   * [www.gimp.org](http   *//www.gimp.org/)
 
 #### Gitkraken
 
-This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research:
+This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research   *
 
 -   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
 -   [Source code management](Source_code_management.md)
 
 #### OBS Studio 
 
-Free and open source software for video recording and live streaming. More details on official website: [obsproject.com](https://obsproject.com/)
+Free and open source software for video recording and live streaming. More details on official website   * [obsproject.com](https   *//obsproject.com/)
 
 #### OpenCamLib
 
@@ -97,7 +97,7 @@ Free and open source software for video recording and live streaming. More detai
 
 <div class="mw-translate-fuzzy">
 
-скачать можно здесь: [staruml.sourceforge.net](http://staruml.sourceforge.net/en/)
+скачать можно здесь   * [staruml.sourceforge.net](http   *//staruml.sourceforge.net/en/)
 
 
 </div>
@@ -119,7 +119,7 @@ Free and open source software for video recording and live streaming. More detai
 
 <div class="mw-translate-fuzzy">
 
-Так как Express версию, найти трудно. Но вы можете попытаться поискать [по этой ссылке](http://msdn.microsoft.com/vstudio/express/visualc/default.aspx)
+Так как Express версию, найти трудно. Но вы можете попытаться поискать [по этой ссылке](http   *//msdn.microsoft.com/vstudio/express/visualc/default.aspx)
 
 
 </div>
@@ -136,11 +136,19 @@ Free and open source software for video recording and live streaming. More detai
 
 </div>
 
-Смотри [camstudio.org](http://camstudio.org/) для подробностей.
+Смотри [camstudio.org](http   *//camstudio.org/) для подробностей.
 
 ### Инструменты для Linux 
 
 В разработке
+
+
+
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

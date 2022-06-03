@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Например: Даны входные значения в диалоговом окне Rebar Distribuiton:
+Например   * Даны входные значения в диалоговом окне Rebar Distribuiton   *
 
 
 </div>
@@ -16,12 +16,19 @@
 
 <div class="mw-translate-fuzzy">
 
-Результат, созданный диалоговым окном Rebar Distribution, когда пользователь нажимает кнопку **OK**:
+Результат, созданный диалоговым окном Rebar Distribution, когда пользователь нажимает кнопку **OK**   *
 
 
 </div>
 
-<img alt="" src=images/RebarDistribution.png  style="width:800px;">
+<img alt="" src=images/RebarDistribution.png  style="width   *800px;">
+
+ 
+
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

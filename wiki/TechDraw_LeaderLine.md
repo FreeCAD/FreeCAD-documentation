@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw LeaderLine
-   MenuLocation:TechDraw → Add Lines → Add Leaderline to View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Rich Text Annotation](TechDraw_RichTextAnnotation.md), [TechDraw Welding Symbol](TechDraw_WeldSymbol.md), [TechDraw Line Group](TechDraw_LineGroup.md)
+- GuiCommand   *
+   Name   *TechDraw LeaderLine
+   MenuLocation   *TechDraw → Add Lines → Add Leaderline to View
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Rich Text Annotation](TechDraw_RichTextAnnotation.md), [TechDraw Welding Symbol](TechDraw_WeldSymbol.md), [TechDraw Line Group](TechDraw_LineGroup.md)
 ---
 
 # TechDraw LeaderLine
@@ -27,7 +27,7 @@ The LeaderLine tool adds a line to a View. Other annotation objects (such as [Ri
     2.  add further points to define more line segments.
 6.  To finish the creation, press **OK** to close the dialog.
 
-**Note:** If you did not define any points when creating the leaderline, a short line will be placed at the center of the view.
+**Note   *** If you did not define any points when creating the leaderline, a short line will be placed at the center of the view.
 
 ### Editing
 
@@ -38,40 +38,40 @@ The LeaderLine tool adds a line to a View. Other annotation objects (such as [Ri
 
 ## Properties
 
--    **X,Y**: The point at which the leaderline is connected to the View.
+-    **X,Y**   * The point at which the leaderline is connected to the View.
 
--    **Leader Parent**: The View to which the leader is attached.
+-    **Leader Parent**   * The View to which the leader is attached.
 
--    **Start Symbol**: The symbol at the start: <img alt="" src=images/Arrownone.svg  style="width:20px;"> None, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Filled Triangle
+-    **Start Symbol**   * The symbol at the start   * <img alt="" src=images/Arrownone.svg  style="width   *20px;"> None, <img alt="" src=images/Arrowfilled.svg  style="width   *20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width   *20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width   *20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width   *20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width   *20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width   *20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width   *20px;"> Filled Triangle
 
--    **End Symbol**: The symbol at the end.
+-    **End Symbol**   * The symbol at the end.
 
--    **WayPoints**: Nodes on the leaderline.
+-    **WayPoints**   * Nodes on the leaderline.
 
--    **Scalable**: Leader scales with Leader Parent.
+-    **Scalable**   * Leader scales with Leader Parent.
 
--    **Auto Horizontal**: Forces last leaderline segment to be horizontal.
+-    **Auto Horizontal**   * Forces last leaderline segment to be horizontal.
 
--    **Color**: Pen colour for the leaderline.
+-    **Color**   * Pen colour for the leaderline.
 
--    **Line Style**: 0 NoLine, 1 <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, 2 <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, 3 <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, 4 <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, 5 <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot
+-    **Line Style**   * 0 NoLine, 1 <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Continuous, 2 <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Dash, 3 <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Dot, 4 <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> DashDot, 5 <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> DashDotDot
 
--    **Line Width**: Width of leaderline.
+-    **Line Width**   * Width of leaderline.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The LeaderLine tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The LeaderLine tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
  
 ```python
 myPage = FreeCAD.ActiveDocument().Page
 myBase = FreeCAD.ActiveDocument().View
-leaderObj = FreeCAD.ActiveDocument.addObject('TechDraw::DrawLeaderLine','DrawLeaderLine')
+leaderObj = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawLeaderLine','DrawLeaderLine')
 FreeCAD.activeDocument().myPage.addView(leaderObj)
 FreeCAD.activeDocument().leaderObj.LeaderParent = myBase
 #first waypoint is always (0,0,0)  

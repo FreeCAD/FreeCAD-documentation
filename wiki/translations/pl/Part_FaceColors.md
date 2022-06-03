@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */pl
    Name   *Part FaceColors
-   Name/pl   *Kolor powierzchni
+   Name/pl   *Część   * Kolor powierzchni
    MenuLocation   *Menu podręczne → Ustaw kolor
    Workbenches   *[Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso   *[Wygląd zewnętrzny](Std_SetAppearance/pl.md)

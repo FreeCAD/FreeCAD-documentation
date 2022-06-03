@@ -5,7 +5,7 @@
 
 [Panel zadań](Task_panel/pl.md) pojawia się w zakładce **Zadania** okienka [widoku łączonego](combo_view/pl.md), jednego z najważniejszych paneli [interfejsu użytkownika](interface/pl.md). Jest to konfigurowalna przestrzeń, która może zawierać dowolny typ graficznego widżetu, jak składane okienka, tabele, pola wejściowe, pola wyboru, pola tekstowe, przyciski, etykiety, obrazy i inne elementy, w zależności od aktualnie aktywnego [Środowiska pracy](Workbenches/pl.md), oraz aktualnie aktywnego narzędzia.
 
-<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
+<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width   *" height="550px;">
 
 
 
@@ -31,7 +31,7 @@ Istnieje wiele poleceń wymagających wyboru kształtów lub obiektów obecnych 
 
 *Panel zadań, który otwiera się podczas edycji [Arch Component](Arch_Component.md). Panel czeka, aż użytkownik wybierze obiekty, które można dodać lub odjąć od danego elementu.*
 
-**Uwaga:** Proszę zauważyć, że przełączenie z zakładki **Zadania** do zakładki **Model** nie kończy aktywnego polecenia. Zadanie nadal będzie działać w tle. Użytkownik jest odpowiedzialny za prawidłowe zakończenie lub przerwanie aktywnego polecenia przed rozpoczęciem innego zadania. Pozostawienie uruchomionego zadania może spowodować błędy podczas próby uruchomienia innych narzędzi.
+**Uwaga   *** Proszę zauważyć, że przełączenie z zakładki **Zadania** do zakładki **Model** nie kończy aktywnego polecenia. Zadanie nadal będzie działać w tle. Użytkownik jest odpowiedzialny za prawidłowe zakończenie lub przerwanie aktywnego polecenia przed rozpoczęciem innego zadania. Pozostawienie uruchomionego zadania może spowodować błędy podczas próby uruchomienia innych narzędzi.
 
 ## Uwagi
 
@@ -42,16 +42,16 @@ Istnieje wiele poleceń wymagających wyboru kształtów lub obiektów obecnych 
 
 **Proszę przeformułować i zaktualizować tę sekcję**
 
-Zobacz [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Aby zamknąć Widok Zadań, należy użyć widżetu Widok Zadań. Można go zamknąć za pomocą *przycisku-\>close()*, ale zamyka on tylko dolną część widoku, a nie całe okno.
+Zobacz [wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Aby zamknąć Widok Zadań, należy użyć widżetu Widok Zadań. Można go zamknąć za pomocą *przycisku-\>close()*, ale zamyka on tylko dolną część widoku, a nie całe okno.
 
-Użycie Python: 
+Użycie Python   * 
 ```python
 Gui.Control.closeDialog()
 ```
 
-Użycie C++: 
+Użycie C++   * 
 ```python
-Gui::Control().closeDialog();
+Gui   *   *Control().closeDialog();
 ```
 
 

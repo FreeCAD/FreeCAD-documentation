@@ -1,31 +1,32 @@
 ---
-- GuiCommand:
-   Name:Std RecentFiles
-   Empty:1
-   MenuLocation:File → Recent files
-   Workbenches:All
-   SeeAlso:[Std Open](Std_Open.md), [Std Import](Std_Import.md)
+- GuiCommand   */pl
+   Name   *Std RecentFiles
+   Name/pl   *Std   * Ostatnio używane pliki
+   Empty   *1
+   MenuLocation   *Plik → Ostatnio używane pliki
+   Workbenches   *wszystkie
+   SeeAlso   *[Otwórz](Std_Open/pl.md), [Importuj](Std_Import/pl.md)
 ---
 
 # Std RecentFiles/pl
 
-## Description
+## Opis
 
-The **Std RecentFiles** menu option displays a list of recent files which can be opened.
+Opcja menu *\' Ostatnio używane pliki*\' wyświetla listę poprzednich plików, które można otworzyć.
 
-## Usage
+## Użycie
 
-1.  Select the **File → Recent files** option from the menu to display the recent files list.
-2.  Select a file from the list to open it.
+1.  Wybierz z menu opcję **Plik → Ostatnio używane pliki**, aby wyświetlić listę ostatnich plików.
+2.  Wybierz plik z listy, aby go otworzyć.
 
-## Options
+## Opcje
 
--   Press **Esc** twice or click outside the menu to close it.
+-   Naciśnij dwukrotnie przycisk **Esc** lub kliknij poza menu, aby je zamknąć.
 
-## Preferences
+## Ustawienia
 
--   The maximum number of files in the recent files list is determined by the **Tools → Edit parameters... → BaseApp → Preferences → RecentFiles → RecentFiles** setting. This setting can also be changed in the [Preferences Editor](Preferences_Editor#General.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Maksymalna liczba plików na liście ostatnich plików jest określana przez ustawienie **Przybory→ Edycja parametrów ... → BaseApp → Preferencje → RecentFiles → RecentFiles**. Ustawienie to można również zmienić w [Edytorze Parametrów](Preferences_Editor/pl#Og.C3.B3lne.md).
+-   Zapisywana jest ostatnio używana lokalizacja pliku   * **Przybory→ Edycja parametrów ... → BaseApp → Preferencje → Ogólne → FileOpenSavePath**.
 
 
 

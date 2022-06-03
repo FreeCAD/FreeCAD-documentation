@@ -6,12 +6,12 @@
 |Name=FCCamGroover
 |Translate=FCCamGroover
 |Icon=Cam-groover-icon-32x32.png
-|Description=Questa macro crea un solco in un cilindro.<br/>L'oggetto è mostrato in questa video [https://youtu.be/io1JL1U7kUs youtube video].
+|Description=Questa macro crea un solco in un cilindro.<br/>L'oggetto è mostrato in questa video [https   *//youtu.be/io1JL1U7kUs youtube video].
 |Author=TheMarkster
 |Version=2019.07.09
 |Date=2019.07.09
 |FCVersion=017 and above
-|Download=[https://www.freecadweb.org/wiki/images/b/ba/Cam-groover-icon-32x32.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/b/ba/Cam-groover-icon-32x32.png ToolBar Icon]
 }}
 
 
@@ -21,11 +21,11 @@
 
 Questa macro crea un solco in un cilindro in cui può entrare una camma.
 
-L\'oggetto è mostrato in questa video [youtube video](https://youtu.be/io1JL1U7kUs).
+L\'oggetto è mostrato in questa video [youtube video](https   *//youtu.be/io1JL1U7kUs).
 
-<img alt="" src=images/Cam-groover-screenshot.png  style="width:1000px;">
+<img alt="" src=images/Cam-groover-screenshot.png  style="width   *1000px;">
 
-Gif animato: ![](images/Cam-groover-animated-opt.gif )
+Gif animato   * ![](images/Cam-groover-animated-opt.gif )
 
 ## Script
 
@@ -35,7 +35,7 @@ ToolBar Icon ![](images/Cam-groover-icon-32x32.png )
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 import FreeCAD
 from FreeCAD import Base
 from PySide import QtGui,QtCore
@@ -47,8 +47,8 @@ import math
 
 __title__ = "FC Cam Groover"
 __author__ = "TheMarkster"
-__url__ = "https://www.freecadweb.org/wiki/Macro_FCCamGroover"
-__Wiki__ ="https://www.freecadweb.org/wiki/Macro_FCCamGroover"
+__url__ = "https   *//www.freecadweb.org/wiki/Macro_FCCamGroover"
+__Wiki__ ="https   *//www.freecadweb.org/wiki/Macro_FCCamGroover"
 __date__ = "2020.06.13" 
 __version__ = __date__
 
@@ -57,9 +57,9 @@ msg = u"""FC Cam Groover v"""+__version__+""", a macro to create a cam groove in
 Credit to Gomez Lucio and Laurent Despeyroux for their macro, '3D Parametric Curve Macro', 2015, which provided inspiration
 for some of the code used herin.  Thanks also to emills2 for his invaluable feedback. All errors are mine, not theirs.<br/>
 <br/>
-The grooved cylinder produced will be similar to the one depicted in this video: <a href = 'https://youtu.be/io1JL1U7kUs'>https://youtu.be/io1JL1U7kUs</a><br/>
+The grooved cylinder produced will be similar to the one depicted in this video   * <a href = 'https   *//youtu.be/io1JL1U7kUs'>https   *//youtu.be/io1JL1U7kUs</a><br/>
 <br/>
-Parameters supported: cylinder height, cylinder radius, groove depth, groove width, strokes per revolution, stroke range, steps (precision) <br/>
+Parameters supported   * cylinder height, cylinder radius, groove depth, groove width, strokes per revolution, stroke range, steps (precision) <br/>
 <br/>
 This file is a supplement to the FreeCAD CAx development system.                                                                            
 <br/>
@@ -72,7 +72,7 @@ the License, or (at your option) any later version.
 This software is distributed in the hope that it will be useful,      
 but WITHOUT ANY WARRANTY; without even the implied warranty of        
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         
-GNU Library General Public License at <a href='http://www.gnu.org/licenses'>http://www.gnu.org/licenses</a> 
+GNU Library General Public License at <a href='http   *//www.gnu.org/licenses'>http   *//www.gnu.org/licenses</a> 
 for more details.<br/>                                                               
 <br/>
 For more information about the GNU Library General Public License     
@@ -89,47 +89,47 @@ diag.exec_()
 
 window = QtGui.QMainWindow()
 
-def say(msg):
+def say(msg)   *
     FreeCAD.Console.PrintMessage(msg);
 
-def processEvents():
+def processEvents()   *
      time.sleep(0.001)
      QtGui.QApplication.processEvents()
 
-def getDouble(txt1,txt2,default,start=0,decimals=4):
+def getDouble(txt1,txt2,default,start=0,decimals=4)   *
     inp,ok = QtGui.QInputDialog.getDouble(window, txt1,txt2,default, start,1000000, decimals)
-    if ok:
+    if ok   *
         return inp
-    else:
+    else   *
         raise StandardError('User canceled')
 
-def getInt(txt1,txt2,default):
+def getInt(txt1,txt2,default)   *
     inp, ok = QtGui.QInputDialog.getInt(window, txt1,txt2,default, 1, 100000, 1)
-    if ok:
+    if ok   *
         return inp
-    else:
+    else   *
         raise StandardError('User canceled')
 
 
-def getDistance3d(x1, y1, z1, x2, y2, z2):
+def getDistance3d(x1, y1, z1, x2, y2, z2)   *
     return math.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
 
-radius = getDouble(u'Radius of Cylinder',u'Enter radius of cylinder (in mm).\nMake sure it\'s big enough or the operation will fail:',10)
+radius = getDouble(u'Radius of Cylinder',u'Enter radius of cylinder (in mm).\nMake sure it\'s big enough or the operation will fail   *',10)
 cylinderHeight = getDouble(u'Height of Cylinder', u'Enter the height of the cylinder. (in mm)\n(Can be adjusted after the macro finishes.)',10)
-depth = getDouble(u'Depth of Groove', u'Enter the depth of the groove to be cut into the cylinder (in mm):',2)
-slotHeight = getDouble(u'Height of Groove',u'Enter the height of the slot to be cut into the cylinder.\n\nNote: this is not the stroke length, which will be input below. (in mm) ',2)
+depth = getDouble(u'Depth of Groove', u'Enter the depth of the groove to be cut into the cylinder (in mm)   *',2)
+slotHeight = getDouble(u'Height of Groove',u'Enter the height of the slot to be cut into the cylinder.\n\nNote   * this is not the stroke length, which will be input below. (in mm) ',2)
 innerRadius = radius-depth
-strokeFactor = getDouble(u'Stroke Length',u'Enter the axial length of the stroke: (in mm)',5)
+strokeFactor = getDouble(u'Stroke Length',u'Enter the axial length of the stroke   * (in mm)',5)
 strokeFactor /= radius
-strokesPerRevolution = getInt(u'Strokes per Revolution',u'Enter the number of strokes per revolution of the cylinder.\n1 or 2 seems to work okay, but anything beyond 3 could be troublesome:', 2)
-steps = getInt(u'Steps',u'Enter number of steps (points) in curve, the more points the more precise the curve,\nbut the longer to process.  If it\'s too small the operation *will* fail.\nExperiment with this value if you are having trouble with a particular groove.\nThe default is 628:',628)
+strokesPerRevolution = getInt(u'Strokes per Revolution',u'Enter the number of strokes per revolution of the cylinder.\n1 or 2 seems to work okay, but anything beyond 3 could be troublesome   *', 2)
+steps = getInt(u'Steps',u'Enter number of steps (points) in curve, the more points the more precise the curve,\nbut the longer to process.  If it\'s too small the operation *will* fail.\nExperiment with this value if you are having trouble with a particular groove.\nThe default is 628   *',628)
 
 #inspiration for this makeBSpline function is from the 3d parametric curve macro
 #it is not an exact copy/paste of the code, but rather is based on the same principles
 #but without overhead of the gui
 
 
-def makeBSpline(strokesPerRevolution,strokeFactor,radius,steps):
+def makeBSpline(strokesPerRevolution,strokeFactor,radius,steps)   *
     a = strokesPerRevolution
     b = strokeFactor
     c = radius
@@ -138,7 +138,7 @@ def makeBSpline(strokesPerRevolution,strokeFactor,radius,steps):
     t = 0.0
     maxT = 2*math.pi
     counter=0
-    while t <= maxT:
+    while t <= maxT   *
         say(u'Step '+str(counter)+u' of '+str(steps)+u'\n')
         counter +=1
         processEvents()
@@ -153,7 +153,7 @@ def makeBSpline(strokesPerRevolution,strokeFactor,radius,steps):
     processEvents()
 
 
-if not App.ActiveDocument:
+if not App.ActiveDocument   *
     App.newDocument()
 toBeRemoved=[] #temporary objects to be removed to clean up tree
 say(u'Making BSpline...\n')
@@ -180,9 +180,9 @@ cir.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(90,0,0), App.Vector(
 App.ActiveDocument.recompute()
 say(u'Making a draft path array of '+str(steps)+' circles, waiting for FreeCAD...\n')
 processEvents()
-try:
+try   *
     Draft.make_path_array(cir,bs,count=steps,align=True,align_mode='Tangent',tan_vector=App.Vector(0,0,1),force_vertical=True)
-except:
+except   *
     title = u"""Potential incompatibility with this version of FreeCAD"""
     msg='There is a potential incompatibility with this version of FreeCAD.  If the groove does not appear correct after processing completes \
 update to version 0.19 or later and try again.'
@@ -195,7 +195,7 @@ update to version 0.19 or later and try again.'
 App.ActiveDocument.recompute()
 pa = App.ActiveDocument.getObject('PathArray')
 points = []
-for v in pa.Shape.Vertexes:
+for v in pa.Shape.Vertexes   *
     points.append(v.Point)
 Draft.makeBSpline(points,True,None)
 bs1 = App.ActiveDocument.ActiveObject
@@ -216,28 +216,28 @@ processEvents()
 Draft.scale([bs1],FreeCAD.Vector(1.05,1.05,1.0),center=FreeCAD.Vector(0.0,0.0,0.0),copy=False)
 say(u'Making ruled surfaces.')
 processEvents()
-FreeCAD.ActiveDocument.addObject('Part::RuledSurface', 'Ruled Surface')
+FreeCAD.ActiveDocument.addObject('Part   *   *RuledSurface', 'Ruled Surface')
 FreeCAD.ActiveDocument.ActiveObject.Curve1=(bs1,['Edge1'])
 FreeCAD.ActiveDocument.ActiveObject.Curve2=(bs3,['Edge1'])
 FreeCAD.ActiveDocument.ActiveObject.Orientation = u"Forward"
 rs = FreeCAD.ActiveDocument.ActiveObject
 say(u'.')
 processEvents()
-FreeCAD.ActiveDocument.addObject('Part::RuledSurface', 'Ruled Surface')
+FreeCAD.ActiveDocument.addObject('Part   *   *RuledSurface', 'Ruled Surface')
 FreeCAD.ActiveDocument.ActiveObject.Curve1=(bs2,['Edge1'])
 FreeCAD.ActiveDocument.ActiveObject.Curve2=(bs3,['Edge1'])
 FreeCAD.ActiveDocument.ActiveObject.Orientation=u"Forward"
 rs1 = FreeCAD.ActiveDocument.ActiveObject
 say(u'.')
 processEvents()
-FreeCAD.ActiveDocument.addObject('Part::RuledSurface', 'Ruled Surface')
+FreeCAD.ActiveDocument.addObject('Part   *   *RuledSurface', 'Ruled Surface')
 FreeCAD.ActiveDocument.ActiveObject.Curve1=(bs1,['Edge1'])
 FreeCAD.ActiveDocument.ActiveObject.Curve2=(bs,['Edge1'])
 FreeCAD.ActiveDocument.ActiveObject.Orientation=u"Forward"
 rs2 = FreeCAD.ActiveDocument.ActiveObject
 say(u'.')
 processEvents()
-FreeCAD.ActiveDocument.addObject('Part::RuledSurface', 'Ruled Surface')
+FreeCAD.ActiveDocument.addObject('Part   *   *RuledSurface', 'Ruled Surface')
 FreeCAD.ActiveDocument.ActiveObject.Curve1=(bs2,['Edge1'])
 FreeCAD.ActiveDocument.ActiveObject.Curve2=(bs,['Edge1'])
 FreeCAD.ActiveDocument.ActiveObject.Orientation = u"Forward"
@@ -251,13 +251,13 @@ App.ActiveDocument.recompute()
 
 say(u'Building shell...\n')
 processEvents()
-try:
+try   *
     _=Part.Shell([App.ActiveDocument.getObject(rs3.Name).Shape.Faces[0], App.ActiveDocument.getObject(rs2.Name).Shape.Faces[0], App.ActiveDocument.getObject(rs.Name).Shape.Faces[0], App.ActiveDocument.getObject(rs1.Name).Shape.Faces[0], ])
-except:
+except   *
     say('Exception making shell.  You might try increasing the number of steps, which sometimes helps.\n')
     raise StandardError('Exception creating shell object.')
-if _.isNull(): raise RuntimeError('Failed to create shell')
-App.ActiveDocument.addObject('Part::Feature','Shell').Shape=_.removeSplitter()
+if _.isNull()   * raise RuntimeError('Failed to create shell')
+App.ActiveDocument.addObject('Part   *   *Feature','Shell').Shape=_.removeSplitter()
 del _
 shell = App.ActiveDocument.ActiveObject
 toBeRemoved.extend([shell.Name])
@@ -270,7 +270,7 @@ processEvents()
 
 __s__=App.ActiveDocument.Shell.Shape
 __s__=Part.Solid(__s__)
-__o__=App.ActiveDocument.addObject("Part::Feature","GrooveFeature")
+__o__=App.ActiveDocument.addObject("Part   *   *Feature","GrooveFeature")
 __o__.Label="GrooveFeature"
 __o__.Shape=__s__
 del __s__, __o__
@@ -279,7 +279,7 @@ App.ActiveDocument.recompute()
 
 say('Building cylinder...\n')
 processEvents()
-App.ActiveDocument.addObject("Part::Cylinder","Cylinder")
+App.ActiveDocument.addObject("Part   *   *Cylinder","Cylinder")
 App.ActiveDocument.ActiveObject.Label = "Cylinder"
 App.ActiveDocument.getObject("Cylinder").Radius = str(radius)
 App.ActiveDocument.getObject("Cylinder").Height = str(cylinderHeight)
@@ -293,7 +293,7 @@ App.ActiveDocument.recompute()
 
 say(u'Cleaning up temporary objects.')
 processEvents()
-for tbr in toBeRemoved:
+for tbr in toBeRemoved   *
     App.ActiveDocument.removeObject(tbr)
     say(u'.')
     processEvents()
@@ -318,7 +318,7 @@ diag.exec_()
 
 ## Elenco
 
-Il foro [FC Cam Groover Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29816&sid=f6f9b946f015bc5072bf112d97b50256)
+Il foro [FC Cam Groover Macro](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=29816&sid=f6f9b946f015bc5072bf112d97b50256)
 
 
 

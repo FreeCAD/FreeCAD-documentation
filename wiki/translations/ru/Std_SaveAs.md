@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Std_SaveAs
-   Name/ru:Сохранить как...
-   MenuLocation:[Файл](Std_File_Menu/ru.md) → Сохранить как...
-   Workbenches:Все
-   SeeAlso:[Сохранить копию](Std_SaveCopy/ru.md),<br> [Cохранить](Std_Save/ru.md)
+- GuiCommand   */ru
+   Name   *Std_SaveAs
+   Name/ru   *Сохранить как...
+   MenuLocation   *[Файл](Std_File_Menu/ru.md) → Сохранить как...
+   Workbenches   *Все
+   SeeAlso   *[Сохранить копию](Std_SaveCopy/ru.md),<br> [Cохранить](Std_Save/ru.md)
 ---
 
 # Std SaveAs/ru
@@ -29,12 +29,12 @@
 
 ## Настройки
 
--   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр   * **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Программирование
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

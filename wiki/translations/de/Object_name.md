@@ -12,11 +12,11 @@ Alle Objekte im Programm haben einen [Objektnamen](Object_name/de.md), der sie i
 
 </div>
 
-Diese Informationen gelten für alle Objekte, die von [App DokumentObjekt](App_DocumentObject/de.md) abgeleitet sind. ({{Incode|App::DocumentObject}} Klasse), die im Wesentlichen alle Objekte umfasst, die in einem Dokument erstellt werden können.
+Diese Informationen gelten für alle Objekte, die von [App DokumentObjekt](App_DocumentObject/de.md) abgeleitet sind. ({{Incode|App   *   *DocumentObject}} Klasse), die im Wesentlichen alle Objekte umfasst, die in einem Dokument erstellt werden können.
 
 ## Namen
 
-There are various properties for Names:
+There are various properties for Names   *
 
 -   The `Name` can only include simple alphanumeric characters, and the underscore, `[_0-9a-zA-Z]`.
 -   The `Name` cannot start with a number; it must start with a letter or the underscore, `[_a-zA-Z]`.
@@ -29,7 +29,7 @@ In summary, the `Name` essentially acts like a unique identifier (UID) for an ob
 
 ## Labels
 
-There are various properties for Labels:
+There are various properties for Labels   *
 
 -   The `Label` can accept any UTF8 string, including accents and spaces.
 -   The [tree view](tree_view.md) actually displays the `Label` of the object, not the `Name`. Therefore, whenever a new object is created, it is a good practice to change the `Label` to a more descriptive string. To rename (relabel) the object, select it in the tree view and press **F2** (or rather **Return** on macOS), or open the context menu (right-click) and choose **Rename**.
@@ -55,7 +55,7 @@ This property was introduced in v0.19. It is a simple string that can contain ar
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](Scripted_objects.md).
 
@@ -66,7 +66,7 @@ Any object in the software is internally created with the `addObject()` method o
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = doc.addObject("Part::Box", "Name")
+obj = doc.addObject("Part   *   *Box", "Name")
 obj.Label = "Custom label"
 ```
 
@@ -74,9 +74,9 @@ obj.Label = "Custom label"
 
 The `addObject` function has two basic string arguments.
 
--   The first argument indicates the type of object, in this case, `"Part::Box"`.
--   The second argument is a string that defines the `Name` attribute. If it is not provided, it defaults to the same name as the class of the object, that is, `"Part__Box"`, where the two invalid symbols, the colons `::`, are replaced by two underscores `__`.
-    -   The `Name` can only include simple alphanumeric characters, and the underscore, `[_0-9a-zA-Z]`. If other symbols are given, these will be converted to underscores; for example, `"A+B:C*"` is converted to `"A_B_C_"`.
+-   The first argument indicates the type of object, in this case, `"Part   *   *Box"`.
+-   The second argument is a string that defines the `Name` attribute. If it is not provided, it defaults to the same name as the class of the object, that is, `"Part__Box"`, where the two invalid symbols, the colons `   *   *`, are replaced by two underscores `__`.
+    -   The `Name` can only include simple alphanumeric characters, and the underscore, `[_0-9a-zA-Z]`. If other symbols are given, these will be converted to underscores; for example, `"A+B   *C*"` is converted to `"A_B_C_"`.
     -   The `Name` cannot start with a number; it must start with a letter or the underscore, `[_a-zA-Z]`. For example, `"123ABC"` is converted to `"_23ABC"`.
     -   The `Name` is fixed at creation time; it cannot be modified afterwards.
     -   The `Name` must be unique in the entire document. If the same `"Name"` is used, a sequential number will be appended automatically so that the resulting names are unique; for example, if `"Name"` already exists, then new objects will be called `"Name001"`, `"Name002"`, `"Name003"`, etc.

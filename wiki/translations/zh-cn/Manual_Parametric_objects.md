@@ -8,7 +8,7 @@
 </div>
 
 
-{{Manual:TOC}}
+{{Manual   *TOC}}
 
 FreeCAD 专为参数化建模而设计。这意味着所创建的几何体不是可以自由雕刻的那种，而是由规则和参数而生成的。例如，可以凭半径和高度生成圆柱体。有了这两个参数，程序便具有了足够的信息来构建这个圆柱体。
 
@@ -60,6 +60,8 @@ FreeCAD 中的参数对象实际上是一小段程序，只要其中一个参数
 
 
 </div>
+
+[Category   *Poweruser Documentation](Category_Poweruser_Documentation.md) [Category   *Tutorials](Category_Tutorials.md)
 
 
 

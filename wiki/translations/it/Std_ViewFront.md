@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_ViewFront
-   Name/it:Vista frontale
-   MenuLocation:Visualizza → Viste standard → Di fronte
-   Workbenches:Tutti
-   Shortcut:**1**
-   SeeAlso:[Vista dall'alto](Std_ViewTop/it.md), [Vista da destra](Std_ViewRight/it.md)
+- GuiCommand   */it
+   Name   *Std_ViewFront
+   Name/it   *Vista frontale
+   MenuLocation   *Visualizza → Viste standard → Di fronte
+   Workbenches   *Tutti
+   Shortcut   ***1**
+   SeeAlso   *[Vista dall'alto](Std_ViewTop/it.md), [Vista da destra](Std_ViewRight/it.md)
 ---
 
 # Std ViewFront/it
@@ -19,16 +19,16 @@ Il comando **Vista frontale** orienta la camera della [Vista 3D](3D_view/it.md) 
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_ViewFront.svg" width=16px> Vista frontale**.
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewFront.svg" width=16px> Di fronte** dal menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewFront.svg" width=16px> Di fronte** dal menu contestuale della [vista 3D](3D_view/it.md).
-    -   Usare la scorciatoia da tastiera: **1**.
+    -   Usare la scorciatoia da tastiera   * **1**.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

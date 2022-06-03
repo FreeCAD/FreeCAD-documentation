@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Mesh Scale
-   Name/ru:Mesh Scale
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   MenuLocation:
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */ru
+   Name   *Mesh Scale
+   Name/ru   *Mesh Scale
+   Workbenches   *[Mesh](Mesh_Workbench/ru.md)
+   MenuLocation   *
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Mesh Scale/ru
@@ -20,7 +20,7 @@ The **Mesh Scale** command scales mesh objects.
 ## Использование
 
 1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Mesh_Scale.svg" width=16px> [Mesh Scale](Mesh_Scale.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_Scale.svg" width=16px> Scale...** option from the menu.
 3.  The **Scaling** dialog box opens.

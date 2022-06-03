@@ -1,7 +1,7 @@
 # Online Help Toc/pt-br
 <div class="mw-translate-fuzzy">
 
-Este é o índice utilizado para criação automática do sistema de ajuda on-line do FreeCAD. Também há uma versão para impressão deste manual [clicando aqui](https://github.com/FreeCAD/FreeCAD/releases).
+Este é o índice utilizado para criação automática do sistema de ajuda on-line do FreeCAD. Também há uma versão para impressão deste manual [clicando aqui](https   *//github.com/FreeCAD/FreeCAD/releases).
 
 
 </div>
@@ -137,7 +137,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
         -   [Adding a workbench](Workbench_creation.md)
         -   [Installing extra Python modules](Extra_python_modules.md)
     -   [Source documentation](Source_documentation.md)
-    -   [API](https://www.freecadweb.org/api/)
+    -   [API](https   *//www.freecadweb.org/api/)
 
 -   Credits
     -   [Contributors](Contributors.md)
@@ -147,6 +147,11 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 
 </div>
+
+
+
+
+[Category   *Documentation/pt-br](Category   *Documentation/pt-br.md) [Category   *Documentation](Category_Documentation.md)
 
 
 

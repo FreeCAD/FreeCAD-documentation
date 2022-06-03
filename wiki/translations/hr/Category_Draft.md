@@ -1,6 +1,8 @@
 # Category:Draft/hr
 This category list pages related to the \"User\_Documentation/hr\" and \"Workbenches/hr\"
 
+[Category   *User Documentation/hr](Category   *User_Documentation/hr.md) [Category   *Workbenches/hr](Category   *Workbenches/hr.md)
+
 ### Contents
 
 |     |     |     |

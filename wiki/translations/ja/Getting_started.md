@@ -14,7 +14,7 @@ FreeCADは、CAD/CAE用のパラメトリックモデリングアプリケーシ
 
 <div class="mw-translate-fuzzy">
 
-でもFreeCADがどういったもので、またどういった機能が開発されているのか興味がある方は、是非ダウンロードして試してみてください。現時点では既にたくさんの機能が実装されています。しかしユーザーインターフェイスはまだ十分に開発されていません。したがって、もしあなたがPythonを少し知っていれば、比較的に簡単に複雑な形状の作成や修正にすぐに取りかかれますが、Pyhtonを知らなければ、FreeCADが提供する機能はまだほんの僅かであると感じるでしょう。でも待ってください、すぐに改善されますから。 評価後のアイデアや意見は、是非[FreeCADディスカッションフォーラム](http://forum.freecadweb.org/index.php)で私たちと共有しましょう！
+でもFreeCADがどういったもので、またどういった機能が開発されているのか興味がある方は、是非ダウンロードして試してみてください。現時点では既にたくさんの機能が実装されています。しかしユーザーインターフェイスはまだ十分に開発されていません。したがって、もしあなたがPythonを少し知っていれば、比較的に簡単に複雑な形状の作成や修正にすぐに取りかかれますが、Pyhtonを知らなければ、FreeCADが提供する機能はまだほんの僅かであると感じるでしょう。でも待ってください、すぐに改善されますから。 評価後のアイデアや意見は、是非[FreeCADディスカッションフォーラム](http   *//forum.freecadweb.org/index.php)で私たちと共有しましょう！
 
 
 </div>
@@ -27,7 +27,7 @@ Like all open-source projects, the FreeCAD project is not a one-way work deliver
 
 </div>
 
-See also:
+See also   *
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 -   [Tutorials](Tutorials.md)
@@ -45,12 +45,12 @@ First of all, download and install FreeCAD. See the [Download](Download.md) page
 
 </div>
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
+<img alt="" src=images/FreeCAD_interface.png  style="width   *1024px;">
 
 ![最初に起動するFreeCADインターフェイスです。[他のスクリーンショットも参照してください](images/screenshots/jp.md)。](Freecad09-empty.jpg )
 
@@ -86,7 +86,7 @@ FreeCADは汎用の3Dモデリングアプリケーションです。機械工�
 
 </div>
 
-<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -101,7 +101,7 @@ FreeCADは汎用の3Dモデリングアプリケーションです。機械工�
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD has several different [navigation modes](Mouse_Model.md) available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](Mouse_Model#Touchpad_Navigation.md), where the middle mouse button is not used. The following table describes the default mode, called **CAD Navigation** (You can quickly change the current navigation mode by right-clicking on an empty area of the 3D view):
+FreeCAD has several different [navigation modes](Mouse_Model.md) available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](Mouse_Model#Touchpad_Navigation.md), where the middle mouse button is not used. The following table describes the default mode, called **CAD Navigation** (You can quickly change the current navigation mode by right-clicking on an empty area of the 3D view)   *
 
 
 </div>
@@ -110,12 +110,12 @@ FreeCAD has several different [navigation modes](Mouse_Model.md) available, that
 
 ## First steps with FreeCAD 
 
-FreeCAD\'s focus is to allow you to make high-precision 3D models, to keep tight control over those models (being able to go back into modelling history and change parameters), and eventually to build those models (via 3D printing, CNC machining or even construction worksite). It is therefore very different from some other 3D applications made for other purposes, such as animation film or gaming. Its learning curve can be steep, especially if this is your first contact with 3D modeling. If you are struck at some point, don\'t forget that the friendly community of users on the [FreeCAD forum](http://forum.freecadweb.org/index.php) might be able to get you out in no time.
+FreeCAD\'s focus is to allow you to make high-precision 3D models, to keep tight control over those models (being able to go back into modelling history and change parameters), and eventually to build those models (via 3D printing, CNC machining or even construction worksite). It is therefore very different from some other 3D applications made for other purposes, such as animation film or gaming. Its learning curve can be steep, especially if this is your first contact with 3D modeling. If you are struck at some point, don\'t forget that the friendly community of users on the [FreeCAD forum](http   *//forum.freecadweb.org/index.php) might be able to get you out in no time.
 
 
 <div class="mw-translate-fuzzy">
 
-The workbench you will start using in FreeCAD depends on the type of job you need to do: If you are going to work on mechanical models, or more generally any small-scale objects, you\'ll probably want to try the [PartDesign Workbench](PartDesign_Workbench.md). If you will work in 2D, then switch to the [Draft Workbench](Draft_Workbench.md), or the [Sketcher Workbench](Sketcher_Workbench.md) if you need constraints. If you want to do BIM, launch the [Arch Workbench](Arch_Workbench.md). And if you come from the OpenSCAD world, try the [OpenSCAD Workbench](OpenSCAD_Workbench.md). There are also many community-developed [external workbenches](External_workbenches.md) available.
+The workbench you will start using in FreeCAD depends on the type of job you need to do   * If you are going to work on mechanical models, or more generally any small-scale objects, you\'ll probably want to try the [PartDesign Workbench](PartDesign_Workbench.md). If you will work in 2D, then switch to the [Draft Workbench](Draft_Workbench.md), or the [Sketcher Workbench](Sketcher_Workbench.md) if you need constraints. If you want to do BIM, launch the [Arch Workbench](Arch_Workbench.md). And if you come from the OpenSCAD world, try the [OpenSCAD Workbench](OpenSCAD_Workbench.md). There are also many community-developed [external workbenches](External_workbenches.md) available.
 
 
 </div>
@@ -134,7 +134,7 @@ The [PartDesign Workbench](PartDesign_Workbench.md) is made to build complex obj
 
 The PartDesign workbench makes heavy use of another workbench, the [Sketcher Workbench](Sketcher_Workbench.md). The sketcher allows you to draw 2D shapes, which are defined by applying Constraints to the 2D shape. For example, you might draw a rectangle and set the size of a side by applying a length constraint to one of the sides. That side then cannot be resized anymore (unless the constraint is changed).
 
-Those 2D shapes made with the sketcher are used a lot in the PartDesign workbench, for example to create 3D volumes, or to draw areas on the faces of your object that will then be hollowed from its main volume. This is a typical PartDesign workflow:
+Those 2D shapes made with the sketcher are used a lot in the PartDesign workbench, for example to create 3D volumes, or to draw areas on the faces of your object that will then be hollowed from its main volume. This is a typical PartDesign workflow   *
 
 1.  Create a new sketch
 2.  Draw a closed shape (make sure all points are joined)
@@ -146,9 +146,9 @@ Those 2D shapes made with the sketcher are used a lot in the PartDesign workbenc
 8.  Close the sketch
 9.  Create a pocket from the second sketch, on the first object
 
-Which gives you an object like this:
+Which gives you an object like this   *
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width   *600px;">
 
 At any moment, you can select the original sketches and modify them, or change the extrusion parameters of the pad or pocket operations, which will update the final object.
 
@@ -156,11 +156,11 @@ At any moment, you can select the original sketches and modify them, or change t
 
 The [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) behave a bit differently than the other workbenches above, although they follow the same rules, which are common to all of FreeCAD. In short, while the Sketcher and PartDesign are made primarily to design single pieces, Draft and Arch are made to ease your work when working with several, simpler objects.
 
-The [Draft Workbench](Draft_Workbench.md) offers you 2D tools somewhat similar to what you can find in traditional 2D CAD applications such as [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). However, 2D drafting being far away from the scope of FreeCAD, don\'t expect to find there the full array of tools that these dedicated applications offer. Most of the Draft tools work not only in a 2D plane but also in the full 3D space, and benefit from special helper systems such as [Work planes](Draft_SelectPlane.md) and [object snapping](Draft_Snap.md).
+The [Draft Workbench](Draft_Workbench.md) offers you 2D tools somewhat similar to what you can find in traditional 2D CAD applications such as [AutoCAD](https   *//en.wikipedia.org/wiki/AutoCAD). However, 2D drafting being far away from the scope of FreeCAD, don\'t expect to find there the full array of tools that these dedicated applications offer. Most of the Draft tools work not only in a 2D plane but also in the full 3D space, and benefit from special helper systems such as [Work planes](Draft_SelectPlane.md) and [object snapping](Draft_Snap.md).
 
-The [Arch Workbench](Arch_Workbench.md) adds [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) tools to FreeCAD, allowing you to build architectural models with parametric objects. The Arch workbench relies extensively on other modules such as Draft and Sketcher. All the Draft tools are also present in the Arch workbench, and most Arch tools make use of the Draft helper systems.
+The [Arch Workbench](Arch_Workbench.md) adds [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) tools to FreeCAD, allowing you to build architectural models with parametric objects. The Arch workbench relies extensively on other modules such as Draft and Sketcher. All the Draft tools are also present in the Arch workbench, and most Arch tools make use of the Draft helper systems.
 
-A typical workflow with Arch and Draft workbenches might be:
+A typical workflow with Arch and Draft workbenches might be   *
 
 1.  Draw a couple of lines with the Draft Line tool
 2.  Select each line and press the Wall tool to build a wall on each of them
@@ -172,7 +172,7 @@ A typical workflow with Arch and Draft workbenches might be:
 
 これはあなたにこれを与える：
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -194,10 +194,10 @@ FreeCAD, as an open source software, offers the possibility to supplement its wo
 
 The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
 
-There are two types of addons:
+There are two types of addons   *
 
-1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+1.  [Macros](Macros.md)   * short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
+2.  [External workbenches](External_workbenches.md)   * collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -220,14 +220,14 @@ There are two types of addons:
 
 <div class="mw-translate-fuzzy">
 
--   [Version 0.17 Release notes](Release_notes_0.17.md) : Check what\'s new in the 0.17 release of FreeCAD
--   [Version 0.16 Release notes](Release_notes_0.16.md) : Check what\'s new in the 0.16 release of FreeCAD
--   [Version 0.15 Release notes](Release_notes_0.15.md) : Check what\'s new in the 0.15 release of FreeCAD
--   [Version 0.14 Release notes](Release_notes_0.14.md) : Check what\'s new in the 0.14 release of FreeCAD
--   [Version 0.13 Release notes](Release_notes_0.13.md) : Check what\'s new in the 0.13 release of FreeCAD
--   [Version 0.12 Release notes](Release_notes_0.12.md) : Check what\'s new in the 0.12 release of FreeCAD
+-   [Version 0.17 Release notes](Release_notes_0.17.md)    * Check what\'s new in the 0.17 release of FreeCAD
+-   [Version 0.16 Release notes](Release_notes_0.16.md)    * Check what\'s new in the 0.16 release of FreeCAD
+-   [Version 0.15 Release notes](Release_notes_0.15.md)    * Check what\'s new in the 0.15 release of FreeCAD
+-   [Version 0.14 Release notes](Release_notes_0.14.md)    * Check what\'s new in the 0.14 release of FreeCAD
+-   [Version 0.13 Release notes](Release_notes_0.13.md)    * Check what\'s new in the 0.13 release of FreeCAD
+-   [Version 0.12 Release notes](Release_notes_0.12.md)    * Check what\'s new in the 0.12 release of FreeCAD
 -   [バージョン0.12リリースノート](Release_notes_0.12.md) ： FreeCAD リリース 0.12 の新着情報をチェックしてください。
--   [Version 0.11 Release notes](Release_notes_0.11.md) : Check what\'s new in the 0.11 release of FreeCAD
+-   [Version 0.11 Release notes](Release_notes_0.11.md)    * Check what\'s new in the 0.11 release of FreeCAD
 
 
 </div>
@@ -240,6 +240,11 @@ There are two types of addons:
 
 
 </div>
+
+
+
+
+[Category   *User\_Documentation/ja](Category   *User_Documentation/ja.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std AxisCross
-   Name/fr:Std Axes du repère
-   MenuLocation:Affichage → Afficher les axes des coordonnées
-   Workbenches:Tous
-   Shortcut:**A** **C**
+- GuiCommand   */fr
+   Name   *Std AxisCross
+   Name/fr   *Std Axes du repère
+   MenuLocation   *Affichage → Afficher les axes des coordonnées
+   Workbenches   *Tous
+   Shortcut   ***A** **C**
 ---
 
 # Std AxisCross/fr
@@ -20,23 +20,23 @@ Les axes du repère se composent de trois flèches représentant les axes positi
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Sélectionnez l\'option **Affichage → <img src="images/Std_AxisCross.svg" width=16px> Afficher les axes des coordonnées** dans le menu.
-    -   Utilisez le raccourci clavier: **A** puis **C**.
+    -   Utilisez le raccourci clavier   * **A** puis **C**.
 
 ## Remarques
 
--   FreeCAD peut afficher un indicateur de système de coordonnées plus petit dans le coin inférieur droit des vues 3D: **Edition → Préférences ... → Affichage → Vue 3D → Afficher le système de coordonnées dans le coin**. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
+-   FreeCAD peut afficher un indicateur de système de coordonnées plus petit dans le coin inférieur droit des vues 3D   * **Edition → Préférences ... → Affichage → Vue 3D → Afficher le système de coordonnées dans le coin**. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
 -   Le [Cube de navigation](Navigation_Cube/fr.md) comprend également un indicateur de système de coordonnées.
 
 ## Préférences
 
--   La valeur par défaut des axes du repère peut être modifiée dans les préférences: **Edition → Préférences... → Affichage → Vue 3D → Afficher la croix de l'axe par défaut**. Voir [Réglage des préférences](Preferences_Editor/fr#Vue_3D.md). {{Version/fr|0.19}}
+-   La valeur par défaut des axes du repère peut être modifiée dans les préférences   * **Edition → Préférences... → Affichage → Vue 3D → Afficher la croix de l'axe par défaut**. Voir [Réglage des préférences](Preferences_Editor/fr#Vue_3D.md). {{Version/fr|0.19}}
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

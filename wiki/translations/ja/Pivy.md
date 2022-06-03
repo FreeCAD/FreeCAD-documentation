@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Pivy](http://pivy.coin3d.org/)はFreeCADで使われている3Dレンダリングライブラリである[Coin3d](http://www.coin3d.org)用のPythonのバインディングライブラリです。実行中のPythonインタプリタにインポートするとFreeCADの3DビューアーなどのCoin3d[シーングラフと直に対話処理を行ったり](Scenegraph/jp.md)、新しい3Dビューアーを作成することさえできます。Pivyは標準のFreeCADインストールに同梱されています。
+[Pivy](http   *//pivy.coin3d.org/)はFreeCADで使われている3Dレンダリングライブラリである[Coin3d](http   *//www.coin3d.org)用のPythonのバインディングライブラリです。実行中のPythonインタプリタにインポートするとFreeCADの3DビューアーなどのCoin3d[シーングラフと直に対話処理を行ったり](Scenegraph/jp.md)、新しい3Dビューアーを作成することさえできます。Pivyは標準のFreeCADインストールに同梱されています。
 
 
 </div>
@@ -61,14 +61,14 @@ print(sg)
 
 
 ```python
-for node in sg.getChildren():
+for node in sg.getChildren()   *
     print(node)
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-SoSeparatorsやSoGroupsといったこれらノードは自身の子ノードを持ちます。利用可能なCoinオブジェクトの全リストは[Coin公式ドキュメント](http://doc.coin3d.org/Coin/classes.html)にあります。
+SoSeparatorsやSoGroupsといったこれらノードは自身の子ノードを持ちます。利用可能なCoinオブジェクトの全リストは[Coin公式ドキュメント](http   *//doc.coin3d.org/Coin/classes.html)にあります。
 
 
 </div>
@@ -169,7 +169,7 @@ sg.removeChild(myCustomNode)
 
 <div class="mw-translate-fuzzy">
 
-[コールバック機能](http://en.wikipedia.org/wiki/Callback_%28computer_science%29)とはCoinライブラリの様な現在使用しているライブラリがコールバック、つまり現在実行中のPythonオブジェクトから特定の関数を呼び出すことを可能にするシステムのことです。これは非常に便利です。これを使うとシーンで何か特定のイベントが起きた場合にCoinからあなたへ通知することができるのです。Coinでは色々なものを監視することができます。マウスの位置、マウスボタンのクリック、キーボードのキーが押されたかどうか、まだまだ他にもあります。
+[コールバック機能](http   *//en.wikipedia.org/wiki/Callback_%28computer_science%29)とはCoinライブラリの様な現在使用しているライブラリがコールバック、つまり現在実行中のPythonオブジェクトから特定の関数を呼び出すことを可能にするシステムのことです。これは非常に便利です。これを使うとシーンで何か特定のイベントが起きた場合にCoinからあなたへ通知することができるのです。Coinでは色々なものを監視することができます。マウスの位置、マウスボタンのクリック、キーボードのキーが押されたかどうか、まだまだ他にもあります。
 
 
 </div>
@@ -180,14 +180,14 @@ FreeCADではそういったコールバックを簡単に使うための機能�
 ```python
 from pivy import coin
 
-class ButtonTest:
-    def __init__(self):
+class ButtonTest   *
+    def __init__(self)   *
         self.view = FreeCADGui.ActiveDocument.ActiveView
         self.callback = self.view.addEventCallbackPivy(coin.SoMouseButtonEvent.getClassTypeId(), self.getMouseClick) 
 
-    def getMouseClick(self, event_cb):
+    def getMouseClick(self, event_cb)   *
         event = event_cb.getEvent()
-        if event.getState() == coin.SoMouseButtonEvent.DOWN:
+        if event.getState() == coin.SoMouseButtonEvent.DOWN   *
             print("Alert!!! A mouse button has been improperly clicked!!!")
             self.view.removeEventCallbackPivy(coin.SoMouseButtonEvent.getClassTypeId(), self.callback)
 
@@ -197,7 +197,7 @@ ButtonTest()
 
 <div class="mw-translate-fuzzy">
 
-コールバックが起きた時にもオブジェクトは実行され続けなければならないのでコールバックはオブジェクトで初期化されなけれればなりません。 利用可能なイベントとパラメータの[全リストまたは](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)[Coin公式ドキュメント](http://doc.coin3d.org/Coin/classes.html)を参照してください。
+コールバックが起きた時にもオブジェクトは実行され続けなければならないのでコールバックはオブジェクトで初期化されなけれればなりません。 利用可能なイベントとパラメータの[全リストまたは](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)[Coin公式ドキュメント](http   *//doc.coin3d.org/Coin/classes.html)を参照してください。
 
 
 </div>
@@ -216,38 +216,39 @@ ButtonTest()
 
 <div class="mw-translate-fuzzy">
 
-残念ながらPivy自体にはちゃんとしたドキュメントがまだありません。しかしPivyはCoinと正確に対応するのでC++スタイルをPythonスタイルに読み替えれば（例えばSoFile::getClassTypeId()はPivyではSoFile.getClassId()となるでしょう）Coinドキュメントをリファレンスとして安全に使用できます。
+残念ながらPivy自体にはちゃんとしたドキュメントがまだありません。しかしPivyはCoinと正確に対応するのでC++スタイルをPythonスタイルに読み替えれば（例えばSoFile   *   *getClassTypeId()はPivyではSoFile.getClassId()となるでしょう）Coinドキュメントをリファレンスとして安全に使用できます。
 
 
 </div>
 
-In C++:
+In C++   *
 
 
 ```python
-SoFile::getClassTypeId()
+SoFile   *   *getClassTypeId()
 ```
 
-In Pivy:
+In Pivy   *
 
 
 ```python
 SoFile.getClassId()
 ```
 
--   [Coin3D](https://github.com/coin3d) homepage.
--   [Pivy](https://github.com/coin3d/pivy) homepage.
--   [Coin3D wiki](https://github.com/coin3d/coin/wiki), at GitHub.
--   [Coin3D wiki documentation](https://github.com/coin3d/coin/wiki/Documentation), at GitHub.
--   [Coin3D Documentation](https://coin3d.github.io/Coin/html/), latest automatically generated Doxygen documentation.
+-   [Coin3D](https   *//github.com/coin3d) homepage.
+-   [Pivy](https   *//github.com/coin3d/pivy) homepage.
+-   [Coin3D wiki](https   *//github.com/coin3d/coin/wiki), at GitHub.
+-   [Coin3D wiki documentation](https   *//github.com/coin3d/coin/wiki/Documentation), at GitHub.
+-   [Coin3D Documentation](https   *//coin3d.github.io/Coin/html/), latest automatically generated Doxygen documentation.
+-   [(Open)Inventor Mentor](https   *//webdocs.cs.ualberta.ca/~graphics/books/mentor.pdf) - recommended.
 
 ### Older
 
 These links provide reference documentation for Coin v3.x. The differences with v4.x are minimal, so they may still be useful.
 
--   [Coin3D Documentation](https://coin3d.bitbucket.io/Coin/index.html), at BitBucket.
--   [Coin3D Documentation](https://grey.colorado.edu/coin3d/index.html), at University of Colorado.
--   [Open Inventor Reference Documentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), by MeVisLab.
+-   [Coin3D Documentation](https   *//coin3d.bitbucket.io/Coin/index.html), at BitBucket.
+-   [Coin3D Documentation](https   *//grey.colorado.edu/coin3d/index.html), at University of Colorado.
+-   [Open Inventor Reference Documentation](https   *//mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), by MeVisLab.
 
 
 {{Top}}
@@ -260,6 +261,11 @@ These links provide reference documentation for Coin v3.x. The differences with 
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

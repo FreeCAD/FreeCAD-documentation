@@ -1,6 +1,6 @@
 # Draft Polygon/sv
 ---
-- GuiCommand:/sv   Name:Draft_Polygon   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Polygon---
+- GuiCommand   */sv   Name   *Draft_Polygon   Workbenches   *[[Draft_Workbench/sv   Skiss]]|MenuLocation   *Draft -> Polygon---
 
 
 </div>
@@ -21,19 +21,19 @@ Punkterna kan markeras med musen i 3D vyn eller genom att mata in koordinater me
 
 A Draft Polygon can be switched from inscribed to circumscribed by changing its **Draw Mode** property. The corners of a Draft Polygon can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively.
 
-<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_polygon_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_polygon_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -68,49 +68,49 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part RegularPolygon](Part_RegularPolygon.md) instead of a Draft Polygon.
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
+-    **Area|Area**   * (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
 
--    **Chamfer Size|Length**: specifies the length of the chamfers at the corners of the polygon.
+-    **Chamfer Size|Length**   * specifies the length of the chamfers at the corners of the polygon.
 
--    **Draw Mode|Enumeration**: specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
+-    **Draw Mode|Enumeration**   * specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
 
--    **Faces Number|Integer**: specifies the number of sides of the polygon.
+-    **Faces Number|Integer**   * specifies the number of sides of the polygon.
 
--    **Fillet Radius|Length**: specifies the radius of the fillets at the corners of the polygon.
+-    **Fillet Radius|Length**   * specifies the radius of the fillets at the corners of the polygon.
 
--    **Make Face|Bool**: specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
+-    **Make Face|Bool**   * specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
 
--    **Radius|Length**: specifies the radius of the circle that defines the polygon.
+-    **Radius|Length**   * specifies the radius of the circle that defines the polygon.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a Draft Polygon use the `make_polygon` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makePolygon` method.
 
@@ -124,7 +124,7 @@ polygon = make_polygon(nfaces, radius=1, inscribed=True, placement=None, face=No
 -   If `placement` is `None` the polygon is created at the origin and one of its vertices will lie on the X axis.
 -   If `face` is `True`, the polygon will make a face, that is, it will appear filled.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD as App
 import Draft

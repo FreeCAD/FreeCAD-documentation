@@ -44,8 +44,8 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [Tutorial KinematicAssembly](wiki/Tutorial KinematicAssembly.md) | [Tutorial KinematicController](wiki/Tutorial KinematicController.md) | [Tutorial Render with Blender](wiki/Tutorial Render with Blender.md) |
 | [Template:TutorialInfo](wiki/Template_TutorialInfo.md) | [Tutorials](wiki/Tutorials.md) | [Video tutorials](wiki/Video tutorials.md) |
 | [Video tutorials for architectural design](wiki/Video tutorials for architectural design.md) | [Video tutorials for product design](wiki/Video tutorials for product design.md) | [Video tutorials obsolete](wiki/Video tutorials obsolete.md) |
-| [VRML Preparation for Robot Simulation](wiki/VRML Preparation for Robot Simulation.md) | [Washers](wiki/Washers.md) | [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) |
-| [Wikihouse porting tutorial](wiki/Wikihouse porting tutorial.md) |
+| [VRML Preparation for Robot Simulation](wiki/VRML Preparation for Robot Simulation.md) | [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) | [Wikihouse porting tutorial](wiki/Wikihouse porting tutorial.md) |
+|
 
 
 

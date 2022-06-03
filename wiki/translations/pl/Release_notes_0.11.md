@@ -1,13 +1,13 @@
 # Release notes 0.11/pl
-To jest podsumowanie najważniejszych zmian i nowych funkcji dostępnych w wydaniu 0.11 FreeCAD. Pełną listę można znaleźć na stronie [dziennika zmian](http://www.freecadweb.org/tracker/changelog_page.php).
+To jest podsumowanie najważniejszych zmian i nowych funkcji dostępnych w wydaniu 0.11 FreeCAD. Pełną listę można znaleźć na stronie [dziennika zmian](http   *//www.freecadweb.org/tracker/changelog_page.php).
 
-<img alt="" src=images/FreeCAD011.png  style="width:800px;">
+<img alt="" src=images/FreeCAD011.png  style="width   *800px;">
 
 Widok ekranu z wersji 0.11.
 
 ### Informacje ogólne 
 
--   [Projekt tłumaczenia FreeCAD](http://crowdin.net/project/freecad) otrzymał ogromną pomoc od wielu ludzi z całego świata i FreeCAD jest teraz dostępny w nie mniej niż 15 językach: Angielski, niemiecki, francuski, włoski, szwedzki, hiszpański, portugalski, rosyjski, ukraiński, norweski, afrikaans, fiński, chiński uproszczony, chorwacki i holenderski. A wiele więcej języków jest w trakcie opracowywania dla następnych wydań.
+-   [Projekt tłumaczenia FreeCAD](http   *//crowdin.net/project/freecad) otrzymał ogromną pomoc od wielu ludzi z całego świata i FreeCAD jest teraz dostępny w nie mniej niż 15 językach   * Angielski, niemiecki, francuski, włoski, szwedzki, hiszpański, portugalski, rosyjski, ukraiński, norweski, afrikaans, fiński, chiński uproszczony, chorwacki i holenderski. A wiele więcej języków jest w trakcie opracowywania dla następnych wydań.
 
 ![](images/release011-translation.jpg )
 
@@ -26,7 +26,7 @@ Widok ekranu z wersji 0.11.
 
 ![](images/release011-sketcher.jpg )
 
-![](images/Movie.png ) Przykład: [demo Szkicownik](http://www.youtube.com/watch?v=hvXupH5bA0E) • [demo Projekt Części](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
+![](images/Movie.png ) Przykład   * [demo Szkicownik](http   *//www.youtube.com/watch?v=hvXupH5bA0E) • [demo Projekt Części](http   *//www.youtube.com/watch?v=7ih9Jp3OAwA)
 
 ### Robot simulation 
 
@@ -52,7 +52,7 @@ Widok ekranu z wersji 0.11.
 -   Środowisko pracy Rysunek Roboczy zyskało również [API](Draft_API/pl.md) środowiska [Python](Python/pl.md).
 -   Importer DXF obsługuje teraz atrybuty bloków
 
-![](images/Movie.png ) Przykład: [Demo środowiska Rysunek Roboczy](http://www.youtube.com/watch?v=Q7cG-LQK8Ps)
+![](images/Movie.png ) Przykład   * [Demo środowiska Rysunek Roboczy](http   *//www.youtube.com/watch?v=Q7cG-LQK8Ps)
 
 ### Obrazy
 
@@ -67,6 +67,8 @@ Widok ekranu z wersji 0.11.
 
 
 {{languages/pl | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{ru|Release_notes_0.11/ru}} }}
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

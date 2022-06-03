@@ -11,7 +11,7 @@
 |Version=0.1
 |Date=2013-10-10
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/9/96/Macro_3d_Printer_Slicer.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/9/96/Macro_3d_Printer_Slicer.png ToolBar Icon]
 }}
 
 
@@ -19,11 +19,11 @@
 
 ## Popis
 
-Tento kód při spuštění exportuje aktuálně otevřený design do souboru STL a otevře jej v softwaru na krájení, který používáte. Tento příklad je pro **[KISSlicer](http://kisslicer.com/)**, ale lze jej upravit **[Slic3r](http://slic3r.org/)**, **[Cura](http://wiki.ultimaker.com/Cura)**, nebo jakýkoli jiný 3D software tiskárny. Může být také mírně upraveno, aby se otevřel software CAM pro CNC stroje.
+Tento kód při spuštění exportuje aktuálně otevřený design do souboru STL a otevře jej v softwaru na krájení, který používáte. Tento příklad je pro **[KISSlicer](http   *//kisslicer.com/)**, ale lze jej upravit **[Slic3r](http   *//slic3r.org/)**, **[Cura](http   *//wiki.ultimaker.com/Cura)**, nebo jakýkoli jiný 3D software tiskárny. Může být také mírně upraveno, aby se otevřel software CAM pro CNC stroje.
 
 Nejlépe se používá při vytváření odkazu na makro na panelu nástrojů a když se chystáte nakrájet objekt, stačí kliknout na něj a na svůj objekt, jak se objeví na obrazovce v programu FreeCAD, objeví se na rozhraní vašeho řezacího software, . Vytvoří také soubor STL se stejným názvem souboru jako návrhový soubor ve stejném adresáři jako návrhový soubor jako záloha.
 
-<img alt="" src=images/Macro_3d_Printer_Slicer_00.png  style="width:480px;">
+<img alt="" src=images/Macro_3d_Printer_Slicer_00.png  style="width   *480px;">
 
 ## Script
 
@@ -42,14 +42,14 @@ import math
 import os
 import subprocess
 # some fuctions
-def getPlacement(quat,vect,obj):
-  if quat[3] > -1  and quat[3] < 1:
+def getPlacement(quat,vect,obj)   *
+  if quat[3] > -1  and quat[3] < 1   *
     delta = math.acos(quat[3])*2.0
     scale = math.sin(delta/2)
     rx = quat[0]/scale
     ry = quat[1]/scale
     rz = quat[2]/scale
-  else:
+  else   *
     delta = 0
     rx = 0
     ry = 0
@@ -68,10 +68,10 @@ os.chdir(SLICER)
 doc = App.ActiveDocument
 objs = doc.Objects
 # hide all
-for obj in objs:
-   if obj.ViewObject.isVisible():
+for obj in objs   *
+   if obj.ViewObject.isVisible()   *
       visible_objs.append(obj)
-for obj in visible_objs:
+for obj in visible_objs   *
   # get volume
   volume = obj.Shape.Volume
   # get Rotation and translation of volume
@@ -89,8 +89,8 @@ subprocess.Popen([SLICER + "KISSlicer", stlFile])
 
 ## Kredity
 
-Díky [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) za jeho pomoc při psaní tohoto skriptu.
-Původní téma fóra : <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+Díky [Wmayer](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=4686) za jeho pomoc při psaní tohoto skriptu.
+Původní téma fóra    * <http   *//forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
 
 

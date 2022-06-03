@@ -1,7 +1,12 @@
 # Changelog/en
-The FreeCAD changelog is maintained on our mantis tracker:
+The FreeCAD changelog is maintained on our mantis tracker   *
 
-<http://www.freecadweb.org/tracker/changelog_page.php>
+<http   *//www.freecadweb.org/tracker/changelog_page.php>
+
+
+
+
+[Category   *Administration](Category_Administration.md) [Category   *Developer](Category_Developer.md)
 
 
 

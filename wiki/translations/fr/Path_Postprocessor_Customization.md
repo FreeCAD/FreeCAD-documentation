@@ -9,11 +9,11 @@
 
 ## Introduction
 
-FreeCAD utilise comme représentation interne pour les trajectoires générées, ce que l\'on appelle des G-codes. Ils peuvent décrire des choses telles que : la vitesse et l\'avance, l\'arrêt du moteur etc\... Mais la chose la plus importante est les mouvements qu\'ils décrivent. Ces mouvements sont assez simples : Il peut s\'agir de lignes droites ou d\'arcs de cercle. Des courbes plus sophistiquées comme les B-splines sont déjà approximées par l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md) de FreeCAD.
+FreeCAD utilise comme représentation interne pour les trajectoires générées, ce que l\'on appelle des G-codes. Ils peuvent décrire des choses telles que    * la vitesse et l\'avance, l\'arrêt du moteur etc\... Mais la chose la plus importante est les mouvements qu\'ils décrivent. Ces mouvements sont assez simples    * Il peut s\'agir de lignes droites ou d\'arcs de cercle. Des courbes plus sophistiquées comme les B-splines sont déjà approximées par l\'<img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [atelier Path](Path_Workbench/fr.md) de FreeCAD.
 
 ## Ce que le post-processeur peut faire pour vous 
 
-De nombreuses fraiseuses utilisent également des G-codes pour contrôler le processus de fraisage. Ils peuvent ressembler presque aux codes internes mais il peut y avoir quelques différences:
+De nombreuses fraiseuses utilisent également des G-codes pour contrôler le processus de fraisage. Ils peuvent ressembler presque aux codes internes mais il peut y avoir quelques différences   *
 
 -   la machine peut avoir une séquence de démarrage spéciale
 -   il peut avoir une séquence d\'arrêt spéciale
@@ -42,13 +42,13 @@ Le chemin dans FreeCAD ressemblerait à ceci. Veuillez noter la petite flèche b
 
 ![](images/Path_PostProcessorModel.png )
 
-Vous pouvez ensuite consulter le fichier et le comparer à la sortie des postprocesseurs existants tels que {{FileName|linux_cnc_post.py}} ou {{FileName|grbl_post.py}} et essayez de les adapter vous-même ou de les télécharger sur le [forum Path](https://forum.freecadweb.org/viewforum.php?f=15) pour obtenir de l\'aide.
+Vous pouvez ensuite consulter le fichier et le comparer à la sortie des postprocesseurs existants tels que **linux_cnc_post.py** ou **grbl_post.py** et essayez de les adapter vous-même ou de les télécharger sur le [forum Path](https   *//forum.freecadweb.org/viewforum.php?f=15) pour obtenir de l\'aide.
 
 ## Convention de dénomination 
 
-Pour un format de fichier {{FileName|<filename>}}, le postprocesseur doit obtenir le nom {{FileName|<filename>_post.py}}. Veuillez noter que le postfix et l\'extension, {{FileName|_post.py}}, doivent être en minuscules.
+Pour un format de fichier **<filename>**, le postprocesseur doit obtenir le nom **<filename>_post.py**. Veuillez noter que le postfix et l\'extension, **_post.py**, doivent être en minuscules.
 
-The new name should be reflected at the head of the parser arguments list in the {{FileName|<filename>_post.py}} file, e.g.:
+The new name should be reflected at the head of the parser arguments list in the **<filename>_post.py** file, e.g.   *
 
 
 {{Code|lang=text|code=
@@ -59,7 +59,7 @@ Si vous testez, placez-le dans votre répertoire de macros. S\'il fonctionne bie
 
 ## Autres post-processeurs existants 
 
-A titre de comparaison, vous pouvez regarder les post-processeurs qui sont fournis avec votre installation de FreeCAD. Ils sont situés dans le répertoire /Mod/Path/PathScripts/post. Les postprocesseurs [linuxcnc](http://linuxcnc.org/) et [grbl](https://github.com/grbl/grbl) sont très utilisés. L\'étude de leur code peut donner des indications utiles.
+A titre de comparaison, vous pouvez regarder les post-processeurs qui sont fournis avec votre installation de FreeCAD. Ils sont situés dans le répertoire /Mod/Path/PathScripts/post. Les postprocesseurs [linuxcnc](http   *//linuxcnc.org/) et [grbl](https   *//github.com/grbl/grbl) sont très utilisés. L\'étude de leur code peut donner des indications utiles.
 
 ## Programmation de votre propre post-processeur 
 
@@ -69,8 +69,8 @@ En regardant le fichier linux\_cnc\_post.py, vous verrez la fonction d\'exportat
 
 
 ```python
-def export(objectslist, filename, argstring):
-    # pylint: disable=global-statement
+def export(objectslist, filename, argstring)   *
+    # pylint   * disable=global-statement
     ...
     gcode = ""
     ...
@@ -81,7 +81,7 @@ Elle collecte étape par étape dans la variable \"gcode\" les G-codes traités 
 
 
 ```python
-def parse(pathobj):
+def parse(pathobj)   *
     ...
     out = ""
     lastcommand = None
@@ -93,7 +93,7 @@ De même que la fonction \"export\" collecte les codes G dans la variable \"out\
 
 
 ```python
-        for c in pathobj.Path.Commands:
+        for c in pathobj.Path.Commands   *
 
             command = c.Name
 ```
@@ -106,7 +106,7 @@ Vous verrez que les deux fonctions appellent également la fonction \"linenumber
 
 ## En relation 
 
--   <img alt="" src=images/Path_Post.svg  style="width:24px;"> [Path Post-traitement](Path_Post/fr.md)
+-   <img alt="" src=images/Path_Post.svg  style="width   *24px;"> [Path Post-traitement](Path_Post/fr.md)
 
 
 

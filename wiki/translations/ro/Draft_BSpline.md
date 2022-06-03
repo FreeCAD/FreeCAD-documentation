@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Draft BSpline
-   Name/ro:Funcții BSpline
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft → BSpline
-   Shortcut:**B** **S**
-   SeeAlso:[Draft Wire](Draft_Wire/ro.md)
+- GuiCommand   */ro
+   Name   *Draft BSpline
+   Name/ro   *Funcții BSpline
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation   *Draft → BSpline
+   Shortcut   ***B** **S**
+   SeeAlso   *[Draft Wire](Draft_Wire/ro.md)
 ---
 
 # Draft BSpline/ro
@@ -20,26 +20,26 @@
 
 ## Descriere
 
-Instrumentul BSpline creează o curbă [B-Spline](http://en.wikipedia.org/wiki/B-spline) din mai multe puncte din actualul [work plane](Draft_SelectPlane/ro.md). Este nevoie de [linewidth and color](Draft_Linestyle/ro.md) setată anterior pe fila Activități. Instrumentul BSpline se comportă exact ca instrumentul [Draft Wire](Draft_Wire/ro.md).
+Instrumentul BSpline creează o curbă [B-Spline](http   *//en.wikipedia.org/wiki/B-spline) din mai multe puncte din actualul [work plane](Draft_SelectPlane/ro.md). Este nevoie de [linewidth and color](Draft_Linestyle/ro.md) setată anterior pe fila Activități. Instrumentul BSpline se comportă exact ca instrumentul [Draft Wire](Draft_Wire/ro.md).
 
 
 </div>
 
 The Draft BSpline command specifies the **exact points** through which the curve will pass. The [Draft BezCurve](Draft_BezCurve.md) and the [Draft CubicBezCurve](Draft_CubicBezCurve.md) commands, on the other hand, use **control points** to define the position and curvature of the spline.
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -88,62 +88,62 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 
 <div class="mw-translate-fuzzy">
 
 ## Proprietăți
 
--    {{PropertyData/ro|Closed}}: Specifică dacă curba spline este închisă sau nu
+-    {{PropertyData/ro|Closed}}   * Specifică dacă curba spline este închisă sau nu
 
--    {{PropertyData/ro|Make Face}}: Umple curba spline cu o fațetă
+-    {{PropertyData/ro|Make Face}}   * Umple curba spline cu o fațetă
 
--    {{PropertyView/ro|End Arrow}}: Afișează un simbol tp săgeată la ultimul punct al curbei spline, astfel încât este folosit ca linie lider de adnotare
+-    {{PropertyView/ro|End Arrow}}   * Afișează un simbol tp săgeată la ultimul punct al curbei spline, astfel încât este folosit ca linie lider de adnotare
 
--    {{PropertyView/ro|Pattern}}: Specificați modelul hașurii cu care se va umple filamentul
+-    {{PropertyView/ro|Pattern}}   * Specificați modelul hașurii cu care se va umple filamentul
 
--    {{PropertyView/ro|Pattern Size}}: Specificați mărimea modelului de hașurare
+-    {{PropertyView/ro|Pattern Size}}   * Specificați mărimea modelului de hașurare
 
 
 </div>
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the spline. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
+-    **Area|Area**   * (read-only) specifies the area of the face of the spline. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
 
--    **Closed|Bool**: specifies if the spline is closed or not. If the spline is initially open this value is `False`, setting it to `True` will draw a curve segment to close the spline. If the spline is initially closed this value is `True`, setting it to `False` will remove the last curve segment and make the spline open.
+-    **Closed|Bool**   * specifies if the spline is closed or not. If the spline is initially open this value is `False`, setting it to `True` will draw a curve segment to close the spline. If the spline is initially closed this value is `True`, setting it to `False` will remove the last curve segment and make the spline open.
 
--    **Make Face|Bool**: specifies if the spline makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the spline does not self-intersect.
+-    **Make Face|Bool**   * specifies if the spline makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the spline does not self-intersect.
 
--    **Parameterization|Float**: affects the shape of the spline.
+-    **Parameterization|Float**   * affects the shape of the spline.
 
--    **Points|VectorList**: specifies the points of the spline in its local coordinate system.
+-    **Points|VectorList**   * specifies the points of the spline in its local coordinate system.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the end of the spline.
+-    **Arrow Size|Length**   * specifies the size of the symbol displayed at the end of the spline.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the end of the spline, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**   * specifies the type of symbol displayed at the end of the spline, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
 
--    **End Arrow|Bool**: specifies whether to show a symbol at the end of the spline, so it can be used as an annotation line.
+-    **End Arrow|Bool**   * specifies whether to show a symbol at the end of the spline, so it can be used as an annotation line.
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed spline. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed spline. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
@@ -152,7 +152,7 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ## Script-Programre 
 
-Unealta BSpline poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare:
+Unealta BSpline poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare   *
 
 
 </div>

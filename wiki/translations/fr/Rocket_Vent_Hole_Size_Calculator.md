@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Rocket Vent Hole Size Calculator
-   Name/fr:Rocket Calcul taille trou d'évent
-   Icon:Rocket_Calculator.svg
-   MenuLocation:Rocket → Calculators → Vent Hole Size Calculator
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+- GuiCommand   */fr
+   Name   *Rocket Vent Hole Size Calculator
+   Name/fr   *Rocket Calcul taille trou d'évent
+   Icon   *Rocket_Calculator.svg
+   MenuLocation   *Rocket → Calculators → Vent Hole Size Calculator
+   Workbenches   *[Rocket](Rocket_Workbench/fr.md)
+   Version   *0.19
 ---
 
 # Rocket Vent Hole Size Calculator/fr
@@ -20,14 +20,14 @@ Le calcul est basé sur la règle empirique de 1/4\" de trou d\'aération pour c
 
 ![](images/Calc_vent_hole_size.png )
 
-1.  Il existe plusieurs façons de lancer la commande :
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Rocket_Calculator.svg" width=16px> [Vent Hole Size Calculator](Rocket_Vent_Hole_Size_Calculator/fr.md)**.
     -   Sélectionnez la **Rocket → Calculatrices → <img src="images/Rocket_Calculator.svg" width=16px> Vent Hole Size Calculator** dans le menu.
 2.  Saisissez les paramètres de votre compartiment électronique.
 
 ## Calculs
 
-La taille du trou de ventilation est calculée à l\'aide de la formule suivante :
+La taille du trou de ventilation est calculée à l\'aide de la formule suivante    *
 
 $$D_{vent} = 0.004396 D \sqrt{\cfrac{L}{N}}$$
 
@@ -47,7 +47,15 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 ## Références
 
-1.  <http://vernk.com/AltimeterPortSizing.htm>
+1.  <http   *//vernk.com/AltimeterPortSizing.htm>
+
+
+
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

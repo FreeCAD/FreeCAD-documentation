@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Wire
-   Name/tr:Tel
-   MenuLocation:Taslak → Tel
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**P** **L**
-   Version:0.17
-   SeeAlso:[Çizgi](Draft_Line/tr.md), [BSpline](Draft_BSpline/tr.md)
+- GuiCommand   */tr
+   Name   *Draft Wire
+   Name/tr   *Tel
+   MenuLocation   *Taslak → Tel
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut   ***P** **L**
+   Version   *0.17
+   SeeAlso   *[Çizgi](Draft_Line/tr.md), [BSpline](Draft_BSpline/tr.md)
 ---
 
 # Draft Wire/tr
@@ -28,14 +28,14 @@ Tel aracı bir çoklu çizgi (birkaç çizgi parçasının bir sırası) oluştu
 
 The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide the edges of a Draft Wire by changing its **Subdivisions** property.
 
-<img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Polyline_example.jpg  style="width   *400px;"> 
 *Tel birçok noktayla tanımlanır*
 
 ## Create
 
 ### Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -73,8 +73,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   **Devam**moduna geçmek için **T** tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, Tel aracı teli bitirdikten sonra yeniden başlatılır ve araç düğmesine tekrar basmadan bir tane daha çizmenize olanak sağlar.
 -   **Dolu** moduna geçmek için **L** tuşuna basın veya onay kutusunu tıklayın. Dolu modu açıksa, kapalı bir tel dolgulu bir yüz oluşturur ({{PropertyData/tr|Make Face}} `True`); değilse, kapalı tel bir yüz oluşturmaz ({{PropertyData/tr|Make Face}} `False`).
 
-:   
-    **Not:**uygun bir yüz oluşturmayacağından telin kendisiyle kesiştiği takdirde doldurulmaması gerekir. Kablo dolu ancak şekli görünmüyorsa, teli görmek için {{PropertyData/tr|Make Face}} \'i `False`\' e manuel olarak ayarlayın.
+   *   
+    **Not   ***uygun bir yüz oluşturmayacağından telin kendisiyle kesiştiği takdirde doldurulmaması gerekir. Kablo dolu ancak şekli görünmüyorsa, teli görmek için {{PropertyData/tr|Make Face}} \'i `False`\' e manuel olarak ayarlayın.
 
 -   [Yakalama](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken **Ctrl** tuşunu basılı tutun.
 -   Bir sonraki noktanızı yatay veya dikey olarak son noktaya göre [Kısıtlama](Draft_Constrain/tr.md) çizerken **Shift** tuşunu basılı tutun.
@@ -90,10 +90,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 1.  The end points of the [Draft Lines](Draft_Line.md) and/or Draft Wires to be joined must be exactly coincident. If required first adjust points to ensure that this is the case.
 2.  Select two or more [Draft Lines](Draft_Line.md) and/or Draft Wires.
-3.  There are several ways to invoke the command:
+3.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
-    -   Use the keyboard shortcut: **P** then **L**.
+    -   Use the keyboard shortcut   * **P** then **L**.
 
 ## Notes
 
@@ -107,16 +107,16 @@ Tel, ağaç görünümündeki öğeye çift tıklayarak veya {{Button | <img src
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -128,24 +128,24 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 ### Veri
 
--    {{PropertyData/tr|Start}}: kablodaki ilk noktayı belirtir.
+-    {{PropertyData/tr|Start}}   * kablodaki ilk noktayı belirtir.
 
--    {{PropertyData/tr|End}}: kablo kapalıysa başlangıç ​​noktasını saymaz, kablodaki son noktayı belirtir.
+-    {{PropertyData/tr|End}}   * kablo kapalıysa başlangıç ​​noktasını saymaz, kablodaki son noktayı belirtir.
 
--    {{PropertyData/tr|Closed}}: kablonun kapalı olup olmadığını belirtir. Kablo başlangıçta açıksa, bu değer `False`; `True` olarak ayarlamak, teli kapatmak için bir çizgi kesimi çizer. Kablo başlangıçta kapalıysa, bu değer `True`; `False` olarak ayarlamak, son satır parçasını kaldıracak ve teli açacaktır.
+-    {{PropertyData/tr|Closed}}   * kablonun kapalı olup olmadığını belirtir. Kablo başlangıçta açıksa, bu değer `False`; `True` olarak ayarlamak, teli kapatmak için bir çizgi kesimi çizer. Kablo başlangıçta kapalıysa, bu değer `True`; `False` olarak ayarlamak, son satır parçasını kaldıracak ve teli açacaktır.
 
--    {{PropertyData/tr|Chamfer Size}}: telin köşelerinde oluşturulan olukların (düz segmentler) boyutunu belirtir.
+-    {{PropertyData/tr|Chamfer Size}}   * telin köşelerinde oluşturulan olukların (düz segmentler) boyutunu belirtir.
 
--    {{PropertyData/tr|Fillet Radius}}: telin köşelerinde oluşturulan filetoların (yay parçaları) yarıçapını belirtir.
+-    {{PropertyData/tr|Fillet Radius}}   * telin köşelerinde oluşturulan filetoların (yay parçaları) yarıçapını belirtir.
 
--    {{PropertyData/tr|Make Face}}: Teli bir yüz yapıp yapmamayı belirtir. `True` ise bir yüz yaratılır, aksi takdirde sadece kenarlar nesnenin bir parçası olarak kabul edilir. Bu özellik yalnızca {{PropertyData/tr|Closed}} `True` ise çalışır.
+-    {{PropertyData/tr|Make Face}}   * Teli bir yüz yapıp yapmamayı belirtir. `True` ise bir yüz yaratılır, aksi takdirde sadece kenarlar nesnenin bir parçası olarak kabul edilir. Bu özellik yalnızca {{PropertyData/tr|Closed}} `True` ise çalışır.
 
-:   
-    **Not:**, tel uygun bir yüz oluşturmayacağından kendisiyle kesiştiğinde {{PropertyData/tr|Make Face}} ayarını `True` olarak ayarlamayın.
+   *   
+    **Not   ***, tel uygun bir yüz oluşturmayacağından kendisiyle kesiştiğinde {{PropertyData/tr|Make Face}} ayarını `True` olarak ayarlamayın.
 
--    {{PropertyData/tr|Subdivisions}}: telin her bir bölümündeki iç düğümlerin sayısını belirtir. {{version/tr|0.16}}
+-    {{PropertyData/tr|Subdivisions}}   * telin her bir bölümündeki iç düğümlerin sayısını belirtir. {{version/tr|0.16}}
 
--    {{PropertyData/tr|Length}}: (salt okunur) tüm kablonun uzunluğunu belirtir.
+-    {{PropertyData/tr|Length}}   * (salt okunur) tüm kablonun uzunluğunu belirtir.
 
 
 </div>
@@ -160,15 +160,15 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 ### Görünüm
 
--    {{PropertyView/tr|End Arrow}}: `True` ise kablonun son noktasında bir sembol gösterecektir, böylece bir açıklama satırı olarak kullanılabilir.
+-    {{PropertyView/tr|End Arrow}}   * `True` ise kablonun son noktasında bir sembol gösterecektir, böylece bir açıklama satırı olarak kullanılabilir.
 
--    {{PropertyView/tr|Arrow Size}}: telin sonunda görüntülenen sembolün boyutunu belirtir.
+-    {{PropertyView/tr|Arrow Size}}   * telin sonunda görüntülenen sembolün boyutunu belirtir.
 
--    {{PropertyView/tr|Arrow Type}}: telin sonunda görüntülenen, \"Nokta\", \"Daire\", \"Ok\" veya \"Tik\" olabilen sembol tipini belirtir.
+-    {{PropertyView/tr|Arrow Type}}   * telin sonunda görüntülenen, \"Nokta\", \"Daire\", \"Ok\" veya \"Tik\" olabilen sembol tipini belirtir.
 
--    {{PropertyView/tr|Pattern}}: kapalı telin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
+-    {{PropertyView/tr|Pattern}}   * kapalı telin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
 
--    {{PropertyView/tr|Pattern Size}}: [Desen](Draft_Pattern/tr.md) \'in boyutunu belirtir.
+-    {{PropertyView/tr|Pattern Size}}   * [Desen](Draft_Pattern/tr.md) \'in boyutunu belirtir.
 
 
 </div>
@@ -179,7 +179,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 <div class="mw-translate-fuzzy">
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -189,7 +189,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 <div class="mw-translate-fuzzy">
 
-Tel aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
+Tel aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
 
 
 </div>
@@ -216,7 +216,7 @@ wire = make_wire(Part.Wire, closed=False, placement=None, face=None, support=Non
 
 </div>
 
-Örnek:
+Örnek   *
 
 
 ```python

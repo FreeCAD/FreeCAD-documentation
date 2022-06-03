@@ -29,7 +29,7 @@ Le menu standard donne accès à des outils utilisables dans tous les ateliers. 
 
 ## Sous-menus 
 
-Le menu standard est composé de 7 sous-menus:
+Le menu standard est composé de 7 sous-menus   *
 
 -    {{StdMenu|[Fichier](Std_File_Menu/fr.md)}}Le menu Fichier fournit des outils liés à l\'entrée et à la sortie des fichiers.
 

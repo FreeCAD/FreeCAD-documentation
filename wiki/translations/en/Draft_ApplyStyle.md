@@ -1,18 +1,18 @@
 ---
-- GuiCommand:
-   Name:Draft ApplyStyle
-   MenuLocation:Utilities → Apply current style
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft SetStyle](Draft_SetStyle.md)
+- GuiCommand   *
+   Name   *Draft ApplyStyle
+   MenuLocation   *Utilities → Apply current style
+   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso   *[Draft SetStyle](Draft_SetStyle.md)
 ---
 
 # Draft ApplyStyle/en
 
 ## Description
 
-The <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Draft ApplyStyle** command applies the current style settings to selected objects.
+The <img alt="" src=images/Draft_ApplyStyle.svg  style="width   *24px;"> **Draft ApplyStyle** command applies the current style settings to selected objects.
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
+This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers   *
 
 -    **Line color**
     

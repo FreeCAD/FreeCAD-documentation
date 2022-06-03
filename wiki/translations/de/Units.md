@@ -1,12 +1,12 @@
 # Units/de
-Einige Artikel zu Einheiten:
+Einige Artikel zu Einheiten   *
 
--   [Metrologie](https://de.wikipedia.org/wiki/Metrologie) (Meßwesen)
--   [SI System](https://de.wikipedia.org/wiki/Internationales_Einheitensystem)
--   [Angloamerikanisches Maßsystem (Imperiale Einheiten)](https://de.wikipedia.org/wiki/Angloamerikanisches_Ma%C3%9Fsystem)
--   [Abgeleitete SI Einheiten](https://de.wikipedia.org/wiki/Internationales_Einheitensystem#Abgeleitete_SI-Einheiten_mit_besonderem_Namen)
--   [Grad(Winkel)](https://de.wikipedia.org/wiki/Grad_(Winkel))
--   [In OCC implementierte Einheiten](https://github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
+-   [Metrologie](https   *//de.wikipedia.org/wiki/Metrologie) (Meßwesen)
+-   [SI System](https   *//de.wikipedia.org/wiki/Internationales_Einheitensystem)
+-   [Angloamerikanisches Maßsystem (Imperiale Einheiten)](https   *//de.wikipedia.org/wiki/Angloamerikanisches_Ma%C3%9Fsystem)
+-   [Abgeleitete SI Einheiten](https   *//de.wikipedia.org/wiki/Internationales_Einheitensystem#Abgeleitete_SI-Einheiten_mit_besonderem_Namen)
+-   [Grad(Winkel)](https   *//de.wikipedia.org/wiki/Grad_(Winkel))
+-   [In OCC implementierte Einheiten](https   *//github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
 
 ## Beispiele
 
@@ -65,7 +65,7 @@ Eine vollständige Liste aller unterstützten Einheiten kann [hier gefunden](Exp
 
 </div>
 
-## Ziele und Grundsätze: Vorschlag für eine Erweiterung des Einheitenverwaltungssystems 
+## Ziele und Grundsätze   * Vorschlag für eine Erweiterung des Einheitenverwaltungssystems 
 
 Eine Erweiterung des Einheitenverwaltungssystems wird in den folgenden Abschnitten vorgeschlagen und das Konzept eines *Einheitensystems* entwickelt, das während einer laufenden FreeCAD-Instanz aktiviert wird. Das Interesse an der Definition eines neues Konzepts ist es, einfacher mit einer größtmöglichen Anzahl von **physischen** Einheiten arbeiten zu können (selbst mit benutzerdefinierten), ohne die Komplexität der Einheitenverwaltung für den Benutzer oder die FreeCAD-Entwickler zu erhöhen.
 
@@ -73,7 +73,7 @@ Kurzgesagt werden Ereignisse von Einheitenskalierung präzise lokalisiert und in
 
 Die Erreichung solch einer Flexibilität ist insbesondere dann erforderlich, wenn man mit Materialeigenschaften hantiert, die sehr unterschiedlich sein können, und sie manuell schwierig zu verarbeiten sind.
 
-Die vorgeschlagene Argumentation erlaubt die Behandlung von Einheiten wie in [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) und [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf) beschrieben, beide vom NIST.
+Die vorgeschlagene Argumentation erlaubt die Behandlung von Einheiten wie in [Guide for the Use of the International System of Units (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) und [The International System of Units (SI)](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf) beschrieben, beide vom NIST.
 
 In diesem Vorschlag wird im Abschnitt [Ideenfindung](Units/de#Brainstorming.md) zunächst daran erinnert, welche möglichen Kontexte für eine Einheitenverwaltung erforderlich sind.
 
@@ -107,12 +107,12 @@ In diesem Abschnitt werden die Anwendungszusammenhänge eines solchen Einheitenv
 
 Im Wesentlichen werden 2 Zusammenhänge als Beispiel angeführt.
 
-### Context 1: opening a data file 
+### Context 1   * opening a data file 
 
 
 <div class="mw-translate-fuzzy">
 
-### Zusammenhang 1: Öffnen einer Datendatei 
+### Zusammenhang 1   * Öffnen einer Datendatei 
 
 Dieser Fall ist wahrscheinlich der häufigste Fall. Du erhältst eine Datei, die zum Beispiel ein geometrisches Modell enthält oder ein Material mit ziemlich vielen Eigenschaften beschreibt. Das geometrische Modell wird in Metern oder die Materialeigenschaften nach dem internationalen Einheitensystem ausgedrückt.
 
@@ -125,12 +125,12 @@ Du bist ein Experte für FE Modellierung und arbeitest normalerweise mit Millime
 
 In diesem Zusammenhang ist das Einheitenmanagement erforderlich, um Daten von einem in der Eingabedatei definierten Anfangseinheitensystem auf ein benutzerdefiniertes Zieleinheitensystem zu skalieren.
 
-### Context 2: switching the unit system at runtime 
+### Context 2   * switching the unit system at runtime 
 
 
 <div class="mw-translate-fuzzy">
 
-### Zusammenhang 2: Umschalten des Einheitensystems während der Laufzeit 
+### Zusammenhang 2   * Umschalten des Einheitensystems während der Laufzeit 
 
 In diesem Fall kannst du gleichzeitig derjenige sein, der eine Zeichnung ausführt, und derjenige, der die FE Modellierung verwaltet. Ähnlich wie im vorigen Fall sind die Einheitensysteme für diese beiden Aufgaben nicht identisch, und du musst das anfängliche Einheitensystem während der Laufzeit auf dein Lieblingssystem umstellen.
 
@@ -158,7 +158,7 @@ Im Abschnitt [Ideenfindung](Units/de#Ideenfindung.md) wurden 2 Zusammenhänge be
 
 #### Einheitenkohärenz in der gesamten laufenden FreeCAD Instanz 
 
-Das vorgeschlagene System basiert auf einer primären Annahme: Der Benutzer arbeitet in einem kohärenten Einheitensystem. Das bedeutet zum Beispiel, dass, wenn der Benutzer die Länge in Millimetern ausdrückt, die Bereiche notwendigerweise in Form von quadrierten Millimetern und nicht in quadrierten Metern ausgedrückt werden. Dies ist **Hypothese eins**.
+Das vorgeschlagene System basiert auf einer primären Annahme   * Der Benutzer arbeitet in einem kohärenten Einheitensystem. Das bedeutet zum Beispiel, dass, wenn der Benutzer die Länge in Millimetern ausdrückt, die Bereiche notwendigerweise in Form von quadrierten Millimetern und nicht in quadrierten Metern ausgedrückt werden. Dies ist **Hypothese eins**.
 
 
 </div>
@@ -170,12 +170,12 @@ Das vorgeschlagene System basiert auf einer primären Annahme: Der Benutzer arbe
 
 #### Einheitensystem
 
-Aufgrund der *Hypothese 1* ist es möglich und relevant, ein Einheitensystem zu definieren. Ein Einheitensystem gilt für:
+Aufgrund der *Hypothese 1* ist es möglich und relevant, ein Einheitensystem zu definieren. Ein Einheitensystem gilt für   *
 
 -   eine laufende FreeCAD Instanz, in der du gerade arbeitest
 -   oder es kann auch global für den Inhalt einer Eingabedatei gelten
 
-Gemäß [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) vom NIST sind es 7 physikalische Basiseinheiten. Wir haben uns dafür entschieden, ein Einheitensystem in Form dieser 7 Basiseinheiten auszudrücken.
+Gemäß [Guide for the Use of the International System of Units (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) vom NIST sind es 7 physikalische Basiseinheiten. Wir haben uns dafür entschieden, ein Einheitensystem in Form dieser 7 Basiseinheiten auszudrücken.
 
 
 </div>
@@ -202,7 +202,7 @@ Hier sind einige Beispiele für Einheitensysteme.
 
 #### Basis- und abgeleitete Einheiten 
 
-Abgeleitete Einheiten werden durch Kombination von Basiseinheiten gebildet. Zum Beispiel kombiniert eine Beschleunigung (m/s) gleichzeitig Länge und Zeit. Ein interessantes Bild, das die Beziehungen zwischen Basis- und abgeleiteten Einheiten darstellt, ist [hier](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) auch vom NIST zu sehen.
+Abgeleitete Einheiten werden durch Kombination von Basiseinheiten gebildet. Zum Beispiel kombiniert eine Beschleunigung (m/s) gleichzeitig Länge und Zeit. Ein interessantes Bild, das die Beziehungen zwischen Basis- und abgeleiteten Einheiten darstellt, ist [hier](http   *//physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) auch vom NIST zu sehen.
 
 
 </div>
@@ -211,10 +211,10 @@ Dank der Definition des *Einheitensystems* ist es dem Anwender möglich, mit jed
 
 #### Base and derived unit symbols 
 
-According to [The International System of Units (SI)](https://physics.nist.gov/cuu/Units/index.html), the symbols to specify a units are officially approved. Two consequences can be highlighted from this.
+According to [The International System of Units (SI)](https   *//physics.nist.gov/cuu/Units/index.html), the symbols to specify a units are officially approved. Two consequences can be highlighted from this.
 
 -   it is not easy for a computer program to work with unit symbols because some are Greek letters for instance. Hence they can be a bit difficult to process by a program
--   while some units and their symbols can be used widely, they may be not approved officially, like for instance *tonne* unit (see p55 of [Guide for the Use of the International System of Units (SI)](https://physics.nist.gov/cuu/pdf/sp811.pdf))
+-   while some units and their symbols can be used widely, they may be not approved officially, like for instance *tonne* unit (see p55 of [Guide for the Use of the International System of Units (SI)](https   *//physics.nist.gov/cuu/pdf/sp811.pdf))
 
 To overcome these limitations and remain flexible, the proposed system favors the use of unit magnitudes instead of unit symbols, which remain nonetheless available for an ergonomy reason.
 
@@ -236,7 +236,7 @@ As a foreword, it is important to highlight that a *unit* object in itself only 
 
 ##### Dimension
 
-Compulsory string indicating the *dimension* of the unit. The *dimension* of the 7 base units are indicated below (from [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)).
+Compulsory string indicating the *dimension* of the unit. The *dimension* of the 7 base units are indicated below (from [Guide for the Use of the International System of Units (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf)).
 
 -   LENGTH
 -   MASS
@@ -250,20 +250,20 @@ Compulsory string indicating the *dimension* of the unit. The *dimension* of the
 
 ##### Signatur
 
-Compulsory integer array of size 7 (number of base units) that defines what the unit is. The signature of the 7 base units are:
+Compulsory integer array of size 7 (number of base units) that defines what the unit is. The signature of the 7 base units are   *
 
--   LENGTH: \[1,0,0,0,0,0,0\]
--   MASS: \[0,1,0,0,0,0,0\]
--   TIME: \[0,0,1,0,0,0,0\]
--   ELECTRIC CURRENT: \[0,0,0,1,0,0,0\]
--   THERMODYNAMIC TEMPERATURE: \[0,0,0,0,1,0,0\]
--   AMOUNT OF SUBSTANCE: \[0,0,0,0,0,1,0\]
--   LUMINOUS INTENSITY: \[0,0,0,0,0,0,1\]
+-   LENGTH   * \[1,0,0,0,0,0,0\]
+-   MASS   * \[0,1,0,0,0,0,0\]
+-   TIME   * \[0,0,1,0,0,0,0\]
+-   ELECTRIC CURRENT   * \[0,0,0,1,0,0,0\]
+-   THERMODYNAMIC TEMPERATURE   * \[0,0,0,0,1,0,0\]
+-   AMOUNT OF SUBSTANCE   * \[0,0,0,0,0,1,0\]
+-   LUMINOUS INTENSITY   * \[0,0,0,0,0,0,1\]
 
-From these 7 units, we are then able to express all derived units defined in [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) and create new ones as needed such as for instance:
+From these 7 units, we are then able to express all derived units defined in [Guide for the Use of the International System of Units (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) and create new ones as needed such as for instance   *
 
--   MASS DENSITY: \[-3,1,0,0,0,0,0\]
--   AREA: \[0,2,0,0,0,0,0\]
+-   MASS DENSITY   * \[-3,1,0,0,0,0,0\]
+-   AREA   * \[0,2,0,0,0,0,0\]
 
 *Signature* is the attribute thanks to which unit scaling can be achieved in a generic way.
 
@@ -273,7 +273,7 @@ Array of \[real, string\] (meaning \[*magnitude*, *symbol*\]) that lists all *sy
 
 This array can be extended as required.
 
-For instance, the list of *symbols* of the LENGTH unit, and their related *magnitudes* is:
+For instance, the list of *symbols* of the LENGTH unit, and their related *magnitudes* is   *
 
 [1e+12,"Tm"],[1e+09,"Gm"],[1e+06,"Mm"],
 [1e+03,"km"],[1e+02,"hm"],[1e+01,"dam"],
@@ -281,7 +281,7 @@ For instance, the list of *symbols* of the LENGTH unit, and their related *magni
 [1e-03,"mm"],[1e-06,"µm"],[1e-09,"nm"],
 [1e-12,"pm"],[1e-15,"fm"]
 
-Standard *symbols* can be found on [NIST website](http://physics.nist.gov/cuu/Units/units.html) and p23 to 26 and p32 (*metric ton* or *tonne*) of [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
+Standard *symbols* can be found on [NIST website](http   *//physics.nist.gov/cuu/Units/units.html) and p23 to 26 and p32 (*metric ton* or *tonne*) of [The International System of Units (SI)](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf).
 
 #### Unit dictionary 
 
@@ -315,7 +315,7 @@ Only the logic of some methods is presented, in order to highlight some features
 
 The unit dictionary can be an XML file (FreeCAD configuration file). It contains a list of defined units. Such a dictionary is required for the proposed unit management system to work.
 
-It must fulfills some conditions that should be checked before activating the unit management system. These conditions are:
+It must fulfills some conditions that should be checked before activating the unit management system. These conditions are   *
 
 -   check that all base units are defined
 -   check that a *dimension* is not defined twice through the units
@@ -325,7 +325,7 @@ It must fulfills some conditions that should be checked before activating the un
 
 ###### isCompatibleWithThisSignature
 
-A unit dictionary defines a set of units and their known magnitudes. When managing a unit, it is relevant to check that its signature is compatible with the set of units registered in the unit dictionary, so as to process it. This check includes:
+A unit dictionary defines a set of units and their known magnitudes. When managing a unit, it is relevant to check that its signature is compatible with the set of units registered in the unit dictionary, so as to process it. This check includes   *
 
 -   check that the input *signature* length is of the same size than the unit dictionary unit *signatures*
 
@@ -343,7 +343,7 @@ Knowing a value, an initial unit by its symbol, the target unit system, scale th
 
 Knowing a value, an initial unit system, the target unit by its symbol, scale the value.
 
-#### Motivations for such a management: example of application 
+#### Motivations for such a management   * example of application 
 
 Let\'s assume that we are going to setup a finite element model. To build our model, we need the mesh, material properties, and to define numerical parameters. Considering that they can be tens of material properties to manage, expressed with different units, sometimes not always very common, it is interesting for the user to only have to specify a global unit system, without caring much.
 

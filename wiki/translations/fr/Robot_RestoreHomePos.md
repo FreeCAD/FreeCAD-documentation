@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Robot RestoreHomePos
-   Name/fr:Robot Position de départ
-   Workbenches:[Robot](Robot_Workbench/fr.md)
-   MenuLocation:Robot → Passer à la position de départ
+- GuiCommand   */fr
+   Name   *Robot RestoreHomePos
+   Name/fr   *Robot Position de départ
+   Workbenches   *[Robot](Robot_Workbench/fr.md)
+   MenuLocation   *Robot → Passer à la position de départ
 ---
 
 # Robot RestoreHomePos/fr
@@ -27,7 +27,7 @@ Permet au robot sélectionné de se déplacer jusqu\'à sa position d\'origine.
 #### Utilisation
 
 1.  Sélectionnez le robot et la trajectoire dans l\'arborescence
-2.  Cliquez sur <img alt="" src=images/Robot_RestoreHomePos.png  style="width:32px;"> ou choisissez ** Robot** → ** Robot** → **<img src="images/Robot_RestoreHomePos.png" width=32px> Passer à la position de départ** du menu supérieur.
+2.  Cliquez sur <img alt="" src=images/Robot_RestoreHomePos.png  style="width   *32px;"> ou choisissez ** Robot** → ** Robot** → **<img src="images/Robot_RestoreHomePos.png" width=32px> Passer à la position de départ** du menu supérieur.
 
 
 </div>

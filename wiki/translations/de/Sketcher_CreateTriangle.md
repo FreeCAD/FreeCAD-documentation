@@ -1,16 +1,14 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher CreateTriangle
-   Name/de:Skizzierer ErstelleDreieck
-   MenuLocation:Skizze → Skizzierergeometrien → Erstelle gleich gleichseitiges Dreieck
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.15
+- GuiCommand   */de
+   Name   *Sketcher CreateTriangle
+   Name/de   *Sketcher DreieckErstellen
+   MenuLocation   *Sketch → Skizzengeometrie → Gleichseitiges Dreieck erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **P** **3**
+   Version   *0.15
 ---
 
 # Sketcher CreateTriangle/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -20,31 +18,17 @@ Zeichnet ein gleichseitiges Dreieck, das in einen Konstruktionsgeometriekreis ei
 
 ## Anwendung
 
-1.  Drücke die **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Gleichseitiges Dreieck erstellen](Sketcher_CreateTriangle/de.md)**-Schaltfläche.
+1.  Drücke die **[<img src=images/Sketcher_CreateTriangle.svg style="width   *16px"> [Gleichseitiges Dreieck erstellen](Sketcher_CreateTriangle/de.md)**-Schaltfläche.
 2.  Klicke einmal, um das Zentrum zu setzen.
 3.  Bewege die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
 4.  Drücken von **Esc** oder Klicken der rechten Maustaste bricht die Funktion ab.
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
 
 ## Hinweise
 
 Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

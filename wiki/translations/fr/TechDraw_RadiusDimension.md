@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw RadiusDimension
-   Name/fr:TechDraw Cote de rayon
-   MenuLocation:TechDraw → Dimensions → Insérer une cote de rayon
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Cote de diamètre](TechDraw_DiameterDimension/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw RadiusDimension
+   Name/fr   *TechDraw Cote de rayon
+   MenuLocation   *TechDraw → Dimensions → Insérer une cote de rayon
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso   *[TechDraw Cote de diamètre](TechDraw_DiameterDimension/fr.md)
 ---
 
 # TechDraw RadiusDimension/fr
@@ -13,7 +13,7 @@
 
 L\'outil Cote de rayon ajoute une dimension de rayon à une vue. La cote peut être appliquée à n\'importe quel bord du dessin, que ce soit un cercle ou un arc de cercle. La distance sera initialement la distance projetée (c\'est-à-dire, comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réelle à l\'aide de l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)**.
 
-<img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
+<img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width   *130px;"> 
 *Mesurer un cercle, indiquant le rayon*
 
 ## Comment faire 
@@ -37,15 +37,15 @@ Voir [Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s/fr.md).
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Cote de rayon peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Cote de rayon peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "Radius"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

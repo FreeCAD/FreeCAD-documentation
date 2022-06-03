@@ -1,7 +1,7 @@
 # Spreadsheet CSV/it
 <div class="mw-translate-fuzzy">
 
-Il [formato CSV](http://en.wikipedia.org/wiki/Comma-separated_values) (Comma-Separated Values) è un formato di testo semplice per scambiare i dati dei fogli di calcolo. Di solito può essere importato ed esportato da qualsiasi applicazione foglio di calcolo come LibreOffice o Microsoft Excel. La lettura e la scrittura in formato csv è fatto dal [modulo csv](http://docs.python.org/2/library/csv.html) di Python interno.
+Il [formato CSV](http   *//en.wikipedia.org/wiki/Comma-separated_values) (Comma-Separated Values) è un formato di testo semplice per scambiare i dati dei fogli di calcolo. Di solito può essere importato ed esportato da qualsiasi applicazione foglio di calcolo come LibreOffice o Microsoft Excel. La lettura e la scrittura in formato csv è fatto dal [modulo csv](http   *//docs.python.org/2/library/csv.html) di Python interno.
 
 
 </div>
@@ -29,6 +29,11 @@ Esportando un oggetto [spreadsheet](Spreadsheet_Create/it.md) in un file .csv fi
 
 
 </div>
+
+
+ 
+
+[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *Spreadsheet](Category_Spreadsheet.md) [Category   *File\_Formats](Category_File_Formats.md)
 
 
 

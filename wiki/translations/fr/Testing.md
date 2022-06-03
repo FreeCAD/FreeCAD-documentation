@@ -1,4 +1,4 @@
-# <img alt="Icône de l\'atelier Test" src=images/Workbench_Test.svg  style="width:64px;"> Testing/fr
+# <img alt="Icône de l\'atelier Test" src=images/Workbench_Test.svg  style="width   *64px;"> Testing/fr
 
 
 {{TOCright}}
@@ -9,21 +9,21 @@ L\'[atelier Test](Testing/fr.md) n\'est pas vraiment un atelier de modélisation
 
 Vous pouvez lancer les tests depuis la ligne de commande, en utilisant les options `-t` ou `--run-test`.
 
-Lancer tous les tests :
+Lancer tous les tests    *
 
 
 ```python
 freecad --run-test 0
 ```
 
-Exécutez uniquement quelques tests spécifiques, par exemple :
+Exécutez uniquement quelques tests spécifiques, par exemple    *
 
 
 ```python
 freecad -t TestDraft
 ```
 
-Si un test ne nécessite pas l\'interface graphique, il peut également être exécuté en mode console en définissant l\'option `-c` ou `--console` en plus. Cela se traduit généralement par un démarrage beaucoup plus rapide car l\'interface graphique n\'est pas chargée. Par exemple :
+Si un test ne nécessite pas l\'interface graphique, il peut également être exécuté en mode console en définissant l\'option `-c` ou `--console` en plus. Cela se traduit généralement par un démarrage beaucoup plus rapide car l\'interface graphique n\'est pas chargée. Par exemple    *
 
 
 ```python
@@ -38,7 +38,7 @@ Pour exécuter un test depuis FreeCAD, passez à l\'atelier Test puis **Commande
 
 ## Fonctions de test 
 
-Voici la liste des applications de test à partir de 0.15 Git 4207 :
+Voici la liste des applications de test à partir de 0.15 Git 4207    *
 
 ### TestAPP.All
 
@@ -82,31 +82,31 @@ Ajoute la fonction de test
 
 ### TestPathApp
 
-Exemples de tests pour l\'atelier Path :
+Exemples de tests pour l\'atelier Path    *
 
--   depthTestCases :
--   PathTestUtils :
--   TestDressupDogbone : Tester la fonctionnalité de l\'habillage de Dogbone.
--   TestHoldingTags : Test de la fonctionnalité d\'habillage des étiquettes de maintien.
--   TestPathAdaptive : Test de la capacité de sélection du fonctionnement adaptatif.
--   TestPathCore : Test de la fonctionnalité de base de l\'atelier Path.
--   TestPathDeburr : Test de la fonctionnalité générale de l\'opération Deburr.
--   TestPathGeom : Test de diverses fonctions disponibles dans le module PathGeom.
--   TestPathHelix : Test de la fonctionnalité générale de l\'opération Helix.
--   TestPathLog : Teste diverses fonctions disponibles dans le module de débogage et de feedback PathLog.
--   TestPathOpTools :
--   TestPathPreferences : Testez diverses fonctions disponibles dans le module PathPreferences.
--   TestPathPropertyBag :
--   TestPathSetupSheet :
--   TestPathStock :
--   TestPathThreadMilling :
--   TestPathTool :
--   TestPathToolBit :
--   TestPathToolController :
--   TestPathTooltable :
--   TestPathUtil : Tester diverses fonctions disponibles dans le module PathUtil.
--   TestPathVcarve : Teste la fonctionnalité générale de l\'opération Vcarve.
--   TestPathVoronoi :
+-   depthTestCases    *
+-   PathTestUtils    *
+-   TestDressupDogbone    * Tester la fonctionnalité de l\'habillage de Dogbone.
+-   TestHoldingTags    * Test de la fonctionnalité d\'habillage des étiquettes de maintien.
+-   TestPathAdaptive    * Test de la capacité de sélection du fonctionnement adaptatif.
+-   TestPathCore    * Test de la fonctionnalité de base de l\'atelier Path.
+-   TestPathDeburr    * Test de la fonctionnalité générale de l\'opération Deburr.
+-   TestPathGeom    * Test de diverses fonctions disponibles dans le module PathGeom.
+-   TestPathHelix    * Test de la fonctionnalité générale de l\'opération Helix.
+-   TestPathLog    * Teste diverses fonctions disponibles dans le module de débogage et de feedback PathLog.
+-   TestPathOpTools    *
+-   TestPathPreferences    * Testez diverses fonctions disponibles dans le module PathPreferences.
+-   TestPathPropertyBag    *
+-   TestPathSetupSheet    *
+-   TestPathStock    *
+-   TestPathThreadMilling    *
+-   TestPathTool    *
+-   TestPathToolBit    *
+-   TestPathToolController    *
+-   TestPathTooltable    *
+-   TestPathUtil    * Tester diverses fonctions disponibles dans le module PathUtil.
+-   TestPathVcarve    * Teste la fonctionnalité générale de l\'opération Vcarve.
+-   TestPathVoronoi    *
 
 ### Workbench
 
@@ -127,7 +127,7 @@ Ajoute la fonction de test
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
@@ -142,15 +142,15 @@ Notez que les modules de test retournés ici dépendent de la présence ou non d
 
 ### Lancer des tests spécifiques 
 
-Il existe plusieurs façons d\'exécuter des tests en utilisant [la bibliothèque unittest de Python](https://docs.python.org/3/library/unittest.html). Le cadre de test de FreeCAD supprime une partie des cas basiques pour les cas les plus courants.
+Il existe plusieurs façons d\'exécuter des tests en utilisant [la bibliothèque unittest de Python](https   *//docs.python.org/3/library/unittest.html). Le cadre de test de FreeCAD supprime une partie des cas basiques pour les cas les plus courants.
 
-Exécute tous les tests définis dans un module de Python : 
+Exécute tous les tests définis dans un module de Python    * 
 ```python
 import Test, TestFemApp
 Test.runTestsFromModule(TestFemApp)
 ```
 
-Exécute tous les tests définis dans une classe de Python : 
+Exécute tous les tests définis dans une classe de Python    * 
 ```python
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
@@ -164,7 +164,7 @@ Dans la console Python de FreeCAD, le format de code suivant peut être utilisé
 -   Les sous-modules sont disponibles en utilisant la notation par points, comme \"**TestPathApp.TestPathAdaptive**\" pour n\'exécuter que les tests unitaires Adaptive dans le cadre de test plus large de l\'atelier Path.
 -   Plusieurs modules ou sous-modules de test peuvent être combinés en ajoutant un autre appel de méthode \**suite.addTest(\...)**\ comme celui du code ci-dessous mais avec une référence de module ou de sous-module différente.
 -   La sortie pour le code ci-dessous sera dans le panneau Report View dans le FreeCAD GUI.
--   La source du code est copiée à partir d\'un message de l\'utilisateur du forum FreeCAD, *sgrogan*, dans le sujet [unit tests per python](https://forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251), avec le crédit donné à l\'utilisateur du forum, *wmayer*.
+-   La source du code est copiée à partir d\'un message de l\'utilisateur du forum FreeCAD, *sgrogan*, dans le sujet [unit tests per python](https   *//forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251), avec le crédit donné à l\'utilisateur du forum, *wmayer*.
 
 
 ```python
@@ -179,7 +179,15 @@ r.run(suite)
 
 ### Sujets du forum 
 
--   [Support for running specific unit tests with \--run-test \#331](https://forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
+-   [Support for running specific unit tests with \--run-test \#331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
+
+
+
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Test Framework](Category_Test_Framework.md) [Category   *Workbenches](Category_Workbenches.md) [Category   *Testing](Category_Testing.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw ShowAll
-   MenuLocation:TechDraw → ShowAll
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Change Appearance of Line(s)](TechDraw_DecorateLine.md)
+- GuiCommand   *
+   Name   *TechDraw ShowAll
+   MenuLocation   *TechDraw → ShowAll
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Change Appearance of Line(s)](TechDraw_DecorateLine.md)
 ---
 
 # TechDraw ShowAll/en
@@ -26,7 +26,7 @@ The ShowAll tool has no properties, as it is not a Document Object.
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

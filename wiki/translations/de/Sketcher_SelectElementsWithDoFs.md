@@ -1,47 +1,38 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher SelectElementsWithDoFs
-   Name/de:Skizzierer WähleElementeMitFreiheitsgraden
-   MenuLocation:Skizze → Skizzierwerkzeuge → Wähle 
-Löser Freiheitsgrade
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.18
+- GuiCommand   */de
+   Name   *Sketcher SelectElementsWithDoFs
+   Name/de   *Sketcher UnterbestimmteElementeAuswählen
+   MenuLocation   *Sketch → Skizzen-Werkzeuge → Nicht-bestimmte Freiheitsgrade auswählen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***Z** **F**
+   Version   *0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/de
 
-
-</div>
-
 ## Beschreibung
 
-Dieses Werkzeug soll dabei helfen, eine Skizze vollständig zu beschränken, indem es die Skizzenelemente mit den verbleibenden Freiheitsgraden (engl.: Degrees of Freedom)(DoF) in grün hervorhebt.
+Dieses Werkzeug soll dabei helfen, eine Skizze vollständig zu beschränken, indem es die unterbestimmten Skizzenelemente in grün hervorhebt, d.h. die mit verbliebenen Freiheitsgraden (engl.   * Degrees of Freedom, DoF).
 
 ## Anwendung
 
-Im Meldungsfeld des Lösers, das sich oben im [Aufgabenreiter](Task_panel/de.md) befindet, sollte(n) die folgende(n) Meldung(en) angezeigt werden:
+Im Meldungsfeld des Lösers, das sich oben im [Aufgabebereich](Task_panel/de.md) befindet, sollte eine der folgenden Meldungen angezeigt werden   *
 
--   Im Falle einer **unter-beschränkten** Skizze:
+-   Im Falle einer **unterbestimmten** Skizze   *
 
-> Unter-beschränkte Skizze mit X Freiheitsgraden
+> Unterbestimmt   * X DoF
 
-wobei \"X\" für die Anzahl der in der Skizze verbleibenden Freiheitsgrade steht; weitere Informationen erhälst Du, wenn Du auf den blauen Link klickst oder das Menü benutzt.
+   *   wobei \"X\" für die Anzahl der in der Skizze verbliebenen Freiheitsgrade steht; weitere Informationen erhält man, wenn man auf den blauen Link klickt oder das Menü benutzt.
 
-1.  Die Elemente, die Freiheitsgrade haben, sind jetzt grün hervorgehoben.
-2.  Klicke irgendwo in die Skizze, um die Hervorhebungsfarbe zu löschen.
+1.  Die unterbestimmten Elemente werden jetzt grün hervorgehoben.
+2.  Irgendwo in die Skizzen klicke, um die Hervorhebungsfarbe zu löschen.
 
--   Im Falle einer **voll-beschränkten** Skizze:
+-   Im Falle einer **vollständig bestimmten** Skizze   *
 
-> Vollständig beschränkte Skizze 
-
-
-<div class="mw-translate-fuzzy">
+> Vollständig bestimmte Skizze 
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

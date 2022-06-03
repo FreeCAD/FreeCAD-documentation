@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std DuplicateSelection
-   Name/fr:Std Dupliquer la Sélection
-   MenuLocation:Edition → Dupliquer la sélection
-   Workbenches:tous
-   SeeAlso:[Std Copier](Std_Copy/fr.md), [Std Coller](Std_Paste/fr.md)
+- GuiCommand   */fr
+   Name   *Std DuplicateSelection
+   Name/fr   *Std Dupliquer la Sélection
+   MenuLocation   *Edition → Dupliquer la sélection
+   Workbenches   *tous
+   SeeAlso   *[Std Copier](Std_Copy/fr.md), [Std Coller](Std_Paste/fr.md)
 ---
 
 # Std DuplicateSelection/fr

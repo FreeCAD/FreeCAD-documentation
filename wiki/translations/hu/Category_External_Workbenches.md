@@ -1,6 +1,8 @@
 # Category:External Workbenches/hu
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
+[Category   *Workbenches/hu](Category   *Workbenches/hu.md) [Category   *Addons/hu](Category   *Addons/hu.md)
+
 ### Contents
 
 |     |     |     |

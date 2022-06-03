@@ -1,6 +1,6 @@
 # Std Delete/ro
 ---
-- GuiCommand:   Name:Std Delete   Workbenches:All   MenuLocation:[Edit](Std_Edit_Menu.md) → Delete---
+- GuiCommand   *   Name   *Std Delete   Workbenches   *All   MenuLocation   *[Edit](Std_Edit_Menu.md) → Delete---
 
 
 </div>
@@ -34,7 +34,7 @@ Obiect(ul)ele selectatea pot fi șterse din document apăsând **DEL**, din meni
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

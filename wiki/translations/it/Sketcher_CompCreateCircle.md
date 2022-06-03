@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Sketcher Circles
-   Name/it:Cerchi
-   Icon:Sketcher_CompCreateCircle.png
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Nessuno (solo sulla barra degli strumenti)
+- GuiCommand   */it
+   Name   *Sketcher Circles
+   Name/it   *Cerchi
+   Icon   *Sketcher_CompCreateCircle.png
+   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation   *Nessuno (solo sulla barra degli strumenti)
 ---
 
 # Sketcher CompCreateCircle/it
@@ -21,8 +21,8 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Cerchio da centro e punto sul bordo](Sketcher_CreateCircle/it.md) : Disegna un cerchio selezionando due punti: il centro e un punto che definisce il raggio.
--   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Cerchio da 3 punti sul bordo](Sketcher_Create3PointCircle/it.md) : Disegna un cerchio selezionando tre punti sul contorno del cerchio.
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width   *32px;"> [Cerchio da centro e punto sul bordo](Sketcher_CreateCircle/it.md)    * Disegna un cerchio selezionando due punti   * il centro e un punto che definisce il raggio.
+-   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Cerchio da 3 punti sul bordo](Sketcher_Create3PointCircle/it.md)    * Disegna un cerchio selezionando tre punti sul contorno del cerchio.
 
 
 </div>

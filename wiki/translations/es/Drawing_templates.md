@@ -6,17 +6,17 @@
 
 ## SVG templates creation 
 
-Creating templates for the Drawing module is very easy. See also the tutorial [Drawing Template HowTo](Drawing_Template_HowTo.md). Templates are svg files, created with any application capable of exporting svg files, such as [Inkscape](http://www.inkscape.org). However, you will often need to open the svg file in a text editor afterwards, to comply with the following rules. Only two rules must be followed:
+Creating templates for the Drawing module is very easy. See also the tutorial [Drawing Template HowTo](Drawing_Template_HowTo.md). Templates are svg files, created with any application capable of exporting svg files, such as [Inkscape](http   *//www.inkscape.org). However, you will often need to open the svg file in a text editor afterwards, to comply with the following rules. Only two rules must be followed   *
 
 ### Base rules 
 
 
 <div class="mw-translate-fuzzy">
 
-La creación de plantillas para el módulo de dibujo es muy sencilla. Son archivos SVG, creados con cualquier aplicación capaz de exportar archivos SVG, como [inkscape](http://www.inkscape.org). Sólo se deben seguir dos reglas:
+La creación de plantillas para el módulo de dibujo es muy sencilla. Son archivos SVG, creados con cualquier aplicación capaz de exportar archivos SVG, como [inkscape](http   *//www.inkscape.org). Sólo se deben seguir dos reglas   *
 
 -   Un pixel = Un milímetro
--   Tienes que insertar, en alguna parte dentro del código SVG, donde quieras que aparezca el contenido del dibujo (por ejemplo al final del archivo, simplemente antes del tag</svg>), la siguiente línea:
+-   Tienes que insertar, en alguna parte dentro del código SVG, donde quieras que aparezca el contenido del dibujo (por ejemplo al final del archivo, simplemente antes del tag</svg>), la siguiente línea   *
 
 
 </div>
@@ -33,13 +33,13 @@ width="1067"
 height = "762"
 
 
-Although svg supports inches (\"42 in\"), these are currently not supported by FreeCAD, so it\'s always better to have your svg page size specified in millimeters. The \"viewBox\" attribute must have the same value, for example:
+Although svg supports inches (\"42 in\"), these are currently not supported by FreeCAD, so it\'s always better to have your svg page size specified in millimeters. The \"viewBox\" attribute must have the same value, for example   *
 
  {.html}
 viewBox="0 0 1067 762"
 
 
--   You must insert, somewhere inside your svg code, where you want the contents of the drawing to appear (for example at the end of the file, just before the last</svg>tag), the following line:
+-   You must insert, somewhere inside your svg code, where you want the contents of the drawing to appear (for example at the end of the file, just before the last</svg>tag), the following line   *
 
  {.html}
 
@@ -49,9 +49,9 @@ This text above (which is actually an XML comment) must be on a separate line, a
 
 ### Namespace
 
--   Several objects (specifically those created with the [Draft Drawing](Draft_Drawing.md) command and if your template has editable texts) use a special [Svg Namespace](Svg_Namespace.md) specific to FreeCAD. This makes FreeCAD able to detect specific items inside svg files, that other applications will just ignore. If you plan to use any of these, you must add this line inside the opening<svg>tag, for example together with the other xmlns lines added by inkscape:
+-   Several objects (specifically those created with the [Draft Drawing](Draft_Drawing.md) command and if your template has editable texts) use a special [Svg Namespace](Svg_Namespace.md) specific to FreeCAD. This makes FreeCAD able to detect specific items inside svg files, that other applications will just ignore. If you plan to use any of these, you must add this line inside the opening<svg>tag, for example together with the other xmlns lines added by inkscape   *
 
-xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
+xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 ### Title block 
 
@@ -63,7 +63,7 @@ To define the Border, the following line must appear before the  tag in the svg 
 
 
 
-Where X1, Y1, X2, Y2 are defined as:
+Where X1, Y1, X2, Y2 are defined as   *
 
 -   X1 is the X axis distance from the left edge of the page to the left side of the Border.
 -   Y1 is the Y axis distance from the top edge of the page to the top of the Border.
@@ -78,7 +78,7 @@ To define the Title block the following line must be inserted before the  tag an
 
 
 
-Where X1a, Y1a, X2a, Y2a are defined as:
+Where X1a, Y1a, X2a, Y2a are defined as   *
 
 -   X1a is the X axis distance from the left edge of the page to the left side of the Title block
 -   Y1a is the Y axis distance from the top edge of the page to the top of the Title block
@@ -89,7 +89,7 @@ Where X1a, Y1a, X2a, Y2a are defined as:
 
 ![](images/XY_Title_v2.svg )
 
-The following is an example of the code that defines the Working space and Title block areas that are to be inserted before the  tag. You needn\'t specify a title block, but if you do it must be defined on the next line immediately following the Working space:
+The following is an example of the code that defines the Working space and Title block areas that are to be inserted before the  tag. You needn\'t specify a title block, but if you do it must be defined on the next line immediately following the Working space   *
 
  {.html}
 
@@ -98,7 +98,7 @@ The following is an example of the code that defines the Working space and Title
 
 In order to enable up to scale printing, the real word size has to be given in the width and height attributes of the SVG-Tag. The size of the document in user units, (px), has to be given in the viewBox attribute.
 
-The following is to be formatted like the example below where:
+The following is to be formatted like the example below where   *
 
 -   xxx = pixel width
 -   yyy = pixel height
@@ -125,7 +125,7 @@ Consequently, if you create your own SVG templates, and wish to be able to expor
 
 DXF templates can be created with any application that produces DXF files, such as LibreCAD. You then need to edit them with a text editor, and add two additional lines, one at the beginning or end of the BLOCKS section, and another at the beginning or end of the ENTITIES section, which are where FreeCAD will add its own blocks and entities.
 
-A very simple template looks like this:
+A very simple template looks like this   *
 
     999
     FreeCAD DXF exporter v0.15
@@ -171,52 +171,52 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/A3_Classic.svg  style="width:800px;">
+<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Classic.svg  style="width:800px;">
+<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/A3_Clean.svg  style="width:800px;">
+<img alt="" src=images/A3_Clean.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Clean.svg  style="width:800px;">
+<img alt="" src=images/A3_Clean.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/A3_Modern.svg  style="width:800px;">
+<img alt="" src=images/A3_Modern.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Modern.svg  style="width:800px;">
+<img alt="" src=images/A3_Modern.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/A3_Showcase.svg  style="width:800px;">
+<img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Showcase.svg  style="width:800px;">
+<img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -229,22 +229,22 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### Apaisadas:
+### Apaisadas   *
 
 
 </div>
 
-<img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A4_Landscape_english.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-### Vertical:
+### Vertical   *
 
 
 </div>
 
-<img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
+<img alt="" src=images/A4_Portrait_1_english.svg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -257,45 +257,47 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### Apaisadas: 
+### Apaisadas   * 
 
 
 </div>
 
-<img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Letter_landscape.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-### Vertical: 
+### Vertical   * 
 
 
 </div>
 
-<img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
+<img alt="" src=images/US_Letter_portrait.svg  style="width   *400px;">
 
-### US Letter ds Landscape: 
+### US Letter ds Landscape   * 
 
-<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width   *800px;">
 
-### US Legal ds Landscape: 
+### US Legal ds Landscape   * 
 
-<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width   *800px;">
 
-### US Ledger ds Landscape: 
+### US Ledger ds Landscape   * 
 
-<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width   *800px;">
 
 ## Other standards available 
 
--   [ANSI templates](ANSI_templates.md): according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
--   [Arch templates](Arch_templates.md): according to American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
--   [Misc templates](Misc_templates.md): mixed templates
+-   [ANSI templates](ANSI_templates.md)   * according to American National Standards Institute [ANSI](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute) standard
+-   [Arch templates](Arch_templates.md)   * according to American National Standards Institute [Arch](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute) standard
+-   [Misc templates](Misc_templates.md)   * mixed templates
 
 
 {{Drawing Tools navi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Documentation](Category_Documentation.md)
 
 
 

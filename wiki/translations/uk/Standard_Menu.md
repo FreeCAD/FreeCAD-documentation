@@ -29,7 +29,7 @@ The standard menu gives access to tools that can be used in all workbenches. The
 
 ## Sub-menus 
 
-The standard menu is composed of 7 sub-menus:
+The standard menu is composed of 7 sub-menus   *
 
 -    {{StdMenu|[File](Std_File_Menu.md)}}The File menu provides tools related to file input and output.
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std Transform
-   Name/it:Trasforma
-   Empty:1
-   MenuLocation:Fare doppio clic su un oggetto nella vista ad albero → Trasforma
-   Workbenches:All
-   SeeAlso:[Menu standard di base](Std_Base/it.md)
+- GuiCommand   */it
+   Name   *Std Transform
+   Name/it   *Trasforma
+   Empty   *1
+   MenuLocation   *Fare doppio clic su un oggetto nella vista ad albero → Trasforma
+   Workbenches   *All
+   SeeAlso   *[Menu standard di base](Std_Base/it.md)
 ---
 
 # Std TransformManip/it

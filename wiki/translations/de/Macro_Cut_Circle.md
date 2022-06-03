@@ -8,19 +8,19 @@
 |Version=00.03
 |Date=2019-07-02
 |FCVersion=Alle
-|Download=[https://www.freecadweb.org/wiki/images/9/93/Macro_Cut_Circle.png Symbol]
+|Download=[https   *//www.freecadweb.org/wiki/images/9/93/Macro_Cut_Circle.png Symbol]
 }}
 
 ## Beschreibung
 
 Dieses Makro schneidet einen Kreis oder Kreisbogen in mehrere Bögen, die Bögen können zur Unterscheidung abwechselnd eingefärbt werden.
 
-<img alt="" src=images/Macro_CutCircle_00.png  style="width:400px;"> 
+<img alt="" src=images/Macro_CutCircle_00.png  style="width   *400px;"> 
 *KreisSchneiden*
 
 ## Anwendung
 
-Kopiere das Makro **cutCirle** komplett in die Python Konsole FreeCAD wähle den/die Kreis(e) und (oder) Bogen Typ in der Konsole:
+Kopiere das Makro **cutCirle** komplett in die Python Konsole FreeCAD wähle den/die Kreis(e) und (oder) Bogen Typ in der Konsole   *
 
 um die Kreise und Bögen zu sehen, die hier im Beispiel 5 zusammenhängende Bögen schneiden.
 
@@ -48,37 +48,37 @@ __version__ = "00.03"
 
 import Draft
 global biscolor ; biscolor = 0
-def cutCircle(number = 2, biColor = 0):
+def cutCircle(number = 2, biColor = 0)   *
     global biscolor
-    def defbiColor(objet):
+    def defbiColor(objet)   *
         global biscolor
-        if biscolor == 0:
+        if biscolor == 0   *
             FreeCADGui.ActiveDocument.getObject(objet.Name).LineColor = (1.0,0.0,0.0) # 255 = 1 (10 = (1/255 * 10 ))
             biscolor = 1
-        else:
+        else   *
             FreeCADGui.ActiveDocument.getObject(objet.Name).LineColor = (1.0,1.0,1.0) # 255 = 1 (10 = (1/255 * 10 ))
             biscolor = 0
     selection = FreeCADGui.Selection.getSelection()
-    for piece in selection:
+    for piece in selection   *
         nom = piece.Name
-        if (nom[:6] == "Circle") or (nom[:8] == "Cylinder"):
+        if (nom[   *6] == "Circle") or (nom[   *8] == "Cylinder")   *
             circonference = piece.Shape.Length
             rayon = piece.Radius
             placem = piece.Placement
  
-            if (nom[:8] == "Cylinder"):
+            if (nom[   *8] == "Cylinder")   *
                 pivot0 = float(piece.Angle/number)
                 FreeCAD.Console.PrintMessage("Cylinder"+"\n")
-            else:
+            else   *
                 pivot0 = float(360/number)
                 FreeCAD.Console.PrintMessage("Circle"+"\n")
             pivot1 = 0.0
-            for i in range(number):
+            for i in range(number)   *
                 cercle = Draft.makeCircle(radius=rayon,placement=placem,face=False,startangle=(pivot1),endangle=(pivot0+pivot1),support=None)
-                if biColor != 0:
+                if biColor != 0   *
                     defbiColor(cercle)
                 pivot1 += pivot0
-        elif nom[:3] == "Arc":
+        elif nom[   *3] == "Arc"   *
             FreeCAD.Console.PrintMessage("Arc"+"\n")
             circonference = piece.Shape.Length
             rayon = piece.Radius
@@ -87,9 +87,9 @@ def cutCircle(number = 2, biColor = 0):
             Last  = float(piece.LastAngle)
             pivot0 = abs((First - Last) / number)
             pivot1 = 0.0
-            for i in range(number):
+            for i in range(number)   *
                 cercle = Draft.makeCircle(radius=rayon,placement=placem,face=False,startangle=(pivot1+First),endangle=(pivot0+pivot1+First),support=None)
-                if biColor != 0:
+                if biColor != 0   *
                     defbiColor(cercle)
                 pivot1 += pivot0
     App.ActiveDocument.recompute()
@@ -113,11 +113,11 @@ Kreis auf Zylinder schneiden
 
 ## Version
 
-ver 00.03 02/07/2019 : \"App.ActiveDocument.recompute()\" hinzugefügt
+ver 00.03 02/07/2019    * \"App.ActiveDocument.recompute()\" hinzugefügt
 
-ver 00.02 09/03/2015 : Hinzufügen von Bögen erzeugen, die abwechselnd rot-weiß-rot-weiß gefärbt sind \.... oder nicht
+ver 00.02 09/03/2015    * Hinzufügen von Bögen erzeugen, die abwechselnd rot-weiß-rot-weiß gefärbt sind \.... oder nicht
 
-ver 00.01 24/02/2015 :
+ver 00.01 24/02/2015    *
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Raytracing ExportProject
-   Name/de:Raytracing ExportProjekt
-   MenuLocation:Raytracing → ExportProjekt|
-   Workbenches:[Raytracing](Raytracing_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */de
+   Name   *Raytracing ExportProject
+   Name/de   *Raytracing ExportProjekt
+   MenuLocation   *Raytracing → ExportProjekt|
+   Workbenches   *[Raytracing](Raytracing_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Raytracing ExportProject/de
@@ -33,7 +33,7 @@ Exportiert das ausgewählte Raytracing Projekt in eine Datei.
 ## Benutzung
 
 1.  Wähle das Raytracingprojekt in der Baumansicht aus.
-2.  Klicke auf <img alt="" src=images/Raytracing_ExportProject.png  style="width:32px;"> oder wähle ** Raytracing** → **<img src="images/Raytracing_ExportProject.png" width=32px> Exportiere Projekt...** aus dem Menü.
+2.  Klicke auf <img alt="" src=images/Raytracing_ExportProject.png  style="width   *32px;"> oder wähle ** Raytracing** → **<img src="images/Raytracing_ExportProject.png" width=32px> Exportiere Projekt...** aus dem Menü.
 
 
 </div>

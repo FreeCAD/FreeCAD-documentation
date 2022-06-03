@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw ExportPageSVG
-   Name/fr:TechDraw Exporter au format SVG
-   MenuLocation:TechDraw → Exporter une page au format SVG
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw ExportPageSVG
+   Name/fr   *TechDraw Exporter au format SVG
+   MenuLocation   *TechDraw → Exporter une page au format SVG
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md)
 ---
 
 # TechDraw ExportPageSVG/fr
@@ -27,11 +27,11 @@ L\'outil Exporter la page enregistre la page de dessin en cours sous forme de fi
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDrawGui API](TechDrawGui_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Exporter au format SVG peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Exporter au format SVG peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python

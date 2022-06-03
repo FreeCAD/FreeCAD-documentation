@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Draft BSpline
-   Name/it:B-spline
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → B-spline
-   Shortcut:**B** **S**
-   SeeAlso:[Polilinea](Draft_Wire/it.md), [Curva di Bezier](Draft_BezCurve/it.md)
-   Version:0.7
+- GuiCommand   */it
+   Name   *Draft BSpline
+   Name/it   *B-spline
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft → B-spline
+   Shortcut   ***B** **S**
+   SeeAlso   *[Polilinea](Draft_Wire/it.md), [Curva di Bezier](Draft_BezCurve/it.md)
+   Version   *0.7
 ---
 
 # Draft BSpline/it
@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_BSpline.svg  style="width:16px;"> B-spline crea una linea flessibile, passante per i punti selezionati nel [piano di lavoro](Draft_SelectPlane/it.md) corrente. La B-spline assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati nella [barra di Draft](Draft_Tray/it.md).
+Lo strumento <img alt="" src=images/Draft_BSpline.svg  style="width   *16px;"> B-spline crea una linea flessibile, passante per i punti selezionati nel [piano di lavoro](Draft_SelectPlane/it.md) corrente. La B-spline assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati nella [barra di Draft](Draft_Tray/it.md).
 
 
 </div>
@@ -27,17 +27,17 @@ Lo strumento <img alt="" src=images/Draft_BSpline.svg  style="width:16px;"> B-sp
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento B-spline specifica i punti esatti attraverso i quali deve passare la curva; invece lo strumento <img alt="" src=images/Draft_BezCurve.svg  style="width:16px;"> [Curva di Bezier](Draft_BezCurve/it.md) usa i **punti di controllo** per definire l\'andamento della curva. Per creare curve circolari o ellittiche esatte, usare <img alt="" src=images/Draft_Arc.svg  style="width:16px;"> [Arco](Draft_Arc/it.md) e <img alt="" src=images/Draft_Ellipse.svg  style="width:16px;">[Ellisse](Draft_Ellipse/it.md).
+Lo strumento B-spline specifica i punti esatti attraverso i quali deve passare la curva; invece lo strumento <img alt="" src=images/Draft_BezCurve.svg  style="width   *16px;"> [Curva di Bezier](Draft_BezCurve/it.md) usa i **punti di controllo** per definire l\'andamento della curva. Per creare curve circolari o ellittiche esatte, usare <img alt="" src=images/Draft_Arc.svg  style="width   *16px;"> [Arco](Draft_Arc/it.md) e <img alt="" src=images/Draft_Ellipse.svg  style="width   *16px;">[Ellisse](Draft_Ellipse/it.md).
 
 
 </div>
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;"> 
 *S-pline definita da più punti*
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -69,8 +69,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento B-spline si riavvia dopo aver terminato la B-spline in costruzione, e consente di disegnare una nuova B-spline senza premere nuovamente il pulsante dello strumento.
 -   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva una spline chiusa crea una faccia piena (**Make Face** `True`); in caso contrario, la spline chiusa non crea una faccia (**Make Face** `False`).
 
-:   
-    **Nota:**la spline non deve essere riempita se si autointerseca, in quanto non crea una faccia corretta. Se la spline è piena ma non è visibile nessuna forma, impostare manualmente **Make Face** su `False` per vedere la spline.
+   *   
+    **Nota   ***la spline non deve essere riempita se si autointerseca, in quanto non crea una faccia corretta. Se la spline è piena ma non è visibile nessuna forma, impostare manualmente **Make Face** su `False` per vedere la spline.
 
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
 -   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il punto successivo in orizzontale o in verticale rispetto all\'ultimo.
@@ -85,23 +85,23 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento B-spline si comporta come lo strumento <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polilinea](Draft_Wire/it.md), tranne che ciascuno dei suoi tratti è curvo invece di essere un segmento retto. Per convertire tra un tipo l\'altro usare <img alt="" src=images/Draft_WireToBSpline.svg  style="width:16px;"> [Polilinea in B-spline](Draft_WireToBSpline/it.md).
+Lo strumento B-spline si comporta come lo strumento <img alt="" src=images/Draft_Wire.svg  style="width   *16px;"> [Polilinea](Draft_Wire/it.md), tranne che ciascuno dei suoi tratti è curvo invece di essere un segmento retto. Per convertire tra un tipo l\'altro usare <img alt="" src=images/Draft_WireToBSpline.svg  style="width   *16px;"> [Polilinea in B-spline](Draft_WireToBSpline/it.md).
 
 
 </div>
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -113,14 +113,14 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Dati
 
--    **Closed**: specifica se la spline è chiusa o no. Se la spline è inizialmente aperta, questo valore è `False`; impostandolo su `True` viene disegnato un tratto di curva per chiudere la spline. Se la spline è inizialmente chiusa, questo valore è `True`; impostandolo su `False` si rimuove l\'ultimo segmento di curva e si apre la spline.
+-    **Closed**   * specifica se la spline è chiusa o no. Se la spline è inizialmente aperta, questo valore è `False`; impostandolo su `True` viene disegnato un tratto di curva per chiudere la spline. Se la spline è inizialmente chiusa, questo valore è `True`; impostandolo su `False` si rimuove l\'ultimo segmento di curva e si apre la spline.
 
--    **Make Face**: specifica se la spline crea o no una faccia. Se è `True` crea una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto. Questa proprietà funziona solo se **Closed** è `True`.
+-    **Make Face**   * specifica se la spline crea o no una faccia. Se è `True` crea una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto. Questa proprietà funziona solo se **Closed** è `True`.
 
-:   
-    **Nota:**non impostare **Make Face** su `True` se la spline si autointerseca, poiché non crea una faccia corretta.
+   *   
+    **Nota   ***non impostare **Make Face** su `True` se la spline si autointerseca, poiché non crea una faccia corretta.
 
--    **Parameterization**: influenza la forma della B-spline.
+-    **Parameterization**   * influenza la forma della B-spline.
 
 
 </div>
@@ -135,15 +135,15 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Vista
 
--    **Arrow Size**: specifica la dimensione del simbolo visualizzato alla fine della spline.
+-    **Arrow Size**   * specifica la dimensione del simbolo visualizzato alla fine della spline.
 
--    **Arrow Type**: specifica il tipo di simbolo visualizzato alla fine della spline, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\".
+-    **Arrow Type**   * specifica il tipo di simbolo visualizzato alla fine della spline, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\".
 
--    **End Arrow**: specifica se mostrare il simbolo nell\'ultimo punto della spline, in modo che possa essere usata come una linea di annotazione.
+-    **End Arrow**   * specifica se mostrare il simbolo nell\'ultimo punto della spline, in modo che possa essere usata come una linea di annotazione.
 
--    **Pattern**: specifica un tipo di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia della spline chiusa. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
+-    **Pattern**   * specifica un tipo di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia della spline chiusa. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
 
--    **Pattern Size**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
+-    **Pattern Size**   * specifica la dimensione della [Campitura](Draft_Pattern/it.md).
 
 
 </div>
@@ -156,7 +156,7 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -166,7 +166,7 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento B-spline può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento B-spline può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -193,7 +193,7 @@ bspline = make_bspline(Part.Wire, closed=False, placement=None, face=None, suppo
 
 <div class="mw-translate-fuzzy">
 
-Esempio:
+Esempio   *
 
 
 </div>

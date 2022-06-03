@@ -1,6 +1,6 @@
 # Mesh Difference/ro
 ---
-- GuiCommand:   Name:Mesh Difference   MenuLocation:Meshes → Boolean → Difference   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *Mesh Difference   MenuLocation   *Meshes → Boolean → Difference   Workbenches   *[[Mesh Workbench   Mesh]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -30,7 +30,7 @@ Rezultatul este creat ca o nouă plasă separată.
 
 <div class="mw-translate-fuzzy">
 
-Exemplu: Cub tăiat cu o sferă
+Exemplu   * Cub tăiat cu o sferă
 
 
 </div>
@@ -50,7 +50,7 @@ Exemplu: Cub tăiat cu o sferă
 
 ## Properties
 
-See: [Mesh Feature](Mesh_Feature.md).
+See   * [Mesh Feature](Mesh_Feature.md).
 
 
 

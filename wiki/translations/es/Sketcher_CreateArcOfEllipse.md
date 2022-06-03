@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Sketcher CreateArcOfEllipse
-   Name/es:Croquizador CrearArcoDeElipse
-   MenuLocation:Croquis → Geometrías de Croquizador → Crear un arco de elipse
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Version:0.15
-   SeeAlso:[Croquizador Ellipse por el centro](Sketcher_CreateEllipseByCenter/es.md), [Croquizador Arco](Sketcher_CompCreateArc/es.md)
+- GuiCommand   */es
+   Name   *Sketcher CreateArcOfEllipse
+   Name/es   *Croquizador CrearArcoDeElipse
+   MenuLocation   *Croquis → Geometrías de Croquizador → Crear un arco de elipse
+   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
+   Version   *0.15
+   SeeAlso   *[Croquizador Ellipse por el centro](Sketcher_CreateEllipseByCenter/es.md), [Croquizador Arco](Sketcher_CompCreateArc/es.md)
 ---
 
 # Sketcher CreateArcOfEllipse/es
@@ -15,9 +15,9 @@
 
 ## Descripción
 
-Esta herramienta dibuja un arco de elipse eligiendo cuatro puntos: el centro, el extremo del radio mayor, el punto inicial y el punto final. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco de elipse rojo. Además se muestran las coordenadas en tiempo real.
+Esta herramienta dibuja un arco de elipse eligiendo cuatro puntos   * el centro, el extremo del radio mayor, el punto inicial y el punto final. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco de elipse rojo. Además se muestran las coordenadas en tiempo real.
 
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
+<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width   *500px;"> 
 *La secuencia de clics se indica con flechas amarillas con números. C es el centro, a - diámetro mayor, b - diámetro menor, F1, F2 son focos.*
 
 ## Utilización
@@ -25,7 +25,7 @@ Esta herramienta dibuja un arco de elipse eligiendo cuatro puntos: el centro, el
 
 <div class="mw-translate-fuzzy">
 
--   Pulse el **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Arco de elipse](Sketcher_CreateArcOfEllipse/es.md)**.
+-   Pulse el **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width   *16px"> [Arco de elipse](Sketcher_CreateArcOfEllipse/es.md)**.
 -   El primer clic en la vista 3D establece el centro de la elipse. El segundo clic establece el primer radio y la orientación de la elipse. El tercer clic establece el otro radio y el inicio del arco. El cuarto clic establece el final del arco.
 -   Después del cuarto clic, se crea el arco de la elipse, junto con un conjunto de geometrías de construcción alineadas con él (diámetro mayor, diámetro menor, dos focos). La geometría de construcción puede ser eliminada manualmente si no se necesita, y recreada más tarde. Ver [Restricción de alineación interna](Sketcher_ConstrainInternalAlignment/es.md) y \[\[Sketcher\_RestoreInternalAlignmentGeometry/es\|
 

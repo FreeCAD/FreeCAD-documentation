@@ -1,19 +1,19 @@
 ---
-- GuiCommand:/de
-   Name:Arch Truss
-   Name/de:Arch Traverse
-   MenuLocation:Arch → Traverse
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Version:0.19
+- GuiCommand   */de
+   Name   *Arch Truss
+   Name/de   *Arch Traverse
+   MenuLocation   *Arch → Traverse
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   Version   *0.19
 ---
 
 # Arch Truss/de
 
 ## Beschreibung
 
-Das [Architektur Fachwerkswerkzeug](Arch_Truss/de.md) baut ein [Fachwerk](https://de.wikipedia.org/wiki/Fachwerk)sobjekt auf, entweder aus einem ausgewählten linearen Objekt (z.B. [Entwurf Linie](Draft_Line/de.md) oder [Skizze](Sketcher_NewSketch/de.md)), oder von Grund auf neu, wenn beim Aufruf des Befehls kein Objekt ausgewählt ist.
+Das [Architektur Fachwerkswerkzeug](Arch_Truss/de.md) baut ein [Fachwerk](https   *//de.wikipedia.org/wiki/Fachwerk)sobjekt auf, entweder aus einem ausgewählten linearen Objekt (z.B. [Entwurf Linie](Draft_Line/de.md) oder [Skizze](Sketcher_NewSketch/de.md)), oder von Grund auf neu, wenn beim Aufruf des Befehls kein Objekt ausgewählt ist.
 
-<img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
+<img alt="" src=images/Arch_Truss_example.png  style="width   *600px;">
 
 ## Anwendung
 
@@ -36,46 +36,46 @@ Das [Architektur Fachwerkswerkzeug](Arch_Truss/de.md) baut ein [Fachwerk](https:
 
 ### Daten
 
--    **TrussAngle**: Der Winkel des Trägers
+-    **TrussAngle**   * Der Winkel des Trägers
 
--    **SlantType**: Der Neigungstyp dieses Trägers
+-    **SlantType**   * Der Neigungstyp dieses Trägers
 
--    **Normal**: Die normale Ausrichtung dieses Trägers
+-    **Normal**   * Die normale Ausrichtung dieses Trägers
 
--    **HeightStart**: Die Höhe des Trägers an der Startposition
+-    **HeightStart**   * Die Höhe des Trägers an der Startposition
 
--    **HeightEnd**: Die Höhe des Trägers an der Endposition
+-    **HeightEnd**   * Die Höhe des Trägers an der Endposition
 
--    **StrutStartOffset**: Ein optionaler Startversatz für die obersten Strebe
+-    **StrutStartOffset**   * Ein optionaler Startversatz für die obersten Strebe
 
--    **StrutEndOffset**: Ein optionaler Endversatz für die obere Strebe
+-    **StrutEndOffset**   * Ein optionaler Endversatz für die obere Strebe
 
--    **StrutHeight**: Die Höhe der oberen und unteren Hauptelemente des Trägers
+-    **StrutHeight**   * Die Höhe der oberen und unteren Hauptelemente des Trägers
 
--    **StrutWidth**: Die Breite der oberen und unteren Hauptelemente des Trägers
+-    **StrutWidth**   * Die Breite der oberen und unteren Hauptelemente des Trägers
 
--    **RodType**: Der Typ der mittleren Elemente des Trägers
+-    **RodType**   * Der Typ der mittleren Elemente des Trägers
 
--    **RodDirection**: Die Richtung der Stäbe
+-    **RodDirection**   * Die Richtung der Stäbe
 
--    **RodSize**: Der Durchmesser oder die Breite der Stäbe
+-    **RodSize**   * Der Durchmesser oder die Breite der Stäbe
 
--    **RodSections**: Die Anzahl der Stababschnitte
+-    **RodSections**   * Die Anzahl der Stababschnitte
 
--    **RodEnd**: Ob der Träger am Ende einen Stab hat
+-    **RodEnd**   * Ob der Träger am Ende einen Stab hat
 
--    **RodMode**: Wie die Stäbe zu zeichnen sind
+-    **RodMode**   * Wie die Stäbe zu zeichnen sind
 
 ## Skripten
 
-Das Traversen-Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch Verwendung der folgenden Funktion verwendet werden:
+Das Traversen-Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch Verwendung der folgenden Funktion verwendet werden   *
 
 
 ```python
 Truss = makeFence([baseobj])
 ```
 
-Beispiel:
+Beispiel   *
 
 
 ```python

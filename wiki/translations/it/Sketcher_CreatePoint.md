@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/it
 ---
-- GuiCommand:/it   Name:Sketcher CreatePoint   Name/it:Punto   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Punto---
+- GuiCommand   */it   Name   *Sketcher CreatePoint   Name/it   *Punto   Workbenches   *[[Sketcher Workbench/it   Sketcher]]|MenuLocation   *Sketch → Geometrie → Punto---
 
 
 </div>
@@ -17,7 +17,7 @@ Il punto è sempre un elemento di costruzione e non viene visualizzato nella vis
 
 </div>
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
+[480px\|Point in the sketcher](IMAGE   *Sketcher_Point_fr_01.png.md)
 
 ## Utilizzo
 

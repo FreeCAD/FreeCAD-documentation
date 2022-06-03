@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_ViewRear
-   Name/it:Vista da dietro
-   MenuLocation:Visualizza → Viste standard → Da dietro
-   Workbenches:Tutti
-   Shortcut:**4**
-   SeeAlso:[Vista dal basso](Std_ViewBottom/it.md), [Vista da sinistra](Std_ViewLeft/it.md)
+- GuiCommand   */it
+   Name   *Std_ViewRear
+   Name/it   *Vista da dietro
+   MenuLocation   *Visualizza → Viste standard → Da dietro
+   Workbenches   *Tutti
+   Shortcut   ***4**
+   SeeAlso   *[Vista dal basso](Std_ViewBottom/it.md), [Vista da sinistra](Std_ViewLeft/it.md)
 ---
 
 # Std ViewRear/it
@@ -19,16 +19,16 @@ Il comando **Vista da dietro** orienta la camera della [Vista 3D](3D_view/it.md)
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_ViewRear.svg" width=16px> Da dietro**.
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewRear.svg" width=16px> Da dietro** del menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewRear.svg" width=16px> Da dietro** dal menu contestuale della [vista 3D](3D_view/it.md).
-    -   Usare la scorciatoia da tastiera: **4**.
+    -   Usare la scorciatoia da tastiera   * **4**.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

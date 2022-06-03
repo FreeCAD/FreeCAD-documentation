@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Part Builder
-   MenuLocation:Part → Shape builder...
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+- GuiCommand   *
+   Name   *Part Builder
+   MenuLocation   *Part → Shape builder...
+   Workbenches   *[Part](Part_Workbench.md)
+   SeeAlso   *[Part Primitives](Part_Primitives.md)
 ---
 
 # Part Builder/pt-br
@@ -14,7 +14,7 @@ A tool to create more complex shapes from various parametric geometric primitive
 
 ## Usage
 
-This tool can create the following objects:
+This tool can create the following objects   *
 
 ### Edge from two vertices 
 
@@ -64,9 +64,9 @@ This tool can create the following objects:
 
 ## Notes
 
-A possible workflow could be:
+A possible workflow could be   *
 
--   Draw a wireframe-model of your shape using the tools in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) (for example line and dwire)
+-   Draw a wireframe-model of your shape using the tools in the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md) (for example line and dwire)
 -   Create all faces with \"face from edges\"
 -   Create a \"shell from faces\"
 -   Create a \"solid from shell\"

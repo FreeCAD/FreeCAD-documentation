@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Icon:Constraint Vertical.svg
-   Name:Vertical constraint
-   Name/it:Vincolo verticale
-   Workbenches:[Schizzo](Sketcher_Workbench/it.md)
-   Shortcut:**V**
-   MenuLocation:Sketch → Vincoli → Verticale
-   SeeAlso:[Orizzontale](Sketcher_ConstrainHorizontal/it.md)
+- GuiCommand   */it
+   Icon   *Constraint Vertical.svg
+   Name   *Vertical constraint
+   Name/it   *Vincolo verticale
+   Workbenches   *[Schizzo](Sketcher_Workbench/it.md)
+   Shortcut   ***V**
+   MenuLocation   *Sketch → Vincoli → Verticale
+   SeeAlso   *[Orizzontale](Sketcher_ConstrainHorizontal/it.md)
 ---
 
 # Sketcher ConstrainVertical/it
@@ -26,8 +26,8 @@ Può anche vincolare verticalmente i vertici. Si possono selezionare più oggett
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare le linee o i vertici da vincolare verticalmente.
-2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **[<img src=images/Constraint_Vertical.svg style="width:24px">** **Vincolo verticale** della barra degli strumenti.
+2.  Richiamare il comando in uno di questi modi   *
+    -   Cliccare sull\'icona **[<img src=images/Constraint_Vertical.svg style="width   *24px">** **Vincolo verticale** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **V**.
     -   Usare la voce **Sketch → Vincoli → Verticale** dal menu principale.
 3.  In alternativa, lo strumento può essere avviato senza previa selezione e quindi attende una selezione; ma in questo caso sono selezionabili solo le linee.

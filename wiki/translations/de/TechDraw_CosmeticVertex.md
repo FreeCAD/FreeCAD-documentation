@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw CosmeticVertex
-   Name/de:TechDraw KosmetikKnoten
-   MenuLocation:TechDraw → Knoten hinzufügen → Kosmetischen Knoten hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Mittenpunkt](TechDraw_Midpoints/de.md), [TechDraw Quadrant](TechDraw_Quadrants/de.md)
+- GuiCommand   */de
+   Name   *TechDraw CosmeticVertex
+   Name/de   *TechDraw KosmetikKnoten
+   MenuLocation   *TechDraw → Knoten hinzufügen → Kosmetischen Knoten hinzufügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Mittenpunkt](TechDraw_Midpoints/de.md), [TechDraw Quadrant](TechDraw_Quadrants/de.md)
 ---
 
 # TechDraw CosmeticVertex/de
@@ -14,7 +14,7 @@
 
 Das Kosmetikknoten Werkzeug fügt einer Ansicht einen [Knoten](Glossary/de#V.md) hinzu, der nicht Teil der Quellgeometrie ist. Dieser Knoten verhält sich wie jeder andere Knoten und kann für die Bemaßung verwendet werden.
 
-<img alt="" src=images/TechDraw_CosmeticVertex_Sample.png  style="width:300px;"> 
+<img alt="" src=images/TechDraw_CosmeticVertex_Sample.png  style="width   *300px;"> 
 *Kosmetikknoten, der zur Erzeugung einer sonst unmöglichen Bemaßung verwendet wird*
 
 ## Anwendung
@@ -26,7 +26,7 @@ Das Kosmetikknoten Werkzeug fügt einer Ansicht einen [Knoten](Glossary/de#V.md)
 
 Um einen Kosmetikknoten zu löschen, wähle ihn aus und verwende die Werkzeugleistenschaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Kosmetikobjekt entfernen](TechDraw_CosmeticEraser/de.md)**.
 
-**Hinweis:** Du kannst die Position des Kosmetikknoten nicht mehr ändern, nachdem er erstellt wurde. Im Moment gibt es keine andere Möglichkeit, als ihn zu löschen und einen neuen zu erstellen.
+**Hinweis   *** Du kannst die Position des Kosmetikknoten nicht mehr ändern, nachdem er erstellt wurde. Im Moment gibt es keine andere Möglichkeit, als ihn zu löschen und einen neuen zu erstellen.
 
 ## Eigenschaften
 
@@ -35,7 +35,7 @@ Kosmetische Knoten haben keine eigenen Eigenschaften, da sie keine Dokumentobjek
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/pl
-   Name:Sketcher CreateLine
-   Name/pl:Szkicownik: Utwórz linię
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Tworzenie linii
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **L**
-   SeeAlso:[Polilinia](Sketcher_CreatePolyline/pl.md)
+- GuiCommand   */pl
+   Name   *Sketcher CreateLine
+   Name/pl   *Szkicownik   * Utwórz linię
+   MenuLocation   *Szkic → Elementy geometryczne szkicownika → Tworzenie linii
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut   ***G** **L**
+   SeeAlso   *[Polilinia](Sketcher_CreatePolyline/pl.md)
 ---
 
 # Sketcher CreateLine/pl

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Atelier Bateau
-   Level:Débutant
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */fr
+   Topic   *Atelier Bateau
+   Level   *Débutant
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # FreeCAD-Ship s60 tutorial/fr
@@ -18,13 +18,13 @@
 
 Dans ce tutoriel, nous allons travailler avec un bateau de la série 60, de l\'Université de l\'Iowa. Le tutoriel a pour but de montrer comment travailler avec un bateau monocoque symétrique, cependant les bateaux multicoques ou non symétriques peuvent être réalisés avec la même procédure.
 
-En savoir plus sur l\'<img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [atelier Ship](Ship_Workbench/fr.md).
+En savoir plus sur l\'<img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> [atelier Ship](Ship_Workbench/fr.md).
 
 ## Charger la forme de base 
 
 ### Contexte
 
-L\'<img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [atelier Ship](Ship_Workbench/fr.md) travaille sur des **entités bateau**, qui doivent être créées à partir d\'une géométrie fournie. La géométrie doit être un solide (ou un ensemble de solides), les critères suivants doivent être pris en compte :
+L\'<img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> [atelier Ship](Ship_Workbench/fr.md) travaille sur des **entités bateau**, qui doivent être créées à partir d\'une géométrie fournie. La géométrie doit être un solide (ou un ensemble de solides), les critères suivants doivent être pris en compte    *
 
 -   Toute la géométrie de la coque doit être fournie (y compris les corps symétriques).
 -   La géométrie tribord doit être incluse dans le domaine négatif *y*.
@@ -42,7 +42,7 @@ Illustration des pré-requis pour la forme de base
 
 ### Chargement de la géométrie de la série 60 
 
-Afin d\'aider les nouveaux utilisateurs, l\'atelier Ship comprend un chargeur d\'exemples de géométries, parmi lesquels vous pouvez choisir :
+Afin d\'aider les nouveaux utilisateurs, l\'atelier Ship comprend un chargeur d\'exemples de géométries, parmi lesquels vous pouvez choisir    *
 
 -   Série 60 de l\'Université d\'Iowa
 -   Wigley Canonical Ship
@@ -82,15 +82,15 @@ Icône de l\'outil de création de bateau
 
 La boîte de dialogue de la tâche de création d\'un bateau et certaines annotations dans la [Vue 3D](3D_view/fr.md) s\'affichent. Ces annotations disparaîtront lorsque vous fermerez l\'outil de création de bateau, ne vous inquiétez donc pas.
 
-Les données les plus pertinentes concernant le bateau doivent être introduites (l\'<img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> atelier Ship utilise un système d\'introduction progressive des données, ainsi les opérations de base peuvent être effectuées en ne connaissant que les données de base du bateau, plus d\'informations sont nécessaires lorsque les opérations deviennent plus complexes).
+Les données les plus pertinentes concernant le bateau doivent être introduites (l\'<img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> atelier Ship utilise un système d\'introduction progressive des données, ainsi les opérations de base peuvent être effectuées en ne connaissant que les données de base du bateau, plus d\'informations sont nécessaires lorsque les opérations deviennent plus complexes).
 
 ### Données du navire 
 
-Les principales dimensions doivent être saisies ici:
+Les principales dimensions doivent être saisies ici   *
 
--   Longueur: [Longueur entre perpendiculaires](http://fr.wikipedia.org/wiki/Longueur_entre_perpendiculaires), 25.5 m pour ce navire.
--   Largeur : [Maître bau](http://fr.wikipedia.org/wiki/Ma%C3%AEtre-bau), 3.389 m pour ce navire.
--   Tirant d\'eau: 1.0 m pour ce navire.
+-   Longueur   * [Longueur entre perpendiculaires](http   *//fr.wikipedia.org/wiki/Longueur_entre_perpendiculaires), 25.5 m pour ce navire.
+-   Largeur    * [Maître bau](http   *//fr.wikipedia.org/wiki/Ma%C3%AEtre-bau), 3.389 m pour ce navire.
+-   Tirant d\'eau   * 1.0 m pour ce navire.
 
 ![Annotations sur la vue de côté](images/FreeCAD-Ship-S60ShipCreationFront.png )
 
@@ -144,7 +144,7 @@ Icône de l\'outil de dessin des lignes
 
 </center>
 
-Le dessin des lignes est un ensemble de lignes à partir de coupes de section dans les 3 axes, qui afficheront éventuellement la géométrie de la coque dans un plan de lignes. Nous devons fournir les lignes pour les 3 vues suivantes:
+Le dessin des lignes est un ensemble de lignes à partir de coupes de section dans les 3 axes, qui afficheront éventuellement la géométrie de la coque dans un plan de lignes. Nous devons fournir les lignes pour les 3 vues suivantes   *
 
 -   Plan du corps (à l\'aide des coupes transversales)
 -   Plan transparent (en utilisant les coupes longitudinales)
@@ -164,16 +164,16 @@ Aperçu des sections transversales du schéma
 
 </center>
 
-Le tableau des sections est rempli et l\'aperçu des sections appelé *OutlineDraw* est affiché. Habituellement, d\'autres sections sont ajoutées à la proue et à la poupe, où des courbures plus complexes sont enregistrées, pour ce faire :
+Le tableau des sections est rempli et l\'aperçu des sections appelé *OutlineDraw* est affiché. Habituellement, d\'autres sections sont ajoutées à la proue et à la poupe, où des courbures plus complexes sont enregistrées, pour ce faire    *
 
 1.  Allez à la fin du tableau et *double-cliquez* sur un élément vide afin de le modifier.
 2.  Appuyez sur **intro** pour confirmer.
-3.  Ajoutez les sections suivantes :
+3.  Ajoutez les sections suivantes    *
 
-:   
+   *   
 
-    :   X~22~ = -12.1125 m
-    :   X~23~ = 12.1125 m
+       *   X~22~ = -12.1125 m
+       *   X~23~ = 12.1125 m
 
 Selon la complexité de la géométrie de la coque, l\'aperçu des sections peut prendre un certain temps. Pour supprimer une section, il suffit de la remplir avec un texte vide et appuyez sur Entrée.
 
@@ -185,7 +185,7 @@ Deux coupes longitudinales doivent être ajoutées, alors sélectionnez le type 
 
 6 lignes de flottaison entre la ligne de base et le traçage de conception doivent être ajoutées, sélectionnez alors le type de sections **Waterlines**, accédez à la zone **Auto create** et définissez **5** (Z = 0 m ne sera pas considéré, ajoutez-le manuellement si vous en avez besoin), puis appuyez sur **Create sections**. Le tableau des sections est rempli et l\'aperçu des sections est mis à jour.
 
-Plusieurs lignes d\'eau supplémentaires doivent être ajoutées:
+Plusieurs lignes d\'eau supplémentaires doivent être ajoutées   *
 
 -   Z  6 \</ sub\> = 1,2 m
 -   Z  7 \</ sub\> = 1,4 m
@@ -195,7 +195,7 @@ Plusieurs lignes d\'eau supplémentaires doivent être ajoutées:
 
 ### Effectuer le tracé 
 
-Sélectionnez l\'échelle **1:100** et appuyez sur **Accept** pour laisser l\'outil générer les sections 3D dans un nouvel objet.
+Sélectionnez l\'échelle **1   *100** et appuyez sur **Accept** pour laisser l\'outil générer les sections 3D dans un nouvel objet.
 
 ![Resultant sections.](images/FreeCAD-Ship-S60Outline3DSections.png )
 
@@ -207,7 +207,7 @@ Sections résultantes
 
 </center>
 
-Pour tracer ces sections, vous pouvez utiliser l\'[Atelier Drawing](Drawing_Workbench/fr.md):
+Pour tracer ces sections, vous pouvez utiliser l\'[Atelier Drawing](Drawing_Workbench/fr.md)   *
 
 ![ centre \| Plan de traçage des contours.](images/_FreeCAD-Ship-S60OutlinePlot.png )
 
@@ -237,27 +237,27 @@ Lorsque l\'outil est exécuté, un dialogue de tâche s\'affiche et un aperçu d
 
 ### Données d\'entrée 
 
-Le tirant d\'eau et l\'assiette (angle de rotation du *bord y* de la coque, positif si le tirant d\'eau arrière peut augmenter) doivent être fournis. Plusieurs courbes de surface peuvent être réalisées, en fonction des situations de chargement du bateau, mais deux courbes types doivent être réalisées :
+Le tirant d\'eau et l\'assiette (angle de rotation du *bord y* de la coque, positif si le tirant d\'eau arrière peut augmenter) doivent être fournis. Plusieurs courbes de surface peuvent être réalisées, en fonction des situations de chargement du bateau, mais deux courbes types doivent être réalisées    *
 
--   Courbe de surface transversale de conception : Sans angle d\'assiette et en utilisant le tirant d\'eau de conception, 1,0 m dans ce cas.
--   Courbe des surfaces transversales du tirant d\'eau maximal : Sans angle d\'assiette et avec le tirant d\'eau maximal autorisé, 2,0 m dans ce cas.
+-   Courbe de surface transversale de conception    * Sans angle d\'assiette et en utilisant le tirant d\'eau de conception, 1,0 m dans ce cas.
+-   Courbe des surfaces transversales du tirant d\'eau maximal    * Sans angle d\'assiette et avec le tirant d\'eau maximal autorisé, 2,0 m dans ce cas.
 
 ### Données de sortie 
 
-Certaines données pertinentes sont affichées en temps réel:
+Certaines données pertinentes sont affichées en temps réel   *
 
--   **L**: Longueur entre les perpendiculaires, valeur définie lors de la création de l\'exemple du navire.
--   **B**: Largeur sélectionné lors de la création du navire.
--   **T**: projection actuelle au centre du navire.
--   **Trim**: angle de réglage.
--   **T~AP~**: après dessin perpendiculaire.
--   **T~FP~**: avant dessin perpendiculaire.
--   **Displacement**: déplacement de navire (eau salée considérée, diviser par 1,025 afin de connaître le volume déplacé).
--   **XCB**: coordonnée du point central de la flottabilité X (par rapport à la section du centre).
+-   **L**   * Longueur entre les perpendiculaires, valeur définie lors de la création de l\'exemple du navire.
+-   **B**   * Largeur sélectionné lors de la création du navire.
+-   **T**   * projection actuelle au centre du navire.
+-   **Trim**   * angle de réglage.
+-   **T~AP~**   * après dessin perpendiculaire.
+-   **T~FP~**   * avant dessin perpendiculaire.
+-   **Displacement**   * déplacement de navire (eau salée considérée, diviser par 1,025 afin de connaître le volume déplacé).
+-   **XCB**   * coordonnée du point central de la flottabilité X (par rapport à la section du centre).
 
 Lorsque le bouton **Accept** est pressé, un tracé est effectué (selon la complexité de la géométrie, cela peut prendre un certain temps, vous pouvez voir la progression sur le terminal, et arrêter le travail en appuyant sur **Ctrl**+**C**). Lorsque la tâche est terminée, FreeCAD génère un tracé (voir la documentation de l\'[atelier Plot](Plot_Workbench/fr.md)) et une feuille de calcul (voir la documentation de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md)).
 
-<img alt="Design draft transversal areas curve. " src=images/FreeCAD-Ship-s60Areas.png  style="width:800px;">
+<img alt="Design draft transversal areas curve. " src=images/FreeCAD-Ship-s60Areas.png  style="width   *800px;">
 
 
 <center>
@@ -285,7 +285,7 @@ Le calcul hydrostatiques est une étape critique de la conception du navire car 
 
 Lorsque l\'outil est exécuté, une boîte de dialogue de tâche s\'affiche. Habituellement, les courbes hydrostatiques sont présentées pour chaque angle de coupe, dans ce tutoriel, seul l\'angle de coupe verticale sera considéré (0º), avec un intervalle autour de chaque dessin de condition de chargement. Étant donné que nous ne savons pas quelles conditions de chargement nous pouvons obtenir, nous considérerons presque le contingent de possibilités (Habituellement, pour obtenir autant de résolution que possible, les architectes navals font correspondre l\'intervalle à des projets réalisables).
 
-Nous établissons donc les données suivantes:
+Nous établissons donc les données suivantes   *
 
 -   **Trim** = 0 deg
 -   **Minimum Draft** = 0.1 m
@@ -294,7 +294,7 @@ Nous établissons donc les données suivantes:
 
 Lorsque vous appuyez sur le bouton **Accept**, des tracés sont réalisés (voir la documentation de l\'[atelier Plot](Plot_Workbench/fr.md)) et une feuille de calcul est générée (voir la documentation de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md)).
 
-<img alt="Hydrostatics curves." src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width:800px;">
+<img alt="Hydrostatics curves." src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width   *800px;">
 
 
 <center>
@@ -307,6 +307,8 @@ Courbes Hydrostatiques.
 ## Continuer à apprendre 
 
 Le [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md) est le deuxième chapitre de la série 60 du bateau universitaire de l\'Iowa.
+
+[Category   *Ship](Category_Ship.md)
 
 
 

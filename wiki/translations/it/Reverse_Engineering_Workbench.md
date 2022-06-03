@@ -1,4 +1,4 @@
-# <img alt="L\'icona di Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/it
+# <img alt="L\'icona di Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width   *64px;"> Reverse Engineering Workbench/it
 
 ## Introduction
 
@@ -7,7 +7,7 @@
 
 ## Introduzione
 
-Il <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> Il [Ambiente Ingegneria inversa](Reverse_Engineering_Workbench/it.md) ha lo scopo di fornire strumenti specifici per convertire forme, solidi e mesh in funzioni parametriche di FreeCAD. È ancora in sviluppo.
+Il <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *24px;"> Il [Ambiente Ingegneria inversa](Reverse_Engineering_Workbench/it.md) ha lo scopo di fornire strumenti specifici per convertire forme, solidi e mesh in funzioni parametriche di FreeCAD. È ancora in sviluppo.
 
 
 </div>
@@ -24,11 +24,19 @@ Gli strumenti di Ingegneria inversa (RE) si trovano tutti nel menu RE e nella ba
 
 </div>
 
--   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Approssimare una superficie B-spline:
+-   <img alt="" src=images/FitSurface.svg  style="width   *32px;"> Approssimare una superficie B-spline   *
 
 ## Sviluppo
 
 Link a thread appropriati che discutono di questo ambiente
+
+
+
+
+
+
+
+[Category   *Reverse Engineering](Category_Reverse_Engineering.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

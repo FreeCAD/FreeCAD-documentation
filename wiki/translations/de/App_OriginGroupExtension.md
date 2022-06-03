@@ -6,7 +6,7 @@ Ein [App-Origin](App_OriginGroupExtension.md)-Object, oder formal `App   *   *Or
 <img alt="" src=images/Std_Part.svg  style="width   *16px;"> [Std-Part](Std_Part/de.md)-Objekte [(App-Part-Objekte)](App_Part/de.md) und <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [PartDesign-Body](PartDesign_Body/de.md)-Objekt werden standardmäßig mit Ursprungsobjekten erstellt. Wenn erforderlich, können Ursprungsobjekte auch den <img alt="" src=images/Assembly_Assembly_Tree.svg  style="width   *16px;"> [Baugruppen](Assembly3_CreateAssembly/de.md)-Objekten dem Arbeitsbereich <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *16px;"> [Assembly3](Assembly3_Workbench.md) hinzugefügt werden.
 
 <img alt="Tree view" src=images/App_OriginGroupExtension_example.png  style="width   *200px;"> <img alt="3D view" src=images/App_OriginGroupExtension-02.png  style="width   *400px;"> 
-*Links   * Die [Baumansicht](Tree_view/de.md) zeigt drei Objekte, die Ursprungsobjekte verwenden. Rechts   * Darstellung der Ursprungselemente in der [3D Ansicht](3D_view/de.md).*
+*Links   * Die [Baumansicht](Tree_view/de.md) zeigt drei Objekte, die Ursprungsobjekte verwenden. Rechts   * Darstellung der Ursprungselemente in der [3D-Ansicht](3D_view/de.md).*
 
 Die Achsen und Ebenen sind vom Typ `App   *   *Line` bzw. `App   *   *Plane`. Jedes dieser Elemente kann mit der **Leertaste** einzeln ein- bzw. ausgeblendet werden. Dies kann nützlich sein bei der Auswahl der richtigen Referenz für die Erstellung anderer Objekte, wie z. B. [Skizzen](Sketch/de.md).
 

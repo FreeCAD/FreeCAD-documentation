@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/ro
 ---
-- GuiCommand:   Name:Robot CreateTrajectory   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Create trajectory---
+- GuiCommand   *   Name   *Robot CreateTrajectory   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Robot → Create trajectory---
 
 
 </div>
@@ -20,7 +20,7 @@ Inserează un nou obiect tip traiectorie vidă în scenă.
 
 #### Utilizare
 
-Click pe <img alt="" src=images/Robot_CreateTrajectory.png  style="width:32px;"> or choose ** Robot** → **<img src="images/Robot_CreateTrajectory.png" width=32px> Create trajectory** din meniul principal.
+Click pe <img alt="" src=images/Robot_CreateTrajectory.png  style="width   *32px;"> or choose ** Robot** → **<img src="images/Robot_CreateTrajectory.png" width=32px> Create trajectory** din meniul principal.
 
 
 </div>

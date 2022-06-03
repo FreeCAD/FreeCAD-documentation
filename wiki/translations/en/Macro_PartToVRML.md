@@ -19,7 +19,7 @@ The icone ![](images/PartToVRML.png )
 **Macro\_PartToVRML.FCMacro**
 
 
-    # -*- coding: utf-8 -*-
+    # -*- coding   * utf-8 -*-
 
     # PartToVRML.FCMacro
     # creates VRML model of selected object(s), with colors (for Kicad and Blender compatibility)
@@ -28,20 +28,20 @@ The icone ![](images/PartToVRML.png )
 
     __title__ = "PartToVRML"
     __author__ = "easyw-fc, hyOzd"
-    __url__     = "http://www.freecadweb.org/"
+    __url__     = "http   *//www.freecadweb.org/"
     __version__ = "1.9.2"
     __date__    = "22/02/2016"
 
     __Comment__ = "This macro creates VRML model of selected object(s), with colors (for Kicad and Blender compatibility)"
-    __Web__ = "http://www.freecadweb.org/"
-    __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_PartToVRML"
+    __Web__ = "http   *//www.freecadweb.org/"
+    __Wiki__ = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_PartToVRML"
     __Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Macro_PartToVRML.png"
-    __IconW__  = "C:/Users/User Name/AppData/Roaming/FreeCAD/Macro_PartToVRML.png"
+    __IconW__  = "C   */Users/User Name/AppData/Roaming/FreeCAD/Macro_PartToVRML.png"
     __Help__ = "start the macro and follow the instructions"
     __Status__ = "stable"
     __Requires__ = "Freecad"
 
-    # FreeCAD VRML python exporter is free software: you can redistribute it
+    # FreeCAD VRML python exporter is free software   * you can redistribute it
     # and/or modify it under the terms of the GNU General Public License
     # as published by the Free Software Foundation, either version 3 of
     # the License, or (at your option) any later version.
@@ -53,7 +53,7 @@ The icone ![](images/PartToVRML.png )
     #
     # You should have received a copy of the GNU General Public License
     # along with expVrmlColor.FCMacro.  If not, see
-    # <http://www.gnu.org/licenses/>.
+    # <http   *//www.gnu.org/licenses/>.
 
     ## export VRML from FreeCAD is a python macro that will export simplified VRML of 
     ## a (multi)selected Part or fused Part to VRML optimized to Kicad and compatible with Blender
@@ -78,35 +78,35 @@ The icone ![](images/PartToVRML.png )
     r=mw.findChild(QtGui.QTextEdit, "Report view")
     r.clear()
 
-    def say(msg):
+    def say(msg)   *
         FreeCAD.Console.PrintMessage(msg)
         FreeCAD.Console.PrintMessage('\n')
 
-    # points: [Vector, Vector, ...]
-    # faces: [(pi, pi, pi), ], pi: point index
-    # color: (Red, Green, Blue), values range from 0 to 1.0
+    # points   * [Vector, Vector, ...]
+    # faces   * [(pi, pi, pi), ], pi   * point index
+    # color   * (Red, Green, Blue), values range from 0 to 1.0
     Mesh = namedtuple('Mesh', ['points', 'faces', 'color', 'transp'])
 
-    def shapeToMesh(shape, color, transp, scale=None):
-        mesh_deviation=0.03 #the smaller the best quality, 1 coarse; 0.03 good compromise :)
+    def shapeToMesh(shape, color, transp, scale=None)   *
+        mesh_deviation=0.03 #the smaller the best quality, 1 coarse; 0.03 good compromise    *)
         mesh_data = shape.tessellate(mesh_deviation)
         points = mesh_data[0]
-        if scale != None:
-            points = map(lambda p: p*scale, points)
+        if scale != None   *
+            points = map(lambda p   * p*scale, points)
         newMesh= Mesh(points = points,
                     faces = mesh_data[1],
                     color = color, transp=transp)
         return newMesh
             
-    def exportVRML(objects, filepath):
+    def exportVRML(objects, filepath)   *
         """Export given list of Mesh objects to a VRML file.
 
         Mesh structure is defined at root."""
 
-        with open(filepath, 'w') as f:
+        with open(filepath, 'w') as f   *
             # write the standard VRML header
             f.write("#VRML V2.0 utf8\n\n")
-            for obj in objects:
+            for obj in objects   *
                 f.write("Shape { geometry IndexedFaceSet \n{ coordIndex [")
                 # write coordinate indexes for each face
                 f.write(','.join("%d,%d,%d,-1" % f for f in obj.faces))
@@ -119,7 +119,7 @@ The icone ![](images/PartToVRML.png )
                 #shape_col=(1.0, 0.0, 0.0)#, 0.0)
                 f.write("}\n") # closes points
                 #say(obj.color)
-                shape_col=obj.color[:-1] #remove last item
+                shape_col=obj.color[   *-1] #remove last item
                 #say(shape_col)
                 shape_transparency=obj.transp
                 f.write("appearance Appearance{material Material{diffuseColor %f %f %f\n" % shape_col)
@@ -128,26 +128,26 @@ The icone ![](images/PartToVRML.png )
             say(filepath+' written')
     ###
 
-    def export(componentObjs, fullfilePathName, scale=None):
+    def export(componentObjs, fullfilePathName, scale=None)   *
         """ Exports given ComponentModel object using FreeCAD.
 
-        componentObjs : a ComponentObjs list
-        fullfilePathName : name of the FC file, extension is important
+        componentObjs    * a ComponentObjs list
+        fullfilePathName    * name of the FC file, extension is important
         
         """
         
         exp_name=componentObjs[0].Label
         path, fname = os.path.split(fullfilePathName)
         fname=os.path.splitext(fname)[0]
-        if scale != None:
+        if scale != None   *
             filename=path+os.sep+exp_name+'.wrl'
-        else:
+        else   *
             filename=path+os.sep+exp_name+'_1_1.wrl'
         say(filename)    
         color=[]
         Diffuse_color=[]
         transparency=[]
-        for obj in componentObjs:
+        for obj in componentObjs   *
             say(obj.Label)
             color.append(Gui.ActiveDocument.getObject(obj.Name).ShapeColor)
             transparency.append(Gui.ActiveDocument.getObject(obj.Name).Transparency/100.0)
@@ -161,31 +161,31 @@ The icone ![](images/PartToVRML.png )
         indexColor=0;
         color_vector=[]
         applyDiffuse=0
-        for obj in componentObjs:
+        for obj in componentObjs   *
             shape1=obj.Shape
             single_color=Diffuse_color[i];
             #check lenght color
             #say("len color")
             #say(len(single_color))
             #colors less then faces
-            if(len(single_color)!=len(shape1.Faces)):
+            if(len(single_color)!=len(shape1.Faces))   *
                 applyDiffuse=0;
                 #copy color to all faces
             #else copy singolar colors for faces
-            else:
+            else   *
                 applyDiffuse=1;
-                for color in single_color:
+                for color in single_color   *
                     color_vector.append(color)
             #say("color_vector")
             #say(color_vector)
-            for index in range(len(shape1.Faces)):
+            for index in range(len(shape1.Faces))   *
                 #say("color x")
                 #say(color_vector[indexColor])
                 singleFace=shape1.Faces[index]
-                if(applyDiffuse):
+                if(applyDiffuse)   *
                     #say(color_vector[indexColor])
                     meshes.append(shapeToMesh(singleFace, color_vector[indexColor], transparency[i], scale))
-                else:
+                else   *
                     #say(single_color[0])
                     meshes.append(shapeToMesh(singleFace, single_color[0], transparency[i], scale))
                 indexColor=indexColor+1
@@ -197,9 +197,9 @@ The icone ![](images/PartToVRML.png )
         return
     ###
 
-    def go_export():
+    def go_export()   *
         sel = FreeCADGui.Selection.getSelection()
-        if not sel:
+        if not sel   *
             FreeCAD.Console.PrintWarning("Select something first!\n\n")
             msg="export VRML from FreeCAD is a python macro that will export simplified VRML of "
             msg+="a (multi)selected Part or fused Part to VRML optimized to Kicad and compatible with Blender "
@@ -207,9 +207,9 @@ The icone ![](images/PartToVRML.png )
             msg+="and the loading/rendering time is also smaller\n"
             msg+="change mesh deviation to increase quality of VRML"
             say(msg)
-        else:
+        else   *
             objs = []
-            for obj in sel:
+            for obj in sel   *
                     objs.append(obj)
                     #say(obj.Label)
                     #say(obj.Name)
@@ -219,14 +219,14 @@ The icone ![](images/PartToVRML.png )
             export(objs, fullFilePathName, 0.3937)
         
     doc = FreeCAD.ActiveDocument
-    if doc!=None:
+    if doc!=None   *
         fullFilePathName=doc.FileName
-        if fullFilePathName=="":
+        if fullFilePathName==""   *
             home = expanduser("~")
             fullFilePathName=home+os.sep+doc.Label+'.FCStd'
             say('path not found, saving to '+fullFilePathName)
             #say(fullFilePathName)
-        else:
+        else   *
             fullFilePathName = os.path.dirname(os.path.abspath(fullFilePathName))
             fullFilePathName=fullFilePathName+os.sep+doc.Label+'.FCStd'
             say(fullFilePathName)
@@ -234,7 +234,7 @@ The icone ![](images/PartToVRML.png )
 
 ## Links
 
-The forum discussion [export VRML from FreeCAD with python for smaller size, kicad and Blender compatible](http://forum.freecadweb.org/viewtopic.php?f=22&t=14099)
+The forum discussion [export VRML from FreeCAD with python for smaller size, kicad and Blender compatible](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=14099)
 
 The macro reverse, [Macro\_MeshToPart](Macro_MeshToPart.md)
 

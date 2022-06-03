@@ -1,6 +1,6 @@
 # Robot InsertWaypointPre/ro
 ---
-- GuiCommand:   Name:Robot InsertWaypointPre   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Insert in trajectory   Shortcut:W   SeeAlso:
+- GuiCommand   *   Name   *Robot InsertWaypointPre   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Robot → Insert in trajectory   Shortcut   *W   SeeAlso   *
 
 
 </div>
@@ -33,7 +33,7 @@ Press ** W** to insert this waypoint into the selected trajectory.
 
 #### Note
 
-Obeictele selectabile sunt:
+Obeictele selectabile sunt   *
 
 -   corners of solids
 -   points inserted via the draft workbench

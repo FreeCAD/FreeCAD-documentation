@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Показать/скрыть гребень кривизны B-сплайна
-   Name:Sketcher_BSplineComb
-   MenuLocation:Sketch → B-сплйан инструменты эскиза → Показать/скрыть гребень кривизны B-сплайна
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Показать/скрыть гребень кривизны B-сплайна
+   Name   *Sketcher_BSplineComb
+   MenuLocation   *Sketch → B-сплйан инструменты эскиза → Показать/скрыть гребень кривизны B-сплайна
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Version   *0.17
+   SeeAlso   *[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
 # Sketcher BSplineComb/ru
@@ -25,7 +25,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  Выберите B-сплайн
-2.  Используйте кнопку панели инструментов **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Показать/скрыть гребень кривизны B-сплайна](Sketcher_BSplineComb/ru.md)**, либо выберите пункт меню **Sketch → B-сплйан инструменты эскиза → Показать/скрыть гребень кривизны B-сплайна**.
+2.  Используйте кнопку панели инструментов **[<img src=images/Sketcher_BSplineComb.svg style="width   *16px"> [Показать/скрыть гребень кривизны B-сплайна](Sketcher_BSplineComb/ru.md)**, либо выберите пункт меню **Sketch → B-сплйан инструменты эскиза → Показать/скрыть гребень кривизны B-сплайна**.
 
 
 </div>

@@ -1,6 +1,6 @@
 # Sketcher CreateOctagon/it
 ---
-- GuiCommand:/it   Name:Sketcher CreateOctagon   Name/it:Ottagono   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Ottagono   Shortcut:   SeeAlso:   Version:0.15---
+- GuiCommand   */it   Name   *Sketcher CreateOctagon   Name/it   *Ottagono   Workbenches   *[[Sketcher Workbench/it   Sketcher]]|MenuLocation   *Sketch → Geometrie → Ottagono   Shortcut   *   SeeAlso   *   Version   *0.15---
 
 
 </div>
@@ -22,7 +22,7 @@ Disegna un ottagono inscritto nella circonferenza che costituisce la sua geometr
 
 <div class="mw-translate-fuzzy">
 
--   Premere il pulsante **[<img src=images/Sketcher_CreateOctagon.svg style="width:16px"> Crea ottagono**,
+-   Premere il pulsante **[<img src=images/Sketcher_CreateOctagon.svg style="width   *16px"> Crea ottagono**,
 -   Cliccare un punto per definire il centro,
 -   Muovere il mouse e cliccare per stabilire uno dei vertici.
 -   Premere **Esc** o cliccare sul tasto destro del nouse per uscire dalla funzione.

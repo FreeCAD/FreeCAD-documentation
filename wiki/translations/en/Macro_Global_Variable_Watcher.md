@@ -6,7 +6,7 @@
 |Version=1.0
 |Date=2015-02-09
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/c/c1/Macro_Global_Variable_Watcher.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/c/c1/Macro_Global_Variable_Watcher.png ToolBar Icon]
 }}
 
 ## Description
@@ -42,7 +42,7 @@ ToolBar Icon ![](images/Macro_Global_Variable_Watcher.png )
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 #
 #           Variable Watcher
 #           displays variables of the form FreeCAD.*,
@@ -64,12 +64,12 @@ from PySide import QtGui, QtCore
 
 # UI Class definitions
 
-class VariableWatcher(QtGui.QDialog):
+class VariableWatcher(QtGui.QDialog)   *
     """"""
-    def __init__(self):
+    def __init__(self)   *
         super(VariableWatcher, self).__init__()
         self.initUI()
-    def initUI(self):
+    def initUI(self)   *
         column1LH   = 10
         column2LH   = 350
         headerY     = 20
@@ -170,80 +170,80 @@ class VariableWatcher(QtGui.QDialog):
 
         self.show()
         #
-    def onIntervalActivated(self, text):
-        self.interval = textdef onTimerOffRB(self):
+    def onIntervalActivated(self, text)   *
+        self.interval = textdef onTimerOffRB(self)   *
         # don't do much, this button serves as a semaphore for the timer routine
         pass
 
-    def onTimerOnRB(self):
+    def onTimerOnRB(self)   *
         # launch timer routine which is based on the Off radio button
         self.timerRoutine()
 
-    def timerRoutine(self):
-        if self.timerOnRB.isChecked():
+    def timerRoutine(self)   *
+        if self.timerOnRB.isChecked()   *
             # if the On button is still checked then launch another timer event
             #print self.interval
             Timer(float(self.interval), self.timerRoutine, ()).start()
             #Timer(2, self.timerRoutine, ()).start()
-        else:
+        else   *
             FreeCAD.Console.PrintMessage("Timer ceasing\n")
         # now do what should be done
         self.timerRoutineActions()
 
-    def timerRoutineActions(self):
+    def timerRoutineActions(self)   *
         global watchedVariables
-        if len(watchedVariables)>0:
+        if len(watchedVariables)>0   *
             self.displayVariables()
-        else:
+        else   *
             FreeCAD.Console.PrintMessage("Timer found no variables\n")
         self.timestamp()
 
-    def timestamp(self):
-        self.timestampLbl.setText(datetime.now().strftime('%H:%M:%S'))
+    def timestamp(self)   *
+        self.timestampLbl.setText(datetime.now().strftime('%H   *%M   *%S'))
 
-    def onDisplayNow(self):
+    def onDisplayNow(self)   *
         self.timestamp()
-        if len(watchedVariables)>0:
+        if len(watchedVariables)>0   *
             self.displayVariables()
-        else:
+        else   *
             FreeCAD.Console.PrintMessage("Found no variables\n")
 
-    def onMenuChoice(self,aChoice):
+    def onMenuChoice(self,aChoice)   *
         # handle the user choice from the list of FreeCAD global variables
-        if aChoice==topOfMenuChoices:
+        if aChoice==topOfMenuChoices   *
             # wants to update list of Global variable in FreeCAD
             self.globVarPopupItems  = fcGlobalVars()
             self.globVar.clear()
             self.globVar.addItems(self.globVarPopupItems)
-        else:
-            if hasattr(FreeCAD,aChoice):
+        else   *
+            if hasattr(FreeCAD,aChoice)   *
                 varStr = "FreeCAD."+aChoice
                 exec "varVal = "+varStr
                 exec "dataTypeStr = str(type(" + varStr + "))"
                 self.addVariable(varStr,varVal.__repr__())
 
-    def addVariable(self, aNameStr, aValueStr):
+    def addVariable(self, aNameStr, aValueStr)   *
         global watchedVariables
-        if len(watchedVariables)<watchVariableLimit:
+        if len(watchedVariables)<watchVariableLimit   *
             # screen limited in size for now
-            if aNameStr not in watchedVariables.keys():
+            if aNameStr not in watchedVariables.keys()   *
                 # prevent adding same variable twice
                 watchedVariables[aNameStr] = aValueStr
                 self.displayVariables()
         
-    def onRemoveVariable(self):
+    def onRemoveVariable(self)   *
         global watchedVariables
-        if self.name1.underMouse() or self.value1.underMouse():
+        if self.name1.underMouse() or self.value1.underMouse()   *
             variableToRemove = self.name1.text()
-        if self.name2.underMouse() or self.value2.underMouse():
+        if self.name2.underMouse() or self.value2.underMouse()   *
             variableToRemove = self.name2.text()
-        if self.name3.underMouse() or self.value3.underMouse():
+        if self.name3.underMouse() or self.value3.underMouse()   *
             variableToRemove = self.name3.text()
         #print variableToRemove
         watchedVariables.pop(variableToRemove)
         self.displayVariables()
 
-    def displayVariables(self):
+    def displayVariables(self)   *
         global watchedVariables
         
         sortedKeys = watchedVariables.keys()
@@ -260,28 +260,28 @@ class VariableWatcher(QtGui.QDialog):
         self.name5.setText("")
         self.value5.setText("")
         # now display variable names and values
-        # use 'if hasattr(FreeCAD,"ABC"):' to ensure that variable still exists
-        for i in range(0,min(len(watchedVariables),5)):
+        # use 'if hasattr(FreeCAD,"ABC")   *' to ensure that variable still exists
+        for i in range(0,min(len(watchedVariables),5))   *
             aNameStr = sortedKeys[i]
             exec "aValueStr = "+aNameStr+".__repr__()"
             #print aNameStr, " ", aValueStr
-            if i==0:
+            if i==0   *
                 self.name1.setText(aNameStr)
                 self.value1.setText(aValueStr)
-            elif i==1:
+            elif i==1   *
                 self.name2.setText(aNameStr)
                 self.value2.setText(aValueStr)
-            elif i==2:
+            elif i==2   *
                 self.name3.setText(aNameStr)
                 self.value3.setText(aValueStr)
-            elif i==3:
+            elif i==3   *
                 self.name4.setText(aNameStr)
                 self.value4.setText(aValueStr)
-            elif i==4:
+            elif i==4   *
                 self.name5.setText(aNameStr)
                 self.value5.setText(aValueStr)
 
-    def onCancel(self):
+    def onCancel(self)   *
         # need to shut down timer if running
         self.close()
 
@@ -289,19 +289,19 @@ class VariableWatcher(QtGui.QDialog):
 
 # Functions definitions
 
-def fcGlobalVars():
+def fcGlobalVars()   *
     varDict = list()
     varDict.append(topOfMenuChoices)
-    for i in FreeCAD.__dict__.keys():
+    for i in FreeCAD.__dict__.keys()   *
         typeStr = type(FreeCAD.__dict__[i])
         # disregard functions or methods, module
-        if str(typeStr) in ("<type 'type'>","<type 'builtin_function_or_method'>","<type 'module'>"):
+        if str(typeStr) in ("<type 'type'>","<type 'builtin_function_or_method'>","<type 'module'>")   *
             pass
-        else:
+        else   *
             # ignore reserved variable names
-            if str(i) in ("PythonAssistantWindowStatus","GuiUp","ActiveDocument", "__path__", "__package__", "__doc__", "__name__"):
+            if str(i) in ("PythonAssistantWindowStatus","GuiUp","ActiveDocument", "__path__", "__package__", "__doc__", "__name__")   *
                 pass
-            else:
+            else   *
                 varDict.append(i)
     return varDict
 
@@ -318,16 +318,16 @@ watchVariableLimit = 5 # number of lines on screen
 form = VariableWatcher()
 form.exec_()
 #
-#OS: Mac OS X
-#Word size: 64-bit
-#Version: 0.14.3703 (Git)
-#Branch: releases/FreeCAD-0-14
-#Hash: c6edd47334a3e6f209e493773093db2b9b4f0e40
-#Python version: 2.7.5
-#Qt version: 4.8.6
-#Coin version: 3.1.3
-#SoQt version: 1.5.0
-#OCC version: 6.7.0
+#OS   * Mac OS X
+#Word size   * 64-bit
+#Version   * 0.14.3703 (Git)
+#Branch   * releases/FreeCAD-0-14
+#Hash   * c6edd47334a3e6f209e493773093db2b9b4f0e40
+#Python version   * 2.7.5
+#Qt version   * 4.8.6
+#Coin version   * 3.1.3
+#SoQt version   * 1.5.0
+#OCC version   * 6.7.0
 #
 #thus ends the macro...
 }}

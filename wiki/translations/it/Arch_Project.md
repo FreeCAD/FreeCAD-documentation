@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch Project
-   Name/it:Progetto
-   MenuLocation:Arch → Progetto
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**P** **O**
-   SeeAlso:[Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md)
+- GuiCommand   */it
+   Name   *Arch Project
+   Name/it   *Progetto
+   MenuLocation   *Arch → Progetto
+   Workbenches   *[Arch](Arch_Workbench/it.md)
+   Shortcut   ***P** **O**
+   SeeAlso   *[Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md)
 ---
 
 # Arch Project/it
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Progetto di Arch è un oggetto speciale ch epermette di migliorare la compatibilità con i file [IFC](Arch_IFC/it.md). Ogni file IFC deve contenere un\'entità [IfcProject](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm). IfcProject viene utilizzato principalmente per definire le impostazioni generali del progetto come i sistemi di proiezione, la compatibilità GIS o i sistemi di unità di misura.
+Progetto di Arch è un oggetto speciale ch epermette di migliorare la compatibilità con i file [IFC](Arch_IFC/it.md). Ogni file IFC deve contenere un\'entità [IfcProject](https   *//standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm). IfcProject viene utilizzato principalmente per definire le impostazioni generali del progetto come i sistemi di proiezione, la compatibilità GIS o i sistemi di unità di misura.
 
 
 </div>

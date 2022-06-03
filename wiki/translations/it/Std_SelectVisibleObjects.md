@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Std SelectVisibleObjects
-   Name/it:Std SelectVisibleObjects
-   Empty:1
-   MenuLocation:Visualizza → Visibilità → Seleziona gli oggetti visibili
-   Workbenches:Tutti
+- GuiCommand   */it
+   Name   *Std SelectVisibleObjects
+   Name/it   *Std SelectVisibleObjects
+   Empty   *1
+   MenuLocation   *Visualizza → Visibilità → Seleziona gli oggetti visibili
+   Workbenches   *Tutti
 ---
 
 # Std SelectVisibleObjects/it
@@ -14,7 +14,7 @@
 
 ## Descrizione
 
-The **Std SelectVisibleObjects** command selects all visible objects. Note that for each [PartDesign body](PartDesign_Body.md) typically two objects will be selected: the body itself and its **Tip** object.
+The **Std SelectVisibleObjects** command selects all visible objects. Note that for each [PartDesign body](PartDesign_Body.md) typically two objects will be selected   * the body itself and its **Tip** object.
 
 ## Utilizzo
 

@@ -1,6 +1,6 @@
 # Robot SetHomePos/ro
 ---
-- GuiCommand:   Name:Robot SetHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Set home position---
+- GuiCommand   *   Name   *Robot SetHomePos   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Robot → Set home position---
 
 
 </div>
@@ -21,7 +21,7 @@ Definește poziția / orientarea curentă a robotului selectat ca poziție iniț
 #### Utilizare
 
 1.  Select robot in the tree-view or in the 3D-view
-2.  Click on <img alt="" src=images/Robot_SetHomePos.png  style="width:32px;"> or choose ** Robot** → **<img src="images/Robot_SetHomePos.png" width=32px> Set the home position** from the top menu.
+2.  Click on <img alt="" src=images/Robot_SetHomePos.png  style="width   *32px;"> or choose ** Robot** → **<img src="images/Robot_SetHomePos.png" width=32px> Set the home position** from the top menu.
 
 
 </div>

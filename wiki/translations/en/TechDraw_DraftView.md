@@ -1,16 +1,16 @@
 ---
-- GuiCommand:
-   Name:TechDraw DraftView
-   MenuLocation:TechDraw → Insert Draft Workbench Object
-   Workbenches:[TechDraw](TechDraw_Workbench.md), [Draft](Draft_Workbench.md)
-   SeeAlso:[TechDraw Arch View](TechDraw_ArchView.md)
+- GuiCommand   *
+   Name   *TechDraw DraftView
+   MenuLocation   *TechDraw → Insert Draft Workbench Object
+   Workbenches   *[TechDraw](TechDraw_Workbench.md), [Draft](Draft_Workbench.md)
+   SeeAlso   *[TechDraw Arch View](TechDraw_ArchView.md)
 ---
 
 # TechDraw DraftView/en
 
 ## Description
 
-The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See Notes.
+The <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See Notes.
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Draft elements like circles and arrays imported into a TechDraw drawing page*
@@ -31,39 +31,39 @@ The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), ther
 -   Creating a DraftView of a layer will recursively handle all objects found in that layer. The View is updated automatically when the contents of the layer changes
 -   There is no hidden line removal. Each face found in the handled object(s) will simply be projected along the Direction vector, no specific action is taken when faces overlap
 -   The Draft View also supports all Draft objects that are not Part-based, such as dimensions and texts
--   Color, line width and line pattern can be specified in the properties. Line patterns can be fine-tuned by directly giving a [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties) value, such as 3,5
+-   Color, line width and line pattern can be specified in the properties. Line patterns can be fine-tuned by directly giving a [stroke-dasharray](https   *//www.w3.org/TR/SVG/painting.html#StrokeProperties) value, such as 3,5
 -   Projected faces are filled with the face color
 
 ## Properties
 
--    **Source**: The Draft object to be displayed
+-    **Source**   * The Draft object to be displayed
 
--    **LineWidth**: The width of the lines, independently of the scale
+-    **LineWidth**   * The width of the lines, independently of the scale
 
--    **FontSize**: The size of all texts appearing in this view (texts and dimensions)
+-    **FontSize**   * The size of all texts appearing in this view (texts and dimensions)
 
--    **Direction**: The projection direction to use
+-    **Direction**   * The projection direction to use
 
--    **Color**: The color of lines
+-    **Color**   * The color of lines
 
--    **LineStyle**: A line style to use for this view. Can be Solid, Dashed, Dashdot, Dot or a SVG line pattern like 0.20,0.20
+-    **LineStyle**   * A line style to use for this view. Can be Solid, Dashed, Dashdot, Dot or a SVG line pattern like 0.20,0.20
 
--    **LineSpacing**: The spacing to use between lines of texts for multiline texts
+-    **LineSpacing**   * The spacing to use between lines of texts for multiline texts
 
-Note: Draft View inherits all applicable basic View properties.
+Note   * Draft View inherits all applicable basic View properties.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The New Draft tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The New Draft tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dv = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDraft','TestDraft')
+dv = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDraft','TestDraft')
 dv.Source = myDraftbject
 rc = page.addView(dv)
 ```

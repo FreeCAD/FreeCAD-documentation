@@ -268,241 +268,241 @@ Estamos contentos de que el proyecto [KiCad](https   *//www.kicad.org/), a trav�
 
 ### Otras mejoras de FEM 
 
--   **Important   *** Starting from this release, FreeCAD will use SI units (m, kg, s, K, A, mol, cd) to write the [Elmer solver](FEM_SolverElmer.md) input files (*case.sif* and *mesh.nodes*). This is independent of the used FreeCAD [unit system](Preferences_Editor#Units.md).
--   **Important   *** Starting from this release, the scale of [result pipelines](FEM_PostPipelineFromResult.md) and their [filters](FEM_Workbench#Menu__Results.md) will use SI units (m, kg, s, K, A, mol, cd). So the displacement is given in meter, the stress in Pascal. This applies for all SI-derived FreeCAD [unit systems](Preferences_Editor#Units.md).
--   Solving with the [Calculix](FEM_SolverCalculixCxxtools.md) solver now uses all CPU cores. [Pull request \#6374](https   *//github.com/FreeCAD/FreeCAD/pull/6374)
--   Meshing with [Gmsh](FEM_MeshGmshFromShape.md) now uses all CPU cores. [Pull request \#6370](https   *//github.com/FreeCAD/FreeCAD/pull/6370)
--   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [Pull request \#4660](https   *//github.com/FreeCAD/FreeCAD/pull/4660)
--   A new constraint was added   * **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintCentrif.svg style="width   *16px"> [Constraint Centrif](FEM_ConstraintCentrif.md)**. [Pull request \#4738](https   *//github.com/FreeCAD/FreeCAD/pull/4738)
--   A new solver was added   * **Solve → [<img src=images/FEM_SolverMystran.svg style="width   *16px"> [Solver Mystran](FEM_SolverMystran.md)**. Multiple commits.
--   A new constraint was added   * **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width   *16px"> [Constraint Spring](FEM_ConstraintSpring.md)**. [Pull request \#4982](https   *//github.com/FreeCAD/FreeCAD/pull/4982)
--   It is now possible to have [result pipelines](FEM_PostPipelineFromResult.md) with several filters, where some take other filters as input, some take the results directly from the pipeline. [commit 708a300b](https   *//github.com/FreeCAD/FreeCAD/commit/708a300b)
--   Material cards can now contain values for the electrical conductivity. [Pull request \#4647](https   *//github.com/FreeCAD/FreeCAD/pull/4647)
--   Material cards added for Nitrogen and Argon. [Pull request \#4649](https   *//github.com/FreeCAD/FreeCAD/pull/4649)
--   Support for the [Gmsh](FEM_MeshGmshFromShape.md) mesh algorithms \"HXT\" (3D) and \"Packing Parallelograms\" (2D) added. [Pull request \#4654](https   *//github.com/FreeCAD/FreeCAD/pull/4654)
--   Allow to set for the [Gmsh](FEM_MeshGmshFromShape#Properties.md) property **High Order Optimize** a certain algorithm. [Pull request \#4705](https   *//github.com/FreeCAD/FreeCAD/pull/4705)
--   Nonlinear solid materials with simple hardening can now have an arbitrary number of yield points. [Pull request \#5024](https   *//github.com/FreeCAD/FreeCAD/pull/5024)
--   Allow modal adding/removal of geometric entities to constraints acting on boundaries. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
--   Most FEM constraint dialogs now behave uniformly and provide the same 3D object selection features. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
+-   **Importante   *** A partir de esta versión, FreeCAD utilizará las unidades del SI (m, kg, s, K, A, mol, cd) para escribir los archivos de entrada [Solucionador Elmer](FEM_SolverElmer.md) (\'\' case.sif\'\' y *mesh.nodes*). Esto es independiente del [Sistema de unidades](Preferences_Editor#Units.md) de FreeCAD.
+-   **Importante   *** A partir de esta versión, la escala de [resultados de pipelines](FEM_PostPipelineFromResult.md) y sus [filtros](FEM_Workbench#Menu__Results.md) usarán las unidades del SI (m, kg, s, K , A, mol, cd). Entonces el desplazamiento se da en metros, la tensión en Pascal. Esto se aplica a todos los [sistemas de unidades](Preferences_Editor#Units.md) derivados del SI FreeCAD .
+-   Resolver con el solucionador [Calculix](FEM_SolverCalculixCxxtools.md) ahora usa todos los núcleos de la CPU. [Pull request \#6374](https   *//github.com/FreeCAD/FreeCAD/pull/6374)
+-   Hacer mallas con [Gmsh](FEM_MeshGmshFromShape.md) ahora usa todos los núcleos de la CPU. [Pull request \#6370](https   *//github.com/FreeCAD/FreeCAD/pull/6370)
+-   El orden de los elementos de las mallas [Gmsh](FEM_MeshGmshFromShape.md) se puede cambiar a través de la ventana de diálogo de malla. [Pull request \#4660](https   *//github.com/FreeCAD/FreeCAD/pull/4660)
+-   Se agregó una nueva restricción   * **Modelo → Restricciones mecánicas → [<img src=images/FEM_ConstraintCentrif.svg style="width   *16px"> [Restricción centrífuga](FEM_ConstraintCentrif.md)**. [Pull request \#4738](https   *//github.com/FreeCAD/FreeCAD/pull/4738)
+-   Se agregó un nuevo solucionador   * **Solve → [<img src=images/FEM_SolverMystran.svg style="width   *16px"> [Solucinoador Mystran](FEM_SolverMystran.md)**. Multiple commits.
+-   Se agregó una nueva restricción   * **Modelo → Restricciones mecánicas → [<img src=images/FEM_ConstraintSpring.svg style="width   *16px"> [Restricción de resorte](FEM_ConstraintSpring.md)**. [Pull request \#4982](https   *//github.com/FreeCAD/FreeCAD/pull/4982)
+-   Ahora es posible tener [resultados de pipelines](FEM_PostPipelineFromResult.md) con varios filtros, donde algunos toman otros filtros como entrada, algunos toman los resultados directamente del pipeline. [commit 708a300b](https   *//github.com/FreeCAD/FreeCAD/commit/708a300b)
+-   Las tarjetas de materiales ahora pueden contener valores para la conductividad eléctrica. [Pull request \#4647](https   *//github.com/FreeCAD/FreeCAD/pull/4647)
+-   Se agregaron tarjetas de materiales para nitrógeno y argón. [Pull request \#4649](https   *//github.com/FreeCAD/FreeCAD/pull/4649)
+-   Se agregó soporte para los algoritmos de malla [Gmsh](FEM_MeshGmshFromShape.md) \"HXT\" (3D) y \"Packing Parallelograms\" (2D). [Pull request \#4654](https   *//github.com/FreeCAD/FreeCAD/pull/4654)
+-   Se permitió establecer para la propiedad de [Gmsh](FEM_MeshGmshFromShape#Properties.md) **High Order Optimize** un algoritmo determinado. [Pull request \#4705](https   *//github.com/FreeCAD/FreeCAD/pull/4705)
+-   Los materiales sólidos no lineales con endurecimiento simple ahora pueden tener un número arbitrario de puntos de fluencia. [Pull request \#5024](https   *//github.com/FreeCAD/FreeCAD/pull/5024)
+-   Permitir la adición/eliminación modal de entidades geométricas a las restricciones que actúan sobre los límites. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
+-   La mayoría de los cuadros de diálogo de restricciones FEM ahora se comportan de manera uniforme y brindan las mismas funciones de selección de objetos 3D. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
 
-## Import
+## Importar
 
-## Export
+## Exportar
 
--   DXF   * The missing unit block was added to the header14.rub file. [Pull request \#5793](https   *//github.com/FreeCAD/FreeCAD/issues/5793)
+-   DXF   * El bloque de unidad faltante se agregó al archivo header14.rub. [Pull request \#5793](https   *//github.com/FreeCAD/FreeCAD/issues/5793)
 
 ## Malla
 
-### Improved support for NASTRAN GRID elements 
+### Compatibilidad mejorada con los elementos NASTRAN GRID 
 
-The Mesh import tool now supports the high-precision \"GRID\*\" element. The standard-precision \"GRID\" element was also improved, now supporting both space-delimited numeric input as well as fixed-field-width input, per the NASTRAN95 format documentation.
+La herramienta de importación de malla ahora es compatible con el elemento \"GRID\*\" de alta precisión. También se mejoró el elemento \"GRID\" de precisión estándar, que ahora admite tanto la entrada numérica delimitada por el espacio como la entrada de ancho de campo fijo, según la documentación del formato NASTRAN95.
 
 ### Otras mejoras de Mesh 
 
-Fixed false negatives during self-intersection tests when facets are coplanar   * [Pull request \#5002](https   *//github.com/FreeCAD/FreeCAD/pull/5002).
+Se corrigieron falsos negativos durante las pruebas de autointersección cuando las caras son coplanares   * [Pull request \#5002](https   *//github.com/FreeCAD/FreeCAD/pull/5002).
 
 ## Ambiente de Trabajo OpenSCAD 
 
-Interoperability with OpenSCAD has been improved, adding support for several operations missing from earlier versions (linear extrude with rotations, rotational extrusions). Several operations are modified to provide improved FreeCAD object equivalents, particularly for twisted extrusions. Surface generation from discrete data was modified to give more OpenSCAD-like results, rather than splined surfaces.
+Se ha mejorado la interoperabilidad con OpenSCAD, añadiendo soporte para varias operaciones faltantes en versiones anteriores (extrusión lineal con rotaciones, extrusiones rotacionales). Varias operaciones se modificaron para proporcionar mejores objetos FreeCAD equivalentes, particularmente para extrusiones retorcidas. La generación de superficies a partir de datos discretos se modificó para dar resultados más similares a OpenSCAD, en lugar de superficies con splines.
 
-New options were added to support running either FreeCAD, OpenSCAD, or both, in sandboxed environments such as AppImages and Snap packages   * data can now be transferred to and from OpenSCAD via the standard temporary directory mechanism, via a user-specified temp directory that both executables have access to, or new to OpenSCAD 2021.1, via a \"stdout pipe\" mechanism, bypassing temporary files entirely.
+Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o ambos, en entornos de espacio aislado como AppImages y paquetes Snap   * los datos ahora se pueden transferir hacia y desde OpenSCAD a través del mecanismo de directorio temporal estándar, a través de un directorio temporal especificado por el usuario al que ambos ejecutables tienen acceso, o nuevo en OpenSCAD 2021.1, a través de un mecanismo de \"stdout pipe\", omitiendo por completo los archivos temporales.
 
-**Add OpenSCAD element** - now has additional options
+**Añadir elemento OpenSCAD** - ahora tiene opcones adicionales
 
-Load    - load a scad file
-Save    - save a scad file
-Refresh - Update FreeCAD view
-Clear   - Clear text input
+Cargar    - carga un archivo scad
+Guardar   - guarda un archivo scad
+Refrescar - actualiza la vista de FreeCAD
+Limpiar   - limpia el texto de entrada
 
-There is also a text box for feedback of OpenSCAD errors.
+También hay un cuadro de texto para comentarios de errores de OpenSCAD.
 
 ![](images/OpenSCAD_AddElement_relnotes_0.20.png )
 
-## Ambiente de Trabajo Pieza 
+## Ambiente de Trabajo Part 
 
    
-  <img alt="" src=images/Part_Extrusion-inner-structures_relnotes_0.20.png  style="width   *384px;">Tapered extrusion of a sketch with an inner structure.   A tapered [extrusion](Part_Extrude.md) of inner structures now creates usable results. Previously, inner structures were extruded as if they were stand-alone and not part of a structure. [Pull request \#5367](https   *//github.com/FreeCAD/FreeCAD/pull/5367)
+  <img alt="" src=images/Part_Extrusion-inner-structures_relnotes_0.20.png  style="width   *384px;">Extrusión cónica de un croquis con una estructura interna.   La [extrusión](Part_Extrude.md) cónica de estructuras internas ahora crea resultados utilizables. Anteriormente, las estructuras internas se extruían como si fueran independientes y no fueran parte de una estructura.. [Pull request \#5367](https   *//github.com/FreeCAD/FreeCAD/pull/5367)
    
 
 ### Otras mejoras de Part 
 
--   The dialog to edit [Cylinders](Part_Cylinder.md) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)
--   The following commands now support App   *   *Links   * [Loft](Part_Loft.md), [Sweep](Part_Sweep.md), [Extrude](Part_Extrude.md), [Revolve](Part_Revolve.md), [Reverse shapes](Part_ReverseShapes.md), [Mirror](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Check Geometry](Part_CheckGeometry.md), [Ruled Surface](Part_RuledSurface.md), [Cross-sections](Part_CrossSections.md), and [Thickness](Part_Thickness.md). [Pull request \#6478](https   *//github.com/FreeCAD/FreeCAD/pull/6478)
+-   El diálogo para editar [Cilindros](Part_Cylinder.md) ahora permite especificar un ángulo relativo a la normal de el plano seleccionado. De esta manera se pueden crear cilindros oblicuos. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)
+-   Los siguientes comandos ahora soportan App   *   *Links   * [Puente](Part_Loft.md), [Barrido](Part_Sweep.md), [Extruir](Part_Extrude.md), [Revolución](Part_Revolve.md), [Invertir formas](Part_ReverseShapes.md), [Espejo](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Comprobar geometría](Part_CheckGeometry.md), [Superficie reglada](Part_RuledSurface.md), [Cortes transversales](Part_CrossSections.md), y [Espesor](Part_Thickness.md). [Pull request \#6478](https   *//github.com/FreeCAD/FreeCAD/pull/6478)
 
-### Ambiente de Trabajo DiseñoPieza 
+## Ambiente de Trabajo PartDesign 
 
 +++
-| <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width   *384px;">Padding along an edge from the model.Click on the image to see the animation.                                                                      | There is a new option to pad along the direction of an edge in the 3D model. [Pull request \#4685](https   *//github.com/FreeCAD/FreeCAD/pull/4685)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width   *384px;">Extruir a lo largo del un borde del modelo.Clic en la imagen para ver la animación.                                                                          | Hay una nueva opción para extruir a lo largo de la dirección de un borde en el modelo 3D. [Pull request \#4685](https   *//github.com/FreeCAD/FreeCAD/pull/4685)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-| <img alt="" src=images/PartDesign_Chamfer_Face_Selection_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                           | When Distance and Angle is specified in the [Chamfer](PartDesign_Chamfer.md) tool and faces are selected, the distance will be applied along the selected faces. Likewise if two distances are specified then Size 1 will be applied along the selected face. This behaviour can be swapped to the other face using the flip direction button. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=62084), [Pull request \#5039](https   *//github.com/FreeCAD/FreeCAD/pull/5039)                                                                                                                                                                                                                                                                     |
+| <img alt="" src=images/PartDesign_Chamfer_Face_Selection_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                                     | Cuando la distancia y el ángulo es especificadoo en la herramienta [Chaflán](PartDesign_Chamfer.md) y las caras son seleccionadas, la distancia se aplicará a lo largo de las caras seleccionadas. Del mismo modo, si se especifican dos distancias, se aplicará el tamaño 1 a lo largo de la cara seleccionada. Este comportamiento se puede cambiar a la otra cara utilizando el botón de dirección de giro. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=62084), [Pull request \#5039](https   *//github.com/FreeCAD/FreeCAD/pull/5039)                                                                                                                                                                                                                                                                |
 +++
-| <img alt="" src=images/PartDesign_Loft_Vertex_relnotes_0.20.png  style="width   *384px;">A loft with multiple sections, the final one is a vertex.                                                                                                                      | It is now possible to create an [Additive](PartDesign_AdditiveLoft.md) or [Subtractive Loft](PartDesign_SubtractiveLoft.md), or an [Additive](PartDesign_AdditivePipe.md) or [Subtractive Pipe](PartDesign_SubtractivePipe.md) towards, or from, a [Vertex](Glossary#V.md) of either a sketch or a body. This allows to create pyramids for example.**Note**   * Vertices in sketches are created as construction geometry. To use them as endpoints of lofts, you must first [change them to normal geometry](Sketcher_ToggleConstruction.md). [Pull request \#5170](https   *//github.com/FreeCAD/FreeCAD/pull/5170) (for lofts), [Pull request \#5193](https   *//github.com/FreeCAD/FreeCAD/pull/5193) (for pipes) |
+| <img alt="" src=images/PartDesign_Loft_Vertex_relnotes_0.20.png  style="width   *384px;">Una proyección aditiva con múltiples secciones, el último es un vértice.                                                                                                                 | Ahora es posible crear una [Proyección aditiva](PartDesign_AdditiveLoft.md) o una [Proyección substractiva](PartDesign_SubtractiveLoft.md), o un [Barrido aditivo](PartDesign_AdditivePipe.md) o un [Barrido substractivo](PartDesign_SubtractivePipe.md) hacia, o desde, un [Vértice](Glossary#V.md) o de un croquis o un cuerpo. Esto permite crear pirámides por ejemplo.**Nota**   * Los Vértices en los croquis son creados como geometría de construcción. Para usarlos como puntos finales de una proyección, primero debe [cambiarlos a geometría normal](Sketcher_ToggleConstruction.md). [Pull request \#5170](https   *//github.com/FreeCAD/FreeCAD/pull/5170) (para proyecciones), [Pull request \#5193](https   *//github.com/FreeCAD/FreeCAD/pull/5193) (para barridos) |
 +++
-| <img alt="" src=images/PD_Pad-Taper-angle_relnotes_0.20.png  style="width   *384px;">A tapered pocket within a non-tapered pad.                                                                                                                                             | The dialog for [Pad](PartDesign_Pad.md) and [Pocket](PartDesign_Pocket.md) offers to set a taper angle for the extrusion. [Pull request \#5357](https   *//github.com/FreeCAD/FreeCAD/pull/5357)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| <img alt="" src=images/PD_Pad-Taper-angle_relnotes_0.20.png  style="width   *384px;">Un hueco cónico dentro de una extrusión no cónica.                                                                                                                                               | El diálogo para [Relleno](PartDesign_Pad.md) y [Hueco](PartDesign_Pocket.md) permite poner un ángulo cónico para la extrusión. [Pull request \#5357](https   *//github.com/FreeCAD/FreeCAD/pull/5357)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
-| <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width   *384px;">Pocketing along different directions.Click on the image to see the animation.                                                                                          | It is now possible to specify the direction for the pocket extrusion. [Pull request \#5164](https   *//github.com/FreeCAD/FreeCAD/pull/5164)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width   *384px;">Haciendo huecos a lo largo de diferentes direcciones.Clic en la imagen para ver la animación.                                                                                    | Ahora es posible especificar la dirección del hueco. [Pull request \#5164](https   *//github.com/FreeCAD/FreeCAD/pull/5164)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-| <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                                   | The dialog to edit [Cylinders](PartDesign_AdditiveCylinder.md) (additive and subtractive) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                                             | El diálogo para editar [Cilindros](PartDesign_AdditiveCylinder.md) (aditivos y substractivos) ahora permite especificar un ángulo relativo a la normal de el plano seleccionado. De esta manera se pueden crear cilindros oblicuos. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
-| <img alt="" src=images/PartDesign_Helix_Growth_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                                               | The [Helix](PartDesign_AdditiveHelix.md) feature has the new mode **Height-Turns-Growth** to create flat spirals. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=56378) [Pull request \#4590](https   *//github.com/FreeCAD/FreeCAD/pull/4590)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <img alt="" src=images/PartDesign_Helix_Growth_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                                                         | La característica [Hélice](PartDesign_AdditiveHelix.md) ahora tiene un nuevo modo **Altura-Vueltas-Incremento** para crear espirales planas. [Hilo del foro](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=56378) [Pull request \#4590](https   *//github.com/FreeCAD/FreeCAD/pull/4590)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 +++
-| <img alt="" src=images/PartDesign_Islands-Extrude_relnotes_0.20.png  style="width   *384px;">A single Pad and a single [Revolution](PartDesign_Revolution.md) with nested profiles. The base block is only there to ensure that the part is a single solid. | All PartDesign features that can extrude sketches can now handle sketches with nested profiles that form islands. For example it is possible to revolve a sketch consisting of 3 nested circles with the same center point.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                                                                                                                                                                                                                                       | **Note**   * Extruding nested profiles only works if the result is still a single body. [Pull request \#6381](https   *//github.com/FreeCAD/FreeCAD/pull/6381)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <img alt="" src=images/PartDesign_Islands-Extrude_relnotes_0.20.png  style="width   *384px;">Una sola extrusión y una sola [Revolución](PartDesign_Revolution.md) con perfiles anidados. El bloque base está solo para asegurarse de que la parte es un único cuerpo. | Todas las características de PartDesign que pueden extruir croquis ahora pueden manejar croquis con perfiles anidados que forman islas. Por ejemplo, es posible revolucionar un croquis que consta de 3 círculos anidados con el mismo punto central.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                 | **Nota**   * La extrusión de perfiles anidados solo funciona si el resultado sigue siendo un solo cuerpo. [Pull request \#6381](https   *//github.com/FreeCAD/FreeCAD/pull/6381)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-| <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width   *384px;">Effect of the new option *Length along sketch normal*.Click on the image to see the animation.                                                       | There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https   *//github.com/FreeCAD/FreeCAD/pull/3893)                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width   *384px;">Efecto de la nueva opción *Longitud a lo largo de la normal del croquis*.Clic en la imagen para ver la animación.                                              | Hay una nueva opción para extruir una cierta longitud a lo largo de la dirección. La longitud puede medirse a lo largo del croquis normal o a lo largo de la dirección personalizada. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https   *//github.com/FreeCAD/FreeCAD/pull/3893)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-| <img alt="" src=images/PartDesign_Hole_thread_relnotes_0.20.PNG  style="width   *384px;">                                                                                                                                                                                                 | The [Hole](PartDesign_Hole.md) feature can now model true threads. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=54240) [Pull request \#4274](https   *//github.com/FreeCAD/FreeCAD/pull/4274)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| <img alt="" src=images/PartDesign_Hole_thread_relnotes_0.20.PNG  style="width   *384px;">                                                                                                                                                                                                           | La característica [Agujero](PartDesign_Hole.md) ahora puede modelar cuerdas reales. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=54240) [Pull request \#4274](https   *//github.com/FreeCAD/FreeCAD/pull/4274)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
 
 ### Otras mejoras de PartDesign 
 
--   In the [Helix](PartDesign_AdditiveHelix.md) feature one can now also use the sketch normal as axis. [Pull request \#5199](https   *//github.com/FreeCAD/FreeCAD/pull/5199)
--   The [Sprocket](PartDesign_Sprocket.md) feature can now also create ISO-normed sprockets. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [Pull request \#4478](https   *//github.com/FreeCAD/FreeCAD/pull/4478)
--   The [Loft](PartDesign_AdditiveLoft.md) and [Pipe](PartDesign_AdditivePipe.md) features now allow using the body\'s faces for sections. [Pull request \#5155](https   *//github.com/FreeCAD/FreeCAD/pull/5155)
--   It is now possible to select several faces before calling the [Pad](PartDesign_Pad.md) or [Pocket](PartDesign_Pocket.md) dialog. In this case the first selected face will be used to determine the default padding/pocketing direction. [commit d34a5616](https   *//github.com/FreeCAD/FreeCAD/commit/d34a5616a2b38c96ad05f9a0763ba7504dfb814d)
--   It is possible to offset [SubShapeBinders](PartDesign_SubShapeBinder.md) if they are based on edges, wires or faces. [Pull request \#6338](https   *//github.com/FreeCAD/FreeCAD/pull/6338)
--   [SubShapeBinders](PartDesign_SubShapeBinder.md) now have the *Refine* property like all other PartDesign objects. [Pull request \#6550](https   *//github.com/FreeCAD/FreeCAD/pull/6550)
--   In the [Chamfer](PartDesign_Chamfer.md) and [Fillet](PartDesign_Fillet.md) dialogs all edges of a body can be selected via the context menu while in Add mode. [Pull request \#5269](https   *//github.com/FreeCAD/FreeCAD/pull/5269)
-    When you selected a 3D object before clicking the icon to create a fillet or chamfer, all object edges will automatically be selected. [Pull request \#5328](https   *//github.com/FreeCAD/FreeCAD/pull/5328)
--   [Chamfer](PartDesign_Chamfer.md) and [Fillet](PartDesign_Fillet.md) dialogs now each have a new Use all edges checkbox, which is connected to the Use All Edges property for these objects. When the box is checked the property is set to True, when unchecked the property is set to False. When Use All Edges is True there is protection against the [topological naming problem](Topological_naming_problem.md) because then all of the edges of the base object are used regardless of how many edges there are. [Pull request \#5340](https   *//github.com/FreeCAD/FreeCAD/pull/5340)
--   Plane selection when [adding a new sketch](PartDesign_NewSketch.md) can now be achieved with a single-click in the 3D View. [Pull request](https   *//github.com/FreeCAD/FreeCAD/pull/5408) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=65020)
--   When a PartDesign tool is run without an active body, FreeCAD now offers to activate a body or create a new one. [Pull request \#4949](https   *//github.com/FreeCAD/FreeCAD/pull/4949)
--   The [Face Colors](Part_FaceColors.md) tool is now also available from the PartDesign workbench.
+-   En la característica [Hélice](PartDesign_AdditiveHelix.md) ahora también se puede utilizar la normal del croquis como eje. [Pull request \#5199](https   *//github.com/FreeCAD/FreeCAD/pull/5199)
+-   La característica [Rueda dentada](PartDesign_Sprocket.md) ahora puede crear ruedas dentadas con la norma ISO. [Hilo del foro](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [Pull request \#4478](https   *//github.com/FreeCAD/FreeCAD/pull/4478)
+-   las características [Proyección](PartDesign_AdditiveLoft.md) y [Barrido](PartDesign_AdditivePipe.md) ahora permiten usar las caras de los cuerpos para las secciones. [Pull request \#5155](https   *//github.com/FreeCAD/FreeCAD/pull/5155)
+-   Ahora es posible selecionar varias caras antes de llamar al diálogo de [Relleno](PartDesign_Pad.md) o [Hueco](PartDesign_Pocket.md). En este caso, la primer cara seleccionada se utilizará para determinar la dirección predeterminada de relleno/hueco. [commit d34a5616](https   *//github.com/FreeCAD/FreeCAD/commit/d34a5616a2b38c96ad05f9a0763ba7504dfb814d)
+-   Es posible compensar los [SubShapeBinders](PartDesign_SubShapeBinder.md) si están basados en bordes, alambres o caras. [Pull request \#6338](https   *//github.com/FreeCAD/FreeCAD/pull/6338)
+-   [SubShapeBinders](PartDesign_SubShapeBinder.md) ahora tiene la propiedad *Refinar* como todos los objetos de PartDesign. [Pull request \#6550](https   *//github.com/FreeCAD/FreeCAD/pull/6550)
+-   En los diálogos de [Bisel](PartDesign_Chamfer.md) y [Redondeo](PartDesign_Fillet.md) todos los bordes de un cuerpo pueden ser seleccionados a través del menú contextual mientras se está en modo agregar. [Pull request \#5269](https   *//github.com/FreeCAD/FreeCAD/pull/5269)
+    Cuando seleccionas un objeto 3D antes de hacer clic en el icono para crear un redondeo o bisel, todos los bordes del objeto se seleccionarán automáticamente. [Pull request \#5328](https   *//github.com/FreeCAD/FreeCAD/pull/5328)
+-   Los diálogos de [Bisel](PartDesign_Chamfer.md) y [Redondeo](PartDesign_Fillet.md) ahora cada uno tiene una nueva casilla de verificación para usar todos los bordes, que está conectada a la propiedad Usar todos los bordes para estos objetos. Cuando la casilla está marcada, la propiedad se establece en Verdadero, cuando no está marcada, la propiedad se establece en Falso. Cuando Usar todos los bordes es Verdadero, hay una protección contra el [problema de denominación topológica](Topological_naming_problem.md) porque entonces se usan todos los bordes del objeto base independientemente de cuántos bordes haya. [Pull request \#5340](https   *//github.com/FreeCAD/FreeCAD/pull/5340)
+-   Ahora se puede lograr la selección de planos cuando se agrega [un nuevo croquis](PartDesign_NewSketch.md) con un solo clic en la vista 3D. [Pull request](https   *//github.com/FreeCAD/FreeCAD/pull/5408) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=65020)
+-   Cuando una herrramienta de PartDesign se ejecuta sin un cuerpo activo, ahora FreeCAD ofrece activar un cuerpo o crear uno nuevo. [Pull request \#4949](https   *//github.com/FreeCAD/FreeCAD/pull/4949)
+-   La herramienta [Colores de cara](Part_FaceColors.md) está ahora disponible en el entorno de trabajo PartDesign.
 
-## Ambiente de Trabajo Trayectoria 
+## Ambiente de Trabajo Path 
 
--   The Extensions feature was added to the [Adaptive](Path_Adaptive.md) operation. [Pull request \#4388](https   *//github.com/FreeCAD/FreeCAD/pull/4388)
--   The [Helix](Path_Helix.md) operation was refactored and Extra offset property was added to it. [Pull request \#5405](https   *//github.com/FreeCAD/FreeCAD/pull/5405)
--   The check if the current schema is using minutes for velocity expression and appropriate warning were added. [Pull request \#6357](https   *//github.com/FreeCAD/FreeCAD/pull/6357)
--   External threads were added to the thread milling operation. [Pull request \#6485](https   *//github.com/FreeCAD/FreeCAD/pull/6485)
--   The stability of engraving on sketches was improved. [Pull request \#6394](https   *//github.com/FreeCAD/FreeCAD/pull/6394)
--   The visibility of path objects was made more natural. [Pull request \#4911](https   *//github.com/FreeCAD/FreeCAD/pull/4911)
+-   La característica Extensiones fue agregada a la operación [Adaptive](Path_Adaptive.md). [Pull request \#4388](https   *//github.com/FreeCAD/FreeCAD/pull/4388)
+-   La operación [Hélice](Path_Helix.md) se refactorizó y se le agregó la propiedad Extra offset. [Pull request \#5405](https   *//github.com/FreeCAD/FreeCAD/pull/5405)
+-   Se agregó la comprobación de si el esquema actual está utilizando minutos para la expresión de velocidad y la advertencia adecuada. [Pull request \#6357](https   *//github.com/FreeCAD/FreeCAD/pull/6357)
+-   Se agregaron roscas externas a la operación de fresado de roscas. [Pull request \#6485](https   *//github.com/FreeCAD/FreeCAD/pull/6485)
+-   Se mejoró la estabilidad del grabado en croquis. [Pull request \#6394](https   *//github.com/FreeCAD/FreeCAD/pull/6394)
+-   La visibilidad de objetos path se hizo más natural. [Pull request \#4911](https   *//github.com/FreeCAD/FreeCAD/pull/4911)
 
-## Plot module 
+## Módulo Plot 
 
--   FreeCAD now provides the Plot module by default, so any other module/workbench may create plots without requiring external tools [Pull request \#4971](https   *//github.com/FreeCAD/FreeCAD/pull/4971).
+-   FreeCAD ahora proporciona el módulo Plot de forma predeterminada, por lo que cualquier otro módulo/entorno de trabajo puede crear gráficas sin necesidad de herramientas externas. [Pull request \#4971](https   *//github.com/FreeCAD/FreeCAD/pull/4971).
 
-## Render Workbench 
+## Ambiente de Trabajo Render 
 
-## Ambiente de Trabajo Croquizador 
+## Ambiente de Trabajo Sketcher 
 
    
-  <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  New ![](images/Sketcher_Split.svg  style="width   *24px;"> [Split](Sketcher_Split.md) function to split existing lines or arcs. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=55412) [Pull request \#4420](https   *//github.com/FreeCAD/FreeCAD/pull/4420)
-  <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                  New ![](images/Sketcher_CreateOblong.svg  style="width   *24px;"> [Rounded rectangle](Sketcher_CreateOblong.md) tool to create rectangles with rounded corners. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main Pull request \#4835](https   *//github.com/FreeCAD/FreeCAD/pull/4835)
-  <img alt="" src=images/SketcherCreateCenteredRectangleExample_relnotes_0.20.png  style="width   *384px;">   New <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *24px;"> [Centered rectangle](Sketcher_CreateRectangle_Center.md) tool to define rectangles via a center point. [Main commit](https   *//github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)
-  <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                      New ![](images/Sketcher_ConstrainRadiam.svg  style="width   *24px;"> [Radiam](Sketcher_ConstrainRadiam.md) function to automatically assign weight on B-spline pole, diameter on complete circle, or radius on arc. Support multi-selection as diameter/radius tools. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request \#4855](https   *//github.com/FreeCAD/FreeCAD/pull/4855)
-  <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          New ![](images/Sketcher_RemoveAxesAlignment.svg  style="width   *24px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md) constraint tool to remove axes alignment while trying to preserve the constraint relationship of the selection. [Main commit](https   *//github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
-  ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                            [Slots](Sketcher_CreateSlot.md) can be constrained horizontally or vertically either by snapping it manually with the **Ctrl** key, or by using the **Auto constraints** option of Sketcher. [Pull request \#5200](https   *//github.com/FreeCAD/FreeCAD/pull/5200)
-  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif  style="width   *384px;">                             New <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insert Knot](Sketcher_BSplineInsertKnot.md) tool to insert a knot in an existing B-spline. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
+  <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  La nueva función ![](images/Sketcher_Split.svg  style="width   *24px;"> [Dividir](Sketcher_Split.md) divide líneas o arcos existentes. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=55412) [Pull request \#4420](https   *//github.com/FreeCAD/FreeCAD/pull/4420)
+  <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                  La nueva herramienta ![](images/Sketcher_CreateOblong.svg  style="width   *24px;"> [Rectángulo redondeado](Sketcher_CreateOblong.md) crea un rectángulo con esquinas redondeadas. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main Pull request \#4835](https   *//github.com/FreeCAD/FreeCAD/pull/4835)
+  <img alt="" src=images/SketcherCreateCenteredRectangleExample_relnotes_0.20.png  style="width   *384px;">   La nueva herramienta <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *24px;"> [Rectángulo centrado](Sketcher_CreateRectangle_Center.md) crea un rectángulos a partir del centro. [Main commit](https   *//github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)
+  <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                      La nueva función ![](images/Sketcher_ConstrainRadiam.svg  style="width   *24px;"> [Radiam](Sketcher_ConstrainRadiam.md) para asignar automáticamente el peso en el polo en una B-spline, el diámetro en el círculo completo o el radio en el arco. Admite selección múltiple como herramientas de diámetro/radio. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request \#4855](https   *//github.com/FreeCAD/FreeCAD/pull/4855)
+  <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          La nueva herramienta de restricción ![](images/Sketcher_RemoveAxesAlignment.svg  style="width   *24px;"> [Eliminar Alineación de Ejes](Sketcher_RemoveAxesAlignment.md) elimina la alineación de los ejes mientras trata de preservar las relaciones de restricciones de la selección. [Main commit](https   *//github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
+  ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                            Las [Ranuras](Sketcher_CreateSlot.md) pueden ser restringidas horizontalmente o verticalementeya ya sea ajustándolo manualmente con la tecla **Ctrl**, o usando la opción **Restricciones automáticas** de Sketcher. [Pull request \#5200](https   *//github.com/FreeCAD/FreeCAD/pull/5200)
+  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif  style="width   *384px;">                             La nueva herramienta <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insertar Nodo](Sketcher_BSplineInsertKnot.md) inserta un nodo en una B-splina ya existente. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
    
 
 ### Otras mejoras de Sketcher 
 
--   Refactored Trim support. [Pull request \#4330](https   *//github.com/FreeCAD/FreeCAD/pull/4330) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=54441) \<\-- Needs screencasts
--   The behavior of the <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *24px;"> [Slot](Sketcher_CreateSlot.md) tool has changed. Slots can now be created by defining the center of both semicircles. [Pull request](https   *//github.com/FreeCAD/FreeCAD/pull/4843) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
--   Visibility automation allows to open Sketcher in [Section mode](Sketcher_ViewSection.md) when entering edit mode. [Pull request \#4742](https   *//github.com/FreeCAD/FreeCAD/pull/4742) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=57056)
--   Visibility automation allows to force camera in [Orthographic mode](Std_OrthographicCamera.md) when entering edit mode. [Pull request \#4778](https   *//github.com/FreeCAD/FreeCAD/pull/4778) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=44747)
--   Option to display the dimensional constraint name and use a custom format for it. [Pull request \#4966](https   *//github.com/FreeCAD/FreeCAD/pull/4966) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?t=61153)
--   When sketching a [3-point arc](Sketcher_Create3PointArc.md) with Autoconstraint enabled, [tangent constraint](Sketcher_ConstrainTangent.md) is proposed for all 3 points when hovering a line/curve. [Pull request \#4945](https   *//github.com/FreeCAD/FreeCAD/pull/4945) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=60596&p=520217#p520209)
--   Radius/diameter constraints are displayed using an angular rotation to ease visualization. Angle and optional randomness are user settable through parameters documented in [Fine-tuning](Fine-tuning.md). [Pull request \#4934](https   *//github.com/FreeCAD/FreeCAD/pull/4934) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=60370)
--   It is now possible to fix the angle of the direction when using the [Rectangular array](Sketcher_RectangularArray.md) tool. [commitc9eaa239](https   *//github.com/FreeCAD/FreeCAD/commit/c9eaa239) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?p=535691#p535691)
--   It is now possible to fix the angle of the direction when using the tools [Clone](Sketcher_Clone.md), [Copy](Sketcher_Copy.md) and [Move](Sketcher_Move.md). [commit](https   *//github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=62799)
--   By right-clicking a sketch in the Tree view you will now get a context menu entry \"Attachment editor\" that opens the [Attachment dialog](Part_EditAttachment.md) to modify the attachment. [commit c3511ba2f0](https   *//github.com/FreeCAD/FreeCAD/commit/c3511ba2f0)
--   Constraint selection is disabled when using a geometry or constraint tool. It can also be disabled manually at any time by pressing **Shift** key. [Pull request \#5398](https   *//github.com/FreeCAD/FreeCAD/pull/5398) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=65465)
--   A versatile view filter has been added in the Sketcher task panel to ease constraints visibility management [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=60569)
--   It is now possible to set the degree of a B-Spline ([Pull request \#6463](https   *//github.com/FreeCAD/FreeCAD/pull/6463)) and undo the last defined control point ([Pull request \#6476](https   *//github.com/FreeCAD/FreeCAD/pull/6476)) at creation time.
+-   Soporte para Dividir refactorizado. [Pull request \#4330](https   *//github.com/FreeCAD/FreeCAD/pull/4330) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=54441) \<\-- Necesita capturas de pantalla
+-   El comportamiento de la herramienta <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *24px;"> [Ranura](Sketcher_CreateSlot.md) cambiado. Las ranuras ahora pueden ser creadas definiendo el centro de ambos semicírculos. [Pull request](https   *//github.com/FreeCAD/FreeCAD/pull/4843) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
+-   La automatización de la visibilidad permite abrir Sketcher en [ Modo de sección](Sketcher_ViewSection.md) al entrar en el modo de edición. [Pull request \#4742](https   *//github.com/FreeCAD/FreeCAD/pull/4742) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=57056)
+-   La automatización de la visibilidad permite forzar la cámara en [Modo Orthográfico](Std_OrthographicCamera.md) al entrar en modo de edición. [Pull request \#4778](https   *//github.com/FreeCAD/FreeCAD/pull/4778) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=44747)
+-   Opción para mostrar el nombre de la restricción dimensional y utilizar un formato personalizado para ello. [Pull request \#4966](https   *//github.com/FreeCAD/FreeCAD/pull/4966) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?t=61153)
+-   Al realizar un [arco de 3 puntos](Sketcher_Create3PointArc.md) con restricciones automáticas habilitadas, la [restricción tangente](Sketcher_ConstrainTangent.md) se propone para los 3 puntos al desplazarse sobre una línea/curva. [Pull request \#4945](https   *//github.com/FreeCAD/FreeCAD/pull/4945) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=60596&p=520217#p520209)
+-   Las restricciones de radio/diámetro se muestran mediante una rotación angular para facilitar la visualización. El ángulo y la aleatoriedad opcional son configurables por el usuario a través de parámetros documentados en [Ajuste fino](Fine-tuning.md). [Pull request \#4934](https   *//github.com/FreeCAD/FreeCAD/pull/4934) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=60370)
+-   Ahora es posible fijar el ángulo de la dirección cuando se utiliza la herramienta [Arreglo Rectangular](Sketcher_RectangularArray.md). [commitc9eaa239](https   *//github.com/FreeCAD/FreeCAD/commit/c9eaa239) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?p=535691#p535691)
+-   Ahora es posible fijar el ángulo de la dirección cuando se utiliza las herramientas [Clonar](Sketcher_Clone.md), [Copiar](Sketcher_Copy.md) and [Mover](Sketcher_Move.md). [commit](https   *//github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=62799)
+-   Al hacer clic con el botón derecho en un croquis en la vista de árbol, ahora obtendrá una entrada de menú contextual \"Editor de datos adjuntos\" que abre el [Diálogo adjunto](Part_EditAttachment.md) para el modificar el adjunto. [commit c3511ba2f0](https   *//github.com/FreeCAD/FreeCAD/commit/c3511ba2f0)
+-   La selección de restricciones está deshabilitada cuando se usa una herramienta de geometría o restricción. También se puede desactivar manualmente en cualquier momento presionando la tecla **Shift**. [Pull request \#5398](https   *//github.com/FreeCAD/FreeCAD/pull/5398) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=65465)
+-   Se ha agregado un filtro de vista versátil en el panel de tareas de Sketcher para facilitar la gestión de la visibilidad de las restricciones. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=60569)
+-   Ahora es posible establecer el grado de una B-Spline ([Pull request \#6463](https   *//github.com/FreeCAD/FreeCAD/pull/6463)) y deshacer el último punto de control definido ([Pull request \#6476](https   *//github.com/FreeCAD/FreeCAD/pull/6476)) en el momento de la creación.
 
-## Ambiente de Trabajo Hoja de cálculo 
+## Ambiente de Trabajo Spreadsheet 
 
    
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   El entorno de trabajo ahora tiene ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferencias](Spreadsheet_Preferences.md). Son usadas por los comandos <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Importar](Spreadsheet_Import.md) y <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Exportar](Spreadsheet_Export.md). [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
    
 
--   It is now possible to select in the row/column context-menu at what positions new rows/columns will be inserted. [Pull request \#4704](https   *//github.com/FreeCAD/FreeCAD/pull/4704).
+-   Ahora es posible seleccionar en el menú contextual de filas/columnas en qué posiciones se insertarán las nuevas filas/columnas. [Pull request \#4704](https   *//github.com/FreeCAD/FreeCAD/pull/4704).
 
-### Further Spreadsheet improvements 
+### Otras mejoras de Spreadsheet 
 
--   Import XLSX (used by [Std Import](Std_Import.md))   * Added support for floor and ceil functions. [Pull request \#5015](https   *//github.com/FreeCAD/FreeCAD/pull/5015).
--   Cell binding   * instruct a set of cells to display the contents of another set of cells. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
--   Improved navigation using the **Tab** and **Enter** keys.
--   Improved interface for cutting and pasting blocks of cells.
+-   Importar XLSX (usado por [Std Import](Std_Import.md))   * Soporte agregado para funciones de piso y techo. [Pull request \#5015](https   *//github.com/FreeCAD/FreeCAD/pull/5015).
+-   Vinculación de celdas   * indica a un conjunto de celdas que muestre el contenido de otro conjunto de celdas. Parte de [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+-   Navegación mejorada usando las teclas **Tab** y **Enter**.
+-   Interfaz mejorada para cortar y pegar bloques de celdas.
 
 ## Ambiente de Trabajo Inicio 
 
-## Ambiente de Trabajo Superficie 
+## Ambiente de Trabajo Surface 
 
-## Ambiente de Trabajo DibujoTécnico 
+## Ambiente de Trabajo TechDraw 
 
    
-  <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width   *400px;">   More than 30 new tools, so-called [Extensions](TechDraw_Workbench#Extensions.md), are now available. They offer new cosmetic features to enhance drawings.
+  <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width   *400px;">   Más de 30 nuevas herramientas, llamadas [Extensiones](TechDraw_Workbench#Extensions.md), ahora están disponibles. Ofrecen nuevas funciones cosméticas para mejorar los dibujos.
    
 
 ### Otras mejoras de TechDraw 
 
--   It is now possible to [Share](TechDraw_ShareView.md) and [Move](TechDraw_MoveView.md) [Views](TechDraw_Workbench#Views.md) between pages.
--   When there are several [Pages](TechDraw_PageDefault.md) and a [View](TechDraw_View.md), [ProjectionGroup](TechDraw_ProjectionGroup.md) etc. is added, there is now a dialog to ask to what page the view should be added. [Pull request \#5309](https   *//github.com/FreeCAD/FreeCAD/pull/5309).
--   A new format specifier *%w* was added to print the given number of digits after dot and remove any trailing zeros. [Pull request \#5401](https   *//github.com/FreeCAD/FreeCAD/pull/5401).
--   The new *%w* format specifier is now the default. And the format specifier preference was moved from the Advanced tab to the Dimension tab. [Pull request \#6504](https   *//github.com/FreeCAD/FreeCAD/pull/6504).
--   Flipped diagonal hatch was added for the [Geometric Hatch](TechDraw_GeometricHatch.md) tool. [Pull request \#6429](https   *//github.com/FreeCAD/FreeCAD/pull/6429).
--   There is a new option to show a grid in a [page](TechDraw_PageDefault.md). Several related [preferences](TechDraw_Preferences#Grid.md) have been introduced. [Pull request \#6465](https   *//github.com/FreeCAD/FreeCAD/pull/6465).
--   The unit display in dimensions was fixed according to standards. The degree symbol is always present for the dimension value and tolerances, other units only appear if ShowUnits is set. The unit appears immediately after the dimension value unless there is a tolerance, then it appears after the tolerance. [Pull request \#6581](https   *//github.com/FreeCAD/FreeCAD/pull/6581)
+-   Ahora es posible [Compartir](TechDraw_ShareView.md) y [Mover](TechDraw_MoveView.md) [Vistas](TechDraw_Workbench#Views.md) entre páginas.
+-   Cuando hay muchas [Páginas](TechDraw_PageDefault.md) y una [Vista](TechDraw_View.md), [Grupo de proyección](TechDraw_ProjectionGroup.md) etc. es agregado, ahora hay un cuadro de diálogo para preguntar a qué página se debe agregar la vista. [Pull request \#5309](https   *//github.com/FreeCAD/FreeCAD/pull/5309).
+-   Se agregó un nuevo especificador de formato *%w* para imprimir el número dado de dígitos después del punto y eliminar los ceros finales. [Pull request \#5401](https   *//github.com/FreeCAD/FreeCAD/pull/5401).
+-   El nuevo especificador de formato *%w* ahora es el predeterminado. Y la preferencia del especificador de formato se movió de la pestaña Avanzado a la pestaña Dimensión. [Pull request \#6504](https   *//github.com/FreeCAD/FreeCAD/pull/6504).
+-   Se agregó un achurado diagonal invertido para la herramienta [Achurado Geometrico](TechDraw_GeometricHatch.md). [Pull request \#6429](https   *//github.com/FreeCAD/FreeCAD/pull/6429).
+-   Ahora hay una nueva opción para mostrar una grilla en una [página](TechDraw_PageDefault.md). Muchas [preferencias](TechDraw_Preferences#Grid.md) relacionadas han sido añadidas. [Pull request \#6465](https   *//github.com/FreeCAD/FreeCAD/pull/6465).
+-   La visualización de la unidad en dimensiones se corrigió de acuerdo con los estándares. El símbolo de grado siempre está presente para el valor de cota y las tolerancias, otras unidades solo aparecen si se establece en ShowUnits. La unidad aparece inmediatamente después del valor de cota a menos de que haya una tolerancia, aparecerá después de la tolerancia. [Pull request \#6581](https   *//github.com/FreeCAD/FreeCAD/pull/6581)
 
 ## Web
 
-Qt WebEngine is now considered the default option instead of Qt WebKit.
+Qt WebEngine es ahora considerado la opción por defecto en lugar de Qt WebKit.
 
 ## Entornos de trabajo externos 
 
 
-**Note   ***
+**Nota   ***
 
-these are the new workbenches created in this development cycle, or older workbenches that received updates. See [external workbenches](External_workbenches.md) for more workbenches that can be installed, and which cover a wide variety of topics. If you want to see your workbench added, join the [forum](https   *//forum.freecadweb.org/index.php) and present your code.
+estos son los nuevos entornos de trabajo creados en este ciclo de desarrollo o los entornos de trabajo antiguos que recibieron actualizaciones. Consulte [entornos de trabajo externos](External_workbenches.md) para más entornos de trabajo que se pueden instalar y que cubren una amplia variedad de temas. Si desea que se agregue su entorno de trabajo, únase al \[foro de <https   *//forum.freecadweb.org/index.php>\] y presente su código.
 
-### 3D Printing Tools 
+### Herramientas de impresión 3D 
 
 ### A2plus
 
-## Ensamblaje3
+## Assembly3
 
-## Ensamblaje4
+## Assembly4
 
 ### ArchTextures
 
 ### BOLTSFC
 
-### CurvedShapes Workbench 
+### Entorno de Trabajo CurvedShapes 
 
-### Dodo (formerly Flamingo) 
+### Dodo (antes Flamingo) 
 
-### Elementos de Unión 
+### Fasteners
 
 ### FCGear
 
-The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements
+El [entorno de trabajo FCGear](FCGear_Workbench.md) recibió un par de mejoras
 
--   For involute gears, the outside (aka tip) and root diameter are exposed as properties ([details](https   *//github.com/looooo/freecad.gears/pull/69))
--   Gear objects are now [attachable](Part_EditAttachment.md) ([details](https   *//github.com/looooo/freecad.gears/pull/72))
--   Gear objects can now be used as additive features in PartDesign Bodies ([details](https   *//github.com/looooo/freecad.gears/pull/74))
--   The creation of gear objects now appears in the undo stack ([details](https   *//github.com/looooo/freecad.gears/pull/83))
+-   Para engranajes involutivos, el exterior (también conocido como punta) y el diámetro de la raíz se exponen como propiedades. ([details](https   *//github.com/looooo/freecad.gears/pull/69))
+-   Los objetos Gear ahora se pueden [unir](Part_EditAttachment.md) ([details](https   *//github.com/looooo/freecad.gears/pull/72))
+-   Los objetos Gear ahora se pueden usar como características aditivas en los cuerpos de PartDesign ([detalles](https   *//github.com/looooo/freecad.gears/pull/74))
+-   La creación de objetos Gear ahora aparece en la pila de deshacer ([details](https   *//github.com/looooo/freecad.gears/pull/83))
 
-### MeshRemodel Workbench 
+### Entorno de Trabajo MeshRemodel 
 
-### MOOC Workbench 
+### Entorno de Trabajo MOOC 
 
 ### NodeEditor (PyFlow) 
 
 ### Plot
 
--   The Plot module has been stripped from the workbench since it is now provided by FreeCAD.
+-   El módulo Plot ha sido eliminado del banco de trabajo ya que ahora es proporcionado por FreeCAD.
 
 ### Ship
 
-The [Ship Workbench](Ship_Workbench.md) is back to life!
+¡El [entorno de trabajo Ship](Ship_Workbench.md) a vuelto a la vida!
 
--   A new tool to compute the [static sink and trim](https   *//github.com/FreeCAD/freecad.ship#static-sink-and-trim) has been added.
--   A new tool to compute the [response amplitude operators](https   *//github.com/FreeCAD/freecad.ship#raos) has been added on top of [capytaine](https   *//github.com/mancellin/capytaine).
+-   Una nueva herramienta para calcular el [hudimiento estático y recorte](https   *//github.com/FreeCAD/freecad.ship#static-sink-and-trim) ha sido añadida.
+-   Una nueva herramienta para calcular los [operadores de amplitud de respuesta](https   *//github.com/FreeCAD/freecad.ship#raos) ha sido añadida encima de [capytaine](https   *//github.com/mancellin/capytaine).
 
 ### Trails, PyTrails, Turns, pivy\_trackers, and Geomatics 
 

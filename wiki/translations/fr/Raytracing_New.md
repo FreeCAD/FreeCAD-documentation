@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Raytracing New
-   Name/fr:Raytracing Nouveau projet Pov-Ray
-   MenuLocation:Raytracing → Nouveau projet Pov-Ray
-   Workbenches:[Raytracing](Raytracing_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */fr
+   Name   *Raytracing New
+   Name/fr   *Raytracing Nouveau projet Pov-Ray
+   MenuLocation   *Raytracing → Nouveau projet Pov-Ray
+   Workbenches   *[Raytracing](Raytracing_Workbench/fr.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Raytracing New/fr
@@ -16,7 +16,7 @@ Insère un nouveau projet PovRay dans le document.
 
 ## Utilisation
 
-1.  Cliquez sur l\'icône \"déroulante\" noire après <img alt="" src=images/Raytracing_New.svg  style="width:32px;"> pour sélectionner l\'un des différents modèles prédéfinis.
+1.  Cliquez sur l\'icône \"déroulante\" noire après <img alt="" src=images/Raytracing_New.svg  style="width   *32px;"> pour sélectionner l\'un des différents modèles prédéfinis.
 2.  Ou choisissez **Raytracing** → **Nouveau projet Pov-Ray** et l'un des modèles prédéfinis dans le menu supérieur.
 3.  Un nouveau projet POVRay appelé \"PovProject\" sera créé.
 

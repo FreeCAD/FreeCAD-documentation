@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Std ViewBoxZoom
-   Name/ru:Std ViewBoxZoom
-   Workbenches:All
-   MenuLocation:Вид → Масштаб‏‎ → Увеличить область
-   Shortcut:**Ctrl**+**B**
-   SeeAlso:[Std ViewZoomIn](Std_ViewZoomIn/ru.md), [Std ViewZoomOut](Std_ViewZoomOut/ru.md)
+- GuiCommand   */ru
+   Name   *Std ViewBoxZoom
+   Name/ru   *Std ViewBoxZoom
+   Workbenches   *All
+   MenuLocation   *Вид → Масштаб‏‎ → Увеличить область
+   Shortcut   ***Ctrl**+**B**
+   SeeAlso   *[Std ViewZoomIn](Std_ViewZoomIn/ru.md), [Std ViewZoomOut](Std_ViewZoomOut/ru.md)
 ---
 
 # Std ViewBoxZoom/ru
@@ -16,9 +16,9 @@
 
 ## Применение
 
-1.  Есть несколько способов вызвать команду:
+1.  Есть несколько способов вызвать команду   *
     -   Выбрать в меню **Вид → Масштаб → <img src="images/Std_ViewBoxZoom.svg" width=16px> Увеличить область**.
-    -   Использовать клавиатурное сокращение: **Ctrl**+**B**.
+    -   Использовать клавиатурное сокращение   * **Ctrl**+**B**.
 2.  Выделить прямоугольник в окне трёхмерного вида.
 
 

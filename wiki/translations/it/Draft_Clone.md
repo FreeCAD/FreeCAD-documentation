@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft Clone
-   Name/it:Clona
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Clona
-   Shortcut:**C** **L**
-   SeeAlso:[Sposta](Draft_Move/it.md), [Scala](Draft_Scale/it.md)
+- GuiCommand   */it
+   Name   *Draft Clone
+   Name/it   *Clona
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Clona
+   Shortcut   ***C** **L**
+   SeeAlso   *[Sposta](Draft_Move/it.md), [Scala](Draft_Scale/it.md)
 ---
 
 # Draft Clone/it
@@ -31,7 +31,7 @@ Questo strumento può essere utilizzato su forme 2D create con [Draft](Draft_Wor
 
 </div>
 
-<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Clone_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -57,9 +57,9 @@ Questo strumento può essere utilizzato su forme 2D create con [Draft](Draft_Wor
 
 ## Properties
 
-See also: [Property editor](property_editor.md).
+See also   * [Property editor](property_editor.md).
 
-An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties:
+An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties   *
 
 ### Data
 
@@ -71,11 +71,11 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 ## Proprietà
 
--    {{PropertyData/it|Objects}}: specifica una lista di oggetti base che vengono clonati.
+-    {{PropertyData/it|Objects}}   * specifica una lista di oggetti base che vengono clonati.
 
--    {{PropertyData/it|Scale}}: specifica il fattore di scala per il clone, in ciascuna direzione X, Y e Z.
+-    {{PropertyData/it|Scale}}   * specifica il fattore di scala per il clone, in ciascuna direzione X, Y e Z.
 
--    {{PropertyData/it|Fuse}}: se è `True` e {{PropertyData/it|Objects}} include molte forme che si intersecano l\'una con l\'altra, il clone risultante le fonde insieme in una singola forma, o crea un composto. {{Version/it|0.17}}
+-    {{PropertyData/it|Fuse}}   * se è `True` e {{PropertyData/it|Objects}} include molte forme che si intersecano l\'una con l\'altra, il clone risultante le fonde insieme in una singola forma, o crea un composto. {{Version/it|0.17}}
 
 
 </div>
@@ -88,7 +88,7 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -98,7 +98,7 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Clone può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento Clone può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 </div>
@@ -118,7 +118,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python

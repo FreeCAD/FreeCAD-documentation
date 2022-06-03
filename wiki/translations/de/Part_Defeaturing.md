@@ -20,7 +20,7 @@ Das Werkzeug \'MerkmalEntfernen\' kann in verschiedenen Zusammenhängen sehr nü
 -   Beheben von Fehlern im Modell, z. B. Füllen von Lücken, Löchern usw.
 -   Modellvereinfachung für die numerische Analyse, Anzeige auf mobilen Geräten, usw.
 
-Die entfernten Grundelemente werden durch die Verlängerung der angrenzenden Flächen gefüllt, so dass keine unerwarteten Teile im Ergebnis erscheinen sollten. Bitte beachte, dass das Ergebnis eine neue Form ist, die nicht mit dem Original verbunden ist; es ist also nicht-parametrisch.
+Die entfernten Formelemente werden durch die Verlängerung der angrenzenden Flächen gefüllt, so dass keine unerwarteten Teile im Ergebnis erscheinen sollten. Bitte beachte, dass das Ergebnis eine neue Form ist, die nicht mit dem Original verbunden ist; es ist also nicht-parametrisch.
 
 Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren. Falls es in deiner Version von FreeCAD nicht verfügbar ist, kannst du einen Blick auf die [Merkmal aus einer Form entfernen](Defeaturing_Workbench/de.md) Erweiterung werfen, die ähnliche Funktionen auch mit älteren Versionen von OCC oder FreeCAD anbietet.
 
@@ -28,9 +28,9 @@ Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren.
 
 ## Anwendung
 
-1.  Wähle die zu entfernende(n) Fläche(n) auf dem Modell.
-2.  Klicke auf die Schaltfläche **[<img src=images/Part_Defeaturing.svg style="width   *24px"> '''Merkmal aus einer Form entfernen'''**
-3.  Ein neues Objekt wird in der Modell [Baumansicht](Tree_view/de.md) mit der Bezeichnung *\'Defeatured* erstellt und das ursprüngliche Objekt wird nicht mehr angezeigt.
+1.  Die zu entfernende(n) Fläche(n) des Modells auswählen.
+2.  Die Schaltfläche **[<img src=images/Part_Defeaturing.svg style="width   *16px"> '''Merkmal entfernen'''** anklicken.
+3.  Ein neues Objekt mit der Bezeichnung *\'Defeatured* wird im Modell (und in der) [Baumansicht](Tree_view/de.md) erstellt und das ursprüngliche Objekt wird ausgeblendet.
 
 ## Verweise
 

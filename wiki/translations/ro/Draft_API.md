@@ -8,7 +8,7 @@ Aceste funcții fac parte din modulul Draft-Desen 2D și pot fi utilizate în sc
 
 These functions are part of the [Draft Workbench](Draft_Workbench.md) and can be used in [macros](macros.md) and from the [Python](Python.md) console once the `Draft` module has been imported.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft
 
@@ -74,6 +74,14 @@ Draft.move(myrect, mydistance)
 
 
 {{APIFunction | getSVG | FreeCAD.Object, [linemodifier], [textmodifier], [(u, v)] | Creează o reprezentare SVG a obiectului dat. Atributul linemodifier este un factor de scalare (în procente) pentru lățimea liniei și textmodifier pentru dimensiunea textului. De asemenea, puteți furniza opțional o tuplă de vectori pentru a defini un plan de proiecție, altfel geometria va fi proiectată pe planul XY. | Un șir care conține o reprezentare SVG a obiectului dat.}}
+
+
+ 
+
+
+
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

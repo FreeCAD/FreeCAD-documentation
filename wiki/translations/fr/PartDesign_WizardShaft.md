@@ -1,28 +1,28 @@
 ---
-- GuiCommand:/fr
-   Name:PartDesign_WizardShaft
-   Name/fr:PartDesign Conception d'arbre
-   MenuLocation:Part Design → Assistant de conception d'arbre...
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *PartDesign_WizardShaft
+   Name/fr   *PartDesign Conception d'arbre
+   MenuLocation   *Part Design → Assistant de conception d'arbre...
+   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
 # PartDesign WizardShaft/fr
 
 ## Description
 
-Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Assistant de conception d'arbre...**.
+Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width   *20px"> Assistant de conception d'arbre...**.
 
 L\'assistant démarre et affiche un tableau par défaut, la partie d\'arbre correspondante et les graphiques de force/moment.
 
-<img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;">
+<img alt="" src=images/WizardShaft_Part.jpg  style="width   *780px;">
 
 La partie supérieure de la fenêtre est occupée par le tableau. Elle est organisée en colonnes numérotées qui correspondent aux segments de l\'arbre. Un segment d\'arbre est caractérisé par une certaine longueur et un certain diamètre. La fenêtre principale présente deux onglets. L\'un est la partie de l\'arbre elle-même (une fonction de révolution), voir l\'image ci-dessus. Le second onglet montre les graphiques des forces de cisaillement et des moments créés par les charges définies dans le tableau.
 
-<img alt="" src=images/shaftwizard1.jpg  style="width:1024px;">
+<img alt="" src=images/shaftwizard1.jpg  style="width   *1024px;">
 
 ## Prérequis
 
-L\'assistant de conception d\'arbre dépend de la bibliothèque [matplotlib](http://matplotlib.org/) pour créer et afficher des graphiques de force de cisaillement et de moment de flexion. Sur les systèmes basés sur Debian/Ubuntu, il est disponible via le paquet python-matplotlib.
+L\'assistant de conception d\'arbre dépend de la bibliothèque [matplotlib](http   *//matplotlib.org/) pour créer et afficher des graphiques de force de cisaillement et de moment de flexion. Sur les systèmes basés sur Debian/Ubuntu, il est disponible via le paquet python-matplotlib.
 
 ## Paramètres
 
@@ -31,9 +31,9 @@ Pour chaque segment de l\'arbre, les paramètres suivants peuvent être définis
 -   La longueur du segment.
 -   Le diamètre du segment.
 -   Type de charge. Notez que vous devez cliquer sur l\'entrée désirée dans le menu après l\'avoir fait défiler sinon elle ne sera pas sélectionnée.
-    -   None : aucune charge.
-    -   Fixed : l\'arbre est fixé à une extrémité, (par exemple soudé à une autre pièce). Ce type de charge ne peut pas être défini pour le premier ou le dernier segment.
-    -   Static : il y a une charge statique sur le segment de l\'arbre.
+    -   None    * aucune charge.
+    -   Fixed    * l\'arbre est fixé à une extrémité, (par exemple soudé à une autre pièce). Ce type de charge ne peut pas être défini pour le premier ou le dernier segment.
+    -   Static    * il y a une charge statique sur le segment de l\'arbre.
 -   Charge sur le segment de l\'arbre.
 -   L\'emplacement où la charge est appliquée sur le segment. L\'emplacement est comptabilisé à partir du bord gauche du segment.
 

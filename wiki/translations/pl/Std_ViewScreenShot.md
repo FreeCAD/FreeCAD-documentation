@@ -34,71 +34,71 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 
 ### Właściwości obrazu 
 
-1.  Select an option from the **Background** dropdown list   *
+1.  Wybierz opcję z listy rozwijanej **Tło**   *
     -   
-        {{Value|Current}}
+        {{Value|Bieżące}}
         
-        This option uses the background of the 3D view.
+        Ta opcja wykorzystuje tło widoku 3D.
 
     -   
-        {{Value|White}}
-        
-
-    -   
-        {{Value|Black}}
+        {{Value|Białe}}
         
 
     -   
-        {{Value|Transparent}}
+        {{Value|Czarne}}
         
-        Not all image formats support transparency.
-2.  Select an option from the **Creation method** dropdown list   *
-    -   
-        {{Value|Offscreen (New)}}
-        
-        This is the default method. This method supports [anti-aliasing](https   *//en.wikipedia.org/wiki/Multisample_anti-aliasing). *Technical information   * The most important classes for this method are Qt\'s QOffscreenSurface and QOpenGLFramebufferObject.*
 
     -   
-        {{Value|Offscreen (Old)}}
+        {{Value|Przezroczyste}}
         
-        This method does not work on many modern Linux systems as it relies on the graphics driver. This method does not support anti-aliasing. *Technical information   * This is a real off-screen rendering method that only uses functions from the Coin3d library.*
+        Nie wszystkie formaty obrazów obsługują przezroczystość.
+2.  Wybierz opcję z listy rozwijanej **Metoda tworzenia**   *
+    -   
+        {{Value|Pozaekranowy (Nowy)}}
+        
+        Jest to metoda domyślna. Ta metoda obsługuje [antyaliasing](https   *//en.wikipedia.org/wiki/Multisample_anti-aliasing). *\'Informacje techniczne   * Najważniejszymi klasami dla tej metody są Qt\'s QOffscreenSurface i QOpenGLFramebufferObject.*
 
     -   
-        {{Value|Framebuffer (custom)}}
+        {{Value|Pozaekranowy (Stary)}}
         
-        This method supports anti-aliasing. *Technical information   * If anti-aliasing is off, this method reads the image directly from the graphics renderer, else it renders to a framebuffer and gets the image from there. The key part of this method is Qt\'s QOpenGLFramebufferObject class.*
+        Ta metoda nie działa w wielu nowoczesnych systemach Linux, ponieważ opiera się na sterowniku graficznym. Metoda ta nie obsługuje antyaliasingu. *Informacje techniczne   * Jest to prawdziwa metoda renderowania poza ekranem, która wykorzystuje tylko funkcje z biblioteki Coin3d.*
 
     -   
-        {{Value|Framebuffer (as is)}}
+        {{Value|Bufor ramki (standardowy)}}
         
-        This method uses the same techniques as **Framebuffer (custom)**. It also supports anti-aliasing but has some limitations related to custom sizes and always uses the current background of the 3D view.
+        Ta metoda obsługuje antyaliasing. *\'Informacje techniczne   * Jeśli antyaliasing jest wyłączony, metoda ta wczytuje obraz bezpośrednio z renderera grafiki, w przeciwnym razie renderuje do bufora ramki i stamtąd pobiera obraz. Kluczową częścią tej metody jest klasa QOpenGLFramebufferObject firmy Qt.*
 
-### Image comment 
+    -   
+        {{Value|Bufor ramki (jak jest)}}
+        
+        Metoda ta wykorzystuje te same techniki co **Bufor ramki (standardowy)**. Obsługuje ona również antyaliasing, ale ma pewne ograniczenia związane z niestandardowymi rozmiarami i zawsze używa bieżącego tła widoku 3D.
 
-1.  Select the {{RadioButton|TRUE|Insert MIBA}} option to add [MIBA](MIBA.md) information to the file. Not all image formats support this.
-2.  Or select the {{RadioButton|TRUE|Insert comment}} option and type a comment in the text field to embed a comment in the file. Not all image formats support this.
-3.  Check the {{CheckBox|TRUE|Add watermark}} checkbox to add a watermark. The watermark is placed in the lower left corner of the image and consists of the FreeCAD logo and name above the main FreeCAD URL   * [www.freecadweb.org](http   *//www.freecadweb.org).
+### Komentarz do obrazka 
+
+1.  Wybierz opcję {{RadioButton|TRUE|Wstaw MIBA}}, aby dodać informacje [MIBA](MIBA.md) do pliku. Nie wszystkie formaty obrazów to obsługują.
+2.  Lub wybierz opcję {{RadioButton|TRUE|Wstaw komentarz}} i wpisz komentarz w polu tekstowym, aby osadzić komentarz w pliku. Nie wszystkie formaty obrazów obsługują tę funkcję.
+3.  Zaznacz pole wyboru {{CheckBox|TRUE|Dodaj znak wodny}}, aby dodać znak wodny. Znak wodny jest umieszczany w lewym dolnym rogu obrazu i zawiera logo i nazwę programu FreeCAD nad głównym adresem URL programu FreeCAD   * [www.freecadweb.org](http   *//www.freecadweb.org).
 
 ## Uwagi
 
--   The number of available image file formats may vary depending on your OS.
--   Some OpenGL drivers don\'t allow renderings above a certain maximum size.
+-   Liczba dostępnych formatów plików graficznych może się różnić w zależności od systemu operacyjnego.
+-   Niektóre sterowniki OpenGL nie zezwalają na renderowanie obrazów powyżej pewnego maksymalnego rozmiaru.
 
 ## Ustawienia
 
--   The 3D view background can be changed in the preferences   * **Edit → Preferences... → Display → Colors → Background color**. See [Preferences Editor](Preferences_Editor#Colors.md).
--   To change the 3D view anti-aliasing   * **Edit → Preferences... → Display → 3D view → Rendering → Anti-Aliasing**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Tło widoku 3D można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Kolory → Kolor tła**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Kolory.md).
+-   Aby zmienić antyaliasing widoku 3D   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Renderowanie → Wygładzanie**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Widok_3D.md).
 
 ## Tworzenie skryptów 
 
-It is possible to create screenshots with python code.
+Istnieje możliwość tworzenia zrzutów ekranu za pomocą kodu środowiska Python.
 
 
 ```python
 Gui.ActiveDocument.ActiveView.saveImage('C   */temp/test.png',1656,783,'Current')
 ```
 
-This script saves a series of screenshots of different sizes and from different directions. The camera type, orthographic or perspective, is also changed.
+Ten skrypt zapisuje serię zrzutów ekranu o różnych rozmiarach i z różnych kierunków. Zmieniany jest także typ ujęcia widoku - ortograficzny lub perspektywiczny.
 
 
 ```python

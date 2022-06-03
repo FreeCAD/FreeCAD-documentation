@@ -12,7 +12,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Part 2D-Versatz konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft entsprechend eine ebene Fläche.
+
+
+</div>
 
 Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben, nicht unbedingt koplanar.
 

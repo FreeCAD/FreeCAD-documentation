@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Ship New‏‎
-   MenuLocation:Ship design → Create a new ship
-   Workbenches:[Ship](Ship_Workbench.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   *
+   Name   *Ship New‏‎
+   MenuLocation   *Ship design → Create a new ship
+   Workbenches   *[Ship](Ship_Workbench.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Ship CreateShip/ro
@@ -18,7 +18,7 @@ De făcut
 
 Create a New Ship or new Ship Instance.
 
-Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account:
+Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account   *
 
 -   All hull geometry must be provided (including symmetric bodies).
 -   Starboard geometry must be included at negatives *y* domain.
@@ -39,11 +39,11 @@ Trebuie introduse cele mai importante date despre nave (FreeCAD-Ship utilizează
 
 ### Date despre nava 
 
-Dimensiunile principale trebuie introduse aici:
+Dimensiunile principale trebuie introduse aici   *
 
--   Lungime: Lungime între perpendiculare, 25,5 m pentru această navă.
--   Lățimea: Lățimea totală a navei, 3,389 m pentru această navă.
--   Schiță: Pescajul proiectat, 1,0 m pentru această navă.
+-   Lungime   * Lungime între perpendiculare, 25,5 m pentru această navă.
+-   Lățimea   * Lățimea totală a navei, 3,389 m pentru această navă.
+-   Schiță   * Pescajul proiectat, 1,0 m pentru această navă.
 
 ![](images/FreeCAD-Ship-S60ShipCreationFront.png ) ![Front view annotations](images/FreeCAD-Ship-S60ShipCreationFront.png )
 
@@ -75,6 +75,14 @@ Când apăsați butonul **Accept** programul crează noua Ship instance numită 
 
 -   [FreeCAD-Ship s60 tutorial ](FreeCAD-Ship_s60_tutorial.md)
 -   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md)
+
+
+
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

@@ -79,12 +79,17 @@ On the *General settings* tab you can specify the following   *
 +++
 |                                              | The default name (FreeCAD version 0.19) or the default label (FreeCAD version 0.20) for the [Draft construction group](Draft_ToggleConstructionMode.md).                                                                                                                                  |
 | **Construction group name**                     |                                                                                                                                                                                                                                                                                                   |
-|                                                          |                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                         |
+|                                                             | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                  |
+|                                                             |                                                                                                                                                                                                                                                                                                |
 +++
 |                                              | The default color for objects drawn while in construction mode.                                                                                                                                                                                                                                   |
 | **Construction geometry color**                 |                                                                                                                                                                                                                                                                                                   |
 |                                                          |                                                                                                                                                                                                                                                                                                   |
 +++
+
+
+</div>
 
 ![](images/Preferences_Draft_Tab_General_settings.png )
 
@@ -193,10 +198,16 @@ On the *User interface settings* tab you can specify the following   *
 +++
 |                          | If checked, the [Draft annotation scale widget](Draft_annotation_scale_widget.md) is enabled.                                                                                                                                         |
 | **Annotation scale widget** |                                                                                                                                                                                                                                               |
-|                                      |                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                     |
+|                                         | <div class="mw-translate-fuzzy">                                                                                                                                                                                                              |
+|                                         |                                                                                                                                                                                                                                            |
+|                                         |                                                                                                                                                                                                                                |
 |                                         | **After changing this preference you must restart FreeCAD.**                                                                                                                                                                         |
 |                                         |                                                                                                                                                                                                                                            |
 +++
+
+
+</div>
 
 ![](images/Preferences_Draft_Tab_User_interface_settings.png )
 
@@ -299,10 +310,16 @@ On the *Grid and snapping* tab you can specify the following   *
 +++
 |                                                | The pick radius (in pixels) of edit nodes.                                                                                                                                                                                                                                            |
 | **Draft edit pick radius**                        |                                                                                                                                                                                                                                                                                       |
-|                                                            |                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                             |
+|                                                               | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                      |
+|                                                               |                                                                                                                                                                                                                                                                                    |
+|                                                               |                                                                                                                                                                                                                                                                        |
 |                                                               | **After changing this preference you must restart FreeCAD.**                                                                                                                                                                                                                 |
 |                                                               |                                                                                                                                                                                                                                                                                    |
 +++
+
+
+</div>
 
 ![](images/Preferences_Draft_Tab_Grid_and_snapping.png )
 
@@ -374,12 +391,17 @@ On the *Visual settings* tab you can specify the following   *
 +++
 |                                                    | Idem.                                                                                                                                                                                                               |
 | **Dashdot line definition**                           |                                                                                                                                                                                                                     |
-|                                                                |                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                           |
+|                                                                   | <div class="mw-translate-fuzzy">                                                                                                                                                                                    |
+|                                                                   |                                                                                                                                                                                                                  |
 +++
 |                                                    | Idem.                                                                                                                                                                                                               |
 | **Dotted line definition**                            |                                                                                                                                                                                                                     |
 |                                                                |                                                                                                                                                                                                                     |
 +++
+
+
+</div>
 
 ![](images/Preferences_Draft_Tab_Visual_settings.png )
 
@@ -468,7 +490,7 @@ On the *Texts and dimensions* tab you can specify the following   *
 | **Text spacing**                       |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                     | If checked, the unit symbol are added to the dimension text.                                                                                                                                                                                                                                                                                                       |
+|                                     | If checked, the unit symbol is added to the dimension text.                                                                                                                                                                                                                                                                                                        |
 | **Show the unit suffix in dimensions** |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++

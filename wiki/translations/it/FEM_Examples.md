@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:FEM Examples
-   Name/it:Esempi FEM
-   MenuLocation: Utilities → Open FEM Examples
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *FEM Examples
+   Name/it   *Esempi FEM
+   MenuLocation   * Utilities → Open FEM Examples
+   Workbenches   *[FEM](FEM_Workbench/it.md)
+   SeeAlso   *[Tutorial FEM](FEM_tutorial/it.md)
+   Version   *0.19
 ---
 
 # FEM Examples/it
@@ -15,7 +15,7 @@
 
 ## Descrizione
 
-[FEM Examples](FEM_Examples.md) launches a graphical interface that allows you to access the different examples available in the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench.md) workbench.
+[FEM Examples](FEM_Examples.md) launches a graphical interface that allows you to access the different examples available in the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench.md) workbench.
 
 ![](images/FEM_Example_gui.png ) 
 *The example selection dialog*

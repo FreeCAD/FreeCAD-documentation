@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Sketcher NewSketch
-   Name/ro:Creaza schita
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Creaza schita
-   SeeAlso:[Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_ReorientSketch/ro.md)
+- GuiCommand   */ro
+   Name   *Sketcher NewSketch
+   Name/ro   *Creaza schita
+   Workbenches   *[Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation   *Sketch → Creaza schita
+   SeeAlso   *[Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_ReorientSketch/ro.md)
 ---
 
 # Sketcher NewSketch/ro
@@ -22,7 +22,7 @@ Acest instrument va crea o nouă schiță.
 
 </div>
 
-Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
+Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
 
 
 <div class="mw-translate-fuzzy">
@@ -32,7 +32,7 @@ Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px
 
 </div>
 
-Făcând Click pe iconiță fără nici o fațetă (pre-)selectată va deschide un contextual întrebând în ce plan poate fi creată schița :
+Făcând Click pe iconiță fără nici o fațetă (pre-)selectată va deschide un contextual întrebând în ce plan poate fi creată schița    *
 
 -   XY-Plane
 -   XZ-Plane

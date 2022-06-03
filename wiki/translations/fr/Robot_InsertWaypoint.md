@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Robot InsertWaypoint
-   Name/fr:Robot Point dans trajectoire
-   Workbenches:[Robot](Robot_Workbench/fr.md)
-   MenuLocation:Robot → Insérer dans la trajectoire
-   Shortcut:A
-   SeeAlso:---
+- GuiCommand   */fr
+   Name   *Robot InsertWaypoint
+   Name/fr   *Robot Point dans trajectoire
+   Workbenches   *[Robot](Robot_Workbench/fr.md)
+   MenuLocation   *Robot → Insérer dans la trajectoire
+   Shortcut   *A
+   SeeAlso   *---
 ---
 
 # Robot InsertWaypoint/fr
@@ -29,7 +29,7 @@ Insérez un point de cheminement à partir de la position actuelle du robot (out
 #### Utilisation
 
 1.  Sélectionnez le robot et la trajectoire dans l\'arborescence
-2.  Cliquez sur <img alt="" src=images/Robot_InsertWaypoint.png  style="width:32px;"> ou choisissez ** Robot** → **<img src="images/Robot_InsertWaypoint.png" width=32px> Insérez dans la trajectoire** du menu supérieur.
+2.  Cliquez sur <img alt="" src=images/Robot_InsertWaypoint.png  style="width   *32px;"> ou choisissez ** Robot** → **<img src="images/Robot_InsertWaypoint.png" width=32px> Insérez dans la trajectoire** du menu supérieur.
 
 
 </div>
@@ -39,7 +39,7 @@ Insérez un point de cheminement à partir de la position actuelle du robot (out
 
 #### Remarques
 
-Le déplacement d\'un robot se fait par:
+Le déplacement d\'un robot se fait par   *
 
 1.  Sélection du robot
 2.  Passez sur le panneau \"Tâches\" (Tasks)

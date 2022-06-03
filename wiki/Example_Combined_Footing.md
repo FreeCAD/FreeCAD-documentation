@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:   Topic:Example Combined Footing
-   Level:Intermediate
-   Time:
-   Author:Shiv Charan
-   FCVersion:0.20
-   Files:
+- TutorialInfo   *   Topic   *Example Combined Footing
+   Level   *Intermediate
+   Time   *
+   Author   *Shiv Charan
+   FCVersion   *0.20
+   Files   *
 ---
 
 # Example Combined Footing
@@ -17,7 +17,7 @@
 
 The [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) tool allows the user to create reinforcing bars inside a Footing [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 In this example we will create Combined Footing Reinforcement as shown in below figure.
 
@@ -54,7 +54,7 @@ In this example we will create Combined Footing Reinforcement as shown in below 
 
 8\. click next or click on Main rebars in list view and fill desired input for main rebars in columns of footing reinforcement.
 
-Only if secondary rebars check is enable then:
+Only if secondary rebars check is enable then   *
 
 9\. click next or click on XDir Secondary rebar in list view and fill desired input for secondary rebars in X direction in a column in footing reinforcement.
 
@@ -63,6 +63,10 @@ Only if secondary rebars check is enable then:
 11\. Click **OK** or **Apply** or **Finish** to generate Footing reinforcement.
 
 12\. Click **Cancel** to exit the dialog box.
+
+  
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

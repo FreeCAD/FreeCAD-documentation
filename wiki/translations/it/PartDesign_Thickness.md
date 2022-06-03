@@ -1,6 +1,6 @@
 # PartDesign Thickness/it
 ---
-- GuiCommand:/it   Name:PartDesign Thickness   Name/it:Spessore   Workbenches:[MenuLocation:Part Design → Spessore   Version:0.17   SeeAlso:[[Part_Thickness/it|Spessore di Parte](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand   */it   Name   *PartDesign Thickness   Name/it   *Spessore   Workbenches   *[MenuLocation   *Part Design → Spessore   Version   *0.17   SeeAlso   *[[Part_Thickness/it|Spessore di Parte](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 Lo strumento **Spessore** funziona su un corpo solido e lo trasforma in un oggetto cavo, con almeno una faccia aperta, e assegna a ciascuna delle sue facce rimanenti uno spessore uniforme. Su alcuni solidi permette di velocizzare significativamente il lavoro ed evita di fare estrusioni e tasche.
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
 *The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
 
 ## Utilizzo
@@ -29,15 +29,15 @@ Lo strumento **Spessore** funziona su un corpo solido e lo trasforma in un ogget
 
 ## Opzioni
 
--   **Thickness**: Spessore della parete dell\'oggetto risultante. Impostare il valore desiderato.
+-   **Thickness**   * Spessore della parete dell\'oggetto risultante. Impostare il valore desiderato.
 -   **Mode**
-    -   *Skin*: Selezionare questa opzione per ottenere un oggetto simile ad un vaso, senza testa ma con il fondo
-    -   *Pipe*: Selezionare questa opzione per ottenere un oggetto simile ad un tubo, senza testa e senza fondo. In questo caso può essere conveniente selezionare le facce da eliminare prima di avviare lo strumento. Aiutarsi con i pulsanti delle viste predefinite o utilizzare i tasti numerici.
-    -   *Recto Verso*:
+    -   *Skin*   * Selezionare questa opzione per ottenere un oggetto simile ad un vaso, senza testa ma con il fondo
+    -   *Pipe*   * Selezionare questa opzione per ottenere un oggetto simile ad un tubo, senza testa e senza fondo. In questo caso può essere conveniente selezionare le facce da eliminare prima di avviare lo strumento. Aiutarsi con i pulsanti delle viste predefinite o utilizzare i tasti numerici.
+    -   *Recto Verso*   *
 -   **Join Type**
-    -   *Arc*: rimuove i bordi esterni e crea un raccordo con un raggio uguale allo spessore definito.
-    -   *Intersection*: quando le facce sono spostate verso l\'esterno, gli spigoli tra le facce vengono mantenuti.
--   **Make thickness inwards**: quando è selezionato, le facce sono spostate verso l\'interno.
+    -   *Arc*   * rimuove i bordi esterni e crea un raccordo con un raggio uguale allo spessore definito.
+    -   *Intersection*   * quando le facce sono spostate verso l\'esterno, gli spigoli tra le facce vengono mantenuti.
+-   **Make thickness inwards**   * quando è selezionato, le facce sono spostate verso l\'interno.
 
 ## Limitazioni
 
@@ -58,7 +58,7 @@ Lo strumento **Spessore** funziona su un corpo solido e lo trasforma in un ogget
 2.  Creare un secondo schizzo sul piano XY
 3.  Creare un secondo pad dal secondo schizzo
 
-Come nelle seguenti immagini:
+Come nelle seguenti immagini   *
 
 ![](images/Braga-primoPad.png )
 
@@ -79,15 +79,15 @@ Poi
 
 </div>
 
-Risultato: ![](images/Brga-spessore.png )
+Risultato   * ![](images/Brga-spessore.png )
 
 ## Errori noti 
 
 
 <div class="mw-translate-fuzzy">
 
--   BRep\_API: command not done
--   BRep\_Tool:: no parameter on edge
+-   BRep\_API   * command not done
+-   BRep\_Tool   *   * no parameter on edge
 -   Silently Fails
 
 

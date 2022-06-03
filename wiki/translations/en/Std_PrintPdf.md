@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Std PrintPdf
-   MenuLocation:File → Export PDF...
-   Workbenches:All
-   SeeAlso:[Std Print](Std_Print.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
+- GuiCommand   *
+   Name   *Std PrintPdf
+   MenuLocation   *File → Export PDF...
+   Workbenches   *All
+   SeeAlso   *[Std Print](Std_Print.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
 ---
 
 # Std PrintPdf/en
@@ -30,7 +30,7 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 ## Preferences
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

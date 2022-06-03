@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch Grid
-   Name/de:Arch Gitter
-   MenuLocation:Arch → Achsenwerkzeuge → Gitter
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Achse](Arch_Axis/de.md), [Arch AchsenSystem](Arch_AxisSystem/de.md)
+- GuiCommand   */de
+   Name   *Arch Grid
+   Name/de   *Arch Gitter
+   MenuLocation   *Arch → Achsenwerkzeuge → Gitter
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   SeeAlso   *[Arch Achse](Arch_Axis/de.md), [Arch AchsenSystem](Arch_AxisSystem/de.md)
 ---
 
 # Arch Grid/de
@@ -15,7 +15,7 @@ Das **<img src="images/Arch_Grid.svg" width=16px> [Arch Gitter](Arch_Grid/de.md)
 
 Das Gitter ist ein 2D Objekt und kann daher überall dort verwendet werden, wo eine 2D Form wie z.B. eine [Entwurf](Draft_Workbench/de.md) oder [Skizze](Sketcher_Workbench/de.md) benötigt wird, es kann sich aber auch wie ein [Arch AchsenSystem](Arch_AxisSystem/de.md) verhalten und dazu verwendet werden, die Positionierung anderer Arch Objekte zu verbreiten.
 
-<img alt="" src=images/Arch_Grid_example.jpg  style="width:600px;"> 
+<img alt="" src=images/Arch_Grid_example.jpg  style="width   *600px;"> 
 *Eine Anordnung von Säulen, ein Geländersystem und ein Fenster, die jeweils auf einem [Arch Gitter](Arch_Grid/de.md) Objekt basieren.*
 
 ## Anwendung
@@ -30,41 +30,41 @@ Das Gitter ist ein 2D Objekt und kann daher überall dort verwendet werden, wo e
 
 -   Eine Spaltenbreite oder Zeilenhöhe von 0 bedeutet, dass die Größe automatisch an die Gesamtbreite/-höhe des Gitters angepasst wird.
 -   Zellen können zusammengeführt und wieder getrennt werden, indem sie ausgewählt und auf die entsprechende Schaltfläche geklickt wird.
--   Bei Verwendung als **Achsen** Eigenschaft anderer Arch Objekte steuert das Gitter die Positionierung dieser Objekte. Die **Punkteausgabe** Eigenschaft definiert, wie die anderen Objekte auf dem Gitter platziert werden: An Knotenpunkten, Kantenmittelpunkten oder Flächenmittelpunkten.
+-   Bei Verwendung als **Achsen** Eigenschaft anderer Arch Objekte steuert das Gitter die Positionierung dieser Objekte. Die **Punkteausgabe** Eigenschaft definiert, wie die anderen Objekte auf dem Gitter platziert werden   * An Knotenpunkten, Kantenmittelpunkten oder Flächenmittelpunkten.
 -   Durch festlegen der **Auto Höhe** oder **Auto Breite** Eigenschaften auf einen Wert ungleich Null zu setzen, ignoriert die Gesamtzahl der Zeilen/Spalten und ihre individuellen Höhen/Breiten. Stattdessen wird automatisch die maximale Anzahl von Spalten oder Zeilen der angegebenen Auto Breite/Höhe erzeugt.
 
 ## Eigenschaften
 
--    **Zeilen**: Die Anzahl der Zeilen
+-    **Zeilen**   * Die Anzahl der Zeilen
 
--    **Spalten**: Die Anzahl der Spalten
+-    **Spalten**   * Die Anzahl der Spalten
 
--    **Zeilengröße**: Die Größen für Zeilen
+-    **Zeilengröße**   * Die Größen für Zeilen
 
--    **Spaltengröße**: Die Größen für Spalten
+-    **Spaltengröße**   * Die Größen für Spalten
 
--    **Punkte Ausgabe**: Die Typ der von diesem Gitterobjekt erzeugten 3D Punkte
+-    **Punkte Ausgabe**   * Die Typ der von diesem Gitterobjekt erzeugten 3D Punkte
 
--    **Breite**: Die Gesamtbreite dieses Gitters
+-    **Breite**   * Die Gesamtbreite dieses Gitters
 
--    **Höhe**: Die Gesamthöhe dieses Gitters
+-    **Höhe**   * Die Gesamthöhe dieses Gitters
 
--    **Auto Breite**: Erstellt automatische Spalteneinteilungen (zum Deaktivieren auf 0 gesetzt)
+-    **Auto Breite**   * Erstellt automatische Spalteneinteilungen (zum Deaktivieren auf 0 gesetzt)
 
--    **Auto Höhe**: Erstellt automatische Zeileneinteilungen (zum Deaktivieren auf 0 gesetzt)
+-    **Auto Höhe**   * Erstellt automatische Zeileneinteilungen (zum Deaktivieren auf 0 gesetzt)
 
--    **Neuausrichten**: Wenn sich dieses Gitter im Kantenmittelpunkt Modus befindet, muss es seine Kinder entlang der Kantennormalen neu ausrichten oder nicht
+-    **Neuausrichten**   * Wenn sich dieses Gitter im Kantenmittelpunkt Modus befindet, muss es seine Kinder entlang der Kantennormalen neu ausrichten oder nicht
 
--    **Ausgeblendete Flächen**: Die Indizes der ausgeblendeten Flächen
+-    **Ausgeblendete Flächen**   * Die Indizes der ausgeblendeten Flächen
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Gitter kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus durch folgende Funktion verwendet werden:
+Das Werkzeug Gitter kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus durch folgende Funktion verwendet werden   *
 
 
 ```python

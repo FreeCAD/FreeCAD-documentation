@@ -23,7 +23,7 @@ Alle Ergänzungen zum Arbeitsauftrag\--einschließlich Änderungen und Arbeitsga
 
 ## Was ist der Unterschied zwischen der lichten Höhe und der sicheren Höhe? 
 
-Genauere Informationen ist unter [Tiefen und Höhen](Template:Depths/Heights.md) verfügbar.
+Genauere Informationen ist unter [Tiefen und Höhen](Template   *Depths/Heights.md) verfügbar.
 
 [Anfang](#top.md)
 
@@ -31,7 +31,7 @@ Genauere Informationen ist unter [Tiefen und Höhen](Template:Depths/Heights.md)
 
 Das EinrichtungsBlatt ist ein spezielles Tabellenblatt, das in einem Auftrag enthalten ist, in der Eigenschaftsansicht geändert wird und nur über die Pfad Arbeitsbereich zugänglich ist. Es bietet einen Mechanismus für erfahrene Benutzer, um Aspekte ihres Auftrags zu konfigurieren, indem sie Werte und Ausdrücke verwenden, die im EinrichtungsBlatt enthalten sind.
 
-Die aktuellen Eingaben für Tiefen-, Höhen- und Werkzeugsteuerungen umfassen:
+Die aktuellen Eingaben für Tiefen-, Höhen- und Werkzeugsteuerungen umfassen   *
 
 1.  Endtiefe Ausdruck \-- OpFinalDepth
 2.  Anfangstiefe Ausdruck \-- OpStartDepth
@@ -83,7 +83,7 @@ OpenCamLibrary ist nicht in FreeCAD eingebunden, um sicherzustellen, dass keine 
 
 Bei Taschenbearbeitungen ist der Startpunkt standardmäßig auf XYZ = 000 eingestellt und immer aktiviert, aber auch er kann im Eigenschaftsansichtsfenster konfiguriert werden. Taschen- und Planfräsbearbeitungen bieten auf dem Bearbeitungsreiter eine explizite Angabe des Steig- und des konventionellen Schnittmodus.
 
-Für Konturstil Bearbeitungen verfügt der Bearbeitungsreiter über einen \"Richtung\" Eingang , der als CW (Uhrzeigersinn) oder CCW (Gegenuhrzeigersinn) konfiguriert werden kann und die Schnittrichtung definiert. Als Referenz:
+Für Konturstil Bearbeitungen verfügt der Bearbeitungsreiter über einen \"Richtung\" Eingang , der als CW (Uhrzeigersinn) oder CCW (Gegenuhrzeigersinn) konfiguriert werden kann und die Schnittrichtung definiert. Als Referenz   *
 
 1.  Cut Side = Außen, Schnittrichtung = CCW, Steigungsschnitt
 2.  Cut Side = Außen, Schnittrichtung = CW, Konventioneller Schnitt
@@ -97,7 +97,7 @@ In Flächenfräsbearbeitungen können Materialzugaben festgelegt werden, die bei
 
 Bei Kontur- und Taschenoperationen dient der Extra Versatz demselben Zweck.
 
-Diese Eingaben sind wertvoll und erlauben unter anderem folgende Funktionalität:
+Diese Eingaben sind wertvoll und erlauben unter anderem folgende Funktionalität   *
 
 1.  Definition von Schruppdurchgängen, in Verbindung mit den Tiefen Eingabefeldern.
 2.  Spezifizierung von Überschnitten für Plandreharbeiten.
@@ -159,7 +159,7 @@ Wenn die Pfadlinien das Simulationsergebnis verdecken, sollte ihre Sichtbarkeit 
 
 ## Welche Bedeutung haben die Farben der Pfadlinien? 
 
-Die Farben der Pfadlinien werden in der Bearbeiten -\> Einstellungen -\> Pfad-\>GUI-\>Standard Pfadfarben festgelegt. Die Standardfarben schließen ein:
+Die Farben der Pfadlinien werden in der Bearbeiten -\> Einstellungen -\> Pfad-\>GUI-\>Standard Pfadfarben festgelegt. Die Standardfarben schließen ein   *
 
 1.  Grün für normale Pfade.
 2.  Rot für schnelle Pfade.
@@ -211,7 +211,7 @@ Der Pfad Arbeitsbereich hat sich von FreeCAD v0.16 auf v0.17 drastisch veränder
 
 ## Warum sind Bögen nicht rund, sondern bestehen aus einer Reihe von geraden Linien? 
 
-Dabei geht es nur um die Anzeige des Pfades. Du kannst dies in den Einstellungen ändern: Lade Pfad Arbeitsbereich.
+Dabei geht es nur um die Anzeige des Pfades. Du kannst dies in den Einstellungen ändern   * Lade Pfad Arbeitsbereich.
 
 1.  Öffne Einstellungen -\>Pfad-\>Auftragseinstellungen
 2.  Setze die Werte für *Standard Geometrietoleranz* und *Standard Kurvengenauigkeit* auf kleine Werte, aber nicht auf 0, z.B. auf 0.01mm.

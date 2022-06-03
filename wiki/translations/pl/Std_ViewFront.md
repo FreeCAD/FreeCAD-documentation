@@ -1,37 +1,38 @@
 ---
-- GuiCommand:
-   Name:Std ViewFront
-   MenuLocation:View → Standard views → Front
-   Workbenches:All
-   Shortcut:**1**
-   SeeAlso:[Std ViewTop](Std_ViewTop.md), [Std ViewRight](Std_ViewRight.md)
+- GuiCommand   */pl
+   Name   *Std ViewFront
+   Name/pl   *Std   * Widok od przodu
+   MenuLocation   *Widok → Widoki standardowe → Od przodu
+   Workbenches   *wszystkie
+   Shortcut   ***1**
+   SeeAlso   *[Widok od góry](Std_ViewTop/pl.md), [Widok od prawej](Std_ViewRight/pl.md)
 ---
 
 # Std ViewFront/pl
 
-## Description
+## Opis
 
-The **Std ViewFront** command points the camera in the active [3D view](3D_view.md) in the direction of the positive Y axis.
+Polecenie **Widok od przodu** ustawia ujęcie widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) w kierunku dodatnim osi Y.
 
 ![](images/FreeCAD_views_front.svg ) 
-*Arrow 1 points in the direction of the front view*
+*Strzałka 1 wskazuje kierunek widoku z przodu.*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewFront.svg" width=16px> [Std ViewFront](Std_ViewFront.md)** button.
-    -   Select the **View → Standard views → <img src="images/Std_ViewFront.svg" width=16px> Front** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewFront.svg" width=16px> Front** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **1**.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_ViewFront.svg" width=16px> [Od przodu](Std_ViewFront/pl.md)**.
+    -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewFront.svg" width=16px> Od przodu**.
+    -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewFront.svg" width=16px> Od przodu**.
+    -   Użyj skrótu klawiaturowego   * **1**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change to front view use the `viewFront` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok *Od przodu*, należy użyć metody `viewFront` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

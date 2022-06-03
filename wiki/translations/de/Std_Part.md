@@ -5,7 +5,7 @@
    MenuLocation   *None
    Workbenches   *All
    Version   *0.17
-   SeeAlso   *[Std Group](Std_Group/de.md), [PartDesign Body](PartDesign_Body/de.md)
+   SeeAlso   *[Std Gruppe](Std_Group/de.md), [PartDesign Körper](PartDesign_Body/de.md)
 ---
 
 # Std Part/de
@@ -13,13 +13,13 @@
 ## Beschreibung
 
 
-**[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part/de.md)**
+**[<img src=images/Std_Part.svg style="width   *16px"> [Std Teil](Std_Part/de.md)**
 
-, intern [Anwendung Teil](App_Part/de.md) genannt, ist ein Sammelbehälter zur allgemeinen Verwendung, der eine Gruppe von Objekten zusammenhält, so dass sie zusammen als Einheit in der [3D Ansicht](3D_view/de.md) bewegt werden können.
+, intern [App-Part](App_Part/de.md) genannt, ist ein Sammelbehälter zur allgemeinen Verwendung, der eine Gruppe von Objekten (Baugruppe) zusammenhält, so dass sie zusammen als Einheit in der [3D-Ansicht](3D_view/de.md) bewegt werden können.
 
-Das \'Std Part\'-Element wurde entwickelt, um als Fundament zur Zusammenstellung von mechanischen [Baugruppen](assembly/de.md) zu dienen. Es dient zum Anordnen von Objekten, die eine [Part Topo-Form](Part_TopoShape/de.md) haben, wie [Part Grundkörper](Part_Primitives/de.md), [PartDesign Körper](PartDesign_Body/de.md) und andere [Part Formelement](Part_Feature/de.md). Das \'Std Part\' stellt ein [Bezugsobjekt](#Origin.md) mit lokalen x-, y- und z-Achsen und Standardebenen zur Verfügung. Sie dienen als Bezug und zur Positionierung der enthaltenen Objekte. Zusätzlich können \'Std Parts\' in andere \'Std Part\'s eingebettet werden, um eine Gesamtbaugruppe aus kleineren Unterbaugruppen zu erstellen.
+Das \'Std Part\'-Element wurde entwickelt, um als Grundbaustein zur Zusammenstellung von mechanischen [Zusammenbauten](assembly/de.md) (Baugruppen) zu dienen. Es dient zum Anordnen von Objekten, die eine [Part TopoForm](Part_TopoShape/de.md) haben, wie [Part Grundkörper](Part_Primitives/de.md), [PartDesign Körper](PartDesign_Body/de.md) und andere [Part Formelement](Part_Feature/de.md). Das \'Std Part\' stellt ein [Ursprungsobjekt](#Ursprung.md) mit lokalen X-, Y- und Z-Achsen und Standardebenen zur Verfügung, die als Bezug für die Positionierung der enthaltenen Objekte dienen können. Zusätzlich können \'Std Parts\' in andere \'Std Parts\' eingebettet werden, um eine Gesamtbaugruppe aus kleineren Unterbaugruppen zu erstellen.
 
-Obwohl es vorläufig für Festkörper gedacht ist, kann \'Std Part\' zur Handhabung jedes Objektes verwendet werden, das eine [Positionierungseigenschaft](Placement/de.md) hat. Deshalb kann es auch [Polygonnetz Formelement](Mesh_Feature/de.md), [Skizzen](Sketch/de.md) und andere Objekte enthalten, die aus [App GeoFeature](App_GeoFeature.md) kommen.
+Obwohl es hauptsächlich für Festkörper gedacht ist, kann das \'Std Part\' zur Handhabung aller Objekte verwendet werden, die die Eigenschaft [Placement](Placement/de.md) besitzen. Daher kann es auch [Mesh Formelemente](Mesh_Feature/de.md), [Skizzen](Sketch/de.md) und andere Objekte enthalten, die von der Klasse [App-GeoFeature](App_GeoFeature/de.md) abgeleitet werden.
 
 Die **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. Beim anderen wird [Standard Teil](Std_Part/de.md) nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte zur Erzeugung von [Baugruppen](assembly/de.md) im Raum zu positionieren.
 

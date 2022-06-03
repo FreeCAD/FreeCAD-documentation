@@ -42,12 +42,12 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 ### Navigazione Blender 
 
-The Blender navigation style was modeled after [Blender](https://www.blender.org).
+The Blender navigation style was modeled after [Blender](https   *//www.blender.org).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo stile di navigazione Blender segue il modello di [Blender](https://www.blender.org). In precedenza non c\'era la traslazione con il solo mouse, ed era richiesto l\'uso del tasto **Shift** per spostare la vista. Questo è cambiato nel 2016 con l\'introduzione di una funzione aggiuntiva. Per eseguire una panoramica della vista, ora è possibile premere i pulsanti sinistro e destro del mouse per spostare la vista.
+Lo stile di navigazione Blender segue il modello di [Blender](https   *//www.blender.org). In precedenza non c\'era la traslazione con il solo mouse, ed era richiesto l\'uso del tasto **Shift** per spostare la vista. Questo è cambiato nel 2016 con l\'introduzione di una funzione aggiuntiva. Per eseguire una panoramica della vista, ora è possibile premere i pulsanti sinistro e destro del mouse per spostare la vista.
 
 
 {{Blender Navigation/it
@@ -83,13 +83,13 @@ Questo è lo stile di navigazione predefinito. Consente all\'utente un semplice 
 <div class="mw-translate-fuzzy">
 Tenendo premuto **Ctrl** consente la selezione di più oggetti.
 |Pan_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
-|Pan_mode_text=Modalità Traslazione: tenere premuto il tasto **Ctrl**, preme il tasto destro del mouse una volta, quindi muovere il puntatore. {{Version/it|0.17}}
+|Pan_mode_text=Modalità Traslazione   * tenere premuto il tasto **Ctrl**, preme il tasto destro del mouse una volta, quindi muovere il puntatore. {{Version/it|0.17}}
 |Zoom_text=Usare la rotellina del mouse per zoommare avanti e indietro.
 </div>
 
 <div class="mw-translate-fuzzy">
 Facendo clic sul pulsante centrale del mouse, la vista viene nuovamente centrata sulla posizione del cursore.
-|Zoom_mode_text=Modalità zoom: tenere premuti i tasti **Ctrl** e **Shift**, premere il pulsante destro del mouse una volta, quindi spostare il puntatore. {{Version/it|0.17}}
+|Zoom_mode_text=Modalità zoom   * tenere premuti i tasti **Ctrl** e **Shift**, premere il pulsante destro del mouse una volta, quindi spostare il puntatore. {{Version/it|0.17}}
 |Rotate_view_text=Tenere premuto il pulsante centrale del mouse, quindi premere e tenere premuto il pulsante sinistro del mouse, quindi spostare il puntatore.
 </div>
 
@@ -99,7 +99,7 @@ La posizione del cursore quando viene premuto il pulsante centrale del mouse det
 
 <div class="mw-translate-fuzzy">
 Un doppio clic con il pulsante centrale del mouse imposta un nuovo centro di rotazione.
-|Rotate_view_mode_text=Modalità rotazione: tenere premuto il tasto **Shift**, premere il tasto destro del mouse una volta, quindi spostare il puntatore. {{Version/it|0.17}}
+|Rotate_view_mode_text=Modalità rotazione   * tenere premuto il tasto **Shift**, premere il tasto destro del mouse una volta, quindi spostare il puntatore. {{Version/it|0.17}}
 |Rotate_view_alt_text=Tenere premuto il pulsante centrale del mouse, e tenere premuto il pulsante destro del mouse, quindi spostare il puntatore.
 </div>
 
@@ -167,7 +167,7 @@ In alternativa, utilizzare la rotellina del mouse per ingrandire e ridurre.
 
 ### Navigazione OpenCascade 
 
-The OpenCascade navigation style was modeled after [OpenCascade](https://www.opencascade.com/).
+The OpenCascade navigation style was modeled after [OpenCascade](https   *//www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -189,7 +189,7 @@ In alternativa, tenere premuto **Ctrl** e il tasto sinistro del mouse, quindi sp
 
 <div class="mw-translate-fuzzy">
 
-La Navigazione OpenInventor (formalmente Inventor), si basa sul modello [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Per selezionare gli oggetti, è necessario tenere premuto il tasto **Ctrl**.
+La Navigazione OpenInventor (formalmente Inventor), si basa sul modello [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor). Per selezionare gli oggetti, è necessario tenere premuto il tasto **Ctrl**.
 
 
 </div>
@@ -227,7 +227,7 @@ In alternativa, tenere premuto il pulsante centrale del mouse, quindi premere e 
 
 ### OpenSCAD navigation 
 
-The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
+The OpenSCAD navigation style was modeled after [OpenSCAD](https   *//openscad.org/).
 
 
 <small>(v0.20)</small> 
@@ -248,7 +248,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 
 ### Navigazione Revit 
 
-The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wiki/Autodesk_Revit).
+The Revit navigation style was modeled after [Revit](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
 
 
 {{Revit Navigation
@@ -270,7 +270,7 @@ In alternativa, tenere premuto il pulsante centrale del mouse, e tenere premuto 
 
 ### TinkerCAD navigation 
 
-The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
+The TinkerCAD navigation style was modeled after [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
 
 
 <small>(v0.20)</small> 
@@ -327,11 +327,11 @@ FreeCAD supporta anche i [dispositivi di input 3D](3D_input_devices/it.md).
 
 ## Navigazione consigliata per macOS 
 
-Sui MacBook con trackpad la navigazione gestuale funziona molto bene, ma i gesti hanno un significato speciale:
+Sui MacBook con trackpad la navigazione gestuale funziona molto bene, ma i gesti hanno un significato speciale   *
 
--   Zoom: trascina con due dita.
--   Ruota: trascina con tre dita.
--   Panoramica: **Ctrl** + tre dita.
+-   Zoom   * trascina con due dita.
+-   Ruota   * trascina con tre dita.
+-   Panoramica   * **Ctrl** + tre dita.
 
 ## Sviluppo di una navigazione personalizzata 
 

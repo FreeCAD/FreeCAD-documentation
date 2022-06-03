@@ -1,6 +1,8 @@
 # Category:Administration/sv
 This category contains articles and categories about wiki administrative subjects.
 
+[Category   *Categories/sv](Category   *Categories/sv.md)
+
 ### Contents
 
 |     |     |     |

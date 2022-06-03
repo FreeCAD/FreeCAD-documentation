@@ -11,15 +11,14 @@
 
 ## Description
 
-L\'outil Décalage 3D de la pièce crée des copies parallèles d\'une forme sélectionnée à une certaine distance de la forme de base, créant ainsi un nouvel objet.
+L\'outil <img alt="" src=images/Part_Offset.svg  style="width   *24px;"> **Part Décalage 3D** de la pièce crée des copies parallèles d\'une forme sélectionnée à une certaine distance de la forme de base, créant ainsi un nouvel objet.
 
 <img alt="" src=images/PartOffset0.png  style="width   *400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width   *400" height="200px;">
 
 ## Utilisation
 
-1.  Sélectionnez l\'objet à partir duquel vous souhaitez créer le décalage.
-2.  Appuyez sur le bouton **<img src="images/Part_Offset.svg" width=16px> '''Décalage 3D'''
-**
+1.  Sélectionnez un objet à décaler.
+2.  Appuyez sur le bouton **<img src="images/Part_Offset.svg" width=16px> [Décalage 3D](Part_Offset/fr.md)**.
 3.  Ajustez la distance et les paramètres en fonction de l\'objet d\'origine et de la validité des objets résultants.
 
 ## Remarques

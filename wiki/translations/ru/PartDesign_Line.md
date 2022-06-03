@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Создать опорную линию
-   Name:PartDesign_Line
-   MenuLocation:Part Design → Create a datum → Создать опорную линию
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Создать опорную линию
+   Name   *PartDesign_Line
+   MenuLocation   *Part Design → Create a datum → Создать опорную линию
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   Version   *0.17
+   SeeAlso   *[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 # PartDesign Line/ru
@@ -14,7 +14,7 @@
 
 Creates a **datum line** which can be used as reference for sketches, other datum geometry or features. For example it can be used as revolution axis for Revolution and Groove features.
 
-<img alt="" src=images/datum_line.png  style="width:600px;"> 
+<img alt="" src=images/datum_line.png  style="width   *600px;"> 
 *Two Datum lines through opposite corners of the cube meet at the center of mass.*
 
 ## Применение
@@ -33,11 +33,11 @@ Double-click the DatumLine label in the Model tree or right-click and select **E
 
 ## Свойства
 
--    **MapMode**: lists the attachment mode used.
+-    **MapMode**   * lists the attachment mode used.
 
--    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**: name given to the object, this name can be changed at convenience.
+-    **Label**   * name given to the object, this name can be changed at convenience.
 
 
 

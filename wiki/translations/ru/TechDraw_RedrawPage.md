@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Перерисовать страницу
-   Name:TechDraw_RedrawPage
-   MenuLocation:TechDraw → Перерисовать страницу
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
+- GuiCommand   */ru
+   Name/ru   *Перерисовать страницу
+   Name   *TechDraw_RedrawPage
+   MenuLocation   *TechDraw → Перерисовать страницу
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   Version   *0.19
 ---
 
 # TechDraw RedrawPage/ru

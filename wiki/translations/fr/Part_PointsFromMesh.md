@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Part PointsFromMesh‎
-   Name/fr:Part Points à partir de maillage
-   MenuLocation:Part → Create points object from mesh
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md), [Part Convertir en solide](Part_MakeSolid/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
+- GuiCommand   */fr
+   Name   *Part PointsFromMesh‎
+   Name/fr   *Part Points à partir de maillage
+   MenuLocation   *Part → Create points object from mesh
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md), [Part Convertir en solide](Part_MakeSolid/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---
 
 # Part PointsFromMesh/fr

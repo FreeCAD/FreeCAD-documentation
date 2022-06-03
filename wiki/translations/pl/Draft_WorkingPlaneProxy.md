@@ -1,18 +1,18 @@
 ---
-- GuiCommand:
-   Name:Draft WorkingPlaneProxy
-   MenuLocation:Utilities → Create working plane proxy
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft SelectPlane](Draft_SelectPlane.md)
+- GuiCommand   *
+   Name   *Draft WorkingPlaneProxy
+   MenuLocation   *Utilities → Create working plane proxy
+   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso   *[Draft SelectPlane](Draft_SelectPlane.md)
 ---
 
 # Draft WorkingPlaneProxy/pl
 
 ## Description
 
-The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft WorkingPlaneProxy** command creates a working plane proxy to save the current [Draft working plane](Draft_SelectPlane.md). A working plane proxy can be used to quickly restore a working plane. The camera position and visibility of the objects in the [3D view](3D_view.md) are also saved in the working plane proxy and can, [optionally](#Properties.md), be restored as well.
+The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width   *24px;"> **Draft WorkingPlaneProxy** command creates a working plane proxy to save the current [Draft working plane](Draft_SelectPlane.md). A working plane proxy can be used to quickly restore a working plane. The camera position and visibility of the objects in the [3D view](3D_view.md) are also saved in the working plane proxy and can, [optionally](#Properties.md), be restored as well.
 
-<img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_WPProxy_example.png  style="width   *400px;"> 
 *Three working plane proxies showing different orientations and offsets*
 
 ## Usage
@@ -20,7 +20,7 @@ The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **D
 1.  Optionally change the [working plane](Draft_SelectPlane.md).
 2.  Optionally change the [3D view](3D_view.md).
 3.  Optionally change the visibility state of objects in the document.
-4.  There are several ways to invoke the command:
+4.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md)** button.
     -   Select the **Utilities → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Create working plane proxy** option from the menu.
 5.  A working plane proxy is created.
@@ -28,60 +28,60 @@ The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **D
 
 ## Menu podręczne 
 
-For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
+For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu   *
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**   * updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**   * updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
 ## Notes
 
--   Working plane proxies can be [moved](Draft_Move.md) and [rotated](Draft_Rotate.md) like any other object. Use <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft Snap Center](Draft_Snap_Center.md) to snap to their **Placement** point.
+-   Working plane proxies can be [moved](Draft_Move.md) and [rotated](Draft_Rotate.md) like any other object. Use <img alt="" src=images/Draft_Snap_Center.svg  style="width   *16px;"> [Draft Snap Center](Draft_Snap_Center.md) to snap to their **Placement** point.
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
+A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Base}}
 
--    **Placement|Placement**: specifies the position of the working plane proxy in the [3D view](3D_view.md). See [Placement](Placement.md).
+-    **Placement|Placement**   * specifies the position of the working plane proxy in the [3D view](3D_view.md). See [Placement](Placement.md).
 
--    **Shape|Shape|Hidden**: specifies the shape of the working plane proxy.
+-    **Shape|Shape|Hidden**   * specifies the shape of the working plane proxy.
 
 ### View
 
 
 {{TitleProperty|Base}}
 
--    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
+-    **Line Color|Color**   * specifies the color of all elements of the working plane proxy.
 
--    **Line Width|Float**: specifies the line width of the axes and arrow symbols.
+-    **Line Width|Float**   * specifies the line width of the axes and arrow symbols.
 
--    **Restore State|Bool**: specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+-    **Restore State|Bool**   * specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
 
--    **Restore View|Bool**: specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+-    **Restore View|Bool**   * specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
 
--    **Transparency|Percent**: specifies the transparency of the face of the working plane proxy.
+-    **Transparency|Percent**   * specifies the transparency of the face of the working plane proxy.
 
--    **View Data|FloatList**: specifies the camera position and settings.
+-    **View Data|FloatList**   * specifies the camera position and settings.
 
--    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
+-    **Visibility Map|Map|Hidden**   * specifies the visibility state of objects.
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**: specifies the size of the arrow symbols displayed at the tip of the three axes.
+-    **Arrow Size|Length**   * specifies the size of the arrow symbols displayed at the tip of the three axes.
 
--    **Display Size|Length**: specifies the length and width of the working plane proxy.
+-    **Display Size|Length**   * specifies the length and width of the working plane proxy.
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a Draft WorkingPlaneProxy use the `make_workingplaneproxy` method of the Draft module.
 

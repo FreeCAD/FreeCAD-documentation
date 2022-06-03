@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/cs
-   Name:Sketcher External
-   Name/cs:Sketcher External
-   MenuLocation:Sketch → Sketcher geometries → Sketcher External
-   Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
-   Shortcut:X
-   SeeAlso:[Sketcher ConstructionMode](Sketcher_ToggleConstruction/cs.md)
+- GuiCommand   */cs
+   Name   *Sketcher External
+   Name/cs   *Sketcher External
+   MenuLocation   *Sketch → Sketcher geometries → Sketcher External
+   Workbenches   *[Sketcher](Sketcher_Workbench/cs.md)
+   Shortcut   *X
+   SeeAlso   *[Sketcher ConstructionMode](Sketcher_ToggleConstruction/cs.md)
 ---
 
 # Sketcher External/cs
@@ -25,7 +25,7 @@ Tento nástroj přetáhne linky konstrukce do aktuálního náčrtu. Když jsou 
 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
-<FILE:Sketcher_ExternalEsempio1.png>
+<FILE   *Sketcher_ExternalEsempio1.png>
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +40,7 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 </div>
 
 -   Create a new sketch, or open an existing sketch.
--   Press the **[<img src=images/Sketcher_External.svg style="width:16px"> [External geometry](Sketcher_External.md)** button.
+-   Press the **[<img src=images/Sketcher_External.svg style="width   *16px"> [External geometry](Sketcher_External.md)** button.
 -   Select an edge or a vertex that you want to link to in the sketch.
 -   Press **Esc**, or select another tool to stop importing geometry into the sketch.
 
@@ -107,7 +107,7 @@ Volba 1 je jednodušší volbou. Chcete-li udělat otvor na určitém místě ob
 
 ### Záludné použití, Sneaky Usage, Dimension One Sketch Off Of Another 
 
-One can use this to dimension one sketch off of another using the following order of operations:
+One can use this to dimension one sketch off of another using the following order of operations   *
 
 1.  Vytvořte náčrt\#1
 2.  Nástrojem Deska nebo vysunutím z něj vytvořte těleso, těleso\#1
@@ -127,15 +127,15 @@ Linky v barvě magenta jsou Přetažené konstrukce vybrané ve dvou objektech s
 
 In this case they are used as a reference for tangency constraints with the circumferences of one circle. They are also used as the reference for a horizontal and a vertical constraint to locate the centre of the second circle relative to the end and top of the Pad.
 
-<FILE:Sketcher_ExternalEsempio2.png>
+<FILE   *Sketcher_ExternalEsempio2.png>
 
 Aktivní náčrt se základním tvarem je skryt a přetažené konstrukce jsou viditelné.
 
-<FILE:Sketcher_ExternalEsempio4.png>
+<FILE   *Sketcher_ExternalEsempio4.png>
 
 Při uzavření skicáře nejsou přetažené konstrukce viditelné.
 
-<FILE:Sketcher_ExternalEsempio3.png>
+<FILE   *Sketcher_ExternalEsempio3.png>
 
 
 <div class="mw-translate-fuzzy">
@@ -146,7 +146,9 @@ Při uzavření skicáře nejsou přetažené konstrukce viditelné.
 
 {{Sketcher_Tools_navi
 
-}}
+}} 
+
+[Category   *Sketcher/cs](Category   *Sketcher/cs.md)
 
 
 

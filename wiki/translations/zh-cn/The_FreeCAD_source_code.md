@@ -1,9 +1,9 @@
 # The FreeCAD source code/zh-cn
-[FreeCAD的源代码](https://github.com/FreeCAD/FreeCAD)通过Git管理，是公开的，是开放的，是可获得的，声明于[LGPL许可协议](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)之下。任何人都可以复制、下载、阅读、分析、分发和改动。如果你改了代码，还想看到它被吸收进官方代码里，我们要给你提个醒，你的改动需要被FreeCAD开发者认可。所以，聪明的做法是，先到[论坛](http://forum.freecadweb.org)上去发帖，跟大家讨论一下，说说你的初衷和想法。免得到头来，出乎你的意料，你的改动被拒绝。
+[FreeCAD的源代码](https   *//github.com/FreeCAD/FreeCAD)通过Git管理，是公开的，是开放的，是可获得的，声明于[LGPL许可协议](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)之下。任何人都可以复制、下载、阅读、分析、分发和改动。如果你改了代码，还想看到它被吸收进官方代码里，我们要给你提个醒，你的改动需要被FreeCAD开发者认可。所以，聪明的做法是，先到[论坛](http   *//forum.freecadweb.org)上去发帖，跟大家讨论一下，说说你的初衷和想法。免得到头来，出乎你的意料，你的改动被拒绝。
 
 如果你有兴趣，深入探索FreeCAD源代码，下面就是一些提醒，一点信息，帮助你走上正轨。
 
--   FreeCAD代码主要采用**C++**编程，但是重度依赖**Python**。FreeCAD的功能里，非常大的部分都提供相应的Python包装。FreeCAD的核心哲学之一，就是对任何C++开发的新属性，都要给出Python接口。为此，FreeCAD通篇都重度使用CPython（Python自己提供的C界面工具），特别是[PyCXX](http://cxx.sourceforge.net/)。FreeCAD代码里也提供了很多模版和定制工具，便于你包装相应的Python封装。FreeCAD一些更高层的部分，完全是用Python写的代码。
+-   FreeCAD代码主要采用**C++**编程，但是重度依赖**Python**。FreeCAD的功能里，非常大的部分都提供相应的Python包装。FreeCAD的核心哲学之一，就是对任何C++开发的新属性，都要给出Python接口。为此，FreeCAD通篇都重度使用CPython（Python自己提供的C界面工具），特别是[PyCXX](http   *//cxx.sourceforge.net/)。FreeCAD代码里也提供了很多模版和定制工具，便于你包装相应的Python封装。FreeCAD一些更高层的部分，完全是用Python写的代码。
 
 
 <div class="mw-translate-fuzzy">
@@ -36,7 +36,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   FreeCAD使用**其他开源库**，堪称求贤若渴。Python和Qt，用在核心和几乎所有模块中。除了它们，还有两个重度使用的库，也几乎到处可见。它们是[OpenCasCade Technology](https://en.wikipedia.org/wiki/Open_Cascade_Technology)和[Coin3D](http://www.coin3d.org/)。FreeCAD创建和管理所有的实体几何，采用了OpenCasCade；而管理3D视图，采用了coin3D。OpenCasCade主要用在App世界，而coin3D更多用于Gui世界。要用FreeCAD做任何几何相关的工作，都需要基本理解OpenCascade，这是基础。特别的模块当然采用特别的库。除了要求这些库在所有平台上都容易获得，通常没有什么其他限制。所以可以想见，一个全副武装的FreeCAD，它的依赖库列表，那将是相当庞大的阵容。
+-   FreeCAD使用**其他开源库**，堪称求贤若渴。Python和Qt，用在核心和几乎所有模块中。除了它们，还有两个重度使用的库，也几乎到处可见。它们是[OpenCasCade Technology](https   *//en.wikipedia.org/wiki/Open_Cascade_Technology)和[Coin3D](http   *//www.coin3d.org/)。FreeCAD创建和管理所有的实体几何，采用了OpenCasCade；而管理3D视图，采用了coin3D。OpenCasCade主要用在App世界，而coin3D更多用于Gui世界。要用FreeCAD做任何几何相关的工作，都需要基本理解OpenCascade，这是基础。特别的模块当然采用特别的库。除了要求这些库在所有平台上都容易获得，通常没有什么其他限制。所以可以想见，一个全副武装的FreeCAD，它的依赖库列表，那将是相当庞大的阵容。
 
 
 </div>
@@ -66,6 +66,8 @@
 
 
 </div>
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

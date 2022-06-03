@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch_Rebar_Drawing
-   Name/it:Disegna un'armatura
-   MenuLocation:Arch → Armatura
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Dimensiona un'armatura](Arch_Rebar_Dimensioning/it.md), [Addon Reinforcement](Reinforcement_Addon/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *Arch_Rebar_Drawing
+   Name/it   *Disegna un'armatura
+   MenuLocation   *Arch → Armatura
+   Workbenches   *[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso   *[Dimensiona un'armatura](Arch_Rebar_Dimensioning/it.md), [Addon Reinforcement](Reinforcement_Addon/it.md)
+   Version   *0.19
 ---
 
 # Arch Rebar Drawing/it
@@ -13,15 +13,15 @@
 
 </div>
 
-Please Note: The below work is present in develop branch of Reinforcement workbench [here](https://github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
+Please Note   * The below work is present in develop branch of Reinforcement workbench [here](https   *//github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
 
 ## Description
 
 The [Reinforcement Drawing](Arch_Rebar_Drawing.md) tool allows the user to create drawing of reinforcing bars.
 
-This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Drawing_example.svg  style="width:800px;">
+<img alt="" src=images/Arch_Rebar_Drawing_example.svg  style="width   *800px;">
 
 
 
@@ -37,7 +37,7 @@ from ReinforcementDrawing.make_reinforcement_drawing import (
     makeStructuresReinforcementDrawing,
 )
 
-for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
+for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
     makeStructuresReinforcementDrawing(view=view)
 ```
 
@@ -47,62 +47,62 @@ A Rebars Drawing SVG View object.
 
 ### Properties
 
--    **Structure**: The structure object acting as Host for rebars to be included in drawing.
+-    **Structure**   * The structure object acting as Host for rebars to be included in drawing.
 
--    **Rebars**: The list of rebar objects to be included in drawing.
+-    **Rebars**   * The list of rebar objects to be included in drawing.
 
--    **View**: The reinforcement drawing view to be generated. It can be \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" or \"Bottom\".
+-    **View**   * The reinforcement drawing view to be generated. It can be \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" or \"Bottom\".
 
--    **PositionType**: The position type of Reinforcement Drawing on Template. It can be \"Automatic\" to calculate drawing placement using **LeftOffset**, **TopOffset**, **MinRightOffset** and **MinBottomOffset** OR \"Custom\" to set placement using **X** and **Y**.
+-    **PositionType**   * The position type of Reinforcement Drawing on Template. It can be \"Automatic\" to calculate drawing placement using **LeftOffset**, **TopOffset**, **MinRightOffset** and **MinBottomOffset** OR \"Custom\" to set placement using **X** and **Y**.
 
--    **RebarsStrokeWidth**: The stroke width of rebars in Reinforcement Drawing svg.
+-    **RebarsStrokeWidth**   * The stroke width of rebars in Reinforcement Drawing svg.
 
--    **RebarsColorStyle**: The color style of rebars in Reinforcement Drawing svg. Set it to \"Automatic\" to automatically select rebars color OR \"Custom\" to choose shape color value from **RebarsColor**.
+-    **RebarsColorStyle**   * The color style of rebars in Reinforcement Drawing svg. Set it to \"Automatic\" to automatically select rebars color OR \"Custom\" to choose shape color value from **RebarsColor**.
 
--    **RebarsColor**: The color of rebars in Reinforcement Drawing svg.
+-    **RebarsColor**   * The color of rebars in Reinforcement Drawing svg.
 
--    **StructureStrokeWidth**: The stroke width of structure in Reinforcement Drawing svg.
+-    **StructureStrokeWidth**   * The stroke width of structure in Reinforcement Drawing svg.
 
--    **StructureColorStyle**: The color style of structure in Reinforcement Drawing svg. Set it to \"Automatic\" to automatically select rebars color, \"Custom\" to choose shape color value from **StructureColor** OR \"None\" to not fill structure.
+-    **StructureColorStyle**   * The color style of structure in Reinforcement Drawing svg. Set it to \"Automatic\" to automatically select rebars color, \"Custom\" to choose shape color value from **StructureColor** OR \"None\" to not fill structure.
 
--    **StructureColor**: The color of structure in Reinforcement Drawing svg.
+-    **StructureColor**   * The color of structure in Reinforcement Drawing svg.
 
--    **Template**: The template for Reinforcement Drawing view.
+-    **Template**   * The template for Reinforcement Drawing view.
 
--    **Width**: The width of Reinforcement Drawing view svg.
+-    **Width**   * The width of Reinforcement Drawing view svg.
 
--    **Height**: The height of Reinforcement Drawing view svg.
+-    **Height**   * The height of Reinforcement Drawing view svg.
 
--    **LeftOffset**: The left offset of Reinforcement Drawing view on template.
+-    **LeftOffset**   * The left offset of Reinforcement Drawing view on template.
 
--    **TopOffset**: The top offset of Reinforcement Drawing view on template.
+-    **TopOffset**   * The top offset of Reinforcement Drawing view on template.
 
--    **MinRightOffset**: The minimum right offset of Reinforcement Drawing view on template.
+-    **MinRightOffset**   * The minimum right offset of Reinforcement Drawing view on template.
 
--    **MinBottomOffset**: The minimum bottom offset of Reinforcement Drawing view on template.
+-    **MinBottomOffset**   * The minimum bottom offset of Reinforcement Drawing view on template.
 
--    **MaxWidth**: The maximum width of Reinforcement Drawing view.
+-    **MaxWidth**   * The maximum width of Reinforcement Drawing view.
 
--    **MaxHeight**: The maximum height of Reinforcement Drawing view.
+-    **MaxHeight**   * The maximum height of Reinforcement Drawing view.
 
--    **VisibleRebars**: The list of visible rebar objects in drawing view.
+-    **VisibleRebars**   * The list of visible rebar objects in drawing view.
 
--    **DimensionLeftOffset**: The left offset for each new ReinforcementDimensioning object.
+-    **DimensionLeftOffset**   * The left offset for each new ReinforcementDimensioning object.
 
--    **DimensionRightOffset**: The right offset for each new ReinforcementDimensioning object.
+-    **DimensionRightOffset**   * The right offset for each new ReinforcementDimensioning object.
 
--    **DimensionTopOffset**: The top offset for each new ReinforcementDimensioning object.
+-    **DimensionTopOffset**   * The top offset for each new ReinforcementDimensioning object.
 
--    **DimensionBottomOffset**: The bottom offset for each new ReinforcementDimensioning object.
+-    **DimensionBottomOffset**   * The bottom offset for each new ReinforcementDimensioning object.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The [Reinforcement Drawing](Arch_Rebar_Drawing.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions:
+The [Reinforcement Drawing](Arch_Rebar_Drawing.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 ### Create Reinforcement Drawing View 
 
@@ -140,7 +140,7 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 -   Creates a `ReinforcementDrawingView` object for given [structure](Arch_Structure.md) and [rebar](Arch_Rebar.md) objects list.
 
--   It returns the `reinforcement_drawing_page` of type `TechDraw::DrawPage`.
+-   It returns the `reinforcement_drawing_page` of type `TechDraw   *   *DrawPage`.
 
 -    `view`specifies the view of drawing to be generated. It can be \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" or \"Bottom\".
 
@@ -150,16 +150,16 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 -    `rebars_color`specifies the fill color for rebars in drawing svg.
 
-   Format: (r, g, b)
+   Format   * (r, g, b)
    r, g, b value should be between 0 to 1, so you may need to divide value of r, g, b by 255 to get its value between 0 to 1
    Make sure r, g, b must be float
-   Example: (0.67, 0.0, 0.0)
+   Example   * (0.67, 0.0, 0.0)
 
 -    `structure_stroke_width`specifies the stroke-width of structure in drawing svg.
 
 -    `structure_color_style`specifies the fill style of structure. Set it to \"Automatic\" to automatically select structure color or \"Custom\" to choose structure color value from variable `structure_color`.
 
--    `structure_color`specifies the fill color for structure in drawing svg. Format: (r, g, b)
+-    `structure_color`specifies the fill color for structure in drawing svg. Format   * (r, g, b)
 
 -    `drawing_left_offset`specifies the left offset of drawing view on `template_file`.
 
@@ -229,7 +229,7 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 rebars = Draft.get_objects_of_type(FreeCAD.ActiveDocument.Objects, "Rebar")
 
 # Create Reinforcement Drawing
-for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
+for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
     make_reinforcement_drawing.makeReinforcementDrawing(
         structure=Structure,
         rebars_list=rebars,
@@ -360,7 +360,7 @@ TwoTiesSixRebars.makeTwoTiesSixRebars(
 )
 
 # Create Reinforcement Drawing
-for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
+for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
     make_reinforcement_drawing.makeStructuresReinforcementDrawing(
         structure_list=None,
         rebars_list=None,
@@ -393,6 +393,11 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 </div>
+
+
+
+
+[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

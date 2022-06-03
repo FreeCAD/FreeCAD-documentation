@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:FCGear LanternGear
-   Name/de:FCZahnrad TriebstockZahnrad
-   MenuLocation:FCZahnrad → Erstelle ein Triebstock Zahnrad
-   Workbenches:[FCZahnrad](FCGear_Workbench/de.md)
-   Shortcut:Keine
-   Version:v0.16
-   SeeAlso:
+- GuiCommand   */de
+   Name   *FCGear LanternGear
+   Name/de   *FCZahnrad TriebstockZahnrad
+   MenuLocation   *FCZahnrad → Erstelle ein Triebstock Zahnrad
+   Workbenches   *[FCZahnrad](FCGear_Workbench/de.md)
+   Shortcut   *Keine
+   Version   *v0.16
+   SeeAlso   *
 ---
 
 # FCGear LanternGear/de
@@ -25,10 +25,10 @@ Triebstockräder mit Rollenketten sind eine kostengünstige und robuste Alternat
 <div class="mw-translate-fuzzy">
 
 
-:   ![](images/Latern_Gear_example.png )
-:   
+   *   ![](images/Latern_Gear_example.png )
+   *   
     
-*Oben: Triebstockzahnrad*
+*Oben   * Triebstockzahnrad*
     
 
 
@@ -39,9 +39,9 @@ Triebstockräder mit Rollenketten sind eine kostengünstige und robuste Alternat
 
 <div class="mw-translate-fuzzy">
 
-1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [Arbeitsbereich FCZahnrad](FCGear_Workbench/de.md).
-2.  Rufe den Befehl auf verschiedene Weise auf:
-    -   Drücke die <img alt="" src=images/FCGear_LanternGear.svg  style="width:22px;"> [TriebstockZahnrad erstellen](FCGear_LanternGear/de.md) Schaltfläche in der Werkzeugleiste.
+1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [Arbeitsbereich FCZahnrad](FCGear_Workbench/de.md).
+2.  Rufe den Befehl auf verschiedene Weise auf   *
+    -   Drücke die <img alt="" src=images/FCGear_LanternGear.svg  style="width   *22px;"> [TriebstockZahnrad erstellen](FCGear_LanternGear/de.md) Schaltfläche in der Werkzeugleiste.
     -   Mit dem **Zahnradmenü → Triebstock Zahnrad**.
 3.  Ändere die Zahnrad Parameter auf die gewünschten Bedingungen (siehe **Eigenschaften → Daten** unten).
 
@@ -55,25 +55,25 @@ Triebstockräder mit Rollenketten sind eine kostengünstige und robuste Alternat
 
 {{Properties_Title|Base}}
 
--    **Placement**: [Placement](Placement.md) is the location and orientation of an object in space.
+-    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
 
--    **Label**: User name of the object in the [Tree view](Tree_view.md).
+-    **Label**   * User name of the object in the [Tree view](Tree_view.md).
 
 
 {{Properties_Title|accuracy}}
 
--    **num_profiles**: Default is 10. The value normally does not need to be changed.
+-    **num_profiles**   * Default is 10. The value normally does not need to be changed.
 
 
 {{Properties_Title|gear_parameter}}
 
--    **bolt_radius**: Default is 1,00 mm. Diameter of the cylinder on the rotating disc which functions as a second \"gear wheel\".
+-    **bolt_radius**   * Default is 1,00 mm. Diameter of the cylinder on the rotating disc which functions as a second \"gear wheel\".
 
--    **height**: Default is 5,00 mm. Value of the gear width.
+-    **height**   * Default is 5,00 mm. Value of the gear width.
 
--    **module**: Default is 1,00 mm. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Notes**.
+-    **module**   * Default is 1,00 mm. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Notes**.
 
--    **teeth**: Default is 15. Number of teeth.
+-    **teeth**   * Default is 15. Number of teeth.
 
 ### Ansicht
 
@@ -81,7 +81,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 ## Hinweise
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **module**   * Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
 
 ## Hilfreiche Formeln 
 
@@ -89,7 +89,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **ptch diameter**= **module** \* **teeth**
 
--    **axle base**= **pitch diameter (lantern gear 1 + 2)** : 2
+-    **axle base**= **pitch diameter (lantern gear 1 + 2)**    * 2
 
 
 <div class="mw-translate-fuzzy">
@@ -99,6 +99,8 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 
 </div>
+
+[Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

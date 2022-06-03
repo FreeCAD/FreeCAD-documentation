@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Sketcher Regular Polygons
-   Icon:Sketcher_CompCreateRegularPolygon.png
-   MenuLocation:None (toolbar only)
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand   *
+   Name   *Sketcher Regular Polygons
+   Icon   *Sketcher_CompCreateRegularPolygon.png
+   MenuLocation   *None (toolbar only)
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
 ---
 
 # Sketcher CompCreateRegularPolygon
@@ -14,13 +14,13 @@
 
 ## Types of regular polygons 
 
--   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangle](Sketcher_CreateTriangle.md): Draws a equilateral triangle by picking two points, the center and one corner.
--   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Square](Sketcher_CreateSquare.md): Draws a square by picking two points, the center and one corner.
--   <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width:32px;"> [Pentagon](Sketcher_CreatePentagon.md): Draws a pentagon by picking two points, the center and one corner.
--   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:32px;"> [Hexagon](Sketcher_CreateHexagon.md): Draws a hexagon by picking two points, the center and one corner.
--   <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width:32px;"> [Heptagon](Sketcher_CreateHeptagon.md): Draws a heptagon by picking two points, the center and one corner.
--   <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:32px;"> [Octagon](Sketcher_CreateOctagon.md): Draws an octagon by picking two points, the center and one corner.
--   <img alt="" src=images/Sketcher_CreateRegularPolygon.png  style="width:32px;"> [Regular polygon](Sketcher_CreateRegularPolygon.md): Draws a regular polygon by selecting the number of sides and picking two points, the center and one corner.
+-   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width   *32px;"> [Triangle](Sketcher_CreateTriangle.md)   * Draws a equilateral triangle by picking two points, the center and one corner.
+-   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width   *32px;"> [Square](Sketcher_CreateSquare.md)   * Draws a square by picking two points, the center and one corner.
+-   <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width   *32px;"> [Pentagon](Sketcher_CreatePentagon.md)   * Draws a pentagon by picking two points, the center and one corner.
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width   *32px;"> [Hexagon](Sketcher_CreateHexagon.md)   * Draws a hexagon by picking two points, the center and one corner.
+-   <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width   *32px;"> [Heptagon](Sketcher_CreateHeptagon.md)   * Draws a heptagon by picking two points, the center and one corner.
+-   <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width   *32px;"> [Octagon](Sketcher_CreateOctagon.md)   * Draws an octagon by picking two points, the center and one corner.
+-   <img alt="" src=images/Sketcher_CreateRegularPolygon.png  style="width   *32px;"> [Regular polygon](Sketcher_CreateRegularPolygon.md)   * Draws a regular polygon by selecting the number of sides and picking two points, the center and one corner.
 
 
 

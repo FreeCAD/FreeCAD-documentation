@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh BuildRegularSolid
-   Name/fr:Mesh Solide régulier
-   MenuLocation:Maillages → Solide régulier...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Mesh BuildRegularSolid
+   Name/fr   *Mesh Solide régulier
+   MenuLocation   *Maillages → Solide régulier...
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh BuildRegularSolid/fr
@@ -14,12 +14,12 @@ La commande **Mesh Solide régulier** crée un solide paramétrique, maillé ré
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Solide régulier...](Mesh_BuildRegularSolid/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...** dans le menu.
 2.  La boîte de dialogue **Solide régulier** s\'ouvre.
-3.  Sélectionnez d\'abord un type d\'objet maillé dans la liste déroulante:
+3.  Sélectionnez d\'abord un type d\'objet maillé dans la liste déroulante   *
     -   
         **<img src="images/Mesh_Cube.svg" width=16px> Cube
 **
@@ -50,7 +50,7 @@ La commande **Mesh Solide régulier** crée un solide paramétrique, maillé ré
 **
         
 4.  Spécifiez les paramètres requis. Les paramètres disponibles dépendent du type d\'objet maillé. Voir [Propriétés](#Properties.md).
-5.  Pour les maillages avec des surfaces courbes: une valeur **Numérisation** plus élevée donne un maillage plus fin.
+5.  Pour les maillages avec des surfaces courbes   * une valeur **Numérisation** plus élevée donne un maillage plus fin.
 6.  Appuyez sur le bouton {{button|Créer}} pour créer l\'objet maillage.
 7.  Créez éventuellement plus d\'objets maillés.
 8.  Appuyez sur le bouton {{button|Fermer}} pour fermer la boîte de dialogue et terminer la commande.
@@ -61,93 +61,93 @@ La commande **Mesh Solide régulier** crée un solide paramétrique, maillé ré
 
 ## Propriétés
 
-Les objets maillés créés avec cette commande héritent de toutes les propriétés [Mesh Feature](Mesh_Feature/fr.md). De plus, chaque type d\'objet maillé a un certain nombre de propriétés pour contrôler son comportement paramétrique:
+Les objets maillés créés avec cette commande héritent de toutes les propriétés [Mesh Feature](Mesh_Feature/fr.md). De plus, chaque type d\'objet maillé a un certain nombre de propriétés pour contrôler son comportement paramétrique   *
 
-### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
+### <img alt="" src=images/Mesh_Cube.svg  style="width   *32px;"> Cube 
 
 ### Données
 
 
 {{TitleProperty|Cube}}
 
--    {{PropertyData/fr|Hauteur|FloatConstraint}}: hauteur du cube.
+-    {{PropertyData/fr|Hauteur|FloatConstraint}}   * hauteur du cube.
 
--    {{PropertyData/fr|Longueur|FloatConstraint}}: longueur du cube.
+-    {{PropertyData/fr|Longueur|FloatConstraint}}   * longueur du cube.
 
--    {{PropertyData/fr|Largeur|FloatConstraint}}: largeur du cube.
+-    {{PropertyData/fr|Largeur|FloatConstraint}}   * largeur du cube.
 
-### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylindre 
-
-### Données 
-
-
-{{TitleProperty|Base}}
-
--    {{PropertyData/fr|Fermé|Bool}}: s\'il est défini sur `False`, les extrémités planes du cylindre restent ouvertes.
-
--    {{PropertyData/fr|Longueur du contour|FloatConstraint}}: longueur d\'arête des faces dans le maillage.
-
--    {{PropertyData/fr|Longueur|FloatConstraint}}: longueur du cylindre.
-
--    {{PropertyData/fr|Rayon|FloatConstraint}}: rayon du cylindre.
-
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long de la surface courbe.
-
-### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cône 
+### <img alt="" src=images/Mesh_Cylinder.svg  style="width   *32px;"> Cylindre 
 
 ### Données 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Fermé|Bool}}: si mis à `False`, la ou les extrémités planes du cône restent ouvertes.
+-    {{PropertyData/fr|Fermé|Bool}}   * s\'il est défini sur `False`, les extrémités planes du cylindre restent ouvertes.
 
--    {{PropertyData/fr|Longueur du contour|FloatConstraint}}: longueur d\'arête des faces dans le maillage.
+-    {{PropertyData/fr|Longueur du contour|FloatConstraint}}   * longueur d\'arête des faces dans le maillage.
 
--    {{PropertyData/fr|Longueur|FloatConstraint}}: longueur du cône.
+-    {{PropertyData/fr|Longueur|FloatConstraint}}   * longueur du cylindre.
 
--    {{PropertyData/fr|Rayon 1|FloatConstraint}}: premier rayon du cône. Peut être {{value|0}}.
+-    {{PropertyData/fr|Rayon|FloatConstraint}}   * rayon du cylindre.
 
--    {{PropertyData/fr|Rayon 2|FloatConstraint}}: deuxième rayon du cône. Peut être {{value|0}}.
+-    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long de la surface courbe.
 
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long de la surface courbe.
-
-### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphère 
+### <img alt="" src=images/Mesh_Cone.svg  style="width   *32px;"> Cône 
 
 ### Données 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Rayon|FloatConstraint}}: rayon de la sphère.
+-    {{PropertyData/fr|Fermé|Bool}}   * si mis à `False`, la ou les extrémités planes du cône restent ouvertes.
 
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long des deux directions de la surface courbe.
+-    {{PropertyData/fr|Longueur du contour|FloatConstraint}}   * longueur d\'arête des faces dans le maillage.
 
-### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoïde 
+-    {{PropertyData/fr|Longueur|FloatConstraint}}   * longueur du cône.
 
-### Données 
+-    {{PropertyData/fr|Rayon 1|FloatConstraint}}   * premier rayon du cône. Peut être {{value|0}}.
 
+-    {{PropertyData/fr|Rayon 2|FloatConstraint}}   * deuxième rayon du cône. Peut être {{value|0}}.
 
-{{TitleProperty|Base}}
+-    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long de la surface courbe.
 
--    {{PropertyData/fr|Rayon 1|FloatConstraint}}: premier rayon de l\'ellipsoïde.
-
--    {{PropertyData/fr|Rayon 2|FloatConstraint}}: deuxième rayon de l\'ellipsoïde.
-
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long des deux directions de la surface courbe.
-
-### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Tore 
+### <img alt="" src=images/Mesh_Sphere.svg  style="width   *32px;"> Sphère 
 
 ### Données 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Rayon 1|FloatConstraint}}: premier rayon (le principal) du tore.
+-    {{PropertyData/fr|Rayon|FloatConstraint}}   * rayon de la sphère.
 
--    {{PropertyData/fr|Rayon 2|FloatConstraint}}: deuxième rayon du tore.
+-    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long des deux directions de la surface courbe.
 
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long des deux directions de la surface courbe.
+### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width   *32px;"> Ellipsoïde 
+
+### Données 
+
+
+{{TitleProperty|Base}}
+
+-    {{PropertyData/fr|Rayon 1|FloatConstraint}}   * premier rayon de l\'ellipsoïde.
+
+-    {{PropertyData/fr|Rayon 2|FloatConstraint}}   * deuxième rayon de l\'ellipsoïde.
+
+-    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long des deux directions de la surface courbe.
+
+### <img alt="" src=images/Mesh_Torus.svg  style="width   *32px;"> Tore 
+
+### Données 
+
+
+{{TitleProperty|Base}}
+
+-    {{PropertyData/fr|Rayon 1|FloatConstraint}}   * premier rayon (le principal) du tore.
+
+-    {{PropertyData/fr|Rayon 2|FloatConstraint}}   * deuxième rayon du tore.
+
+-    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long des deux directions de la surface courbe.
 
 
 

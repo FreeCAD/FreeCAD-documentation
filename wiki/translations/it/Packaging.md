@@ -6,6 +6,11 @@ Questa pagina raccoglie le informazioni sulla costruzione dei pacchetti di FreeC
 -   [MacOS packaging](MacOS_packaging/it.md). Informazioni sui pacchetti .dmg.
 
 
+ 
+
+[Category   *Packaging](Category_Packaging.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
+
+
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Packaging/it

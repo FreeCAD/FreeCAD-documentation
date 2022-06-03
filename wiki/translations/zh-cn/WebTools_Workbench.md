@@ -1,9 +1,9 @@
-# <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width:64px;"> WebTools Workbench/zh-cn
+# <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width   *64px;"> WebTools Workbench/zh-cn
 
 
 <div class="mw-translate-fuzzy">
 
-一个外部工作台，包含一系列与FreeCAD内的Web服务进行通信的工具。 这是托管在\[[https://github.com/yorikvanhavre/WebTools\]的外部工作台](https://github.com/yorikvanhavre/WebTools%5D的外部工作台)
+一个外部工作台，包含一系列与FreeCAD内的Web服务进行通信的工具。 这是托管在\[[https   *//github.com/yorikvanhavre/WebTools\]的外部工作台](https   *//github.com/yorikvanhavre/WebTools%5D的外部工作台)
 
 
 </div>
@@ -23,16 +23,21 @@ This workbench can be easily installed and updated from the [Addon Manager](Std_
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/WebTools_BimServer.svg  style="width:32px;"> [BIM server](Arch_BimServer.md): 打开一个 [BimServer](http://www.bimserver.org) 窗口
--   <img alt="" src=images/Arch_Git.png  style="width:32px;"> [Git](Arch_Git.md): 使用[GIT](https://en.wikipedia.org/wiki/Git_%28software%29)管理文件
--   <img alt="" src=images/WebTools_Sketchfab.png  style="width:32px;"> [Sketchfab exporter](WebTools_Sketchfab.md): 导出和上传对象到你的[SketchFab](http://www.sketchfab.com)账户 <small>(v0.17)</small> 
+-   <img alt="" src=images/WebTools_BimServer.svg  style="width   *32px;"> [BIM server](Arch_BimServer.md)   * 打开一个 [BimServer](http   *//www.bimserver.org) 窗口
+-   <img alt="" src=images/Arch_Git.png  style="width   *32px;"> [Git](Arch_Git.md)   * 使用[GIT](https   *//en.wikipedia.org/wiki/Git_%28software%29)管理文件
+-   <img alt="" src=images/WebTools_Sketchfab.png  style="width   *32px;"> [Sketchfab exporter](WebTools_Sketchfab.md)   * 导出和上传对象到你的[SketchFab](http   *//www.sketchfab.com)账户 <small>(v0.17)</small> 
 
 
 </div>
 
 ## Links
 
--   Source code hosted on GitHub: <https://github.com/yorikvanhavre/WebTools>
+-   Source code hosted on GitHub   * <https   *//github.com/yorikvanhavre/WebTools>
+
+
+ 
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *User Documentation](Category_User_Documentation.md)
 
 
 

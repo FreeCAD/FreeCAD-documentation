@@ -194,6 +194,69 @@ For the second use of **Extend Face** a Sketch with two contours is used for sha
 
 (The pull relief is just an artistic expression of what could be hidden inside a real plug)
 
+## SheetMetal properties 
+
+This section tries to explain the properties of each SheetMetal object with simple images, where applicable.
+
+
+<div class="mw-collapsible mw-collapsed">
+
+### BaseBend object <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+<img alt="" src=images/SheetMetal_Example-08a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;">
+
+
+
+*Selected sketch + 
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)* 
+→ BaseBend object with default settings**
+
+<img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08c.png  style="width   *200px;">
+
+
+
+*Edit **length*   * Default length → Reduced length**
+
+<img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08h.png  style="width   *200px;">
+
+
+
+*Switch **Mid Plane* from {{False** to `True`   * Extrusion in one direction → Symmetric extrusion}}
+
+<img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;">
+
+
+
+*Switch **Reverse* from {{False** to `True`   * Default direction → Inverted direction}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08g.png  style="width   *200px;">
+
+
+
+*Select **Bend Side*   * {{value|Outside** (default) → {{value|Inside}} → {{value| Middle}}}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08i.png  style="width   *200px;">
+
+
+
+*Edit **radius*   * Default radius → Enlarged radius.<br>
+This property is the inner radius of the bends created at the vertices where two edges in the sketch have a non-tangential transition.**
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08j.png  style="width   *200px;">
+
+
+
+*Edit **thickness*   * Default Thickness → Enlarged thickness**
+
+
+</div>
+
+
+</div>
+
 [Category   *SheetMetal](Category_SheetMetal.md) [Category   *Addons](Category_Addons.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 

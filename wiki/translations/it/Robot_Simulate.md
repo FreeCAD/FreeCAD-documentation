@@ -1,6 +1,6 @@
 # Robot Simulate/it
 ---
-- GuiCommand:/it   Name:Robot Simulate   Name/it:Simula una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Simula una traiettoria---
+- GuiCommand   */it   Name   *Robot Simulate   Name/it   *Simula una traiettoria   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Simula una traiettoria---
 
 
 </div>
@@ -21,14 +21,14 @@ Apre la finestra di simulazione e consente di simulare il movimento del robot lu
 #### Uso
 
 1.  Selezionare un robot e una traiettoria nella vista ad albero
-2.  Cliccare su <img alt="" src=images/Robot_Simulate.png  style="width:32px;"> o scegliere ** Robot** → **<img src="images/Robot_Simulate.png" width=32px> Simula una traiettoria** dal menu principale.
+2.  Cliccare su <img alt="" src=images/Robot_Simulate.png  style="width   *32px;"> o scegliere ** Robot** → **<img src="images/Robot_Simulate.png" width=32px> Simula una traiettoria** dal menu principale.
 
 Nella vista ad albero si apre una finestra di gestione.
 
 
 </div>
 
-Result: This will open up a player dialog menu in the [Tree view](Tree_view.md).
+Result   * This will open up a player dialog menu in the [Tree view](Tree_view.md).
 
 ![](images/Robot_Simulation_Player.jpg )
 

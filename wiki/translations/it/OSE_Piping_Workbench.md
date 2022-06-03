@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-L\'ambiente OSE Piping crea tubi e raccordi. Supporta l\'ambiente [Flamingo](Flamingo_Workbench/it.md). È una parte di [Open Source Ecology](https://www.opensourceecology.org/).
+L\'ambiente OSE Piping crea tubi e raccordi. Supporta l\'ambiente [Flamingo](Flamingo_Workbench/it.md). È una parte di [Open Source Ecology](https   *//www.opensourceecology.org/).
 
 
 </div>
@@ -28,7 +28,7 @@ To create a pipe, click ![](images/OSE_Piping_create_pipe_icon.svg ) in OSE pipi
 
 To add new dimensions adjust CSV **pipe.csv** file.
 
-Wikipedia on Nominal Pipe Size (NPS) [1](https://en.wikipedia.org/wiki/Nominal_Pipe_Size).
+Wikipedia on Nominal Pipe Size (NPS) [1](https   *//en.wikipedia.org/wiki/Nominal_Pipe_Size).
 
 # Elbow
 
@@ -36,13 +36,17 @@ An elbow is described by an angle alpha, outer pipe diameter **POD**, inner pipe
 
 To create an elbow, click ![](images/OSE_Piping_create_elbow_icon.svg ).
 
-<img alt="" src=images/OSE_Piping_create_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_elbow_CAD_screenshot.png )  To add new elbows, adjust **elbow.csv** file.
+<img alt="" src=images/OSE_Piping_create_elbow_screenshot.png  style="width   *512px;"> ![](images/OSE_Piping_elbow_CAD_screenshot.png )  To add new elbows, adjust **elbow.csv** file.
 
 # Sweep Elbow 
 
 A sweep elbow is a special elbow with larger radius of the bent part. It is described by outer pipe diameter POD, pipe thickness **PThk**, **G**, **H**, and **M**. To create a sweep elbow, click ![](images/OSE_Piping_create_sweep_elbow_icon.svg ).
 
-<img alt="" src=images/OSE_Piping_create_sweep_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_sweep_elbow_CAD_screenshot.png )  To add new sweep elbows, adjust **sweep-elbow.csv** file.
+<img alt="" src=images/OSE_Piping_create_sweep_elbow_screenshot.png  style="width   *512px;"> ![](images/OSE_Piping_sweep_elbow_CAD_screenshot.png )  To add new sweep elbows, adjust **sweep-elbow.csv** file.
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:PartDesign Clone
-   Name/es:DiseñoPiezas Clon
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   MenuLocation:Diseño Piezas → Crear un clon
-   Version:0.17
-   SeeAlso:[Clonar Draft](Draft_Clone/es.md)
+- GuiCommand   */es
+   Name   *PartDesign Clone
+   Name/es   *DiseñoPiezas Clon
+   Workbenches   *[DiseñoPiezas](PartDesign_Workbench/es.md)
+   MenuLocation   *Diseño Piezas → Crear un clon
+   Version   *0.17
+   SeeAlso   *[Clonar Draft](Draft_Clone/es.md)
 ---
 
 # PartDesign Clone/es
@@ -23,15 +23,15 @@
 ## Utilización
 
 1.  In the Model tree, select the object to be cloned.
-2.  Press the **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Create a clone'''** button.
+2.  Press the **[<img src=images/PartDesign_Clone.svg style="width   *24px"> '''Create a clone'''** button.
 
 ## Propiedades
 
--    **Base Feature**: sets the original object the clone is based on. To replace, press the **...** button to get a list of available objects.
+-    **Base Feature**   * sets the original object the clone is based on. To replace, press the **...** button to get a list of available objects.
 
--    **Placement**: defines the orientation and position of the Clone in the 3D space. See [Placement](Placement.md).
+-    **Placement**   * defines the orientation and position of the Clone in the 3D space. See [Placement](Placement.md).
 
--    **Label**: label given to the Clone object. Change to suit your needs.
+-    **Label**   * label given to the Clone object. Change to suit your needs.
 
 ## Limitaciones
 

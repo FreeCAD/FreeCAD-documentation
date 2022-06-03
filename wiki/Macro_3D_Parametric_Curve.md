@@ -7,7 +7,7 @@
 |Version=2.0
 |Date=2015-03-06
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/f/f5/Macro_3D_Parametric_Curve.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/f/f5/Macro_3D_Parametric_Curve.png ToolBar Icon]
 |SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP.md) <img src="images/Parametric_Curve_FP.svg" width=24px>
 }}
 
@@ -15,16 +15,16 @@
 
 This macro creates a curve described by parametric equations x(t), y(t) and z(t). With the possibility to choose between b-spline and polyline for the type of line between points.
 
-<img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
+<img alt="" src=images/ParametricCurve.png  style="width   *600px;"> 
 *Example Epicycloid curve‎*
 
 ## Original Script 
 
-You can find the updated code (13/05/2015) on the following Github repository: [Get the code here!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
+You can find the updated code (13/05/2015) on the following Github repository   * [Get the code here!](https   *//github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
 
 ## Modified Script 
 
-<img alt="Example Epicycloid curve‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;"> 
+<img alt="Example Epicycloid curve‎" src=images/Macro_3D_Parametric_Curve00.png  style="width   *600px;"> 
 
 ToolBar Icon ![](images/Macro_3D_Parametric_Curve.png )
 
@@ -33,9 +33,9 @@ ToolBar Icon ![](images/Macro_3D_Parametric_Curve.png )
 
 {{MacroCode|code=
 
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # Create a 3D parametric Curve.
-# Author: Gomez Lucio
+# Author   * Gomez Lucio
 # Modified by Laurent Despeyroux on 9th feb 2015
 #   - 3 helping variables added a, b and c
 #   - enlarged GUI
@@ -48,12 +48,12 @@ import Part
 import Draft
 from math import *
  
-class ParamCurv(QtGui.QWidget):
-    def __init__(self):
+class ParamCurv(QtGui.QWidget)   *
+    def __init__(self)   *
         super(ParamCurv, self).__init__()
         self.initUI()
-    def initUI(self):
-        self.t0 = QtGui.QLabel("Equation :",self)
+    def initUI(self)   *
+        self.t0 = QtGui.QLabel("Equation    *",self)
         self.ta = QtGui.QLabel("    a(t) ",self)
         self.la = QtGui.QLineEdit(self)
         self.la.setText("37")
@@ -72,7 +72,7 @@ class ParamCurv(QtGui.QWidget):
         self.t3 = QtGui.QLabel("    Z(a,b,c,t) ",self)
         self.l3 = QtGui.QLineEdit(self)
         self.l3.setText("0")
-        self.t31 = QtGui.QLabel("Parameters :",self)
+        self.t31 = QtGui.QLabel("Parameters    *",self)
         self.t4 = QtGui.QLabel("    Min t ",self)
         self.l4 = QtGui.QLineEdit(self)
         self.l4.setText("0")
@@ -82,7 +82,7 @@ class ParamCurv(QtGui.QWidget):
         self.t6 = QtGui.QLabel("    Interval ",self)
         self.l6 = QtGui.QLineEdit(self)
         self.l6.setText("0.01")
-        self.t7 = QtGui.QLabel("Type of Line :",self)
+        self.t7 = QtGui.QLabel("Type of Line    *",self)
         self.op1 = QtGui.QCheckBox("    Polyline",self)
         self.poly = False
         self.op1.stateChanged.connect(self.polyState)
@@ -145,24 +145,24 @@ class ParamCurv(QtGui.QWidget):
         self.show()
         QtCore.QObject.connect(self.createbutt, QtCore.SIGNAL("pressed()"),self.draw)
         QtCore.QObject.connect(self.exitbutt, QtCore.SIGNAL("pressed()"),self.close)
-    def ccloseState(self, state):
-        if state == QtCore.Qt.Checked:
+    def ccloseState(self, state)   *
+        if state == QtCore.Qt.Checked   *
             self.cclose = True
-        else:
+        else   *
             self.cclose = False
-    def bsplineState(self, state):
-        if state == QtCore.Qt.Checked:
+    def bsplineState(self, state)   *
+        if state == QtCore.Qt.Checked   *
             self.bsline = True
             self.op1.setCheckState(QtCore.Qt.Unchecked)
-        else:
+        else   *
             self.bsline = False
-    def polyState(self, state):
-        if state == QtCore.Qt.Checked:
+    def polyState(self, state)   *
+        if state == QtCore.Qt.Checked   *
             self.poly = True
             self.op2.setCheckState(QtCore.Qt.Unchecked)
-        else:
+        else   *
             self.poly = False
-    def draw(self):
+    def draw(self)   *
         msgBox = QtGui.QMessageBox()
         fa = str(self.la.text())
         fb = str(self.lb.text())
@@ -175,8 +175,8 @@ class ParamCurv(QtGui.QWidget):
         intv = float(str(self.l6.text()))
         d=(tf-t)/intv
         matriz = []
-        for i in range(int(d)):
-            try:
+        for i in range(int(d))   *
+            try   *
               value="a"
               a=eval(fa)
               value="b"
@@ -189,20 +189,20 @@ class ParamCurv(QtGui.QWidget):
               fyy=eval(fy)
               value="Z"
               fzz=eval(fz)
-            except ZeroDivisionError:
+            except ZeroDivisionError   *
               msgBox.setText("Error division by zero in calculus of "+value+"() for t="+str(t)+" !")
               msgBox.exec_()
-            except:
+            except   *
               msgBox.setText("Error in the formula of "+value+"() !")
               msgBox.exec_()
             matriz.append(FreeCAD.Vector(fxx,fyy,fzz))
             t+=intv
         curva = Part.makePolygon(matriz)
-        if self.bsline == True:
+        if self.bsline == True   *
             Draft.makeBSpline(curva,closed=self.cclose,face=False)
-        if self.poly == True:
+        if self.poly == True   *
             Draft.makeWire(curva,closed=self.cclose,face=False)
-    def close(self):
+    def close(self)   *
         self.hide()
  
 ParamCurv()

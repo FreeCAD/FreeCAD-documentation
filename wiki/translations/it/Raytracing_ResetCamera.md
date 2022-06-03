@@ -1,6 +1,6 @@
 # Raytracing ResetCamera/it
 ---
-- GuiCommand:/it   Name:Raytracing ResetCamera   Name/it:ResetCamera   MenuLocation:Raytracing → ResetCamera   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand   */it   Name   *Raytracing ResetCamera   Name/it   *ResetCamera   MenuLocation   *Raytracing → ResetCamera   |Workbenches   *[[Raytracing_Workbench/it   Raytracing]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -26,7 +26,7 @@ Imposta la fotocamera del progetto raytracing selezionato secondo la vista corre
 
 1.  Selezionare progetto di raytracing nella vista ad albero
 2.  Accertarsi che la vista sia impostata su [vista in prospettiva](Std_PerspectiveCamera/it.md)
-3.  Cliccare su <img alt="" src=images/Raytracing_ResetCamera.png  style="width:32px;"> o scegliere ** Raytracing** → **<img src="images/Raytracing_ResetCamera.png" width=32px> Reset Camera** nel menu principale
+3.  Cliccare su <img alt="" src=images/Raytracing_ResetCamera.png  style="width   *32px;"> o scegliere ** Raytracing** → **<img src="images/Raytracing_ResetCamera.png" width=32px> Reset Camera** nel menu principale
 4.  Selezionare un progetto di raytracing nella vista ad albero e nelle proprietà della scheda Dati impostare le proprietà della camera corrente
 
 

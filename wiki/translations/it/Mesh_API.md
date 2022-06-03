@@ -1,10 +1,10 @@
 # Mesh API/it
-**(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https://www.freecadweb.org/api Documentazione API autogenerata].**
+**(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https   *//www.freecadweb.org/api Documentazione API autogenerata].**
 
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti mesh possono essere manipolati aggiungendo nuove sfaccettature, cancellando delle sfaccettature, importando da un file STL, trasformando la rete e in molti altri modi. Per una panoramica completa di ciò che si può fare vedere anche la documentazione del [Modulo Mesh](Mesh_Workbench/it.md). Un oggetto mesh non può essere aggiunto direttamente ad un documento esistente. Pertanto, il documento deve creare un oggetto con una classe appropriataa che supporta le mesh. Esempio:
+Gli oggetti mesh possono essere manipolati aggiungendo nuove sfaccettature, cancellando delle sfaccettature, importando da un file STL, trasformando la rete e in molti altri modi. Per una panoramica completa di ciò che si può fare vedere anche la documentazione del [Modulo Mesh](Mesh_Workbench/it.md). Un oggetto mesh non può essere aggiunto direttamente ad un documento esistente. Pertanto, il documento deve creare un oggetto con una classe appropriataa che supporta le mesh. Esempio   *
 
 
 </div>
@@ -14,7 +14,7 @@ Gli oggetti mesh possono essere manipolati aggiungendo nuove sfaccettature, canc
 m = Mesh.Mesh()
 ... # Manipulate the mesh
 d = FreeCAD.activeDocument() # Get a reference to the actie document
-f = d.addObject("Mesh::Feature", "Mesh") # Create a mesh feature
+f = d.addObject("Mesh   *   *Feature", "Mesh") # Create a mesh feature
 f.Mesh = m # Assign the mesh object to the internal property
 d.recompute()
 ```
@@ -218,10 +218,10 @@ d.recompute()
 {{APIProperty|CountPoints|the number of vertices of the mesh object.}}
 
 
-{{APIProperty|Facets|A collection of facets; With this attribute it is possible to get access to the facets of the mesh: for p in mesh.Facets: print f. Facet.Points is a list of coordinate-tupels for the vertices. Facet.PointIndices is a list of indice for the vertices of the facet. WARNING! store Facets in a local variable as it is generated on the fly, each time it is accessed.}}
+{{APIProperty|Facets|A collection of facets; With this attribute it is possible to get access to the facets of the mesh   * for p in mesh.Facets   * print f. Facet.Points is a list of coordinate-tupels for the vertices. Facet.PointIndices is a list of indice for the vertices of the facet. WARNING! store Facets in a local variable as it is generated on the fly, each time it is accessed.}}
 
 
-{{APIProperty|Points|A collection of the mesh points; With this attribute it is possible to get access to the points of the mesh: for p in mesh.Points: print p.x, p.y, p.z, p.Index.WARNING! store Points in a local variable as it is generated on the fly, each time it is accessed.}}
+{{APIProperty|Points|A collection of the mesh points; With this attribute it is possible to get access to the points of the mesh   * for p in mesh.Points   * print p.x, p.y, p.z, p.Index.WARNING! store Points in a local variable as it is generated on the fly, each time it is accessed.}}
 
 
 {{APIProperty|Topology|the points and face indices as tuple. Topology[0] is a list of all vertices. Each being a tuple of 3 coordinates. Topology[1] is a list of all polygons. Each being a list of vertex indice into Topology[0] WARNING! store Topology in a local variable as it is generated on the fly, each time it is accessed.}}
@@ -240,6 +240,11 @@ d.recompute()
 
 
 </div>
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

@@ -1,6 +1,8 @@
 # Category:Documentation/ru
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories/ru](Category   *Categories/ru.md)
+
 ### Contents
 
 |     |     |     |

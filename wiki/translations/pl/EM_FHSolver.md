@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:EM FHSolver
-   MenuLocation:EM → FHSolver
-   Workbenches:[EM](EM_Workbench.md)
-   Shortcut:**E** **X**
-   Version:0.17
-   SeeAlso:[EM FHInputFile](EM_FHInputFile.md), [EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
+- GuiCommand   *
+   Name   *EM FHSolver
+   MenuLocation   *EM → FHSolver
+   Workbenches   *[EM](EM_Workbench.md)
+   Shortcut   ***E** **X**
+   Version   *0.17
+   SeeAlso   *[EM FHInputFile](EM_FHInputFile.md), [EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
 ---
 
 # EM FHSolver/pl
@@ -22,7 +22,7 @@ The FHSolver tool inserts a FHSolver object.
 
 ## Usage
 
-To insert a FHSolver object in the Document:
+To insert a FHSolver object in the Document   *
 
 1.  Press the **<img src="images/EM_FHSolver.svg" width=16px> [EM FHSolver](EM_FHSolver.md)** button, or press **E** then **X** keys.
 
@@ -34,36 +34,36 @@ To insert a FHSolver object in the Document:
 
 ## Properties
 
--    **Units**: the FastHenry \'.units\'. Each unit in FreeCad will be one unit of the corresponding unit of measurement in FastHenry. Remark: this means that you can have for example a 3D drawing in FreeCAD with units set as meters, and specify a different unit of measurement for FastHenry, e.g. millimeters. So the value \'1.0m\' in FreeCAD will actually be \'1.0mm\' for the FastHenry simulation.
+-    **Units**   * the FastHenry \'.units\'. Each unit in FreeCad will be one unit of the corresponding unit of measurement in FastHenry. Remark   * this means that you can have for example a 3D drawing in FreeCAD with units set as meters, and specify a different unit of measurement for FastHenry, e.g. millimeters. So the value \'1.0m\' in FreeCAD will actually be \'1.0mm\' for the FastHenry simulation.
 
--    **Sigma**: the default Segment conductivity (\'sigma\' segment parameter in FastHenry \'.default\' statement)
+-    **Sigma**   * the default Segment conductivity (\'sigma\' segment parameter in FastHenry \'.default\' statement)
 
--    **nhinc**: the default number of filaments in the height direction (\'nhinc\' segment parameter in FastHenry \'.default\' statement)
+-    **nhinc**   * the default number of filaments in the height direction (\'nhinc\' segment parameter in FastHenry \'.default\' statement)
 
--    **nwinc**: the default number of filaments in the width direction (\'nwinc\' segment parameter in FastHenry \'.default\' statement)
+-    **nwinc**   * the default number of filaments in the width direction (\'nwinc\' segment parameter in FastHenry \'.default\' statement)
 
--    **rh**: the default ratio of adjacent filaments in the height direction (\'rh\' segment parameter in FastHenry \'.default\' statement)
+-    **rh**   * the default ratio of adjacent filaments in the height direction (\'rh\' segment parameter in FastHenry \'.default\' statement)
 
--    **rw**: the default ratio of adjacent filaments in the height direction (\'rw\' segment parameter in FastHenry \'.default\' statement)
+-    **rw**   * the default ratio of adjacent filaments in the height direction (\'rw\' segment parameter in FastHenry \'.default\' statement)
 
--    **fmin**: the lowest simulation frequency (\'fmin\' segment parameter in FastHenry \'.freq\' statement)
+-    **fmin**   * the lowest simulation frequency (\'fmin\' segment parameter in FastHenry \'.freq\' statement)
 
--    **fmax**: the highest simulation frequency (\'fmax\' segment parameter in FastHenry \'.freq\' statement)
+-    **fmax**   * the highest simulation frequency (\'fmax\' segment parameter in FastHenry \'.freq\' statement)
 
--    **ndec**: the number of desired frequency points per decade (\'ndec\' segment parameter in FastHenry \'.freq\' statement)
+-    **ndec**   * the number of desired frequency points per decade (\'ndec\' segment parameter in FastHenry \'.freq\' statement)
 
--    **Folder**: the folder path for exporting the file in FastHenry input file format
+-    **Folder**   * the folder path for exporting the file in FastHenry input file format
 
--    **Filename**: the simulation filename when exporting to FastHenry input file format
+-    **Filename**   * the simulation filename when exporting to FastHenry input file format
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHSolver object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+The FHSolver object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
 
 
 ```python
@@ -72,7 +72,7 @@ node = makeFHSolver(units=None, sigma=None, nhinc=None, nwinc=None, rh=None, rw=
 
 -   Creates a `FHSolver` object.
 
--    `units`is the FastHenry unit of measurement. Each unit in FreeCad will be one unit of the corresponding unit of measurement in FastHenry. Allowed values are: \"km\", \"m\", \"cm\", \"mm\", \"um\", \"in\", \"mils\". Defaults to `EMFHSOLVER_DEFUNITS`
+-    `units`is the FastHenry unit of measurement. Each unit in FreeCad will be one unit of the corresponding unit of measurement in FastHenry. Allowed values are   * \"km\", \"m\", \"cm\", \"mm\", \"um\", \"in\", \"mils\". Defaults to `EMFHSOLVER_DEFUNITS`
 
 -    `sigma`is the float default conductivity. Defaults to `EMFHSOLVER_DEF_SEGSIGMA`.
 
@@ -90,13 +90,13 @@ node = makeFHSolver(units=None, sigma=None, nhinc=None, nwinc=None, rh=None, rw=
 
 -    `ndec`is the float value defining how many frequency points per decade will be simulated.
 
--    `folder`is the folder into which the FastHenry file will be saved. Defaults to the user\'s home path (e.g. in Windows \"C:\\Documents and Settings\\username\\My Documents\", in Linux \"/home/username\").
+-    `folder`is the folder into which the FastHenry file will be saved. Defaults to the user\'s home path (e.g. in Windows \"C   *Documents and Settings\\username\\My Documents\", in Linux \"/home/username\").
 
 -    `filename`is the name of the file that will be exported. Defaults to `EMFHSOLVER_DEF_FILENAME`.
 
 -    `name`is the name of the object
 
-Example:
+Example   *
 
 
 ```python

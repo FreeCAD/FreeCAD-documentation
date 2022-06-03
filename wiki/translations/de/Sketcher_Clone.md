@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher Clone
-   Name/de:Skizzierer Klonen
-   MenuLocation:Skizze → Skizzierer Werkzeuge → Klonen
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.16
-   SeeAlso:[Skizzierer Kopieren](Sketcher_Copy/de.md), [Skizzierer Verschieben](Sketcher_Move/de.md)
+- GuiCommand   */de
+   Name   *Sketcher Clone
+   Name/de   *Skizzierer Klonen
+   MenuLocation   *Skizze → Skizzierer Werkzeuge → Klonen
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Version   *0.16
+   SeeAlso   *[Skizzierer Kopieren](Sketcher_Copy/de.md), [Skizzierer Verschieben](Sketcher_Move/de.md)
 ---
 
 # Sketcher Clone/de
@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-Klont die ausgewählten Skizzenelemente von einem Punkt an einen anderen, wobei der zuletzt gewählte Punkt als Referenzpunkt dient. Wenn die Quellelemente Beschränkungen enthalten, werden die neuen Beschränkungen mit den Quellbeschränkungen verbunden; wenn Beschränkungen in der Quelle verändert werden, ändern sich auch die Beschränkungen im Ziel. Um diese Verknüpfung zu vermeiden, siehe **[<img src=images/Sketcher_Copy.svg style="width:16px">[Skizzierer Kopieren](Sketcher_Copy/de.md)**.
+Klont die ausgewählten Skizzenelemente von einem Punkt an einen anderen, wobei der zuletzt gewählte Punkt als Referenzpunkt dient. Wenn die Quellelemente Beschränkungen enthalten, werden die neuen Beschränkungen mit den Quellbeschränkungen verbunden; wenn Beschränkungen in der Quelle verändert werden, ändern sich auch die Beschränkungen im Ziel. Um diese Verknüpfung zu vermeiden, siehe **[<img src=images/Sketcher_Copy.svg style="width   *16px">[Skizzierer Kopieren](Sketcher_Copy/de.md)**.
 
 Ein Klon eines Klons wird eine [Kopie](Sketcher_Copy/de.md). Wenn verbundene Beschränkungen erstellt werden sollen, sind die ursprünglichen Quellelemente zu klonen.
 
@@ -25,7 +25,7 @@ Ein Klon eines Klons wird eine [Kopie](Sketcher_Copy/de.md). Wenn verbundene Bes
 <div class="mw-translate-fuzzy">
 
 1.  Wähle die zu klonenden Skizzenelemente.
-2.  Klicke auf **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Skizierer Klonen](Sketcher_Clone/de.md)** oder wähle **Skizze → Skizierer Werkzeuge  → [<img src=images/Sketcher_Clone.svg style="width:16px"> Klonen** aus dem Hauptmenü.
+2.  Klicke auf **[<img src=images/Sketcher_Clone.svg style="width   *16px"> [Skizierer Klonen](Sketcher_Clone/de.md)** oder wähle **Skizze → Skizierer Werkzeuge  → [<img src=images/Sketcher_Clone.svg style="width   *16px"> Klonen** aus dem Hauptmenü.
 3.  Platziere den Klon in der [3D Ansicht](3D_view.md).
 
 Es werden keine zusätzlichen Beschränkungen für das Klonverhalten hinzugefügt.

@@ -15,7 +15,7 @@ The user should select a component and then click on some button (say 'Drawing\)
 
 ### Expected Output 
 
-Click on the below link to download all files of expected output: <https://forum.freecadweb.org/download/file.php?id=25870>
+Click on the below link to download all files of expected output   * <https   *//forum.freecadweb.org/download/file.php?id=25870>
 
 ## Project Properties 
 
@@ -29,7 +29,9 @@ Click on the below link to download all files of expected output: <https://forum
 
 Medium
 
-### Additional Information
+### Additional Information 
+
+[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 
 

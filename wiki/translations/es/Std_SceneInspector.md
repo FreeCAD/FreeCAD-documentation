@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/es
-   Name:Std SceneInspector
-   Name/es:Std InspectorEscena
-   MenuLocation:Hierramientas → Inspector Escena...
-   Workbenches:Todo
+- GuiCommand   */es
+   Name   *Std SceneInspector
+   Name/es   *Std InspectorEscena
+   MenuLocation   *Hierramientas → Inspector Escena...
+   Workbenches   *Todo
 ---
 
 # Std SceneInspector/es

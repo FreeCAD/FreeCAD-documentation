@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:PartDesign_LinearPattern
-   Name/fr:PartDesign Répétition linéaire
-   MenuLocation:Part Design → Appliquer un modèle → Répétition linéaire
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *PartDesign_LinearPattern
+   Name/fr   *PartDesign Répétition linéaire
+   MenuLocation   *Part Design → Appliquer un modèle → Répétition linéaire
+   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
 # PartDesign LinearPattern/fr
@@ -18,19 +18,19 @@ L\'outil **Répétition linéaire** crée des copies uniformément espacées d\'
 
 ## Utilisation
 
-Pour créer un motif :
+Pour créer un motif    *
 
 1.  Sélectionnez la fonction ({{Version/fr|0.19}} ou plusieurs fonctions) à répéter.
-2.  Appuyez sur le bouton **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''**.
+2.  Appuyez sur le bouton **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px"> '''Répétition linéaire'''**.
 3.  Définissez la **Direction**. Voir [Options](#Options.md).
 4.  Définissez la **Longueur** (distance) entre la dernière occurrence copiée et l\'entité d\'origine.
 5.  Définissez le nombre **d\'occurrences**.
 6.  Si vous avez plusieurs fonctions dans le motif, leur ordre peut être important, voir par exemple l\'image dans [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Utilisation.md). {{Version/fr|0.19}}. Vous pouvez changer l\'ordre en faisant glisser la fonction dans la liste et vous verrez le résultat immédiatement en aperçu.
 7.  Appuyez sur **OK**.
 
-Pour ajouter ou supprimer des fonctions à partir d\'un modèle existant :
+Pour ajouter ou supprimer des fonctions à partir d\'un modèle existant    *
 
-1.  Appuyez sur **Ajouter une fonction** pour ajouter une fonction à modeler. La fonction doit être visible dans la [vue 3D](3D_view/fr.md) :
+1.  Appuyez sur **Ajouter une fonction** pour ajouter une fonction à modeler. La fonction doit être visible dans la [vue 3D](3D_view/fr.md)    *
     1.  Basculez vers l\'arborescence du modèle ;
     2.  Sélectionnez dans l\'arborescence la fonction à ajouter et appuyez sur la **Barre d'espace** pour la rendre visible dans la [vue 3D](3D_view/fr.md) ;
     3.  Revenez au panneau Tâches;
@@ -74,7 +74,7 @@ Sélectionnez l\'un des axes standard de l\'origine du corps (X, Y ou Z) comme d
 
 -   Les formes de motifs ne peuvent pas se chevaucher, sauf dans le cas particulier de deux occurrences seulement (original plus une copie).
 -   Toute forme de motif qui ne recouvre pas le support de l\'original sera exclue. Cela garantit qu\'un élément PartDesign est toujours constitué d\'un solide unique et connecté.
--   Les motifs PartDesign ne sont pas encore aussi optimisés que leurs homologues Draft. Donc, pour un plus grand nombre d\'instances, vous devriez envisager d\'utiliser [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) à la place, combiné avec une opération booléenne Part. Cela peut entraîner des modifications majeures de votre modèle lorsque vous quittez PartDesign, ce qui signifie que vous ne pouvez pas simplement continuer avec d\'autres fonctionnalités PartDesign dans le même corps. Un exemple est présenté dans ce [Sujet de forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192).
+-   Les motifs PartDesign ne sont pas encore aussi optimisés que leurs homologues Draft. Donc, pour un plus grand nombre d\'instances, vous devriez envisager d\'utiliser [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) à la place, combiné avec une opération booléenne Part. Cela peut entraîner des modifications majeures de votre modèle lorsque vous quittez PartDesign, ce qui signifie que vous ne pouvez pas simplement continuer avec d\'autres fonctionnalités PartDesign dans le même corps. Un exemple est présenté dans ce [Sujet de forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).
 -   Une PartDesign Répétition linéaire ne peut pas être appliqué directement à un autre motif, qu\'il soit polaire, linéaire ou miroir. Pour cela, vous avez besoin d\'une [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md).
 -   Pour d\'autres limitations, voir [PartDesign Symétrie](PartDesign_Mirrored/fr.md).
 

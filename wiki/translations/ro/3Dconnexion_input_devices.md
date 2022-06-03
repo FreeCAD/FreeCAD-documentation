@@ -1,4 +1,7 @@
-# <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}} 3Dconnexion input devices/ro
+# <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width   *200px;"> 3Dconnexion input devices/ro
+
+
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -7,14 +10,14 @@
 
 ### Linux
 
-FreeCAD supportă drivere din proiect [Spacenav](http://spacenav.sourceforge.net/).Acesta este un proiect care are ca scop crearea unui driver cu sursă deschisă, compatibil cu driverele proprietare de la 3Dconnexion.
+FreeCAD supportă drivere din proiect [Spacenav](http   *//spacenav.sourceforge.net/).Acesta este un proiect care are ca scop crearea unui driver cu sursă deschisă, compatibil cu driverele proprietare de la 3Dconnexion.
 
 
 </div>
 
 ### Linux 
 
-FreeCAD supports drivers from project [Spacenav](http://spacenav.sourceforge.net/). This is a project aiming to create an open-sourced driver which is compatible with the proprietary drivers from 3Dconnexion.
+FreeCAD supports drivers from project [Spacenav](http   *//spacenav.sourceforge.net/). This is a project aiming to create an open-sourced driver which is compatible with the proprietary drivers from 3Dconnexion.
 
 
 <div class="mw-translate-fuzzy">
@@ -50,13 +53,13 @@ apt-get install spacenavd libspnav-dev
 ```
 
 
-:   spacenav needs these permissions:
+   *   spacenav needs these permissions   *
 
 
 
 
 
-:   
+   *   
     
 ```python
     cp ~/.Xauthority /root/
@@ -68,13 +71,13 @@ apt-get install spacenavd libspnav-dev
 
 
 
-:   Restart spnavd and FreeCAD
+   *   Restart spnavd and FreeCAD
 
 
 
 
 
-:   
+   *   
     
 ```python
     /usr/bin/spnavd_ctl x11 stop
@@ -105,10 +108,10 @@ This is recommended if your distribution might provide an outdated version.
 
 <div class="mw-translate-fuzzy">
 
--   Descărcați următoarele fișiere:
-    -   [spacenavd-0.5.tar.gz](http://sourceforge.net/projects/spacenav/files/spacenav%20daemon/spacenavd%200.5/spacenavd-0.5.tar.gz/download)
-    -   [libspnav-0.2.2. tar.gz](http://sourceforge.net/projects/spacenav/files/spacenav%20library%20%28SDK%29/libspnav%200.2.2/libspnav-0.2.2.tar.gz/download)
-    -   [spnavcfg-0.2.1.tar.gz](http://sourceforge.net/projects/spacenav/files/spacenavd%20config%20gui/spnavcfg%200.2.1/spnavcfg-0.2.1.tar.gz/download)
+-   Descărcați următoarele fișiere   *
+    -   [spacenavd-0.5.tar.gz](http   *//sourceforge.net/projects/spacenav/files/spacenav%20daemon/spacenavd%200.5/spacenavd-0.5.tar.gz/download)
+    -   [libspnav-0.2.2. tar.gz](http   *//sourceforge.net/projects/spacenav/files/spacenav%20library%20%28SDK%29/libspnav%200.2.2/libspnav-0.2.2.tar.gz/download)
+    -   [spnavcfg-0.2.1.tar.gz](http   *//sourceforge.net/projects/spacenav/files/spacenavd%20config%20gui/spnavcfg%200.2.1/spnavcfg-0.2.1.tar.gz/download)
 -   Despachetați arhivele într-un director din directorul de acasă.
 -   Introduceți directorul spacenavd-0.5
 
@@ -116,7 +119,7 @@ This is recommended if your distribution might provide an outdated version.
 </div>
 
 
-:   
+   *   
     
 ```python
     ./configure
@@ -134,7 +137,7 @@ This is recommended if your distribution might provide an outdated version.
 </div>
 
 
-:   
+   *   
     
 ```python
     make install
@@ -147,7 +150,7 @@ This is recommended if your distribution might provide an outdated version.
 -   Aceasta instalează daemonul spacenav, configurează-l să se încarce automat în boot-ul sistemului și pornește daemonul fără a trebui să repornească.
 -   Acum este timpul să verificați dacă dispozitivul dvs. este detectat corespunzător. Cu dispozitivul deconectat, executați următoarea comandă și apoi conectați-l.
 
-:   
+   *   
     
 ```python
     tail -n100 -f /var/log/spnavd.log 
@@ -157,15 +160,15 @@ This is recommended if your distribution might provide an outdated version.
 
 Dacă ieșirea arată cam așa, puteți continua.
 
-:   
+   *   
     
 ```python
     Device detection, parsing /proc/bus/input/devices
     trying alternative detection, querying /dev/input/eventX device names...
       trying "/dev/input/event1" ... Power Button
       trying "/dev/input/event2" ... 3Dconnexion SpaceNavigator
-    using device: /dev/input/event2
-    device name: 3Dconnexion SpaceNavigator
+    using device   * /dev/input/event2
+    device name   * 3Dconnexion SpaceNavigator
     
 ```
     
@@ -173,13 +176,13 @@ Dacă ieșirea arată cam așa, puteți continua.
 
 <div class="mw-translate-fuzzy">
 
--   Acum introduceți directorul numit libspnav-0.2.2 și executați următoarele comenzi:
+-   Acum introduceți directorul numit libspnav-0.2.2 și executați următoarele comenzi   *
 
 
 </div>
 
 
-:   
+   *   
     
 ```python
     ./configure
@@ -188,19 +191,19 @@ Dacă ieșirea arată cam așa, puteți continua.
 ```
     
 
--   Dacă eșuează cu următoarea eroare: \...
+-   Dacă eșuează cu următoarea eroare   * \...
 
-:   
+   *   
     
 ```python
-    fatal error: gtk/gtk.h: No such file or directory
+    fatal error   * gtk/gtk.h   * No such file or directory
     
 ```
     
 
--   \... atunci trebuie să instalați libgtkmm-2.4-dev. Sub Ubuntu, aceasta se face astfel:
+-   \... atunci trebuie să instalați libgtkmm-2.4-dev. Sub Ubuntu, aceasta se face astfel   *
 
-:   
+   *   
     
 ```python
     sudo apt-get install libgtkmm-2.4-dev
@@ -210,7 +213,7 @@ Dacă ieșirea arată cam așa, puteți continua.
 
 -   Când s-a terminat cu succes, executați următoarea comandă \'\' \'ca root\' \'\' (sau prefix cu sudo.)
 
-:   
+   *   
     
 ```python
     make install
@@ -230,7 +233,7 @@ Dacă ieșirea arată cam așa, puteți continua.
 
 #### Starting spacenavd as a systemd service at boot 
 
-If you want to start spacenavd at boot using systemd, do the following:
+If you want to start spacenavd at boot using systemd, do the following   *
 
 -   Go to the directory where you clone the spacenavd repository (to the root of the repository)
 -   \"sudo cp contrib/systemd/spacenavd.service /usr/lib/systemd/system/spacenavd-local.service\".
@@ -244,12 +247,12 @@ This is only necessary for the installation from source.
 
 #### Restart
 
-Dacă uneori navigatorul nu mai funcționează, este bine să reporniți driverul. Pentru a reporni, accesați Terminal și executați:
+Dacă uneori navigatorul nu mai funcționează, este bine să reporniți driverul. Pentru a reporni, accesați Terminal și executați   *
 
 
 </div>
 
-If sometimes navigator stops working, it is good to restart driver. To restart it, go to Terminal and execute:
+If sometimes navigator stops working, it is good to restart driver. To restart it, go to Terminal and execute   *
 
 
 ```python
@@ -261,17 +264,17 @@ După aceea, reporniți FreeCAD. La unele distro-uri este necesar ca la fiecare 
 
 ### Known Issues 
 
-A user reported on the [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) they saw the following:
+A user reported on the [forum](https   *//forum.freecadweb.org/viewtopic.php?p=341327#p341327) they saw the following   *
 
  Spacenav daemon 0.6
- failed to open config file /etc/spnavrc: No such file or directory. using defaults.
+ failed to open config file /etc/spnavrc   * No such file or directory. using defaults.
  adding device.
- device name: 3Dconnexion SpacePilot
- using device: /dev/input/event5
+ device name   * 3Dconnexion SpacePilot
+ using device   * /dev/input/event5
  No protocol specified
- failed to open X11 display ":0.0" 
+ failed to open X11 display "   *0.0" 
 
-The workaround that worked for them:
+The workaround that worked for them   *
 
 
 ```python 
@@ -306,7 +309,7 @@ As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconn
 
 #### Known Issue 
 
-There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, which causes the view to jump. To fix it:
+There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, which causes the view to jump. To fix it   *
 
 1.  Open 3Dconnexion Properties. You can double-click its icon in the Taskbar, next to the Windows clock.
 2.  Click on the Advanced Settings button.
@@ -314,7 +317,7 @@ There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, wh
 4.  Switch back to 3Dconnexion Advanced Settings. Confirm that it says \"FreeCAD\" in the heading.
 5.  Uncheck all boxes on the page.
 
-ref: <https://freecadweb.org/tracker/view.php?id=1893>
+ref   * <https   *//freecadweb.org/tracker/view.php?id=1893>
 
 
 <div class="mw-translate-fuzzy">
@@ -328,14 +331,14 @@ Suportul mouse-ului 3D a fost realizat cu un proiect spnav pe Linux, și la un n
 
 3D mouse support was made with spnav project on Linux, and on a very low level on Windows. This means there was no support for any settings for a device, since on Linux there is no good support for this, and on Windows it is overridden. This is why two additional pages were added to \"Customize\" dialog.
 
-<img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
+<img alt="" src=images/Spaceball_Motion.png  style="width   *450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width   *450px;">
 
 
 <div class="mw-translate-fuzzy">
 
 ### Spaceball Motion 
 
-În această filă aveți posibilitatea de a configura unele dintre setările generale ale mouse-ului spațial. Ei includ:
+În această filă aveți posibilitatea de a configura unele dintre setările generale ale mouse-ului spațial. Ei includ   *
 
 -   Sensibilitate globală - Slider cu capacitatea de a seta sensibilitate globală
 -   Dominant - dacă activați modul dominant, vor fi luate în considerare numai axele cu cea mai mare mișcare
@@ -348,7 +351,7 @@ Suportul mouse-ului 3D a fost realizat cu un proiect spnav pe Linux, și la un n
 
 </div>
 
-In this tab you have ability to set up some of general space mouse settings. They include:
+In this tab you have ability to set up some of general space mouse settings. They include   *
 
 -   Global Sensitivity - Slider with ability to set global sensitivity
 -   Dominant - if you enable dominant mode, only axes with highest move will be considered
@@ -358,7 +361,7 @@ In this tab you have ability to set up some of general space mouse settings. The
 -   Calibrate - enables you to calibrate space navigator. It is pressed while space navigator is not moved.
 -   Set To Default - removes all settings and sets them to default.
 
-În afară de aceasta, pentru fiecare axă aveți posibilitatea de a seta:
+În afară de aceasta, pentru fiecare axă aveți posibilitatea de a seta   *
 
 -   Activat - Activați / Dezactivați axele
 -   Reverse - Mișcarea inversă pe axe
@@ -378,10 +381,26 @@ When you open this tab for the first time, it will be empty and unavailable. To 
 
 Pentru a conecta anumite comenzi cu un buton, selectați butonul din partea stângă și este comanda pe partea dreaptă. Pentru a șterge comenzile de la buton, apăsați \"Șterge\".
 
+### Troubleshooting
+
+Check if your FreeCAD installation links to the spacenav library. The best way to check this is by running FreeCAD from the command line terminal `FreeCAD --log-file /tmp/freecad.log` and close it immediately again. Then open the file **/tmp/freecad.log** and search for the messages   *
+
+
+`Connected to spacenav daemon`
+
+or
+
+
+`Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
+
+If none of them appears then your FreeCAD build doesn\'t link to the spacenav library. If the former message appears then it basically works. The latter message means there is probably a problem with the spacenav daemon.
+
 ## Related
 
--   Forum thread [spacenav on windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
--   Forum thread [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188)
+-   Forum thread [spacenav on windows](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=51023)
+-   Forum thread [Space navigator axis confusion](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=57188)
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *3rd Party](Category_3rd_Party.md)
 
 
 

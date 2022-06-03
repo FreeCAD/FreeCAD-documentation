@@ -1,6 +1,8 @@
 # Category:Documentation/fi
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories/fi](Category   *Categories/fi.md)
+
 ### Contents
 
 |     |     |     |

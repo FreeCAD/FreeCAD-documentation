@@ -6,11 +6,11 @@
 
 Tous les objets du programme ont un [object name](Object_name/fr.md) qui les identifie de manière unique dans un document donné.
 
-Ces informations s\'appliquent à tous les objets dérivés de [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`), qui comprend essentiellement tous les objets qu\'il est possible de créer dans un document.
+Ces informations s\'appliquent à tous les objets dérivés de [App DocumentObject](App_DocumentObject/fr.md) (classe `App   *   *DocumentObject`), qui comprend essentiellement tous les objets qu\'il est possible de créer dans un document.
 
 ## Les Names 
 
-Il existe différentes propriétés pour les noms:
+Il existe différentes propriétés pour les noms   *
 
 -   Le `Name` ne peut contenir que des caractères alphanumériques simples et le trait de soulignement, `[_0-9a-zA-Z]`.
 -   Le `Name` ne peut pas commencer par un nombre. Il doit commencer par une lettre ou le trait de soulignement, `[_a-zA-Z]`.
@@ -23,7 +23,7 @@ En résumé, `Name` agit essentiellement comme un identifiant unique (UID) pour 
 
 ## Les Labels 
 
-Il existe différentes propriétés pour les étiquettes:
+Il existe différentes propriétés pour les étiquettes   *
 
 -   Le `Label` peut accepter n\'importe quelle chaîne UTF8, y compris les accents et les espaces.
 -   La [vue en arborescence](Tree_view/fr.md) affiche en fait le `Label` de l\'objet et pas le `Name`. Par conséquent, chaque fois qu\'un nouvel objet est créé, il est recommandé de remplacer `Label` par une chaîne plus descriptive. Pour renommer l\'objet, sélectionnez-le dans l\'arborescence et appuyez sur **F2** (ou plutôt **Return** sur macOS), ou ouvrez le menu contextuel (clic droit) et choisissez **Rename**.
@@ -49,7 +49,7 @@ Cette propriété a été introduite dans la version 0.19. Il s\'agit d\'une cha
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
@@ -60,7 +60,7 @@ Tout objet du logiciel est créé en interne avec la méthode `addObject()` du d
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = doc.addObject("Part::Box", "Name")
+obj = doc.addObject("Part   *   *Box", "Name")
 obj.Label = "Custom label"
 ```
 
@@ -68,9 +68,9 @@ obj.Label = "Custom label"
 
 La fonction `addObject` a deux arguments de chaîne de base.
 
--   Le premier argument indique le type d\'objet, dans ce cas, `"Part::Box"`.
--   Le deuxième argument est une chaîne qui définit l\'attribut `Name`. S\'il n\'est pas fourni, il utilise par défaut le même nom que la classe de l\'objet, c\'est-à-dire `"Part__Box"` où les deux symboles invalides, les deux-points `::`, sont remplacé par deux traits de soulignement `__`.
-    -   Le `Nom` ne peut contenir que des caractères alphanumériques simples et le trait de soulignement, `[_0-9a-zA-Z]`. Si d\'autres symboles sont donnés, ils seront convertis en traits de soulignement; par exemple, `"A+B:C*"` est converti en `"A_B_C_"`.
+-   Le premier argument indique le type d\'objet, dans ce cas, `"Part   *   *Box"`.
+-   Le deuxième argument est une chaîne qui définit l\'attribut `Name`. S\'il n\'est pas fourni, il utilise par défaut le même nom que la classe de l\'objet, c\'est-à-dire `"Part__Box"` où les deux symboles invalides, les deux-points `   *   *`, sont remplacé par deux traits de soulignement `__`.
+    -   Le `Nom` ne peut contenir que des caractères alphanumériques simples et le trait de soulignement, `[_0-9a-zA-Z]`. Si d\'autres symboles sont donnés, ils seront convertis en traits de soulignement; par exemple, `"A+B   *C*"` est converti en `"A_B_C_"`.
     -   Le `Name` ne peut pas commencer par un nombre; il doit commencer par une lettre ou le trait de soulignement, `[_a-zA-Z]`. Par exemple, `"123ABC"` est converti en `"_23ABC"`.
     -   Le `Name` est fixe au moment de la création; il ne peut pas être modifié par la suite.
     -   Le `Name` doit être unique dans tout le document. Si le même `"Nom"` est utilisé, un numéro séquentiel sera ajouté automatiquement afin que les noms résultants soient uniques; par exemple, si `"Name"` existe déjà, les nouveaux objets seront appelés `"Name001"`, `"Name002"`, `"Name003"} } etc...

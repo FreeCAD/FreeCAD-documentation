@@ -1,8 +1,8 @@
 ---
-- GuiCommand:/ro
-   Name:Arch MultiMaterial   Name/ro:Arch MultiMaterial
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   MenuLocation:Arch → Multi-Material
+- GuiCommand   */ro
+   Name   *Arch MultiMaterial   Name/ro   *Arch MultiMaterial
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   MenuLocation   *Arch → Multi-Material
 ---
 
 # Arch MultiMaterial/ro
@@ -22,7 +22,7 @@ Instrumentul Multi-Material definește o listă de [ materials](Material.md), cu
 
 ![](images/Arch_multimaterial_example.png )
 
-Nu toate obiectele Arch pot folosi în prezent multi-materiale, iar utilizarea lor diferă. În prezent:
+Nu toate obiectele Arch pot folosi în prezent multi-materiale, iar utilizarea lor diferă. În prezent   *
 
 
 <div class="mw-translate-fuzzy">
@@ -52,7 +52,7 @@ Nu toate obiectele Arch pot folosi în prezent multi-materiale, iar utilizarea l
 
 ![](images/Arch_multimaterial_panel.png )
 
-La crearea sau editarea unui material multiplu făcând dublu clic pe el în arbore, sunt disponibile următoarele opțiuni:
+La crearea sau editarea unui material multiplu făcând dublu clic pe el în arbore, sunt disponibile următoarele opțiuni   *
 
 
 <div class="mw-translate-fuzzy">
@@ -71,7 +71,7 @@ La crearea sau editarea unui material multiplu făcând dublu clic pe el în arb
 
 ## Relation to IFC 
 
-This roughly corresponds to a combination of [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
+This roughly corresponds to a combination of [IfcMaterialLayerSet](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 
 ## Limitations
 

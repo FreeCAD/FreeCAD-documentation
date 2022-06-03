@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Draft OCA è un modulo software utilizzato dai comandi <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Open](Std_Open/it.md), [Std Import](Std_Import/it.md) and [Std Export](Std_Export/it.md) per gestire il [formato OCA](http://groups.google.com/group/open_cad_format).
+Draft OCA è un modulo software utilizzato dai comandi <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Std Open](Std_Open/it.md), [Std Import](Std_Import/it.md) and [Std Export](Std_Export/it.md) per gestire il [formato OCA](http   *//groups.google.com/group/open_cad_format).
 
 
 </div>
@@ -28,14 +28,14 @@ Draft OCA è un modulo software utilizzato dai comandi <img alt="" src=images/St
 
 <div class="mw-translate-fuzzy">
 
-Il formato di file OCA è uno sforzo della comunità per creare un formato di file CAD gratuito, semplice e aperto. OCA è in gran parte basato sul formato di file GCAD generato da [gCAD3D](http://www.gcad3d.org/). Entrambi i formati possono essere importati in FreeCAD e i file OCA esportati da FreeCAD possono essere aperti in gCAD3D.
+Il formato di file OCA è uno sforzo della comunità per creare un formato di file CAD gratuito, semplice e aperto. OCA è in gran parte basato sul formato di file GCAD generato da [gCAD3D](http   *//www.gcad3d.org/). Entrambi i formati possono essere importati in FreeCAD e i file OCA esportati da FreeCAD possono essere aperti in gCAD3D.
 
 
 </div>
 
 ## Importazione
 
-Si posssono importare i seguenti oggetti OCA:
+Si posssono importare i seguenti oggetti OCA   *
 
 -   Linee
 -   Archi e circonferenze
@@ -43,7 +43,7 @@ Si posssono importare i seguenti oggetti OCA:
 
 ## Esportazione
 
-È possibile esportare i seguenti oggetti FreeCAD:
+È possibile esportare i seguenti oggetti FreeCAD   *
 
 -   Linee e spezzate (polilinee)
 -   Archi e circonferenze
@@ -54,7 +54,7 @@ Si posssono importare i seguenti oggetti OCA:
 
 <div class="mw-translate-fuzzy">
 
-Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
+Per ulteriori informazioni, consultare   * [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
 
 
 </div>
@@ -67,7 +67,7 @@ Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_E
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -77,7 +77,7 @@ Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_E
 
 <div class="mw-translate-fuzzy">
 
-Si possono esportare elementi in Oca usando la seguente funzione:
+Si possono esportare elementi in Oca usando la seguente funzione   *
 
 
 </div>
@@ -87,9 +87,9 @@ Si possono esportare elementi in Oca usando la seguente funzione:
 importOCA.export(exportList, filename)
 ```
 
--   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+-   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
 
-Esempio:
+Esempio   *
 
 
 ```python
@@ -121,6 +121,11 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

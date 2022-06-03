@@ -1,6 +1,6 @@
 # Std SelectAll/ro
 ---
-- GuiCommand:   Name:Std SelectAll   MenuLocation:[[Std Edit Menu   Edit]] → Select All|Workbenches:All   Shortcut:...   SeeAlso:...---
+- GuiCommand   *   Name   *Std SelectAll   MenuLocation   *[[Std Edit Menu   Edit]] → Select All|Workbenches   *All   Shortcut   *...   SeeAlso   *...---
 
 
 </div>
@@ -32,10 +32,10 @@ Selecția poate fi utilizată pentru toate operațiile de modificare în care es
 
 Pentru mai multe informații despre modul de selectare, puteți consulta și pagina [Selezione](Draft_Select/it.md).
 
-În plus, pentru a selecta mai multe funcții, puteți:
+În plus, pentru a selecta mai multe funcții, puteți   *
 
 -   să utilizați tasta **CTRL** făcând clic pe funcțiile din arborescența proiectului sau direct în vizualizare,
--   sau în meniul \'\'\' Edit \'\'\'utilizați elementul **[<img src=images/Std_BoxSelection.png style="width:16px"> [Box di selezione](Std_BoxSelection/it.md)** pentru a selecta o regiune a vizualizării.
+-   sau în meniul \'\'\' Edit \'\'\'utilizați elementul **[<img src=images/Std_BoxSelection.png style="width   *16px"> [Box di selezione](Std_BoxSelection/it.md)** pentru a selecta o regiune a vizualizării.
 
 
 </div>

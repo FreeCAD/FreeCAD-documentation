@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Part Shapebuilder
-   Name/ro:Part Shapebuilder
-   MenuLocation:Part -> Shapebuilder...
+- GuiCommand   */ro
+   Name   *Part Shapebuilder
+   Name/ro   *Part Shapebuilder
+   MenuLocation   *Part -> Shapebuilder...
 |
-   Workbenches:[Part](Part_Workbench/ro.md)
-   SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
+   Workbenches   *[Part](Part_Workbench/ro.md)
+   SeeAlso   *[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
 ---
 
 # Part Builder/ro
@@ -59,7 +59,7 @@ This tool will let you create shapes by creating
 
 </div>
 
-This tool can create the following objects:
+This tool can create the following objects   *
 
 ### Edge from two vertices 
 
@@ -114,7 +114,7 @@ This tool can create the following objects:
 
 ## Note
 
-Un posibil flux de lucru ar putea fi:
+Un posibil flux de lucru ar putea fi   *
 
 -   Draw a wireframe-model of your shape using the tools in the draft-workbench (for example line and dwire)
 -   Create all faces with \"face from edges\"

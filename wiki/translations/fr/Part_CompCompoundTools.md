@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Part CompCompoundTools
    Name/fr   *Part Outils composés
-   MenuLocation   *Part → Composé
+   MenuLocation   *Part → Outils composés
    Workbenches   *[Part](Part_Workbench/fr.md)
 ---
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-Un ensemble de divers outils composés.
+Un ensemble d\'outils composés.
 
 ## Types de composés 
 

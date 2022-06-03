@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Pour accéder au module `Mesh`, vous devez d\'abord l\'importer:
+Pour accéder au module `Mesh`, vous devez d\'abord l\'importer   *
 
 
 ```python
@@ -12,21 +12,21 @@ import Mesh
 
 ## Création
 
-Pour créer un objet maillage vide il suffit d\'utiliser la commande standard :
+Pour créer un objet maillage vide il suffit d\'utiliser la commande standard    *
 
 
 ```python
 mesh = Mesh.Mesh()
 ```
 
-Vous pouvez aussi créer un objet à partir d\'un fichier:
+Vous pouvez aussi créer un objet à partir d\'un fichier   *
 
 
 ```python
-mesh = Mesh.Mesh("D:/temp/Something.stl")
+mesh = Mesh.Mesh("D   */temp/Something.stl")
 ```
 
-ou créer un ensemble de triangles en les décrivant par leurs sommets (Vertex) :
+ou créer un ensemble de triangles en les décrivant par leurs sommets (Vertex)    *
 
 
 ```python
@@ -44,7 +44,7 @@ Le Mesh-Kernel prend soin de créer une structure de données topologiquement co
 
 ## Modélisation
 
-Pour créer des formes géométriques, vous pouvez utiliser l\'une des méthodes `create*()`. Un tore, par exemple, peut être créé comme suit:
+Pour créer des formes géométriques, vous pouvez utiliser l\'une des méthodes `create*()`. Un tore, par exemple, peut être créé comme suit   *
 
 
 ```python
@@ -54,7 +54,7 @@ Mesh.show(m)
 
 Les deux premiers paramètres définissent les rayons du tore, et le troisième paramètre est un facteur de sous-échantillonnage pour le nombre de triangles qui seront créés. Plus cette valeur est élevée plus la figure sera lisse.
 
-Le module `Mesh` propose également trois méthodes booléennes: `union()`, `intersection()` et `difference()`:
+Le module `Mesh` propose également trois méthodes booléennes   * `union()`, `intersection()` et `difference()`   *
 
 
 ```python
@@ -69,7 +69,7 @@ m6 = Mesh.Mesh(m2)
 m6.difference(m1)   # the difference of m2 and m1, usually the result is different to m5
 ```
 
-Voici un exemple qui crée un tube en utilisant la méthode `difference()`:
+Voici un exemple qui crée un tube en utilisant la méthode `difference()`   *
 
 
 ```python
@@ -81,7 +81,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh::Feature", "Pipe")
+obj = d.addObject("Mesh   *   *Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -91,9 +91,11 @@ doc.recompute()
 
 ## Remarques
 
-Les scripts, bien que difficile à utiliser, de test unitaire du module `Mesh` constituent une source étendue de scripts liés au maillage. Dans ces tests unitaires, toutes les méthodes sont appelées et toutes les propriétés / attributs sont modifiés. Donc, si vous êtes assez audacieux, jetez un œil au [module de test unitaire](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+Les scripts, bien que difficile à utiliser, de test unitaire du module `Mesh` constituent une source étendue de scripts liés au maillage. Dans ces tests unitaires, toutes les méthodes sont appelées et toutes les propriétés / attributs sont modifiés. Donc, si vous êtes assez audacieux, jetez un œil au [module de test unitaire](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Voir aussi: [Mesh API](Mesh_API/fr.md). {{Top}}  {{Mesh Tools navi}}
+Voir aussi   * [Mesh API](Mesh_API/fr.md). {{Top}}  {{Mesh Tools navi}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

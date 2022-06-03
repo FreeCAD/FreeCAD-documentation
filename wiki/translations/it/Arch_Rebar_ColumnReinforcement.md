@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch_Rebar_ColumnReinforcement
-   Name/it:Armatura di pilastro
-   MenuLocation:Arch → Strumenti armatura → Armatura di colonna o BIM → 3D/BIM → Reinforcement → Column Reinforcement
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Armatura elicoidale](Arch_Rebar_Helical/it.md), [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *Arch_Rebar_ColumnReinforcement
+   Name/it   *Armatura di pilastro
+   MenuLocation   *Arch → Strumenti armatura → Armatura di colonna o BIM → 3D/BIM → Reinforcement → Column Reinforcement
+   Workbenches   *[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso   *[Armatura elicoidale](Arch_Rebar_Helical/it.md), [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md)
+   Version   *0.19
 ---
 
 # Arch Rebar ColumnReinforcement/it
@@ -22,12 +22,12 @@ The [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) tool is also integ
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width   *400px;"> 
 *Armatura di pilastro all'interno di un [Struttura](Arch_Structure/it.md) pilastro*
 
 ## Utilizzo
@@ -35,23 +35,23 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 1\. Selezionare una faccia di un oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato precedentemente.
 2. Quindi selezionare **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Armatura di pilastro](Arch_Rebar_ColumnReinforcement/it.md)** dagli strumenti armatura.
 3. Sullo schermo appare una finestra di dialogo come mostrato sotto.
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;">
 *Finestra di dialogo per lo strumento Armatura di pilastro*
 
 4\. Selezionare il tipo di rinforzo.
 5. Fornire gli input per i dati relativi alla staffatura.
 6. Fare clic su **Avanti** per passare alla finestra di dialogo successiva.
-<img alt="" src=images/ColumnReinforcementDialog_MainRebars.png  style="width:700px;">
+<img alt="" src=images/ColumnReinforcementDialog_MainRebars.png  style="width   *700px;">
 *Finestra di dialogo per i dati dell'armatura principale*
 
 7\. Selezionare il tipo di armatura desiderata e riempire i dati per le armature principali.
 8. Fare clic su **Avanti** per passare alla finestra di dialogo successiva.
-<img alt="" src=images/ColumnReinforcementDialog_XDirRebars.png  style="width:700px;">
+<img alt="" src=images/ColumnReinforcementDialog_XDirRebars.png  style="width   *700px;">
 *Finestra di dialogo per i dati Armature di direzione X.*
 
 9\. Selezionare il tipo di armatura desiderata e compilare i dati per le armature in direzione x.
 10. Fare clic su **Avanti** per passare alla finestra di dialogo successiva.
-<img alt="" src=images/ColumnReinforcementDialog_YDirRebars.png  style="width:700px;">
+<img alt="" src=images/ColumnReinforcementDialog_YDirRebars.png  style="width   *700px;">
 *Finestra di dialogo per i dati Armature di direzione Y.*
 
 11\. Selezionare il tipo di armatura desiderata e compilare i dati per le armature in direzione y.
@@ -60,86 +60,86 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 ## Proprietà
 
-**Staffe:**
+**Staffe   ***
 
--    **Left Cover**: La distanza tra l\'estremità sinistra della staffa e la faccia sinistra della struttura - copriferro sul lato sinistro.
+-    **Left Cover**   * La distanza tra l\'estremità sinistra della staffa e la faccia sinistra della struttura - copriferro sul lato sinistro.
 
--    **Right Cover**: La distanza tra l\'estremità destra della staffa e la faccia destra della struttura - copriferro sul lato destro.
+-    **Right Cover**   * La distanza tra l\'estremità destra della staffa e la faccia destra della struttura - copriferro sul lato destro.
 
--    **Top Cover**: La distanza tra la staffa e la faccia posteriore della struttura.
+-    **Top Cover**   * La distanza tra la staffa e la faccia posteriore della struttura.
 
--    **Bottom Cover**: La distanza tra la staffa e la faccia anteriore della struttura.
+-    **Bottom Cover**   * La distanza tra la staffa e la faccia anteriore della struttura.
 
--    **Offset**: La distanza tra la staffa e la faccia superiore e inferiore della struttura.
+-    **Offset**   * La distanza tra la staffa e la faccia superiore e inferiore della struttura.
 
--    **Diameter**: Diametro del tondino della staffa.
+-    **Diameter**   * Diametro del tondino della staffa.
 
--    **Bent Angle**: L\'angolo di piega definisce l\'angolo alle estremità della staffa.
+-    **Bent Angle**   * L\'angolo di piega definisce l\'angolo alle estremità della staffa.
 
--    **Extension Factor**: Il fattore di estensione definisce la lunghezza dell\'estremità della staffa, espressa in volte il diametro.
+-    **Extension Factor**   * Il fattore di estensione definisce la lunghezza dell\'estremità della staffa, espressa in volte il diametro.
 
--    **Number**: Numero di staffe.
+-    **Number**   * Numero di staffe.
 
--    **Spacing**: La distanza tra gli assi di ciascuna staffa.
+-    **Spacing**   * La distanza tra gli assi di ciascuna staffa.
 
-**Main Rebars:** Tondini per cemento armato posizionati negli angoli della staffa
+**Main Rebars   *** Tondini per cemento armato posizionati negli angoli della staffa
 
--    **Rebar Type**: Tipo di armatura principale.
+-    **Rebar Type**   * Tipo di armatura principale.
 
--    **Hook Orientation**: Orientamento dei ganci a forma di L.
+-    **Hook Orientation**   * Orientamento dei ganci a forma di L.
 
--    **Hook Extend Along**: Direzione per l\'estensione del gancio.
+-    **Hook Extend Along**   * Direzione per l\'estensione del gancio.
 
--    **Hook Extension**: Lunghezza del gancio delle armature a forma di L.
+-    **Hook Extension**   * Lunghezza del gancio delle armature a forma di L.
 
--    **Rounding**: Un valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresso in volte il diametro.
+-    **Rounding**   * Un valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresso in volte il diametro.
 
--    **Top Offset**: La distanza tra l\'armatura e la faccia superiore della struttura.
+-    **Top Offset**   * La distanza tra l\'armatura e la faccia superiore della struttura.
 
--    **Bottom Offset**: La distanza tra l\'armatura e la faccia inferiore della struttura.
+-    **Bottom Offset**   * La distanza tra l\'armatura e la faccia inferiore della struttura.
 
--    **Diameter**: Diametro delle armature principali.
+-    **Diameter**   * Diametro delle armature principali.
 
-**XDir Secondary Rebars:** Armatura lungo la direzione x esclusa l\'armatura principale.
+**XDir Secondary Rebars   *** Armatura lungo la direzione x esclusa l\'armatura principale.
 
--    **Rebar Type**: Tipo di armatura in direzione x.
+-    **Rebar Type**   * Tipo di armatura in direzione x.
 
--    **Hook Orientation**: Orientamento dei ganci a forma di L.
+-    **Hook Orientation**   * Orientamento dei ganci a forma di L.
 
--    **Hook Extension**: Lunghezza del gancio delle armature a forma di L.
+-    **Hook Extension**   * Lunghezza del gancio delle armature a forma di L.
 
--    **Rounding**: Un valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresso in volte il diametro.
+-    **Rounding**   * Un valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresso in volte il diametro.
 
--    **Top Offset**: La distanza tra l\'armatura e la faccia superiore della struttura.
+-    **Top Offset**   * La distanza tra l\'armatura e la faccia superiore della struttura.
 
--    **Bottom Offset**: La distanza tra l\'armatura e la faccia inferiore della struttura.
+-    **Bottom Offset**   * La distanza tra l\'armatura e la faccia inferiore della struttura.
 
--    **Number#Diameter**: Numero\#Diametro del gruppo di armature in direzione x.
+-    **Number#Diameter**   * Numero\#Diametro del gruppo di armature in direzione x.
 
-**YDir Secondary Rebars:** Armatura lungo la direzione y esclusa l\'armatura principale.
+**YDir Secondary Rebars   *** Armatura lungo la direzione y esclusa l\'armatura principale.
 
--    **Rebar Type**: Tipo di armatura in direzione y.
+-    **Rebar Type**   * Tipo di armatura in direzione y.
 
--    **Hook Orientation**: Orientamento dei ganci a forma di L.
+-    **Hook Orientation**   * Orientamento dei ganci a forma di L.
 
--    **Hook Extension**: Lunghezza del gancio delle armature a forma di L.
+-    **Hook Extension**   * Lunghezza del gancio delle armature a forma di L.
 
--    **Rounding**: Un valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresso in volte il diametro.
+-    **Rounding**   * Un valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresso in volte il diametro.
 
--    **Top Offset**: La distanza tra l\'armatura e la faccia superiore della struttura.
+-    **Top Offset**   * La distanza tra l\'armatura e la faccia superiore della struttura.
 
--    **Bottom Offset**: La distanza tra l\'armatura e la faccia inferiore della struttura.
+-    **Bottom Offset**   * La distanza tra l\'armatura e la faccia inferiore della struttura.
 
--    **Number#Diameter**: Numero\#Diametro del gruppo di armature in direzione y.
+-    **Number#Diameter**   * Numero\#Diametro del gruppo di armature in direzione y.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura di pilastro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Armatura di pilastro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 ### Creare una singola staffa e quattro barre 
 
@@ -191,7 +191,7 @@ RebarGroup = makeSingleTieFourRebars(
 
 -    `rebar_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
 
--    `hook_orientation`specifies the orientation of LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `hook_orientation`specifies the orientation of LShaped hook; it can be   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
 
 -    `hook_extend_along`specifies direction for hook extension; it can be `"x-axis"` or `"y-axis"`.
 
@@ -348,7 +348,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_rebars_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
 
--    `main_hook_orientation`specifies the orientation of main LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `main_hook_orientation`specifies the orientation of main LShaped hook; it can be   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
 
 -    `main_hook_extend_along`specifies direction for main hook extension; it can be `"x-axis"` or `"y-axis"`.
 
@@ -417,7 +417,7 @@ RebarGroup = SingleTieMultipleRebars.makeSingleTieMultipleRebars(
 
 ### Modifica di una singola staffa e quattro barre 
 
-È possibile modificare le proprietà della staffa e delle barre con la seguente funzione:
+È possibile modificare le proprietà della staffa e delle barre con la seguente funzione   *
 
 
 ```python
@@ -487,7 +487,7 @@ rebar_group = SingleTie.editSingleTieFourRebars(
 
 ### Modifica di una singola staffa e multiple barre 
 
-È possibile modificare le proprietà della staffa e delle barre con la seguente funzione:
+È possibile modificare le proprietà della staffa e delle barre con la seguente funzione   *
 
 
 ```python
@@ -576,6 +576,11 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

@@ -13,8 +13,8 @@ The GSoC project aims at including the well known and powerful VTK library bette
 2.  Create a new result data structure based on the SMESH mesh datastructure, which internally uses VTK unstructured grid. Add postprocessing functions to this result object and design a python interface around it.
 3.  Port the post processing features to the new result object and expose the functionality to the GUI
 4.  Extend the current functionality with new filters, with more functions and sources. Futhermore include the available spredsheet and plot module for data analysis of certain filter types
-5.  Advanced: Replace the current custom implemented result object and make all postprocessing work unified with vtk
-6.  Advanced: Make the preprocessing filters work with the default mesh data structure so that postprocessing can make use of the VTK tools
+5.  Advanced   * Replace the current custom implemented result object and make all postprocessing work unified with vtk
+6.  Advanced   * Make the preprocessing filters work with the default mesh data structure so that postprocessing can make use of the VTK tools
 
 ## Expected Outcome 
 
@@ -38,7 +38,9 @@ If this project is finished successfully futher work on the FEM workbench can be
 
 Medium
 
-### Additional Information
+### Additional Information 
+
+[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 
 

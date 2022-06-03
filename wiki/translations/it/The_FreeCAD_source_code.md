@@ -1,9 +1,9 @@
 # The FreeCAD source code/it
-Il [codice sorgente di FreeCAD](https://github.com/FreeCAD/FreeCAD) è gestito con git, ed è pubblico, aperto e disponibile sotto la [licenza LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Esso può essere copiato, scaricato, letto, analizzato, ridistribuito e modificato da chiunque. Se avete intenzione di apportare delle modifiche che desiderate vedere incluse nel codice ufficiale, ricordate che le modifiche devono essere approvate dagli sviluppatori di FreeCAD, quindi è saggio discutere prima le proprie intenzioni e idee nel [forum](http://forum.freecadweb.org), per non rischiare che le modifiche vengano poi respinte a causa di qualche motivo imprevisto.
+Il [codice sorgente di FreeCAD](https   *//github.com/FreeCAD/FreeCAD) è gestito con git, ed è pubblico, aperto e disponibile sotto la [licenza LGPL](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Esso può essere copiato, scaricato, letto, analizzato, ridistribuito e modificato da chiunque. Se avete intenzione di apportare delle modifiche che desiderate vedere incluse nel codice ufficiale, ricordate che le modifiche devono essere approvate dagli sviluppatori di FreeCAD, quindi è saggio discutere prima le proprie intenzioni e idee nel [forum](http   *//forum.freecadweb.org), per non rischiare che le modifiche vengano poi respinte a causa di qualche motivo imprevisto.
 
 Se siete interessati a esplorare il codice FreeCAD, qui di seguito ci sono alcuni suggerimenti e informazioni utili per fornire una traccia .
 
--   Il codice di FreeCAD è programmato principalmente in **C++**, ma si basa pesantemente su **Python**. Una grande parte delle sue funzionalità fornisce un legame di associazione a Python, e offrire sempre un accesso con python per qualsiasi nuova caratteristica implementata in C++ fa parte della filosofia di base dello sviluppo di FreeCAD. Per ottenere questo, in tutto FreeCAD sono abbondantemente utilizzati CPython (gli strumenti di interfacciamento con C forniti da Python stesso) e specialmente [PyCXX](http://cxx.sourceforge.net/). Nel stesso codice di FreeCAD sono forniti anche molti modelli e strumenti personalizzati per rendere molto facile la costruzione dei legami di associazione a python. Alcune parti del codice di alto livello di FreeCAD sono codificate completamente in Python.
+-   Il codice di FreeCAD è programmato principalmente in **C++**, ma si basa pesantemente su **Python**. Una grande parte delle sue funzionalità fornisce un legame di associazione a Python, e offrire sempre un accesso con python per qualsiasi nuova caratteristica implementata in C++ fa parte della filosofia di base dello sviluppo di FreeCAD. Per ottenere questo, in tutto FreeCAD sono abbondantemente utilizzati CPython (gli strumenti di interfacciamento con C forniti da Python stesso) e specialmente [PyCXX](http   *//cxx.sourceforge.net/). Nel stesso codice di FreeCAD sono forniti anche molti modelli e strumenti personalizzati per rendere molto facile la costruzione dei legami di associazione a python. Alcune parti del codice di alto livello di FreeCAD sono codificate completamente in Python.
 
 
 <div class="mw-translate-fuzzy">
@@ -36,7 +36,7 @@ Se siete interessati a esplorare il codice FreeCAD, qui di seguito ci sono alcun
 
 <div class="mw-translate-fuzzy">
 
--   FreeCAD è un avido utente di **altre librerie open-source**. Oltre a Python e Qt, utilizzati dal core e da quasi tutti i moduli, le due librerie fortemente utilizzate dalla maggior parte dei moduli sono [OpenCasCade Technology](https://en.wikipedia.org/wiki/Open_Cascade_Technology) e [Coin3D](http://www.coin3d.org/). OpenCasCade viene utilizzato per creare e per gestire tutta la geometria solida di FreeCAD, mentre coin3D viene utilizzato per gestire la visualizzazione 3D. OpenCascade è utilizzato principalmente nella parte App, e coin3D esclusivamente nella parte Gui. Con FreeCAD, per fare qualsiasi lavoro legato alla geometria, è fondamentale una conoscenza di base di OpenCasCade. Diversi moduli specifici fanno uso di diverse specifiche librerie, e dato che di solito non ci sono restrizioni su questo punto, salvo che le librerie siano facilmente disponibili per tutte le piattaforme, in una installazione completa di FreeCAD con tutti i suoi moduli, l\'elenco delle dipendenze può essere molto lungo.
+-   FreeCAD è un avido utente di **altre librerie open-source**. Oltre a Python e Qt, utilizzati dal core e da quasi tutti i moduli, le due librerie fortemente utilizzate dalla maggior parte dei moduli sono [OpenCasCade Technology](https   *//en.wikipedia.org/wiki/Open_Cascade_Technology) e [Coin3D](http   *//www.coin3d.org/). OpenCasCade viene utilizzato per creare e per gestire tutta la geometria solida di FreeCAD, mentre coin3D viene utilizzato per gestire la visualizzazione 3D. OpenCascade è utilizzato principalmente nella parte App, e coin3D esclusivamente nella parte Gui. Con FreeCAD, per fare qualsiasi lavoro legato alla geometria, è fondamentale una conoscenza di base di OpenCasCade. Diversi moduli specifici fanno uso di diverse specifiche librerie, e dato che di solito non ci sono restrizioni su questo punto, salvo che le librerie siano facilmente disponibili per tutte le piattaforme, in una installazione completa di FreeCAD con tutti i suoi moduli, l\'elenco delle dipendenze può essere molto lungo.
 
 
 </div>
@@ -49,12 +49,12 @@ Se siete interessati a esplorare il codice FreeCAD, qui di seguito ci sono alcun
 
 </div>
 
--   La struttura di base del codice sorgente è organizzata in questo modo:
-    -   **App**: contiene l\'applicazione FreeCAD in modalità console, definisce le strutture di base e le classi di base per gli oggetti del documento, che vengono utilizzate dai moduli per costruire i propri oggetti.
-    -   **Base**: contiene le funzionalità di base comunemente utilizzate da tutto FreeCAD: vettori 3D, unità, matrici, posizionamento, ecc
-    -   **Gui**: contiene l\'applicazione FreeCAD in modalità GUI, definisce la vista 3D, contiene molti strumenti e funzioni che sono utilizzate dagli ambienti di lavoro per interagire con l\'interfaccia e con la vista 3D, definisce le classi di base per i gestori della vista.
-    -   **Doc**: contiene principalmente un file di aiuto all-in-one di Qt generato da questo wiki.
-    -   **Mod**: contiene tutti i moduli, anche essi divisi in App e Gui (fatta eccezione per i moduli Python, che non sempre seguono così chiaramente questa regola).
+-   La struttura di base del codice sorgente è organizzata in questo modo   *
+    -   **App**   * contiene l\'applicazione FreeCAD in modalità console, definisce le strutture di base e le classi di base per gli oggetti del documento, che vengono utilizzate dai moduli per costruire i propri oggetti.
+    -   **Base**   * contiene le funzionalità di base comunemente utilizzate da tutto FreeCAD   * vettori 3D, unità, matrici, posizionamento, ecc
+    -   **Gui**   * contiene l\'applicazione FreeCAD in modalità GUI, definisce la vista 3D, contiene molti strumenti e funzioni che sono utilizzate dagli ambienti di lavoro per interagire con l\'interfaccia e con la vista 3D, definisce le classi di base per i gestori della vista.
+    -   **Doc**   * contiene principalmente un file di aiuto all-in-one di Qt generato da questo wiki.
+    -   **Mod**   * contiene tutti i moduli, anche essi divisi in App e Gui (fatta eccezione per i moduli Python, che non sempre seguono così chiaramente questa regola).
 
 
 <div class="mw-translate-fuzzy">
@@ -66,6 +66,8 @@ Se siete interessati a esplorare il codice FreeCAD, qui di seguito ci sono alcun
 
 
 </div>
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

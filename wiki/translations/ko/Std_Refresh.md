@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ko
-   Name:Std Refresh
-   Name/ko:표준 새로 고침
-   MenuLocation:편집 → 새로 고침
-   Workbenches:모두
-   Shortcut:**F5**
+- GuiCommand   */ko
+   Name   *Std Refresh
+   Name/ko   *표준 새로 고침
+   MenuLocation   *편집 → 새로 고침
+   Workbenches   *모두
+   Shortcut   ***F5**
 ---
 
 # Std Refresh/ko
@@ -15,7 +15,7 @@
 
 ## 용법
 
-1.  이 명령을 실행하는 방법은 여러 가지입니다:
+1.  이 명령을 실행하는 방법은 여러 가지입니다   *
     -   
         **<img src="images/Std_Refresh.svg" width=16px> [표준 다시 계산](Std_Refresh/ko.md)
 **
@@ -24,7 +24,7 @@
 
     -   메뉴에서 **편집 → <img src="images/Std_Refresh.svg" width=16px> 새로 고침** 옵션을 선택합니다.
 
-    -   단축키를 사용합니다: **F5**.
+    -   단축키를 사용합니다   * **F5**.
 
 ## 선택 사항 
 
@@ -39,12 +39,12 @@
 
 ## 비고
 
--   활성 문서를 다시 계산하는 매크로는 다음을 참조하십시오: [Macro ForceRecompute](Macro_ForceRecompute.md).
+-   활성 문서를 다시 계산하는 매크로는 다음을 참조하십시오   * [Macro ForceRecompute](Macro_ForceRecompute.md).
 
 ## 스크립트
 
 
-**참조:**
+**참조   ***
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 

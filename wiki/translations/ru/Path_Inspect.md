@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Path Inspect
-   Name/ru:Path Inspect
-   MenuLocation:Путь → Исследовать G-code
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */ru
+   Name   *Path Inspect
+   Name/ru   *Path Inspect
+   MenuLocation   *Путь → Исследовать G-code
+   Workbenches   *[Path](Path_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Path Inspect/ru
@@ -22,11 +22,11 @@ This tool allows inspection of the internal FreeCAD G-code dialect contents of a
 ## Usage
 
 1.  Select a Path object.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Path_Inspect.svg" width=16px> [Path Inspect](Path_Inspect.md)** button.
     -   Select the **Path → <img src="images/Path_Inspect.svg" width=16px> Inspect G-code** option from the menu.
     -   Select the **<img src="images/Path_Inspect.svg" width=16px> Inspect G-code** option from the [Tree view](Tree_view.md) context menu.
-    -   Use the keyboard shortcut: **P** then **I**.
+    -   Use the keyboard shortcut   * **P** then **I**.
 
 ## Options
 

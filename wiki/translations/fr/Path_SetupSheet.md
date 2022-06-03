@@ -11,27 +11,27 @@ Les Feuilles de configuration sont particulièrement utiles lorsqu'ils sont enre
 
 ## Propriétés
 
--    {{PropertyData/fr|VertRapid}}: définit le taux de rotation rapide vertical dans les nouveaux contrôleurs d\'outil. (Utilisé dans les post-processeurs prenant en charge les taux rapides personnalisables).
+-    {{PropertyData/fr|VertRapid}}   * définit le taux de rotation rapide vertical dans les nouveaux contrôleurs d\'outil. (Utilisé dans les post-processeurs prenant en charge les taux rapides personnalisables).
 
--    {{PropertyData/fr|HorizRapid}}: définit le taux rapide horizontal dans les nouveaux contrôleurs d\'outil. (Utilisé dans les post-processeurs prenant en charge les taux rapides personnalisables).
+-    {{PropertyData/fr|HorizRapid}}   * définit le taux rapide horizontal dans les nouveaux contrôleurs d\'outil. (Utilisé dans les post-processeurs prenant en charge les taux rapides personnalisables).
 
--    {{PropertyData/fr|SafeHeightOffset}}: l\'utilisation de ce champ dépend de SafeHeightExpression (voir ci-dessous).
+-    {{PropertyData/fr|SafeHeightOffset}}   * l\'utilisation de ce champ dépend de SafeHeightExpression (voir ci-dessous).
 
--    {{PropertyData/fr|SafeHeightExpression}}: le résultat de cette expression sera utilisé pour définir la hauteur de sécurité des opérations.
+-    {{PropertyData/fr|SafeHeightExpression}}   * le résultat de cette expression sera utilisé pour définir la hauteur de sécurité des opérations.
 
--    {{PropertyData/fr|ClearanceHeightOffset}}: l\'utilisation de ce champ dépend de ClearanceHeightExpression (voir ci-dessous).
+-    {{PropertyData/fr|ClearanceHeightOffset}}   * l\'utilisation de ce champ dépend de ClearanceHeightExpression (voir ci-dessous).
 
--    {{PropertyData/fr|ClearanceHeightExpression}}: le résultat de cette expression sera utilisé pour définir la hauteur de dégagement des opérations.
+-    {{PropertyData/fr|ClearanceHeightExpression}}   * le résultat de cette expression sera utilisé pour définir la hauteur de dégagement des opérations.
 
--    {{PropertyData/fr|StartDepthExpression}}: le résultat de cette expression sera utilisé pour définir la propriété StartDepth des opérations.
+-    {{PropertyData/fr|StartDepthExpression}}   * le résultat de cette expression sera utilisé pour définir la propriété StartDepth des opérations.
 
--    {{PropertyData/fr|FinalDepthExpression}}: le résultat de cette expression sera utilisé pour définir la propriété FinalDepth des opérations.
+-    {{PropertyData/fr|FinalDepthExpression}}   * le résultat de cette expression sera utilisé pour définir la propriété FinalDepth des opérations.
 
--    {{PropertyData/fr|StepDownExpression}}: le résultat de cette expression sera utilisé pour définir la propriété StepDown des opérations.
+-    {{PropertyData/fr|StepDownExpression}}   * le résultat de cette expression sera utilisé pour définir la propriété StepDown des opérations.
 
 ## Paramètres de l\'opération 
 
-Les suivants sont tirés de:
+Les suivants sont tirés de   *
 
 -   OpFinalDepth - La valeur de la propriété FinalDepth.
 -   OpStartDepth - La valeur de la propriété FinalDepth.
@@ -39,7 +39,7 @@ Les suivants sont tirés de:
 
 ## Valeurs de la Feuille de configuration 
 
-Les autres valeurs de la Feuille de configuration peuvent être référencées directement:
+Les autres valeurs de la Feuille de configuration peuvent être référencées directement   *
 
 -   SetupSheet.ClearanceHeightOffset
 -   SetupSheet.SafeHeightOffset

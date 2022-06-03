@@ -3,7 +3,7 @@
 
 ## Bau
 
-BildKonv befindet sich im Quellbaum von FreeCAD:
+BildKonv befindet sich im Quellbaum von FreeCAD   *
 
 
 {{Incode|/trunk/src/Tools/ImageTools/ImageConv}}
@@ -13,6 +13,8 @@ Das Bauen ist einfach mit dem *Makefile* oder dem VisualStudio-Projekt.
 ## Anwendung
 
 BildKonv ist ein Befehlszeilenwerkzeug.
+
+[Category   *Developer](Category_Developer.md)
 
 
 

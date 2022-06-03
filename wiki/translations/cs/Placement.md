@@ -7,7 +7,7 @@
 
 ### Přístup k atributům Umístění 
 
-K atributům objektu Umístění lze přistupovat a modifikovat je 3 způsoby:
+K atributům objektu Umístění lze přistupovat a modifikovat je 3 způsoby   *
 
 
 </div>
@@ -58,21 +58,21 @@ První tvar zadání **Umístění** ustaví místo objektu v prostoru na Pozici
 
 </div>
 
-**Axis = (ax,ay,az)** is a vector describing an axis of rotation (See Note about axis of rotation). Examples are:
+**Axis = (ax,ay,az)** is a vector describing an axis of rotation (See Note about axis of rotation). Examples are   *
 
    (1,0,0)       ==> about **X** axis
    (0,1,0)       ==> about **Y** axis
    (0,0,1)       ==> about **Z** axis
    (0.71,0.71,0) ==> about the line **y=x**
 
-Note that it is also possible to translate (move) an object along this axis of rotation (axial motion) by entering the distance to move in the {{SpinBox|Axial: 0.0mm}} spinbox and clicking **Apply axial**. (One way to envision axial motion is to think of an airplane with a propeller spinning on its nose \-- the propeller spins *about* an axis of rotation while the plane moves *along* that same axis.) The values in the vector can be thought of as the relative amount of motion that will be applied in that direction. For example, in the y=x case (0.71,0.71,0) the value contained in the Axial spinbox gets applied in equal measure to the X and Y directions, but no movement happens in the Z direction.
+Note that it is also possible to translate (move) an object along this axis of rotation (axial motion) by entering the distance to move in the {{SpinBox|Axial   * 0.0mm}} spinbox and clicking **Apply axial**. (One way to envision axial motion is to think of an airplane with a propeller spinning on its nose \-- the propeller spins *about* an axis of rotation while the plane moves *along* that same axis.) The values in the vector can be thought of as the relative amount of motion that will be applied in that direction. For example, in the y=x case (0.71,0.71,0) the value contained in the Axial spinbox gets applied in equal measure to the X and Y directions, but no movement happens in the Z direction.
 
 **Position = (x,y,z)** is a Vector describing the point from which the object\'s geometry will be calculated (in effect, a \"local origin\" for the object). Note that in scripts, Placement.Base is used to denote the Position component of a placement. The property editor calls this value **Position** and the Placement task panel calls it **Translation**.
 
 
 <div class="mw-translate-fuzzy">
 
-**Osa = (ax,ay,az)** je vektor popisující osu otáčení (Přečtěte si poznámku o ose otáčení). Příklady:
+**Osa = (ax,ay,az)** je vektor popisující osu otáčení (Přečtěte si poznámku o ose otáčení). Příklady   *
 
    (1,0,0)       ==> kolem osy **X**
    (0,1,0)       ==> kolem osy **Y**
@@ -92,7 +92,7 @@ Note that it is also possible to translate (move) an object along this axis of r
 
 <div class="mw-translate-fuzzy">
 
-Druhý tvar zadání **Umístění** ustaví místo objektu v prostoru pomocí Pozice (stejně jako předchozí tvar),ale popíše jeho orientaci použitím úhlů Yaw, Pitch a Roll ([Yaw, Pitch, Roll](http://en.wikipedia.org/wiki/Yaw,_pitch,_and_roll)). Tyto úhly jsou někdy také nazývány jako Eulerovy úhly nebo Tait-Bryanovy úhly ([Eulerovy úhly](http://en.wikipedia.org/wiki/Euler_angles)). Yaw, Pitch a Roll jsou běžně užívány v letecké terminologii pro orientaci (nebo polohu) tělesa.
+Druhý tvar zadání **Umístění** ustaví místo objektu v prostoru pomocí Pozice (stejně jako předchozí tvar),ale popíše jeho orientaci použitím úhlů Yaw, Pitch a Roll ([Yaw, Pitch, Roll](http   *//en.wikipedia.org/wiki/Yaw,_pitch,_and_roll)). Tyto úhly jsou někdy také nazývány jako Eulerovy úhly nebo Tait-Bryanovy úhly ([Eulerovy úhly](http   *//en.wikipedia.org/wiki/Euler_angles)). Yaw, Pitch a Roll jsou běžně užívány v letecké terminologii pro orientaci (nebo polohu) tělesa.
 
 
 </div>
@@ -113,9 +113,9 @@ Druhý tvar zadání **Umístění** ustaví místo objektu v prostoru pomocí P
 
 <center>
 
-Image:Tache\_Placement\_Lacet\_fr\_Mini.gif\|**Yaw** je pootočení kolem **osy Z**, to jest rotace zleva doprava.
-(Úhel Yaw je **Psi ψ**). Image:Tache\_Placement\_Tangage\_fr\_Mini.gif\|**Pitch** je pootočení kolem **osy Y**, to jest rotace předkem nahoru a dolu.
-(Úhel Pitch je **Phi φ**). Image:Tache\_Placement\_Roulis\_fr\_Mini.gif\|**Roll** je pootočení kolem **osy X**, to jest rotace křídlem nahoru a dolu.
+Image   *Tache\_Placement\_Lacet\_fr\_Mini.gif\|**Yaw** je pootočení kolem **osy Z**, to jest rotace zleva doprava.
+(Úhel Yaw je **Psi ψ**). Image   *Tache\_Placement\_Tangage\_fr\_Mini.gif\|**Pitch** je pootočení kolem **osy Y**, to jest rotace předkem nahoru a dolu.
+(Úhel Pitch je **Phi φ**). Image   *Tache\_Placement\_Roulis\_fr\_Mini.gif\|**Roll** je pootočení kolem **osy X**, to jest rotace křídlem nahoru a dolu.
 (Úhel Roll je **Thêta θ**).
 
 
@@ -148,7 +148,7 @@ App.Rotation(10,20,30) = Euler Angle
 
 **Umístění = Matrix**
 
-Třetí tvar zadání **Umístění** popisuje pozici a orientaci objektu pomocí 4x4 afinní transformační matice ([Affine Transformation](http://en.wikipedia.org/wiki/Affine_transformation)).
+Třetí tvar zadání **Umístění** popisuje pozici a orientaci objektu pomocí 4x4 afinní transformační matice ([Affine Transformation](http   *//en.wikipedia.org/wiki/Affine_transformation)).
 
 **Matrix (matice)** =
 
@@ -180,7 +180,7 @@ Sekce **Posunutí** určuje místo objektu v prostoru. Sekce **Střed** určuje 
 
 ## Příklady
 
-Otočení kolem jedné osy:
+Otočení kolem jedné osy   *
 
 
 </div>
@@ -189,13 +189,13 @@ But while the elements within each section generally apply to the purpose of tha
 
 The **Apply incremental changes to object placement** tick box is useful when translations/rotations are to be made relative the object\'s current position/attitude, rather than to the original position/attitude. Ticking this box resets the dialogue input fields to zero, but does not change the object\'s orientation or location. Subsequent entries do change the orientation/location, but are applied from the object\'s current position. Enabling this checkbox is also useful when using the Selected points button as it can sometimes prevent undesired placement changes.
 
-PS: since version 0.17 introduce new object Part, this object have his placement, and the Placement object created in the Part object is incremented with the Part Placement. <small>(v0.17)</small>  For obtain the Part Placement use this code 
+PS   * since version 0.17 introduce new object Part, this object have his placement, and the Placement object created in the Part object is incremented with the Part Placement. <small>(v0.17)</small>  For obtain the Part Placement use this code 
 ```python
 import Draft, Part
 sel = FreeCADGui.Selection.getSelection()
 print sel[0].Placement
 print sel[0].getGlobalPlacement()   # return the GlobalPlacement
-print sel[0].getParentGeoFeatureGroup() # return the GeoFeatureGroup, ex:  Body or a Part.
+print sel[0].getParentGeoFeatureGroup() # return the GeoFeatureGroup, ex   *  Body or a Part.
 print  "____________________"
 ```
 
@@ -203,42 +203,42 @@ print  "____________________"
 
 Let us first consider the simple case of selecting 1 point. The workflow is to first select the desired point, then click the **Selected points** button. The coordinates of the selected point will be used to populate the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will about this center of rotation.
 
-Now consider the case of selecting 2 points. You would select the 2 desired points, and then click the **Selected points** button. The coordinates of the midpoint between the 2 selected points get placed into the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will be about this center of rotation. But in addition to setting up the **Center** section coordinates a custom (user-defined) axis is also added to the **Axis** element within the **Rotation** section. (Note: if you were in Euler rotation mode, the mode gets switched to Rotation with an axis mode and the new custom axis is selected as the current axis of rotation.) Now any rotation done using the new custom axis will be about this axis of rotation. As an added bonus, the distance is measured between the 2 selected points, and this information is given in the Report View. (Note: Hold down the Shift key while clicking the **Selected points** button to copy the distance measurement to the clipboard.) By entering this distance into the Axial spinbox in the **Translation** section and clicking the **Apply axial** button you can translate (move) the object so that the first selected point now occupies the coordinates occupied by the second selected point (at the time the **Selected points** button was clicked).
+Now consider the case of selecting 2 points. You would select the 2 desired points, and then click the **Selected points** button. The coordinates of the midpoint between the 2 selected points get placed into the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will be about this center of rotation. But in addition to setting up the **Center** section coordinates a custom (user-defined) axis is also added to the **Axis** element within the **Rotation** section. (Note   * if you were in Euler rotation mode, the mode gets switched to Rotation with an axis mode and the new custom axis is selected as the current axis of rotation.) Now any rotation done using the new custom axis will be about this axis of rotation. As an added bonus, the distance is measured between the 2 selected points, and this information is given in the Report View. (Note   * Hold down the Shift key while clicking the **Selected points** button to copy the distance measurement to the clipboard.) By entering this distance into the Axial spinbox in the **Translation** section and clicking the **Apply axial** button you can translate (move) the object so that the first selected point now occupies the coordinates occupied by the second selected point (at the time the **Selected points** button was clicked).
 
-Now consider the case of selecting 3 points. You would select the 3 desired points, and then click the **Selected points** button. The coordinates of the first selected point (order of selection is very important here) get placed into the X, Y, and Z spinboxes within the **Center** section. Since 3 points define a plane FreeCAD is able to take advantage of that and use those 3 points to create a new custom (user-defined) axis of rotation that is normal (perpendicular) to that defined plane. As with 2 selected points, the distance between points is also shown in the Report View, but this time it is the distance between the 2nd and 3rd selected points. (Note: Hold down the Shift key while clicking **Selected points** button \-- Shift + Click \-- to copy the angle measurement to the clipboard.) Additionally, the angle between the 2nd and 3rd points is also measured and displayed in the Report View. By entering this angle into the **Angle** spinbox within the **Rotation** section we can very precisely rotate the object such that now the 2nd selected point is in alignment with the coordinates occupied by the 3rd selected point. (Note: you might want to increase the number of digits used within the Edit menu -\> Preferences -\> General -\> Units -\> Number of decimals spinbox if you desire more precision.)
+Now consider the case of selecting 3 points. You would select the 3 desired points, and then click the **Selected points** button. The coordinates of the first selected point (order of selection is very important here) get placed into the X, Y, and Z spinboxes within the **Center** section. Since 3 points define a plane FreeCAD is able to take advantage of that and use those 3 points to create a new custom (user-defined) axis of rotation that is normal (perpendicular) to that defined plane. As with 2 selected points, the distance between points is also shown in the Report View, but this time it is the distance between the 2nd and 3rd selected points. (Note   * Hold down the Shift key while clicking **Selected points** button \-- Shift + Click \-- to copy the angle measurement to the clipboard.) Additionally, the angle between the 2nd and 3rd points is also measured and displayed in the Report View. By entering this angle into the **Angle** spinbox within the **Rotation** section we can very precisely rotate the object such that now the 2nd selected point is in alignment with the coordinates occupied by the 3rd selected point. (Note   * you might want to increase the number of digits used within the Edit menu -\> Preferences -\> General -\> Units -\> Number of decimals spinbox if you desire more precision.)
 
 ## Examples
 
-Rotations about a single axis:
+Rotations about a single axis   *
 
-<img alt="Před otočením" src=images/RotationAboutZBefore.png  style="width:600px;"> Před otočením (pohled shora) 
+<img alt="Před otočením" src=images/RotationAboutZBefore.png  style="width   *600px;"> Před otočením (pohled shora) 
 
-<img alt="Po otočení kolem osy Z" src=images/RotationAboutZAfter.png  style="width:600px;"> Po otočení kolem osy Z (pohled shora) 
+<img alt="Po otočení kolem osy Z" src=images/RotationAboutZAfter.png  style="width   *600px;"> Po otočení kolem osy Z (pohled shora) 
 
-<img alt="Po otočení když y=x" src=images/RotationAboutYXAfter.png  style="width:600px;"> Po otočení když y=x (pohled zprava) 
+<img alt="Po otočení když y=x" src=images/RotationAboutYXAfter.png  style="width   *600px;"> Po otočení když y=x (pohled zprava) 
 
-Otočení s posunutím středového bodu:
+Otočení s posunutím středového bodu   *
 
-<img alt="Před otočením" src=images/RotationOffsetBefore.png  style="width:600px;"> Před otočením (pohled shora) 
+<img alt="Před otočením" src=images/RotationOffsetBefore.png  style="width   *600px;"> Před otočením (pohled shora) 
 
-<img alt="Po otočení kolem osy Z" src=images/RotationOffsetAfter.png  style="width:600px;"> Po otočení kolem osy Z (pohled shora) 
+<img alt="Po otočení kolem osy Z" src=images/RotationOffsetAfter.png  style="width   *600px;"> Po otočení kolem osy Z (pohled shora) 
 
-Otočení s použitím Eulerových úhlů:
+Otočení s použitím Eulerových úhlů   *
 
-<img alt="Před otočením" src=images/RotationEulerBefore.png  style="width:600px;"> Před otočením 
+<img alt="Před otočením" src=images/RotationEulerBefore.png  style="width   *600px;"> Před otočením 
 
-<img alt="Po otočení" src=images/RotationEulerAfter.png  style="width:600px;"> Po otočení 
+<img alt="Po otočení" src=images/RotationEulerAfter.png  style="width   *600px;"> Po otočení 
 
 ## Placement.Base vs Shape Definition 
 
-Umístění není jediný způsob pozicování objektů v prostoru. Všimněte si Pythonovské konzoly na tomto obrázku:
+Umístění není jediný způsob pozicování objektů v prostoru. Všimněte si Pythonovské konzoly na tomto obrázku   *
 
 ![2 tvary se stejným umístěním](images/2Placements800.png )
 
 
 <div class="mw-translate-fuzzy">
 
-Obě kostky mají stejné umístění, ale různé místo! Je to kvůli tomu, že oba tvary mají odlišné vrcholy. Pro tvary výše pro ilustraci:
+Obě kostky mají stejné umístění, ale různé místo! Je to kvůli tomu, že oba tvary mají odlišné vrcholy. Pro tvary výše pro ilustraci   *
 
 
 </div>
@@ -248,7 +248,7 @@ Obě kostky mají stejné umístění, ale různé místo! Je to kvůli tomu, ž
 
 \>\>\> ev = App.ActiveDocument.Extrude.Shape.Vertexes
 
- >>> for v in ev: print v.X,",",v.Y,",",v.Z
+ >>> for v in ev   * print v.X,",",v.Y,",",v.Z
  ... 
  30.0,30.0,0.0
  30.0,30.0,10.0
@@ -259,7 +259,7 @@ Obě kostky mají stejné umístění, ale různé místo! Je to kvůli tomu, ž
  30.0,40.0,0.0
  30.0,40.0,10.0
  >>> e1v = App.ActiveDocument.Extrude001.Shape.Vertexes
- >>> for v in e1v: print v.X,",",v.Y,",",v.Z
+ >>> for v in e1v   * print v.X,",",v.Y,",",v.Z
  ... 
  0.0,10.0,0.0
  0.0,10.0,10.0
@@ -283,7 +283,7 @@ Standardně osa otáčení není ve skutečnosti osa X/Y/Z. Je to paralelní př
 
 Například, představme si, že máme kostku (dále) pozicovanou na (20,20,10). ![Před otočením](images/LocalZBefore2.png ) Chceme otočit kostku kolem její svislé středové přímky (tj. místní osy Z) s udržením stejné pozice. Můžeme toho snadno dosáhnout zadáním hodnoty Středu rovné souřadnicím středu kostky (25,25,15). ![Po otočení](images/LocalZAfter2.png )
 
-Ve skriptu by to vypadalo následovně: 
+Ve skriptu by to vypadalo následovně   * 
 ```python
 import FreeCAD
 obj = App.ActiveDocument.Box                       # our box
@@ -294,7 +294,7 @@ centre = FreeCAD.Vector(25,25,15)                  # central point of box
 pos = obj.Placement.Base                           # position point of box
 newplace = FreeCAD.Placement(pos,rot,centre)       # make a new Placement object
 obj.Placement = newplace                           # spin the box
-``` Same script with the file example [RotateCoG2.fcstd](http://forum.freecadweb.org/download/file.php?id=1651) (discussion on the [forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052)) 
+``` Same script with the file example [RotateCoG2.fcstd](http   *//forum.freecadweb.org/download/file.php?id=1651) (discussion on the [forum](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052)) 
 ```python
 import FreeCAD
 obj = App.ActiveDocument.Extrude                    # our box
@@ -309,7 +309,7 @@ obj.Placement = newplace                            # spin the box
 
 ## Using Placement in expressions 
 
-In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
+In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\"   * 
 ```python
 <<Cube>>.Placement.Base.x
 ```
@@ -326,14 +326,14 @@ The axis of rotation can be accessed with
 <<Cube>>.Placement.Rotation.Axis.z
 ``` where often one of these values is 1 while the others are 0.
 
-You can also use the whole Placement in a single expression: Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
+You can also use the whole Placement in a single expression   * Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
 
 To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would enter in that way for Sketch the expression 
 ```python
 <<Cube>>.Placement
 ``` ![Setting the whole Placement in one expression](images/PlacementInExpression.png )
 
-**NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
+**NOTE   *** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
 
 ## Notes
 
@@ -342,8 +342,8 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 ## Poznámky
 
--   Osy a úhly mohou být také vyjádřeny jako [čtveřice](http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation).
--   Referenční bod objektu (FreeCAD.Placement.Base) se mění v závislosti na objektu. Některé příklady pro běžné objekty:
+-   Osy a úhly mohou být také vyjádřeny jako [čtveřice](http   *//en.wikipedia.org/wiki/Quaternions_and_spatial_rotation).
+-   Referenční bod objektu (FreeCAD.Placement.Base) se mění v závislosti na objektu. Některé příklady pro běžné objekty   *
 
   Objekt                         Referenční bod
    
@@ -367,7 +367,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 ## Další
 
--   Tento výukový program: [Aeroplán](Aeroplane/cs.md) široce pokrývá mechanismy změn umístění objektů.
+-   Tento výukový program   * [Aeroplán](Aeroplane/cs.md) široce pokrývá mechanismy změn umístění objektů.
 -   Popis dialogového okna Umístění krok za krokem naleznete zde [Úkoly umístění](Tasks_Placement/cs.md).
 
 
@@ -379,7 +379,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 ## More
 
--   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
+-   This tutorial   * [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
 
 

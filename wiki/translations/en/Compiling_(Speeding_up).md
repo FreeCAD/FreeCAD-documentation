@@ -13,7 +13,7 @@ Install `ccache` to cache builds.
 
 When using `cmake` to configure the build, you can disable the compilation of certain workbenches that you may not need at the moment. This is useful if you only need to test a few workbenches.
 
-For example, to avoid building the FEM and Mesh workbenches:
+For example, to avoid building the FEM and Mesh workbenches   *
 
 
 ```python
@@ -26,7 +26,7 @@ Use `cmake-gui`, `cmake-curses-gui`, or `cmake-qt-gui` to display all the possib
 
 After configuring with `cmake`, the `make` program launches the actual C++ compiler to work on the source code files. You can speed up compilation by working on various files at the same time. This is achieved with the `-j` option of `make`, which denotes the number of \"jobs\" or compilation commands that are run simultaneously. This option is an integer number.
 
-Run four compilation commands in parallel:
+Run four compilation commands in parallel   *
 
 
 ```python
@@ -50,6 +50,14 @@ make -j$(nproc --ignore=2)
 ## distcc
 
 The `distcc` program can be used to perform distributed compilation of C and C++ code across several machines in a network.
+
+
+
+
+
+
+
+[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

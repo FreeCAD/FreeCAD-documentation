@@ -1,12 +1,12 @@
 # Std Copy/de
 ---
-- GuiCommand:/de
-   Name:Std Copy
-   Name/de:Std Kopieren
-   MenuLocation:Bearbeiten → Kopieren
-   Shortcut:**Strg**+**C**
-   Workbenches:Alle
-   SeeAlso:[Std Ausschneiden](Std_Cut/de.md), [Std Einfügen](Std_Paste/de.md), [Std Auswahl duplizieren](Std_DuplicateSelection/de.md)---
+- GuiCommand   */de
+   Name   *Std Copy
+   Name/de   *Std Kopieren
+   MenuLocation   *Bearbeiten → Kopieren
+   Shortcut   ***Strg**+**C**
+   Workbenches   *Alle
+   SeeAlso   *[Std Ausschneiden](Std_Cut/de.md), [Std Einfügen](Std_Paste/de.md), [Std Auswahl duplizieren](Std_DuplicateSelection/de.md)---
 
 ## Beschreibung
 
@@ -15,7 +15,7 @@ Der **Std Kopieren**-Befehl kopiert Objekte in die Zwischenablage.
 ## Anwendung
 
 1.  Wähle ein oder mehrere zu Objekte.
-2.  Es gibt mehrere Wege, den Befehl aufzurufen:
+2.  Es gibt mehrere Wege, den Befehl aufzurufen   *
     -   Drücke die **<img src="images/Std_Copy.png" width=16px> [Kopieren](Std_Copy/de.md)**-Schaltfläche.
     -   Wähle die **Bearbeiten → <img src="images/Std_Copy.svg" width=16px> Kopieren**-Schaltfläche.
     -   Wähle die **Bearbeiten → <img src="images/Std_Copy.svg" width=16px> Kopieren**-Option auf dem Menü.

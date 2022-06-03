@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std LinkSelectLinkedFinal
-   MenuLocation:''None''
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+- GuiCommand   *
+   Name   *Std LinkSelectLinkedFinal
+   MenuLocation   *''None''
+   Workbenches   *All
+   Version   *0.19
+   SeeAlso   *[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
 ---
 
 # Std LinkSelectLinkedFinal/pt-br
@@ -20,7 +20,7 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 3.  The deepest linked object is selected. If this object belongs to an external document that document is activated.
 4.  Optionally use **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack.md)** to reselect the link.
 
-Translations:Std LinkSelectLinkedFinal/1/pt-br 
+Translations   *Std LinkSelectLinkedFinal/1/pt-br 
 
 
 {{Std Base navi

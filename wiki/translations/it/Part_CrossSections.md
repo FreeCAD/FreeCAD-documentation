@@ -15,9 +15,18 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la forma selezionata.
 
+
+</div>
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una forma.
 2.  Premere il pulsante **[<img src=images/Part_CrossSections.svg style="width   *24px"> '''Sezioni...'''**.
@@ -27,6 +36,9 @@ L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la fo
     -   Selezionando \"Su entrambi i lati\" le sezioni trasversali sono distribuite su ciascun lato della posizione del piano di guida.
     -   Impostare il numero di sezioni.
 6.  Premere **OK**.
+
+
+</div>
 
 
 {{Part Tools navi/it}}

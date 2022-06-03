@@ -1,6 +1,6 @@
 # OpenSCAD Hull/ro
 ---
-- GuiCommand:   Name:OpenSCAD Hull   MenuLocation:OpenSCAD → Hull‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:
+- GuiCommand   *   Name   *OpenSCAD Hull   MenuLocation   *OpenSCAD → Hull‏‎   |Workbenches   *[[OpenSCAD Workbench   OpenSCAD]]|Shortcut   *none   SeeAlso   *
 
 
 </div>
@@ -12,7 +12,7 @@
 
 Anvelopă convexă Hull
 
-Consultați <http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations> oppure <http://doc.cgal.org/latest/Convex_hull_2/index.html>
+Consultați <http   *//en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations> oppure <http   *//doc.cgal.org/latest/Convex_hull_2/index.html>
 
 ## Descriere
 
@@ -35,7 +35,7 @@ Example of a hull operation performed on two cylinders
 ## Utilizare
 
 1.  Selectați formeleîn Tree-View sau în 3D-View
-2.  Click pe <img alt="" src=images/OpenSCAD_Hull.png  style="width:32px;"> sau selectați ** OpenSCAD** → **<img src="images/OpenSCAD_Hull.png" width=32px> Hull** din meniul principal.
+2.  Click pe <img alt="" src=images/OpenSCAD_Hull.png  style="width   *32px;"> sau selectați ** OpenSCAD** → **<img src="images/OpenSCAD_Hull.png" width=32px> Hull** din meniul principal.
 
 
 </div>

@@ -1,26 +1,27 @@
 ---
-- GuiCommand:
-   Name:Std RandomColor
-   MenuLocation:View → Random color
-   Workbenches:All
+- GuiCommand   */pl
+   Name   *Std RandomColor
+   Name/pl   *Std   * Kolor losowy
+   MenuLocation   *Widok → Nadaj kolor losowo
+   Workbenches   *wszystkie
 ---
 
 # Std RandomColor/pl
 
-## Description
+## Opis
 
-The **Std RandomColor** command applies a random **Shape Color** to selected objects.
+Polecenie **Nadaj kolor losowo** stosuje losowy **Kolor kształtu** do wybranych obiektów.
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Select the **View → <img src="images/Std_RandomColor.svg" width=16px> Random color** option from the menu.
-    -   Select the **<img src="images/Std_RandomColor.svg" width=16px> Random color** option from the [Tree view](Tree_view.md) context menu (see screenshot) or [3D view](3D_view.md) context menu.
+1.  Wybierz jeden lub więcej obiektów.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Wybierz opcję z menu **Widok → <img src="images/Std_RandomColor.svg" width=16px> Nadaj kolor losowo**.
+    -   Wybierz opcję **<img src="images/Std_RandomColor.svg" width=16px> Nadaj kolor losowo** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md) *(zobacz zrzut ekranu)* lub okna [Widoku 3D](3D_view.md).
 
-## Notes
+## Uwagi
 
--   The **Shape Color** property can also be changed in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Właściwość **Kolor kształtu** można również zmienić w oknie [Edytora właściwości](Property_editor/pl.md) lub [Widoku połączonego](Combo_view/pl.md).
 
 
 

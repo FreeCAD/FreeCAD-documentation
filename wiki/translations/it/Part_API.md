@@ -1,7 +1,7 @@
 # Part API/it
-**(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https://www.freecadweb.org/api Documentazione API autogenerata].**
+**(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https   *//www.freecadweb.org/api Documentazione API autogenerata].**
 
-Il modulo Parte è il collegamento diretto tra FreeCAD e il kernel OpenCasCade. Fornisce principalmente [TopoShapes](TopoShape_API/it.md) che è il tipo principale di oggetto utilizzato da OpenCascade. Il modulo Parte contiene anche una serie di funzioni utili per creare e manipolare le TopoShapes. Esempio: 
+Il modulo Parte è il collegamento diretto tra FreeCAD e il kernel OpenCasCade. Fornisce principalmente [TopoShapes](TopoShape_API/it.md) che è il tipo principale di oggetto utilizzato da OpenCascade. Il modulo Parte contiene anche una serie di funzioni utili per creare e manipolare le TopoShapes. Esempio   * 
 ```python
 import Part
 mycube = Part.makeBox(2,2,2)
@@ -66,7 +66,7 @@ Part.show(mycube)
 {{APIFunction|makeRuledSurface|Edge or Wire,Edge or Wire|Crea una superficie rigata da due spigoli (Edge) o contorni (Wire). Se vengono utilizzati dei contorni allora questi devono avere lo stesso numero di spigoli.|La forma creata}}
 
 
-{{APIFunction|makeShell|list|Crea un guscio da una lista di facce. Note: Resulting shell should be manifold.   Non-manifold shells are not well supported.|la forma creata}}
+{{APIFunction|makeShell|list|Crea un guscio da una lista di facce. Note   * Resulting shell should be manifold.   Non-manifold shells are not well supported.|la forma creata}}
 
 
 {{APIFunction|makeSolid|Part.Shape|Crea un solido da dei gusci all'interno di una forma.|la forma creata}}
@@ -88,6 +88,11 @@ Part.show(mycube)
 
 
 {{APIFunction|show|shape|Aggiunge la forma al documento attivo o ne crea uno se non esiste alcun documento.| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

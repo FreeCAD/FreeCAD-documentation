@@ -3,24 +3,24 @@
 |Name=Macro FCCircularText
 |Icon=FCCircularTextButtom.png
 |Description={{ColoredText|#ff0000|#ffffff|La dernière version de la macro prend en charge une disposition HiDPI (QGridLayout) et ne fonctionne que sur les versions 0.18 ou supérieures (nécessite PySide2/Qt5)}} <br/> <br/> Pour une version rétrocompatible de la macro, voir
-[https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] et installez la manuellement. <br/> <br/>
+[https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] et installez la manuellement. <br/> <br/>
 Cette macro utilise l'outil [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, y compris circonférentielle et hélicoïdale (à la manière d'une colonne Trajane). Elle peut également être utilisée pour créer un cadran d'horloge avec des chiffres arabes ''1, 2, 3'' etc., ou des chiffres romains ''I, II, III'', etc.
 |Author=Mario52
-|Version=0.20
-|Date=2021/04/05
+|Version=0.21
+|Date=2022/05/31
 |FCVersion=0.19
-|Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png Icône de la barre d'outils]
+|Download=[https   *//www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, notamment circonférentielle et hélicoïdale comme par ex [Colonne Trajane](https://fr.wikipedia.org/wiki/Colonne_Trajane). Elle peut également être utilisée pour créer un cadran d\'horloge avec des chiffres arabes *1, 2, 3\...* ou des chiffres romains \'\' I, II, III\... \'\'. Cette dernière utilisation a été inspirée par le fil du Forum [Macro pour créer un cadran d\'horloge](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) par un membre de la communauté FC, cblt2l.
+Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style="width   *24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, notamment circonférentielle et hélicoïdale comme par ex [Colonne Trajane](https   *//fr.wikipedia.org/wiki/Colonne_Trajane). Elle peut également être utilisée pour créer un cadran d\'horloge avec des chiffres arabes *1, 2, 3\...* ou des chiffres romains \'\' I, II, III\... \'\'. Cette dernière utilisation a été inspirée par le fil du Forum [Macro pour créer un cadran d\'horloge](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) par un membre de la communauté FC, cblt2l.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/45fe27566892bc630ad12bc67c2ecffa3041c27c/Macro_FCCircularText.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/febfd7cec2e4fcbe1abdc04161f464deb9d69691/Macro_FCCircularText.FCMacro}}
 
 
-:   <img alt="Orientation à 360 degrés" src=images/FCCircularText_01.png  style="width:400px;">
+   *   <img alt="Orientation à 360 degrés" src=images/FCCircularText_01.png  style="width   *400px;">
 
 
 
@@ -32,7 +32,7 @@ La création d\'un texte crée un dossier \"**FcString**\" si vous créez une ho
 
 Tous les caractères restent indépendants. Si vous créez une extrusion, rien n\'est effacé. Si vous créez un Compound avec le bouton **Run Comp**, il sera créé dans l\'arbre principal de votre projet.
 
-Ces options sont grisées par défaut et activées en cochant {{CheckBox|TRUE|}} le bouton :
+Ces options sont grisées par défaut et activées en cochant {{CheckBox|TRUE|}} le bouton    *
 
 -    {{CheckBox|Extrude Char.}}
     
@@ -65,18 +65,23 @@ Vue d\'ensemble
 
 -    {{CheckBox|Word}}coché, cette option considère le texte comme un mot, le texte est coupé dans l\'espace et écrit le texte mot par mot (à la place caractère par caractère en usage normal)
 
--   LineEdit: affiche le chemin et le nom de la police du fichier
-
 -   Le bouton **Help** affiche la page wiki dans le navigateur FreeCAD
 
+-   LineEdit   * affiche le chemin et le nom de la police du fichier
+
+-    **Other**bouton pour rechercher des polices de characteres dans des répertoires non découverts
+
 -   ComboView pour choisir la police
+
+-    **Origin**retourne à l\'origine system ex   * \"C   */Windows/Fonts/\"
+
     -   Par défaut la police ARIAL.TTF est imposée
 
 #### Options disponibles 
 
-Après la première utilisation, vous devez modifier les paramètres suivants:
+Après la première utilisation, vous devez modifier les paramètres suivants   *
 
-**User parameter:BaseApp/Preferences/Macros/FCMmacros/FCCircularText**
+**User parameter   *BaseApp/Preferences/Macros/FCMmacros/FCCircularText**
 
 **switchModeTextList**
 
@@ -90,7 +95,7 @@ Après la première utilisation, vous devez modifier les paramètres suivants:
 
 **setSystemFonts**
 
--   0 = matplotlib.font\_manager.findSystemFonts(\"C:/\", \"ttf\")
+-   0 = matplotlib.font\_manager.findSystemFonts(\"C   */\", \"ttf\")
 -   faire toutes les polices (dans tous les dossiers et sous-dossiers du DD) à temps !
 -   1 = fontman.findSystemFonts(self.pathFont)
 -   faire toutes les polices du répertoire (et de tous les sous-dossiers)
@@ -160,14 +165,14 @@ Configuration des caractères dans FCCircularText
 
 #### Première zone 
 
-Votre choix :
+Votre choix    *
 
 ![](images/FCCircularText_09.png )
 
 
 <center>
 
-Image:FCCircularText 20.png\|**Outdoor** Image:FCCircularText 21.png\|**Indoor** Image:FCCircularText 22.png\|**Helix** Image:FCCircularText 23.png\|**Clock**
+Image   *FCCircularText 20.png\|**Outdoor** Image   *FCCircularText 21.png\|**Indoor** Image   *FCCircularText 22.png\|**Helix** Image   *FCCircularText 23.png\|**Clock**
 
 
 </center>
@@ -177,7 +182,7 @@ Image:FCCircularText 20.png\|**Outdoor** Image:FCCircularText 21.png\|**Indoor**
 
 ![](images/FCCircularText_24.png )
 
--    **Mode Stand**or **Mode Flat** : Le texte peut être créé debout ou à plat (comme l\'horloge) options **Outdoor** et **Indoor** le texte des boutons est inversé.
+-    **Mode Stand**or **Mode Flat**    * Le texte peut être créé debout ou à plat (comme l\'horloge) options **Outdoor** et **Indoor** le texte des boutons est inversé.
 
 
 
@@ -185,7 +190,7 @@ Image:FCCircularText 20.png\|**Outdoor** Image:FCCircularText 21.png\|**Indoor**
 
 <center>
 
-Image:FCCircularText 01.png\|**Mode Stand** **Outdoor** Le texte est écrit debout (direction Z lecture externe). Image:FCCircularText\_40.png\|**Mode Flat** **Outdoor** Le texte est écrit à plat (lecture externe).
+Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** Le texte est écrit debout (direction Z lecture externe). Image   *FCCircularText\_40.png\|**Mode Flat** **Outdoor** Le texte est écrit à plat (lecture externe).
 
 
 </center>
@@ -193,7 +198,7 @@ Image:FCCircularText 01.png\|**Mode Stand** **Outdoor** Le texte est écrit debo
 
 <center>
 
-Image:FCCircularText 39.png\|**Mode Flat** **Indoor** Le texte est placé à plat lecture interne (comme clock). Image:FCCircularText\_03.png\|**Mode Stand** **Indoor** Le texte est écrit debout avec lecture interne.
+Image   *FCCircularText 39.png\|**Mode Flat** **Indoor** Le texte est placé à plat lecture interne (comme clock). Image   *FCCircularText\_03.png\|**Mode Stand** **Indoor** Le texte est écrit debout avec lecture interne.
 
 
 </center>
@@ -204,23 +209,23 @@ Cette section vous permet de configurer le comportement global des caractères d
 
 ![ left](images/FCCircularText_10.png )
 
--    {{SpinBox|10.0 mm}}**Radius of circle**: rayon du cercle. (Défaut 10)
+-    {{SpinBox|10.0 mm}}**Radius of circle**   * rayon du cercle. (Défaut 10)
 
--    {{SpinBox|2.0 mm}}**Size character**: hauteur des caractères. (Défaut 2)
+-    {{SpinBox|2.0 mm}}**Size character**   * hauteur des caractères. (Défaut 2)
 
--    {{SpinBox|0 deg}}**Begin angle**: angle de départ du premier caractère du sur le cercle. (Default 0°)
+-    {{SpinBox|0 deg}}**Begin angle**   * angle de départ du premier caractère du sur le cercle. (Default 0°)
 
--    {{SpinBox|360 deg}}**End angle**: angle de fin du dernier caractère du texte. (Défaut 360)
+-    {{SpinBox|360 deg}}**End angle**   * angle de fin du dernier caractère du texte. (Défaut 360)
 
--    {{SpinBox|10.0 deg}}**Correction angle**: angle de correction du texte pour le faire correspondre à la tangente du cercle. (Défaut 10 °)
+-    {{SpinBox|10.0 deg}}**Correction angle**   * angle de correction du texte pour le faire correspondre à la tangente du cercle. (Défaut 10 °)
 
--    {{SpinBox|0.15 mm}}**Correction radius**: correction du rayon (optionnel en rapport avec \"Correction angle\"). (Défaut 0.15)
+-    {{SpinBox|0.15 mm}}**Correction radius**   * correction du rayon (optionnel en rapport avec \"Correction angle\"). (Défaut 0.15)
 
--    {{CheckBox|'''Extrude Char'''}}: caractères d\'extrusion de la case à cocher. (Par défaut inactif)
+-    {{CheckBox|'''Extrude Char'''}}   * caractères d\'extrusion de la case à cocher. (Par défaut inactif)
 
--    {{CheckBox|'''Placement'''}}: placement du texte dans la vue 3D. (Par défaut inactif)
+-    {{CheckBox|'''Placement'''}}   * placement du texte dans la vue 3D. (Par défaut inactif)
 
--    {{CheckBox|'''Sp. inclination'''}}: inclinaison des caractères sur trois axes X, Y et Z (exemple pour couvrir un tel cône). (Par défaut inactif)
+-    {{CheckBox|'''Sp. inclination'''}}   * inclinaison des caractères sur trois axes X, Y et Z (exemple pour couvrir un tel cône). (Par défaut inactif)
 
 
 
@@ -232,7 +237,7 @@ Mode par défaut. Le texte est écrit sur la surface extérieur du cylindre.
 
 <center>
 
-Image:FCCircularText 20.png\|**Outdoor** Image:FCCircularText 25.png\| Image:FCCircularText 30.png\|
+Image   *FCCircularText 20.png\|**Outdoor** Image   *FCCircularText 25.png\| Image   *FCCircularText 30.png\|
 
 
 </center>
@@ -244,7 +249,7 @@ Le texte est écrit sur la surface interne d\'un tube ou courbe.
 
 <center>
 
-<File:FCCircularText> 21.png\|**Indoor** Image:FCCircularText 03.png\| Image:FCCircularText 27.png\|
+<File   *FCCircularText> 21.png\|**Indoor** Image   *FCCircularText 03.png\| Image   *FCCircularText 27.png\|
 
 
 </center>
@@ -256,7 +261,7 @@ Le texte écrit suit le tracé d\'une hélice.
 
 <center>
 
-Image:FCCircularText 22.png\| **Helix** Image:FCCircularText 33.png\| Image:FCCircularText 34.png\|
+Image   *FCCircularText 22.png\| **Helix** Image   *FCCircularText 33.png\| Image   *FCCircularText 34.png\|
 
 
 </center>
@@ -271,7 +276,7 @@ Image:FCCircularText 22.png\| **Helix** Image:FCCircularText 33.png\| Image:FCCi
 ![](images/FCCircularText_14.png )
 
 -   Toute les options de configurations des caractères sont actives.
--   **Step of helix** Step correspond au pas de la spire de l\'hélice : 2 (correspond à la hauteur du caractère) par défaut.
+-   **Step of helix** Step correspond au pas de la spire de l\'hélice    * 2 (correspond à la hauteur du caractère) par défaut.
 -   \'\'\'Char. per turn \'\'\'Nombre de caractères par tour ici 10 par défaut, qui correspond à 10 caractères par tour d\'hélice.
 
 
@@ -290,7 +295,7 @@ Les chiffres font partie d\'un cercle avec des chiffres arabes ou romains.
 
 <center>
 
-Image:FCCircularText 23.png\|**Clock** Image:FCCircularText 35.png\|**Axial** Image:FCCircularText 36.png\|**Redress**
+Image   *FCCircularText 23.png\|**Clock** Image   *FCCircularText 35.png\|**Axial** Image   *FCCircularText 36.png\|**Redress**
 
 
 </center>
@@ -302,7 +307,7 @@ Image:FCCircularText 23.png\|**Clock** Image:FCCircularText 35.png\|**Axial** Im
 
 ![](images/FCCircularText_16.png )
 
--   Quand la section est activée, les fonctions suivantes sont dégrisées et disponibles:
+-   Quand la section est activée, les fonctions suivantes sont dégrisées et disponibles   *
     1.  Begin angle.
     2.  End angle.
     3.  Correction angle.
@@ -315,7 +320,7 @@ Image:FCCircularText 23.png\|**Clock** Image:FCCircularText 35.png\|**Axial** Im
 
 ![](images/FCCircularText_19.png )
 
--   **Radius of support** : Si une valeur est entrée, un support sera créé (defaut 0).
+-   **Radius of support**    * Si une valeur est entrée, un support sera créé (defaut 0).
 -   Si **Support number face** est différent de zéro un support est créé. (Si \'\'\'Extrude support \'\'\'= zéro une face est créée).
     -   1 = Un cercle est créé (le cercle apparaît).
     -   2 = Un rectangle est créé (longueur = (Radius \* 2) hauteur = Radius (rayon) du support) (le rectangle apparaît).
@@ -327,13 +332,13 @@ Image:FCCircularText 23.png\|**Clock** Image:FCCircularText 35.png\|**Axial** Im
 
 
 
-<img alt="" src=images/FCCircularText_18.png )![](images/FCCircularText_38.png  style="width:200px;">  <img alt="" src=images/FCCircularText_17.png )![](images/FCCircularText_37.png  style="width:200px;"> 
+<img alt="" src=images/FCCircularText_18.png )![](images/FCCircularText_38.png  style="width   *200px;">  <img alt="" src=images/FCCircularText_17.png )![](images/FCCircularText_37.png  style="width   *200px;"> 
 
 -   Si **Support number face** est égal à zéro aucun support n\'est créé.
 
--    **Mode Roman**: Crée une horloge avec chiffres Romains **I II III IIII V VI VII VIII IX X XI XII**
+-    **Mode Roman**   * Crée une horloge avec chiffres Romains **I II III IIII V VI VII VIII IX X XI XII**
 
--    **Axial**: Les chiffres sont écrits axialement.
+-    **Axial**   * Les chiffres sont écrits axialement.
 
 ### Section de la trajectoire 
 
@@ -367,24 +372,24 @@ le dernier bouton radio utilisé est enregistré dans le paramètre de FreeCAD
 
 ![](images/FCCircularText_13.png ) 
 
--    **Exit**: Quitte la macro.
+-    **Exit**   * Quitte la macro.
 
--    **Reset**: Reset toutes les valeurs, et affiche le nombre de caractères du texte entré dans la fenêtre de texte est affiché à côté du titre.
+-    **Reset**   * Reset toutes les valeurs, et affiche le nombre de caractères du texte entré dans la fenêtre de texte est affiché à côté du titre.
 
--    **Run Comp**: Lance la macro et crée un compount de tous les caractères et le place sur la racine de l\'arbre dans la Vue combinéé.
+-    **Run Comp**   * Lance la macro et crée un compount de tous les caractères et le place sur la racine de l\'arbre dans la Vue combinéé.
 
--    **Run**: Lance la macro.
+-    **Run**   * Lance la macro.
 
 ### Paramètres disponibles 
 
-Certains paramètres sont disponibles dans les paramètres de FreeCAD voir: **Menu → Outils → Modifier les paramètres...**
+Certains paramètres sont disponibles dans les paramètres de FreeCAD voir   * **Menu → Outils → Modifier les paramètres...**
 
--   Paramètre utilisateur: BaseApp/Preferences/Macros/FCMmacros/FCCircularText
+-   Paramètre utilisateur   * BaseApp/Preferences/Macros/FCMmacros/FCCircularText
 
 -   -   
         `switchModeTextList`
         
-        :
+           *
 
         -   
             `False`
@@ -399,7 +404,7 @@ Certains paramètres sont disponibles dans les paramètres de FreeCAD voir: **Me
     -   
         `switchFontComBox`
         
-        :
+           *
 
         -   
             `False`
@@ -414,12 +419,12 @@ Certains paramètres sont disponibles dans les paramètres de FreeCAD voir: **Me
     -   
         `setSystemFonts`
         
-        :
+           *
 
         -   
             `False`
             
-            matplotlib.font\_manager.findSystemFonts (\"C: /\", \"ttf\") font toutes les polices (dans tous les dossiers et sous-dossiers du HD) temps!!
+            matplotlib.font\_manager.findSystemFonts (\"C   * /\", \"ttf\") font toutes les polices (dans tous les dossiers et sous-dossiers du HD) temps!!
 
         -   
             `True`
@@ -429,62 +434,62 @@ Certains paramètres sont disponibles dans les paramètres de FreeCAD voir: **Me
     -   
         `seTtextAlignement`
         
-        : 0 = AlignLeft (par défaut) 1 = AlignCenter 2 = AlignRight
+           * 0 = AlignLeft (par défaut) 1 = AlignCenter 2 = AlignRight
 
     -   
         `setFontByDefault`
         
-        : Police par défaut (la dernière utilisée)
+           * Police par défaut (la dernière utilisée)
 
     -   
         `switchResetFALSE`
         
-        : `False` reset (par défaut), `True` pas de réinitialisation (non recommandé) certains commutateurs peuvent rester ouverts ou se fermer de manière inattendue!
+           * `False` reset (par défaut), `True` pas de réinitialisation (non recommandé) certains commutateurs peuvent rester ouverts ou se fermer de manière inattendue!
 
     -   
         `setPathOrthogonal`
         
-        : `True` `False`
+           * `True` `False`
 
     -   
         `setPathTangent`
         
-        : `True` `False`
+           * `True` `False`
 
     -   
         `setPositionBase`
         
-        : `True` `False`
+           * `True` `False`
 
     -   
         `setPositionCenter`
         
-        : `True` `False`
+           * `True` `False`
 
     -   
         `setPositionTop`
         
-        : `True` `False`
+           * `True` `False`
 
     -   
         `switchVersionSearch`
         
-        : `True` `False`
+           * `True` `False`
 
     -   
         `Version`
         
-        : version de FCCircularText
+           * version de FCCircularText
 
 En lançant la macro un un dossier **FcString** est créé pour les caractères et un dossier **FcClock** est créé pour l\'horloge. Dans le cas d\'un compount, il sera créé en plus sur la racine de l\'arbre.
 
 ## Script
 
-L\'icône pour votre barre à outils:
+L\'icône pour votre barre à outils   *
 
 \- in .PNG ![](images/FCCircularTextButtom.png )
 
-\- in .SVG <File:FCCircularTextButtom.svg>
+\- in .SVG <File   *FCCircularTextButtom.svg>
 
 (Voir comment [Créer une barre d\'outils](Customize_Toolbars/fr.md))
 
@@ -492,18 +497,18 @@ L\'icône pour votre barre à outils:
 
 **Macro\_Circular\_Text.FCMacro**
 
-ou téléchargez le script:
+ou téléchargez le script   *
 
-Téléchargez le script sur github [Macro\_FCCircularText.FCMacro](https://gist.github.com/mario52a/a25e802498bae6959335) ver 0.20 2021/04/05
+Téléchargez le script sur github [Macro\_FCCircularText.FCMacro](https   *//gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
 
-ou sur le forum [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
+ou sur le forum [Extrude from curved surface of cylinder](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
 
 ## Exemple
 
 
 <center>
 
-Image:FCCircularText 02.png\|Texte début à 180 degrés (**Begin angle**) fin d\'angle 360 degrés (**End angle**) courbe externe. Image:FCCircularText 03.png\|Texte sur une courbe externe.
+Image   *FCCircularText 02.png\|Texte début à 180 degrés (**Begin angle**) fin d\'angle 360 degrés (**End angle**) courbe externe. Image   *FCCircularText 03.png\|Texte sur une courbe externe.
 
 
 </center>
@@ -512,7 +517,7 @@ Image:FCCircularText 02.png\|Texte début à 180 degrés (**Begin angle**) fin d
 
 <center>
 
-Image:FCCircularText 04.png\|Texte circulaire sur courbe interne et externe. Image:FCCircularText 05.png\|Texte circulaire sur un objet plat.
+Image   *FCCircularText 04.png\|Texte circulaire sur courbe interne et externe. Image   *FCCircularText 05.png\|Texte circulaire sur un objet plat.
 
 
 </center>
@@ -521,7 +526,7 @@ Image:FCCircularText 04.png\|Texte circulaire sur courbe interne et externe. Ima
 
 <center>
 
-Image:FCCircularText IndoorFlat 01.png\|Configuration supérieure. (Cliquez pour agrandir) Image:FCCircularText IndoorFlat 02.png\|Configuration inférieure. (Cliquez pour agrandir)
+Image   *FCCircularText IndoorFlat 01.png\|Configuration supérieure. (Cliquez pour agrandir) Image   *FCCircularText IndoorFlat 02.png\|Configuration inférieure. (Cliquez pour agrandir)
 
 
 </center>
@@ -530,7 +535,7 @@ Image:FCCircularText IndoorFlat 01.png\|Configuration supérieure. (Cliquez pour
 
 <center>
 
-Image:FCCircularText 26.png\|Courbe externe. Image:FCCircularText 28.png\|Courbe interne.
+Image   *FCCircularText 26.png\|Courbe externe. Image   *FCCircularText 28.png\|Courbe interne.
 
 
 </center>
@@ -539,7 +544,7 @@ Image:FCCircularText 26.png\|Courbe externe. Image:FCCircularText 28.png\|Courbe
 
 <center>
 
-Image:FCCircularText 29.png\|Courbe interne avec extrusion et soustraction booléenne. Image:FCCircularText 31.png\|Courbe externe.
+Image   *FCCircularText 29.png\|Courbe interne avec extrusion et soustraction booléenne. Image   *FCCircularText 31.png\|Courbe externe.
 
 
 </center>
@@ -548,7 +553,7 @@ Image:FCCircularText 29.png\|Courbe interne avec extrusion et soustraction bool�
 
 <center>
 
-Image:FCCircularText 32.png\|Courbe interne et soustraction. Image:FCCircularText 41.png\|Extrusion sur un cône avec comme paramètres \'\'\'Sp. Inclination \'\'\'45° axe Z.
+Image   *FCCircularText 32.png\|Courbe interne et soustraction. Image   *FCCircularText 41.png\|Extrusion sur un cône avec comme paramètres \'\'\'Sp. Inclination \'\'\'45° axe Z.
 
 
 </center>
@@ -557,7 +562,7 @@ Image:FCCircularText 32.png\|Courbe interne et soustraction. Image:FCCircularTex
 
 <center>
 
-Image:FCCircularText 42.png\|Anneau avec courbe interne et soustraction. Image:FCCircularText 61.png\|Pivot character 0°, 90°, \....
+Image   *FCCircularText 42.png\|Anneau avec courbe interne et soustraction. Image   *FCCircularText 61.png\|Pivot character 0°, 90°, \....
 
 
 </center>
@@ -566,7 +571,7 @@ Image:FCCircularText 42.png\|Anneau avec courbe interne et soustraction. Image:F
 
 <center>
 
-Image:FCCircularText\_Path\_00\_002\_000.png\| {{CheckBox|TRUE|Word}} Le texte est coupé à chaque caractère **espace**.
+Image   *FCCircularText\_Path\_00\_002\_000.png\| {{CheckBox|TRUE|Word}} Le texte est coupé à chaque caractère **espace**.
 
 
 </center>
@@ -576,7 +581,7 @@ Image:FCCircularText\_Path\_00\_002\_000.png\| {{CheckBox|TRUE|Word}} Le texte e
 
 <center>
 
-Image:FCCircularText 43.png\|Créer votre ellipse ici 100x50. Image:FCCircularText 44.png\|Exrtusion sur 50 mm.
+Image   *FCCircularText 43.png\|Créer votre ellipse ici 100x50. Image   *FCCircularText 44.png\|Exrtusion sur 50 mm.
 
 
 </center>
@@ -585,8 +590,8 @@ Image:FCCircularText 43.png\|Créer votre ellipse ici 100x50. Image:FCCircularTe
 
 <center>
 
-Image:FCCircularText 45.png\|Discretiser le périmètre et créez des point repères avec la macro [Work Features](Macro_WorkFeatures/fr.md).
-Tab Point \> Point 2/3 \> Points=Cut (Wire) Image:FCCircularText 46.png\|Créez uns cercle sur 3 points avec la macro [Work Features](Macro_WorkFeatures.md).
+Image   *FCCircularText 45.png\|Discretiser le périmètre et créez des point repères avec la macro [Work Features](Macro_WorkFeatures/fr.md).
+Tab Point \> Point 2/3 \> Points=Cut (Wire) Image   *FCCircularText 46.png\|Créez uns cercle sur 3 points avec la macro [Work Features](Macro_WorkFeatures.md).
 Tab Circle Circle=(3 Points)
 
 
@@ -596,8 +601,8 @@ Tab Circle Circle=(3 Points)
 
 <center>
 
-Image:FCCircularText 47.png\|Créez un point au centre du cercle avec la macro [Work Features](Macro_WorkFeatures.md).
-Tab Point \> Point 1/3 \> Circle(s) center. Image:FCCircularText 48.png\|Créez des lignes repères pour déterminer les angles et configurez FCCircularText.
+Image   *FCCircularText 47.png\|Créez un point au centre du cercle avec la macro [Work Features](Macro_WorkFeatures.md).
+Tab Point \> Point 1/3 \> Circle(s) center. Image   *FCCircularText 48.png\|Créez des lignes repères pour déterminer les angles et configurez FCCircularText.
 
 
 </center>
@@ -606,7 +611,7 @@ Tab Point \> Point 1/3 \> Circle(s) center. Image:FCCircularText 48.png\|Créez 
 
 <center>
 
-Image:FCCircularText 49.png\|Créez votre texte en cliquant sur le bouton **Run Comp**. Image:FCCircularText 50.png\|Sélectionnez Ellipse Extrude, Shape et cliquez sur le bouton **<img src="images/Part_Cut.png" width=16px> '''Part Cut'''**.
+Image   *FCCircularText 49.png\|Créez votre texte en cliquant sur le bouton **Run Comp**. Image   *FCCircularText 50.png\|Sélectionnez Ellipse Extrude, Shape et cliquez sur le bouton **<img src="images/Part_Cut.png" width=16px> '''Part Cut'''**.
 
 
 </center>
@@ -615,27 +620,17 @@ Image:FCCircularText 49.png\|Créez votre texte en cliquant sur le bouton **Run 
 
 <center>
 
-Image:FCCircularText 51.png\|Effacez le cercle, les points et lignes. Image:FCCircularText 52.png\|Ellipses.
+Image   *FCCircularText 51.png\|Effacez le cercle, les points et lignes. Image   *FCCircularText 52.png\|Ellipses.
 
 
 </center>
 
-Mode relief:
+Mode relief   *
 
 
 <center>
 
-Image:FCCircularText 53.png\|Créez une nouvelle ellipse plus grande que l\' ellipse de base. <img alt="" src=images/Draft_Ellipse.png  style="width:24px;"> Image:FCCircularText 54.png\|Créez un rectangle au delà de tout . <img alt="" src=images/Draft_Rectangle.png  style="width:24px;">
-
-
-</center>
-
-
-
-<center>
-
-Image:FCCircularText 55.png\|Sélectionnez le rectangle , l\'ellipse et créez un compound
-Activez Part module, puis Menu Pièces \> Créer un composé. Image:FCCircularText 56.png\|Extrudez le composé en cochant \"Créer un solide\".
+Image   *FCCircularText 53.png\|Créez une nouvelle ellipse plus grande que l\' ellipse de base. <img alt="" src=images/Draft_Ellipse.png  style="width   *24px;"> Image   *FCCircularText 54.png\|Créez un rectangle au delà de tout . <img alt="" src=images/Draft_Rectangle.png  style="width   *24px;">
 
 
 </center>
@@ -644,7 +639,8 @@ Activez Part module, puis Menu Pièces \> Créer un composé. Image:FCCircularTe
 
 <center>
 
-Image:FCCircularText 57.png\|Selectionnez Shape (texte) , le compound et Cut ![24px](images/Part_Cut.png). Image:FCCircularText 58.png\|The text is cut in the shape of the ellipse.
+Image   *FCCircularText 55.png\|Sélectionnez le rectangle , l\'ellipse et créez un compound
+Activez Part module, puis Menu Pièces \> Créer un composé. Image   *FCCircularText 56.png\|Extrudez le composé en cochant \"Créer un solide\".
 
 
 </center>
@@ -653,7 +649,16 @@ Image:FCCircularText 57.png\|Selectionnez Shape (texte) , le compound et Cut ![2
 
 <center>
 
-Image:FCCircularText 59.png\|Sélectionnez Ellipse extruded , Cut (text) fusionnez <img alt="" src=images/Part_Fuse.png  style="width:24px;">.
+Image   *FCCircularText 57.png\|Selectionnez Shape (texte) , le compound et Cut ![24px](images/Part_Cut.png). Image   *FCCircularText 58.png\|The text is cut in the shape of the ellipse.
+
+
+</center>
+
+
+
+<center>
+
+Image   *FCCircularText 59.png\|Sélectionnez Ellipse extruded , Cut (text) fusionnez <img alt="" src=images/Part_Fuse.png  style="width   *24px;">.
 
 
 </center>
@@ -664,7 +669,7 @@ Image:FCCircularText 59.png\|Sélectionnez Ellipse extruded , Cut (text) fusionn
 
 <center>
 
-Image:FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Texte placé BoundBox Base (normal) Image:FCCircularText\_Path\_00\_Orth\_Center\_000.png\|Texte placé BoundBox Centre du caractere
+Image   *FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Texte placé BoundBox Base (normal) Image   *FCCircularText\_Path\_00\_Orth\_Center\_000.png\|Texte placé BoundBox Centre du caractere
 
 
 </center>
@@ -673,9 +678,9 @@ Image:FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Texte placé BoundBox Base 
 
 <center>
 
-Image:FCCircularText\_Path\_00\_Orth\_Top\_000.png\|Texte placé BoundBox Top caracter Image:FCCircularText\_Path\_00\_001\_000\_000.png\|Texte placé sur la linge sélectionnée:
-1: Orthogonal
-2: Tangent
+Image   *FCCircularText\_Path\_00\_Orth\_Top\_000.png\|Texte placé BoundBox Top caracter Image   *FCCircularText\_Path\_00\_001\_000\_000.png\|Texte placé sur la linge sélectionnée   *
+1   * Orthogonal
+2   * Tangent
 
 
 </center>
@@ -687,19 +692,19 @@ Image:FCCircularText\_Path\_00\_Orth\_Top\_000.png\|Texte placé BoundBox Top ca
 
 il est possible qu\'une erreur se produise entre les versions. Veuillez publier le problème sur le forum et attendre le correctif mis à jour ou revenir à une version précédente de la macro. Je vous remercie.
 
-Il est possible que deux caractères se chevauchent. Si cela se produit, voici une solution de contournement disponible à l\'aide de la [Rotate-To-Point Macro](https://www.freecadweb.org/wiki/Macro_Rotate_To_Point).
+Il est possible que deux caractères se chevauchent. Si cela se produit, voici une solution de contournement disponible à l\'aide de la [Rotate-To-Point Macro](https   *//www.freecadweb.org/wiki/Macro_Rotate_To_Point).
 
 
 <center>
 
-Image:FCCircularText Correction.gif\|Character overlap issue and the workaround
+Image   *FCCircularText Correction.gif\|Character overlap issue and the workaround
 
 
 </center>
 
 (pas totalement développé)
 
-En projet:
+En projet   *
 
 Écriture du texte sur l\'objet sélectionné
 
@@ -707,85 +712,87 @@ En projet:
 
 ## Journal des modifications 
 
--   ver 0.2021/04/05 : ajout d\'un icone dans la macro, Tab pour diminuer la hauteur de la macro, suppression de toutes les dimensions des widgets maintenant entièrement compatibles avec la feuille de style, révision de la version de recherche pour compatibilité et autres petits changements.
+-   ver 0.21 2022/05/31    * ajout bouton recherche dans les répertoires, et bouton retour à l\'origine système
 
--   ver 1.19 2021/03/15 : ajout du bouton **Delette** du dernier objet créé et du code `FreeCAD.ActiveDocument.openTransaction("FCCTc")` pour le système Undo/Redo.
+-   ver 0.2021/04/05    * ajout d\'un icone dans la macro, Tab pour diminuer la hauteur de la macro, suppression de toutes les dimensions des widgets maintenant entièrement compatibles avec la feuille de style, révision de la version de recherche pour compatibilité et autres petits changements.
+
+-   ver 1.19 2021/03/15    * ajout du bouton **Delette** du dernier objet créé et du code `FreeCAD.ActiveDocument.openTransaction("FCCTc")` pour le système Undo/Redo.
 
 -   -   Ajout d\'une boîte à cocher {{CheckBox|FALSE|Reset}} pour commuter/activer (*demandé par les utilisateurs*) la réinitialisation automatique après avoir poussé le bouton **Run** et **Run comp**. Cette utilisation de la boîte à cocher est {{ColoredText|not advised}}, si vous constatez un dysfonctionnement appuyez sur le bouton **Reset** ou quittez FCCircularText et recommencez.
 
--   ver 0.18 2021/01/19 : correction de bugs, voir [FCCircularText Macro issues](https://forum.freecadweb.org/viewtopic.php?f=22&t=54524&p=468687#p468687)
+-   ver 0.18 2021/01/19    * correction de bugs, voir [FCCircularText Macro issues](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=54524&p=468687#p468687)
 
--   ver 0.17b 2020/09/28: correction d\'un petit bug (pl ai lieu de plm dans la section trajectoire) et arrangement de la fenêtre (dimension) Clock, Helix, Path
+-   ver 0.17b 2020/09/28   * correction d\'un petit bug (pl ai lieu de plm dans la section trajectoire) et arrangement de la fenêtre (dimension) Clock, Helix, Path
 
--   ver 0.17 2020/09/26: ajout de créer un texte circulaire sur le fil (courbe, arc, spline, ligne\...) sélectionné, mode mot
+-   ver 0.17 2020/09/26   * ajout de créer un texte circulaire sur le fil (courbe, arc, spline, ligne\...) sélectionné, mode mot
 
-ver 16d 2020/09/15 : voir le message de [MasterCATZ commented Sep 14, 2020 message](https://gist.github.com/mario52a/a25e802498bae6959335)
+ver 16d 2020/09/15    * voir le message de [MasterCATZ commented Sep 14, 2020 message](https   *//gist.github.com/mario52a/a25e802498bae6959335)
 
-effacé la partie de test de la version 0.18:
+effacé la partie de test de la version 0.18   *
 
 
 ```python
 #### Test FreeCAD.Version simple ############################################################################################################
-if int(FreeCAD.Version()[1]) < 18:      # Version de FreeCAD
+if int(FreeCAD.Version()[1]) < 18   *      # Version de FreeCAD
     FreeCAD.Console.PrintMessage("This version " + __Title__ + " rmu  work with the FreeCAD 0.18 or higher." + "\n\n")
     FreeCAD.Console.PrintMessage("For the precedent version see the page " + "\n\n")
-    FreeCAD.Console.PrintMessage("https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro" + "\n\n")
+    FreeCAD.Console.PrintMessage("https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro" + "\n\n")
 #### Test FreeCAD.Version simple ############################################################################################################
 ```
 
--   ver 0.16c 2020/07/24 : text modifié proposé par by Kunda1 [Please review FCVerticalText Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=48902#p418776)
+-   ver 0.16c 2020/07/24    * text modifié proposé par by Kunda1 [Please review FCVerticalText Macro](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=48902#p418776)
 
--   ver 0.16b 2020/07/24 : correction de **\_\_title\_\_** to **\_\_Title\_\_** dans la version test 0.18 FC (voir [Please review FCVerticalText Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=48902))
+-   ver 0.16b 2020/07/24    * correction de **\_\_title\_\_** to **\_\_Title\_\_** dans la version test 0.18 FC (voir [Please review FCVerticalText Macro](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=48902))
 
--   ver 0.16 2020/06/07 : petit bug dans Linux (cause plusieurs sous répertoires dans fonts) avec le chemin sauvé dans les options la recherche restait uniquement dans le dernier répertoire et n\'affichait rien (), imposé **PolicePath = \"/usr/share/fonts/\"** (stay on path /xx/xx/xx/xx/xx/xx/ on entry) à chaque démarrage et la recherche se fait dans tous les sous répertoires.
+-   ver 0.16 2020/06/07    * petit bug dans Linux (cause plusieurs sous répertoires dans fonts) avec le chemin sauvé dans les options la recherche restait uniquement dans le dernier répertoire et n\'affichait rien (), imposé **PolicePath = \"/usr/share/fonts/\"** (stay on path /xx/xx/xx/xx/xx/xx/ on entry) à chaque démarrage et la recherche se fait dans tous les sous répertoires.
 
--   ver 0.15 2020/06/01 : Pour PySide2 Qt5 ajoutant des polices matplotlib dans comboView, configuration des paramètres.
+-   ver 0.15 2020/06/01    * Pour PySide2 Qt5 ajoutant des polices matplotlib dans comboView, configuration des paramètres.
 
--   ver 0.14-4 2020/04/25 : correction avec \"**DisplayMode = u\"Flat Lines**\" :
+-   ver 0.14-4 2020/04/25    * correction avec \"**DisplayMode = u\"Flat Lines**\"    *
 
--   ver 0.14-3 2020/04/25 : adapté pour :
+-   ver 0.14-3 2020/04/25    * adapté pour    *
 
 
 ```python
-OS: Windows 10 (10.0)
-Word size of OS: 64-bit
-Word size of FreeCAD: 64-bit
-Version: 0.19.20655 (Git)
-Build type: Release
-Branch: master
-Hash: e8e67e8c5ebbc9f9ed9ea67aba5b891969595ece
-Python version: 3.6.8
-Qt version: 5.12.1
-Coin version: 4.0.0a
-OCC version: 7.3.0
+OS   * Windows 10 (10.0)
+Word size of OS   * 64-bit
+Word size of FreeCAD   * 64-bit
+Version   * 0.19.20655 (Git)
+Build type   * Release
+Branch   * master
+Hash   * e8e67e8c5ebbc9f9ed9ea67aba5b891969595ece
+Python version   * 3.6.8
+Qt version   * 5.12.1
+Coin version   * 4.0.0a
+OCC version   * 7.3.0
 ```
 
--   ver 0.14-2 2019/07/22 replace chr(176) (donne une erreur \<FC 0.18) et remplacé par le code de wmayer, voir [Fehler in Version 0.19 pre ??](https://forum.freecadweb.org/viewtopic.php?f=13&t=36380&p=308476#p308357)
+-   ver 0.14-2 2019/07/22 replace chr(176) (donne une erreur \<FC 0.18) et remplacé par le code de wmayer, voir [Fehler in Version 0.19 pre ??](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=36380&p=308476#p308357)
 
-       carDegrees = b' \xc2\xb0'.decode("utf-8")    #thanks wmayer [https://forum.freecadweb.org/viewtopic.php?f=13&t=36380&p=308476#p308357](https://forum.freecadweb.org/viewtopic.php?f=13&t=36380&p=308476#p308357)
+       carDegrees = b' \xc2\xb0'.decode("utf-8")    #thanks wmayer [https   *//forum.freecadweb.org/viewtopic.php?f=13&t=36380&p=308476#p308357](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=36380&p=308476#p308357)
        self.DS_InclinaisonX.setSuffix(carDegrees)
        self.DS_InclinaisonY.setSuffix(carDegrees)
        self.DS_InclinaisonZ.setSuffix(carDegrees)
 
 -   ver 0.14-1 2019/06/11 replace \"°\" to chr(176)
 
--   ver 0.14 2019/04/27 compatible avec Python 3.6.6 et Qt 5.6.2 (cause: unicode() )
+-   ver 0.14 2019/04/27 compatible avec Python 3.6.6 et Qt 5.6.2 (cause   * unicode() )
 
 
 ```python
-latest testing:
+latest testing   *
 
-#OS: Windows 10
-#Word size of OS: 64-bit
-#Word size of FreeCAD: 64-bit
-#Version: 0.19.16523 (Git)
-#Build type: Release
-#Branch: master
-#Hash: 9b3ec233c8b21e0df66fada487cd10f471d60cac
-#Python version: 3.6.6
-#Qt version: 5.6.2
-#Coin version: 4.0.0a
-#OCC version: 7.3.0
+#OS   * Windows 10
+#Word size of OS   * 64-bit
+#Word size of FreeCAD   * 64-bit
+#Version   * 0.19.16523 (Git)
+#Build type   * Release
+#Branch   * master
+#Hash   * 9b3ec233c8b21e0df66fada487cd10f471d60cac
+#Python version   * 3.6.6
+#Qt version   * 5.6.2
+#Coin version   * 4.0.0a
+#OCC version   * 7.3.0
 ```
 
 -   ver 0.13 30/01/2018 ajout d\'une fonction de rotation du caractère sur lui même
@@ -794,12 +801,12 @@ latest testing:
 
 -   ver 0.12 03/07/2016 optimisation du code de la boucle pour accepter les décimales pour plus de précision de la répartition des angles.
 
-remplacer la ligne: 
+remplacer la ligne   * 
 ```python
-            for angleTr in range(debut,rotation,((rotation-debut)/nombre)): 
+            for angleTr in range(debut,rotation,((rotation-debut)/nombre))   * 
 ``` par 
 ```python
-            for angleTrFloat in range((debut*10000),(rotation*10000),int((round(((float(rotation)-float(debut))/float(nombre)),4)*10000)) ):    # pour 4 decimales
+            for angleTrFloat in range((debut*10000),(rotation*10000),int((round(((float(rotation)-float(debut))/float(nombre)),4)*10000)) )   *    # pour 4 decimales
                 angleTr = (float(angleTrFloat)/10000)
 ```
 
@@ -825,41 +832,41 @@ replace
         self.DS_InclinaisonZ.setSuffix(unicode(" Z°"))
 ```
 
--   ver 0.8 10/05/2015 replace \"**String=texte\[ii2\]**\" to \"**String=unicode(texte\[ii2\])**\" line 1290. cause \"**TypeError: Property \'FontFile\': type must be str or unicode, not QString**\"\<span \\\>
+-   ver 0.8 10/05/2015 replace \"**String=texte\[ii2\]**\" to \"**String=unicode(texte\[ii2\])**\" line 1290. cause \"**TypeError   * Property \'FontFile\'   * type must be str or unicode, not QString**\"\<span \\\>
 
 
 ```python
 
-# ver 0.8 10/05/2015 /_ # testing with OS :
+# ver 0.8 10/05/2015 /_ # testing with OS    *
 ##################################################################################################
-# OS: Ubuntu 14.04.1 LTS                          # OS: Ubuntu 14.04.2 LTS
-# Platform: 32-bit                                # Word size of OS: 32-bit
-# Version: 0.14.2935 (Git)                        # Word size of FreeCAD: 32-bit
-# Branch: master                                  # Version: 0.16.4928 (Git)
-# Hash: eab159b6ee675012bf79de838c206a311e911d85  # Branch: master
-# Python version: 2.7.6                           # Hash: d8f63bcfd10301f3d1e141cced4370f0782238d0
-# Qt version: 4.8.6                               # Python version: 2.7.6
-# Coin version: 4.0.0a                            # Qt version: 4.8.6
-# SoQt version: 1.6.0a                            # Coin version: 4.0.0a
-# OCC version: 6.7.0                              # OCC version: 6.8.0.oce-0.17
+# OS   * Ubuntu 14.04.1 LTS                          # OS   * Ubuntu 14.04.2 LTS
+# Platform   * 32-bit                                # Word size of OS   * 32-bit
+# Version   * 0.14.2935 (Git)                        # Word size of FreeCAD   * 32-bit
+# Branch   * master                                  # Version   * 0.16.4928 (Git)
+# Hash   * eab159b6ee675012bf79de838c206a311e911d85  # Branch   * master
+# Python version   * 2.7.6                           # Hash   * d8f63bcfd10301f3d1e141cced4370f0782238d0
+# Qt version   * 4.8.6                               # Python version   * 2.7.6
+# Coin version   * 4.0.0a                            # Qt version   * 4.8.6
+# SoQt version   * 1.6.0a                            # Coin version   * 4.0.0a
+# OCC version   * 6.7.0                              # OCC version   * 6.8.0.oce-0.17
 ##################################################################################################
-# OS: Windows Vista                               # OS: Windows Vista
-# Word size of OS: 32-bit                         # Word size of OS: 32-bit
-# Word size of FreeCAD: 32-bit                    # Word size of FreeCAD: 32-bit
-# Version: 0.15.4527 (Git)                        # Version: 0.15.4671 (Git)
-# Branch: master                                  # Branch: releases/FreeCAD-0-15
-# Hash: 0da2e4c45a9a259c26abd54c2a35393e1c15696f  # Hash: 244b3aef360841646cbfe80a1b225c8b39c8380c
-# Python version: 2.7.8                           # Python version: 2.7.8
-# Qt version: 4.8.6                               # Qt version: 4.8.6
-# Coin version: 4.0.0a                            # Coin version: 4.0.0a
-# OCC version: 6.7.1                              # OCC version: 6.8.0.oce-0.17
+# OS   * Windows Vista                               # OS   * Windows Vista
+# Word size of OS   * 32-bit                         # Word size of OS   * 32-bit
+# Word size of FreeCAD   * 32-bit                    # Word size of FreeCAD   * 32-bit
+# Version   * 0.15.4527 (Git)                        # Version   * 0.15.4671 (Git)
+# Branch   * master                                  # Branch   * releases/FreeCAD-0-15
+# Hash   * 0da2e4c45a9a259c26abd54c2a35393e1c15696f  # Hash   * 244b3aef360841646cbfe80a1b225c8b39c8380c
+# Python version   * 2.7.8                           # Python version   * 2.7.8
+# Qt version   * 4.8.6                               # Qt version   * 4.8.6
+# Coin version   * 4.0.0a                            # Coin version   * 4.0.0a
+# OCC version   * 6.7.1                              # OCC version   * 6.8.0.oce-0.17
 ##################################################################################################
 ```
 
 -   ver 0.7 02/02/2015 suppression 2 str **App.Console.PrintMessage(str(PolicePath)+\"\\n\")** to **App.Console.PrintMessage((PolicePath)+\"\\n\")** that caused an error with the characters above 128 in the police path.
 -   ver 0.6 23/11/2014 corrected \"texte = unicode(self.textEdit.toPlainText())\" now accept \"\'éèà@\...\"
 -   ver 0.5 19/11/2014 Gui
--   ver 0.4 10/10/2014 add variable \"rotation\" in the loop (**for i in range(0,rotation,(rotation/nombre)): \# 360 a parametrer**)
+-   ver 0.4 10/10/2014 add variable \"rotation\" in the loop (**for i in range(0,rotation,(rotation/nombre))   * \# 360 a parametrer**)
 -   ver 0.4 27/08/2014 correction error of de radius (exterieur=0, debout=1)
 -   ver 0.3 26/08/2014 add creation text of flat curve
 -   ver 0.2 26/08/2014 add creation text of internal curve
@@ -869,7 +876,7 @@ replace
 
 ### Liens
 
-La page dédiée sur le forum pour tout commentaires et signalisation d\'éventuelles erreurs [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384)
+La page dédiée sur le forum pour tout commentaires et signalisation d\'éventuelles erreurs [Extrude from curved surface of cylinder](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7384)
 
 
 

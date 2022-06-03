@@ -1,6 +1,8 @@
 # Category:Arch/id
 Pages relating to Architectural and Building Information Management
 
+[Category   *User Documentation/id](Category   *User_Documentation/id.md) [Category   *BIM/id](Category   *BIM/id.md) [Category   *Workbenches/id](Category   *Workbenches/id.md)
+
 ### Contents
 
 |     |     |     |

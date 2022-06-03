@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher DeleteAllGeometry
-   Name/de:Skizzierer LöscheGanzeGeometrie
-   MenuLocation:Skizze → Skizzierer Werkzeuge → Gesamte Geometrie löschen
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[AlleBeschränkungenLöschen](Sketcher_DeleteAllConstraints/de.md)
+- GuiCommand   */de
+   Name   *Sketcher DeleteAllGeometry
+   Name/de   *Skizzierer LöscheGanzeGeometrie
+   MenuLocation   *Skizze → Skizzierer Werkzeuge → Gesamte Geometrie löschen
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Version   *0.18
+   SeeAlso   *[AlleBeschränkungenLöschen](Sketcher_DeleteAllConstraints/de.md)
 
 ---
 
@@ -23,7 +23,7 @@ Dieses Werkzeug löscht die gesamte Geometrie aus der zu bearbeitenden Skizze.
 
 <div class="mw-translate-fuzzy">
 
-1.  Gehe zum **Skizze → Skizziererwerkzeuge → [<img src=images/Sketcher_DeleteAllGeometry.svg style="width:16px"> Ganze Geometrie löschen** Menü.
+1.  Gehe zum **Skizze → Skizziererwerkzeuge → [<img src=images/Sketcher_DeleteAllGeometry.svg style="width   *16px"> Ganze Geometrie löschen** Menü.
 2.  Antworte **Ja** auf das Aufklapp Dialogfeld.
 
 

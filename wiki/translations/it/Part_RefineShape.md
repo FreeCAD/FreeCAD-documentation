@@ -1,6 +1,6 @@
 # Part RefineShape/it
 ---
-- GuiCommand:/it   Name:Part_RefineShape   Name/it:Affina forma   MenuLocation:Parte → Crea una copia → Affina forma   Workbenches:[SeeAlso:[[Part_SimpleCopy/it|Copia semplice](Part_Workbench/it___Parte]].md), [Copia trasformata](Part_TransformedCopy/it.md), [Copia elemento](Part_ElementCopy/it.md), [Affina forma di OpenSCAD](OpenSCAD_RefineShapeFeature/it.md)---
+- GuiCommand   */it   Name   *Part_RefineShape   Name/it   *Affina forma   MenuLocation   *Parte → Crea una copia → Affina forma   Workbenches   *[SeeAlso   *[[Part_SimpleCopy/it|Copia semplice](Part_Workbench/it___Parte]].md), [Copia trasformata](Part_TransformedCopy/it.md), [Copia elemento](Part_ElementCopy/it.md), [Affina forma di OpenSCAD](OpenSCAD_RefineShapeFeature/it.md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Affina forma](Part_RefineShape/it.md) produce una copia non parametrica affinata, cioè con i bordi e le facce ripuliti.
+Lo strumento <img alt="" src=images/Part_RefineShape.svg  style="width   *16px;"> [Affina forma](Part_RefineShape/it.md) produce una copia non parametrica affinata, cioè con i bordi e le facce ripuliti.
 
 
 </div>
@@ -23,7 +23,7 @@ Dopo alcune operazioni booleane, come una [Unione](Part_Union/it.md), rimangono 
 
 </div>
 
-In alternativa, per produrre altre copie non parametriche degli oggetti utilizzare <img alt="" src=images/Part_SimpleCopy.svg  style="width:16px;"> [Crea una copia semplice](Part_SimpleCopy/it.md), <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;"> [Crea una copia trasformata](Part_TransformedCopy/it.md), o <img alt="" src=images/Part_ElementCopy.svg  style="width:16px;"> [Copia elemento](Part_ElementCopy/it.md).
+In alternativa, per produrre altre copie non parametriche degli oggetti utilizzare <img alt="" src=images/Part_SimpleCopy.svg  style="width   *16px;"> [Crea una copia semplice](Part_SimpleCopy/it.md), <img alt="" src=images/Part_TransformedCopy.svg  style="width   *16px;"> [Crea una copia trasformata](Part_TransformedCopy/it.md), o <img alt="" src=images/Part_ElementCopy.svg  style="width   *16px;"> [Copia elemento](Part_ElementCopy/it.md).
 
 ![](images/PartRefineShape_it.png )
 
@@ -80,19 +80,19 @@ Vedi altri parametri in [Ottimizzare l\'installazione](Fine-tuning/it.md).
 </div>
 
 -   L\'algoritmo di affinamento funziona solo sui gusci. Quindi itera sui gusci della forma di ingresso e poi per ogni guscio (shell) ne crea uno nuovo con le facce unite, dove è possibile. Questo significa che se la forma di ingresso è solo una faccia, contorno, bordo o vertice l\'algoritmo non fa nulla.
--   \* A differenza del comando <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [Affina forma](OpenSCAD_RefineShapeFeature/it.md) di OpenSCAD, <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affina forma](Part_RefineShape/it.md) di Parte non si aggiorna quando vengono modificate le forme precedenti.
+-   \* A differenza del comando <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *24px;"> [Affina forma](OpenSCAD_RefineShapeFeature/it.md) di OpenSCAD, <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Affina forma](Part_RefineShape/it.md) di Parte non si aggiorna quando vengono modificate le forme precedenti.
 
 
 <div class="mw-translate-fuzzy">
 
 ## Script
 
-Il comando Pyhton per ripulire una forma è il seguente:
+Il comando Pyhton per ripulire una forma è il seguente   *
 
 
 </div>
 
-The Python command for refining a shape is the following:
+The Python command for refining a shape is the following   *
 
 
 ```python

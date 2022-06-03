@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft_PathArray
-   Name/it:Serie su tracciato
-   MenuLocation:Modifiche → Strumenti serie → Serie su tracciato
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
-   Version:0.14
+- GuiCommand   */it
+   Name   *Draft_PathArray
+   Name/it   *Serie su tracciato
+   MenuLocation   *Modifiche → Strumenti serie → Serie su tracciato
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso   *[Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
+   Version   *0.14
 ---
 
 # Draft PathArray/it
@@ -31,7 +31,7 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
 
 </div>
 
-<img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;">
+<img alt="" src=images/Draft_PathArray_Example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -58,18 +58,18 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
 
 ## Alignment
 
-The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored: for the purpose of the array the {{Value|x}}, {{Value|y}} and {{Value|z}} are set to {{Value|0}}. If the **Align** property of the array is set to `False` the orientation of the array elements is identical to that of the source object. If it is set to `True` the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the **Align Mode** property of the array. Other array properties involved in the alignment include **Tangent Vector**, **Force Vertical** and **Vertical Vector**.
+The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored   * for the purpose of the array the {{Value|x}}, {{Value|y}} and {{Value|z}} are set to {{Value|0}}. If the **Align** property of the array is set to `False` the orientation of the array elements is identical to that of the source object. If it is set to `True` the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the **Align Mode** property of the array. Other array properties involved in the alignment include **Tangent Vector**, **Force Vertical** and **Vertical Vector**.
 
-<img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
-*3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
+<img alt="" src=images/Draft_PathArray_example2.png  style="width   *600px;"> 
+*3 arrays based on the same non-planar path. From left to right   * Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
 
 ### Align Mode 
 
-Three modes are available:
+Three modes are available   *
 
 #### Original
 
-This mode comes closest to the single **Align Mode** available in version 0.18. It relies on a fixed normal vector. If the path is planar this vector is perpendicular to the plane of the path, else a default vector, the positive Z axis, is used. From this normal vector and the local tangent vector (the local X axis) a [cross product](https://en.wikipedia.org/wiki/Cross_product) is calculated. This new vector is used as the local Z axis. The orientation of the local Y axis is determined from the local X and Z axes.
+This mode comes closest to the single **Align Mode** available in version 0.18. It relies on a fixed normal vector. If the path is planar this vector is perpendicular to the plane of the path, else a default vector, the positive Z axis, is used. From this normal vector and the local tangent vector (the local X axis) a [cross product](https   *//en.wikipedia.org/wiki/Cross_product) is calculated. This new vector is used as the local Z axis. The orientation of the local Y axis is determined from the local X and Z axes.
 
 #### Frenet
 
@@ -87,12 +87,12 @@ Using these properties can be required if one of the edged of the path is (almos
 
 ## Proprietà
 
-See also: [Property editor](property_editor.md).
+See also   * [Property editor](property_editor.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Una **Serie su tracciato** deriva da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), quindi condivide tutte le proprietà di quest\'ultima. Oltre alle proprietà descritte in [Funzione Part](Part_Feature/it.md), Serie su tracciato ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
+Una **Serie su tracciato** deriva da una [Part Feature](Part_Feature/it.md) (classe `Part   *   *Feature`), quindi condivide tutte le proprietà di quest\'ultima. Oltre alle proprietà descritte in [Funzione Part](Part_Feature/it.md), Serie su tracciato ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
 
 
 </div>
@@ -143,20 +143,20 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 {{TitleProperty|Alignment}}
 
--    **Align|Bool**: se è `True` le copie sono allineate al percorso; altrimenti vengono lasciate nel loro orientamento predefinito.
+-    **Align|Bool**   * se è `True` le copie sono allineate al percorso; altrimenti vengono lasciate nel loro orientamento predefinito.
 
-:   
-    **Nota:**in alcuni casi la forma appare piatta, in realtà potrebbe essersi spostata nello spazio 3D, quindi, anziché utilizzare una vista piatta, cambiare la vista in assonometrica.
+   *   
+    **Nota   ***in alcuni casi la forma appare piatta, in realtà potrebbe essersi spostata nello spazio 3D, quindi, anziché utilizzare una vista piatta, cambiare la vista in assonometrica.
 
--    **Align Mode|Enumeration**: tre modalità, {{Value|Original}}, {{Value|Frenet}}, {{Value|Tangent}}.
+-    **Align Mode|Enumeration**   * tre modalità, {{Value|Original}}, {{Value|Frenet}}, {{Value|Tangent}}.
 
--    **Extra Translation|VectorDistance**: vettore di spostamento aggiuntivo {{Value|(x, y, z)}} che verrà applicato a ciascuna copia lungo il percorso. Questo è utile per apportare piccole modifiche alla posizione delle copie, ad esempio, quando il suo punto di riferimento non corrisponde al punto centrale della sua forma.
+-    **Extra Translation|VectorDistance**   * vettore di spostamento aggiuntivo {{Value|(x, y, z)}} che verrà applicato a ciascuna copia lungo il percorso. Questo è utile per apportare piccole modifiche alla posizione delle copie, ad esempio, quando il suo punto di riferimento non corrisponde al punto centrale della sua forma.
 
--    **Force Vertical|Bool**: se è `True`, il valore di **Vertical Vector** verrà utilizzata come direzione Z locale, quando **Align Mode** è {{Value|Original}} o {{Value|Tangent}}. {{Version/it|0.19}}
+-    **Force Vertical|Bool**   * se è `True`, il valore di **Vertical Vector** verrà utilizzata come direzione Z locale, quando **Align Mode** è {{Value|Original}} o {{Value|Tangent}}. {{Version/it|0.19}}
 
--    **Tangent Vector|Vector**: il valore predefinito è {{Value|(1, 0, 0)}}; vettore unità di allineamento che verrà utilizzato quando **Align Mode** è {{Value|Tangent}}. {{Version/it|0.19}}
+-    **Tangent Vector|Vector**   * il valore predefinito è {{Value|(1, 0, 0)}}; vettore unità di allineamento che verrà utilizzato quando **Align Mode** è {{Value|Tangent}}. {{Version/it|0.19}}
 
--    **Vertical Vector|Vector**: il valore predefinito è {{Value|(0, 0, 1)}}; vettore unitario della direzione Z locale che verrà utilizzato quando **Vertical Vector** è `True`. {{Version/it|0.19}}
+-    **Vertical Vector|Vector**   * il valore predefinito è {{Value|(0, 0, 1)}}; vettore unitario della direzione Z locale che verrà utilizzato quando **Vertical Vector** è `True`. {{Version/it|0.19}}
 
 
 </div>
@@ -170,13 +170,13 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 {{TitleProperty|Objects}}
 
--    **Base|LinkGlobal**: specifica l\'oggetto da duplicare nel percorso.
+-    **Base|LinkGlobal**   * specifica l\'oggetto da duplicare nel percorso.
 
--    **Count|Integer**: specifica il numero di copie da creare nel percorso.
+-    **Count|Integer**   * specifica il numero di copie da creare nel percorso.
 
--    **Path Object|LinkGlobal**: specifica l\'oggetto lungo il quale verranno distribuite le copie. Deve contenere degli {{Value|'Edges'}} nella sua [topologia](Part_TopoShape/it.md); ad esempio, potrebbe essere una **[<img src=images/Draft_Wire.svg style="width:16px"> [polilinea](Draft_Wire/it.md)** o una **[<img src=images/Draft_BSpline.svg style="width:16px"> [BSpline](Draft_BSpline/it.md)**.
+-    **Path Object|LinkGlobal**   * specifica l\'oggetto lungo il quale verranno distribuite le copie. Deve contenere degli {{Value|'Edges'}} nella sua [topologia](Part_TopoShape/it.md); ad esempio, potrebbe essere una **[<img src=images/Draft_Wire.svg style="width   *16px"> [polilinea](Draft_Wire/it.md)** o una **[<img src=images/Draft_BSpline.svg style="width   *16px"> [BSpline](Draft_BSpline/it.md)**.
 
--    **Path Subelements|LinkSubListGlobal**: specifica i sottoelementi (bordi) del **Path Object** su cui verranno create le copie. Le copie verranno create solo su questi bordi. Se questa proprietà è vuota, le copie verranno distribuite sull\'intero
+-    **Path Subelements|LinkSubListGlobal**   * specifica i sottoelementi (bordi) del **Path Object** su cui verranno create le copie. Le copie verranno create solo su questi bordi. Se questa proprietà è vuota, le copie verranno distribuite sull\'intero
 
 **Path Object**.
 
@@ -202,7 +202,7 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Point Size|FloatConstraint**
     
 
--    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
+-    **Selectable|Bool**   * this is an inherited property that appears in the Selection group for other arrays
 
 -    **Shape Material|Material**
     
@@ -224,16 +224,16 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Override Material List|BoolList|Hidden**
     
 
--    **Proxy|PythonObject|Hidden**: this is an inherited property.
+-    **Proxy|PythonObject|Hidden**   * this is an inherited property.
 
 
 {{TitleProperty|Display Options}}
 
 The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
 
--    **Bounding Box|Bool**: this property is not inherited by Link arrays.
+-    **Bounding Box|Bool**   * this property is not inherited by Link arrays.
 
--    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
+-    **Display Mode|Enumeration**   * for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be   * {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
 
 -    **Show In Tree|Bool**
     
@@ -244,9 +244,9 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: not used.
+-    **Pattern|Enumeration**   * not used.
 
--    **Pattern Size|Float**: not used.
+-    **Pattern Size|Float**   * not used.
 
 
 {{TitleProperty|Object style}}
@@ -261,7 +261,7 @@ The properties in this group are not inherited by Link arrays.
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -271,7 +271,7 @@ The properties in this group are not inherited by Link arrays.
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento PathArray può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento PathArray può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 </div>
@@ -300,7 +300,7 @@ path_array = make_path_array(base_object, path_object,
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python

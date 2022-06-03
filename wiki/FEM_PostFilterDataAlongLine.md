@@ -12,12 +12,16 @@
 
 Plots the values of a field along a specified line.
 
+ ![](images/FEM_Line-Clip-Filter-Example.png ) 
+
+*A line clip filter inside a [Region clip filter](FEM_PostFilterClipRegion.md).The Region clip filter is the semi-transparent object.The part of the line outside the Region clip filter is set to a value of zero and therefore appears blue.*
+
 ## Usage
 
-1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
-2.  Invoke the command in one of the several ways   *
-    -   Press the **<img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> [Line clip filter](FEM_PostFilterDataAlongLine.md)** button.
-    -   Select the **Results → <img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> Line clip filter** option from the menu.
+1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another filter.
+2.  Invoke the command either by   *
+    -   Pressing the button **<img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> [Line clip filter](FEM_PostFilterDataAlongLine.md)**.
+    -   Using the menu **Results → <img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> Line clip filter**.
 3.  Specify the coordinates of two points defining the line along which the results are to be evaluated. Optionally, press the **Select Points** button and pick the points manually on the surface of the mesh.
 4.  Optionally, specify the **Resolution**.
 5.  Select a **Field** from the expandable list.

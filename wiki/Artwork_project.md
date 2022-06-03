@@ -29,7 +29,7 @@ As Qt doesn\'t support SVG selectors, a set of icons embedded into FreeCAD distr
 
 A new logo proposal comes up quite often. Even though there\'s a dedicated thread people for proposals, people open a new thread for their own work.
 
-Proposals can be divided into several categories:
+Proposals can be divided into several categories   *
 
 -   A variation of traditional design with F and the gear
 -   An updated traditional design with F and C stylized as caliper and the gear
@@ -41,7 +41,7 @@ Proposals can be divided into several categories:
 
 There was a proposal to get quantified feedback. Several solutions were proposed to gather it, from manually gathering votes in the spreadsheet to automated systems.
 
-The simplest way to set up a survey is by using the SurveyMonkey service: <https://www.surveymonkey.com/r/MKFDZQX>
+The simplest way to set up a survey is by using the SurveyMonkey service   * <https   *//www.surveymonkey.com/r/MKFDZQX>
 
 Some contributors forcefully reject the idea of voting, advocating the delegation of the right to decide on Artwork to those who have administrators rights to merge pull requests (mainly yorik and wmayer).
 
@@ -53,42 +53,44 @@ Some contributors forcefully reject the idea of voting, advocating the delegatio
 
 Colors are quite an important part of branding. Unique colors are subconsciously associate the product with a brand in the mind of a user. Since artwork proposals are of various color schemes, we need to come up with an easy way to apply a color theme to icons once we establish it.
 
-Currently, there are hundreds of different colors and gradients in the existing artwork. A successful color scheme only needs a dozen: 3-4 main colors, black, white, and shades of each.
+Currently, there are hundreds of different colors and gradients in the existing artwork. A successful color scheme only needs a dozen   * 3-4 main colors, black, white, and shades of each.
 
 ### Traditional
 
       
                                                                                                                                                               Use the Yellow tones for tools that create objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
-  style=\"background-color:\#729fcf;\|   style=\"background-color:\#3465a4;\|   style=\"background-color:\#204a87;\|   style=\"background-color:\#0b1521;\|   Use the Blue tones for tools that modify objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
-  style=\"background-color:\#34e0e2\|    style=\"background-color:\#16d0d2\|    style=\"background-color:\#06989a\|    style=\"background-color:\#042a2a\|    Use the Teal tones for view-related tools; for an example, see the [View Menu](Std_View_Menu.md).
-  style=\"background-color:\#ef2929\|    style=\"background-color:\#cc0000\|    style=\"background-color:\#a40000\|    style=\"background-color:\#280000\|    Use the Red tones for Constraint related tools; for an example, see [Sketcher Workbench](Sketcher_Workbench.md).
+  style=\"background-color   *#729fcf;\|   style=\"background-color   *#3465a4;\|   style=\"background-color   *#204a87;\|   style=\"background-color   *#0b1521;\|   Use the Blue tones for tools that modify objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
+  style=\"background-color   *#34e0e2\|    style=\"background-color   *#16d0d2\|    style=\"background-color   *#06989a\|    style=\"background-color   *#042a2a\|    Use the Teal tones for view-related tools; for an example, see the [View Menu](Std_View_Menu.md).
+  style=\"background-color   *#ef2929\|    style=\"background-color   *#cc0000\|    style=\"background-color   *#a40000\|    style=\"background-color   *#280000\|    Use the Red tones for Constraint related tools; for an example, see [Sketcher Workbench](Sketcher_Workbench.md).
       
 
-The current color palette is captured in google drive: <https://drive.google.com/file/d/0B_xxY57wUEV-RWNaMHV2OGpoY00/view>
+The current color palette is captured in google drive   * <https   *//drive.google.com/file/d/0B_xxY57wUEV-RWNaMHV2OGpoY00/view>
 
 ## External links 
 
 ### GitHub
 
--   [Icon themes workbench](https://github.com/triplus/IconThemes)
+-   [Icon themes workbench](https   *//github.com/triplus/IconThemes)
 
 ### Figma
 
--   [Vanuan\'s FreeCAD project](https://www.figma.com/file/QiSdiUf1vGO6KWdC3dIm6Z/FreeCAD?node-id=5%3A0)
--   [Stephan Bogner\'s Icon theme project](https://www.figma.com/file/DeX9eYTL6y9bvMJYykbXWx/FreeCAD-Icon-Theme?node-id=162%3A0)
+-   [Vanuan\'s FreeCAD project](https   *//www.figma.com/file/QiSdiUf1vGO6KWdC3dIm6Z/FreeCAD?node-id=5%3A0)
+-   [Stephan Bogner\'s Icon theme project](https   *//www.figma.com/file/DeX9eYTL6y9bvMJYykbXWx/FreeCAD-Icon-Theme?node-id=162%3A0)
 
 ### Forum threads 
 
 #### Logo
 
--   [The main thread about logo proposals](https://forum.freecadweb.org/viewtopic.php?f=34&t=28941)
--   [A new proposed thread to post logo proposals](https://forum.freecadweb.org/viewtopic.php?f=34&t=50640)
--   [A single logo proposal](https://forum.freecadweb.org/viewtopic.php?f=34&t=50885)
+-   [The main thread about logo proposals](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=28941)
+-   [A new proposed thread to post logo proposals](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=50640)
+-   [A single logo proposal](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=50885)
 
 #### Icon
 
--   [Std\_Part](https://forum.freecadweb.org/viewtopic.php?f=34&t=50821)
--   [Std Alignment](https://forum.freecadweb.org/viewtopic.php?f=34&t=50688)
+-   [Std\_Part](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=50821)
+-   [Std Alignment](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=50688)
+
+[Category   *Roadmap](Category_Roadmap.md)
 
 
 

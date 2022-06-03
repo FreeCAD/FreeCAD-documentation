@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width   *24px;"> [Part Découpe](Part_JoinCutout/fr.md) crée une découpe dans un objet muré (par exemple, un tuyau) pour s\'adapter à un autre objet à paroi.
+L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width   *24px;"> [Part Découper](Part_JoinCutout/fr.md) crée une découpe dans un objet muré (par exemple, un tuyau) pour s\'adapter à un autre objet à paroi.
 
 ![600px](images/JoinFeatures_Cutout.png)
 

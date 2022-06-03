@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/pl
-   Name:Path Area Workplane
-   Name/pl:Path: Obszar płaszczyzny roboczej
-   MenuLocation:Path → Obszar płaszczyzny roboczej
-   Workbenches:[Path](Path_Workbench/pl.md)
+- GuiCommand   */pl
+   Name   *Path Area Workplane
+   Name/pl   *Path   * Obszar płaszczyzny roboczej
+   MenuLocation   *Path → Obszar płaszczyzny roboczej
+   Workbenches   *[Path](Path_Workbench/pl.md)
 ---
 
 # Path Area Workplane/pl
@@ -33,11 +33,11 @@ Pusto
 ## Tworzenie skryptów 
 
 
-**Zobacz również:**
+**Zobacz również   ***
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-Przykład:
+Przykład   *
 
 
 ```python

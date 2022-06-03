@@ -1,6 +1,6 @@
 # Path Copy/it
 ---
-- GuiCommand:/it   Name:Path Copy   Name/it:Copia   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Modifica percorso → Copia   Shortcut:P,Y   SeeAlso:---
+- GuiCommand   */it   Name   *Path Copy   Name/it   *Copia   Workbenches   *[[Path Workbench/it   Path]]|MenuLocation   *Path → Modifica percorso → Copia   Shortcut   *P,Y   SeeAlso   *---
 
 
 </div>
@@ -23,7 +23,7 @@ Questo strumento crea una copia di un tracciato selezionato
 
 ## Proprietà
 
--    **Base**: Il percorso di base da copiare
+-    **Base**   * Il percorso di base da copiare
 
 ## Opzioni
 

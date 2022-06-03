@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Sketcher Arcs
-   Name/it:Archi
-   Empty:1
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Nessuno (solo sulla barra degli strumenti)
+- GuiCommand   */it
+   Name   *Sketcher Arcs
+   Name/it   *Archi
+   Empty   *1
+   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation   *Nessuno (solo sulla barra degli strumenti)
 ---
 
 # Sketcher CompCreateArc/it
@@ -21,8 +21,8 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arco da centro e punti finali](Sketcher_CreateArc/it.md) : disegna un arco selezionando tre punti: il centro, l\'angolo iniziale lungo il raggio e l\'angolo finale.
--   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arco da tre punti ](Sketcher_Create3PointArc/it.md) : Disegna un arco selezionando tre punti: il punto iniziale, il punto finale e un punto sull\'arco.
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width   *32px;"> [Arco da centro e punti finali](Sketcher_CreateArc/it.md)    * disegna un arco selezionando tre punti   * il centro, l\'angolo iniziale lungo il raggio e l\'angolo finale.
+-   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width   *32px;"> [Arco da tre punti ](Sketcher_Create3PointArc/it.md)    * Disegna un arco selezionando tre punti   * il punto iniziale, il punto finale e un punto sull\'arco.
 
 
 </div>

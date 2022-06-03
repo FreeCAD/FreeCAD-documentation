@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw RedrawPage
-   Name/fr:TechDraw Redessiner une page
-   MenuLocation:TechDraw → Redessiner la page
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
+- GuiCommand   */fr
+   Name   *TechDraw RedrawPage
+   Name/fr   *TechDraw Redessiner une page
+   MenuLocation   *TechDraw → Redessiner la page
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
 ---
 
 # TechDraw RedrawPage/fr

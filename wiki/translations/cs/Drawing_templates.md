@@ -6,17 +6,17 @@
 
 ## SVG templates creation 
 
-Creating templates for the Drawing module is very easy. See also the tutorial [Drawing Template HowTo](Drawing_Template_HowTo.md). Templates are svg files, created with any application capable of exporting svg files, such as [Inkscape](http://www.inkscape.org). However, you will often need to open the svg file in a text editor afterwards, to comply with the following rules. Only two rules must be followed:
+Creating templates for the Drawing module is very easy. See also the tutorial [Drawing Template HowTo](Drawing_Template_HowTo.md). Templates are svg files, created with any application capable of exporting svg files, such as [Inkscape](http   *//www.inkscape.org). However, you will often need to open the svg file in a text editor afterwards, to comply with the following rules. Only two rules must be followed   *
 
 ### Base rules 
 
 
 <div class="mw-translate-fuzzy">
 
-Vytváření šablon pro modul Výkresy je velmi snadné. Koukněte na výukový program [Výkres Šablona Jak](Drawing_Template_HowTo/cs.md). Šablony jsou SVG soubory, které jsou vytvořené nějakou aplikací schopnou vyexportovat SVG soubory, jako je třeba [Inkscape](http://www.inkscape.org). Musí být dodrženy pouze násleující 2 pravidla:
+Vytváření šablon pro modul Výkresy je velmi snadné. Koukněte na výukový program [Výkres Šablona Jak](Drawing_Template_HowTo/cs.md). Šablony jsou SVG soubory, které jsou vytvořené nějakou aplikací schopnou vyexportovat SVG soubory, jako je třeba [Inkscape](http   *//www.inkscape.org). Musí být dodrženy pouze násleující 2 pravidla   *
 
 -   Jeden pixel = jeden millimeter
--   Ve vytvořeném SVG kódu musíte do místa kde chcete aby se zobrazoval Váš výkres (například na konec souboru před značku</svg>) vložit následující řádek:
+-   Ve vytvořeném SVG kódu musíte do místa kde chcete aby se zobrazoval Váš výkres (například na konec souboru před značku</svg>) vložit následující řádek   *
 
 
 </div>
@@ -33,13 +33,13 @@ width="1067"
 height = "762"
 
 
-Although svg supports inches (\"42 in\"), these are currently not supported by FreeCAD, so it\'s always better to have your svg page size specified in millimeters. The \"viewBox\" attribute must have the same value, for example:
+Although svg supports inches (\"42 in\"), these are currently not supported by FreeCAD, so it\'s always better to have your svg page size specified in millimeters. The \"viewBox\" attribute must have the same value, for example   *
 
  {.html}
 viewBox="0 0 1067 762"
 
 
--   You must insert, somewhere inside your svg code, where you want the contents of the drawing to appear (for example at the end of the file, just before the last</svg>tag), the following line:
+-   You must insert, somewhere inside your svg code, where you want the contents of the drawing to appear (for example at the end of the file, just before the last</svg>tag), the following line   *
 
  {.html}
 
@@ -49,9 +49,9 @@ This text above (which is actually an XML comment) must be on a separate line, a
 
 ### Namespace
 
--   Several objects (specifically those created with the [Draft Drawing](Draft_Drawing.md) command and if your template has editable texts) use a special [Svg Namespace](Svg_Namespace.md) specific to FreeCAD. This makes FreeCAD able to detect specific items inside svg files, that other applications will just ignore. If you plan to use any of these, you must add this line inside the opening<svg>tag, for example together with the other xmlns lines added by inkscape:
+-   Several objects (specifically those created with the [Draft Drawing](Draft_Drawing.md) command and if your template has editable texts) use a special [Svg Namespace](Svg_Namespace.md) specific to FreeCAD. This makes FreeCAD able to detect specific items inside svg files, that other applications will just ignore. If you plan to use any of these, you must add this line inside the opening<svg>tag, for example together with the other xmlns lines added by inkscape   *
 
-xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
+xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 ### Title block 
 
@@ -78,7 +78,7 @@ Pro definování rámečku výkresu se musí před značku \<metadata v souboru 
 
 <div class="mw-translate-fuzzy">
 
-Kde X1, Y1, X2, Y2 jsou definovány jako:
+Kde X1, Y1, X2, Y2 jsou definovány jako   *
 
 -   X1 je vzdálenost od levého okraje stránky k levé straně rámečku v ose X.
 -   Y1 je vzdálenost od horního okraje stránky k horní straně rámečku v ose Y.
@@ -105,7 +105,7 @@ Pro definování Popisového pole musí být před značku \<metadata, ale za zn
 
 <div class="mw-translate-fuzzy">
 
-Kde X1a, Y1a, X2a, Y2a jsou definovány jako:
+Kde X1a, Y1a, X2a, Y2a jsou definovány jako   *
 
 -   X1a je vzdálenost od levého okraje stránky k levé straně popisového pole v ose X.
 -   Y1a je vzdálenost od horního okraje stránky k horní straně popisového pole v ose Y.
@@ -120,7 +120,7 @@ Kde X1a, Y1a, X2a, Y2a jsou definovány jako:
 
 <div class="mw-translate-fuzzy">
 
-Následuje příklad kódu, který definuje Pracovní prostor (Working space) a Popisové pole (Title block) a který musí být vložen před značku \<metadata. Popisové pole není nutné specifikovat, ale když to uděláte, musí být ihned za definicí Pracovního prostoru (Working space):
+Následuje příklad kódu, který definuje Pracovní prostor (Working space) a Popisové pole (Title block) a který musí být vložen před značku \<metadata. Popisové pole není nutné specifikovat, ale když to uděláte, musí být ihned za definicí Pracovního prostoru (Working space)   *
 
 
 </div>
@@ -132,7 +132,7 @@ Následuje příklad kódu, který definuje Pracovní prostor (Working space) a 
 
 In order to enable up to scale printing, the real word size has to be given in the width and height attributes of the SVG-Tag. The size of the document in user units, (px), has to be given in the viewBox attribute.
 
-The following is to be formatted like the example below where:
+The following is to be formatted like the example below where   *
 
 -   xxx = pixel width
 -   yyy = pixel height
@@ -159,7 +159,7 @@ Consequently, if you create your own SVG templates, and wish to be able to expor
 
 DXF templates can be created with any application that produces DXF files, such as LibreCAD. You then need to edit them with a text editor, and add two additional lines, one at the beginning or end of the BLOCKS section, and another at the beginning or end of the ENTITIES section, which are where FreeCAD will add its own blocks and entities.
 
-A very simple template looks like this:
+A very simple template looks like this   *
 
     999
     FreeCAD DXF exporter v0.15
@@ -199,105 +199,107 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### Klasická A3: 
+### Klasická A3   * 
 
-<img alt="" src=images/A3_Classic.svg  style="width:800px;">
+<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Classic.svg  style="width:800px;">
+<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-### Čistá A3: 
+### Čistá A3   * 
 
-<img alt="" src=images/A3_Clean.svg  style="width:800px;">
+<img alt="" src=images/A3_Clean.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Clean.svg  style="width:800px;">
+<img alt="" src=images/A3_Clean.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-### Moderní A3: 
+### Moderní A3   * 
 
-<img alt="" src=images/A3_Modern.svg  style="width:800px;">
+<img alt="" src=images/A3_Modern.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Modern.svg  style="width:800px;">
+<img alt="" src=images/A3_Modern.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-### Ukázková A3: 
+### Ukázková A3   * 
 
-<img alt="" src=images/A3_Showcase.svg  style="width:800px;">
+<img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Showcase.svg  style="width:800px;">
+<img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-### A3 na šířku anglicky: 
+### A3 na šířku anglicky   * 
 
-<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
 
 ## Šablona A4 
 
-### A4 na šířku anglicky: 
+### A4 na šířku anglicky   * 
 
-<img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A4_Landscape_english.svg  style="width   *800px;">
 
-### A4 na výšku 1 anglicky: 
+### A4 na výšku 1 anglicky   * 
 
-<img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
+<img alt="" src=images/A4_Portrait_1_english.svg  style="width   *400px;">
 
 ## Šablona US Letter 
 
-### US Letter na šířku: 
+### US Letter na šířku   * 
 
-<img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Letter_landscape.svg  style="width   *800px;">
 
-### US Letter na výšku: 
+### US Letter na výšku   * 
 
-<img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
+<img alt="" src=images/US_Letter_portrait.svg  style="width   *400px;">
 
-### US Letter ds na šířku: 
+### US Letter ds na šířku   * 
 
-<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width   *800px;">
 
-### US Legal ds na šířku: 
+### US Legal ds na šířku   * 
 
-<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width   *800px;">
 
-### US Ledger ds na šířku: 
+### US Ledger ds na šířku   * 
 
-<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width   *800px;">
 
 ## Další dostupné standardy 
 
--   [ANSI šablony](ANSI_templates/cs.md): podle standardů American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
--   [Architektonické šablony](Arch_templates/cs.md): podle standardů American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
--   [Ostatní šablony](Misc_templates/cs.md): další šablony
+-   [ANSI šablony](ANSI_templates/cs.md)   * podle standardů American National Standards Institute [ANSI](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute)
+-   [Architektonické šablony](Arch_templates/cs.md)   * podle standardů American National Standards Institute [Arch](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute)
+-   [Ostatní šablony](Misc_templates/cs.md)   * další šablony
 
 
 {{Drawing Tools navi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Documentation](Category_Documentation.md)
 
 
 

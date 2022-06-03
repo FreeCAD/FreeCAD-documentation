@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Sketcher_External
-   Name/it:Geometria esterna   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Shortcut:X
-   MenuLocation:Sketch → Geometrie → Geometria Esterna
-   SeeAlso:[Linea di costruzione](Sketcher_ToggleConstruction/it.md)
+- GuiCommand   */it
+   Name   *Sketcher_External
+   Name/it   *Geometria esterna   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
+   Shortcut   *X
+   MenuLocation   *Sketch → Geometrie → Geometria Esterna
+   SeeAlso   *[Linea di costruzione](Sketcher_ToggleConstruction/it.md)
 ---
 
 # Sketcher External/it
@@ -24,7 +24,7 @@ Lo strumento Geometria esterna di Sketcher serve quando è necessario applicare 
 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
-<FILE:Sketcher_ExternalEsempio1.png>
+<FILE   *Sketcher_ExternalEsempio1.png>
 
 ## Utilizzo
 
@@ -95,15 +95,15 @@ Quello sottostante è uno schizzo mappato sulla faccia superiore di un solido cr
 
 In questo caso sono utilizzati come riferimento per i vincoli di tangenza con la circonferenza di un cerchio. Essi sono utilizzati anche come riferimento per un vincolo orizzontale e un vincolo verticale per individuare il centro del secondo cerchio rispetto all\'estremità e al lato superiore del pad.
 
-<FILE:Sketcher_ExternalEsempio2.png>
+<FILE   *Sketcher_ExternalEsempio2.png>
 
 Questo è lo stesso schizzo in modalità di modifica, ma il Pad su cui è mappato è nascosto.
 
-<FILE:Sketcher_ExternalEsempio4.png>
+<FILE   *Sketcher_ExternalEsempio4.png>
 
 Quando lo schizzo viene chiuso le linee Geometria esterna non sono più visibili.
 
-<FILE:Sketcher_ExternalEsempio3.png>
+<FILE   *Sketcher_ExternalEsempio3.png>
 
 
 <div class="mw-translate-fuzzy">

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std PerspectiveCamera
-   Name/de:Std PerspektivKamera
-   MenuLocation:Ansicht → Perspektiv Ansicht
-   Workbenches:Alle
-   Shortcut:**V** **P**
-   SeeAlso:[Std OrthogonalKamera](Std_OrthographicCamera/de.md)
+- GuiCommand   */de
+   Name   *Std PerspectiveCamera
+   Name/de   *Std PerspektivKamera
+   MenuLocation   *Ansicht → Perspektiv Ansicht
+   Workbenches   *Alle
+   Shortcut   ***V** **P**
+   SeeAlso   *[Std OrthogonalKamera](Std_OrthographicCamera/de.md)
 ---
 
 # Std PerspectiveCamera/de
@@ -19,9 +19,9 @@ Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansic
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
     -   Wähle die Option **Ansicht → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspektiv Ansicht** aus dem Menü.
-    -   Verwende das Tastaturkürzel: **V** dann **P**.
+    -   Verwende das Tastaturkürzel   * **V** dann **P**.
 
 ## Hinweise
 
@@ -29,12 +29,12 @@ Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansic
 
 ## Einstellungen
 
--   Der Kameratyp kann in den Einstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
+-   Der Kameratyp kann in den Einstellungen geändert werden   * **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
 

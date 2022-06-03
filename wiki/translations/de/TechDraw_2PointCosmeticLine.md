@@ -1,20 +1,20 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw 2PointCosmeticLine
-   Name/de:TechDraw 2PunkteHilfslinie
-   MenuLocation:TechDraw → Linien hinzufügen →Hilfslinie durch 2 Punkte hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md)
+- GuiCommand   */de
+   Name   *TechDraw 2PointCosmeticLine
+   Name/de   *TechDraw 2PunkteHilfslinie
+   MenuLocation   *TechDraw → Linien hinzufügen →Hilfslinie durch 2 Punkte hinzufügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md)
 ---
 
 # TechDraw 2PointCosmeticLine/de
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw-line2points.svg  style="width:16px;"> **2PunkteHilfslinie** fügt eine Hilfslinie zwischen zwei Knoten (Points) hinzu. Die Knoten können 2d oder 3d sein. Die resultierende Linie kann zur Bemaßung verwendet werden. Das Aussehen der Linie kann mit dem Werkzeug [Hilfsobjekt entfernen](TechDraw_CosmeticEraser/de.md) geändert werden.
+Das Werkzeug <img alt="" src=images/TechDraw-line2points.svg  style="width   *16px;"> **2PunkteHilfslinie** fügt eine Hilfslinie zwischen zwei Knoten (Points) hinzu. Die Knoten können 2d oder 3d sein. Die resultierende Linie kann zur Bemaßung verwendet werden. Das Aussehen der Linie kann mit dem Werkzeug [Hilfsobjekt entfernen](TechDraw_CosmeticEraser/de.md) geändert werden.
 
-<img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
+<img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
 
 
 
@@ -48,7 +48,7 @@ Kosmetiklinien haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte s
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

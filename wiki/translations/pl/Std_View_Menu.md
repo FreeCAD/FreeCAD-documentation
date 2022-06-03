@@ -31,36 +31,36 @@ W menu Widok znajdują się narzędzia do zmiany [widok 3D](3D_view/pl.md) oraz 
 
 W tym menu dostępne są następujące narzędzia   *
 
--   <img alt="" src=images/Std_ViewCreate.svg  style="width   *32px;"> [Utwórz nowy widok](Std_ViewCreate.md)   * Tworzy nowy widok przestrzenny.
+-   <img alt="" src=images/Std_ViewCreate.svg  style="width   *32px;"> [Utwórz nowy widok](Std_ViewCreate/pl.md)   * Tworzy nowy widok przestrzenny.
 
--   <img alt="" src=images/Std_OrthographicCamera.svg  style="width   *32px;"> [Widok ortogonalny](Std_OrthographicCamera.md)   * Przełącza do trybu widoku ortograficznego.
+-   <img alt="" src=images/Std_OrthographicCamera.svg  style="width   *32px;"> [Widok ortogonalny](Std_OrthographicCamera/pl.md)   * Przełącza do trybu widoku ortogonalnego.
 
--   <img alt="" src=images/Std_PerspectiveCamera.svg  style="width   *32px;"> [Widok perspektywy](Std_PerspectiveCamera.md)   * Przełącza do trybu widoku perspektywy.
+-   <img alt="" src=images/Std_PerspectiveCamera.svg  style="width   *32px;"> [Widok perspektywy](Std_PerspectiveCamera/pl.md)   * Przełącza do trybu widoku perspektywy.
 
--   <img alt="" src=images/Std_MainFullscreen.svg  style="width   *32px;"> [Pełny ekran](Std_MainFullscreen.md)   * Przełącza tryb pełnoekranowy okna głównego.
+-   <img alt="" src=images/Std_MainFullscreen.svg  style="width   *32px;"> [Pełny ekran](Std_MainFullscreen/pl.md)   * Przełącza tryb pełnoekranowy okna głównego.
 
 -   Widoki standardowe
-    -   <img alt="" src=images/Std_ViewFitAll.svg  style="width   *32px;"> [Dopasuj wszystko](Std_ViewFitAll.md)   * Dopasowuje wszystkie widoczne obiekty wewnątrz widoku.
-    -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width   *32px;"> [Dopasuj wybrane](Std_ViewFitSelection.md)   * Dopasowuje do widoku wybrane obiekty.
+    -   <img alt="" src=images/Std_ViewFitAll.svg  style="width   *32px;"> [Dopasuj wszystko](Std_ViewFitAll/pl.md)   * Dopasowuje wszystkie widoczne obiekty wewnątrz widoku.
+    -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width   *32px;"> [Dopasuj wybrane](Std_ViewFitSelection/pl.md)   * Dopasowuje do widoku wybrane obiekty.
     -   Aksonometryczny
-        -   <img alt="" src=images/Std_ViewIsometric.svg  style="width   *32px;"> [Izometryczny](Std_ViewIsometric.md)   * Przełącza do widoku izometrycznego.
-        -   [Dimetryczny](Std_ViewDimetric.md)   * Przełącza na widok aksonometryczny dwumiarowy.
-        -   [Trimetryczny](Std_ViewTrimetric.md)   * Przełącza na widok aksonometryczny trójwymiarowy.
-    -   <img alt="" src=images/Std_ViewHome.svg  style="width   *32px;"> [Widok główny](Std_ViewHome.md)   * Przełącza do domyślnego widoku głównego. {{Version/pl|0.19}}
-    -   <img alt="" src=images/Std_ViewFront.svg  style="width   *32px;"> [Od przodu](Std_ViewFront.md)   * Przełącz na widok z przodu.
-    -   <img alt="" src=images/Std_ViewTop.svg  style="width   *32px;"> [Od góry](Std_ViewTop.md)   * Przełącz na widok z góry.
-    -   <img alt="" src=images/Std_ViewRight.svg  style="width   *32px;"> [Od Prawej](Std_ViewRight.md)   * Przełącz na widok z prawej strony.
-    -   <img alt="" src=images/Std_ViewRear.svg  style="width   *32px;"> [Od tyłu](Std_ViewRear.md)   * Przełącz na widok z tyłu.
-    -   <img alt="" src=images/Std_ViewBottom.svg  style="width   *32px;"> [Od dołu](Std_ViewBottom.md)   * Przełącz na widok z dołu.
-    -   <img alt="" src=images/Std_ViewLeft.svg  style="width   *32px;"> [Od lewej](Std_ViewLeft.md)   * Przełącz na widok z lewej strony.
-    -   <img alt="" src=images/Std_RotateLeft.png  style="width   *32px;"> [Obróc w lewo](Std_ViewRotateLeft.md)   * Obraca widok na lewo.
-    -   <img alt="" src=images/Std_RotateRight.png  style="width   *32px;"> [Obróć w prawo](Std_ViewRotateRight.md)   * Obraca widok na prawo.
+        -   <img alt="" src=images/Std_ViewIsometric.svg  style="width   *32px;"> [Izometryczny](Std_ViewIsometric/pl.md)   * Przełącza do widoku izometrycznego.
+        -   [Dimetryczny](Std_ViewDimetric/pl.md)   * Przełącza na widok aksonometryczny dwumiarowy.
+        -   [Trimetryczny](Std_ViewTrimetric/pl.md)   * Przełącza na widok aksonometryczny trójwymiarowy.
+    -   <img alt="" src=images/Std_ViewHome.svg  style="width   *32px;"> [Widok domyślny](Std_ViewHome/pl.md)   * Przełącza do domyślnego widoku głównego. {{Version/pl|0.19}}
+    -   <img alt="" src=images/Std_ViewFront.svg  style="width   *32px;"> [Od przodu](Std_ViewFront/pl.md)   * Przełącz na widok z przodu.
+    -   <img alt="" src=images/Std_ViewTop.svg  style="width   *32px;"> [Od góry](Std_ViewTop/pl.md)   * Przełącz na widok z góry.
+    -   <img alt="" src=images/Std_ViewRight.svg  style="width   *32px;"> [Od Prawej](Std_ViewRight/pl.md)   * Przełącz na widok z prawej strony.
+    -   <img alt="" src=images/Std_ViewRear.svg  style="width   *32px;"> [Od tyłu](Std_ViewRear/pl.md)   * Przełącz na widok z tyłu.
+    -   <img alt="" src=images/Std_ViewBottom.svg  style="width   *32px;"> [Od dołu](Std_ViewBottom/pl.md)   * Przełącz na widok z dołu.
+    -   <img alt="" src=images/Std_ViewLeft.svg  style="width   *32px;"> [Od lewej](Std_ViewLeft/pl.md)   * Przełącz na widok z lewej strony.
+    -   <img alt="" src=images/Std_RotateLeft.png  style="width   *32px;"> [Obróc w lewo](Std_ViewRotateLeft/pl.md)   * Obraca widok na lewo.
+    -   <img alt="" src=images/Std_RotateRight.png  style="width   *32px;"> [Obróć w prawo](Std_ViewRotateRight/pl.md)   * Obraca widok na prawo.
 
--   [Przechwyć aktualny obraz](Std_FreezeViews.md)
-    -   [Zapisz widok \...](Std_FreezeViews#Save_views....md)   * Zapisuje w pliku zamrożony widok.
-    -   [Wczytaj widok \...](Std_FreezeViews#Load_views....md)   * Ładuje zamrożony widok z pliku.
-    -   [Zatrzymaj widok](Std_FreezeViews#Freeze_view.md)   * Zachowuje aktualny widok w zamrożonym widoku.
-    -   [Wyczyść widok](Std_FreezeViews#Clear_views.md)   * Kasuje wszystkie zamrożone widoki.
+-   [Przechwyć aktualny obraz](Std_FreezeViews/pl.md)
+    -   [Zapisz widok \...](Std_FreezeViews/pl#Zapisz_widok.md)   * Zapisuje w pliku zamrożony widok.
+    -   [Wczytaj widok \...](Std_FreezeViews/pl#Wczytaj_widok.md)   * Ładuje zamrożony widok z pliku.
+    -   [Zamroź widok](Std_FreezeViews/pl#Zamro.C5.BA_widok.md)   * Zachowuje aktualny widok w zamrożonym widoku.
+    -   [Wyczyść widok](Std_FreezeViews/pl#Wyczy.C5.9B.C4.87_widoki.md)   * Kasuje wszystkie zamrożone widoki.
 
 -   [Styl rysowania](Std_DrawStyle.md)
     -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *32px;"> [Domyślny](Std_DrawStyle/pl#Domy.C5.9Blny.md)

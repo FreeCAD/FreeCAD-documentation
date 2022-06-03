@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ko
-   Name:Std Undo
-   Name/ko:표준 실행 취소
-   MenuLocation:편집 → 실행 취소
-   Workbenches:모두
-   Shortcut:**Ctrl**+**Z**
-   SeeAlso:[표준 다시 실행](Std_Redo/ko.md)
+- GuiCommand   */ko
+   Name   *Std Undo
+   Name/ko   *표준 실행 취소
+   MenuLocation   *편집 → 실행 취소
+   Workbenches   *모두
+   Shortcut   ***Ctrl**+**Z**
+   SeeAlso   *[표준 다시 실행](Std_Redo/ko.md)
 ---
 
 # Std Undo/ko
@@ -16,7 +16,7 @@
 
 ## 용법
 
-1.  이 명령을 실행하는 방법은 여러가지입니다.:
+1.  이 명령을 실행하는 방법은 여러가지입니다.   *
     -   
         **<img src="images/Std_Undo.svg" width=16px> [표준 실행 취소](Std_Undo/ko.md)
 **
@@ -25,7 +25,7 @@
 
     -   메뉴에서 **편집 → <img src="images/Std_Undo.svg" width=16px> 실행 취소** 옵션을 선택합니다..
 
-    -   단축키를 사용합니다: **Ctrl**+**Z**.
+    -   단축키를 사용합니다   * **Ctrl**+**Z**.
 
 ## 선택 사항 
 
@@ -45,7 +45,7 @@
 ## 스크립트
 
 
-**참조:**
+**참조   ***
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 

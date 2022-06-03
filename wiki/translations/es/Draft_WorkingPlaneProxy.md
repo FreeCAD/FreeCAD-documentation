@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Draft WorkingPlaneProxy
-   Name/es:Borrador PlanoTrabajoProxy
-   MenuLocation:Borrador → Utilidades → Crear proxy del plano trabajo
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Borrador SeleccionarPlano](Draft_SelectPlane/es.md)
+- GuiCommand   */es
+   Name   *Draft WorkingPlaneProxy
+   Name/es   *Borrador PlanoTrabajoProxy
+   MenuLocation   *Borrador → Utilidades → Crear proxy del plano trabajo
+   Workbenches   *[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   SeeAlso   *[Borrador SeleccionarPlano](Draft_SelectPlane/es.md)
 ---
 
 # Draft WorkingPlaneProxy/es
@@ -22,7 +22,7 @@ Este comando colocará un objeto Proxy de Plano alineado con el actual [Plano tr
 
 </div>
 
-<img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_WPProxy_example.png  style="width   *400px;"> 
 *Tres proxies de planos de trabajo que muestran diferentes orientaciones y rellenos*
 
 ## Utilización
@@ -38,11 +38,11 @@ Este comando colocará un objeto Proxy de Plano alineado con el actual [Plano tr
 
 ## Context menu 
 
-For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
+For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu   *
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**   * updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**   * updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
 ## Notes
 
@@ -52,8 +52,8 @@ For a Draft WorkingPlaneProxy these additional options are available in the [Tre
 ## Notas
 
 -   El plano de trabajo almacenado en el objeto Proxy puede restaurarse haciendo doble clic en el objeto en la vista de árbol, o seleccionando el objeto Proxy y utilizando el **<img src="images/Draft_SelectPlane.svg" width=16px> [Borrador SeleccionarPlano](Draft_SelectPlane/es.md).**.
--   La posición de la cámara se almacena en el objeto Proxy en el momento de su creación. Esta posición puede actualizarse en cualquier momento: haz zoom, panorámica y rotación de la vista como desees, luego haz clic con el botón derecho en el objeto Proxy en la vista de árbol y selecciona **<img src="images/Draft_SelectPlane.svg" width=16px>. Escribir posición de la cámara**.
--   El estado de visibilidad de todos los objetos también se almacena en el objeto Proxy en el momento de su creación. Este estado puede actualizarse en cualquier momento: establezca la propiedad **Visibility** de los objetos a `True` o `False` según desee, luego haga clic con el botón derecho en el objeto Proxy en la vista de árbol, y seleccione **<img src="images/Draft_SelectPlane.svg" width=16px> Escribir estado de los objetos**.
+-   La posición de la cámara se almacena en el objeto Proxy en el momento de su creación. Esta posición puede actualizarse en cualquier momento   * haz zoom, panorámica y rotación de la vista como desees, luego haz clic con el botón derecho en el objeto Proxy en la vista de árbol y selecciona **<img src="images/Draft_SelectPlane.svg" width=16px>. Escribir posición de la cámara**.
+-   El estado de visibilidad de todos los objetos también se almacena en el objeto Proxy en el momento de su creación. Este estado puede actualizarse en cualquier momento   * establezca la propiedad **Visibility** de los objetos a `True` o `False` según desee, luego haga clic con el botón derecho en el objeto Proxy en la vista de árbol, y seleccione **<img src="images/Draft_SelectPlane.svg" width=16px> Escribir estado de los objetos**.
 -   Los proxies de plano pueden moverse y girarse como cualquier otro objeto para que definan el plano de trabajo deseado. Su apariencia visual también se puede cambiar en el [Editor de propiedades](Property_editor/es.md).
 
 
@@ -61,44 +61,44 @@ For a Draft WorkingPlaneProxy these additional options are available in the [Tre
 
 ## Propiedades
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
+A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Base}}
 
--    **Placement|Placement**: specifies the position of the working plane proxy in the [3D view](3D_view.md). See [Placement](Placement.md).
+-    **Placement|Placement**   * specifies the position of the working plane proxy in the [3D view](3D_view.md). See [Placement](Placement.md).
 
--    **Shape|Shape|Hidden**: specifies the shape of the working plane proxy.
+-    **Shape|Shape|Hidden**   * specifies the shape of the working plane proxy.
 
 ### View
 
 
 {{TitleProperty|Base}}
 
--    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
+-    **Line Color|Color**   * specifies the color of all elements of the working plane proxy.
 
--    **Line Width|Float**: specifies the line width of the axes and arrow symbols.
+-    **Line Width|Float**   * specifies the line width of the axes and arrow symbols.
 
--    **Restore State|Bool**: specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+-    **Restore State|Bool**   * specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
 
--    **Restore View|Bool**: specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+-    **Restore View|Bool**   * specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
 
--    **Transparency|Percent**: specifies the transparency of the face of the working plane proxy.
+-    **Transparency|Percent**   * specifies the transparency of the face of the working plane proxy.
 
--    **View Data|FloatList**: specifies the camera position and settings.
+-    **View Data|FloatList**   * specifies the camera position and settings.
 
--    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
+-    **Visibility Map|Map|Hidden**   * specifies the visibility state of objects.
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**: specifies the size of the arrow symbols displayed at the tip of the three axes.
+-    **Arrow Size|Length**   * specifies the size of the arrow symbols displayed at the tip of the three axes.
 
--    **Display Size|Length**: specifies the length and width of the working plane proxy.
+-    **Display Size|Length**   * specifies the length and width of the working plane proxy.
 
 ## Guión
 
@@ -106,7 +106,7 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 <div class="mw-translate-fuzzy">
 
 
-**Ver también:**
+**Ver también   ***
 
 [Borrador API](Draft_API/es.md) y [FreeCAD Fundamentos de Guión](FreeCAD_Scripting_Basics/es.md).
 
@@ -116,7 +116,7 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 
 <div class="mw-translate-fuzzy">
 
-Los objetos proxy del plano de trabajo se pueden utilizar en [macros](Macros/es.md) y desde la consola de [Python](Python/es.md) utilizando la siguiente función:
+Los objetos proxy del plano de trabajo se pueden utilizar en [macros](Macros/es.md) y desde la consola de [Python](Python/es.md) utilizando la siguiente función   *
 
 
 </div>

@@ -36,12 +36,12 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 ### Навигация Blender 
 
-The Blender navigation style was modeled after [Blender](https://www.blender.org).
+The Blender navigation style was modeled after [Blender](https   *//www.blender.org).
 
 
 <div class="mw-translate-fuzzy">
 
-Стиль навигации Blender ориентируется на [Blender](https://www.blender.org). Ранее не было возможности сдвига только мышью, и требовалось нажимать кнопку **SHIFT** для сдвига вида. Это было изменено в 2016 году при добавке возможностей, теперь для сдвига можно нажать левую и правую кнопку мыши. {{Blender Navigation
+Стиль навигации Blender ориентируется на [Blender](https   *//www.blender.org). Ранее не было возможности сдвига только мышью, и требовалось нажимать кнопку **SHIFT** для сдвига вида. Это было изменено в 2016 году при добавке возможностей, теперь для сдвига можно нажать левую и правую кнопку мыши. {{Blender Navigation
 |Select_name=Выбор
 |Pan_name=Сдвиг
 |Zoom_name=Масштаб
@@ -74,13 +74,13 @@ The Blender navigation style was modeled after [Blender](https://www.blender.org
 <div class="mw-translate-fuzzy">
 Нажатием **Ctrl** можно выбрать несколько объектов.
 |Pan_text=Удерживая среднюю кнопку мыши, двигаем указатель.
-|Pan_mode_text=Режим сдвига: удерживая кнопку **Ctrl**, один раз нажимаем правую кнопку мыши, затем двигаем указатель. <small>(v0.17)</small> 
+|Pan_mode_text=Режим сдвига   * удерживая кнопку **Ctrl**, один раз нажимаем правую кнопку мыши, затем двигаем указатель. <small>(v0.17)</small> 
 |Zoom_text=Используем колёсико мыши для приближения и отдаления.
 </div>
 
 <div class="mw-translate-fuzzy">
 Кликом средней кнопкой вид центрируется по положению курсора.
-|Zoom_mode_text=Режим приближения: удерживая кнопки **Ctrl** и **Shift**, нажмите правую кнопку, и двигайте указатель. <small>(v0.17)</small> 
+|Zoom_mode_text=Режим приближения   * удерживая кнопки **Ctrl** и **Shift**, нажмите правую кнопку, и двигайте указатель. <small>(v0.17)</small> 
 |Rotate_view_text=Удерживая среднюю кнопку мыши, нажмите и удерживайте левую кнопку мыши, затем двигайте указатель.
 </div>
 
@@ -90,7 +90,7 @@ The Blender navigation style was modeled after [Blender](https://www.blender.org
 
 <div class="mw-translate-fuzzy">
 Двойной клик средней кнопкой мыши устанавливает новый центр вращения.
-|Rotate_view_mode_text=Режим вращения: удерживая кнопку **Shift**, нажмите правую кнопку, затем двигайте указатель. <small>(v0.17)</small> 
+|Rotate_view_mode_text=Режим вращения   * удерживая кнопку **Shift**, нажмите правую кнопку, затем двигайте указатель. <small>(v0.17)</small> 
 |Rotate_view_alt_text=Удерживая среднюю кнопку мыши, нажмите и удерживайте правую кнопку мыши, затем двигайте указатель.
 </div>
 
@@ -158,7 +158,7 @@ In Maya-Gesture Navigation, panning, zooming, and rotating the view require the 
 
 #### Навигация OpenCascade 
 
-The OpenCascade navigation style was modeled after [OpenCascade](https://www.opencascade.com/).
+The OpenCascade navigation style was modeled after [OpenCascade](https   *//www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -180,7 +180,7 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 
 <div class="mw-translate-fuzzy">
 
-При навигации в стиле [OpenInventor](http://en.wikipedia.org/wiki/Open_Inventor). Для выделения объектов надо нажать кнопку **CTRL**.
+При навигации в стиле [OpenInventor](http   *//en.wikipedia.org/wiki/Open_Inventor). Для выделения объектов надо нажать кнопку **CTRL**.
 
 
 </div>
@@ -218,7 +218,7 @@ Hold down **Ctrl** instead to select multiple objects.
 
 ### OpenSCAD navigation 
 
-The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
+The OpenSCAD navigation style was modeled after [OpenSCAD](https   *//openscad.org/).
 
 
 <small>(v0.20)</small> 
@@ -239,7 +239,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 
 ### Навигация Revit 
 
-The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wiki/Autodesk_Revit).
+The Revit navigation style was modeled after [Revit](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
 
 
 {{Revit Navigation
@@ -261,7 +261,7 @@ The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wi
 
 ### TinkerCAD navigation 
 
-The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
+The TinkerCAD navigation style was modeled after [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
 
 
 <small>(v0.20)</small> 
@@ -327,7 +327,7 @@ FreeCAD так же поддерживает несколько [3d мышей](
 
 <div class="mw-translate-fuzzy">
 
-В настоящее время имеется сообщение [на форуме](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) от пользователей Mac, что кнопка мыши и сочетание клавиш работают не так, как ожидается. К сожалению, ни один из наших разработчиков не использует Mac. Нам требуется помощь, чтобы определить, какие сочетания кнопок мыши и комбинации клавиш работают, чтобы мы смогли обновить текст на wiki.
+В настоящее время имеется сообщение [на форуме](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) от пользователей Mac, что кнопка мыши и сочетание клавиш работают не так, как ожидается. К сожалению, ни один из наших разработчиков не использует Mac. Нам требуется помощь, чтобы определить, какие сочетания кнопок мыши и комбинации клавиш работают, чтобы мы смогли обновить текст на wiki.
 
 
 </div>

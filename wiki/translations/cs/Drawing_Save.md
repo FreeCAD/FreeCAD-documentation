@@ -1,11 +1,11 @@
 # Drawing Save/cs
 ---
-- GuiCommand:/cs   Name:Drawing Save   Name/cs:Drawing Save   Workbenches:[MenuLocation:Drawing → Export page...   Shortcut:none   SeeAlso:[[Drawing Open SVG/cs|Výkres Otevření SVG](Drawing_Workbench/cs___Výkres]],_Sestavení.md)---
+- GuiCommand   */cs   Name   *Drawing Save   Name/cs   *Drawing Save   Workbenches   *[MenuLocation   *Drawing → Export page...   Shortcut   *none   SeeAlso   *[[Drawing Open SVG/cs|Výkres Otevření SVG](Drawing_Workbench/cs___Výkres]],_Sestavení.md)---
 
 
 </div>
 
-Tento nástroj ukládá aktuální Výkres jako SVG (scalable vector graphics) soubor. Takový soubor může být potom editován v SVG programu jako je třeba [Inkscape](http://www.inkscape.org).
+Tento nástroj ukládá aktuální Výkres jako SVG (scalable vector graphics) soubor. Takový soubor může být potom editován v SVG programu jako je třeba [Inkscape](http   *//www.inkscape.org).
 
 
 <div class="mw-translate-fuzzy">

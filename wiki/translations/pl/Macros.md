@@ -7,17 +7,17 @@
 
 Podczas gdy skrypty Pythona zwykle mają rozszerzenie `.py`, makra FreeCAD powinny mieć rozszerzenie `.FCMacro`. Zbiór makr napisanych przez doświadczonych użytkowników znajduje się na stronie [przepisy na makra](macros_recipes.md).
 
-Zobacz [Centrum Power użytkownika](Power_users_hub/pl.md), aby dowiedzieć się więcej o języku programowania [Python](Python.md) oraz o pisaniu makr. W szczególności powinieneś zacząć od tych stron:
+Zobacz [Centrum Power użytkownika](Power_users_hub/pl.md), aby dowiedzieć się więcej o języku programowania [Python](Python.md) oraz o pisaniu makr. W szczególności powinieneś zacząć od tych stron   *
 
 -   [Wprowadzenie do środowiska Python](Introduction_to_Python/pl.md)
--   [Poradnik: Tworzenie skryptów Python](Python_scripting_tutorial/pl.md)
+-   [Poradnik   * Tworzenie skryptów Python](Python_scripting_tutorial/pl.md)
 -   [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md)
 
 ## Jak to działa 
 
-Włącz obsługę wyjścia konsoli w menu **Edcja → Preferencje → Ogólne → Makro → Pokaż polecenia skryptów w konsoli python**. Zobaczysz, że w programie FreeCAD każda wykonywana czynność, taka jak naciśnięcie przycisku, wysyła polecenie Pythona. To właśnie te polecenia mogą być nagrywane w makrze. Głównym narzędziem do tworzenia makr jest pasek narzędzi makr: ![](images/Macros_toolbar.jpg ). Na nim znajdują się 4 przyciski: Rejestrowanie makr, Zatrzymaj nagrywanie makra, Wykonaj makro.
+Włącz obsługę wyjścia konsoli w menu **Edcja → Preferencje → Ogólne → Makro → Pokaż polecenia skryptów w konsoli python**. Zobaczysz, że w programie FreeCAD każda wykonywana czynność, taka jak naciśnięcie przycisku, wysyła polecenie Pythona. To właśnie te polecenia mogą być nagrywane w makrze. Głównym narzędziem do tworzenia makr jest pasek narzędzi makr   * ![](images/Macros_toolbar.jpg ). Na nim znajdują się 4 przyciski   * Rejestrowanie makr, Zatrzymaj nagrywanie makra, Wykonaj makro.
 
-Jest to bardzo łatwe w użyciu:
+Jest to bardzo łatwe w użyciu   *
 Naciśnij przycisk {{button|Rejestrowanie makr}}, zostaniesz poproszony o podanie nazwy dla swojego makra, a następnie wykonaj kilka czynności. Kiedy skończysz, kliknij przycisk **Zatrzymaj nagrywanie makra**, a Twoje działania zostaną zapisane. Teraz możesz uzyskać dostęp do okna dialogowego makra za pomocą przycisku {{button|Edycja}}.
 
 ![](images/Macros.png ) 
@@ -47,7 +47,7 @@ Zobacz prezentacje [jak zainstalować makrodefinicje](How_to_install_macros/pl.m
 
 ## Repozytorium makrodefinicji 
 
-Istnieją dwa główne miejsca, w których można znaleźć makra. Pierwszym z nich jest oficjalne repozytorium makrodefinicji na [GitHub](https://github.com/FreeCAD/FreeCAD-macros). Drugim jest strona [Przepisy na makrodefinicje](Macros_recipes/pl.md), z której możesz wybrać kilka użytecznych makrodefinicji do dodania do swojej instalacji FreeCAD. Makrodefinicje z obu repozytoriów mogą być instalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md) bezpośrednio z programu FreeCAD.
+Istnieją dwa główne miejsca, w których można znaleźć makra. Pierwszym z nich jest oficjalne repozytorium makrodefinicji na [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). Drugim jest strona [Przepisy na makrodefinicje](Macros_recipes/pl.md), z której możesz wybrać kilka użytecznych makrodefinicji do dodania do swojej instalacji FreeCAD. Makrodefinicje z obu repozytoriów mogą być instalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md) bezpośrednio z programu FreeCAD.
 
 ## Informacje dodatkowe 
 
@@ -60,6 +60,14 @@ Możesz ręcznie instalować rozszerzenia, jednak znacznie prostsze jest użycie
 
 -   [Jak zainstalowac makro](How_to_install_macros/pl.md)
 -   [Jak zainstalować dodatkowe Środowiska pracy](How_to_install_additional_workbenches/pl.md)
+
+
+
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

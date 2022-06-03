@@ -1,6 +1,8 @@
 # Category:Documentation/tr
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories/tr](Category   *Categories/tr.md)
+
 ### Contents
 
 |     |     |     |

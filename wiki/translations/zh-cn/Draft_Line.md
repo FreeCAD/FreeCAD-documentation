@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:Draft Line
-   MenuLocation:Draft → Line
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:L I
-   SeeAlso:[Draft Wire](Draft_Wire.md), [[Draft Point]]
-   Version:0.7
+- GuiCommand   *
+   Name   *Draft Line
+   MenuLocation   *Draft → Line
+   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut   *L I
+   SeeAlso   *[Draft Wire](Draft_Wire.md), [[Draft Point]]
+   Version   *0.7
 ---
 
 # Draft Line/zh-cn
@@ -27,7 +27,7 @@
 
 A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
-<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -41,7 +41,7 @@ A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -89,10 +89,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   To change the number of decimals used for the input of coordinates, lengths and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial focus of the task panel to the **Length** input box   * **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
 ## Properties
@@ -115,7 +115,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 ## 脚本
 
 
-**参见:**
+**参见   ***
 
 [Draft API](Draft_API.md) 与 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)。
 

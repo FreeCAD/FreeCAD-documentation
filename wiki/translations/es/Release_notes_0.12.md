@@ -1,7 +1,7 @@
 # Release notes 0.12/es
-Este es un resumen de los cambios más interesantes en FreeCAD desde la anterior versión. Mira [aquí](http://www.freecadweb.org/tracker/changelog_page.php) para ver la lista completa de cambios.
+Este es un resumen de los cambios más interesantes en FreeCAD desde la anterior versión. Mira [aquí](http   *//www.freecadweb.org/tracker/changelog_page.php) para ver la lista completa de cambios.
 
-Versiones anteriores: [0.11](Release_notes_0.11/es.md)
+Versiones anteriores   * [0.11](Release_notes_0.11/es.md)
 
 ### Bienvenida!
 
@@ -11,7 +11,7 @@ Versiones anteriores: [0.11](Release_notes_0.11/es.md)
 
 ### Croquizador & Diseño de Piezas 
 
-<img alt="" src=images/Rim_bling.png  style="width:800px;">
+<img alt="" src=images/Rim_bling.png  style="width   *800px;">
 
 -   El [Croquizador](Sketcher_Workbench/es.md) ha recibido una importante cantidad de trabajo desde la versión anterior, y ahora está basado en un nuevo solucionador diseñado desde cero para la tarea. El Croquizador ahora es capaz de realizar casi todas las operaciones 2D del módulo de [Boceto](Draft_Workbench/es.md), y situar un amplio rango de restricciones en los elementos del croquis.
 
@@ -23,9 +23,9 @@ Versiones anteriores: [0.11](Release_notes_0.11/es.md)
 
 ![](images/Arch_screenshot.jpg )
 
--   El módulo de arquitectura también dispone de un importador de [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes), un importador y exportador de [DAE (collada)](http://en.wikipedia.org/wiki/Collada), y un exportador especial de [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) más ajustado a los modelos arquitectónicos que el estándar.
+-   El módulo de arquitectura también dispone de un importador de [IFC](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes), un importador y exportador de [DAE (collada)](http   *//en.wikipedia.org/wiki/Collada), y un exportador especial de [OBJ](http   *//en.wikipedia.org/wiki/Wavefront_.obj_file) más ajustado a los modelos arquitectónicos que el estándar.
 
--   Incluido en el módulo de arquitectura está también una creciente colección de herramientas para facilitar el proceso de trabajo con objetos de malla a partir de otras aplicaciones como [Blender](http://www.blender.org). Los objetos de malla, si están bien modelados, pueden convertirse en formas simples de forma fácil y automática, y luego en objetos paramétricos del módulo de arquitectura.
+-   Incluido en el módulo de arquitectura está también una creciente colección de herramientas para facilitar el proceso de trabajo con objetos de malla a partir de otras aplicaciones como [Blender](http   *//www.blender.org). Los objetos de malla, si están bien modelados, pueden convertirse en formas simples de forma fácil y automática, y luego en objetos paramétricos del módulo de arquitectura.
 
 ### Boceto 2D 
 
@@ -45,6 +45,8 @@ Versiones anteriores: [0.11](Release_notes_0.11/es.md)
 
 
 {{languages/es | {{en|Release_notes_0.12}} {{fr|Release_notes_0.12/fr}} {{it|Release_notes_0.12/it}} {{pl|Release_notes_0.12/pl}} {{ru|Release_notes_0.12/ru}} }}
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

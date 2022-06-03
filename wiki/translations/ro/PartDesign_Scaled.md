@@ -1,6 +1,6 @@
 # PartDesign Scaled/ro
 ---
-- GuiCommand:   Name:PartDesign Scaled   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → MultiTransform---
+- GuiCommand   *   Name   *PartDesign Scaled   Workbenches   *[[PartDesign Workbench   PartDesign]], Complete|MenuLocation   *PartDesign → MultiTransform---
 
 
 </div>
@@ -30,7 +30,7 @@ De la FreeCAD 0.15, această funcție nu este valabilă direct, dar este inclus�
 ## Opțiuni
 
 +++
-| ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options:                                             |
+| ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options   *                                             |
 |                                                    |                                                                                                                                              |
 |                                                    | ### Select originals                                                                                                      |
 |                                                    |                                                                                                                                              |

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Part RefineShape
-   Name/fr:Part Affiner la forme
-   MenuLocation:Part → Créer une copie → Affiner la forme
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Copie d'un élément](Part_ElementCopy/fr.md), [OpenSCAD Affinage de la forme](OpenSCAD_RefineShapeFeature/fr.md)
+- GuiCommand   */fr
+   Name   *Part RefineShape
+   Name/fr   *Part Affiner la forme
+   MenuLocation   *Part → Créer une copie → Affiner la forme
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   SeeAlso   *[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Copie d'un élément](Part_ElementCopy/fr.md), [OpenSCAD Affinage de la forme](OpenSCAD_RefineShapeFeature/fr.md)
 ---
 
 # Part RefineShape/fr
@@ -29,9 +29,9 @@ Après certaines opérations booléennes, comme [Part Union](Part_Fuse/fr.md), c
 
 Depuis la {{VersionPlus/fr|0.19}}, le résultat est par défaut une copie paramétrique (liée).
 
-Ce comportement peut être modifié dans l\'<img alt="" src=images/Std_DlgParameter.svg  style="width:24px;"> [Editeur des paramètres](Std_DlgParameter/fr.md)
+Ce comportement peut être modifié dans l\'<img alt="" src=images/Std_DlgParameter.svg  style="width   *24px;"> [Editeur des paramètres](Std_DlgParameter/fr.md)
 
-1.  Accédez au sous-groupe: `BaseApp/Preferences/Mod/Part`
+1.  Accédez au sous-groupe   * `BaseApp/Preferences/Mod/Part`
 2.  Remplacez `ParametricRefine` de type `Boolean` par `False` pour obtenir l\'ancien comportement (copie indépendante).
 
 Voir les autres paramètres dans [Réglage fin](Fine-tuning/fr.md).
@@ -46,11 +46,11 @@ Voir les autres paramètres dans [Réglage fin](Fine-tuning/fr.md).
 ## Limitations
 
 -   L\'algorithme de raffinement ne fonctionne que sur des coques (shells). Il itére donc sur les coques de la forme d\'entrée et crée ensuite pour chaque coque une nouvelle coque avec des faces jointes lorsque cela est possible. Cela signifie que si votre forme d\'entrée n\'est qu\'une face, un fil, un bord ou un sommet, l\'algorithme ne fait rien.
--   Par opposition à la commande <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD Affinage de la forme](OpenSCAD_RefineShapeFeature/fr.md), <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part Affiner la forme](Part_RefineShape/fr.md) ne sera pas mise à jour lorsque les formes précédentes seront modifiées.
+-   Par opposition à la commande <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *24px;"> [OpenSCAD Affinage de la forme](OpenSCAD_RefineShapeFeature/fr.md), <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Part Affiner la forme](Part_RefineShape/fr.md) ne sera pas mise à jour lorsque les formes précédentes seront modifiées.
 
 ## Script
 
-La commande Python pour affiner une forme est la suivante:
+La commande Python pour affiner une forme est la suivante   *
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Draft Drawing
-   Name/ru:Draft Drawing
-   MenuLocation:Черчение -> Рисунок
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[TechDraw DraftView](TechDraw_DraftView.md)
+- GuiCommand   */ru
+   Name   *Draft Drawing
+   Name/ru   *Draft Drawing
+   MenuLocation   *Черчение -> Рисунок
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso   *[TechDraw DraftView](TechDraw_DraftView.md)
 ---
 
 # Draft Drawing/ru
@@ -26,7 +26,7 @@ This command is similar to the [Drawing View](Drawing_View.md) command but is op
 
 This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md) and the [TechDraw DraftView](TechDraw_DraftView.md) command instead.
 
-<img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Draft_drawing_example.jpg  style="width   *640px;"> 
 *On the left the selected Draft objects. On the right the created drawing views.*
 
 

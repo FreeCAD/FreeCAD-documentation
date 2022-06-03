@@ -1,6 +1,6 @@
 # Part Common/es
 ---
-- GuiCommand:/es   Name:Part_Common   Name/es:Part_Common   MenuLocation:Part → Common   Workbenches:[Completo](Part_Workbench/es___Pieza]],[[Complete_Workbench/es.md)|SeeAlso:[Part Union](Part_Union/es.md), [Part Cut](Part_Cut/es.md)---
+- GuiCommand   */es   Name   *Part_Common   Name/es   *Part_Common   MenuLocation   *Part → Common   Workbenches   *[Completo](Part_Workbench/es___Pieza]],[[Complete_Workbench/es.md)|SeeAlso   *[Part Union](Part_Union/es.md), [Part Cut](Part_Cut/es.md)---
 
 
 </div>
@@ -16,7 +16,7 @@ Extrae la parte común (intersección) entre los objetos piezas seleccionados. E
 
 ## Supported inputs 
 
-Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
+Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples   * stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
 
 

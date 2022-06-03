@@ -1,6 +1,6 @@
 # Std DlgCustomize/ro
 ---
-- GuiCommand:   Name:Std DlgCustomize   MenuLocation:[Workbenches:All   Shortcut:   SeeAlso:[[Interface_Customization|Interface Customization](Std_Tools_Menu___Tools]]_→_Customize....md)---
+- GuiCommand   *   Name   *Std DlgCustomize   MenuLocation   *[Workbenches   *All   Shortcut   *   SeeAlso   *[[Interface_Customization|Interface Customization](Std_Tools_Menu___Tools]]_→_Customize....md)---
 
 
 </div>

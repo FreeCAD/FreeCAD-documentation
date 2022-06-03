@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:PartDesign_PolarPattern
-   Name/fr:PartDesign Répétition circulaire
-   MenuLocation:Part Design → Appliquer un modèle → Répétition circulaire
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *PartDesign_PolarPattern
+   Name/fr   *PartDesign Répétition circulaire
+   MenuLocation   *Part Design → Appliquer un modèle → Répétition circulaire
+   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
 # PartDesign PolarPattern/fr
@@ -14,7 +14,7 @@ L\'outil **Répétition circulaire** prend une fonction choisie et crée un ense
 
 ![](images/PartDesign_PolarPattern_example.png )
 
-\'\'Ci-dessus : une cavité de forme oblongue (B) faite sur un solide de base (A, aussi dénommée \"support\") est utilisée pour une répétition circulaire. Le résultat (C) est affiché à droite.
+\'\'Ci-dessus    * une cavité de forme oblongue (B) faite sur un solide de base (A, aussi dénommée \"support\") est utilisée pour une répétition circulaire. Le résultat (C) est affiché à droite.
 
 ## Utilisation
 
@@ -43,7 +43,7 @@ Vous pouvez changer l\'ordre en faisant glisser l\'élément dans la liste et vo
 
 ###### v0.18
 
-1.  Appuyez sur **Ajouter une fonction** pour ajouter une fonction à modeler. La fonction doit être visible dans la [vue 3D](3D_view/fr.md) :
+1.  Appuyez sur **Ajouter une fonction** pour ajouter une fonction à modeler. La fonction doit être visible dans la [vue 3D](3D_view/fr.md)    *
 2.  Basculez vers l\'arborescence du modèle ;
 3.  Sélectionnez dans l\'arborescence la fonction à ajouter et appuyez sur **Barre d'espace** pour la rendre visible dans la [vue 3D](3D_view/fr.md) ;
 4.  Revenez au panneau Tâches ;
@@ -65,7 +65,7 @@ ou
 
 ###### v0.18 
 
-1.  Appuyez sur **Supprimer une fonction** pour ajouter une fonction à modeler. La fonction doit être visible dans la [vue 3D](3D_view/fr.md) :
+1.  Appuyez sur **Supprimer une fonction** pour ajouter une fonction à modeler. La fonction doit être visible dans la [vue 3D](3D_view/fr.md)    *
 2.  Basculez vers l\'arborescence du modèle ;
 3.  Sélectionnez dans l\'arborescence la fonction à supprimer et appuyez sur **Barre d'espace** pour la rendre visible dans la [vue 3D](3D_view/fr.md) ;
 4.  Revenez au panneau Tâches ;
@@ -117,7 +117,7 @@ Vous permet de sélectionner une ligne de référence, l\'arête d\'un objet ou 
 
 ### Angle et occurrences 
 
-Spécifie l\'angle qui sera couvert par la répétition circulaire, ainsi que le nombre total de répétitions (y compris la forme d\'origine). Par exemple, quatre occurrences dans un angle de 180 degrés donnera un espacement de 60 degrés entre les répétitions. Il existe une exception : si l\'angle est de 360 degrés, puisque la première et la dernière occurrence sont identiques, quatre occurrences seront espacées de 90 degrés.
+Spécifie l\'angle qui sera couvert par la répétition circulaire, ainsi que le nombre total de répétitions (y compris la forme d\'origine). Par exemple, quatre occurrences dans un angle de 180 degrés donnera un espacement de 60 degrés entre les répétitions. Il existe une exception    * si l\'angle est de 360 degrés, puisque la première et la dernière occurrence sont identiques, quatre occurrences seront espacées de 90 degrés.
 
 ## Limitations
 

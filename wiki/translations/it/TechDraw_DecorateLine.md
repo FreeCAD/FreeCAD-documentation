@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw DecorateLine
-   Name/it:Cambia l'aspetto delle linee
-   MenuLocation:TechDraw → Cambia l'aspetto delle linee
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Linea centro faccia](TechDraw_FaceCenterLine/it.md), [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *TechDraw DecorateLine
+   Name/it   *Cambia l'aspetto delle linee
+   MenuLocation   *TechDraw → Cambia l'aspetto delle linee
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Linea centro faccia](TechDraw_FaceCenterLine/it.md), [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)
+   Version   *0.19
 ---
 
 # TechDraw DecorateLine/it
@@ -17,13 +17,13 @@
 
 Lo strumento Decora linea modifica l\'aspetto dei bordi.
 
-<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
+<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 
 
 
 *Bordi prima della decorazione*
 
-<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
+<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width   *180px;">
 
 
 
@@ -46,7 +46,7 @@ Lo strumento Decora linea non ha proprietà, in quanto non è un Document Object
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

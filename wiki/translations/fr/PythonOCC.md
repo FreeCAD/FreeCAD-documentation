@@ -17,13 +17,13 @@ PythonOCC doit être compilé à partir des sources. Pour cela, vous devez obten
 
 Avec OCCT 7.4, PythonOCC nécessite des dépendances assez récentes comme Python 3.7, CMake 3.12 et SWIG 3.0.11. Python 2 n\'est plus pris en charge.
 
-Il est également possible d\'installer des bibliothèques PythonOCC pré-compilées en utilisant [Conda](Conda/fr.md). Pour plus d\'informations et des instructions de compilation, consultez le dépôt du projet principal, [tpaviot/pythonocc-core](https://github.com/tpaviot/pythonocc-core).
+Il est également possible d\'installer des bibliothèques PythonOCC pré-compilées en utilisant [Conda](Conda/fr.md). Pour plus d\'informations et des instructions de compilation, consultez le dépôt du projet principal, [tpaviot/pythonocc-core](https   *//github.com/tpaviot/pythonocc-core).
 
 ## Compilation
 
-Vous pouvez également compiler vous-même pythonOCC (voir [instructions](https://github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md)). Voici la procédure à suivre pour Debian/Ubuntu en utilisant les paquets opencascade fournis par la distribution :
+Vous pouvez également compiler vous-même pythonOCC (voir [instructions](https   *//github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md)). Voici la procédure à suivre pour Debian/Ubuntu en utilisant les paquets opencascade fournis par la distribution    *
 
-    git clone git://github.com/tpaviot/pythonocc-core.git pythonocc
+    git clone git   *//github.com/tpaviot/pythonocc-core.git pythonocc
     cd pythonocc
     mkdir build
     cd build
@@ -32,10 +32,15 @@ Vous pouvez également compiler vous-même pythonOCC (voir [instructions](https:
 
 ## Plus d\'informations 
 
--   Page du projet: [pythonocc.org](http://www.pythonocc.org/)
--   Nouvelle version compatible avec OCCT 7.4, [tpaviot/pythonocc-core](https://github.com/tpaviot/pythonocc-core).
--   Ancienne version compatible avec OCE 0.18, l\'édition communautaire d\'OCCT 6.9.x, [tpaviot/pythonocc](https://github.com/tpaviot/pythonocc).
--   [IfcPlusPlus compilé sur Gentoo - questions et alternatives?](https://forum.freecadweb.org/viewtopic.php?f=39&t=33254)
+-   Page du projet   * [pythonocc.org](http   *//www.pythonocc.org/)
+-   Nouvelle version compatible avec OCCT 7.4, [tpaviot/pythonocc-core](https   *//github.com/tpaviot/pythonocc-core).
+-   Ancienne version compatible avec OCE 0.18, l\'édition communautaire d\'OCCT 6.9.x, [tpaviot/pythonocc](https   *//github.com/tpaviot/pythonocc).
+-   [IfcPlusPlus compilé sur Gentoo - questions et alternatives?](https   *//forum.freecadweb.org/viewtopic.php?f=39&t=33254)
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

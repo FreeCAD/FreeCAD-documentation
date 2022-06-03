@@ -1,16 +1,16 @@
-# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench
+# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width   *64px;"> Image Workbench
 
  
 
 ## Introduction
 
-The <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Image Workbench](Image_Workbench.md) manages different types of [bitmap](bitmap.md) images, and allows you to open them in FreeCAD.
+The <img alt="" src=images/Workbench_Image.svg  style="width   *24px;"> [Image Workbench](Image_Workbench.md) manages different types of [bitmap](bitmap.md) images, and allows you to open them in FreeCAD.
 
 ## Tools
 
--   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Open\...](Image_Open.md): open an image on a new viewport.
--   <img alt="" src=images/Image_CreateImagePlane.svg  style="width:32px;"> [Create image plane\...](Image_CreateImagePlane.md): import an image to a plane in the 3D view.
--   <img alt="" src=images/Image_Scaling.svg  style="width:32px;"> [Scale image plane](Image_Scaling.md): scale an image imported to a plane.
+-   <img alt="" src=images/Image_Open.svg  style="width   *32px;"> [Open\...](Image_Open.md)   * open an image on a new viewport.
+-   <img alt="" src=images/Image_CreateImagePlane.svg  style="width   *32px;"> [Create image plane\...](Image_CreateImagePlane.md)   * import an image to a plane in the 3D view.
+-   <img alt="" src=images/Image_Scaling.svg  style="width   *32px;"> [Scale image plane](Image_Scaling.md)   * scale an image imported to a plane.
 
 ## Features
 
@@ -29,7 +29,9 @@ The offset of the image can be set during import, or changed later through its p
 
 
 
- {{Image Tools navi}}
+ {{Image Tools navi}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

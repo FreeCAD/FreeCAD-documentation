@@ -26,7 +26,7 @@ Om det finns åtminstone ett dokument öppet i FreeCAD, så finns det alltid ett
 
 <div class="mw-translate-fuzzy">
 
-Liksom nästan allt annat i FreeCAD, så är användargränssnittsdelen separerad från basapplikationsdelen. Detta gäller även för dokument. Dokumenten utgörs också av två delar: Applikationsdokumentet, vilket innehåller våra objekt, och Vydokumentet, vilket innehåller skärmrepresentationen av våra objekt.
+Liksom nästan allt annat i FreeCAD, så är användargränssnittsdelen separerad från basapplikationsdelen. Detta gäller även för dokument. Dokumenten utgörs också av två delar   * Applikationsdokumentet, vilket innehåller våra objekt, och Vydokumentet, vilket innehåller skärmrepresentationen av våra objekt.
 
 
 </div>
@@ -46,7 +46,7 @@ En annan sak som lagras i Vydokumentet är 3D vyer. Ett dokument kan ha flera vy
 
 <div class="mw-translate-fuzzy">
 
-Dokument kan lätt skapas, kommas åt och ändras från tolken. Till exempel:
+Dokument kan lätt skapas, kommas åt och ändras från tolken. Till exempel   *
 
 
 </div>

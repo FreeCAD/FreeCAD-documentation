@@ -1,19 +1,19 @@
 # Part Section/it
 ---
-- GuiCommand:/it   Name:Part_Section   Name/it:Seziona   MenuLocation:Parte → Seziona   Workbenches:[SeeAlso:[[Part_SectionCross/it|Sezioni](Part_Workbench/it___Parte]].md)---
+- GuiCommand   */it   Name   *Part_Section   Name/it   *Seziona   MenuLocation   *Parte → Seziona   Workbenches   *[SeeAlso   *[[Part_SectionCross/it|Sezioni](Part_Workbench/it___Parte]].md)---
 
 
 </div>
 
 ## Descrizione
 
-Crea una sezione attraverso l\'intersezione di due oggetti selezionati, l\'ultimo oggetto viene utilizzato come piano di sezione. Questa operazione è completamente parametrica: si possono modificare i componenti e il risultato viene ricalcolato.
+Crea una sezione attraverso l\'intersezione di due oggetti selezionati, l\'ultimo oggetto viene utilizzato come piano di sezione. Questa operazione è completamente parametrica   * si possono modificare i componenti e il risultato viene ricalcolato.
 
-In questo esempio un cubo viene sezionato con un cilindro:
+In questo esempio un cubo viene sezionato con un cilindro   *
 
 +++
-| ![](images/PartSection1_it.png ) | -   **Base**: oggetto base, il Box                 |
-|                                                | -   **Tool**: lo strumento di sezione, il Cilindro |
+| ![](images/PartSection1_it.png ) | -   **Base**   * oggetto base, il Box                 |
+|                                                | -   **Tool**   * lo strumento di sezione, il Cilindro |
 +++
 
 

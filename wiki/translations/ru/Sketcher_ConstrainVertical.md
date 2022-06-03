@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Ограничение вертикальности
-   Name:Sketcher_ConstrainVertical
-   MenuLocation:Sketch → Ограничения эскиза → Ограничение вертикальности
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**V**
-   SeeAlso:[Ограничить горизонтально](Sketcher_ConstrainHorizontal/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Ограничение вертикальности
+   Name   *Sketcher_ConstrainVertical
+   MenuLocation   *Sketch → Ограничения эскиза → Ограничение вертикальности
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut   ***V**
+   SeeAlso   *[Ограничить горизонтально](Sketcher_ConstrainHorizontal/ru.md)
 ---
 
 # Sketcher ConstrainVertical/ru
@@ -20,8 +20,8 @@
 <div class="mw-translate-fuzzy">
 
 1.  Выделите линии или вершины, которые надо ограничить вертикальностью
-2.  Для вызова команды вертикального ограничения:
-    -   Нажмите иконку **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md)**.
+2.  Для вызова команды вертикального ограничения   *
+    -   Нажмите иконку **[<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> [Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md)**.
     -   Используйте клавиатурное сокращение **V**
     -   Используйте в ниспадающем меню Sketch пункт **Sketch → Ограничения эскиза → Ограничение вертикальности**
 3.  Или инструмент может быть запущен без предварительного выделения и будет ожидать выделения; но выделяемыми станут только линии.

@@ -1,43 +1,44 @@
 ---
-- GuiCommand:
-   Name:Std OrthographicCamera
-   MenuLocation:View → Orthographic view
-   Workbenches:All
-   Shortcut:**V** **O**
-   SeeAlso:[Std PerspectiveCamera](Std_PerspectiveCamera.md)
+- GuiCommand   */pl
+   Name   *Std OrthographicCamera
+   Name/pl   *Std   * Widok ortogonalny
+   MenuLocation   *Widok → Widok ortogonalny
+   Workbenches   *wszystkie
+   Shortcut   ***V** → **O**
+   SeeAlso   *[Widok perspektywy](Std_PerspectiveCamera/pl.md)
 ---
 
 # Std OrthographicCamera/pl
 
-## Description
+## Opis
 
-The **Std OrthographicCamera** command switches the camera in the active [3D view](3D_view.md) to orthographic view mode. In this mode, objects that are further from the camera do not appear smaller than those that are closer.
+Polecenie **Widok ortogonalny** przełącza ujęcie widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) w tryb widoku ortogonalnego. W tym trybie obiekty znajdujące się dalej od kamery nie wydają się mniejsze od tych, które znajdują się bliżej.
 
 ![](images/Std_OrthographicCamera_example.svg ) 
-*Two cubes with the same dimensions in orthographic view*
+*Dwa sześciany o tych samych wymiarach w widoku ortogonalnym*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select the **View → <img src="images/Std_OrthographicCamera.svg" width=16px> Orthographic view** option from the menu.
-    -   Use the keyboard shortcut: **V** then **O**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz z menu opcję **Widok → <img src="images/Std_OrthographicCamera.svg" width=16px> Widok ortogonalny**.
+    -   Użyj skrótu klawiaturowego   * **V** kolejnie **O**.
 
-## Notes
+## Uwagi
 
--   It is also possible to switch to orthographic view mode via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
+-   Można również przełączyć się do trybu widoku ortogonalnego za pomocą menu Mini-sześcianu [kostki nawigacyjnej](Navigation_Cube/pl.md).
 
-## Preferences
+## Ustawienia
 
--   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Typ ujęcia widoku można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Typ projekcji**. Wybrany typ będzie używany dla wszystkich widoków 3D wszystkich otwartych dokumentów, a także dla nowych dokumentów. Zobacz dodatkowe informacje o [konfiguracji](Preferences_Editor/pl#Widok_3D.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the view to orthographic use the `setCameraType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na ortognalny, należy użyć metody `setCameraType` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

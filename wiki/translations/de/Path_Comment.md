@@ -1,6 +1,6 @@
 # Path Comment/de
 ---
-- GuiCommand:/de   Name:Path Comment   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Partial Commands → Comment   Shortcut:P,C   SeeAlso:---
+- GuiCommand   */de   Name   *Path Comment   Workbenches   *[[Path Workbench   Path]]|MenuLocation   *Path → Partial Commands → Comment   Shortcut   *P,C   SeeAlso   *---
 
 
 </div>
@@ -16,16 +16,16 @@ This tool inserts a comment. When exporting a project to G-code, the comments wi
 
 ## Properties
 
--    **Comment**: The text of your comment
+-    **Comment**   * The text of your comment
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

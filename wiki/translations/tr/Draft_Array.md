@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Array
-   Name/tr:Dizi
-   MenuLocation:Taslak → Dizi
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   SeeAlso:[Yol dizisi](Draft_PathArray/tr.md),[Nokta dizisi](Draft_PointArray/tr.md),[Klonla](Draft_Clone/tr.md)
+- GuiCommand   */tr
+   Name   *Draft Array
+   Name/tr   *Dizi
+   MenuLocation   *Taslak → Dizi
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   SeeAlso   *[Yol dizisi](Draft_PathArray/tr.md),[Nokta dizisi](Draft_PointArray/tr.md),[Klonla](Draft_Clone/tr.md)
 ---
 
 # Draft Array/tr
@@ -22,7 +22,7 @@ Dizi aracı, seçilen bir nesneden ortogonal (3 eksen) veya bir kutupsal dizi ol
 
 </div>
 
-The <img alt="" src=images/Draft_Array.svg  style="width:24px;"> **Draft Array** command creates an orthogonal (3-axes) array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property.
+The <img alt="" src=images/Draft_Array.svg  style="width   *24px;"> **Draft Array** command creates an orthogonal (3-axes) array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property.
 
 
 <div class="mw-translate-fuzzy">
@@ -58,11 +58,11 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 ## Özellikler
 
--    {{PropertyData | Base}}: Dizide çoğaltılacak nesneyi belirtir.
+-    {{PropertyData | Base}}   * Dizide çoğaltılacak nesneyi belirtir.
 
--    {{PropertyData | Array Type}}: \"ortho\" veya \"polar\" olmak üzere yaratılacak dizinin türünü belirtir.
+-    {{PropertyData | Array Type}}   * \"ortho\" veya \"polar\" olmak üzere yaratılacak dizinin türünü belirtir.
 
--    {{PropertyData | Fuse}}: `True` ise ve kopyalar birbiriyle kesişirse, bunlar birlikte tek bir şekilde kaynaşırlar.
+-    {{PropertyData | Fuse}}   * `True` ise ve kopyalar birbiriyle kesişirse, bunlar birlikte tek bir şekilde kaynaşırlar.
 
 
 </div>
@@ -75,7 +75,7 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 

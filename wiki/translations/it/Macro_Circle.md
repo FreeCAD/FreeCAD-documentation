@@ -8,7 +8,7 @@
 |Version=0.4
 |Date=2019-06-19
 |FCVersion=Tutte
-|Download=[https://www.freecadweb.org/wiki/images/9/9d/Macro_Circle.png Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/9/9d/Macro_Circle.png Icon]
 |SeeAlso=[Macro CirclePlus](Macro_CirclePlus.md) <img src="images/Macro_CirclePlus.png" width=24px>
 }}
 
@@ -24,27 +24,27 @@ Il cerchio viene posto frontale allo schermo, con getCameraOrientation, oppure s
 
 ## Uso
 
-Copiare il codice e incollarlo nella console Python di FreeCAD, la funzione sarà disponibile per tutta la sessione (è anche possibile utilizzare questo codice in una macro). Assegnare a scelta i parametri:
+Copiare il codice e incollarlo nella console Python di FreeCAD, la funzione sarà disponibile per tutta la sessione (è anche possibile utilizzare questo codice in una macro). Assegnare a scelta i parametri   *
 
 
 </div>
 
--   **x y z** : coordinate del cerchio, se non sono attribuite, il cerchio viene creato alle coordinate 0,0,0
--   **radius** : raggio del cerchio
--   **diameter** : diametro del cerchio
--   **circumference** : circonferenza del cerchio
--   **area** : area del cerchio
--   **startangle** : angolo iniziale di un arco
--   **endangle** : angolo finale di un arco
--   **arc** e **anglecenter** : arco in combinazione con anglecenter
+-   **x y z**    * coordinate del cerchio, se non sono attribuite, il cerchio viene creato alle coordinate 0,0,0
+-   **radius**    * raggio del cerchio
+-   **diameter**    * diametro del cerchio
+-   **circumference**    * circonferenza del cerchio
+-   **area**    * area del cerchio
+-   **startangle**    * angolo iniziale di un arco
+-   **endangle**    * angolo finale di un arco
+-   **arc** e **anglecenter**    * arco in combinazione con anglecenter
     -   **arc** = lunghezza di un arco
     -   **anglecenter** = angolo al centro di un arco, in gradi
--   **cord** e **arrow** : corda in combinazione con la freccia
-    -   **cord** : lunghezza della corda
-    -   **arrow** : lunghezza della freccia
--   **center** : se \"center\" è diverso da 0 viene creato un punto al centro del cerchio
+-   **cord** e **arrow**    * corda in combinazione con la freccia
+    -   **cord**    * lunghezza della corda
+    -   **arrow**    * lunghezza della freccia
+-   **center**    * se \"center\" è diverso da 0 viene creato un punto al centro del cerchio
 -   **placemObject**
-    -   esempio :
+    -   esempio    *
     -   pl=FreeCAD.Placement()
     -   pl.Rotation.Q=(0.0,-0.0,-0.0,1.0)
     -   pl.Base=FreeCAD.Vector(-1.89847898483,-0.490152746439,0.0)
@@ -59,10 +59,10 @@ ToolBar Icon ![](images/Macro_Circle.png )
 
 
 {{MacroCode|code=
-#-*- coding: utf-8 -*-
+#-*- coding   * utf-8 -*-
 #from math import sqrt, pi
-# creer un cercle ou un arc entierement parametrabel en utilisant :
-# create a circle or arc fully parametrabel using:
+# creer un cercle ou un arc entierement parametrabel en utilisant    *
+# create a circle or arc fully parametrabel using   *
 #
 # paste the complete macro in the Python console
 #
@@ -77,7 +77,7 @@ ToolBar Icon ![](images/Macro_Circle.png )
 #with [cord and arrow]           in combination
 #with center (if center as different 0 one point is created on center of circle)
 #give placemObject  
-# ex :pl=FreeCAD.Placement()
+# ex    *pl=FreeCAD.Placement()
 #     pl.Rotation.Q=(0.0,-0.0,-0.0,1.0)
 #     pl.Base=FreeCAD.Vector(-1.89847898483,-0.490152746439,0.0)
 #     placemObject = pl
@@ -93,42 +93,42 @@ import Draft #, Part
 import FreeCAD
 App = FreeCAD
 
-def circle(x=0.0,y=0.0,z=0.0,radius=0.0,diameter=0.0,circumference=0.0,area=0.0,startangle=0.0,endangle=0.0,arc=0.0,anglecenter=0.0,cord=0.0,arrow=0.0,center=0,placemObject=""):
+def circle(x=0.0,y=0.0,z=0.0,radius=0.0,diameter=0.0,circumference=0.0,area=0.0,startangle=0.0,endangle=0.0,arc=0.0,anglecenter=0.0,cord=0.0,arrow=0.0,center=0,placemObject="")   *
     from math import sqrt, pi
-    if placemObject == "":
+    if placemObject == ""   *
         pl = FreeCAD.Placement()
         pl.Rotation = FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()   
         pl.Base = FreeCAD.Vector(x,y,z)
-    else:
+    else   *
         pl = FreeCAD.Placement()
         pl = placemObject                                  # placement imposted
-    if diameter != 0:                                      # with diameter
+    if diameter != 0   *                                      # with diameter
         radius = diameter / 2.0
-    elif circumference != 0:                               # with circumference
+    elif circumference != 0   *                               # with circumference
         radius = (circumference / pi) / 2.0
-    elif area != 0:                                        # with area
+    elif area != 0   *                                        # with area
         radius =  sqrt((area / pi))
-    elif (cord != 0) and (arrow != 0):                     # with cord and arrow
+    elif (cord != 0) and (arrow != 0)   *                     # with cord and arrow
         radius = ((arrow**2) + (cord**2) / 4.0) / (arrow*2) 
-    elif (arc != 0) and (anglecenter != 0):                # with arc and anglecenter central in degrees
+    elif (arc != 0) and (anglecenter != 0)   *                # with arc and anglecenter central in degrees
         radius = ((360/anglecenter)*arc) / pi/2.0
-        if endangle != 0:
+        if endangle != 0   *
             startangle  = endangle - anglecenter
         endangle   = anglecenter + startangle
         startangle  = endangle - anglecenter
-    if radius != 0:
-        try:
+    if radius != 0   *
+        try   *
             Draft.makeCircle(radius,placement=pl,face=False,startangle=startangle,endangle=endangle,support=None)
-            if center != 0:
+            if center != 0   *
                 x=pl.Base.x
                 y=pl.Base.y
                 z=pl.Base.z
                 Draft.makePoint(x,y,z)
             
-        except Exception:
+        except Exception   *
             App.Console.PrintError("Unexpected keyword argument" + "\n")
         App.ActiveDocument.recompute()
-    else:
+    else   *
         App.Console.PrintMessage("Unexpected keyword argument" + "\n")
         App.Console.PrintMessage("circle(x,y,z,radius,diameter,circumference,area,startangle,endangle,[arc,anglecenter],[cord,arrow],center,placemObject)" + "\n")
         App.Console.PrintMessage("circle(radius=10.0,placemObject=App.Placement(App.Vector(11,20,30), App.Rotation(30,40,0), App.Vector(0,0,0)))" + "\n")
@@ -150,7 +150,7 @@ circle(x=15,diameter=20)    # example 2
 circle(y=45,circumference=100)    # example 3
 ```
 
-<img alt="examples 1, 2, 3" src=images/Macro_Circle_01.png  style="width:640px;"> 
+<img alt="examples 1, 2, 3" src=images/Macro_Circle_01.png  style="width   *640px;"> 
 
 
 ```python
@@ -160,18 +160,18 @@ circle(y=-15,x=45,cord=9,arrow=3,center=1)    # example 6 left
 circle(x=65,y=-15,arc=3.5,anglecenter=40,startangle=20,center=1)    # example 6 rigth
 ```
 
-<img alt="examples" src=images/Macro_Circle_02.png  style="width:640px;">
+<img alt="examples" src=images/Macro_Circle_02.png  style="width   *640px;">
 
 
 
 
 ## Versione
 
-ver 0.4 19/06/2019 : upgrade ver 0.19
+ver 0.4 19/06/2019    * upgrade ver 0.19
 
-ver 0.3 10/06/2018 : replace /2 to /2.0 (float)
+ver 0.3 10/06/2018    * replace /2 to /2.0 (float)
 
-ver 0.2 24/02/2015 : agiunto function \"**placemObject**\"
+ver 0.2 24/02/2015    * agiunto function \"**placemObject**\"
 
 
 

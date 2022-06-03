@@ -1,6 +1,6 @@
 # FEM FemMesh2Mesh/ro
 ---
-- GuiCommand:/ro   Name:FEM FemMesh2Mesh   Name/ro:FEM FemMesh2Mesh   MenuLocation:Mesh → FEM mesh to mesh   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand   */ro   Name   *FEM FemMesh2Mesh   Name/ro   *FEM FemMesh2Mesh   MenuLocation   *Mesh → FEM mesh to mesh   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>
@@ -36,7 +36,7 @@ Elementele bidimensionale din plasa FEM nu sunt luate în considerare. Dacă tre
 
 ## Script-Programare 
 
-Exemplu:
+Exemplu   *
 
 -   Încărcați exemplul 3D FEM al FreeCAD din Start Workbench și executați următorul cod
 
@@ -69,7 +69,7 @@ Selectați o plasă și rulați următorul script python
 ```python
 import Mesh
 
-def extend_by_triangle(i, j, k):
+def extend_by_triangle(i, j, k)   *
     triangle = [input_mesh.getNodeById(element_nodes[i]),
                 input_mesh.getNodeById(element_nodes[j]),
                 input_mesh.getNodeById(element_nodes[k])]
@@ -78,11 +78,11 @@ def extend_by_triangle(i, j, k):
 selection = FreeCADGui.Selection.getSelection()
 input_mesh = App.ActiveDocument.getObject(selection[0].Name).FemMesh
 output_mesh = []
-for element in input_mesh.Faces:
+for element in input_mesh.Faces   *
     element_nodes = input_mesh.getElementNodes(element)
-    if len(element_nodes) in [3, 6]:  # tria3 or tria6 (ignoring mid-nodes)
+    if len(element_nodes) in [3, 6]   *  # tria3 or tria6 (ignoring mid-nodes)
         extend_by_triangle(0, 1, 2)
-    elif len(element_nodes) in [4, 8]:  # quad4 or quad8 (ignoring mid-nodes)
+    elif len(element_nodes) in [4, 8]   *  # quad4 or quad8 (ignoring mid-nodes)
         extend_by_triangle(0, 1, 2)
         extend_by_triangle(2, 3, 0)
 

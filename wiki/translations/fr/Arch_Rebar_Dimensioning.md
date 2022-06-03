@@ -1,24 +1,24 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Rebar Dimensioning
-   Name/fr:Arch Dimensions des armatures
-   MenuLocation:Arch → Rebar → Rebar Dimensioning
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   SeeAlso:[Arch Dessin d'armatures](Arch_Rebar_Drawing/fr.md), [Addon Reinforcement](Reinforcement_Addon/fr.md)
-   Version:0.19
+- GuiCommand   */fr
+   Name   *Arch Rebar Dimensioning
+   Name/fr   *Arch Dimensions des armatures
+   MenuLocation   *Arch → Rebar → Rebar Dimensioning
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   SeeAlso   *[Arch Dessin d'armatures](Arch_Rebar_Drawing/fr.md), [Addon Reinforcement](Reinforcement_Addon/fr.md)
+   Version   *0.19
 ---
 
 # Arch Rebar Dimensioning/fr
 
-Remarque: le travail ci-dessous est présent dans la branche de développement de l\'atelier Reinforcement [ici](https://github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
+Remarque   * le travail ci-dessous est présent dans la branche de développement de l\'atelier Reinforcement [ici](https   *//github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
 
 ## Description
 
 L\'outil [Dimensionnement des armatures](Arch_Rebar_Dimensioning/fr.md) permet à l\'utilisateur de créer des cotations pour les armatures dans [Dessin d\'armatures](Arch_Rebar_Drawing/fr.md).
 
-Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:1000px;">
+<img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width   *1000px;">
 
 
 
@@ -34,11 +34,11 @@ from ReinforcementDrawing.make_reinforcement_drawing import (
     makeStructuresReinforcementDrawing,
 )
 
-for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
+for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
     struct_drawing_page_dict = makeStructuresReinforcementDrawing(
         view=view, perform_dimensioning=True
     )
-    for drawing_page in struct_drawing_page_dict.values():
+    for drawing_page in struct_drawing_page_dict.values()   *
         drawing_view = drawing_page.Views[0]
         drawing_view.setExpression(
             "LeftOffset",
@@ -59,74 +59,74 @@ Un objet de la vue SVG Dimensionnement des barres d\'armature.
 
 ### Propriétés
 
--    {{PropertyData/fr|ParentDrawingView}}: l\'objet ReinforcementDrawingView parent contenant le dessin de l\'objet [Rebar](Arch_Rebar/fr.md).
+-    {{PropertyData/fr|ParentDrawingView}}   * l\'objet ReinforcementDrawingView parent contenant le dessin de l\'objet [Rebar](Arch_Rebar/fr.md).
 
--    {{PropertyData/fr|Rebar}}: L\'objet [Rebar](Arch_Rebar/fr.md) pour effectuer le dimensionnement.
+-    {{PropertyData/fr|Rebar}}   * L\'objet [Rebar](Arch_Rebar/fr.md) pour effectuer le dimensionnement.
 
--    {{PropertyData/fr|WayPointsType}}: Le type de ligne de cote WayPoints. Il peut être \"Automatic\" (pour effectuer automatiquement le dimensionnement de l\'objet [Rebar](Arch_Rebar/fr.md)) ou \"Personnalisé\" pour utiliser {{PropertyData/fr|WayPoints}} pour effectuer le dimensionnement.
+-    {{PropertyData/fr|WayPointsType}}   * Le type de ligne de cote WayPoints. Il peut être \"Automatic\" (pour effectuer automatiquement le dimensionnement de l\'objet [Rebar](Arch_Rebar/fr.md)) ou \"Personnalisé\" pour utiliser {{PropertyData/fr|WayPoints}} pour effectuer le dimensionnement.
 
--    {{PropertyData/fr|WayPoints}}: Une liste de points vectoriels à utiliser pour générer une ligne de cote.
+-    {{PropertyData/fr|WayPoints}}   * Une liste de points vectoriels à utiliser pour générer une ligne de cote.
 
--    {{PropertyData/fr|TextPositionType}}: Le type de position du texte de cote. Il peut s\'agir de \"StartOfLine\", \"MidOfLine\" ou \"EndOfLine\".
+-    {{PropertyData/fr|TextPositionType}}   * Le type de position du texte de cote. Il peut s\'agir de \"StartOfLine\", \"MidOfLine\" ou \"EndOfLine\".
 
--    {{PropertyData/fr|DimensionFormat}}: Le format de l\'étiquette de dimension.
+-    {{PropertyData/fr|DimensionFormat}}   * Le format de l\'étiquette de dimension.
 
-   Exemple: "%M %C⌀%D,span=%S"
-   Here: %M -> Rebar.Mark
+   Exemple   * "%M %C⌀%D,span=%S"
+   Here   * %M -> Rebar.Mark
          %C -> Rebar.Amount
          %D -> Rebar.Diameter
          %S -> Rebar span length
 
--    {{PropertyData/fr|Font}}: la famille de polices de l\'étiquette de dimension.
+-    {{PropertyData/fr|Font}}   * la famille de polices de l\'étiquette de dimension.
 
--    {{PropertyData/fr|FontSize}}: la taille de la police de l\'étiquette de dimension.
+-    {{PropertyData/fr|FontSize}}   * la taille de la police de l\'étiquette de dimension.
 
--    {{PropertyData/fr|StrokeWidth}}: La largeur du trait de la ligne de cote.
+-    {{PropertyData/fr|StrokeWidth}}   * La largeur du trait de la ligne de cote.
 
--    {{PropertyData/fr|LineStyle}}: Le style de trait de la ligne de cote. Il peut s\'agir de \"Continuous\", \"Dash\", \"Dot\", \"DashDot\" ou \"DashDotDot\".
+-    {{PropertyData/fr|LineStyle}}   * Le style de trait de la ligne de cote. Il peut s\'agir de \"Continuous\", \"Dash\", \"Dot\", \"DashDot\" ou \"DashDotDot\".
 
--    {{PropertyData/fr|LineColor}}: La couleur de la ligne de cote.
+-    {{PropertyData/fr|LineColor}}   * La couleur de la ligne de cote.
 
--    {{PropertyData/fr|TextColor}}: La couleur de l\'étiquette de dimension.
+-    {{PropertyData/fr|TextColor}}   * La couleur de l\'étiquette de dimension.
 
--    {{PropertyData/fr|LineStartSymbol}}: Le symbole de début de la ligne de cote. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\".
+-    {{PropertyData/fr|LineStartSymbol}}   * Le symbole de début de la ligne de cote. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\".
 
--    {{PropertyData/fr|LineEndSymbol}}: Le symbole de fin de la ligne de cote. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\".
+-    {{PropertyData/fr|LineEndSymbol}}   * Le symbole de fin de la ligne de cote. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\".
 
--    {{PropertyData/fr|LineMidPointSymbol}}: Le symbole des points médians de la ligne de cote. Il peut s\'agir de \"Tick\", \"Dot\" ou \"None\".
+-    {{PropertyData/fr|LineMidPointSymbol}}   * Le symbole des points médians de la ligne de cote. Il peut s\'agir de \"Tick\", \"Dot\" ou \"None\".
 
--    {{PropertyData/fr|DimensionLeftOffset}}: Le décalage gauche pour la cotation automatisée des armatures.
+-    {{PropertyData/fr|DimensionLeftOffset}}   * Le décalage gauche pour la cotation automatisée des armatures.
 
--    {{PropertyData/fr|DimensionRightOffset}}: le bon décalage pour la cotation automatique des armatures.
+-    {{PropertyData/fr|DimensionRightOffset}}   * le bon décalage pour la cotation automatique des armatures.
 
--    {{PropertyData/fr|DimensionTopOffset}}: le décalage supérieur pour la cotation automatique des armatures.
+-    {{PropertyData/fr|DimensionTopOffset}}   * le décalage supérieur pour la cotation automatique des armatures.
 
--    {{PropertyData/fr|DimensionBottomOffset}}: Le décalage inférieur pour la cotation automatique des armatures.
+-    {{PropertyData/fr|DimensionBottomOffset}}   * Le décalage inférieur pour la cotation automatique des armatures.
 
--    {{PropertyData/fr|SingleRebar_LineStartSymbol}}: Le symbole de début de ligne de cote, dans le cas d\'une seule armature est visible. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
+-    {{PropertyData/fr|SingleRebar_LineStartSymbol}}   * Le symbole de début de ligne de cote, dans le cas d\'une seule armature est visible. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
 
--    {{PropertyData/fr|SingleRebar_LineEndSymbol}}: Le symbole de fin de ligne de cote, en cas d\'armature simple, est visible. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
+-    {{PropertyData/fr|SingleRebar_LineEndSymbol}}   * Le symbole de fin de ligne de cote, en cas d\'armature simple, est visible. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
 
--    {{PropertyData/fr|MultiRebar_LineStartSymbol}}: Le symbole de début de ligne de cote, si plusieurs armatures sont visibles. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
+-    {{PropertyData/fr|MultiRebar_LineStartSymbol}}   * Le symbole de début de ligne de cote, si plusieurs armatures sont visibles. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
 
--    {{PropertyData/fr|MultiRebar_LineEndSymbol}}: Le symbole de fin de ligne de cote, si plusieurs armatures sont visibles. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
+-    {{PropertyData/fr|MultiRebar_LineEndSymbol}}   * Le symbole de fin de ligne de cote, si plusieurs armatures sont visibles. Il peut s\'agir de \"FilledArrow\", \"Tick\", \"Dot\" ou \"None\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
 
--    {{PropertyData/fr|SingleRebar_OuterDimension}}: Indique si les lignes de cote doivent être en dehors du dessin d\'armature, dans le cas où une seule armature est visible. Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
+-    {{PropertyData/fr|SingleRebar_OuterDimension}}   * Indique si les lignes de cote doivent être en dehors du dessin d\'armature, dans le cas où une seule armature est visible. Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
 
--    {{PropertyData/fr|MultiRebar_OuterDimension}}: Indique si les lignes de cote doivent être en dehors du dessin d\'armature, dans le cas où plusieurs armatures sont visibles. Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
+-    {{PropertyData/fr|MultiRebar_OuterDimension}}   * Indique si les lignes de cote doivent être en dehors du dessin d\'armature, dans le cas où plusieurs armatures sont visibles. Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
 
--    {{PropertyData/fr|SingleRebar_TextPositionType}}: il spécifie le type de position de l\'étiquette de cote, dans le cas où une seule armature est visible. Il peut s\'agir de \"StartOfLine\", \"MidOfLine\" ou \"EndOfLine\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
+-    {{PropertyData/fr|SingleRebar_TextPositionType}}   * il spécifie le type de position de l\'étiquette de cote, dans le cas où une seule armature est visible. Il peut s\'agir de \"StartOfLine\", \"MidOfLine\" ou \"EndOfLine\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
 
--    {{PropertyData/fr|MultiRebar_TextPositionType}}: Il spécifie le type de position de l\'étiquette de dimension, dans le cas où plusieurs armatures sont visibles. Il peut s\'agir de \"StartOfLine\", \"MidOfLine\" ou \"EndOfLine\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
+-    {{PropertyData/fr|MultiRebar_TextPositionType}}   * Il spécifie le type de position de l\'étiquette de dimension, dans le cas où plusieurs armatures sont visibles. Il peut s\'agir de \"StartOfLine\", \"MidOfLine\" ou \"EndOfLine\". Il est utilisé uniquement lorsque {{PropertyData/fr|WayPointsType}} est défini sur \"Automatic\".
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md), [API des armatures](Reinforcement_API/fr.md), [Arch Dessin d\'armature](Arch_Rebar_Drawing/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil [Dimensionnement des armatures](Arch_Rebar_Dimensioning/fr.md) peut être utilisé dans [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil [Dimensionnement des armatures](Arch_Rebar_Dimensioning/fr.md) peut être utilisé dans [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 ### Créer un objet de dimension d\'armature 
 
@@ -167,12 +167,12 @@ dimension_object = makeReinforcementDimensioningObject(
 
 -    `parent_drawing_view`est l\'objet `ReinforcementDrawingView` contenant le dessin de l\'objet `rebar`.
 
--    `drawing_page`est l\'objet de type TechDraw::DrawPage utilisé pour afficher `parent_drawing_view`.
+-    `drawing_page`est l\'objet de type TechDraw   *   *DrawPage utilisé pour afficher `parent_drawing_view`.
 
 -    `dimension_label_format`est le format utilisé pour l\'étiquette de dimension.
 
-   Exemple: "%M %C⌀%D,span=%S"
-   Ici: %M -> Rebar.Mark
+   Exemple   * "%M %C⌀%D,span=%S"
+   Ici   * %M -> Rebar.Mark
          %C -> Rebar.Amount
          %D -> Rebar.Diameter
          %S -> Rebar span length
@@ -187,7 +187,7 @@ dimension_object = makeReinforcementDimensioningObject(
 
 -    `dimension_line_color`est la couleur de la ligne de cote.
 
-   Format: (r, g, b)
+   Format   * (r, g, b)
    La valeur r, g, b doit être comprise entre 0 et 1, vous devrez peut-être diviser la valeur de r, g, b par 255 pour obtenir sa valeur entre 0 et 1
    Assurez-vous que r, g, b doivent être flottants
 
@@ -321,7 +321,7 @@ makeReinforcementDimensioningObject(
 )
 
 # Créer le dimensionnement des armatures pour toutes les armatures visibles sur la vue de dessin
-for visible_rebar in visible_rebars:
+for visible_rebar in visible_rebars   *
     makeReinforcementDimensioningObject(
         visible_rebar,
         parent_drawing_view,
@@ -348,6 +348,14 @@ for visible_rebar in visible_rebars:
         dimension_multi_rebar_text_position_type="MidOfLine",
     )
 ```
+
+
+
+
+
+
+
+[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

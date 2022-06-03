@@ -1,27 +1,29 @@
 ---
-- GuiCommand:
-   Name:Std ViewCreate
-   MenuLocation:View → Create new view
-   Workbenches:All
-   SeeAlso:[Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen.md), [Std ViewFullscreen](Std_ViewFullscreen.md)
+- GuiCommand   */pl
+   Name   *Std ViewCreate
+   Name/pl   *Std   * Utwórz widok
+   MenuLocation   *Widok → Utwórz nowy widok
+   Workbenches   *wszystkie
+   SeeAlso   *[Zablokuj / Odblokuj widok](Std_ViewDockUndockFullscreen/pl.md), [Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md)
 ---
 
 # Std ViewCreate/pl
 
-## Description
+## Opis
 
-The **Std ViewCreate** command creates a new [3D view](3D_view.md) for the active document. Additional 3D views can be useful if you want to inspect the model from multiple directions or at different zoom levels.
+Polecenie **Utwórz nowy widok** tworzy nowy [widok przestrzenny](3D_view/pl.md) dla aktywnego dokumentu. Dodatkowe widoki 3D mogą być przydatne, jeśli chcesz oglądać model z wielu kierunków lub na różnych poziomach powiększenia.
 
 ![](images/ViewCreate1.png ) 
-*The FreeCAD interface with multiple 3D views*
+*Interfejs FreeCAD z wieloma widokami 3D.*
 
-## Usage
+## Użycie
 
-1.  Select the **View → <img src="images/Std_ViewCreate.svg" width=16px> Create new view** option from the menu.
+1.  Wybierz opcję z menu **Widok → <img src="images/Std_ViewCreate.svg" width=16px> Utwórz nowy widok
+**
 
-## Options
+## Opcje
 
--   Select the **Windows → Cascade** or **Windows → Tile** option from the menu to rearrange the 3D views.
+-   Wybierz z menu opcję **Okna → Kaskadowo** lub **Okna → Sąsiadująco**, aby zmienić układ widoków 3D.
 
 
 

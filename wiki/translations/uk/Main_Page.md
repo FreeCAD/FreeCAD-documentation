@@ -1,18 +1,18 @@
 # Main Page/uk
 ## Введення
 
-Це - wiki-збірник документації про [FreeCAD](http://www.freecadweb.org/?lang=uk). Існує два головних методи вивчення документації: шляхом вивчення куточків користувача та шляхом вивчення інструкції. Це поки що незакінчена робота, яка створюється товариством користувачів і розробників FreeCAD. Якщо ви знайшли невірну або відсутню інформацію - будь ласка, [зробіть FreeCAD кращє](Special:MyLanguage/help_FreeCAD/uk.md)!
+Це - wiki-збірник документації про [FreeCAD](http   *//www.freecadweb.org/?lang=uk). Існує два головних методи вивчення документації   * шляхом вивчення куточків користувача та шляхом вивчення інструкції. Це поки що незакінчена робота, яка створюється товариством користувачів і розробників FreeCAD. Якщо ви знайшли невірну або відсутню інформацію - будь ласка, [зробіть FreeCAD кращє](Special   *MyLanguage/help_FreeCAD/uk.md)!
 
 ## Куточки користувачів 
 
-<img alt="" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Куточок користувачів](User_hub/uk.md): Ця сторінка містить документацію, корисну для користувачів FreeCAD загалом: список усіх верстаків, детальні інструкції з встановлення та використання FreeCAD, навчальні посібники та все інше, необхідне для початку роботи. 
- <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Куточок досвідчених користувачів](Power_users_hub/uk.md): На цій сторінці знаходиться документація для досвідчених користувачів та людей, які зацікавлені у написанні скриптів на Python. Ви також знайдете там сховище макросів, інструкції з їх встановлення та використання, додаткову інформацію по налаштуванню FreeCAD для специфічних завдань. 
- <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Куточок розробників](Developer_hub/uk.md): У цьому розділі містяться матеріали для розробників: як самостійно скомпілювати FreeCAD, яку структуру має вихідний код програми та як у ньому орієнтуватися, як розробити нові верстаки та додати власний додаток у FreeCAD. 
+<img alt="" src=images/Crystal_Clear_app_display.png  style="width   *64px;"> [Куточок користувачів](User_hub/uk.md)   * Ця сторінка містить документацію, корисну для користувачів FreeCAD загалом   * список усіх верстаків, детальні інструкції з встановлення та використання FreeCAD, навчальні посібники та все інше, необхідне для початку роботи. 
+ <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width   *64px;"> [Куточок досвідчених користувачів](Power_users_hub/uk.md)   * На цій сторінці знаходиться документація для досвідчених користувачів та людей, які зацікавлені у написанні скриптів на Python. Ви також знайдете там сховище макросів, інструкції з їх встановлення та використання, додаткову інформацію по налаштуванню FreeCAD для специфічних завдань. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;"> [Куточок розробників](Developer_hub/uk.md)   * У цьому розділі містяться матеріали для розробників   * як самостійно скомпілювати FreeCAD, яку структуру має вихідний код програми та як у ньому орієнтуватися, як розробити нові верстаки та додати власний додаток у FreeCAD. 
 
 
 ## Посібник
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width   *64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https   *//www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https   *//www.freecadweb.org/manual/).
 
 
 
@@ -23,7 +23,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Посібник FreeCAD інший, більш лінійний спосіб представлення статей, що містяться в цій вікі. Він формує основу автономної документації яка постачається з програмою FreeCAD. Він вже доступний на декількох мовах:
+Посібник FreeCAD інший, більш лінійний спосіб представлення статей, що містяться в цій вікі. Він формує основу автономної документації яка постачається з програмою FreeCAD. Він вже доступний на декількох мовах   *
 
 
 </div>
@@ -51,14 +51,14 @@
 
 </div>
 
-The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
+The [help FreeCAD](Special   *MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
 ### Сирцевий код 
 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD може бути зібрано з використанням CMake. Посилання Git <https://github.com/FreeCAD/FreeCAD> також там є інструкції щоб зібрати для [ Windows](Compile_on_Windows.md), [ Unix / Linux](Compile_on_Linux.md) і [ MacOSX](Compile_on_MacOS.md).
+FreeCAD може бути зібрано з використанням CMake. Посилання Git <https   *//github.com/FreeCAD/FreeCAD> також там є інструкції щоб зібрати для [ Windows](Compile_on_Windows.md), [ Unix / Linux](Compile_on_Linux.md) і [ MacOSX](Compile_on_MacOS.md).
 
 
 </div>
@@ -68,10 +68,15 @@ FreeCAD може бути зібрано з використанням CMake. П
 
 <div class="mw-translate-fuzzy">
 
-Перевірте [Development roadmap](Development_roadmap.md) щоб дізнатися які пални [Changelog](http://www.freecadweb.org/tracker/changelog_page.php) та [Roadmap](http://www.freecadweb.org/tracker/roadmap_page.php) сторінки на [FreeCAD трекера](http://www.freecadweb.org/tracker), щоб побачити її просування до наступної версії, або [Статистика проекту](http://www.ohloh.net/p/freecad) для ще більше інформації про код FreeCAD. Всі комунікації в інтересах розвитку відбувається на [форумі](http://forum.freecadweb.org), тому відвідуйте його, якщо ви зацікавлені брати участь.
+Перевірте [Development roadmap](Development_roadmap.md) щоб дізнатися які пални [Changelog](http   *//www.freecadweb.org/tracker/changelog_page.php) та [Roadmap](http   *//www.freecadweb.org/tracker/roadmap_page.php) сторінки на [FreeCAD трекера](http   *//www.freecadweb.org/tracker), щоб побачити її просування до наступної версії, або [Статистика проекту](http   *//www.ohloh.net/p/freecad) для ще більше інформації про код FreeCAD. Всі комунікації в інтересах розвитку відбувається на [форумі](http   *//forum.freecadweb.org), тому відвідуйте його, якщо ви зацікавлені брати участь.
 
 
 </div>
+
+
+
+
+[Category   *Documentation](Category_Documentation.md)
 
 
 

@@ -41,7 +41,7 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 3.  Press **X**, **Y** or **Z** to specify the direction.
 4.  The cursor is now constrained.
 5.  Pick the next point.
-6.  If the command is still active optionally do one of the following:
+6.  If the command is still active optionally do one of the following   *
     -   Press the same key to disable the constraint.
     -   Press one of the two other keys to constrain in a different direction.
 7.  X, Y and Z constraints are automatically disabled when the command is finished.
@@ -53,10 +53,10 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The default **Constrain mod** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
--   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
+-   The default **Constrain mod** key, **Shift**, can be changed   * **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
+-   The **X**, **Y** and **Z** shortcuts can be changed   * **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
 
 
 

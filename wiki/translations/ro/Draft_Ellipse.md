@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Draft Ellipse
-   Name/ro:Elipsă 2D
-   MenuLocation:Draft → Ellipse
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**E** **L**
-   SeeAlso:[Draft Circle](Draft_Circle/ro.md)
+- GuiCommand   */ro
+   Name   *Draft Ellipse
+   Name/ro   *Elipsă 2D
+   MenuLocation   *Draft → Ellipse
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut   ***E** **L**
+   SeeAlso   *[Draft Circle](Draft_Circle/ro.md)
 ---
 
 # Draft Ellipse/ro
@@ -25,19 +25,19 @@ Instrumentul Ellipse creează o eliptsă în planul curent [work plane](Draft_Se
 
 A Draft Ellipse can be turned into an elliptical arc by setting its **First Angle** and **Last Angle** properties to different values.
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -76,17 +76,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Ellipse](Part_Ellipse.md) instead of a Draft Ellipse.
 
 ## Proprietăți
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -96,15 +96,15 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/ro|Major Radius}}: Semiaxa majoră a eleipseiaza majoră a elipsei
+-    {{PropertyData/ro|Major Radius}}   * Semiaxa majoră a eleipseiaza majoră a elipsei
 
--    {{PropertyData/ro|Minor Radius}}: Semiaxa minoră a elipsei
+-    {{PropertyData/ro|Minor Radius}}   * Semiaxa minoră a elipsei
 
--    {{PropertyData/ro|Make Face}}: Umple elipsa cu o fațetă
+-    {{PropertyData/ro|Make Face}}   * Umple elipsa cu o fațetă
 
--    {{PropertyView/ro|Pattern}}: Specificați modelul de hașură pentru a umple elipsa cu el
+-    {{PropertyView/ro|Pattern}}   * Specificați modelul de hașură pentru a umple elipsa cu el
 
--    {{PropertyView/ro|Pattern Size}}: specificați modelul și mărimea hașurii
+-    {{PropertyView/ro|Pattern Size}}   * specificați modelul și mărimea hașurii
 
 
 </div>
@@ -129,7 +129,7 @@ See also [Draft Pattern](Draft_Pattern/ro.md) page.
 
 ## Script-Programare 
 
-Instrumentul Ellipse poate fi folosit în [macros](macros/ro.md) și din consola python utilizând următoarea funcție:
+Instrumentul Ellipse poate fi folosit în [macros](macros/ro.md) și din consola python utilizând următoarea funcție   *
 
 
 </div>

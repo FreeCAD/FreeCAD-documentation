@@ -18,7 +18,7 @@ Como muchos otros programas, FreeCAD también tiene la capacidad de copiar/corta
 
 <div class="mw-translate-fuzzy">
 
-Por favor, considere que los objetos copiados no dependen del original. Si quieres clones dependientes por favor usa <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Clon del ambiente de trabajo Borrador](Draft_Clone/es.md) o <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [ Clon del ambiente de trabajo DiseñoPiezas](PartDesign_Clone/es.md). Si necesita un clon dependiente o una réplica paramétrica, también puede usar <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ La copia simple del ambiente de trabajo Piezas](Part_SimpleCopy/es.md). Para clones con patrones, por favor, mira en la [ sección Otros Métodos](Copying_Objects/es#Otros_Métodos.md) de esta página.
+Por favor, considere que los objetos copiados no dependen del original. Si quieres clones dependientes por favor usa <img alt="" src=images/Draft_Clone.svg  style="width   *24px;"> [Clon del ambiente de trabajo Borrador](Draft_Clone/es.md) o <img alt="" src=images/PartDesign_Clone.svg  style="width   *24px;"> [ Clon del ambiente de trabajo DiseñoPiezas](PartDesign_Clone/es.md). Si necesita un clon dependiente o una réplica paramétrica, también puede usar <img alt="" src=images/Part_SimpleCopy.svg  style="width   *24px;"> [ La copia simple del ambiente de trabajo Piezas](Part_SimpleCopy/es.md). Para clones con patrones, por favor, mira en la [ sección Otros Métodos](Copying_Objects/es#Otros_Métodos.md) de esta página.
 
 
 </div>
@@ -54,11 +54,11 @@ Después de la operación de Copiar/Pegar, puede que no sea obvio dónde se encu
 
 ## Otros métodos 
 
-Como la mayoría de las cosas en FreeCAD, hay muchas maneras de hacer una copia. Para más ideas, mira:
+Como la mayoría de las cosas en FreeCAD, hay muchas maneras de hacer una copia. Para más ideas, mira   *
 
--   DiseñoPieza: [Espejo](PartDesign_Mirrored/es.md), [Patrón lineal](PartDesign_LinearPattern/es.md), [Patrón polar](PartDesign_PolarPattern/es.md), [MultiTransformación](PartDesign_MultiTransform/es.md).
--   Pieza: [Espejo](Part_Mirror/es.md), [Crear copia simple](Part_SimpleCopy/es.md)
--   Borrador: [Desplazamiento](Draft_Offset/es.md), [Escala](Draft_Scale/es.md), [Arreglo](Draft_Array/es.md), [Arreglo Trayectoria](Draft_PathArray/es.md), [Clón](Draft_Clone/es.md), [Espejar](Draft_Mirror/es.md)
+-   DiseñoPieza   * [Espejo](PartDesign_Mirrored/es.md), [Patrón lineal](PartDesign_LinearPattern/es.md), [Patrón polar](PartDesign_PolarPattern/es.md), [MultiTransformación](PartDesign_MultiTransform/es.md).
+-   Pieza   * [Espejo](Part_Mirror/es.md), [Crear copia simple](Part_SimpleCopy/es.md)
+-   Borrador   * [Desplazamiento](Draft_Offset/es.md), [Escala](Draft_Scale/es.md), [Arreglo](Draft_Array/es.md), [Arreglo Trayectoria](Draft_PathArray/es.md), [Clón](Draft_Clone/es.md), [Espejar](Draft_Mirror/es.md)
 
 
 </div>

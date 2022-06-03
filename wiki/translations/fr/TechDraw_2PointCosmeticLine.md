@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw 2PointCosmeticLine
-   Name/fr:TechDraw Ligne cosmétique par 2 points
-   MenuLocation:TechDraw → Ajouter des lignes → Ajouter une ligne cosmétique par 2 points
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw 2PointCosmeticLine
+   Name/fr   *TechDraw Ligne cosmétique par 2 points
+   MenuLocation   *TechDraw → Ajouter des lignes → Ajouter une ligne cosmétique par 2 points
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)
 ---
 
 # TechDraw 2PointCosmeticLine/fr
@@ -14,7 +14,7 @@
 
 L\'outil Ligne cosmétique ajoute une ligne cosmétique par deux points. Les points peuvent être 2D ou 3D. La ligne résultante peut être utilisée pour la cotation. L\'apparence de la ligne peut être modifiée à l\'aide de l\'outil [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md).
 
-<img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
+<img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
 
 
 
@@ -47,7 +47,7 @@ Les lignes cosmétiques n\'ont pas de propriétés propres car elles ne sont pas
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 

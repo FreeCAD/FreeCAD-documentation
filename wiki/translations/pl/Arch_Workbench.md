@@ -1,4 +1,4 @@
-# <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width   *64px;"> Arch Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Architektura" src=images/Workbench_Arch.svg  style="width   *64px;"> Arch Workbench/pl
 
 
 {{TOCright}}
@@ -9,7 +9,7 @@
 
 Środowisko pracy Architektura importuje wszystkie narzędzia środowiska <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), ponieważ używa obiektów 2D do budowy swoich przestrzennych obiektów architektonicznych. Niemniej jednak Arch może używać kształtów brył utworzonych w innych środowiskach pracy, takich jak <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Część](Part_Workbench/pl.md) i <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
 
-Funkcjonalność BIM FreeCAD jest obecnie stopniowo poszerzana w obrębie Środowiska pracy Arch, który posiada podstawowe narzędzia architektoniczne, oraz <img alt="" src=images/Workbench_BIM.svg  style="width   *24px;"> [Środowisko pracy BIM](BIM_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md). Środowisko BIM dodaje nową warstwę interfejsu nad narzędziami Arch, w celu uczynienia przepływu BIM bardziej intuicyjnym i przyjaznym dla użytkownika. Zobacz [Przewodnik migracji FreeCAD BIM](https   *//yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
+Funkcjonalność BIM FreeCAD jest obecnie stopniowo poszerzana w obrębie środowiska pracy Architektura, które posiada podstawowe narzędzia architektoniczne, oraz <img alt="" src=images/Workbench_BIM.svg  style="width   *24px;"> [środowisko pracy BIM](BIM_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Środowisko BIM dodaje nową warstwę interfejsu nad narzędziami Arch, w celu uczynienia przepływu BIM bardziej intuicyjnym i przyjaznym dla użytkownika. Zobacz [Przewodnik migracji FreeCAD BIM](https   *//yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
 
 Twórcy Draft, Arch i BIM współpracują również z większą [Społecznością OSArch](https   *//osarch.org), mając na uwadze ostateczny cel, jakim jest poprawa projektowania budynków przy użyciu całkowicie wolnego oprogramowania.
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:OpenSCAD MirrorMeshFeature
-   Name/fr:OpenSCAD Miroir du maillage 
-   MenuLocation:OpenSCAD → Miroir du maillage...
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Part Mise en miroir](Part_Mirror/fr.md)
+- GuiCommand   */fr
+   Name   *OpenSCAD MirrorMeshFeature
+   Name/fr   *OpenSCAD Miroir du maillage 
+   MenuLocation   *OpenSCAD → Miroir du maillage...
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso   *[Part Mise en miroir](Part_Mirror/fr.md)
 ---
 
 # OpenSCAD MirrorMeshFeature/fr
@@ -28,7 +28,7 @@ Crée un nouvel objet maillé en miroir, symmétrisé autour de l\'axe sélectio
 ## Remarques
 
 -   La fonction ne modifie pas le maillage existant mais renvoie un nouveau maillage.
--   La fonction est accessible via python:
+-   La fonction est accessible via python   *
 
 
 ```python

@@ -9,13 +9,7 @@ Dies ist eine Sammlung von Beispielen, die mit bestimmten Werkzeugen erzielt wer
 
 ## Pad
 
-
-<div class="mw-translate-fuzzy">
-
 <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;"> [PartDesign Pad](PartDesign_Pad/de.md) Ist ein Werkzeug zum Erstellen von Pad-Objekten, die prismatische Objekte sind, wie z. B. Extrusionsobjekte, Zylinder, Kegel, Würfel, Keile\...
-
-
-</div>
 
 Jedes Objekt basiert auf einer Kontur (gelb), die die Querschnittsform definiert (vorzugsweise mit dem Arbeitsbereich [Sketcher](Sketcher_Workbench.md) erstellt).
 

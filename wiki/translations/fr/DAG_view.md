@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-La [Vue DAG](DAG_view/fr.md) signifie [Directed Acyclic Graph (Graphe orienté acyclique)](https://fr.wikipedia.org/wiki/Graphe_orient%C3%A9_acyclique). Elle montre les relations entre les différents objets du document. Elle est principalement destinée à montrer comment certains objets dépendent d\'autres objets dans un modèle complexe comportant de nombreuses fonctionnalités et références, telles que celles pouvant être créées avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
+La [Vue DAG](DAG_view/fr.md) signifie [Directed Acyclic Graph (Graphe orienté acyclique)](https   *//fr.wikipedia.org/wiki/Graphe_orient%C3%A9_acyclique). Elle montre les relations entre les différents objets du document. Elle est principalement destinée à montrer comment certains objets dépendent d\'autres objets dans un modèle complexe comportant de nombreuses fonctionnalités et références, telles que celles pouvant être créées avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
 
 La vue DAG ressemble au graphe qui peut être produit à partir d'un référentiel Git et de ses branches. Associée à la [vue en arborescence](tree_view/fr.md) et au [Graphique de dépendance](Std_DependencyGraph/fr.md), la vue DAG est un outil permettant d\'inspecter l\'historique paramétrique des objets d\'un document.
 
@@ -15,11 +15,11 @@ Un modèle simple sera vu avec différentes vues.
 ![](images/FreeCAD_DAG_view_3D.png ) 
 *Modèle avec des formes 2D et 3D.*
 
-<img alt="" src=images/FreeCAD_DAG_view_Tree_view.png ) ![](images/FreeCAD_DAG_view.png  style="width:" height="500px;">
+<img alt="" src=images/FreeCAD_DAG_view_Tree_view.png ) ![](images/FreeCAD_DAG_view.png  style="width   *" height="500px;">
 
 
 
-*A gauche: objets affichés dans la [vue en arborescence](tree_view.md) standard. A droite: objets affichés dans la vue DAG.*
+*A gauche   * objets affichés dans la [vue en arborescence](tree_view.md) standard. A droite   * objets affichés dans la vue DAG.*
 
 ![](images/FreeCAD_DAG_view_Std_DependencyGraph.png )
 
@@ -38,7 +38,7 @@ Pour utiliser cette vue, utilisez l\'[éditeur des paramètres](Std_DlgParameter
 
 puis ajoutez le paramètre`Enabled` de type `Boolean`, et le mettre régler sur `True`.
 
-Redémarrez FreeCAD et activez la vue DAG : **{{StdMenu|[Affichage](Std_View_Menu/fr.md)** → Panneaux → Vue DAG}}.
+Redémarrez FreeCAD et activez la vue DAG    * **{{StdMenu|[Affichage](Std_View_Menu/fr.md)** → Panneaux → Vue DAG}}.
 
 Dans l\'[Editeur des paramètres](Std_DlgParameter/fr.md), vous pouvez également modifier certaines propriétés dans le sous-groupe suivant
 
@@ -57,10 +57,10 @@ Dans l\'[Editeur des paramètres](Std_DlgParameter/fr.md), vous pouvez égalemen
 
 ## Liens
 
-See also:
+See also   *
 
--   [DAGView](https://forum.freecadweb.org/viewtopic.php?f=20&t=11276), fil de discussion présentant le nouvel outil.
--   [easter egg of PartDesign Next: DAG View](https://forum.freecadweb.org/viewtopic.php?f=20&t=15375), y compris la vue avec la mise à jour de PartDesign.
+-   [DAGView](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=11276), fil de discussion présentant le nouvel outil.
+-   [easter egg of PartDesign Next   * DAG View](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=15375), y compris la vue avec la mise à jour de PartDesign.
 
 
 {{Interface navi

@@ -25,27 +25,27 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_CompRebarStraight.png  style="width   *48px;"> [Armatures](Arch_CompRebarStraight/fr.md)    * Ces outils ne sont disponibles que si l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md) a été installé.
 
--   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width   *32px;"> [Armature droite](Arch_Rebar_Straight/fr.md)    * Crée une barre de ferraillage droite dans un élément de structure sélectionné.
+   **<img alt="" src=images/Arch_Rebar_Straight.svg  style="width   *32px;"> [Armature droite](Arch_Rebar_Straight/fr.md)    * Crée une barre de ferraillage droite dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width   *32px;"> [Armature en U](Arch_Rebar_UShape/fr.md)    * Crée une barre de ferraillage en forme de U dans un élément de structure sélectionné.
+   **<img alt="" src=images/Arch_Rebar_UShape.svg  style="width   *32px;"> [Armature en U](Arch_Rebar_UShape/fr.md)    * Crée une barre de ferraillage en forme de U dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width   *32px;"> [Armature en L](Arch_Rebar_LShape/fr.md)    * Crée une barre de ferraillage en forme de L dans un élément de structure sélectionné.
+   **<img alt="" src=images/Arch_Rebar_LShape.svg  style="width   *32px;"> [Armature en L](Arch_Rebar_LShape/fr.md)    * Crée une barre de ferraillage en forme de L dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width   *32px;"> [Armature en étrier](Arch_Rebar_Stirrup/fr.md)    * Crée une barre de ferraillage en étriers dans un élément de structure sélectionné.
+   **<img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width   *32px;"> [Armature en étrier](Arch_Rebar_Stirrup/fr.md)    * Crée une barre de ferraillage en étriers dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width   *32px;"> [Armature cintrée](Arch_Rebar_BentShape/fr.md)    * Crée une barre de ferraillage de forme cintrée dans un élément de structure sélectionné.
+   **<img alt="" src=images/Arch_Rebar_BentShape.svg  style="width   *32px;"> [Armature cintrée](Arch_Rebar_BentShape/fr.md)    * Crée une barre de ferraillage de forme cintrée dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width   *32px;"> [Armature hélicoïdale](Arch_Rebar_Helical/fr.md)    * Crée une barre de ferraillage hélicoïdale dans un élément de structure sélectionné.
+   **<img alt="" src=images/Arch_Rebar_Helical.svg  style="width   *32px;"> [Armature hélicoïdale](Arch_Rebar_Helical/fr.md)    * Crée une barre de ferraillage hélicoïdale dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width   *32px;"> [Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md)    * Crée des barres de ferraillage dans une colonne rectangulaire sélectionnée.
+   ** <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width   *32px;"> [Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md)    * Crée des barres de ferraillage dans une colonne rectangulaire sélectionnée.
 
--   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width   *32px;"> [Poutre](Arch_Rebar_BeamReinforcement/fr.md)    * Crée des barres de ferraillage dans une poutre sélectionnée.
+   ** <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width   *32px;"> [Poutre](Arch_Rebar_BeamReinforcement/fr.md)    * Crée des barres de ferraillage dans une poutre sélectionnée.
 
--   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width   *32px;"> [Renfort de dalle](Arch_Rebar_Slab_Reinforcement/fr.md)    * Crée des barres de ferraillage dans une dalle sélectionnée.
+   ** <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width   *32px;"> [Renfort de dalle](Arch_Rebar_Slab_Reinforcement/fr.md)    * Crée des barres de ferraillage dans une dalle sélectionnée.
 
--   <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width   *32px;"> [Renfort de semelle](Arch_Rebar_Footing_Reinforcement/fr.md)    * Crée des barres de ferraillage à l\'intérieur d\'une semelle sélectionnée.
+   ** <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width   *32px;"> [Renfort de semelle](Arch_Rebar_Footing_Reinforcement/fr.md)    * Crée des barres de ferraillage à l\'intérieur d\'une semelle sélectionnée.
 
--   <img alt="" src=images/Arch_Rebar.svg  style="width   *32px;"> [Armature personnalisée](Arch_Rebar/fr.md)    * Crée une barre de ferraillage personnalisée dans un élément de structure sélectionné à l\'aide d\'une esquisse.
+   **<img alt="" src=images/Arch_Rebar.svg  style="width   *32px;"> [Armature personnalisée](Arch_Rebar/fr.md)    * Crée une barre de ferraillage personnalisée dans un élément de structure sélectionné à l\'aide d\'une esquisse.
 
 -   <img alt="" src=images/Arch_CurtainWall.svg  style="width   *32px;"> [Mur-rideau](Arch_CurtainWall/fr.md)    * Crée un mur-rideau à partir de rien ou en utilisant un objet sélectionné comme base. {{Version/fr|0.19}}
 
@@ -67,11 +67,11 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_CompAxis.png  style="width   *48px;"> [Outils pour les axes](Arch_CompAxis/fr.md)
 
--   <img alt="" src=images/Arch_Axis.svg  style="width   *32px;"> [Axes](Arch_Axis/fr.md)    * Ajoute un réseau d\'axes à 1 direction.
+   ** <img alt="" src=images/Arch_Axis.svg  style="width   *32px;"> [Axes](Arch_Axis/fr.md)    * Ajoute un réseau d\'axes à 1 direction.
 
--   <img alt="" src=images/Arch_AxisSystem.svg  style="width   *32px;"> [Système d\'axes](Arch_AxisSystem/fr.md)    * Ajoute un système d\'axes composé de plusieurs axes.
+   ** <img alt="" src=images/Arch_AxisSystem.svg  style="width   *32px;"> [Système d\'axes](Arch_AxisSystem/fr.md)    * Ajoute un système d\'axes composé de plusieurs axes.
 
--   <img alt="" src=images/Arch_Grid.svg  style="width   *32px;"> [Grille](Arch_Grid/fr.md)    * Ajoute un objet de type grille.
+   ** <img alt="" src=images/Arch_Grid.svg  style="width   *32px;"> [Grille](Arch_Grid/fr.md)    * Ajoute un objet de type grille.
 
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width   *32px;"> [Plan de section](Arch_SectionPlane/fr.md)    * Ajoute un objet plan de section.
 
@@ -81,13 +81,13 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_CompPanel.png  style="width   *48px;"> [Outils pour les panneaux](Arch_CompPanel/fr.md)
 
--   <img alt="" src=images/Arch_Panel.svg  style="width   *32px;"> [Panneaux](Arch_Panel/fr.md)    * Crée un objet panneau à partir d\'un objet 2D sélectionné.
+   ** <img alt="" src=images/Arch_Panel.svg  style="width   *32px;"> [Panneaux](Arch_Panel/fr.md)    * Crée un objet panneau à partir d\'un objet 2D sélectionné.
 
--   <img alt="" src=images/Arch_Panel_Cut.svg  style="width   *32px;"> [Découpe de panneaux](Arch_Panel_Cut/fr.md)    * Crée une vue coupée en 2D à partir d\'un panneau.
+   ** <img alt="" src=images/Arch_Panel_Cut.svg  style="width   *32px;"> [Découpe de panneaux](Arch_Panel_Cut/fr.md)    * Crée une vue coupée en 2D à partir d\'un panneau.
 
--   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width   *32px;"> [Feuille de panneau](Arch_Panel_Sheet/fr.md)    * Crée une feuille de découpe 2D comprenant des découpes de panneaux ou d\'autres objets 2D.
+   ** <img alt="" src=images/Arch_Panel_Sheet.svg  style="width   *32px;"> [Feuille de panneau](Arch_Panel_Sheet/fr.md)    * Crée une feuille de découpe 2D comprenant des découpes de panneaux ou d\'autres objets 2D.
 
--   <img alt="" src=images/Arch_Nest.svg  style="width   *32px;"> [Calepinage](Arch_Nest/fr.md)    * Permet d\'imbriquer plusieurs objets plats à l\'intérieur d\'une forme conteneur.
+   ** <img alt="" src=images/Arch_Nest.svg  style="width   *32px;"> [Calepinage](Arch_Nest/fr.md)    * Permet d\'imbriquer plusieurs objets plats à l\'intérieur d\'une forme conteneur.
 
 -   <img alt="" src=images/Arch_Equipment.svg  style="width   *32px;"> [Équipement](Arch_Equipment/fr.md)    * Crée un objet d\'équipement ou de mobilier.
 
@@ -101,17 +101,17 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width   *48px;"> [Outils pour les matériaux](Arch_CompSetMaterial/fr.md)
 
--   <img alt="" src=images/Arch_SetMaterial.svg  style="width   *32px;"> [Matériau](Arch_SetMaterial/fr.md)    * Crée un matériau et l\'attribue aux objets sélectionnés, le cas échéant.
+   ** <img alt="" src=images/Arch_SetMaterial.svg  style="width   *32px;"> [Matériau](Arch_SetMaterial/fr.md)    * Crée un matériau et l\'attribue aux objets sélectionnés, le cas échéant.
 
--   <img alt="" src=images/Arch_MultiMaterial.svg  style="width   *32px;"> [Matériaux multiples](Arch_MultiMaterial/fr.md)    * Crée un multi-matériau et l\'attribue aux objets sélectionnés, le cas échéant.
+   ** <img alt="" src=images/Arch_MultiMaterial.svg  style="width   *32px;"> [Matériaux multiples](Arch_MultiMaterial/fr.md)    * Crée un multi-matériau et l\'attribue aux objets sélectionnés, le cas échéant.
 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width   *32px;"> [Planificateur](Arch_Schedule/fr.md)    * Crée différents types de calendriers.
 
 -   <img alt="" src=images/Arch_CompPipe.png  style="width   *48px;"> [Outils tuyauteries](Arch_CompPipe/fr.md)
 
--   <img alt="" src=images/Arch_Pipe.svg  style="width   *32px;"> [Tuyau](Arch_Pipe/fr.md)    * Crée un tuyau.
+   ** <img alt="" src=images/Arch_Pipe.svg  style="width   *32px;"> [Tuyau](Arch_Pipe/fr.md)    * Crée un tuyau.
 
--   <img alt="" src=images/Arch_PipeConnector.svg  style="width   *32px;"> [Connecteur](Arch_PipeConnector/fr.md)    * Crée un angle ou une connexion en T entre 2 ou 3 tuyaux sélectionnés.
+   ** <img alt="" src=images/Arch_PipeConnector.svg  style="width   *32px;"> [Connecteur](Arch_PipeConnector/fr.md)    * Crée un angle ou une connexion en T entre 2 ou 3 tuyaux sélectionnés.
 
 ### Outils de transformation 
 

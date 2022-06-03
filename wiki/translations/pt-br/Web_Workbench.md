@@ -7,7 +7,7 @@
 
 </div>
 
-<img alt="Web workbench icon" src=images/Workbench_Web.svg  style="width:128px;">
+<img alt="Web workbench icon" src=images/Workbench_Web.svg  style="width   *128px;">
 
 ## Introdução
 
@@ -23,6 +23,11 @@ A partir desse navegador você é capaz de navegar na web, clicar em links, ler 
 
 
 </div>
+
+
+
+
+[Category   *Web](Category_Web.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

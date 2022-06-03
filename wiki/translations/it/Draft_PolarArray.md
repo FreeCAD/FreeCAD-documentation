@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft PolarArray
-   Name/it:Serie polare
-   MenuLocation:Draft → Serie polare
-   Workbenches:[Draft](Draft_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Serie](Draft_Array/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
+- GuiCommand   */it
+   Name   *Draft PolarArray
+   Name/it   *Serie polare
+   MenuLocation   *Draft → Serie polare
+   Workbenches   *[Draft](Draft_Workbench/it.md)
+   Version   *0.19
+   SeeAlso   *[Serie](Draft_Array/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
 ---
 
 # Draft PolarArray/it
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_PolarArray.svg  style="width:16px;"> [Serie polare](Draft_PolarArray/it.md) crea una serie da un oggetto selezionato posizionando le copie lungo una circonferenza.
+Lo strumento <img alt="" src=images/Draft_PolarArray.svg  style="width   *16px;"> [Serie polare](Draft_PolarArray/it.md) crea una serie da un oggetto selezionato posizionando le copie lungo una circonferenza.
 
 
 </div>
@@ -31,7 +31,7 @@ Questo strumento può essere utilizzato su forme 2D create con [Draft](Draft_Wor
 
 </div>
 
-<img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;">
+<img alt="" src=images/Draft_PolarArray_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -45,13 +45,13 @@ Questo strumento può essere utilizzato su forme 2D create con [Draft](Draft_Wor
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md).
+See also   * [Draft Snap](Draft_Snap.md).
 
 
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un oggetto da cui si desidera creare la matrice polare.
-2.  Premere il pulsante **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Serie polare](Draft_PolarArray/it.md)**. Se non viene selezionato alcun oggetto, si aprirà il [pannello azioni](task_panel/it.md), ma è comunque necessario selezionare un oggetto per procedere.
+2.  Premere il pulsante **[<img src=images/Draft_PolarArray.svg style="width   *16px"> [Serie polare](Draft_PolarArray/it.md)**. Se non viene selezionato alcun oggetto, si aprirà il [pannello azioni](task_panel/it.md), ma è comunque necessario selezionare un oggetto per procedere.
 3.  Scegli l\'angolo polare, che determina dove sarà posizionato l\'ultimo elemento della serie.
 4.  Scegliere il numero di elementi della serie. Minimo 2, massimo 99.
 5.  Scegliere il centro dell\'asse di rotazione. È possibile fare clic nella [vista 3D](3D_view/it.md), per impostare contemporaneamente la posizione del centro di rotazione e completare il comando.
@@ -79,7 +79,7 @@ See also: [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-Note:
+Note   *
 
 -   Per impostazione predefinita, l\'asse di rotazione è l\'asse Z positivo {{Value|(0, 0, 1)}}. Questo può essere modificato nell\'[editor delle proprietà](property_editor/it.md) dopo la creazione dell\'oggetto.
 -   L\'angolo polare è positivo in senso antiorario e negativo in senso orario.
@@ -91,9 +91,9 @@ Note:
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Proprietà
 
@@ -111,7 +111,7 @@ Vedere lo strumento **<img src="images/Draft_Array.svg" width=16px> [Serie ortog
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -123,19 +123,19 @@ Vedere lo strumento **<img src="images/Draft_Array.svg" width=16px> [Serie ortog
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Serie può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Serie può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
 
-The main method:
+The main method   *
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrapper for polar arrays is:
+The wrapper for polar arrays is   *
 
 
 ```python
@@ -163,7 +163,7 @@ array = make_polar_array(base_object,
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python
@@ -188,7 +188,7 @@ To create a non-parametric polar array use the `array` method of the Draft modul
 array(objectslist, center, angle, number)
 ```
 
-Example:
+Example   *
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:FEM_MaterialSolid
-   Name/it:FEM Materiale per solidi
-   MenuLocation:Modello → Materiale solido
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:**M** **M**
-   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+- GuiCommand   */it
+   Name   *FEM_MaterialSolid
+   Name/it   *FEM Materiale per solidi
+   MenuLocation   *Modello → Materiale solido
+   Workbenches   *[FEM](FEM_Workbench/it.md)
+   Shortcut   ***M** **M**
+   SeeAlso   *[FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM MaterialSolid/it
@@ -25,7 +25,7 @@ Aggiunge le proprietà dei materiali ad una parte.
 
 <div class="mw-translate-fuzzy">
 
--   Cliccare su <img alt="" src=images/FEM_MaterialSolid.png  style="width:32px;"> o scegliere **Modello** → **<img src="images/FEM_MaterialSolid.png" width=32px> Materiale solido** dal menu principale.
+-   Cliccare su <img alt="" src=images/FEM_MaterialSolid.png  style="width   *32px;"> o scegliere **Modello** → **<img src="images/FEM_MaterialSolid.png" width=32px> Materiale solido** dal menu principale.
 -   Fare doppio clic sull\'oggetto **<img src="images/FEM_MaterialSolid.png" width=32px> Materiale solido** appena creato
 
 ![](images/FEMMaterialSolidProperties.png )
@@ -46,7 +46,7 @@ Aggiunge le proprietà dei materiali ad una parte.
 
 <div class="mw-translate-fuzzy">
 
-1.  Il materiale utilizza la \*MATERIAL card in CalculiX. I dettagli sul materiale meccanico sono spiegati in <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
+1.  Il materiale utilizza la \*MATERIAL card in CalculiX. I dettagli sul materiale meccanico sono spiegati in <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
 
 
 </div>

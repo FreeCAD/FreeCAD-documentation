@@ -12,7 +12,7 @@ The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this pag
 
 <div class="mw-translate-fuzzy">
 
-Cubul de navigarea este compus din următoarele piese:
+Cubul de navigarea este compus din următoarele piese   *
 
 -   Săgețile Direcționale
 -   Cubul de Navigație principal
@@ -27,7 +27,7 @@ All parts, except the axis indicators, can be clicked.
 
 ### Main cube 
 
-The main cube has 26 faces: 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
+The main cube has 26 faces   * 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +40,7 @@ The main cube has 26 faces: 6 square main faces, 12 rectangular edge faces (<sma
 
 <div class="mw-translate-fuzzy">
 
-Există șase săgeți direcționale: patru săgeți triunghiulare, unul în sus, în jos, la stânga și la dreapta; și două săgeți de rotație, una pe fiecare parte a săgeților de mai sus.
+Există șase săgeți direcționale   * patru săgeți triunghiulare, unul în sus, în jos, la stânga și la dreapta; și două săgeți de rotație, una pe fiecare parte a săgeților de mai sus.
 
 
 </div>
@@ -81,7 +81,7 @@ Puteți mutați întreaga structură de control a cubului de navigație într-o 
 
 ### Preferences
 
-The Navigation Cube is controlled by several preferences: **Edit → Preferences... → Display → Navigation → Navigation cube**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+The Navigation Cube is controlled by several preferences   * **Edit → Preferences... → Display → Navigation → Navigation cube**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
 ### Advanced options 
 
@@ -95,6 +95,11 @@ The [CubeMenu](Interface_Customization#CubeMenu.md) external workbench provides 
 
 
 </div>
+
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

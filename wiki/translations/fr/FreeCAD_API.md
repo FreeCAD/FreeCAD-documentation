@@ -1,9 +1,9 @@
 # FreeCAD API/fr
-**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Source documentation](Source_documentation/fr.md).**
+**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https   *//www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Source documentation](Source_documentation/fr.md).**
 
 C\'est le module principal (root) de FreeCAD. Il peut également être appelé par \"App\" de l\'interprète FreeCAD. Il contient tout ce qui est nécessaire pour manipuler des documents et leur contenu (objets)
 
-Exemple: 
+Exemple   * 
 ```python
 import FreeCAD
 print FreeCAD.listDocuments()
@@ -26,7 +26,7 @@ mydoc = FreeCAD.activeDocument()
 {{APIFunction|activeDocument| |Renvoie le document actif ou Aucun s'il n'y a pas de document actif.|Un document FreeCAD.}}
 
 
-{{APIFunction|addExportType|string, string|Ajoute un nouveau type de fichier d'exportation à FreeCAD. La première chaîne doit être formatée comme cet exemple: "Document Word (*.doc)". La deuxième chaîne est le nom d'un script/module python contenant une fonction export().| }}
+{{APIFunction|addExportType|string, string|Ajoute un nouveau type de fichier d'exportation à FreeCAD. La première chaîne doit être formatée comme cet exemple   * "Document Word (*.doc)". La deuxième chaîne est le nom d'un script/module python contenant une fonction export().| }}
 
 
 {{APIFunction|addImportType|string, string|Ajoute un nouveau type de fichier d'importation à FreeCAD, fonctionne de la même manière que addExportType, le module de gestion python doit contenir une fonction open() et/ou import().| }}
@@ -57,6 +57,11 @@ mydoc = FreeCAD.activeDocument()
 
 
 {{APIFunction|setActiveDocument|Nom du document|Définit le document actif par son nom.| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

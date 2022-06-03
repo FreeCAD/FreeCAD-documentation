@@ -1,6 +1,6 @@
 # Part Common/it
 ---
-- GuiCommand:/it   Name:Part_Common   Name/it:Intersezione   MenuLocation:Part → Intersezione   Workbenches:[SeeAlso:[[Part Union/it|Unione](Part_Workbench/it___Parte]].md), [Sottrazione](Part_Cut/it.md)---
+- GuiCommand   */it   Name   *Part_Common   Name/it   *Intersezione   MenuLocation   *Part → Intersezione   Workbenches   *[SeeAlso   *[[Part Union/it|Unione](Part_Workbench/it___Parte]].md), [Sottrazione](Part_Cut/it.md)---
 
 
 </div>
@@ -33,7 +33,7 @@ La funzione estrae la parte comune (intersezione) tra gli oggetti Parte selezion
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.md). Ad esempio: cose fatte con gli ambienti Parte, PartDesign o Sketcher. Non mesh (a meno che essi non siano stati convertiti in Forme). Per gli oggetti mesh ci sono strumenti booleani specifici nell\'ambiente Mesh.
+Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.md). Ad esempio   * cose fatte con gli ambienti Parte, PartDesign o Sketcher. Non mesh (a meno che essi non siano stati convertiti in Forme). Per gli oggetti mesh ci sono strumenti booleani specifici nell\'ambiente Mesh.
 
 
 </div>

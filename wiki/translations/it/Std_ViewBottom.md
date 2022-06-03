@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_ViewBottom
-   Name/it:Vista dal basso
-   MenuLocation:Visualizza → Viste standard → Dal basso
-   Workbenches:Tutti
-   Shortcut:**5**
-   SeeAlso:[Vista da dietro](Std_ViewRear/it.md), [Vista da sinistra](Std_ViewLeft/it.md)
+- GuiCommand   */it
+   Name   *Std_ViewBottom
+   Name/it   *Vista dal basso
+   MenuLocation   *Visualizza → Viste standard → Dal basso
+   Workbenches   *Tutti
+   Shortcut   ***5**
+   SeeAlso   *[Vista da dietro](Std_ViewRear/it.md), [Vista da sinistra](Std_ViewLeft/it.md)
 ---
 
 # Std ViewBottom/it
@@ -19,16 +19,16 @@ Il comando **Vista dal basso** orienta la fotocamera della [Vista 3D](3D_view/it
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_ViewBottom.svg" width=16px> Vista dal basso**.
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewBottom.svg" width=16px> Dal basso** dal menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewBottom.svg" width=16px> Dal basso** dal menu contestuale della [vista 3D](3D_view/it.md).
-    -   Usare la scorciatoia da tastiera: **5**.
+    -   Usare la scorciatoia da tastiera   * **5**.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

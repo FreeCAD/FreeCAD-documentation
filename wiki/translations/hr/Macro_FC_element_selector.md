@@ -8,7 +8,7 @@
 |Version=01.00
 |Date=2016-12-26
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/0/07/Macro_FC_element_selector.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/0/07/Macro_FC_element_selector.png ToolBar Icon]
 |SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb/hr.md)
 }}
 
@@ -35,18 +35,18 @@ ToolBar Icon ![](images/Macro_FC_element_selector.png )
 
 {{MacroCode|code=
 #!/usr/bin/env python2
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 """
-Created on Mon Dec 26 22:29:29 2016
+Created on Mon Dec 26 22   *29   *29 2016
 
-@author: HoWil
-License: LGPL v 2.1
+@author   * HoWil
+License   * LGPL v 2.1
 
-Concept:
+Concept   *
  After starting the process by clicking on "Start here..." one can click into the 3D view to get all elements below the the cursor click.
  The found elements are then listed in a pulldown-menu.
 
-Hint:
+Hint   *
   Does not work with Part-Design-Next 'Part'-elements and childs of them in the tree.
 """
 
@@ -59,12 +59,12 @@ import FreeCAD
 from pivy.coin import SoMouseButtonEvent
 
 
-class element_selector():
+class element_selector()   *
 
 # ========================================================
 #  GUI
 # ========================================================
-    def __init__(self):
+    def __init__(self)   *
 
         self.dialog = None
         self.dialog = QtGui.QDialog()
@@ -114,7 +114,7 @@ class element_selector():
         self.dialog.show()
         self.dialog.exec_()
         
-    def start_mouse_over_cb(self):
+    def start_mouse_over_cb(self)   *
         self.element_selection.clear() # Clear all elements in the combo-box
         self.element_selection.setEditable(True) # Set the combo-box editalbe
         self.view = FreeCADGui.ActiveDocument.ActiveView
@@ -129,10 +129,10 @@ class element_selector():
         self.callback = self.view.addEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.mouse_over_cb)
         
         
-    def mouse_over_cb(self, event_callback):
+    def mouse_over_cb(self, event_callback)   *
         event = event_callback.getEvent()
         
-        if event.getState() == SoMouseButtonEvent.DOWN:
+        if event.getState() == SoMouseButtonEvent.DOWN   *
             pos = event.getPosition().getValue()
 
             element_list = FreeCADGui.ActiveDocument.ActiveView.getObjectsInfo((int(pos[0]), int(pos[1])))
@@ -146,16 +146,16 @@ class element_selector():
             self.objects_list = [] # reset objects_list
             self.components_list = [] # restet components_list
             
-            if element_list: # if there were elements found
+            if element_list   * # if there were elements found
             
                 FreeCAD.Console.PrintMessage("\n *** Elements found under mouse pointer (Part-Desing-Next- 'Parts' do not work yet!) ***\n")
                 
-                for e in element_list:
+                for e in element_list   *
                     label_object = str(e["Object"])
                     label_component = str(e["Component"])
                     label_object_plus_component = label_object + ' - ' + label_component
 
-                    if label_object not in self.element_selection_data:
+                    if label_object not in self.element_selection_data   *
                         self.objects_list.append(e["Object"])
                         self.components_list.append(None)
                         
@@ -164,7 +164,7 @@ class element_selector():
                         self.element_selection.addItem(label_object)
                         self.element_selection_data.append(label_object)
                     
-                    if label_object_plus_component not in self.element_selection_data:
+                    if label_object_plus_component not in self.element_selection_data   *
                         self.objects_list.append(e["Object"])
                         self.components_list.append(e["Component"])
                             
@@ -184,24 +184,24 @@ class element_selector():
 #==============================================================================
 # Highligthing the choice from GUI
 #==============================================================================
-    def selection_manager(self):
-        try:
+    def selection_manager(self)   *
+        try   *
             FreeCADGui.Selection.clearSelection()
-            if self.element_selection.isEditable():
+            if self.element_selection.isEditable()   *
                 sel_index = self.element_selection.currentIndex()
                 
-                if self.components_list[sel_index] == None :
+                if self.components_list[sel_index] == None    *
                     # An object was selected in combobox
                     FreeCADGui.Selection.addSelection(FreeCAD.ActiveDocument.getObject(self.objects_list[sel_index]))
-                else:
+                else   *
                     # An element of an object was selected in combobox
                     FreeCADGui.Selection.addSelection(FreeCAD.ActiveDocument.getObject(self.objects_list[sel_index]), self.components_list[sel_index])
 
-        except:
+        except   *
             FreeCAD.Console.PrintError("Unable to complete the element selection/highlighting.\n")
             self.close()
 
-    def close(self):
+    def close(self)   *
         self.dialog.hide()
 
 element_selector()
@@ -209,7 +209,7 @@ element_selector()
 
 ## Poveznice
 
-Rasprava na forumu [Selecting internal faces of a pressure vessel](https://forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
+Rasprava na forumu [Selecting internal faces of a pressure vessel](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
 
 Drugi slični makro [Macro Mouse over cb](Macro_Mouse_over_cb/hr.md)
 

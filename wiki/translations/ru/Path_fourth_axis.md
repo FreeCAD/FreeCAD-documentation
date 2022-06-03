@@ -12,7 +12,7 @@
 
 ## Описание
 
-These experimental features allow milling of four axis [faces](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) and [pockets](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867)
+These experimental features allow milling of four axis [faces](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=36773) and [pockets](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=35867)
 
 These features are in early development. Bugs may exist. Thank you for your feedback and testing.
 
@@ -20,11 +20,11 @@ These features are in early development. Bugs may exist. Thank you for your feed
 
 Ideally, upgrade to version 0.19.16502, or higher.
 
-Download these scripts:
+Download these scripts   *
 
--   PathProfileFaces.py [available here](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) and
--   PathAreaOp.py is [here](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867)
--   PathPocketShape.py from [here too](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867) (for pocket operations)
+-   PathProfileFaces.py [available here](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=36773) and
+-   PathAreaOp.py is [here](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=35867)
+-   PathPocketShape.py from [here too](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=35867) (for pocket operations)
 
 Place them in your FreeCAD/Mod/Path/PathScripts directory, \*after\* renaming your originals for safe keeping. Rename the new scripts to the original script names. Restart FreeCAD and have fun.
 
@@ -32,7 +32,7 @@ Use at your own risk.
 
 ## Ограничения
 
-Current 4th-axis capable operations do not handle complex/compound rotations: those involving X and Y simultaneously.
+Current 4th-axis capable operations do not handle complex/compound rotations   * those involving X and Y simultaneously.
 
 There is currently no GUI integration of 4th-axis rotational settings in the release branch. All related settings are in the Data tab of the Properties View section for each individual operation supported.
 

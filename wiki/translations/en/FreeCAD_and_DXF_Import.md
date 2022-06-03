@@ -17,39 +17,41 @@ To use the older, legacy, DXF importer and exporter you need to install several 
 
 If the files are not already installed, go to the menu **Edit → Preferences → Import-Export → DXF** and enable the option **Allow FreeCAD to automatically download and update the DXF libraries** to make FreeCAD automatically download and install them.
 
-For FreeCAD 0.14 or older you have to install manually:
+For FreeCAD 0.14 or older you have to install manually   *
 
 ### Manually
 
-1.  Go to [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) and download these files (on the right side you can choose \"download as ZIP\").
+1.  Go to [Yorik\'s Github account](https   *//github.com/yorikvanhavre/Draft-dxf-importer) and download these files (on the right side you can choose \"download as ZIP\").
 2.  Put the files in your macro folder.
 3.  If you are unsure where this folder is, go to **Edit → Preferences → General → Macro** and check the field named **Macro Path**.
 
--   In Ubuntu your macro folder is normally (the folder is hidden, you may need to unhide it):
+-   In Ubuntu your macro folder is normally (the folder is hidden, you may need to unhide it)   *
 
 /home/your_user_name/.FreeCAD 
 
--   In Windows your macro folder is normally:
+-   In Windows your macro folder is normally   *
 
-C:\Users\your_user_name\AppData\Roaming\FreeCAD
+C   *Users\your_user_name\AppData\Roaming\FreeCAD
 
-See also: [Dxf Importer Install](Dxf_Importer_Install.md)
+See also   * [Dxf Importer Install](Dxf_Importer_Install.md)
 
 ## Tips and Tricks 
 
 Sometimes DXF Files don\'t import although they open in other CAD-Programs without problems.
 
-You can try:
+You can try   *
 
 1.  Go to **Edit → Preferences → Import-Export → DXF** and untick the option **Join geometry** and try again.
 2.  Remember that maybe now you won\'t have coincident endpoints. You will have to make them coincident yourself.
 3.  You can do this with the [Sketcher CloseShape](Sketcher_CloseShape.md) command <small>(v0.15)</small>  or you can apply the constraints manually.
 
-You can also try:
+You can also try   *
 
-1.  Go to **Edit → Preferences → Draft → General settings** and adjust the value of **Tolerance** (default: 0,05) and try again.
+1.  Go to **Edit → Preferences → Draft → General settings** and adjust the value of **Tolerance** (default   * 0,05) and try again.
 
 For an overview of all DXF related preferences see [Import Export Preferences](Import_Export_Preferences#DXF.md).
+
+[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
 
 
 

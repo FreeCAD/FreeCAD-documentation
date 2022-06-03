@@ -1,6 +1,8 @@
 # Category:Arch/ru
 Pages relating to Architectural and Building Information Management
 
+[Category   *User Documentation/ru](Category   *User_Documentation/ru.md) [Category   *BIM/ru](Category   *BIM/ru.md)
+
 ### Contents
 
 |     |     |     |

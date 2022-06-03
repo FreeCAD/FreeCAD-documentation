@@ -1,58 +1,58 @@
 # Draft Facebinder/sv
 ---
-- GuiCommand:/sv   Name:Draft Facebinder   Name/sv:Draft Facebinder   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Facebinder   Shortcut:F F---
+- GuiCommand   */sv   Name   *Draft Facebinder   Name/sv   *Draft Facebinder   Workbenches   *[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation   *Draft → Facebinder   Shortcut   *F F---
 
 
 </div>
 
 ## Beskrivning
 
-The <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Draft Facebinder** command creates a surface object from selected faces. A Draft Facebinder is parametric, it will update if you modify its source object(s).
+The <img alt="" src=images/Draft_Facebinder.svg  style="width   *24px;"> **Draft Facebinder** command creates a surface object from selected faces. A Draft Facebinder is parametric, it will update if you modify its source object(s).
 
 It can be used to create an extrusion from a collection of faces. This extrusion can for example represent a wall finish in architectural design.
 
-<img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_facebinder_example.jpg  style="width   *400px;"> 
 *Facebinder created from the faces of walls*
 
 ## Bruk
 
 1.  Select one or more faces.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Facebinder.svg" width=16px> [Draft Facebinder](Draft_Facebinder.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Facebinder** option from the menu.
-    -   Use the keyboard shortcut: **F** then **F**.
+    -   Use the keyboard shortcut   * **F** then **F**.
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the total area of the linked faces of the facebinder.
+-    **Area|Area**   * (read-only) specifies the total area of the linked faces of the facebinder.
 
--    **Extrusion|Distance**: specifies the extrusion thickness of the facebinder.
+-    **Extrusion|Distance**   * specifies the extrusion thickness of the facebinder.
 
--    **Faces|LinkSubList**: specifies the linked faces of the facebinder.
+-    **Faces|LinkSubList**   * specifies the linked faces of the facebinder.
 
--    **Offset|Distance**: specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
+-    **Offset|Distance**   * specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
 
--    **Remove Splitter|Bool**: Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
+-    **Remove Splitter|Bool**   * Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
 
--    **Sew|Bool**: Specifies whether to perform a topological sewing operation on the facebinder.
+-    **Sew|Bool**   * Specifies whether to perform a topological sewing operation on the facebinder.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the facebinder. This property only works if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the facebinder. This property only works if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
@@ -91,7 +91,7 @@ The thickness of the Facebinder can be added by overwriting its `Extrusion` attr
 
 The placement of the Facebinder can be changed by overwriting its `Placement` attribute, or by individually overwriting its `Placement.Base` and `Placement.Rotation` attributes.
 
-Example:
+Example   *
 
 
 ```python
@@ -102,7 +102,7 @@ import Draft
 doc = App.newDocument()
 
 # Insert a solid box
-box = doc.addObject("Part::Box", "Box")
+box = doc.addObject("Part   *   *Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

@@ -9,27 +9,27 @@ SetupSheets are particularly useful when saved with a [Job Template](Path_Export
 
 ## Properties
 
--    **VertRapid**: Sets the Vertical Rapid Rate in new Tool Controllers. (Used in post processors that support customizable Rapid rates)
+-    **VertRapid**   * Sets the Vertical Rapid Rate in new Tool Controllers. (Used in post processors that support customizable Rapid rates)
 
--    **HorizRapid**: Sets the Horizontal Rapid Rate in new Tool Controllers. (Used in post processors that support customizable Rapid rates)
+-    **HorizRapid**   * Sets the Horizontal Rapid Rate in new Tool Controllers. (Used in post processors that support customizable Rapid rates)
 
--    **SafeHeightOffset**: The usage of this field depends on SafeHeightExpression (see below)
+-    **SafeHeightOffset**   * The usage of this field depends on SafeHeightExpression (see below)
 
--    ** SafeHeightExpression**: The result of this expression will be used to set the Safe Height of operations.
+-    ** SafeHeightExpression**   * The result of this expression will be used to set the Safe Height of operations.
 
--    **ClearanceHeightOffset**: The usage of this field depends on ClearanceHeightExpression (see below)
+-    **ClearanceHeightOffset**   * The usage of this field depends on ClearanceHeightExpression (see below)
 
--    **ClearanceHeightExpression**: The result of this expression will be used to set the Clearance Height of operations.
+-    **ClearanceHeightExpression**   * The result of this expression will be used to set the Clearance Height of operations.
 
--    **StartDepthExpression**: The result of this expression will be used to set the StartDepth property of operations.
+-    **StartDepthExpression**   * The result of this expression will be used to set the StartDepth property of operations.
 
--    ** FinalDepthExpression**: The result of this expression will be used to set the FinalDepth property of operations.
+-    ** FinalDepthExpression**   * The result of this expression will be used to set the FinalDepth property of operations.
 
--    **StepDownExpression**: The result of this expression will be used to set the StepDown property of operations.
+-    **StepDownExpression**   * The result of this expression will be used to set the StepDown property of operations.
 
 ## Operation Parameters 
 
-The following are pulled from:
+The following are pulled from   *
 
 -   OpFinalDepth - The value of the FinalDepth property
 -   OpStartDepth - The value of the FinalDepth property
@@ -37,7 +37,7 @@ The following are pulled from:
 
 ## SetupSheet Values 
 
-Other values in the SetupSheet can be referenced directly:
+Other values in the SetupSheet can be referenced directly   *
 
 -   SetupSheet.ClearanceHeightOffset
 -   SetupSheet.SafeHeightOffset

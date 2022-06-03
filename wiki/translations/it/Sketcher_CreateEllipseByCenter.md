@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Sketcher CreateEllipse
-   Name/it:Ellisse da centro
-   Icon:Sketcher_CreateEllipse.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Geometrie → Ellisse da centro
-   Version:0.15
-   SeeAlso:[Ellisse da 3 punti](Sketcher_CreateEllipseBy3Points/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md)
+- GuiCommand   */it
+   Name   *Sketcher CreateEllipse
+   Name/it   *Ellisse da centro
+   Icon   *Sketcher_CreateEllipse.svg
+   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation   *Sketch → Geometrie → Ellisse da centro
+   Version   *0.15
+   SeeAlso   *[Ellisse da 3 punti](Sketcher_CreateEllipseBy3Points/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md)
 ---
 
 # Sketcher CreateEllipseByCenter/it
@@ -16,12 +16,12 @@
 
 ## Descrizione
 
-Questo strumento disegna un ellisse selezionando tre punti: il centro, la fine del raggio maggiore, il raggio minore. Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con un\'icona a forma di ellisse rossa. Le coordinate sono indicate in tempo reale.
+Questo strumento disegna un ellisse selezionando tre punti   * il centro, la fine del raggio maggiore, il raggio minore. Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con un\'icona a forma di ellisse rossa. Le coordinate sono indicate in tempo reale.
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="La sequenza della selezione è indicata dalle frecce gialle con i numeri. C è il centro, a è il diametro maggiore, b è il diametro minore, F1 e F2 sono i fuochi." src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
+<img alt="La sequenza della selezione è indicata dalle frecce gialle con i numeri. C è il centro, a è il diametro maggiore, b è il diametro minore, F1 e F2 sono i fuochi." src=images/Sketcher_EllipseExample1.png‎  style="width   *500px;">
 
 
 </div>

@@ -1,6 +1,6 @@
 # FEM MeshDisplayInfo/it
 ---
-- GuiCommand:/it   Name:FEM_MeshPrintInfo   Name/it:FEM MeshPrintInfo   Icon:Fem-femmesh-print-info.svg   MenuLocation: Menu contestuale dell'oggetto mesh → Informazioni di stampa   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand   */it   Name   *FEM_MeshPrintInfo   Name/it   *FEM MeshPrintInfo   Icon   *Fem-femmesh-print-info.svg   MenuLocation   * Menu contestuale dell'oggetto mesh → Informazioni di stampa   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -33,7 +33,7 @@ setup()
 print(App.ActiveDocument.Mesh.FemMesh)
 }}
 
-will output the following result:
+will output the following result   *
 
 
 {{code|code=
@@ -41,24 +41,24 @@ will output the following result:
 ========================== Dump contents of mesh ==========================
 
 
-1) Total number of nodes:       228
-2) Total number of edges:       0
-3) Total number of faces:       0
-4) Total number of polygons:    0
-5) Total number of volumes:     79
-6) Total number of polyhedrons: 0
+1) Total number of nodes   *       228
+2) Total number of edges   *       0
+3) Total number of faces   *       0
+4) Total number of polygons   *    0
+5) Total number of volumes   *     79
+6) Total number of polyhedrons   * 0
 
-7) Total number of linear edges:    0
-8) Total number of linear faces:    0
-9) Total number of linear volumes:  0
+7) Total number of linear edges   *    0
+8) Total number of linear faces   *    0
+9) Total number of linear volumes   *  0
 
-10) Total number of quadratic edges:    0
-11) Total number of quadratic faces:    0
-12) Total number of quadratic volumes:  79
-12.1) Number of quadratic hexahedrons:  0
-12.2) Number of quadratic tetrahedrons: 79
-12.3) Number of quadratic prisms:       0
-12.4) Number of quadratic pyramids:     0
+10) Total number of quadratic edges   *    0
+11) Total number of quadratic faces   *    0
+12) Total number of quadratic volumes   *  79
+12.1) Number of quadratic hexahedrons   *  0
+12.2) Number of quadratic tetrahedrons   * 79
+12.3) Number of quadratic prisms   *       0
+12.4) Number of quadratic pyramids   *     0
 
 ===========================================================================
 }}

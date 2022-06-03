@@ -4,13 +4,13 @@
 
 {{TOCright}}
 
-Macro to export your model to the raytracing program [Kerkythea](http://www.kerkythea.net/cms/).
+Macro to export your model to the raytracing program [Kerkythea](http   *//www.kerkythea.net/cms/).
 
 ## References
 
--   Author: marmni
--   Home page: <https://github.com/marmni>
--   Source code on github: <https://github.com/marmni/FreeCAD-Kerkythea>
+-   Author   * marmni
+-   Home page   * <https   *//github.com/marmni>
+-   Source code on github   * <https   *//github.com/marmni/FreeCAD-Kerkythea>
 
 ## Tools
 
@@ -28,20 +28,24 @@ See [How to install macros](How_to_install_macros.md)
 
 ## Links to Kerkythea WB 
 
--   Workbench Wiki:
--   FreeCAD Wiki: [FreeCAD to Kerkythea](Macro_FreeCAD_to_Kerkythea.md)
--   FreeCAD Forum: [Kerkythea Rendering System](http://forum.freecadweb.org/viewtopic.php?t=8861)
--   Tutorials:
--   Videos:
--   Files:
--   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php)
+-   Workbench Wiki   *
+-   FreeCAD Wiki   * [FreeCAD to Kerkythea](Macro_FreeCAD_to_Kerkythea.md)
+-   FreeCAD Forum   * [Kerkythea Rendering System](http   *//forum.freecadweb.org/viewtopic.php?t=8861)
+-   Tutorials   *
+-   Videos   *
+-   Files   *
+-   Report bugs   * Please report bugs at [FreeCAD forum](http   *//forum.freecadweb.org/index.php)
 
 ## Other useful links 
 
--   [FreeCAD-POV-Ray](https://github.com/marmni/FreeCAD-POV-Ray_Col)
+-   [FreeCAD-POV-Ray](https   *//github.com/marmni/FreeCAD-POV-Ray_Col)
 -   [Macros recipes](Macros_recipes.md)
 -   [FreeCAD Download](Download.md)
 -   [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
+
+
+
+[Category   *Macros](Category_Macros.md) [Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

@@ -1,6 +1,8 @@
 # Category:Arch/ja
 Pages relating to Architectural and Building Information Management
 
+[Category   *User Documentation/ja](Category   *User_Documentation/ja.md) [Category   *BIM/ja](Category   *BIM/ja.md) [Category   *Workbenches/ja](Category   *Workbenches/ja.md)
+
 ### Contents
 
 |     |     |     |

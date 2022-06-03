@@ -1,49 +1,49 @@
-# <img alt="ícone da bancada de trabalho Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/pt-br
+# <img alt="ícone da bancada de trabalho Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width   *64px;"> Spreadsheet Workbench/pt-br
 
 ## Introdução
 
-A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [bancada de trabalho Spreadsheet](Spreadsheet_Workbench.md) permite criar e editar planilhas, usar dados da planilha como parâmetros em um modelo, preencher a planilha com dados recuperados de um modelo, realizar cálculos e exportar os dados para outras aplicações de planilhas como o LibreOffice ou o Microsoft Excel.
+A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [bancada de trabalho Spreadsheet](Spreadsheet_Workbench.md) permite criar e editar planilhas, usar dados da planilha como parâmetros em um modelo, preencher a planilha com dados recuperados de um modelo, realizar cálculos e exportar os dados para outras aplicações de planilhas como o LibreOffice ou o Microsoft Excel.
 
 
 {{TOCright}}
 
-<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
+<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width   *600px;"> 
 *Uma planilha com determinadas células preenchidas com texto e quantidades*
 
 ## Ferramentas
 
--   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Criar planilha](Spreadsheet_CreateSheet/pt-br.md): criar uma nova planilha de cálculo.
+-   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *24px;"> [Criar planilha](Spreadsheet_CreateSheet/pt-br.md)   * criar uma nova planilha de cálculo.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Import](Spreadsheet_Import.md): import a CSV file into a spreadsheet.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Import](Spreadsheet_Import.md)   * import a CSV file into a spreadsheet.
 
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Export](Spreadsheet_Export.md): export a CSV file from a spreadsheet.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Export](Spreadsheet_Export.md)   * export a CSV file from a spreadsheet.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Merge cells](Spreadsheet_MergeCells.md): merge selected cells.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Merge cells](Spreadsheet_MergeCells.md)   * merge selected cells.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Split cell](Spreadsheet_SplitCell.md): split previously merged cells.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Split cell](Spreadsheet_SplitCell.md)   * split previously merged cells.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Align left](Spreadsheet_AlignLeft.md): align the contents of selected cells to the left.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Align left](Spreadsheet_AlignLeft.md)   * align the contents of selected cells to the left.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Align center](Spreadsheet_AlignCenter.md): align the contents of selected cells to the center horizontally.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Align center](Spreadsheet_AlignCenter.md)   * align the contents of selected cells to the center horizontally.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Align right](Spreadsheet_AlignRight.md): align the contents of selected cells to the right.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Align right](Spreadsheet_AlignRight.md)   * align the contents of selected cells to the right.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Align top](Spreadsheet_AlignTop.md): align the contents of selected cells to the top.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Align top](Spreadsheet_AlignTop.md)   * align the contents of selected cells to the top.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Align vertical center](Spreadsheet_AlignVCenter.md): align the contents of selected cells to the center vertically.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Align vertical center](Spreadsheet_AlignVCenter.md)   * align the contents of selected cells to the center vertically.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Align bottom](Spreadsheet_AlignBottom.md): top align the contents of selected cells to the bottom.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Align bottom](Spreadsheet_AlignBottom.md)   * top align the contents of selected cells to the bottom.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Style bold](Spreadsheet_StyleBold.md): set the contents of selected cells to bold.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Style bold](Spreadsheet_StyleBold.md)   * set the contents of selected cells to bold.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Style italic](Spreadsheet_StyleItalic.md): set the contents of selected cells to italic.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Style italic](Spreadsheet_StyleItalic.md)   * set the contents of selected cells to italic.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Style underline](Spreadsheet_StyleUnderline.md): set the contents of selected cells to underlined.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Style underline](Spreadsheet_StyleUnderline.md)   * set the contents of selected cells to underlined.
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Definir pseudônimo](Spreadsheet_SetAlias/pt-br.md): definir alias para células selecionadas.
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Definir pseudônimo](Spreadsheet_SetAlias/pt-br.md)   * definir alias para células selecionadas.
 
 
 </div>
@@ -58,7 +58,7 @@ A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [bancad
 
 ## Preferences
 
--   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Preferences](Spreadsheet_Preferences.md): the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Preferences](Spreadsheet_Preferences.md)   * the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
 
 ## Insert and remove rows and columns 
 
@@ -70,7 +70,7 @@ Note that removing rows or columns with data can break the spreadsheet and your 
 
 ## Cut and copy-paste cells 
 
-Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations   * **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
 
 The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
 
@@ -83,20 +83,20 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 <div class="mw-translate-fuzzy">
 
-As propriedades de uma célula de planilha podem ser editadas com um clique com o botão direito do mouse sobre uma célula. As seguintes propriedades o diálogo aparece:
+As propriedades de uma célula de planilha podem ser editadas com um clique com o botão direito do mouse sobre uma célula. As seguintes propriedades o diálogo aparece   *
 
 
 </div>
 
 ![](images/SpreadsheetCellPropDialog.png )
 
-Conforme indicado pelas abas, as seguintes propriedades podem ser alteradas:
+Conforme indicado pelas abas, as seguintes propriedades podem ser alteradas   *
 
--   Cor: Cor do texto e cor de fundo
--   Alinhamento: Alinhamento horizontal e vertical do texto
--   Estilo: Estilo do texto: negrito, itálico, sublinhado
--   Unidades: Unidades de exibição para esta célula. Por favor, leia a seção abaixo [Unidades](#Unidades.md).
--   Pseudônimo: Defina um [pseudônimo](Spreadsheet_SetAlias/pt-br.md) para esta célula. Este apelido pode ser usado em fórmulas celulares e também em [expressões](Expressions/pt-br.md) gerais; veja a seção [Dados da planilha em expressões](#Dados_da_planilha_em_expressões.md) para mais informações.
+-   Cor   * Cor do texto e cor de fundo
+-   Alinhamento   * Alinhamento horizontal e vertical do texto
+-   Estilo   * Estilo do texto   * negrito, itálico, sublinhado
+-   Unidades   * Unidades de exibição para esta célula. Por favor, leia a seção abaixo [Unidades](#Unidades.md).
+-   Pseudônimo   * Defina um [pseudônimo](Spreadsheet_SetAlias/pt-br.md) para esta célula. Este apelido pode ser usado em fórmulas celulares e também em [expressões](Expressions/pt-br.md) gerais; veja a seção [Dados da planilha em expressões](#Dados_da_planilha_em_expressões.md) para mais informações.
 
 ## Expressões celulares 
 
@@ -105,12 +105,12 @@ Uma célula de planilha pode conter um texto ou uma expressão arbitrária. Tecn
 
 <div class="mw-translate-fuzzy">
 
-As expressões celulares podem conter números, funções, referências a outras células e referências a propriedades do modelo (Mas veja [Limitações atuais](#Limitações_atuais.md) abaixo). As células são referenciadas por sua coluna (letra CAPITULAR) e linha (número). Uma célula também pode ser referenciada por sua [pseudônimo](#alias_name.md)(abaixo).Exemplo: B4 + A6
+As expressões celulares podem conter números, funções, referências a outras células e referências a propriedades do modelo (Mas veja [Limitações atuais](#Limitações_atuais.md) abaixo). As células são referenciadas por sua coluna (letra CAPITULAR) e linha (número). Uma célula também pode ser referenciada por sua [pseudônimo](#alias_name.md)(abaixo).Exemplo   * B4 + A6
 
 
 </div>
 
-Nota: As expressões celulares são tratadas pelo FreeCAD como código de programação. Portanto, quando você edita uma célula, o conteúdo que você vê não está seguindo suas configurações de visualização:
+Nota   * As expressões celulares são tratadas pelo FreeCAD como código de programação. Portanto, quando você edita uma célula, o conteúdo que você vê não está seguindo suas configurações de visualização   *
 
 -   o separador decimal é sempre um ponto
 -   o número de decimais exibidos pode diferir do seu [configurações de preferências](Preferences_Editor/pt-br#Unidades.md)
@@ -137,21 +137,21 @@ Como indicado acima, é possível consultar os dados do modelo CAD em expressõe
 
 As expressões computadas nas células da planilha começam com um sinal de igual (\'=\'). Entretanto, o mecanismo de entrada na planilha tenta ser inteligente. Uma expressão pode ser inserida sem o \'=\' principal; se a string inserida for uma expressão válida, um \'=\' é automaticamente adicionado quando o final **Enter** é digitado. Se a string inserida não for uma expressão válida (freqüentemente o resultado de inserir algo com o caso errado, por exemplo, \"MyCube.length\" em vez de \"MyCube.Length\"), nenhum \'=\' inicial é adicionado e é tratado como simplesmente uma string de texto.
 
-*\' Nota:*\' O comportamento acima (inserção automática de \'=\') tem algumas ramificações desagradáveis:
+*\' Nota   **\' O comportamento acima (inserção automática de \'=\') tem algumas ramificações desagradáveis   *
 
 -   Se você quiser manter uma coluna de nomes correspondente ao [pseudônimos](#alias_name.md) em uma coluna de valores adjacente, você deve digitar o nome na coluna do rótulo *antes*, dando à célula na coluna de valores seu pseudônimo. Caso contrário, quando você digitar o apelido na coluna do rótulo, a planilha assumirá que é uma expressão e a mudará para \"=\"; e o texto exibido será o valor da célula \".
 -   Se você cometer um erro ao digitar o nome na coluna do rótulo e desejar corrigi-lo, não poderá simplesmente mudá-lo para o pseudônimo. Em vez disso, é preciso primeiro mudar o pseudônimo para outra coisa, depois corrigir o nome do texto na coluna do rótulo, depois mudar o pseudônimo na coluna do valor de volta ao original.
 
 Uma maneira de evitar essas questões é prefixar etiquetas de texto correspondentes a pseudônimos com uma cadeia fixa, tornando-as assim diferentes. Note que \"\_\" não vai funcionar, pois é convertido para \"=\". Entretanto, um espaço em branco, embora invisível, funcionará.
 
-A tabela a seguir mostra alguns exemplos assumindo que o modelo tem uma característica chamada \"MyCube\":
+A tabela a seguir mostra alguns exemplos assumindo que o modelo tem uma característica chamada \"MyCube\"   *
 
   Dados CAD                                                           Célula em Planilha             Resultado
     
   Comprimento paramétrico de um cubo de bancada de trabalho parcial   =MyCube.Length                 Comprimento com unidades mm
   Volume do Cubo                                                      =MyCube.Shape.Volume           Volume em mm³ sem unidades
-  Tipo da forma do cubo                                               =MyCube.Shape.ShapeType        String: Solid
-  Rótulo do Cubo                                                      =MyCube.Label                  String: MyCube
+  Tipo da forma do cubo                                               =MyCube.Shape.ShapeType        String   * Solid
+  Rótulo do Cubo                                                      =MyCube.Label                  String   * MyCube
   x-coordenada do centro de massa do Cubo                             =MyCube.Shape.CenterOfMass.x   x-coordenada em mm sem unidades
 
 ### Dados da planilha em expressões 
@@ -209,18 +209,18 @@ A edição de uma planilha irá desencadear uma recomputação do modelo 3D, mes
 
 <div class="mw-translate-fuzzy">
 
-Há três soluções para lidar com isso:
+Há três soluções para lidar com isso   *
 
-1.  Pular temporariamente as recomputas:
-    -   Na [Vista em árvore](Tree_view/pt-br.md) clique com o botão direito do mouse sobre o <img alt="" src=images/Document.svg  style="width:24px;"> documento que contém a planilha de cálculo.
+1.  Pular temporariamente as recomputas   *
+    -   Na [Vista em árvore](Tree_view/pt-br.md) clique com o botão direito do mouse sobre o <img alt="" src=images/Document.svg  style="width   *24px;"> documento que contém a planilha de cálculo.
     -   Selecione a opção **Skip recomputes** no menu de contexto.
     -   Há uma grande desvantagem para esta solução. Os novos valores inseridos na planilha não serão exibidos até que o documento seja recalculado. Em vez disso `#PENDENTE` é mostrado.
     -   Você pode recalcular manualmente, usando o comando [Atualização](Std_Refresh.md), ou desabilitar a opção **Skip recomputes** quando você terminar de editar.
-2.  Use uma macro para saltar automaticamente as recomputas durante a edição de uma planilha:
-    -   Download e execução [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
+2.  Use uma macro para saltar automaticamente as recomputas durante a edição de uma planilha   *
+    -   Download e execução [skipSheet.FCMacro](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   Esta solução economiza alguns passos em relação à primeira solução, mas também tem a desvantagem mencionada.
-3.  Colocar a planilha em um arquivo separado:
-    -   Você pode consultar os dados de uma planilha de um arquivo externo com esta sintaxe: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+3.  Colocar a planilha em um arquivo separado   *
+    -   Você pode consultar os dados de uma planilha de um arquivo externo com esta sintaxe   * `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
     -   A vantagem de ter a planilha em outro arquivo sobre o desligamento de recomputas é que a própria planilha é recalculada.
     -   A desvantagem é que o modelo não será recalculado automaticamente após alterações na planilha.
     -   No cenário onde você primeiro abre o arquivo \'planilha\', altera um ou mais valores e depois abre o arquivo \'modelo\', não haverá nenhuma indicação de que o modelo precisa ser recalculado. Mas se ambos os arquivos estiverem abertos, o ícone [Atualização](Std_Refresh/pt-br.md) será atualizado corretamente para o arquivo \'modelo\' após as mudanças no arquivo \'planilha\'.
@@ -232,7 +232,7 @@ Há três soluções para lidar com isso:
 
 A Planilha tem uma noção de dimensão (unidades) associada aos valores das células. Um número inserido sem uma unidade associada não tem dimensão. A unidade deve ser inserida imediatamente após o valor do número, sem espaço interveniente. Se um número tiver uma unidade associada, essa unidade será usada em todos os cálculos. Por exemplo, a multiplicação de dois comprimentos com a unidade mm dá uma área com a unidade mm².
 
-Se uma célula contém um valor que representa uma dimensão, ela deve ser inserida com sua unidade associada. Embora em muitos casos simples se possa sobreviver com um valor sem dimensão, é insensato não entrar com a unidade. Se um valor representando uma dimensão for inserido sem sua unidade associada, há algumas seqüências de operações que fazem com que o FreeCAD reclame de unidades incompatíveis em uma expressão quando ela aparece, a expressão deve ser válida. (Isto pode ser melhor compreendido visualizando [este tópico](https://forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) nos fóruns do FreeCAD.)
+Se uma célula contém um valor que representa uma dimensão, ela deve ser inserida com sua unidade associada. Embora em muitos casos simples se possa sobreviver com um valor sem dimensão, é insensato não entrar com a unidade. Se um valor representando uma dimensão for inserido sem sua unidade associada, há algumas seqüências de operações que fazem com que o FreeCAD reclame de unidades incompatíveis em uma expressão quando ela aparece, a expressão deve ser válida. (Isto pode ser melhor compreendido visualizando [este tópico](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) nos fóruns do FreeCAD.)
 
 Você pode mudar as unidades exibidas para um valor de célula usando o diálogo de propriedades [guia de unidades](#units_tab.md). (acima). Isto não altera o valor contido na célula; ele apenas converte o valor existente para exibição. O valor utilizado para os cálculos não muda, e os resultados das fórmulas que utilizam o valor não mudam. Por exemplo, uma célula contendo o valor \"5,08cm\" pode ser exibida como \"2in\", alterando o valor da aba de unidades para \"in\".
 
@@ -247,7 +247,7 @@ Ocasionalmente, pode ser desejável se livrar de uma dimensão em uma expressão
 
 <div class="mw-translate-fuzzy">
 
-As folhas podem ser importadas e exportadas para o formato [csv](https://en.wikipedia.org/wiki/Comma-separated_values) que também pode ser lido e escrito pela maioria das outras aplicações de planilhas como o Microsoft Excel ou o LibreOffice Calc. Ao importar arquivos para o FreeCAD, o delimitador (o caractere que é usado para separar colunas) deve ser o caracter TAB (que pode ser definido ao exportar de outras aplicações). A importação de um arquivo CSV está disponível a partir do menu **Planilha → Importar Planilha** ou clicando no ícone <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Esta função de importação não abre arquivos Excel ou qualquer outro formato de planilha eletrônica.
+As folhas podem ser importadas e exportadas para o formato [csv](https   *//en.wikipedia.org/wiki/Comma-separated_values) que também pode ser lido e escrito pela maioria das outras aplicações de planilhas como o Microsoft Excel ou o LibreOffice Calc. Ao importar arquivos para o FreeCAD, o delimitador (o caractere que é usado para separar colunas) deve ser o caracter TAB (que pode ser definido ao exportar de outras aplicações). A importação de um arquivo CSV está disponível a partir do menu **Planilha → Importar Planilha** ou clicando no ícone <img alt="" src=images/SpreadsheetImport.svg  style="width   *24px;">. Esta função de importação não abre arquivos Excel ou qualquer outro formato de planilha eletrônica.
 
 
 </div>
@@ -257,7 +257,7 @@ As folhas podem ser importadas e exportadas para o formato [csv](https://en.wiki
 
 <div class="mw-translate-fuzzy">
 
-Planilhas em formato Excel \"xlsx\" podem ser importadas através do menu **Arquivo → Import...**. As planilhas do Excel também podem ser abertas clicando no menu **Arquivo → Abrir...** ou clicando no ícone ou clicando no ícone <img alt="" src=images/Document-open.svg  style="width:24px;">. Nesses casos, é criado um novo documento com uma planilha dentro. As seguintes características são suportadas:
+Planilhas em formato Excel \"xlsx\" podem ser importadas através do menu **Arquivo → Import...**. As planilhas do Excel também podem ser abertas clicando no menu **Arquivo → Abrir...** ou clicando no ícone ou clicando no ícone <img alt="" src=images/Document-open.svg  style="width   *24px;">. Nesses casos, é criado um novo documento com uma planilha dentro. As seguintes características são suportadas   *
 
 
 </div>
@@ -286,14 +286,14 @@ Para lidar com a configuração da página necessária para impressão, as plani
 
 ## Limitações atuais 
 
-Verificações FreeCAD para dependências cíclicas. Por projeto, essa verificação pára no nível do objeto da planilha. Como conseqüência, não se deve ter uma planilha que contenha tanto células cujos valores são usados para especificar parâmetros para o modelo, quanto células cujos valores usam a saída do modelo. Por exemplo, você não pode ter células especificando o comprimento, largura e altura de um objeto, e outra célula que faz referência ao volume total da forma resultante. Esta restrição pode ser superada com duas planilhas: uma usada como fonte de dados para parâmetros de entrada no modelo e a outra usada para cálculos baseados nos dados geométricos resultantes.
+Verificações FreeCAD para dependências cíclicas. Por projeto, essa verificação pára no nível do objeto da planilha. Como conseqüência, não se deve ter uma planilha que contenha tanto células cujos valores são usados para especificar parâmetros para o modelo, quanto células cujos valores usam a saída do modelo. Por exemplo, você não pode ter células especificando o comprimento, largura e altura de um objeto, e outra célula que faz referência ao volume total da forma resultante. Esta restrição pode ser superada com duas planilhas   * uma usada como fonte de dados para parâmetros de entrada no modelo e a outra usada para cálculos baseados nos dados geométricos resultantes.
 
 ## Noções básicas de script 
 
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet   *   *Sheet","MySpreadsheet")
 sheet.Label = "Dimensions"
 
 sheet.set('A1','10mm')
@@ -312,7 +312,9 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Constraint InternalAngle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:A
-   MenuLocation:Sketch → Sketcher constraints → Constrain angle
-   SeeAlso:[Constrain distance](Sketcher_ConstrainDistance.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular.md)
+- GuiCommand   *
+   Name   *Constraint InternalAngle
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   Shortcut   *A
+   MenuLocation   *Sketch → Sketcher constraints → Constrain angle
+   SeeAlso   *[Constrain distance](Sketcher_ConstrainDistance.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular.md)
 ---
 
 # Sketcher ConstrainAngle/ro
@@ -29,7 +29,7 @@ Constrângerea de unghi este o [datum constraint](Sketcher_Workbench#Sketcher_Co
 
 ## Cum se folosește 
 
-Sunt patru căi diferite pentru ca această constrângere să fie aplicată:
+Sunt patru căi diferite pentru ca această constrângere să fie aplicată   *
 
 1.  Liniilor individuale
 2.  între linii
@@ -39,7 +39,7 @@ Sunt patru căi diferite pentru ca această constrângere să fie aplicată:
 
 </div>
 
-There are four different ways the constraint can be applied:
+There are four different ways the constraint can be applied   *
 
 -   to individual lines
 -   between lines
@@ -49,7 +49,7 @@ There are four different ways the constraint can be applied:
 
 <div class="mw-translate-fuzzy">
 
-Pentru a aplica constrângerea de unghi, trebuie urmați următorii pași:
+Pentru a aplica constrângerea de unghi, trebuie urmați următorii pași   *
 
 -   Selectați una, două sau trei entități în schiță. Modul va fi ales în funcție de selecție.
 -   Invocați constrângerea făcând clic pe pictograma de pe bara de instrumente sau selectând elementul din meniu sau utilizând comanda rapidă de la tastatură. Se afișează o fereastră de dialog contextual pentru editarea referinței.
@@ -67,16 +67,16 @@ Ca și în cazul oricărei constrângeri de referință, este posibil să modifi
 
 ### linie pantă unghi 
 
-**Accepted selection:** linie
+**Accepted selection   *** linie
 
 
 </div>
 
 ### Line slope angle 
 
-**Accepted selection:** line
+**Accepted selection   *** line
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width   *600px;">
 
 Constrângerea stabilește unghiul polar al direcției liniei. Este unghiul dintre linie și axa X a schiței.
 
@@ -87,12 +87,12 @@ Constrângerea stabilește unghiul polar al direcției liniei. Este unghiul dint
 
 ### arc span (v0.15) 
 
-**Accepted selection:** arc de cerc
+**Accepted selection   *** arc de cerc
 
 
 </div>
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width   *600px;">
 
 In acest mod, constrângerea fixată unghiulară a unui arc circular.
 
@@ -103,12 +103,12 @@ In acest mod, constrângerea fixată unghiulară a unui arc circular.
 
 ### between lines 
 
-**Accepted selection:** line + line
+**Accepted selection   *** line + line
 
 
 </div>
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width   *600px;">
 
 În acest mod, constrângerea stabilește unghiul dintre două linii. Nu este necesar ca liniile să se intersecteze.
 
@@ -119,12 +119,12 @@ In acest mod, constrângerea fixată unghiulară a unui arc circular.
 
 ### între curve la interseția (angle-via-point) (v0.15) 
 
-**Accepted selection:** any line/curve + any line/curve + any point
+**Accepted selection   *** any line/curve + any line/curve + any point
 
 
 </div>
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width   *600px;">
 
 În acest mod, unghiul dintre două curbe este limitat la punctul de intersecție. Punctul de intersecție poate fi pe extensiile curbelor. Punctul trebuie specificat explicit, deoarece curbele se intersectează de obicei în mai multe puncte.
 
@@ -141,7 +141,7 @@ Pentru ca constrângerea să funcționeze corect, punctul trebuie să fie pe amb
 
 <div class="mw-translate-fuzzy">
 
-Constrângerea Unghiulară poate fi creată cu [macros](macros.md) și de la consola Python console utilizând următoarele:
+Constrângerea Unghiulară poate fi creată cu [macros](macros.md) și de la consola Python console utilizând următoarele   *
 
 
 </div>
@@ -164,17 +164,17 @@ Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpo
 
 <div class="mw-translate-fuzzy">
 
-unde:
+unde   *
 
-:\* Sketch este un obiect tip schiță
+   ** Sketch este un obiect tip schiță
 
-:\* iline, iline1, iline2 sunt numere întregi specificând liniile printr-un număr ordinal in Sketch.
+   ** iline, iline1, iline2 sunt numere întregi specificând liniile printr-un număr ordinal in Sketch.
 
-:\* pointpos1, pointpos2 should be 1 for start point and 2 for end point. The choice of endpoints allows to set internal angle (or external), and it affects how the constraint is drawn on the screen.
+   ** pointpos1, pointpos2 should be 1 for start point and 2 for end point. The choice of endpoints allows to set internal angle (or external), and it affects how the constraint is drawn on the screen.
 
-:\* geoidpoint and pointpos in AngleViaPoint are the indexes specifying the point of intersection.
+   ** geoidpoint and pointpos in AngleViaPoint are the indexes specifying the point of intersection.
 
-:\* angle este valoarea unghiului în radiani. Unghiul este contorizat între vectorii tangenți în sens antiorar. Vectorii tangenți indică de la început până la capăt liniile (sau invers, dacă punctul final este indicat liniar) și în sens antiorar pentru cercuri, arce și elipse. Cantitatea este, de asemenea, acceptată ca un unghi (de exempluApp.Units.Quantity('45 deg'))
+   ** angle este valoarea unghiului în radiani. Unghiul este contorizat între vectorii tangenți în sens antiorar. Vectorii tangenți indică de la început până la capăt liniile (sau invers, dacă punctul final este indicat liniar) și în sens antiorar pentru cercuri, arce și elipse. Cantitatea este, de asemenea, acceptată ca un unghi (de exempluApp.Units.Quantity('45 deg'))
 
 
 </div>

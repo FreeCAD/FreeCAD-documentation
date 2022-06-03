@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh Scale
-   Name/fr:Mesh Echelle
-   MenuLocation:Maillage → Echelle...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Mesh Scale
+   Name/fr   *Mesh Echelle
+   MenuLocation   *Maillage → Echelle...
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh Scale/fr
@@ -15,7 +15,7 @@ La commande **Mesh Echelle** met à l\'échelle les objets maillés.
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets maillés.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_Scale.svg" width=16px> [Mettre à l'échelle les maillages sélectionnés](Mesh_Scale/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Scale.svg" width=16px> Échelle...** dans le menu.

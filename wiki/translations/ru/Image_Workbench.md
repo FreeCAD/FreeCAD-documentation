@@ -1,4 +1,4 @@
-# <img alt="Логотип верстака Image" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/ru
+# <img alt="Логотип верстака Image" src=images/Workbench_Image.svg  style="width   *64px;"> Image Workbench/ru
 
 
 {{TOCright}}
@@ -15,9 +15,9 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Image-import.svg  style="width:32px;"> [Open](Image_Open/ru.md): открыть изображение в новой точке зрения.
--   <img alt="" src=images/Image-import-to-plane.svg  style="width:32px;"> [Import to plane](Image_CreateImagePlane/ru.md): импортировать изображение на плоскость в окне трёхмерного вида.
--   <img alt="" src=images/Image-scale.svg  style="width:32px;"> [Scaling](Image_Scaling/ru.md): масштабировать изображение, импортированное на плоскость.
+-   <img alt="" src=images/Image-import.svg  style="width   *32px;"> [Open](Image_Open/ru.md)   * открыть изображение в новой точке зрения.
+-   <img alt="" src=images/Image-import-to-plane.svg  style="width   *32px;"> [Import to plane](Image_CreateImagePlane/ru.md)   * импортировать изображение на плоскость в окне трёхмерного вида.
+-   <img alt="" src=images/Image-scale.svg  style="width   *32px;"> [Scaling](Image_Scaling/ru.md)   * масштабировать изображение, импортированное на плоскость.
 
 
 </div>
@@ -50,7 +50,9 @@
 
 {{Image Tools navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std CascadeWindows
-   Name/fr:Std Cascade
-   MenuLocation:Fenêtre  → Fenêtres en cascade
-   Workbenches:Tous
-   SeeAlso:[Std Mosaïque](Std_TileWindows/fr.md)
+- GuiCommand   */fr
+   Name   *Std CascadeWindows
+   Name/fr   *Std Cascade
+   MenuLocation   *Fenêtre  → Fenêtres en cascade
+   Workbenches   *Tous
+   SeeAlso   *[Std Mosaïque](Std_TileWindows/fr.md)
 ---
 
 # Std CascadeWindows/fr
@@ -13,7 +13,7 @@
 
 La commande **Std Cascade** réorganise les fenêtres dans la [Zone de vue principale](Main_view_area/fr.md) afin qu\'elles soient toutes visibles mais se chevauchent. Le résultat est déterminé par l\'ordre dans lequel les fenêtres ont été activées pour la dernière fois.
 
-<img alt="" src=images/Std_CascadeWindows_example.png  style="width:600px;"> 
+<img alt="" src=images/Std_CascadeWindows_example.png  style="width   *600px;"> 
 *Zone de vue principale avec trois fenêtres en cascade*
 
 ## Utilisation

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Draft ToggleConstructionMode
-   Name/es:Draft ToggleConstructionMode
-   MenuLocation:Boceto → Utilidades → Alternar modo de construcción
-   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**C** **M**
+- GuiCommand   */es
+   Name   *Draft ToggleConstructionMode
+   Name/es   *Draft ToggleConstructionMode
+   MenuLocation   *Boceto → Utilidades → Alternar modo de construcción
+   Workbenches   *[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut   ***C** **M**
 ---
 
 # Draft ToggleConstructionMode/es
@@ -24,19 +24,19 @@ El módulo de Boceto dispone de un modo de construcción, que permite dibujar ci
 
 </div>
 
-<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Bug in version 0.19 
 
-In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddConstruction.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
+In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddConstruction.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
 
 ## Usage
 
@@ -59,8 +59,8 @@ In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddCo
 
 ## Preferences
 
--   To change the label (<small>(v0.20)</small> ) of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
--   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
+-   To change the label (<small>(v0.20)</small> ) of the construction group   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
+-   To change the color that is used   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
 
 

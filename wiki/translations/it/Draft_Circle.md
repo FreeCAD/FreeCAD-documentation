@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Draft Circle
-   Name/it:Cerchio
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Cerchio   Shortcut:**C** **I**
-   SeeAlso:[Arco](Draft_Arc/it.md), [Ellisse](Draft_Ellipse/it.md)<br/>[Macro CirclePlus](Macro_CirclePlus/it.md)
+- GuiCommand   */it
+   Name   *Draft Circle
+   Name/it   *Cerchio
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Cerchio   Shortcut   ***C** **I**
+   SeeAlso   *[Arco](Draft_Arc/it.md), [Ellisse](Draft_Ellipse/it.md)<br/>[Macro CirclePlus](Macro_CirclePlus/it.md)
 ---
 
 # Draft Circle/it
@@ -30,7 +30,7 @@ Questo strumento funziona allo stesso modo dello strumento [Arco](Draft_Arc/it.m
 
 </div>
 
-<img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Circle_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +44,7 @@ Questo strumento funziona allo stesso modo dello strumento [Arco](Draft_Arc/it.m
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -91,17 +91,17 @@ Il cerchio può essere modificato facendo doppio clic sull\'elemento nella vista
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -113,15 +113,15 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### Dati
 
--    **First Angle**: specifica l\'angolo iniziale del cerchio; normalmente 0°.
+-    **First Angle**   * specifica l\'angolo iniziale del cerchio; normalmente 0°.
 
--    **Last Angle**: specifica l\'angolo finale del cerchio; normalmente 0°.
+-    **Last Angle**   * specifica l\'angolo finale del cerchio; normalmente 0°.
 
--    **Radius**: specifica il raggio del cerchio.
+-    **Radius**   * specifica il raggio del cerchio.
 
--    **Make Face**: specifica se il Cerchio crea una faccia o no. Se è `True` viene creata una faccia, altrimenti solo la circonferenza è considerata parte dell\'oggetto. Questa proprietà funziona solo se la forma è una circonferenza completa.
+-    **Make Face**   * specifica se il Cerchio crea una faccia o no. Se è `True` viene creata una faccia, altrimenti solo la circonferenza è considerata parte dell\'oggetto. Questa proprietà funziona solo se la forma è una circonferenza completa.
 
-:   Per essere un cerchio completo **First Angle** e **Last Angle** devono avere lo stesso valore; altrimenti, viene visualizzato un [Arco](Draft_Arc/it.md). I valori 0° e 360° non sono considerati uguali, quindi se si utilizzano questi due valori, il cerchio non forma una faccia.
+   *   Per essere un cerchio completo **First Angle** e **Last Angle** devono avere lo stesso valore; altrimenti, viene visualizzato un [Arco](Draft_Arc/it.md). I valori 0° e 360° non sono considerati uguali, quindi se si utilizzano questi due valori, il cerchio non forma una faccia.
 
 
 </div>
@@ -136,9 +136,9 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### Vista
 
--    **Pattern**: specifica un tipo di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia del cerchio. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
+-    **Pattern**   * specifica un tipo di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia del cerchio. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
 
--    **Pattern Size**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
+-    **Pattern Size**   * specifica la dimensione della [Campitura](Draft_Pattern/it.md).
 
 
 </div>
@@ -151,7 +151,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -161,7 +161,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Cerchio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Cerchio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -187,7 +187,7 @@ circle = make_circle(Part.Edge, placement=None, face=None, startangle=None, enda
 
 </div>
 
-Esempio: 
+Esempio   * 
 ```python
 import FreeCAD as App
 import Draft

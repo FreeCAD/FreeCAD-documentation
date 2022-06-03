@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std Windows
-   Name/fr:Std Fenêtres
-   MenuLocation:Fenêtres → Fenêtres...
-   Workbenches:Tous
-   SeeAlso:[Std Suivante](Std_ActivateNextWindow/fr.md), [Std Précédente](Std_ActivatePrevWindow/fr.md)
+- GuiCommand   */fr
+   Name   *Std Windows
+   Name/fr   *Std Fenêtres
+   MenuLocation   *Fenêtres → Fenêtres...
+   Workbenches   *Tous
+   SeeAlso   *[Std Suivante](Std_ActivateNextWindow/fr.md), [Std Précédente](Std_ActivatePrevWindow/fr.md)
 ---
 
 # Std Windows/fr
@@ -20,7 +20,7 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 
 1.  Sélectionnez l\'option **Fenêtres → <img src="images/Std_Windows.svg" width=16px> Fenêtres...** dans le menu.
 2.  La boîte de dialogue Choisir une fenêtre s\'ouvre.
-3.  Effectuez l\'une des actions suivantes:
+3.  Effectuez l\'une des actions suivantes   *
     -   Sélectionnez une fenêtre dans la liste et appuyez sur le bouton **Activer**.
     -   Double-cliquez sur une fenêtre de la liste.
 4.  La boîte de dialogue se ferme.

@@ -1,9 +1,9 @@
 # Online Help Toc/es
-Esta es la tabla de contenidos usada para construcción automática de el sistema de \'\'\'ayuda en linea \'\'\' en FreeCAD. Una versión imprimible de este manual es tambien disponible en [paginas liberadas](https://github.com/FreeCAD/FreeCAD/releases). Si tienes alguna pregunta o necesitas ayuda con FreeCAD por favor consulta la [página de ayuda](Help/es.md) incluyendo los foros y grupos de chat.
+Esta es la tabla de contenidos usada para construcción automática de el sistema de \'\'\'ayuda en linea \'\'\' en FreeCAD. Una versión imprimible de este manual es tambien disponible en [paginas liberadas](https   *//github.com/FreeCAD/FreeCAD/releases). Si tienes alguna pregunta o necesitas ayuda con FreeCAD por favor consulta la [página de ayuda](Help/es.md) incluyendo los foros y grupos de chat.
 
 Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introduction.md).
 
-<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
+<img alt="" src=images/Online_Help_Toc.svg  style="width   *64px;">
 
 -   Introducción
     -   [Bienvenido](Online_Help_Startpage/es.md)
@@ -23,28 +23,28 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
     -   [Editor de Propiedades](Property_editor/es.md)
 
 -   Los [Ambientes de trabajo](Workbenches/es.md)
-    -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Herramientas estándar para todos los ambientes de trabajo](Std_Base/es.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;">[El Ambiente de trabajo Arquitectura](Arch_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;">[El Ambiente de trabajo Boceto](Draft_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;">[El Ambiente de trabajo MEF](FEM_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;">[El Ambiente de trabajo Imagen](Image_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;">[El Ambiente de trabajo Inspección](Inspection_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;">[El Ambiente de trabajo Malla](Mesh_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;">[El Ambiente de trabajo OpenSCAD](OpenSCAD_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [El Ambiente de trabajo Pieza](Part_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;">[El Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;">[El Ambiente de trabajo Trayectoria](Path_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;">[El Ambiente de trabajo Puntos](Points_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;">[El Ambiente de trabajo Trazado de rayos](Raytracing_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;">[El Ambiente de trabajo Ingeniería inversa](Reverse_Engineering_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;">[El Ambiente de trabajo Robot](Robot_Workbench.md)
-    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;">[El Ambiente de trabajo Dibujante](Sketcher_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;">[El Ambiente de trabajo Hoja de calculo](Spreadsheet_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;">[El Ambiente de trabajo Inicio](Start_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;">[El Ambiente de trabajo de superficie](Surface_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;">[El Ambiente de trabajo Dibujo técnico](TechDraw_Workbench/es.md)
-    -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [El Ambiente de trabajo marco de pruebas](Testing/es.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[El Ambiente de trabajo Web](Web_Workbench/es.md)
+    -   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Herramientas estándar para todos los ambientes de trabajo](Std_Base/es.md)
+    -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;">[El Ambiente de trabajo Arquitectura](Arch_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;">[El Ambiente de trabajo Boceto](Draft_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;">[El Ambiente de trabajo MEF](FEM_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;">[El Ambiente de trabajo Imagen](Image_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;">[El Ambiente de trabajo Inspección](Inspection_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;">[El Ambiente de trabajo Malla](Mesh_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;">[El Ambiente de trabajo OpenSCAD](OpenSCAD_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> [El Ambiente de trabajo Pieza](Part_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;">[El Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;">[El Ambiente de trabajo Trayectoria](Path_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;">[El Ambiente de trabajo Puntos](Points_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;">[El Ambiente de trabajo Trazado de rayos](Raytracing_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;">[El Ambiente de trabajo Ingeniería inversa](Reverse_Engineering_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;">[El Ambiente de trabajo Robot](Robot_Workbench.md)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;">[El Ambiente de trabajo Dibujante](Sketcher_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;">[El Ambiente de trabajo Hoja de calculo](Spreadsheet_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;">[El Ambiente de trabajo Inicio](Start_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;">[El Ambiente de trabajo de superficie](Surface_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;">[El Ambiente de trabajo Dibujo técnico](TechDraw_Workbench/es.md)
+    -   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> [El Ambiente de trabajo marco de pruebas](Testing/es.md)
+    -   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;">[El Ambiente de trabajo Web](Web_Workbench/es.md)
     -   [El Ambiente de trabajo externos](External_workbenches/es.md)
 
 -   [Lista de todos los comandos de FreeCAD](List_of_Commands/es.md)
@@ -103,12 +103,17 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
         -   [Añadir un ambiente de trabajo](Workbench_creation/es.md)
         -   [Instalando módulos extra de python](Extra_python_modules/es.md)
     -   [Fuentes de documentación](Source_documentation/es.md)
-    -   [API](https://www.freecadweb.org/api/)
+    -   [API](https   *//www.freecadweb.org/api/)
 
 -   Créditos
     -   [Contribuciones](Contributors/es.md)
 
 -   [Glosario](Glossary/es.md)
+
+
+
+
+[Category   *Documentation](Category_Documentation.md)
 
 
 

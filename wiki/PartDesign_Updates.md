@@ -12,9 +12,9 @@ FreeCAD as a modeling tool should have a focus on a streamlined and efficient wo
     1.  The tests can be designed to reproduce already reported bugs and then be used as a way to debug and verify the solution.
     2.  All newly introduced or updated functionality should be tested with a unit test
 3.  Enhance the tools functionality and improve the workflow.
-    1.  Enhancement: For example the new Pipe tool needs more features and robustness, Pad/Pocket can be enhanced with more functionality, etc. It is part of the students task to identify areas for improvement and introduce the code
-    2.  Workflow updates: The Attachment editor currently works well but has UI / workflow issues. The student can propose a new way of handling attachments in the GUI and introduce the code.
-    3.  New tools: There are a few tools missing that may be handy for the workflow, for example a splitting tool (Split faces by sketch). The studend can propose tools and introduce code.
+    1.  Enhancement   * For example the new Pipe tool needs more features and robustness, Pad/Pocket can be enhanced with more functionality, etc. It is part of the students task to identify areas for improvement and introduce the code
+    2.  Workflow updates   * The Attachment editor currently works well but has UI / workflow issues. The student can propose a new way of handling attachments in the GUI and introduce the code.
+    3.  New tools   * There are a few tools missing that may be handy for the workflow, for example a splitting tool (Split faces by sketch). The studend can propose tools and introduce code.
 
 ## Expected Outcome 
 
@@ -38,7 +38,9 @@ As this work touches the core of the FreeCAD code you will get a deep and full u
 
 Medium
 
-### Additional Information
+### Additional Information 
+
+[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 
 

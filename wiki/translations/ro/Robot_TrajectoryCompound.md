@@ -1,6 +1,6 @@
 # Robot TrajectoryCompound/ro
 ---
-- GuiCommand:   Name:Robot TrajectoryCompound   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → TrajectoryCompound---
+- GuiCommand   *   Name   *Robot TrajectoryCompound   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Robot → TrajectoryCompound---
 
 
 </div>
@@ -20,7 +20,7 @@ Creează un compus din mai multe traiectorii singulare.
 
 #### Utilizare
 
-1.  Click pe <img alt="" src=images/Robot_TrajectoryCompound.png  style="width:32px;">
+1.  Click pe <img alt="" src=images/Robot_TrajectoryCompound.png  style="width   *32px;">
 2.  Un obiect TrajectoryCompound vidă va fi creată
 3.  Selectați \"Model\"-panel
 4.  Selectați Trajectories/Edge2Trac/DressUp-objects în vizualizarea arborescentă

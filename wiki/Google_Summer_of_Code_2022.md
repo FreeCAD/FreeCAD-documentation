@@ -1,7 +1,7 @@
 # Google Summer of Code 2022
-FreeCAD started participating to the Google student coding program ([GSoC](https://summerofcode.withgoogle.com/)) in 2016. We participate through a [combined effort](http://brlcad.org/w/index.php?title=Google_Summer_of_Code/Project_Ideas#FreeCAD_Projects) of many CAx projects, under the [BRL-CAD](https://brlcad.org) umbrella. Due to the [combined application](http://brlcad.org/w/index.php?title=Google_Summer_of_Code/Project_Ideas#FreeCAD_Projects) at GSoC many links will lead from here to the [BRLcad wiki](http://brlcad.org/wiki/Google_Summer_of_Code), which is used as single place for everything.
+FreeCAD started participating to the Google student coding program ([GSoC](https   *//summerofcode.withgoogle.com/)) in 2016. We participate through a [combined effort](http   *//brlcad.org/w/index.php?title=Google_Summer_of_Code/Project_Ideas#FreeCAD_Projects) of many CAx projects, under the [BRL-CAD](https   *//brlcad.org) umbrella. Due to the [combined application](http   *//brlcad.org/w/index.php?title=Google_Summer_of_Code/Project_Ideas#FreeCAD_Projects) at GSoC many links will lead from here to the [BRLcad wiki](http   *//brlcad.org/wiki/Google_Summer_of_Code), which is used as single place for everything.
 
-This year we\'re trying to unify things further between the different projects under the BRL-CAD umbrella at <https://github.com/opencax/GSoC> Check the \"issues\" link for all the project ideas of the group.
+This year we\'re trying to unify things further between the different projects under the BRL-CAD umbrella at <https   *//github.com/opencax/GSoC> Check the \"issues\" link for all the project ideas of the group.
 
 ## How it works 
 
@@ -11,7 +11,7 @@ This year we\'re trying to unify things further between the different projects u
 -   Google allocates a certain number of slots to each participating organization
     -   That, in turn, determines how many student developers work with that organization.
 
-If you want to get involved have a look at the [getting started checklist](http://brlcad.org/wiki/Summer_of_Code/Checklist). Whether you\'re applying or accepted, we\'ve itemized everything you need to do in this list. We\'re here to help you become new open source developers, so don\'t be shy if you have any questions.
+If you want to get involved have a look at the [getting started checklist](http   *//brlcad.org/wiki/Summer_of_Code/Checklist). Whether you\'re applying or accepted, we\'ve itemized everything you need to do in this list. We\'re here to help you become new open source developers, so don\'t be shy if you have any questions.
 
 We are proposing a number of project ideas here. But you are in no way forced to follow our ideas. You can propose anything you would like to work on, that you thing would be an interesting project.
 
@@ -31,7 +31,7 @@ Our whole umbrella organisation will be allocated by Google a certain number slo
 
 ## Possible Mentors 
 
-The best way to contact us is through the [FreeCAD GSoC 2022 discussion thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=65812).
+The best way to contact us is through the [FreeCAD GSoC 2022 discussion thread](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=65812).
 
 ## Implementation Ideas 
 
@@ -50,6 +50,8 @@ Best of luck to all applicants!
 -   [Google Summer of Code 2019](Google_Summer_of_Code_2019.md)
 -   [Google Summer of Code 2018](Google_Summer_of_Code_2018.md)
 -   [Google Summer of Code 2017](Google_Summer_of_Code_2017.md)
+
+[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 
 

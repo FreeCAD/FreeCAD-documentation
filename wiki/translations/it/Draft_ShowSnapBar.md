@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Draft ShowSnapBar
-   Name/it:Barra Snap
-   MenuLocation:Draft → Utilità → Mostra barra Snap
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Agganciare](Draft_Snap/it.md)
+- GuiCommand   */it
+   Name   *Draft ShowSnapBar
+   Name/it   *Barra Snap
+   MenuLocation   *Draft → Utilità → Mostra barra Snap
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso   *[Agganciare](Draft_Snap/it.md)
 ---
 
 # Draft ShowSnapBar/it
@@ -14,7 +14,7 @@
 
 ## Descrizione
 
-The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft ShowSnapBar** command shows the Draft Snap toolbar. Some users only want to see this toolbar when a command is active and have changed their [preferences](Draft_Snap#Preferences.md) accordingly. For them this command is a way to show the toolbar to inspect, and optionally change, the [snap options](Draft_Snap.md).
+The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width   *24px;"> **Draft ShowSnapBar** command shows the Draft Snap toolbar. Some users only want to see this toolbar when a command is active and have changed their [preferences](Draft_Snap#Preferences.md) accordingly. For them this command is a way to show the toolbar to inspect, and optionally change, the [snap options](Draft_Snap.md).
 
 ## Utilizzo
 
@@ -30,7 +30,7 @@ The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft S
 
 ## Notes
 
--   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
+-   Like any toolbar the Draft Snap toolbar can be toggled using these methods   *
     -   Select the **View → Toolbars → Draft Snap** option from the menu.
     -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
 

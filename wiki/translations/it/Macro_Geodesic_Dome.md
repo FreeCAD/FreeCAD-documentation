@@ -8,7 +8,7 @@
 |Version=01.00
 |Date=2019-03-24
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/File:Macro_Geodesic_Dome.svg ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/File   *Macro_Geodesic_Dome.svg ToolBar Icon]
 }}
 
 ## Descrizione
@@ -16,9 +16,9 @@
 Questa macro crea il guscio di una cupola (sfera) geodetica parametrica. Il raggio della cupola e il parametro di frequenza (fattore d\'arco) sono definiti al momento della creazione.
 
 
-{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ParametricObjectCreation/geodesic_dome/geodesic_dome.py}}
+{{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ParametricObjectCreation/geodesic_dome/geodesic_dome.py}}
 
-<img alt="" src=images/Geodome_frequency_parameter.png  style="width:1200px;">
+<img alt="" src=images/Geodome_frequency_parameter.png  style="width   *1200px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -38,31 +38,31 @@ dovrebbe apparire una forma a cupola. È quindi possibile modificare i parametri
 
 ## Script
 
-(questa è una vecchia versione non parametrica dello script. La versione aggiornata è nel repository delle macros di FreeCAD, [qui!](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ParametricObjectCreation/geodesic_dome/geodesic_dome.py) )
+(questa è una vecchia versione non parametrica dello script. La versione aggiornata è nel repository delle macros di FreeCAD, [qui!](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/ParametricObjectCreation/geodesic_dome/geodesic_dome.py) )
 
 ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
 
 **Macro\_Geodesic\_Dome.FCMacro**
 
-    # -*- coding: utf-8 -*-
+    # -*- coding   * utf-8 -*-
 
     # Form implementation generated from reading ui file 'geodesic_dialog.ui'
-    # And changed manually to use FreeCAD "Gui::InputField"
-    # Created: Sun Jan  4 22:20:58 2015
-    #      by: pyside-uic 0.2.15 running on PySide 1.2.2
+    # And changed manually to use FreeCAD "Gui   *   *InputField"
+    # Created   * Sun Jan  4 22   *20   *58 2015
+    #      by   * pyside-uic 0.2.15 running on PySide 1.2.2
     #
     # Upgrade 2019/06/16 for use with FreeCAD 0.19 version
-    #OS: Windows 10 (10.0)
-    #Word size of OS: 64-bit
-    #Word size of FreeCAD: 64-bit
-    #Version: 0.19.16993 (Git)
-    #Build type: Release
-    #Branch: master
-    #Hash: 5ea062f6699666b2f284f6a52105acf20828b481
-    #Python version: 3.6.8
-    #Qt version: 5.12.1
-    #Coin version: 4.0.0a
-    #OCC version: 7.3.0
+    #OS   * Windows 10 (10.0)
+    #Word size of OS   * 64-bit
+    #Word size of FreeCAD   * 64-bit
+    #Version   * 0.19.16993 (Git)
+    #Build type   * Release
+    #Branch   * master
+    #Hash   * 5ea062f6699666b2f284f6a52105acf20828b481
+    #Python version   * 3.6.8
+    #Qt version   * 5.12.1
+    #Coin version   * 4.0.0a
+    #OCC version   * 7.3.0
 
     '''
     ************************************************************************
@@ -94,8 +94,8 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
     import FreeCAD, FreeCADGui, math, Part
     from FreeCAD import Base
 
-    class Ui_Dialog(object):
-      def setupUi(self, Dialog):
+    class Ui_Dialog(object)   *
+      def setupUi(self, Dialog)   *
         Dialog.setObjectName("Dialog")
         Dialog.resize(477, 188)
         self.dia = Dialog
@@ -110,7 +110,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
         self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
         #self.lineEdit = QtGui.QLineEdit(self.gridLayoutWidget)
         fui = FreeCADGui.UiLoader()
-        self.lineEdit = fui.createWidget("Gui::InputField")
+        self.lineEdit = fui.createWidget("Gui   *   *InputField")
         
         self.lineEdit.setObjectName("lineEdit")
         self.gridLayout.addWidget(self.lineEdit, 0, 1, 1, 1)
@@ -137,7 +137,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
           QtCore.SIGNAL("rejected()"), self.makeNothing)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
-      def retranslateUi(self, Dialog):
+      def retranslateUi(self, Dialog)   *
         # original code commented 2019/06/16
         # Dialog.setWindowTitle(QtGui.QApplication.translate \
         #   ("Dialog", "Geodesic Dome Creator",  \
@@ -158,14 +158,14 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
         self.label_3.setText("This Macro creates \na full geodesic dome shell.\nX-Y-symmetry plane \nfor even frequencies")
         ####
 
-      def makeSomething(self):
-        print( "accepted! Dome radius: ", self.lineEdit.property("text"), \
-          " with Frequency: ", int(self.lineEdit_2.text()))
+      def makeSomething(self)   *
+        print( "accepted! Dome radius   * ", self.lineEdit.property("text"), \
+          " with Frequency   * ", int(self.lineEdit_2.text()))
 
         doc=App.activeDocument()
         label = "GeodesicDome"
 
-        theDome = doc.addObject("Part::Feature",label)
+        theDome = doc.addObject("Part   *   *Feature",label)
         radius = self.lineEdit.property("text")
         frequency = int(self.lineEdit_2.text())
           
@@ -174,15 +174,15 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
         doc.recompute()
         
         
-      def makeNothing(self):
+      def makeNothing(self)   *
         print( "rejected!!")
         self.dia.close()
         
 
 
-      def makeDome(self, obj, domeRad_str, ny):
+      def makeDome(self, obj, domeRad_str, ny)   *
         
-        def makeFreqFaces(fPt, sPt, thPt, ny = 1):
+        def makeFreqFaces(fPt, sPt, thPt, ny = 1)   *
           # makes the geodesic dome faces out of the points of an
           # icosahedron triangle
           b = self.a/ny # length of frequent triangles
@@ -194,7 +194,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
           # crossVec = (sPt - thPt)
           crossVec.multiply(1.0/ny)
           
-          for k in range(ny):
+          for k in range(ny)   *
             kThirdPt = fPt + growVec * (k+0.0)
             dThirdPt = Base.Vector(kThirdPt.x, kThirdPt.y, kThirdPt.z)
             dThirdPt = dThirdPt.normalize().multiply(domeRad.Value)
@@ -203,7 +203,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
             dSecPt = dSecPt.normalize().multiply(domeRad.Value)
             # thirdEdge = Part.makeLine(kSecPt, kThirdPt)
             # thirdEdge = Part.makeLine(dSecPt, dThirdPt)
-            for l in range(k+1):
+            for l in range(k+1)   *
               firstPt = kSecPt + crossVec *(l+1.0)
               dFirstPt = firstPt.normalize().multiply(domeRad.Value)
               secPt = kSecPt + crossVec *(l+0.0)
@@ -213,8 +213,8 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
               #thirdEdge = Part.makeLine(secPt, thirdPt)
               thirdEdge = Part.makeLine(dSecPt, dThirdPt)
               # Part.show(thirdEdge)
-              if l > 0:
-                print( "in l: ", l, " mod 2: ", l%2)
+              if l > 0   *
+                print( "in l   * ", l, " mod 2   * ", l%2)
                 # What to do here?
                 #secEdge = Part.makeLine(oThirdPt,thirdPt)
                 secEdge = Part.makeLine(doThirdPt,dThirdPt)
@@ -247,10 +247,10 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
         
         domeRad = FreeCAD.Units.Quantity(domeRad_str)
       
-        # self.a = Strutlength of underlying icosahedron:
+        # self.a = Strutlength of underlying icosahedron   *
         self.a=(4.0*domeRad.Value)/math.sqrt(2.0*math.sqrt(5.0)+10.0) 
         
-        # icoAngle: angle of vertices of icosahedron points 
+        # icoAngle   * angle of vertices of icosahedron points 
         # not a north or south pole
         self.icoAngle = math.atan(0.5)
         
@@ -262,12 +262,12 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
         self.icoPts = []
         self.icoPts.append(Base.Vector(0.0, 0.0, domeRad.Value))
         
-        for i in range(10):
+        for i in range(10)   *
           self.icoCos = self.latRad * math.cos(i*self.ang36)
           self.icoSin = self.latRad * math.sin(i*self.ang36)
-          if i%2 == 0:
+          if i%2 == 0   *
             self.icoPts.append(Base.Vector(self.icoSin, self.icoCos, self.icoLat))
-          else:
+          else   *
             self.icoPts.append(Base.Vector(self.icoSin, self.icoCos, -self.icoLat))
         
         self.icoPts.append(Base.Vector(0.0, 0.0, -domeRad.Value))
@@ -279,7 +279,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
         
         thirdPt = self.icoPts[9]
         thirdEdge = Part.makeLine(self.icoPts[0],thirdPt)
-        for i in range(5):
+        for i in range(5)   *
           j = i*2+1
           firstEdge = Part.makeLine(thirdPt,self.icoPts[j])
           secEdge = Part.makeLine(self.icoPts[j],self.icoPts[0])
@@ -296,7 +296,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
         secPt = self.icoPts[10]
         thirdEdge = Part.makeLine(secPt,thirdPt)
         
-        for i in range(10):
+        for i in range(10)   *
           j = i+1
           firstEdge = Part.makeLine(thirdPt,self.icoPts[j])
           secEdge = Part.makeLine(self.icoPts[j],secPt)
@@ -313,7 +313,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
         
         thirdPt = self.icoPts[10]
         thirdEdge = Part.makeLine(self.icoPts[11],thirdPt)
-        for i in range(5):
+        for i in range(5)   *
           j = i*2+2
           firstEdge = Part.makeLine(thirdPt,self.icoPts[j])
           secEdge = Part.makeLine(self.icoPts[j],self.icoPts[11])
@@ -350,7 +350,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
 
 ## Vincolo
 
-Il Forum [Designing geodesic dome](https://forum.freecadweb.org/viewtopic.php?t=9174)
+Il Forum [Designing geodesic dome](https   *//forum.freecadweb.org/viewtopic.php?t=9174)
 
 
 

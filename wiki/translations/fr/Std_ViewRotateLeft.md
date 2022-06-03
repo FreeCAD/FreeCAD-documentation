@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Std ViewRotateLeft
-   Name/fr:Std Rotation à gauche
-   MenuLocation:Affichage → Vues standards‏‎ → Rotation à gauche
-   Workbenches:Tous
-   Shortcut: **Maj**+**Gauche**
-   SeeAlso:[Std Rotation à droite](Std_ViewRotateRight/fr.md)
+- GuiCommand   */fr
+   Name   *Std ViewRotateLeft
+   Name/fr   *Std Rotation à gauche
+   MenuLocation   *Affichage → Vues standards‏‎ → Rotation à gauche
+   Workbenches   *Tous
+   Shortcut   * **Maj**+**Gauche**
+   SeeAlso   *[Std Rotation à droite](Std_ViewRotateRight/fr.md)
 ---
 
 # Std ViewRotateLeft/fr
@@ -16,15 +16,15 @@ La commande **Std Rotation à gauche** fait pivoter la caméra dans la [vue 3D](
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotation à gauche** dans le menu.
     -   Sélectionnez l\'option **Vues standards → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotation à gauche** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier: **Maj**+**Gauche**.
+    -   Utilisez le raccourci clavier   * **Maj**+**Gauche**.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

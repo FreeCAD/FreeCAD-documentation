@@ -5,11 +5,11 @@ In FreeCAD and in this documentation, an [addon](addon.md) is any component that
 
 ## Different types 
 
-There are roughly three types of addons:
+There are roughly three types of addons   *
 
--   [Macro](Macros.md): short snippet of [Python](Python.md) code that provides a new tool or functionality in a single file ending with `.FCMacro`.
--   Module: a single Python source file, or a collection of Python files, that extends the software in some way. Modules don\'t necessarily define a graphical \"workbench\" but may provide a supporting feature, for example, a library that performs conversion of formats, or code that modifies the graphical [interface](interface.md).
--   [Workbench](External_workbenches.md): collections of Python files that provide related [Gui Commands](Gui_Command.md) (tools) centered around a particular topic, for example, tools to design cabinets, or tools to work with architecture, or tools to design boats, etc. These workbenches usually define new toolbars where [commands](Gui_Command.md) are placed as buttons.
+-   [Macro](Macros.md)   * short snippet of [Python](Python.md) code that provides a new tool or functionality in a single file ending with `.FCMacro`.
+-   Module   * a single Python source file, or a collection of Python files, that extends the software in some way. Modules don\'t necessarily define a graphical \"workbench\" but may provide a supporting feature, for example, a library that performs conversion of formats, or code that modifies the graphical [interface](interface.md).
+-   [Workbench](External_workbenches.md)   * collections of Python files that provide related [Gui Commands](Gui_Command.md) (tools) centered around a particular topic, for example, tools to design cabinets, or tools to work with architecture, or tools to design boats, etc. These workbenches usually define new toolbars where [commands](Gui_Command.md) are placed as buttons.
 
 Macros as installed under the user\'s  {{Code|lang=bash|code=
 $HOME/.FreeCAD/Macro/
@@ -24,12 +24,16 @@ If a workbench is sufficiently developed and is well documented, it may be inclu
 
 ## Installation
 
-Starting from FreeCAD 0.17, the recommended way to install addons is with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
+Starting from FreeCAD 0.17, the recommended way to install addons is with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md).
 
 However, manual installation is still possible.
 
 -   [How to install macros](How_to_install_macros.md)
 -   [Installing more workbenches](Installing_more_workbenches.md)
+
+ 
+
+[Category   *Addons](Category_Addons.md)
 
 
 

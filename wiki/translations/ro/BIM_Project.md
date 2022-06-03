@@ -1,9 +1,9 @@
 ---
-- GuiCommand:Addon
-   Name:BIM Project
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage → Project
+- GuiCommand   *Addon
+   Name   *BIM Project
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon   *BIM
+   MenuLocation   *Manage → Project
 ---
 
 # BIM Project/ro
@@ -13,11 +13,11 @@
 
 ## Descriere
 
-<img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_project_screenshot.png  style="width   *1024px;">
 
 Dialogul de configurare a proiectului este un dialog cu asistent/expert care vă permite să creați un set de bază de obiecte de ghidare în documentul curent sau într-un document nou, care vă va ajuta să începeți să modelați un proiect BIM.
 
-Dialogul de configurare a proiectului poate crea:
+Dialogul de configurare a proiectului poate crea   *
 
 
 <div class="mw-translate-fuzzy">

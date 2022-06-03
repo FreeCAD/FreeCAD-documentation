@@ -1,17 +1,14 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher ConstrainDistanceX
-   Name/de:Skizzierer BeschränkeAbstandX
-   MenuLocation:Skizze → Skizzen Beschränkungen → Beschränke Horizontalen Abstand
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut:**Shift** + **H**
-   SeeAlso:[Skizzierer Beschränke Länge](Sketcher_ConstrainDistanceY/de.md), [Skizzierer Beschränke Vertikalen Abstand](Sketcher_ConstrainDistanceY/de.md)
+- GuiCommand   */de
+   Name   *Sketcher ConstrainDistanceX
+   Name/de   *Sketcher XAbstandFestlegen
+   MenuLocation   *Sketch → Skizzen-Beschränkungen → Horizontalen Abstand festlegen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***L**
+   SeeAlso   *[Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
 ---
 
 # Sketcher ConstrainDistanceX/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -25,30 +22,30 @@ Fixiert den horizontalen Abstand zwischen zwei Punkten oder Linienenden. Falls n
 <div class="mw-translate-fuzzy">
 
 1.  Greife einen oder zwei Punkte oder eine Linie.
-2.  Rufe das Werkzeug auf mehrere Arten auf:
-    -   Drücke die **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Beschränke Horizontalen Abstand](Sketcher_ConstrainDistanceX/de.md)** Schaltfläche in der Werkzeugleiste.
+2.  Rufe das Werkzeug auf mehrere Arten auf   *
+    -   Drücke die **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width   *16px"> [Beschränke Horizontalen Abstand](Sketcher_ConstrainDistanceX/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwende die **Shift** + **H** Tastaturkürzel. (**H**\' steht für **H**orizontal)
-    -   Verwende den **Skizze → Skizziererbeschränkungen → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Beschränke Horizontalen Abstand** aus dem oberen Menü.
+    -   Verwende den **Skizze → Skizziererbeschränkungen → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width   *16px"> Beschränke Horizontalen Abstand** aus dem oberen Menü.
 3.  Ein Aufklappdialogfeld wird geöffnet, um den Wert zu bearbeiten oder zu bestätigen. Drücke **OK**, um den Wert zu bestätigen.
 
 
 </div>
 
-**Hinweis**: Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden, erfordert aber die Auswahl von zwei Punkten oder einer Linie. Um den Abstand zum Ursprung zu setzen, muss der Ursprungspunkt der Zeichnung ebenfalls selektiert werden. Als Voreinstellung ist der Befehl im \"Continue Mode\", um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal zum Beenden des Befehls.
+**Hinweis**   * Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden, erfordert aber die Auswahl von zwei Punkten oder einer Linie. Um den Abstand zum Ursprung zu setzen, muss der Ursprungspunkt der Zeichnung ebenfalls selektiert werden. Als Voreinstellung ist der Befehl im \"Continue Mode\", um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal zum Beenden des Befehls.
 
 ## Skripten
 
-Abstand vom Ursprung:
+Abstand vom Ursprung   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Abstand zwischen zwei Endpunkten:
+Abstand zwischen zwei Endpunkten   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Horizontaler Abstand der Linie (die GUI erlaubt die Auswahl der Kante, aber das ist nur eine Abkürzung für die Nutzung der beiden Endpunkte der gleichen Linie):
+Horizontaler Abstand der Linie (die GUI erlaubt die Auswahl der Kante, aber das ist nur eine Abkürzung für die Nutzung der beiden Endpunkte der gleichen Linie)   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
@@ -56,13 +53,7 @@ Horizontaler Abstand der Linie (die GUI erlaubt die Auswahl der Kante, aber das 
 Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die für `Edge1`, `Edge2`, `Edge`, `PointOfEdge1`, `PointOfEdge2`, `PointOfEdge` und `Line` verwendet werden können, und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

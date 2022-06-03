@@ -1,36 +1,37 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std Paste
-   MenuLocation   *Edit → Paste
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**V**
-   SeeAlso   *[Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
+   Name/pl   *Std   * Wklej
+   MenuLocation   *Edycja → Wklej
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **V**
+   SeeAlso   *[Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
 ---
 
 # Std Paste/pl
 
-## Description
+## Opis
 
-The **Std Paste** command pastes objects from the Clipboard into the active document.
+Polecenie **Wklej** powoduje wklejenie obiektów ze Schowka do aktywnego dokumentu.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Std_Paste.svg" width=16px> [Std Paste](Std_Paste.md)** button.
-    -   Select the **Edit → <img src="images/Std_Paste.svg" width=16px> Paste** option from the menu.
-    -   Select the **<img src="images/Std_Paste.svg" width=16px> Paste** option from the [Tree view](Tree_view.md) context menu. Note that this option is only available when an existing object has been selected.
-    -   Use the keyboard shortcut   * **Ctrl**+**V**.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_Paste.svg" width=16px> [Wklej](Std_Paste/pl.md)**.
+    -   Wybierz z menu opcję **Edycja → <img src="images/Std_Paste.svg" width=16px> Wklej**.
+    -   Wybierz opcję **<img src="images/Std_Paste.svg" width=16px> Wklej** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md). Zauważ, że ta opcja jest dostępna tylko wtedy, gdy zaznaczony jest istniejący obiekt.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **V**.
 
-## Notes
+## Uwagi
 
--   FreeCAD will automatically change the internal names and, depending on the preferences, labels of objects to avoid name conflicts.
--   A spreadsheet cell alias that already exists in the spreadsheet will not be pasted.
--   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**V**, in almost all cases, does not call the **Std Paste** command but uses the Paste function from the OS instead.
--   It is not possible to copy-paste native objects between FreeCAD and other applications.
+-   FreeCAD automatycznie zmieni wewnętrzne nazwy oraz, w zależności od preferencji, etykiety obiektów, aby uniknąć konfliktów nazw.
+-   Alias komórki arkusza kalkulacyjnego, który już istnieje w arkuszu kalkulacyjnym, nie zostanie wklejony.
+-   Podczas pracy w oknie tekstowym programu FreeCAD, w polu wprowadzania danych lub arkuszu kalkulacyjnym standardowy skrót klawiaturowy **Ctrl** + **V** w prawie wszystkich przypadkach nie wywołuje polecenia **Std Wklej**, ale zamiast tego używa funkcji Wklej z systemu operacyjnego.
+-   Nie jest możliwe kopiowanie i wklejanie natywnych obiektów między programem FreeCAD a innymi aplikacjami.
 
-## Preferences
+## Ustawienia
 
--   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Duplikaty etykiet są dozwolone, gdy opcja **Przybory→ Edycja parametrów ... → BaseApp → Preferencje → Dokument → DuplicateLabels** jest ustawione na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
 
 
 

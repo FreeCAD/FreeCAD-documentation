@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Создавать шаблоны для модуля чертежей (Drawing) легко и приятно. Смотрите также [руководство по созданию шаблонов чертежей](Drawing_Template_HowTo/ru.md). Шаблон --- это файл в формате SVG, который можно создать в любой программе способной экспортировать SVG, например [Inkscape](http://www.inkscape.org). Необходимо соблюдать только два правила:
+Создавать шаблоны для модуля чертежей (Drawing) легко и приятно. Смотрите также [руководство по созданию шаблонов чертежей](Drawing_Template_HowTo/ru.md). Шаблон --- это файл в формате SVG, который можно создать в любой программе способной экспортировать SVG, например [Inkscape](http   *//www.inkscape.org). Необходимо соблюдать только два правила   *
 
 
 </div>
@@ -21,7 +21,7 @@
 
 ### Базовые правила 
 
--   1 пиксель = 1 миллиметру. Размер страницы может быть указан внутри открывающего тега<svg>либо без единиц измерения, либо с \"мм\". Например, эти две формы действительны:
+-   1 пиксель = 1 миллиметру. Размер страницы может быть указан внутри открывающего тега<svg>либо без единиц измерения, либо с \"мм\". Например, эти две формы действительны   *
 
 
 </div>
@@ -38,13 +38,13 @@ width="1067"
 height = "762"
 
 
-Хотя svg поддерживает дюймы (\"42 in\"), в настоящее время они не поддерживаются FreeCAD, поэтому всегда лучше указывать размер страницы svg в миллиметрах. Атрибут \"viewBox\" (видимая область) должен иметь то же значение, например:
+Хотя svg поддерживает дюймы (\"42 in\"), в настоящее время они не поддерживаются FreeCAD, поэтому всегда лучше указывать размер страницы svg в миллиметрах. Атрибут \"viewBox\" (видимая область) должен иметь то же значение, например   *
 
  {.html}
 viewBox="0 0 1067 762"
 
 
--   Вы должны вставить где-нибудь внутри вашего svg-кода, где вы хотите, чтобы отображалось содержимое чертежа (например, в конце файла, непосредственно перед последним тегом</svg>), следующую строку:
+-   Вы должны вставить где-нибудь внутри вашего svg-кода, где вы хотите, чтобы отображалось содержимое чертежа (например, в конце файла, непосредственно перед последним тегом</svg>), следующую строку   *
 
  {.html}
 
@@ -54,9 +54,9 @@ This text above (which is actually an XML comment) must be on a separate line, a
 
 ### Namespace
 
--   Several objects (specifically those created with the [Draft Drawing](Draft_Drawing.md) command and if your template has editable texts) use a special [Svg Namespace](Svg_Namespace.md) specific to FreeCAD. This makes FreeCAD able to detect specific items inside svg files, that other applications will just ignore. If you plan to use any of these, you must add this line inside the opening<svg>tag, for example together with the other xmlns lines added by inkscape:
+-   Several objects (specifically those created with the [Draft Drawing](Draft_Drawing.md) command and if your template has editable texts) use a special [Svg Namespace](Svg_Namespace.md) specific to FreeCAD. This makes FreeCAD able to detect specific items inside svg files, that other applications will just ignore. If you plan to use any of these, you must add this line inside the opening<svg>tag, for example together with the other xmlns lines added by inkscape   *
 
-xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
+xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 ### Title block 
 
@@ -70,13 +70,13 @@ xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 </div>
 
-Чтобы задать положение рамки, необходимо вставить следующую строку перед тегом  в svg файле:
+Чтобы задать положение рамки, необходимо вставить следующую строку перед тегом  в svg файле   *
 
  {.html}
 
 
 
-Где X1, Y1, X2, Y2 определяются как:
+Где X1, Y1, X2, Y2 определяются как   *
 
 -   X1 - расстояние по оси X от левого края страницы до левой границы Рамки.
 -   Y1 - расстояние по оси Y от верхнего края страницы до верхней границы Рамки.
@@ -94,7 +94,7 @@ xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 <div class="mw-translate-fuzzy">
 
-Где:
+Где   *
 
 -   X1a --- расстояние по оси X между левой границей листа и левой стороной основной надписи.
 -   Y1a --- расстояние по оси Y между верхней границей листа и верхней стороной основной надписи.
@@ -111,7 +111,7 @@ xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 <div class="mw-translate-fuzzy">
 
-Положение основной надписи нужно задавать сразу после задания положения рамки:
+Положение основной надписи нужно задавать сразу после задания положения рамки   *
 
 
 </div>
@@ -123,7 +123,7 @@ xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 Чтобы включить печать в масштабе, реальный размер текста должен быть указан в атрибутах ширины и высоты SVG-тега. Размер документа в пользовательских единицах (px) должен быть указан в атрибуте viewBox.
 
-Это должно быть отформатировано, как в примере ниже, где:
+Это должно быть отформатировано, как в примере ниже, где   *
 
 -   xxx = ширина в пикселях,
 -   yyy = высота в пикселях.
@@ -150,7 +150,7 @@ Consequently, if you create your own SVG templates, and wish to be able to expor
 
 DXF templates can be created with any application that produces DXF files, such as LibreCAD. You then need to edit them with a text editor, and add two additional lines, one at the beginning or end of the BLOCKS section, and another at the beginning or end of the ENTITIES section, which are where FreeCAD will add its own blocks and entities.
 
-Самый простой шаблон выглядит так:
+Самый простой шаблон выглядит так   *
 
     999
     FreeCAD DXF exporter v0.15
@@ -187,68 +187,70 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 ## A3 templates 
 
-### A3 Classic: 
+### A3 Classic   * 
 
-<img alt="" src=images/A3_Classic.svg  style="width:800px;">
+<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
 
-### A3 Clean: 
+### A3 Clean   * 
 
-<img alt="" src=images/A3_Clean.svg  style="width:800px;">
+<img alt="" src=images/A3_Clean.svg  style="width   *800px;">
 
-### A3 Modern: 
+### A3 Modern   * 
 
-<img alt="" src=images/A3_Modern.svg  style="width:800px;">
+<img alt="" src=images/A3_Modern.svg  style="width   *800px;">
 
-### A3 Showcase: 
+### A3 Showcase   * 
 
-<img alt="" src=images/A3_Showcase.svg  style="width:800px;">
+<img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
 
-### A3 Landscape english: 
+### A3 Landscape english   * 
 
-<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
 
 ## A4 Templates 
 
-### A4 Landscape english: 
+### A4 Landscape english   * 
 
-<img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A4_Landscape_english.svg  style="width   *800px;">
 
-### A4 Portrait 1 english: 
+### A4 Portrait 1 english   * 
 
-<img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
+<img alt="" src=images/A4_Portrait_1_english.svg  style="width   *400px;">
 
 ## US Letter Templates 
 
-### US Letter landscape: 
+### US Letter landscape   * 
 
-<img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Letter_landscape.svg  style="width   *800px;">
 
-### US Letter portrait: 
+### US Letter portrait   * 
 
-<img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
+<img alt="" src=images/US_Letter_portrait.svg  style="width   *400px;">
 
-### US Letter ds Landscape: 
+### US Letter ds Landscape   * 
 
-<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width   *800px;">
 
-### US Legal ds Landscape: 
+### US Legal ds Landscape   * 
 
-<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width   *800px;">
 
-### US Ledger ds Landscape: 
+### US Ledger ds Landscape   * 
 
-<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width   *800px;">
 
 ## Other standards available 
 
--   [ANSI templates](ANSI_templates.md): according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
--   [Arch templates](Arch_templates.md): according to American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
--   [Misc templates](Misc_templates.md): mixed templates
+-   [ANSI templates](ANSI_templates.md)   * according to American National Standards Institute [ANSI](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute) standard
+-   [Arch templates](Arch_templates.md)   * according to American National Standards Institute [Arch](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute) standard
+-   [Misc templates](Misc_templates.md)   * mixed templates
 
 
 {{Drawing Tools navi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Documentation](Category_Documentation.md)
 
 
 

@@ -1,17 +1,17 @@
-# <img alt="Icône de l\'atelier Image" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/fr
+# <img alt="Icône de l\'atelier Image" src=images/Workbench_Image.svg  style="width   *64px;"> Image Workbench/fr
 
 
 {{TOCright}}
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Atelier Image](Image_Workbench/fr.md) gère différents formats de [bitmap](bitmap/fr.md) et vous permet de les ouvrir dans FreeCAD.
+L\'<img alt="" src=images/Workbench_Image.svg  style="width   *24px;"> [Atelier Image](Image_Workbench/fr.md) gère différents formats de [bitmap](bitmap/fr.md) et vous permet de les ouvrir dans FreeCAD.
 
 ## Outils
 
--   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Ouvrir\...](Image_Open/fr.md): ouvrir une image dans une nouvelle fenêtre.
--   <img alt="" src=images/Image_CreateImagePlane.svg  style="width:32px;"> [Créer un plan d\'image](Image_CreateImagePlane/fr.md): importer une image sur un plan dans la vue 3D.
--   <img alt="" src=images/Image_Scaling.svg  style="width:32px;"> [Redimensionner une image](Image_Scaling/fr.md): redimensionner une image importée dans un plan.
+-   <img alt="" src=images/Image_Open.svg  style="width   *32px;"> [Ouvrir\...](Image_Open/fr.md)   * ouvrir une image dans une nouvelle fenêtre.
+-   <img alt="" src=images/Image_CreateImagePlane.svg  style="width   *32px;"> [Créer un plan d\'image](Image_CreateImagePlane/fr.md)   * importer une image sur un plan dans la vue 3D.
+-   <img alt="" src=images/Image_Scaling.svg  style="width   *32px;"> [Redimensionner une image](Image_Scaling/fr.md)   * redimensionner une image importée dans un plan.
 
 ## Fonctionnalités
 
@@ -33,7 +33,9 @@ Le décalage de l\'image peut être défini lors de l\'importation ou modifié u
 
 {{Image Tools navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

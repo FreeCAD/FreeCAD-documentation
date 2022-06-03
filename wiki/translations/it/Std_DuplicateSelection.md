@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_DuplicateSelection
-   Name/it:Duplica la selezione
-   Empty:1
-   MenuLocation:Modifica → Duplica la selezione
-   Workbenches:Tutti
-   SeeAlso:[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md)
+- GuiCommand   */it
+   Name   *Std_DuplicateSelection
+   Name/it   *Duplica la selezione
+   Empty   *1
+   MenuLocation   *Modifica → Duplica la selezione
+   Workbenches   *Tutti
+   SeeAlso   *[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md)
 ---
 
 # Std DuplicateSelection/it

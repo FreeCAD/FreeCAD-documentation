@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_ViewLeft
-   Name/it:Vista da sinistra
-   MenuLocation:Visualizza → Viste standard → Da sinistra
-   Workbenches:Tutti
-   Shortcut:**6**
-   SeeAlso:[Vista da dietro](Std_ViewRear/it.md), [Vista dal basso](Std_ViewBottom/it.md)
+- GuiCommand   */it
+   Name   *Std_ViewLeft
+   Name/it   *Vista da sinistra
+   MenuLocation   *Visualizza → Viste standard → Da sinistra
+   Workbenches   *Tutti
+   Shortcut   ***6**
+   SeeAlso   *[Vista da dietro](Std_ViewRear/it.md), [Vista dal basso](Std_ViewBottom/it.md)
 ---
 
 # Std ViewLeft/it
@@ -19,16 +19,16 @@ Il comando **Vista da sinistra** orienta la camera della [Vista 3D](3D_view/it.m
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_ViewLeft.svg" width=16px> Da sinistra**.
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewLeft.svg" width=16px> Da sinistra** del menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewLeft.svg" width=16px> Da sinistra** dal menu contestuale della [vista 3D](3D_view/it.md).
-    -   Usare la scorciatoia da tastiera: **6**.
+    -   Usare la scorciatoia da tastiera   * **6**.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

@@ -1,13 +1,13 @@
 ---
-- GuiCommand:
-   Name:Material editor
-   Name/ru:Material editor
-   Icon:Arch_Material_Group.svg
-   MenuLocation:Model → Material → Material editor
-   Workbenches:[FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:
-   Version:0.18
-   SeeAlso:[Material](Material.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand   *
+   Name   *Material editor
+   Name/ru   *Material editor
+   Icon   *Arch_Material_Group.svg
+   MenuLocation   *Model → Material → Material editor
+   Workbenches   *[FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut   *
+   Version   *0.18
+   SeeAlso   *[Material](Material.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # Material editor/ru
@@ -29,16 +29,16 @@
 
 ## Использование
 
-Редактор материалов сейчас может быть доступен через:
+Редактор материалов сейчас может быть доступен через   *
 
 
 <div class="mw-translate-fuzzy">
 
-1.  <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Верстак Arch](Arch_Workbench/ru.md)
-    -   Кнопку <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Set Material](Arch_SetMaterial/ru.md) панели создания [нового материала](Arch_SetMaterial/ru.md) в [верстаке Arch](Arch_Workbench/ru.md)
+1.  <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Верстак Arch](Arch_Workbench/ru.md)
+    -   Кнопку <img alt="" src=images/Arch_SetMaterial.svg  style="width   *32px;"> [Set Material](Arch_SetMaterial/ru.md) панели создания [нового материала](Arch_SetMaterial/ru.md) в [верстаке Arch](Arch_Workbench/ru.md)
     -   Меню **Arch → Set material...**
-2.  <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Верстак FEM](FEM_Workbench/ru.md)
-    -   Иконку <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Material editor](Material_editor/ru.md)
+2.  <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Верстак FEM](FEM_Workbench/ru.md)
+    -   Иконку <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Material editor](Material_editor/ru.md)
     -   Меню **Models → Material → Material editor**
 3.  Или через Python (см. ниже секцию [Scripting](#Scripting.md))
 
@@ -47,23 +47,23 @@
 
 ## Опции
 
--   **Browser button**: Открывает содержимое ссылки на параметр в браузере
+-   **Browser button**   * Открывает содержимое ссылки на параметр в браузере
 
--   **Material card**: Позволяет для заполнения полей выбрать предустановки
+-   **Material card**   * Позволяет для заполнения полей выбрать предустановки
 
--    **Open**: Открывает файл .FCMat
+-    **Open**   * Открывает файл .FCMat
 
--    **Save as**: Сохраняет содержимое редактора в новом файле .FCMat
+-    **Save as**   * Сохраняет содержимое редактора в новом файле .FCMat
 
--   **Preview**: Ещё не работает
+-   **Preview**   * Ещё не работает
 
--   **Properties editor**: Позволяет редактировать содержимое параметров материала
+-   **Properties editor**   * Позволяет редактировать содержимое параметров материала
 
--    **Add property**: Позволяет дать новый пользовательских параметр материала
+-    **Add property**   * Позволяет дать новый пользовательских параметр материала
 
--    **Delete property**: Удаляет выбранный параметр. Может быть удалён лишь пользовательский параметр
+-    **Delete property**   * Удаляет выбранный параметр. Может быть удалён лишь пользовательский параметр
 
-Примечание:
+Примечание   *
 
 -   Кнопки **OK** и **Cancel** имеют тот же эффект, если редактор материалов не используется для прямого редактирования параметров материала существующего объекта.
 

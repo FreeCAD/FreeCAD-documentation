@@ -10,7 +10,7 @@
 
 ## Opis
 
-The **Cross-sections** utility creates one or more cross-sections through the selected shape.
+The **Cross-sections** utility creates one or more cross-sections through the selected shape, parallel to one of the default global planes (XY, XZ or YZ).
 
 ### Kako koristiti 
 

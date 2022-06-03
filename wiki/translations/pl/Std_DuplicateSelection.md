@@ -1,30 +1,31 @@
 ---
-- GuiCommand:
-   Name:Std DuplicateSelection
-   MenuLocation:Edit → Duplicate selected object
-   Workbenches:All
-   SeeAlso:[Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md)
+- GuiCommand   */pl
+   Name   *Std DuplicateSelection
+   Name/pl   *Std   * Powiel zaznaczone
+   MenuLocation   *Edycja → Powiel zaznaczone
+   Workbenches   *All
+   SeeAlso   *[Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md)
 ---
 
 # Std DuplicateSelection/pl
 
-## Description
+## Opis
 
-The **Std DuplicateSelection** command duplicates objects within the active document.
+Polecenie **Powiel zaznaczone** powoduje powielanie wybranych obiektów w aktywnym dokumencie.
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-2.  Select the **Edit → Duplicate selected object** option from the menu.
-3.  If the objects have dependencies that have not been selected, a dialog box will prompt you to specify which should be included.
+1.  Zaznacz jeden lub więcej obiektów.
+2.  Wybierz z menu opcję **Edycja → Powiel zaznaczone**.
+3.  Jeśli obiekty mają zależności, które nie zostały wybrane, zostanie wyświetlone okno dialogowe z prośbą o określenie, które z nich powinny zostać uwzględnione.
 
-## Notes
+## Uwagi
 
--   FreeCAD will automatically change the internal names and, depending on the preferences, labels of objects to avoid name conflicts.
+-   FreeCAD automatycznie zmieni wewnętrzne nazwy oraz, w zależności od preferencji, etykiety obiektów, aby uniknąć konfliktów nazw.
 
-## Preferences
+## Ustawienia
 
--   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Duplikaty etykiet są dozwolone, gdy opcja **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Dokument → DuplicateLabels** jest ustawione na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
 
 
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Assembly3 ConstraintEqualAngle
-   Icon:Assembly_ConstraintEqualAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+- GuiCommand   *
+   Name   *Assembly3 ConstraintEqualAngle
+   Icon   *Assembly_ConstraintEqualAngle.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintEqualAngle/pl
@@ -22,7 +22,7 @@ The line directions as well as the face normals are represented by each ICS\'s z
 3.  Select two more line or one planar face elements to extract the value of the angle between them
 4.  Press the **<img src="images/Assembly_ConstraintEqualAngle.svg" width=16px> [Equal angle](Assembly3_ConstraintEqualAngle.md)** button.
 
-:   In addition the \"Flip element\" function of the elements properties panel may be needed if ICSs are not orientated as expected.
+   *   In addition the \"Flip element\" function of the elements properties panel may be needed if ICSs are not orientated as expected.
 
 
 

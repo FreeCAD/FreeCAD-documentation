@@ -1,6 +1,8 @@
 # Category:Documentation/sv
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories/sv](Category   *Categories/sv.md)
+
 ### Contents
 
 |     |     |     |

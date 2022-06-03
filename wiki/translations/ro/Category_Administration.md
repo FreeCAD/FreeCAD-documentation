@@ -1,6 +1,8 @@
 # Category:Administration/ro
 This category contains articles and categories about wiki administrative subjects.
 
+[Category   *Categories/ro](Category   *Categories/ro.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 ConstraintSymmetricLine
-   Name/fr:Assembly3 Contrainte de symétrie par une ligne
-   Icon:Assembly_ConstraintSymmetricLine.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 ConstraintSymmetricLine
+   Name/fr   *Assembly3 Contrainte de symétrie par une ligne
+   Icon   *Assembly_ConstraintSymmetricLine.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintSymmetricLine/fr

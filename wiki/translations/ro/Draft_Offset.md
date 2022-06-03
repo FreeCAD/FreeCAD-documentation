@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Draft Offset
-   Name/ro:Draft Offset
-   MenuLocation:Draft → Offset
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**O** **S**
-   SeeAlso:[Part 2D Offset](Part_Offset2D/ro.md)
+- GuiCommand   */ro
+   Name   *Draft Offset
+   Name/ro   *Draft Offset
+   MenuLocation   *Draft → Offset
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut   ***O** **S**
+   SeeAlso   *[Part 2D Offset](Part_Offset2D/ro.md)
 ---
 
 # Draft Offset/ro
@@ -23,7 +23,7 @@ Instrumentul Decalare deplasează obiectele selectate la o o distanță dată fa
 
 </div>
 
-<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Offset_example.jpg  style="width   *400px;"> 
 *Offsetting a Draft Wire*
 
 
@@ -34,7 +34,7 @@ Instrumentul Decalare deplasează obiectele selectate la o o distanță dată fa
 
 </div>
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -70,9 +70,9 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of the distance   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 
@@ -87,7 +87,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul de Decalare poate fi folosit în [macros](macros.md) și din consola Python utilizând următoarea funcție:
+Instrumentul de Decalare poate fi folosit în [macros](macros.md) și din consola Python utilizând următoarea funcție   *
 
 
 </div>

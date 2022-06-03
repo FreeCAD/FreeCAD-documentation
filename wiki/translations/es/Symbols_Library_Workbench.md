@@ -10,13 +10,13 @@ Está mantenido por la comunidad de usuarios de FreeCAD y no forma parte del pro
 
 ## Referencias
 
--   Autor: yorik
--   Página de inicio: <https://github.com/FreeCAD/FreeCAD-symbols>
--   Código fuente en github: <https://github.com/FreeCAD/FreeCAD-symbols>
+-   Autor   * yorik
+-   Página de inicio   * <https   *//github.com/FreeCAD/FreeCAD-symbols>
+-   Código fuente en github   * <https   *//github.com/FreeCAD/FreeCAD-symbols>
 
 ## Símbolos
 
-<img alt="" src=images/CompassRose.svg  style="width:128px;"> ![](images/FirstAngleProjection.svg ) ![](images/ThirdAngleProjection.svg ) ![](images/SectionMark01.png ) ![](images/SectionMark02.png ) ![](images/SectionMark03.png ) ![](images/SectionMark04.png )
+<img alt="" src=images/CompassRose.svg  style="width   *128px;"> ![](images/FirstAngleProjection.svg ) ![](images/ThirdAngleProjection.svg ) ![](images/SectionMark01.png ) ![](images/SectionMark02.png ) ![](images/SectionMark03.png ) ![](images/SectionMark04.png )
 
 ## Instalación
 
@@ -30,20 +30,20 @@ La biblioteca es un simple contenedor de archivos SVG. Puedes descargarla en cua
 
 ## Enlaces a la biblioteca de símbolos 
 
--   Wiki Ambientes de trabajo:
--   Wiki FreeCAD:
--   Foro de FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=9&t=10641>
--   Tutoriales:
--   Vídeos:
--   Archivos:
--   Informe de errores: Por favor, informe de errores en [Foro de FreeCAD](http://forum.freecadweb.org/index.php) o <https://github.com/FreeCAD/FreeCAD-symbols/issues>
+-   Wiki Ambientes de trabajo   *
+-   Wiki FreeCAD   *
+-   Foro de FreeCAD   * <http   *//forum.freecadweb.org/viewtopic.php?f=9&t=10641>
+-   Tutoriales   *
+-   Vídeos   *
+-   Archivos   *
+-   Informe de errores   * Por favor, informe de errores en [Foro de FreeCAD](http   *//forum.freecadweb.org/index.php) o <https   *//github.com/FreeCAD/FreeCAD-symbols/issues>
 
 ## Otros enlaces útiles 
 
 
 <div class="mw-translate-fuzzy">
 
--   [Biblioteca de piezas](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library), [Tornillos](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Elementos de unión](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCGear](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
+-   [Biblioteca de piezas](http   *//www.freecadweb.org/wiki/index.php?title=Sandbox   *Parts_Library), [Tornillos](http   *//www.freecadweb.org/wiki/index.php?title=Sandbox   *Bolts), [Elementos de unión](http   *//www.freecadweb.org/wiki/index.php?title=Sandbox   *Fasteners), [FCGear](http   *//www.freecadweb.org/wiki/index.php?title=Sandbox   *FCGear)
 -   [Ambientes de trabajo externos](External_workbenches/es.md)
 -   [Recetas macros](Macros_recipes/es.md)
 -   [Descarga FreeCAD](Download/es.md)
@@ -51,6 +51,10 @@ La biblioteca es un simple contenedor de archivos SVG. Puedes descargarla en cua
 
 
 </div>
+
+
+
+[Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

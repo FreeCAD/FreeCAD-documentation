@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Std DemoMode
-   Name/de:Std DemoModus
-   MenuLocation:Werkzeuge → Drehscheibe...
-   Workbenches:Alle
+- GuiCommand   */de
+   Name   *Std DemoMode
+   Name/de   *Std DemoModus
+   MenuLocation   *Werkzeuge → Drehscheibe...
+   Workbenches   *Alle
 ---
 
 # Std DemoMode/de

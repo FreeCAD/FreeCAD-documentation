@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:Ship TankNew
-   Name/de:Schiff TankNeu
-   MenuLocation:Gewichte → Erstelle einen neuen Tank
+- GuiCommand   */de
+   Name   *Ship TankNew
+   Name/de   *Schiff TankNeu
+   MenuLocation   *Gewichte → Erstelle einen neuen Tank
 |
-   Workbenches:[Schiff](Ship_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+   Workbenches   *[Schiff](Ship_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Ship Tank/de
@@ -41,6 +41,11 @@ When the **Accept** button is pressed, a new tank instance is created inside the
 
 
 </div>
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

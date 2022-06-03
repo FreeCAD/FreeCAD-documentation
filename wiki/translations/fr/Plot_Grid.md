@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Plot Grid
-   Name/fr:Plot Grille
-   MenuLocation:Plot → Afficher/masquer la grille‏‎
-   Workbenches:[Plot](Plot_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Plot Grid
+   Name/fr   *Plot Grille
+   MenuLocation   *Plot → Afficher/masquer la grille‏‎
+   Workbenches   *[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Grid/fr
@@ -12,7 +12,7 @@
 
 Cet outil permet à l\'utilisateur d\'activer/désactiver les lignes de grille sur un graphique spécifique.
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 
 ## Utilisation
 
@@ -26,7 +26,9 @@ Cet outil agit sur le jeu d\'axes actif. Dans le cas de tracés multi-axes, vous
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

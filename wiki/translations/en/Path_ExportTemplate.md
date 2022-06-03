@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Path ExportTemplate
-   MenuLocation:Path → Export Template
-   Workbenches:[Path](Path_Workbench.md)
-   SeeAlso:[Path SetupSheet](Path_SetupSheet.md)
+- GuiCommand   *
+   Name   *Path ExportTemplate
+   MenuLocation   *Path → Export Template
+   Workbenches   *[Path](Path_Workbench.md)
+   SeeAlso   *[Path SetupSheet](Path_SetupSheet.md)
 ---
 
 # Path ExportTemplate/en
@@ -19,7 +19,7 @@ The **Edit → Preferences... → Path → Job Preferences tab, Defaults → Tem
 1.  Select the **Path → <img src="images/Path_ExportTemplate.svg" width=16px> Export Template** option from the menu.
 2.  Select elements for inclusion from the **Export Template** configuration dialog.
 3.  The template must be saved in the Macro directory or the Path directory, as configured in the [Path Preferences](Path_Preferences.md).
-4.  The template name must follow the pattern of {{FileName|job_<template name>.json}}. When shown in the selection combobox, the {{FileName|job_}} prefix and the extension are left out.
+4.  The template name must follow the pattern of **job_<template name>.json**. When shown in the selection combobox, the **job_** prefix and the extension are left out.
 5.  Press the **OK** button and save the template.
 
 ## Options
@@ -32,8 +32,8 @@ The **Edit → Preferences... → Path → Job Preferences tab, Defaults → Tem
 
 ## Stock
 
--   Extent: Stock Size
--   Placement: Stock Location
+-   Extent   * Stock Size
+-   Placement   * Stock Location
 
 ## Setup Sheet 
 

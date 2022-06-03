@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Ship TankCapacity
-   Name/de:Schiff TankKapazität
-   MenuLocation:Gewichte → Tankkapazitätskurve
+- GuiCommand   */de
+   Name   *Ship TankCapacity
+   Name/de   *Schiff TankKapazität
+   MenuLocation   *Gewichte → Tankkapazitätskurve
 |
-   Workbenches:[Schiff](Ship_Workbench/de.md)
-   Shortcut:   SeeAlso:
+   Workbenches   *[Schiff](Ship_Workbench/de.md)
+   Shortcut   *   SeeAlso   *
 ---
 
 # Ship Capacity/de
@@ -44,6 +44,11 @@ ZUTUN
 
 
 </div>
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

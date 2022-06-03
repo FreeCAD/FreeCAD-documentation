@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:FCGear BevelGear
-   Name/de:FCGetriebe KegelradGetriebe
-   MenuLocation:FCGetriebe → Erstelle ein KegelradGetriebe
-   Workbenches:[FCGetriebe](FCGear_Workbench/de.md)
-   Version:v0.16
+- GuiCommand   */de
+   Name   *FCGear BevelGear
+   Name/de   *FCGetriebe KegelradGetriebe
+   MenuLocation   *FCGetriebe → Erstelle ein KegelradGetriebe
+   Workbenches   *[FCGetriebe](FCGear_Workbench/de.md)
+   Version   *v0.16
 ---
 
 # FCGear BevelGear/de
@@ -21,10 +21,10 @@ Spiralförmige Kegelräder haben gekrümmte Zähne, die im Vergleich zu geraden 
 <div class="mw-translate-fuzzy">
 
 
-:   ![](images/Bevel-Gear_example.png )
-:   
+   *   ![](images/Bevel-Gear_example.png )
+   *   
     
-*Von links nach rechts: Geradverzahnung, Spiralverzahnung*
+*Von links nach rechts   * Geradverzahnung, Spiralverzahnung*
     
 
 
@@ -32,9 +32,9 @@ Spiralförmige Kegelräder haben gekrümmte Zähne, die im Vergleich zu geraden 
 
 ## Anwendung
 
-1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md).
-2.  Rufe den Befehl auf verschiedene Weise auf:
-    -   Drücke die <img alt="" src=images/FCGear_BevelGear.svg  style="width:22px;"> [Erstellen eines Kegelzahnrads](FCGear_BevelGear/de.md) in der Werkzeugleiste.
+1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md).
+2.  Rufe den Befehl auf verschiedene Weise auf   *
+    -   Drücke die <img alt="" src=images/FCGear_BevelGear.svg  style="width   *22px;"> [Erstellen eines Kegelzahnrads](FCGear_BevelGear/de.md) in der Werkzeugleiste.
     -   Mit dem **Menü → Kegelradgetriebe**.
 3.  Ändere die Zahnradparameter auf die gewünschten Bedingungen (siehe **Eigenschaften → Daten** unten).
 
@@ -45,38 +45,38 @@ Spiralförmige Kegelräder haben gekrümmte Zähne, die im Vergleich zu geraden 
 
 {{Properties_Title|Basis}}
 
--    **Placement**: [Placement](Placement.md) is the location and orientation of an object in space.
+-    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
 
--    **Label**: User name of the object in the [Tree view](Tree_view.md).
-
-
-{{Properties_Title|gear_parameter}}
-
--    **beta**: With the angle β a helical bevel gear is created (positive value → rotation direction right, negative value → rotation direction left).
+-    **Label**   * User name of the object in the [Tree view](Tree_view.md).
 
 
 {{Properties_Title|gear_parameter}}
 
--    **backslash**: Default is 0,00. Backlash, also called lash or play, is the distance between the teeths at a gear pair.
+-    **beta**   * With the angle β a helical bevel gear is created (positive value → rotation direction right, negative value → rotation direction left).
 
--    **clearance**: Default is 0,10 (see also the information in **Note**).
 
--    **height**: Value for the bevel gear width.
+{{Properties_Title|gear_parameter}}
 
--    **m**: Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Note**).
+-    **backslash**   * Default is 0,00. Backlash, also called lash or play, is the distance between the teeths at a gear pair.
 
--    **numpoints**: Default is 6, change of the involute profile. Changing the value can lead to unexpected results.
+-    **clearance**   * Default is 0,10 (see also the information in **Note**).
 
--    **reset_origin**: If the value is **True**, the center of the axis is at the center of the bottom of the gear (see also the information in **Note**).
+-    **height**   * Value for the bevel gear width.
 
--    **teeth**: Number of teeth.
+-    **m**   * Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Note**).
+
+-    **numpoints**   * Default is 6, change of the involute profile. Changing the value can lead to unexpected results.
+
+-    **reset_origin**   * If the value is **True**, the center of the axis is at the center of the bottom of the gear (see also the information in **Note**).
+
+-    **teeth**   * Number of teeth.
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pitch_angle**: Angle of taper.
+-    **pitch_angle**   * Angle of taper.
 
--    **pressure_parameter**: Default is 20 (see also the information in **Note**).
+-    **pressure_parameter**   * Default is 20 (see also the information in **Note**).
 
 ### Ansicht
 
@@ -84,13 +84,13 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 ## Hinweise
 
--    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
+-    **clearance**   * At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **module**   * Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
 
--    **reset_origin**: It can be advantageous for mounting purposes if the parameter is set to **false**. The origin of the body is then at the tip of the pitch cone.
+-    **reset_origin**   * It can be advantageous for mounting purposes if the parameter is set to **false**. The origin of the body is then at the tip of the pitch cone.
 
--    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
+-    **pressure_parameter**   * Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
 ## Hilfreiche Formeln 
 
@@ -98,13 +98,13 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **Kopfkreisdurchmesser**= **Teilkreisdurchmesser** + 2 \* **Modul** \* **cos Bezugskonuswinkel**
 
--    **Kopfwinkel 1**= **(Zähne 1 + 2)** \* **(cos Referenzkegelwinkel 1)** : **(Zähne 2 - 2)** \* **(sin Referenzkegelwinkel 1)**
+-    **Kopfwinkel 1**= **(Zähne 1 + 2)** \* **(cos Referenzkegelwinkel 1)**    * **(Zähne 2 - 2)** \* **(sin Referenzkegelwinkel 1)**
 
--    **Kopfwinkel 2**= **(Zähne 2 + 2)** \* **(cos Referenzkegelwinkel 2)** : **(Zähne 1 - 2)** \* **(sin Referenzkegelwinkel 2)**
+-    **Kopfwinkel 2**= **(Zähne 2 + 2)** \* **(cos Referenzkegelwinkel 2)**    * **(Zähne 1 - 2)** \* **(sin Referenzkegelwinkel 2)**
 
--    **Referenz-Kegelwinkel 1**= **(Zähne 1)** : **(Zähne 2)**
+-    **Referenz-Kegelwinkel 1**= **(Zähne 1)**    * **(Zähne 2)**
 
--    **Referenz-Kegelwinkel 2**= **(Zähne 2)** : **(Zähne 1)**
+-    **Referenz-Kegelwinkel 2**= **(Zähne 2)**    * **(Zähne 1)**
 
 -    **Achswinkel gesamt**= **Referenz-Kegelwinkel 1** + **Referenz-Kegelwinkel 2**
 
@@ -124,6 +124,8 @@ Substantiv Referenz Kegelwinkel \[TECH.\]
 
 
 </div>
+
+[Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Std RecentFiles
-   Name/ru:Std RecentFiles
-   Empty:1
-   MenuLocation:Файл → Недавние файлы
-   Workbenches:All
-   SeeAlso:[Открыть](Std_Open/ru.md), [Импортировать](Std_Import/ru.md)
+- GuiCommand   */ru
+   Name   *Std RecentFiles
+   Name/ru   *Std RecentFiles
+   Empty   *1
+   MenuLocation   *Файл → Недавние файлы
+   Workbenches   *All
+   SeeAlso   *[Открыть](Std_Open/ru.md), [Импортировать](Std_Import/ru.md)
 ---
 
 # Std RecentFiles/ru
@@ -26,7 +26,7 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 ## Настройки
 
 -   The maximum number of files in the recent files list is determined by the **Tools → Edit parameters... → BaseApp → Preferences → RecentFiles → RecentFiles** setting. This setting can also be changed in the [Preferences Editor](Preferences_Editor#General.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

@@ -1,27 +1,27 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw ExtensionLockUnlockView
-   Name/fr:TechDraw Verrouiller/déverrouiller
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Verrouiller/déverrouiller la vue
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+- GuiCommand   */fr
+   Name   *TechDraw ExtensionLockUnlockView
+   Name/fr   *TechDraw Verrouiller/déverrouiller
+   MenuLocation   *TechDraw → Extensions   * Attributes/Modifications → Verrouiller/déverrouiller la vue
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut   *
+   Version   *0.20
+   SeeAlso   *
 ---
 
 # TechDraw ExtensionLockUnlockView/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:24px;"> **TechDraw Verrouiller/déverrouiller** verrouille ou déverrouille la position d\'une vue en basculant sa propriété **Lock Position**. Une vue verrouillée a une position fixe par rapport à la page ou au groupe auquel elle appartient.
+L\'outil <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width   *24px;"> **TechDraw Verrouiller/déverrouiller** verrouille ou déverrouille la position d\'une vue en basculant sa propriété **Lock Position**. Une vue verrouillée a une position fixe par rapport à la page ou au groupe auquel elle appartient.
 
 ## Utilisation
 
 1.  Sélectionnez une seule vue de dessin.
-2.  Il existe plusieurs façons de lancer l\'outil :
+2.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> [Verrouiller/déverrouiller la vue](TechDraw_ExtensionLockUnlockView/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> Verrouiller/déverrouiller la vue** à partir du menu.
-3.  La propriété **Lock Position** de la vue est basculée. Les vues verrouillées ont une icône avec une cadenas rouge <img alt="" src=images/TechDraw_Lock.svg  style="width:16px;"> dans le coin inférieur gauche.
+    -   Sélectionnez l\'option **TechDraw → Extensions   * Attributes/Modifications → <img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> Verrouiller/déverrouiller la vue** à partir du menu.
+3.  La propriété **Lock Position** de la vue est basculée. Les vues verrouillées ont une icône avec une cadenas rouge <img alt="" src=images/TechDraw_Lock.svg  style="width   *16px;"> dans le coin inférieur gauche.
 
 
 

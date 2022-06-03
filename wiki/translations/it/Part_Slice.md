@@ -1,6 +1,6 @@
 # Part Slice/it
 ---
-- GuiCommand:/it   Name:Part Slice   Name/it:Affetta in composto   MenuLocation:Part → Dividi → Affetta in composto   Workbenches:[SeeAlso:[[Part_BooleanFragments/it|Frammenti Booleani](Part_Workbench/it___Part]].md), [Part XOR](Part_XOR/it.md), [Giunzione](Part_CompJoinFeatures/it.md), [Operazioni booleane](Part_Boolean/it.md)---
+- GuiCommand   */it   Name   *Part Slice   Name/it   *Affetta in composto   MenuLocation   *Part → Dividi → Affetta in composto   Workbenches   *[SeeAlso   *[[Part_BooleanFragments/it|Frammenti Booleani](Part_Workbench/it___Part]].md), [Part XOR](Part_XOR/it.md), [Giunzione](Part_CompJoinFeatures/it.md), [Operazioni booleane](Part_Boolean/it.md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Strumento<img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md) serve per dividere le forme intersecandole con altre forme. Ad esempio, con un cubo e un piano, viene creato un composto di due solidi.
+Strumento<img alt="" src=images/Part_Slice.svg  style="width   *24px;"> [Affetta in composto](Part_Slice/it.md) serve per dividere le forme intersecandole con altre forme. Ad esempio, con un cubo e un piano, viene creato un composto di due solidi.
 
 
 </div>
@@ -24,7 +24,7 @@ Strumento<img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in
 
 <div class="mw-translate-fuzzy">
 
-Ci sono due comandi per affettare una forma: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Affetta in parti](Part_SliceApart/it.md) e <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md). Entrambi creano una funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Affetta in parti](Part_SliceApart/it.md) esplode il composto risultante in oggetti separati. \"Affetta in composto\" è completamente parametrico e non crea problemi se il numero di pezzi cambia. \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia.
+Ci sono due comandi per affettare una forma   * <img alt="" src=images/Part_SliceApart.svg  style="width   *24px;"> [Affetta in parti](Part_SliceApart/it.md) e <img alt="" src=images/Part_Slice.svg  style="width   *24px;"> [Affetta in composto](Part_Slice/it.md). Entrambi creano una funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma <img alt="" src=images/Part_SliceApart.svg  style="width   *24px;"> [Affetta in parti](Part_SliceApart/it.md) esplode il composto risultante in oggetti separati. \"Affetta in composto\" è completamente parametrico e non crea problemi se il numero di pezzi cambia. \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia.
 
 
 </div>
@@ -32,14 +32,14 @@ Ci sono due comandi per affettare una forma: <img alt="" src=images/Part_SliceAp
 
 <div class="mw-translate-fuzzy">
 
-La forma in uscita occupa lo stesso spazio dell\'originale, ma è divisa dove interseca le altre forme. I singoli pezzi sono raggruppati in un composto (o in un compsolid), quindi sembra che l\'oggetto sia ancora un unico pezzo. Per disporre dei singoli pezzi è necessario separare gli elementi del composto. Se si desidera accedere ai singoli pezzi in modo parametrico, è possibile utilizzare <img alt="" src=images/Part_CompoundFilter.svg  style="width:24px;"> [Filtra composto di Part](Part_CompoundFilter/it.md). Per un utilizzo rapido e non parametrico usare <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> [Degrada](Draft_Downgrade/it.md) di Draft.
+La forma in uscita occupa lo stesso spazio dell\'originale, ma è divisa dove interseca le altre forme. I singoli pezzi sono raggruppati in un composto (o in un compsolid), quindi sembra che l\'oggetto sia ancora un unico pezzo. Per disporre dei singoli pezzi è necessario separare gli elementi del composto. Se si desidera accedere ai singoli pezzi in modo parametrico, è possibile utilizzare <img alt="" src=images/Part_CompoundFilter.svg  style="width   *24px;"> [Filtra composto di Part](Part_CompoundFilter/it.md). Per un utilizzo rapido e non parametrico usare <img alt="" src=images/Draft_Downgrade.svg  style="width   *24px;"> [Degrada](Draft_Downgrade/it.md) di Draft.
 
 
 </div>
 
-Lo strumento dispone di tre modalità: \"Standard\", \"Split\", e \"CompSolid\". Non esiste un modulo di selezione, sono predefiniti ma è possibile accedervi dopo l\'operazione al livello delle fette risultanti.
+Lo strumento dispone di tre modalità   * \"Standard\", \"Split\", e \"CompSolid\". Non esiste un modulo di selezione, sono predefiniti ma è possibile accedervi dopo l\'operazione al livello delle fette risultanti.
 
-Le modalità \"Standard\" e \"Split\" differiscono per l\'azione dello strumento su wire, shell e compsolid: se si usa \"Split\", essi sono separati; se si usa \"Standard\", essi sono mantenuti insieme (si ottengono dei segmenti in più).
+Le modalità \"Standard\" e \"Split\" differiscono per l\'azione dello strumento su wire, shell e compsolid   * se si usa \"Split\", essi sono separati; se si usa \"Standard\", essi sono mantenuti insieme (si ottengono dei segmenti in più).
 
 La struttura del composto nelle modalità \"Split\" e \"Standard\" segue la struttura dei composti della forma da suddividere.
 
@@ -48,7 +48,7 @@ In modalità \"CompSolid\", il risultato è un compsolid (o un composto di comps
 
 <div class="mw-translate-fuzzy">
 
-L\'azione complessiva dello strumento è molto simile a quella di <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Frammenti booleani](Part_BooleanFragments/it.md), tranne che il risultato contiene solo i pezzi dalla prima forma.
+L\'azione complessiva dello strumento è molto simile a quella di <img alt="" src=images/Part_BooleanFragments.svg  style="width   *24px;"> [Frammenti booleani](Part_BooleanFragments/it.md), tranne che il risultato contiene solo i pezzi dalla prima forma.
 
 
 </div>
@@ -59,8 +59,8 @@ L\'azione complessiva dello strumento è molto simile a quella di <img alt="" sr
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare prima l\'oggetto da dividere, e poi alcuni oggetti con cui dividerlo.
-    L\'ordine di selezione è importante. I composti con auto-intersezioni non sono ammessi (le auto-intersezioni a volte possono essere individuate facendo passare il composto attraverso lo strumento <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Frammenti booleani](Part_BooleanFragments/it.md))
-2.  Avviare il comando <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md).
+    L\'ordine di selezione è importante. I composti con auto-intersezioni non sono ammessi (le auto-intersezioni a volte possono essere individuate facendo passare il composto attraverso lo strumento <img alt="" src=images/Part_BooleanFragments.svg  style="width   *24px;"> [Frammenti booleani](Part_BooleanFragments/it.md))
+2.  Avviare il comando <img alt="" src=images/Part_Slice.svg  style="width   *24px;"> [Affetta in composto](Part_Slice/it.md).
 
 
 </div>
@@ -100,13 +100,13 @@ Vengono create le fette e tutte le fette sono unite in un composto.
 
 {{TitleProperty|Slice}}
 
--    **Base**: L\'oggetto da dividere.
+-    **Base**   * L\'oggetto da dividere.
 
--    **Tools**: Elenco di oggetti con cui dividere. (da FreeCAD v0.17.8053, questa proprietà non viene visualizzata nell\'editor delle proprietà, e si può accedere solo tramite Python).
+-    **Tools**   * Elenco di oggetti con cui dividere. (da FreeCAD v0.17.8053, questa proprietà non viene visualizzata nell\'editor delle proprietà, e si può accedere solo tramite Python).
 
--    **Mode**: \"Standard\", \"Split\", o \"CompSolid\". \"Split\" è il default. Standard e Split differiscono per l\'azione dello strumento sull\'aggregazione delle forme; se \"Split\", essi sono separati; altrimenti essi sono mantenuti insieme (si ottengono dei segmenti in più).
+-    **Mode**   * \"Standard\", \"Split\", o \"CompSolid\". \"Split\" è il default. Standard e Split differiscono per l\'azione dello strumento sull\'aggregazione delle forme; se \"Split\", essi sono separati; altrimenti essi sono mantenuti insieme (si ottengono dei segmenti in più).
 
--    **Tolerance**: Valore di \"confusione\". Questa è una tolleranza supplementare da applicare durante la ricerca delle intersezioni, oltre alle tolleranze memorizzate nelle forme in ingresso.
+-    **Tolerance**   * Valore di \"confusione\". Questa è una tolleranza supplementare da applicare durante la ricerca delle intersezioni, oltre alle tolleranze memorizzate nelle forme in ingresso.
 
 ̈Notaː Le proprietà sono accessibili sull\'oggetto interno delle sezioni, non sul livello del risultato.
 
@@ -141,7 +141,7 @@ Vengono create le fette e tutte le fette sono unite in un composto.
 
 <div class="mw-translate-fuzzy">
 
-**Nota:** I passaggi 5 e 6 possono essere eseguiti con un solo clic usando [Affetta in parti](Part_SliceApart/it.md)
+**Nota   *** I passaggi 5 e 6 possono essere eseguiti con un solo clic usando [Affetta in parti](Part_SliceApart/it.md)
 
 
 </div>
@@ -161,7 +161,7 @@ Lo strumento è stato introdotto in FreeCAD v0.17.8053. FreeCAD deve essere comp
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console python utilizzando la seguente funzione:
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console python utilizzando la seguente funzione   *
 
 
 </div>
@@ -172,23 +172,23 @@ Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console 
 -   Crea una funzione Slice vuota. Le proprietà \'Objects\' devono essere assegnate in modo esplicito, in seguito.
 -   Restituisce l\'oggetto appena creato.
 
-Slice può essere applicato anche a forme piane, senza la necessità di avere un document object, attraverso: 
+Slice può essere applicato anche a forme piane, senza la necessità di avere un document object, attraverso   * 
 ```pythonBOPTools.SplitAPI.slice(base_shape, tool_shapes, mode, tolerance = 0.0)``` Questo può essere utile per creare delle funzioni personalizzate con script Python.
 
-Esempio: {{code|code=
+Esempio   * {{code|code=
 import BOPTools.SplitFeatures
 j = BOPTools.SplitFeatures.makeSlice(name= 'Slice')
 j.Base = FreeCADGui.Selection.getSelection()[0]
-j.Tools = FreeCADGui.Selection.getSelection()[1:]
+j.Tools = FreeCADGui.Selection.getSelection()[1   *]
 }}
 
-Lo strumento è implementato in Python, vedere see {{FileName|/Mod/Part/BOPTools/SplitFeatures.py}} ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/SplitFeatures.py)) nella directory di installazione di FreeCAD.
+Lo strumento è implementato in Python, vedere see **/Mod/Part/BOPTools/SplitFeatures.py** ([GitHub link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/SplitFeatures.py)) nella directory di installazione di FreeCAD.
 
 ## Tutorials
 
--   [FreeCad 0.18 Part WB using Slice and Slice Apart](https://www.youtube.com/watch?v=tzHkQaHgrfQ) (English language), author: Ha Gei
+-   [FreeCad 0.18 Part WB using Slice and Slice Apart](https   *//www.youtube.com/watch?v=tzHkQaHgrfQ) (English language), author   * Ha Gei
 
--   [FreeCAD Slice und Slice Apart und andere Tricks](https://www.youtube.com/watch?v=JJAL5JmqqKQ) (German language), author: Ha Gei
+-   [FreeCAD Slice und Slice Apart und andere Tricks](https   *//www.youtube.com/watch?v=JJAL5JmqqKQ) (German language), author   * Ha Gei
 
 
 <div class="mw-translate-fuzzy">

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft Dimension
-   Name/it:Quota
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Quota   Shortcut:**D** **I**
-   SeeAlso:[Inverti la direzione delle quote](Draft_FlipDimension/it.md), [TechDraw](TechDraw_Workbench/it.md)
-   Version:0.8
+- GuiCommand   */it
+   Name   *Draft Dimension
+   Name/it   *Quota
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Quota   Shortcut   ***D** **I**
+   SeeAlso   *[Inverti la direzione delle quote](Draft_FlipDimension/it.md), [TechDraw](TechDraw_Workbench/it.md)
+   Version   *0.8
 ---
 
 # Draft Dimension/it
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Quota](Draft_Dimension/it.md) crea un oggetto che misura e visualizza la distanza tra due punti; un terzo punto specifica la posizione della linea di quota.
+Lo strumento <img alt="" src=images/Draft_Dimension.svg  style="width   *16px;"> [Quota](Draft_Dimension/it.md) crea un oggetto che misura e visualizza la distanza tra due punti; un terzo punto specifica la posizione della linea di quota.
 
 
 </div>
@@ -39,7 +39,7 @@ La dimensione risultante viene posizionata nella vista 3D ed è considerata un o
 
 </div>
 
-<img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width:400px;">
+<img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -59,7 +59,7 @@ La dimensione risultante viene posizionata nella vista 3D ed è considerata un o
 
 </div>
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 ### Usage linear dimension 
 
@@ -77,26 +77,26 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ### Usage radial dimension 
 
 1.  Optionally select a circular edge in the [3D view](3D_view.md).
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
+    -   Use the keyboard shortcut   * **D** then **I**.
 3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an edge do one of the following:
+4.  If you have not yet selected an edge do one of the following   *
     -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a circular edge in the [3D view](3D_view.md).
     -   Hold down the **Alt** key, select a circular edge in the [3D view](3D_view.md) and release the **Alt** key.
-5.  To position the dimension line do one of the following:
-    -   For a diameter dimension:
+5.  To position the dimension line do one of the following   *
+    -   For a diameter dimension   *
         -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-    -   For a radial dimension:
+    -   For a radial dimension   *
         -   Hold down the **Shift** key and pick a point in the [3D view](3D_view.md).
 
 ### Usage angular dimension 
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
+    -   Use the keyboard shortcut   * **D** then **I**.
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
@@ -131,10 +131,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 ### Usage
 
 1.  Select one or more [Std MeasureDistance](Std_MeasureDistance.md) objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
+    -   Use the keyboard shortcut   * **D** then **I**.
 3.  Each selected object is replaced by a non-parametric linear Draft Dimension.
 
 ## Notes
@@ -149,9 +149,9 @@ La Dimensione può essere modificata facendo doppio clic sull\'elemento nella vi
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
+A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated   *
 
 ### Data linear and radial dimension 
 
@@ -163,15 +163,15 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 ### Dati
 
--    **Start**: specifica il punto iniziale della distanza da misurare.
+-    **Start**   * specifica il punto iniziale della distanza da misurare.
 
--    **End**: specifica il punto finale della distanza da misurare.
+-    **End**   * specifica il punto finale della distanza da misurare.
 
--    **Dimline**: specifica un punto attraverso il quale la linea di quota deve passare.
+-    **Dimline**   * specifica un punto attraverso il quale la linea di quota deve passare.
 
--    **Distance**: (sola lettura) indica la lunghezza misurata.
+-    **Distance**   * (sola lettura) indica la lunghezza misurata.
 
--    **Diameter**: se è `True` visualizza una dimensione diametro; altrimenti visualizza una dimensione raggio; questa proprietà funziona solo se la quota è collegata ad un arco circolare.
+-    **Diameter**   * se è `True` visualizza una dimensione diametro; altrimenti visualizza una dimensione raggio; questa proprietà funziona solo se la quota è collegata ad un arco circolare.
 
 
 </div>
@@ -179,56 +179,56 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Linear/radial dimension}}
 
--    **Direction|Vector**: specifies the direction of the measurement.
+-    **Direction|Vector**   * specifies the direction of the measurement.
 
--    **Distance|Length**: (read-only) specifies the value of the measurement.
+-    **Distance|Length**   * (read-only) specifies the value of the measurement.
 
--    **End|VectorDistance**: specifies the end point of the measurement.
+-    **End|VectorDistance**   * specifies the end point of the measurement.
 
--    **Start|VectorDistance**: specifies the start point of the measurement.
+-    **Start|VectorDistance**   * specifies the start point of the measurement.
 
 
 {{TitleProperty|Radial dimension}}
 
--    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
+-    **Diameter|Bool**   * specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
 
 ### Data angular dimension 
 
 
 {{TitleProperty|Angular dimension}}
 
--    **Angle|Angle**: (read-only) specifies the value of the measurement.
+-    **Angle|Angle**   * (read-only) specifies the value of the measurement.
 
--    **Center|VectorDistance**: specifies the center of the measurement.
+-    **Center|VectorDistance**   * specifies the center of the measurement.
 
--    **First Angle|Angle**: specifies the start angle of the measurement.
+-    **First Angle|Angle**   * specifies the start angle of the measurement.
 
--    **Last Angle|Angle**: specifies the end angle of the measurement.
+-    **Last Angle|Angle**   * specifies the end angle of the measurement.
 
 
 {{TitleProperty|Dimension}}
 
--    **Dimline|VectorDistance**: specifies the point through which the dimension arc passes.
+-    **Dimline|VectorDistance**   * specifies the point through which the dimension arc passes.
 
--    **Linked Geometry|LinkSubList|hidden**: not used.
+-    **Linked Geometry|LinkSubList|hidden**   * not used.
 
--    **Normal|Vector|hidden**: specifies the normal of the plane of the dimension.
+-    **Normal|Vector|hidden**   * specifies the normal of the plane of the dimension.
 
--    **Support|Link|hidden**: not used.
+-    **Support|Link|hidden**   * not used.
 
 ### View
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the dimension. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**   * specifies the annotation style applied to the dimension. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the dimension.
+-    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the dimension.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|2D text}} the text will be displayed in a plane defined by the **Normal** of the measurement. If it is {{value|3D text}} the text will always face the camera. Note that these values are switched compared to [Draft Texts](Draft_Text.md). This is an inherited property.
+-    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|2D}} the text will be displayed in a plane defined by the **Normal** of the measurement. If it is {{value|3D}} the text will always face the camera. Note that these values are switched compared to [Draft Texts](Draft_Text.md). This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
@@ -238,35 +238,35 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 ### Vista
 
--    **Ext Lines**: specifica la lunghezza massima delle linee di estensione che vanno dai punti di misurazione alla linea di quota.
+-    **Ext Lines**   * specifica la lunghezza massima delle linee di estensione che vanno dai punti di misurazione alla linea di quota.
 
--    **Ext Overshoot**: specifica la lunghezza aggiuntiva delle linee di estensione oltre la linea di quota.
+-    **Ext Overshoot**   * specifica la lunghezza aggiuntiva delle linee di estensione oltre la linea di quota.
 
--    **Dim Overshoot**: specifica la lunghezza aggiuntiva aggiunta alla linea di quota.
+-    **Dim Overshoot**   * specifica la lunghezza aggiuntiva aggiunta alla linea di quota.
 
--    **Arrow Size**: specifica la dimensione del simbolo visualizzato alle estremità della linea di quota.
+-    **Arrow Size**   * specifica la dimensione del simbolo visualizzato alle estremità della linea di quota.
 
--    **Arrow Type**: specifica il tipo di simbolo visualizzato alle estremità della linea di quota, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\".
+-    **Arrow Type**   * specifica il tipo di simbolo visualizzato alle estremità della linea di quota, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\".
 
--    **Flip Arrows**: specifica se capovolgere l\'orientamento dei simboli alle estremità della linea di quota; funziona solo se i simboli sono frecce.
+-    **Flip Arrows**   * specifica se capovolgere l\'orientamento dei simboli alle estremità della linea di quota; funziona solo se i simboli sono frecce.
 
--    **Font Name**: specifica il carattere da utilizzare per disegnare il testo. Può essere il nome di un carattere, ad esempio \"Arial\", uno stile predefinito come \"sans\", \"serif\" o \"mono\", una famiglia come \"Arial,Helvetica,sans\" o un nome con uno stile come \"Arial:Bold\". Se nel sistema non trova il font specificato, ne utilizza uno generico.
+-    **Font Name**   * specifica il carattere da utilizzare per disegnare il testo. Può essere il nome di un carattere, ad esempio \"Arial\", uno stile predefinito come \"sans\", \"serif\" o \"mono\", una famiglia come \"Arial,Helvetica,sans\" o un nome con uno stile come \"Arial   *Bold\". Se nel sistema non trova il font specificato, ne utilizza uno generico.
 
--    **Font Size**: specifica la dimensione delle lettere. Se l\'oggetto testo viene creato nella vista ad albero ma non è visibile alcun testo, aumentare la dimensione del testo fino a renderlo visibile.
+-    **Font Size**   * specifica la dimensione delle lettere. Se l\'oggetto testo viene creato nella vista ad albero ma non è visibile alcun testo, aumentare la dimensione del testo fino a renderlo visibile.
 
--    **Flip Text**: specifica se capovolgere l\'orientamento del testo che indica la misura.
+-    **Flip Text**   * specifica se capovolgere l\'orientamento del testo che indica la misura.
 
--    **Text Position**: specifica la posizione del testo in coordinate assolute, riferito all\'origine (0,0,0); lasciare questa proprietà al valore predefinito (0,0,0) per visualizzare il testo accanto alla linea di quota.
+-    **Text Position**   * specifica la posizione del testo in coordinate assolute, riferito all\'origine (0,0,0); lasciare questa proprietà al valore predefinito (0,0,0) per visualizzare il testo accanto alla linea di quota.
 
--    **Text Spacing**: specifica lo spazio tra il testo e la linea di quota.
+-    **Text Spacing**   * specifica lo spazio tra il testo e la linea di quota.
 
--    **Override**: specifica un testo personalizzato da visualizzare al posto della misura effettiva. Usare la stringa `$dim` all\'interno del testo per visualizzare il valore della misura.
+-    **Override**   * specifica un testo personalizzato da visualizzare al posto della misura effettiva. Usare la stringa `$dim` all\'interno del testo per visualizzare il valore della misura.
 
--    **Decimals**: specifica il numero di posizioni decimali da visualizzare nella misura.
+-    **Decimals**   * specifica il numero di posizioni decimali da visualizzare nella misura.
 
--    **Show Unit**: se è `True` l\'unità viene visualizzata accanto al valore numerico della misura.
+-    **Show Unit**   * se è `True` l\'unità viene visualizzata accanto al valore numerico della misura.
 
--    **Unit Override**: specifica un\'unità in cui esprimere la misura, per esempio, \"km\", \"m\", \"cm\", \"mm\", \"mi\", \"ft\", \"in\"; lasciare vuota questa proprietà per utilizzare le unità predefinite. {{Version/it|0.17}}
+-    **Unit Override**   * specifica un\'unità in cui esprimere la misura, per esempio, \"km\", \"m\", \"cm\", \"mm\", \"mi\", \"ft\", \"in\"; lasciare vuota questa proprietà per utilizzare le unità predefinite. {{Version/it|0.17}}
 
 
 </div>
@@ -274,26 +274,26 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Text}}
 
--    **Flip Text|Bool**: specifies whether to flip the orientation of the text.
+-    **Flip Text|Bool**   * specifies whether to flip the orientation of the text.
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Font Name|Font**   * specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial   *Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Font Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
--    **Override|String**: specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
+-    **Override|String**   * specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
 
--    **Text Position|VectorDistance**: specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
+-    **Text Position|VectorDistance**   * specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
 
--    **Text Spacing|Length**: specifies the space between the text and the dimension line or arc.
+-    **Text Spacing|Length**   * specifies the space between the text and the dimension line or arc.
 
 
 {{TitleProperty|Units}}
 
--    **Decimals|Integer**: specifies the number of decimal places to display for the measurement.
+-    **Decimals|Integer**   * specifies the number of decimal places to display for the measurement.
 
--    **Show Unit|Bool**: specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
+-    **Show Unit|Bool**   * specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
 
--    **Unit Override|String**: specifies the unit in which to express the measurement, for example, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} or {{value|arch}} for arch units. Leave this blank to use the default unit. Not used for angular dimensions.
+-    **Unit Override|String**   * specifies the unit in which to express the measurement, for example, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} or {{value|arch}} for arch units. Leave this blank to use the default unit. Not used for angular dimensions.
 
 ## Scripting
 
@@ -303,7 +303,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -313,7 +313,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Dimension può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Dimension può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -325,7 +325,7 @@ dimension = make_dimension(p1, p2, p3=None, p4=None)```
 
 <div class="mw-translate-fuzzy">
 
-Esistono vari modi per richiamare questa funzione, a seconda degli argomenti passati:
+Esistono vari modi per richiamare questa funzione, a seconda degli argomenti passati   *
 
 
 </div>
@@ -356,7 +356,7 @@ dimension = make_dimension(object, i1, mode, p4=None)
 
 <div class="mw-translate-fuzzy">
 
-Per creare una quota angolare utilizzare la seguente funzione:
+Per creare una quota angolare utilizzare la seguente funzione   *
 
 
 </div>
@@ -385,7 +385,7 @@ Le proprietà di visualizzazione di `Dimension` possono essere cambiate sovrascr
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python

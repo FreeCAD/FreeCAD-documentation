@@ -9,52 +9,52 @@ Ma, con un po\' di hacking, è possibile importare prima l\'intera interfaccia d
 
 Tenete presente che con questo approccio ci sono molti problemi. L\'elaborazione di Qt sembra non funzionare (nessuna idea sul perché) e quando si utilizza il menu contestuale della vista 3D l\'applicazione si blocca. Un approccio migliore potrebbe essere quello di creare il proprio SoQtExaminerViewer o SoQtViewer della vista 3D e \"spingere\" il contenuto della vista FreeCAD 3D, come mostrato più avanti, nelle altre sezioni.
 
-In primo luogo, ottenere la finestra principale via [PySide](PySide/it.md): 
+In primo luogo, ottenere la finestra principale via [PySide](PySide/it.md)   * 
 ```python
 from PySide import QtGui
 from PySide import QtCore
 
-def getMainWindow():
+def getMainWindow()   *
    toplevel = QtGui.qApp.topLevelWidgets()
-   for i in toplevel:
-      if i.metaObject().className() == "Gui::MainWindow":
+   for i in toplevel   *
+      if i.metaObject().className() == "Gui   *   *MainWindow"   *
          return i
    raise Exception("No main window found")
 
 mw = getMainWindow()
 ```
 
-Poi ottenere la vista View3DInventor nello stesso modo: 
+Poi ottenere la vista View3DInventor nello stesso modo   * 
 ```python
-def get3dview(mw):
+def get3dview(mw)   *
       childs=mw.findChildren(QtGui.QMainWindow)
-      for i in childs:
-         if i.metaObject().className() == "Gui::View3DInventor":
+      for i in childs   *
+         if i.metaObject().className() == "Gui   *   *View3DInventor"   *
             return i
       return None
 
 v = get3dview(mw)
 ```
 
-Il seguente codice viene generato automaticamente, tramite la [creazione di una interfaccia grafica di QtDesigner](Dialog_creation/it.md), e convertito in codice python con lo strumento pyuic: 
+Il seguente codice viene generato automaticamente, tramite la [creazione di una interfaccia grafica di QtDesigner](Dialog_creation/it.md), e convertito in codice python con lo strumento pyuic   * 
 ```python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Sun Dec 27 11:18:56 2009
-#      by: PySide UI code generator 4.6
+# Created   * Sun Dec 27 11   *18   *56 2009
+#      by   * PySide UI code generator 4.6
 #
 # Modify for PySide 11/02/2015
-#      Python version: 2.7.8
-#      Qt version: 4.8.6
+#      Python version   * 2.7.8
+#      Qt version   * 4.8.6
 #
 # WARNING! All changes made in this file will be lost!
 
 from PySide import QtCore, QtGui
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
+class Ui_MainWindow(object)   *
+    def setupUi(self, MainWindow)   *
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(508, 436)
         self.centralwidget = QtGui.QWidget(MainWindow)
@@ -78,7 +78,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, MainWindow)   *
         MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "MainWindow", None, QtGui.QApplication.UnicodeUTF8))
 ```
 
@@ -98,24 +98,24 @@ In alternativa, è possibile utilizzare anche il modulo FreeCADGui per estrarre 
 from pivy import coin
 import FreeCAD as App
 
-box = App.activeDocument().addObject("Part::Box", "myBox")
+box = App.activeDocument().addObject("Part   *   *Box", "myBox")
 s = box.ViewObject.toString()  # store as string
 inp = coin.SoInput()
 inp.setBuffer(s)
 myNode = coin.SoDB.readAll(inp)  # restore from string
 ```
 
-Quindi, creare un visualizzatore autonomo con [Pivy](Pivy/it.md): 
+Quindi, creare un visualizzatore autonomo con [Pivy](Pivy/it.md)   * 
 ```python
 from pivy.sogui import *
 from pivy.coin import *
 import sys
 
-def myViewer():
+def myViewer()   *
     # Initialize Coin. This returns a main window to use.
     # If unsuccessful, exit.
     myWindow = SoGui.init(sys.argv[0])
-    if myWindow == None:
+    if myWindow == None   *
         sys.exit(1)
 
     # Make an empty scene and add our node to it
@@ -134,7 +134,7 @@ def myViewer():
     SoGui.mainLoop()     # Main Coin event loop
 ```
 
-Poi basta eseguire il proprio visualizzatore: 
+Poi basta eseguire il proprio visualizzatore   * 
 ```python
 myViewer()
 ```
@@ -172,36 +172,36 @@ from pivy.quarter import QuarterWidget
  
 import FreeCAD, FreeCADGui
  
-def getMainWindow():
+def getMainWindow()   *
    toplevel = QtGui.qApp.topLevelWidgets()
-   for i in toplevel:
-      if i.metaObject().className() == "Gui::MainWindow":
+   for i in toplevel   *
+      if i.metaObject().className() == "Gui   *   *MainWindow"   *
          return i
    raise Exception("No main window found")
  
-class MdiQuarterWidget(QuarterWidget):
-    def __init__(self, parent, sharewidget):
+class MdiQuarterWidget(QuarterWidget)   *
+    def __init__(self, parent, sharewidget)   *
         QuarterWidget.__init__(self, parent=parent, sharewidget=sharewidget)
  
-    def loadFile(self, filename):
+    def loadFile(self, filename)   *
         in_ = SoInput()
-        if (in_.openFile(str(filename.toLatin1()))):
+        if (in_.openFile(str(filename.toLatin1())))   *
             root = SoDB.readAll(in_)
-        if (root):
+        if (root)   *
             self.setSceneGraph(root)
             self.currentfile = filename
             self.setWindowTitle(filename)
             return True
         return False
  
-    def currentFile(self):
+    def currentFile(self)   *
         return self.currentfile
  
-    def minimumSizeHint(self):
+    def minimumSizeHint(self)   *
         return QtCore.QSize(640, 480)
  
-class MdiMainWindow(QMainWindow):
-    def __init__(self, qApp):
+class MdiMainWindow(QMainWindow)   *
+    def __init__(self, qApp)   *
         QMainWindow.__init__(self)
         self._firstwidget = None
         self._workspace = QWorkspace()
@@ -232,98 +232,98 @@ class MdiMainWindow(QMainWindow):
  
         self.dirname = os.curdir       
  
-    def dragEnterEvent(self, event):
+    def dragEnterEvent(self, event)   *
         # just accept anything...
         event.acceptProposedAction()
  
-    def dropEvent(self, event):
+    def dropEvent(self, event)   *
         mimedata = event.mimeData()
-        if mimedata.hasUrls():
+        if mimedata.hasUrls()   *
             path = mimedata.urls().takeFirst().path()
             self.open_path(path)
  
-    def closeEvent(self, event):
+    def closeEvent(self, event)   *
         self._workspace.closeAllWindows()
  
-    def open(self):
+    def open(self)   *
         self.open_path(QFileDialog.getOpenFileName(self, "", self.dirname))
  
-    def open_path(self, filename):
+    def open_path(self, filename)   *
         self.dirname = os.path.dirname(str(filename.toLatin1()))
-        if not filename.isEmpty():
+        if not filename.isEmpty()   *
             existing = self.findMdiChild(filename)
-            if existing:
+            if existing   *
                 self._workspace.setActiveWindow(existing)
                 return
         child = self.createMdiChild()
-        if (child.loadFile(filename)):
+        if (child.loadFile(filename))   *
             self.statusBar().showMessage("File loaded", 2000)
             child.show()
-        else:
+        else   *
             child.close()
  
-    def findMdiChild(self, filename):
+    def findMdiChild(self, filename)   *
         canonicalpath = QtCore.QFileInfo(filename).canonicalFilePath()
-        for window in self._workspace.windowList():
+        for window in self._workspace.windowList()   *
             mdiwidget = window
-            if mdiwidget.currentFile() == canonicalpath:
+            if mdiwidget.currentFile() == canonicalpath   *
                 return mdiwidget
         return 0;
  
-    def createMdiChild(self):
+    def createMdiChild(self)   *
         widget = MdiQuarterWidget(None, self._firstwidget)
         self._workspace.addWindow(widget)
-        if not self._firstwidget:
+        if not self._firstwidget   *
             self._firstwidget = widget
         return widget
  
-    def createBoxInFreeCAD(self):
+    def createBoxInFreeCAD(self)   *
         widget = MdiQuarterWidget(None, self._firstwidget)
         self._workspace.addWindow(widget)
-        if not self._firstwidget:
+        if not self._firstwidget   *
             self._firstwidget = widget
         widget.show()
         doc = FreeCAD.newDocument()
-        doc.addObject("Part::Box","myBox")
+        doc.addObject("Part   *   *Box","myBox")
         iv_=FreeCADGui.getDocument(doc.Name).getObject("myBox").toString()
         in_ = SoInput()
         in_.setBuffer(iv_)
         root = SoDB.readAll(in_)
-        if (root):
+        if (root)   *
             widget.setSceneGraph(root)
  
-def main():
+def main()   *
     app = QApplication(sys.argv) 
     mdi = MdiMainWindow(app)   
     mdi.show()
     FreeCADGui.showMainWindow() # setup the GUI stuff of FreeCAD
     mw=getMainWindow()
     mw.hide() # hide all
-    if len(sys.argv)==2:
+    if len(sys.argv)==2   *
         mdi.open_path(QtCore.QString(sys.argv[1]))
     sys.exit(app.exec_())
  
-def show():
+def show()   *
     mdi = MdiMainWindow(QtGui.qApp)   
     mdi.show()
     mw=getMainWindow()
     #mw.hide() # hide all
  
-if __name__ == '__main__':
+if __name__ == '__main__'   *
     main()
 ```
 
 ## Senza avviare la GUI di FreeCAD 
 
-A partire da FreeCAD rev2760 (2010, [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=203&start=20#p1226)), è possibile avere la rappresentazione coin di qualsiasi oggetto di FreeCAD senza aprire la finestra principale. Questo rende estremamente facile implementare il proprio visualizzatore e avere FreeCAD aggiornato. Dopo aver importato il modulo FreeCADGui, è necessario attivarlo con il metodo `setupWithoutGUI()`, dopo di che è possibile utilizzare tutti i fornitori di viste di FreeCAD per ottenere i nodi OpenInventor (Coin). 
+A partire da FreeCAD rev2760 (2010, [1](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=203&start=20#p1226)), è possibile avere la rappresentazione coin di qualsiasi oggetto di FreeCAD senza aprire la finestra principale. Questo rende estremamente facile implementare il proprio visualizzatore e avere FreeCAD aggiornato. Dopo aver importato il modulo FreeCADGui, è necessario attivarlo con il metodo `setupWithoutGUI()`, dopo di che è possibile utilizzare tutti i fornitori di viste di FreeCAD per ottenere i nodi OpenInventor (Coin). 
 ```python
 import os, sys, FreeCAD, FreeCADGui
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtGui import QMainWindow, QWorkspace, QAction, QFileDialog, QApplication
 from pivy.coin import SoInput, SoDB, sogui
  
-class MdiMainWindow(QMainWindow):
-    def __init__(self, qApp):
+class MdiMainWindow(QMainWindow)   *
+    def __init__(self, qApp)   *
         QMainWindow.__init__(self)
         self._firstwidget = None
         self._workspace = QWorkspace()
@@ -353,35 +353,35 @@ class MdiMainWindow(QMainWindow):
         windowmapper = QtCore.QSignalMapper(self)
         self.connect(windowmapper, QtCore.SIGNAL("mapped(QWidget *)"), self._workspace.setActiveWindow)
  
-    def closeEvent(self, event):
+    def closeEvent(self, event)   *
         self._workspace.closeAllWindows()
  
-    def createBoxInFreeCAD(self):
+    def createBoxInFreeCAD(self)   *
         widget = QtGui.QWidget(self._firstwidget)
         viewer = sogui.SoGuiExaminerViewer(widget)
         self._workspace.addWindow(widget)
-        if not self._firstwidget:
+        if not self._firstwidget   *
             self._firstwidget = widget
         widget.show()
         self.viewers.append(viewer)
         doc = FreeCAD.newDocument()
-        obj=doc.addObject("Part::Box","myBox")
+        obj=doc.addObject("Part   *   *Box","myBox")
         doc.recompute()
         root=FreeCADGui.subgraphFromObject(obj)
         viewer.setSceneGraph(root)
  
-def main():
+def main()   *
     app = QApplication(sys.argv)
     mdi = MdiMainWindow(app)   
     mdi.show()
     FreeCADGui.setupWithoutGUI()
     sys.exit(app.exec_())
  
-if __name__ == '__main__':
+if __name__ == '__main__'   *
     main()
 ```
 
-Oppure, se utilizzando il modulo sogui di pivy per voi non funziona (il modulo sogui sta diventando obsoleto e gli sviluppatori di coin ora stanno favorendo la nuova libreria Quarter che ha una migliore interazione con qt), questo è lo stesso script, ma utilizzando Quarter: 
+Oppure, se utilizzando il modulo sogui di pivy per voi non funziona (il modulo sogui sta diventando obsoleto e gli sviluppatori di coin ora stanno favorendo la nuova libreria Quarter che ha una migliore interazione con qt), questo è lo stesso script, ma utilizzando Quarter   * 
 ```python
 #!/usr/bin/env python
  
@@ -396,16 +396,16 @@ from pivy.quarter import QuarterWidget
 import FreeCADGui
  
  
-class MdiQuarterWidget(QuarterWidget):
-    def __init__(self, parent, sharewidget):
+class MdiQuarterWidget(QuarterWidget)   *
+    def __init__(self, parent, sharewidget)   *
         QuarterWidget.__init__(self, parent=parent, sharewidget=sharewidget)
  
-    def minimumSizeHint(self):
+    def minimumSizeHint(self)   *
         return QtCore.QSize(640, 480)
  
  
-class MdiMainWindow(QMainWindow):
-    def __init__(self, qApp):
+class MdiMainWindow(QMainWindow)   *
+    def __init__(self, qApp)   *
         QMainWindow.__init__(self)
         self._firstwidget = None
         self._workspace = QWorkspace()
@@ -436,27 +436,27 @@ class MdiMainWindow(QMainWindow):
  
         self.dirname = os.curdir       
  
-    def closeEvent(self, event):
+    def closeEvent(self, event)   *
         self._workspace.closeAllWindows()
  
-    def createBoxInFreeCAD(self):
+    def createBoxInFreeCAD(self)   *
         d=FreeCAD.newDocument()
-        o=d.addObject("Part::Box")
+        o=d.addObject("Part   *   *Box")
         d.recompute()
         s=FreeCADGui.subgraphFromObject(o)
         child = self.createMdiChild()
         child.show()
         child.setSceneGraph(s)
  
-    def createMdiChild(self):
+    def createMdiChild(self)   *
         widget = MdiQuarterWidget(None, self._firstwidget)
         self._workspace.addWindow(widget)
-        if not self._firstwidget:
+        if not self._firstwidget   *
             self._firstwidget = widget
         return widget
  
  
-def main():
+def main()   *
     app = QApplication(sys.argv)
     FreeCADGui.setupWithoutGUI()        
     mdi = MdiMainWindow(app)   
@@ -464,21 +464,26 @@ def main():
     sys.exit(app.exec_())
  
  
-if __name__ == '__main__':
+if __name__ == '__main__'   *
     main()
 ```
 
 ## Informazioni aggiuntive 
 
--   [Embedding a view to another (QT) application?](https://forum.freecadweb.org/viewtopic.php?f=8&t=203)
--   [Using Gui functions without Gui.showMainWindow() in python script](https://forum.freecadweb.org/viewtopic.php?t=12575)
--   [Acess Scenegraph through python API in without Gui mode](https://forum.freecadweb.org/viewtopic.php?t=14912)
--   [FreeCAD Hangs When Called from Python](https://forum.freecadweb.org/viewtopic.php?p=190353)
--   [Problem with FreeCADGui](https://forum.freecadweb.org/viewtopic.php?t=41697)
+-   [Embedding a view to another (QT) application?](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=203)
+-   [Using Gui functions without Gui.showMainWindow() in python script](https   *//forum.freecadweb.org/viewtopic.php?t=12575)
+-   [Acess Scenegraph through python API in without Gui mode](https   *//forum.freecadweb.org/viewtopic.php?t=14912)
+-   [FreeCAD Hangs When Called from Python](https   *//forum.freecadweb.org/viewtopic.php?p=190353)
+-   [Problem with FreeCADGui](https   *//forum.freecadweb.org/viewtopic.php?t=41697)
 
-Nel codice sorgente ci sono esempi di incorporamento di FreeCAD con vari toolkit grafici:
+Nel codice sorgente ci sono esempi di incorporamento di FreeCAD con vari toolkit grafici   *
 
--   [src/Tools/embedded](https://github.com/FreeCAD/FreeCAD/tree/master/src/Tools/embedded)
+-   [src/Tools/embedded](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Tools/embedded)
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

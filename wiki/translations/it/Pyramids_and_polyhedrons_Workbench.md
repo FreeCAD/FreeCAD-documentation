@@ -1,12 +1,12 @@
 # Pyramids and polyhedrons Workbench/it
 ## Descrizione
 
-<img alt="The Pyramids-and-Polyhedrons External Workbench Icon" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width:128px;">
+<img alt="The Pyramids-and-Polyhedrons External Workbench Icon" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width   *128px;">
 
-Questo banco di lavoro crea:
+Questo banco di lavoro crea   *
 
 -   Piramidi parametriche
--   Poliedri parametrici: tetraedro, esaedro, ottaedro, dodecaedro, icosaedro, icosaedro\_troncato
+-   Poliedri parametrici   * tetraedro, esaedro, ottaedro, dodecaedro, icosaedro, icosaedro\_troncato
 -   Sfere geodetiche (con divisioni da 1 a 10)
 
 Parametri come raggio e lato, \... possono essere regolati proprio come con le parti normali
@@ -28,7 +28,7 @@ Is not yet possible - work in progress.
 
 Manual install
 
-Go to <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow the instructions over there. Further details about this workbench can also be found there.
+Go to <https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow the instructions over there. Further details about this workbench can also be found there.
 
 ## Usare
 
@@ -44,7 +44,7 @@ Go to <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow 
 
 <div class="mw-translate-fuzzy">
 
-Ulteriori dettagli su questo banco di lavoro sono disponibili sul sito dedicato GitHub repo: <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons>
+Ulteriori dettagli su questo banco di lavoro sono disponibili sul sito dedicato GitHub repo   * <https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons>
 
 
 </div>
@@ -52,6 +52,11 @@ Ulteriori dettagli su questo banco di lavoro sono disponibili sul sito dedicato 
 ## Discussioni
 
 Invia il tuo feedback, idee, pensieri su questo banco di lavoro al thread del forum di FreeCAD dedicato (link). I bug possono anche essere inviati alla coda di emissione del repository GitHub.
+
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

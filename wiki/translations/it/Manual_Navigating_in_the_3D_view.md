@@ -8,17 +8,17 @@
 </div>
 
 
-{{Manual:TOC/it}}
+{{Manual   *TOC/it}}
 
 ### Alcune parole sullo spazio 3D 
 
 Se questo è il primo contatto con un\'applicazione 3D, prima è necessario familiarizzare con alcuni concetti. In caso contrario, si può tranquillamente saltare questa sezione.
 
-Lo spazio 3D in FreeCAD è uno [spazio euclideo](https://en.wikipedia.org/wiki/Euclidean_space). Ha un punto di origine e tre assi: X, Y e Z. Se si guarda la scena dall\'alto, convenzionalmente, l\'asse X punta verso destra, l\'asse Y all\'indietro, e l\'asse Z verso l\'alto. Nell\'angolo in basso a destra della vista di FreeCAD, è sempre possibile vedere da dove si sta visualizzando la scena:
+Lo spazio 3D in FreeCAD è uno [spazio euclideo](https   *//en.wikipedia.org/wiki/Euclidean_space). Ha un punto di origine e tre assi   * X, Y e Z. Se si guarda la scena dall\'alto, convenzionalmente, l\'asse X punta verso destra, l\'asse Y all\'indietro, e l\'asse Z verso l\'alto. Nell\'angolo in basso a destra della vista di FreeCAD, è sempre possibile vedere da dove si sta visualizzando la scena   *
 
 ![](images/Axes_orientation.png )
 
-Il punto in cui i tre assi si incontrano è l\'origine. È il punto in cui il valore di tutte le coordinate è zero. Per ogni dato asse, lo spostamento in una direzione aumenta il valore delle coordinate e lo spostamento nella direzione opposta diminuisce il valore delle coordinate. Ogni punto di ogni oggetto esistente nello spazio 3D può essere localizzato tramite le sue coordinate (x, y, z). Ad esempio, un punto con coordinate (2,3,1) si trova a +2 unità sull\'asse X, +3 unità sull\'asse Y e +1 unità sull\'asse Z:
+Il punto in cui i tre assi si incontrano è l\'origine. È il punto in cui il valore di tutte le coordinate è zero. Per ogni dato asse, lo spostamento in una direzione aumenta il valore delle coordinate e lo spostamento nella direzione opposta diminuisce il valore delle coordinate. Ogni punto di ogni oggetto esistente nello spazio 3D può essere localizzato tramite le sue coordinate (x, y, z). Ad esempio, un punto con coordinate (2,3,1) si trova a +2 unità sull\'asse X, +3 unità sull\'asse Y e +1 unità sull\'asse Z   *
 
 ![](images/3dspace_coordinates.jpg )
 
@@ -31,14 +31,14 @@ Si può guardare la scena da qualsiasi angolazione, come se si fosse in possesso
 
 <div class="mw-translate-fuzzy">
 
-La navigazione nella vista 3D di FreeCAD può essere fatta con un mouse, un dispositivo Space Navigator, la tastiera, un touchpad, o una combinazione di questi. FreeCAD implementa diversi [modi di navigazione](http://www.freecadweb.org/wiki/index.php?title=Mouse_Model/it), che determinano come sono eseguite le tre fondamentali operazioni di manipolazione della vista (spostamento, zoom e rotazione), e determinano anche il modo per selezionare gli oggetti sullo schermo. Le modalità di navigazione sono accessibili dalla schermata Preferenze, o direttamente facendo clic destro in qualsiasi punto della vista 3D:
+La navigazione nella vista 3D di FreeCAD può essere fatta con un mouse, un dispositivo Space Navigator, la tastiera, un touchpad, o una combinazione di questi. FreeCAD implementa diversi [modi di navigazione](http   *//www.freecadweb.org/wiki/index.php?title=Mouse_Model/it), che determinano come sono eseguite le tre fondamentali operazioni di manipolazione della vista (spostamento, zoom e rotazione), e determinano anche il modo per selezionare gli oggetti sullo schermo. Le modalità di navigazione sono accessibili dalla schermata Preferenze, o direttamente facendo clic destro in qualsiasi punto della vista 3D   *
 
 
 </div>
 
 ![](images/FreeCAD-v0-18-NavigationModePopup.png )
 
-Ognuna di queste modalità attribuisce per queste quattro operazioni pulsanti diversi del mouse, o combinazioni di mouse + tastiera, o gesti del mouse. Nella tabella che segue sono riportate le principali modalità disponibili:
+Ognuna di queste modalità attribuisce per queste quattro operazioni pulsanti diversi del mouse, o combinazioni di mouse + tastiera, o gesti del mouse. Nella tabella che segue sono riportate le principali modalità disponibili   *
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +57,7 @@ Ognuna di queste modalità attribuisce per queste quattro operazioni pulsanti di
 
 #### Navigazione da tastiera 
 
-In alternativa, sono sempre disponibili alcuni comandi da tastiera, a prescindere dalla modalità di navigazione:
+In alternativa, sono sempre disponibili alcuni comandi da tastiera, a prescindere dalla modalità di navigazione   *
 
 
 <div class="mw-translate-fuzzy">
@@ -107,7 +107,7 @@ C\'è un cubo più piccolo, nella parte inferiore destra del cubo, che attiva un
 
 Gli oggetti nella vista 3D possono essere selezionati cliccandoli con il corrispondente tasto del mouse, secondo la modalità di navigazione descritte sopra. Un singolo clic seleziona l\'oggetto, e una delle sue sotto-componenti (bordo, faccia, vertice). Facendo doppio click si seleziona l\'oggetto e tutte le sue sotto-componenti. Premendo il tasto CTRL è possibile selezionare più di un sotto-componente, o anche diversi sotto-componenti da diversi oggetti. Facendo clic con il pulsante di selezione su una parte vuota della visualizzazione 3D si deseleziona tutto.
 
-Si può anche aprire un pannello chiamato \"Selezione\", disponibile dal menu Visualizza, che mostra ciò che attualmente è selezionato:
+Si può anche aprire un pannello chiamato \"Selezione\", disponibile dal menu Visualizza, che mostra ciò che attualmente è selezionato   *
 
 ![](images/Selection_view.jpg )
 

@@ -4,7 +4,7 @@
    Name/pl   *Std   * Widok dopasowany do wyboru
    MenuLocation   *Widok → Widoki standardowe → Dopasuj do wyboru
    Workbenches   *wszystkie
-   Shortcut   ***V** **S**
+   Shortcut   ***V** → **S**
    SeeAlso   *[Dopasuj wszystko](Std_ViewFitAll/pl.md)
 ---
 

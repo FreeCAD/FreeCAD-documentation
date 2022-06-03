@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Part RefineShape
-   Name/de:Part FormVerfeinern
-   MenuLocation:Formteil → Erstelle eine Kopie → Form verfeinern
-   Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
-   SeeAlso:[Einfache Kopie](Part_SimpleCopy/de.md), [Part UmgewandelteKopie](Part_TransformedCopy/de.md), [Part ElementKopie](Part_ElementCopy/de.md), [OpenSCAD VerfeinereFormFunktion](OpenSCAD_RefineShapeFeature/de.md)
+- GuiCommand   */de
+   Name   *Part RefineShape
+   Name/de   *Part FormVerfeinern
+   MenuLocation   *Formteil → Erstelle eine Kopie → Form verfeinern
+   Workbenches   *[Part Arbeitsbereich](Part_Workbench/de.md)
+   SeeAlso   *[Einfache Kopie](Part_SimpleCopy/de.md), [Part UmgewandelteKopie](Part_TransformedCopy/de.md), [Part ElementKopie](Part_ElementCopy/de.md), [OpenSCAD VerfeinereFormFunktion](OpenSCAD_RefineShapeFeature/de.md)
 ---
 
 # Part RefineShape/de
@@ -44,9 +44,9 @@ Ab <small>(v0.19)</small>  ist das Ergebnis standardmäßig eine parametrische (
 
 <div class="mw-translate-fuzzy">
 
-Dieses Verhalten kann im **<img src="images/Std_DlgParameter.svg" width=16px> [Parametereditor](Std_DlgParameter.md)** geändert werden:
+Dieses Verhalten kann im **<img src="images/Std_DlgParameter.svg" width=16px> [Parametereditor](Std_DlgParameter.md)** geändert werden   *
 
-1.  Gehe zur Untergruppe: `BaseApp/Preferences/Mod/Part`
+1.  Gehe zur Untergruppe   * `BaseApp/Preferences/Mod/Part`
 
 -   Ändere `ParametricRefine` vom Typ `Boolean` in `False`, um das alte Verhalten (unabhängige Kopie) zu erhalten.
 
@@ -77,21 +77,21 @@ Siehe weitere Parameter unter [Feinabstimmung](Fine-tuning/de.md).
 </div>
 
 -   Der Verfeinerungsalgorithmus funktioniert nur bei Schalen. Daher iteriert er über die Schalen der Eingabeform und erzeugt dann für jede Schale eine neue Schale mit verbundenen Flächen, wo immer möglich. Das bedeutet, dass der Algorithmus nichts tut, wenn Ihre Eingabeform nur eine Fläche, ein Draht, eine Kante oder ein Knoten ist.
--   Im Gegensatz zum <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md) Befehl
+-   Im Gegensatz zum <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md) Befehl
 
-<img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part FormVerfeinern](Part_RefineShape/de.md) wird nicht aktualisiert, wenn die vorhergehenden Formen geändert werden.
+<img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Part FormVerfeinern](Part_RefineShape/de.md) wird nicht aktualisiert, wenn die vorhergehenden Formen geändert werden.
 
 
 <div class="mw-translate-fuzzy">
 
 ## Skripten
 
-Der Python Befehl zum Verfeinern einer Form lautet wie folgt:
+Der Python Befehl zum Verfeinern einer Form lautet wie folgt   *
 
 
 </div>
 
-The Python command for refining a shape is the following:
+The Python command for refining a shape is the following   *
 
 
 ```python

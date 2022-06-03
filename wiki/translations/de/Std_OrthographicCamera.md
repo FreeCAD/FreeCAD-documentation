@@ -1,14 +1,17 @@
 ---
-- GuiCommand:/de
-   Name:Std OrthographicCamera
-   Name/de:Std OrthogonaleAnsicht
-   MenuLocation:Ansicht → Orthogonale Ansicht
-   Workbenches:Alle
-   Shortcut:**V** **O**
-   SeeAlso:[Std PerspektivAnsicht](Std_PerspectiveCamera/de.md)
+- GuiCommand   */de
+   Name   *Std OrthographicCamera
+   Name/de   *Std OrthogonaleAnsicht
+   MenuLocation   *Ansicht → Orthogonale Ansicht
+   Workbenches   *Alle
+   Shortcut   ***V** **O**
+   SeeAlso   *[Std PerspektivAnsicht](Std_PerspectiveCamera/de.md)
 ---
 
 # Std OrthographicCamera/de
+
+
+</div>
 
 ## Beschreibung
 
@@ -19,9 +22,9 @@ Der Befehl **Std OrthogonaleKamera** schaltet die Kamera in der aktiven [3D Ansi
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
     -   Wähle die Option **Ansicht → <img src="images/Std_OrthographicCamera.svg" width=16px> Orthogonale Ansicht** aus dem Menü.
-    -   Verwende das Tastaturkürzel: **V** dann **O**.
+    -   Verwende das Tastaturkürzel   * **V** dann **O**.
 
 ## Hinweise
 
@@ -29,12 +32,12 @@ Der Befehl **Std OrthogonaleKamera** schaltet die Kamera in der aktiven [3D Ansi
 
 ## Einstellungen
 
--   Der Kameratyp kann in den Einstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
+-   Der Kameratyp kann in den Einstellungen geändert werden   * **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

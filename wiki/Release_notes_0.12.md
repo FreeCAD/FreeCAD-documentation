@@ -1,7 +1,7 @@
 # Release notes 0.12
-This is a summary of the most interesting changes occured in FreeCAD since latest version. See [here](http://www.freecadweb.org/tracker/changelog_page.php) for the complete list of changes.
+This is a summary of the most interesting changes occured in FreeCAD since latest version. See [here](http   *//www.freecadweb.org/tracker/changelog_page.php) for the complete list of changes.
 
-Older versions: [0.11](Release_notes_0.11.md)
+Older versions   * [0.11](Release_notes_0.11.md)
 
 ### Welcome!
 
@@ -11,7 +11,7 @@ Older versions: [0.11](Release_notes_0.11.md)
 
 ### Sketcher & PartDesign 
 
-<img alt="" src=images/Rim_bling.png  style="width:800px;">
+<img alt="" src=images/Rim_bling.png  style="width   *800px;">
 
 -   The [Sketcher](Sketcher_Workbench.md) has received a huge amount of work since the previous version, and is now based on a new solver designed from scratch for the task. The sketcher is now able to perform almost all 2D drawing operations of the [Draft Workbench](Draft_Workbench.md), and place a wide array of constraints on the sketch elements.
 
@@ -23,9 +23,9 @@ Older versions: [0.11](Release_notes_0.11.md)
 
 ![](images/Arch_screenshot.jpg )
 
--   The Arch module also features an [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) importer, a [DAE (collada)](http://en.wikipedia.org/wiki/Collada) importer and exporter, and a special [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) exporter more suited to architecture models than the standard one.
+-   The Arch module also features an [IFC](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes) importer, a [DAE (collada)](http   *//en.wikipedia.org/wiki/Collada) importer and exporter, and a special [OBJ](http   *//en.wikipedia.org/wiki/Wavefront_.obj_file) exporter more suited to architecture models than the standard one.
 
--   Included in the Arch module is also a growing collection of tools to make the process of working with Mesh objects from other applications such as [Blender](http://www.blender.org) easier. Mesh objects, if well modeled, can easily and automatically be turned into clean shapes, and then into parametric Arch objects.
+-   Included in the Arch module is also a growing collection of tools to make the process of working with Mesh objects from other applications such as [Blender](http   *//www.blender.org) easier. Mesh objects, if well modeled, can easily and automatically be turned into clean shapes, and then into parametric Arch objects.
 
 ### 2D Drafting 
 
@@ -45,6 +45,8 @@ Older versions: [0.11](Release_notes_0.11.md)
 
 
 {{languages | {{es|Release_notes_0.12/es}} {{fr|Release_notes_0.12/fr}} {{it|Release_notes_0.12/it}}  {{pl|Release_notes_0.12/pl}} {{ru|Release_notes_0.12/ru}} }}
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

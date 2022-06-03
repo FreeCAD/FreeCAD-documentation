@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Draft Angle
-   Name/ru:Draft Angle
-   MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Углы
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */ru
+   Name   *Draft Angle
+   Name/ru   *Draft Angle
+   MenuLocation   *Черчение → [Привязка](Draft_Snap/ru.md) → Углы
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Draft Snap Angle/ru

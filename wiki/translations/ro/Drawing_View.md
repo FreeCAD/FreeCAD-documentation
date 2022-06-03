@@ -1,20 +1,20 @@
 # Drawing View/ro
 ---
-- GuiCommand:/ro   Name:Drawing View   Name/ro:Drawing View   Workbenches:[MenuLocation:Drawing → Insert view in drawing   Shortcut:none   SeeAlso:[[Drawing Landscape A3/ro|Drawing Landscape A3](Drawing_Workbench/ro___Drawing]],_Complete.md)---
+- GuiCommand   */ro   Name   *Drawing View   Name/ro   *Drawing View   Workbenches   *[MenuLocation   *Drawing → Insert view in drawing   Shortcut   *none   SeeAlso   *[[Drawing Landscape A3/ro|Drawing Landscape A3](Drawing_Workbench/ro___Drawing]],_Complete.md)---
 
 
 </div>
 
 Acest instrument creează o nouă vedere a obiectului selectat în foaia activă de desen.
 
-<img alt="A drawing sheet with three views: front, top and isometric." src=images/Drawing_Views.png  style="width:500px;">
+<img alt="A drawing sheet with three views   * front, top and isometric." src=images/Drawing_Views.png  style="width   *500px;">
 
 
 <div class="mw-translate-fuzzy">
 
 ### Cum se utilizează 
 
-Selectați un obiect în vizualizarea 3D sau în arborescența Proiect, apoi faceți clic pe instrumentul Vizualizare desene. În mod prestabilit, în partea stângă sus a paginii va fi afișată o vedere de sus scara la 1: 1 (scară reală). Este posibil să nu fie vizibil dacă este prea mic sau prea mare pentru pagină.
+Selectați un obiect în vizualizarea 3D sau în arborescența Proiect, apoi faceți clic pe instrumentul Vizualizare desene. În mod prestabilit, în partea stângă sus a paginii va fi afișată o vedere de sus scara la 1   * 1 (scară reală). Este posibil să nu fie vizibil dacă este prea mic sau prea mare pentru pagină.
 
 
 </div>
@@ -27,16 +27,16 @@ Dacă numai obiectul este selectat în Arborescența proiectului, vizualizarea e
 
 Deschideți obiectul Page din arborele Project și selectați View. Parametrii săi pot fi editați în fila Vizualizare proprietăți.
 
-<img alt="" src=images/Drawing_View_Properties.png‎ ) ![Isometric view with smooth lines visibility off](images/Drawing_View_Iso.png‎  style="width:150px;"> <img alt="Isometric view with smooth lines visibility on" src=images/Drawing_View_Iso_SmoothLines.png‎‎  style="width:150px;">
+<img alt="" src=images/Drawing_View_Properties.png‎ ) ![Isometric view with smooth lines visibility off](images/Drawing_View_Iso.png‎  style="width   *150px;"> <img alt="Isometric view with smooth lines visibility on" src=images/Drawing_View_Iso_SmoothLines.png‎‎  style="width   *150px;">
 
--   **Label**: modifică eticheta vizualizării în arborescența proiectului. De asemenea, puteți să dați clic pe Afișați din arborescență și să faceți clic dreapta pe → Redenumire sau să apăsați pe **F2**.
--   **Rotation**: rotește vederea. De exemplu, o vizualizare izometrică va necesita o rotație de 60 de grade (vezi și parametrul Direction below)
--   **Scale**: stabilește scala de vizualizare.
--   **X**: setează poziția orizontală a vederii pe pagină în milimetri.
--   **Y**: stabilește poziția verticală a vederii pe pagină în milimetri. Rețineți că coordonatele (0,0) sunt localizate în partea din stânga sus a paginii, deci cu cât este mai mare numărul, cu atât mai mic va fi vizualizarea pe pagină.
--   **Direction**: schimbă direcția de vizualizare. Acesta este setat de valorile xyz care definesc un vector normal pentru pagină. Vederea de sus va fi (0,0,1), iar izometria va fi (1,1,1). Valorile pot fi negative.
--   **Afișează liniile ascunse**: comută sau dezactivează vizibilitatea liniilor ascunse selectând \'\' Adevărat \'\' sau \'\' Fals \'\'.
--   **Afișează liniile netede**: comută sau dezactivează vizibilitatea liniilor netede prin selectarea*True*sau*False*. Liniile netede sunt de asemenea numite margini de tangență. Aceste margini indică schimbări de suprafață între suprafețele tangente.
+-   **Label**   * modifică eticheta vizualizării în arborescența proiectului. De asemenea, puteți să dați clic pe Afișați din arborescență și să faceți clic dreapta pe → Redenumire sau să apăsați pe **F2**.
+-   **Rotation**   * rotește vederea. De exemplu, o vizualizare izometrică va necesita o rotație de 60 de grade (vezi și parametrul Direction below)
+-   **Scale**   * stabilește scala de vizualizare.
+-   **X**   * setează poziția orizontală a vederii pe pagină în milimetri.
+-   **Y**   * stabilește poziția verticală a vederii pe pagină în milimetri. Rețineți că coordonatele (0,0) sunt localizate în partea din stânga sus a paginii, deci cu cât este mai mare numărul, cu atât mai mic va fi vizualizarea pe pagină.
+-   **Direction**   * schimbă direcția de vizualizare. Acesta este setat de valorile xyz care definesc un vector normal pentru pagină. Vederea de sus va fi (0,0,1), iar izometria va fi (1,1,1). Valorile pot fi negative.
+-   **Afișează liniile ascunse**   * comută sau dezactivează vizibilitatea liniilor ascunse selectând \'\' Adevărat \'\' sau \'\' Fals \'\'.
+-   **Afișează liniile netede**   * comută sau dezactivează vizibilitatea liniilor netede prin selectarea*True*sau*False*. Liniile netede sunt de asemenea numite margini de tangență. Aceste margini indică schimbări de suprafață între suprafețele tangente.
 
 ### Expertul vizualizării desenului 
 

@@ -1,6 +1,6 @@
 # Path ExportTemplate/it
 ---
-- GuiCommand:/it   Name:Path ExportTemplate   Name/it:Esporta modello   Workbenches:[MenuLocation:Path → Esporta modello   SeeAlso:[[Path_SetupSheet/it|Path SetupSheet](Path_Workbench/it___Path]].md) ---
+- GuiCommand   */it   Name   *Path ExportTemplate   Name/it   *Esporta modello   Workbenches   *[MenuLocation   *Path → Esporta modello   SeeAlso   *[[Path_SetupSheet/it|Path SetupSheet](Path_Workbench/it___Path]].md) ---
 
 
 </div>
@@ -30,7 +30,7 @@ Nella tabella Modifica-\>Preferenze\...-\>Path-\>Job Preferences, Defaults-\>Tem
 
 Creare un modello
 
-1.  Da qualsiasi lavorazione configurata, richiamare il comando <img alt="" src=images/Path-ExportTemplate.png  style="width:16px;"> [Esporta modello](Path_ExportTemplate/it.md) dal menu Path-\>, oppure facendo clic con il pulsante destro del mouse sul nodo Lavorazione (Job) nella Vista combinata.
+1.  Da qualsiasi lavorazione configurata, richiamare il comando <img alt="" src=images/Path-ExportTemplate.png  style="width   *16px;"> [Esporta modello](Path_ExportTemplate/it.md) dal menu Path-\>, oppure facendo clic con il pulsante destro del mouse sul nodo Lavorazione (Job) nella Vista combinata.
 2.  Selezionare gli elementi da includere nella finestra di dialogo di configurazione di Esporta modello.
 3.  Fare clic su OK e salvare il modello. Il nome del modello deve seguire lo schema job\_.json Quando viene mostrato nella casella combinata di selezione, il prefisso job e l\'estensione non vengono mostrati. Affinché Path possa accedere ai modelli bisogna salvarli nella directory Macro o nella directory Path, secondo come configurato nelle Preferenze di Path.
 
@@ -60,8 +60,8 @@ Creare un modello
 
 ## Pezzo
 
--   Extent: dimensione del pezzo
--   Placement: posizione del pezzo
+-   Extent   * dimensione del pezzo
+-   Placement   * posizione del pezzo
 
 
 </div>

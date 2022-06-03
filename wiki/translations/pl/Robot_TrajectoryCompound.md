@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Robot TrajectoryCompound
-   MenuLocation:Robot → TrajectoryCompound
-   Workbenches:[Robot](Robot_Workbench.md)
+- GuiCommand   *
+   Name   *Robot TrajectoryCompound
+   MenuLocation   *Robot → TrajectoryCompound
+   Workbenches   *[Robot](Robot_Workbench.md)
 ---
 
 # Robot TrajectoryCompound/pl
@@ -13,7 +13,7 @@ Creates a compound out of some single trajectories.
 
 ## Usage
 
-1.  Click on the <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:24px;"> tool or use the 
+1.  Click on the <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width   *24px;"> tool or use the 
 **Robot → TrajectoryCompound**
 2.  An empty TrajectoryCompound-object will be created
 3.  Switch to the \"Model\"-panel

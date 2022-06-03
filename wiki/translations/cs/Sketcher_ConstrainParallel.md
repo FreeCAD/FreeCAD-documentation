@@ -1,6 +1,6 @@
 # Sketcher ConstrainParallel/cs
 ---
-- GuiCommand:/cs   Name:Constraint Parallel   Name/cs:Constraint Parallel   Workbenches:[PartDesign](Sketcher_Workbench/cs___Sketcher]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain parallel   SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical/cs.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/cs.md)---
+- GuiCommand   */cs   Name   *Constraint Parallel   Name/cs   *Constraint Parallel   Workbenches   *[PartDesign](Sketcher_Workbench/cs___Sketcher]],_[[PartDesign_Workbench/cs.md)|MenuLocation   *Sketch → Sketcher constraints → Constrain parallel   SeeAlso   *[Constraint Vertical](Sketcher_ConstrainVertical/cs.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/cs.md)---
 
 
 </div>
@@ -32,7 +32,7 @@ Náčrt obsahuje dvě náhodně orientované přímky.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel1.png  style="width:256px;">
+<img alt="" src=images/ConstrainParallel1.png  style="width   *256px;">
 
 
 </div>
@@ -48,7 +48,7 @@ Postupným kliknutím vyberte obě přímky.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel2.png  style="width:256px;">
+<img alt="" src=images/ConstrainParallel2.png  style="width   *256px;">
 
 
 </div>
@@ -56,7 +56,7 @@ Postupným kliknutím vyberte obě přímky.
 
 <div class="mw-translate-fuzzy">
 
-Aplikujte vazbu rovnoběžnosti výběrem její ikony <img alt="" src=images/Constraint_Parallel.png  style="width:16px;"> z pruhu nástrojů vazeb Náčrtu nebo výběrem položky Vazba rovnoběžnosti ze submenu vazeb náčrtu v Náčrtu (pracovní plocha Náčrt) nebo Návrh dílu (pracovní plocha Návrh Dílu).
+Aplikujte vazbu rovnoběžnosti výběrem její ikony <img alt="" src=images/Constraint_Parallel.png  style="width   *16px;"> z pruhu nástrojů vazeb Náčrtu nebo výběrem položky Vazba rovnoběžnosti ze submenu vazeb náčrtu v Náčrtu (pracovní plocha Náčrt) nebo Návrh dílu (pracovní plocha Návrh Dílu).
 
 
 </div>
@@ -64,7 +64,7 @@ Aplikujte vazbu rovnoběžnosti výběrem její ikony <img alt="" src=images/Con
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel3.png  style="width:256px;">
+<img alt="" src=images/ConstrainParallel3.png  style="width   *256px;">
 
 
 </div>

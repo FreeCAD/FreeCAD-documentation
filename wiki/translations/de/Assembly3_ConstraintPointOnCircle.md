@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Assembly3 ConstraintPointOnCircle
-   Name/de:Assembly3 PunktAufKreis
-   Icon:Assembly_ConstraintPointOnCircle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+- GuiCommand   */de
+   Name   *Assembly3 ConstraintPointOnCircle
+   Name/de   *Assembly3 PunktAufKreis
+   Icon   *Assembly_ConstraintPointOnCircle.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointOnCircle/de
@@ -12,7 +12,7 @@
 
 Dieses Werkzeug verbindet zwei oder mehr Objekte eines Zusammenbaus und gleicht ihre Ausrichtungen an. Die gewählten Elemente der einzelnen Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um ein oder mehrere Objekte im Verhältnis zu einem anderen Objekt zu positionieren.
 
-Davon ausgehend, dass ein Objekt bereits mittels <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:24px;"> [Festsetzen](Assembly3_ConstraintLock/de.md) unbeweglich gemacht wurde, wird das zweite Objekt auf eine Position bewegt, wo der Ursprung des Punktobjekts auf der X-Y-Ebene des Kreisobjekts liegt und die Z-Achsen parallel zueinander ausgerichtet sind (zusammengehörige X und Y werte, die vom Radius abhängen).
+Davon ausgehend, dass ein Objekt bereits mittels <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *24px;"> [Festsetzen](Assembly3_ConstraintLock/de.md) unbeweglich gemacht wurde, wird das zweite Objekt auf eine Position bewegt, wo der Ursprung des Punktobjekts auf der X-Y-Ebene des Kreisobjekts liegt und die Z-Achsen parallel zueinander ausgerichtet sind (zusammengehörige X und Y werte, die vom Radius abhängen).
 
 Punktelemente haben keine Ausdehnung egal in welcher Richtung (Länge ist Null) und daher kann auch keine Orientierung ermittelt werden, d.h. dass ihre LKS nur für weitere Elementparameter benötigt werden. Die Ausrichtung der LKS bleibt immer die gleiche, wie die des globalen Koordinatensystems und kann nicht dazu genutzt werden, die Anzahl von Freiheitsgraden im Zusammenhang mit Drehungen zu reduzieren.
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Std TreeSyncView
-   Name/fr:Std Arborescence Vue synchronisation
-   MenuLocation:Affichage → Configuration de l'arborescence → Vue synchronisation
-   Workbenches:Tous
-   Shortcut:**T** **1**
-   Version:0.19
+- GuiCommand   */fr
+   Name   *Std TreeSyncView
+   Name/fr   *Std Arborescence Vue synchronisation
+   MenuLocation   *Affichage → Configuration de l'arborescence → Vue synchronisation
+   Workbenches   *Tous
+   Shortcut   ***T** **1**
+   Version   *0.19
 ---
 
 # Std TreeSyncView/fr
@@ -16,14 +16,14 @@ La commande **Std Vue synchronisation** bascule le mode SyncView de la [vue en a
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Sync view** dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
+1.  Il existe plusieurs façons d\'appeler la commande   *
+    -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Sync view** dans le menu déroulant. Remarque   * l\'image du bouton changera en fonction de l\'option sélectionnée.
     -   Sélectionnez l\'option **Affichage → Configuration de l'arborescence → <img src="images/Std_TreeSyncView.svg" width=16px> Vue synchronisation** dans le menu.
-    -   Utilisez le raccourci clavier: **T** puis **1**.
+    -   Utilisez le raccourci clavier   * **T** puis **1**.
 
 ## Préférences
 
-Le mode Synchronisation de vue de l\'arborescence peut également être défini dans le [Réglage des préférences](Preferences_Editor/fr#Sélection.md): **Edition → Préférences → Général → Sélection**.
+Le mode Synchronisation de vue de l\'arborescence peut également être défini dans le [Réglage des préférences](Preferences_Editor/fr#Sélection.md)   * **Edition → Préférences → Général → Sélection**.
 
 
 

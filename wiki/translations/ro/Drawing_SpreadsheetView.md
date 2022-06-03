@@ -1,6 +1,6 @@
 # Drawing SpreadsheetView/ro
 ---
-- GuiCommand:   Name:Drawing SpreadsheetView   Workbenches:[[Drawing Workbench   Drawing]]|MenuLocation:Drawing → Spreadsheet View---
+- GuiCommand   *   Name   *Drawing SpreadsheetView   Workbenches   *[[Drawing Workbench   Drawing]]|MenuLocation   *Drawing → Spreadsheet View---
 
 
 </div>
@@ -15,7 +15,7 @@ Acest instrument vă permite să plasați o vizualizarea [spreadsheet](Spreadshe
 
 </div>
 
-<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:640px;">
+<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -31,17 +31,17 @@ Acest instrument vă permite să plasați o vizualizarea [spreadsheet](Spreadshe
 
 ## Proprietăți
 
--    {{PropertyData | Cell Start}}: Celula de la stânga sus a gamei de celule va fi inclusă în această vizualizare
+-    {{PropertyData | Cell Start}}   * Celula de la stânga sus a gamei de celule va fi inclusă în această vizualizare
 
--    {{PropertyData | Cell End}}: Celula din dreapta jos a gamei de celule va fi inclusă în această vizualizare
+-    {{PropertyData | Cell End}}   * Celula din dreapta jos a gamei de celule va fi inclusă în această vizualizare
 
--    {{PropertyData | Font}}: Numele fontului folosit pentru texte
+-    {{PropertyData | Font}}   * Numele fontului folosit pentru texte
 
--    {{PropertyData | Color}}: culoarea liniilor și a textelor care nu au culori specificate în foaia de calcul
+-    {{PropertyData | Color}}   * culoarea liniilor și a textelor care nu au culori specificate în foaia de calcul
 
--    {{PropertyData | Dimensiune font}}: Dimensiunea fontului textelor
+-    {{PropertyData | Dimensiune font}}   * Dimensiunea fontului textelor
 
--    {{PropertyData | Lățime linie}}: Lățimea marginilor celulei
+-    {{PropertyData | Lățime linie}}   * Lățimea marginilor celulei
 
 
 {{docnav|[Symbol](Drawing_Symbol.md)|[Save sheet](Drawing_Save.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Symbol.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Save.png}}

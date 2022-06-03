@@ -1,16 +1,16 @@
 ---
-- GuiCommand:
-   Name:Draft Heal
-   MenuLocation:Utilities → Heal
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Upgrade](Draft_Upgrade.md), [Draft Downgrade](Draft_Downgrade.md)
+- GuiCommand   *
+   Name   *Draft Heal
+   MenuLocation   *Utilities → Heal
+   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso   *[Draft Upgrade](Draft_Upgrade.md), [Draft Downgrade](Draft_Downgrade.md)
 ---
 
 # Draft Heal
 
 ## Description
 
-The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** command heals problematic [Draft](Draft_Workbench.md) objects found in very old files. It tries to recreate the old objects from scratch and transfer their properties to the new objects.
+The <img alt="" src=images/Draft_Heal.svg  style="width   *24px;"> **Draft Heal** command heals problematic [Draft](Draft_Workbench.md) objects found in very old files. It tries to recreate the old objects from scratch and transfer their properties to the new objects.
 
 ## Usage
 

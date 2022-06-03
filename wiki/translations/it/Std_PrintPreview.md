@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Std_PrintPreview
-   Name/it:Anteprima di stampa
-   MenuLocation:File → Anteprima di stampa...
-   Workbenches:Tutti
-   SeeAlso:[Stampa](Std_Print/it.md)
+- GuiCommand   */it
+   Name   *Std_PrintPreview
+   Name/it   *Anteprima di stampa
+   MenuLocation   *File → Anteprima di stampa...
+   Workbenches   *Tutti
+   SeeAlso   *[Stampa](Std_Print/it.md)
 ---
 
 # Std PrintPreview/it

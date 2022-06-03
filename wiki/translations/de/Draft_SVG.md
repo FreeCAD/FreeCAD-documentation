@@ -12,14 +12,14 @@
 
 ## Beschreibung
 
-Draft SVG ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Öffnen](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export/de.md) Befehlen verwendet wird, um das [SVG](SVG/de.md) Dateiformat handzuhaben.
+Draft SVG ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Std Öffnen](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width   *24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width   *24px;"> [Std Export](Std_Export/de.md) Befehlen verwendet wird, um das [SVG](SVG/de.md) Dateiformat handzuhaben.
 
 ![](images/Screenshot_inkscape.jpg ) 
 *Inkscape Zeichnung in SVG exportiert, die anschließend in FreeCAD geöffnet wird*
 
 ## Importieren
 
-Die folgenden SVG Objekte können importiert werden:
+Die folgenden SVG Objekte können importiert werden   *
 
 -   PFAD Objekte
 -   LINIE Objekte
@@ -31,11 +31,11 @@ Die folgenden SVG Objekte können importiert werden:
 
 ### Begrenzungen
 
-FreeCAD importiert keine Pfadobjekte, die nur einen Punkt haben ([Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
+FreeCAD importiert keine Pfadobjekte, die nur einen Punkt haben ([Forumsdiskussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
 
 ## Exportieren
 
-Die folgenden FreeCAD Objekte können exportiert werden:
+Die folgenden FreeCAD Objekte können exportiert werden   *
 
 -   Linien und Drähte (Polylinien)
 -   Bögen und Kreise
@@ -62,7 +62,7 @@ Beim Importieren werden die Attribute Breite, Höhe und Ansichtskasten beachtet.
 
 <div class="mw-translate-fuzzy">
 
-Der [Inkscape](https://inkscape.org/) SVG Editor arbeitet derzeit nur mit **90 DPI** Dokumenten. Unabhängig davon, welche Einheit in Inkscape ausgewählt ist. Die gesamte Ausgabe muss als in 90 DPI konvertiert und **gerundet** auf 6 Dezimalstellen betrachtet werden. Da FreeCAD (und der SVG Standard) die Genauigkeit der Rundung in Inkscape nicht berücksichtigt, werden diese Werte bei der Eingabe nicht gerundet. Und ungerade Werte in Millimeter bleiben erhalten. Wenn du möchtest, dass der SVG Import nicht gerundet wird, arbeite mit Anwendereinheiten (px) in Inkscape. Die Skalierung kann nach dem Import in FreeCAD oder durch Ändern der Breiten-, Höhen- und Ansichtskasten Attribute erfolgen.
+Der [Inkscape](https   *//inkscape.org/) SVG Editor arbeitet derzeit nur mit **90 DPI** Dokumenten. Unabhängig davon, welche Einheit in Inkscape ausgewählt ist. Die gesamte Ausgabe muss als in 90 DPI konvertiert und **gerundet** auf 6 Dezimalstellen betrachtet werden. Da FreeCAD (und der SVG Standard) die Genauigkeit der Rundung in Inkscape nicht berücksichtigt, werden diese Werte bei der Eingabe nicht gerundet. Und ungerade Werte in Millimeter bleiben erhalten. Wenn du möchtest, dass der SVG Import nicht gerundet wird, arbeite mit Anwendereinheiten (px) in Inkscape. Die Skalierung kann nach dem Import in FreeCAD oder durch Ändern der Breiten-, Höhen- und Ansichtskasten Attribute erfolgen.
 
 
 </div>
@@ -72,7 +72,7 @@ Der [Inkscape](https://inkscape.org/) SVG Editor arbeitet derzeit nur mit **90 D
 
 <div class="mw-translate-fuzzy">
 
-Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Preferences/de.md).
+Für weitere Informationen siehe   * [Import Export Einstellungen](Import_Export_Preferences/de.md).
 
 
 </div>
@@ -83,7 +83,7 @@ Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Pr
 <div class="mw-translate-fuzzy">
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -93,7 +93,7 @@ Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Pr
 
 <div class="mw-translate-fuzzy">
 
-Du kannst Elemente durch die folgende Funktion nach DXF exportieren:
+Du kannst Elemente durch die folgende Funktion nach DXF exportieren   *
 
 
 </div>
@@ -103,9 +103,9 @@ Du kannst Elemente durch die folgende Funktion nach DXF exportieren:
 importSVG.export(exportList, filename)
 ```
 
--   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+-   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
 
-Beispiel:
+Beispiel   *
 
 
 ```python
@@ -132,6 +132,11 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Std TextDocument
-   Name/ru:Std TextDocument
-   MenuLocation:Инструменты → Add text document
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Draft ShapeString](Draft_ShapeString/ru.md), [Draft Text](Draft_Text/ru.md)
+- GuiCommand   */ru
+   Name   *Std TextDocument
+   Name/ru   *Std TextDocument
+   MenuLocation   *Инструменты → Add text document
+   Workbenches   *All
+   Version   *0.19
+   SeeAlso   *[Draft ShapeString](Draft_ShapeString/ru.md), [Draft Text](Draft_Text/ru.md)
 ---
 
 # Std TextDocument/ru
@@ -28,24 +28,24 @@ The **Std TextDocument** command creates an object capable of holding arbitrary 
 
 {{TitleProperty|Editor}}
 
--    **Font Name|Font**: a font name, for example, {{Value|Ubuntu Mono}}.
+-    **Font Name|Font**   * a font name, for example, {{Value|Ubuntu Mono}}.
 
--    **Font Size|Float**: a font size in points, for example, {{Value|11}}.
+-    **Font Size|Float**   * a font size in points, for example, {{Value|11}}.
 
--    **Read Only|Bool**: it defaults to `False`. If set to `True` the text cannot be edited.
+-    **Read Only|Bool**   * it defaults to `False`. If set to `True` the text cannot be edited.
 
--    **Syntax Highlighter|Enumeration**: it defaults to {{Value|None}}. If set to {{Value|Python}}, the text will be highlighted like the [Python console](Python_console.md).
+-    **Syntax Highlighter|Enumeration**   * it defaults to {{Value|None}}. If set to {{Value|Python}}, the text will be highlighted like the [Python console](Python_console.md).
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
 
 See [Part Feature](Part_Feature.md) for the general information on adding objects to a document.
 
-An `App::TextDocument` object is created with the `addObject()` method of the document. Once a TextDocument exists, its textual information is stored in its `Text` attribute. This attribute can be used in other objects, for example, as the string in a **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)**.
+An `App   *   *TextDocument` object is created with the `addObject()` method of the document. Once a TextDocument exists, its textual information is stored in its `Text` attribute. This attribute can be used in other objects, for example, as the string in a **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)**.
 
 
 ```python
@@ -53,7 +53,7 @@ import FreeCAD as App
 import Draft
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::TextDocument", "Text_document")
+obj = App.ActiveDocument.addObject("App   *   *TextDocument", "Text_document")
 obj.Text = "textual information"
 App.ActiveDocument.recompute()
 

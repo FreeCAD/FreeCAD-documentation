@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std ToggleVisibility
-   MenuLocation:View → Toggle visibility
-   Workbenches:All
-   Shortcut:**Space**
-   SeeAlso:[Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
+- GuiCommand   *
+   Name   *Std ToggleVisibility
+   MenuLocation   *View → Toggle visibility
+   Workbenches   *All
+   Shortcut   ***Space**
+   SeeAlso   *[Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
 ---
 
 # Std ToggleVisibility/en
@@ -19,12 +19,12 @@ The **Std ToggleVisibility** command toggles the visibility of selected objects 
     -   Invisible objects can be selected in the [Tree view](Tree_view.md).
     -   Be careful when you use **Ctrl**+**A** to select all objects in the Tree view. This will also selects sub-elements of [PartDesign bodies](PartDesign_Body.md) and objects used for [Part Booleans](Part_Boolean.md). In most cases these should stay invisible.
     -   Objects used for [Part Booleans](Part_Boolean.md) are also selected when you use **Ctrl**+**A** in a 3D view.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Select the **View → <img src="images/Std_ToggleVisibility.svg" width=16px> Toggle visibility** option from the menu.
     -   Select the **View → Visibility → <img src="images/Std_ToggleVisibility.svg" width=16px> Toggle visibility** option from the menu.
     -   Select the **<img src="images/Std_ToggleVisibility.svg" width=16px> Toggle visibility** option from the Tree view context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
     -   Select the **<img src="images/Std_ToggleVisibility.svg" width=16px> Toggle visibility** option from the 3D view context menu.
-    -   Use the keyboard shortcut: **Space**.
+    -   Use the keyboard shortcut   * **Space**.
 
 ## Notes
 
@@ -37,7 +37,7 @@ The **Std ToggleVisibility** command toggles the visibility of selected objects 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
@@ -49,9 +49,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Visibility == True:
+if obj.Visibility == True   *
   obj.hide()
-else:
+else   *
   obj.show()
 ```
 

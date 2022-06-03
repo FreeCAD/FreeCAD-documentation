@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Part JoinConnect
-   MenuLocation:Part → Join → Connect objects
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.16
-   SeeAlso:[Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+- GuiCommand   *
+   Name   *Part JoinConnect
+   MenuLocation   *Part → Join → Connect objects
+   Workbenches   *[Part](Part_Workbench.md)
+   Version   *0.16
+   SeeAlso   *[Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
 # Part JoinConnect/ro
@@ -58,11 +58,11 @@ Se creează un obiect parametric Connect. Obiectele originale sunt ascunse, iar 
 
 {{TitleProperty|Connect}}
 
--    **Objects**: List of objects to be connected. Generally, at least two objects are needed, but a single compound containing the shapes to connect will do as well. (as of FreeCAD v0.17.8053, this property is not displayed in property editor, and can only be accessed via Python).
+-    **Objects**   * List of objects to be connected. Generally, at least two objects are needed, but a single compound containing the shapes to connect will do as well. (as of FreeCAD v0.17.8053, this property is not displayed in property editor, and can only be accessed via Python).
 
--    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences.
+-    **Refine**   * Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences.
 
--    **Tolerance**: \"fuzziness\" value. This is an extra tolerance to apply when searching for intersections, in addition to tolerances stored in the input shapes.
+-    **Tolerance**   * \"fuzziness\" value. This is an extra tolerance to apply when searching for intersections, in addition to tolerances stored in the input shapes.
 
 
 </div>
@@ -74,9 +74,9 @@ Se creează un obiect parametric Connect. Obiectele originale sunt ascunse, iar 
 
 ## Exemplu
 
-1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
+1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md)   *
     ![320px](images/JoinFeatures_Example_step1.png)
-2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe:
+2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe   *
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Select the first pipe and the second pipe, and click the \'Connect objects\' option from the Join tools dropdown toolbar button.
     ![320px](images/JoinFeatures_Example_step3_Connect.png)
@@ -113,14 +113,14 @@ Algoritmii din spatele instrumentelor de conectare sunt relativ de simple, iar �
 
 ## Script
 
-Instrumentul Join poate fi folosit în [macros](macros.md) și din consola python utilizând următoarea funcție:
+Instrumentul Join poate fi folosit în [macros](macros.md) și din consola python utilizând următoarea funcție   *
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 
 -   Creates an empty Connect feature. The \'Objects\' property must be assigned explicitly, afterwards.
 -   Returns the newly created object.
 
-Connect can also be applied to plain shapes, without the need to have a document object, via:
+Connect can also be applied to plain shapes, without the need to have a document object, via   *
 
 **Part.BOPTools.JoinAPI.connect(list_of_shapes, tolerance = 0.0)**
 

@@ -8,7 +8,7 @@ Diese Seite soll Conda als Paket-, Abhängigkeits- und Umgebungsmanager für Fre
 
 Momentan katalogisiert diese Seite hauptsächlich Links zu relevanten Diskussionen im FreeCAD Forum und anderen Orten im Web, aber die Hoffnung besteht darin, die wichtigsten Punkte aus diesen Verweisen auf dieser Seite zu dokumentieren.
 
-Es gibt auch ein (engl.) [Video Tutorial](https://www.youtube.com/watch?v=sCs8xlrw2nM) mit dem Inhalt dieser Seite.
+Es gibt auch ein (engl.) [Video Tutorial](https   *//www.youtube.com/watch?v=sCs8xlrw2nM) mit dem Inhalt dieser Seite.
 
 ## Motivation
 
@@ -20,9 +20,9 @@ Lasse es uns aufschlüsseln.
 
 Zuerst ist Conda ein Paketmanager - ähnlich wie apt oder pip.
 
-Das bedeutet, dass wir **Pakete** mit einem einfachen conda install von verschiedenen [Kanälen](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html#what-is-a-conda-channel) wie z.B. [conda-forge](https://conda-forge.org/) installieren können.
+Das bedeutet, dass wir **Pakete** mit einem einfachen conda install von verschiedenen [Kanälen](https   *//docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html#what-is-a-conda-channel) wie z.B. [conda-forge](https   *//conda-forge.org/) installieren können.
 
-Conda Forge ist analog zu [the Python Paket Index (PyPI)](https://pypi.org/), einem Gemeinschaftskanal, der aus Tausenden von Mitwirkenden besteht, und dient [Freecad](https://anaconda.org/conda-forge/freecad) als Conda Paket.
+Conda Forge ist analog zu [the Python Paket Index (PyPI)](https   *//pypi.org/), einem Gemeinschaftskanal, der aus Tausenden von Mitwirkenden besteht, und dient [Freecad](https   *//anaconda.org/conda-forge/freecad) als Conda Paket.
 
 ### Conda als ein Abhängigkeitsverwalter 
 
@@ -36,7 +36,7 @@ Conda arbeitet für mehrere Sprachen und ist daher besser geeignet, um die Abhä
 
 ### Conda als ein Umgebungsverwalter 
 
-Conda hat das Konzept einer [Umgebung](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html), die die einzigartige Kombination von Paketen und Versionen darstellt, die zum Betrieb einer Software benötigt wird. Zum Beispiel ein FreeCAD Arbeitsbereich.
+Conda hat das Konzept einer [Umgebung](https   *//docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html), die die einzigartige Kombination von Paketen und Versionen darstellt, die zum Betrieb einer Software benötigt wird. Zum Beispiel ein FreeCAD Arbeitsbereich.
 
 Mit Umgebungen können Sie diese leicht \"aktivieren\" und \"deaktivieren\" oder zwischen Versionen von Paketen wechseln, die für bestimmte Software benötigt werden.
 
@@ -48,7 +48,7 @@ Zum Beispiel mehrere lokale Entwicklerrechner oder ein entfernter Build Server, 
 
 ## Conda einrichten 
 
-1\. [Miniconda einrichten](https://docs.conda.io/en/latest/miniconda.html).
+1\. [Miniconda einrichten](https   *//docs.conda.io/en/latest/miniconda.html).
 
 2\. Überprüfe, ob deine Installation erfolgreich war und machen dich mit dem conda **CLI**\' vertraut. $ conda --help
 
@@ -68,29 +68,31 @@ Zweitens, da du leicht dedizierte Umgebungen in conda erstellen kannst, ist es e
 Der create Befehl ermöglicht es dir, eine Umgebung aus einer Liste von angegebenen Paketen zu erstellen. In unserem Fall wollen wir eine Umgebung namens \"fcenv\" (engl. FreeCAD environment; kurz für FreeCAD Umgebung) aus dem Paket freecad erstellen und conda anweisen, nach dem Paket freecad mit dem Kanal conda-forge zu suchen. 
 ```python
 conda create --name fcenv --channel conda-forge freecad
-``` **Tip:** Du kannst alternativ conda anweisen, immer conda-forge zu suchen, wenn du Pakete mit dem folgenden Befehl installierst: 
+``` **Tip   *** Du kannst alternativ conda anweisen, immer conda-forge zu suchen, wenn du Pakete mit dem folgenden Befehl installierst   * 
 ```python
 conda config --add channels conda-forge
-``` Die wöchentlichen Bauten können über den Kanal freecad/label/dev wie folgt installiert werden: 
+``` Die wöchentlichen Bauten können über den Kanal freecad/label/dev wie folgt installiert werden   * 
 ```python
 conda create --name fcenv-dev --channel freecad/label/dev freecad
 ```
 
 ## FreeCAD Forum Diskussion 
 
--   [Lasse uns über Conda sprechen](https://forum.freecadweb.org/viewtopic.php?t=39656)
--   [Verpackungslösung: (ana)conda](https://forum.freecadweb.org/viewtopic.php?f=10&t=15197)
--   [FreeCAD Conda Verteilung](https://forum.freecadweb.org/viewtopic.php?f=8&t=45582)
+-   [Lasse uns über Conda sprechen](https   *//forum.freecadweb.org/viewtopic.php?t=39656)
+-   [Verpackungslösung   * (ana)conda](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=15197)
+-   [FreeCAD Conda Verteilung](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=45582)
 
 ## Siehe Auch 
 
--   <https://docs.conda.io/en/latest/>
--   <https://conda-forge.org/docs/>
--   <https://docs.conda.io/projects/conda-build/en/latest/>
--   <https://anaconda.org/conda-forge/freecad>
--   <https://anaconda.org/freecad/freecad>
--   <https://github.com/FreeCAD/FreeCAD_Conda>
--   <https://github.com/FreeCAD/FreeCAD-AppImage>
+-   <https   *//docs.conda.io/en/latest/>
+-   <https   *//conda-forge.org/docs/>
+-   <https   *//docs.conda.io/projects/conda-build/en/latest/>
+-   <https   *//anaconda.org/conda-forge/freecad>
+-   <https   *//anaconda.org/freecad/freecad>
+-   <https   *//github.com/FreeCAD/FreeCAD_Conda>
+-   <https   *//github.com/FreeCAD/FreeCAD-AppImage>
+
+[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

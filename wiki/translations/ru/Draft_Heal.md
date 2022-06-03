@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name:Draft Heal
-   Name/ru:Draft Heal
-   MenuLocation:Черчение → Утилиты → Лечить
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+- GuiCommand   */ru
+   Name   *Draft Heal
+   Name/ru   *Draft Heal
+   MenuLocation   *Черчение → Утилиты → Лечить
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 # Draft Heal/ru

@@ -1,6 +1,6 @@
 # Draft ToggleDisplayMode/ro
 ---
-- GuiCommand:   Name:Draft ToggleDisplayMode   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Toggle display mode   Shortcut:Shift + Space---
+- GuiCommand   *   Name   *Draft ToggleDisplayMode   Workbenches   *[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation   *Draft → Utilities → Toggle display mode   Shortcut   *Shift + Space---
 
 
 </div>
@@ -17,7 +17,7 @@ Acest instrument comută afișarea obiectelor selectate între Wireframe și Fla
 
 </div>
 
-<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width   *400px;"> 
 *On the left the larger cube obstructs the cube behind it. On the right the Display Mode of the larger cube is set to Wireframe making it possible to select a face belonging to the smaller cube.*
 
 ## Usage

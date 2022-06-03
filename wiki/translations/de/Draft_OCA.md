@@ -12,19 +12,19 @@
 
 ## Beschreibung
 
-Entwurf OCA ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Open](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export/de.md) Befehle, um das [OCA Dateiformat](http://groups.google.com/group/open_cad_format) zu verarbeiten.
+Entwurf OCA ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Std Open](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width   *24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width   *24px;"> [Std Export](Std_Export/de.md) Befehle, um das [OCA Dateiformat](http   *//groups.google.com/group/open_cad_format) zu verarbeiten.
 
 
 <div class="mw-translate-fuzzy">
 
-Das OCA Dateiformat ist eine Gemeinschaftsanstrengung zur Erstellung eines freien, einfachen und offenen CAD Dateiformats. OCA basiert weitgehend auf dem GCAD Dateiformat, das von [gCAD3D](http://www.gcad3d.org/) erzeugt wird. Beide Formate können in FreeCAD importiert werden, und die von FreeCAD exportierten OCA Dateien können in gCAD3D geöffnet werden.
+Das OCA Dateiformat ist eine Gemeinschaftsanstrengung zur Erstellung eines freien, einfachen und offenen CAD Dateiformats. OCA basiert weitgehend auf dem GCAD Dateiformat, das von [gCAD3D](http   *//www.gcad3d.org/) erzeugt wird. Beide Formate können in FreeCAD importiert werden, und die von FreeCAD exportierten OCA Dateien können in gCAD3D geöffnet werden.
 
 
 </div>
 
 ## Importieren
 
-Die folgenden OCA Objekte können importiert werden:
+Die folgenden OCA Objekte können importiert werden   *
 
 -   Linien
 -   Bögen und Kreise
@@ -32,7 +32,7 @@ Die folgenden OCA Objekte können importiert werden:
 
 ## Exportieren
 
-Die folgenden FreeCAD Objekte können exportiert werden:
+Die folgenden FreeCAD Objekte können exportiert werden   *
 
 -   Linien und Drähte (Polylinien)
 -   Bögen und Kreise
@@ -43,7 +43,7 @@ Die folgenden FreeCAD Objekte können exportiert werden:
 
 <div class="mw-translate-fuzzy">
 
-Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Preferences/de.md).
+Für weitere Informationen siehe   * [Import Export Einstellungen](Import_Export_Preferences/de.md).
 
 
 </div>
@@ -56,7 +56,7 @@ Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Pr
 ## Scripting 
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripte](FreeCAD_Scripting_Basics/de.md).
 
@@ -66,7 +66,7 @@ Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Pr
 
 <div class="mw-translate-fuzzy">
 
-Du kannst Elemente mit der folgenden Funktion nach OCA exportieren:
+Du kannst Elemente mit der folgenden Funktion nach OCA exportieren   *
 
 
 </div>
@@ -76,9 +76,9 @@ Du kannst Elemente mit der folgenden Funktion nach OCA exportieren:
 importOCA.export(exportList, filename)
 ```
 
--   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+-   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
 
-Beispiel:
+Beispiel   *
 
 
 ```python
@@ -105,6 +105,11 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

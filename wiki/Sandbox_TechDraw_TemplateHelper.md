@@ -1,5 +1,5 @@
 # Sandbox:TechDraw TemplateHelper
-Still not finished :-)
+Still not finished    *-)
 
 
 
@@ -13,11 +13,11 @@ This document is about creating a drawing template and to insert into a FreeCAD 
 
 I managed to automate my drawing generation with a Python script which
 
-:\* generates a temporary svg template of the desired size (DIN A formats so far\...)
+   ** generates a temporary svg template of the desired size (DIN A formats so far\...)
 
-:\* inserts this temporary template into the active FreeCAD document
+   ** inserts this temporary template into the active FreeCAD document
 
-:\* fills some values into the editable text fields
+   ** fills some values into the editable text fields
 
 The development was somehow chaotic, because I\'m still learning Python and some solution may seen to be a little odd - but it works at least\...
 
@@ -33,13 +33,13 @@ This sandbox is to start my documentation. At some further state it 
 
 To automatically generate a drawing page we need to know
 
-:\* how to insert a template into a FreeCAD document
+   ** how to insert a template into a FreeCAD document
 
-:\* how to set up a user interface to set some page parameters
+   ** how to set up a user interface to set some page parameters
 
-:\* how to generate a template
+   ** how to generate a template
 
-:\* how to manipulate editable texts
+   ** how to manipulate editable texts
 
 ## Insert a page and template 
 
@@ -47,9 +47,9 @@ Usually a template will be inserted into the active FreeCAD document which means
 
 As this macro is launched from within a FreeCAD file the only variables that needs to be set are
 
-:\* templatePath, the path to the template folder and
+   ** templatePath, the path to the template folder and
 
-:\* templateName, the name of the template to be inserted.
+   ** templateName, the name of the template to be inserted.
 
 (MyTemplate.svg is the name for the generated template in a following section. Change it to test the macro with your favourite template.)
 
@@ -72,7 +72,7 @@ Code to add a page and insert a template
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
@@ -90,10 +90,10 @@ newPage = 'Page01'
 newTemplate = 'Template01'
 
 # add a page object to the active document
-activeDoc.addObject('TechDraw::DrawPage',newPage)
+activeDoc.addObject('TechDraw   *   *DrawPage',newPage)
 
 # add a template object to the active document
-activeDoc.addObject('TechDraw::DrawSVGTemplate',newTemplate)
+activeDoc.addObject('TechDraw   *   *DrawSVGTemplate',newTemplate)
 
 # load the svg template into the template object
 activeDoc.getObject(newTemplate).Template = templatePath+templateName
@@ -102,21 +102,21 @@ activeDoc.getObject(newTemplate).Template = templatePath+templateName
 activeDoc.getObject(newPage).Template = activeDoc.getObject(newTemplate)
 
 # rename 'Page' to 'Sheet'
-activeDoc.getObject(newPage).Label = 'Sheet ' + newPage[4:]
+activeDoc.getObject(newPage).Label = 'Sheet ' + newPage[4   *]
 
 # open the page object for editing
 activeDoc.getObject(newPage).ViewObject.doubleClicked()
 }}
 
-:\* A page object and a template object are added to the active document\'s object list.
+   ** A page object and a template object are added to the active document\'s object list.
 
-:\* The content of the svg document is loaded into the template object.
+   ** The content of the svg document is loaded into the template object.
 
-:\* The template object is put onto the page\'s objects list.
+   ** The template object is put onto the page\'s objects list.
 
-:\* Drawings are on sheets rather than on pages and so they are renamed.
+   ** Drawings are on sheets rather than on pages and so they are renamed.
 
-:   Since the property \"Name\" cannot be changed the property \"Label\" must be altered.
+   *   Since the property \"Name\" cannot be changed the property \"Label\" must be altered.
     -   Finally the drawing view is opened and activated for editing.
 
 
@@ -144,7 +144,7 @@ Code to check for existing pages to add a first page or yet another
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
@@ -163,27 +163,27 @@ newPage = 'Page01' # first page name to start search
 # to find the current page number to create
 pageCount = 1
 pageFound = True
-while pageFound:
-    try:
+while pageFound   *
+    try   *
         print(activeDoc.getObject(newPage).Label)
-    except AttributeError:
+    except AttributeError   *
         print(newPage + " to be created")
         pageFound = False
-    else:
+    else   *
         pageCount = pageCount + 1
-        if pageCount < 10:
-            newPage = newPage[0:4] + '0' + str(pageCount)
-        else:
-            newPage = newPage[0:4] + str(pageCount)
+        if pageCount < 10   *
+            newPage = newPage[0   *4] + '0' + str(pageCount)
+        else   *
+            newPage = newPage[0   *4] + str(pageCount)
 
 # set template number according to page number
-newTemplate = ('Template' + newPage[4:])
+newTemplate = ('Template' + newPage[4   *])
 
 # add a page object to the active document
-activeDoc.addObject('TechDraw::DrawPage',newPage)
+activeDoc.addObject('TechDraw   *   *DrawPage',newPage)
 
 # add a template object to the active document
-activeDoc.addObject('TechDraw::DrawSVGTemplate',newTemplate)
+activeDoc.addObject('TechDraw   *   *DrawSVGTemplate',newTemplate)
 
 # load the svg template into the template object
 activeDoc.getObject(newTemplate).Template = templatePath+templateName
@@ -192,7 +192,7 @@ activeDoc.getObject(newTemplate).Template = templatePath+templateName
 activeDoc.getObject(newPage).Template = activeDoc.getObject(newTemplate)
 
 # rename 'Page' to 'Sheet'
-activeDoc.getObject(newPage).Label = 'Sheet ' + newPage[4:]
+activeDoc.getObject(newPage).Label = 'Sheet ' + newPage[4   *]
 
 # open the page object for editing
 activeDoc.getObject(newPage).ViewObject.doubleClicked()
@@ -227,7 +227,7 @@ Code to create a simple svg-file
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
@@ -239,22 +239,22 @@ templateName = "MyTemplate.svg"
 
 #- Create a file and insert a header line
 #   (with t as the space saving variant of template)
-def CreateSvgFile(filePath):
+def CreateSvgFile(filePath)   *
     t=open(filePath,"w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def StartSvg(filePath):
+def StartSvg(filePath)   *
     t=open(filePath,"a") # a = append, new lines are added at the end of an existing file
     t.write("\n"+"\n")
     t.write("<svg\n")
-    t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns=\"http   *//www.w3.org/2000/svg\" version=\"1.1\"\n")
+    t.write("  xmlns   *freecad=\"http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def CreateSheet(filePath,shWidth,shHeight):
+def CreateSheet(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("  width =\""+shWidth+"mm\"\n")
     t.write("  height=\""+shHeight+"mm\"\n")
@@ -263,7 +263,7 @@ def CreateSheet(filePath,shWidth,shHeight):
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def EndSvg(filePath):
+def EndSvg(filePath)   *
     t=open(filePath,"a")
     t.write("</svg>")
     t.close
@@ -283,15 +283,15 @@ EndSvg(templatePath+templateName)
 }}
 
 
-:   The result, a simple template for a blank page (A3 landscape):
+   *   The result, a simple template for a blank page (A3 landscape)   *
 
 
 {{Code|lang=xml|code=
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <svg
-  xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns="http   *//www.w3.org/2000/svg" version="1.1"
+  xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
   width ="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -299,9 +299,9 @@ EndSvg(templatePath+templateName)
 }}
 
 
-:   The main principle is to open a file for writing and so start an svg-file from scratch, write the header line and close the file as a first step.
-:   After that the file will be repeatedly opened to append further segments and closed again after appending.
-:   (The FreeCAD namespace is an investment into the future when editable texts come into play)
+   *   The main principle is to open a file for writing and so start an svg-file from scratch, write the header line and close the file as a first step.
+   *   After that the file will be repeatedly opened to append further segments and closed again after appending.
+   *   (The FreeCAD namespace is an investment into the future when editable texts come into play)
 
 
 </div>
@@ -309,7 +309,7 @@ EndSvg(templatePath+templateName)
 
 </div>
 
-Now some ink will be added to the blank page:
+Now some ink will be added to the blank page   *
 
 ### Add code segments to\... 
 
@@ -334,14 +334,14 @@ Additional code to create frames
 
 {{Code| |code=
 # - SVG creation -
-class ToteBag:
+class ToteBag   *
     pass
 # This class is empty to act as a container for several variables
 #- one bag for drawing borders
 borders = ToteBag()
 
 #- set default values - custom values may be added 
-def setDINBorderValues(format):
+def setDINBorderValues(format)   *
     borders.drawingAreaTop    = 10 # distance from page boundary
     borders.drawingAreaBottom = 10
     borders.drawingAreaLeft   = 20
@@ -352,16 +352,16 @@ def setDINBorderValues(format):
     borders.sheetFrameRight   = 5
 
 #- Function to generate an svg-instruction to draw a rectangle with the given values
-def svgrect(width,height,x,y):
+def svgrect(width,height,x,y)   *
     svgLine=("<rect width=\""+width+"\" height=\""+height+"\" x=\""+x+"\" y=\""+y+"\" />")
     return svgLine
 
 #- Frame creation
-def CreateFrame(filePath,shWidth,shHeight):
+def CreateFrame(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("    <g id=\"drawing-frame\"\n")
-    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
-stroke-linecap:miter;stroke-miterlimit:4\">\n")
+    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.5;\
+stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
     #- set frame offsets
     dAT = borders.drawingAreaTop
     dAB = borders.drawingAreaBottom
@@ -408,8 +408,8 @@ CreateFrame(templatePath+templateName, formatWidth, formatHeight)
 }}
 
 
-:   Each write instruction has to start with a specific number of blank spaces for the correct indentation of the resulting svg-file.
-:   The toteBag class is used to collect and distribute global values. I\'m not sure yet if this really makes sense\...
+   *   Each write instruction has to start with a specific number of blank spaces for the correct indentation of the resulting svg-file.
+   *   The toteBag class is used to collect and distribute global values. I\'m not sure yet if this really makes sense\...
 
 
 </div>
@@ -434,24 +434,24 @@ Additional code to create index fields
 # SVG creation
 
 #- Function to generate an svg-instruction to draw a path element (line) with the given values
-def svgpath(x1,y1,x2,y2):
-    if x2=="v" or x2=="V" or x2=="h" or x2=="H":
+def svgpath(x1,y1,x2,y2)   *
+    if x2=="v" or x2=="V" or x2=="h" or x2=="H"   *
         svgLine=("<path d=\"m "+x1+","+y1+" "+x2+" "+y2+"\" />")
-    else:
+    else   *
         svgLine=("<path d=\"m "+x1+","+y1+" l "+x2+","+y2+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to place a text element with the given values
-def svgtext(posX,posY,strValue):
+def svgtext(posX,posY,strValue)   *
     svgLine=("<text x=\""+posX+"\" y=\""+posY+"\">"+strValue+"</text>")
     return svgLine
 
 #- Indexes and folding marks creation
-def CreateDecoration(filePath,shWidth,shHeight):
+def CreateDecoration(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("    <g id=\"index-separators\"\n")
-    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.25;\
-stroke-linecap:round\">\n")
+    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.25;\
+stroke-linecap   *round\">\n")
     #- set frame offsets
     dAT = borders.drawingAreaTop
     dAB = borders.drawingAreaBottom
@@ -475,16 +475,16 @@ stroke-linecap:round\">\n")
     indexLower=str(int(drawingHeight)+dAT-5)
 
     #- centre and middle markings of drawing area
-    if shWidth=="210": # format=="DIN-A4":
+    if shWidth=="210"   * # format=="DIN-A4"   *
         indexLeft=str(dAL)
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-15")+"\n")
-    elif shWidth=="420": # format=="DIN-A3":
+    elif shWidth=="420"   * # format=="DIN-A3"   *
         indexLeft=str(dAL+5)
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-20")+"\n")
         t.write("        "+svgpath(indexRight,indexMiddle,"h"," 10")+"\n")
-    else :
+    else    *
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-10")+"\n")
@@ -497,19 +497,19 @@ stroke-linecap:round\">\n")
     indexLower=str(int(drawingHeight)+dAT)
 
     #- set number of horizontal and vertical indexes
-    if shWidth=="420": # format=="DIN-A3":
+    if shWidth=="420"   * # format=="DIN-A3"   *
         indexCountX=8
         indexCountY=6
-    elif shWidth=="594": # format=="DIN-A2":
+    elif shWidth=="594"   * # format=="DIN-A2"   *
         indexCountX=12
         indexCountY=8
-    elif shWidth=="841": # format=="DIN-A1":
+    elif shWidth=="841"   * # format=="DIN-A1"   *
         indexCountX=16
         indexCountY=12
-    elif shWidth=="1189": # format=="DIN-A0":
+    elif shWidth=="1189"   * # format=="DIN-A0"   *
         indexCountX=24
         indexCountY=16
-    else :
+    else    *
         indexCountX=0
         indexCountY=0
 
@@ -520,7 +520,7 @@ stroke-linecap:round\">\n")
 
     #- horizontal index separators
     max=int(indexCountX/2-1)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexX=str(floatCenter+(value+1)*50)
         t.write("        "+svgpath(indexX,indexUpper,"v"," -5")+"\n")
         t.write("        "+svgpath(indexX,indexLower,"v","  5")+"\n")
@@ -530,7 +530,7 @@ stroke-linecap:round\">\n")
 
     #- vertical index separators
     max=int(indexCountY/2-1)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexY=str(floatMiddle+(value+1)*50)
         t.write("        "+svgpath(indexLeft, indexY,"h"," -5")+"\n")
         t.write("        "+svgpath(indexRight,indexY,"h","  5")+"\n")
@@ -541,8 +541,8 @@ stroke-linecap:round\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"indexes\"\n")
-    t.write("      style=\"font-size:3.5;text-anchor:middle;fill:#000000;\
-    font-family:osifont\">\n")
+    t.write("      style=\"font-size   *3.5;text-anchor   *middle;fill   *#000000;\
+    font-family   *osifont\">\n")
 
     #- position point values of indexes
     indexLeft=str(dAL-sFL/2)
@@ -552,7 +552,7 @@ stroke-linecap:round\">\n")
 
     #- horizontal indexes, numbers
     max=int(indexCountX/2)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexX=str(floatCenter+value*50+25)
         t.write("        "+svgtext(indexX,indexUpper,str(int(indexCountX/2+value+1)))+"\n")
         t.write("        "+svgtext(indexX,indexLower,str(int(indexCountX/2+value+1)))+"\n")
@@ -562,12 +562,12 @@ stroke-linecap:round\">\n")
 
     #- vertical indexes, letters
     max=int(indexCountY/2)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexY=str(floatMiddle+value*50+25)
-        if int(indexCountY/2+value+1)>9 :  # to avoid the letter J
+        if int(indexCountY/2+value+1)>9    *  # to avoid the letter J
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
-        else :
+        else    *
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
         indexY=str(floatMiddle-value*50-25)
@@ -578,22 +578,22 @@ stroke-linecap:round\">\n")
 
     #- puncher mark
     t.write("    <g id=\"puncher mark\"\n")
-    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
-    stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    if shWidth in["1189", "841", "594"] : # A3 and A4 have extended middle markings
+    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
+    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    if shWidth in["1189", "841", "594"]    * # A3 and A4 have extended middle markings
         t.write("        "+svgpath(str(dAL-sFL),str(int(formatHeight)-(297/2)),"h","-10")+"\n")
     t.write("    </g>\n\n")
 
     #- folding marks
     t.write("    <g id=\"folding marks\"\n")
-    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
-    stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    if shWidth=="420": # DIN-A3
+    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
+    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    if shWidth=="420"   * # DIN-A3
         t.write("        "+svgpath("125",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("125",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("230",str(dAT-sFT),"v","-5")+"\n")
         t.write("        "+svgpath("230",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
-    elif shWidth=="594": # DIN-A2
+    elif shWidth=="594"   * # DIN-A2
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("402",str(dAT-sFT),"v"," -5")+"\n")
@@ -601,7 +601,7 @@ stroke-linecap:round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","123","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(formatWidth)-dAR+sFR),"123","h","  5")+"\n")
-    elif shWidth=="841": # DIN-A1
+    elif shWidth=="841"   * # DIN-A1
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -611,7 +611,7 @@ stroke-linecap:round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","297","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(formatWidth)-dAR+sFR),"297","h","  5")+"\n")
-    elif shWidth=="1189": # DIN-A0
+    elif shWidth=="1189"   * # DIN-A0
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -637,8 +637,8 @@ CreateDecoration(templatePath+templateName, formatWidth, formatHeight)
 }}
 
 
-:   Comment.
-:   More comments.
+   *   Comment.
+   *   More comments.
 
 
 </div>
@@ -650,13 +650,13 @@ CreateDecoration(templatePath+templateName, formatWidth, formatHeight)
 
 Code segments (to create the svg-instructions) to draw
 
-:\* a title block outline
+   ** a title block outline
 
-:\* the inner segmentation
+   ** the inner segmentation
 
-:\* static texts like e.g.labels for the text boxes
+   ** static texts like e.g.labels for the text boxes
 
-:\* editable texts, at least their placeholders
+   ** editable texts, at least their placeholders
 
 The first two points can be combined if only one line type and a single thickness is use.
 
@@ -673,7 +673,7 @@ Additional code to create a title block
 
 {{Code| |code=
 #- Title block movable
-def CreateTitleBlock(filePath,shWidth,shHeight):
+def CreateTitleBlock(filePath,shWidth,shHeight)   *
     #- set frame offsets
     dAB = borders.drawingAreaBottom
     dAR = borders.drawingAreaRight
@@ -688,8 +688,8 @@ def CreateTitleBlock(filePath,shWidth,shHeight):
     t.write("      \n\n")
     #- title block
     t.write("      <g id=\"titleblock-frame\"\n")
-    t.write("        style=\"fill:none;stroke:#000000;stroke-width:0.35;\
-stroke-linecap:miter;stroke-miterlimit:4\">\n")
+    t.write("        style=\"fill   *none;stroke   *#000000;stroke-width   *0.35;\
+stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
     t.write("        "+svgpath("  0","  0","  0","-63")+"\n")
     t.write("        "+svgpath("  0","-63","180","  0")+"\n")
     t.write("        "+svgpath("  0"," -4","h","155")+"\n")
@@ -712,24 +712,24 @@ stroke-linecap:miter;stroke-miterlimit:4\">\n")
     t.write("      </g>\n")
     #- small texts, left-aligned
     t.write("      <g id=\"titleblock-text-non-editable\"\n")
-    t.write("        style=\"font-size:2.5;text-anchor:start;fill:#000000;\
-font-family:osifont\">\n")
+    t.write("        style=\"font-size   *2.5;text-anchor   *start;fill   *#000000;\
+font-family   *osifont\">\n")
 
-    t.write("        "+svgtext("  1.5","-60  ","Author Name:")+"\n")
-    t.write("        "+svgtext("  1.5","-52  ","Date:")+"\n")
-    t.write("        "+svgtext("  1.5","-43.5 ","Supervisor Name:")+"\n")
-    t.write("        "+svgtext("  1.5","-35.5 ","Date:")+"\n")
-    t.write("        "+svgtext("  1.5","-27  ","Format:")+"\n")
-    t.write("        "+svgtext("  1.5","-13  ","Scale:")+"\n")
-    t.write("        "+svgtext(" 26.5","-13  ","Weight:")+"\n")
-    t.write("        "+svgtext(" 51.5","-27  ","Company:")+"\n")
-    t.write("        "+svgtext(" 51.5","-13  ","Version:")+"\n")
+    t.write("        "+svgtext("  1.5","-60  ","Author Name   *")+"\n")
+    t.write("        "+svgtext("  1.5","-52  ","Date   *")+"\n")
+    t.write("        "+svgtext("  1.5","-43.5 ","Supervisor Name   *")+"\n")
+    t.write("        "+svgtext("  1.5","-35.5 ","Date   *")+"\n")
+    t.write("        "+svgtext("  1.5","-27  ","Format   *")+"\n")
+    t.write("        "+svgtext("  1.5","-13  ","Scale   *")+"\n")
+    t.write("        "+svgtext(" 26.5","-13  ","Weight   *")+"\n")
+    t.write("        "+svgtext(" 51.5","-27  ","Company   *")+"\n")
+    t.write("        "+svgtext(" 51.5","-13  ","Version   *")+"\n")
     t.write("        "+svgtext("141.5","-13  ","Sheet")+"\n")
     t.write("      </g>\n")
     #- revision indexes, centered
     t.write("      <g id=\"titleblock-revision-indexes\"\n")
-    t.write("        style=\"font-size:5.0;text-anchor:middle;fill:#000000;\
-font-family:osifont\">\n")
+    t.write("        style=\"font-size   *5.0;text-anchor   *middle;fill   *#000000;\
+font-family   *osifont\">\n")
     t.write("        "+svgtext("157.5"," -1.5  ","A")+"\n")
     t.write("        "+svgtext("157.5"," -8.5  ","B")+"\n")
     t.write("        "+svgtext("157.5","-15.5  ","C")+"\n")
@@ -769,13 +769,13 @@ Additional code to create a editable texts
 
 {{Code| |code=
 #- Function to generate an svg-instruction to place an editable text element with the given values
-def FCeditext(entryName,posX,posY,strValue):
-    svgLine=("<text freecad:editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
+def FCeditext(entryName,posX,posY,strValue)   *
+    svgLine=("<text freecad   *editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
     +"\">  <tspan>"+strValue+"</tspan>  </text>")
     return svgLine
 
 #- Title block editable texts
-def CreateEditableText(filePath,shWidth,shHeight):
+def CreateEditableText(filePath,shWidth,shHeight)   *
     #- set frame offsets
     dAB = borders.drawingAreaBottom
     dAR = borders.drawingAreaRight
@@ -786,15 +786,15 @@ def CreateEditableText(filePath,shWidth,shHeight):
 
     t=open(filePath,"a")
     t.write("    <g id=\"titleblock-editable-owner\"\n")
-    t.write("      style=\"font-size:3.5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *3.5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
 
     t.write("      "+FCeditext("Owner",str(edX+60),str(edY-27.0),"Owner")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-address\"\n")
-    t.write("      style=\"font-size:2.5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *2.5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Address-1",str(edX+60),str(edY-23.5),"Address1")+"\n")
     t.write("      "+FCeditext("Address-2",str(edX+60),str(edY-20.0),"Address2")+"\n")
     t.write("      "+FCeditext("MailTo",   str(edX+60),str(edY-16.5),"MailTo")+"\n")
@@ -802,8 +802,8 @@ font-family:osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-medium\"\n")
-    t.write("      style=\"font-size:5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Author",    str(edX+2),  str(edY-55.0),"Author")+"\n")
     t.write("      "+FCeditext("AuDate",    str(edX+7),  str(edY-47.5),"YYYY/MM/DD")+"\n")
     t.write("      "+FCeditext("Supervisor",str(edX+2),  str(edY-38.5),"Supervisor")+"\n")
@@ -822,17 +822,17 @@ font-family:osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-centered\"\n")
-    t.write("      style=\"font-size:5;text-anchor:middle;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *5;text-anchor   *middle;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Format", str(edX+12), str(edY-21),"A3")+"\n")
     t.write("      "+FCeditext("Sheets", str(edX+148),str(edY-8), "1 / 1")+"\n")
-    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1 : 1")+"\n")
+    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1    * 1")+"\n")
     t.write("      "+FCeditext("Weight", str(edX+35), str(edY-8), "___ kg")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-Large\"\n")
-    t.write("      style=\"font-size:7;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *7;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Title",   str(edX+62),str(edY-50),"Drawing Title")+"\n")
     t.write("      "+FCeditext("PtNumber",str(edX+62),str(edY-32),"Part Number")+"\n")
     t.write("    </g>\n\n")
@@ -851,9 +851,9 @@ CreateEditableText(templatePath+templateName, formatWidth, formatHeight)
 
 ### The resulting macro 
 
-All sections put together give a macro like this:
+All sections put together give a macro like this   *
 
-:   (Don\'t forget to edit the template path and start the macro from within FreeCAD.)
+   *   (Don\'t forget to edit the template path and start the macro from within FreeCAD.)
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -866,7 +866,7 @@ Complete code to create a template
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
@@ -876,14 +876,14 @@ templateName = "MyTemplate.svg"
 
 # - SVG creation -
 
-class ToteBag:
+class ToteBag   *
     pass
 # This class is empty to act as a container for several variables
 #- one bag for drawing borders
 borders = ToteBag()
 
 #- set values according to DIN XXX
-def setDINBorderValues(format):
+def setDINBorderValues(format)   *
     borders.drawingAreaTop    = 10 # distance from page boundary
     borders.drawingAreaBottom = 10
     borders.drawingAreaLeft   = 20
@@ -894,46 +894,46 @@ def setDINBorderValues(format):
     borders.sheetFrameRight   = 5
 
 #- Function to generate an svg-instruction to draw a rectangle with the given values
-def svgrect(width,height,x,y):
+def svgrect(width,height,x,y)   *
     svgLine=("<rect width=\""+width+"\" height=\""+height+"\" x=\""+x+"\" y=\""+y+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to draw a path element (line) with the given values
-def svgpath(x1,y1,x2,y2):
-    if x2=="v" or x2=="V" or x2=="h" or x2=="H":
+def svgpath(x1,y1,x2,y2)   *
+    if x2=="v" or x2=="V" or x2=="h" or x2=="H"   *
         svgLine=("<path d=\"m "+x1+","+y1+" "+x2+" "+y2+"\" />")
-    else:
+    else   *
         svgLine=("<path d=\"m "+x1+","+y1+" l "+x2+","+y2+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to place a text element with the given values
-def svgtext(posX,posY,strValue):
+def svgtext(posX,posY,strValue)   *
     svgLine=("<text x=\""+posX+"\" y=\""+posY+"\">"+strValue+"</text>")
     return svgLine
 
 #- Function to generate an svg-instruction to place an editable text element with the given values
-def FCeditext(entryName,posX,posY,strValue):
-    svgLine=("<text freecad:editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
+def FCeditext(entryName,posX,posY,strValue)   *
+    svgLine=("<text freecad   *editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
     +"\">  <tspan>"+strValue+"</tspan>  </text>")
     return svgLine
 
 #- Create a file and insert a header line
-def CreateSvgFile(filePath):
+def CreateSvgFile(filePath)   *
     t=open(filePath,"w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def StartSvg(filePath):
+def StartSvg(filePath)   *
     t=open(filePath,"a") # a = append, new lines are added at the end of an existing file
     t.write("\n"+"\n")
     t.write("<svg\n")
-    t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns=\"http   *//www.w3.org/2000/svg\" version=\"1.1\"\n")
+    t.write("  xmlns   *freecad=\"http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def CreateSheet(filePath,shWidth,shHeight):
+def CreateSheet(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("  width =\""+shWidth+"mm\"\n")
     t.write("  height=\""+shHeight+"mm\"\n")
@@ -942,17 +942,17 @@ def CreateSheet(filePath,shWidth,shHeight):
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def EndSvg(filePath):
+def EndSvg(filePath)   *
     t=open(filePath,"a")
     t.write("</svg>")
     t.close
 
 #- Frame creation
-def CreateFrame(filePath,shWidth,shHeight):
+def CreateFrame(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("    <g id=\"drawing-frame\"\n")
-    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
-stroke-linecap:round\">\n")
+    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.5;\
+stroke-linecap   *round\">\n")
     #- set frame offsets
     dAT = borders.drawingAreaTop
     dAB = borders.drawingAreaBottom
@@ -992,11 +992,11 @@ stroke-linecap:round\">\n")
     t.close
 
 #- Indexes and folding marks creation
-def CreateDecoration(filePath,shWidth,shHeight):
+def CreateDecoration(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("    <g id=\"index-separators\"\n")
-    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.25;\
-stroke-linecap:round\">\n")
+    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.25;\
+stroke-linecap   *round\">\n")
     #- set frame offsets
     dAT = borders.drawingAreaTop
     dAB = borders.drawingAreaBottom
@@ -1020,16 +1020,16 @@ stroke-linecap:round\">\n")
     indexLower=str(int(drawingHeight)+dAT-5)
 
     #- centre and middle markings of drawing area
-    if shWidth=="210": # format=="DIN-A4":
+    if shWidth=="210"   * # format=="DIN-A4"   *
         indexLeft=str(dAL)
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-15")+"\n")
-    elif shWidth=="420": # format=="DIN-A3":
+    elif shWidth=="420"   * # format=="DIN-A3"   *
         indexLeft=str(dAL+5)
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-20")+"\n")
         t.write("        "+svgpath(indexRight,indexMiddle,"h"," 10")+"\n")
-    else :
+    else    *
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-10")+"\n")
@@ -1042,19 +1042,19 @@ stroke-linecap:round\">\n")
     indexLower=str(int(drawingHeight)+dAT)
 
     #- set number of horizontal and vertical indexes
-    if shWidth=="420": # format=="DIN-A3":
+    if shWidth=="420"   * # format=="DIN-A3"   *
         indexCountX=8
         indexCountY=6
-    elif shWidth=="594": # format=="DIN-A2":
+    elif shWidth=="594"   * # format=="DIN-A2"   *
         indexCountX=12
         indexCountY=8
-    elif shWidth=="841": # format=="DIN-A1":
+    elif shWidth=="841"   * # format=="DIN-A1"   *
         indexCountX=16
         indexCountY=12
-    elif shWidth=="1189": # format=="DIN-A0":
+    elif shWidth=="1189"   * # format=="DIN-A0"   *
         indexCountX=24
         indexCountY=16
-    else :
+    else    *
         indexCountX=0
         indexCountY=0
 
@@ -1065,7 +1065,7 @@ stroke-linecap:round\">\n")
 
     #- horizontal index separators
     max=int(indexCountX/2-1)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexX=str(floatCenter+(value+1)*50)
         t.write("        "+svgpath(indexX,indexUpper,"v"," -5")+"\n")
         t.write("        "+svgpath(indexX,indexLower,"v","  5")+"\n")
@@ -1075,7 +1075,7 @@ stroke-linecap:round\">\n")
 
     #- vertical index separators
     max=int(indexCountY/2-1)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexY=str(floatMiddle+(value+1)*50)
         t.write("        "+svgpath(indexLeft, indexY,"h"," -5")+"\n")
         t.write("        "+svgpath(indexRight,indexY,"h","  5")+"\n")
@@ -1086,8 +1086,8 @@ stroke-linecap:round\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"indexes\"\n")
-    t.write("      style=\"font-size:3.5;text-anchor:middle;fill:#000000;\
-    font-family:osifont\">\n")
+    t.write("      style=\"font-size   *3.5;text-anchor   *middle;fill   *#000000;\
+    font-family   *osifont\">\n")
 
     #- position point values of indexes
     indexLeft=str(dAL-sFL/2)
@@ -1097,7 +1097,7 @@ stroke-linecap:round\">\n")
 
     #- horizontal indexes, numbers
     max=int(indexCountX/2)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexX=str(floatCenter+value*50+25)
         t.write("        "+svgtext(indexX,indexUpper,str(int(indexCountX/2+value+1)))+"\n")
         t.write("        "+svgtext(indexX,indexLower,str(int(indexCountX/2+value+1)))+"\n")
@@ -1107,12 +1107,12 @@ stroke-linecap:round\">\n")
 
     #- vertical indexes, letters
     max=int(indexCountY/2)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexY=str(floatMiddle+value*50+25)
-        if int(indexCountY/2+value+1)>9 :  # to avoid the letter J
+        if int(indexCountY/2+value+1)>9    *  # to avoid the letter J
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
-        else :
+        else    *
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
         indexY=str(floatMiddle-value*50-25)
@@ -1123,22 +1123,22 @@ stroke-linecap:round\">\n")
 
     #- puncher mark
     t.write("    <g id=\"puncher mark\"\n")
-    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
-    stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    if shWidth in["1189", "841", "594"] : # A3 and A4 have extended middle markings
+    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
+    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    if shWidth in["1189", "841", "594"]    * # A3 and A4 have extended middle markings
         t.write("        "+svgpath(str(dAL-sFL),str(int(formatHeight)-(297/2)),"h","-10")+"\n")
     t.write("    </g>\n\n")
 
     #- folding marks
     t.write("    <g id=\"folding marks\"\n")
-    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
-    stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    if shWidth=="420": # DIN-A3
+    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
+    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    if shWidth=="420"   * # DIN-A3
         t.write("        "+svgpath("125",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("125",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("230",str(dAT-sFT),"v","-5")+"\n")
         t.write("        "+svgpath("230",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
-    elif shWidth=="594": # DIN-A2
+    elif shWidth=="594"   * # DIN-A2
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("402",str(dAT-sFT),"v"," -5")+"\n")
@@ -1146,7 +1146,7 @@ stroke-linecap:round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","123","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(formatWidth)-dAR+sFR),"123","h","  5")+"\n")
-    elif shWidth=="841": # DIN-A1
+    elif shWidth=="841"   * # DIN-A1
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -1156,7 +1156,7 @@ stroke-linecap:round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","297","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(formatWidth)-dAR+sFR),"297","h","  5")+"\n")
-    elif shWidth=="1189": # DIN-A0
+    elif shWidth=="1189"   * # DIN-A0
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -1177,7 +1177,7 @@ stroke-linecap:round\">\n")
     t.close
 
 #- Title block movable
-def CreateTitleBlock(filePath,shWidth,shHeight):
+def CreateTitleBlock(filePath,shWidth,shHeight)   *
     #- set frame offsets
     dAB = borders.drawingAreaBottom
     dAR = borders.drawingAreaRight
@@ -1192,8 +1192,8 @@ def CreateTitleBlock(filePath,shWidth,shHeight):
     t.write("      \n\n")
     #- title block
     t.write("      <g id=\"titleblock-frame\"\n")
-    t.write("        style=\"fill:none;stroke:#000000;stroke-width:0.35;\
-stroke-linecap:miter;stroke-miterlimit:4\">\n")
+    t.write("        style=\"fill   *none;stroke   *#000000;stroke-width   *0.35;\
+stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
     t.write("        "+svgpath("  0","  0","  0","-63")+"\n")
     t.write("        "+svgpath("  0","-63","180","  0")+"\n")
     t.write("        "+svgpath("  0"," -4","h","155")+"\n")
@@ -1216,24 +1216,24 @@ stroke-linecap:miter;stroke-miterlimit:4\">\n")
     t.write("      </g>\n")
     #- small texts, left-aligned
     t.write("      <g id=\"titleblock-text-non-editable\"\n")
-    t.write("        style=\"font-size:2.5;text-anchor:start;fill:#000000;\
-font-family:osifont\">\n")
+    t.write("        style=\"font-size   *2.5;text-anchor   *start;fill   *#000000;\
+font-family   *osifont\">\n")
 
-    t.write("        "+svgtext("  1.5","-60  ","Author Name:")+"\n")
-    t.write("        "+svgtext("  1.5","-52  ","Date:")+"\n")
-    t.write("        "+svgtext("  1.5","-43.5 ","Supervisor Name:")+"\n")
-    t.write("        "+svgtext("  1.5","-35.5 ","Date:")+"\n")
-    t.write("        "+svgtext("  1.5","-27  ","Format:")+"\n")
-    t.write("        "+svgtext("  1.5","-13  ","Scale:")+"\n")
-    t.write("        "+svgtext(" 26.5","-13  ","Weight:")+"\n")
-    t.write("        "+svgtext(" 51.5","-27  ","Owner:")+"\n")
-    t.write("        "+svgtext(" 51.5","-13  ","Version:")+"\n")
+    t.write("        "+svgtext("  1.5","-60  ","Author Name   *")+"\n")
+    t.write("        "+svgtext("  1.5","-52  ","Date   *")+"\n")
+    t.write("        "+svgtext("  1.5","-43.5 ","Supervisor Name   *")+"\n")
+    t.write("        "+svgtext("  1.5","-35.5 ","Date   *")+"\n")
+    t.write("        "+svgtext("  1.5","-27  ","Format   *")+"\n")
+    t.write("        "+svgtext("  1.5","-13  ","Scale   *")+"\n")
+    t.write("        "+svgtext(" 26.5","-13  ","Weight   *")+"\n")
+    t.write("        "+svgtext(" 51.5","-27  ","Owner   *")+"\n")
+    t.write("        "+svgtext(" 51.5","-13  ","Version   *")+"\n")
     t.write("        "+svgtext("141.5","-13  ","Sheet")+"\n")
     t.write("      </g>\n")
     #- revision indexes, centered
     t.write("      <g id=\"titleblock-revision-indexes\"\n")
-    t.write("        style=\"font-size:5.0;text-anchor:middle;fill:#000000;\
-font-family:osifont\">\n")
+    t.write("        style=\"font-size   *5.0;text-anchor   *middle;fill   *#000000;\
+font-family   *osifont\">\n")
     t.write("        "+svgtext("157.5"," -1.5  ","A")+"\n")
     t.write("        "+svgtext("157.5"," -8.5  ","B")+"\n")
     t.write("        "+svgtext("157.5","-15.5  ","C")+"\n")
@@ -1249,7 +1249,7 @@ font-family:osifont\">\n")
     t.close
 
 #- Title block editable texts
-def CreateEditableText(filePath,shWidth,shHeight):
+def CreateEditableText(filePath,shWidth,shHeight)   *
     #- set frame offsets
     dAB = borders.drawingAreaBottom
     dAR = borders.drawingAreaRight
@@ -1260,15 +1260,15 @@ def CreateEditableText(filePath,shWidth,shHeight):
 
     t=open(filePath,"a")
     t.write("    <g id=\"titleblock-editable-owner\"\n")
-    t.write("      style=\"font-size:3.5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *3.5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
 
     t.write("      "+FCeditext("Owner",str(edX+60),str(edY-27.0),"Owner")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-address\"\n")
-    t.write("      style=\"font-size:2.5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *2.5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Address-1",str(edX+60),str(edY-23.5),"Address1")+"\n")
     t.write("      "+FCeditext("Address-2",str(edX+60),str(edY-20.0),"Address2")+"\n")
     t.write("      "+FCeditext("MailTo",   str(edX+60),str(edY-16.5),"MailTo")+"\n")
@@ -1276,8 +1276,8 @@ font-family:osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-medium\"\n")
-    t.write("      style=\"font-size:5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Author",    str(edX+2),  str(edY-55.0),"Author")+"\n")
     t.write("      "+FCeditext("AuDate",    str(edX+7),  str(edY-47.5),"YYYY/MM/DD")+"\n")
     t.write("      "+FCeditext("Supervisor",str(edX+2),  str(edY-38.5),"Supervisor")+"\n")
@@ -1296,17 +1296,17 @@ font-family:osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-centered\"\n")
-    t.write("      style=\"font-size:5;text-anchor:middle;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *5;text-anchor   *middle;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Format", str(edX+12), str(edY-21),"A3")+"\n")
     t.write("      "+FCeditext("Sheets", str(edX+148),str(edY-8), "1 / 1")+"\n")
-    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1 : 1")+"\n")
+    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1    * 1")+"\n")
     t.write("      "+FCeditext("Weight", str(edX+35), str(edY-8), "___ kg")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-Large\"\n")
-    t.write("      style=\"font-size:7;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *7;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Title",   str(edX+62),str(edY-50),"Drawing Title")+"\n")
     t.write("      "+FCeditext("PtNumber",str(edX+62),str(edY-32),"Part Number")+"\n")
     t.write("    </g>\n\n")
@@ -1341,15 +1341,15 @@ EndSvg(templatePath+templateName)
 
 The tote bag concept could be used to shorten function calls as the needed parameters could be distributed by global classes\...
 
-And this is the resulting Page:
+And this is the resulting Page   *
 
-<img alt="TechDraw page A3" src=images/TechDraw_TemplateHelper_A3.png  style="width:400px;">
+<img alt="TechDraw page A3" src=images/TechDraw_TemplateHelper_A3.png  style="width   *400px;">
 
 ## Set up a user interface 
 
 A single format template generator is a bit lame and so a way to choose a format is needed.
 
-As a user interface a pop-up window with a list to choose from would be nice, but let\'s start simple:
+As a user interface a pop-up window with a list to choose from would be nice, but let\'s start simple   *
 
 ### A simple user interface window 
 
@@ -1370,26 +1370,26 @@ This opens a window on the screen - no more, no less
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 # imports and constants
 from PySide2.QtWidgets import QDialog
 
-class InputWindow(QDialog):
+class InputWindow(QDialog)   *
     """
     docstring for InputWindow.
     """
-    def __init__(self):
+    def __init__(self)   *
         super(InputWindow, self).__init__()
         self.initUI()
 
-    def initUI(self):
+    def initUI(self)   *
         # now make the window visible
         self.show()
 
 
-def main():
+def main()   *
 
     form = InputWindow()
     form.exec_()
@@ -1420,21 +1420,21 @@ This opens a window on the screen which can be closed with an OK or a cancel but
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 # imports and constants
 from PySide2.QtWidgets import QDialog, QPushButton
 
-class InputWindow(QDialog):
+class InputWindow(QDialog)   *
     """
     docstring for InputWindow.
     """
-    def __init__(self):
+    def __init__(self)   *
         super(InputWindow, self).__init__()
         self.initUI()
 
-    def initUI(self):
+    def initUI(self)   *
         self.result = "Cancelled" # Default return status
         # the window has 640 x 480 pixels and is centered by default
         #- allways larger
@@ -1460,15 +1460,15 @@ class InputWindow(QDialog):
         # now make the window visible
         self.show()
 
-    def onCancel(self):
+    def onCancel(self)   *
         self.result = "Cancelled"
         self.close()
-    def onOk(self):
+    def onOk(self)   *
         self.result = "OK"
         self.close()
 
 
-def main():
+def main()   *
 
     form = InputWindow()
     form.exec_()
@@ -1479,7 +1479,7 @@ main()
 
 Each button launches a function setting a result value and closing the window.
 
-:   Two print instructions to check if it does what it should\...
+   *   Two print instructions to check if it does what it should\...
 
 
 </div>
@@ -1502,21 +1502,21 @@ This opens a window on the screen which can used to select a sheet format.
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 # imports and constants
 from PySide2.QtWidgets import QDialog, QPushButton, QLabel, QComboBox
 
-class InputWindow(QDialog):
+class InputWindow(QDialog)   *
     """
     docstring for InputWindow.
     """
-    def __init__(self):
+    def __init__(self)   *
         super(InputWindow, self).__init__()
         self.initUI()
 
-    def initUI(self):
+    def initUI(self)   *
         self.result = "Cancelled" # Default return status
         # the window has 640 x 480 pixels and is centered by default
         #- set window dimensions
@@ -1525,7 +1525,7 @@ class InputWindow(QDialog):
         self.setWindowTitle('Input window')
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         # create some labels
-        self.labelFormat = QLabel("Set drawing format: ", self)
+        self.labelFormat = QLabel("Set drawing format   * ", self)
         self.labelFormat.setFont('osifont') # set to a non-proportional font
         self.labelFormat.move(20, 20)
         # set up lists for pop-ups
@@ -1555,24 +1555,24 @@ class InputWindow(QDialog):
         # now make the window visible
         self.show()
 
-    def onPopupFormat(self, selectedText):
+    def onPopupFormat(self, selectedText)   *
         self.ResultFormat = selectedText
 
-    def onCancel(self):
+    def onCancel(self)   *
         self.result = "Cancelled"
         self.close()
-    def onOk(self):
+    def onOk(self)   *
         self.result = "OK"
         self.close()
 
 
-def main():
+def main()   *
 
     form = InputWindow()
     form.exec_()
-    if form.result == "Cancelled":
+    if form.result == "Cancelled"   *
         pass
-    else:
+    else   *
         print(form.result)
         print(form.ResultFormat)
 
@@ -1581,7 +1581,7 @@ main()
 
 The combo-box is setting another result value without closing the window.
 
-:   Two print instructions to check if it does what it should\...
+   *   Two print instructions to check if it does what it should\...
 
 
 </div>
@@ -1595,21 +1595,21 @@ Whenever a new page is generated and inserted, default values are used for the e
 
 To change the values we use the green handlers and change them one by one. That is acceptable for one page, but quickly becomes annoying if the file contains several pages (sheets) and it would be fine to change entries, that are identical on all pages, in one step.
 
-What do we need beforehand:
+What do we need beforehand   *
 
-:\* a FreeCAD file containing one or more pages that are named/labeled in a compatible way
+   ** a FreeCAD file containing one or more pages that are named/labeled in a compatible way
 
-:\* editable text objects for each page which must be named/labeled identical on all pages
+   ** editable text objects for each page which must be named/labeled identical on all pages
 
-Steps to achieve the goal:
+Steps to achieve the goal   *
 
-:\# scan the active document for drawing pages
+   *# scan the active document for drawing pages
 
-:\# read the values of the first page as default values
+   *# read the values of the first page as default values
 
-:\# use a user interface to check and change the values
+   *# use a user interface to check and change the values
 
-:\# distribute the values to all pages
+   *# distribute the values to all pages
 
 ### Look for existing Pages 
 
@@ -1624,28 +1624,28 @@ Code to search and count pages in the active document
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
-def existingPages():
+def existingPages()   *
     # this counts existing pages in the active document
     NrOfPages=0
-    for Entry in App.ActiveDocument.Objects:
-        if Entry.Name[:4] == "Page":
+    for Entry in App.ActiveDocument.Objects   *
+        if Entry.Name[   *4] == "Page"   *
             NrOfPages += 1
     return NrOfPages
 
-def main(NrOfPages):
+def main(NrOfPages)   *
     # this handles the editable texts
-    print("Number of Pages:" + str(NrOfPages))
+    print("Number of Pages   *" + str(NrOfPages))
 
 # decide to run the main part or quit
 HowMany = existingPages()
 
-if HowMany > 0 :
+if HowMany > 0    *
     main(HowMany)
-else:
+else   *
     print("Nothing to do - No page found")
 }}
 
@@ -1672,32 +1672,32 @@ The above code extended to read entries from the first pages and copy them to th
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
-def existingPages():
+def existingPages()   *
     # this counts existing pages in the active document
     NrOfPages=0
-    for Entry in App.ActiveDocument.Objects:
-        if Entry.Name[:4] == "Page":
+    for Entry in App.ActiveDocument.Objects   *
+        if Entry.Name[   *4] == "Page"   *
             NrOfPages += 1
     return NrOfPages
 
-def main(NrOfPages):
+def main(NrOfPages)   *
     # this handles the editable texts
-    print("Number of Pages:" + str(NrOfPages))
+    print("Number of Pages   *" + str(NrOfPages))
     ActiveDoc = App.ActiveDocument
     #- read first page's editable texts (dictionary)
     EdTexts   = ActiveDoc.Page01.Template.EditableTexts
 
     #- set start PageName
     #- Fill in the editale texts on each page
-    while NrOfPages > 0:
-        if NrOfPages < 10:
+    while NrOfPages > 0   *
+        if NrOfPages < 10   *
             # insert leading zero
             PageName = ("Page"+ "0"+ str(NrOfPages))
-        else:
+        else   *
             PageName = ("Page"+ str(NrOfPages))
 
         #- read current page's editable texts (dictionary)
@@ -1713,9 +1713,9 @@ def main(NrOfPages):
 # --- Launch area ---
 # decide to run the main part or quit
 HowMany = existingPages()
-if HowMany > 0 :
+if HowMany > 0    *
     main(HowMany)
-else:
+else   *
     print("Nothing to do - No page found")
 }}
 
@@ -1742,7 +1742,7 @@ The above code extended to create a user interface and to handle input data
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
@@ -1751,14 +1751,14 @@ from PySide2.QtWidgets import (QDialog, QPushButton, QLabel, QComboBox,
                                 QLineEdit, QAction)
 
 # UI Class definition
-class TitleBlockEntries(QDialog):
+class TitleBlockEntries(QDialog)   *
     """
     docstring for InputWindow.
     """
-    def __init__(self):
+    def __init__(self)   *
         super(TitleBlockEntries, self).__init__()
         self.initUI()
-    def initUI(self):
+    def initUI(self)   *
 
         InputDocument = App.ActiveDocument
         EdiTexts      = InputDocument.Page01.Template.EditableTexts
@@ -1771,13 +1771,13 @@ class TitleBlockEntries(QDialog):
         self.setWindowTitle("Title-block entries")
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         # create some labels
-        self.labelPartNr = QLabel("Part number: ", self)
+        self.labelPartNr = QLabel("Part number   * ", self)
         self.labelPartNr.setFont('osifont') # set to a non-proportional font
         self.labelPartNr.move(20, 20)
-        self.labelPartNr = QLabel("Title: ", self)
+        self.labelPartNr = QLabel("Title   * ", self)
         self.labelPartNr.setFont('osifont')
         self.labelPartNr.move(20, 60)
-        self.labelPartNr = QLabel("Sub-title: ", self)
+        self.labelPartNr = QLabel("Sub-title   * ", self)
         self.labelPartNr.setFont('osifont')
         self.labelPartNr.move(20, 80)
         # create some input elements
@@ -1847,58 +1847,58 @@ class TitleBlockEntries(QDialog):
         # now make the window visible
         self.show()
 
-    def onPopMenuAction1(self):
+    def onPopMenuAction1(self)   *
         # load some text into field
         self.inputPartNr.setText("F21-XX-001")
-    def onPopMenuDivider(self):
+    def onPopMenuDivider(self)   *
         # this option is the divider and is really there as a spacer on the menu list
         # consequently it has no functional code to execute if user selects it
         pass
-    def onPopMenuAction2(self):
+    def onPopMenuAction2(self)   *
         # clear the text from the field
         self.inputPartNr.setText("")
-    def onPopMenuAction3(self):
+    def onPopMenuAction3(self)   *
         # load some text into field
         self.inputTitle.setText("Enter name")
-    def onPopMenuAction4(self):
+    def onPopMenuAction4(self)   *
         # load some text into field
         self.inputTitle.setText("")
 
-    def onCancel(self):
+    def onCancel(self)   *
         self.result = "Cancelled"
         self.close()
-    def onOk(self):
+    def onOk(self)   *
         self.result = "OK"
         self.close()
 
-def existingPages():
+def existingPages()   *
     # this counts existing pages in the active document
     NrOfPages=0
-    for Entry in App.ActiveDocument.Objects:
-        if Entry.Name[:4] == "Page":
+    for Entry in App.ActiveDocument.Objects   *
+        if Entry.Name[   *4] == "Page"   *
             NrOfPages += 1
     return NrOfPages
 
-def main(NrOfPages):
+def main(NrOfPages)   *
     # this handles the editable texts
-    print("Number of Pages:" + str(NrOfPages))
+    print("Number of Pages   *" + str(NrOfPages))
     ActiveDoc = App.ActiveDocument
 
     # Launch input window
     form = TitleBlockEntries()
     form.exec_()
     # deal with the results
-    if form.result == "Cancelled":
+    if form.result == "Cancelled"   *
         pass # steps to handle when selecting Cancel
 
-    if form.result == "OK":
+    if form.result == "OK"   *
         # steps to handle when selecting OK
         #- Fill in the editable texts on each page
-        while NrOfPages > 0:
-            if NrOfPages < 10:
+        while NrOfPages > 0   *
+            if NrOfPages < 10   *
                 # insert leading zero
                 PageName = ("Page"+ "0"+ str(NrOfPages))
-            else:
+            else   *
                 PageName = ("Page"+ str(NrOfPages))
             #- read current page's editable texts (dictionary)
             EdTexts = ActiveDoc.getObject(PageName).Template.EditableTexts
@@ -1916,9 +1916,9 @@ def main(NrOfPages):
 # decide to run the main part or quit
 HowMany = existingPages()
 
-if HowMany > 0 :
+if HowMany > 0    *
     main(HowMany)
-else:
+else   *
     print("Nothing to do - No page found")
 }}
 
@@ -1928,13 +1928,13 @@ else:
 
 </div>
 
-More results:
+More results   *
 
 ## Combined code 
 
 ### Generate A3 template and insert it 
 
-Just copy this code and paste it into an empty \*.py file, edit the template path, save and start the macro from within FreeCAD:
+Just copy this code and paste it into an empty \*.py file, edit the template path, save and start the macro from within FreeCAD   *
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -1947,7 +1947,7 @@ Complete code to create an A3 template and insert it into the active document
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
@@ -1957,14 +1957,14 @@ templateName = "MyTemplate.svg"
 
 # - SVG creation -
 
-class ToteBag:
+class ToteBag   *
     pass
 # This class is empty to act as a container for several variables
 #- one bag for drawing borders
 borders = ToteBag()
 
 #- set values according to DIN XXX
-def setDINBorderValues(format):
+def setDINBorderValues(format)   *
     borders.drawingAreaTop    = 10 # distance from page boundary
     borders.drawingAreaBottom = 10
     borders.drawingAreaLeft   = 20
@@ -1975,46 +1975,46 @@ def setDINBorderValues(format):
     borders.sheetFrameRight   = 5
 
 #- Function to generate an svg-instruction to draw a rectangle with the given values
-def svgrect(width,height,x,y):
+def svgrect(width,height,x,y)   *
     svgLine=("<rect width=\""+width+"\" height=\""+height+"\" x=\""+x+"\" y=\""+y+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to draw a path element (line) with the given values
-def svgpath(x1,y1,x2,y2):
-    if x2=="v" or x2=="V" or x2=="h" or x2=="H":
+def svgpath(x1,y1,x2,y2)   *
+    if x2=="v" or x2=="V" or x2=="h" or x2=="H"   *
         svgLine=("<path d=\"m "+x1+","+y1+" "+x2+" "+y2+"\" />")
-    else:
+    else   *
         svgLine=("<path d=\"m "+x1+","+y1+" l "+x2+","+y2+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to place a text element with the given values
-def svgtext(posX,posY,strValue):
+def svgtext(posX,posY,strValue)   *
     svgLine=("<text x=\""+posX+"\" y=\""+posY+"\">"+strValue+"</text>")
     return svgLine
 
 #- Function to generate an svg-instruction to place an editable text element with the given values
-def FCeditext(entryName,posX,posY,strValue):
-    svgLine=("<text freecad:editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
+def FCeditext(entryName,posX,posY,strValue)   *
+    svgLine=("<text freecad   *editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
     +"\">  <tspan>"+strValue+"</tspan>  </text>")
     return svgLine
 
 #- Create a file and insert a header line
-def CreateSvgFile(filePath):
+def CreateSvgFile(filePath)   *
     t=open(filePath,"w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def StartSvg(filePath):
+def StartSvg(filePath)   *
     t=open(filePath,"a") # a = append, new lines are added at the end of an existing file
     t.write("\n"+"\n")
     t.write("<svg\n")
-    t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns=\"http   *//www.w3.org/2000/svg\" version=\"1.1\"\n")
+    t.write("  xmlns   *freecad=\"http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def CreateSheet(filePath,shWidth,shHeight):
+def CreateSheet(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("  width =\""+shWidth+"mm\"\n")
     t.write("  height=\""+shHeight+"mm\"\n")
@@ -2023,17 +2023,17 @@ def CreateSheet(filePath,shWidth,shHeight):
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def EndSvg(filePath):
+def EndSvg(filePath)   *
     t=open(filePath,"a")
     t.write("</svg>")
     t.close
 
 #- Frame creation
-def CreateFrame(filePath,shWidth,shHeight):
+def CreateFrame(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("    <g id=\"drawing-frame\"\n")
-    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
-stroke-linecap:round\">\n")
+    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.5;\
+stroke-linecap   *round\">\n")
     #- set frame offsets
     dAT = borders.drawingAreaTop
     dAB = borders.drawingAreaBottom
@@ -2073,11 +2073,11 @@ stroke-linecap:round\">\n")
     t.close
 
 #- Indexes and folding marks creation
-def CreateDecoration(filePath,shWidth,shHeight):
+def CreateDecoration(filePath,shWidth,shHeight)   *
     t=open(filePath,"a")
     t.write("    <g id=\"index-separators\"\n")
-    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.25;\
-stroke-linecap:round\">\n")
+    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.25;\
+stroke-linecap   *round\">\n")
     #- set frame offsets
     dAT = borders.drawingAreaTop
     dAB = borders.drawingAreaBottom
@@ -2101,16 +2101,16 @@ stroke-linecap:round\">\n")
     indexLower=str(int(drawingHeight)+dAT-5)
 
     #- centre and middle markings of drawing area
-    if shWidth=="210": # format=="DIN-A4":
+    if shWidth=="210"   * # format=="DIN-A4"   *
         indexLeft=str(dAL)
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-15")+"\n")
-    elif shWidth=="420": # format=="DIN-A3":
+    elif shWidth=="420"   * # format=="DIN-A3"   *
         indexLeft=str(dAL+5)
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-20")+"\n")
         t.write("        "+svgpath(indexRight,indexMiddle,"h"," 10")+"\n")
-    else :
+    else    *
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-10")+"\n")
@@ -2123,19 +2123,19 @@ stroke-linecap:round\">\n")
     indexLower=str(int(drawingHeight)+dAT)
 
     #- set number of horizontal and vertical indexes
-    if shWidth=="420": # format=="DIN-A3":
+    if shWidth=="420"   * # format=="DIN-A3"   *
         indexCountX=8
         indexCountY=6
-    elif shWidth=="594": # format=="DIN-A2":
+    elif shWidth=="594"   * # format=="DIN-A2"   *
         indexCountX=12
         indexCountY=8
-    elif shWidth=="841": # format=="DIN-A1":
+    elif shWidth=="841"   * # format=="DIN-A1"   *
         indexCountX=16
         indexCountY=12
-    elif shWidth=="1189": # format=="DIN-A0":
+    elif shWidth=="1189"   * # format=="DIN-A0"   *
         indexCountX=24
         indexCountY=16
-    else :
+    else    *
         indexCountX=0
         indexCountY=0
 
@@ -2146,7 +2146,7 @@ stroke-linecap:round\">\n")
 
     #- horizontal index separators
     max=int(indexCountX/2-1)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexX=str(floatCenter+(value+1)*50)
         t.write("        "+svgpath(indexX,indexUpper,"v"," -5")+"\n")
         t.write("        "+svgpath(indexX,indexLower,"v","  5")+"\n")
@@ -2156,7 +2156,7 @@ stroke-linecap:round\">\n")
 
     #- vertical index separators
     max=int(indexCountY/2-1)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexY=str(floatMiddle+(value+1)*50)
         t.write("        "+svgpath(indexLeft, indexY,"h"," -5")+"\n")
         t.write("        "+svgpath(indexRight,indexY,"h","  5")+"\n")
@@ -2167,8 +2167,8 @@ stroke-linecap:round\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"indexes\"\n")
-    t.write("      style=\"font-size:3.5;text-anchor:middle;fill:#000000;\
-    font-family:osifont\">\n")
+    t.write("      style=\"font-size   *3.5;text-anchor   *middle;fill   *#000000;\
+    font-family   *osifont\">\n")
 
     #- position point values of indexes
     indexLeft=str(dAL-sFL/2)
@@ -2178,7 +2178,7 @@ stroke-linecap:round\">\n")
 
     #- horizontal indexes, numbers
     max=int(indexCountX/2)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexX=str(floatCenter+value*50+25)
         t.write("        "+svgtext(indexX,indexUpper,str(int(indexCountX/2+value+1)))+"\n")
         t.write("        "+svgtext(indexX,indexLower,str(int(indexCountX/2+value+1)))+"\n")
@@ -2188,12 +2188,12 @@ stroke-linecap:round\">\n")
 
     #- vertical indexes, letters
     max=int(indexCountY/2)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexY=str(floatMiddle+value*50+25)
-        if int(indexCountY/2+value+1)>9 :  # to avoid the letter J
+        if int(indexCountY/2+value+1)>9    *  # to avoid the letter J
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
-        else :
+        else    *
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
         indexY=str(floatMiddle-value*50-25)
@@ -2204,22 +2204,22 @@ stroke-linecap:round\">\n")
 
     #- puncher mark
     t.write("    <g id=\"puncher mark\"\n")
-    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
-    stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    if shWidth in["1189", "841", "594"] : # A3 and A4 have extended middle markings
+    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
+    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    if shWidth in["1189", "841", "594"]    * # A3 and A4 have extended middle markings
         t.write("        "+svgpath(str(dAL-sFL),str(int(formatHeight)-(297/2)),"h","-10")+"\n")
     t.write("    </g>\n\n")
 
     #- folding marks
     t.write("    <g id=\"folding marks\"\n")
-    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
-    stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    if shWidth=="420": # DIN-A3
+    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
+    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    if shWidth=="420"   * # DIN-A3
         t.write("        "+svgpath("125",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("125",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("230",str(dAT-sFT),"v","-5")+"\n")
         t.write("        "+svgpath("230",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
-    elif shWidth=="594": # DIN-A2
+    elif shWidth=="594"   * # DIN-A2
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("402",str(dAT-sFT),"v"," -5")+"\n")
@@ -2227,7 +2227,7 @@ stroke-linecap:round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","123","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(formatWidth)-dAR+sFR),"123","h","  5")+"\n")
-    elif shWidth=="841": # DIN-A1
+    elif shWidth=="841"   * # DIN-A1
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -2237,7 +2237,7 @@ stroke-linecap:round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","297","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(formatWidth)-dAR+sFR),"297","h","  5")+"\n")
-    elif shWidth=="1189": # DIN-A0
+    elif shWidth=="1189"   * # DIN-A0
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(formatHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -2258,7 +2258,7 @@ stroke-linecap:round\">\n")
     t.close
 
 #- Title block movable
-def CreateTitleBlock(filePath,shWidth,shHeight):
+def CreateTitleBlock(filePath,shWidth,shHeight)   *
     #- set frame offsets
     dAB = borders.drawingAreaBottom
     dAR = borders.drawingAreaRight
@@ -2273,8 +2273,8 @@ def CreateTitleBlock(filePath,shWidth,shHeight):
     t.write("      \n\n")
     #- title block
     t.write("      <g id=\"titleblock-frame\"\n")
-    t.write("        style=\"fill:none;stroke:#000000;stroke-width:0.35;\
-stroke-linecap:miter;stroke-miterlimit:4\">\n")
+    t.write("        style=\"fill   *none;stroke   *#000000;stroke-width   *0.35;\
+stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
     t.write("        "+svgpath("  0","  0","  0","-63")+"\n")
     t.write("        "+svgpath("  0","-63","180","  0")+"\n")
     t.write("        "+svgpath("  0"," -4","h","155")+"\n")
@@ -2297,24 +2297,24 @@ stroke-linecap:miter;stroke-miterlimit:4\">\n")
     t.write("      </g>\n")
     #- small texts, left-aligned
     t.write("      <g id=\"titleblock-text-non-editable\"\n")
-    t.write("        style=\"font-size:2.5;text-anchor:start;fill:#000000;\
-font-family:osifont\">\n")
+    t.write("        style=\"font-size   *2.5;text-anchor   *start;fill   *#000000;\
+font-family   *osifont\">\n")
 
-    t.write("        "+svgtext("  1.5","-60  ","Author Name:")+"\n")
-    t.write("        "+svgtext("  1.5","-52  ","Date:")+"\n")
-    t.write("        "+svgtext("  1.5","-43.5 ","Supervisor Name:")+"\n")
-    t.write("        "+svgtext("  1.5","-35.5 ","Date:")+"\n")
-    t.write("        "+svgtext("  1.5","-27  ","Format:")+"\n")
-    t.write("        "+svgtext("  1.5","-13  ","Scale:")+"\n")
-    t.write("        "+svgtext(" 26.5","-13  ","Weight:")+"\n")
-    t.write("        "+svgtext(" 51.5","-27  ","Owner:")+"\n")
-    t.write("        "+svgtext(" 51.5","-13  ","Version:")+"\n")
+    t.write("        "+svgtext("  1.5","-60  ","Author Name   *")+"\n")
+    t.write("        "+svgtext("  1.5","-52  ","Date   *")+"\n")
+    t.write("        "+svgtext("  1.5","-43.5 ","Supervisor Name   *")+"\n")
+    t.write("        "+svgtext("  1.5","-35.5 ","Date   *")+"\n")
+    t.write("        "+svgtext("  1.5","-27  ","Format   *")+"\n")
+    t.write("        "+svgtext("  1.5","-13  ","Scale   *")+"\n")
+    t.write("        "+svgtext(" 26.5","-13  ","Weight   *")+"\n")
+    t.write("        "+svgtext(" 51.5","-27  ","Owner   *")+"\n")
+    t.write("        "+svgtext(" 51.5","-13  ","Version   *")+"\n")
     t.write("        "+svgtext("141.5","-13  ","Sheet")+"\n")
     t.write("      </g>\n")
     #- revision indexes, centered
     t.write("      <g id=\"titleblock-revision-indexes\"\n")
-    t.write("        style=\"font-size:5.0;text-anchor:middle;fill:#000000;\
-font-family:osifont\">\n")
+    t.write("        style=\"font-size   *5.0;text-anchor   *middle;fill   *#000000;\
+font-family   *osifont\">\n")
     t.write("        "+svgtext("157.5"," -1.5  ","A")+"\n")
     t.write("        "+svgtext("157.5"," -8.5  ","B")+"\n")
     t.write("        "+svgtext("157.5","-15.5  ","C")+"\n")
@@ -2330,7 +2330,7 @@ font-family:osifont\">\n")
     t.close
 
 #- Title block editable texts
-def CreateEditableText(filePath,shWidth,shHeight):
+def CreateEditableText(filePath,shWidth,shHeight)   *
     #- set frame offsets
     dAB = borders.drawingAreaBottom
     dAR = borders.drawingAreaRight
@@ -2341,15 +2341,15 @@ def CreateEditableText(filePath,shWidth,shHeight):
 
     t=open(filePath,"a")
     t.write("    <g id=\"titleblock-editable-owner\"\n")
-    t.write("      style=\"font-size:3.5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *3.5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
 
     t.write("      "+FCeditext("Owner",str(edX+60),str(edY-27.0),"Owner")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-address\"\n")
-    t.write("      style=\"font-size:2.5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *2.5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Address-1",str(edX+60),str(edY-23.5),"Address1")+"\n")
     t.write("      "+FCeditext("Address-2",str(edX+60),str(edY-20.0),"Address2")+"\n")
     t.write("      "+FCeditext("MailTo",   str(edX+60),str(edY-16.5),"MailTo")+"\n")
@@ -2357,8 +2357,8 @@ font-family:osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-medium\"\n")
-    t.write("      style=\"font-size:5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Author",    str(edX+2),  str(edY-55.0),"Author")+"\n")
     t.write("      "+FCeditext("AuDate",    str(edX+7),  str(edY-47.5),"YYYY/MM/DD")+"\n")
     t.write("      "+FCeditext("Supervisor",str(edX+2),  str(edY-38.5),"Supervisor")+"\n")
@@ -2377,17 +2377,17 @@ font-family:osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-centered\"\n")
-    t.write("      style=\"font-size:5;text-anchor:middle;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *5;text-anchor   *middle;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Format", str(edX+12), str(edY-21),"A3")+"\n")
     t.write("      "+FCeditext("Sheets", str(edX+148),str(edY-8), "1 / 1")+"\n")
-    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1 : 1")+"\n")
+    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1    * 1")+"\n")
     t.write("      "+FCeditext("Weight", str(edX+35), str(edY-8), "___ kg")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-Large\"\n")
-    t.write("      style=\"font-size:7;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *7;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Title",   str(edX+62),str(edY-50),"Drawing Title")+"\n")
     t.write("      "+FCeditext("PtNumber",str(edX+62),str(edY-32),"Part Number")+"\n")
     t.write("    </g>\n\n")
@@ -2424,27 +2424,27 @@ newPage = 'Page01' # first page name to start search
 # to find the current page number to create
 pageCount = 1
 pageFound = True
-while pageFound:
-    try:
+while pageFound   *
+    try   *
         print(activeDoc.getObject(newPage).Label)
-    except AttributeError:
+    except AttributeError   *
         print(newPage + " to be created")
         pageFound = False
-    else:
+    else   *
         pageCount = pageCount + 1
-        if pageCount < 10:
-            newPage = newPage[0:4] + '0' + str(pageCount)
-        else:
-            newPage = newPage[0:4] + str(pageCount)
+        if pageCount < 10   *
+            newPage = newPage[0   *4] + '0' + str(pageCount)
+        else   *
+            newPage = newPage[0   *4] + str(pageCount)
 
 # set template number according to page number
-newTemplate = ('Template' + newPage[4:])
+newTemplate = ('Template' + newPage[4   *])
 
 # add a page object to the active document
-activeDoc.addObject('TechDraw::DrawPage',newPage)
+activeDoc.addObject('TechDraw   *   *DrawPage',newPage)
 
 # add a template object to the active document
-activeDoc.addObject('TechDraw::DrawSVGTemplate',newTemplate)
+activeDoc.addObject('TechDraw   *   *DrawSVGTemplate',newTemplate)
 
 # load the svg template into the template object
 activeDoc.getObject(newTemplate).Template = templatePath+templateName
@@ -2453,7 +2453,7 @@ activeDoc.getObject(newTemplate).Template = templatePath+templateName
 activeDoc.getObject(newPage).Template = activeDoc.getObject(newTemplate)
 
 # rename 'Page' to 'Sheet'
-activeDoc.getObject(newPage).Label = 'Sheet ' + newPage[4:]
+activeDoc.getObject(newPage).Label = 'Sheet ' + newPage[4   *]
 
 # open the page object for editing
 activeDoc.getObject(newPage).ViewObject.doubleClicked()
@@ -2481,7 +2481,7 @@ Complete code to select the sheet format, generate a template with the chosen di
 
 {{Code| |code=
 #! python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
@@ -2493,22 +2493,22 @@ templateName = "MyTemplate.svg"
 
 # - SVG creation -
 
-class ToteBag:
+class ToteBag   *
     pass
 # This class is empty to act as a container for several variables
 
 borders = ToteBag() #- one bag for drawing border offsets#- one bag for page dimensions
 sheetFormat = ToteBag() #- one bag for page dimensions
 
-class InputWindow(QDialog):
+class InputWindow(QDialog)   *
     """
     docstring for InputWindow.
     """
-    def __init__(self):
+    def __init__(self)   *
         super(InputWindow, self).__init__()
         self.initUI()
 
-    def initUI(self):
+    def initUI(self)   *
         self.result = "Cancelled" # Default return status
         # the window has 640 x 480 pixels and is centered by default
         #- set window dimensions
@@ -2517,7 +2517,7 @@ class InputWindow(QDialog):
         self.setWindowTitle('Input window')
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         # create some labels
-        self.labelFormat = QLabel("Set drawing format: ", self)
+        self.labelFormat = QLabel("Set drawing format   * ", self)
         self.labelFormat.setFont('osifont') # set to a non-proportional font
         self.labelFormat.move(20, 20)
         # set up lists for pop-ups
@@ -2547,21 +2547,21 @@ class InputWindow(QDialog):
         # now make the window visible
         self.show()
 
-    def onPopupFormat(self, selectedText):
+    def onPopupFormat(self, selectedText)   *
         self.ResultFormat = selectedText
 
-    def onCancel(self):
+    def onCancel(self)   *
         self.result = "Cancelled"
         self.close()
-    def onOk(self):
+    def onOk(self)   *
         self.result = "OK"
         self.close()
 
 #- set values according to ISO, ANSI, Arch
-def setBorderValues(format):
+def setBorderValues(format)   *
     # customise values if needed
     print(format)
-    if format[0:3] == "ANS":
+    if format[0   *3] == "ANS"   *
         borders.drawingAreaTop    = 10 # distance from page boundary
         borders.drawingAreaBottom = 10
         borders.drawingAreaLeft   = 20
@@ -2570,7 +2570,7 @@ def setBorderValues(format):
         borders.sheetFrameBottom  = 5
         borders.sheetFrameLeft    = 5
         borders.sheetFrameRight   = 5
-    elif format[0:3] == "Arc":
+    elif format[0   *3] == "Arc"   *
         borders.drawingAreaTop    = 10 # distance from page boundary
         borders.drawingAreaBottom = 10
         borders.drawingAreaLeft   = 20
@@ -2579,7 +2579,7 @@ def setBorderValues(format):
         borders.sheetFrameBottom  = 5
         borders.sheetFrameLeft    = 5
         borders.sheetFrameRight   = 5
-    else:
+    else   *
         borders.drawingAreaTop    = 10 # distance from page boundary
         borders.drawingAreaBottom = 10
         borders.drawingAreaLeft   = 20
@@ -2589,101 +2589,101 @@ def setBorderValues(format):
         borders.sheetFrameLeft    = 5
         borders.sheetFrameRight   = 5
 
-def SetSheetDimensions(format):
-    if format[0:3] == "ANS":
-        if format[-1:0] == "A":
+def SetSheetDimensions(format)   *
+    if format[0   *3] == "ANS"   *
+        if format[-1   *0] == "A"   *
             sheetFormat.width  = "216"
             sheetFormat.height = "279"
-        elif format[-1:0] == "B":
+        elif format[-1   *0] == "B"   *
             sheetFormat.width  = "432"
             sheetFormat.height = "279"
-        elif format[-1:0] == "C":
+        elif format[-1   *0] == "C"   *
             sheetFormat.width  = "559"
             sheetFormat.height = "432"
-        elif format[-1:0] == "D":
+        elif format[-1   *0] == "D"   *
             sheetFormat.width  = "864"
             sheetFormat.height = "559"
-        else: # E
+        else   * # E
             sheetFormat.width  = "1118"
             sheetFormat.height = "864"
-    elif format[0:3] == "Arc":
-        if format[-1:0] == "A":
+    elif format[0   *3] == "Arc"   *
+        if format[-1   *0] == "A"   *
             sheetFormat.width  = "229"
             sheetFormat.height = "305"
-        elif format[-1:0] == "B":
+        elif format[-1   *0] == "B"   *
             sheetFormat.width  = "457"
             sheetFormat.height = "305"
-        elif format[-1:0] == "C":
+        elif format[-1   *0] == "C"   *
             sheetFormat.width  = "610"
             sheetFormat.height = "457"
-        elif format[-1:0] == "D":
+        elif format[-1   *0] == "D"   *
             sheetFormat.width  = "914"
             sheetFormat.height = "610"
-        elif format[-1:0] == "E":
+        elif format[-1   *0] == "E"   *
             sheetFormat.width  = "1219"
             sheetFormat.height = "914"
-        else: # E1
+        else   * # E1
             sheetFormat.width  = "1067"
             sheetFormat.height = "762"
-    else: # ISO
-        if format[-1:] == "4":
+    else   * # ISO
+        if format[-1   *] == "4"   *
             sheetFormat.width  = "210"
             sheetFormat.height = "297"
-        elif format[-1:] == "3":
+        elif format[-1   *] == "3"   *
             sheetFormat.width  = "420"
             sheetFormat.height = "297"
-        elif format[-1:] == "2":
+        elif format[-1   *] == "2"   *
             sheetFormat.width  = "594"
             sheetFormat.height = "420"
-        elif format[-1:] == "1":
+        elif format[-1   *] == "1"   *
             sheetFormat.width  = "841"
             sheetFormat.height = "594"
-        else: # A0
+        else   * # A0
             sheetFormat.width  = "1189"
             sheetFormat.height = "841"
     print(format, sheetFormat.width, sheetFormat.height)
 
 #- Function to generate an svg-instruction to draw a rectangle with the given values
-def svgrect(width,height,x,y):
+def svgrect(width,height,x,y)   *
     svgLine=("<rect width=\""+width+"\" height=\""+height+"\" x=\""+x+"\" y=\""+y+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to draw a path element (line) with the given values
-def svgpath(x1,y1,x2,y2):
-    if x2=="v" or x2=="V" or x2=="h" or x2=="H":
+def svgpath(x1,y1,x2,y2)   *
+    if x2=="v" or x2=="V" or x2=="h" or x2=="H"   *
         svgLine=("<path d=\"m "+x1+","+y1+" "+x2+" "+y2+"\" />")
-    else:
+    else   *
         svgLine=("<path d=\"m "+x1+","+y1+" l "+x2+","+y2+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to place a text element with the given values
-def svgtext(posX,posY,strValue):
+def svgtext(posX,posY,strValue)   *
     svgLine=("<text x=\""+posX+"\" y=\""+posY+"\">"+strValue+"</text>")
     return svgLine
 
 #- Function to generate an svg-instruction to place an editable text element with the given values
-def FCeditext(entryName,posX,posY,strValue):
-    svgLine=("<text freecad:editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
+def FCeditext(entryName,posX,posY,strValue)   *
+    svgLine=("<text freecad   *editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
     +"\">  <tspan>"+strValue+"</tspan>  </text>")
     return svgLine
 
 #- Create a file and insert a header line
-def CreateSvgFile(filePath):
+def CreateSvgFile(filePath)   *
     t=open(filePath,"w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def StartSvg(filePath):
+def StartSvg(filePath)   *
     t=open(filePath,"a") # a = append, new lines are added at the end of an existing file
     t.write("\n"+"\n")
     t.write("<svg\n")
-    t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns=\"http   *//www.w3.org/2000/svg\" version=\"1.1\"\n")
+    t.write("  xmlns   *freecad=\"http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def CreateSheet(filePath):
+def CreateSheet(filePath)   *
     #- set sheet dimensions
     sWidth  = sheetFormat.width
     sHeight = sheetFormat.height
@@ -2695,17 +2695,17 @@ def CreateSheet(filePath):
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def EndSvg(filePath):
+def EndSvg(filePath)   *
     t=open(filePath,"a")
     t.write("</svg>")
     t.close
 
 #- Frame creation
-def CreateFrame(filePath):
+def CreateFrame(filePath)   *
     t=open(filePath,"a")
     t.write("    <g id=\"drawing-frame\"\n")
-    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
-stroke-linecap:round\">\n")
+    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.5;\
+stroke-linecap   *round\">\n")
     #- set sheet dimensions
     sWidth  = sheetFormat.width
     sHeight = sheetFormat.height
@@ -2748,11 +2748,11 @@ stroke-linecap:round\">\n")
     t.close
 
 #- Indexes and folding marks creation
-def CreateDecoration(filePath):
+def CreateDecoration(filePath)   *
     t = open(filePath,"a")
     t.write("    <g id=\"index-separators\"\n")
-    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.25;\
-stroke-linecap:round\">\n")
+    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.25;\
+stroke-linecap   *round\">\n")
     #- set sheet dimensions
     sWidth  = sheetFormat.width
     sHeight = sheetFormat.height
@@ -2780,16 +2780,16 @@ stroke-linecap:round\">\n")
     indexLower=str(int(drawingHeight)+dAT-5)
 
     #- centre and middle markings of drawing area
-    if sWidth=="210": # format=="DIN-A4":
+    if sWidth=="210"   * # format=="DIN-A4"   *
         indexLeft=str(dAL)
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-15")+"\n")
-    elif sWidth=="420": # format=="DIN-A3":
+    elif sWidth=="420"   * # format=="DIN-A3"   *
         indexLeft=str(dAL+5)
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-20")+"\n")
         t.write("        "+svgpath(indexRight,indexMiddle,"h"," 10")+"\n")
-    else :
+    else    *
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-10")+"\n")
@@ -2803,19 +2803,19 @@ stroke-linecap:round\">\n")
 
     #- set number of horizontal and vertical indexes
     # this needs to be extended for American formats
-    if sWidth=="420": # format=="DIN-A3":
+    if sWidth=="420"   * # format=="DIN-A3"   *
         indexCountX=8
         indexCountY=6
-    elif sWidth=="594": # format=="DIN-A2":
+    elif sWidth=="594"   * # format=="DIN-A2"   *
         indexCountX=12
         indexCountY=8
-    elif sWidth=="841": # format=="DIN-A1":
+    elif sWidth=="841"   * # format=="DIN-A1"   *
         indexCountX=16
         indexCountY=12
-    elif sWidth=="1189": # format=="DIN-A0":
+    elif sWidth=="1189"   * # format=="DIN-A0"   *
         indexCountX=24
         indexCountY=16
-    else :
+    else    *
         indexCountX=0
         indexCountY=0
 
@@ -2826,7 +2826,7 @@ stroke-linecap:round\">\n")
 
     #- horizontal index separators
     max=int(indexCountX/2-1)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexX=str(floatCenter+(value+1)*50)
         t.write("        "+svgpath(indexX,indexUpper,"v"," -5")+"\n")
         t.write("        "+svgpath(indexX,indexLower,"v","  5")+"\n")
@@ -2836,7 +2836,7 @@ stroke-linecap:round\">\n")
 
     #- vertical index separators
     max=int(indexCountY/2-1)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexY=str(floatMiddle+(value+1)*50)
         t.write("        "+svgpath(indexLeft, indexY,"h"," -5")+"\n")
         t.write("        "+svgpath(indexRight,indexY,"h","  5")+"\n")
@@ -2847,8 +2847,8 @@ stroke-linecap:round\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"indexes\"\n")
-    t.write("      style=\"font-size:3.5;text-anchor:middle;fill:#000000;\
-    font-family:osifont\">\n")
+    t.write("      style=\"font-size   *3.5;text-anchor   *middle;fill   *#000000;\
+    font-family   *osifont\">\n")
 
     #- position point values of indexes
     indexLeft=str(dAL-sFL/2)
@@ -2858,7 +2858,7 @@ stroke-linecap:round\">\n")
 
     #- horizontal indexes, numbers
     max=int(indexCountX/2)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexX=str(floatCenter+value*50+25)
         t.write("        "+svgtext(indexX,indexUpper,str(int(indexCountX/2+value+1)))+"\n")
         t.write("        "+svgtext(indexX,indexLower,str(int(indexCountX/2+value+1)))+"\n")
@@ -2868,12 +2868,12 @@ stroke-linecap:round\">\n")
 
     #- vertical indexes, letters
     max=int(indexCountY/2)
-    for value in range(0,max):
+    for value in range(0,max)   *
         indexY=str(floatMiddle+value*50+25)
-        if int(indexCountY/2+value+1)>9 :  # to avoid the letter J
+        if int(indexCountY/2+value+1)>9    *  # to avoid the letter J
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
-        else :
+        else    *
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
         indexY=str(floatMiddle-value*50-25)
@@ -2884,22 +2884,22 @@ stroke-linecap:round\">\n")
 
     #- puncher mark
     t.write("    <g id=\"puncher mark\"\n")
-    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
-    stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    if sWidth in["1189", "841", "594"] : # A3 and A4 have extended middle markings
+    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
+    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    if sWidth in["1189", "841", "594"]    * # A3 and A4 have extended middle markings
         t.write("        "+svgpath(str(dAL-sFL),str(int(sHeight)-(297/2)),"h","-10")+"\n")
     t.write("    </g>\n\n")
 
     #- folding marks
     t.write("    <g id=\"folding marks\"\n")
-    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
-    stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    if sWidth=="420": # DIN-A3
+    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
+    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    if sWidth=="420"   * # DIN-A3
         t.write("        "+svgpath("125",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("125",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("230",str(dAT-sFT),"v","-5")+"\n")
         t.write("        "+svgpath("230",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
-    elif sWidth=="594": # DIN-A2
+    elif sWidth=="594"   * # DIN-A2
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("402",str(dAT-sFT),"v"," -5")+"\n")
@@ -2907,7 +2907,7 @@ stroke-linecap:round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","123","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(sWidth)-dAR+sFR),"123","h","  5")+"\n")
-    elif sWidth=="841": # DIN-A1
+    elif sWidth=="841"   * # DIN-A1
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -2917,7 +2917,7 @@ stroke-linecap:round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","297","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(sWidth)-dAR+sFR),"297","h","  5")+"\n")
-    elif sWidth=="1189": # DIN-A0
+    elif sWidth=="1189"   * # DIN-A0
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -2938,7 +2938,7 @@ stroke-linecap:round\">\n")
     t.close
 
 #- Title block movable
-def CreateTitleBlock(filePath):
+def CreateTitleBlock(filePath)   *
     #- set sheet dimensions
     sWidth  = sheetFormat.width
     sHeight = sheetFormat.height
@@ -2956,8 +2956,8 @@ def CreateTitleBlock(filePath):
     t.write("      \n\n")
     #- title block
     t.write("      <g id=\"titleblock-frame\"\n")
-    t.write("        style=\"fill:none;stroke:#000000;stroke-width:0.35;\
-stroke-linecap:miter;stroke-miterlimit:4\">\n")
+    t.write("        style=\"fill   *none;stroke   *#000000;stroke-width   *0.35;\
+stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
     t.write("        "+svgpath("  0","  0","  0","-63")+"\n")
     t.write("        "+svgpath("  0","-63","180","  0")+"\n")
     t.write("        "+svgpath("  0"," -4","h","155")+"\n")
@@ -2980,23 +2980,23 @@ stroke-linecap:miter;stroke-miterlimit:4\">\n")
     t.write("      </g>\n")
     #- small texts, left-aligned
     t.write("      <g id=\"titleblock-text-non-editable\"\n")
-    t.write("        style=\"font-size:2.5;text-anchor:start;fill:#000000;\
-font-family:osifont\">\n")
-    t.write("        "+svgtext("  1.5","-60  ","Author Name:")+"\n")
-    t.write("        "+svgtext("  1.5","-52  ","Date:")+"\n")
-    t.write("        "+svgtext("  1.5","-43.5 ","Supervisor Name:")+"\n")
-    t.write("        "+svgtext("  1.5","-35.5 ","Date:")+"\n")
-    t.write("        "+svgtext("  1.5","-27  ","Format:")+"\n")
-    t.write("        "+svgtext("  1.5","-13  ","Scale:")+"\n")
-    t.write("        "+svgtext(" 26.5","-13  ","Weight:")+"\n")
-    t.write("        "+svgtext(" 51.5","-27  ","Owner:")+"\n")
-    t.write("        "+svgtext(" 51.5","-13  ","Version:")+"\n")
+    t.write("        style=\"font-size   *2.5;text-anchor   *start;fill   *#000000;\
+font-family   *osifont\">\n")
+    t.write("        "+svgtext("  1.5","-60  ","Author Name   *")+"\n")
+    t.write("        "+svgtext("  1.5","-52  ","Date   *")+"\n")
+    t.write("        "+svgtext("  1.5","-43.5 ","Supervisor Name   *")+"\n")
+    t.write("        "+svgtext("  1.5","-35.5 ","Date   *")+"\n")
+    t.write("        "+svgtext("  1.5","-27  ","Format   *")+"\n")
+    t.write("        "+svgtext("  1.5","-13  ","Scale   *")+"\n")
+    t.write("        "+svgtext(" 26.5","-13  ","Weight   *")+"\n")
+    t.write("        "+svgtext(" 51.5","-27  ","Owner   *")+"\n")
+    t.write("        "+svgtext(" 51.5","-13  ","Version   *")+"\n")
     t.write("        "+svgtext("141.5","-13  ","Sheet")+"\n")
     t.write("      </g>\n")
     #- revision indexes, centered
     t.write("      <g id=\"titleblock-revision-indexes\"\n")
-    t.write("        style=\"font-size:5.0;text-anchor:middle;fill:#000000;\
-font-family:osifont\">\n")
+    t.write("        style=\"font-size   *5.0;text-anchor   *middle;fill   *#000000;\
+font-family   *osifont\">\n")
     t.write("        "+svgtext("157.5"," -1.5  ","A")+"\n")
     t.write("        "+svgtext("157.5"," -8.5  ","B")+"\n")
     t.write("        "+svgtext("157.5","-15.5  ","C")+"\n")
@@ -3012,7 +3012,7 @@ font-family:osifont\">\n")
     t.close
 
 #- Title block editable texts
-def CreateEditableText(filePath):
+def CreateEditableText(filePath)   *
     #- set sheet dimensions
     sWidth  = sheetFormat.width
     sHeight = sheetFormat.height
@@ -3026,15 +3026,15 @@ def CreateEditableText(filePath):
 
     t=open(filePath,"a")
     t.write("    <g id=\"titleblock-editable-owner\"\n")
-    t.write("      style=\"font-size:3.5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *3.5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
 
     t.write("      "+FCeditext("Owner",str(edX+60),str(edY-27.0),"Owner")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-address\"\n")
-    t.write("      style=\"font-size:2.5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *2.5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Address-1",str(edX+60),str(edY-23.5),"Address1")+"\n")
     t.write("      "+FCeditext("Address-2",str(edX+60),str(edY-20.0),"Address2")+"\n")
     t.write("      "+FCeditext("MailTo",   str(edX+60),str(edY-16.5),"MailTo")+"\n")
@@ -3042,8 +3042,8 @@ font-family:osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-medium\"\n")
-    t.write("      style=\"font-size:5;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *5;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Author",    str(edX+2),  str(edY-55.0),"Author")+"\n")
     t.write("      "+FCeditext("AuDate",    str(edX+7),  str(edY-47.5),"YYYY/MM/DD")+"\n")
     t.write("      "+FCeditext("Supervisor",str(edX+2),  str(edY-38.5),"Supervisor")+"\n")
@@ -3062,31 +3062,31 @@ font-family:osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-centered\"\n")
-    t.write("      style=\"font-size:5;text-anchor:middle;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *5;text-anchor   *middle;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Format", str(edX+12), str(edY-21),"A3")+"\n")
     t.write("      "+FCeditext("Sheets", str(edX+148),str(edY-8), "1 / 1")+"\n")
-    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1 : 1")+"\n")
+    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1    * 1")+"\n")
     t.write("      "+FCeditext("Weight", str(edX+35), str(edY-8), "___ kg")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-Large\"\n")
-    t.write("      style=\"font-size:7;text-anchor:start;fill:#0000d0;\
-font-family:osifont\">\n")
+    t.write("      style=\"font-size   *7;text-anchor   *start;fill   *#0000d0;\
+font-family   *osifont\">\n")
     t.write("      "+FCeditext("Title",   str(edX+62),str(edY-50),"Drawing Title")+"\n")
     t.write("      "+FCeditext("PtNumber",str(edX+62),str(edY-32),"Part Number")+"\n")
     t.write("    </g>\n\n")
     t.close
 
-def main():
+def main()   *
     templateFile = templatePath+templateName
 
     # Gui to select some presets
     form = InputWindow()
     form.exec_()
-    if form.result == "Cancelled":
+    if form.result == "Cancelled"   *
         pass
-    else:
+    else   *
         print(form.result)
         print(form.ResultFormat)
         setBorderValues(form.ResultFormat)
@@ -3111,31 +3111,31 @@ def main():
         # to find the current page number to create
         pageCount = 1
         pageFound = True
-        while pageFound:
-            try:
+        while pageFound   *
+            try   *
                 print(activeDoc.getObject(newPage).Label)
-            except AttributeError:
+            except AttributeError   *
                 print(newPage + " to be created")
                 pageFound = False
-            else:
+            else   *
                 pageCount = pageCount + 1
-                if pageCount < 10:
-                    newPage = newPage[0:4] + '0' + str(pageCount)
-                else:
-                    newPage = newPage[0:4] + str(pageCount)
+                if pageCount < 10   *
+                    newPage = newPage[0   *4] + '0' + str(pageCount)
+                else   *
+                    newPage = newPage[0   *4] + str(pageCount)
 
         # set template number according to page number
-        newTemplate = ('Template' + newPage[4:])
+        newTemplate = ('Template' + newPage[4   *])
         # add a page object to the active document
-        activeDoc.addObject('TechDraw::DrawPage',newPage)
+        activeDoc.addObject('TechDraw   *   *DrawPage',newPage)
         # add a template object to the active document
-        activeDoc.addObject('TechDraw::DrawSVGTemplate',newTemplate)
+        activeDoc.addObject('TechDraw   *   *DrawSVGTemplate',newTemplate)
         # load the svg template into the template object
         activeDoc.getObject(newTemplate).Template = templatePath+templateName
         # add the template object to the page's object list
         activeDoc.getObject(newPage).Template = activeDoc.getObject(newTemplate)
         # rename 'Page' to 'Sheet'
-        activeDoc.getObject(newPage).Label = 'Sheet ' + newPage[4:]
+        activeDoc.getObject(newPage).Label = 'Sheet ' + newPage[4   *]
         # open the page object for editing
         activeDoc.getObject(newPage).ViewObject.doubleClicked()
 
@@ -3152,6 +3152,8 @@ main()
 
 
 This is a sandbox / Dies ist eine Sandbox
+
+[Category   *Sandbox](Category_Sandbox.md)
 
 
 

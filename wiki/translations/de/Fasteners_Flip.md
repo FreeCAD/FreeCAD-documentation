@@ -1,21 +1,21 @@
 ---
-- GuiCommand:/de
-   Name:Fasteners Flip
-   Name/de:Fasteners Umdrehen
-   MenuLocation:Fasteners → Invert fastener
-   Workbenches:[Fasteners](Fasteners_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Fasteners Flip
+   Name/de   *Fasteners Umdrehen
+   MenuLocation   *Fasteners → Invert fastener
+   Workbenches   *[Fasteners](Fasteners_Workbench/de.md)
 ---
 
 # Fasteners Flip/de
 
 ## Beschreibung
 
-The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners Flip** command inverts the orientation of selected fasteners by changing their **invert** property.
+The <img alt="" src=images/Fasteners_Flip.svg  style="width   *24px;"> **Fasteners Flip** command inverts the orientation of selected fasteners by changing their **invert** property.
 
 ## Anwendung
 
 1.  Select one or more fasteners.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Fasteners_Flip.svg" width=16px> [Fasteners Flip](Fasteners_Flip.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_Flip.svg" width=16px> Invert fastener** option from the menu.
 3.  The orientation of the selected fasteners is inverted.
@@ -26,7 +26,9 @@ The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners 
 
 {{Fasteners Tools navi
 
-}}
+}} 
+
+[Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

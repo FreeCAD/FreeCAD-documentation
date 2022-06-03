@@ -1,13 +1,13 @@
 # Release notes 0.11/es
-Este es un sumario de los cambios más importantes y las nuevas características disponibles en la versión 0.11 de FreeCAD. La lista completa puede encontrarse [aquí](http://www.freecadweb.org/tracker/changelog_page.php).
+Este es un sumario de los cambios más importantes y las nuevas características disponibles en la versión 0.11 de FreeCAD. La lista completa puede encontrarse [aquí](http   *//www.freecadweb.org/tracker/changelog_page.php).
 
-<img alt="" src=images/FreeCAD011.png  style="width:800px;">
+<img alt="" src=images/FreeCAD011.png  style="width   *800px;">
 
 Una captura de pantalla de la versión 0.11
 
 ### General
 
--   El [proyecto de traducción de FreeCAD](http://crowdin.net/project/freecad) ha recibido una enorme ayuda de numerosas personas de todo el mundo y FreeCAD ahora está disponible por lo menos en 15 idiomas: Inglés, Alemán, Francés, Italiano, Sueco, Español, Portugués, Ruso, Ucraniano, Noruego, Afrikaans, Finlandés, Chino simplificado, Croata y Holandés. Y se está trabajando con muchos otros idiomas para las próximas versiones.
+-   El [proyecto de traducción de FreeCAD](http   *//crowdin.net/project/freecad) ha recibido una enorme ayuda de numerosas personas de todo el mundo y FreeCAD ahora está disponible por lo menos en 15 idiomas   * Inglés, Alemán, Francés, Italiano, Sueco, Español, Portugués, Ruso, Ucraniano, Noruego, Afrikaans, Finlandés, Chino simplificado, Croata y Holandés. Y se está trabajando con muchos otros idiomas para las próximas versiones.
 
 ![](images/release011-translation.jpg )
 
@@ -26,7 +26,7 @@ Una captura de pantalla de la versión 0.11
 
 ![](images/release011-sketcher.jpg )
 
-![](images/Movie.png ) Ejemplos: [Demo del croquizador](http://www.youtube.com/watch?v=hvXupH5bA0E) • [Demo del módulo de piezas](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
+![](images/Movie.png ) Ejemplos   * [Demo del croquizador](http   *//www.youtube.com/watch?v=hvXupH5bA0E) • [Demo del módulo de piezas](http   *//www.youtube.com/watch?v=7ih9Jp3OAwA)
 
 ### Simulación de movimiento de Robots 
 
@@ -52,7 +52,7 @@ Una captura de pantalla de la versión 0.11
 -   El entorno de trabajo de croquizado también incorpora una [API en Python](Draft_API/es.md).
 -   La importación de DXF ahora soporta atributos en los bloques
 
-![](images/Movie.png ) Examples: [Draft module demo](http://www.youtube.com/watch?v=Q7cG-LQK8Ps)
+![](images/Movie.png ) Examples   * [Draft module demo](http   *//www.youtube.com/watch?v=Q7cG-LQK8Ps)
 
 ### Imágenes
 
@@ -64,6 +64,8 @@ Una captura de pantalla de la versión 0.11
 
 
 {{languages/es | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

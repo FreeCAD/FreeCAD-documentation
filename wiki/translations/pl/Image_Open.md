@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Image Open
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench.md)
-   SeeAlso:[Image CreateImagePlane](Image_CreateImagePlane.md), [Image Scaling](Image_Scaling.md)
+- GuiCommand   *
+   Name   *Image Open
+   MenuLocation   *
+   Workbenches   *[Image](Image_Workbench.md)
+   SeeAlso   *[Image CreateImagePlane](Image_CreateImagePlane.md), [Image Scaling](Image_Scaling.md)
 ---
 
 # Image Open/pl

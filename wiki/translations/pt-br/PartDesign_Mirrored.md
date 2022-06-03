@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:PartDesign Mirrored
-   MenuLocation:Part Design → Apply a pattern → Mirrored
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand   *
+   Name   *PartDesign Mirrored
+   MenuLocation   *Part Design → Apply a pattern → Mirrored
+   Workbenches   *[PartDesign](PartDesign_Workbench.md)
 ---
 
 # PartDesign Mirrored/pt-br
@@ -15,21 +15,21 @@ The **Mirrored** tool mirrors features on a plane.
 
 
 
-*Above: a Pocket feature was created from a sketch containing a circle (A), the Pocket was subsequently used to create a Mirrored feature. The sketch vertical axis (B) was used as axis of symmetry. The result (C) is shown on the right.*
+*Above   * a Pocket feature was created from a sketch containing a circle (A), the Pocket was subsequently used to create a Mirrored feature. The sketch vertical axis (B) was used as axis of symmetry. The result (C) is shown on the right.*
 
 ## Usage
 
-To create a mirroring:
+To create a mirroring   *
 
 1.  Select the one or more features to be mirrored.
-2.  Press the **[<img src=images/PartDesign_Mirrored.svg style="width:24px"> '''Mirrored'''** button.
+2.  Press the **[<img src=images/PartDesign_Mirrored.svg style="width   *24px"> '''Mirrored'''** button.
 3.  If you have several features in the mirroring, their order can be important, see for example the image in the [PolarPattern feature](PartDesign_PolarPattern#Usage.md). You can change the order by dragging the feature in the list and you will see the result immediately as preview.
 4.  Define the mirror **Plane**. See [Options](#Options.md).
 5.  Press **OK**.
 
-To add or remove features from an existing mirroring:
+To add or remove features from an existing mirroring   *
 
-1.  Press **Add feature** to add a feature to be mirrored. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Add feature** to add a feature to be mirrored. The feature must be visible in the [3D view](3D_view.md)   *
     1.  Switch to the Model tree;
     2.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
     3.  Switch back to the Tasks panel;

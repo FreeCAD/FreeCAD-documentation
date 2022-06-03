@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon
-   Name:BIM Box
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:3D Modeling -> Box
-   SeeAlso:[[Part Box]]
+- GuiCommand   *Addon
+   Name   *BIM Box
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon   *BIM
+   MenuLocation   *3D Modeling -> Box
+   SeeAlso   *[[Part Box]]
 ---
 
 # BIM Box/es
@@ -14,12 +14,12 @@
 
 ## Descripción
 
-<img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_box_screenshot.png  style="width   *1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-La herramienta BIM Box le permite crear un estándar [Part Box](Part_Box.md), pero en lugar de crear el objeto y permitirle especificar sus dimensiones y posición después, como lo hace la herramienta original [Part Workbench](Part_Workbench.md), esta herramienta le permite Coloque y defina gráficamente las dimensiones de la caja al crear el objeto. Las cajas son formas básicas [cuboid](https://en.wikipedia.org/wiki/Cuboid), que se pueden usar como base de cualquier otro tipo de objeto BIM más adelante.
+La herramienta BIM Box le permite crear un estándar [Part Box](Part_Box.md), pero en lugar de crear el objeto y permitirle especificar sus dimensiones y posición después, como lo hace la herramienta original [Part Workbench](Part_Workbench.md), esta herramienta le permite Coloque y defina gráficamente las dimensiones de la caja al crear el objeto. Las cajas son formas básicas [cuboid](https   *//en.wikipedia.org/wiki/Cuboid), que se pueden usar como base de cualquier otro tipo de objeto BIM más adelante.
 
 
 </div>

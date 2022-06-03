@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Draft Move
-   Name/ru:Draft Move
-   MenuLocation:Черчение -> Перемещение
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**M** **V**
+- GuiCommand   */ru
+   Name   *Draft Move
+   Name/ru   *Draft Move
+   MenuLocation   *Черчение -> Перемещение
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut   ***M** **V**
 ---
 
 # Draft Move/ru
@@ -14,25 +14,25 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft Move** command moves or copies selected objects from one point to another. In subelement mode the command moves selected points and edges, or copies selected edges, of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
+The <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> **Draft Move** command moves or copies selected objects from one point to another. In subelement mode the command moves selected points and edges, or copies selected edges, of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
 
 The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
 
-<img alt="" src=images/Draft_Move_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Move_example.jpg  style="width   *400px;"> 
 *Moving an object from one point to another*
 
 ## Usage
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Optionally select one or more objects, or one or more subelements of [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Move.svg" width=16px> [Draft Move](Draft_Move.md)** button.
     -   Select the **Modification → <img src="images/Draft_Move.svg" width=16px> Move** option from the menu.
-    -   Use the keyboard shortcut: **M** then **V**.
-3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
+    -   Use the keyboard shortcut   * **M** then **V**.
+3.  If you have not yet selected an object   * select an object in the [3D view](3D_view.md).
 4.  The **Move** task panel opens. See [Options](#Options.md) for more information.
-5.  If subelements have been selected: check the **Modify subelements** checkbox to switch on subelement mode.
+5.  If subelements have been selected   * check the **Modify subelements** checkbox to switch on subelement mode.
 6.  Pick the first point, the base point, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 7.  Pick the second point, the target point, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 
@@ -60,16 +60,16 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
--   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+-   To change the number of decimals used for the input of coordinates, lengths and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial focus of the task panel to the **Length** input box   * **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   To store and reuse the same copy mode setting across commands   * **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
+-   To reselect the base objects after copying objects   * **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To move objects use the `move` method of the Draft module.
 
@@ -86,7 +86,7 @@ moved_list = move(objectslist, vector, copy=False)
 
 -    `moved_list`is returned with the original moved objects, or with the new copies. It is either a single object or a list of objects, depending on `objectslist`.
 
-Example:
+Example   *
 
 
 ```python

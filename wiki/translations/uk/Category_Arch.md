@@ -1,6 +1,8 @@
 # Category:Arch/uk
 Pages relating to Architectural and Building Information Management
 
+[Category   *User Documentation/uk](Category   *User_Documentation/uk.md) [Category   *BIM/uk](Category   *BIM/uk.md)
+
 ### Contents
 
 |     |     |     |

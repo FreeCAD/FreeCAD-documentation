@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:FEM ConstraintFixed
-   Name/de:FEM BeschränkungFestgelegt
-   MenuLocation:Modell → Mechanische Beschränkungen → Beschränkung festgelegt
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand   */de
+   Name   *FEM ConstraintFixed
+   Name/de   *FEM BeschränkungFestgelegt
+   MenuLocation   *Modell → Mechanische Beschränkungen → Beschränkung festgelegt
+   Workbenches   *[FEM](FEM_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ConstraintFixed/de
@@ -22,7 +22,7 @@ Erstellt eine FEM Beschränkung für einen festen Geometrieeintrag, indem alle 6
 
 <div class="mw-translate-fuzzy">
 
-1.  Klicke auf <img alt="" src=images/FEM_ConstraintFixed.png  style="width:32px;"> oder wähle **Model** → **Mechanische Beschränkungen** → **<img src="images/FEM_ConstraintFixed.png" width=32px> Constraint fixed** aus dem Hauptmenü.
+1.  Klicke auf <img alt="" src=images/FEM_ConstraintFixed.png  style="width   *32px;"> oder wähle **Model** → **Mechanische Beschränkungen** → **<img src="images/FEM_ConstraintFixed.png" width=32px> Constraint fixed** aus dem Hauptmenü.
 2.  Wähle in der 3D Ansicht das Objekt aus, auf das die Beschränkung angewendet werden soll.
     1.  Knoten (Ecken)
     2.  Kanten

@@ -1,6 +1,6 @@
 # Drawing Open SVG/sv
 ---
-- GuiCommand:/sv   Name:Drawing Open SVG   Name/sv:Drawing Open SVG   Workbenches:[MenuLocation:Drawing → Open SVG...   Shortcut:none   SeeAlso:[[Drawing Save/sv|Drawing Save](Drawing_Workbench/sv___Drawing]],_Complete.md)---
+- GuiCommand   */sv   Name   *Drawing Open SVG   Name/sv   *Drawing Open SVG   Workbenches   *[MenuLocation   *Drawing → Open SVG...   Shortcut   *none   SeeAlso   *[[Drawing Save/sv|Drawing Save](Drawing_Workbench/sv___Drawing]],_Complete.md)---
 
 
 </div>

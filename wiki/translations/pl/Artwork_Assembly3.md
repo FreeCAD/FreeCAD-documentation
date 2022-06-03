@@ -1,5 +1,5 @@
 # Artwork Assembly3/pl
-Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthundera:
+Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthundera   *
 
 ## Mod/asm3
 
@@ -26,6 +26,10 @@ Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthunder
 ![](images/Assembly_ConstraintPointsSymmetric.svg ) ![](images/Assembly_ConstraintPointsVertical.svg ) ![](images/Assembly_ConstraintSketchPlane.svg ) ![](images/Assembly_ConstraintSymmetric.svg ) ![](images/Assembly_ConstraintSymmetricLine.svg ) ![](images/Assembly_ConstraintUnidirectional1.svg ) ![](images/Assembly_ConstraintUnidirectional2.svg ) ![](images/Assembly_MeasureAngle.svg ) ![](images/Assembly_MeasurePointDistance.svg ) ![](images/Assembly_MeasurePointLineDistance.svg )
 
 ![](images/Assembly_MeasurePointPlaneDistance.svg )
+
+
+
+[Category   *Artwork](Category_Artwork.md) [Category   *Assembly](Category_Assembly.md)
 
 
 

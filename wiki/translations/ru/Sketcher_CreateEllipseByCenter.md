@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Создать эллипс от центра
-   Name:Sketcher_CreateEllipseByCenter
-   MenuLocation:Sketch → Геометрия эскиза → Создать эллипс от центра
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.15
-   SeeAlso:[Создать эллипс по трём точкам](Sketcher_CreateEllipseBy3Points/ru.md), [Создать окружность](Sketcher_CreateCircle/ru.md), [Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Создать эллипс от центра
+   Name   *Sketcher_CreateEllipseByCenter
+   MenuLocation   *Sketch → Геометрия эскиза → Создать эллипс от центра
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Version   *0.15
+   SeeAlso   *[Создать эллипс по трём точкам](Sketcher_CreateEllipseBy3Points/ru.md), [Создать окружность](Sketcher_CreateCircle/ru.md), [Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md)
 ---
 
 # Sketcher CreateEllipseByCenter/ru
@@ -15,9 +15,9 @@
 
 ## Описание
 
-Этот инструмент рисует эллипс, по трем указанным точкам: центральной, большому радиусу, малому радиусу. При запуске инструмента указатель мыши меняется на белый крест с красным значком эллипса. Кроме того, координаты отображаются в режиме реального времени.
+Этот инструмент рисует эллипс, по трем указанным точкам   * центральной, большому радиусу, малому радиусу. При запуске инструмента указатель мыши меняется на белый крест с красным значком эллипса. Кроме того, координаты отображаются в режиме реального времени.
 
-<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
+<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width   *500px;">
 
 
 

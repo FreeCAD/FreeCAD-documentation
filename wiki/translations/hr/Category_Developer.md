@@ -1,6 +1,8 @@
 # Category:Developer/hr
 This category contains articles that are relevant for developers.
 
+[Category   *Categories/hr](Category   *Categories/hr.md)
+
 ### Contents
 
 |     |     |     |

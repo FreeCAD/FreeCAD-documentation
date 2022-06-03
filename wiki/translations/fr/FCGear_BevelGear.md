@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FCGear BevelGear
-   Name/fr:FCGear BevelGear
-   MenuLocation:FCGear → Create a Bevel gear
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Version:v0.16
+- GuiCommand   */fr
+   Name   *FCGear BevelGear
+   Name/fr   *FCGear BevelGear
+   MenuLocation   *FCGear → Create a Bevel gear
+   Workbenches   *[FCGear](FCGear_Workbench/fr.md)
+   Version   *v0.16
 ---
 
 # FCGear BevelGear/fr
@@ -16,13 +16,13 @@ Les engrenages coniques ne sont pas utilisés aussi souvent que les autres types
 Les engrenages coniques en spirale ont des dents incurvées pour fournir un engagement plus doux et un plus grand contact dent sur dent par rapport à un engrenage conique droit. Cela réduit les vibrations et le bruit. Ils peuvent être utilisés à des vitesses élevées et sont généralement utilisés dans les transmissions de motos et de vélos.
 
 ![](images/Bevel-Gear_example.png ) 
-*De gauche à droite : engrenage droit, engrenage en spirale*
+*De gauche à droite    * engrenage droit, engrenage en spirale*
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
-2.  Lancez la commande d\'une de ces manières :
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_BevelGear.svg  style="width:22px;"> [Create a Bevel gear](FCGear_BevelGear/fr.md) dans la barre d\'outils.
+1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
+2.  Lancez la commande d\'une de ces manières    *
+    -   Appuyez sur le bouton <img alt="" src=images/FCGear_BevelGear.svg  style="width   *22px;"> [Create a Bevel gear](FCGear_BevelGear/fr.md) dans la barre d\'outils.
     -   Utilisez le **Menu → Bevel gear**.
 3.  Modifiez le paramètre de démultiplication aux conditions requises (voir **Propriétés → Données** ci-dessous).
 
@@ -33,38 +33,38 @@ Les engrenages coniques en spirale ont des dents incurvées pour fournir un enga
 
 {{Properties_Title|Base}}
 
--    **Placement**: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **Placement**   * [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
 
--    **Label**: nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
-
-
-{{Properties_Title|gear_parameter}}
-
--    **beta**: avec l\'angle β, un engrenage conique hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
+-    **Label**   * nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
 
 
 {{Properties_Title|gear_parameter}}
 
--    **backslash**: valeur par défaut est 0.00. Le recul, également appelé battement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
+-    **beta**   * avec l\'angle β, un engrenage conique hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
 
--    **clearance**: valeur par défaut est 0.10 (voir aussi les informations dans **Remarque**).
 
--    **height**: valeur de la largeur de l\'engrenage conique.
+{{Properties_Title|gear_parameter}}
 
--    **module**: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarque**).
+-    **backslash**   * valeur par défaut est 0.00. Le recul, également appelé battement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
 
--    **numpoints**: valeur par défaut est 6, modification du profil de développante. La modification de la valeur peut entraîner des résultats inattendus.
+-    **clearance**   * valeur par défaut est 0.10 (voir aussi les informations dans **Remarque**).
 
--    **reset_origin**: si la valeur est **True**, le centre de l\'axe est au centre du bas de l\'engrenage (voir aussi les informations dans **Remarques**).
+-    **height**   * valeur de la largeur de l\'engrenage conique.
 
--    **teeth**: nombre de dents.
+-    **module**   * module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarque**).
+
+-    **numpoints**   * valeur par défaut est 6, modification du profil de développante. La modification de la valeur peut entraîner des résultats inattendus.
+
+-    **reset_origin**   * si la valeur est **True**, le centre de l\'axe est au centre du bas de l\'engrenage (voir aussi les informations dans **Remarques**).
+
+-    **teeth**   * nombre de dents.
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pitch_angle**: angle de dépouille.
+-    **pitch_angle**   * angle de dépouille.
 
--    **pressure_parameter**: valeur par défaut est 20 (voir aussi les informations dans **Remarque**).
+-    **pressure_parameter**   * valeur par défaut est 20 (voir aussi les informations dans **Remarque**).
 
 ### Vue
 
@@ -72,13 +72,13 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 ## Remarques
 
--    **clearance**: sur une paire d\'engrenages, le jeu est la distance entre l\'extrémité de la dent du premier engrenage et la racine de la dent du deuxième engrenage.
+-    **clearance**   * sur une paire d\'engrenages, le jeu est la distance entre l\'extrémité de la dent du premier engrenage et la racine de la dent du deuxième engrenage.
 
--    **module**: en utilisant les directives ISO (Organisation internationale de normalisation), la taille du module est désignée comme l\'unité représentant la taille des dents des engrenages. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Si vous multipliez Module par Pi, vous pouvez obtenir Pitch (p) (le pas). Le pas est la distance entre les points correspondants sur les dents adjacentes.
+-    **module**   * en utilisant les directives ISO (Organisation internationale de normalisation), la taille du module est désignée comme l\'unité représentant la taille des dents des engrenages. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Si vous multipliez Module par Pi, vous pouvez obtenir Pitch (p) (le pas). Le pas est la distance entre les points correspondants sur les dents adjacentes.
 
--    **reset_origin**: cela peut être avantageux pour le montage si le paramètre est défini sur **false**. L\'origine du corps se situe alors à la pointe du cône primitif.
+-    **reset_origin**   * cela peut être avantageux pour le montage si le paramètre est défini sur **false**. L\'origine du corps se situe alors à la pointe du cône primitif.
 
--    **pressure_parameter**: modifiez le paramètre uniquement si une connaissance suffisante de la géométrie de l\'engrenage est disponible.
+-    **pressure_parameter**   * modifiez le paramètre uniquement si une connaissance suffisante de la géométrie de l\'engrenage est disponible.
 
 ## Formules utiles 
 
@@ -86,17 +86,22 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **addendum diameter**= **pitch diameter** + 2 \* **module** \* **cos angle du cône de référence**
 
--    **tip angle 1**= **(dents 1 + 2)** \* **(cos reference angle de cône 1)** : **(dents 2 - 2)** \* **(sin angle de cône de référence 1)**
+-    **tip angle 1**= **(dents 1 + 2)** \* **(cos reference angle de cône 1)**    * **(dents 2 - 2)** \* **(sin angle de cône de référence 1)**
 
--    **tip angle 2**= **(teeth 2 + 2)** \* **(cos reference angle de cône 2)** : **(teeth 1 - 2)** \* **(sin angle de cône de référence 2)**
+-    **tip angle 2**= **(teeth 2 + 2)** \* **(cos reference angle de cône 2)**    * **(teeth 1 - 2)** \* **(sin angle de cône de référence 2)**
 
--    **angle du cône de référence 1**= **(teeth 1)**: **(teeth 2)**
+-    **angle du cône de référence 1**= **(teeth 1)**   * **(teeth 2)**
 
--    **angle du cône de référence 2**= **(teeth 2)**: **(teeth 1)**
+-    **angle du cône de référence 2**= **(teeth 2)**   * **(teeth 1)**
 
 -    **angle total de l'axe**= **angle du cône de référence 1** + **angle du cône de référence 2**
 
 Angle du cône de référence substantiel \[TECH.\]
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

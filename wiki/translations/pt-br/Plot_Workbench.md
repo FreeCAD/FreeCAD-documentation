@@ -1,17 +1,17 @@
-# <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/pt-br
+# <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width   *64px;"> Plot Workbench/pt-br
 
 
 {{TOCright}}
 
 ## Introdução
 
-FreeCAD is able to perform plots using the [matplotlib](https://matplotlib.org/) [Python](Python.md) library. A module is provided to this end, as an external add-on in version 0.19 and as a core component from version 0.20 on. Older versions of FreeCAD are not covered in this documentation.
+FreeCAD is able to perform plots using the [matplotlib](https   *//matplotlib.org/) [Python](Python.md) library. A module is provided to this end, as an external add-on in version 0.19 and as a core component from version 0.20 on. Older versions of FreeCAD are not covered in this documentation.
 
-The produced plots offer the standard [matplotlib](https://matplotlib.org/) tools to edit and save. On top of that, a <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) is provided as an external add-on offering more complete tools to edit the plot and save it. The add-on can be installed with the [Add-on manager](Std_AddonMgr.md).
+The produced plots offer the standard [matplotlib](https   *//matplotlib.org/) tools to edit and save. On top of that, a <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Plot Workbench](Plot_Workbench.md) is provided as an external add-on offering more complete tools to edit the plot and save it. The add-on can be installed with the [Add-on manager](Std_AddonMgr.md).
 
 ## Module
 
-The module can be invoked in a Python console or in a [macro](Macros.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot by typing:
+The module can be invoked in a Python console or in a [macro](Macros.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot by typing   *
 
 
 ```python
@@ -36,15 +36,15 @@ You can find more complex examples in the [Plot Basic tutorial](Plot_Basic_tutor
 
 ## Ferramentas
 
-If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), you will have the following tools available to manage the plots created with the module:
+If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), you will have the following tools available to manage the plots created with the module   *
 
--   <img alt="" src=images/Plot_Save.png  style="width:32px;"> [Salvar gráfico](Plot_Save/pt-br.md): Salva o gráfico em vários formatos. Você pode selecionar o tamanho de saída, assim também como a resolução.
--   <img alt="" src=images/Plot_Axes.png  style="width:32px;"> [Eixos](Plot_Axes/pt-br.md): Adiciona, remove ou edita eixos do gráfico.
--   <img alt="" src=images/Plot_Series.png  style="width:32px;"> [Séries](Plot_Series/pt-br.md): Edita o título e o estilo da série.
--   <img alt="" src=images/Plot_Grid.png  style="width:32px;"> [Grade](Plot_Grid/pt-br.md): Mostra/Oculta a grade.
--   <img alt="" src=images/Plot_Legend.png  style="width:32px;"> [Legenda](Plot_Legend/pt-br.md): Mostra/Oculta a legenda.
--   <img alt="" src=images/Plot_Labels.png  style="width:32px;"> [Rótulos](Plot_Labels/pt-br.md): Edita rótulos.
--   <img alt="" src=images/Plot_Positions.png  style="width:32px;"> [Posições](Plot_Positions/pt-br.md): Coloca as posições dos elementos.
+-   <img alt="" src=images/Plot_Save.png  style="width   *32px;"> [Salvar gráfico](Plot_Save/pt-br.md)   * Salva o gráfico em vários formatos. Você pode selecionar o tamanho de saída, assim também como a resolução.
+-   <img alt="" src=images/Plot_Axes.png  style="width   *32px;"> [Eixos](Plot_Axes/pt-br.md)   * Adiciona, remove ou edita eixos do gráfico.
+-   <img alt="" src=images/Plot_Series.png  style="width   *32px;"> [Séries](Plot_Series/pt-br.md)   * Edita o título e o estilo da série.
+-   <img alt="" src=images/Plot_Grid.png  style="width   *32px;"> [Grade](Plot_Grid/pt-br.md)   * Mostra/Oculta a grade.
+-   <img alt="" src=images/Plot_Legend.png  style="width   *32px;"> [Legenda](Plot_Legend/pt-br.md)   * Mostra/Oculta a legenda.
+-   <img alt="" src=images/Plot_Labels.png  style="width   *32px;"> [Rótulos](Plot_Labels/pt-br.md)   * Edita rótulos.
+-   <img alt="" src=images/Plot_Positions.png  style="width   *32px;"> [Posições](Plot_Positions/pt-br.md)   * Coloca as posições dos elementos.
 
 ## Scripting
 
@@ -68,7 +68,9 @@ Como o Plot Workbench é uma camada sobre `matplotlib`, você está livre para u
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

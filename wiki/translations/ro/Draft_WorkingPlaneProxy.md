@@ -1,6 +1,6 @@
 # Draft WorkingPlaneProxy/ro
 ---
-- GuiCommand:   Name:Draft SetWorkingPlaneProxy   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Create WP Proxy   SeeAlso:[[Draft SelectPlane]]---
+- GuiCommand   *   Name   *Draft SetWorkingPlaneProxy   Workbenches   *[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation   *Draft → Utilities → Create WP Proxy   SeeAlso   *[[Draft SelectPlane]]---
 
 
 </div>
@@ -17,7 +17,7 @@ Această comandă va plasa un obiect Proxy în document, plasat și aliniat la a
 
 </div>
 
-<img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_WPProxy_example.png  style="width   *400px;"> 
 *Three working plane proxies showing different orientations and offsets*
 
 ## Usage
@@ -36,21 +36,21 @@ Această comandă va plasa un obiect Proxy în document, plasat și aliniat la a
 
 ## Context menu 
 
-For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
+For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu   *
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**   * updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**   * updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
 ## Notes
 
--   Working plane proxies can be [moved](Draft_Move.md) and [rotated](Draft_Rotate.md) like any other object. Use <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft Snap Center](Draft_Snap_Center.md) to snap to their **Placement** point.
+-   Working plane proxies can be [moved](Draft_Move.md) and [rotated](Draft_Rotate.md) like any other object. Use <img alt="" src=images/Draft_Snap_Center.svg  style="width   *16px;"> [Draft Snap Center](Draft_Snap_Center.md) to snap to their **Placement** point.
 
 ## Proprietăți
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
+A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -60,15 +60,15 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData | Placement}}: stochează poziția acestui proxy și planul de lucru corespunzător
+-    {{PropertyData | Placement}}   * stochează poziția acestui proxy și planul de lucru corespunzător
 
--    {{PropertyView | Dimensiune afișare}}: mărimea obiectului Proxy din vizualizarea 3D
+-    {{PropertyView | Dimensiune afișare}}   * mărimea obiectului Proxy din vizualizarea 3D
 
--    {{PropertyView | Arrow Size}}: mărimea săgeților de pe cele 3 axe
+-    {{PropertyView | Arrow Size}}   * mărimea săgeților de pe cele 3 axe
 
--    {{PropertyView | Restore View}}: Dacă este adevărat, poziția camerei va fi restabilită la activarea (prin dublu clic sau [Draft SelectPlane](Draft_SelectPlane.md)) acest obiect
+-    {{PropertyView | Restore View}}   * Dacă este adevărat, poziția camerei va fi restabilită la activarea (prin dublu clic sau [Draft SelectPlane](Draft_SelectPlane.md)) acest obiect
 
--    {{PropertyView | Restore State}}: Dacă este adevărat, starea de vizibilitate a tuturor obiectelor din documentul curent va fi restabilită la activarea (prin dublu-clic sau [Draft SelectPlane](Draft_SelectPlane.md))
+-    {{PropertyView | Restore State}}   * Dacă este adevărat, starea de vizibilitate a tuturor obiectelor din documentul curent va fi restabilită la activarea (prin dublu-clic sau [Draft SelectPlane](Draft_SelectPlane.md))
 
 
 </div>
@@ -78,32 +78,32 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 
 {{TitleProperty|Base}}
 
--    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
+-    **Line Color|Color**   * specifies the color of all elements of the working plane proxy.
 
--    **Line Width|Float**: specifies the line width of the axes and arrow symbols.
+-    **Line Width|Float**   * specifies the line width of the axes and arrow symbols.
 
--    **Restore State|Bool**: specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+-    **Restore State|Bool**   * specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
 
--    **Restore View|Bool**: specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+-    **Restore View|Bool**   * specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
 
--    **Transparency|Percent**: specifies the transparency of the face of the working plane proxy.
+-    **Transparency|Percent**   * specifies the transparency of the face of the working plane proxy.
 
--    **View Data|FloatList**: specifies the camera position and settings.
+-    **View Data|FloatList**   * specifies the camera position and settings.
 
--    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
+-    **Visibility Map|Map|Hidden**   * specifies the visibility state of objects.
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**: specifies the size of the arrow symbols displayed at the tip of the three axes.
+-    **Arrow Size|Length**   * specifies the size of the arrow symbols displayed at the tip of the three axes.
 
--    **Display Size|Length**: specifies the length and width of the working plane proxy.
+-    **Display Size|Length**   * specifies the length and width of the working plane proxy.
 
 ## Script-Programare 
 
-Obiectele proxy de lucru de lucru pot fi ușor create în script și [macros](macros.md):
+Obiectele proxy de lucru de lucru pot fi ușor create în script și [macros](macros.md)   *
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a Draft WorkingPlaneProxy use the `make_workingplaneproxy` method of the Draft module.
 

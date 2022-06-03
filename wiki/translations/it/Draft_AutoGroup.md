@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft AutoGroup
-   Name/it:AutoGruppo
-   MenuLocation:Draft → Utilità → AutoGruppo
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Draft Layer](Draft_Layer/it.md), [Gruppo](Std_Group/it.md)
+- GuiCommand   */it
+   Name   *Draft AutoGroup
+   Name/it   *AutoGruppo
+   MenuLocation   *Draft → Utilità → AutoGruppo
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version   *0.17
+   SeeAlso   *[Draft Layer](Draft_Layer/it.md), [Gruppo](Std_Group/it.md)
 ---
 
 # Draft AutoGroup/it
@@ -55,7 +55,7 @@ This command was originally intended for groups, hence its name, but was redesig
 
 <div class="mw-translate-fuzzy">
 
-Note:
+Note   *
 
 -   Il pulsante **<img src="images/Draft_AutoGroup.svg" width=16px> [AutoGruppo](Draft_AutoGroup/it.md)** è presente nella [barra di Draft](Draft_Tray/it.md), che appare solo negli ambienti [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md).
 -   Prima di utilizzare questo strumento deve esistere almeno un **<img src="images/Group.svg" width=16px> [Gruppo](Std_Group/it.md)**, o un **<img src="images/Group.svg" width=16px> [Gruppo costruzione](Draft_ToggleConstructionMode/it.md)**, o un **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer/it.md)**.
@@ -68,9 +68,9 @@ Note:
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   This command can optionally also handle groups: **Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button**.
+-   This command can optionally also handle groups   * **Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button**.
 
 ## Script
 
@@ -78,7 +78,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -88,7 +88,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 <div class="mw-translate-fuzzy">
 
-L\'aggiunta di oggetti al gruppo automatico attivo può essere eseguita in [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+L\'aggiunta di oggetti al gruppo automatico attivo può essere eseguita in [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 </div>

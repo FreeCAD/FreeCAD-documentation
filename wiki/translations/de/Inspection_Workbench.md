@@ -1,4 +1,4 @@
-# <img alt="Inspektion Arbeitsbereichssymbol" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/de
+# <img alt="Inspektion Arbeitsbereichssymbol" src=images/Workbench_Inspection.svg  style="width   *64px;"> Inspection Workbench/de
 
 ## Introduction
 
@@ -7,12 +7,12 @@
 
 ## Einführung
 
-Der <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Arbeitsbereich Inspektion](Inspection_Workbench/de.md) ist ausgelegt um dir Werkzeuge zur Untersuchung von Formen zur Verfügung zu stellen. Er befindet sich noch in der Entwicklung.
+Der <img alt="" src=images/Workbench_Inspection.svg  style="width   *24px;"> [Arbeitsbereich Inspektion](Inspection_Workbench/de.md) ist ausgelegt um dir Werkzeuge zur Untersuchung von Formen zur Verfügung zu stellen. Er befindet sich noch in der Entwicklung.
 
 
 </div>
 
-<img alt="Bildschirmfoto" src=images/InspectionEx.png  style="width:500px;">
+<img alt="Bildschirmfoto" src=images/InspectionEx.png  style="width   *500px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -30,7 +30,18 @@ Der <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Arbei
 -   Then use the menu **Inspection → Visual inspection**.
 -   You will get a colored image showing the deviation between the two shapes.
 
-Verwende alternativ das Makro <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [Unterschied hervorheben](Macro_HighlightDifference/de.md) um zwei Formen zu vergleichen.
+Verwende alternativ das Makro <img alt="" src=images/HighlightDifference.png  style="width   *24px;"> [Unterschied hervorheben](Macro_HighlightDifference/de.md) um zwei Formen zu vergleichen.
+
+
+
+
+
+
+
+
+
+
+[Category   *Inspection](Category_Inspection.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

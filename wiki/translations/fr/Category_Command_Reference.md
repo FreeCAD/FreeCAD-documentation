@@ -1,7 +1,9 @@
 # Category:Command Reference/fr
-## Catégorie : Liste des commandes 
+## Catégorie    * Liste des commandes 
 
 Cette catégorie recense les pages d\'aide de chaque commande de FreeCAD [Command/fr](Command/fr.md).
+
+[Category   *Categories/fr](Category   *Categories/fr.md)
 
 ### Contents
 

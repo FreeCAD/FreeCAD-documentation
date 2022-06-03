@@ -5,7 +5,7 @@ Diese Seite listet die verschiedenen Dateiformate auf, die FreeCAD importieren u
 
 ## Verwandt
 
-Siehe die folgenden Seiten fürzusätzliche Information:
+Siehe die folgenden Seiten fürzusätzliche Information   *
 
 -   [Import Export Einstellungen](Import_Export_Preferences/de.md)
 -   [FreeCAD Anleitung Import Export](FreeCAD_Howto_Import_Export.md)
@@ -38,7 +38,7 @@ Siehe die folgenden Seiten fürzusätzliche Information:
   \*.csg                                      OpenSCAD Constructive Solid Geometry format                                                                                                   [Std Import](Std_Import/de.md)                                                                    [Std Export](Std_Export/de.md)
   \*.csv                                      Comma-separated values spreadsheet                                                                                                            [Std Import](Std_Import/de.md), [Kalkulationstabelle Import](Spreadsheet_Import/de.md)    [Kalkulationstabelle Export](Spreadsheet_Export/de.md)
   \*.cur                                      Image format                                                                                                                                  [Image ErstelleBildEbene](Image_CreateImagePlane/de.md)                                           [Std AnsichtBildschirmFoto](Std_ViewScreenShot/de.md)
-  \*.dae                                      Collada format. Für Linux-Benutzer: Externes pyCollada-Modul erforderlich.                                                                    [Std Import](Std_Import/de.md)                                                                    [Std Export](Std_Export/de.md)
+  \*.dae                                      Collada format. Für Linux-Benutzer   * Externes pyCollada-Modul erforderlich.                                                                    [Std Import](Std_Import/de.md)                                                                    [Std Export](Std_Export/de.md)
   \*.dat                                      Common airfoil data                                                                                                                           [Std Import](Std_Import/de.md)                                                                    Nein
   \*.dat                                      FEM mesh                                                                                                                                      [Std Import](Std_Import/de.md)                                                                    [Std Export](Std_Export/de.md)
   \*.dwg                                      AutoCAD native format. Nur 2D-Geometrie wird unterstützt. Externe Software erforderlich.                                                      [Std Import](Std_Import/de.md)                                                                    [Std Export](Std_Export/de.md)
@@ -49,12 +49,12 @@ Siehe die folgenden Seiten fürzusätzliche Information:
   \*.gcad                                     Open CAD format (obsolet, nur 2D-Format)                                                                                                      [Std Import](Std_Import/de.md)                                                                    Nein
   \*.gcode                                    G-code                                                                                                                                        [Std Import](Std_Import/de.md)                                                                    [Pfad Post](Path_Post/de.md)
   \*.gif                                      Image format                                                                                                                                  [Image ErstelleBildEbene](Image_CreateImagePlane/de.md)                                           Nein
-  [\*.glb](glTF.md)                   [GL Transmission Format](https://en.wikipedia.org/wiki/GlTF)                                                                                  Nein                                                                                                      [Std Export](Std_Export/de.md)
+  [\*.glb](glTF.md)                   [GL Transmission Format](https   *//en.wikipedia.org/wiki/GlTF)                                                                                  Nein                                                                                                      [Std Export](Std_Export/de.md)
   [\*.gltf](glTF.md)                  GL Transmission Format                                                                                                                        Nein                                                                                                      [Std Export](Std_Export/de.md)
   \*.html                                     Web 3D format                                                                                                                                 Nein                                                                                                      [Std Export](Std_Export/de.md)
   \*.icns                                     Image format                                                                                                                                  [Image ErstelleBildEbene](Image_CreateImagePlane/de.md)                                           [Std AnsichtBildschirmFoto](Std_ViewScreenShot/de.md)
   \*.ico                                      Image format                                                                                                                                  [Image ErstelleBildEbene](Image_CreateImagePlane/de.md)                                           [Std AnsichtBildschirmFoto](Std_ViewScreenShot/de.md)
-  \*.ifc                                      Industry Foundation Classes exchange format for BIM models. For Linux users: External IfcOpenShell module required.                           [Std Import](Std_Import/de.md)                                                                    [Std Export](Std_Export/de.md)
+  \*.ifc                                      Industry Foundation Classes exchange format for BIM models. For Linux users   * External IfcOpenShell module required.                           [Std Import](Std_Import/de.md)                                                                    [Std Export](Std_Export/de.md)
   \*.iges                                     Older solid-based format                                                                                                                      [Std Import](Std_Import/de.md), [Part Import](Part_Import.md)                             [Std Export](Std_Export/de.md), [Part Export](Part_Export.md)
   \*.igs                                      Older solid-based format                                                                                                                      [Std Import](Std_Import/de.md), [Part Import](Part_Import.md)                             [Std Export](Std_Export/de.md), [Part Export](Part_Export.md)
   \*.inc                                      Povray format                                                                                                                                 [Std Import](Std_Import/de.md)                                                                    Nein
@@ -131,6 +131,14 @@ Siehe die folgenden Seiten fürzusätzliche Information:
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Robot InsertWaypointPre
-   Name/fr:Robot Point dans trajectoire Pré-sélection
-   Workbenches:[Robot](Robot_Workbench/fr.md)
-   MenuLocation:Robot → Insérer dans la trajectoire
-   Shortcut:W
-   SeeAlso:---
+- GuiCommand   */fr
+   Name   *Robot InsertWaypointPre
+   Name/fr   *Robot Point dans trajectoire Pré-sélection
+   Workbenches   *[Robot](Robot_Workbench/fr.md)
+   MenuLocation   *Robot → Insérer dans la trajectoire
+   Shortcut   *W
+   SeeAlso   *---
 ---
 
 # Robot InsertWaypointPre/fr
@@ -41,7 +41,7 @@ Appuyez sur ** W** pour insérer ce point de cheminement dans la trajectoire sé
 
 #### Remarques
 
-Les objets sélectionnables sont:
+Les objets sélectionnables sont   *
 
 -   Coins de solides
 -   Points insérés via le brouillon

@@ -1,17 +1,17 @@
 ---
-- GuiCommand:/ru
-   Name:Std ViewIvStereoInterleavedRows
-   Name/ru:Std ViewIvStereoInterleavedRows
-   MenuLocation:Вид → Стерео → View → Стерео с чередованием строк
-   Workbenches:All
-   SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff/ru.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff/ru.md)
+- GuiCommand   */ru
+   Name   *Std ViewIvStereoInterleavedRows
+   Name/ru   *Std ViewIvStereoInterleavedRows
+   MenuLocation   *Вид → Стерео → View → Стерео с чередованием строк
+   Workbenches   *All
+   SeeAlso   *[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff/ru.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff/ru.md)
 ---
 
 # Std ViewIvStereoInterleavedRows/ru
 
 ## Описание
 
-The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_view.md) to interleaved rows stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https://en.wikipedia.org/wiki/Polarized_3D_system) are requires.
+The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_view.md) to interleaved rows stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https   *//en.wikipedia.org/wiki/Polarized_3D_system) are requires.
 
 ## Применение
 
@@ -19,12 +19,12 @@ The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_
 
 ## Настройки
 
--   Расстояние между глаз может быть изменено в настройках: **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
+-   Расстояние между глаз может быть изменено в настройках   * **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
 
 ## Scripting
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

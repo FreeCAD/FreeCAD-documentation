@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:FEM MaterialSolid
-   Name/fr:FEM Matériau pour solide
-   MenuLocation:Modèle → Matériaux → Matériau pour le solide
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:**M** **S**
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM MaterialSolid
+   Name/fr   *FEM Matériau pour solide
+   MenuLocation   *Modèle → Matériaux → Matériau pour le solide
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   Shortcut   ***M** **S**
+   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM MaterialSolid/fr
@@ -19,10 +19,10 @@ Ajoute des propriétés de matériau à une pièce.
 
 ## Utilisation
 
-1.  Pour créer un nouvel objet MaterialSolid, effectuez l\'une des opérations suivantes:
+1.  Pour créer un nouvel objet MaterialSolid, effectuez l\'une des opérations suivantes   *
     -   Appuyez sur le bouton **<img src="images/FEM_MaterialSolid.svg" width=16px> [Matériau pour le solide](FEM_MaterialSolid/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Matériaux → <img src="images/FEM_MaterialSolid.svg" width=16px> Matériau pour le solide** dans le menu.
-2.  Pour éditer un objet MaterialSolid existant:
+2.  Pour éditer un objet MaterialSolid existant   *
     -   Double-cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
 3.  Le panneau des tâches de matériau FEM s\'ouvre.
 4.  Sélectionnez un matériau. Pour l\'analyse mécanique d\'ingénierie, **CalculiX-Steel** est une option typique.
@@ -33,7 +33,7 @@ Ajoute des propriétés de matériau à une pièce.
 
 ## Remarques
 
-1.  Les propriétés mécaniques du matériau utilisent \*MATERIAL card in CalculiX. Les détails des propriétés mécaniques sont expliqués sur <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
+1.  Les propriétés mécaniques du matériau utilisent \*MATERIAL card in CalculiX. Les détails des propriétés mécaniques sont expliqués sur <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
 
 
 

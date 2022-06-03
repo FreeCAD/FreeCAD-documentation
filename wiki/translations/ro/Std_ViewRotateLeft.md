@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std ViewRotateLeft
-   MenuLocation:View → Standard views → Rotate Left
-   Workbenches:All
-   Shortcut:**Shift**+**Left**
-   SeeAlso:[Std ViewRotateRight](Std_ViewRotateRight.md)
+- GuiCommand   *
+   Name   *Std ViewRotateLeft
+   MenuLocation   *View → Standard views → Rotate Left
+   Workbenches   *All
+   Shortcut   ***Shift**+**Left**
+   SeeAlso   *[Std ViewRotateRight](Std_ViewRotateRight.md)
 ---
 
 # Std ViewRotateLeft/ro
@@ -38,7 +38,7 @@ De completat
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

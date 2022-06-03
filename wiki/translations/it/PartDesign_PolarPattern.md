@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:PartDesign_PolarPattern
-   Name/it:Serie polare
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign → Serie polare
-   SeeAlso:[Serie lineare](PartDesign_LinearPattern/it.md)
+- GuiCommand   */it
+   Name   *PartDesign_PolarPattern
+   Name/it   *Serie polare
+   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation   *PartDesign → Serie polare
+   SeeAlso   *[Serie lineare](PartDesign_LinearPattern/it.md)
 ---
 
 # PartDesign PolarPattern/it
@@ -24,7 +24,7 @@ Lo strumento **Serie polare** prende una funzione selezionata e ne crea una seri
 
 ![](images/PartDesign_PolarPattern_example.png )
 
-*Sopra: una tasca a forma di slot (B) realizzata sopra un solido di base (A, indicato anche come supporto) viene utilizzata per un modello polare. Il risultato (C) è mostrato a destra.*
+*Sopra   * una tasca a forma di slot (B) realizzata sopra un solido di base (A, indicato anche come supporto) viene utilizzata per un modello polare. Il risultato (C) è mostrato a destra.*
 
 ## Utilizzo
 
@@ -35,9 +35,9 @@ Lo strumento **Serie polare** prende una funzione selezionata e ne crea una seri
 
 1.  Selezionare le funzioni da replicare. In alternativa, è possibile selezionare la funzione da un dialogo dopo il passaggio 2.
 
-    :   v0.16 e successive È possibile selezionare solo una singola funzione e deve essere l\'ultima nella parte inferiore dell\'albero delle funzioni.
-2.  Premere il pulsante **[<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **Serie polare**.
-3.  v0.17 e successive Premere **Aggiungi funzione** per aggiungere una funzione da modellare. La funzione deve essere visibile nella vista 3D:
+       *   v0.16 e successive È possibile selezionare solo una singola funzione e deve essere l\'ultima nella parte inferiore dell\'albero delle funzioni.
+2.  Premere il pulsante **[<img src=images/PartDesign_PolarPattern.svg style="width   *24px">** **Serie polare**.
+3.  v0.17 e successive Premere **Aggiungi funzione** per aggiungere una funzione da modellare. La funzione deve essere visibile nella vista 3D   *
     1.  Passare all\'albero del modello;
     2.  Selezionare nell\'albero la funzione da aggiungere e premere la **barra spaziatrice** per renderla visibile nella vista 3D;
     3.  Tornare al pannello Azioni;
@@ -66,7 +66,7 @@ You can change the order by dragging the feature in the list and you will see th
 
 ###### v0.18
 
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
@@ -88,7 +88,7 @@ or
 
 ###### v0.18 
 
-1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md)   *
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be removed and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
@@ -150,7 +150,7 @@ Consente di selezionare una linea di riferimento, DatumLine, o un bordo di un og
 
 ### Angolo e numero di duplicati 
 
-Specifica l\'angolo da coprire con la schiera e il numero totale di forme della schiera (inclusa la forma originale). Per esempio, la combinazione quattro copie in un angolo di 180 gradi produce una spaziatura di 60 gradi tra ogni copia. C\'è una eccezione: quando l\'angolo è di 360 gradi e la prima e l\'ultima copia sono identiche, vengono prodotte quattro copie distanziate 90 gradi.
+Specifica l\'angolo da coprire con la schiera e il numero totale di forme della schiera (inclusa la forma originale). Per esempio, la combinazione quattro copie in un angolo di 180 gradi produce una spaziatura di 60 gradi tra ogni copia. C\'è una eccezione   * quando l\'angolo è di 360 gradi e la prima e l\'ultima copia sono identiche, vengono prodotte quattro copie distanziate 90 gradi.
 
 
 </div>

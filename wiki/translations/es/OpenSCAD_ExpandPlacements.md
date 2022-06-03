@@ -1,6 +1,6 @@
 # OpenSCAD ExpandPlacements/es
 ---
-- GuiCommand:/es   Name:OpenSCAD ExpandPlacements   Name/es:OpenSCAD ExpandPlacements   MenuLocation:OpenSCAD → ExpandPlacements‏‎   |Workbenches:[[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand   */es   Name   *OpenSCAD ExpandPlacements   Name/es   *OpenSCAD ExpandPlacements   MenuLocation   *OpenSCAD → ExpandPlacements‏‎   |Workbenches   *[[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -28,7 +28,7 @@ Expand all placements downwards the Feature-Tree.
 
 This command \"resets\" the placement-values of an object, making the current position as 0/0/0.
 
-Works with:
+Works with   *
 
 -   boolean objects
 -   extruded objects (derived from the Part workbench)

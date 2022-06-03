@@ -11,14 +11,14 @@
 
 ## Opis
 
-Narzędzie **Część Odsunięcie 3D** tworzy równoległe kopie wybranego kształtu w pewnej odległości od kształtu bazowego, równocześnie tworząc nowy obiekt.
+Narzędzie <img alt="" src=images/Part_Offset.svg  style="width   *24px;"> **Część Odsunięcie 3D** tworzy równoległe kopie wybranego kształtu w pewnej odległości od kształtu bazowego, równocześnie tworząc nowy obiekt.
 
 <img alt="" src=images/PartOffset0.png  style="width   *400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width   *400" height="200px;">
 
 ## Użycie
 
 1.  Wybierz obiekt, z którym chcesz utworzyć odsunięcie.
-2.  Naciśnij przycisk **<img src="images/Part_Offset.svg" width=16px> '''Odsunięcie 3D'''
+2.  Naciśnij przycisk **<img src="images/Part_Offset.svg" width=16px> [Odsunięcie 3D](Part_Offset.md)
 **
 3.  Dostosuj odległość i parametry w zależności od wymaganych rezultatów.
 

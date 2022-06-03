@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Export to STL or OBJ
-   Level: Beginner
-   Time: 20 minutes
-   Author:r-frank
-   FCVersion:0.16.6703
-   Files:
+- TutorialInfo   */ro
+   Topic   * Export to STL or OBJ
+   Level   * Beginner
+   Time   * 20 minutes
+   Author   *r-frank
+   FCVersion   *0.16.6703
+   Files   *
 ---
 
 # Export to STL or OBJ/ro
@@ -43,21 +43,21 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 -   Creați un nou document
 -   Comutați pe Atelierul Part
--   Insert a cube by clicking on <img alt="" src=images/Part_Box.png  style="width:32px;">
--   Insert a cone by clicking on <img alt="" src=images/Part_Cone.png  style="width:32px;">
+-   Insert a cube by clicking on <img alt="" src=images/Part_Box.png  style="width   *32px;">
+-   Insert a cone by clicking on <img alt="" src=images/Part_Cone.png  style="width   *32px;">
 -   Select all two objects in the tree view
--   Apply a fusion by clicking on <img alt="" src=images/Part_Fuse.png  style="width:32px;">
+-   Apply a fusion by clicking on <img alt="" src=images/Part_Fuse.png  style="width   *32px;">
 -   Salvați fișierul
 
 
 </div>
 
-## Export Method 1: Using \"File → Export\" 
+## Export Method 1   * Using \"File → Export\" 
 
 
 <div class="mw-translate-fuzzy">
 
-## metoda 1 de Export: folosirea căii \"File \> Export\" 
+## metoda 1 de Export   * folosirea căii \"File \> Export\" 
 
 -   Comutați pe Atelierul Mesh workbench sau workbench complet
 -   Choose ** Edit** → ** Preferences** → ** Import-Export** → ** Mesh Formats** from the top menu
@@ -70,12 +70,12 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 </div>
 
-## Export Method 2: Using the Mesh Workbench in FreeCAD 
+## Export Method 2   * Using the Mesh Workbench in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Metoda 2 de Export: folosirea atelierului Plase în FreeCAD 
+## Metoda 2 de Export   * folosirea atelierului Plase în FreeCAD 
 
 -   Comutați pe Atelierul Mesh
 -   Selectați în vederea arborescentă solidul care va fi transformat în plasă
@@ -113,6 +113,11 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 
 </div>
+
+
+
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw LandmarkDimension
-   Name/fr:TechDraw Dimension de repère
-   MenuLocation:TechDraw → Dimensions → Insérer une dimension de repère
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Dimension horizontale](TechDraw_HorizontalDimension/fr.md), [TechDraw Dimension verticale](TechDraw_VerticalDimension/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw LandmarkDimension
+   Name/fr   *TechDraw Dimension de repère
+   MenuLocation   *TechDraw → Dimensions → Insérer une dimension de repère
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Dimension horizontale](TechDraw_HorizontalDimension/fr.md), [TechDraw Dimension verticale](TechDraw_VerticalDimension/fr.md)
 ---
 
 # TechDraw LandmarkDimension/fr
@@ -39,15 +39,15 @@ Dimension de repère n\'introduit aucune nouvelle propriété.
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Dimension de repère peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Dimension de repère peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *LandmarkDimension','Landmark')
 dim1.Type = "Distance"
 dim1.References2D=[(TDView, 'Vertex1')]
 dim1.References3D=[(Point3d1, 'Vertex1')]

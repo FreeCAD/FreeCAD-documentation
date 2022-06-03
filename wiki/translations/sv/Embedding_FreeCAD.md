@@ -22,7 +22,7 @@ FreeCAD har den fantastiska förmågan att kunna importeras som en python modul 
 
 <div class="mw-translate-fuzzy">
 
-En första, direkt, lätt och användbar sak du kan göra med detta är att importera FreeCAD dokument in till ditt program. I det följande exemplet, så kommer vi att importera Del geometrin i ett FreeCAD dokument till [blender](http://www.blender.org). Här är det kompletta skriptet. Jag hoppas att du kommer att bli imponerad av dess enkelhet:
+En första, direkt, lätt och användbar sak du kan göra med detta är att importera FreeCAD dokument in till ditt program. I det följande exemplet, så kommer vi att importera Del geometrin i ett FreeCAD dokument till [blender](http   *//www.blender.org). Här är det kompletta skriptet. Jag hoppas att du kommer att bli imponerad av dess enkelhet   *
 
 
 </div>
@@ -34,35 +34,35 @@ FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
 import Blender, sys
 sys.path.append(FREECADPATH)
  
-def import_fcstd(filename):
-   try:
+def import_fcstd(filename)   *
+   try   *
        import FreeCAD
-   except ValueError:
+   except ValueError   *
        Blender.Draw.PupMenu('Error%t|FreeCAD library not found. Please check the FREECADPATH variable in the import script is correct')
-   else:
+   else   *
        scene = Blender.Scene.GetCurrent()
        import Part
        doc = FreeCAD.open(filename)
        objects = doc.Objects
-       for ob in objects:
-           if ob.Type[:4] == 'Part':
+       for ob in objects   *
+           if ob.Type[   *4] == 'Part'   *
                shape = ob.Shape
-               if shape.Faces:
+               if shape.Faces   *
                    mesh = Blender.Mesh.New()
                    rawdata = shape.tessellate(1)
-                   for v in rawdata[0]:
+                   for v in rawdata[0]   *
                        mesh.verts.append((v.x,v.y,v.z))
-                   for f in rawdata[1]:
+                   for f in rawdata[1]   *
                        mesh.faces.append.append(f)
                    scene.objects.new(mesh,ob.Name)
        Blender.Redraw()
 
-def main():
+def main()   *
    Blender.Window.FileSelector(import_fcstd, 'IMPORT FCSTD', 
                         Blender.sys.makename(ext='.fcstd'))    
  
 # This lets you import the script without running it
-if __name__=='__main__':
+if __name__=='__main__'   *
    main()
 </nowiki>
 }}
@@ -95,22 +95,22 @@ När vi är säkra på att biblioteket är laddat(try/except sekvensen), så kan
        import Part
        doc = FreeCAD.open(filename)
        objects = doc.Objects
-       for ob in objects:
-           if ob.Type[:4] == 'Part':
+       for ob in objects   *
+           if ob.Type[   *4] == 'Part'   *
 }}
 
 Tesseleringen producerar en lista på hörn och en lista på ytor som definierats av hörnindexen. Detta är perfekt, eftersom det är på exakt samma sätt som blender definierar nät. Så vår uppgift är löjligt enkel, vi adderar bara båda listinnehållen till verts och faces av ett blender nät. När allting är gjort, så ritar vi bara om skärmen, och det är klart!
 
 
 {{Code|lang=python|code=
-           if ob.Type[:4] == 'Part':
+           if ob.Type[   *4] == 'Part'   *
                shape = ob.Shape
-               if shape.Faces:
+               if shape.Faces   *
                    mesh = Blender.Mesh.New()
                    rawdata = shape.tessellate(1)
-                   for v in rawdata[0]:
+                   for v in rawdata[0]   *
                        mesh.verts.append((v.x,v.y,v.z))
-                   for f in rawdata[1]:
+                   for f in rawdata[1]   *
                        mesh.faces.append.append(f)
                    scene.objects.new(mesh,ob.Name)
        Blender.Redraw()
@@ -119,13 +119,13 @@ Tesseleringen producerar en lista på hörn och en lista på ytor som definierat
 
 <div class="mw-translate-fuzzy">
 
-Detta skript är förstås mycket enkelt (det finns ett mer avancerat [här](http://yorik.orgfree.com/scripts/import_freecad.py)), du kanske vill bygga ut det, för att till exempel importera nätobjekt också, eller importera Del geometri som inte har några ytor, eller importera andra filformat som FreeCAD kan läsa. Du kanske också vill exportera geometri till ett FreeCAD dokument, vilket kan göras på samma sätt. Du kanske också vill bygga en dialog, så att användaren kan välja vad som ska importeras, etc\... Skönheten i allt detta ligger i det faktum att du låter FreeCAD göra grundarbetet medan du presenterar dess resultat i ett program som du väljer.
+Detta skript är förstås mycket enkelt (det finns ett mer avancerat [här](http   *//yorik.orgfree.com/scripts/import_freecad.py)), du kanske vill bygga ut det, för att till exempel importera nätobjekt också, eller importera Del geometri som inte har några ytor, eller importera andra filformat som FreeCAD kan läsa. Du kanske också vill exportera geometri till ett FreeCAD dokument, vilket kan göras på samma sätt. Du kanske också vill bygga en dialog, så att användaren kan välja vad som ska importeras, etc\... Skönheten i allt detta ligger i det faktum att du låter FreeCAD göra grundarbetet medan du presenterar dess resultat i ett program som du väljer.
 
 
 </div>
 
 
-**Note:**
+**Note   ***
 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
@@ -161,16 +161,21 @@ Notera att för konsolapplikationer fungerar inte denna lösning eftersom det in
 
 Although it is possible to import FreeCAD to an external Python interpreter, this is not a common usage scenario and requires some care. Generally, it is better to use the Python included with FreeCAD, run FreeCAD via command line, or as a subprocess. See [Start up and Configuration](Start_up_and_Configuration.md) for more on the last two options.
 
-Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows: 
+Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows   * 
 ```python
 >>> import sys
 >>> sys.version
-'2.7.13 (default, Dec 17 2016, 23:03:43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
+'2.7.13 (default, Dec 17 2016, 23   *03   *43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
 ```
 
 ## Related
 
 -   [Headless FreeCAD](Headless_FreeCAD.md)
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

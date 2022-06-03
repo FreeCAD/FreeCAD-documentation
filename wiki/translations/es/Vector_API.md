@@ -8,7 +8,7 @@ Los vectores se utilizan en todas partes en FreeCAD.
 
 Vectors are used everywhere in FreeCAD.
 
-Ejemplo: 
+Ejemplo   * 
 ```python
 v=FreeCAD.Vector()
 v=FreeCAD.Vector(1,0,0)
@@ -71,6 +71,11 @@ print v3.Length
 
 
 </div>
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

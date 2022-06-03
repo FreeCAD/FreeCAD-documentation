@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name/ro:Arch BimServer‏‎‏‎
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   MenuLocation:Arch → Utilities → BIM server
-   Shortcut:‏‎
-   SeeAlso:
+- GuiCommand   */ro
+   Name/ro   *Arch BimServer‏‎‏‎
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   MenuLocation   *Arch → Utilities → BIM server
+   Shortcut   *‏‎
+   SeeAlso   *
 ---
 
 # WebTools BimServer/ro
@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**Notă:** Începând cu FreeCAD v0.17, acest instrument a fost eliminat din Arch Workbench și face parte acum din [WebTools Workbench](WebTools_Workbench.md) pe care îl puteți instala prin meniul Tools → Addons Manager.
+**Notă   *** Începând cu FreeCAD v0.17, acest instrument a fost eliminat din Arch Workbench și face parte acum din [WebTools Workbench](WebTools_Workbench.md) pe care îl puteți instala prin meniul Tools → Addons Manager.
 
 
 </div>
@@ -25,18 +25,18 @@
 
 <div class="mw-translate-fuzzy">
 
-Această comandă vă permite să interacționați cu o instanță [BIMServer](http://www.bimserver.org), să deschideți fișierele stocate pe serverul Bim și să salvați noi revizii ale acestor fișiere. BIMServer este un sistem gratuit de server open source, creat pentru a lucra cu fișierele IFC. În starea sa actuală, permite gestionarea proiectelor cu mai multe fișiere IFC și gestionarea reviziilor. Sistemul de baze de date extrem de extensibil și arhitectura plugin-ului permit, de asemenea, proiectarea unor instrumente avansate de interogare / validare și a fluxurilor de lucru fuzibile inteligente.
+Această comandă vă permite să interacționați cu o instanță [BIMServer](http   *//www.bimserver.org), să deschideți fișierele stocate pe serverul Bim și să salvați noi revizii ale acestor fișiere. BIMServer este un sistem gratuit de server open source, creat pentru a lucra cu fișierele IFC. În starea sa actuală, permite gestionarea proiectelor cu mai multe fișiere IFC și gestionarea reviziilor. Sistemul de baze de date extrem de extensibil și arhitectura plugin-ului permit, de asemenea, proiectarea unor instrumente avansate de interogare / validare și a fluxurilor de lucru fuzibile inteligente.
 
 
 </div>
 
-Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
+Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții   *
 
 
 <div class="mw-translate-fuzzy">
 
 -   Modulele Python **json** și **requests** trebuie să fie instalate în prealabil pe sistemul dumneavoastră
--   Trebuie să aveți acces la o instanță BimServer (citiți documentația [BIMServer](https://github.com/opensourceBIM/BIMserver/wiki) pentru a instala un BIMServer local) și să aveți acreditări (login și parolă) pentru acel server. La momentul scrierii, versiunea stabilă a BIMServer este 1,4, dar vă recomandăm să instalați una dintre versiunile beta 1.5.X disponibile, care instalează automat multe plugin-uri (în versiunea 1.4 trebuie să instalați manual plugin-urile).
+-   Trebuie să aveți acces la o instanță BimServer (citiți documentația [BIMServer](https   *//github.com/opensourceBIM/BIMserver/wiki) pentru a instala un BIMServer local) și să aveți acreditări (login și parolă) pentru acel server. La momentul scrierii, versiunea stabilă a BIMServer este 1,4, dar vă recomandăm să instalați una dintre versiunile beta 1.5.X disponibile, care instalează automat multe plugin-uri (în versiunea 1.4 trebuie să instalați manual plugin-urile).
 -   Toate transferurile de fișiere cu BIMServer se fac cu fișiere IFC. Prin urmare, trebuie să știți cum să lucrați cu [IFC files](Arch_IFC.md).
 
 

@@ -1,6 +1,8 @@
 # Category:Administration/zh
 This category contains articles and categories about wiki administrative subjects.
 
+[Category   *Categories/zh](Category   *Categories/zh.md)
+
 ### Contents
 
 |     |     |     |

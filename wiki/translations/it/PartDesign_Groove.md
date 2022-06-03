@@ -1,6 +1,6 @@
 # PartDesign Groove/it
 ---
-- GuiCommand:/it   Name:PartDesign_Groove   Name/it:Scanalatura   Workbenches:[MenuLocation:PartDesign → Scanalatura   SeeAlso:[[PartDesign_Revolution/it|Rivoluzione](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand   */it   Name   *PartDesign_Groove   Name/it   *Scanalatura   Workbenches   *[MenuLocation   *PartDesign → Scanalatura   SeeAlso   *[[PartDesign_Revolution/it|Rivoluzione](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -22,8 +22,8 @@ Questo strumento rivoluziona uno schizzo selezionato o un oggetto 2D attorno ad 
 
 1.  Selezionare lo schizzo da ruotare.
 
-    :   È possibile utilizzare una faccia di un solido esistente. {{VersionPlus/it|0.17}}
-    :   Lo schizzo deve essere mappato sulla faccia planare di un solido esistente o di una funzione di Part Design, altrimenti viene visualizzato un messaggio di errore. {{VersionMinus/it|0.16}}
+       *   È possibile utilizzare una faccia di un solido esistente. {{VersionPlus/it|0.17}}
+       *   Lo schizzo deve essere mappato sulla faccia planare di un solido esistente o di una funzione di Part Design, altrimenti viene visualizzato un messaggio di errore. {{VersionMinus/it|0.16}}
 2.  Premere il pulsante **<img src="images/PartDesign_Groove.svg" width=24px> '''Scanalatura'''**.
 3.  Impostare i parametri della scanalatura (vedere la prossima sezione).
 4.  Premere **OK**.
@@ -43,12 +43,12 @@ Quando si crea una scanalatura, i dialoghi **Parametri Groove** offrono diversi 
 |                                                                                |                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                | Questa opzione specifica l\'asse attorno al quale deve essere ruotato lo schizzo.                                                                                                                                                                                                                                                             |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
-|                                                                                | -   **Vertical sketch axis**: seleziona l\'asse verticale dello schizzo.                                                                                                                                                                                                                                                                      |
-|                                                                                | -   **Horizontal sketch axis**: seleziona l\'asse orizzontale dello schizzo.                                                                                                                                                                                                                                                                  |
-|                                                                                | -   **Sketch axis**: seleziona una linea di costruzione contenuta nello schizzo utilizzato da Scanalatura. La prima linea di costruzione creata nello schizzo viene etichettata come *Sketch axis 0*. L\'elenco a discesa contiene un asse dello schizzo personalizzato per ogni linea di costruzione. {{VersionMinus/it|0.16}} |
-|                                                                                | -   **Construction line**: seleziona una linea di costruzione contenuta nello schizzo utilizzato da Scanalatura. L\'elenco a discesa contiene una voce per ogni linea di costruzione. La prima linea di costruzione creata nello schizzo viene etichettata *Construction line 1*. {{VersionPlus/it|0.17}}                       |
-|                                                                                | -   **Base (X/Y/Z) axis**: v0.17 e superiore seleziona l\'asse X, Y o Z dell\'origine del corpo; {{VersionPlus/it|0.17}}                                                                                                                                  |
-|                                                                                | -   **Select reference\...**: v0.17 e superiore consente di selezionare nella vista 3D un bordo di un corpo o una [linea di riferimento](PartDesign_Line/it.md). {{VersionPlus/it|0.17}}                                                          |
+|                                                                                | -   **Vertical sketch axis**   * seleziona l\'asse verticale dello schizzo.                                                                                                                                                                                                                                                                      |
+|                                                                                | -   **Horizontal sketch axis**   * seleziona l\'asse orizzontale dello schizzo.                                                                                                                                                                                                                                                                  |
+|                                                                                | -   **Sketch axis**   * seleziona una linea di costruzione contenuta nello schizzo utilizzato da Scanalatura. La prima linea di costruzione creata nello schizzo viene etichettata come *Sketch axis 0*. L\'elenco a discesa contiene un asse dello schizzo personalizzato per ogni linea di costruzione. {{VersionMinus/it|0.16}} |
+|                                                                                | -   **Construction line**   * seleziona una linea di costruzione contenuta nello schizzo utilizzato da Scanalatura. L\'elenco a discesa contiene una voce per ogni linea di costruzione. La prima linea di costruzione creata nello schizzo viene etichettata *Construction line 1*. {{VersionPlus/it|0.17}}                       |
+|                                                                                | -   **Base (X/Y/Z) axis**   * v0.17 e superiore seleziona l\'asse X, Y o Z dell\'origine del corpo; {{VersionPlus/it|0.17}}                                                                                                                                  |
+|                                                                                | -   **Select reference\...**   * v0.17 e superiore consente di selezionare nella vista 3D un bordo di un corpo o una [linea di riferimento](PartDesign_Line/it.md). {{VersionPlus/it|0.17}}                                                          |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                | </div>                                                                                                                                                                                                                                                                                                                                        |
@@ -73,15 +73,15 @@ Sotto sono riportate le proprietà che possono essere definite dopo la creazione
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Angle}}: angolo di rotazione. Vedere [Angolo](#Angolo.md).
+-    {{PropertyData/it|Angle}}   * angolo di rotazione. Vedere [Angolo](#Angolo.md).
 
--    {{PropertyData/it|Label}}: etichetta data all\'operazione, può essere cambiata a piacere.
+-    {{PropertyData/it|Label}}   * etichetta data all\'operazione, può essere cambiata a piacere.
 
--    {{PropertyData/it|Midplane}}: true o false. Vedere [Simmetrica al piano](#Simmetrica_al_piano.md).
+-    {{PropertyData/it|Midplane}}   * true o false. Vedere [Simmetrica al piano](#Simmetrica_al_piano.md).
 
--    {{PropertyData/it|Reversed}}: true o false. Vedere [Invertita](#Invertita.md).
+-    {{PropertyData/it|Reversed}}   * true o false. Vedere [Invertita](#Invertita.md).
 
--    {{PropertyData/it|Refine}}: true o false. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle funzioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md). {{VersionPlus/it|0.17}}
+-    {{PropertyData/it|Refine}}   * true o false. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle funzioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md). {{VersionPlus/it|0.17}}
 
 
 </div>

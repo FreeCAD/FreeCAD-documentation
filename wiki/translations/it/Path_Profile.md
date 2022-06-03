@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Path Profile
-   MenuLocation:Path → Profile
-   Workbenches:[Path](Path_Workbench.md)
-   Version:0.19
+- GuiCommand   *
+   Name   *Path Profile
+   MenuLocation   *Path → Profile
+   Workbenches   *[Path](Path_Workbench.md)
+   Version   *0.19
 ---
 
 # Path Profile/it
@@ -14,11 +14,11 @@ The **<img src="images/Path_Profile.svg" width=16px> [Profile](Path_Profile.md)*
 
 All operations create objects that are made to be part of a **<img src="images/Path_Job.svg" width=24px> [Path Job](Path_Job.md)**.
 
-These are the available operations:
+These are the available operations   *
 
 ### Contour operation 
 
-A **Contour** operation is the default. It creates a simple external contour cut of complex 3D <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md)-based objects. The entire Job Model serves as the input for the Operation, regardless of whether any Body Geometry is selected when the Contour command is invoked.
+A **Contour** operation is the default. It creates a simple external contour cut of complex 3D <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench.md)-based objects. The entire Job Model serves as the input for the Operation, regardless of whether any Body Geometry is selected when the Contour command is invoked.
 
 ### Profile Face operation 
 
@@ -28,23 +28,23 @@ A **Profile Face** operation creates a simple contour path from one ore more sel
 
 A **Profile Edges** operation creates a simple contour path from selected edges.
 
-<img alt="" src=images/Path_profile_example.jpg  style="width:600px;">
+<img alt="" src=images/Path_profile_example.jpg  style="width   *600px;">
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Path_Profile.svg" width=16px> [Path Profile](Path_Profile.md)** button.
     -   Select the **Path → <img src="images/Path_Profile.svg" width=16px> Profile** option from the menu.
 2.  Activate the Base Geometry section by clicking its tab, and select features from the Job model.
     -   If no features are selected, the command defaults to a **Contour** operation, contouring the entire model.
     -   If faces are selected, then the result is a **Profile Face** operation.
     -   If edges are selected, then the result is a **Profile Edges** operation.
-        **NOTE**: This operation has received improvements to allow functionality on some open-edge (non-loop) selections. See the **Usage Notes** section below for additional information on best practice for profiling open-edges.
+        **NOTE**   * This operation has received improvements to allow functionality on some open-edge (non-loop) selections. See the **Usage Notes** section below for additional information on best practice for profiling open-edges.
 3.  Activate the Operation section by clicking on its tab, and adjust the operation\'s settings as desired.
 4.  Optionally press the **Apply** button to preview the operation with the current settings.
 5.  Click the **OK** button or the **Cancel** button to create or cancel the operation.
 
-**Important Note: Path Profile doesn\'t take care of other details of the object. You have to adjust the properties, especially the final depth, carefully, a mistake might destroy your work piece**
+**Important Note   * Path Profile doesn\'t take care of other details of the object. You have to adjust the properties, especially the final depth, carefully, a mistake might destroy your work piece**
 
 A Start point can be enabled from the Operation tab in the Tasks Window editor, using a location defined in the **Property View → Data → Start Point**.
 
@@ -62,96 +62,96 @@ Make additional adjustments to the operation by modifying the operation\'s prope
 
 ## Proprietà
 
-\'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
+\'\'\' *Note* \'\'\'   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
 
 {{TitleProperty|Base}}
 
-Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
+Note   * It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
--    **Placement**: Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
+-    **Placement**   * Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
 
     -   
         **Angle**
         
-        : Angle in degrees applied to rotation of the object around Axis property value
+           * Angle in degrees applied to rotation of the object around Axis property value
 
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+           * Axis(one or multiple) around which to rotate the object, set in sub-properties   * x, y, z
 
         -   
             **X**
             
-            : x axis value
+               * x axis value
 
         -   
             **Y**
             
-            : y axis value
+               * y axis value
 
         -   
             **Z**
             
-            : z axis value
+               * z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+           * Position of the object, set in sub-properties   * x, y, z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+               * x distance value
 
         -   
             **Y**
             
-            : y distance value
+               * y distance value
 
         -   
             **Z**
             
-            : z distance value
+               * z distance value
 
--    **Label**: User-provided name of the object (UTF-8)
+-    **Label**   * User-provided name of the object (UTF-8)
 
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**: The height needed to clear clamps and obstructions
+-    **Clearance Height**   * The height needed to clear clamps and obstructions
 
--    **Final Depth**: Final Depth of Tool- lowest value in Z
+-    **Final Depth**   * Final Depth of Tool- lowest value in Z
 
--    **Finish Depth**: Maximum material removed on final pass. The height (thickness) of the last cutting level - *set for a better finish*.
+-    **Finish Depth**   * Maximum material removed on final pass. The height (thickness) of the last cutting level - *set for a better finish*.
 
--    **Safe Height**: The height above which Rapid motions are allowed. (Rapid safety height between locations)
+-    **Safe Height**   * The height above which Rapid motions are allowed. (Rapid safety height between locations)
 
--    **Start Depth**: Starting depth of Tool - *first cut depth in Z*
+-    **Start Depth**   * Starting depth of Tool - *first cut depth in Z*
 
--    **Step Down**: Incremental step down of Tool during operation
+-    **Step Down**   * Incremental step down of Tool during operation
 
-<img alt="" src=images/Path-DepthsAndHeights.gif  style="width:300px;"> 
+<img alt="" src=images/Path-DepthsAndHeights.gif  style="width   *300px;"> 
 *Visual reference for Depth properties (settings)*
 
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**   * make False, to prevent operation from generating code
 
--    **Base**: The base geometry for this operation
+-    **Base**   * The base geometry for this operation
 
--    **Comment**: An optional comment for this Operation
+-    **Comment**   * An optional comment for this Operation
 
--    **Coolant Mode**: The coolant mode for this operation.
+-    **Coolant Mode**   * The coolant mode for this operation.
 
--    **Cycle Time**: The cycle time estimation for this operation.
+-    **Cycle Time**   * The cycle time estimation for this operation.
 
--    **Tool Controller**: Defines the Tool controller used in the Operation
+-    **Tool Controller**   * Defines the Tool controller used in the Operation
 
--    **User Label**: User assigned label
+-    **User Label**   * User assigned label
 
 
 <div class="mw-translate-fuzzy">
@@ -161,60 +161,60 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 </div>
 
--    **Direction**: The direction that the tool path should go around the part: Clockwise\[CW\] or Counterclockwise\[CCW\]
+-    **Direction**   * The direction that the tool path should go around the part   * Clockwise\[CW\] or Counterclockwise\[CCW\]
 
--    **Expand Profile**: Extend the profile clearing beyond the Extra Offset.
+-    **Expand Profile**   * Extend the profile clearing beyond the Extra Offset.
 
--    **Expand Profile Step Over**: Set the stepover percentage, based on the tool\'s diameter.
+-    **Expand Profile Step Over**   * Set the stepover percentage, based on the tool\'s diameter.
 
--    **Handle Multiple Features**: Choose how to process multiple Base Geometry features.
+-    **Handle Multiple Features**   * Choose how to process multiple Base Geometry features.
 
--    **OffsetExtra**: Extra value to stay away from final profile- good for roughing toolpath
+-    **OffsetExtra**   * Extra value to stay away from final profile- good for roughing toolpath
 
--    **Process Circles**: Check if you want this Profile Operation to also be applied to cylindrical holes, *which normally get drilled*.
+-    **Process Circles**   * Check if you want this Profile Operation to also be applied to cylindrical holes, *which normally get drilled*.
 
--    **Process Holes**: Check if this Profile Operation should also process holes in the base geometry. **Note** that this does not include cylindrical holes.
+-    **Process Holes**   * Check if this Profile Operation should also process holes in the base geometry. **Note** that this does not include cylindrical holes.
 
--    **Process Perimeter**: Check if this Profile Operation should also process the outside perimeter of the base geometry shapes
+-    **Process Perimeter**   * Check if this Profile Operation should also process the outside perimeter of the base geometry shapes
 
--    **Side**: (Cut Side) Side of edge that tool should cut. This only matters if \Use Compensation\ is True(checked).
+-    **Side**   * (Cut Side) Side of edge that tool should cut. This only matters if \Use Compensation\ is True(checked).
 
--    **Use Compensation**: If checked, the Profile Operation is offset by the tool radius. The offset direction is determined by the Cut Side.
+-    **Use Compensation**   * If checked, the Profile Operation is offset by the tool radius. The offset direction is determined by the Cut Side.
 
 
 {{TitleProperty|Rotation}}
 
--    **Attempt Inverse Angle**: Automatically attempt Inverse Angle if initial rotation is incorrect.
+-    **Attempt Inverse Angle**   * Automatically attempt Inverse Angle if initial rotation is incorrect.
 
--    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
+-    **Enable Rotation**   * Enable rotation to gain access to pockets or areas not normal to Z axis.
 
--    **Inverse Angle**: Inverse the angle of the rotation. \'\' **Example:** change a rotation from -22.5 to 22.5 degrees.\'\'
+-    **Inverse Angle**   * Inverse the angle of the rotation. \'\' **Example   *** change a rotation from -22.5 to 22.5 degrees.\'\'
 
--    **Limit Depth To Face**: Enforce the Z-depth of the selected face as the lowest value for final depth. Higher user values for final depth will be observed.
+-    **Limit Depth To Face**   * Enforce the Z-depth of the selected face as the lowest value for final depth. Higher user values for final depth will be observed.
 
--    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
+-    **Reverse Direction**   * Reverse orientation of Operation by 180 degrees.
 
 
 {{TitleProperty|Start Point}}
 
--    **Start Point**: The custom start point for the path of this operation.
+-    **Start Point**   * The custom start point for the path of this operation.
 
     -   
         **X**
         
-        : x distance value
+           * x distance value
 
     -   
         **Y**
         
-        : y distance value
+           * y distance value
 
     -   
         **Z**
         
-        : z distance value
+           * z distance value
 
--    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
+-    **Use Start Point**   * Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
 ## Tasks Window Editor Layout 
 
@@ -222,9 +222,9 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 ### Base Geometry 
 
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Delete**: delete the selected item(s) in the Base Geometry list
--   **Clear**: clear all items in the Base Geometry list
+-   **Add**   * adds selected element(s) which should be the base(s) for the path(s)
+-   **Delete**   * delete the selected item(s) in the Base Geometry list
+-   **Clear**   * clear all items in the Base Geometry list
 
 ### Depths
 
@@ -285,11 +285,11 @@ Note: It is suggested that you do not edit the Placement property of path operat
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

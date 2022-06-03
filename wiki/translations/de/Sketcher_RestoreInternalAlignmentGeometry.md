@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Sketcher RestoreInternalAlignmentGeometry
-   MenuLocation:Sketch → Sketcher tools → Show/hide internal geometry
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **I**
-   SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
+- GuiCommand   *
+   Name   *Sketcher RestoreInternalAlignmentGeometry
+   MenuLocation   *Sketch → Sketcher tools → Show/hide internal geometry
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   Shortcut   ***Z** **I**
+   SeeAlso   *[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/de
@@ -37,7 +37,7 @@ Sind für das ausgewählte Element freie Ausrichtungsplätze vorhanden, wird ein
 
 <div class="mw-translate-fuzzy">
 
-Erstelle eine neue Ellipse. Neue Ellipsen sind immer vollgepackt. Du siehst eine Ellipse und eine Reihe von Konstruktionsgeometrien: Hauptdurchmesser, Nebendurchmesser, Brennpunkte.
+Erstelle eine neue Ellipse. Neue Ellipsen sind immer vollgepackt. Du siehst eine Ellipse und eine Reihe von Konstruktionsgeometrien   * Hauptdurchmesser, Nebendurchmesser, Brennpunkte.
 
 
 </div>

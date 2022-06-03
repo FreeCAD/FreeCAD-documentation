@@ -1,21 +1,21 @@
 ---
-- GuiCommand:Addon/it
-   Name:BIM_Project
-   Name/it:Progetto BIM
-   Workbenches:[BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Gestione → Gestione progetto...
+- GuiCommand   *Addon/it
+   Name   *BIM_Project
+   Name/it   *Progetto BIM
+   Workbenches   *[BIM](BIM_Workbench/it.md)
+   Addon   *BIM
+   MenuLocation   *Gestione → Gestione progetto...
 ---
 
 # BIM Project/it
 
 ## Descrizione
 
-<img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_project_screenshot.png  style="width   *1024px;">
 
 La finestra di dialogo di impostazione del progetto è una finestra di dialogo della procedura guidata che consente di creare un set di base di oggetti guida nel documento corrente o in un nuovo documento, che è di aiuto all\'inizio della modellazione di un progetto BIM.
 
-La finestra di dialogo di impostazione del progetto può creare:
+La finestra di dialogo di impostazione del progetto può creare   *
 
 -   Un nuovo [documento](Document_structure/it.md). In alternativa, gli altri oggetti verranno creati nel documento attualmente aperto.
 -   Un [sito](Arch_Site/it.md). L\'oggetto Sito rappresenta un pezzo di terreno in cui viene localizzato il progetto. È possibile dargli una serie di proprietà utili, come l\'indirizzo e le coordinate terrestri. Al momento della creazione, il sito è solo un contenitore vuoto per altri oggetti BIM, ma in seguito ad esso può essere allegato un oggetto 3D che rappresenta il terreno reale.
@@ -26,7 +26,7 @@ La finestra di dialogo di impostazione del progetto può creare:
 
 ### Modelli
 
-Lo strumento Progetto supporta due tipi di modelli:
+Lo strumento Progetto supporta due tipi di modelli   *
 
 Dopo aver riempito le diverse opzioni, il contenuto della procedura guidata di installazione del progetto BIM può essere **salvato** come modello. Questi modelli possono essere \"ripristinati\" e adattati in un secondo momento. I modelli di progetto sono memorizzati come file di testo nella cartella utente di FreeCAD.
 

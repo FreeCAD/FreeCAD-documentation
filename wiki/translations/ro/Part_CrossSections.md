@@ -13,9 +13,18 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Utilitarul **Cross-sections** crează una sau mai multe secțiuni transversale prin forma selectată.
 
+
+</div>
+
 ## Cum se folosește 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Select a shape.
 2.  Press the **[<img src=images/Part_SectionCross.png style="width   *24px"> '''Cross-sections'''** button.
@@ -25,6 +34,9 @@ Utilitarul **Cross-sections** crează una sau mai multe secțiuni transversale p
     -   Checking *On both sides* will distribute the cross-sections on each side of the guiding plane location.
     -   Set the count.
 6.  Press **OK**.
+
+
+</div>
 
 ## Notes
 

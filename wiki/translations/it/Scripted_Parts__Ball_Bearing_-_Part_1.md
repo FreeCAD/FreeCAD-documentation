@@ -1,20 +1,20 @@
 ---
-- TutorialInfo:/it
-   Topic: Parti con script - Cuscinetto a sfere #1
-   Level: Base
-   Time: 30 min
-   Author:r-frank
-   FCVersion:0.16.6706
-   Files:
+- TutorialInfo   */it
+   Topic   * Parti con script - Cuscinetto a sfere #1
+   Level   * Base
+   Time   * 30 min
+   Author   *r-frank
+   FCVersion   *0.16.6706
+   Files   *
 }}
 
 ### Introduzione
 
 Questo tutorial si propone di introdurre i principianti alla creazione di parti con script python all\'interno di FreeCAD.
-Questo tutorial descrive come costruire un cuscinetto a sfere con un flusso di lavoro [CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry).
+Questo tutorial descrive come costruire un cuscinetto a sfere con un flusso di lavoro [CSG](https   *//en.wikipedia.org/wiki/Constructive_solid_geometry).
 Il codice produrrà un nuovo documento di FreeCAD con 12 forme (anello interno, anello esterno e 10 sfere).
-Esso sarà simile a questo:
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
+Esso sarà simile a questo   *
+<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width   *400px;">
 
 ### Flusso di lavoro 
 
@@ -42,23 +42,23 @@ Quindi bisogna selezionare i bordi prima di creare la scanalatura.
 ### Note
 
 Questo tutorial utilizza le primitive di Parte e le Operazioni booleane, che consumano molte risorse.
-Per fare un script di Part usando degli schizzi rivoluzionati vedere il tutorial [Parti con script: Cuscinetto a sfere - Parte 2 ](Scripted_Parts:_Ball_Bearing_-_Part_2/it.md).
+Per fare un script di Part usando degli schizzi rivoluzionati vedere il tutorial [Parti con script   * Cuscinetto a sfere - Parte 2 ](Scripted_Parts   *_Ball_Bearing_-_Part_2/it.md).
 
 ### Link
 
-[Script di oggetti](Scripted_objects/it.md): La pagina wiki che spiega i principi fondamentali di scripting
-[Script di dati topologici](Topological_data_scripting/it.md): Un tutorial per fornire le basi di scripting
-[Parti con script - Cuscinetto a sfere Parte 2](Scripted_Parts:_Ball_Bearing_-_Part_2/it.md): Costruirlo con degli schizzi
-[Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html): Base per questo tutorial, grazie a JMG \...
+[Script di oggetti](Scripted_objects/it.md)   * La pagina wiki che spiega i principi fondamentali di scripting
+[Script di dati topologici](Topological_data_scripting/it.md)   * Un tutorial per fornire le basi di scripting
+[Parti con script - Cuscinetto a sfere Parte 2](Scripted_Parts   *_Ball_Bearing_-_Part_2/it.md)   * Costruirlo con degli schizzi
+[Bearing Script 1](http   *//linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)   * Base per questo tutorial, grazie a JMG \...
 
 ### Codice
 
 
-{{Code   code:
+{{Code   code   *
 ## Ball-bearing script
 ## 11.08.2016 by r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## based on ball bearing script by JMG
-## (http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
+## (http   *//linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
 #
 #needed for inserting primitives
 import Part
@@ -122,7 +122,7 @@ OuterRing=ORF.cut(T2)
 Part.show(OuterRing)
 #
 #Balls#
-for i in range(NBall):
+for i in range(NBall)   *
   Ball=Part.makeSphere(RBall)
   Alpha=(i*2*math.pi)/NBall
   BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
@@ -141,7 +141,9 @@ Gui.SendMsgToActiveView("ViewFit")
 
 {{Powerdocnavi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

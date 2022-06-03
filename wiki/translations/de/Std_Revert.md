@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Std Revert
-   Name/de:Std Rückgängig
-   MenuLocation:Datei → Rückgängig
-   Workbenches:Alle
+- GuiCommand   */de
+   Name   *Std Revert
+   Name/de   *Std Rückgängig
+   MenuLocation   *Datei → Rückgängig
+   Workbenches   *Alle
 ---
 
 # Std Revert/de

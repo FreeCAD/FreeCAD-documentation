@@ -5,13 +5,13 @@
 
 The geometrical classes of OCCT are mostly implemented and made available in FreeCAD through the [Part](Part_Workbench.md) module, on which most other [workbenches](Workbenches.md) depend. It also provides internal functions to read and write different file formats like STEP and IGES, and to perform 2D projections, which can be used to create technical drawings in [TechDraw](TechDraw_Workbench.md).
 
- <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;"> 
+ <img alt="" src=images/Part_Workbench_relationships.svg  style="width   *600px;"> 
 
 
 
 *OpenCASCADE provides the basic geometrical classes and drawing functions to the [Part](Part_Workbench.md) module, which are then used by all workbenches in FreeCAD.*
 
-OpenCASCADE should not be confused with [OpenSCAD](https://www.openscad.org/), which is a different open source project to build 3D models, and which is accessible through the [OpenSCAD Workbench](OpenSCAD_Workbench.md).
+OpenCASCADE should not be confused with [OpenSCAD](https   *//www.openscad.org/), which is a different open source project to build 3D models, and which is accessible through the [OpenSCAD Workbench](OpenSCAD_Workbench.md).
 
 OpenCASCADE is free software governed by the terms of the GNU Lesser General Public License (LGPL) version 2.1 with an additional exception.
 
@@ -41,43 +41,47 @@ In OpenCascade terminology, we distinguish between geometric primitives and topo
 
 In summary, geometry primitives are \"shapeless\" building blocks, while [topological shapes](Part_TopoShape.md) are the real objects built on them.
 
-A complete list of all primitives and shapes refer to the [OCC documentation](http://www.opencascade.org/org/doc/) (Alternative: [sourcearchive.com](https://www.opencascade.com/doc/occt-7.4.0/refman/html/)) and search for **Geom\_\*** (for geometric primitives) and **TopoDS\_\*** (for shapes). There you can also read more about the differences between them. Please note that the official OCC documentation is not available online (you must download an archive) and is mostly aimed at programmers, not at end-users. But hopefully you\'ll find enough information to get started here. Also see [Modeling Data User\'s Guide](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
+A complete list of all primitives and shapes refer to the [OCC documentation](http   *//www.opencascade.org/org/doc/) (Alternative   * [sourcearchive.com](https   *//www.opencascade.com/doc/occt-7.4.0/refman/html/)) and search for **Geom\_\*** (for geometric primitives) and **TopoDS\_\*** (for shapes). There you can also read more about the differences between them. Please note that the official OCC documentation is not available online (you must download an archive) and is mostly aimed at programmers, not at end-users. But hopefully you\'ll find enough information to get started here. Also see [Modeling Data User\'s Guide](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
 
 > *At a very high level, topology tells what pieces an object is made of, and the logical relationships between them. A shape is made of a certain set of faces. A face is bounded by a certain set of edges. Two faces are adjacent if they share a common edge.*
 
-> *Topology alone does not tell you the size, curvature, or 3D locations of any of those pieces. However, each piece of topology does knows about it\'s underlying geometry. A face knows what surface it lies on. An edge knows what curve it lies on. The geometry knows about curvature and location in space.* - [Source](https://www.opencascade.com/content/geometry-and-topology)
+> *Topology alone does not tell you the size, curvature, or 3D locations of any of those pieces. However, each piece of topology does knows about it\'s underlying geometry. A face knows what surface it lies on. An edge knows what curve it lies on. The geometry knows about curvature and location in space.* - [Source](https   *//www.opencascade.com/content/geometry-and-topology)
 
 
 <hr />
 
-> *Thus, Topology defines the relationship between simple geometric entities, which can be linked together to represent complex shapes.* - [Modeling Data User\'s Guide](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
+> *Thus, Topology defines the relationship between simple geometric entities, which can be linked together to represent complex shapes.* - [Modeling Data User\'s Guide](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
 
 ![](images/ClassTopoDS_Shape_inherit_graph.png )
 
-**Note:** Only 3 types of topological objects have geometric representations -- vertex, edge, and face ([Source](https://opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
+**Note   *** Only 3 types of topological objects have geometric representations -- vertex, edge, and face ([Source](https   *//opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
 
-The geometric types actually can be divided into two major groups: curves and surfaces. Out of the curves (line, circle, \...) you can directly build an edge, out of the surfaces (plane, cylinder, \...) a face can be built. For example, the geometric primitive line is unlimited, i.e. it is defined by a base vector and a direction vector while its shape representation must be something limited by a start and end point. And a box \-- a solid \-- can be created by six limited planes.
+The geometric types actually can be divided into two major groups   * curves and surfaces. Out of the curves (line, circle, \...) you can directly build an edge, out of the surfaces (plane, cylinder, \...) a face can be built. For example, the geometric primitive line is unlimited, i.e. it is defined by a base vector and a direction vector while its shape representation must be something limited by a start and end point. And a box \-- a solid \-- can be created by six limited planes.
 
 From an edge or face you can also go back to its geometric primitive counterpart.
 
 Thus, out of shapes you can build very complex parts or, the other way round, extract all sub-shapes a more complex shape is made of.
 
- <img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;"> 
+ <img alt="" src=images/Part_TopoShape_relationships.svg  style="width   *600px;"> 
 
 
 
-*The `Part::TopoShape* class is the geometrical object that is seen on screen. Essentially all workbenches use these [TopoShapes](Part_TopoShape.md) internally to build and display edges, faces, and solids.`
+*The `Part   *   *TopoShape* class is the geometrical object that is seen on screen. Essentially all workbenches use these [TopoShapes](Part_TopoShape.md) internally to build and display edges, faces, and solids.`
 
 ## Related
 
--   OpenCASCADE Technology (OCCT) [main website](http://www.opencascade.com)
--   OCCT [development portal](https://dev.opencascade.org/)
--   OCCT [latest release](https://www.opencascade.com/content/latest-release)
--   OCCT [git repository](https://git.dev.opencascade.org/gitweb/?p=occt.git)
--   OpenCASCADE Community Edition (OCE) [git repository](https://github.com/tpaviot/oce)
--   [Open Cascade Technology OCCT](http://en.wikipedia.org/wiki/Open_Cascade_Technology) on Wikipedia
+-   OpenCASCADE Technology (OCCT) [main website](http   *//www.opencascade.com)
+-   OCCT [development portal](https   *//dev.opencascade.org/)
+-   OCCT [latest release](https   *//www.opencascade.com/content/latest-release)
+-   OCCT [git repository](https   *//git.dev.opencascade.org/gitweb/?p=occt.git)
+-   OpenCASCADE Community Edition (OCE) [git repository](https   *//github.com/tpaviot/oce)
+-   [Open Cascade Technology OCCT](http   *//en.wikipedia.org/wiki/Open_Cascade_Technology) on Wikipedia
 -   Glossary, [Open CASCADE](Glossary#Open_CASCADE.md)
--   Tracking OCCT bugs in the FreeCAD bugtracker [(thread)](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
+-   Tracking OCCT bugs in the FreeCAD bugtracker [(thread)](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=20264)
+
+  
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

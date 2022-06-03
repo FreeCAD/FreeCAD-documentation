@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Att konvertera högnivåobjekt som [Del former](Part_Workbench/sv.md) till enklare objekt som [nät](Mesh_Workbench/sv.md) är en ganska enkel operation, där alla ytor på ett Del objekt blir triangulerade. Resultatet av denna triangulering (tessellering) används sedan till att konstruera ett nät: (Låt oss anta att vårt dokument innehåller ett Del objekt)
+Att konvertera högnivåobjekt som [Del former](Part_Workbench/sv.md) till enklare objekt som [nät](Mesh_Workbench/sv.md) är en ganska enkel operation, där alla ytor på ett Del objekt blir triangulerade. Resultatet av denna triangulering (tessellering) används sedan till att konstruera ett nät   * (Låt oss anta att vårt dokument innehåller ett Del objekt)
 
 
 </div>
@@ -26,9 +26,9 @@ shp = obj.Shape
 faces = []
 
 triangles = shp.tessellate(1) # the number represents the precision of the tessellation
-for tri in triangles[1]:
+for tri in triangles[1]   *
     face = []
-    for i in tri:
+    for i in tri   *
         face.append(triangles[0][i])
     faces.append(face)
 
@@ -36,7 +36,7 @@ m = Mesh.Mesh(faces)
 Mesh.show(m)
 ```
 
-Alternative example:
+Alternative example   *
 
 
 ```python
@@ -46,7 +46,7 @@ import MeshPart
 obj = FreeCADGui.Selection.getSelection()[0] # a Part object must be preselected
 shp = obj.Shape
 
-mesh = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+mesh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
 mesh.Mesh = MeshPart.meshFromShape(
         Shape=shp,
         LinearDeflection=0.01,
@@ -81,7 +81,7 @@ Konvertering av nät till dessa högnivåobjekt (hanterat av [Del Modulen](Part_
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD erbjuder för närvarande två metoder för att konvertera Nät till Del objekt. Den första metoden är en enkel, direkt konvertering, utan någon optimering:
+FreeCAD erbjuder för närvarande två metoder för att konvertera Nät till Del objekt. Den första metoden är en enkel, direkt konvertering, utan någon optimering   *
 
 
 </div>
@@ -101,7 +101,7 @@ Part.show(solid)
 
 <div class="mw-translate-fuzzy">
 
-Den andra metoden erbjuder möjligheten att anse nätfasetter koplanära när vinkeln mellan dem är under ett visst värde. Detta tillåter uppbyggnad av mycket enklare former: (Låt oss anta att vårt dokument innehåller ett Nät objekt)
+Den andra metoden erbjuder möjligheten att anse nätfasetter koplanära när vinkeln mellan dem är under ett visst värde. Detta tillåter uppbyggnad av mycket enklare former   * (Låt oss anta att vårt dokument innehåller ett Nät objekt)
 
 
 </div>
@@ -117,22 +117,22 @@ mesh = obj.Mesh
 segments = mesh.getPlanarSegments(0.00001) # use rather strict tolerance here
 faces = []
 
-for i in segments:
-    if len(i) > 0:
+for i in segments   *
+    if len(i) > 0   *
         # a segment can have inner holes
         wires = MeshPart.wireFromSegment(mesh, i)
         # we assume that the exterior boundary is that one with the biggest bounding box
-        if len(wires) > 0:
+        if len(wires) > 0   *
             ext = None
             max_length=0
-            for i in wires:
-                if i.BoundBox.DiagonalLength > max_length:
+            for i in wires   *
+                if i.BoundBox.DiagonalLength > max_length   *
                     max_length = i.BoundBox.DiagonalLength
                     ext = i
 
             wires.remove(ext)
             # all interior wires mark a hole and must reverse their orientation, otherwise Part.Face fails
-            for i in wires:
+            for i in wires   *
                 i.reverse()
 
             # make sure that the exterior wires comes as first in the list
@@ -145,6 +145,8 @@ Part.show(solid)
 
 
  {{Mesh Tools navi}}
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

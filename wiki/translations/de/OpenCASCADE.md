@@ -7,13 +7,13 @@
 
 Die geometrischen Klassen von OCCT werden in FreeCAD hauptsächlich durch das [Part](Part_Workbench/de.md) Modul umgesetzt und verfügbar gemacht, von dem die meisten anderen [Arbeitsbereiche](Workbenches/de.md) abhängen. Es bietet auch interne Funktionen zum Lesen und Schreiben verschiedener Dateiformate wie STEP und IGES und zur Durchführung von 2D Projektionen, die zur Erstellung technischer Zeichnungen in [TechDraw](TechDraw_Workbench/de.md) verwendet werden können.
 
-<img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
+<img alt="" src=images/Part_Workbench_relationships.svg  style="width   *600px;">
 
 
 
 *OpenCASCADE stellt dem [Part Arbeitsbereich](Part_Workbench/de.md) die grundlegenden geometrischen Klassen und Zeichenfunktionen zur Verfügung, welche dann von allen Arbeitsbereichen in FreeCAD verwendet werden.*
 
-OpenCASCADE ist nicht zu verwechseln mit [OpenSCAD](https://www.openscad.org/), das ein anderes Open Source Projekt zur Erstellung von 3D Modellen ist und über die [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) zugänglich ist.
+OpenCASCADE ist nicht zu verwechseln mit [OpenSCAD](https   *//www.openscad.org/), das ein anderes Open Source Projekt zur Erstellung von 3D Modellen ist und über die [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) zugänglich ist.
 
 OpenCASCADE ist freie Software und unterliegt den Bedingungen der GNU Lesser General Public License (LGPL) Version 2.1 mit einer zusätzlichen Ausnahme.
 
@@ -39,47 +39,52 @@ OpenCASCADE Version 6.6 und früher wurde durch eine eigene öffentliche Lizenz 
 
 ## OCCT geometrische Konzepte 
 
-In der OpenCascade Terminologie unterscheiden wir zwischen geometrischen Grundelementen (engl.: primitives) und topologischen Formen. Ein geometrisches Grundelement kann ein Punkt, eine Linie, ein Kreis, eine Ebene usw. oder sogar einige komplexere Typen wie eine B-Spline Kurve oder eine Oberfläche sein. Eine Form kann ein Knoten, eine Kante, ein Draht, eine Fläche, ein Solid oder eine Verbindung aus anderen Formen sein. Die geometrischen Grundelemente sind nicht dazu bestimmt, direkt in der 3D Szene dargestellt zu werden, sondern als Baugeometrie für Formen zu dienen. So kann beispielsweise eine Kante aus einer Linie oder aus einem Teil eines Kreises konstruiert werden.
+In der OpenCascade Terminologie unterscheiden wir zwischen geometrischen Grundelementen (engl.   * primitives) und topologischen Formen. Ein geometrisches Grundelement kann ein Punkt, eine Linie, ein Kreis, eine Ebene usw. oder sogar einige komplexere Typen wie eine B-Spline Kurve oder eine Oberfläche sein. Eine Form kann ein Knoten, eine Kante, ein Draht, eine Fläche, ein Solid oder eine Verbindung aus anderen Formen sein. Die geometrischen Grundelemente sind nicht dazu bestimmt, direkt in der 3D Szene dargestellt zu werden, sondern als Baugeometrie für Formen zu dienen. So kann beispielsweise eine Kante aus einer Linie oder aus einem Teil eines Kreises konstruiert werden.
 
 Zusammenfassend lässt sich sagen, dass Geometrie Grundelemente \"formlose\" Bausteine sind, während [topologische Formen](Part_TopoShape/de.md) die darauf aufgebauten realen Objekte sind.
 
-Eine vollständige Liste aller Grundelemente und Formen findest du in der [OCC Dokumentation](http://www.opencascade.org/org/doc/) (Alternativ: [sourcearchive.com](https://www.opencascade.com/doc/occt-7.4.0/refman/html/)) und suche nach **Geom\_\*** (für geometrische Grundelemente) und **TopoDS\_\*** (für Formen). Dort kannst du auch mehr über die Unterschiede zwischen ihnen lesen. Bitte beachte, dass die offizielle OCC Dokumentation nicht online verfügbar ist (Du musst ein Archiv herunterladen) und sich hauptsächlich an Programmierer und nicht an Endbenutzer richtet. Aber hoffentlich findest du hier genügend Informationen, um anzufangen. Siehe auch [Benutzerhandbuch zur Datenmodellierung](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
+Eine vollständige Liste aller Grundelemente und Formen findest du in der [OCC Dokumentation](http   *//www.opencascade.org/org/doc/) (Alternativ   * [sourcearchive.com](https   *//www.opencascade.com/doc/occt-7.4.0/refman/html/)) und suche nach **Geom\_\*** (für geometrische Grundelemente) und **TopoDS\_\*** (für Formen). Dort kannst du auch mehr über die Unterschiede zwischen ihnen lesen. Bitte beachte, dass die offizielle OCC Dokumentation nicht online verfügbar ist (Du musst ein Archiv herunterladen) und sich hauptsächlich an Programmierer und nicht an Endbenutzer richtet. Aber hoffentlich findest du hier genügend Informationen, um anzufangen. Siehe auch [Benutzerhandbuch zur Datenmodellierung](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
 
 > *Auf einer sehr hohen Stufe sagt die Topologie aus, aus welchen Teilen ein Objekt besteht und welche logischen Beziehungen zwischen ihnen bestehen. Eine Form besteht aus einem bestimmten Satz von Flächen. Eine Fläche wird durch einen bestimmten Satz von Kanten begrenzt. Zwei Flächen sind benachbart, wenn sie eine gemeinsame Kante teilen.*
 
-> *Die Topologie allein sagt dir nichts über die Größe, Krümmung oder 3D Positionen jedes dieser Teile. Jedes Teil der Topologie weiß jedoch über seine zugrunde liegende Geometrie Bescheid. Eine Fläche weiß, auf welcher Oberfläche sie liegt. Eine Kante weiß, auf welcher Kurve sie liegt. Die Geometrie weiß über Krümmung und Lage im Raum Bescheid..* - [Quelle](https://www.opencascade.com/content/geometry-and-topology)
+> *Die Topologie allein sagt dir nichts über die Größe, Krümmung oder 3D Positionen jedes dieser Teile. Jedes Teil der Topologie weiß jedoch über seine zugrunde liegende Geometrie Bescheid. Eine Fläche weiß, auf welcher Oberfläche sie liegt. Eine Kante weiß, auf welcher Kurve sie liegt. Die Geometrie weiß über Krümmung und Lage im Raum Bescheid..* - [Quelle](https   *//www.opencascade.com/content/geometry-and-topology)
 
 
 <hr />
 
-> *So definiert die Topologie die Beziehung zwischen einfachen geometrischen Einheiten, die miteinander verbunden werden können, um komplexe Formen darzustellen.* - [Benutzerhandbuch zur Datenmodellierung](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
+> *So definiert die Topologie die Beziehung zwischen einfachen geometrischen Einheiten, die miteinander verbunden werden können, um komplexe Formen darzustellen.* - [Benutzerhandbuch zur Datenmodellierung](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
 
 ![](images/ClassTopoDS_Shape_inherit_graph.png )
 
-**Anmerkung:** Nur 3 Arten von topologischen Objekten haben geometrische Abbilder - Knoten, Kante und Fläche ([Quelle](https://opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
+**Anmerkung   *** Nur 3 Arten von topologischen Objekten haben geometrische Abbilder - Knoten, Kante und Fläche ([Quelle](https   *//opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
 
-Die geometrischen Typen lassen sich tatsächlich in zwei große Gruppen unterteilen: Kurven und Oberflächen. Aus den Kurven (Linie, Kreis,\....) kann man direkt eine Kante bauen, aus den Oberflächen (Ebene, Zylinder,\...) kann man eine Fläche bauen. So ist beispielsweise die geometrische Grundlinie unbegrenzt, d.h. sie wird durch einen Basisvektor und einen Richtungsvektor definiert, während ihre Formdarstellung irgendetwas sein muss, das durch einen Start- und Endpunkt begrenzt ist. Und ein Quader - eine Grundform - kann durch sechs begrenzte Ebenen geschaffen werden.
+Die geometrischen Typen lassen sich tatsächlich in zwei große Gruppen unterteilen   * Kurven und Oberflächen. Aus den Kurven (Linie, Kreis,\....) kann man direkt eine Kante bauen, aus den Oberflächen (Ebene, Zylinder,\...) kann man eine Fläche bauen. So ist beispielsweise die geometrische Grundlinie unbegrenzt, d.h. sie wird durch einen Basisvektor und einen Richtungsvektor definiert, während ihre Formdarstellung irgendetwas sein muss, das durch einen Start- und Endpunkt begrenzt ist. Und ein Quader - eine Grundform - kann durch sechs begrenzte Ebenen geschaffen werden.
 
 Von einer Kante oder Fläche aus kannst du auch zu seinem geometrischen Basisgegenstück zurückkehren.
 
 So kannst du aus Formen sehr komplexe Teile bauen oder umgekehrt alle Unterformen extrahieren, aus denen eine komplexere Form besteht.
 
-<img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;">
+<img alt="" src=images/Part_TopoShape_relationships.svg  style="width   *600px;">
 
 
 
-*Die `Part::TopoShape* Klasse ist das geometrische Objekt, das auf dem Bildschirm zu sehen ist. Im Wesentlichen verwenden alle Arbeitsbereiche intern diese [TopoFormen](Part_TopoShape/de.md) um Kanten, Flächen und Volumenkörper zu erstellen und anzuzeigen.`
+*Die `Part   *   *TopoShape* Klasse ist das geometrische Objekt, das auf dem Bildschirm zu sehen ist. Im Wesentlichen verwenden alle Arbeitsbereiche intern diese [TopoFormen](Part_TopoShape/de.md) um Kanten, Flächen und Volumenkörper zu erstellen und anzuzeigen.`
 
 ## Verwandt
 
--   OpenCASCADE Technologie (OCCT) [Hauptwebsite](http://www.opencascade.com)
--   OCCT [Entwicklungsportal](https://dev.opencascade.org/)
--   OCCT [letzte Version](https://www.opencascade.com/content/latest-release)
--   OCCT [git Repositorium](https://git.dev.opencascade.org/gitweb/?p=occt.git)
--   OpenCASCADE Gemeinschaftsausgabe (OCE) [git Repositorium](https://github.com/tpaviot/oce)
--   [Open Cascade Technologie OCCT](http://en.wikipedia.org/wiki/Open_Cascade_Technology) auf Wikipedia
+-   OpenCASCADE Technologie (OCCT) [Hauptwebsite](http   *//www.opencascade.com)
+-   OCCT [Entwicklungsportal](https   *//dev.opencascade.org/)
+-   OCCT [letzte Version](https   *//www.opencascade.com/content/latest-release)
+-   OCCT [git Repositorium](https   *//git.dev.opencascade.org/gitweb/?p=occt.git)
+-   OpenCASCADE Gemeinschaftsausgabe (OCE) [git Repositorium](https   *//github.com/tpaviot/oce)
+-   [Open Cascade Technologie OCCT](http   *//en.wikipedia.org/wiki/Open_Cascade_Technology) auf Wikipedia
 -   Glossar, [Open CASCADE](Glossary/de#Open_CASCADE.md)
--   Verfolgung von OCCT Fehlern im FreeCAD Bugtracker [(Beitrag)](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
+-   Verfolgung von OCCT Fehlern im FreeCAD Bugtracker [(Beitrag)](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=20264)
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

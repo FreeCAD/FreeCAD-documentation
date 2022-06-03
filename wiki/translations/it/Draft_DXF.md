@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Draft DXF è un modulo software utilizzato dai comandi <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Apri](Std_Open/it.md), [Importa](Std_Import/it.md) and [Esporta](Std_Export/it.md) per gestire il formato DXF.
+Draft DXF è un modulo software utilizzato dai comandi <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Apri](Std_Open/it.md), [Importa](Std_Import/it.md) and [Esporta](Std_Export/it.md) per gestire il formato DXF.
 
 
 </div>
@@ -40,7 +40,7 @@ Sono supportate le versioni DXF R12 - 2007.
 
 <div class="mw-translate-fuzzy">
 
-Possono essere importati i seguenti tipi di oggetti DXF:
+Possono essere importati i seguenti tipi di oggetti DXF   *
 
 -   linee
 -   polilinee e polilinee alleggerite
@@ -59,7 +59,7 @@ Possono essere importati i seguenti tipi di oggetti DXF:
 
 ### Legacy importer 
 
-This importer can import the following DXF objects:
+This importer can import the following DXF objects   *
 
 -   lines
 -   polylines (and lwpolylines)
@@ -84,7 +84,7 @@ I file vengono esportati nel formato DXF R12 che può essere gestito da molte ap
 
 ### C++ exporter 
 
-Some of the features and limitations of this exporter are:
+Some of the features and limitations of this exporter are   *
 
 -   All FreeCAD 2D geometry is exported, except [Draft CubicBezCurves](Draft_CubicBezCurve.md), [Draft BezCurves](Draft_BezCurve.md) and [Draft Points](Draft_Point.md).
 -   Straight edges from faces of 3D objects are exported, but curved edges only if they are on a plane parallel to the XY plane of the global coordinate system. Note that a DXF created from 3D objects will contain duplicate lines.
@@ -97,7 +97,7 @@ Some of the features and limitations of this exporter are:
 
 <div class="mw-translate-fuzzy">
 
-Possono essere esportati i seguenti oggetti FreeCAD:
+Possono essere esportati i seguenti oggetti FreeCAD   *
 
 -   linee e spezzate (polilinee)
 -   archi e circonferenze
@@ -117,7 +117,7 @@ Possono essere esportati i seguenti oggetti FreeCAD:
 
 Per motivi di licenza, le librerie di importazione e di esportazione [DXF](DXF/it.md) richieste non fanno parte del codice sorgente di FreeCAD.
 
-Per ulteriori informazioni, consultare: [Importare i file DXF in FreeCAD](FreeCAD_and_DXF_Import/it.md).
+Per ulteriori informazioni, consultare   * [Importare i file DXF in FreeCAD](FreeCAD_and_DXF_Import/it.md).
 
 
 </div>
@@ -127,22 +127,22 @@ Per ulteriori informazioni, consultare: [Importare i file DXF in FreeCAD](FreeCA
 
 <div class="mw-translate-fuzzy">
 
-Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
+Per ulteriori informazioni, consultare   * [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
 
 
 </div>
 
 ## DWG
 
-Because the DWG format is a proprietary, closed and undocumented format it is hard for open-source projects like FreeCAD to support it. That is why FreeCAD relies on external converters to read and write DWG files. To import a DWG file a converter is used to create a DXF first, which can then be processed by the FreeCAD DXF importer. When exporting to DWG the opposite conversion happens: the DXF created by the FreeCAD DXF exporter is turned into a DWG.
+Because the DWG format is a proprietary, closed and undocumented format it is hard for open-source projects like FreeCAD to support it. That is why FreeCAD relies on external converters to read and write DWG files. To import a DWG file a converter is used to create a DXF first, which can then be processed by the FreeCAD DXF importer. When exporting to DWG the opposite conversion happens   * the DXF created by the FreeCAD DXF exporter is turned into a DWG.
 
-Note that the DXF format allows a 1:1 conversion of the DWG format. All applications that can read and write DWG files can do the same with DXF files, with no data loss. So asking for DXF files instead of DWG files, and supplying DXF files in turn, should not cause any problems.
+Note that the DXF format allows a 1   *1 conversion of the DWG format. All applications that can read and write DWG files can do the same with DXF files, with no data loss. So asking for DXF files instead of DWG files, and supplying DXF files in turn, should not cause any problems.
 
-There is built-in support for the following DWG converters:
+There is built-in support for the following DWG converters   *
 
--   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
--   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
--   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
+-   [LibreDWG](https   *//www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
+-   [ODA File Converter](https   *//www.opendesign.com/guestfiles/oda_file_converter) (free).
+-   [QCAD pro](https   *//qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
 
 See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 
@@ -154,7 +154,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -164,7 +164,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 <div class="mw-translate-fuzzy">
 
-Si possono esportare elementi in DXF usando la seguente funzione:
+Si possono esportare elementi in DXF usando la seguente funzione   *
 
 
 </div>
@@ -174,9 +174,9 @@ Si possono esportare elementi in DXF usando la seguente funzione:
 importDXF.export(objectslist, filename, nospline=False, lwPoly=False)
 ```
 
--   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+-   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
 
-Esempio:
+Esempio   *
 
 
 ```python
@@ -203,6 +203,11 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:MeshPart CreateFlatMesh
-   Name/fr:Mesh Développer un maillage
-   MenuLocation:Maillages → Développer le maillage
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Développer la face](MeshPart_CreateFlatFace/fr.md)
+- GuiCommand   */fr
+   Name   *MeshPart CreateFlatMesh
+   Name/fr   *Mesh Développer un maillage
+   MenuLocation   *Maillages → Développer le maillage
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso   *[Mesh Développer la face](MeshPart_CreateFlatFace/fr.md)
 ---
 
 # MeshPart CreateFlatMesh/fr
@@ -23,7 +23,7 @@ La commande **Mesh Développer un maillage** crée une représentation plate d\'
 
 ## Propriétés
 
-Voir: [Part Feature](Part_Feature/fr.md).
+Voir   * [Part Feature](Part_Feature/fr.md).
 
 
 

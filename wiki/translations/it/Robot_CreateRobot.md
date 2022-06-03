@@ -1,6 +1,6 @@
 # Robot CreateRobot/it
 ---
-- GuiCommand:/it   Name:Robot CreateRobot   Name/it:Inserisci un robot   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Inserisci un robot---
+- GuiCommand   */it   Name   *Robot CreateRobot   Name/it   *Inserisci un robot   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Inserisci un robot---
 
 
 </div>
@@ -14,16 +14,16 @@ Inserisce un nuovo Robot (KUKA IR500) nella scena.
 
 #### Utilizzo
 
-Cliccare su <img alt="" src=images/Robot_CreateRobot.png  style="width:32px;"> per inserire un robot KUKA IR500 nella scena.
+Cliccare su <img alt="" src=images/Robot_CreateRobot.png  style="width   *32px;"> per inserire un robot KUKA IR500 nella scena.
 
 
 </div>
 
-1.  Click on <img alt="" src=images/Robot_CreateRobot.svg  style="width:32px;"> to insert a KUKA IR500 robot into the scene.
+1.  Click on <img alt="" src=images/Robot_CreateRobot.svg  style="width   *32px;"> to insert a KUKA IR500 robot into the scene.
 2.  Inserting different/more robots can be done in two ways via the
     -   Selecting **Robot** → **Insert Robots** from the top menu.
 
-    :   **OR**
+       *   **OR**
 
     -   Make sure a new document is/was created and activated (activate via double-click on document in [tree view](Tree_view.md)).
     -   Switch to the \"Tasks\"-Tab in the [tree view](Tree_view.md)).

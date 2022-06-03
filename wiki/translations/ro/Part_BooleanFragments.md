@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Part BooleanFragments
-   MenuLocation:Part → Split → Boolean Fragments
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.17
-   SeeAlso:[Part Slice](Part_Slice.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
+- GuiCommand   *
+   Name   *Part BooleanFragments
+   MenuLocation   *Part → Split → Boolean Fragments
+   Workbenches   *[Part](Part_Workbench.md)
+   Version   *0.17
+   SeeAlso   *[Part Slice](Part_Slice.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
 ---
 
 # Part BooleanFragments/ro
@@ -42,9 +42,9 @@ Forma de ieșire este întotdeauna un compus. Conținutul compusului depinde de 
 
 </div>
 
-Instrumentul are trei moduri: \"Standard\", \"Split\" și \"CompSolid\".
+Instrumentul are trei moduri   * \"Standard\", \"Split\" și \"CompSolid\".
 
-\"Standard\" și \"Split\" diferă de acțiunea instrumentului pe fire/polilinii, shells și compsolids: dacă este \"Split\", acestea sunt separate; dacă este \"Standard\", acestea sunt păstrate împreună (obțineți segmente suplimentare).
+\"Standard\" și \"Split\" diferă de acțiunea instrumentului pe fire/polilinii, shells și compsolids   * dacă este \"Split\", acestea sunt separate; dacă este \"Standard\", acestea sunt păstrate împreună (obțineți segmente suplimentare).
 
 Structura de comprimare în modurile \"Standard\" și \"Split\" urmează structura de compunere a intrărilor. Adică, dacă se alimentează cu doi compuși, fiecare conținând o sferă ca în exemplul de mai sus, rezultatul va conține de asemenea doi compuși, fiecare conținând bucățile sferei conținute inițial. Aceasta înseamnă că piesa comună va fi repetată de două ori în rezultat. Numai în cazul în care shperes de intrare ambele nu sunt în compuși, rezultatul va conține piesa comună o singură dată.
 
@@ -82,11 +82,11 @@ Se creează un obiect parametru Boolean Fragments. Obiectele originale sunt ascu
 
 {{TitleProperty|Boolean Fragments}}
 
--    **Objects**:Lista obiectelor care urmează să fie intersectate. În general, sunt necesare cel puțin două obiecte, dar un singur compus care conține formele care se intersectează va face și el. (din FreeCAD v0.17.8053, această proprietate nu este afișată în editorul de proprietăți și poate fi accesată numai prin Python).
+-    **Objects**   *Lista obiectelor care urmează să fie intersectate. În general, sunt necesare cel puțin două obiecte, dar un singur compus care conține formele care se intersectează va face și el. (din FreeCAD v0.17.8053, această proprietate nu este afișată în editorul de proprietăți și poate fi accesată numai prin Python).
 
--    {{PropertyData | Mod}}: \"Standard\", \"Split\" sau \"CompSolid\". \"Standard\" este implicit. Standard și Split diferă prin acțiunea instrumentului pe formele de tip agregate: dacă sunt separate, acestea sunt separate; altfel ele sunt păstrate împreună (obțineți segmente suplimentare).
+-    {{PropertyData | Mod}}   * \"Standard\", \"Split\" sau \"CompSolid\". \"Standard\" este implicit. Standard și Split diferă prin acțiunea instrumentului pe formele de tip agregate   * dacă sunt separate, acestea sunt separate; altfel ele sunt păstrate împreună (obțineți segmente suplimentare).
 
--    {{PropertyData | Tolerance}}: valoarea \"fuzziness\". Aceasta este o toleranță suplimentară aplicabilă în cazul căutării intersecțiilor, pe lângă toleranțele stocate în formele de intrare.
+-    {{PropertyData | Tolerance}}   * valoarea \"fuzziness\". Aceasta este o toleranță suplimentară aplicabilă în cazul căutării intersecțiilor, pe lângă toleranțele stocate în formele de intrare.
 
 
 </div>
@@ -98,7 +98,7 @@ Se creează un obiect parametru Boolean Fragments. Obiectele originale sunt ascu
 
 ## Implementarea detaliilor 
 
-Funcția Boolean Fragments (\"Fragmente booleene\") în modul \"Standard\" este operatorul general al siguranței OpenCascade (GFA). Acceptă o combinație de probabil toate tipurile de forme, iar logica ieșirii este destul de complicată. Vedeți [OpenCascade user guide: Boolean operations](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
+Funcția Boolean Fragments (\"Fragmente booleene\") în modul \"Standard\" este operatorul general al siguranței OpenCascade (GFA). Acceptă o combinație de probabil toate tipurile de forme, iar logica ieșirii este destul de complicată. Vedeți [OpenCascade user guide   * Boolean operations](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 
 
 </div>
@@ -110,7 +110,7 @@ Pentru modurile \"Split\" și \"CompSolid\", post-procesarea suplimentară este 
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție:
+Instrumentul poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție   *
 
 
 </div>
@@ -120,14 +120,14 @@ Instrumentul poate fi utilizat în [macros](macros.md) și din consola python ut
 -   Creează o funcție()onalitate BooleanFragments vidă. Proprietatea \"Obiecte\" trebuie să fie atribuită în mod explicit, după aceea.
 -   Returnează obiectul nou creat.
 
-BooleanFragments poate fi aplicată și în forme simple, fără a avea nevoie de un obiect de document, prin: {{code|code=
+BooleanFragments poate fi aplicată și în forme simple, fără a avea nevoie de un obiect de document, prin   * {{code|code=
 import BOPTools.SplitAPI
 BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 
-# OR, for Standard mode:
+# OR, for Standard mode   *
 
 list_of_shapes = [App.ActiveDocument.Sphere.Shape, App.ActiveDocument.Sphere001.Shape]
-pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1:], tolerance)
+pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1   *], tolerance)
 # pieces receives a compound of shapes; map receives a list of lists of shapes, defining list_of_shapes <--> pieces correspondence 
 }} Acest lucru poate fi util pentru crearea de caracteristici scripturi personalizate Python.
 

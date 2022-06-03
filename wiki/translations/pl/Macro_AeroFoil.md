@@ -1,15 +1,15 @@
 # Macro AeroFoil/pl
 {{Macro/pl
 |Name=Macro AeroFoil
-|Name/pl=Makrodefinicja: Skrzydło samolotu
+|Name/pl=Makrodefinicja   * Skrzydło samolotu
 |Icon=AeroFoil.png
 |Description=Makrodefinicja Skrzydło samolotu tworzy krzywe i powierzchnie profilu lotniczego używając predefiniowanych modeli, funkcji algebraicznych oraz plików DAT lub CSV.
 |Author=Melwyncarlo
 |Date=2021-03-10
 |Version=2.0.1
 |FCVersion=<small>(v0.17)</small> 
-|Download=[https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]
-|Links=[https://github.com/melwyncarlo/AeroFoil Personal Github - AeroFoil]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation FC Github - AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 forum FreeCAD - AeroFoil]
+|Download=[https   *//github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]
+|Links=[https   *//github.com/melwyncarlo/AeroFoil Personal Github - AeroFoil]<br>[https   *//github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation FC Github - AeroFoil]<br>[https   *//forum.freecadweb.org/viewtopic.php?f=22&t=56162 forum FreeCAD - AeroFoil]
 }}
 
 ## Opis
@@ -36,7 +36,7 @@ Makro Skrzydło samolotu można pobrać za pomocą wbudowany w program FreeCAD [
 
 ####  Dodatkowe właściwości {{VersionPlus/pl|0.19}} 
 
-Właściwości obiektu Skrzydło samolotu *(tylko do odczytu)* :
+Właściwości obiektu Skrzydło samolotu *(tylko do odczytu)*    *
 {{Properties Title/pl|Podstawowe}}
 
 -    {{PropertyData/pl|Typ Skrzydła samolotu|String}}
@@ -51,24 +51,24 @@ Właściwości obiektu Skrzydło samolotu *(tylko do odczytu)* :
 -    {{PropertyData/pl|Liczba punktów|Integer}}
     
 
-\[\[<File:AeroFoil-output-types.gif%7Cframe%7Ccenter%7Calt=AeroFoil-output-types.gif>\|
+\[\[<File   *AeroFoil-output-types.gif%7Cframe%7Ccenter%7Calt=AeroFoil-output-types.gif>\|
 
 
-<div style="text-align: center">
+<div style="text-align   * center">
 
-Opis : Typy danych wyjściowych makrodefinicji Skrzydło samolotu
+Opis    * Typy danych wyjściowych makrodefinicji Skrzydło samolotu
 
 
 </div>
 
 \]\]
 
-\[\[<File:AeroFoil-input-types.gif%7Cframe%7Ccenter%7Calt=AeroFoil-input-types.gif>\|
+\[\[<File   *AeroFoil-input-types.gif%7Cframe%7Ccenter%7Calt=AeroFoil-input-types.gif>\|
 
 
-<div style="text-align: center">
+<div style="text-align   * center">
 
-Opis : Typy danych wejściowych makrodefinicji Skrzydło samolotu
+Opis    * Typy danych wejściowych makrodefinicji Skrzydło samolotu
 
 
 </div>
@@ -79,31 +79,31 @@ Opis : Typy danych wejściowych makrodefinicji Skrzydło samolotu
 
 ####  Linux
 
-\"Skrzydło samolotu\" można zainstalować ręcznie, podobnie jak w przypadku instalacji w systemie Windows, lub za pomocą terminala i odpowiednich poleceń wymienionych w pliku [INSTALL](https://raw.githubusercontent.com/melwyncarlo/AeroFoil/main/INSTALL.sh).
+\"Skrzydło samolotu\" można zainstalować ręcznie, podobnie jak w przypadku instalacji w systemie Windows, lub za pomocą terminala i odpowiednich poleceń wymienionych w pliku [INSTALL](https   *//raw.githubusercontent.com/melwyncarlo/AeroFoil/main/INSTALL.sh).
 
-Domyślnie terminal poleceń systemu Linux może być uruchomiony przez jednoczesne naciśnięcie następujących klawiszy:
+Domyślnie terminal poleceń systemu Linux może być uruchomiony przez jednoczesne naciśnięcie następujących klawiszy   *
 
 **Control** + **Alt** + **T**
 
 ####  Windows
 
-\"Skrzydło samolotu\" można zainstalować za pomocą następujących dwóch kroków:
+\"Skrzydło samolotu\" można zainstalować za pomocą następujących dwóch kroków   *
 
-1.  Pobierz plik [AeroFoil.zip](https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true).
+1.  Pobierz plik [AeroFoil.zip](https   *//github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true).
 2.  Wypakuj zawartość pliku ZIP do katalogu *Macro* użytkownika programu FreeCAD.
 
-Domyślnie, katalog Makro użytkownika FreeCAD powinien znajdować się w lokalizacji:
+Domyślnie, katalog Makro użytkownika FreeCAD powinien znajdować się w lokalizacji   *
 
-C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
+C   */Users/User_Name/AppData/Roaming/FreeCAD/Macro
 
 ## Użycie
 
-\"Skrzydło samolotu\" można załadować, wykonując następujące czynności:
+\"Skrzydło samolotu\" można załadować, wykonując następujące czynności   *
 
 1.  Uruchom aplikację **FreeCAD**.
 2.  Przejdź do menu **Makrodefinicje → Makrodefinicje ...**.
 3.  Kliknij na zakładkę **Makra użytkownika** w wyskakującym oknie dialogowym.
-4.  Wybierz {{FileName|AeroFoil.FCMacro}}.
+4.  Wybierz **AeroFoil.FCMacro**.
 5.  Kliknij na przycisk **Wykonaj makro**.
 
 Po załadowaniu makra Skrzydło samolotu postępuj zgodnie z instrukcjami w poszczególnych oknach dialogowych, uzupełnij odpowiednie dane wejściowe i wykonaj odpowiednią nawigację. W przypadku wystąpienia błędu lub ostrzeżenia, zostaniesz automatycznie poinformowany o tym fakcie. Jeżeli zostaniesz powiadomiony o nieoczekiwanym błędzie, poinformuj o nim, podając wersję programu FreeCAD, opisując podjęte kroki i informując, czy *(i w jakim stopniu)* został wygenerowany jakikolwiek wynik.
@@ -116,10 +116,10 @@ Po załadowaniu makra Skrzydło samolotu postępuj zgodnie z instrukcjami w posz
           
    
 
-####  Wskazówki, o których należy pamiętać podczas pracy: 
+####  Wskazówki, o których należy pamiętać podczas pracy   * 
 
 1.  Dla profili NACA, dwie ostatnie cyfry *(łącznie)* nie mogą mieć wartości zero; grubość nie może być wartością zerową.
-2.  Pięciocyfrowe profile NACA są ograniczone do następujących modeli *(\"XX\" oznacza dwie ostatnie cyfry, grubość, profilu lotniczego)*:
+2.  Pięciocyfrowe profile NACA są ograniczone do następujących modeli *(\"XX\" oznacza dwie ostatnie cyfry, grubość, profilu lotniczego)*   *
     -   210XX
     -   220XX
     -   221XX
@@ -140,12 +140,12 @@ Po załadowaniu makra Skrzydło samolotu postępuj zgodnie z instrukcjami w posz
 11. Zwiększanie parametrów **refine** i **quantity**\' zwiększa czas obliczeń i zasoby.
 12. Bezwzględna długość cięciwy, w milimetrach, nie może być mniejsza niż **1mm**.
 
-\[\[<File:AeroFoil-preset-functions.png%7Cframe%7Ccenter%7Calt=AeroFoil-preset-functions.png>\|
+\[\[<File   *AeroFoil-preset-functions.png%7Cframe%7Ccenter%7Calt=AeroFoil-preset-functions.png>\|
 
 
-<div style="text-align: center">
+<div style="text-align   * center">
 
-Podpis: Wstępnie zdefiniowane znaki i funkcje
+Podpis   * Wstępnie zdefiniowane znaki i funkcje
 
 
 </div>
@@ -159,72 +159,63 @@ Podpis: Wstępnie zdefiniowane znaki i funkcje
 
 __Title__         = "AeroFoil"
 __Author__        = "Melwyncarlo"
-__Version__       = "2.0.1"
-__Date__          = "2021-03-10"
-__Comment__       = "AeroFoil creates airfoil curves and faces using " \
-                    "pre-defined models, algebraic functions, "\
-                    "and DAT or CSV Files"
-__Web__           = "https://github.com/melwyncarlo/AeroFoil"
-__Wiki__          = "http://www.freecadweb.org/wiki/index.php?title=Macro_AeroFoil"
+__Version__       = "2.0.0"
+__Date__          = "2021-03-09"
+__Comment__       = "AeroFoil creates airfoil curves and faces using pre-defined models, algebraic functions, and DAT or CSV Files"
+__Web__           = "https   *//github.com/melwyncarlo/AeroFoil"
+__Wiki__          = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_AeroFoil"
 __Icon__          = "AeroFoil_UI_Files/AeroFoil.svg"
-__Help__          = "Click on the AeroFoil button/macro, and follow the "\
-                    "instructions in the subsequent dialog boxes."
+__Help__          = "Click on the AeroFoil button/macro, and follow the instructions in the subsequent dialog boxes."
 __Status__        = "stable"
 __Requires__      = "Freecad >= v0.17"
-__Communication__ = "https://github.com/melwyncarlo/AeroFoil/issues"
-__Files__         = "AeroFoil_UI_Files/AeroFoil_Initial_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_NACA4Digit_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_NACA5Digit_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_CurvesInput_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_PointsInput_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_DATInput_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_CSVInput_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_FileLoad_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_Final_Dialog.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_Math_Functions_Box.ui, "\
-                    "AeroFoil_UI_Files/AeroFoil_mfb_img.gif, "\
-                    "AeroFoil_UI_Files/AeroFoil.svg"
+__Communication__ = "https   *//github.com/melwyncarlo/AeroFoil/issues"
+__Files__         = "AeroFoil_UI_Files/AeroFoil_Initial_Dialog.ui, AeroFoil_UI_Files/AeroFoil_NACA4Digit_Dialog.ui, \
+AeroFoil_UI_Files/AeroFoil_NACA5Digit_Dialog.ui, AeroFoil_UI_Files/AeroFoil_CurvesInput_Dialog.ui, \
+AeroFoil_UI_Files/AeroFoil_PointsInput_Dialog.ui, AeroFoil_UI_Files/AeroFoil_DATInput_Dialog.ui, \
+AeroFoil_UI_Files/AeroFoil_CSVInput_Dialog.ui, AeroFoil_UI_Files/AeroFoil_FileLoad_Dialog.ui, \
+AeroFoil_UI_Files/AeroFoil_Final_Dialog.ui, AeroFoil_UI_Files/AeroFoil_Math_Functions_Box.ui, \
+AeroFoil_UI_Files/AeroFoil_mfb_img.gif, AeroFoil_UI_Files/AeroFoil.svg"
 
 
 
-#  OS: Ubuntu 18.04.5 LTS
-#  Word size of OS: 64-bit
-#  Word size of FreeCAD: 64-bit
-#  Version: 0.18.4.
-#  Build type: Release
-#  Python version: 3.6.8
-#  Qt version: 5.9.5
-#  Coin version: 4.0.0a
-#  OCC version: 7.3.0
-#  Locale: English/UnitedKingdom (en_GB)
+#  OS   * Ubuntu 18.04.5 LTS
+#  Word size of OS   * 64-bit
+#  Word size of FreeCAD   * 64-bit
+#  Version   * 0.18.4.
+#  Build type   * Release
+#  Python version   * 3.6.8
+#  Qt version   * 5.9.5
+#  Coin version   * 4.0.0a
+#  OCC version   * 7.3.0
+#  Locale   * English/UnitedKingdom (en_GB)
 
-#  OS: Ubuntu 18.04.5 LTS (LXDE/Lubuntu)
-#  Word size of OS  : 64-bit
-#  Word size of FreeCAD: 64-bit
-#  Version: 0.19
-#  Build type: Release
-#  Branch: unknown
-#  Hash: 32200b604d421c4dad527fe587a7d047cf953b4f
-#  Python version: 3.6.9
-#  Qt version: 5.9.5
-#  Coin versio: 4.0.0a
-#  OCC version: 7.3.0
-#  Locale: English/UnitedKingdom (en_GB)
+#  OS   * Ubuntu 18.04.5 LTS (LXDE/Lubuntu)
+#  Word size of OS     * 64-bit
+#  Word size of FreeCAD   * 64-bit
+#  Version   * 0.19
+#  Build type   * Release
+#  Branch   * unknown
+#  Hash   * 32200b604d421c4dad527fe587a7d047cf953b4f
+#  Python version   * 3.6.9
+#  Qt version   * 5.9.5
+#  Coin versio   * 4.0.0a
+#  OCC version   * 7.3.0
+#  Locale   * English/UnitedKingdom (en_GB)
 
 
 
 }}
 
 
-{{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/AeroFoil/main/AeroFoil.FCMacro}}
+{{Codeextralink|https   *//raw.githubusercontent.com/melwyncarlo/AeroFoil/main/AeroFoil.FCMacro}}
 
 ## Odnośniki internetowe 
 
-\[1\] [repozytorium Github dla AeroFoil](https://github.com/melwyncarlo/AeroFoil)
-\[2\] [FreeCAD Macros Github Repository - AeroFoil](https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation)
-\[3\] [dyskusja na forum FreeCAD, o - AeroFoil](https://forum.freecadweb.org/viewtopic.php?f=22&t=56162)
-\[4\] [Airfoil Tools](http://airfoiltools.com/) zawiera około 1638 różnych profili lotniczych.
-\[5\] [Baza danych współrzędnych profili lotniczych UIUC](https://m-selig.ae.illinois.edu/ads/coord_database.html) zawiera około 1600 różnych profili lotniczych.
+\[1\] [repozytorium Github dla AeroFoil](https   *//github.com/melwyncarlo/AeroFoil)
+\[2\] [FreeCAD Macros Github Repository - AeroFoil](https   *//github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation)
+\[3\] [dyskusja na forum FreeCAD, o - AeroFoil](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=56162)
+\[4\] [Airfoil Tools](http   *//airfoiltools.com/) zawiera około 1638 różnych profili lotniczych.
+\[5\] [Baza danych współrzędnych profili lotniczych UIUC](https   *//m-selig.ae.illinois.edu/ads/coord_database.html) zawiera około 1600 różnych profili lotniczych.
 
 
 

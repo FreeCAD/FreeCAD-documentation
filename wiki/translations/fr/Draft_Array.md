@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Array
-   Name/fr:Draft Réseau
-   MenuLocation:Draft → Réseau
-   Workbenches:[Draft](Draft_Workbench/fr.md)
-   SeeAlso:[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Matrice de points](Draft_PointArray/fr.md), [Draft Clone](Draft_Clone/fr.md)
+- GuiCommand   */fr
+   Name   *Draft Array
+   Name/fr   *Draft Réseau
+   MenuLocation   *Draft → Réseau
+   Workbenches   *[Draft](Draft_Workbench/fr.md)
+   SeeAlso   *[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Matrice de points](Draft_PointArray/fr.md), [Draft Clone](Draft_Clone/fr.md)
 ---
 
 # Draft Array/fr
@@ -53,11 +53,11 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 ## Propriétés
 
--    {{PropertyData/fr|Base}}: spécifie l\'objet à dupliquer dans le tableau.
+-    {{PropertyData/fr|Base}}   * spécifie l\'objet à dupliquer dans le tableau.
 
--    {{PropertyData/fr|Array Type|Enumeration}}: spécifie le type de tableau à créer, {{value|"ortho"}}, {{value|"polar"}}, ou {{value|"circular"}}.
+-    {{PropertyData/fr|Array Type|Enumeration}}   * spécifie le type de tableau à créer, {{value|"ortho"}}, {{value|"polar"}}, ou {{value|"circular"}}.
 
--    {{PropertyData/fr|Fuse}}: si elle est réglée sur `True` et que les copies se croisent, elles seront fusionnées en une seule forme.
+-    {{PropertyData/fr|Fuse}}   * si elle est réglée sur `True` et que les copies se croisent, elles seront fusionnées en une seule forme.
 
 
 </div>
@@ -70,7 +70,7 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Draft API](Draft_API/fr.md) et [FreeCAD Scripts de base](FreeCAD_Scripting_Basics/fr.md).
 

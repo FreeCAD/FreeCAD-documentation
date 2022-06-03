@@ -7,9 +7,9 @@
 |Version=0.2022.05.01
 |Date=2022-05-01
 |FCVersion=Python 3 versions
-|Download=[https://wiki.freecadweb.org/File:Macro_Joint_Icon.svg ToolBar Icon]
+|Download=[https   *//wiki.freecadweb.org/File   *Macro_Joint_Icon.svg ToolBar Icon]
 |SeeAlso=
-|Links=[https://github.com/mwganson/joint Full Documentation on Github]
+|Links=[https   *//github.com/mwganson/joint Full Documentation on Github]
 }}
 
 ## Description
@@ -18,7 +18,7 @@ This macro is used to create joints of various types, including mortise and teno
 
 The macro works in [Part Design Workbench](PartDesign_Workbench.md), but also with solids created in any other workbench.
 
-Full documentation can be found on github: [Joint](https://github.com/mwganson/joint).
+Full documentation can be found on github   * [Joint](https   *//github.com/mwganson/joint).
 
 ## Usage
 
@@ -30,7 +30,7 @@ Full documentation can be found on github: [Joint](https://github.com/mwganson/j
 6.  A parametric joint object is created.
 7.  Optionally change the properties of the joint object.
 
- <img alt="" src=images/Macro_joint_scr1.png  style="width:400px;">  
+ <img alt="" src=images/Macro_joint_scr1.png  style="width   *400px;">  
 *Macro Joint screenshot -- a few of the joint types that can be made‎*
 
 ## Legend
@@ -44,7 +44,7 @@ ToolBar Icon  ![](images/Macro_Joint_Icon.svg )
  **Macro Joint.FCMacro**
 
 
-{{CodeDownload|https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9|Joint.FCMacro}}
+{{CodeDownload|https   *//gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9|Joint.FCMacro}}
 
 
 

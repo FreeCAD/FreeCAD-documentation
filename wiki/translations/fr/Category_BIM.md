@@ -1,6 +1,8 @@
 # Category:BIM/fr
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/fr](Category   *User_Documentation/fr.md)
+
 ### Contents
 
 |     |     |     |

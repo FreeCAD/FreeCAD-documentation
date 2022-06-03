@@ -15,7 +15,7 @@
 
 ## Description
 
-Part 2D Offset constructs a wire, parallel to the original wire, at a certain distance from it. Or enlarges/shrinks a planar face, similarly.
+The <img alt="" src=images/Part_Offset2D.svg  style="width   *24px;"> **Part Offset2D** tool constructs a wire, parallel to the original wire, at a certain distance from it. Or enlarges/shrinks a planar face, similarly.
 
 The wire/face must be planar. There can be multiple wires in one object, not necessarily coplanar.
 
@@ -23,11 +23,10 @@ The wire/face must be planar. There can be multiple wires in one object, not nec
 
 ## Usage
 
-1.  Select an object to offset
-2.  Press the **[<img src=images/Part_Offset2D.svg style="width   *24px">** **Offset2D** button.
+1.  Select an object to offset.
+2.  Press the **<img src="images/Part_Offset2D.svg" width=16px> [2D Offset](Part_Offset2D.md)** button.
 3.  Set up the offset in the [Task Panel](Task_panel.md).
 4.  Press **OK**.
-5.  A 2D Offset parametric object is created. Original objects are switched to wireframe display mode.
 
 ## Notes
 

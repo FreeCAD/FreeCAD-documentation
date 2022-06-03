@@ -1,15 +1,15 @@
 # Mesh API/pl
 {{VeryImportantMessage
-|''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
+|''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https   *//www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
-Obiektami Siatek można manipulować poprzez dodawanie nowych elementów, usuwanie elementów, importowanie z pliku STL, przekształcanie siatki i wiele więcej. Dla pełnego przeglądu tego, co można zrobić zobacz także dokumentację środowiska pracy [Siatka](Mesh_Workbench/pl.md). Obiekt siatki nie może być dodany bezpośrednio do istniejącego dokumentu. Dlatego dokument musi tworzyć obiekt z klasą właściwości, która obsługuje siatki. Przykład:
+Obiektami Siatek można manipulować poprzez dodawanie nowych elementów, usuwanie elementów, importowanie z pliku STL, przekształcanie siatki i wiele więcej. Dla pełnego przeglądu tego, co można zrobić zobacz także dokumentację środowiska pracy [Siatka](Mesh_Workbench/pl.md). Obiekt siatki nie może być dodany bezpośrednio do istniejącego dokumentu. Dlatego dokument musi tworzyć obiekt z klasą właściwości, która obsługuje siatki. Przykład   *
 
 
 ```python
 m = Mesh.Mesh()
 ... # Operowanie siatką
 d = FreeCAD.activeDocument() # Uzyskaj dostęp do aktywnego dokumentu
-f = d.addObject("Mesh::Feature", "Mesh") # Utwórz cechę siatki
+f = d.addObject("Mesh   *   *Feature", "Mesh") # Utwórz cechę siatki
 f.Mesh = m # Przypisanie obiektu siatki do właściwości wewnętrznej
 d.recompute()
 ```
@@ -213,10 +213,10 @@ d.recompute()
 {{APIProperty|CountPoints|Liczba punktów obiektu siatki}}
 
 
-{{APIProperty|Facets|Zbiór wielokątów. Za pomocą tego atrybutu można uzyskać dostęp do wielokątów siatki: for f in mesh.Facets: print f. Facet.Points jest listą krotek współrzędnych dla wierzchołków. Facet.PointIndices jest listą indeksów dla wierzchołków wielokątów. UWAGA! Przechowuj Wielokąty w zmiennej lokalnej, ponieważ jest ona generowana w locie, za każdym razem gdy jest dostępna}}
+{{APIProperty|Facets|Zbiór wielokątów. Za pomocą tego atrybutu można uzyskać dostęp do wielokątów siatki   * for f in mesh.Facets   * print f. Facet.Points jest listą krotek współrzędnych dla wierzchołków. Facet.PointIndices jest listą indeksów dla wierzchołków wielokątów. UWAGA! Przechowuj Wielokąty w zmiennej lokalnej, ponieważ jest ona generowana w locie, za każdym razem gdy jest dostępna}}
 
 
-{{APIProperty|Points|Kolekcja punktów siatki; Dzięki temu atrybutowi można uzyskać dostęp do punktów siatki: for p in mesh.Points: print p.x, p.y, p.z,p.Index.UWAGA! przechowuj Punkty w zmiennej lokalnej, ponieważ jest ona generowana w locie, przy każdym dostępie}}
+{{APIProperty|Points|Kolekcja punktów siatki; Dzięki temu atrybutowi można uzyskać dostęp do punktów siatki   * for p in mesh.Points   * print p.x, p.y, p.z,p.Index.UWAGA! przechowuj Punkty w zmiennej lokalnej, ponieważ jest ona generowana w locie, przy każdym dostępie}}
 
 
 {{APIProperty|Topology|Punkty i indeksy wierzchołków jako krotki. Topology[0] jest listą wszystkich wierzchołków. Każdy z nich jest krotką 3 współrzędnych. Topology[1] jest listą wszystkich wielokątów. Każdy z nich jest listą indeksów wierzchołków w Topology[0] UWAGA! przechowuj Topology w zmiennej lokalnej, ponieważ jest ona generowana w locie, za każdym razem, gdy jest dostępna.}}
@@ -232,6 +232,11 @@ d.recompute()
 
 
 {{APIProperty|Placement|Aktualne przekształcenie obiektu jako umieszczenie}}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

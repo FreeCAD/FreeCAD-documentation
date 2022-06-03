@@ -1,5 +1,5 @@
 # API documentation/tr
-1.  REDIRECT [:Category:API/tr](:Category:API/tr.md)
+1.  REDIRECT [   *Category   *API/tr](   *Category   *API/tr.md)
 
 
 

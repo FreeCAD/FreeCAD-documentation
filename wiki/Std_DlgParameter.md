@@ -1,16 +1,16 @@
 ---
-- GuiCommand:
-   Name:Std DlgParameter
-   MenuLocation:Tools → Edit parameters...
-   Workbenches:All
-   SeeAlso:[Preferences Editor](Preferences_Editor.md)
+- GuiCommand   *
+   Name   *Std DlgParameter
+   MenuLocation   *Tools → Edit parameters...
+   Workbenches   *All
+   SeeAlso   *[Preferences Editor](Preferences_Editor.md)
 ---
 
 # Std DlgParameter
 
 ## Description
 
-The **Std DlgParameter** command opens the Parameter Editor. In the Parameter Editor the parameters that control the behavior of FreeCAD and its workbenches can be inspected and optionally removed, added or changed. The parameters are stored in a file called {{FileName|user.cfg}}, the location of this file depends on your OS.
+The **Std DlgParameter** command opens the Parameter Editor. In the Parameter Editor the parameters that control the behavior of FreeCAD and its workbenches can be inspected and optionally removed, added or changed. The parameters are stored in a file called **user.cfg**, the location of this file depends on your OS.
 
 Working with the Parameter Editor requires some experience. For the most common parameters you can also use the more convenient [Preferences Editor](Preferences_Editor.md).
 
@@ -21,7 +21,7 @@ Working with the Parameter Editor requires some experience. For the most common 
 
 1.  Select the **Tools → <img src="images/Std_DlgParameter.svg" width=16px> Edit parameters...** option from the menu.
 2.  The Parameter Editor dialog box opens. For more information see [Options](#Options.md).
-3.  Optionally press the **Save to disk** button to immediately update the {{FileName|user.cfg}} file. This is not required as FreeCAD will automatically update that file when the application closes.
+3.  Optionally press the **Save to disk** button to immediately update the **user.cfg** file. This is not required as FreeCAD will automatically update that file when the application closes.
 4.  Press the **Close** button to close the Parameter Editor.
 
 ## Options
@@ -30,7 +30,7 @@ Working with the Parameter Editor requires some experience. For the most common 
 
 The left panel shows a tree with parameter groups and sub-groups.
 
-*The following options are available in the panel\'s context menu:*
+*The following options are available in the panel\'s context menu   **
 
 #### Expand/Collapse
 
@@ -74,7 +74,7 @@ The left panel shows a tree with parameter groups and sub-groups.
 
 The right panel shows the parameters in the group selected in the left panel. If this group only contains sub-groups the right panel will be empty.
 
-*The following options are available in the panel\'s context menu:*
+*The following options are available in the panel\'s context menu   **
 
 #### Change value 
 
@@ -150,16 +150,16 @@ Typing a (partial) string in this input box will fully expand the tree in the le
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the  
 ```python
-# get:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+# get   *
+App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set   *
+App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
 ```
 
 Finding which parameter is used to store which option from the Preferences editor can require searching a bit, but the [Parameter Editor](Std_DlgParameter.md) offers a search facility, which should help.

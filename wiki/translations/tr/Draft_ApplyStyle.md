@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Apply
-   Name/tr:Stili uygula
-   MenuLocation:Taslak→ Araçlar → Stili uygula
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   SeeAlso:[Tepsi](Draft_Tray/tr.md)
+- GuiCommand   */tr
+   Name   *Draft Apply
+   Name/tr   *Stili uygula
+   MenuLocation   *Taslak→ Araçlar → Stili uygula
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   SeeAlso   *[Tepsi](Draft_Tray/tr.md)
 ---
 
 # Draft ApplyStyle/tr
@@ -24,7 +24,7 @@ Bu araç seçili nesnelere geçerli çizgi ve yüz rengini ve çizgi stilini uyg
 
 </div>
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
+This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers   *
 
 -    **Line color**
     

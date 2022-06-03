@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:OpenSCAD RefineShapeFeature
-   MenuLocation:OpenSCAD → Refine Shape Feature
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part RefineShape](Part_RefineShape.md)
+- GuiCommand   *
+   Name   *OpenSCAD RefineShapeFeature
+   MenuLocation   *OpenSCAD → Refine Shape Feature
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso   *[Part RefineShape](Part_RefineShape.md)
 ---
 
 # OpenSCAD RefineShapeFeature/en
@@ -24,7 +24,7 @@ Cleans unnecessary lines. After a Boolean operation some lines defining the prev
 ## Limitations
 
 -   The refinement algorithm only works on shells. Therefore it iterates over the shells of the input shape and then for each shell it creates a new shell with joined faces wherever possible. This means if your input shape is only a face, wire, edge or vertex then the algorithm does nothing.
--   As opposed to <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part RefineShape](Part_RefineShape.md) in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) workbench, this feature **WILL** update when the underlying shapes are changed.
+-   As opposed to <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Part RefineShape](Part_RefineShape.md) in the <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench.md) workbench, this feature **WILL** update when the underlying shapes are changed.
 
 ## Notes
 

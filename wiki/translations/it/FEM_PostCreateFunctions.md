@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:FEM CompPostCreateFunctions
-   Name/it:Fem CompPostCreateFunctions
-   MenuLocation: Risultati → Filter Functions
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+- GuiCommand   */it
+   Name   *FEM CompPostCreateFunctions
+   Name/it   *Fem CompPostCreateFunctions
+   MenuLocation   * Risultati → Filter Functions
+   Workbenches   *[FEM](FEM_Workbench/it.md)
+   Shortcut   *
+   SeeAlso   *[Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM PostCreateFunctions/it
@@ -22,8 +22,8 @@
 
 ToDo
 
--   <img alt="" src=images/Fem-sphere.svg  style="width:32px;"> :
--   <img alt="" src=images/Fem-plane.svg  style="width:32px;"> :
+-   <img alt="" src=images/Fem-sphere.svg  style="width   *32px;">    *
+-   <img alt="" src=images/Fem-plane.svg  style="width   *32px;">    *
 
 
 </div>

@@ -1,12 +1,12 @@
 # TopoShape API/fr
-{{VeryImportantMessage | (novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement].}}
+{{VeryImportantMessage | (novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière API, consultez la [https   *//www.freecadweb.org/api documentation de l'API générée automatiquement].}}
 
 L\'objet TopoShape est l\'objet principal du Module Part. Tous les types de formes (fil, face, solide, etc\...) du module part sont des TopoShapes, et, partagent les attributs, et, méthodes suivantes. 
 ```python
 import Part
 sh = Part.makeBox(10,10,10)
 print sh.Faces
-for f in sh.Faces:
+for f in sh.Faces   *
    print f.Edges
 ```
 
@@ -146,7 +146,7 @@ for f in sh.Faces:
 {{APIFunction/fr|makePipeShell|wire|Rend un loft défini par son profil le long d'une ligne.|un TopoShape}}
 
 
-{{APIFunction/fr|makeShapeFromMesh|mesh|Fait une forme composée de données de maillage. Remarque : Cela devrait être utilisé plutôt pour de petites mailles.|un TopoShape}}
+{{APIFunction/fr|makeShapeFromMesh|mesh|Fait une forme composée de données de maillage. Remarque    * Cela devrait être utilisé plutôt pour de petites mailles.|un TopoShape}}
 
 
 {{APIFunction/fr|makeThickness|list,float,float|Un solide évidé est construit à partir d'un solide initial, et, un ensemble de faces sur ce solide, qui doivent être éliminés. Les faces restantes du solide deviennent les murs du solide évidé, leur épaisseur est définie au moment de la construction. Les arguments à transmettre sont une liste des faces à ignorer, l'épaisseur des murs, et, une valeur de tolérance.|un TopoShape}}
@@ -164,10 +164,10 @@ for f in sh.Faces:
 {{APIFunction/fr|reverse| |Inverse l'orientation de cette forme.| }}
 
 
-{{APIFunction/fr|revolve|Vector, Vector, float|S'articule autour d'un axe à un degré donné. ex : Part.revolve(Vector(0,0,0),Vector(0,0,1),360) tourne la forme autour d'un axe Z de 360 degrés.|un TopoShape}}
+{{APIFunction/fr|revolve|Vector, Vector, float|S'articule autour d'un axe à un degré donné. ex    * Part.revolve(Vector(0,0,0),Vector(0,0,1),360) tourne la forme autour d'un axe Z de 360 degrés.|un TopoShape}}
 
 
-{{APIFunction/fr|rotate|Vector, Vector, float|Applique la rotation (en degré) à l'emplacement actuel de cette forme. ex : Shp.rotate(Vector(0,0,0),Vector(0,0,1),180) fait pivoter la forme autour de l'axe Z de 180 degrés.|un TopoShape}}
+{{APIFunction/fr|rotate|Vector, Vector, float|Applique la rotation (en degré) à l'emplacement actuel de cette forme. ex    * Shp.rotate(Vector(0,0,0),Vector(0,0,1),180) fait pivoter la forme autour de l'axe Z de 180 degrés.|un TopoShape}}
 
 
 {{APIFunction/fr|scale| |S'applique à l'échelle avec le point et le facteur de cette forme.|un TopoShape}}
@@ -185,7 +185,7 @@ for f in sh.Faces:
 {{APIFunction/fr|toNurbs| |Transformation de la géométrie complète d'une forme en géométrie NURBS. Par exemple, toutes les courbes soutenant les bords de la forme de base, sont convertis en courbes de BSP, et toutes les surfaces soutenant ses faces sont converties en surfaces de BSP.|a NURBS curve}}
 
 
-{{APIFunction/fr|transformGeometry|matrix|Applique la transformation géométrique sur une copie de la forme. La transformation à appliquer, est définie comme une matrice 4x4. La géométrie sous-jacente des formes suivantes peuvent être changées en courbes qui prennent en charge les extrémités de la forme, ou une surface qui prend en charge une face de la forme. Par exemple, un cercle peut être transformé en une ellipse lorsque vous appliquez une transformation d'affinité. Il peut également arriver que le cercle est alors représenté comme une courbe b-spline. La transformation s'applique à toutes les courbes qui supportent les bords de la forme et toutes les surfaces qui prennent en charge les faces de la forme. Remarque : Si vous voulez transformer une forme sans changer la géométrie sous-jacente, puis utilisez les méthodes traduites ou les faire pivoter.|un TopoShape}}
+{{APIFunction/fr|transformGeometry|matrix|Applique la transformation géométrique sur une copie de la forme. La transformation à appliquer, est définie comme une matrice 4x4. La géométrie sous-jacente des formes suivantes peuvent être changées en courbes qui prennent en charge les extrémités de la forme, ou une surface qui prend en charge une face de la forme. Par exemple, un cercle peut être transformé en une ellipse lorsque vous appliquez une transformation d'affinité. Il peut également arriver que le cercle est alors représenté comme une courbe b-spline. La transformation s'applique à toutes les courbes qui supportent les bords de la forme et toutes les surfaces qui prennent en charge les faces de la forme. Remarque    * Si vous voulez transformer une forme sans changer la géométrie sous-jacente, puis utilisez les méthodes traduites ou les faire pivoter.|un TopoShape}}
 
 
 {{APIFunction/fr|transformShape|matrix|Applique la transformation d'une forme sans changer la géométrie sous-jacente.| }}
@@ -201,7 +201,7 @@ Certains attributs et méthodes s\'appliquent uniquement à certains TopoShapes.
 Ces points s\'appliquent aux bords (TopoShapeEdge).
 
 
-{{APIProperty/fr|FirstParameter|La valeur du paramètre du bord à une extrémité. Pas nécessairement le Vertex[0]. [http://fr.wikipedia.org/wiki/%C3%89quation_param%C3%A9trique Voir équations paramétriques]}}
+{{APIProperty/fr|FirstParameter|La valeur du paramètre du bord à une extrémité. Pas nécessairement le Vertex[0]. [http   *//fr.wikipedia.org/wiki/%C3%89quation_param%C3%A9trique Voir équations paramétriques]}}
 
 
 {{APIProperty/fr|LastParameter|La valeur du paramètre du bord à l'autre extrémité. Pas nécessairement le Vertex[1].}}
@@ -226,6 +226,11 @@ Ces points s\'appliquent aux bords (TopoShapeEdge).
 
 
 {{APIFunction/fr|valueAt|Float|Retourne la valeur du vecteur correspondant au paramètre 3D.|Vector}}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

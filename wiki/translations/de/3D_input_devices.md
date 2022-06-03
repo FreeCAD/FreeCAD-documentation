@@ -3,10 +3,10 @@ FreeCAD unterstützt einige spezielle Eingabegeräte wie etwa 3D Mäuse. Diese e
 
 ## Unterstützte Hardware 
 
--   3Dconnexion [SpaceNavigator](http://www.3dconnexion.com/products/spacenavigator.html)
--   Installationanweisungen: [3D connexion Eingabegeräte](3Dconnexion_input_devices/de.md)
+-   3Dconnexion [SpaceNavigator](http   *//www.3dconnexion.com/products/spacenavigator.html)
+-   Installationanweisungen   * [3D connexion Eingabegeräte](3Dconnexion_input_devices/de.md)
 
-[category:Documentation](category_Documentation.md)
+[category   *Documentation](category_Documentation.md)
 
 
 

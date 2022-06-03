@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw RichTextAnnotation
-   Name/fr:TechDraw Annotation texte enrichi
-   MenuLocation:TechDraw → Annotations → Insérer une annotation de texte enrichi
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md), [TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw RichTextAnnotation
+   Name/fr   *TechDraw Annotation texte enrichi
+   MenuLocation   *TechDraw → Annotations → Insérer une annotation de texte enrichi
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md), [TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
 ---
 
 # TechDraw RichTextAnnotation/fr
@@ -14,7 +14,7 @@
 
 L\'outil Insérer une annotation de texte enrichi ajoute un bloc d\'annotation formaté à une [Ligne de référence](TechDraw_LeaderLine/fr.md) ou à une vue.
 
-<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;"> 
+<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width   *220px;"> 
 *Bloc de texte d'une annotation de texte enrichi*
 
 ## Utilisation
@@ -27,18 +27,18 @@ L\'outil Insérer une annotation de texte enrichi ajoute un bloc d\'annotation f
 
 ## Propriétés
 
--    {{PropertyData/fr|X, Y}}: l\'emplacement du bloc. Par rapport à la fin de la ligne si elle est attachée à un [Ligne de référence](TechDraw_LeaderLine/fr.md), sinon c\'est la position sur la page.
+-    {{PropertyData/fr|X, Y}}   * l\'emplacement du bloc. Par rapport à la fin de la ligne si elle est attachée à un [Ligne de référence](TechDraw_LeaderLine/fr.md), sinon c\'est la position sur la page.
 
--    {{PropertyData/fr|ShowFrame}}: Dessine un contour autour du bloc.
+-    {{PropertyData/fr|ShowFrame}}   * Dessine un contour autour du bloc.
 
--    {{PropertyData/fr|MaxWidth}}: Limite la taille horizontale du bloc. Une valeur de -1 correspond à une largeur illimitée.
+-    {{PropertyData/fr|MaxWidth}}   * Limite la taille horizontale du bloc. Une valeur de -1 correspond à une largeur illimitée.
 
--    {{PropertyData/fr|AnnoText}}: Le texte au format HTML du bloc.
+-    {{PropertyData/fr|AnnoText}}   * Le texte au format HTML du bloc.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
@@ -46,7 +46,7 @@ L\'outil RichTextBlock peut être utilisé dans une [macro](Macros/fr.md) ou dan
 ```python
 myPage = FreeCAD.ActiveDocument().Page
 myBase = FreeCAD.ActiveDocument().View
-blockObj = FreeCAD.ActiveDocument.addObject('TechDraw::DrawRichAnno','DrawRichAnno')
+blockObj = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawRichAnno','DrawRichAnno')
 FreeCAD.activeDocument().myPage.addView(blockObj)
 blockObj.X = 5
 blockObj.Y = 5

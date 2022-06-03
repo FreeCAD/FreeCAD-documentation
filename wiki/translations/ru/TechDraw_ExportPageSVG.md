@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Экспорт листа в SVG
-   Name:TechDraw_ExportPageSVG
-   MenuLocation:TechDraw → Экспорт листа в SVG
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Экспорт листа в SVG
+   Name   *TechDraw_ExportPageSVG
+   MenuLocation   *TechDraw → Экспорт листа в SVG
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso   *[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
 ---
 
 # TechDraw ExportPageSVG/ru
@@ -26,11 +26,11 @@ The ExportPageSVG tool saves the current drawing page as an [SVG](SVG.md) file.
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDrawGui API](TechDrawGui_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The SaveSVG tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The SaveSVG tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python

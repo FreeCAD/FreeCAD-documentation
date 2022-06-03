@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Part_FaceColors
-   Name/it:Imposta i colori
-   Empty:1
-   MenuLocation:Menu contestuale → Imposta i colori...
-   Workbenches:[Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   SeeAlso:[Aspetto](Std_SetAppearance/it.md)
+- GuiCommand   */it
+   Name   *Part_FaceColors
+   Name/it   *Imposta i colori
+   Empty   *1
+   MenuLocation   *Menu contestuale → Imposta i colori...
+   Workbenches   *[Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+   SeeAlso   *[Aspetto](Std_SetAppearance/it.md)
 ---
 
 # Part FaceColors/it
@@ -25,7 +25,7 @@ La funzione **Imposta i colori** consente di definire un colore per ogni faccia 
 Per colorare le facce
 
 1.  Fare clic con il pulsante destro del mouse su un elemento nella vista struttura. Se gli elementi supportano la funzione *FaceColors*, nel menu contestuale c\'è la voce **Imposta i colori \...** e si può fare clic su di essa.
-2.  Per selezionare le facce:
+2.  Per selezionare le facce   *
     1.  Per una singola faccia, fare semplicemente clic su di essa, quindi selezionare nella finestra di dialogo il suo colore.
     2.  Per selezionare più facce, tenere premuto **Ctrl** e fare clic su più facce.
         Oppure fare clic nella finestra di dialogo sul pulsante **Box di selezione**. Quindi è possibile trascinare con il mouse un rettangolo di selezione nel modello. Ogni faccia che è parzialmente nel rettangolo di selezione verrà selezionata.
@@ -56,6 +56,11 @@ Per ripristinare il colore di tutte le facce
 
 
 </div>
+
+
+ 
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *Command\_Reference](Category_Command_Reference.md)
 
 
 

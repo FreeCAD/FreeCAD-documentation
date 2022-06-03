@@ -1,13 +1,13 @@
 # Sketcher Preferences/fr
 {{TOCright}}
 
-Les préférences pour l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Édition → Préférences...** puis **Sketcher**.
+Les préférences pour l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Édition → Préférences...** puis **Sketcher**.
 
-Il existe trois onglets: [Général](#G.C3.A9n.C3.A9ral.md), [Affichage](#Affichage.md) et [Couleurs](#Couleurs.md).
+Il existe trois onglets   * [Général](#G.C3.A9n.C3.A9ral.md), [Affichage](#Affichage.md) et [Couleurs](#Couleurs.md).
 
 ## Général
 
-Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants:
+Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants   *
 
 +++
 | Nom                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -22,9 +22,9 @@ Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants:
 +++
 |                                                                 | Si coché, les nouveaux points s\'aligneront sur la ligne de quadrillage la plus proche. Notez que les points doivent déjà être proches d\'une ligne de quadrillage que l\'accrochage prend effet. La distance est un cinquième de la valeur définie pour la **Taille de la grille**, donc pour une grille de 10 mm, l\'accrochage se produit uniquement si le point n\'est pas à plus de 2 mm d\'une ligne de grille.                                                                  |
 | **Ancrage à la grille**                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                             | **Remarque:** Un point accroché n\'a pas de contrainte de coïncidence avec le point de grille auquel il a été accroché.                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                             | **Remarque   *** Un point accroché n\'a pas de contrainte de coïncidence avec le point de grille auquel il a été accroché.                                                                                                                                                                                                                                                                                                                                                                                          |
 +++
-|                                                                 | Si coché, l\'esquisse propose automatiquement des contraintes sensibles. Si vous dessinez par exemple une [polyligne](Sketcher_CreatePolyline/fr.md) <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:20px;"> et pointez vers le bas, vous verrez que l\'esquisse propose une contrainte verticale: <img alt="" src=images/Constraint_Vertical.svg  style="width:20px;">. Si vous définissez maintenant un point, le segment de ligne dessiné obtiendra la contrainte verticale. |
+|                                                                 | Si coché, l\'esquisse propose automatiquement des contraintes sensibles. Si vous dessinez par exemple une [polyligne](Sketcher_CreatePolyline/fr.md) <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *20px;"> et pointez vers le bas, vous verrez que l\'esquisse propose une contrainte verticale   * <img alt="" src=images/Constraint_Vertical.svg  style="width   *20px;">. Si vous définissez maintenant un point, le segment de ligne dessiné obtiendra la contrainte verticale. |
 | **Contraintes automatiques**                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 +++
@@ -63,7 +63,7 @@ Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants:
 
 ## Affichage
 
-Dans l\'onglet *Affichage*, vous pouvez spécifier les éléments suivants:
+Dans l\'onglet *Affichage*, vous pouvez spécifier les éléments suivants   *
 
 +++
 | Nom                                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -86,11 +86,11 @@ Dans l\'onglet *Affichage*, vous pouvez spécifier les éléments suivants:
 | **Demander la valeur après avoir créé une contrainte dimensionnelle**                |                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-|                                                                                   | Si coché, l\'outil de création d\'esquisse actuel restera actif après la création. Si vous utilisez par exemple l\'[outil ligne](Sketcher_CreateLine/fr.md) <img alt="" src=images/Sketcher_Line.svg  style="width:20px;">, il restera actif après avoir créé une ligne avec lui. Vous pouvez quitter l\'outil à tout moment en cliquant avec le bouton droit sur l\'esquisse.                     |
+|                                                                                   | Si coché, l\'outil de création d\'esquisse actuel restera actif après la création. Si vous utilisez par exemple l\'[outil ligne](Sketcher_CreateLine/fr.md) <img alt="" src=images/Sketcher_Line.svg  style="width   *20px;">, il restera actif après avoir créé une ligne avec lui. Vous pouvez quitter l\'outil à tout moment en cliquant avec le bouton droit sur l\'esquisse.                     |
 | **Création de géométrie en mode continu**                                            |                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-|                                                                                   | Si coché, l\'outil de création de contraintes actuel restera actif après la création. Si vous utilisez par exemple l\'[outil tangent](Sketcher_ConstrainTangent/fr.md) <img alt="" src=images/Constraint_Tangent.png  style="width:20px;">, il restera actif après avoir créé une contrainte. Vous pouvez quitter l\'outil à tout moment en cliquant avec le bouton droit sur l\'esquisse.    |
+|                                                                                   | Si coché, l\'outil de création de contraintes actuel restera actif après la création. Si vous utilisez par exemple l\'[outil tangent](Sketcher_ConstrainTangent/fr.md) <img alt="" src=images/Constraint_Tangent.png  style="width   *20px;">, il restera actif après avoir créé une contrainte. Vous pouvez quitter l\'outil à tout moment en cliquant avec le bouton droit sur l\'esquisse.    |
 | **Création de contrainte en mode continu**                                           |                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
@@ -98,7 +98,7 @@ Dans l\'onglet *Affichage*, vous pouvez spécifier les éléments suivants:
 | **Masquer les unités de longueur de base pour les systèmes d'unités pris en charge** |                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-|                                                                                   | Si cette case est cochée, le <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:20px;"> [diamètre](Sketcher_ConstrainDiameter/fr.md) sera utilisé comme contrainte par défaut pour les arcs et les cercles au lieu du <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:20px;"> [rayon](Sketcher_ConstrainRadius/fr.md).              |
+|                                                                                   | Si cette case est cochée, le <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *20px;"> [diamètre](Sketcher_ConstrainDiameter/fr.md) sera utilisé comme contrainte par défaut pour les arcs et les cercles au lieu du <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *20px;"> [rayon](Sketcher_ConstrainRadius/fr.md).              |
 | **Utiliser le diamètre comme contrainte par défaut pour les arcs et les cercles**    |                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                        |
 | {{Version/fr|0.20}}                                                                |                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -140,7 +140,7 @@ Dans l\'onglet *Affichage*, vous pouvez spécifier les éléments suivants:
 
 ## Couleurs
 
-Dans l\'onglet *Couleurs*, vous pouvez spécifier les éléments suivants:
+Dans l\'onglet *Couleurs*, vous pouvez spécifier les éléments suivants   *
 
 +++
 | Nom                                                                                               | Description                                                                                                                                                                                                                                                                                   |
@@ -230,7 +230,7 @@ Dans l\'onglet *Couleurs*, vous pouvez spécifier les éléments suivants:
 |                                                                                                   |                                                                                                                                                                                                                                                                                               |
 +++
 
-*Astuce:* La couleur des sélections dans les esquisses est le paramètre de sélection global **Enable selection highlighting**, voir le [Réglage des préférences](Preferences_Editor/fr#Couleurs.md).
+*Astuce   ** La couleur des sélections dans les esquisses est le paramètre de sélection global **Enable selection highlighting**, voir le [Réglage des préférences](Preferences_Editor/fr#Couleurs.md).
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
@@ -240,7 +240,9 @@ Dans l\'onglet *Couleurs*, vous pouvez spécifier les éléments suivants:
 
 {{Sketcher_Tools_navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

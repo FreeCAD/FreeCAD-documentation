@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Std SelForward
-   Name/fr:Std Établir
-   MenuLocation:
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Rétablir](Std_SelBack/fr.md)
+- GuiCommand   */fr
+   Name   *Std SelForward
+   Name/fr   *Std Établir
+   MenuLocation   *
+   Workbenches   *Tous
+   Version   *0.19
+   SeeAlso   *[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Rétablir](Std_SelBack/fr.md)
 ---
 
 # Std SelForward/fr

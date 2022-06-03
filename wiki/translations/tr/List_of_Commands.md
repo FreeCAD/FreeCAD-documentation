@@ -1,5 +1,5 @@
 # List of Commands/tr
-1.  REDIRECT [:Category:Command\_Reference/tr](:Category:Command_Reference/tr.md)
+1.  REDIRECT [   *Category   *Command\_Reference/tr](   *Category   *Command_Reference/tr.md)
 
 
 

@@ -1,9 +1,9 @@
 # Console API/pl
-**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
+**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https   *//www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
 
 Ten moduł jest zawarty wewnątrz modułu FreeCAD i zawiera metody do wysyłania tekstu do konsoli wyjściowej i paska stanu programu FreeCAD. Wiadomości będą miały różny kolor, w zależności od tego czy będą to komunikaty, ostrzeżenia czy błędy.
 
-Przykład: 
+Przykład   * 
 ```python
 import FreeCAD
 FreeCAD.Console.PrintMessage("Hello World!\n")
@@ -26,6 +26,11 @@ FreeCAD.Console.PrintMessage("Hello World!\n")
 
 
 {{APIFunction|SetStatus|string|Ustaw statystyki Log, Msg, Wrn lub Error dla obserwatora| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

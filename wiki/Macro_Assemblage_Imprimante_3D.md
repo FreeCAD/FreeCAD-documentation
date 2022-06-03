@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2015-07-13
 |FCVersion=0.15
-|Download=Not file .FCStd for testing<br />[https://www.freecadweb.org/wiki/images/8/8c/Macro_Assemblage_Imprimante_3D.png ToolBar Icon]
+|Download=Not file .FCStd for testing<br />[https   *//www.freecadweb.org/wiki/images/8/8c/Macro_Assemblage_Imprimante_3D.png ToolBar Icon]
 }}
 
 ## Description
@@ -22,15 +22,15 @@ Download the file and open it in FreeCAD
 
 Copy the macro and paste in the console Python and anjoy
 
-To stop the animation tip : **animation.stop()**
+To stop the animation tip    * **animation.stop()**
 
 ## The File 
 
- [00\_assemblage\_total.fcstd](http://blog.passion-tarn-et-garonne.info/public/3D/pb-avec-freecad/00-assemblage-total.fcstd) 
+ [00\_assemblage\_total.fcstd](http   *//blog.passion-tarn-et-garonne.info/public/3D/pb-avec-freecad/00-assemblage-total.fcstd) 
 
 ## Script
 
-The script author is **[Javier Martínez García (JMG)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2538)** and has been adapted for this project. 
+The script author is **[Javier Martínez García (JMG)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2538)** and has been adapted for this project. 
 
 ToolBar Icon ![](images/Macro_Assemblage_Imprimante_3D.png )
 
@@ -46,13 +46,13 @@ __author__ = "Javier Martínez García"
 
 import FreeCAD as App, FreeCADGui as Gui, Part, time, sys, math, Draft, DraftGeomUtils
 
-try:
+try   *
     from PyQt4 import QtGui,QtCore
-except Exception:
+except Exception   *
     from PySide import QtGui,QtCore
 
-class Animation(object):
-   def __init__(self):
+class Animation(object)   *
+   def __init__(self)   *
       App.Console.PrintMessage('init')
       App.ActiveDocument.recompute()
       self.timer = QtCore.QTimer()
@@ -69,10 +69,10 @@ class Animation(object):
       self.enstopX = 168
       self.sens = 1
 
-   def my_update(self):
-      if ( self.an == 0 ) :
+   def my_update(self)   *
+      if ( self.an == 0 )    *
          self.sens = 1
-      if ( self.an == 245 ) :
+      if ( self.an == 245 )    *
          self.sens = -1
       self.an = self.an + self.sens
       self.Tige_Guide_X = self.Tige_Guide_X + self.sens
@@ -100,7 +100,7 @@ class Animation(object):
       FreeCAD.getDocument("_0_assemblage_total").getObject("Pocket015").Placement = App.Placement(App.Vector(-50.8,-4.4,self.Jhead_droite),App.Rotation(App.Vector(0,0,1),0))
       #Endstop X
       FreeCAD.getDocument("_0_assemblage_total").getObject("refine003").Placement = App.Placement(App.Vector(-154.2,15,self.enstopX),App.Rotation(App.Vector(0.57735,0.57735,-0.57735),120))
-   def stop(self):
+   def stop(self)   *
       self.timer.stop()     
 
 animation = Animation()
@@ -111,9 +111,9 @@ animation = Animation()
 
 ## Link
 
-The forum discussion page: [Je galere pour tourner une piece](http://forum.freecadweb.org/viewtopic.php?f=12&t=11782)
+The forum discussion page   * [Je galere pour tourner une piece](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=11782)
 
-The Youtube channel of the macro author [FreeCAD: Gear Animation Tutorial](https://www.youtube.com/watch?v=KynMmsLJXV0) and its [blog](http://linuxforanengineer.blogspot.com.es/p/me.html)
+The Youtube channel of the macro author [FreeCAD   * Gear Animation Tutorial](https   *//www.youtube.com/watch?v=KynMmsLJXV0) and its [blog](http   *//linuxforanengineer.blogspot.com.es/p/me.html)
 
 
 

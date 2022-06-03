@@ -185,15 +185,13 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width   *32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md)   * Used to display value of a selected field at a given point.
 
--   [Filter functions](FEM_PostCreateFunctions.md)   *
-    -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;">
-    -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;">
+-   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter functions](FEM_PostCreateFunctions.md)   * Used to define how the result mesh is cut for the [Function cut filter](FEM_PostFilterCutFunction.md) and [Region clip filter](FEM_PostFilterClipRegion.md).
 
 ## Menu   * Utilities 
 
--   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd.md)   *
+-   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd.md)   * Adds a clipping plane for the whole model view.
 
--   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Remove all clipping planes](FEM_ClippingPlaneRemoveAll.md)   *
+-   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Remove all clipping planes](FEM_ClippingPlaneRemoveAll.md)   * Removes all existing [clipping planes](FEM_ClippingPlaneAdd.md).
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [Open FEM examples](FEM_Examples.md)   * Open the GUI to access FEM examples.
 

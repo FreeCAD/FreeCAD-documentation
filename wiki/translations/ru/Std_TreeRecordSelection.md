@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Std TreeRecordSelection
-   Name/ru:Std TreeRecordSelection
-   MenuLocation:Вид → Дерево документа → Record selection
-   Workbenches:All
-   Shortcut:**T** **5**
+- GuiCommand   */ru
+   Name   *Std TreeRecordSelection
+   Name/ru   *Std TreeRecordSelection
+   MenuLocation   *Вид → Дерево документа → Record selection
+   Workbenches   *All
+   Shortcut   ***T** **5**
 ---
 
 # Std TreeRecordSelection/ru
@@ -18,14 +18,14 @@ The **Std TreeRecordSelection** command toggles the [Tree view](Tree_view.md) Re
 
 ## Применение
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Record selection** option from the flyout. Note: the button image will change depending on the selected option.
+1.  There are several ways to invoke the command   *
+    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Record selection** option from the flyout. Note   * the button image will change depending on the selected option.
     -   Select the **View → TreeView actions → <img src="images/Std_TreeRecordSelection.svg" width=16px> Record selection** option from the menu.
-    -   Use the keyboard shortcut: **T** then **5**.
+    -   Use the keyboard shortcut   * **T** then **5**.
 
 ## Настройки
 
-The Tree view RecordSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md): **Edit→ Preferences → General → Selection**.
+The Tree view RecordSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md)   * **Edit→ Preferences → General → Selection**.
 
 
 

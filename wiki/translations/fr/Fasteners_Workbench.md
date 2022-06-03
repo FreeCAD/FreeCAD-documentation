@@ -226,6 +226,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** Rondelle UN, série large.
 
+-   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Rondelles cuvette décolletées.
+
 ### Écrous
 
 -   <img alt="" src=images/Fasteners_ISO4032.svg  style="width   *32px;"> 

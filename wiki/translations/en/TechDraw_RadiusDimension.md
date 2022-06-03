@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:TechDraw RadiusDimension
-   MenuLocation:TechDraw → Dimensions → Insert Radius Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw DiameterDimension](TechDraw_DiameterDimension.md)
+- GuiCommand   *
+   Name   *TechDraw RadiusDimension
+   MenuLocation   *TechDraw → Dimensions → Insert Radius Dimension
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   SeeAlso   *[TechDraw DiameterDimension](TechDraw_DiameterDimension.md)
 ---
 
 # TechDraw RadiusDimension/en
@@ -12,7 +12,7 @@
 
 The Radius Dimension tool adds a radius dimension to a View. The dimension may be applied to any Edge in the drawing which is a circle or circular arc. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
-<img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
+<img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width   *130px;"> 
 *Measuring a circle, indicating the radius*
 
 ## Usage
@@ -35,15 +35,15 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Radius Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Radius Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "Radius"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

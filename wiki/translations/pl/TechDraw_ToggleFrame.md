@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw ToggleFrame
-   Name/pl:Rysunek Techniczny: Włącz / wyłącz wyświetlanie ramek
-   MenuLocation:Rysunek Techniczny → Włącz / wyłącz wyświetlanie ramek
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Widok](TechDraw_View/pl.md), [Grupa rzutów](TechDraw_ProjectionGroup/pl.md)
+- GuiCommand   *
+   Name   *TechDraw ToggleFrame
+   Name/pl   *Rysunek Techniczny   * Włącz / wyłącz wyświetlanie ramek
+   MenuLocation   *Rysunek Techniczny → Włącz / wyłącz wyświetlanie ramek
+   Workbenches   *[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso   *[Widok](TechDraw_View/pl.md), [Grupa rzutów](TechDraw_ProjectionGroup/pl.md)
 ---
 
 # TechDraw ToggleFrame/pl
@@ -13,7 +13,7 @@
 
 Narzędzie **Włącz / wyłącz wyświetlanie ramek** włącza lub wyłącza wyświetlanie ramek w oknie widoku, etykiet oraz wierzchołków.
 
-<img alt="" src=images/TechDraw_ToggleFrame.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_ToggleFrame.png  style="width   *400px;"> 
 *Widok rzutu bryły z włączonymi i wyłączonymi ramkami.*
 
 ## Użycie
@@ -34,7 +34,7 @@ Rozmiar punktów wierzchołków można dostosować w zakładce [skala](TechDraw_
 ## Tworzenie skryptów 
 
 
-**Zobacz również:**
+**Zobacz również   ***
 
 [TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

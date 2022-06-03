@@ -55,21 +55,9 @@ in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
 
 Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Körper angelegt ist.
 
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md)   * Erzeugt einen Formbinder als Referenz auf Geometrie eines einzelnen übergeordneten Körpers.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md)   * Erzeugt einen Formbinder im aktiven Körper.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width   *32px;"> [Unterobjekt FormBinder erstellen](PartDesign_SubShapeBinder/de.md)   * Erzeugt einen FormBinder zu einem Unterelement, wie eine Kante oder Fläche eines anderen Körpers, wobei die relative Position des Elements beibehalten wird. {{Version/de|0.19}}
-
-
-</div>
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width   *32px;"> [Formbinder für Teilobjekt erstellen](PartDesign_SubShapeBinder/de.md)   * Erstellt einen Formbinder als Referenz auf Geometrie von einem oder mehreren übergeordneten Objekt(en). {{Version/de|0.19}}
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width   *32px;"> [Klon erstellen](PartDesign_Clone/de.md)   * Erstellt einen Klon des ausgewählten Körpers.
 
@@ -77,15 +65,15 @@ Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Kö
 
 Dies sind Werkzeuge zum Erstellen von Basisformelementen oder zum Hinzufügen von Material zu einem bestehenden Körper.
 
--   <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> [Aufpolsterung](PartDesign_Pad/de.md)   * polstert eine selektierte Skizze auf.
+-   <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> [Aufpolsterung](PartDesign_Pad/de.md)   * Extrudiert einen Volumenkörper aus einer ausgewählten Skizze.
 
--   <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> [Rotation](PartDesign_Revolution/de.md)   * erzeugt einen Körper, indem eine Skizze um eine Achse gedreht wird. Die Skizze muss geschlossen sein.
+-   <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> [Rotation](PartDesign_Revolution/de.md)   * Erzeugt einen Drehkörper, durch drehen einer Skizze um eine Achse. Die Skizze muss ein geschlossenes Profil ergeben.
 
--   <img alt="" src=images/PartDesign_Additive_Loft.svg  style="width   *32px;"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)   * Erzeugt einen Volumenkörper, indem ein Übergang zwischen zwei oder mehreren Skizzen erstellt wird.
+-   <img alt="" src=images/PartDesign_Additive_Loft.svg  style="width   *32px;"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)   * Erzeugt einen Volumenkörper, indem ein Übergang zwischen zwei oder mehr Skizzen erstellt wird.
 
 -   <img alt="" src=images/PartDesign_Additive_Pipe.svg  style="width   *32px;"> [Additives Rohr](PartDesign_AdditivePipe/de.md)   * Erzeugt einen Volumenkörper, indem eine oder mehrere Skizzen entlang eines offenen oder geschlossenen Pfades ausgetragen wird.
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width   *32px;"> [Additive Helix](PartDesign_AdditiveHelix/de.md)   * erzeugt einen Festkörper durch Austragen einer Skizze entlang einer Helix. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width   *32px;"> [Additive Helix](PartDesign_AdditiveHelix/de.md)   * erzeugt einen Volumenkörper durch Austragen einer Skizze entlang einer Wendel. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width   *48px;"> [Zusätzlicher Grundkörper](PartDesign_CompPrimitiveAdditive/de.md)   * fügt dem aktiven Körper einen additiven Grundkörper hinzu. {{Version/de|0.17}}
 

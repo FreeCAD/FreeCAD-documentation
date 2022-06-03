@@ -108,6 +108,8 @@ Les points de référence au sens de la GD&T sont des surfaces auxquelles votre 
 
 ### Référencement de symboles 
 
+Pour insérer des symboles GD&T, TechDraw propose la fonction [TechDraw Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md).
+
 À titre de référence, voici des listes de caractères à utiliser pour le tolérancement géométrique   *
 
 +++++++

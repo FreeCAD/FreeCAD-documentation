@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Experienced User
-   Author:NormandC
-   Time:
-   FCVersion:0.19.23300 or higher
-   Files:
+- TutorialInfo   *   Topic   *Modeling
+   Level   *Experienced User
+   Author   *NormandC
+   Time   *
+   FCVersion   *0.19.23300 or higher
+   Files   *
 ---
 
 # PartDesign Bearingholder Tutorial II/es
@@ -15,9 +15,9 @@
 
 
 
-**Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. A partir de abril de 2016 estas características han sido integradas en la versión de pre-desarrollo 0.17 disponible [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre aquí].
+**Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. A partir de abril de 2016 estas características han sido integradas en la versión de pre-desarrollo 0.17 disponible [https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre aquí].
 <br />
-Tenga en cuenta que esta versión de FreeCAD está todavía en una fase temprana de desarrollo. Además, este tutorial puede necesitar ser actualizado. Si desea participar en su revisión y actualización, por favor, envíe un mensaje a la sección Wiki del [http://forum.freecadweb.org foro].**
+Tenga en cuenta que esta versión de FreeCAD está todavía en una fase temprana de desarrollo. Además, este tutorial puede necesitar ser actualizado. Si desea participar en su revisión y actualización, por favor, envíe un mensaje a la sección Wiki del [http   *//forum.freecadweb.org foro].**
 
 ![Tutorial de soporte de rodamiento - Soporte de rodamiento terminado (arriba)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 
@@ -31,11 +31,11 @@ Esta es la segunda parte del tutorial. Utilizará lo que podría llamarse el flu
 
 Obviamente, para seguir este tutorial debes activar la mesa de trabajo de PartDesign.
 
-~~Puedes encontrar mi versión de la parte creada en este tutorial [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 aquí](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_aquí.md)~~ *El archivo ya no está disponible, se proporcionará uno nuevo en una fecha posterior*.
+~~Puedes encontrar mi versión de la parte creada en este tutorial [http   *//ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 aquí](http   *//ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_aquí.md)~~ *El archivo ya no está disponible, se proporcionará uno nuevo en una fecha posterior*.
 
 ## Datos de diseño 
 
-The holder should be able to hold a diameter 90mm bearing with a width of up to 33mm (e.g. DIN 630 type 2308 which has an inside diameter of 40mm). The bearing requires a shoulder height of at least 4.5mm in the holder (and on the shaft). The top part of the holder will be bolted to the bottom with two 12mm bolts. The head of such a bolt will require at least 20mm diameter free space. There should be a groove on both sides of the bearing able to hold a standard shaft sealing ring DIN 3760: 38x55x7 or 40x55x7 on one side, 50x68x8 on the other side.
+The holder should be able to hold a diameter 90mm bearing with a width of up to 33mm (e.g. DIN 630 type 2308 which has an inside diameter of 40mm). The bearing requires a shoulder height of at least 4.5mm in the holder (and on the shaft). The top part of the holder will be bolted to the bottom with two 12mm bolts. The head of such a bolt will require at least 20mm diameter free space. There should be a groove on both sides of the bearing able to hold a standard shaft sealing ring DIN 3760   * 38x55x7 or 40x55x7 on one side, 50x68x8 on the other side.
 
 El soporte será un molde de arena con un espesor mínimo de pared de 5 mm, un ángulo de tiro de 2 grados, y un radio mínimo de filete de 3 mm.
 
@@ -45,7 +45,7 @@ El soporte será un molde de arena con un espesor mínimo de pared de 5 mm, un �
 
 ## The main body 
 
-![Sketch of the first Pad\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Create a new body and make it active. The sketch for the first pad is shown on the right. It is placed on a datum plane with an offset of 5mm (wall thickness) from the skeleton face marking the side of one of the bearing sealing rings. Because all the important dimensions are taken from the skeleton, there are just three dimensions: The machining allowance (3mm) at the base as an offset to the XY-plane, the 5mm wall thickness from the outer diameter of the skeleton, and the two degrees draft angle. Two create the 5mm dimension, you first need to select the outer circle (radius 45mm) of the skeleton geometry as external geometry in the sketcher, and then put in a construction line constrained tangential to this circle and at an angle of two degrees.
+![Sketch of the first Pad\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Create a new body and make it active. The sketch for the first pad is shown on the right. It is placed on a datum plane with an offset of 5mm (wall thickness) from the skeleton face marking the side of one of the bearing sealing rings. Because all the important dimensions are taken from the skeleton, there are just three dimensions   * The machining allowance (3mm) at the base as an offset to the XY-plane, the 5mm wall thickness from the outer diameter of the skeleton, and the two degrees draft angle. Two create the 5mm dimension, you first need to select the outer circle (radius 45mm) of the skeleton geometry as external geometry in the sketcher, and then put in a construction line constrained tangential to this circle and at an angle of two degrees.
 
 You are probably wondering why there is this small straight segment at the bottom of each arc. This segment ensures that there will be a draft angle of 2 degrees on the arcs. This might look like a lot of work for a very small benefit, but many CAD programs (and maybe FreeCAD one day) have tools that highlight a solid model in different colours and immediately show you all faces where the draft angle is not correct. You don\'t want that to happen to your model, especially after putting on a lot of fillets!
 ![The first Pad\|thumb\|right\|400px](images/HolderTop2-4.jpg ) When you have done the sketch (which is a bit tricky because of the 2 degree tangential lines), create a Pad from it extending up to the other side of the skeleton geometry, again with a 5mm offset to the side face. You don\'t need to create a datum plane this time, the \"up to face\" mode of the Pad dialog offers to input an offset.
@@ -87,6 +87,10 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 ## Part One 
 
 [PartDesign Bearingholder Tutorial I](PartDesign_Bearingholder_Tutorial_I.md)
+
+
+
+[Category   *Tutorials](Category_Tutorials.md)
 
 
 

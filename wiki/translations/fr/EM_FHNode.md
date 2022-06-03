@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:EM FHNode
-   Name/fr:EM Noeud FH
-   MenuLocation:EM → FHNode
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **N**
-   Version:0.17
-   SeeAlso:[EM Segment FH](EM_FHSegment/fr.md), [EM Chemin FH](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
+- GuiCommand   */fr
+   Name   *EM FHNode
+   Name/fr   *EM Noeud FH
+   MenuLocation   *EM → FHNode
+   Workbenches   *[EM](EM_Workbench/fr.md)
+   Shortcut   ***E** **N**
+   Version   *0.17
+   SeeAlso   *[EM Segment FH](EM_FHSegment/fr.md), [EM Chemin FH](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
 ---
 
 # EM FHNode/fr
@@ -25,7 +25,7 @@ L\'objet Noeud FH peut être basé sur la position d\'un objet [Draft Point](Dra
 1.  Appuyez sur la touche **<img src="images/EM_FHNode.svg" width=16px> [EM FHNode](EM_FHNode/fr.md)** ou appuyez sur la touche **E** puis **N**.
 2.  Cliquez sur un point de la vue 3D ou tapez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 
-Alternativement, vous pouvez également:
+Alternativement, vous pouvez également   *
 
 1.  Sélectionnez un ou plusieurs objet(s) [Draft Point](Draft_Point/fr.md)
 2.  Appuyez sur le bouton **<img src="images/EM_FHNode.svg" width=16px> [EM FHNode](EM_FHNode/fr.md)** ou appuyez sur les touches **E** puis **N**. Autant de FHNodes seront créés que les objets Draft Points, aux mêmes coordonnées que les Draft Points.
@@ -38,20 +38,20 @@ Alternativement, vous pouvez également:
 
 ## Propriétés
 
--    **X**: La coordonnée X du noeud.
+-    **X**   * La coordonnée X du noeud.
 
--    **Y**: La coordonnée Y du noeud.
+-    **Y**   * La coordonnée Y du noeud.
 
--    **Z**: La coordonnée Z du noeud.
+-    **Z**   * La coordonnée Z du noeud.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil FHNode peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil FHNode peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   *
 
 
 ```python
@@ -114,7 +114,7 @@ pos = setAbsCoord(abs_coord, placement=None)
 
 -    `placement`est un nouveau placement FHNode. Si `None`,l\'emplacement n\'est pas modifié
 
-Exemple:
+Exemple   *
 
 
 ```python

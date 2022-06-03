@@ -1,25 +1,23 @@
 ---
-- GuiCommand:/pl
-   Name:Part Compound‏‎
-   Name/pl:Część: Złożenie
-   MenuLocation:Część → Złożenie
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.14
-   SeeAlso:[Suma](Part_Fuse/pl.md), [Filtr złożeń](Part_CompoundFilter/pl.md), [Rozbij złożenie](Part_ExplodeCompound/pl.md)
+- GuiCommand   */pl
+   Name   *Part Compound‏‎
+   Name/pl   *Część   * Złożenie
+   MenuLocation   *Część → Złożenie
+   Workbenches   *[Część](Part_Workbench/pl.md)
+   Version   *0.14
+   SeeAlso   *[Suma](Part_Fuse/pl.md), [Filtr złożeń](Part_CompoundFilter/pl.md), [Rozbij złożenie](Part_ExplodeCompound/pl.md)
 ---
 
 # Part Compound/pl
 
-## Wprowadzenie
+## Opis
 
-To polecenie tworzy połączenie dowolnego rodzaju kształtów topologicznych. Mogą to być bryły, siatki lub każdy inny rodzaj kształtów powierzchni.
-
-Złożenie jest zbiorem kształtów zgrupowanych w jednym obiekcie.
+To polecenie tworzy złożenie obiektów o topologicznym kształcie, takich jak obiekty bryłowe oraz inne obiekty z powierzchniami i / lub krawędziami. Nie obsługuje siatek, ponieważ nie mają one kształtu topologicznego.
 
 ## Użycie
 
 1.  Zaznacz w [widoku drzewa](Tree_view/pl.md) drzewa kształty topologiczne, które mają zostać dodane do złożenia,
-2.  Wybierz z menu **Część → Złożenie → Utwórz kształt złożony** lub kliknij na przycisk <img alt="" src=images/Part_Compound.svg  style="width:24px;">
+2.  Wybierz z menu **Część → Złożenie → Utwórz kształt złożony** lub kliknij na przycisk <img alt="" src=images/Part_Compound.svg  style="width   *24px;">
 
 ## Uwagi
 

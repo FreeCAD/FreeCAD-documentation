@@ -1,21 +1,21 @@
 # Draft Snap Dimensions/ru
 ---
-- GuiCommand:/ru
-   Name:Draft Snap Dimensions
-   Name/ru:Draft Snap Dimensions
-   MenuLocation:Черчение→ [Привязка](Draft_Snap/ru.md) → Размеры
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:---
+- GuiCommand   */ru
+   Name   *Draft Snap Dimensions
+   Name/ru   *Draft Snap Dimensions
+   MenuLocation   *Черчение→ [Привязка](Draft_Snap/ru.md) → Размеры
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *---
 
 
 </div>
 
 ## Description
 
-The <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Draft Snap Dimensions** option shows temporary X and Y dimensions. They display the X and Y distance between the cursor and the previous point in the [working plane](Draft_SelectPlane.md) coordinate system. The dimensions are created on the [working plane](Draft_SelectPlane.md).
+The <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *24px;"> **Draft Snap Dimensions** option shows temporary X and Y dimensions. They display the X and Y distance between the cursor and the previous point in the [working plane](Draft_SelectPlane.md) coordinate system. The dimensions are created on the [working plane](Draft_SelectPlane.md).
 
-<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width   *400px;"> 
 *Temporary dimensions show the position of the cursor*
 
 ## Usage
@@ -23,8 +23,8 @@ The <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Dra
 For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 1.  Optionally change the [working plane](Draft_SelectPlane.md).
-2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-3.  If **Draft Snap Dimensions** is not active do one of the following:
+2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
+3.  If **Draft Snap Dimensions** is not active do one of the following   *
     -   Press the **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** button in the Draft Snap toolbar.
     -   Press the **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** button in the [Draft snap widget](Draft_snap_widget.md).
 4.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.

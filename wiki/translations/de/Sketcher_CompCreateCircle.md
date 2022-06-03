@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher Circles
-   Name/de:Skizzierer Kreise
-   Icon:Sketcher_CompCreateCircle.png
-   MenuLocation:Keine (Nur Werkzeugleiste)
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Sketcher Circles
+   Name/de   *Sketcher AuswahlKreisErstellen
+   Icon   *Sketcher_CompCreateCircle.png
+   MenuLocation   *Keine (Nur Werkzeugleiste)
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateCircle/de
@@ -18,20 +18,14 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Kreis durch Mittelpunkt und Randpunkt](Sketcher_CreateCircle/de.md) : Zeichnet einen Kreis durch Wahl zweier Punkte: den Mittelpunkt einen Punkt entlang des Radius.
--   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kreis durch 3 Randpunkte](Sketcher_Create3PointCircle/de.md) : Zeichnet einen Kreis durch Wahl dreier Punkte auf der Kreisumfangslinie.
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width   *32px;"> [Kreis durch Mittelpunkt und Randpunkt](Sketcher_CreateCircle/de.md)    * Zeichnet einen Kreis durch Wahl zweier Punkte   * den Mittelpunkt einen Punkt entlang des Radius.
+-   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Kreis durch 3 Randpunkte](Sketcher_Create3PointCircle/de.md)    * Zeichnet einen Kreis durch Wahl dreier Punkte auf der Kreisumfangslinie.
 
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

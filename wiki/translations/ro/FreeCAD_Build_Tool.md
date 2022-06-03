@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul de construcție **FreeCAD build tool** sau **fcbt** este un script python localizat la:
+Instrumentul de construcție **FreeCAD build tool** sau **fcbt** este un script python localizat la   *
 
 
 </div>
@@ -18,15 +18,15 @@ Acesta poate fi folosit pentru a simplifica unele sarcini frecvente în construi
 
 ## Utilizare
 
-Cu [Python](wikipedia:Python_(programming_language).md) corect instalat, *fcbt* can poate fi invocat prin comanda 
+Cu [Python](wikipedia   *Python_(programming_language).md) corect instalat, *fcbt* can poate fi invocat prin comanda 
 ```python
 python fbct.py
-``` Afișează un meniu, unde puteți selecta următoarele: 
+``` Afișează un meniu, unde puteți selecta următoarele   * 
 ```python
 FreeCAD Build Tool
- Usage:
+ Usage   *
     fcbt <command name> [command parameter]
- possible commands are:
+ possible commands are   *
   - DistSrc         (DS)   Build a source Distr. of the current source tree
   - DistBin         (DB)   Build a binary Distr. of the current source tree
   - DistSetup       (DI)   Build a Setup Distr. of the current source tree
@@ -35,7 +35,7 @@ FreeCAD Build Tool
   - NextBuildNumber (NBN)  Increase the Build Number of this Version
   - CreateModule    (CM)   Insert a new FreeCAD Module (Workbench) in the module directory
  
- For help on the modules type:
+ For help on the modules type   *
    fcbt <command name> ?
 ```
 
@@ -80,6 +80,14 @@ Comanda \"CM\" [creates a new application module (Workbench)](Workbench_creation
 
 
 </div>
+
+
+
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

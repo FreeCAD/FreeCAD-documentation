@@ -36,12 +36,12 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 </div>
 
-The Blender navigation style was modeled after [Blender](https://www.blender.org).
+The Blender navigation style was modeled after [Blender](https   *//www.blender.org).
 
 
 <div class="mw-translate-fuzzy">
 
-在 Blender 导航中，以[Blender](http://www.blender.org)为模型，没有单独的鼠标平移方式。为了平移视图，您必须按住{{KEY | SHIFT}}键。2016年发生了改变，现在，您可以同时按住鼠标左右两键来移动视图。 {{Blender Navigation
+在 Blender 导航中，以[Blender](http   *//www.blender.org)为模型，没有单独的鼠标平移方式。为了平移视图，您必须按住{{KEY | SHIFT}}键。2016年发生了改变，现在，您可以同时按住鼠标左右两键来移动视图。 {{Blender Navigation
 |Select_name=选择对象
 |Pan_name=移动视图
 |Zoom_name=缩放视图
@@ -82,13 +82,13 @@ The Blender navigation style was modeled after [Blender](https://www.blender.org
 <div class="mw-translate-fuzzy">
 按住**Ctrl**键来选择多个对象。
 |Pan_text=按住鼠标中键，并移动鼠标指针。
-|Pan_mode_text=移动视图模式: 按住**Ctrl**键，按下鼠标右键一次，再移动鼠标指针。 <small>(v0.17)</small> 
+|Pan_mode_text=移动视图模式   * 按住**Ctrl**键，按下鼠标右键一次，再移动鼠标指针。 <small>(v0.17)</small> 
 |Zoom_text=用鼠标滚轮来进行缩放。
 </div>
 
 <div class="mw-translate-fuzzy">
 单击鼠标中键，以光标在视图中的位置进行重新定位(re-center)。
-|Zoom_mode_text=缩放视图模式: 按住**Ctrl**与**Shift**键, 并按下鼠标右键一次, 再移动鼠标指针。<small>(v0.17)</small> 
+|Zoom_mode_text=缩放视图模式   * 按住**Ctrl**与**Shift**键, 并按下鼠标右键一次, 再移动鼠标指针。<small>(v0.17)</small> 
 |Rotate_view_text=按住鼠标中键，再按住鼠标左键，并移动鼠标指针。
 </div>
 
@@ -98,7 +98,7 @@ The Blender navigation style was modeled after [Blender](https://www.blender.org
 
 <div class="mw-translate-fuzzy">
 双击鼠标中键将设置一个新的旋转中心。
-|Rotate_view_mode_text=旋转视图模式: 按住**Shift**键，按下鼠标右键一次，再移动鼠标指针。<small>(v0.17)</small> 
+|Rotate_view_mode_text=旋转视图模式   * 按住**Shift**键，按下鼠标右键一次，再移动鼠标指针。<small>(v0.17)</small> 
 |Rotate_view_alt_text=按住鼠标中键，再按住鼠标右键，并移动鼠标指针。
 </div>
 
@@ -178,7 +178,7 @@ In Maya-Gesture Navigation, panning, zooming, and rotating the view require the 
 
 ### OpenCascade navigation 
 
-The OpenCascade navigation style was modeled after [OpenCascade](https://www.opencascade.com/).
+The OpenCascade navigation style was modeled after [OpenCascade](https   *//www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -202,7 +202,7 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 
 ### Inventor 导航 
 
-在[Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor)（不要与Autodesk Inventor混淆）建模后的 Inventor 导航中，没有鼠标选择。为了选择对象，您必须按住{{KEY | CTRL}}键。
+在[Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor)（不要与Autodesk Inventor混淆）建模后的 Inventor 导航中，没有鼠标选择。为了选择对象，您必须按住{{KEY | CTRL}}键。
 
 
 </div>
@@ -240,7 +240,7 @@ Hold down **Ctrl** instead to select multiple objects.
 
 ### OpenSCAD navigation 
 
-The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
+The OpenSCAD navigation style was modeled after [OpenSCAD](https   *//openscad.org/).
 
 
 <small>(v0.20)</small> 
@@ -267,7 +267,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 
 </div>
 
-The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wiki/Autodesk_Revit).
+The Revit navigation style was modeled after [Revit](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
 
 
 {{Revit Navigation
@@ -289,7 +289,7 @@ The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wi
 
 ### TinkerCAD navigation 
 
-The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
+The TinkerCAD navigation style was modeled after [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
 
 
 <small>(v0.20)</small> 
@@ -361,7 +361,7 @@ FreeCAD 同样支持一些 [3D 输入设备](3D_input_devices/zh-cn.md).
 
 <div class="mw-translate-fuzzy">
 
-最近我们从[论坛](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0)的Mac用户那里得到报告，那些鼠标按键和按键组合不能像预期的那样工作。不幸的是，没有一个开发者拥有Mac，也不是其他的常规贡献者。我们需要您的帮助来确定哪些鼠标按键和按键组合起作用，以便我们可以更新此维基。
+最近我们从[论坛](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0)的Mac用户那里得到报告，那些鼠标按键和按键组合不能像预期的那样工作。不幸的是，没有一个开发者拥有Mac，也不是其他的常规贡献者。我们需要您的帮助来确定哪些鼠标按键和按键组合起作用，以便我们可以更新此维基。
 
 
 </div>

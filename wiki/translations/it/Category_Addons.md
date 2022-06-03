@@ -1,6 +1,8 @@
 # Category:Addons/it
 Questa pagina elenca i componenti aggiuntivi esterni che hanno una pagina in questo wiki. I componenti aggiuntivi sono moduli o ambienti di lavoro forniti dalla comunità e non fanno parte di FreeCAD standard.
 
+[Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

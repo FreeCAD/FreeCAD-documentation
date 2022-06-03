@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Draft Label
-   Name/ro:Draft Label
-   MenuLocation:Draft → Label
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**D** **L**
+- GuiCommand   */ro
+   Name   *Draft Label
+   Name/ro   *Draft Label
+   MenuLocation   *Draft → Label
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut   ***D** **L**
 ---
 
 # Draft Label/ro
@@ -26,19 +26,19 @@ If an object or a sub-element (face, edge or vertex) is selected when starting t
 
 To insert a text element without an arrow use the [Draft Text](Draft_Text.md) command instead.
 
-<img alt="" src=images/Draft_Label_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Label_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Label_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Label_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## How to use 
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -76,20 +76,20 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
-The following label types are available:
+The following label types are available   *
 
 
 <div class="mw-translate-fuzzy">
 
--   **Custom**: Afișează conținutul proprietății text personalizat
--   **Name**: Afișează numele obiectului țintă
--   **Label**: Afișează eticheta obiectului țintă
--   **Poziția**: Afișează coordonatele obiectului țintă (punctul de bază al amplasamentului) sau coordonatele vârfului țintă, dacă este cazul, sau coordonatele centrului subelementului țintă (centrul de masă)
--   **Length**: Afișează lungimea subelementului țintă, dacă este posibil
--   **Area**: Arată suprafața subelementului țintă, dacă este posibil
--   **Volume**: Afișează volumul obiectului țintă, dacă este posibil
--   **Tag**: Afișează valoarea etichetei obiectului țintă, dacă obiectul țintă are o astfel de proprietate (ceea ce este cazul tuturor obiectelor Arch)
--   **Material**: Afișează eticheta materialului obiectului țintă, dacă obiectul țintă are o astfel de proprietate
+-   **Custom**   * Afișează conținutul proprietății text personalizat
+-   **Name**   * Afișează numele obiectului țintă
+-   **Label**   * Afișează eticheta obiectului țintă
+-   **Poziția**   * Afișează coordonatele obiectului țintă (punctul de bază al amplasamentului) sau coordonatele vârfului țintă, dacă este cazul, sau coordonatele centrului subelementului țintă (centrul de masă)
+-   **Length**   * Afișează lungimea subelementului țintă, dacă este posibil
+-   **Area**   * Arată suprafața subelementului țintă, dacă este posibil
+-   **Volume**   * Afișează volumul obiectului țintă, dacă este posibil
+-   **Tag**   * Afișează valoarea etichetei obiectului țintă, dacă obiectul țintă are o astfel de proprietate (ceea ce este cazul tuturor obiectelor Arch)
+-   **Material**   * Afișează eticheta materialului obiectului țintă, dacă obiectul țintă are o astfel de proprietate
 
 
 </div>
@@ -100,9 +100,9 @@ The following label types are available:
 
 ## Proprietăți
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
+A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated   *
 
 ### Data
 
@@ -112,35 +112,35 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData | Tip de etichetă}}: tipul de informații afișate de această etichetă (vedeți mai jos)
+-    {{PropertyData | Tip de etichetă}}   * tipul de informații afișate de această etichetă (vedeți mai jos)
 
--    {{PropertyData | Text personalizat}}: Textul care se afișează când tipul de etichetă este setat la personalizat
+-    {{PropertyData | Text personalizat}}   * Textul care se afișează când tipul de etichetă este setat la personalizat
 
--    {{PropertyData | Placement}}: Indică rotația și poziția textului
+-    {{PropertyData | Placement}}   * Indică rotația și poziția textului
 
--    {{PropertyData | Straight Distance}}: Lungimea segmentului drept
+-    {{PropertyData | Straight Distance}}   * Lungimea segmentului drept
 
--    {{PropertyData | Direcție dreaptă}}: Direcția segmentului drept Orizontală sau verticală
+-    {{PropertyData | Direcție dreaptă}}   * Direcția segmentului drept Orizontală sau verticală
 
--    {{PropertyData | Target Point}}: Punctul indicat de această etichetă
+-    {{PropertyData | Target Point}}   * Punctul indicat de această etichetă
 
--    {{PropertyView | Text Size}}: Dimensiunea textului
+-    {{PropertyView | Text Size}}   * Dimensiunea textului
 
--    {{PropertyView | Text Font}}: fontul folosit pentru text
+-    {{PropertyView | Text Font}}   * fontul folosit pentru text
 
--    {{PropertyView | Text Alignment}}: Alinierea verticală a textului: Sus, mijlocul sau partea de jos
+-    {{PropertyView | Text Alignment}}   * Alinierea verticală a textului   * Sus, mijlocul sau partea de jos
 
--    {{PropertyView | Text Color}}: Culoarea textului
+-    {{PropertyView | Text Color}}   * Culoarea textului
 
--    {{PropertyView | Lățime linie}}: Lățimea liniei
+-    {{PropertyView | Lățime linie}}   * Lățimea liniei
 
--    {{PropertyView | Line Color}}: culoarea liniei
+-    {{PropertyView | Line Color}}   * culoarea liniei
 
--    {{PropertyView | Arrow Type}}: Tipul săgeții: Dot, cerc, săgeată sau bifați.
+-    {{PropertyView | Arrow Type}}   * Tipul săgeții   * Dot, cerc, săgeată sau bifați.
 
--    {{PropertyView | Dimensiunea săgeții}}: mărimea săgeții
+-    {{PropertyView | Dimensiunea săgeții}}   * mărimea săgeții
 
--    {{PropertyView | Frame}}: Desenează un cadru în jurul textului
+-    {{PropertyView | Frame}}   * Desenează un cadru în jurul textului
 
 
 </div>
@@ -148,64 +148,64 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Leader}}
 
--    **Points|VectorList**: specifies the points of the leader.
+-    **Points|VectorList**   * specifies the points of the leader.
 
--    **Straight Direction|Enumeration**: specifies the direction of the first leader segment: {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
+-    **Straight Direction|Enumeration**   * specifies the direction of the first leader segment   * {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
 
--    **Straight Distance|Distance**: specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
+-    **Straight Distance|Distance**   * specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
 
 
 {{TitleProperty|Target}}
 
--    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
+-    **Target|LinkSub**   * specifies the object and optional subelement the label is linked to.
 
--    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
+-    **Target Point|Vector**   * specifies the position of the tip of the leader, which is where the arrow is attached.
 
 ### View
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**   * specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the label.
+-    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the label.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the tip of the leader.
+-    **Arrow Size|Length**   * specifies the size of the symbol displayed at the tip of the leader.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the tip of the leader, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**   * specifies the type of symbol displayed at the tip of the leader, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
 
--    **Frame|Enumeration**: specifies what type of frame is drawn around the text. The current options are {{Value|None}} or {{Value|Rectangle}}.
+-    **Frame|Enumeration**   * specifies what type of frame is drawn around the text. The current options are {{Value|None}} or {{Value|Rectangle}}.
 
--    **Line|Bool**: specifies whether to display the leader line. If it is `False` only the arrow and the text are displayed.
+-    **Line|Bool**   * specifies whether to display the leader line. If it is `False` only the arrow and the text are displayed.
 
--    **Line Color|Color**: specifies the color of the leader and the arrow. This is also used for the frame (<small>(v0.20)</small> ).
+-    **Line Color|Color**   * specifies the color of the leader and the arrow. This is also used for the frame (<small>(v0.20)</small> ).
 
--    **Line Width|Float**: specifies the width of the leader. This is also used for the frame (<small>(v0.20)</small> ).
+-    **Line Width|Float**   * specifies the width of the leader. This is also used for the frame (<small>(v0.20)</small> ).
 
 
 {{TitleProperty|Text}}
 
--    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
+-    **Justification|Enumeration**   * specifies the horizontal alignment of the text   * {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
 
--    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
+-    **Line Spacing|Float**   * specifies the factor applied to the default line height of the text.
 
--    **Max Chars|Integer**: specifies the maximum number of characters on each line of the text.
+-    **Max Chars|Integer**   * specifies the maximum number of characters on each line of the text.
 
--    **Text Alignment|Enumeration**: specifies the vertical alignment of the text: {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
+-    **Text Alignment|Enumeration**   * specifies the vertical alignment of the text   * {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
 
--    **Text Color|Color**: specifies the color of the text.
+-    **Text Color|Color**   * specifies the color of the text.
 
--    **Text Font|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Text Font|Font**   * specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial   *Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Font Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
 ## Scripting
 
@@ -214,7 +214,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 ## Script-Programare 
 
-Instrumentul Text poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție:
+Instrumentul Text poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție   *
 
 
 </div>

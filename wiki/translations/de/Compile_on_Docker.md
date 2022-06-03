@@ -22,8 +22,8 @@ Alle Abhängigkeiten von FreeCAD sind bereits installiert, miteinander kompatibe
 
 ## Docker Repositorien 
 
--   Original: <https://gitlab.com/daviddaish/freecad_docker_env>
--   Offiziell: <https://GitHub.com/FreeCAD/Docker>
+-   Original   * <https   *//gitlab.com/daviddaish/freecad_docker_env>
+-   Offiziell   * <https   *//GitHub.com/FreeCAD/Docker>
 
 ## Vorbedingungen
 
@@ -34,20 +34,20 @@ Alle Abhängigkeiten von FreeCAD sind bereits installiert, miteinander kompatibe
 
 ### Herunterladen der Quelle 
 
-Der beste Weg, den Quellcode von FreeCAD zu erhalten, ist das Klonen des [Git Repositorium](https://github.com/FreeCAD/FreeCAD). Dazu benötigst du das `git` Programm, das in den meisten Linux und Mac OS Distributionen einfach installiert werden kann, und es kann auch von der [offiziellen Website](http://git-scm.com/) bezogen werden.
+Der beste Weg, den Quellcode von FreeCAD zu erhalten, ist das Klonen des [Git Repositorium](https   *//github.com/FreeCAD/FreeCAD). Dazu benötigst du das `git` Programm, das in den meisten Linux und Mac OS Distributionen einfach installiert werden kann, und es kann auch von der [offiziellen Website](http   *//git-scm.com/) bezogen werden.
 
 Dadurch wird eine Kopie der neuesten Version des FreeCAD Quellcodes in einem neuen Verzeichnis namens `freecad_source` abgelegt.
 
 
 {{Code|lang=bash|code=
-git clone https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
+git clone https   *//github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
 }}
 
 Weitere Informationen über die Verwendung von Git und das Einbringen von Code in das Projekt findest Du unter [Quellcodeverwaltung](Source_code_management/de.md).
 
 ### Quellarchiv
 
-Alternativ kannst du den Quellcode als [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), eine `.zip` oder `.tar.gz` Datei herunterladen und in das gewünschte Verzeichnis entpacken.
+Alternativ kannst du den Quellcode als [archive](https   *//github.com/FreeCAD/FreeCAD/releases/latest), eine `.zip` oder `.tar.gz` Datei herunterladen und in das gewünschte Verzeichnis entpacken.
 
 ### Erstelle ein Build Verzeichnis 
 
@@ -64,7 +64,7 @@ Ziehe das Docker Abbild. (Offizielle Bild kommt bald.)
 
 
 {{Code|lang=bash|code=
-docker pull registry.gitlab.com/daviddaish/freecad_docker_env:latest
+docker pull registry.gitlab.com/daviddaish/freecad_docker_env   *latest
 }}
 
 ### Zugriff auf deinen Windowmanager erlauben 
@@ -80,7 +80,7 @@ Wenn du mit nicht vertrauenswürdigen Systemen verbunden bist, z.B. über `ssh`,
 
 #### Mac OS Anwender 
 
-Für diejenigen, die Mac OS verwenden, ist das X Fenster System möglicherweise nicht installiert. Das XQuartz Projekt ist ein seit langem laufendes quelloffenes Projekt, das es dir erlaubt, es auf deinem Computer zu installieren. [Du kannst es hier finden](https://www.xquartz.org/).
+Für diejenigen, die Mac OS verwenden, ist das X Fenster System möglicherweise nicht installiert. Das XQuartz Projekt ist ein seit langem laufendes quelloffenes Projekt, das es dir erlaubt, es auf deinem Computer zu installieren. [Du kannst es hier finden](https   *//www.xquartz.org/).
 
 ### Starte das Docker Abbild 
 
@@ -98,11 +98,11 @@ Starte das Docker Abbild.
 
 {{Code|lang=bash|code=
 docker run -it --rm \
--v $fc_source:/mnt/source \
--v $fc_build:/mnt/build \
--v $other_files:/mnt/files \
--e "DISPLAY" -e "QT_X11_NO_MITSHM=1" -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
-registry.gitlab.com/daviddaish/freecad_docker_env:latest
+-v $fc_source   */mnt/source \
+-v $fc_build   */mnt/build \
+-v $other_files   */mnt/files \
+-e "DISPLAY" -e "QT_X11_NO_MITSHM=1" -v /tmp/.X11-unix   */tmp/.X11-unix   *ro \
+registry.gitlab.com/daviddaish/freecad_docker_env   *latest
 }}
 
 ### FreeCAD bauen 
@@ -127,13 +127,21 @@ Du kannst die angehängten Verzeichnisse im `/mnt` Verzeichnis finden.
 
 ## Diskussion
 
--   [Docker env build container](https://forum.freecadweb.org/viewtopic.php?f=4&t=42954)
--   [VSCode setup with Docker (1)](https://forum.freecadweb.org/viewtopic.php?f=10&t=48266)
--   [VSCode setup with Docker (2)](https://forum.freecadweb.org/viewtopic.php?p=427812#p427812)
+-   [Docker env build container](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=42954)
+-   [VSCode setup with Docker (1)](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=48266)
+-   [VSCode setup with Docker (2)](https   *//forum.freecadweb.org/viewtopic.php?p=427812#p427812)
 
 ## Verwandt
 
 -   [AppImage](AppImage.md)
+
+
+
+
+
+
+
+[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

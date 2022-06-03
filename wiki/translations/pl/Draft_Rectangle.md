@@ -1,32 +1,32 @@
 ---
-- GuiCommand:/pl
-   Name:Draft Rectangle
-   Name/pl:Draft: Prostokąt
-   MenuLocation:Drafting → Prostokąt
-   Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**R** **E**
-   Version:0.7
+- GuiCommand   */pl
+   Name   *Draft Rectangle
+   Name/pl   *Draft   * Prostokąt
+   MenuLocation   *Drafting → Prostokąt
+   Workbenches   *[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut   ***R** **E**
+   Version   *0.7
 ---
 
 # Draft Rectangle/pl
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> **Prostokąt** tworzy prostokąt w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) przy uzyciu dwóch punktów.
+Polecenie <img alt="" src=images/Draft_Rectangle.svg  style="width   *24px;"> **Prostokąt** tworzy prostokąt w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) przy uzyciu dwóch punktów.
 
 Rogi prostokąta mogą być zaokrąglone lub sfazowane poprzez zmianę właściwości {{PropertyData/pl|Promień zaokrąglenia}} lub {{PropertyData/pl|Rozmiar fazki}}. Możliwe jest również podzielenie prostokąta przez zmianę jego właściwości {{PropertyData/pl|Kolumny}} i/lub {{PropertyData/pl|Rzędy}}.
 
-<img alt="" src=images/Draft_Rectangle_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Rectangle_example.jpg  style="width   *400px;"> 
 *Prostokąt zdefiniowany przez dwa punkty*
 
 ## Użycie
 
 Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
-1.  Istnieje kilka sposobów na wywołanie polecenia:
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
     -   Naciśnij przycisk **<img src="images/Draft_Rectangle.svg" width=16px> [Tworzy prostokąt ...](Draft_Rectangle/pl.md)**.
     -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Rectangle.svg" width=16px> Prostokąt**.
-    -   Użyj skrótu klawiaturowego: **R**, a następnie **E**.
+    -   Użyj skrótu klawiaturowego   * **R**, a następnie **E**.
 2.  Otworzy się panel zadań **Prostokąt**. Zobacz akapit [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**. Ten punkt nie może być związany z osią X, Y lub Z.
@@ -49,53 +49,53 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony   * [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współrzędnych: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
--   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji FreeCAD.
+-   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współrzędnych   * **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zmienić wartość początkową trybu wypełnienia   * **Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji FreeCAD.
 -   Jeśli opcja **Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi szkicu → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [płaszczyznę części](Part_Plane/pl.md) zamiast szkicu prostokąta.
 
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zobacz również stronę   * [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Prostokąt wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Prostokąt wywodzi się z obiektu [Część   * Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości   *
 
 ### Dane
 
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    {{PropertyData/pl|Powierzchnia|Area}}: *(tylko do odczytu)* określa powierzchnię prostokąta. Wartość ta będzie równa {{value|0.0}}, jeśli właściwość {{PropertyData/pl|Utwórz ścianę}} ma wartość `False`.
+-    {{PropertyData/pl|Powierzchnia|Area}}   * *(tylko do odczytu)* określa powierzchnię prostokąta. Wartość ta będzie równa {{value|0.0}}, jeśli właściwość {{PropertyData/pl|Utwórz ścianę}} ma wartość `False`.
 
--    {{PropertyData/pl|Rozmiar fazki|Length}}: określa długość faz na rogach prostokąta.
+-    {{PropertyData/pl|Rozmiar fazki|Length}}   * określa długość faz na rogach prostokąta.
 
--    {{PropertyData/pl|Kolumny|Integer}}: określa liczbę kolumn o równej wielkości, na które podzielony jest prostokąt.
+-    {{PropertyData/pl|Kolumny|Integer}}   * określa liczbę kolumn o równej wielkości, na które podzielony jest prostokąt.
 
--    {{PropertyData/pl|Promień zaokrąglenia|Length}}: określa promień zaokrągleń na rogach prostokąta.
+-    {{PropertyData/pl|Promień zaokrąglenia|Length}}   * określa promień zaokrągleń na rogach prostokąta.
 
--    {{PropertyData/pl|Wysokość|Distance}}: określa wysokość prostokąta.
+-    {{PropertyData/pl|Wysokość|Distance}}   * określa wysokość prostokąta.
 
--    {{PropertyData/pl|Długość|Distance}}: określa długość prostokąta.
+-    {{PropertyData/pl|Długość|Distance}}   * określa długość prostokąta.
 
--    {{PropertyData/pl|Utwórz ścianę|Bool}}: określa, czy prostokąt tworzy powierzchnię, czy nie. Jeśli wartość jest równa `True`, tworzona jest ściana, w przeciwnym razie tylko obwód jest uważany za część obiektu.
+-    {{PropertyData/pl|Utwórz ścianę|Bool}}   * określa, czy prostokąt tworzy powierzchnię, czy nie. Jeśli wartość jest równa `True`, tworzona jest ściana, w przeciwnym razie tylko obwód jest uważany za część obiektu.
 
--    {{PropertyData/pl|Rzędy|Integer}}: określa liczbę równej wielkości rzędów, na które podzielony jest prostokąt.
+-    {{PropertyData/pl|Rzędy|Integer}}   * określa liczbę równej wielkości rzędów, na które podzielony jest prostokąt.
 
 ### Widok
 
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    {{PropertyView/pl|Wzór|Enumeration}}: określa [wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia prostokąta. Ta właściwość działa tylko wtedy, gdy właściwość {{PropertyData/pl|Utwórz ścianę}} ma wartość `True` i gdy właściwość {{PropertyView/pl|Tryb wyświatlania}} ma wartość {{value|Płaskie linie}}.
+-    {{PropertyView/pl|Wzór|Enumeration}}   * określa [wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia prostokąta. Ta właściwość działa tylko wtedy, gdy właściwość {{PropertyData/pl|Utwórz ścianę}} ma wartość `True` i gdy właściwość {{PropertyView/pl|Tryb wyświatlania}} ma wartość {{value|Płaskie linie}}.
 
--    {{PropertyView/pl|Rozmiar wzoru|Float}}: określa rozmiar [wzoru](Draft_Pattern/pl.md).
+-    {{PropertyView/pl|Rozmiar wzoru|Float}}   * określa rozmiar [wzoru](Draft_Pattern/pl.md).
 
--    {{PropertyView/pl|Obraz tekstury|File}}: określa ścieżkę pliku obrazu, który ma zostać odwzorowany na powierzchni prostokąta. Wyczyszczenie tej właściwości spowoduje usunięcie obrazu. Prostokąt powinien mieć takie same proporcje jak obraz, aby uniknąć zniekształceń.
+-    {{PropertyView/pl|Obraz tekstury|File}}   * określa ścieżkę pliku obrazu, który ma zostać odwzorowany na powierzchni prostokąta. Wyczyszczenie tej właściwości spowoduje usunięcie obrazu. Prostokąt powinien mieć takie same proporcje jak obraz, aby uniknąć zniekształceń.
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć prostokąt użyj metody `mmake_rectangle` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeRectangle`.
 
@@ -108,7 +108,7 @@ rectangle = make_rectangle(length, height, placement=None, face=None, support=No
 -   Jeśli parametr `Umiejscownienie` ma wartość `Brak`, prostokąt zostanie utworzony w punkcie początkowym, a jego długość będzie równoległa do osi X.
 -   Jeśli parametr `Ściana` ma wartość `Prawda`, prostokąt zostanie utworzony jako powierzchnia, czyli będzie wyglądał na wypełniony.
 
-Przykład: 
+Przykład   * 
 ```python
 import FreeCAD as App
 import Draft

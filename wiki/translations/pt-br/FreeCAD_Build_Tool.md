@@ -10,15 +10,15 @@ trunc/src/Tools/fcbt.py
 
 ## Usage
 
-With [Python](wikipedia:Python_(programming_language).md) correctly installed, *fcbt* can be invoked by the command 
+With [Python](wikipedia   *Python_(programming_language).md) correctly installed, *fcbt* can be invoked by the command 
 ```python
 python fbct.py
-``` It displays a menu, where you can select the task you want to use it for: 
+``` It displays a menu, where you can select the task you want to use it for   * 
 ```python
 FreeCAD Build Tool
- Usage:
+ Usage   *
     fcbt <command name> [command parameter]
- possible commands are:
+ possible commands are   *
   - DistSrc         (DS)   Build a source Distr. of the current source tree
   - DistBin         (DB)   Build a binary Distr. of the current source tree
   - DistSetup       (DI)   Build a Setup Distr. of the current source tree
@@ -27,7 +27,7 @@ FreeCAD Build Tool
   - NextBuildNumber (NBN)  Increase the Build Number of this Version
   - CreateModule    (CM)   Insert a new FreeCAD Module (Workbench) in the module directory
  
- For help on the modules type:
+ For help on the modules type   *
    fcbt <command name> ?
 ``` At the input prompt enter the abbreviated command you want to call. For example type \"CM\" for [creating a module](Workbench_creation.md).
 
@@ -58,6 +58,14 @@ The \"NBN\" command **increments the build number** to create a new release vers
 ### CreateModule
 
 The \"CM\" command [creates a new application module (Workbench)](Workbench_creation.md).
+
+
+
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

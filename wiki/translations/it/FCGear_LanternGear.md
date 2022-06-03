@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:FCGear_LanternGear
-   Name/it:Ingranaggio a lanterna
-   MenuLocation:FCGear → Create a Lantern gear
-   Workbenches:[FCGear](FCGear_Workbench/it.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:
+- GuiCommand   */it
+   Name   *FCGear_LanternGear
+   Name/it   *Ingranaggio a lanterna
+   MenuLocation   *FCGear → Create a Lantern gear
+   Workbenches   *[FCGear](FCGear_Workbench/it.md)
+   Shortcut   *None
+   Version   *v0.16
+   SeeAlso   *
 ---
 
 # FCGear LanternGear/it
@@ -20,13 +20,13 @@ Poiché la loro costruzione è molto semplice, sono tra le più antiche forme di
 L\'ingranaggio a lanterna combinato con una catena a rulli rappresenta un\'alternativa economica e robusta alle trasmissioni a pignone e cremagliera. Muovendo la catena tesa tangenzialmente lungo la ruota dentata, il movimento lineare della catena viene convertito in un movimento rotatorio della ruota. Viceversa, il movimento lineare della catena può essere ottenuto anche dal moto rotatorio della ruota dentata (moto o bicicletta).
 
 ![](images/Latern_Gear_example.png ) 
-*Above: Lantern gear*
+*Above   * Lantern gear*
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Invoke the command several way:
-    -   Press the <img alt="" src=images/FCGear_LanternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  Invoke the command several way   *
+    -   Press the <img alt="" src=images/FCGear_LanternGear.svg  style="width   *22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
     -   Using the **Gear Menu → Lantern gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
@@ -37,25 +37,25 @@ L\'ingranaggio a lanterna combinato con una catena a rulli rappresenta un\'alter
 
 {{Properties_Title|Base}}
 
--    **Placement**: [Placement](Placement.md) is the location and orientation of an object in space.
+-    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
 
--    **Label**: User name of the object in the [Tree view](Tree_view.md).
+-    **Label**   * User name of the object in the [Tree view](Tree_view.md).
 
 
 {{Properties_Title|accuracy}}
 
--    **num_profiles**: Default is 10. The value normally does not need to be changed.
+-    **num_profiles**   * Default is 10. The value normally does not need to be changed.
 
 
 {{Properties_Title|gear_parameter}}
 
--    **bolt_radius**: Default is 1,00 mm. Diameter of the cylinder on the rotating disc which functions as a second \"gear wheel\".
+-    **bolt_radius**   * Default is 1,00 mm. Diameter of the cylinder on the rotating disc which functions as a second \"gear wheel\".
 
--    **height**: Default is 5,00 mm. Value of the gear width.
+-    **height**   * Default is 5,00 mm. Value of the gear width.
 
--    **module**: Default is 1,00 mm. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Notes**.
+-    **module**   * Default is 1,00 mm. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Notes**.
 
--    **teeth**: Default is 15. Number of teeth.
+-    **teeth**   * Default is 15. Number of teeth.
 
 ### View
 
@@ -63,7 +63,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 ## Notes
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **module**   * Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
 
 ## Useful formulas 
 
@@ -71,7 +71,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **ptch diameter**= **module** \* **teeth**
 
--    **axle base**= **pitch diameter (lantern gear 1 + 2)** : 2
+-    **axle base**= **pitch diameter (lantern gear 1 + 2)**    * 2
 
 
 <div class="mw-translate-fuzzy">
@@ -81,6 +81,8 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 
 </div>
+
+[Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

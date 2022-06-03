@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Draft ApplyStyle
-   Workbenches:[Croquis](Draft_Workbench/es.md)
-   MenuLocation:Croquis->→ Utilidades → Aplicar estilo
+- GuiCommand   *
+   Name   *Draft ApplyStyle
+   Workbenches   *[Croquis](Draft_Workbench/es.md)
+   MenuLocation   *Croquis->→ Utilidades → Aplicar estilo
 ---
 
 # Draft ApplyStyle/es
@@ -22,7 +22,7 @@ Esta herramienta aplica el color y el estilo de línea actual de la barra de com
 
 </div>
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
+This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers   *
 
 -    **Line color**
     

@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[PythonOCC](http://www.pythonocc.org/) è un progetto abbastanza giovane e dinamico che mira a unire la gamma di funzioni di OpenCascade in un modulo python. Questo è un metodo molto differente da quello di FreeCAD, che utilizza solo alcuni componenti di OpenCascade, e che risulta una struttura molto più semplice.
+[PythonOCC](http   *//www.pythonocc.org/) è un progetto abbastanza giovane e dinamico che mira a unire la gamma di funzioni di OpenCascade in un modulo python. Questo è un metodo molto differente da quello di FreeCAD, che utilizza solo alcuni componenti di OpenCascade, e che risulta una struttura molto più semplice.
 
 
 </div>
@@ -22,7 +22,7 @@ PythonOCC, d\'altra parte, dato che fornisce l\'accesso a tutte le classi e funz
 
 <div class="mw-translate-fuzzy">
 
-Attualmente nel modulo Parte abbiamo i metodi: **Part.\_\_toPythonOCC\_\_()** e **Part.\_\_fromPythonOCC\_\_()** per scambiare entità TopoDS\_Shape da o per pythonOCC. Questo permette di utilizzare tutta la potenza di OCC in python (con pythonocc) e poi di mettere nuovamente le forme risultanti in FreeCAD.
+Attualmente nel modulo Parte abbiamo i metodi   * **Part.\_\_toPythonOCC\_\_()** e **Part.\_\_fromPythonOCC\_\_()** per scambiare entità TopoDS\_Shape da o per pythonOCC. Questo permette di utilizzare tutta la potenza di OCC in python (con pythonocc) e poi di mettere nuovamente le forme risultanti in FreeCAD.
 
 
 </div>
@@ -35,13 +35,13 @@ PythonOCC must be compiled from source. For this you need to get the correspondi
 
 Together with OCCT 7.4, PythonOCC requires fairly recent dependencies like Python 3.7, CMake 3.12, and SWIG 3.0.11. Python 2 is no longer supported.
 
-It is also possible to install pre-compiled PythonOCC libraries using [Conda](Conda.md). For more information and compilation instructions, see the main project\'s repository, [tpaviot/pythonocc-core](https://github.com/tpaviot/pythonocc-core).
+It is also possible to install pre-compiled PythonOCC libraries using [Conda](Conda.md). For more information and compilation instructions, see the main project\'s repository, [tpaviot/pythonocc-core](https   *//github.com/tpaviot/pythonocc-core).
 
 ## Compilation
 
-You can also self compile pythonOCC (see [instructions](https://github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md)). Below is the procedure for Debian/Ubuntu using distro-provided opencascade packages:
+You can also self compile pythonOCC (see [instructions](https   *//github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md)). Below is the procedure for Debian/Ubuntu using distro-provided opencascade packages   *
 
-    git clone git://github.com/tpaviot/pythonocc-core.git pythonocc
+    git clone git   *//github.com/tpaviot/pythonocc-core.git pythonocc
     cd pythonocc
     mkdir build
     cd build
@@ -50,10 +50,15 @@ You can also self compile pythonOCC (see [instructions](https://github.com/tpavi
 
 ## More information 
 
--   Project page: [pythonocc.org](http://www.pythonocc.org/)
--   Newer version compatible with OCCT 7.4, [tpaviot/pythonocc-core](https://github.com/tpaviot/pythonocc-core).
--   Older version compatible with OCE 0.18, the community edition of OCCT 6.9.x, [tpaviot/pythonocc](https://github.com/tpaviot/pythonocc).
--   [IfcPlusPlus compiled on Gentoo - questions and alternatives?](https://forum.freecadweb.org/viewtopic.php?f=39&t=33254)
+-   Project page   * [pythonocc.org](http   *//www.pythonocc.org/)
+-   Newer version compatible with OCCT 7.4, [tpaviot/pythonocc-core](https   *//github.com/tpaviot/pythonocc-core).
+-   Older version compatible with OCE 0.18, the community edition of OCCT 6.9.x, [tpaviot/pythonocc](https   *//github.com/tpaviot/pythonocc).
+-   [IfcPlusPlus compiled on Gentoo - questions and alternatives?](https   *//forum.freecadweb.org/viewtopic.php?f=39&t=33254)
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

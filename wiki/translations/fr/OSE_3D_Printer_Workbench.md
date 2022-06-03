@@ -1,5 +1,9 @@
 # OSE 3D Printer Workbench/fr
-Voir l\'atelier sur le wiki OSE: <https://wiki.opensourceecology.org/wiki/3D_Printer_Workbench_2020>
+Voir l\'atelier sur le wiki OSE   * <https   *//wiki.opensourceecology.org/wiki/3D_Printer_Workbench_2020>
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

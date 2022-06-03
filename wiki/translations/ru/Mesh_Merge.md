@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Mesh Merge‏‎
-   Name/ru:Mesh Merge‏‎
-   MenuLocation:Сетки → Объединить
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[Булево объединение сеток](Mesh_Union/ru.md)
+- GuiCommand   */ru
+   Name   *Mesh Merge‏‎
+   Name/ru   *Mesh Merge‏‎
+   MenuLocation   *Сетки → Объединить
+   Workbenches   *[Mesh](Mesh_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *[Булево объединение сеток](Mesh_Union/ru.md)
 ---
 
 # Mesh Merge/ru
@@ -20,13 +20,13 @@ The **Mesh Merge** command creates a new non-parametric mesh object, a [Mesh Fea
 ## Usage
 
 1.  Select two or more mesh objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Mesh_Merge.svg" width=16px> [Mesh Merge](Mesh_Merge.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_Merge.svg" width=16px> Merge** option from the menu.
 
 ## Properties
 
-See: [Mesh Feature](Mesh_Feature.md).
+See   * [Mesh Feature](Mesh_Feature.md).
 
 
 

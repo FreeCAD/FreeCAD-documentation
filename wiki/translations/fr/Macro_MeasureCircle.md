@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2016-04-08
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/b/bd/Macro_MeasureCircle.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/b/bd/Macro_MeasureCircle.png ToolBar Icon]
 }}
 
 ## Description
@@ -15,7 +15,7 @@
 Cette macro calcule le rayon et centre du cercle en donnant 3 points ou une ligne circulaire. Une ligne est créée à partir du centre et du premier point pour l\'utiliser plus tard.
 
 
-{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro}}
+{{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro}}
 
 ## Utilisation
 
@@ -27,7 +27,7 @@ Sélectionnez les éléments et lancez la macro ou lancez la macro et sélection
 
 ## Script
 
-La dernière version est téléchargeable sur [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) ou avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+La dernière version est téléchargeable sur [MeasureCircle.FCMacro](https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) ou avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 

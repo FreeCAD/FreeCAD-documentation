@@ -1,6 +1,8 @@
 # Category:Artwork/pl
 This category collects pages related to artwork existing in the program, like icons and images that are used in different workbenches.
 
+[Category   *Developer Documentation/pl](Category   *Developer_Documentation/pl.md)
+
 ### Contents
 
 |     |     |     |

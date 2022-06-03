@@ -8,7 +8,7 @@
 
 ### Prefață
 
-Această pagină colectează toate informațiile despre solver CalculiX [http://www.calculix.de/ CalculiX](http://www.calculix.de/_CalculiX.md), cel mai utilizat și cel mai bine dezvoltat solver din modulul FEM. În funcție de sistemul de operare pe care îl lucrați cu dvs., trebuie să instalați mai întâi CalculiX. Verificați [ FEM Install](FEM_Install.md).
+Această pagină colectează toate informațiile despre solver CalculiX [http   *//www.calculix.de/ CalculiX](http   *//www.calculix.de/_CalculiX.md), cel mai utilizat și cel mai bine dezvoltat solver din modulul FEM. În funcție de sistemul de operare pe care îl lucrați cu dvs., trebuie să instalați mai întâi CalculiX. Verificați [ FEM Install](FEM_Install.md).
 
 
 </div>
@@ -41,9 +41,9 @@ The [FEM Control Solver](FEM_SolverControl.md) tool manages the whole process. U
 The input file that CalculiX uses can be prepared and edited before the solver is started. The units used in the input file are independent of the units set in FreeCAD; they will always be millimeters (mm) and Newton (N).
 
 
-**(ToDo: check this. What happens with the mesh if inch is used in FreeCAD? As density was introduced, with this we have kg and s and no longer N?! how about this?!)**
+**(ToDo   * check this. What happens with the mesh if inch is used in FreeCAD? As density was introduced, with this we have kg and s and no longer N?! how about this?!)**
 
-The CalculiX interface supports the following objects:
+The CalculiX interface supports the following objects   *
 
 ### FEM Elements 
 
@@ -86,6 +86,8 @@ Reaction forces can be found in ccx\_dat\_file which contains reaction force com
 {{FEM Tools navi
 
 }}
+
+[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

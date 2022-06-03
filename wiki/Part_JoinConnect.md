@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Part JoinConnect
-   MenuLocation:Part → Join → Connect objects
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.16
-   SeeAlso:[Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+- GuiCommand   *
+   Name   *Part JoinConnect
+   MenuLocation   *Part → Join → Connect objects
+   Workbenches   *[Part](Part_Workbench.md)
+   Version   *0.16
+   SeeAlso   *[Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
 # Part JoinConnect
@@ -19,8 +19,8 @@ Connect tool connects interiors of two walled objects (e.g., pipes). It can also
 
 1.  Select objects to be connected.
     The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all the shapes to be connected, e.g. [Draft OrthoArray](Draft_OrthoArray.md).
-2.  Invoke the Part JoinConnect command using several ways:
-    -   Press the <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part JoinConnect](Part_JoinConnect.md) button in the Part toolbar
+2.  Invoke the Part JoinConnect command using several ways   *
+    -   Press the <img alt="" src=images/Part_JoinConnect.svg  style="width   *24px;"> [Part JoinConnect](Part_JoinConnect.md) button in the Part toolbar
     -   Use the **Part → Join → Connect objects** entry in the Part menu
 
 A Connect parametric object is created. Original objects are hidden, and the result of connecting is shown in [3D view](3D_view.md).
@@ -30,17 +30,17 @@ A Connect parametric object is created. Original objects are hidden, and the res
 
 {{TitleProperty|Connect}}
 
--    **Objects**: List of objects to be connected. Generally, at least two objects are needed, but a single compound containing the shapes to connect will do as well. (as of FreeCAD v0.17.8053, this property is not displayed in [Property editor](Property_editor.md), and can only be accessed via [Python](#Scripting.md)).
+-    **Objects**   * List of objects to be connected. Generally, at least two objects are needed, but a single compound containing the shapes to connect will do as well. (as of FreeCAD v0.17.8053, this property is not displayed in [Property editor](Property_editor.md), and can only be accessed via [Python](#Scripting.md)).
 
--    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in [PartDesign Preferences](PartDesign_Preferences.md).
+-    **Refine**   * Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in [PartDesign Preferences](PartDesign_Preferences.md).
 
--    **Tolerance**: \"fuzziness\" value. This is an extra tolerance to apply when searching for intersections, in addition to tolerances stored in the input shapes.
+-    **Tolerance**   * \"fuzziness\" value. This is an extra tolerance to apply when searching for intersections, in addition to tolerances stored in the input shapes.
 
 ## Example
 
-1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
+1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md)   *
     ![320px](images/JoinFeatures_Example_step1.png)
-2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe:
+2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe   *
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Select the first pipe and the second pipe, and click the \'Connect objects\' option from the Join tools dropdown toolbar button.
     ![320px](images/JoinFeatures_Example_step3_Connect.png)
@@ -66,23 +66,23 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 ## Scripting
 
-The Join tools can by used in [macros](macros.md) and from the python console by using the following function: 
+The Join tools can by used in [macros](macros.md) and from the python console by using the following function   * 
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 -   Creates an empty Connect feature. The \'Objects\' property must be assigned explicitly, afterwards.
 -   Returns the newly created object.
 
-Connect can also be applied to plain shapes, without the need to have a document object, via: 
+Connect can also be applied to plain shapes, without the need to have a document object, via   * 
 
 **Part.BOPTools.JoinAPI.connect(list_of_shapes, tolerance = 0.0)**
 
  This can be useful for making custom Python scripted features.
 
-Example:  {{code|code=
+Example   *  {{code|code=
 import Part
 j = Part.BOPTools.JoinFeatures.makeConnect(name= 'Connect')
 j.Objects = FreeCADGui.Selection.getSelection()
-}} The tool itself is implemented in Python, see {{FileName|/Mod/Part/BOPTools/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) under where FreeCAD is installed.
+}} The tool itself is implemented in Python, see **/Mod/Part/BOPTools/JoinFeatures.py** ([Github link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) under where FreeCAD is installed.
 
 ## History
 

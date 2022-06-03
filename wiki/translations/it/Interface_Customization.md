@@ -12,7 +12,7 @@
 
 ## Introduzione
 
-L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)), e dispone di una organizzazione ottimale. Alcuni aspetti dell\'interfaccia possono essere personalizzati. Ad esempio, è possibile aggiungere barre degli strumenti personalizzate, con strumenti di diversi ambienti di lavoro o strumenti definiti nelle macro e creare le proprie scorciatoie da tastiera. Ma i menu e le barre degli strumenti predefinite fornite con FreeCAD e i suoi ambienti di lavoro non possono essere modificati.
+L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](http   *//en.wikipedia.org/wiki/Qt_(toolkit)), e dispone di una organizzazione ottimale. Alcuni aspetti dell\'interfaccia possono essere personalizzati. Ad esempio, è possibile aggiungere barre degli strumenti personalizzate, con strumenti di diversi ambienti di lavoro o strumenti definiti nelle macro e creare le proprie scorciatoie da tastiera. Ma i menu e le barre degli strumenti predefinite fornite con FreeCAD e i suoi ambienti di lavoro non possono essere modificati.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *La finestra di dialogo Personalizza*
@@ -20,7 +20,7 @@ L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](http://en.wikipedia
 ## Utilizzo
 
 1.  The commands available in the Customize dialog box depend on the workbenches that have been loaded in the current FreeCAD session. So you should first load all workbenches whose commands you want to have access to.
-2.  There are several ways to invoke the <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgCustomize](Std_DlgCustomize.md) command:
+2.  There are several ways to invoke the <img alt="" src=images/Std_DlgCustomize.svg  style="width   *16px;"> [Std DlgCustomize](Std_DlgCustomize.md) command   *
     -   Select the **Tools → <img src="images/Std_DlgCustomize.svg" width=16px> Customize...** option from the menu.
     -   Right-click a toolbar area and choose **<img src="images/Std_DlgCustomize.svg" width=16px> Customize...** from the context menu.
 3.  The Customize dialog box opens. For more information see [Options](#Options.md).
@@ -29,7 +29,7 @@ L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](http://en.wikipedia
 
 ## Opzioni
 
-Nella finestra di dialogo Personalizza sono disponibili le seguenti schede:
+Nella finestra di dialogo Personalizza sono disponibili le seguenti schede   *
 
 ### Comandi
 
@@ -42,8 +42,8 @@ In questa scheda è possibile sfogliare i comandi disponibili.
 
 1.  Selezionare una categoria di comandi nel pannello **Categoria** a sinistra. Alcune categorie corrispondono alle voci del menu.
 2.  Gli strumenti disponibili nella categoria selezionata sono mostrati nel pannello a destra.
-3.  Passa il mouse su un comando: appare la descrizione del comando.
-4.  Selezionare un comando: il testo della sua barra di stato viene visualizzato sotto i due pannelli.
+3.  Passa il mouse su un comando   * appare la descrizione del comando.
+4.  Selezionare un comando   * il testo della sua barra di stato viene visualizzato sotto i due pannelli.
 
 
 {{Top}}
@@ -193,7 +193,7 @@ In questa scheda è possibile creare e modificare barre degli strumenti personal
 -   Le barre degli strumenti appartenenti all\'ambiente corrente vengono aggiornate immediatamente, ma dopo aver disabilitato o riattivato una barra degli strumenti è necessario cambiare ambiente (passare a un ambiente diverso e quindi tornare indietro).
 -   Per aggiornare le barre degli strumenti globali è necessario cambiare ambiente (se i comandi sono stati aggiunti o rimossi) o riavviare (se l\'ordine di una barra degli strumenti è cambiato o una barra degli strumenti è stata rinominata).
 
--   In V0.19 c\'è un problema con alcuni comandi di Draft. Dopo averli aggiunti a una barra degli strumenti personalizzata ed essere usciti dall\'applicazione FreeCAD, il file {{FileName|user.cfg}} deve essere modificato manualmente per questi comandi. Cercare il nome della barra degli strumenti personalizzata e in quella sezione modificare il contenuto degli elementi `FCText` che iniziano con `gui_` in `DraftTools`.
+-   In V0.19 c\'è un problema con alcuni comandi di Draft. Dopo averli aggiunti a una barra degli strumenti personalizzata ed essere usciti dall\'applicazione FreeCAD, il file **user.cfg** deve essere modificato manualmente per questi comandi. Cercare il nome della barra degli strumenti personalizzata e in quella sezione modificare il contenuto degli elementi `FCText` che iniziano con `gui_` in `DraftTools`.
 
 
 {{Top}}
@@ -203,9 +203,9 @@ In questa scheda è possibile creare e modificare barre degli strumenti personal
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *La scheda Macro*
 
-On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
+On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 
-If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) then make sure that you also download its icon image file. Most macros have an image link on the information page that appears in the Addon Manager. You can for example put this image file in the user macros folder.
+If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr.md) then make sure that you also download its icon image file. Most macros have an image link on the information page that appears in the Addon Manager. You can for example put this image file in the user macros folder.
 
 If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information.
 
@@ -217,7 +217,7 @@ If you want to use a macro downloaded from a different source you will have to i
 4.  Optionally enter a **Status text**. This text will appear in the [status bar](Status_bar.md) when you hover the toolbar icon.
 5.  Optionally enter the wiki page for the macro, if available, in the **What\'s this** input box. Enter the page name, not the full URL.
 6.  Optionally enter a shortcut in the **Accelerator** input box. See [Keyboard](#Keyboard.md) for more information.
-7.  To add an icon:
+7.  To add an icon   *
     1.  Press the **Pixmap** **...** button.
     2.  The Choose Icon dialog box opens.
     3.  If required press the **Icon folders...** button to add an icon folder.
@@ -242,58 +242,58 @@ If you want to use a macro downloaded from a different source you will have to i
 
 ### Spaceball Motion 
 
-This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This tab is blank if no Spaceball is detected. See   * [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ### Spaceball Buttons 
 
-This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This is tab is blank if no Spaceball is detected. See   * [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ## Themes
 
-FreeCAD supports complete theming of the interface, via .qss stylesheets. The [qss format](https://doc.qt.io/qt-5/stylesheet-syntax.html) is very similar to the [css format](https://en.wikipedia.org/wiki/CSS) used in web pages, it basically adds methods to reference the different widgets and elements of the Qt interface. You can change the default theme (which simply takes the style defined by your desktop system) by selecting a **style sheet** in the [FreeCAD preferences](Preferences_Editor#General.md).
+FreeCAD supports complete theming of the interface, via .qss stylesheets. The [qss format](https   *//doc.qt.io/qt-5/stylesheet-syntax.html) is very similar to the [css format](https   *//en.wikipedia.org/wiki/CSS) used in web pages, it basically adds methods to reference the different widgets and elements of the Qt interface. You can change the default theme (which simply takes the style defined by your desktop system) by selecting a **style sheet** in the [FreeCAD preferences](Preferences_Editor#General.md).
 
-You can also create your own theme if you are not satisfied with the themes that are bundled with FreeCAD, for example by editing an [existing style sheet](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Your new style must be placed in a specific folder for it to be found by FreeCAD:
+You can also create your own theme if you are not satisfied with the themes that are bundled with FreeCAD, for example by editing an [existing style sheet](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Your new style must be placed in a specific folder for it to be found by FreeCAD   *
 
--    {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}}(on Windows). The {{FileName|%APPDATA%}} folder can be retrieved by entering {{Incode|App.getUserAppDataDir()}} in the [Python console](Python_console.md).
+-    **%APPDATA%/FreeCAD/Gui/Stylesheets**(on Windows). The **%APPDATA%** folder can be retrieved by entering {{Incode|App.getUserAppDataDir()}} in the [Python console](Python_console.md).
 
--    {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}}(on Linux).
+-    **$HOME/.FreeCAD/Gui/Stylesheets**(on Linux).
 
--    {{FileName|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(on MacOS).
+-    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(on MacOS).
 
 
 {{Top}}
 
 ## Componenti aggiuntivi 
 
-I componenti aggiuntivi offrono ancora un altro modo per personalizzare l\'interfaccia utente. Di seguito sono riportati alcuni componenti aggiuntivi creati dagli utenti nella comunità di FreeCAD. Possono essere scaricati tramite <img alt="" src=images/_Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr/it.md) (nota: essi sono elencati nella scheda Ambienti).
+I componenti aggiuntivi offrono ancora un altro modo per personalizzare l\'interfaccia utente. Di seguito sono riportati alcuni componenti aggiuntivi creati dagli utenti nella comunità di FreeCAD. Possono essere scaricati tramite <img alt="" src=images/_Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr/it.md) (nota   * essi sono elencati nella scheda Ambienti).
 
 ### CubeMenu
 
--   Github repository: <https://github.com/triplus/CubeMenu>
+-   Github repository   * <https   *//github.com/triplus/CubeMenu>
 
 ### Glass
 
--   Github repository: <https://github.com/triplus/Glass>.
+-   Github repository   * <https   *//github.com/triplus/Glass>.
 
 ### IconThemes
 
--   Github repository: <https://github.com/triplus/IconThemes>
+-   Github repository   * <https   *//github.com/triplus/IconThemes>
 
 ### Launcher
 
--   Github repository: <https://github.com/triplus/Launcher>
+-   Github repository   * <https   *//github.com/triplus/Launcher>
 
 ### PieMenu
 
--   Github repository: <https://github.com/triplus/PieMenu>
+-   Github repository   * <https   *//github.com/triplus/PieMenu>
 
 ### RemBench
 
--   Github repository: <https://github.com/triplus/RemBench>
+-   Github repository   * <https   *//github.com/triplus/RemBench>
 
 ### ShortCut
 
--   Github repository: <https://github.com/triplus/ShortCuts>
+-   Github repository   * <https   *//github.com/triplus/ShortCuts>
 
 
 {{Top}}

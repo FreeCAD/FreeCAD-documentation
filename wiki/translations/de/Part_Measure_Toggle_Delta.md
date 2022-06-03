@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Part Measure Toggle Delta
-   Name/de:Part Messen Delta umschalten
-   MenuLocation:Messen → Delta‏‎ umschalten
-   Workbenches:[Part](Part_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Part Measure Toggle Delta
+   Name/de   *Part Messen Delta umschalten
+   MenuLocation   *Messen → Delta‏‎ umschalten
+   Workbenches   *[Part](Part_Workbench/de.md)
 ---
 
 # Part Measure Toggle Delta/de
@@ -30,8 +30,8 @@ Dieses Werkzeug schaltet die Sichtbarkeit von Delta (grün) Messungen um.
 
 ## Anwendung
 
-1.  Aufrufen des Befehls auf verschiedene Weise:
-2.  Drücke die **[<img src=images/Part_Measure_Toggle_Delta.svg style="width:24px"> '''Delta umschalten'''** Schaltfläche.
+1.  Aufrufen des Befehls auf verschiedene Weise   *
+2.  Drücke die **[<img src=images/Part_Measure_Toggle_Delta.svg style="width   *24px"> '''Delta umschalten'''** Schaltfläche.
     -   Verwende den {{MenuCommand/de|Messen → umschalten 3D}}
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 ConstraintAttachment
-   Name/fr:Assembly3 Contrainte d'accrochage
-   Icon:Part_Attachment.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 ConstraintAttachment
+   Name/fr   *Assembly3 Contrainte d'accrochage
+   Icon   *Part_Attachment.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintAttachment/fr

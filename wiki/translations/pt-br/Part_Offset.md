@@ -10,14 +10,14 @@
 
 ## Description
 
-The Part 3D Offset tool creates parallel copies of a selected shape at a certain distance from the base shape, giving a new object.
+The <img alt="" src=images/Part_Offset.svg  style="width   *24px;"> **Part Offset** tool creates parallel copies of a selected shape at a certain distance from the base shape, giving a new object.
 
 <img alt="" src=images/PartOffset0.png  style="width   *400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width   *400" height="200px;">
 
 ## Usage
 
-1.  Select the Object you want to create the offset from.
-2.  Press the **<img src="images/Part_Offset.svg" width=16px> '''3D Offset'''** button
+1.  Select an object to offset.
+2.  Press the **<img src="images/Part_Offset.svg" width=16px> [3D Offset](Part_Offset.md)** button.
 3.  Adjust distance and parameters depending on the original object and the resulting objects validity.
 
 ## Notes

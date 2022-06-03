@@ -1,6 +1,6 @@
 # PartDesign Mirrored/ro
 ---
-- GuiCommand:   Name:PartDesign Mirrored   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → Mirrored---
+- GuiCommand   *   Name   *PartDesign Mirrored   Workbenches   *[[PartDesign Workbench   PartDesign]], Complete|MenuLocation   *PartDesign → Mirrored---
 
 
 </div>
@@ -20,7 +20,7 @@ Instrumentul **Mirrored** simetrizează o funcție în plan. Începând cu v0.17
 
 <div class="mw-translate-fuzzy">
 
-\"Deasupra: o funcție Pocket a fost creată dintr-o schiță care conține un cerc (A), Pocket-ul a fost ulterior folosit pentru a crea o caracteristică Mirror. Axa verticală a schiței (B) a fost utilizată ca axă de simetrie. Rezultatul (C) este afișat în partea dreaptă. „"
+\"Deasupra   * o funcție Pocket a fost creată dintr-o schiță care conține un cerc (A), Pocket-ul a fost ulterior folosit pentru a crea o caracteristică Mirror. Axa verticală a schiței (B) a fost utilizată ca axă de simetrie. Rezultatul (C) este afișat în partea dreaptă. „"
 
 
 </div>
@@ -32,9 +32,9 @@ Instrumentul **Mirrored** simetrizează o funcție în plan. Începând cu v0.17
 
 1.  Select the feature(s) to be mirrored. Alternatively, the feature can be selected from a dialogue after step 2.
 
-    :   v0.16 and below Only a single feature can be selected, and it must be the last one at the bottom of the feature tree.
-2.  Press the **[<img src=images/PartDesign_Mirrored.png style="width:24px"> '''Mirrored'''** button.
-3.  v0.17 and above Press **Add feature** to add a feature to be mirrored. The feature must be visible in the 3D view:
+       *   v0.16 and below Only a single feature can be selected, and it must be the last one at the bottom of the feature tree.
+2.  Press the **[<img src=images/PartDesign_Mirrored.png style="width   *24px"> '''Mirrored'''** button.
+3.  v0.17 and above Press **Add feature** to add a feature to be mirrored. The feature must be visible in the 3D view   *
     1.  Switch to the Model tree;
     2.  Select in the tree the feature to be added and press **spacebar** to make it visible in the 3D view;
     3.  Switch back to the Tasks panel;
@@ -47,9 +47,9 @@ Instrumentul **Mirrored** simetrizează o funcție în plan. Începând cu v0.17
 
 </div>
 
-To add or remove features from an existing mirroring:
+To add or remove features from an existing mirroring   *
 
-1.  Press **Add feature** to add a feature to be mirrored. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Add feature** to add a feature to be mirrored. The feature must be visible in the [3D view](3D_view.md)   *
     1.  Switch to the Model tree;
     2.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
     3.  Switch back to the Tasks panel;

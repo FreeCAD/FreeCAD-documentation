@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Image Scaling
-   Name/it:Scala immagine
-   Icon:Image Scaling.svg
-   MenuLocation:None
-   Workbenches:[Image](Image_Workbench/it.md)
-   Version:0.18
-   SeeAlso:[Apri immagine](Image_Open/it.md), [Piano immagine](Image_CreateImagePlane/it.md)
+- GuiCommand   */it
+   Name   *Image Scaling
+   Name/it   *Scala immagine
+   Icon   *Image Scaling.svg
+   MenuLocation   *None
+   Workbenches   *[Image](Image_Workbench/it.md)
+   Version   *0.18
+   SeeAlso   *[Apri immagine](Image_Open/it.md), [Piano immagine](Image_CreateImagePlane/it.md)
 ---
 
 # Image Scaling/it

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Draft Upgrade
-   Name/ru:Draft Upgrade
-   MenuLocation:Черчение → Обновить
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**U** **P**
-   SeeAlso:[Draft Downgrade](Draft_Downgrade/ru.md), [Part Fuse](Part_Fuse/ru.md)
+- GuiCommand   */ru
+   Name   *Draft Upgrade
+   Name/ru   *Draft Upgrade
+   MenuLocation   *Черчение → Обновить
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut   ***U** **P**
+   SeeAlso   *[Draft Downgrade](Draft_Downgrade/ru.md), [Part Fuse](Part_Fuse/ru.md)
 ---
 
 # Draft Upgrade/ru
@@ -23,7 +23,7 @@
 
 </div>
 
-<img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Upgrade_example.jpg  style="width   *400px;"> 
 *An open non-editable wire is upgraded to a closed wire, and then to a face. A closed non-editable square wire is also upgraded to a face. The two faces are then upgraded to create a compound, which is finally upgraded to a single editable Draft Wire.*
 
 ## Использование
@@ -54,7 +54,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Инструмент Апгрейд можно использовать из скриптов python и [макросов](Macros.md) следующим образом:
+Инструмент Апгрейд можно использовать из скриптов python и [макросов](Macros.md) следующим образом   *
 
 
 </div>
@@ -68,11 +68,11 @@ upgrade_list = upgrade(objects, delete=False, force=None)
 
 -   If `delete` is `True` the source objects are deleted.
 
--    `force`forces a certain way of upgrading by calling a specific internal function. It can be: `"makeCompound"`, `"closeGroupWires"`, `"makeSolid"`, `"closeWire"`, `"turnToParts"`, `"makeFusion"`, `"makeShell"`, `"makeFaces"`, `"draftify"`, `"joinFaces"`, `"makeSketchFace"`, `"makeWires"` or `"turnToLine"`.
+-    `force`forces a certain way of upgrading by calling a specific internal function. It can be   * `"makeCompound"`, `"closeGroupWires"`, `"makeSolid"`, `"closeWire"`, `"turnToParts"`, `"makeFusion"`, `"makeShell"`, `"makeFaces"`, `"draftify"`, `"joinFaces"`, `"makeSketchFace"`, `"makeWires"` or `"turnToLine"`.
 
--    `upgrade_list`is returned. It is a list containing two lists: a list of new objects and a list of objects to be deleted. If `delete` is `True` the second list is empty.
+-    `upgrade_list`is returned. It is a list containing two lists   * a list of new objects and a list of objects to be deleted. If `delete` is `True` the second list is empty.
 
-Пример:
+Пример   *
 
 
 ```python

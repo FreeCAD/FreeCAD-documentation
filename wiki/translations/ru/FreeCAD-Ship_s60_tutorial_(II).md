@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Ship Workbench
-   Level: Beginner
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */ru
+   Topic   *Ship Workbench
+   Level   * Beginner
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # FreeCAD-Ship s60 tutorial (II)/ru
@@ -18,13 +18,13 @@
 
 Прежде чем начинать урок, пожалуйста выполните [первую часть](FreeCAD-Ship_s60_tutorial/ru.md).
 
-Learn more about the Ship workbench from it\'s dedicated wiki page: [Ship Workbench](Ship_Workbench.md)
+Learn more about the Ship workbench from it\'s dedicated wiki page   * [Ship Workbench](Ship_Workbench.md)
 
 ## Introduction
 
 In this tutorial we will work with weights and tanks in order to compute GZ curve, the most important hydrostatic stability parameter. GZ is the static moment generated when the ship takes roll angle, of course, since the GZ arm is positive, the ship has a positive moment, and will try to recover upright position, but when GZ turns on negative numbers ship has not anymore stability, reaching a critical situation.
 
-IMO (International Maritime Organization) set following criteria:
+IMO (International Maritime Organization) set following criteria   *
 
 -   *GM* \>= 0.15 m. *GM* (metacentric height) is the initial tangent of the *GZ* curve.
 -   Maximum *GZ* value must be placed over 30 degrees of roll angle.
@@ -37,7 +37,7 @@ In this tutorial we will set weights and tanks for our series 60 ship, in a simu
 
 ## Ship weights 
 
-In order to can compute GZ curve we need to know ship weights, and their position at each roll angle, so weights will be divided in two categories:
+In order to can compute GZ curve we need to know ship weights, and their position at each roll angle, so weights will be divided in two categories   *
 
 -   Fixed weights, that are fully linked to ship movements.
 -   Tanks, where fluid shape changes with the angle, needing center of gravity computation at each position.
@@ -54,12 +54,12 @@ Weights definition tool icon.
 
 </center>
 
-Weights definition tool can be used to set first category of weights. When you launch the tool for first time (with ship instance selected), the Ship workbench initializes ship weights with Lightweight ship (equal to ship displacement) that is placed on the ship geometry center of gravity X coordinate, and at design draft height. Usually there are at least 2 relevant weights:
+Weights definition tool can be used to set first category of weights. When you launch the tool for first time (with ship instance selected), the Ship workbench initializes ship weights with Lightweight ship (equal to ship displacement) that is placed on the ship geometry center of gravity X coordinate, and at design draft height. Usually there are at least 2 relevant weights   *
 
 -   Structure.
 -   Main engine (or several of them).
 
-So we will change it. Double-click over each cell we can edit the value, setting weights:
+So we will change it. Double-click over each cell we can edit the value, setting weights   *
 
 -   Structure, 15000 kg, (-0.1, 0, 1.25) m
 -   Starboard engine, 5000 kg, (-6.5, -0.65, 0.5) m
@@ -76,7 +76,7 @@ Weights definition 3D preview.
 
 </center>
 
-Weights position are shown in the [3D view](3D_view.md). Note: the annotations will be removed when the tool is closed. When you press **Accept** weights will be stored in your ship instance.
+Weights position are shown in the [3D view](3D_view.md). Note   * the annotations will be removed when the tool is closed. When you press **Accept** weights will be stored in your ship instance.
 
 ## Tanks
 
@@ -102,7 +102,7 @@ Generated tank geometry.
 
 We can perform port side tank selecting our starboard geometry and executing mirror tool, selecting XZ as mirror plane.
 
-In order to convert geometry into a ussual solid shape our tanks, and recover our **s60\_IowaUniversity** geometry, we can load [Draft module](Draft_Workbench.md), and with starboard tank geometry selected execute Upgrade, and repeat with port side tank geometry. We can rename geometries as:
+In order to convert geometry into a ussual solid shape our tanks, and recover our **s60\_IowaUniversity** geometry, we can load [Draft module](Draft_Workbench.md), and with starboard tank geometry selected execute Upgrade, and repeat with port side tank geometry. We can rename geometries as   *
 
 -   StarboardTankGeom
 -   PortTankGeom
@@ -143,7 +143,7 @@ Figure shown our ship result that we will compute.
 
 The Ship workbench provide a tool to easily compute a *GZ* curve.
 
-<img alt="GZ curve computation tool icon." src=images/Ship_GZ.svg  style="width:128px;">
+<img alt="GZ curve computation tool icon." src=images/Ship_GZ.svg  style="width   *128px;">
 
 
 <center>
@@ -155,7 +155,7 @@ GZ curve computation tool icon.
 
 With **Ship** instance selected, we can run the tool. The first thing that we can see at opened dialog is a list with all tank instances found at active document. We want to use both of them, so we click over the tanks that are remarked with a different background.
 
-In order to know the resultant ship displacement and draft we can press **Update displacement and draft**, taking some time for the computation. We receive following data:
+In order to know the resultant ship displacement and draft we can press **Update displacement and draft**, taking some time for the computation. We receive following data   *
 
 -   Displacement = 37505.5 kg
 -   Draft = 0.818664 m
@@ -164,7 +164,7 @@ So we are in a unloaded situation, where draft are sightly lower than design dra
 
 We can also automatically compute ship trim, operation that can take around one minute, retrieving that our ship have 0.95 degrees of trim angle (positive by stern). In this example we will work without trim angle (0 degrees).
 
-Tool request roll angles considered too. In this case we want to know all ship behaviour, so we can set:
+Tool request roll angles considered too. In this case we want to know all ship behaviour, so we can set   *
 
 -   0 degrees starting roll angle.
 -   180 degrees ending roll angle.
@@ -172,18 +172,18 @@ Tool request roll angles considered too. In this case we want to know all ship b
 
 When we press **Accept** tool starts the computation. If you run FreeCAD from the terminal you can see work progress. In a couple of seconds we will receive GZ curve.
 
-This tool use [pyxplot](http://www.pyxplot.org.uk/) and [ghostscript](http://www.ghostscript.com/) too. You can see where **gz.dat** output file has been placed at the report view (View/Views/Report view), and load it with datasheet software (for example [libreOffice](http://www.libreoffice.org)). Nearby data file several auxiliary files has been created too:
+This tool use [pyxplot](http   *//www.pyxplot.org.uk/) and [ghostscript](http   *//www.ghostscript.com/) too. You can see where **gz.dat** output file has been placed at the report view (View/Views/Report view), and load it with datasheet software (for example [libreOffice](http   *//www.libreoffice.org)). Nearby data file several auxiliary files has been created too   *
 
--   **gz.dat**: Computed GZ curve data.
--   **gz.pyxplot**: pyxplot layout in order to plot the curve.
--   **gz.eps**: EPS image version.
--   **gz.png**: PNG image version.
+-   **gz.dat**   * Computed GZ curve data.
+-   **gz.pyxplot**   * pyxplot layout in order to plot the curve.
+-   **gz.eps**   * EPS image version.
+-   **gz.png**   * PNG image version.
 
 This files will be overwritten if you executes the tool another time.
 
 ### Results
 
-<img alt="Resultant GZ curve." src=images/FreeCAD-Ship-s60GZ.png  style="width:800px;">
+<img alt="Resultant GZ curve." src=images/FreeCAD-Ship-s60GZ.png  style="width   *800px;">
 
 
 <center>
@@ -198,6 +198,8 @@ Resultant GZ curve.
 At the other hand, the ship in this bad condition has positive *GZ* values up to 95 degrees roll angle, but has not been enough for IMO stability requirements, showing the hard criteria imposed about this item.
 
 Of course this example is not real (first for all fuel tanks cannot be placed in the double bottom structure, or using hull side as structure), but is a good example in order to learn to use [Ship Workbench](Ship_Workbench.md).
+
+[Category   *Ship](Category_Ship.md)
 
 
 

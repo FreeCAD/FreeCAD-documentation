@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2011-12-03
 |FCVersion=Tutte versione
-|Download=[https://www.freecadweb.org/wiki/images/6/6d/Macro_Solid_Sweep.png Icona per la ToolBar]
+|Download=[https   *//www.freecadweb.org/wiki/images/6/6d/Macro_Solid_Sweep.png Icona per la ToolBar]
 }}
 
 ## Descrizione
@@ -21,7 +21,7 @@ Notare che il solido risultante non è parametrico. Se si decide di modificare i
 
 Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa sagoma, ma tre percorsi diversi.
 
-<img alt="Alcuni esempi di estrusioni, tutte sono realizzate utilizzando la stessa sezione, ma su tre diverse traiettorie." src=images/Solid_sweep.png‎  style="width:500px;">
+<img alt="Alcuni esempi di estrusioni, tutte sono realizzate utilizzando la stessa sezione, ma su tre diverse traiettorie." src=images/Solid_sweep.png‎  style="width   *500px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -42,9 +42,9 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 ## Elementi 2D supportati 
 
 -   Contorni polilinee
--   <img alt="" src=images/Sketcher_NewSketch.png  style="width:32px;"> [Schizzi](Sketcher_Workbench/it.md)
+-   <img alt="" src=images/Sketcher_NewSketch.png  style="width   *32px;"> [Schizzi](Sketcher_Workbench/it.md)
 -   ![](images/Draft_BSpline.png ) [BSpline](Draft_BSpline/it.md)
--   Primitive 2D del menu *Part → <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> [Crea Primitive](Part_CreatePrimitives/it.md)\...* (circonferenza, elica)
+-   Primitive 2D del menu *Part → <img alt="" src=images/Part_CreatePrimitives.png  style="width   *32px;"> [Crea Primitive](Part_CreatePrimitives/it.md)\...* (circonferenza, elica)
 
 
 </div>
@@ -70,17 +70,17 @@ from FreeCAD import Base
 
 # get the selected objects, with first selection for the trajectory and second for the section
 s = FreeCADGui.Selection.getSelection()
-try:
+try   *
      shape1=s[0].Shape
      shape2=s[1].Shape
-except:
+except   *
      print "Wrong selection"
 
 traj = Part.Wire([shape1])
 section = Part.Wire([shape2])
 
 # create Part objec in the current document
-myObject=App.ActiveDocument.addObject("Part::Feature","Sweep")
+myObject=App.ActiveDocument.addObject("Part   *   *Feature","Sweep")
 
 # variable makeSolid = 1 to create solid, 0 to create surfaces
 makeSolid = True #1
@@ -96,9 +96,9 @@ myObject.Shape = Sweep
 
 Grazie a [Wmayer](User_Wmayer.md) per il suo aiuto nella stesura di questo script.
 
-In [questa sezione del forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120) si trovano due esempi di utlizzo e si trovano anche i collegamenti per scaricare i file FCStd.
+In [questa sezione del forum](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120) si trovano due esempi di utlizzo e si trovano anche i collegamenti per scaricare i file FCStd.
 
-Lo stesso argomento viene trattato anche in [questa discussione](http://forum.freecadweb.org/viewtopic.php?f=3&t=1461) con ragguagli su [Frenet](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
+Lo stesso argomento viene trattato anche in [questa discussione](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=1461) con ragguagli su [Frenet](http   *//en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
 Utilizzando una elica come traiettoria, tramite uno sweep solido si può creare la filettatura di un bullone.
 

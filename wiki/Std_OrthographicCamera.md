@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std OrthographicCamera
-   MenuLocation:View → Orthographic view
-   Workbenches:All
-   Shortcut:**V** **O**
-   SeeAlso:[Std PerspectiveCamera](Std_PerspectiveCamera.md)
+- GuiCommand   *
+   Name   *Std OrthographicCamera
+   MenuLocation   *View → Orthographic view
+   Workbenches   *All
+   Shortcut   ***V** **O**
+   SeeAlso   *[Std PerspectiveCamera](Std_PerspectiveCamera.md)
 ---
 
 # Std OrthographicCamera
@@ -18,9 +18,9 @@ The **Std OrthographicCamera** command switches the camera in the active [3D vie
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Select the **View → <img src="images/Std_OrthographicCamera.svg" width=16px> Orthographic view** option from the menu.
-    -   Use the keyboard shortcut: **V** then **O**.
+    -   Use the keyboard shortcut   * **V** then **O**.
 
 ## Notes
 
@@ -28,12 +28,12 @@ The **Std OrthographicCamera** command switches the camera in the active [3D vie
 
 ## Preferences
 
--   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   The camera type can be changed in the preferences   * **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

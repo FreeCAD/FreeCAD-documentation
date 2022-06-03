@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_PrintPdf
-   Name/it:Esporta PDF
-   Empty:1
-   MenuLocation:File → Esporta PDF...
-   Workbenches:All
-   SeeAlso:[Stampa](Std_Print/it.md), [Esporta](Std_Export/it.md), [Cattura Schermata](Std_ViewScreenShot/it.md)
+- GuiCommand   */it
+   Name   *Std_PrintPdf
+   Name/it   *Esporta PDF
+   Empty   *1
+   MenuLocation   *File → Esporta PDF...
+   Workbenches   *All
+   SeeAlso   *[Stampa](Std_Print/it.md), [Esporta](Std_Export/it.md), [Cattura Schermata](Std_ViewScreenShot/it.md)
 ---
 
 # Std PrintPdf/it
@@ -47,7 +47,7 @@ Il comando **Esporta PDF** ha principalmente lo scopo di creare dei file [PDF](P
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   L\'ultima posizione del file utilizzato viene memorizzata in   * **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 <div class="mw-translate-fuzzy">

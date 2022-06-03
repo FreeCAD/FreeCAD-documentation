@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:TechDraw ClipGroup
-   MenuLocation:TechDraw → Insert Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
+- GuiCommand   *
+   Name   *TechDraw ClipGroup
+   MenuLocation   *TechDraw → Insert Clip Group
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   SeeAlso   *[TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
 ---
 
 # TechDraw ClipGroup
@@ -21,15 +21,15 @@ This tool creates a clipping window which can contain Views.
 
 ## Properties
 
--    **Width**: The width of the clipping window in units
+-    **Width**   * The width of the clipping window in units
 
--    **Height**: The height of the clipping window in units
+-    **Height**   * The height of the clipping window in units
 
--    **ShowFrame**: When true, show a frame around the clipping window
+-    **ShowFrame**   * When true, show a frame around the clipping window
 
--    **ShowLabels**: When true, show the Labels of the Views within the clipping window. **NOTE:** removed in v0.19.
+-    **ShowLabels**   * When true, show the Labels of the Views within the clipping window. **NOTE   *** removed in v0.19.
 
--    **Views**: The Views contained in the clipping window
+-    **Views**   * The Views contained in the clipping window
 
 
 

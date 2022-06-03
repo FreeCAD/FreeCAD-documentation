@@ -1,52 +1,49 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign Thickness
-   Name/de:PartDesign Dicke
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Modifikationen → Dicke
-   Version:0.17
-   SeeAlso:[Part Dicke](Part_Thickness/de.md)
+- GuiCommand   */de
+   Name   *PartDesign Thickness
+   Name/de   *PartDesign Dicke
+   MenuLocation   *Part Design → Modifikationen → Dicke
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[Part Dicke](Part_Thickness/de.md)
 ---
 
 # PartDesign Thickness/de
 
-
-</div>
-
 ## Beschreibung
 
-Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickwandigen hohlen Gegenstand mit mindestens einer offenen Fläche um, der jeder seiner verbleibenden Flächen eine gleichmäßige Dicke verleiht. Bei einigen Volumenkörpern können Sie die Arbeit erheblich beschleunigen und vermeiden, dass Extrusionen und Taschen entstehen.
+Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickwandigen hohlen Gegenstand mit mindestens einer offenen Fläche um, der jeder seiner verbleibenden Flächen eine gleichmäßige Dicke verleiht. Bei einigen Volumenkörpern kann es die Bearbeitung erheblich beschleunigen und vermeidet die Erstellung von Extrusionen und Taschen.
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
 *Das Werkzeug Dicke angewendet auf die Fläche (B) eines Volumenkörpers (A) ergibt das hohle Objekt (C).*
 
 ## Anwendung
 
+1.  Eine oder mehrere Flächen des aktiven Körpers auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Die Schaltfläche **<img src="images/PartDesign_Thickness.png" width=24px> ''Dicke''** drücken.
 
-1.  Wählen Sie eine oder Flächen auf dem aktiven Körper aus.
-2.  Drücke die **<img src="images/PartDesign_Thickness.png" width=24px> ''Dicke''**.
-3.  Definiere die **Dicke(Thickness) Parameter** (siehe [Optionen](#Optionen.md)).
-4.  Um weitere Flächen zum Öffnen hinzuzufügen, drücke **Fläche hinzufügen** und wähle eine oder mehrere Flächen in der 3D-Ansicht.
-5.  Um eine zuvor ausgewählte Fläche zu entfernen, drücke {{KEY | Fläche entfernen}} und wähle eine Fläche in der 3D-Ansicht, oder klicke mit der rechten Maustaste auf die Fläche in der Liste und wähle *Entfernen*.
-6.  Drücke **OK**.
+3.  Die **Dicke- (Thickness) Parameter** festlegen (siehe [Optionen](#Optionen.md)).
 
+4.  Um weitere Flächen zum Öffnen hinzuzufügen, drückt man die Schaltfläche **Fläche hinzufügen** und wählt eine oder mehrere Flächen in der 3D-Ansicht aus.
 
-</div>
+5.  Um eine zuvor ausgewählte Fläche zu entfernen, drückt man ** Fläche entfernen** und wählt eine Fläche in der 3D-Ansicht, oder klickt mit der rechten Maustaste auf die Fläche in der Liste und wählt *Entfernen*.
+
+6.  
+    **OK**drücken.
 
 ## Optionen
 
--   **Dicke**: Wanddicke des resultierenden Objekts. Stellen Sie den gewünschten Wert ein.
+-   **Dicke**   * Wanddicke des resultierenden Objekts. Stellen Sie den gewünschten Wert ein.
 -   **Modus**
-    -   *Skin*: Wählen Sie diese Option, wenn Sie ein Objekt wie eine Vase, kopflos, aber mit dem Boden bekommen wollen
-    -   *Rohr*: Wählen Sie diese Option, wenn Sie ein Objekt wie ein Rohr bekommen möchten, ohne Boden und Deckel. In diesem Fall kann es nützlich sein, die zu löschenden Flächen auszuwählen, bevor Sie das Werkzeug starten. Nutzen Sie dazu die vordefinierten Ansichten Schaltflächen oder verwenden Sie die numerischen Tasten.
-    -   *Recto Verso*:
+    -   *Skin*   * Wählen Sie diese Option, wenn Sie ein Objekt wie eine Vase, kopflos, aber mit dem Boden bekommen wollen
+    -   *Rohr*   * Wählen Sie diese Option, wenn Sie ein Objekt wie ein Rohr bekommen möchten, ohne Boden und Deckel. In diesem Fall kann es nützlich sein, die zu löschenden Flächen auszuwählen, bevor Sie das Werkzeug starten. Nutzen Sie dazu die vordefinierten Ansichten Schaltflächen oder verwenden Sie die numerischen Tasten.
+    -   *Recto Verso*   *
 
 -   **Verbindungstyp**
-    -   *KreisBogen(Arc)*: entfernt die äußeren Kanten und erstellt eine Leiste mit einem Radius, der der definierten Stärke entspricht.
-    -   *Schnitt(Intersection)*: Wenn Flächen nach außen versetzt sind, werden scharfe Kanten zwischen den Flächen beibehalten.
--   **Erzeugen einer Hülle mit innen liegendem Volumen**: Wenn diese Option aktiviert ist, werden die Flächen nach innen versetzt.
+    -   *KreisBogen(Arc)*   * entfernt die äußeren Kanten und erstellt eine Leiste mit einem Radius, der der definierten Stärke entspricht.
+    -   *Schnitt(Intersection)*   * Wenn Flächen nach außen versetzt sind, werden scharfe Kanten zwischen den Flächen beibehalten.
+-   **Erzeugen einer Hülle mit innen liegendem Volumen**   * Wenn diese Option aktiviert ist, werden die Flächen nach innen versetzt.
 
 ## Einschränkungen
 
@@ -57,11 +54,11 @@ Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickw
 
 ## Beispiele
 
-1.  Erstellen Sie einen Block(Aufpolsterung/Pad) aus der Skizze
-2.  Erstellen Sie eine zweite Skizze auf der XY-Ebene
-3.  Erstellen Sie ein zweites Pad aus der zweiten Skizze
+1.  Einen Block(Aufpolsterung/Pad) aus der Skizze erstellen
+2.  Eine zweite Skizze auf der XY-Ebene anlegen
+3.  Ein zweiten Block aus der zweiten Skizze erstellen
 
-Wie in den folgenden Bildern:
+Wie in den folgenden Bildern   *
 
 ![](images/Braga-primoPad.png )
 
@@ -69,25 +66,21 @@ Wie in den folgenden Bildern:
 
 ![](images/Braga-secondo_Pad.png )
 
-
-<div class="mw-translate-fuzzy">
-
 Dann
 
-1.  Wählen Sie eine kreisförmige Fläche
-2.  Wählen Sie **<img src="images/_PartDesign_Thickness.png" width=24px>Dicke
-**
-3.  Fügen Sie der Auswahl die anderen kreisförmigen Flächen hinzu
+1.  Eine kreisförmige Fläche auswählen
 
+2.  
+    **<img src="images/_PartDesign_Thickness.png" width=24px>Dicke**auswählen
 
-</div>
+3.  Die anderen kreisförmigen Flächen zur Auswahl hinzufügen
 
-Resultat: ![](images/Brga-spessore.png )
+Ergebnis   * ![](images/Brga-spessore.png )
 
-## Bekannte Probleme 
+## Bekannte Fehler 
 
--   BRep\_API: command not done (Befehl nicht ausgeführt)
--   BRep\_Tool: no parameter on edge
+-   BRep\_API   * command not done (Befehl nicht ausgeführt)
+-   BRep\_Tool   * no parameter on edge
 -   Fehlschlag ohne weitere Fehlermeldung
 
 

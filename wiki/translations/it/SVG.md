@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) (SVG) è un tipo di formato di immagine vettoriale per la grafica bidimensionale.
+[Scalable Vector Graphics](https   *//en.wikipedia.org/wiki/Scalable_Vector_Graphics) (SVG) è un tipo di formato di immagine vettoriale per la grafica bidimensionale.
 
 
 </div>
@@ -40,7 +40,7 @@ FreeCAD può leggere ed esportare la grafica SVG usando la funzione [SVG](Draft_
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD è principalmente un\'applicazione di modellazione 3D e quindi non ha molti strumenti di disegno 2D, quelli presenti sono principalmente inclusi in [Draft](Draft_Workbench/it.md) e [Sketcher](Sketcher_Workbench/it.md). Per creare esclusivamente forme 2D e produrre file SVG, ci sono programmi alternativi come [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+FreeCAD è principalmente un\'applicazione di modellazione 3D e quindi non ha molti strumenti di disegno 2D, quelli presenti sono principalmente inclusi in [Draft](Draft_Workbench/it.md) e [Sketcher](Sketcher_Workbench/it.md). Per creare esclusivamente forme 2D e produrre file SVG, ci sono programmi alternativi come [Inkscape](https   *//en.wikipedia.org/wiki/Inkscape).
 
 
 </div>
@@ -48,6 +48,10 @@ FreeCAD è principalmente un\'applicazione di modellazione 3D e quindi non ha mo
 ## Related
 
 -   [Import text and geometry from Inkscape](Import_text_and_geometry_from_Inkscape.md)
+
+
+
+[Category   *Draft](Category_Draft.md) [Category   *TechDraw](Category_TechDraw.md) [Category   *File\_Formats](Category_File_Formats.md)
 
 
 

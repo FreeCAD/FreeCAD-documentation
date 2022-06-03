@@ -1,4 +1,4 @@
-# <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width:64px;"> WebTools Workbench/it
+# <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width   *64px;"> WebTools Workbench/it
 
 
 <div class="mw-translate-fuzzy">
@@ -23,16 +23,21 @@ Questo ambiente può essere facilmente installato e aggiornato dal [Addon Manage
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/WebTools_BimServer.svg  style="width:32px;"> [BIM server](Arch_BimServer/it.md): Apre una finestra [BimServer](http://www.bimserver.org)
--   <img alt="" src=images/Arch_Git.png  style="width:32px;"> [Git](Arch_Git/it.md): Gestione dei file con [GIT](https://en.wikipedia.org/wiki/Git_%28software%29)
--   <img alt="" src=images/WebTools_Sketchfab.png  style="width:32px;"> [Sketchfab exporter](WebTools_Sketchfab/it.md): Esporta e carica oggetti nel proprio account [SketchFab](http://www.sketchfab.com).
+-   <img alt="" src=images/WebTools_BimServer.svg  style="width   *32px;"> [BIM server](Arch_BimServer/it.md)   * Apre una finestra [BimServer](http   *//www.bimserver.org)
+-   <img alt="" src=images/Arch_Git.png  style="width   *32px;"> [Git](Arch_Git/it.md)   * Gestione dei file con [GIT](https   *//en.wikipedia.org/wiki/Git_%28software%29)
+-   <img alt="" src=images/WebTools_Sketchfab.png  style="width   *32px;"> [Sketchfab exporter](WebTools_Sketchfab/it.md)   * Esporta e carica oggetti nel proprio account [SketchFab](http   *//www.sketchfab.com).
 
 
 </div>
 
 ## Link
 
--   Codice sorgente ospitato su GitHub: <https://github.com/yorikvanhavre/WebTools>
+-   Codice sorgente ospitato su GitHub   * <https   *//github.com/yorikvanhavre/WebTools>
+
+
+ 
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *User Documentation](Category_User_Documentation.md)
 
 
 

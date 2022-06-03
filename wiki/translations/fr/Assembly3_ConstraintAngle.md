@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 ConstraintAngle
-   Name/fr:Assembly3 Contrainte d'angle
-   Icon:Assembly_ConstraintAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 ConstraintAngle
+   Name/fr   *Assembly3 Contrainte d'angle
+   Icon   *Assembly_ConstraintAngle.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintAngle/fr

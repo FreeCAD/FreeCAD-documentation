@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw Midpoints
-   MenuLocation:TechDraw → Add Vertices → Add Midpoints Vertices
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Cosmetic Vertex](TechDraw_CosmeticVertex.md), [TechDraw Quadrant Vertices](TechDraw_Quadrants.md)
+- GuiCommand   *
+   Name   *TechDraw Midpoints
+   MenuLocation   *TechDraw → Add Vertices → Add Midpoints Vertices
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Cosmetic Vertex](TechDraw_CosmeticVertex.md), [TechDraw Quadrant Vertices](TechDraw_Quadrants.md)
 ---
 
 # TechDraw Midpoints/pl
@@ -13,7 +13,7 @@
 
 The Midpoints tool adds Cosmetic [Vertices](Glossary#V.md) at the midpoints of one or more Edges.
 
-<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width   *250px;"> 
 *Cosmetic Vertices at midpoints of Edges*
 
 ## Usage
@@ -31,7 +31,7 @@ Cosmetic Vertices have no properties of their own, as they are not Document Obje
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

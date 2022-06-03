@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic: Part : écrire un script - Roulement à bille #1
-   Level: Débutant
-   Time: 30 min
-   Author:r-frank
-   FCVersion:0.16.6706
-   Files:
+- TutorialInfo   */fr
+   Topic   * Part    * écrire un script - Roulement à bille #1
+   Level   * Débutant
+   Time   * 30 min
+   Author   *r-frank
+   FCVersion   *0.16.6706
+   Files   *
 }}
 
 ### Introduction
@@ -13,8 +13,8 @@
 Ce tutoriel est conçu comme une introduction pour les débutants à la création de pièces avec des scripts python dans FreeCAD.
 Ce tutoriel expliquera comment construire un roulement à billes avec un workflow (flux de travail) CSG.
 Le code produira un nouveau document FreeCAD avec 12 formes (anneau intérieur, anneau extérieur et 10 billes / sphères).
-Cela ressemblera à ceci :
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
+Cela ressemblera à ceci    *
+<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width   *400px;">
 
 ### Workflow ou flux de travail 
 
@@ -43,23 +43,23 @@ Par conséquent, nous devons sélectionner les arrêtes AVANT de créer la rainu
 ### Notes
 
 Ce tutoriel utilise des primitives Part et des opérations booléennes, ce qui peut nécessiter de la puissance de calcul.
-Pour faire une pièce \"scriptée\" avec des esquisses de révolution, consultez le didacticiel [Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md).
+Pour faire une pièce \"scriptée\" avec des esquisses de révolution, consultez le didacticiel [Scripted Parts   * Ball Bearing - Part 2](Scripted_Parts   *_Ball_Bearing_-_Part_2.md).
 
 ### Liens
 
-[Objets créés par script](Scripted_objects/fr.md) : La page wiki expliquant les bases du langage de script
-[Scripts pour création topologique](Topological_data_scripting/fr.md) : Un tutoriel qui couvre les bases de la création de scripts
-[Objets scriptés \"Part\" : Roulement à billes - Partie 2](Scripted_Parts:_Ball_Bearing_-_Part_2/fr.md) : Le faire avec des esquisses
-[Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html) : Base utilisée pour ce tutoriel, grâce à JMG \...
+[Objets créés par script](Scripted_objects/fr.md)    * La page wiki expliquant les bases du langage de script
+[Scripts pour création topologique](Topological_data_scripting/fr.md)    * Un tutoriel qui couvre les bases de la création de scripts
+[Objets scriptés \"Part\"    * Roulement à billes - Partie 2](Scripted_Parts   *_Ball_Bearing_-_Part_2/fr.md)    * Le faire avec des esquisses
+[Bearing Script 1](http   *//linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)    * Base utilisée pour ce tutoriel, grâce à JMG \...
 
 ### Code
 
 
-{{Code   code:
+{{Code   code   *
 ## Ball-bearing script
 ## 11.08.2016 by r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## based on ball bearing script by JMG
-## (http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
+## (http   *//linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
 #
 #needed for inserting primitives
 import Part
@@ -123,7 +123,7 @@ OuterRing=ORF.cut(T2)
 Part.show(OuterRing)
 #
 #Balls#
-for i in range(NBall):
+for i in range(NBall)   *
   Ball=Part.makeSphere(RBall)
   Alpha=(i*2*math.pi)/NBall
   BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
@@ -142,7 +142,9 @@ Gui.SendMsgToActiveView("ViewFit")
 
 {{Powerdocnavi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

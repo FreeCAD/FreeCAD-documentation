@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Mesh_Import
-   Name/it:Importa mesh
-   MenuLocation:Mesh → Importa mesh...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Importa](Std_Import/it.md), [Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md)
+- GuiCommand   */it
+   Name   *Mesh_Import
+   Name/it   *Importa mesh
+   MenuLocation   *Mesh → Importa mesh...
+   Workbenches   *[Mesh](Mesh_Workbench/it.md)
+   SeeAlso   *[Importa](Std_Import/it.md), [Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md)
 ---
 
 # Mesh Import/it
@@ -15,7 +15,7 @@ Il comando **Importa mesh** importa la geometria da un formato file mesh nel doc
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Mesh_Import.svg" width=16px> Importa mesh**.
     -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_Import.svg" width=16px> Importa mesh...** dal menu.
     -   Selezionare l\'opzione **<img src="images/Mesh_Import.svg" width=16px> Importa mesh...** dal menu contestuale della [vista ad albero](Tree_view/it.md) o della [vista 3D](3D_view/it.md). Questa opzione è disponibile solo se è stato selezionato un oggetto mesh esistente. Notare che l\'oggetto selezionato non viene effettivamente utilizzato o modificato dal comando.
@@ -25,26 +25,26 @@ Il comando **Importa mesh** importa la geometria da un formato file mesh nel doc
 
 ## Supported file formats 
 
-The command supports: stl, ast, bms, obj, off, iv, ply, nas and bdf files. For the NASTRAN (nas/bdf) file format, only GRID, CTRIA3 and CQUAD4 cards are supported.
+The command supports   * stl, ast, bms, obj, off, iv, ply, nas and bdf files. For the NASTRAN (nas/bdf) file format, only GRID, CTRIA3 and CQUAD4 cards are supported.
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   L\'ultima posizione del file utilizzato viene memorizzata in   * **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Proprietà
 
-Vedere: [Mesh Feature](Mesh_Feature/it.md).
+Vedere   * [Mesh Feature](Mesh_Feature/it.md).
 
 ## Script
 
-Vedere anche: [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
+Vedere anche   * [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
 Per importare un file mesh utilizzare il metodo `insert` del modulo Mesh.
 
 
 ```python
 import Mesh
-Mesh.insert('D:/testfiles/cylinder.stl')
+Mesh.insert('D   */testfiles/cylinder.stl')
 ```
 
 

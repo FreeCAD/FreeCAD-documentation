@@ -1,17 +1,17 @@
 ---
-- GuiCommand:Addon/de
-   Name:BIM Setup
-   Name/de:BIM Einrichtung
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten → Einrichtung
+- GuiCommand   *Addon/de
+   Name   *BIM Setup
+   Name/de   *BIM Einrichtung
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon   *BIM
+   MenuLocation   *Verwalten → Einrichtung
 ---
 
 # BIM Setup/de
 
 ## Beschreibung
 
-<img alt="" src=images/BIM_setup_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_setup_screenshot.png  style="width   *1024px;">
 
 Das Einstellungssystem von FreeCAD, das sich unter dem Menü **Bearbeiten -\> Einstellungen** befindet, ist sehr komplex. Der **BIM Einrichtungsdialog** bietet eine vereinfachte Version davon, indem er einige der für die BIM Arbeit am häufigsten verwendeten Einstellungen unter einem einfachen Bildschirm zusammenfasst. Die Änderung einer der dortigen Einstellungsoptionen hat den gleichen Effekt wie die Änderung der entsprechenden Einstellung unter Bearbeiten -\> Einstellungen.
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw ShowAll
-   Name/it:Mostra tutto
-   MenuLocation:TechDraw → Mostra tutto
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Cambia aspetto delle linee](TechDraw_DecorateLine/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *TechDraw ShowAll
+   Name/it   *Mostra tutto
+   MenuLocation   *TechDraw → Mostra tutto
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Cambia aspetto delle linee](TechDraw_DecorateLine/it.md)
+   Version   *0.19
 ---
 
 # TechDraw ShowAll/it
@@ -33,7 +33,7 @@ Lo strumento Mostra tutto non ha proprietà, in quanto non è un Document Object
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

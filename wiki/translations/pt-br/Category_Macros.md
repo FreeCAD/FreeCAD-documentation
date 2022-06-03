@@ -7,8 +7,8 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 |     |     |     |
 | --- | --- | --- |
-| [Macro Screen Wiki/pt-br](wiki/Macro Screen Wiki/pt-br.md) | [Macro Snip/pt-br](wiki/Macro Snip/pt-br.md) | [Macros recipes/pt-br](wiki/Macros recipes/pt-br.md) |
-| [Macros/pt-br](wiki/Macros/pt-br.md) |
+| [Macro Screen Wiki/pt-br](wiki/Macro Screen Wiki/pt-br.md) | [Macro Snip/pt-br](wiki/Macro Snip/pt-br.md) | [Macros/pt-br](wiki/Macros/pt-br.md) |
+|
 
 
 

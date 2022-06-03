@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Sketcher ConstrainDistanceX
-   Name/it:Distanza orizzontale   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Vincolo → Distanza orizzontale
-   Shortcut:**Maiusc** + **H**
-   SeeAlso:[Distanza](Sketcher_ConstrainDistance/it.md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)
+- GuiCommand   */it
+   Name   *Sketcher ConstrainDistanceX
+   Name/it   *Distanza orizzontale   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation   *Sketch → Vincolo → Distanza orizzontale
+   Shortcut   ***Maiusc** + **H**
+   SeeAlso   *[Distanza](Sketcher_ConstrainDistance/it.md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)
 ---
 
 # Sketcher ConstrainDistanceX/it
@@ -24,8 +24,8 @@ Fissa una distanza orizzontale tra due punti. È applicabile tra tutti i punti d
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare due punti o una linea
-2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainDistanceX.png style="width:24px"> '''Distanza orizzontale'''** della barra degli strumenti.
+2.  Richiamare il comando in uno di questi modi   *
+    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainDistanceX.png style="width   *24px"> '''Distanza orizzontale'''** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Maiusc** + **H**.
     -   Usare la voce **Sketch → Vincoli → Distanza orizzontale** dal menu principale.
 3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare.
@@ -36,24 +36,24 @@ Fissa una distanza orizzontale tra due punti. È applicabile tra tutti i punti d
 
 <div class="mw-translate-fuzzy">
 
-**Nota:** lo strumento di vincolo può essere avviato anche senza selezione precedente, ma richiede la selezione di due punti o una linea. Per impostare la distanza dall\'origine, è necessario selezionare anche il punto di origine dello schizzo. Di default il comando è in modalità continua per creare nuovi vincoli; per uscire dal comando premere il tasto destro del mouse o una volta il tasto **ESC**.
+**Nota   *** lo strumento di vincolo può essere avviato anche senza selezione precedente, ma richiede la selezione di due punti o una linea. Per impostare la distanza dall\'origine, è necessario selezionare anche il punto di origine dello schizzo. Di default il comando è in modalità continua per creare nuovi vincoli; per uscire dal comando premere il tasto destro del mouse o una volta il tasto **ESC**.
 
 
 </div>
 
 ## Scripting
 
-Distance from origin:
+Distance from origin   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Distance between two vertices:
+Distance between two vertices   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Horizontal span of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line):
+Horizontal span of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line)   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```

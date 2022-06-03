@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/sv
 ---
-- GuiCommand:/sv   Name:Sketcher CreateRectangle   Name/sv:Sketcher CreateRectangle   Workbenches:[Shortcut:R   MenuLocation:Sketch → Sketcher geometries → Create rectangle   SeeAlso:[[Sketcher CreatePolyline/sv|Sketcher Polyline](Sketcher_Workbench/sv___Sketcher]].md)---
+- GuiCommand   */sv   Name   *Sketcher CreateRectangle   Name/sv   *Sketcher CreateRectangle   Workbenches   *[Shortcut   *R   MenuLocation   *Sketch → Sketcher geometries → Create rectangle   SeeAlso   *[[Sketcher CreatePolyline/sv|Sketcher Polyline](Sketcher_Workbench/sv___Sketcher]].md)---
 
 
 </div>
@@ -15,7 +15,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 ## Usage
 
--   After pressing the <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> **Create rectangle** toolbar button, click once to set the first corner, then move the mouse and click a second time to set the opposite corner.
+-   After pressing the <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *24px;"> **Create rectangle** toolbar button, click once to set the first corner, then move the mouse and click a second time to set the opposite corner.
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Arch Rebar ColumnReinforcement
-   Name/de:Architektur Bewehrung Säulenverstärkung
-   MenuLocation:Arch → Bewehrungswerkzeuge
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Arch Bewehrung](Arch_Rebar/de.md)
+- GuiCommand   */de
+   Name   *Arch Rebar ColumnReinforcement
+   Name/de   *Architektur Bewehrung Säulenverstärkung
+   MenuLocation   *Arch → Bewehrungswerkzeuge
+   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Arch Bewehrung](Arch_Rebar/de.md)
 ---
 
 # Arch Rebar Circular ColumnReinforcement/de
@@ -17,12 +17,12 @@ Das [Säulenverstärkung](Arch_Rebar_Circular_ColumnReinforcement/de.md) Werkzeu
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereichs](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereichs](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width   *400px;"> 
 *Bewehrung Rundsäulenverstärkung innerhalb einer Stützen-[Architektur Struktur](Arch_Structure/de.md)*
 
 ## Anwendung
@@ -30,12 +30,12 @@ Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereichs](Reinforcement_Workben
 1\. Wähle die obere Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**-Objekt.
 2. Wähle dann **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Stützen Verstärkung](Arch_Rebar_ColumnReinforcement.md)** aus den Bewehrungs-Werkzeugen.
 3. Eine Dialog-Box wird sich öffnen, wie unten gezeigt.
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;"> 
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;"> 
 *Dialog-Box für das Arch-Bewehrung-Säulenverstärkungs-Werkzeug*
 
 4\. Select the Circular Column radio button in column reinforcement dialog.
 
-<img alt="" src=images/CircularColumnReinforcementDialog.png  style="width:700px;"> 
+<img alt="" src=images/CircularColumnReinforcementDialog.png  style="width   *700px;"> 
 *Dialog-Box für Bewehrung Rundsäulenverstärkung*
 
 5\. Give inputs for data related to circular column reinforcement.
@@ -45,38 +45,38 @@ Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereichs](Reinforcement_Workben
 
 ## Eigenschaften
 
-**Spiralförmige Bewehrungsstäbe:**
+**Spiralförmige Bewehrungsstäbe   ***
 
--    {{PropertyData/de|Side Cover}}: Der Abstand zwischen dem Bewehrungsstab und der gekrümmten Fläche.
+-    {{PropertyData/de|Side Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der gekrümmten Fläche.
 
--    {{PropertyData/de|Top Cover}}: Der Abstand zwischen dem Bewehrungsstab und der oberen Fläche der Struktur.
+-    {{PropertyData/de|Top Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der oberen Fläche der Struktur.
 
--    {{PropertyData/de|Bottom Cover}}: Der Abstand zwischen dem Bewehrungsstab und der unteren Fläche der Struktur.
+-    {{PropertyData/de|Bottom Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der unteren Fläche der Struktur.
 
--    {{PropertyData/de|Pitch}}: Die Höhe einer vollständigen Helixumdrehung, gemessen parallel zu der Achse der Helix.
+-    {{PropertyData/de|Pitch}}   * Die Höhe einer vollständigen Helixumdrehung, gemessen parallel zu der Achse der Helix.
 
--    {{PropertyData/de|Diameter}}: Durchmesser des Bewehrungsstabs.
+-    {{PropertyData/de|Diameter}}   * Durchmesser des Bewehrungsstabs.
 
-**Hauptbewehrungsstäbe:**
+**Hauptbewehrungsstäbe   ***
 
--    {{PropertyData/de|Top Offset}}: Der Abstand der Bewehrungsstäbe zur oberen Fläche der Struktur.
+-    {{PropertyData/de|Top Offset}}   * Der Abstand der Bewehrungsstäbe zur oberen Fläche der Struktur.
 
--    {{PropertyData/de|Bottom Offset}}: Der Abstand der Bewehrungsstäbe zur unteren Fläche der Struktur.
+-    {{PropertyData/de|Bottom Offset}}   * Der Abstand der Bewehrungsstäbe zur unteren Fläche der Struktur.
 
--    {{PropertyData/de|Diameter}}: Durchmesser der Hauptbewehrungsstäbe.
+-    {{PropertyData/de|Diameter}}   * Durchmesser der Hauptbewehrungsstäbe.
 
--    {{PropertyData/de|Number}}: Die Anzahl der Hauptbewehrungsstäbe.
+-    {{PropertyData/de|Number}}   * Die Anzahl der Hauptbewehrungsstäbe.
 
--    {{PropertyData/de|Angle}}: Der Winkelabstand zwischen Spannankern(?; \"ties\").
+-    {{PropertyData/de|Angle}}   * Der Winkelabstand zwischen Spannankern(?; \"ties\").
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Architektur API](Arch_API/de.md), [Bewehrung API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Säulenverstärkungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole mit der folgenden Funktion verwendet werden:
+Das Säulenverstärkungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole mit der folgenden Funktion verwendet werden   *
 
 ### Bewehrung Rundsäulenverstärkung erstellen 
 
@@ -198,6 +198,17 @@ rebar_group = CircularColumn.editReinforcement(
 )
 
 ```
+
+
+
+
+
+
+
+
+
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

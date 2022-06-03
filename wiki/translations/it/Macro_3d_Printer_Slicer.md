@@ -8,17 +8,17 @@
 |Version=1.0
 |Date=2013-10-10
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/9/96/Macro_3d_Printer_Slicer.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/9/96/Macro_3d_Printer_Slicer.png ToolBar Icon]
 |SeeAlso=[Macro 3d Printer Slicer Individual Parts](Macro_3d_Printer_Slicer_Individual_Parts/it.md) <img src="images/Macro_3d_Printer_Slicer_Individual_Parts.svg" width=24px>
 }}
 
 ## Descrizione
 
-Questo codice esporta il progetto attivo in un file STL, e lo apre con il software di analisi preferito. Questo esempio è adatto a **[KISSlicer](http://kisslicer.com/)**, ma può essere modificato e utilizzato con **[Slic3r](http://slic3r.org/)**, **[Cura](http://wiki.ultimaker.com/Cura)**, o qualsiasi altro software per stampanti 3d. Può anche essere leggermente modificato per essere aperto dai software CAM per macchine CNC (a controllo numerico).
+Questo codice esporta il progetto attivo in un file STL, e lo apre con il software di analisi preferito. Questo esempio è adatto a **[KISSlicer](http   *//kisslicer.com/)**, ma può essere modificato e utilizzato con **[Slic3r](http   *//slic3r.org/)**, **[Cura](http   *//wiki.ultimaker.com/Cura)**, o qualsiasi altro software per stampanti 3d. Può anche essere leggermente modificato per essere aperto dai software CAM per macchine CNC (a controllo numerico).
 
 È meglio creare prima un collegamento nella barra degli strumenti che punti alla macro poi, quando si è pronti per analizzare l\'oggetto, fare clic su di esso per far apparire l\'oggetto nell\'interfaccia del software di analisi, così come appare nello schermo di FreeCAD e pronto per essere analizzato. Inoltre, è possibile creare un file STL con lo stesso nome del file del progetto e nella stessa directory del file originale, come backup.
 
-<img alt="" src=images/Macro_3d_Printer_Slicer_00.png  style="width:480px;">
+<img alt="" src=images/Macro_3d_Printer_Slicer_00.png  style="width   *480px;">
 
 ## Script
 
@@ -37,14 +37,14 @@ import math
 import os
 import subprocess
 # some fuctions
-def getPlacement(quat,vect,obj):
-  if quat[3] > -1  and quat[3] < 1:
+def getPlacement(quat,vect,obj)   *
+  if quat[3] > -1  and quat[3] < 1   *
     delta = math.acos(quat[3])*2.0
     scale = math.sin(delta/2)
     rx = quat[0]/scale
     ry = quat[1]/scale
     rz = quat[2]/scale
-  else:
+  else   *
     delta = 0
     rx = 0
     ry = 0
@@ -63,10 +63,10 @@ os.chdir(SLICER)
 doc = App.ActiveDocument
 objs = doc.Objects
 # hide all
-for obj in objs:
-   if obj.ViewObject.isVisible():
+for obj in objs   *
+   if obj.ViewObject.isVisible()   *
       visible_objs.append(obj)
-for obj in visible_objs:
+for obj in visible_objs   *
   # get volume
   volume = obj.Shape.Volume
   # get Rotation and translation of volume
@@ -84,9 +84,9 @@ subprocess.Popen([SLICER + "KISSlicer", stlFile])
 
 ## Ringraziamenti
 
-Grazie a [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) per il suo aiuto nella stesura di questo script.
+Grazie a [Wmayer](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=4686) per il suo aiuto nella stesura di questo script.
 
-Discussione nel forum : <https://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+Discussione nel forum    * <https   *//forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
 
 

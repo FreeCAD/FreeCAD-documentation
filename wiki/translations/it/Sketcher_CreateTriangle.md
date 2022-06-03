@@ -1,6 +1,6 @@
 # Sketcher CreateTriangle/it
 ---
-- GuiCommand:/it   Name:Sketcher CreateTriangle   Name/it:Triangolo   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Triangolo equilatero   Shortcut:   SeeAlso:   Version:0.15---
+- GuiCommand   */it   Name   *Sketcher CreateTriangle   Name/it   *Triangolo   Workbenches   *[[Sketcher Workbench/it   Sketcher]]|MenuLocation   *Sketch → Geometrie → Triangolo equilatero   Shortcut   *   SeeAlso   *   Version   *0.15---
 
 
 </div>
@@ -22,7 +22,7 @@ Disegna un triangolo equilatero inscritto nella circonferenza che costituisce la
 
 <div class="mw-translate-fuzzy">
 
--   Premere il pulsante **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> Triangolo equilatero**,
+-   Premere il pulsante **[<img src=images/Sketcher_CreateTriangle.svg style="width   *16px"> Triangolo equilatero**,
 -   Cliccare un punto per definire il centro,
 -   Muovere il mouse e cliccare per stabilire uno dei vertici.
 -   Premere **Esc** o cliccare sul tasto destro del nouse per uscire dalla funzione.

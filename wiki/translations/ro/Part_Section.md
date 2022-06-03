@@ -1,6 +1,6 @@
 # Part Section/ro
 ---
-- GuiCommand:   Name:Part Section   MenuLocation:Part → Section   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:[Cross-sections](Part_SectionCross.md)---
+- GuiCommand   *   Name   *Part Section   MenuLocation   *Part → Section   Workbenches   *[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso   *[Cross-sections](Part_SectionCross.md)---
 
 
 </div>
@@ -17,11 +17,11 @@ Extrage o secțiune din intersecția a două forme selectate, cea de-a doua serv
 
 </div>
 
-In this example, a cube is sectioned with a cylinder:
+In this example, a cube is sectioned with a cylinder   *
 
 +++
-| ![](images/PartSection1_it.png ) | -   **Base**: base object, the Box       |
-|                                                | -   **Tool**: Section tool, the cylinder |
+| ![](images/PartSection1_it.png ) | -   **Base**   * base object, the Box       |
+|                                                | -   **Tool**   * Section tool, the cylinder |
 +++
 
 

@@ -3,7 +3,7 @@ Die Größe ist eine Kombination einer Fließkommazahl und einer Einheit. Sie wi
 
 ## Allgemein
 
-In einem CAD- oder CAE-System ist es sehr wichtig, die Einheit eines Wertes im Auge zu behalten. Viel Ärger kann entstehen, wenn Einheiten durcheinander geworfen oder Ergebnisse in unterschiedlichen Einheitensystemen berechnet werden. Ein berühmtes Missgeschick ist der [Verlust des Mars Climate Orbiter](https://de.wikipedia.org/wiki/Mars_Climate_Orbiter) durch unterschiedliche Einheiten. Selbst innerhalb des gleichen Einheitensystems kommen die Einheiten in unterschiedlichen Varianten abhängig vom Verwendungszweck. Einfache Beispiele sind die Geschwindigkeit in km/h (Autos), m/s (Robotik) oder mm/min (Fräsen). Ein CAD-System muss verlässlich auf die Einheiten achten. Es muss auch mit ihnen rechnen und auf die richtige Einheit bei speziellen Parametern achten.
+In einem CAD- oder CAE-System ist es sehr wichtig, die Einheit eines Wertes im Auge zu behalten. Viel Ärger kann entstehen, wenn Einheiten durcheinander geworfen oder Ergebnisse in unterschiedlichen Einheitensystemen berechnet werden. Ein berühmtes Missgeschick ist der [Verlust des Mars Climate Orbiter](https   *//de.wikipedia.org/wiki/Mars_Climate_Orbiter) durch unterschiedliche Einheiten. Selbst innerhalb des gleichen Einheitensystems kommen die Einheiten in unterschiedlichen Varianten abhängig vom Verwendungszweck. Einfache Beispiele sind die Geschwindigkeit in km/h (Autos), m/s (Robotik) oder mm/min (Fräsen). Ein CAD-System muss verlässlich auf die Einheiten achten. Es muss auch mit ihnen rechnen und auf die richtige Einheit bei speziellen Parametern achten.
 
 Aus diesem Grund wurde das FreeCAD-Mengengerüst geschaffen. Es umfasst den gesamten Code und die Objekte zum Umgang mit Einheiten, Berechnungen, Benutzereingaben, Umrechnung in andere Einheitensysteme und die schöne Ausgabe von Werten und Einheiten. Langfristig sollte in FreeCAD kein Parameter nur eine Zahl sein.
 
@@ -17,33 +17,33 @@ Der FreeCAD-Eingabe-Parser unterstützt eine Vielzahl von Einheiten und Einheite
 
 </div>
 
-Die detaillierte Beschreibung findest Du im Code:
+Die detaillierte Beschreibung findest Du im Code   *
 
--   Mengen-Lexer: [1](http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/QuantityParser.l)
--   Mengedefinition: [2](http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/Quantity.cpp#l167)
+-   Mengen-Lexer   * [1](http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/QuantityParser.l)
+-   Mengedefinition   * [2](http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/Quantity.cpp#l167)
 
 ## Interne Darstellung 
 
-Alle physikalischen Einheiten können als eine Kombination der sieben [SI-Einheiten](https://de.wikipedia.org/wiki/Internationales_Einheitensystem) ausgedrückt werden:
+Alle physikalischen Einheiten können als eine Kombination der sieben [SI-Einheiten](https   *//de.wikipedia.org/wiki/Internationales_Einheitensystem) ausgedrückt werden   *
 
-<img alt="" src=images/SI-Derived-Units.jpg  style="width:750px;">
+<img alt="" src=images/SI-Derived-Units.jpg  style="width   *750px;">
 
 Ein einfacher Weg, eine Einheit auszudrücken, ist ein Feld mit Integerwerten der Größe 7 (Anzahl der Basiseinheiten), das festlegt, was die Einheit darstellt.
 
-Die Kennzeichnung der sieben Basiseinheiten ist:
+Die Kennzeichnung der sieben Basiseinheiten ist   *
 
--   LÄNGE: \[1,0,0,0,0,0,0\]
--   MASSE: \[0,1,0,0,0,0,0\]
--   ZEIT: \[0,0,1,0,0,0,0\]
--   STROMSTÄRKE: \[0,0,0,1,0,0,0\]
--   THERMODYNAMISCHE TEMPERATUR: \[0,0,0,0,1,0,0\]
--   STOFFMENGE: \[0,0,0,0,0,1,0\]
--   LICHTSTÄRKE: \[0,0,0,0,0,0,1\]
+-   LÄNGE   * \[1,0,0,0,0,0,0\]
+-   MASSE   * \[0,1,0,0,0,0,0\]
+-   ZEIT   * \[0,0,1,0,0,0,0\]
+-   STROMSTÄRKE   * \[0,0,0,1,0,0,0\]
+-   THERMODYNAMISCHE TEMPERATUR   * \[0,0,0,0,1,0,0\]
+-   STOFFMENGE   * \[0,0,0,0,0,1,0\]
+-   LICHTSTÄRKE   * \[0,0,0,0,0,0,1\]
 
-Mit diesen sieben Einheiten können wir alle abgeleiteten Einheiten (in [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) nachzulesen) ausdrücken und weitere neue nach Bedarf erstellen, wie etwa:
+Mit diesen sieben Einheiten können wir alle abgeleiteten Einheiten (in [Guide for the Use of the International System of Units (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) nachzulesen) ausdrücken und weitere neue nach Bedarf erstellen, wie etwa   *
 
--   MASSENDICHTE: \[-3,1,0,0,0,0,0\]
--   FLÄCHE: \[0,2,0,0,0,0,0\]
+-   MASSENDICHTE   * \[-3,1,0,0,0,0,0\]
+-   FLÄCHE   * \[0,2,0,0,0,0,0\]
 
 Weil Winkel pysikalisch dimensionslos, aber trotzdem wichtig für ein CAD-System sind, haben wir eine weitere virtuelle Einheit für den Winkel. Das ergibt einen Vektor von 8 in der FreeCAD-Einheitenkennzeichnung.
 
@@ -61,7 +61,7 @@ Die Beschreibung im Detail findest Du [hier](Std_UnitsCalculator/de.md).
 
 ## InputField
 
-The InputField is a QLineEdit derived Qt widget to handle all kinds of user interaction with quantities and parameters. It features the following properties:
+The InputField is a QLineEdit derived Qt widget to handle all kinds of user interaction with quantities and parameters. It features the following properties   *
 
 -   parsing arbitrary value/unit input
 -   checking on the right unit (if given) and give the user feedback
@@ -77,15 +77,15 @@ The UnitsCalculator uses the InputField already.
 
 <div class="mw-translate-fuzzy">
 
-Hauptdokumentation: [InputField/de](InputField/de.md)
+Hauptdokumentation   * [InputField/de](InputField/de.md)
 
 
 </div>
 
-Code:
+Code   *
 
--   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
--   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
+-   [InputField.h](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
+-   [InputField.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
 
 ## Python scripting 
 
@@ -193,47 +193,47 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
 
 ### User facing values 
 
-Normally in scripts you can use Quantity for all kinds of calculations and checking, but there comes the time you have to output information to the user. You could use getValueAs() to force a certain unit, but normally the user sets his preferred unit-schema in the preferences. This unit-schema does all the translations to the representation the user likes to see. At the moment there are three schemes implemented:
+Normally in scripts you can use Quantity for all kinds of calculations and checking, but there comes the time you have to output information to the user. You could use getValueAs() to force a certain unit, but normally the user sets his preferred unit-schema in the preferences. This unit-schema does all the translations to the representation the user likes to see. At the moment there are three schemes implemented   *
 
--   1: Internal (mm/kg/s)
--   2: MKS (m/kg/s)
--   3: US customary (in/lb)
+-   1   * Internal (mm/kg/s)
+-   2   * MKS (m/kg/s)
+-   3   * US customary (in/lb)
 
 There can be easily additional schemas implemented in the future\...
 
-The Quantity class has two options to use the actual schema translation:
+The Quantity class has two options to use the actual schema translation   *
 
 
 ```python
 from FreeCAD import Units
 
-# Use the translated string:
+# Use the translated string   *
 Units.Quantity('1m').UserString           # '1000 mm' in 1; '1 m' in 2; and '1.09361 yr' in 3
 ```
 
-This does the job if you only need a string. But sometimes you need more control, e.g. if you want to have a dialog button which dials up and down. Then you need more information about the translation output. Therefore the getUserPreferred() method of quantity is used:
+This does the job if you only need a string. But sometimes you need more control, e.g. if you want to have a dialog button which dials up and down. Then you need more information about the translation output. Therefore the getUserPreferred() method of quantity is used   *
 
 
 ```python
-Units.Quantity('22 m').getUserPreferred() # gets a tuple:('22 m', 1000.0, 'm')
-Units.Quantity('2  m').getUserPreferred() # Tuple: ('2000 mm', 1.0, 'mm')
+Units.Quantity('22 m').getUserPreferred() # gets a tuple   *('22 m', 1000.0, 'm')
+Units.Quantity('2  m').getUserPreferred() # Tuple   * ('2000 mm', 1.0, 'mm')
 ```
 
 Here you get more information using a tuple (three items). You get the string as before, plus the factor of the value and the raw string with only the unit chosen by the translation schema. With this information you can implement a much richer user interaction.
 
-The code of the schema translation can be found here:
+The code of the schema translation can be found here   *
 
--   [Internal](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
--   [MKS](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
--   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
+-   [Internal](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
+-   [MKS](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
+-   [Imperial](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
 
 ### Precision
 
-The precision of quantities is within FreeCAD dialogs the number of decimals specified [in the preferences](Preferences_Editor#Units.md). To use this settings for your script (for example in dialogs), you can get it with this code: 
+The precision of quantities is within FreeCAD dialogs the number of decimals specified [in the preferences](Preferences_Editor#Units.md). To use this settings for your script (for example in dialogs), you can get it with this code   * 
 ```python
 import FreeCAD
 
-params = App.ParamGet("User parameter:BaseApp/Preferences/Units")
+params = App.ParamGet("User parameter   *BaseApp/Preferences/Units")
 params.GetInt('Decimals') # returns an int
 ```
 
@@ -296,6 +296,11 @@ from FreeCAD import Units
  "st"  = Units.Quantity(6.35029318   ,Units.Unit(0,1));    // Stone
  "cwt" = Units.Quantity(50.80234544  ,Units.Unit(0,1));    // hundredweights
 ```
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

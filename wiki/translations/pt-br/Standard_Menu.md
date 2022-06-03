@@ -25,7 +25,7 @@ O menu padrão dá acesso a ferramentas que podem ser usadas em todas as bancada
 
 ## Sub-menus 
 
-O menu padrão é composto por 7 submenus:
+O menu padrão é composto por 7 submenus   *
 
 -    {{StdMenu|[Arquivo](Std_File_Menu/pt-br.md)}}O menu Arquivo fornece ferramentas relacionadas à entrada e saída de arquivos.
 

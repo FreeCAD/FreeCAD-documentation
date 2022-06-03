@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Part Primitives
-   Name/ru:Создать примитивы
-   MenuLocation:Деталь -> Создать примитивы...
-   |Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:[Построитель форм](Part_Builder/ru.md)
+- GuiCommand   */ru
+   Name   *Part Primitives
+   Name/ru   *Создать примитивы
+   MenuLocation   *Деталь -> Создать примитивы...
+   |Workbenches   *[Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso   *[Построитель форм](Part_Builder/ru.md)
 ---
 
 # Part Primitives/ru
@@ -17,12 +17,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Инструмент [Создать примитивы](Part_Primitives/ru.md) запускает диалог создания разнообразных геометрических параметризованных примитивов <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстака Part](Part_Workbench/ru.md).
+Инструмент [Создать примитивы](Part_Primitives/ru.md) запускает диалог создания разнообразных геометрических параметризованных примитивов <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Верстака Part](Part_Workbench/ru.md).
 
 
 </div>
 
-<img alt="" src=images/Part_Primitives_example.png  style="width:600px;">
+<img alt="" src=images/Part_Primitives_example.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -59,7 +59,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Используя диалоговое окно: {{Version/ru|0.19}}
+Используя диалоговое окно   * {{Version/ru|0.19}}
 
 1.  Выберите примитив в древе проекта и сделайте по нему двойной щелчок мышью.
 2.  Откроется тоже диалоговое окно, что и при создании примитива. Изменяйте параметры, и вы получите мгновенный предварительный просмотр изменённого примитива.
@@ -68,42 +68,42 @@
 
 </div>
 
-The properties of a Part Primitive can also be changed in the [Property editor](Property_editor.md), and its **Placement** can also be changed with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
+The properties of a Part Primitive can also be changed in the [Property editor](Property_editor.md), and its **Placement** can also be changed with the <img alt="" src=images/Std_TransformManip.svg  style="width   *16px;"> [Std TransformManip](Std_TransformManip.md) command.
 
 ## Геометрические Примитивы 
 
 
 <div class="mw-translate-fuzzy">
 
-Можно создать следующие примитивы:
+Можно создать следующие примитивы   *
 
--   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Плоскость](Part_Plane/ru.md): Создаёт плоскость.
--   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Куб](Part_Box/ru.md): Создаёт куб. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Куб](Part_Box/ru.md).
--   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Цилиндр](Part_Cylinder/ru.md): Создаёт цилиндр. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Цилиндр](Part_Cylinder/ru.md).
--   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Конус](Part_Cone/ru.md): Создаёт конус. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Конус](Part_Cone/ru.md).
--   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Сфера](Part_Sphere/ru.md): Создаёт сферу. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Сфера](Part_Sphere/ru.md).
--   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Эллипсоид](Part_Ellipsoid/ru.md): Создаёт эллипсоид.
--   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Тор](Part_Torus/ru.md): Создаёт тор. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Тор](Part_Torus/ru.md).
--   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Призма](Part_Prism/ru.md): Создаёт призму.
--   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Клин](Part_Wedge/ru.md): Создаёт клин.
--   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Винтовая спираль(Helix)](Part_Helix/ru.md): Создаёт винтовую спираль.
--   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Плоская спираль(Spiral)](Part_Spiral/ru.md): Создаёт плоскую спираль.
--   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Окружность](Part_Circle/ru.md): Создаёт круглое ребро.
--   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Эллипс](Part_Ellipse/ru.md): Создаёт эллиптическое ребро.
--   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Точка](Part_Point/ru.md): Создаёт точку (вершину/vertex).
--   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Линия](Part_Line/ru.md): Создаёт линию (ребро).
--   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Правильный Многоугольник](Part_RegularPolygon/ru.md): Создаёт правильный многоугольник.
+-   <img alt="" src=images/Part_Plane.svg  style="width   *32px;"> [Плоскость](Part_Plane/ru.md)   * Создаёт плоскость.
+-   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width   *32px;"> [Куб](Part_Box/ru.md)   * Создаёт куб. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Box.svg  style="width   *32px;"> [Куб](Part_Box/ru.md).
+-   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width   *32px;"> [Цилиндр](Part_Cylinder/ru.md)   * Создаёт цилиндр. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cylinder.svg  style="width   *32px;"> [Цилиндр](Part_Cylinder/ru.md).
+-   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width   *32px;"> [Конус](Part_Cone/ru.md)   * Создаёт конус. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cone.svg  style="width   *32px;"> [Конус](Part_Cone/ru.md).
+-   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width   *32px;"> [Сфера](Part_Sphere/ru.md)   * Создаёт сферу. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Sphere.svg  style="width   *32px;"> [Сфера](Part_Sphere/ru.md).
+-   <img alt="" src=images/Part_Ellipsoid.svg  style="width   *32px;"> [Эллипсоид](Part_Ellipsoid/ru.md)   * Создаёт эллипсоид.
+-   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width   *32px;"> [Тор](Part_Torus/ru.md)   * Создаёт тор. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Torus.svg  style="width   *32px;"> [Тор](Part_Torus/ru.md).
+-   <img alt="" src=images/Part_Prism.svg  style="width   *32px;"> [Призма](Part_Prism/ru.md)   * Создаёт призму.
+-   <img alt="" src=images/Part_Wedge.svg  style="width   *32px;"> [Клин](Part_Wedge/ru.md)   * Создаёт клин.
+-   <img alt="" src=images/Part_Helix.svg  style="width   *32px;"> [Винтовая спираль(Helix)](Part_Helix/ru.md)   * Создаёт винтовую спираль.
+-   <img alt="" src=images/Part_Spiral.svg  style="width   *32px;"> [Плоская спираль(Spiral)](Part_Spiral/ru.md)   * Создаёт плоскую спираль.
+-   <img alt="" src=images/Part_Circle.svg  style="width   *32px;"> [Окружность](Part_Circle/ru.md)   * Создаёт круглое ребро.
+-   <img alt="" src=images/Part_Ellipse.svg  style="width   *32px;"> [Эллипс](Part_Ellipse/ru.md)   * Создаёт эллиптическое ребро.
+-   <img alt="" src=images/Part_Point.svg  style="width   *32px;"> [Точка](Part_Point/ru.md)   * Создаёт точку (вершину/vertex).
+-   <img alt="" src=images/Part_Line.svg  style="width   *32px;"> [Линия](Part_Line/ru.md)   * Создаёт линию (ребро).
+-   <img alt="" src=images/Part_RegularPolygon.svg  style="width   *32px;"> [Правильный Многоугольник](Part_RegularPolygon/ru.md)   * Создаёт правильный многоугольник.
 
 
 </div>
 
 ## Notes
 
--   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Tube](Part_Tube.md).
+-   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width   *16px;"> [Part Tube](Part_Tube.md).
 
 ## Программирование
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">

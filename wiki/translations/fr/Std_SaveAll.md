@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std SaveAll
-   Name/fr:Std Tout enregistrer
-   MenuLocation:Fichier → Tout enregistrer
-   Workbenches:Tous
-   SeeAlso:[Std Enregistrer](Std_Save/fr.md)
+- GuiCommand   */fr
+   Name   *Std SaveAll
+   Name/fr   *Std Tout enregistrer
+   MenuLocation   *Fichier → Tout enregistrer
+   Workbenches   *Tous
+   SeeAlso   *[Std Enregistrer](Std_Save/fr.md)
 ---
 
 # Std SaveAll/fr
@@ -16,7 +16,7 @@ La commande **Std Tout enregistrer** enregistre tous les documents actifs.
 ## Utilisation
 
 1.  Sélectionnez l\'option **Fichier → <img src="images/Std_SaveAll.svg" width=16px> Enregistrer tout** dans le menu.
-2.  Pour les nouveaux documents: saisissez un nom de fichier dans la boîte de dialogue et appuyez sur le bouton **Enregistrer**.
+2.  Pour les nouveaux documents   * saisissez un nom de fichier dans la boîte de dialogue et appuyez sur le bouton **Enregistrer**.
 
 ## Options
 
@@ -24,12 +24,12 @@ La commande **Std Tout enregistrer** enregistre tous les documents actifs.
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier emplacement de fichier utilisé est stocké   * **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

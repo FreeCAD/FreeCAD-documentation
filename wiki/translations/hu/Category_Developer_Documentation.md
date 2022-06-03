@@ -1,6 +1,8 @@
 # Category:Developer Documentation/hu
 This category gathers documentation article mostly aimed at programmers
 
+[Category   *Documentation/hu](Category   *Documentation/hu.md)
+
 ### Contents
 
 |     |     |     |

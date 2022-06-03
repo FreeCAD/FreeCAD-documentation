@@ -1,17 +1,14 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher ConstrainPointOnObject
-   Name/de:Skizzierer BeschränkePunktAufObjekt
-   MenuLocation:Skizze → Skizzen Beschränkungen → Beschränke Punkt Auf Objekt
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut:**Umschalten** + **O**
-   SeeAlso:[Skizzierer Beschränke Deckungsgleich](Sketcher_ConstrainCoincident/de.md)
+- GuiCommand   */de
+   Name   *Sketcher ConstrainPointOnObject
+   Name/de   *Sketcher PunktAufObjektFestlegen
+   MenuLocation   *Sketch → Skizzen-Beschränkungen → Punkt auf Objekt festlegen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***O**
+   SeeAlso   *[Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md)
 ---
 
 # Sketcher ConstrainPointOnObject/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -22,10 +19,10 @@ Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder 
 
 <div class="mw-translate-fuzzy">
 
-1.  Wähle den Punkt aus, den du auf einer Linie/Bogen/etc. anbringen möchtest. (**Ergebnis:** Einmal ausgewählt, wird der Punkt grün).
-2.  Wähle die Linie, die du an dem soeben ausgewählten Punkt anbringen möchtest (**Ergebnis:** Einmal ausgewählt, wird die Linie grün).
-3.  Rufe das **Punkt auf Objekt beschränken** Werkzeug mit verschiedenen Methoden auf:
-    -   Drücke die **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** Schaltfläche in der Werkzeugleiste
+1.  Wähle den Punkt aus, den du auf einer Linie/Bogen/etc. anbringen möchtest. (**Ergebnis   *** Einmal ausgewählt, wird der Punkt grün).
+2.  Wähle die Linie, die du an dem soeben ausgewählten Punkt anbringen möchtest (**Ergebnis   *** Einmal ausgewählt, wird die Linie grün).
+3.  Rufe das **Punkt auf Objekt beschränken** Werkzeug mit verschiedenen Methoden auf   *
+    -   Drücke die **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** Schaltfläche in der Werkzeugleiste
     -   Verwende die **Shift** + **O** Tastaturkürzel.
     -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Punkt auf Objekt beschränken}} Eintrag im oberen Menü.
 
@@ -34,7 +31,7 @@ Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder 
 
 ## Skripten
 
-Die Beschränkung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch den folgenden Befehl erzeugt werden:
+Die Beschränkung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch den folgenden Befehl erzeugt werden   *
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

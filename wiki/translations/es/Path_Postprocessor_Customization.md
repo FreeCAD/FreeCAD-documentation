@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD utiliza como representación interna para las trayectorias generadas, los llamados G-codes. Pueden describir cosas como: la velocidad y el avance, la parada del motor, etc\... Pero lo más importante son los movimientos que describen. Estos movimientos son bastante simples: Pueden ser líneas rectas o arcos circulares. Curvas más sofisticadas como las B-splines ya son aproximadas por el <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> de FreeCAD. [Ambiente de trabajo Trayectoria](Path_Workbench/es.md).
+FreeCAD utiliza como representación interna para las trayectorias generadas, los llamados G-codes. Pueden describir cosas como   * la velocidad y el avance, la parada del motor, etc\... Pero lo más importante son los movimientos que describen. Estos movimientos son bastante simples   * Pueden ser líneas rectas o arcos circulares. Curvas más sofisticadas como las B-splines ya son aproximadas por el <img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> de FreeCAD. [Ambiente de trabajo Trayectoria](Path_Workbench/es.md).
 
 
 </div>
@@ -22,7 +22,7 @@ FreeCAD utiliza como representación interna para las trayectorias generadas, lo
 
 <div class="mw-translate-fuzzy">
 
-Muchas fresadoras utilizan también G-codes para controlar el proceso de fresado. Pueden parecerse casi a los códigos internos, pero puede haber algunas diferencias:
+Muchas fresadoras utilizan también G-codes para controlar el proceso de fresado. Pueden parecerse casi a los códigos internos, pero puede haber algunas diferencias   *
 
 -   la máquina puede tener una secuencia especial de arranque
 -   puede tener una secuencia de parada especial
@@ -57,7 +57,7 @@ La trayectoria en FreeCAD tendría este aspecto. Tenga en cuenta la pequeña fle
 
 <div class="mw-translate-fuzzy">
 
-A continuación, puede echar un vistazo al archivo y compararlo con la salida de los postprocesadores existentes como {{FileName|linux_cnc_post.py}} o {{FileName|grbl_post.py}} y tratar de adaptarlos usted mismo o subir el suyo al foro Path <https://forum.freecadweb.org/viewforum.php?f=15> para obtener ayuda.
+A continuación, puede echar un vistazo al archivo y compararlo con la salida de los postprocesadores existentes como **linux_cnc_post.py** o **grbl_post.py** y tratar de adaptarlos usted mismo o subir el suyo al foro Path <https   *//forum.freecadweb.org/viewforum.php?f=15> para obtener ayuda.
 
 
 </div>
@@ -67,12 +67,12 @@ A continuación, puede echar un vistazo al archivo y compararlo con la salida de
 
 <div class="mw-translate-fuzzy">
 
-Para un formato de archivo {{FileName|<filename>}} el postprocesador debe obtener el nombre {{FileName|<filename>_post.py}}. Tenga en cuenta que {{FileName|_post.py}} tiene que estar en minúsculas.
+Para un formato de archivo **<filename>** el postprocesador debe obtener el nombre **<filename>_post.py**. Tenga en cuenta que **_post.py** tiene que estar en minúsculas.
 
 
 </div>
 
-The new name should be reflected at the head of the parser arguments list in the {{FileName|<filename>_post.py}} file, e.g.:
+The new name should be reflected at the head of the parser arguments list in the **<filename>_post.py** file, e.g.   *
 
 
 {{Code|lang=text|code=
@@ -86,7 +86,7 @@ Si estás probando, colócalo en tu directorio de macros. Si funciona bien, por 
 
 <div class="mw-translate-fuzzy">
 
-Para comparar puedes mirar los postprocesadores que vienen con tu instalación de FreeCAD. Se encuentran bajo el directorio Mod en Path/PathScripts/post. Los postprocesadores <img alt="" src=images/linuxcnc.png  style="width:64px;"> [linuxcnc](http://linuxcnc.org/) y <img alt="" src=images/grbl.png  style="width:64px;"> [grbl](https://github.com/grbl/grbl) son muy utilizados. El estudio de su código puede ser útil.
+Para comparar puedes mirar los postprocesadores que vienen con tu instalación de FreeCAD. Se encuentran bajo el directorio Mod en Path/PathScripts/post. Los postprocesadores <img alt="" src=images/linuxcnc.png  style="width   *64px;"> [linuxcnc](http   *//linuxcnc.org/) y <img alt="" src=images/grbl.png  style="width   *64px;"> [grbl](https   *//github.com/grbl/grbl) son muy utilizados. El estudio de su código puede ser útil.
 
 -   En Linux la ruta es /usr/share/freecad/Mod/Path/PathScripts/post
 
@@ -109,8 +109,8 @@ Mirando linux\_cnc\_post.py, verás la función de exportación (a partir de 0.1
 
 
 ```python
-def export(objectslist, filename, argstring):
-    # pylint: disable=global-statement
+def export(objectslist, filename, argstring)   *
+    # pylint   * disable=global-statement
     ...
     gcode = ""
     ...
@@ -121,7 +121,7 @@ Recoge paso a paso en la variable \"gcode\" los G-codes procesados y maneja la e
 
 
 ```python
-def parse(pathobj):
+def parse(pathobj)   *
     ...
     out = ""
     lastcommand = None
@@ -133,7 +133,7 @@ De forma similar a la función \"export\", recoge los G-codes en la variable \"o
 
 
 ```python
-        for c in pathobj.Path.Commands:
+        for c in pathobj.Path.Commands   *
 
             command = c.Name
 ```
@@ -149,7 +149,7 @@ Verá que ambas funciones también llaman a la función \"linenumber()\". Si el 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_PostProcess.svg  style="width:24px;"> [Trayectoria ProcesoPuesto](Path_Post/es.md)
+-   <img alt="" src=images/Path_PostProcess.svg  style="width   *24px;"> [Trayectoria ProcesoPuesto](Path_Post/es.md)
 
 
 </div>

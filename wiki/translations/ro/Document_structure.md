@@ -23,7 +23,7 @@ Daca este cel putin un document deschis in FreeCAD, atunci exact un document est
 
 ## Aplicatia si Interfata cu Utilizatorul 
 
-Ca orice altceva in FreeCAD, partea de interfața grafică a utilizatorului (GUI) este separată de partea de aplicație (App). Acest lucru este adevărat și pentru documente. Acestea sunt și ele alcătuite din două părți: partea de aplicație, ce conține obiecte, și partea de vizualizare, ce conține reprezentarea grafica a obiectelor.
+Ca orice altceva in FreeCAD, partea de interfața grafică a utilizatorului (GUI) este separată de partea de aplicație (App). Acest lucru este adevărat și pentru documente. Acestea sunt și ele alcătuite din două părți   * partea de aplicație, ce conține obiecte, și partea de vizualizare, ce conține reprezentarea grafica a obiectelor.
 
 Gândiți-vă la aceasta arhitectură ca la două spații unde obiectele sunt definite. Parametrii constructivi (este un cub? un con? ce dimensiuni are?) sunt stocați in partea de App, pe când reprezentarea grafică (liniile au culoarea neagră? fațetele sunt albastre?) este stocată în partea GUI. De ce aceasta separare? Pentru că FreeCAD poate fi folosit și {{emphasis|without}}
 
@@ -36,7 +36,7 @@ O alta parte ce este stocată în partea de grafică sunt vizualizările 3D. Un 
 
 <div class="mw-translate-fuzzy">
 
-Documentele pot fi ușor create, accesate și modificate de la interpretorul [Python](Python.md) . De exemplu:
+Documentele pot fi ușor create, accesate și modificate de la interpretorul [Python](Python.md) . De exemplu   *
 
 
 </div>

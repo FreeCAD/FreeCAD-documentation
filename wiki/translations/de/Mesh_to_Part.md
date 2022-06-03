@@ -3,7 +3,7 @@
 
 ## Umwandeln von Teilobjekten in Polygonnetze 
 
-Die Konvertierung von übergeordneten Objekten wie [Teil](Part_Workbench/de.md) formen in einfachere Objekte wie [Polygonnetz](Mesh_Workbench/de.md) ist ein sehr einfacher vorwärtsgerichteter Vorgang, bei der alle Flächen eines Teilobjekts trianguliert werden. Das Ergebnis dieser Triangulation (Tesselierung) wird dann zum Aufbau eines Polygonnetzes verwendet:
+Die Konvertierung von übergeordneten Objekten wie [Teil](Part_Workbench/de.md) formen in einfachere Objekte wie [Polygonnetz](Mesh_Workbench/de.md) ist ein sehr einfacher vorwärtsgerichteter Vorgang, bei der alle Flächen eines Teilobjekts trianguliert werden. Das Ergebnis dieser Triangulation (Tesselierung) wird dann zum Aufbau eines Polygonnetzes verwendet   *
 
 
 ```python
@@ -14,9 +14,9 @@ shp = obj.Shape
 faces = []
 
 triangles = shp.tessellate(1) # the number represents the precision of the tessellation
-for tri in triangles[1]:
+for tri in triangles[1]   *
     face = []
-    for i in tri:
+    for i in tri   *
         face.append(triangles[0][i])
     faces.append(face)
 
@@ -24,7 +24,7 @@ m = Mesh.Mesh(faces)
 Mesh.show(m)
 ```
 
-Alternativbeispiel:
+Alternativbeispiel   *
 
 
 ```python
@@ -34,7 +34,7 @@ import MeshPart
 obj = FreeCADGui.Selection.getSelection()[0] # a Part object must be preselected
 shp = obj.Shape
 
-mesh = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+mesh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
 mesh.Mesh = MeshPart.meshFromShape(
         Shape=shp,
         LinearDeflection=0.01,
@@ -48,7 +48,7 @@ Die Umwandlung von Netzen in Teilobjekte ist ein gängiger Vorgang. Sehr oft erh
 
 Das Umwandeln von Netzen in diese übergeordneten Objekte (die vom [Part-Arbeitsbereich](Part_Workbench/de.md) in FreeCAD behandelt werden) ist keine einfache Operation. Netze können Tausende von Dreiecken enthalten (z.B. wenn sie von einem 3D Scanner erzeugt werden), und Körper, die aus der gleichen Anzahl von Flächen bestehen, wären extrem schwierig zu bearbeiten. Daher möchtest du im Allgemeinen das Objekt bei der Konvertierung optimieren.
 
-FreeCAD bietet derzeit zwei Möglichkeiten, Polygonnetze in Bauteilobjekte zu konvertieren. Die erste Methode ist eine einfache, direkte Umwandlung, ohne jegliche Optimierung:
+FreeCAD bietet derzeit zwei Möglichkeiten, Polygonnetze in Bauteilobjekte zu konvertieren. Die erste Methode ist eine einfache, direkte Umwandlung, ohne jegliche Optimierung   *
 
 
 ```python
@@ -62,7 +62,7 @@ solid = Part.makeSolid(shape)
 Part.show(solid)
 ```
 
-Die zweite Methode bietet die Möglichkeit, Polygonnetzfacetten koplanar zu betrachten, wenn der Winkel zwischen ihnen unter einem bestimmten Wert liegt, wodurch die Anzahl der Flächen im Endergebnis reduziert wird:
+Die zweite Methode bietet die Möglichkeit, Polygonnetzfacetten koplanar zu betrachten, wenn der Winkel zwischen ihnen unter einem bestimmten Wert liegt, wodurch die Anzahl der Flächen im Endergebnis reduziert wird   *
 
 
 ```python
@@ -75,22 +75,22 @@ mesh = obj.Mesh
 segments = mesh.getPlanarSegments(0.00001) # use rather strict tolerance here
 faces = []
 
-for i in segments:
-    if len(i) > 0:
+for i in segments   *
+    if len(i) > 0   *
         # a segment can have inner holes
         wires = MeshPart.wireFromSegment(mesh, i)
         # we assume that the exterior boundary is that one with the biggest bounding box
-        if len(wires) > 0:
+        if len(wires) > 0   *
             ext = None
             max_length=0
-            for i in wires:
-                if i.BoundBox.DiagonalLength > max_length:
+            for i in wires   *
+                if i.BoundBox.DiagonalLength > max_length   *
                     max_length = i.BoundBox.DiagonalLength
                     ext = i
 
             wires.remove(ext)
             # all interior wires mark a hole and must reverse their orientation, otherwise Part.Face fails
-            for i in wires:
+            for i in wires   *
                 i.reverse()
 
             # make sure that the exterior wires comes as first in the list
@@ -103,6 +103,8 @@ Part.show(solid)
 
 
  {{Mesh Tools navi}}
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

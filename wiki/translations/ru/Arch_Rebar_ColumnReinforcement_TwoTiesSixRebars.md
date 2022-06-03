@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Arch Rebar ColumnReinforcement
-   Name/ru:Arch Rebar ColumnReinforcement
-   MenuLocation:Arch → Rebar tools
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   SeeAlso:[Column Reinforcement](Arch_Rebar_ColumnReinforcement/ru.md), [Beam Reinforcement](Arch_Rebar_BeamReinforcement/ru.md)
-   Version:0.19
+- GuiCommand   */ru
+   Name   *Arch Rebar ColumnReinforcement
+   Name/ru   *Arch Rebar ColumnReinforcement
+   MenuLocation   *Arch → Rebar tools
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   SeeAlso   *[Column Reinforcement](Arch_Rebar_ColumnReinforcement/ru.md), [Beam Reinforcement](Arch_Rebar_BeamReinforcement/ru.md)
+   Version   *0.19
 ---
 
 # Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru
@@ -19,9 +19,9 @@ The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTi
 
 The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
+<img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width   *400px;">
 
 
 
@@ -32,14 +32,14 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 1\. Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
 2. Then select **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)** from the rebar tools.
 3. A dialog box will pop-out on screen as shown below.
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;">
 
 
 
 *Dialog Box for the Arch Rebar ColumnReinforcement tool*
 
 4\. Select the TwoTiesSixRebars type of column reinforcement from drop down menu on right side.
-<img alt="" src=images/TwoTiesColumnReinforcementDialog_Ties.png  style="width:700px;">
+<img alt="" src=images/TwoTiesColumnReinforcementDialog_Ties.png  style="width   *700px;">
 
 
 
@@ -47,7 +47,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 5\. Give inputs for data related to ties.
 6. Click **Next** and the dialog box will be updated as shown below.
-<img alt="" src=images/TwoTiesColumnReinforcementDialog_MainRebars.png  style="width:700px;">
+<img alt="" src=images/TwoTiesColumnReinforcementDialog_MainRebars.png  style="width   *700px;">
 
 
 
@@ -59,56 +59,56 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Свойства
 
-**Ties:**
+**Ties   ***
 
--    **Left Cover**: The distance between the left end of the tie to the left face of the structure.
+-    **Left Cover**   * The distance between the left end of the tie to the left face of the structure.
 
--    **Right Cover**: The distance between the right end of the tie to right face of the structure.
+-    **Right Cover**   * The distance between the right end of the tie to right face of the structure.
 
--    **Top Cover**: The distance between tie from the top face of the structure.
+-    **Top Cover**   * The distance between tie from the top face of the structure.
 
--    **Bottom Cover**: The distance between tie from the bottom face of the structure.
+-    **Bottom Cover**   * The distance between tie from the bottom face of the structure.
 
--    **Offset**: The distance between tie from the top/bottom face of the structure.
+-    **Offset**   * The distance between tie from the top/bottom face of the structure.
 
--    **Diameter**: Diameter of the tie.
+-    **Diameter**   * Diameter of the tie.
 
--    **Bent Angle**: Bent angle defines the angle at the ends of a tie.
+-    **Bent Angle**   * Bent angle defines the angle at the ends of a tie.
 
--    **Extension Factor**: Extension Factor defines length of end of tie, expressed in times the diameter.
+-    **Extension Factor**   * Extension Factor defines length of end of tie, expressed in times the diameter.
 
--    **Number**: The number of ties.
+-    **Number**   * The number of ties.
 
--    **Spacing**: The distance between the axes of each tie.
+-    **Spacing**   * The distance between the axes of each tie.
 
--    **Ties Sequence**: The sequence of ties from top to bottom with respect to front view.
+-    **Ties Sequence**   * The sequence of ties from top to bottom with respect to front view.
 
-**Main Rebars:** Rebars present at corners of tie
+**Main Rebars   *** Rebars present at corners of tie
 
--    **Rebar Type**: Type of main rebars.
+-    **Rebar Type**   * Type of main rebars.
 
--    **Hook Orientation**: Orientation of LShaped hooks.
+-    **Hook Orientation**   * Orientation of LShaped hooks.
 
--    **Hook Extend Along**: Direction for hook extension.
+-    **Hook Extend Along**   * Direction for hook extension.
 
--    **Hook Extension**: Length of hook of LShape rebars.
+-    **Hook Extension**   * Length of hook of LShape rebars.
 
--    **Rounding**: A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**   * A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Top Offset**: The distance between rebar from the top face of the structure.
+-    **Top Offset**   * The distance between rebar from the top face of the structure.
 
--    **Bottom Offset**: The distance between rebar from the bottom face of the structure.
+-    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
 
--    **Diameter**: Diameter of the main rebars.
+-    **Diameter**   * Diameter of the main rebars.
 
 ## Программирование
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
 
 ### Create Two Ties Six Rebars 
 
@@ -161,7 +161,7 @@ RebarGroup = makeTwoTiesSixRebars(
 
 -    `main_rebars_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
 
--    `hook_orientation`specifies the orientation of LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `hook_orientation`specifies the orientation of LShaped hook; it can be   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
 
 -    `hook_extend_along`specifies direction for hook extension; it can be `"x-axis"` or `"y-axis"`.
 
@@ -347,6 +347,11 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

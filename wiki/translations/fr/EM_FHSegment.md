@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:EM FHSegment
-   Name/fr:EM Segment FH
-   MenuLocation:EM → FHSegment
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **S**
-   Version:0.17
-   SeeAlso:[EM Noeud FH](EM_FHNode/fr.md), [EM Chemin FH](EM_FHPath/fr.md)
+- GuiCommand   */fr
+   Name   *EM FHSegment
+   Name/fr   *EM Segment FH
+   MenuLocation   *EM → FHSegment
+   Workbenches   *[EM](EM_Workbench/fr.md)
+   Shortcut   ***E** **S**
+   Version   *0.17
+   SeeAlso   *[EM Noeud FH](EM_FHNode/fr.md), [EM Chemin FH](EM_FHPath/fr.md)
 ---
 
 # EM FHSegment/fr
@@ -23,18 +23,18 @@ L\'outil Segment FH insère un objet FastHenry de type Segment.
 
 ## Utilisation
 
-L\'objet Segment FH peut être basé sur la position d\'un objet <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Draft Ligne](Draft_Line/fr.md) ou sur deux <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [Noeuds FH](EM_FHNode/fr.md) qui seront les points d\'extrémité du Segment FH, ou bien, vous pouvez sélectionner l\'emplacement 3D des deux points d\'extrémité, où deux Noeuds FH supplémentaires seront créés.
+L\'objet Segment FH peut être basé sur la position d\'un objet <img alt="" src=images/Draft_Line.svg  style="width   *16px;"> [Draft Ligne](Draft_Line/fr.md) ou sur deux <img alt="" src=images/EM_FHNode.svg  style="width   *16px;"> [Noeuds FH](EM_FHNode/fr.md) qui seront les points d\'extrémité du Segment FH, ou bien, vous pouvez sélectionner l\'emplacement 3D des deux points d\'extrémité, où deux Noeuds FH supplémentaires seront créés.
 
 1.  Appuyez sur le bouton **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment/fr.md)** ou appuyez sur les touches **E** puis **S**.
 2.  Cliquez sur un premier point de la vue 3D ou tapez une coordonnée et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 3.  Cliquez sur un deuxième point de la vue 3D ou tapez une coordonnée et appuyez sur le bouton **<img src="images/_Draft_AddPoint.svg" width=16px> Entrez le point**.
 
-Vous pouvez également le faire :
+Vous pouvez également le faire    *
 
-1.  Sélectionnez deux objets <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [Noeuds FH](EM_FHNode/fr.md)
+1.  Sélectionnez deux objets <img alt="" src=images/EM_FHNode.svg  style="width   *16px;"> [Noeuds FH](EM_FHNode/fr.md)
 2.  Appuyez sur le bouton **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment/fr.md)** ou appuyez sur la touche **E** puis **S**.
 
-Ou:
+Ou   *
 
 1.  Sélectionnez un ou plusieurs objet(s) [Draft Ligne](Draft_Line/fr.md)
 2.  Appuyez sur le bouton **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment/fr.md)** ou appuyez sur les touches **E** puis **S**. Autant d\'objets Segment FH seront créés que les objets Draft Ligne.
@@ -52,36 +52,36 @@ Ou:
 
 ## Propriétés
 
--    **Base**: L\'objet de base sur lequel ce composant est construit (une [Draft Ligne](Draft_Line/fr.md))
+-    **Base**   * L\'objet de base sur lequel ce composant est construit (une [Draft Ligne](Draft_Line/fr.md))
 
--    **NodeStart**: le début de [Noeud FH](EM_FHNode/fr.md)
+-    **NodeStart**   * le début de [Noeud FH](EM_FHNode/fr.md)
 
--    **NodeEnd**: la fin de [Noeud FH](EM_FHNode/fr.md)
+-    **NodeEnd**   * la fin de [Noeud FH](EM_FHNode/fr.md)
 
--    **Width**: la largeur du segment FH (paramètre de segment \'w\' dans FastHenry)
+-    **Width**   * la largeur du segment FH (paramètre de segment \'w\' dans FastHenry)
 
--    **Height**: la hauteur du segment FH (paramètre du segment \'h\' dans FastHenry)
+-    **Height**   * la hauteur du segment FH (paramètre du segment \'h\' dans FastHenry)
 
--    **Sigma**: la conductivité segment FH (paramètre de segment \'sigma\' dans FastHenry)
+-    **Sigma**   * la conductivité segment FH (paramètre de segment \'sigma\' dans FastHenry)
 
--    **ww**: la direction de la section transversale du segment FH le long de la largeur (paramètre de segment \'wx\', \'wy\', \'wz\' dans FastHenry)
+-    **ww**   * la direction de la section transversale du segment FH le long de la largeur (paramètre de segment \'wx\', \'wy\', \'wz\' dans FastHenry)
 
--    **nhinc**: le nombre de filaments dans le sens de la hauteur (paramètre de segment \'nhinc\' dans FastHenry)
+-    **nhinc**   * le nombre de filaments dans le sens de la hauteur (paramètre de segment \'nhinc\' dans FastHenry)
 
--    **nwinc**: le nombre de filaments dans le sens de la largeur (paramètre de segment \'nwinc\' dans FastHenry)
+-    **nwinc**   * le nombre de filaments dans le sens de la largeur (paramètre de segment \'nwinc\' dans FastHenry)
 
--    **rh**: le rapport des filaments adjacents dans le sens de la hauteur (paramètre de segment \'rh\' dans FastHenry)
+-    **rh**   * le rapport des filaments adjacents dans le sens de la hauteur (paramètre de segment \'rh\' dans FastHenry)
 
--    **rw**: le rapport des filaments adjacents dans le sens de la largeur (paramètre de segment \'rw\' dans FastHenry)
+-    **rw**   * le rapport des filaments adjacents dans le sens de la largeur (paramètre de segment \'rw\' dans FastHenry)
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil FHSegment peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil FHSegment peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   *
 
 
 ```python
@@ -102,7 +102,7 @@ segment = makeFHSegment(baseobj=None, nodeStart=None, nodeEnd=None, width=None, 
 
 -    `name`est le nom de l\'objet.
 
-Exemple:
+Exemple   *
 
 
 ```python

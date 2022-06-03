@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh Import‏‎
-   Name/fr:Mesh Importer un maillage
-   MenuLocation:Maillages → Importer un maillage...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Std Importer](Std_Import/fr.md), [Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export.md)
+- GuiCommand   */fr
+   Name   *Mesh Import‏‎
+   Name/fr   *Mesh Importer un maillage
+   MenuLocation   *Maillages → Importer un maillage...
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso   *[Std Importer](Std_Import/fr.md), [Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export.md)
 ---
 
 # Mesh Import/fr
@@ -15,7 +15,7 @@ La commande **Importer un maillage** importe la géométrie d\'un format de fich
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_Import.svg" width=16px> [Mesh Importe un maillage depuis un fichier](Mesh_Import/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Import.svg" width=16px> Importer un maillage...** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Mesh_Import.svg" width=16px> Importer un maillage...** dans le menu contextuel de la [vue en arborescence](tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md). Cette option n\'est disponible que si un objet maillé existant a été sélectionné. Notez que l\'objet sélectionné n\'est en fait pas utilisé ou modifié par la commande.
@@ -25,26 +25,26 @@ La commande **Importer un maillage** importe la géométrie d\'un format de fich
 
 ## Formats de fichiers supportés 
 
-La commande accepte : les fichiers stl, ast, bms, obj, off, iv, ply, nas et bdf. Pour le format de fichier NASTRAN (nas/bdf), seules les cartes GRID, CTRIA3 et CQUAD4 sont supportées.
+La commande accepte    * les fichiers stl, ast, bms, obj, off, iv, ply, nas et bdf. Pour le format de fichier NASTRAN (nas/bdf), seules les cartes GRID, CTRIA3 et CQUAD4 sont supportées.
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier emplacement de fichier utilisé est stocké   * **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir   * [Mesh Feature](Mesh_Feature/fr.md).
 
 ## Script
 
-Voir aussi: [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi   * [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
 Pour importer un fichier maillé, utilisez la méthode `insert` du module Mesh.
 
 
 ```python
 import Mesh
-Mesh.insert('D:/testfiles/cylinder.stl')
+Mesh.insert('D   */testfiles/cylinder.stl')
 ```
 
 

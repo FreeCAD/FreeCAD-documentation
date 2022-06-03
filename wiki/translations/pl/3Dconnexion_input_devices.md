@@ -266,6 +266,20 @@ Gdy otworzysz tę kartę po raz pierwszy, będzie ona pusta i niedostępna. Aby 
 
 Aby połączyć określone polecenie z przyciskiem, wybierz przycisk po lewej stronie, a jego polecenie po prawej stronie. Aby usunąć polecenia z przycisku, naciśnij przycisk **Wyczyść**.
 
+### Rozwiązywanie problemów 
+
+Sprawdź, czy Twoja instalacja FreeCAD łączy się z biblioteką spacenav. Najlepszym sposobem sprawdzenia tego jest uruchomienie programu FreeCAD z wiersza poleceń terminala `FreeCAD --log-file /tmp/freecad.log` i natychmiastowe zamknięcie go ponownie. Następnie otwórz plik **/tmp/freecad.log** i poszukaj komunikatów   *
+
+
+`Connected to spacenav daemon`
+
+lub
+
+
+`Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
+
+Jeśli nie pojawi się żaden z nich, oznacza to, że Twój program FreeCAD nie jest połączony z biblioteką spacenav. Jeśli pojawi się pierwszy z tych komunikatów, oznacza to, że program w zasadzie działa. Drugi komunikat oznacza, że prawdopodobnie wystąpił problem z demonem spacenav.
+
 ## Powiązane
 
 -   Wątek na forum [spacenav na windows](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=51023)

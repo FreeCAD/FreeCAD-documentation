@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Importaţi text şi forme geometrice create cu InkScape
-   Nivel: Începător
-   Timp: 30 minute
-   Autor:r-frank
-   FCVersion:0.16.6704
-   Fişiere:
+- TutorialInfo   */ro
+   Topic   * Importaţi text şi forme geometrice create cu InkScape
+   Nivel   * Începător
+   Timp   * 30 minute
+   Autor   *r-frank
+   FCVersion   *0.16.6704
+   Fişiere   *
 ---
 
 # Import text and geometry from Inkscape/ro
@@ -78,7 +78,7 @@ Acest îndrumător a fost destinat să vă arate cum să importaţi text sau obi
 
 ## Importul de forme geometrice din InkScape 
 
-Since inkscape and FreeCAD seem to have different approaches on how to apply dimensions on svg-object, the recommended workflow seems to be:
+Since inkscape and FreeCAD seem to have different approaches on how to apply dimensions on svg-object, the recommended workflow seems to be   *
 
 -   ungroup all objects in inkscape
 -   select all objects in inkscape

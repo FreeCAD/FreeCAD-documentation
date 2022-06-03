@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:WebTools BimServer
-   Name/de:WebWerkzeuge BimServer‏‎
-   MenuLocation:Web Werkzeuge → Bim Server‏‎
-   Workbenches:[Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
+- GuiCommand   */de
+   Name   *WebTools BimServer
+   Name/de   *WebWerkzeuge BimServer‏‎
+   MenuLocation   *Web Werkzeuge → Bim Server‏‎
+   Workbenches   *[Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
 ---
 
 # WebTools BimServer/de
@@ -14,12 +14,12 @@
 
 ## Beschreibung
 
-Dieser Befehl erlaubt dir mit einer [BIMServer](http://www.bimserver.org) Instanz zu interagieren, auf dem BIM Server gespeicherte Dateien zu öffnen und neue Überarbeitungen dieser Dateien zu speichern. BIMServer ist ein freies, quelloffenes Serversystem, das für die Arbeit mit IFC Dateien gemacht wurde. In seinem aktuellen Zustand erlaubt es die Verwaltung von Projekten mit mehreren IFC Dateien und die Verwaltung von Überarbeitungen. Sein hochgradig erweiterbares Datenbanksystem und seine Einschubarchitektur erlaubt auch die Gestaltung fortschrittlicher Abfrage/Validierungswerkzeuge und intelligenter Zusammenführungsarbeitsabläufe.
+Dieser Befehl erlaubt dir mit einer [BIMServer](http   *//www.bimserver.org) Instanz zu interagieren, auf dem BIM Server gespeicherte Dateien zu öffnen und neue Überarbeitungen dieser Dateien zu speichern. BIMServer ist ein freies, quelloffenes Serversystem, das für die Arbeit mit IFC Dateien gemacht wurde. In seinem aktuellen Zustand erlaubt es die Verwaltung von Projekten mit mehreren IFC Dateien und die Verwaltung von Überarbeitungen. Sein hochgradig erweiterbares Datenbanksystem und seine Einschubarchitektur erlaubt auch die Gestaltung fortschrittlicher Abfrage/Validierungswerkzeuge und intelligenter Zusammenführungsarbeitsabläufe.
 
-Um diesen Befehl zu verwenden, müssen die folgenden Bedingungen erfüllt sein:
+Um diesen Befehl zu verwenden, müssen die folgenden Bedingungen erfüllt sein   *
 
 -   Die Python Module **json** und **requests** müssen auf deinem System installiert sein.
--   Du musst Zugang zu einer BIMServer Instanz haben (lies die [BIMServer Dokumentation](https://github.com/opensourceBIM/BIMserver/wiki), um einen BIMServer lokal zu installieren) und die Zugangsdaten (Login und Passwort) für diesen Server haben. Zum Zeitpunkt der Erstellung dieses Artikels ist die stabile Version von BIMServer 1.4, aber wir empfehlen dir, eine der verfügbaren Beta Versionen 1.5.X zu installieren, die viele Zusatzprogramme automatisch installiert (in der Version 1.4 musst du die Zusatzprogramme manuell installieren).
+-   Du musst Zugang zu einer BIMServer Instanz haben (lies die [BIMServer Dokumentation](https   *//github.com/opensourceBIM/BIMserver/wiki), um einen BIMServer lokal zu installieren) und die Zugangsdaten (Login und Passwort) für diesen Server haben. Zum Zeitpunkt der Erstellung dieses Artikels ist die stabile Version von BIMServer 1.4, aber wir empfehlen dir, eine der verfügbaren Beta Versionen 1.5.X zu installieren, die viele Zusatzprogramme automatisch installiert (in der Version 1.4 musst du die Zusatzprogramme manuell installieren).
 -   Alle Dateiübertragungen mit dem BIMServer werden mit IFC Dateien durchgeführt. Daher musst du wissen, wie man mit [IFC Dateien](Arch_IFC/de.md) arbeitet.
 
 ## Anwendung

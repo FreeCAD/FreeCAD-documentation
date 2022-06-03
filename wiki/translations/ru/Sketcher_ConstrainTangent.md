@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Ограничение касательности
-   Name:Sketcher_ConstrainTangent
-   MenuLocation:Sketch → Ограничения эскиза → Ограничение касательности
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**T**
-   SeeAlso:[Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Ограничение касательности
+   Name   *Sketcher_ConstrainTangent
+   MenuLocation   *Sketch → Ограничения эскиза → Ограничение касательности
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut   ***T**
+   SeeAlso   *[Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
 ---
 
 # Sketcher ConstrainTangent/ru
@@ -18,7 +18,7 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 ## Применение
 
-Возможны пять вариантов применения данного ограничения:
+Возможны пять вариантов применения данного ограничения   *
 
 1.  между двумя кривыми (доступно не для всех кривых)
 2.  между двумя конечными точками кривой, делая гладкое соединение
@@ -26,18 +26,18 @@ Tangent Constraint can also be used with two lines to make them colinear.
 4.  между двумя кривыми в точке, определённой пользователем
 5.  между двумя линиями для создания условия коллинеарности
 
-Для назначения ограничения касательности следует:
+Для назначения ограничения касательности следует   *
 
 -   Выделить две или три элемента эскиза.
 -   Вызвать ограничение, кликнув его иконку на панели инструментов или выделив в меню, или использовав клавиатурное сокращение.
 
 ### Между двумя кривыми (прямое касание) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width   *600px;">
 
 Две прямые станут касательными, но точка касания будет неопределённой. Этот режим назначается, когда выделены две кривые.
 
-**Допустимые выделения:**
+**Допустимые выделения   ***
 
 -   линия + линия, окружность, дуга, эллипс, дуга эллипса
 -   окружность, дуга + окружность, дуга
@@ -48,7 +48,7 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 ### Между двумя конечными точками (касание точка-к-точке) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -58,27 +58,27 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 </div>
 
-**Допустимые выделения:**
+**Допустимые выделения   ***
 
 -   конечная точка линии/дуги/дуги-эллипса + конечная точка линии/дуги/дуги-эллипса (т.е. две конечные точки любых двух кривых)
 
 ### Между кривой и конечной точкой (касательная точки к кривой) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width   *600px;">
 
 В этом режиме конечная точка одной кривой ограничивается лежать на другой кривой так, чтобы обе кривые были касательными в этой точке. Этот режим применяется, когда выделены кривая и конечная точка другой кривой.
 
-**Допустимое выделение:**
+**Допустимое выделение   ***
 
 -   линия, окружность, дуга, эллипс, дуга эллипса + конечная точка линии/дуги/дуги эллипса (то есть любая кривая + конечная точка любой кривой)
 
 ### Между двумя кривыми в точке (касательная через точку) (v0.15) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width   *600px;">
 
 В этом режиме две кривые делаются касательными и отслеживается точка касания. Этот режим применяется, когда выделены две кривые и точка.
 
-**Допустимое выделение:**
+**Допустимое выделение   ***
 
 -   любая линия/кривая + любая линия/кривая + любая точка
 
@@ -92,15 +92,15 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 ### Between two lines (collinear) 
 
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width   *600px;">
 
-**Accepted selection:**
+**Accepted selection   ***
 
 -   any line/vertex + any line/vertex
 
 ## Программирование
 
-Ограничение касательности может создаваться из [макросов](Macros/ru.md) и из консоли [Python](Python/ru.md) следующим образом: 
+Ограничение касательности может создаваться из [макросов](Macros/ru.md) и из консоли [Python](Python/ru.md) следующим образом   * 
 ```python
 # direct tangency
 Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,icurve2))
@@ -113,15 +113,15 @@ Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,pointpos1,icurve2))
 
 # tangent-via-point (plain constraint, helpers are not added automatically)
 Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoidpoint,pointpos)) 
-``` Где:
+``` Где   *
 
-:\* `Sketch` это объект эскиза
+   ** `Sketch` это объект эскиза
 
-:\* `icurve1`, `icurve2` это два целых идентификатора кривых, которые станут касательными. Целые это индексы в эскизе (значения, возвращаемые `Sketch.addGeometry`).
+   ** `icurve1`, `icurve2` это два целых идентификатора кривых, которые станут касательными. Целые это индексы в эскизе (значения, возвращаемые `Sketch.addGeometry`).
 
-:\* `pointpos1`, `pointpos2` должны быть 1 для начальной и 2 для конечной точки.
+   ** `pointpos1`, `pointpos2` должны быть 1 для начальной и 2 для конечной точки.
 
-:\* `geoidpoint` и `pointpos` в `TangentViaPoint` это индексы, указывающие точку касания.
+   ** `geoidpoint` и `pointpos` в `TangentViaPoint` это индексы, указывающие точку касания.
 
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` and `pointpos` and contains further examples on how to create constraints from Python scripts.
 

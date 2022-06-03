@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Arch Structure   |Name/ro:Arch Structure
-   MenuLocation:Arch → Structure
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**S** **T**
-   SeeAlso:[Arch Wall/ro](Arch_Wall/ro.md), [Arch Rebar/ro](Arch_Rebar/ro.md)
+- GuiCommand   *
+   Name   *Arch Structure   |Name/ro   *Arch Structure
+   MenuLocation   *Arch → Structure
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   Shortcut   ***S** **T**
+   SeeAlso   *[Arch Wall/ro](Arch_Wall/ro.md), [Arch Rebar/ro](Arch_Rebar/ro.md)
 ---
 
 # Arch Structure/ro
@@ -50,7 +50,7 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 <div class="mw-translate-fuzzy">
 
--   Când nu este selectat niciun obiect de bază 2D, instrumentul de structură are 2 moduri de desen: Coloană și grindă:
+-   Când nu este selectat niciun obiect de bază 2D, instrumentul de structură are 2 moduri de desen   * Coloană și grindă   *
     -   În modul coloană, vi se cere să alegeți un punct pe ecran sau prin introducerea coordonatelor. Noul obiect structural va fi plasat la acel punct.
     -   În modul beam, vi se cere să alegeți două puncte pe ecran sau prin introducerea coordonatelor. Noul obiect structural va fi cuprins între aceste două puncte.
 -   Elementele structurale partajează proprietățile și comportamentele comune ale tuturor componentelor [ Arch Components](Arch_Component.md)
@@ -69,40 +69,40 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 <div class="mw-translate-fuzzy">
 
--    **Tool**: an optional extrusion path, which can be any type of wire. If this property is empty, the extrusion will be straight, and happen in the direction given by the Normal property
+-    **Tool**   * an optional extrusion path, which can be any type of wire. If this property is empty, the extrusion will be straight, and happen in the direction given by the Normal property
 
--    **Normal**: specifies the direction in which the base face of this structure will be extruded. If this property is kept to (0,0,0), the direction will be automatically set to the normal direction of the base face.
+-    **Normal**   * specifies the direction in which the base face of this structure will be extruded. If this property is kept to (0,0,0), the direction will be automatically set to the normal direction of the base face.
 
--    **Face Maker**: specifies the type of face generation algorithm to use to build the profile. Choices are None, Simple, Cheese and Bullseye.
+-    **Face Maker**   * specifies the type of face generation algorithm to use to build the profile. Choices are None, Simple, Cheese and Bullseye.
 
--    **Length**: specifies the length of the structure. This is only used if the structure is not based on a profile.
+-    **Length**   * specifies the length of the structure. This is only used if the structure is not based on a profile.
 
--    **Width**: specifies the width of the structure. This is only used if the structure is not based on a profile.
+-    **Width**   * specifies the width of the structure. This is only used if the structure is not based on a profile.
 
--    **Height**: specifies the height of the structure, or the extrusion length when based on a profile. If no height is given, and the structure is inside an [Arch Floor](Arch_Floor.md) object with its height defined, the structure will automatically take the value of the floor height.
+-    **Height**   * specifies the height of the structure, or the extrusion length when based on a profile. If no height is given, and the structure is inside an [Arch Floor](Arch_Floor.md) object with its height defined, the structure will automatically take the value of the floor height.
 
--    **Nodes Offset**: specifies an optional offset between the centerline and the nodes line.
+-    **Nodes Offset**   * specifies an optional offset between the centerline and the nodes line.
 
--    **Length**: Lungimea structurii (only used if not based on a profile)
+-    **Length**   * Lungimea structurii (only used if not based on a profile)
 
--    **Width**: Lungimea structuriie (only used if not based on a profile)
+-    **Width**   * Lungimea structuriie (only used if not based on a profile)
 
--    **Height**: Înălțimea structurii (or the extrusion length when based on a profile). If no height is given, and the structure is inside a [floor](Arch_Floor.md) object with its height defined, the structure will automatically take the value of the floor height.
+-    **Height**   * Înălțimea structurii (or the extrusion length when based on a profile). If no height is given, and the structure is inside a [floor](Arch_Floor.md) object with its height defined, the structure will automatically take the value of the floor height.
 
--    **Nodes Offset**: Un decalaj opțional între linia de cetru și linia nodurilor
+-    **Nodes Offset**   * Un decalaj opțional între linia de cetru și linia nodurilor
 
--    **Nodes Type**: Tipul nodurilor structurale ale acestui obiect, linear sau matrice.
+-    **Nodes Type**   * Tipul nodurilor structurale ale acestui obiect, linear sau matrice.
 
--    **Show Nodes**: Afișează sau ascunde nodurile structurale.
+-    **Show Nodes**   * Afișează sau ascunde nodurile structurale.
 
 
 </div>
 
 ### Vizualizare 3D 
 
--    **Nodes Type**: The type of structural nodes of this object, linear or area.
+-    **Nodes Type**   * The type of structural nodes of this object, linear or area.
 
--    **Show Nodes**: Shows or hides the structural nodes.
+-    **Show Nodes**   * Shows or hides the structural nodes.
 
 ## Setări prealabile 
 
@@ -115,14 +115,14 @@ Presetările sunt obținute prin alegerea unei **Category** din panoul cu opțiu
 
 Butonul \'\'\' Comutator L / H \'\'\' poate fi utilizat pentru a comuta valori Lungime și Înălțime și, prin urmare, a construi un grindă orizontală mai degrabă decât o coloană verticală.
 
-<img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
+<img alt="" src=images/Arch_precast_example.jpg  style="width   *960px;"> 
 *Some presets for precast concrete structures*
 
 ## Noduri Structurale 
 
-Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structurale. Nodurile structurale sunt o secvență de puncte 3D stocate într-o proprietate \"Noduri\". Prin comutarea funcției \"Show Nodes\" pe proprietatea de pornire / oprire, se pot vedea nodurile structurale ale unui element structural:
+Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structurale. Nodurile structurale sunt o secvență de puncte 3D stocate într-o proprietate \"Noduri\". Prin comutarea funcției \"Show Nodes\" pe proprietatea de pornire / oprire, se pot vedea nodurile structurale ale unui element structural   *
 
-<img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
+<img alt="" src=images/Arch_structural_nodes.jpg  style="width   *960px;"> 
 *Structural nodes made visible for a set of structures*
 
 
@@ -131,7 +131,7 @@ Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structural
 -   Nodurile sunt calculate și actualizate automat, atâta timp cât nu le modificați manual. Dacă ați făcut-o, acestea nu vor fi actualizate dacă se modifică forma obiectului structural, cu excepția cazului în care utilizați instrumentul \"Reset nodes\" de mai jos.
 -   Structurile arcului pot avea nu numai noduri lineare, ci și noduri plane. Pentru aceasta, 1- trebuie să existe cel puțin 3 vectori în proprietatea \"Noduri\" a obiectului, 2 - proprietatea \"NodesType\" a ViewObject lor trebuie să fie setată la \"Area\".
 -   Când calculul nodurilor este automat (adică, dacă nu le-ați atins manual), când setați proprietatea Role a unei structuri la \"placă\", va deveni automat un nod planar (vor exista mai mult de 3 vectori și NodesType va fi setat la \"Zonă\").
--   Când editați un obiect de structură (faceți dublu clic), în vizualizarea de activități sunt disponibile câteva instrumente de nod:
+-   Când editați un obiect de structură (faceți dublu clic), în vizualizarea de activități sunt disponibile câteva instrumente de nod   *
     -   Resetați nodurile la calcul automat, în cazul în care le-ați modificat manual
     -   Modificați grafic nodurile, funcționează la fel ca [Draft Edit](Draft_Edit.md)
     -   Extindeți nodurile obiectului editat până când atinge nodul unui alt obiect
@@ -149,7 +149,7 @@ Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structural
 ## Scrip-Programare 
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
@@ -159,7 +159,7 @@ Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structural
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Structură poate fi utilizat în [macros](macros.md) și din consola [Python](Python.md) utilizând următoarea funcție:
+Instrumentul Structură poate fi utilizat în [macros](macros.md) și din consola [Python](Python.md) utilizând următoarea funcție   *
 
 
 </div>
@@ -171,7 +171,7 @@ Structure = makeStructure(baseobj=None, length=None, width=None, height=None, na
 ```
 
 
-:   creează un element de structură bazat pe obiectul profil dat și pe înălțimea de extrudare dată. Dacă nu se dă niciun obiect de bază, puteți specifica lungimea și lățimea unui obiect cubic.
+   *   creează un element de structură bazat pe obiectul profil dat și pe înălțimea de extrudare dată. Dacă nu se dă niciun obiect de bază, puteți specifica lungimea și lățimea unui obiect cubic.
 
 -   Creates a `Structure` object from the given `baseobj`, which is a closed profile, and the given extrusion `height`.
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `height` to create a block structure.

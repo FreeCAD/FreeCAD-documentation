@@ -18,24 +18,24 @@
 
 Toto makro umožňuje rozvinout svinuté povrchy a nakreslit je na stránku.
 
-<img alt="" src=images/Macro_unrollRuledSurface_00.png  style="width:480px;"> 
+<img alt="" src=images/Macro_unrollRuledSurface_00.png  style="width   *480px;"> 
 *Macro_unrollRuledSurface*
 
 ## Instalace
 
-Zkopíruj kód makra do souboru v adresáři :
+Zkopíruj kód makra do souboru v adresáři    *
 
--   **Linux & Mac** : \$home/.Freecad/Mod/UnrollRuledSurface.
--   **Windows** : C:\\Program Files\\FreeCAD0.13
+-   **Linux & Mac**    * \$home/.Freecad/Mod/UnrollRuledSurface.
+-   **Windows**    * C   *Program Files\\FreeCAD0.13
 
-Přidej šablony : A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\_Landscape\_Empty.svg A4\_Landscape.svg
-Cf [Makro pro rozvinutí svinutých povrchů](http://forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737)
+Přidej šablony    * A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\_Landscape\_Empty.svg A4\_Landscape.svg
+Cf [Makro pro rozvinutí svinutých povrchů](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737)
 
 ## Volby
 
 -   Počet tvořicích přímek
 -   Ruční nebo automatické měřítko
--   Formát stránky: a3/a4, cartridge (cf FreeCAD šablony)
+-   Formát stránky   * a3/a4, cartridge (cf FreeCAD šablony)
 -   Je-li možné, seskup výkresy na jednu stránku.
 
 ![Macro\_unrollRuledSurface](images/Macro_unrollRuledSurface_01.png )
@@ -49,7 +49,7 @@ Cf [Makro pro rozvinutí svinutých povrchů](http://forum.freecadweb.org/viewto
 
 ## Python kód 
 
-The lastest version of the macro is to be found at [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md) <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width:24px;"> .
+The lastest version of the macro is to be found at [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md) <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> .
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
@@ -101,7 +101,7 @@ unroll_l = []
 #####################################
 # Function errorDialog 
 #####################################
-def errorDialog(msg):
+def errorDialog(msg)   *
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg )
     diag.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint)
     diag.exec_()
@@ -110,12 +110,12 @@ def errorDialog(msg):
 #####################################
 # Function proceed 
 #####################################
-def proceed():
+def proceed()   *
    QtGui.qApp.setOverrideCursor(QtCore.Qt.WaitCursor)
 
    FreeCAD.Console.PrintMessage("===========================================\n")
-   FreeCAD.Console.PrintMessage("UnrollRuledSurface: start.\n")
-   try:
+   FreeCAD.Console.PrintMessage("UnrollRuledSurface   * start.\n")
+   try   *
       file_name  = fields_l[0].text()
       pts_nbr    = float(fields_l[1].text())
       scale    = float(fields_l[2].text())
@@ -124,16 +124,16 @@ def proceed():
       a3 = a3_check.isChecked()
       cartridge = cartridge_check.isChecked()
       onedrawing = onedrawing_check.isChecked()
-      FreeCAD.Console.PrintMessage("UnrollRuledSurface.file_name: "+file_name+"\n")
-      FreeCAD.Console.PrintMessage("UnrollRuledSurface.pts_nbr: "+str(pts_nbr)+"\n")
-      FreeCAD.Console.PrintMessage("UnrollRuledSurface.scale: "+str(scale)+"\n")
-      FreeCAD.Console.PrintMessage("UnrollRuledSurface.scale_check: "+str(scale_auto)+"\n")
-      FreeCAD.Console.PrintMessage("UnrollRuledSurface.edge0_check: "+str(edge0)+"")
-      FreeCAD.Console.PrintMessage("UnrollRuledSurface.a3_check: "+str(a3)+"\n")
-      FreeCAD.Console.PrintMessage("UnrollRuledSurface.cartridge: "+str(cartridge)+"\n")
-      FreeCAD.Console.PrintMessage("UnrollRuledSurface.onedrawing: "+str(onedrawing)+"\n")
-   except:
-      msg="UnrollRuledSurface: wrong inputs...\n"
+      FreeCAD.Console.PrintMessage("UnrollRuledSurface.file_name   * "+file_name+"\n")
+      FreeCAD.Console.PrintMessage("UnrollRuledSurface.pts_nbr   * "+str(pts_nbr)+"\n")
+      FreeCAD.Console.PrintMessage("UnrollRuledSurface.scale   * "+str(scale)+"\n")
+      FreeCAD.Console.PrintMessage("UnrollRuledSurface.scale_check   * "+str(scale_auto)+"\n")
+      FreeCAD.Console.PrintMessage("UnrollRuledSurface.edge0_check   * "+str(edge0)+"")
+      FreeCAD.Console.PrintMessage("UnrollRuledSurface.a3_check   * "+str(a3)+"\n")
+      FreeCAD.Console.PrintMessage("UnrollRuledSurface.cartridge   * "+str(cartridge)+"\n")
+      FreeCAD.Console.PrintMessage("UnrollRuledSurface.onedrawing   * "+str(onedrawing)+"\n")
+   except   *
+      msg="UnrollRuledSurface   * wrong inputs...\n"
       FreeCAD.Console.PrintError(msg)
       errorDialog(msg)
 
@@ -147,15 +147,15 @@ def proceed():
    faceid=0
    objnames_l=[]
    objnames0_l=[]
-   grp=FreeCAD.activeDocument().addObject("App::DocumentObjectGroup", str(file_name)+"_objs") 
-   for objid in range( sel.__len__() ):
+   grp=FreeCAD.activeDocument().addObject("App   *   *DocumentObjectGroup", str(file_name)+"_objs") 
+   for objid in range( sel.__len__() )   *
      shape=sel[objid].Shape
      faces=shape.Faces
-     for id in range( faces.__len__() ):
-        FreeCAD.Console.PrintMessage("UnrollRuledSurface.proceed: ObjId= "+str(objid)+" , faceId= "+str( faceid )+"\n")
-    if faces.__len__() > 1:
+     for id in range( faces.__len__() )   *
+        FreeCAD.Console.PrintMessage("UnrollRuledSurface.proceed   * ObjId= "+str(objid)+" , faceId= "+str( faceid )+"\n")
+    if faces.__len__() > 1   *
       name=sel[objid].Name+".faces "+str(id)
-    else:
+    else   *
       name=sel[objid].Name
         obj=unrollRS.unroll(faces[id],name) 
         obj.ViewObject.Visibility=False
@@ -164,68 +164,68 @@ def proceed():
     objnames0_l.append( [ sel[objid] , name ] )
         faceid=faceid+1
    id=0
-   while objnames_l.__len__() > 0:
+   while objnames_l.__len__() > 0   *
      draw=Drawing2d( scale, scale_auto , a3 , cartridge , onedrawing,str(file_name)+"_page"+str(id) ) 
      objnames_l=draw.all( objnames_l )
      id=id+1
-     FreeCAD.Console.PrintMessage("UnrollRuledSurface: obj_l= "+str(objnames_l.__len__())+"\n")
+     FreeCAD.Console.PrintMessage("UnrollRuledSurface   * obj_l= "+str(objnames_l.__len__())+"\n")
 
-   FreeCAD.Console.PrintMessage("UnrollRuledSurface: end.\n")
+   FreeCAD.Console.PrintMessage("UnrollRuledSurface   * end.\n")
    FreeCAD.Console.PrintMessage("===========================================\n")
 
 #####################################
 # Function close 
 #####################################
-def close():
+def close()   *
    DialogBox.hide()
 
 #####################################
 # Class unrollRuledSurface 
-#     - file_name : ouput file 
-#     - pts_nbr : nbr point of 
+#     - file_name    * ouput file 
+#     - pts_nbr    * nbr point of 
 #       discretization
 #####################################
-class unrollRuledSurface:
-  def __init__( self, file_name, pts_nbr , edge0 ):
+class unrollRuledSurface   *
+  def __init__( self, file_name, pts_nbr , edge0 )   *
     self.doc = FreeCAD.activeDocument()
     self.file_name = file_name
     self.pts_nbr = int(pts_nbr)
     self.edge0 = edge0
-    FreeCAD.Console.PrintMessage("UnrollRuledSurface.unroll - file_name: "+self.file_name+" , pts_nbr: "+str(self.pts_nbr)+"\n")
+    FreeCAD.Console.PrintMessage("UnrollRuledSurface.unroll - file_name   * "+self.file_name+" , pts_nbr   * "+str(self.pts_nbr)+"\n")
 
 
   #####################################
   # Function discretize 
   #####################################
-  def discretize(self,curve):
-         if type(curve).__name__=='GeomLineSegment':
+  def discretize(self,curve)   *
+         if type(curve).__name__=='GeomLineSegment'   *
             sd=curve.discretize( self.pts_nbr )
-         elif type(curve).__name__=='GeomBSplineCurve':
+         elif type(curve).__name__=='GeomBSplineCurve'   *
             nodes=curve.getPoles()
             spline=Part.BSplineCurve()
             spline.buildFromPoles( nodes )
             sd=spline.discretize( self.pts_nbr )
-         elif type(curve).__name__=='GeomCircle':
+         elif type(curve).__name__=='GeomCircle'   *
             sd=curve.discretize( self.pts_nbr )
-     else:
+     else   *
             sd=curve.discretize( self.pts_nbr )
          return sd 
 
   #####################################
   # Function nbpoles 
   #####################################
-  def nbpoles(self,curve):
-       if type(curve).__name__=='GeomLineSegment':
+  def nbpoles(self,curve)   *
+       if type(curve).__name__=='GeomLineSegment'   *
          nbpol=1
-       elif type(curve).__name__=='GeomBSplineCurve':
+       elif type(curve).__name__=='GeomBSplineCurve'   *
          nbpol=curve.NbPoles
-       elif type(curve).__name__=='GeomCircle':
+       elif type(curve).__name__=='GeomCircle'   *
          nbpol=2
-       elif type(curve).__name__=='GeomBezierCurve':
+       elif type(curve).__name__=='GeomBezierCurve'   *
          nbpol=4
-       else:
+       else   *
          nbpol=0
-       FreeCAD.Console.PrintMessage("UnrollRulrdSurface.nbpole {:s} = {:d}\n".format(type(curve).__name__,nbpol))
+       FreeCAD.Console.PrintMessage("UnrollRulrdSurface.nbpole {   *s} = {   *d}\n".format(type(curve).__name__,nbpol))
        return nbpol
 
   #####################################
@@ -234,19 +234,19 @@ class unrollRuledSurface:
   # Unroll of a face 
   # composed of 2 or 4 edges
   #####################################
-  def unroll(self,face,name):
-    FreeCAD.Console.PrintMessage("UnrollRuledSurface.unroll: Ege Nbr= "+str( face.Edges.__len__())+"\n")
-    if face.Edges.__len__() == 2: 
+  def unroll(self,face,name)   *
+    FreeCAD.Console.PrintMessage("UnrollRuledSurface.unroll   * Ege Nbr= "+str( face.Edges.__len__())+"\n")
+    if face.Edges.__len__() == 2   * 
        e1=face.Edges[0]
        e2=face.Edges[1]
        sd1=e1.Curve.discretize( self.pts_nbr )
        sd2=e2.Curve.discretize( self.pts_nbr )
-    elif face.Edges.__len__() == 3:
+    elif face.Edges.__len__() == 3   *
        e1=face.Edges[0]
        e2=face.Edges[2]
        sd1=e1.Curve.discretize( self.pts_nbr )
        sd2=e2.Curve.discretize( self.pts_nbr )
-    else:
+    else   *
        E0=face.Edges[0]
        E1=face.Edges[1]
        E2=face.Edges[2]
@@ -258,15 +258,15 @@ class unrollRuledSurface:
        nbpol1=self.nbpoles(E1.Curve)
        nbpol2=self.nbpoles(E2.Curve)
        nbpol3=self.nbpoles(E3.Curve)
-       FreeCAD.Console.PrintMessage("UnrollRuledSurface.unroll: nbpol0= {:d}, nbpol1= {:d}, nbpol2= {:d}, nbpol3= {:d}\n".format(nbpol0,nbpol1,nbpol2,nbpol3))
+       FreeCAD.Console.PrintMessage("UnrollRuledSurface.unroll   * nbpol0= {   *d}, nbpol1= {   *d}, nbpol2= {   *d}, nbpol3= {   *d}\n".format(nbpol0,nbpol1,nbpol2,nbpol3))
 
-       if self.edge0:
+       if self.edge0   *
          e1=E0
          e2=E2
          v=self.discretize( E1 )
      v0=v[0]
      v1=v[self.pts_nbr-1]
-       else:
+       else   *
          e1=E1
          e2=E3
          v=self.discretize( E2 )
@@ -278,15 +278,15 @@ class unrollRuledSurface:
        #
        # Reverse if curves cross over
        #
-       if not ( sd2[0].__eq__( v0 ) or not sd2[0].__eq__( v1 ) ):
+       if not ( sd2[0].__eq__( v0 ) or not sd2[0].__eq__( v1 ) )   *
           sd2.reverse()
 
     #
     # Create a polygon object and set its nodes 
     #
     devlxy_l=self.devlxyz( sd1 , sd2 )
-    FreeCAD.Console.PrintMessage("UnrollRuledSurface.unroll: size devlxy_l: "+str( devlxy_l.__len__())+"\n")
-    p=self.doc.addObject("Part::Polygon",name) 
+    FreeCAD.Console.PrintMessage("UnrollRuledSurface.unroll   * size devlxy_l   * "+str( devlxy_l.__len__())+"\n")
+    p=self.doc.addObject("Part   *   *Polygon",name) 
     p.Nodes=devlxy_l
     self.doc.recompute()
     FreeCADGui.SendMsgToActiveView("ViewFit")
@@ -294,30 +294,30 @@ class unrollRuledSurface:
 
   #####################################
   # Function vect_copy 
-  #   - vect:  
+  #   - vect   *  
   #   - return copy of vector
   #####################################
-  def vect_copy( self, vect):
+  def vect_copy( self, vect)   *
      v= vect.add( FreeCAD.Base.Vector(0,0,0) )
      return v 
 
   #####################################
   # Function vect_cos 
-  #   - vect1,2:  
+  #   - vect1,2   *  
   #   - return cos angle between 
   #     2 vectors 
   #####################################
-  def vect_cos( self , vect1, vect2 ):
+  def vect_cos( self , vect1, vect2 )   *
      cosalp=vect1.dot(vect2)/vect1.Length/vect2.Length
      return cosalp
   
   #####################################
   # Function vect_sin 
-  #   - vect1,2:  
+  #   - vect1,2   *  
   #   - return abs(sin) angle between 
   #     2 vectors 
   #####################################
-  def vect_sin( self , vect1, vect2 ):
+  def vect_sin( self , vect1, vect2 )   *
      v= FreeCAD.Base.Vector(0,0,0)
      v.x=vect1.y*vect2.z-vect1.z*vect2.y
      v.y=vect1.z*vect2.x-vect1.x*vect2.z
@@ -328,18 +328,18 @@ class unrollRuledSurface:
   
   #####################################
   # Function devlxyz 
-  #    - vect1,2: 2 edges of the shape
+  #    - vect1,2   * 2 edges of the shape
   #    - return dvlxy_l
   #####################################
   # unroll of a face 
   # composed of 4 edges
   #####################################
-  def devlxyz( self , vect1 , vect2 ):
+  def devlxyz( self , vect1 , vect2 )   *
     #
     # Init
     #
-    if ( vect1.__len__() != vect2.__len__()) or  ( vect1.__len__() != self.pts_nbr ) or ( vect2.__len__() != self.pts_nbr ):
-        msg="UnrollRuledSurface.devlxyz: incompatility of sizes vect1 , vect2, pts_nbr- "+str( vect1.__len__())+" , "+str( vect2.__len__())+" , "+str( self.pts_nbr )+"\n"
+    if ( vect1.__len__() != vect2.__len__()) or  ( vect1.__len__() != self.pts_nbr ) or ( vect2.__len__() != self.pts_nbr )   *
+        msg="UnrollRuledSurface.devlxyz   * incompatility of sizes vect1 , vect2, pts_nbr- "+str( vect1.__len__())+" , "+str( vect2.__len__())+" , "+str( self.pts_nbr )+"\n"
         FreeCAD.Console.PrintError(msg)
         errorDialog(msg)
 
@@ -358,7 +358,7 @@ class unrollRuledSurface:
     devl2xy_l.append( ob1 ) #B1
     #self.draw_line( devl1xy_l[0] , devl2xy_l[0] )
     #self.draw_line( vect1[0] , vect2[0] )
-    for j in range( 1 , self.pts_nbr ) : 
+    for j in range( 1 , self.pts_nbr )    * 
       #
       # AB
       #
@@ -393,9 +393,9 @@ class unrollRuledSurface:
       v=self.vect_copy(a1b1on)
       v.multiply(sinalp*ac.Length)
       a1c1=a1c1.add(v)
-      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.alp a1b1: "+str(a1b1n.getAngle(a1b1on))+"\n")
-      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.alp oc1: "+str(a1b1n.getAngle(a1c1)-alp)+"\n")
-      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.length oc1: "+str(a1c1.Length-ac.Length)+"\n")
+      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.alp a1b1   * "+str(a1b1n.getAngle(a1b1on))+"\n")
+      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.alp oc1   * "+str(a1b1n.getAngle(a1c1)-alp)+"\n")
+      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.length oc1   * "+str(a1c1.Length-ac.Length)+"\n")
       oa1=self.vect_copy(devl1xy_l[j-1])
       oc1=oa1.add(a1c1)
       devl1xy_l.append(oc1)
@@ -409,8 +409,8 @@ class unrollRuledSurface:
       v=self.vect_copy(a1b1on)
       v.multiply(sinalp*bd.Length)
       b1d1=b1d1.add(v)
-      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.alp od1: "+str(b1a1n.getAngle(b1d1)-alp)+"\n")
-      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.length od1: "+str(b1d1.Length-bd.Length)+"\n")
+      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.alp od1   * "+str(b1a1n.getAngle(b1d1)-alp)+"\n")
+      #FreeCAD.Console.PrintMessage("UnrollRuledSurface.length od1   * "+str(b1d1.Length-bd.Length)+"\n")
       ob1=self.vect_copy(devl2xy_l[j-1])
       od1=ob1.add(b1d1)
       devl2xy_l.append(od1)
@@ -419,12 +419,12 @@ class unrollRuledSurface:
       #
       #self.draw_line( devl1xy_l[j] , devl2xy_l[j] )
       c1d1=devl2xy_l[j].sub( devl1xy_l[j] )
-      if ab.Length <> 0 :
+      if ab.Length <> 0    *
          errormax=max(errormax,math.fabs(ab.Length-c1d1.Length)/ab.Length)
     #
     # The end
     #
-    FreeCAD.Console.PrintMessage("UnrollRuledSurface Error cd,c1d1: {:.1f} %\n".format(errormax*100))
+    FreeCAD.Console.PrintMessage("UnrollRuledSurface Error cd,c1d1   * {   *.1f} %\n".format(errormax*100))
 
     #
     # Close polygone
@@ -441,18 +441,18 @@ class unrollRuledSurface:
 
   #####################################
   # Function draw_line 
-  #   - vect0,1: two points 
+  #   - vect0,1   * two points 
   #####################################
-  def draw_line( self , vect0 , vect1 ):
+  def draw_line( self , vect0 , vect1 )   *
      l=Part.Line()
      l.StartPoint=vect0
      l.EndPoint=vect1
-     self.doc.addObject("Part::Feature","Line").Shape=l.toShape()
+     self.doc.addObject("Part   *   *Feature","Line").Shape=l.toShape()
 
 
 #####################################
 # Class Drawing2d 
-#   -obj_l: listes of object
+#   -obj_l   * listes of object
 #   -topxh1
 #   -topyh1
 #   -topxv1
@@ -462,7 +462,7 @@ class unrollRuledSurface:
 #   -topxvmax1
 #   -topyvmax1
 #####################################
-class Drawing2d:
+class Drawing2d   *
   #####################################
   # Function __init__ 
   #     - Scale
@@ -471,7 +471,7 @@ class Drawing2d:
   #     - cartridge
   #     - onedrawing
   #####################################
-  def __init__( self,  scale , scale_auto , a3 , cartridge , onedrawing , page_str ):
+  def __init__( self,  scale , scale_auto , a3 , cartridge , onedrawing , page_str )   *
     self.TopX_H=0
     self.TopY_H=0
     self.TopX_V=0
@@ -485,11 +485,11 @@ class Drawing2d:
     self.scale_auto=scale_auto
     self.cartridge=cartridge
     self.onedrawing=onedrawing
-    if self.a3:
+    if self.a3   *
       self.L=420
       self.H=297
       self.marge=6
-    else:
+    else   *
       self.L=297
       self.H=210
       self.marge=6
@@ -498,18 +498,18 @@ class Drawing2d:
   #####################################
   # Function newPage 
   #####################################
-  def newPage( self ):
+  def newPage( self )   *
     freecad_dir=os.getenv('HOME')+"/.FreeCAD/Mod/unrollRuledSurface"
-    page = FreeCAD.activeDocument().addObject('Drawing::FeaturePage', self.name )
-    if self.a3:
-        if self.cartridge:
+    page = FreeCAD.activeDocument().addObject('Drawing   *   *FeaturePage', self.name )
+    if self.a3   *
+        if self.cartridge   *
            page.Template = freecad_dir+'/A3_Landscape.svg'   
-        else:
+        else   *
            page.Template = freecad_dir+'/A3_Landscape_Empty.svg'   
-    else:
-        if self.cartridge:
+    else   *
+        if self.cartridge   *
            page.Template = freecad_dir+'/A4_Landscape.svg'   
-        else:
+        else   *
            page.Template = freecad_dir+'/A4_Landscape_Empty.svg'   
     return page
 
@@ -517,10 +517,10 @@ class Drawing2d:
   #####################################
   # Function all 
   #####################################
-  def all( self, objname_l ):
+  def all( self, objname_l )   *
       obj1_l=[]
-      for objid in range( objname_l.__len__() ):
-        if objid == 0 or not self.onedrawing:
+      for objid in range( objname_l.__len__() )   *
+        if objid == 0 or not self.onedrawing   *
           page = self.newPage()
         obj1_l.extend( self.done( objid , objname_l[objid] ))
       return obj1_l 
@@ -528,7 +528,7 @@ class Drawing2d:
   #####################################
   # Function all 
   #####################################
-  def done( self, id , objname ):
+  def done( self, id , objname )   *
     #
     # Init
     #
@@ -537,7 +537,7 @@ class Drawing2d:
     objname=objname[1]
     xmax=obj.Shape.BoundBox.XMax-obj.Shape.BoundBox.XMin
     ymax=obj.Shape.BoundBox.YMax-obj.Shape.BoundBox.YMin
-    if ymax > xmax :
+    if ymax > xmax    *
       Draft.rotate( obj , 90 )
     Draft.move( obj , FreeCAD.Base.Vector( -obj.Shape.BoundBox.XMin , -obj.Shape.BoundBox.YMin , 0))
     xmax=obj.Shape.BoundBox.XMax-obj.Shape.BoundBox.XMin
@@ -545,17 +545,17 @@ class Drawing2d:
 
     scale=min((self.L-4*self.marge)/xmax,(self.H-4*self.marge)/ymax)
 
-    if ( not self.scale_auto ) or ( self.onedrawing ) :
+    if ( not self.scale_auto ) or ( self.onedrawing )    *
        scale=self.scale
 
-    FreeCAD.Console.PrintMessage("UnrollRuledSurface.drawing: scale= {:.2f}\n".format(scale))
+    FreeCAD.Console.PrintMessage("UnrollRuledSurface.drawing   * scale= {   *.2f}\n".format(scale))
      
 
-    if id == 0 or not self.onedrawing:
+    if id == 0 or not self.onedrawing   *
       #
       # Init
       #
-      FreeCAD.Console.PrintMessage("Dawing2d: init\n")
+      FreeCAD.Console.PrintMessage("Dawing2d   * init\n")
       self.TopX_H=self.marge*2
       self.TopY_H=self.marge*2
       TopX=self.TopX_H
@@ -567,13 +567,13 @@ class Drawing2d:
       self.TopX_Vmax=max( self.TopX_Vmax , self.TopX_Hmax )
       self.TopX_V=max(self.TopX_Vmax,self.TopX_V)
       self.TopY_V=self.marge*2
-    elif self.onedrawing:
-      if self.TopX_H + xmax * scale < self.L :
-        if self.TopY_H + ymax * scale + self.marge*2 < self.H :
+    elif self.onedrawing   *
+      if self.TopX_H + xmax * scale < self.L    *
+        if self.TopY_H + ymax * scale + self.marge*2 < self.H    *
        #
        # H Add at right on same horizontal line
        #
-           FreeCAD.Console.PrintMessage("Dawing2d: horizontal\n")
+           FreeCAD.Console.PrintMessage("Dawing2d   * horizontal\n")
            TopX=self.TopX_H
            TopY=self.TopY_H
            self.TopX_H=self.TopX_H + xmax * scale + self.marge
@@ -582,12 +582,12 @@ class Drawing2d:
        self.TopX_Vmax=max( self.TopX_Hmax , self.TopX_Vmax )
            self.TopX_Vmax=max( self.TopX_Vmax , self.TopX_Hmax  )
            self.TopX_V=max(self.TopX_Vmax,self.TopX_V)
-    else:
+    else   *
        #
        # V Add at right on same horizontal line
        #
-           FreeCAD.Console.PrintMessage("Dawing2d: vertival\n")
-           if self.TopX_V + ymax * scale +2* self.marge < self.L and self.TopY_V + xmax * scale + 2*self.marge < self.H :
+           FreeCAD.Console.PrintMessage("Dawing2d   * vertival\n")
+           if self.TopX_V + ymax * scale +2* self.marge < self.L and self.TopY_V + xmax * scale + 2*self.marge < self.H    *
              Draft.rotate( obj , 90 )
          Draft.move( obj , FreeCAD.Base.Vector( -obj.Shape.BoundBox.XMin , -obj.Shape.BoundBox.YMin , 0))
          x0=xmax;xmax=ymax,ymax=x0
@@ -596,16 +596,16 @@ class Drawing2d:
              TopY=self.TopY_V
          self.TopX_V = self.TopX_V + xmax * scale + self.marge
          self.TopY_Vmax=max( self.TopY_Vmax , self.TopY_V + ymax * scale + self.marge )
-       else:
+       else   *
          obj_l.append( [ obj , name ] )
          return obj_l
 
-      else:
+      else   *
     #
     # H Carriage return 
     #
-        if ( self.TopY_Hmax + ymax * scale + self.marge*2 < self.H ):   
-           FreeCAD.Console.PrintMessage("Dawing2d: carriage return: "+str(self.TopY_H + ymax * scale )+" > "+str(self.H)+"\n")
+        if ( self.TopY_Hmax + ymax * scale + self.marge*2 < self.H )   *   
+           FreeCAD.Console.PrintMessage("Dawing2d   * carriage return   * "+str(self.TopY_H + ymax * scale )+" > "+str(self.H)+"\n")
            TopX=self.marge*2
            TopY=self.TopY_Hmax
            self.TopX_H=TopX + xmax * scale + self.marge
@@ -614,12 +614,12 @@ class Drawing2d:
        self.TopY_Hmax=self.TopY_Hmax + ymax*scale+self.marge
            self.TopX_Vmax=max( self.TopX_Vmax , self.TopX_Hmax )
            self.TopX_V=max(self.TopX_Vmax,self.TopX_V)
-    else:
+    else   *
        #
        # V Add at right on same horizontal line
        #
-           FreeCAD.Console.PrintMessage("Dawing2d: vertival: "+str(self.TopX_V)+" , "+str(self.TopX_Vmax)+"\n")
-           if self.TopX_V + ymax * scale + 2*self.marge < self.L and self.TopY_V + xmax * scale + 2*self.marge < self.H :
+           FreeCAD.Console.PrintMessage("Dawing2d   * vertival   * "+str(self.TopX_V)+" , "+str(self.TopX_Vmax)+"\n")
+           if self.TopX_V + ymax * scale + 2*self.marge < self.L and self.TopY_V + xmax * scale + 2*self.marge < self.H    *
              Draft.rotate( obj , 90 )
          Draft.move( obj , FreeCAD.Base.Vector( -obj.Shape.BoundBox.XMin , -obj.Shape.BoundBox.YMin , 0))
          x0=xmax;xmax=ymax,ymax=x0
@@ -627,19 +627,19 @@ class Drawing2d:
              TopY=self.TopY_V
          self.TopX_V = self.TopX_V + xmax * scale + self.marge
          self.TopY_Vmax=max( self.TopY_Vmax , self.TopY_V + ymax * scale + self.marge )
-       else:
+       else   *
          obj_l.append( [ obj , objname ] )
          return obj_l
 
     page=FreeCAD.activeDocument().getObject(self.name )
 
-    Text=FreeCAD.activeDocument().addObject('Drawing::FeatureViewAnnotation', objname+"_txt")
+    Text=FreeCAD.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation', objname+"_txt")
     Text.Text=objname
     Text.X=TopX+xmax*scale/2
     Text.Y=TopY+ymax*scale/2
     Text.Scale=2
 
-    TopView = FreeCAD.activeDocument().addObject('Drawing::FeatureViewPart',objname)
+    TopView = FreeCAD.activeDocument().addObject('Drawing   *   *FeatureViewPart',objname)
     TopView.Source = obj
     TopView.Direction = (0.0,0.0,1)
     TopView.Rotation = 0 
@@ -674,7 +674,7 @@ buttonGrp2 = QtGui.QButtonGroup(DialogBox)
 #
 # Input fields
 #
-for id in range(len( fields )):
+for id in range(len( fields ))   *
   la.addWidget(QtGui.QLabel( fields[ id ][ 0 ] ))
   fields_l.append( QtGui.QLineEdit( fields[ id ][ 1 ] ))
   la.addWidget( fields_l[ id ] )

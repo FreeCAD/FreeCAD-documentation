@@ -14,7 +14,7 @@ The current supported external solvers are   *
 
 On the *General* tab you can specify the following   *
 
-![](images/Preference_Fem_Tab_01.png )
+ ![](images/Preference_Fem_Tab_01.png ) 
 
 ## Gmsh
 
@@ -32,13 +32,13 @@ On the *Gmsh* tab you can specify the following   *
 |                                                 |                                                                                                                       |
 +++
 
-![](images/Preference_Fem_Tab_03.png )
+ ![](images/Preference_Fem_Tab_03.png ) 
 
 ## CalculiX
 
 On the *CalculiX* tab you can specify the following   *
 
-![](images/Preference_Fem_Tab_02.png )
+ ![](images/Preference_Fem_Tab_02.png ) 
 
 ## Elmer
 
@@ -64,7 +64,7 @@ On the *Elmer* tab you can specify the following   *
 |                                                              |                                                                                                                                                 |
 +++
 
-![](images/Preference_Fem_Tab_05.png )
+ ![](images/Preference_Fem_Tab_05.png ) 
 
 ## Mystran
 
@@ -82,7 +82,7 @@ On the *Mystran* tab you can specify the following   *
 |                                                 |                                                                                                                          |
 +++
 
-![](images/Preference_Fem_Tab_Mystran.png )
+ ![](images/Preference_Fem_Tab_Mystran.png ) 
 
 ## Z88
 
@@ -112,7 +112,7 @@ On the *Z88* tab you can specify the following   *
 |                                                 |                                                                                                                                                                                                                           |
 +++
 
-![](images/Preference_Fem_Tab_04.png )
+ ![](images/Preference_Fem_Tab_04.png ) 
 
 ## Material
 
@@ -142,9 +142,12 @@ On the *Material* tab you can specify the following   *
 |                                                                                            |                                                                                                                                                                                                       |
 +++
 
-![](images/Preference_Fem_Tab_Material.png )
+ ![](images/Preference_Fem_Tab_Material.png )
 
- {{FEM Tools navi}} 
+
+{{FEM Tools navi
+
+}} 
 
 [Category   *Preferences](Category_Preferences.md)
 

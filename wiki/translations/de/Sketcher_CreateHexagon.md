@@ -1,16 +1,14 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher CreateHexagon
-   Name/de:Skizzierer ErstelleSechseck
-   MenuLocation:Skizze → Skizzierergeometrien → Erstelle Sechseck
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.15
+- GuiCommand   */de
+   Name   *Sketcher CreateHexagon
+   Name/de   *Sketcher SechseckErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Sechseck erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **P** **6**
+   Version   *0.15
 ---
 
 # Sketcher CreateHexagon/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -20,20 +18,12 @@ Zeichnet ein Sechseck, das in einem Kreis der Konstruktionsgeometrie eingeschrie
 
 ## Anwendung
 
--   Nach Drücken der **[<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Sechseck erstellen](Sketcher_CreateHexagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
+-   Nach Drücken der **[<img src=images/Sketcher_CreateHexagon.svg style="width   *16px"> [Sechseck erstellen](Sketcher_CreateHexagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
 -   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
 
 ## Hinweise
 
 Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
-
-
-</div>
 
 
 

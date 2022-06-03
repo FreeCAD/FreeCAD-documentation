@@ -1,6 +1,8 @@
 # Category:Draft/zh-cn
 This category list pages related to the \"User\_Documentation/zh-cn\" and \"Workbenches/zh-cn\"
 
+[Category   *User Documentation/zh-cn](Category   *User_Documentation/zh-cn.md) [Category   *Workbenches/zh-cn](Category   *Workbenches/zh-cn.md)
+
 ### Contents
 
 |     |     |     |

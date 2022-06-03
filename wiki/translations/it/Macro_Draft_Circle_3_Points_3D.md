@@ -8,7 +8,7 @@
 |Version=01.00
 |Date=2013-03-16
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/1/10/Macro_Draft_Circle_3_Points.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/1/10/Macro_Draft_Circle_3_Points.png ToolBar Icon]
 }}
 
 ## Descrizione
@@ -17,7 +17,7 @@ Questa macro crea un cerchio passante per tre punti selezionati nello spazio 3D.
 
 I punti possono essere oggetti come punti oppure cubi, cilindri \... in questo caso sono utilizzate le coordinate del loro centro.
 
-<img alt="" src=images/Macro_Draft_Circle_3_Points_3D.png  style="width:480px;">
+<img alt="" src=images/Macro_Draft_Circle_3_Points_3D.png  style="width   *480px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -45,44 +45,44 @@ ToolBar Icon ![](images/Macro_Draft_Circle_3_Points.png )
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # Create a circle from 3 points selected on the X, Y, Z map
 # 04/03/2013
-# From https://en.wikipedia.org/wiki/Circumscribed_circle#Cartesian_coordinates_from_cross-_and_dot-products
-# Also see : https://math.stackexchange.com/questions/2658318/how-to-find-the-circumcenter-of-a-triangle-and-the-length-of-the-corresponding-r
+# From https   *//en.wikipedia.org/wiki/Circumscribed_circle#Cartesian_coordinates_from_cross-_and_dot-products
+# Also see    * https   *//math.stackexchange.com/questions/2658318/how-to-find-the-circumcenter-of-a-triangle-and-the-length-of-the-corresponding-r
 # O=R/2S*(acosα⋅A+bcosβ⋅B+ccosγ⋅C)  ; R is circumradius, S is area of triangle
 # 08/08/2014 PyQt4 and PySide
 
-#OS: Windows Vista
-#Word size: 32-bit
-#Version: 0.14.3700 (Git)
-#Branch: releases/FreeCAD-0-14
-#Hash: 32f5aae0a64333ec8d5d160dbc46e690510c8fe1
-#Python version: 2.6.2
-#Qt version: 4.5.2
-#Coin version: 3.1.0
-#SoQt version: 1.4.1
-#OCC version: 6.5.1
+#OS   * Windows Vista
+#Word size   * 32-bit
+#Version   * 0.14.3700 (Git)
+#Branch   * releases/FreeCAD-0-14
+#Hash   * 32f5aae0a64333ec8d5d160dbc46e690510c8fe1
+#Python version   * 2.6.2
+#Qt version   * 4.5.2
+#Coin version   * 3.1.0
+#SoQt version   * 1.4.1
+#OCC version   * 6.5.1
 
-try:
+try   *
     import PyQt4
     from PyQt4 import QtCore, QtGui
-except Exception:
+except Exception   *
     import PySide
     from PySide import QtCore, QtGui
 from math import pi, asin
 import Draft, FreeCAD, FreeCADGui
 from FreeCAD import Base
 
-def errorDialog(msg):
+def errorDialog(msg)   *
     # Create a simple dialog QMessageBox
-    # The first argument indicates the icon used: one of QtGui.QMessageBox.{NoIcon, Information, Warning, Critical, Question} 
+    # The first argument indicates the icon used   * one of QtGui.QMessageBox.{NoIcon, Information, Warning, Critical, Question} 
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg)
     diag.setWindowModality(QtCore.Qt.ApplicationModal)
     diag.exec_()
 
-def affiche(x,y,z,r,angle):
-    diag = QtGui.QMessageBox(QtGui.QMessageBox.Information,u"Coordinates",u"Coordinate X : "+str(x)+"\r\n"+u"Coordinate Y : "+str(y)+"\n"+u"Coordinate Z : "+str(z)+"\nRadius\t   : "+str(r)+"\nAngle\t   : "+str(angle))
+def affiche(x,y,z,r,angle)   *
+    diag = QtGui.QMessageBox(QtGui.QMessageBox.Information,u"Coordinates",u"Coordinate X    * "+str(x)+"\r\n"+u"Coordinate Y    * "+str(y)+"\n"+u"Coordinate Z    * "+str(z)+"\nRadius\t      * "+str(r)+"\nAngle\t      * "+str(angle))
     diag.setWindowModality(QtCore.Qt.ApplicationModal)
     diag.setWindowModality(QtCore.Qt.NonModal)
     diag.exec_()
@@ -90,7 +90,7 @@ def affiche(x,y,z,r,angle):
 # objects selected
 sel = FreeCADGui.Selection.getSelection()
 # If there are 3 selected points so...
-if len(sel)==3 :
+if len(sel)==3    *
     # Assignment of variables
     P1 = sel[0].Shape.BoundBox.Center
     P2 = sel[1].Shape.BoundBox.Center
@@ -102,13 +102,13 @@ if len(sel)==3 :
 
     # Circle radius.
     l = ((P1 - P2).cross(P2 - P3)).Length
-    try:
-        #if l < 1e-8:
+    try   *
+        #if l < 1e-8   *
         #    errorDialog("The three points are aligned")
         r = P1P2 * P2P3 * P3P1 / 2 / l
-    except:
+    except   *
         errorDialog("The three points are aligned")
-    else:
+    else   *
         # Sphere center.
         a = P2P3**2 * (P1 - P2).dot(P1 - P3) / 2 / l**2
         b = P3P1**2 * (P2 - P1).dot(P2 - P3) / 2 / l**2
@@ -130,12 +130,12 @@ if len(sel)==3 :
         # Displays the result in the windows
         affiche((PC.x),(PC.y),(PC.z),r,angle)
         # Displays the result in the FreeCAD report view
-        #FreeCAD.Console.PrintMessage("Coordinate X : "+str(PC.x)+"\n")
-        #FreeCAD.Console.PrintMessage("Coordinate Y : "+str(PC.y)+"\n")
-        #FreeCAD.Console.PrintMessage("Coordinate Z : "+str(PC.z)+"\n")
-        #FreeCAD.Console.PrintMessage("Radius       : "+str(r)+"\n")
-        #FreeCAD.Console.PrintMessage("Angle        : "+str(angle)+"\n")
-else:
+        #FreeCAD.Console.PrintMessage("Coordinate X    * "+str(PC.x)+"\n")
+        #FreeCAD.Console.PrintMessage("Coordinate Y    * "+str(PC.y)+"\n")
+        #FreeCAD.Console.PrintMessage("Coordinate Z    * "+str(PC.z)+"\n")
+        #FreeCAD.Console.PrintMessage("Radius          * "+str(r)+"\n")
+        #FreeCAD.Console.PrintMessage("Angle           * "+str(angle)+"\n")
+else   *
     # If the condition is not met, repeat
     #FreeCAD.Console.PrintError("Select 3 points and repeat\n")
     errorDialog("Select 3 points and repeat\n")

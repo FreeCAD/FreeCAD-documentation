@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Part Scripting - Ball Bearing #1
-   Level: Beginner
-   Time: 30 min
-   Author:r-frank
-   FCVersion:0.16.6706
-   Files:
+- TutorialInfo   */ro
+   Topic   * Part Scripting - Ball Bearing #1
+   Level   * Beginner
+   Time   * 30 min
+   Author   *r-frank
+   FCVersion   *0.16.6706
+   Files   *
 }}
 
 ### Introduction
@@ -13,8 +13,8 @@
 Acest tutorial este conceput ca o introducere pentru începători în crearea de piese cu script Python în cadrul FreeCAD.
 Acest tutorial descrie cum să construiți un rulment cu bile CSG-workflow.
 Codul va produce un nou document FreeCAD cu 12 forme (Inel INterior, Inel exterior și 10 bile/sfere).
-Va arăta astfel:
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
+Va arăta astfel   *
+<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width   *400px;">
 
 ### Workflow
 
@@ -43,23 +43,23 @@ Therefore we need to select the edges BEFORE creating the groove.
 ### Note
 
 Acest tutorial folosește primitive și operații booleene, care pot fi consumatoare de performanță.
-For doing a scripted part with revolved sketches have a look at the tutorial [Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md).
+For doing a scripted part with revolved sketches have a look at the tutorial [Scripted Parts   * Ball Bearing - Part 2](Scripted_Parts   *_Ball_Bearing_-_Part_2.md).
 
 ### Links
 
-[Scripted objects](Scripted_objects.md): Pagina wiki explică elementele de bază ale scripting-ului
-[Topological data scripting](Topological_data_scripting.md): Un tutorial care acoperă elementele de bază ale scripturilor
-[Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md): Doing it with sketches
-[Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html): Base for this tutorial, thanks to JMG \...
+[Scripted objects](Scripted_objects.md)   * Pagina wiki explică elementele de bază ale scripting-ului
+[Topological data scripting](Topological_data_scripting.md)   * Un tutorial care acoperă elementele de bază ale scripturilor
+[Scripted Parts   * Ball Bearing - Part 2](Scripted_Parts   *_Ball_Bearing_-_Part_2.md)   * Doing it with sketches
+[Bearing Script 1](http   *//linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)   * Base for this tutorial, thanks to JMG \...
 
 ### Code
 
 
-{{Code   code:
+{{Code   code   *
 ## Ball-bearing script
 ## 11.08.2016 by r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## based on ball bearing script by JMG
-## (http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
+## (http   *//linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
 #
 #needed for inserting primitives
 import Part
@@ -123,7 +123,7 @@ OuterRing=ORF.cut(T2)
 Part.show(OuterRing)
 #
 #Balls#
-for i in range(NBall):
+for i in range(NBall)   *
   Ball=Part.makeSphere(RBall)
   Alpha=(i*2*math.pi)/NBall
   BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
@@ -142,7 +142,9 @@ Gui.SendMsgToActiveView("ViewFit")
 
 {{Powerdocnavi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

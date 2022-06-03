@@ -1,6 +1,8 @@
 # Category:Draft/fr
 Cette catégorie liste les pages liées à l\'[atelier Draft](Draft_Workbench/fr.md).
 
+[Category   *User Documentation/fr](Category   *User_Documentation/fr.md) [Category   *Workbenches/fr](Category   *Workbenches/fr.md)
+
 ### Contents
 
 |     |     |     |

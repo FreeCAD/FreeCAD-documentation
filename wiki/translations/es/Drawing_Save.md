@@ -1,11 +1,11 @@
 # Drawing Save/es
 ---
-- GuiCommand:/es   Name:Drawing Save   Workbenches:[MenuLocation:Dibujo → Exportar página...   Shortcut:none   SeeAlso:[[Drawing Open SVG/es|Abrir SVG](Drawing_Workbench/es___Dibujo]],_Complete.md)---
+- GuiCommand   */es   Name   *Drawing Save   Workbenches   *[MenuLocation   *Dibujo → Exportar página...   Shortcut   *none   SeeAlso   *[[Drawing Open SVG/es|Abrir SVG](Drawing_Workbench/es___Dibujo]],_Complete.md)---
 
 
 </div>
 
-Esta herramienta guarda la hoja de dibujo actual como un archivo SVG (scalable vector graphics). Dicho archivo se puede editar en un programa de gráficos vectoriales como [Inkscape](http://www.inkscape.org).
+Esta herramienta guarda la hoja de dibujo actual como un archivo SVG (scalable vector graphics). Dicho archivo se puede editar en un programa de gráficos vectoriales como [Inkscape](http   *//www.inkscape.org).
 
 
 <div class="mw-translate-fuzzy">

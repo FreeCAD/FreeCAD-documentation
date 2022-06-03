@@ -1,9 +1,9 @@
 # Project template
-This template is the guideline for a FreeCAD development project. It follows the rules of the [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) process. The projects are collected in the [Development roadmap](Development_roadmap.md).
+This template is the guideline for a FreeCAD development project. It follows the rules of the [Getting Things Done (GTD)](http   *//en.wikipedia.org/wiki/Getting_Things_Done#Methodology) process. The projects are collected in the [Development roadmap](Development_roadmap.md).
 
 *Lets start by looking at the Natural Planning Model. The Natural Planning Model really is nothing new. It is not some fantastic new model devised by David Allen to help us plan and manage our projects. it is however, the planning model that is recommended by David in his Getting Things Done book. The Natural Planning Model is based upon the planning that we do on a daily basis, using just our brains. For example, think of how many tasks we plan on a day by day basis that we do not even bother to write down as these are normally classed as mundane tasks. For example, getting dressed, or driving to work. All of these can be thought of tasks but we just go ahead and plan them without any thought whatsoever. We utilize the planning aspects of our brain that are conditioned for this natural type of planning.*
 
-*You mind goes through five steps to accomplish virtually any task. These five steps are:*
+*You mind goes through five steps to accomplish virtually any task. These five steps are   **
 
 ## Purpose and principles 
 
@@ -24,6 +24,10 @@ This template is the guideline for a FreeCAD development project. It follows the
 ## Next actions 
 
 *The last, and fifth step is to **identify and set the next actions**. The GTD methodology covers that the best way to get a task done, is to decide and set the next actions. We do not do tasks, we do next actions. So the best way to get your holiday booked is to decide what the next actions are. These normally would be items such as, look up the resort on the Internet, check online travel comparison sites for cheap flights and accommodation, call in and see a travel agent for their price and recommendation within the resort. Again, I would be surprised if any of you would take the time and effort to write these next actions down, but also, I would be surprised if any of you forgot these next actions. it is funny how our mind has a great way of remembering projects assigned and planning using the Natural Planning Method.*
+
+
+
+[Category   *Roadmap](Category_Roadmap.md)
 
 
 

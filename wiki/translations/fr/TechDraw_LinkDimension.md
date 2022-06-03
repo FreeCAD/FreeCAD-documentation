@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw LinkDimension
-   Name/fr:TechDraw Lier une dimension
-   MenuLocation:TechDraw → Dimensions →  Lier une cote à une géométrie 3D
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw LinkDimension
+   Name/fr   *TechDraw Lier une dimension
+   MenuLocation   *TechDraw → Dimensions →  Lier une cote à une géométrie 3D
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso   *[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw LinkDimension/fr
@@ -48,11 +48,11 @@ Notez que si la dimension à lier est basée sur deux sommets, vous devez en sé
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Lier une dimension peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Lier une dimension peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python

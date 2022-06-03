@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw DecorateLine
-   Name/fr:TechDraw Apparence des lignes
-   MenuLocation:TechDraw → Changer l'apparence des lignes
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw DecorateLine
+   Name/fr   *TechDraw Apparence des lignes
+   MenuLocation   *TechDraw → Changer l'apparence des lignes
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)
 ---
 
 # TechDraw DecorateLine/fr
@@ -14,13 +14,13 @@
 
 L\'outil Apparence des lignes modifie l\'apparence des lignes (Edges).
 
-<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
+<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 
 
 
 *Exemple de lignes avant modifications*
 
-<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
+<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width   *180px;">
 
 
 
@@ -39,7 +39,7 @@ L\'outil Apparence des lignes n\'a aucune propriété car il ne s\'agit pas d\'u
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 

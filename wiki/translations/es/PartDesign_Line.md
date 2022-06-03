@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:PartDesign Line
-   Name/es:Línea PartDesign
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   MenuLocation:Part Design → Crear una línea de referencia
-   Version:0.17
-   SeeAlso:[Punto PartDesign](PartDesign_Point/es.md), [Plano PartDesign](PartDesign_Plane/es.md)
+- GuiCommand   */es
+   Name   *PartDesign Line
+   Name/es   *Línea PartDesign
+   Workbenches   *[PartDesign](PartDesign_Workbench/es.md)
+   MenuLocation   *Part Design → Crear una línea de referencia
+   Version   *0.17
+   SeeAlso   *[Punto PartDesign](PartDesign_Point/es.md), [Plano PartDesign](PartDesign_Plane/es.md)
 ---
 
 # PartDesign Line/es
@@ -17,7 +17,7 @@
 
 Creates a **datum line** which can be used as reference for sketches, other datum geometry or features. For example it can be used as revolution axis for Revolution and Groove features.
 
-<img alt="" src=images/datum_line.png  style="width:600px;"> 
+<img alt="" src=images/datum_line.png  style="width   *600px;"> 
 *Two Datum lines through opposite corners of the cube meet at the center of mass.*
 
 ## Usage
@@ -36,11 +36,11 @@ Double-click the DatumLine label in the Model tree or right-click and select **E
 
 ## Properties
 
--    **MapMode**: lists the attachment mode used.
+-    **MapMode**   * lists the attachment mode used.
 
--    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**: name given to the object, this name can be changed at convenience.
+-    **Label**   * name given to the object, this name can be changed at convenience.
 
 
 

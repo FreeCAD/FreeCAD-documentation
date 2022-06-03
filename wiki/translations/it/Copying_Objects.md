@@ -18,7 +18,7 @@ Come nella maggior parte delle applicazioni è presente una funzionalità per du
 
 <div class="mw-translate-fuzzy">
 
-Ricordare che gli oggetti duplicati con copia-incolla non dipendono dall\'originale. Se si desiderano dei cloni dipendenti, utilizzare il <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Clone di Draft](Draft_Clone/it.md) o il <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;">[Clone di Part Design](PartDesign_Clone/it.md). Se non c\'è bisogno di un clone dipendente o di una replica parametrica, si può anche usare <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [Crea una copia semplice](Part_SimpleCopy/it.md) di Part. Per i cloni con motivi, consultare la sezione [Altri metodi](Copying_Objects/it#Altri_metodi.md) di questa pagina.
+Ricordare che gli oggetti duplicati con copia-incolla non dipendono dall\'originale. Se si desiderano dei cloni dipendenti, utilizzare il <img alt="" src=images/Draft_Clone.svg  style="width   *24px;"> [Clone di Draft](Draft_Clone/it.md) o il <img alt="" src=images/PartDesign_Clone.svg  style="width   *24px;">[Clone di Part Design](PartDesign_Clone/it.md). Se non c\'è bisogno di un clone dipendente o di una replica parametrica, si può anche usare <img alt="" src=images/Part_SimpleCopy.svg  style="width   *24px;"> [Crea una copia semplice](Part_SimpleCopy/it.md) di Part. Per i cloni con motivi, consultare la sezione [Altri metodi](Copying_Objects/it#Altri_metodi.md) di questa pagina.
 
 
 </div>
@@ -48,11 +48,11 @@ Dopo l\'operazione di copia/incolla, il nuovo oggetto può non essere visibile n
 
 ## Altri metodi 
 
-Come per la maggior parte delle operazioni, anche per fare le copie, in FreeCAD ci sono molti modi. Per ulteriori idee, vedere:
+Come per la maggior parte delle operazioni, anche per fare le copie, in FreeCAD ci sono molti modi. Per ulteriori idee, vedere   *
 
--   PartDesign: [Rifletti](PartDesign_Mirrored/it.md), [Schiera lineare](PartDesign_LinearPattern/it.md), [Schiera polare](PartDesign_PolarPattern/it.md), [Multi Trasformazione](PartDesign_MultiTransform/it.md)
--   Part: [Specchia](Part_Mirror/it.md), [Crea semplice copia](Part_SimpleCopy/it.md)
--   Draft: [Offset](Draft_Offset/it.md), [Scala](Draft_Scale/it.md), [Schiera](Draft_Array/it.md), [PathArray](Draft_PathArray/it.md), [Clona](Draft_Clone/it.md), [Simmetria](Draft_Mirror/it.md)
+-   PartDesign   * [Rifletti](PartDesign_Mirrored/it.md), [Schiera lineare](PartDesign_LinearPattern/it.md), [Schiera polare](PartDesign_PolarPattern/it.md), [Multi Trasformazione](PartDesign_MultiTransform/it.md)
+-   Part   * [Specchia](Part_Mirror/it.md), [Crea semplice copia](Part_SimpleCopy/it.md)
+-   Draft   * [Offset](Draft_Offset/it.md), [Scala](Draft_Scale/it.md), [Schiera](Draft_Array/it.md), [PathArray](Draft_PathArray/it.md), [Clona](Draft_Clone/it.md), [Simmetria](Draft_Mirror/it.md)
 
 ## Note
 

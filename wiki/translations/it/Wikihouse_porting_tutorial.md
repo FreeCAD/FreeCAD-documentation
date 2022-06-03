@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Wikihouse porting tutorial
-   Level: Intermediate/Advanced
-   Time: 60 minuti
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */it
+   Topic   * Wikihouse porting tutorial
+   Level   * Intermediate/Advanced
+   Time   * 60 minuti
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # Wikihouse porting tutorial/it
@@ -25,7 +25,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo tutorial spiega come convertire in FreeCAD i file di [SketchUp](http://www.sketchup.com/) utilizzati dal progetto [WikiHouse](http://wikihouse.cc/), avvalendosi dello strumento [Pannello](Arch_Panel/it.md) di FreeCAD. Il risultato è una copia completa dell\'originale file SketchUp, tranne che è diventato completamente parametrico. Il livello di parametricità del file finale dipende dalla quantità di lavoro ad esso dedicato, come spiegato di seguito. È possibile fare le cose passo dopo passo, e ricostruire il file Wikihouse abbastanza rapidamente, e rimandare a dopo il più lungo lavoro di conversione in schizzi dei profili di base.
+Questo tutorial spiega come convertire in FreeCAD i file di [SketchUp](http   *//www.sketchup.com/) utilizzati dal progetto [WikiHouse](http   *//wikihouse.cc/), avvalendosi dello strumento [Pannello](Arch_Panel/it.md) di FreeCAD. Il risultato è una copia completa dell\'originale file SketchUp, tranne che è diventato completamente parametrico. Il livello di parametricità del file finale dipende dalla quantità di lavoro ad esso dedicato, come spiegato di seguito. È possibile fare le cose passo dopo passo, e ricostruire il file Wikihouse abbastanza rapidamente, e rimandare a dopo il più lungo lavoro di conversione in schizzi dei profili di base.
 
 
 </div>
@@ -38,9 +38,9 @@ Questo tutorial richiede una conoscenza intermedia di FreeCAD, cioè, di sapersi
 
 </div>
 
-Dato che il progetto Wikihouse è per natura aperto, è facile trovare i file sul sito del progetto, ma anche in [SketchUp 3D Warehouse](https://3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) o nel repositorio [repositorio github](https://github.com/wikihouseproject) del progetto. Il formato preferito utilizzato dal progetto è Sketchup, quindi la maggior parte dei file che si trovano sono in tale formato.
+Dato che il progetto Wikihouse è per natura aperto, è facile trovare i file sul sito del progetto, ma anche in [SketchUp 3D Warehouse](https   *//3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) o nel repositorio [repositorio github](https   *//github.com/wikihouseproject) del progetto. Il formato preferito utilizzato dal progetto è Sketchup, quindi la maggior parte dei file che si trovano sono in tale formato.
 
-Nel seguente tutorial abbiamo utilizzato il file [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) del sotto-progetto Wikihouse\'s Microhouse.
+Nel seguente tutorial abbiamo utilizzato il file [Chassis](https   *//github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) del sotto-progetto Wikihouse\'s Microhouse.
 
 ## Preparare il file di Sketchup 
 
@@ -48,7 +48,7 @@ La prima cosa da fare è aprire il file in SketchUp ed eliminare tutto ciò che 
 
 ![](images/Arch_Wikihouse_05.jpg )
 
-In SketchUp, gli elementi Wikihouse sono realizzati in un determinato modo specifico: aggiungendo un po alla volta dei piccoli \"pezzi\" per creare i diversi componenti:
+In SketchUp, gli elementi Wikihouse sono realizzati in un determinato modo specifico   * aggiungendo un po alla volta dei piccoli \"pezzi\" per creare i diversi componenti   *
 
 ![](images/Arch_Wikihouse_06.jpg )
 
@@ -63,7 +63,7 @@ Questo non è il modo in cui si procederà in FreeCAD. Dato che una delle caratt
 
 <div class="mw-translate-fuzzy">
 
-Per trasformare gli oggetti di SketchUp in schizzi di FreeCAD, che possano poi essere utilizzati per creare dei [Pannelli](Arch_Panel/it.md), bisogna estrarre una faccia piatta da ogni pezzo Wikihouse. Lo spessore sarà nuovamente aggiunto in seguito, in FreeCAD, direttamente nelle proprietà del pannello Arch. In questo modo, diventa anche esso parametrico. Per convertire ciascun componente Wikihouse in una unica faccia piatta, entrare in ogni componente facendo doppio clic su di esso, quindi selezionare ogni sotto-componente, e fare clic destro → esplodere, fino a quando tutti i sotto-componenti sono esplosi e il componente è composto solo da facce e spigoli:
+Per trasformare gli oggetti di SketchUp in schizzi di FreeCAD, che possano poi essere utilizzati per creare dei [Pannelli](Arch_Panel/it.md), bisogna estrarre una faccia piatta da ogni pezzo Wikihouse. Lo spessore sarà nuovamente aggiunto in seguito, in FreeCAD, direttamente nelle proprietà del pannello Arch. In questo modo, diventa anche esso parametrico. Per convertire ciascun componente Wikihouse in una unica faccia piatta, entrare in ogni componente facendo doppio clic su di esso, quindi selezionare ogni sotto-componente, e fare clic destro → esplodere, fino a quando tutti i sotto-componenti sono esplosi e il componente è composto solo da facce e spigoli   *
 
 
 </div>
@@ -86,7 +86,7 @@ Quando il pezzo di casa è completamente fatto di elementi piani, possiamo selez
 
 ## Risolvere il bug delle facce doppie 
 
-C\'è un brutto problema per il quale non ho trovato una soluzione migliore: gli oggetti mesh esportati da SketchUp nel formato .dae hanno le loro facce duplicate. Ogni faccia diventa in realtà due facce. Il modo più semplice che ho trovato finora è quello di aprire il file esportato in [Blender](http://www.blender.org) per ripararlo:
+C\'è un brutto problema per il quale non ho trovato una soluzione migliore   * gli oggetti mesh esportati da SketchUp nel formato .dae hanno le loro facce duplicate. Ogni faccia diventa in realtà due facce. Il modo più semplice che ho trovato finora è quello di aprire il file esportato in [Blender](http   *//www.blender.org) per ripararlo   *
 
 
 <div class="mw-translate-fuzzy">
@@ -109,7 +109,7 @@ Normalmente l\'operazione di cui sopra non dovrebbe modificare la scala, ma prim
 
 <div class="mw-translate-fuzzy">
 
-Notare che potrebbe essere più facile procedere per parti e trattare + esportare gli oggetti gruppo per gruppo, come abbiamo fatto qui di seguito, dove abbiamo esportato solo il primo strato, fatto di elementi gialli in SketchUp. Questi elementi entreranno in FreeCAD come oggetti [Mesh](Mesh_Workbench/it.md):
+Notare che potrebbe essere più facile procedere per parti e trattare + esportare gli oggetti gruppo per gruppo, come abbiamo fatto qui di seguito, dove abbiamo esportato solo il primo strato, fatto di elementi gialli in SketchUp. Questi elementi entreranno in FreeCAD come oggetti [Mesh](Mesh_Workbench/it.md)   *
 
 
 </div>
@@ -119,7 +119,7 @@ Notare che potrebbe essere più facile procedere per parti e trattare + esportar
 
 <div class="mw-translate-fuzzy">
 
-Il passo successivo consiste nel creare dei wire da ciascuno degli oggetti mesh. C\'è una macro utile chiamata [Estrai wire da mesh](Macro_Extract_Wires_from_Mesh/it.md) che fa proprio questo. Installarla (Fare riferimento alla pagina delle [macro](Macros/it.md) per le istruzioni), poi uno ad uno convertire tutti i mesh in oggetti wire (si può fare tutto in una volta, ma questa macro richiede un po\' di tempo):
+Il passo successivo consiste nel creare dei wire da ciascuno degli oggetti mesh. C\'è una macro utile chiamata [Estrai wire da mesh](Macro_Extract_Wires_from_Mesh/it.md) che fa proprio questo. Installarla (Fare riferimento alla pagina delle [macro](Macros/it.md) per le istruzioni), poi uno ad uno convertire tutti i mesh in oggetti wire (si può fare tutto in una volta, ma questa macro richiede un po\' di tempo)   *
 
 
 </div>
@@ -129,7 +129,7 @@ Il passo successivo consiste nel creare dei wire da ciascuno degli oggetti mesh.
 
 <div class="mw-translate-fuzzy">
 
-Ora potremmo già creare degli oggetti [Pannello](Arch_Panel/it.md) da ciascuno di questi oggetti filiformi, semplicemente selezionandoli e premendo il pulsante [Pannello](Arch_Panel/it.md). Però, la loro forma di base non sarebbe parametrica. Ora abbiamo a disposizione diverse opzioni: possiamo trasformare ogni componente in uno schizzo, utilizzando lo strumento [Draft2Sketch](Draft_Draft2Sketch/it.md), ma questi schizzi sarebbero piuttosto pesanti, e potrebbero non essere molto maneggevoli su una macchina lenta, oppure possiamo trasformare ogni singolo wire (il contorno e ogni foro) dello schizzo in uno schizzo separato. Ciò permette, ad esempio, di riutilizzare un foro tipico, cioè di crearlo una volta sola e poi duplicarlo con [Clona](Draft_Clone/it.md) per creare gli altri fori uguali. In questo modo, basta modificarne uno per modificarli tutti.
+Ora potremmo già creare degli oggetti [Pannello](Arch_Panel/it.md) da ciascuno di questi oggetti filiformi, semplicemente selezionandoli e premendo il pulsante [Pannello](Arch_Panel/it.md). Però, la loro forma di base non sarebbe parametrica. Ora abbiamo a disposizione diverse opzioni   * possiamo trasformare ogni componente in uno schizzo, utilizzando lo strumento [Draft2Sketch](Draft_Draft2Sketch/it.md), ma questi schizzi sarebbero piuttosto pesanti, e potrebbero non essere molto maneggevoli su una macchina lenta, oppure possiamo trasformare ogni singolo wire (il contorno e ogni foro) dello schizzo in uno schizzo separato. Ciò permette, ad esempio, di riutilizzare un foro tipico, cioè di crearlo una volta sola e poi duplicarlo con [Clona](Draft_Clone/it.md) per creare gli altri fori uguali. In questo modo, basta modificarne uno per modificarli tutti.
 
 
 </div>
@@ -137,7 +137,7 @@ Ora potremmo già creare degli oggetti [Pannello](Arch_Panel/it.md) da ciascuno 
 
 <div class="mw-translate-fuzzy">
 
-La macro Estrai wire da mesh talvolta non riesce a trovare dei wire chiusi all\'interno di un mesh, e non produce dei pannelli corretti. Una procedura facile per ricomporre i wire di un componente è questa:
+La macro Estrai wire da mesh talvolta non riesce a trovare dei wire chiusi all\'interno di un mesh, e non produce dei pannelli corretti. Una procedura facile per ricomporre i wire di un componente è questa   *
 
 
 </div>
@@ -168,7 +168,7 @@ Qui sono possibili molte strategie, a seconda di come è necessario che il risul
 
 ## Conversione in Schizzi 
 
-Dato che possiamo già creare dei pannelli da ciascun componente, si può fare questa parte in seguito, ma vediamo comunque come convertire un oggetto filiforme in uno schizzo:
+Dato che possiamo già creare dei pannelli da ciascun componente, si può fare questa parte in seguito, ma vediamo comunque come convertire un oggetto filiforme in uno schizzo   *
 
 
 <div class="mw-translate-fuzzy">
@@ -210,14 +210,14 @@ In breve tempo, tutta la sezione della Microhouse è pronta.
 
 <div class="mw-translate-fuzzy">
 
-Ora possiamo creare con facilità i fogli singoli, che sono dei file DXF da inviare al laboratorio che deve tagliare i pannelli. Il modo più semplice per farlo è quello di selezionare tutto il contenuto del documento con Ctrl+A, e quindi utilizzare lo strumento [Sagoma pannello](Arch_Panel_Cut/it.md). Questo produce un oggetto Sagoma pannello per ogni oggetto Panello trovato nella selezione. Separandoli, si ottiene una visione chiara di tutti i pezzi:
+Ora possiamo creare con facilità i fogli singoli, che sono dei file DXF da inviare al laboratorio che deve tagliare i pannelli. Il modo più semplice per farlo è quello di selezionare tutto il contenuto del documento con Ctrl+A, e quindi utilizzare lo strumento [Sagoma pannello](Arch_Panel_Cut/it.md). Questo produce un oggetto Sagoma pannello per ogni oggetto Panello trovato nella selezione. Separandoli, si ottiene una visione chiara di tutti i pezzi   *
 
 
 </div>
 
 ![](images/Arch_Wikihouse_02.jpg )
 
-Bisogna quindi \"annidare\" i pezzi, cioè, spostarli e ruotarli in modo che essi occupino tutto lo spazio possibile di un determinato pannello, per generare il minor sfrido possibile. Purtroppo questa operazione deve essere fatta a mano, ma se si utilizza un progetto Wikihouse che già ha prodotto sagome di fogli, copiandoli si va abbastanza veloci:
+Bisogna quindi \"annidare\" i pezzi, cioè, spostarli e ruotarli in modo che essi occupino tutto lo spazio possibile di un determinato pannello, per generare il minor sfrido possibile. Purtroppo questa operazione deve essere fatta a mano, ma se si utilizza un progetto Wikihouse che già ha prodotto sagome di fogli, copiandoli si va abbastanza veloci   *
 
 
 <div class="mw-translate-fuzzy">
@@ -237,11 +237,11 @@ Bisogna quindi \"annidare\" i pezzi, cioè, spostarli e ruotarli in modo che ess
 
 </div>
 
-Nella vista Azioni di Foglio pannello, vi è anche un pulsante che consente di spostare le singole Sagome pannello dopo che esse sono state inserite nel foglio. In breve tempo, tutti i fogli sono pronti:
+Nella vista Azioni di Foglio pannello, vi è anche un pulsante che consente di spostare le singole Sagome pannello dopo che esse sono state inserite nel foglio. In breve tempo, tutti i fogli sono pronti   *
 
 ![](images/Arch_Wikihouse_03.jpg )
 
-L\'ultimo passo è semplicemente quello di selezionare tutti i fogli, poi esportarli in DXF dal menu File → Esporta. I fogli contenuti vengono esportati separati in layer diversi, con lo stesso codice colore comunemente usato dal progetto Wikihouse:
+L\'ultimo passo è semplicemente quello di selezionare tutti i fogli, poi esportarli in DXF dal menu File → Esporta. I fogli contenuti vengono esportati separati in layer diversi, con lo stesso codice colore comunemente usato dal progetto Wikihouse   *
 
 ![](images/Arch_Wikihouse_04.jpg )
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:OpenSCAD Edgestofaces
-   MenuLocation:OpenSCAD → EdgesToFaces‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Draft Upgrade](Draft_Upgrade.md)
+- GuiCommand   *
+   Name   *OpenSCAD Edgestofaces
+   MenuLocation   *OpenSCAD → EdgesToFaces‏‎
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso   *[Draft Upgrade](Draft_Upgrade.md)
 ---
 
 # OpenSCAD Edgestofaces/en
@@ -21,7 +21,7 @@ Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
 
 ## Notes
 
-See also <img alt="Draft\_Upgrade" src=images/Draft_Upgrade.svg  style="width:24px;"> [Draft Upgrade](Draft_Upgrade.md) for an alternative way to get faces.
+See also <img alt="Draft\_Upgrade" src=images/Draft_Upgrade.svg  style="width   *24px;"> [Draft Upgrade](Draft_Upgrade.md) for an alternative way to get faces.
 
 
 

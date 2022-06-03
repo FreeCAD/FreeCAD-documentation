@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign MoveFeature
-   Name/de:PartDesign VerschiebeFormelement
-   Empty:1
-   MenuLocation:Kontextmenü → Verschiebe Objekt in anderen Körper
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Spitze festlegen](PartDesign_MoveTip/de.md), [Verschiebe Objekt hinter anderes Objekt](PartDesign_MoveFeatureInTree/de.md)
+- GuiCommand   */de
+   Name   *PartDesign MoveFeature
+   Name/de   *PartDesign VerschiebeFormelement
+   Empty   *1
+   MenuLocation   *Kontextmenü → Verschiebe Objekt in anderen Körper
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[Spitze festlegen](PartDesign_MoveTip/de.md), [Verschiebe Objekt hinter anderes Objekt](PartDesign_MoveFeatureInTree/de.md)
 ---
 
 # PartDesign MoveFeature/de

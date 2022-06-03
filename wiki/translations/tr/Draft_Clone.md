@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Clone
-   Name/tr:Klonla
-   MenuLocation:Taslak → Klonla
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**C** **L**
-   SeeAlso:[Taşı](Draft_Move/tr.md), [Ölçek](Draft_Scale/tr.md)
+- GuiCommand   */tr
+   Name   *Draft Clone
+   Name/tr   *Klonla
+   MenuLocation   *Taslak → Klonla
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut   ***C** **L**
+   SeeAlso   *[Taşı](Draft_Move/tr.md), [Ölçek](Draft_Scale/tr.md)
 ---
 
 # Draft Clone/tr
@@ -33,7 +33,7 @@ Klonla aracı, [Taslak tezgahı](Draft_Workbench/tr.md) ile oluşturulan 2D şek
 
 </div>
 
-<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Clone_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -62,9 +62,9 @@ Klonla aracı, [Taslak tezgahı](Draft_Workbench/tr.md) ile oluşturulan 2D şek
 
 ## Properties
 
-See also: [Property editor](property_editor.md).
+See also   * [Property editor](property_editor.md).
 
-An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties:
+An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties   *
 
 ### Data
 
@@ -76,11 +76,11 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 ## Özellikleri
 
--    {{PropertyData | Nesneler}}: Klonlanan temel nesnelerin bir listesini belirtir.
+-    {{PropertyData | Nesneler}}   * Klonlanan temel nesnelerin bir listesini belirtir.
 
--    {{PropertyData | Ölçek}}: Klon için her X, Y ve Z yönünde ölçeklendirme faktörünü belirtir.
+-    {{PropertyData | Ölçek}}   * Klon için her X, Y ve Z yönünde ölçeklendirme faktörünü belirtir.
 
--    {{PropertyData | Fuse}}: eğer `True` ve {{PropertyData | Nesneler}} birbiriyle kesişen birçok şekil içeriyorsa, ortaya çıkan klon onları birlikte tek bir şekilde birleştirir veya bir bileşik oluşturur Bunların {{Version/tr | 0.17}}
+-    {{PropertyData | Fuse}}   * eğer `True` ve {{PropertyData | Nesneler}} birbiriyle kesişen birçok şekil içeriyorsa, ortaya çıkan klon onları birlikte tek bir şekilde birleştirir veya bir bileşik oluşturur Bunların {{Version/tr | 0.17}}
 
 
 </div>
@@ -93,7 +93,7 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -103,7 +103,7 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 <div class="mw-translate-fuzzy">
 
-Klonla aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
+Klonla aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
 
 
 </div>
@@ -125,7 +125,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 </div>
 
-Örnek:
+Örnek   *
 
 
 ```python

@@ -5,8 +5,8 @@
 
 ### Unterstützte Elemente 
 
--   Grundelemente: Würfel, Kugel, Zylinder, Quadrat, Kreis, Polygon, Polyeder
--   Boolesche Operationen: Vereinigung, Differenz, Schnittpunkt
+-   Grundelemente   * Würfel, Kugel, Zylinder, Quadrat, Kreis, Polygon, Polyeder
+-   Boolesche Operationen   * Vereinigung, Differenz, Schnittpunkt
 -   linearextrude, rotateextrude
 -   Importieren (dxf, stl, off) (ohne Skalierung oder Transformation des Ursprungs)
 -   multmatrix
@@ -17,18 +17,18 @@
 -   Projektion
 -   Oberfläche
 -   rendern (ignoriert)
--   cgal Operationen: minkowski, glide, path, subdiv, hull
+-   cgal Operationen   * minkowski, glide, path, subdiv, hull
 
 ## Exportieren
 
 ### Unterstützte Elemente 
 
--   Grundelemente: Quader, Zylinder, Kegel, Torus
--   boolesche Operationen: Schneiden, Verschmelzen, Gemeinsam
+-   Grundelemente   * Quader, Zylinder, Kegel, Torus
+-   boolesche Operationen   * Schneiden, Verschmelzen, Gemeinsam
 
 ### Rückgriff
 
-Jedes von Part::Feature abgeleitete Objekt, das (noch) nicht unterstützt wird, wird vernetzt und als Polyederelement exportiert
+Jedes von Part   *   *Feature abgeleitete Objekt, das (noch) nicht unterstützt wird, wird vernetzt und als Polyederelement exportiert
 
 ## Verwandtes
 
@@ -38,6 +38,8 @@ Jedes von Part::Feature abgeleitete Objekt, das (noch) nicht unterstützt wird, 
 
 
  {{OpenSCAD Tools navi}}
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

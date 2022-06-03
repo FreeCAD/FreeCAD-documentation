@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Draft Stretch
-   Name/it:Stira
-   MenuLocation:Draft → Stira
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**S** **H**
-   Version:0.17
-   SeeAlso:[Offset](Draft_Offset/it.md), [Scala](Draft_Scale/it.md)
+- GuiCommand   */it
+   Name   *Draft Stretch
+   Name/it   *Stira
+   MenuLocation   *Draft → Stira
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut   ***S** **H**
+   Version   *0.17
+   SeeAlso   *[Offset](Draft_Offset/it.md), [Scala](Draft_Scale/it.md)
 ---
 
 # Draft Stretch/it
@@ -19,12 +19,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Stretch.svg  style="width:16px;"> Stira allunga un oggetto spostando alcuni dei suoi vertici selezionati. L\'azione equivalente è la modifica dell\'oggetto e lo spostamento manuale dei punti in una nuova posizione.
+Lo strumento <img alt="" src=images/Draft_Stretch.svg  style="width   *16px;"> Stira allunga un oggetto spostando alcuni dei suoi vertici selezionati. L\'azione equivalente è la modifica dell\'oggetto e lo spostamento manuale dei punti in una nuova posizione.
 
 
 </div>
 
-<img alt="" src=images/Draft_Stretch_Example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Stretch_Example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -38,7 +38,7 @@ Lo strumento <img alt="" src=images/Draft_Stretch.svg  style="width:16px;"> Stir
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -75,9 +75,9 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 
@@ -87,7 +87,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

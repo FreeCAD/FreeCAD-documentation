@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Треугольник
-   Name:Sketcher_CreateTriangle
-   MenuLocation:Sketch → Геометрия эскиза → Создать равносторонний треугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.15
+- GuiCommand   */ru
+   Name/ru   *Треугольник
+   Name   *Sketcher_CreateTriangle
+   MenuLocation   *Sketch → Геометрия эскиза → Создать равносторонний треугольник
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Version   *0.15
 ---
 
 # Sketcher CreateTriangle/ru
@@ -20,7 +20,7 @@
 
 ## Применение
 
-1.  Нажмите кнопку **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Треугольник](Sketcher_CreateTriangle/ru.md)**.
+1.  Нажмите кнопку **[<img src=images/Sketcher_CreateTriangle.svg style="width   *16px"> [Треугольник](Sketcher_CreateTriangle/ru.md)**.
 2.  Нажмите первый раз, чтобы задать центр.
 3.  Переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
 4.  Нажатие **Esc** или правой кнопки мыши закрывает функцию.

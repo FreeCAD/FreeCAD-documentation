@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Arch AxisSystem
-   MenuLocation:Arch → Axis tools → Axis System
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch Axis](Arch_Axis.md), [Arch Grid](Arch_Grid.md)
+- GuiCommand   *
+   Name   *Arch AxisSystem
+   MenuLocation   *Arch → Axis tools → Axis System
+   Workbenches   *[Arch](Arch_Workbench.md)
+   SeeAlso   *[Arch Axis](Arch_Axis.md), [Arch Grid](Arch_Grid.md)
 ---
 
 # Arch AxisSystem/pt-br
@@ -14,7 +14,7 @@ The [AxisSystem](Arch_AxisSystem.md) tool allows you to combine two or three [Ar
 
 This is useful to define the intersection points between the different axes. Arch objects can then use this system to duplicate their shape on the different intersection points.
 
-<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;"> 
+<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width   *600px;"> 
 *Three [Arch Axis](Arch_Axis.md) objects combined into one [Arch AxisSystem](Arch_AxisSystem.md). An [Arch Structure](Arch_Structure.md) object uses this system as its **Axis* property, to have its shape duplicated at each intersection point.**
 
 ## Utilização
@@ -33,18 +33,18 @@ This is useful to define the intersection points between the different axes. Arc
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The AxisSystem tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The AxisSystem tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 ```
 
 -   Creates an `AxisSystem` object from the given `axes`, which is a single [Arch Axis](Arch_Axis.md), or a list of them.
 
-Example: 
+Example   * 
 ```python
 import Draft, Arch
 

@@ -11,9 +11,9 @@ FreeCAD може да бъде инсталиран на Mac OS X само с е
 
 and the weekly build can be downloaded from
 
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
+<img alt="" src=images/Nightly.png  style="width   *30px;">[Weekly](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
 
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https   *//brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
 
 
 ```python
@@ -27,7 +27,7 @@ and to use the latest version available (0.19pre) on HomeBrew you may run
 brew install freecad
 ```
 
-If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
+If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https   *//github.com/FreeCAD/homebrew-freecad).
 
 Тази страница описва употребата на FreeCAD инсталаторът. Също включва инструкции за деинсталиране. След като инсталирате FreeCAD вижте страницата [първи стъпки](Getting_started/bg.md)!
 
@@ -45,9 +45,9 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 ### Деинсталация
 
-В момента няма деинсталатор на FreeCAD за Mac. За да махнете FreeCAD напълно, заедно с всички инсталирани компоненти, преместете следните файлове и директории в боклука:
+В момента няма деинсталатор на FreeCAD за Mac. За да махнете FreeCAD напълно, заедно с всички инсталирани компоненти, преместете следните файлове и директории в боклука   *
 
--   В /Applications:
+-   В /Applications   *
     -   FreeCAD
 
 

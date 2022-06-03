@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/tr
-   Name:Draft SelectGroup
-   Name/tr:Grup içeriğini seç
-   MenuLocation:Draft → Utilities → Select group
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:[Draft AddToGroup](Draft_AddToGroup/tr.md), [Std CreateGroup](Std_Group/tr.md)
+- GuiCommand   */tr
+   Name   *Draft SelectGroup
+   Name/tr   *Grup içeriğini seç
+   MenuLocation   *Draft → Utilities → Select group
+   Workbenches   *[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut   *
+   SeeAlso   *[Draft AddToGroup](Draft_AddToGroup/tr.md), [Std CreateGroup](Std_Group/tr.md)
 ---
 
 # Draft SelectGroup/tr
@@ -50,7 +50,7 @@ The command was revised in FreeCAD version 0.20 and this page describes that ver
 ## Bağlantılar
 
 -   [Belge yapısı](Document_structure/tr.md)
--   [Kendi modelinizi oluşturun](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
+-   [Kendi modelinizi oluşturun](http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
 
 
 </div>

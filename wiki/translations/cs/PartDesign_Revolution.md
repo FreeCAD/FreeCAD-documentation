@@ -1,6 +1,6 @@
 # PartDesign Revolution/cs
 ---
-- GuiCommand:/cs   Name:PartDesign_Revolution   Name/cs:Návrh dílu Obtáčení   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> Obtáčení---
+- GuiCommand   */cs   Name   *PartDesign_Revolution   Name/cs   *Návrh dílu Obtáčení   Workbenches   *[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation   *Návrh dílu -> Obtáčení---
 
 
 </div>
@@ -12,13 +12,13 @@
 
 ## Introduction
 
-This tool revolves a selected sketch or 2D object about a given axis. For all the following explanations of this command the example sketch below will be used: ![Example sketch: A complex sketch with many constraints. Sketch is oriented in the x-y plane, with x being the horizontal axis, and y being the vertical axis (shown in image as the two blue lines). Other important things to note about this sketch is that it are mirrored about the y axis and that the base of it is coincident with the x axis.](images/complex_sketch.png ) 
+This tool revolves a selected sketch or 2D object about a given axis. For all the following explanations of this command the example sketch below will be used   * ![Example sketch   * A complex sketch with many constraints. Sketch is oriented in the x-y plane, with x being the horizontal axis, and y being the vertical axis (shown in image as the two blue lines). Other important things to note about this sketch is that it are mirrored about the y axis and that the base of it is coincident with the x axis.](images/complex_sketch.png ) 
 
 
 </div>
 
 ![](images/PartDesign_Revolution_example.svg ) 
-*Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
+*Above   * sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
 
 ## Usage
 
@@ -32,7 +32,7 @@ This tool revolves a selected sketch or 2D object about a given axis. For all th
 
 <div class="mw-translate-fuzzy">
 
-Pro všechny následující výklady k tomuto příkazu bude využit níže uvedený příklad náčrtu: ![Náčrt pro příklad: Komplexní náčrt s mnoha vazbami. Náčrt je orientován v rovině X-Y, kde X je vodorovná osa a Y je svislá osa (v obrázku jsou zobrazeny jako dvě modré linky). Další důležité poznámky k náčrtu jsou, že je zrcadlen kolem osy Y a že jeho základ je shodný s osou X.](images/complex_sketch.png )
+Pro všechny následující výklady k tomuto příkazu bude využit níže uvedený příklad náčrtu   * ![Náčrt pro příklad   * Komplexní náčrt s mnoha vazbami. Náčrt je orientován v rovině X-Y, kde X je vodorovná osa a Y je svislá osa (v obrázku jsou zobrazeny jako dvě modré linky). Další důležité poznámky k náčrtu jsou, že je zrcadlen kolem osy Y a že jeho základ je shodný s osou X.](images/complex_sketch.png )
 
 ## Volby
 
@@ -58,7 +58,7 @@ Při vytváření obtáčeného objektu nabízí dialogové okno několik násle
 
 ## Příklady
 
-Poznámka: Všechny příklady odkazují na Základnu, Osu a Umístění, které mohou být upravovány v tabulce vlastností . ![Příklad obtáčení 1: Na tomto obrázku byl úhel nastaven na 70°, obtáčí se kolem osy X a je nastaveno odsazení na ose Y o 100mm. Plocha náčrtu není na obrázku zobrazena (tj. \'back\' plocha).](images/revolve3_cropped.png ) ![Příklad obtáčení 2: Na tomto obrázku byl úhel nastaven na 70°, obtáčí se kolem osy Y a je nastaveno odsazení na ose Y o 100mm.](images/revolve5_cropped.png ) ![Příklad obtáčení 3: Na tomto obrázku byl úhel nastaven na 270°, obtáčí se kolem osy X a je nastaveno odsazení na ose Y 0mm.](images/revolve7_cropped.png ) ![Příklad obtáčení 4: Na tomto obrázku byl úhel nastaven na 270°, obtáčí se kolem osy X (hodnota 1.00) a osy Y (hodnota 2.00) a je nastaveno odsazení na ose Y o 100mm.](images/revolve8_cropped.png ) 
+Poznámka   * Všechny příklady odkazují na Základnu, Osu a Umístění, které mohou být upravovány v tabulce vlastností . ![Příklad obtáčení 1   * Na tomto obrázku byl úhel nastaven na 70°, obtáčí se kolem osy X a je nastaveno odsazení na ose Y o 100mm. Plocha náčrtu není na obrázku zobrazena (tj. \'back\' plocha).](images/revolve3_cropped.png ) ![Příklad obtáčení 2   * Na tomto obrázku byl úhel nastaven na 70°, obtáčí se kolem osy Y a je nastaveno odsazení na ose Y o 100mm.](images/revolve5_cropped.png ) ![Příklad obtáčení 3   * Na tomto obrázku byl úhel nastaven na 270°, obtáčí se kolem osy X a je nastaveno odsazení na ose Y 0mm.](images/revolve7_cropped.png ) ![Příklad obtáčení 4   * Na tomto obrázku byl úhel nastaven na 270°, obtáčí se kolem osy X (hodnota 1.00) a osy Y (hodnota 2.00) a je nastaveno odsazení na ose Y o 100mm.](images/revolve8_cropped.png ) 
 
 
 </div>
@@ -68,12 +68,12 @@ Poznámka: Všechny příklady odkazují na Základnu, Osu a Umístění, které
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                                                                                    |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Vertical sketch axis**: selects the vertical sketch axis.                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Horizontal sketch axis**: selects the horizontal sketch axis.                                                                                                                                                                                                                                                                                                         |
-|                                                                                  | -   **Sketch axis**: v0.16 and below selects a construction line contained in the sketch used by the Revolution. The first construction line created in the sketch will be labelled *Sketch axis 0*. The drop down list will contain one custom sketch axis for each construction line.                |
-|                                                                                  | -   **Construction line**: v0.17 and above selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*.                 |
-|                                                                                  | -   **Base (X/Y/Z) axis**: v0.17 and above selects the X, Y or Z axis of the Body\'s Origin;                                                                                                                                                                                                          |
-|                                                                                  | -   **Select reference\...**: v0.17 and above allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                  |
+|                                                                                  | -   **Vertical sketch axis**   * selects the vertical sketch axis.                                                                                                                                                                                                                                                                                                             |
+|                                                                                  | -   **Horizontal sketch axis**   * selects the horizontal sketch axis.                                                                                                                                                                                                                                                                                                         |
+|                                                                                  | -   **Sketch axis**   * v0.16 and below selects a construction line contained in the sketch used by the Revolution. The first construction line created in the sketch will be labelled *Sketch axis 0*. The drop down list will contain one custom sketch axis for each construction line.                |
+|                                                                                  | -   **Construction line**   * v0.17 and above selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*.                 |
+|                                                                                  | -   **Base (X/Y/Z) axis**   * v0.17 and above selects the X, Y or Z axis of the Body\'s Origin;                                                                                                                                                                                                          |
+|                                                                                  | -   **Select reference\...**   * v0.17 and above allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                  |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | ### Angle                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
@@ -92,19 +92,19 @@ Poznámka: Všechny příklady odkazují na Základnu, Osu a Umístění, které
 
 Below are properties which can be defined after creation of the feature. Data properties *Base* and *Axis* are uneditable.
 
--    **Angle**: angle of rotation. See [Angle](#Angle.md).
+-    **Angle**   * angle of rotation. See [Angle](#Angle.md).
 
--    **Label**: label given to the operation, can be changed at convenience.
+-    **Label**   * label given to the operation, can be changed at convenience.
 
--    **Midplane**: true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
+-    **Midplane**   * true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
 
--    **Reversed**: true or false. See [Reversed](#Reversed.md).
+-    **Reversed**   * true or false. See [Reversed](#Reversed.md).
 
--    **Refine**: v0.17 and above true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    **Refine**   * v0.17 and above true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
 
 ## Examples
 
-![Example revolution using a construction line as the Revolution axis: In this image the angle is 75°, revolution is about the construction line (Sketch axis 0).](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg )
+![Example revolution using a construction line as the Revolution axis   * In this image the angle is 75°, revolution is about the construction line (Sketch axis 0).](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg )
 
 ## Useful links 
 
@@ -113,7 +113,7 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 ## Užitečné odkazy 
 
-[Příklad](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) na fóru.
+[Příklad](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3674) na fóru.
 
 
 </div>

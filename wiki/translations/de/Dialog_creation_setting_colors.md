@@ -3,14 +3,14 @@
 
 Dies ist ein Beispiel für [Dialogerstellung](Dialog_creation/de.md) mit [PySide](PySide/de.md).
 
-In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies für kleine Oberflächen möglich ist, wird für größere Oberflächen empfohlen, {{FileName|.ui}} Dateien mit Qt Designer zu erstellen und diese in das Programm zu laden.
+In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies für kleine Oberflächen möglich ist, wird für größere Oberflächen empfohlen, **.ui** Dateien mit Qt Designer zu erstellen und diese in das Programm zu laden.
 
 ## Benutze QColorDialog, um eine Farbe zu bekommen 
 
-Vollständiger Code: 
+Vollständiger Code   * 
 ```python
-# -*- coding: utf-8 -*-
-# https://deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/PySide/QtGui/QColor.html
+# -*- coding   * utf-8 -*-
+# https   *//deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/PySide/QtGui/QColor.html
 import PySide
 from PySide import QtGui ,QtCore
 from PySide.QtGui import *
@@ -18,10 +18,10 @@ from PySide.QtCore import *
 path = FreeCAD.ConfigGet("UserAppData")
 
 couleur = QtGui.QColorDialog.getColor()
-if couleur.isValid():
-    red   = int(str(couleur.name()[1:3]),16)    # decode hexadecimal to int()
-    green = int(str(couleur.name()[3:5]),16)    # decode hexadecimal to int()
-    blue  = int(str(couleur.name()[5:7]),16)    # decode hexadecimal to int()
+if couleur.isValid()   *
+    red   = int(str(couleur.name()[1   *3]),16)    # decode hexadecimal to int()
+    green = int(str(couleur.name()[3   *5]),16)    # decode hexadecimal to int()
+    blue  = int(str(couleur.name()[5   *7]),16)    # decode hexadecimal to int()
 
     print(couleur)                              # 
     print("hexadecimal ",couleur.name())        # color format hexadecimal mode 16
@@ -37,8 +37,8 @@ Dieses Beispiel ändert die Standardfarbe und die benutzerdefinierte Farbe mit d
 
 
 ```python
-# -*- coding: utf-8 -*-
-# https://deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/PySide/QtGui/QColor.html
+# -*- coding   * utf-8 -*-
+# https   *//deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/PySide/QtGui/QColor.html
 import PySide
 from PySide import QtGui ,QtCore
 from PySide.QtGui import *
@@ -47,25 +47,25 @@ from PySide.QtCore import *
 ###############################################
 ##        Window colors organisation         ##
 ##        __________________________         ##
-## StandardColor:                            ##
+## StandardColor   *                            ##
 ##                                           ##
-##           Colonnes:                       ##
-##           1:  2:  3:  4:  5:  6:  7:  8:  ##
+##           Colonnes   *                       ##
+##           1   *  2   *  3   *  4   *  5   *  6   *  7   *  8   *  ##
 ##          _______________________________  ##
-## Line 1:   0   6   12  18  24  30  36  42  ##
-## Line 2:   1   7   13  19  25  31  37  43  ##
-## Line 3:   2   8   14  20  26  32  38  44  ##
-## Line 4:   3   9   15  21  27  33  39  45  ##
-## Line 5:   4   10  16  22  28  34  40  46  ##
-## Line 6:   5   11  17  23  29  35  41  47  ##
+## Line 1   *   0   6   12  18  24  30  36  42  ##
+## Line 2   *   1   7   13  19  25  31  37  43  ##
+## Line 3   *   2   8   14  20  26  32  38  44  ##
+## Line 4   *   3   9   15  21  27  33  39  45  ##
+## Line 5   *   4   10  16  22  28  34  40  46  ##
+## Line 6   *   5   11  17  23  29  35  41  47  ##
 ##                                           ##
-## CustomColor:                              ##
+## CustomColor   *                              ##
 ##                                           ##
-##           Colonnes:                       ##
-##           1:  2:  3:  4:  5:  6:  7:  8:  ##
+##           Colonnes   *                       ##
+##           1   *  2   *  3   *  4   *  5   *  6   *  7   *  8   *  ##
 ##          _______________________________  ##
-## Line 1:   0   2   4   6   8   10  12  14  ##
-## Line 2:   1   3   5   7   9   11  13  15  ##
+## Line 1   *   0   2   4   6   8   10  12  14  ##
+## Line 2   *   1   3   5   7   9   11  13  15  ##
 ##                                           ##
 ###############################################
 
@@ -166,17 +166,17 @@ color_Dialog.setCustomColor(15,QtGui.QColor( int("28",16),int("00",16),int("00",
 
 Color = color_Dialog.getColor()                                   # Color.name() extract the color in Hexadecimal mode (#ad7fa8)
 
-if Color.isValid():
+if Color.isValid()   *
 
     print("__.name()___________")
     print("hexadecimal         ", Color.name())                   # color format hexadecimal mode 16
-    red   = int(str( Color.name()[1:3]),16 )                      # decode hexadecimal to int()
-    green = int(str( Color.name()[3:5]),16 )                      # decode hexadecimal to int()
-    blue  = int(str( Color.name()[5:7]),16 )                      # decode hexadecimal to int()
+    red   = int(str( Color.name()[1   *3]),16 )                      # decode hexadecimal to int()
+    green = int(str( Color.name()[3   *5]),16 )                      # decode hexadecimal to int()
+    blue  = int(str( Color.name()[5   *7]),16 )                      # decode hexadecimal to int()
 
-    print("Red   color decimal ", str( Color.name()[1:3]), red )  # color format hex to decimal
-    print("Green color decimal ", str( Color.name()[3:5]), green )# color format hex to decimal
-    print("Blue  color decimal ", str( Color.name()[5:7]), blue ) # color format hex to decimal
+    print("Red   color decimal ", str( Color.name()[1   *3]), red )  # color format hex to decimal
+    print("Green color decimal ", str( Color.name()[3   *5]), green )# color format hex to decimal
+    print("Blue  color decimal ", str( Color.name()[5   *7]), blue ) # color format hex to decimal
 
     print("__.red()____________")
     print("Red   color decimal ", Color.red() )                   # extract the color RGBa with Qt (0 to 255)
@@ -191,9 +191,14 @@ if Color.isValid():
     print("Alpha       float   ", Color.alphaF() )                # extract the color RGBa with Qt (0.0 to 1.0) as FreeCAD
     print("__enjoy_____________")
 
-else:
+else   *
     Color = ""
 ```
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

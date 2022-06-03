@@ -1,7 +1,7 @@
 # Object API/pl
-**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
+**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https   *//www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
 
-Jako parametryczne, obiekty dokumentów FreeCAD mogą mieć wiele dodatkowych właściwości, ale te są podstawowe, obecne w każdym obiekcie dokumentu FreeCAD. Obiekty mogą być wyszukiwane po prostu przez ich nazwę. Przykład: 
+Jako parametryczne, obiekty dokumentów FreeCAD mogą mieć wiele dodatkowych właściwości, ale te są podstawowe, obecne w każdym obiekcie dokumentu FreeCAD. Obiekty mogą być wyszukiwane po prostu przez ich nazwę. Przykład   * 
 ```python
 myObj = FreeCAD.ActiveDocument.myObjectName
 print myObj.PropertiesList
@@ -54,6 +54,11 @@ print myObj.PropertiesList
 
 
 {{APIFunction|touch| |Zaznacza obiekt jako zmieniony ''(dotknięty)''| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

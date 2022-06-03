@@ -1,7 +1,7 @@
 # Selection API/pl
-**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
+**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https   *//www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
 
-Moduł podrzędny wyboru jest częścią modułu FreeCADGui. Przykład: 
+Moduł podrzędny wyboru jest częścią modułu FreeCADGui. Przykład   * 
 ```python
 import FreeCADGui
 sel = FreeCADGui.Selection.getSelection()
@@ -24,6 +24,11 @@ sel = FreeCADGui.Selection.getSelection()
 
 
 {{APIFunction|removeSelection|FreeCAD.Object|Usuwa obiekt z zaznaczenia| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

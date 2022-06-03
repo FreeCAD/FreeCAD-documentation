@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Part JoinEmbed
-   Name/de:Part Einbetten
-   MenuLocation:Formteil → Verbinden → Objekt einbinden
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.16
-   SeeAlso:[Part Verbinden](Part_JoinConnect/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+- GuiCommand   */de
+   Name   *Part JoinEmbed
+   Name/de   *Part Einbetten
+   MenuLocation   *Formteil → Verbinden → Objekt einbinden
+   Workbenches   *[Part](Part_Workbench/de.md)
+   Version   *0.16
+   SeeAlso   *[Part Verbinden](Part_JoinConnect/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part JoinEmbed/de
@@ -28,19 +28,19 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 
 {{TitleProperty|Base}}
 
--    **Base**: Reference to base object (the one the other object is to be embedded into). The object should be a single solid.
+-    **Base**   * Reference to base object (the one the other object is to be embedded into). The object should be a single solid.
 
--    **Tool**: Reference to tool object (the object to be embedded). The object can be a single solid, or a [valid compound](Part_Compound.md) of solids.
+-    **Tool**   * Reference to tool object (the object to be embedded). The object can be a single solid, or a [valid compound](Part_Compound.md) of solids.
 
--    **Mode**: The mode of operation, equals \'Embed\' (Changing that will transform the tool into another Part\_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
+-    **Mode**   * The mode of operation, equals \'Embed\' (Changing that will transform the tool into another Part\_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
 
--    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
+-    **Refine**   * Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
 ## Beispiel
 
-1.  Erstelle ein Rohr durch anwenden einer [Dicke](Part_Thickness/de.md) auf einen [Zylinder](Part_Cylinder/de.md):
-    <img alt="" src=images/JoinFeatures_Example_step1.png  style="width:320px;">
-2.  Erstelle ein weiteres Rohr mit kleinerem Durchmesser und [positioniere](Placement/de.md) es so, dass es die Wand des ersten Rohres durchstößt:
+1.  Erstelle ein Rohr durch anwenden einer [Dicke](Part_Thickness/de.md) auf einen [Zylinder](Part_Cylinder/de.md)   *
+    <img alt="" src=images/JoinFeatures_Example_step1.png  style="width   *320px;">
+2.  Erstelle ein weiteres Rohr mit kleinerem Durchmesser und [positioniere](Placement/de.md) es so, dass es die Wand des ersten Rohres durchstößt   *
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Wähle das erste Rohr, dass das zweite (die Reihenfolge der Auswahl ist wichtig), und klicke die \'Objekt einbetten\'-Option aus den Verbinden-Werkzeugen in der Werkzeugleiste.
     ![320px](images/JoinFeatures_Example_step3_Embed.png)
@@ -53,7 +53,7 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 
 1\. Basisobjekt ist [boolesches Schneiden](Part_Cut/de.md) mit einem Tool-Objekt. Die entstandene Form ist ein Satz ([Verbund](Part_Compound/de.md)) von nicht überschneidenden Volumenkörpern (typischerweise zwei).
 
-2\. Der entstandene Verbund ist gefiltert: nur der größte Volumenkörper bleibt übrig.
+2\. Der entstandene Verbund ist gefiltert   * nur der größte Volumenkörper bleibt übrig.
 
 3\. Dieser größte Volumenkörper wird [verschmolzen](Part_Fuse/de.md) mit dem Werkzeug-Objekt.
 
@@ -70,7 +70,7 @@ Because the largest piece is determined by comparing volumes of pieces, the tool
 
 ## Skripten
 
-Die Verbinden-Werkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden:
+Die Verbinden-Werkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden   *
 
 
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
@@ -78,7 +78,7 @@ Die Verbinden-Werkzeuge können in [macros/de](macros/de.md) und von der Python-
 -   Creates an empty Embed feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
 -   Returns the newly created object.
 
-Beispiel:
+Beispiel   *
 
 
 {{code|code=
@@ -88,7 +88,7 @@ j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
-Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/JoinFeatures.py}} ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
+Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/JoinFeatures.py** ([GitHub link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
 
 
 

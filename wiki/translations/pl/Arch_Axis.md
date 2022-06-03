@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Arch Axis
-   MenuLocation:Arch → Axis tools → Axis
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**A** **X**
-   SeeAlso:[Arch AxisSystem](Arch_AxisSystem.md), [Arch Grid](Arch_Grid.md)
+- GuiCommand   *
+   Name   *Arch Axis
+   MenuLocation   *Arch → Axis tools → Axis
+   Workbenches   *[Arch](Arch_Workbench.md)
+   Shortcut   ***A** **X**
+   SeeAlso   *[Arch AxisSystem](Arch_AxisSystem.md), [Arch Grid](Arch_Grid.md)
 ---
 
 # Arch Axis/pl
@@ -13,7 +13,7 @@
 
 The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** tool allows you to place a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with **<img src="images/Arch_AxisSystem.svg" width=16px> [Arch AxisSystems](Arch_AxisSystem.md)**. They can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grids](Arch_Grid.md)** can also be used in places of axes.
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
+<img alt="" src=images/Arch_Axis_example.jpg  style="width   *600px;"> 
 *Two axes objects positioned perpendicularly to each other to create a grid*
 
 ## Usage
@@ -31,21 +31,21 @@ The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** to
 
 ## Properties
 
--    **Length**: The length of the axes
+-    **Length**   * The length of the axes
 
--    **Limit**: If greater than zero, each axis will be represented as two lines of the given length instead of one continuous line <small>(v0.20)</small> 
+-    **Limit**   * If greater than zero, each axis will be represented as two lines of the given length instead of one continuous line <small>(v0.20)</small> 
 
--    **Bubble Size**: The size of the axis bubbles
+-    **Bubble Size**   * The size of the axis bubbles
 
--    **Numeration style**: How the axes are numbered: 1,2,3, A,B,C, etc\...
+-    **Numeration style**   * How the axes are numbered   * 1,2,3, A,B,C, etc\...
 
--    **Bubble Position**: Where the bubble is placed on the axis: At start point, endpoint, both or none.
+-    **Bubble Position**   * Where the bubble is placed on the axis   * At start point, endpoint, both or none.
 
--    **Font Name**: A font to draw the bubble number and/or labels
+-    **Font Name**   * A font to draw the bubble number and/or labels
 
--    **Font Size**: The size of the label text only (bubble text is controlled by the bubble size)
+-    **Font Size**   * The size of the label text only (bubble text is controlled by the bubble size)
 
--    **Show Labels**: Turns the display of the label texts on/off
+-    **Show Labels**   * Turns the display of the label texts on/off
 
 ## Use as section mark 
 
@@ -54,18 +54,18 @@ By setting the **Bubble Position** property to **Arrow left/right** or **Bar lef
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Axis tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Axis tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```
 
 -   Creates an `Axes` object from the given number (`num`) of axes, and `size`, the interval between each axis.
 
-Example:
+Example   *
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std ViewRotateRight
-   MenuLocation:View → Standard views → Rotate Right
-   Workbenches:All
-   Shortcut:**Shift**+**Right**
-   SeeAlso:[Std ViewRotateLeft](Std_ViewRotateLeft.md)
+- GuiCommand   *
+   Name   *Std ViewRotateRight
+   MenuLocation   *View → Standard views → Rotate Right
+   Workbenches   *All
+   Shortcut   ***Shift**+**Right**
+   SeeAlso   *[Std ViewRotateLeft](Std_ViewRotateLeft.md)
 ---
 
 # Std ViewRotateRight/en
@@ -15,15 +15,15 @@ The **Std ViewRotateRight** command rotates the camera in the active [3D view](3
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Select the **View → Standard views → <img src="images/Std_ViewRotateRight.svg" width=16px> Rotate Right** option from the menu.
     -   Select the **Standard views → <img src="images/Std_ViewRotateRight.svg" width=16px> Rotate Right** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **Shift**+**Right**.
+    -   Use the keyboard shortcut   * **Shift**+**Right**.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

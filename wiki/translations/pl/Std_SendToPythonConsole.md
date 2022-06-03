@@ -1,47 +1,48 @@
 ---
 - GuiCommand   *
    Name   *Std SendToPythonConsole
-   MenuLocation   *Edit → Send to Python Console
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**Shift**+**P**
+   Name   *Std   * Wyślij do konsoli Python
+   MenuLocation   *Edycja → Wyślij do konsoli Python
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **Shift**+**P**
    Version   *0.19
 ---
 
 # Std SendToPythonConsole/pl
 
-## Description
+## Opis
 
-The **Std SendToPythonConsole** command creates variables in the [Python console](Python_console.md) referencing a selected object and its selected subshapes, along with some other useful references. The variables and the code involved can be used in the development of Python code.
+Polecenie **Wyślij do konsoli Pyton** tworzy w [Konsoli Python](Python_console/pl.md) zmienne odnoszące się do wybranego obiektu i jego wybranych kształtów podrzędnych, wraz z kilkoma innymi użytecznymi odniesieniami. Zmienne i związany z nimi kod mogą być wykorzystane podczas tworzenia kodu środowiska Python.
 
-Depending on the selected object and its selected subshapes, if any, the following variables are created   *
+W zależności od wybranego obiektu i jego wybranych kształtów podrzędnych, jeśli takie istnieją, tworzone są następujące zmienne   *
 
 +++
-| Variable name   | Referenced object(s)                                                                                                                                    |
-+=================+=========================================================================================================================================================+
-|  | The document containing the selected object                                                                                                             |
-| {{Incode|doc}}  |                                                                                                                                                         |
-|              |                                                                                                                                                         |
+| Nazwa zmiennej  | Obiekty, do których się odwołano                                                                                                                               |
++=================+================================================================================================================================================================+
+|  | Dokument zawierający wybrany obiekt                                                                                                                            |
+| {{Incode|doc}}  |                                                                                                                                                                |
+|              |                                                                                                                                                                |
 +++
-|  | The selected Link object (only created if the selected object is a Link)                                                                                |
-| {{Incode|lnk}}  |                                                                                                                                                         |
-|              |                                                                                                                                                         |
+|  | Wybrany obiekt odnośnika *(tworzony tylko wtedy, gdy wybrany obiekt jest odnośnikiem)*                                                                         |
+| {{Incode|lnk}}  |                                                                                                                                                                |
+|              |                                                                                                                                                                |
 +++
-|  | Depending on the selected object   *                                                                                                                       |
-| {{Incode|obj}}  | The selected object itself (if the selected object is not a Link)                                                                                       |
-|              | The Linked object (if the selected object is a Link)                                                                                                    |
+|  | W zależności od wybranego obiektu   *                                                                                                                             |
+| {{Incode|obj}}  | Sam zaznaczony obiekt *(jeśli zaznaczony obiekt nie jest odnośnikiem)*                                                                                         |
+|              | Obiekt powiązany *(jeśli wybrany obiekt jest odnośnikiem)*                                                                                                     |
 +++
-|  | Depending on the type of {{Incode|obj}}   *                                                                                                  |
-| {{Incode|shp}}  | The {{Incode|Shape}} property of {{Incode|obj}} (for objects derived from the {{Incode|Part   *   *Feature}} class) |
-|              | The {{Incode|Mesh}} property of {{Incode|obj}} (for Mesh objects)                                                           |
-|                 | The {{Incode|Points}} property of {{Incode|obj}} (for Points objects)                                                       |
+|  | W zależności od typu {{Incode|obj}}   *                                                                                                             |
+| {{Incode|shp}}  | Właściwość {{Incode|Shape}} obiektu {{Incode|obj}} *(dla obiektów wywodzących się z klasy {{Incode|Part   *   *Feature}})* |
+|              | Właściwość {{Incode|Mesh}} obiektu {{Incode|obj}} *(dla obiektów typu Mesh)*                                                       |
+|                 | Właściwość {{Incode|Points}} obiektu {{Incode|obj}} *(dla obiektów Points)*                                                        |
 +++
-|  | The first selected subshape (only created if at least one subshape is selected)                                                                         |
-| {{Incode|sub}}  |                                                                                                                                                         |
-|              |                                                                                                                                                         |
+|  | Pierwszy wybrany kształt podrzędny *(tworzony tylko wtedy, gdy wybrany jest co najmniej jeden kształt podrzędny)*                                              |
+| {{Incode|sub}}  |                                                                                                                                                                |
+|              |                                                                                                                                                                |
 +++
-|  | A list containing all subshapes (only created if two or more subshapes are selected)                                                                    |
-| {{Incode|subs}} |                                                                                                                                                         |
-|              |                                                                                                                                                         |
+|  | Lista zawierająca wszystkie kształty podrzędne *(tworzona tylko w przypadku wybrania dwóch lub więcej kształtów podrzędnych)*                                  |
+| {{Incode|subs}} |                                                                                                                                                                |
+|              |                                                                                                                                                                |
 +++
 
 >>> ### Begin command Std_SendToPythonConsole
@@ -60,23 +61,23 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 
 
-*Example output   * an edge, a face, and a vertex of a [Link](Std_LinkMake.md) to a [Part Box](Part_Box.md) were selected*
+*Przykładowe dane wyjściowe   * wybrano krawędź, ścianę i wierzchołek [łącza](Std_LinkMake/pl.md) do [sześcianu](Part_Box/pl.md).*
 
-## Usage
+## Użycie
 
-1.  Select a single object or one or more subshapes belonging to a single object.
-2.  There are several ways to invoke the command   *
-    -   Select the **Edit → <img src="images/Std_SendToPythonConsole.svg" width=16px> Send to Python Console** option from the menu.
-    -   Select the **<img src="images/Std_SendToPythonConsole.svg" width=16px> Send to Python Console** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**Shift**+**P**.
-3.  If required the [Python console](Python_console.md) opens.
-4.  The [Python console](Python_console.md) receives the keyboard focus.
+1.  Wybierz pojedynczy obiekt albo jeden lub więcej kształtów podrzędnych należących do pojedynczego obiektu.
+2.  Polecenie można wywołać na kilka sposobów   *
+    -   Wybierz opcję **Edycja → <img src="images/Std_SendToPythonConsole.svg" width=16px> Wyślij do konsoli Python** z menu.
+    -   Wybierz opcję **<img src="images/Std_SendToPythonConsole.svg" width=16px> Wyślij do konsoli Python** z menu kontekstowego okna [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **Shift** + **P**.
+3.  W razie potrzeby otwiera się [Konsola Pythona](Python_console/pl.md).
+4.  [Konsola Python](Python_console/pl.md) zostaje przekierowana na klawiaturę.
 
-## Notes
+## Uwagi
 
--   All previously created variables are deleted each time the command is run.
+-   Wszystkie wcześniej utworzone zmienne są usuwane po każdym uruchomieniu polecenia.
 
--   If the selected object is a Link ({{Incode|App   *   *Link}}) and the Linked object is derived from the {{Incode|Part   *   *Feature}} class, the {{Incode|shp}} variable will be the shape of the Linked object. If the Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code   *
+-   Jeśli zaznaczony obiekt jest Łączem *({{Incode|App   *   *Link}})*, a Obiekt połączony pochodzi z klasy {{Incode|Part   *   *Feature}}, zmienna {{Incode|shp}} będzie kształtem obiektu połączonego. Jeśli odnośnik został przekształcony lub przeskalowany i chcesz uzyskać dostęp do przeskalowanego/przekształconego kształtu, możesz to zrobić za pomocą tego kodu   *
 
    *   
     

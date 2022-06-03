@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Sketcher NewSketch
-   MenuLocation:Sketch → Create sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   SeeAlso:[PartDesign NewSketch](PartDesign_NewSketch.md), [Sketcher MapSketch](Sketcher_MapSketch.md), [Sketcher Reorient](Sketcher_ReorientSketch.md)
+- GuiCommand   *
+   Name   *Sketcher NewSketch
+   MenuLocation   *Sketch → Create sketch
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   SeeAlso   *[PartDesign NewSketch](PartDesign_NewSketch.md), [Sketcher MapSketch](Sketcher_MapSketch.md), [Sketcher Reorient](Sketcher_ReorientSketch.md)
 ---
 
 # Sketcher NewSketch
@@ -12,7 +12,7 @@
 
 This will create a new [sketch](Sketcher_Workbench.md).
 
-Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
+Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
 
 ## Usage
 

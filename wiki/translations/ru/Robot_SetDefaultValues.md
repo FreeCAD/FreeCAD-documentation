@@ -1,10 +1,10 @@
 # Robot SetDefaultValues/ru
 ---
-- GuiCommand:/ru
-   Name:Robot SetDefaultValues
-   Name/ru:Robot SetDefaultValues
-   Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Робот → Установка значений по умолчанию---
+- GuiCommand   */ru
+   Name   *Robot SetDefaultValues
+   Name/ru   *Robot SetDefaultValues
+   Workbenches   *[Robot](Robot_Workbench/ru.md)
+   MenuLocation   *Робот → Установка значений по умолчанию---
 
 
 </div>
@@ -21,13 +21,13 @@
 
 #### Использование
 
-1.  Выберите в верхнем меню **Робот** → **<img src="images/Robot_SetDefaultValues.svg" width=32px>Установка значений по умолчанию**, чтобы установить:
+1.  Выберите в верхнем меню **Робот** → **<img src="images/Robot_SetDefaultValues.svg" width=32px>Установка значений по умолчанию**, чтобы установить   *
 
-:   
+   *   
 
-    :   \*скорость
-    :   \*продолжительность (режим)
-    :   \*ускорение
+       *   \*скорость
+       *   \*продолжительность (режим)
+       *   \*ускорение
 
 
 <div class="mw-translate-fuzzy">

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Part Chamfer
-   Name/de:Part Fase
-   MenuLocation:Formteil → Fase...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Verrundung](Part_Fillet/de.md)
+- GuiCommand   */de
+   Name   *Part Chamfer
+   Name/de   *Part Fase
+   MenuLocation   *Formteil → Fase...
+   Workbenches   *[Part](Part_Workbench/de.md)
+   SeeAlso   *[Part Verrundung](Part_Fillet/de.md)
 ---
 
 # Part Chamfer/de
@@ -17,7 +17,7 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
     -   Die Schaltfläche **<img src="images/Part_Chamfer.svg" width=16px> Abschrägung...** drücken.
     -   Den Menüeintrag **Formteil → Abschrägung...** auswählen.
 2.  Wähle die anzufasende Form aus dem Dialogfeld aus.
@@ -41,33 +41,33 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 {{Properties_Title/de|Basis}}
 
--    {{PropertyData/de|Basis}}: Die Form, auf die die Fase aufgebracht werden soll.
+-    {{PropertyData/de|Basis}}   * Die Form, auf die die Fase aufgebracht werden soll.
 
--    {{PropertyData/de|Placement}}: Gibt die Ausrichtung und Lage der Form im 3D Raum an.
+-    {{PropertyData/de|Placement}}   * Gibt die Ausrichtung und Lage der Form im 3D Raum an.
 
--    {{PropertyData/de|Kennzeichen}}: Beschriftung des Objekts. Passe sie deinen Bedürfnissen an.
+-    {{PropertyData/de|Kennzeichen}}   * Beschriftung des Objekts. Passe sie deinen Bedürfnissen an.
 
 
 
 
 ## Einschränkungen
 
-Die Fase könnte nichts ausrichten, wenn das Ergebnis die nächste angrenzende Kante berühren oder überqueren würde. Wenn du also nicht das erwartete Ergebnis erhälst, versuche es mit einem kleineren Wert. Dies gilt auch für <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md).
+Die Fase könnte nichts ausrichten, wenn das Ergebnis die nächste angrenzende Kante berühren oder überqueren würde. Wenn du also nicht das erwartete Ergebnis erhälst, versuche es mit einem kleineren Wert. Dies gilt auch für <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Part Verrundung](Part_Fillet/de.md).
 
-Beachte auch, dass die Fasenfunktion von dem [Topologischen Benennungsproblem](Topological_naming_problem/de.md) betroffen ist, wenn die Änderung in einem Modellierungsschritt vorgenommen wird, der früher in der Kette liegt und die Anzahl der Facetten oder Eckpunkte beeinflusst. Dies kann zu unvorhersehbaren Ergebnissen führen. Bis dies gelöst ist (möglicherweise mit V0.20), wird empfohlen, die Operationen Fase und <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md) auf die letzten Schritte in der Kette anzuwenden.
+Beachte auch, dass die Fasenfunktion von dem [Topologischen Benennungsproblem](Topological_naming_problem/de.md) betroffen ist, wenn die Änderung in einem Modellierungsschritt vorgenommen wird, der früher in der Kette liegt und die Anzahl der Facetten oder Eckpunkte beeinflusst. Dies kann zu unvorhersehbaren Ergebnissen führen. Bis dies gelöst ist (möglicherweise mit V0.20), wird empfohlen, die Operationen Fase und <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Part Verrundung](Part_Fillet/de.md) auf die letzten Schritte in der Kette anzuwenden.
 
 ## Skripten
 
 Das Fasenwerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus verwendet werden, indem dem Dokument ein Fasenobjekt hinzugefügt wird.
 
-**Beispiel Skript:**
+**Beispiel Skript   ***
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
-chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
 chmfr.Base = FreeCAD.ActiveDocument.myCube
 myEdges = []
 myEdges.append((1, 1.5, 1.25)) # (edge number, chamfer start length, chamfer end length)
@@ -87,12 +87,12 @@ FreeCADGui.ActiveDocument.myCube.Visibility = False
 FreeCAD.ActiveDocument.recompute()
 ```
 
-**Beispiel Skript Erklärung:**
+**Beispiel Skript Erklärung   ***
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
@@ -100,7 +100,7 @@ cube.Shape = Part.makeBox(5, 5, 5)
 
 
 ```python
-chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
 ```
 
 -   Fügt ein neues Objekt dem Dokument vom Typ Fase (aus dem Part Arbeitsbereich) mit der Bezeichnung \"myChamfer\" hinzu.

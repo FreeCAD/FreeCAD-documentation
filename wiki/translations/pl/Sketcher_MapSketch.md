@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:Sketcher_MapSketch
-   Name/pl:Szkicownik: Mapuj Szkic
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   MenuLocation:Projekt części / Szkicownik → Mapuj szkic na powierzchnię
-   SeeAlso:[Utwórz szkic](Sketcher_NewSketch/pl.md)
+- GuiCommand   */pl
+   Name   *Sketcher_MapSketch
+   Name/pl   *Szkicownik   * Mapuj Szkic
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
+   MenuLocation   *Projekt części / Szkicownik → Mapuj szkic na powierzchnię
+   SeeAlso   *[Utwórz szkic](Sketcher_NewSketch/pl.md)
 ---
 
 # Sketcher MapSketch/pl
@@ -13,13 +13,13 @@
 
 To narzędzie mapuje istniejący szkic na powierzchni kształtu. Cechy Part Design stworzone na podstawie tego szkicu zostaną połączone z bryłą podstawową w przypadku cech dodatkowych *(Pad, Revolution)* lub odjęte od bryły podstawowej w przypadku cech odejmowanych *(Pocket, Groove)*.
 
-Proszę zauważyć, że narzędzie to nie jest używane do tworzenia nowych szkiców. Mapuje ono jedynie lub przekształca istniejący szkic na powierzchnię bryły lub funkcji Part Design. Typowe przypadki użycia to:
+Proszę zauważyć, że narzędzie to nie jest używane do tworzenia nowych szkiców. Mapuje ono jedynie lub przekształca istniejący szkic na powierzchnię bryły lub funkcji Part Design. Typowe przypadki użycia to   *
 
 -   Szkic został stworzony na standardowej płaszczyźnie *(XY, XZ, YZ)* i chcesz go odwzorować na powierzchni bryły, aby zbudować na niej obiekt.
 -   Szkic został zmapowany na konkretnej powierzchni bryły, ale trzeba go zmapować na innej powierzchni.
 -   Naprawiając zepsuty model.
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
 
 ## Użycie
 
@@ -28,7 +28,7 @@ Proszę zauważyć, że narzędzie to nie jest używane do tworzenia nowych szki
 
 ## Stosować przy naprawie uszkodzonego modelu 
 
-Funkcja Sketcher: MapSketch jest często używana przy naprawie uszkodzonego modelu.
+Funkcja Sketcher   * MapSketch jest często używana przy naprawie uszkodzonego modelu.
 
 Jednym z częstych przypadków zastosowania jest przerwanie wykresu zależności. *(Możesz zobaczyć wykres zależności przez **Narzędzia** → **[Wykres zależności](Std_DependencyGraph/pl.md)**)*. Może się to zdarzyć, gdy usuniesz element na środku drzewa modelu. W poniższym przykładzie uszkodzimy i naprawimy model.
 

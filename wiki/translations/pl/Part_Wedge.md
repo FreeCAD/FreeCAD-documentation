@@ -1,18 +1,18 @@
 ---
-- GuiCommand:
-   Name:Part Wedge
-   MenuLocation:Part → [Create primitives](Part_Primitives.md) → Wedge
-   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+- GuiCommand   *
+   Name   *Part Wedge
+   MenuLocation   *Part → [Create primitives](Part_Primitives.md) → Wedge
+   Workbenches   *[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso   *[Part Primitives](Part_Primitives.md)
 ---
 
 # Part Wedge/pl
 
 ## Description
 
-A <img alt="" src=images/Part_Wedge.svg  style="width:24px;"> **Part Wedge** is a parametric solid that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives.md) command. It has four to six planar faces. It is defined by virtual front and rear main planes on which a rectangular face (the default), a single straight edge or a single vertex is created. These base shapes define the four quadrilateral or triangular faces that connect them. The resulting solid is only a true wedge if one of the base shapes is a rectangular face and the other a straight edge. In the coordinate system defined by its **Placement** property, the virtual front and rear main planes of the wedge are plane-parallel to XZ plane, and the edges of the base shapes are parallel to the X or Z axis. All its coordinates are relative to that coordinate system.
+A <img alt="" src=images/Part_Wedge.svg  style="width   *24px;"> **Part Wedge** is a parametric solid that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width   *24px;"> [Part Primitives](Part_Primitives.md) command. It has four to six planar faces. It is defined by virtual front and rear main planes on which a rectangular face (the default), a single straight edge or a single vertex is created. These base shapes define the four quadrilateral or triangular faces that connect them. The resulting solid is only a true wedge if one of the base shapes is a rectangular face and the other a straight edge. In the coordinate system defined by its **Placement** property, the virtual front and rear main planes of the wedge are plane-parallel to XZ plane, and the edges of the base shapes are parallel to the X or Z axis. All its coordinates are relative to that coordinate system.
 
-<img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
+<img alt="" src=images/Part_Wedge_Example.png  style="width   *400px;">
 
 ## Usage
 
@@ -30,9 +30,9 @@ A Part Wedge object created with the [scripting example](#Scripting.md) below is
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -44,41 +44,41 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Wedge}}
 
--    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Xmin|Distance**   * The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Ymin|Distance**   * The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Zmin|Distance**   * The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+-    **X2min|Distance**   * The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
 
--    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+-    **Z2min|Distance**   * The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
 
--    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+-    **Xmax|Distance**   * The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
 
--    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
+-    **Ymax|Distance**   * The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
 
--    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+-    **Zmax|Distance**   * The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
 
--    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+-    **X2max|Distance**   * The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
 
--    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+-    **Z2max|Distance**   * The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
+A Part Wedge can be created with the {{Incode|addObject()}} method of the document   *
 
 
 ```python
-wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
+wedge = FreeCAD.ActiveDocument.addObject("Part   *   *Wedge", "myWedge")
 ```
 
 -   Where {{Incode|"myWedge"}} is the name for the object.
 -   The function returns the newly created object.
 
-Example:
+Example   *
 
 
 ```python
@@ -86,7 +86,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-wedge = doc.addObject("Part::Wedge", "myWedge")
+wedge = doc.addObject("Part   *   *Wedge", "myWedge")
 wedge.Xmin = 1
 wedge.Ymin = 2
 wedge.Zmin = 3

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:Sketcher Arcs
-   Name/pl:Szkicownik: Utwórz łuk w szkicowniku
-   MenuLocation:Brak ''(tylko pasek narzędzi)''
-   Icon:Sketcher_CompCreateArc.png
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+- GuiCommand   */pl
+   Name   *Sketcher Arcs
+   Name/pl   *Szkicownik   * Utwórz łuk w szkicowniku
+   MenuLocation   *Brak ''(tylko pasek narzędzi)''
+   Icon   *Sketcher_CompCreateArc.png
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher CompCreateArc/pl
@@ -15,8 +15,8 @@
 
 ## Dostępne metody dla łuków 
 
--   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Punkt środkowy i punkty końcowe](Sketcher_CreateArc/pl.md): Rysuje łuk, wybierając trzy punkty: środek, punkt początkowy wzdłuż promienia i punkt końcowy łuku.
--   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Punkty końcowe i punkt na obwodzie](Sketcher_Create3PointArc/pl.md): Rysuje łuk, wybierając trzy punkty: punkt początkowy, punkt końcowy i punkt na łuku.
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width   *32px;"> [Punkt środkowy i punkty końcowe](Sketcher_CreateArc/pl.md)   * Rysuje łuk, wybierając trzy punkty   * środek, punkt początkowy wzdłuż promienia i punkt końcowy łuku.
+-   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width   *32px;"> [Punkty końcowe i punkt na obwodzie](Sketcher_Create3PointArc/pl.md)   * Rysuje łuk, wybierając trzy punkty   * punkt początkowy, punkt końcowy i punkt na łuku.
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw ToggleFrame
-   Name/fr:TechDraw Bascule des cadres
-   MenuLocation:TechDraw → Activer ou désactiver les cadres de vues
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw ToggleFrame
+   Name/fr   *TechDraw Bascule des cadres
+   MenuLocation   *TechDraw → Activer ou désactiver les cadres de vues
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso   *[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw ToggleFrame/fr
@@ -13,7 +13,7 @@
 
 L\'outil Basculer l\'affichage des cadres active ou désactive l\'affichage des cadres de vue, des étiquettes et des sommets.
 
-<img alt="" src=images/TechDraw_ToggleFrame.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_ToggleFrame.png  style="width   *400px;"> 
 *Vue de la projection solide avec les cadres activés et désactivés*
 
 ## Utilisation
@@ -35,7 +35,7 @@ Vous pouvez ajuster la taille des points de sommet dans l\'onglet [TechDraw Pré
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 

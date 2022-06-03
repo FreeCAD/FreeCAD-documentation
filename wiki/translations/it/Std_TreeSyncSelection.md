@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Std_TreeSyncSelection
-   Name/it:Sincronizza la selezione
-   MenuLocation:Visualizza → Azioni della vista ad albero → Sincronizza la selezione
-   Workbenches:Tutti
-   Shortcut:**T** **2**
+- GuiCommand   */it
+   Name   *Std_TreeSyncSelection
+   Name/it   *Sincronizza la selezione
+   MenuLocation   *Visualizza → Azioni della vista ad albero → Sincronizza la selezione
+   Workbenches   *Tutti
+   Shortcut   ***T** **2**
 ---
 
 # Std TreeSyncSelection/it
@@ -18,14 +18,14 @@ Il comando **Sincronizza la selezione** attiva o disattiva la modalità SyncSele
 
 ## Utilizzo
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Sync selection** option from the flyout. Note: the button image will change depending on the selected option.
+1.  There are several ways to invoke the command   *
+    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Sync selection** option from the flyout. Note   * the button image will change depending on the selected option.
     -   Select the **View → TreeView actions → <img src="images/Std_TreeSyncSelection.svg" width=16px> Sync selection** option from the menu.
-    -   Use the keyboard shortcut: **T** then **2**.
+    -   Use the keyboard shortcut   * **T** then **2**.
 
 ## Preferenze
 
-The Tree view SyncSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md): **Edit→ Preferences → General → Selection**.
+The Tree view SyncSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md)   * **Edit→ Preferences → General → Selection**.
 
 
 <div class="mw-translate-fuzzy">

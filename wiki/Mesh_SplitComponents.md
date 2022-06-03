@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Mesh SplitComponents
-   MenuLocation:Meshes → Split by components
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Merge](Mesh_Merge.md)
+- GuiCommand   *
+   Name   *Mesh SplitComponents
+   MenuLocation   *Meshes → Split by components
+   Workbenches   *[Mesh](Mesh_Workbench.md)
+   SeeAlso   *[Mesh Merge](Mesh_Merge.md)
 ---
 
 # Mesh SplitComponents
@@ -15,13 +15,13 @@ The **Mesh SplitComponents** command splits a mesh object into its components. A
 ## Usage
 
 1.  Select a single mesh object.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Mesh_SplitComponents.svg" width=16px> [Mesh SplitComponents](Mesh_SplitComponents.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_SplitComponents.svg" width=16px> Split by components** option from the menu.
 
 ## Properties
 
-See: [Mesh Feature](Mesh_Feature.md).
+See   * [Mesh Feature](Mesh_Feature.md).
 
 
 

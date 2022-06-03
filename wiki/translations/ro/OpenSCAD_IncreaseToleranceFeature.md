@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:OpenSCAD IncreaseTolerance‏‎Feature
-   MenuLocation:OpenSCAD → Increase Tolerance Feature‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   *
+   Name   *OpenSCAD IncreaseTolerance‏‎Feature
+   MenuLocation   *OpenSCAD → Increase Tolerance Feature‏‎
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # OpenSCAD IncreaseToleranceFeature/ro

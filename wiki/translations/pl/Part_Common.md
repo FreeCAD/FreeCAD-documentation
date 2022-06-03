@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:Part Common
-   Name/pl:Part: Utwórz iloczyn
-   MenuLocation:Część → Logiczne → Część wspólna
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Utwórz sumę ...](Part_Union/pl.md), [Utwórz różnicę ...](Part_Cut/pl.md)
+- GuiCommand   */pl
+   Name   *Part Common
+   Name/pl   *Part   * Utwórz iloczyn
+   MenuLocation   *Część → Logiczne → Część wspólna
+   Workbenches   *[Część](Part_Workbench/pl.md)
+   SeeAlso   *[Utwórz sumę ...](Part_Union/pl.md), [Utwórz różnicę ...](Part_Cut/pl.md)
 ---
 
 # Part Common/pl
@@ -20,7 +20,7 @@ Wydobywa część wspólną *(przecięcie)* pomiędzy wybranymi obiektami Part. 
 
 ## Obsługiwane dane wejściowe 
 
-Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Przykłady: obiekty wykonane z użyciem Środowisk pracy Część, Projekt części, Szkicownik. Nie mogą to być siatki *(chyba że zostały zamienione na kształty)* - dla siatek, w środowisku pracy Siatka istnieją specyficzne narzędzia do przeprowadzania operacji logicznych.
+Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Przykłady   * obiekty wykonane z użyciem Środowisk pracy Część, Projekt części, Szkicownik. Nie mogą to być siatki *(chyba że zostały zamienione na kształty)* - dla siatek, w środowisku pracy Siatka istnieją specyficzne narzędzia do przeprowadzania operacji logicznych.
 
 
 

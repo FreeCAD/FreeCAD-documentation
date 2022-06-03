@@ -6,6 +6,8 @@ To jest **główna kategoria**\', która zawiera główne kategorie FreeCAD wiki
 -   wszystkie *kategorie*, które nie zostały *sklasyfikowane*, użyj [lista kategorii niesklasyfikowanych](Special_Uncategorizedcategories.md).
 -   wszystkie *obrazy*, które nie są *skategoryzowane*, użyj [lista obrazów bez kategorii](Special_Uncategorizedimages.md).
 
+[Category   *Categories/pl](Category   *Categories/pl.md)
+
 ### Contents
 
 |     |     |     |

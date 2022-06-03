@@ -7,8 +7,8 @@
 |Version=1.0
 |Date=2015-01-17
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/d/d0/Macro_Toggle_Views_Visibility.png Toolbar icon]
-|SeeAlso=[https://forum.freecadweb.org/viewtopic.php?f=22&t=30450&hilit=Toggle_Panels Toggle_Panels]
+|Download=[https   *//www.freecadweb.org/wiki/images/d/d0/Macro_Toggle_Views_Visibility.png Toolbar icon]
+|SeeAlso=[https   *//forum.freecadweb.org/viewtopic.php?f=22&t=30450&hilit=Toggle_Panels Toggle_Panels]
 }}
 
 ## Description
@@ -38,24 +38,24 @@ There is immediate confirmation of the user action as the supporting windows eit
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # macro to toggle visibility of Report view, Python console, Combo view
 from PySide import QtCore, QtGui
 mainWindow = FreeCADGui.getMainWindow()
 dockWidgets = mainWindow.findChildren(QtGui.QDockWidget)
-for dw in dockWidgets:
-    if dw.objectName() == "Python console":
+for dw in dockWidgets   *
+    if dw.objectName() == "Python console"   *
         pcWidget = dw
-    if dw.objectName() == "Combo View":
+    if dw.objectName() == "Combo View"   *
         cvWidget = dw
-    if dw.objectName() == "Report view":
+    if dw.objectName() == "Report view"   *
         rvWidget = dw
      
-if pcWidget.isVisible():
+if pcWidget.isVisible()   *
     pcWidget.hide()
     cvWidget.hide()
     rvWidget.hide()
-else:
+else   *
     pcWidget.show()
     cvWidget.show()
     rvWidget.show()

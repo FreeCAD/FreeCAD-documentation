@@ -17,14 +17,14 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 ## Selecting a navigation style 
 
-1.  Do one of the following:
-    -   Press the **[<img src=images/NavigationCAD_dark.svg style="width:16px">** button in the [Status bar](Status_bar.md).
+1.  Do one of the following   *
+    -   Press the **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** button in the [Status bar](Status_bar.md).
     -   Right-click an empty area in the [3D view](3D_view.md), and select **Navigation styles** from the context menu.
     -   Use the [Preferences Editor](Preferences_Editor#Navigation.md). In the menu select **Edit → Preferences** and then **Display → Navigation → 3D Navigation**.
 2.  Select a style from the list.
-3.  Optionally change the **Orbit style**: press the **[<img src=images/NavigationCAD_dark.svg style="width:16px">** button in the [Status bar](Status_bar.md) and then choose **Settings → Orbit style**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+3.  Optionally change the **Orbit style**   * press the **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** button in the [Status bar](Status_bar.md) and then choose **Settings → Orbit style**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 4.  Optionally change the **Rotation mode**. See [Preferences Editor](Preferences_Editor#Navigation.md).
-5.  If the **CAD** navigation style is selected: optionally change the **Enable animation** setting. See [Preferences Editor](Preferences_Editor#Navigation.md).
+5.  If the **CAD** navigation style is selected   * optionally change the **Enable animation** setting. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
 ## Available navigation styles 
 
@@ -36,12 +36,12 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 </div>
 
-The Blender navigation style was modeled after [Blender](https://www.blender.org).
+The Blender navigation style was modeled after [Blender](https   *//www.blender.org).
 
 
 <div class="mw-translate-fuzzy">
 
-The Blender Navigation was modeled after [Blender](http://www.blender.org). Previously there was no mouse-only panning, and it required use of the **SHIFT** key to pan the view. This changed in 2016 with a feature-addition. In order to pan the view, you can now press both left and right mouse buttons and drag in the view. {{Blender Navigation
+The Blender Navigation was modeled after [Blender](http   *//www.blender.org). Previously there was no mouse-only panning, and it required use of the **SHIFT** key to pan the view. This changed in 2016 with a feature-addition. In order to pan the view, you can now press both left and right mouse buttons and drag in the view. {{Blender Navigation
 |Select_name=Select
 |Pan_name=Pan
 |Zoom_name=Zoom
@@ -82,17 +82,17 @@ This is the default navigation style and allows the user a simple control of the
 
 Holding down **Ctrl** allows the selection of multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
+|Pan_mode_text=Pan mode   * hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
 Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
+|Zoom_mode_text=Zoom mode   * hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
 |Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
 
 The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues [[spinning]], if this is enabled.
 
 A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
+|Rotate_view_mode_text=Rotate mode   * hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
 |Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 
 With this method the middle mouse button may be released after the right mouse button is held pressed.
@@ -116,17 +116,17 @@ Users who use the mouse with their right hand may find this method easier than t
 
 Hold down **Ctrl** to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer.
+|Pan_mode_text=Pan mode   * hold the **Ctrl** key, press the right mouse button once, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
 Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer.
+|Zoom_mode_text=Zoom mode   * hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer.
 |Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
 
 If the buttons are released before you stop the mouse motion, the view continues spinning, if this is enabled.
 
 A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer.
+|Rotate_view_mode_text=Rotate mode   * hold the **Shift** key, press the right mouse button once, then move the pointer.
 |Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 
 With this method the middle mouse button may be released after the right mouse button is held pressed.
@@ -219,7 +219,7 @@ Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold
 
 ### OpenCascade navigation 
 
-The OpenCascade navigation style was modeled after [OpenCascade](https://www.opencascade.com/).
+The OpenCascade navigation style was modeled after [OpenCascade](https   *//www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -243,7 +243,7 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ### OpenInventor Navigation 
 
-In OpenInventor (formerly Inventor) Navigation, modeled after [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) (not to be confused with Autodesk Inventor), there is no mouse-only selection. In order to select objects, you must hold down the **CTRL** key. {{OpenInventor Navigation
+In OpenInventor (formerly Inventor) Navigation, modeled after [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor) (not to be confused with Autodesk Inventor), there is no mouse-only selection. In order to select objects, you must hold down the **CTRL** key. {{OpenInventor Navigation
 |Select_name=Select
 |Pan_name=Pan
 |Zoom_name=Zoom
@@ -281,7 +281,7 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 
 ### OpenSCAD navigation 
 
-The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
+The OpenSCAD navigation style was modeled after [OpenSCAD](https   *//openscad.org/).
 
 
 <small>(v0.20)</small> 
@@ -302,7 +302,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 
 ### Revit navigation 
 
-The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wiki/Autodesk_Revit).
+The Revit navigation style was modeled after [Revit](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
 
 
 {{Revit Navigation
@@ -324,7 +324,7 @@ Alternatively, hold the middle mouse button, then press and hold the right mouse
 
 ### TinkerCAD navigation 
 
-The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
+The TinkerCAD navigation style was modeled after [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
 
 
 <small>(v0.20)</small> 
@@ -381,11 +381,11 @@ FreeCAD also supports some [3D input devices](3D_input_devices.md).
 
 ## Recommended navigation for macOS 
 
-On MacBooks with a trackpad the Gesture navigation works very well, but the gestures have a special meaning:
+On MacBooks with a trackpad the Gesture navigation works very well, but the gestures have a special meaning   *
 
--   Zoom: drag with two fingers.
--   Rotate: drag with three fingers.
--   Pan: **Ctrl** + three fingers.
+-   Zoom   * drag with two fingers.
+-   Rotate   * drag with three fingers.
+-   Pan   * **Ctrl** + three fingers.
 
 ## Developing a custom navigation 
 

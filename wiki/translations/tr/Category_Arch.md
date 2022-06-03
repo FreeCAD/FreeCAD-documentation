@@ -1,6 +1,8 @@
 # Category:Arch/tr
 Bu sayfa Mimari ve Yapı Bilgi Sistemi ile ilgilidir.
 
+[Category   *User Documentation/tr](Category   *User_Documentation/tr.md) [Category   *BIM/tr](Category   *BIM/tr.md) [Category   *Workbenches/tr](Category   *Workbenches/tr.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Path ExportTemplate
-   Name/fr:Path Exporter comme modèle
-   MenuLocation:Path → Modèle d'exportation
-   Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Feuille de configuration](Path_SetupSheet/fr.md)
+- GuiCommand   */fr
+   Name   *Path ExportTemplate
+   Name/fr   *Path Exporter comme modèle
+   MenuLocation   *Path → Modèle d'exportation
+   Workbenches   *[Path](Path_Workbench/fr.md)
+   SeeAlso   *[Path Feuille de configuration](Path_SetupSheet/fr.md)
 ---
 
 # Path ExportTemplate/fr
@@ -20,7 +20,7 @@ L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults
 1.  Sélectionnez l\'option **Path → <img src="images/Path_ExportTemplate.svg" width=16px> Modèle d'exportation** dans le menu.
 2.  Sélectionnez les éléments à inclure dans la boîte de dialogue de configuration **Exportation du modèle de travail**.
 3.  Le modèle doit être enregistré dans le répertoire Macro ou le répertoire Path, tel que configuré dans les [Path Préférences](Path_Preferences/fr.md).
-4.  Le nom du modèle doit suivre le modèle {{FileName|job_<template name>.json}}. Dans la liste déroulante de sélection, le préfixe {{FileName|job_}} et l\'extension sont omis.
+4.  Le nom du modèle doit suivre le modèle **job_<template name>.json**. Dans la liste déroulante de sélection, le préfixe **job_** et l\'extension sont omis.
 5.  Appuyez sur le bouton **OK** et enregistrez le modèle.
 
 ## Options
@@ -33,8 +33,8 @@ L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults
 
 ## Brut
 
--   Extent : Dimensions du brut
--   Placement : Position du brut
+-   Extent    * Dimensions du brut
+-   Placement    * Position du brut
 
 ## Feuille de réglage 
 

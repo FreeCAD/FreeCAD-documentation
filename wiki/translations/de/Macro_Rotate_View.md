@@ -8,8 +8,8 @@
 |Version=01.00
 |Date=2010-11-17
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/a/a0/Macro_Rotate_View_view_90_Degrees.png Macro_Rotate_View_view_90_Degrees]
-|SeeAlso=[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric/de.md) [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width:24px"> [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width:24px"><br />[Macro Rotate View Free](Macro_Rotate_View_Free/de.md)
+|Download=[https   *//www.freecadweb.org/wiki/images/a/a0/Macro_Rotate_View_view_90_Degrees.png Macro_Rotate_View_view_90_Degrees]
+|SeeAlso=[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric/de.md) [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width   *24px"> [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width   *24px"><br />[Macro Rotate View Free](Macro_Rotate_View_Free/de.md)
 }}
 
 ## Beschreibung
@@ -18,7 +18,7 @@ Dieses Makro dreht die aktuelle Ansicht um 90° nach links.
 
 ## Beschränkungen
 
-Funktioniert nur in der Draufsicht: ![Std\_ViewTop\|16px\|link=Std\_ViewTop](images/View-top.svg ) [Draufsicht](Std_ViewTop/de.md)
+Funktioniert nur in der Draufsicht   * ![Std\_ViewTop\|16px\|link=Std\_ViewTop](images/View-top.svg ) [Draufsicht](Std_ViewTop/de.md)
 
 ## Script
 

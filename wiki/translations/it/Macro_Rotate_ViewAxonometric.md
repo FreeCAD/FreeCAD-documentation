@@ -2,23 +2,23 @@
 {{Macro/it
 |Name=Macro Rotate ViewAxonometric
 |Icon=Macro_Rotate_View_with_Y_pointing_upwards_.png
-|Description=Questa macro ruota la vista corrente in ViewAxonometric (come è: Y).
+|Description=Questa macro ruota la vista corrente in ViewAxonometric (come è   * Y).
 |Author=Yorik
 |Version=01.00
 |FCVersion=All
-|Download= [https://www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png Macro_Rotate_View_with_Y_pointing_upwards_]<br />[https://www.freecadweb.org/wiki/images/a/a2/Macro_Rotate_View_with_Z_pointing_upwards_.png Macro_Rotate_View_with_Z_pointing_upwards_]
+|Download= [https   *//www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png Macro_Rotate_View_with_Y_pointing_upwards_]<br />[https   *//www.freecadweb.org/wiki/images/a/a2/Macro_Rotate_View_with_Z_pointing_upwards_.png Macro_Rotate_View_with_Z_pointing_upwards_]
 |Date=2010-11-17
-|SeeAlso=[Macro Rotate View](Macro_Rotate_View/it.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:24px">
+|SeeAlso=[Macro Rotate View](Macro_Rotate_View/it.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width   *24px">
 }}
 
 ## Descrizione
 
-Questa macro ruota la vista corrente in ViewAxonometric (come è: Y).
+Questa macro ruota la vista corrente in ViewAxonometric (come è   * Y).
 
-Avete due opzioni:
+Avete due opzioni   *
 
--   modo 1: vista assonometrica con Y rivolta verso l\'alto ![vista assonometrica con Y rivolta verso l\'alto](images/_Macro_Rotate_View_with_Y_pointing_upwards_.png ) modalità 1
--   modo 2: vista assonometrica con Z rivolta verso l\'alto ![vista assonometrica con Z rivolta verso l\'alto](images/_Macro_Rotate_View_with_Z_pointing_upwards_.png ) modalità 2 (commento per l\'uso)
+-   modo 1   * vista assonometrica con Y rivolta verso l\'alto ![vista assonometrica con Y rivolta verso l\'alto](images/_Macro_Rotate_View_with_Y_pointing_upwards_.png ) modalità 1
+-   modo 2   * vista assonometrica con Z rivolta verso l\'alto ![vista assonometrica con Z rivolta verso l\'alto](images/_Macro_Rotate_View_with_Z_pointing_upwards_.png ) modalità 2 (commento per l\'uso)
 
 
 <div class="mw-translate-fuzzy">
@@ -30,7 +30,7 @@ Avete due opzioni:
 
 Per utilizzare le due macro, copiare la prima macro e denominarla \"**Macro\_Rotate\_ViewAxonometric\_Y**\" (modo 1) senza modificare il codice e utilizzare questa icona ![vista assonometrica con Y rivolta verso l\'alto](images/_Macro_Rotate_View_with_Y_pointing_upwards_.png )
 
-Copia la seconda macro e chiamala \"**Macro\_Rotate\_ViewAxonometric\_Z**\" (modo 2) e:
+Copia la seconda macro e chiamala \"**Macro\_Rotate\_ViewAxonometric\_Z**\" (modo 2) e   *
 
 commenta la linea
 
@@ -46,8 +46,8 @@ and use this icon ![axonometric view with Z pointing upwards](images/Macro_Rotat
 
 ## Script
 
--   mode 1 : ToolBar Icon ![](images/Macro_Rotate_View_with_Y_pointing_upwards_.png )
--   mode 2 : ToolBar Icon ![](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) (uncomment for use)
+-   mode 1    * ToolBar Icon ![](images/Macro_Rotate_View_with_Y_pointing_upwards_.png )
+-   mode 2    * ToolBar Icon ![](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) (uncomment for use)
 
 **Macro\_Rotate\_ViewAxonometric.FCMacro**
 

@@ -1,32 +1,32 @@
 ---
-- GuiCommand:
-   Name:Draft Text
-   MenuLocation:Annotation → Text
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**T** **E**
-   Version:0.7
-   SeeAlso:[Draft Label](Draft_Label.md), [Draft ShapeString](Draft_ShapeString.md)
+- GuiCommand   *
+   Name   *Draft Text
+   MenuLocation   *Annotation → Text
+   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut   ***T** **E**
+   Version   *0.7
+   SeeAlso   *[Draft Label](Draft_Label.md), [Draft ShapeString](Draft_ShapeString.md)
 ---
 
 # Draft Text
 
 ## Description
 
-The <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Text** command creates a multi-line text at a given point.
+The <img alt="" src=images/Draft_Text.svg  style="width   *24px;"> **Draft Text** command creates a multi-line text at a given point.
 
 To create a text element with an arrow use the [Draft Label](Draft_Label.md) command instead.
 
-<img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Text_example.png  style="width   *400px;"> 
 *Single point required to position the text*
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
+See also   * [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Text.svg" width=16px> [Draft Text](Draft_Text.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Text.svg" width=16px> Text** option from the menu.
-    -   Use the keyboard shortcut: **T** then **E**.
+    -   Use the keyboard shortcut   * **T** then **E**.
 2.  The **Text** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Enter the desired text, press **Enter** to start a new line.
@@ -50,7 +50,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
 A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated.
 
@@ -59,47 +59,47 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 {{TitleProperty|Base}}
 
--    **Placement|Placement**: specifies the position of the text in the [3D view](3D_view.md). See [Placement](Placement.md).
+-    **Placement|Placement**   * specifies the position of the text in the [3D view](3D_view.md). See [Placement](Placement.md).
 
--    **Text|StringList**: specifies the contents of the text. Each item in the list represents a new text line.
+-    **Text|StringList**   * specifies the contents of the text. Each item in the list represents a new text line.
 
 ### View
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**   * specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the text.
+-    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the text.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
 
--    **Line Color|Color**: not used.
+-    **Line Color|Color**   * not used.
 
--    **Line Width|Float**: not used.
+-    **Line Width|Float**   * not used.
 
 
 {{TitleProperty|Text}}
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Font Name|Font**   * specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial   *Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Font Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
--    **Justification|Enumeration**: specifies if the alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}.
+-    **Justification|Enumeration**   * specifies if the alignment of the text   * {{value|Left}}, {{value|Center}} or {{value|Right}}.
 
--    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
+-    **Line Spacing|Float**   * specifies the factor applied to the default line height of the text.
 
--    **Text Color|Color**: specifies the color of the text.
+-    **Text Color|Color**   * specifies the color of the text.
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a Draft Text use the `make_text` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeText` method.
 
@@ -116,7 +116,7 @@ text = make_text(string, placement=None, screen=False)
 
 The view properties of `text` can be changed by overwriting its attributes; for example, overwrite `ViewObject.FontSize` with the new size in millimeters.
 
-Example:
+Example   *
 
  
 ```python

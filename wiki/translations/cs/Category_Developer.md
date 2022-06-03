@@ -1,6 +1,8 @@
 # Category:Developer/cs
 This category contains articles that are relevant for developers.
 
+[Category   *Categories/cs](Category   *Categories/cs.md)
+
 ### Contents
 
 |     |     |     |

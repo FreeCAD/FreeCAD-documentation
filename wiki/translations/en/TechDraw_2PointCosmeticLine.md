@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw 2PointCosmeticLine
-   MenuLocation:TechDraw → Add Lines → Add Cosmetic Line Through 2 points
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Centerline between 2 Lines](TechDraw_2LineCenterLine.md)
+- GuiCommand   *
+   Name   *TechDraw 2PointCosmeticLine
+   MenuLocation   *TechDraw → Add Lines → Add Cosmetic Line Through 2 points
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Centerline between 2 Lines](TechDraw_2LineCenterLine.md)
 ---
 
 # TechDraw 2PointCosmeticLine/en
@@ -13,7 +13,7 @@
 
 The 2PointCosmeticLine tool adds a cosmetic line between two Vertices (Points). The vertices can be 2d or 3d. The resulting line can be used for dimensioning. The line\'s appearance can be modified using the [Remove Cosmetic Object](TechDraw_CosmeticEraser.md) tool.
 
-<img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
+<img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
 
 
 
@@ -47,7 +47,7 @@ Cosmetic lines have no properties of their own, as they are not document objects
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

@@ -1,29 +1,29 @@
 ---
-- GuiCommand:/de
-   Name:Draft CubicBezCurve
-   Name/de:Entwurf KubischeBézKurve
-   MenuLocation:Entwurf → Bézier Werkzeuge → Kubische Bézier Kurve
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Entwurf BézKurve](Draft_BezCurve/de.md), [Entwurf BSpline](Draft_BSpline/de.md), 
+- GuiCommand   */de
+   Name   *Draft CubicBezCurve
+   Name/de   *Entwurf KubischeBézKurve
+   MenuLocation   *Entwurf → Bézier Werkzeuge → Kubische Bézier Kurve
+   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[Entwurf BézKurve](Draft_BezCurve/de.md), [Entwurf BSpline](Draft_BSpline/de.md), 
 ---
 
 # Draft CubicBezCurve/de
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft\_CubicBezCurve/de\|Entwurf KubischeBézKurve**-Befehl erstellt eine [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) dritten Grades (vier Punkte erforderlich).
+Der <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *24px;"> **Draft\_CubicBezCurve/de\|Entwurf KubischeBézKurve**-Befehl erstellt eine [Bézierkurve](https   *//de.wikipedia.org/wiki/B%C3%A9zierkurve) dritten Grades (vier Punkte erforderlich).
 
-Die Bézierkurve ist eine der am häufigsten verwendeten Kurven bei Computergrafiken. Dieser Befehl erlaubt dir eine kontinuierliche Spline aus mehreren Béziersegmenten 3. Grades zu erstellen, ähnlich dem Bézierwerkzeug in [Inkscape](https://inkscape.org/). Eine allgemeine Bézier Kurve beliebigen Grades kann mit dem [Entwurf BézKurve](Draft_BezCurve/de.md) Befehl erstellt werden.
+Die Bézierkurve ist eine der am häufigsten verwendeten Kurven bei Computergrafiken. Dieser Befehl erlaubt dir eine kontinuierliche Spline aus mehreren Béziersegmenten 3. Grades zu erstellen, ähnlich dem Bézierwerkzeug in [Inkscape](https   *//inkscape.org/). Eine allgemeine Bézier Kurve beliebigen Grades kann mit dem [Entwurf BézKurve](Draft_BezCurve/de.md) Befehl erstellt werden.
 
 Der [Entwurf BézKurve](Draft_BezCurve/de.md) und der [Entwurf KubischeBézKurve](Draft_CubicBezCurve/de.md) Befehl verwenden **Kontrollpunkte**, um die Position und Krümmung der Spline zu definieren. Der [Entwurf BSpline](Draft_BSpline/de.md) Befehl andererseits legt die **genauen Punkte**, durch die die Kurve verläuft fest.
 
-<img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;"> 
+<img alt="" src=images/Draft_CubicBezCurve_example.png  style="width   *500px;"> 
 *Spline, definiert durch drei kubische Béziersegmente. Das erste Segment wird durch vier Punkte definiert. Nachfolgende Segmente verwenden zwei Punkte aus dem vorherigen Segment wieder und benötigen daher nur zwei zusätzliche Punkte.*
 
 ## Anwendung
 
-Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+Siehe auch   * [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -60,7 +60,7 @@ Siehe [Entwurf BezKurve](Draft_BezCurve/de#Eigenschaften.md).
 
 <div class="mw-translate-fuzzy">
 
-Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 </div>
@@ -77,13 +77,13 @@ Für jedes kubische Bézier-Segment müssen vier Punkte verwendet werden, von de
 -   Im Allgemeinen wird der letzte Punkt in einer Vierergruppe mit den folgenden drei Punkten maximal geteilt, um ein weiteres Bézier-Segment zu erzeugen.
 -   Um glatte Kurven ohne gerade Segmente zu erhalten, sollte die Anzahl der Punkte `3n + 1` oder `3n` sein, wobei `n` die Anzahl der Segmente ist, für n >= 1.
 
-<img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width:600px;">
+<img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width   *600px;">
 
 
 
 *Beispiele für Bézierkurven, die unter Verwendung von 2, 3, 4, 5, 6, 7 und 8 Punkten erstellt wurden. Die durchgezogenen Linien stellen kubische Béziersegmente dar; die anderen Linien sind quadratisch oder linear.*
 
-Beispiel:
+Beispiel   *
 
 
 ```python

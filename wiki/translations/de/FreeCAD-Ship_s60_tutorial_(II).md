@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Schiff Arbeitsbereich
-   Level:Anfänger
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */de
+   Topic   *Schiff Arbeitsbereich
+   Level   *Anfänger
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # FreeCAD-Ship s60 tutorial (II)/de
@@ -18,13 +18,13 @@
 
 Bevor du mit diesem Tutorial beginnst, stelle bitte sicher, dass du bereits [der erste Teil](FreeCAD-Ship_s60_tutorial/de.md) durchgeführt hast.
 
-Erfahre mehr über den Schiff Arbeitsbereich auf ihrer speziellen Wiki Seite: [Schiffs Arbeitsbereich](Ship_Workbench/de.md)
+Erfahre mehr über den Schiff Arbeitsbereich auf ihrer speziellen Wiki Seite   * [Schiffs Arbeitsbereich](Ship_Workbench/de.md)
 
 ## Einführung
 
 In diesem Tutorium werden wir mit Gewichten und Tanks arbeiten, um die GZ Kurve, den wichtigsten hydrostatischen Stabilitätsparameter, zu berechnen. GZ ist das statische Moment, das erzeugt wird, wenn das Schiff einen Rollwinkel einnimmt, da der GZ Arm positiv ist, das Schiff ein positives Moment hat und versuchen wird, die aufrechte Position wiederherzustellen, aber wenn GZ negative Zahlen annimmt, hat das Schiff keine Stabilität mehr und erreicht eine kritische Situation.
 
-Die IMO (Internationale Seeschifffahrtsorganisation) legte folgende Kriterien fest:
+Die IMO (Internationale Seeschifffahrtsorganisation) legte folgende Kriterien fest   *
 
 -   *GM* \>= 0.15 m. GM\" (metazentrische Höhe) ist die Anfangstangente der \"GZ\" Kurve.
 -   Der maximale *GZ* Wert muss über 30 Grad des Rollwinkels liegen.
@@ -37,7 +37,7 @@ In diesem Tutorium werden wir Gewichte und Tanks für unser Schiff der Serie 60 
 
 ## Schiffsgewichte
 
-Um die GZ Kurve berechnen zu können, müssen wir die Schiffsgewichte und ihre Position bei jedem Rollwinkel kennen, daher werden die Gewichte in zwei Kategorien eingeteilt:
+Um die GZ Kurve berechnen zu können, müssen wir die Schiffsgewichte und ihre Position bei jedem Rollwinkel kennen, daher werden die Gewichte in zwei Kategorien eingeteilt   *
 
 -   Feste Gewichte, die vollständig mit den Schiffsbewegungen verknüpft sind.
 -   Tanks, bei denen sich die Form der Flüssigkeit mit dem Winkel ändert, so dass der Schwerpunkt an jeder Position berechnet werden muss.
@@ -54,12 +54,12 @@ Gewichtsfestlegungswerkzeug Symbol.
 
 </center>
 
-Das Werkzeug zur Definition von Gewichten kann zur Festlegung der ersten Kategorie von Gewichten verwendet werden. Wenn du das Werkzeug zum ersten Mal startest (mit ausgewählter Schiffsinstanz), initialisiert der Schiffs Arbeitsbereich die Schiffsgewichte mit Schiffsleichtgewicht (gleich der Schiffsverdrängung), das auf der X Koordinate des Schiffsgeometrieschwerpunkts und auf Höhe des Konstruktionsentwurfs liegt. Normalerweise gibt es mindestens 2 relevante Gewichte:
+Das Werkzeug zur Definition von Gewichten kann zur Festlegung der ersten Kategorie von Gewichten verwendet werden. Wenn du das Werkzeug zum ersten Mal startest (mit ausgewählter Schiffsinstanz), initialisiert der Schiffs Arbeitsbereich die Schiffsgewichte mit Schiffsleichtgewicht (gleich der Schiffsverdrängung), das auf der X Koordinate des Schiffsgeometrieschwerpunkts und auf Höhe des Konstruktionsentwurfs liegt. Normalerweise gibt es mindestens 2 relevante Gewichte   *
 
 -   Struktur.
 -   Hauptmaschine (oder mehrere davon).
 
-Also werden wir es ändern. Mit einem Doppelklick auf jede Zelle können wir den Wert bearbeiten und Gewichte einstellen:
+Also werden wir es ändern. Mit einem Doppelklick auf jede Zelle können wir den Wert bearbeiten und Gewichte einstellen   *
 
 -   Struktur, 15000 kg, (-0.1, 0, 1.25) m
 -   Steuerbordmotor, 5000 kg, (-6,5, -0,65, 0,5) m
@@ -76,7 +76,7 @@ Gewichtsdefinition 3D Vorschau.
 
 </center>
 
-Die Position der Gewichte wird in der [3D Ansicht](3D_view/de.md) angezeigt. Hinweis: Die Anmerkungen werden entfernt, wenn das Werkzeug geschlossen wird. Wenn du **Accept** drückst, werden die Gewichte in deiner Schiffsinstanz gespeichert.
+Die Position der Gewichte wird in der [3D Ansicht](3D_view/de.md) angezeigt. Hinweis   * Die Anmerkungen werden entfernt, wenn das Werkzeug geschlossen wird. Wenn du **Accept** drückst, werden die Gewichte in deiner Schiffsinstanz gespeichert.
 
 ## Tanks
 
@@ -102,7 +102,7 @@ Generierte Tankgeometrie.
 
 Wir können den Tank auf der Backbordseite ausführen, indem wir unsere Steuerbordgeometrie auswählen und das Spiegelwerkzeug ausführen und XZ als Spiegelebene wählen.
 
-Um die Geometrie in eine gewöhnliche feste Form unserer Tanks umzuwandeln und unsere **s60\_IowaUniversity** Geometrie wiederherzustellen, können wir [Entwurf Modul](Draft_Workbench/de.md) laden und mit gewählter Steuerbord Tankgeometrie die Höherstufung ausführen und mit der Backbordseite der Tankgeometrie wiederholen. Wir können Geometrien umbenennen als:
+Um die Geometrie in eine gewöhnliche feste Form unserer Tanks umzuwandeln und unsere **s60\_IowaUniversity** Geometrie wiederherzustellen, können wir [Entwurf Modul](Draft_Workbench/de.md) laden und mit gewählter Steuerbord Tankgeometrie die Höherstufung ausführen und mit der Backbordseite der Tankgeometrie wiederholen. Wir können Geometrien umbenennen als   *
 
 -   SteuerbordTankGeom
 -   BackbordTankGeom
@@ -143,7 +143,7 @@ Die Abbildung zeigt unser Schiffsergebnis, das wir berechnen werden.
 
 Der Schiffs Arbeitsbereich bietet ein Werkzeug zur einfachen Berechnung einer \'\'GZ\' Kurve.
 
-<img alt="GZ Kurven Berechnungswerkzeug Symbol." src=images/Ship_GZ.svg  style="width:128px;">
+<img alt="GZ Kurven Berechnungswerkzeug Symbol." src=images/Ship_GZ.svg  style="width   *128px;">
 
 
 <center>
@@ -155,7 +155,7 @@ GZ Kurven Berechnungswerkzeug Symbol.
 
 Mit gewählter **Schiff** Instanz, können wir das Werkzeug ausführen. Das erste, was wir im geöffneten Dialog sehen können, ist eine Liste mit allen Tankinstanzen, die im aktiven Dokument gefunden wurden. Wir wollen beide verwenden, also klicken wir über die Tanks, die mit einem anderen Hintergrund versehen sind.
 
-Um die sich daraus ergebende Schiffsverdrängung und den Tiefgang zu erfahren, können wir auf *\'Verdrängung und Tiefgang aktualisieren* drücken, was einige Zeit für die Berechnung benötigt. Wir erhalten folgende Daten:
+Um die sich daraus ergebende Schiffsverdrängung und den Tiefgang zu erfahren, können wir auf *\'Verdrängung und Tiefgang aktualisieren* drücken, was einige Zeit für die Berechnung benötigt. Wir erhalten folgende Daten   *
 
 -   Verdrängung = 37505.5 kg
 -   Tiefgang = 0.818664 m
@@ -164,7 +164,7 @@ Wir befinden uns also in einer unbelasteten Situation, in der die Entwürfe geri
 
 Wir können auch automatisch den Schiffstrimm berechnen, ein Vorgang, der etwa eine Minute dauern kann, wobei wir feststellen können, dass unser Schiff einen Trimmwinkel von 0,95 Grad hat (positiv beim Heck). In diesem Beispiel werden wir ohne Trimmwinkel (0 Grad) arbeiten.
 
-Werkzeuganforderung Rollwinkel werden ebenfalls berücksichtigt. In diesem Fall wollen wir das gesamte Schiffsverhalten kennen, damit wir einstellen können:
+Werkzeuganforderung Rollwinkel werden ebenfalls berücksichtigt. In diesem Fall wollen wir das gesamte Schiffsverhalten kennen, damit wir einstellen können   *
 
 -   0 Grad Anfangsrollwinkel.
 -   180 Grad Endrollwinkel.
@@ -172,18 +172,18 @@ Werkzeuganforderung Rollwinkel werden ebenfalls berücksichtigt. In diesem Fall 
 
 Wenn wir *\'Annehmen* drücken, startet das Werkzeug die Berechnung. Wenn du FreeCAD vom Terminal aus startest, kannst du den Arbeitsfortschritt sehen. In ein paar Sekunden erhalten wir die GZ Kurve.
 
-Dieses Werkzeug verwendet [pyxplot](http://www.pyxplot.org.uk/) und [ghostscript](http://www.ghostscript.com/) ebenfalls. Du kannst sehen, wo die Ausgabedatei **gz.dat** in der Berichtsansicht (Ansicht/Ansichten/Berichtsansicht) platziert wurde, und sie mit Datenblattsoftware (z.B. [libreOffice](http://www.libreoffice.org)) laden. In der Nähe der Datendatei wurden auch mehrere Hilfsdateien erstellt:
+Dieses Werkzeug verwendet [pyxplot](http   *//www.pyxplot.org.uk/) und [ghostscript](http   *//www.ghostscript.com/) ebenfalls. Du kannst sehen, wo die Ausgabedatei **gz.dat** in der Berichtsansicht (Ansicht/Ansichten/Berichtsansicht) platziert wurde, und sie mit Datenblattsoftware (z.B. [libreOffice](http   *//www.libreoffice.org)) laden. In der Nähe der Datendatei wurden auch mehrere Hilfsdateien erstellt   *
 
--   **gz.dat**: Berechnete GZ Kurvendaten.
--   **gz.pyxplot**: pyxplot Layout, um die Kurve zu plotten..
--   **gz.eps**: EPS Bildversion.
--   **gz.png**: PNG Bildversion.
+-   **gz.dat**   * Berechnete GZ Kurvendaten.
+-   **gz.pyxplot**   * pyxplot Layout, um die Kurve zu plotten..
+-   **gz.eps**   * EPS Bildversion.
+-   **gz.png**   * PNG Bildversion.
 
 Diese Dateien werden überschrieben, wenn du das Werkzeug ein weiteres Mal ausführst.
 
 ### Ergebnisse
 
-<img alt="Resultierende GZ Kurve." src=images/FreeCAD-Ship-s60GZ.png  style="width:800px;">
+<img alt="Resultierende GZ Kurve." src=images/FreeCAD-Ship-s60GZ.png  style="width   *800px;">
 
 
 <center>
@@ -198,6 +198,8 @@ Der *GZ* Maximalwert wird über 30 Grad (45 Grad) gelegt und erhält 0,25 m bei 
 Andererseits hat das Schiff in diesem schlechten Zustand positive *GZ* Werte bis zu 95 Grad Rollwinkel, war aber nicht ausreichend für die Stabilitätsanforderungen der IMO, was die harten Kriterien zeigt, die für diesen Punkt auferlegt wurden.
 
 Natürlich ist dieses Beispiel nicht real (erstens können die Treibstofftanks nicht in der Doppelbodenstruktur oder unter Verwendung der Rumpfseite als Struktur platziert werden), aber es ist ein gutes Beispiel, um den Umgang mit [Schiff Arbeitsbereich](Ship_Workbench/de.md) zu erlernen.
+
+[Category   *Ship](Category_Ship.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign AdditiveLoft
-   Name/de:PartDesign AdditiveAusformung
-   MenuLocation:Part Design → Additive Ausformung
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AdditivesRohr](PartDesign_AdditivePipe/de.md), [PartDesign SubtraktiveAusformung](PartDesign_SubtractiveLoft/de.md)
+- GuiCommand   */de
+   Name   *PartDesign AdditiveLoft
+   Name/de   *PartDesign AdditiveAusformung
+   MenuLocation   *Part Design → Additive Ausformung
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[PartDesign AdditivesRohr](PartDesign_AdditivePipe/de.md), [PartDesign SubtraktiveAusformung](PartDesign_SubtractiveLoft/de.md)
 ---
 
 # PartDesign AdditiveLoft/de
@@ -22,7 +22,7 @@
 
 <div class="mw-translate-fuzzy">
 
-*Zur Linken: Querschnitte (A), (B) und (C); erstellte Additive Ausformung rechts.*
+*Zur Linken   * Querschnitte (A), (B) und (C); erstellte Additive Ausformung rechts.*
 
 
 </div>
@@ -34,7 +34,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Drücke die **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)** Schaltfläche
+1.  Drücke die **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *24px"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)** Schaltfläche
 2.  Wähle im **Funktion auswählen** Dialogfeld eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf **OK**.
     -   Alternativ kann eine einzelne Skizze ausgewählt werden, bevor auf die Schaltfläche Additive Ausformung geklickt wird.
 3.  Drücke in den **Ausformungsparametern** die **Abschnitt hinzufügen** Schaltfläche.
@@ -52,10 +52,10 @@
 
 <small>(v0.19)</small> 
 
-1.  Wähle mehrere Skizzen aus. Dabei ist es wichtig, in welcher Reihenfolge du sie auswählst:
+1.  Wähle mehrere Skizzen aus. Dabei ist es wichtig, in welcher Reihenfolge du sie auswählst   *
     -   Die zuerst ausgewählte Skizze wird im nächsten Schritt zum Basis Profilobjekt.
-    -   Die nach der ersten ausgewählten Skizzen werden zu den Ausformungsabschnitten. Auch hier ist die Reihenfolge der Auswahl wichtig: Die als zweite ausgewählte Skizze wird zum ersten Ausformungsabschnitt, die als dritte ausgewählte zum zweiten Abschnitt und so weiter. (Du kannst die Reihenfolge der Abschnitte jederzeit später im Ausformungsdialog ändern, indem du die Abschnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
-2.  Drücke die **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** Schaltfläche.
+    -   Die nach der ersten ausgewählten Skizzen werden zu den Ausformungsabschnitten. Auch hier ist die Reihenfolge der Auswahl wichtig   * Die als zweite ausgewählte Skizze wird zum ersten Ausformungsabschnitt, die als dritte ausgewählte zum zweiten Abschnitt und so weiter. (Du kannst die Reihenfolge der Abschnitte jederzeit später im Ausformungsdialog ändern, indem du die Abschnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
+2.  Drücke die **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *24px"> [Additive loft](PartDesign_AdditiveLoft.md)** Schaltfläche.
 3.  Lege Optionen wenn notwendig fest und klicke auf die **OK** Schaltfläche.
 
 
@@ -66,8 +66,8 @@
 
 <div class="mw-translate-fuzzy">
 
--   **Geregelte Oberfläche**: macht gerade Übergänge zwischen Querschnitten. Gilt nicht für eine Ausformung mit zwei Querschnitten. Wenn nicht angekreuzt, werden die Übergänge glatt sein.
--   **Geschlossen**: macht einen Übergang vom letzten zum ersten Querschnitt, wodurch eine Schleife entsteht.
+-   **Geregelte Oberfläche**   * macht gerade Übergänge zwischen Querschnitten. Gilt nicht für eine Ausformung mit zwei Querschnitten. Wenn nicht angekreuzt, werden die Übergänge glatt sein.
+-   **Geschlossen**   * macht einen Übergang vom letzten zum ersten Querschnitt, wodurch eine Schleife entsteht.
 
 
 </div>
@@ -77,25 +77,25 @@
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/de|Label}}: Name, der der Operation gegeben wurde, dieser Name kann nach Belieben geändert werden.
+-    {{PropertyData/de|Label}}   * Name, der der Operation gegeben wurde, dieser Name kann nach Belieben geändert werden.
 
--    {{PropertyData/de|Sections}}: listet die verwendeten Abschnitte auf.
+-    {{PropertyData/de|Sections}}   * listet die verwendeten Abschnitte auf.
 
--    {{PropertyData/de|Ruled}}: siehe [Optionen](#Options.md).
+-    {{PropertyData/de|Ruled}}   * siehe [Optionen](#Options.md).
 
--    {{PropertyData/de|Geschlossen}}: siehe [Optionen](#Options.md).
+-    {{PropertyData/de|Geschlossen}}   * siehe [Optionen](#Options.md).
 
--    {{PropertyData/de|Refine}}: true oder false. Wenn auf true gesetzt, reinigt den Festkörper von den Restkanten, die von den Funktionen hinterlassen wurden. Siehe [Part FormVerfeinern](Part_RefineShape/de.md) für weitere Einzelheiten.
+-    {{PropertyData/de|Refine}}   * true oder false. Wenn auf true gesetzt, reinigt den Festkörper von den Restkanten, die von den Funktionen hinterlassen wurden. Siehe [Part FormVerfeinern](Part_RefineShape/de.md) für weitere Einzelheiten.
 
--    **Profile**: das siehe Basisprofil Objekt der Ausformung.
+-    **Profile**   * das siehe Basisprofil Objekt der Ausformung.
 
--    {{PropertyData/de|Midplane}}: nicht anwendbar.
+-    {{PropertyData/de|Midplane}}   * nicht anwendbar.
 
--    {{PropertyData/de|Reversed}}: nicht anwendbar.
+-    {{PropertyData/de|Reversed}}   * nicht anwendbar.
 
--    **Up To Face**: nicht anwendbar.
+-    **Up To Face**   * nicht anwendbar.
 
--    **Allow Multi Face**: nicht anwendbar.
+-    **Allow Multi Face**   * nicht anwendbar.
 
 
 </div>
@@ -110,7 +110,7 @@
 -   Ein Querschnitt kann nicht auf der gleichen Ebene liegen wie die unmittelbar vorhergehende Ebene.
 -   Um die Form der Ausformung besser kontrollieren zu können, wird empfohlen, dass alle Querschnitte die gleiche Anzahl von Segmenten haben. Zum Beispiel kann eine Ausformung zwischen einem Rechteck und einem Kreis in 4 zusammenhängende Bögen zerlegt werden.
 -   Die Ausformung wird in der Reihenfolge erzeugt, in der die Querschnitte hinzugefügt wurden.
--   Wenn die Skizze eine innere Geometrie hat, d. h. die Ausformung soll Löcher haben, dann sollte die Reihenfolge, in der die Skizzengeometrie erstellt wird, für alle Schnitte gleich sein: Entweder beginnen alle Schnitte mit der inneren Geometrie oder sie beginnen alle mit der äußeren. Andernfalls kann ein ungültiger Ausformung erzeugt werden, bei dem sich Innen- und Außenwände kreuzen.
+-   Wenn die Skizze eine innere Geometrie hat, d. h. die Ausformung soll Löcher haben, dann sollte die Reihenfolge, in der die Skizzengeometrie erstellt wird, für alle Schnitte gleich sein   * Entweder beginnen alle Schnitte mit der inneren Geometrie oder sie beginnen alle mit der äußeren. Andernfalls kann ein ungültiger Ausformung erzeugt werden, bei dem sich Innen- und Außenwände kreuzen.
 
 
 </div>

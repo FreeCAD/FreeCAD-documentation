@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Mesh Export
-   Name/de:Polygonnetz Export
-   MenuLocation:Polygonnetze → Polygonnetz exportieren...
-   Workbenches:[Polygonnetz](Mesh_Workbench/de.md)
-   SeeAlso:[Std Export](Std_Export/de.md), [Import Export](Import_Export/de.md)
+- GuiCommand   */de
+   Name   *Mesh Export
+   Name/de   *Polygonnetz Export
+   MenuLocation   *Polygonnetze → Polygonnetz exportieren...
+   Workbenches   *[Polygonnetz](Mesh_Workbench/de.md)
+   SeeAlso   *[Std Export](Std_Export/de.md), [Import Export](Import_Export/de.md)
 ---
 
 # Mesh Export/de
@@ -16,12 +16,12 @@ Der Befehl **Polygonnetz Exportieren** exportiert ein Polygonnetzobjekt in ein P
 ## Anwendung
 
 1.  Wähle ein einzelnes Netzobjekt aus.
-2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
     -   Drücke den **<img src="images/Mesh_Export.svg" width=16px> [Polygonnetz Exportieren](Mesh_Export/de.md)**.
     -   Wähle die **Polygonnetze → <img src="images/Mesh_Export.svg" width=16px> Polygonnetz exportieren...** aus dem Menü.
     -   Wähle die **<img src="images/Mesh_Export.svg" width=16px> Polygonnetz exportieren...** aus dem Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D Ansicht](3D_view/de.md).
 3.  Wähle im Dialogfeld das richtige Dateiformat aus.
-4.  Gib einen Dateinamen ein. Wenn du im vorherigen Schritt die Option {{Value|Alle Dateien (*.*)}} gewählt hast und hier keine Dateierweiterung angibst, wird die Erweiterung {{FileName|.stl}} verwendet.
+4.  Gib einen Dateinamen ein. Wenn du im vorherigen Schritt die Option {{Value|Alle Dateien (*.*)}} gewählt hast und hier keine Dateierweiterung angibst, wird die Erweiterung **.stl** verwendet.
 5.  Drücke die **Speichern** Schaltfläche.
 
 ## Hinweise
@@ -30,11 +30,11 @@ Es gibt einige [Exporteinstellungen verwandt mit Polygonnetzformaten](Import_Exp
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
 
 ## Skripten
 
-Siehe auch: [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
 
 Um Objekte (einschließlich Polygonnetzobjekte) in ein Polygonnetzdateiformat zu exportieren, verwende die Methode `exportieren` des Polygonnetz Moduls.
 
@@ -45,7 +45,7 @@ import Mesh
 
 doc = FreeCAD.ActiveDocument
 
-Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
+Mesh.export([doc.Cone, doc.Cylinder], 'D   */testfiles/mymodel.stl')
 ```
 
 

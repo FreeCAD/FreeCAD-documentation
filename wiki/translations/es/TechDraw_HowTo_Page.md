@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/es
-   Topic:How To's and Misc Info 
-   Level:all
-   Time:n/a
-   Author:n/a
-   FCVersion:0.19
+- TutorialInfo   */es
+   Topic   *How To's and Misc Info 
+   Level   *all
+   Time   *n/a
+   Author   *n/a
+   FCVersion   *0.19
 ---
 
 # TechDraw HowTo Page/es
@@ -15,7 +15,7 @@
 
 ## Introducción
 
-This page provide a collection of hints and little guides on using the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md). Adding new findings and best practices is encouraged.
+This page provide a collection of hints and little guides on using the <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw Workbench](TechDraw_Workbench.md). Adding new findings and best practices is encouraged.
 
 ### Enable/Disable Centermarks 
 
@@ -32,23 +32,23 @@ See [here](TechDraw_ToggleFrame.md) for switching them on and off and more infor
 
 ### Bordes curvos como entrada a las dimensiones lineales 
 
-Curved edges are accepted as input to linear dimensions. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
+Curved edges are accepted as input to linear dimensions. See this [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
 
-<img alt="" src=images/CurvedEdgeLinearDims.png  style="width:256px;">
+<img alt="" src=images/CurvedEdgeLinearDims.png  style="width   *256px;">
 
 ### Muestra las dimensiones métricas e imperiales al mismo tiempo 
 
-It is possible to show metric and imperial decimal dimensions at the same time. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711)
+It is possible to show metric and imperial decimal dimensions at the same time. See this [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=35&t=49711)
 
-<img alt="" src=images/Imperiale_decimale.png  style="width:256px;">
+<img alt="" src=images/Imperiale_decimale.png  style="width   *256px;">
 
 ### Dimensionamiento en caso de agujeros orientados 
 
-Two use cases. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49976).
+Two use cases. See this [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=35&t=49976).
 
 See also [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)
 
-<img alt="" src=images/dimension-hole.png  style="width:256px;"> <img alt="" src=images/dimension-hole_angles.png  style="width:256px;">
+<img alt="" src=images/dimension-hole.png  style="width   *256px;"> <img alt="" src=images/dimension-hole_angles.png  style="width   *256px;">
 
 
 {{TechDraw Tools navi

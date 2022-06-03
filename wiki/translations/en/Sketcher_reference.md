@@ -3,7 +3,7 @@
 
 User **chrisb** wrote a lengthy 70-page reference manual for the [Sketcher Workbench](Sketcher_Workbench.md) that covers many topics of using this workbench. For inexperienced users, it is a gentle introduction that covers the basic usage of the Sketcher, and then goes into many details of creating geometrical elements, and using each type of constraint.
 
-The manual is a work in progress, as some sections are reviewed and updated depending on the development occurring on the [Sketcher Workbench](Sketcher_Workbench.md). The original manual was written for FreeCAD 0.17, then it was updated for 0.18, and now for 0.19. The latest manual can be found in the forum thread, [Sketcher tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104).
+The manual is a work in progress, as some sections are reviewed and updated depending on the development occurring on the [Sketcher Workbench](Sketcher_Workbench.md). The original manual was written for FreeCAD 0.17, then it was updated for 0.18, and now for 0.19. The latest manual can be found in the forum thread, [Sketcher tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104).
 
 Due to the evolving nature of the manual, the document is also known as the \"Sketcher lecture\".
 
@@ -12,7 +12,7 @@ Due to the evolving nature of the manual, the document is also known as the \"Sk
 
 ## Contents
 
-The general structure of the manual is:
+The general structure of the manual is   *
 
 -   Basics
     -   Create a sketch

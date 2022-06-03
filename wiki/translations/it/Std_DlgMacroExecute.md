@@ -1,6 +1,6 @@
 # Std DlgMacroExecute/it
 ---
-- GuiCommand:/it   Name:Std_DlgMacroExecute   Name/it:Esegui macro   MenuLocation:[Shortcut:CTRL+F6   Workbenches:Tutti   SeeAlso:[[Std_DlgMacroExecuteDirect/it|Esegui la macro nell'editor](Macros/it___Macro]]_→_Esegui_la_macro.md)---
+- GuiCommand   */it   Name   *Std_DlgMacroExecute   Name/it   *Esegui macro   MenuLocation   *[Shortcut   *CTRL+F6   Workbenches   *Tutti   SeeAlso   *[[Std_DlgMacroExecuteDirect/it|Esegui la macro nell'editor](Macros/it___Macro]]_→_Esegui_la_macro.md)---
 
 
 </div>
@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibili tramite **Macro → Esegui la macro**, oppure tramite il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:" height="24px;">.
+Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibili tramite **Macro → Esegui la macro**, oppure tramite il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width   *16px"> Esegui la macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width   *" height="24px;">.
 
 
 </div>
@@ -35,7 +35,7 @@ Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibi
 
 <div class="mw-translate-fuzzy">
 
-Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> [Editor della macro](Std_DlgMacroExecuteDirect/it.md)**, il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** assume il colore verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:16px;">. Fare clic su questo pulsante per eseguire la macro.
+Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width   *16px"> [Editor della macro](Std_DlgMacroExecuteDirect/it.md)**, il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width   *16px"> Esegui la macro** assume il colore verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width   *16px;">. Fare clic su questo pulsante per eseguire la macro.
 
 
 </div>
@@ -50,7 +50,7 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ### System macros 
 
-:   The **System macros** tab is not used at this time.
+   *   The **System macros** tab is not used at this time.
 
 ### User macros location 
 
@@ -59,7 +59,7 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ### Execute
 
-1.  To execute a macro do one of the following:
+1.  To execute a macro do one of the following   *
     -   Select the macro in the list and press the **Execute** button.
     -   Double-click the macro in the list.
 2.  The dialog box closes.
@@ -72,7 +72,7 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 ### Create
 
 1.  Press the **Create** button to create a new macro file.
-2.  Enter a name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
+2.  Enter a name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
 3.  Press **Enter** or the **OK** button.
 4.  Both dialog boxes close.
 5.  The new file is opened in the Macro editor.
@@ -94,14 +94,14 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 1.  Select the macro you want to rename in the list.
 2.  Press the **Rename** button.
-3.  Enter a new name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
+3.  Enter a new name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
 4.  Press **Enter** or the **OK** button.
 
 ### Duplicate
 
 1.  Select the macro you want to duplicate in the list.
 2.  Press the **Duplicate** button.
-3.  Enter a new name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
+3.  Enter a new name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
 4.  Press **Enter** or the **OK** button.
 
 ### Toolbar
@@ -120,7 +120,7 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences   * **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

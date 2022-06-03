@@ -1,6 +1,6 @@
 # Raytracing New/ro
 ---
-- GuiCommand:/ro   Name:Raytracing New   Name/ro:Raytracing New   MenuLocation:Raytracing → New‏‎   |Workbenches:[[Raytracing Workbench/ro   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand   */ro   Name   *Raytracing New   Name/ro   *Raytracing New   MenuLocation   *Raytracing → New‏‎   |Workbenches   *[[Raytracing Workbench/ro   Raytracing]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -24,7 +24,7 @@ Insert new PovRay project in the document.
 
 ## Utilizare
 
-1.  Click pe iconița neagră \"down\"-icon de după <img alt="" src=images/Raytracing_New.png  style="width:32px;"> pentru a selecta între diferite șabloane predefinite
+1.  Click pe iconița neagră \"down\"-icon de după <img alt="" src=images/Raytracing_New.png  style="width   *32px;"> pentru a selecta între diferite șabloane predefinite
 2.  Sau alegeți ** Raytracing** → ** New Pov-Ray project** și unul dintre șabloanele predefinite din meniul principal.
 3.  Un nou proiect POVRay va fi creat și numit \"PovProject\"
 

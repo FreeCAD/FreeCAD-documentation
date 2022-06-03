@@ -3,6 +3,10 @@ Debian is the parent distribution from which many other Linux distributions are 
 
 [Debian Unstable](Debian_Unstable.md) is a good target distribution for FreeCAD development on Linux since it provides the most up-to-date packages possible, as a rolling distribution. One can contribute both to FreeCAD development on Debian as well as its ecosystem of related packages and dependencies.
 
+ 
+
+[Category   *Packaging](Category_Packaging.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
+
 
 
 ---

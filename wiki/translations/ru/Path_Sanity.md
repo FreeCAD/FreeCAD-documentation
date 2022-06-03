@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Path Sanity
-   MenuLocation:Path → Check the path job for common errors
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **S**
-   Version:0.19
+- GuiCommand   *
+   Name   *Path Sanity
+   MenuLocation   *Path → Check the path job for common errors
+   Workbenches   *[Path](Path_Workbench.md)
+   Shortcut   ***P** **S**
+   Version   *0.19
 ---
 
 # Path Sanity/ru
@@ -19,7 +19,7 @@ One issue that arises in a professional CNC shop is that there are many assumpti
 
 Commercial shops will often create a \'setup book\' which documents all these assumptions and gives the operators what they need to configure the machine and produce a part.
 
-[Path Sanity](Path_Sanity.md) is the tool in Path workbench to generate this kind of information. The output of the Path Sanity command is a stand-alone .html file with embedded images. <img alt="Above: Example of a Path Sanity generated report" src=images/Sanity.jpg  style="width:400" height="600px;">
+[Path Sanity](Path_Sanity.md) is the tool in Path workbench to generate this kind of information. The output of the Path Sanity command is a stand-alone .html file with embedded images. <img alt="Above   * Example of a Path Sanity generated report" src=images/Sanity.jpg  style="width   *400" height="600px;">
 
 ## About the Report 
 
@@ -59,11 +59,11 @@ Warnings and errors detected by [Path Sanity](Path_Sanity.md). These may or may 
 
 ## Usage
 
-1.  Select a <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Job](Path_Job.md) in the [Tree view](Tree_view.md).
-2.  There are several ways to invoke the command:
+1.  Select a <img alt="" src=images/Path_Job.svg  style="width   *16px;"> [Path Job](Path_Job.md) in the [Tree view](Tree_view.md).
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Path_Sanity.svg" width=16px> [Path Sanity](Path_Sanity.md)** button.
     -   Select the **Path → <img src="images/Path_Sanity.svg" width=16px> Check the path job for common errors** option from the menu.
-    -   Use the keyboard shortcut: **P** then **S**.
+    -   Use the keyboard shortcut   * **P** then **S**.
 3.  The relevant information is collected into a Python dictionary and then formatted into asciidoc format.
 4.  The asciidoc file is written to disk in the same location as the file that will be post-processed.
 5.  An external process calls asciidoctor to read the asciidoc and generate the .html.
@@ -73,7 +73,7 @@ Warnings and errors detected by [Path Sanity](Path_Sanity.md). These may or may 
 
 Asciidoc is a lightweight markup format for authoring notes, articles, books ,etc. It is human-readable and easily translated into other formats.
 
-Asciidoctor is a fast open-source text processor for converting asciidoc into HTML, PDF, or other formats. It\'s available for Linux, Windows, and MacOS. Asciidoctor is not installed with FreeCAD. If you use Path-Sanity without installing Asciidoctor, the asciidoc source file will be generated but the resulting HTML will not be produced. [Asciidoctor website](https://asciidoctor.org/)
+Asciidoctor is a fast open-source text processor for converting asciidoc into HTML, PDF, or other formats. It\'s available for Linux, Windows, and MacOS. Asciidoctor is not installed with FreeCAD. If you use Path-Sanity without installing Asciidoctor, the asciidoc source file will be generated but the resulting HTML will not be produced. [Asciidoctor website](https   *//asciidoctor.org/)
 
 
 

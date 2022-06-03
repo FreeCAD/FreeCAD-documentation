@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher Create3PointCircle
-   Name/de   *Skizzierer Erstelle3PunktKreis
-   MenuLocation   *Skizze → Skizzengeometrien → Kreis aus drei Punkten erstellen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut   *
+   Name/de   *Sketcher KreisDurch3PunkteErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Kreis aus drei Punkten erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **3** **C**
    SeeAlso   *
 ---
 
 # Sketcher Create3PointCircle/de
-
-
-</div>
 
 ## Beschreibung
 

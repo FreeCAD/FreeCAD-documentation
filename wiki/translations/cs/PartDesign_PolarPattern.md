@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/cs
-   Name:PartDesign_PolarPattern
-   Name/cs:Návrh dílu Polární vzorky
-   Workbenches:[Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Návrh dílu -> Polární vzorky
+- GuiCommand   */cs
+   Name   *PartDesign_PolarPattern
+   Name/cs   *Návrh dílu Polární vzorky
+   Workbenches   *[Návrh dílu](PartDesign_Workbench/cs.md)
+   MenuLocation   *Návrh dílu -> Polární vzorky
 ---
 
 # PartDesign PolarPattern/cs
@@ -23,7 +23,7 @@ Tento nástroj vezme skupinu jednoho nebo více objektů (originály) a vytvoř�
 
 ![](images/PartDesign_PolarPattern_example.png )
 
-*Above: a slot-shaped pocket (B) made on top of a base solid (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
+*Above   * a slot-shaped pocket (B) made on top of a base solid (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
 
 
 <div class="mw-translate-fuzzy">
@@ -58,7 +58,7 @@ You can change the order by dragging the feature in the list and you will see th
 
 ###### v0.18
 
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
@@ -80,7 +80,7 @@ or
 
 ###### v0.18 
 
-1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md)   *
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be removed and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
@@ -137,7 +137,7 @@ Allows you to select either a DatumLine or an edge of an object or a line of a s
 
 ### Úhel a výskyty 
 
-Určuje úhel, který má být vzorky pokryt a celkový počet vzorků (včetně originálního). Například čtyři výskyty v úhlu 180 stupňů dá 60 stupnů mezi vzorky. Je zde jedna výjimka: Je-li úhel 360, protože první a poslední výskyt je identický, čtyři výskyty budou po 90 stupních.
+Určuje úhel, který má být vzorky pokryt a celkový počet vzorků (včetně originálního). Například čtyři výskyty v úhlu 180 stupňů dá 60 stupnů mezi vzorky. Je zde jedna výjimka   * Je-li úhel 360, protože první a poslední výskyt je identický, čtyři výskyty budou po 90 stupních.
 
 
 </div>

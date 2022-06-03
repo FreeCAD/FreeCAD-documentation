@@ -5,13 +5,13 @@
 {{Macro/it
 |Name=Visibility_Manager
 |Icon=Macro_Visibility_Manager.png
-|Description=Utilizzalo per gestire la visibilità degli oggetti del documento. <br/> Esistono 2 modalità operative: Mostra tutto e Mostra tipi.<br/>Nella modalità Mostra tipi (impostazione predefinita) viene visualizzato solo un elenco dei tipi di oggetti, ad es Body, Sketch, Pad, Extrude.<br/>Attivando/disattivando uno dei tipi si imposta la visibilità di tutti i documenti
+|Description=Utilizzalo per gestire la visibilità degli oggetti del documento. <br/> Esistono 2 modalità operative   * Mostra tutto e Mostra tipi.<br/>Nella modalità Mostra tipi (impostazione predefinita) viene visualizzato solo un elenco dei tipi di oggetti, ad es Body, Sketch, Pad, Extrude.<br/>Attivando/disattivando uno dei tipi si imposta la visibilità di tutti i documenti
 oggetti di quel tipo nel documento attivo.<br/>Nella modalità Mostra tutto (Premi il tasto Maiusc mentre esegui la macro) vedi una casella di controllo diversa per ogni oggetto del documento, in ordine alfabetico.<br/>Puoi attivare visibilità individuale.
 |Author=TheMarkster
 |Version=1.04
 |Date=2019-08-05
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/c/c8/Macro_Visibility_Manager.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/c/c8/Macro_Visibility_Manager.png ToolBar Icon]
 }}
 
 
@@ -29,7 +29,7 @@ ToolBar icon ![](images/Macro_Visibility_Manager.png )
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 """
 ***************************************************************************
 *   Copyright (c) 2019 <TheMarkster>                                 *
@@ -44,7 +44,7 @@ ToolBar icon ![](images/Macro_Visibility_Manager.png )
 *   This software is distributed in the hope that it will be useful,      *
 *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
 *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
-*   GNU Library General Public License at http://www.gnu.org/licenses     *
+*   GNU Library General Public License at http   *//www.gnu.org/licenses     *
 *   for more details.                                                     *
 *                                                                         *
 *   For more information about the GNU Library General Public License     *
@@ -59,7 +59,7 @@ Visibility_Manager Macro
 
 Use this to manage the visibility of document objects.
 
-There are 2 modes of operation: Show All and Show Types.
+There are 2 modes of operation   * Show All and Show Types.
 
 In Show Types mode (the default) you only see a list of the types
 of objects, e.g. Body, Sketch, Pad, Extrude.
@@ -76,7 +76,7 @@ alphabetically.  You can toggle each object's visibility individually.
 __title__ = "Visibility_Manager"
 __author__ = "TheMarkster"
 __url__ = ""
-__Wiki__ = "https://www.freecadweb.org/wiki/Macro_Visibility_Manager"
+__Wiki__ = "https   *//www.freecadweb.org/wiki/Macro_Visibility_Manager"
 __date__ = "2020.06.18"
 __version__ = 1.06
 
@@ -84,17 +84,17 @@ import FreeCAD
 from PySide import QtCore, QtGui
 import time
 
-class Dlg(QtGui.QDialog):
-    def __init__(self, bShowAll=False):
+class Dlg(QtGui.QDialog)   *
+    def __init__(self, bShowAll=False)   *
         QtGui.QDialog.__init__(self)
         self.types={} #dict of types
         self.showAll = bShowAll
         self.reload = False
         self.infoLabel = QtGui.QLabel()
         self.infoLabel.mousePressEvent = self.label_clicked
-        if self.showAll:
+        if self.showAll   *
             self.infoLabel.setText("Show All mode")
-        else:
+        else   *
             self.infoLabel.setText("Show by Type mode")
         checkboxLayout = QtGui.QVBoxLayout()
         self.checkboxes = []
@@ -128,18 +128,18 @@ class Dlg(QtGui.QDialog):
         layout.addWidget(buttons)
         self.setLayout(layout)
 
-    def label_clicked(self, event):
+    def label_clicked(self, event)   *
         self.reload = True
         self.close()
         QtGui.QApplication.processEvents()
         time.sleep(0.1)
 
-    def addCheckboxes (self, cbLayout):
+    def addCheckboxes (self, cbLayout)   *
         objectList = FreeCAD.ActiveDocument.findObjects()
-        objectList.sort(key=lambda x: x.Name, reverse=False)
+        objectList.sort(key=lambda x   * x.Name, reverse=False)
         nameList = []
-        for obj in objectList:
-            if not self.nameInList(obj.Name, nameList):
+        for obj in objectList   *
+            if not self.nameInList(obj.Name, nameList)   *
                 nameList.append(obj.Name)
                 self.newType(obj.Name)
 
@@ -148,76 +148,76 @@ class Dlg(QtGui.QDialog):
         all.toggled.connect(self.allToggled)
         cbLayout.addWidget(all)
         self.checkboxes = [all]
-        for name in nameList:
-            for nn in range(0,len(self.types[name])):
+        for name in nameList   *
+            for nn in range(0,len(self.types[name]))   *
                 objLabel = getattr(FreeCAD.ActiveDocument,self.types[name][nn]).Label
                 objName = self.types[name][nn]
-                if objLabel != objName and self.showAll:
+                if objLabel != objName and self.showAll   *
                     ck = QtGui.QCheckBox(self.types[name][nn]+" ("+objLabel+")", self)
-                else:
+                else   *
                     ck = QtGui.QCheckBox(objName,self)
                 ck.setObjectName(objName)
 
-                if getattr(FreeCAD.ActiveDocument,self.types[name][nn]).ViewObject.Visibility:
+                if getattr(FreeCAD.ActiveDocument,self.types[name][nn]).ViewObject.Visibility   *
                     ck.setCheckState(QtCore.Qt.Checked)
-                else:
+                else   *
                     ck.setCheckState(QtCore.Qt.Unchecked)
-                if nn != 0 and not self.showAll:
+                if nn != 0 and not self.showAll   *
                     ck.hide()
                 cbLayout.addWidget(ck)
-                self.checkboxes.append(ck)def addToTypes(self, typeName, name):
+                self.checkboxes.append(ck)def addToTypes(self, typeName, name)   *
         self.types[typeName].append(name)
 
-    def newType(self, typeName):
-        self.types[typeName] = [typeName]def nameInList(self, name, nameList):
+    def newType(self, typeName)   *
+        self.types[typeName] = [typeName]def nameInList(self, name, nameList)   *
         """ check if name is in nameList
             e.g. name = "Extrude002"
             nameList = ["Extrude", "Extrude001", "Extrude002"...]
         """
-        for nl in nameList:
-            if nl in name and nl[:3] == name[:3]:
+        for nl in nameList   *
+            if nl in name and nl[   *3] == name[   *3]   *
                 self.addToTypes(nl,name)
                 return True
         return False
 
-    def allToggled(self):
+    def allToggled(self)   *
         """all checkbox was toggled"""
         allState = self.checkboxes[0].checkState()
-        for ii in range(1,len(self.checkboxes)):
+        for ii in range(1,len(self.checkboxes))   *
             self.checkboxes[ii].setCheckState(allState)
 
-    def accept(self):
+    def accept(self)   *
         """user clicked Ok"""
         self.setWindowOpacity(0.85)
         self.infoLabel.setText("Working...")
-        if self.showAll:
-            for ii in range(1, len(self.checkboxes)):
+        if self.showAll   *
+            for ii in range(1, len(self.checkboxes))   *
                 name = self.checkboxes[ii].objectName()
                 state = self.checkboxes[ii].checkState()
             
-                if state == QtCore.Qt.Checked:
+                if state == QtCore.Qt.Checked   *
                     obj = getattr(FreeCAD.ActiveDocument, name)
-                    if not obj.ViewObject.Visibility:
+                    if not obj.ViewObject.Visibility   *
                         obj.ViewObject.Visibility = True
-                else:
+                else   *
                     obj = getattr(FreeCAD.ActiveDocument, name)
-                    if obj.ViewObject.Visibility:
+                    if obj.ViewObject.Visibility   *
                         obj.ViewObject.Visibility = False
                 QtGui.QApplication.processEvents()
                 time.sleep(0.01)
-        else: #show type mode
-            for ii in range(1, len(self.checkboxes)):
-                if not self.checkboxes[ii].isVisible():
+        else   * #show type mode
+            for ii in range(1, len(self.checkboxes))   *
+                if not self.checkboxes[ii].isVisible()   *
                     continue
                 name = self.checkboxes[ii].objectName()
                 state = self.checkboxes[ii].checkState()
             
-                if state == QtCore.Qt.Checked:
-                    for n in self.types[name]:
+                if state == QtCore.Qt.Checked   *
+                    for n in self.types[name]   *
                         obj = getattr(FreeCAD.ActiveDocument, n)
                         obj.ViewObject.Visibility = True
-                else:
-                    for n in self.types[name]:
+                else   *
+                    for n in self.types[name]   *
                         obj = getattr(FreeCAD.ActiveDocument, n)
                         obj.ViewObject.Visibility = False
                 QtGui.QApplication.processEvents()
@@ -227,19 +227,19 @@ class Dlg(QtGui.QDialog):
 
 showAll = False
 modifiers = QtGui.QApplication.keyboardModifiers()
-if modifiers == QtCore.Qt.ShiftModifier:
+if modifiers == QtCore.Qt.ShiftModifier   *
     showAll = True
-if FreeCAD.ActiveDocument:
+if FreeCAD.ActiveDocument   *
     dlg = Dlg(showAll)
     dlg.setWindowTitle("Visibility Manager v"+str(__version__))
     result = dlg.exec_()
-    while dlg.reload:
+    while dlg.reload   *
         showAll = not dlg.showAll
         dlg = Dlg(showAll)
         dlg.setWindowTitle("Visibility Manager v"+str(__version__))
         result = dlg.exec_()
-else:
-    FreeCAD.Console.PrintWarning("Visibility Manager v"+str(__version__)+": no active document\n")
+else   *
+    FreeCAD.Console.PrintWarning("Visibility Manager v"+str(__version__)+"   * no active document\n")
 }}
 
 

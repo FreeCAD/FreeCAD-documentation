@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Modeling an architectural panel
-   Level: Beginner
-   Time: 60 minutes
-   Author: Yorik
-   FCVersion:
-   Files:
+- TutorialInfo   */ro
+   Topic   * Modeling an architectural panel
+   Level   * Beginner
+   Time   * 60 minutes
+   Author   * Yorik
+   FCVersion   *
+   Files   *
 ---
 
 # Arch panel tutorial/ro
@@ -14,35 +14,35 @@
 
 
 
-Acesta este un cross-post(duplicat) al tutorialului [1](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) inițial scris pentru [Open-Source Ecology](http://opensourceecology.org).
+Acesta este un cross-post(duplicat) al tutorialului [1](http   *//opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) inițial scris pentru [Open-Source Ecology](http   *//opensourceecology.org).
 
 ## Prezentarea FreeCAD 
 
-<img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width:800px;">
+<img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width   *800px;">
 
 FreeCAD este un modelator 3D parametric. Modelarea parametrică vă permite să vă modificați designul, revenind în istoricul modelului dvs. și să schimbați parametrii săi. FreeCAD este un software open source (LGPL license) și foarte modular, permițând o extindere și o personalizare foarte avansate, mulțumită utilizării intensive a limbajului de script-programare Python.
 
--   FreeCAD website: <http://www.freecadweb.org/>
--   FreeCAD documentation wiki: <http://www.freecadweb.org/wiki/index.php?title=Main_Page>
--   FreeCAD workbenches: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept>
--   FreeCAD forum: <http://forum.freecadweb.org/>
--   Getting started with FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started>
--   Architecture tutorial: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
+-   FreeCAD website   * <http   *//www.freecadweb.org/>
+-   FreeCAD documentation wiki   * <http   *//www.freecadweb.org/wiki/index.php?title=Main_Page>
+-   FreeCAD workbenches   * <http   *//www.freecadweb.org/wiki/index.php?title=Workbench_Concept>
+-   FreeCAD forum   * <http   *//forum.freecadweb.org/>
+-   Getting started with FreeCAD   * <http   *//www.freecadweb.org/wiki/index.php?title=Getting_started>
+-   Architecture tutorial   * <http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
 
 ## Instalarea FreeCAD 
 
-Aveți posibilitatea de a instala cea mai recentă versiune stabilă (de astăzi, mai 2015: versiunea 0.15) sau o versiune de dezvoltare (în prezent 0.16). De fapt, versiunile de dezvoltare ale FreeCAD sunt, de obicei, destul de stabile și sunteți puternic încurajați să încercați o versiune de dezvoltare, cu excepția cazului în care aveți un anumit motiv să nu faceți acest lucru. Deoarece dezvoltarea FreeCAD este destul de rapidă, asigurați-vă că, dacă îl descărcați manual, verificați din când în când și reinstalați / actualizați pentru a beneficia de ultimele îmbunătățiri.
+Aveți posibilitatea de a instala cea mai recentă versiune stabilă (de astăzi, mai 2015   * versiunea 0.15) sau o versiune de dezvoltare (în prezent 0.16). De fapt, versiunile de dezvoltare ale FreeCAD sunt, de obicei, destul de stabile și sunteți puternic încurajați să încercați o versiune de dezvoltare, cu excepția cazului în care aveți un anumit motiv să nu faceți acest lucru. Deoarece dezvoltarea FreeCAD este destul de rapidă, asigurați-vă că, dacă îl descărcați manual, verificați din când în când și reinstalați / actualizați pentru a beneficia de ultimele îmbunătățiri.
 
--   Pe Windows: Descărcați cea mai recentă versiune pentru versiunea Windows (32 sau 64 de biți) de la <https://github.com/FreeCAD/FreeCAD/releases>. Faceți dublu clic pe fișierul de instalat.
--   Pe Mac OS: Descărcați cea mai recentă versiune de la <https://github.com/FreeCAD/FreeCAD/releases>. Faceți dublu clic pe fișierul de instalat.
--   Pe Ubuntu: Versiunea FreeCAD furnizată de Ubuntu este de obicei depășită, deci vă recomandăm să utilizați în schimb PPA menținut de comunitatea FreeCAD. Pentru a instala, deschideți aplicația \"Sursa de software\" a Ubuntu și adăugați ppa: freecad-maintainers / freecad-stable pentru versiunea stabilă sau ppa: freecad-maintainers / freecad-daily pentru versiunea de dezvoltare pentru sursele software.
--   Pe alte platforme: În majoritatea distribuțiilor mainstream Linux (Debian, Fedora, etc), FreeCAD este inclus în depozitele oficiale de software. S-ar putea să nu fie totuși cea mai actualizată versiune. Dacă versiunea de care aveți nevoie nu este disponibilă, singura opțiune este să compilați gratuit FreeCAD (instrucțiuni de pe site-ul FreeCAD)
+-   Pe Windows   * Descărcați cea mai recentă versiune pentru versiunea Windows (32 sau 64 de biți) de la <https   *//github.com/FreeCAD/FreeCAD/releases>. Faceți dublu clic pe fișierul de instalat.
+-   Pe Mac OS   * Descărcați cea mai recentă versiune de la <https   *//github.com/FreeCAD/FreeCAD/releases>. Faceți dublu clic pe fișierul de instalat.
+-   Pe Ubuntu   * Versiunea FreeCAD furnizată de Ubuntu este de obicei depășită, deci vă recomandăm să utilizați în schimb PPA menținut de comunitatea FreeCAD. Pentru a instala, deschideți aplicația \"Sursa de software\" a Ubuntu și adăugați ppa   * freecad-maintainers / freecad-stable pentru versiunea stabilă sau ppa   * freecad-maintainers / freecad-daily pentru versiunea de dezvoltare pentru sursele software.
+-   Pe alte platforme   * În majoritatea distribuțiilor mainstream Linux (Debian, Fedora, etc), FreeCAD este inclus în depozitele oficiale de software. S-ar putea să nu fie totuși cea mai actualizată versiune. Dacă versiunea de care aveți nevoie nu este disponibilă, singura opțiune este să compilați gratuit FreeCAD (instrucțiuni de pe site-ul FreeCAD)
 
 ## Conținut opțional Adițional 
 
--   Activarea importului / exportului IFC: Pentru a importa și a exporta proiecte în / din formatul fișierului IFC, FreeCAD se bazează pe importatorul IfcOpenShell, pe care trebuie să îl instalați separat de la <http://ifcopenshell.org/python.html>. Asigurați-vă că alegeți o versiune bazată pe python2.7, aceeași versiune Python folosită de FreeCAD.
--   Baza de lucru pentru dimensionarea desenelor: Un Atelier de lucru suplimentar pentru FreeCAD, care oferă multe instrumente convenabile pentru a adăuga dimensiuni și adnotări la foile de desen 2D ale FreeCAD: <https://github.com/hamish2014/FreeCAD_drawing_dimensioning> (Instalați instrucțiunile de pe pagina web)
--   Workbench Assembly2: Un Atelier de lucru suplimentar pentru FreeCAD, care oferă o serie de instrumente de asamblare de bază: <https://github.com/hamish2014/FreeCAD_assembly2> (Instalați instrucțiuni de pe pagina web)
+-   Activarea importului / exportului IFC   * Pentru a importa și a exporta proiecte în / din formatul fișierului IFC, FreeCAD se bazează pe importatorul IfcOpenShell, pe care trebuie să îl instalați separat de la <http   *//ifcopenshell.org/python.html>. Asigurați-vă că alegeți o versiune bazată pe python2.7, aceeași versiune Python folosită de FreeCAD.
+-   Baza de lucru pentru dimensionarea desenelor   * Un Atelier de lucru suplimentar pentru FreeCAD, care oferă multe instrumente convenabile pentru a adăuga dimensiuni și adnotări la foile de desen 2D ale FreeCAD   * <https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning> (Instalați instrucțiunile de pe pagina web)
+-   Workbench Assembly2   * Un Atelier de lucru suplimentar pentru FreeCAD, care oferă o serie de instrumente de asamblare de bază   * <https   *//github.com/hamish2014/FreeCAD_assembly2> (Instalați instrucțiuni de pe pagina web)
 
 ## Sfaturi pentru startup rapid 
 
@@ -62,11 +62,11 @@ FreeCAD este o aplicație foarte tehnică, iar curba de învățare poate fi abr
 
 -   Deși FreeCAD poate importa și lucra cu obiecte tip plasă (mesh workbench), este proiectat în primul rând pentru a lucra cu un tip de obiect mai avansat, denumit "brep", utilizat de majoritatea atelierelor de lucru (Part, PartDesign, Draft, Sketcher, Arch). Când importați fișiere bazate pe fișiere (.dae, .orb, .stl \...), va trebui de obicei să transformați aceste obiecte în brep, înainte de a putea face ceva interesant cu ele. Formatele de fișier pe bază de solide (.step, .iges), atunci când sunt importate în FreeCAD, produc direct obiecte brep. Formatele 2D (.dxf, .svg) produc, de asemenea, conținut brep.
 
--   FreeCAD are căi diferite, sau modalități, pentru a folosi butoanele mouse-ului. Aceste moduri pot fi setate în preferințe sau în modificările efectuate, făcând clic dreapta pe fundalul vizualizării 3D. Acestea sunt descrise pe <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model>. Cele mai potrivite moduri pentru lucrul în FreeCAD sunt CAD sau gesturi.
+-   FreeCAD are căi diferite, sau modalități, pentru a folosi butoanele mouse-ului. Aceste moduri pot fi setate în preferințe sau în modificările efectuate, făcând clic dreapta pe fundalul vizualizării 3D. Acestea sunt descrise pe <http   *//www.freecadweb.org/wiki/index.php?title=Mouse_Model>. Cele mai potrivite moduri pentru lucrul în FreeCAD sunt CAD sau gesturi.
 
-## Exercițiu: modelarea unui panou de acoperiș 
+## Exercițiu   * modelarea unui panou de acoperiș 
 
-Pentru a prezenta un flux de lucru tipic în FreeCAD, să modelăm un panou de acoperiș așa cum este descris în <http://opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. Pentru a face acest lucru, vom începe să desenăm diferitele piese într-o schiță cu constrângeri 2D, apoi vom profita de obiectul special Window, care este capabil să construiască obiecte 3D complexe dintr-o schiță 2D care conține conturul mai multor piese. În cele din urmă, din moment ce ceea ce avem nevoie nu este o fereastră, ci un panou de acoperiș, vom transforma pur și simplu obiectul ferestrei în alt tip Arch.
+Pentru a prezenta un flux de lucru tipic în FreeCAD, să modelăm un panou de acoperiș așa cum este descris în <http   *//opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. Pentru a face acest lucru, vom începe să desenăm diferitele piese într-o schiță cu constrângeri 2D, apoi vom profita de obiectul special Window, care este capabil să construiască obiecte 3D complexe dintr-o schiță 2D care conține conturul mai multor piese. În cele din urmă, din moment ce ceea ce avem nevoie nu este o fereastră, ci un panou de acoperiș, vom transforma pur și simplu obiectul ferestrei în alt tip Arch.
 
 ### 1. Open FreeCAD, then set your preferred units to "imperial" 
 
@@ -110,7 +110,7 @@ Depending on your system, FreeCAD might begin to be slow to process new constrai
 
 ### 8. Calculate the spacing between the 7 reinforcement pieces and set vertical constraints between them. 
 
-In our case, our total length is 192 inches, minus the two end pieces (2 x 2 inches) and the two corner reinforcements (2 x 6 inches), = 192 -- (4 + 12) = 176. Removing the 7 reinforcement pieces ( 7 x 2 ) = 162. Dividing this by 8 gives us the space between each reinforcement: 20.25.
+In our case, our total length is 192 inches, minus the two end pieces (2 x 2 inches) and the two corner reinforcements (2 x 6 inches), = 192 -- (4 + 12) = 176. Removing the 7 reinforcement pieces ( 7 x 2 ) = 162. Dividing this by 8 gives us the space between each reinforcement   * 20.25.
 
 ![](images/Arch_panel_tutorial_08.jpg )
 
@@ -122,13 +122,13 @@ On the right panel (Tasks tab in the Combo View -\> Solver messages), you can se
 
 This is actually not absolutely necessary. But it is always better to keep track of the exact position of objects (we are now certain that our corner is at the (0,0) point). In case something goes wrong later, or we need to figure out the position of an object built upon this sketch, this will be useful.
 
-We can now press the "close" button and our base sketch is built:
+We can now press the "close" button and our base sketch is built   *
 
 ![](images/Arch_panel_tutorial_10.jpg )
 
 ### 10. Switch to the Arch workbench and, with the sketch selected, press the "window" button 
 
-Our sketch has now vanished and one of its rectangles has been extruded slightly into a solid piece:
+Our sketch has now vanished and one of its rectangles has been extruded slightly into a solid piece   *
 
 ![](images/Arch_panel_tutorial_11.jpg )
 
@@ -138,7 +138,7 @@ Although this seems wrong, it is simply because the Arch Window tool has created
 
 ![](images/Arch_panel_tutorial_12.jpg )
 
-When double-clicking the window, its base sketch becomes visible again, and we get its edit interface: At the left, a list of the loops found in the base sketch, at the right the solid pieces built on it.
+When double-clicking the window, its base sketch becomes visible again, and we get its edit interface   * At the left, a list of the loops found in the base sketch, at the right the solid pieces built on it.
 
 Begin with removing the "Default" piece.
 
@@ -150,7 +150,7 @@ The "Type" value will be used to attribute materials to the window (not implemen
 
 Then press the "Create component" button. Sometimes FreeCAD fails to guess correctly the direction of the extrusion, and you must therefore edit your component and change the 6 inches value by -6 inches.
 
-Repeat this for all the needed pieces:
+Repeat this for all the needed pieces   *
 
 ![](images/Arch_panel_tutorial_14.jpg )
 
@@ -166,7 +166,7 @@ We can then edit our window again, and add new components. We can see that a new
 
 ![](images/Arch_panel_tutorial_15.jpg )
 
-We can now create another component based on the same Wire, in order to place another panel on top of our frame. This time, we will give it an offset of 6.05 inches. Our panel is finally complete:
+We can now create another component based on the same Wire, in order to place another panel on top of our frame. This time, we will give it an offset of 6.05 inches. Our panel is finally complete   *
 
 ![](images/Arch_panel_tutorial_16.jpg )
 

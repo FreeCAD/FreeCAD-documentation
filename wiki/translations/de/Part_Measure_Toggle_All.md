@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Part Measure Toggle All
-   Name/de:Part Messen Alles umschalten
-   MenuLocation:{{StdMenu|[Messen](Std_Measure_Menu.md)}}/de → Alles umschalten
-   Workbenches:[Part](Part_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Part Measure Toggle All
+   Name/de   *Part Messen Alles umschalten
+   MenuLocation   *{{StdMenu|[Messen](Std_Measure_Menu.md)}}/de → Alles umschalten
+   Workbenches   *[Part](Part_Workbench/de.md)
 ---
 
 # Part Measure Toggle All/de
@@ -28,8 +28,8 @@ Dieses Werkzeug schaltet die Sichtbarkeit aller Messungen in der [3D Ansicht](3D
 
 <div class="mw-translate-fuzzy">
 
-1.  Aufrufen des Befehls auf verschiedene Weise:
-    -   Drücke die **[<img src=images/Part_Measure_Clear_All.svg style="width:24px"> '''Alles umschalten'''** Schaltfläche.
+1.  Aufrufen des Befehls auf verschiedene Weise   *
+    -   Drücke die **[<img src=images/Part_Measure_Clear_All.svg style="width   *24px"> '''Alles umschalten'''** Schaltfläche.
     -   Verwende den **Messen → Alles umschalten**
 
 

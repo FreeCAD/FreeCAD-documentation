@@ -18,7 +18,7 @@ These instructions have been tested on macOS Catalina with standard XCode 11.6. 
 
 This page serves as a quick start, and is not intended to be comprehensive with regard to describing all the available build options.
 
-If you just want to evaluate the latest pre-release build of FreeCAD, you can download pre-built binaries [from here](https://github.com/FreeCAD/FreeCAD/releases).
+If you just want to evaluate the latest pre-release build of FreeCAD, you can download pre-built binaries [from here](https   *//github.com/FreeCAD/FreeCAD/releases).
 
 ## Install Prerequisites 
 
@@ -26,11 +26,11 @@ The following software must be installed to support the build process.
 
 ### Homebrew Package Manager 
 
-Homebrew is a command line based package manager for macOS. The [Homebrew main page](https://brew.sh/) provides an installation command line that you simply paste into a terminal window.
+Homebrew is a command line based package manager for macOS. The [Homebrew main page](https   *//brew.sh/) provides an installation command line that you simply paste into a terminal window.
 
 ### CMake
 
-CMake is a build tool that generates a build configuration based on variables you specify. You then issue the \'make\' command to actually build that configuration. The command-line version of CMake is automatically installed as part of the Homebrew installation, above. If you prefer to use a GUI version of CMake, you can download it from [here](https://www.cmake.org/downloadDownload).
+CMake is a build tool that generates a build configuration based on variables you specify. You then issue the \'make\' command to actually build that configuration. The command-line version of CMake is automatically installed as part of the Homebrew installation, above. If you prefer to use a GUI version of CMake, you can download it from [here](https   *//www.cmake.org/downloadDownload).
 
 ## Install Dependencies 
 
@@ -43,10 +43,10 @@ brew install eigen
 brew install --only-dependencies freecad
 ```
 
-Notes:
 
-1.  \'brew install\' may take quite a while, so you may want go grab a beverage. :-).
-2.  Homebrew is currently shipping with Boost 1.73, which contains a bug to compile FreeCAD please edit the file /usr/local/opt/boost/include/boost/geometry/index/detail/rtree/visitors/insert.hpp and on line 265 declare MembersHolder::visitor as being a Public value by replacing : MembersHolder::visitor with : public MembersHolder::visitor
+{{Incode|brew install}}
+
+may take quite a while, so you may want go grab a beverage.    *-).
 
 ## Get the source 
 
@@ -69,7 +69,7 @@ The following command will clone the FreeCAD git repository into a directory cal
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD FreeCAD-git
+git clone https   *//github.com/FreeCAD/FreeCAD FreeCAD-git
 ```
 
 Create the build folder.
@@ -95,7 +95,7 @@ Next, we will run CMake to generate the build configuration. Several options mus
   FREECAD\_USE\_EXTERNAL\_KDL   1 (BOOL)                                 Required.
   BUILD\_FEM\_NETGEN            1 (BOOL)                                 Required if choosing to build the FEM tools.
 
-Note: Command line to generate CMAKE\_PREFIX\_PATH:
+Note   * Command line to generate CMAKE\_PREFIX\_PATH   *
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
@@ -103,7 +103,7 @@ ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/
 
 Open the CMake app, and fill in the source and build folder fields. In this example, it would be **/Users/username/FreeCAD/FreeCAD-git** for the source, and **/Users/username/FreeCAD/build** for the build folder.
 
-Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note: You will need to check the **Advanced** checkbox to get all of the options.
+Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note   * You will need to check the **Advanced** checkbox to get all of the options.
 
 Set options from the table above, then click **Configure** again and then **Generate**.
 
@@ -181,7 +181,15 @@ When using CMake versions older than 3.1.0, it\'s necessary to set CMake variabl
 
 ### Additional Build Instructions 
 
-FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
+FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https   *//github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
+
+
+
+
+
+
+
+[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

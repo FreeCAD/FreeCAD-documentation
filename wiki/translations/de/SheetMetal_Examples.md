@@ -194,6 +194,69 @@ Für die zweite Anwendung von **Fläche erweitern** wird eine Skizze mit zwei Ko
 
 (Die Zugentlastung ist nur eine künstlerische Darstellung von dem, was in einem echten Stecker versteckt sein kann)
 
+## SheetMetal Eigenschaften 
+
+Dieser Abschnitt versucht die Eigenschaften jedes SheetMetal-Objekts, wo es möglich ist, mit einfachen Bildern zu erklären.
+
+
+<div class="mw-collapsible mw-collapsed">
+
+### BaseBend-Objekt <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+<img alt="" src=images/SheetMetal_Example-08a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;">
+
+
+
+*Ausgewählte Skizze + 
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)* 
+→ BaseBend-Objekt mit Standardeinstellungen**
+
+<img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08c.png  style="width   *200px;">
+
+
+
+*{{PropertyData/de|length* bearbeiten   * Standardlänge → Reduzierte Länge}}
+
+<img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08h.png  style="width   *200px;">
+
+
+
+*{{PropertyData/de|Mid Plane* von {{False}} auf `True` umschalten   * Extrusion in eine Richtung → Symmetrische Extrusion}}
+
+<img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;">
+
+
+
+*{{PropertyData/de|Reverse* von {{False}} auf `True` umschalten   * Standardrichtung → Umgekehrte Richtung}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08g.png  style="width   *200px;">
+
+
+
+*{{PropertyData/de|Bend Side* auswählen   * {{value|Outside}} (Standard) → {{value|Inside}} → {{value| Middle}}}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08i.png  style="width   *200px;">
+
+
+
+*{{PropertyData/de|radius* bearbeiten   * Standardradius → Vergrößerter Radius.<br>
+Diese Eigenschaft entspricht dem Innenradius der Bögen, die an Knotenpunkten erstellt werden, an denen der Übergang zweier Kanten in der Skizze nicht tangential ist.}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08j.png  style="width   *200px;">
+
+
+
+*{{PropertyData/de|thickness* bearbeiten   * Standardwandstärke → Vergrößerte Wandstärke}}
+
+
+</div>
+
+
+</div>
+
 [Category   *SheetMetal](Category_SheetMetal.md) [Category   *Addons](Category_Addons.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 

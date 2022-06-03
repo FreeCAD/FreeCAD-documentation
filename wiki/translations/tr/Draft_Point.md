@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Point
-   Name/tr:Nokta
-   MenuLocation:Taslak → Nokta
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:P T
-   SeeAlso:[Çizgi](Draft_Line/tr.md), [Tel](Draft_Wire/tr.md)
-   Version:0.17
+- GuiCommand   */tr
+   Name   *Draft Point
+   Name/tr   *Nokta
+   MenuLocation   *Taslak → Nokta
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut   *P T
+   SeeAlso   *[Çizgi](Draft_Line/tr.md), [Tel](Draft_Wire/tr.md)
+   Version   *0.17
 ---
 
 # Draft Point/tr
@@ -24,7 +24,7 @@ Nokta aracı, geçerli [Çalışma düzlemi](Draft_SelectPlane/tr.md) içinde ba
 
 </div>
 
-<img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_point_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +34,7 @@ Nokta aracı, geçerli [Çalışma düzlemi](Draft_SelectPlane/tr.md) içinde ba
 
 </div>
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -63,19 +63,19 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Notes
 
--   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Snap Near](Draft_Snap_Near.md) to snap to Draft points.
+-   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Snap Near](Draft_Snap_Near.md) to snap to Draft points.
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Özellikler
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A Draft Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -85,11 +85,11 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/tr|X}}: Noktanın X koordinatı
+-    {{PropertyData/tr|X}}   * Noktanın X koordinatı
 
--    {{PropertyData/tr|Y}}: Noktanın Y koordinatı
+-    {{PropertyData/tr|Y}}   * Noktanın Y koordinatı
 
--    {{PropertyData/tr|Z}}: Noktanın Z koordinatı
+-    {{PropertyData/tr|Z}}   * Noktanın Z koordinatı
 
 
 </div>
@@ -99,9 +99,9 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: not used.
+-    **Pattern|Enumeration**   * not used.
 
--    **Pattern Size|Float**: not used.
+-    **Pattern Size|Float**   * not used.
 
 ## Scripting
 
@@ -111,7 +111,7 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -121,7 +121,7 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 <div class="mw-translate-fuzzy">
 
-Nokta aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
+Nokta aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
 
 
 </div>
@@ -148,7 +148,7 @@ point = make_point(point, Y=0, Z=0, color=None, name="Point", point_size=5)
 
 </div>
 
-Example:
+Example   *
 
 
 ```python
@@ -165,7 +165,7 @@ point2 = Draft.make_point(p2, color=(0.5, 0.3, 0.6), point_size=10)
 doc.recompute()
 ```
 
-Örnek:
+Örnek   *
 
 This code creates `N` random points within a square of side `2L`. It makes a loop creating `N` points, that may appear anywhere from `-L` to `+L` on both X and Y. It also chooses a random color and size for each point. Change `N` to change the number of points, and change `L` to change the area covered by the points.
 
@@ -182,7 +182,7 @@ centered = App.Placement(App.Vector(-L, -L, 0), App.Rotation())
 rectangle = Draft.make_rectangle(2*L, 2*L, placement=centered)
 
 N = 10
-for i in range(N):
+for i in range(N)   *
     x = 2*L*random.random() - L
     y = 2*L*random.random() - L
     z = 0

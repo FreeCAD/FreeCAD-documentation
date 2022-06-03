@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Std DemoMode
-   MenuLocation:Tools → View turntable...
-   Workbenches:All
+- GuiCommand   *
+   Name   *Std DemoMode
+   MenuLocation   *Tools → View turntable...
+   Workbenches   *All
 ---
 
 # Std DemoMode/en

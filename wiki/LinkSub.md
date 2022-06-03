@@ -27,7 +27,7 @@ It is possible to see that a [LinkSubList](LinkSubList.md) is a list of [LinkSub
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), [LinkSubList](LinkSubList.md).
 
@@ -39,16 +39,16 @@ It is important to recompute the objects before their subelements are used as in
 ```python
 doc = App.newDocument()
 
-cube = doc.addObject("Part::Box", "Cube")
-cyl = doc.addObject("Part::Cylinder", "Cylinder")
+cube = doc.addObject("Part   *   *Box", "Cube")
+cyl = doc.addObject("Part   *   *Cylinder", "Cylinder")
 doc.recompute()
 
-new_obj = doc.addObject("App::FeaturePython", "New")
-new_obj.addProperty("App::PropertyLinkSub", "Geometry")
+new_obj = doc.addObject("App   *   *FeaturePython", "New")
+new_obj.addProperty("App   *   *PropertyLinkSub", "Geometry")
 new_obj.Geometry = [cube, ["Vertex1", "Vertex2"]]
 
-new_obj2 = doc.addObject("App::FeaturePython", "New")
-new_obj2.addProperty("App::PropertyLinkSub", "Geometry")
+new_obj2 = doc.addObject("App   *   *FeaturePython", "New")
+new_obj2.addProperty("App   *   *PropertyLinkSub", "Geometry")
 new_obj2.Geometry = [cyl, "Edge1"]
 
 doc.recompute()
@@ -57,7 +57,7 @@ doc.recompute()
 The subelement can then be extracted from the assigned property, and can be manipulated to do something.  
 ```python
 >>> new_obj.Geometry
-(<Part::PartFeature>, ['Vertex1', 'Vertex2'])
+(<Part   *   *PartFeature>, ['Vertex1', 'Vertex2'])
 
 >>> new_obj.Geometry[1]
 ['Vertex1', 'Vertex2']

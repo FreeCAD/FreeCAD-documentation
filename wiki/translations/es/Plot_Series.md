@@ -1,17 +1,17 @@
 ---
-- GuiCommand:
-   Name:Plot Series
-   MenuLocation:Plot → Configure series
-‏‎   Workbenches:[Plot](Plot_Workbench.md)
+- GuiCommand   *
+   Name   *Plot Series
+   MenuLocation   *Plot → Configure series
+‏‎   Workbenches   *[Plot](Plot_Workbench.md)
 ---
 
 # Plot Series/es
 
 ## Description
 
-The standard plot module already provides a tool to edit the plot series style <img alt="" src=images/Matplotlib_edit_subplot.png  style="width:24px;">. But if you install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), a more complete and straigthforward tool will be available.
+The standard plot module already provides a tool to edit the plot series style <img alt="" src=images/Matplotlib_edit_subplot.png  style="width   *24px;">. But if you install the <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), a more complete and straigthforward tool will be available.
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
 
 ## Usage
 
@@ -22,13 +22,13 @@ Select the plot tab that you want to edit, and run this tool. Then select the se
 
 ## Options
 
--   **Label**: You can set the label. [LaTeX](https://www.latex-project.org/) math formulas are accepted.
--   **No label**: If selected, the series is not shown at the plot legend. Otherwise the series will shown at the legend with the appropriate label.
--   **Line Style**: The considered line style. Use \"\_draw\_nothing\" to don\'t consider lines for that specific series.
--   **Line Width**: The line width.
--   **Marker**: The considered marker. Use \"\_draw\_nothing\" to don\'t consider markers for that specific series.
--   **Marker Size**: The marker size.
--   **Color**: The series color.
+-   **Label**   * You can set the label. [LaTeX](https   *//www.latex-project.org/) math formulas are accepted.
+-   **No label**   * If selected, the series is not shown at the plot legend. Otherwise the series will shown at the legend with the appropriate label.
+-   **Line Style**   * The considered line style. Use \"\_draw\_nothing\" to don\'t consider lines for that specific series.
+-   **Line Width**   * The line width.
+-   **Marker**   * The considered marker. Use \"\_draw\_nothing\" to don\'t consider markers for that specific series.
+-   **Marker Size**   * The marker size.
+-   **Color**   * The series color.
 
 
 
@@ -36,7 +36,9 @@ Select the plot tab that you want to edit, and run this tool. Then select the se
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

@@ -24,7 +24,7 @@ All additions to the Job\--including modifications, and Operation copies\--are a
 
 ## What is the difference between Clearance Height and Safe Height? 
 
-More detailed information is available in [Depths and Heights](Template:Depths/Heights.md).
+More detailed information is available in [Depths and Heights](Template   *Depths/Heights.md).
 
 [top](#top.md)
 
@@ -32,7 +32,7 @@ More detailed information is available in [Depths and Heights](Template:Depths/H
 
 The SetupSheet is a dedicated spreadsheet contained within a Job, modified in the Property view, accessible only from Path workbench. It provides a mechanism for more expert users to configure aspects of their Job by using Values and Expressions contained within the SetupSheet.
 
-Current inputs for Depths, Heights, and Tool Controllers include:
+Current inputs for Depths, Heights, and Tool Controllers include   *
 
 1.  Final Depth Expression \-- OpFinalDepth
 2.  Start Depth Expression \-- OpStartDepth
@@ -84,7 +84,7 @@ OpenCamLibrary is not integrated into FreeCAD to ensure no licensing violations 
 
 For Pocket Operations, the Start Point defaults to XYZ = 000, and is always on, but it too can be configured in the Property view window. Pocket and Facing Operations provide explicit Climb versus Conventional Cut Mode specification in the Operation tab.
 
-For Contour style Operations, the Operation tab has a \"Direction\" input that may be configured as CW (clockwise), or CCW (counterclockwise), which defines the cut direction. For reference:
+For Contour style Operations, the Operation tab has a \"Direction\" input that may be configured as CW (clockwise), or CCW (counterclockwise), which defines the cut direction. For reference   *
 
 1.  Cut Side = Outside, Cut Direction = CCW, Climb Cut
 2.  Cut Side = Outside, Cut Direction = CW, Conventional Cut
@@ -98,7 +98,7 @@ In FaceMill Operations Material Allowance can be specified, allowing overcutting
 
 In Contour and Pocket Operations, the Extra Offset serves the same purpose.
 
-These inputs are valuable, allowing functionality including:
+These inputs are valuable, allowing functionality including   *
 
 1.  Defining Roughing Passes, in conjunction with the Depths input fields.
 2.  Specifying overcut for Facing operations
@@ -160,7 +160,7 @@ If the path lines obscure the simulation result, their visibility should be togg
 
 ## What is the significance of the path line colors? 
 
-Path line colors are defined in the Edit-\>Preference\...-\>Path-\>GUI-\>Default Path colors. Default colors include:
+Path line colors are defined in the Edit-\>Preference\...-\>Path-\>GUI-\>Default Path colors. Default colors include   *
 
 1.  Green for normal paths.
 2.  Red for rapid paths.
@@ -212,7 +212,7 @@ Path workbench shifted dramatically from FreeCAD v0.16 to v0.17, and any videos 
 
 ## Why are arcs not round, but are made of a set of straight lines? 
 
-This is only a matter of displaying the path. You can change this in the preferences: Load Path workbench.
+This is only a matter of displaying the path. You can change this in the preferences   * Load Path workbench.
 
 1.  open Preferences-\>Path-\>Job Preferences
 2.  set the values for *Default Geometry Tolerance* and *Default Curve Accuracy* to small values but not to 0, e.g. to 0.01mm.

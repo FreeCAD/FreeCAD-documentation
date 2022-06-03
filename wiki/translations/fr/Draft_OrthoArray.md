@@ -1,34 +1,34 @@
 ---
-- GuiCommand:/fr
-   Name:Draft OrthoArray
-   Name/fr:Draft Réseau orthogonal
-   MenuLocation:Modification → Outils de réseau → Réseau
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
+- GuiCommand   */fr
+   Name   *Draft OrthoArray
+   Name/fr   *Draft Réseau orthogonal
+   MenuLocation   *Modification → Outils de réseau → Réseau
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
 # Draft OrthoArray/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft Réseau orthogonal** crée un réseau orthogonal (3 axes) à partir d\'un objet sélectionné. La commande peut éventuellement créer un réseau de liens [Link](App_Link/fr.md), qui est plus efficace qu\'un réseau normal.
+La commande <img alt="" src=images/Draft_OrthoArray.svg  style="width   *24px;"> **Draft Réseau orthogonal** crée un réseau orthogonal (3 axes) à partir d\'un objet sélectionné. La commande peut éventuellement créer un réseau de liens [Link](App_Link/fr.md), qui est plus efficace qu\'un réseau normal.
 
 La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draft](Draft_Workbench/fr.md) ou l\'[Atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[Atelier Part](Part_Workbench/fr.md), l\'[Atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[Atelier Arch](Arch_Workbench/fr.md).
 
-<img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
+<img alt="" src=images/Draft_Array_example.png  style="width   *300px;"> 
 *Un réseau orthogonal Draft*
 
 ## Utilisation
 
 1.  Sélectionner un objet au choix.
-2.  Il existe plusieurs façons de lancer la commande :
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_OrthoArray.svg" width=16px> [Réseau](Draft_OrthoArray/fr.md)**.
     -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_OrthoArray.svg" width=16px> Réseau** dans le menu.
 3.  Le panneau de tâches **Réseau orthogonal** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet.
+4.  Si vous n\'avez pas encore sélectionné d\'objet    * sélectionnez un objet.
 5.  Saisissez les paramètres requis dans le panneau des tâches.
-6.  Pour terminer la commande, effectuez l\'une des opérations suivantes :
+6.  Pour terminer la commande, effectuez l\'une des opérations suivantes    *
     -   Cliquez dans la [Vue 3D](3D_view/fr.md).
     -   Appuyez sur **Entrée**.
     -   Appuyez sur le bouton **OK**.
@@ -51,15 +51,15 @@ La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draf
 
 ## Préférences
 
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées    * **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
 
-La commande Draft Réseau orthogonal, la commande [Draft Réseau polaire](Draft_PolarArray/fr.md) et la commande [Draft Réseau circulaire](Draft_CircularArray/fr.md) créent le même objet. Cet objet est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés (à l\'exception de certaines propriétés Vue qui ne sont pas héritées par les réseaux liens Link). Les propriétés suivantes sont supplémentaires, sauf indication contraire :
+La commande Draft Réseau orthogonal, la commande [Draft Réseau polaire](Draft_PolarArray/fr.md) et la commande [Draft Réseau circulaire](Draft_CircularArray/fr.md) créent le même objet. Cet objet est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés (à l\'exception de certaines propriétés Vue qui ne sont pas héritées par les réseaux liens Link). Les propriétés suivantes sont supplémentaires, sauf indication contraire    *
 
 ### Données
 
@@ -103,65 +103,65 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 Les propriétés de ce groupe sont cachées pour les réseaux orthogonaux et les réseaux polaires.
 
--    **Number Circles|Integer**: spécifie le nombre de couches circulaires. Doit être au moins {{Value|2}}.
+-    **Number Circles|Integer**   * spécifie le nombre de couches circulaires. Doit être au moins {{Value|2}}.
 
--    **Radial Distance|Distance**: spécifie la distance entre les couches circulaires.
+-    **Radial Distance|Distance**   * spécifie la distance entre les couches circulaires.
 
--    **Symmetry|Integer**: spécifie le nombre de lignes de symétrie. Ce nombre modifie la répartition des éléments dans le réseau.
+-    **Symmetry|Integer**   * spécifie le nombre de lignes de symétrie. Ce nombre modifie la répartition des éléments dans le réseau.
 
--    **Tangential Distance|Distance**: spécifie la distance entre les éléments d\'une même couche circulaire. Elle doit être supérieure à zéro.
+-    **Tangential Distance|Distance**   * spécifie la distance entre les éléments d\'une même couche circulaire. Elle doit être supérieure à zéro.
 
 
 {{TitleProperty|Objects}}
 
--    **Array Type|Enumeration**: spécifie le type de réseau, qui peut être {{value|ortho}}, {{value|polar}} ou {{value|circular}}.
+-    **Array Type|Enumeration**   * spécifie le type de réseau, qui peut être {{value|ortho}}, {{value|polar}} ou {{value|circular}}.
 
--    **Axis Reference|LinkGlobal**: spécifie l\'objet et le bord à utiliser à la place des propriétés **Axis** et **Center**. Non utilisé pour les réseaux orthogonaux.
+-    **Axis Reference|LinkGlobal**   * spécifie l\'objet et le bord à utiliser à la place des propriétés **Axis** et **Center**. Non utilisé pour les réseaux orthogonaux.
 
--    **Base|Link**: spécifie l\'objet à dupliquer dans le réseau.
+-    **Base|Link**   * spécifie l\'objet à dupliquer dans le réseau.
 
--    **Count|Integer**: (en lecture seule) spécifie le nombre total d\'éléments dans le réseau. Uniquement disponible pour les réseaux Link.
+-    **Count|Integer**   * (en lecture seule) spécifie le nombre total d\'éléments dans le réseau. Uniquement disponible pour les réseaux Link.
 
--    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la vue [Tree view](Tree_view.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
+-    **Expand Array|Bool**   * spécifie s\'il faut développer le réseau dans la vue [Tree view](Tree_view.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
 
--    **Fuse|Bool**: spécifie si les éléments qui se chevauchent dans le réseau sont fusionnés ou non. Non utilisé pour les réseaux de type Link.
+-    **Fuse|Bool**   * spécifie si les éléments qui se chevauchent dans le réseau sont fusionnés ou non. Non utilisé pour les réseaux de type Link.
 
 
 {{TitleProperty|Orthogonal array}}
 
 Les propriétés de ce groupe sont masquées pour les réseaux circulaires et les réseaux polaires.
 
--    **Interval X|VectorDistance**: spécifie l\'intervalle entre les éléments dans la direction X.
+-    **Interval X|VectorDistance**   * spécifie l\'intervalle entre les éléments dans la direction X.
 
--    **Interval Y|VectorDistance**: spécifie l\'intervalle entre les éléments dans la direction Y.
+-    **Interval Y|VectorDistance**   * spécifie l\'intervalle entre les éléments dans la direction Y.
 
--    **Interval Z|VectorDistance**: spécifie l\'intervalle entre les éléments dans la direction Z.
+-    **Interval Z|VectorDistance**   * spécifie l\'intervalle entre les éléments dans la direction Z.
 
--    **Number X|Integer**: spécifie le nombre d\'éléments dans la direction X. Doit être au moins {{Value|1}}.
+-    **Number X|Integer**   * spécifie le nombre d\'éléments dans la direction X. Doit être au moins {{Value|1}}.
 
--    **Number Y|Integer**: spécifie le nombre d\'éléments dans la direction Y. Doit avoir au moins la valeur {{Value|1}}.
+-    **Number Y|Integer**   * spécifie le nombre d\'éléments dans la direction Y. Doit avoir au moins la valeur {{Value|1}}.
 
--    **Number Z|Integer**: spécifie le nombre d\'éléments dans la direction Z. Doit être au moins égal à {{Value|1}}.
+-    **Number Z|Integer**   * spécifie le nombre d\'éléments dans la direction Z. Doit être au moins égal à {{Value|1}}.
 
 
 {{TitleProperty|Polar array}}
 
 Les propriétés de ce groupe sont masquées pour les réseaux circulaires et les réseaux orthogonaux.
 
--    **Angle|Angle**: spécifie l\'ouverture de l\'arc de cercle. Utilisez {{value|360&#176;}} pour un cercle complet.
+-    **Angle|Angle**   * spécifie l\'ouverture de l\'arc de cercle. Utilisez {{value|360&#176;}} pour un cercle complet.
 
--    **Interval Axis|VectorDistance**: spécifie l\'intervalle entre les éléments dans la direction **Axis**.
+-    **Interval Axis|VectorDistance**   * spécifie l\'intervalle entre les éléments dans la direction **Axis**.
 
--    **Number Polar|Integer**: spécifie le nombre d\'éléments dans la direction polaire.
+-    **Number Polar|Integer**   * spécifie le nombre d\'éléments dans la direction polaire.
 
 
 {{TitleProperty|Polar/circular array}}
 
 Les propriétés de ce groupe sont cachées pour les réseaux orthogonaux.
 
--    **Axis|Vector**: spécifie la direction de l\'axe du réseau.
+-    **Axis|Vector**   * spécifie la direction de l\'axe du réseau.
 
--    **Center|VectorDistance**: spécifie le point central du réseau. L\'axe du réseau passe par ce point. Pour les réseaux circulaires, il s\'agit d\'un décalage par rapport à **Placement** de l\'objet **Base**.
+-    **Center|VectorDistance**   * spécifie le point central du réseau. L\'axe du réseau passe par ce point. Pour les réseaux circulaires, il s\'agit d\'un décalage par rapport à **Placement** de l\'objet **Base**.
 
 ### Vue
 
@@ -182,7 +182,7 @@ Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne s
 -    **Point Size|FloatConstraint**
     
 
--    **Selectable|Bool**: il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
+-    **Selectable|Bool**   * il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
 
 -    **Shape Material|Material**
     
@@ -204,16 +204,16 @@ Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne s
 -    **Override Material List|BoolList|Hidden**
     
 
--    **Proxy|PythonObject|Hidden**: il s\'agit d\'une propriété héritée.
+-    **Proxy|PythonObject|Hidden**   * il s\'agit d\'une propriété héritée.
 
 
 {{TitleProperty|Display Options}}
 
 Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Feature](Part_Feature/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    **Bounding Box|Bool**: cette propriété n\'est pas héritée par les réseaux de liens (Link).
+-    **Bounding Box|Bool**   * cette propriété n\'est pas héritée par les réseaux de liens (Link).
 
--    **Display Mode|Enumeration**: pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de : {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
+-    **Display Mode|Enumeration**   * pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de    * {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
 
 -    **Show In Tree|Bool**
     
@@ -224,9 +224,9 @@ Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Featu
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: non utilisé.
+-    **Pattern|Enumeration**   * non utilisé.
 
--    **Pattern Size|Float**: non utilisé.
+-    **Pattern Size|Float**   * non utilisé.
 
 
 {{TitleProperty|Object style}}
@@ -235,20 +235,20 @@ Les propriétés de ce groupe ne sont pas héritées par les réseaux de liens.
 
 ## Script
 
-Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 ### Réseau paramétrique 
 
 Pour créer un réseau orthogonal paramétrique, utilisez la méthode `make_array` ({{Version/fr|0.19}}) de l\'atelier Draft. Cette méthode remplace la méthode dépréciée `makeArray`. La méthode `make_array` peut créer des Draft Réseaux orthogonaux, [Draft Réseaux polaires](Draft_PolarArray/fr.md) et [Draft Réseaux circulaires](Draft_CircularArray/fr.md). Pour chaque type de réseau, un ou plusieurs wrappers sont disponibles.
 
-La méthode principale :
+La méthode principale    *
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-Les wrappers pour les réseaux orthogonaux sont :
+Les wrappers pour les réseaux orthogonaux sont    *
 
 
 ```python
@@ -266,7 +266,7 @@ array = make_ortho_array2d(base_object,
                            use_link=True)
 ```
 
-Les wrappers pour les réseaux rectangulaires sont :
+Les wrappers pour les réseaux rectangulaires sont    *
 
 
 ```python
@@ -296,7 +296,7 @@ array = make_rect_array2d(base_object,
 
 -    `array`est restitué avec l\'objet réseau créé.
 
-Exemple :
+Exemple    *
 
 
 ```python
@@ -323,7 +323,7 @@ array(objectslist, xvector, yvector, xnum, ynum)
 array(objectslist, xvector, yvector, zvector, xnum, ynum, znum)
 ```
 
-Exemple :
+Exemple    *
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw HorizontalExtentDimension
-   Name/fr:TechDraw Extension horizontale
-   MenuLocation:TechDraw → Dimensions → Insérer une dimension d'extention horizontale
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Extension verticale](TechDraw_VerticalExtentDimension/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw HorizontalExtentDimension
+   Name/fr   *TechDraw Extension horizontale
+   MenuLocation   *TechDraw → Dimensions → Insérer une dimension d'extention horizontale
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Extension verticale](TechDraw_VerticalExtentDimension/fr.md)
 ---
 
 # TechDraw HorizontalExtentDimension/fr
@@ -14,7 +14,7 @@
 
 L\'outil Extension horizontale ajoute une dimension linéaire à une vue. La cote s\'étend du point le plus à gauche sur les objets sélectionnés au point le plus à droite. Un CosmeticVertex (point cosmétique) sera placé à chaque point.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width   *400px;"> 
 *Dimension d'extension horizontale d'un surface BSpline*
 
 ## Utilisation
@@ -34,16 +34,16 @@ Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9
 
 ### Données
 
--    {{PropertyData/fr|MeasureType}}: `True` - basé sur la géométrie 3D ou \"projeté\" - basé sur le dessin. Normalement pas manipulé directement par l\'utilisateur final. Pas encore implémenté pour Dimension Horizontal Extension.
+-    {{PropertyData/fr|MeasureType}}   * `True` - basé sur la géométrie 3D ou \"projeté\" - basé sur le dessin. Normalement pas manipulé directement par l\'utilisateur final. Pas encore implémenté pour Dimension Horizontal Extension.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Extension horizontale peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Extension horizontale peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python

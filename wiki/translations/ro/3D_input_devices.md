@@ -6,13 +6,13 @@ FreeCAD suporta unele dispozitive specializate de intrare, precum mouse-uri 3D. 
 
 <div class="mw-translate-fuzzy">
 
--   3Dconnexion [SpaceNavigator](http://www.3dconnexion.com/products/spacenavigator.html)
--   Instructiuni de instalare: [3Dconnexion input devices](3Dconnexion_input_devices/ro.md)
+-   3Dconnexion [SpaceNavigator](http   *//www.3dconnexion.com/products/spacenavigator.html)
+-   Instructiuni de instalare   * [3Dconnexion input devices](3Dconnexion_input_devices/ro.md)
 
 
 </div>
 
-[category:Documentation](category_Documentation.md)
+[category   *Documentation](category_Documentation.md)
 
 
 

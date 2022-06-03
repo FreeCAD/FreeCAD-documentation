@@ -84,16 +84,16 @@ In particolare, il passaggio dalla scheda **Azioni** alla scheda **Modello** non
 
 **Please reformulate and update this section**
 
-See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Call that a Task Dialog widget can use to close the Task View. It can be closed with \"this-\>close()\", but that only closes the lower part of the view, not that view itself.
+See [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Call that a Task Dialog widget can use to close the Task View. It can be closed with \"this-\>close()\", but that only closes the lower part of the view, not that view itself.
 
-Using python: 
+Using python   * 
 ```python
 Gui.Control.closeDialog()
 ```
 
-Using c++: 
+Using c++   * 
 ```python
-Gui::Control().closeDialog();
+Gui   *   *Control().closeDialog();
 ```
 
 

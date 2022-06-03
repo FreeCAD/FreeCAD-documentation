@@ -1,6 +1,6 @@
 # Robot TrajectoryDressUp/it
 ---
-- GuiCommand:/it   Name:Robot TrajectoryDressUp   Name/it:Vesti una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Vesti una traiettoria ---
+- GuiCommand   */it   Name   *Robot TrajectoryDressUp   Name/it   *Vesti una traiettoria   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Vesti una traiettoria ---
 
 
 </div>
@@ -21,7 +21,7 @@ Consente di modificare una o più proprietà di una traiettoria.
 #### Utilizzo
 
 1.  Selezionare nella vista ad albero una traiettoria o un bordo-traiettoria da modificare
-2.  Cliccare su <img alt="" src=images/Robot_TrajectoryDressUp.png  style="width:32px;"> o passare nella scheda \"Azioni\" e cliccare su 
+2.  Cliccare su <img alt="" src=images/Robot_TrajectoryDressUp.png  style="width   *32px;"> o passare nella scheda \"Azioni\" e cliccare su 
 ** <img src="images/Robot_TrajectoryDressUp.png" width=32px> Vesti traiettoria**
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Вставить объект верстака Arch
-   Name:TechDraw_ArchView
-   MenuLocation:TechDraw → Вставить объект верстака Arch
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Плоскость Сечения](Arch_SectionPlane/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Вставить объект верстака Arch
+   Name   *TechDraw_ArchView
+   MenuLocation   *TechDraw → Вставить объект верстака Arch
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso   *[Плоскость Сечения](Arch_SectionPlane/ru.md)
 ---
 
 # TechDraw ArchView/ru
@@ -32,42 +32,42 @@ The ArchView is rendered within the [Arch Workbench](Arch_Workbench.md), therefo
 -   [Draft Dimensions](Draft_Snap_Dimensions.md), [Draft Texts](Draft_Text.md) and any other 2D (Sketch or Draft) object considered by the section plane is rendered \"as is\" (no intersection or hidden lines) on top of the solid geometry
 -   The volume of [Arch Spaces](Arch_Space.md) is not rendered, only the label will be rendered
 -   Cut lines, projected lines (if Show Hidden property is set to True) and 2D lines above can be rendered with different line widths. This can be configured in the Arch preferences.
--   The ArchView has two rendering modes: Wireframe, which uses the OpenCasCade algorithms of the [Drawing Workbench](Drawing_Workbench.md), is fast and produces only lines (no face fill possible), and Solid, which is based on the [Painter\'s algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm), and is capable of rendering faces filled with their shape color. However, it is much slower and can fail in many situations. The image below illustrates the difference between the two rendering modes:
+-   The ArchView has two rendering modes   * Wireframe, which uses the OpenCasCade algorithms of the [Drawing Workbench](Drawing_Workbench.md), is fast and produces only lines (no face fill possible), and Solid, which is based on the [Painter\'s algorithm](https   *//en.wikipedia.org/wiki/Painter%27s_algorithm), and is capable of rendering faces filled with their shape color. However, it is much slower and can fail in many situations. The image below illustrates the difference between the two rendering modes   *
 
 ![](images/TechDraw_Arch_rendering.jpg )
 
--   Only the base line of [Arch Pipes](Arch_Pipe.md) is rendered, not the full volume of the tube:
+-   Only the base line of [Arch Pipes](Arch_Pipe.md) is rendered, not the full volume of the tube   *
 
 ![](images/TechDraw_Arch_piping.jpg )
 
 ## Свойства
 
--    **Source**: The section plane object to be displayed
+-    **Source**   * The section plane object to be displayed
 
--    **All On**: If hidden objects must be shown or not. If False, only objects that are visible in the 3D view are rendered
+-    **All On**   * If hidden objects must be shown or not. If False, only objects that are visible in the 3D view are rendered
 
--    **Render Mode**: The render mode to use, Solid or Wireframe
+-    **Render Mode**   * The render mode to use, Solid or Wireframe
 
--    **Show Hidden**: If the hidden geometry (the part of the geometry that lies behind the section plane) is shown or not. It will be rendered in dashed line, which can be configured in the Arch preferences.
+-    **Show Hidden**   * If the hidden geometry (the part of the geometry that lies behind the section plane) is shown or not. It will be rendered in dashed line, which can be configured in the Arch preferences.
 
--    **Show Fill**: If cut areas must be filled with a grey color or not
+-    **Show Fill**   * If cut areas must be filled with a grey color or not
 
--    **Line Width**: The width of the main lines. Cut lines and projected/2D line widths ratios can be configured in the Arch preferences
+-    **Line Width**   * The width of the main lines. Cut lines and projected/2D line widths ratios can be configured in the Arch preferences
 
--    **Font Size**: The size of all texts that appear in this view
+-    **Font Size**   * The size of all texts that appear in this view
 
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The ArchView tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The ArchView tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dv = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewArch','TestArch')
+dv = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewArch','TestArch')
 dv.Source = mySectionPlane
 rc = page.addView(dv)
 ```

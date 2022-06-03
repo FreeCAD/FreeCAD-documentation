@@ -1,15 +1,15 @@
 # Manual:Navigating in the 3D view/de
-{{Manual:TOC/de}}
+{{Manual   *TOC/de}}
 
 ### Ein Wort zum 3D Raum 
 
 Wenn dies dein erster Kontakt mit einer 3D Anwendung ist, musst du dich zuerst mit einigen Konzepten vertraut machen. Wenn nicht, kannst du diesen Abschnitt sicher überspringen.
 
-Der FreeCAD 3D Raum ist ein [Euklidischer Raum](https://en.wikipedia.org/wiki/Euclidean_space). Er hat einen Ursprungspunkt und drei Achsen: X, Y und Z. Wenn du deine Szene von oben betrachtest, zeigt die X Achse konventionell nach rechts, die Y Achse nach hinten und die Z Achse nach oben. In der unteren rechten Ecke der FreeCAD Ansicht kannst Du immer sehen, von wo aus du die Szene betrachtest:
+Der FreeCAD 3D Raum ist ein [Euklidischer Raum](https   *//en.wikipedia.org/wiki/Euclidean_space). Er hat einen Ursprungspunkt und drei Achsen   * X, Y und Z. Wenn du deine Szene von oben betrachtest, zeigt die X Achse konventionell nach rechts, die Y Achse nach hinten und die Z Achse nach oben. In der unteren rechten Ecke der FreeCAD Ansicht kannst Du immer sehen, von wo aus du die Szene betrachtest   *
 
 ![](images/Axes_orientation.png )
 
-Der Punkt, an dem sich die drei Achsen treffen, ist der Ursprung. Es ist der Punkt, an dem der Wert aller Koordinaten Null ist. Für jede beliebige Achse wird bei Bewegung in einer Richtung der Koordinatenwert erhöht und bei Bewegung in der entgegengesetzten Richtung verringert sich der Koordinatenwert. Jeder Punkt jedes im 3D-Raum vorhandenen Objekts kann über seine (x, y, z) Koordinaten lokalisiert werden. Zum Beispiel wird ein Punkt mit den Koordinaten (2, 3, 1) bei +2 Einheiten auf der X-Achse, +3 Einheiten auf der Y-Achse und +1 Einheit auf der Z-Achse liegen:
+Der Punkt, an dem sich die drei Achsen treffen, ist der Ursprung. Es ist der Punkt, an dem der Wert aller Koordinaten Null ist. Für jede beliebige Achse wird bei Bewegung in einer Richtung der Koordinatenwert erhöht und bei Bewegung in der entgegengesetzten Richtung verringert sich der Koordinatenwert. Jeder Punkt jedes im 3D-Raum vorhandenen Objekts kann über seine (x, y, z) Koordinaten lokalisiert werden. Zum Beispiel wird ein Punkt mit den Koordinaten (2, 3, 1) bei +2 Einheiten auf der X-Achse, +3 Einheiten auf der Y-Achse und +1 Einheit auf der Z-Achse liegen   *
 
 ![](images/3dspace_coordinates.jpg )
 
@@ -19,11 +19,11 @@ Du kannst diese Szene aus jedem Winkel betrachten, als ob du eine Kamera in der 
 
 #### Mausnavigation
 
-Das Navigieren in der FreeCAD [3D-Ansicht](3D_view/de.md) kann mit einer Maus, einem 3D-Navigator, der Tastatur, einem Touchpad oder einer Kombination aus diesen erfolgen. FreeCAD stellt mehrere [Navigationsmodi](Mouse_navigation/de.md) zur Verfügung, die die drei grundlegenden Operationen zur Steuerung der Ansicht (Schwenken, Drehen und Zoomen) bestimmen und wie die Auswahl von Objekten auf dem Bildschirm erfolgt. Die Navigationsmodi werden über die Ansicht \"Einstellungen\" oder direkt durch einen Rechtsklick auf eine beliebige Stelle in der [3D-Ansicht](3D_view/de.md) aufgerufen:
+Das Navigieren in der FreeCAD [3D-Ansicht](3D_view/de.md) kann mit einer Maus, einem 3D-Navigator, der Tastatur, einem Touchpad oder einer Kombination aus diesen erfolgen. FreeCAD stellt mehrere [Navigationsmodi](Mouse_navigation/de.md) zur Verfügung, die die drei grundlegenden Operationen zur Steuerung der Ansicht (Schwenken, Drehen und Zoomen) bestimmen und wie die Auswahl von Objekten auf dem Bildschirm erfolgt. Die Navigationsmodi werden über die Ansicht \"Einstellungen\" oder direkt durch einen Rechtsklick auf eine beliebige Stelle in der [3D-Ansicht](3D_view/de.md) aufgerufen   *
 
 ![](images/FreeCAD-v0-18-NavigationModePopup.png )
 
-Jeder dieser Modi ordnet diesen vier Operationen unterschiedliche Maustasten oder Maus + Tastatur-Kombinationen oder Mausgesten zu. Die folgende Tabelle zeigt die wichtigsten verfügbaren Modi:
+Jeder dieser Modi ordnet diesen vier Operationen unterschiedliche Maustasten oder Maus + Tastatur-Kombinationen oder Mausgesten zu. Die folgende Tabelle zeigt die wichtigsten verfügbaren Modi   *
 
 ++++++
 | Betriebsart              | Schwenken                                                                                                                                                                                                                  | Drehen                                                                                                                                                                                                               | Zoom                                                                                                                                                                                    | Auswahl                                                                                         |
@@ -52,7 +52,7 @@ Jeder dieser Modi ordnet diesen vier Operationen unterschiedliche Maustasten ode
 
 #### Tastaturnavigation
 
-Alternativ sind einige Bedienelemente der Tastatur immer verfügbar, unabhängig vom Navigationsmodus:
+Alternativ sind einige Bedienelemente der Tastatur immer verfügbar, unabhängig vom Navigationsmodus   *
 
 -   Die Tasten **Strg**+{{ASCII|43}} und **Strg**+{{ASCII|22}} zum Vergrößern und Verkleinern
 
@@ -60,13 +60,13 @@ Alternativ sind einige Bedienelemente der Tastatur immer verfügbar, unabhängig
 
 -   Die Tasten **Shift**+{{ASCII|17}} und **Shift**+{{ASCII|16}} um die Ansicht um 90 Grad zu drehen
 
--   Die Zifferntasten {{ASCII|48}}, {{ASCII|49}}, {{ASCII|50}}, {{ASCII|51}}{{ASCII|52}}, {{ASCII|53}} und {{ASCII|54}} für die sieben Standardansichten: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Isometrisch](Std_ViewIsometric/de.md), <img alt="" src=images/Std_ViewFront.svg  style="width:24px;"> [Vorderansicht](Std_ViewFront/de.md), <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [Draufsicht](Std_ViewTop/de.md), <img alt="" src=images/Std_ViewRight.svg  style="width:24px;"> [Ansicht von rechts](Std_ViewRight/de.md), <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> [Rückansicht](Std_ViewRear/de.md), <img alt="" src=images/Std_ViewBottom.svg  style="width:24px;"> [Boden](Std_ViewBottom/de.md) und <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Ansicht von links](Std_ViewLeft/de.md)
+-   Die Zifferntasten {{ASCII|48}}, {{ASCII|49}}, {{ASCII|50}}, {{ASCII|51}}{{ASCII|52}}, {{ASCII|53}} und {{ASCII|54}} für die sieben Standardansichten   * <img alt="" src=images/Std_ViewIsometric.svg  style="width   *24px;"> [Isometrisch](Std_ViewIsometric/de.md), <img alt="" src=images/Std_ViewFront.svg  style="width   *24px;"> [Vorderansicht](Std_ViewFront/de.md), <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> [Draufsicht](Std_ViewTop/de.md), <img alt="" src=images/Std_ViewRight.svg  style="width   *24px;"> [Ansicht von rechts](Std_ViewRight/de.md), <img alt="" src=images/Std_ViewRear.svg  style="width   *24px;"> [Rückansicht](Std_ViewRear/de.md), <img alt="" src=images/Std_ViewBottom.svg  style="width   *24px;"> [Boden](Std_ViewBottom/de.md) und <img alt="" src=images/Std_ViewLeft.svg  style="width   *24px;"> [Ansicht von links](Std_ViewLeft/de.md)
 
 -    **V**
-    **O**setzt die Kamera in die <img alt="" src=images/View-isometric.svg  style="width:24px;"> [Orthographische Ansicht](Std_OrthographicCamera.md).
+    **O**setzt die Kamera in die <img alt="" src=images/View-isometric.svg  style="width   *24px;"> [Orthographische Ansicht](Std_OrthographicCamera.md).
 
 -    **V**
-    **P**setzt sie in die <img alt="" src=images/View-perspective.svg  style="width:24px;"> [Perspectivische Ansicht](Std_PerspectiveCamera/de.md).
+    **P**setzt sie in die <img alt="" src=images/View-perspective.svg  style="width   *24px;"> [Perspectivische Ansicht](Std_PerspectiveCamera/de.md).
 
 -    **Strg**erlaubt, mehr als ein Objekt oder Element auszuwählen.
 
@@ -92,7 +92,7 @@ Unten rechts im Cluster befindet sich ein kleinerer Mini Würfel, der ein Aufkla
 
 Objekte in der 3D Ansicht können je nach Navigationsmodus (oben beschrieben) durch Anklicken mit der entsprechenden Maustaste ausgewählt werden. Mit einem einzigen Klick werden das Objekt und eine seiner Unterkomponenten (Kante, Fläche, Knoten) ausgewählt. Ein Doppelklick wählt das Objekt und alle seine Unterkomponenten aus. Du kannst mehr als eine Unterkomponente oder sogar verschiedene Unterkomponenten von verschiedenen Objekten auswählen, indem du die STRG Taste drückst. Wenn Sie mit dem Auswahlknopf auf einen leeren Bereich der 3D Ansicht klicken, wird alles abgewählt.
 
-Ein Paneel namens \"Auswahlansicht\", das im Menü \"Ansicht\" verfügbar ist, kann ebenfalls eingeschaltet werden, die dir zeigt, was gerade ausgewählt ist:
+Ein Paneel namens \"Auswahlansicht\", das im Menü \"Ansicht\" verfügbar ist, kann ebenfalls eingeschaltet werden, die dir zeigt, was gerade ausgewählt ist   *
 
 ![](images/Selection_view.jpg )
 

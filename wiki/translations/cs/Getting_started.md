@@ -14,7 +14,7 @@ FreeCAD je 3D CAD/CAE [parametrická modelovací aplikace](About_FreeCAD/cs.md).
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD je zatím v ranném stupni vývoje, takže, přestože již nabízí velký (a rostoucí) seznam [možností](Feature_list/cs.md), ještě je stále dost toho co chybí, zvlášť ve srovnání s komerčními řešeními a můžete zjistit, že není na takovém stupni aby se dal využívat v produkčním prostředí. Přesto je zde rychle rostoucí [komunita](http://forum.freecadweb.org/index.php) zapálených uživatelů a už teď můžete najít [mnoho příkladů](https://forum.freecadweb.org/viewforum.php?f=24) kvalitních projektů vyvinutých ve FreeCADu.
+FreeCAD je zatím v ranném stupni vývoje, takže, přestože již nabízí velký (a rostoucí) seznam [možností](Feature_list/cs.md), ještě je stále dost toho co chybí, zvlášť ve srovnání s komerčními řešeními a můžete zjistit, že není na takovém stupni aby se dal využívat v produkčním prostředí. Přesto je zde rychle rostoucí [komunita](http   *//forum.freecadweb.org/index.php) zapálených uživatelů a už teď můžete najít [mnoho příkladů](https   *//forum.freecadweb.org/viewforum.php?f=24) kvalitních projektů vyvinutých ve FreeCADu.
 
 
 </div>
@@ -27,7 +27,7 @@ Jako všechny open-source projekty, projekt FreeCAD není jednosměrná práce v
 
 </div>
 
-See also:
+See also   *
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 -   [Tutorials](Tutorials.md)
@@ -51,12 +51,12 @@ Nejprve (jestliže už to někdo neudělal) stáhněte a nainstalujte FreeCAD. P
 
 </div>
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
+<img alt="" src=images/FreeCAD_interface.png  style="width   *1024px;">
 
 
 </div>
@@ -85,12 +85,12 @@ Základní koncept pod interfacem FreeCADu je rozdělení do [pracovních ploch]
 
 <div class="mw-translate-fuzzy">
 
-Spouštíte-li FreeCAD poprvé, dostanete se do startovního centra:
+Spouštíte-li FreeCAD poprvé, dostanete se do startovního centra   *
 
 
 </div>
 
-<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -105,7 +105,7 @@ Startovní centrum Vám umožňuje rychlý přechod do některé z nejužívaně
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD má dostupné čtyři [navigační módy myši](Mouse_Model/cs.md) které mění způsob jak používáte Vaši myš v interakci s objekty ve 3D pohledu a s pohledem samotným. Jeden z módů je speciálně vytvořen pro [touchpady](Mouse_Model/cs#Touchpad_Navigation.md), kde není použito prostřední tlačítko. Následující tabulka popisuje defaultní mód, zvaný **CAD Navigation** (Rychle můžete změnit aktuální navigační mód pomocí pravého kliknutí myši na prázdnou oblast e 3D pohledu):
+FreeCAD má dostupné čtyři [navigační módy myši](Mouse_Model/cs.md) které mění způsob jak používáte Vaši myš v interakci s objekty ve 3D pohledu a s pohledem samotným. Jeden z módů je speciálně vytvořen pro [touchpady](Mouse_Model/cs#Touchpad_Navigation.md), kde není použito prostřední tlačítko. Následující tabulka popisuje defaultní mód, zvaný **CAD Navigation** (Rychle můžete změnit aktuální navigační mód pomocí pravého kliknutí myši na prázdnou oblast e 3D pohledu)   *
 
 
 </div>
@@ -123,7 +123,7 @@ Máte také přednastaveno několik pohledů (pohled shora, pohled zepředu, atd
 
 <div class="mw-translate-fuzzy">
 
-Cílem FreeCADu je umožnit vytváření velmi přesných 3D modelů, při udržení pevné kontroly nad těmito modely (být schopen vracet se zpět v modelování a moci měnit parametry) a realizovat tyto modely (3D tisk, CNC obrábění nebo celá konstrukční pracoviště). To je důvod proč se velmi liší od některých jiných 3D aplikací vytvářených pro jiné cíle, jako je animovaný film nebo hry. Jeho křivka osvojování znalostí může být příkrá, zvláště je-li to Váš první kontakt se 3D modelováním. Jestli někde narazíte, nezapomeňte, že je zde přátelská komunita na [FreeCAD forum](http://forum.freecadweb.org/index.php), která Vám může rychle pomoci.
+Cílem FreeCADu je umožnit vytváření velmi přesných 3D modelů, při udržení pevné kontroly nad těmito modely (být schopen vracet se zpět v modelování a moci měnit parametry) a realizovat tyto modely (3D tisk, CNC obrábění nebo celá konstrukční pracoviště). To je důvod proč se velmi liší od některých jiných 3D aplikací vytvářených pro jiné cíle, jako je animovaný film nebo hry. Jeho křivka osvojování znalostí může být příkrá, zvláště je-li to Váš první kontakt se 3D modelováním. Jestli někde narazíte, nezapomeňte, že je zde přátelská komunita na [FreeCAD forum](http   *//forum.freecadweb.org/index.php), která Vám může rychle pomoci.
 
 
 </div>
@@ -131,7 +131,7 @@ Cílem FreeCADu je umožnit vytváření velmi přesných 3D modelů, při udrž
 
 <div class="mw-translate-fuzzy">
 
-Se kterou pracovní plochou začnete závisí na typu práce, kterou chcete s FreeCADem dělat: Chete-li pracovat s mechanickými modely nebo obecněji s objekty s vyšší přesností, asi budete chtít zkusit [pracovní plochu Návrh dílu](PartDesign_Workbench/cs.md). Budete-li pracovat ve 2D, pak přepněte do [pracovní plochy Kreslení](Draft_Workbench/cs.md) nebo [pracovní plochy Náčrt](Sketcher_Workbench/cs.md) potřebujete-li vazby. Chcete-li dělat BIM, spusťte [pracovní plochu Architektura](Arch_Workbench/cs.md). Pracujete-li s návrhy lodí, je zde pro Vás speciální [pracovní plocha Loď](Ship_Workbench/cs.md). A jestliže přicházíte ze světa OpenSCADu, zkuste [pracovní plochu OpenSCAD](OpenSCAD_Workbench/cs.md).
+Se kterou pracovní plochou začnete závisí na typu práce, kterou chcete s FreeCADem dělat   * Chete-li pracovat s mechanickými modely nebo obecněji s objekty s vyšší přesností, asi budete chtít zkusit [pracovní plochu Návrh dílu](PartDesign_Workbench/cs.md). Budete-li pracovat ve 2D, pak přepněte do [pracovní plochy Kreslení](Draft_Workbench/cs.md) nebo [pracovní plochy Náčrt](Sketcher_Workbench/cs.md) potřebujete-li vazby. Chcete-li dělat BIM, spusťte [pracovní plochu Architektura](Arch_Workbench/cs.md). Pracujete-li s návrhy lodí, je zde pro Vás speciální [pracovní plocha Loď](Ship_Workbench/cs.md). A jestliže přicházíte ze světa OpenSCADu, zkuste [pracovní plochu OpenSCAD](OpenSCAD_Workbench/cs.md).
 
 
 </div>
@@ -162,7 +162,7 @@ Pracovní plocha Návrh dílu silně využívá jinou pracovní plochu - [pracov
 
 </div>
 
-Tyto 2D tvary vytvořené v Náčrtu jsou často používány v pracovní ploše Návrh dílu, např. vytvoření 3D objemu nebo kreslení oblastí na plochách Vašich objektů, které budou následně odebrány z hlavního objemu objektu. Toto je typický pracovní postup Návrhu dílu:
+Tyto 2D tvary vytvořené v Náčrtu jsou často používány v pracovní ploše Návrh dílu, např. vytvoření 3D objemu nebo kreslení oblastí na plochách Vašich objektů, které budou následně odebrány z hlavního objemu objektu. Toto je typický pracovní postup Návrhu dílu   *
 
 1.  Vytvoření nového náčrtu
 2.  Nakreslení uzavřeného tvaru (ujistěte se, že všechny body jsou spojeny)
@@ -174,9 +174,9 @@ Tyto 2D tvary vytvořené v Náčrtu jsou často používány v pracovní ploše
 8.  Uzavřete náčrt
 9.  Z druhéno náčrtu vytvořte Kapsu (Pocket) na prvním objektu
 
-Výsledkem je takovýto objekt:
+Výsledkem je takovýto objekt   *
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width   *600px;">
 
 Kdykoliv můžete vybrat původní náčrty a modifikovat je nebo změnit parametry vysunutí operací Blok (Pad) a Kapsa (Pocket), což pak aktualizuje výsledný objekt.
 
@@ -193,7 +193,7 @@ Kdykoliv můžete vybrat původní náčrty a modifikovat je nebo změnit parame
 
 <div class="mw-translate-fuzzy">
 
-[pracovní plocha Kreslení](Draft_Workbench/cs.md) nabízí 2D nástroje trochu jednodušší, než jaké najdete v tradičních 2D CAD aplikacích jako je [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Nicméně, kreslení ve 2D je mimo hlavní směr sféry FreeCADu, neočekávejte, že zde najdete plný rozsah nástrojů, které nabízejí tyto jednoúčelové aplikace. Většina nástrojů Kreslení nepracuje pouze ve 2D, ale také v plném 3D prostoru a využívají výhod pomocných systémů jako jsou [pracovní roviny](Draft_SelectPlane/cs.md) a [zachycování/uchopování objektů](Draft_Snap/cs.md).
+[pracovní plocha Kreslení](Draft_Workbench/cs.md) nabízí 2D nástroje trochu jednodušší, než jaké najdete v tradičních 2D CAD aplikacích jako je [AutoCAD](https   *//en.wikipedia.org/wiki/AutoCAD). Nicméně, kreslení ve 2D je mimo hlavní směr sféry FreeCADu, neočekávejte, že zde najdete plný rozsah nástrojů, které nabízejí tyto jednoúčelové aplikace. Většina nástrojů Kreslení nepracuje pouze ve 2D, ale také v plném 3D prostoru a využívají výhod pomocných systémů jako jsou [pracovní roviny](Draft_SelectPlane/cs.md) a [zachycování/uchopování objektů](Draft_Snap/cs.md).
 
 
 </div>
@@ -201,12 +201,12 @@ Kdykoliv můžete vybrat původní náčrty a modifikovat je nebo změnit parame
 
 <div class="mw-translate-fuzzy">
 
-[Pracovní plocha Architektura](Arch_Workbench/cs.md) přidává do FreeCADu nástroj [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling), který umožňuje vytvářet stavební modely s parametrickými objekty. Pracovní plocha Architektura se opírá o další modely jako je Kreslení a Náčrt. Všechny nástroje Kreslení jsou přítomny i v pracovní ploše Architektura a většina nástrojů z Architektury používá pomocný kreslicí systém z Kreslení.
+[Pracovní plocha Architektura](Arch_Workbench/cs.md) přidává do FreeCADu nástroj [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling), který umožňuje vytvářet stavební modely s parametrickými objekty. Pracovní plocha Architektura se opírá o další modely jako je Kreslení a Náčrt. Všechny nástroje Kreslení jsou přítomny i v pracovní ploše Architektura a většina nástrojů z Architektury používá pomocný kreslicí systém z Kreslení.
 
 
 </div>
 
-Typická práce s Architekturou a Kreslením může být:
+Typická práce s Architekturou a Kreslením může být   *
 
 1.  Kreslení přímek pomocí nástroje Kreslní Přímka
 2.  Vyberte přímky a stiskněte tlačítko Zeď pro vytvoření zdi z těchto přímek
@@ -216,9 +216,9 @@ Typická práce s Architekturou a Kreslením může být:
 6.  Kliknutím na nástroj Okno vytvořte okno, vyberte nastavení v jeko panelu a pak klikněte na plochu zdi
 7.  Přidejte rozměry prvním nastavením pracovní roviny, pokud je to potřeba a potom použijte nástroj Kóty
 
-Dostanete toto:
+Dostanete toto   *
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -240,10 +240,10 @@ FreeCAD, as an open source software, offers the possibility to supplement its wo
 
 The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
 
-There are two types of addons:
+There are two types of addons   *
 
-1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+1.  [Macros](Macros.md)   * short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
+2.  [External workbenches](External_workbenches.md)   * collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -266,10 +266,10 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 <div class="mw-translate-fuzzy">
 
--   [Verze 0.11 Release notes](Release_notes_0.11.md) : Co je nového ve verzi 0.11 FreeCADu
--   [Verze 0.12 Release notes](Release_notes_0.12.md) : Co je nového ve verzi 0.12 FreeCADu
--   [Verze 0.13 Release notes](Release_notes_0.13.md) : Co je nového ve verzi 0.13 FreeCADu
--   [Verze 0.14 Release notes](Release_notes_0.14.md) : Co je nového ve verzi 0.14 FreeCADu
+-   [Verze 0.11 Release notes](Release_notes_0.11.md)    * Co je nového ve verzi 0.11 FreeCADu
+-   [Verze 0.12 Release notes](Release_notes_0.12.md)    * Co je nového ve verzi 0.12 FreeCADu
+-   [Verze 0.13 Release notes](Release_notes_0.13.md)    * Co je nového ve verzi 0.13 FreeCADu
+-   [Verze 0.14 Release notes](Release_notes_0.14.md)    * Co je nového ve verzi 0.14 FreeCADu
 
 
 </div>
@@ -282,6 +282,11 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 
 </div>
+
+
+
+
+[Category   *User Documentation/cs](Category   *User_Documentation/cs.md)
 
 
 

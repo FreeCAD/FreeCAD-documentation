@@ -3,9 +3,11 @@ This category contains articles and categories about wiki administrative subject
 
 Diese Kategorie enthält Artikel und Kategorieen über die Administration und Bearbeitung des Wikis.
 
-Den betreffenden Artikeln folgende Zeile anhängen:
+Den betreffenden Artikeln folgende Zeile anhängen   *
 
-<noinclude>[[Category:Administration/de]] [[Category:Template/de]]</noinclude>
+<noinclude>[[Category   *Administration/de]] [[Category   *Template/de]]</noinclude>
+
+[Category   *Categories/de](Category   *Categories/de.md)
 
 ### Contents
 

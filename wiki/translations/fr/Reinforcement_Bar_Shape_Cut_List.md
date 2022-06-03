@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Reinforcement Bar Shape Cut List
-   Name/fr:Reinforcement Nomenclature de façonnage des armatures
-   MenuLocation:Reinforcement → Rebar Shape Cut List
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Dimensions dessins](Arch_Rebar_Drawing_Dimensioning/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
+- GuiCommand   */fr
+   Name   *Reinforcement Bar Shape Cut List
+   Name/fr   *Reinforcement Nomenclature de façonnage des armatures
+   MenuLocation   *Reinforcement → Rebar Shape Cut List
+   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Dimensions dessins](Arch_Rebar_Drawing_Dimensioning/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
 ---
 
 # Reinforcement Bar Shape Cut List/fr
@@ -14,9 +14,9 @@
 
 L\'outil [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List/fr.md) permet à l\'utilisateur de créer une nomenclature de façonnage des armatures.
 
-Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
+<img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width   *800px;">
 
 
 
@@ -44,54 +44,54 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
-**Général :**
+**Général    ***
 
--    {{PropertyData/fr|Stirrup Extended Edge Offset}}: Le décalage des bords d\'extrémité étendus de l\'étrier, de sorte que les bords d\'extrémité de l\'étrier avec un angle de pliage de 90 degrés ne se chevauchent pas avec les bords de l\'étrier.
+-    {{PropertyData/fr|Stirrup Extended Edge Offset}}   * Le décalage des bords d\'extrémité étendus de l\'étrier, de sorte que les bords d\'extrémité de l\'étrier avec un angle de pliage de 90 degrés ne se chevauchent pas avec les bords de l\'étrier.
 
--    {{PropertyData/fr|Rebars Stroke Width}}: La largeur de trait des armatures dans la nomenclature de façonnage.
+-    {{PropertyData/fr|Rebars Stroke Width}}   * La largeur de trait des armatures dans la nomenclature de façonnage.
 
--    {{PropertyData/fr|Rebars Color Style}}: Le style de couleur des armatures.
+-    {{PropertyData/fr|Rebars Color Style}}   * Le style de couleur des armatures.
 
--    {{PropertyData/fr|Row Height}}: La hauteur de chaque ligne de forme d\'armature dans la nomenclature de façonnage.
+-    {{PropertyData/fr|Row Height}}   * La hauteur de chaque ligne de forme d\'armature dans la nomenclature de façonnage.
 
--    {{PropertyData/fr|Column Width}}: La largeur de chaque colonne de forme d\'armature dans la nomenclature de façonnage.
+-    {{PropertyData/fr|Column Width}}   * La largeur de chaque colonne de forme d\'armature dans la nomenclature de façonnage.
 
--    {{PropertyData/fr|Column Count}}: Le nombre de colonnes dans la nomenclature de façonnage.
+-    {{PropertyData/fr|Column Count}}   * Le nombre de colonnes dans la nomenclature de façonnage.
 
--    {{PropertyData/fr|Side Padding}}: Le rembourrage de chaque côté de la forme de l\'armature.
+-    {{PropertyData/fr|Side Padding}}   * Le rembourrage de chaque côté de la forme de l\'armature.
 
--    {{PropertyData/fr|Horizontal Rebar Shape}}: Si True, alors la forme de l\'armature sera rendue horizontale en faisant pivoter le bord de longueur maximale de la forme d\'armature.
+-    {{PropertyData/fr|Horizontal Rebar Shape}}   * Si True, alors la forme de l\'armature sera rendue horizontale en faisant pivoter le bord de longueur maximale de la forme d\'armature.
 
--    {{PropertyData/fr|Include Mark}}: si elle est définie sur True, alors rebar.Mark sera inclus pour chaque forme d\'armature dans la nomenclature de façonnage.
+-    {{PropertyData/fr|Include Mark}}   * si elle est définie sur True, alors rebar.Mark sera inclus pour chaque forme d\'armature dans la nomenclature de façonnage.
 
--    {{PropertyData/fr|SVG Output File}}: Le fichier de sortie pour écrire le SVG de la nomenclature de façonnage.
+-    {{PropertyData/fr|SVG Output File}}   * Le fichier de sortie pour écrire le SVG de la nomenclature de façonnage.
 
-**Données de dimension :**
+**Données de dimension    ***
 
--    {{PropertyData/fr|Include Dimensions}}: Si True, les dimensions de chaque arête d\'armature et les cotes d\'angle plié seront incluses dans la nomenclature de façonnage.
+-    {{PropertyData/fr|Include Dimensions}}   * Si True, les dimensions de chaque arête d\'armature et les cotes d\'angle plié seront incluses dans la nomenclature de façonnage.
 
--    {{PropertyData/fr|Include Units in Dimension Label}}: Si la valeur est True, les unités de longueur de bord d\'armature seront affichées dans l\'étiquette de dimension.
+-    {{PropertyData/fr|Include Units in Dimension Label}}   * Si la valeur est True, les unités de longueur de bord d\'armature seront affichées dans l\'étiquette de dimension.
 
--    {{PropertyData/fr|Rebar Edge Dimension Units}}: Les unités à utiliser pour les dimensions de longueur de bord d\'armature.
+-    {{PropertyData/fr|Rebar Edge Dimension Units}}   * Les unités à utiliser pour les dimensions de longueur de bord d\'armature.
 
--    {{PropertyData/fr|Rebar Edge Dimension Precision}}: Le nombre de décimales à afficher pour la longueur du bord de l\'armature comme étiquette de cote.
+-    {{PropertyData/fr|Rebar Edge Dimension Precision}}   * Le nombre de décimales à afficher pour la longueur du bord de l\'armature comme étiquette de cote.
 
--    {{PropertyData/fr|Dimension Font Family}}: La famille de polices du texte de dimension.
+-    {{PropertyData/fr|Dimension Font Family}}   * La famille de polices du texte de dimension.
 
--    {{PropertyData/fr|Dimension Police Size}}: La taille de la police du texte de dimension.
+-    {{PropertyData/fr|Dimension Police Size}}   * La taille de la police du texte de dimension.
 
--    {{PropertyData/fr|Bent Angle Dimension Exclude List}}: La liste des angles pliés pour ne pas inclure leurs dimensions.
+-    {{PropertyData/fr|Bent Angle Dimension Exclude List}}   * La liste des angles pliés pour ne pas inclure leurs dimensions.
 
--    {{PropertyData/fr|Helical Rebar Dimension Label Format}}: Le format de l\'étiquette de dimension d\'armature hélicoïdale. Par exemple : \"%L,r=%R,pitch=%P\" où %L -\> Longueur de l\'armature hélicoïdale, %R -\> Rayon d\'hélice de l\'armature hélicoïdale, %P -\> Pas d\'hélice de l\'armature hélicoïdale.
+-    {{PropertyData/fr|Helical Rebar Dimension Label Format}}   * Le format de l\'étiquette de dimension d\'armature hélicoïdale. Par exemple    * \"%L,r=%R,pitch=%P\" où %L -\> Longueur de l\'armature hélicoïdale, %R -\> Rayon d\'hélice de l\'armature hélicoïdale, %P -\> Pas d\'hélice de l\'armature hélicoïdale.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil [Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_List/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes :
+L\'outil [Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_List/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes    *
 
 ### Créer la forme d\'une armature en SVG 
 
@@ -99,24 +99,24 @@ L\'outil [Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_
 ```python
 getRebarShapeSVG(
     rebar,
-    view_direction: Union[FreeCAD.Vector, WorkingPlane.Plane] = FreeCAD.Vector(0, 0, 0),
-    include_mark: bool = True,
-    stirrup_extended_edge_offset: float = 2,
-    rebar_stroke_width: float = 0.35,
-    rebar_color_style: str = "shape color",
-    include_dimensions: bool = True,
-    rebar_dimension_units: str = "mm",
-    rebar_length_dimension_precision: int = 0,
-    include_units_in_dimension_label: bool = False,
-    bent_angle_dimension_exclude_list: Tuple[float, ...] = (45, 90, 180),
-    dimension_font_family: str = "DejaVu Sans",
-    dimension_font_size: float = 2,
-    helical_rebar_dimension_label_format: str = "%L,r=%R,pitch=%P",
-    scale: float = 1,
-    max_height: float = 0,
-    max_width: float = 0,
-    side_padding: float = 1,
-    horizontal_shape: bool = False,
+    view_direction   * Union[FreeCAD.Vector, WorkingPlane.Plane] = FreeCAD.Vector(0, 0, 0),
+    include_mark   * bool = True,
+    stirrup_extended_edge_offset   * float = 2,
+    rebar_stroke_width   * float = 0.35,
+    rebar_color_style   * str = "shape color",
+    include_dimensions   * bool = True,
+    rebar_dimension_units   * str = "mm",
+    rebar_length_dimension_precision   * int = 0,
+    include_units_in_dimension_label   * bool = False,
+    bent_angle_dimension_exclude_list   * Tuple[float, ...] = (45, 90, 180),
+    dimension_font_family   * str = "DejaVu Sans",
+    dimension_font_size   * float = 2,
+    helical_rebar_dimension_label_format   * str = "%L,r=%R,pitch=%P",
+    scale   * float = 1,
+    max_height   * float = 0,
+    max_width   * float = 0,
+    side_padding   * float = 1,
+    horizontal_shape   * bool = False,
 ) -> ElementTree.Element
 ```
 
@@ -148,7 +148,7 @@ getRebarShapeSVG(
 
 -    `dimension_font_size`spécifie la taille de la police du texte de cote.
 
--    `helical_rebar_dimension_label_format`spécifie le format de l\'étiquette de dimension d\'armature hélicoïdale. Par exemple. \"%L,r=%R,pitch=%P\" où:
+-    `helical_rebar_dimension_label_format`spécifie le format de l\'étiquette de dimension d\'armature hélicoïdale. Par exemple. \"%L,r=%R,pitch=%P\" où   *
 
    %L -> Longueur de l'armature hélicoïdale
    %R -> Rayon d'hélice de l'armature hélicoïdale
@@ -207,7 +207,7 @@ rebar_shape_svg = RebarShapeCutListfunc.getRebarShapeSVG(
 )
 
 output_file = str(Path.home() / "StirrupRebarShape.svg")
-with open(output_file, "w", encoding="utf-8") as f:
+with open(output_file, "w", encoding="utf-8") as f   *
     f.write(
         minidom.parseString(
             ElementTree.tostring(rebar_shape_svg, encoding="unicode")
@@ -221,33 +221,33 @@ with open(output_file, "w", encoding="utf-8") as f:
 
 ```python
 getRebarShapeCutList(
-    base_rebars_list: Optional[List] = None,
-    view_directions: Union[
+    base_rebars_list   * Optional[List] = None,
+    view_directions   * Union[
         Union[FreeCAD.Vector, WorkingPlane.Plane],
         List[Union[FreeCAD.Vector, WorkingPlane.Plane]],
     ] = FreeCAD.Vector(0, 0, 0),
-    include_mark: bool = True,
-    stirrup_extended_edge_offset: float = 2,
-    rebars_stroke_width: float = 0.35,
-    rebars_color_style: str = "shape color",
-    include_dimensions: bool = True,
-    rebar_edge_dimension_units: str = "mm",
-    rebar_edge_dimension_precision: int = 0,
-    include_units_in_dimension_label: bool = False,
-    bent_angle_dimension_exclude_list: Union[Tuple[float, ...], List[float]] = (
+    include_mark   * bool = True,
+    stirrup_extended_edge_offset   * float = 2,
+    rebars_stroke_width   * float = 0.35,
+    rebars_color_style   * str = "shape color",
+    include_dimensions   * bool = True,
+    rebar_edge_dimension_units   * str = "mm",
+    rebar_edge_dimension_precision   * int = 0,
+    include_units_in_dimension_label   * bool = False,
+    bent_angle_dimension_exclude_list   * Union[Tuple[float, ...], List[float]] = (
         45,
         90,
         180,
     ),
-    dimension_font_family: str = "DejaVu Sans",
-    dimension_font_size: float = 2,
-    helical_rebar_dimension_label_format: str = "%L,r=%R,pitch=%P",
-    row_height: float = 40,
-    column_width: float = 60,
-    column_count: Union[int, Literal["row_count"]] = "row_count",
-    side_padding: float = 1,
-    horizontal_rebar_shape: bool = True,
-    output_file: Optional[str] = None,
+    dimension_font_family   * str = "DejaVu Sans",
+    dimension_font_size   * float = 2,
+    helical_rebar_dimension_label_format   * str = "%L,r=%R,pitch=%P",
+    row_height   * float = 40,
+    column_width   * float = 60,
+    column_count   * Union[int, Literal["row_count"]] = "row_count",
+    side_padding   * float = 1,
+    horizontal_rebar_shape   * bool = True,
+    output_file   * Optional[str] = None,
 ) -> ElementTree.Element
 ```
 
@@ -279,7 +279,7 @@ getRebarShapeCutList(
 
 -    `dimension_font_size`spécifie la taille de la police du texte de cote.
 
--    `helical_rebar_dimension_label_format`spécifie le format de l\'étiquette de dimension d\'armature hélicoïdale. Par exemple. \"%L,r=%R,pitch=%P\" où:
+-    `helical_rebar_dimension_label_format`spécifie le format de l\'étiquette de dimension d\'armature hélicoïdale. Par exemple. \"%L,r=%R,pitch=%P\" où   *
 
    %L -> Longueur de l'armature hélicoïdale
    %R -> Rayon d'hélice de l'armature hélicoïdale
@@ -341,7 +341,7 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
 ).rebar_group
 
 # Attribuer Mark aux armatures droites
-for straight_rebar in rebar_group.RebarGroups[1].MainRebars:
+for straight_rebar in rebar_group.RebarGroups[1].MainRebars   *
     straight_rebar.Mark = "main_sb"
 
 
@@ -370,7 +370,7 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
 ).rebar_group
 
 # Attribuer Mark aux armatures en L
-for lshape_rebar in rebar_group.RebarGroups[1].MainRebars:
+for lshape_rebar in rebar_group.RebarGroups[1].MainRebars   *
     lshape_rebar.Mark = "main_lb"
 
 output_file = str(Path.home() / "RebarShapeCutList.svg")
@@ -399,6 +399,11 @@ RebarShapeCutListfunc.getRebarShapeCutList(
     output_file=output_file,
 )
 ```
+
+
+
+
+[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

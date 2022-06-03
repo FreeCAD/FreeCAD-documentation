@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_ViewRotateRight
-   Name/it:Ruota a destra
-   MenuLocation:Visualizza → Viste standard → Ruota a destra
-   Shortcut: **Shift**+**Destra**
-   Workbenches:Tutti
-   SeeAlso:[Ruota a sinistra](Std_ViewRotateLeft/it.md)
+- GuiCommand   */it
+   Name   *Std_ViewRotateRight
+   Name/it   *Ruota a destra
+   MenuLocation   *Visualizza → Viste standard → Ruota a destra
+   Shortcut   * **Shift**+**Destra**
+   Workbenches   *Tutti
+   SeeAlso   *[Ruota a sinistra](Std_ViewRotateLeft/it.md)
 ---
 
 # Std ViewRotateRight/it
@@ -16,15 +16,15 @@ Il comando **Ruota a destra** ruota la camera nella [vista 3D](3D_view/it.md) at
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewRotateRight.svg" width=16px> Ruota a destra** dal menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewRotateRight.svg" width=16px> Ruota a destra** dal menu contestuale della [vista 3D](3D_view/it.md).
-    -   Usare la scorciatoia da tastiera: **Maiusc**+**Destra**.
+    -   Usare la scorciatoia da tastiera   * **Maiusc**+**Destra**.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:PartDesign AdditivePipe
-   Name/it:Sweep additivo
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign → Sweep additivo
-   Version:0.17
-   SeeAlso:[Loft additivo](PartDesign_AdditiveLoft/it.md)
+- GuiCommand   */it
+   Name   *PartDesign AdditivePipe
+   Name/it   *Sweep additivo
+   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation   *PartDesign → Sweep additivo
+   Version   *0.17
+   SeeAlso   *[Loft additivo](PartDesign_AdditiveLoft/it.md)
 ---
 
 # PartDesign AdditivePipe/it
@@ -65,20 +65,20 @@ Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo de
 
 ## Opzioni
 
-**Trasformazione della sezione**:
+**Trasformazione della sezione**   *
 
 -   Selezionare **Constant** per usare un singolo profilo
 -   Selezionare **Multisection** per usare più profili
 
-**Orientamento della sezione**:
+**Orientamento della sezione**   *
 
 -   Standard
 
-    :   Ciò mantiene la forma della sezione trasversale perpendicolare al percorso. Questa è l\'impostazione predefinita.
+       *   Ciò mantiene la forma della sezione trasversale perpendicolare al percorso. Questa è l\'impostazione predefinita.
 -   Fissa
     -   Orientamento impostato dal primo profilo e costante per tutta la lunghezza. Ciò disattiva l\'allineamento al vettore normale del percorso. Ciò significa che la forma della sezione trasversale non ruoterà con il percorso. Provare uno sweep lungo un cerchio per vedere l\'effetto.
 -   Frenet
-    -   Crea la minima rotazione possibile del profilo. Per maggiori informazioni, vedere [Frenet-Serret Formulas](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
+    -   Crea la minima rotazione possibile del profilo. Per maggiori informazioni, vedere [Frenet-Serret Formulas](https   *//en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
 -   Ausiliaria
     -   Specifica il percorso secondario per guidare lo sweep.
     -   Per ogni punto **P** lungo il percorso di sweep, ci sarà un corrispondente punto **Q** sul percorso ausiliario.
@@ -98,25 +98,25 @@ Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo de
 
 ## Proprietà
 
--    {{PropertyData/it|Label}}: nome dato all\'operazione, questo nome può essere cambiato a piacere.
+-    {{PropertyData/it|Label}}   * nome dato all\'operazione, questo nome può essere cambiato a piacere.
 
--    {{PropertyData/it|Refine}}: vero o falso. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle operazioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
+-    {{PropertyData/it|Refine}}   * vero o falso. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle operazioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
 
--    {{PropertyData/it|Sections}}: elenca le sezioni utilizzate.
+-    {{PropertyData/it|Sections}}   * elenca le sezioni utilizzate.
 
--    {{PropertyData/it|Spine Tangent}}: vero o falso (predefinito). True estende il percorso per includere i bordi tangenti.
+-    {{PropertyData/it|Spine Tangent}}   * vero o falso (predefinito). True estende il percorso per includere i bordi tangenti.
 
--    {{PropertyData/it|Auxiliary Spine Tangent}}: vero o falso (predefinito). Vero estende il percorso ausiliario per includere i bordi tangenti.
+-    {{PropertyData/it|Auxiliary Spine Tangent}}   * vero o falso (predefinito). Vero estende il percorso ausiliario per includere i bordi tangenti.
 
--    {{PropertyData/it|Auxiliary Curvelinear}}: vero o falso (predefinito). True calcola la normale tra i punti equidistanti su entrambe le dorsali.
+-    {{PropertyData/it|Auxiliary Curvelinear}}   * vero o falso (predefinito). True calcola la normale tra i punti equidistanti su entrambe le dorsali.
 
--    {{PropertyData/it|Mode}}: modalità di profilo. vedere [Opzioni](#Opzioni.md).
+-    {{PropertyData/it|Mode}}   * modalità di profilo. vedere [Opzioni](#Opzioni.md).
 
--    {{PropertyData/it|Binormal}}: vettore binomiale per la modalità di orientamento corrispondente.
+-    {{PropertyData/it|Binormal}}   * vettore binomiale per la modalità di orientamento corrispondente.
 
--    {{PropertyData/it|Transition}}: modalità di transizione. Le opzioni sono \"Trasformato\", \"Angolo retto\" o \"Angolo rotondo\".
+-    {{PropertyData/it|Transition}}   * modalità di transizione. Le opzioni sono \"Trasformato\", \"Angolo retto\" o \"Angolo rotondo\".
 
--    {{PropertyData/it|Transformation}}: \"Costante\" usa una singola sezione trasversale. \"Multisezione\" utilizza due o più sezioni trasversali. \"Linear\", \"S-shape\" e \"Interpolation\" non sono al momento funzionanti.
+-    {{PropertyData/it|Transformation}}   * \"Costante\" usa una singola sezione trasversale. \"Multisezione\" utilizza due o più sezioni trasversali. \"Linear\", \"S-shape\" e \"Interpolation\" non sono al momento funzionanti.
 
 ## Notes
 

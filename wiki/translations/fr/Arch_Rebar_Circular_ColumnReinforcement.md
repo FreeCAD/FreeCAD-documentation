@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Rebar ColumnReinforcement
-   Name/fr:Arch : Rebar Armature circulaire
-   MenuLocation:Arch → Rebar tools
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Rebar ColumnReinforcement
+   Name/fr   *Arch    * Rebar Armature circulaire
+   MenuLocation   *Arch → Rebar tools
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
 ---
 
 # Arch Rebar Circular ColumnReinforcement/fr
@@ -14,9 +14,9 @@
 
 L\'outil [Renforcement de colonnes](Arch_Rebar_Circular_ColumnReinforcement/fr.md) permet à l\'utilisateur de créer des barres de renforcement à l\'intérieur d\'un objet Column [Arch Structure](Arch_Structure/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width   *400px;"> 
 *Renfort de colonne circulaire à l'intérieur d'une colonne [Arch Structure](Arch_Structure/fr.md)*
 
 ## Utilisation
@@ -25,12 +25,12 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 2. Ensuite, sélectionnez **<img src="images/_Arch_Rebar_ColumnReinforcement.svg" width=16px> [Renforcement de colonne](Arch_Rebar_ColumnReinforcement/fr.md)** dans les outils d\'armature.
 3. Une boîte de dialogue apparaîtra à l\'écran comme indiqué ci-dessous.
 
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;"> 
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;"> 
 *Boîte de dialogue pour l'outil Arch Rebar renforcement de colonnes*
 
 4\. Sélectionnez Circular Column dans la boîte de dialogue Renforcement de colonne.
 
-<img alt="" src=images/CircularColumnReinforcementDialog.png  style="width:700px;"> 
+<img alt="" src=images/CircularColumnReinforcementDialog.png  style="width   *700px;"> 
 *Boîte de dialogue pour le renforcement de colonne circulaire*
 
 5\. Entrez les données relatives au ferraillage des colonnes circulaires.
@@ -40,38 +40,38 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
-**Barres hélicoïdales:**
+**Barres hélicoïdales   ***
 
--    {{PropertyData/fr|SideCover}}: La distance entre l\'armature et la face incurvée.
+-    {{PropertyData/fr|SideCover}}   * La distance entre l\'armature et la face incurvée.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}   * La distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}   * La distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Pitch}}: Le pas d\'une hélice est la hauteur d\'un tour d\'hélice complet, mesuré parallèlement à l\'axe de l\'hélice.
+-    {{PropertyData/fr|Pitch}}   * Le pas d\'une hélice est la hauteur d\'un tour d\'hélice complet, mesuré parallèlement à l\'axe de l\'hélice.
 
--    {{PropertyData/fr|Diameter}}: Diamètre de l\'armature.
+-    {{PropertyData/fr|Diameter}}   * Diamètre de l\'armature.
 
-**Main Rebars :**
+**Main Rebars    ***
 
--    {{PropertyData/fr|Top Offset}}: distance entre les armatures à partir de la face supérieure de la structure.
+-    {{PropertyData/fr|Top Offset}}   * distance entre les armatures à partir de la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Offset}}: distance entre les barres d\'armature à partir de la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Offset}}   * distance entre les barres d\'armature à partir de la face inférieure de la structure.
 
--    {{PropertyData/fr|Diameter}}: diamètre des armatures principales.
+-    {{PropertyData/fr|Diameter}}   * diamètre des armatures principales.
 
--    {{PropertyData/fr|Number}}: le nombre d\'armatures principales.
+-    {{PropertyData/fr|Number}}   * le nombre d\'armatures principales.
 
--    {{PropertyData/fr|Angle}}: la distance angulaire entre les liens.
+-    {{PropertyData/fr|Angle}}   * la distance angulaire entre les liens.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L'outil Renforcement de colonne (ColumnReinforcement) peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L'outil Renforcement de colonne (ColumnReinforcement) peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante    *
 
 ### Création d\'un renfort de colonne circulaire 
 
@@ -142,7 +142,7 @@ RebarGroup = CircularColumn.makeReinforcement(
 
 ### Edition du renfort de colonne circulaire 
 
-Vous pouvez modifier les propriétés des barres d'armature hélicoïdale et principale à l'aide de la fonction suivante:
+Vous pouvez modifier les propriétés des barres d'armature hélicoïdale et principale à l'aide de la fonction suivante   *
 
 
 ```python
@@ -193,6 +193,17 @@ rebar_group = CircularColumn.editReinforcement(
 )
 
 ```
+
+
+
+
+
+
+
+
+
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

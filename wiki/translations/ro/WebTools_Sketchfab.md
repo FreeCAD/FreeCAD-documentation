@@ -1,13 +1,13 @@
 # WebTools Sketchfab/ro
 ---
-- GuiCommand:   Name:WebTools Sketchfab   MenuLocation:WebTools → Sketchfab   |Workbenches:[[WebTools Workbench   WebTools]]|Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *WebTools Sketchfab   MenuLocation   *WebTools → Sketchfab   |Workbenches   *[[WebTools Workbench   WebTools]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
 
 ## Descriere
 
-Acest instrument vă permite să exportați sau să faceți upload de obiecte pe contul dvs. [SketchFab](http://www.sketchfab.com) account. <small>(v0.17)</small> 
+Acest instrument vă permite să exportați sau să faceți upload de obiecte pe contul dvs. [SketchFab](http   *//www.sketchfab.com) account. <small>(v0.17)</small> 
 
 ![](images/Sketchfab_exporter.jpg )
 
@@ -16,18 +16,18 @@ Acest instrument vă permite să exportați sau să faceți upload de obiecte pe
 
 ## Cum se folosește 
 
-1.  Creați-vă un cont în [SketchFab](http://www.sketchfab.com)dacă nu aveți încă. Conturile gratuite sunt suficiente, cele plătite au mai multe funcționalități ca de ex. posibilitatea de a avea șabloane private și dimensiune maximală mai mare la upload
+1.  Creați-vă un cont în [SketchFab](http   *//www.sketchfab.com)dacă nu aveți încă. Conturile gratuite sunt suficiente, cele plătite au mai multe funcționalități ca de ex. posibilitatea de a avea șabloane private și dimensiune maximală mai mare la upload
 2.  Prepare a model you wish to upload
-3.  Click on <img alt="" src=images/WebTools_Sketchfab.png  style="width:32px;"> from the main toolbar in the [WebTools Workbench](WebTools_Workbench.md)
+3.  Click on <img alt="" src=images/WebTools_Sketchfab.png  style="width   *32px;"> from the main toolbar in the [WebTools Workbench](WebTools_Workbench.md)
 4.  Fill in the fields. Name and API key are mandatory
 5.  Click pe butonul \"Upload\"
 
 
 </div>
 
-1.  Make yourself an account on [SketchFab](http://www.sketchfab.com) if you don\'t have one yet. Free accounts are just fine, paid accounts add more features like the possibility to have private models and bigger maximum upload sizes
+1.  Make yourself an account on [SketchFab](http   *//www.sketchfab.com) if you don\'t have one yet. Free accounts are just fine, paid accounts add more features like the possibility to have private models and bigger maximum upload sizes
 2.  Prepare a model you wish to upload
-3.  Click on <img alt="" src=images/WebTools_Sketchfab.svg  style="width:32px;"> from the main toolbar in the [WebTools Workbench](WebTools_Workbench.md)
+3.  Click on <img alt="" src=images/WebTools_Sketchfab.svg  style="width   *32px;"> from the main toolbar in the [WebTools Workbench](WebTools_Workbench.md)
 4.  Fill in the fields. Name and API key are mandatory
 5.  Click the \"Upload\" button
 

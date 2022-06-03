@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ko
-   Name:Std SaveCopy
-   Name/ko:표준 사본 저장
-   MenuLocation:파일 → 사본 저장...
-   Workbenches:모두
-   SeeAlso:[표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 저장](Std_Save/ko.md)
+- GuiCommand   */ko
+   Name   *Std SaveCopy
+   Name/ko   *표준 사본 저장
+   MenuLocation   *파일 → 사본 저장...
+   Workbenches   *모두
+   SeeAlso   *[표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 저장](Std_Save/ko.md)
 ---
 
 # Std SaveCopy/ko
@@ -28,12 +28,12 @@
 
 ## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다   * **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
 
 
-**참조:**
+**참조   ***
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 
@@ -44,11 +44,11 @@
 import FreeCAD
 from pathlib import Path
 
-# The folder and filename we will use:
-fld = 'D:/testfiles/'
+# The folder and filename we will use   *
+fld = 'D   */testfiles/'
 fnm = fld + 'testCopy.FCStd'
 
-# Make sure fld exists:
+# Make sure fld exists   *
 Path(fld).mkdir(parents=True, exist_ok=True)
 
 doc = FreeCAD.newDocument()

@@ -256,11 +256,9 @@ Now it is time to fill the {{Incode|initUI()}} method   *
  
 ```python
 ...
-    def initUI(self, Document, actuator_list)   *
+    def initUI(self, document, actuator)   *
         # Setting up class parameters
-        self.document = Document
-        self.actuators = actuator_list
-        self.actuator = self.document.getObject(self.actuators[0])
+        self.actuator = document.getObject(actuator)
         self.driver_type = self.getDriverType(self.actuator)
         # the window has 640 x 480 pixels and is centered by default
         # now make the window visible
@@ -268,7 +266,10 @@ Now it is time to fill the {{Incode|initUI()}} method   *
 ...
 ```
 
-The actuator to be used is the first item in the actuators list. (The list contains a single item now, but, if the controller can handle more than one driving constraint in the future, it may hold more.)
+
+{{Incode|self.actuator}}
+
+represents the driving constraint and {{Incode|self.driver_type}} stores a keyword for its type. The latter is used to choose the correct property with each constraint.
 
 ##### Method getDriverType() 
 
@@ -642,7 +643,7 @@ Back in the {{Incode|initUI()}} method and between the labels and the slider sec
 ...
 ```
 
-The entry fields display the default start and end values. They are not complete until we add the methods to deal with altered entries. This will be done by the methods {{Incode|self.onEntryStart()}} and {{Incode|self.onEntry()}} that are inserted between the {{Incode|self.stepRatio()}} and the {{Incode|self.onActuatorSlider()}} methods.
+The entry fields display the default start and end values. They are not complete until we add the methods to deal with altered entries. This will be done by the methods {{Incode|self.onEntryStart()}} and {{Incode|self.onEntryEnd()}} that are inserted between the {{Incode|self.stepRatio()}} and the {{Incode|self.onActuatorSlider()}} methods.
 
  
 ```python

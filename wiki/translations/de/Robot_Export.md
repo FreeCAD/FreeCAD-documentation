@@ -1,6 +1,6 @@
 # Robot Export/de
 ---
-- GuiCommand:/de   Name:Robot Export   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter → Exportiere Bewegungsbahn---
+- GuiCommand   */de   Name   *Robot Export   Workbenches   *[[Robot_Workbench/de   Robot]]|MenuLocation   *Roboter → Exportiere Bewegungsbahn---
 
 
 </div>
@@ -33,7 +33,7 @@ oder
 </div>
 
 1.  Select robot and trajectory in the [Tree view](Tree_view.md).
-2.  There are several ways to Export trajectory:
+2.  There are several ways to Export trajectory   *
     -   Choose **Robot** → **Export trajectory** → **<img src="images/Robot_Export.svg" width=32px> Kuka compact subroutine...** from the top menu.
     -   Choose **Robot** → **Export trajectory** → **<img src="images/Robot_Export.svg" width=32px> Kuka full subroutine...** from the top menu.
 

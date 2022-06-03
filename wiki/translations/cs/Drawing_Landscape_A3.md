@@ -1,6 +1,6 @@
 # Drawing Landscape A3/cs
 ---
-- GuiCommand:/cs   Name:Drawing Landscape A3   Name/cs:Drawing Landscape A3   Workbenches:[[Drawing Workbench/cs   Výkres]], Sestavení|MenuLocation:Drawing → Insert new drawing → A3 Landscape   Shortcut:none---
+- GuiCommand   */cs   Name   *Drawing Landscape A3   Name/cs   *Drawing Landscape A3   Workbenches   *[[Drawing Workbench/cs   Výkres]], Sestavení|MenuLocation   *Drawing → Insert new drawing → A3 Landscape   Shortcut   *none---
 
 Tento nástroj vytváří nový výkres z již instalovaných šablon. Aktuálně je dostupná pouze šablona A3 Na šířku (Landscape), přestože menu a nástrojový pruh nabízejí formáty A0 až A4 na šířku.
 
@@ -8,9 +8,9 @@ Do stromu projektu je přidán objekt **Stránka**, který má podobu ikony slo�
 
 Chcete-li aby prohlížeč výkresů zobrazil stránku, jednoduše dvojklikněte na objekt **Stránka** nebo klikněte pravé tlačítko → Zobraz výkres. Stránka bude zobrazena v nové záložce. Záložku můžete zavřít a opět otevřít kdykoliv stejným způsobem.
 
-Jestliže se stránka nezobrazí, klikněte na obnovovací ikonu <img alt="" src=images/view-refresh.png  style="width:16px;"> v hlavním pruhu nástrojů nebo jděte na menu *Edit → Obnovit* nebo použijte klávesovou zkratku **CTRL+R**.
+Jestliže se stránka nezobrazí, klikněte na obnovovací ikonu <img alt="" src=images/view-refresh.png  style="width   *16px;"> v hlavním pruhu nástrojů nebo jděte na menu *Edit → Obnovit* nebo použijte klávesovou zkratku **CTRL+R**.
 
-<img alt="" src=images/Drawing_Page.png  style="width:500px;">
+<img alt="" src=images/Drawing_Page.png  style="width   *500px;">
 
 ## Volby
 

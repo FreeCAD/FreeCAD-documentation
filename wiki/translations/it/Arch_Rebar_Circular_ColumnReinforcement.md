@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch_Rebar_ColumnReinforcement
-   Name/it:Armatura di colonna
-   MenuLocation:Reinforcement → Column Reinforcement, Arch → Strumenti armatura
-   Workbenches:[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Armatura di pilastro con 2 staffe e 6 barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md), [Armatura personalizzata](Arch_Rebar/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *Arch_Rebar_ColumnReinforcement
+   Name/it   *Armatura di colonna
+   MenuLocation   *Reinforcement → Column Reinforcement, Arch → Strumenti armatura
+   Workbenches   *[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso   *[Armatura di pilastro con 2 staffe e 6 barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md), [Armatura personalizzata](Arch_Rebar/it.md)
+   Version   *0.19
 ---
 
 # Arch Rebar Circular ColumnReinforcement/it
@@ -20,12 +20,12 @@ Lo strumento [Armatura di colonna](Arch_Rebar_Circular_ColumnReinforcement/it.md
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width   *400px;"> 
 *Rinforzo di colonna all'interno di una [Struttura](Arch_Structure/it.md) colonna*
 
 ## Utilizzo
@@ -33,12 +33,12 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 1\. Selezionare una faccia di un oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato precedentemente.
 2. Quindi selezionare **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Armatura di colonna](Arch_Rebar_ColumnReinforcement/it.md)** dagli strumenti armatura.
 3. Sullo schermo appare una finestra di dialogo come mostrato sotto.
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;"> 
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;"> 
 *Finestra di dialogo per lo strumento Armatura di colonna*
 
 4\. Selezionare il pulsante di opzione Colonna circolare nella finestra di dialogo di rinforzo della colonna.
 
-<img alt="" src=images/CircularColumnReinforcementDialog.png  style="width:700px;"> 
+<img alt="" src=images/CircularColumnReinforcementDialog.png  style="width   *700px;"> 
 *Finestra di dialogo per l'armatura della colonna circolare*
 
 5\. Fornire gli input per i dati relativi al rinforzo della colonna.
@@ -48,38 +48,38 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 ## Proprietà
 
-**Helical Rebars:**
+**Helical Rebars   ***
 
--    {{PropertyData/it|Side Cover}}: La distanza tra l\'armatura e la faccia curva.
+-    {{PropertyData/it|Side Cover}}   * La distanza tra l\'armatura e la faccia curva.
 
--    {{PropertyData/it|Top Cover}}: La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
+-    {{PropertyData/it|Top Cover}}   * La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
 
--    {{PropertyData/it|Bottom Cover}}: La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
+-    {{PropertyData/it|Bottom Cover}}   * La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
 
--    {{PropertyData/it|Pitch}}: Il passo dell\'elica, che è l\'altezza di un giro completo di elica, misurato parallelo all\'asse dell\'elica.
+-    {{PropertyData/it|Pitch}}   * Il passo dell\'elica, che è l\'altezza di un giro completo di elica, misurato parallelo all\'asse dell\'elica.
 
--    {{PropertyData/it|Diameter}}: Diametro della barra elicoidale.
+-    {{PropertyData/it|Diameter}}   * Diametro della barra elicoidale.
 
-**Main Rebars:**
+**Main Rebars   ***
 
--    **Top Offset**: La distanza tra l\'armature e la faccia superiore della struttura.
+-    **Top Offset**   * La distanza tra l\'armature e la faccia superiore della struttura.
 
--    **Bottom Offset**: La distanza tra l\'armature e la faccia inferiore della struttura.
+-    **Bottom Offset**   * La distanza tra l\'armature e la faccia inferiore della struttura.
 
--    **Diameter**: Diametro delle armature principali.
+-    **Diameter**   * Diametro delle armature principali.
 
--    **Number**: Il numero di armature principali.
+-    **Number**   * Il numero di armature principali.
 
--    **Angle**: La distanza angolare tra le legature.
+-    **Angle**   * La distanza angolare tra le legature.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Arch](Arch_API/it.md), [API di Reinforcement](Reinforcement_API/it.md) e [Basi di script per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura di colonna può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento Armatura di colonna può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 ### Creare una armatura di colonna 
 
@@ -223,6 +223,14 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

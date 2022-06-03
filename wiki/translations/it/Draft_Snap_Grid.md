@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft Snap Grid
-   Name/it:Griglia
-   Icon:Snap_Grid.svg
-   MenuLocation:Draft → Aggancio → Griglia
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Mostra/nascondi griglia](Draft_ToggleGrid/it.md), [Aggancio](Draft_Snap/it.md)
+- GuiCommand   */it
+   Name   *Draft Snap Grid
+   Name/it   *Griglia
+   Icon   *Snap_Grid.svg
+   MenuLocation   *Draft → Aggancio → Griglia
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso   *[Mostra/nascondi griglia](Draft_ToggleGrid/it.md), [Aggancio](Draft_Snap/it.md)
 ---
 
 # Draft Snap Grid/it
@@ -57,8 +57,8 @@ Questo metodo esegue lo snap all\'intersezione di due linee della griglia, se la
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   To use the grid select   * **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
+-   Several other grid preferences are also available   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
 
 

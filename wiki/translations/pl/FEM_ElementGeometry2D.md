@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:FEM ElementGeometry2D
-   MenuLocation:Model → Element Geometry → Shell plate thickness
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:**C** **S**
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+- GuiCommand   *
+   Name   *FEM ElementGeometry2D
+   MenuLocation   *Model → Element Geometry → Shell plate thickness
+   Workbenches   *[FEM](FEM_Workbench.md)
+   Shortcut   ***C** **S**
+   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ElementGeometry2D/pl
@@ -15,7 +15,7 @@ ElementGeometry2D is used to define thickness of 2D FEM elements, all or laying 
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [FEM ElementGeometry2D](FEM_ElementGeometry2D.md)** button.
     -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness** option from the menu.
 2.  Define a thickness parameter.
@@ -30,7 +30,7 @@ ElementGeometry2D is used to define thickness of 2D FEM elements, all or laying 
 
 **Thickness**
 
-: specifies the thickness of the shell.
+   * specifies the thickness of the shell.
 
 ## Scripting
 

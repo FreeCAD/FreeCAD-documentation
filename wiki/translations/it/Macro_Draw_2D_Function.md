@@ -8,40 +8,40 @@
 |Version=1.0
 |Date=2011-08-01
 |FCVersion=Tutte versione
-|Download=[https://www.freecadweb.org/wiki/images/3/36/Macro_Draw_2D_Function.png Icona per la ToolBar]
+|Download=[https   *//www.freecadweb.org/wiki/images/3/36/Macro_Draw_2D_Function.png Icona per la ToolBar]
 }}
 
 ## Description
 
 Si usa per disegnare una funzione descritta da una equazione \[z=F(x)\] (piano ZX). Questo esempio genera una parabola.
 
-Elementi da definire:
+Elementi da definire   *
 
-:   F=variable utilizzata nella funzione,
-
-
-
-
-
-:   X=Valore iniziale di x,
+   *   F=variable utilizzata nella funzione,
 
 
 
 
 
-:   Nb= Numero di passi,
+   *   X=Valore iniziale di x,
 
 
 
 
 
-:   Z=Funzione espressa con x
+   *   Nb= Numero di passi,
 
 
 
 
 
-:   ZZ=Funzione espressa con xx
+   *   Z=Funzione espressa con x
+
+
+
+
+
+   *   ZZ=Funzione espressa con xx
 
 ## Script
 
@@ -65,15 +65,15 @@ X=-500
 Nb=10
 Step=1000/Nb
 Y=0
-for I in range(Nb):
+for I in range(Nb)   *
     XX=X+Step 
     Z=X*X/(4*F)
     ZZ=XX*XX/(4*F)
-    if I==0:
+    if I==0   *
         print( "Le test est vrai !")
         nomme=Part.makeLine((X,Y,Z),(XX,Y,ZZ))
         WWire=Part.Wire([nomme])
-    else :
+    else    *
         print( "Le test est 2 !")
         nomme=Part.makeLine((X,Y,Z),(XX,Y,ZZ))      
         WWire=Part.Wire([WWire,nomme])

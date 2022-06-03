@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Draft CircularArray
-   Name/de:Draft KreisAnordnung
-   MenuLocation:Entwurf → Kreis Anordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Anordnung](Draft_Array/de.md), [PolarAnordnung](Draft_PolarArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [Punkt Anordnung](Draft_PointArray/de.md), [Klonen](Draft_Clone/de.md)
+- GuiCommand   */de
+   Name   *Draft CircularArray
+   Name/de   *Draft KreisAnordnung
+   MenuLocation   *Entwurf → Kreis Anordnung
+   Workbenches   *[Entwurf](Draft_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[Anordnung](Draft_Array/de.md), [PolarAnordnung](Draft_PolarArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [Punkt Anordnung](Draft_PointArray/de.md), [Klonen](Draft_Clone/de.md)
 ---
 
 # Draft CircularArray/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Entwurf KreisAnordnung](Draft_CircularArray/de.md)** erstellt eine Anordnung aus einem ausgewählten Objekt und platziert die Kopien entlang konzentrischer Umfänge. Dies entspricht der Verwendung des <img alt="" src=images/Draft_PolarArray.svg  style="width:16px;"> [Draft PolarArray](Draft_PolarArray.md) mit einem Polarwinkel von 360 Grad und die Schaffung mehrerer solcher konzentrischen Anordnungen.
+Das **[<img src=images/Draft_CircularArray.svg style="width   *16px"> [Entwurf KreisAnordnung](Draft_CircularArray/de.md)** erstellt eine Anordnung aus einem ausgewählten Objekt und platziert die Kopien entlang konzentrischer Umfänge. Dies entspricht der Verwendung des <img alt="" src=images/Draft_PolarArray.svg  style="width   *16px;"> [Draft PolarArray](Draft_PolarArray.md) mit einem Polarwinkel von 360 Grad und die Schaffung mehrerer solcher konzentrischen Anordnungen.
 
 
 </div>
@@ -26,26 +26,26 @@ Das **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Entwurf Krei
 
 <div class="mw-translate-fuzzy">
 
-Dieses Werkzeug kann für 2D Formen verwendet werden, die mit dem <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) erstellt wurden, kann aber auch für viele Arten von 3D Objekten verwendet werden, wie z.B. solche, die mit dem <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Arbeitsbereich](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) erstellt wurden.
+Dieses Werkzeug kann für 2D Formen verwendet werden, die mit dem <img alt="" src=images/Workbench_Draft.svg  style="width   *16px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) erstellt wurden, kann aber auch für viele Arten von 3D Objekten verwendet werden, wie z.B. solche, die mit dem <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part Arbeitsbereich](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width   *16px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) erstellt wurden.
 
 
 </div>
 
-<img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_CircularArray_example.png  style="width   *400px;"> 
 *Draft CircularArray*
 
 ## Usage
 
-See also: [Draft Snap](Draft_Snap.md).
+See also   * [Draft Snap](Draft_Snap.md).
 
 1.  Optionally select one object.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_CircularArray.svg" width=16px> [Draft CircularArray](Draft_CircularArray.md)** button.
     -   Select the **Modification → Array tools → <img src="images/Draft_CircularArray.svg" width=16px> Circular array** option from the menu.
 3.  The **Circular array** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an object: select one object.
+4.  If you have not yet selected an object   * select one object.
 5.  Enter the required parameters in the task panel.
-6.  To finish the command do one of the following:
+6.  To finish the command do one of the following   *
     -   Pick a point in the [3D view](3D_view.md) for the **Center of rotation**.
     -   Press **Enter**.
     -   Press the **OK** button.
@@ -70,9 +70,9 @@ See also: [Draft Snap](Draft_Snap.md).
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and distances: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates and distances   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Properties
 
@@ -80,18 +80,18 @@ See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a circular array use the `make_array` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeArray` method. The `make_array` method can create [Draft OrthoArrays](Draft_OrthoArray.md), [Draft PolarArrays](Draft_PolarArray.md) and Draft CircularArrays. For each array type one or more wrappers are available.
 
-The main method:
+The main method   *
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrapper for circular arrays is:
+The wrapper for circular arrays is   *
 
 
 ```python
@@ -116,7 +116,7 @@ array = make_circular_array(base_object,
 
 -    `array`is returned with the created array object.
 
-Beispiel:
+Beispiel   *
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh PolyCut
-   Name/fr:Mesh Couper un maillage
-   MenuLocation:Maillages → Cutting → Couper le maillage
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Découper](Mesh_PolyTrim/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
+- GuiCommand   */fr
+   Name   *Mesh PolyCut
+   Name/fr   *Mesh Couper un maillage
+   MenuLocation   *Maillages → Cutting → Couper le maillage
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso   *[Mesh Découper](Mesh_PolyTrim/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
 ---
 
 # Mesh PolyCut/fr
@@ -17,30 +17,30 @@ La commande **Mesh Couper un maillage** coupe des faces entières à partir d\'o
 
 1.  Pendant la commande, la [Vue 3D](3D_view/fr.md) ne peut pas être modifiée. Il est conseillé d\'aligner correctement la vue 3D en premier.
 2.  Sélectionnez un ou plusieurs objets maillés.
-3.  Il existe plusieurs manières d\'appeler la commande:
+3.  Il existe plusieurs manières d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_PolyCut.svg" width=16px> [Couper le maillage](Mesh_PolyCut/fr.md)**.
     -   Sélectionnez l\'option **Maillages → Cutting → <img src="images/_Mesh_PolyCut.svg" width=16px> Couper la maillage** dans le menu.
 4.  Définissez un polygone en sélectionnant des points dans la vue 3D.
-5.  Sélectionnez une option dans le menu contextuel de la vue 3D:
+5.  Sélectionnez une option dans le menu contextuel de la vue 3D   *
     -   
         **Intérieur**
         
-        : supprime les faces qui sont (partiellement) à l\'intérieur du polygone.
+           * supprime les faces qui sont (partiellement) à l\'intérieur du polygone.
 
     -   
         **Extérieur**
         
-        : supprime les faces qui sont complètement à l\'extérieur du polygone.
+           * supprime les faces qui sont complètement à l\'extérieur du polygone.
 
     -   
         **Scinder**
         
-        : supprime les faces qui sont complètement à l\'extérieur du polygone et crée un nouvel objet maillé les contenant.
+           * supprime les faces qui sont complètement à l\'extérieur du polygone et crée un nouvel objet maillé les contenant.
 
     -   
         **Annuler**
         
-        : annule la commande.
+           * annule la commande.
 
 
 

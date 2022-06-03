@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Std ViewRotateLeft
-   Name/ru:Std ViewRotateLeft
-   MenuLocation:Вид → Стандартные виды → Повернуть влево
-   Workbenches:All
-   Shortcut:**Shift**+**Left**
-   SeeAlso:[Std ViewRotateRight](Std_ViewRotateRight/ru.md)
+- GuiCommand   */ru
+   Name   *Std ViewRotateLeft
+   Name/ru   *Std ViewRotateLeft
+   MenuLocation   *Вид → Стандартные виды → Повернуть влево
+   Workbenches   *All
+   Shortcut   ***Shift**+**Left**
+   SeeAlso   *[Std ViewRotateRight](Std_ViewRotateRight/ru.md)
 ---
 
 # Std ViewRotateLeft/ru
@@ -16,15 +16,15 @@ The **Std ViewRotateLeft** command rotates the camera in the active [3D view](3D
 
 ## Применение
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Select the **View → Standard views → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotate Left** option from the menu.
     -   Select the **Standard views → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotate Left** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **Shift**+**Left**.
+    -   Use the keyboard shortcut   * **Shift**+**Left**.
 
 ## Scripting
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

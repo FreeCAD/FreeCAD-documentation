@@ -25,12 +25,12 @@ La commande Perçage génère une opération de perçage durant l\'opération.
     -   Sélectionnez un **Mode de refroidissement**.
     -   En option, activez et ajustez les éléments suivants    *
         -   
-            **Rétractation**
+            **Perçage**
             
             définissez la **Profondeur**.
 
         -   
-            **Temps d'arrêt**
+            **Temporisation**
             
             définit le **Temps** en secondes.
 
@@ -39,7 +39,7 @@ La commande Perçage génère une opération de perçage durant l\'opération.
             
             .
 3.  Dans la section **Géométrie de base**, vérifiez que la liste correspond aux trous destinés à être traités, et ajustez l\'ajout, l\'activation ou la désactivation, si nécessaire. Les trous peuvent être ajoutés en sélectionnant les faces des murs des Trous.
-4.  Dans la section **Profondeurs**, vérifiez et ajustez si nécessaire les **Profondeur de départ** et **Profondeur finale**.
+4.  Dans la section **Profondeurs**, vérifiez et ajustez si nécessaire les **Profondeur initiale** et **Profondeur finale**.
 5.  Dans la section **Hauteurs**, vérifiez et, si nécessaire, ajustez les **Hauteur de sécurité** et **Hauteur de dégagement**.
 6.  Appuyez sur le bouton **OK** pour générer le(s) chemin(s) de perçage.
 
@@ -47,8 +47,8 @@ La commande Perçage génère une opération de perçage durant l\'opération.
 
 -   Lorsque vous utilisez des arêtes pour la géométrie de base, sélectionnez toujours le bord inférieur du trou.
 -   Vérifiez toujours que l\'outil choisi est le bon diamètre pour le(s) trou(s) sélectionné(s).
--   **Rétractation désactivée** génère (cycles de forage pré-programmés G81). **Rétractation activée** génère (cycles de forage prédéfinis G83).
--   **Temps d\'arrêt activé** est actuellement non pris en charge, mais il est destiné à générer (cycles de forage fixes G82).
+-   **Perçage désactivé** génère (cycles de forage pré-programmés G81). **Perçage activé** génère (cycles de forage prédéfinis G83).
+-   **Temporisation activé** est actuellement non pris en charge, mais il est destiné à générer (cycles de forage fixes G82).
 
 ## Propriétés
 
@@ -89,7 +89,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
     -   
         **Position**
         
-           * Position de l\'objet, définie dans les sous-propriétés   * x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+           * position de l\'objet, définie dans les sous-propriétés   * x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
         -   
             **X**
@@ -113,28 +113,28 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**   * hauteur nécessaire pour supprimer les pinces et les obstructions.
+-    **Clearance Height**   * hauteur nécessaire pour éviter les brides et les obstructions.
 
 -    **Final Depth**   * profondeur finale de l\'outil - valeur la plus basse de Z.
 
 -    **Safe Height**   * hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
 
--    **Start Depth**   * profondeur de départ de l\'outil - *profondeur de la première coupe en Z*.
+-    **Start Depth**   * profondeur initiale de l\'outil - *profondeur de la première coupe en Z*.
 
 
 {{TitleProperty|Drill}}
 
--    **Add Tip Length**   * calcule la longueur de la pointe et soustrait de la profondeur finale.
+-    **Add Tip Length**   * calcule la longueur de la pointe et la soustrait de la profondeur finale.
 
--    **Dwell Enabled**   * activer le temps (? ndt).
+-    **Dwell Enabled**   * active la temporisation.
 
--    **Dwell Time**   * le temps de pause entre les cycles de picage.
+-    **Dwell Time**   * le temps de pause entre les cycles de perçage.
 
--    **Peck Depth**   * profondeur de forage incrémental avant de se rétracter pour nettoyer les copeaux.
+-    **Peck Depth**   * profondeur de perçage incrémental avant de se rétracter pour nettoyer les copeaux.
 
--    **Peck Enabled**   * active le picage.
+-    **Peck Enabled**   * active le perçage.
 
--    **Retract Height**   * la hauteur du début de l\'alimentation et la hauteur lors de la rétraction de l\'outil lorsque le tracé est terminé.
+-    **Retract Height**   * hauteur à laquelle commence l\'avance de l\'outil et la hauteur pendant laquelle l\'outil est rétracté lorsque la trajectoire est terminée.
 
 -    **Return Level**   * contrôle le retrait de l\'outil. Par défaut = G98.
 
@@ -145,7 +145,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 -    **Comment**   * commentaire facultatif pour cette opération.
 
--    **User Label**   * étiquette attribuée par l\'utilisateur.
+-    **User Label**   * identifiant attribuée par l\'utilisateur.
 
 -    **Tool Controller**   * définit le contrôleur d\'outil utilisé dans l\'opération.
 
@@ -156,17 +156,18 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 -    **Attempt Inverse Angle**   * tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
--    
-
+-
 -    **Enable Rotation**   * active la rotation pour accéder aux trous non normaux sur l\'axe Z.
 
--    **Angle Inverse**   * inverse l\'angle de la rotation. \'\' **Exemple   *** change une rotation de -22,5 à 22,5 degrés.\'\'
+-    **Angle Inverse**   * inverse l\'angle de la rotation. \'\' **Exemple    *** change une rotation de -22,5 à 22,5 degrés.\'\'
 
 -    **Reverse Direction**   * inverse l\'orientation de l\'opération de 180 degrés.
 
 ## Disposition de l\'éditeur de fenêtre de tâches 
 
-*Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
+*Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.*
+
+Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
 ### Géométrie de base 
 
@@ -182,42 +183,23 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 ### Profondeurs
 
--    **Start Depth**
-    
-
--    **Final Depth**
-    
+-   **Profondeur initiale**    *
+-   **Profondeur finale**    *
 
 ### Hauteurs
 
--    **Safe Height**
-    
-
--    **Clearance Height**
-    
+-   **Hauteur de sécurité**    *
+-   **Hauteur de dégagement**    *
 
 ### Opération
 
--    **Tool Controller**
-    
-
--    **Retract Height**
-    
-
--    **Peck**
-    
-
--    **Peck Depth**
-    
-
--    **Dwell**
-    
-
--    **Dwell Time**
-    
-
--    **Use Tip Length**
-    
+-   **Contrôleur d\'outil**    *
+-   **Hauteur de rétraction**    *
+-   **Perçage**    *
+-   **Profondeur de perçage**    *
+-   **Temporisation**    *
+-   **Temps de temporisation**    *
+-   **Longueur de la pointe utilisée**    *
 
 ## Script
 

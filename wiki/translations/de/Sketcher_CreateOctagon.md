@@ -1,16 +1,14 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher CreateOctagon
-   Name/de:Skizzierer ErstelleAchteck
-   MenuLocation:Skizze → Skizzierergeometrien → Erstelle Achteck
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.15
+- GuiCommand   */de
+   Name   *Sketcher CreateOctagon
+   Name/de   *Sketcher AchteckErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Achteck erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **P** **8**
+   Version   *0.15
 ---
 
 # Sketcher CreateOctagon/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -20,29 +18,15 @@ Zeichnet ein Achteck, das in einem Kreis der Konstruktionsgeometrie eingeschrieb
 
 ## Anwendung
 
--   Nach Drücken der **[<img src=images/Sketcher_CreateOctagon.svg style="width:16px"> [Achteck erstellen](Sketcher_CreateOctagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
+-   Nach Drücken der **[<img src=images/Sketcher_CreateOctagon.svg style="width   *16px"> [Achteck erstellen](Sketcher_CreateOctagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
 -   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
 
 ## Hinweise
 
 Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

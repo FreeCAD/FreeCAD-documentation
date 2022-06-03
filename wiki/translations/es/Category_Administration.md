@@ -1,6 +1,8 @@
 # Category:Administration/es
 Esta categoría contiene artículos y categorías sobre temas de administración de la wiki.
 
+[Category   *Categories/es](Category   *Categories/es.md)
+
 ### Contents
 
 |     |     |     |

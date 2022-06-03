@@ -1,6 +1,6 @@
 # Drawing Symbol/it
 ---
-- GuiCommand:/it   Name:Drawing Symbol   Name/it:Simbolo   Workbenches:[[Drawing Workbench/it   Drawing]], Completo|MenuLocation:Drawing → Simbolo   Shortcut: ---
+- GuiCommand   */it   Name   *Drawing Symbol   Name/it   *Simbolo   Workbenches   *[[Drawing Workbench/it   Drawing]], Completo|MenuLocation   *Drawing → Simbolo   Shortcut   * ---
 
 ### Descrizione
 

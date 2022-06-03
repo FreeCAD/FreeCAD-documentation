@@ -5,13 +5,13 @@
 
 L\'interfaccia di FreeCAD si basa su Qt, un noto toolkit di interfaccia utente grafica (GUI), particolarmente utilizzato in Linux, ma disponibile anche in Windows e MacOS.
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
 
 
 
 *Interfaccia standard di FreeCAD 0.19.*
 
-La finestra principale dell\'applicazione può essere suddivisa approssimativamente in 11 sezioni:
+La finestra principale dell\'applicazione può essere suddivisa approssimativamente in 11 sezioni   *
 
 1.  L\'[area della vista principale](main_view_area/it.md), che può contenere diverse finestre a schede
 2.  La [vista 3D](3D_view/it.md), normalmente incorporata nell\'area della vista principale
@@ -31,17 +31,17 @@ Come molti software, FreeCAD include una barra dei menu standard, quindi una ser
 
 ### Menu
 
-I [menu standard](Standard_Menu/it.md) sono: [**File**](Std_File_Menu/it.md), [**Modifica**](Std_Edit_Menu/it.md), [**Visualizza**](Std_View_Menu/it.md), [**Strumenti**](Std_Tools_Menu/it.md), [**Macro**](Std_Macro_Menu/it.md), [**Finestre**](Std_Windows_Menu/it.md), [**Aiuto**](Std_Help_Menu/it.md).
+I [menu standard](Standard_Menu/it.md) sono   * [**File**](Std_File_Menu/it.md), [**Modifica**](Std_Edit_Menu/it.md), [**Visualizza**](Std_View_Menu/it.md), [**Strumenti**](Std_Tools_Menu/it.md), [**Macro**](Std_Macro_Menu/it.md), [**Finestre**](Std_Windows_Menu/it.md), [**Aiuto**](Std_Help_Menu/it.md).
 
 ### Barre degli strumenti 
 
-Le barre degli strumenti standard che appaiono nell\'interfaccia sono:
+Le barre degli strumenti standard che appaiono nell\'interfaccia sono   *
 
--   Barra degli strumenti File: strumenti per lavorare con i file, aprire documenti, copiare, incollare, annullare e ripetere azioni.
--   [Selettore degli ambienti](Std_Workbench/it.md): contiene un singolo widget per selezionare l\'[ambiente](workbenches/it.md) attivo.
--   Barra degli strumenti Macro: strumenti per registrare, modificare ed eseguire le [macro](macros/it.md).
--   Barra degli strumenti Visualizza: strumenti per controllare la modalità di visualizzazione degli oggetti nella [vista 3D](3D_view/it.md).
--   Barra degli strumenti Struttura: strumenti per organizzare gli oggetti nel documento e creare collegamenti a documenti aggiuntivi.
+-   Barra degli strumenti File   * strumenti per lavorare con i file, aprire documenti, copiare, incollare, annullare e ripetere azioni.
+-   [Selettore degli ambienti](Std_Workbench/it.md)   * contiene un singolo widget per selezionare l\'[ambiente](workbenches/it.md) attivo.
+-   Barra degli strumenti Macro   * strumenti per registrare, modificare ed eseguire le [macro](macros/it.md).
+-   Barra degli strumenti Visualizza   * strumenti per controllare la modalità di visualizzazione degli oggetti nella [vista 3D](3D_view/it.md).
+-   Barra degli strumenti Struttura   * strumenti per organizzare gli oggetti nel documento e creare collegamenti a documenti aggiuntivi.
 
 Questi possono essere attivati e disattivati facendo clic con il pulsante destro del mouse su uno spazio vuoto su una delle barre degli strumenti e scegliendo l\'elemento desiderato, oppure dal menu **Visualizza → Barre degli strumenti**.
 
@@ -50,18 +50,18 @@ Questi possono essere attivati e disattivati facendo clic con il pulsante destro
 
 <div class="mw-translate-fuzzy">
 
-I pannelli principali che consentono di lavorare con gli oggetti sono:
+I pannelli principali che consentono di lavorare con gli oggetti sono   *
 
--   [Vista 3D](3D_view/it.md): l\'area in cui viene disegnata la geometria 2D e 3D.
--   [Vista combinata](Combo_view/it.md): il pannello che contiene la [vista ad albero](tree_view/it.md), il [pannello azioni](task_panel/it.md), e l\'[editor delle proprietà](property_editor/it.md).
--   [Vista ad albero](Tree_view/it.md): l\'elemento che mostra tutti gli oggetti nel documento e la loro cronologia parametrica.
--   [Pannello Azioni](Task_panel/it.md): il pannello che mostra diverse azioni e opzioni a seconda dello strumento selezionato.
--   [Editor delle proprietà](Property_editor/it.md): il luogo in cui si possono modificare le proprietà dell\'oggetto.
--   [Vista selezione](Selection_view/it.md): il pannello che mostra gli elementi attualmente selezionati.
--   [Vista report](Report_view/it.md): il campo di testo che mostra i messaggi dell\'applicazione e dei suoi strumenti.
--   [Console Python](Python_console/it.md): l\'editor che consente di eseguire il codice [Python](Python/it.md) in modo interattivo per vedere i risultati nella [vista 3D](3D_view/it.md).
--   [Barra di stato](Status_bar/it.md): la barra che mostra determinati messaggi dell\'applicazione e che ha il selettore per impostare il [tipo di mouse](Mouse_Model/it.md).
--   [Vista DAG](DAG_view/it.md): un\'alternativa alla [vista ad albero](tree_view/it.md), che mostra le relazioni tra oggetti diversi attraverso un grafico.
+-   [Vista 3D](3D_view/it.md)   * l\'area in cui viene disegnata la geometria 2D e 3D.
+-   [Vista combinata](Combo_view/it.md)   * il pannello che contiene la [vista ad albero](tree_view/it.md), il [pannello azioni](task_panel/it.md), e l\'[editor delle proprietà](property_editor/it.md).
+-   [Vista ad albero](Tree_view/it.md)   * l\'elemento che mostra tutti gli oggetti nel documento e la loro cronologia parametrica.
+-   [Pannello Azioni](Task_panel/it.md)   * il pannello che mostra diverse azioni e opzioni a seconda dello strumento selezionato.
+-   [Editor delle proprietà](Property_editor/it.md)   * il luogo in cui si possono modificare le proprietà dell\'oggetto.
+-   [Vista selezione](Selection_view/it.md)   * il pannello che mostra gli elementi attualmente selezionati.
+-   [Vista report](Report_view/it.md)   * il campo di testo che mostra i messaggi dell\'applicazione e dei suoi strumenti.
+-   [Console Python](Python_console/it.md)   * l\'editor che consente di eseguire il codice [Python](Python/it.md) in modo interattivo per vedere i risultati nella [vista 3D](3D_view/it.md).
+-   [Barra di stato](Status_bar/it.md)   * la barra che mostra determinati messaggi dell\'applicazione e che ha il selettore per impostare il [tipo di mouse](Mouse_Model/it.md).
+-   [Vista DAG](DAG_view/it.md)   * un\'alternativa alla [vista ad albero](tree_view/it.md), che mostra le relazioni tra oggetti diversi attraverso un grafico.
 
 
 </div>
@@ -75,10 +75,10 @@ Per attivare e disattivare la barra di stato utilizzare il menu **Visualizza →
 
 <div class="mw-translate-fuzzy">
 
-Altre interfacce e finestre utili includono:
+Altre interfacce e finestre utili includono   *
 
--   [Ispettore di scena](Std_SceneInspector/it.md): un pannello che mostra i nodi Coin3D che compongono la [scena grafica](scenegraph/it.md). Per utenti esperti e sviluppatori, può essere utile per risolvere le operazioni che manipolano direttamente la scena e gli oggetti creati nella [Vista 3D](3D_view/it.md).
--   [Grafico delle dipendenze](Std_DependencyGraph/it.md): una finestra che mostra il grafico delle dipendenze di tutti gli oggetti nel documento, creato con il programma ausiliario [Graphviz](http://graphviz.org/). È utile per riconoscere i problemi nella creazione di oggetti, come le dipendenze circolari, che potrebbero non essere del tutto evidenti dalla [vista ad albero](tree_view/it.md) o dalla [vista DAG](DAG_view/it.md).
+-   [Ispettore di scena](Std_SceneInspector/it.md)   * un pannello che mostra i nodi Coin3D che compongono la [scena grafica](scenegraph/it.md). Per utenti esperti e sviluppatori, può essere utile per risolvere le operazioni che manipolano direttamente la scena e gli oggetti creati nella [Vista 3D](3D_view/it.md).
+-   [Grafico delle dipendenze](Std_DependencyGraph/it.md)   * una finestra che mostra il grafico delle dipendenze di tutti gli oggetti nel documento, creato con il programma ausiliario [Graphviz](http   *//graphviz.org/). È utile per riconoscere i problemi nella creazione di oggetti, come le dipendenze circolari, che potrebbero non essere del tutto evidenti dalla [vista ad albero](tree_view/it.md) o dalla [vista DAG](DAG_view/it.md).
 
 
 </div>

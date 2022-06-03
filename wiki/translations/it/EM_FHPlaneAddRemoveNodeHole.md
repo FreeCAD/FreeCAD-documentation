@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:EM FHPlaneAddRemoveNodeHole
-   Name/it:EM FHPlaneAddRemoveNodeHole
-   MenuLocation:EM → FHPlaneAddRemoveNodeHole
-   Workbenches:[EM](EM_Workbench/it.md) (add-on)
-   Shortcut:E A
-   SeeAlso:[EM FHPlane](EM_FHPlane/it.md), [EM FHNode](EM_FHNode/it.md), [EM FHPlaneHole](EM_FHPlaneHole/it.md)
-   Version:0.17
+- GuiCommand   */it
+   Name   *EM FHPlaneAddRemoveNodeHole
+   Name/it   *EM FHPlaneAddRemoveNodeHole
+   MenuLocation   *EM → FHPlaneAddRemoveNodeHole
+   Workbenches   *[EM](EM_Workbench/it.md) (add-on)
+   Shortcut   *E A
+   SeeAlso   *[EM FHPlane](EM_FHPlane/it.md), [EM FHNode](EM_FHNode/it.md), [EM FHPlaneHole](EM_FHPlaneHole/it.md)
+   Version   *0.17
 ---
 
 # EM FHPlaneAddRemoveNodeHole/it
@@ -26,12 +26,12 @@ The FHPlaneAddRemoveNodeHole tool inserts or removes FHNodes or FHPlaneHoles fro
 
 ## Usage
 
-To remove one or multiple FHNode objects or FHPlaneHole objects from a FHPlane:
+To remove one or multiple FHNode objects or FHPlaneHole objects from a FHPlane   *
 
 1.  Select all the [EM FHNode](EM_FHNode.md) objects or [EM FHPlaneHole](EM_FHPlaneHole.md) objects that you want to remove from the FHPlane (note that you need to expand the list of children of the FHPlane if you want to select these object from the [tree view](Tree_view.md) instead of from the current [3D view](3D_view.md)).
 2.  Press the **<img src="images/EM_FHPlaneAddRemoveNodeHole.svg" width=16px> [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md)** button, or press **E** then **A** keys.
 
-To insert one or multiple FHNode objects or FHPlaneHole objects into a FHPlane:
+To insert one or multiple FHNode objects or FHPlaneHole objects into a FHPlane   *
 
 1.  Select the [EM FHPlane](EM_FHPlane.md) and all the [EM FHNode](EM_FHNode.md) objects or [EM FHPlaneHole](EM_FHPlaneHole.md) objects that you want to insert in the FHPlane.
 2.  Press the **<img src="images/EM_FHPlaneAddRemoveNodeHole.svg" width=16px> [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md)** button, or press **E** then **A** keys.
@@ -43,7 +43,7 @@ You can also remove FHNode objects or FHPlaneHole objects from a FHPlane, and in
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

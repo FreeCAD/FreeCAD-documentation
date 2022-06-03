@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Добавить осевую линию между 2 точками
-   Name:TechDraw_2PointCenterLine
-   MenuLocation:TechDraw → Добавить Линии → Добавить осевую линию между 2 точками
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Добавить осевую линию между 2 точками
+   Name   *TechDraw_2PointCenterLine
+   MenuLocation   *TechDraw → Добавить Линии → Добавить осевую линию между 2 точками
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   Version   *0.19
+   SeeAlso   *[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
 ---
 
 # TechDraw 2PointCenterLine/ru
@@ -14,7 +14,7 @@
 
 The 2PointCenterLine tool adds a centerline between two Vertices (Points).
 
-<img alt="" src=images/CL2PointsSample.png  style="width:200px;">
+<img alt="" src=images/CL2PointsSample.png  style="width   *200px;">
 
 
 
@@ -42,22 +42,22 @@ Any of the centerline command buttons ( **<img src="images/TechDraw_FaceCenterLi
 
 Centerlines have no properties of their own, as they are no document objects. They have attributes that can be changed in the centerline edit dialog.
 
-1.  Mode (radio buttons):
-    -   **Vertical**: Forces a centerline vertical
-    -   **Horizontal**: Forces a centerline horizontal
-    -   **Aligned**: Follows the general direction of the Edge for 2 Edge centerline
-2.  **Shift Horiz**: Moves the centerline left or right of its normal position
-3.  **Shift Vert**: Moves the centerline up or down from its normal position
-4.  **Rotate**: Rotates the centerline around its center (degrees. + counterclockwise, - clockwise)
-5.  **Extend**: Makes the centerline longer by this amount
-6.  **Color**: Color of centerline
-7.  **Weight**: Thickness of the centerline
-8.  **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot
+1.  Mode (radio buttons)   *
+    -   **Vertical**   * Forces a centerline vertical
+    -   **Horizontal**   * Forces a centerline horizontal
+    -   **Aligned**   * Follows the general direction of the Edge for 2 Edge centerline
+2.  **Shift Horiz**   * Moves the centerline left or right of its normal position
+3.  **Shift Vert**   * Moves the centerline up or down from its normal position
+4.  **Rotate**   * Rotates the centerline around its center (degrees. + counterclockwise, - clockwise)
+5.  **Extend**   * Makes the centerline longer by this amount
+6.  **Color**   * Color of centerline
+7.  **Weight**   * Thickness of the centerline
+8.  **Style**   * <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> DashDotDot
 
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Draft Line
-   Name/ro:Draft Line
-   MenuLocation:Draft → Line
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**L** **I**
-   SeeAlso:[Draft Wire](Draft_Wire/ro.md)
+- GuiCommand   */ro
+   Name   *Draft Line
+   Name/ro   *Draft Line
+   MenuLocation   *Draft → Line
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut   ***L** **I**
+   SeeAlso   *[Draft Wire](Draft_Wire/ro.md)
 ---
 
 # Draft Line/ro
@@ -27,19 +27,19 @@ Instrumentul Linie creează o linie dreaptă, definită prin două puncte. Ea ut
 
 A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
-<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -69,7 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Apăsați tasta **T** sau faceți clic pe caseta de selectare pentru a bifa/debifa butonul **'''Continue'''**. Dacă modul continuat este activat, instrumentul Linie se va reporni după ce dați cel de-al doilea punct, permițându-vă să desenați un alt segment de linie fără a apăsa din nou butonul Linie.
 -   Apăsați **CTRL** în timp ce desenați pentru a forța ancorarea [snapping](Draft_Snap.md) punctul dvs. către cea mai apropiată locație, independent de distanța.
 -   Apăsați **SHIFT** în timp ce desenați [constrain](Draft_Constrain.md) al doilea punct pe orizontală sau pe verticală în raport cu primul punct.
--   Apăsați tasta **CTRL** + **Z** sau apăsați pe **['Image: Draft UndoLine.png|12px] ** pentru a anula ultimul punct.
+-   Apăsați tasta **CTRL** + **Z** sau apăsați pe **['Image   * Draft UndoLine.png|12px] ** pentru a anula ultimul punct.
 -   Apăsați butonul **ESC** sau butonul **'''Anulare'''** pentru a întrerupe comanda curentă.
 -   Dacă sunt selectate mai multe linii [Draft Lines](Draft_Line/ro.md), ele pot fi transformate într-un filament prin apăsarea butonului **Upgrade Draft**.
 
@@ -83,10 +83,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   To change the number of decimals used for the input of coordinates, lengths and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial focus of the task panel to the **Length** input box   * **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
 ## Properties
@@ -96,11 +96,11 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 ## Proprietăți
 
--    {{PropertyData/ro|Start}}: Punctul de pornire
+-    {{PropertyData/ro|Start}}   * Punctul de pornire
 
--    {{PropertyData/ro|End}}: Punctul final
+-    {{PropertyData/ro|End}}   * Punctul final
 
--    {{PropertyData/ro|Subdivisions}}: Împărțirea liniei cu numărul de subdiviziuni dat <small>(v0.16/ro)</small> 
+-    {{PropertyData/ro|Subdivisions}}   * Împărțirea liniei cu numărul de subdiviziuni dat <small>(v0.16/ro)</small> 
 
 
 </div>
@@ -112,7 +112,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 ## Script-Programare 
 
-Instrumentul Linie poate fi utilizat în [macros](macros/ro.md) și din consola [Python](Python/ro.md) utilizând următoarea funcție:
+Instrumentul Linie poate fi utilizat în [macros](macros/ro.md) și din consola [Python](Python/ro.md) utilizând următoarea funcție   *
 
 
 </div>

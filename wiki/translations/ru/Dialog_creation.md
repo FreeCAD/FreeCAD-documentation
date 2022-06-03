@@ -3,28 +3,28 @@
 
 ## Введение
 
-На этой странице мы покажем как создать простой графический интерфейс с помощью [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), официальный инструмент Qt для создания интерфейсов, диалог будет сковертирован в код [Python](Python/ru.md), затем использован внутри FreeCAD. Мы будем полагать что пользователь знает в общих чертах как редактировать и запускать [Python](Python/ru.md).
+На этой странице мы покажем как создать простой графический интерфейс с помощью [Qt Designer](http   *//qt-project.org/doc/qt-4.8/designer-manual.html), официальный инструмент Qt для создания интерфейсов, диалог будет сковертирован в код [Python](Python/ru.md), затем использован внутри FreeCAD. Мы будем полагать что пользователь знает в общих чертах как редактировать и запускать [Python](Python/ru.md).
 
-In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created {{FileName|.ui}} files directly into the program.
+In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created **.ui** files directly into the program.
 
-<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
+<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width   *600px;"> 
 *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
 
 ## Проектирование диалога 
 
-В приложениях САПР очень важно проектирование хорошего Пользовательского Интерфейса. Практически всё, что пользователь будет делать, делается через части интерфейса: чтение диалоговых окон, нажатие кнопок, выбор между иконками, и.т.д. Так что очень важно тщательно подумать, что вы хотите сделать, как вы хотите чтобы пользователь повел себя и каков будет рабочий процесс с вашими действиями.
+В приложениях САПР очень важно проектирование хорошего Пользовательского Интерфейса. Практически всё, что пользователь будет делать, делается через части интерфейса   * чтение диалоговых окон, нажатие кнопок, выбор между иконками, и.т.д. Так что очень важно тщательно подумать, что вы хотите сделать, как вы хотите чтобы пользователь повел себя и каков будет рабочий процесс с вашими действиями.
 
-Известно несколько понятий, от том как проектировать интерфейс:
+Известно несколько понятий, от том как проектировать интерфейс   *
 
--   [Modal/non-modal dialogs](http://en.wikipedia.org/wiki/Modal_window): Модальное окно появляется поверх всех окон, останавливая действия происходящие в главном окне приложения, заставляя пользователя отвечать в диалоговом окне, тогда как не модальный диалог не останавливает вас от работы в главном окне. В некоторых случаях лучше первое, в других нет.
--   Определение того, что требуется и что считается дополнительны: Убедитесь что пользователь знает что он должен делать. Ставте на все метки с описанием, используйте подсказки, и.т.д.
--   Отделяйте команды от параметров: Это обычно делается с помощью кнопок и полей текстовых ввода. Пользователь знает что нажатие кнопки будет производить действие тогда как изменение значения внутри текстового поля где-то будет изменять параметр. В настоящие время, однако, пользователи обычно отлично знают что есть кнопка, а что есть поле ввода, и.т.д. В качестве графического инструментария используется, Qt, это современный инструментарий, и мы не должны больш беспокоится о создании ясности, так как он уже сам по себе очень ясный/понятный интерфейс.
+-   [Modal/non-modal dialogs](http   *//en.wikipedia.org/wiki/Modal_window)   * Модальное окно появляется поверх всех окон, останавливая действия происходящие в главном окне приложения, заставляя пользователя отвечать в диалоговом окне, тогда как не модальный диалог не останавливает вас от работы в главном окне. В некоторых случаях лучше первое, в других нет.
+-   Определение того, что требуется и что считается дополнительны   * Убедитесь что пользователь знает что он должен делать. Ставте на все метки с описанием, используйте подсказки, и.т.д.
+-   Отделяйте команды от параметров   * Это обычно делается с помощью кнопок и полей текстовых ввода. Пользователь знает что нажатие кнопки будет производить действие тогда как изменение значения внутри текстового поля где-то будет изменять параметр. В настоящие время, однако, пользователи обычно отлично знают что есть кнопка, а что есть поле ввода, и.т.д. В качестве графического инструментария используется, Qt, это современный инструментарий, и мы не должны больш беспокоится о создании ясности, так как он уже сам по себе очень ясный/понятный интерфейс.
 
-Таким образом, теперь когда мы четко определили что должны делать, откройте qt designer. Давайте спроектируем очень простой диалог, как здесь:
+Таким образом, теперь когда мы четко определили что должны делать, откройте qt designer. Давайте спроектируем очень простой диалог, как здесь   *
 
 ![](images/Qttestdialog.jpg )
 
-Мы будем использовать этот диалог в FreeCAD для создания хороших прямоугольных плоскосте. Вам может показаться что это не очень удобно для создания прямоугольных плоскосте, но его легко можно изменить позже, чтобы делать более сложные вещи. Когда вы откроете Qt Designer, он выглядит следующим образом:
+Мы будем использовать этот диалог в FreeCAD для создания хороших прямоугольных плоскосте. Вам может показаться что это не очень удобно для создания прямоугольных плоскосте, но его легко можно изменить позже, чтобы делать более сложные вещи. Когда вы откроете Qt Designer, он выглядит следующим образом   *
 
 ![](images/Qtdesigner-screenshot.jpg )
 
@@ -33,27 +33,27 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 Qt Designer очень прост в использовании. На левой панели есть элименты которые можно перетащить на ваш виджет. На правой стороне находится панель свойств отображающая все виды редактируемых свойств, выбранного элемента. Так что начните с создания нового виджета.
 
 1.  Выберете \"Диалог без кнопок\", так как мы не хотим кнопки по умолчанию **OK**/**Cancel**.
-2.  Нам нужны *\'Labels*. Labels (этикетки) - это просто тексты которые появляются на вашем виджете, чтобы проинформировать пользователя. Если вы выбираете этикетку, на правой стороне появляются свойства которые вы можете поменять, если вы хотите, такие как стиль шрифта, высота и.т.д. Так что перетащите на ваш виджет 3 этикетки:
+2.  Нам нужны *\'Labels*. Labels (этикетки) - это просто тексты которые появляются на вашем виджете, чтобы проинформировать пользователя. Если вы выбираете этикетку, на правой стороне появляются свойства которые вы можете поменять, если вы хотите, такие как стиль шрифта, высота и.т.д. Так что перетащите на ваш виджет 3 этикетки   *
     -   Одна для заголовка,
     -   Одно для надписи \"Height\"
     -   Одна для записи \"Width\".
-3.  Теперь нам нужны LineEdits. Перетащите два из них на виджет. **LineEdits** это текстовые поля, которые конечный пользователь может заполнить. Нам нужен один LineEdit для *Height* и один для *Width*. Здесь мы тоже можем редактировать свойства. Например, почему бы не установить значения по умолчанию, например: 1.00 для каждого. Таким образом, пользователь увидит диалог, где оба значения уже заполнены. Если он удовлетворён, он может прямо нажать кнопку, сохраняя время.
+3.  Теперь нам нужны LineEdits. Перетащите два из них на виджет. **LineEdits** это текстовые поля, которые конечный пользователь может заполнить. Нам нужен один LineEdit для *Height* и один для *Width*. Здесь мы тоже можем редактировать свойства. Например, почему бы не установить значения по умолчанию, например   * 1.00 для каждого. Таким образом, пользователь увидит диалог, где оба значения уже заполнены. Если он удовлетворён, он может прямо нажать кнопку, сохраняя время.
 4.  Далее добавим **PushButton**. Это кнопка, которую конечному пользователю следует нажать после заполнения обоих полей.
 
-**Заметьте:** мы выбрали очень просто управление. В Qt гораздо больше функций, например, например вы можете использовать Spinboxes вместо LineEdits, и.т.д\... Обратите внимание на то что доступно, у вас несомнено появятся другие идеи.
+**Заметьте   *** мы выбрали очень просто управление. В Qt гораздо больше функций, например, например вы можете использовать Spinboxes вместо LineEdits, и.т.д\... Обратите внимание на то что доступно, у вас несомнено появятся другие идеи.
 
-Вот и все, что мы должны сделать в Qt Designer. Последнее, давайте переименуем все наши элементы дав им более простые имена, так что будет легче определять их в нашем сценарии:
+Вот и все, что мы должны сделать в Qt Designer. Последнее, давайте переименуем все наши элементы дав им более простые имена, так что будет легче определять их в нашем сценарии   *
 
 ![](images/Qtpropeditor.jpg )
 
 ## Конвертация нашего диалога в python 
 
-Теперь сохраните ваш виджет где-нибудь. Он будет сохранен как .ui файл, который мы легко преобразуем в python сценарий с помощью pyuic. В windows, программа pyuic связанна с pyqt (должно быть проверено), на linux вам вероятно нужно будет установить его отдельно в вашем пакетном менеджере (для debian-based систем, это часть пакета pyqt4-dev-tools). Для преобразования, вам необходимо открыть окно терминала (или окно командной строки в windows), переместитесь туда где вы сохранили ваш .ui файл и введите: 
+Теперь сохраните ваш виджет где-нибудь. Он будет сохранен как .ui файл, который мы легко преобразуем в python сценарий с помощью pyuic. В windows, программа pyuic связанна с pyqt (должно быть проверено), на linux вам вероятно нужно будет установить его отдельно в вашем пакетном менеджере (для debian-based систем, это часть пакета pyqt4-dev-tools). Для преобразования, вам необходимо открыть окно терминала (или окно командной строки в windows), переместитесь туда где вы сохранили ваш .ui файл и введите   * 
 ```python
 pyuic mywidget.ui > mywidget.py
-``` In Windows pyuic.py is located in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" For conversion create a batch file called \"compQt4.bat: 
+``` In Windows pyuic.py is located in \"C   *Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" For conversion create a batch file called \"compQt4.bat   * 
 ```python
-@"C:\Python27\python" "C:\Python27\Lib\site-packages\PyQt4\uic\pyuic.py" -x %1.ui > %1.py
+@"C   *Python27\python" "C   *Python27\Lib\site-packages\PyQt4\uic\pyuic.py" -x %1.ui > %1.py
 ``` In the DOS console type without extension 
 ```python
 compQt4 myUiFile
@@ -69,29 +69,29 @@ sudo ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-
 ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app /Applications
 ```
 
-Into Linux : to do
+Into Linux    * to do
 
-Since FreeCAD progressively moved away from PyQt after version 0.13, in favour of [PySide](http://qt-project.org/wiki/PySide) (Choose your PySide install [building PySide](http://pyside.readthedocs.org/en/latest/building/)), to make the file based on PySide now you have to use:
+Since FreeCAD progressively moved away from PyQt after version 0.13, in favour of [PySide](http   *//qt-project.org/wiki/PySide) (Choose your PySide install [building PySide](http   *//pyside.readthedocs.org/en/latest/building/)), to make the file based on PySide now you have to use   *
 
 
 ```python
 pyside-uic mywidget.ui -o mywidget.py
 ```
 
-In Windows uic.py are located in \"C:\\Python27\\Lib\\site-packages\\PySide\\scripts\\uic.py\" For create batch file \"compSide.bat\": 
+In Windows uic.py are located in \"C   *Python27\\Lib\\site-packages\\PySide\\scripts\\uic.py\" For create batch file \"compSide.bat\"   * 
 ```python
-@"C:\Python27\python" "C:\Python27\Lib\site-packages\PySide\scripts\uic.py" %1.ui > %1.py
+@"C   *Python27\python" "C   *Python27\Lib\site-packages\PySide\scripts\uic.py" %1.ui > %1.py
 ``` In the DOS console type without extension 
 ```python
 compSide myUiFile
-``` Into Linux : to do
+``` Into Linux    * to do
 
-На некоторых системах программа называется pyuic4 вместо pyuic. Это просто сконвертирует файл .ui файл в сценарий python. Если мы откроем файл mywidget.py, его содержание очень легко понять: 
+На некоторых системах программа называется pyuic4 вместо pyuic. Это просто сконвертирует файл .ui файл в сценарий python. Если мы откроем файл mywidget.py, его содержание очень легко понять   * 
 ```python
 from PySide import QtCore, QtGui
 
-class Ui_Dialog(object):
-    def setupUi(self, Dialog):
+class Ui_Dialog(object)   *
+    def setupUi(self, Dialog)   *
         Dialog.setObjectName("Dialog")
         Dialog.resize(187, 178)
         self.title = QtGui.QLabel(Dialog)
@@ -103,13 +103,13 @@ class Ui_Dialog(object):
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
-   def retranslateUi(self, Dialog):
+   def retranslateUi(self, Dialog)   *
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
         self.title.setText(QtGui.QApplication.translate("Dialog", "Plane-O-Matic", None, QtGui.QApplication.UnicodeUTF8))
         ...
-``` Как вы видете, он обладает очень простым устройством: созданный класс называемый Ui\_Dialog, он содержит все элементы интерфейса нашего виджета. Этот класс обладает двумя методами, один для создания виджета, и одни для перевода его содержания, которая является частью механизма Qt для перевода элементов интерфейса. Метод установки(setup method) просто создает один за другим, виджетв так как мы задали их в Qt Designer, и задает их настройки так как мы определили ранее. Затем, весь инструмент будет переведен, и наконец, подключаются слоты (мы поговорим об этом позже).
+``` Как вы видете, он обладает очень простым устройством   * созданный класс называемый Ui\_Dialog, он содержит все элементы интерфейса нашего виджета. Этот класс обладает двумя методами, один для создания виджета, и одни для перевода его содержания, которая является частью механизма Qt для перевода элементов интерфейса. Метод установки(setup method) просто создает один за другим, виджетв так как мы задали их в Qt Designer, и задает их настройки так как мы определили ранее. Затем, весь инструмент будет переведен, и наконец, подключаются слоты (мы поговорим об этом позже).
 
-Теперь мы можем создать новый виджет и использовать этот класс для созданияего интерфейса. Мы уже можем увидеть наш виджет в действии, поместив наш файл mywidget.py в место где FreeCAD сможет найти его (в FreeCAD в паку bin, или в любую Mod поддиректорию), и ввести в интерпретаторе FreeCAD python: 
+Теперь мы можем создать новый виджет и использовать этот класс для созданияего интерфейса. Мы уже можем увидеть наш виджет в действии, поместив наш файл mywidget.py в место где FreeCAD сможет найти его (в FreeCAD в паку bin, или в любую Mod поддиректорию), и ввести в интерпретаторе FreeCAD python   * 
 ```python
 from PySide import QtGui
 import mywidget
@@ -117,28 +117,28 @@ d = QtGui.QWidget()
 d.ui = mywidget.Ui_Dialog()
 d.ui.setupUi(d)
 d.show()
-``` И наш диалог появится! Заметим, что наш интерпретатор по прежнему работает, т.е у нас не модальный диалог. Так что, закроем его, мы можем (конечно, помимо того как щелкнуть на иконке закрытия) ввести: 
+``` И наш диалог появится! Заметим, что наш интерпретатор по прежнему работает, т.е у нас не модальный диалог. Так что, закроем его, мы можем (конечно, помимо того как щелкнуть на иконке закрытия) ввести   * 
 ```python
 d.hide()
 ```
 
 ## Делаем так чтобы наш диалог делал что-нибудь 
 
-Теперь когда мы можем показать или скрыть наш диалог, на осталось добавить последнюю часть:Чтобы оно что-то делало! Если вы немного поиграетесь с Qt designer, вы быстро обнаружите целый раздел под название \"сигналы и слоты\". В основном, это работает следующим образом: элемент на вашем виджете (в Qt терминалогии, эти элементы сами по себе являются виджетами) может отправить сигнал. Этот сигнал отличаются в зависимости от типа виджета. Например, кнопка может подать сигнал при нажатии, и когда она будет отпущена. Этот сигнал может быть соединен со слотами, которые могут быть специальными функциями других виджетов(например диалог обладающий слотом \"закрыть\" который можно подключить к сигналу от кнопки закрытия), или это могут быть пользовательские функции. [PyQt Reference Documentation](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) список всех qt виджетов, что они делают, какие сигналы могут отправлять и.т.д\...
+Теперь когда мы можем показать или скрыть наш диалог, на осталось добавить последнюю часть   *Чтобы оно что-то делало! Если вы немного поиграетесь с Qt designer, вы быстро обнаружите целый раздел под название \"сигналы и слоты\". В основном, это работает следующим образом   * элемент на вашем виджете (в Qt терминалогии, эти элементы сами по себе являются виджетами) может отправить сигнал. Этот сигнал отличаются в зависимости от типа виджета. Например, кнопка может подать сигнал при нажатии, и когда она будет отпущена. Этот сигнал может быть соединен со слотами, которые могут быть специальными функциями других виджетов(например диалог обладающий слотом \"закрыть\" который можно подключить к сигналу от кнопки закрытия), или это могут быть пользовательские функции. [PyQt Reference Documentation](http   *//www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) список всех qt виджетов, что они делают, какие сигналы могут отправлять и.т.д\...
 
-Что мы будем делать здесь, создадим новую функцию , которая создает плоскость основываясь на её длине и ширине, и подключим эту функцию к сигналу нажатия испускаемому нашей кнопкой \"Create!\" . Так что , давайте начнем с импорта наших модулейr FreeCAD, палагая следующую строку введенной в начале нашего сценария, где мы уже импортировали QtCore и QtGui: 
+Что мы будем делать здесь, создадим новую функцию , которая создает плоскость основываясь на её длине и ширине, и подключим эту функцию к сигналу нажатия испускаемому нашей кнопкой \"Create!\" . Так что , давайте начнем с импорта наших модулейr FreeCAD, палагая следующую строку введенной в начале нашего сценария, где мы уже импортировали QtCore и QtGui   * 
 ```python
 import FreeCAD, Part
-``` Затем , давайте добавим новую функцию в наш класс Ui\_Dialog: 
+``` Затем , давайте добавим новую функцию в наш класс Ui\_Dialog   * 
 ```python
-def createPlane(self):
-    try:
+def createPlane(self)   *
+    try   *
         # first we check if valid numbers have been entered
         w = float(self.width.text())
         h = float(self.height.text())
-    except ValueError:
+    except ValueError   *
         print("Error! Width and Height values must be valid numbers!")
-    else:
+    else   *
         # create a face from 4 points
         p1 = FreeCAD.Vector(0,0,0)
         p2 = FreeCAD.Vector(w,0,0)
@@ -149,20 +149,20 @@ def createPlane(self):
         myface = Part.Face(mywire)
         Part.show(myface)
         self.hide()
-``` Потом, нам нужно сообщить Qt о подключении функции к кнопке, разместив следующую строчку перед QtCore.QMetaObject.connectSlotsByName(Dialog): 
+``` Потом, нам нужно сообщить Qt о подключении функции к кнопке, разместив следующую строчку перед QtCore.QMetaObject.connectSlotsByName(Dialog)   * 
 ```python
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
-``` как вы видете, подключение сигнала pressed() от нашего созданного объекта (кнопка \"Create!\"), к слоту названому createPlane, который мы только что определили. И это всё!!Теперь,финальный штрих, мы можем добавить маленькую функцию в создание диалога, его легче будет вызвать. Вне класса Ui\_Dialog, давайте добавим этот код: 
+``` как вы видете, подключение сигнала pressed() от нашего созданного объекта (кнопка \"Create!\"), к слоту названому createPlane, который мы только что определили. И это всё!!Теперь,финальный штрих, мы можем добавить маленькую функцию в создание диалога, его легче будет вызвать. Вне класса Ui\_Dialog, давайте добавим этот код   * 
 ```python
-class plane():
-   def __init__(self):
+class plane()   *
+   def __init__(self)   *
        self.d = QtGui.QWidget()
        self.ui = Ui_Dialog()
        self.ui.setupUi(self.d)
        self.d.show()
-``` (Python reminder: the \_\_init\_\_ method of a class is automatically executed whenever a new object is created!)
+``` (Python reminder   * the \_\_init\_\_ method of a class is automatically executed whenever a new object is created!)
 
-Затем , в FreeCAD, нам необходимо сделать только: 
+Затем , в FreeCAD, нам необходимо сделать только   * 
 ```python
 import mywidget
 myDialog = mywidget.plane()
@@ -170,20 +170,20 @@ myDialog = mywidget.plane()
 
 ## Готовый сценарий 
 
-Это полный сценарий, для справки: 
+Это полный сценарий, для справки   * 
 ```python
 # Form implementation generated from reading ui file 'mywidget.ui'
 #
-# Created: Mon Jun  1 19:09:10 2009
-#      by: PyQt4 UI code generator 4.4.4
-# Modified for PySide 16:02:2015 
+# Created   * Mon Jun  1 19   *09   *10 2009
+#      by   * PyQt4 UI code generator 4.4.4
+# Modified for PySide 16   *02   *2015 
 # WARNING! All changes made in this file will be lost!
 
 from PySide import QtCore, QtGui
 import FreeCAD, Part 
 
-class Ui_Dialog(object):
-   def setupUi(self, Dialog):
+class Ui_Dialog(object)   *
+   def setupUi(self, Dialog)   *
        Dialog.setObjectName("Dialog")
        Dialog.resize(187, 178)
        self.title = QtGui.QLabel(Dialog)
@@ -209,21 +209,21 @@ class Ui_Dialog(object):
        QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
        QtCore.QMetaObject.connectSlotsByName(Dialog)
 
-   def retranslateUi(self, Dialog):
+   def retranslateUi(self, Dialog)   *
        Dialog.setWindowTitle("Dialog")
        self.title.setText("Plane-O-Matic")
        self.label_width.setText("Width")
        self.label_height.setText("Height")
        self.create.setText("Create!")
        print("tyty")
-   def createPlane(self):
-       try:
+   def createPlane(self)   *
+       try   *
            # first we check if valid numbers have been entered
            w = float(self.width.text())
            h = float(self.height.text())
-       except ValueError:
+       except ValueError   *
            print("Error! Width and Height values must be valid numbers!")
-       else:
+       else   *
            # create a face from 4 points
            p1 = FreeCAD.Vector(0,0,0)
            p2 = FreeCAD.Vector(w,0,0)
@@ -234,8 +234,8 @@ class Ui_Dialog(object):
            myface = Part.Face(mywire)
            Part.show(myface)
 
-class plane():
-  def __init__(self):
+class plane()   *
+  def __init__(self)   *
       self.d = QtGui.QWidget()
       self.ui = Ui_Dialog()
       self.ui.setupUi(self.d)
@@ -254,7 +254,15 @@ class plane():
 
 ## Relevant links 
 
--   [Manual:Creating interface tools](Manual_Creating_interface_tools.md)
+-   [Manual   *Creating interface tools](Manual_Creating_interface_tools.md)
+
+
+
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

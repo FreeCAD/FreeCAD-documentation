@@ -1,17 +1,17 @@
 ---
-- GuiCommand:/pl
-   Name:Std DlgPreferences
-   Name/pl:Std: Okno dialogowe preferencji
-   MenuLocation:Edycja → Preferencje
-   Workbenches:All
-   SeeAlso:[Edytor ustawień](Preferences_Editor/pl.md)
+- GuiCommand   */pl
+   Name   *Std DlgPreferences
+   Name/pl   *Std   * Okno dialogowe preferencji
+   MenuLocation   *Edycja → Preferencje
+   Workbenches   *All
+   SeeAlso   *[Edytor ustawień](Preferences_Editor/pl.md)
 ---
 
 # Std DlgPreferences/pl
 
 ## Opis
 
-Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](Preferences_Editor/pl.md).
+Polecenie **Std   * Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](Preferences_Editor/pl.md).
 
 ## Użycie
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Draft Snap Dimensions
-   Name/de:Draft Abmessung
-   MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Bemaßungen
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Draft Snap Dimensions
+   Name/de   *Draft Abmessung
+   MenuLocation   *Entwurf → [Objektfang](Draft_Snap/de.md) → Bemaßungen
+   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
 ---
 
 # Draft Snap Dimensions/de
@@ -23,7 +23,7 @@ Dieser Einrastmodus zeigt temporäre X- und Y-Abmessungen zwischen dem aktuellen
 
 </div>
 
-<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width   *400px;"> 
 *Temporary dimensions show the position of the cursor*
 
 ## Anwendung

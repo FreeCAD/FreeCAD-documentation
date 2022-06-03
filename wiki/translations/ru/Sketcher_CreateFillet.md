@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Создать скругление
-   Name:Sketcher_CreateFillet
-   MenuLocation:Sketch → Геометрия эскиза → Создать скругление
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:F
+- GuiCommand   */ru
+   Name/ru   *Создать скругление
+   Name   *Sketcher_CreateFillet
+   MenuLocation   *Sketch → Геометрия эскиза → Создать скругление
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut   *F
 ---
 
 # Sketcher CreateFillet/ru

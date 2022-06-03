@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/pl
-   Name:PartDesign PolarPattern
-   Name/pl:Projekt Części: Szyk kołowy
-   MenuLocation:Part Design → Zastosuj szyk → Szyk kołowy
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+- GuiCommand   */pl
+   Name   *PartDesign PolarPattern
+   Name/pl   *Projekt Części   * Szyk kołowy
+   MenuLocation   *Part Design → Zastosuj szyk → Szyk kołowy
+   Workbenches   *[Projekt Części](PartDesign_Workbench/pl.md)
 ---
 
 # PartDesign PolarPattern/pl
@@ -14,7 +14,7 @@ Narzędzie wzorca kołowego przyjmuje wybrany element i tworzy zestaw kopii obr�
 
 ![](images/PartDesign_PolarPattern_example.png )
 
-\'\'Powyżej: kieszeń w kształcie szczeliny (B) wykonana na bazie bryły (A, zwana również podstawą) jest używana do tworzenia wzoru biegunowego. Wynik (C) jest pokazany po prawej stronie\".
+\'\'Powyżej   * kieszeń w kształcie szczeliny (B) wykonana na bazie bryły (A, zwana również podstawą) jest używana do tworzenia wzoru biegunowego. Wynik (C) jest pokazany po prawej stronie\".
 
 ## Użycie
 
@@ -43,7 +43,7 @@ Możesz zmienić kolejność, przeciągając element na liście, a rezultat poja
 
 ###### v0.18
 
-1.  Naciśnij przycisk **Dodaj element**, aby dodać element, który ma być wzorcem. Element musi być widoczny w oknie [widoku 3D](3D_view/pl.md):
+1.  Naciśnij przycisk **Dodaj element**, aby dodać element, który ma być wzorcem. Element musi być widoczny w oknie [widoku 3D](3D_view/pl.md)   *
 2.  Przejdź do widoku drzewa modelu,
 3.  Wybierz w drzewie element, który ma zostać dodany i naciśnij klawisz **Spacja**, aby wybrany element był widoczny w oknie [widoku 3D](3D_view/pl.md),
 4.  Przejdź z powrotem do panelu zadań,
@@ -65,7 +65,7 @@ lub
 
 ###### v0.18 
 
-1.  Naciśnij przycisk **Usuń element**, aby usunąć element z listy. Element musi być widoczny w oknie [widoku 3D](3D_view/pl.md):
+1.  Naciśnij przycisk **Usuń element**, aby usunąć element z listy. Element musi być widoczny w oknie [widoku 3D](3D_view/pl.md)   *
 2.  Przejdź do widoku drzewa modelu,
 3.  Wybierz w drzewie element, który ma zostać usunięty i naciśnij klawisz **Spacja**, aby wybrany element był widoczny w oknie [widoku 3D](3D_view/pl.md),
 4.  Przejdź z powrotem do panelu zadań,
@@ -117,7 +117,7 @@ Umożliwia wybranie linii odniesienia lub krawędzi obiektu lub linii szkicu do 
 
 ### Kąt i wystąpienia 
 
-Określa kąt, który ma zostać ujęty we wzorcu, oraz całkowitą liczbę kształtów wzoru *(łącznie z elementem oryginalnym)*. Na przykład, cztery wystąpienia pod kątem 180° dają odstęp 60° między wzorcami. Jest jeden wyjątek: Jeśli kąt wynosi 360°, ponieważ pierwsze i ostatnie wystąpienie są identyczne, cztery wystąpienia będą od siebie oddalone o 90 stopni.
+Określa kąt, który ma zostać ujęty we wzorcu, oraz całkowitą liczbę kształtów wzoru *(łącznie z elementem oryginalnym)*. Na przykład, cztery wystąpienia pod kątem 180° dają odstęp 60° między wzorcami. Jest jeden wyjątek   * Jeśli kąt wynosi 360°, ponieważ pierwsze i ostatnie wystąpienie są identyczne, cztery wystąpienia będą od siebie oddalone o 90 stopni.
 
 ## Ograniczenia
 

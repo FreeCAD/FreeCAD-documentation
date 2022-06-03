@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Mesh FromPartShape
-   Name/de:Netz AusTeilForm
-   MenuLocation:Polygonnetze → Erzeuge Polygonnetz aus Form...
-   Workbenches:[Polygonnetz](Mesh_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Mesh FromPartShape
+   Name/de   *Netz AusTeilForm
+   MenuLocation   *Polygonnetze → Erzeuge Polygonnetz aus Form...
+   Workbenches   *[Polygonnetz](Mesh_Workbench/de.md)
 ---
 
 # Mesh FromPartShape/de
@@ -12,12 +12,12 @@
 
 Der Befehl **Netz\_AusTeilForm** erzeugt nicht-parametrische [Polygonnetz](Mesh/de.md) Objekte ([Polygonnetz Formelemente](Mesh_Feature/de.md)) aus [Form](shape/de.md) Objekten ([Part Formelemente](Part_Feature/de.md)).
 
-Die Umkehrbearbeitung ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md).
+Die Umkehrbearbeitung ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part Arbeitsbereich](Part_Workbench/de.md).
 
 ## Anwendung
 
 1.  Wähle wahlweise ein oder mehrere Objekte aus.
-2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
     -   Drücke die **<img src="images/Mesh_FromPartShape.svg" width=16px> [Netz AusTeilForm](Mesh_FromPartShape/de.md)** Schaltfläche.
     -   Wähle die **Netze → <img src="images/Mesh_FromPartShape.svg" width=16px> Netz aus Form erzeugen...** Option aus dem Menü.
 3.  Das **Tessellierung**s Aufgabenpaneel öffnet sich.
@@ -28,28 +28,28 @@ Die Umkehrbearbeitung ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem <
 
 ## Vernetzer
 
-Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
+Dies sind die verfügbaren Vernetzer und ihre Einstellungen   *
 
 ### Standard Vernetzer 
 
--    **Oberflächenabweichung**: die maximale [lineare Abweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) eines Polygonnetzabschnitts von der Oberfläche des Objekts.
+-    **Oberflächenabweichung**   * die maximale [lineare Abweichung](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) eines Polygonnetzabschnitts von der Oberfläche des Objekts.
 
--    **Winkelabweichung**: die maximale [Winkelabweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem Polygonnetzabschnitt zum nächsten. Diese Einstellung wird beim Vernetzen von gekrümmten Oberflächen verwendet.
+-    **Winkelabweichung**   * die maximale [Winkelabweichung](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem Polygonnetzabschnitt zum nächsten. Diese Einstellung wird beim Vernetzen von gekrümmten Oberflächen verwendet.
 
--    **Relative Oberflächenabweichung**: wenn aktiviert, entspricht die maximale lineare Abweichung eines Polygonnetzabschnitt der angegebenen **Oberflächenabweichung** multipliziert mit der Länge des aktuellen Polygonnetzabschnitt (Kante).
+-    **Relative Oberflächenabweichung**   * wenn aktiviert, entspricht die maximale lineare Abweichung eines Polygonnetzabschnitt der angegebenen **Oberflächenabweichung** multipliziert mit der Länge des aktuellen Polygonnetzabschnitt (Kante).
 
--    **Flächenfarben auf das Netz anwenden**: wenn markiert, erhält das Netz die Flächenfarben des Objekts.
+-    **Flächenfarben auf das Netz anwenden**   * wenn markiert, erhält das Netz die Flächenfarben des Objekts.
 
--    **Segmente nach Flächenfarben definieren**: wenn markiert, werden die Polygonnetzabschnitt nach den Farben der Flächen des Objekts gruppiert. Diese Gruppen werden für Polygonnetz Ausgabeformate exportiert, die diese Funktion unterstützen (zum Beispiel das [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Format).
+-    **Segmente nach Flächenfarben definieren**   * wenn markiert, werden die Polygonnetzabschnitt nach den Farben der Flächen des Objekts gruppiert. Diese Gruppen werden für Polygonnetz Ausgabeformate exportiert, die diese Funktion unterstützen (zum Beispiel das [OBJ](https   *//en.wikipedia.org/wiki/Wavefront_.obj_file) Format).
 
 ### Mefisto Vernetzer 
 
 
 <div class="mw-translate-fuzzy">
 
-Die einzige Einstellung ist:
+Die einzige Einstellung ist   *
 
--    {{MenuCommand/de|Maximale Kantenlänge}}: Wenn diese Zahl kleiner ist, wird das Netz feiner. Der kleinste Wert ist 0.
+-    {{MenuCommand/de|Maximale Kantenlänge}}   * Wenn diese Zahl kleiner ist, wird das Netz feiner. Der kleinste Wert ist 0.
 
 
 </div>
@@ -59,7 +59,7 @@ Die einzige Einstellung ist:
 
 <div class="mw-translate-fuzzy">
 
-Beispiel:
+Beispiel   *
 
 
 </div>
@@ -69,9 +69,9 @@ Beispiel:
 
 <small>(v0.19)</small> 
 
-Für Linux Anwender: das externe [Gmsh](https://gmsh.info/) Modul ist erforderlich.
+Für Linux Anwender   * das externe [Gmsh](https   *//gmsh.info/) Modul ist erforderlich.
 
--    **Meshing**: select a meshing option:
+-    **Meshing**   * select a meshing option   *
 
     -   
         **Automatic**
@@ -101,13 +101,13 @@ Für Linux Anwender: das externe [Gmsh](https://gmsh.info/) Modul ist erforderli
         **Parallelograms**
         
 
--    **Max. element size**: a smaller value results in a finer mesh. Specify {{Value|0}} to have this size automatically determined.
+-    **Max. element size**   * a smaller value results in a finer mesh. Specify {{Value|0}} to have this size automatically determined.
 
--    **Min. element size**: a smaller value results in a finer mesh. The value should be smaller than the **Max. element size**. Specify {{Value|0}} to have this size automatically determined.
+-    **Min. element size**   * a smaller value results in a finer mesh. The value should be smaller than the **Max. element size**. Specify {{Value|0}} to have this size automatically determined.
 
--    **Angle**: seems to be unsupported at this time.
+-    **Angle**   * seems to be unsupported at this time.
 
--    **Path**: press the **...** button and browse to the {{FileName|gmsh.exe}} path.
+-    **Path**   * press the **...** button and browse to the **gmsh.exe** path.
 
 -   If the meshing process takes too long you can press the **Kill** button to abort it.
 
@@ -117,28 +117,28 @@ Für Linux Anwender: das externe [Gmsh](https://gmsh.info/) Modul ist erforderli
 
 -   This command is not restricted to objects created with the [Part workbench](Part_Workbench.md). It can create a mesh from any object that has a shape including objects created with the [PartDesign workbench](PartDesign_Workbench.md).
 -   The [Std Export](Std_Export.md) command can export shape objects directly to a mesh format.
--   See also: [Export to STL or OBJ](Export_to_STL_or_OBJ.md) tutorial.
+-   See also   * [Export to STL or OBJ](Export_to_STL_or_OBJ.md) tutorial.
 
 ## Einstellungen
 
 ### Standard Vernetzer 
 
--   The **Surface deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection**.
--   The **Angular deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
--   The **Relative surface deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
+-   The **Surface deviation** setting is stored   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection**.
+-   The **Angular deviation** setting is stored   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
+-   The **Relative surface deviation** setting is stored   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
 
 ### Gmsh Vernetzer 
 
--   Der **Pfad** ist abgelegt: **Werkzeuge → Parameter bearbeiten... → BaseApp → Einstellungen → Mod → Mesh → Meshing → gmshExe**.
+-   Der **Pfad** ist abgelegt   * **Werkzeuge → Parameter bearbeiten... → BaseApp → Einstellungen → Mod → Mesh → Meshing → gmshExe**.
 
 ## Eigenschaften
 
-Siehe: [Polygonnetz Formelement](Mesh_Feature/de.md).
+Siehe   * [Polygonnetz Formelement](Mesh_Feature/de.md).
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -148,10 +148,10 @@ Um ein Netzobjekt aus einem Formobjekt zu erstellen, verwende die `NetzAusForm` 
 ```python
 import FreeCAD, Part, Mesh, MeshPart
 
-cyl = FreeCAD.ActiveDocument.addObject("Part::Cylinder","Cylinder")
+cyl = FreeCAD.ActiveDocument.addObject("Part   *   *Cylinder","Cylinder")
 FreeCAD.ActiveDocument.recompute()
 
-msh = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+msh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
 msh.Mesh = MeshPart.meshFromShape(Shape=cyl.Shape, MaxLength=1)
 msh.ViewObject.DisplayMode = "Flat Lines"
 ```

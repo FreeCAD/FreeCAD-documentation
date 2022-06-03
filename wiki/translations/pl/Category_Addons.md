@@ -1,6 +1,8 @@
 # Category:Addons/pl
 Ta strona zawiera listę zewnętrznych Środowisk pracy dla dodatków, które mają stronę w tym Wiki. Dodatki to moduły lub Środowiska pracy wnoszone przez społeczność i nie są standardową częścią pakietu FreeCAD.
 
+[Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

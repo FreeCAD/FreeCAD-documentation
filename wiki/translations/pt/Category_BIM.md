@@ -1,6 +1,8 @@
 # Category:BIM/pt
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/pt](Category   *User_Documentation/pt.md)
+
 ### Contents
 
 |     |     |     |

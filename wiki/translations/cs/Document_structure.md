@@ -26,7 +26,7 @@ Jestliže je ve FreeCADu otevřen alespoň jeden dokument, potom je vždy jeden 
 
 <div class="mw-translate-fuzzy">
 
-Jako téměř všechno ve FreeCADu je uživatelské prostředí (GUI) odděleno od základní aplikační části (App). Platí to i pro dokumenty. Dokumenty se také skládají ze dvou částí: Aplikační dokument, který obsahuje naše objekty a Pohledový dokument, který obsahuje reprezentaci našich objektů na obrazovce.
+Jako téměř všechno ve FreeCADu je uživatelské prostředí (GUI) odděleno od základní aplikační části (App). Platí to i pro dokumenty. Dokumenty se také skládají ze dvou částí   * Aplikační dokument, který obsahuje naše objekty a Pohledový dokument, který obsahuje reprezentaci našich objektů na obrazovce.
 
 
 </div>
@@ -46,7 +46,7 @@ Další věc která je obsažena uvnitř Pohledového dokumentu jsou 3D pohledy.
 
 <div class="mw-translate-fuzzy">
 
-Dokumenty mohou být snadno vytvářeny, zpřístupňovány a upravovány z konzoly Pythonu. Například:
+Dokumenty mohou být snadno vytvářeny, zpřístupňovány a upravovány z konzoly Pythonu. Například   *
 
 
 </div>

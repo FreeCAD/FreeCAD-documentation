@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign Draft
-   Name/de:PartDesign Formschräge
-   MenuLocation:Part Design → Apply a dress up feature (Verschönerung) → Formschräge
-   Workbenches:[Part Design](PartDesign_Workbench/de.md)
-   Shortcut:-
-   SeeAlso:Keine
+- GuiCommand   */de
+   Name   *PartDesign Draft
+   Name/de   *PartDesign Formschräge
+   MenuLocation   *Part Design → Apply a dress up feature (Verschönerung) → Formschräge
+   Workbenches   *[Part Design](PartDesign_Workbench/de.md)
+   Shortcut   *-
+   SeeAlso   *Keine
 ---
 
 # PartDesign Draft/de

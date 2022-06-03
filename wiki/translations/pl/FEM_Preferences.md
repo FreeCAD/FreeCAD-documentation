@@ -1,145 +1,145 @@
 # FEM Preferences/pl
-{{TOCright}} The preferences screen of the [FEM Workbench](FEM_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → FEM**.
+{{TOCright}} Ekran preferencji środowiska pracy [MES](EM_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → MES**.
 
-There are several tabs in the FEM workbench preferences, starting with the **General** configuration of the workbench. The rest of the tabs control how FEM interacts with supported external solvers.
+W preferencjach środowiska pracy MES znajduje się kilka zakładek, poczynając od **Ogólnej** konfiguracji środowiska. Pozostałe zakładki określają sposób współpracy MES z obsługiwanymi zewnętrznymi solverami.
 
-The current supported external solvers are   *
+Obecnie obsługiwane są następujące solvery zewnętrzne   *
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [CalculiX](FEM_SolverCalculixCxxtools.md)
--   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Elmer](FEM_SolverElmer.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width   *32px;"> [Mystran](FEM_SolverMystran.md) <small>(v0.20)</small> 
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width   *32px;"> [Z88](FEM_SolverZ88.md)
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [CalculiX](FEM_SolverCalculixCxxtools/pl.md)
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Elmer](FEM_SolverElmer/pl.md)
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width   *32px;"> [Mystran](FEM_SolverMystran/pl.md) {{Version/pl|0.20}}
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width   *32px;"> [Z88](FEM_SolverZ88/pl.md)
 
-## General
+## Ogólne
 
-On the *General* tab you can specify the following   *
+W zakładce *Ogólne* można wybrać następujące opcje   *
 
 ![](images/Preference_Fem_Tab_01.png )
 
 ## Gmsh
 
-On the *Gmsh* tab you can specify the following   *
+W zakładce *Gmsh* można wybrać następujące opcje   *
 
 +++
-| Name                                               | Description                                                                                                           |
-+====================================================+=======================================================================================================================+
-|                                     | If checked, FreeCAD will look for the binary of [Gmsh](FEM_MeshGmshFromShape.md) in known (usual) directories |
-| **Search in known binary directories** |                                                                                                                       |
-|                                                 |                                                                                                                       |
+| Nazwa                                                 | Opis                                                                                                                                        |
++=======================================================+=============================================================================================================================================+
+|                                        | Jeśli jest zaznaczone, FreeCAD będzie szukał pliku binarnego [Gmsh](FEM_MeshGmshFromShape/pl.md) w znanych *(zwykłych)* katalogach. |
+| **Szukaj w znanych katalogach binarnych** |                                                                                                                                             |
+|                                                    |                                                                                                                                             |
 +++
-|                                     | The path to the the binary of [Gmsh](FEM_MeshGmshFromShape.md)                                                |
-| **Gmsh binary path**                   |                                                                                                                       |
-|                                                 |                                                                                                                       |
+|                                        | Ścieżka do pliku binarnego [Gmsh](FEM_MeshGmshFromShape/pl.md).                                                                     |
+| **Ścieżka do pliku binarnego Gmsh**       |                                                                                                                                             |
+|                                                    |                                                                                                                                             |
 +++
 
 ![](images/Preference_Fem_Tab_03.png )
 
 ## CalculiX
 
-On the *CalculiX* tab you can specify the following   *
+W zakładce *CalculiX* można wybrać następujące opcje   *
 
 ![](images/Preference_Fem_Tab_02.png )
 
 ## Elmer
 
-On the *Elmer* tab you can specify the following   *
+W zakładce *Elmer* można wybrać następujące opcje   *
 
 +++
-| Name                                                            | Description                                                                                                                                     |
-+=================================================================+=================================================================================================================================================+
-|                                                  | If checked, FreeCAD will look for the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md) in known (usual) directories |
-| **ElmerGrid   * Search in known binary directories**   |                                                                                                                                                 |
-|                                                              |                                                                                                                                                 |
+| Nazwa                                                              | Opis                                                                                                                                                                        |
++====================================================================+=============================================================================================================================================================================+
+|                                                     | Jeśli opcja ta jest zaznaczona, FreeCAD będzie szukał plików binarnych narzędzia do zapisu siatki [Elmer](FEM_SolverElmer/pl.md) w znanych *(zwykłych)* katalogach. |
+| **ElmerGrid   * Szukaj w znanych katalogach binarnych**   |                                                                                                                                                                             |
+|                                                                 |                                                                                                                                                                             |
 +++
-|                                                  | The path to the the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md)                                                |
-| **ElmerGrid binary path**                           |                                                                                                                                                 |
-|                                                              |                                                                                                                                                 |
+|                                                     | Ścieżka do pliku binarnego narzędzia do tworzenia siatki [Elmer](FEM_SolverElmer/pl.md).                                                                            |
+| **Ścieżka pliku binarnego ElmerGrid**                  |                                                                                                                                                                             |
+|                                                                 |                                                                                                                                                                             |
 +++
-|                                                  | If checked, FreeCAD will look for the solver binary of [Elmer](FEM_SolverElmer.md) in known (usual) directories                         |
-| **ElmerSolver   * Search in known binary directories** |                                                                                                                                                 |
-|                                                              |                                                                                                                                                 |
+|                                                     | Jeśli opcja ta jest zaznaczona, FreeCAD będzie szukał plików binarnych solvera [Elmer](FEM_SolverElmer/pl.md) w znanych *(zwykłych)* katalogach.                    |
+| **ElmerSolver   * Szukaj w znanych katalogach binarnych** |                                                                                                                                                                             |
+|                                                                 |                                                                                                                                                                             |
 +++
-|                                                  | The path to the the solver binary of [Elmer](FEM_SolverElmer.md)                                                                        |
-| **ElmerSolver binary path**                         |                                                                                                                                                 |
-|                                                              |                                                                                                                                                 |
+|                                                     | Ścieżka do binarnego solvera [Elmer](FEM_SolverElmer/pl.md).                                                                                                        |
+| **Ścieżka pliku binarnego ElmerSolver**                |                                                                                                                                                                             |
+|                                                                 |                                                                                                                                                                             |
 +++
 
 ![](images/Preference_Fem_Tab_05.png )
 
 ## Mystran
 
-On the *Mystran* tab you can specify the following   *
+W zakładce *Mystran* można wybrać następujące opcje   *
 
 +++
-| Name                                               | Description                                                                                                              |
-+====================================================+==========================================================================================================================+
-|                                     | If checked, FreeCAD will look for the binary of the [Mystran](FEM_SolverMystran.md) in known (usual) directories |
-| **Search in known binary directories** |                                                                                                                          |
-|                                                 |                                                                                                                          |
+| Nazwa                                                 | Opis                                                                                                                                       |
++=======================================================+============================================================================================================================================+
+|                                        | Jeśli jest zaznaczone, FreeCAD będzie szukał pliku binarnego [Mystran](FEM_SolverMystran/pl.md) w znanych *(zwykłych)* katalogach. |
+| **Szukaj w znanych katalogach binarnych** |                                                                                                                                            |
+|                                                    |                                                                                                                                            |
 +++
-|                                     | The path to the the binary of the [Mystran](FEM_SolverMystran.md)                                                |
-| **Mystran binary path**                |                                                                                                                          |
-|                                                 |                                                                                                                          |
+|                                        | Ścieżka do pliku binarnego [Mystran](FEM_SolverMystran/pl.md).                                                                     |
+| **Ścieżka do pliku binarnego Gmsh**       |                                                                                                                                            |
+|                                                    |                                                                                                                                            |
 +++
 
 ![](images/Preference_Fem_Tab_Mystran.png )
 
 ## Z88
 
-On the *Z88* tab you can specify the following   *
+W zakładce *Z88* można wybrać następujące opcje   *
 
 +++
-| Name                                               | Description                                                                                                                                                                                                               |
-+====================================================+===========================================================================================================================================================================================================================+
-|                                     | If checked, FreeCAD will look for the binary named *z88r* of the [Z88 solver](FEM_SolverZ88.md) in known (usual) directories                                                                                      |
-| **Search in known binary directories** |                                                                                                                                                                                                                           |
-|                                                 |                                                                                                                                                                                                                           |
+| Nazwa                                                         | Opis                                                                                                                                                                                                                                                                 |
++===============================================================+======================================================================================================================================================================================================================================================================+
+|                                                | Jeśli jest zaznaczone, FreeCAD będzie szukał pliku binarnego [solvera Z88](FEM_SolverZ88/pl.md) w znanych *(zwykłych)* katalogach.                                                                                                                           |
+| **Szukaj w znanych katalogach binarnych**         |                                                                                                                                                                                                                                                                      |
+|                                                            |                                                                                                                                                                                                                                                                      |
 +++
-|                                     | The path to the the binary named *z88r* of the [Z88 solver](FEM_SolverZ88.md)                                                                                                                                     |
-| **z88r binary path**                   |                                                                                                                                                                                                                           |
-|                                                 |                                                                                                                                                                                                                           |
+|                                                | Ścieżka do pliku binarnego [solvera Z88](FEM_SolverZ88/pl.md).                                                                                                                                                                                               |
+| **Ścieżka do pliku binarnego Gmsh**               |                                                                                                                                                                                                                                                                      |
+|                                                            |                                                                                                                                                                                                                                                                      |
 +++
-|                                     | The solver method used by the [Z88 solver](FEM_SolverZ88.md) for new simulations.                                                                                                                                 |
-| **Solver method**                      |                                                                                                                                                                                                                           |
-|                                                 |                                                                                                                                                                                                                           |
+|                                                | Metoda solvera używana przez [solver Z88](FEM_SolverZ88/pl.md) dla nowych symulacji.                                                                                                                                                                         |
+| **Metoda Solvera**                                |                                                                                                                                                                                                                                                                      |
+|                                                            |                                                                                                                                                                                                                                                                      |
 +++
-|                                     | This is relevant when the solver method *Simple Cholesky* is used. After starting the solver, it might tell you that you need to increase the *MAXGS* value. In this case increase the max places and re-run the solver.  |
-| **Max places in stiffness matrix**     |                                                                                                                                                                                                                           |
-|                                                 |                                                                                                                                                                                                                           |
+|                                                | Jest to istotne, gdy używana jest metoda solvera **Simple Cholesky**. Po uruchomieniu solvera może pojawić się informacja, że należy zwiększyć wartość parametru **MAXGS**. W takim przypadku należy zwiększyć maksymalną liczbę miejsc i ponownie uruchomić solver. |
+| **Maksymalna ilość miejsc w macierzy sztywności** |                                                                                                                                                                                                                                                                      |
+|                                                            |                                                                                                                                                                                                                                                                      |
 +++
-|                                     | This is relevant when one of the iterative solver methods is used. After starting the solver, it might tell you that you need to increase the *MAXKOI* value. In this case increase the max places and re-run the solver. |
-| **Max places in coincidence vector**   |                                                                                                                                                                                                                           |
-|                                                 |                                                                                                                                                                                                                           |
+|                                                | Jest to istotne, gdy używana jest jedna z metod iteracyjnych solvera. Po uruchomieniu solvera może pojawić się informacja o konieczności zwiększenia wartości **MAXKOI**. W takim przypadku należy zwiększyć maksymalną liczbę miejsc i ponownie uruchomić solver.   |
+| **Maksymalna ilość miejsc w wektorze zbieżności** |                                                                                                                                                                                                                                                                      |
+|                                                            |                                                                                                                                                                                                                                                                      |
 +++
 
 ![](images/Preference_Fem_Tab_04.png )
 
-## Material
+## Materiał
 
-On the *Material* tab you can specify the following   *
+W zakładce *Materiał* można wybrać następujące opcje   *
 
 +++
-| Name                                                                                          | Description                                                                                                                                                                                           |
-+===============================================================================================+=======================================================================================================================================================================================================+
-|                                                                                | The cards built-in to FreeCAD will be listed as available.                                                                                                                                            |
-| **Use built-in materials**                                                        |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
+| Nazwa                                                                                                            | Opis                                                                                                                                                                                                                    |
++==================================================================================================================+=========================================================================================================================================================================================================================+
+|                                                                                                   | Karty wbudowane w program FreeCAD zostaną wyświetlone jako dostępne.                                                                                                                                                    |
+| **Użyj materiałów dołączonych**                                                                      |                                                                                                                                                                                                                         |
+|                                                                                                               |                                                                                                                                                                                                                         |
 +++
 | \\AppData\\Roaming\\FreeCAD\\Material* |
-| **Use materials from Materials directory in user's FreeCAD preference directory** |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
+| **Użyj materiałów z katalogu programu FreeCAD - "Materials" w preferowanej lokalizacji użytkownika** |                                                                                                                                                                                                                         |
+|                                                                                                               |                                                                                                                                                                                                                         |
 +++
-|                                                                                | Also material cards also from the specified directory will be listed as available.                                                                                                                    |
-| **Use materials from user defined directory**                                     |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
+|                                                                                                   | Karty materiałowe z określonego katalogu również będą wyświetlane jako dostępne.                                                                                                                                        |
+| **Użyj materiałów z katalogu zdefiniowanego przez użytkownika**                                      |                                                                                                                                                                                                                         |
+|                                                                                                               |                                                                                                                                                                                                                         |
 +++
-|                                                                                | Duplicate cards will be deleted from the displayed material card list.                                                                                                                                |
-| **Delete card duplicates**                                                        |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
+|                                                                                                   | Duplikaty kart zostaną usunięte z wyświetlanej listy kart materiałowych.                                                                                                                                                |
+| **Usuń duplikaty kart**                                                                              |                                                                                                                                                                                                                         |
+|                                                                                                               |                                                                                                                                                                                                                         |
 +++
-|                                                                                | Material cards will appear sorted by their resources (locations). If unchecked, they will be sorted by their name.                                                                                    |
-| **Sort by resources**                                                             |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
+|                                                                                                   | Karty materiałów będą wyświetlane posortowane według ich źródeł *(lokalizacji)*. Jeśli opcja ta nie zostanie zaznaczona, będą one sortowane według nazwy.                                                               |
+| **Sortuj według katalogów**                                                                          |                                                                                                                                                                                                                         |
+|                                                                                                               |                                                                                                                                                                                                                         |
 +++
 
 ![](images/Preference_Fem_Tab_Material.png )

@@ -1,15 +1,15 @@
 # Draft WireToBSpline/sv
 ---
-- GuiCommand:/sv   Name:Draft WireToBSpline   Name/sv:Draft WireToBSpline   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Drafting -> Wire to BSpline---
+- GuiCommand   */sv   Name   *Draft WireToBSpline   Name/sv   *Draft WireToBSpline   Workbenches   *[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation   *Drafting -> Wire to BSpline---
 
 
 </div>
 
 ## Beskrivning
 
-The <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft WireToBSpline** command converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
+The <img alt="" src=images/Draft_WireToBSpline.svg  style="width   *24px;"> **Draft WireToBSpline** command converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
 
-<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width   *400px;"> 
 *Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
 
 
@@ -21,7 +21,7 @@ The <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft
 </div>
 
 1.  Select a [Draft Wire](Draft_Wire.md) or a [Draft BSpline](Draft_BSpline.md).
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_WireToBSpline.svg" width=16px> [Draft WireToBSpline](Draft_WireToBSpline.md)** button.
     -   Select the **Modification → <img src="images/Draft_WireToBSpline.svg" width=16px> Wire to B-spline** option from the menu.
 3.  A new object is created.
@@ -42,7 +42,7 @@ The <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft
 
 To convert a wire to a bspline, or vice versa, pass the `Points` property of the source object to the `[make_bspline](Draft_BSpline#Scripting.md)` method, or respectively the `[make_wire](Draft_Wire#Scripting.md)` method, of the Draft module.
 
-Example:
+Example   *
 
 
 ```python

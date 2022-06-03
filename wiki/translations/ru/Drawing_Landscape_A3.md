@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Drawing Landscape A3
-   Name/ru:Drawing Landscape A3
-   Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж → Вставить новый чертёж → A3 Ландшафтная
-   Shortcut:none
+- GuiCommand   */ru
+   Name   *Drawing Landscape A3
+   Name/ru   *Drawing Landscape A3
+   Workbenches   *[Drawing](Drawing_Workbench/ru.md), Complete
+   MenuLocation   *Чертёж → Вставить новый чертёж → A3 Ландшафтная
+   Shortcut   *none
 ---
 
 # Drawing Landscape A3/ru
@@ -15,9 +15,9 @@ A **Page** object will be added to the Project tree, taking the form of a folder
 
 To open the Drawing viewer to display the page, simply double-click on the **Page** object, or right-click → Show drawing. The page will be opened in a new tab. You can close the tab and open it again at any time the same way.
 
-If the page does not display, click on the <img alt="" src=images/view-refresh.png  style="width:16px;"> refresh icon in the main toolbar, or go to *Edit → Refresh* menu, or shortcut **CTRL+R**.
+If the page does not display, click on the <img alt="" src=images/view-refresh.png  style="width   *16px;"> refresh icon in the main toolbar, or go to *Edit → Refresh* menu, or shortcut **CTRL+R**.
 
-<img alt="" src=images/Drawing_Page.png  style="width:500px;">
+<img alt="" src=images/Drawing_Page.png  style="width   *500px;">
 
 ### Options
 

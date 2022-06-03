@@ -1,6 +1,6 @@
 # Path Helix/it
 ---
-- GuiCommand:/it   Name:Path Helix   Name/it:Elica   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Elica   Shortcut:   SeeAlso:---
+- GuiCommand   */it   Name   *Path Helix   Name/it   *Elica   Workbenches   *[[Path Workbench/it   Path]]|MenuLocation   *Path → Elica   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -47,11 +47,11 @@ Empty
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

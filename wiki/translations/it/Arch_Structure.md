@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch Structure
-   Name/it:Struttura
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch → Struttura
-   Shortcut:**S** **T**
-   SeeAlso:[Muro](Arch_Wall/it.md), [Armature](Arch_Rebar/it.md)
+- GuiCommand   */it
+   Name   *Arch Structure
+   Name/it   *Struttura
+   Workbenches   *[Arch](Arch_Workbench/it.md)
+   MenuLocation   *Arch → Struttura
+   Shortcut   ***S** **T**
+   SeeAlso   *[Muro](Arch_Wall/it.md), [Armature](Arch_Rebar/it.md)
 ---
 
 # Arch Structure/it
@@ -46,7 +46,7 @@ Se non viene fornito alcun profilo, è disponibile una serie di modelli predefin
 
 <div class="mw-translate-fuzzy">
 
--   Quando non è selezionato alcun oggetto 2D di base, lo strumento struttura ha 2 modalità di disegno: Colonna e Trave:
+-   Quando non è selezionato alcun oggetto 2D di base, lo strumento struttura ha 2 modalità di disegno   * Colonna e Trave   *
     -   In modalità colonna, viene chiesto di selezionare un punto sullo schermo o di immettere le sue coordinate. Il nuovo oggetto strutturale viene posizionato in quel punto.
     -   In modalità trave, viene chiesto di selezionare due punti sullo schermo o di immettere le loro coordinate. Il nuovo oggetto strutturale si estende tra questi due punti.
 -   Gli elementi strutturali condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
@@ -65,28 +65,28 @@ Se non viene fornito alcun profilo, è disponibile una serie di modelli predefin
 
 <div class="mw-translate-fuzzy">
 
--    **Tool**: un percorso di estrusione opzionale, che può essere qualsiasi tipo di linea. Se questa proprietà è vuota, l\'estrusione è diritta e viene creata nella direzione indicata dalla proprietà Normal
+-    **Tool**   * un percorso di estrusione opzionale, che può essere qualsiasi tipo di linea. Se questa proprietà è vuota, l\'estrusione è diritta e viene creata nella direzione indicata dalla proprietà Normal
 
--    **Normal**: specifica la direzione in cui la faccia di base di questa struttura è estrusa. Se questa proprietà viene mantenuta su (0,0,0), la direzione è automaticamente impostata sulla direzione normale della faccia di base.
+-    **Normal**   * specifica la direzione in cui la faccia di base di questa struttura è estrusa. Se questa proprietà viene mantenuta su (0,0,0), la direzione è automaticamente impostata sulla direzione normale della faccia di base.
 
--    **Face Maker**: specifica il tipo di algoritmo di generazione della faccia da utilizzare per creare il profilo. Le scelte sono None, Simple, Cheese e Bullseye.
+-    **Face Maker**   * specifica il tipo di algoritmo di generazione della faccia da utilizzare per creare il profilo. Le scelte sono None, Simple, Cheese e Bullseye.
 
--    **Length**: la lunghezza della struttura (utilizzata solo se non si basa su un profilo)
+-    **Length**   * la lunghezza della struttura (utilizzata solo se non si basa su un profilo)
 
--    **Width**: la larghezza della struttura (utilizzata solo se non si basa su un profilo)
+-    **Width**   * la larghezza della struttura (utilizzata solo se non si basa su un profilo)
 
--    **Height**: l\'altezza della struttura (o la lunghezza di estrusione quando si basa su un profilo). Se l\'altezza non è data, e la struttura viene inserita in un oggetto [piano](Arch_Floor/it.md) la cui altezza è definita, la struttura assume automaticamente il valore dell\'altezza del piano.
+-    **Height**   * l\'altezza della struttura (o la lunghezza di estrusione quando si basa su un profilo). Se l\'altezza non è data, e la struttura viene inserita in un oggetto [piano](Arch_Floor/it.md) la cui altezza è definita, la struttura assume automaticamente il valore dell\'altezza del piano.
 
--    **Nodes Offset**: un offset opzionale tra la linea centrale e la linea dei nodi
+-    **Nodes Offset**   * un offset opzionale tra la linea centrale e la linea dei nodi
 
 
 </div>
 
 ### Vista
 
--    **Nodes Type**: il tipo di nodi strutturali di questo oggetto, lineare o area.
+-    **Nodes Type**   * il tipo di nodi strutturali di questo oggetto, lineare o area.
 
--    **Show Nodes**: mostra o nasconde i nodi strutturali.
+-    **Show Nodes**   * mostra o nasconde i nodi strutturali.
 
 ## Preset
 
@@ -99,14 +99,14 @@ Ai preset si accede scegliendo una **Categoria** dal pannello Opzioni struttura.
 
 Il pulsante **Switch L/H** può essere utilizzato per scambiare i valori lunghezza in altezza, e quindi costruire una trave orizzontale anziché una colonna verticale.
 
-<img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
+<img alt="" src=images/Arch_precast_example.jpg  style="width   *960px;"> 
 *Alcuni preset per strutture prefabbricate in calcestruzzo*
 
 ## Nodi strutturali 
 
-Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi strutturali. I nodi strutturali sono una sequenza di punti 3D memorizzati nella proprietà \"Nodes\". Commutando on/off la proprietà vista \"Show Nodes\", si possono vedere i nodi strutturali di un elemento struttura:
+Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi strutturali. I nodi strutturali sono una sequenza di punti 3D memorizzati nella proprietà \"Nodes\". Commutando on/off la proprietà vista \"Show Nodes\", si possono vedere i nodi strutturali di un elemento struttura   *
 
-<img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
+<img alt="" src=images/Arch_structural_nodes.jpg  style="width   *960px;"> 
 *Nodi strutturali resi visibili in un insieme di strutture*
 
 
@@ -115,7 +115,7 @@ Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi struttu
 -   I nodi vengono calcolati e aggiornati automaticamente, a meno che non siano modificati manualmente. Se invece sono stati modificati manualmente, essi non sono più aggiornati automaticamente quando la forma dell\'oggetto strutturale cambia, a meno che in seguito non si utilizzi lo strumento \"Reset nodi\".
 -   Oltre ai nodi lineari, le strutture Arch possono anche avere dei nodi planari. Per questo, 1- Ci devono essere almeno 3 vettori nella proprietà \"Nodi\" dell\'oggetto, 2- La proprietà \"NodesType\" del loro ViewObject deve essere impostata su \"Area\".
 -   Quando il calcolo dei nodi è automatico (cioè, non sono stati modificati manualmente), e si imposta la proprietà Role di una struttura su \"Slab\" (Soletta), i suoi nodi diventano automaticamente nodi planari (ci sono almeno 3 vettori e il NodesType è impostato su \"Area\").
--   Quando si modifica un oggetto Struttura (con doppio clic), nella vista Azioni sono disponibili alcuni strumenti nodo per:
+-   Quando si modifica un oggetto Struttura (con doppio clic), nella vista Azioni sono disponibili alcuni strumenti nodo per   *
     -   Ripristinare il calcolo automatico dei nodi, nel caso in cui siano stati modificati manualmente
     -   Modificare i nodi graficamente, che funziona nello stesso modo di [Modifica di Draft](Draft_Edit/it.md)
     -   Prolungare i nodi dell\'oggetto modificato fino a toccare il nodo di un altro oggetto
@@ -133,7 +133,7 @@ Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi struttu
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -143,7 +143,7 @@ Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi struttu
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Struttura può può essere utilizzato nelle [macro](macros/it.md) e dalla [console Python](FreeCAD_Scripting_Basics/it.md) utilizzando la seguente funzione:
+Lo strumento Struttura può può essere utilizzato nelle [macro](macros/it.md) e dalla [console Python](FreeCAD_Scripting_Basics/it.md) utilizzando la seguente funzione   *
 
 
 </div>
@@ -158,7 +158,7 @@ Structure = makeStructure(baseobj=None, length=None, width=None, height=None, na
     -   Se non viene fornito un `baseobj`, si possono fornire i valori numerici per `length`, `width`, e `height` per creare una struttura a blocchi.
     -   Il `baseobj` può anche essere qualsiasi oggetto solido esistente.
 
-Esempio: 
+Esempio   * 
 ```python
 import FreeCAD, Draft, Arch
 

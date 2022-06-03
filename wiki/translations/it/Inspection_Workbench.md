@@ -7,7 +7,7 @@
 
 </div>
 
-<img alt="L\'icona di Inspection" src=images/Workbench_Inspection.svg  style="width:128px;">
+<img alt="L\'icona di Inspection" src=images/Workbench_Inspection.svg  style="width   *128px;">
 
 ## Introduction
 
@@ -16,12 +16,12 @@
 
 ## Introduzione
 
-L\'ambiente <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> **Inspection** serve a fornire gli strumenti specifici per esaminare le forme. È ancora in sviluppo.
+L\'ambiente <img alt="" src=images/Workbench_Inspection.svg  style="width   *24px;"> **Inspection** serve a fornire gli strumenti specifici per esaminare le forme. È ancora in sviluppo.
 
 
 </div>
 
-<img alt="Screenshot" src=images/InspectionEx.png  style="width:500px;">
+<img alt="Screenshot" src=images/InspectionEx.png  style="width   *500px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -42,7 +42,7 @@ L\'ambiente <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"
 
 <div class="mw-translate-fuzzy">
 
-In alternativa utilizzare la macro <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [HighlightDifference](Macro_HighlightDifference/it.md) per confrontare due forme.
+In alternativa utilizzare la macro <img alt="" src=images/HighlightDifference.png  style="width   *24px;"> [HighlightDifference](Macro_HighlightDifference/it.md) per confrontare due forme.
 
 
 </div>
@@ -55,6 +55,14 @@ In alternativa utilizzare la macro <img alt="" src=images/HighlightDifference.pn
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *Inspection](Category_Inspection.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

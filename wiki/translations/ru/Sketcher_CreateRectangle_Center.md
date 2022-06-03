@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Создать прямоугольник от центра
-   Name:Sketcher_CreateRectangle_Center
-   MenuLocation:Sketch → Геометрия эскиза → Создать прямоугольник от центра
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.20
-   SeeAlso:[Создать прямоугольник](Sketcher_CreateRectangle/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Создать прямоугольник от центра
+   Name   *Sketcher_CreateRectangle_Center
+   MenuLocation   *Sketch → Геометрия эскиза → Создать прямоугольник от центра
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Version   *0.20
+   SeeAlso   *[Создать прямоугольник](Sketcher_CreateRectangle/ru.md)
 ---
 
 # Sketcher CreateRectangle Center/ru
@@ -23,7 +23,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red re
 
 ## Применение
 
--   After pressing the <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> **Create centered rectangle** toolbar button, click once to set the center point, then move the mouse and click a second time to set a corner point.
+-   After pressing the <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *24px;"> **Create centered rectangle** toolbar button, click once to set the center point, then move the mouse and click a second time to set a corner point.
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
 

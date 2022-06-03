@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Renderowanie
-   Level:średniozaawansowany
-   Time:60 minut
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 lub nowszy
-   Files:brak
+- TutorialInfo   */pl
+   Topic   *Renderowanie
+   Level   *średniozaawansowany
+   Time   *60 minut
+   Author   *[https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion   *0.18 lub nowszy
+   Files   *brak
 ---
 
 # Tutorial Render with Blender/pl
@@ -16,17 +16,17 @@
 
 ## Wprowadzenie
 
-Ten poradnik prezentuje jak stworzyć wyrenderowany obraz w programie [Blender](https://www.blender.org/), zaczynając od części lub zespołu stworzonego w programie FreeCAD. Zakłada on, że użytkownik stworzył już część w programie FreeCAD, lub zaimportował ją do niego. Następnie część ta jest eksportowana do Blendera w celu wyrenderowania.
+Ten poradnik prezentuje jak stworzyć wyrenderowany obraz w programie [Blender](https   *//www.blender.org/), zaczynając od części lub zespołu stworzonego w programie FreeCAD. Zakłada on, że użytkownik stworzył już część w programie FreeCAD, lub zaimportował ją do niego. Następnie część ta jest eksportowana do Blendera w celu wyrenderowania.
 
 Przedstawia renderowanie w Blenderze 2.80 z wykorzystaniem zarówno renderera EEVEE jak i Cycles. Demonstruje różne polecenia środowiska [Python](Python/pl.md), które mogą być użyte by wykonać działania szybciej, zarówno w programie FreeCAD jak i Blender.
 
-Podobny opis tego procesu jest zaprezentowany w serii filmów, [Renderuj modele Solidworks i FreeCAD w Blenderze](https://www.youtube.com/watch?v=U7e6-Wfv2b0), autorstwa Joko Engineering.
+Podobny opis tego procesu jest zaprezentowany w serii filmów, [Renderuj modele Solidworks i FreeCAD w Blenderze](https   *//www.youtube.com/watch?v=U7e6-Wfv2b0), autorstwa Joko Engineering.
 
 ## FreeCAD
 
 1\. Stwórz złożenie, używając zawartości ze środowiska [Caęść](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md), albo dowolnego innego środowiska, które tworzy obiekty brył, na przykład [Architektura](Arch_Workbench/pl.md). Przypisz kolory lub materiały poszczególnym zawartościom tworzącym złożenie, w przybliżeniu odpowiadające kolorowi, który chcesz uzyskać w renderingu.
 
-<img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width:600px;">
+<img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width   *600px;">
 
 
 
@@ -53,12 +53,12 @@ importOBJ.export(objs, "/home/user/assembly.obj")
 ```
 
 
-**Uwaga:**
+**Uwaga   ***
 
 podczas eksportu do OBJ, tworzone są dwa pliki. Pierwszy zawiera informacje o siatce, `assembly.obj`, drugi zawiera definicję materiałów, która w większości przypadków zawiera tylko kolor, `assembly.mtl`.
 
 
-**Uwaga 2:**
+**Uwaga 2   ***
 
 Jeśli wynikowy plik OBJ wydaje się być pusty, być może trzeba będzie wyeksportować poszczególne zawartości. W takim przypadku należy zaznaczyć każdą z nich pod częścią i powtórzyć eksport.
 
@@ -113,7 +113,7 @@ bpy.context.scene.unit_settings.scale_length = 0.001
 ```
 
 
-**Uwaga:**
+**Uwaga   ***
 
 Zmiana skali i jednostek sceny jest konieczna tylko wtedy, gdy chcesz pracować z obiektami w ich prawdziwych wymiarach. Jeśli chcesz tylko szybko wyrenderować scenę, możesz pominąć wszelkie regulacje.
 
@@ -133,11 +133,11 @@ Można to zautomatyzować za pomocą małego skryptu, który po prostu ustawia r
 ```python
 fixed_objs = ('Camera', 'Cube', 'Light')
 
-for obj in bpy.data.objects:
-    if any(s for s in fixed_objs if s in obj.name):
+for obj in bpy.data.objects   *
+    if any(s for s in fixed_objs if s in obj.name)   *
         print('%s %s  [[No change]]' % (obj.name, obj.rotation_euler))
         continue
-    else:
+    else   *
         obj.rotation_euler = (0, 0, 0)
         print('%s %s  ... rotated' % (obj.name, obj.rotation_euler))
 ```
@@ -163,7 +163,7 @@ bpy.context.object.data.clip_end = 1e+03
 
 Jeśli widzisz obiekt w ujęciu widoku, możesz teraz szybko wyrenderować model, naciskając **F12**, co spowoduje otwarcie `Image Editor` z wynikiem. Naciśnij **Esc**, aby wyjść i powrócić do `3D Viewport`.
 
-<img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width:600px;">
+<img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width   *600px;">
 
 
 
@@ -201,13 +201,13 @@ bpy.context.active_object.rotation_euler = (0.6, 0.05, 1.88)
 
 Naciśnij ponownie klawisz **F12**, aby zobaczyć wstępny render modelu.
 
-<img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width:600px;">
+<img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width   *600px;">
 
 
 
 *align=center|Render złożenia w Blenderze z dodaną lampą słoneczną, która emituje równoległe promienie świetlne o stałym kącie*
 
-### Więcej ustawień: podłoga, oświetlenie globalne, odbicia i miękkie cienie 
+### Więcej ustawień   * podłoga, oświetlenie globalne, odbicia i miękkie cienie 
 
 10\. Dodaj płaszczyznę podłogi. Naciśnij klawisze **Shift**+**A**, a następnie wybierz `Mesh`, `Plane` i nadaj mu wymiary około 10 razy większe niż twój model. Ten obiekt będzie służył jako płaszczyzna podłogi lub blat stołu, na którym stoi model. Przesuń również płaszczyznę nieco w dół, tak aby nie przecinała modelu. Wystarczy `-1 mm` poniżej obiektu.
 
@@ -254,7 +254,7 @@ Naciśnij przycisk **F12**, aby wyświetlić widok z kamery i sprawdzić jakoś�
 
 15\. Jeśli Twój model wygląda w miarę dobrze z rendererem EEVEE możesz już zapisać obraz poprzez **Image → Save As** lub naciskając **Shift**+**S** w {{Incode|Image Editor}}.
 
-<img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
+<img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width   *600px;">
 
 
 
@@ -277,7 +277,7 @@ Wciśnij klawisz **F12** aby wyrenderować końcowy widok przez kamerę. W zale�
 
 17\. Kiedy jesteś zadowolony z jakości renderingu, w `Image Editor` przejdź do **Image → Save As** lub naciśnij **Shift**+**S**.
 
-<img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
+<img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width   *600px;">
 
 
 
@@ -303,8 +303,8 @@ Pozwala to określić, że renderowanie powinno odbywać się w tle za pomocą `
 
 Stworzenie pośredniej siatki Wavefront (.obj) i następnie zaimportowanie jej do Blendera zadziała w większości sytuacji. Jednakże, istnieje również możliwość importu pliku FreeCAD (.FCStd) bezpośrednio do Blendera za pomocą pluginu.
 
--   [io\_import\_fcstd.py](https://gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), oryginalna wersja dla Blendera 2.79
--   [FreeCAD .FCStd importer for Blender 2.80](https://gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
+-   [io\_import\_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), oryginalna wersja dla Blendera 2.79
+-   [FreeCAD .FCStd importer for Blender 2.80](https   *//gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
 
 Jest to wtyczka do Blendera. Aby działała, Blender musi być w stanie zaimportować FreeCAD jako moduł z `Python Console`. 
 ```python

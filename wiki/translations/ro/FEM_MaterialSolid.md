@@ -1,6 +1,6 @@
 # FEM MaterialSolid/ro
 ---
-- GuiCommand:   Name:FEM MaterialSolid    MenuLocation:Model → FEM material for solid   |Workbenches:[Shortcut:M,M   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand   *   Name   *FEM MaterialSolid    MenuLocation   *Model → FEM material for solid   |Workbenches   *[Shortcut   *M,M   SeeAlso   *[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -23,7 +23,7 @@ Adaugă proprietăți materiale la o piesă.
 
 <div class="mw-translate-fuzzy">
 
--   Click pe <img alt="" src=images/FEM_MaterialSolid.png  style="width:32px;"> sau selctați **Model** → **<img src="images/FEM_MaterialSolid.png" width=32px> FEM material for solid** din meniul principal.
+-   Click pe <img alt="" src=images/FEM_MaterialSolid.png  style="width   *32px;"> sau selctați **Model** → **<img src="images/FEM_MaterialSolid.png" width=32px> FEM material for solid** din meniul principal.
 -   Dublu click pe obiectul creat **<img src="images/FEM_MaterialSolid.png" width=32px> SolidMaterial** obiectul
 
 ![](images/FEMMaterialProperties.PNG )
@@ -44,7 +44,7 @@ Adaugă proprietăți materiale la o piesă.
 
 <div class="mw-translate-fuzzy">
 
-1.  Pentru Proprietățile mecanice ale materialului utilizați cardul/tabelul \*MATERIAL în CalculiX. Detalii despre proprietățile mecanice ale materialului sunt explicate la adresa <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
+1.  Pentru Proprietățile mecanice ale materialului utilizați cardul/tabelul \*MATERIAL în CalculiX. Detalii despre proprietățile mecanice ale materialului sunt explicate la adresa <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
 
 
 </div>

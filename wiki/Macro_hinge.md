@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2014-09-09
 |FCVersion=All
-|Download=The File [http://forum.freecadweb.org/download/file.php?id=7628 20140908b_Hinge-1.fcstd]<br />[https://www.freecadweb.org/wiki/images/a/a8/Macro_hinge.png ToolBar Icon]
+|Download=The File [http   *//forum.freecadweb.org/download/file.php?id=7628 20140908b_Hinge-1.fcstd]<br />[https   *//www.freecadweb.org/wiki/images/a/a8/Macro_hinge.png ToolBar Icon]
 }}
 
 ## Description
@@ -18,13 +18,13 @@ Simulates hinge movement
 
 ## Uses
 
-Open the 2 files (20140908b\_Hinge-1.FCMacro and 20140908b\_Hinge-1.FCStd) in FreeCAD with 2 screens (Menu: Windows \> Tile) and click in the window and the macro and click F6 (debug macro) to run the macro or run the macro with ![](images/Std_DlgMacroExecuteDirect.svg )
+Open the 2 files (20140908b\_Hinge-1.FCMacro and 20140908b\_Hinge-1.FCStd) in FreeCAD with 2 screens (Menu   * Windows \> Tile) and click in the window and the macro and click F6 (debug macro) to run the macro or run the macro with ![](images/Std_DlgMacroExecuteDirect.svg )
 
-<img alt="" src=images/Hing_01.png  style="width:300px;">
+<img alt="" src=images/Hing_01.png  style="width   *300px;">
 
 ## The File 
 
- [20140908b\_Hinge-1.fcstd](http://forum.freecadweb.org/download/file.php?id=7628) 
+ [20140908b\_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628) 
 
 ## Script
 
@@ -40,13 +40,13 @@ import time
 
 ii = 0
 pas = 0
-for ii2 in range(180):
-    if pas == 0:
-        if ii > 90:
+for ii2 in range(180)   *
+    if pas == 0   *
+        if ii > 90   *
             pas = 1
         ii += 5
-    else:
-        if ii < 1:
+    else   *
+        if ii < 1   *
             pas = 0
         ii -= 5
    
@@ -61,7 +61,7 @@ for ii2 in range(180):
 
 ## Link
 
-The discussion page [Struggling with LinearPattern (again)](http://forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086)
+The discussion page [Struggling with LinearPattern (again)](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086)
 
 
 

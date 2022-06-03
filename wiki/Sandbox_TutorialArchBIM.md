@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/en
-   Topic:Modeling
-   Level:Intermediate
-   Time:Indefinate
-   Author:[cadgiru](User_cadgiru.md)
-   FCVersion:0.17
-   Files:
+- TutorialInfo   */en
+   Topic   *Modeling
+   Level   *Intermediate
+   Time   *Indefinate
+   Author   *[cadgiru](User_cadgiru.md)
+   FCVersion   *0.17
+   Files   *
 ---
 
 # Sandbox:TutorialArchBIM
@@ -14,14 +14,14 @@
 
 ![800 px](images/At2_goal.jpg )
 
--   [João Batista Vilanova Artigas](http://en.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas)
--   [Pictures by Pedro Kok](http://www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8258-533px/)
--   [Barão de Jaceguaí, 1151 - Campo Belo, São Paulo-SP (Google)](https://www.google.com/maps/place/Vilanova+Artigas/@-23.62048,-46.6751798,3a,75y,163.84h,67.09t/data=!3m8!1e1!3m6!1sAF1QipOpcWfw3qit1I979azjBmYbIrUqv_cMe593_e69!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOpcWfw3qit1I979azjBmYbIrUqv_cMe593_e69%3Dw203-h100-k-no-pi-17.99819-ya18.417234-ro1.3375344-fo100!7i5376!8i2688!4m13!1m7!3m6!1s0x94ce509f4a47bb0f:0xd7dfecff13fd4b4!2sRua+Bar%C3%A3o+Jaceguai,+1151+-+Campo+Belo,+S%C3%A3o+Paulo+-+SP,+04606-000,+Brasil!3b1!8m2!3d-23.6205562!4d-46.6751216!3m4!1s0x94ce509f497a12cd:0xe62a63ce23f77686!8m2!3d-23.62048!4d-46.6751798) With 30 images
--   [Completed Freecad model by Wilson, as above image](https://github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd)
+-   [João Batista Vilanova Artigas](http   *//en.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas)
+-   [Pictures by Pedro Kok](http   *//www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8258-533px/)
+-   [Barão de Jaceguaí, 1151 - Campo Belo, São Paulo-SP (Google)](https   *//www.google.com/maps/place/Vilanova+Artigas/@-23.62048,-46.6751798,3a,75y,163.84h,67.09t/data=!3m8!1e1!3m6!1sAF1QipOpcWfw3qit1I979azjBmYbIrUqv_cMe593_e69!2e10!3e11!6shttps   *%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOpcWfw3qit1I979azjBmYbIrUqv_cMe593_e69%3Dw203-h100-k-no-pi-17.99819-ya18.417234-ro1.3375344-fo100!7i5376!8i2688!4m13!1m7!3m6!1s0x94ce509f4a47bb0f   *0xd7dfecff13fd4b4!2sRua+Bar%C3%A3o+Jaceguai,+1151+-+Campo+Belo,+S%C3%A3o+Paulo+-+SP,+04606-000,+Brasil!3b1!8m2!3d-23.6205562!4d-46.6751216!3m4!1s0x94ce509f497a12cd   *0xe62a63ce23f77686!8m2!3d-23.62048!4d-46.6751798) With 30 images
+-   [Completed Freecad model by Wilson, as above image](https   *//github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd)
 
 ## Goal of this document 
 
-Update original [Arch Tutorial](Arch_tutorial.md) by [Yorik van Havre](http://yorik.uncreated.net/) .
+Update original [Arch Tutorial](Arch_tutorial.md) by [Yorik van Havre](http   *//yorik.uncreated.net/) .
 
 -   Reflect version updated versions of Freecad (Currently 0.17 / 0.18 )
 -   Implement a BIM workflow
@@ -31,9 +31,9 @@ Currently this document is **WORK in Progress**
 ### Contributors
 
    
-  [Yorik van Havre](http://yorik.uncreated.net/)                                        Main developer of Arch Workbench, and original author of this document
-  [Peter Sande](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=10838)   Initiator and co-author of this update. Freecad 0.17 / 0.18 in summer / fall of 2018. The purpose was to seriously try to learn some Freecad Work flows, after playing with it at various points in time over at least the last 5 years.
-  [Wilson](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=20694)        
+  [Yorik van Havre](http   *//yorik.uncreated.net/)                                        Main developer of Arch Workbench, and original author of this document
+  [Peter Sande](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=10838)   Initiator and co-author of this update. Freecad 0.17 / 0.18 in summer / fall of 2018. The purpose was to seriously try to learn some Freecad Work flows, after playing with it at various points in time over at least the last 5 years.
+  [Wilson](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=20694)        
   Other                                                                                 In order to make this a working document we need additional users
    
 
@@ -41,7 +41,7 @@ Currently this document is **WORK in Progress**
 
 #### Example Files 
 
-Reference Files used in this tutorial are named as:
+Reference Files used in this tutorial are named as   *
 
 
 {{Code|
@@ -55,11 +55,11 @@ at2_Name
     at2_ -> Arch Tutorial 2 
 }}
 
-[Link to example files for this tutorial](https://github.com/FreeCAD/Examples/tree/master/at2_Examples)
+[Link to example files for this tutorial](https   *//github.com/FreeCAD/Examples/tree/master/at2_Examples)
 
 #### Images
 
-All Images not already on wiki are named and uploaded to *<File:at2_>\**
+All Images not already on wiki are named and uploaded to *<File   *at2_>\**
 
 #### Markups
 
@@ -73,11 +73,11 @@ This way it is easy to do a quick text search to find topics of concern
 
 ## Introduction
 
-This tutorial aims at giving you the basics to work with the [Arch Workbench](Arch_Workbench.md). I will try to make it simple enough so you don\'t need any previous experience with FreeCAD, but having some experience with 3D or [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) applications will be useful. In any case, you should be prepared to look for yourself for further information about how FreeCAD works on the [FreeCAD documentation wiki](Main_Page.md). The [Getting started](Getting_started.md) page is a must read, if you have no previous experience with FreeCAD. Also check our [tutorials](tutorials.md) section, and on [youtube](http://www.youtube.com/results?search_query=freecad) you will also find a lot more of FreeCAD tutorials.
+This tutorial aims at giving you the basics to work with the [Arch Workbench](Arch_Workbench.md). I will try to make it simple enough so you don\'t need any previous experience with FreeCAD, but having some experience with 3D or [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) applications will be useful. In any case, you should be prepared to look for yourself for further information about how FreeCAD works on the [FreeCAD documentation wiki](Main_Page.md). The [Getting started](Getting_started.md) page is a must read, if you have no previous experience with FreeCAD. Also check our [tutorials](tutorials.md) section, and on [youtube](http   *//www.youtube.com/results?search_query=freecad) you will also find a lot more of FreeCAD tutorials.
 
-The purpose of the [Arch Workbench](Arch_Workbench.md) is to offer a complete [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) workflow inside FreeCAD. As it is still under development, don\'t expect to find here the same tools and level of completion as grown-up commercial alternatives such as [Revit](http://en.wikipedia.org/wiki/Revit) or [ArchiCAD](http://en.wikipedia.org/wiki/Archicad), but on the other hand, FreeCAD being used in a much bigger scope than these applications, the [Arch Workbench](Arch_Workbench.md) greatly benefits from the other disciplines FreeCAD caters to, and offers some features rarely seen in traditional BIM applications.
+The purpose of the [Arch Workbench](Arch_Workbench.md) is to offer a complete [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) workflow inside FreeCAD. As it is still under development, don\'t expect to find here the same tools and level of completion as grown-up commercial alternatives such as [Revit](http   *//en.wikipedia.org/wiki/Revit) or [ArchiCAD](http   *//en.wikipedia.org/wiki/Archicad), but on the other hand, FreeCAD being used in a much bigger scope than these applications, the [Arch Workbench](Arch_Workbench.md) greatly benefits from the other disciplines FreeCAD caters to, and offers some features rarely seen in traditional BIM applications.
 
-Here are, for example, a couple of interesting features of FreeCAD\'s [Arch Workbench](Arch_Workbench.md) that you\'ll hardly find in other BIM apps:
+Here are, for example, a couple of interesting features of FreeCAD\'s [Arch Workbench](Arch_Workbench.md) that you\'ll hardly find in other BIM apps   *
 
 -   ![](images/At2_Fixme.gif )FIXME ***The next sentence, is that strictly true?*** Architectural objects are always solids. From FreeCAD\'s strong mechanical background, we learned the importance of always working with solid objects. This ensures a much more error-free workflow, and very reliable boolean operations. Since cutting through 3D objects with a 2D plane, in order to extract sections, is also a boolean operation, you can immediately see the importance of this point.
 
@@ -85,7 +85,7 @@ Here are, for example, a couple of interesting features of FreeCAD\'s [Arch Work
 
 -   The whole power of FreeCAD is at your fingertips. You can design architectural objects with any other tool of FreeCAD, such as the [PartDesign Workbench](PartDesign_Workbench.md), and when they are ready, convert them to architectural objects. They will still retain their full modeling history, and continue being totally editable. The [Arch Workbench](Arch_Workbench.md) also inherits much of the [Draft Workbench](Draft_Workbench.md) functionality, such as [snapping](Draft_Snap.md) and [working planes](Draft_SelectPlane.md).
 
--   The [Arch Workbench](Arch_Workbench.md) is very [mesh](Mesh_Workbench.md)-friendly. You can easily design an architectural model in a mesh-based application such as [Blender](http://en.wikipedia.org/wiki/Blender_%28software%29) or [SketchUp](http://en.wikipedia.org/wiki/Sketchup) and import it in FreeCAD. If you took care of the quality of your model and its objects are manifold solid shapes, turning them into architectural objects only requires the press of a button.
+-   The [Arch Workbench](Arch_Workbench.md) is very [mesh](Mesh_Workbench.md)-friendly. You can easily design an architectural model in a mesh-based application such as [Blender](http   *//en.wikipedia.org/wiki/Blender_%28software%29) or [SketchUp](http   *//en.wikipedia.org/wiki/Sketchup) and import it in FreeCAD. If you took care of the quality of your model and its objects are manifold solid shapes, turning them into architectural objects only requires the press of a button.
 
 At the time of writing, the [Arch Workbench](Arch_Workbench.md), as the rest of FreeCAD, suffers some limitations. Most are being worked on, and will disappear in the future.
 
@@ -93,7 +93,7 @@ At the time of writing, the [Arch Workbench](Arch_Workbench.md), as the rest of 
 
 -   No materials support. FreeCAD will have a complete [Material](Material.md) system, able to define very complex materials, with all the goodies you can expect (custom properties, material families, rendering and visual aspect properties, etc), and the [Arch Workbench](Arch_Workbench.md) will of course use it when it is ready.
 
--   Very preliminary [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) support. You can already [import IFC files](Arch_IFC.md), quite reliably, provided [IfcOpenShell](http://ifcopenshell.org) is installed on your system, but exporting is still not officially supported. This is worked on both by the FreeCAD and IfcOpenShell developers, and in the future we can expect full-powered IFC support.
+-   Very preliminary [IFC](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes) support. You can already [import IFC files](Arch_IFC.md), quite reliably, provided [IfcOpenShell](http   *//ifcopenshell.org) is installed on your system, but exporting is still not officially supported. This is worked on both by the FreeCAD and IfcOpenShell developers, and in the future we can expect full-powered IFC support.
 
 -   Most Arch tools are still in development. That means that automatic \"wizard\" tools that create complex geometry automatically, such as [Arch Roof](Arch_Roof.md) or [Arch Stairs](Arch_Stairs.md) can only produce certain types of objects, and other tools that have presets, such as [Arch Structure](Arch_Structure.md) or [Arch Window](Arch_Window.md) only have a couple of basic presets. This will of course grow over time.
 
@@ -101,13 +101,13 @@ At the time of writing, the [Arch Workbench](Arch_Workbench.md), as the rest of 
 
 ## Typical workflows 
 
-In this tutorial we focus on a BIM oriented approach of using FreeCad. We will use mostly three workbenches: [Arch Workbench](Arch_Workbench.md) and BIM, of course, but also Draft, whose tools are all included in Arch, so there is no need to switch workbenches, and Sketcher. Conveniently, You can create a custom toolbar in your Arch workbench, with Tools → Customize, and add the tools from the sketcher that you use often.
+In this tutorial we focus on a BIM oriented approach of using FreeCad. We will use mostly three workbenches   * [Arch Workbench](Arch_Workbench.md) and BIM, of course, but also Draft, whose tools are all included in Arch, so there is no need to switch workbenches, and Sketcher. Conveniently, You can create a custom toolbar in your Arch workbench, with Tools → Customize, and add the tools from the sketcher that you use often.
 
 ## Preparation
 
-Instead of creating a project from scratch, let\'s take an example project to model, it will save us time. We\'ll use this wonderful house by the famous architect [Vilanova Artigas](http://en.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas) (see a series of [pictures by Pedro Kok](http://www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8258-533px/)), as used in the original FreeCAD Arch Tutorial made by [Yorik](http://yorik.uncreated.net/). It is simple, it\'s a wonderful example of the amazing modernist architecture of São Paulo and the drawings are easily available. You can download drawings in dwg format [here](http://www.bibliocad.com/library/second-house-vilanova-artigas_72926#). To download the file, you\'ll need to make a free registration on the website. In alternative, you can grab directly a DXF version [here](http://yorik.uncreated.net/scripts/artigas.dxf)) as a base to build our model. We recommend you to use DXF files instead of DWG, because FreeCAD handle those a lot better. Either way, is your decision.
+Instead of creating a project from scratch, let\'s take an example project to model, it will save us time. We\'ll use this wonderful house by the famous architect [Vilanova Artigas](http   *//en.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas) (see a series of [pictures by Pedro Kok](http   *//www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8258-533px/)), as used in the original FreeCAD Arch Tutorial made by [Yorik](http   *//yorik.uncreated.net/). It is simple, it\'s a wonderful example of the amazing modernist architecture of São Paulo and the drawings are easily available. You can download drawings in dwg format [here](http   *//www.bibliocad.com/library/second-house-vilanova-artigas_72926#). To download the file, you\'ll need to make a free registration on the website. In alternative, you can grab directly a DXF version [here](http   *//yorik.uncreated.net/scripts/artigas.dxf)) as a base to build our model. We recommend you to use DXF files instead of DWG, because FreeCAD handle those a lot better. Either way, is your decision.
 
-After downloading and unzipping the file, you\'ll want to open it with a DWG application such as [DraftSight](http://www.3ds.com/products-services/draftsight/overview/). Alternatively, you can convert it to DXF with a free utility such as the [Teigha File Converter](http://www.opendesign.com/guestfiles/TeighaFileConverter). If you have the Teigha converter installed (and its path set in the Arch Preferences settings), [FreeCAD is also able to import DWG files directly](https://www.freecadweb.org/wiki/Draft_DXF). But since these files can sometimes be of bad quality and very heavy, it\'s usually better to open it first with a 2D CAD application and do some cleaning. You should remove all the unnecessary information (title-blocks, page layouts, unused entities, layers, etc.) and organize the drawings in a logical way (sections and elevations aligned with the plan view, and move everything to the (0,0) point). After, you should organize your drawing it in different layers. This will be handy later on if you need to temporarily hide some of its elements to make it easy to model. This is the result when you import to FreeCAD after organizing the DXF in different layers:
+After downloading and unzipping the file, you\'ll want to open it with a DWG application such as [DraftSight](http   *//www.3ds.com/products-services/draftsight/overview/). Alternatively, you can convert it to DXF with a free utility such as the [Teigha File Converter](http   *//www.opendesign.com/guestfiles/TeighaFileConverter). If you have the Teigha converter installed (and its path set in the Arch Preferences settings), [FreeCAD is also able to import DWG files directly](https   *//www.freecadweb.org/wiki/Draft_DXF). But since these files can sometimes be of bad quality and very heavy, it\'s usually better to open it first with a 2D CAD application and do some cleaning. You should remove all the unnecessary information (title-blocks, page layouts, unused entities, layers, etc.) and organize the drawings in a logical way (sections and elevations aligned with the plan view, and move everything to the (0,0) point). After, you should organize your drawing it in different layers. This will be handy later on if you need to temporarily hide some of its elements to make it easy to model. This is the result when you import to FreeCAD after organizing the DXF in different layers   *
 
 ![](images/DXF_Import.jpg )
 
@@ -125,17 +125,17 @@ This is how the file looks after being opened in FreeCAD. In this example, thick
 
 ## Preparing dwg / dxf Alternative text 
 
-For editing and exporting to dxf there are various free tools available. Like said before, one of free tools out there that works fine is [https://www.3ds.com/products-services/draftsight-cad-software/ DraftSight by Dassault](https://www.3ds.com/products-services/draftsight-cad-software/_DraftSight_by_Dassault.md).
+For editing and exporting to dxf there are various free tools available. Like said before, one of free tools out there that works fine is [https   *//www.3ds.com/products-services/draftsight-cad-software/ DraftSight by Dassault](https   *//www.3ds.com/products-services/draftsight-cad-software/_DraftSight_by_Dassault.md).
 
 Sometimes, the files you\'ll use in your daily work can be in different units, since you\'ll find people with different work methods. If when imported your drawing is e.g. in millimeters and you work in meters, just scale by 1000 (it will scale correctly on all axis), either in FC or other system.
 
-To model your project using plan views, sections and elevations, another method can be used: you can separate your project in several dxf files. This will give you the possibility to rotate the drawings in FreeCAD and position them where you want, independent from one another, as well as to hide part of them while keeping others, if necessary. For that, you\'ll need to create a .dxf file with the ground floor level, another with the level 1 (in the Artigas house, this corresponds to the studio), the north elevation, south elevation, section AA\', BB\', and so on. I would recommend you do this after the cleaning/organization process described before, to save you time and effort. Next, import all .dxf files to FreeCAD.
+To model your project using plan views, sections and elevations, another method can be used   * you can separate your project in several dxf files. This will give you the possibility to rotate the drawings in FreeCAD and position them where you want, independent from one another, as well as to hide part of them while keeping others, if necessary. For that, you\'ll need to create a .dxf file with the ground floor level, another with the level 1 (in the Artigas house, this corresponds to the studio), the north elevation, south elevation, section AA\', BB\', and so on. I would recommend you do this after the cleaning/organization process described before, to save you time and effort. Next, import all .dxf files to FreeCAD.
 
-**NOTE:** Notice that by importing different .dxf drawings to one file, you\'ll be loading them as separate elements. In some computers, you might experience a slightly lower performance than if you would by importing just one .dxf file with all drawings. However, this option allows you to rotate and move these drawings independently from one another, to hide one elevation while keeping another, and so on. Besides, you can always hide all the imported elements and only keep the drawing you need for a particular operation, which will improve significantly your computer performance, if you have a problem with it. Experiment, give it a try and choose the work method that suits you better.
+**NOTE   *** Notice that by importing different .dxf drawings to one file, you\'ll be loading them as separate elements. In some computers, you might experience a slightly lower performance than if you would by importing just one .dxf file with all drawings. However, this option allows you to rotate and move these drawings independently from one another, to hide one elevation while keeping another, and so on. Besides, you can always hide all the imported elements and only keep the drawing you need for a particular operation, which will improve significantly your computer performance, if you have a problem with it. Experiment, give it a try and choose the work method that suits you better.
 
 ![](images/At2_Tip.png )Tip You may also want to try to import or save the various views into separate [FCStd](File_Format_FCStd.md) files. This keeps the files smaller and quicker to work with. Naming of files is Your choice, but it is a good idea to use a naming convention.
 
-Example files produced at various levels of this tutorial will be placed on [GitHub FreeCad Examples at2\_Examples](https://github.com/FreeCAD/Examples/tree/master/at2_Examples)
+Example files produced at various levels of this tutorial will be placed on [GitHub FreeCad Examples at2\_Examples](https   *//github.com/FreeCAD/Examples/tree/master/at2_Examples)
 
 *For dxf files, they are placed in a directory named ./ref/dxf below the project directory. If You want to skip this step, the imported dxf files can be found here.*
 
@@ -187,7 +187,7 @@ For further planning of File structure jump to the IFC section of this document
 
 In this project we will follow Axis system of downloaded original Drawings.
 
-<img alt="" src=images/At2_Origin.png  style="width:400px;">
+<img alt="" src=images/At2_Origin.png  style="width   *400px;">
 
 Defining the project origin at intersection of Axis 01 & D. By our convention this equals SouthWest corner of model. Observe that the axis pass through the center of walls.
 
@@ -199,13 +199,13 @@ For reference we have made the assumption that global Y-axis equals North.
 
 ### Defining the Arch Axis System 
 
-We now want to make an [ArchAxisSystem](Arch_Axis/en.md) for reference when modeling our building. The result will look something like this:
+We now want to make an [ArchAxisSystem](Arch_Axis/en.md) for reference when modeling our building. The result will look something like this   *
 
-<img alt="" src=images/At2_ArchAxisSystem.png  style="width:800px;">
+<img alt="" src=images/At2_ArchAxisSystem.png  style="width   *800px;">
 
 To find the data for making the [ArchAxisSystem](Arch_Axis/en.md) study the Plan View of the imported dwg. This will show You Axis and Dimensions.
 
-<img alt="" src=images/At2_AxisMeasure.png  style="width:800px;">
+<img alt="" src=images/At2_AxisMeasure.png  style="width   *800px;">
 
 Alternatively measure between the various axis in Freecad. This can be done in several ways, using the part workbench Measure linear, [Tape Measure works fine for this](Part_Measure_Linear.md).
 
@@ -227,15 +227,15 @@ Will reduce the distance between axis 10 and 11. Will try with 3550mm.
 
 #### Arch axis X  
 
-Now, let's make the Axis along global X: The Freecad Command is [Arch Axis ](Arch_Axis.md)
+Now, let's make the Axis along global X   * The Freecad Command is [Arch Axis ](Arch_Axis.md)
 
-<img alt="" src=images/At2_AxisXCreate.png  style="width:800px;">
+<img alt="" src=images/At2_AxisXCreate.png  style="width   *800px;">
 
 Image shows Data and labels Used.
 
 #### Arch Y-Axis 
 
-<img alt="" src=images/At2_AxisYCreate.png  style="width:800px;">
+<img alt="" src=images/At2_AxisYCreate.png  style="width   *800px;">
 
 Image shows Data and labels Used.
 
@@ -253,13 +253,13 @@ If You save Your AxisSystem to a file, without any other geometry, it does not s
 
 #### Axis System Forum posts 
 
--   [Arch Axis question](https://forum.freecadweb.org/viewtopic.php?f=23&t=30938)
+-   [Arch Axis question](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=30938)
 
 ## Placing and rotating 2d Views 
 
 In order to place 2d views in 3d, we need to prepare some helper objects. In FreeCad we have several ways we can set-up, store and name [Working Planes](Draft_SelectPlane.md) . We can name these and store them by using a [WorkingPlaneProxy object](Draft_WorkingPlaneProxy.md).
 
-<img alt="" src=images/At2_2dReferences.png  style="width:800px;">
+<img alt="" src=images/At2_2dReferences.png  style="width   *800px;">
 
 You should end up with something looking like this
 
@@ -277,24 +277,24 @@ After starting to look at [\#WokFeature\_Approach](#WokFeature_Approach.md). Thi
 
 ### Walls
 
-Walls can be:
+Walls can be   *
 
 -   Inner / Outer, Structural / Non Structural
 -   Walls should contain openings for doors, windows, or other
 
-Like most [Arch](Arch_Workbench.md) objects, [walls](Arch_Wall.md) can be built upon a big variety of other objects: [lines](Draft_Line.md), [wires](Draft_Wire.md) (polylines), [sketches](Sketcher_Workbench.md), faces or solid (or even on nothing at all, in which case they are defined by height, width and length). The resulting geometry of the wall depends on that base geometry, and the properties you fill in, such as width and height. As you might guess, a wall based on a line will use that line as its alignment line, while a wall based on a face will use that face as its base footprint, and a wall based on a solid will simply adopt the shape of that solid. This allows about any shape imaginable to become a wall.
+Like most [Arch](Arch_Workbench.md) objects, [walls](Arch_Wall.md) can be built upon a big variety of other objects   * [lines](Draft_Line.md), [wires](Draft_Wire.md) (polylines), [sketches](Sketcher_Workbench.md), faces or solid (or even on nothing at all, in which case they are defined by height, width and length). The resulting geometry of the wall depends on that base geometry, and the properties you fill in, such as width and height. As you might guess, a wall based on a line will use that line as its alignment line, while a wall based on a face will use that face as its base footprint, and a wall based on a solid will simply adopt the shape of that solid. This allows about any shape imaginable to become a wall.
 
 There are different possible strategies to build walls in FreeCAD. One might want to build a complete \"floor plan\" with the [sketcher](Sketcher_Workbench.md), and build one, big, wall object from it. This technique works, but you can only give one thickness for all the walls of the project. Or, you can build each piece of wall from separate line segments.
 
-![](images/At2_Delete.gif )Delete ? *Or, this is what we will do here, a mix of both: We will build a couple of [wires](Draft_Wire.md) on top of the imported plan, one for each type of wall:* Have found that editing a wire is currently more cumbersome than editing a line
+![](images/At2_Delete.gif )Delete ? *Or, this is what we will do here, a mix of both   * We will build a couple of [wires](Draft_Wire.md) on top of the imported plan, one for each type of wall   ** Have found that editing a wire is currently more cumbersome than editing a line
 
 ![](images/Arch_tutorial_03.jpg )
 
-The RED lines that will become concrete walls (a [pictures search](http://www.google.com/search?tbm=isch&q=casa+artigas+brooklin) of the house can help you to see the different wall types), the GREEN ones are the exterior brick walls, and the BLUE ones will become the inner walls. Lines are passed through the doors, because doors will be inserted in the walls later, and will create their openings automatically. Walls can also be aligned left, right or centrally on their baseline, so it doesn\'t matter which side you draw the baseline. Take care on **avoiding intersections** as much as You can. Our model will be cleaner that way. This will save us some headache later, for example if we export our work to other applications, that might not like it.
+The RED lines that will become concrete walls (a [pictures search](http   *//www.google.com/search?tbm=isch&q=casa+artigas+brooklin) of the house can help you to see the different wall types), the GREEN ones are the exterior brick walls, and the BLUE ones will become the inner walls. Lines are passed through the doors, because doors will be inserted in the walls later, and will create their openings automatically. Walls can also be aligned left, right or centrally on their baseline, so it doesn\'t matter which side you draw the baseline. Take care on **avoiding intersections** as much as You can. Our model will be cleaner that way. This will save us some headache later, for example if we export our work to other applications, that might not like it.
 
-When this is done, place all those lines in a new [group](Std_Group.md) if you want, select each line one by one, and press the [Arch Wall](Arch_Wall.md) tool to build a wall from each of them. You can also select several lines at once. After doing that, and correcting widths (exterior walls are 25cm wide, inner walls are 15cm wide) and some alignments, we have our walls ready:
+When this is done, place all those lines in a new [group](Std_Group.md) if you want, select each line one by one, and press the [Arch Wall](Arch_Wall.md) tool to build a wall from each of them. You can also select several lines at once. After doing that, and correcting widths (exterior walls are 25cm wide, inner walls are 15cm wide) and some alignments, we have our walls ready   *
 
-<img alt="" src=images/At_2Walls01.png  style="width:800px;">
+<img alt="" src=images/At_2Walls01.png  style="width   *800px;">
 
 You should now have a model resembling something like this.
 
@@ -302,11 +302,11 @@ You should now have a model resembling something like this.
 
 Grouping of Your various objects can come in handy at a later stage. How to Group Your model is Your choice.
 
-Here is an example:
+Here is an example   *
 
 Note, Baselines for creating walls have also been grouped
 
-Walls have been grouped like:
+Walls have been grouped like   *
 
 -   Walls
     -   WallsExternal
@@ -335,7 +335,7 @@ One way of doing this is creating a new file.
 -   Save Your new file to something meaningful for Your workflow.
     -   Suggestion At2\_Walls\_Initial
 
-With this work flow:
+With this work flow   *
 
 -   Pros
     -   You will be able to go back to Your starting point if anything goes wrong
@@ -349,18 +349,18 @@ With this work flow:
 
 So, how to organize? Believe the main differing factor is Structural / Non Structural Next Level Inner / Outer
 
-[Curtain Walls](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) are always Non Structural
+[Curtain Walls](https   *//en.wikipedia.org/wiki/Curtain_wall_(architecture)) are always Non Structural
 
 #### Joining Wall segments 
 
-All Arch objects have a great feature: you can add one to another. Doing that will unite their geometries, but they are still editable independently after. To add one of our crossing walls to the other, just select one, CTRL + select the other, and press the Arch Add tool:
+All Arch objects have a great feature   * you can add one to another. Doing that will unite their geometries, but they are still editable independently after. To add one of our crossing walls to the other, just select one, CTRL + select the other, and press the Arch Add tool   *
 
 ![](images/Arch_tutorial_05.jpg )
 
 On the left are the two intersecting walls, on the right the result after adding one to the other.
 
 
-{{Note|An important note about parametric objects|Something is important to consider already. As you can see, in FreeCAD, everything is parametric: Our new "united" wall is made from two walls, each based on a baseline. When you expand them in the [tree view](Document_structure.md), you can see all that chain of dependencies. As you can imagine, this little game can quickly become very complex. Furthermore, if you already know how to work with the [sketcher](Sketcher_Workbench.md), you might have wanted to draw the baselines with constrained sketches. This whole complexity has a cost: it raises exponentially the number of calculations that FreeCAD has to perform to keep your model geometry up to date. So, think about it, don't add unnecessary complexity when you don't need it. Keep a good balance between simple and complex objects, and keep these for the cases where you really need them.}}
+{{Note|An important note about parametric objects|Something is important to consider already. As you can see, in FreeCAD, everything is parametric   * Our new "united" wall is made from two walls, each based on a baseline. When you expand them in the [tree view](Document_structure.md), you can see all that chain of dependencies. As you can imagine, this little game can quickly become very complex. Furthermore, if you already know how to work with the [sketcher](Sketcher_Workbench.md), you might have wanted to draw the baselines with constrained sketches. This whole complexity has a cost   * it raises exponentially the number of calculations that FreeCAD has to perform to keep your model geometry up to date. So, think about it, don't add unnecessary complexity when you don't need it. Keep a good balance between simple and complex objects, and keep these for the cases where you really need them.}}
 
 For example, I could have drawn all my baselines above without caring about what crosses what, and fix things with the [Arch Add](Arch_Add.md) tool later. But I would have raised much the complexity of my model, for no gain at all. Better make them correct right from the start, and keeping them as very simple pieces of geometry.
 
@@ -372,11 +372,11 @@ To raise the height of our walls, simply select all of them (don\'t forget the o
 
 #### Studio Elevation 
 
-Before making our roof and cutting the walls, let\'s make the remaining objects that will need to be cut: The walls of the above studio, and the columns.
+Before making our roof and cutting the walls, let\'s make the remaining objects that will need to be cut   * The walls of the above studio, and the columns.
 
 We will now make a [Workplane](Draft_SelectPlane/en.md) and a [workplaneProxy](Draft_WorkingPlaneProxy.md) object at the studio elevation.
 
-<img alt="" src=images/At2_StudioElev.png  style="width:800px;">
+<img alt="" src=images/At2_StudioElev.png  style="width   *800px;">
 
 Before establishing the elevation, take a look at the base 2d drawings. Something is wrong in paradise.
 
@@ -386,18 +386,18 @@ This can be done in many ways. Probably the easiest is to draw the baseline for 
 
 ![](images/At2_Delete.gif )Delete ?
 
-The walls of the studio are made the same way as we did, on the superior floor plan, but they will be raised up to level 2.6m. So we will give them the needed height so their top is at 6m too, that is, 3.4m. Once this is done, let\'s move our walls up by 2.6m: Select them both, put yourself in frontal view (View → Standard Views → Front), press the [Draft Move](Draft_Move.md) button, select a first point, then enter 0, 2.6, 0 as coordinates, and press enter. Your objects now have jumped 2.6m high:
+The walls of the studio are made the same way as we did, on the superior floor plan, but they will be raised up to level 2.6m. So we will give them the needed height so their top is at 6m too, that is, 3.4m. Once this is done, let\'s move our walls up by 2.6m   * Select them both, put yourself in frontal view (View → Standard Views → Front), press the [Draft Move](Draft_Move.md) button, select a first point, then enter 0, 2.6, 0 as coordinates, and press enter. Your objects now have jumped 2.6m high   *
 
 
 {{Note|About coordinates|The [Draft](Draft_Workbench.md) objects, and most [Arch](Arch_Workbench.md) objects too, obey to a Draft system called [working planes](Draft_SelectPlane.md). This system defines a 2D plane where next operations will take place. If you don't specify any, that working plane adapts itself to the current view. This is why we switched to frontal view, and you see that we indicated a movement in X of 0 and in Y of 2.6. We could also have forced the working plane to stay on the ground, by using the [[Draft SelectPlane]] tool. Then, we would have entered a movement of X of 0, Y of 0 and Z of 2.6. }}
 
 **Alternative Approach**
 
-Now let\'s move our walls horizontally, to their correct location. Since we have points to snap to, this is easier: Select both walls, press the [Draft Move](Draft_Move.md) tool, and move them from one point to the other:
+Now let\'s move our walls horizontally, to their correct location. Since we have points to snap to, this is easier   * Select both walls, press the [Draft Move](Draft_Move.md) tool, and move them from one point to the other   *
 
 ![](images/Arch_tutorial_07.jpg )
 
-Finally, I changed the color of some walls to a brick-like color (so it\'s easier to differentiate), and made a small correction: Some walls don\'t go up to the roof, but stop at a height of 2.60m. I corrected the height of those walls.
+Finally, I changed the color of some walls to a brick-like color (so it\'s easier to differentiate), and made a small correction   * Some walls don\'t go up to the roof, but stop at a height of 2.60m. I corrected the height of those walls.
 
 ### Subtractions
 
@@ -415,7 +415,7 @@ In this Approach we will draw and extrude with correct 3d location
 -   Extrude to a dimension larger than total width of elements we want to cut
 -   If needed, set workplane to top view, move to top view and move extrusion so it covers the with of the building
 
-<img alt="" src=images/At_2RoofCut.png  style="width:800px;"> <img alt="" src=images/At2_RoofCut02.png  style="width:800px;">
+<img alt="" src=images/At_2RoofCut.png  style="width   *800px;"> <img alt="" src=images/At2_RoofCut02.png  style="width   *800px;">
 
 #### Approach Two 
 
@@ -423,25 +423,25 @@ Now it is time to build our subtraction volume. The easiest way will be to draw 
 
 Let\'s draw a volume, bigger than the roof, that will be subtracted from our walls. To do that, I drew two lines on top of the base of the roof, then extended them a bit further with the [Draft Trimex](Draft_Trimex.md) tool. Then, I drew a [wire](Draft_Wire.md), snapping on these lines, and going well above our 6 meters. I also drew a blue line on the ground level (0.00), that will be our rotation axis.
 
-<img alt="" src=images/Arch_tutorial_09.jpg  style="width:800px;">
+<img alt="" src=images/Arch_tutorial_09.jpg  style="width   *800px;">
 
-Now is the tricky part: We will use the [Draft Rotate](Draft_Rotate.md) tool to rotate our profile 90 degrees up, in the right position to be extruded. To do that, we must first change the [working plane](Draft_SelectPlane.md) to the YZ plane. Once this is done, the rotation will happen in that plane. But if we do like we did a bit earlier, and set our view to side view, it will be hard to see and select our profile, and to know where is the basepoint around which it must rotate, right? Then we must set the working plane manually: Press the [Draft SelectPlane](Draft_SelectPlane.md) button (it is in the \"tasks\" tab of the tree view), and set it to YZ (which is the \"side\" plane). Once you set the working plane manually, like that, it won\'t change depending on your view. You can now rotate your view until you have a good view of all the things you must select. To switch the working plane back to \"automatic\" mode later, press the [Draft SelectPlane](Draft_SelectPlane.md) button again and set it to \"None\".
+Now is the tricky part   * We will use the [Draft Rotate](Draft_Rotate.md) tool to rotate our profile 90 degrees up, in the right position to be extruded. To do that, we must first change the [working plane](Draft_SelectPlane.md) to the YZ plane. Once this is done, the rotation will happen in that plane. But if we do like we did a bit earlier, and set our view to side view, it will be hard to see and select our profile, and to know where is the basepoint around which it must rotate, right? Then we must set the working plane manually   * Press the [Draft SelectPlane](Draft_SelectPlane.md) button (it is in the \"tasks\" tab of the tree view), and set it to YZ (which is the \"side\" plane). Once you set the working plane manually, like that, it won\'t change depending on your view. You can now rotate your view until you have a good view of all the things you must select. To switch the working plane back to \"automatic\" mode later, press the [Draft SelectPlane](Draft_SelectPlane.md) button again and set it to \"None\".
 
-Now the rotation will be easy to do: Select the profile, press the [Draft Rotate](Draft_Rotate.md) button, click on a point of the blue line, enter 0 as start angle, and 90 as rotation:
+Now the rotation will be easy to do   * Select the profile, press the [Draft Rotate](Draft_Rotate.md) button, click on a point of the blue line, enter 0 as start angle, and 90 as rotation   *
 
-<img alt="" src=images/Arch_tutorial_10.jpg  style="width:800px;">
+<img alt="" src=images/Arch_tutorial_10.jpg  style="width   *800px;">
 
-Now all we need to do it to move the profile a bit closer to the model (set the working plane to XY if needed), and extrude it. This can be done either with the [Part Extrude](Part_Extrude.md) tool, or [Draft Trimex](Draft_Trimex.md), which also has the special hidden power to extrude faces. Make sure your extrusion is larger than all the walls it will be subtracted from, to avoid face-on-face situations:
+Now all we need to do it to move the profile a bit closer to the model (set the working plane to XY if needed), and extrude it. This can be done either with the [Part Extrude](Part_Extrude.md) tool, or [Draft Trimex](Draft_Trimex.md), which also has the special hidden power to extrude faces. Make sure your extrusion is larger than all the walls it will be subtracted from, to avoid face-on-face situations   *
 
-<img alt="" src=images/Arch_tutorial_11.jpg  style="width:800px;">
+<img alt="" src=images/Arch_tutorial_11.jpg  style="width   *800px;">
 
 #### Common to both approaches 
 
-Now, here comes into action the contrary of the [Arch Add](Arch_Add.md) tool: [Arch Remove](Arch_Remove.md). As you might have guessed, it also makes an object a child of another, but its shape is subtracted from the host object, instead of being united. So now things are simple: Select the volume to subtract (I renamed it as \"Roof volume to subtract\" in the tree view so it is easy to spot), CTRL + select a wall, and press the [Arch Remove](Arch_Remove.md) button. You\'ll see that, after the subtraction happened, the volume to subtract disappeared from both the 3D view and the tree view. That is because it has been marked as child of the wall, and \"swallowed\" by that wall. Select the wall, expand it in the tree view, there is our volume.
+Now, here comes into action the contrary of the [Arch Add](Arch_Add.md) tool   * [Arch Remove](Arch_Remove.md). As you might have guessed, it also makes an object a child of another, but its shape is subtracted from the host object, instead of being united. So now things are simple   * Select the volume to subtract (I renamed it as \"Roof volume to subtract\" in the tree view so it is easy to spot), CTRL + select a wall, and press the [Arch Remove](Arch_Remove.md) button. You\'ll see that, after the subtraction happened, the volume to subtract disappeared from both the 3D view and the tree view. That is because it has been marked as child of the wall, and \"swallowed\" by that wall. Select the wall, expand it in the tree view, there is our volume.
 
-Now, select the volume in the tree vieew, CTRL + select the next wall, press [Arch Remove](Arch_Remove.md). Repeat for the next walls until you have everything properly cut:
+Now, select the volume in the tree vieew, CTRL + select the next wall, press [Arch Remove](Arch_Remove.md). Repeat for the next walls until you have everything properly cut   *
 
-<img alt="" src=images/Arch_tutorial_12.jpg  style="width:800px;">
+<img alt="" src=images/Arch_tutorial_12.jpg  style="width   *800px;">
 
 Remember that for both [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md), the order you select the objects is important. The host is always the last one, like in \"Remove X from Y\" or \"Add X to Y\"
 
@@ -450,7 +450,7 @@ Remember that for both [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md)
 
 ![](images/At2_Tip.png )Tip
 
-Work flow note:
+Work flow note   *
 
 It is probably a good Idea to store Your RoofCutVolume in a separate file for later
 
@@ -489,7 +489,7 @@ In practice the inner walls (non structural) will probably be placed above the F
 
 Next set the desired [snap settings](Draft_Snap.md). Especially for new users, conflicting snap settings are a cause of frustration.
 
-In image above, we have the following snap settings active:
+In image above, we have the following snap settings active   *
 
 -   Lock
 -   EndPoint
@@ -533,7 +533,7 @@ If you have started with making the Arch Grid, tis is a piece of cake. All colum
 
 When measuring the columns, we find they are ø300mm. Probably they could be thinner, but we will stick with original design here.
 
-<img alt=" 400px" src=images/At2_Col01.png )![](images/At2_Col02.png  style="width:480px;">
+<img alt=" 400px" src=images/At2_Col01.png )![](images/At2_Col02.png  style="width   *480px;">
 
 Probably the easiest is to use a circle with R=150 as base for columns. then extrude to 6000mm.
 
@@ -547,15 +547,15 @@ Next Cut the columns going up to the roof, using the same procedure and cutting 
 
 Starting With outer Beams
 
-<img alt="" src=images/At2_RoofBeam01.png  style="width:800px;">
+<img alt="" src=images/At2_RoofBeam01.png  style="width   *800px;">
 
 Looking at the section of the Outer Beams, we can see it is aligned with outer wall. At least in some countries with rougher weather conditions this would be bad practice. Will increase width to 200mm, and have the beam extend 50mm outside the wall.
 
-<img alt="" src=images/At2_DripNose.png  style="width:120px;">Would also like to have what we sometimes call a drip nose. Feel it is a bit complicated to add at the moment.
+<img alt="" src=images/At2_DripNose.png  style="width   *120px;">Would also like to have what we sometimes call a drip nose. Feel it is a bit complicated to add at the moment.
 
 Showing Section of Beam with DripNose
 
-<img alt="" src=images/At2_RoofBeam03.png  style="width:800px;">
+<img alt="" src=images/At2_RoofBeam03.png  style="width   *800px;">
 
 Created as separate extrudes, added to BuildingPart
 
@@ -569,7 +569,7 @@ The cut results in error when exporting
 
 #### Roof Center Slab 
 
-Open at2\_ReferenceComplete ([can be downloaded from here](https://github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd))
+Open at2\_ReferenceComplete ([can be downloaded from here](https   *//github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd))
 
 ![](images/AT2_RoofCenterSlab.svg.png )
 
@@ -591,18 +591,18 @@ Look at [Arch Component](Arch_Component.md)
 
 Some posts relating to issue and resolution
 
--   [Tracker 2014-11-08 14:51 Issue identified](https://freecadweb.org/tracker/view.php?id=1820)
--   [Remove component from draft or sketch](https://forum.freecadweb.org/viewtopic.php?f=23&t=8349)
+-   [Tracker 2014-11-08 14   *51 Issue identified](https   *//freecadweb.org/tracker/view.php?id=1820)
+-   [Remove component from draft or sketch](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=8349)
 
 #### Mods to roof 
 
 **Correct supporting wall**
 
-<img alt="" src=images/AT2_RoofCentSlabWall.jpg  style="width:420px;">
+<img alt="" src=images/AT2_RoofCentSlabWall.jpg  style="width   *420px;">
 
 If You cut the wall (RED in image above), we now discover that this is supporting The Roof Center Slab.
 
-This gives us a great opportunity test editing this wall with \[<https://www.freecadweb.org/wiki/Arch_Remove>\| Arch remove command\] ![](images/At2_Fixme.gif )***FIXME Think the doc needs some updating***
+This gives us a great opportunity test editing this wall with \[<https   *//www.freecadweb.org/wiki/Arch_Remove>\| Arch remove command\] ![](images/At2_Fixme.gif )***FIXME Think the doc needs some updating***
 
 ![ 800px](images/At2_RoofEast03.jpg )
 
@@ -663,19 +663,19 @@ Make a plane for the two half of the Roof using
 
 Try to use [Work features](Macro_WorkFeatures.md), installed as WorkBench
 
-<img alt="" src=images/WF.png  style="width:800px;">
+<img alt="" src=images/WF.png  style="width   *800px;">
 
 Also try [Macro\_Align\_View\_to\_Face](Macro_Align_View_to_Face.md)
 
-[For Myself\....](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=10838)
+[For Myself\....](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=10838)
 
 Started Playing with this.. First interesting feature.. If You select An Arch Axis -\> place point at extreme, it will place points at all ends of all the selected axis
 
-<img alt="" src=images/At2_X-AxisWorkFeature.png  style="width:800px;">
+<img alt="" src=images/At2_X-AxisWorkFeature.png  style="width   *800px;">
 
 View image, by selecting the X-Axis System and hitting WorkFeature-\>Create Points at Line Extreme. Thew workFreature macro will create workpoints at end of all defined lines in ArchAxis. In this case AxesX
 
-Also:
+Also   *
 
 -   Planes created with WorkFeature are able to set workplane in draft. (Only tested 0.18)
 -   Planes created this way can be named as all other FC features
@@ -691,7 +691,7 @@ When Building part is exported to IFC, it creates 4xIFCproxyElements, and a pare
 
 Modeling the Stairs may be done in several ways.
 
-Here we will model them the traditional way, but feel free to experiment with the Automated functionality presented in [Arch Stairs](https://forum.freecadweb.org/viewtopic.php?t=29358)
+Here we will model them the traditional way, but feel free to experiment with the Automated functionality presented in [Arch Stairs](https   *//forum.freecadweb.org/viewtopic.php?t=29358)
 
 ### Doors
 
@@ -703,7 +703,7 @@ Inner or Outer
 
 ## IFC and BIM 
 
-[Building Information Modelling (BIM)](https://en.wikipedia.org/wiki/Building_information_modeling) is a very broad term that describes the process of creating a digital model of a building.
+[Building Information Modelling (BIM)](https   *//en.wikipedia.org/wiki/Building_information_modeling) is a very broad term that describes the process of creating a digital model of a building.
 
 ### Planning 
 
@@ -721,25 +721,25 @@ One of the simplest yet most critical aspects of good project coordination is th
 
 ### IFC Links 
 
--   [IFC - Where it all started - The End of Babel - Part 1/2](https://www.youtube.com/watch?v=g_jmGQvr6dQ)
--   [Planning and Standards by U.S. General Services Administration](https://www.gsa.gov/real-estate/design-construction/3d4d-building-information-modeling/bim-guidelines-for-revit/guidelines/technical-standards/bim-technical-standards-file-structure-and-organization)
--   [IFC4 - is it ready yet?](https://blog.areo.io/ifc4-is-it-ready-yet/)
--   [BimServer Center](https://bimserver.center/)
--   [BIMsie](https://www.nibs.org/page/bsa_bimsie#software)
--   [Sustainability of Digital Formats: Planning for Library of Congress Collections](https://www.loc.gov/preservation/digital/formats/fdd/fdd000447.shtml)
--   [The Top 8 Free and Open Source BIM Software Tools](https://blog.capterra.com/the-top-6-free-bim-software-tools/)
--   [Designing Buildings Wiki](https://www.designingbuildings.co.uk/wiki/Industry_Foundation_Classes_IFC)
--   [BuildingSmart schema after 2x3 TC1](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)
+-   [IFC - Where it all started - The End of Babel - Part 1/2](https   *//www.youtube.com/watch?v=g_jmGQvr6dQ)
+-   [Planning and Standards by U.S. General Services Administration](https   *//www.gsa.gov/real-estate/design-construction/3d4d-building-information-modeling/bim-guidelines-for-revit/guidelines/technical-standards/bim-technical-standards-file-structure-and-organization)
+-   [IFC4 - is it ready yet?](https   *//blog.areo.io/ifc4-is-it-ready-yet/)
+-   [BimServer Center](https   *//bimserver.center/)
+-   [BIMsie](https   *//www.nibs.org/page/bsa_bimsie#software)
+-   [Sustainability of Digital Formats   * Planning for Library of Congress Collections](https   *//www.loc.gov/preservation/digital/formats/fdd/fdd000447.shtml)
+-   [The Top 8 Free and Open Source BIM Software Tools](https   *//blog.capterra.com/the-top-6-free-bim-software-tools/)
+-   [Designing Buildings Wiki](https   *//www.designingbuildings.co.uk/wiki/Industry_Foundation_Classes_IFC)
+-   [BuildingSmart schema after 2x3 TC1](https   *//technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)
 
 ### IFC Collaboration 
 
--   [Bimsync by Catenda (Norwegian company, dedicated to open standards)](https://home.bimsync.com/)
--   [Open BIMserver](http://bimserver.org/)
--   [Allplan BimPlus (a Nemetschek company)](https://www.allplan.com/products/allplan-bimplus/)
+-   [Bimsync by Catenda (Norwegian company, dedicated to open standards)](https   *//home.bimsync.com/)
+-   [Open BIMserver](http   *//bimserver.org/)
+-   [Allplan BimPlus (a Nemetschek company)](https   *//www.allplan.com/products/allplan-bimplus/)
 
 #### Freecad BIM 
 
--   [BIM hash on GitHub](https://github.com/OpeningDesign/FreeMVD_WorkFlow/blob/3b0cd9cbd2b7ea33b8ac580d8730478d42b692d6/BIM_Specifications.md)
+-   [BIM hash on GitHub](https   *//github.com/OpeningDesign/FreeMVD_WorkFlow/blob/3b0cd9cbd2b7ea33b8ac580d8730478d42b692d6/BIM_Specifications.md)
 
 ### IFC round tripping 
 
@@ -747,34 +747,34 @@ Aim is to also test round tripping, exporting IFC from FreeCAD and importing sam
 
 ### BIM requirements by stakeholders 
 
-In the [UK](https://www.designingbuildings.co.uk/wiki/UK), the [Government Construction Strategy published in May 2011](https://www.designingbuildings.co.uk/wiki/Government_construction_strategy), stated that the [\'\...government](https://www.designingbuildings.co.uk/wiki/Government) will [require fully collaborative 3D BIM](https://www.designingbuildings.co.uk/wiki/Bim) (with all project and [asset](https://www.designingbuildings.co.uk/wiki/Asset) information, documentation and data being electronic) as a minimum by 2016\'. This represents a minimum requirement for [Level 2 BIM](https://www.designingbuildings.co.uk/wiki/Level_2_bim) on centrally-procured public projects.
+In the [UK](https   *//www.designingbuildings.co.uk/wiki/UK), the [Government Construction Strategy published in May 2011](https   *//www.designingbuildings.co.uk/wiki/Government_construction_strategy), stated that the [\'\...government](https   *//www.designingbuildings.co.uk/wiki/Government) will [require fully collaborative 3D BIM](https   *//www.designingbuildings.co.uk/wiki/Bim) (with all project and [asset](https   *//www.designingbuildings.co.uk/wiki/Asset) information, documentation and data being electronic) as a minimum by 2016\'. This represents a minimum requirement for [Level 2 BIM](https   *//www.designingbuildings.co.uk/wiki/Level_2_bim) on centrally-procured public projects.
 
 ## Relevant Forum Posts 
 
 Have started gathering some forum post that might be relevant for the TutorialArchBim
 
--   [FreeCAD posts from Yorik\'s blog](https://forum.freecadweb.org/viewtopic.php?t=17498)
--   [reorder objects](https://forum.freecadweb.org/viewtopic.php?f=3&t=5385&start=20)
--   [Why Switch from FreeCAD to Blender](https://forum.freecadweb.org/viewtopic.php?f=8&t=30371)
--   [Noob. Architecture best practices, workflow and other questions](https://forum.freecadweb.org/viewtopic.php?f=3&t=30132)
--   [BIM Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=27237&start=100)
--   [xrefs](https://forum.freecadweb.org/viewtopic.php?f=23&t=20933&start=30)
--   [IFC++](https://forum.freecadweb.org/viewtopic.php?f=23&t=30444&start=10)
--   [controls the color of objects in a IFC?](https://forum.freecadweb.org/viewtopic.php?f=23&t=30670&p=254044#p254044%7CWhat)
--   [An arch project Postby sergiobini Thu Jul 26, 2018 12:18 pm](https://forum.freecadweb.org/viewtopic.php?f=24&t=29959&start=10)
--   [Flameshot: Fantastic Screenshot software for Linux users](https://forum.freecadweb.org/viewtopic.php?f=8&t=30780)
--   [Design for a staircase](https://forum.freecadweb.org/viewtopic.php?t=24168)
--   [BIM / Arch tutorials](https://forum.freecadweb.org/viewtopic.php?f=36&t=30806)
--   [Presenting FreeCad](https://forum.freecadweb.org/viewtopic.php?f=36&t=27169)
--   [Document tree display](https://forum.freecadweb.org/viewtopic.php?f=9&t=30856)
--   [Windows macro, various](https://forum.freecadweb.org/viewtopic.php?style=4&t=25407#p199982)
--   [Reinforcement WB](https://forum.freecadweb.org/viewtopic.php?f=24&t=30617)
--   [Yorik lecture hackable FC](https://archive.fosdem.org/2015/schedule/event/freecad/attachments/slides/667/export/events/attachments/freecad/slides/667/freecad_fosdem15.pdf)
--   [Very interesting presentation of FC and general views on OpenSource in Engineering by Joel Graff](https://forum.freecadweb.org/viewtopic.php?f=36&t=27169&p=263517#p263517)
+-   [FreeCAD posts from Yorik\'s blog](https   *//forum.freecadweb.org/viewtopic.php?t=17498)
+-   [reorder objects](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=5385&start=20)
+-   [Why Switch from FreeCAD to Blender](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=30371)
+-   [Noob. Architecture best practices, workflow and other questions](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=30132)
+-   [BIM Workbench](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=27237&start=100)
+-   [xrefs](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=20933&start=30)
+-   [IFC++](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=30444&start=10)
+-   [controls the color of objects in a IFC?](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=30670&p=254044#p254044%7CWhat)
+-   [An arch project Postby sergiobini Thu Jul 26, 2018 12   *18 pm](https   *//forum.freecadweb.org/viewtopic.php?f=24&t=29959&start=10)
+-   [Flameshot   * Fantastic Screenshot software for Linux users](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=30780)
+-   [Design for a staircase](https   *//forum.freecadweb.org/viewtopic.php?t=24168)
+-   [BIM / Arch tutorials](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30806)
+-   [Presenting FreeCad](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=27169)
+-   [Document tree display](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=30856)
+-   [Windows macro, various](https   *//forum.freecadweb.org/viewtopic.php?style=4&t=25407#p199982)
+-   [Reinforcement WB](https   *//forum.freecadweb.org/viewtopic.php?f=24&t=30617)
+-   [Yorik lecture hackable FC](https   *//archive.fosdem.org/2015/schedule/event/freecad/attachments/slides/667/export/events/attachments/freecad/slides/667/freecad_fosdem15.pdf)
+-   [Very interesting presentation of FC and general views on OpenSource in Engineering by Joel Graff](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=27169&p=263517#p263517)
 
 ## General building terminology 
 
--   [Roof terminology](https://eurolayasphaltandroofing.co.uk/roofing-terminology/)
+-   [Roof terminology](https   *//eurolayasphaltandroofing.co.uk/roofing-terminology/)
 
 ## ToDo
 
@@ -790,7 +790,7 @@ These texts are all in a ![](images/At2_Fixme.gif )FIXME Comment State
 
 ![](images/At2_Fixme.gif )FIXME needs updating
 
-[Noob. Architecture best practices, workflow and other questions](https://forum.freecadweb.org/viewtopic.php?f=3&t=30132) Quoting forum post: {{Code|
+[Noob. Architecture best practices, workflow and other questions](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=30132) Quoting forum post   * {{Code|
 At first, I didn't understand correctly the snapping tools. The snaps seemed random, but thanks to Regis tutorials on Youtube (cheers mate!!) I started over, using the snaps correctly (almost). This second time, by distraction, I added walls to each other and now I got stuck. I need to subtract a volume because some walls intersect a small slab, and when I do it, nothing happens. At first, they were all disappearing; now, not even that. Now, I know the tutorial recommends that we shouldn't add to much stuff to each other in order to avoid unnecessary complexity, but since it is also a BIM app, shouldn't complexity be part of it? I mean, shouldn't walls, if not adding to one another, at least merge directly to each other, like in Revit for example?
 }}
 
@@ -804,7 +804,7 @@ If You have struggled with this when learning FreeCAD, take some comfort in that
 
 ### Customizing Arch WorkBench 
 
-This is an example \"customized\" Arch workbench:
+This is an example \"customized\" Arch workbench   *
 
 ![](images/Arch_tutorial_01.jpg )
 
@@ -816,7 +816,7 @@ In this tutorial, we will model the house in 3D, based on the 2D drawings we wil
 
 make list of common abbreviations
 
-[One compilation of Acronyms can be found here](https://www.dummies.com/programming/big-data/your-bim-acronym-guide-what-all-those-letters-mean/)
+[One compilation of Acronyms can be found here](https   *//www.dummies.com/programming/big-data/your-bim-acronym-guide-what-all-those-letters-mean/)
 
 BEP \| BIM Execution Plan
 
@@ -834,7 +834,7 @@ command line interface
 
 You can create a log file with the additional commandline parameter
 
-Code: Select all
+Code   * Select all
 
 \--log-file arg
 
@@ -850,22 +850,22 @@ Code: Select all
 
 Virtual Design and Construction seems to be the next Buzz word after BIM.
 
-[virtual Design and Construction in Skanska Norway](https://www.bi.no/globalassets/forskning/senter-for-byggenaringen/lc-arrangement/lcno-seminar-samlet-170614-pdf.pdf)
+[virtual Design and Construction in Skanska Norway](https   *//www.bi.no/globalassets/forskning/senter-for-byggenaringen/lc-arrangement/lcno-seminar-samlet-170614-pdf.pdf)
 
 ## Annex B 
 
 ### FreeCAD ifcOpenShell 
 
--   [Voids](https://forum.freecadweb.org/viewtopic.php?t=25491)
--   [IFC installation](https://forum.freecadweb.org/viewtopic.php?f=4&t=12368)
--   [Add extra python lib path to FreeCAD system path](https://forum.freecadweb.org/viewtopic.php?t=16332)
+-   [Voids](https   *//forum.freecadweb.org/viewtopic.php?t=25491)
+-   [IFC installation](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=12368)
+-   [Add extra python lib path to FreeCAD system path](https   *//forum.freecadweb.org/viewtopic.php?t=16332)
 
--   [Download IfcOpenShell](http://ifcopenshell.org/python.html)
+-   [Download IfcOpenShell](http   *//ifcopenshell.org/python.html)
 
 
 {{Code|
 import sys
- for p in sys.path:
+ for p in sys.path   *
  print(p)
 }}
 
@@ -873,7 +873,7 @@ import sys
 
 
 {{Code|
-sudo add-apt-repository ppa:freecad-community/ppa
+sudo add-apt-repository ppa   *freecad-community/ppa
 sudo apt-get update
 }}
 
@@ -882,26 +882,26 @@ sudo apt-get update
 
 {{Code|
 ls -l /usr/lib/python2.7/sitecustomize.py
-lrwxrwxrwx 1 root root 31 sep.   4 07:46 /usr/lib/python2.7/sitecustomize.py -> /etc/python2.7/sitecustomize.py
+lrwxrwxrwx 1 root root 31 sep.   4 07   *46 /usr/lib/python2.7/sitecustomize.py -> /etc/python2.7/sitecustomize.py
 }}
 
 #### Build OCE 
 
 No success so far
 
-[GitHub ifcopenshell](https://github.com/IfcOpenShell/IfcOpenShell)
+[GitHub ifcopenshell](https   *//github.com/IfcOpenShell/IfcOpenShell)
 
 
 {{Code|
 sudo apt-get install git cmake gcc g++ libboost-all-dev libicu-dev
 }}
 
-compile OCE yourself (note that the build takes a long time):
+compile OCE yourself (note that the build takes a long time)   *
 
 
 {{Code|
 $ sudo apt-get install libftgl-dev libtbb2 libtbb-dev libgl1-mesa-dev libfreetype6-dev
-$ git clone https://github.com/tpaviot/oce.git
+$ git clone https   *//github.com/tpaviot/oce.git
 $ cd oce
 $ mkdir build && cd build
 $ cmake ..
@@ -916,7 +916,7 @@ $ sudo make install
 
 {{Code|
 import sys
->>> for p in sys.path:
+>>> for p in sys.path   *
 ...     print(p)
 ... 
 /usr/lib/freecad-daily/Mod/Drawing
@@ -987,8 +987,8 @@ sys.path.append("/usr/lib/python2.7/site-packages")
 
 
 {{Code|
-peter@peter-HP-Z400-Workstation:~/.FreeCAD/Macro$ sudo rsync -azv /home/peter/Downloads/ifcopenshell /usr/local/lib/python2.7/site-packages/
-[sudo] password for peter: 
+peter@peter-HP-Z400-Workstation   *~/.FreeCAD/Macro$ sudo rsync -azv /home/peter/Downloads/ifcopenshell /usr/local/lib/python2.7/site-packages/
+[sudo] password for peter   * 
 sending incremental file list
 ifcopenshell/
 ifcopenshell/__init__.py
@@ -1012,7 +1012,7 @@ Ended up placing ifcopenshell in \... dist-packages
 
 ## Annex B IFC and FreeCAD 
 
-This chapter looks at how FreeCAD entities come across as IFC entities based on using [IfcOpenShell](http://ifcopenshell.org/) as exporter, and following instructions in [Arch](Arch_Workbench.md) and [BIM](BIM_Workbench.md) workbenches
+This chapter looks at how FreeCAD entities come across as IFC entities based on using [IfcOpenShell](http   *//ifcopenshell.org/) as exporter, and following instructions in [Arch](Arch_Workbench.md) and [BIM](BIM_Workbench.md) workbenches
 
 We start looking at basic objects like Wall and Structure.
 
@@ -1024,7 +1024,7 @@ We start looking at basic objects like Wall and Structure.
 
 New try with Ubuntu 18.04 LTS
 
--   [Bernd Hahnebach\'s](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2069) [Script](https://gist.github.com/berndhahnebach/e4d57634fe7eebbae537bf3da1b1b95a)
+-   [Bernd Hahnebach\'s](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2069) [Script](https   *//gist.github.com/berndhahnebach/e4d57634fe7eebbae537bf3da1b1b95a)
 
 Download **Stretch\--ifcplusplus.sh** save to Your Home dir.
 
@@ -1033,31 +1033,31 @@ Download **Stretch\--ifcplusplus.sh** save to Your Home dir.
 -   chmod u+x Stretch\--ifcplusplus.sh
 -   Run the file
 
-Error:
+Error   *
 
-SimpleViewerExampled: error while loading shared libraries: libcarved.so: cannot open shared object file: No such file or directory {{Code|
-yorik wrote:
-    Thu Aug 30, 2018 6:27 pm
+SimpleViewerExampled   * error while loading shared libraries   * libcarved.so   * cannot open shared object file   * No such file or directory {{Code|
+yorik wrote   *
+    Thu Aug 30, 2018 6   *27 pm
     do you have a libcarved.so together with the SimpleViewerExample executable in Release subfolder? 
 }}
 
-Tried this script with Ubuntu 16.04 LTS, got all kinds of errors. Mostly Cmake wrong version. See [ifcPlusPlus](https://forum.freecadweb.org/viewtopic.php?f=23&t=30444)
+Tried this script with Ubuntu 16.04 LTS, got all kinds of errors. Mostly Cmake wrong version. See [ifcPlusPlus](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=30444)
 
 ## Annex X 
 
-Freecad install directories on [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_(operating_system)) [Linux](https://en.wikipedia.org/wiki/Linux)
+Freecad install directories on [Ubuntu](https   *//en.wikipedia.org/wiki/Ubuntu_(operating_system)) [Linux](https   *//en.wikipedia.org/wiki/Linux)
 
 Binary executables
 
 
 {{Code|
 /usr/bin$ ls -l freec*
-lrwxrwxrwx 1 root root  26 aug.  19 21:25 freecad -> ../lib/freecad/bin/FreeCAD
-lrwxrwxrwx 1 root root  29 aug.  19 21:25 freecadcmd -> ../lib/freecad/bin/FreeCADCmd
-lrwxrwxrwx 1 root root  35 aug.  23 04:16 freecadcmd-daily -> ../lib/freecad-daily/bin/FreeCADCmd
-lrwxrwxrwx 1 root root  32 aug.  23 04:16 freecad-daily -> ../lib/freecad-daily/bin/FreeCAD
--rwxr-xr-x 1 root root 717 aug.  23 01:03 freecad-daily-thumbnailer
--rwxr-xr-x 1 root root 699 aug.  19 20:29 freecad-thumbnailer
+lrwxrwxrwx 1 root root  26 aug.  19 21   *25 freecad -> ../lib/freecad/bin/FreeCAD
+lrwxrwxrwx 1 root root  29 aug.  19 21   *25 freecadcmd -> ../lib/freecad/bin/FreeCADCmd
+lrwxrwxrwx 1 root root  35 aug.  23 04   *16 freecadcmd-daily -> ../lib/freecad-daily/bin/FreeCADCmd
+lrwxrwxrwx 1 root root  32 aug.  23 04   *16 freecad-daily -> ../lib/freecad-daily/bin/FreeCAD
+-rwxr-xr-x 1 root root 717 aug.  23 01   *03 freecad-daily-thumbnailer
+-rwxr-xr-x 1 root root 699 aug.  19 20   *29 freecad-thumbnailer
 }}
 
 ### Data directories FreeCad 
@@ -1475,6 +1475,8 @@ Also in {{Code|
 
 
 }}
+
+[Category   *Sandbox](Category_Sandbox.md)
 
 
 

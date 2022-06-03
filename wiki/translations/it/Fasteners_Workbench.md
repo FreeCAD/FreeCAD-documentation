@@ -232,6 +232,8 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
+-   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
+
 ### Nuts
 
 -   <img alt="" src=images/Fasteners_ISO4032.svg  style="width   *32px;"> 

@@ -1,6 +1,6 @@
 # Sketcher ConnectLines/es
 ---
-- GuiCommand:/es   Name:Sketcher ConnectLines   Name/es:Sketcher ConnectLines   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Connect Edges   Shortcut:Ctrl+Shift+K   Version:0.15---
+- GuiCommand   */es   Name   *Sketcher ConnectLines   Name/es   *Sketcher ConnectLines   Workbenches   *[[Sketcher Workbench/es   Sketcher]]|MenuLocation   *Sketch → Sketcher tools → Connect Edges   Shortcut   *Ctrl+Shift+K   Version   *0.15---
 
 
 </div>
@@ -12,10 +12,10 @@ Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints w
 ## Usage
 
 1.  Select the unconnected elements in the [3D view](3D_view.md) or in the [Task panel](Task_panel.md) on the left side of the screen
-2.  Invoke the command using several methods:
-    -   Press the **[<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Connect edges](Sketcher_ConnectLines.md)** button.
+2.  Invoke the command using several methods   *
+    -   Press the **[<img src=images/Sketcher_ConnectLines.svg style="width   *16px"> [Connect edges](Sketcher_ConnectLines.md)** button.
     -   Use the **Z** then **J** keyboard shortcut.
-    -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_ConnectLines.svg style="width:16px"> Connect edges** entry from the top menu.
+    -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_ConnectLines.svg style="width   *16px"> Connect edges** entry from the top menu.
 
 ## Notes
 

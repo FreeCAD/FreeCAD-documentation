@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:TechDraw Dimension Vertical
-   Name/ro:TechDraw Dimension Vertical
-   MenuLocation:TechDraw → Dimension Vertical
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   SeeAlso:[TechDraw Dimension Length](TechDraw_LengthDimension.md), [TechDraw Dimension Horizontal](TechDraw_HorizontalDimension.md)
+- GuiCommand   */ro
+   Name   *TechDraw Dimension Vertical
+   Name/ro   *TechDraw Dimension Vertical
+   MenuLocation   *TechDraw → Dimension Vertical
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Shortcut   *
+   SeeAlso   *[TechDraw Dimension Length](TechDraw_LengthDimension.md), [TechDraw Dimension Horizontal](TechDraw_HorizontalDimension.md)
 ---
 
 # TechDraw VerticalDimension/ro
@@ -15,11 +15,11 @@
 
 ## Descriere
 
-Instrumentul pentru cote verticale adaugă o cotă verticală unei imagini. Cota poate fi între două vârfuri, lungimea unei muchii sau distanța verticală dintre două margini. Distanța va fi inițial distanța proiectată(adică așa cum este reprezentată în desen), dar această distanță poate fi înlocuită prin distanța 3D reală utilizând instrumentul Link Dimension <img alt="" src=images/LinkDimension.png  style="width:24px;">. <img alt="" src=images/VerticalSample.png  style="width:200px;">
+Instrumentul pentru cote verticale adaugă o cotă verticală unei imagini. Cota poate fi între două vârfuri, lungimea unei muchii sau distanța verticală dintre două margini. Distanța va fi inițial distanța proiectată(adică așa cum este reprezentată în desen), dar această distanță poate fi înlocuită prin distanța 3D reală utilizând instrumentul Link Dimension <img alt="" src=images/LinkDimension.png  style="width   *24px;">. <img alt="" src=images/VerticalSample.png  style="width   *200px;">
 
 The Vertical Dimension tool adds a vertical dimension to a View. The dimension may be between two vertices, the length of one edge or the vertical distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
-<img alt="" src=images/TechDraw_Dimension_Vertical_example.png  style="width:220px;"> 
+<img alt="" src=images/TechDraw_Dimension_Vertical_example.png  style="width   *220px;"> 
 *Length dimension taken from two arbitrary nodes of the view; the distance is measured vertically*
 
 ## Cum se folosește 
@@ -44,15 +44,15 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 Cotele verticale pot fi adăugate la Pages utilizând Python.
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Vertical Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Vertical Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "DistanceX"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

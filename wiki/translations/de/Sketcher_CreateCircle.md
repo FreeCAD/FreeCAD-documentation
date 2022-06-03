@@ -1,16 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher CreateCircle
-   Name/de   *Skizzierer ErstelleKreis
-   MenuLocation   *Skizze → Skizzengeometrien → Kreis erstellen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   SeeAlso   *[Skizzierer Bogen](Sketcher_CompCreateArc/de.md)
+   Name/de   *Sketcher KreisErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Kreis erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **C**
+   SeeAlso   *[AuswahlBogenErstellen](Sketcher_CompCreateArc/de.md)
 ---
 
 # Sketcher CreateCircle/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -32,13 +30,7 @@ Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz m
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

@@ -1,17 +1,17 @@
 # TechDraw HorizontalDimension/ro
 ---
-- GuiCommand:   Name:TechDraw  Dimension Horizontal   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw → Dimension Horizontal   Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *TechDraw  Dimension Horizontal   Workbenches   *[[TechDraw_Workbench   TechDraw]]|MenuLocation   *TechDraw → Dimension Horizontal   Shortcut   *   SeeAlso   *---
 
 
 </div>
 
 ## Descriere
 
-Instrumentul pentru cote orizontale adaugă o cotă orizontală unei imagini. Cota poate fi între două vârfuri, lungimea unei muchii sau distanța verticală dintre două margini. Distanța va fi inițial distanța proiectată(adică așa cum este reprezentată în desen), dar această distanță poate fi înlocuită prin distanța 3D reală utilizând instrumentul Link Dimension <img alt="" src=images/LinkDimension.png  style="width:24px;">. <img alt="" src=images/HorizontalSample.png  style="width:200px;">
+Instrumentul pentru cote orizontale adaugă o cotă orizontală unei imagini. Cota poate fi între două vârfuri, lungimea unei muchii sau distanța verticală dintre două margini. Distanța va fi inițial distanța proiectată(adică așa cum este reprezentată în desen), dar această distanță poate fi înlocuită prin distanța 3D reală utilizând instrumentul Link Dimension <img alt="" src=images/LinkDimension.png  style="width   *24px;">. <img alt="" src=images/HorizontalSample.png  style="width   *200px;">
 
 The Horizontal Dimension tool adds a horizontal dimension to a View. The dimension may be between two vertices, the length of one edge or the horizontal distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width:200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width   *200px;"> 
 *Length dimension taken from two arbitrary nodes of the view; the distance is measured horizontally*
 
 ## Cum se folosește 
@@ -36,15 +36,15 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 Cotele orizontale pot fi adăugate la Pages utilizând Python.
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Horizontal Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Horizontal Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "DistanceX"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

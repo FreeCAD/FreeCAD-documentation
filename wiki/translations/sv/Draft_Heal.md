@@ -1,13 +1,13 @@
 # Draft Heal/sv
 ---
-- GuiCommand:/sv   Name:Draft Heal   Name/sv:Draft Heal   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Utilities → Heal---
+- GuiCommand   */sv   Name   *Draft Heal   Name/sv   *Draft Heal   Workbenches   *[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation   *Draft → Utilities → Heal---
 
 
 </div>
 
 ## Description
 
-The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** command heals problematic [Draft](Draft_Workbench.md) objects found in very old files. It tries to recreate the old objects from scratch and transfer their properties to the new objects.
+The <img alt="" src=images/Draft_Heal.svg  style="width   *24px;"> **Draft Heal** command heals problematic [Draft](Draft_Workbench.md) objects found in very old files. It tries to recreate the old objects from scratch and transfer their properties to the new objects.
 
 ## Usage
 

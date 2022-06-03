@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Std SaveAs
-   Name/de:Std SpeichernUnter
-   MenuLocation:Datei → Speichern unter...
-   Workbenches:Alle
-   SeeAlso:[Std KopieSpeichern](Std_SaveCopy/de.md), [Std Speichern](Std_Save/de.md)
+- GuiCommand   */de
+   Name   *Std SaveAs
+   Name/de   *Std SpeichernUnter
+   MenuLocation   *Datei → Speichern unter...
+   Workbenches   *Alle
+   SeeAlso   *[Std KopieSpeichern](Std_SaveCopy/de.md), [Std Speichern](Std_Save/de.md)
 ---
 
 # Std SaveAs/de
@@ -29,12 +29,12 @@ Der Befehl **Std SpeichernUnter** speichert das aktive Dokument unter einem neue
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

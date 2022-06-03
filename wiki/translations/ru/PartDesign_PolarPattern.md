@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name:PartDesign PolarPattern
-   Name/ru:PartDesign PolarPattern
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation:PartDesign -> Круговой массив
+- GuiCommand   */ru
+   Name   *PartDesign PolarPattern
+   Name/ru   *PartDesign PolarPattern
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md), Complete
+   MenuLocation   *PartDesign -> Круговой массив
 ---
 
 # PartDesign PolarPattern/ru
@@ -17,7 +17,7 @@ The **polar pattern** tool takes a chosen feature and creates a set of copies ro
 
 ![](images/PartDesign_PolarPattern_example.png )
 
-*Above: a slot-shaped pocket (B) made on top of a base solid (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
+*Above   * a slot-shaped pocket (B) made on top of a base solid (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
 
 ## Usage
 
@@ -46,7 +46,7 @@ You can change the order by dragging the feature in the list and you will see th
 
 ###### v0.18
 
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
@@ -68,7 +68,7 @@ or
 
 ###### v0.18 
 
-1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md)   *
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be removed and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
@@ -120,7 +120,7 @@ Allows you to select either a DatumLine or an edge of an object or a line of a s
 
 ### Angle and Occurrences 
 
-Specifies the angle to be covered by the pattern, and the total number of pattern shapes (including the original feature). For example, four occurrences in an angle of 180 degrees would give a spacing of 60 degrees between patterns. There is one exception: If the angle is 360 degrees, since first and last occurrence are identical, four occurrences will be spaced 90 degrees apart.
+Specifies the angle to be covered by the pattern, and the total number of pattern shapes (including the original feature). For example, four occurrences in an angle of 180 degrees would give a spacing of 60 degrees between patterns. There is one exception   * If the angle is 360 degrees, since first and last occurrence are identical, four occurrences will be spaced 90 degrees apart.
 
 ## Limitations
 

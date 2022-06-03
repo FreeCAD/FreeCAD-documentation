@@ -1,6 +1,6 @@
 # Robot TrajectoryCompound/it
 ---
-- GuiCommand:/it   Name:Robot TrajectoryCompound   Name/it:Raggruppa traiettorie   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Raggruppa traiettorie---
+- GuiCommand   */it   Name   *Robot TrajectoryCompound   Name/it   *Raggruppa traiettorie   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Raggruppa traiettorie---
 
 
 </div>
@@ -20,7 +20,7 @@ Crea un composto di diverse singole traiettorie.
 
 #### Uso
 
-1.  Cliccare su <img alt="" src=images/Robot_TrajectoryCompound.png  style="width:32px;">
+1.  Cliccare su <img alt="" src=images/Robot_TrajectoryCompound.png  style="width   *32px;">
 2.  Viene creato un oggetto traiettoria composta vuoto
 3.  Passare nella scheda \"Modello\"
 4.  Selezionare gli oggetti Trajectories/Edge2Trac/DressUp nella vista ad albero

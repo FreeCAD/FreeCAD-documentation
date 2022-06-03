@@ -1,12 +1,12 @@
 # PartDesign MoveTip/de
 ---
-- GuiCommand:/de
-   Name:PartDesign MoveTip
-   Name/de:PartDesign VerschiebeSpitze
-   MenuLocation:Contextual menu → Spitze festlegen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Shortcut:None
-   SeeAlso:[Objekt in anderen Körper verschieben](PartDesign_MoveFeature/de.md), [Objekt hinter anderes Objekt verschieben](PartDesign_MoveFeatureInTree/de.md)---
+- GuiCommand   */de
+   Name   *PartDesign MoveTip
+   Name/de   *PartDesign VerschiebeSpitze
+   MenuLocation   *Contextual menu → Spitze festlegen
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Shortcut   *None
+   SeeAlso   *[Objekt in anderen Körper verschieben](PartDesign_MoveFeature/de.md), [Objekt hinter anderes Objekt verschieben](PartDesign_MoveFeatureInTree/de.md)---
 
 
 </div>
@@ -40,7 +40,7 @@ Die Spitze wird im Modellbaum durch einen kleinen weißen Abwärtspfeil in einem
 
 <div class="mw-translate-fuzzy">
 
-\'\' \'Hinweis\' \'\': Es ist wichtig, nicht zu vergessen, die Spitze wieder auf das letzte Merkmal am unteren Rand des Körperbaums zu setzen um weiter zu konstruieren.
+\'\' \'Hinweis\' \'\'   * Es ist wichtig, nicht zu vergessen, die Spitze wieder auf das letzte Merkmal am unteren Rand des Körperbaums zu setzen um weiter zu konstruieren.
 
 
 </div>

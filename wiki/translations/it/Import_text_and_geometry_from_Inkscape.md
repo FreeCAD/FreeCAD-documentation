@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Importare testo e  geometria da Inkscape
-   Level: Base
-   Time: 30 minuti
-   Author:r-frank
-   FCVersion:0.16.6704
-   Files:
+- TutorialInfo   */it
+   Topic   * Importare testo e  geometria da Inkscape
+   Level   * Base
+   Time   * 30 minuti
+   Author   *r-frank
+   FCVersion   *0.16.6704
+   Files   *
 ---
 
 # Import text and geometry from Inkscape/it
@@ -78,7 +78,7 @@ Per queste operazioni sono utilizzati Inkscape 0.91 e FreeCAD 0.16.6704 in Windo
 
 ## Importare geometria da Inkscape 
 
-Dato che Inkscape e FreeCAD sembrano avere approcci diversi sul modo di applicare dimensioni a un oggetto svg, il flusso di lavoro consigliato sembra essere questo:
+Dato che Inkscape e FreeCAD sembrano avere approcci diversi sul modo di applicare dimensioni a un oggetto svg, il flusso di lavoro consigliato sembra essere questo   *
 
 -   separare tutti gli oggetti in Inkscape
 -   selezionare tutti gli oggetti in Inkscape

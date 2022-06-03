@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch Axis
-   Name/es:Ejes de arquitectura
-   MenuLocation:Arquitectura → Ejes
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**A** **X**
+- GuiCommand   */es
+   Name   *Arch Axis
+   Name/es   *Ejes de arquitectura
+   MenuLocation   *Arquitectura → Ejes
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   Shortcut   ***A** **X**
 ---
 
 # Arch Axis/es
@@ -22,7 +22,7 @@ La herramienta Ejes te permite situar un sistema de ejes en el documento actual.
 
 </div>
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Axis_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -69,19 +69,19 @@ La imagen de arriba muestra dos objetos de eje diferentes posicionados perpendic
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Length}}: La longitud de los ejes
+-    {{PropertyData/es|Length}}   * La longitud de los ejes
 
--    {{PropertyView/es|Bubble Size}}: El tamaño de los globos de los ejes
+-    {{PropertyView/es|Bubble Size}}   * El tamaño de los globos de los ejes
 
--    {{PropertyView/es|Numeration style}}: Cómo se numeran los ejes: 1,2,3, A,B,C, etc\...
+-    {{PropertyView/es|Numeration style}}   * Cómo se numeran los ejes   * 1,2,3, A,B,C, etc\...
 
--    {{PropertyView/es|Bubble Position}}: Donde la burbuja se coloca en el eje: En el punto de inicio, punto final, ambos o ninguno.
+-    {{PropertyView/es|Bubble Position}}   * Donde la burbuja se coloca en el eje   * En el punto de inicio, punto final, ambos o ninguno.
 
--    {{PropertyView/es|Font Name}}: Una fuente para dibujar el número de burbuja y/o las etiquetas
+-    {{PropertyView/es|Font Name}}   * Una fuente para dibujar el número de burbuja y/o las etiquetas
 
--    {{PropertyView/es|Font Size}}: El tamaño del texto de la etiqueta solamente (el texto de la burbuja está controlado por el tamaño de la burbuja)
+-    {{PropertyView/es|Font Size}}   * El tamaño del texto de la etiqueta solamente (el texto de la burbuja está controlado por el tamaño de la burbuja)
 
--    {{PropertyView/es|Show Labels}}: Activa/desactiva la visualización de los textos de las etiquetas
+-    {{PropertyView/es|Show Labels}}   * Activa/desactiva la visualización de los textos de las etiquetas
 
 
 </div>
@@ -101,7 +101,7 @@ By setting the **Bubble Position** property to **Arrow left/right** or **Bar lef
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Ejes se puede utilizar en [macros](macros/es.md) y desde la consola por medio de las siguientes funciones:
+La herramienta Ejes se puede utilizar en [macros](macros/es.md) y desde la consola por medio de las siguientes funciones   *
 
 
 </div>
@@ -115,12 +115,12 @@ Axes = makeAxis(num=5, size=1000, name="Axes")
 <div class="mw-translate-fuzzy">
 
 
-:   crea un sistema de ejes basado en el número dado de ejes y distancia de intervalo
+   *   crea un sistema de ejes basado en el número dado de ejes y distancia de intervalo
 
 
 </div>
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python
@@ -151,6 +151,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+ 
+
+[Category   *Arch/es](Category   *Arch/es.md)
 
 
 

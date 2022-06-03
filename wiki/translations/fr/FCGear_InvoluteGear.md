@@ -1,28 +1,28 @@
 ---
-- GuiCommand:/fr
-   Name:FCGear InvoluteGear
-   Name/fr:FCGear InvoluteGear
-   MenuLocation:FCGear → Create an Involute gear
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Shortcut:Aucun
-   Version:v0.16
-   SeeAlso:[FCGear Engrenage cycloïde](FCGear_CycloideGear/fr.md)
+- GuiCommand   */fr
+   Name   *FCGear InvoluteGear
+   Name/fr   *FCGear InvoluteGear
+   MenuLocation   *FCGear → Create an Involute gear
+   Workbenches   *[FCGear](FCGear_Workbench/fr.md)
+   Shortcut   *Aucun
+   Version   *v0.16
+   SeeAlso   *[FCGear Engrenage cycloïde](FCGear_CycloideGear/fr.md)
 ---
 
 # FCGear InvoluteGear/fr
 
 ## Description
 
-En raison du rapport d\'engrènement favorable et de la production relativement simple, l\'engrenage à développante est la forme de dent la plus courante en génie mécanique. Les roues dentées se trouvent partout où le mouvement et la force doivent être transférés d\'une pièce à l\'autre. Par exemple, ils peuvent être trouvés dans des machines, des voitures, des montres ou des appareils électroménagers. Le mouvement est souvent transféré directement d\'une roue dentée à l\'autre, mais parfois aussi via une chaîne. De plus, le sens de rotation peut être modifié. Il est également possible de changer un mouvement radial en un mouvement linéaire via un engrenage à crémaillère (<img alt="" src=images/FCGear_InvoluteRack.svg  style="width:22px;"> [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md)).
+En raison du rapport d\'engrènement favorable et de la production relativement simple, l\'engrenage à développante est la forme de dent la plus courante en génie mécanique. Les roues dentées se trouvent partout où le mouvement et la force doivent être transférés d\'une pièce à l\'autre. Par exemple, ils peuvent être trouvés dans des machines, des voitures, des montres ou des appareils électroménagers. Le mouvement est souvent transféré directement d\'une roue dentée à l\'autre, mais parfois aussi via une chaîne. De plus, le sens de rotation peut être modifié. Il est également possible de changer un mouvement radial en un mouvement linéaire via un engrenage à crémaillère (<img alt="" src=images/FCGear_InvoluteRack.svg  style="width   *22px;"> [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md)).
 
 ![](images/Involute-Gear_example.png ) 
-*De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
+*De gauche à droite   * Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
-2.  Lancez la commande d\'une de ces manières :
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Create an Involute gear](FCGear_InvoluteGear/fr.md) dans la barre d\'outils.
+1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
+2.  Lancez la commande d\'une de ces manières    *
+    -   Appuyez sur le bouton <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *22px;"> [Create an Involute gear](FCGear_InvoluteGear/fr.md) dans la barre d\'outils.
     -   Utilisez **Gear Menu → Involute gear**.
 3.  Modifiez le paramètre de démultiplication aux conditions requises (voir **Propriétés → Données** ci-dessous).
 
@@ -33,66 +33,66 @@ En raison du rapport d\'engrènement favorable et de la production relativement 
 
 {{Properties_Title|Base}}
 
--    **Placement**: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **Placement**   * [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
 
--    **Label**: nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
+-    **Label**   * nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
 
 
 {{Properties_Title|computed}}
 
 (Toutes les propriétés de ce groupe sont calculées automatiquement et donc en lecture seule)
 
--    **da**: Diamètre extérieur, mesuré à l\'addendum (la pointe des dents).
+-    **da**   * Diamètre extérieur, mesuré à l\'addendum (la pointe des dents).
 
--    **df**: Diamètre de la racine, mesuré au pied des dents.
+-    **df**   * Diamètre de la racine, mesuré au pied des dents.
 
--    **dw**: Diamètre du pas de travail.
+-    **dw**   * Diamètre du pas de travail.
 
--    **transverse_pitch**: Pas dans le plan de rotation.
+-    **transverse_pitch**   * Pas dans le plan de rotation.
 
 
 {{Properties_Title|gear_parameter}}
 
--    **beta**: avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé: valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir aussi les informations dans **Remarques**).
+-    **beta**   * avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé   * valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir aussi les informations dans **Remarques**).
 
--    **clearance**: valeur par défaut est 0,25 (voir aussi les informations dans **Remarques**).
+-    **clearance**   * valeur par défaut est 0,25 (voir aussi les informations dans **Remarques**).
 
--    **double_gear**: {{Emphasis | True}} crée un engrenage à double hélice (voir aussi les informations dans **Remarques**).
+-    **double_gear**   * {{Emphasis | True}} crée un engrenage à double hélice (voir aussi les informations dans **Remarques**).
 
--    **head**: valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur des dents.
+-    **head**   * valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur des dents.
 
--    **height**: valeur de la largeur de l\'engrenage.
+-    **height**   * valeur de la largeur de l\'engrenage.
 
--    **module**: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarques**).
+-    **module**   * module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarques**).
 
--    **properties_from_tool**: si l\'angle d\'hélice β est donné et que **properties_from-tool** est activé, les paramètres d\'engrenage sont recalculés en interne pour l\'engrenage tourné.
+-    **properties_from_tool**   * si l\'angle d\'hélice β est donné et que **properties_from-tool** est activé, les paramètres d\'engrenage sont recalculés en interne pour l\'engrenage tourné.
 
--    **shift**: valeur par défaut est 0,00, génère un décalage de profil positif et négatif (voir aussi les informations dans **Remarques**).
+-    **shift**   * valeur par défaut est 0,00, génère un décalage de profil positif et négatif (voir aussi les informations dans **Remarques**).
 
--    **teeth**: nombre de dents (voir aussi les informations dans **Remarques**).
+-    **teeth**   * nombre de dents (voir aussi les informations dans **Remarques**).
 
--    **undercut**: **True** modifie le profil de la racine de la dent (voir aussi les informations dans **Remarques**).
+-    **undercut**   * **True** modifie le profil de la racine de la dent (voir aussi les informations dans **Remarques**).
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pressure_angle**: valeur par défaut 20° (voir aussi les informations dans les **Remarques**).
+-    **pressure_angle**   * valeur par défaut 20° (voir aussi les informations dans les **Remarques**).
 
 
 {{Properties_Title|precision}}
 
 .
 
--    **numpoints**: La valeur par défaut est 6, changement du profil de la développante. Changer la valeur peut conduire à des résultats inattendus.
+-    **numpoints**   * La valeur par défaut est 6, changement du profil de la développante. Changer la valeur peut conduire à des résultats inattendus.
 
--    **simple**: **True** génère un affichage simplifié (sans dents et seulement un cylindre en diamètre primitif).
+-    **simple**   * **True** génère un affichage simplifié (sans dents et seulement un cylindre en diamètre primitif).
 
 
 {{Properties_Title|tolerance}}
 
--    **backslash**: valeur par défaut est 0.00. Le contrecoup, également appelé claquement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
+-    **backslash**   * valeur par défaut est 0.00. Le contrecoup, également appelé claquement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
 
--    **reversed_backslash**: **True** diminution du jeu ou **False** augmentation du jeu (voir aussi les informations dans les **Remarques**).
+-    **reversed_backslash**   * **True** diminution du jeu ou **False** augmentation du jeu (voir aussi les informations dans les **Remarques**).
 
 ### Vue
 
@@ -100,27 +100,27 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 ## Remarques
 
--    **beta**: lorsque **beta** est modifié, le **diamètre primitif** change également. La formule suivante illustre l\'interaction des paramètres: d = m \* Z / cos beta (Z = nombre de dents, d = diamètre primitif, m = module). Cela signifie pour l\'engrenage droit: cos beta = 0 et pour l\'engrenage hélicoïdal: cos beta\> 0. Cependant un angle d\'hélice inférieur à 10° n\'a guère d\'avantages par rapport aux dents droites.
+-    **beta**   * lorsque **beta** est modifié, le **diamètre primitif** change également. La formule suivante illustre l\'interaction des paramètres   * d = m \* Z / cos beta (Z = nombre de dents, d = diamètre primitif, m = module). Cela signifie pour l\'engrenage droit   * cos beta = 0 et pour l\'engrenage hélicoïdal   * cos beta\> 0. Cependant un angle d\'hélice inférieur à 10° n\'a guère d\'avantages par rapport aux dents droites.
 
--    **clearance**: sur une paire d\'engrenages, le jeu est la distance entre l\'extrémité de la dent du premier engrenage et la racine de la dent du deuxième engrenage.
+-    **clearance**   * sur une paire d\'engrenages, le jeu est la distance entre l\'extrémité de la dent du premier engrenage et la racine de la dent du deuxième engrenage.
 
--    **double_gear**: pour utiliser le double engrenage hélicoïdal, l\'angle d\'hélice β (**beta**) pour l\'engrenage hélicoïdal doit d\'abord être entré.
+-    **double_gear**   * pour utiliser le double engrenage hélicoïdal, l\'angle d\'hélice β (**beta**) pour l\'engrenage hélicoïdal doit d\'abord être entré.
 
--    **module**: en utilisant les directives ISO (Organisation internationale de normalisation), la taille du module est désignée comme l\'unité représentant la taille des dents des engrenages. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Si vous multipliez Module par Pi, vous pouvez obtenir Pitch (p) (le pas). Le pas est la distance entre les points correspondants sur les dents adjacentes.
+-    **module**   * en utilisant les directives ISO (Organisation internationale de normalisation), la taille du module est désignée comme l\'unité représentant la taille des dents des engrenages. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Si vous multipliez Module par Pi, vous pouvez obtenir Pitch (p) (le pas). Le pas est la distance entre les points correspondants sur les dents adjacentes.
 
--    **shift**: le décalage de profil n\'est pas simplement utilisé pour empêcher la contre-dépouille. Il peut être utilisé pour régler la distance centrale entre deux vitesses. Si une correction positive est appliquée, de manière à éviter la contre-dépouille dans un pignon, l\'épaisseur de la dent en haut est plus fine.
+-    **shift**   * le décalage de profil n\'est pas simplement utilisé pour empêcher la contre-dépouille. Il peut être utilisé pour régler la distance centrale entre deux vitesses. Si une correction positive est appliquée, de manière à éviter la contre-dépouille dans un pignon, l\'épaisseur de la dent en haut est plus fine.
 
--    **teeth**: Si le nombre de dents est modifié, le diamètre primitif change également (**dw**).
+-    **teeth**   * Si le nombre de dents est modifié, le diamètre primitif change également (**dw**).
 
--    **undercut**: Undercut est utilisé lorsque le nombre de dents d\'un engrenage est trop petit. Dans le cas contraire, l\'accouplement coupera dans la racine de la dent. La contre-dépouille affaiblit non seulement la dent avec une taille de guêpe, mais supprime également une partie de la développante utile adjacente au cercle de base.
+-    **undercut**   * Undercut est utilisé lorsque le nombre de dents d\'un engrenage est trop petit. Dans le cas contraire, l\'accouplement coupera dans la racine de la dent. La contre-dépouille affaiblit non seulement la dent avec une taille de guêpe, mais supprime également une partie de la développante utile adjacente au cercle de base.
 
--    **pressure_angle**: 20° est une valeur standard ici. L\'angle de pression est défini comme l\'angle entre la ligne d\'action (tangente commune aux cercles de base) et une perpendiculaire à la ligne de centre. Ainsi, pour les engrenages standard, les engrenages à angle de pression de 14,5° ont des cercles de base beaucoup plus proches des racines des dents que les engrenages à 20°. C\'est pour cette raison que les engrenages de 14,5° rencontrent des problèmes de sous-coupe plus importants que les engrenages de 20°. Important. l\'angle de pression change avec un changement de profil. ne modifiez le paramètre que si une connaissance suffisante de la géométrie de l\'engrenage est disponible.
+-    **pressure_angle**   * 20° est une valeur standard ici. L\'angle de pression est défini comme l\'angle entre la ligne d\'action (tangente commune aux cercles de base) et une perpendiculaire à la ligne de centre. Ainsi, pour les engrenages standard, les engrenages à angle de pression de 14,5° ont des cercles de base beaucoup plus proches des racines des dents que les engrenages à 20°. C\'est pour cette raison que les engrenages de 14,5° rencontrent des problèmes de sous-coupe plus importants que les engrenages de 20°. Important. l\'angle de pression change avec un changement de profil. ne modifiez le paramètre que si une connaissance suffisante de la géométrie de l\'engrenage est disponible.
 
--    **reversed_backslash**: s\'il y a plusieurs vitesses, faites attention à la vitesse pour laquelle le paramètre est réglé.
+-    **reversed_backslash**   * s\'il y a plusieurs vitesses, faites attention à la vitesse pour laquelle le paramètre est réglé.
 
 ## Limitations
 
-Un profil de dent en 2D, obtenu en fixant la valeur de **height** à zéro, ne peut pas être utilisé avec des caractéristiques nécessitant une forme en 2D. Par exemple, les fonctions [PartDesign Protrusion](PartDesign_Pad/fr.md) et [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md) n\'acceptent pas un tel profil comme base. Pour les détails techniques, veuillez vous reporter à la question connexe [issue on GitHub](https://github.com/looooo/freecad.gears/issues/97).
+Un profil de dent en 2D, obtenu en fixant la valeur de **height** à zéro, ne peut pas être utilisé avec des caractéristiques nécessitant une forme en 2D. Par exemple, les fonctions [PartDesign Protrusion](PartDesign_Pad/fr.md) et [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md) n\'acceptent pas un tel profil comme base. Pour les détails techniques, veuillez vous reporter à la question connexe [issue on GitHub](https   *//github.com/looooo/freecad.gears/issues/97).
 
 ## Formules utiles 
 
@@ -157,7 +157,7 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
 |          |                                                 | Pour les engrenages standards, $x = 0$ |                                             |
 +++++
 
-: style=\"text-align: left;\" \| Formules de base communes aux engrenages cylindriques standard internes et externes
+   * style=\"text-align   * left;\" \| Formules de base communes aux engrenages cylindriques standard internes et externes
 
 ++++
 | Symbole | Terme                     | Formule                                |
@@ -169,7 +169,7 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
 |         |                           | Typiquement, $d_f = (z - 2.5) \cdot m$ |
 ++++
 
-: style=\"text-align: left;\" \| Formules de base spécifiques aux engrenages cylindriques externes standard
+   * style=\"text-align   * left;\" \| Formules de base spécifiques aux engrenages cylindriques externes standard
 
 ++++
 | Symbole | Terme                     | Formule                                |
@@ -181,7 +181,7 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
 |         |                           | Typiquement, $d_f = (z + 2.5) \cdot m$ |
 ++++
 
-: style=\"text-align: left;\" \| Formules de base spécifiques aux engrenages cylindriques standard internes
+   * style=\"text-align   * left;\" \| Formules de base spécifiques aux engrenages cylindriques standard internes
 
 ++++
 | Symbole | Terme                           | Formule                         |
@@ -193,18 +193,18 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
 |         |                                 | Typiquement, $c = 0.25 \cdot m$ |
 ++++
 
-: style=\"text-align: left;\" \| Formules de base spécifiques à une paire d\'engrenages cylindriques standard externes
+   * style=\"text-align   * left;\" \| Formules de base spécifiques à une paire d\'engrenages cylindriques standard externes
 
 -   **Engrenage hélicoïdal et double hélice**
     -   
         **pitch diameter (dw)**
         
-        = **module** \* **teeth** : **cos beta**
+        = **module** \* **teeth**    * **cos beta**
 
     -   
         **axle base**
         
-        = **(pitch diameter (dw) 1 + 2)** : 2
+        = **(pitch diameter (dw) 1 + 2)**    * 2
 
     -   
         **addendum diameter**
@@ -214,11 +214,11 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
     -   
         **module**
         
-        = **pitch diameter (dw)** \* **cos beta** : **teeth**
+        = **pitch diameter (dw)** \* **cos beta**    * **teeth**
 
 ## Script
 
-Utilisez la puissance de Python pour automatiser la modélisation de votre engrenage: 
+Utilisez la puissance de Python pour automatiser la modélisation de votre engrenage   * 
 ```python
 import FreeCAD as App
 import freecad.gears.commands
@@ -230,6 +230,11 @@ gear.double_helix = True
 App.ActiveDocument.recompute()
 Gui.SendMsgToActiveView("ViewFit")
 ```
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

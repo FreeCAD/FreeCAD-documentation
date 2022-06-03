@@ -70,6 +70,11 @@ print v3.Length
 {{APIProperty|z|coordonata z a vectorului}}
 
 
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
+
+
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Vector API/ro

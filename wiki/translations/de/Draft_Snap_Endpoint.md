@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Draft Endpoint
-   Name/de:Entwurf Endpunkt
-   MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Endpunkt
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
+- GuiCommand   */de
+   Name   *Draft Endpoint
+   Name/de   *Entwurf Endpunkt
+   MenuLocation   *Entwurf → [Objektfang](Draft_Snap/de.md) → Endpunkt
+   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso   *[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Endpoint/de

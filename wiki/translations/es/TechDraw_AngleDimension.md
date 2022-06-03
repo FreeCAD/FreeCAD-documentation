@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:TechDraw Dimension Angle
-   Name/es:TechDraw Dimensión Ángulo
-   MenuLocation:TechDraw → Dimensión Ángulo
-   Workbenches:[TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso:[TechDraw Dimensión Ángulo3Ps](TechDraw_3PtAngleDimension/es.md)
+- GuiCommand   */es
+   Name   *TechDraw Dimension Angle
+   Name/es   *TechDraw Dimensión Ángulo
+   MenuLocation   *TechDraw → Dimensión Ángulo
+   Workbenches   *[TechDraw](TechDraw_Workbench/es.md)
+   SeeAlso   *[TechDraw Dimensión Ángulo3Ps](TechDraw_3PtAngleDimension/es.md)
 ---
 
 # TechDraw AngleDimension/es
@@ -16,7 +16,7 @@
 
 The Angle Dimension tool adds a angular dimension to a View. The dimension may be the interior angle between any two straight line edges. The angle will initially be the projected angle (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
-<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width:200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width   *200px;"> 
 *Measuring the angle between two straight lines*
 
 ## Utilización
@@ -39,15 +39,15 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Angle Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Angle Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "Angle"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

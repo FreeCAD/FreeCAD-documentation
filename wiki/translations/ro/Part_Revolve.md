@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Part Revolve
-   Name/ro:Part Revolve
-   MenuLocation:Part → Revolve
-   Workbenches:[Part](Part_Workbench/ro.md), Complete
-   SeeAlso:
+- GuiCommand   */ro
+   Name   *Part Revolve
+   Name/ro   *Part Revolve
+   MenuLocation   *Part → Revolve
+   Workbenches   *[Part](Part_Workbench/ro.md), Complete
+   SeeAlso   *
 ---
 
 # Part Revolve/ro
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Se rotește obiectul selectat în jurul unei axe date. Următoarele tipuri de forme sunt permise și conduc la formele de ieșire listate ([See Notes for exceptions](#Notes.md)):
+Se rotește obiectul selectat în jurul unei axe date. Următoarele tipuri de forme sunt permise și conduc la formele de ieșire listate ([See Notes for exceptions](#Notes.md))   *
 
 
 </div>
@@ -51,7 +51,7 @@ Argumentul Unghi specifică cât de departe trebuie să se rotească obiectul. c
 
 <div class="mw-translate-fuzzy">
 
-If you select a user defined axis, the numbers define the direction of the revolving axis with respect to the coordinate system: If the Z coordinate is 0 and the Y and X coordinate are non-zero, then the axis will lie in the X-Y-plane. Its angle is such that its tangent is the ratio of the given X and Y coordinates.
+If you select a user defined axis, the numbers define the direction of the revolving axis with respect to the coordinate system   * If the Z coordinate is 0 and the Y and X coordinate are non-zero, then the axis will lie in the X-Y-plane. Its angle is such that its tangent is the ratio of the given X and Y coordinates.
 
 
 </div>

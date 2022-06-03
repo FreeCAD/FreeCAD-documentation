@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw_ClipGroup
-   Name/it:Gruppo di clip
-   MenuLocation:TechDraw → Gruppo di clip
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md), [Rimuovi la vista dal gruppo clip](TechDraw_ClipGroupRemove/it.md)
+- GuiCommand   */it
+   Name   *TechDraw_ClipGroup
+   Name/it   *Gruppo di clip
+   MenuLocation   *TechDraw → Gruppo di clip
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md), [Rimuovi la vista dal gruppo clip](TechDraw_ClipGroupRemove/it.md)
 ---
 
 # TechDraw ClipGroup/it
@@ -31,15 +31,15 @@ Questo strumento crea una finestra di ritaglio che può contenere una o più vis
 
 ## Proprietà
 
--    **Width**: La larghezza della finestra di ritaglio in unità
+-    **Width**   * La larghezza della finestra di ritaglio in unità
 
--    **Height**: L\'altezza della finestra di ritaglio in unità
+-    **Height**   * L\'altezza della finestra di ritaglio in unità
 
--    **ShowFrame**: Quando è vero, mostra una cornice attorno alla finestra di ritaglio
+-    **ShowFrame**   * Quando è vero, mostra una cornice attorno alla finestra di ritaglio
 
--    **ShowLabels**: Quando è vero, mostra le etichette delle viste all\'interno della finestra di ritaglio. **NOTA:** rimosso in v0.19.
+-    **ShowLabels**   * Quando è vero, mostra le etichette delle viste all\'interno della finestra di ritaglio. **NOTA   *** rimosso in v0.19.
 
--    **Views**: Le viste contenute nella finestra di ritaglio
+-    **Views**   * Le viste contenute nella finestra di ritaglio
 
 
 <div class="mw-translate-fuzzy">

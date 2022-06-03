@@ -1,6 +1,8 @@
 # Category:External Workbenches/ja
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
+[Category   *Workbenches/ja](Category   *Workbenches/ja.md) [Category   *Addons/ja](Category   *Addons/ja.md)
+
 ### Contents
 
 |     |     |     |

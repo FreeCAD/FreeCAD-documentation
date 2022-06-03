@@ -1,16 +1,13 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher CreateFillet
-   Name/de:Skizzierer ErstelleVerrundung
-   MenuLocation:Skizze → Skizzierergeometrien → Verrundung erstellen
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut:F
+- GuiCommand   */de
+   Name   *Sketcher CreateFillet
+   Name/de   *Sketcher VerrundungErstellen
+   MenuLocation   *Sketch → Skizzengeometrie → Verrundung erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **F** **F**
 ---
 
 # Sketcher CreateFillet/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -25,7 +22,7 @@ Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert
 
 <div class="mw-translate-fuzzy">
 
-1.  Drücke die **[<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [VerrundungErzeugen](Sketcher_CreateFillet/de.md)** Schaltfläche.
+1.  Drücke die **[<img src=images/Sketcher_CreateFillet.svg style="width   *16px"> [VerrundungErzeugen](Sketcher_CreateFillet/de.md)** Schaltfläche.
 2.  Wähle einen Knoten, der zwei Linien verbindet; oder klicke auf zwei verbundene Linien, der Abstand, den du vom Knoten klickst, legt den Verrundungsradius fest.
 3.  Drücke **Esc** oder klicke mit der rechten Maustaste, um die Funktion abzubrechen oder zu beenden.
 
@@ -33,13 +30,7 @@ Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Std ToggleSelectability
-   Name/fr:Std Basculer la sélectivité
-   MenuLocation:Affichage → Visibilité → Basculer la sélectivité
-   Workbenches:Tous
+- GuiCommand   */fr
+   Name   *Std ToggleSelectability
+   Name/fr   *Std Basculer la sélectivité
+   MenuLocation   *Affichage → Visibilité → Basculer la sélectivité
+   Workbenches   *Tous
 ---
 
 # Std ToggleSelectability/fr
@@ -15,7 +15,7 @@ La commande **Std Basculer la sélectivité** bascule la sélectionnabilité des
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité** dans le menu contextuel de la [vue en arborescence](tree_view/fr.md). Cette option n\'est pas disponible dans l\'[Atelier PartDesign](PartDesign_Workbench.md).
     -   Sélectionnez l\'option **<img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité** dans le menu contextuel de la vue 3D.
@@ -27,7 +27,7 @@ La commande **Std Basculer la sélectivité** bascule la sélectionnabilité des
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
@@ -39,9 +39,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Selectable == True:
+if obj.Selectable == True   *
   obj.Selectable = False
-else:
+else   *
   obj.Selectable = True
 ```
 

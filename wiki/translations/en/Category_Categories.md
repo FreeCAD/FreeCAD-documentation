@@ -1,6 +1,8 @@
 # Category:Categories/en
 This page lists all categories with the en language tag.
 
+[Category   *Categories/en](Category   *Categories/en.md)
+
 ### Contents
 
 |     |     |     |

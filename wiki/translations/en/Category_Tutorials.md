@@ -38,10 +38,11 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [TechDraw Pitch Circle Tutorial/en](wiki/TechDraw Pitch Circle Tutorial/en.md) | [TechDraw TemplateGenerator/en](wiki/TechDraw TemplateGenerator/en.md) | [TechDraw TemplateHowTo/en](wiki/TechDraw TemplateHowTo/en.md) |
 | [Thread for Screw Tutorial/en](wiki/Thread for Screw Tutorial/en.md) | [Toothbrush Head Stand/en](wiki/Toothbrush Head Stand/en.md) | [Transient FEM analysis/en](wiki/Transient FEM analysis/en.md) |
 | [Tutorial custom placing of windows and doors/en](wiki/Tutorial custom placing of windows and doors/en.md) | [Tutorial for open windows/en](wiki/Tutorial for open windows/en.md) | [Tutorial FreeCAD POV ray/en](wiki/Tutorial FreeCAD POV ray/en.md) |
-| [Tutorial Render with Blender/en](wiki/Tutorial Render with Blender/en.md) | [Template:TutorialInfo/en](wiki/Template_TutorialInfo/en.md) | [Tutorials/en](wiki/Tutorials/en.md) |
-| [Video tutorials for architectural design/en](wiki/Video tutorials for architectural design/en.md) | [Video tutorials for product design/en](wiki/Video tutorials for product design/en.md) | [Video tutorials obsolete/en](wiki/Video tutorials obsolete/en.md) |
-| [Video tutorials/en](wiki/Video tutorials/en.md) | [VRML Preparation for Robot Simulation/en](wiki/VRML Preparation for Robot Simulation/en.md) | [Whiffle Ball tutorial/en](wiki/Whiffle Ball tutorial/en.md) |
-| [Wikihouse porting tutorial/en](wiki/Wikihouse porting tutorial/en.md) |
+| [Tutorial KinematicAssembly/en](wiki/Tutorial KinematicAssembly/en.md) | [Tutorial KinematicController/en](wiki/Tutorial KinematicController/en.md) | [Tutorial Render with Blender/en](wiki/Tutorial Render with Blender/en.md) |
+| [Template:TutorialInfo/en](wiki/Template_TutorialInfo/en.md) | [Tutorials/en](wiki/Tutorials/en.md) | [Video tutorials for architectural design/en](wiki/Video tutorials for architectural design/en.md) |
+| [Video tutorials for product design/en](wiki/Video tutorials for product design/en.md) | [Video tutorials obsolete/en](wiki/Video tutorials obsolete/en.md) | [Video tutorials/en](wiki/Video tutorials/en.md) |
+| [VRML Preparation for Robot Simulation/en](wiki/VRML Preparation for Robot Simulation/en.md) | [Whiffle Ball tutorial/en](wiki/Whiffle Ball tutorial/en.md) | [Wikihouse porting tutorial/en](wiki/Wikihouse porting tutorial/en.md) |
+|
 
 
 

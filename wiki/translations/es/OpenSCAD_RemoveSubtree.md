@@ -1,6 +1,6 @@
 # OpenSCAD RemoveSubtree/es
 ---
-- GuiCommand:/es   Name:OpenSCAD RemoveSubtree   Name/es:OpenSCAD RemoveSubtree   MenuLocation:OpenSCAD → RemoveSubtree‏‎   |Workbenches:[[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand   */es   Name   *OpenSCAD RemoveSubtree   Name/es   *OpenSCAD RemoveSubtree   MenuLocation   *OpenSCAD → RemoveSubtree‏‎   |Workbenches   *[[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -12,7 +12,7 @@ Removes the selected objects and all children that are not referenced from other
 ## Usage
 
 1.  Select object(s) to remove.
-2.  Click on <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> or choose **OpenSCAD** → **<img src="images/OpenSCAD_RemoveSubtree.svg" width=32px> Remove Objects and their children** from the top menu.
+2.  Click on <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width   *32px;"> or choose **OpenSCAD** → **<img src="images/OpenSCAD_RemoveSubtree.svg" width=32px> Remove Objects and their children** from the top menu.
 
 ## Limitations
 

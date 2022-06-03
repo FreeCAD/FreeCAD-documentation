@@ -1,6 +1,8 @@
 # Category:EM
 This category list pages related to the [EM Workbench](EM_Workbench.md) which is one of the [external workbenches](external_workbenches.md).
 
+[Category   *External Workbenches](Category_External_Workbenches.md)
+
 ### Contents
 
 |     |     |     |

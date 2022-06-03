@@ -1,24 +1,22 @@
 ---
-- GuiCommand:
-   Name:Part Compound‏‎
-   MenuLocation:Part → Make compound
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.14
-   SeeAlso:[Part Fuse](Part_Fuse.md), [Part CompoundFilter](Part_CompoundFilter.md), [Part ExplodeCompound](Part_ExplodeCompound.md)
+- GuiCommand   *
+   Name   *Part Compound‏‎
+   MenuLocation   *Part → Make compound
+   Workbenches   *[Part](Part_Workbench.md)
+   Version   *0.14
+   SeeAlso   *[Part Fuse](Part_Fuse.md), [Part CompoundFilter](Part_CompoundFilter.md), [Part ExplodeCompound](Part_ExplodeCompound.md)
 ---
 
 # Part Compound
 
 ## Description
 
-This command creates a compound of any kind of topological shapes. These can be solids or meshes or any other kind of topological shapes.
-
-A compound is a set of shapes grouped into one object.
+This command creates a compound of objects with a topological shape such as solid objects and other objects with faces and/or edges. It cannot handle meshes as they do not have a topological shape.
 
 ## Usage
 
 1.  Mark the topological shapes to be added to the compound in the [tree view](Tree_view.md)
-2.  Choose **Part → Compound → Make Compound** entry in the Part menu or click on the <img alt="" src=images/Part_Compound.svg  style="width:24px;"> button.
+2.  Choose **Part → Compound → Make Compound** entry in the Part menu or click on the <img alt="" src=images/Part_Compound.svg  style="width   *24px;"> button.
 
 ## Notes
 

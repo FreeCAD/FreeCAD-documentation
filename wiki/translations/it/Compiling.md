@@ -4,7 +4,7 @@
 Ogni sistema operativo ha la sua pagina per la compilazione di FreeCAD nella [documentazione online](Online_Help_Toc/it.md).
 
      
-     <img alt="" src=images/Windows.png  style="width:" height="32px;">       <img alt="" src=images/Linux.png  style="width:" height="32px;">         <img alt="" src=images/Mac.png  style="width:" height="32px;">       <img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">
+     <img alt="" src=images/Windows.png  style="width   *" height="32px;">       <img alt="" src=images/Linux.png  style="width   *" height="32px;">         <img alt="" src=images/Mac.png  style="width   *" height="32px;">       <img alt="" src=images/Docker_logo_FreeCAD.svg  style="width   *" height="32px;">
    [Compilare in Windows](Compile_on_Windows/it.md)   [Compilare in Linux](Compile_on_Linux/it.md)   [Compilare in MacOS](Compile_on_MacOS/it.md)              [Compilare in Docker](Compile_on_Docker/it.md)
      
 
@@ -44,6 +44,11 @@ Per imparare a usare il sistema di controllo di revisione e contribuire con il c
 
 
 </div>
+
+
+
+
+[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

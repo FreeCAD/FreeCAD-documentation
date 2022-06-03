@@ -1,32 +1,32 @@
 ---
-- GuiCommand:/pl
-   Name:Draft Ellipse
-   Name/pl:Draft: Elipsa
-   MenuLocation:Kreślenie → Elipsa
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**E** **L**
-   Version:0.7
+- GuiCommand   */pl
+   Name   *Draft Ellipse
+   Name/pl   *Draft   * Elipsa
+   MenuLocation   *Kreślenie → Elipsa
+   Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut   ***E** **L**
+   Version   *0.7
 ---
 
 # Draft Ellipse/pl
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> **Elipsa** tworzy elipsę w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) z dwóch punktów definiujących prostokąt, w którym zmieści się elipsa.
+Polecenie <img alt="" src=images/Draft_Ellipse.svg  style="width   *24px;"> **Elipsa** tworzy elipsę w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) z dwóch punktów definiujących prostokąt, w którym zmieści się elipsa.
 
 Rysunek elipsy można przekształcić w łuk eliptyczny, ustawiając jego właściwości {{PropertyData/pl|Kąt Pierwszy}} i {{PropertyData/pl|Kąt Ostatni}} na odmienne wartości.
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;"> 
 *Elipsa zdefiniowana przez narożniki prostokąta*
 
 ## Użycie
 
 Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
-1.  Istnieje kilka sposobów na wywołanie polecenia:
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
     -   Naciśnij przycisk **<img src="images/Draft_Ellipse.svg" width=16px> [Elipsa](Draft_Ellipse/pl.md)**.
     -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Ellipse.svg" width=16px> Elipsa**.
-    -   Użyj skrótu klawiaturowego: **E**, a następnie **L**.
+    -   Użyj skrótu klawiaturowego   * **E**, a następnie **L**.
 2.  Otworzy się panel zadań **Elipsa**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**. Ten punkt nie może być związany z osią X, Y lub Z.
@@ -49,47 +49,47 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony   * [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
--   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych   * **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zmienić wartość początkową trybu wypełnienia   * **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
 -   Jeśli opcja **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [Elipsę](Part_Ellipse/pl.md) środowiska Część, zamiast środowiska Rysunek Roboczy.
 
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zobacz również stronę   * [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Elipsa wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Elipsa wywodzi się z obiektu [Część   * Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości   *
 
 ### Dane
 
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    {{PropertyData/pl|Obszar|Area}}: (tylko do odczytu) określa pole powierzchni lica elipsy. Wartość będzie równa {{value|0.0}}, jeśli {{PropertyData/pl|Utwórz ścianę}} ma wartość `False` lub powierzchnia nie może zostać utworzona.
+-    {{PropertyData/pl|Obszar|Area}}   * (tylko do odczytu) określa pole powierzchni lica elipsy. Wartość będzie równa {{value|0.0}}, jeśli {{PropertyData/pl|Utwórz ścianę}} ma wartość `False` lub powierzchnia nie może zostać utworzona.
 
--    {{PropertyData/pl|Kąt pierwszy|Angle}}: określa kąt pierwszego punktu elipsy, zwykle {{value|0&#176;}}.
+-    {{PropertyData/pl|Kąt pierwszy|Angle}}   * określa kąt pierwszego punktu elipsy, zwykle {{value|0&#176;}}.
 
--    {{PropertyData/pl|Kąt ostatni|Angle}}: określa kąt ostatniego punktu elipsy, zwykle {{value|0&#176;}}.
+-    {{PropertyData/pl|Kąt ostatni|Angle}}   * określa kąt ostatniego punktu elipsy, zwykle {{value|0&#176;}}.
 
--    {{PropertyData/pl|Promień główny|Length}}: określa promień główny elipsy.
+-    {{PropertyData/pl|Promień główny|Length}}   * określa promień główny elipsy.
 
--    {{PropertyData/pl|Utwórz ścianę|Bool}}: określa, czy elipsa ma tworzyć ścianę, czy nie. Jeśli ma wartość `True` tworzona jest powierzchnia, w przeciwnym razie tylko obwód jest traktowany jako część obiektu. Ta właściwość działa tylko jeśli kształt jest pełną elipsą.
+-    {{PropertyData/pl|Utwórz ścianę|Bool}}   * określa, czy elipsa ma tworzyć ścianę, czy nie. Jeśli ma wartość `True` tworzona jest powierzchnia, w przeciwnym razie tylko obwód jest traktowany jako część obiektu. Ta właściwość działa tylko jeśli kształt jest pełną elipsą.
 
--    {{PropertyData/pl|Promień mniejszy|Length}}: określa promień mniejszy elipsy.
+-    {{PropertyData/pl|Promień mniejszy|Length}}   * określa promień mniejszy elipsy.
 
 ### Widok
 
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    {{PropertyView/pl|Wzór|Enumeration}}: określa [wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia elipsy. Ta właściwość działa tylko wtedy, gdy {{PropertyData/pl|Utwórz ścianę}} ma wartość `True` i gdy {{PropertyView/pl|Tryb wyświetlania}} ma wartość {{value|Linie płaskie}}.
+-    {{PropertyView/pl|Wzór|Enumeration}}   * określa [wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia elipsy. Ta właściwość działa tylko wtedy, gdy {{PropertyData/pl|Utwórz ścianę}} ma wartość `True` i gdy {{PropertyView/pl|Tryb wyświetlania}} ma wartość {{value|Linie płaskie}}.
 
--    {{PropertyView/pl|Rozmiar wzoru|Float}}: określa rozmiar [wzoru](Draft_Pattern/pl.md).
+-    {{PropertyView/pl|Rozmiar wzoru|Float}}   * określa rozmiar [wzoru](Draft_Pattern/pl.md).
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć Elipsę użyj metody `make_ellipse` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeEllipse`.
 
@@ -103,7 +103,7 @@ ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=
 -   Jeśli `placement` ma wartość `None`, elipsa zostanie utworzona w punkcie początkowym.
 -   Jeśli `face` ma wartość `True`, elipsa zostanie utworzona jako powierzchnia, czyli będzie wyglądać na wypełnioną.
 
-Przykład:
+Przykład   *
 
 
 ```python

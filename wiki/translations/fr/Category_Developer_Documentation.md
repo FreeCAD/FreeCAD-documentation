@@ -1,7 +1,9 @@
 # Category:Developer Documentation/fr
-# Catégorie : Documentation développeur 
+# Catégorie    * Documentation développeur 
 
 Cette catégorie rassemble les articles de documentation s\'adressant surtout aux programmeurs.
+
+[Category   *Documentation/fr](Category   *Documentation/fr.md)
 
 ### Contents
 

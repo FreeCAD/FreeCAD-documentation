@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:OpenSCAD ExplodeGroup
-   Name/ru:OpenSCAD ExplodeGroup
-   MenuLocation:OpenSCAD → Расчленить Группу
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   Shortcut:нет
-   SeeAlso:---
+- GuiCommand   */ru
+   Name   *OpenSCAD ExplodeGroup
+   Name/ru   *OpenSCAD ExplodeGroup
+   MenuLocation   *OpenSCAD → Расчленить Группу
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/ru.md)
+   Shortcut   *нет
+   SeeAlso   *---
 ---
 
 # OpenSCAD ExplodeGroup/ru
@@ -20,7 +20,7 @@
 ## Usage
 
 1.  Select fusion/compound to be exploded
-2.  Click on <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width:32px;"> or choose **OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Explode Group** from the top menu.
+2.  Click on <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width   *32px;"> or choose **OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Explode Group** from the top menu.
 
 ## Limitations
 

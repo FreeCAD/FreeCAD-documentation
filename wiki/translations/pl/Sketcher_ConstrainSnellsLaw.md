@@ -1,20 +1,20 @@
 ---
-- GuiCommand:/pl
-   Name:Sketcher ConstrainSnellsLaw
-   Name/pl:Szkicownik: Wiązanie prawo Snella
-   MenuLocation:Szkicownik → Wiązania Szkicownika → Wiązanie refrakcji (prawo Snell'a)
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**K** **W**
-   Version:0.15
+- GuiCommand   */pl
+   Name   *Sketcher ConstrainSnellsLaw
+   Name/pl   *Szkicownik   * Wiązanie prawo Snella
+   MenuLocation   *Szkicownik → Wiązania Szkicownika → Wiązanie refrakcji (prawo Snell'a)
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut   ***K** **W**
+   Version   *0.15
 ---
 
 # Sketcher ConstrainSnellsLaw/pl
 
 ## Opis
 
-Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, które przenika przez powierzchnię, gdzie spotykają się dwa materiały o różnych współczynnikach załamania. Zobacz [Prawo Snell\'a](http://en.wikipedia.org/wiki/Snell%27s_law) na Wikipedii, aby uzyskać więcej informacji.
+Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, które przenika przez powierzchnię, gdzie spotykają się dwa materiały o różnych współczynnikach załamania. Zobacz [Prawo Snell\'a](http   *//en.wikipedia.org/wiki/Snell%27s_law) na Wikipedii, aby uzyskać więcej informacji.
 
-<img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
+<img alt="" src=images/Snells_law2_witheq.svg  style="width   *" height="400px;">
 
 
 
@@ -22,7 +22,7 @@ Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, k
 
 ## Użycie
 
-<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
+<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width   *500px;"> 
 *Sekwencja kliknięć jest oznaczona żółtymi strzałkami z numerami. n1, n2 to tylko etykiety, wskazujące gdzie znajdują się wskaźniki załamania.*
 
 -   Będziesz potrzebował dwóch linii, które mają podążać za promieniem światła, oraz krzywej, która będzie działać jako powierzchnia kontaktowa. Linie te powinny znajdować się po różnych stronach tej powierzchni.
@@ -32,7 +32,7 @@ Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, k
 
 Zauważ, że kilka [wiązań pomocniczych](Sketcher_helper_constraint.md) zostanie dodanych automatycznie *(punkt na obiekcie, zbieżność)*. Mogą one zostać usunięte, jeśli powodują nadmiarowość lub dodane ręcznie, jeśli nie zostały dodane automatycznie. Dla faktycznego wiązania prawa Snell\'a punkty końcowe linii muszą być zbieżne i leżeć na powierzchni kontaktu, w przeciwnym razie zachowanie jest niezdefiniowane.
 
-Za pomocą przyboru **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Linia łamana](Sketcher_CreatePolyline.md)**, możliwe jest przyspieszenie rysowania promieni świetlnych. W tym przypadku można wybrać dwa przypadkowe punkty końcowe przez użycie pola wyboru.
+Za pomocą przyboru **[<img src=images/Sketcher_CreatePolyline.svg style="width   *16px"> [Linia łamana](Sketcher_CreatePolyline.md)**, możliwe jest przyspieszenie rysowania promieni świetlnych. W tym przypadku można wybrać dwa przypadkowe punkty końcowe przez użycie pola wyboru.
 
 ## Uwagi
 
@@ -45,26 +45,26 @@ Za pomocą przyboru **[<img src=images/Sketcher_CreatePolyline.svg style="width:
 
 ## Tworzenie skryptów 
 
-Wiązanie może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Pyton](Python.md) za pomocą następującej funkcji:
+Wiązanie może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Pyton](Python.md) za pomocą następującej funkcji   *
 
 
 ```python
 Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,pointpos2,interface,n2byn1))
 ```
 
-gdzie:
+gdzie   *
 
-:\* `Sketch` jest obiektem typu szkic
+   ** `Sketch` jest obiektem typu szkic
 
-:\* `line1` oraz `pointpos1` są dwiema liczbami całkowitymi określającymi punkt końcowy linii w środku o współczynniku załamania światła wynoszącym *n1*. `line1` jest indeksem linii w szkicu *(wartość zwracana przez Sketch.addGeometry)*, a `pointpos1` powinno wynosić 1 dla punktu początkowego i 2 dla punktu końcowego,
+   ** `line1` oraz `pointpos1` są dwiema liczbami całkowitymi określającymi punkt końcowy linii w środku o współczynniku załamania światła wynoszącym *n1*. `line1` jest indeksem linii w szkicu *(wartość zwracana przez Sketch.addGeometry)*, a `pointpos1` powinno wynosić 1 dla punktu początkowego i 2 dla punktu końcowego,
 
-:\* `line2` oraz `pointpos2` to indeksy określające punkt końcowy drugiej linii *(w środku „n2")*,
+   ** `line2` oraz `pointpos2` to indeksy określające punkt końcowy drugiej linii *(w środku „n2")*,
 
-:\* `n2byn1` jest liczbą zmiennoprzecinkową równą stosunkowi współczynników załamania światła *n2*/*n1*.
+   ** `n2byn1` jest liczbą zmiennoprzecinkową równą stosunkowi współczynników załamania światła *n2*/*n1*.
 
 Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, których można użyć dla `line1`, `pointpos1`, `line2`, `pointpos2` and `interface` oraz zawiera dalsze przykłady tworzenia wiązań przy użyciu skryptów języka Python.
 
-Przykład:
+Przykład   *
 
 
 ```python
@@ -76,17 +76,17 @@ StartPoint = 1
 EndPoint = 2
 MiddlePoint = 3
 
-f = App.activeDocument().addObject("Sketcher::SketchObject","Sketch")
+f = App.activeDocument().addObject("Sketcher   *   *SketchObject","Sketch")
 
 # add geometry to the sketch
 icir = f.addGeometry(Part.Circle(App.Vector(-547.612366,227.479736,0),App.Vector(0,0,1),68.161979))
 iline1 = f.addGeometry(Part.LineSegment(App.Vector(-667.331726,244.127090,0),App.Vector(-604.284241,269.275238,0)))
 iline2 = f.addGeometry(Part.LineSegment(App.Vector(-604.284241,269.275238,0),App.Vector(-490.940491,256.878265,0)))
 # add constraints
-# helper constraints:
+# helper constraints   *
 f.addConstraint(Sketcher.Constraint('Coincident',iline1,EndPoint,iline2,StartPoint)) 
 f.addConstraint(Sketcher.Constraint('PointOnObject',iline1,EndPoint,icir)) 
-# the Snell's law:
+# the Snell's law   *
 f.addConstraint(Sketcher.Constraint('SnellsLaw',iline1,EndPoint,iline2,StartPoint,icir,1.47))
 
 App.ActiveDocument.recompute() 

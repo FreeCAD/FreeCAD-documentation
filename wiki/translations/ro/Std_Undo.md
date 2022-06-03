@@ -1,6 +1,6 @@
 # Std Undo/ro
 ---
-- GuiCommand:   Name:Std Undo   MenuLocation:[Workbenches:All   Shortcut:Ctrl+Z   SeeAlso:[[Std Redo|Redo](Std_Edit_Menu___Edit]]_→_Undo.md)---
+- GuiCommand   *   Name   *Std Undo   MenuLocation   *[Workbenches   *All   Shortcut   *Ctrl+Z   SeeAlso   *[[Std Redo|Redo](Std_Edit_Menu___Edit]]_→_Undo.md)---
 
 
 </div>
@@ -22,16 +22,16 @@ The **Std Undo** command undoes the last action.
 
 ## Utilizare
 
-Click pe <img alt="" src=images/Std_Undo.png  style="width:32px;"> sau alegeți ** Edit** → **<img src="images/Std_Undo.png" width=32px> Undo** din meniul principal.
+Click pe <img alt="" src=images/Std_Undo.png  style="width   *32px;"> sau alegeți ** Edit** → **<img src="images/Std_Undo.png" width=32px> Undo** din meniul principal.
 Faceți clic pe săgeata în jos negru din partea dreaptă a iconiței pentru a obține o listă cu maxim 12 acțiuni de selectat.
 
 
 </div>
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Std_Undo.svg" width=16px> [Std Undo](Std_Undo.md)** button.
     -   Select the **Edit → <img src="images/Std_Undo.svg" width=16px> Undo** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**Z**.
+    -   Use the keyboard shortcut   * **Ctrl**+**Z**.
 
 ## Options
 
@@ -45,7 +45,7 @@ Faceți clic pe săgeata în jos negru din partea dreaptă a iconiței pentru a 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

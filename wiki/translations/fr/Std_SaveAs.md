@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std SaveAs
-   Name/fr:Std Enregistrer sous
-   MenuLocation:Fichier → Enregistrer sous...
-   Workbenches:Tous
-   SeeAlso:[Std Enregistrer une copie](Std_SaveCopy.md), [Std Enregistrer](Std_Save/fr.md)
+- GuiCommand   */fr
+   Name   *Std SaveAs
+   Name/fr   *Std Enregistrer sous
+   MenuLocation   *Fichier → Enregistrer sous...
+   Workbenches   *Tous
+   SeeAlso   *[Std Enregistrer une copie](Std_SaveCopy.md), [Std Enregistrer](Std_Save/fr.md)
 ---
 
 # Std SaveAs/fr
@@ -29,12 +29,12 @@ La commande **Std Enregistrer sous** enregistre le document actif sous un nouvea
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier emplacement de fichier utilisé est stocké   * **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

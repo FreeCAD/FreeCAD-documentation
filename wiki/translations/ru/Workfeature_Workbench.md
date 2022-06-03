@@ -1,4 +1,4 @@
-# <img alt="Workfeature workbench icon" src=images/WF_wf.png  style="width:64px;"> Workfeature Workbench/ru
+# <img alt="Workfeature workbench icon" src=images/WF_wf.png  style="width   *64px;"> Workfeature Workbench/ru
 
 
 {{Note|Note|Merge with [[Macro_WorkFeatures]]??}}
@@ -17,16 +17,16 @@ Tool utility to create
 
 ## References
 
--   Author: [Rentlau](https://github.com/Rentlau)
--   Home page: [WorkFeature](https://github.com/Rentlau/WorkFeature)
--   Source code on github: [WorkFeature](https://github.com/Rentlau/WorkFeature)
+-   Author   * [Rentlau](https   *//github.com/Rentlau)
+-   Home page   * [WorkFeature](https   *//github.com/Rentlau/WorkFeature)
+-   Source code on github   * [WorkFeature](https   *//github.com/Rentlau/WorkFeature)
 
 ## Tools
 
 ### Документация
 
--   Releases Documentation [here](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) and
--   Full Documentation [here](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
+-   Releases Documentation [here](https   *//github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) and
+-   Full Documentation [here](https   *//github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
 
 ### Панель инструментов 
 
@@ -62,17 +62,19 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
 ## Links to Animation WB 
 
--   Workbench Wiki:
--   FreeCAD Wiki:
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160>
--   Tutorials:
--   Videos:
--   Files:
--   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php)
+-   Workbench Wiki   *
+-   FreeCAD Wiki   *
+-   FreeCAD Forum   * <http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160>
+-   Tutorials   *
+-   Videos   *
+-   Files   *
+-   Report bugs   * Please report bugs at [FreeCAD forum](http   *//forum.freecadweb.org/index.php)
 
 ## Other useful links 
 
 -   [External workbenches](External_workbenches.md)
+
+[Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

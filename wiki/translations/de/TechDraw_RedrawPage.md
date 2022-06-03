@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw RedrawPage
-   Name/de:TechDraw NeuzeichnenSeite
-   MenuLocation:TechDraw → Neuzeichnen Seite
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
+- GuiCommand   */de
+   Name   *TechDraw RedrawPage
+   Name/de   *TechDraw NeuzeichnenSeite
+   MenuLocation   *TechDraw → Neuzeichnen Seite
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.19
 ---
 
 # TechDraw RedrawPage/de

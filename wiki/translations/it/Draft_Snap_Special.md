@@ -1,13 +1,13 @@
 ---
-- GuiCommand:/it
-   Name:Draft Snap Special
-   Name/it:Speciale
-   Icon:Snap_Special.svg
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → [Snap](Draft_Snap/it.md) → Speciale
-   Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
-   Version:0.17
+- GuiCommand   */it
+   Name   *Draft Snap Special
+   Name/it   *Speciale
+   Icon   *Snap_Special.svg
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation   *Draft → [Snap](Draft_Snap/it.md) → Speciale
+   Shortcut   *
+   SeeAlso   *[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   Version   *0.17
 ---
 
 # Draft Snap Special/it
@@ -55,9 +55,9 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 ## Supported special points 
 
--   The vertices of the **Base** object of <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Arch Walls](Arch_Wall.md).
--   The **Placement** point of <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Arch Structures](Arch_Structure.md).
--   The **Snap Points** of <img alt="" src=images/Arch_Equipment.svg  style="width:16px;"> [Arch Equipment](Arch_Equipment.md).
+-   The vertices of the **Base** object of <img alt="" src=images/Arch_Wall.svg  style="width   *16px;"> [Arch Walls](Arch_Wall.md).
+-   The **Placement** point of <img alt="" src=images/Arch_Structure.svg  style="width   *16px;"> [Arch Structures](Arch_Structure.md).
+-   The **Snap Points** of <img alt="" src=images/Arch_Equipment.svg  style="width   *16px;"> [Arch Equipment](Arch_Equipment.md).
 
 ## Preferences
 

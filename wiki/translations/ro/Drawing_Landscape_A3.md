@@ -1,6 +1,6 @@
 # Drawing Landscape A3/ro
 ---
-- GuiCommand:   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing → Insert new drawing → A3 Landscape   Shortcut:none---
+- GuiCommand   *   Name   *Drawing Landscape A3   Workbenches   *[[Drawing Workbench   Drawing]], Complete|MenuLocation   *Drawing → Insert new drawing → A3 Landscape   Shortcut   *none---
 
 Acest instrument creează o nouă foaie de desen din șabloanele deja instalate. În prezent, chiar dacă meniul și bara de instrumente permit formate tip peisaj A0 până la A4, este disponibil numai un șablon peisaj A3.
 
@@ -8,9 +8,9 @@ Un obiect \'\'\' Page \'\'\' va fi adăugat în arborescența proiectului, avân
 
 Pentru a deschide Vizualizatorul de desen pentru a afișa pagina, faceți dublu clic pe obiectul **Page** sau faceți clic dreapta pe → Afișare desen. Pagina va fi deschisă într-o filă nouă. Puteți să închideți fila și să o deschideți din nou în orice moment în același mod.
 
-Dacă pagina nu apare, faceți clic pe<img alt="" src=images/view-refresh.png  style="width:16px;"> reîmprospătați pictograma/iconița din bara principală de instrumente sau accesați meniul \"Editare → Actualizare\" sau comanda rapidă**CTRL+R**.
+Dacă pagina nu apare, faceți clic pe<img alt="" src=images/view-refresh.png  style="width   *16px;"> reîmprospătați pictograma/iconița din bara principală de instrumente sau accesați meniul \"Editare → Actualizare\" sau comanda rapidă**CTRL+R**.
 
-<img alt="" src=images/Drawing_Page.png  style="width:500px;">
+<img alt="" src=images/Drawing_Page.png  style="width   *500px;">
 
 ## Opțiuni
 

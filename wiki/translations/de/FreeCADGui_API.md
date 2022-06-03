@@ -2,12 +2,12 @@
 <div class="mw-translate-fuzzy">
 
 
-**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].**
+**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https   *//www.freecadweb.org/api autogenerierte API-Dokumentation].**
 
 
 </div>
 
-This module is the counterpart of the FreeCAD module. It contains everything related to the User interface and the 3D views. Example: 
+This module is the counterpart of the FreeCAD module. It contains everything related to the User interface and the 3D views. Example   * 
 ```python
 import FreeCAD as App
 import FreeCADGui as Gui
@@ -71,6 +71,11 @@ gui_doc.activateWorkbench("myWorkbench")
 
 
 {{APIFunction|updateGui| |Updates the main window and all its windows| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

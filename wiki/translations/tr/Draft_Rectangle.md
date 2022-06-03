@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Rectangle
-   Name/tr:Dikdörtgen
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   MenuLocation:Taslak → Dikdörtgen
-   Shortcut:**R** **E**
-   Version/tr:0.17
-   SeeAlso:[Elips](Draft_Ellipse/tr.md),[Parça Kutu](Part_Box/tr.md)
+- GuiCommand   */tr
+   Name   *Draft Rectangle
+   Name/tr   *Dikdörtgen
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation   *Taslak → Dikdörtgen
+   Shortcut   ***R** **E**
+   Version/tr   *0.17
+   SeeAlso   *[Elips](Draft_Ellipse/tr.md),[Parça Kutu](Part_Box/tr.md)
 ---
 
 # Draft Rectangle/tr
@@ -28,7 +28,7 @@ Dikdörtgen aracı, geçerli belgede belirli bir noktaya bir dikdörtgen ekler. 
 
 İsteğe bağlı olarak, dikdörtgenin her köşesine 45 derecelik bir pah veya dairesel bir fileto ekleyebilir ve dikdörtgeni eşit boyutlu satır ve sütunlardan oluşan bir diziye bölebilirsiniz.
 
-<img alt="" src=images/Draft_Rectangle_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Rectangle_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -41,7 +41,7 @@ Dikdörtgen aracı, geçerli belgede belirli bir noktaya bir dikdörtgen ekler. 
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 3.  3D görünümünde birincinin karşısındaki başka bir noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} tuşuna basın.
 
-:   İkinci nokta, X, Y veya Z eksenleriyle sınırlandırılmamalıdır, aksi takdirde elde edilen dikdörtgen yanlış biçimlendirilir.
+   *   İkinci nokta, X, Y veya Z eksenleriyle sınırlandırılmamalıdır, aksi takdirde elde edilen dikdörtgen yanlış biçimlendirilir.
 
 
 </div>
@@ -91,17 +91,17 @@ Ağaç görünümündeki öğeye çift tıklayarak veya {{Button | <img src="ima
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Plane](Part_Plane.md) instead of a Draft Rectangle.
 
 ## Özellikler
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -113,19 +113,19 @@ A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject
 
 ### Veri
 
--    {{PropertyData/tr|Length}}: X ekseni yönündeki şeklin uzunluğunu belirtir.
+-    {{PropertyData/tr|Length}}   * X ekseni yönündeki şeklin uzunluğunu belirtir.
 
--    {{PropertyData/tr|Height}}: Y ekseni yönündeki şeklin yüksekliğini belirtir.
+-    {{PropertyData/tr|Height}}   * Y ekseni yönündeki şeklin yüksekliğini belirtir.
 
--    {{PropertyData/tr|Chamfer Size}}: dikdörtgenin her bir köşesindeki 45 ° pahın diyagonal uzunluğunu belirtir.
+-    {{PropertyData/tr|Chamfer Size}}   * dikdörtgenin her bir köşesindeki 45 ° pahın diyagonal uzunluğunu belirtir.
 
--    {{PropertyData/tr|Fillet Radius}}: dikdörtgenin her bir köşesindeki 90 ° \'lik fileto yarıçapını belirtir.
+-    {{PropertyData/tr|Fillet Radius}}   * dikdörtgenin her bir köşesindeki 90 ° \'lik fileto yarıçapını belirtir.
 
--    {{PropertyData/tr|Rows}}: orijinal şeklin bölündüğü eşit boyutta satır sayısını belirtir; varsayılan olarak, 1 satır.
+-    {{PropertyData/tr|Rows}}   * orijinal şeklin bölündüğü eşit boyutta satır sayısını belirtir; varsayılan olarak, 1 satır.
 
--    {{PropertyData/tr|Columns}}: orijinal şeklin bölündüğü eşit boyutlu sütunların sayısını belirtir; varsayılan olarak, 1 sütun.
+-    {{PropertyData/tr|Columns}}   * orijinal şeklin bölündüğü eşit boyutlu sütunların sayısını belirtir; varsayılan olarak, 1 sütun.
 
--    {{PropertyData/tr|Make Face}}: şeklin bir yüz yapıp yapmamasını belirtir. Eğer `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir.
+-    {{PropertyData/tr|Make Face}}   * şeklin bir yüz yapıp yapmamasını belirtir. Eğer `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir.
 
 
 </div>
@@ -140,13 +140,13 @@ A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject
 
 ### Görünüm
 
--    {{PropertyView/tr|Pattern}}: şeklin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
+-    {{PropertyView/tr|Pattern}}   * şeklin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
 
--    {{PropertyView/tr|Pattern Size}}: [Desen](Draft_Pattern/tr.md) \'in boyutunu belirtir.
+-    {{PropertyView/tr|Pattern Size}}   * [Desen](Draft_Pattern/tr.md) \'in boyutunu belirtir.
 
--    {{PropertyView/tr|Texture Image}}: şeklin yüzünde eşlenecek görüntü dosyasının yolunu belirtir. Bu özelliğin boşaltılması görüntüyü kaldıracak.
+-    {{PropertyView/tr|Texture Image}}   * şeklin yüzünde eşlenecek görüntü dosyasının yolunu belirtir. Bu özelliğin boşaltılması görüntüyü kaldıracak.
 
-:   Eşlemedeki çarpılmaları önlemek için dikdörtgen, görüntüyle aynı oranlara sahip olmalıdır.
+   *   Eşlemedeki çarpılmaları önlemek için dikdörtgen, görüntüyle aynı oranlara sahip olmalıdır.
 
 
 </div>
@@ -159,7 +159,7 @@ A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -169,7 +169,7 @@ A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject
 
 <div class="mw-translate-fuzzy">
 
-Dikdörtgen aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve python konsolundan kullanılabilir:
+Dikdörtgen aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve python konsolundan kullanılabilir   *
 
 
 </div>
@@ -192,7 +192,7 @@ rectangle = make_rectangle(length, height, placement=None, face=None, support=No
 
 </div>
 
-Örnek: 
+Örnek   * 
 ```python
 import FreeCAD as App
 import Draft

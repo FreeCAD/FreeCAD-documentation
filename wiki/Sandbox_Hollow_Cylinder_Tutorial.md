@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/en
-   Topic:Exploring FreeCAD
-   Level:Beginner
-   Time:As much or as little as you want
-   Author:[hmk](User_hmk.md)
-   FCVersion:0.19
-   Files:
+- TutorialInfo   */en
+   Topic   *Exploring FreeCAD
+   Level   *Beginner
+   Time   *As much or as little as you want
+   Author   *[hmk](User_hmk.md)
+   FCVersion   *0.19
+   Files   *
 ---
 
 # Sandbox:Hollow Cylinder Tutorial

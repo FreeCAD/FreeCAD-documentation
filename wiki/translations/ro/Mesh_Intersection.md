@@ -1,6 +1,6 @@
 # Mesh Intersection/ro
 ---
-- GuiCommand:   Name:Mesh Intersection‏‎   MenuLocation:Meshes → Boolean → Intersection   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *Mesh Intersection‏‎   MenuLocation   *Meshes → Boolean → Intersection   Workbenches   *[[Mesh Workbench   Mesh]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -50,7 +50,7 @@ Rezultatul este creat ca o nouă plasă separată.
 
 ## Properties
 
-See: [Mesh Feature](Mesh_Feature.md).
+See   * [Mesh Feature](Mesh_Feature.md).
 
 
 

@@ -13,7 +13,7 @@ Makron är ett smidigt sätt att skapa komplexa aktioner i FreeCAD. Du behöver 
 
 While Python scripts normally have the `.py` extension, FreeCAD macros should have the `.FCMacro` extension. A collection of macros written by experienced users is found in the [macros recipes](Macros_recipes.md) page.
 
-See the [Power users hub](Power_users_hub.md) to learn more about the [Python](Python.md) programming language, and about writing macros. In particular, you should start with these pages:
+See the [Power users hub](Power_users_hub.md) to learn more about the [Python](Python.md) programming language, and about writing macros. In particular, you should start with these pages   *
 
 -   [Introduction to Python](Introduction_to_Python.md)
 -   [Python scripting tutorial](Python_scripting_tutorial.md)
@@ -24,17 +24,17 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 
 ### Hur det fungerar 
 
-Om du aktiverar konsolutmatning(Meny Redigera -\> Alternativ -\> Allmänt -\> Makro -\> Visa skriptkommandon i python konsolen), så kommer du se att varje aktion du gör i FreeCAD, , som att klicka på en knapp, genererar ett python kommando. Dessa kommandon är vad som kan spelas in i ett makro. Huvudverktyget för att göra makron är makroverktygslådan: ![](images/Macros_toolbar.jpg ). På den finns det 4 knappar: Spela in, stoppa inspelning, redigera och spela upp det nuvarande makrot.
+Om du aktiverar konsolutmatning(Meny Redigera -\> Alternativ -\> Allmänt -\> Makro -\> Visa skriptkommandon i python konsolen), så kommer du se att varje aktion du gör i FreeCAD, , som att klicka på en knapp, genererar ett python kommando. Dessa kommandon är vad som kan spelas in i ett makro. Huvudverktyget för att göra makron är makroverktygslådan   * ![](images/Macros_toolbar.jpg ). På den finns det 4 knappar   * Spela in, stoppa inspelning, redigera och spela upp det nuvarande makrot.
 
 
 </div>
 
-Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar   * ![](images/Macros_toolbar.jpg ). On it you have 4 buttons   * Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
 
-Det är mycket enkelt att använda: Klicka på inspelningsknappen, du kommer att efterfrågas om ett namn till ditt makro, utför sedan några aktioner. När du är klar, Klick på stoppa inspelning knappen, och dina aktioner kommer att spaaras. Du kan nu komma åt makrodialogen med redigeraknappen:
+Det är mycket enkelt att använda   * Klicka på inspelningsknappen, du kommer att efterfrågas om ett namn till ditt makro, utför sedan några aktioner. När du är klar, Klick på stoppa inspelning knappen, och dina aktioner kommer att spaaras. Du kan nu komma åt makrodialogen med redigeraknappen   *
 
 
 </div>
@@ -72,7 +72,7 @@ Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in th
 
 ### Anpassning
 
-Det är förstås inte så praktiskt att behöva ladda ett makro i redigeraren för att kunna använda det. FreeCAD erbjuder många bättre sätt att använda ditt makro, som att tilldela en tangentbordsgenväg till den eller lägga till en punkt i menyn. När ditt makro är sparat, så kan allt detta göras via Verktyg -\> Anpassa menyn:
+Det är förstås inte så praktiskt att behöva ladda ett makro i redigeraren för att kunna använda det. FreeCAD erbjuder många bättre sätt att använda ditt makro, som att tilldela en tangentbordsgenväg till den eller lägga till en punkt i menyn. När ditt makro är sparat, så kan allt detta göras via Verktyg -\> Anpassa menyn   *
 
 
 </div>
@@ -115,7 +115,7 @@ Besök [Makrorecept](Macros_recipes/sv.md) sidan för att hämta några användb
 
 </div>
 
-There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
+There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
 
 ## Additional information 
 
@@ -137,6 +137,11 @@ You can manually install extensions, however, it is much simpler to just use the
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

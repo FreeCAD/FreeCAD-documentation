@@ -1,20 +1,20 @@
-# <img alt="L\'icona dell\'ambiente Image" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/it
+# <img alt="L\'icona dell\'ambiente Image" src=images/Workbench_Image.svg  style="width   *64px;"> Image Workbench/it
 
 
 {{TOCright}}
 
 ## Introduzione
 
-Il modulo <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Immagine](Image_Workbench/it.md) gestisce diversi tipi di immagini [bitmap](bitmap/it.md), e permette di aprirle in FreeCAD.
+Il modulo <img alt="" src=images/Workbench_Image.svg  style="width   *24px;"> [Immagine](Image_Workbench/it.md) gestisce diversi tipi di immagini [bitmap](bitmap/it.md), e permette di aprirle in FreeCAD.
 
 ## Strumenti
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Image-import.svg  style="width:32px;"> [Apri](Image_Open/it.md): apre un\'immagine in una nuova finestra.
--   <img alt="" src=images/Image-import-to-plane.svg  style="width:32px;"> [Importa immagine](Image_CreateImagePlane/it.md): importa un\'immagine su un piano nella vista 3D.
--   <img alt="" src=images/Image-scale.svg  style="width:32px;"> [Scala](Image_Scaling/it.md): ridimensiona un\'immagine importata su un piano.
+-   <img alt="" src=images/Image-import.svg  style="width   *32px;"> [Apri](Image_Open/it.md)   * apre un\'immagine in una nuova finestra.
+-   <img alt="" src=images/Image-import-to-plane.svg  style="width   *32px;"> [Importa immagine](Image_CreateImagePlane/it.md)   * importa un\'immagine su un piano nella vista 3D.
+-   <img alt="" src=images/Image-scale.svg  style="width   *32px;"> [Scala](Image_Scaling/it.md)   * ridimensiona un\'immagine importata su un piano.
 
 
 </div>
@@ -47,7 +47,9 @@ L\'offset dell\'immagine può essere impostato durante l\'importazione o modific
 
 {{Image Tools navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

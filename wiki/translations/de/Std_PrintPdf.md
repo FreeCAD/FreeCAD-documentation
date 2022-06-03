@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Std PrintPdf
-   Name/de:Std DruckZuPDF
-   MenuLocation:Datei → PDF exportieren...
-   Workbenches:All
-   SeeAlso:[Std Drucken](Std_Print/de.md), [Std Export](Std_Export/de.md), [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md)
+- GuiCommand   */de
+   Name   *Std PrintPdf
+   Name/de   *Std DruckZuPDF
+   MenuLocation   *Datei → PDF exportieren...
+   Workbenches   *All
+   SeeAlso   *[Std Drucken](Std_Print/de.md), [Std Export](Std_Export/de.md), [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md)
 ---
 
 # Std PrintPdf/de
@@ -31,7 +31,7 @@ Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](PDF/de
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:Drawing Symbol
-   Name/pl:Drawing: Symbol
-   Workbenches:[Kreślenie](Drawing_Workbench/pl.md), [Complete](Complete_Workbench/pl.md)
-   MenuLocation:Kreślenie → Symbol
-   Shortcut:brak
+- GuiCommand   */pl
+   Name   *Drawing Symbol
+   Name/pl   *Drawing   * Symbol
+   Workbenches   *[Kreślenie](Drawing_Workbench/pl.md), [Complete](Complete_Workbench/pl.md)
+   MenuLocation   *Kreślenie → Symbol
+   Shortcut   *brak
 ---
 
 # Drawing Symbol/pl

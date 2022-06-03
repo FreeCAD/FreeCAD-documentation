@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Draft_Wire
-   Name/it:Polilinea
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   Shortcut:**P** **L**
-   MenuLocation:Draft → Polilinea
-   SeeAlso:[Linea](Draft_Line/it.md), [BSpline](Draft_BSpline/it.md)
-   Version:0.7
+- GuiCommand   */it
+   Name   *Draft_Wire
+   Name/it   *Polilinea
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   Shortcut   ***P** **L**
+   MenuLocation   *Draft → Polilinea
+   SeeAlso   *[Linea](Draft_Line/it.md), [BSpline](Draft_BSpline/it.md)
+   Version   *0.7
 ---
 
 # Draft Wire/it
@@ -26,7 +26,7 @@ Questo strumento crea una polilinea (una sequenza di segmenti) nel [piano di lav
 
 The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide the edges of a Draft Wire by changing its **Subdivisions** property.
 
-<img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Polyline_example.jpg  style="width   *400px;"> 
 *Polilinea definita da più punti*
 
 ## Create
@@ -39,7 +39,7 @@ The corners of a Draft Wire can be filleted (rounded) or chamfered by changing i
 
 </div>
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -75,8 +75,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Polilinea si riavvia dopo aver terminato la polilinea in costruzione, e consente di disegnare una nuova polilinea senza premere nuovamente il pulsante dello strumento.
 -   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva, una polilinea chiusa crea una faccia piena (**Make Face** `True`); in caso contrario, la polilinea chiusa non crea una faccia (**Make Face** `False`).
 
-:   
-    **Note:**la polilinea non deve essere riempita se si autointerseca , perché in questo caso non crea una faccia corretta. Se la polilinea è piena ma non è visibile alcuna forma, impostare manualmente **Make Face** su `False` per vedere la polilinea.
+   *   
+    **Note   ***la polilinea non deve essere riempita se si autointerseca , perché in questo caso non crea una faccia corretta. Se la polilinea è piena ma non è visibile alcuna forma, impostare manualmente **Make Face** su `False` per vedere la polilinea.
 
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
 -   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.
@@ -92,10 +92,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 1.  The end points of the [Draft Lines](Draft_Line.md) and/or Draft Wires to be joined must be exactly coincident. If required first adjust points to ensure that this is the case.
 2.  Select two or more [Draft Lines](Draft_Line.md) and/or Draft Wires.
-3.  There are several ways to invoke the command:
+3.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
-    -   Use the keyboard shortcut: **P** then **L**.
+    -   Use the keyboard shortcut   * **P** then **L**.
 
 ## Notes
 
@@ -109,16 +109,16 @@ La polilinea può essere modificata facendo doppio clic sull\'elemento nella vis
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -130,24 +130,24 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 ### Dati
 
--    **Start**: specifica il primo punto nel filo.
+-    **Start**   * specifica il primo punto nel filo.
 
--    **End**: specifica l\'ultimo punto nel filo, senza contare il punto iniziale se il filo è chiuso.
+-    **End**   * specifica l\'ultimo punto nel filo, senza contare il punto iniziale se il filo è chiuso.
 
--    **Closed**: specifica se il filo è chiuso o meno. Se il filo è inizialmente aperto, questo valore è `False`; impostandolo su `True` disegna un segmento di linea per chiudere il filo. Se il filo è inizialmente chiuso, questo valore è `True`; impostandolo su `False` si rimuove l\'ultimo segmento di linea e si apre il filo.
+-    **Closed**   * specifica se il filo è chiuso o meno. Se il filo è inizialmente aperto, questo valore è `False`; impostandolo su `True` disegna un segmento di linea per chiudere il filo. Se il filo è inizialmente chiuso, questo valore è `True`; impostandolo su `False` si rimuove l\'ultimo segmento di linea e si apre il filo.
 
--    **Chamfer Size**: specifica la dimensione degli smussi (segmenti retti) creati agli angoli del filo.
+-    **Chamfer Size**   * specifica la dimensione degli smussi (segmenti retti) creati agli angoli del filo.
 
--    **Fillet Radius**: specifica il raggio dei raccordi (segmenti di arco) creati agli angoli del filo.
+-    **Fillet Radius**   * specifica il raggio dei raccordi (segmenti di arco) creati agli angoli del filo.
 
--    **Make Face**: specifica se il filo crea una faccia o no. Se è `True` viene creata una faccia, altrimenti solo i bordi sono considerati parte dell\'oggetto. Questa proprietà funziona solo se **Closed** è `True`.
+-    **Make Face**   * specifica se il filo crea una faccia o no. Se è `True` viene creata una faccia, altrimenti solo i bordi sono considerati parte dell\'oggetto. Questa proprietà funziona solo se **Closed** è `True`.
 
-:   
-    **Note:**non impostare **Make Face** su `True` se il filo si interseca, poiché non crea una faccia corretta.
+   *   
+    **Note   ***non impostare **Make Face** su `True` se il filo si interseca, poiché non crea una faccia corretta.
 
--    **Subdivisions**: specifica il numero di nodi interni in ciascun segmento del filo. {{version/it|0.16}}
+-    **Subdivisions**   * specifica il numero di nodi interni in ciascun segmento del filo. {{version/it|0.16}}
 
--    **Length**: (sola lettura) specifica la lunghezza dell\'intero filo.
+-    **Length**   * (sola lettura) specifica la lunghezza dell\'intero filo.
 
 
 </div>
@@ -162,15 +162,15 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 ### Vista
 
--    **End Arrow**: se è `True` viene visualizzato un simbolo all\'ultimo punto del wire, quindi può essere usato come una linea di annotazione.
+-    **End Arrow**   * se è `True` viene visualizzato un simbolo all\'ultimo punto del wire, quindi può essere usato come una linea di annotazione.
 
--    **Arrow Size**: specifica la dimensione del simbolo visualizzato alla fine del wire.
+-    **Arrow Size**   * specifica la dimensione del simbolo visualizzato alla fine del wire.
 
--    **Arrow Type**: specifica il tipo di simbolo visualizzato alla fine del filo, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\".
+-    **Arrow Type**   * specifica il tipo di simbolo visualizzato alla fine del filo, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\".
 
--    **Pattern**: specifica un tipo di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia del filo chiuso. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
+-    **Pattern**   * specifica un tipo di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia del filo chiuso. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
 
--    **Pattern Size**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
+-    **Pattern Size**   * specifica la dimensione della [Campitura](Draft_Pattern/it.md).
 
 
 </div>
@@ -181,7 +181,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -191,7 +191,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento DWire può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+Lo strumento DWire può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -215,7 +215,7 @@ wire = make_wire(Part.Wire, closed=False, placement=None, face=None, support=Non
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python

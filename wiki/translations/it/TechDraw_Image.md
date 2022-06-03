@@ -1,6 +1,6 @@
 # TechDraw Image/it
 ---
-- GuiCommand:/it   Name:TechDraw Image   Name/it:Immagine bitmap   Workbenches:[MenuLocation:TechDraw → Immagine bitmap   Shortcut:   SeeAlso:[[TechDraw Symbol/it|Simbolo SVG](TechDraw_Workbench/it___TechDraw]].md)---
+- GuiCommand   */it   Name   *TechDraw Image   Name/it   *Immagine bitmap   Workbenches   *[MenuLocation   *TechDraw → Immagine bitmap   Shortcut   *   SeeAlso   *[[TechDraw Symbol/it|Simbolo SVG](TechDraw_Workbench/it___TechDraw]].md)---
 
 
 </div>
@@ -34,7 +34,7 @@ Lo strumento Immagine inserisce un\'immagine [bitmap](bitmap/it.md) (PNG, TIFF, 
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -44,14 +44,14 @@ Lo strumento Immagine inserisce un\'immagine [bitmap](bitmap/it.md) (PNG, TIFF, 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Image può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+Lo strumento Image può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
 
 
 </div>
 
 
 ```python
-dvi = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewImage','TestImage')
+dvi = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewImage','TestImage')
 rc = page.addView(dvi)
 dvi.ImageFile = "pathToMy/imageFile.png"
 dvi.Height = 200

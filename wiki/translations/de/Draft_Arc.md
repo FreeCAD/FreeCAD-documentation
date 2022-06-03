@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:Draft Arc
-   Name/de:Entwurf Bogen
-   MenuLocation:Entwurf → Bogen
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Version:0.7
-   Shortcut:**A** **R**
-   SeeAlso:[Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md), [Entwurf Kreis](Draft_Circle/de.md)
+- GuiCommand   */de
+   Name   *Draft Arc
+   Name/de   *Entwurf Bogen
+   MenuLocation   *Entwurf → Bogen
+   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version   *0.7
+   Shortcut   ***A** **R**
+   SeeAlso   *[Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md), [Entwurf Kreis](Draft_Circle/de.md)
 ---
 
 # Draft Arc/de
@@ -23,12 +23,12 @@ Das Bogen Werkzeug erstellt einen Kreisbogen in der aktuellen [Arbeitsebene](Dra
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
-<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Arc_example.jpg  style="width   *400px;"> 
 *Bogen definiert durch vier Punkte, Mittelpunkt, Radius, Startpunkt und letzter Punkt des Bogens*
 
 ## Anwendung
 
-Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+Siehe auch   * [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -54,7 +54,7 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen-Tastaturkürzel können geände
 
 ## Optionen 
 
--   Die primäre Anwendung des Kreisbogen-Werkzeugs erfolgt durch Auswahl von vier Punkten: dem Mittelpunkt, einem Punkt auf dem Umkreis, dem Startwinkel und dem Endpunkt.
+-   Die primäre Anwendung des Kreisbogen-Werkzeugs erfolgt durch Auswahl von vier Punkten   * dem Mittelpunkt, einem Punkt auf dem Umkreis, dem Startwinkel und dem Endpunkt.
 -   Durch Drücken von **Alt** kannst Du eine Tangente anstatt eines Punkts zur Definition des Basiskreises des Bogens auswählen. Du kannst deshalb verschiedene Kreisarten durch Auswahl von ein, zwei oder drei Tangenten erstellen.
 -   Die Richtung des Kreisbogens hängt von der Bewegung Deiner Maus ab. Wenn Du sie nach Eingabe des dritten Punkts im Uhrzeigersinn bewegst, wird auch der Kreisbogen im Uhrzeigersinn erstellt. Um ihn gegen den Uhrzeigersinn zu erstellen, bewege die Maus einfach zurück über den dritten Punkt, bis der Kreisbogen in die andere Richtung gezeichnet wird.
 -   Um Koordinaten manuell einzugeben, gibt einfach die Ziffern ein, drücke dann **Enter** zwischen den X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Button drücken, wenn Du die gewünschten Werte zum Einfügen des Punkts hast.
@@ -73,9 +73,9 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen-Tastaturkürzel können geände
 
 ## Einstellungen
 
-Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
+Siehe auch   * [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates, radii and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Eigenschaften
@@ -84,11 +84,11 @@ Siehe [Draft Kreis](Draft_Circle/de#Properties.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Um einen Entwurf Bogen zu erstellen, verwende die Methode `make_circle` (<small>(v0.19)</small> ) des Entwurfmoduls. Diese Methode ersetzt die veraltete Methode `makeCircle`.
 
-Beispiel:
+Beispiel   *
 
 
 ```python

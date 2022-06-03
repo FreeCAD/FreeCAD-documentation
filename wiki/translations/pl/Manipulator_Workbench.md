@@ -1,4 +1,4 @@
-# <img alt="Manipulator workbench icon" src=images/Manipulator_workbench_icon.svg  style="width:64px;"> Manipulator Workbench/pl
+# <img alt="Manipulator workbench icon" src=images/Manipulator_workbench_icon.svg  style="width   *64px;"> Manipulator Workbench/pl
 
 ## Introduction
 
@@ -9,13 +9,13 @@ The [Manipulator Workbench](Manipulator_Workbench.md) is an [external workbench]
 
 ## Features
 
-![](images/Aligner-ico.png ) **Aligner:** a set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD.
+![](images/Aligner-ico.png ) **Aligner   *** a set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD.
 
-![](images/Manipulator_Mover.svg ) **Mover:** a set of tools to move and rotate 3D parts on different Axis
+![](images/Manipulator_Mover.svg ) **Mover   *** a set of tools to move and rotate 3D parts on different Axis
 
-![](images/Manipulator_Caliper.svg ) **Caliper:** a set of tools to measure 3D parts, with some Snap facility and Radius, Length, Angle measurements.
+![](images/Manipulator_Caliper.svg ) **Caliper   *** a set of tools to measure 3D parts, with some Snap facility and Radius, Length, Angle measurements.
 
-These helpers work with **Part, App::Part and Body objects**.
+These helpers work with **Part, App   *   *Part and Body objects**.
 
 The Tools can be **Floating** or **Docked Left or Right**.
 
@@ -23,56 +23,56 @@ Each Tool has a **Help Button** ![](images/Help-btn.png ) to get some useful tip
 
 ## References
 
--   Author on github: [\@easyw](https://github.com/easyw)
--   FreeCAD Forums: [easyw-fc](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
--   Source code on github: <https://github.com/easyw/Manipulator>
--   Forum announcements/discussion: <https://forum.freecadweb.org/viewtopic.php?t=24742>
+-   Author on github   * [\@easyw](https   *//github.com/easyw)
+-   FreeCAD Forums   * [easyw-fc](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
+-   Source code on github   * <https   *//github.com/easyw/Manipulator>
+-   Forum announcements/discussion   * <https   *//forum.freecadweb.org/viewtopic.php?t=24742>
 
 ## Tutorial
 
-<img alt="Title Manipulator-WB-\@Work" src=images/Manipulator-WB-@Work.png  style="width:1024px;">
+<img alt="Title Manipulator-WB-\@Work" src=images/Manipulator-WB-@Work.png  style="width   *1024px;">
 
 
 
-*YouTube Tutorial [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
+*YouTube Tutorial [https   *//youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
 
 ## Tools
 
 ![](images/Manipulator-WB-Tools.png ) 
-*Above: Manipulator workbench dialog. For a more detailed description see [https://github.com/easyw/Manipulator/blob/master/README.md README.md] on Github.*
+*Above   * Manipulator workbench dialog. For a more detailed description see [https   *//github.com/easyw/Manipulator/blob/master/README.md README.md] on Github.*
 
 ### Aligner
 
 ![](images/Manipulator-WB-Aligner.gif ) 
-*Aligner: set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD*
+*Aligner   * set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD*
 
 ### Mover
 
 ![](images/Manipulator-WB-Mover.gif ) 
-*Mover: set of tools to move and rotate 3D parts on different Axis*
+*Mover   * set of tools to move and rotate 3D parts on different Axis*
 
 ![](images/Manipulator-WB-Mover-with-App_Part&Body.gif ) 
-*Mover: Using App:Part and Body*
+*Mover   * Using App   *Part and Body*
 
 ![](images/Manipulator-WB-Mover-with-External-Reference.gif ) 
-*Mover: with External Reference*
+*Mover   * with External Reference*
 
 ### Caliper
 
 ![](images/Manipulator-WB-Measure-Radius.gif ) 
-*Caliper: measuring Radius*
+*Caliper   * measuring Radius*
 
 ![](images/Manipulator-WB-Measure-Angles.gif ) 
-*Caliper: measuring Angles*
+*Caliper   * measuring Angles*
 
 ![](images/Manipulator-WB-Dimension.gif ) 
-*Caliper: measuring Dimensions*
+*Caliper   * measuring Dimensions*
 
 ![](images/Manipulator-WB-Dimension-2.gif ) 
-*Caliper: measuring Dimensions (cont.)*
+*Caliper   * measuring Dimensions (cont.)*
 
 ![](images/Manipulator-WB-Parallel-Planes-Distance.gif ) 
-*Caliper: parallel planes distance*
+*Caliper   * parallel planes distance*
 
 ### Manipulator
 
@@ -82,24 +82,24 @@ Each Tool has a **Help Button** ![](images/Help-btn.png ) to get some useful tip
 
 ### Automatic Installation 
 
-The recommended way to install the Manipulator Workbench is via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) under the **Tools → Addon Manager** menu.
+The recommended way to install the Manipulator Workbench is via the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) under the **Tools → Addon Manager** menu.
 
 
-<div class="mw-collapsible mw-collapsed toccolours" style="width:600px">
+<div class="mw-collapsible mw-collapsed toccolours" style="width   *600px">
 
 ### Manual Installation 
 
-If a manual install is necessary please follow the following instructions:
+If a manual install is necessary please follow the following instructions   *
 
 
 <div class="mw-collapsible-content">
 
--   Copying the Manipulator source in to the {{FileName|Mod}} sub-directory of the FreeCAD application.
+-   Copying the Manipulator source in to the **Mod** sub-directory of the FreeCAD application.
 
 
 ```python
 cd ~/.FreeCAD/Mod 
-git clone https://github.com/easyw/Manipulator Manipulator
+git clone https   *//github.com/easyw/Manipulator Manipulator
 ```
 
 -   Restart FreeCAD
@@ -126,9 +126,14 @@ The workbench evolved out of the [Center Align Objects with Faces or Edges](Macr
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 
-The [external workbenches](External_workbenches.md) page has some information and tutorials on some of them, and the [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) project aims at gathering them and making them easily installable from within FreeCAD.
+The [external workbenches](External_workbenches.md) page has some information and tutorials on some of them, and the [FreeCAD Addons](https   *//github.com/FreeCAD/FreeCAD-addons) project aims at gathering them and making them easily installable from within FreeCAD.
 
 New workbenches are in development, stay tuned!
+
+
+ 
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

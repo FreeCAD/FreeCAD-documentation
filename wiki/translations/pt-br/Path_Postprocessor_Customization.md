@@ -9,11 +9,11 @@
 
 ## Introduction
 
-FreeCAD uses as internal representation for the generated paths, so called G-codes. They can describe such things as: speed and feed rates, stopping the motor etc\... But the most important thing is the movements they describe. These movements are rather simple: They can be straight lines or they can be circular arcs. More sophisticated curves such as B-splines are already approximated by FreeCAD\'s <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md).
+FreeCAD uses as internal representation for the generated paths, so called G-codes. They can describe such things as   * speed and feed rates, stopping the motor etc\... But the most important thing is the movements they describe. These movements are rather simple   * They can be straight lines or they can be circular arcs. More sophisticated curves such as B-splines are already approximated by FreeCAD\'s <img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [Path Workbench](Path_Workbench.md).
 
 ## What the postprocessor can do for you 
 
-Many mills use G-codes as well to control the milling process. They may look almost like the internal codes, but there may be some differences:
+Many mills use G-codes as well to control the milling process. They may look almost like the internal codes, but there may be some differences   *
 
 -   the machine can have a special startup sequence
 -   it can have a special stop sequence
@@ -42,13 +42,13 @@ The path in FreeCAD would look like this. Please note the small blue arrow, it i
 
 ![](images/Path_PostProcessorModel.png )
 
-You can then have a look at the file and compare it to the output of existing postprocessors such as {{FileName|linux_cnc_post.py}} or {{FileName|grbl_post.py}} and try yourself to adapt them or you upload your to the [Path forum](https://forum.freecadweb.org/viewforum.php?f=15) to get some help.
+You can then have a look at the file and compare it to the output of existing postprocessors such as **linux_cnc_post.py** or **grbl_post.py** and try yourself to adapt them or you upload your to the [Path forum](https   *//forum.freecadweb.org/viewforum.php?f=15) to get some help.
 
 ## Naming convention 
 
-For a file format {{FileName|<filename>}} the postprocessor should get the name {{FileName|<filename>_post.py}}. Please note that the postfix and extension, {{FileName|_post.py}}, have to be lower case.
+For a file format **<filename>** the postprocessor should get the name **<filename>_post.py**. Please note that the postfix and extension, **_post.py**, have to be lower case.
 
-The new name should be reflected at the head of the parser arguments list in the {{FileName|<filename>_post.py}} file, e.g.:
+The new name should be reflected at the head of the parser arguments list in the **<filename>_post.py** file, e.g.   *
 
 
 {{Code|lang=text|code=
@@ -59,7 +59,7 @@ If you are testing, place it in your macro directory. If it functions well, plea
 
 ## Other existing postprocessors 
 
-For comparison you may look at the postprocessors which come with your FreeCAD installation. They are located under the directory /Mod/Path/PathScripts/post. Widely used are the [linuxcnc](http://linuxcnc.org/) and the [grbl](https://github.com/grbl/grbl) postprocessors. Studying their code can give helpful insights.
+For comparison you may look at the postprocessors which come with your FreeCAD installation. They are located under the directory /Mod/Path/PathScripts/post. Widely used are the [linuxcnc](http   *//linuxcnc.org/) and the [grbl](https   *//github.com/grbl/grbl) postprocessors. Studying their code can give helpful insights.
 
 ## Programming your own postprocessor 
 
@@ -69,8 +69,8 @@ Looking at linux\_cnc\_post.py, you\'ll see the export function (as of 0.19.2051
 
 
 ```python
-def export(objectslist, filename, argstring):
-    # pylint: disable=global-statement
+def export(objectslist, filename, argstring)   *
+    # pylint   * disable=global-statement
     ...
     gcode = ""
     ...
@@ -81,7 +81,7 @@ it collects step by step in the variable \"gcode\" the processed G-codes and han
 
 
 ```python
-def parse(pathobj):
+def parse(pathobj)   *
     ...
     out = ""
     lastcommand = None
@@ -93,7 +93,7 @@ Similarly to the \"export\" function collects parse the G-codes in the variable 
 
 
 ```python
-        for c in pathobj.Path.Commands:
+        for c in pathobj.Path.Commands   *
 
             command = c.Name
 ```
@@ -106,7 +106,7 @@ You\'ll see that both functions also call the \"linenumber()\" function. If the 
 
 ## Related
 
--   <img alt="" src=images/Path_Post.svg  style="width:24px;"> [Path PostProcess](Path_Post.md)
+-   <img alt="" src=images/Path_Post.svg  style="width   *24px;"> [Path PostProcess](Path_Post.md)
 
 
 

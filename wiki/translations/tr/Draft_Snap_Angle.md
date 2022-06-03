@@ -1,12 +1,12 @@
 # Draft Snap Angle/tr
 ---
-- GuiCommand:/tr
-   Name:Draft Snap Angle
-   Name/tr:Açı
-   Workbenches:[Taslak](Draft_Workbench.md), [Yapı](Arch_Workbench.md)
-   MenuLocation:Taslak → [Snap](Draft_Snap/tr.md) → Açı
-   Shortcut:
-   SeeAlso:---
+- GuiCommand   */tr
+   Name   *Draft Snap Angle
+   Name/tr   *Açı
+   Workbenches   *[Taslak](Draft_Workbench.md), [Yapı](Arch_Workbench.md)
+   MenuLocation   *Taslak → [Snap](Draft_Snap/tr.md) → Açı
+   Shortcut   *
+   SeeAlso   *---
 
 
 </div>

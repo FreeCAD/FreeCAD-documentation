@@ -1,9 +1,9 @@
 # Std About/ru
 ---
-- GuiCommand:/ru
-   Name:Std About
-   Name/ru:Std About
-   Workbenches:All   MenuLocation:Справка → О FreeCAD   SeeAlso:...---
+- GuiCommand   */ru
+   Name   *Std About
+   Name/ru   *Std About
+   Workbenches   *All   MenuLocation   *Справка → О FreeCAD   SeeAlso   *...---
 
 
 </div>
@@ -20,13 +20,13 @@ The **Std About** command opens a dialog box that shows information about the Fr
 *The About FreeCAD dialog box*
 
 
-**'''ATTENTION''': Do not take a screenshot of this dialog box! Instead press the **Copy to clipboard** button and then paste the information in your help request.**
+**'''ATTENTION'''   * Do not take a screenshot of this dialog box! Instead press the **Copy to clipboard** button and then paste the information in your help request.**
 
 ## Применение
 
 1.  Select the **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD** option from the menu.
-2.  Select one of the tabs: **About**, **Credits**, **License** or **Libraries**.
-3.  Whenever you need to provide FreeCAD version information do the following:
+2.  Select one of the tabs   * **About**, **Credits**, **License** or **Libraries**.
+3.  Whenever you need to provide FreeCAD version information do the following   *
     -   Press the **Copy to clipboard** button on the **About** tab.
     -   Paste this information in your help request.
     -   Do not include a screenshot of the dialog box.
@@ -34,22 +34,22 @@ The **Std About** command opens a dialog box that shows information about the Fr
 
 ### About
 
-The About tab shows information on the FreeCAD version used, revision number, operating system, and some details about the supporting libraries, [Python](Python.md), Qt, Coin, and OCCT. When requesting help on the [FreeCAD forums](http://forum.freecadweb.org/viewtopic.php?f=3&t=2264), or filing bug reports, it is imperative to provide this information.
+The About tab shows information on the FreeCAD version used, revision number, operating system, and some details about the supporting libraries, [Python](Python.md), Qt, Coin, and OCCT. When requesting help on the [FreeCAD forums](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=2264), or filing bug reports, it is imperative to provide this information.
 
 To get troubleshooting information press **Copy to clipboard** button, then paste this information where it is needed.
 
-OS: Ubuntu 18.04.3 LTS (ubuntu:GNOME/ubuntu)
-Word size of OS: 64-bit
-Word size of FreeCAD: 64-bit
-Version: 0.19.18984 (Git)
-Build type: Unknown
-Branch: master
-Hash: c251caa934597d4b32def43ca8ac2ab479931d73
-Python version: 3.6.9
-Qt version: 5.9.5
-Coin version: 4.0.0a
-OCC version: 7.3.0
-Locale: English/UnitedStates (en_US)
+OS   * Ubuntu 18.04.3 LTS (ubuntu   *GNOME/ubuntu)
+Word size of OS   * 64-bit
+Word size of FreeCAD   * 64-bit
+Version   * 0.19.18984 (Git)
+Build type   * Unknown
+Branch   * master
+Hash   * c251caa934597d4b32def43ca8ac2ab479931d73
+Python version   * 3.6.9
+Qt version   * 5.9.5
+Coin version   * 4.0.0a
+OCC version   * 7.3.0
+Locale   * English/UnitedStates (en_US)
 
 ### Credits
 
@@ -57,7 +57,7 @@ The Credits tab shows a list of contributors to the FreeCAD project. To get your
 
 ### License
 
-FreeCAD is licensed under the terms of the [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). The full text of this license is listed here. See [license](licence.md) for more details.
+FreeCAD is licensed under the terms of the [GNU Lesser General Public License 2](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). The full text of this license is listed here. See [license](licence.md) for more details.
 
 As FreeCAD uses external libraries, they may have their own licensing terms. Consult their particular licenses in [third party libraries](Third_Party_Libraries.md).
 
@@ -70,7 +70,9 @@ The Libraries tab shows a list of the external libraries used by the program, an
 
 
 
-{{Std Base navi}}
+{{Std Base navi}}  
+
+[Category   *Common Questions](Category_Common_Questions.md)
 
 
 

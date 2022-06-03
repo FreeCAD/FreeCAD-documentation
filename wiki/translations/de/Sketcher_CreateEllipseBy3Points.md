@@ -1,21 +1,19 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher CreateEllipseBy3Points
-   Name/de:Skizzierer EllipseDurch3Punkte
-   MenuLocation:Sketch → Skizzengeometrien → Erstellen einer Ellipse durch 3 Punkte
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.15
-   SeeAlso:[Skizzierer Ellipse durch Zentrum](Sketcher_CreateEllipseByCenter/de.md), [Skizzierer Kreis](Sketcher_CreateCircle/de.md), [Sketcher Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md)
+- GuiCommand   */de
+   Name   *Sketcher CreateEllipseBy3Points
+   Name/de   *Sketcher EllipseDurch3PunkteErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Ellipse durch 3 Punkte erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **3** **E**
+   Version   *0.15
+   SeeAlso   *[Sketcher EllipseDurchMittelpunktErstellen](Sketcher_CreateEllipseByCenter/de.md), [Sketcher KreisErstellen](Sketcher_CreateCircle/de.md), [Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md)
 ---
 
 # Sketcher CreateEllipseBy3Points/de
 
-
-</div>
-
 ## Beschreibung
 
-Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: (1) die Periapsis (erste Kreuzung des längeren Durchmessers mit der Ellipse), (2) die Apoapsis (zweite Kreuzung des längeren Durchmessers mit der Ellipse), (3) ein Punkt auf einer Seite des längeren Durchmessers (a), der den kleineren Radius (b) definiert. (c) ist das resultierende Zentrum und (f) sind die Brennpunkte.
+Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden   * (1) die Periapsis (erste Kreuzung des längeren Durchmessers mit der Ellipse), (2) die Apoapsis (zweite Kreuzung des längeren Durchmessers mit der Ellipse), (3) ein Punkt auf einer Seite des längeren Durchmessers (a), der den kleineren Radius (b) definiert. (c) ist das resultierende Zentrum und (f) sind die Brennpunkte.
 
 Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Ellipsensymbol.
 
@@ -30,7 +28,7 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 
 <div class="mw-translate-fuzzy">
 
--   Drücke die **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md)** Schaltfläche .
+-   Drücke die **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width   *16px"> [Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md)** Schaltfläche .
 -   Der erste Klick in der 3D Ansicht setzt einen Punkt, der den Schnittpunkt des Hauptdurchmessers mit der Ellipse (Periapsis) definiert. Der zweite Klick in der 3D Ansicht legt einen Punkt fest, der die Kreuzung des Hauptdurchmessers mit der Ellipse gegenüber dem Mittelpunkt (Apoapsis) definiert. Dritter Klick legt einen Punkt auf der Ellipse fest, der den Nebenradius definiert.
 
 
@@ -46,13 +44,7 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 -   Das Verschieben der Ellipse durch die Kante ist dasselbe wie das Verschieben des Ellipsenmittelpunkts.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

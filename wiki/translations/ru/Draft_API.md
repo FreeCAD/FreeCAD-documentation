@@ -1,9 +1,9 @@
 # Draft API/ru
-**(November 2018) Эта информация может быть неполной и устаревшей. Для последней версии описания программного интерфейса, смотри [https://www.freecadweb.org/api автогенерированную документацию по  API].**
+**(November 2018) Эта информация может быть неполной и устаревшей. Для последней версии описания программного интерфейса, смотри [https   *//www.freecadweb.org/api автогенерированную документацию по  API].**
 
 Эти функции являются частью модуля [верстака Draft](Draft_Workbench/ru.md) и могут быть использованы в [макросах](macros/ru.md) или в консоли [Python](Python/ru.md), когда импортирован модуль `Draft`.
 
-Пример: 
+Пример   * 
 ```python
 import FreeCAD, Draft
 
@@ -77,6 +77,14 @@ Draft.move(myrect, mydistance)
 
 
 {{APIFunction|getSVG|FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]|Создает SVG предствление указанного объекта. Параметр linemodifier  это масштабный фактор(в прцентах)для ширины линииfor line width, и textmodifier для рахзмера текста. Вы также можете дополнительно задать набор векторов определяющих плоскость проекции, в противном случае геометрия будет спроецирована на плоскость XY.|строка содержащая SVG изображение заданного объекта.}}
+
+
+ 
+
+
+
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

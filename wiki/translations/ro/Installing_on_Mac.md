@@ -11,9 +11,9 @@ FreeCAD poate fi instalat in Mac OS X intr-un singur pas folosind programul de i
 
 and the weekly build can be downloaded from
 
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
+<img alt="" src=images/Nightly.png  style="width   *30px;">[Weekly](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
 
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https   *//brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
 
 
 ```python
@@ -27,7 +27,7 @@ and to use the latest version available (0.19pre) on HomeBrew you may run
 brew install freecad
 ```
 
-If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
+If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https   *//github.com/FreeCAD/homebrew-freecad).
 
 Această pagină descrie utilizarea și caracteristicile instalatorului FreeCAD. De asemenea, include instrucțiuni de dezinstalare. După ce ați instalat, puteți [get started](Getting_started.md)!
 
@@ -47,9 +47,9 @@ Et voila! Faceți doar click pe app pentru a lansa FreeCAD. Dacă întâlniți a
 
 ### Dezinstalarea
 
-Încă nu există un program de dezinstalare pentru FreeCAD. Pentru a înlătura complet programul și toate componentele instalate trageți următoarele fișiere și directoare în coșul de Gunoi:
+Încă nu există un program de dezinstalare pentru FreeCAD. Pentru a înlătura complet programul și toate componentele instalate trageți următoarele fișiere și directoare în coșul de Gunoi   *
 
--   In /Applications:
+-   In /Applications   *
     -   FreeCAD
 
 

@@ -13,7 +13,7 @@ Such a tidied up file could be a basis for a Python macro\...
 
 ## Structure of a simple blank page 
 
-The SVG format is a subset of the XML format. That is why an SVG file, like any XML file, consists of two parts:
+The SVG format is a subset of the XML format. That is why an SVG file, like any XML file, consists of two parts   *
 
 -   Head, a format declaration
 -   Body, containing the information what to show and where to place it
@@ -34,8 +34,8 @@ The Body starts with an opening tag which contains information about name spaces
 
 {{Code|lang=xml|code=
 <svg
-  xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns="http   *//www.w3.org/2000/svg" version="1.1"
+  xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -43,17 +43,17 @@ The Body starts with an opening tag which contains information about name spaces
 }}
 
 
-:   **xmlns=**\"<http://www.w3.org/2000/svg>\": External link to the xml name space to look up standard xml commands
-:   **version=**\"1.1\": used xml version is 1.1
-:   **xmlns:freecad=**\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\": External link to FreeCAD\'s name space extension
+   *   **xmlns=**\"<http   *//www.w3.org/2000/svg>\"   * External link to the xml name space to look up standard xml commands
+   *   **version=**\"1.1\"   * used xml version is 1.1
+   *   **xmlns   *freecad=**\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"   * External link to FreeCAD\'s name space extension
 
-    :   to look up special commands that are only used inside a FreeCAD environment e.g. for editable texts
-:   **width=**\"420mm\": Width of the drawing area
-:   **height=**\"297mm\": Height of the drawing area
-:   **viewBox=**\"0 0 420 297\": Position of the upper left corner (0;0) and the lower right corner (420;297) in the svg construction space (in svg units).
-:   Width, height, and viewBox in this combination set 1 svg-unit to 1 mm for the whole document. A dimensional unit can be omitted from now on.
+       *   to look up special commands that are only used inside a FreeCAD environment e.g. for editable texts
+   *   **width=**\"420mm\"   * Width of the drawing area
+   *   **height=**\"297mm\"   * Height of the drawing area
+   *   **viewBox=**\"0 0 420 297\"   * Position of the upper left corner (0;0) and the lower right corner (420;297) in the svg construction space (in svg units).
+   *   Width, height, and viewBox in this combination set 1 svg-unit to 1 mm for the whole document. A dimensional unit can be omitted from now on.
 
-### Result: a blank page of DIN A3 format 
+### Result   * a blank page of DIN A3 format 
 
 For a blank page size DIN A3 in landscape orientation that\'s all.
 
@@ -61,8 +61,8 @@ For a blank page size DIN A3 in landscape orientation that\'s all.
 {{Code|lang=xml|code=
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-  xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns="http   *//www.w3.org/2000/svg" version="1.1"
+  xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -70,9 +70,9 @@ For a blank page size DIN A3 in landscape orientation that\'s all.
 }}
 
 
-:   
+   *   
 
-    :   Just copy or type these few lines and save it as e.g. *MyFirstA3Template-blank*.svg
+       *   Just copy or type these few lines and save it as e.g. *MyFirstA3Template-blank*.svg
 
 ## Frame elements 
 
@@ -88,13 +88,13 @@ For a complete drawing frame we need the frame(s) itself, separators, and indexe
 
 The frame consists of two rectangles, one for the sheet frame and one for the drawing area.
 
-:   The sheet frame has an offset of 5 mm from the page edges except on the left where additional 10 mm are added.
-:   The drawing area has another 5 mm offset from the sheet frame
+   *   The sheet frame has an offset of 5 mm from the page edges except on the left where additional 10 mm are added.
+   *   The drawing area has another 5 mm offset from the sheet frame
 
 
 {{Code|lang=xml|code=
 <g id="drawing-frame"
-  style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:miter;stroke-miterlimit:4">
+  style="fill   *none;stroke   *#000000;stroke-width   *0.5;stroke-linecap   *miter;stroke-miterlimit   *4">
     <<nowiki>!-- Drawing area 20 10 410 287 --</nowiki>>
     <rect width="390" height="277" x="20" y="10" />
     <<nowiki>!-- Sheet frame 15 5 415 292 --</nowiki>>
@@ -103,13 +103,13 @@ The frame consists of two rectangles, one for the sheet frame and one for the dr
 }}
 
 
-:   
+   *   
 
-    :   The group\'s ID is \"drawing-frame\"
-    :   It contains two rectangles which represent the sheet (outer) frame and the outline of the drawing area.
-    :   **fill:none** means closed shapes will not be filled. If this is missing only a black rectangle representing the sheet frame area would be visible.
-    :   **stroke:\#000000** means the outline of all grouped objects will be black.
-    :   **Rect**angles are defined by their Width, hight, and the position of the upper left corner.
+       *   The group\'s ID is \"drawing-frame\"
+       *   It contains two rectangles which represent the sheet (outer) frame and the outline of the drawing area.
+       *   **fill   *none** means closed shapes will not be filled. If this is missing only a black rectangle representing the sheet frame area would be visible.
+       *   **stroke   *#000000** means the outline of all grouped objects will be black.
+       *   **Rect**angles are defined by their Width, hight, and the position of the upper left corner.
 
 ### Separators
 
@@ -118,7 +118,7 @@ In order to virtually split the drawing area into indexed fields index separator
 
 {{Code|lang=xml|code=
 <g id="index-separators"
-  style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:miter;stroke-miterlimit:4">
+  style="fill   *none;stroke   *#000000;stroke-width   *0.25;stroke-linecap   *miter;stroke-miterlimit   *4">
     <path d="m 215.0,15 v -10" />
     <path d="m 215.0,282 v  10" />
     <path d="m 25,148.5 h -20" />
@@ -147,12 +147,12 @@ In order to virtually split the drawing area into indexed fields index separator
 }}
 
 
-:   
+   *   
 
-    :   Since no transformation is involved yet each path starts at the svg file\'s origin.
-    :   At first a relative **m**ovement of a virtual pen to a certain position without drawing
-    :   followed by a **h**orizontal or **v**ertical movement drawing a line.
-    :   Capital letters denote movements to absolute positions otherwise the movements are relative to the last position.
+       *   Since no transformation is involved yet each path starts at the svg file\'s origin.
+       *   At first a relative **m**ovement of a virtual pen to a certain position without drawing
+       *   followed by a **h**orizontal or **v**ertical movement drawing a line.
+       *   Capital letters denote movements to absolute positions otherwise the movements are relative to the last position.
 
 ### Indexes
 
@@ -161,7 +161,7 @@ Now the indexes are inserted.
 
 {{Code|lang=xml|code=
 <g id="indexes"
-  style="font-size:3.5;text-anchor:middle;font-family:osifont">
+  style="font-size   *3.5;text-anchor   *middle;font-family   *osifont">
     <text x="240.0" y="9">5</text>
     <text x="240.0" y="291">5</text>
     <text x="190.0" y="9">4</text>
@@ -194,9 +194,9 @@ Now the indexes are inserted.
 }}
 
 
-:   
+   *   
 
-    :   Since no transformation is involved yet each distance relates to the svg file\'s origin and so capital letters could be used for **x** and **y** as well.
+       *   Since no transformation is involved yet each distance relates to the svg file\'s origin and so capital letters could be used for **x** and **y** as well.
 
 ### Folding Marks 
 
@@ -205,7 +205,7 @@ Folding marks show where to fold a drawing to reduce its size to DIN A4. (DIN ba
 
 {{Code|lang=xml|code=
 <g id="folding marks"
-  style="fill:none;stroke:#b0b0b0;stroke-width:0.25;stroke-linecap:miter;stroke-miterlimit:4">
+  style="fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;stroke-linecap   *miter;stroke-miterlimit   *4">
     <path d="m 125,5 v  -5" />
     <path d="m 125,292 v   5" />
     <path d="m 230,5 v -5" />
@@ -230,12 +230,12 @@ The title block contains elements like a frame, a segmentation, non-editable tex
 </g>
 }}
 
-:   
+   *   
 
-    :   This group is used to set the title block\'s origin and to move all elements between its tags.
-    :   If it is copied into another file defining a different page format then only the coordinates need to be updated and the whole title block is moved into the wanted location.
-    :   **transform=\"translate(230,287)\"** defines a translation of 230 units in x direction and 287 units in y direction.
-    :   Remember: One unit was set to 1 mm within the svg-tag. And so all is moved 230 mm to the right and 287 mm down.
+       *   This group is used to set the title block\'s origin and to move all elements between its tags.
+       *   If it is copied into another file defining a different page format then only the coordinates need to be updated and the whole title block is moved into the wanted location.
+       *   **transform=\"translate(230,287)\"** defines a translation of 230 units in x direction and 287 units in y direction.
+       *   Remember   * One unit was set to 1 mm within the svg-tag. And so all is moved 230 mm to the right and 287 mm down.
 
 ### Title block frame 
 
@@ -244,7 +244,7 @@ This group defines the outline and the coarse segmentation of the title block. T
 
 {{Code|lang=xml|code=
 <g id="titleblock-frame"
-  style="fill:none;stroke:#000000;stroke-width:0.35;stroke-linecap:miter;stroke-miterlimit:4">
+  style="fill   *none;stroke   *#000000;stroke-width   *0.35;stroke-linecap   *miter;stroke-miterlimit   *4">
     <path d="m   0,  0 l   0,-35" />
     <path d="m   0,-35 l 180,  0" />
     <path d="m   0,-14 h 180" />
@@ -260,7 +260,7 @@ This group defines the fine segmentation of the title block. Two groups of segme
 
 {{Code|lang=xml|code=
 <g id="titleblock-structure"
-  style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:miter;stroke-miterlimit:4">
+  style="fill   *none;stroke   *#000000;stroke-width   *0.18;stroke-linecap   *miter;stroke-miterlimit   *4">
     <path d="m   0,-21 h  60" />
     <path d="m   0,-28 h  60" />
     <path d="m 152, -7 h  28" />
@@ -278,22 +278,22 @@ To label the entry fields of the title block non-editable texts are used.
 
 {{Code|lang=xml|code=
 <g id="titleblock-text-non-editable"
-  style="font-size:2;text-anchor:start;font-family:osifont"
-  xml:space="preserve">
-    <text x="  1.5" y="-31  ">Drawn:</text>
-    <text x="  1.5" y="-24  ">Approved:</text>
-    <text x=" 13.5" y="-32.5">Name:</text>
-    <text x=" 13.5" y="-25.5">Name:</text>
-    <text x=" 13.5" y="-18.5">CAD Version:</text>
-    <text x=" 37.5" y="-32.5">Datum:</text>
-    <text x=" 37.5" y="-25.5">Datum:</text>
-    <text x=" 61.5" y="-32.5">Title:</text>
-    <text x=" 61.5" y="-11.5">Part Number:</text>
-    <text x="153.5" y="-32.5">Scale:</text>
-    <text x="153.5" y="-25.5">Material:</text>
-    <text x="153.5" y="-18.5">Mass:</text>
-    <text x="153.5" y="-11.5">Format:</text>
-    <text x="153.5" y=" -4.5">Sheet:</text>
+  style="font-size   *2;text-anchor   *start;font-family   *osifont"
+  xml   *space="preserve">
+    <text x="  1.5" y="-31  ">Drawn   *</text>
+    <text x="  1.5" y="-24  ">Approved   *</text>
+    <text x=" 13.5" y="-32.5">Name   *</text>
+    <text x=" 13.5" y="-25.5">Name   *</text>
+    <text x=" 13.5" y="-18.5">CAD Version   *</text>
+    <text x=" 37.5" y="-32.5">Datum   *</text>
+    <text x=" 37.5" y="-25.5">Datum   *</text>
+    <text x=" 61.5" y="-32.5">Title   *</text>
+    <text x=" 61.5" y="-11.5">Part Number   *</text>
+    <text x="153.5" y="-32.5">Scale   *</text>
+    <text x="153.5" y="-25.5">Material   *</text>
+    <text x="153.5" y="-18.5">Mass   *</text>
+    <text x="153.5" y="-11.5">Format   *</text>
+    <text x="153.5" y=" -4.5">Sheet   *</text>
 </g>
 }}
 
@@ -342,10 +342,10 @@ That symbol shows if first angle projection is used to arrange the views or thir
 </div>
 
 
-:   
+   *   
 
-    :   Parameters can be placed inside not only in the group tag but inside the circle and path tags as well.
-    :   the values defined inside the circle and path tags override the values defined in the group tag.
+       *   Parameters can be placed inside not only in the group tag but inside the circle and path tags as well.
+       *   the values defined inside the circle and path tags override the values defined in the group tag.
 
 
 </div>
@@ -357,7 +357,7 @@ The FreeCAD logo consists of an F symbol and a cog symbol. The shared parameters
 
 {{Code|lang=xml|code=
 <g id="freecad-logo"
-  style="display:inline"
+  style="display   *inline"
   stroke="#000000"
   stroke-width="0.25"
   fill="none"
@@ -373,11 +373,11 @@ The FreeCAD logo consists of an F symbol and a cog symbol. The shared parameters
 }}
 
 
-:   
+   *   
 
-    :   The group tag contains all parameters to draw outline only symbols
-    :   The colour parameters inside the Path tags override the \"none\" value of the Group tag.
-    :   The logo paths are copied from an existing file and not split in single strokes like in the other sections, and so the coordinates are less clearly represented.
+       *   The group tag contains all parameters to draw outline only symbols
+       *   The colour parameters inside the Path tags override the \"none\" value of the Group tag.
+       *   The logo paths are copied from an existing file and not split in single strokes like in the other sections, and so the coordinates are less clearly represented.
 
 ### Title block text editable 
 
@@ -385,62 +385,62 @@ The editable texts are sorted according to font size. The group tag defines the 
 
 **Attention!** Coordinates of editable texts have to be absolute (relate to the document\'s origin)! They are not compatible with transformations!
 
-:   
+   *   
 
-    :   (Only the texts could be moved but the green handles would stay in place)
+       *   (Only the texts could be moved but the green handles would stay in place)
 
 
 {{Code|lang=xml|code=
 <g id="titleblock-text-editable"
-  style="font-family:osifont"
+  style="font-family   *osifont"
   fill="#0000d0">
     <g id="titleblock-editable-small"
-      style="font-size:3.5;text-anchor:start">
-      <text freecad:editable="Drawn" x="244" y="258">  <tspan>Your Name</tspan>  </text>
-      <text freecad:editable="DrDate" x="269" y="258">  <tspan>YY/MM/DD</tspan>  </text>
-      <text freecad:editable="Approved" x="244" y="265">  <tspan>---</tspan>  </text>
-      <text freecad:editable="ApDate" x="269" y="265">  <tspan>YY/MM/DD</tspan>  </text>
-      <text freecad:editable="CADVersion" x="244" y="272">  <tspan>FreeCAD 0.19</tspan>  </text>
-      <text freecad:editable="Material" x="395" y="264.5">  <tspan>Mat.</tspan>  </text>
-      <text freecad:editable="Mass" x="395" y="271.5">  <tspan>-,- g</tspan>  </text>
+      style="font-size   *3.5;text-anchor   *start">
+      <text freecad   *editable="Drawn" x="244" y="258">  <tspan>Your Name</tspan>  </text>
+      <text freecad   *editable="DrDate" x="269" y="258">  <tspan>YY/MM/DD</tspan>  </text>
+      <text freecad   *editable="Approved" x="244" y="265">  <tspan>---</tspan>  </text>
+      <text freecad   *editable="ApDate" x="269" y="265">  <tspan>YY/MM/DD</tspan>  </text>
+      <text freecad   *editable="CADVersion" x="244" y="272">  <tspan>FreeCAD 0.19</tspan>  </text>
+      <text freecad   *editable="Material" x="395" y="264.5">  <tspan>Mat.</tspan>  </text>
+      <text freecad   *editable="Mass" x="395" y="271.5">  <tspan>-,- g</tspan>  </text>
     </g>
     <g id="titleblock-editable-medium"
-      style="font-size:5;text-anchor:start">
-      <text freecad:editable="Title" x="293" y="260">  <tspan>Part name</tspan>  </text>
-      <text freecad:editable="SubTitle" x="293" y="267">  <tspan>-</tspan>  </text>
-      <text freecad:editable="Scale" x="395" y="258">  <tspan>1:1</tspan>  </text>
-      <text freecad:editable="Format" x="395" y="279">  <tspan>A3</tspan>  </text>
-      <text freecad:editable="Sheets" x="395" y="286">  <tspan>1 / 1</tspan>  </text>
+      style="font-size   *5;text-anchor   *start">
+      <text freecad   *editable="Title" x="293" y="260">  <tspan>Part name</tspan>  </text>
+      <text freecad   *editable="SubTitle" x="293" y="267">  <tspan>-</tspan>  </text>
+      <text freecad   *editable="Scale" x="395" y="258">  <tspan>1   *1</tspan>  </text>
+      <text freecad   *editable="Format" x="395" y="279">  <tspan>A3</tspan>  </text>
+      <text freecad   *editable="Sheets" x="395" y="286">  <tspan>1 / 1</tspan>  </text>
     </g>
     <g id="titleblock-editable-Large"
-      style="font-size:7;text-anchor:end">
-        <text freecad:editable="DrNumber" x="377" y="285">  <tspan>Drawing number</tspan>  </text>
+      style="font-size   *7;text-anchor   *end">
+        <text freecad   *editable="DrNumber" x="377" y="285">  <tspan>Drawing number</tspan>  </text>
     </g>
     <g id="titleblock-editable-company"
-      style="font-size:2.5;text-anchor:start">
-        <text freecad:editable="Company" x="246" y="276">  <tspan>Company name</tspan>  </text>
+      style="font-size   *2.5;text-anchor   *start">
+        <text freecad   *editable="Company" x="246" y="276">  <tspan>Company name</tspan>  </text>
     </g>
     <g id="titleblock-editable-address"
-      style="font-size:1.8;text-anchor:start">
-        <text freecad:editable="Address-1" x="246" y="279">  <tspan>Street address</tspan>  </text>
-        <text freecad:editable="Address-2" x="246" y="281.5">  <tspan>Postcode + City, Country</tspan>  </text>
-        <text freecad:editable="MailTo" x="246" y="286">  <tspan>Name@Website</tspan>  </text>
+      style="font-size   *1.8;text-anchor   *start">
+        <text freecad   *editable="Address-1" x="246" y="279">  <tspan>Street address</tspan>  </text>
+        <text freecad   *editable="Address-2" x="246" y="281.5">  <tspan>Postcode + City, Country</tspan>  </text>
+        <text freecad   *editable="MailTo" x="246" y="286">  <tspan>Name@Website</tspan>  </text>
     </g>
 </g>
 }}
 
 
-:   
+   *   
 
-    :   The text tags are extended with **freecad:editable=\"** *variable name* **\"** to supply The FreeCAD file with addressable variables when the template is inserted.
-    :   The default texts need to be surrounded by tspan tags otherwise the displayed text within the title block will not synchronise with modified variable content.
+       *   The text tags are extended with **freecad   *editable=\"** *variable name* **\"** to supply The FreeCAD file with addressable variables when the template is inserted.
+       *   The default texts need to be surrounded by tspan tags otherwise the displayed text within the title block will not synchronise with modified variable content.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
 ### Complete template 
 
-<img alt="" src=images/TechDraw_PageDefault.svg  style="width:64px;">
+<img alt="" src=images/TechDraw_PageDefault.svg  style="width   *64px;">
 
 
 <div class="mw-collapsible-content">
@@ -450,20 +450,20 @@ The editable texts are sorted according to font size. The group tag defines the 
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <svg
-  xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns="http   *//www.w3.org/2000/svg" version="1.1"
+  xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">
     <g id="drawing-frame"
-      style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:miter;stroke-miterlimit:4">
+      style="fill   *none;stroke   *#000000;stroke-width   *0.5;stroke-linecap   *miter;stroke-miterlimit   *4">
       
       <rect width="390" height="277" x="20" y="10" />
       
       <rect width="400" height="287" x="15" y="5" />
     </g>
     <g id="index-separators"
-      style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:miter;stroke-miterlimit:4">
+      style="fill   *none;stroke   *#000000;stroke-width   *0.25;stroke-linecap   *miter;stroke-miterlimit   *4">
         <path d="m 215.0,15 v -10" />
         <path d="m 215.0,282 v  10" />
         <path d="m 25,148.5 h -20" />
@@ -490,7 +490,7 @@ The editable texts are sorted according to font size. The group tag defines the 
         <path d="m 410,48.5 h   5" />
     </g>
     <g id="indexes"
-      style="font-size:3.5;text-anchor:middle;font-family:osifont">
+      style="font-size   *3.5;text-anchor   *middle;font-family   *osifont">
         <text x="240.0" y="9">5</text>
         <text x="240.0" y="291">5</text>
         <text x="190.0" y="9">4</text>
@@ -521,7 +521,7 @@ The editable texts are sorted according to font size. The group tag defines the 
         <text x="412.5" y="23.5">A</text>
     </g>
     <g id="folding marks"
-      style="fill:none;stroke:#b0b0b0;stroke-width:0.25;stroke-linecap:miter;stroke-miterlimit:4">
+      style="fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;stroke-linecap   *miter;stroke-miterlimit   *4">
         <path d="m 125,5 v  -5" />
         <path d="m 125,292 v   5" />
         <path d="m 230,5 v -5" />
@@ -533,7 +533,7 @@ The editable texts are sorted according to font size. The group tag defines the 
       
 
       <g id="titleblock-frame"
-        style="fill:none;stroke:#000000;stroke-width:0.35;stroke-linecap:miter;stroke-miterlimit:4">
+        style="fill   *none;stroke   *#000000;stroke-width   *0.35;stroke-linecap   *miter;stroke-miterlimit   *4">
           <path d="m   0,  0 l   0,-35" />
           <path d="m   0,-35 l 180,  0" />
           <path d="m   0,-14 h 180" />
@@ -541,7 +541,7 @@ The editable texts are sorted according to font size. The group tag defines the 
           <path d="m 152,  0 v -35" />
       </g>
       <g id="titleblock-structure"
-        style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:miter;stroke-miterlimit:4">
+        style="fill   *none;stroke   *#000000;stroke-width   *0.18;stroke-linecap   *miter;stroke-miterlimit   *4">
           <path d="m   0,-21 h  60" />
           <path d="m   0,-28 h  60" />
           <path d="m 152, -7 h  28" />
@@ -551,21 +551,21 @@ The editable texts are sorted according to font size. The group tag defines the 
           <path d="m  36,-14 v -21" />
       </g>
       <g id="titleblock-text-non-editable"
-        style="font-size:2;text-anchor:start;font-family:osifont">
-          <text x="  1.5" y="-31  ">Drawn:</text>
-          <text x="  1.5" y="-24  ">Approved:</text>
-          <text x=" 13.5" y="-32.5">Name:</text>
-          <text x=" 13.5" y="-25.5">Name:</text>
-          <text x=" 13.5" y="-18.5">CAD Version:</text>
-          <text x=" 37.5" y="-32.5">Date:</text>
-          <text x=" 37.5" y="-25.5">Date:</text>
-          <text x=" 61.5" y="-32.5">Title:</text>
-          <text x=" 61.5" y="-11.5">Part Number:</text>
-          <text x="153.5" y="-32.5">Scale:</text>
-          <text x="153.5" y="-25.5">Material:</text>
-          <text x="153.5" y="-18.5">Mass:</text>
-          <text x="153.5" y="-11.5">Format:</text>
-          <text x="153.5" y=" -4.5">Sheet:</text>
+        style="font-size   *2;text-anchor   *start;font-family   *osifont">
+          <text x="  1.5" y="-31  ">Drawn   *</text>
+          <text x="  1.5" y="-24  ">Approved   *</text>
+          <text x=" 13.5" y="-32.5">Name   *</text>
+          <text x=" 13.5" y="-25.5">Name   *</text>
+          <text x=" 13.5" y="-18.5">CAD Version   *</text>
+          <text x=" 37.5" y="-32.5">Date   *</text>
+          <text x=" 37.5" y="-25.5">Date   *</text>
+          <text x=" 61.5" y="-32.5">Title   *</text>
+          <text x=" 61.5" y="-11.5">Part Number   *</text>
+          <text x="153.5" y="-32.5">Scale   *</text>
+          <text x="153.5" y="-25.5">Material   *</text>
+          <text x="153.5" y="-18.5">Mass   *</text>
+          <text x="153.5" y="-11.5">Format   *</text>
+          <text x="153.5" y=" -4.5">Sheet   *</text>
       </g>
       <g id="Projection-symbol"
         stroke="#000000"
@@ -595,7 +595,7 @@ The editable texts are sorted according to font size. The group tag defines the 
       <path d="m  -5.4 , 0    h   0.3" />
       </g>
       <g id="freecad-logo"
-        style="display:inline"
+        style="display   *inline"
         stroke="#000000"
         stroke-width="0.25"
         fill="none"
@@ -610,39 +610,39 @@ The editable texts are sorted according to font size. The group tag defines the 
       </g>
     </g>
     <g id="titleblock-text-editable"
-      style="font-family:osifont"
+      style="font-family   *osifont"
       fill="#0000d0">
         <g id="titleblock-editable-small"
-          style="font-size:3.5;text-anchor:start">
-            <text freecad:editable="Drawn" x="244" y="258">  <tspan>Your Name</tspan>  </text>
-            <text freecad:editable="DrDate" x="269" y="258">  <tspan>YY/MM/DD</tspan>  </text>
-            <text freecad:editable="Approved" x="244" y="265">  <tspan>---</tspan>  </text>
-            <text freecad:editable="ApDate" x="269" y="265">  <tspan>YY/MM/DD</tspan>  </text>
-            <text freecad:editable="CADVersion" x="244" y="272">  <tspan>FreeCAD 0.19</tspan>  </text>
-            <text freecad:editable="Material" x="395" y="264.5">  <tspan>Mat.</tspan>  </text>
-            <text freecad:editable="Mass" x="395" y="271.5">  <tspan>-,- g</tspan>  </text>
+          style="font-size   *3.5;text-anchor   *start">
+            <text freecad   *editable="Drawn" x="244" y="258">  <tspan>Your Name</tspan>  </text>
+            <text freecad   *editable="DrDate" x="269" y="258">  <tspan>YY/MM/DD</tspan>  </text>
+            <text freecad   *editable="Approved" x="244" y="265">  <tspan>---</tspan>  </text>
+            <text freecad   *editable="ApDate" x="269" y="265">  <tspan>YY/MM/DD</tspan>  </text>
+            <text freecad   *editable="CADVersion" x="244" y="272">  <tspan>FreeCAD 0.19</tspan>  </text>
+            <text freecad   *editable="Material" x="395" y="264.5">  <tspan>Mat.</tspan>  </text>
+            <text freecad   *editable="Mass" x="395" y="271.5">  <tspan>-,- g</tspan>  </text>
     </g>
         <g id="titleblock-editable-medium"
-          style="font-size:5;text-anchor:start">
-            <text freecad:editable="Title" x="293" y="260">  <tspan>Part name</tspan>  </text>
-        <text freecad:editable="SubTitle" x="293" y="267">  <tspan>-</tspan>  </text>
-        <text freecad:editable="Scale" x="395" y="258">  <tspan>1:1</tspan>  </text>
-        <text freecad:editable="Format" x="395" y="279">  <tspan>A3</tspan>  </text>
-        <text freecad:editable="Sheets" x="395" y="286">  <tspan>1 / 1</tspan>  </text>
+          style="font-size   *5;text-anchor   *start">
+            <text freecad   *editable="Title" x="293" y="260">  <tspan>Part name</tspan>  </text>
+        <text freecad   *editable="SubTitle" x="293" y="267">  <tspan>-</tspan>  </text>
+        <text freecad   *editable="Scale" x="395" y="258">  <tspan>1   *1</tspan>  </text>
+        <text freecad   *editable="Format" x="395" y="279">  <tspan>A3</tspan>  </text>
+        <text freecad   *editable="Sheets" x="395" y="286">  <tspan>1 / 1</tspan>  </text>
     </g>
     <g id="titleblock-editable-Large"
-      style="font-size:7;text-anchor:end">
-        <text freecad:editable="DrNumber" x="377" y="285">  <tspan>Drawing number</tspan>  </text>
+      style="font-size   *7;text-anchor   *end">
+        <text freecad   *editable="DrNumber" x="377" y="285">  <tspan>Drawing number</tspan>  </text>
     </g>
     <g id="titleblock-editable-company"
-      style="font-size:2.5;text-anchor:start">
-        <text freecad:editable="Company" x="246" y="276">  <tspan>Company name</tspan>  </text>
+      style="font-size   *2.5;text-anchor   *start">
+        <text freecad   *editable="Company" x="246" y="276">  <tspan>Company name</tspan>  </text>
     </g>
         <g id="titleblock-editable-address"
-          style="font-size:1.8;text-anchor:start">
-            <text freecad:editable="Address-1" x="246" y="279">  <tspan>Street address</tspan>  </text>
-            <text freecad:editable="Address-2" x="246" y="281.5"> <tspan>Postcode + City, Country</tspan> </text>
-            <text freecad:editable="MailTo" x="246" y="286">  <tspan>Name@Website</tspan>  </text>
+          style="font-size   *1.8;text-anchor   *start">
+            <text freecad   *editable="Address-1" x="246" y="279">  <tspan>Street address</tspan>  </text>
+            <text freecad   *editable="Address-2" x="246" y="281.5"> <tspan>Postcode + City, Country</tspan> </text>
+            <text freecad   *editable="MailTo" x="246" y="286">  <tspan>Name@Website</tspan>  </text>
         </g>
   </g>
 </svg>
@@ -655,6 +655,8 @@ The editable texts are sorted according to font size. The group tag defines the 
 </div>
 
 Dies ist eine Sandbox
+
+[Category   *Sandbox](Category_Sandbox.md)
 
 
 

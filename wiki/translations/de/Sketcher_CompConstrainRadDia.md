@@ -12,8 +12,8 @@
 
 ## Beschränkungsarten für einen Bogen oder Kreis 
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Beschränke Radius](Sketcher_ConstrainRadius/de.md) : Fixiere den Radius eines Kreises oder Bogens.
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Beschränke Durchmesser](Sketcher_ConstrainDiameter/de.md) : Fixiere den Durchmesser eines Kreises oder Bogens.
+-   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Beschränke Radius](Sketcher_ConstrainRadius/de.md)    * Fixiere den Radius eines Kreises oder Bogens.
+-   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Beschränke Durchmesser](Sketcher_ConstrainDiameter/de.md)    * Fixiere den Durchmesser eines Kreises oder Bogens.
 
 
 {{Sketcher Tools navi

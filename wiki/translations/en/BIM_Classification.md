@@ -1,18 +1,18 @@
 ---
-- GuiCommand:Addon
-   Name:BIM Classification
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage → Classification
+- GuiCommand   *Addon
+   Name   *BIM Classification
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon   *BIM
+   MenuLocation   *Manage → Classification
 ---
 
 # BIM Classification/en
 
 ## Description
 
-<img alt="" src=images/BIM_classification_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_classification_screenshot.png  style="width   *1024px;">
 
-The classifications manager allows you to attribute a standard class to a BIM object or material. Several classification systems are available in XML or IFC form (both are supported by this tool) from <https://github.com/Moult/IfcClassification>, or directly from their publishers or from <https://www.graphisoft.com/downloads/archicad/BIM_Data.html> . To make these XML or IFC files known to FreeCAD they must be placed in a BIM subfolder of your FreeCAD user folder. The exact location for your system is informed on the BIM classification dialog. If both an IFC and XML file are available, the BIM Classification tool will prefer the IFC one.
+The classifications manager allows you to attribute a standard class to a BIM object or material. Several classification systems are available in XML or IFC form (both are supported by this tool) from <https   *//github.com/Moult/IfcClassification>, or directly from their publishers or from <https   *//www.graphisoft.com/downloads/archicad/BIM_Data.html> . To make these XML or IFC files known to FreeCAD they must be placed in a BIM subfolder of your FreeCAD user folder. The exact location for your system is informed on the BIM classification dialog. If both an IFC and XML file are available, the BIM Classification tool will prefer the IFC one.
 
 ## Usage
 

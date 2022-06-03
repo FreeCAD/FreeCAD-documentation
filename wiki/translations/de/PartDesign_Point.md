@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign Point
-   Name/de:PartDesign Bezugspunkt erstellen
-   MenuLocation:Part Design → Bezugselement erstellen → Bezugspunkt erstellen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
+- GuiCommand   */de
+   Name   *PartDesign Point
+   Name/de   *PartDesign Bezugspunkt erstellen
+   MenuLocation   *Part Design → Bezugselement erstellen → Bezugspunkt erstellen
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
 ---
 
 # PartDesign Point/de
@@ -19,30 +19,32 @@ Erstellt einen Bezugspunkt. Dieser kann innerhalb des aktuellen Körpers referen
 
 ## Anwendung
 
+1.  Schaltfläche **<img src="images/PartDesign_Point.svg" width=24px> '''Bezugspunkt erstellent'''** drücken.
 
-<div class="mw-translate-fuzzy">
+2.  Die Parameter des Punktes definieren. Eine erste Referenz in der 3D-Ansicht auswählen, um die verfügbaren Verbindungsarten zu filtern.
 
-1.  Klicke auf das **<img src="images/PartDesign_Point.svg" width=24px> '''Erstellen eines neuen Bezugspunkts'''** Icon.
-2.  Definiere die Parameter des Punkts. Wähle erst einen Referenzpunkt und dann einen der möglichen Modi
-3.  Je nach Referenz gibt es verschiedene Aufhängemodi. Der wahrscheinlichste ist vorselektiert (Fettschrift ) . Der gewählte Modus erscheint als Hinweis in der Ziel über der Referenzauswahl.
-4.  Um weitere Referenzen zu wählen, auf das nächste **Reference** Icon klicken und ein Objekt auswählen.
-5.  Falls nötig wiederum einen Modus wählen und einen Offset eingeben.
-6.  Mit **OK** abschliessen.
+3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text \'\'Angehängt im Modus   * \'\' zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
 
+4.  Um eine weitere Referenz hinzuzufügen, drückt man die nächste **Referenz**-Schaltfläche. Sobald sie gerückt wurde ändert sich die Beschriftung zu *Auswählen\...*, bis etwas ausgewählt wurde.
 
-</div>
+5.  Einen Befestigungsmodus aus der Liste Wählen.
+
+6.  Versatzwerte für die Verbindung festlegen.
+
+7.  
+    **OK**drücken.
 
 ## Optionen
 
-Doppel-Klicke das Referenzpunkt Label im Modellbaum oder klicke dies einfach und selektiere \"Bezug ändern\" oder wähle ein Referenzobjekt mit der rechten Maustaste im Kontextmenu. Details findet man bei Referenzmodus und Offsets , siehe: [Part AnhangBearbeiten](Part_EditAttachment/de.md).
+Doppel-Klicke das Referenzpunkt Label im Modellbaum oder klicke dies einfach und selektiere \"Bezug ändern\" oder wähle ein Referenzobjekt mit der rechten Maustaste im Kontextmenu. Details findet man bei Referenzmodus und Offsets , siehe   * [Part AnhangBearbeiten](Part_EditAttachment/de.md).
 
 ## Eigenschaften
 
--    {{PropertyData/de|MapMode}}: Listet die benutzten Referenzmodi.
+-    {{PropertyData/de|MapMode}}   * Listet die benutzten Referenzmodi.
 
--    {{PropertyData/de|Attachment Offset}}: Transformiert ( Verschiebung und Rotation ) das Objekt in Bezug auf seinen Referenzpunkt und seine Richtung.
+-    {{PropertyData/de|Attachment Offset}}   * Transformiert ( Verschiebung und Rotation ) das Objekt in Bezug auf seinen Referenzpunkt und seine Richtung.
 
--    {{PropertyData/de|Label}}: änderbarer Name des Objekts
+-    {{PropertyData/de|Label}}   * änderbarer Name des Objekts
 
 ## Einschränkungen
 

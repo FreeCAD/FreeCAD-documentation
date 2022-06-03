@@ -1,6 +1,6 @@
 # Plot Save/es
 ---
-- GuiCommand:/es   Name:Plot Save   Workbenches:[[Plot_Workbench/es   Plot]]|MenuLocation:Plot → Guardar gráfico---
+- GuiCommand   */es   Name   *Plot Save   Workbenches   *[[Plot_Workbench/es   Plot]]|MenuLocation   *Plot → Guardar gráfico---
 
 
 </div>
@@ -17,7 +17,7 @@ La herramienta de guardado de gráficos le permite salvar los gráficos creados 
 
 </div>
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 
 ## Usage
 
@@ -41,9 +41,9 @@ Selecciona el gráfico que deseas salvar mediante las pestañas de la vista prin
 
 ## Opciones
 
--   **Ruta de archivo**: Puedes especificar la ruta del archivo a guardar (incluyendo su extensión) editándolo el la lñinea de texto.
--   **Tamaño**: Permite especificar el ancho y alto de la imagen a generar (en pulgadas).
--   **dpi**: Permite establecer los puntos por pulgada que se generarán en la imagen. La resolución final (en pixels) resultará de la multiplicación del tamaño de la imagen por los puntos por pulgada especificados.
+-   **Ruta de archivo**   * Puedes especificar la ruta del archivo a guardar (incluyendo su extensión) editándolo el la lñinea de texto.
+-   **Tamaño**   * Permite especificar el ancho y alto de la imagen a generar (en pulgadas).
+-   **dpi**   * Permite establecer los puntos por pulgada que se generarán en la imagen. La resolución final (en pixels) resultará de la multiplicación del tamaño de la imagen por los puntos por pulgada especificados.
 
 
 </div>
@@ -54,7 +54,9 @@ Selecciona el gráfico que deseas salvar mediante las pestañas de la vista prin
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

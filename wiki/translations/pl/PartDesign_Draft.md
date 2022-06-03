@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/pl
-   Name:PartDesign Draft
-   Name/pl:Projekt części: Pochylenie ścian
-   MenuLocation:Projekt Części → Zastosuj funkcje ulepszenia → Pochylenie ścian
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+- GuiCommand   */pl
+   Name   *PartDesign Draft
+   Name/pl   *Projekt części   * Pochylenie ścian
+   MenuLocation   *Projekt Części → Zastosuj funkcje ulepszenia → Pochylenie ścian
+   Workbenches   *[Projekt Części](PartDesign_Workbench/pl.md)
 ---
 
 # PartDesign Draft/pl

@@ -1,6 +1,6 @@
 # FEM CreateNodesSet/ro
 ---
-- GuiCommand:   Name:FEM CreateNodesSet    MenuLocation:Mesh → Nodes set   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand   *   Name   *FEM CreateNodesSet    MenuLocation   *Mesh → Nodes set   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>

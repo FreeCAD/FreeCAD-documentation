@@ -16,34 +16,34 @@ Denna sida visar hur lätt avancerad funktionalitet kan byggas i Python. I denna
 
 ## Huvudskriptet
 
-Först kommer vi att skriva ett skript som innehåller all vår funktionalitet. Sedan kommer vi att spara detta i en fil, och importera den i FreeCAD, så att alla klasser och funktioner som vi skriver kommer att vara tillgängliga för FreeCAD. Så, starta din favorit textredigerare, , och skriv följande rader:
+Först kommer vi att skriva ett skript som innehåller all vår funktionalitet. Sedan kommer vi att spara detta i en fil, och importera den i FreeCAD, så att alla klasser och funktioner som vi skriver kommer att vara tillgängliga för FreeCAD. Så, starta din favorit textredigerare, , och skriv följande rader   *
 
 
 </div>
 
-First we will write a script containing all our functionality. Then we will save this in a file and import it in FreeCAD to make all its classes and functions available. Launch your favorite code editor and type the following lines:
+First we will write a script containing all our functionality. Then we will save this in a file and import it in FreeCAD to make all its classes and functions available. Launch your favorite code editor and type the following lines   *
 
 
 ```python
 import FreeCADGui, Part
 from pivy.coin import *
 
-class line:
+class line   *
 
     """This class will create a line after the user clicked 2 points on the screen"""
 
-    def __init__(self):
+    def __init__(self)   *
         self.view = FreeCADGui.ActiveDocument.ActiveView
         self.stack = []
         self.callback = self.view.addEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.getpoint)
 
-    def getpoint(self, event_cb):
+    def getpoint(self, event_cb)   *
         event = event_cb.getEvent()
-        if event.getState() == SoMouseButtonEvent.DOWN:
+        if event.getState() == SoMouseButtonEvent.DOWN   *
             pos = event.getPosition()
             point = self.view.getPoint(pos[0], pos[1])
             self.stack.append(point)
-            if len(self.stack) == 2:
+            if len(self.stack) == 2   *
                 l = Part.LineSegment(self.stack[0], self.stack[1])
                 shape = l.toShape()
                 Part.show(shape)
@@ -71,7 +71,7 @@ När du vill använda funktioner från en annan modul I Python, så behöver du 
 
 
 ```python
-class line:
+class line   *
 ```
 
 Här definierar vi vår huvudklass. Varför använder vi en klass och inte en funktion? Skälet är att vårt verktyg behöver \"stanna vid liv\" medan vi väntar på att användaren ska klicka på skärmen. En funktion avslutas när dess uppgift är klar, men ett objekt (en klass definierar ett objekt) stannar vid liv ända tills den förstörs.
@@ -91,7 +91,7 @@ I Python, så kan varje klass eller funktion ha en beskrivningssträng. Detta ä
 
 
 ```python
-def __init__(self):
+def __init__(self)   *
 ```
 
 
@@ -136,7 +136,7 @@ self.callback = self.view.addEventCallbackPivy(SoMouseButtonEvent.getClassTypeId
 
 <div class="mw-translate-fuzzy">
 
-Detta är den viktiga delen: Eftersom det egentligen är en [coin3D](http://www.coin3d.org/) scen, så använder FreeCAD coin\'s återanropsmekanism, som tillåter en funktion att anropas varje gång en viss scenhändelse inträffar. I vårt fall, så skapar vi ett återanrop för [SoMouseButtonEvent](http://doc.coin3d.org/Coin/group__events.html) händelser, och vi binder den till getpoint funktionen. Nu, varje gång som en musknapp trycks ned eller släpps, så kommer getpoint funktionen att utföras.
+Detta är den viktiga delen   * Eftersom det egentligen är en [coin3D](http   *//www.coin3d.org/) scen, så använder FreeCAD coin\'s återanropsmekanism, som tillåter en funktion att anropas varje gång en viss scenhändelse inträffar. I vårt fall, så skapar vi ett återanrop för [SoMouseButtonEvent](http   *//doc.coin3d.org/Coin/group__events.html) händelser, och vi binder den till getpoint funktionen. Nu, varje gång som en musknapp trycks ned eller släpps, så kommer getpoint funktionen att utföras.
 
 
 </div>
@@ -154,7 +154,7 @@ Notera att det finns ett alternativ till addEventCallbackPivy() kallat addEventC
 
 
 ```python
-def getpoint(self, event_cb):
+def getpoint(self, event_cb)   *
 ```
 
 
@@ -167,7 +167,7 @@ Nu definierar vi getpoint funktionen, som kommer utföras när en musknapp tryck
 
 
 ```python
-if event.getState() == SoMouseButtonEvent.DOWN:
+if event.getState() == SoMouseButtonEvent.DOWN   *
 ```
 
 
@@ -219,7 +219,7 @@ Vi lägger till vår nya punkt till stacken
 
 
 ```python
-if len(self.stack) == 2:
+if len(self.stack) == 2   *
 ```
 
 Har vi tillräckligt med punkter? Om ja, låt oss då rita linjen!
@@ -284,17 +284,17 @@ Eftersom vi är klara med vår linje, låt oss ta bort vår återanropsmekanism,
 
 ## Testa & använda skriptet 
 
-Låt oss nu spara vårt skript på någon plats där FreeCAD\'s python tolk kommer att hitta den. När moduler importerass, så kommer tolken att leta på följande platser: python\'s installationssökväg, FreeCAD bin katalogen, och alla FreeCAD modulkataloger. Så, den bästa lösningen är att skapa en ny katalog i en av FreeCAD\'s [Mod kataloger](Installing_more_workbenches/sv.md), och spara vårt skript i den. Låt oss till exempel skapa en \"MinaSkript\" katalog, och spara vårt skript som \"ovning.py\".
+Låt oss nu spara vårt skript på någon plats där FreeCAD\'s python tolk kommer att hitta den. När moduler importerass, så kommer tolken att leta på följande platser   * python\'s installationssökväg, FreeCAD bin katalogen, och alla FreeCAD modulkataloger. Så, den bästa lösningen är att skapa en ny katalog i en av FreeCAD\'s [Mod kataloger](Installing_more_workbenches/sv.md), och spara vårt skript i den. Låt oss till exempel skapa en \"MinaSkript\" katalog, och spara vårt skript som \"ovning.py\".
 
 
 </div>
 
-Now let\'s save our script in a folder where the FreeCAD Python interpreter can find it. When importing modules, the interpreter will look in the following places: the Python installation paths, the FreeCAD {{FileName|bin}} folder, and all FreeCAD {{FileName|Mod}} (module) folders. So the best solution is to create a new folder in one of the {{FileName|Mod}} folders. Let\'s create a {{FileName|MyScripts}} folder there and save our script in it as {{FileName|exercise.py}}.
+Now let\'s save our script in a folder where the FreeCAD Python interpreter can find it. When importing modules, the interpreter will look in the following places   * the Python installation paths, the FreeCAD **bin** folder, and all FreeCAD **Mod** (module) folders. So the best solution is to create a new folder in one of the **Mod** folders. Let\'s create a **MyScripts** folder there and save our script in it as **exercise.py**.
 
 
 <div class="mw-translate-fuzzy">
 
-Nu är allt klart, låt oss starta FreeCAD, skapa ett nytt dokument, och i pythontolken skriva:
+Nu är allt klart, låt oss starta FreeCAD, skapa ett nytt dokument, och i pythontolken skriva   *
 
 
 </div>
@@ -307,7 +307,7 @@ import exercise
 
 <div class="mw-translate-fuzzy">
 
-Om inga felmeddelanden kommer fram, så innebär det att vårt övningsskript har laddats. Vi kan nu kontrollera dess innehåll med :
+Om inga felmeddelanden kommer fram, så innebär det att vårt övningsskript har laddats. Vi kan nu kontrollera dess innehåll med    *
 
 
 </div>
@@ -320,7 +320,7 @@ dir(exercise)
 
 <div class="mw-translate-fuzzy">
 
-Kommandot dir() är ett inbyggt python kommando som listar modulens innehåll. Vi kan se att vår line() klass är där, som väntar på oss. Låt oss nu testa den:
+Kommandot dir() är ett inbyggt python kommando som listar modulens innehåll. Vi kan se att vår line() klass är där, som väntar på oss. Låt oss nu testa den   *
 
 
 </div>
@@ -330,7 +330,7 @@ Kommandot dir() är ett inbyggt python kommando som listar modulens innehåll. V
 'line' in dir(exercise)
 ```
 
-Now let\'s test it:
+Now let\'s test it   *
 
 
 ```python
@@ -353,20 +353,20 @@ Klicka sedan på två olika ställen i 3D vyn, och bingo, där är vår linje! F
 
 ## Registrera skriptet i FreeCAD\'s gränssnitt 
 
-För att vårt nya linjeverktyg ska bli ännu häftigare, så borde det ha en knapp i gränssnittet, så vi inte behöver skriva allt det varje gång. Den lättaste vägen är att omvandla vår nya MinaSkript katalog till en full FreeCAD arbetsbänk. Det är lätt, allt som behövs är att lägga in en fil som kallas **InitGui.py** inuti din MinaSkript katalog. InitGui.py kommer att innehålla instruktioner för att skapa en ny arbetsbänk, och addera vårt nya verktyg till den. Förutom det så behöver vi ändra vår övningskod lite, så att line() verktyget igenkänns som ett officiellt FreeCAD kommando. Låt oss starta genom att göra en InitGui.py fil, och skriva följande kod i den:
+För att vårt nya linjeverktyg ska bli ännu häftigare, så borde det ha en knapp i gränssnittet, så vi inte behöver skriva allt det varje gång. Den lättaste vägen är att omvandla vår nya MinaSkript katalog till en full FreeCAD arbetsbänk. Det är lätt, allt som behövs är att lägga in en fil som kallas **InitGui.py** inuti din MinaSkript katalog. InitGui.py kommer att innehålla instruktioner för att skapa en ny arbetsbänk, och addera vårt nya verktyg till den. Förutom det så behöver vi ändra vår övningskod lite, så att line() verktyget igenkänns som ett officiellt FreeCAD kommando. Låt oss starta genom att göra en InitGui.py fil, och skriva följande kod i den   *
 
 
 </div>
 
-For our new line tool to be really useful, and to avoid having to type all that stuff, it should have a button in the interface. One way to do this is to transform our new {{FileName|MyScripts}} folder into a full FreeCAD workbench. This is easy, all that is needed is to put a file called {{FileName|InitGui.py}} inside the {{FileName|MyScripts}} folder. {{FileName|InitGui.py}} will contain the instructions to create a new workbench, and add our new tool to it. Besides that we will also need to change our exercise code a bit, so the `line()` tool is recognized as an official FreeCAD command. Let\'s start by creating an {{FileName|InitGui.py}} file, and writing the following code in it:
+For our new line tool to be really useful, and to avoid having to type all that stuff, it should have a button in the interface. One way to do this is to transform our new **MyScripts** folder into a full FreeCAD workbench. This is easy, all that is needed is to put a file called **InitGui.py** inside the **MyScripts** folder. **InitGui.py** will contain the instructions to create a new workbench, and add our new tool to it. Besides that we will also need to change our exercise code a bit, so the `line()` tool is recognized as an official FreeCAD command. Let\'s start by creating an **InitGui.py** file, and writing the following code in it   *
 
 
 ```python
-class MyWorkbench (Workbench):
+class MyWorkbench (Workbench)   *
 
     MenuText = "MyScripts"
 
-    def Initialize(self):
+    def Initialize(self)   *
         import exercise
         commandslist = ["line"]
         self.appendToolbar("My Scripts", commandslist)
@@ -377,7 +377,7 @@ Gui.addWorkbench(MyWorkbench())
 
 <div class="mw-translate-fuzzy">
 
-Jag tror att du redan nu förstår det ovanstående skriptet: Vi skapar en ny klass som vi kallar MinArbetsbänk, vi ger den en titel (MenuText), och vi definierar en Initialize() funktion som kommer att utföras när arbetsbänken laddas till FreeCAD. I den funktionen så laddar vi innehållet i vår övningsfil, och lägger till de FreeCAD kommandon som hittas i det i en kommandolista. Sedan gör vi en verktygslåda som kallas \"Mina Skript\" och vi tilldelar vår kommandolista till den. För närvarande har vi förstås endast ett verktyg, så vår kommandolista innehåller endast ett element. Sedan, när vår arbetsbänk är klar, så lägger vi till den till huvudgränssnittet.
+Jag tror att du redan nu förstår det ovanstående skriptet   * Vi skapar en ny klass som vi kallar MinArbetsbänk, vi ger den en titel (MenuText), och vi definierar en Initialize() funktion som kommer att utföras när arbetsbänken laddas till FreeCAD. I den funktionen så laddar vi innehållet i vår övningsfil, och lägger till de FreeCAD kommandon som hittas i det i en kommandolista. Sedan gör vi en verktygslåda som kallas \"Mina Skript\" och vi tilldelar vår kommandolista till den. För närvarande har vi förstås endast ett verktyg, så vår kommandolista innehåller endast ett element. Sedan, när vår arbetsbänk är klar, så lägger vi till den till huvudgränssnittet.
 
 
 </div>
@@ -385,7 +385,7 @@ Jag tror att du redan nu förstår det ovanstående skriptet: Vi skapar en ny kl
 
 <div class="mw-translate-fuzzy">
 
-Men det kommer fortfarande inte att fungera, därför att ett FreeCAD kommando måste formatteras på ett visst sätt för att fungera. så vi behöver ändra vårt line() verktyg lite. Vår nya ovning.py skript kommer nu att se ut så här:
+Men det kommer fortfarande inte att fungera, därför att ett FreeCAD kommando måste formatteras på ett visst sätt för att fungera. så vi behöver ändra vårt line() verktyg lite. Vår nya ovning.py skript kommer nu att se ut så här   *
 
 
 </div>
@@ -395,29 +395,29 @@ Men det kommer fortfarande inte att fungera, därför att ett FreeCAD kommando m
 import FreeCADGui, Part
 from pivy.coin import *
 
-class line:
+class line   *
 
     """This class will create a line after the user clicked 2 points on the screen"""
 
-    def Activated(self):
+    def Activated(self)   *
         self.view = FreeCADGui.ActiveDocument.ActiveView
         self.stack = []
         self.callback = self.view.addEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.getpoint)
 
-    def getpoint(self, event_cb):
+    def getpoint(self, event_cb)   *
         event = event_cb.getEvent()
-        if event.getState() == SoMouseButtonEvent.DOWN:
+        if event.getState() == SoMouseButtonEvent.DOWN   *
             pos = event.getPosition()
             point = self.view.getPoint(pos[0], pos[1])
             self.stack.append(point)
-            if len(self.stack) == 2:
+            if len(self.stack) == 2   *
                 l = Part.LineSegment(self.stack[0], self.stack[1])
                 shape = l.toShape()
                 Part.show(shape)
                 self.view.removeEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.callback)
 
-    def GetResources(self):
-        return {'Pixmap': 'path_to_an_icon/line_icon.png', 'MenuText': 'Line', 'ToolTip': 'Creates a line by clicking 2 points on the screen'}
+    def GetResources(self)   *
+        return {'Pixmap'   * 'path_to_an_icon/line_icon.png', 'MenuText'   * 'Line', 'ToolTip'   * 'Creates a line by clicking 2 points on the screen'}
 
 FreeCADGui.addCommand('line', line())
 ```
@@ -448,20 +448,22 @@ Klart, nu behöver vi bara starta om FreeCAD och vi kommer att ha en ny snygg ar
 
 <div class="mw-translate-fuzzy">
 
-Om du gillade denna övningen, varför inte försöka förbättra detta lilla verktyg? Det finns många saker som kan göras, som till exempel:
+Om du gillade denna övningen, varför inte försöka förbättra detta lilla verktyg? Det finns många saker som kan göras, som till exempel   *
 
--   Lägga till feedback för användaren: nu är det ett mycket \'naket\' verktyg, så användaren kan bli lite osäker när det används. Så vi skulle kunna lägga till lite feedback, tala om vad som ska göras. Du skulle till exempel kunna mata ur meddelanden till FreeCAD konsolen. Ta en titt i FreeCAD.Console modulen
+-   Lägga till feedback för användaren   * nu är det ett mycket \'naket\' verktyg, så användaren kan bli lite osäker när det används. Så vi skulle kunna lägga till lite feedback, tala om vad som ska göras. Du skulle till exempel kunna mata ur meddelanden till FreeCAD konsolen. Ta en titt i FreeCAD.Console modulen
 -   Lägga till en möjlighet att skriva in 3D punkterna manuellt. Titta på python input() funktionen, till exempel
 -   Lägga till möjligheten att lägga till mer än 2 punkter
--   Lägga till händelser för andra saker: Nu kontrollerar vi endast musknappshändelser, men om vi också kunde göra något när musen förflyttas, som att visa koordinater?
+-   Lägga till händelser för andra saker   * Nu kontrollerar vi endast musknappshändelser, men om vi också kunde göra något när musen förflyttas, som att visa koordinater?
 -   Ge ett namn till det skapade objektet
 
-Tveka inte att skriva dina frågor eller ideer på [forum](http://forum.freecadweb.org/)!
+Tveka inte att skriva dina frågor eller ideer på [forum](http   *//forum.freecadweb.org/)!
 
 
 </div>
 
-Don\'t hesitate to ask questions or share ideas on the [forum](https://forum.freecadweb.org/)! {{Top}}
+Don\'t hesitate to ask questions or share ideas on the [forum](https   *//forum.freecadweb.org/)! {{Top}}  
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

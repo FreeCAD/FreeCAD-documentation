@@ -5,8 +5,8 @@
 
 ### Elementi supportati 
 
--   primitive: cubo, sfera, cilindro, rettangolo, circonferenza, poligono, poliedro
--   booleane: unione, differenza, intersezione
+-   primitive   * cubo, sfera, cilindro, rettangolo, circonferenza, poligono, poliedro
+-   booleane   * unione, differenza, intersezione
 -   estrusione lineare, rivoluzione
 -   importazione (dxf, stl, off) (senza scalatura o trasformazione dell\'originale)
 -   matrici multiple
@@ -17,18 +17,18 @@
 -   proiezioni
 -   superficie
 -   renderizzazione (ignorata)
--   operazioni in generale: minkowski, glide, path, subdiv, hull
+-   operazioni in generale   * minkowski, glide, path, subdiv, hull
 
 ## Esportazione
 
 ### Elementi supportati 
 
--   primitive: parallelepipedo, cilindro, Cono, Toro
--   booleane: differenza, fusione, intersezione
+-   primitive   * parallelepipedo, cilindro, Cono, Toro
+-   booleane   * differenza, fusione, intersezione
 
 ### Ripiego
 
-Qualsiasi oggetto derivato da Part::Feature che non è (ancora) supportato viene grigliato (mesh) ed esportato come un elemento poliedrico
+Qualsiasi oggetto derivato da Part   *   *Feature che non è (ancora) supportato viene grigliato (mesh) ed esportato come un elemento poliedrico
 
 ## Correlazioni
 
@@ -38,6 +38,8 @@ Qualsiasi oggetto derivato da Part::Feature che non è (ancora) supportato viene
 
 
  {{OpenSCAD Tools navi}}
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

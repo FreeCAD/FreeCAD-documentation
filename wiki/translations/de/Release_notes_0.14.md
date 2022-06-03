@@ -1,7 +1,7 @@
 # Release notes 0.14/de
-FreeCAD 0.14 wurde am 1. Juli 2014 veröffentlicht. Diese Release notes sind eine Zusammenfassung der wichtigsten Entwicklungen in FreeCAD seit der letzten Version 0.13. Für eine vollständige Liste aller Änderungen siehe [den Mantis Changelog](http://www.freecadweb.org/tracker/changelog_page.php). Alte Versionen: [0.13](Release_notes_0.13/de.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
+FreeCAD 0.14 wurde am 1. Juli 2014 veröffentlicht. Diese Release notes sind eine Zusammenfassung der wichtigsten Entwicklungen in FreeCAD seit der letzten Version 0.13. Für eine vollständige Liste aller Änderungen siehe [den Mantis Changelog](http   *//www.freecadweb.org/tracker/changelog_page.php). Alte Versionen   * [0.13](Release_notes_0.13/de.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
 
-<img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
+<img alt="" src=images/Freecad_jeep.png  style="width   *1024px;">
 
 
 <center>
@@ -15,31 +15,31 @@ Jeepmodell von Psicofil
 
 ### Migration Internet-Auftritt 
 
-Letztendlich wurden alle Webapplicationen von FreeCAD von [SourceForge](http://www.sourceforge.net) zu unserer [eigenen Domain](http://www.freecadweb.org) migriert. Der neue FreeCAD-Internetauftrit findet sich unter <http://www.freecadweb.org>, das Wiki ist nun unter <http://www.freecadweb.org/wiki>, der Bug- und Featuretracker unter <http://www.freecadweb.org/tracker>, und das Forum unter <http://forum.freecadweb.org> erreichbar. Ein Loginaccount aus der Zeit als wir noch auf Sourceforge waren kann in ein Benutzerlogin unserer neuen Services übertragen werden. Alle Daten (Forumseinträge etc.) bleiben erhalten. Hier findet sich eine [Anleitung](http://forum.freecadweb.org/viewtopic.php?f=8&t=4942).
+Letztendlich wurden alle Webapplicationen von FreeCAD von [SourceForge](http   *//www.sourceforge.net) zu unserer [eigenen Domain](http   *//www.freecadweb.org) migriert. Der neue FreeCAD-Internetauftrit findet sich unter <http   *//www.freecadweb.org>, das Wiki ist nun unter <http   *//www.freecadweb.org/wiki>, der Bug- und Featuretracker unter <http   *//www.freecadweb.org/tracker>, und das Forum unter <http   *//forum.freecadweb.org> erreichbar. Ein Loginaccount aus der Zeit als wir noch auf Sourceforge waren kann in ein Benutzerlogin unserer neuen Services übertragen werden. Alle Daten (Forumseinträge etc.) bleiben erhalten. Hier findet sich eine [Anleitung](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=4942).
 
-Der einzige Bereich von FreeCAD der auf Sourceforge bleibt ist das Hauptgitrepository. Die Adresse hat sich nicht geändert: <http://sourceforge.net/p/free-cad/code/ci/master/tree/>. Es gibt aber auch ein automatisch erstelltes Spiegelbild auf github unter <http://github.com/FreeCAD/FreeCAD_sf_master>
+Der einzige Bereich von FreeCAD der auf Sourceforge bleibt ist das Hauptgitrepository. Die Adresse hat sich nicht geändert   * <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/>. Es gibt aber auch ein automatisch erstelltes Spiegelbild auf github unter <http   *//github.com/FreeCAD/FreeCAD_sf_master>
 
-Um die wunderbare FreeCAD-Gemeinschaft kennenzulernen und sich von dem Talent, der Energie und der Hilfsbereichschaft anstecken zu lassen reicht ein Besuch in unserem [Forum](http://forum.freecadweb.org).
+Um die wunderbare FreeCAD-Gemeinschaft kennenzulernen und sich von dem Talent, der Energie und der Hilfsbereichschaft anstecken zu lassen reicht ein Besuch in unserem [Forum](http   *//forum.freecadweb.org).
 
 ### Migration zu pyside, FreeCAD ist jetzt vollständig LGPL 
 
-Wegen der vielen Komplikationen, die vom Doppellizenzmodell (LGPL und GPL) von FreeCAD und der Tatsache herrühren, dass einige Komponenten von FreeCAD nicht GPL kompatibel sind (insbesondere der OpenCasCade Geometriekernel), haben wir beschlossen, allen noch verbleibenden GPL Code in FreeCAD zu LGPL umzuwandeln. Als ein Ergebnis dieser Anstrengungen wird [PyQt](http://en.wikipedia.org/wiki/PyQt) nicht weiter verwendet, sondern durch [PySide](http://en.wikipedia.org/wiki/PySide) ersetzt. Dieser Wechsel hat keine großen Konsequenzen für die Ersteller von Python Skripten für FreeCAD, da PyQt weiterhin in FreeCAD verwendet werden kann.
+Wegen der vielen Komplikationen, die vom Doppellizenzmodell (LGPL und GPL) von FreeCAD und der Tatsache herrühren, dass einige Komponenten von FreeCAD nicht GPL kompatibel sind (insbesondere der OpenCasCade Geometriekernel), haben wir beschlossen, allen noch verbleibenden GPL Code in FreeCAD zu LGPL umzuwandeln. Als ein Ergebnis dieser Anstrengungen wird [PyQt](http   *//en.wikipedia.org/wiki/PyQt) nicht weiter verwendet, sondern durch [PySide](http   *//en.wikipedia.org/wiki/PySide) ersetzt. Dieser Wechsel hat keine großen Konsequenzen für die Ersteller von Python Skripten für FreeCAD, da PyQt weiterhin in FreeCAD verwendet werden kann.
 
-Nachdem der Übergang zur LGPL abgeschlossen war, ist OpenCasCade [ebenfalls gewechselt](http://www.opencascade.org/getocc/license/), was die Lizenzprobleme ebenfalls gelöst hätte. Aber jetzt hat FreeCAD ein viel klareres und einheitlicheres Lizenzmodell, dass auch die striktesten Linux Distributionen zufrieden stellen sollte.
+Nachdem der Übergang zur LGPL abgeschlossen war, ist OpenCasCade [ebenfalls gewechselt](http   *//www.opencascade.org/getocc/license/), was die Lizenzprobleme ebenfalls gelöst hätte. Aber jetzt hat FreeCAD ein viel klareres und einheitlicheres Lizenzmodell, dass auch die striktesten Linux Distributionen zufrieden stellen sollte.
 
-### Plugins und externe Projekte: Teile Bibliothek, BOLTS, Eagle importer 
+### Plugins und externe Projekte   * Teile Bibliothek, BOLTS, Eagle importer 
 
-Im letzten Jahr sind einige interessante Nebenprojekte im Umfeld von FreeCAD entstanden. Es wurde begonnen, eine [Teilebibliothek](http://github.com/yorikvanhavre/FreeCAD-library) aufzubauen, die langsam anwächst und eine Sammlung von wiederverwendbaren Teilen enthält, die in eigene FreeCAD Modelle einfügt werden können. Diese Bibliothek kann mit Hilfe eines Makros innerhalb von FreeCAD gestartet und benutzt werden.
+Im letzten Jahr sind einige interessante Nebenprojekte im Umfeld von FreeCAD entstanden. Es wurde begonnen, eine [Teilebibliothek](http   *//github.com/yorikvanhavre/FreeCAD-library) aufzubauen, die langsam anwächst und eine Sammlung von wiederverwendbaren Teilen enthält, die in eigene FreeCAD Modelle einfügt werden können. Diese Bibliothek kann mit Hilfe eines Makros innerhalb von FreeCAD gestartet und benutzt werden.
 
-Ein ähnliches, aber ambitionierteres Projekt ist [BOLTS](http://bolts-library.org/), ebenfalls eine Teilebibliothek, die aber aus parametrischen Skripten aufgebaut ist, und so in der Lage ist, eine große Vielfalt an parametrischen Teilen zu erzeugen. Obwohl BOLTS unabhängig von spezifischen CAD Applikationen ist, kann es mit Hilfe eines Makros auch innerhalb von FreeCAD verwendet werden. Das folgende Bild zeigt BOLTS in FreeCAD.
+Ein ähnliches, aber ambitionierteres Projekt ist [BOLTS](http   *//bolts-library.org/), ebenfalls eine Teilebibliothek, die aber aus parametrischen Skripten aufgebaut ist, und so in der Lage ist, eine große Vielfalt an parametrischen Teilen zu erzeugen. Obwohl BOLTS unabhängig von spezifischen CAD Applikationen ist, kann es mit Hilfe eines Makros auch innerhalb von FreeCAD verwendet werden. Das folgende Bild zeigt BOLTS in FreeCAD.
 
-<img alt="" src=images/Freecad-bearing.png  style="width:1024px;">
+<img alt="" src=images/Freecad-bearing.png  style="width   *1024px;">
 
-Ein weiteres interessantes externes Projekt ist der [EAGLE importer](http://sourceforge.net/projects/eaglepcb2freecad/), mit dem Leiterplattenentwürfe aus mehreren Anwendungen nach FreeCAD importiert werden können.
+Ein weiteres interessantes externes Projekt ist der [EAGLE importer](http   *//sourceforge.net/projects/eaglepcb2freecad/), mit dem Leiterplattenentwürfe aus mehreren Anwendungen nach FreeCAD importiert werden können.
 
 ### WebGL Export 
 
-FreeCAD kann jetzt eine Szene als [WebGL](http://en.wikipedia.org/wiki/WebGL)-fähige HTML Datei exportieren. Diese Datei enthält einen eingebetteten Viewer, der auf [three.js](http://threejs.org/) basiert, und mit dem die Szene in WebGL-fähigen Browsern ohne Plugins betrachtet werden kann.
+FreeCAD kann jetzt eine Szene als [WebGL](http   *//en.wikipedia.org/wiki/WebGL)-fähige HTML Datei exportieren. Diese Datei enthält einen eingebetteten Viewer, der auf [three.js](http   *//threejs.org/) basiert, und mit dem die Szene in WebGL-fähigen Browsern ohne Plugins betrachtet werden kann.
 
 ### Maßeinheitensystem
 
@@ -47,9 +47,9 @@ Ein [Maßeinheitensystem](units.md) wurde letztendlich in das Grundprogramm Free
 
 ### Formatvorlagen
 
-Die Verwendung von [Formatvorlagen](http://forum.freecadweb.org/viewtopic.php?f=8&t=4700&start=30) (Style Sheets) für das Hintergrundbild des Hauptfensters erlaubt es FreeCAD 0.14 noch stärker an besondere Anforderungen anzupassen. Der Anwender ist nicht mehr auf den grauen Steinhintergrund festgelegt, sondern fast beliebige Bilder oder Kacheln können für den Hintergrund des Hauptfensters verwendet werden.
+Die Verwendung von [Formatvorlagen](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=4700&start=30) (Style Sheets) für das Hintergrundbild des Hauptfensters erlaubt es FreeCAD 0.14 noch stärker an besondere Anforderungen anzupassen. Der Anwender ist nicht mehr auf den grauen Steinhintergrund festgelegt, sondern fast beliebige Bilder oder Kacheln können für den Hintergrund des Hauptfensters verwendet werden.
 
-<img alt="" src=images/Style_Sheets.png  style="width:1024px;">
+<img alt="" src=images/Style_Sheets.png  style="width   *1024px;">
 
 ### Ansichtsmodus
 
@@ -103,7 +103,7 @@ Die Funktion [involute gear generator](PartDesign_InvoluteGear.md) (Zahnradgener
 
 Im [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) wurden einige wunderbare Funktionen hinzugefügt. Mit der Funktion [Orthografische Ansichten einfügen](Drawing_Orthoviews.md) können jetzt alle möglichen Ansichten eingefügt werden. Das Einfügen der einzelnen Ansichten lässt sich viel besser steuern als bisher. Eine weitere Hauptfunktion ist die Unterstützung für die Definition von Zeichnungsgrenzen und Titelgrenzen. Eingefügte Projektionen vermeiden so eine Überschneidung mit dem Blattrand oder mit dem Titel.
 
-<img alt="" src=images/DrawingWB.png  style="width:1024px;">
+<img alt="" src=images/DrawingWB.png  style="width   *1024px;">
 
 ### Symbole
 
@@ -113,29 +113,29 @@ Im [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) ist die neue Funktion [Ze
 
 ### Neue Renderingfunktionen 
 
-<img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
+<img alt="" src=images/Raytracing_example.jpg  style="width   *1024px;">
 
 Dem [Arbeitsbereich Rendering](Raytracing_Workbench.md) wurde auch Beachtung geschenkt. Dabei wurde dessen Symbolleiste überarbeitet. Die alten Icons, mit denen manuell einzelne Povraydateien erzeugt werden konnten, wurden entfernt (im Raytracingmenü sind diese immernoch verfügbar). Der Ablauf zum Erstellen neuer Renderings ist nun ähnlich dem Ablauf der Arbeit mit dem [Arbeitsbereich Zeichnung](Drawing_Workbench.md). Ein neues Projekt wird erstellt, eine Vorlage zugewiesen und die verschiedenen Objektansichten hinzugefügt. Dananch muss nur noch das Rendericon angeklickt werden oder das Projekt als Datei exportiert werden, wenn es außerhalb von FreeCAD gerendert werden soll.
 
 Das [Vorlagensystem](Raytracing_Workbench/de#Templates.md) des Arbeitsbereichs Rendering wurde auch erweitert. Vorlagen lassen sich jetzt einfacher erstellen und verändern.
 
-Die von FreeCAD erstellten \*.pov-Dateien beinhalten neu ein automatisches Seitenverhältnis (auto-aspect ratio). Benutzter brauchen jetzt nicht mehr ein 4:3 Seitenverhältnis in den Renderingeinstellungen einzugeben, oder manuell die Ausgabe zu bearbeiten um das Seitenverhältnis zu ändern um sinnvolle Renderings zu erhalten. Jede Breite und Höhe kann und jetzt problemlos eingegeben werden, ohne dass die gerenderten Objekte zusammengedrückt oder auseinandergezogen werden.
+Die von FreeCAD erstellten \*.pov-Dateien beinhalten neu ein automatisches Seitenverhältnis (auto-aspect ratio). Benutzter brauchen jetzt nicht mehr ein 4   *3 Seitenverhältnis in den Renderingeinstellungen einzugeben, oder manuell die Ausgabe zu bearbeiten um das Seitenverhältnis zu ändern um sinnvolle Renderings zu erhalten. Jede Breite und Höhe kann und jetzt problemlos eingegeben werden, ohne dass die gerenderten Objekte zusammengedrückt oder auseinandergezogen werden.
 
 ### Unterstützung für Luxrender 
 
-Der [Arbeitsbereich Rendering](Raytracing_Workbench/de.md) unterstützt neben [POV-Ray](http://de.wikipedia.org/wiki/POV-Ray) jetzt auch [LuRender](http://de.wikipedia.org/wiki/LuxRender). Im Gegensatz zu dem [klassischer Raytracer](http://de.wikipedia.org/wiki/Raytracing) POV-Ray ist Luxrender ein [unbiased renderer](http://en.wikipedia.org/wiki/Unbiased_rendering) (unverfälschter Renderer), welcher einerseits zwar viel länger braucht um Szenen zu rendern, andererseits aber auch viel realistischere Lichtverhältnisse erzeugt.
+Der [Arbeitsbereich Rendering](Raytracing_Workbench/de.md) unterstützt neben [POV-Ray](http   *//de.wikipedia.org/wiki/POV-Ray) jetzt auch [LuRender](http   *//de.wikipedia.org/wiki/LuxRender). Im Gegensatz zu dem [klassischer Raytracer](http   *//de.wikipedia.org/wiki/Raytracing) POV-Ray ist Luxrender ein [unbiased renderer](http   *//en.wikipedia.org/wiki/Unbiased_rendering) (unverfälschter Renderer), welcher einerseits zwar viel länger braucht um Szenen zu rendern, andererseits aber auch viel realistischere Lichtverhältnisse erzeugt.
 
 ## Arbeitsbereich Tabellenkalkulation 
 
 Der [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) wurde in FreCAD neu hinzugefügt. Ein neues 2-dimensionale Tabellenkalkulationsobjekt kann mit der Funktion [spreadsheet](Spreadsheet_Create.md) erstellt werden. Es gibt einen Editor, mit dem der Inhalt des Tabellenkalkulationsobjektes bearbeitet werden kann (Text, Zahlen und einige einfache Formeln werden unterstützt). Weiterhin ist ein spezielles [cell controller](Spreadsheet_Controller.md)-Objekt vorhanden, welches ein Dokument auf bestimmte Objekttypen durchsucht und ein bestimmtes Attribut dieses Objekttypes extrahiert und einen vorgegebenen Bereich von Zellen mit diesem Attribut füllt.
 
-<img alt="" src=images/Arch_tutorial_53.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_tutorial_53.jpg  style="width   *1024px;">
 
 ## Arbeitsbereich Entwurf 
 
 ### Im- und Export von DWG Dateien 
 
-FreeCAD kann nun, Dank des kostenlosen, plattformübergreifenden [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) in das [DWG-Format](https://en.wikipedia.org/wiki/.dwg) importieren und exportieren. Sobald es installiert ist und sein Pfad in den FreeCAD Entwurf Einstellungen festgelegt wurde, kann FreeCAD es zum Importieren und Exportieren von dwg Dateien verwenden, indem es diese in dxf konvertiert und dann den dxf Importeur und Exporteur für den Entwurf verwendet. Der Import und Export von dwg Dateien hat daher die gleichen Begrenzungen wie das [dxf Format](Draft_DXF/de.md).
+FreeCAD kann nun, Dank des kostenlosen, plattformübergreifenden [ODA File Converter](https   *//www.opendesign.com/guestfiles/oda_file_converter) in das [DWG-Format](https   *//en.wikipedia.org/wiki/.dwg) importieren und exportieren. Sobald es installiert ist und sein Pfad in den FreeCAD Entwurf Einstellungen festgelegt wurde, kann FreeCAD es zum Importieren und Exportieren von dwg Dateien verwenden, indem es diese in dxf konvertiert und dann den dxf Importeur und Exporteur für den Entwurf verwendet. Der Import und Export von dwg Dateien hat daher die gleichen Begrenzungen wie das [dxf Format](Draft_DXF/de.md).
 
 ### Entwurf zu Zeichnung jetzt auch für Gruppen 
 
@@ -145,13 +145,13 @@ Das Werkzeug [Entwurf zu Zeichnung](Draft_Drawing.md), mit dem man Entwurfsobjek
 
 Das [Bemaßungswerkzeug](Draft_Dimension/de.md) wurde komplett überarbeitet. Bemaßungsobjekte verhalten sich jetzt sehr viel besser und haben neue Eigenschaften erhalten, die es erlauben, sie stärker anzupassen, unter anderem schönere und skalierbare Pfeile, bessere Kontrolle über die Position des Textes und die Richtung der Bemaßung und bessere Unterstützung für das [Zeichnungsmodul](Drawing_Workbench/de.md). Man kann Bemaßungen jetzt in jeder Ebene im 3D Raum positioniere und erhält korrekte Ergebnisse wenn sie mit dem [Draft Drawing](Draft_Drawing.md) Werkzeug auf einer Zeichnung platziert werden.
 
-<img alt="" src=images/Draft_dimensions_recode.jpg  style="width:1024px;">
+<img alt="" src=images/Draft_dimensions_recode.jpg  style="width   *1024px;">
 
 ### Schraffuren
 
-Der [Arbeitsbereich Entwurf](Draft_Workbench/de.md) hat noch eine weitere Funktion erhalten: Schraffuren. Es ist nun möglich auf bestimmten Entwurfsobjekten (solche, die eine Fläche begrenzen, z.B. geschlossene Linienzüge, Rechtecke, Polygone und Kreise) Schraffuren aufzubringen. Im Moment sind nur einige der verbreitetsten Schraffurmuster verfügbar, aber da Muster sehr einfach zu erstellen sind (es sind einfach SVG-Dateien) und der Benutzer eigene Muster hinzufügen kann, wird diese Auswahl schnell wachsen. Entwurfsobjekte mit Mustern werden auch vom [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) voll unterstützt.
+Der [Arbeitsbereich Entwurf](Draft_Workbench/de.md) hat noch eine weitere Funktion erhalten   * Schraffuren. Es ist nun möglich auf bestimmten Entwurfsobjekten (solche, die eine Fläche begrenzen, z.B. geschlossene Linienzüge, Rechtecke, Polygone und Kreise) Schraffuren aufzubringen. Im Moment sind nur einige der verbreitetsten Schraffurmuster verfügbar, aber da Muster sehr einfach zu erstellen sind (es sind einfach SVG-Dateien) und der Benutzer eigene Muster hinzufügen kann, wird diese Auswahl schnell wachsen. Entwurfsobjekte mit Mustern werden auch vom [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) voll unterstützt.
 
-<img alt="" src=images/Draft_hatches.jpg  style="width:1024px;">
+<img alt="" src=images/Draft_hatches.jpg  style="width   *1024px;">
 
 ### Ellipsen
 
@@ -175,19 +175,19 @@ Das [Textformen](Draft_ShapeString.md) Werkzeug erzeugt planare Objekte aus eine
 
 ### Bezierkurven
 
-Zu den bereits vorhandenen [Kreisbogen](Draft_Arc/de.md) und [B-spline](Draft_BSpline/de.md) Kurven gesellt sich ein weiterer Kurventyp: [Bezier Kurven](Draft_BezCurve/de.md). Sie können genauso wie andere Objekte im [Arbeitsbereich Entwurf](Draft_Workbench.md) durch Anklicken von Punkten erstellt werden, außerdem können sie dann [bearbeitet](Draft_Edit/de.md) und ihre Kontrollpunkte verändert werden, was eine präzise Kontrolle der Kurvenform erlaubt.
+Zu den bereits vorhandenen [Kreisbogen](Draft_Arc/de.md) und [B-spline](Draft_BSpline/de.md) Kurven gesellt sich ein weiterer Kurventyp   * [Bezier Kurven](Draft_BezCurve/de.md). Sie können genauso wie andere Objekte im [Arbeitsbereich Entwurf](Draft_Workbench.md) durch Anklicken von Punkten erstellt werden, außerdem können sie dann [bearbeitet](Draft_Edit/de.md) und ihre Kontrollpunkte verändert werden, was eine präzise Kontrolle der Kurvenform erlaubt.
 
 ## Arbeitsbereich Architektur 
 
 ### Vorlagen und Profile für Strukturbauteile 
 
-Das [Arch Strukturtool](Arch_Structure/de.md) hat mehrere Verbesserungen erhalten. Es sind nun einige Vorlageprofile vorhanden, wodurch es möglich ist sehr schnell eine Stütze oder einen Träger basierend auf einem Standardprofil wie INP oder HEB zu erstellen. Weiterhin wurde das Platzierungssystem um einen speziellen Fangmodus ([snapping](Draft_Snap.md)) erweitert. Strukturelemente können jetzt auch direkt einen Extrusionspfad haben, was sehr komplexe Bauteile möglich macht. Sehr viele der in [BOLTS](#Plugins_and_side_projects:_Parts_library.2C_BOLTS.2C_Eagle_importer.md) vorhandenen Bauteile (u.a. alle Europäische rechteckige, quadratische und runde Hohlprofile sowie Standarddoppel-T-Profile) können direkt als Arch Struktur erzeugt werden.
+Das [Arch Strukturtool](Arch_Structure/de.md) hat mehrere Verbesserungen erhalten. Es sind nun einige Vorlageprofile vorhanden, wodurch es möglich ist sehr schnell eine Stütze oder einen Träger basierend auf einem Standardprofil wie INP oder HEB zu erstellen. Weiterhin wurde das Platzierungssystem um einen speziellen Fangmodus ([snapping](Draft_Snap.md)) erweitert. Strukturelemente können jetzt auch direkt einen Extrusionspfad haben, was sehr komplexe Bauteile möglich macht. Sehr viele der in [BOLTS](#Plugins_and_side_projects   *_Parts_library.2C_BOLTS.2C_Eagle_importer.md) vorhandenen Bauteile (u.a. alle Europäische rechteckige, quadratische und runde Hohlprofile sowie Standarddoppel-T-Profile) können direkt als Arch Struktur erzeugt werden.
 
 ### Fenstervorlagen
 
 Dem [Fenstertool](Arch_Window.md) wurde ein neues Vorlagensystem hinzugefügt. Da dieses immernoch auf Skizzen beruht, bleibt die maximale Bearbeitbarkeit erhalten. Dies bedeutet jeder vorstellbare Fenstertyp ist erstellbar. Neu ist, dass aus einer Auswahl von Vorlagefenster ausgewählt werden kann. Es brauchen dann nur noch einige Parameter eingegeben zu werden und das Fenster in eine existierende Wand oder in ein Struktruelement platziert werden. Im Hintergrund wird eine passende Skizze erstellt, was die maximale Bearbeitbarkeit für später sicherstellt.
 
-<img alt="" src=images/Screenshot_arch_window.jpg  style="width:1024px;">
+<img alt="" src=images/Screenshot_arch_window.jpg  style="width   *1024px;">
 
 ### Räume
 
@@ -197,7 +197,7 @@ Ein neues [Raumobjekt](Arch_Space.md) welches es erlaubt Raumvolumen und Geschos
 
 Durch einen einfachen Trick unterstützt jetzt die Funktion [Wände](Arch_Wall.md) auch den mehrschichtigen Aufbau von Wänden. Mehrere Wände nutzen einfach die selbe Basislinie und werden durch einen Abstand zu dieser Basisline positioniert. Wird dies mit [Arch Rahmen](Arch_Frame.md) kombiniert, können sehr komplexe Ständerwände mit Dämmung erstellt werden. Weiterhin sind die mehrschichtigen Wände so untereinander verknüpft, dass Fensteröffnungen in allen Schichten erstellt werden.
 
-<img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width:1024px;">
+<img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width   *1024px;">
 
 ### Treppen
 
@@ -207,7 +207,7 @@ Mit dem neu hinzugefügten [Treppentool](Arch_Stairs/de.md) ist es möglich auch
 
 Das Erstellen von Bewehrungsstabverlegungen wurde mit dem [Arch Rebar](Arch_Rebar.md) Tool eingeführt. Da die Form eines Bewehrungsstabes auf Skizzen basiert, kann nahezu jede ebene Stabform einfach erstellt werden. Auf Basis einer Fläche wird mittels einer Skizze die Form des Bewehrungsstabes festgelegt. Mittels Randabständen, Stababständen und/oder Stabanzahl kann dann die Verlegung des Bewehrungsstabes definiert werden.
 
-<img alt="" src=images/Screenshot_arch_rebar.jpg  style="width:1024px;">
+<img alt="" src=images/Screenshot_arch_rebar.jpg  style="width   *1024px;">
 
 ### Rahmen
 
@@ -223,11 +223,13 @@ Ein neues 35 Seiten umfassendes [Tutorial](Arch_tutorial/de.md) bechreibt den [A
 
 ### Im- und Export von Ifc-Dateien 
 
-Viel Zeit wurde in die Arbeit an FreeCAD und der Arbeit an [IfcOpenShell](http://www.ifcopenshell.org), welches für die Verarbeitung von Ifc-Dateien im [Arch-Arbeitsbereich](Arch_Workbench/de.md) verwendet wird, investiert. Wenn eine [Entwicklerversion](http://github.com/aothms/IfcOpenShell) von IfcOpenShell verwendet wird, können auch komplexe Geometrieen von Ifc-Dateien importiert werden. Erst ab einer mittleren Dateigrösse von ca. 50 MB (unkomprimiert) steigt die Importdauer expotentiell stark an. Mit der oben genannten Entwicklerversion von IfcOpenShell können auch Modelle aus FreeCAD nach Ifc so exportiert werden, dass die meisten grossen CAD-Programme (oder BIM-Plattformen, wie man heutzutage gerne sagt) diese problemlos importieren können.
+Viel Zeit wurde in die Arbeit an FreeCAD und der Arbeit an [IfcOpenShell](http   *//www.ifcopenshell.org), welches für die Verarbeitung von Ifc-Dateien im [Arch-Arbeitsbereich](Arch_Workbench/de.md) verwendet wird, investiert. Wenn eine [Entwicklerversion](http   *//github.com/aothms/IfcOpenShell) von IfcOpenShell verwendet wird, können auch komplexe Geometrieen von Ifc-Dateien importiert werden. Erst ab einer mittleren Dateigrösse von ca. 50 MB (unkomprimiert) steigt die Importdauer expotentiell stark an. Mit der oben genannten Entwicklerversion von IfcOpenShell können auch Modelle aus FreeCAD nach Ifc so exportiert werden, dass die meisten grossen CAD-Programme (oder BIM-Plattformen, wie man heutzutage gerne sagt) diese problemlos importieren können.
 
 ## Vollständige Liste 
 
-Die vollständige Liste aller Bugfixes und Neuen Funtionen kann [hier](http://freecadweb.org/tracker/changelog_page.php) nachgelesen werden.
+Die vollständige Liste aller Bugfixes und Neuen Funtionen kann [hier](http   *//freecadweb.org/tracker/changelog_page.php) nachgelesen werden.
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

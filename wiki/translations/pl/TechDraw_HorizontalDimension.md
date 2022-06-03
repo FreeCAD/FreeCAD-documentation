@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/pl
-   Name:TechDraw HorizontalDimension
-   Name/pl:Rysunek Techniczny: Wstaw wymiar poziomy
-   MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar poziomy
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:**Shift** + **H**
-   SeeAlso:[Wymiar długości](TechDraw_LengthDimension/pl.md), [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md)
+- GuiCommand   */pl
+   Name   *TechDraw HorizontalDimension
+   Name/pl   *Rysunek Techniczny   * Wstaw wymiar poziomy
+   MenuLocation   *Rysunek Techniczny → Wymiary → Wstaw wymiar poziomy
+   Workbenches   *[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut   ***Shift** + **H**
+   SeeAlso   *[Wymiar długości](TechDraw_LengthDimension/pl.md), [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md)
 ---
 
 # TechDraw HorizontalDimension/pl
@@ -14,7 +14,7 @@
 
 Narzędzie Wymiar poziomy dodaje wymiar poziomy do widoku. Może to być odległość między dwoma wierzchołkami, długość jednej krawędzi lub odległość pozioma między dwoma krawędziami. Początkowo będzie to odległość rzutowana *(tzn. taka, jak na rysunku)*, ale można ją zmienić na rzeczywistą odległość 3D za pomocą narzędzia **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Powiązanie wymiaru](TechDraw_LinkDimension/pl.md)**.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width:200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width   *200px;"> 
 *Wymiar długości odnoszący się do dwóch dowolnych węzłów widoku. Odległość jest mierzona w poziomie.*
 
 ## Użycie
@@ -37,15 +37,15 @@ Zobacz stronę [Wymiar długości](TechDraw_LengthDimension/pl#W.C5.82a.C5.9Bciw
 ## Tworzenie skryptów 
 
 
-**Zobacz również:**
+**Zobacz również   ***
 
 [TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Narzędzie **Wymiar poziomy** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
+Narzędzie **Wymiar poziomy** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "DistanceX"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

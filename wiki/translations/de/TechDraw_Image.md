@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw Image
-   Name/de:TechDraw Bild
-   MenuLocation:TechDraw → Bitmap Bild einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw SVG Symbol](TechDraw_Symbol/de.md)
+- GuiCommand   */de
+   Name   *TechDraw Image
+   Name/de   *TechDraw Bild
+   MenuLocation   *TechDraw → Bitmap Bild einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso   *[TechDraw SVG Symbol](TechDraw_Symbol/de.md)
 ---
 
 # TechDraw Image/de
@@ -29,15 +29,15 @@ Das Bild Werkzeug fügt ein [Bitmap](bitmap/de.md) Bild (PNG, JPEG, JPG, BMP usw
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Bildwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden:
+Das Bildwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden   *
 
 
 ```python
-dvi = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewImage','TestImage')
+dvi = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewImage','TestImage')
 rc = page.addView(dvi)
 dvi.ImageFile = "pathToMy/imageFile.png"
 dvi.Height = 200

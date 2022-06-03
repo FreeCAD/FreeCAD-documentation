@@ -1,9 +1,9 @@
 # Release notes 0.12/it
 # Note di rilascio della versione 0.12 
 
-Questo è un riassunto dei cambiamenti più interessanti avvenuti in FreeCAD rispetto alla versione precedente. Vedere [qui](http://www.freecadweb.org/tracker/changelog_page.php) per avere l\'elenco completo delle modifiche.
+Questo è un riassunto dei cambiamenti più interessanti avvenuti in FreeCAD rispetto alla versione precedente. Vedere [qui](http   *//www.freecadweb.org/tracker/changelog_page.php) per avere l\'elenco completo delle modifiche.
 
-Versione precedente: [0.11](Release_notes_0.11/it.md)
+Versione precedente   * [0.11](Release_notes_0.11/it.md)
 
 \_\_\_TOC\_\_\_
 
@@ -14,7 +14,7 @@ Versione precedente: [0.11](Release_notes_0.11/it.md)
 ![](images/FreeCAD_start_center.jpg )
 === Schizzo & Progettazione Parti ===
 
-<img alt="" src=images/Rim_bling.png  style="width:800px;">
+<img alt="" src=images/Rim_bling.png  style="width   *800px;">
 
 -   L\'ambiente [Schizzo](Sketcher_Workbench/it.md) - Sketcher è stato notevolmente migliorato con una grande quantità di lavoro rispetto alla versione precedente, ed è ora basato su un nuovo risolutore riprogettato da zero per questo compito. L\'operatore Schizzo è ora in grado di eseguire quasi tutte le operazioni di [Disegno 2D](Draft_Workbench/it.md) del modulo Draft, e di inserire una vasta gamma di vincoli sugli elementi di schizzo.
 
@@ -26,9 +26,9 @@ Versione precedente: [0.11](Release_notes_0.11/it.md)
 
 ![](images/Arch_screenshot.jpg )
 
--   Il modulo Architettura dispone anche di un importatore id [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes), di un importatore ed esportatore di [DAE (collada)](http://en.wikipedia.org/wiki/Collada), e di un esportatore speciale di [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) più adatto di quelli standard ai modelli di architettura.
+-   Il modulo Architettura dispone anche di un importatore id [IFC](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes), di un importatore ed esportatore di [DAE (collada)](http   *//en.wikipedia.org/wiki/Collada), e di un esportatore speciale di [OBJ](http   *//en.wikipedia.org/wiki/Wavefront_.obj_file) più adatto di quelli standard ai modelli di architettura.
 
--   Incluso nel modulo Architettura vi è anche una collezione crescente di strumenti per facilitare il processo di lavoro con gli oggetti Mesh di altre applicazioni come ad esempio [Blender](http://www.blender.org). Gli oggetti Mesh, se sono ben modellati, possono essere facilmente e automaticamente trasformati in forme semplici (pulite), e poi in oggetti parametrici dell\'ambiente di Architettura.
+-   Incluso nel modulo Architettura vi è anche una collezione crescente di strumenti per facilitare il processo di lavoro con gli oggetti Mesh di altre applicazioni come ad esempio [Blender](http   *//www.blender.org). Gli oggetti Mesh, se sono ben modellati, possono essere facilmente e automaticamente trasformati in forme semplici (pulite), e poi in oggetti parametrici dell\'ambiente di Architettura.
 
 ===Draft - Disegno 2D ===
 
@@ -48,6 +48,8 @@ Versione precedente: [0.11](Release_notes_0.11/it.md)
 
 
 {{languages/it | {{en|Release_notes_0.12}} {{es|Release_notes_0.12/es}} {{fr|Release_notes_0.12/fr}} {{pl|Release_notes_0.12/pl}} {{ru|Release_notes_0.12/ru}} }}
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

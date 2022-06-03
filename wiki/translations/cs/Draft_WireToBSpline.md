@@ -1,6 +1,6 @@
 # Draft WireToBSpline/cs
 ---
-- GuiCommand:/cs   Name:Draft WireToBSpline   Name/cs:Kreslení Drát do B-křivky   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Drát do B-křivky---
+- GuiCommand   */cs   Name   *Draft WireToBSpline   Name/cs   *Kreslení Drát do B-křivky   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení -> Drát do B-křivky---
 
 
 </div>
@@ -15,7 +15,7 @@ Tento nástroj konvertuje [Dráty](Draft_Wire/cs.md) do [B-křivek](Draft_BSplin
 
 </div>
 
-<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width   *400px;"> 
 *Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
 
 
@@ -53,7 +53,7 @@ Tento nástroj konvertuje [Dráty](Draft_Wire/cs.md) do [B-křivek](Draft_BSplin
 
 <div class="mw-translate-fuzzy">
 
-Není dostupné, ale vytvoření nového objektu z bodů jiného objektu je snadné, například:
+Není dostupné, ale vytvoření nového objektu z bodů jiného objektu je snadné, například   *
 
 
 </div>
@@ -61,7 +61,7 @@ Není dostupné, ale vytvoření nového objektu z bodů jiného objektu je snad
 
 <div class="mw-translate-fuzzy">
 
--   Je-li aktivní objekt drát:
+-   Je-li aktivní objekt drát   *
 
 
 </div>

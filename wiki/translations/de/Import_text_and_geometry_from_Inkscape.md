@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic: Import von Text und Geometrie aus Inkscape
-   Level: Anfänger
-   Time: 30 Minuten
-   Author:r-frank
-   FCVersion:0.16.6704
-   Files:
+- TutorialInfo   */de
+   Topic   * Import von Text und Geometrie aus Inkscape
+   Level   * Anfänger
+   Time   * 30 Minuten
+   Author   *r-frank
+   FCVersion   *0.16.6704
+   Files   *
 ---
 
 # Import text and geometry from Inkscape/de
@@ -76,7 +76,7 @@ Für diese Bearbeitungen werden Inkscape 0.91 und FreeCAD 0.16.6704 unter Window
 
 ## Importieren von Geometrie aus InkScape 
 
-Da inkscape und FreeCAD unterschiedliche Ansätze zur Anwendung von Bemaßungen auf svg-Objekte zu haben scheinen, scheint der empfohlene Arbeitsablauf zu sein:
+Da inkscape und FreeCAD unterschiedliche Ansätze zur Anwendung von Bemaßungen auf svg-Objekte zu haben scheinen, scheint der empfohlene Arbeitsablauf zu sein   *
 
 -   Gruppiere alle Objekte in inkscape
 -   wähle alle Objekte in inkscape aus

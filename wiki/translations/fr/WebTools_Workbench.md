@@ -1,4 +1,4 @@
-# <img alt="Icône de l\'atelier externe WebTools" src=images/WebTools_workbench_icon.svg  style="width:64px;"> WebTools Workbench/fr
+# <img alt="Icône de l\'atelier externe WebTools" src=images/WebTools_workbench_icon.svg  style="width   *64px;"> WebTools Workbench/fr
 
 ## Vue d\'ensemble 
 
@@ -10,13 +10,18 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
 ## Outils
 
--   <img alt="" src=images/WebTools_BimServer.svg  style="width:32px;"> [BIM server](WebTools_BimServer/fr.md): Ouvre une fenêtre [BimServer](http://www.bimserver.org)
--   <img alt="" src=images/WebTools_Git.svg  style="width:32px;"> [Git](WebTools_Git/fr.md): Gérer des fichiers avec [GIT](https://en.wikipedia.org/wiki/Git_%28software%29)
--   <img alt="" src=images/WebTools_Sketchfab.svg  style="width:32px;"> [Sketchfab exporter](WebTools_Sketchfab/fr.md): Exporte et télécharge des objets vers votre compte [SketchFab](http://www.sketchfab.com).
+-   <img alt="" src=images/WebTools_BimServer.svg  style="width   *32px;"> [BIM server](WebTools_BimServer/fr.md)   * Ouvre une fenêtre [BimServer](http   *//www.bimserver.org)
+-   <img alt="" src=images/WebTools_Git.svg  style="width   *32px;"> [Git](WebTools_Git/fr.md)   * Gérer des fichiers avec [GIT](https   *//en.wikipedia.org/wiki/Git_%28software%29)
+-   <img alt="" src=images/WebTools_Sketchfab.svg  style="width   *32px;"> [Sketchfab exporter](WebTools_Sketchfab/fr.md)   * Exporte et télécharge des objets vers votre compte [SketchFab](http   *//www.sketchfab.com).
 
 ## Liens
 
--   Code source hébergé sur GitHub: <https://github.com/yorikvanhavre/WebTools>
+-   Code source hébergé sur GitHub   * <https   *//github.com/yorikvanhavre/WebTools>
+
+
+ 
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *User Documentation](Category_User_Documentation.md)
 
 
 

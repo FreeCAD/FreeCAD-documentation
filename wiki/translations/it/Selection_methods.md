@@ -3,7 +3,7 @@
 
 ## Presentazione
 
-I metodi di selezione in FreeCAD consentono di selezionare gli oggetti nell\'[interfaccia di FreeCAD](Interface/it.md): ad esempio nella [vista 3D](3D_view/it.md), nella [struttura ad albero](Tree_view/it.md), nella [vista selezione](Selection_view/it.md), e tramite altri dialoghi. Alcuni metodi di selezione sono specifici di un particolare ambiente e sono documentati nella documentazione specifica di tale ambiente.
+I metodi di selezione in FreeCAD consentono di selezionare gli oggetti nell\'[interfaccia di FreeCAD](Interface/it.md)   * ad esempio nella [vista 3D](3D_view/it.md), nella [struttura ad albero](Tree_view/it.md), nella [vista selezione](Selection_view/it.md), e tramite altri dialoghi. Alcuni metodi di selezione sono specifici di un particolare ambiente e sono documentati nella documentazione specifica di tale ambiente.
 
 ## Vista 3D 
 
@@ -21,9 +21,9 @@ Il terzo clic estende la selezione al suo oggetto contenitore ([Corpo di PartDes
 
 ### Comandi di selezione 
 
--   Per selezionare tutti gli oggetti: [Std SelectAll](Std_SelectAll/it.md).
--   Per inquadrare selezionare più oggetti principali: [Std BoxSelection](Std_BoxSelection/it.md).
--   Per inquadrare più facce: [Std BoxElementSelection](Std_BoxElementSelection/it.md) o [Part BoxSelection](Part_BoxSelection/it.md).
+-   Per selezionare tutti gli oggetti   * [Std SelectAll](Std_SelectAll/it.md).
+-   Per inquadrare selezionare più oggetti principali   * [Std BoxSelection](Std_BoxSelection/it.md).
+-   Per inquadrare più facce   * [Std BoxElementSelection](Std_BoxElementSelection/it.md) o [Part BoxSelection](Part_BoxSelection/it.md).
 
 ## Vista selezione 
 
@@ -76,7 +76,7 @@ Il comando `addSelectionGate` impedisce all\'utente di selezionare oggetti non s
 
 
 ```python
-Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
+Gui.Selection.addSelectionGate("SELECT Part   *   *Feature SUBELEMENT Edge")
 ```
 
 Vedere nella [Documentazione del codice sorgente](Source_documentation/it.md) e nella [Documentazione dei moduli Python](Std_PythonHelp/it.md) per ulteriori aiuti sull\'uso di questi strumenti.

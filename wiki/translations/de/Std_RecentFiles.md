@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std RecentFiles
-   Name/de:Std LetzteDateien
-   Empty:1
-   MenuLocation:Datei → Letzte Dateien
-   Workbenches:Alle
-   SeeAlso:[Std Öffnen](Std_Open/de.md), [Std Import](Std_Import/de.md)
+- GuiCommand   */de
+   Name   *Std RecentFiles
+   Name/de   *Std LetzteDateien
+   Empty   *1
+   MenuLocation   *Datei → Letzte Dateien
+   Workbenches   *Alle
+   SeeAlso   *[Std Öffnen](Std_Open/de.md), [Std Import](Std_Import/de.md)
 ---
 
 # Std RecentFiles/de
@@ -26,7 +26,7 @@ Der Menüeintrag **Std LetzteDateien** zeigt eine Liste der zuletzt gespeicherte
 ## Einstellungen
 
 -   Die maximale Anzahl von Dateien in der Liste der zuletzt gespeicherten Dateien ist unter **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → RecentFiles → RecentFiles** festgelegt. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Allgemeines.md) geändert werden.
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 
 

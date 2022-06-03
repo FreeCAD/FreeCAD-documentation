@@ -1,6 +1,6 @@
 # Path DressupTag/ro
 ---
-- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path → Path Dressup → Tag Dress-up   SeeAlso:[[Path_DressupRampEntry|Path_DressupRampEntry](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
+- GuiCommand   *   Name   *Path DressupTag   Workbenches   *[MenuLocation   *Path → Path Dressup → Tag Dress-up   SeeAlso   *[[Path_DressupRampEntry|Path_DressupRampEntry](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
 
 
 </div>
@@ -15,7 +15,7 @@ Acest instrument utilizează o traiectorie existentă pentru a adăuga punți/et
 
 </div>
 
-A video explanation of this feature is given at: <https://www.youtube.com/watch?v=JZ4prlR6sps>
+A video explanation of this feature is given at   * <https   *//www.youtube.com/watch?v=JZ4prlR6sps>
 
 ## Utilizare
 
@@ -23,7 +23,7 @@ A video explanation of this feature is given at: <https://www.youtube.com/watch?
 <div class="mw-translate-fuzzy">
 
 1.  Select a contour or profile path [Path](Path_Workbench.md) objects
-2.  Click pe articolul din meniu <img alt="" src=images/Path_Dressup.png  style="width:16px;"> [Tag Dress-up](Path_DressupTag.md)
+2.  Click pe articolul din meniu <img alt="" src=images/Path_Dressup.png  style="width   *16px;"> [Tag Dress-up](Path_DressupTag.md)
 
 
 </div>

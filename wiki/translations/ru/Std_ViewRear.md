@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Сзади
-   Name:Std_ViewRear
-   MenuLocation:Вид → Стандартные виды‏‎ → Сзади
-   Workbenches:Все
-   Shortcut:**4**
-   SeeAlso:[Снизу](Std_ViewBottom/ru.md), [Слева](Std_ViewLeft/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Сзади
+   Name   *Std_ViewRear
+   MenuLocation   *Вид → Стандартные виды‏‎ → Сзади
+   Workbenches   *Все
+   Shortcut   ***4**
+   SeeAlso   *[Снизу](Std_ViewBottom/ru.md), [Слева](Std_ViewLeft/ru.md)
 ---
 
 # Std ViewRear/ru
@@ -19,16 +19,16 @@ The **Std ViewRear** command points the camera in the active [3D view](3D_view.m
 
 ## Применение
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Std_ViewRear.svg" width=16px> [Std ViewRear](Std_ViewRear.md)** button.
     -   Select the **View → Standard views → <img src="images/Std_ViewRear.svg" width=16px> Rear** option from the menu.
     -   Select the **Standard views → <img src="images/Std_ViewRear.svg" width=16px> Rear** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **4**.
+    -   Use the keyboard shortcut   * **4**.
 
 ## Программирование
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

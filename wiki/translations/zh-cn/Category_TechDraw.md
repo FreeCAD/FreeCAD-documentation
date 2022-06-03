@@ -7,7 +7,7 @@ This category lists pages related to the [TechDraw Workbench/zh-cn](TechDraw_Wor
 
 |     |     |     |
 | --- | --- | --- |
-| [TechDraw Workbench/zh-cn](wiki/TechDraw Workbench/zh-cn.md) |
+| [Drawing/zh-cn](wiki/Drawing/zh-cn.md) | [TechDraw Workbench/zh-cn](wiki/TechDraw Workbench/zh-cn.md) |
 
 
 

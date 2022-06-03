@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Part Import‏‎
-   Name/ru:Part ImportCAD‏‎
-   MenuLocation:Деталь → Импорт CAD
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Std Import](Std_Import/ru.md)
+- GuiCommand   */ru
+   Name   *Part Import‏‎
+   Name/ru   *Part ImportCAD‏‎
+   MenuLocation   *Деталь → Импорт CAD
+   Workbenches   *[Part](Part_Workbench/ru.md)
+   SeeAlso   *[Std Import](Std_Import/ru.md)
 ---
 
 # Part Import/ru
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Этот инструмент позволяет Вам добавить в текущий документ файлы [\*.IGES](https://ru.wikipedia.org/wiki/IGES), [(стандарт) \*.STEP](https://ru.wikipedia.org/wiki/STEP), [\*.BREP](http://en.wikipedia.org/wiki/BREP).
+Этот инструмент позволяет Вам добавить в текущий документ файлы [\*.IGES](https   *//ru.wikipedia.org/wiki/IGES), [(стандарт) \*.STEP](https   *//ru.wikipedia.org/wiki/STEP), [\*.BREP](http   *//en.wikipedia.org/wiki/BREP).
 
 
 </div>

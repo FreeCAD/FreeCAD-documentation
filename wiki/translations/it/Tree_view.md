@@ -37,9 +37,9 @@ Per impostazione predefinita, ogni volta che viene creato un nuovo oggetto, ques
 
 Molte operazioni creano oggetti che dipendono da un oggetto precedentemente esistente. In questo caso, la vista ad albero mostra questa relazione assorbendo l\'oggetto più vecchio all\'interno del nuovo oggetto. L\'espansione e la compressione degli oggetti nella vista ad albero mostra la cronologia parametrica di quell\'oggetto. Gli oggetti più profondi all\'interno degli altri sono quelli più vecchi, mentre gli oggetti all\'esterno sono i più recenti e sono derivati dagli oggetti più vecchi. Modificando gli oggetti interni, le operazioni parametriche si propagano fino in cima, generando un nuovo risultato.
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width   *" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width   *" height="304px;">
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width   *" height="304px;">
 
 
 
@@ -58,9 +58,9 @@ Poiché la vista ad albero elenca oggetti che possono essere visibili nella [vis
 
 <div class="mw-translate-fuzzy">
 
-All\'avvio dell\'applicazione, per impostazione predefinita è attivo l\'ambiente [Start](Start_Workbench/it.md) e non viene stato creato alcun documento, facendo clic con il tasto destro del mouse sulla [vista ad albero](tree_view/it.md) appare solo un comando:
+All\'avvio dell\'applicazione, per impostazione predefinita è attivo l\'ambiente [Start](Start_Workbench/it.md) e non viene stato creato alcun documento, facendo clic con il tasto destro del mouse sulla [vista ad albero](tree_view/it.md) appare solo un comando   *
 
--    **Expression actions**: [Copia selezionati](Std_Expressions/it.md), [Copia il documentoattivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md), Incolla. Questi comandi consentono di lavorare con vari documenti, ma sono disabilitati se non è presente alcun documento.
+-    **Expression actions**   * [Copia selezionati](Std_Expressions/it.md), [Copia il documentoattivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md), Incolla. Questi comandi consentono di lavorare con vari documenti, ma sono disabilitati se non è presente alcun documento.
 
 
 </div>
@@ -68,9 +68,9 @@ All\'avvio dell\'applicazione, per impostazione predefinita è attivo l\'ambient
 
 <div class="mw-translate-fuzzy">
 
-Una volta creato un nuovo documento, diventano attivi i seguenti elementi:
+Una volta creato un nuovo documento, diventano attivi i seguenti elementi   *
 
--    **Expression actions**: [Copia il documento attivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md).
+-    **Expression actions**   * [Copia il documento attivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md).
 
 
 </div>
@@ -80,12 +80,12 @@ Una volta creato un nuovo documento, diventano attivi i seguenti elementi:
 
 Inoltre, sono disponibili le azioni [Link](Std_LinkMake/it.md).
 
--    **Link actions**: [Crea Link](Std_LinkMake/it.md).
+-    **Link actions**   * [Crea Link](Std_LinkMake/it.md).
 
     -   
         **Make Link group**
         
-        : [Gruppo semplice](Std_LinkMakeGroup/it.md), [Gruppo con link](Std_LinkMakeGroup/it.md), [Gruppo con link di trasformazione](Std_LinkMakeGroup/it.md).
+           * [Gruppo semplice](Std_LinkMakeGroup/it.md), [Gruppo con link](Std_LinkMakeGroup/it.md), [Gruppo con link di trasformazione](Std_LinkMakeGroup/it.md).
 
 
 </div>
@@ -95,24 +95,24 @@ Inoltre, sono disponibili le azioni [Link](Std_LinkMake/it.md).
 
 <div class="mw-translate-fuzzy">
 
-Se si seleziona il documento attivo e si fa clic con il tasto destro, oltre a **Expression actions** and **Azioni link**, vengono visualizzati i seguenti comandi:
+Se si seleziona il documento attivo e si fa clic con il tasto destro, oltre a **Expression actions** and **Azioni link**, vengono visualizzati i seguenti comandi   *
 
--    **Mostra gli elementi nascosti**: se attivo, la vista ad albero mostra gli oggetti nascosti.
+-    **Mostra gli elementi nascosti**   * se attivo, la vista ad albero mostra gli oggetti nascosti.
 
--    **Cerca**: mostra un campo di input per cercare oggetti all\'interno del documento selezionato.
+-    **Cerca**   * mostra un campo di input per cercare oggetti all\'interno del documento selezionato.
 
--    **Chiudi il documento**: chiude il documento selezionato chiamando il metodo `closeDocument()` dell\'applicazione.
+-    **Chiudi il documento**   * chiude il documento selezionato chiamando il metodo `closeDocument()` dell\'applicazione.
 
--    **Salta il ricalcolo**: se attivo, gli oggetti del documento non vengono più [ricalcolati](recompute/it.md) automaticamente.
+-    **Salta il ricalcolo**   * se attivo, gli oggetti del documento non vengono più [ricalcolati](recompute/it.md) automaticamente.
 
     -   
         **Consenti il ricalcolo parziale**
         
-        : se attivo, il documento consente il [ricalcolo](recompute/it.md) solo di alcuni oggetti.
+           * se attivo, il documento consente il [ricalcolo](recompute/it.md) solo di alcuni oggetti.
 
--    **Segna da ricalcolare**: contrassegna tutti gli oggetti del documento come toccati e pronti per il [ricalcolo](recompute/it.md).
+-    **Segna da ricalcolare**   * contrassegna tutti gli oggetti del documento come toccati e pronti per il [ricalcolo](recompute/it.md).
 
--    **[Crea un gruppo](Std_Group/it.md)**: crea un [gruppo](Std_Group/it.md) nel documento selezionato usando il metodo `addObject()` del documento.
+-    **[Crea un gruppo](Std_Group/it.md)**   * crea un [gruppo](Std_Group/it.md) nel documento selezionato usando il metodo `addObject()` del documento.
 
 
 </div>
@@ -130,51 +130,51 @@ Una volta aggiunti gli oggetti al documento, oltre alle azioni precedenti, facen
 
 <div class="mw-translate-fuzzy">
 
-Se si seleziona un oggetto, ad esempio una [ linea di Draft](Draft_Line/it.md) e si fa clic con il tasto destro nello stesso oggetto, possono essere disponibili comandi aggiuntivi:
+Se si seleziona un oggetto, ad esempio una [ linea di Draft](Draft_Line/it.md) e si fa clic con il tasto destro nello stesso oggetto, possono essere disponibili comandi aggiuntivi   *
 
--    **Trasforma**: avvia il widget di trasformazione per spostare o ruotare l\'oggetto.
+-    **Trasforma**   * avvia il widget di trasformazione per spostare o ruotare l\'oggetto.
 
--    **Imposta i colori**: imposta i colori dell\'oggetto.
+-    **Imposta i colori**   * imposta i colori dell\'oggetto.
 
--    **Appiattisci questo profilo**: **(Draft)** comando specifico per una [linea di Draft](Draft_Line/it.md).
+-    **Appiattisci questo profilo**   * **(Draft)** comando specifico per una [linea di Draft](Draft_Line/it.md).
 
--    **Nascondi l'elemento**: se attivo, l\'oggetto selezionato viene impostato come nascosto.
+-    **Nascondi l'elemento**   * se attivo, l\'oggetto selezionato viene impostato come nascosto.
 
--    **Segna da ricalcolare**: contrassegna l\'oggetto selezionato come toccato e pronto per il [ricalcolo](recompute/it.md).
+-    **Segna da ricalcolare**   * contrassegna l\'oggetto selezionato come toccato e pronto per il [ricalcolo](recompute/it.md).
 
--    **Ricalcola**: ricalcola l\'oggetto selezionato.
+-    **Ricalcola**   * ricalcola l\'oggetto selezionato.
 
--    **Rinomina**: avvia la modifica del nome dell\'oggetto selezionato. Ciò consente di modificare l\'attributo `Label`, ma non l\'attributo `Name`, poiché quest\'ultimo è di sola lettura.
+-    **Rinomina**   * avvia la modifica del nome dell\'oggetto selezionato. Ciò consente di modificare l\'attributo `Label`, ma non l\'attributo `Name`, poiché quest\'ultimo è di sola lettura.
 
 
 </div>
 
 ### Keyboard actions 
 
-The following keyboard actions are available when the focus is on the Tree view:
+The following keyboard actions are available when the focus is on the Tree view   *
 
--    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
+-    **Ctrl**\+**F**   * opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
 
--   Expand and collapse actions using **Alt**+**Arrow** combinations: <small>(v0.20)</small> 
+-   Expand and collapse actions using **Alt**+**Arrow** combinations   * <small>(v0.20)</small> 
     -   
         **Alt**
         
-        \+**Left**: collapses selected item(s).
-
-    -   
-        **Alt**
-        
-        \+**Right**: expands selected item(s).
+        \+**Left**   * collapses selected item(s).
 
     -   
         **Alt**
         
-        \+**Up**: expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
+        \+**Right**   * expands selected item(s).
 
     -   
         **Alt**
         
-        \+**Down**: expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
+        \+**Up**   * expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
+
+    -   
+        **Alt**
+        
+        \+**Down**   * expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
 
 ## Overlay icons 
 
@@ -200,7 +200,7 @@ This is only used for [sketches](Sketch.md) and indicates that the sketch is not
 
 ### ![](images/FreeCAD_Tree_view_error.png ) White exclamation mark on red background 
 
-This indicates that the object has an error that needs to be fixed. After recomputing the whole document a tooltip describing the error is shown when you hover the mouse over the object in the tree view. Note: All other objects depending on an object in such an error state will not be properly recomputed, thus they may still show some old state.
+This indicates that the object has an error that needs to be fixed. After recomputing the whole document a tooltip describing the error is shown when you hover the mouse over the object in the tree view. Note   * All other objects depending on an object in such an error state will not be properly recomputed, thus they may still show some old state.
 
 
 {{Interface navi

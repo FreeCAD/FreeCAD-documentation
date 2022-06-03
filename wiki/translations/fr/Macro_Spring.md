@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2014-09-29
 |FCVersion=All
-|Download=The file [http://forum.freecadweb.org/download/file.php?id=7679 Spring.FCStd]<br />[https://www.freecadweb.org/wiki/images/2/2d/Macro_Spring.png ToolBar Icon]
+|Download=The file [http   *//forum.freecadweb.org/download/file.php?id=7679 Spring.FCStd]<br />[https   *//www.freecadweb.org/wiki/images/2/2d/Macro_Spring.png ToolBar Icon]
 }}
 
 ## Description
@@ -20,11 +20,11 @@ Simule la compression et la décompression d\'un ressort.
 
 Ouvrir les deux fichiers ci-dessous (Spring.FCMacro et Spring.FCStd) dans FreeCAD avec deux fenêtres (menu Fenêtre → Mosaïque), cliquer dans la fenêtre et sur la macro puis faire **F6** (Déboguer la macro) pour exécuter la macro ou la lancer avec le bouton ![](images/Std_DlgMacroExecuteDirect.svg ).
 
-<img alt="" src=images/Spring_02.png  style="width:300px;">
+<img alt="" src=images/Spring_02.png  style="width   *300px;">
 
 ## Fichier
 
-[Spring.FCStd](http://forum.freecadweb.org/download/file.php?id=7679)
+[Spring.FCStd](http   *//forum.freecadweb.org/download/file.php?id=7679)
 
 ## Script
 
@@ -43,17 +43,17 @@ i = ib = FreeCAD.getDocument("Spring").getObject("Helix001").Height.Value
 
 pas = 1
 
-for ii2 in range(int(60)):
-    if pas == 0:
-        if ii > iib-1:
+for ii2 in range(int(60))   *
+    if pas == 0   *
+        if ii > iib-1   *
             pas = 1
-        else:
+        else   *
             ii += 1
             i = (ii * 10)
-    else:
-        if ii < 2:
+    else   *
+        if ii < 2   *
             pas = 0
-        else:
+        else   *
             ii -= 1
             i = (ii * 10)
    
@@ -67,7 +67,7 @@ for ii2 in range(int(60)):
 
 ## Liens
 
-La discussion du forum (en anglais) : [scripting animations](http://forum.freecadweb.org/viewtopic.php?f=22&t=7449#p62193)
+La discussion du forum (en anglais)    * [scripting animations](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=7449#p62193)
 
 
 

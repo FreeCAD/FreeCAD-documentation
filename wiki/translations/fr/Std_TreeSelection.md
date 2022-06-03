@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Std TreeSelection
-   Name/fr:Std Arborescence Aller à la sélection
-   MenuLocation:Affichage → Configuration de l'arborescence → Aller à la sélection
-   Workbenches:Tous
-   Shortcut:**T** **G**
-   Version:0.19
+- GuiCommand   */fr
+   Name   *Std TreeSelection
+   Name/fr   *Std Arborescence Aller à la sélection
+   MenuLocation   *Affichage → Configuration de l'arborescence → Aller à la sélection
+   Workbenches   *Tous
+   Shortcut   ***T** **G**
+   Version   *0.19
 ---
 
 # Std TreeSelection/fr
@@ -19,11 +19,11 @@ Si le mode de la vue en arborescence [Synchroniser la sélection](Std_TreeSyncSe
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets dans une vue 3D.
-2.  Il existe plusieurs façons d\'appeler la commande:
-3.  \* Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **<img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection** dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
+2.  Il existe plusieurs façons d\'appeler la commande   *
+3.  \* Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **<img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection** dans le menu déroulant. Remarque   * l\'image du bouton changera en fonction de l\'option sélectionnée.
     -   Sélectionnez l\'option **Affichage → Configuration de l'arborescence → <img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection** dans le menu contextuel de la vue 3D.
-    -   Utilisez le raccourci clavier: **T** puis **G**.
+    -   Utilisez le raccourci clavier   * **T** puis **G**.
 
 
 

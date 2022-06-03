@@ -8,31 +8,31 @@
 |Version=1.0.1
 |Date=2020-03-10
 |FCVersion=
-|Download=[https://www.freecadweb.org/wiki/images/e/e4/Macro_Unfold_Box.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/e/e4/Macro_Unfold_Box.png ToolBar Icon]
 }}
 
 ## Descrizione
 
 Questa macro permette di creare lo sviluppo delle superfici di un solido con facce piane, di disegnare le facce in una pagina e di inserire il disegno in un foglio A3 o A4.
 
-<img alt="" src=images/Macro_unfoldBox1.png  style="width:480px;"> 
+<img alt="" src=images/Macro_unfoldBox1.png  style="width   *480px;"> 
 *Macro_unfoldBox*
 
 ## Installazione
 
-Secondo quanto descritto in [Macro for unfolding box surfaces](http://forum.freecadweb.org/viewtopic.php?f=17&t=4587)
+Secondo quanto descritto in [Macro for unfolding box surfaces](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4587)
 
-Copiare il file del codice nella directory:
+Copiare il file del codice nella directory   *
 
--   **Linux & Mac** : \$home/.Freecad/Mod/unfoldBox.
--   **Windows** : C:\\Program Files\\FreeCAD0.13
+-   **Linux & Mac**    * \$home/.Freecad/Mod/unfoldBox.
+-   **Windows**    * C   *Program Files\\FreeCAD0.13
 
-Aggiungere i modelli del foglio : A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\_Landscape\_Empty.svg A4\_Landscape.svg
+Aggiungere i modelli del foglio    * A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\_Landscape\_Empty.svg A4\_Landscape.svg
 
 ## Opzioni
 
 -   Scala manuale o automatica
--   Formato della pagina: A3, A4
+-   Formato della pagina   * A3, A4
 -   Tabella (secondo i modelli di FreeCAD)
 -   Raggruppamento dei disegni nella stessa pagina se è possibile.
 -   Unire le facce su un lato.
@@ -58,7 +58,7 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
 Unroll of a ruled surface
 '''
 #####################################
-# SEE https://wiki.freecadweb.org/Macro_Unfold_Box.
+# SEE https   *//wiki.freecadweb.org/Macro_Unfold_Box.
 # ***************************************************************************
 # *                                                                         *
 # *   Copyright (c) 2013 - DoNovae/Herve BAILLY <hbl13@donovae.com>         *
@@ -95,18 +95,18 @@ unroll_l = []
 #####################################
 
 
-def errorDialog(msg):
+def errorDialog(msg)   *
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical, u'Error Message',msg)
     diag.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
     diag.exec_()
 
 
-def proceed():
+def proceed()   *
     QtGui.qApp.setOverrideCursor(QtCore.Qt.WaitCursor)
 
     FreeCAD.Console.PrintMessage('===========================================\n')
-    FreeCAD.Console.PrintMessage('unfoldBox: start.\n')
-    try:
+    FreeCAD.Console.PrintMessage('unfoldBox   * start.\n')
+    try   *
         file_name = fields_l[0].text()
         scale = float(fields_l[1].text())
         scale_auto = scale_check.isChecked()
@@ -114,15 +114,15 @@ def proceed():
         cartridge = cartridge_check.isChecked()
         onedrawing = onedrawing_check.isChecked()
         sewed = sewed_check.isChecked()
-        FreeCAD.Console.PrintMessage('unfoldBox.file_name: '+file_name+'\n')
-        FreeCAD.Console.PrintMessage('unfoldBox.scale: '+str(scale)+'\n')
-        FreeCAD.Console.PrintMessage('unfoldBox.scale_check: '+str(scale_auto)+'\n')
-        FreeCAD.Console.PrintMessage('unfoldBox.a3_check: '+str(a3)+'\n')
-        FreeCAD.Console.PrintMessage('unfoldBox.cartridge: '+str(cartridge)+'\n')
-        FreeCAD.Console.PrintMessage('unfoldBox.onedrawing: '+str(onedrawing)+'\n')
-        FreeCAD.Console.PrintMessage('unfoldBox.sewed: '+str(sewed)+'\n')
-    except:
-        msg = 'unfoldBox: wrong inputs...\n'
+        FreeCAD.Console.PrintMessage('unfoldBox.file_name   * '+file_name+'\n')
+        FreeCAD.Console.PrintMessage('unfoldBox.scale   * '+str(scale)+'\n')
+        FreeCAD.Console.PrintMessage('unfoldBox.scale_check   * '+str(scale_auto)+'\n')
+        FreeCAD.Console.PrintMessage('unfoldBox.a3_check   * '+str(a3)+'\n')
+        FreeCAD.Console.PrintMessage('unfoldBox.cartridge   * '+str(cartridge)+'\n')
+        FreeCAD.Console.PrintMessage('unfoldBox.onedrawing   * '+str(onedrawing)+'\n')
+        FreeCAD.Console.PrintMessage('unfoldBox.sewed   * '+str(sewed)+'\n')
+    except   *
+        msg = 'unfoldBox   * wrong inputs...\n'
         FreeCAD.Console.PrintError(msg)
         errorDialog(msg)
 
@@ -133,114 +133,114 @@ def proceed():
     #
     sel = FreeCADGui.Selection.getSelection()
     objnames_l=[]
-    grp = FreeCAD.activeDocument().addObject('App::DocumentObjectGroup', str(file_name))
-    for objid in range(sel.__len__()):
+    grp = FreeCAD.activeDocument().addObject('App   *   *DocumentObjectGroup', str(file_name))
+    for objid in range(sel.__len__())   *
         obj = Draft.clone(sel[objid])
         grp.addObject(obj)
         objnames_l.append([ obj, sel[objid].Name ])
 
     unfold = unfoldBox()
-    if sewed :
+    if sewed    *
         objnames_l = unfold.done(objnames_l)
         grp.addObject(objnames_l[0][0])
-    else:
-        for objid in range(objnames_l.__len__()):
+    else   *
+        for objid in range(objnames_l.__len__())   *
             unfold.moveXY(objnames_l[objid][0])
 
     id_ = 0
-    while objnames_l.__len__() > 0:
+    while objnames_l.__len__() > 0   *
         draw = Drawing2d(scale, scale_auto, a3, cartridge, onedrawing, FreeCAD.activeDocument().Name, 'Page'+str(id_))
         objnames_l = draw.all_(objnames_l)
         id_ = id_+1
-        FreeCAD.Console.PrintMessage('unfoldBox: obj_l= '+str(objnames_l.__len__())+'\n')
+        FreeCAD.Console.PrintMessage('unfoldBox   * obj_l= '+str(objnames_l.__len__())+'\n')
 
-    FreeCAD.Console.PrintMessage('unfoldBox: end.\n')
+    FreeCAD.Console.PrintMessage('unfoldBox   * end.\n')
     FreeCAD.Console.PrintMessage('===========================================\n')
 
 
-def close():
+def close()   *
     DialogBox.hide()
 
 
-class unfoldBox:
-    def __init__(self):
+class unfoldBox   *
+    def __init__(self)   *
         FreeCAD.Console.PrintMessage('unfoldBox.unfoldBox\n')
         self.LIMIT = 0.0001
 
-    def done(self, objnames_l):
+    def done(self, objnames_l)   *
         tree_l = self.makeTree(objnames_l)
-        for id_ in range(objnames_l.__len__()):
+        for id_ in range(objnames_l.__len__())   *
             face = objnames_l[id_]
             self.moveXY(face[0])
         self.sew(objnames_l, tree_l)
         return self.fusion(objnames_l)
 
-    def makeTree(self, objnames_l):
+    def makeTree(self, objnames_l)   *
         # Initialisation of tree_l.
         tree_l = []
-        for k in range(objnames_l.__len__()):
+        for k in range(objnames_l.__len__())   *
             facek = objnames_l[k][0]
             facek_l = []
-            for i in range(facek.Shape.Edges.__len__()):
-                if False and type(facek.Shape.Edges[i].Curve).__name__ != 'GeomLineSegment':
+            for i in range(facek.Shape.Edges.__len__())   *
+                if False and type(facek.Shape.Edges[i].Curve).__name__ != 'GeomLineSegment'   *
                     facek_l.append([-1, -1])
-                else:
+                else   *
                     # Search face link to the ith edge
                     vki0 = facek.Shape.Edges[i].Curve.StartPoint
                     vki1 = facek.Shape.Edges[i].Curve.EndPoint
                     found = False
-                    for l in range(k+1, objnames_l.__len__()):
+                    for l in range(k+1, objnames_l.__len__())   *
                         facel = objnames_l[l][0]
-                        for j in range(facel.Shape.Edges.__len__()):
+                        for j in range(facel.Shape.Edges.__len__())   *
                             vlj0 = facel.Shape.Edges[j].Curve.StartPoint
                             vlj1 = facel.Shape.Edges[j].Curve.EndPoint
-                            if vki0.__eq__(vlj0) and vki1.__eq__(vlj1):
+                            if vki0.__eq__(vlj0) and vki1.__eq__(vlj1)   *
                                 arelinked = False
                                 isfacek = False
                                 isfacel = False
-                                for kk in range(k-1):
-                                    for ii in range(tree_l[kk].__len__()):
-                                        if tree_l[kk][ii][0] == k:
+                                for kk in range(k-1)   *
+                                    for ii in range(tree_l[kk].__len__())   *
+                                        if tree_l[kk][ii][0] == k   *
                                             isfacek = True
-                                        if tree_l[kk][ii][0] == l:
+                                        if tree_l[kk][ii][0] == l   *
                                             isfacel = True
-                                    if isfacek and isfacel:
+                                    if isfacek and isfacel   *
                                         arelinked = True
                                         break
-                                if not arelinked:
+                                if not arelinked   *
                                     facek_l.append([l, j])
                                     found = True
                                     break
-                            if found:
+                            if found   *
                                 break
-                if not found:
+                if not found   *
                     facek_l.append([-1, -1])
             tree_l.append(facek_l)
         return tree_l
 
-    def sew(self, objnames_l, tree_l):
+    def sew(self, objnames_l, tree_l)   *
         placed_l = []
-        for k in range(tree_l.__len__()):
+        for k in range(tree_l.__len__())   *
             iskplaced = False
-            for p in range(placed_l.__len__()):
-                if placed_l[p] == k:
+            for p in range(placed_l.__len__())   *
+                if placed_l[p] == k   *
                     iskplaced = True
-            if not iskplaced:
+            if not iskplaced   *
                 placed_l.append(k)
             facek = tree_l[k]
             objk = objnames_l[k][0]
-            for i in range(facek.__len__()):
+            for i in range(facek.__len__())   *
                 edgeki = facek[i]
                 l = edgeki[0]
                 j = edgeki[1]
                 islplaced = False
-                for p in range(placed_l.__len__()):
-                    if placed_l[p] == l:
+                for p in range(placed_l.__len__())   *
+                    if placed_l[p] == l   *
                         islplaced = True
                         break
-                if not islplaced:
+                if not islplaced   *
                     placed_l.append(l)
-                if l >= 0 and not (islplaced and iskplaced):
+                if l >= 0 and not (islplaced and iskplaced)   *
                     iskplaced = True
                     # Move facel.edgelj to facek.edgeki.
                     objl = objnames_l[l][0]
@@ -253,21 +253,21 @@ class unfoldBox:
                     alpk = vk.getAngle(vl)*180/math.pi
                     alpl = vl.getAngle(vk)*180/math.pi
                     self.isPlanZ(objk)
-                    if islplaced:
+                    if islplaced   *
                         Draft.move(objk, vlj0.sub(vki0))
-                    else:
+                    else   *
                         Draft.move(objl, vki0.sub(vlj0))
                     self.isPlanZ(objk)
 
-                    if math.fabs(vk.dot(FreeCAD.Base.Vector(-vl.y, vl.x, 0))) > self.LIMIT:
-                        if islplaced:
+                    if math.fabs(vk.dot(FreeCAD.Base.Vector(-vl.y, vl.x, 0))) > self.LIMIT   *
+                        if islplaced   *
                             Draft.rotate(objk, -alpl, vlj0, self.vecto(vl, vk))
-                        else:
+                        else   *
                             Draft.rotate(objl, -alpk, vki0, self.vecto(vk, vl))
-                    elif vk.dot(vl) < 0:
-                        if islplaced:
+                    elif vk.dot(vl) < 0   *
+                        if islplaced   *
                             Draft.rotate(objk, 180, vlj0, self.vecto(vl, FreeCAD.Base.Vector(-vl.y, vl.x, 0)))
-                        else:
+                        else   *
                             Draft.rotate(objl, 180, vki0, self.vecto(vk, FreeCAD.Base.Vector(-vk.y, vk.x, 0)))
                     # Verifications.
                     vki0 = objk.Shape.Edges[i].Curve.StartPoint
@@ -282,37 +282,37 @@ class unfoldBox:
                     L = max(objl.Shape.BoundBox.XMax, objk.Shape.BoundBox.XMax) - min(objl.Shape.BoundBox.XMin, objk.Shape.BoundBox.XMin)
                     W = max(objl.Shape.BoundBox.YMax, objk.Shape.BoundBox.YMax) - min(objl.Shape.BoundBox.YMin, objk.Shape.BoundBox.YMin)
                     S1 = L*W
-                    if islplaced:
+                    if islplaced   *
                         Draft.rotate(objk, 180, vlj0, vl)
-                    else:
+                    else   *
                         Draft.rotate(objl, 180, vki0, vk)
                     L = max(objl.Shape.BoundBox.XMax, objk.Shape.BoundBox.XMax) - min(objl.Shape.BoundBox.XMin, objk.Shape.BoundBox.XMin)
                     W = max(objl.Shape.BoundBox.YMax, objk.Shape.BoundBox.YMax) - min(objl.Shape.BoundBox.YMin, objk.Shape.BoundBox.YMin)
                     S2 = L * W
-                    if (S2 <= S1):
-                        if islplaced:
+                    if (S2 <= S1)   *
+                        if islplaced   *
                             Draft.rotate(objk, 180, vlj0, vl)
-                        else:
+                        else   *
                             Draft.rotate(objl, 180, vki0, vk)
                     self.isPlanZ(objk)
 
-    def isPlanZ(self, obj):
+    def isPlanZ(self, obj)   *
         L = obj.Shape.BoundBox.XMax - obj.Shape.BoundBox.XMin
         W = obj.Shape.BoundBox.YMax - obj.Shape.BoundBox.YMin
         H = obj.Shape.BoundBox.ZMax - obj.Shape.BoundBox.ZMin
-        if H < self.LIMIT:
+        if H < self.LIMIT   *
             return True
-        else:
+        else   *
             return False
 
 
-    def fusion(self, objnames_l):
+    def fusion(self, objnames_l)   *
         # Init.
         obj_l=[]
         objna_l=[]
         obj0 = objnames_l[0][0];name=objnames_l[0][1]
-        objfuse = FreeCAD.activeDocument().addObject('Part::MultiFuse','Unfolding')
-        for k in range(objnames_l.__len__()):
+        objfuse = FreeCAD.activeDocument().addObject('Part   *   *MultiFuse','Unfolding')
+        for k in range(objnames_l.__len__())   *
             objk = objnames_l[k][0]
             obj_l.append(objk)
         objfuse.Shapes = obj_l
@@ -320,19 +320,19 @@ class unfoldBox:
         objna_l.append([objfuse, name])
         return objna_l
 
-    def get2Vectors(self, shape):
+    def get2Vectors(self, shape)   *
         v0 = FreeCAD.Base.Vector(0, 0, 0)
         v1 = FreeCAD.Base.Vector(0, 0, 0)
 
         edges= shape.Edges
-        for id_ in range(edges.__len__()-1):
+        for id_ in range(edges.__len__()-1)   *
             va = edges[id_].Curve.EndPoint.sub(edges[id_].Curve.StartPoint)
             vb = edges[id_+1].Curve.EndPoint.sub(edges[id_+1].Curve.StartPoint)
-            if vb.sub(va).Length > v1.sub(v0).Length:
+            if vb.sub(va).Length > v1.sub(v0).Length   *
                 v0 = self.vect_copy(va);v1=self.vect_copy(vb)
         return [v0, v1]
 
-    def vecto(self, vect1, vect2):
+    def vecto(self, vect1, vect2)   *
         '''Function vecto.'''
         v= FreeCAD.Base.Vector(0, 0, 0)
         v.x = vect1.y*vect2.z-vect1.z*vect2.y
@@ -340,12 +340,12 @@ class unfoldBox:
         v.z = vect1.x*vect2.y-vect1.y*vect2.x
         return v
 
-    def vect_copy(self, vect):
+    def vect_copy(self, vect)   *
         '''Return a copy of vector.'''
         v = vect.add(FreeCAD.Base.Vector(0, 0, 0))
         return v
 
-    def moveXY(self, obj):
+    def moveXY(self, obj)   *
         # Move to origin
         Draft.move(obj, FreeCAD.Base.Vector(-obj.Shape.BoundBox.XMin, -obj.Shape.BoundBox.YMin, -obj.Shape.BoundBox.ZMin))
 
@@ -357,11 +357,11 @@ class unfoldBox:
         norm.normalize()
 
         # Rotate.
-        if math.fabs(norm.x) < self.LIMIT and math.fabs(norm.z) < self.LIMIT:
+        if math.fabs(norm.x) < self.LIMIT and math.fabs(norm.z) < self.LIMIT   *
             Draft.rotate(obj, 90, FreeCAD.Base.Vector(0, 0, 0), FreeCAD.Base.Vector(1, 0, 0))
-        elif math.fabs(norm.y) < self.LIMIT and math.fabs(norm.z) < self.LIMIT:
+        elif math.fabs(norm.y) < self.LIMIT and math.fabs(norm.z) < self.LIMIT   *
             Draft.rotate(obj, 90, FreeCAD.Base.Vector(0, 0, 0), FreeCAD.Base.Vector(0, 1, 0))
-        else:
+        else   *
             # Rotate following the angle to the normal direction of the plan.
             oz= FreeCAD.Base.Vector(0, 0, 1)
             alp = oz.getAngle(norm)*180/math.pi
@@ -371,8 +371,8 @@ class unfoldBox:
         Draft.move(obj, FreeCAD.Base.Vector(0, 0, -obj.Shape.BoundBox.ZMin))
 
 
-class Drawing2d:
-    def __init__(self, scale, scale_auto, a3, cartridge, onedrawing, drawing_name, page_name):
+class Drawing2d   *
+    def __init__(self, scale, scale_auto, a3, cartridge, onedrawing, drawing_name, page_name)   *
         """Function __init__
 
         - scale
@@ -395,49 +395,49 @@ class Drawing2d:
         self.scale_auto = scale_auto
         self.cartridge = cartridge
         self.onedrawing = onedrawing
-        if self.a3:
+        if self.a3   *
             self.L = 420
             self.H = 297
             self.marge = 6
-        else:
+        else   *
             self.L = 297
             self.H = 210
             self.marge = 6
         self.page_name = page_name
         self.drawing_name = drawing_name
 
-    def newPage(self):
+    def newPage(self)   *
         freecad_dir = os.getenv('HOME') + '/.FreeCAD/Mod/unfoldBox'
         page = FreeCAD.activeDocument().addObject(
-            'Drawing::FeaturePage', self.page_name)
-        if self.a3:
-            if self.cartridge:
+            'Drawing   *   *FeaturePage', self.page_name)
+        if self.a3   *
+            if self.cartridge   *
                 page.Template = freecad_dir+'/A3_Landscape.svg'
-            else:
+            else   *
                 page.Template = freecad_dir+'/A3_Landscape_Empty.svg'
-        else:
-            if self.cartridge:
+        else   *
+            if self.cartridge   *
                 page.Template = freecad_dir+'/A4_Landscape.svg'
-            else:
+            else   *
                 page.Template = freecad_dir+'/A4_Landscape_Empty.svg'
         return page
 
-    def all_(self, objnames_l):
+    def all_(self, objnames_l)   *
         obj_l = []
-        for objid in range(objnames_l.__len__()):
-            if objid == 0 or not self.onedrawing:
+        for objid in range(objnames_l.__len__())   *
+            if objid == 0 or not self.onedrawing   *
                 self.newPage()
             obj_l.extend(self.done(objid, objnames_l[objid]))
         return obj_l
 
-    def done(self, id_, objname):
+    def done(self, id_, objname)   *
         # Init.
         obj_l = []
         obj = objname[0]
         objname = objname[1]
         xmax = obj.Shape.BoundBox.XMax-obj.Shape.BoundBox.XMin
         ymax = obj.Shape.BoundBox.YMax-obj.Shape.BoundBox.YMin
-        if ymax > xmax:
+        if ymax > xmax   *
             Draft.rotate(obj, 90)
         Draft.move(obj,
                    FreeCAD.Base.Vector(
@@ -447,12 +447,12 @@ class Drawing2d:
 
         scale = min((self.L-4*self.marge) / xmax, (self.H-4*self.marge) / ymax)
 
-        if (not self.scale_auto) or (self.onedrawing):
+        if (not self.scale_auto) or (self.onedrawing)   *
             scale = self.scale
 
-        if id_ == 0 or not self.onedrawing:
+        if id_ == 0 or not self.onedrawing   *
             # Init.
-            FreeCAD.Console.PrintMessage('Dawing2d: init\n')
+            FreeCAD.Console.PrintMessage('Dawing2d   * init\n')
             self.TopX_H = self.marge*2
             self.TopY_H = self.marge*2
             TopX = self.TopX_H
@@ -464,11 +464,11 @@ class Drawing2d:
             self.TopX_Vmax = max(self.TopX_Vmax, self.TopX_Hmax)
             self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
             self.TopY_V = self.marge * 2
-        elif self.onedrawing:
-            if self.TopX_H + xmax * scale < self.L:
-                if self.TopY_H + ymax * scale + self.marge*2 < self.H:
+        elif self.onedrawing   *
+            if self.TopX_H + xmax * scale < self.L   *
+                if self.TopY_H + ymax * scale + self.marge*2 < self.H   *
                     # H Add at right on same horizontal line.
-                    FreeCAD.Console.PrintMessage('Dawing2d: horizontal\n')
+                    FreeCAD.Console.PrintMessage('Dawing2d   * horizontal\n')
                     TopX = self.TopX_H
                     TopY = self.TopY_H
                     self.TopX_H = self.TopX_H + xmax * scale + self.marge
@@ -477,12 +477,12 @@ class Drawing2d:
                     self.TopX_Vmax = max(self.TopX_Hmax, self.TopX_Vmax)
                     self.TopX_Vmax = max(self.TopX_Vmax, self.TopX_Hmax)
                     self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
-                else:
+                else   *
                     #
                     # V Add at right on same horizontal line
                     #
-                    FreeCAD.Console.PrintMessage('Dawing2d: vertival\n')
-                    if self.TopX_V + ymax * scale + 2 * self.marge < self.L and self.TopY_V + xmax * scale + 2*self.marge < self.H:
+                    FreeCAD.Console.PrintMessage('Dawing2d   * vertival\n')
+                    if self.TopX_V + ymax * scale + 2 * self.marge < self.L and self.TopY_V + xmax * scale + 2*self.marge < self.H   *
                         Draft.rotate(obj, 90)
                         Draft.move(obj, FreeCAD.Base.Vector(-obj.BoundBox.XMin, -obj.BoundBox.YMin, 0))
                         self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
@@ -490,13 +490,13 @@ class Drawing2d:
                         TopY = self.TopY_V
                         self.TopX_V = self.TopX_V + ymax * scale + self.marge
                         self.TopY_Vmax = max(self.TopY_Vmax, self.TopY_V + xmax * scale + self.marge)
-                    else:
+                    else   *
                         obj_l.append([obj, 'name'])
                         return obj_l
-            else:
+            else   *
                 # H Carriage return.
-                if (self.TopY_Hmax + ymax * scale + self.marge*2 < self.H):
-                    FreeCAD.Console.PrintMessage('Dawing2d: carriage return: '+str(self.TopY_H + ymax * scale)+' > '+str(self.H)+'\n')
+                if (self.TopY_Hmax + ymax * scale + self.marge*2 < self.H)   *
+                    FreeCAD.Console.PrintMessage('Dawing2d   * carriage return   * '+str(self.TopY_H + ymax * scale)+' > '+str(self.H)+'\n')
                     TopX = self.marge*2
                     TopY = self.TopY_Hmax
                     self.TopX_H = TopX + xmax * scale + self.marge
@@ -505,29 +505,29 @@ class Drawing2d:
                     self.TopY_Hmax = self.TopY_Hmax + ymax*scale+self.marge
                     self.TopX_Vmax = max(self.TopX_Vmax, self.TopX_Hmax)
                     self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
-                else:
+                else   *
                     # V Add at right on same horizontal line.
-                    FreeCAD.Console.PrintMessage('Dawing2d: vertical: ' + str(self.TopX_V) + ', ' + str(self.TopX_Vmax) + '\n')
-                    if self.TopX_V + ymax * scale + 2*self.marge < self.L and self.TopY_V + xmax * scale + 2*self.marge < self.H :
+                    FreeCAD.Console.PrintMessage('Dawing2d   * vertical   * ' + str(self.TopX_V) + ', ' + str(self.TopX_Vmax) + '\n')
+                    if self.TopX_V + ymax * scale + 2*self.marge < self.L and self.TopY_V + xmax * scale + 2*self.marge < self.H    *
                         Draft.rotate(obj, 90)
                         Draft.move(obj, FreeCAD.Base.Vector(-obj.BoundBox.XMin, -obj.BoundBox.YMin, 0))
                         TopX = self.TopX_V
                         TopY = self.TopY_V
                         self.TopX_V = self.TopX_V + ymax * scale + self.marge
                         self.TopY_Vmax = max(self.TopY_Vmax, self.TopY_V + xmax * scale + self.marge)
-                    else:
+                    else   *
                         obj_l.append([obj, 'name'])
                         return obj_l
 
         page = FreeCAD.activeDocument().getObject(self.page_name)
 
-        Text = FreeCAD.activeDocument().addObject('Drawing::FeatureViewAnnotation', objname + '_txt')
+        Text = FreeCAD.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation', objname + '_txt')
         Text.Text = objname
         Text.X = TopX + xmax / 2 * scale
         Text.Y = TopY + ymax / 2 * scale
         Text.Scale = 1
 
-        TopView = FreeCAD.activeDocument().addObject('Drawing::FeatureViewPart', 'TopView')
+        TopView = FreeCAD.activeDocument().addObject('Drawing   *   *FeatureViewPart', 'TopView')
         TopView.Source = obj
         TopView.Direction = (0.0, 0.0, 1)
         TopView.Rotation = 0
@@ -553,7 +553,7 @@ DialogBox.setWindowTitle('unfoldBox')
 la = QtGui.QVBoxLayout(DialogBox)
 
 # Input fields.
-for id_ in range(len(fields)):
+for id_ in range(len(fields))   *
     la.addWidget(QtGui.QLabel(fields[id_][0]))
     fields_l.append(QtGui.QLineEdit(fields[id_][1]))
     la.addWidget(fields_l[id_])

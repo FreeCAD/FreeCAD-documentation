@@ -1,4 +1,4 @@
-# <img alt="External workbench icon" src=images/Assembly4_workbench_icon.svg  style="width:64px;"> Assembly4 Workbench/pl
+# <img alt="External workbench icon" src=images/Assembly4_workbench_icon.svg  style="width   *64px;"> Assembly4 Workbench/pl
 
 ## Introduction
 
@@ -17,20 +17,25 @@ Assembly4 can be installed from the [Addon Manager](Std_AddonMgr.md).
 
 Assembly4 was developed from the new tools created for [Assembly3](Assembly3_Workbench.md), in particular, the [App Link](App_Link.md) object and the improved [expression engine](expressions.md).
 
-Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md) and <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) but it is not compatible with them. If you have older models made in those two workbenches, you should use those workbenches to open your models only.
+Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width   *24px;"> [A2plus](A2plus_Workbench.md) and <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *24px;"> [Assembly3](Assembly3_Workbench.md) but it is not compatible with them. If you have older models made in those two workbenches, you should use those workbenches to open your models only.
 
 ## Links
 
 -   [App Link](App_Link.md) object that makes Assembly3 and Assembly4 work.
--   [Assembly4](https://github.com/Zolko-123/FreeCAD_Assembly4) repository and documentation.
--   [Assembly 4 workbench](https://forum.freecadweb.org/viewtopic.php?f=20&t=34806), big discussion thread.
--   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
+-   [Assembly4](https   *//github.com/Zolko-123/FreeCAD_Assembly4) repository and documentation.
+-   [Assembly 4 workbench](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34806), big discussion thread.
+-   [Current Assembly Status](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [External workbenches](External_workbenches.md)
 
 ## Tutorials
 
--   [Various example parts, assemblies and tutorials](https://github.com/Zolko-123/FreeCAD_Examples)
--   [Phone Assembly Tutorial](https://github.com/thermalling/FreeCADAsm4_TutorialSubassembly/)
+-   [Various example parts, assemblies and tutorials](https   *//github.com/Zolko-123/FreeCAD_Examples)
+-   [Phone Assembly Tutorial](https   *//github.com/thermalling/FreeCADAsm4_TutorialSubassembly/)
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

@@ -1,4 +1,4 @@
-# <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/ro
+# <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width   *64px;"> Inspection Workbench/ro
 
 ## Introduction
 
@@ -21,7 +21,7 @@ Atelierul Inspectare Vizuală a fost creat ca să vă ofere instrumente specific
 
 <div class="mw-translate-fuzzy">
 
-**Procesul de lucru intenționat:**
+**Procesul de lucru intenționat   ***
 
 -   Inspecția vizuală se poate face prin meniul derulant din rândul de sus.
 -   Selectați două forme de comparat și selectați Inspecție\> Inspecție vizuală din meniu.
@@ -51,6 +51,14 @@ Ca alternativă, puteţi folosi macro-comanda [HighlightDifference](Macro_Highli
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *Inspection](Category_Inspection.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

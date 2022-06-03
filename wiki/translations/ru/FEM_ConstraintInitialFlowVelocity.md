@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/ru
-   Name:FEM ConstraintInitialFlowVelocity
-   Name/ru:FEM ConstraintInitialFlowVelocity
-   Icon:Fem-constraint-initial-flow-velocity.svg
-   MenuLocation: Model → Fluid constraints → Constraint initial flow velocity
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand   */ru
+   Name   *FEM ConstraintInitialFlowVelocity
+   Name/ru   *FEM ConstraintInitialFlowVelocity
+   Icon   *Fem-constraint-initial-flow-velocity.svg
+   MenuLocation   * Model → Fluid constraints → Constraint initial flow velocity
+   Workbenches   *[FEM](FEM_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ConstraintInitialFlowVelocity/ru
@@ -20,7 +20,7 @@
 
 ## Применение
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [FEM ConstraintInitialFlowVelocity](FEM_ConstraintInitialFlowVelocity.md)** button.
     -   Select the **Model → Fluid Constraints → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Constraint initial flow velocity** option from the menu.
 2.  Enter an initial flow velocity value for the analysis.

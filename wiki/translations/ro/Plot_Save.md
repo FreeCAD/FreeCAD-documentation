@@ -1,6 +1,6 @@
 # Plot Save/ro
 ---
-- GuiCommand:   Name:Plot Save   Workbenches:[[Plot_Workbench   Plot]]|MenuLocation:Plot → Save plot---
+- GuiCommand   *   Name   *Plot Save   Workbenches   *[[Plot_Workbench   Plot]]|MenuLocation   *Plot → Save plot---
 
 
 </div>
@@ -17,7 +17,7 @@ Acest instrument activează înregistrarea fișierului Plot în locația dorită
 
 </div>
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 
 ## Usage
 
@@ -41,9 +41,9 @@ Selectați fila de plotare pe care doriți să o salvați și rulați acest inst
 
 ## Opțiuni
 
--   **File path**: Puteți seta calea de ieșire a imaginii (inclusiv extensia de format) inserând-o și în linia de text.
--   **Size**: Puteți specifica lățimea și înălțimea imaginii de ieșire (inci).
--   **dpi**: Puteți seta rezoluția imaginii (Dots Per Inch). Rezoluția finală (în pixeli) va fi multiplicarea lățimii și înălțimii cu dpi.
+-   **File path**   * Puteți seta calea de ieșire a imaginii (inclusiv extensia de format) inserând-o și în linia de text.
+-   **Size**   * Puteți specifica lățimea și înălțimea imaginii de ieșire (inci).
+-   **dpi**   * Puteți seta rezoluția imaginii (Dots Per Inch). Rezoluția finală (în pixeli) va fi multiplicarea lățimii și înălțimii cu dpi.
 
 
 </div>
@@ -54,7 +54,9 @@ Selectați fila de plotare pe care doriți să o salvați și rulați acest inst
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Std FreeCADWebsite
-   MenuLocation:[Help](Std_Help_Menu.md) → FreeCAD Website
-‎   Workbenches:All
+- GuiCommand   *
+   Name   *Std FreeCADWebsite
+   MenuLocation   *[Help](Std_Help_Menu.md) → FreeCAD Website
+‎   Workbenches   *All
 ---
 
 # Std FreeCADWebsite/ro
@@ -15,14 +15,14 @@
 
 ## Descriere
 
-Deschide [FreeCAD Website](https://www.freecadweb.org/) în Internet browser aplicația implicită a sistemului.
+Deschide [FreeCAD Website](https   *//www.freecadweb.org/) în Internet browser aplicația implicită a sistemului.
 
 
 </div>
 
 The **Std FreeCADWebsite** command opens the main website of the FreeCAD project in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https://www.freecadweb.org>](https://www.freecadweb.org/).
+Currently the command points to [<https   *//www.freecadweb.org>](https   *//www.freecadweb.org/).
 
 
 <div class="mw-translate-fuzzy">

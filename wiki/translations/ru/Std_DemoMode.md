@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Поворотный просмотр
-   Name:Std_DemoMode
-   MenuLocation:Инструменты → Поворотный просмотр...
-   Workbenches:Все
+- GuiCommand   */ru
+   Name/ru   *Поворотный просмотр
+   Name   *Std_DemoMode
+   MenuLocation   *Инструменты → Поворотный просмотр...
+   Workbenches   *Все
 ---
 
 # Std DemoMode/ru

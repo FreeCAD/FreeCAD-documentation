@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name/de:Std ViewBoxZoom
-   MenuLocation:Ansicht → Zoom → Zoomen mit Rechteck
-   Workbenches:Alle
-   Shortcut:**Strg** + **B**
-   SeeAlso:[Vergrößern](Std_ViewZoomIn/de.md), [Verkleinern](Std_ViewZoomOut/de.md)
+- GuiCommand   */de
+   Name/de   *Std ViewBoxZoom
+   MenuLocation   *Ansicht → Zoom → Zoomen mit Rechteck
+   Workbenches   *Alle
+   Shortcut   ***Strg** + **B**
+   SeeAlso   *[Vergrößern](Std_ViewZoomIn/de.md), [Verkleinern](Std_ViewZoomOut/de.md)
 ---
 
 # Std ViewBoxZoom/de

@@ -6,9 +6,9 @@
 |Description=Questa macro allinea la fotocamera al corrente [Piano di lavoro di Draft](Draft_SelectPlane/it.md) |Author=yorik
 |Version=0.1
 |Date=2017-03-16
-|Download=[https://www.freecadweb.org/wiki/images/f/fd/Macro_Align_Camera_to_Working_Plane.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/f/fd/Macro_Align_Camera_to_Working_Plane.png ToolBar Icon]
 |FCVersion=All
-|SeeAlso=[Macro Align Working Plane to Camera](Macro_Align_Working_Plane_to_Camera/it.md) [<img src=images/Macro_Align_Working_Plane_to_Camera.png style="width:24px"> 
+|SeeAlso=[Macro Align Working Plane to Camera](Macro_Align_Working_Plane_to_Camera/it.md) [<img src=images/Macro_Align_Working_Plane_to_Camera.png style="width   *24px"> 
 }}
 
 ## Description

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw DetailView
-   Name/de:TechDraw DetailAnsicht
-   MenuLocation:TechDraw → Detailansicht einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)
+- GuiCommand   */de
+   Name   *TechDraw DetailView
+   Name/de   *TechDraw DetailAnsicht
+   MenuLocation   *TechDraw → Detailansicht einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw DetailView/de
@@ -34,38 +34,38 @@ Die Detailansicht kann innerhalb eines runden oder quadratischen Ansichtskastens
 
 ### Detailansicht
 
--    {{PropertyData/de|BasisAnsicht}}: Die Ansicht, auf der diese Detailansicht basiert.
+-    {{PropertyData/de|BasisAnsicht}}   * Die Ansicht, auf der diese Detailansicht basiert.
 
--    {{PropertyData/de|Ankerpunkt}}: Das Zentrum der Detailansicht innerhalb der {{PropertyData/de|BasisAnsicht}}.
+-    {{PropertyData/de|Ankerpunkt}}   * Das Zentrum der Detailansicht innerhalb der {{PropertyData/de|BasisAnsicht}}.
 
--    {{PropertyData/de|Radius}}: Die Größe des Bereiches in der {{PropertyData/de|BasisAnsicht}} die in der Detailansicht angezeigt wird.
+-    {{PropertyData/de|Radius}}   * Die Größe des Bereiches in der {{PropertyData/de|BasisAnsicht}} die in der Detailansicht angezeigt wird.
 
--    {{PropertyData/de|Maßstab}}: Vergrößerungsstufe.
+-    {{PropertyData/de|Maßstab}}   * Vergrößerungsstufe.
 
--    {{PropertyData/de|Bezug}}: Eine Kennung zur Angabe des Bereichs der {{PropertyData/de|BasisAnsicht}} die angezeigt wird.
+-    {{PropertyData/de|Bezug}}   * Eine Kennung zur Angabe des Bereichs der {{PropertyData/de|BasisAnsicht}} die angezeigt wird.
 
 ### Basisansicht
 
-Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de|BasisAnsicht}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kannst du das Aussehen des Detailumrisses ändern:
+Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de|BasisAnsicht}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kannst du das Aussehen des Detailumrisses ändern   *
 
--    {{PropertyView/de|Einstellung Hervorheben}}: Drehwinkel der Detailansicht im Uhrzeigersinn.
+-    {{PropertyView/de|Einstellung Hervorheben}}   * Drehwinkel der Detailansicht im Uhrzeigersinn.
 
--    {{PropertyView/de|Linienfarbe Hervorheben}}: Linienfarbe für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorheben** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
+-    {{PropertyView/de|Linienfarbe Hervorheben}}   * Linienfarbe für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorheben** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
 
--    {{PropertyView/de|Linienstil Hervorheben}}: Linienstil für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorhebungsstil** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
+-    {{PropertyView/de|Linienstil Hervorheben}}   * Linienstil für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorhebungsstil** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Detailwerkzeug kann mit [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden:
+Das Detailwerkzeug kann mit [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden   *
 
 
 ```python
-Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
+Detail = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDetail','Detail')
 ...TBA
 ```
 
@@ -73,7 +73,7 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 -   Der Raum um den Ansichtsumriss und den Rand des Ansichtsobjekts ist standardmäßig ein weißer Bereich. Das heißt, er bedeckt alles dahinterliegende. Manchmal reicht der Platz auf der Seite nicht aus, und du kannst Platz sparen, indem du diesen unnötigen weißen Bereich reduzierst.
 
-Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGroup/de.md) gesetzt wird:
+Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGroup/de.md) gesetzt wird   *
 
 ![](images/TechDraw_DetailClipped.png ) 
 *Detailansicht in einer Klipgruppe*
@@ -82,7 +82,7 @@ Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGr
 
 ## Hinweise
 
--   [Eine gute Aussprache über das Setzen des Ankers](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+-   [Eine gute Aussprache über das Setzen des Ankers](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 
 

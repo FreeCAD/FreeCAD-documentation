@@ -1,6 +1,8 @@
 # Category:Arch/es
 Pages relating to Architectural and Building Information Management
 
+[Category   *User Documentation/es](Category   *User_Documentation/es.md) [Category   *BIM/es](Category   *BIM/es.md)
+
 ### Contents
 
 |     |     |     |

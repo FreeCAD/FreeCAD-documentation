@@ -1,37 +1,38 @@
 ---
-- GuiCommand:
-   Name:Std ViewBottom
-   MenuLocation:View → Standard views → Bottom
-   Workbenches:All
-   Shortcut:**5**
-   SeeAlso:[Std ViewRear](Std_ViewRear.md), [Std ViewLeft](Std_ViewLeft.md)
+- GuiCommand   */pl
+   Name   *Std ViewBottom
+   Name/pl   *Std   * Widok od dołu
+   MenuLocation   *Widok → Widoki standardowe → Od dołu
+   Workbenches   *wszystkie
+   Shortcut   ***5**
+   SeeAlso   *[Widok od tyłu](Std_ViewRear/pl.md), [Widok od lewej](Std_ViewLeft/pl.md)
 ---
 
 # Std ViewBottom/pl
 
-## Description
+## Opis
 
-The **Std ViewBottom** command points the camera in the active [3D view](3D_view.md) in the direction of the positive Z axis.
+Polecenie **Widok od dołu** ustawia ujęcie widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) w kierunku dodatnim osi Z.
 
 ![](images/FreeCAD_views_rear.svg ) 
-*Arrow 5 points in the direction of the bottom view*
+*Strzałka 5 wskazuje kierunek widoku z dołu.*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewBottom.svg" width=16px> [Std ViewBottom](Std_ViewBottom.md)** button.
-    -   Select the **View → Standard views → <img src="images/Std_ViewBottom.svg" width=16px> Bottom** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewBottom.svg" width=16px> Bottom** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **5**.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_ViewBottom.svg" width=16px> [Od dołu](Std_ViewBottom/pl.md)**.
+    -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewBottom.svg" width=16px> Od dołu**.
+    -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewBottom.svg" width=16px> Od dołu**.
+    -   Użyj skrótu klawiaturowego   * **5**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change to bottom view use the `viewBottom` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok *Od dołu*, należy użyć metody `viewBottom` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

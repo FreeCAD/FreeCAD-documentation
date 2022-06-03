@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std ViewFront
-   Name/de:Std Vorderansicht
-   MenuLocation:Ansicht → Standardansichten → Vorderseite
-   Workbenches:Alle
-   Shortcut:**1**
-   SeeAlso:[Std Draufsicht](Std_ViewTop/de.md), [Std Ansicht von rechts](Std_ViewRight/de.md)
+- GuiCommand   */de
+   Name   *Std ViewFront
+   Name/de   *Std Vorderansicht
+   MenuLocation   *Ansicht → Standardansichten → Vorderseite
+   Workbenches   *Alle
+   Shortcut   ***1**
+   SeeAlso   *[Std Draufsicht](Std_ViewTop/de.md), [Std Ansicht von rechts](Std_ViewRight/de.md)
 ---
 
 # Std ViewFront/de
@@ -19,16 +19,16 @@ Der Befehl **Std Vorderansicht** wendet die Kamerasicht der aktiven [3D-Ansicht]
 
 ## Anwendung
 
-1.  Es gibt verschiedene Wegen, den Befehl umzusetzen:
+1.  Es gibt verschiedene Wegen, den Befehl umzusetzen   *
     -   Die **<img src="images/Std_ViewFront.svg" width=16px> [Std Vorderansicht](Std_ViewFront/de.md)**-Schaltfläche betätigen.
     -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht** aus dem Menü wählen.
     -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
-    -   Mit dem Tastenkürzel: **1**.
+    -   Mit dem Tastenkürzel   * **1**.
 
 ## Skripten
 
 
-**Siehe also:**
+**Siehe also   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

@@ -1,5 +1,5 @@
 # Category:Categories/it
-## Categoria: Categorie 
+## Categoria   * Categorie 
 
 Questa è la **categoria superiore** che contiene le principali sottocategorie del wiki di FreeCAD.
 
@@ -13,6 +13,8 @@ Per visualizzare l\'elenco di
 -   tutti gli *articoli* che *non sono classificati* utilizzano la [lista delle pagine senza categoria](Special_Uncategorizedpages.md).
 -   tutte le *categorie* che *non sono classificate* utilizzano la [lista delle categorie non classificate](Special_Uncategorizedcategories.md).
 -   tutte le *immagini* che *non sono classificate* utilizzano la [lista delle immagini non classificate](Special_Uncategorizedimages.md).
+
+[Category   *Categories/it](Category   *Categories/it.md)
 
 ### Contents
 

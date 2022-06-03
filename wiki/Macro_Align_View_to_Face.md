@@ -7,7 +7,7 @@
 |Version=2.0
 |Date=2016-03-06
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png ToolBar Icon]
 }}
 
 ## Description
@@ -25,14 +25,14 @@ This macro rotates the current view to point perpendicularly at a selected face 
 
 **Macro\_Align\_View\_to\_Face.FCMacro** {{MacroCode|code=
 
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # Set the current view perpendicular to the selected face
 # Place la vue perpendiculairement a la face selectionnee
 # 2013 Jonathan Wiedemann, 2016 Werner Mayer
 
 from pivy import coin
 
-def pointAt(normal, up):
+def pointAt(normal, up)   *
     z = normal
     y = up
     x = y.cross(z)
@@ -59,11 +59,11 @@ faceSel = obj.SubObjects[0]
 dir = faceSel.normalAt(0,0)
 cam = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()
 
-if dir.z == 1 :
+if dir.z == 1    *
     rot = pointAt(dir, App.Vector(0.0,1.0,0.0))
-elif dir.z == -1 :
+elif dir.z == -1    *
     rot = pointAt(dir, App.Vector(0.0,1.0,0.0))
-else :
+else    *
     rot = pointAt(dir, App.Vector(0.0,0.0,1.0))
 
 cam.orientation.setValue(rot.Q)

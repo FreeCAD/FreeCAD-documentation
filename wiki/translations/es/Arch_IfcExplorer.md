@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch IfcExplorer
-   Name/es:Arquitectura IfcExplorador
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Arch → Utilities → Ifc Explorer
-   SeeAlso:[Arch IFC](Arch_IFC/es.md)
+- GuiCommand   */es
+   Name   *Arch IfcExplorer
+   Name/es   *Arquitectura IfcExplorador
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   MenuLocation   *Arch → Utilities → Ifc Explorer
+   SeeAlso   *[Arch IFC](Arch_IFC/es.md)
 ---
 
 # Arch IfcExplorer/es
@@ -18,9 +18,9 @@ El [IFC explorador](Arch_IfcExplorer.md) es una utilidad simple para explorar el
 
 El propósito de este explorador es simplemente permitirte comprobar lo que realmente está escrito en un archivo IFC, en caso de que quieras verificar si los contenidos fueron importados o exportados correctamente hacia y desde una aplicación compatible con IFC como FreeCAD.
 
-<img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
+<img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width   *800px;">
 
-:   
+   *   
     
 *Ifc Explorador con varias propiedades*
     
@@ -30,8 +30,8 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
 
 <div class="mw-translate-fuzzy">
 
-1.  Invocar el Explorador de Ifc a través de:
-    -   Pulsando el botón <img alt="" src=images/IFC.svg  style="width:24px;">.
+1.  Invocar el Explorador de Ifc a través de   *
+    -   Pulsando el botón <img alt="" src=images/IFC.svg  style="width   *24px;">.
     -   Utilizando la entrada **Arquitectura → Utilidades → Ifc Explorador** del menú desplegable de Arch.
 
 
@@ -45,6 +45,11 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
 
 
 </div>
+
+
+ 
+
+[Category   *BIM](Category_BIM.md)
 
 
 

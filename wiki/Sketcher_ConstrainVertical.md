@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Sketcher ConstrainVertical
-   MenuLocation:Sketch → Sketcher constraints → Constrain vertically
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**V**
-   SeeAlso:[Sketcher Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
+- GuiCommand   *
+   Name   *Sketcher ConstrainVertical
+   MenuLocation   *Sketch → Sketcher constraints → Constrain vertically
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   Shortcut   ***V**
+   SeeAlso   *[Sketcher Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
 ---
 
 # Sketcher ConstrainVertical
@@ -16,10 +16,10 @@ Creates a vertical constraint to the selected lines or polyline elements. As of 
 ## Usage
 
 1.  Select the lines or vertices to be constrained vertically
-2.  To invoke the vertical constraint command:
-    -   Press the **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Constrain vertically](Sketcher_ConstrainVertical.md)** button.
+2.  To invoke the vertical constraint command   *
+    -   Press the **[<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> [Constrain vertically](Sketcher_ConstrainVertical.md)** button.
     -   Use the **V** keyboard shortcut
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> Constrain vertically** entry in the Sketch dropdown menu
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> Constrain vertically** entry in the Sketch dropdown menu
 3.  Alternatively, the tool can be started without prior selection, and it will expect a selection.
 4.  Right-click or press **Esc** once, to exit the tool.
 

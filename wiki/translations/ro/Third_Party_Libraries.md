@@ -6,7 +6,7 @@
 
 ### Prezentare generală 
 
-Acestea sunt biblioteci care nu sunt modificate în proiectul FreeCAD. Ele sunt practic utilizate ca o bibliotecă dinamică de legătură (\* .so sau \* .dll). Dacă este nevoie de schimbare, sau a wrapper class este necesar , atunci codul wrapper sau biblioteca modificată trebuie mutat în pachetul de bază FreeCAD. Bibliotecile folosite sunt:
+Acestea sunt biblioteci care nu sunt modificate în proiectul FreeCAD. Ele sunt practic utilizate ca o bibliotecă dinamică de legătură (\* .so sau \* .dll). Dacă este nevoie de schimbare, sau a wrapper class este necesar , atunci codul wrapper sau biblioteca modificată trebuie mutat în pachetul de bază FreeCAD. Bibliotecile folosite sunt   *
 
 
 </div>
@@ -34,20 +34,20 @@ Dacă utilizați Windows, luați în considerare folosirea[LibPack](#LibPack.md)
 
   Lib name      Version needed     Link to get it
     
-  Python        \>= 2.5.x          <http://www.python.org/>
-  OpenCasCade   \>= 5.2            <http://www.opencascade.org>
-  Qt            \>= 4.1.x          <https://www.qt.io/>
-  Coin3D        \>= 2.x            <http://www.coin3d.org>
-  SoQt          \>= 1.2            <http://www.coin3d.org>
-  Xerces-C++    \>= 2.7.x \< 3.0   <http://xml.apache.org/xerces-c/>
-  Zlib          \>= 1.x.x          <http://www.zlib.net/>
-  Boost         \>= 1.33.x         <http://www.boost.org/>
-  Eigen3        \>= 3.0.1          <http://eigen.tuxfamily.org/index.php?title=Main_Page>
-  Shiboken      \>= 1.1.2          <http://shiboken.readthedocs.org/en/latest/>
-  libarea       N/A                <https://github.com/danielfalck/libarea>
+  Python        \>= 2.5.x          <http   *//www.python.org/>
+  OpenCasCade   \>= 5.2            <http   *//www.opencascade.org>
+  Qt            \>= 4.1.x          <https   *//www.qt.io/>
+  Coin3D        \>= 2.x            <http   *//www.coin3d.org>
+  SoQt          \>= 1.2            <http   *//www.coin3d.org>
+  Xerces-C++    \>= 2.7.x \< 3.0   <http   *//xml.apache.org/xerces-c/>
+  Zlib          \>= 1.x.x          <http   *//www.zlib.net/>
+  Boost         \>= 1.33.x         <http   *//www.boost.org/>
+  Eigen3        \>= 3.0.1          <http   *//eigen.tuxfamily.org/index.php?title=Main_Page>
+  Shiboken      \>= 1.1.2          <http   *//shiboken.readthedocs.org/en/latest/>
+  libarea       N/A                <https   *//github.com/danielfalck/libarea>
                                    
 
-  : Link table
+     * Link table
 
 
 </div>
@@ -65,7 +65,7 @@ Dacă utilizați Windows, luați în considerare folosirea[LibPack](#LibPack.md)
 
 #### Python
 
-**Version:** 2.5 or higher
+**Version   *** 2.5 or higher
 
 
 </div>
@@ -73,13 +73,13 @@ Dacă utilizați Windows, luați în considerare folosirea[LibPack](#LibPack.md)
 
 <div class="mw-translate-fuzzy">
 
-**License:** Python 2.5 license
+**License   *** Python 2.5 license
 
 
 </div>
 
 
-**Python 2 became obsolete in 2019. Further development of FreeCAD will use exclusively Python 3; compatibility with Python 2 won't be tested, so old workbenches and macros that use this version will have to be updated or they may stop working. Please post on the [https://forum.freecadweb.org/ FreeCAD forum] if you encounter problems with Python 3.**
+**Python 2 became obsolete in 2019. Further development of FreeCAD will use exclusively Python 3; compatibility with Python 2 won't be tested, so old workbenches and macros that use this version will have to be updated or they may stop working. Please post on the [https   *//forum.freecadweb.org/ FreeCAD forum] if you encounter problems with Python 3.**
 
 Python is a popular all-purpose scripting language that is widely used in Linux and open source software. In FreeCAD, Python is used during compilation and also at runtime in different ways. It is used
 
@@ -95,18 +95,18 @@ Python is a popular all-purpose scripting language that is widely used in Linux 
 
 <div class="mw-translate-fuzzy">
 
-Puteți folosi programul sursă sau binarul de la <http://www.python.org/> ori să utlizați alternativ ActiveState Python from <http://www.activestate.com/> deși este puțin greu să obțineți depanarea bibliotecilor/libs din ActiveState.
+Puteți folosi programul sursă sau binarul de la <http   *//www.python.org/> ori să utlizați alternativ ActiveState Python from <http   *//www.activestate.com/> deși este puțin greu să obțineți depanarea bibliotecilor/libs din ActiveState.
 
 
 </div>
 
-Python was chosen as the scripting language for FreeCAD for different reasons:
+Python was chosen as the scripting language for FreeCAD for different reasons   *
 
 -   It is more object oriented than Perl and Tcl.
 -   The code is more readable than Perl and Visual Basic.
 -   It is easier to embed in another application, unlike, say, Java.
 
-In summary, Python is well documented, and it\'s easy to embed and extend in a C++ application. It is also well tested and has strong support from the open source community. Read more about Python and browse the official documentation at [Python.org](http://www.python.org).
+In summary, Python is well documented, and it\'s easy to embed and extend in a C++ application. It is also well tested and has strong support from the open source community. Read more about Python and browse the official documentation at [Python.org](http   *//www.python.org).
 
 
 <div class="mw-translate-fuzzy">
@@ -119,12 +119,12 @@ In summary, Python is well documented, and it\'s easy to embed and extend in a C
 
 <div class="mw-translate-fuzzy">
 
-**Version:** 1.33.x
+**Version   *** 1.33.x
 
 
 </div>
 
-**License:** Boost Software License - Version 1.0
+**License   *** Boost Software License - Version 1.0
 
 
 <div class="mw-translate-fuzzy">
@@ -155,7 +155,7 @@ Pentru a asigura eficiența și flexibilitatea, Boost folosește pe scară larg�
 
 <div class="mw-translate-fuzzy">
 
-**Version:** 5.2 or higher
+**Version   *** 5.2 or higher
 
 
 </div>
@@ -163,7 +163,7 @@ Pentru a asigura eficiența și flexibilitatea, Boost folosește pe scară larg�
 
 <div class="mw-translate-fuzzy">
 
-**License:** v6.7.0 and later are governed by GNU Lesser General Public License (LGPL) version 2.1 with additional exception. <https://www.opencascade.com/content/licensing> Earlier versions use a slightly different license: <https://www.opencascade.com/content/occt-public-license>
+**License   *** v6.7.0 and later are governed by GNU Lesser General Public License (LGPL) version 2.1 with additional exception. <https   *//www.opencascade.com/content/licensing> Earlier versions use a slightly different license   * <https   *//www.opencascade.com/content/occt-public-license>
 
 
 </div>
@@ -171,7 +171,7 @@ Pentru a asigura eficiența și flexibilitatea, Boost folosește pe scară larg�
 
 <div class="mw-translate-fuzzy">
 
-OCC este un kernel CAD complet echipat. Inițial, este dezvoltat de Matra Datavision în Franța pentru aplicațiile Strim (Styler) și Euclid Quantum și mai târziu l-au făcut Open Source. Este o bibliotecă cu adevărat imensă și face posibilă o aplicație CAO gratuită, oferind câteva pachete care ar fi greu sau imposibil de implementat într-un proiect Open Source:
+OCC este un kernel CAD complet echipat. Inițial, este dezvoltat de Matra Datavision în Franța pentru aplicațiile Strim (Styler) și Euclid Quantum și mai târziu l-au făcut Open Source. Este o bibliotecă cu adevărat imensă și face posibilă o aplicație CAO gratuită, oferind câteva pachete care ar fi greu sau imposibil de implementat într-un proiect Open Source   *
 
 -   Un nucleu geometric complet compatibil cu STEP
 -   Un model topologic de date și toate funcțiile necesare pentru a lucra pe (tăiere, fuziune, extrudere, și așa mai departe \...)
@@ -182,7 +182,7 @@ OCC este un kernel CAD complet echipat. Inițial, este dezvoltat de Matra Datavi
 
 </div>
 
-OCCT is a big and complex set of C++ libraries that provide functionality required by a CAD application:
+OCCT is a big and complex set of C++ libraries that provide functionality required by a CAD application   *
 
 -   A complete STEP compliant geometry kernel.
 -   A topological data model and needed functions to work with shapes (cut, fuse, extrude, and many others).
@@ -195,7 +195,7 @@ There are two main versions of OpenCASCADE in existence in different Linux distr
 
 <div class="mw-translate-fuzzy">
 
-To learn more about OpenCasCade take a look at the OpenCasCade page or <http://www.opencascade.org>.
+To learn more about OpenCasCade take a look at the OpenCasCade page or <http   *//www.opencascade.org>.
 
 
 </div>
@@ -211,7 +211,7 @@ To learn more about OpenCasCade take a look at the OpenCasCade page or <http://w
 
 <div class="mw-translate-fuzzy">
 
-**Version:** 4.1.x or higher
+**Version   *** 4.1.x or higher
 
 
 </div>
@@ -219,7 +219,7 @@ To learn more about OpenCasCade take a look at the OpenCasCade page or <http://w
 
 <div class="mw-translate-fuzzy">
 
-**License:** GPL v2.0/v3.0 or Commercial (from version 4.5 on also LPGL v2.1)
+**License   *** GPL v2.0/v3.0 or Commercial (from version 4.5 on also LPGL v2.1)
 
 
 </div>
@@ -227,12 +227,12 @@ To learn more about OpenCasCade take a look at the OpenCasCade page or <http://w
 
 <div class="mw-translate-fuzzy">
 
-Nu cred că trebuie să spun foarte multe despre QT. Este unul dintre cele mai utilizate instrumente de GUI în proiectele Open Source. Pentru mine cel mai important punct de utilizare a Qt este designerul Qt și posibilitatea de a încărca toate casetele dialog ca resursă (XML) și care încorporează widget-uri specializate. Într-o aplicație CAX interacțiunea cu utilizatorul și casetele de dialog sunt de departe cea mai mare parte a codului și o bună proiectarea a dialogului ester foarte importantă pentru extinderea freeCAD cu noi funcționalități. Informații suplimentare și foarte bună documentație on line o veți găsi pe <http://www.qtsoftware.com>.
+Nu cred că trebuie să spun foarte multe despre QT. Este unul dintre cele mai utilizate instrumente de GUI în proiectele Open Source. Pentru mine cel mai important punct de utilizare a Qt este designerul Qt și posibilitatea de a încărca toate casetele dialog ca resursă (XML) și care încorporează widget-uri specializate. Într-o aplicație CAX interacțiunea cu utilizatorul și casetele de dialog sunt de departe cea mai mare parte a codului și o bună proiectarea a dialogului ester foarte importantă pentru extinderea freeCAD cu noi funcționalități. Informații suplimentare și foarte bună documentație on line o veți găsi pe <http   *//www.qtsoftware.com>.
 
 
 </div>
 
-Further information about Qt libraries and their programming documentation are available at [Qt Documentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
+Further information about Qt libraries and their programming documentation are available at [Qt Documentation](https   *//doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
 
 <div class="mw-translate-fuzzy">
@@ -247,12 +247,12 @@ Further information about Qt libraries and their programming documentation are a
 
 <div class="mw-translate-fuzzy">
 
-Numele de **Shiboken2** și **PySide2** face referire la compatibilitatea Qt 5, deoarece versiunile anterioare (fără **2**) se referă la Qt 4. Citiți mai multe despre Shiboken și Pyside pe [Qt for Python wiki page](https://wiki.qt.io/Qt_for_Python/Shiboken)
+Numele de **Shiboken2** și **PySide2** face referire la compatibilitatea Qt 5, deoarece versiunile anterioare (fără **2**) se referă la Qt 4. Citiți mai multe despre Shiboken și Pyside pe [Qt for Python wiki page](https   *//wiki.qt.io/Qt_for_Python/Shiboken)
 
 
 </div>
 
-Read more about Shiboken and Pyside on [Qt for Python](https://wiki.qt.io/Qt_for_Python/Shiboken).
+Read more about Shiboken and Pyside on [Qt for Python](https   *//wiki.qt.io/Qt_for_Python/Shiboken).
 
 
 <div class="mw-translate-fuzzy">
@@ -265,7 +265,7 @@ Read more about Shiboken and Pyside on [Qt for Python](https://wiki.qt.io/Qt_for
 
 <div class="mw-translate-fuzzy">
 
-**Version:** 2.0 or higher
+**Version   *** 2.0 or higher
 
 
 </div>
@@ -273,7 +273,7 @@ Read more about Shiboken and Pyside on [Qt for Python](https://wiki.qt.io/Qt_for
 
 <div class="mw-translate-fuzzy">
 
-**License:** GPL v2.0 or Commercial
+**License   *** GPL v2.0 or Commercial
 
 
 </div>
@@ -313,7 +313,7 @@ Vom folosi OpenInventor ca vizualizator 3D în FreeCAD, deoarece vizualizatorul 
 
 <div class="mw-translate-fuzzy">
 
-Software Coin este portabil pe o gamă largă de platforme: orice platformă UNIX / Linux / \* BSD, tot sistemul de operare Microsoft Windows și Mac OS X.
+Software Coin este portabil pe o gamă largă de platforme   * orice platformă UNIX / Linux / \* BSD, tot sistemul de operare Microsoft Windows și Mac OS X.
 
 
 </div>
@@ -326,12 +326,12 @@ Software Coin este portabil pe o gamă largă de platforme: orice platformă UNI
 
 </div>
 
-**Version:** 1.2.0 or higher
+**Version   *** 1.2.0 or higher
 
 
 <div class="mw-translate-fuzzy">
 
-**License:** GPL v2.0 or Commercial
+**License   *** GPL v2.0 or Commercial
 
 
 </div>
@@ -348,17 +348,17 @@ SoQt is no longer used in FreeCAD, it was replaced by Quarter which is a more re
 
 #### Quarter
 
-**Version:** 1.0 or higher
+**Version   *** 1.0 or higher
 
-**License:** BSD 3-clause license
+**License   *** BSD 3-clause license
 
 Quarter is a newer Coin3D binding to the Qt toolkit. A version of it is included in the source code of FreeCAD so it is compiled together with it.
 
 #### Pivy
 
-**Version:** 0.6.3 or higher
+**Version   *** 0.6.3 or higher
 
-**License:** BSD 3-clause license
+**License   *** BSD 3-clause license
 
 [Pivy](Pivy.md) is a library that wraps the Coin3d library for use in [Python](Python.md). It is not needed to build FreeCAD or to start it, but it is needed as a runtime dependency by the [Draft Workbench](Draft_Workbench.md), and by other workbenches that use it internally, like [Arch](Arch_Workbench.md) and [BIM](BIM_Workbench.md).
 
@@ -366,13 +366,13 @@ If you are not going to use these workbenches, you won\'t need Pivy.
 
 ### Ply
 
-**Version:** 3.11 or higher
+**Version   *** 3.11 or higher
 
-**License:** BSD 3-clause license
+**License   *** BSD 3-clause license
 
 Ply is the Python-Lex-Yacc parser. It is used as a runtime dependency by the [OpenSCAD Workbench](OpenSCAD_Workbench.md). If you don\'t use this workbench, you may not need this package.
 
-For more information see [Ply homepage](https://www.dabeaz.com/ply/)
+For more information see [Ply homepage](https   *//www.dabeaz.com/ply/)
 
 
 <div class="mw-translate-fuzzy">
@@ -385,12 +385,12 @@ For more information see [Ply homepage](https://www.dabeaz.com/ply/)
 
 <div class="mw-translate-fuzzy">
 
-**Version:** 2.7.0 or higher
+**Version   *** 2.7.0 or higher
 
 
 </div>
 
-**License:** Apache Software License Version 2.0
+**License   *** Apache Software License Version 2.0
 
 
 <div class="mw-translate-fuzzy">
@@ -410,21 +410,21 @@ The parser is used for saving and restoring parameters in FreeCAD.
 
 ### Eigen3
 
-**Version:** 3.0 or higher
+**Version   *** 3.0 or higher
 
-**License:** Starting from the 3.1.1 version, it is licensed under the [Mozilla Public License 2.0](http://www.mozilla.org/MPL/2.0). Earlier versions were licensed under the [GNU Lesser General Public License 3](https://www.gnu.org/licenses/lgpl-3.0.en.html).
+**License   *** Starting from the 3.1.1 version, it is licensed under the [Mozilla Public License 2.0](http   *//www.mozilla.org/MPL/2.0). Earlier versions were licensed under the [GNU Lesser General Public License 3](https   *//www.gnu.org/licenses/lgpl-3.0.en.html).
 
-Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+Eigen is a C++ template library for linear algebra   * matrices, vectors, numerical solvers, and related algorithms.
 
 If you just want to use Eigen, you can use the header files right away. There is no binary library to link to, and no configured header file. Eigen is a pure template library defined in the headers.
 
-Eigen is used in FreeCAD for many vector operations in 3D space. To learn more, visit [Eigen homepage](http://eigen.tuxfamily.org/index.php?title=Main_Page).
+Eigen is used in FreeCAD for many vector operations in 3D space. To learn more, visit [Eigen homepage](http   *//eigen.tuxfamily.org/index.php?title=Main_Page).
 
 ### Zipios++
 
-**Version:** 0.1.5 or higher
+**Version   *** 0.1.5 or higher
 
-**License:** GNU Lesser General Public License 2.1
+**License   *** GNU Lesser General Public License 2.1
 
 Zipios++ is a C++ library for reading and writing `.zip` files. Access to individual entries is provided through standard C++ iostreams. A simple read-only virtual file system that mounts regular directories and `.zip` files is also provided. The structure and public interface of Zipios++ are loosely based on the `java.util.zip` package of Java.
 
@@ -445,7 +445,7 @@ Zipios++ uses the Zlib library to perform the actual decompression of files.
 
 <div class="mw-translate-fuzzy">
 
-**Version:** 1.x.x
+**Version   *** 1.x.x
 
 
 </div>
@@ -453,7 +453,7 @@ Zipios++ uses the Zlib library to perform the actual decompression of files.
 
 <div class="mw-translate-fuzzy">
 
-**License:** zlib License
+**License   *** zlib License
 
 
 </div>
@@ -479,7 +479,7 @@ A copy of this library is included in the source code of FreeCAD so it is compil
 
 <div class="mw-translate-fuzzy">
 
-**Version:** N/A
+**Version   *** N/A
 
 
 </div>
@@ -487,7 +487,7 @@ A copy of this library is included in the source code of FreeCAD so it is compil
 
 <div class="mw-translate-fuzzy">
 
-**License:** New BSD (BSD 3-Clause)
+**License   *** New BSD (BSD 3-Clause)
 
 
 </div>
@@ -507,7 +507,7 @@ A copy of the library is included with the source code of the [Path Workbench](P
 
 ### LibPack
 
-LibPack este un pachet convenabil cu toate bibliotecile de mai sus ambalate împreună. Este necesar doar dacă construiți pe Platforma Windows și îl puteți găsi la <https://github.com/FreeCAD/FreeCAD-ports-cache/releases>. Dacă lucrați sub Linux, trebuie să utilizați depozitele de pachete ale distribuției dvs. Linux, adică nu este nevoie de libPack și oferit pentru Linux.
+LibPack este un pachet convenabil cu toate bibliotecile de mai sus ambalate împreună. Este necesar doar dacă construiți pe Platforma Windows și îl puteți găsi la <https   *//github.com/FreeCAD/FreeCAD-ports-cache/releases>. Dacă lucrați sub Linux, trebuie să utilizați depozitele de pachete ale distribuției dvs. Linux, adică nu este nevoie de libPack și oferit pentru Linux.
 
 
 </div>
@@ -516,9 +516,9 @@ If you\'re working under Linux, you don\'t need the LibPack, as you can get the 
 
 ### FreeCAD 12.1.2 
 
-See the announcement in the forum: [New libpacks for Windows with Qt5.12, OCC7.3 and Python 3.6 by apeltauer](https://forum.freecadweb.org/viewtopic.php?f=4&t=35789)
+See the announcement in the forum   * [New libpacks for Windows with Qt5.12, OCC7.3 and Python 3.6 by apeltauer](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=35789)
 
-It includes among other things: Boost 1.67, Coin3D 4.0.0a, Eigen3, Open CASCADE Technology 7.3.0, Python 3.6.8, PySide2, Qt 5.12.1, Salome SMESH, Shiboken2, vtk7, Xerces-C, Zipios++, zlib 1.2.11
+It includes among other things   * Boost 1.67, Coin3D 4.0.0a, Eigen3, Open CASCADE Technology 7.3.0, Python 3.6.8, PySide2, Qt 5.12.1, Salome SMESH, Shiboken2, vtk7, Xerces-C, Zipios++, zlib 1.2.11
 
 
 <div class="mw-translate-fuzzy">
@@ -528,6 +528,11 @@ It includes among other things: Boost 1.67, Coin3D 4.0.0a, Eigen3, Open CASCADE 
 
 
 </div>
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

@@ -1,4 +1,4 @@
-# <img alt="ícone da bancada de trabalho Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/pt-br
+# <img alt="ícone da bancada de trabalho Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width   *64px;"> Reverse Engineering Workbench/pt-br
 
 ## Introduction
 
@@ -7,7 +7,7 @@
 
 ## Introdução
 
-A <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> [Bancada de trabalho Reverse Engineering ](Reverse_Engineering_Workbench/pt-br.md)(Engenharia Reversa) pretende fornecer ferramentas específicas para converter formas, sólidos e malhas em recursos paramétricos do FreeCAD. É uma bancada que ainda está em desenvolvimento.
+A <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *24px;"> [Bancada de trabalho Reverse Engineering ](Reverse_Engineering_Workbench/pt-br.md)(Engenharia Reversa) pretende fornecer ferramentas específicas para converter formas, sólidos e malhas em recursos paramétricos do FreeCAD. É uma bancada que ainda está em desenvolvimento.
 
 
 </div>
@@ -24,11 +24,19 @@ As ferramentas de Engenharia Reversa (RE) estão todas localizadas no menu RE e 
 
 </div>
 
--   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Aproximação de uma superfície de linha B:
+-   <img alt="" src=images/FitSurface.svg  style="width   *32px;"> Aproximação de uma superfície de linha B   *
 
 ## Em desenvolvimento 
 
 Link para os tópicos apropriados discutindo esta bancada de trabalho
+
+
+
+
+
+
+
+[Category   *Reverse Engineering](Category_Reverse_Engineering.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

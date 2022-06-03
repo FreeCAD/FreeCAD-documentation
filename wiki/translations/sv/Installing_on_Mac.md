@@ -11,9 +11,9 @@ FreeCAD kan installeras på Mac OS X i ett steg genom att använda Installeraren
 
 and the weekly build can be downloaded from
 
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
+<img alt="" src=images/Nightly.png  style="width   *30px;">[Weekly](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
 
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https   *//brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
 
 
 ```python
@@ -27,7 +27,7 @@ and to use the latest version available (0.19pre) on HomeBrew you may run
 brew install freecad
 ```
 
-If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
+If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https   *//github.com/FreeCAD/homebrew-freecad).
 
 This page describes the usage and features of the FreeCAD installer. It also includes uninstallation instructions. Once installed, you can [get started](Getting_started.md)!
 
@@ -45,9 +45,9 @@ Installeraren kommer att presentera en **Customize Installation** skärm som lis
 
 ### Avinstallation
 
-Det finns för närvarande ingen avinstallerare för FreeCAD. För att helt ta bort FreeCAD och alla installerade komponenter, dra följande filer och mappar till papperskorgen:
+Det finns för närvarande ingen avinstallerare för FreeCAD. För att helt ta bort FreeCAD och alla installerade komponenter, dra följande filer och mappar till papperskorgen   *
 
--   I /Applications:
+-   I /Applications   *
     -   FreeCAD
 
 

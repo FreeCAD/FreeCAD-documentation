@@ -1,6 +1,6 @@
 # Path DressupTag/it
 ---
-- GuiCommand:/it   Name:Path DressupTag   Name/it:DressupTag   Workbenches:[MenuLocation:Path → Vestizione → Tag Dress-up   SeeAlso:[[Path_DressupRampEntry/it|Rampa di entrata](Path_Workbench/it___Path]].md), [Vestizione Dogbone](Path_DressupDogbone/it.md) , [Vestizione DragKnife](Path_DressupDragKnife/it.md) ---
+- GuiCommand   */it   Name   *Path DressupTag   Name/it   *DressupTag   Workbenches   *[MenuLocation   *Path → Vestizione → Tag Dress-up   SeeAlso   *[[Path_DressupRampEntry/it|Rampa di entrata](Path_Workbench/it___Path]].md), [Vestizione Dogbone](Path_DressupDogbone/it.md) , [Vestizione DragKnife](Path_DressupDragKnife/it.md) ---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 Questo strumento veste un percorso esistente (di solito un percorso di taglio del contorno 2D) per lasciare i tag che mantengono la parte in posizione. Senza di essi una parte (che non sia fissata alla base) è soggetta a volare fuori dalla macchina in maniera incontrollata quando viene eseguito il taglio finale. I tag sono destinati a essere staccati a mano (o usando uno scalpello) e quindi rifiniti per completare la parte.
 
-Una spiegazione video di questa funzione è disponibile in: <https://www.youtube.com/watch?v=JZ4prlR6sps>
+Una spiegazione video di questa funzione è disponibile in   * <https   *//www.youtube.com/watch?v=JZ4prlR6sps>
 
 ## Utilizzo
 
@@ -17,7 +17,7 @@ Una spiegazione video di questa funzione è disponibile in: <https://www.youtube
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un contorno o un oggetto profilo [Path](Path_Workbench/it.md)
-2.  cliccare su <img alt="" src=images/Path_Dressup.png  style="width:16px;"> [Tag Dress-up](Path_DressupTag/it.md)
+2.  cliccare su <img alt="" src=images/Path_Dressup.png  style="width   *16px;"> [Tag Dress-up](Path_DressupTag/it.md)
 
 
 </div>

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Std ViewIvIssueCamPos
-   Name/ru:Std ViewIvIssueCamPos
-   MenuLocation:Вид → Стерео → Выводить положения камеры
-   Workbenches:All
-   SeeAlso:[Std FreezeViews](Std_FreezeViews/ru.md)
+- GuiCommand   */ru
+   Name   *Std ViewIvIssueCamPos
+   Name/ru   *Std ViewIvIssueCamPos
+   MenuLocation   *Вид → Стерео → Выводить положения камеры
+   Workbenches   *All
+   SeeAlso   *[Std FreezeViews](Std_FreezeViews/ru.md)
 ---
 
 # Std ViewIvIssueCamPos/ru
@@ -19,7 +19,7 @@ The **Std ViewIvIssueCamPos** command prints the camera settings of the active [
 
 
 
-*Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
+*Example output   * camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
 
 ## Применение
 
@@ -32,7 +32,7 @@ The **Std ViewIvIssueCamPos** command prints the camera settings of the active [
 ## Scripting
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:OpenSCAD_ScaleMesh
-   Name/it:Scala la mesh
-   MenuLocation:OpenSCAD → Scala la mesh
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/it.md)
-   SeeAlso:
+- GuiCommand   */it
+   Name   *OpenSCAD_ScaleMesh
+   Name/it   *Scala la mesh
+   MenuLocation   *OpenSCAD → Scala la mesh
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/it.md)
+   SeeAlso   *
 ---
 
 # OpenSCAD ScaleMeshFeature/it
@@ -31,7 +31,7 @@ Creates a new scaled mesh object with independent scaling for each axis.
 ## Notes
 
 -   The function does not modify the existing mesh, but returns a new mesh.
--   The function can be accessed via python:
+-   The function can be accessed via python   *
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Std TextureMapping
-   Name/it:Mappa una trama
-   Empty:1
-   MenuLocation:Visualizza → Mappa una trama...
-   Workbenches:Tutti
+- GuiCommand   */it
+   Name   *Std TextureMapping
+   Name/it   *Mappa una trama
+   Empty   *1
+   MenuLocation   *Visualizza → Mappa una trama...
+   Workbenches   *Tutti
 ---
 
 # Std TextureMapping/it

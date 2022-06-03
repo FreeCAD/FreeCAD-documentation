@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign AdditivePipe
-   Name/de:PartDesign AdditiveAusformung
-   MenuLocation:Part Design → Additive Ausformung
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md), [PartDesign Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
+- GuiCommand   */de
+   Name   *PartDesign AdditivePipe
+   Name/de   *PartDesign AdditiveAusformung
+   MenuLocation   *Part Design → Additive Ausformung
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md), [PartDesign Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
 ---
 
 # PartDesign AdditivePipe/de
@@ -22,7 +22,7 @@
 
 <div class="mw-translate-fuzzy">
 
-*Links: Querschnittskizze (A) wird über die Pfadskizze (C) in die Querschnittskizze (C) ausgetragen; rechts das daraus resultierende Rohr.*
+*Links   * Querschnittskizze (A) wird über die Pfadskizze (C) in die Querschnittskizze (C) ausgetragen; rechts das daraus resultierende Rohr.*
 
 
 </div>
@@ -71,20 +71,20 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 
 ## Optionen
 
-\'\'\'Abschnitt Transformation\"\':
+\'\'\'Abschnitt Transformation\"\'   *
 
 -   Wähle **Konstant**, um ein einzelnes Profil zu verwenden
 -   Wähle **Mehrfachabschnitt**, um mehrere Profile zu verwenden
 
-**Abschnittausrichtung**:
+**Abschnittausrichtung**   *
 
 -   Standard
 
-    :   Dadurch bleibt die Querschnittsform senkrecht zum Pfad erhalten. Dies ist die Standardeinstellung.
+       *   Dadurch bleibt die Querschnittsform senkrecht zum Pfad erhalten. Dies ist die Standardeinstellung.
 -   Fixiert
     -   Ausrichtung festgelegt durch das erste Profil und durchgehend konstant. Dadurch wird die Ausrichtung auf den Pfadnormalenvektor deaktiviert. Das bedeutet, dass sich die Querschnittsform nicht mit dem Pfad dreht. Streiche entlang eines Kreises, um den Effekt zu sehen.
 -   Frenet
-    -   Erstelle eine minimal mögliche Verdrehung des Profils. Für weitere Informationen siehe [Frenet-Serret Formeln](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
+    -   Erstelle eine minimal mögliche Verdrehung des Profils. Für weitere Informationen siehe [Frenet-Serret Formeln](https   *//en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 -   zusätzlich
     -   Gib einen sekundären Pfad zur Führung des Rohrs an.
     -   Für jeden Punkt **P** entlang des Austragungspfades wird es einen entsprechenden Punkt **Q** auf dem Hilfspfad geben.
@@ -104,25 +104,25 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 
 ## Eigenschaften
 
--    {{PropertyData/de|Label}}: Benennung des Features, kann beliebig geändert werden.
+-    {{PropertyData/de|Label}}   * Benennung des Features, kann beliebig geändert werden.
 
--    {{PropertyData/de|Refine}}: true oder false. Wenn der Wert auf \"true\" gesetzt ist, wird der Volumenkörper von verbleibenden Kanten bereinigt, die von Features übrig geblieben sind. Siehe [Part RefineShape](Part_RefineShape/de.md) für weitere Details.
+-    {{PropertyData/de|Refine}}   * true oder false. Wenn der Wert auf \"true\" gesetzt ist, wird der Volumenkörper von verbleibenden Kanten bereinigt, die von Features übrig geblieben sind. Siehe [Part RefineShape](Part_RefineShape/de.md) für weitere Details.
 
--    {{PropertyData/de|Sections}}: listet die verwendeten Schnitte auf.
+-    {{PropertyData/de|Sections}}   * listet die verwendeten Schnitte auf.
 
--    {{PropertyData/de|Spine Tangent}}: true oder false (Standard). True erweitert den Pfad um tangentiale Kanten.
+-    {{PropertyData/de|Spine Tangent}}   * true oder false (Standard). True erweitert den Pfad um tangentiale Kanten.
 
--    {{PropertyData/de|Auxilary Spine tangent}}: true oder false (Standard). True erweitert den Hilfspfad um tangentiale Kanten.
+-    {{PropertyData/de|Auxilary Spine tangent}}   * true oder false (Standard). True erweitert den Hilfspfad um tangentiale Kanten.
 
--    {{PropertyData/de|Auxiliary Curvelinear}}: true oder false (Standard). True berechnet normal zwischen äquidistanten Punkten auf beiden Trägern.
+-    {{PropertyData/de|Auxiliary Curvelinear}}   * true oder false (Standard). True berechnet normal zwischen äquidistanten Punkten auf beiden Trägern.
 
--    {{PropertyData/de|Mode}}: Profilmodus. Siehe [ Optionen](#Optionen.md).
+-    {{PropertyData/de|Mode}}   * Profilmodus. Siehe [ Optionen](#Optionen.md).
 
--    {{PropertyData/de|Binormal}}: binormaler Vektor für den entsprechenden Orientierungsmodus.
+-    {{PropertyData/de|Binormal}}   * binormaler Vektor für den entsprechenden Orientierungsmodus.
 
--    {{PropertyData/de|Transition}}: Übergangsmodus. Optionen sind \'\' Transformiert \'\', \'\' Rechte Ecke \'\' oder \'\' Runde Ecke \'\'.
+-    {{PropertyData/de|Transition}}   * Übergangsmodus. Optionen sind \'\' Transformiert \'\', \'\' Rechte Ecke \'\' oder \'\' Runde Ecke \'\'.
 
--    {{PropertyData/de|Transformation}}: \'\' Constant \'\' verwendet einen einzelnen Querschnitt. \'\' Multisection \'\' verwendet zwei oder mehr Querschnitte. \'\' Linear \'\', \'\' S-Form \'\' und \'\' Interpolation \'\' sind zur Zeit nicht funktionsfähig.
+-    {{PropertyData/de|Transformation}}   * \'\' Constant \'\' verwendet einen einzelnen Querschnitt. \'\' Multisection \'\' verwendet zwei oder mehr Querschnitte. \'\' Linear \'\', \'\' S-Form \'\' und \'\' Interpolation \'\' sind zur Zeit nicht funktionsfähig.
 
 ## Notes
 
@@ -130,7 +130,7 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 <div class="mw-translate-fuzzy">
 
 -   Skizzen für Querschnitte müssen geschlossene Profile bilden.
--   Der Pfad kann nur von einer einzelnen Skizze, einer Funktion oder FormBinder stammen. Falls du entlang mehrerer Skizzen austragen möchtest, verwende einen **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
+-   Der Pfad kann nur von einer einzelnen Skizze, einer Funktion oder FormBinder stammen. Falls du entlang mehrerer Skizzen austragen möchtest, verwende einen **[<img src=images/PartDesign_SubShapeBinder.svg style="width   *16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
 -   Der Pfad darf keine Verzweigungen oder T-Verbindungen usw. enthalten. Schleifen sind in Ordnung.
 -   Es ist nicht möglich, einen Knoten als Querschnitt zu verwenden.
 -   Es kann zu Problemen führen, wenn der Querschnitt nicht senkrecht zum Pfad in 3D steht (einige andere CAD Systeme betrachten den Ursprung des Querschnitts als Pfad und verlangen nicht, diese Skizze explizit zu platzieren).

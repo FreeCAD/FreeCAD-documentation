@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM MeshNetgenFromShape
-   Name/fr:FEM Maillage MEF à partir de forme avec Netgen
-   MenuLocation:FEM → FEM mesh from shape by Netgen
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM MeshNetgenFromShape
+   Name/fr   *FEM Maillage MEF à partir de forme avec Netgen
+   MenuLocation   *FEM → FEM mesh from shape by Netgen
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshNetgenFromShape/fr

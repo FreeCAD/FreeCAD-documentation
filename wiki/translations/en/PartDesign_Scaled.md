@@ -14,7 +14,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 ## Options
 
 +++
-| ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options:                                             |
+| ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options   *                                             |
 |                                                    |                                                                                                                                              |
 |                                                    | ### Select originals                                                                                                      |
 |                                                    |                                                                                                                                              |

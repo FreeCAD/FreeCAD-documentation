@@ -18,15 +18,15 @@ Det kan användas till att förenkla en del frekventa uppgifter vid byggande, di
 
 ## Bruk
 
-Med [http://sv.wikipedia.org/wiki/Python\_(programspråk) Python](http://sv.wikipedia.org/wiki/Python_(programspråk)_Python.md) korrekt installerat, så kan *fcbt* startas med kommandot 
+Med [http   *//sv.wikipedia.org/wiki/Python\_(programspråk) Python](http   *//sv.wikipedia.org/wiki/Python_(programspråk)_Python.md) korrekt installerat, så kan *fcbt* startas med kommandot 
 ```python
 python fbct.py
-``` det visar en meny, där du kan välja den uppgift som du vill använda den till: 
+``` det visar en meny, där du kan välja den uppgift som du vill använda den till   * 
 ```python
 FreeCAD Build Tool
- Usage:
+ Usage   *
     fcbt <command name> [command parameter]
- possible commands are:
+ possible commands are   *
   - DistSrc         (DS)   Build a source Distr. of the current source tree
   - DistBin         (DB)   Build a binary Distr. of the current source tree
   - DistSetup       (DI)   Build a Setup Distr. of the current source tree
@@ -35,7 +35,7 @@ FreeCAD Build Tool
   - NextBuildNumber (NBN)  Increase the Build Number of this Version
   - CreateModule    (CM)   Insert a new FreeCAD Module (Workbench) in the module directory
  
- For help on the modules type:
+ For help on the modules type   *
    fcbt <command name> ?
 ```
 
@@ -89,6 +89,11 @@ Kommandot \"CM\" [skapar en ny applikationsmodul](Module_Creation/sv.md).
 
 
 </div>
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

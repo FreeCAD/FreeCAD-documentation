@@ -1,7 +1,7 @@
 # Part API/fr
-**(Novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière API, voir l'[https://www.freecadweb.org/api auto-génération de la documentation de l'API].**
+**(Novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière API, voir l'[https   *//www.freecadweb.org/api auto-génération de la documentation de l'API].**
 
-Le module **Part** <img alt="" src=images/Workbench_Part.png  style="width:16px;"> est une connexion directe entre **FreeCAD** et le noyau **OpenCasCade**. Il fournit principalement des [TopoShapes](TopoShape_API/fr.md) qui sont les types d\'objets principaux utilisés par OpenCascade. Le module **Part** contient également une variété de fonctions utiles pour créer et manipuler des **topoShapes**. Exemple : 
+Le module **Part** <img alt="" src=images/Workbench_Part.png  style="width   *16px;"> est une connexion directe entre **FreeCAD** et le noyau **OpenCasCade**. Il fournit principalement des [TopoShapes](TopoShape_API/fr.md) qui sont les types d\'objets principaux utilisés par OpenCascade. Le module **Part** contient également une variété de fonctions utiles pour créer et manipuler des **topoShapes**. Exemple    * 
 ```python
 import Part
 mycube = Part.makeBox(2,2,2)
@@ -88,6 +88,11 @@ Part.show(mycube)
 
 
 {{APIFunction/fr|show|shape|Ajouter la forme du document actif ou en crée un si aucun document n'existe.| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

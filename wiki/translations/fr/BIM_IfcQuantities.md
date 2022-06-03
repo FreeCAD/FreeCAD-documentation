@@ -1,18 +1,18 @@
 ---
-- GuiCommand:Addon/fr
-   Name:BIM IfcQuantities
-   Name/fr:BIM Quantité IFC
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
-   Addon:BIM
-   MenuLocation:Manage → IFC Quantities
-   SeeAlso:[BIM Elements IFC](BIM_IfcElements/fr.md),[BIM Propriétés IFC](BIM_IfcProperties/fr.md)
+- GuiCommand   *Addon/fr
+   Name   *BIM IfcQuantities
+   Name/fr   *BIM Quantité IFC
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
+   Addon   *BIM
+   MenuLocation   *Manage → IFC Quantities
+   SeeAlso   *[BIM Elements IFC](BIM_IfcElements/fr.md),[BIM Propriétés IFC](BIM_IfcProperties/fr.md)
 ---
 
 # BIM IfcQuantities/fr
 
 ## Description
 
-<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width   *1024px;">
 
 Le gestionnaire de quantités IFC vous permet de vérifier les **quantités explicites** attachées aux objets à exporter au format IFC.
 

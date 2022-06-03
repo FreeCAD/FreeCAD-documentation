@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std ViewFitAll
-   MenuLocation:View → Standard views → Fit all
-   Workbenches:All
-   Shortcut:**V** **F**
-   SeeAlso:[Std ViewFitSelection](Std_ViewFitSelection.md)
+- GuiCommand   *
+   Name   *Std ViewFitAll
+   MenuLocation   *View → Standard views → Fit all
+   Workbenches   *All
+   Shortcut   ***V** **F**
+   SeeAlso   *[Std ViewFitSelection](Std_ViewFitSelection.md)
 ---
 
 # Std ViewFitAll
@@ -15,11 +15,11 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Std_ViewFitAll.svg" width=16px> [Std ViewFitAll](Std_ViewFitAll.md)** button.
     -   Select the **View → Standard views → <img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the menu.
     -   Select the **<img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **V** then **F**.
+    -   Use the keyboard shortcut   * **V** then **F**.
 
 ## Notes
 
@@ -28,7 +28,7 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

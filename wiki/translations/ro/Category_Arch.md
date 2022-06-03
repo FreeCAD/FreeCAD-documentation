@@ -1,6 +1,8 @@
 # Category:Arch/ro
 Pages relating to Architectural and Building Information Management
 
+[Category   *User Documentation/ro](Category   *User_Documentation/ro.md) [Category   *BIM/ro](Category   *BIM/ro.md)
+
 ### Contents
 
 |     |     |     |

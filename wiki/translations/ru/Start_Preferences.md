@@ -1,115 +1,97 @@
 # Start Preferences/ru
-The preferences screen of the [Start Workbench](Start_Workbench.md) is found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Start**.
+The preferences for the <img alt="" src=images/Workbench_Start.svg  style="width   *24px;"> [Start Workbench](Start_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Start**. This section is only available after visiting the workbench or after loading the workbench via the *Available Workbenches* tab in the **Workbenches** section.
 
-There is only one tab: Start page.
-
-## Стартовая страница 
-
-In the *Start page* tab you can specify the following:
-
-
-**Start page template**
-
-: An optional HTML template that will be used instead of the default start page.
+There is only one tab   * *Start page options* in the **Start** section. On this tab you can specify the following   *
 
 +++
-| Name                                          | Description                                                                                                                             |
-+===============================================+=========================================================================================================================================+
-|                                |                                                                                                                                         |
-| **Contents**                         |                                                                                                                                         |
-|                                            |                                                                                                                                         |
+| Name                                             | Description                                                                                                                                                                                                                            |
++==================================================+========================================================================================================================================================================================================================================+
+|                                   | An optional HTML template that will be used instead of the default template.                                                                                                                                                           |
+| **Start page template**              |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                | If checked, shows a notepad next to the file thumbnails, where you can keep notes across sessions.                                      |
-| **Show notepad**                  |                                                                                                                                         |
-|                                            |                                                                                                                                         |
+|                                   | If checked, a notepad will be shown next to the recent file thumbnails where you can keep notes across sessions.                                                                                                                       |
+| **Show notepad**                     |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                | If checked, shows the examples in the **Documents** tab of the Start page.                                       |
-| **Show examples folder contents** |                                                                                                                                         |
-|                                            |                                                                                                                                         |
+|                                   | If checked, the example files will be shown on the **Documents** tab of the Start page.                                                                                                                         |
+| **Show examples folder contents**    |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                | An optional custom folder to be displayed at the bottom of the **Documents** tab of the Start page.              |
-| **Show additional folder**        |                                                                                                                                         |
-|                                            |                                                                                                                                         |
+|                                   | An optional custom folder to be displayed at the bottom of the **Documents** tab of the Start page.                                                                                                             |
+| **Show additional folder**           |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                | If checked, the latest posts from the FreeCAD forum will be displayed in the **Activity** tab of the Start page. |
-| **Show forum**                    |                                                                                                                                         |
-|                                            |                                                                                                                                         |
+|                                   | If checked, the latest posts from the FreeCAD forum will be displayed on the **Activity** tab of the Start page.                                                                                                |
+| **Show forum**                       |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-
+|                                   | If checked, help tips will be shown on the **Documents** tab of the Start page.                                                                                                                                 |
+| **Show tips**                        |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-| Name                                           | Description                                                                                                                                                                                        |
-+================================================+====================================================================================================================================================================================================+
-|                                 |                                                                                                                                                                                                    |
-| **Fonts and colors**                  |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | If checked, and a style sheet is specified in the [General preferences](Preferences_Editor#General_2.md), the style sheet will override the options in this section.                                                           |
+| **Use FreeCAD style sheet**          |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | If checked, and a style sheet is specified in the [General preferences](Preferences_Editor.md), the style sheet will override the options in this section.                                 |
-| **Use FreeCAD style sheet**        |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | The background color behind the panels. It defaults to blue.                                                                                                                                                                           |
+| **Background color**                 |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | The background color behind the panels; it defaults to blue.                                                                                                                                       |
-| **Background color**               |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | An optional image to display as background. It is normally empty.                                                                                                                                                                      |
+| **Background image**                 |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | An optional image to display as background; it is normally empty.                                                                                                                                  |
-| **Background image**               |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | The color of the version text on the Start page. It defaults to white.                                                                                                                                                                 |
+| **Background text color**            |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | The color of the version text in the Start page; it defaults to white.                                                                                                                             |
-| **Background text color**          |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | The background of the main start page area. It defaults to white.                                                                                                                                                                      |
+| **Page background color**            |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | The background of the main start page area; it defaults to white.                                                                                                                                  |
-| **Page background color**          |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | The color of the text on the main pages. It defaults to black.                                                                                                                                                                         |
+| **Page text color**                  |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | The color of the text on the main pages; it defaults to black.                                                                                                                                     |
-| **Page text color**                |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | The background color of the boxes inside the pages.                                                                                                                                                                                    |
+| **Box background color**             |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | The background color of the boxes inside the pages.                                                                                                                                                |
-| **Box background color**           |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | The color of URL links.                                                                                                                                                                                                                |
+| **Link color**                       |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | The color of URL links.                                                                                                                                                                            |
-| **Link color**                     |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | The font family to use for the start page. It can be a font name or a comma-separated series of fallback fonts. It defaults to {{Value|Arial,Helvetica,sans}}, which will use a sans serif type of font.                 |
+| **Font family**                      |                                                                                                                                                                                                                                        |
+|                                               | A spinbox allows setting the font size for all texts on the Start page. It defaults to {{Value|13px}}.                                                                                                                   |
 +++
-|                                 | The font family to use for the start page. It can be a font name or a comma-separated series of fallback fonts; it defaults to \"Arial,Helvetica,sans\", which will use a sans serif type of font. |
-| **Font family**                    |                                                                                                                                                                                                    |
-|                                             | A spinbox also allows setting the base font size for all texts in the Start page; it defaults to 11px.                                                                                             |
+|                                   | If checked, a gradient color will be used for the \"New File\" icon.                                                                                                                                                                   |
+| **Use gradient for New File icon**   |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                 | If checked, a gradient color will be used for the \"New File\" icon.                                                                                                                               |
-| **Use gradient for New File icon** |                                                                                                                                                                                                    |
-|                                             |                                                                                                                                                                                                    |
+|                                   | Not used. This is specified in the [General preferences](Preferences_Editor#General_2.md) instead.                                                                                                                             |
+| **Switch workbench after loading**   |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-
+|                                   | If this preference and the **Close and switch on opening file** preference are both checked, and the application is started by opening a file, the Start page will be closed after FreeCAD finishes loading. |
+| **Close start page after loading**   |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-| Name                                             | Description                                                                                                                                                                                                                                |
-+==================================================+============================================================================================================================================================================================================================================+
-|                                   |                                                                                                                                                                                                                                            |
-| **Options**                             |                                                                                                                                                                                                                                            |
-|                                               |                                                                                                                                                                                                                                            |
-+++
-|                                   | A combobox that can select one of the installed [Workbenches](Workbenches.md). After loading FreeCAD, this workbench will automatically become active; it defaults to the [Start Workbench](Start_Workbench.md).           |
-| **Switch workbench after loading**   |                                                                                                                                                                                                                                            |
-|                                               |                                                                                                                                                                                                                                            |
-+++
-|                                   | If checked, the Start page will be closed after FreeCAD finishes loading.                                                                                                                                                                  |
-| **Close start page after loading**   |                                                                                                                                                                                                                                            |
-|                                               |                                                                                                                                                                                                                                            |
-+++
-|                                   | If checked, and the application is started by opening a file, the software will apply the two options above **Switch workbench after loading** and **Close start page after loading**. |
-| **Close and switch on opening file** |                                                                                                                                                                                                                                            |
-|                                               |                                                                                                                                                                                                                                            |
+|                                   | See previous preference.                                                                                                                                                                                                               |
+| **Close and switch on opening file** |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
 
-![](images/Preference_Start_Tab_01.png )
+![](images/Preferences_Start_Tab_Start_page_options.png ) 
+*The Start page options tab*
 
 
 {{Start Tools navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

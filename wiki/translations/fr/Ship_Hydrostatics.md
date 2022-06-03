@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Ship Hydrostatics
-   Name/fr:Ship Hydrostatiques
-   MenuLocation:Ship design → Hydrostatics
-   Workbenches:[Ship](Ship_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */fr
+   Name   *Ship Hydrostatics
+   Name/fr   *Ship Hydrostatiques
+   MenuLocation   *Ship design → Hydrostatics
+   Workbenches   *[Ship](Ship_Workbench/fr.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Ship Hydrostatics/fr
@@ -14,7 +14,7 @@
 
 Trace l\'hydrostatique du bateau.
 
-<img alt="" src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width:800px;"> 
+<img alt="" src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width   *800px;"> 
 *Exemple de courbes hydrostatiques*
 
 Le calcul hydrostatique est une étape critique de la conception d\'un bateau, il permet de comprendre les principaux paramètres de stabilité sous-jacents de la coque.
@@ -25,13 +25,13 @@ L\'atelier Ship trace l\'hydrostatique en 3 groupes principaux. Dans tous ces gr
 
 ### Hydrostatique basée sur le volume 
 
-Il y a 3 hydrostatiques (malgré Δ(T)) inclus dans cette catégorie :
+Il y a 3 hydrostatiques (malgré Δ(T)) inclus dans cette catégorie    *
 
 -   Surface mouillée (WSA).
 -   Moment d\'inclinaison du bateau de 1 cm (MCT).
 -   Position longitudinale du centre de bouyance (XCB).
 
-En tant que quantité de surface en contact avec l\'eau, la WSA est fortement liée à la dynamique du bateau, y compris la résistance du bateau et la tenue à la mer. De plus, la WSA fait partie du facteur de renormalisation de nombreux coefficients non dimensionnels du bateau, comme le coefficient de traînée :
+En tant que quantité de surface en contact avec l\'eau, la WSA est fortement liée à la dynamique du bateau, y compris la résistance du bateau et la tenue à la mer. De plus, la WSA fait partie du facteur de renormalisation de nombreux coefficients non dimensionnels du bateau, comme le coefficient de traînée    *
 
 $c_\mathrm d = \dfrac{F_\mathrm d}{\dfrac{1}{2} \rho u^2 S},$
 
@@ -49,7 +49,7 @@ Le XCB indique de toute évidence l\'angle d\'inclinaison qui devrait permettre 
 
 ### Hydrostatique de la stabilité 
 
-Ces hydrostatiques sont davantage liées à la stabilité transversale du bateau. Les hydrostatiques suivantes sont fournies par l\'atelier des bateaux :
+Ces hydrostatiques sont davantage liées à la stabilité transversale du bateau. Les hydrostatiques suivantes sont fournies par l\'atelier des bateaux    *
 
 -   Surface de flottaison/aire de flottaison (WP).
 -   Distance entre la quille et le centre de bouée (KB).
@@ -87,6 +87,14 @@ Appuyez sur le bouton **Accept** lorsque vous êtes prêt, afin que le module ba
 
 -   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
 -   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
+
+
+
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

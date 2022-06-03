@@ -1,6 +1,8 @@
 # Category:Addons/de
 Diese Seite listet externe Erweiterungsarbeitsbereiche auf, die eine Seite in diesem Wiki haben. Erweiterungen sind Module oder Arbeitsbereiche, die von der Gemeinschaft beigesteuert werden und nicht Teil des FreeCAD Standards sind.
 
+[Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

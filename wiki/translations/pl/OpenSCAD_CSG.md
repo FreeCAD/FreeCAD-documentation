@@ -5,8 +5,8 @@
 
 ### Supported Elements 
 
--   primitives: cube, sphere, cylinder, square, circle, polygon, polyhedron
--   boolean: union, difference, intersection
+-   primitives   * cube, sphere, cylinder, square, circle, polygon, polyhedron
+-   boolean   * union, difference, intersection
 -   linearextrude, rotateextrude
 -   import (dxf, stl, off) (without scaling or transformation of origin)
 -   multmatrix
@@ -17,18 +17,18 @@
 -   projection
 -   surface
 -   render (ignored)
--   cgal operations: minkowski, glide, path, subdiv, hull
+-   cgal operations   * minkowski, glide, path, subdiv, hull
 
 ## Export
 
 ### Supported Elements 
 
--   primitives: Box, Cylinder, Cone, Torus
--   boolean: Cut, Fuse, Common
+-   primitives   * Box, Cylinder, Cone, Torus
+-   boolean   * Cut, Fuse, Common
 
 ### Fallback
 
-Every object derived from Part::Feature which is not (yet) supported will get meshed and exported as a polyhedron element
+Every object derived from Part   *   *Feature which is not (yet) supported will get meshed and exported as a polyhedron element
 
 ## Related
 
@@ -38,6 +38,8 @@ Every object derived from Part::Feature which is not (yet) supported will get me
 
 
  {{OpenSCAD Tools navi}}
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Rendu
-   Level:Intermediaire
-   Time:120 minutes
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 ou ultérieure
-   Files:aucun
+- TutorialInfo   */fr
+   Topic   *Rendu
+   Level   *Intermediaire
+   Time   *120 minutes
+   Author   *[https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion   *0.18 ou ultérieure
+   Files   *aucun
 ---
 
 # Tutorial FreeCAD POV ray/fr
@@ -13,7 +13,7 @@
 
 
 
-**L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau atelier devrait fondamentalement fonctionner de la même manière**
+**L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https   *//github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau atelier devrait fondamentalement fonctionner de la même manière**
 
 .
 
@@ -23,15 +23,15 @@
 
 Ce tutoriel montre comment produire un rendu dans FreeCAD à l\'aide du rendu POV-Ray. Cela suppose que l\'utilisateur a déjà créé une pièce ou un assemblage dans FreeCAD ou en a importé un. Il utilise le [Module Raytracing](Raytracing_Workbench/fr.md) pour générer le fichier en vue du rendu.
 
-Ce tutoriel est basé sur le post de forum créé par schupin [FreeCAD / pov ray tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745) qui comprend également un fichier `.pov` nécessaire à la production du rendu.
+Ce tutoriel est basé sur le post de forum créé par schupin [FreeCAD / pov ray tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745) qui comprend également un fichier `.pov` nécessaire à la production du rendu.
 
-<img alt="" src=images/Povray_before_after.png  style="width:600px;">
+<img alt="" src=images/Povray_before_after.png  style="width   *600px;">
 
 
 
 *align=center|Exemple d'un modèle 3D par schupin et d'un rendu haute qualité produit avec FreeCAD et POV-Ray.*
 
-Les fichiers utilisés dans ce tutoriel sont au post \#8 [du fil en question](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
+Les fichiers utilisés dans ce tutoriel sont au post \#8 [du fil en question](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
 ## Configuration de base 
 
@@ -59,9 +59,9 @@ Pour que le rendu direct fonctionne, l\'exécutable `povray` doit être défini 
 
 4. Sélectionnez tous les objets que vous souhaitez ajouter à votre scène puis sélectionnez l'objet `PovProject` créé puis cliquez sur **<img src="images/Raytrace_NewPartSegment.svg" width=16px> [InsertPart](Raytracing_InsertPart.md)**.
 
-**Note:** méfiez-vous des objets qui ne sont pas actuellement visibles dans la fenêtre de visualisation 3D. S'ils sont invisibles mais inclus dans la scène, ils seront toujours restitués. D'autre part, si vous voulez vraiment omettre le rendu d'un corps, ne le sélectionnez pas pour l'inclure dans le projet POV-Ray.
+**Note   *** méfiez-vous des objets qui ne sont pas actuellement visibles dans la fenêtre de visualisation 3D. S'ils sont invisibles mais inclus dans la scène, ils seront toujours restitués. D'autre part, si vous voulez vraiment omettre le rendu d'un corps, ne le sélectionnez pas pour l'inclure dans le projet POV-Ray.
 
-**Note 2:** tous les objets du projet POV-Ray auront un nom basé sur leur nom interne FreeCAD. Il est important de noter les noms POV-Ray car d'autres options, telles que les textures de matériau, seront affectées à ces noms POV-Ray.
+**Note 2   *** tous les objets du projet POV-Ray auront un nom basé sur leur nom interne FreeCAD. Il est important de noter les noms POV-Ray car d'autres options, telles que les textures de matériau, seront affectées à ces noms POV-Ray.
 
 5. Dans la fenêtre 3D, effectuez un zoom, un panoramique et une rotation de la vue pour configurer la scène à votre guise. Assurez-vous que les objets sont centrés dans la fenêtre puis sélectionnez l'objet `PovProject` créé et appuyez sur **<img src="images/Raytrace_ResetCamera.svg" width=16px> [ResetCamera](Raytracing_ResetCamera.md)**.
 
@@ -104,19 +104,19 @@ Dans les sections suivantes, nous modifions le fichier de base `.pov` produit av
 
 ==Editer le fichier .pov==
 
-9. Le fichier `.pov` généré par FreeCAD est un simple fichier texte pouvant être ouvert avec n'importe quel éditeur. Cela ressemble vaguement à un fichier de code source C ++: les directives commencent par un hash `#` et se terminent par un point-virgule `;`. Les accolades <code>{ }</code> sont utilisées pour limiter les blocs de section et l'indentation est un espace blanc arbitraire. Les commentaires sont indiqués par une double barre oblique `//`. Les commentaires de bloc peuvent être définis avec une paire de `/*  */` comme en C.
+9. Le fichier `.pov` généré par FreeCAD est un simple fichier texte pouvant être ouvert avec n'importe quel éditeur. Cela ressemble vaguement à un fichier de code source C ++   * les directives commencent par un hash `#` et se terminent par un point-virgule `;`. Les accolades <code>{ }</code> sont utilisées pour limiter les blocs de section et l'indentation est un espace blanc arbitraire. Les commentaires sont indiqués par une double barre oblique `//`. Les commentaires de bloc peuvent être définis avec une paire de `/*  */` comme en C.
 
 Le fichier peut sembler compliqué au début, mais 90% de son contenu est constitué de données de maillage ne nécessitant que peu de modifications. Ces maillages représentent la géométrie des corps à restituer.
 
-Le fichier est structuré comme suit:
+Le fichier est structuré comme suit   *
 * Includes
-* Global settings: Paramètres globaux
-* Sky sphere: Sphère du ciel
-* Planes: Plans
-* Finishes and textures: Finitions et textures
-* Camera: Caméra
-* Mesh and body information: Informations sur le maillage et le corps
-* Light source: Source de lumière
+* Global settings   * Paramètres globaux
+* Sky sphere   * Sphère du ciel
+* Planes   * Plans
+* Finishes and textures   * Finitions et textures
+* Camera   * Caméra
+* Mesh and body information   * Informations sur le maillage et le corps
+* Light source   * Source de lumière
 
 Les informations de la caméra ne seront pas touchées pas plus que la plupart des informations contenues dans les mailles. Les principales modifications seront apportées aux autres sections.
 
@@ -127,7 +127,7 @@ Ceci est le contenu complet du fichier `.pov` mais sans les mailles.
 <div class="mw-collapsible-content">
 ```python
 // Persistence of Vision Ray Tracer Scene Description File
-// for FreeCAD (http://www.freecadweb.org)
+// for FreeCAD (http   *//www.freecadweb.org)
 
 #version 3.6;
 
@@ -173,7 +173,7 @@ plane {
 
 // declares position and view direction
 
-// Generated by FreeCAD (http://www.freecadweb.org/)
+// Generated by FreeCAD (http   *//www.freecadweb.org/)
 #declare cam_location =  <-171.753,1229.11,-2667.08>;
 #declare cam_look_at  = <636.959,359.955,160.296>;
 #declare cam_sky      = <0.068217,0.958943,0.275273>;
@@ -185,7 +185,7 @@ camera {
   angle     cam_angle 
   right x*800/600
 }
-// Written by FreeCAD http://www.freecadweb.org/
+// Written by FreeCAD http   *//www.freecadweb.org/
 // face number1 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // ... meshes should be defined here until the end of the file ...
 
@@ -208,7 +208,7 @@ light_source {
 Le fichier résultant doit avoir les sections `camera` et `light_source` côte à côte, par exemple
 
 ```python
-// Generated by FreeCAD (http://www.freecadweb.org/)
+// Generated by FreeCAD (http   *//www.freecadweb.org/)
 #declare cam_location =  <-171.753,1229.11,-2667.08>;
 #declare cam_look_at  = <636.959,359.955,160.296>;
 #declare cam_sky      = <0.068217,0.958943,0.275273>;
@@ -226,7 +226,7 @@ light_source {
   cam_location + cam_angle * 100
   color rgb <10, 10, 10>
 }
-// Written by FreeCAD http://www.freecadweb.org/
+// Written by FreeCAD http   *//www.freecadweb.org/
 // face number1 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 .
 .
@@ -245,7 +245,7 @@ light_source {
 
 La position de la lumière est définie par un vecteur `<x, y, z>`. `color` peut être établi comme un vecteur `<r, g, b>` ou il peut également être nommer par un nom tel que `White`. Si les valeurs RVB sont données, elles doivent être comprises entre `0.0` et `1.0` pour que la lumière ait une luminosité normale.
 
-Comme d'autres objets, la lumière peut être modifiée par de nombreuses options. L'option `area_light` crée une source rectangulaire, plus réaliste dans la mesure où elle génère un éclairage diffus qui crée des ombres douces. Le mot clé `adaptive` permet de réduire le temps de calcul des trajets de lumière; plus la valeur est grande, plus le résultat sera précis. Pour éviter de longs temps de rendu, vous devez utiliser le plus petit entier donnant un résultat acceptable (`1` ou `2` sont généralement suffisants). Pour obtenir le meilleur résultat, supprimez complètement le mot clé (long rendering time: temps de rendu long). Le mot clé `jitter` contribue à améliorer les ombres en décalant de manière aléatoire la position des lumières. Les mots-clés `circular` et `orient` transforment la lumière de la zone en source sphérique ce qui produira de meilleures ombres lorsqu'il y a des objets arrondis dans la scène. Ajouter `fade_distance` et {{incode | fade_power}} est utile pour atténuer la valeur de la lumière en fonction de la distance, tout comme cela se produit avec une source de lumière réelle.
+Comme d'autres objets, la lumière peut être modifiée par de nombreuses options. L'option `area_light` crée une source rectangulaire, plus réaliste dans la mesure où elle génère un éclairage diffus qui crée des ombres douces. Le mot clé `adaptive` permet de réduire le temps de calcul des trajets de lumière; plus la valeur est grande, plus le résultat sera précis. Pour éviter de longs temps de rendu, vous devez utiliser le plus petit entier donnant un résultat acceptable (`1` ou `2` sont généralement suffisants). Pour obtenir le meilleur résultat, supprimez complètement le mot clé (long rendering time   * temps de rendu long). Le mot clé `jitter` contribue à améliorer les ombres en décalant de manière aléatoire la position des lumières. Les mots-clés `circular` et `orient` transforment la lumière de la zone en source sphérique ce qui produira de meilleures ombres lorsqu'il y a des objets arrondis dans la scène. Ajouter `fade_distance` et {{incode | fade_power}} est utile pour atténuer la valeur de la lumière en fonction de la distance, tout comme cela se produit avec une source de lumière réelle.
 
 Mettre en place une lumière venant de la droite et du haut.
 ```python
@@ -401,7 +401,7 @@ object {Pov_Body001
 }
 ```
 
-<img alt="" src=images/07_T04_FreeCAD_POVray_render_materials.png  style="width:600px;">
+<img alt="" src=images/07_T04_FreeCAD_POVray_render_materials.png  style="width   *600px;">
 
 
 
@@ -429,7 +429,7 @@ plane {
 }
 ```
 
-<img alt="" src=images/08_T04_FreeCAD_POVray_render_floor_gray.png  style="width:600px;">
+<img alt="" src=images/08_T04_FreeCAD_POVray_render_floor_gray.png  style="width   *600px;">
 
 
 
@@ -469,7 +469,7 @@ plane {
 }
 ```
 
-<img alt="" src=images/09_T04_FreeCAD_POVray_render_floor_wood.png  style="width:600px;">
+<img alt="" src=images/09_T04_FreeCAD_POVray_render_floor_wood.png  style="width   *600px;">
 
 
 
@@ -503,7 +503,7 @@ plane {
 }
 ```
 
-<img alt="" src=images/10_T04_FreeCAD_POVray_render_floor_wood_walls.png  style="width:600px;">
+<img alt="" src=images/10_T04_FreeCAD_POVray_render_floor_wood_walls.png  style="width   *600px;">
 
 
 
@@ -567,7 +567,7 @@ global_settings {
 }
 ```
 
-<img alt="" src=images/11_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_1.png  style="width:600px;">
+<img alt="" src=images/11_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_1.png  style="width   *600px;">
 
 
 
@@ -583,7 +583,7 @@ global_settings {
 }
 ```
 
-La valeur `Setting` peut être l\'une des constantes prédéfinies: 
+La valeur `Setting` peut être l\'une des constantes prédéfinies   * 
 ```python
 Radiosity_Default
 Radiosity_Debug
@@ -632,12 +632,12 @@ global_settings {
 }
 ```
 
-Les valeurs exactes utilisées par ces préréglages se trouvent dans le fichier `rad_def.inc` qui se trouve dans le répertoire d\'installation de POV-Ray, par exemple: 
+Les valeurs exactes utilisées par ces préréglages se trouvent dans le fichier `rad_def.inc` qui se trouve dans le répertoire d\'installation de POV-Ray, par exemple   * 
 ```python
 /usr/share/povray-3.7/include/
 ```
 
-Le [Module Raytracing](Raytracing_Workbench/fr.md) a trois modèles par défaut:
+Le [Module Raytracing](Raytracing_Workbench/fr.md) a trois modèles par défaut   *
 
 -    `ProjectStd.pov`n'utilise pas du tout `radiosity`.
 
@@ -649,7 +649,7 @@ Le [Module Raytracing](Raytracing_Workbench/fr.md) a trois modèles par défaut:
 
 21\. Le fichier modifié `.pov` peut être sauvegardé lorsque tous les réglages ont été effectués.
 
-La structure finale est la suivante:
+La structure finale est la suivante   *
 
 -   Includes, avec des bibliothèques supplémentaires
 -   Paramètres globaux, avec paramètres de radiosité
@@ -661,7 +661,7 @@ La structure finale est la suivante:
 -   Informations de maillage et de corps, en utilisant les textures définies précédemment
 
 
-**Note:**
+**Note   ***
 
 les sections du fichier `.pov` peuvent être arrangées dans n\'importe quel ordre bien qu\'il soit probablement plus facile de travailler avec le fichier si les informations de maillage sont à la fin.
 
@@ -672,11 +672,11 @@ Le rendu final peut être effectué en cliquant sur **<img src="images/Raytrace_
 povray assembly.pov +W800 +H600 +AM2 +A
 ```
 
-<img alt="" src=images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png  style="width:600px;">
+<img alt="" src=images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png  style="width   *600px;">
 
 
 
-*align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, des matériaux assignés, un plan d'étage avec une texture de parquet et des murs arrière avec des textures de cloison sèche.Paramètres de radiosité pour un rendu rapide:`Radiosity_Final* et {{incode|recursion_limit 2`.}}
+*align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, des matériaux assignés, un plan d'étage avec une texture de parquet et des murs arrière avec des textures de cloison sèche.Paramètres de radiosité pour un rendu rapide   *`Radiosity_Final* et {{incode|recursion_limit 2`.}}
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -689,7 +689,7 @@ Ceci le contenu complet du fichier `.pov`, mais sans la dernière section, c\'es
 
 ```python
 // Persistence of Vision Ray Tracer Scene Description File
-// for FreeCAD (http://www.freecadweb.org)
+// for FreeCAD (http   *//www.freecadweb.org)
 
 #version 3.6;
 
@@ -805,7 +805,7 @@ plane {
 }
 // declares position and view direction
 
-// Generated by FreeCAD (http://www.freecadweb.org/)
+// Generated by FreeCAD (http   *//www.freecadweb.org/)
 #declare cam_location =  <-171.753,1229.11,-2667.08>;
 #declare cam_look_at  = <636.959,359.955,160.296>;
 #declare cam_sky      = <0.068217,0.958943,0.275273>;
@@ -827,7 +827,7 @@ light_source {
     circular orient
     fade_distance 1000 fade_power 2
 }
-// Written by FreeCAD http://www.freecadweb.org/
+// Written by FreeCAD http   *//www.freecadweb.org/
 // face number1 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // ... meshes should be defined here until the end of the file ...
 ```
@@ -840,7 +840,7 @@ light_source {
 
 ## Notes Finales 
 
-POV-Ray est un logiciel relativement ancien, publié pour la première fois au début des années 90. Ses principaux avantages par rapport aux logiciels plus modernes:
+POV-Ray est un logiciel relativement ancien, publié pour la première fois au début des années 90. Ses principaux avantages par rapport aux logiciels plus modernes   *
 
 -   c\'est une solution testée qui existe depuis de nombreuses années
 -   fonctionne dans de nombreux systèmes d\'exploitation
@@ -849,9 +849,9 @@ POV-Ray est un logiciel relativement ancien, publié pour la première fois au d
 
 Il est conseillé à l\'utilisateur de lire la documentation de POV-Ray, ainsi que d\'autres tutoriels ou exemples pour définir les paramètres adaptés à ses besoins.
 
--   [POV-Ray for Unix version 3.7](http://www.povray.org/documentation/3.7.0/index.html)
--   [POV-Ray Tutorial](http://www.povray.org/documentation/3.7.0/t2_0.html)
--   [POV-Ray Reference](http://www.povray.org/documentation/3.7.0/r3_0.html)
+-   [POV-Ray for Unix version 3.7](http   *//www.povray.org/documentation/3.7.0/index.html)
+-   [POV-Ray Tutorial](http   *//www.povray.org/documentation/3.7.0/t2_0.html)
+-   [POV-Ray Reference](http   *//www.povray.org/documentation/3.7.0/r3_0.html)
 
 
  {{Raytracing Tools navi}}

@@ -1,6 +1,6 @@
 # TechDraw Image/ro
 ---
-- GuiCommand:   Name:TechDraw  Image   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw → Image   Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *TechDraw  Image   Workbenches   *[[TechDraw_Workbench   TechDraw]]|MenuLocation   *TechDraw → Image   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -59,15 +59,15 @@ Fișiere Bitmap Images pot fi inserate într-o pagină de desen folosind Python.
 </div>
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Image tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Image tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dvi = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewImage','TestImage')
+dvi = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewImage','TestImage')
 rc = page.addView(dvi)
 dvi.ImageFile = "pathToMy/imageFile.png"
 dvi.Height = 200

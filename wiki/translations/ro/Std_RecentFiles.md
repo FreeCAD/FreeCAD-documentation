@@ -1,6 +1,6 @@
 # Std RecentFiles/ro
 ---
-- GuiCommand:/ro   Name:Std RecentFiles   Name/ro:Fișiere recente   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Std Open/ro|Deschidere](Std_File_Menu/ro___File]]_→_Fișiere_recente.md), [Importul](Std_Import/ro.md)---
+- GuiCommand   */ro   Name   *Std RecentFiles   Name/ro   *Fișiere recente   MenuLocation   *[|Workbenches   *All   Shortcut   *   SeeAlso   *[[Std Open/ro|Deschidere](Std_File_Menu/ro___File]]_→_Fișiere_recente.md), [Importul](Std_Import/ro.md)---
 
 
 </div>
@@ -38,7 +38,7 @@ Documentul este deschis și inserat în proiect.
 ## Preferences
 
 -   The maximum number of files in the recent files list is determined by the **Tools → Edit parameters... → BaseApp → Preferences → RecentFiles → RecentFiles** setting. This setting can also be changed in the [Preferences Editor](Preferences_Editor#General.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

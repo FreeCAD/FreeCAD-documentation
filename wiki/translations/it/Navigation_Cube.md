@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Il controllo cubo di navigazione, o **cubo di navigazione**, è un aiuto grafico dell\'interfaccia utente per riorientare la vista 3D. Per impostazione predefinita, è visibile e si trova nell\'angolo in alto a destra del display 3D. Nella vista 3D standard appare in questo modo:
+Il controllo cubo di navigazione, o **cubo di navigazione**, è un aiuto grafico dell\'interfaccia utente per riorientare la vista 3D. Per impostazione predefinita, è visibile e si trova nell\'angolo in alto a destra del display 3D. Nella vista 3D standard appare in questo modo   *
 
 
 </div>
@@ -24,7 +24,7 @@ The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this pag
 
 <div class="mw-translate-fuzzy">
 
-Il cubo di navigazione è costituito da diverse parti:
+Il cubo di navigazione è costituito da diverse parti   *
 
 -   Frecce direzionali
 -   Parte principale del Cubo di navigazione
@@ -39,7 +39,7 @@ All parts, except the axis indicators, can be clicked.
 
 ### Main cube 
 
-The main cube has 26 faces: 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
+The main cube has 26 faces   * 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
 
 
 <div class="mw-translate-fuzzy">
@@ -52,7 +52,7 @@ The main cube has 26 faces: 6 square main faces, 12 rectangular edge faces (<sma
 
 <div class="mw-translate-fuzzy">
 
-Ci sono sei frecce direzionali: quattro punte di freccia triangolari, una in alto, in basso, a sinistra e a destra; e due frecce curve, una su ciascun lato della freccia in alto.
+Ci sono sei frecce direzionali   * quattro punte di freccia triangolari, una in alto, in basso, a sinistra e a destra; e due frecce curve, una su ciascun lato della freccia in alto.
 
 
 </div>
@@ -96,7 +96,7 @@ Nell\'angolo in basso a destra del cubo di navigazione c\'è un piccolo cubo. Cl
 
 <div class="mw-translate-fuzzy">
 
-Il cubo di navigazione è configurabie, compresa la regolazione della sua dimensione: **Modifica → Preferenze... → Visualizzazione → Navigazione → Cubo di navigazione** <small>(v0.19)</small> .
+Il cubo di navigazione è configurabie, compresa la regolazione della sua dimensione   * **Modifica → Preferenze... → Visualizzazione → Navigazione → Cubo di navigazione** <small>(v0.19)</small> .
 
 
 </div>
@@ -116,6 +116,11 @@ Per una configurazione più avanzata, fare riferimento a [CubeMenu](Interface_Cu
 |[Metodi di selezione](Selection_methods/it.md)
 |[Struttura del documento](Document_structure/it.md)
 }}
+
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

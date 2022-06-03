@@ -1,7 +1,9 @@
 # Category:Administration/fr
-# Category:Administration/fr
+# Category   *Administration/fr
 
 Cette catégorie contient les articles, et, les catégories sur le wiki, de tous les sujets administratifs.
+
+[Category   *Categories/fr](Category   *Categories/fr.md)
 
 ### Contents
 

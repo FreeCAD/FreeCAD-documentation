@@ -1,41 +1,42 @@
 ---
-- GuiCommand:
-   Name:Std Refresh
-   MenuLocation:Edit → Refresh
-   Workbenches:All
-   Shortcut:**F5**
+- GuiCommand   */pl
+   Name   *Std Refresh
+   Name/pl   *Std   * Przelicz
+   MenuLocation   *Edycja → Odśwież
+   Workbenches   *wszystkie
+   Shortcut   ***F5**
 ---
 
 # Std Refresh/pl
 
-## Description
+## Opis
 
-The **Std Refresh** command recomputes the active document. The command is disabled if the document does not require a recompute.
+Polecenie **Std Odśwież** wykonuje ponowne przeliczenie aktywnego dokumentu. Ikonka polecenia jest nieaktywna, jeśli dokument nie wymaga ponownego obliczenia.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** button.
-    -   Select the **Edit → <img src="images/Std_Refresh.svg" width=16px> Refresh** option from the menu.
-    -   Use the keyboard shortcut: **F5**.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_Refresh.svg" width=16px> [Odśwież](Std_Refresh/pl.md)**.
+    -   Wybierz z menu opcję **Edycja → <img src="images/Std_Refresh.svg" width=16px> Odśwież**.
+    -   Użyj skrótu klawiaturowego   * **F5**.
 
-## Options
+## Opcje
 
--   To force a recompute select the document or one or more objects in the [Tree view](Tree_view.md), choose the **<img src="images/Std_MarkToRecompute.svg" width=16px> Mark to recompute** option from the context menu, and invoke the command.
--   For objects, but not for documents, you can also choose **Recompute object** from the same context menu (<small>(v0.19)</small> ).
+-   Aby wymusić przeliczenie zaznacz dokument lub jeden lub więcej obiektów w oknie [widoku drzewa](Tree_view/pl.md), wybierz z menu kontekstowego opcję **<img src="images/Std_MarkToRecompute.svg" width=16px> Zaznacz do przeliczenia** i wywołaj polecenie.
+-   Dla obiektów, ale nie dla dokumentów, można również wybrać opcję **Przelicz obiekt** z tego samego menu kontekstowego ({{Version/pl|0.19}}).
 
-## Notes
+## Uwagi
 
--   For a macro that will recompute the active document see: [Macro ForceRecompute](Macro_ForceRecompute.md).
+-   Makro, które wymusza ponownie przeliczenie aktywnego dokumentu, można znaleźć na stronie   * [Makrodefinicja   * Wymuszaj ponowne obliczenia](Macro_ForceRecompute/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To recompute a document use the `recompute` method of the document object.
+Aby ponownie przeliczyć aktywny dokument, należy użyć metody `recompute` obiektu *document*.
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Экспорт в CAD
-   Name:Part_Export‎
-   MenuLocation:Part → Экспорт в CAD ...
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Импорт CAD...](Part_Import/ru.md), [Экспортировать...](Std_Export/ru.md), [Import Export](Import_Export/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Экспорт в CAD
+   Name   *Part_Export‎
+   MenuLocation   *Part → Экспорт в CAD ...
+   Workbenches   *[Part](Part_Workbench/ru.md)
+   SeeAlso   *[Импорт CAD...](Part_Import/ru.md), [Экспортировать...](Std_Export/ru.md), [Import Export](Import_Export/ru.md)
 ---
 
 # Part Export/ru
@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Позволяет экспортировать деталь в файл формата [\*.IGES](https://ru.wikipedia.org/wiki/IGES), [(стандарт) \*.STEP](https://ru.wikipedia.org/wiki/STEP), [\*.BREP](http://en.wikipedia.org/wiki/BREP).
+Позволяет экспортировать деталь в файл формата [\*.IGES](https   *//ru.wikipedia.org/wiki/IGES), [(стандарт) \*.STEP](https   *//ru.wikipedia.org/wiki/STEP), [\*.BREP](http   *//en.wikipedia.org/wiki/BREP).
 
 
 </div>

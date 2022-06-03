@@ -1,7 +1,7 @@
 # Gui Command/ru
 <div class="mw-translate-fuzzy">
 
-GuiCommand - одна из наиболее важных функций FreeCAD при взаимодействии с пользователем. Каждый раз, когда пользователь выбирает опцию в меню или нажимает на кнопку панели инструментов, активируется GuiCommand. Некоторые из атрибутов GuiCommand:
+GuiCommand - одна из наиболее важных функций FreeCAD при взаимодействии с пользователем. Каждый раз, когда пользователь выбирает опцию в меню или нажимает на кнопку панели инструментов, активируется GuiCommand. Некоторые из атрибутов GuiCommand   *
 
 -   Задано имя
 -   Содержит иконку
@@ -19,7 +19,7 @@ GuiCommand - одна из наиболее важных функций FreeCAD 
 
 ### Назначение имен 
 
-GuiCommand именуются определенным образом: *ИмяМодуля\_ИмяКоманды* т.е. \"Base\_Open\" это команда Открыть(Open) графического интерфейса в Base (базовой системе). GuiCommand в определенном модуле получает имя имя модуля впереди, например \"Part\_Cylinder\".
+GuiCommand именуются определенным образом   * *ИмяМодуля\_ИмяКоманды* т.е. \"Base\_Open\" это команда Открыть(Open) графического интерфейса в Base (базовой системе). GuiCommand в определенном модуле получает имя имя модуля впереди, например \"Part\_Cylinder\".
 
 
 </div>
@@ -27,7 +27,7 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 <div class="mw-translate-fuzzy">
 
-Если документ не закончен (в смысле wiki статья) используйте шаблон [Template:UnfinishedDocu](Template_UnfinishedDocu.md)
+Если документ не закончен (в смысле wiki статья) используйте шаблон [Template   *UnfinishedDocu](Template_UnfinishedDocu.md)
 
 
 </div>
@@ -45,7 +45,7 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 <div class="mw-translate-fuzzy">
 
-Чтобы создать ваши собственные справочные страницы используйте шаблон: [GuiCommand model](GuiCommand_model.md)
+Чтобы создать ваши собственные справочные страницы используйте шаблон   * [GuiCommand model](GuiCommand_model.md)
 
 
 </div>
@@ -53,7 +53,7 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 <div class="mw-translate-fuzzy">
 
-Примеры:
+Примеры   *
 
 -   [Draft ShapeString](Draft_ShapeString.md)
 -   [Draft Line](Draft_Line.md)
@@ -66,7 +66,7 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 ### Иконки
 
-<img alt="" src=images/Tango-Palette.png  style="width:400px;">
+<img alt="" src=images/Tango-Palette.png  style="width   *400px;">
 
 
 </div>
@@ -74,7 +74,7 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 <div class="mw-translate-fuzzy">
 
-Каждая GuiCommand-а должна иметь иконку. Мы используем \[<http://tango.freedesktop.org/Tango_Desktop_Project>\| Tango набор иконок\] и его принципы. Справа вы можете видеть палитру цветов tango.
+Каждая GuiCommand-а должна иметь иконку. Мы используем \[<http   *//tango.freedesktop.org/Tango_Desktop_Project>\| Tango набор иконок\] и его принципы. Справа вы можете видеть палитру цветов tango.
 
 
 </div>
@@ -82,14 +82,14 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 <div class="mw-translate-fuzzy">
 
-Предпочтительней всех, иконки нарисованные в SVG , например с помощью [Inkscape](http://inkscape.org). Это упрощает добавление изменений и получение дополнительных Иконок в том же пространстве приложения.
+Предпочтительней всех, иконки нарисованные в SVG , например с помощью [Inkscape](http   *//inkscape.org). Это упрощает добавление изменений и получение дополнительных Иконок в том же пространстве приложения.
 
 
 </div>
 
 ### Диаграмма цветового кодирования иконок 
 
-<img alt="" src=images/Colorchart.png  style="width:200px;">
+<img alt="" src=images/Colorchart.png  style="width   *200px;">
 
 Мы стараемся насколько возможно следовать этой диаграмме, так что цвета иконок имеют прямое значение.
 
@@ -98,19 +98,19 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 ### Требования к качеству 
 
-Существует множество GuiCommands (Особенностей/Фишек) в FreeCAD которые являются экспериментальными или используются недолгое время для реализации целей. Эти GuiCommands в основном помещаются в инструментарии, такие как Part, Mesh или Cam. Для обеспечения хорошей работы пользователя, был создан*Полный(Complete)* инструментарий. Это инструментарий, который запускается по умолчанию при старте FreeCAD и он включает в себя все GuiCommand-ы, отвечающие **Требованиям к качеству** ,описанным здесь:
+Существует множество GuiCommands (Особенностей/Фишек) в FreeCAD которые являются экспериментальными или используются недолгое время для реализации целей. Эти GuiCommands в основном помещаются в инструментарии, такие как Part, Mesh или Cam. Для обеспечения хорошей работы пользователя, был создан*Полный(Complete)* инструментарий. Это инструментарий, который запускается по умолчанию при старте FreeCAD и он включает в себя все GuiCommand-ы, отвечающие **Требованиям к качеству** ,описанным здесь   *
 
 
 </div>
 
-There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used for a short time to test implementation of new features. These GuiCommands are mostly in the dedicated workbenches like Part, Mesh or Cam. To ensure a good user experience the workbench *Complete* was created. This workbench incorporates all GuiCommands which meet certain quality requirements which are described here:
+There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used for a short time to test implementation of new features. These GuiCommands are mostly in the dedicated workbenches like Part, Mesh or Cam. To ensure a good user experience the workbench *Complete* was created. This workbench incorporates all GuiCommands which meet certain quality requirements which are described here   *
 
 
 <div class="mw-translate-fuzzy">
 
 -   Команда/Функция должна быть **законченой**. Никаких незавершенных работ!
 -   Должен иметь **справочную страницу** как [эта](Std_ViewScreenShot.md)
-    -   Все поля [Template:GuiCommand](Template_GuiCommand.md) должны быть заполнены
+    -   Все поля [Template   *GuiCommand](Template_GuiCommand.md) должны быть заполнены
     -   Картинки с изображением диологов команды и конечный вывод
     -   детальное описание команды и всех её параметров и настроек
     -   Описание связанных python интерфесов и классов с примерами кода

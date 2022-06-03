@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch_Reference
-   Name/it:Riferimento
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch → Riferimento
-   Shortcut:
-   SeeAlso:[Parte di edificio](Arch_BuildingPart/it.md)
+- GuiCommand   */it
+   Name   *Arch_Reference
+   Name/it   *Riferimento
+   Workbenches   *[Arch](Arch_Workbench/it.md)
+   MenuLocation   *Arch → Riferimento
+   Shortcut   *
+   SeeAlso   *[Parte di edificio](Arch_BuildingPart/it.md)
 ---
 
 # Arch Reference/it
@@ -15,7 +15,7 @@
 
 ## Descrizione
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+<img alt="" src=images/Arch_reference_screenshot.png  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -48,22 +48,22 @@ Lo strumento Riferimento consente di posizionare nel documento corrente un ogget
 
 ## Proprietà
 
--    **File**: il file base su cui è costruito questo componente
+-    **File**   * il file base su cui è costruito questo componente
 
--    **Part**: la parte da utilizzare dal file di base
+-    **Part**   * la parte da utilizzare dal file di base
 
--    **Update Colors**: se è true, i colori del file collegato vengono aggiornati
+-    **Update Colors**   * se è true, i colori del file collegato vengono aggiornati
 
 ## Script
 
-Lo strumento Riferimento può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
+Lo strumento Riferimento può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   * 
 ```python
 makeReference ([file_path,object_name])
 ```
 
 crea un oggetto Riferimento dall\'oggetto dato nel file specificato.
 
-Esempio: 
+Esempio   * 
 ```python
 import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")

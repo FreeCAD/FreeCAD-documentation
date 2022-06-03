@@ -3,7 +3,7 @@
 
 ## Введение
 
-Чтобы получить доступ к модулю `Mesh`, вы должны сначала импортировать его:
+Чтобы получить доступ к модулю `Mesh`, вы должны сначала импортировать его   *
 
 
 ```python
@@ -12,21 +12,21 @@ import Mesh
 
 ## Создание
 
-Чтобы создать пустой объект сетки, просто используйте стандартный конструктор:
+Чтобы создать пустой объект сетки, просто используйте стандартный конструктор   *
 
 
 ```python
 mesh = Mesh.Mesh()
 ```
 
-Вы также можете создать объект из файла:
+Вы также можете создать объект из файла   *
 
 
 ```python
-mesh = Mesh.Mesh("D:/temp/Something.stl")
+mesh = Mesh.Mesh("D   */temp/Something.stl")
 ```
 
-Или создайте его из множества треугольников, задав их вершины:
+Или создайте его из множества треугольников, задав их вершины   *
 
 
 ```python
@@ -44,7 +44,7 @@ Mesh.show(meshObject)
 
 ## Моделирование
 
-Для создания правильной геометрии вы можете использовать один из методов `create*()`. Например, тор можно создать следующим образом:
+Для создания правильной геометрии вы можете использовать один из методов `create*()`. Например, тор можно создать следующим образом   *
 
 
 ```python
@@ -54,7 +54,7 @@ Mesh.show(m)
 
 Первые два параметра определяют радиусы тороида, а третий параметр - фактор подвыборки, как много треугольников будет создано. Чем выше это значение, тем сглаженней тело.
 
-Модуль `Mesh` также предоставляет три булевых метода: `union()`, `intersection()` и `difference()`:
+Модуль `Mesh` также предоставляет три булевых метода   * `union()`, `intersection()` и `difference()`   *
 
 
 ```python
@@ -69,7 +69,7 @@ m6 = Mesh.Mesh(m2)
 m6.difference(m1)   # the difference of m2 and m1, usually the result is different to m5
 ```
 
-Вот пример, который создает трубку, используя метод `difference()`:
+Вот пример, который создает трубку, используя метод `difference()`   *
 
 
 ```python
@@ -81,7 +81,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh::Feature", "Pipe")
+obj = d.addObject("Mesh   *   *Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -91,9 +91,11 @@ doc.recompute()
 
 ## Примечания
 
-Широко применяемый, хотя и трудный в использовании, источник скриптов обработки полигональных сеток - это тестовые скрипты в модуле `Mesh`. В этих тестах модуля буквально все методы вызываются и все свойства/атрибуты перебираются. Так что если вы достаточно смелы, взгляните на [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+Широко применяемый, хотя и трудный в использовании, источник скриптов обработки полигональных сеток - это тестовые скрипты в модуле `Mesh`. В этих тестах модуля буквально все методы вызываются и все свойства/атрибуты перебираются. Так что если вы достаточно смелы, взгляните на [Unit Test module](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Смотрите так же: [Mesh API](Mesh_API/ru.md). {{Top}}  {{Mesh Tools navi}}
+Смотрите так же   * [Mesh API](Mesh_API/ru.md). {{Top}}  {{Mesh Tools navi}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

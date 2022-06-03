@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Arch Pipe
-   Name/it:Tubo
-   MenuLocation:Arch → Tubazioni → Tubo
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**P** **I**
-   Version/it:0.17
-   SeeAlso:[Raccordo](Arch_PipeConnector/it.md), [Arredo](Arch_Equipment/it.md)
+- GuiCommand   */it
+   Name   *Arch Pipe
+   Name/it   *Tubo
+   MenuLocation   *Arch → Tubazioni → Tubo
+   Workbenches   *[Arch](Arch_Workbench/it.md)
+   Shortcut   ***P** **I**
+   Version/it   *0.17
+   SeeAlso   *[Raccordo](Arch_PipeConnector/it.md), [Arredo](Arch_Equipment/it.md)
 ---
 
 # Arch Pipe/it
@@ -21,7 +21,7 @@ Questo strumento permette di creare delle tubazioni partendo da zero, o dagli og
 ## Utilizzo
 
 1.  Facoltativamente, selezionare una forma [Part](Part_Workbench/it.md) lineare come una [Linea](Draft_Line/it.md), una [Wire](Draft_Wire/it.md) o uno [Schizzo](Sketcher_NewSketch/it.md) aperto.
-2.  Richiamare questo comando utilizzando uno di questi metodi:
+2.  Richiamare questo comando utilizzando uno di questi metodi   *
     -   Premere il pulsante **<img src="images/Arch_Pipe.svg" width=16px> [Tubo](Arch_Pipe/it.md)** nella barra degli strumenti.
     -   Premere i tasti **P** e poi **I** da tastiera.
     -   Usare la voce **Arch → Strumenti tubazioni → Tubo** del menu principale.
@@ -32,13 +32,13 @@ Questo strumento permette di creare delle tubazioni partendo da zero, o dagli og
 
 ## Proprietà
 
--    {{PropertyData/it|Length}}: Imposta la lunghezza del tubo, quando non si basa su una polilinea
+-    {{PropertyData/it|Length}}   * Imposta la lunghezza del tubo, quando non si basa su una polilinea
 
--    {{PropertyData/it|Diameter}}: Il diametro del tubo, quando non si basa su un profilo
+-    {{PropertyData/it|Diameter}}   * Il diametro del tubo, quando non si basa su un profilo
 
--    {{PropertyData/it|Base}}: L\'eventuale polilinea su cui si basa il tubo
+-    {{PropertyData/it|Base}}   * L\'eventuale polilinea su cui si basa il tubo
 
--    {{PropertyData/it|Profile}}: Il profilo di base del tubo. Se non è dato, il tubo è di forma cilindrica.
+-    {{PropertyData/it|Profile}}   * Il profilo di base del tubo. Se non è dato, il tubo è di forma cilindrica.
 
 ## Flusso di lavoro tipico 
 
@@ -49,7 +49,7 @@ Questo strumento permette di creare delle tubazioni partendo da zero, o dagli og
 
 <div class="mw-translate-fuzzy">
 
--   Gli oggetti Arch Equipment ora hanno una nuova proprietà **SnapPoints**, che è una lista di vettori 3D. Questo consente di aggiungere dei punti di aggancio personalizzati, a cui è possibile ancorarsi quando il nuovo tasto snap [Speciale](Draft_Snap_Special/it.md) è attivo. Attualmente però la proprietà è disponibile solo per python. Nel caso sopra è stato aggiunto un nuovo punto di snap all\'uscita dell\'apparecchio wc. I vettori all\'interno di SnapPoints appaiono sul modello come puntini bianchi:
+-   Gli oggetti Arch Equipment ora hanno una nuova proprietà **SnapPoints**, che è una lista di vettori 3D. Questo consente di aggiungere dei punti di aggancio personalizzati, a cui è possibile ancorarsi quando il nuovo tasto snap [Speciale](Draft_Snap_Special/it.md) è attivo. Attualmente però la proprietà è disponibile solo per python. Nel caso sopra è stato aggiunto un nuovo punto di snap all\'uscita dell\'apparecchio wc. I vettori all\'interno di SnapPoints appaiono sul modello come puntini bianchi   *
 
 
 </div>
@@ -61,14 +61,14 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 <div class="mw-translate-fuzzy">
 
--   Con il nuovo \"Snap Speciale\" di Draft è possibile agganciarsi a questi punti personalizzati:
+-   Con il nuovo \"Snap Speciale\" di Draft è possibile agganciarsi a questi punti personalizzati   *
 
 
 </div>
 
 ![](images/Arch_pipe_example_03.jpg )
 
--   Ora è possibile disegnare le tubazioni con Linee e Polilineee di Draft, o con Schizzi. Comunque, il modo migliore è quello di usare solo Linee di Draft:
+-   Ora è possibile disegnare le tubazioni con Linee e Polilineee di Draft, o con Schizzi. Comunque, il modo migliore è quello di usare solo Linee di Draft   *
 
 ![](images/Arch_pipe_example_04.jpg )
 
@@ -80,7 +80,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_06.jpg )
 
--   Ora si possono creare le connessioni selezionando 2 o 3 tubi coincidenti, e premendo il tasto [Raccordo](Arch_PipeConnector/it.md). Se sono selezionati 3 tubi, due di essi devono essere allineati per creare un elemento tee o braga:
+-   Ora si possono creare le connessioni selezionando 2 o 3 tubi coincidenti, e premendo il tasto [Raccordo](Arch_PipeConnector/it.md). Se sono selezionati 3 tubi, due di essi devono essere allineati per creare un elemento tee o braga   *
 
 ![](images/Arch_pipe_example_07.jpg )
 
@@ -91,11 +91,11 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Tubo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
+Lo strumento Tubo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   * 
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```

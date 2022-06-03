@@ -1,6 +1,6 @@
 # Std SaveAs/ro
 ---
-- GuiCommand:/ro   Name:Std SaveAs   Name/ro:Std SaveAs   MenuLocation:[Workbenches:All   Shortcut:Maius+Crtl+S   SeeAlso:[[Std_Save/ro|Save](Std_File_Menu/ro___File]]_→_Save_as....md)---
+- GuiCommand   */ro   Name   *Std SaveAs   Name/ro   *Std SaveAs   MenuLocation   *[Workbenches   *All   Shortcut   *Maius+Crtl+S   SeeAlso   *[[Std_Save/ro|Save](Std_File_Menu/ro___File]]_→_Save_as....md)---
 
 
 </div>
@@ -26,9 +26,9 @@ Alegeți ** File** → **<img src="images/Std_SaveAs.png" width=32px> Save As...
 
 Comanda **Save as...** permite salvarea documentului activ din proiectul în curs.
 
-Deschideți o fereastră pentru a defini **path** și **name**: ![](images/FileSaveAs.png )  Salvați documentele de proiect în fișiere separate. Dacă există alte documente în proiect, acestea nu sunt salvate. Numele atribuit documentului pentru ao salva devine și numele folosit pentru rădăcina acelui document din arborele copacului. În salvările ulterioare, dacă se efectuează cu.**Save**, calea și numele definite pentru prima salvare sunt utilizate automat. Pentru a salva fișierul într-o altă locație sau pentru a-i da un nume nou, trebuie să reutilizați comanda **Save as...**.
+Deschideți o fereastră pentru a defini **path** și **name**   * ![](images/FileSaveAs.png )  Salvați documentele de proiect în fișiere separate. Dacă există alte documente în proiect, acestea nu sunt salvate. Numele atribuit documentului pentru ao salva devine și numele folosit pentru rădăcina acelui document din arborele copacului. În salvările ulterioare, dacă se efectuează cu.**Save**, calea și numele definite pentru prima salvare sunt utilizate automat. Pentru a salva fișierul într-o altă locație sau pentru a-i da un nume nou, trebuie să reutilizați comanda **Save as...**.
 
-Când încercați să închideți un document care nu a fost salvat, modificat sau ieșit din FreeCAD cu documentele pe care doriți să le salvați, primiți o alertă: ![](images/UnsavedDocument.png ) 
+Când încercați să închideți un document care nu a fost salvat, modificat sau ieșit din FreeCAD cu documentele pe care doriți să le salvați, primiți o alertă   * ![](images/UnsavedDocument.png ) 
 
 Folderul/dosarul de destinație al fișierelor salvate poate fi, de asemenea, definit în fila [Std DlgParameter](Std_DlgParameter/ro.md) din meniul **Strumenti → Modifica parametri\... → BaseApp → Preferences → General → FileOpenSavePath**.
 ![](images/FileOpenSavePath.png ) 
@@ -52,12 +52,12 @@ Mai multe opțiuni pot fi găsite în meniu **Modifica → Preferenze → Genera
 
 ## Preferences
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

@@ -1,105 +1,105 @@
 # PartDesign Preferences/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
-The <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) and the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) use the same preferences. They can be found in the <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part design** section of the [Preferences editor](Preferences_Editor.md). This section will only be available if one of the workbenches has been loaded in the current FreeCAD session.
+Środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Projekt części](PartDesign_Workbench/pl.md) i <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Część](Part_Workbench/pl.md) używają tych samych preferencji. Można je znaleźć w <img alt="" src=images/Preferences-part_design.svg  style="width   *24px;"> sekcji [Edytora ustawień](Preferences_Editor/pl.md) **Projekt Części**. Sekcja ta będzie dostępna tylko wtedy, gdy w bieżącej sesji programu FreeCAD załadowano jedno z tych środowisk pracy.
 
-## Available preferences 
+## Dostępne ustawienia 
 
-There are three tabs: General, Shape view, and Shape appearance.
+Dostępne są trzy zakładki   * Ogólne, Widok kształtu i Wygląd kształtu.
 
-### General
+### Ogólne
 
-On the *General* tab you can specify the following:
+W zakładce **Ogólne** można zdefiniować następujące parametry   *
 
 +++
-| Name                                                                    | Description                                                                                                                                                                                                            |
-+=========================================================================+========================================================================================================================================================================================================================+
-|                                                          | If checked, the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md) |
-| **Automatically check model after boolean operation**       |                                                                                                                                                                                                                        |
-|                                                                      |                                                                                                                                                                                                                        |
+| Nazwa                                                                                  | Opis                                                                                                                                                                                                                                     |
++========================================================================================+==========================================================================================================================================================================================================================================+
+|                                                                         | Jeśli opcja jest zaznaczona, [reprezentacja granicy](https   *//en.wikipedia.org/wiki/Boundary_representation) *(BRep)* modelu jest [weryfikowana](Part_CheckGeometry/pl.md) po [operacjach logicznych](Part_Boolean/pl.md) |
+| **Automatycznie sprawdź model po zakończeniu operacji logicznej**          |                                                                                                                                                                                                                                          |
+|                                                                                     |                                                                                                                                                                                                                                          |
 +++
-|                                                          | If checked, the model is [refined](Part_RefineShape.md) after [boolean operations](Part_Boolean.md)                                                                                                    |
-| **Automatically refine model after boolean operation**      |                                                                                                                                                                                                                        |
-|                                                                      |                                                                                                                                                                                                                        |
+|                                                                         | Jeśli opcja jest zaznaczona, model zostanie [udoskonalony](Part_RefineShape/pl.md) po zakończeniu [operacji logicznej](Part_Boolean/pl.md)                                                                               |
+| **Automatycznie udoskonal model po wykonaniu operacji logicznej.**         |                                                                                                                                                                                                                                          |
+|                                                                                     |                                                                                                                                                                                                                                          |
 +++
-|                                                          | If checked, the model is [refined](Part_RefineShape.md) after changes to source sketches of objects                                                                                                            |
-| **Automatically refine model after sketch-based operation** |                                                                                                                                                                                                                        |
-|                                                                      |                                                                                                                                                                                                                        |
+|                                                                         | Jeśli opcja jest zaznaczona, model zostanie [udoskonalony](Part_RefineShape/pl.md) po wprowadzeniu zmian do źródłowych szkiców obiektów.                                                                                         |
+| **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu.** |                                                                                                                                                                                                                                          |
+|                                                                                     |                                                                                                                                                                                                                                          |
 +++
 
 ![](images/Preferences_Part_design_Tab_General.png )
 
-### Shape view 
+### Widok kształtu 
 
-On the *Shape view* tab you can specify the following:
+W zakładce *Widok kształtu* można zdefiniować następujące parametry   *
 
 +++
-| Name                                                                  | Description                                                                                                                                                                                                                     |
-+=======================================================================+=================================================================================================================================================================================================================================+
-|                                                        | Maximum [linear deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface            |
-| **Maximum deviation depending on the model bounding box** |                                                                                                                                                                                                                                 |
-|                                                                    |                                                                                                                                                                                                                                 |
+| Nazwa                                                                                | Opis                                                                                                                                                                                                                                 |
++======================================================================================+======================================================================================================================================================================================================================================+
+|                                                                       | Maksymalne [odchylenie liniowe](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) [teselowanych](#Tesselacja.md) obiektów od ich powierzchni.                 |
+| **Maksymalne dopuszczalne odchylenie w zależności od ramki otaczającej** |                                                                                                                                                                                                                                      |
+|                                                                                   |                                                                                                                                                                                                                                      |
 +++
-|                                                        | Maximum [angular deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section |
-| **Maximum angular deflection**                            |                                                                                                                                                                                                                                 |
-|                                                                    |                                                                                                                                                                                                                                 |
+|                                                                       | Maksymalne [odchylenie kątowe](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) od jednej sekcji [teselowanego](#Tesselacja.md) obiektu do następnej sekcji. |
+| **Maksymalne odchylenie kątowe**                                         |                                                                                                                                                                                                                                      |
+|                                                                                   |                                                                                                                                                                                                                                      |
 +++
 
 ![](images/Preferences_Part_design_Tab_Shape_view.png )
 
-### Shape appearance 
+### Wygląd kształtu 
 
-On the *Shape appearance* tab you can specify the following:
+W zakładce *Wygląd kształtu* można zdefiniować następujące parametry   *
 
 +++
-| Name                               | Description                                                                                                                                                                                                               |
-+====================================+===========================================================================================================================================================================================================================+
-|                     | Color for new shapes. If the option **Random** is set, a random color is used instead.                                                                                                          |
-| **Shape color**        |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+| Nazwa                                   | Opis                                                                                                                                                                                                                                                                   |
++=========================================+========================================================================================================================================================================================================================================================================+
+|                          | Barwa dla nowych kształtów. Jeśli aktywna jest opcja **Losowy**, wówczas stosowany jest losowy kolor.                                                                                                                                        |
+| **Kolor kształtu**          |                                                                                                                                                                                                                                                                        |
+|                                      |                                                                                                                                                                                                                                                                        |
 +++
-|                     | Line color for new shapes                                                                                                                                                                                                 |
-| **Line color**         |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                          | Barwa linii dla nowych kształtów                                                                                                                                                                                                                                       |
+| **Kolor linii**             |                                                                                                                                                                                                                                                                        |
+|                                      |                                                                                                                                                                                                                                                                        |
 +++
-|                     | Line thickness for new shapes                                                                                                                                                                                             |
-| **Line width**         |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                          | Grubość linii dla nowych kształtów                                                                                                                                                                                                                                     |
+| **Szerokość linii**         |                                                                                                                                                                                                                                                                        |
+|                                      |                                                                                                                                                                                                                                                                        |
 +++
-|                     | Color for new [vertices](Glossary#Vertex.md)                                                                                                                                                                      |
-| **Vertex color**       |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                          | Barwa nadawana nowym [wierzchołkom](Glossary/pl#V.md)                                                                                                                                                                                                          |
+| **Kolor wierzchołka**       |                                                                                                                                                                                                                                                                        |
+|                                      |                                                                                                                                                                                                                                                                        |
 +++
-|                     | Size for new [vertices](Glossary#Vertex.md)                                                                                                                                                                       |
-| **Vertex size**        |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                          | Rozmiar nadawany nowym [wierzchołkom](Glossary/pl#V.md)                                                                                                                                                                                                        |
+| **Rozmiar wierzchołka**     |                                                                                                                                                                                                                                                                        |
+|                                      |                                                                                                                                                                                                                                                                        |
 +++
-|                     | Color of [bounding boxes](Property_editor#View.md) in the 3D view                                                                                                                                                 |
-| **Bounding box color** |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                          | Barwa [ramki otaczającej](Property_editor/pl#Widok.md) w oknie widoku 3D                                                                                                                                                                                       |
+| **Kolor ramki otaczającej** |                                                                                                                                                                                                                                                                        |
+|                                      |                                                                                                                                                                                                                                                                        |
 +++
-|                     | If checked, the color of the interior side of faces will be the same as the exterior side. If not checked either the [backlight color](Preferences_Editor#3D_View.md), if enabled, or black will be used instead. |
-| **Two-side rendering** |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                          | IJeśli opcja jest zaznaczona, barwa wewnętrznej strony powierzchni będzie taka sama jak zewnętrznej. Jeśli nie jest zaznaczona, będzie używany [kolor podświetlenia](Preferences_Editor/pl#Widok_3D.md), jeśli jest włączony, lub będzie używany kolor czarny. |
+| **Rendering dwustronny**    |                                                                                                                                                                                                                                                                        |
+|                                      |                                                                                                                                                                                                                                                                        |
 +++
-|                     | Text color for document annotations. There is currently no dialog to add annotations to documents. Annotations can only be added using the Python console with this command:                                              |
-| **Text color**         |                                                                                                                                                                                                                           |
-|                                 | obj=App.ActiveDocument.addObject("App::Annotation", "Label")                                                                                                                                                            |
-|                                    |                                                                                                                                                                                                                           |
-|                                    | This console is shown using the menu **View → Panels → Python console**.                                                                                                                        |
+|                          | Kolor tekstu w adnotacjach na dokumentach. Obecnie nie ma okna dialogowego umożliwiającego dodawanie adnotacji do dokumentów. Adnotacje można dodawać wyłącznie za pomocą poleceń w konsoli Python   *                                                                    |
+| **Kolor tekstu**            |                                                                                                                                                                                                                                                                        |
+|                                      | obj=App.ActiveDocument.addObject("App   *   *Annotation", "Label")                                                                                                                                                                                                         |
+|                                         |                                                                                                                                                                                                                                                                        |
+|                                         | Konsole można aktywować w menu **Widok → Panele → konsola Python**.                                                                                                                                                                          |
 +++
 
 ![](images/Preferences_Part_design_Tab_Shape_appearance.png )
 
-## Tesselation
+## Tesselacja
 
-In order to display an object efficiently its surface is [tesselated](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), i.e. it is displayed with some small deviations from it real surface. This applies not only to PartDesign models, but also to other objects in FreeCAD.
+W celu efektywnego wyświetlania obiektu jego powierzchnia jest [tesselowana](https   *//en.wikipedia.org/wiki/Tessellation_(computer_graphics)), tzn. jest wyświetlana z pewnymi niewielkimi odchyleniami od jego rzeczywistej powierzchni. Dotyczy to nie tylko modeli środowiska Projekt Części, ale także innych obiektów w programie FreeCAD.
 
-There is a lower limit for the tesselation of 0.01%. If you really want to spend the additional time you can reduce the lower limit even further by opening the menu **Tools → Edit parameters...** This opens the parameter editor where you navigate to **BaseApp → Preferences → Mod → Part**.
+Dolna granica teselacji wynosi 0,01%. Jeśli naprawdę chcesz poświęcić dodatkowy czas, możesz jeszcze bardziej zmniejszyć dolną granicę, otwierając menu **Przybory → Edycja parametrów ...**. Otworzy to edytor parametrów, gdzie przechodzimy do **BaseApp → Preferences → Mod → Part**.
 
-Right click on **Mesh deviation** choose in the context menu **Change value**. Set the value to the minimum tesselation of your choice. Please keep in mind that the value is in %, i.e. for a value of 0.005% you have to enter \"0.00005\". The smallest value possible is 1e-7. **Note:** In the preferences menu you will still see 0.01% even if you set a lower value.
+Kliknij prawym przyciskiem myszy na pozycji **Mesh deviation** i wybierz z menu kontekstowego **Zmień wartość elementu**. Ustaw wartość na wybraną minimalną teselację. Należy pamiętać, że wartość podawana jest w %, tzn. dla wartości 0,005% należy wpisać \"0,00005\". Najmniejsza możliwa wartość to 1e-7. **Uwaga   *** W menu preferencji nadal będzie widoczna wartość 0,01%, nawet jeśli ustawisz niższą wartość.
 
 
 
@@ -107,7 +107,9 @@ Right click on **Mesh deviation** choose in the context menu **Change value**. S
 
 {{PartDesign Tools navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

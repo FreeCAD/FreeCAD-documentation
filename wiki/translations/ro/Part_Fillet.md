@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Part Fillet
-   Name/ro:Part Fillet
-   MenuLocation:Part → Fillet
-   Workbenches:[Part](Part_Workbench/ro.md), Complete
-   SeeAlso:[Part Chamfer](Part_Chamfer/ro.md)
+- GuiCommand   */ro
+   Name   *Part Fillet
+   Name/ro   *Part Fillet
+   MenuLocation   *Part → Fillet
+   Workbenches   *[Part](Part_Workbench/ro.md), Complete
+   SeeAlso   *[Part Chamfer](Part_Chamfer/ro.md)
 ---
 
 # Part Fillet/ro
@@ -63,7 +63,7 @@ There is another fillet tool in the PartDesign workbench. Please note that their
 
 ### Notes on application of Part Fillet 
 
-The fillet tool sometimes fails when trying to fillet complex objects. A common cause of this may be that the shape being filleted is not geometrically correct. This may be the result of lines/planes etc not being removed after previous operations used to construct the shape ( e.g. Cut/Intersection/Fusion). A number of steps can be used to minimize problems:
+The fillet tool sometimes fails when trying to fillet complex objects. A common cause of this may be that the shape being filleted is not geometrically correct. This may be the result of lines/planes etc not being removed after previous operations used to construct the shape ( e.g. Cut/Intersection/Fusion). A number of steps can be used to minimize problems   *
 
 -   Where possible leave filleting a part until the part is completely generated. This will minimize interaction of fillets with subsequent Boolean operations;
 -   Use the Part → Check Geometry to check for any errors in the shape geometry and correct;
@@ -73,7 +73,7 @@ The fillet tool sometimes fails when trying to fillet complex objects. A common 
 
 </div>
 
-The fillet tool sometimes fails when trying to fillet complex shapes. A common cause of this may be that the shape being filleted is not geometrically correct. This may be the result of lines/planes etc not being removed after previous operations used to construct the shape ( e.g. Cut/Intersection/Fusion). A number of steps can be used to minimize problems:
+The fillet tool sometimes fails when trying to fillet complex shapes. A common cause of this may be that the shape being filleted is not geometrically correct. This may be the result of lines/planes etc not being removed after previous operations used to construct the shape ( e.g. Cut/Intersection/Fusion). A number of steps can be used to minimize problems   *
 
 -   Where possible leave filleting a part until the part is completely generated. This will minimize interaction of fillets with subsequent Boolean operations;
 -   Use the **Part → Check Geometry** to check for any errors in the shape geometry and correct;

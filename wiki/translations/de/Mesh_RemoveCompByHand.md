@@ -1,11 +1,11 @@
 # Mesh RemoveCompByHand/de
 ---
-- GuiCommand:/de
-   Name:Mesh RemoveCompByHand   Name/de:Netze Komponente von Hand entfernen‏‎
-   MenuLocation:Netze → Komponenten von Hand entfernen...
-   Workbenches:[Netze](Mesh_Workbench/de.md)
-   Shortcut:
-   SeeAlso:---
+- GuiCommand   */de
+   Name   *Mesh RemoveCompByHand   Name/de   *Netze Komponente von Hand entfernen‏‎
+   MenuLocation   *Netze → Komponenten von Hand entfernen...
+   Workbenches   *[Netze](Mesh_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *---
 
 
 </div>

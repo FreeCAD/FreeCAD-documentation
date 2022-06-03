@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Std SaveAs
-   MenuLocation:File → Save As...
-   Workbenches:All
-   SeeAlso:[Std SaveCopy](Std_SaveCopy.md), [Std Save](Std_Save.md)
+- GuiCommand   *
+   Name   *Std SaveAs
+   MenuLocation   *File → Save As...
+   Workbenches   *All
+   SeeAlso   *[Std SaveCopy](Std_SaveCopy.md), [Std Save](Std_Save.md)
 ---
 
 # Std SaveAs/en
@@ -28,12 +28,12 @@ The **Std SaveAs** command saves the active document under a new file name.
 
 ## Preferences
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std TextDocument
-   MenuLocation:Tools → Add text document
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
+- GuiCommand   *
+   Name   *Std TextDocument
+   MenuLocation   *Tools → Add text document
+   Workbenches   *All
+   Version   *0.19
+   SeeAlso   *[Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
 ---
 
 # Std TextDocument/de
@@ -51,13 +51,13 @@
 
 {{TitleProperty|Editor}}
 
--    **Font Name|Font**: a font name, for example, {{Value|Ubuntu Mono}}.
+-    **Font Name|Font**   * a font name, for example, {{Value|Ubuntu Mono}}.
 
--    **Font Size|Float**: a font size in points, for example, {{Value|11}}.
+-    **Font Size|Float**   * a font size in points, for example, {{Value|11}}.
 
--    **Read Only|Bool**: it defaults to `False`. If set to `True` the text cannot be edited.
+-    **Read Only|Bool**   * it defaults to `False`. If set to `True` the text cannot be edited.
 
--    **Syntax Highlighter|Enumeration**: it defaults to {{Value|None}}. If set to {{Value|Python}}, the text will be highlighted like the [Python console](Python_console.md).
+-    **Syntax Highlighter|Enumeration**   * it defaults to {{Value|None}}. If set to {{Value|Python}}, the text will be highlighted like the [Python console](Python_console.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -68,7 +68,7 @@
 </div>
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md), und [skriptgesteuerte Objekte](scripted_objects/de.md).
 
@@ -77,7 +77,7 @@ Siehe [Part Funktionen](Part_Feature/de.md) für allgemeine Informationen zum Hi
 
 <div class="mw-translate-fuzzy">
 
-Ein `App::TextDocument` Objekt wird mit der `addObject()` Methode des Dokuments erstellt. Sobald ein TextDokument existiert, werden seine Textinformationen in seinem Attribut `Text` gespeichert. Dieses Attribut kann in anderen Objekten verwendet werden, z.B. als Zeichenkette in einem [Entwurf FormBand](Draft_ShapeString/de.md).
+Ein `App   *   *TextDocument` Objekt wird mit der `addObject()` Methode des Dokuments erstellt. Sobald ein TextDokument existiert, werden seine Textinformationen in seinem Attribut `Text` gespeichert. Dieses Attribut kann in anderen Objekten verwendet werden, z.B. als Zeichenkette in einem [Entwurf FormBand](Draft_ShapeString/de.md).
 
 
 </div>
@@ -88,7 +88,7 @@ import FreeCAD as App
 import Draft
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::TextDocument", "Text_document")
+obj = App.ActiveDocument.addObject("App   *   *TextDocument", "Text_document")
 obj.Text = "textual information"
 App.ActiveDocument.recompute()
 

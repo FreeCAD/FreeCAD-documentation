@@ -1,6 +1,8 @@
 # Category:Developer Documentation/pt
 This category gathers documentation article mostly aimed at programmers
 
+[Category   *Documentation/pt](Category   *Documentation/pt.md)
+
 ### Contents
 
 |     |     |     |

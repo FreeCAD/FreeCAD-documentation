@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:PartDesign Point
-   Name/fr:PartDesign Point de référence
-   MenuLocation:Part Design → Créez une référence → Créer un point de référence
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Droite de référence](PartDesign_Line/fr.md), [PartDesign Plan de référence](PartDesign_Plane/fr.md)
+- GuiCommand   */fr
+   Name   *PartDesign Point
+   Name/fr   *PartDesign Point de référence
+   MenuLocation   *Part Design → Créez une référence → Créer un point de référence
+   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
+   Version   *0.17
+   SeeAlso   *[PartDesign Droite de référence](PartDesign_Line/fr.md), [PartDesign Plan de référence](PartDesign_Plane/fr.md)
 ---
 
 # PartDesign Point/fr
@@ -33,11 +33,11 @@ Double-cliquez sur l\'étiquette Point de référence dans l\'arborescence du mo
 
 ## Propriétés
 
--    **MapMode**: répertorie le mode d\'ancrage utilisé.
+-    **MapMode**   * répertorie le mode d\'ancrage utilisé.
 
--    **Attachment Offset**: applique une transformation (translation et rotation) en référence au placement de l\'ancrage.
+-    **Attachment Offset**   * applique une transformation (translation et rotation) en référence au placement de l\'ancrage.
 
--    **Label**: nom donné à l\'objet, ce nom peut être changé à la convenance.
+-    **Label**   * nom donné à l\'objet, ce nom peut être changé à la convenance.
 
 ## Limitations
 

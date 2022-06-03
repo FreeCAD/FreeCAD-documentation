@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/tr
-   Name/tr:Yüzeyden
-   Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation:CNC G-Kodu → Yüzeyden
+- GuiCommand   */tr
+   Name/tr   *Yüzeyden
+   Workbenches   *[CNC G-Kodu](Path_Workbench/tr.md)
+   MenuLocation   *CNC G-Kodu → Yüzeyden
 |Shortcut
-   SeeAlso:
+   SeeAlso   *
 ---
 
 # Path MillFace/tr
@@ -13,19 +13,19 @@
 </div>
 
 ---
-- GuiCommand:/tr
-   Name/tr:Yüzeyden
-   Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation:CNC G-Kodu → Yüzeyden
+- GuiCommand   */tr
+   Name/tr   *Yüzeyden
+   Workbenches   *[CNC G-Kodu](Path_Workbench/tr.md)
+   MenuLocation   *CNC G-Kodu → Yüzeyden
 |Shortcut
-   SeeAlso:
+   SeeAlso   *
 ---
 
 # Path MillFace/tr
 
 ## Description
 
-The <img alt="" src=images/Path_MillFace.svg  style="width:24px;"> [Mill Face](Path_MillFace.md) tool creates a path to perform a facing operation on a horizontal surface. This operation is generally used:
+The <img alt="" src=images/Path_MillFace.svg  style="width   *24px;"> [Mill Face](Path_MillFace.md) tool creates a path to perform a facing operation on a horizontal surface. This operation is generally used   *
 
 -   to smooth out a rough stock surface,
 -   to mill selected face(s) to desired depth in preparation for performing subsequent clearing operations within the boundary of the regions affected by this operation,
@@ -33,12 +33,12 @@ The <img alt="" src=images/Path_MillFace.svg  style="width:24px;"> [Mill Face](P
 
 This operation contains a **BoundaryShape** property that allows for a modified selection area based upon the selected face(s).
 
-<img alt="Sample image of Mill Face operation used to prepare stock surface for subsequent clearing operation." src=images/MillFace_Sample.png  style="width:600px;">
+<img alt="Sample image of Mill Face operation used to prepare stock surface for subsequent clearing operation." src=images/MillFace_Sample.png  style="width   *600px;">
 
 ## Usage
 
-1.  Select one or more faces to be surfaced. **Note:** If selected faces exist at different heights, then all will be milled to the Final Depth setting.
-2.  There are several ways to invoke the command:
+1.  Select one or more faces to be surfaced. **Note   *** If selected faces exist at different heights, then all will be milled to the Final Depth setting.
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Path_MillFace.svg" width=16px> [Path MillFace](Path_MillFace.md)** button.
     -   Select the **Path → <img src="images/Path_MillFace.svg" width=16px> Face** option from the menu.
 3.  Select the correct **BoundaryShape** setting to modify the milling area based on the face(s) selected as **Base Geometry**.
@@ -46,7 +46,7 @@ This operation contains a **BoundaryShape** property that allows for a modified 
 
 ## Caveats
 
--   Using it on an inclined plane may produce unexpected results: it will still produce a path to cut a horizontal surface. The extent of the cut will be the vertical projection of the inclined plane, performed at a height corresponding to the lowest point in that plane.
+-   Using it on an inclined plane may produce unexpected results   * it will still produce a path to cut a horizontal surface. The extent of the cut will be the vertical projection of the inclined plane, performed at a height corresponding to the lowest point in that plane.
 
 -   Since the path tools work on the geometry of the selected edges/faces only, and do not relate to the rest of the 3D model, the paths will not go beyond the bounds of the chosen plane, even if it is surrounded by unused stock or air. This will leave unmachined corners. These can sometimes removed with one of the dress-up tools to be found on the *Path* menu.
 
@@ -61,160 +61,160 @@ Empty
 
 ## Properties
 
-\'\'\' *Note* \'\'\': The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
+\'\'\' *Note* \'\'\'   * The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
 
 ### Data
 
 
 {{TitleProperty|Base}}
 
-Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
+Note   * It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
--    **Placement**: Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
+-    **Placement**   * Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
 
     -   
         **Angle**
         
-        : Angle in degrees applied to rotation of the object around Axis property value
+           * Angle in degrees applied to rotation of the object around Axis property value
 
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+           * Axis(one or multiple) around which to rotate the object, set in sub-properties   * x, y, z
 
         -   
             **X**
             
-            : x axis value
+               * x axis value
 
         -   
             **Y**
             
-            : y axis value
+               * y axis value
 
         -   
             **Z**
             
-            : z axis value
+               * z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+           * Position of the object, set in sub-properties   * x, y, z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+               * x distance value
 
         -   
             **Y**
             
-            : y distance value
+               * y distance value
 
         -   
             **Z**
             
-            : z distance value
+               * z distance value
 
--    **Label**: User-provided name of the object (UTF-8)
+-    **Label**   * User-provided name of the object (UTF-8)
 
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**: The height needed to clear clamps and obstructions
+-    **Clearance Height**   * The height needed to clear clamps and obstructions
 
--    **Final Depth**: Final Depth of Tool- lowest value in Z
+-    **Final Depth**   * Final Depth of Tool- lowest value in Z
 
--    **Finish Depth**: Maximum material removed on final pass.
+-    **Finish Depth**   * Maximum material removed on final pass.
 
--    **Safe Height**: The above which Rapid motions are allowed.
+-    **Safe Height**   * The above which Rapid motions are allowed.
 
--    **Start Depth**: Starting Depth of Tool- first cut depth in Z
+-    **Start Depth**   * Starting Depth of Tool- first cut depth in Z
 
--    **Step Down**: Incremental Step Down of Tool
+-    **Step Down**   * Incremental Step Down of Tool
 
 
 {{TitleProperty|Face}}
 
--    **BoundaryShape**: Shape to use for calculating Boundary
+-    **BoundaryShape**   * Shape to use for calculating Boundary
 
--    **ClearEdges**: Clear edges of surface (Only applicable to BoundBox)
+-    **ClearEdges**   * Clear edges of surface (Only applicable to BoundBox)
 
--    **ExcludeRaisedAreas**: Exclude milling raised areas inside the face.
+-    **ExcludeRaisedAreas**   * Exclude milling raised areas inside the face.
 
--    **Offset Pattern**: Clearing pattern to use. (Select in which manner the horizontal movements should be done.)
+-    **Offset Pattern**   * Clearing pattern to use. (Select in which manner the horizontal movements should be done.)
 
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**   * make False, to prevent operation from generating code
 
--    **Base**: The base geometry for this operation
+-    **Base**   * The base geometry for this operation
 
--    **Comment**: An optional comment for this Operation
+-    **Comment**   * An optional comment for this Operation
 
--    **Coolant Mode**: The coolant mode for this operation.
+-    **Coolant Mode**   * The coolant mode for this operation.
 
--    **Cycle Time**: The cycle time estimation for this operation.
+-    **Cycle Time**   * The cycle time estimation for this operation.
 
--    **Tool Controller**: Defines the Tool controller used in the Operation
+-    **Tool Controller**   * Defines the Tool controller used in the Operation
 
--    **User Label**: User assigned label
+-    **User Label**   * User assigned label
 
 
 {{TitleProperty|Pocket}}
 
--    **Cut Mode**: The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)
+-    **Cut Mode**   * The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)
 
--    **Extra Offset**: Extra offset to apply to the operation. Direction is operation dependent.
+-    **Extra Offset**   * Extra offset to apply to the operation. Direction is operation dependent.
 
--    **StartAt**: Start pocketing at center or boundary
+-    **StartAt**   * Start pocketing at center or boundary
 
--    **Step Over**: Percent of cutter diameter to step over on each pass
+-    **Step Over**   * Percent of cutter diameter to step over on each pass
 
--    **Zig Zag Angle**: Angle of the zigzag pattern
+-    **Zig Zag Angle**   * Angle of the zigzag pattern
 
--    **Offset Pattern**: Clearing pattern to use
+-    **Offset Pattern**   * Clearing pattern to use
 
--    **Min Travel**: Use 3D Sorting of Path
+-    **Min Travel**   * Use 3D Sorting of Path
 
--    **Keep Tool Down**: Attempts to avoid unnecessary retractions.
+-    **Keep Tool Down**   * Attempts to avoid unnecessary retractions.
 
 
 {{TitleProperty|Rotation}}
 
--    **Attempt Inverse Angle**: Automatically attempt Inverse Angle if initial rotation is incorrect.
+-    **Attempt Inverse Angle**   * Automatically attempt Inverse Angle if initial rotation is incorrect.
 
--    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
+-    **Enable Rotation**   * Enable rotation to gain access to pockets or areas not normal to Z axis.
 
--    **Inverse Angle**: Inverse the angle of the rotation. \'\' **Example:** change a rotation from -22.5 to 22.5 degrees.\'\'
+-    **Inverse Angle**   * Inverse the angle of the rotation. \'\' **Example   *** change a rotation from -22.5 to 22.5 degrees.\'\'
 
--    **Limit Depth To Face**: Enforce the Z-depth of the selected face as the lowest value for final depth. Higher user values for final depth will be observed.
+-    **Limit Depth To Face**   * Enforce the Z-depth of the selected face as the lowest value for final depth. Higher user values for final depth will be observed.
 
--    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
+-    **Reverse Direction**   * Reverse orientation of Operation by 180 degrees.
 
 
 {{TitleProperty|Start Point}}
 
--    **Start Point**: The custom start point for the path of this operation.
+-    **Start Point**   * The custom start point for the path of this operation.
 
     -   
         **X**
         
-        : x distance value
+           * x distance value
 
     -   
         **Y**
         
-        : y distance value
+           * y distance value
 
     -   
         **Z**
         
-        : z distance value
+           * z distance value
 
--    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
+-    **Use Start Point**   * Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
 ### View
 
@@ -223,11 +223,11 @@ Empty
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

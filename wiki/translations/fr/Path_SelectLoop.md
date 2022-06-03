@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Path SelectLoop
-   Name/fr:Path Terminer une Boucle
-   MenuLocation:Path → Terminer la boucle de sélection
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **L**
+- GuiCommand   */fr
+   Name   *Path SelectLoop
+   Name/fr   *Path Terminer une Boucle
+   MenuLocation   *Path → Terminer la boucle de sélection
+   Workbenches   *[Path](Path_Workbench/fr.md)
+   Shortcut   ***P** **L**
 ---
 
 # Path SelectLoop/fr
@@ -16,10 +16,10 @@ La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer une bo
 ## Utilisation
 
 1.  Sélectionnez deux arêtes qui partagent un sommet commun.
-2.  Il y a plusieurs façons de lancer cette commande :
+2.  Il y a plusieurs façons de lancer cette commande    *
     -   Appuyez sur le bouton **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer la boucle de sélection](Path_SelectLoop/fr.md)**.
     -   Sélectionnez la commande **Path → <img src="images/Path_SelectLoop.svg" width=16px> Terminer la boucle de sélection** dans le menu.
-    -   Utilisez le raccourci clavier : **P** puis **L**.
+    -   Utilisez le raccourci clavier    * **P** puis **L**.
 3.  Les bords restants de la boucle sont ajoutés à la sélection.
 
 ## Remarques

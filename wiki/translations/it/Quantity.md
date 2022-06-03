@@ -3,7 +3,7 @@ Quantity è la combinazione di un numero in virgola mobile e di una unità di mi
 
 ## Aspetti generali 
 
-In un sistema CAD o CAE ​​è molto importante mantenere la traccia dell\'unità di misura di un valore. Quando si mescolano le unità o si calcolano i risultati in diverse unità di misura possono sorgere un sacco di problemi. Un famoso disastro, causato da un disguido sulle unità di misura, è il [crash of the Mars Climate Orbiter](http://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure). Anche all\'interno di uno stesso Sistema di misura le unità possono essere disponibili in diversi formati, secondo il settore di utilizzo. Ad esempio, la velocità in km/h per le automobili, in m/s in robotica o in mm/min per la fresatura. Un sistema CAD deve conservare una traccia affidabile delle unità. Inoltre deve utilizzarle per eseguire i calcoli e deve verificare che per i parametri speciali sia adottata la giusta unità.
+In un sistema CAD o CAE ​​è molto importante mantenere la traccia dell\'unità di misura di un valore. Quando si mescolano le unità o si calcolano i risultati in diverse unità di misura possono sorgere un sacco di problemi. Un famoso disastro, causato da un disguido sulle unità di misura, è il [crash of the Mars Climate Orbiter](http   *//en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure). Anche all\'interno di uno stesso Sistema di misura le unità possono essere disponibili in diversi formati, secondo il settore di utilizzo. Ad esempio, la velocità in km/h per le automobili, in m/s in robotica o in mm/min per la fresatura. Un sistema CAD deve conservare una traccia affidabile delle unità. Inoltre deve utilizzarle per eseguire i calcoli e deve verificare che per i parametri speciali sia adottata la giusta unità.
 
 Per questo motivo è stata creata la sezione Quantity di FreeCAD. Essa include tutto il codice e gli oggetti che servono per trattare le unità, i calcoli delle unità, i dati inseriti dall\'utente, la conversione tra i Sistemi e per fornire un corretto output delle unità e dei valori. In futuro, in FreeCAD, nessun parametro dovrebbe essere solo più un numero.
 
@@ -11,31 +11,31 @@ Per questo motivo è stata creata la sezione Quantity di FreeCAD. Essa include t
 
 Il parser dei dati in ingresso di FreeCAD supporta una serie di unità e di Sistemi di unità. FreeCAD supporta la lettera greca \'µ\' per micro ma accetta anche \'u\' in sostituzione. Un elenco completo di tutte le unità supportate [si trova quì](Expressions/it#Unità.md).
 
-Le specifiche dettagliate si trovano nel codice:
+Le specifiche dettagliate si trovano nel codice   *
 
--   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
--   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
+-   [Quantity lexer](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
+-   [Quantity definitions](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
 
 ## Rappresentazione interna 
 
-Tutte le unità fisiche possono essere espresse come combinazione delle sette [Unità SI](http://en.wikipedia.org/wiki/International_System_of_Units) di base:
+Tutte le unità fisiche possono essere espresse come combinazione delle sette [Unità SI](http   *//en.wikipedia.org/wiki/International_System_of_Units) di base   *
 
-<img alt="" src=images/SI-Derived-Units.jpg  style="width:750px;">
+<img alt="" src=images/SI-Derived-Units.jpg  style="width   *750px;">
 
-Un modo semplice per esprimere una Unità è quello di utilizzare un gruppo di 7 interi, il numero delle unità di base, che definisce di quale unità si tratta. Le firme delle 7 unità di base sono:
+Un modo semplice per esprimere una Unità è quello di utilizzare un gruppo di 7 interi, il numero delle unità di base, che definisce di quale unità si tratta. Le firme delle 7 unità di base sono   *
 
--   LUNGHEZZA: \[1,0,0,0,0,0,0\]
--   MASSA: \[0,1,0,0,0,0,0\]
--   TEMPO: \[0,0,1,0,0,0,0\]
--   CORRENTE ELETTRICA: \[0,0,0,1,0,0,0\]
--   TEMPERATURA TERMODINAMICA: \[0,0,0,0,1,0,0\]
--   QUANTITÀ DI SOSTANZA: \[0,0,0,0,0,1,0\]
--   INTENSITÀ LUMINOSA: \[0,0,0,0,0,0,1\]
+-   LUNGHEZZA   * \[1,0,0,0,0,0,0\]
+-   MASSA   * \[0,1,0,0,0,0,0\]
+-   TEMPO   * \[0,0,1,0,0,0,0\]
+-   CORRENTE ELETTRICA   * \[0,0,0,1,0,0,0\]
+-   TEMPERATURA TERMODINAMICA   * \[0,0,0,0,1,0,0\]
+-   QUANTITÀ DI SOSTANZA   * \[0,0,0,0,0,1,0\]
+-   INTENSITÀ LUMINOSA   * \[0,0,0,0,0,0,1\]
 
-Usando queste 7 unità, siamo poi in grado di esprimere tutte le unità derivate definite nella [Guida per l\'utilizzo del Sistema Internazionale di Unità (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) e di crearne di nuove, secondo le esigenze, come ad esempio:
+Usando queste 7 unità, siamo poi in grado di esprimere tutte le unità derivate definite nella [Guida per l\'utilizzo del Sistema Internazionale di Unità (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) e di crearne di nuove, secondo le esigenze, come ad esempio   *
 
--   MASS DENSITY: \[-3,1,0,0,0,0,0\]
--   AREA: \[0,2,0,0,0,0,0\]
+-   MASS DENSITY   * \[-3,1,0,0,0,0,0\]
+-   AREA   * \[0,2,0,0,0,0,0\]
 
 Dato che l\'angolo è fisicamente adimensionale, ma in un sistema CAD non è meno importante, si è aggiunta una unità virtuale in più per Angle. Questo crea un vettore di 8 dati nella firma delle unità di FreeCAD.
 
@@ -43,11 +43,11 @@ Dato che l\'angolo è fisicamente adimensionale, ma in un sistema CAD non è men
 
 Sovente è necessario convertire le unità da un sistema a un altro. Per esempio, quando i parametri sono contenuti in vecchie tabelle e espressi in determinate unità. In questi casi FreeCAD offre uno strumento di conversione denominato Units-Calculator che aiuta a tradurre le unità.
 
-La sua desrizione si trova nella pagina: [Std\_UnitsCalculator](Std_UnitsCalculator/it.md)
+La sua desrizione si trova nella pagina   * [Std\_UnitsCalculator](Std_UnitsCalculator/it.md)
 
 ## InputField
 
-Inputfield è un oggetto QLineEdit derivato da un widget Qt e serve per gestire tutti i tipi di interazioni dell\'utente con le quantità e con i parametri. Offre le seguenti proprietà:
+Inputfield è un oggetto QLineEdit derivato da un widget Qt e serve per gestire tutti i tipi di interazioni dell\'utente con le quantità e con i parametri. Offre le seguenti proprietà   *
 
 -   analisi dei valori e delle unità arbitrarie inserite
 -   verifica della corrispondenza dell\'unità (se fornita) e restituzione di un riscontro
@@ -60,12 +60,12 @@ Inputfield è un oggetto QLineEdit derivato da un widget Qt e serve per gestire 
 
 Lo strumento UnitsCalculator usa già InputField.
 
-Documentazione di riferimento: [InputField](InputField/it.md)
+Documentazione di riferimento   * [InputField](InputField/it.md)
 
-Codice:
+Codice   *
 
--   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
--   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp) <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.cpp>
+-   [InputField.h](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
+-   [InputField.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp) <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.cpp>
 
 ## Script Python 
 
@@ -173,30 +173,30 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
 
 ### I valori nell\'interfaccia utente 
 
-Normalmente negli script si può utilizzare Quantity per ogni tipo di calcolo e di verifica, ma può capitare che si debba attendere un po\' per ottenere l\'uscita dei risultati. Si può utilizzare getValueAs() per forzare una certa unità, ma di solito si definisce il proprio sistema di unità nelle preferenze. Il sistema di unità converte tutta la rappresentazione nel sistema impostato. Al momento sono implementati questi 3 sistemi di unità:
+Normalmente negli script si può utilizzare Quantity per ogni tipo di calcolo e di verifica, ma può capitare che si debba attendere un po\' per ottenere l\'uscita dei risultati. Si può utilizzare getValueAs() per forzare una certa unità, ma di solito si definisce il proprio sistema di unità nelle preferenze. Il sistema di unità converte tutta la rappresentazione nel sistema impostato. Al momento sono implementati questi 3 sistemi di unità   *
 
--   1: Internal (mm/kg/s)
--   2: MKS (m/kg/s)
--   3: US customary (in/lb)
+-   1   * Internal (mm/kg/s)
+-   2   * MKS (m/kg/s)
+-   3   * US customary (in/lb)
 
 In futuro potranno essere facilmente implementati altri sistemi \...
 
-Attualmente, ci sono due modi di utilizzare la classe Quantity per realizzare la conversione del sistema:
+Attualmente, ci sono due modi di utilizzare la classe Quantity per realizzare la conversione del sistema   *
 
 
 ```python
 from FreeCAD import Units
 
-# Use the translated string:
+# Use the translated string   *
 Units.Quantity('1m').UserString           # '1000 mm' in 1; '1 m' in 2; and '1.09361 yr' in 3
 ```
 
-Questo metodo va bene quando serve solo una stringa. A volte però, si ha bisogno di un controllo maggiore, ad esempio quando si vuole avere una finestra di dialogo con un pulsante su e giù. In questo caso servono ulteriori informazioni sull\'uscita della conversione, allora viene usato il metodo getUserPreferred() di quantity:
+Questo metodo va bene quando serve solo una stringa. A volte però, si ha bisogno di un controllo maggiore, ad esempio quando si vuole avere una finestra di dialogo con un pulsante su e giù. In questo caso servono ulteriori informazioni sull\'uscita della conversione, allora viene usato il metodo getUserPreferred() di quantity   *
 
 
 ```python
-Units.Quantity('22 m').getUserPreferred() # gets a tuple:('22 m', 1000.0, 'm')
-Units.Quantity('2  m').getUserPreferred() # Tuple: ('2000 mm', 1.0, 'mm')
+Units.Quantity('22 m').getUserPreferred() # gets a tuple   *('22 m', 1000.0, 'm')
+Units.Quantity('2  m').getUserPreferred() # Tuple   * ('2000 mm', 1.0, 'mm')
 ```
 
 Qui si ottengono due informazioni in più sotto forma di una tupla di 3 elementi. Si ottiene, come prima, la stringa, inoltre il fattore numero viene tradotto e la stringa cruda con solo l\'unità scelta dal sistema di conversione. Con queste informazioni è possibile implementare una interazione con l\'utente molto più ricca.
@@ -204,22 +204,22 @@ Qui si ottengono due informazioni in più sotto forma di una tupla di 3 elementi
 
 <div class="mw-translate-fuzzy">
 
-Il codice di definizione del sistema di conversione è visibile in:
+Il codice di definizione del sistema di conversione è visibile in   *
 
--   [Internal](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
--   [MKS](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
--   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial.cpp)
+-   [Internal](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
+-   [MKS](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
+-   [Imperial](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial.cpp)
 
 
 </div>
 
 ### Precisione
 
-La precisione delle quantità è il numero di decimali specificato nelle finestre di dialogo di FreeCAD [nelle preferenze](Preferences_Editor/it#Unità.md). Per utilizzare queste impostazioni negli script (ad esempio nelle finestre di dialogo), si può usare questo codice: 
+La precisione delle quantità è il numero di decimali specificato nelle finestre di dialogo di FreeCAD [nelle preferenze](Preferences_Editor/it#Unità.md). Per utilizzare queste impostazioni negli script (ad esempio nelle finestre di dialogo), si può usare questo codice   * 
 ```python
 import FreeCAD
 
-params = App.ParamGet("User parameter:BaseApp/Preferences/Units")
+params = App.ParamGet("User parameter   *BaseApp/Preferences/Units")
 params.GetInt('Decimals') # returns an int
 ```
 
@@ -282,6 +282,11 @@ from FreeCAD import Units
  "st"  = Units.Quantity(6.35029318   ,Units.Unit(0,1));    // Stone
  "cwt" = Units.Quantity(50.80234544  ,Units.Unit(0,1));    // hundredweights
 ```
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

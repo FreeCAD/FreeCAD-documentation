@@ -1,17 +1,17 @@
 ---
-- GuiCommand:
-   Name:PartDesign MoveFeature
-   MenuLocation:Context menu → Move object to other body
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
+- GuiCommand   *
+   Name   *PartDesign MoveFeature
+   MenuLocation   *Context menu → Move object to other body
+   Workbenches   *[PartDesign](PartDesign_Workbench.md)
+   Version   *0.17
+   SeeAlso   *[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
 ---
 
 # PartDesign MoveFeature/en
 
 ## Description
 
-<img alt="" src=images/PartDesign_MoveFeature.svg  style="width:24px;"> [Move object to other body](PartDesign_MoveFeature.md), as this command is labeled in the context menu, allows moving objects under a Body to another Body. The moved object is placed right below the other Body\'s tip. Sketches, datum geometry and features are supported.
+<img alt="" src=images/PartDesign_MoveFeature.svg  style="width   *24px;"> [Move object to other body](PartDesign_MoveFeature.md), as this command is labeled in the context menu, allows moving objects under a Body to another Body. The moved object is placed right below the other Body\'s tip. Sketches, datum geometry and features are supported.
 
 ## Usage
 

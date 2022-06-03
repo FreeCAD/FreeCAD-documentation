@@ -1,6 +1,6 @@
 # Robot Simulate/de
 ---
-- GuiCommand:/de   Name:Robot Simulate   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter → Simulieren einer Bewegungsbahn---
+- GuiCommand   */de   Name   *Robot Simulate   Workbenches   *[[Robot_Workbench/de   Robot]]|MenuLocation   *Roboter → Simulieren einer Bewegungsbahn---
 
 
 </div>
@@ -21,18 +21,18 @@
 #### Anwendung
 
 1.  Selektieren Sie einen Roboter und eine Bewegungsbahn in der Baumansicht
-2.  Klicken Sie <img alt="" src=images/Robot_Simulate.png  style="width:32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_Simulate.png" width=32px> Simulieren einer Bewegungsbahn** aus dem Top-Menü.
+2.  Klicken Sie <img alt="" src=images/Robot_Simulate.png  style="width   *32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_Simulate.png" width=32px> Simulieren einer Bewegungsbahn** aus dem Top-Menü.
 
 Dies wird ein Abspielmenü in der Baumansicht öffnen.
 
 
 </div>
 
-Result: This will open up a player dialog menu in the [Tree view](Tree_view.md).
+Result   * This will open up a player dialog menu in the [Tree view](Tree_view.md).
 
 ![](images/Robot_Simulation_Player.jpg )
 
-Die Knöpfe von links nach rechts:
+Die Knöpfe von links nach rechts   *
 
 -   Zum ersten Wegpunkt auf der ausgewählten Bewegungsbahn bewegen
 -   Zum vorigen Wegpunkt bewegen

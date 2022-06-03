@@ -1,33 +1,33 @@
 # Path Preferences/pl
 {{TOCright}}
 
-## Overview
+## Informacje ogólne 
 
-The preferences screen of the [Path Workbench](Path_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Path**.
+Ekran preferencji środowiska pracy [TechDraw](Path_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → Path**.
 
-There are four tabs: [Job preferences](#Job_preferences.md), [Dressups](#Dressups.md), [GUI](#GUI.md) and [Advanced](#Advanced.md).
+Dostępne są cztery zakładki   * [Ustawienia dla zadania](#Ustawienia_dla_zadania.md), [Ulepszenia](#Ulepszenia.md), [GUI](#GUI.md) i [Zaawansowane](#Zaawansowane.md).
 
-## Job preferences 
+## Ustawienia dla zadania 
 
-There are four sections: General, Post processor, Setup and Tools.
+Dostępne są cztery sekcje   * Ogólne, Post-procesor, Konfiguracja i Przybory.
 
-### Job preferences → General 
+### Ogólne
 
 ![](images/Preference_Path_Tab_01_01_V020.png )
 
-### Job preferences → Post processor 
+### Post-procesor 
 
 ![](images/Preference_Path_Tab_01_02_V020.png )
 
-### Job preferences → Setup 
+### Konfiguracja
 
 ![](images/Preference_Path_Tab_01_03_V020.png )
 
-### Job preferences → Tools 
+### Przybory
 
 ![](images/Preference_Path_Tab_01_04_V020.png )
 
-## Dressups
+## Ulepszenia
 
 ![](images/Preference_Path_Tab_02_V020.png )
 
@@ -35,7 +35,7 @@ There are four sections: General, Post processor, Setup and Tools.
 
 ![](images/Preference_Path_Tab_03_V020.png )
 
-## Advanced
+## Zaawansowane
 
 ![](images/Preference_Path_Tab_04_V020.png )
 
@@ -45,7 +45,9 @@ There are four sections: General, Post processor, Setup and Tools.
 
 {{Path_Tools_navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

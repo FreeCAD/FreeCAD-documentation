@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw_PageDefault
-   Name/it:Nuovo disegno standard
-   MenuLocation:TechDraw → Nuovo disegno standard
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Nuovo disegno da modello](TechDraw_PageTemplate/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
+- GuiCommand   */it
+   Name   *TechDraw_PageDefault
+   Name/it   *Nuovo disegno standard
+   MenuLocation   *TechDraw → Nuovo disegno standard
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Nuovo disegno da modello](TechDraw_PageTemplate/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
 ---
 
 # TechDraw PageDefault/it
@@ -22,8 +22,8 @@ Lo strumento Nuovo disegno standard crea una nuova pagina utilizzando il file mo
 
 </div>
 
-<img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
-*Modello predefinito fornito con TechDraw: pagina A4 con orientamento orizzontale, con i campi di testo modificabili*
+<img alt="" src=images/A4_LandscapeTD.svg  style="width   *400px;"> 
+*Modello predefinito fornito con TechDraw   * pagina A4 con orientamento orizzontale, con i campi di testo modificabili*
 
 ## Utilizzo
 
@@ -42,7 +42,7 @@ Lo strumento Nuovo disegno standard crea una nuova pagina utilizzando il file mo
 
 -   Se una pagina è contrassegnata come \"non tenere aggiornata\" tramite la Proprietà KeepUpdated o dalle impostazione nelle Preferenze, le modifiche apportate nel modello 3D vengono ignorate. Si potrebbero notare delle anomalie nell\'aspetto della Pagina (geometria mancante, valori di Dimensione mancanti, ecc.). Questi errori possono essere corretti aggiornando la Pagina.
 
-La pagina ha questa icona <img alt="" src=images/TechDraw_Tree_Page_Unsync.png  style="width:32px;"> nell\'albero mentre l\'aggiornamento è sospeso. Questa impostazione influisce anche sul processo di avvio. Se la pagina è contrassegnata come \"non tenere aggiornata\", all\'avvio del programma essa non viene disegnata.
+La pagina ha questa icona <img alt="" src=images/TechDraw_Tree_Page_Unsync.png  style="width   *32px;"> nell\'albero mentre l\'aggiornamento è sospeso. Questa impostazione influisce anche sul processo di avvio. Se la pagina è contrassegnata come \"non tenere aggiornata\", all\'avvio del programma essa non viene disegnata.
 
 
 </div>
@@ -56,7 +56,7 @@ Se il modello predefinito non è specificato nel file di configurazione utente `
 </div>
 
 
-:   
+   *   
     
 ```python
     $INSTALL_DIR/Mod/TechDraw/Templates/A4_LandscapeTD.svg
@@ -73,7 +73,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 </div>
 
 
-:   
+   *   
     
 ```python
     /usr/share/freecad/Mod/TechDraw/Templates/A4_LandscapeTD.svg
@@ -88,7 +88,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 {{TitleProperty|Base}}
 
--    **Projection Type**: Default projection type (First or Third Angle) for this Page.
+-    **Projection Type**   * Default projection type (First or Third Angle) for this Page.
 
 
 {{TitleProperty|Page}}
@@ -96,15 +96,15 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 <div class="mw-translate-fuzzy">
 
--    **Projection Type**: tipo predefinito di proiezione da usare (primo o terzo angolo) per questa pagina.
+-    **Projection Type**   * tipo predefinito di proiezione da usare (primo o terzo angolo) per questa pagina.
 
--    **KeepUpdated**: se false, la pagina non viene aggiornata con le modifiche al modello 3D. Utile per i disegni complicati o lenti. Vedere le note.
+-    **KeepUpdated**   * se false, la pagina non viene aggiornata con le modifiche al modello 3D. Utile per i disegni complicati o lenti. Vedere le note.
 
--    **Template**: un link alla pagina dei [Modelli di squadrature](TechDraw_Templates/it.md).
+-    **Template**   * un link alla pagina dei [Modelli di squadrature](TechDraw_Templates/it.md).
 
--    **Views**: un elenco di collegamenti alle viste su questa pagina.
+-    **Views**   * un elenco di collegamenti alle viste su questa pagina.
 
--    **Scale**: scala predefinita da usare per le viste in questa pagina.
+-    **Scale**   * scala predefinita da usare per le viste in questa pagina.
 
 
 </div>
@@ -114,9 +114,9 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 {{TitleProperty|Grid}}
 
--    **Show Grid**: Show a grid over this Page. <small>(v0.20)</small> 
+-    **Show Grid**   * Show a grid over this Page. <small>(v0.20)</small> 
 
--    **Grid Spacing**: Distance between grid lines in mm. <small>(v0.20)</small> 
+-    **Grid Spacing**   * Distance between grid lines in mm. <small>(v0.20)</small> 
 
 ## Script
 
@@ -124,7 +124,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -134,15 +134,15 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento New Default può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+Lo strumento New Default può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
 
 
 </div>
 
 
 ```python
-page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
-template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
+page = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawPage','Page')
+template = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawSVGTemplate','Template')
 template.Template = templateFileSpec
 page.Template = FreeCAD.ActiveDocument.Template
 ```
@@ -155,7 +155,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 <div class="mw-translate-fuzzy">
 
 
-**Per ulteriori informazioni sulla creazione di modelli vedere anche:**
+**Per ulteriori informazioni sulla creazione di modelli vedere anche   ***
 
 [Modelli di squadrature](TechDraw_Templates/it.md).
 
@@ -169,7 +169,7 @@ Una volta creata una nuova pagina, il suo attributo `Template` contiene un dizio
 page = FreeCAD.ActiveDocument.Page
 texts = page.Template.EditableTexts
 
-for key, value in texts.items():
+for key, value in texts.items()   *
     print("{0} = {1}".format(key, value))
 
 texts["FC-Title"] = "The title of my page"

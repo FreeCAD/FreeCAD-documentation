@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw DetailView
-   Name/fr:TechDraw Vue détaillée
-   MenuLocation:TechDraw → Insérer une vue de détail
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw DetailView
+   Name/fr   *TechDraw Vue détaillée
+   MenuLocation   *TechDraw → Insérer une vue de détail
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw DetailView/fr
@@ -31,44 +31,44 @@ La Vue détaillée peut être affichée dans une boîte de vue ronde ou carrée.
 
 ### Vue détaillée 
 
--    **BaseView**: la vue sur laquelle cette vue détaillée est basée.
+-    **BaseView**   * la vue sur laquelle cette vue détaillée est basée.
 
--    **Anchor Point**: centre de la vue détaillée dans **BaseView**.
+-    **Anchor Point**   * centre de la vue détaillée dans **BaseView**.
 
--    **Radius**: taille de la zone dans la **BaseView** affichée dans la vue détaillée.
+-    **Radius**   * taille de la zone dans la **BaseView** affichée dans la vue détaillée.
 
--    **Scale Type**: type de l\'échelles. Les choix sont:
+-    **Scale Type**   * type de l\'échelles. Les choix sont   *
 
-    -   *Page*: facteur d\'échelle de la [Page](TechDraw_PageDefault/fr.md) du dessin utilisé
-    -   *Automatic*: dans le cas où la vue détaillée serait plus grande que la page, elle sera réduite pour tenir dans la page
-    -   *Custom*: facteur d\'échelle personnalisé défini par **Scale**
+    -   *Page*   * facteur d\'échelle de la [Page](TechDraw_PageDefault/fr.md) du dessin utilisé
+    -   *Automatic*   * dans le cas où la vue détaillée serait plus grande que la page, elle sera réduite pour tenir dans la page
+    -   *Custom*   * facteur d\'échelle personnalisé défini par **Scale**
 
--    **Scale**: niveau d\'agrandissement.
+-    **Scale**   * niveau d\'agrandissement.
 
--    **Reference**: identifiant pour indiquer la zone de **BaseView** affichée.
+-    **Reference**   * identifiant pour indiquer la zone de **BaseView** affichée.
 
 ### Base View 
 
-Une vue détaillée hérite de toutes les propriétés applicables de la vue spécifiée comme **BaseView**. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour du détail:
+Une vue détaillée hérite de toutes les propriétés applicables de la vue spécifiée comme **BaseView**. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour du détail   *
 
--    **Highlight Adjust**: angle de rotation dans le sens horaire de la vue de détail.
+-    **Highlight Adjust**   * angle de rotation dans le sens horaire de la vue de détail.
 
--    **Highlight Line Color**: couleur de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
+-    **Highlight Line Color**   * couleur de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
--    **Highlight Line Style**: style de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight Style** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
+-    **Highlight Line Style**   * style de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight Style** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Vue détaillée peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Vue détaillée peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python
-Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
+Detail = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDetail','Detail')
 ...TBA
 ```
 
@@ -76,7 +76,7 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 -   L\'espace autour du contour de la vue et de la bordure de l\'objet de vue est par défaut une zone blanche. Cela signifie qu\'il couvre tout derrière. Parfois, il n\'y a pas assez d\'espace sur la page et vous pouvez économiser de l\'espace en réduisant cette zone blanche inutile.
 
-Pour ce faire, placez la Vue détaillée dans une [Fenêtre de rognage](TechDraw_ClipGroup/fr.md):
+Pour ce faire, placez la Vue détaillée dans une [Fenêtre de rognage](TechDraw_ClipGroup/fr.md)   *
 
 ![](images/TechDraw_DetailClipped.png ) 
 *Vue détaillée d'une fenêtre de rognage*
@@ -85,7 +85,7 @@ Pour ce faire, placez la Vue détaillée dans une [Fenêtre de rognage](TechDraw
 
 ## Remarques
 
--   [Une bonne discussion sur la configuration de Anchor](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+-   [Une bonne discussion sur la configuration de Anchor](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 
 

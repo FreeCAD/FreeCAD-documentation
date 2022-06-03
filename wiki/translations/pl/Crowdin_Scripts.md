@@ -3,13 +3,13 @@
 
 ## Zarządzanie Tłumaczeniami w programie FreeCAD 
 
-FreeCAD do zarządzania tłumaczeniami używa zewnętrznego serwisu nazywanego [Crowdin.](https://crowdin.com/project/freecad)
+FreeCAD do zarządzania tłumaczeniami używa zewnętrznego serwisu nazywanego [Crowdin.](https   *//crowdin.com/project/freecad)
 
-W FreeCAD/src/Tools znajdują się 3 skrypty, które służą do zarządzania plikami tłumaczeń:
+W FreeCAD/src/Tools znajdują się 3 skrypty, które służą do zarządzania plikami tłumaczeń   *
 
-1.  updatets.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
-2.  updatecrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
-3.  updatefromcrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
+1.  updatets.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
+2.  updatecrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
+3.  updatefromcrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
 
 ### Uwagi
 
@@ -21,11 +21,11 @@ W FreeCAD/src/Tools znajdują się 3 skrypty, które służą do zarządzania pl
 
 Skrypt updatets.py utworzy pliki .ts w twoim lokalnym katologu FreeCAD/. Generuje on pliki .ts (Plik Źródłowy Tłumaczenia Qt).
 
-Jest wywoływany przez: python2 updatets.py
+Jest wywoływany przez   * python2 updatets.py
 
 ### updatecrowdin.py
 
-Skrypt updatecrowdin.py ładuje zmiany do Crowdin (zewnętrznego serwisu tłumaczeń społecznościowych) z twojego lokalnego katalogu FreeCAD/. Obecnie skrypt obsługuje 4 argumenty:
+Skrypt updatecrowdin.py ładuje zmiany do Crowdin (zewnętrznego serwisu tłumaczeń społecznościowych) z twojego lokalnego katalogu FreeCAD/. Obecnie skrypt obsługuje 4 argumenty   *
 
 -   updatecrowdin.py status wypisuje stan tłumaczeń
 -   updatecrowdin.py update aktualizuje Crowdin aktualną wersją plików .ts znalezioną w kodzie źródłowym
@@ -39,7 +39,7 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 ## By wysłać najnowsze zwroty do Crowdin 
 
 -   Przetestowane tylko na Linuksie
--   Potrzebujesz pliku .credentials w twoim katalogu /home/TwójUżytkownik. Plik ten jest prostym plikiem tekstowym zawierającym tylko jedną linię, którą jest klucz API otrzymywany na <https://crowdin.com/project/freecad/settings#api> (tylko dla administratorów)
+-   Potrzebujesz pliku .credentials w twoim katalogu /home/TwójUżytkownik. Plik ten jest prostym plikiem tekstowym zawierającym tylko jedną linię, którą jest klucz API otrzymywany na <https   *//crowdin.com/project/freecad/settings#api> (tylko dla administratorów)
 -   Upewnij się, że twoje repozytorium jest czyste (git pull, git stash jeśli to konieczne)
 -   cd /path/to/freecad-source-code/src/Tools
 -   python updatets.py (wypełni najnowszymi ciągami tekstowymi wszystkie pliki .ts znalezione w źródłach)
@@ -50,7 +50,7 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 ## By scalić najnowsze tłumaczenia z Crowdin 
 
 -   Przetestowane tylko w systemie Linuks,
--   Potrzebujesz pliku .credentials w katalogu /home/TwójUżytkownik. Plik ten jest zwykłym plikiem tekstowym zawierającym tylko jeden wiersz, jest to klucz API otrzymywany na <https://crowdin.com/project/freecad/settings#api> *(tylko dla administratorów)*,
+-   Potrzebujesz pliku .credentials w katalogu /home/TwójUżytkownik. Plik ten jest zwykłym plikiem tekstowym zawierającym tylko jeden wiersz, jest to klucz API otrzymywany na <https   *//crowdin.com/project/freecad/settings#api> *(tylko dla administratorów)*,
 -   Upewnij się, że twoje repozytorium jest czyste *(git pull, git stash jeśli to konieczne)*,
 -   cd /path/to/freecad-source-code/src/Tools,
 -   python updatecrowdin.py build *(stworzy zip po stronie Crowdin z wszystkimi plikami, może potrwać chwilę\... Krok ten może zostać też wykonany na stronie internetowej Crowdin)*,
@@ -86,6 +86,11 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 -   [Lokalizacja](Localisation/pl.md)
 -   [Skrypty Crowdin](Crowdin_Scripts/pl.md)
 -   [Proces wydania](Release_process.md)
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

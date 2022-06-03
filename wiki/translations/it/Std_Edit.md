@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/it
-   Name:Std_Edit
-   Name/it:Attiva/disattiva la modalità modifica
-   MenuLocation:Modifica → Attiva/disattiva la modalità modifica
-   Workbenches:Tutti
+- GuiCommand   */it
+   Name   *Std_Edit
+   Name/it   *Attiva/disattiva la modalità modifica
+   MenuLocation   *Modifica → Attiva/disattiva la modalità modifica
+   Workbenches   *Tutti
 ---
 
 # Std Edit/it
@@ -20,7 +20,7 @@ Il comando **Std Edit** attiva o disattiva la modalità di modifica di un oggett
 
 <div class="mw-translate-fuzzy">
 
-1.  Se nessun oggetto è in modalità modifica: selezionare un singolo oggetto.
+1.  Se nessun oggetto è in modalità modifica   * selezionare un singolo oggetto.
 2.  Selezionare l\'opzione **Modifica → <img src="images/Std_Edit.svg" width=16px> Attiva/disattiva la modalità modifica** dal menu.
 3.  La modalità di modifica dell\'oggetto selezionato viene attivata o disattivata.
 
@@ -42,7 +42,7 @@ Il comando **Std Edit** attiva o disattiva la modalità di modifica di un oggett
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
@@ -55,7 +55,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-The second argument is the EditMode. The following options are available:
+The second argument is the EditMode. The following options are available   *
 
 0 = Default
 1 = Transform

@@ -26,7 +26,7 @@ Se houver pelo menos um documento aberto em FreeCAD, há sempre um e só um docu
 
 <div class="mw-translate-fuzzy">
 
-Como quase tudo em FreeCAD, a área da Interface Gráfica do Usuário (GUI) esta separada da área da aplicação base (App). Isto também é válido para documentos. Os documentos também são feitos de duas partes: o documento da Aplicação, que contém os nossos objectos, e o documento Vista, que contém a representação na tela de nossos objectos.
+Como quase tudo em FreeCAD, a área da Interface Gráfica do Usuário (GUI) esta separada da área da aplicação base (App). Isto também é válido para documentos. Os documentos também são feitos de duas partes   * o documento da Aplicação, que contém os nossos objectos, e o documento Vista, que contém a representação na tela de nossos objectos.
 
 
 </div>
@@ -46,7 +46,7 @@ Outra coisa que está contido dentro do documento Vista são as vistas em 3D. Um
 
 <div class="mw-translate-fuzzy">
 
-Os documentos podem ser facilmente criados, acessados e modificados a partir do interpretador Python. Por exemplo:
+Os documentos podem ser facilmente criados, acessados e modificados a partir do interpretador Python. Por exemplo   *
 
 
 </div>

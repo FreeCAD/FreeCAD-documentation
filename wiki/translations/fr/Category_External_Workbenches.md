@@ -1,5 +1,5 @@
 # Category:External Workbenches/fr
-
+[Category   *Workbenches/fr](Category   *Workbenches/fr.md) [Category   *Addons/fr](Category   *Addons/fr.md)
 
 ### Contents
 

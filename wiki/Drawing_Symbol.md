@@ -1,6 +1,6 @@
 # Drawing Symbol
 ---
-- GuiCommand:   Name:Drawing Symbol   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing → Symbol   Shortcut:none---
+- GuiCommand   *   Name   *Drawing Symbol   Workbenches   *[[Drawing Workbench   Drawing]], Complete|MenuLocation   *Drawing → Symbol   Shortcut   *none---
 
 ## Description
 

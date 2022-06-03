@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Std UnitsCalculator
-   Name/fr:Std Convertisseur d'unités
-   MenuLocation:Outils → Calculateurs d'unités
-   Workbenches:Tous
+- GuiCommand   */fr
+   Name   *Std UnitsCalculator
+   Name/fr   *Std Convertisseur d'unités
+   MenuLocation   *Outils → Calculateurs d'unités
+   Workbenches   *Tous
 ---
 
 # Std UnitsCalculator/fr

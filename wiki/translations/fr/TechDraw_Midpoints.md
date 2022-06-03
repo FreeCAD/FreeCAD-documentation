@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw Midpoints
-   Name/fr:TechDraw Points médians
-   MenuLocation:TechDraw → Ajouter des sommets → Ajouter des sommets de points médians
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Sommets quadrants](TechDraw_Quadrants/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw Midpoints
+   Name/fr   *TechDraw Points médians
+   MenuLocation   *TechDraw → Ajouter des sommets → Ajouter des sommets de points médians
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Sommets quadrants](TechDraw_Quadrants/fr.md)
 ---
 
 # TechDraw Midpoints/fr
@@ -14,7 +14,7 @@
 
 L\'outil Points médians ajoute des [Vertices](Glossary/fr#V.md) (sommets) cosmétiques au milieu d\'une ou plusieurs arêtes.
 
-<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width   *250px;"> 
 *Points cosmétiques au milieu d'arêtes*
 
 ## Utilisation
@@ -32,7 +32,7 @@ Les points cosmétiques n\'ont pas de propriétés propres car ils ne sont pas d
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 

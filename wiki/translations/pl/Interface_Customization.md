@@ -3,7 +3,7 @@
 
 ## Wprowadzenie
 
-Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) i posiada nowoczesną organizację. Niektóre aspekty interfejsu mogą być dostosowane do indywidualnych potrzeb. Możesz na przykład dodać niestandardowe paski narzędzi, z narzędziami z kilku Środowisk pracy lub narzędziami zdefiniowanymi w makrach, a także tworzyć własne skróty klawiaturowe. Ale menu i domyślne paski narzędzi, które są dostarczane z programem FreeCAD i jego warsztatami nie mogą być zmieniane.
+Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http   *//en.wikipedia.org/wiki/Qt_(toolkit)) i posiada nowoczesną organizację. Niektóre aspekty interfejsu mogą być dostosowane do indywidualnych potrzeb. Możesz na przykład dodać niestandardowe paski narzędzi, z narzędziami z kilku Środowisk pracy lub narzędziami zdefiniowanymi w makrach, a także tworzyć własne skróty klawiaturowe. Ale menu i domyślne paski narzędzi, które są dostarczane z programem FreeCAD i jego warsztatami nie mogą być zmieniane.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *Okno dialogowe Dostosowywanie interfejsu*
@@ -11,7 +11,7 @@ Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http://en.w
 ## Użycie
 
 1.  Polecenia dostępne w oknie dialogowym Dostosowywania zależą od aktywnych programów roboczych, które zostały załadowane w bieżącej sesji programu FreeCAD. Należy więc najpierw załadować wszystkie programy, do których chcemy mieć dostęp.
-2.  Istnieje kilka sposobów wywołania polecenia <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std: Dostosuj](Std_DlgCustomize/pl.md):
+2.  Istnieje kilka sposobów wywołania polecenia <img alt="" src=images/Std_DlgCustomize.svg  style="width   *16px;"> [Std   * Dostosuj](Std_DlgCustomize/pl.md)   *
     -   Wybierz polecenie z menu **Przybory → <img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj...**.
     -   Kliknij prawym przyciskiem myszy na obszarze paska narzędzi i wybierz z menu kontekstowego **<img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj...**.
 3.  Otworzy się okno dialogowe Dostosuj\... Więcej informacji można znaleźć w rozdziale [Opcje](#Opcje.md).
@@ -20,7 +20,7 @@ Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http://en.w
 
 ## Opcje
 
-W oknie dialogowym Dostosuj dostępne są następujące zakładki:
+W oknie dialogowym Dostosuj dostępne są następujące zakładki   *
 
 ### Polecenia
 
@@ -33,8 +33,8 @@ Na tej zakładce można przeglądać dostępne polecenia.
 
 1.  Wybierz kategorię komend w panelu *\'Kategoria* po lewej stronie. Niektóre kategorie odpowiadają wpisom w menu.
 2.  Narzędzia dostępne w wybranej kategorii są pokazane w panelu po prawej stronie.
-3.  Najedź na polecenie: pojawi się podpowiedź.
-4.  Wybierz polecenie: tekst paska stanu jest wyświetlany poniżej dwóch paneli.
+3.  Najedź na polecenie   * pojawi się podpowiedź.
+4.  Wybierz polecenie   * tekst paska stanu jest wyświetlany poniżej dwóch paneli.
 
 
 {{Top}}
@@ -174,7 +174,7 @@ Na tej karcie można tworzyć i modyfikować własne paski narzędzi.
 -   Paski narzędzi należące do aktualnego stanowiska pracy są natychmiast aktualizowane, ale po wyłączeniu/ ponownym włączeniu paska narzędzi konieczna jest zmiana stanowiska pracy (przełączenie na inne stanowisko pracy, a następnie ponowne jego włączenie).
 -   Do aktualizacji globalnych pasków narzędzi konieczna jest zmiana stanowiska pracy (jeżeli dodano lub usunięto polecenia) lub ponowny start (jeżeli zmieniono kolejność pasków narzędzi lub zmieniono nazwę paska narzędzi).
 
--   W V0.19 jest problem z niektórymi poleceniami draft. Po dodaniu ich do niestandardowego paska narzędzi i wyjściu z aplikacji FreeCAD plik {{FileName|user.cfg}} musi być ręcznie edytowany dla tych poleceń. Wyszukaj nazwę niestandardowego paska narzędzi i w tej sekcji zmień zawartość elementów `FCText`, które zaczynają się od `gui_` do `DraftTools`.
+-   W V0.19 jest problem z niektórymi poleceniami draft. Po dodaniu ich do niestandardowego paska narzędzi i wyjściu z aplikacji FreeCAD plik **user.cfg** musi być ręcznie edytowany dla tych poleceń. Wyszukaj nazwę niestandardowego paska narzędzi i w tej sekcji zmień zawartość elementów `FCText`, które zaczynają się od `gui_` do `DraftTools`.
 
 
 {{Top}}
@@ -184,9 +184,9 @@ Na tej karcie można tworzyć i modyfikować własne paski narzędzi.
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *Zakładka Makrodefinicje*
 
-Na tej zakładce można skonfigurować polecenia makrodefinicji użytkownika. Po skonfigurowaniu można je dodawać do własnych pasków narzędzi. FreeCAD używa dedykowanego folderu dla makr użytkownika i tylko w nim można tworzyć makra. Użyj polecenia <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std: DlgMacroExecute](Std_DlgMacroExecute.md), aby znaleźć ten folder w systemie.
+Na tej zakładce można skonfigurować polecenia makrodefinicji użytkownika. Po skonfigurowaniu można je dodawać do własnych pasków narzędzi. FreeCAD używa dedykowanego folderu dla makr użytkownika i tylko w nim można tworzyć makra. Użyj polecenia <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Std   * DlgMacroExecute](Std_DlgMacroExecute.md), aby znaleźć ten folder w systemie.
 
-Jeśli pobierasz makro z <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Menadżera dodatków](Std_AddonMgr/pl.md), upewnij się, że pobrałeś również jego plik ikonki. Większość makr ma link z obrazem na stronie informacyjnej, która pojawia się w menedżerze dodatków. Możesz na przykład umieścić ten plik ikonki w folderze makr użytkownika.
+Jeśli pobierasz makro z <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Menadżera dodatków](Std_AddonMgr/pl.md), upewnij się, że pobrałeś również jego plik ikonki. Większość makr ma link z obrazem na stronie informacyjnej, która pojawia się w menedżerze dodatków. Możesz na przykład umieścić ten plik ikonki w folderze makr użytkownika.
 
 Jeśli chcesz korzystać z makrodefinicji pobranej z innego źródła, będziesz musiał zainstalować ją ręcznie. Zobacz temat [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md) aby uzyskać więcej informacji.
 
@@ -198,7 +198,7 @@ Jeśli chcesz korzystać z makrodefinicji pobranej z innego źródła, będziesz
 4.  Opcjonalnie wprowadź tekst statusu. Ten tekst pojawi się na [pasku stanu](Status_bar.md) po najechaniu kursorem na ikonę paska narzędzi.
 5.  Opcjonalnie w polu wejściowym „Co to jest" wprowadź stronę Wiki dla makra, jeśli powstała. Wpisz nazwę strony, a nie pełny adres URL.
 6.  Opcjonalnie wprowadź skrót w polu edycji **skrót klawiaturowy**. Zobacz sekcję [Klawiatura](#Klawiatura.md), aby uzyskać więcej informacji.
-7.  Aby dodać ikonę:
+7.  Aby dodać ikonę   *
     1.  Naciśnij przycisk **Pixmap** **...**
     2.  Otworzy się okno dialogowe **Wybierz Ikonę**.
     3.  W razie potrzeby naciśnij przycisk **Folder ikonek...** aby dodać folder z ikonkami.
@@ -223,58 +223,58 @@ Jeśli chcesz korzystać z makrodefinicji pobranej z innego źródła, będziesz
 
 ### Spaceball ruchy 
 
-Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md). {{Top}}
+Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz   * [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md). {{Top}}
 
 ### Spaceball przyciski 
 
-Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md). {{Top}}
+Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz   * [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md). {{Top}}
 
 ## Motywy
 
-FreeCAD obsługuje kompletną personalizację interfejsu, poprzez arkusze stylów .qss. Format [qss](https://doc.qt.io/qt-5/stylesheet-syntax.html) jest bardzo podobny do formatu [css](https://en.wikipedia.org/wiki/CSS) używanego na stronach internetowych, w zasadzie dodaje więcej metod, aby odnieść się do różnych widżetów i elementów interfejsu Qt. Możesz zmienić obecny domyślny motyw *(który po prostu bierze styl zdefiniowany przez system pulpitu)* poprzez wybranie **arkusza stylów** w [Edytorze ustawień](Preferences_Editor/pl#Informacje_og.C3.B3lne.md).
+FreeCAD obsługuje kompletną personalizację interfejsu, poprzez arkusze stylów .qss. Format [qss](https   *//doc.qt.io/qt-5/stylesheet-syntax.html) jest bardzo podobny do formatu [css](https   *//en.wikipedia.org/wiki/CSS) używanego na stronach internetowych, w zasadzie dodaje więcej metod, aby odnieść się do różnych widżetów i elementów interfejsu Qt. Możesz zmienić obecny domyślny motyw *(który po prostu bierze styl zdefiniowany przez system pulpitu)* poprzez wybranie **arkusza stylów** w [Edytorze ustawień](Preferences_Editor/pl#Informacje_og.C3.B3lne.md).
 
-Możesz również stworzyć własny motyw, jeśli nie odpowiada Ci motyw dołączony do programu FreeCAD, na przykład poprzez edycję [istniejącego arkusza stylów](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Twój nowy styl musi być umieszczony w określonym folderze, aby został znaleziony przez FreeCAD:
+Możesz również stworzyć własny motyw, jeśli nie odpowiada Ci motyw dołączony do programu FreeCAD, na przykład poprzez edycję [istniejącego arkusza stylów](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Twój nowy styl musi być umieszczony w określonym folderze, aby został znaleziony przez FreeCAD   *
 
--    {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}}*(Linux)*.
+-    **$HOME/.FreeCAD/Gui/Stylesheets***(Linux)*.
 
--    {{FileName|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}*(MacOS)*.
+-    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets***(MacOS)*.
 
--    {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}}*(Windows)*. Lokalizację folderu {{FileName|%APPDATA%}} można uzyskać poprzez wpisanie {{Incode|App.getUserAppDataDir()}} w [konsoli Python](Python_console/pl.md).
+-    **%APPDATA%/FreeCAD/Gui/Stylesheets***(Windows)*. Lokalizację folderu **%APPDATA%** można uzyskać poprzez wpisanie {{Incode|App.getUserAppDataDir()}} w [konsoli Python](Python_console/pl.md).
 
 
 {{Top}}
 
 ## Dodatki
 
-Dodatki oferują jeszcze jeden sposób na dostosowanie interfejsu użytkownika. Poniżej znajduje się kilka dodatków stworzonych przez użytkowników w społeczności FreeCAD. Można je pobrać poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Menadżer dodatków](Std_AddonMgr/pl.md) *(uwaga: są one wymienione w zakładce Środowiska pracy)*.
+Dodatki oferują jeszcze jeden sposób na dostosowanie interfejsu użytkownika. Poniżej znajduje się kilka dodatków stworzonych przez użytkowników w społeczności FreeCAD. Można je pobrać poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Menadżer dodatków](Std_AddonMgr/pl.md) *(uwaga   * są one wymienione w zakładce Środowiska pracy)*.
 
 ### Menu kostki nawigacyjnej 
 
--   repozytorium Github: <https://github.com/triplus/CubeMenu>
+-   repozytorium Github   * <https   *//github.com/triplus/CubeMenu>
 
 ### Przeźroczystość
 
--   repozytorium Github: <https://github.com/triplus/Glass>
+-   repozytorium Github   * <https   *//github.com/triplus/Glass>
 
 ### Zestawy ikon 
 
--   repozytorium Github: <https://github.com/triplus/IconThemes>
+-   repozytorium Github   * <https   *//github.com/triplus/IconThemes>
 
 ### Starter
 
--   repozytorium Github: <https://github.com/triplus/Launcher>
+-   repozytorium Github   * <https   *//github.com/triplus/Launcher>
 
 ### PieMenu
 
--   repozytorium Github: <https://github.com/triplus/PieMenu>
+-   repozytorium Github   * <https   *//github.com/triplus/PieMenu>
 
 ### RemBench
 
--   repozytorium Github: <https://github.com/triplus/RemBench>
+-   repozytorium Github   * <https   *//github.com/triplus/RemBench>
 
 ### Skróty
 
--   repozytorium Github: <https://github.com/triplus/ShortCuts>
+-   repozytorium Github   * <https   *//github.com/triplus/ShortCuts>
 
 
 {{Top}}

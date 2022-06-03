@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Mesh Export
-   MenuLocation:Meshes → Export mesh...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Std Export](Std_Export.md), [Import Export](Import_Export.md)
+- GuiCommand   *
+   Name   *Mesh Export
+   MenuLocation   *Meshes → Export mesh...
+   Workbenches   *[Mesh](Mesh_Workbench.md)
+   SeeAlso   *[Std Export](Std_Export.md), [Import Export](Import_Export.md)
 ---
 
 # Mesh Export/pl
@@ -15,12 +15,12 @@ The **Mesh Export** command exports a mesh object to a mesh file format. Several
 ## Usage
 
 1.  Select a single mesh object.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Mesh_Export.svg" width=16px> [Mesh Export](Mesh_Export.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_Export.svg" width=16px> Export mesh...** option from the menu.
     -   Select the **<img src="images/Mesh_Export.svg" width=16px> Export mesh...** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
 3.  Select the correct file format in the dialog box.
-4.  Enter a filename. If you have selected the {{Value|All files (*.*)}} option in the previous step, and do not specify a file extension here, the {{FileName|.stl}} extension will be used.
+4.  Enter a filename. If you have selected the {{Value|All files (*.*)}} option in the previous step, and do not specify a file extension here, the **.stl** extension will be used.
 5.  Press the **Save** button.
 
 ## Notes
@@ -29,11 +29,11 @@ The **Mesh Export** command exports a mesh object to a mesh file format. Several
 
 ## Preferences
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 
-See also: [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To export objects (including mesh objects) to a mesh file format use the `export` method of the Mesh module.
 
@@ -44,7 +44,7 @@ import Mesh
 
 doc = FreeCAD.ActiveDocument
 
-Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
+Mesh.export([doc.Cone, doc.Cylinder], 'D   */testfiles/mymodel.stl')
 ```
 
 

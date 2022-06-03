@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:PartDesign Line
-   Name/it:Linea di riferimento
-   MenuLocation:Part Design → Linea di riferimento
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Punto di riferimento](PartDesign_Point/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
+- GuiCommand   */it
+   Name   *PartDesign Line
+   Name/it   *Linea di riferimento
+   MenuLocation   *Part Design → Linea di riferimento
+   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
+   Version   *0.17
+   SeeAlso   *[Punto di riferimento](PartDesign_Point/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
 ---
 
 # PartDesign Line/it
@@ -17,7 +17,7 @@
 
 Crea una **linea di riferimento** che può essere utilizzata come riferimento per schizzi, altre geometrie di riferimento o caratteristiche. Ad esempio può essere utilizzata come asse di rivoluzione per le funzioni Rivoluzione e Scanalatura.
 
-<img alt="" src=images/datum_line.png  style="width:600px;"> 
+<img alt="" src=images/datum_line.png  style="width   *600px;"> 
 *Due linee di riferimento attraverso gli angoli opposti del cubo si incontrano nel centro di massa.*
 
 ## Utilizzo
@@ -48,11 +48,11 @@ Fare doppio clic sull\'etichetta DatumLine nell\'albero del modello o fare clic 
 
 ## Proprietà
 
--    {{PropertyData/it|MapMode}}: elenca la modalità di associazione utilizzata.
+-    {{PropertyData/it|MapMode}}   * elenca la modalità di associazione utilizzata.
 
--    {{PropertyData/it|Attachment Offset}}: applica una trasformazione (traslazione e rotazione) in riferimento alla posizione di associazione.
+-    {{PropertyData/it|Attachment Offset}}   * applica una trasformazione (traslazione e rotazione) in riferimento alla posizione di associazione.
 
--    {{PropertyData/it|Label}}: nome dato all\'oggetto, questo nome può essere cambiato a piacere.
+-    {{PropertyData/it|Label}}   * nome dato all\'oggetto, questo nome può essere cambiato a piacere.
 
 
 <div class="mw-translate-fuzzy">

@@ -1,6 +1,8 @@
 # Category:Developer/bg
 This category contains articles that are relevant for developers.
 
+[Category   *Developer Documentation/bg](Category   *Developer_Documentation/bg.md) [Category   *Categories/bg](Category   *Categories/bg.md)
+
 ### Contents
 
 |     |     |     |

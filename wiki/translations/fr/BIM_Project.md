@@ -1,21 +1,21 @@
 ---
-- GuiCommand:Addon/fr
-   Name:BIM Project
-   Name/fr:BIM Project
-   Workbenches:[BIM](BIM_Workbench/fr.md)
-   Addon:BIM
-   MenuLocation:Manage → Manage project...
+- GuiCommand   *Addon/fr
+   Name   *BIM Project
+   Name/fr   *BIM Project
+   Workbenches   *[BIM](BIM_Workbench/fr.md)
+   Addon   *BIM
+   MenuLocation   *Manage → Manage project...
 ---
 
 # BIM Project/fr
 
 ## Description
 
-<img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_project_screenshot.png  style="width   *1024px;">
 
 La boîte de dialogue de configuration du projet est une boîte de dialogue d'assistant qui vous permet de créer un jeu d'objets de guidage dans le document actuel ou dans un nouveau document, ce qui vous aidera à démarrer la modélisation d'un projet BIM.
 
-La boîte de dialogue de configuration du projet peut créer:
+La boîte de dialogue de configuration du projet peut créer   *
 
 -   Un nouveau [document](Document_structure/fr.md). Sinon, les autres objets seront créés dans le document couramment ouvert.
 -   Un [Site](Arch_Site/fr.md). L\'objet Site représente un terrain sur lequel votre projet sera situé. Vous pouvez lui attribuer un certain nombre de propriétés utiles, telles que l\'adresse postale et les coordonnées de la terre. Lors de la création, le site est simplement un conteneur vide pour d\'autres objets BIM, mais un objet 3D représentant le terrain réel peut être associé ultérieurement.
@@ -26,7 +26,7 @@ La boîte de dialogue de configuration du projet peut créer:
 
 ## Modèles
 
-L\'outil Projet prend en charge deux types de modèles : Une fois que vous avez rempli les différentes options, le contenu de l\'assistant de configuration de projet BIM peut être **enregistré** en tant que modèle. Ces modèles peuvent être **restaurés** et adaptés ultérieurement. Les modèles de projet sont stockés sous forme de fichiers de texte brut dans votre dossier d'utilisateur FreeCAD.
+L\'outil Projet prend en charge deux types de modèles    * Une fois que vous avez rempli les différentes options, le contenu de l\'assistant de configuration de projet BIM peut être **enregistré** en tant que modèle. Ces modèles peuvent être **restaurés** et adaptés ultérieurement. Les modèles de projet sont stockés sous forme de fichiers de texte brut dans votre dossier d'utilisateur FreeCAD.
 
 Vous pouvez aussi enregistrer le contenu du document actuel en tant que modèle. Cela enregistrera le document actuellement ouvert en tant que fichier standard **.FCStd**, mais inclura également des paramètres BIM supplémentaires tels que l\'atelier actuel ou les unités actuelles. En utilisant l\'option de **restauration** à tout moment, le contenu de ce fichier modèle sera fusionné dans le document actif et tous les paramètres qui s\'y trouvent seront appliqués.
 

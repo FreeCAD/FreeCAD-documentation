@@ -9,7 +9,7 @@ This wiki page will document various aspect of running FreeCAD in the console wi
 
 As it\'s not possible to create or access the [view provider](Viewprovider.md) in headless mode. What\'s possible is to load `FreeCADGui` in headless mode but there is no way to access the GUI document because it won\'t be created and consequently there exist no view providers.
 
-However, what\'s possible is to create a [scenegraph](Scenegraph.md) representation of an object:
+However, what\'s possible is to create a [scenegraph](Scenegraph.md) representation of an object   *
 
 
 {{Code|lang=python|code=
@@ -18,26 +18,26 @@ from pivy import coin
 
 Gui.setupWithoutGUI()
 doc = App.newDocument()
-obj = doc.addObject("Part::Box","Box")
+obj = doc.addObject("Part   *   *Box","Box")
 doc.recompute()
 view = Gui.subgraphFromObject(obj)
 }}
 
-See: [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=481586#p481586).
+See   * [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=481586#p481586).
 
 ## Examples
 
 ### Searching FreeCAD Modules 
 
-1.  Open the terminal and type:
+1.  Open the terminal and type   *
 
-    :   
+       *   
         `$ /path/to/FreeCAD -c`
         
 
-        :   or
+           *   or
 
-    :   
+       *   
         `$ /path/to/FreeCADCmd`
         
 2.  A python shell will start with a prompt. Type `help()`.
@@ -48,6 +48,8 @@ See: [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=48
 
 -   [Embedding FreeCAD](Embedding_FreeCAD#Using_FreeCAD_without_GUI.md)
 -   [Start up and Configuration](Start_up_and_Configuration#Running_FreeCAD_without_GUI_(headless).md)
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

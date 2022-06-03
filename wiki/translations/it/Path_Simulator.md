@@ -1,6 +1,6 @@
 # Path Simulator/it
 ---
-- GuiCommand:/it   Name:Path Simulator   Name/it:Simulatore   Workbenches:[MenuLocation:Path → Simulatore CAM   SeeAlso:[[Path_Inspect/it|Ispeziona](Path_Workbench/it___Path]].md) ---
+- GuiCommand   */it   Name   *Path Simulator   Name/it   *Simulatore   Workbenches   *[MenuLocation   *Path → Simulatore CAM   SeeAlso   *[[Path_Inspect/it|Ispeziona](Path_Workbench/it___Path]].md) ---
 
 
 </div>
@@ -39,13 +39,13 @@ Questo strumento consente di simulare il percorso della lavorazione. Spazza i mo
 
 </div>
 
--    **Playback Speed**: La velocità di riproduzione della simulazione, in linee di codice G al secondo
+-    **Playback Speed**   * La velocità di riproduzione della simulazione, in linee di codice G al secondo
 
--    **Accuracy**: La precisione della simulazione espressa in percentuale che indica la deviazione delle simulazioni dalla lavorazione. Per la simulazione interattiva, riducendo la precisione a 0,3 funziona molto più velocemente.
+-    **Accuracy**   * La precisione della simulazione espressa in percentuale che indica la deviazione delle simulazioni dalla lavorazione. Per la simulazione interattiva, riducendo la precisione a 0,3 funziona molto più velocemente.
 
--    **Job**: La lavorazione usata come base della simulazione
+-    **Job**   * La lavorazione usata come base della simulazione
 
--    **Operation List**: L\'elenco delle operazioni selezionate per l\'inclusione nella simulazione.
+-    **Operation List**   * L\'elenco delle operazioni selezionate per l\'inclusione nella simulazione.
 
 
 

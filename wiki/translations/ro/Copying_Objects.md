@@ -19,7 +19,7 @@ Obiectele [Document](Document_structure.md) pot fi legate de alte obiecte (de ex
 
 ![](images/Copy_past_duplicate.png )
 
-Please consider that the copy-pasted objects are not dependent on the original. If you want dependent clones please use <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Draft Workbench\'s Clone](Draft_Clone.md) or <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [Part Design Workbench\'s Clone](PartDesign_Clone.md). If you need neither a dependent clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
+Please consider that the copy-pasted objects are not dependent on the original. If you want dependent clones please use <img alt="" src=images/Draft_Clone.svg  style="width   *24px;"> [Draft Workbench\'s Clone](Draft_Clone.md) or <img alt="" src=images/PartDesign_Clone.svg  style="width   *24px;"> [Part Design Workbench\'s Clone](PartDesign_Clone.md). If you need neither a dependent clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width   *24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
 
 ## Copying Linked Objects 
 
@@ -46,11 +46,11 @@ After the Copy/Paste operation, it may not be obvious where the new object(s) ar
 
 ## Alte Metode 
 
-Ca multe lucruri în FreeCAD, există multe modalități de a face o copie. Pentru mai multe idei, uitați-vă la:
+Ca multe lucruri în FreeCAD, există multe modalități de a face o copie. Pentru mai multe idei, uitați-vă la   *
 
--   PartDesign: [Mirror](PartDesign_Mirrored.md), [Linear Pattern](PartDesign_LinearPattern.md), [Polar Pattern](PartDesign_PolarPattern.md), [MultiTransform](PartDesign_MultiTransform.md)
--   Part: [Mirror](Part_Mirror.md), [Simple copy](Part_SimpleCopy.md)
--   Draft: [Offset](Draft_Offset.md), [Scale](Draft_Scale.md), [Array](Draft_Array.md), [PathArray](Draft_PathArray.md), [Clone](Draft_Clone.md), [Mirror](Draft_Mirror.md)
+-   PartDesign   * [Mirror](PartDesign_Mirrored.md), [Linear Pattern](PartDesign_LinearPattern.md), [Polar Pattern](PartDesign_PolarPattern.md), [MultiTransform](PartDesign_MultiTransform.md)
+-   Part   * [Mirror](Part_Mirror.md), [Simple copy](Part_SimpleCopy.md)
+-   Draft   * [Offset](Draft_Offset.md), [Scale](Draft_Scale.md), [Array](Draft_Array.md), [PathArray](Draft_PathArray.md), [Clone](Draft_Clone.md), [Mirror](Draft_Mirror.md)
 
 ## Notă
 

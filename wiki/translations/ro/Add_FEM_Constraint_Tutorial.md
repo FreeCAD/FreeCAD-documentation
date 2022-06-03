@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: 
-   Level: 
-   Time: 
-   Author:[M42kus](User_M42kus.md)
-   FCVersion:
-   Files:
+- TutorialInfo   */ro
+   Topic   * 
+   Level   * 
+   Time   * 
+   Author   *[M42kus](User_M42kus.md)
+   FCVersion   *
+   Files   *
 ---
 
 # Add FEM Constraint Tutorial/ro
@@ -22,68 +22,68 @@ Acest tutorial acoperă doar modul de implementare a constrângerilor în Python
 
 ## Sumar
 
-1.  **Create document object:** Obiectul documentului care se află în analiză și în care constrângerea poate fi parametrizată și legată de limite.
-2.  **Create GUI command:** Adăugați o comandă la atelierul FEM care adaugă o constrângere a fluxului la analiza activă.
-3.  **Create a task panel:** Panoul de sarcini este necesar pentru a permite utilizatorului să definească limitele la care dorește să definească constrângerea de viteză. Acest lucru face ca intrarea parametrilor să fie mai ușor de utilizat.
-4.  **Extend elmers writer:** Adăugați suport pentru noua constrângere modulul Elmer FEM solver prin dezactivarea exportatorului de fișiere sif.
+1.  **Create document object   *** Obiectul documentului care se află în analiză și în care constrângerea poate fi parametrizată și legată de limite.
+2.  **Create GUI command   *** Adăugați o comandă la atelierul FEM care adaugă o constrângere a fluxului la analiza activă.
+3.  **Create a task panel   *** Panoul de sarcini este necesar pentru a permite utilizatorului să definească limitele la care dorește să definească constrângerea de viteză. Acest lucru face ca intrarea parametrilor să fie mai ușor de utilizat.
+4.  **Extend elmers writer   *** Adăugați suport pentru noua constrângere modulul Elmer FEM solver prin dezactivarea exportatorului de fișiere sif.
 
 ## Crearea Documentului Obiect 
 
-În acest pas vom modifica următoarele fișiere:
+În acest pas vom modifica următoarele fișiere   *
 
--    {{FileName|src/Mod/Fem/CMakeLists.txt}}
+-    **src/Mod/Fem/CMakeLists.txt**
     
 
--    {{FileName|src/Mod/Fem/App/CMakeLists.txt}}
+-    **src/Mod/Fem/App/CMakeLists.txt**
     
 
--    {{FileName|src/Mod/Fem/ObjectsFem.py}}
+-    **src/Mod/Fem/ObjectsFem.py**
     
 
-și adăugați următoarele fișiere:
+și adăugați următoarele fișiere   *
 
--    {{FileName|src/Mod/Fem/femobjects/constraint_flowvelocity.py}}
+-    **src/Mod/Fem/femobjects/constraint_flowvelocity.py**
     
 
--    {{FileName|src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py}}
+-    **src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py**
     
 
 Un document proxy și o vedere proxy sunt necesare pentru noua constrângere. Acestea se află în module separate. Proxy documentul în PyObjects și vederea proxy în PyGui. Trebuie doar să copiați modulele dintr-o constrângere existentă, de ex.
 
--    {{FileName|femobjects/constraint_selfweight.py}}
+-    **femobjects/constraint_selfweight.py**
     
 
--    {{FileName|femviewprovider/view_constraint_selfweight.py}}
+-    **femviewprovider/view_constraint_selfweight.py**
     
 
-Reglați tipul de variabilă și proprietățile la nevoile dvs. Proxy-ul documentului al constrângerii fluxului arată după cum urmează:
+Reglați tipul de variabilă și proprietățile la nevoile dvs. Proxy-ul documentului al constrângerii fluxului arată după cum urmează   *
 
 
 ```python
-class Proxy(FemConstraint.Proxy):
-    Type = "Fem::ConstraintFlowVelocity"
-    def __init__(self, obj):
+class Proxy(FemConstraint.Proxy)   *
+    Type = "Fem   *   *ConstraintFlowVelocity"
+    def __init__(self, obj)   *
         super(Proxy, self).__init__(obj)
         obj.addProperty(
-            "App::PropertyFloat", "VelocityX",
+            "App   *   *PropertyFloat", "VelocityX",
             "Parameter", "Body heat flux")
         obj.addProperty(
-            "App::PropertyBool", "VelocityXEnabled",
+            "App   *   *PropertyBool", "VelocityXEnabled",
             "Parameter", "Body heat flux")
         obj.addProperty(
-            "App::PropertyFloat", "VelocityY",
+            "App   *   *PropertyFloat", "VelocityY",
             "Parameter", "Body heat flux")
         obj.addProperty(
-            "App::PropertyBool", "VelocityYEnabled",
+            "App   *   *PropertyBool", "VelocityYEnabled",
             "Parameter", "Body heat flux")
         obj.addProperty(
-            "App::PropertyFloat", "VelocityZ",
+            "App   *   *PropertyFloat", "VelocityZ",
             "Parameter", "Body heat flux")
         obj.addProperty(
-            "App::PropertyBool", "VelocityZEnabled",
+            "App   *   *PropertyBool", "VelocityZEnabled",
             "Parameter", "Body heat flux")
         obj.addProperty(
-            "App::PropertyBool", "NormalToBoundary",
+            "App   *   *PropertyBool", "NormalToBoundary",
             "Parameter", "Body heat flux")
 ```
 
@@ -91,22 +91,22 @@ Modulul care conține proxy-ul ar putea părea puțin mai complicat. Dar pentru 
 
 
 ```python
-class ViewProxy(FemConstraint.ViewProxy):
-    def getIcon(self):
-        return ":/icons/fem-constraint-flow-velocity.svg"
+class ViewProxy(FemConstraint.ViewProxy)   *
+    def getIcon(self)   *
+        return "   */icons/fem-constraint-flow-velocity.svg"
 ```
 
-Adăugați cele două module noi la construirea sistemului descrisă în [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Găsiți lista de căutare corectă pentru modulele de constrângere.
+Adăugați cele două module noi la construirea sistemului descrisă în [Extend FEM Module](https   *//www.freecadweb.org/wiki/Extend_FEM_Module). Găsiți lista de căutare corectă pentru modulele de constrângere.
 
 Ca toate obiectele din bancul de lucru FEM, constrângerile de viteză trebuie să fie înregistrate ObjectsFem.py. Următoarea metodă adaugă viteza documentului activ. Această metodă va fi utilizată de comanda GUI pentru a adăuga constrângerea. Trebuie să fie inserat undeva în ObjectsFem.py.
 
 
 ```python
-def makeConstraintFlowVelocity(name="FlowVelocity"):
-    obj = FreeCAD.ActiveDocument.addObject("Fem::ConstraintPython", name)
+def makeConstraintFlowVelocity(name="FlowVelocity")   *
+    obj = FreeCAD.ActiveDocument.addObject("Fem   *   *ConstraintPython", name)
     import femobjects.constraint_flowvelocity
     femobjects.constraint_flowvelocity.Proxy(obj)
-    if FreeCAD.GuiUp:
+    if FreeCAD.GuiUp   *
         import femviewprovider.view_constraint_flowvelocity
         femviewprovider.view_constraint_flowvelocity.ViewProxy(obj.ViewObject)
     return obj
@@ -114,41 +114,41 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
 
 ## Creează o camandă GUI 
 
-În acest pas vom modifica următoarele fișiere:
+În acest pas vom modifica următoarele fișiere   *
 
--    {{FileName|src/Mod/Fem/CMakeLists.txt}}
+-    **src/Mod/Fem/CMakeLists.txt**
     
 
--    {{FileName|src/Mod/Fem/App/CMakeLists.txt}}
+-    **src/Mod/Fem/App/CMakeLists.txt**
     
 
--    {{FileName|src/Mod/Fem/Gui/Workbench.cpp}}
+-    **src/Mod/Fem/Gui/Workbench.cpp**
     
 
-și adăugați următorul fișier nou:
+și adăugați următorul fișier nou   *
 
--    {{FileName|src/Mod/Fem/femobjects/constraint_flowvelocity.py}}
+-    **src/Mod/Fem/femobjects/constraint_flowvelocity.py**
     
 
 Comanda permite utilizatorului să adauge constrângerea la analiza activă. Trebuie doar să copiați o comandă dintr-o constrângere existentă. Commands reside in the PyGui package. Ajustați resursele și efectuați metoda numită Activat la nevoile dvs. Utilizați, de asemenea, o comandă diferită id in the addCommand apel în partea de jos a modulului. Următoarea clasă este clasa constrângerii vitezei.
 
 
 ```python
-class Command(FemCommands.FemCommands):
+class Command(FemCommands.FemCommands)   *
 
-    def __init__(self):
+    def __init__(self)   *
         super(Command, self).__init__()
         self.resources = {
-            'Pixmap': 'fem-constraint-flow-velocity',
-            'MenuText': QtCore.QT_TRANSLATE_NOOP(
+            'Pixmap'   * 'fem-constraint-flow-velocity',
+            'MenuText'   * QtCore.QT_TRANSLATE_NOOP(
                 "FEM_ConstraintFlowVelocity",
                 "Constraint Velocity"),
-            'ToolTip': QtCore.QT_TRANSLATE_NOOP(
+            'ToolTip'   * QtCore.QT_TRANSLATE_NOOP(
                 "FEM_ConstraintFlowVelocity",
                 "Creates a FEM constraint body heat flux")}
         self.is_active = 'with_analysis'
 
-    def Activated(self):
+    def Activated(self)   *
         App.ActiveDocument.openTransaction(
             "Create FemConstraintFlowVelocity")
         Gui.addModule("ObjectsFem")
@@ -159,15 +159,15 @@ class Command(FemCommands.FemCommands):
 Gui.addCommand('FEM_AddConstraintFlowVelocity', Command())
 ```
 
-Adăugați noua comandă în sistem așa cum este încorporată [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Identificați lista corectă pentru a căuta modulele de comandă existente.
+Adăugați noua comandă în sistem așa cum este încorporată [Extend FEM Module](https   *//www.freecadweb.org/wiki/Extend_FEM_Module). Identificați lista corectă pentru a căuta modulele de comandă existente.
 
 Puneți o comandă în Gui/Workbench.cpp pentru a o adăuga în bara de instrumente și în meniu. Căutați o constrângere existentă din aceeași categorie ca cea nouă (de exemplu, Flow) copiați-o și adaptați id-ul comenzii. Acest lucru ar trebui făcut de două ori. Odată pentru meniu și din nou pentru bara de instrumente.
 
 ## Creara Task Panel 
 
-În acest pas vom modifica următorul fișier:
+În acest pas vom modifica următorul fișier   *
 
--    {{FileName|src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py}}
+-    **src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py**
     
 
 În obiectele de constrângere FreeCAD beneficiați foarte mult de panourile de sarcini. Tsolicită panourile pot utiliza mai multe widget-uri de intrare mai puternice care expun unitatea de valori introduse direct către utilizator. Constrângerea de viteză presupune chiar utilizarea unui task panel(panou de sarcini), deoarece un panou de sarcini este singura modalitate de a specifica fața pe care trebuie aplicată constrângerea.
@@ -178,9 +178,9 @@ Majoritatea timpului ar trebui să fie suficient, trebuie doar să utilizați ac
 
 
 ```python
-class _TaskPanel(object):
+class _TaskPanel(object)   *
 
-    def __init__(self, obj):
+    def __init__(self, obj)   *
         self._obj = obj
         self._refWidget = FemSelectionWidgets.BoundarySelector()
         # self._refWidget = FemSelectionWidgets.SolidSelector()
@@ -190,42 +190,42 @@ class _TaskPanel(object):
         self._initParamWidget()
         self.form = [self._refWidget, self._paramWidget]
         analysis = FemMisc.findAnalysisOfMember(obj)
-        self._mesh = FemMisc.getSingleMember(analysis, "Fem::FemMeshObject")
+        self._mesh = FemMisc.getSingleMember(analysis, "Fem   *   *FemMeshObject")
         self._part = self._mesh.Part if self._mesh is not None else None
         self._partVisible = None
         self._meshVisible = None
 
-    def open(self):
-        if self._mesh is not None and self._part is not None:
+    def open(self)   *
+        if self._mesh is not None and self._part is not None   *
             self._meshVisible = self._mesh.ViewObject.isVisible()
             self._partVisible = self._part.ViewObject.isVisible()
             self._mesh.ViewObject.hide()
             self._part.ViewObject.show()
 
-    def reject(self):
+    def reject(self)   *
         self._restoreVisibility()
         return True
 
-    def accept(self):
-        if self._obj.References != self._refWidget.references():
+    def accept(self)   *
+        if self._obj.References != self._refWidget.references()   *
             self._obj.References = self._refWidget.references()
         self._applyWidgetChanges()
         self._obj.Document.recompute()
         self._restoreVisibility()
         return True
 
-    def _restoreVisibility(self):
-        if self._mesh is not None and self._part is not None:
-            if self._meshVisible:
+    def _restoreVisibility(self)   *
+        if self._mesh is not None and self._part is not None   *
+            if self._meshVisible   *
                 self._mesh.ViewObject.show()
-            else:
+            else   *
                 self._mesh.ViewObject.hide()
-            if self._partVisible:
+            if self._partVisible   *
                 self._part.ViewObject.show()
-            else:
+            else   *
                 self._part.ViewObject.hide()
 
-    def _initParamWidget(self):
+    def _initParamWidget(self)   *
         unit = "m/s"
         self._paramWidget.velocityXTxt.setText(
             str(self._obj.VelocityX) + unit)
@@ -242,21 +242,21 @@ class _TaskPanel(object):
         self._paramWidget.normalBox.setChecked(
             self._obj.NormalToBoundary)
 
-    def _applyWidgetChanges(self):
+    def _applyWidgetChanges(self)   *
         unit = "m/s"
         self._obj.VelocityXEnabled = \
             not self._paramWidget.velocityXBox.isChecked()
-        if self._obj.VelocityXEnabled:
+        if self._obj.VelocityXEnabled   *
             quantity = Units.Quantity(self._paramWidget.velocityXTxt.text())
             self._obj.VelocityX = float(quantity.getValueAs(unit))
         self._obj.VelocityYEnabled = \
             not self._paramWidget.velocityYBox.isChecked()
-        if self._obj.VelocityYEnabled:
+        if self._obj.VelocityYEnabled   *
             quantity = Units.Quantity(self._paramWidget.velocityYTxt.text())
             self._obj.VelocityY = float(quantity.getValueAs(unit))
         self._obj.VelocityZEnabled = \
             not self._paramWidget.velocityZBox.isChecked()
-        if self._obj.VelocityZEnabled:
+        if self._obj.VelocityZEnabled   *
             quantity = Units.Quantity(self._paramWidget.velocityZTxt.text())
             self._obj.VelocityZ = float(quantity.getValueAs(unit))
         self._obj.NormalToBoundary = self._paramWidget.normalBox.isChecked()
@@ -266,20 +266,20 @@ Proxy-ul de vizualizare trebuie extins pentru a sprijini panoul de sarcini pe ca
 
 
 ```python
-class ViewProxy(FemConstraint.ViewProxy):
+class ViewProxy(FemConstraint.ViewProxy)   *
 
-    def getIcon(self):
-        return ":/icons/fem-constraint-flow-velocity.svg"
+    def getIcon(self)   *
+        return "   */icons/fem-constraint-flow-velocity.svg"
 
-    def setEdit(self, vobj, mode=0):
+    def setEdit(self, vobj, mode=0)   *
         task = _TaskPanel(vobj.Object)
         Gui.Control.showDialog(task)
 
-    def unsetEdit(self, vobj, mode=0):
+    def unsetEdit(self, vobj, mode=0)   *
         Gui.Control.closeDialog()
 
-    def doubleClicked(self, vobj):
-        if Gui.Control.activeDialog():
+    def doubleClicked(self, vobj)   *
+        if Gui.Control.activeDialog()   *
             Gui.Control.closeDialog()
         Gui.ActiveDocument.setEdit(vobj.Object.Name)
         return True
@@ -287,32 +287,34 @@ class ViewProxy(FemConstraint.ViewProxy):
 
 ## Extensia Elmer FEM solver Writer 
 
-În acest pas vom modifica următorul fișier:
+În acest pas vom modifica următorul fișier   *
 
--    {{FileName|src/Mod/Fem/femsolver/elmer/writer.py}}
+-    **src/Mod/Fem/femsolver/elmer/writer.py**
     
 
 Modulul de scriere conține metode pentru toate tipurile de ecuații. În funcție de tipul de restricție, de condiția de limită, de starea inițială sau de forța corpului, trebuie modificate diferite metode. Pentru viteza fluxului nostru trebuie să ne ajustăm \_handleFlowBndConditions(\...).
 
 
 ```python
-def _handleFlowBndConditions(self):
-    for obj in self._getMember("Fem::ConstraintFlowVelocity"):
-        if obj.References:
-            for name in obj.References[0][1]:
-                if obj.VelocityXEnabled:
+def _handleFlowBndConditions(self)   *
+    for obj in self._getMember("Fem   *   *ConstraintFlowVelocity")   *
+        if obj.References   *
+            for name in obj.References[0][1]   *
+                if obj.VelocityXEnabled   *
                     velocity = getFromUi(obj.VelocityX, "m/s", "L/T")
                     self._boundary(name, "Velocity 1", velocity)
-                if obj.VelocityYEnabled:
+                if obj.VelocityYEnabled   *
                     velocity = getFromUi(obj.VelocityY, "m/s", "L/T")
                     self._boundary(name, "Velocity 2", velocity)
-                if obj.VelocityZEnabled:
+                if obj.VelocityZEnabled   *
                     velocity = getFromUi(obj.VelocityZ, "m/s", "L/T")
                     self._boundary(name, "Velocity 3", velocity)
-                if obj.NormalToBoundary:
+                if obj.NormalToBoundary   *
                     self._boundary(name, "Normal-Tangential Velocity", True)
             self._handled(obj)
 ```
+
+[Category   *FEM](Category_FEM.md)
 
 
 

@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:EM FHEquiv
-   Name/fr:EM Equivalence FH
-   MenuLocation:EM → FHEquiv
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **E**
-   Version:0.17
-   SeeAlso:[EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Port FH](EM_FHPort/fr.md)
+- GuiCommand   */fr
+   Name   *EM FHEquiv
+   Name/fr   *EM Equivalence FH
+   MenuLocation   *EM → FHEquiv
+   Workbenches   *[EM](EM_Workbench/fr.md)
+   Shortcut   ***E** **E**
+   Version   *0.17
+   SeeAlso   *[EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Port FH](EM_FHPort/fr.md)
 ---
 
 # EM FHEquiv/fr
@@ -25,7 +25,7 @@ L\'outil Equivalence FH court-circuite deux objets Noeud FH.
 
 L\'objet Equivalence FH est basé sur les deux Noeuds FH existants qu\'il court-circuitera.
 
-1.  Sélectionnez deux <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [Noeud FH](EM_FHNode/fr.md) objets
+1.  Sélectionnez deux <img alt="" src=images/EM_FHNode.svg  style="width   *16px;"> [Noeud FH](EM_FHNode/fr.md) objets
 2.  Appuyez sur le bouton **<img src="images/EM_FHEquiv.svg" width=16px> [EM FHEquiv](EM_FHEquiv/fr.md)** ou appuyez sur les touches **E** puis **E**.
 
 ### Remarques
@@ -34,18 +34,18 @@ L\'objet Equivalence FH est basé sur les deux Noeuds FH existants qu\'il court-
 
 ## Propriétés
 
--    **Node1**: le premier [Noeud FH](EM_FHNode/fr.md) à court-circuiter
+-    **Node1**   * le premier [Noeud FH](EM_FHNode/fr.md) à court-circuiter
 
--    **Node2**: le deuxième [Noeud FH](EM_FHNode/fr.md) à court-circuiter
+-    **Node2**   * le deuxième [Noeud FH](EM_FHNode/fr.md) à court-circuiter
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Equivalence FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil Equivalence FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   *
 
 
 ```python
@@ -63,7 +63,7 @@ equiv = makeFHEquiv(node1=None,node2=None,name='FHEquiv')
         
         est le nom de l\'objet
 
-Exemple:
+Exemple   *
 
 
 ```python

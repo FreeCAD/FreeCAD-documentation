@@ -7,10 +7,10 @@
 |Version=1.0
 |Date=2014-12-22
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/a/a0/Macro_Arch_Axis_System_Repartition.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/a/a0/Macro_Arch_Axis_System_Repartition.png ToolBar Icon]
 }}
 
-<img alt="" src=images/ArchAxisSystemRepartition.png  style="width:480px;"> 
+<img alt="" src=images/ArchAxisSystemRepartition.png  style="width   *480px;"> 
 *ArchAxisSystemRepartition*
 
 ## Description
@@ -21,13 +21,13 @@ This macro help you to create an Arch Axis System along a line with a set of par
 
 -   Launch the macro with or without selected line.
 -   A Gui TaskPanel set up in the task widget.
--   Set the lenght : if a line is selected, setting length actualize and forced to the line length ; if there is nothing selected the length can be changed.
+-   Set the lenght    * if a line is selected, setting length actualize and forced to the line length ; if there is nothing selected the length can be changed.
 -   Set the desired regular spacing ; the number of divide and left spacing are automatically calculating.
 -   Or set the desired number of divide quantity ; this make an equal divide with no left spacing.
 -   Choose if you want the left spacing to be at the beginning of the repartition or at the end or each side equal.
 -   Check if you want a piece at the begging of the line, you can set an offset (end line direction).
 -   Check if you want a piece at the begging of the line, you can set an offset (start line direction).
--   To validate clic on Ok button :
+-   To validate clic on Ok button    *
 -   If a line is selected the Arch Axis System take the placement of the line else the placement is 0.0.0.
 -   If you have the FreeCAD-Library gui open, the FCStd or Step file selected is imported and a Structural System is made.
 
@@ -39,7 +39,7 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 
 
     #!/usr/bin/env python
-    # -*- coding: utf-8 -*-
+    # -*- coding   * utf-8 -*-
 
     #***************************************************************************
     #*                                                                         *
@@ -65,7 +65,7 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 
     __title__="Repartition"
     __author__ = "Jonathan Wiedemann"
-    __url__ = "http://www.freecad-france.com"
+    __url__ = "http   *//www.freecad-france.com"
 
     import FreeCAD, FreeCADGui, DraftGeomUtils, DraftVecUtils
     import Arch
@@ -73,8 +73,8 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
     import math
     from PySide import QtCore, QtGui
 
-    class _RepartitionTaskPanel:
-        def __init__(self):
+    class _RepartitionTaskPanel   *
+        def __init__(self)   *
             self.title = QtGui.QLabel('Repartition')
             self.grid = QtGui.QGridLayout()
             self.grid.addWidget(self.title, 1, 0)
@@ -84,10 +84,10 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
             self.dSBLongueur = QtGui.QDoubleSpinBox()
             self.dSBLongueur.setRange(0., 9999999.)
             self.sel = FreeCADGui.Selection.getSelection()
-            if self.sel:
+            if self.sel   *
                 self.longueur = self.sel[0].Shape.Length
                 self.dSBLongueur.setValue(self.longueur)
-            else:
+            else   *
                 self.dSBLongueur.setValue(5000.)
 
             self.grid.addWidget(self.longueurLabel, 2, 0)
@@ -152,11 +152,11 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
             QtCore.QObject.connect(self.combobox,QtCore.SIGNAL("currentIndexChanged(int)"),self.afficherResultats)
             self.changerLongueur()
 
-        def recupererDonnees(self):
+        def recupererDonnees(self)   *
             self.sel = FreeCADGui.Selection.getSelection()
-            if self.sel:
+            if self.sel   *
                 self.longueur = self.sel[0].Shape.Length
-            else:
+            else   *
                 self.longueur = self.dSBLongueur.value()
             self.ecartementRegulier = self.ecartementDSB.value()
             self.qteEcartement = self.qteSB.value()
@@ -167,22 +167,22 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
             self.objetFin = self.finRepartitionCB.isChecked()
             self.decalageFin = self.decalageFinDSB.value()
 
-        def changerLongueur(self):
+        def changerLongueur(self)   *
             self.recupererDonnees()
             self.qteEcartement = int(math.ceil(self.longueur/self.ecartementRegulier))
             self.afficherResultats()
 
-        def changerEcartement(self):
+        def changerEcartement(self)   *
             self.recupererDonnees()
             self.qteEcartement = int(math.ceil(self.longueur/self.ecartementRegulier))
             self.afficherResultats()
 
-        def changerQte(self):
+        def changerQte(self)   *
             self.recupererDonnees()
             self.ecartementRegulier = self.longueur/self.qteEcartement
             self.afficherResultats()
 
-        def afficherResultats(self):
+        def afficherResultats(self)   *
             self.dSBLongueur.blockSignals(True)
             self.dSBLongueur.setValue(self.longueur)
             self.dSBLongueur.blockSignals(False)
@@ -197,32 +197,32 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
             self.qteSB.blockSignals(False)
 
             self.espaceRestant = self.longueur - (self.qteEcartement-1) * self.ecartementRegulier
-            if round(self.espaceRestant,2) == round(self.ecartementRegulier,2):
+            if round(self.espaceRestant,2) == round(self.ecartementRegulier,2)   *
                 self.espaceRestant = 0.
-            if self.combobox.currentIndex() == 2:
+            if self.combobox.currentIndex() == 2   *
                 self.infoText.setText( str('Espace restant = 2 x ') + str(round(self.espaceRestant/2,2)) + str(' mm') )
-            else:
+            else   *
                 self.infoText.setText( str('Espace restant = ') + str(round(self.espaceRestant,2)) + str(' mm') )
 
-        def accept(self):
+        def accept(self)   *
             self.recupererDonnees()
             distancesListe = []
-            if self.objetDebut:
+            if self.objetDebut   *
                 distancesListe.append(self.decalageDebut)
-            if self.plEspaceRestant == 0:
+            if self.plEspaceRestant == 0   *
                 distancesListe.append(self.espaceRestant)
-            if self.plEspaceRestant == 1:
+            if self.plEspaceRestant == 1   *
                 distancesListe.append(self.ecartementRegulier-self.decalageDebut)
-            if self.plEspaceRestant == 2:
+            if self.plEspaceRestant == 2   *
                 distancesListe.append(self.espaceRestant/2-self.decalageDebut)
-            for i in range(self.qteEcartement-2):
+            for i in range(self.qteEcartement-2)   *
                 distancesListe.append(self.ecartementRegulier)
-            if self.objetFin:
-                if self.plEspaceRestant == 0:
+            if self.objetFin   *
+                if self.plEspaceRestant == 0   *
                     distancesListe.append(self.ecartementRegulier-self.decalageFin-self.decalageDebut)
-                if self.plEspaceRestant == 1:
+                if self.plEspaceRestant == 1   *
                     distancesListe.append(self.espaceRestant-self.decalageFin)
-                if self.plEspaceRestant == 2:
+                if self.plEspaceRestant == 2   *
                     distancesListe.append(self.ecartementRegulier)
                     distancesListe.append((self.espaceRestant/2)-self.decalageFin)
             repartition = Arch.makeAxis(num=len(distancesListe), name="Repartition")
@@ -230,33 +230,33 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
             repartition.Distances= distancesListe
 
             self.sel = FreeCADGui.Selection.getSelection()
-            if self.sel:
+            if self.sel   *
                 edges = DraftGeomUtils.sortEdges(self.sel[0].Shape.Wires[0].Edges)
                 vec1 = edges[0].Vertexes[-1].Point.sub(edges[0].Vertexes[0].Point)
                 point1 = edges[0].Vertexes[0].Point
                 rot = math.degrees(DraftVecUtils.angle(vec1))*-1
                 repartition.Placement = App.Placement(App.Vector(point1),App.Rotation(App.Vector(0.0,0.0,1.0),rot))
                 FreeCAD.ActiveDocument.recompute()
-            else:
+            else   *
                 repartition.Placement = App.Placement(App.Vector(0.0,0.0,0.0),App.Rotation(App.Vector(0.0,0.0,1.0),0))
 
             m = FreeCADGui.getMainWindow()
             w = m.findChild(QtGui.QDockWidget,"PartsLibrary")
-            if w:
-                if w.isVisible():
+            if w   *
+                if w.isVisible()   *
                     index = w.folder_view.selectedIndexes()[0]
                     path = w.dirmodel.filePath(index)
-                    if path.lower().endswith(".stp") or path.lower().endswith(".step") or path.lower().endswith(".brep"):
+                    if path.lower().endswith(".stp") or path.lower().endswith(".step") or path.lower().endswith(".brep")   *
                         objetRepartit = Part.show(Part.read(path))
-                    else:
+                    else   *
                         objetRepartit = FreeCADGui.ActiveDocument.mergeProject(path)
                     repartitionStructurel = Arch.makeStructuralSystem([FreeCAD.ActiveDocument.Objects[-1],],[repartition,], name="RepartitionStructurelle")
             return True
 
-        def reject(self):
+        def reject(self)   *
             return True
 
-        def getStandardButtons(self):
+        def getStandardButtons(self)   *
             return int(QtGui.QDialogButtonBox.Ok|QtGui.QDialogButtonBox.Cancel)
 
 
@@ -265,9 +265,9 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 
 ## Links
 
--   Video [Macro in action](https://www.youtube.com/watch?v=jfDTkH9-I5Q)
+-   Video [Macro in action](https   *//www.youtube.com/watch?v=jfDTkH9-I5Q)
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
--   Github [Macro wood galaxy](https://github.com/wood-galaxy/FreeCAD-scripts)
+-   Github [Macro wood galaxy](https   *//github.com/wood-galaxy/FreeCAD-scripts)
 
 
 

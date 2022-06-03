@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Part ShapeFromMesh‏‎
-   Name/ro:Part ShapeFromMesh‏‎
-   MenuLocation:Part → Create shape from mesh...
-   Workbenches:[Part](Part_Workbench/ro.md)
-   SeeAlso:[Part ConvertToSolid](Part_MakeSolid/ro.md), [Part RefineShape](Part_RefineShape/ro.md), [Part PointsFromMesh](Part_PointsFromMesh/ro.md)
+- GuiCommand   */ro
+   Name   *Part ShapeFromMesh‏‎
+   Name/ro   *Part ShapeFromMesh‏‎
+   MenuLocation   *Part → Create shape from mesh...
+   Workbenches   *[Part](Part_Workbench/ro.md)
+   SeeAlso   *[Part ConvertToSolid](Part_MakeSolid/ro.md), [Part RefineShape](Part_RefineShape/ro.md), [Part PointsFromMesh](Part_PointsFromMesh/ro.md)
 ---
 
 # Part ShapeFromMesh/ro
@@ -21,7 +21,7 @@ Această comandă creează o formă dintr-un [mesh object](Glossary#Mesh.md) . O
 
 </div>
 
-The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
+The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width   *16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width   *24px;"> [Mesh Workbench](Mesh_Workbench.md).
 
 ## Usage
 
@@ -32,7 +32,7 @@ The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:
 
 1.  Selectați obeictul tip plasă.
 2.  Choose ** Part** → **<img src="images/Part_ShapeFromMesh.png" width=32px> Create shape from mesh ...** from the top menu.
-3.  A popup-menu will ask for the tolerance for sewing shape (default value: 0,1)
+3.  A popup-menu will ask for the tolerance for sewing shape (default value   * 0,1)
 4.  A shape from the mesh object is created as a seperate new object.
 
 
@@ -50,11 +50,11 @@ Appropriate tools are available in the [Mesh Workbench](Mesh_Workbench.md).
 
 </div>
 
-After creation of a [Shape](Shape.md), it may be useful to use **[Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
+After creation of a [Shape](Shape.md), it may be useful to use **[Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width   *16px"> [Refine shape](Part_RefineShape.md)**.
 
 ## Links
 
--   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+-   [Edit STL Files In FreeCAD](https   *//www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
 
 ## Scripting
 
@@ -68,10 +68,10 @@ import FreeCAD as App
 import Part
 
 doc = App.newDocument()
-mesh = doc.addObject("Mesh::Cube", "Mesh")
+mesh = doc.addObject("Mesh   *   *Cube", "Mesh")
 mesh.recompute()
 
-solid = doc.addObject("Part::Feature", "Shape")
+solid = doc.addObject("Part   *   *Feature", "Shape")
 shape = Part.Shape()
 shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
 

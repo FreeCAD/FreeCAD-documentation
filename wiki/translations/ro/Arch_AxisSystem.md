@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Arch AxisSystem
-   Name/ro:Arch AxisSystem
-   MenuLocation:Arch → Axis System
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   SeeAlso:[Arch Axis](Arch_Axis/ro.md), [Grid](Arch_Grid/ro.md)
+- GuiCommand   */ro
+   Name   *Arch AxisSystem
+   Name/ro   *Arch AxisSystem
+   MenuLocation   *Arch → Axis System
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   SeeAlso   *[Arch Axis](Arch_Axis/ro.md), [Grid](Arch_Grid/ro.md)
 ---
 
 # Arch AxisSystem/ro
@@ -24,7 +24,7 @@ Instrumentul Axis System vă permite să combinați 2 sau 3 obiecte [Arch Axis](
 
 This is useful to define the intersection points between the different axes. Arch objects can then use this system to duplicate their shape on the different intersection points.
 
-<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ This is useful to define the intersection points between the different axes. Arc
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Axis System poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție:
+Instrumentul Axis System poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție   *
 
 
 </div>

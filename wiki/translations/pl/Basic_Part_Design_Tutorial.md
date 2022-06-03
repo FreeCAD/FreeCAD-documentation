@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Modelowanie
-   Level:Początkujący
-   Author:Mark Stephen ([Quick61](User_Quick61.md)) oraz HarryGeier ([HarryGeier](User_HarryGeier.md))
-   Time:poniżej godziny
-   FCVersion:0.17 lub nowszy
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
+- TutorialInfo   */pl
+   Topic   *Modelowanie
+   Level   *Początkujący
+   Author   *Mark Stephen ([Quick61](User_Quick61.md)) oraz HarryGeier ([HarryGeier](User_HarryGeier.md))
+   Time   *poniżej godziny
+   FCVersion   *0.17 lub nowszy
+   Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
 ---
 
 # Basic Part Design Tutorial/pl
@@ -18,7 +18,7 @@ Ten poradnik zapozna nowego użytkownika z niektórymi narzędziami i technikami
 
 ![](images/Tut17_final_refined.png )
 
-Nagranie wideo przedstawiające całą konstrukcję znajduje się tutaj: <https://youtu.be/geIrH1cOCzc>
+Nagranie wideo przedstawiające całą konstrukcję znajduje się tutaj   * <https   *//youtu.be/geIrH1cOCzc>
 
 *(każda sekcja ma swój własny podział Wideo poniżej)*
 
@@ -40,38 +40,38 @@ Zacznij od upewnienia się, że jesteś w obszarze stanowiska pracy Part Design.
 
 Wszystkie prace w środowisku Projekt Części rozpoczynają się od stworzenia Zawartości - [Body](Glossary#Body.md). Następnie zbudujemy bryłę wewnątrz korpusu zaczynając od [szkicu](Glossary#Sketch.md).
 
-1.  Kliknij na przycisk <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Utwórz nowa zawartość](PartDesign_Body/pl.md), aby stworzyć i aktywować nowy obiekt Body. \'\'Uwaga: ten krok może zostać pominięty. Podczas tworzenia szkicu, jeśli nie znaleziono istniejącego korpusu *(obiektu Body)*, nowy zostanie automatycznie utworzony i aktywowany.\'\'
-2.  Kliknij na <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Utwórz nowy szkic](PartDesign_NewSketch/pl.md) W ten sposób powstanie szkic w obrębie właśnie utworzonego korpusu.
+1.  Kliknij na przycisk <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [Utwórz nowa zawartość](PartDesign_Body/pl.md), aby stworzyć i aktywować nowy obiekt Body. \'\'Uwaga   * ten krok może zostać pominięty. Podczas tworzenia szkicu, jeśli nie znaleziono istniejącego korpusu *(obiektu Body)*, nowy zostanie automatycznie utworzony i aktywowany.\'\'
+2.  Kliknij na <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Utwórz nowy szkic](PartDesign_NewSketch/pl.md) W ten sposób powstanie szkic w obrębie właśnie utworzonego korpusu.
 3.  Musimy określić, gdzie będzie dołączony szkic. Dołączymy go do płaszczyzny [początkowej](Glossary#Origin.md) z korpusu .
-4.  W zakładce [Zadania](Task_panel/pl.md) z [widoku połączonego](Combo_view/pl.md), wybierz na liście **YZ\_Plane** i naciśnij przycisk **OK**:
+4.  W zakładce [Zadania](Task_panel/pl.md) z [widoku połączonego](Combo_view/pl.md), wybierz na liście **YZ\_Plane** i naciśnij przycisk **OK**   *
 
-<img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
+<img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
-*Uwaga: możliwe, że przycisk **OK** może nie być widoczny, jeśli panel boczny nie jest wystarczająco szeroki. Można go rozszerzyć przeciągając jego prawą ramkę. Umieść wskaźnik myszy nad obramowaniem, gdy kursor zmieni się na dwukierunkową strzałkę, naciśnij i przytrzymaj lewy przycisk myszy i przeciągnij.*
+*Uwaga   * możliwe, że przycisk **OK** może nie być widoczny, jeśli panel boczny nie jest wystarczająco szeroki. Można go rozszerzyć przeciągając jego prawą ramkę. Umieść wskaźnik myszy nad obramowaniem, gdy kursor zmieni się na dwukierunkową strzałkę, naciśnij i przytrzymaj lewy przycisk myszy i przeciągnij.*
 
-Po kliknięciu przycisku **OK**, FreeCAD automatycznie przełącza się do środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md) i otwiera szkic w trybie edycji:
+Po kliknięciu przycisku **OK**, FreeCAD automatycznie przełącza się do środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md) i otwiera szkic w trybie edycji   *
 
 ![](images/Tut17_sketcherempty.png )
 
 ### Tworzenie szkicu 
 
-Następnie należy użyć narzędzia <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [polilinia](Sketcher_CreatePolyline/pl.md) i wykonać kształt mniej więcej taki jak na następnym obrazku. Nie musi być on idealny, ponieważ kształt końcowy jest wykonywany z użyciem wiązań. Kiedy już będziesz miał podstawowy kształt, zaczniemy wprowadzać wiązania. Jeśli miałeś włączoną opcję Automatyczne wiązania, niektóre z tych wiązań zostaną zastosowane natychmiast, jeśli nie, wykonaj następujące czynności. Ale najpierw upewnij się, że opuściłeś narzędzie polilinia, klikając prawym przyciskiem myszy lub dwukrotnie naciskając klawisz **ESC**. Kursor myszki powinien zmienić się z krzyżyka na standardowy kursor strzałki. *(Nie naciskaj klawisza **ESC** po raz trzeci, gdyż inaczej wyjdziesz z trybu edycji szkicu. Jeśli tak się stanie, kliknij zakładkę **Model**, a następnie kliknij dwukrotnie element szkicu na drzewie lub w menu kontekstowym kliknij prawym przyciskiem myszy i wybierz **Edytuj szkic**)*.
+Następnie należy użyć narzędzia <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *24px;"> [polilinia](Sketcher_CreatePolyline/pl.md) i wykonać kształt mniej więcej taki jak na następnym obrazku. Nie musi być on idealny, ponieważ kształt końcowy jest wykonywany z użyciem wiązań. Kiedy już będziesz miał podstawowy kształt, zaczniemy wprowadzać wiązania. Jeśli miałeś włączoną opcję Automatyczne wiązania, niektóre z tych wiązań zostaną zastosowane natychmiast, jeśli nie, wykonaj następujące czynności. Ale najpierw upewnij się, że opuściłeś narzędzie polilinia, klikając prawym przyciskiem myszy lub dwukrotnie naciskając klawisz **ESC**. Kursor myszki powinien zmienić się z krzyżyka na standardowy kursor strzałki. *(Nie naciskaj klawisza **ESC** po raz trzeci, gdyż inaczej wyjdziesz z trybu edycji szkicu. Jeśli tak się stanie, kliknij zakładkę **Model**, a następnie kliknij dwukrotnie element szkicu na drzewie lub w menu kontekstowym kliknij prawym przyciskiem myszy i wybierz **Edytuj szkic**)*.
 
-1.  Wybierz dwie linie poziome klikając na nie myszką, a po wybraniu kliknij na <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [Sketcher\_ConstrainHorizontal/plwiązanie poziome](Sketcher_ConstrainHorizontal/plwiązanie_poziome.md).
-2.  Wybierz linię pionową po prawej stronie, a następnie kliknij na <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [wiązanie pionowe](Sketcher_ConstrainVertical/pl.md).
-3.  Wybierz punkt początkowy i końcowy polilinii, a następnie kliknij na <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> \[Sketcher\_ConstrainCoincident/pl\|wiązanie zbieżności\]\], aby zamknąć polilinię.
-4.  Wybierz dolną linię poziomą i prawą linię pionową, a następnie zastosuj <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [wiązanie równości](Sketcher_ConstrainEqual/pl.md).
-5.  Wybierz poziomą lub pionową linię i zastosuj odpowiednie wiązanie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [poziome](Sketcher_ConstrainDistanceX/pl.md) lub <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [pionowe](Sketcher_ConstrainDistanceY/pl.md) ograniczenia długości i podaj wartość 26mm.
+1.  Wybierz dwie linie poziome klikając na nie myszką, a po wybraniu kliknij na <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;"> [Sketcher\_ConstrainHorizontal/plwiązanie poziome](Sketcher_ConstrainHorizontal/plwiązanie_poziome.md).
+2.  Wybierz linię pionową po prawej stronie, a następnie kliknij na <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width   *24px;"> [wiązanie pionowe](Sketcher_ConstrainVertical/pl.md).
+3.  Wybierz punkt początkowy i końcowy polilinii, a następnie kliknij na <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> \[Sketcher\_ConstrainCoincident/pl\|wiązanie zbieżności\]\], aby zamknąć polilinię.
+4.  Wybierz dolną linię poziomą i prawą linię pionową, a następnie zastosuj <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;"> [wiązanie równości](Sketcher_ConstrainEqual/pl.md).
+5.  Wybierz poziomą lub pionową linię i zastosuj odpowiednie wiązanie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width   *24px;"> [poziome](Sketcher_ConstrainDistanceX/pl.md) lub <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width   *24px;"> [pionowe](Sketcher_ConstrainDistanceY/pl.md) ograniczenia długości i podaj wartość 26mm.
 6.  Wybierz górną linię poziomą i zastosuj poziome wiązanie odległości i podaj wartość 5mm.
-7.  Wybierz dolny prawy punkt, *(wierzchołek)* linii poziomej Początku układu współrzędnych, a następnie środkowy punkt siatki i zastosuj ograniczenie [1](File:Sketcher_ConstrainCoincident.svg%7C24px%7Clink=Sketcher_ConstrainCoincident/pl)\] [zbieżności](Sketcher_ConstrainCoincident/pl.md), aby naprawić swój kształt.
+7.  Wybierz dolny prawy punkt, *(wierzchołek)* linii poziomej Początku układu współrzędnych, a następnie środkowy punkt siatki i zastosuj ograniczenie [1](File   *Sketcher_ConstrainCoincident.svg%7C24px%7Clink=Sketcher_ConstrainCoincident/pl)\] [zbieżności](Sketcher_ConstrainCoincident/pl.md), aby naprawić swój kształt.
 
 W tym momencie powinieneś mieć w pełni związany szkic, na co wskazuje zmiana koloru i komunikat wyświetlany w widoku połączonym. Powinien on teraz wyglądać dokładnie tak, jak na poniższym obrazku.
 
 ![](images/Tut17_profile.png )
 
-Teraz w [widoku zespolonym](Combo_view/pl.md), kliknij przycisk **Zamknij**, aby wyjść z trybu edycji szkicu i wybierz <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Wyciągnięcie](PartDesign_Pad/pl.md) z paska narzędzi lub z menu Projekt Części. Dzięki temu zostanie wyświetlone okno dialogowe **Parametry wyciągnięcia** w widoku zespolonym. Używając tego okna dialogowego, najpierw z menu rozwijanego **Typ** wybierz opcję **Dwa wymiary**. Rysunek przedstawiony na początku tego poradnika mówi, że część ma 53mm długości. Robimy to przez wyciągnięcie naszego szkicu w obie strony od płaszczyzny środkowej, aby nadrobić tę odległość, czyli uczynić pad symetrycznym w stosunku do płaszczyzny szkicu. Przyczyna tego jest widoczna później przy tworzeniu elementów. Na razie, biorąc pod uwagę, że chcemy, aby miał on w sumie 53mm długości, wprowadzimy 26,5mm dla długości, oraz 26,5mm dla długości drugiej. Alternatywnie, możesz podać pojedynczą długość 53mm i kliknąć pole wyboru **Symetryczne do płaszczyzny**. Gdy to zrobimy, mamy teraz naszą bryłę bazową, na której dodamy dodatkowe funkcje do konstrukcji naszej części.
+Teraz w [widoku zespolonym](Combo_view/pl.md), kliknij przycisk **Zamknij**, aby wyjść z trybu edycji szkicu i wybierz <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;"> [Wyciągnięcie](PartDesign_Pad/pl.md) z paska narzędzi lub z menu Projekt Części. Dzięki temu zostanie wyświetlone okno dialogowe **Parametry wyciągnięcia** w widoku zespolonym. Używając tego okna dialogowego, najpierw z menu rozwijanego **Typ** wybierz opcję **Dwa wymiary**. Rysunek przedstawiony na początku tego poradnika mówi, że część ma 53mm długości. Robimy to przez wyciągnięcie naszego szkicu w obie strony od płaszczyzny środkowej, aby nadrobić tę odległość, czyli uczynić pad symetrycznym w stosunku do płaszczyzny szkicu. Przyczyna tego jest widoczna później przy tworzeniu elementów. Na razie, biorąc pod uwagę, że chcemy, aby miał on w sumie 53mm długości, wprowadzimy 26,5mm dla długości, oraz 26,5mm dla długości drugiej. Alternatywnie, możesz podać pojedynczą długość 53mm i kliknąć pole wyboru **Symetryczne do płaszczyzny**. Gdy to zrobimy, mamy teraz naszą bryłę bazową, na której dodamy dodatkowe funkcje do konstrukcji naszej części.
 
-Poniżej znajduje się nagranie wideo z kroków użytych w tej części poradnika: <https://youtu.be/cUyPnCMeTgg>
+Poniżej znajduje się nagranie wideo z kroków użytych w tej części poradnika   * <https   *//youtu.be/cUyPnCMeTgg>
 
 ### Cechy charakterystyczne dla kieszeni i geometrii zewnętrznej 
 
@@ -79,11 +79,11 @@ Za pomocą myszki lub ikon widoku obróć model, aby zobaczyć jego tył. Gdy ty
 
 ![](images/PD_WB_Tutorial003.png )
 
-Po wybraniu powierzchni, kliknij na ikonę nowego szkicu na pasku narzędzi lub z menu Projekt Części, co spowoduje mapowanie naszego kolejnego szkicu do tylnej powierzchni części. Teraz wybierz narzędzie <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [prostokąt](Sketcher_CreateRectangle/pl.md) i umieść prostokąt na tylnej ścianie części w podobny sposób, jak pokazano poniżej. Teraz wykonaj poniższe kroki, wiążąc szkic.
+Po wybraniu powierzchni, kliknij na ikonę nowego szkicu na pasku narzędzi lub z menu Projekt Części, co spowoduje mapowanie naszego kolejnego szkicu do tylnej powierzchni części. Teraz wybierz narzędzie <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *24px;"> [prostokąt](Sketcher_CreateRectangle/pl.md) i umieść prostokąt na tylnej ścianie części w podobny sposób, jak pokazano poniżej. Teraz wykonaj poniższe kroki, wiążąc szkic.
 
 1.  Wybierz jedną z linii poziomych zastosuj poziome wiązanie odległości i wartość 5mm.
 2.  Wybierz jedną z linii pionowych i nadaj jej pionowe ograniczenie odległości oraz wartość 11mm.
-3.  Wybierz narzędzie do <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [geometrii zewnętrznej](Sketcher_External/pl.md).
+3.  Wybierz narzędzie do <img alt="" src=images/Sketcher_External.svg  style="width   *24px;"> [geometrii zewnętrznej](Sketcher_External/pl.md).
 4.  Wybierz prawy górny wierzchołek powierzchni i kliknij w niego, aby otrzymać punkt z zewnętrznej geometrii, do którego połączysz nasz szkic.
 
 ![](images/tut17_slot_unconstrained.png )
@@ -93,13 +93,13 @@ Po wybraniu powierzchni, kliknij na ikonę nowego szkicu na pasku narzędzi lub 
 
 ![](images/tut17_slote_constrained.png )
 
-Po wykonaniu tych czynności kliknij przycisk **Zamknij** znajdujący się na górze karty Zadania w oknie Widoku połączonego, a następnie wybierz narzędzie <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Kieszeń](PartDesign_Pocket/pl.md) z paska narzędzi lub menu Part Design. Użycie tego narzędzia jest przeciwieństwem narzędzia Wyciągnij. Gdy narzędzie Wyciągnij dodaje materiał do części, narzędzie Kieszeń usuwa materiał z części. Obie operacje są nazywane funkcjami. W tej operacji Kieszeni chcemy wybrać opcję typu **Przez wszystkie** z rozwijanego menu, a następnie kliknąć przycisk **OK**.
+Po wykonaniu tych czynności kliknij przycisk **Zamknij** znajdujący się na górze karty Zadania w oknie Widoku połączonego, a następnie wybierz narzędzie <img alt="" src=images/PartDesign_Pocket.svg  style="width   *24px;"> [Kieszeń](PartDesign_Pocket/pl.md) z paska narzędzi lub menu Part Design. Użycie tego narzędzia jest przeciwieństwem narzędzia Wyciągnij. Gdy narzędzie Wyciągnij dodaje materiał do części, narzędzie Kieszeń usuwa materiał z części. Obie operacje są nazywane funkcjami. W tej operacji Kieszeni chcemy wybrać opcję typu **Przez wszystkie** z rozwijanego menu, a następnie kliknąć przycisk **OK**.
 
-Aby wykonać kolejną operację, upewnij się, że w widoku drzewa modelu wybrano opcję **Kieszeń** i po wybraniu kliknij na <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> the [Utwórz kopię lustrzaną \...](PartDesign_Mirrored/pl.md) na pasku narzędzi lub z menu Projekt Części. W oknie dialogowym widoku połączonego wybieramy opcję **Szkic poziomej osi** z menu rozwijanego. Następnie klikamy w przycisk **OK**. Element **Utwórz kopię lustrzaną \...** działa w ten sposób, ponieważ element bazowy naszego modelu w pierwszej operacji ze szkicem bazowym został dodany w obu kierunkach od płaszczyzny poziomej. Jeśli wszystko poszło dobrze, powinieneś teraz mieć część, która wygląda jak na obrazku poniżej, po tym jak zostanie wyświetlona po odwróceniu do przodu.
+Aby wykonać kolejną operację, upewnij się, że w widoku drzewa modelu wybrano opcję **Kieszeń** i po wybraniu kliknij na <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> the [Utwórz kopię lustrzaną \...](PartDesign_Mirrored/pl.md) na pasku narzędzi lub z menu Projekt Części. W oknie dialogowym widoku połączonego wybieramy opcję **Szkic poziomej osi** z menu rozwijanego. Następnie klikamy w przycisk **OK**. Element **Utwórz kopię lustrzaną \...** działa w ten sposób, ponieważ element bazowy naszego modelu w pierwszej operacji ze szkicem bazowym został dodany w obu kierunkach od płaszczyzny poziomej. Jeśli wszystko poszło dobrze, powinieneś teraz mieć część, która wygląda jak na obrazku poniżej, po tym jak zostanie wyświetlona po odwróceniu do przodu.
 
 ![](images/tut17_profilewithslots.png )
 
-Nagranie wideo z kroków użytych w tej części poradnika dostępne jest tutaj: <https://youtu.be/wiGXV9G7mrM>
+Nagranie wideo z kroków użytych w tej części poradnika dostępne jest tutaj   * <https   *//youtu.be/wiGXV9G7mrM>
 
 ### Opcje wyciągnięcia i geometrii zewnętrznej 
 
@@ -129,7 +129,7 @@ Jeszcze raz użyj funkcji **Utwórz kopie lustrzana \...**, aby uzyskać drugie 
 
 ![](images/tut17_profilewithsideblocks.png )
 
-Poniżej znajduje się nagranie wideo z kroków użytych w tej części poradnika: <https://youtu.be/Ido1owp8ubc>
+Poniżej znajduje się nagranie wideo z kroków użytych w tej części poradnika   * <https   *//youtu.be/Ido1owp8ubc>
 
 ### Opcje kieszeni i geometrii zewnętrznej 
 
@@ -137,7 +137,7 @@ W tym momencie poruszając się dookoła tej części, widzimy, że nasza częś
 
 ![](images/tut17_innerplane.png )
 
-Tutaj użyjemy narzędzia **Utwórz prostokąt** i umieścimy prostokąt w naszym szkicu, a po jego wykonaniu zastosujemy następujące wiązania:
+Tutaj użyjemy narzędzia **Utwórz prostokąt** i umieścimy prostokąt w naszym szkicu, a po jego wykonaniu zastosujemy następujące wiązania   *
 
 1.  Zaznacz linię poziomą i pionową, a po wybraniu obu, wybierz wiązanie równości.
 2.  Zaznacz linię poziomą lub pionową i zastosuj odpowiednie wiązanie dystansu w poziomie lub pionie o wartości 17mm.
@@ -145,12 +145,12 @@ Tutaj użyjemy narzędzia **Utwórz prostokąt** i umieścimy prostokąt w naszy
 
 ![](images/tut17_rechtangleholeunconstrained.png )
 
-Teraz posługując się wymiarami z rysunku, zastosuj następujące wiązania:
+Teraz posługując się wymiarami z rysunku, zastosuj następujące wiązania   *
 
 1.  Zaznacz zewnętrzny punkt geometrii i górny prawy wierzchołek szkicu kwadratu i zastosuj poziome wiązanie dystansu, nadając wymiar 7mm.
 2.  Zaznacz zewnętrzny punkt geometrii i górny prawy wierzchołek szkicu kwadratu i zastosuj pionowe wiązanie dystansu, nadając wymiar 11mm.
 
-Wynik powinien być następujący:
+Wynik powinien być następujący   *
 
 ![](images/tut17_rectangleholeconstrained.png )
 
@@ -160,13 +160,13 @@ W tym momencie, gdybyśmy mogli po prostu wyciąć ten szkic, powstała dziura b
 
 Chcemy, aby otwór był prostopadły do tylnej płaszczyzny, ale jego wymiary projektowane nie są wymiarami 17mm x 17mm, które są podane na rysunku. Teraz możemy wykonać obliczenia matematyczne i wyliczyć potrzebne wymiary, lub możemy użyć narzędzi dostarczonych w programie FreeCAD do wykonania tego rzutu za nas.
 
-Nagranie wideo z kroków użytych w tej części poradnika dostępne jest tutaj: <https://youtu.be/x4d5nZPWCLQ>
+Nagranie wideo z kroków użytych w tej części poradnika dostępne jest tutaj   * <https   *//youtu.be/x4d5nZPWCLQ>
 
 Aby stworzyć kieszeń, która ma kształt pochylonego prostokąta jako wylot, rysujemy na tylnej ścianie nowy prostokąt, wykorzystując rzut prostokąta pochylonego jako zewnętrzny punkt odniesienia. Obracamy bryłę dookoła, aby jeszcze raz zobaczyć tylną ścianę elementu i wybieramy tylną ścianę w celu odwzorowania ostatecznego szkicu.
 
 ![](images/tut17_profilewithsideblocksrearplane.png )
 
-Wybierz <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Nowy szkic](PartDesign_NewSketch/pl.md) <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> z paska narzędzi lub menu Part Design. Teraz w trybie edycji szkicu, nie widzimy szkicu prostokąta na powierzchni pochyłej. Aby go wybrać, przełączamy widok połączony na zakładkę model i wybieramy ostatnio wykonany szkic *(Sketch003)* na płaszczyźnie pochyłej. Następnie za pomocą **spacji** uaktywniamy jego widoczność. Następnie wybieramy element lustrzany powyżej *(mirrored001)* i ponownie za pomocą **spacji**, ukrywamy go. Następnie powinieneś zobaczyć skośny prostokąt wewnątrz widoku 3D. Możesz kontynuować pracę z widoczną zakładką modelu lub wrócić do zakładki zadań. Używając narzędzia <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Utwórz krawędź związaną z zewnętrzną geometrią](Sketcher_External/pl.md), wybierz górną i dolną krawędź poziomą pochylonego prostokąta. Następnie dodaj nowy prostokąt do szkicu za pomocą narzędzia <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Utwórz prostokąt \...](Sketcher_CreateRectangle/pl.md).
+Wybierz <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Nowy szkic](PartDesign_NewSketch/pl.md) <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> z paska narzędzi lub menu Part Design. Teraz w trybie edycji szkicu, nie widzimy szkicu prostokąta na powierzchni pochyłej. Aby go wybrać, przełączamy widok połączony na zakładkę model i wybieramy ostatnio wykonany szkic *(Sketch003)* na płaszczyźnie pochyłej. Następnie za pomocą **spacji** uaktywniamy jego widoczność. Następnie wybieramy element lustrzany powyżej *(mirrored001)* i ponownie za pomocą **spacji**, ukrywamy go. Następnie powinieneś zobaczyć skośny prostokąt wewnątrz widoku 3D. Możesz kontynuować pracę z widoczną zakładką modelu lub wrócić do zakładki zadań. Używając narzędzia <img alt="" src=images/Sketcher_External.svg  style="width   *24px;"> [Utwórz krawędź związaną z zewnętrzną geometrią](Sketcher_External/pl.md), wybierz górną i dolną krawędź poziomą pochylonego prostokąta. Następnie dodaj nowy prostokąt do szkicu za pomocą narzędzia <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *24px;"> [Utwórz prostokąt \...](Sketcher_CreateRectangle/pl.md).
 
 ![](images/tut17_rectangleunconstrained.png )
 
@@ -177,7 +177,7 @@ I na tym powinniśmy poprzestać.
 
 ![](images/tut17_rectangleconstrained.png )
 
-Ostatni krok tego poradnika to zamknięcie okna szkicownika poprzez zamknięcie lub zakończenie edycji z menu kontekstowego szkicownika004, a następnie wybranie opcji <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Kieszeń](PartDesign_Pocket/pl.md) z paska narzędzi lub z menu Projekt Części. Z menu rozwijanego Typ wybierz **Przez wszystkie** i kliknij w przycisk **OK**.
+Ostatni krok tego poradnika to zamknięcie okna szkicownika poprzez zamknięcie lub zakończenie edycji z menu kontekstowego szkicownika004, a następnie wybranie opcji <img alt="" src=images/PartDesign_Pocket.svg  style="width   *24px;"> [Kieszeń](PartDesign_Pocket/pl.md) z paska narzędzi lub z menu Projekt Części. Z menu rozwijanego Typ wybierz **Przez wszystkie** i kliknij w przycisk **OK**.
 
 ![](images/Tut17_final.png )
 
@@ -185,13 +185,13 @@ W tym momencie zobaczysz kilka linii, które pochodzą z przecinających się el
 
 ![](images/Tut17_refine.png ) ![](images/Tut17_final_refined.png )
 
-Poniżej znajduje się link do nagrania wideo z kroków użytych w tej części poradnika: <https://youtu.be/UYI0gvxCYeI>
+Poniżej znajduje się link do nagrania wideo z kroków użytych w tej części poradnika   * <https   *//youtu.be/UYI0gvxCYeI>
 
 Ten poradnik i twój model zostałty ukończone.
 
 ## Dodatkowe zasoby 
 
--   Plik projektu FreeCAD do porównania *(wykonany w wersji 0.17)* [Pobierz](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
+-   Plik projektu FreeCAD do porównania *(wykonany w wersji 0.17)* [Pobierz](https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 
 
 {{PartDesign Tools navi

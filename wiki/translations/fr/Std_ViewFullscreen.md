@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Std ViewFullscreen
-   Name/fr:Std Plein écran
-   MenuLocation:Affichage → Fenêtre de document → Plein écran
-   Workbenches:Tous
-   Shortcut:**F11**
-   SeeAlso:[Std Fenêtre document plein écran](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)
+- GuiCommand   */fr
+   Name   *Std ViewFullscreen
+   Name/fr   *Std Plein écran
+   MenuLocation   *Affichage → Fenêtre de document → Plein écran
+   Workbenches   *Tous
+   Shortcut   ***F11**
+   SeeAlso   *[Std Fenêtre document plein écran](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)
 ---
 
 # Std ViewFullscreen/fr
@@ -17,10 +17,10 @@ La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depu
 ## Utilisation
 
 1.  Activez la vue 3D correcte.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Sélectionnez l\'option **Affichage → Fenêtre de document → <img src="images/Std_ViewFullscreen.svg" width=16px> Plein écran** dans le menu. Cette option ne fonctionne pas si vous souhaitez désactiver le mode plein écran et qu\'il existe d\'autres vues 3D ancrées.
     -   Sélectionnez l\'option **Fenêtre de document → <img src="images/Std_ViewFullscreen.svg" width=16px> Plein écran** dans le menu contextuel de la vue 3D.
-    -   Utilisez le raccourci clavier: **F11**.
+    -   Utilisez le raccourci clavier   * **F11**.
 
 ## Remarques
 

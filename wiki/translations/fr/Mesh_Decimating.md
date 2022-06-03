@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh Decimating
-   Name/fr:Mesh Décimation
-   MenuLocation:Maillages → Décimation...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Mesh Decimating
+   Name/fr   *Mesh Décimation
+   MenuLocation   *Maillages → Décimation...
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh Decimating/fr
@@ -15,15 +15,15 @@ La commande **Mesh Décimation** réduit le nombre de faces dans les objets mail
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets maillés.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_Decimating.svg" width=16px> [Décime un maillage](Mesh_Decimating/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Decimating.svg" width=16px> Décimation...** dans le menu.
 3.  Le panneau des tâches **Décimation** s\'ouvre.
-4.  Spécifiez la **Reduction**:
-    -   Si un seul objet maillé a été sélectionné et que vous choisissez l\'option **Absolute number**:
+4.  Spécifiez la **Reduction**   *
+    -   Si un seul objet maillé a été sélectionné et que vous choisissez l\'option **Absolute number**   *
         -   Déplacez le curseur ou entrez un nombre pour spécifier un nombre absolu de faces.
-    -   Dans d\'autres cas:
+    -   Dans d\'autres cas   *
         -   Déplacez le curseur ou entrez un nombre pour spécifier un pourcentage de faces.
         -   Spécifiez la **Tolérance**.
 5.  Appuyez sur le bouton **OK** pour terminer la commande.

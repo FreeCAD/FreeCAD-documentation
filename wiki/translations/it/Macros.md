@@ -16,7 +16,7 @@ Le macro sono un modo pratico per riprodurre delle azioni complesse in FreeCAd. 
 
 Sebbene gli script Python abbiano normalmente l\'estensione `.py`, le macro di FreeCAD dovrebbero avere l\'estensione `.FCMacro`. Una raccolta di macro scritte da utenti esperti si trova nella pagina [raccolta di macro](macros_recipes/it.md).
 
-Vedere l\'[Hub degli utenti esperti](Power_users_hub/it.md) per saperne di più sul linguaggio di programmazione [Python](Python/it.md) e sulla scrittura di macro. In particolare, si dovrebbe iniziare con queste pagine:
+Vedere l\'[Hub degli utenti esperti](Power_users_hub/it.md) per saperne di più sul linguaggio di programmazione [Python](Python/it.md) e sulla scrittura di macro. In particolare, si dovrebbe iniziare con queste pagine   *
 
 -   [Introduzione a Python](Introduction_to_Python/it.md)
 -   [Guida agli Script Python](Python_scripting_tutorial/it.md)
@@ -27,14 +27,14 @@ Vedere l\'[Hub degli utenti esperti](Power_users_hub/it.md) per saperne di più 
 
 ## Come funzionano 
 
-Quando dal menu **Modifica → Preferenze → Generale → Macro → Mostra comandi script nella console python**, si attiva l\'output nella console si vede che ogni azione che si compie, come ad esempio la pressione di un pulsante, invia un comando Python. Questi comandi sono ciò che è possibile registrare in una macro. Lo strumento principale per creare una macro è la barra degli strumenti macro: ![](images/_Macros_toolbar.jpg ). Su di essa si trovano 4 tasti: Registrare, Interrompere la registrazione, Modificare e Riprodurre la macro corrente.
+Quando dal menu **Modifica → Preferenze → Generale → Macro → Mostra comandi script nella console python**, si attiva l\'output nella console si vede che ogni azione che si compie, come ad esempio la pressione di un pulsante, invia un comando Python. Questi comandi sono ciò che è possibile registrare in una macro. Lo strumento principale per creare una macro è la barra degli strumenti macro   * ![](images/_Macros_toolbar.jpg ). Su di essa si trovano 4 tasti   * Registrare, Interrompere la registrazione, Modificare e Riprodurre la macro corrente.
 
 
 </div>
 
-Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar   * ![](images/Macros_toolbar.jpg ). On it you have 4 buttons   * Record, stop recording, edit and play the current macro.
 
-È molto semplice da usare: premere il pulsante di registrazione, dare un nome alla macro, quindi eseguire alcune azioni. Al termine, fare clic sul pulsante Interrompi registrazione, e le azioni compiute vengono salvate. Ora è possibile accedere alla finestra di dialogo delle macro utilizzando il pulsante Modifica,
+È molto semplice da usare   * premere il pulsante di registrazione, dare un nome alla macro, quindi eseguire alcune azioni. Al termine, fare clic sul pulsante Interrompi registrazione, e le azioni compiute vengono salvate. Ora è possibile accedere alla finestra di dialogo delle macro utilizzando il pulsante Modifica,
 
 ![](images/Macros.png ) 
 *Finestra di dialogo Macro, che elenca le macro disponibili nel sistema*
@@ -107,7 +107,7 @@ Visitare la pagina degli [esempi di macro](Macros_recipes/it.md) per trovare alc
 
 </div>
 
-There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
+There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
 
 
 <div class="mw-translate-fuzzy">
@@ -145,6 +145,11 @@ You can manually install extensions, however, it is much simpler to just use the
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

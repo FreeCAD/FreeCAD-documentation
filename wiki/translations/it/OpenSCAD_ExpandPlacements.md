@@ -1,6 +1,6 @@
 # OpenSCAD ExpandPlacements/it
 ---
-- GuiCommand:/it   Name:OpenSCAD ExpandPlacements   Name/it:ExpandPlacements   MenuLocation:OpenSCAD → ExpandPlacements‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand   */it   Name   *OpenSCAD ExpandPlacements   Name/it   *ExpandPlacements   MenuLocation   *OpenSCAD → ExpandPlacements‏‎   |Workbenches   *[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -46,7 +46,7 @@ Propaga tutti i posizionamenti verso il basso delle funzioni presenti nell\'aber
 ## Note
 
 Questo comando \"azzera\" i valori di posizionamento di un oggetto, rendendo la loro posizione corrente uguale a 0/0/0.
-Funziona con:
+Funziona con   *
 
 -   oggetti booleani
 -   oggetti estrusi (derivati dall\'ambiente Part)
@@ -55,7 +55,7 @@ Funziona con:
 
 </div>
 
-Works with:
+Works with   *
 
 -   boolean objects
 -   extruded objects (derived from the Part workbench)

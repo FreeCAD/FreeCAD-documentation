@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher NewSketch
-   Name/de:Sketcher Skizze erstellen
-   MenuLocation:Sketch → Skizze erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   SeeAlso:[PartDesign Skizze erstellen](PartDesign_NewSketch/de.md),[Skizze einer Fläche zuordnen...](Sketcher_MapSketch/de.md), [Skizze neu ausrichten...](Sketcher_ReorientSketch/de.md)
+- GuiCommand   */de
+   Name   *Sketcher NewSketch
+   Name/de   *Sketcher Skizze erstellen
+   MenuLocation   *Sketch → Skizze erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   SeeAlso   *[PartDesign Skizze erstellen](PartDesign_NewSketch/de.md),[Skizze einer Fläche zuordnen...](Sketcher_MapSketch/de.md), [Skizze neu ausrichten...](Sketcher_ReorientSketch/de.md)
 ---
 
 # Sketcher NewSketch/de
@@ -13,7 +13,7 @@
 
 Dies erzeugt eine neue [Skizze](Sketcher_Workbench/de.md).
 
-Beachte, dass der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) seinen eigenen Befehl [Neue Skizze erstellen](PartDesign_NewSketch.md) hat. Bei der Arbeit an einem [PartDesign-Körper](PartDesign_Body/de.md) ist der Gebrauch jenes Werkzeugs vorzuziehen.
+Beachte, dass der <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;">[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) seinen eigenen Befehl [Neue Skizze erstellen](PartDesign_NewSketch.md) hat. Bei der Arbeit an einem [PartDesign-Körper](PartDesign_Body/de.md) ist der Gebrauch jenes Werkzeugs vorzuziehen.
 
 ## Anwendung
 

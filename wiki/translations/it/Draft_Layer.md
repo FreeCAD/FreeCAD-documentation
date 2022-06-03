@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft Layer
-   Name/it:Strato
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → Utilità → Strato
-   Version:0.19
-   See also:[Draft AutoGruppo](Draft_AutoGroup/it.md)
+- GuiCommand   */it
+   Name   *Draft Layer
+   Name/it   *Strato
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Utilità → Strato
+   Version   *0.19
+   See also   *[Draft AutoGruppo](Draft_AutoGroup/it.md)
 ---
 
 # Draft Layer/it
@@ -46,21 +46,21 @@ Questo strumento sostituisce Draft VisGroup a partire da FreeCAD 0.19.
 
 ### Layer container options 
 
-For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu:
+For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu   *
 
--    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: merges all layers with the same base label.
+-    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**   * merges all layers with the same base label.
 
-:   The base label of a layer is its **Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the **Label** set to that base label. This does not work in FreeCAD version 0.19.
+   *   The base label of a layer is its **Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the **Label** set to that base label. This does not work in FreeCAD version 0.19.
 
--    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**: adds a new layer to the current document.
+-    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**   * adds a new layer to the current document.
 
 ### Layer options 
 
-For a Draft Layer these additional options are available in the [Tree view](Tree_view.md) context menu:
+For a Draft Layer these additional options are available in the [Tree view](Tree_view.md) context menu   *
 
--    **<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)**: activates the selected layer.
+-    **<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)**   * activates the selected layer.
 
--    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**: selects the objects inside the selected layer.
+-    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**   * selects the objects inside the selected layer.
 
 ## Notes
 
@@ -69,9 +69,9 @@ For a Draft Layer these additional options are available in the [Tree view](Tree
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
+A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -81,9 +81,9 @@ A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md
 
 <div class="mw-translate-fuzzy">
 
--    **Group**: specifica gli elementi che fanno parte del gruppo.
+-    **Group**   * specifica gli elementi che fanno parte del gruppo.
 
--   Proprietà visive che possono essere modificate e propagate agli oggetti: **Stile di disegno**, **Colore della linea**, **Larghezza della linea**, **Colore della forma**, **Trasparenza**, e **Visibilità**.
+-   Proprietà visive che possono essere modificate e propagate agli oggetti   * **Stile di disegno**, **Colore della linea**, **Larghezza della linea**, **Colore della forma**, **Trasparenza**, e **Visibilità**.
 
 
 </div>
@@ -95,26 +95,26 @@ A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md
 
 The properties in this section are applied to objects that are put inside the layer. And any changes to these properties are propagated to them. For two properties, **Line Color** and **Shape Color**, this behavior is optional.
 
--    **Draw Style|Enumeration**: specifies the draw style of the layer: {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}} or {{value|Dashdot}}
+-    **Draw Style|Enumeration**   * specifies the draw style of the layer   * {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}} or {{value|Dashdot}}
 
--    **Line Color|Color**: specifies the line color of the layer.
+-    **Line Color|Color**   * specifies the line color of the layer.
 
--    **Line Width|Float**: specifies the line width of the layer.
+-    **Line Width|Float**   * specifies the line width of the layer.
 
--    **Override Line Color Children|Bool**: specifies if changes to the **Line Color** of the layer are propagated to the objects inside the layer.
+-    **Override Line Color Children|Bool**   * specifies if changes to the **Line Color** of the layer are propagated to the objects inside the layer.
 
--    **Override Shape Color Children|Bool**: specifies if changes to the **Shape Color** of the layer are propagated to the objects inside the layer.
+-    **Override Shape Color Children|Bool**   * specifies if changes to the **Shape Color** of the layer are propagated to the objects inside the layer.
 
--    **Shape Color|Color**: specifies the shape color of the layer.
+-    **Shape Color|Color**   * specifies the shape color of the layer.
 
--    **Transparency|Percent**: specifies the transparency of the layer.
+-    **Transparency|Percent**   * specifies the transparency of the layer.
 
 
 {{TitleProperty|Print}}
 
--    **Line Print Color|Color**: specifies the line print color of the layer.
+-    **Line Print Color|Color**   * specifies the line print color of the layer.
 
--    **Use Print Color|Bool**: specifies if the **Line Print Color|** of the layer is used when a [TechDraw DraftView](TechDraw_DraftView.md) is created from the objects inside the layer.
+-    **Use Print Color|Bool**   * specifies if the **Line Print Color|** of the layer is used when a [TechDraw DraftView](TechDraw_DraftView.md) is created from the objects inside the layer.
 
 ## Script
 
@@ -122,7 +122,7 @@ The properties in this section are applied to objects that are put inside the la
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

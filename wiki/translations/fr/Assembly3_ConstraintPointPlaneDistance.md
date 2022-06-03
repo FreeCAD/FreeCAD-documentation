@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 ConstraintPointPlaneDistance
-   Name/fr:Assembly3 Contrainte distance entre point et plan
-   Icon:Assembly_ConstraintPointPlaneDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 ConstraintPointPlaneDistance
+   Name/fr   *Assembly3 Contrainte distance entre point et plan
+   Icon   *Assembly_ConstraintPointPlaneDistance.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointPlaneDistance/fr

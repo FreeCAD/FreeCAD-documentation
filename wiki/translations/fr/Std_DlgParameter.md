@@ -1,17 +1,17 @@
 ---
-- GuiCommand:/fr
-   Name:Std DlgParameter
-   Name/fr:Std Éditeur de paramètres
-   MenuLocation:Outils → Éditeur de paramètres
-   Workbenches:Tous
-   SeeAlso:[Réglage des préférences](Preferences_Editor/fr.md) 
+- GuiCommand   */fr
+   Name   *Std DlgParameter
+   Name/fr   *Std Éditeur de paramètres
+   MenuLocation   *Outils → Éditeur de paramètres
+   Workbenches   *Tous
+   SeeAlso   *[Réglage des préférences](Preferences_Editor/fr.md) 
 ---
 
 # Std DlgParameter/fr
 
 ## Description
 
-La commande **Std Éditeur des paramètres** ouvre l\'éditeur de paramètres. Dans l\'éditeur de paramètres, les paramètres qui contrôlent le comportement de FreeCAD et de ses ateliers peuvent être inspectés et éventuellement supprimés, ajoutés ou modifiés. Les paramètres sont stockés dans un fichier appelé {{FileName|user.cfg}}, l\'emplacement de ce fichier dépend de votre système d\'exploitation.
+La commande **Std Éditeur des paramètres** ouvre l\'éditeur de paramètres. Dans l\'éditeur de paramètres, les paramètres qui contrôlent le comportement de FreeCAD et de ses ateliers peuvent être inspectés et éventuellement supprimés, ajoutés ou modifiés. Les paramètres sont stockés dans un fichier appelé **user.cfg**, l\'emplacement de ce fichier dépend de votre système d\'exploitation.
 
 Travailler avec l\'éditeur de paramètres nécessite une certaine expérience. Pour les paramètres les plus courants, vous pouvez également utiliser l\'[éditeur de préférences](Preferences_Editor/fr.md) plus pratique.
 
@@ -22,7 +22,7 @@ Travailler avec l\'éditeur de paramètres nécessite une certaine expérience. 
 
 1.  Sélectionnez l\'option **Outils → <img src="images/Std_DlgParameter.svg" width=16px>  Éditer paramètres...** dans le menu.
 2.  La boîte de dialogue Editeur de paramètres s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
-3.  Appuyez sur le bouton **Sauvegarder sur le disque** pour mettre à jour immédiatement le fichier {{FileName|user.cfg}}. Cela n\'est pas nécessaire car FreeCAD mettra automatiquement à jour ce fichier à la fermeture de l\'application.
+3.  Appuyez sur le bouton **Sauvegarder sur le disque** pour mettre à jour immédiatement le fichier **user.cfg**. Cela n\'est pas nécessaire car FreeCAD mettra automatiquement à jour ce fichier à la fermeture de l\'application.
 4.  Appuyez sur le bouton **Fermer** pour fermer l\'éditeur de paramètres.
 
 ## Options
@@ -31,7 +31,7 @@ Travailler avec l\'éditeur de paramètres nécessite une certaine expérience. 
 
 Le panneau de gauche montre une arborescence avec des groupes de paramètres et des sous-groupes.
 
-*Les options suivantes sont disponibles dans le menu contextuel du panneau :*
+*Les options suivantes sont disponibles dans le menu contextuel du panneau    **
 
 #### Développer/Réduire
 
@@ -75,7 +75,7 @@ Le panneau de gauche montre une arborescence avec des groupes de paramètres et 
 
 Le panneau droit affiche les paramètres du groupe sélectionné dans le panneau gauche. Si ce groupe ne contient que des sous-groupes, le panneau de droite sera vide.
 
-*Les options suivantes sont disponibles dans le menu contextuel du panneau :*
+*Les options suivantes sont disponibles dans le menu contextuel du panneau    **
 
 #### Modifier une valeur 
 
@@ -151,16 +151,16 @@ La saisie d\'une chaîne (partielle) dans cette zone de saisie développera comp
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-Les préférences sont accessibles à partir des scripts Python en utilisant leur chemin correspondant dans l\'[Éditeur des paramètres](Std_DlgParameter/fr.md). Par exemple, la préférence **Édition → Préférences → Import-Export → DXF → Options d'Import → Joindre la géométrie** apparaît dans **Outils → Éditeur de paramètres → BaseApp → Préférences → Mod → Draft → dxfCreatePart** et a le type `Boolean`. Il est donc accessible en Python à l\'aide du code suivant : 
+Les préférences sont accessibles à partir des scripts Python en utilisant leur chemin correspondant dans l\'[Éditeur des paramètres](Std_DlgParameter/fr.md). Par exemple, la préférence **Édition → Préférences → Import-Export → DXF → Options d'Import → Joindre la géométrie** apparaît dans **Outils → Éditeur de paramètres → BaseApp → Préférences → Mod → Draft → dxfCreatePart** et a le type `Boolean`. Il est donc accessible en Python à l\'aide du code suivant    * 
 ```python
-# get:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+# get   *
+App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set   *
+App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
 ```
 
 Trouver quel paramètre est utilisé pour stocker quelle option de l\'éditeur de préférences peut nécessiter une recherche un peu, mais l\'[Éditeur des paramètres](Std_DlgParameter/fr.md) offre une fonction de recherche qui devrait vous aider.

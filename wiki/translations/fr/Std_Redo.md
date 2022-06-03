@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Std Redo
-   Name/fr:Std Rétablir
-   MenuLocation:Édition → Rétablir
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**Y**
-   SeeAlso:[Std Annuler](Std_Undo/fr.md)
+- GuiCommand   */fr
+   Name   *Std Redo
+   Name/fr   *Std Rétablir
+   MenuLocation   *Édition → Rétablir
+   Workbenches   *Tous
+   Shortcut   ***Ctrl**+**Y**
+   SeeAlso   *[Std Annuler](Std_Undo/fr.md)
 ---
 
 # Std Redo/fr
@@ -16,10 +16,10 @@ La commande **Std Rétablir** inverse l\'action de la commande [Std Annuler](Std
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
+1.  Il existe plusieurs façons d\'appeler la commande    *
     -   Appuyez sur le bouton **<img src="images/Std_Redo.svg" width=16px> [Rétablir](Std_Redo/fr.md)**.
     -   Sélectionnez l\'option **Édition → <img src="images/Std_Redo.svg" width=16px> Rétablir** dans le menu.
-    -   Utilisez le raccourci clavier : **Ctrl**+**Y**.
+    -   Utilisez le raccourci clavier    * **Ctrl**+**Y**.
 
 ## Options
 
@@ -33,7 +33,7 @@ La commande **Std Rétablir** inverse l\'action de la commande [Std Annuler](Std
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

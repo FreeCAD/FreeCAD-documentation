@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Exemple de semelle combinée
-   Level:Intermédiaire
-   Author:Shiv Charan
-   FCVersion:0.20
+- TutorialInfo   */fr
+   Topic   *Exemple de semelle combinée
+   Level   *Intermédiaire
+   Author   *Shiv Charan
+   FCVersion   *0.20
 ---
 
 # Example Combined Footing/fr
@@ -16,7 +16,7 @@
 
 L\'outil [Renforts de semelle](Arch_Rebar_Footing_Reinforcement/fr.md) permet à l\'utilisateur de créer des barres de renforcement à l\'intérieur d\'un objet semelle [Arch Structure](Arch_Structure/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 Dans cet exemple, nous allons créer un ferraillage combiné d\'une semelle comme le montre la figure ci-dessous.
 
@@ -53,7 +53,7 @@ Dans cet exemple, nous allons créer un ferraillage combiné d\'une semelle comm
 
 8\. Cliquez sur suivant ou cliquez sur Main rebars dans la vue en liste et remplissez les données souhaitées pour les armatures principales dans les colonnes de renfort de la semelle.
 
-Seulement si le contrôle des armatures secondaires est activé :
+Seulement si le contrôle des armatures secondaires est activé    *
 
 9\. Cliquez sur suivant ou cliquez sur XDir Secondary rebar dans la vue en liste et remplissez l\'entrée souhaitée pour les armatures secondaires dans la direction X dans une colonne dans le renfort de la semelle.
 
@@ -62,6 +62,11 @@ Seulement si le contrôle des armatures secondaires est activé :
 11\. Cliquez sur **OK** ou **Apply** ou **Finish** pour générer le ferraillage des dalles.
 
 12\. Cliquez sur **Cancel** pour quitter la boîte de dialogue.
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

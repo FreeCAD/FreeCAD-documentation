@@ -1,6 +1,8 @@
 # Category:Command Reference/zh-cn
 This category contains the help pages of each of FreeCAD [Command](Command.md).
 
+[Category   *Categories/zh-cn](Category   *Categories/zh-cn.md)
+
 ### Contents
 
 |     |     |     |

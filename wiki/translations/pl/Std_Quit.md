@@ -1,35 +1,36 @@
 ---
-- GuiCommand:
-   Name:Std Quit
-   MenuLocation:File → Exit
-   Workbenches:All
-   Shortcut:**Alt**+**F4**
-   SeeAlso:[Std Close](Std_CloseActiveWindow.md)
+- GuiCommand   */pl
+   Name   *Std Quit
+   Name/pl   *Std   * Zakończ
+   MenuLocation   *Plik → Zakończ
+   Workbenches   *Wszystkie
+   Shortcut   ***Alt** + **F4**
+   SeeAlso   *[Zamknij aktywne okno](Std_CloseActiveWindow/pl.md)
 ---
 
 # Std Quit/pl
 
-## Description
+## Opis
 
-The **Std Quit** command closes the FreeCAD application and optionally saves unsaved documents.
+Polecenie **Zakończ** zamyka aplikację FreeCAD i opcjonalnie umożliwia zapisanie niezapisanych dokumentów.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select the **File → <img src="images/Std_Quit.svg" width=16px> Exit** option from the menu.
-    -   Use the keyboard shortcut: **Alt**+**F4**.
-2.  If there are unsaved documents a dialog box will prompt you to save them:
-    -   Press the **Save** button to save the active document. If required enter a filename first.
-    -   Press the **Discard** button to discard the active document and lose all changes.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz opcję **Plik → <img src="images/Std_Quit.svg" width=16px> Zakończ** z menu.
+    -   Użyj skrótu klawiaturowego   * **Alt** + **F4**.
+2.  Jeśli istnieją niezapisane dokumenty, pojawi się okno dialogowe z prośbą o ich zapisanie   *
+    -   Naciśnij przycisk **Zapisz**, aby zapisać aktywny dokument. W razie potrzeby wprowadź najpierw nazwę pliku.
+    -   Naciśnij przycisk **Porzuć**, aby odrzucić aktywny dokument i utracić wszystkie zmiany.
 
-## Options
+## Opcje
 
--   If there are multiple unsaved documents: check the {{CheckBox|TRUE|Apply answer to all}} checkbox to avoid being prompted for each unsaved document separately.
--   If there are unsaved documents: press **Esc** or the **Cancel** button to abort the command.
+-   Jeśli istnieje wiele niezapisanych dokumentów   * zaznacz pole wyboru {{CheckBox|TRUE|Zastosuj dla wszystkich}}, aby uniknąć wyświetlania monitów dla każdego niezapisanego dokumentu osobno.
+-   Jeśli istnieją niezapisane dokumenty   * naciśnij przycisk **Esc** lub **Anuluj**, aby przerwać wykonywanie polecenia.
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

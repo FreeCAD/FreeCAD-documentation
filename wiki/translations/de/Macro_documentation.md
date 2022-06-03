@@ -13,7 +13,7 @@ Wenn ein Makro eine gut definierte Funktionalität bietet und gut dokumentiert i
 
 Erstelle eine neue Seite für das Makro, die mit dem Wort `Macro_` beginnt, zum Beispiel `Macro_Excellent_Modification`. Der Verweis kann ohne Unterstriche als `<nowiki>[Makro Excellent Modification](Macro_Excellent_Modification/de.md)</nowiki>` verwendet werden, was zu [Makro Ausgezeichnete Änderung](Macro_Excellent_Modification/de.md) führt; die Leerzeichen werden automatisch in Unterstriche umgewandelt.
 
-Auf der neuen Seite solltest du oben [Template:Macro](Template_Macro.md) verwenden, mit einem Minimum an Informationen:
+Auf der neuen Seite solltest du oben [Template   *Macro](Template_Macro.md) verwenden, mit einem Minimum an Informationen   *
 
 {{Macro
 |Name=Macro Excellent Modification
@@ -54,14 +54,14 @@ oder verwende das `Translate` Feld
 |Date=2018-11-30
 }}
 
--   Verwende [:Special:Upload](:Special_Upload.md), um das benutzerdefinierte Symbol in den [SVG](SVG/de.md) oder PNG Formaten hochzuladen. Es sollte den gleichen Namen wie das Makro haben.
--   Andernfalls wird es standardmäßig auf Icon=Text-x-python.svg <img alt="" src=images/Text-x-python.svg  style="width:32px;"> gesetzt.
--   Für das von FreeCAD in der Python Konsole verwendete Makro verwende Icon=Text_console_python.png <img alt="" src=images/Text_console_python.png  style="width:32px;">.
--   Für das Beispielvideomakro verwende dieses Skelett des Symbols <img alt="" src=images/Text_Video_Movie.png  style="width:32px;"> und fülle den Bildschirm aus, um z.B. folgendes zu erhalten: <img alt="" src=images/Macro_crank_simul.png  style="width:32px;"> und speichern Sie neue Symbol mit dem gleichen Namen desein Makros.
+-   Verwende [   *Special   *Upload](   *Special_Upload.md), um das benutzerdefinierte Symbol in den [SVG](SVG/de.md) oder PNG Formaten hochzuladen. Es sollte den gleichen Namen wie das Makro haben.
+-   Andernfalls wird es standardmäßig auf Icon=Text-x-python.svg <img alt="" src=images/Text-x-python.svg  style="width   *32px;"> gesetzt.
+-   Für das von FreeCAD in der Python Konsole verwendete Makro verwende Icon=Text_console_python.png <img alt="" src=images/Text_console_python.png  style="width   *32px;">.
+-   Für das Beispielvideomakro verwende dieses Skelett des Symbols <img alt="" src=images/Text_Video_Movie.png  style="width   *32px;"> und fülle den Bildschirm aus, um z.B. folgendes zu erhalten   * <img alt="" src=images/Macro_crank_simul.png  style="width   *32px;"> und speichern Sie neue Symbol mit dem gleichen Namen desein Makros.
 
-[Template:Macro](Template_Macro.md) wird die Informationen zur Verwendung und Installation der Makros in jede Seite einfügen.
+[Template   *Macro](Template_Macro.md) wird die Informationen zur Verwendung und Installation der Makros in jede Seite einfügen.
 
-<img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
+<img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width   *200px;"> 
 *[Wie Makros installieren](How_to_install_macros/de.md) und [Werkzeugleisten anpassen](Customize_Toolbars/de.md) Verweise in der Infobox auf jeder Makroseite*
 
 ### Hinzufügen der Makrodokumentation 
@@ -73,33 +73,33 @@ oder verwende das `Translate` Feld
 -   Erwähne verwandte Makros und Arbeitsbereiche, die die Funktion dieses Werkzeugs ergänzen.
 -   Erwähne die Version von FreeCAD, die zur Erstellung des Makros verwendet wurde. Diese Informationen können unter **Hilfe→ Über FreeCAD → In Zwischenablage kopieren** entnommen werden.
 
-:   Wenn diese Informationen eingefügt werden, sieht es folgendermaßen aus
+   *   Wenn diese Informationen eingefügt werden, sieht es folgendermaßen aus
 
 
 ```python
-OS: Ubuntu 18.04.1 LTS
-Word size of OS: 64-bit
-Word size of FreeCAD: 64-bit
-Version: 0.18.15302 (Git)
-Build type: Release
-Branch: master
-Hash: 2e03d2f298677b8212c22cbbc3cb20b7c80eabb5
-Python version: 2.7.15rc1
-Qt version: 4.8.7
-Coin version: 4.0.0a
-OCC version: 7.3.0
-Locale: English/UnitedStates (en_US)
+OS   * Ubuntu 18.04.1 LTS
+Word size of OS   * 64-bit
+Word size of FreeCAD   * 64-bit
+Version   * 0.18.15302 (Git)
+Build type   * Release
+Branch   * master
+Hash   * 2e03d2f298677b8212c22cbbc3cb20b7c80eabb5
+Python version   * 2.7.15rc1
+Qt version   * 4.8.7
+Coin version   * 4.0.0a
+OCC version   * 7.3.0
+Locale   * English/UnitedStates (en_US)
 ```
 
 Ziehe in Betracht, diese Informationen in einem Kommentarblock innerhalb des Codes des Makros hinzuzufügen.
 
 ### Hinzufügen des Makrocodes 
 
-Innerhalb des **Skript** Abschnitts verwende [Template:MacroCode](Template_MacroCode.md), um den Code des Makros in der Seite zu platzieren. Dadurch wird ein Textblock erstellt, der die Monospace Schriftart verwendet, wodurch der für [Python](Python/de.md) wichtige Weißraum erhalten bleibt.
+Innerhalb des **Skript** Abschnitts verwende [Template   *MacroCode](Template_MacroCode.md), um den Code des Makros in der Seite zu platzieren. Dadurch wird ein Textblock erstellt, der die Monospace Schriftart verwendet, wodurch der für [Python](Python/de.md) wichtige Weißraum erhalten bleibt.
 
 Wenn der Codeblock die Zeichen {{ }} (doppelte schließende und öffnende Klammer) oder {{!}} (senkrechter Balken) enthält, können die <nowiki> ... </nowiki> Markierungen explizit hinzugefügt werden, um die Anzeige dieser speziellen Symbole zu ermöglichen.
 
-Dieser[Template:MacroCode](Template_MacroCode.md) erzeugt im Wesentlichen einen Block von HTML Markierungen <pre> ... </pre>, so dass diese direkt anstelle der Vorlagen verwendet werden können. Der [Erweiterungsverwalter](Std_AddonMgr/de.md) sucht nach dem größten solcher Blöcke und verwendet ihn für den Körper des Makros.
+Dieser[Template   *MacroCode](Template_MacroCode.md) erzeugt im Wesentlichen einen Block von HTML Markierungen <pre> ... </pre>, so dass diese direkt anstelle der Vorlagen verwendet werden können. Der [Erweiterungsverwalter](Std_AddonMgr/de.md) sucht nach dem größten solcher Blöcke und verwendet ihn für den Körper des Makros.
 
 {{MacroCode|code=
 
@@ -133,43 +133,43 @@ __Author__ = "User_Name"
 __Version__ = "00.11"
 __Date__    = "2015-07-25"
 __Comment__ = "This is the comment of the macro"
-__Web__ = "http://forum.freecadweb.org/viewtopic.php?f=3&t=7384"
-__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_Title_Of_macro"
+__Web__ = "http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7384"
+__Wiki__ = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_Title_Of_macro"
 __Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Title_Of_macro"
-__IconW__  = "C:/Documents and Settings/YourUserName/Application Data/FreeCAD"
+__IconW__  = "C   */Documents and Settings/YourUserName/Application Data/FreeCAD"
 __Help__ = "start the macro and follow the instructions"
 __Status__ = "stable"
 __Requires__ = "freecad 0.14.3706"
-__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_Name" 
+__Communication__ = "http   *//www.freecadweb.org/wiki/index.php?title=User   *User_Name" 
 
 «Your code should be here»
 }}
 
-Beginnend mit FreeCAD 0.17 werden diese Informationen vom [Erweiterungsverwalter](Std_AddonMgr/de.md) verwendet, der das Makro aus dem [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros) Repositorium herunterlädt.
+Beginnend mit FreeCAD 0.17 werden diese Informationen vom [Erweiterungsverwalter](Std_AddonMgr/de.md) verwendet, der das Makro aus dem [FreeCAD-Makros](https   *//github.com/FreeCAD/FreeCAD-macros) Repositorium herunterlädt.
 
 ### Hinzufügen von Makrocode außerhalb des Wikis 
 
-Wenn dein Makro zu groß ist, so dass es 64 KB überschreitet, kann es nicht im Wiki bereitgestellt werden. In diesem Fall verwende [Template:Codeextralink](Template_Codeextralink.md) mit einem Verweis auf die raw Web Adresse des Codes.
+Wenn dein Makro zu groß ist, so dass es 64 KB überschreitet, kann es nicht im Wiki bereitgestellt werden. In diesem Fall verwende [Template   *Codeextralink](Template_Codeextralink.md) mit einem Verweis auf die raw Web Adresse des Codes.
 
-Zum Beispiel:
+Zum Beispiel   *
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro}}
 
-Es wird angezeigt als: {{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro}}
+Es wird angezeigt als   * {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro}}
 
-Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platziert werden. Es muss der erste Codeblock in der Seite sein, damit der <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) sie automatisch erkennen und importieren kann. Siehe [Makro CirclePlus](Macro_CirclePlus.md) für ein Anwendungsbeispiel.
+Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platziert werden. Es muss der erste Codeblock in der Seite sein, damit der <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) sie automatisch erkennen und importieren kann. Siehe [Makro CirclePlus](Macro_CirclePlus.md) für ein Anwendungsbeispiel.
 
 
-{{ColoredParagraph|'''PS:''' Im Falle einer Aktualisierung in GitHub wird der Pfad des RAW Codes geändert, nicht vergessen, den Verweis in der Codeextralink Vorlage zu ändern.}}
+{{ColoredParagraph|'''PS   *''' Im Falle einer Aktualisierung in GitHub wird der Pfad des RAW Codes geändert, nicht vergessen, den Verweis in der Codeextralink Vorlage zu ändern.}}
 
 ## Hinzufügen des neuen Makros zum Wiki Repositorium 
 
-Verwende [Template:MacroLink](Template_MacroLink.md) , um eine Zeile in die entsprechende Kategorie in [Makro Rezepte](Macros_recipes/de.md) einzuschließen; erstelle bei Bedarf eine neue Kategorie.
+Verwende [Template   *MacroLink](Template_MacroLink.md) , um eine Zeile in die entsprechende Kategorie in [Makro Rezepte](Macros_recipes/de.md) einzuschließen; erstelle bei Bedarf eine neue Kategorie.
 
 
 ```python
 <nowiki>
-* {{MacroLink|Macro_Excellent_Modification|Macro Excellent Modification```: the macro described in a short sentence.
+* {{MacroLink|Macro_Excellent_Modification|Macro Excellent Modification```   * the macro described in a short sentence.
 </nowiki>
 }}
 
@@ -177,25 +177,27 @@ Verwende [Template:MacroLink](Template_MacroLink.md) , um eine Zeile in die ents
 -   Das zweite Argument ist der angezeigte Text, der sich vom Seitennamen unterscheiden kann. Dadurch wird ein Verweis auf das erste Argument erstellt, der das zweite Argument als Text anzeigt.
 -   Nach dem Doppelpunkt folgt eine kurze Beschreibung des Makros.
 
-Du kannst auch den optionalen Parameter Icon= verwenden, um die Bilddatei anzugeben, die am Anfang der Zeile platziert wird. Das Symbol sollte eine [SVG](SVG/de.md) oder eine PNG Datei sein und den gleichen Namen wie dein Makro haben. Wenn dieser Parameter nicht angegeben wird, wird das Standardsymbol für ein [Python](Python/de.md) Skript <img alt="" src=images/Text-x-python.svg  style="width:24px;"> verwendet. 
+Du kannst auch den optionalen Parameter Icon= verwenden, um die Bilddatei anzugeben, die am Anfang der Zeile platziert wird. Das Symbol sollte eine [SVG](SVG/de.md) oder eine PNG Datei sein und den gleichen Namen wie dein Makro haben. Wenn dieser Parameter nicht angegeben wird, wird das Standardsymbol für ein [Python](Python/de.md) Skript <img alt="" src=images/Text-x-python.svg  style="width   *24px;"> verwendet. 
 ```python
 <nowiki>
-* {{MacroLink|Icon=Macro_Excellent_Modification.svg|Macro_Excellent_Modification|Macro Excellent Modification```: the macro described in a short sentence.
+* {{MacroLink|Icon=Macro_Excellent_Modification.svg|Macro_Excellent_Modification|Macro Excellent Modification```   * the macro described in a short sentence.
 </nowiki>
 }}
 
 Um diese Vorlage zu lokalisieren, verwende den entsprechenden Sprachverweis im ersten Argument. 
 ```python
 <nowiki>
-* {{MacroLink|Macro_Excellent_Modification/fr|Macro Excellent Modification```: (translated description)
+* {{MacroLink|Macro_Excellent_Modification/fr|Macro Excellent Modification```   * (translated description)
 </nowiki>
 }}
 
 ## Hinzufügen des neuen Makros zum zentralen Repositorium 
 
-Um ein Makro aus dem [Addon-Manager](Std_AddonMgr/de.md) installierbar zu machen, sollte es in das zentrale [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros) -Repositorium aufgenommen werden.
+Um ein Makro aus dem [Addon-Manager](Std_AddonMgr/de.md) installierbar zu machen, sollte es in das zentrale [FreeCAD-Makros](https   *//github.com/FreeCAD/FreeCAD-macros) -Repositorium aufgenommen werden.
 
-Um das Makro dort aufzunehmen, muss es zunächst von der FreeCAD Gemeinschaft im [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22) Unterforum überprüft werden. Sobald dies geschehen ist, sollte das FreeCAD-Makro Repositorium abgezweigt werden, das neue Makro sollte in einen Zweig aufgenommen werden, und dann sollte der Zweig gepusht und in das Upstream- Repositorium zusammengeführt werden.
+Um das Makro dort aufzunehmen, muss es zunächst von der FreeCAD Gemeinschaft im [Python scripting and macros](https   *//forum.freecadweb.org/viewforum.php?f=22) Unterforum überprüft werden. Sobald dies geschehen ist, sollte das FreeCAD-Makro Repositorium abgezweigt werden, das neue Makro sollte in einen Zweig aufgenommen werden, und dann sollte der Zweig gepusht und in das Upstream- Repositorium zusammengeführt werden.
+
+[Category   *Macros](Category_Macros.md) [Category   *User Documentation](Category_User_Documentation.md)
 
 
 

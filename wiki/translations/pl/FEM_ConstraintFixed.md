@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:FEM ConstraintFixed
-   MenuLocation:Model → Mechanical Constraints → Constraint fixed
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint contact](FEM_ConstraintContact.md)
+- GuiCommand   *
+   Name   *FEM ConstraintFixed
+   MenuLocation   *Model → Mechanical Constraints → Constraint fixed
+   Workbenches   *[FEM](FEM_Workbench.md)
+   SeeAlso   *[FEM Constraint contact](FEM_ConstraintContact.md)
 ---
 
 # FEM ConstraintFixed/pl
@@ -14,7 +14,7 @@ Creates a FEM constraint for a fixed geometry entry by locking all 6 degrees of 
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintFixed.svg" width=16px> [FEM ConstraintFixed](FEM_ConstraintFixed.md)** button.
     -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintFixed.svg" width=16px> Constraint fixed** option from the menu.
 2.  In the [3D view](3D_view.md) select the object the constraint should be applied to, which can be a vertex (corner), edge, or face.

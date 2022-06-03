@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Drawing
-   Name/fr:Draft Dessin
-   MenuLocation:Draft → Dessin
-   Workbenches:[Drawing](Drawing_Workbench.md), [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Atelier TechDraw](TechDraw_Workbench/fr.md), [Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md)
+- GuiCommand   */fr
+   Name   *Draft Drawing
+   Name/fr   *Draft Dessin
+   MenuLocation   *Draft → Dessin
+   Workbenches   *[Drawing](Drawing_Workbench.md), [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Atelier TechDraw](TechDraw_Workbench/fr.md), [Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md)
 ---
 
 # Draft Drawing/fr
@@ -32,7 +32,7 @@ Cet outil fonctionne de la même manière que l\'outil [Insérer une vue dans la
 
 This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md) and the [TechDraw DraftView](TechDraw_DraftView.md) command instead.
 
-<img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;">
+<img alt="" src=images/Draft_drawing_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Указать горизонтальный габаритный размер
-   Name:TechDraw_HorizontalExtentDimension
-   MenuLocation:TechDraw → Размеры → Указать горизонтальный габаритный размер
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Указать длину](TechDraw_LengthDimension/ru.md), [Указать вертикальный габаритный размер](TechDraw_VerticalExtentDimension/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Указать горизонтальный габаритный размер
+   Name   *TechDraw_HorizontalExtentDimension
+   MenuLocation   *TechDraw → Размеры → Указать горизонтальный габаритный размер
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   Version   *0.19
+   SeeAlso   *[Указать длину](TechDraw_LengthDimension/ru.md), [Указать вертикальный габаритный размер](TechDraw_VerticalExtentDimension/ru.md)
 ---
 
 # TechDraw HorizontalExtentDimension/ru
@@ -14,7 +14,7 @@
 
 The Horizontal Extent Dimension tool adds a linear dimension to a View. The dimension extends from the left most point on the selected objects to the right most point. A CosmeticVertex will be placed at each point.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width   *400px;"> 
 *Horizontal Extent dimension of BSpline Face*
 
 ## Применение
@@ -33,16 +33,16 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md). Exceptio
 
 ### Данные
 
--    **MeasureType**: `True` - based on 3D geometry or \"Projected\" - based on the drawing. Not normally manipulated directly by the end user. Not yet implemented for Dimension Horizontal Extent.
+-    **MeasureType**   * `True` - based on 3D geometry or \"Projected\" - based on the drawing. Not normally manipulated directly by the end user. Not yet implemented for Dimension Horizontal Extent.
 
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Horizontal Extent Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Horizontal Extent Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python

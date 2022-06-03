@@ -1,6 +1,6 @@
 # Mesh EvaluateFacet/ro
 ---
-- GuiCommand:   Name:Mesh_EvaluateFacet   MenuLocation:Meshes → Analyze → Face info   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *Mesh_EvaluateFacet   MenuLocation   *Meshes → Analyze → Face info   Workbenches   *[[Mesh Workbench   Mesh]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -17,8 +17,8 @@ Oferă informații despre fațete.
 
 </div>
 
-Mesh: Ellipsoid Facet 3631: Points: <1817, 1818, 1866>, Neighbours: <3534, 3632, 3630>
-Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797], [1.964574, -0.047063, 0.748046]>
+Mesh   * Ellipsoid Facet 3631   * Points   * <1817, 1818, 1866>, Neighbours   * <3534, 3632, 3630>
+Triangle   * <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797], [1.964574, -0.047063, 0.748046]>
 
 
 

@@ -1,37 +1,38 @@
 ---
-- GuiCommand:
-   Name:Std ViewRear
-   MenuLocation:View → Standard views → Rear
-   Workbenches:All
-   Shortcut:**4**
-   SeeAlso:[Std ViewBottom](Std_ViewBottom.md), [Std ViewLeft](Std_ViewLeft.md)
+- GuiCommand   */pl
+   Name   *Std ViewRear
+   Name/pl   *Std   * Widok od tyłu
+   MenuLocation   *Widok → Widoki standardowe → Od tyłu
+   Workbenches   *wszystkie
+   Shortcut   ***4**
+   SeeAlso   *[Widok od dołu](Std_ViewBottom/pl.md), [Widok od lewej](Std_ViewLeft/pl.md)
 ---
 
 # Std ViewRear/pl
 
-## Description
+## Opis
 
-The **Std ViewRear** command points the camera in the active [3D view](3D_view.md) in the direction of the negative Y axis.
+Polecenie **Widok od tyłu** ustawia ujęcie widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) w kierunku ujemnym osi Y.
 
 ![](images/FreeCAD_views_rear.svg ) 
-*Arrow 4 points in the direction of the rear view*
+*Strzałka 4 wskazuje kierunek widoku z tyłu.*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewRear.svg" width=16px> [Std ViewRear](Std_ViewRear.md)** button.
-    -   Select the **View → Standard views → <img src="images/Std_ViewRear.svg" width=16px> Rear** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewRear.svg" width=16px> Rear** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **4**.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_ViewRear.svg" width=16px> [Od tyłu](Std_ViewRear/pl.md)**.
+    -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewRear.svg" width=16px> Od tyłu**.
+    -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewRear.svg" width=16px> Od tyłu**.
+    -   Użyj skrótu klawiaturowego   * **4**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change to rear view use the `viewRear` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok *Od tyłu*, należy użyć metody `viewRear` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Ship Workbench
-   Level: Beginner
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */fr
+   Topic   *Ship Workbench
+   Level   * Beginner
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # FreeCAD-Ship s60 tutorial (II)/fr
@@ -18,13 +18,13 @@
 
 Avant de commencer ce didacticiel, veuillez vous assurer que vous avez déjà effectué [la première partie](FreeCAD-Ship_s60_tutorial/fr.md).
 
-Pour en savoir plus sur l\'atelier Ship, consultez la page wiki qui lui est consacrée : [atelier Ship](Ship_Workbench/fr.md).
+Pour en savoir plus sur l\'atelier Ship, consultez la page wiki qui lui est consacrée    * [atelier Ship](Ship_Workbench/fr.md).
 
 ## Introduction
 
 Dans ce tutoriel, nous allons travailler avec des poids et des réservoirs afin de calculer la courbe GZ, le paramètre de stabilité hydrostatique le plus important. GZ est le moment statique généré lorsque le navire prend un angle de roulis, bien sûr, puisque le bras GZ est positif, le navire a un moment positif et tentera de reprendre sa position verticale. Cependant, lorsque GZ tourne sur des nombres négatifs, la stabilité du navire n\'est plus, provoquant une situation critique.
 
-IMO - International Maritime Organization (Organisation maritime internationale) a défini les critères suivants:
+IMO - International Maritime Organization (Organisation maritime internationale) a défini les critères suivants   *
 
 -   *GM* \>= 0.15 m. *GM* (metacentric height) hauteur métacentrique est la tangente initiale de la courbe *GZ*
 -   La valeur maximale *GZ* doit être placée sur plus de 30 degrés d\'angle de roulis.
@@ -37,7 +37,7 @@ Dans ce tutoriel, nous allons régler les poids et les réservoirs de notre bate
 
 ## Poids des navires 
 
-Afin de pouvoir calculer la courbe GZ, nous devons connaître les poids des navires et leur position à chaque angle de roulis. Les poids seront donc divisés en deux catégories:
+Afin de pouvoir calculer la courbe GZ, nous devons connaître les poids des navires et leur position à chaque angle de roulis. Les poids seront donc divisés en deux catégories   *
 
 -   Des poids fixes, entièrement liés aux mouvements des navires.
 -   Les réservoirs, où la forme du fluide change avec l'angle, nécessitent un calcul du centre de gravité à chaque position.
@@ -54,12 +54,12 @@ Icône de l\'outil de définition des poids.
 
 </center>
 
-L\'outil de définition des poids peut être utilisé pour définir la première catégorie de poids. Lorsque vous lancez l\'outil pour la première fois (avec l\'instance de bateau sélectionnée), l\'atelier Ship initialise les poids du bateau avec un bateau léger (égal au déplacement du bateau) qui est placé sur la coordonnée X du centre de gravité de la géométrie du bateau, et à la hauteur du tirant d\'eau de conception. En général, il existe au moins deux poids pertinents :
+L\'outil de définition des poids peut être utilisé pour définir la première catégorie de poids. Lorsque vous lancez l\'outil pour la première fois (avec l\'instance de bateau sélectionnée), l\'atelier Ship initialise les poids du bateau avec un bateau léger (égal au déplacement du bateau) qui est placé sur la coordonnée X du centre de gravité de la géométrie du bateau, et à la hauteur du tirant d\'eau de conception. En général, il existe au moins deux poids pertinents    *
 
 -   Structure.
 -   Moteur principal (ou plusieurs).
 
-Donc nous allons le changer. En double-cliquant sur chaque cellule, nous pouvons modifier la valeur en définissant les pondérations suivantes:
+Donc nous allons le changer. En double-cliquant sur chaque cellule, nous pouvons modifier la valeur en définissant les pondérations suivantes   *
 
 -   Structure, 15000 kg, (-0.1, 0, 1.25) m
 -   Moteur tribord, 5000 kg, (-6.5, -0.65, 0.5) m
@@ -76,7 +76,7 @@ Aperçu 3D de Définition des poids.
 
 </center>
 
-La position des poids est indiquée dans la [Vue 3D](3D_view/fr.md). Remarque : les annotations seront supprimées lorsque l\'outil sera fermé. Lorsque vous appuyez sur **Accept**, les poids seront enregistrés dans votre instance de bateau.
+La position des poids est indiquée dans la [Vue 3D](3D_view/fr.md). Remarque    * les annotations seront supprimées lorsque l\'outil sera fermé. Lorsque vous appuyez sur **Accept**, les poids seront enregistrés dans votre instance de bateau.
 
 ## Réservoirs
 
@@ -102,7 +102,7 @@ Géométrie de réservoir générée.
 
 Nous pouvons effectuer une opération à bâbord en sélectionnant notre géométrie tribord et en exécutant l'outil miroir, en sélectionnant XZ comme plan miroir.
 
-Afin de convertir la géométrie en une forme solide habituelle de nos réservoirs et de récupérer notre géométrie **s60\_IowaUniversity**, nous pouvons charger [l\'atelier Draft](Draft_Workbench/fr.md), et avec la géométrie du réservoir tribord sélectionnée, exécuter Mettre à jour, puis répéter avec la géométrie du réservoir latéral. Nous pouvons renommer les géométries en:
+Afin de convertir la géométrie en une forme solide habituelle de nos réservoirs et de récupérer notre géométrie **s60\_IowaUniversity**, nous pouvons charger [l\'atelier Draft](Draft_Workbench/fr.md), et avec la géométrie du réservoir tribord sélectionnée, exécuter Mettre à jour, puis répéter avec la géométrie du réservoir latéral. Nous pouvons renommer les géométries en   *
 
 -   StarboardTankGeom
 -   PortTankGeom
@@ -143,7 +143,7 @@ La figure montre le résultat de notre navire que nous allons calculer.
 
 L\'atelier Ship fournit un outil permettant de calculer facilement une courbe \"GZ\".
 
-<img alt="Icône de l\'outil de calcul de courbe GZ." src=images/Ship_GZ.svg  style="width:128px;">
+<img alt="Icône de l\'outil de calcul de courbe GZ." src=images/Ship_GZ.svg  style="width   *128px;">
 
 
 <center>
@@ -155,7 +155,7 @@ Icône de l\'outil de calcul de courbe GZ.
 
 Avec l\'instance **Ship** sélectionnée, nous pouvons exécuter l\'outil. La première chose que nous pouvons voir dans la boîte de dialogue ouverte est une liste de toutes les instances de réservoir trouvées dans le document actif. Nous voulons utiliser les deux, donc nous cliquons sur les réservoirs remarqués avec un arrière-plan différent.
 
-Pour connaître le déplacement et le tirant d\'eau résultants du navire, nous pouvons appuyer sur **Actualiser le déplacement et le tirant d\'eau**, en prenant un peu de temps pour le calcul. Nous recevons les données suivantes:
+Pour connaître le déplacement et le tirant d\'eau résultants du navire, nous pouvons appuyer sur **Actualiser le déplacement et le tirant d\'eau**, en prenant un peu de temps pour le calcul. Nous recevons les données suivantes   *
 
 -   Déplacement = 37505.5 kg
 -   Tirant d\'eau = 0.818664 m
@@ -164,7 +164,7 @@ Nous sommes donc dans une situation non chargée, où le tirant d\'eau est nette
 
 Nous pouvons également calculer automatiquement l\'assiette du navire, opération qui peut prendre environ une minute, en récupérant que notre navire présente un angle d\'assiette de 0,95 degré (positif par la poupe). Dans cet exemple, nous allons travailler sans angle de découpe (0 degré).
 
-La demande de l\'outil prend également en compte les angles de roulis. Dans ce cas, nous voulons connaître tous les comportements du navire afin de pouvoir définir:
+La demande de l\'outil prend également en compte les angles de roulis. Dans ce cas, nous voulons connaître tous les comportements du navire afin de pouvoir définir   *
 
 -   Angle de roulis de départ de 0 degrés.
 -   Angle de roulis final de 180 degrés.
@@ -172,18 +172,18 @@ La demande de l\'outil prend également en compte les angles de roulis. Dans ce 
 
 Lorsque nous appuyons sur **Accept**, l\'outil commence le calcul. Si vous exécutez FreeCAD depuis le terminal, vous pouvez voir la progression du travail. Dans quelques secondes, nous recevrons la courbe GZ.
 
-Cet outil utilise également [pyxplot](http://www.pyxplot.org.uk/) et [ghostscript](http://www.ghostscript.com/). Vous pouvez voir où le fichier de sortie **gz.dat** a été placé dans la vue du rapport (Vue/Vues/Rapport), et le charger avec le logiciel de feuille de données (par exemple, [libreOffice](http://www.libreoffice.org)). A proximité du fichier de données, plusieurs fichiers auxiliaires ont également été créés:
+Cet outil utilise également [pyxplot](http   *//www.pyxplot.org.uk/) et [ghostscript](http   *//www.ghostscript.com/). Vous pouvez voir où le fichier de sortie **gz.dat** a été placé dans la vue du rapport (Vue/Vues/Rapport), et le charger avec le logiciel de feuille de données (par exemple, [libreOffice](http   *//www.libreoffice.org)). A proximité du fichier de données, plusieurs fichiers auxiliaires ont également été créés   *
 
--   **gz.dat**: Données de courbe GZ calculées.
--   **gz.pyxplot**: pyxplot layout in order to plot the curve.
--   **gz.eps**: Version d\'image EPS.
--   **gz.png**: Version d\'image PNG.
+-   **gz.dat**   * Données de courbe GZ calculées.
+-   **gz.pyxplot**   * pyxplot layout in order to plot the curve.
+-   **gz.eps**   * Version d\'image EPS.
+-   **gz.png**   * Version d\'image PNG.
 
 Ces fichiers seront écrasés si vous exécutez l\'outil une autre fois.
 
 ### Résultats
 
-<img alt="Courbe résultante GZ." src=images/FreeCAD-Ship-s60GZ.png  style="width:800px;">
+<img alt="Courbe résultante GZ." src=images/FreeCAD-Ship-s60GZ.png  style="width   *800px;">
 
 
 <center>
@@ -198,6 +198,8 @@ La valeur maximale de *GZ* est placée à plus de 30 degrés (45 degrés), soit 
 D\'autre part, le bateau dans cette mauvaise condition a des valeurs positives *GZ* jusqu\'à 95 degrés d\'angle de roulis, mais n\'a pas été suffisant pour les exigences de stabilité de l\'OMI, montrant les critères difficiles imposés sur ce point.
 
 Bien entendu, cet exemple n'est pas réel (d'abord, tous les réservoirs de carburant ne peuvent pas être placés dans la structure à double fond ni dans le côté de la coque), mais constituent un bon exemple pour apprendre à utiliser l\'[atelier Ship](Ship_Workbench/fr.md) .
+
+[Category   *Ship](Category_Ship.md)
 
 
 

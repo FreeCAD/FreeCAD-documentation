@@ -3,22 +3,22 @@
 |Name=Macro_3d_Printer_Slicer
 |Icon=Macro_3d_Printer_Slicer.png
 |Translate=Macro_3d_Printer_Slicer
-|Description=Export in Slicing-Software für 3D-Drucker. Exportiert die STL-Datei in das gleiche Verzeichnis wie die ursprüngliche Designdatei und öffnet sie dann in Slicing-Software.<br/>Beim Ausführen wird dieser Code das aktuelle Design in eine STL-Datei und sie in der verwendeten Slicing-Software öffnen. Dieses Beispiel ist für '''[http://kisslicer.com/ KISSlicer]''', kann aber für '''[http://slic3r.org/ Slic3r]''', '''[http://wiki.ultimaker.com/Cura Cura]''', oder jede andere 3D-Drucker-Software angepasst werden. Er kann auch geringfügig angepasst werden, um CAM-Software für CNC-Maschinen zu öffnen.
+|Description=Export in Slicing-Software für 3D-Drucker. Exportiert die STL-Datei in das gleiche Verzeichnis wie die ursprüngliche Designdatei und öffnet sie dann in Slicing-Software.<br/>Beim Ausführen wird dieser Code das aktuelle Design in eine STL-Datei und sie in der verwendeten Slicing-Software öffnen. Dieses Beispiel ist für '''[http   *//kisslicer.com/ KISSlicer]''', kann aber für '''[http   *//slic3r.org/ Slic3r]''', '''[http   *//wiki.ultimaker.com/Cura Cura]''', oder jede andere 3D-Drucker-Software angepasst werden. Er kann auch geringfügig angepasst werden, um CAM-Software für CNC-Maschinen zu öffnen.
 |Author=cae2100
 |Version=1.0
 |Date=2013-10-10
 |FCVersion=Alle
-|Download=[https://www.freecadweb.org/wiki/images/9/96/Macro_3d_Printer_Slicer.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/9/96/Macro_3d_Printer_Slicer.png ToolBar Icon]
 |SeeAlso=[Macro 3D-Drucker-Slicer Individuelle Teile](Macro_3d_Printer_Slicer_Individual_Parts.md) <img src="images/Macro_3d_Printer_Slicer_Individual_Parts.svg" width=24px>
 }}
 
 ## Beschreibung
 
-Wenn dieser Code ausgeführt wird, wird der derzeit geöffnete Entwurf in eine STL-Datei exportiert und in der von Ihnen verwendeten Slicing-Software geöffnet. Dieses Beispiel ist für **[KISSlicer](http://kisslicer.com/)**, kann aber zur Verwendung geändert werden **[Slic3r](http://slic3r.org/)**, **[Cura](http://wiki.ultimaker.com/Cura)**, oder eine andere 3D-Druckersoftware. Sie kann auch leicht modifiziert werden, um die CAM-Software für CNC-Maschinen zu öffnen.
+Wenn dieser Code ausgeführt wird, wird der derzeit geöffnete Entwurf in eine STL-Datei exportiert und in der von Ihnen verwendeten Slicing-Software geöffnet. Dieses Beispiel ist für **[KISSlicer](http   *//kisslicer.com/)**, kann aber zur Verwendung geändert werden **[Slic3r](http   *//slic3r.org/)**, **[Cura](http   *//wiki.ultimaker.com/Cura)**, oder eine andere 3D-Druckersoftware. Sie kann auch leicht modifiziert werden, um die CAM-Software für CNC-Maschinen zu öffnen.
 
 Es wird am besten durch Erstellen eines Links zu dem Makro in der Symbolleiste verwendet. Wenn Sie zum Schneiden des Objekts bereit sind, klicken Sie einfach darauf. Das Objekt wird in FreeCAD auf dem Bildschirm angezeigt und erscheint auf der Benutzeroberfläche der Slicing-Software . Außerdem wird eine STL-Datei mit demselben Dateinamen wie die Designdatei in demselben Verzeichnis wie die Designdatei als Sicherung erstellt.
 
-<img alt="" src=images/Macro_3d_Printer_Slicer_00.png  style="width:480px;">
+<img alt="" src=images/Macro_3d_Printer_Slicer_00.png  style="width   *480px;">
 
 ## Skript
 
@@ -37,14 +37,14 @@ import math
 import os
 import subprocess
 # some fuctions
-def getPlacement(quat,vect,obj):
-  if quat[3] > -1  and quat[3] < 1:
+def getPlacement(quat,vect,obj)   *
+  if quat[3] > -1  and quat[3] < 1   *
     delta = math.acos(quat[3])*2.0
     scale = math.sin(delta/2)
     rx = quat[0]/scale
     ry = quat[1]/scale
     rz = quat[2]/scale
-  else:
+  else   *
     delta = 0
     rx = 0
     ry = 0
@@ -63,10 +63,10 @@ os.chdir(SLICER)
 doc = App.ActiveDocument
 objs = doc.Objects
 # hide all
-for obj in objs:
-   if obj.ViewObject.isVisible():
+for obj in objs   *
+   if obj.ViewObject.isVisible()   *
       visible_objs.append(obj)
-for obj in visible_objs:
+for obj in visible_objs   *
   # get volume
   volume = obj.Shape.Volume
   # get Rotation and translation of volume
@@ -84,8 +84,8 @@ subprocess.Popen([SLICER + "KISSlicer", stlFile])
 
 ## Credits
 
-Dank an [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) für seine Hilfe beim Schreiben dieses Skripts.
-Ursprüngliches Forumsthema: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+Dank an [Wmayer](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=4686) für seine Hilfe beim Schreiben dieses Skripts.
+Ursprüngliches Forumsthema   * <http   *//forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/it
-   Name:Mesh_Scale
-   Name/it:Scala
-   MenuLocation:Mesh → Scala...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
+- GuiCommand   */it
+   Name   *Mesh_Scale
+   Name/it   *Scala
+   MenuLocation   *Mesh → Scala...
+   Workbenches   *[Mesh](Mesh_Workbench/it.md)
 ---
 
 # Mesh Scale/it
@@ -15,7 +15,7 @@ Il comando **Scala** scala gli oggetti mesh.
 ## Utilizzo
 
 1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Mesh_Scale.svg" width=16px> [Mesh Scale](Mesh_Scale.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_Scale.svg" width=16px> Scale...** option from the menu.
 3.  The **Scaling** dialog box opens.

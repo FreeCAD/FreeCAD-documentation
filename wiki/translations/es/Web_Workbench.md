@@ -7,7 +7,7 @@
 
 </div>
 
-<img alt="El icono del Ambiente de trabajo Web" src=images/Workbench_Web.svg  style="width:128px;">
+<img alt="El icono del Ambiente de trabajo Web" src=images/Workbench_Web.svg  style="width   *128px;">
 
 ## Introducción
 
@@ -19,7 +19,7 @@ El [Ambiente de trabajo Web](Web_Workbench/es.md) no es realmente un ambiente de
 
 </div>
 
-Desde este navegador eres capaz de navegar por la web, hacer clic en los enlaces, leer la documentación en línea, y entrar en los sitios web (las cookies son compatibles). El ambiente de trabajo Web es también una base para desarrollar herramientas relacionadas con la web en FreeCAD. La ventana del navegador está basada en [WebKit](https://webkit.org/), y proporciona botones de navegación estándar como parar, recargar, página anterior y siguiente, y acercar y alejar.
+Desde este navegador eres capaz de navegar por la web, hacer clic en los enlaces, leer la documentación en línea, y entrar en los sitios web (las cookies son compatibles). El ambiente de trabajo Web es también una base para desarrollar herramientas relacionadas con la web en FreeCAD. La ventana del navegador está basada en [WebKit](https   *//webkit.org/), y proporciona botones de navegación estándar como parar, recargar, página anterior y siguiente, y acercar y alejar.
 
 
 <div class="mw-translate-fuzzy">
@@ -29,6 +29,11 @@ Desde este navegador eres capaz de navegar por la web, hacer clic en los enlaces
 
 
 </div>
+
+
+
+
+[Category   *Web](Category_Web.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

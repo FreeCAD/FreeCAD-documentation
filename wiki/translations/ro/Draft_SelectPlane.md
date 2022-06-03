@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Draft SelectPlane
-   Name/ro:Draft SelectPlane
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft → Utilities → Select Plane
-   Shortcut:**W** **P**
-   SeeAlso:[[Draft SetWorkingPlaneProxy]]
+- GuiCommand   */ro
+   Name   *Draft SelectPlane
+   Name/ro   *Draft SelectPlane
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation   *Draft → Utilities → Select Plane
+   Shortcut   ***W** **P**
+   SeeAlso   *[[Draft SetWorkingPlaneProxy]]
 ---
 
 # Draft SelectPlane/ro
@@ -20,52 +20,52 @@
 
 ## Descriere
 
-Modulul Draft dispune de un sistem de plan de lucru, care vă permite să specificați un plan personalizat în spațiul 3D pe care va apărea următoarea comandă Draft. Există mai multe metode pentru a defini planul de lucru:
+Modulul Draft dispune de un sistem de plan de lucru, care vă permite să specificați un plan personalizat în spațiul 3D pe care va apărea următoarea comandă Draft. Există mai multe metode pentru a defini planul de lucru   *
 
 -   De pe o fațetă selectată
 -   De la 3 noduri selectate
 -   Din vizualizarea curentă
--   De la o presetare: de sus, frontal sau lateral
+-   De la o presetare   * de sus, frontal sau lateral
 -   Nici unul, caz în care planul de lucru este adaptat automat la vizualizarea curentă atunci când porniți o comandă sau la o față dacă începeți să desenați pe o față existentă.
 
 
 </div>
 
-<img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
+<img alt="" src=images/WorkingPlane_example.png  style="width   *400px;"> 
 *Shapes created on different working planes*
 
 ## Usage with pre-selection 
 
-1.  Do one of the following:
-    -   Select a single object. The following objects are supported:
-        -   [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md): the **View Data** (the camera position) and the **Visibility Map** (the saved visibility of objects) of the working plane proxy are also restored.
+1.  Do one of the following   *
+    -   Select a single object. The following objects are supported   *
+        -   [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md)   * the **View Data** (the camera position) and the **Visibility Map** (the saved visibility of objects) of the working plane proxy are also restored.
         -   [Arch BuildingParts](Arch_BuildingPart.md).
         -   [Arch SectionPlanes](Arch_SectionPlane.md).
-        -   [Std Parts](Std_Part.md): to avoid selecting subelements it is advisable to select these in the [Tree view](Tree_view.md).
+        -   [Std Parts](Std_Part.md)   * to avoid selecting subelements it is advisable to select these in the [Tree view](Tree_view.md).
         -   [Part Feature](Part_Feature.md) objects that have a single face. [Part Planes](Part_Plane.md) for example.
         -   Objects that are not [Part Feature](Part_Feature.md) objects and have a **Placement** property.
-    -   Select one or more subelements. You can select:
+    -   Select one or more subelements. You can select   *
         -   A flat face.
         -   Three vertices.
         -   A circular edge.
         -   Two straight edges that are co-planar but not co-linear.
         -   A straight edge and a vertex that does not lie on the (extended) edge.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
+    -   Use the keyboard shortcut   * **W** then **P**.
 3.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
 ## Usage with post-selection 
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
+    -   Use the keyboard shortcut   * **W** then **P**.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
-3.  Do one of the following:
+3.  Do one of the following   *
     -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
-    -   Select one or more subelements. You can select:
+    -   Select one or more subelements. You can select   *
         -   A flat face.
         -   Three vertices.
 4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
@@ -73,10 +73,10 @@ Modulul Draft dispune de un sistem de plan de lucru, care vă permit
 
 ## Usage with presets 
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
+    -   Use the keyboard shortcut   * **W** then **P**.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Press any of the buttons to finish the command.
 4.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
@@ -88,7 +88,7 @@ Modulul Draft dispune de un sistem de plan de lucru, care vă permit
 
 ## Opțiuni
 
--   Pentru a seta planul de lucru la geometria existentă: selectați o fațetă a unui obiect existent în vizualizarea 3D sau {{Version | 0.17}}, cu CTRL apăsat, 3 vârfuri pe orice obiect. Apoi apăsați tasta {{KEY | <img src="images/Draft_SelectPlane.png_" width= 16px> [ SelectPlane](Draft_SelectPlane_.md)}}
+-   Pentru a seta planul de lucru la geometria existentă   * selectați o fațetă a unui obiect existent în vizualizarea 3D sau {{Version | 0.17}}, cu CTRL apăsat, 3 vârfuri pe orice obiect. Apoi apăsați tasta {{KEY | <img src="images/Draft_SelectPlane.png_" width= 16px> [ SelectPlane](Draft_SelectPlane_.md)}}
 -   Apăsarea butonului {{KEY | '''VIEW'''}} va stabili planul de lucru drept planul de vizualizare, perpendicular pe axa camerei și trecând prin punctul de origine (0,0,0).
 -   Apăsarea butonului {{KEY | '''AUTO'''}} va decupla orice plan de lucru curent. Următoarele operații 2D vor fi dependente de vizualizare.
 -   De asemenea, puteți specifica o valoare de offset, care vă va stabili planul de lucru la o anumită distanță de planul pe care îl selectați.
@@ -105,11 +105,11 @@ Modulul Draft dispune de un sistem de plan de lucru, care vă permit
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   The grid settings in the task panel as well as several other grid settings are available as preferences   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 -   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
+-   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Scripting
 
@@ -126,7 +126,7 @@ Obiectul plan de lucru poate fi ușor creat și manipulat în scripturi și în 
 
 <div class="mw-translate-fuzzy">
 
-De asemenea, puteți accesa planul curent de lucru al Draft-ului actual:
+De asemenea, puteți accesa planul curent de lucru al Draft-ului actual   *
 
 
 </div>

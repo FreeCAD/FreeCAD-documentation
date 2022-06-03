@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Std_CloseAllWindows
-   Name/ru:Закрыть всё
-   MenuLocation:Файл → Закрыть всё
-   Workbenches:Все
-   SeeAlso:[Закрыть](Std_CloseActiveWindow/ru.md)
+- GuiCommand   */ru
+   Name   *Std_CloseAllWindows
+   Name/ru   *Закрыть всё
+   MenuLocation   *Файл → Закрыть всё
+   Workbenches   *Все
+   SeeAlso   *[Закрыть](Std_CloseActiveWindow/ru.md)
 ---
 
 # Std CloseAllWindows/ru
@@ -16,14 +16,14 @@
 ## Применение
 
 1.  Select the **File → <img src="images/Std_CloseAllWindows.svg" width=16px> Close All** option from the menu.
-2.  If there are unsaved documents a dialog box will prompt you to save them:
+2.  If there are unsaved documents a dialog box will prompt you to save them   *
     -   Press the **Save** button to save the active document. If required enter a filename first.
     -   Press the **Discard** button to discard the active document and lose all changes.
 
 ## Опции
 
--   When the dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
--   If there are multiple unsaved documents: check the {{CheckBox|TRUE|Apply answer to all}} checkbox to avoid being prompted for each unsaved document separately.
+-   When the dialog box is displayed   * press **Esc** or the **Cancel** button to abort the command.
+-   If there are multiple unsaved documents   * check the {{CheckBox|TRUE|Apply answer to all}} checkbox to avoid being prompted for each unsaved document separately.
 
 ## Примечания
 
@@ -31,12 +31,12 @@
 
 ## Настройки
 
--   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр   * **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Программирование
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

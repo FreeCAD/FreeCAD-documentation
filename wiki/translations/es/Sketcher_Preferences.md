@@ -1,13 +1,13 @@
 # Sketcher Preferences/es
 {{TOCright}}
 
-The preferences for the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Sketcher**.
+The preferences for the <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [Sketcher Workbench](Sketcher_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Sketcher**.
 
-There are three tabs: [General](#General.md), [Display](#Display.md) and [Colors](#Colors.md).
+There are three tabs   * [General](#General.md), [Display](#Display.md) and [Colors](#Colors.md).
 
 ## General
 
-In the *General* tab you can specify the following:
+In the *General* tab you can specify the following   *
 
 +++
 | Name                                                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -22,9 +22,9 @@ In the *General* tab you can specify the following:
 +++
 |                                               | If checked, new points will snap to the nearest grid line. Note that the points have already to be close to a grid line that the snap takes effect. The distance is a fifth of the value set for **Grid size**, so for a 10 mm grid, the snapping only occurs if the point is not more than 2 mm away from a grid line.                                                                                                                                 |
 | **Grid snap**                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                           | **Note:** A snapped point has no coincident constraint with the grid point it snapped to.                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                           | **Note   *** A snapped point has no coincident constraint with the grid point it snapped to.                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
-|                                               | If checked, the sketcher proposes automatically sensible constraints. If you draw for example a [polyline](Sketcher_CreatePolyline.md) <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:20px;"> and point towards the bottom, you will see that the sketcher proposes a vertical constraint:<img alt="" src=images/Constraint_Vertical.svg  style="width:20px;">. If you set now a point the drawn line segment will get the vertical constraint. |
+|                                               | If checked, the sketcher proposes automatically sensible constraints. If you draw for example a [polyline](Sketcher_CreatePolyline.md) <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *20px;"> and point towards the bottom, you will see that the sketcher proposes a vertical constraint   *<img alt="" src=images/Constraint_Vertical.svg  style="width   *20px;">. If you set now a point the drawn line segment will get the vertical constraint. |
 | **Auto constraints**                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
@@ -63,7 +63,7 @@ In the *General* tab you can specify the following:
 
 ## Display
 
-In the *Display* tab you can specify the following:
+In the *Display* tab you can specify the following   *
 
 +++
 | Name                                                                    | Description                                                                                                                                                                                                                                                                                                                                                            |
@@ -86,11 +86,11 @@ In the *Display* tab you can specify the following:
 | **Ask for value after creating a dimensional constraint**   |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-|                                                          | If checked, the current sketcher creation tool will remain active after the creation. If you use for example the [line tool](Sketcher_CreateLine.md) <img alt="" src=images/Sketcher_Line.svg  style="width:20px;">, it will remain active after you created a line with it. You can leave the tool any time by right-clicking into the sketch.                    |
+|                                                          | If checked, the current sketcher creation tool will remain active after the creation. If you use for example the [line tool](Sketcher_CreateLine.md) <img alt="" src=images/Sketcher_Line.svg  style="width   *20px;">, it will remain active after you created a line with it. You can leave the tool any time by right-clicking into the sketch.                    |
 | **Geometry creation "Continue Mode"**                       |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-|                                                          | If checked, the current constraint creation tool will remain active after the creation. If you use for example the [tangent tool](Sketcher_ConstrainTangent.md) <img alt="" src=images/Constraint_Tangent.png  style="width:20px;">, it will remain active after you created a constraint. You can leave the tool any time by right-clicking into the sketch. |
+|                                                          | If checked, the current constraint creation tool will remain active after the creation. If you use for example the [tangent tool](Sketcher_ConstrainTangent.md) <img alt="" src=images/Constraint_Tangent.png  style="width   *20px;">, it will remain active after you created a constraint. You can leave the tool any time by right-clicking into the sketch. |
 | **Constraint creation "Continue Mode"**                     |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 +++
@@ -98,7 +98,7 @@ In the *Display* tab you can specify the following:
 | **Hide base length units for supported unit systems**       |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-|                                                          | If checked, <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:20px;"> [diameter](Sketcher_ConstrainDiameter.md) will be used as default constraint for arcs and circles instead of <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:20px;"> [radius](Sketcher_ConstrainRadius.md).                  |
+|                                                          | If checked, <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *20px;"> [diameter](Sketcher_ConstrainDiameter.md) will be used as default constraint for arcs and circles instead of <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *20px;"> [radius](Sketcher_ConstrainRadius.md).                  |
 | **Use Diameter as default constraint for arcs and circles** |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 | <small>(v0.20)</small>                                           |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -140,7 +140,7 @@ In the *Display* tab you can specify the following:
 
 ## Colors
 
-In the *Colors* tab you can specify the following:
+In the *Colors* tab you can specify the following   *
 
 +++
 | Name                                                                 | Description                                                                                                                                                                                                                                      |
@@ -230,7 +230,7 @@ In the *Colors* tab you can specify the following:
 |                                                                      |                                                                                                                                                                                                                                                  |
 +++
 
-*Hint:* The color for selections inside sketches is the global selection setting **Enable selection highlighting**, see the [Preferences Editor](Preferences_Editor#Colors.md).
+*Hint   ** The color for selections inside sketches is the global selection setting **Enable selection highlighting**, see the [Preferences Editor](Preferences_Editor#Colors.md).
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
@@ -240,7 +240,9 @@ In the *Colors* tab you can specify the following:
 
 {{Sketcher_Tools_navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

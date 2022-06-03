@@ -1,6 +1,8 @@
 # Category:BIM/pl
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/pl](Category   *User_Documentation/pl.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:EM FHNode
-   MenuLocation:EM → FHNode
-   Workbenches:[EM](EM_Workbench.md)
-   Shortcut:**E** **N**
-   Version:0.17
-   SeeAlso:[EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHPlane Add/Remove Node/Hole](EM_FHPlaneAddRemoveNodeHole.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
+- GuiCommand   *
+   Name   *EM FHNode
+   MenuLocation   *EM → FHNode
+   Workbenches   *[EM](EM_Workbench.md)
+   Shortcut   ***E** **N**
+   Version   *0.17
+   SeeAlso   *[EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHPlane Add/Remove Node/Hole](EM_FHPlaneAddRemoveNodeHole.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
 ---
 
 # EM FHNode/pl
@@ -24,7 +24,7 @@ The FHNode object can be based on the position of a [Draft Point](Draft_Point.md
 1.  Press the **<img src="images/EM_FHNode.svg" width=16px> [EM FHNode](EM_FHNode.md)** button, or press **E** then **N** keys.
 2.  Click a point on the 3D view, or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> add point** button.
 
-Alternatively, you can also:
+Alternatively, you can also   *
 
 1.  Select one or multiple [Draft Point](Draft_Point.md) object(s)
 2.  Press the **<img src="images/EM_FHNode.svg" width=16px> [EM FHNode](EM_FHNode.md)** button, or press **E** then **N** keys. As many FHNodes will be created as the Draft Point objects, at the same coordinates of the Draft Points.
@@ -37,20 +37,20 @@ Alternatively, you can also:
 
 ## Properties
 
--    **X**: the X coordinate of the node
+-    **X**   * the X coordinate of the node
 
--    **Y**: the Y coordinate of the node
+-    **Y**   * the Y coordinate of the node
 
--    **Z**: the Z coordinate of the node
+-    **Z**   * the Z coordinate of the node
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHNode object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+The FHNode object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
 
 
 ```python
@@ -113,7 +113,7 @@ pos = setAbsCoord(abs_coord, placement=None)
 
 -    `placement`is a new FHNode placement. If `None`, the placement is not changed
 
-Example:
+Example   *
 
 
 ```python

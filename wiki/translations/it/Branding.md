@@ -37,11 +37,11 @@ Would you be interested in using FreeCAD in a closed-source application, be sure
 
 #### Generale
 
-La maggior parte della marchiatura avviene in {{FileName|MainCmd.cpp}} oppure in {{FileName|MainGui.cpp}}. Questi Progetti generano i file eseguibili di FreeCAD. Per costruire il proprio marchio è sufficiente copiare i progetti Main o MainGui e dare all\'eseguibile un nome diverso, ad esempio, {{FileName|FooApp.exe}}.
+La maggior parte della marchiatura avviene in **MainCmd.cpp** oppure in **MainGui.cpp**. Questi Progetti generano i file eseguibili di FreeCAD. Per costruire il proprio marchio è sufficiente copiare i progetti Main o MainGui e dare all\'eseguibile un nome diverso, ad esempio, **FooApp.exe**.
 
 Le impostazioni più importanti per dare all\'applicazione un nuovo aspetto possono essere fatte all\'interno della funzione main().
 
-Ecco la sezione di codice che controlla la marchiatura:
+Ecco la sezione di codice che controlla la marchiatura   *
 
 
 </div>
@@ -50,27 +50,27 @@ Ecco la sezione di codice che controlla la marchiatura:
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
-    App::Application::Config()["ExeName"] = "FooApp";
-    App::Application::Config()["ExeVersion"] = "0.7";
+    App   *   *Application   *   *Config()["ExeName"] = "FooApp";
+    App   *   *Application   *   *Config()["ExeVersion"] = "0.7";
 
     // set the banner (for loging and console)
-    App::Application::Config()["CopyrightInfo"] = sBanner;
-    App::Application::Config()["AppIcon"] = "FooAppIcon";
-    App::Application::Config()["SplashScreen"] = "FooAppSplasher";
-    App::Application::Config()["StartWorkbench"] = "Part design";
-    App::Application::Config()["HiddenDockWindow"] = "Property editor";
-    App::Application::Config()["SplashAlignment" ] = "Bottom|Left";
-    App::Application::Config()["SplashTextColor" ] = "#000000"; // black
+    App   *   *Application   *   *Config()["CopyrightInfo"] = sBanner;
+    App   *   *Application   *   *Config()["AppIcon"] = "FooAppIcon";
+    App   *   *Application   *   *Config()["SplashScreen"] = "FooAppSplasher";
+    App   *   *Application   *   *Config()["StartWorkbench"] = "Part design";
+    App   *   *Application   *   *Config()["HiddenDockWindow"] = "Property editor";
+    App   *   *Application   *   *Config()["SplashAlignment" ] = "Bottom|Left";
+    App   *   *Application   *   *Config()["SplashTextColor" ] = "#000000"; // black
 
     // Inits the Application 
-    App::Application::Config()["RunMode"] = "Gui";
-    App::Application::init(argc,argv);
+    App   *   *Application   *   *Config()["RunMode"] = "Gui";
+    App   *   *Application   *   *init(argc,argv);
 
-    Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
+    Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 
-    Gui::Application::initApplication();
-    Gui::Application::runApplication();
-    App::Application::destruct();
+    Gui   *   *Application   *   *initApplication();
+    Gui   *   *Application   *   *runApplication();
+    App   *   *Application   *   *destruct();
 
     return 0;
 }
@@ -87,7 +87,7 @@ Le righe successive definiscono le voci di configurazione della vostra applicazi
 
 #### Immagini
 
-In FreeCAD tutte le risorse immagine vengono compilate utilizzando [Qt\'s resource system](http://qt-project.org/doc/qt-4.8/resources.html). Pertanto è necessario scrivere un file {{FileName|.qrc}}, un file basato sul formato XML, che elenca i file di immagine sul disco, ma anche qualsiasi altro tipo di file di risorse. Per caricare all\'interno dell\'applicazione le risorse compilate è necessario aggiungere una riga
+In FreeCAD tutte le risorse immagine vengono compilate utilizzando [Qt\'s resource system](http   *//qt-project.org/doc/qt-4.8/resources.html). Pertanto è necessario scrivere un file **.qrc**, un file basato sul formato XML, che elenca i file di immagine sul disco, ma anche qualsiasi altro tipo di file di risorse. Per caricare all\'interno dell\'applicazione le risorse compilate è necessario aggiungere una riga
 
 
 </div>
@@ -97,11 +97,11 @@ In FreeCAD tutte le risorse immagine vengono compilate utilizzando [Qt\'s resour
 Q_INIT_RESOURCE(FooApp); 
 ```
 
-nella funzione main(). In alternativa, se si dispone di un\'immagine in formato XPM è possibile includerla direttamente nella propria {{FileName|main.cpp}} e aggiungere la seguente riga per registrarla:
+nella funzione main(). In alternativa, se si dispone di un\'immagine in formato XPM è possibile includerla direttamente nella propria **main.cpp** e aggiungere la seguente riga per registrarla   *
 
 
 ```python
-Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
+Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
 ## Branding XML 
@@ -111,7 +111,7 @@ Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 
 ### Branding XML 
 
-In FreeCAD c\'è anche un metodo supportato senza scrivere una funzione main() personalizzata. Per questo metodo basta scrivere un file chiamato {{FileName|branding.xml}} e metterlo nella directory di installazione di FreeCAD. Ecco un esempio con tutti i tag supportati:
+In FreeCAD c\'è anche un metodo supportato senza scrivere una funzione main() personalizzata. Per questo metodo basta scrivere un file chiamato **branding.xml** e metterlo nella directory di installazione di FreeCAD. Ecco un esempio con tutti i tag supportati   *
 
 
 </div>
@@ -154,6 +154,11 @@ Tutti i tag elencati sono opzionali.
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

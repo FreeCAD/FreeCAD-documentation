@@ -1,6 +1,6 @@
 # Draft Polygon/cs
 ---
-- GuiCommand:/cs   Name:Draft Polygon   Name/cs:Draft Polygon   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Polygon   Shortcut:P G---
+- GuiCommand   */cs   Name   *Draft Polygon   Name/cs   *Draft Polygon   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Draft -> Polygon   Shortcut   *P G---
 
 
 </div>
@@ -19,19 +19,19 @@ Nástroj Mnohoúhelník vytváří pravidelný mnohoúhelník zadáním 2 bodů,
 
 A Draft Polygon can be switched from inscribed to circumscribed by changing its **Draw Mode** property. The corners of a Draft Polygon can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively.
 
-<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_polygon_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_polygon_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -72,10 +72,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part RegularPolygon](Part_RegularPolygon.md) instead of a Draft Polygon.
 
 
@@ -83,48 +83,48 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 ## Vlastnosti
 
--    **Poloměr**: Poloměr definiční kružnice
+-    **Poloměr**   * Poloměr definiční kružnice
 
--    **Kreslicí mód**: Specifikuje jestli je mnohoúhelník vepsaný nebo opsaný definiční kruřnici
+-    **Kreslicí mód**   * Specifikuje jestli je mnohoúhelník vepsaný nebo opsaný definiční kruřnici
 
--    **Počet stran**: Počet stran mnohoúhelníka
+-    **Počet stran**   * Počet stran mnohoúhelníka
 
--    **Poloměr zaoblení**: Specifikuje poloměr zaoblení v rozích mnohoúhelníka
+-    **Poloměr zaoblení**   * Specifikuje poloměr zaoblení v rozích mnohoúhelníka
 
 
 </div>
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
+-    **Area|Area**   * (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
 
--    **Chamfer Size|Length**: specifies the length of the chamfers at the corners of the polygon.
+-    **Chamfer Size|Length**   * specifies the length of the chamfers at the corners of the polygon.
 
--    **Draw Mode|Enumeration**: specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
+-    **Draw Mode|Enumeration**   * specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
 
--    **Faces Number|Integer**: specifies the number of sides of the polygon.
+-    **Faces Number|Integer**   * specifies the number of sides of the polygon.
 
--    **Fillet Radius|Length**: specifies the radius of the fillets at the corners of the polygon.
+-    **Fillet Radius|Length**   * specifies the radius of the fillets at the corners of the polygon.
 
--    **Make Face|Bool**: specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
+-    **Make Face|Bool**   * specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
 
--    **Radius|Length**: specifies the radius of the circle that defines the polygon.
+-    **Radius|Length**   * specifies the radius of the circle that defines the polygon.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
@@ -133,7 +133,7 @@ A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ## Skriptování
 
-Nástroj Mnohoúhelník může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj Mnohoúhelník může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -156,7 +156,7 @@ polygon = make_polygon(nfaces, radius=1, inscribed=True, placement=None, face=No
 
 </div>
 
-Příklad: 
+Příklad   * 
 ```python
 import FreeCAD as App
 import Draft

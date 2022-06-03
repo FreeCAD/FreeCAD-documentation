@@ -1,8 +1,8 @@
 ---
-- GuiCommand:/ja
-   Name:PartDesign_WizardShaft
-   Name/ja:PartDesign_WizardShaft
-   Workbenches:[パートデザイン](PartDesign_Workbench/ja.md), Complete
+- GuiCommand   */ja
+   Name   *PartDesign_WizardShaft
+   Name/ja   *PartDesign_WizardShaft
+   Workbenches   *[パートデザイン](PartDesign_Workbench/ja.md), Complete
 ---
 
 # PartDesign WizardShaft/ja
@@ -37,7 +37,7 @@ FreeCADのPythonコンソールに
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/WizardShaft_Part.jpg  style="width:800px;">
+<img alt="" src=images/WizardShaft_Part.jpg  style="width   *800px;">
 
 
 </div>
@@ -47,7 +47,7 @@ FreeCADのPythonコンソールに
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/shaftwizard1.jpg  style="width:800px;"> 
+<img alt="" src=images/shaftwizard1.jpg  style="width   *800px;"> 
 
 
 
@@ -70,9 +70,9 @@ FreeCADのPythonコンソールに
 -   区分の長さ
 -   区分の直径
 -   負荷のタイプ。メニューをスクロールして適切な項目ををクリックする必要があることに注意してください。そうしないと選択されません！
-    -   None: 負荷なし
-    -   Fixed: シャフトの末端を固定（例えば他の部品に溶接されている場合）。この負荷タイプは最初の区分、または最後の区分にのみ定義できます。
-    -   Static: シャフト区分に静荷重あり
+    -   None   * 負荷なし
+    -   Fixed   * シャフトの末端を固定（例えば他の部品に溶接されている場合）。この負荷タイプは最初の区分、または最後の区分にのみ定義できます。
+    -   Static   * シャフト区分に静荷重あり
 -   シャフトの区分にかける負荷
 -   区分の中で負荷がかける位置。位置は区分左端からの距離で定義されます。
 
@@ -88,9 +88,9 @@ For each shaft segment, the following parameters can be defined
 -   Length of the segment
 -   Diameter of the segment
 -   Load type. Note that you have to click on the desired entry in the menu after scrolling to it, otherwise it will not be selected!
-    -   None: No load
-    -   Fixed: The end of the shaft is fixed (e.g. welded to another part). This load type can only be defined for the first or last segment.
-    -   Static: There is a static load on this shaft segment
+    -   None   * No load
+    -   Fixed   * The end of the shaft is fixed (e.g. welded to another part). This load type can only be defined for the first or last segment.
+    -   Static   * There is a static load on this shaft segment
 -   Load on the shaft segment
 -   Location where the load is applied to the segment. The location is counted from the left-hand edge of the segment
 

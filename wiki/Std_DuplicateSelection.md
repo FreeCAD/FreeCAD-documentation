@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Std DuplicateSelection
-   MenuLocation:Edit → Duplicate selected object
-   Workbenches:All
-   SeeAlso:[Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md)
+- GuiCommand   *
+   Name   *Std DuplicateSelection
+   MenuLocation   *Edit → Duplicate selected object
+   Workbenches   *All
+   SeeAlso   *[Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md)
 ---
 
 # Std DuplicateSelection

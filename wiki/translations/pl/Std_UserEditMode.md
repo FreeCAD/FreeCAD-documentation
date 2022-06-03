@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */pl
    Name   *Std UserEditMode
-   Name/pl   *Std   * Tryb edycji użytkownika
-   MenuLocation   *Edycja → Tryb edycji → ...
+   Name/pl   *Std   * Tryb edycji
+   MenuLocation   *Edycja → Przełącz tryb edycji → ...
    Workbenches   *wszystkie
    Version   *0.20
    SeeAlso   *[Edycja](Std_Edit/pl.md)
@@ -17,8 +17,8 @@ Polecenie **Std   * Tryb edycji użytkownika** definiuje tryb edycji, który bę
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia   *
-    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_UserEditModeDefault.svg" width=24px> [Std Tryb edycji użytkownika](Std_UserEditMode/pl.md)** a następnie wybierz tryb edycji z menu rozwijanego. Uwaga   * ikonka przycisku będzie się zmieniać w zależności od wybranej opcji.
-    -   W menu głównym przejdź do **Edycja → Tryb Edycji** i wybierz tryb edycji.
+    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_UserEditModeDefault.svg" width=24px> [Tryb edycji](Std_UserEditMode/pl.md)** a następnie wybierz tryb edycji z menu rozwijanego. Uwaga   * ikonka przycisku będzie się zmieniać w zależności od wybranej opcji.
+    -   W menu głównym przejdź do **Edycja → Przełącz tryb Edycji** i wybierz tryb edycji.
 
 ## Dostępne tryby edycji 
 

@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Sketcher Extend
-   Name/it:Estendi bordo
-   Icon:Sketcher Extend.svg
-   MenuLocation:Sketch → Geometrie → Estendi bordo
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   SeeAlso:[Rifila](Sketcher_Trimming/it.md)
-   Version:0.17
+- GuiCommand   */it
+   Name   *Sketcher Extend
+   Name/it   *Estendi bordo
+   Icon   *Sketcher Extend.svg
+   MenuLocation   *Sketch → Geometrie → Estendi bordo
+   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
+   SeeAlso   *[Rifila](Sketcher_Trimming/it.md)
+   Version   *0.17
 ---
 
 # Sketcher Extend/it
@@ -24,7 +24,7 @@ Lo strumento **Estendi bordo** estende un bordo fino ad una posizione arbitraria
 
 </div>
 
-<img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;">
+<img alt="" src=images/Sketcher_Extend_example_01.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -39,12 +39,12 @@ Lo strumento **Estendi bordo** estende un bordo fino ad una posizione arbitraria
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante <img alt="" src=images/Sketcher_Extend.svg  style="width:24px;"> **Estendi bordo**.
+1.  Premere il pulsante <img alt="" src=images/Sketcher_Extend.svg  style="width   *24px;"> **Estendi bordo**.
 2.  Selezionare una linea o un arco.
 3.  Nella vista 3D, spostare il puntatore del mouse verso la direzione da estendere.
 4.  Fare clic su una posizione arbitraria nello spazio, oppure
-5.  Per estendere fino ad un altro bordo, posizionare il puntatore del mouse sul bordo; quando è evidenziato e vicino al puntatore del mouse appare l\'icona del vincolo <img alt="" src=images/Sketcher_ConstrainPointOnObject.png  style="width:24px;"> [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md), cliccare per confermare. Viene aggiunto un vincolo punto su oggetto.
-6.  Per estendere a un punto nello schizzo, posizionare il puntatore del mouse sul punto; quando è evidenziato e vicino al puntatore del mouse appare l\'icona del vincolo <img alt="" src=images/Sketcher_ConstrainCoincident.png  style="width:24px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md), cliccare per confermare. Viene aggiunto un vincolo coincidente.
+5.  Per estendere fino ad un altro bordo, posizionare il puntatore del mouse sul bordo; quando è evidenziato e vicino al puntatore del mouse appare l\'icona del vincolo <img alt="" src=images/Sketcher_ConstrainPointOnObject.png  style="width   *24px;"> [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md), cliccare per confermare. Viene aggiunto un vincolo punto su oggetto.
+6.  Per estendere a un punto nello schizzo, posizionare il puntatore del mouse sul punto; quando è evidenziato e vicino al puntatore del mouse appare l\'icona del vincolo <img alt="" src=images/Sketcher_ConstrainCoincident.png  style="width   *24px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md), cliccare per confermare. Viene aggiunto un vincolo coincidente.
 
 
 </div>

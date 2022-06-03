@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Path ToolLibraryEdit
-   MenuLocation:Path → Tool Manager
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **T**
-   SeeAlso:
+- GuiCommand   *
+   Name   *Path ToolLibraryEdit
+   MenuLocation   *Path → Tool Manager
+   Workbenches   *[Path](Path_Workbench.md)
+   Shortcut   ***P** **T**
+   SeeAlso   *
 ---
 
 # Path ToolLibraryEdit/zh
@@ -26,19 +26,19 @@
 
 <div class="mw-translate-fuzzy">
 
-操作非常直接:
+操作非常直接   *
 
--   导入\...: 从一个XML文件导入刀具表. {{Note|Warning|该功能当前有些问题，如果你从来没有在FreeCAD中使用过XML文件，该功能可能无法工作。}}
--   导出\...: 以XML文件格式导出工具表。
--   新建刀具: 打开一个可以输入你的刀具参数的对话框。详见新刀具
--   删除: 删除当前所选行。{{Note|Warning|即便你取消会话刀具依旧会从你的刀具表中删除。}}
--   上移: 你无法编辑刀具序号，但你可以将所选行上移来减少其刀具序号。。
--   下移: 你也可以向下移动所选行来增大其刀具编号。
+-   导入\...   * 从一个XML文件导入刀具表. {{Note|Warning|该功能当前有些问题，如果你从来没有在FreeCAD中使用过XML文件，该功能可能无法工作。}}
+-   导出\...   * 以XML文件格式导出工具表。
+-   新建刀具   * 打开一个可以输入你的刀具参数的对话框。详见新刀具
+-   删除   * 删除当前所选行。{{Note|Warning|即便你取消会话刀具依旧会从你的刀具表中删除。}}
+-   上移   * 你无法编辑刀具序号，但你可以将所选行上移来减少其刀具序号。。
+-   下移   * 你也可以向下移动所选行来增大其刀具编号。
 
 
 </div>
 
--   创建刀具控制器: 如果你在刀具表左侧的复选框选择一个或多个 ，该按钮会被激活。如果你点击它，被选的刀具将被插入你当前的作业。
+-   创建刀具控制器   * 如果你在刀具表左侧的复选框选择一个或多个 ，该按钮会被激活。如果你点击它，被选的刀具将被插入你当前的作业。
 
 ## 使用
 

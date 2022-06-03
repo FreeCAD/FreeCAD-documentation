@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:FEM ConstraintInitialFlowVelocity
-   MenuLocation:Model → Fluid Constraints → Constraint initial flow velocity
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint flow velocity](FEM_ConstraintFlowVelocity.md)
+- GuiCommand   *
+   Name   *FEM ConstraintInitialFlowVelocity
+   MenuLocation   *Model → Fluid Constraints → Constraint initial flow velocity
+   Workbenches   *[FEM](FEM_Workbench.md)
+   SeeAlso   *[FEM Constraint flow velocity](FEM_ConstraintFlowVelocity.md)
 ---
 
 # FEM ConstraintInitialFlowVelocity/en
@@ -14,7 +14,7 @@ Creates an initial flow velocity constraint for a fluid flow analysis.
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [FEM ConstraintInitialFlowVelocity](FEM_ConstraintInitialFlowVelocity.md)** button.
     -   Select the **Model → Fluid Constraints → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Constraint initial flow velocity** option from the menu.
 2.  Enter an initial flow velocity value for the analysis.

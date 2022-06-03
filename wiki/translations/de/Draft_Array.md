@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Draft Array
-   Name/de:Entwurf Anordnung
-   MenuLocation:Entwurf → Anordnung
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[PfadDatenfeld](Draft_PathArray/de.md), [Draft PointArray](Draft_PointArray/de.md), [Draft Klonen](Draft_Clone/de.md)
+- GuiCommand   */de
+   Name   *Draft Array
+   Name/de   *Entwurf Anordnung
+   MenuLocation   *Entwurf → Anordnung
+   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso   *[PfadDatenfeld](Draft_PathArray/de.md), [Draft PointArray](Draft_PointArray/de.md), [Draft Klonen](Draft_Clone/de.md)
 ---
 
 # Draft Array/de
@@ -53,11 +53,11 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 ## Eigenschaften
 
--    {{PropertyData/de|Base}}: beschreibt das zu duplizierende Objekt in der Anordnung.
+-    {{PropertyData/de|Base}}   * beschreibt das zu duplizierende Objekt in der Anordnung.
 
--    {{PropertyData/de|Array Type|Aufzählung}}: gibt den Typ der zu erstellenden Anordnung an, {{value|"ortho"}}, {{value|"polar"}}, oder {{value|"circular"}}.
+-    {{PropertyData/de|Array Type|Aufzählung}}   * gibt den Typ der zu erstellenden Anordnung an, {{value|"ortho"}}, {{value|"polar"}}, oder {{value|"circular"}}.
 
--    {{PropertyData/de|Verschmelzen}}: wenn es `True` ist und die Kopien sich überschneiden, werden sie zu einer einzigen Form zusammengefügt.
+-    {{PropertyData/de|Verschmelzen}}   * wenn es `True` ist und die Kopien sich überschneiden, werden sie zu einer einzigen Form zusammengefügt.
 
 
 </div>
@@ -70,7 +70,7 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Draft API](Draft_API/de.md) und [FreeCAD Skripten Gundlagen](FreeCAD_Scripting_Basics/de.md).
 

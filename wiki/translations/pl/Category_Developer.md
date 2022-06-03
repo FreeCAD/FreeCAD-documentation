@@ -1,6 +1,8 @@
 # Category:Developer/pl
 This category contains articles that are relevant for developers.
 
+[Category   *Categories/pl](Category   *Categories/pl.md)
+
 ### Contents
 
 |     |     |     |

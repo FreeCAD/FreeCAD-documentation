@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Std SceneInspector
-   Name/fr:Std Inspecteur de scène‏‎
-   MenuLocation:Outils → Inspecteur de scène‏‎...
-   Workbenches:Tous
+- GuiCommand   */fr
+   Name   *Std SceneInspector
+   Name/fr   *Std Inspecteur de scène‏‎
+   MenuLocation   *Outils → Inspecteur de scène‏‎...
+   Workbenches   *Tous
 ---
 
 # Std SceneInspector/fr

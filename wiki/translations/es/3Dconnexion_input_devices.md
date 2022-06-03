@@ -1,10 +1,13 @@
-# <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}} 3Dconnexion input devices/es
+# <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width   *200px;"> 3Dconnexion input devices/es
+
+
+{{TOCright}}
 
 ## Instalación de controladores 
 
 ### Linux
 
-FreeCAD soporta los drivers del proyecto [Spacenav](http://spacenav.sourceforge.net/). Este es un proyecto que pretende crear un controlador de código abierto que sea compatible con los controladores propietarios de 3Dconnexion.
+FreeCAD soporta los drivers del proyecto [Spacenav](http   *//spacenav.sourceforge.net/). Este es un proyecto que pretende crear un controlador de código abierto que sea compatible con los controladores propietarios de 3Dconnexion.
 
 #### Instalar desde un repositorio 
 
@@ -32,13 +35,13 @@ apt-get install spacenavd libspnav-dev
 ```
 
 
-:   spacenav necesita estos permisos:
+   *   spacenav necesita estos permisos   *
 
 
 
 
 
-:   
+   *   
     
 ```python
     cp ~/.Xauthority /root/
@@ -50,13 +53,13 @@ apt-get install spacenavd libspnav-dev
 
 
 
-:   Reiniciar spnavd y FreeCAD
+   *   Reiniciar spnavd y FreeCAD
 
 
 
 
 
-:   
+   *   
     
 ```python
     /usr/bin/spnavd_ctl x11 stop
@@ -76,14 +79,14 @@ sudo zypper install spacenavd
 
 Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 
--   Descargue los siguientes archivos:
-    -   [spacenavd](https://sourceforge.net/projects/spacenav/files/latest/download) (última versión)
-    -   [libspnav](https://sourceforge.net/projects/spacenav/files/spacenav%20library%20%28SDK%29/) (obtener la última versión de libspnav)
-    -   [spnavcfg](https://sourceforge.net/projects/spacenav/files/spacenavd%20config%20gui/) (obtener la última versión de libspnav)
+-   Descargue los siguientes archivos   *
+    -   [spacenavd](https   *//sourceforge.net/projects/spacenav/files/latest/download) (última versión)
+    -   [libspnav](https   *//sourceforge.net/projects/spacenav/files/spacenav%20library%20%28SDK%29/) (obtener la última versión de libspnav)
+    -   [spnavcfg](https   *//sourceforge.net/projects/spacenav/files/spacenavd%20config%20gui/) (obtener la última versión de libspnav)
 -   Descomprima los archivos en una carpeta de su directorio personal.
--   Entra en el directorio spacenavd-x.x y ejecuta los siguientes comandos:
+-   Entra en el directorio spacenavd-x.x y ejecuta los siguientes comandos   *
 
-:   
+   *   
     
 ```python
     ./configure
@@ -94,7 +97,7 @@ Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 
 -   Si esto tuvo éxito, ejecute los siguientes comandos **como root**\' (o con el prefijo sudo.)
 
-:   
+   *   
     
 ```python
     make install
@@ -107,7 +110,7 @@ Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 -   Esto instala el demonio de spacenav, lo configura para cargar automáticamente al iniciarse el sistema, e inicia el demonio sin tener que reiniciar.
 -   Ahora es tiempo de verificar que tu dispositivo se detecta correctamente. Con tu dispositivo desconectado, ejecuta los siguientes comandos y luego conéctalo.
 
-:   
+   *   
     
 ```python
     tail -n100 -f /var/log/spnavd.log 
@@ -117,22 +120,22 @@ Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 
 -   Si la salida se parece a algo como esto, puedes continuar.
 
-:   
+   *   
     
 ```python
     Device detection, parsing /proc/bus/input/devices
     trying alternative detection, querying /dev/input/eventX device names...
       trying "/dev/input/event1" ... Power Button
       trying "/dev/input/event2" ... 3Dconnexion SpaceNavigator
-    using device: /dev/input/event2
-    device name: 3Dconnexion SpaceNavigator
+    using device   * /dev/input/event2
+    device name   * 3Dconnexion SpaceNavigator
     
 ```
     
 
--   Ahora entra en el directorio libspnav-x.x.x y ejecuta los siguientes comandos:
+-   Ahora entra en el directorio libspnav-x.x.x y ejecuta los siguientes comandos   *
 
-:   
+   *   
     
 ```python
     ./configure
@@ -141,19 +144,19 @@ Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 ```
     
 
--   Si make falla con el siguiente error: \...
+-   Si make falla con el siguiente error   * \...
 
-:   
+   *   
     
 ```python
-    fatal error: gtk/gtk.h: No such file or directory
+    fatal error   * gtk/gtk.h   * No such file or directory
     
 ```
     
 
--   \... entonces necesitas instalar libgtkmm-2.4-dev. En Ubuntu, se hace así:
+-   \... entonces necesitas instalar libgtkmm-2.4-dev. En Ubuntu, se hace así   *
 
-:   
+   *   
     
 ```python
     sudo apt-get install libgtkmm-2.4-dev
@@ -163,7 +166,7 @@ Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 
 -   Cuando make se realice completamente bien, ejecuta el siguiente comando **como root** (o añade el prefijo sudo)
 
-:   
+   *   
     
 ```python
     make install
@@ -177,7 +180,7 @@ Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 
 #### Starting spacenavd as a systemd service at boot 
 
-If you want to start spacenavd at boot using systemd, do the following:
+If you want to start spacenavd at boot using systemd, do the following   *
 
 -   Go to the directory where you clone the spacenavd repository (to the root of the repository)
 -   \"sudo cp contrib/systemd/spacenavd.service /usr/lib/systemd/system/spacenavd-local.service\".
@@ -188,7 +191,7 @@ This is only necessary for the installation from source.
 
 #### Reinicio spacenavd 
 
-Si a veces el navegador deja de funcionar, es bueno reiniciar el controlador. Para reiniciarlo, vaya al Terminal y ejecute:
+Si a veces el navegador deja de funcionar, es bueno reiniciar el controlador. Para reiniciarlo, vaya al Terminal y ejecute   *
 
 
 ```python
@@ -200,17 +203,17 @@ Después reinicia FreeCAD. En algunas distribuciones esto es necesario en cada r
 
 ### Problemas conocidos 
 
-Un usuario informó en el [foro](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) que vio lo siguiente:
+Un usuario informó en el [foro](https   *//forum.freecadweb.org/viewtopic.php?p=341327#p341327) que vio lo siguiente   *
 
  Spacenav daemon 0.6
- failed to open config file /etc/spnavrc: No such file or directory. using defaults.
+ failed to open config file /etc/spnavrc   * No such file or directory. using defaults.
  adding device.
- device name: 3Dconnexion SpacePilot
- using device: /dev/input/event5
+ device name   * 3Dconnexion SpacePilot
+ using device   * /dev/input/event5
  No protocol specified
- failed to open X11 display ":0.0" 
+ failed to open X11 display "   *0.0" 
 
-La solución que les ha funcionado:
+La solución que les ha funcionado   *
 
 
 ```python 
@@ -229,7 +232,7 @@ A partir de la versión 0.13, el ratón 3D es compatible con Windows. Es necesar
 
 #### Problemas conocidos 
 
-Hay un problema en el que 3Dconnexion envía eventos de desplazamiento duplicados a FreeCAD, lo que hace que la vista salte. Para solucionarlo:
+Hay un problema en el que 3Dconnexion envía eventos de desplazamiento duplicados a FreeCAD, lo que hace que la vista salte. Para solucionarlo   *
 
 1.  Abra las propiedades de 3Dconnexion. Puede hacer doble clic en su icono en la barra de tareas, junto al reloj de Windows.
 2.  Haga clic en el botón Configuración avanzada.
@@ -237,17 +240,17 @@ Hay un problema en el que 3Dconnexion envía eventos de desplazamiento duplicado
 4.  Vuelva a la configuración avanzada de 3Dconnexion. Confirme que dice \"FreeCAD\" en el encabezado.
 5.  Desmarque todas las casillas de la página.
 
-ref: <https://freecadweb.org/tracker/view.php?id=1893>
+ref   * <https   *//freecadweb.org/tracker/view.php?id=1893>
 
 ## Configuración en FreeCAD 
 
 El soporte del ratón 3D se hizo con el proyecto spnav en Linux, y a bajo nivel en Windows. Esto significa que no existe soporte para cualquier configuración para un dispositivo, ya que en Linux no existe un buen soporte, y en Windows se sobreescribe. Este es el motivo de añadir dos páginas adicionales al letrero de diálogo \"Personalización\".
 
-<img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
+<img alt="" src=images/Spaceball_Motion.png  style="width   *450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width   *450px;">
 
 ### Movimiento Bola Espacial 
 
-En esta pestaña podrás configurar alguno de los aspectos generales del space mouse. Incluido:
+En esta pestaña podrás configurar alguno de los aspectos generales del space mouse. Incluido   *
 
 -   Sensibilidad global - Selector para definir la sensibilidad global
 -   Dominante - Si activas el modo dominante, sólo los ejes con mayor movimiento se considerarán
@@ -257,7 +260,7 @@ En esta pestaña podrás configurar alguno de los aspectos generales del space m
 -   Calibrado - Permite calibrar el space navigator. Se presiona mientras no se mueva el space navigator.
 -   Establecer por defecto - Elimina las configuraciones y las pones por defecto.
 
-Otras, para cada eje tienes la posibilidad de:
+Otras, para cada eje tienes la posibilidad de   *
 
 -   Activar - Activar / Desactivar ejes
 -   Invertir - Invertir el movimiento en un eje
@@ -269,15 +272,31 @@ Cuando abres esta pestaña por primera vez, estará vacía y no disponible. Para
 
 Para conectar un determinado comando con un botón, selecciona el botón en la izquierda, y el comando a la derecha. Para limpiar comandos de botones, presiona \"Limpiar\".
 
+### Troubleshooting
+
+Check if your FreeCAD installation links to the spacenav library. The best way to check this is by running FreeCAD from the command line terminal `FreeCAD --log-file /tmp/freecad.log` and close it immediately again. Then open the file **/tmp/freecad.log** and search for the messages   *
+
+
+`Connected to spacenav daemon`
+
+or
+
+
+`Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
+
+If none of them appears then your FreeCAD build doesn\'t link to the spacenav library. If the former message appears then it basically works. The latter message means there is probably a problem with the spacenav daemon.
+
 ## Relacionados
 
 
 <div class="mw-translate-fuzzy">
 
--   <https://forum.freecadweb.org/viewtopic.php?f=3&t=51023>
+-   <https   *//forum.freecadweb.org/viewtopic.php?f=3&t=51023>
 
 
 </div>
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *3rd Party](Category_3rd_Party.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw 2PointCenterLine
-   Name/it:Linea centrale a 2 punti
-   MenuLocation:TechDraw → Aggiungi linee → Linea centrale a 2 punti
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Linea centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centro linee](TechDraw_2LineCenterLine/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *TechDraw 2PointCenterLine
+   Name/it   *Linea centrale a 2 punti
+   MenuLocation   *TechDraw → Aggiungi linee → Linea centrale a 2 punti
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Linea centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centro linee](TechDraw_2LineCenterLine/it.md)
+   Version   *0.19
 ---
 
 # TechDraw 2PointCenterLine/it
@@ -17,7 +17,7 @@
 
 Lo strumento Linea centrale a 2 punti aggiunge una linea centrale tra due vertici (punti).
 
-<img alt="" src=images/CL2PointsSample.png  style="width:200px;">
+<img alt="" src=images/CL2PointsSample.png  style="width   *200px;">
 
 
 
@@ -51,17 +51,17 @@ Le linee centrali cosmetiche non hanno proprietà proprie, in quanto non sono Do
 
 </div>
 
-1.  Mode (pulsanti di opzione):
-    -   Vertical: forza la linea centrale verticale
-    -   Horizontal: forza la linea centrale orizzontale
-    -   Aligned: segue la direzione generale del bordo per la linea centrale tra due bordi
-2.  Shift Horiz: sposta la linea centrale a sinistra o a destra rispetto alla sua posizione normale
-3.  Shift Vert: sposta la linea centrale in alto o in basso rispetto alla sua posizione normale
-4.  Rotate: ruota la linea centrale attorno al suo centro (gradi, +CCW, -CW)
-5.  Extend: estende la linea centrale di questa quantità
-6.  Color: colore della linea centrale
-7.  Weight: spessore della linea centrale
-8.  Style: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot
+1.  Mode (pulsanti di opzione)   *
+    -   Vertical   * forza la linea centrale verticale
+    -   Horizontal   * forza la linea centrale orizzontale
+    -   Aligned   * segue la direzione generale del bordo per la linea centrale tra due bordi
+2.  Shift Horiz   * sposta la linea centrale a sinistra o a destra rispetto alla sua posizione normale
+3.  Shift Vert   * sposta la linea centrale in alto o in basso rispetto alla sua posizione normale
+4.  Rotate   * ruota la linea centrale attorno al suo centro (gradi, +CCW, -CW)
+5.  Extend   * estende la linea centrale di questa quantità
+6.  Color   * colore della linea centrale
+7.  Weight   * spessore della linea centrale
+8.  Style   * <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> DashDotDot
 
 ## Script
 
@@ -69,7 +69,7 @@ Le linee centrali cosmetiche non hanno proprietà proprie, in quanto non sono Do
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

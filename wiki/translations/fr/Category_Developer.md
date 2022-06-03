@@ -1,7 +1,9 @@
 # Category:Developer/fr
-# Category:Developer/fr
+# Category   *Developer/fr
 
 Cette catégorie contient les articles importants relevants aux développeurs.
+
+[Category   *Categories/fr](Category   *Categories/fr.md)
 
 ### Contents
 

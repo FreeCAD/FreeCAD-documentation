@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Path Inspect
-   MenuLocation:Path → Inspect G-code
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **I**
+- GuiCommand   *
+   Name   *Path Inspect
+   MenuLocation   *Path → Inspect G-code
+   Workbenches   *[Path](Path_Workbench.md)
+   Shortcut   ***P** **I**
 ---
 
 # Path Inspect/zh

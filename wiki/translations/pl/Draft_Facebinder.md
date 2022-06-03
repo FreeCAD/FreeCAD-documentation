@@ -1,67 +1,67 @@
 ---
-- GuiCommand:/pl
-   Name:Draft Facebinder
-   Name/pl:Rysunek Roboczy: Łącznik kształtów
-   MenuLocation:Kreślenie → Łącznik kształtu
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**F** **F**
-   Version:0.14
+- GuiCommand   */pl
+   Name   *Draft Facebinder
+   Name/pl   *Rysunek Roboczy   * Łącznik kształtów
+   MenuLocation   *Kreślenie → Łącznik kształtu
+   Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut   ***F** **F**
+   Version   *0.14
 ---
 
 # Draft Facebinder/pl
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Łącznik kształtów** tworzy obiekt powierzchniowy z wybranych ścian. Łącznik kształtów jest parametryczny, będzie się aktualizował jeśli zmodyfikujesz jego obiekt źródłowy *(lub obiekty źródłowe)*.
+Polecenie <img alt="" src=images/Draft_Facebinder.svg  style="width   *24px;"> **Łącznik kształtów** tworzy obiekt powierzchniowy z wybranych ścian. Łącznik kształtów jest parametryczny, będzie się aktualizował jeśli zmodyfikujesz jego obiekt źródłowy *(lub obiekty źródłowe)*.
 
 Można go użyć do utworzenia wyciągnięcia z kolekcji powierzchni. Takie wytłoczenie może na przykład reprezentować wykończenie ściany w projekcie architektonicznym.
 
-<img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_facebinder_example.jpg  style="width   *400px;"> 
 *Łącznik kształtu stworzony z powierzchni ścian*
 
 ## Użycie
 
 1.  Wybierz jedną lub więcej ścian.
-2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
     -   Naciśnij przycisk **<img src="images/Draft_Facebinder.svg" width=16px> [Tworzy obiekt powiązania ścian ...](Draft_Facebinder/pl.md)**.
     -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Facebinder.svg" width=16px> Łącznik kształtu**.
-    -   Użyj skrótu klawiaturowego: **F**, a następnie **F**.
+    -   Użyj skrótu klawiaturowego   * **F**, a następnie **F**.
 
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zobacz również stronę   * [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Łącznik kształtu wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Łącznik kształtu wywodzi się z obiektu [Część   * Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości   *
 
 ### Dane
 
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    {{PropertyData/pl|Powierzchnia|Area}}: (tylko do odczytu): określa całkowitą powierzchnię połączonych powierzchni w elemencie wiążącym.
+-    {{PropertyData/pl|Powierzchnia|Area}}   * (tylko do odczytu)   * określa całkowitą powierzchnię połączonych powierzchni w elemencie wiążącym.
 
--    {{PropertyData/pl|Wyciągnięcie|Distance}}: określa grubość wyciągnięcia w elemencie wiążącym.
+-    {{PropertyData/pl|Wyciągnięcie|Distance}}   * określa grubość wyciągnięcia w elemencie wiążącym.
 
--    {{PropertyData/pl|Ściany|LinkSubList}}: określa grubość wyciągnięć w elemencie wiążącym.
+-    {{PropertyData/pl|Ściany|LinkSubList}}   * określa grubość wyciągnięć w elemencie wiążącym.
 
--    {{PropertyData/pl|Odsunięcie|Distance}}: określa odległość, jaka ma być zastosowana między elementem łączącym a oryginalnymi powierzchniami przed wyciągnięciem.
+-    {{PropertyData/pl|Odsunięcie|Distance}}   * określa odległość, jaka ma być zastosowana między elementem łączącym a oryginalnymi powierzchniami przed wyciągnięciem.
 
--    {{PropertyData/pl|Usuń rozdzielenie|Bool}}: Określa, czy usuwać linie podziału, które dzielą współpłaszczyznowe powierzchnie.
+-    {{PropertyData/pl|Usuń rozdzielenie|Bool}}   * Określa, czy usuwać linie podziału, które dzielą współpłaszczyznowe powierzchnie.
 
--    {{PropertyData/pl|Zszyj|Bool}}: Określa, czy wykonywać operację zespolenia topologicznego na elemencie wiążącym.
+-    {{PropertyData/pl|Zszyj|Bool}}   * Określa, czy wykonywać operację zespolenia topologicznego na elemencie wiążącym.
 
 ### Widok
 
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    {{PropertyView/pl|Wzór|Enumeration}}: określa [wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia w elemencie wiążącym. Ta właściwość działa tylko wtedy, gdy {{PropertyData/pl|Utwórz ścianę}} ma wartość `True` i gdy {{PropertyView/pl|Tryb wyświetlania}} ma wartość {{value|Linie płaskie}}.
+-    {{PropertyView/pl|Wzór|Enumeration}}   * określa [wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia w elemencie wiążącym. Ta właściwość działa tylko wtedy, gdy {{PropertyData/pl|Utwórz ścianę}} ma wartość `True` i gdy {{PropertyView/pl|Tryb wyświetlania}} ma wartość {{value|Linie płaskie}}.
 
--    {{PropertyView/pl|Rozmiar wzoru|Float}}: określa rozmiar [wzoru](Draft_Pattern/pl.md).
+-    {{PropertyView/pl|Rozmiar wzoru|Float}}   * określa rozmiar [wzoru](Draft_Pattern/pl.md).
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć Łącznik kształtu użyj metody `make_facebinder` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeFacebinder`.
 
@@ -90,7 +90,7 @@ Grubość obiektu Łącznika kształtu może być dodana poprzez nadpisanie jego
 
 Umiejscowienie elementu Łącznika kształtu można zmienić, nadpisując jego atrybut `Placement` lub indywidualnie nadpisując jego atrybuty `Placement.Base` i `Placement.Rotation`.
 
-Przykład:
+Przykład   *
 
 
 ```python
@@ -101,7 +101,7 @@ import Draft
 doc = App.newDocument()
 
 # Insert a solid box
-box = doc.addObject("Part::Box", "Box")
+box = doc.addObject("Part   *   *Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

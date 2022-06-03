@@ -1,6 +1,6 @@
 # Draft Rectangle/cs
 ---
-- GuiCommand:/cs   Name:Draft Rectangle   Name/cs:Draft Rectangle   Workbenches:[Architecture](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Rectangle   Shortcut:R E   SeeAlso:[Part Box](Part_Box/cs.md)---
+- GuiCommand   */cs   Name   *Draft Rectangle   Name/cs   *Draft Rectangle   Workbenches   *[Architecture](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Draft -> Rectangle   Shortcut   *R E   SeeAlso   *[Part Box](Part_Box/cs.md)---
 
 
 </div>
@@ -19,19 +19,19 @@ Nástroj Obdélník vytváří obdélník zadáním dvou protějších bodů. Po
 
 The corners of a Draft Rectangle can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide a Draft Rectangle by changing its **Columns** and/or **Rows** property.
 
-<img alt="" src=images/Draft_Rectangle_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Rectangle_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Rectangle_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Rectangle_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -73,10 +73,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Plane](Part_Plane.md) instead of a Draft Rectangle.
 
 
@@ -84,52 +84,52 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 ## Vlastnosti
 
--    **Délka**: Specifikuje délku obdélníku
+-    **Délka**   * Specifikuje délku obdélníku
 
--    **Šířka**: Specifikuje šířku obdélníku
+-    **Šířka**   * Specifikuje šířku obdélníku
 
--    **Poloměr zaoblení**: Specifikuje poloměr zaoblení rohů obdélníku
+-    **Poloměr zaoblení**   * Specifikuje poloměr zaoblení rohů obdélníku
 
--    **Textura obrázku**: Umožňuje zadat adresu souboru s obrázkem, který bude zobrazen na obdélníku. Je na Vás jestli dáte obdélníku stejné proporce jako má obrázek abyste se vyhnuli jeho zkreslení. Nevyplnění této vlastnosti obrázek odebere.
+-    **Textura obrázku**   * Umožňuje zadat adresu souboru s obrázkem, který bude zobrazen na obdélníku. Je na Vás jestli dáte obdélníku stejné proporce jako má obrázek abyste se vyhnuli jeho zkreslení. Nevyplnění této vlastnosti obrázek odebere.
 
 
 </div>
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the rectangle. The value will be {{value|0.0}} if **Make Face** if `False`.
+-    **Area|Area**   * (read-only) specifies the area of the face of the rectangle. The value will be {{value|0.0}} if **Make Face** if `False`.
 
--    **Chamfer Size|Length**: specifies the length of the chamfers at the corners of the rectangle.
+-    **Chamfer Size|Length**   * specifies the length of the chamfers at the corners of the rectangle.
 
--    **Columns|Integer**: specifies the number of equal-sized columns in which the rectangle is divided.
+-    **Columns|Integer**   * specifies the number of equal-sized columns in which the rectangle is divided.
 
--    **Fillet Radius|Length**: specifies the radius of the fillets at the corners of the rectangle.
+-    **Fillet Radius|Length**   * specifies the radius of the fillets at the corners of the rectangle.
 
--    **Height|Distance**: specifies the height of the rectangle.
+-    **Height|Distance**   * specifies the height of the rectangle.
 
--    **Length|Distance**: specifies the length of the rectangle.
+-    **Length|Distance**   * specifies the length of the rectangle.
 
--    **Make Face|Bool**: specifies if the rectangle makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
+-    **Make Face|Bool**   * specifies if the rectangle makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
 
--    **Rows|Integer**: specifies the number of equal-sized rows in which the rectangle is divided.
+-    **Rows|Integer**   * specifies the number of equal-sized rows in which the rectangle is divided.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the rectangle. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the rectangle. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
--    **Texture Image|File**: specifies the path of the image file to be mapped onto the face of the rectangle. Blanking this property will remove the image. The rectangle should have the same proportions as the image to avoid distortions.
+-    **Texture Image|File**   * specifies the path of the image file to be mapped onto the face of the rectangle. Blanking this property will remove the image. The rectangle should have the same proportions as the image to avoid distortions.
 
 ## Scripting
 
@@ -138,7 +138,7 @@ A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject
 
 ## Skriptování
 
-Nástroj Obdélník může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj Obdélník může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -162,7 +162,7 @@ rectangle = make_rectangle(length, height, placement=None, face=None, support=No
 
 </div>
 
-Příklad: 
+Příklad   * 
 ```python
 import FreeCAD as App
 import Draft

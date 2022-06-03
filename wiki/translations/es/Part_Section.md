@@ -1,6 +1,6 @@
 # Part Section/es
 ---
-- GuiCommand:/es   Name:Part_Section   MenuLocation:Pieza → Sección   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench/es.md)|SeeAlso:[SectionCross](Part_SectionCross/es.md)---
+- GuiCommand   */es   Name   *Part_Section   MenuLocation   *Pieza → Sección   Workbenches   *[Complete](Part_Workbench___Part]],_[[Complete_Workbench/es.md)|SeeAlso   *[SectionCross](Part_SectionCross/es.md)---
 
 
 </div>
@@ -15,11 +15,11 @@ Extrae una sección de la intersección de las dos formas seleccionadas, la segu
 
 </div>
 
-In this example, a cube is sectioned with a cylinder:
+In this example, a cube is sectioned with a cylinder   *
 
 +++
-| ![](images/PartSection1_it.png ) | -   **Base**: base object, the Box       |
-|                                                | -   **Tool**: Section tool, the cylinder |
+| ![](images/PartSection1_it.png ) | -   **Base**   * base object, the Box       |
+|                                                | -   **Tool**   * Section tool, the cylinder |
 +++
 
 
@@ -33,7 +33,7 @@ In this example, a cube is sectioned with a cylinder:
 
 ## Links
 
-To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Cross-sections](Part_CrossSections.md).
+To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width   *24px;"> [Cross-sections](Part_CrossSections.md).
 
 
 

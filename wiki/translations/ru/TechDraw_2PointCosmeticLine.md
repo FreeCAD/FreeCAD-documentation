@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Добавить вспомогательную линию между 2-мя точками
-   Name:TechDraw_2PointCosmeticLine
-   MenuLocation:TechDraw → Добавить Линии → Добавить вспомогательную линию между 2-мя точками
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Добавить вспомогательную линию между 2-мя точками
+   Name   *TechDraw_2PointCosmeticLine
+   MenuLocation   *TechDraw → Добавить Линии → Добавить вспомогательную линию между 2-мя точками
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   Version   *0.19
+   SeeAlso   *[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
 ---
 
 # TechDraw 2PointCosmeticLine/ru
@@ -14,7 +14,7 @@
 
 The 2PointCosmeticLine tool adds a cosmetic line between two Vertices (Points). The vertices can be 2d or 3d. The resulting line can be used for dimensioning. The line\'s appearance can be modified using the [Remove Cosmetic Object](TechDraw_CosmeticEraser.md) tool.
 
-<img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
+<img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
 
 
 
@@ -48,7 +48,7 @@ Cosmetic lines have no properties of their own, as they are not document objects
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

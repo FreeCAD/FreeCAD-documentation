@@ -3,6 +3,8 @@
 
 Questa categoria contiene gli articoli che sono importanti per gli sviluppatori.
 
+[Category   *Developer Documentation/it](Category   *Developer_Documentation/it.md) [Category   *Categories/it](Category   *Categories/it.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Std_Revert
-   Name/it:Ripristina
-   Empty:1
-   MenuLocation:File → Ripristina
-   Workbenches:Tutti
+- GuiCommand   */it
+   Name   *Std_Revert
+   Name/it   *Ripristina
+   Empty   *1
+   MenuLocation   *File → Ripristina
+   Workbenches   *Tutti
 ---
 
 # Std Revert/it

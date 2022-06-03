@@ -1,8 +1,8 @@
 ---
-- GuiCommand:/de
-   Name/de:Std FreeCADWebsite
-   MenuLocation:[Hilfe](Std_Help_Menu/de.md) → FreeCAD Website
-‎   Workbenches:Alle
+- GuiCommand   */de
+   Name/de   *Std FreeCADWebsite
+   MenuLocation   *[Hilfe](Std_Help_Menu/de.md) → FreeCAD Website
+‎   Workbenches   *Alle
 ---
 
 # Std FreeCADWebsite/de
@@ -15,14 +15,14 @@
 
 ## Beschreibung
 
-Öffnet die [FreeCAD Website](https://www.freecadweb.org) im Standard-Browser des Betriebssystems (erfordert eine Internet-Verbindung). Dort können verschiedene Landessprachen ausgewählt werden.
+Öffnet die [FreeCAD Website](https   *//www.freecadweb.org) im Standard-Browser des Betriebssystems (erfordert eine Internet-Verbindung). Dort können verschiedene Landessprachen ausgewählt werden.
 
 
 </div>
 
 The **Std FreeCADWebsite** command opens the main website of the FreeCAD project in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https://www.freecadweb.org>](https://www.freecadweb.org/).
+Currently the command points to [<https   *//www.freecadweb.org>](https   *//www.freecadweb.org/).
 
 
 <div class="mw-translate-fuzzy">

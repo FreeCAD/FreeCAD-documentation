@@ -1,17 +1,17 @@
 ---
-- GuiCommand:
-   Name:Plot Axes
-   MenuLocation:Plot → Configure axes
-   Workbenches:[Plot](Plot_Workbench.md)
+- GuiCommand   *
+   Name   *Plot Axes
+   MenuLocation   *Plot → Configure axes
+   Workbenches   *[Plot](Plot_Workbench.md)
 ---
 
 # Plot Axes/de
 
 ## Beschreibung
 
-The standard plot module already provides a basic tool to control the plot axes <img alt="" src=images/Matplotlib_edit_subplot.png  style="width:24px;">. But that tool is clearly insufficient when multi-axes plots have to be handled, as is the case in the [Multi-axes plot tutorial](Plot_MultiAxes_tutorial.md). To overcome that limitation you can install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), so a more complete tool to edit the plot axes will be available.
+The standard plot module already provides a basic tool to control the plot axes <img alt="" src=images/Matplotlib_edit_subplot.png  style="width   *24px;">. But that tool is clearly insufficient when multi-axes plots have to be handled, as is the case in the [Multi-axes plot tutorial](Plot_MultiAxes_tutorial.md). To overcome that limitation you can install the <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), so a more complete tool to edit the plot axes will be available.
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
 
 ## Anwendung
 
@@ -50,7 +50,9 @@ Finally you can set the minimum and maximum values considered for each set of ax
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Arch Structure
-   Name/es:Arch Estructura
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Arquitectura → Estructura
-   Shortcut:**S** **T**
-   SeeAlso:[Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Barra de refuerzo](Arch_Rebar/es.md)
+- GuiCommand   */es
+   Name   *Arch Structure
+   Name/es   *Arch Estructura
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   MenuLocation   *Arquitectura → Estructura
+   Shortcut   ***S** **T**
+   SeeAlso   *[Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Barra de refuerzo](Arch_Rebar/es.md)
 ---
 
 # Arch Structure/es
@@ -63,28 +63,28 @@ Si no se da ningún perfil, se dispone de un conjunto de preajustes para constru
 
 <div class="mw-translate-fuzzy">
 
--    **Tool**: una trayectoria de extrusión opcional, que puede ser cualquier tipo de hilo. Si esta propiedad está vacía, la extrusión será recta, y ocurrirá en la dirección dada por la propiedad Normal
+-    **Tool**   * una trayectoria de extrusión opcional, que puede ser cualquier tipo de hilo. Si esta propiedad está vacía, la extrusión será recta, y ocurrirá en la dirección dada por la propiedad Normal
 
--    **Normal**: especifica la dirección en la que se extruirá la cara base de esta estructura. Si esta propiedad se mantiene en (0,0,0), la dirección se establecerá automáticamente a la dirección normal de la cara base.
+-    **Normal**   * especifica la dirección en la que se extruirá la cara base de esta estructura. Si esta propiedad se mantiene en (0,0,0), la dirección se establecerá automáticamente a la dirección normal de la cara base.
 
--    **Face Maker**: especifica el tipo de algoritmo de generación de caras que se utilizará para construir el perfil. Las opciones son None, Simple, Cheese y Bullseye.
+-    **Face Maker**   * especifica el tipo de algoritmo de generación de caras que se utilizará para construir el perfil. Las opciones son None, Simple, Cheese y Bullseye.
 
--    **Length**: especifica la longitud de la estructura. Sólo se utiliza si la estructura no se basa en un perfil.
+-    **Length**   * especifica la longitud de la estructura. Sólo se utiliza si la estructura no se basa en un perfil.
 
--    **Width**: especifica la anchura de la estructura. Sólo se utiliza si la estructura no se basa en un perfil.
+-    **Width**   * especifica la anchura de la estructura. Sólo se utiliza si la estructura no se basa en un perfil.
 
--    **Height**: especifica la altura de la estructura, o la longitud de la extrusión cuando se basa en un perfil. Si no se da la altura, y la estructura está dentro de un objeto [Arquitectura Piso](Arch_Floor/es.md) con su altura definida, la estructura tomará automáticamente el valor de la altura del piso.
+-    **Height**   * especifica la altura de la estructura, o la longitud de la extrusión cuando se basa en un perfil. Si no se da la altura, y la estructura está dentro de un objeto [Arquitectura Piso](Arch_Floor/es.md) con su altura definida, la estructura tomará automáticamente el valor de la altura del piso.
 
--    **Nodes Offset**: especifica un desplazamiento opcional entre la línea central y la línea de nodos.
+-    **Nodes Offset**   * especifica un desplazamiento opcional entre la línea central y la línea de nodos.
 
 
 </div>
 
 ### Vista
 
--    **Tipo de nodos**: El tipo de nodos estructurales de este objeto, lineal o de área.
+-    **Tipo de nodos**   * El tipo de nodos estructurales de este objeto, lineal o de área.
 
--    **Mostrar Nodos**: Muestra u oculta los nodos estructurales.
+-    **Mostrar Nodos**   * Muestra u oculta los nodos estructurales.
 
 ## Predefinidos
 
@@ -97,14 +97,14 @@ Los elementos predefinidos se obtienen al elegir una **Categoría** del panel de
 
 El botón **Switch L/H** se puede usar para cambiar los valores de Longitud y Altura y, por lo tanto, construir una viga horizontal en lugar de una columna vertical.
 
-<img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
+<img alt="" src=images/Arch_precast_example.jpg  style="width   *960px;"> 
 *Algunos preajustes para estructuras prefabricadas de hormigón*
 
 ## Nodos estructurales 
 
-Los objetos estructurales también tienen la capacidad de mostrar nodos estructurales. Los nodos estructurales son una secuencia de puntos 3D almacenados en una propiedad \"Nodos\". Al activar o desactivar la propiedad de vista \"Mostrar nodos\", se pueden ver los nodos estructurales de un elemento estructural:
+Los objetos estructurales también tienen la capacidad de mostrar nodos estructurales. Los nodos estructurales son una secuencia de puntos 3D almacenados en una propiedad \"Nodos\". Al activar o desactivar la propiedad de vista \"Mostrar nodos\", se pueden ver los nodos estructurales de un elemento estructural   *
 
-<img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
+<img alt="" src=images/Arch_structural_nodes.jpg  style="width   *960px;"> 
 *Nodos estructurales visibles para un conjunto de estructuras*
 
 
@@ -113,7 +113,7 @@ Los objetos estructurales también tienen la capacidad de mostrar nodos estructu
 -   Los nodos se calculan y actualizan automáticamente, siempre que no los modifiques manualmente. Si lo hizo, no se actualizarán si la forma del objeto estructural cambia, a menos que use la herramienta \"Restablecer nodos\" a continuación.
 -   Las estructuras de arco pueden tener nodos lineales, sino también nodos planos. Para esto, 1- Debe haber al menos 3 vectores en la propiedad \"Nodes\" del objeto, 2- la propiedad \"NodesType\" de su ViewObject se debe establecer en \"Área\".
 -   Cuando el cálculo de nodos es automático (es decir, si nunca los tocó manualmente), al establecer la propiedad Rol de una estructura a \"Slab\", se convertirá automáticamente en un nodo plano (habrá más de 3 vectores y el NodesType se establecerá en \"Área\").
--   Al editar un objeto de estructura (hacer doble clic), hay un par de herramientas de nodo disponibles en la vista de tareas:
+-   Al editar un objeto de estructura (hacer doble clic), hay un par de herramientas de nodo disponibles en la vista de tareas   *
     -   Restablezca los nodos al cálculo automático, en caso de que los haya modificado manualmente
     -   Edite los nodos gráficamente, funciona de la misma manera que [Draft Edit](Draft_Edit/es.md)
     -   Extiende los nodos del objeto editado hasta que toque el nodo de otro objeto
@@ -131,7 +131,7 @@ Los objetos estructurales también tienen la capacidad de mostrar nodos estructu
 ## Guion
 
 
-**Ver también:**
+**Ver también   ***
 
 [Arch\_API/es](Arch_API/es.md) y [FreeCAD\_Scripting\_Basics/es](FreeCAD_Scripting_Basics/es.md).
 
@@ -141,7 +141,7 @@ Los objetos estructurales también tienen la capacidad de mostrar nodos estructu
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Estructura se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando las siguientes funciones:
+La herramienta Estructura se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando las siguientes funciones   *
 
 
 </div>
@@ -156,7 +156,7 @@ Structure = makeStructure(baseobj=None, length=None, width=None, height=None, na
     -   Si no se da el `baseobj`, puede proporcionar los valores numéricos para el `length`, `width`, y `height` para crear una estructura de bloques.
     -   El `baseobj` también puede ser cualquier objeto sólido existente.
 
-Ejemplo: 
+Ejemplo   * 
 ```python
 import FreeCAD, Draft, Arch
 

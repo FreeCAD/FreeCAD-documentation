@@ -1,6 +1,8 @@
 # Category:Documentation/ja
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories/ja](Category   *Categories/ja.md)
+
 ### Contents
 
 |     |     |     |

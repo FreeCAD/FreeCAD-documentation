@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std ArrangeIcons
-   Name/de:Std SymboleAnordnen
-   Empty:1
-   MenuLocation:Fenster → Symbole anordnen
-   Workbenches:Alle
-   SeeAlso:[Std Anordnen](Std_TileWindows/de.md)
+- GuiCommand   */de
+   Name   *Std ArrangeIcons
+   Name/de   *Std SymboleAnordnen
+   Empty   *1
+   MenuLocation   *Fenster → Symbole anordnen
+   Workbenches   *Alle
+   SeeAlso   *[Std Anordnen](Std_TileWindows/de.md)
 ---
 
 # Std ArrangeIcons/de

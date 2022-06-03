@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Указать вертикальный габаритный размер
-   Name:TechDraw_VerticalExtentDimension
-   MenuLocation:TechDraw → Размеры → Указать вертикальный габаритный размер 
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Указать длину](TechDraw_LengthDimension/ru.md), [Указать горизонтальный габаритный размер](TechDraw_HorizontalExtentDimension/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Указать вертикальный габаритный размер
+   Name   *TechDraw_VerticalExtentDimension
+   MenuLocation   *TechDraw → Размеры → Указать вертикальный габаритный размер 
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   Version   *0.19
+   SeeAlso   *[Указать длину](TechDraw_LengthDimension/ru.md), [Указать горизонтальный габаритный размер](TechDraw_HorizontalExtentDimension/ru.md)
 ---
 
 # TechDraw VerticalExtentDimension/ru
@@ -14,7 +14,7 @@
 
 The Vertical Extent Dimension tool adds a linear dimension to a View. The dimension extends from the bottom most point on the selected objects to the top most point. A CosmeticVertex will be placed at each point.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width   *400px;"> 
 *Vertical Extent dimension of BSpline Face*
 
 ## Применение
@@ -33,16 +33,16 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md). Exceptio
 
 ### Данные
 
--    **MeasureType**: `True` - based on 3D geometry or \"Projected\" - based on the drawing. Not normally manipulated directly by the end user. Not yet implemented for Dimension Vertical Extent.
+-    **MeasureType**   * `True` - based on 3D geometry or \"Projected\" - based on the drawing. Not normally manipulated directly by the end user. Not yet implemented for Dimension Vertical Extent.
 
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Vertical Extent Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Vertical Extent Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python

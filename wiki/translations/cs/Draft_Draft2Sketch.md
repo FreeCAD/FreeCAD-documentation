@@ -1,6 +1,6 @@
 # Draft Draft2Sketch/cs
 ---
-- GuiCommand:/cs   Name:Draft_Draft2Sketch   Name/cs:Kreslení Kreslení2Náčrt   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Nákres do Náčrtu---
+- GuiCommand   */cs   Name   *Draft_Draft2Sketch   Name/cs   *Kreslení Kreslení2Náčrt   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení -> Nákres do Náčrtu---
 
 
 </div>
@@ -46,8 +46,8 @@ Tento nástroj konvertuje [objekty Kreslení](Draft_Workbench/cs.md) do [objektu
 -   Non-Draft objects that are totally planar can also be converted.
 -   The command can only handle objects made up out of straight lines, circular arcs, elliptical arcs, B-Splines and Bézier curves.
 -   [Draft BezCurves](Draft_BezCurve.md) will be approximated by [Sketcher BSplines](Sketcher_CreateBSpline.md).
--   The external [KicadStepUp Workbench](KicadStepUp_Workbench.md) contains a command to convert a [Draft BSpline](Draft_BSpline.md) into a series of [Sketcher Arcs](Sketcher_CreateArc.md). For more information see the forum topic [BSplines to Shape2DView and Sketcher](https://forum.freecadweb.org/viewtopic.php?f=9&t=25082).
--   [This other forum topic](https://forum.freecadweb.org/viewtopic.php?f=3&t=58781#p505207) contains a macro for such a conversion.
+-   The external [KicadStepUp Workbench](KicadStepUp_Workbench.md) contains a command to convert a [Draft BSpline](Draft_BSpline.md) into a series of [Sketcher Arcs](Sketcher_CreateArc.md). For more information see the forum topic [BSplines to Shape2DView and Sketcher](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=25082).
+-   [This other forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=58781#p505207) contains a macro for such a conversion.
 
 ## Scripting
 
@@ -68,7 +68,7 @@ To convert objects to a sketch use the `make_sketch` method (<small>(v0.19)</sma
 sketch = make_sketch(objects_list, autoconstraints=False, addTo=None, delete=False, name="Sketch", radiusPrecision=-1, tol=1e-3)
 ```
 
--    `objects_list`contains the objects to be converted. It is either a single object or a list of objects. `Draft` objects, `Part::Feature` objects and `Part.Shape` objects are supported.
+-    `objects_list`contains the objects to be converted. It is either a single object or a list of objects. `Draft` objects, `Part   *   *Feature` objects and `Part.Shape` objects are supported.
 
 -   If `autoconstraints` is `True` coincident constraints are added to nodes belonging to the same source object.
 
@@ -78,7 +78,7 @@ sketch = make_sketch(objects_list, autoconstraints=False, addTo=None, delete=Fal
 
 -    `name`is the name for the new sketch.
 
--    `radiusPrecision`indicates how radius constraints should be handled:
+-    `radiusPrecision`indicates how radius constraints should be handled   *
 
     -   Use `-1` to disable radius constraints.
     -   Use `0` to add individual radius constraints.
@@ -97,11 +97,11 @@ draftify(objectslist, makeblock=False, delete=True)
 
 -    `objectslist`contains the objects to be converted. It is either a single object or a list of objects.
 
--   If `makeblock` is `True` the converted objects are grouped in a `Part::Part2DObject`.
+-   If `makeblock` is `True` the converted objects are grouped in a `Part   *   *Part2DObject`.
 
 -   If `delete` is `True` the source objects are deleted.
 
-Example:
+Example   *
 
 
 ```python

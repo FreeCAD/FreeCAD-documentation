@@ -1,17 +1,17 @@
 ---
-- GuiCommand:
-   Name:Plot Save
-   MenuLocation:Plot → Save plot
-   Workbenches:[Plot](Plot_Workbench.md)
+- GuiCommand   *
+   Name   *Plot Save
+   MenuLocation   *Plot → Save plot
+   Workbenches   *[Plot](Plot_Workbench.md)
 ---
 
 # Plot Save/en
 
 ## Description
 
-The standard plot module already provides a minimum tool to save plots <img alt="" src=images/Matplotlib_save_button.png  style="width:24px;">. If you install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), a more complete tool to save the active plot will be available. With this tool you can also select the size and resolution of the output image.
+The standard plot module already provides a minimum tool to save plots <img alt="" src=images/Matplotlib_save_button.png  style="width   *24px;">. If you install the <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), a more complete tool to save the active plot will be available. With this tool you can also select the size and resolution of the output image.
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 
 ## Usage
 
@@ -22,9 +22,9 @@ Select the plot tab that you want to save, and run this tool. Use the path selec
 
 ## Options
 
--   **File path**: You can set the output image path (including format extension) inserting it at text line too.
--   **Size**: You can specify output image width and height (inches).
--   **dpi**: You can set the image resolution (Dots Per Inch). Final resolution (in pixels) will be the multiplication of width and height by dpi.
+-   **File path**   * You can set the output image path (including format extension) inserting it at text line too.
+-   **Size**   * You can specify output image width and height (inches).
+-   **dpi**   * You can set the image resolution (Dots Per Inch). Final resolution (in pixels) will be the multiplication of width and height by dpi.
 
 
 
@@ -32,7 +32,9 @@ Select the plot tab that you want to save, and run this tool. Use the path selec
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

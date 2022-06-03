@@ -2,12 +2,12 @@
 {{Macro
 |Name=Macro Select Hovering
 |Icon=Macro_Select_Hovering.png
-|Description=This macro select a choice Face, Edge, Vertex hovering by the mouse.<br/>PS: For unselected one face (or other) click the **Pause grab** and use the standard procedure : CTRL + Click 
+|Description=This macro select a choice Face, Edge, Vertex hovering by the mouse.<br/>PS   * For unselected one face (or other) click the **Pause grab** and use the standard procedure    * CTRL + Click 
 |Author=Mario52
 |Version=00.03b
 |Date=2020-10-28
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/d/d8/Macro_Select_Hovering.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/d/d8/Macro_Select_Hovering.png ToolBar Icon]
 }}
 
 ## Description
@@ -18,7 +18,7 @@ this macro select a choice Face, Edge, Vertex hovering by the mouse.
 
 ![Macro Select Hovering](images/Macro_Select_Hovering_00.png )
 
-PS: For unselected one face (or other) click the **Pause grab** and use the standard procedure : CTRL + Click
+PS   * For unselected one face (or other) click the **Pause grab** and use the standard procedure    * CTRL + Click
 
 ## How To Use 
 
@@ -36,7 +36,7 @@ The icon ToolBar ![Macro Select Hovering](images/Macro_Select_Hovering.png )
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 from __future__ import unicode_literals
 #
 """
@@ -68,22 +68,22 @@ from __future__ import unicode_literals
 #
 #Macro_ _01-25/12/2017 02-26/12/2017 03-26/12/2017 03b-28/10/2020
 #
-#OS: Windows 10
-#Word size of OS: 64-bit
-#Word size of FreeCAD: 64-bit
-#Version: 0.16.6712 (Git)
-#Build type: Release
-#Branch: releases/FreeCAD-0-16
-#Hash: da2d364457257a7a8c6fb2137cea12c45becd71a
-#Python version: 2.7.8
-#Qt version: 4.8.7
-#Coin version: 4.0.0a
-#OCC version: 6.8.0.oce-0.17
+#OS   * Windows 10
+#Word size of OS   * 64-bit
+#Word size of FreeCAD   * 64-bit
+#Version   * 0.16.6712 (Git)
+#Build type   * Release
+#Branch   * releases/FreeCAD-0-16
+#Hash   * da2d364457257a7a8c6fb2137cea12c45becd71a
+#Python version   * 2.7.8
+#Qt version   * 4.8.7
+#Coin version   * 4.0.0a
+#OCC version   * 6.8.0.oce-0.17
 #
 __title__   = "Macro_Select_Hovering"
 __author__  = "Mario52"
-__url__     = "http://www.freecadweb.org/index-fr.html"
-__Wiki__    = "http://www.freecadweb.org/wiki/index.php?title=Macro_Select_Hovering"
+__url__     = "http   *//www.freecadweb.org/index-fr.html"
+__Wiki__    = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_Select_Hovering"
 __version__ = "00.03b"
 __date__    = "28/10/2020"
 
@@ -100,32 +100,32 @@ App = FreeCAD
 global ui         ; ui           = ""
 global s          ; s            = ""
 
-try:
+try   *
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
+except AttributeError   *
+    def _fromUtf8(s)   *
         return s
 
-try:
+try   *
     _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
+    def _translate(context, text, disambig)   *
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
+except AttributeError   *
+    def _translate(context, text, disambig)   *
         return QtGui.QApplication.translate(context, text, disambig)
 
-class Ui_MainWindow(object):
+class Ui_MainWindow(object)   *
 
-    def __init__(self, MainWindow):
+    def __init__(self, MainWindow)   *
         self.window = MainWindow
         #################################################################################
         #self.path  = FreeCAD.ConfigGet("AppHomePath")
         #self.path  = FreeCAD.ConfigGet("UserAppData")
         #self.path  = "your path"
-        param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
+        param = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macro")# macro path
         self.path = param.GetString("MacroPath","") + "/"                   # macro path
         self.path = self.path.replace("\\","/")
-#        print( "Path for the icons : " , self.path)
+#        print( "Path for the icons    * " , self.path)
         #################################################################################
         self.FontImpost    = "Arial"
         self.fontGlobal_08 = QtGui.QFont()            # pour compatibilite Windows Linux
@@ -144,7 +144,7 @@ class Ui_MainWindow(object):
         self.comptLengthObject = 0.0
         self.comptLengthTotal  = 0.0
 
-    def setupUi(self, MainWindow):
+    def setupUi(self, MainWindow)   *
         MainWindow.resize(197, 307)
         MainWindow.setMinimumSize(QtCore.QSize(197, 307))
         MainWindow.setMaximumSize(QtCore.QSize(197, 307))
@@ -260,7 +260,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, MainWindow)   *
         MainWindow.setWindowTitle("Select_Hovering")
         MainWindow.setWindowIcon(QtGui.QIcon(self.path + __title__ +".png"))#
         self.GBOX_01_Face.setTitle("Face")
@@ -286,22 +286,22 @@ class Ui_MainWindow(object):
         MainWindow.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint)       # PySide cette fonction met la fenetre en avant
 
 
-    def on_PB_02_Stop_Grab_clicked(self):
+    def on_PB_02_Stop_Grab_clicked(self)   *
         global s
 
-        if self.Stop_Grab == 1:
+        if self.Stop_Grab == 1   *
             FreeCADGui.Selection.removeObserver(s)                             # desinstalle la fonction residente SelObserver
             self.Stop_Grab = 0
             self.PB_02_Stop_Grab.setText("Active grab")
             print( "Grab pause")
-        else:
+        else   *
             s=SelObserver()
             FreeCADGui.Selection.addObserver(s)                                # installe la fonction en mode resident
             self.Stop_Grab = 1
             self.PB_02_Stop_Grab.setText("Pause grab")
             print( "Grab active")
 
-    def on_PB_Quit_clicked(self):
+    def on_PB_Quit_clicked(self)   *
         global s
 
         FreeCADGui.Selection.removeObserver(s)                              # desinstalle la fonction residente SelObserver
@@ -309,42 +309,42 @@ class Ui_MainWindow(object):
         print( "Quit ",__title__)
 
 ##################################################################################################
-class SelObserver:
+class SelObserver   *
     global ui
 
-    def setPreselection(self,doc,obj,sub): # preselection
+    def setPreselection(self,doc,obj,sub)   * # preselection
         global ui
 
-        if ui.CB_01_Sel_Face.isChecked():
+        if ui.CB_01_Sel_Face.isChecked()   *
 
-            if (sub[:4] == "Face") and (Gui.Selection.isSelected (FreeCAD.ActiveDocument.getObject(obj), sub) == False):
+            if (sub[   *4] == "Face") and (Gui.Selection.isSelected (FreeCAD.ActiveDocument.getObject(obj), sub) == False)   *
                 Gui.Selection.addSelection(FreeCAD.ActiveDocument.getObject(obj), sub)
                 ui.comptFace += 1
                 ui.LAB_01_Face.setText(str(ui.comptFace))
 
-                ui.comptSurfaceFace = FreeCAD.ActiveDocument.getObject(obj).Shape.Faces[int(sub[4:])-1].Area
+                ui.comptSurfaceFace = FreeCAD.ActiveDocument.getObject(obj).Shape.Faces[int(sub[4   *])-1].Area
                 ui.comptSurfaceTotal += ui.comptSurfaceFace
                 ui.LE_01_Area_Total.setText(str(ui.comptSurfaceTotal))
                 ui.LE_02_Area_Object.setText(str(ui.comptSurfaceFace))
 
 
-        if ui.CB_02_Sel_Edge.isChecked():
+        if ui.CB_02_Sel_Edge.isChecked()   *
 
-            if (sub[:4] == "Edge") and (Gui.Selection.isSelected (FreeCAD.ActiveDocument.getObject(obj), sub) == False):
+            if (sub[   *4] == "Edge") and (Gui.Selection.isSelected (FreeCAD.ActiveDocument.getObject(obj), sub) == False)   *
                 objetSelect = Gui.Selection.addSelection(FreeCAD.ActiveDocument.getObject(obj), sub)
 
                 ui.comptEdge += 1
                 ui.LAB_02_Edge.setText(str(ui.comptEdge))
 
-                ui.comptLengthObject = FreeCAD.ActiveDocument.getObject(obj).Shape.Edges[int(sub[4:])-1].Length
+                ui.comptLengthObject = FreeCAD.ActiveDocument.getObject(obj).Shape.Edges[int(sub[4   *])-1].Length
                 ui.comptLengthTotal += ui.comptLengthObject
                 ui.LE_03_Length_Total.setText(str(ui.comptLengthTotal))
                 ui.LE_04_Length_Object.setText(str(ui.comptLengthObject))
 
 
-        if ui.CB_03_Sel_Vertex.isChecked():
+        if ui.CB_03_Sel_Vertex.isChecked()   *
 
-            if sub[:6] == "Vertex" and (Gui.Selection.isSelected (FreeCAD.ActiveDocument.getObject(obj), sub) == False):
+            if sub[   *6] == "Vertex" and (Gui.Selection.isSelected (FreeCAD.ActiveDocument.getObject(obj), sub) == False)   *
                 Gui.Selection.addSelection(FreeCAD.ActiveDocument.getObject(obj), sub)
                 ui.comptVertex += 1
                 ui.LAB_03_Vertex.setText(str(ui.comptVertex))
@@ -352,15 +352,15 @@ class SelObserver:
 
 #    def removePreselection(self,doc,obj,sub) # 
 #        print( "removePreselection")
-#    def addSelection(self,doc,obj,sub,pnt):  # Selection
+#    def addSelection(self,doc,obj,sub,pnt)   *  # Selection
 #        print( "addSelection")
-#    def removeSelection(self,doc,obj,sub):   # Effacer l'objet selectionne
+#    def removeSelection(self,doc,obj,sub)   *   # Effacer l'objet selectionne
 #        print( "removeSelection")
-#    def setSelection(self,doc):              # Selection dans ComboView
+#    def setSelection(self,doc)   *              # Selection dans ComboView
 #        FreeCADGui.Selection.removeObserver(s)
 #        print( "setSelection quit")
 
-    def clearSelection(self,doc):            # Si clic sur l'ecran, effacer la selection
+    def clearSelection(self,doc)   *            # Si clic sur l'ecran, effacer la selection
         global ui
 
         ui.comptFace   = 0
@@ -384,7 +384,7 @@ FreeCADGui.Selection.addObserver(s)          # installe la fonction en mode resi
 ###################################################################################################
 
 doc = FreeCAD.ActiveDocument
-if doc == None:
+if doc == None   *
     doc = FreeCAD.newDocument()
 
 MainWindow = QtGui.QMainWindow()
@@ -398,17 +398,17 @@ MainWindow.show()
 
 ## Version
 
-ver 00.03b (28/10/2020) : add print**()** for Python 3
+ver 00.03b (28/10/2020)    * add print**()** for Python 3
 
-ver 00.03 (26/12/2017) : replace test with (FreeCAD.ActiveDocument.getObject(obj), sub) == False)
+ver 00.03 (26/12/2017)    * replace test with (FreeCAD.ActiveDocument.getObject(obj), sub) == False)
 
-ver 00.02 (26/12/2017) :
+ver 00.02 (26/12/2017)    *
 
-ver 00.01 (25/12/2017) :
+ver 00.01 (25/12/2017)    *
 
 ## Poveznica
 
-[Multiple face selection to convert a shape to a solid](https://forum.freecadweb.org/viewtopic.php?f=3&t=26370)
+[Multiple face selection to convert a shape to a solid](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=26370)
 
 
 

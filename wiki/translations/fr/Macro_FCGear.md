@@ -20,10 +20,10 @@ Atelier additionnel pour créer des engrenages de différents types. Les types s
 
 ## Installation
 
--   git clone <https://github.com/looooo/freecad.gears.git>
+-   git clone <https   *//github.com/looooo/freecad.gears.git>
 -   créez un lien ou copiez le dossier freecad.gears dans /.FreeCAD/Mod (sudo ln -s (path\_to\_FCGear)/gear (path\_to\_freecad)/Mod)
 
-Note:
+Note   *
 
 -   dézippez le fichier FCGear.zip, et
 -   copiez le répertoire **gear** complet dans /FreeCAD/Mod
@@ -40,14 +40,14 @@ Vous devez ouvrir .Mod en mode administrateur et vous devez donner le
 -   cliquez sur le symbole gear
 -   adaptez les parametres à vos besoins
 
-<img alt="Involutegear" src=images/Involutegear.png  style="width:100px;"><img alt="FCGear\_involutegear\_par" src=images/FCGear_involutegear_par.png  style="width:300px;"> <img alt="Involuterack" src=images/Involuterack.png  style="width:100px;"><img alt="FCGear\_involuterack\_par" src=images/FCGear_involuterack_par.png  style="width:300px;">
+<img alt="Involutegear" src=images/Involutegear.png  style="width   *100px;"><img alt="FCGear\_involutegear\_par" src=images/FCGear_involutegear_par.png  style="width   *300px;"> <img alt="Involuterack" src=images/Involuterack.png  style="width   *100px;"><img alt="FCGear\_involuterack\_par" src=images/FCGear_involuterack_par.png  style="width   *300px;">
 
-<img alt="Cycloidegear" src=images/Cycloidegear.png  style="width:100px;"><img alt="FCGear\_cycloide\_par" src=images/FCGear_cycloide_par.png  style="width:300px;"> <img alt="Bevelgear" src=images/Bevelgear.png  style="width:100px;"><img alt="FCGear\_bevel\_par" src=images/FCGear_bevel_par.png  style="width:300px;">
+<img alt="Cycloidegear" src=images/Cycloidegear.png  style="width   *100px;"><img alt="FCGear\_cycloide\_par" src=images/FCGear_cycloide_par.png  style="width   *300px;"> <img alt="Bevelgear" src=images/Bevelgear.png  style="width   *100px;"><img alt="FCGear\_bevel\_par" src=images/FCGear_bevel_par.png  style="width   *300px;">
 
 ## Liens
 
--   [FCGear](https://github.com/looooo/FCGear)
--   [Forum topic](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878&start=20)
+-   [FCGear](https   *//github.com/looooo/FCGear)
+-   [Forum topic](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878&start=20)
 
 
 

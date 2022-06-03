@@ -1,6 +1,8 @@
 # Category:Developer/pt-br
 This category contains articles that are relevant for developers.
 
+[Category   *Categories/pt-br](Category   *Categories/pt-br.md)
+
 ### Contents
 
 |     |     |     |

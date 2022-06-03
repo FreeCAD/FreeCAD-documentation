@@ -7,40 +7,40 @@
 |Version=1.0
 |Date=2011-08-01
 |FCVersion=Toutes versions
-|Download=[https://www.freecadweb.org/wiki/images/3/36/Macro_Draw_2D_Function.png Icône pour votre barre d'outils]
+|Download=[https   *//www.freecadweb.org/wiki/images/3/36/Macro_Draw_2D_Function.png Icône pour votre barre d'outils]
 }}
 
 ## Description
 
 Utilisez ce script pour tracer une fonction décrite par une équation \[z=F(x)\] (Z-X plane) L\'exemple donné ici génère une parabole.
 
-Éléments à définir :
+Éléments à définir    *
 
-:   F = variable utilisée dans la fonction,
-
-
-
-
-
-:   X = valeur initiale de x,
+   *   F = variable utilisée dans la fonction,
 
 
 
 
 
-:   Nb = Nombre d\'étapes,
+   *   X = valeur initiale de x,
 
 
 
 
 
-:   Z = fonction express avec x
+   *   Nb = Nombre d\'étapes,
 
 
 
 
 
-:   ZZ = fonction express avec xx
+   *   Z = fonction express avec x
+
+
+
+
+
+   *   ZZ = fonction express avec xx
 
 ## Script
 
@@ -64,15 +64,15 @@ X=-500
 Nb=10
 Step=1000/Nb
 Y=0
-for I in range(Nb):
+for I in range(Nb)   *
     XX=X+Step 
     Z=X*X/(4*F)
     ZZ=XX*XX/(4*F)
-    if I==0:
+    if I==0   *
         print( "Le test est vrai !")
         nomme=Part.makeLine((X,Y,Z),(XX,Y,ZZ))
         WWire=Part.Wire([nomme])
-    else :
+    else    *
         print( "Le test est 2 !")
         nomme=Part.makeLine((X,Y,Z),(XX,Y,ZZ))      
         WWire=Part.Wire([WWire,nomme])

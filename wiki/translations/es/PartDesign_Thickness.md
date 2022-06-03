@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:PartDesign Thickness
-   Name/es:PartDesign Espesor
-   MenuLocation:Part Design → Apply a dress up feature → Espesor
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Part Thickness](Part_Thickness/es.md)
+- GuiCommand   */es
+   Name   *PartDesign Thickness
+   Name/es   *PartDesign Espesor
+   MenuLocation   *Part Design → Apply a dress up feature → Espesor
+   Workbenches   *[PartDesign](PartDesign_Workbench/es.md)
+   Version   *0.17
+   SeeAlso   *[Part Thickness](Part_Thickness/es.md)
 ---
 
 # PartDesign Thickness/es
@@ -17,7 +17,7 @@
 
 La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un objeto hueco con una pared de un grosor determinado, con al menos una cara abierta, dando a cada una de sus caras restantes un espesor uniforme. Con algunos sólidos permite un ahorro significativo de trabajo, evitando hacer extrusiones y vaciados innecesarios.
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
 *The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
 
 ## Uso
@@ -37,15 +37,15 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
 
 ## Opciones
 
--   **Espesor**: Grosor de la pared del objeto resultante. Introducir el valor deseado en números positivos.
+-   **Espesor**   * Grosor de la pared del objeto resultante. Introducir el valor deseado en números positivos.
 -   **Modo**
-    -   *Piel*: Seleccionando esta opción se obtiene un objeto como un jarrón, con un vaciado desde la cara superior, pero conservando la cara inferior.
-    -   *Tubo*: Seleccionando esta opción se obtiene un objeto como un tubo, sin las caras superior ni inferior. En este caso es conveniente seleccionar las caras a ser eliminadas antes de iniciar la herramienta. Se pueden utilizar los botones de vistas predeterminadas o usar las teclas numéricas como ayuda a la selección de caras.
-    -   *Recto Verso*:
+    -   *Piel*   * Seleccionando esta opción se obtiene un objeto como un jarrón, con un vaciado desde la cara superior, pero conservando la cara inferior.
+    -   *Tubo*   * Seleccionando esta opción se obtiene un objeto como un tubo, sin las caras superior ni inferior. En este caso es conveniente seleccionar las caras a ser eliminadas antes de iniciar la herramienta. Se pueden utilizar los botones de vistas predeterminadas o usar las teclas numéricas como ayuda a la selección de caras.
+    -   *Recto Verso*   *
 -   **Tipo de unión**
-    -   *Arco*: Añade el espesor hacia el exterior de las paredes, quitando los bordes exteriores y creando un redondeo de las aristas de un radio igual al espesor definido.
-    -   *Intersección*: Cuando el espesor se aplica hacia afuera, crea los bordes rectos, sin redondear.
--   **Hacer el grosor hacia el interior**: Al seleccionar esta casilla, el espesor es aplicado hacia el interior de las caras, con los bordes rectos, sin redondear.
+    -   *Arco*   * Añade el espesor hacia el exterior de las paredes, quitando los bordes exteriores y creando un redondeo de las aristas de un radio igual al espesor definido.
+    -   *Intersección*   * Cuando el espesor se aplica hacia afuera, crea los bordes rectos, sin redondear.
+-   **Hacer el grosor hacia el interior**   * Al seleccionar esta casilla, el espesor es aplicado hacia el interior de las caras, con los bordes rectos, sin redondear.
 
 ## Limitaciones
 
@@ -60,7 +60,7 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
 2.  Crear un segundo boceto sobre el plano XY.
 3.  Crear una segunda extrusión desde el segundo boceto.
 
-Como en las siguientes imágenes:
+Como en las siguientes imágenes   *
 
 ![](images/Braga-primoPad.png )
 
@@ -71,7 +71,7 @@ Como en las siguientes imágenes:
 
 <div class="mw-translate-fuzzy">
 
-Seguidamente:
+Seguidamente   *
 
 1.  Seleccionar una cara circular.
 2.  Pulsar el botón **<img src="images/PartDesign_Thickness.svg" width=24px> Espesor
@@ -81,15 +81,15 @@ Seguidamente:
 
 </div>
 
-Resultado: ![](images/Brga-spessore.png )
+Resultado   * ![](images/Brga-spessore.png )
 
 ## Errores conocidos 
 
 
 <div class="mw-translate-fuzzy">
 
--   BRep\_API: Operación no realizada.
--   BRep\_Tool:: Ningún parámetro sobre el borde.
+-   BRep\_API   * Operación no realizada.
+-   BRep\_Tool   *   * Ningún parámetro sobre el borde.
 -   Fallos silenciosos.
 
 

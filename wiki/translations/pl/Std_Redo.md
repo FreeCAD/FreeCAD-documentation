@@ -1,42 +1,43 @@
 ---
-- GuiCommand:
-   Name:Std Redo
-   MenuLocation:Edit → Redo
-   Workbenches:All
-   Shortcut:**Ctrl**+**Y**
-   SeeAlso:[Std Undo](Std_Undo.md)
+- GuiCommand   */pl
+   Name   *Std Redo
+   Name/pl   *Std   * Przywróć
+   MenuLocation   *Edycja → Przywróć
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **Y**
+   SeeAlso   *[Cofnij](Std_Undo/pl.md)
 ---
 
 # Std Redo/pl
 
-## Description
+## Opis
 
-The **Std Redo** command reverses the action of the [Std Undo](Std_Undo.md) command.
+Polecenie **Ponów** odwraca działanie polecenia [Cofnij](Std_Undo/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Redo.svg" width=16px> [Std Redo](Std_Redo.md)** button.
-    -   Select the **Edit → <img src="images/Std_Redo.svg" width=16px> Redo** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**Y**.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_Redo.svg" width=16px> [Ponów](Std_Redo/pl.md)**.
+    -   Wybierz z menu opcję **Edycja → <img src="images/Std_Redo.svg" width=16px> Ponów**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **Y**.
 
-## Options
+## Opcje
 
--   To redo multiple actions click on the black down arrow to the right of the **<img src="images/Std_Redo.svg" width=16px> [Std Redo](Std_Redo.md)** button and select from the list.
+-   Aby przywrócić wiele czynności, kliknij na małą czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_Redo.svg" width=16px> [Ponów](Std_Redo/pl.md)** i wybierz odpowiednią pozycję z listy.
 
-## Preferences
+## Ustawienia
 
--   The Undo/Redo functionality can be disabled by setting **Tools → Edit parameters... → BaseApp → Preferences → Document → UsingUndo** to `False`, but this is not recommended. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
--   The maximum number of Undo/Redo steps is controlled by **Tools → Edit parameters... → BaseApp → Preferences → Document → MaxUndoSize**. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Funkcję Cofnij / Ponów można wyłączyć, ustawiając parametr **Przybory → Edycja parametrów... → BaseApp → Preferencje → Dokument → UżywanieUndo** na wartość {{FALSE/pl}}, ale nie jest to zalecane. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
+-   Maksymalna liczba kroków Cofnij / Ponów jest kontrolowana przez parametr **Przybory → Edycja parametrów... → BaseApp → Preferencje → Dokument → MaxUndoSize**. Ustawienie to można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To redo an action that has just been undone use the `redo` method of the document object.
+Aby ponownie wykonać czynność, która właśnie została cofnięta, należy użyć metody `redo` obiektu dokumentu.
 
 
 ```python

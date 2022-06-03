@@ -1,10 +1,10 @@
 # Drawing Openbrowser/it
 ---
-- GuiCommand:/it   Name:Drawing Openbrowser   Name/it:Apri browser   Workbenches:[[Drawing Workbench/it   Drawing]], Complete|MenuLocation:Drawing → Apri Browser   Shortcut:none---
+- GuiCommand   */it   Name   *Drawing Openbrowser   Name/it   *Apri browser   Workbenches   *[[Drawing Workbench/it   Drawing]], Complete|MenuLocation   *Drawing → Apri Browser   Shortcut   *none---
 
 ### Descrizione
 
-Questo comando consente di visualizzare una [pagina di disegno](Drawing_Landscape_A3/it.md) selezionata utilizzando il browser web interno di FreeCAD. Il normale visualizzatore di una pagina di disegno di FreeCAD si basa sul [modulo interno di rendering SVG di Qt](http://qt-project.org/doc/qt-5.0/qtsvg/svgrendering.html), che supporta solo un piccolo sottoinsieme di tutte le specificazioni SVG. Per questo, alcune funzionalità SVG più avanzate, come il riempimenti a motivo o i testi multilinea non sono supportati da questo visualizzatore. Il browser web interno di FreeCAD, invece, è costruito su [webkit](http://en.wikipedia.org/wiki/WebKit), che è uno dei migliori render SVG disponibili e visualizza correttamente la pagina con tutte le sue caratteristiche.
+Questo comando consente di visualizzare una [pagina di disegno](Drawing_Landscape_A3/it.md) selezionata utilizzando il browser web interno di FreeCAD. Il normale visualizzatore di una pagina di disegno di FreeCAD si basa sul [modulo interno di rendering SVG di Qt](http   *//qt-project.org/doc/qt-5.0/qtsvg/svgrendering.html), che supporta solo un piccolo sottoinsieme di tutte le specificazioni SVG. Per questo, alcune funzionalità SVG più avanzate, come il riempimenti a motivo o i testi multilinea non sono supportati da questo visualizzatore. Il browser web interno di FreeCAD, invece, è costruito su [webkit](http   *//en.wikipedia.org/wiki/WebKit), che è uno dei migliori render SVG disponibili e visualizza correttamente la pagina con tutte le sue caratteristiche.
 
 ### Utilizzo
 
@@ -16,7 +16,7 @@ Questo comando consente di visualizzare una [pagina di disegno](Drawing_Landscap
 
 ### Limitazioni
 
--   Una pagina aperta nel browser web non si aggiorna automaticamente alle modifiche. È necessario aggiornarla manualmente utilizzando: tasto destro del mouse → ricarica.
+-   Una pagina aperta nel browser web non si aggiorna automaticamente alle modifiche. È necessario aggiornarla manualmente utilizzando   * tasto destro del mouse → ricarica.
 
 
 <div class="mw-translate-fuzzy">

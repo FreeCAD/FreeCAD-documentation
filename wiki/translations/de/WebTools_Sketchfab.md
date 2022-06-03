@@ -1,24 +1,24 @@
 ---
-- GuiCommand:/de
-   Name:WebTools Sketchfab
-   Name/de:WebWerkzeuge Sketchfab
-   MenuLocation:WebWerkzeuge → Sketchfab
-   Workbenches:[Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
+- GuiCommand   */de
+   Name   *WebTools Sketchfab
+   Name/de   *WebWerkzeuge Sketchfab
+   MenuLocation   *WebWerkzeuge → Sketchfab
+   Workbenches   *[Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
 ---
 
 # WebTools Sketchfab/de
 
 ## Beschreibung
 
-Dieses Werkzeug erlaubt dir Objekte zu exportieren und auf dein [SketchFab](http://www.sketchfab.com) Konto hochzuladen. {{Version/de|0.17}}
+Dieses Werkzeug erlaubt dir Objekte zu exportieren und auf dein [SketchFab](http   *//www.sketchfab.com) Konto hochzuladen. {{Version/de|0.17}}
 
 ![](images/Sketchfab_exporter.jpg )
 
 ## Anwendung
 
-1.  Erstelle dir ein Konto auf [SketchFab](http://www.sketchfab.com), wenn du noch keins hast. Kostenlose Konten sind in Ordnung, kostenpflichtige Konten bieten mehr Funktionen als die Möglichkeit, private Modelle und größere maximale Upload Größen zu haben.
+1.  Erstelle dir ein Konto auf [SketchFab](http   *//www.sketchfab.com), wenn du noch keins hast. Kostenlose Konten sind in Ordnung, kostenpflichtige Konten bieten mehr Funktionen als die Möglichkeit, private Modelle und größere maximale Upload Größen zu haben.
 2.  Bereite ein Modell vor, das du hochladen möchtest
-3.  Klicke auf <img alt="" src=images/WebTools_Sketchfab.svg  style="width:32px;"> in der Hauptwerkzeugleiste der [Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
+3.  Klicke auf <img alt="" src=images/WebTools_Sketchfab.svg  style="width   *32px;"> in der Hauptwerkzeugleiste der [Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
 4.  Fülle die Felder aus. Name und API Schlüssel sind Pflichtfelder.
 5.  Klicke die Schaltfläche \"Hochladen\".
 

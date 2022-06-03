@@ -196,6 +196,69 @@ Pour la deuxième utilisation de **Extend Face**, une Esquisse avec deux contour
 
 (La forme de la languette n\'est qu\'une vision artistique de ce qui pourrait être caché à l\'intérieur d\'une vraie prise).
 
+## Propriétés de SheetMetal 
+
+Cette section tente d\'expliquer les propriétés de chaque objet SheetMetal à l\'aide d\'images simples, le cas échéant.
+
+
+<div class="mw-collapsible mw-collapsed">
+
+### Objet BaseBend <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+<img alt="" src=images/SheetMetal_Example-08a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;">
+
+
+
+*Esquisse sélectionnée + 
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase/fr.md)* 
+→ Objet BaseBend avec les paramètres par défaut**
+
+<img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08c.png  style="width   *200px;">
+
+
+
+*Modification de **length*    * Longueur par défaut → Longueur réduite**
+
+<img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08h.png  style="width   *200px;">
+
+
+
+*Bascule de **Mid Plane* de {{False** à `True`    * Extrusion dans une seule direction → Extrusion symétrique}}
+
+<img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;">
+
+
+
+*Bascule de **Reverse* de {{False** à `True`    * Direction par défaut → Direction inversée}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08g.png  style="width   *200px;">
+
+
+
+*Sélection de **Bend Side*    * {{value|Outside**. (par défaut) → {{value|Inside}} → {{value|Milieu}}}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08i.png  style="width   *200px;">
+
+
+
+*Modification de **radius*    * Rayon par défaut → Rayon agrandi.<br>
+Cette propriété est le rayon intérieur des pliures créées aux sommets où deux arêtes de l'esquisse ont une transition non tangentielle.**
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08j.png  style="width   *200px;">
+
+
+
+*Modification de **thickness*    * Épaisseur par défaut → Épaisseur agrandie**
+
+
+</div>
+
+
+</div>
+
 [Category   *SheetMetal](Category_SheetMetal.md) [Category   *Addons](Category_Addons.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 

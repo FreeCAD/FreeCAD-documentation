@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name/de:Std FensterAnordnen
-   MenuLocation:Fenster → Anordnen
-   Workbenches:Alle
-   SeeAlso:[Std FensterÜberlappendAnordnen](Std_CascadeWindows/de.md)
+- GuiCommand   */de
+   Name/de   *Std FensterAnordnen
+   MenuLocation   *Fenster → Anordnen
+   Workbenches   *Alle
+   SeeAlso   *[Std FensterÜberlappendAnordnen](Std_CascadeWindows/de.md)
 ---
 
 # Std TileWindows/de
@@ -12,7 +12,7 @@
 
 Der **Std FensterAnordnen**-Befehl ordnet die Fenster im [Hauptansichtsbereich](Main_view_area/de.md) so an, dass sie alle sichtbar sind und nicht überlappen. Das Ergebnis wird durch die Reihenfolge festgelegt, in der die Fenster das letzte Mal aktiviert wurden.
 
-<img alt="" src=images/Std_TileWindows_example.png  style="width:600px;"> 
+<img alt="" src=images/Std_TileWindows_example.png  style="width   *600px;"> 
 *Hauptansichtsbereich mit drei gekachelten Fenstern*
 
 ## Anwendung

@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Experienced User
-   Author:NormandC
-   Time:
-   FCVersion:0.19.23300 or higher
-   Files:
+- TutorialInfo   *   Topic   *Modeling
+   Level   *Experienced User
+   Author   *NormandC
+   Time   *
+   FCVersion   *0.19.23300 or higher
+   Files   *
 ---
 
 # PartDesign Bearingholder Tutorial II/it
@@ -15,9 +15,9 @@
 
 
 
-**Questo tutorial è stato originariamente scritto per una versione di sviluppo di FreeCAD ora deprecata. A partire da aprile 2016 queste funzionalità sono state integrate nella release di pre-sviluppo 0.17 disponibile [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre qui].
+**Questo tutorial è stato originariamente scritto per una versione di sviluppo di FreeCAD ora deprecata. A partire da aprile 2016 queste funzionalità sono state integrate nella release di pre-sviluppo 0.17 disponibile [https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre qui].
 <br />
-Si noti che questa versione di FreeCAD è ancora in una fase iniziale di sviluppo. Inoltre questo tutorial potrebbe richiedere un aggiornamento. Se si desidera partecipare alla sua revisione e aggiornamento, si prega di annunciarlo nella sezione Wiki del [http://forum.freecadweb.org forum].**
+Si noti che questa versione di FreeCAD è ancora in una fase iniziale di sviluppo. Inoltre questo tutorial potrebbe richiedere un aggiornamento. Se si desidera partecipare alla sua revisione e aggiornamento, si prega di annunciarlo nella sezione Wiki del [http   *//forum.freecadweb.org forum].**
 
 ![Bearing Holder Tutorial - Supporto per cuscinetto finito (top)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 
@@ -37,11 +37,11 @@ Questa è la seconda parte del tutorial. In questo esempio si usa il flusso di l
 
 Ovviamente, per seguire questo tutorial è necessario attivare l\'ambiente PartDesign.
 
-~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 questo link](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_questo_link.md)~~ *Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento*.
+~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http   *//ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 questo link](http   *//ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_questo_link.md)~~ *Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento*.
 
 ## Dati di progetto 
 
-Il supporto deve essere in grado di contenere un cuscinetto di 90 mm di diametro con una larghezza fino a 33 mm (ad esempio, DIN 630 tipo 2308). Il cuscinetto richiede una spalla alta almeno 4,5 mm nel supporto (e sull\'albero). La parte superiore del supporto è imbullonata al fondo con due bulloni di 12 mm. A fianco del cuscinetto ci deve essere una scanalatura su entrambi i lati capace di contenere un anello di tenuta standard sull\'albero DIN 3760: 38x55x7 o 40x55x7 su un lato e 50x68x8 sull\'altro lato.
+Il supporto deve essere in grado di contenere un cuscinetto di 90 mm di diametro con una larghezza fino a 33 mm (ad esempio, DIN 630 tipo 2308). Il cuscinetto richiede una spalla alta almeno 4,5 mm nel supporto (e sull\'albero). La parte superiore del supporto è imbullonata al fondo con due bulloni di 12 mm. A fianco del cuscinetto ci deve essere una scanalatura su entrambi i lati capace di contenere un anello di tenuta standard sull\'albero DIN 3760   * 38x55x7 o 40x55x7 su un lato e 50x68x8 sull\'altro lato.
 
 Il supporto sarà prodotto con un getto in sabbia con uno spessore minimo della parete di 5 mm, un angolo di sforno con di 2 gradi e un raggio di raccordo minimo di 3 mm .
 
@@ -51,7 +51,7 @@ Il supporto sarà prodotto con un getto in sabbia con uno spessore minimo della 
 
 ## Il corpo principale 
 
-![Schizzo della prima estrusione\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Creare un nuovo corpo e renderlo attivo. Lo schizzo della prima estrusione è mostrato a destra. Esso è posto su un piano di riferimento, con un offset di 5 mm (lo spessore della parete) dalla faccia che nello scheletro definisce un fianco (esterno) di uno degli anelli di tenuta del cuscinetto. Poiché tutte le dimensioni importanti sono prese dallo scheletro, ci sono solo tre dimensioni: l\'entità della lavorazione (3 mm) alla base come offset per il piano XY, lo spessore della parete 5 mm dal diametro esterno dello scheletro, e i 2 gradi dell\'angolo di sformo. Per creare la dimensione 5 mm, è necessario prima selezionare il cerchio esterno (raggio 45 mm) della geometria scheletro come \"geometria esterna\" dello schizzo, e poi aggiungere una linea di costruzione tangente e vincolata a questo cerchio con un angolo di due gradi.
+![Schizzo della prima estrusione\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Creare un nuovo corpo e renderlo attivo. Lo schizzo della prima estrusione è mostrato a destra. Esso è posto su un piano di riferimento, con un offset di 5 mm (lo spessore della parete) dalla faccia che nello scheletro definisce un fianco (esterno) di uno degli anelli di tenuta del cuscinetto. Poiché tutte le dimensioni importanti sono prese dallo scheletro, ci sono solo tre dimensioni   * l\'entità della lavorazione (3 mm) alla base come offset per il piano XY, lo spessore della parete 5 mm dal diametro esterno dello scheletro, e i 2 gradi dell\'angolo di sformo. Per creare la dimensione 5 mm, è necessario prima selezionare il cerchio esterno (raggio 45 mm) della geometria scheletro come \"geometria esterna\" dello schizzo, e poi aggiungere una linea di costruzione tangente e vincolata a questo cerchio con un angolo di due gradi.
 
 Probabilmente vi starete chiedendo perché c\'è questo piccolo segmento dritto in fondo a ciascun arco. Questo segmento assicura che sarà possibile creare uno sformo con un angolo di 2 gradi sugli archi. Questo potrebbe sembrare un lavoro eccessivo per ottenere un vantaggio minimo, ma molti programmi CAD (e forse un giorno anche FreeCAD) dispongono di strumenti che evidenziono un modello solido in diversi colori e mostrano subito tutte le facce dove l\'angolo di sformo non è corretto. Certamente non si vuole che al proprio modello accada questo, soprattutto dopo avervi aggiunto un sacco di raccordi!
 ![La prima estrusione (Pad)\|thumb\|right\|400px](images/HolderTop2-4.jpg ) Dopo aver finito il disegno (che è un po\' complicato a causa delle linee tangenziali per lo sformo di 2 gradi), creare con questo schizzo una estrusione (Pad) che si estenda fino all\'altro fianco della geometria dello scheletro, di nuovo con un offset dal fianco di 5 mm. Questa volta non è necessario creare un piano di riferimento, la modalità \"fino alla faccia\" della finestra di dialogo dell\'estrusione permette di inserire un offset.
@@ -93,6 +93,10 @@ Per il resto della lavorazione, creare un nuovo corpo. La parte inferiore del su
 ## Parte Uno 
 
 [PartDesign Bearingholder Tutorial I](PartDesign_Bearingholder_Tutorial_I/it.md)
+
+
+
+[Category   *Tutorials](Category_Tutorials.md)
 
 
 

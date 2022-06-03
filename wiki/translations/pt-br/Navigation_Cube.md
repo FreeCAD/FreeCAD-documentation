@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-O controle do cubo de navegação, ou *\'cubo de navegação*, é uma ajuda gráfica de interface com o usuário para reorientar a visualização 3D. Por padrão, ele é visível e reside no canto superior direito da tela 3D. Se você estiver olhando para a vista 3D padrão, ela se parece com o seguinte:
+O controle do cubo de navegação, ou *\'cubo de navegação*, é uma ajuda gráfica de interface com o usuário para reorientar a visualização 3D. Por padrão, ele é visível e reside no canto superior direito da tela 3D. Se você estiver olhando para a vista 3D padrão, ela se parece com o seguinte   *
 
 
 </div>
@@ -18,7 +18,7 @@ The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this pag
 
 <div class="mw-translate-fuzzy">
 
-O cubo de navegação é composto de várias partes:
+O cubo de navegação é composto de várias partes   *
 
 -   Setas direcionais
 -   Cubo de navegação principal
@@ -33,7 +33,7 @@ All parts, except the axis indicators, can be clicked.
 
 ### Main cube 
 
-The main cube has 26 faces: 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
+The main cube has 26 faces   * 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ The main cube has 26 faces: 6 square main faces, 12 rectangular edge faces (<sma
 
 <div class="mw-translate-fuzzy">
 
-Há seis setas direcionais: quatro setas triangulares, na parte superior, inferior, esquerda e direita; e duas setas curvas, uma de cada lado da seta superior.
+Há seis setas direcionais   * quatro setas triangulares, na parte superior, inferior, esquerda e direita; e duas setas curvas, uma de cada lado da seta superior.
 
 
 </div>
@@ -90,7 +90,7 @@ Você pode mover toda a estrutura de controle do cubo de navegação para outro 
 
 <div class="mw-translate-fuzzy">
 
-O cubo de navegação é configurável, incluindo o ajuste de seu tamanho: **Editar → Preferências... → Tela → Navegação → Cubo de Navegação ** <small>(v0.19)</small> .
+O cubo de navegação é configurável, incluindo o ajuste de seu tamanho   * **Editar → Preferências... → Tela → Navegação → Cubo de Navegação ** <small>(v0.19)</small> .
 
 
 </div>
@@ -104,6 +104,14 @@ Para uma configuração mais avançada, consulte o **CubeMenu** [Bancadas de tra
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

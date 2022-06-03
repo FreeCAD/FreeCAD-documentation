@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std ViewIvIssueCamPos
-   Name/fr:Std Position de la caméra
-   MenuLocation:Affichage → Stéréo → Récupérer la position de la caméra
-   Workbenches:Tous
-   SeeAlso:[Std Figer l'affichage](Std_FreezeViews/fr.md)
+- GuiCommand   */fr
+   Name   *Std ViewIvIssueCamPos
+   Name/fr   *Std Position de la caméra
+   MenuLocation   *Affichage → Stéréo → Récupérer la position de la caméra
+   Workbenches   *Tous
+   SeeAlso   *[Std Figer l'affichage](Std_FreezeViews/fr.md)
 ---
 
 # Std ViewIvIssueCamPos/fr
@@ -19,7 +19,7 @@ La commande **Std Position de la caméra** affiche les paramètres de la caméra
 
 
 
-*Exemple de sortie: paramètres de la caméra après être passé à [vue isométrique](Std_ViewIsometric/fr.md) dans un nouveau document*
+*Exemple de sortie   * paramètres de la caméra après être passé à [vue isométrique](Std_ViewIsometric/fr.md) dans un nouveau document*
 
 ## Utilisation
 
@@ -32,7 +32,7 @@ La commande **Std Position de la caméra** affiche les paramètres de la caméra
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

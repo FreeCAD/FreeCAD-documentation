@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign MoveFeatureInTree
-   Name/de:PartDesign VerschiebeFormelementImBaum
-   Empty:1
-   MenuLocation:Kontextmenü → Verschiebe Objekt hinter anderes Objekt
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Spitze festlegen](PartDesign_MoveTip/de.md), [Verschiebe Objekt in anderen Körper](PartDesign_MoveFeature/de.md)
+- GuiCommand   */de
+   Name   *PartDesign MoveFeatureInTree
+   Name/de   *PartDesign VerschiebeFormelementImBaum
+   Empty   *1
+   MenuLocation   *Kontextmenü → Verschiebe Objekt hinter anderes Objekt
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[Spitze festlegen](PartDesign_MoveTip/de.md), [Verschiebe Objekt in anderen Körper](PartDesign_MoveFeature/de.md)
 ---
 
 # PartDesign MoveFeatureInTree/de

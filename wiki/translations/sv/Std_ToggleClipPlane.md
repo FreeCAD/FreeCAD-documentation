@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/sv
-   Name:Std ToggleClipPlane
-   Name/sv:Std ToggleClipPlane
-   MenuLocation:View → Clipping plane‏‎
-   Workbenches:All
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */sv
+   Name   *Std ToggleClipPlane
+   Name/sv   *Std ToggleClipPlane
+   MenuLocation   *View → Clipping plane‏‎
+   Workbenches   *All
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Std ToggleClipPlane/sv
@@ -26,13 +26,13 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 ## Usage
 
 1.  Select the **View → <img src="images/Std_ToggleClipPlane.svg" width=16px> Clipping plane** option from the menu.
-2.  In the Clipping task panel do one of the following:
+2.  In the Clipping task panel do one of the following   *
     -   Check one or more of the {{CheckBox|TRUE|Clipping X}} to {{CheckBox|TRUE|Clipping Z}} checkboxes.
         -   Optionally change the offset distance(s).
         -   Optionally press the **Flip** button(s) to change the side of the clipping plane objects are hidden on.
     -   Check the {{CheckBox|TRUE|Clipping custom direction}} checkbox.
         -   Optionally change the offset distance.
-        -   Do one of the following:
+        -   Do one of the following   *
             -   Press the **View** button to use the direction of the current view.
             -   Check the {{CheckBox|TRUE|Adjust to view direction}} checkbox for a direction that dynamically adepts to view changes.
             -   Specify the direction by entering the X, Y and Z coordinates of a normal vector.
@@ -41,7 +41,7 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 
 ## Notes
 
--   To clearly distinguish the interior of partially clipped objects change their **Lighting** property to \'One side\'. The color of the interior side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   To clearly distinguish the interior of partially clipped objects change their **Lighting** property to \'One side\'. The color of the interior side of their faces will then depend on the backlight settings   * **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 
 

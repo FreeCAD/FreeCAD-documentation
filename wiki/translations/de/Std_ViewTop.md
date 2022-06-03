@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std ViewTop
-   Name/de:Std Draufsicht
-   MenuLocation:Ansicht → Standardansichten → Draufsicht
-   Workbenches:Alle
-   Shortcut:**2**
-   SeeAlso:[Std Vorderansicht](Std_ViewFront/de.md), [Std Ansicht von rechts](Std_ViewRight.md)
+- GuiCommand   */de
+   Name   *Std ViewTop
+   Name/de   *Std Draufsicht
+   MenuLocation   *Ansicht → Standardansichten → Draufsicht
+   Workbenches   *Alle
+   Shortcut   ***2**
+   SeeAlso   *[Std Vorderansicht](Std_ViewFront/de.md), [Std Ansicht von rechts](Std_ViewRight.md)
 ---
 
 # Std ViewTop/de
@@ -19,16 +19,16 @@ Der Befehl **Std Draufsicht** wendet die Kamerasicht der aktiven [3D-Ansicht](3D
 
 ## Anwendung
 
-1.  Es gibt verschiedene Wegen, den Befehl umzusetzen:
+1.  Es gibt verschiedene Wegen, den Befehl umzusetzen   *
     -   Die **<img src="images/Std_ViewTop.svg" width=16px> [Std Draufsicht](Std_ViewTop/de.md)**-Schaltfläche betätigen.
     -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewTop.svg" width=16px> Draufsicht** aus dem Menü wählen.
     -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewTop.svg" width=16px> Draufsicht** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
-    -   Mit dem Tastenkürzel: **2**.
+    -   Mit dem Tastenkürzel   * **2**.
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

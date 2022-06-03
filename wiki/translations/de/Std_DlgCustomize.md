@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Std DlgCustomize
-   Name/de:Std DlgAnpassen
-   MenuLocation:Werkzeuge → Anpassen...
-   Workbenches:Alle
-   SeeAlso:[Oberflächenanpassung](Interface_Customization/de.md)
+- GuiCommand   */de
+   Name   *Std DlgCustomize
+   Name/de   *Std DlgAnpassen
+   MenuLocation   *Werkzeuge → Anpassen...
+   Workbenches   *Alle
+   SeeAlso   *[Oberflächenanpassung](Interface_Customization/de.md)
 ---
 
 # Std DlgCustomize/de
@@ -22,7 +22,7 @@ Der **Std DlgAnpassen** Befehl öffnet das Dialogfeld Anpassen, das Zugriff auf 
 ## Anwendung
 
 1.  Die im Dialogfeld \"Anpassen\" verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD Sitzung geladen wurden. Du solltest also zunächst alle Arbeitsbereiche laden, auf deren Befehle du Zugriff haben möchtest.
-    -   Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
     -   Wähle die **Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Anpassen...** aus dem Menü.
     -   Klicke mit der rechten Maustaste auf einen Symbolleistenbereich und wähle **<img src="images/Std_DlgCustomize.svg" width=16px> Anpassen...** aus dem Kontextmenü.
 2.  Das Dialogfeld *Anpassen* wird geöffnet. Weitere Informationen findest du unter [Oberflächenanpassung](Interface_Customization/de#Optionen.md).

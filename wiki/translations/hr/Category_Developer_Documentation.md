@@ -1,6 +1,8 @@
 # Category:Developer Documentation/hr
 This category gathers documentation article mostly aimed at programmers
 
+[Category   *Documentation/hr](Category   *Documentation/hr.md) [Category   *Categories/hr](Category   *Categories/hr.md)
+
 ### Contents
 
 |     |     |     |

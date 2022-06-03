@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Std ViewRear
-   Name/fr:Std Vue de l'arrière
-   MenuLocation:Affichage → Vues standards → Arrière
-   Workbenches:Tous
-   Shortcut:**4**
-   SeeAlso:[Std Vue de dessous](Std_ViewBottom/fr.md), [Std Vue de gauche](Std_ViewLeft/fr.md)
+- GuiCommand   */fr
+   Name   *Std ViewRear
+   Name/fr   *Std Vue de l'arrière
+   MenuLocation   *Affichage → Vues standards → Arrière
+   Workbenches   *Tous
+   Shortcut   ***4**
+   SeeAlso   *[Std Vue de dessous](Std_ViewBottom/fr.md), [Std Vue de gauche](Std_ViewLeft/fr.md)
 ---
 
 # Std ViewRear/fr
@@ -19,16 +19,16 @@ La **Std Vue de l\'arrière** place la caméra dans la [vue 3D](3D_view/fr.md) d
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Std_ViewRear.svg" width=16px> [Arrière](Std_ViewRear/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRear.svg" width=16px> Arrière** dans le menu.
     -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewRear.svg" width=16px> Arrière** dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier: **4**.
+    -   Utilisez le raccourci clavier   * **4**.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

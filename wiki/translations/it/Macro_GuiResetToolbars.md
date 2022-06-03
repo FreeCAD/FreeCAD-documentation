@@ -7,11 +7,11 @@
 |Name/it=Gui Reset Tool bars
 |Description=Questa macro ripristina la posizione delle barre degli strumenti. Esegui la macro in un workbench che ha una barra degli strumenti mancante.
 |Author=PROTORS
-|Download=[https://wiki.freecadweb.org/images/f/f8/GuiResetToolbars.svg ToolBar Icon]
+|Download=[https   *//wiki.freecadweb.org/images/f/f8/GuiResetToolbars.svg ToolBar Icon]
 |Date=2020-04-21
 |Version=1.0.0
 |FCVersion= 0.18.4 e piu
-|SeeAlso=[https://github.com/protors/ResetToolbars/ Github repository]
+|SeeAlso=[https   *//github.com/protors/ResetToolbars/ Github repository]
 }}
 
 
@@ -34,7 +34,7 @@ ToolBar Icon ![](images/GuiResetToolbars.svg )
 
 {{MacroCode|code=
 # Reset Toolbars position
-# Author: Milos Petrasinovic <mpetrasinovic@pr-dc.com>
+# Author   * Milos Petrasinovic <mpetrasinovic@pr-dc.com>
 # PR-DC, Republic of Serbia
 # info@pr-dc.com
 # 
@@ -42,7 +42,7 @@ ToolBar Icon ![](images/GuiResetToolbars.svg )
 #
 # Copyright (C) 2020 PR-DC <info@pr-dc.com>
 # 
-# This program is free software: you can redistribute it and/or modify
+# This program is free software   * you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License as 
 # published by the Free Software Foundation, either version 3 of the 
 # License, or (at your option) any later version.
@@ -53,7 +53,7 @@ ToolBar Icon ![](images/GuiResetToolbars.svg )
 # GNU Lesser General Public License for more details.
 #  
 # You should have received a copy of the GNU Lesser General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# along with this program.  If not, see <https   *//www.gnu.org/licenses/>.
 #
 # 
 
@@ -63,13 +63,13 @@ __Author__ = 'PR-DC'
 __Version__ = '1.0.0'
 __Date__ = '2020-04-21'
 __License__ = 'LGPL-3.0-or-later'
-__Web__ = "https://github.com/PR-DC/GuiResetToolbars/"
-__Wiki__ = 'https://wiki.freecadweb.org/Macro_GuiResetToolbars'
+__Web__ = "https   *//github.com/PR-DC/GuiResetToolbars/"
+__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_GuiResetToolbars'
 __Icon__ = 'GuiResetToolbars.svg'
 __Help__ = 'Run the macro within a workbench that has missing toolbar(s)'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.18.4'
-__Communication__ = 'https://github.com/PR-DC/GuiResetToolbars/issues/'
+__Communication__ = 'https   *//github.com/PR-DC/GuiResetToolbars/issues/'
 __Files__ = 'GuiResetToolbars.svg'
 
 import FreeCADGui as gui
@@ -77,13 +77,13 @@ from PySide import QtGui, QtCore # FreeCAD's special PySide!
 
 mw = gui.getMainWindow()
 tb = mw.findChildren(QtGui.QToolBar)
-for i in tb:
+for i in tb   *
     mw.addToolBar(QtCore.Qt.TopToolBarArea, i)
 }}
 
 ## Link
 
-La discussione sul forum [Reset toolbar position](https://forum.freecadweb.org/viewtopic.php?f=3&t=45452&p=390034#p389404)
+La discussione sul forum [Reset toolbar position](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=45452&p=390034#p389404)
 
 
 

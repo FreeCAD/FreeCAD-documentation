@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Правильный многоугольник
-   Name:Sketcher CreateRegularPolygon
-   MenuLocation:Эскиз → Геометрия эскиза → Правильный многоугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Правильный многоугольник
+   Name   *Sketcher CreateRegularPolygon
+   MenuLocation   *Эскиз → Геометрия эскиза → Правильный многоугольник
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher CreateRegularPolygon/ru
@@ -26,7 +26,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   После нажатия кнопки **[<img src=images/Sketcher_CreateRegularPolygon.svg style="width:16px"> Правильный многоугольник**, укажите количество сторон многоугольника во всплывающем окне и подтвердите нажатием кнопки **OK**.
+-   После нажатия кнопки **[<img src=images/Sketcher_CreateRegularPolygon.svg style="width   *16px"> Правильный многоугольник**, укажите количество сторон многоугольника во всплывающем окне и подтвердите нажатием кнопки **OK**.
 -   Нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
 -   Нажатие **Esc** или правой кнопки мыши закрывает функцию.
 

@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:Draft Circle
-   Name/de:Entwurf Kreis
-   MenuLocation:Entwurf → Kreis
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**C** **I**
-   Version:0.7
-   SeeAlso:[Entwurf Bogen](Draft_Arc/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md), [Makro KreisPlus](Macro_CirclePlus/de.md)
+- GuiCommand   */de
+   Name   *Draft Circle
+   Name/de   *Entwurf Kreis
+   MenuLocation   *Entwurf → Kreis
+   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut   ***C** **I**
+   Version   *0.7
+   SeeAlso   *[Entwurf Bogen](Draft_Arc/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md), [Makro KreisPlus](Macro_CirclePlus/de.md)
 ---
 
 # Draft Circle/de
@@ -32,7 +32,7 @@ Dieses Werkzeug arbeitet genau wie das [Entwurf Bogen](Draft_Arc/de.md) Werkzeug
 
 </div>
 
-<img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Circle_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ Dieses Werkzeug arbeitet genau wie das [Entwurf Bogen](Draft_Arc/de.md) Werkzeug
 
 ## Anwendung
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -67,7 +67,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Optionen
 
--   Die primäre Anwendung des Kreis-Werkzeugs erfolgt durch Auswahl von zwei Punkten: dem Mittelpunkt und einem Punkt auf dem Umkreis zur Definition des Radius.
+-   Die primäre Anwendung des Kreis-Werkzeugs erfolgt durch Auswahl von zwei Punkten   * dem Mittelpunkt und einem Punkt auf dem Umkreis zur Definition des Radius.
 -   Durch Drücken von **Alt** kannst Du eine Tangente anstatt eines Punkts zur Definition des Basiskreises des Bogens auswählen. Du kannst deshalb verschiedene Kreisarten durch Auswahl von ein, zwei oder drei Tangenten erstellen.
 -   Um Koordinaten manuell einzugeben, gibt einfach die Ziffern ein, drücke dann **Enter** zwischen den X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Button drücken, nachdem die gewünschten Werte eingegeben wurden.
 -   Drücke **Alt**+**N** oder klicke das Ankreuzkästchen zum de/aktivieren des Fortsetzungsmodus. Wenn der Fortsetzungsmodus aktiviert ist, wird das Kreis-Tool nach Eingabe des zweiten Punkts neugestartet, um das Zeichnen eines weiteren Kreises ohne erneutes Drücken des Kreis-Buttons zu ermöglichen.
@@ -94,17 +94,17 @@ Der Kreis kann durch doppelklicken des Elements in der Baumansicht geändert wer
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -116,15 +116,15 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### Daten
 
--    {{PropertyData/de|First Angle}}: Gibt den Startwinkel des Kreises an; normalerweise 0°.
+-    {{PropertyData/de|First Angle}}   * Gibt den Startwinkel des Kreises an; normalerweise 0°.
 
--    {{PropertyData/de|Last Angle}}: Gibt den Endwinkel des Kreises an; normalerweise 0°.
+-    {{PropertyData/de|Last Angle}}   * Gibt den Endwinkel des Kreises an; normalerweise 0°.
 
--    {{PropertyData/de|Radius}}: Gibt den Radius des Kreises an.
+-    {{PropertyData/de|Radius}}   * Gibt den Radius des Kreises an.
 
--    {{PropertyData/de|Make Face}}: Gibt an, ob der Kreis ausgefüllt wird. Falls auf `True` gesetzt, wird eine Fläche erstellt, ansonsten wird nur der Umfang als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die Form einen vollen Umfang hat.
+-    {{PropertyData/de|Make Face}}   * Gibt an, ob der Kreis ausgefüllt wird. Falls auf `True` gesetzt, wird eine Fläche erstellt, ansonsten wird nur der Umfang als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die Form einen vollen Umfang hat.
 
-:   Damit es ein Vollkreis ist, sollten **Anfangswinkel** und **Endwinkel** den gleichen Wert haben, ansonsten wird ein [Draft Arc](Draft_Arc/de.md) angezeigt. Die Werte 0° und 360° werden nicht als gleich angesehen, so dass der Kreis bei Verwendung dieser beiden Werte keine Fläche bildet.
+   *   Damit es ein Vollkreis ist, sollten **Anfangswinkel** und **Endwinkel** den gleichen Wert haben, ansonsten wird ein [Draft Arc](Draft_Arc/de.md) angezeigt. Die Werte 0° und 360° werden nicht als gleich angesehen, so dass der Kreis bei Verwendung dieser beiden Werte keine Fläche bildet.
 
 
 </div>
@@ -139,9 +139,9 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### Ansicht
 
--    {{PropertyView/de|Pattern}}: definiert ein [Entwurfsmuster](Draft_Pattern/de.md), mit dem die Kreisoberfläche gefüllt wird. Diese Eigenschaft funktioniert nur, wenn {{PropertyData/de|Make Face}} auf `True` und {{PropertyView/de|Display Mode}} auf \"Flat Lines\" gesetzt ist.
+-    {{PropertyView/de|Pattern}}   * definiert ein [Entwurfsmuster](Draft_Pattern/de.md), mit dem die Kreisoberfläche gefüllt wird. Diese Eigenschaft funktioniert nur, wenn {{PropertyData/de|Make Face}} auf `True` und {{PropertyView/de|Display Mode}} auf \"Flat Lines\" gesetzt ist.
 
--    {{PropertyView/de|Pattern Size}}: gibt die Größe des [Musters](Draft_Pattern/de.md) an.
+-    {{PropertyView/de|Pattern Size}}   * gibt die Größe des [Musters](Draft_Pattern/de.md) an.
 
 
 </div>
@@ -154,7 +154,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 ## Skriptsprache
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Draft API](Draft_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
@@ -164,7 +164,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-Das Kreis Werkzeug kann sowohl in [Makros](macros/de.md) als auch aus der [Python](Python/de.md)-Konsole heraus mittels folgender Funktion angesprochen werden:
+Das Kreis Werkzeug kann sowohl in [Makros](macros/de.md) als auch aus der [Python](Python/de.md)-Konsole heraus mittels folgender Funktion angesprochen werden   *
 
 
 </div>
@@ -190,7 +190,7 @@ circle = make_circle(Part.Edge, placement=None, face=None, startangle=None, enda
 
 </div>
 
-Beispiel: 
+Beispiel   * 
 ```python
 import FreeCAD as App
 import Draft

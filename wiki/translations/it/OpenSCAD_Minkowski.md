@@ -1,21 +1,21 @@
 # OpenSCAD Minkowski/it
 ---
-- GuiCommand:/it   Name:OpenSCAD Minkowski   Name/it:Minkowski   MenuLocation:OpenSCAD → Minkowski‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand   */it   Name   *OpenSCAD Minkowski   Name/it   *Minkowski   MenuLocation   *OpenSCAD → Minkowski‏‎   |Workbenches   *[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
 
 ## Descrizione
 
-Consultare: <http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations> oppure <http://doc.cgal.org/latest/Minkowski_sum_3/index.html>
+Consultare   * <http   *//en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations> oppure <http   *//doc.cgal.org/latest/Minkowski_sum_3/index.html>
 
 
 <div class="mw-translate-fuzzy">
 
 Esegue la somma Minkowski di poliedri 3D
-**Definizione Matematica:**
+**Definizione Matematica   ***
 Per ottenere una somma Minkowski aggiungere ogni elemento del sottoinsieme A ad ogni elemento del sottoinsieme B.
-**Definizione Geometrica:**
+**Definizione Geometrica   ***
 Lo sweep dell\'elemento A lungo tutti i bordi dell\'elemento B. La somma Minkowski è lo spazio che risulta occupato da entrambi gli elementi.
 ![Un esempio di somma Minkowski](images/Minkowski_example.jpg )
 Esempio di somma Minkowski applicata tra un cilindro e un cubo.
@@ -34,7 +34,7 @@ Sweep element A along all boundaries of element B. Resulting space which is occu
 
 ![An example of a Minkowski sum](images/Minkowski_example.jpg )
 
-Example of Minkowski sum applied to cylinder and cube. Note: that the height of minkowski sum is height of cylinder plus height of cube.
+Example of Minkowski sum applied to cylinder and cube. Note   * that the height of minkowski sum is height of cylinder plus height of cube.
 
 
 <div class="mw-translate-fuzzy">
@@ -48,7 +48,7 @@ Example of Minkowski sum applied to cylinder and cube. Note: that the height of 
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare le forme nella vista ad albero o nella vista 3D
-2.  Cliccare su <img alt="" src=images/OpenSCAD_Minkowski.png  style="width:32px;"> o scegliere ** OpenSCAD** → **<img src="images/OpenSCAD_Minkowski.png" width=32px> Minkowski** nel menu in alto.
+2.  Cliccare su <img alt="" src=images/OpenSCAD_Minkowski.png  style="width   *32px;"> o scegliere ** OpenSCAD** → **<img src="images/OpenSCAD_Minkowski.png" width=32px> Minkowski** nel menu in alto.
 
 
 </div>

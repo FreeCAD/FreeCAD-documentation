@@ -1,29 +1,29 @@
 ---
-- GuiCommand:/fr
-   Name:Std ViewIsometric
-   Name/fr:Std Vue isométrique
-   MenuLocation:Affichage → Vues standards → Axonometric → Isométrique
-   Workbenches:Tous
-   Shortcut:**0**
-   SeeAlso:[Std Vue orthographique](Std_OrthographicCamera/fr.md), [Std Vue dimétrique](Std_ViewDimetric/fr.md), [Std Vue trimétrique](Std_ViewTrimetric/fr.md)
+- GuiCommand   */fr
+   Name   *Std ViewIsometric
+   Name/fr   *Std Vue isométrique
+   MenuLocation   *Affichage → Vues standards → Axonometric → Isométrique
+   Workbenches   *Tous
+   Shortcut   ***0**
+   SeeAlso   *[Std Vue orthographique](Std_OrthographicCamera/fr.md), [Std Vue dimétrique](Std_ViewDimetric/fr.md), [Std Vue trimétrique](Std_ViewTrimetric/fr.md)
 ---
 
 # Std ViewIsometric/fr
 
 ## Description
 
-La commande **Std Vue isométrique** réaligne la caméra dans la [vue 3D](3D_view/fr.md) active pour obtenir une vue [isométrique](https://fr.wikipedia.org/wiki/Perspective_isom%C3%A9trique). Pour une vue vraiment isométrique, la vue 3D doit être en [mode orthographique](Std_OrthographicCamera/fr.md) mais la commande fonctionne également si la vue est en [mode perspective](Std_PerspectiveCamera/fr.md).
+La commande **Std Vue isométrique** réaligne la caméra dans la [vue 3D](3D_view/fr.md) active pour obtenir une vue [isométrique](https   *//fr.wikipedia.org/wiki/Perspective_isom%C3%A9trique). Pour une vue vraiment isométrique, la vue 3D doit être en [mode orthographique](Std_OrthographicCamera/fr.md) mais la commande fonctionne également si la vue est en [mode perspective](Std_PerspectiveCamera/fr.md).
 
 ![](images/Std_ViewIsometric_example.svg ) 
 *L'[Axes du repère](Std_AxisCross/fr.md) et un cube en vue isométrique*
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Std_ViewIsometric.svg" width=16px> [Choisir la vue isométrique (0)](Std_ViewIsometric/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standard → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isométrique** dans le menu.
     -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewIsometric.svg" width=16px> Isométrique** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier: **0**.
+    -   Utilisez le raccourci clavier   * **0**.
 
 ## Remarques
 
@@ -32,7 +32,7 @@ La commande **Std Vue isométrique** réaligne la caméra dans la [vue 3D](3D_vi
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

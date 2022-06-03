@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher MapSketch
-   Name/de:Skizzierer ZuordnenSkizze
-   MenuLocation:Part Design/Skizze → Skizze einer Fläche zuordnen...
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Skizzierer Neue Skizze](Sketcher_NewSketch/de.md)
+- GuiCommand   */de
+   Name   *Sketcher MapSketch
+   Name/de   *Skizzierer ZuordnenSkizze
+   MenuLocation   *Part Design/Skizze → Skizze einer Fläche zuordnen...
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso   *[Skizzierer Neue Skizze](Sketcher_NewSketch/de.md)
 ---
 
 # Sketcher MapSketch/de
@@ -13,13 +13,13 @@
 
 Dieses Werkzeug ordnet eine vorhandene Skizze der Fläche einer Form zu. PartDesign Formelemente, die aus dieser Skizze erstellt werden, werden bei additiven Formelementen (Polster, Umlauf) mit dem darunter liegenden Festkörper verschmolzen oder bei subtraktiven Formelementen (Tasche, Nut) vom darunter liegenden Festkörper subtrahiert.
 
-Bitte beachte, daß dieses Werkzeug nicht zum Erstellen neuer Skizzen verwendet wird. Es ordnet lediglich eine vorhandene Skizze der Fläche eines Festkörpers oder einem PartDesign Formelement zu oder ordnet diese neu zu. Typische Anwendungsfälle sind:
+Bitte beachte, daß dieses Werkzeug nicht zum Erstellen neuer Skizzen verwendet wird. Es ordnet lediglich eine vorhandene Skizze der Fläche eines Festkörpers oder einem PartDesign Formelement zu oder ordnet diese neu zu. Typische Anwendungsfälle sind   *
 
 -   Die Skizze wurde auf einer Standardebene (XY, XZ, YZ) erstellt, und du möchtest sie der Fläche eines Festkörpers zuordnen, um darauf ein Formelement aufzubauen.
 -   Die Skizze wurde einer bestimmten Fläche eines Festkörpers zugeordnet, aber du musst sie einer anderen Fläche zuordnen.
 -   Reparieren eines kaputten Modells.
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
 
 ## Anwendung
 

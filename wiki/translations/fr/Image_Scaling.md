@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Image Scaling
-   Name/fr:Redimensionner l'image
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench/fr.md)
-   SeeAlso:[Image Ouvrir une image](Image_Open/fr.md), [Image Créer un plan d'image](Image_CreateImagePlane/fr.md)
+- GuiCommand   */fr
+   Name   *Image Scaling
+   Name/fr   *Redimensionner l'image
+   MenuLocation   *
+   Workbenches   *[Image](Image_Workbench/fr.md)
+   SeeAlso   *[Image Ouvrir une image](Image_Open/fr.md), [Image Créer un plan d'image](Image_CreateImagePlane/fr.md)
 ---
 
 # Image Scaling/fr

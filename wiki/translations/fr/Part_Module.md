@@ -115,13 +115,13 @@ Ces outils effectuent des opérations booléennes.
 -   <img alt="" src=images/Part_CompJoinFeatures.png  style="width   *48px;"> [Joindre des objets à parois](Part_CompJoinFeatures/fr.md)    *
     -   <img alt="" src=images/Part_JoinConnect.svg  style="width   *32px;"> [Connecter](Part_JoinConnect/fr.md)    * Relie les intérieurs d\'objets fermés.
     -   <img alt="" src=images/Part_JoinEmbed.svg  style="width   *32px;"> [Intégrer](Part_JoinEmbed/fr.md)    * Intègre un objet à un autre objet.
-    -   <img alt="" src=images/Part_JoinCutout.svg  style="width   *32px;"> [Découpe](Part_JoinCutout/fr.md)    * Crée une découpe dans un objet en fonction d\'un autre objet.
+    -   <img alt="" src=images/Part_JoinCutout.svg  style="width   *32px;"> [Découper](Part_JoinCutout/fr.md)    * Crée une découpe dans un objet en fonction d\'un autre objet.
 
 -   <img alt="" src=images/Part_CompSplittingTools.png  style="width   *48px;"> [Outils de division de formes](Part_CompSplittingTools/fr.md)   *
-    -   <img alt="" src=images/Part_BooleanFragments.svg  style="width   *32px;"> [Fragments booléens](Part_BooleanFragments/fr.md)   * Crée toutes les pièces pouvant être obtenues par des opérations booléennes entre objets
-    -   <img alt="" src=images/Part_SliceApart.png  style="width   *32px;"> [Trancher une pièce](Part_SliceApart/fr.md)   * Coupe et divise un objet par intersection avec d\'autres objets.
-    -   <img alt="" src=images/Part_Slice.svg  style="width   *32px;"> [Scinder](Part_Slice/fr.md)   * Divise un objet en morceaux par intersection avec un autre objet.
-    -   <img alt="" src=images/Part_XOR.svg  style="width   *32px;"> [OU exclusif](Part_XOR/fr.md)   * Supprime l\'espace partagé (commun) par un nombre pair d\'objets (version symétrique de [Soustraction booléenne](Part_Cut/fr.md)).
+    -   <img alt="" src=images/Part_BooleanFragments.svg  style="width   *32px;"> [Fragments booléens](Part_BooleanFragments/fr.md)   * Crée toutes les pièces obtenues par des opérations booléennes.
+    -   <img alt="" src=images/Part_SliceApart.png  style="width   *32px;"> [Séparer/exploser](Part_SliceApart/fr.md)   * Sépare et explose un objet par intersection avec d\'autres objets.
+    -   <img alt="" src=images/Part_Slice.svg  style="width   *32px;"> [Scinder](Part_Slice/fr.md)   * Scinde un objet en morceaux par intersection avec d\'autres objets.
+    -   <img alt="" src=images/Part_XOR.svg  style="width   *32px;"> [OU exclusif](Part_XOR/fr.md)   * Supprime l\'espace partagé (commun) par un nombre pair d\'objets.
 
 ### Mesure
 

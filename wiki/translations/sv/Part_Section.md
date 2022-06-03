@@ -1,6 +1,6 @@
 # Part Section/sv
 ---
-- GuiCommand:/sv   Name:Part Section   Name/sv:Part Section   MenuLocation:Part → Section   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
+- GuiCommand   */sv   Name   *Part Section   Name/sv   *Part Section   MenuLocation   *Part → Section   Workbenches   *[[Part_Workbench/sv   Part]], Complete|SeeAlso   *---
 
 
 </div>
@@ -9,11 +9,11 @@
 
 Extracts a section from the intersection of two selected shapes, the second one being used as a section plane. This operation is fully parametric and the components can be modified and the result recomputed.
 
-In this example, a cube is sectioned with a cylinder:
+In this example, a cube is sectioned with a cylinder   *
 
 +++
-| ![](images/PartSection1_it.png ) | -   **Base**: base object, the Box       |
-|                                                | -   **Tool**: Section tool, the cylinder |
+| ![](images/PartSection1_it.png ) | -   **Base**   * base object, the Box       |
+|                                                | -   **Tool**   * Section tool, the cylinder |
 +++
 
 
@@ -27,7 +27,7 @@ In this example, a cube is sectioned with a cylinder:
 
 ## Links
 
-To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Cross-sections](Part_CrossSections.md).
+To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width   *24px;"> [Cross-sections](Part_CrossSections.md).
 
 
 

@@ -3,7 +3,7 @@
 
 ## Description
 
-Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Open](Std_Open.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import.md) and <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) commands to handle the [SVG](SVG.md) file format.
+Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Std Open](Std_Open.md), <img alt="" src=images/Std_Import.svg  style="width   *24px;"> [Std Import](Std_Import.md) and <img alt="" src=images/Std_Export.svg  style="width   *24px;"> [Std Export](Std_Export.md) commands to handle the [SVG](SVG.md) file format.
 
 ![](images/Screenshot_inkscape.jpg ) 
 *Inkscape drawing exported to SVG, which is subsequently opened in FreeCAD*
@@ -13,7 +13,7 @@ Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  
 
 ### Otevření
 
-Tato funkce importuje SVG soubory jako zpracovatelné 2D objekty, jako protějšek zabudovaného kreslicího modulu, který importuje SVG soubory jako výkresy. V současnosti jsou importovány následující SVG objekty:
+Tato funkce importuje SVG soubory jako zpracovatelné 2D objekty, jako protějšek zabudovaného kreslicího modulu, který importuje SVG soubory jako výkresy. V současnosti jsou importovány následující SVG objekty   *
 
 -   objekty PATH
 -   objekty PŘÍMKA
@@ -26,7 +26,7 @@ Tato funkce importuje SVG soubory jako zpracovatelné 2D objekty, jako protějš
 
 </div>
 
-The following SVG objects can be imported:
+The following SVG objects can be imported   *
 
 -   PATH objects
 -   LINE objects
@@ -38,14 +38,14 @@ The following SVG objects can be imported:
 
 ### Limitations
 
-FreeCAD will not import path objects that have only one point ([forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
+FreeCAD will not import path objects that have only one point ([forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
 
 
 <div class="mw-translate-fuzzy">
 
 ### Export
 
-V SVG souboru mohou být exportovány následující objekty:
+V SVG souboru mohou být exportovány následující objekty   *
 
 -   Přímky a dráty (lomené čáry)
 -   Oblouky a kružnice
@@ -56,7 +56,7 @@ V SVG souboru mohou být exportovány následující objekty:
 
 </div>
 
-The following FreeCAD objects can be exported:
+The following FreeCAD objects can be exported   *
 
 -   Lines and wires (polylines)
 -   Arcs and circles
@@ -107,16 +107,16 @@ SVG editor Inkscapu aktuálně pracuje s dokumenty s rozlišením 90 DPI. Nezál
 
 ### Předvolby
 
-V záložce [Kreslení Předvolby](Draft_Preferences/cs.md) (menu Úpravy -\> Předvolby -\> Kreslení) mohou být specifikovány následující parametry:
+V záložce [Kreslení Předvolby](Draft_Preferences/cs.md) (menu Úpravy -\> Předvolby -\> Kreslení) mohou být specifikovány následující parametry   *
 
--   Import/Export -\> Styl Importu: Dává na výběr způsob jakým budou objekty z SVG souboru kresleny ve FreeCADu. Vyběr je mezi:
-    -   Žádný: to je nejrychlejší způsob, nedělají se žádné konverze, všechny objekty jsou černé s defaultní (FreeCAD) tloušťkou čáry 2px
-    -   Použít defaultní barvu a tloušťku čáry: Všechny importované objekty přebírají aktuálně nastavenou barvy a tloušťku čáry z příkazového pruhu kreslení
-    -   Originální barvu a tloušťku čáry: Objekty si podrží barvu a tloušťku čáry (pokud je specifikovaná) takovou jakou mají v SVG souboru
--   Import/Export -\> Styl Exportu:
-    -   Překlad: Všechny elementy jsou přeloženy tak, že mají kladné souřadnice. To by mělo pomoci při zobrazování a tisku. Výstupní souřadnicový systém NENÍ konzistentní mezi individuálně exportovanými prvky.
-    -   Neupravený: Pozice všech prvků jsou zachovány. Je to zamýšleno pro použití v CAM, např. v PyCAM. Vrstvy nebo řezy, které jsou exportované samostatně budou spolu lícovat.
--   Základní nastavení -\> Interní úroveň přesnosti:
+-   Import/Export -\> Styl Importu   * Dává na výběr způsob jakým budou objekty z SVG souboru kresleny ve FreeCADu. Vyběr je mezi   *
+    -   Žádný   * to je nejrychlejší způsob, nedělají se žádné konverze, všechny objekty jsou černé s defaultní (FreeCAD) tloušťkou čáry 2px
+    -   Použít defaultní barvu a tloušťku čáry   * Všechny importované objekty přebírají aktuálně nastavenou barvy a tloušťku čáry z příkazového pruhu kreslení
+    -   Originální barvu a tloušťku čáry   * Objekty si podrží barvu a tloušťku čáry (pokud je specifikovaná) takovou jakou mají v SVG souboru
+-   Import/Export -\> Styl Exportu   *
+    -   Překlad   * Všechny elementy jsou přeloženy tak, že mají kladné souřadnice. To by mělo pomoci při zobrazování a tisku. Výstupní souřadnicový systém NENÍ konzistentní mezi individuálně exportovanými prvky.
+    -   Neupravený   * Pozice všech prvků jsou zachovány. Je to zamýšleno pro použití v CAM, např. v PyCAM. Vrstvy nebo řezy, které jsou exportované samostatně budou spolu lícovat.
+-   Základní nastavení -\> Interní úroveň přesnosti   *
     -   Tato hodnota je využita pro kontrolu, zda segment Bezierovy křivky musí mít vazbu na přímou čáru. If you import detailed paths, like rendered text, you may want to increase this setting up to 6. Pracujete-li s Inscapem, uvažujte prosím o zvýšení přesnosti v SVG souboru. (Inkscape Menu -\> File -\> Inkscape Preferences -\> SVG Output -\> Numeric Precision)
 
 
@@ -126,7 +126,7 @@ See [Import Export Preferences](Import_Export_Preferences.md).
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To export objects to SVG use the `export` method of the importSVG module.
 
@@ -135,9 +135,9 @@ To export objects to SVG use the `export` method of the importSVG module.
 importSVG.export(exportList, filename)
 ```
 
--   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+-   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
 
-Example:
+Example   *
 
 
 ```python
@@ -161,6 +161,11 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
 
 </div>
+
+
+ 
+
+[Category   *User Documentation/cs](Category   *User_Documentation/cs.md) [Category   *File Formats](Category_File_Formats.md)
 
 
 

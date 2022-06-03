@@ -1,6 +1,8 @@
 # Category:Administration
 This category contains articles and categories about wiki administrative subjects.
 
+[Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

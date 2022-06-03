@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/it
-   Name:Mesh_Merge
-   Name/it:Unisci
-   MenuLocation:Mesh → Unisci
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
+- GuiCommand   */it
+   Name   *Mesh_Merge
+   Name/it   *Unisci
+   MenuLocation   *Mesh → Unisci
+   Workbenches   *[Mesh](Mesh_Workbench/it.md)
 ---
 
 # Mesh Merge/it

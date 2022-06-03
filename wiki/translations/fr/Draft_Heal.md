@@ -1,17 +1,17 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Heal
-   Name/fr:Draft Réparer
-   MenuLocation:Utilitaires → Réparer
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Agréger](Draft_Upgrade/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
+- GuiCommand   */fr
+   Name   *Draft Heal
+   Name/fr   *Draft Réparer
+   MenuLocation   *Utilitaires → Réparer
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Draft Agréger](Draft_Upgrade/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
 ---
 
 # Draft Heal/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Réparer** répare les objets [Draft](Draft_Workbench/fr.md) problématiques trouvés dans de très vieux fichiers. Elle essaie de recréer les anciens objets à partir de zéro et de transférer leurs propriétés aux nouveaux objets.
+La commande <img alt="" src=images/Draft_Heal.svg  style="width   *24px;"> **Draft Réparer** répare les objets [Draft](Draft_Workbench/fr.md) problématiques trouvés dans de très vieux fichiers. Elle essaie de recréer les anciens objets à partir de zéro et de transférer leurs propriétés aux nouveaux objets.
 
 ## Utilisation
 

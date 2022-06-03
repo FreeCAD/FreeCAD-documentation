@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw DecorateLine
-   MenuLocation:TechDraw → Change Appearance of Line(s)
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Cosmetic Eraser](TechDraw_CosmeticEraser.md)
+- GuiCommand   *
+   Name   *TechDraw DecorateLine
+   MenuLocation   *TechDraw → Change Appearance of Line(s)
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Cosmetic Eraser](TechDraw_CosmeticEraser.md)
 ---
 
 # TechDraw DecorateLine/pl
@@ -13,13 +13,13 @@
 
 The DecorateLine tool changes the appearance of Edges.
 
-<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
+<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 
 
 
 *Sample Edges before decoration*
 
-<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
+<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width   *180px;">
 
 
 
@@ -38,7 +38,7 @@ The DecorateLine tool has no properties, as it is not a Document Object.
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

@@ -23,28 +23,28 @@ The Toolbit does not have an id of it\'s own. The id is a property of the librar
 
 ## Export
 
-A toolbit library can be exported to create a [LinuxCNC Tool Table](http://wiki.linuxcnc.org/cgi-bin/wiki.pl?ToolTable) (.tbl).
+A toolbit library can be exported to create a [LinuxCNC Tool Table](http   *//wiki.linuxcnc.org/cgi-bin/wiki.pl?ToolTable) (.tbl).
 
 ## JSON Structure 
 
 
 {{Code|
 {
-  "tools": [
+  "tools"   * [
     {
-      "nr": 1,
-      "path": "t1.fctb"
+      "nr"   * 1,
+      "path"   * "t1.fctb"
     },
     {
-      "nr": 2,
-      "path": "t2.fctb"
+      "nr"   * 2,
+      "path"   * "t2.fctb"
     },
     {
-      "nr": 3,
-      "path": "t3.fctb"
+      "nr"   * 3,
+      "path"   * "t3.fctb"
     }
   ],
-  "version": 1
+  "version"   * 1
 }
 }}
 

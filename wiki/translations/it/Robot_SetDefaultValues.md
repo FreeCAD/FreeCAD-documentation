@@ -1,6 +1,6 @@
 # Robot SetDefaultValues/it
 ---
-- GuiCommand:/it   Name:Robot SetDefaultValues   Name/it:Imposta i valori predefiniti   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Imposta i valori predefiniti---
+- GuiCommand   */it   Name   *Robot SetDefaultValues   Name/it   *Imposta i valori predefiniti   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Imposta i valori predefiniti---
 
 
 </div>
@@ -34,7 +34,7 @@ Scegliere ** Robot** → ** Imposta i valori predefiniti** dal menu principale p
 
 #### Note
 
-I valori di default del programma sono:
+I valori di default del programma sono   *
 
 -   velocità = 1 m/s
 -   continua = false

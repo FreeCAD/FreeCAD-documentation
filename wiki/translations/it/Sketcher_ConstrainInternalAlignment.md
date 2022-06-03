@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Constraint InternalAlignment
-   Name/it:Allineamento interno
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Vincoli → Allineamento interno
-   Shortcut:**Ctrl** + **A**
-   SeeAlso:[Mostra/Nascondi la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md), [Ellisse](Sketcher_CreateEllipseByCenter/it.md)
-   Version:0.15
+- GuiCommand   */it
+   Name   *Constraint InternalAlignment
+   Name/it   *Allineamento interno
+   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation   *Sketch → Vincoli → Allineamento interno
+   Shortcut   ***Ctrl** + **A**
+   SeeAlso   *[Mostra/Nascondi la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md), [Ellisse](Sketcher_CreateEllipseByCenter/it.md)
+   Version   *0.15
 ---
 
 # Sketcher ConstrainInternalAlignment/it
@@ -48,7 +48,7 @@ Per essere utilizzato, questo vincolo richiede più impegno di quanto ne richied
 ## Operazioni su Ellisse 
 
 1.  Selezionare gli elementi da allineare e un\'ellisse. L\'ellisse deve essere selezionato per ultimo. Sono accettate fino a due linee e fino a due punti.
-2.  Richiamare il vincolo in uno di questi modi:
+2.  Richiamare il vincolo in uno di questi modi   *
     -   Cliccare sull\'icona **<img src="images/Constraint_InternalAlignment.svg" width=16px>** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Ctrl** + **A**.
     -   Usare la voce **Sketch → Vincoli → Allineamento interno** dal menu principale.
@@ -60,25 +60,25 @@ La prima linea selezionata viene allineata per diventare il diametro maggiore de
 
 Analogamente, il primo punto viene vincolato per diventare il primo fuoco non occupato, e il secondo punto viene assegnato all\'altro fuoco.
 
-**Note:** By default new ellipses have an internal construction geometry. When this defines the ellipse already completely, you cannot directly use the InternalAlignment constraint. You first need to delete the construction geometry or parts of it. In case you don\'t see the construction geometry, select the ellipse and use the tool **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** to make it visible.
+**Note   *** By default new ellipses have an internal construction geometry. When this defines the ellipse already completely, you cannot directly use the InternalAlignment constraint. You first need to delete the construction geometry or parts of it. In case you don\'t see the construction geometry, select the ellipse and use the tool **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width   *16px"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** to make it visible.
 
 ## Script
 
 
 ```python
-Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseMajorDiameter', index_of_line, index_of_ellipse))
-Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseMinorDiameter', index_of_line, index_of_ellipse))
-Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseFocus1', index_of_point, 1, index_of_ellipse))
-Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseFocus2', index_of_point, 1, index_of_ellipse))
+Sketch.addConstraint(Sketcher.Constraint('InternalAlignment   *EllipseMajorDiameter', index_of_line, index_of_ellipse))
+Sketch.addConstraint(Sketcher.Constraint('InternalAlignment   *EllipseMinorDiameter', index_of_line, index_of_ellipse))
+Sketch.addConstraint(Sketcher.Constraint('InternalAlignment   *EllipseFocus1', index_of_point, 1, index_of_ellipse))
+Sketch.addConstraint(Sketcher.Constraint('InternalAlignment   *EllipseFocus2', index_of_point, 1, index_of_ellipse))
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Notare:
+Notare   *
 
-:   Sketch è un oggetto schizzo.
-:   Il numero 1 nei fuochi richiama i punti iniziali di un elemento punto, quindi è ignorato.
+   *   Sketch è un oggetto schizzo.
+   *   Il numero 1 nei fuochi richiama i punti iniziali di un elemento punto, quindi è ignorato.
 
 
 </div>

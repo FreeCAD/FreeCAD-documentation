@@ -1,6 +1,8 @@
 # Category:Developer Documentation/sv
 This category gathers documentation article mostly aimed at programmers
 
+[Category   *Documentation/sv](Category   *Documentation/sv.md)
+
 ### Contents
 
 |     |     |     |

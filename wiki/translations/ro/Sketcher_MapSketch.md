@@ -1,6 +1,6 @@
 # Sketcher MapSketch/ro
 ---
-- GuiCommand:   Name:Sketcher MapSketch   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Part Design/Sketch → Map sketch to face...   SeeAlso:[Create a new sketch](Sketcher_NewSketch.md)---
+- GuiCommand   *   Name   *Sketcher MapSketch   Create a sketch on a face|Workbenches   *[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation   *Part Design/Sketch → Map sketch to face...   SeeAlso   *[Create a new sketch](Sketcher_NewSketch.md)---
 
 
 </div>
@@ -17,13 +17,13 @@ Acest instrument pune o schiță existentă pe fața unei forme. PartDesign feat
 
 </div>
 
-Rețineți că acest instrument nu este utilizat pentru a crea schițe noi. It only maps, or remaps an existing sketch to the face of a solid or a PartDesign feature. Typical use cases are:
+Rețineți că acest instrument nu este utilizat pentru a crea schițe noi. It only maps, or remaps an existing sketch to the face of a solid or a PartDesign feature. Typical use cases are   *
 
 -   The sketch was created on a standard plane (XY, XZ, YZ) and you want to map it to the face of a solid in order to build a feature upon it.
 -   The sketch was mapped on a specific face of a solid but you need to map it to a different face.
 -   Repairing a broken model.
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
 
 ## Usage
 
@@ -77,7 +77,9 @@ Acum, selectăm fața superioară a Plăcii și apoi selectăm instrumentul Map 
 
 {{Sketcher Tools navi
 
-}}
+}} 
+
+[Category   *Sketcher/ro](Category   *Sketcher/ro.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:FEM CompPostCreateFunctions
-   Name/ru:Fem CompPostCreateFunctions
-   MenuLocation: Results → Filter Functions
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand   */ru
+   Name   *FEM CompPostCreateFunctions
+   Name/ru   *Fem CompPostCreateFunctions
+   MenuLocation   * Results → Filter Functions
+   Workbenches   *[FEM](FEM_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostCreateFunctions/ru
@@ -19,8 +19,8 @@
 
 ToDo
 
--   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> Plane:
--   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> Sphere:
+-   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> Plane   *
+-   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> Sphere   *
 
 
 

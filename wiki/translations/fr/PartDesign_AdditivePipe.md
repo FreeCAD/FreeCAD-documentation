@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:PartDesign AdditivePipe
-   Name/fr:PartDesign Balayage additif
-   MenuLocation:Part Design → Créer une fonction additive → Balayage additif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
+- GuiCommand   */fr
+   Name   *PartDesign AdditivePipe
+   Name/fr   *PartDesign Balayage additif
+   MenuLocation   *Part Design → Créer une fonction additive → Balayage additif
+   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
+   Version   *0.17
+   SeeAlso   *[PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
 ---
 
 # PartDesign AdditivePipe/fr
@@ -38,20 +38,20 @@ Pour utiliser plusieurs sections, commencez par la section comme décrit ci-dess
 
 ## Options
 
-**Transformation de section**:
+**Transformation de section**   *
 
 -   Sélectionner **Constant** pour utiliser un seul profil
 -   Sélectionner **Sections multiples** pour utiliser plusieurs profils
 
-**Orientation de la section**:
+**Orientation de la section**   *
 
 -   Standard
 
-    :   Cela maintient la forme de la section perpendiculaire au chemin. Ce sont les paramètres par défauts.
+       *   Cela maintient la forme de la section perpendiculaire au chemin. Ce sont les paramètres par défauts.
 -   Fixé
     -   Orientation définie par le premier profil et constante tout au long. Cela désactive l\'alignement sur le vecteur normal de trajectoire. Cela signifie que la forme de la section transversale ne tournera pas avec le chemin. Balayez le long d\'un cercle pour voir l\'effet.
 -   Frenet
-    -   Crée le minimum de torsion possible du profil. Pour plus d\'informations, voir les [formules de Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet#Formules_de_Frenet)
+    -   Crée le minimum de torsion possible du profil. Pour plus d\'informations, voir les [formules de Frenet-Serret](https   *//fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet#Formules_de_Frenet)
 -   Auxiliaire
     -   Spécifie le chemin secondaire pour guider le balayage.
     -   Pour chaque point **P** le long du chemin de balayage, il y aura un point correspondant **Q** sur le chemin auxiliaire.
@@ -68,32 +68,32 @@ Pour utiliser plusieurs sections, commencez par la section comme décrit ci-dess
 
 ## Propriétés
 
--    **Label**: Donne le nom de l\'opération, changer si nécessaire.
+-    **Label**   * Donne le nom de l\'opération, changer si nécessaire.
 
--    **Refine**: Vrai ou faux. Si \"Vrai\", les arêtes résiduelles sont lissées. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
+-    **Refine**   * Vrai ou faux. Si \"Vrai\", les arêtes résiduelles sont lissées. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
 
--    **Sections**: liste les esquisses de section utilisées.
+-    **Sections**   * liste les esquisses de section utilisées.
 
--    **Spine Tangent**: Vrai ou faux (défaut). \"Vrai\" étend le chemin aux arêtes tangentes.
+-    **Spine Tangent**   * Vrai ou faux (défaut). \"Vrai\" étend le chemin aux arêtes tangentes.
 
--    **Auxiliary Spine Tangent**: Vrai ou faux (défaut). \"Vrai\" étend le chemin aux arêtes tangentes auxiliaires.
+-    **Auxiliary Spine Tangent**   * Vrai ou faux (défaut). \"Vrai\" étend le chemin aux arêtes tangentes auxiliaires.
 
--    **Auxiliary Curvelinear**: Vrai ou faux (défaut). \"Vrai\" calcule la normale entre les points équidistants sur les deux courbes dorsales.
+-    **Auxiliary Curvelinear**   * Vrai ou faux (défaut). \"Vrai\" calcule la normale entre les points équidistants sur les deux courbes dorsales.
 
--    **Mode**: mode profil. Voir [Options](#Options.md).
+-    **Mode**   * mode profil. Voir [Options](#Options.md).
 
--    **Binormal**: vecteur de la binormale pour le mode d\'orientation correspondant.
+-    **Binormal**   * vecteur de la binormale pour le mode d\'orientation correspondant.
 
--    **Transition**: mode de transition. Les options sont \"Transformé\", \"Coin droit\" ou \"Coin arrondi\".
+-    **Transition**   * mode de transition. Les options sont \"Transformé\", \"Coin droit\" ou \"Coin arrondi\".
 
--    **Transformation**: \"Constant \" utilise une section unique. \"Sections multiples\" utilise deux ou plusieurs sections transversales. \"Linear\", \"S-shape\" et \"Interpolation\" ne sont actuellement pas fonctionnels.
+-    **Transformation**   * \"Constant \" utilise une section unique. \"Sections multiples\" utilise deux ou plusieurs sections transversales. \"Linear\", \"S-shape\" et \"Interpolation\" ne sont actuellement pas fonctionnels.
 
 ## Remarques
 
 -   Pour mieux contrôler la forme du tuyau, il est recommandé que toutes les sections transversales aient le même nombre de segments. Par exemple, pour un tuyau entre un rectangle et un cercle, le cercle doit être décomposé en 4 arcs connectés.
 -   Vous pouvez créer un tuyau à partir ou en direction d\'un seul [vertex (ou point)](Glossary/fr#V.md) d\'une esquisse ou du corps. {{Version/fr|0.20}}
 -   Lorsque vous sélectionnez un [vertex](Glossary/fr#V.md) comme section, il doit s\'agir de la dernière section du tuyau. Sinon, le corps du tuyau serait constitué de deux solides reliés en un seul point. Cela violerait la définition d\'un objet 3D du noyau de CAO. Vous pouvez modifier l\'ordre des sections en les faisant glisser dans la liste.
--   La trajectoire ne peut provenir que d\'une seule esquisse, d\'une seule caractéristique ou d\'un seul ShapeBinder. Si vous souhaitez balayer plusieurs arêtes provenant de différentes esquisses, utilisez un **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [PartDesign Sous-forme liée](PartDesign_SubShapeBinder/fr.md)**.
+-   La trajectoire ne peut provenir que d\'une seule esquisse, d\'une seule caractéristique ou d\'un seul ShapeBinder. Si vous souhaitez balayer plusieurs arêtes provenant de différentes esquisses, utilisez un **[<img src=images/PartDesign_SubShapeBinder.svg style="width   *16px"> [PartDesign Sous-forme liée](PartDesign_SubShapeBinder/fr.md)**.
 -   La trajectoire ne doit pas contenir de branches ou de jonctions en T, etc. Les boucles sont autorisées.
 -   Il peut y avoir des problèmes si la section transversale n\'est pas perpendiculaire à la trajectoire en 3D.
 -   Une section transversale ne peut pas se trouver sur le même plan que celle qui la précède immédiatement.

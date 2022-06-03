@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Draft PathArray
-   Name/de:Entwurf PfadAnordnung
-   MenuLocation:Modifikation → Anordnung Werkzeuge → Pfad Anordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Version:0.14
-   SeeAlso:[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarArray](Draft_PolarArray/de.md), [Entwurf CircularArray](Draft_CircularArray/de.md), [Entwurf PfadVerknüpfeAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktAnordnung](Draft_PointArray/de.md), [Entwurf Klonen](Draft_Clone/de.md)
+- GuiCommand   */de
+   Name   *Draft PathArray
+   Name/de   *Entwurf PfadAnordnung
+   MenuLocation   *Modifikation → Anordnung Werkzeuge → Pfad Anordnung
+   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version   *0.14
+   SeeAlso   *[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarArray](Draft_PolarArray/de.md), [Entwurf CircularArray](Draft_CircularArray/de.md), [Entwurf PfadVerknüpfeAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktAnordnung](Draft_PointArray/de.md), [Entwurf Klonen](Draft_Clone/de.md)
 ---
 
 # Draft PathArray/de
@@ -31,7 +31,7 @@ Das PfadAnordnungswerkzeug kann auf jedes Objekt verwendet werden das eine [Part
 
 </div>
 
-<img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;">
+<img alt="" src=images/Draft_PathArray_Example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -58,18 +58,18 @@ Das PfadAnordnungswerkzeug kann auf jedes Objekt verwendet werden das eine [Part
 
 ## Alignment
 
-The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored: for the purpose of the array the {{Value|x}}, {{Value|y}} and {{Value|z}} are set to {{Value|0}}. If the **Align** property of the array is set to `False` the orientation of the array elements is identical to that of the source object. If it is set to `True` the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the **Align Mode** property of the array. Other array properties involved in the alignment include **Tangent Vector**, **Force Vertical** and **Vertical Vector**.
+The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored   * for the purpose of the array the {{Value|x}}, {{Value|y}} and {{Value|z}} are set to {{Value|0}}. If the **Align** property of the array is set to `False` the orientation of the array elements is identical to that of the source object. If it is set to `True` the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the **Align Mode** property of the array. Other array properties involved in the alignment include **Tangent Vector**, **Force Vertical** and **Vertical Vector**.
 
-<img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
-*3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
+<img alt="" src=images/Draft_PathArray_example2.png  style="width   *600px;"> 
+*3 arrays based on the same non-planar path. From left to right   * Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
 
 ### Align Mode 
 
-Three modes are available:
+Three modes are available   *
 
 #### Original
 
-This mode comes closest to the single **Align Mode** available in version 0.18. It relies on a fixed normal vector. If the path is planar this vector is perpendicular to the plane of the path, else a default vector, the positive Z axis, is used. From this normal vector and the local tangent vector (the local X axis) a [cross product](https://en.wikipedia.org/wiki/Cross_product) is calculated. This new vector is used as the local Z axis. The orientation of the local Y axis is determined from the local X and Z axes.
+This mode comes closest to the single **Align Mode** available in version 0.18. It relies on a fixed normal vector. If the path is planar this vector is perpendicular to the plane of the path, else a default vector, the positive Z axis, is used. From this normal vector and the local tangent vector (the local X axis) a [cross product](https   *//en.wikipedia.org/wiki/Cross_product) is calculated. This new vector is used as the local Z axis. The orientation of the local Y axis is determined from the local X and Z axes.
 
 #### Frenet
 
@@ -87,12 +87,12 @@ Using these properties can be required if one of the edged of the path is (almos
 
 ## Eigenschaften
 
-See also: [Property editor](property_editor.md).
+See also   * [Property editor](property_editor.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Eine [PfadAnordnung](Draft_PathArray/de.md) wird abgeleitet von einer [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren. Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften hat die PfadAnordnung die folgenden Eigenschaften im [Eigenschaftseditor](property_editor/de.md) .
+Eine [PfadAnordnung](Draft_PathArray/de.md) wird abgeleitet von einer [Part Formelement](Part_Feature/de.md) (`Part   *   *Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren. Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften hat die PfadAnordnung die folgenden Eigenschaften im [Eigenschaftseditor](property_editor/de.md) .
 
 
 </div>
@@ -143,20 +143,20 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 {{TitleProperty|Ausrichtung}}
 
--    **Ausrichten|Bool**: wenn es `True` ist, werden die Kopien am Pfad ausgerichtet; andernfalls werden sie in ihrer Standardausrichtung belassen.
+-    **Ausrichten|Bool**   * wenn es `True` ist, werden die Kopien am Pfad ausgerichtet; andernfalls werden sie in ihrer Standardausrichtung belassen.
 
-:   
-    **Hinweis:**in bestimmten Fällen wird die Form flach erscheinen, in Wirklichkeit kann sie sich im 3D Raum bewegt haben, ändere also statt einer flachen Ansicht die Ansicht auf axonometrisch.
+   *   
+    **Hinweis   ***in bestimmten Fällen wird die Form flach erscheinen, in Wirklichkeit kann sie sich im 3D Raum bewegt haben, ändere also statt einer flachen Ansicht die Ansicht auf axonometrisch.
 
--    **Ausrichtungsmodus|Aufzählung**: drei Modi, {{Value|Original}}, {{Value|Frenet}}, {{Value|Tangent}}.
+-    **Ausrichtungsmodus|Aufzählung**   * drei Modi, {{Value|Original}}, {{Value|Frenet}}, {{Value|Tangent}}.
 
--    **Zusätzliche Translation|VektorAbstand**: zusätzlicher Verschiebungsvektor {{Value|(x, y, z)}}, der auf jede Kopie entlang des Pfades angewendet wird. Dies ist nützlich, um kleine Anpassungen in der Position der Kopien vorzunehmen, z.B. wenn ihr Referenzpunkt nicht mit dem Mittelpunkt ihrer Form übereinstimmt.
+-    **Zusätzliche Translation|VektorAbstand**   * zusätzlicher Verschiebungsvektor {{Value|(x, y, z)}}, der auf jede Kopie entlang des Pfades angewendet wird. Dies ist nützlich, um kleine Anpassungen in der Position der Kopien vorzunehmen, z.B. wenn ihr Referenzpunkt nicht mit dem Mittelpunkt ihrer Form übereinstimmt.
 
--    **Force Vertical|Bool**: Wenn er `True` ist, wird der Wert von **Vertikal Vektor** als lokale Z Richtung verwendet, wenn **Ausrichtungsmodus** {{Value|Original}} oder {{Value|Tangente}} ist. <small>(v0.19)</small> 
+-    **Force Vertical|Bool**   * Wenn er `True` ist, wird der Wert von **Vertikal Vektor** als lokale Z Richtung verwendet, wenn **Ausrichtungsmodus** {{Value|Original}} oder {{Value|Tangente}} ist. <small>(v0.19)</small> 
 
--    **Tangentenvektor|Vektor**: die Standardeinstellung ist {{Value|(1, 0, 0)}}; Ausrichtungseinheitsvektor, der verwendet wird, wenn **Ausrichtungsmodus** {{Value|Tangente}} ist. <small>(v0.19)</small> 
+-    **Tangentenvektor|Vektor**   * die Standardeinstellung ist {{Value|(1, 0, 0)}}; Ausrichtungseinheitsvektor, der verwendet wird, wenn **Ausrichtungsmodus** {{Value|Tangente}} ist. <small>(v0.19)</small> 
 
--    **Vertikal Vektor|Vektor**}: Standardeinstellung ist {{Value|(0, 0, 1)}}; Einheitsvektor der lokalen Z Richtung, der verwendet wird, wenn **VertiKal Vektor** `True` ist. <small>(v0.19)</small> 
+-    **Vertikal Vektor|Vektor**}   * Standardeinstellung ist {{Value|(0, 0, 1)}}; Einheitsvektor der lokalen Z Richtung, der verwendet wird, wenn **VertiKal Vektor** `True` ist. <small>(v0.19)</small> 
 
 
 </div>
@@ -164,15 +164,15 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 {{TitleProperty|Objects}}
 
--    **Base|LinkGlobal**: specifies the object to duplicate in the array.
+-    **Base|LinkGlobal**   * specifies the object to duplicate in the array.
 
--    **Count|Integer**: specifies the number of elements in the array.
+-    **Count|Integer**   * specifies the number of elements in the array.
 
--    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
+-    **Expand Array|Bool**   * specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
 
--    **Path Object|LinkGlobal**: specifies the object to be used for the path. It must contain {{Value|Edges}} in its [Part TopoShape](Part_TopoShape.md).
+-    **Path Object|LinkGlobal**   * specifies the object to be used for the path. It must contain {{Value|Edges}} in its [Part TopoShape](Part_TopoShape.md).
 
--    **Path Subelements|LinkSubListGlobal**: specifies a list of edges of the **Path Object**. If supplied only these edges are used for the path.
+-    **Path Subelements|LinkSubListGlobal**   * specifies a list of edges of the **Path Object**. If supplied only these edges are used for the path.
 
 ### View
 
@@ -193,7 +193,7 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Point Size|FloatConstraint**
     
 
--    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
+-    **Selectable|Bool**   * this is an inherited property that appears in the Selection group for other arrays
 
 -    **Shape Material|Material**
     
@@ -215,16 +215,16 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Override Material List|BoolList|Hidden**
     
 
--    **Proxy|PythonObject|Hidden**: this is an inherited property.
+-    **Proxy|PythonObject|Hidden**   * this is an inherited property.
 
 
 {{TitleProperty|Display Options}}
 
 The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
 
--    **Bounding Box|Bool**: this property is not inherited by Link arrays.
+-    **Bounding Box|Bool**   * this property is not inherited by Link arrays.
 
--    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
+-    **Display Mode|Enumeration**   * for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be   * {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
 
 -    **Show In Tree|Bool**
     
@@ -235,9 +235,9 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: not used.
+-    **Pattern|Enumeration**   * not used.
 
--    **Pattern Size|Float**: not used.
+-    **Pattern Size|Float**   * not used.
 
 
 {{TitleProperty|Object style}}
@@ -252,7 +252,7 @@ The properties in this group are not inherited by Link arrays.
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -262,7 +262,7 @@ The properties in this group are not inherited by Link arrays.
 
 <div class="mw-translate-fuzzy">
 
-Das Pfadanordnungswerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
+Das Pfadanordnungswerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   *
 
 
 </div>
@@ -287,7 +287,7 @@ path_array = make_path_array(base_object, path_object,
 
 </div>
 
-Beispiel:
+Beispiel   *
 
 
 ```python

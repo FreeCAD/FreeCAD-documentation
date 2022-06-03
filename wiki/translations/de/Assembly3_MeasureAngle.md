@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Assembly3 MeasureAngle
-   Name/de:Assembly3 WinkelMessen
-   Icon:Assembly_MeasureAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Assembly3 MeasureAngle
+   Name/de   *Assembly3 WinkelMessen
+   Icon   *Assembly_MeasureAngle.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 MeasureAngle/de

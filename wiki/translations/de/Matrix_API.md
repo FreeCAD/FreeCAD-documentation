@@ -1,9 +1,9 @@
 # Matrix API/de
-**(Oktober 2019) Diese Seite nicht ändern. Diese Information ist unvollständig und veraltet. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quellendokumentation](Source_documentation/de.md).**
+**(Oktober 2019) Diese Seite nicht ändern. Diese Information ist unvollständig und veraltet. Für die letzte API siehe die (engl.) [https   *//www.freecadweb.org/api autogenerierte API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quellendokumentation](Source_documentation/de.md).**
 
-4x4-Matrizen werden überall in FreeCAD verwendet und können auf eine der folgenden Weisen erstellt werden: 
+4x4-Matrizen werden überall in FreeCAD verwendet und können auf eine der folgenden Weisen erstellt werden   * 
 ```python
-m = FreeCAD.Matrix()          # m = the [http://en.wikipedia.org/wiki/Identity_matrix identity matrix]
+m = FreeCAD.Matrix()          # m = the [http   *//en.wikipedia.org/wiki/Identity_matrix identity matrix]
 m = FreeCAD.Base.Matrix()
 print m.A21()               # print m[1][0]
 ```
@@ -60,37 +60,42 @@ print m.A21()               # print m[1][0]
 {{APIFunction|A44| | |a matrix element.}}
 
 
-{{APIFunction|determinant| |Computes the [http://en.wikipedia.org/wiki/Determinant determinant] of the matrix|a number.}}
+{{APIFunction|determinant| |Computes the [http   *//en.wikipedia.org/wiki/Determinant determinant] of the matrix|a number.}}
 
 
-{{APIFunction|inverse| |[http://en.wikipedia.org/wiki/Inverse_matrix Inverts] this matrix, if possible|nothing.}}
+{{APIFunction|inverse| |[http   *//en.wikipedia.org/wiki/Inverse_matrix Inverts] this matrix, if possible|nothing.}}
 
 
-{{APIFunction|invert| |Returns the [http://en.wikipedia.org/wiki/Inverse_matrix inverse] of this matrix, if possible|a Matrix}}
+{{APIFunction|invert| |Returns the [http   *//en.wikipedia.org/wiki/Inverse_matrix inverse] of this matrix, if possible|a Matrix}}
 
 
-{{APIFunction|move|Vector|Makes this matrix a [http://en.wikipedia.org/wiki/Translation_%28geometry%29 translation] matrix|nothing.}}
+{{APIFunction|move|Vector|Makes this matrix a [http   *//en.wikipedia.org/wiki/Translation_%28geometry%29 translation] matrix|nothing.}}
 
 
-{{APIFunction|multiply|Matrix or Vector|Returns the [http://en.wikipedia.org/wiki/Cross_product cross product] of a matrix or vector with this matrix|a Matrix}}
+{{APIFunction|multiply|Matrix or Vector|Returns the [http   *//en.wikipedia.org/wiki/Cross_product cross product] of a matrix or vector with this matrix|a Matrix}}
 
 
-{{APIFunction|rotateX|Float(radians)|Makes this matrix a [http://en.wikipedia.org/wiki/Rotation_%28mathematics%29 rotation] about X transform|nothing.}}
+{{APIFunction|rotateX|Float(radians)|Makes this matrix a [http   *//en.wikipedia.org/wiki/Rotation_%28mathematics%29 rotation] about X transform|nothing.}}
 
 
-{{APIFunction|rotateY|Float(radians)|Makes this matrix a [http://en.wikipedia.org/wiki/Rotation_%28mathematics%29 rotation] about Y transform|nothing.}}
+{{APIFunction|rotateY|Float(radians)|Makes this matrix a [http   *//en.wikipedia.org/wiki/Rotation_%28mathematics%29 rotation] about Y transform|nothing.}}
 
 
-{{APIFunction|rotateZ|Float(radians)|Makes this matrix a [http://en.wikipedia.org/wiki/Rotation_%28mathematics%29 rotation] about Z transform|nothing.}}
+{{APIFunction|rotateZ|Float(radians)|Makes this matrix a [http   *//en.wikipedia.org/wiki/Rotation_%28mathematics%29 rotation] about Z transform|nothing.}}
 
 
-{{APIFunction|scale|Vector|Makes this matrix a [http://en.wikipedia.org/wiki/Scaling_matrix scaling transform]|nothing.}}
+{{APIFunction|scale|Vector|Makes this matrix a [http   *//en.wikipedia.org/wiki/Scaling_matrix scaling transform]|nothing.}}
 
 
-{{APIFunction|transform|Vector, Matrix|Makes this matrix a [http://en.wikipedia.org/wiki/Transformation_matrix transformation matrix] based on Vector and Matrix|nothing. }}
+{{APIFunction|transform|Vector, Matrix|Makes this matrix a [http   *//en.wikipedia.org/wiki/Transformation_matrix transformation matrix] based on Vector and Matrix|nothing. }}
 
 
-{{APIFunction|unity| |Makes this matrix the [http://en.wikipedia.org/wiki/Identity_matrix identity matrix]|nothing.}}
+{{APIFunction|unity| |Makes this matrix the [http   *//en.wikipedia.org/wiki/Identity_matrix identity matrix]|nothing.}}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

@@ -5,7 +5,7 @@
 |Author=Mario52
 |Version=00.05
 |Date=2016-08-28
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey/fr.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey/fr.md)
 }}
 
 ## Description
@@ -13,9 +13,9 @@
 Donne une série d\'informations sur l\'objet avec affichage directement dans la vue 3D sans perturber les opérations effectuées sur votre projet.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/553b1fc7a8ca5bfa44c6/raw/fc57ec0869a8f68ce396acbaed5e87f396426186/Macro_FCInfoGlass.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/553b1fc7a8ca5bfa44c6/raw/fc57ec0869a8f68ce396acbaed5e87f396426186/Macro_FCInfoGlass.FCMacro}}
 
-<img alt="" src=images/Macro_FCTransparentInfo_00.FCMacro.png  style="width:480px;"> 
+<img alt="" src=images/Macro_FCTransparentInfo_00.FCMacro.png  style="width   *480px;"> 
 *FCInfoGlass*
 
 ## Utilisation
@@ -43,14 +43,14 @@ global colorize              ; colorize                      ="black" # colorize
 
 ```
 
-## Exemples:
+## Exemples   *
 
-Availlable : \'\'\' \"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\" \'\'\'
+Availlable    * \'\'\' \"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\" \'\'\'
 
 
 <center>
 
-Image:Macro FCInfoGlass 01.png\|**colorize =\"black\"** Image:Macro FCInfoGlass 02.png\|**colorize =\"white\"**
+Image   *Macro FCInfoGlass 01.png\|**colorize =\"black\"** Image   *Macro FCInfoGlass 02.png\|**colorize =\"white\"**
 
 
 </center>
@@ -61,7 +61,7 @@ Image:Macro FCInfoGlass 01.png\|**colorize =\"black\"** Image:Macro FCInfoGlass 
 
 <center>
 
-Image:Macro FCInfoGlass 03.png\|**colorize =\"red\"** Image:Macro FCInfoGlass 04.png\|**colorize =\"yellow\"**
+Image   *Macro FCInfoGlass 03.png\|**colorize =\"red\"** Image   *Macro FCInfoGlass 04.png\|**colorize =\"yellow\"**
 
 
 </center>
@@ -71,7 +71,7 @@ Image:Macro FCInfoGlass 03.png\|**colorize =\"red\"** Image:Macro FCInfoGlass 04
 
 Dans cette section de la macro, vous pouvez activer **1** ou désactiver **0** l\'affichage de certaines informations.
 
-**Exemple :**
+**Exemple    ***
 
 la ligne est affichée ( = **1** )
 
@@ -193,11 +193,11 @@ Il n\'est pas possible pour le moment de quitter la macro.
 
 Un clic de la souris sur un objet affiche les informations de cet objet, le nombre d\'informations affichées varie si la pièce complète est sélectionnée.
 
-**PS:** Il est possible aussi que dans l\'environnement Linux il n\'est pas possible de cliquer ou avoir accès à l\'objet à l'intérieur de la fenêtre affichant les informations
+**PS   *** Il est possible aussi que dans l\'environnement Linux il n\'est pas possible de cliquer ou avoir accès à l\'objet à l'intérieur de la fenêtre affichant les informations
 
 Il n\'y a aucun problèmes dans l\'environnement Windows vous pouvez cliquer à l\'intérieur de la fenêtre et avoir accès à l\'objet sauf sur les caractères affichés
 
-pour visualiser cette fenêtre et modifier les dimensions, modifiez :
+pour visualiser cette fenêtre et modifier les dimensions, modifiez    *
 
 la **ligne 81 visualiserWindow = 1**
 
@@ -205,27 +205,27 @@ les **lignes 87 et 88 SizeX et SizeY** pour les dimensions de la fenêtre
 
 ## Script
 
-L\'icône **Macro\_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width:64px;">
+L\'icône **Macro\_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width   *64px;">
 
-Copiez le script Gits [**Macro\_FCInfoGlass.FCMacro**](https://gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
+Copiez le script Gits [**Macro\_FCInfoGlass.FCMacro**](https   *//gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
 
 et copiez la macro Macro\_FCInfoGlass.FCMacro et l\'icône dans votre répertoire de macros.
 
 ## Liens
 
-La discussion sur le forum [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
+La discussion sur le forum [FCInfo Macro](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
-Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
+Mes macros sur [mario52a](https   *//gist.github.com/mario52a) gists
 
 ## Versions
 
-**28/08/2016 Ver 00.05** : ajout du rayon avec les sousObjets et coordonnées centrales
+**28/08/2016 Ver 00.05**    * ajout du rayon avec les sousObjets et coordonnées centrales
 
-**25/11/2015 Ver 0.04** : ajout du rayon avec les sousObjets et ajout normalAt(0,0)
+**25/11/2015 Ver 0.04**    * ajout du rayon avec les sousObjets et ajout normalAt(0,0)
 
-**31/08/2015 Ver 0.03** : ajout d\'informations
+**31/08/2015 Ver 0.03**    * ajout d\'informations
 
-**04/08/2015 Ver 0.02** : ajout des switch et présentation
+**04/08/2015 Ver 0.02**    * ajout des switch et présentation
 
 
 

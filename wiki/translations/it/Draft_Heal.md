@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Draft Heal
-   Name/it:Ripara
-   MenuLocation:Draft → Utilità → Ripara
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Promuovi](Draft_Upgrade/it.md), [Retrocedi](Draft_Downgrade/it.md)
+- GuiCommand   */it
+   Name   *Draft Heal
+   Name/it   *Ripara
+   MenuLocation   *Draft → Utilità → Ripara
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso   *[Promuovi](Draft_Upgrade/it.md), [Retrocedi](Draft_Downgrade/it.md)
 ---
 
 # Draft Heal/it

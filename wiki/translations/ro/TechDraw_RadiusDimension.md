@@ -1,17 +1,17 @@
 # TechDraw RadiusDimension/ro
 ---
-- GuiCommand:   Name:TechDraw  Dimension Radius   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw → Dimension Radius   Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *TechDraw  Dimension Radius   Workbenches   *[[TechDraw_Workbench   TechDraw]]|MenuLocation   *TechDraw → Dimension Radius   Shortcut   *   SeeAlso   *---
 
 
 </div>
 
 ## Descriere
 
-Instrumentul Radius Dimension adaugă o dimensiune a unei raze la o View. Cota/dimensiunea poate fi aplicată la orice margine în desenul care este un cerc sau un arc de cerc. <img alt="" src=images/RadiusSample.png  style="width:200px;">
+Instrumentul Radius Dimension adaugă o dimensiune a unei raze la o View. Cota/dimensiunea poate fi aplicată la orice margine în desenul care este un cerc sau un arc de cerc. <img alt="" src=images/RadiusSample.png  style="width   *200px;">
 
 The Radius Dimension tool adds a radius dimension to a View. The dimension may be applied to any Edge in the drawing which is a circle or circular arc. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
-<img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
+<img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width   *130px;"> 
 *Measuring a circle, indicating the radius*
 
 ## Cum se folosește 
@@ -36,15 +36,15 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 Cotele tip rază pot fi adăugate la Pages utilizând Python.
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Radius Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Radius Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "Radius"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

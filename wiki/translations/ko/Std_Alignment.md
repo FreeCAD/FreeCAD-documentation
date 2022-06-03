@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ko
-   Name:Std Alignment
-   Name/ko:표준 정렬
-   MenuLocation:편집 → 정렬...
-   Workbenches:모두
-   SeeAlso:[표준 위치 설정](Std_Placement/ko.md)
+- GuiCommand   */ko
+   Name   *Std Alignment
+   Name/ko   *표준 정렬
+   MenuLocation   *편집 → 정렬...
+   Workbenches   *모두
+   SeeAlso   *[표준 위치 설정](Std_Placement/ko.md)
 ---
 
 # Std Alignment/ko
@@ -35,7 +35,7 @@
 
 ## 선택 사항 
 
-상황에 맞는 메뉴에서 다음과 같은 추가 옵션을 사용할 수 있습니다:
+상황에 맞는 메뉴에서 다음과 같은 추가 옵션을 사용할 수 있습니다   *
 
 -   보기에서 마지막 점을 취소하려면 **Remove last point** 옵션을 선택합니다.
 -   명령을 중지하려면 **Cancel** 옵션을 선택합니다.

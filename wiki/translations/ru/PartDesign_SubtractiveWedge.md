@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Субтрактивный клин
-   Name:PartDesign_SubtractiveWedge
-   MenuLocation:Part Design → Создать субтрактивный примитив → Субтрактивный клин
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный клин](PartDesign_AdditiveWedge/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Субтрактивный клин
+   Name   *PartDesign_SubtractiveWedge
+   MenuLocation   *Part Design → Создать субтрактивный примитив → Субтрактивный клин
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   Version   *0.17
+   SeeAlso   *[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный клин](PartDesign_AdditiveWedge/ru.md)
 ---
 
 # PartDesign SubtractiveWedge/ru
@@ -17,35 +17,35 @@
 
 Inserts a subtractive wedge in the active Body. Its shape is subtracted from the existing solid.
 
-![](images/PartDesign_SubtractiveWedge_example.svg ) *On the left: active body (A) shown in grey and subtractive wedge (B) shown in transparent red; result on the right.*
+![](images/PartDesign_SubtractiveWedge_example.svg ) *On the left   * active body (A) shown in grey and subtractive wedge (B) shown in transparent red; result on the right.*
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Subtractive Wedge'''** button. **Note**: the Subtractive Wedge is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Wedge, click on the down arrow besides the visible icon and select Subtractive Wedge in the menu.
+1.  Press the **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Subtractive Wedge'''** button. **Note**   * the Subtractive Wedge is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Wedge, click on the down arrow besides the visible icon and select Subtractive Wedge in the menu.
 2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  A Wedge feature appears under the active Body.
 
 ## Опции
 
-The Wedge can be edited after its creation in two ways:
+The Wedge can be edited after its creation in two ways   *
 
 -   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
 -   Via the [Property editor](Property_editor.md).
 
 ## Свойства
 
-Using the default placement, the below inputs are:
+Using the default placement, the below inputs are   *
 
--    **X min/max**: Base face X axis span
+-    **X min/max**   * Base face X axis span
 
--    **Y min/max**: Wedge height span
+-    **Y min/max**   * Wedge height span
 
--    **Z min/max**: Base face Z axis span
+-    **Z min/max**   * Base face Z axis span
 
--    **X2 min/max**: Top face X axis span
+-    **X2 min/max**   * Top face X axis span
 
--    **Z2 min/max**: Top face Z axis span
+-    **Z2 min/max**   * Top face Z axis span
 
 ## Pyramids
 

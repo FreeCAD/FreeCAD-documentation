@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw Dimension Landmark   Name/de:TechDraw Leitbemaßung
-   MenuLocation:TechDraw → Bemaßungen → Leitmaß einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Horizontalbemaßung](TechDraw_HorizontalDimension/de.md), [TechDraw Vertikalbemaßung](TechDraw_VerticalDimension/de.md)
+- GuiCommand   */de
+   Name   *TechDraw Dimension Landmark   Name/de   *TechDraw Leitbemaßung
+   MenuLocation   *TechDraw → Bemaßungen → Leitmaß einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Horizontalbemaßung](TechDraw_HorizontalDimension/de.md), [TechDraw Vertikalbemaßung](TechDraw_VerticalDimension/de.md)
 ---
 
 # TechDraw LandmarkDimension/de
@@ -64,21 +64,21 @@ Leitbemaßung führt keine neuen Eigenschaften ein.
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Das Leitbemaßungswerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden:
+Das Leitbemaßungswerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden   *
 
 
 </div>
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *LandmarkDimension','Landmark')
 dim1.Type = "Distance"
 dim1.References2D=[(TDView, 'Vertex1')]
 dim1.References3D=[(Point3d1, 'Vertex1')]

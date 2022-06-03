@@ -8,13 +8,13 @@
 </div>
 
 
-{{Manual:TOC/zh-cn}}
+{{Manual   *TOC/zh-cn}}
 
 ### 话说 3D 空间 
 
 如果这是你第一次接触 3D 应用程序，则需要先熟悉一些概念。如果不是，你可以跳过这个部分，没有关系。
 
-FreeCAD 的 3D 空间是[欧几里德空间](https://en.wikipedia.org/wiki/Euclidean_space)。它有一个原点和三个轴：X，Y 和 Z。如果从上面看你的场景，传统上，X 轴指向右边，Y 轴指向后面，Z 轴指向上方。在 FreeCAD 视图的右下角，您始终可以看到您正站在哪里查看场景。
+FreeCAD 的 3D 空间是[欧几里德空间](https   *//en.wikipedia.org/wiki/Euclidean_space)。它有一个原点和三个轴：X，Y 和 Z。如果从上面看你的场景，传统上，X 轴指向右边，Y 轴指向后面，Z 轴指向上方。在 FreeCAD 视图的右下角，您始终可以看到您正站在哪里查看场景。
 
 ![](images/Axes_orientation.png )
 
@@ -31,7 +31,7 @@ FreeCAD 的 3D 空间是[欧几里德空间](https://en.wikipedia.org/wiki/Eucli
 
 <div class="mw-translate-fuzzy">
 
-可以使用鼠标，Space Navigator 设备，键盘，触摸板或它们的组合在 FreeCAD 3D 视图中导航。 FreeCAD 实现了多种[导航模式](http://www.freecadweb.org/wiki/index.php?title=Mouse_Model)，这些模式决定了三种基本视图操作操作（平移，旋转和缩放）的完成方式，以及如何选中屏幕上的对象。你可以从"首选项"屏幕访问导航模式，也可以直接右键单击 3D 视图上的任意位置。
+可以使用鼠标，Space Navigator 设备，键盘，触摸板或它们的组合在 FreeCAD 3D 视图中导航。 FreeCAD 实现了多种[导航模式](http   *//www.freecadweb.org/wiki/index.php?title=Mouse_Model)，这些模式决定了三种基本视图操作操作（平移，旋转和缩放）的完成方式，以及如何选中屏幕上的对象。你可以从"首选项"屏幕访问导航模式，也可以直接右键单击 3D 视图上的任意位置。
 
 
 </div>

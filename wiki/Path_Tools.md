@@ -3,13 +3,13 @@
 
 This page describes the ToolBit architecture used in the [Path Workbench](Path_Workbench.md) which became the default for FreeCAD v 0.19. For the older \'Legacy\' tool system see [Path ToolLibraryEdit](Path_ToolLibraryEdit.md). Tools in the Path workbench are handled differently than in other CAM packages.
 
-There are several concepts that the user needs to understand:
+There are several concepts that the user needs to understand   *
 
--   [Path ToolShapes](Path_ToolShape.md): are templates for creating toolbits. Toolshapes are FreeCAD documents that model the tool using named constraints. The toolshape is an *abstract* tool template from which tool instances (called toolbits) are created. For example, all endmills will share the same toolshape file.
+-   [Path ToolShapes](Path_ToolShape.md)   * are templates for creating toolbits. Toolshapes are FreeCAD documents that model the tool using named constraints. The toolshape is an *abstract* tool template from which tool instances (called toolbits) are created. For example, all endmills will share the same toolshape file.
 
--   [Path ToolBits](Path_ToolBit.md): are instances of a toolshape. A toolbit will have *specific* values for each of the named constraints in the toolshape. A toolbit is used in a Path Job through a Tool Controller (TC). The same toolbit can exist in multiple libraries.
+-   [Path ToolBits](Path_ToolBit.md)   * are instances of a toolshape. A toolbit will have *specific* values for each of the named constraints in the toolshape. A toolbit is used in a Path Job through a Tool Controller (TC). The same toolbit can exist in multiple libraries.
 
--   [Path ToolBit Library](Path_ToolBit_Library.md): contains an arbitrary collection of toolbits. The specific tools in a library is entirely up to the user. Possible use cases for libraries:
+-   [Path ToolBit Library](Path_ToolBit_Library.md)   * contains an arbitrary collection of toolbits. The specific tools in a library is entirely up to the user. Possible use cases for libraries   *
     -   A hobbyist user may have only one library for all of the tools they own.
     -   A library may contain all the tools used for a specific material like aluminum or wood.
     -   A library may have toolbits for working on specific material.
@@ -28,11 +28,11 @@ The user will interact via path menu with the tool management system in two diff
 
 ## Organization
 
-When FreeCAD is installed an example hierarchy of tool libraries and toolbits is created in the installation directory at:
+When FreeCAD is installed an example hierarchy of tool libraries and toolbits is created in the installation directory at   *
 
--   On Linux it is usually {{FileName|/usr/lib64/FreeCAD/Mod/Path/Tools}}
--   On Windows it is usually {{FileName|C:\Program Files\FreeCAD\Mod\Path\Tools}}
--   On macOS it is usually {{FileName|/Applications/FreeCAD/Mod/Path/Tools}} {{ColoredText||Red|--> has to be revised}}
+-   On Linux it is usually **/usr/lib64/FreeCAD/Mod/Path/Tools**
+-   On Windows it is usually **C   *Program Files\FreeCAD\Mod\Path\Tools**
+-   On macOS it is usually **/Applications/FreeCAD/Mod/Path/Tools** {{ColoredText||Red|--> has to be revised}}
 
 
 
@@ -75,13 +75,13 @@ Getting a cutter or tool into a Path Job for use in operations starts with a [To
 
 #### Create a new Tool Shape 
 
-:   Follow the instructions outlined in the [Usage](Path_ToolShape#Usage.md) section of the [Tool Shape](Path_ToolShape.md) page to create a custom tool shape.
+   *   Follow the instructions outlined in the [Usage](Path_ToolShape#Usage.md) section of the [Tool Shape](Path_ToolShape.md) page to create a custom tool shape.
 
 ### Load or create a ToolBit 
 
 Once the desired tool shape(profile) exists, you need to create a [tool bit](Path_ToolBit.md) using the tool shape (profile).
 
-1.  In the <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md) menu bar, navigate to **Path → Create Tool**.
+1.  In the <img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [Path Workbench](Path_Workbench.md) menu bar, navigate to **Path → Create Tool**.
 2.  In the [Tool Bit](Path_ToolBit.md) creation task panel that appears, give the new tool bit a name and select the corresponding tool shape file as the basis for this new tool bit.
 3.  A thumbnail of the selected tool shape should appear along with a list of parameters.
 4.  Set the Bit Parameters as desired.
@@ -91,7 +91,7 @@ Once the desired tool shape(profile) exists, you need to create a [tool bit](Pat
 ### Save the new ToolBit 
 
 1.  Locate and select the new tool bit in the object tree in the main FreeCAD window.
-2.  In the <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md) menu bar, navigate to, and select, **Path → Save Tool as...**.
+2.  In the <img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [Path Workbench](Path_Workbench.md) menu bar, navigate to, and select, **Path → Save Tool as...**.
 3.  A pop-up window will appear.
 4.  Navigate to the folder where you wish to save the new tool bit file.
 5.  Enter a file name for the tool bit.
@@ -99,7 +99,7 @@ Once the desired tool shape(profile) exists, you need to create a [tool bit](Pat
 
 ### Register the ToolBit in a Tool Library 
 
-1.  In the <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md) menu bar, navigate to **Path → Open ToolBit Library editor**.
+1.  In the <img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [Path Workbench](Path_Workbench.md) menu bar, navigate to **Path → Open ToolBit Library editor**.
 2.  The [ToolBit Library Manager](Path_ToolBitLibraryOpen.md) window will open.
 3.  At the top of this window, verify or set the path to the folder containing your existing tool libraries, or the location you want to store your tool libraries.
 4.  Under the path entry, on the left is the Tool Libraries list area. Click on an existing tool library you wish to use as the destination for your new tool bit, or click the green plus icon to create new Tool Library in the folder identified above.

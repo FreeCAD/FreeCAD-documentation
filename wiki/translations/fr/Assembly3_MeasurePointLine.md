@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 MeasurePointLine
-   Name/fr:Assembly3 Mesure point à la ligne
-   Icon:Assembly_MeasurePointLineDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 MeasurePointLine
+   Name/fr   *Assembly3 Mesure point à la ligne
+   Icon   *Assembly_MeasurePointLineDistance.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 MeasurePointLine/fr

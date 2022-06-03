@@ -10,7 +10,7 @@ FreeCAD может импортироваться как модуль [Python](P
 
 <div class="mw-translate-fuzzy">
 
-Одно из первых, простых, прямой и полезных приложений , вы можете создать чтобы импортировать FreeCAD документы в ващу программу. В следующем примере, мы импортируем Part геометрию FreeCAD документа в [blender](http://www.blender.org). Это готовый сценарий. Я надеюсь вы будете поражены его простотой:
+Одно из первых, простых, прямой и полезных приложений , вы можете создать чтобы импортировать FreeCAD документы в ващу программу. В следующем примере, мы импортируем Part геометрию FreeCAD документа в [blender](http   *//www.blender.org). Это готовый сценарий. Я надеюсь вы будете поражены его простотой   *
 
 
 </div>
@@ -22,35 +22,35 @@ FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
 import Blender, sys
 sys.path.append(FREECADPATH)
  
-def import_fcstd(filename):
-   try:
+def import_fcstd(filename)   *
+   try   *
        import FreeCAD
-   except ValueError:
+   except ValueError   *
        Blender.Draw.PupMenu('Error%t|FreeCAD library not found. Please check the FREECADPATH variable in the import script is correct')
-   else:
+   else   *
        scene = Blender.Scene.GetCurrent()
        import Part
        doc = FreeCAD.open(filename)
        objects = doc.Objects
-       for ob in objects:
-           if ob.Type[:4] == 'Part':
+       for ob in objects   *
+           if ob.Type[   *4] == 'Part'   *
                shape = ob.Shape
-               if shape.Faces:
+               if shape.Faces   *
                    mesh = Blender.Mesh.New()
                    rawdata = shape.tessellate(1)
-                   for v in rawdata[0]:
+                   for v in rawdata[0]   *
                        mesh.verts.append((v.x,v.y,v.z))
-                   for f in rawdata[1]:
+                   for f in rawdata[1]   *
                        mesh.faces.append.append(f)
                    scene.objects.new(mesh,ob.Name)
        Blender.Redraw()
 
-def main():
+def main()   *
    Blender.Window.FileSelector(import_fcstd, 'IMPORT FCSTD', 
                         Blender.sys.makename(ext='.fcstd'))    
  
 # This lets you import the script without running it
-if __name__=='__main__':
+if __name__=='__main__'   *
    main()
 </nowiki>
 }}
@@ -83,22 +83,22 @@ sys.path.append(FREECADPATH)
        import Part
        doc = FreeCAD.open(filename)
        objects = doc.Objects
-       for ob in objects:
-           if ob.Type[:4] == 'Part':
+       for ob in objects   *
+           if ob.Type[   *4] == 'Part'   *
 }}
 
 Трансляция(tesselation- преобразование в сетку) произвела список вершин и список граней, заданных индексами вершин.Это идеальный вариант, так как он точно аналогично блендеру задает сетки. Таким образом, наша задача до смешного проста, мы просто добавим оба списка содержащих вершины и грани в блендере сетку. Когда все будет сделано, мы просто перерисуем экран, и вот оно!
 
 
 {{Code|lang=python|code=
-           if ob.Type[:4] == 'Part':
+           if ob.Type[   *4] == 'Part'   *
                shape = ob.Shape
-               if shape.Faces:
+               if shape.Faces   *
                    mesh = Blender.Mesh.New()
                    rawdata = shape.tessellate(1)
-                   for v in rawdata[0]:
+                   for v in rawdata[0]   *
                        mesh.verts.append((v.x,v.y,v.z))
-                   for f in rawdata[1]:
+                   for f in rawdata[1]   *
                        mesh.faces.append.append(f)
                    scene.objects.new(mesh,ob.Name)
        Blender.Redraw()
@@ -107,13 +107,13 @@ sys.path.append(FREECADPATH)
 
 <div class="mw-translate-fuzzy">
 
-Конечно этот сценарий очень прост (в действительности я создал более продвинутый [здесь](http://yorik.orgfree.com/scripts/import_freecad.py)), вы можете продолжить его, например импортирвав также полигиональные объекты, или импортировав Part геометрию которая не обладает гранями, или импортировав другие файловые форматы которые может читать FreeCAD. Вы также можете экспортировать геометрию в FreeCAD документ, что можно сделать схожим образом. Вы также можете создать диолог, где пользователь может выбрать что импортировать и.т.д\... Красота всего этого заключается в том, что вы позволяете FreeCAD делать фоновую работу вто время как его результаты представляются в программе по вашему выбору.
+Конечно этот сценарий очень прост (в действительности я создал более продвинутый [здесь](http   *//yorik.orgfree.com/scripts/import_freecad.py)), вы можете продолжить его, например импортирвав также полигиональные объекты, или импортировав Part геометрию которая не обладает гранями, или импортировав другие файловые форматы которые может читать FreeCAD. Вы также можете экспортировать геометрию в FreeCAD документ, что можно сделать схожим образом. Вы также можете создать диолог, где пользователь может выбрать что импортировать и.т.д\... Красота всего этого заключается в том, что вы позволяете FreeCAD делать фоновую работу вто время как его результаты представляются в программе по вашему выбору.
 
 
 </div>
 
 
-**Note:**
+**Note   ***
 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
@@ -141,16 +141,21 @@ FreeCADGui.showMainWindow()
 
 Although it is possible to import FreeCAD to an external Python interpreter, this is not a common usage scenario and requires some care. Generally, it is better to use the Python included with FreeCAD, run FreeCAD via command line, or as a subprocess. See [Start up and Configuration](Start_up_and_Configuration.md) for more on the last two options.
 
-Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows: 
+Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows   * 
 ```python
 >>> import sys
 >>> sys.version
-'2.7.13 (default, Dec 17 2016, 23:03:43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
+'2.7.13 (default, Dec 17 2016, 23   *03   *43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
 ```
 
 ## Related
 
 -   [Headless FreeCAD](Headless_FreeCAD.md)
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

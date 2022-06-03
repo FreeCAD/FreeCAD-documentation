@@ -1,19 +1,19 @@
 ---
-- GuiCommand:/pl
-   Name:Draft Apply
-   Name/pl:Rysunek Roboczy: Zastosuj bieżący styl
-   MenuLocation:Przybory → Zastosuj bieżący styl
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Ustaw styl](Draft_SetStyle/pl.md)
+- GuiCommand   */pl
+   Name   *Draft Apply
+   Name/pl   *Rysunek Roboczy   * Zastosuj bieżący styl
+   MenuLocation   *Przybory → Zastosuj bieżący styl
+   Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso   *[Ustaw styl](Draft_SetStyle/pl.md)
 ---
 
 # Draft ApplyStyle/pl
 
 ## Opis
 
-Polecenie środowiska Rysunek Roboczy <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Zastosuj bieżący styl** stosuje bieżące ustawienia stylu do wybranych obiektów.
+Polecenie środowiska Rysunek Roboczy <img alt="" src=images/Draft_ApplyStyle.svg  style="width   *24px;"> **Zastosuj bieżący styl** stosuje bieżące ustawienia stylu do wybranych obiektów.
 
-To polecenie obsługuje obecnie tylko pięć ustawień:
+To polecenie obsługuje obecnie tylko pięć ustawień   *
 
 -    **Kolor linii**
     

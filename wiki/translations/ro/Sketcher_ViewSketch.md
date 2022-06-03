@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/ro
 ---
-- GuiCommand:/ro   Name:Sketcher ViewSketch   Name/ro:Sketcher ViewSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch → View sketch---
+- GuiCommand   */ro   Name   *Sketcher ViewSketch   Name/ro   *Sketcher ViewSketch   Workbenches   *[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation   *Sketch → View sketch---
 
 
 </div>
@@ -22,7 +22,7 @@ Acest instrument definește modelul vederii perpendicular pe planul schiței. It
 
 Atunci când Sketch este în edit mode, sau
 
--   Click pe iconița **[16px|View sketch icon](File:Sketcher_ViewSketch.png.md)'''View Sketch'''** în Sketcher sau bara de instrumente Part Design, sau
+-   Click pe iconița **[16px|View sketch icon](File   *Sketcher_ViewSketch.png.md)'''View Sketch'''** în Sketcher sau bara de instrumente Part Design, sau
 -   mergeți la meniul **Sketcher → View sketch** .
 
 

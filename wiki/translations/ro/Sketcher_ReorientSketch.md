@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Sketcher Reorient
-   Empty:1
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   MenuLocation:Part design → Reorient sketch
-   SeeAlso:[Map sketch](Sketcher_MapSketch.md), [New Sketch](Sketcher_NewSketch.md)
+- GuiCommand   *
+   Name   *Sketcher Reorient
+   Empty   *1
+   Workbenches   *[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   MenuLocation   *Part design → Reorient sketch
+   SeeAlso   *[Map sketch](Sketcher_MapSketch.md), [New Sketch](Sketcher_NewSketch.md)
 ---
 
 # Sketcher ReorientSketch/ro
@@ -28,17 +28,17 @@ Vă permite să detașați o schiță de pe o fațetă și să o atașați la un
 5.  Puteți să atașați o schiță pe unul dintre planurile principale
 6.  Aveți și posibilitatea să adăugați o deplasare pozitivă sau negativă (offset).
 
-[left\|Fenêtre de sélection du plan](IMAGE:Sketcher_New_it.png.md)
+[left\|Fenêtre de sélection du plan](IMAGE   *Sketcher_New_it.png.md)
 Orientarea schiței
 
-* Planul XY [24px](IMAGE:View-top.svg.md)
-* Planul XZ [24px](IMAGE:View-front.svg.md)
-* Planul YZ [24px](IMAGE:View-right.svg.md)
+* Planul XY [24px](IMAGE   *View-top.svg.md)
+* Planul XZ [24px](IMAGE   *View-front.svg.md)
+* Planul YZ [24px](IMAGE   *View-right.svg.md)
 
 
 
 -   **Inversare Direcției** vizualizării din plan, de exemplu de sus sau de jos.
--   **Offset**: a da o deplasarea planului în raport cu coordonatele originii **X=0 Y=0 et Z=0**.
+-   **Offset**   * a da o deplasarea planului în raport cu coordonatele originii **X=0 Y=0 et Z=0**.
 
 
 

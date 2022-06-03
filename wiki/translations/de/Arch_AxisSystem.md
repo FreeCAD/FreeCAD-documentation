@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Arch AxisSystem
-   Name/de:Arch AchsenSystem
-   Icon:Arch Axis System.svg
-   MenuLocation:Arch → Achsen System
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Achse](Arch_Axis/de.md), [Arch Gitter](Arch_Grid/de.md)
+- GuiCommand   */de
+   Name   *Arch AxisSystem
+   Name/de   *Arch AchsenSystem
+   Icon   *Arch Axis System.svg
+   MenuLocation   *Arch → Achsen System
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   SeeAlso   *[Arch Achse](Arch_Axis/de.md), [Arch Gitter](Arch_Grid/de.md)
 ---
 
 # Arch AxisSystem/de
@@ -19,7 +19,7 @@ Das [AchsenSystem](Arch_AxisSystem/de.md) Werkzeug ermöglicht dir zwei oder dre
 
 Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen zu definieren.Arch Objekte können dann dieses System verwenden, um ihre Form an den verschiedenen Schnittpunkten zu duplizieren.
 
-<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -64,7 +64,7 @@ Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen zu de
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -74,7 +74,7 @@ Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen zu de
 
 <div class="mw-translate-fuzzy">
 
-Das Versatzwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, indem die folgende Funktion verwendet wird:
+Das Versatzwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, indem die folgende Funktion verwendet wird   *
 
 
 </div>
@@ -92,7 +92,7 @@ AxisSystem = makeAxisSystem(axes, name="Axis System")
 
 </div>
 
-Beispiel: 
+Beispiel   * 
 ```python
 import Draft, Arch
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Rebar BOM
-   Name/fr:Arch Rebar Nomenclature armature
-   MenuLocation:Reinforcement → Bill Of Material
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Reinforcement Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md), [Arch Rebar Dimensions des armatures](Arch_Rebar_Drawing_Dimensioning/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Rebar BOM
+   Name/fr   *Arch Rebar Nomenclature armature
+   MenuLocation   *Reinforcement → Bill Of Material
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/fr.md), [Reinforcement Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md), [Arch Rebar Dimensions des armatures](Arch_Rebar_Drawing_Dimensioning/fr.md)
 ---
 
 # Arch Rebar BOM/fr
@@ -14,9 +14,9 @@
 
 L\'outil [Nomenclature (BOM)](Arch_Rebar_BOM/fr.md) permet à l\'utilisateur de créer une nomenclature de barres d\'armature.
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
+<img alt="" src=images/Arch_Rebar_BOM_example.png  style="width   *1000px;">
 
 
 
@@ -30,7 +30,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 3\. Une boîte de dialogue apparaîtra à l\'écran, comme indiqué ci-dessous.
 
-<img alt="" src=images/BOMDialog_General.png  style="width:500px;">
+<img alt="" src=images/BOMDialog_General.png  style="width   *500px;">
 
 
 
@@ -40,7 +40,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 5\. Pour modifier la **<img src="images/Arch_Rebar_BOM.svg" width=16px> [Bill Of Material](Arch_Rebar_BOM/fr.md)** des configurations SVG, cliquez sur **Edit SVG Configurations**. Une boîte de dialogue apparaîtra comme illustré ci-dessous.
 
-<img alt="" src=images/BOMDialog_SVG.png  style="width:500px;">
+<img alt="" src=images/BOMDialog_SVG.png  style="width   *500px;">
 
 
 
@@ -54,54 +54,54 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
-**Général:**
+**Général   ***
 
--    {{PropertyData/fr|Column Headers}}: dictionnaire avec column\_data comme clé et tuple (column\_display\_header, column\_sequence) comme valeur.
+-    {{PropertyData/fr|Column Headers}}   * dictionnaire avec column\_data comme clé et tuple (column\_display\_header, column\_sequence) comme valeur.
 
--    {{PropertyData/fr|Column Units}}: dictionnaire avec des clés : \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
+-    {{PropertyData/fr|Column Units}}   * dictionnaire avec des clés    * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
 
--    {{PropertyData/fr|Diameter Weight Map}}: dictionnaire avec le diamètre comme clé et le poids correspondant comme valeur.
+-    {{PropertyData/fr|Diameter Weight Map}}   * dictionnaire avec le diamètre comme clé et le poids correspondant comme valeur.
 
--    {{PropertyData/fr|Rebar Length Type}}: type de longueur d\'armature spécifie le type de longueur d\'armature utilisé pour les calculs de nomenclature, c\'est-à-dire \"RealLength\" ou \"LengthWithSharpEdges\".
+-    {{PropertyData/fr|Rebar Length Type}}   * type de longueur d\'armature spécifie le type de longueur d\'armature utilisé pour les calculs de nomenclature, c\'est-à-dire \"RealLength\" ou \"LengthWithSharpEdges\".
 
--    {{PropertyData/fr|Rebar Objects}}: liste d\'objets ArchRebar et/ou rebar2 et/ou structures (pour sélectionner ArchRebar dans cette structure).
+-    {{PropertyData/fr|Rebar Objects}}   * liste d\'objets ArchRebar et/ou rebar2 et/ou structures (pour sélectionner ArchRebar dans cette structure).
 
-**SVG :**
+**SVG    ***
 
--    {{PropertyData/fr|Font Family}}: famille de polices de texte dans la table BOM SVG.
+-    {{PropertyData/fr|Font Family}}   * famille de polices de texte dans la table BOM SVG.
 
--    {{PropertyData/fr|Font Filename}}: nom de fichier de police correspondant à la famille de polices requise en mode console.
+-    {{PropertyData/fr|Font Filename}}   * nom de fichier de police correspondant à la famille de polices requise en mode console.
 
--    {{PropertyData/fr|Font Size}}: taille de police en mm.
+-    {{PropertyData/fr|Font Size}}   * taille de police en mm.
 
--    {{PropertyData/fr|Column Width}}: largeur de chaque colonne dans la table BOM SVG.
+-    {{PropertyData/fr|Column Width}}   * largeur de chaque colonne dans la table BOM SVG.
 
--    {{PropertyData/fr|Row Height}}: hauteur de chaque ligne dans la table BOM SVG.
+-    {{PropertyData/fr|Row Height}}   * hauteur de chaque ligne dans la table BOM SVG.
 
--    {{PropertyData/fr|Left Offset}}: décalage gauche de la table BOM SVG.
+-    {{PropertyData/fr|Left Offset}}   * décalage gauche de la table BOM SVG.
 
--    {{PropertyData/fr|Top Offset}}: décalage supérieur de la table BOM SVG.
+-    {{PropertyData/fr|Top Offset}}   * décalage supérieur de la table BOM SVG.
 
--    {{PropertyData/fr|Minimum Right Offset}}: décalage minimal à droite de la table BOM SVG.
+-    {{PropertyData/fr|Minimum Right Offset}}   * décalage minimal à droite de la table BOM SVG.
 
--    {{PropertyData/fr|Minimum Bottom Offset}}: décalage inférieur minimum de la table BOM SVG.
+-    {{PropertyData/fr|Minimum Bottom Offset}}   * décalage inférieur minimum de la table BOM SVG.
 
--    {{PropertyData/fr|Maximum Width}}: largeur maximale de la table BOM SVG.
+-    {{PropertyData/fr|Maximum Width}}   * largeur maximale de la table BOM SVG.
 
--    {{PropertyData/fr|Maximum Height}}: hauteur maximale de la table BOM SVG.
+-    {{PropertyData/fr|Maximum Height}}   * hauteur maximale de la table BOM SVG.
 
--    {{PropertyData/fr|Template File}}: fichier svg de modèle pour BOM SVG.
+-    {{PropertyData/fr|Template File}}   * fichier svg de modèle pour BOM SVG.
 
--    {{PropertyData/fr|Output File}}: fichier de sortie SVG BOM.
+-    {{PropertyData/fr|Output File}}   * fichier de sortie SVG BOM.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil [Bill Of Material](Arch_Rebar_BOM/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes :
+L\'outil [Bill Of Material](Arch_Rebar_BOM/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes    *
 
 ### Créer une feuille de nomenclature 
 
@@ -120,33 +120,33 @@ bom_spreadsheet = makeBillOfMaterial(
 -   Crée un `RebarBillOfMaterial` objet de feuille de calcul pour un `rebar_objects` donné.
     -   Si la liste `rebar_objects` est vide, la feuille de calcul `RebarBillOfMaterial` sera créée pour toutes les armatures d\'un modèle.
 
--    `column_headers`est un dictionnaire avec des clés : \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont des tuple de column\_header et leur numéro de séquence.
+-    `column_headers`est un dictionnaire avec des clés    * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont des tuple de column\_header et leur numéro de séquence.
 
-   Exemple : {
-                "Host": ("Member", 1),
-                "Mark": ("Mark", 2),
-                "RebarsCount": ("No. of Rebars", 3),
-                "Diameter": ("Diameter in mm", 4),
-                "RebarLength": ("Length in m/piece", 5),
-                "RebarsTotalLength": ("Total Length in m", 6),
+   Exemple    * {
+                "Host"   * ("Member", 1),
+                "Mark"   * ("Mark", 2),
+                "RebarsCount"   * ("No. of Rebars", 3),
+                "Diameter"   * ("Diameter in mm", 4),
+                "RebarLength"   * ("Length in m/piece", 5),
+                "RebarsTotalLength"   * ("Total Length in m", 6),
             }
             mettez le numéro de séquence de la colonne à 0 pour cacher la colonne.
 
--    `column_units`est un dictionnaire avec des clés : \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
+-    `column_units`est un dictionnaire avec des clés    * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
 
-   Exemple : {
-                "Diameter": "mm",
-                "RebarLength": "m",
-                "RebarsTotalLength": "m",
+   Exemple    * {
+                "Diameter"   * "mm",
+                "RebarLength"   * "m",
+                "RebarsTotalLength"   * "m",
             }
 
 -    `dia_weight_map`est un dictionnaire dont le diamètre est la clé et le poids correspondant la valeur.
 
-   Syntaxe : {
-                6: FreeCAD.Units.Quantity("0.222 kg/m"),
-                8: FreeCAD.Units.Quantity("0.395 kg/m"),
-                10: FreeCAD.Units.Quantity("0.617 kg/m"),
-                12: FreeCAD.Units.Quantity("0.888 kg/m"),
+   Syntaxe    * {
+                6   * FreeCAD.Units.Quantity("0.222 kg/m"),
+                8   * FreeCAD.Units.Quantity("0.395 kg/m"),
+                10   * FreeCAD.Units.Quantity("0.617 kg/m"),
+                12   * FreeCAD.Units.Quantity("0.888 kg/m"),
                 ...,
             }
 
@@ -226,37 +226,37 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 )
 
 COLUMN_UNITS = {
-    "Diameter": "mm",
-    "RebarLength": "m",
-    "RebarsTotalLength": "m",
+    "Diameter"   * "mm",
+    "RebarLength"   * "m",
+    "RebarsTotalLength"   * "m",
 }
 
 COLUMN_HEADERS = {
-    "Host": ("Member", 1),
-    "Mark": ("Mark", 2),
-    "RebarsCount": ("No. of Rebars", 3),
-    "Diameter": ("Diameter in " + COLUMN_UNITS["Diameter"], 4),
-    "RebarLength": ("Length in " + COLUMN_UNITS["RebarLength"] + "/piece", 5),
-    "RebarsTotalLength": ("Total Length in " + COLUMN_UNITS["RebarsTotalLength"], 6),
+    "Host"   * ("Member", 1),
+    "Mark"   * ("Mark", 2),
+    "RebarsCount"   * ("No. of Rebars", 3),
+    "Diameter"   * ("Diameter in " + COLUMN_UNITS["Diameter"], 4),
+    "RebarLength"   * ("Length in " + COLUMN_UNITS["RebarLength"] + "/piece", 5),
+    "RebarsTotalLength"   * ("Total Length in " + COLUMN_UNITS["RebarsTotalLength"], 6),
 }
 
 DIA_WEIGHT_MAP = {
-    6: FreeCAD.Units.Quantity("0.222 kg/m"),
-    8: FreeCAD.Units.Quantity("0.395 kg/m"),
-    10: FreeCAD.Units.Quantity("0.617 kg/m"),
-    12: FreeCAD.Units.Quantity("0.888 kg/m"),
-    14: FreeCAD.Units.Quantity("1.206 kg/m"),
-    16: FreeCAD.Units.Quantity("1.578 kg/m"),
-    18: FreeCAD.Units.Quantity("2.000 kg/m"),
-    20: FreeCAD.Units.Quantity("2.466 kg/m"),
-    22: FreeCAD.Units.Quantity("2.980 kg/m"),
-    25: FreeCAD.Units.Quantity("3.854 kg/m"),
-    28: FreeCAD.Units.Quantity("4.830 kg/m"),
-    32: FreeCAD.Units.Quantity("6.313 kg/m"),
-    36: FreeCAD.Units.Quantity("7.990 kg/m"),
-    40: FreeCAD.Units.Quantity("9.864 kg/m"),
-    45: FreeCAD.Units.Quantity("12.490 kg/m"),
-    50: FreeCAD.Units.Quantity("15.410 kg/m"),
+    6   * FreeCAD.Units.Quantity("0.222 kg/m"),
+    8   * FreeCAD.Units.Quantity("0.395 kg/m"),
+    10   * FreeCAD.Units.Quantity("0.617 kg/m"),
+    12   * FreeCAD.Units.Quantity("0.888 kg/m"),
+    14   * FreeCAD.Units.Quantity("1.206 kg/m"),
+    16   * FreeCAD.Units.Quantity("1.578 kg/m"),
+    18   * FreeCAD.Units.Quantity("2.000 kg/m"),
+    20   * FreeCAD.Units.Quantity("2.466 kg/m"),
+    22   * FreeCAD.Units.Quantity("2.980 kg/m"),
+    25   * FreeCAD.Units.Quantity("3.854 kg/m"),
+    28   * FreeCAD.Units.Quantity("4.830 kg/m"),
+    32   * FreeCAD.Units.Quantity("6.313 kg/m"),
+    36   * FreeCAD.Units.Quantity("7.990 kg/m"),
+    40   * FreeCAD.Units.Quantity("9.864 kg/m"),
+    45   * FreeCAD.Units.Quantity("12.490 kg/m"),
+    50   * FreeCAD.Units.Quantity("15.410 kg/m"),
 }
 
 # Créer une feuille de nomenclature pour toutes les armatures d'un modèle
@@ -283,61 +283,61 @@ BillOfMaterial_Spreadsheet.makeBillOfMaterial(
 
 ```python
 makeBillOfMaterialSVG(
-    column_headers: Optional[Dict[str, Tuple[str, int]]] = None,
-    column_units: Optional[Dict[str, str]] = None,
-    dia_weight_map: Optional[Dict[float, FreeCAD.Units.Quantity]] = None,
-    rebar_length_type: Optional[
+    column_headers   * Optional[Dict[str, Tuple[str, int]]] = None,
+    column_units   * Optional[Dict[str, str]] = None,
+    dia_weight_map   * Optional[Dict[float, FreeCAD.Units.Quantity]] = None,
+    rebar_length_type   * Optional[
         Literal["RealLength", "LengthWithSharpEdges"]
     ] = None,
-    font_family: Optional[str] = None,
-    font_filename: Optional[str] = None,
-    font_size: Optional[float] = None,
-    column_width: Optional[float] = None,
-    row_height: Optional[float] = None,
-    bom_left_offset: Optional[float] = None,
-    bom_top_offset: Optional[float] = None,
-    bom_min_right_offset: Optional[float] = None,
-    bom_min_bottom_offset: Optional[float] = None,
-    bom_table_svg_max_width: Optional[float] = None,
-    bom_table_svg_max_height: Optional[float] = None,
-    template_file: Optional[str] = None,
-    output_file: Optional[str] = None,
-    rebar_objects: Optional[List] = None,
-    reinforcement_group_by: Optional[Literal["Mark", "Host"]] = None,
-    return_svg_only: bool = False,
+    font_family   * Optional[str] = None,
+    font_filename   * Optional[str] = None,
+    font_size   * Optional[float] = None,
+    column_width   * Optional[float] = None,
+    row_height   * Optional[float] = None,
+    bom_left_offset   * Optional[float] = None,
+    bom_top_offset   * Optional[float] = None,
+    bom_min_right_offset   * Optional[float] = None,
+    bom_min_bottom_offset   * Optional[float] = None,
+    bom_table_svg_max_width   * Optional[float] = None,
+    bom_table_svg_max_height   * Optional[float] = None,
+    template_file   * Optional[str] = None,
+    output_file   * Optional[str] = None,
+    rebar_objects   * Optional[List] = None,
+    reinforcement_group_by   * Optional[Literal["Mark", "Host"]] = None,
+    return_svg_only   * bool = False,
 ) -> BOMContent
 ```
 
 -   Crée et renvoie un objet RebarBillOfMaterial\_SVG `BOMContent` pour un `rebar_objects` donné.
     -   Si la liste `rebar_objects` est vide, alors l\'objet `BOMContent` sera créé pour toutes les armatures d\'un modèle.
 
--    `column_headers`est un dictionnaire avec les clés : \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont un tuple de column\_header et leur numéro de séquence.
+-    `column_headers`est un dictionnaire avec les clés    * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont un tuple de column\_header et leur numéro de séquence.
 
-   Exemple : {
-                "Host": ("Member", 1),
-                "Mark": ("Mark", 2),
-                "RebarsCount": ("No. of Rebars", 3),
-                "Diameter": ("Diameter in mm", 4),
-                "RebarLength": ("Length in m/piece", 5),
-                "RebarsTotalLength": ("Total Length in m", 6),
+   Exemple    * {
+                "Host"   * ("Member", 1),
+                "Mark"   * ("Mark", 2),
+                "RebarsCount"   * ("No. of Rebars", 3),
+                "Diameter"   * ("Diameter in mm", 4),
+                "RebarLength"   * ("Length in m/piece", 5),
+                "RebarsTotalLength"   * ("Total Length in m", 6),
             }
             mettez le numéro de séquence de la colonne sur 0 pour masquer la colonne.
 
--    `column_units`est un dictionnaire avec les clés : \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
+-    `column_units`est un dictionnaire avec les clés    * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
 
-   Exemple : {
-                "Diameter": "mm",
-                "RebarLength": "m",
-                "RebarsTotalLength": "m",
+   Exemple    * {
+                "Diameter"   * "mm",
+                "RebarLength"   * "m",
+                "RebarsTotalLength"   * "m",
             }
 
 -    `dia_weight_map`est un dictionnaire avec le diamètre comme clé et le poids correspondant comme valeur.
 
-   Syntaxe : {
-                6: FreeCAD.Units.Quantity("0.222 kg/m"),
-                8: FreeCAD.Units.Quantity("0.395 kg/m"),
-                10: FreeCAD.Units.Quantity("0.617 kg/m"),
-                12: FreeCAD.Units.Quantity("0.888 kg/m"),
+   Syntaxe    * {
+                6   * FreeCAD.Units.Quantity("0.222 kg/m"),
+                8   * FreeCAD.Units.Quantity("0.395 kg/m"),
+                10   * FreeCAD.Units.Quantity("0.617 kg/m"),
+                12   * FreeCAD.Units.Quantity("0.888 kg/m"),
                 ...,
             }
 
@@ -448,37 +448,37 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 )
 
 COLUMN_UNITS = {
-    "Diameter": "mm",
-    "RebarLength": "m",
-    "RebarsTotalLength": "m",
+    "Diameter"   * "mm",
+    "RebarLength"   * "m",
+    "RebarsTotalLength"   * "m",
 }
 
 COLUMN_HEADERS = {
-    "Host": ("Member", 1),
-    "Mark": ("Mark", 2),
-    "RebarsCount": ("No. of Rebars", 3),
-    "Diameter": ("Diameter in " + COLUMN_UNITS["Diameter"], 4),
-    "RebarLength": ("Length in " + COLUMN_UNITS["RebarLength"] + "/piece", 5),
-    "RebarsTotalLength": ("Total Length in " + COLUMN_UNITS["RebarsTotalLength"], 6),
+    "Host"   * ("Member", 1),
+    "Mark"   * ("Mark", 2),
+    "RebarsCount"   * ("No. of Rebars", 3),
+    "Diameter"   * ("Diameter in " + COLUMN_UNITS["Diameter"], 4),
+    "RebarLength"   * ("Length in " + COLUMN_UNITS["RebarLength"] + "/piece", 5),
+    "RebarsTotalLength"   * ("Total Length in " + COLUMN_UNITS["RebarsTotalLength"], 6),
 }
 
 DIA_WEIGHT_MAP = {
-    6: FreeCAD.Units.Quantity("0.222 kg/m"),
-    8: FreeCAD.Units.Quantity("0.395 kg/m"),
-    10: FreeCAD.Units.Quantity("0.617 kg/m"),
-    12: FreeCAD.Units.Quantity("0.888 kg/m"),
-    14: FreeCAD.Units.Quantity("1.206 kg/m"),
-    16: FreeCAD.Units.Quantity("1.578 kg/m"),
-    18: FreeCAD.Units.Quantity("2.000 kg/m"),
-    20: FreeCAD.Units.Quantity("2.466 kg/m"),
-    22: FreeCAD.Units.Quantity("2.980 kg/m"),
-    25: FreeCAD.Units.Quantity("3.854 kg/m"),
-    28: FreeCAD.Units.Quantity("4.830 kg/m"),
-    32: FreeCAD.Units.Quantity("6.313 kg/m"),
-    36: FreeCAD.Units.Quantity("7.990 kg/m"),
-    40: FreeCAD.Units.Quantity("9.864 kg/m"),
-    45: FreeCAD.Units.Quantity("12.490 kg/m"),
-    50: FreeCAD.Units.Quantity("15.410 kg/m"),
+    6   * FreeCAD.Units.Quantity("0.222 kg/m"),
+    8   * FreeCAD.Units.Quantity("0.395 kg/m"),
+    10   * FreeCAD.Units.Quantity("0.617 kg/m"),
+    12   * FreeCAD.Units.Quantity("0.888 kg/m"),
+    14   * FreeCAD.Units.Quantity("1.206 kg/m"),
+    16   * FreeCAD.Units.Quantity("1.578 kg/m"),
+    18   * FreeCAD.Units.Quantity("2.000 kg/m"),
+    20   * FreeCAD.Units.Quantity("2.466 kg/m"),
+    22   * FreeCAD.Units.Quantity("2.980 kg/m"),
+    25   * FreeCAD.Units.Quantity("3.854 kg/m"),
+    28   * FreeCAD.Units.Quantity("4.830 kg/m"),
+    32   * FreeCAD.Units.Quantity("6.313 kg/m"),
+    36   * FreeCAD.Units.Quantity("7.990 kg/m"),
+    40   * FreeCAD.Units.Quantity("9.864 kg/m"),
+    45   * FreeCAD.Units.Quantity("12.490 kg/m"),
+    50   * FreeCAD.Units.Quantity("15.410 kg/m"),
 }
 
 # Créer une feuille de nomenclature SVG pour toutes les armatures d'un modèle
@@ -525,6 +525,11 @@ BillOfMaterial_SVG.makeBillOfMaterialSVG(
     reinforcement_group_by = "Host",
 )
 ```
+
+
+
+
+[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

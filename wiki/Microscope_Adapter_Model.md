@@ -27,30 +27,32 @@ The clamp at the GoPro end is different than the microscope end because of the s
 
 # Environment
 
-    OS: Windows 10 (10.0)
-    Word size of OS: 64-bit
-    Word size of FreeCAD: 64-bit
-    Version: 0.19.23141 (Git)
-    Build type: Release
-    Branch: master
-    Hash: 0eba78d40096720f7a637a9a73c382a08b820bca
-    Python version: 3.6.8
-    Qt version: 5.12.1
-    Coin version: 4.0.0a
-    OCC version: 7.3.0
-    Locale: English/United States (en_US)
+    OS   * Windows 10 (10.0)
+    Word size of OS   * 64-bit
+    Word size of FreeCAD   * 64-bit
+    Version   * 0.19.23141 (Git)
+    Build type   * Release
+    Branch   * master
+    Hash   * 0eba78d40096720f7a637a9a73c382a08b820bca
+    Python version   * 3.6.8
+    Qt version   * 5.12.1
+    Coin version   * 4.0.0a
+    OCC version   * 7.3.0
+    Locale   * English/United States (en_US)
 
 # Model Source 
 
--   [Source at Gitlab](https://gitlab.com/russhensel/freecadtest/-/blob/master/mscope_adapter_3.FCStd)
+-   [Source at Gitlab](https   *//gitlab.com/russhensel/freecadtest/-/blob/master/mscope_adapter_3.FCStd)
 
 # Links to Related Material 
 
 -   **Use What Links Here ( to the left of the page )**
 -   **[Best Practices with SpreadSheets](Best_Practices_with_SpreadSheets.md)**
--   **[Spreadsheet Workbench - FreeCAD Documentation](https://wiki.freecadweb.org/Spreadsheet_Workbench)**
+-   **[Spreadsheet Workbench - FreeCAD Documentation](https   *//wiki.freecadweb.org/Spreadsheet_Workbench)**
 
 and perhaps add category Model and Best Practice
+
+[Category   *Sandbox‏‎](Category   *Sandbox‏‎.md)
 
 
 

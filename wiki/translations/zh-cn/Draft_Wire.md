@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:Draft Wire
-   MenuLocation:Drafting → Polyline
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**P** **L**
-   Version:0.7
-   SeeAlso:[Draft Line](Draft_Line.md), [Draft BSpline](Draft_BSpline.md)
+- GuiCommand   *
+   Name   *Draft Wire
+   MenuLocation   *Drafting → Polyline
+   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut   ***P** **L**
+   Version   *0.7
+   SeeAlso   *[Draft Line](Draft_Line.md), [Draft BSpline](Draft_BSpline.md)
 ---
 
 # Draft Wire/zh-cn
@@ -24,14 +24,14 @@
 
 The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide the edges of a Draft Wire by changing its **Subdivisions** property.
 
-<img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Polyline_example.jpg  style="width   *400px;"> 
 *多点定一连线*
 
 ## Create
 
 ### Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -65,8 +65,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   按**T**键或点击continue多选框切换至*连续（绘制）*模式。若开启了连续模式，则连线工具在绘制一条连线后会自动重启，即允许您在不用点击连线工具的情况下，继续绘制下一条连线。
 -   按**L**键或点击filled多选框切换至*填充*模式。若开启了填充模式，则一条闭合的连线将创建出一个填充面(**Make Face** `True`); 否则，闭合的连线将不会创建出一个面(**Make Face** `False`)。
 
-:   
-    **请注意:**若连线存在自相交的情况，便不能对其进行填充存在，因为它将无法创建对应真面（proper face）。如果对连线填充后却无法看到它本身的形状，就手动将**Make Face**设置为`False`来查看连线。
+   *   
+    **请注意   ***若连线存在自相交的情况，便不能对其进行填充存在，因为它将无法创建对应真面（proper face）。如果对连线填充后却无法看到它本身的形状，就手动将**Make Face**设置为`False`来查看连线。
 
 -   按住**Ctrl**键，将当前所绘点强制放在与之最近的[捕捉位置处](Draft_Snap.md)。
 -   按住**Shift**键，将下一个点的位置[约束于上一个的水平方向或垂直方向上](Draft_Constrain.md)。
@@ -82,10 +82,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 1.  The end points of the [Draft Lines](Draft_Line.md) and/or Draft Wires to be joined must be exactly coincident. If required first adjust points to ensure that this is the case.
 2.  Select two or more [Draft Lines](Draft_Line.md) and/or Draft Wires.
-3.  There are several ways to invoke the command:
+3.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
-    -   Use the keyboard shortcut: **P** then **L**.
+    -   Use the keyboard shortcut   * **P** then **L**.
 
 ## Notes
 
@@ -99,16 +99,16 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -120,24 +120,24 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 ### 数据
 
--    **Start**: 指定连线中的第一个点。
+-    **Start**   * 指定连线中的第一个点。
 
--    **End**: 指定连线中的最后一个点，如果是闭合连线则不计入初始点。
+-    **End**   * 指定连线中的最后一个点，如果是闭合连线则不计入初始点。
 
--    **Closed**: 指定连线是否闭合。如果连线原本是开放的，此值为`False`；将其设置为`True`则为会原连线再绘制一条线段使之闭合。如果连线原本就是闭合的，此值为`True`；将其设置为`False`则会从连线中去掉最后一条线段，令其变为开放连线。
+-    **Closed**   * 指定连线是否闭合。如果连线原本是开放的，此值为`False`；将其设置为`True`则为会原连线再绘制一条线段使之闭合。如果连线原本就是闭合的，此值为`True`；将其设置为`False`则会从连线中去掉最后一条线段，令其变为开放连线。
 
--    **Chamfer Size**: specifies the size of the chamfers (straight segments) created on the corners of the wire.
+-    **Chamfer Size**   * specifies the size of the chamfers (straight segments) created on the corners of the wire.
 
--    **Fillet Radius**: specifies the radius of the fillets (arc segments) created on the corners of the wire.
+-    **Fillet Radius**   * specifies the radius of the fillets (arc segments) created on the corners of the wire.
 
--    **Make Face**: 指定是否令连线构成一个面。如果为`True`则创建一个面，否则仅绘制本对象中的边。如果**Closed**为`True`时，本属性才会生效。
+-    **Make Face**   * 指定是否令连线构成一个面。如果为`True`则创建一个面，否则仅绘制本对象中的边。如果**Closed**为`True`时，本属性才会生效。
 
-:   
-    **请注意:**如果连线自相交，则不要将**Make Face**设置为`True`，因为在这种情况下不能用它来创建一个真面（proper face）。
+   *   
+    **请注意   ***如果连线自相交，则不要将**Make Face**设置为`True`，因为在这种情况下不能用它来创建一个真面（proper face）。
 
--    **Subdivisions**: 指定连线中每条线段内的内部节点数量。<small>(v0.16)</small> 
+-    **Subdivisions**   * 指定连线中每条线段内的内部节点数量。<small>(v0.16)</small> 
 
--    **Length**: 指定整条连线的长度（只读属性）。
+-    **Length**   * 指定整条连线的长度（只读属性）。
 
 
 </div>
@@ -152,15 +152,15 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 ### 视图
 
--    **End Arrow**: 如果此项为`True`，将在连线最后一点上显示一个符号，因此可将其用作一条注解线（annotation line）。
+-    **End Arrow**   * 如果此项为`True`，将在连线最后一点上显示一个符号，因此可将其用作一条注解线（annotation line）。
 
--    **Arrow Size**: 指定连线末尾处所示符号的大小。
+-    **Arrow Size**   * 指定连线末尾处所示符号的大小。
 
--    **Arrow Type**: 指定连线末尾处所示的符号类型，可以为\"Dot（点）\", \"Circle（圈）\", \"Arrow（箭头）\", 或\"Tick\"。
+-    **Arrow Type**   * 指定连线末尾处所示的符号类型，可以为\"Dot（点）\", \"Circle（圈）\", \"Arrow（箭头）\", 或\"Tick\"。
 
--    **Pattern**: 指定一种[图案来填写闭合连线所构成的面](Draft_Pattern.md)。只有在**Make Face**为`True`且**Display Mode**为\"Flat Lines\"时，此属性才会生效。
+-    **Pattern**   * 指定一种[图案来填写闭合连线所构成的面](Draft_Pattern.md)。只有在**Make Face**为`True`且**Display Mode**为\"Flat Lines\"时，此属性才会生效。
 
--    **Pattern Size**: 指定[图案的大小](Draft_Pattern.md)。
+-    **Pattern Size**   * 指定[图案的大小](Draft_Pattern.md)。
 
 
 </div>
@@ -171,7 +171,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 <div class="mw-translate-fuzzy">
 
 
-**参见:**
+**参见   ***
 
 [Draft API与](Draft_API.md)[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)。
 

@@ -1,6 +1,8 @@
 # Category:Documentation/ro
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories/ro](Category   *Categories/ro.md)
+
 ### Contents
 
 |     |     |     |

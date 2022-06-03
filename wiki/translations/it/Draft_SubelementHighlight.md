@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Draft SubelementHighlight
-   Name/it:Evidenzia i sottoelementi
-   MenuLocation:Draft → Evidenzia i sottoelementi
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**D** **E**
-   Version:0.19
-   SeeAlso:[Modifica](Draft_Edit/it.md)
+- GuiCommand   */it
+   Name   *Draft SubelementHighlight
+   Name/it   *Evidenzia i sottoelementi
+   MenuLocation   *Draft → Evidenzia i sottoelementi
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut   ***D** **E**
+   Version   *0.19
+   SeeAlso   *[Modifica](Draft_Edit/it.md)
 ---
 
 # Draft SubelementHighlight/it
@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:16px;"> [Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md) consente di modificare graficamente alcune proprietà dell\'oggetto selezionato, come i vertici di una [Polilinea](Draft_Wire/it.md), la lunghezza e la larghezza di un [Rettangolo](Draft_Rectangle/it.md), o il raggio di un [Cerchio](Draft_Circle/it.md).
+Lo strumento <img alt="" src=images/Draft_SubelementHighlight.svg  style="width   *16px;"> [Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md) consente di modificare graficamente alcune proprietà dell\'oggetto selezionato, come i vertici di una [Polilinea](Draft_Wire/it.md), la lunghezza e la larghezza di un [Rettangolo](Draft_Rectangle/it.md), o il raggio di un [Cerchio](Draft_Circle/it.md).
 
 
 </div>

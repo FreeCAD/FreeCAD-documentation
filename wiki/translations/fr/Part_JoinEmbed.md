@@ -1,11 +1,11 @@
 ---
 - GuiCommand   */fr
    Name   *Part JoinEmbed
-   Name/fr   *Part Intégrer un objet
+   Name/fr   *Part Intégrer
    MenuLocation   *Part → Joindre → Intégrer un objet
    Workbenches   *[Part](Part_Workbench/fr.md)
    Version   *0.16
-   SeeAlso   *[Part Connecter un objet](Part_JoinConnect/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+   SeeAlso   *[Part Connecter](Part_JoinConnect/fr.md), [Part Découper](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
 # Part JoinEmbed/fr

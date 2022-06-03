@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:EM FHPort
-   Name/fr:EM Port FH
-   MenuLocation:EM → FHPort
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **P**
-   Version:0.17
-   SeeAlso:[EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md)
+- GuiCommand   */fr
+   Name   *EM FHPort
+   Name/fr   *EM Port FH
+   MenuLocation   *EM → FHPort
+   Workbenches   *[EM](EM_Workbench/fr.md)
+   Shortcut   ***E** **P**
+   Version   *0.17
+   SeeAlso   *[EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md)
 ---
 
 # EM FHPort/fr
@@ -25,7 +25,7 @@ L\'outil Port FH crée un port FastHenry entre deux objets Noeud FH.
 
 L\'objet Port FH est basé sur les deux Noeuds FH existants entre lesquels il créera un port FastHenry.
 
-1.  Sélectionnez deux <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [Noeud FH](EM_FHNode/fr.md) objets
+1.  Sélectionnez deux <img alt="" src=images/EM_FHNode.svg  style="width   *16px;"> [Noeud FH](EM_FHNode/fr.md) objets
 2.  Appuyez sur le bouton **<img src="images/EM_FHPort.svg" width=16px> [EM FHPort](EM_FHPort/fr.md)** ou appuyez sur les touches **E** puis **P**.
 
 ### Remarques
@@ -34,18 +34,18 @@ L\'objet Port FH est basé sur les deux Noeuds FH existants entre lesquels il cr
 
 ## Propriétés
 
--    **NodePos**: le [Noeud FH](EM_FHNode/fr.md) positif du port FastHenry
+-    **NodePos**   * le [Noeud FH](EM_FHNode/fr.md) positif du port FastHenry
 
--    **NodeNeg**: le [Noeud FH](EM_FHNode/fr.md) négatif du port FastHenry
+-    **NodeNeg**   * le [Noeud FH](EM_FHNode/fr.md) négatif du port FastHenry
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Port FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil Port FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   *
 
 
 ```python
@@ -60,7 +60,7 @@ port = makeFHPort(nodePos=None,nodeNeg=None,name='FHPort')
 
 -    `name`est le nom de l\'objet.
 
-Exemple:
+Exemple   *
 
 
 ```python

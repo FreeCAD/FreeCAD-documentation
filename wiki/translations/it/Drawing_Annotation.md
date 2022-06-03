@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Drawing_Annotation
-   Name/it:Annotazione
-   Workbenches:[Drawing](Drawing_Workbench/it.md)
-   MenuLocation:Drawing → Annotazione
-   Shortcut:Nessuno
+- GuiCommand   */it
+   Name   *Drawing_Annotation
+   Name/it   *Annotazione
+   Workbenches   *[Drawing](Drawing_Workbench/it.md)
+   MenuLocation   *Drawing → Annotazione
+   Shortcut   *Nessuno
 ---
 
 # Drawing Annotation/it

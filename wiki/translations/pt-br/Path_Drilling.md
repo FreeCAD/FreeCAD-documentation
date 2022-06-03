@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Path Drilling
-   MenuLocation:Path → Drilling
-   Workbenches:[Path](Path_Workbench.md)
+- GuiCommand   *
+   Name   *Path Drilling
+   MenuLocation   *Path → Drilling
+   Workbenches   *[Path](Path_Workbench.md)
 ---
 
 # Path Drilling/pt-br
@@ -11,18 +11,18 @@
 
 The Drilling command generates a drilling Operation in the Job.
 
-<img alt="" src=images/Path_Drilling_Sample.png  style="width:400px;"> 
-*Above: Path Drilling operation sample*
+<img alt="" src=images/Path_Drilling_Sample.png  style="width   *400px;"> 
+*Above   * Path Drilling operation sample*
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Path_Drilling.svg" width=16px> [Path Drilling](Path_Drilling.md)** button.
     -   Select the **Path → <img src="images/Path_Drilling.svg" width=16px> Drilling** option from the menu.
-2.  In the **Operation** section:
+2.  In the **Operation** section   *
     -   Select a **ToolController**.
     -   Select a **Coolant Mode**.
-    -   Optionally enable and adjust the following:
+    -   Optionally enable and adjust the following   *
         -   
             **Peck**
             
@@ -51,180 +51,163 @@ The Drilling command generates a drilling Operation in the Job.
 
 ## Properties
 
-\'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
+\'\'\' *Note* \'\'\'   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
 
 {{TitleProperty|Base}}
 
-Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
+Note   * It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
--    **Placement**: Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
+-    **Placement**   * Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
 
     -   
         **Angle**
         
-        : Angle in degrees applied to rotation of the object around Axis property value
+           * Angle in degrees applied to rotation of the object around Axis property value
 
     -   
         **Axis**
         
-        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
+           * Axis(one or multiple) around which to rotate the object, set in sub-properties   * x, y, z
 
         -   
             **X**
             
-            : x axis value
+               * x axis value
 
         -   
             **Y**
             
-            : y axis value
+               * y axis value
 
         -   
             **Z**
             
-            : z axis value
+               * z axis value
 
     -   
         **Position**
         
-        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
+           * Position of the object, set in sub-properties   * x, y, z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-            : x distance value
+               * x distance value
 
         -   
             **Y**
             
-            : y distance value
+               * y distance value
 
         -   
             **Z**
             
-            : z distance value
+               * z distance value
 
--    **Label**: User-provided name of the object (UTF-8)
+-    **Label**   * User-provided name of the object (UTF-8)
 
--    **Disabled**: List of disabled features
+-    **Disabled**   * List of disabled features
 
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**: The height needed to clear clamps and obstructions
+-    **Clearance Height**   * The height needed to clear clamps and obstructions
 
--    **Final Depth**: Final Depth of Tool- lowest value in Z
+-    **Final Depth**   * Final Depth of Tool- lowest value in Z
 
--    **Safe Height**: The height above which Rapid motions are allowed. (Rapid safety height between locations)
+-    **Safe Height**   * The height above which Rapid motions are allowed. (Rapid safety height between locations)
 
--    **Start Depth**: Starting depth of Tool - *first cut depth in Z*
+-    **Start Depth**   * Starting depth of Tool - *first cut depth in Z*
 
 
 {{TitleProperty|Drill}}
 
--    **Add Tip Length**: Calculate the tip length and subtract from final depth
+-    **Add Tip Length**   * Calculate the tip length and subtract from final depth
 
--    **Dwell Enabled**: Enable dwell
+-    **Dwell Enabled**   * Enable dwell
 
--    **Dwell Time**: The time to dwell between peck cycles
+-    **Dwell Time**   * The time to dwell between peck cycles
 
--    **Peck Depth**: Incremental Drill depth before retracting to clear chips
+-    **Peck Depth**   * Incremental Drill depth before retracting to clear chips
 
--    **Peck Enabled**: Enable pecking
+-    **Peck Enabled**   * Enable pecking
 
--    **Retract Height**: The height where feed starts and height during retract tool when path is finished
+-    **Retract Height**   * The height where feed starts and height during retract tool when path is finished
 
--    **Return Level**: Controls how tool retracts Default=G98
+-    **Return Level**   * Controls how tool retracts Default=G98
 
 
 {{TitleProperty|Path}}
 
--    **Active**: make False, to prevent operation from generating code
+-    **Active**   * make False, to prevent operation from generating code
 
--    **Comment**: An optional comment for this Operation
+-    **Comment**   * An optional comment for this Operation
 
--    **User Label**: User assigned label
+-    **User Label**   * User assigned label
 
--    **Tool Controller**: Defines the Tool controller used in the Operation
+-    **Tool Controller**   * Defines the Tool controller used in the Operation
 
 
 {{TitleProperty|Rotation}}
 
 (*when available*)
 
--    **Attempt Inverse Angle**: Automatically attempt Inverse Angle if initial rotation is incorrect.
+-    **Attempt Inverse Angle**   * Automatically attempt Inverse Angle if initial rotation is incorrect.
 
 -
--    **Enable Rotation**: Enable rotation to gain access to holes not normal to Z axis.
+-    **Enable Rotation**   * Enable rotation to gain access to holes not normal to Z axis.
 
--    **Inverse Angle**: Inverse the angle of the rotation. \'\' **Example:** change a rotation from -22.5 to 22.5 degrees.\'\'
+-    **Inverse Angle**   * Inverse the angle of the rotation. \'\' **Example   *** change a rotation from -22.5 to 22.5 degrees.\'\'
 
--    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
+-    **Reverse Direction**   * Reverse orientation of Operation by 180 degrees.
 
 ## Tasks Window Editor Layout 
 
-*Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
+*Descriptions for the settings are provided in the Properties list above.*
+
+This section is simply a layout map of the settings in the window editor for the Operation.
 
 ### Base Geometry 
 
--   **Add**: adds selected element(s) which should be the base(s) for the path(s)
--   **Delete**: delete the selected item(s) in the Base Geometry list
--   **Clear**: clear all items in the Base Geometry list
+-   **Add**   * adds selected element(s) which should be the base(s) for the path(s)
+-   **Delete**   * delete the selected item(s) in the Base Geometry list
+-   **Clear**   * clear all items in the Base Geometry list
 
 ### Base Location 
 
--   **Add**: add an (X,Y) coordinate location to the current drilling operation.
--   **Remove**: remove the selected location item(s) from the Base Location list
--   **Edit**: edit the selected location item
+-   **Add**   * add an (X,Y) coordinate location to the current drilling operation.
+-   **Remove**   * remove the selected location item(s) from the Base Location list
+-   **Edit**   * edit the selected location item
 
-### Depth
+### Depths
 
--    **Start Depth**
-    
+-   **Start Depth**   *
+-   **Final Depth**   *
 
--    **Final Depth**
-    
+### Heights
 
-### Height
-
--    **Safe Height**
-    
-
--    **Clearance Height**
-    
+-   **Safe Height**   *
+-   **Clearance Height**   *
 
 ### Operation
 
--    **Tool Controller**
-    
-
--    **Retract Height**
-    
-
--    **Peck**
-    
-
--    **Peck Depth**
-    
-
--    **Dwell**
-    
-
--    **Dwell Time**
-    
-
--    **Use Tip Length**
-    
+-   **Tool Controller**   *
+-   **Retract Height**   *
+-   **Peck**   *
+-   **Peck Depth**   *
+-   **Dwell**   *
+-   **Dwell Time**   *
+-   **Use Tip Length**   *
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

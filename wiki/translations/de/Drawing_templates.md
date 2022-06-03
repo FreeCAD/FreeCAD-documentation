@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das Anlegen von Vorlagen für den Zeichnungs-Arbeitsbereich ist sehr einfach (siehe auch das Tutorial [Drawing\_Template\_HowTo/de](Drawing_Template_HowTo/de.md)). Vorlagen sind svg-Dateien, die mit jeder Anwendung erstellt werden können, die svg-Dateien exportieren kann, wie z.B. [Inkscape](http://www.inkscape.org). Trotzdem musst Du oftmals später die Datei mit einem Texteditor öffnen, um die folgenden Regeln zu erfüllen. Es geht nur um zwei Regeln:
+Das Anlegen von Vorlagen für den Zeichnungs-Arbeitsbereich ist sehr einfach (siehe auch das Tutorial [Drawing\_Template\_HowTo/de](Drawing_Template_HowTo/de.md)). Vorlagen sind svg-Dateien, die mit jeder Anwendung erstellt werden können, die svg-Dateien exportieren kann, wie z.B. [Inkscape](http   *//www.inkscape.org). Trotzdem musst Du oftmals später die Datei mit einem Texteditor öffnen, um die folgenden Regeln zu erfüllen. Es geht nur um zwei Regeln   *
 
 
 </div>
@@ -24,7 +24,7 @@ Das Anlegen von Vorlagen für den Zeichnungs-Arbeitsbereich ist sehr einfach (si
 
 ### Basisregeln
 
--   Ein Pixel = ein Millimeter. Die Seitengröße kann innerhalb des öffnenden<svg>-Tags angegeben werden, entweder ohne Einheit oder mit \"mm\". Beispielsweise sind diese beiden Formen gültig:
+-   Ein Pixel = ein Millimeter. Die Seitengröße kann innerhalb des öffnenden<svg>-Tags angegeben werden, entweder ohne Einheit oder mit \"mm\". Beispielsweise sind diese beiden Formen gültig   *
 
 
 </div>
@@ -41,13 +41,13 @@ width="1067"
 height = "762"
 
 
-Obwohl svg Inches (\"42 in\") unterstützt, ist das bei FreeCAD bisher nicht der Fall, so dass es immer besser ist, die svg-Seitengröße in Millimeter anzugeben. Das \"viewBox\"-Attribut muss den gleichen Wert haben, z.B.:
+Obwohl svg Inches (\"42 in\") unterstützt, ist das bei FreeCAD bisher nicht der Fall, so dass es immer besser ist, die svg-Seitengröße in Millimeter anzugeben. Das \"viewBox\"-Attribut muss den gleichen Wert haben, z.B.   *
 
  {.html}
 viewBox="0 0 1067 762"
 
 
--   Du musst irgendwo innerhalb Deines svg-Codes angeben, wo der Inhalt der Zeichnung auftauchen soll (z.B. am Ende der Datei, direkt vor dem letzten</svg>-Tag). Dazu dient die folgende Zeile:
+-   Du musst irgendwo innerhalb Deines svg-Codes angeben, wo der Inhalt der Zeichnung auftauchen soll (z.B. am Ende der Datei, direkt vor dem letzten</svg>-Tag). Dazu dient die folgende Zeile   *
 
  {.html}
 
@@ -67,7 +67,7 @@ Der Text oben (bei dem es sich eigentlich um einen XML-Kommentar handelt) muss a
 
 </div>
 
-xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
+xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 ### Title block 
 
@@ -87,7 +87,7 @@ Um die Umrandung zu definieren, muss die folgende Zeile vor dem -Tag der svg-Dat
 
 
 
-wo X1, Y1, X2, Y2 definiert sind als:
+wo X1, Y1, X2, Y2 definiert sind als   *
 
 -   X1 ist der horizontale Abstand von der linken Kante der Seite zur linken Seite der Umrandung.
 -   Y1 ist der vertikale Abstand von der oberen Kante der Seite zur oberen Umrandung.
@@ -102,7 +102,7 @@ Um den Titelblock zu definieren, muss die folgende Zeile vor dem -Tag und nach d
 
 
 
-wo X1a, Y1a, X2a, Y2a definiert sind als:
+wo X1a, Y1a, X2a, Y2a definiert sind als   *
 
 -   X1a ist der horizontale Abstand von der linken Kante der Seite zur linken Seite des Titelblocks.
 -   Y1a ist der vertikale Abstand von der oberen Kante der Seite zur oberen Kante des Titelblocks.
@@ -122,7 +122,7 @@ Das Folgende ist ein Beispiel für den Code, der die \"Working space\"- und \"Ti
 
 In order to enable up to scale printing, the real word size has to be given in the width and height attributes of the SVG-Tag. The size of the document in user units, (px), has to be given in the viewBox attribute.
 
-Das Folgende muss wie im nachfolgenden Beispiel formattiert werden:
+Das Folgende muss wie im nachfolgenden Beispiel formattiert werden   *
 
 -   xxx = Pixel-Breite
 -   yyy = Pixel-Höhe
@@ -149,7 +149,7 @@ Consequently, if you create your own SVG templates, and wish to be able to expor
 
 DXF templates can be created with any application that produces DXF files, such as LibreCAD. You then need to edit them with a text editor, and add two additional lines, one at the beginning or end of the BLOCKS section, and another at the beginning or end of the ENTITIES section, which are where FreeCAD will add its own blocks and entities.
 
-A very simple template looks like this:
+A very simple template looks like this   *
 
     999
     FreeCAD DXF exporter v0.15
@@ -189,80 +189,82 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### A3 Klassisch: 
+### A3 Klassisch   * 
 
-<img alt="" src=images/A3_Classic.svg  style="width:800px;">
+<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Classic.svg  style="width:800px;">
+<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
 
-### A3 Clean: 
+### A3 Clean   * 
 
-<img alt="" src=images/A3_Clean.svg  style="width:800px;">
+<img alt="" src=images/A3_Clean.svg  style="width   *800px;">
 
-### A3 Modern: 
+### A3 Modern   * 
 
-<img alt="" src=images/A3_Modern.svg  style="width:800px;">
+<img alt="" src=images/A3_Modern.svg  style="width   *800px;">
 
-### A3 Showcase: 
+### A3 Showcase   * 
 
-<img alt="" src=images/A3_Showcase.svg  style="width:800px;">
+<img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
-### A3 Querformat englisch: 
+### A3 Querformat englisch   * 
 
-<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
 
 
 </div>
 
-<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
 
 ## A4 Vorlagen 
 
-### A4 Querformat englisch: 
+### A4 Querformat englisch   * 
 
-<img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
+<img alt="" src=images/A4_Landscape_english.svg  style="width   *800px;">
 
-### A4 Hochformat 1 englisch: 
+### A4 Hochformat 1 englisch   * 
 
-<img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
+<img alt="" src=images/A4_Portrait_1_english.svg  style="width   *400px;">
 
 ## US Letter Vorlagen 
 
-### US Letter Querformat: 
+### US Letter Querformat   * 
 
-<img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Letter_landscape.svg  style="width   *800px;">
 
-### US Letter Hochformat: 
+### US Letter Hochformat   * 
 
-<img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
+<img alt="" src=images/US_Letter_portrait.svg  style="width   *400px;">
 
-### US Letter ds Querformat: 
+### US Letter ds Querformat   * 
 
-<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width   *800px;">
 
-### US Legal ds Querformat: 
+### US Legal ds Querformat   * 
 
-<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width   *800px;">
 
-### US Ledger ds Querformat: 
+### US Ledger ds Querformat   * 
 
-<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
+<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width   *800px;">
 
 ## Andere verfügbare Standards 
 
--   [ANSI-Vorlagen](ANSI_templates/de.md): entsprechend dem American National Standards Institute [ANSI](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard\* [Architektur-Vorlagen](Arch_templates/de.md): entsprechend dem American National Standards Institute [Architektur](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
--   [Verschiedene Vorlagen](Misc_templates/de.md): Verschiedene Vorlagen
+-   [ANSI-Vorlagen](ANSI_templates/de.md)   * entsprechend dem American National Standards Institute [ANSI](https   *//de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard\* [Architektur-Vorlagen](Arch_templates/de.md)   * entsprechend dem American National Standards Institute [Architektur](https   *//de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
+-   [Verschiedene Vorlagen](Misc_templates/de.md)   * Verschiedene Vorlagen
 
 
 {{Drawing Tools navi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Documentation](Category_Documentation.md)
 
 
 

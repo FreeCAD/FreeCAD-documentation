@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:PartDesign Point
-   Name/it:Punto di riferimento
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design → Punto di riferimento
-   Version:0.17
-   SeeAlso:[Linea di riferimento](PartDesign_Line/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
+- GuiCommand   */it
+   Name   *PartDesign Point
+   Name/it   *Punto di riferimento
+   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation   *Part Design → Punto di riferimento
+   Version   *0.17
+   SeeAlso   *[Linea di riferimento](PartDesign_Line/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
 ---
 
 # PartDesign Point/it
@@ -48,11 +48,11 @@ Fare doppio clic sull\'etichetta DatumPoint nell\'albero del modello o fare clic
 
 ## Proprietà
 
--    {{PropertyData/it|MapMode}}: elenca la modalità di associazione utilizzata.
+-    {{PropertyData/it|MapMode}}   * elenca la modalità di associazione utilizzata.
 
--    {{PropertyData/it|Attachment Offset}}: applica una trasformazione (traslazione e rotazione) in riferimento alla posizione di associazione.
+-    {{PropertyData/it|Attachment Offset}}   * applica una trasformazione (traslazione e rotazione) in riferimento alla posizione di associazione.
 
--    {{PropertyData/it|Label}}: nome dato all\'oggetto, questo nome può essere cambiato a piacere.
+-    {{PropertyData/it|Label}}   * nome dato all\'oggetto, questo nome può essere cambiato a piacere.
 
 ## Limitazioni
 

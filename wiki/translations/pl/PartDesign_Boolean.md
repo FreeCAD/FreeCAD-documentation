@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:PartDesign Boolean
-   Name/pl:Projekt Części: Operacje logiczne
-   MenuLocation:Projekt Części → Operacja logiczna
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
+- GuiCommand   */pl
+   Name   *PartDesign Boolean
+   Name/pl   *Projekt Części   * Operacje logiczne
+   MenuLocation   *Projekt Części → Operacja logiczna
+   Workbenches   *[Projekt Części](PartDesign_Workbench/pl.md)
+   Version   *0.17
 ---
 
 # PartDesign Boolean/pl
@@ -17,11 +17,11 @@
 
 
 
-*Po lewej: aktywna zawartość ''(A)'' z bryłami narzędziowymi ''(B)'' i ''(C)''. Po prawej: wynik po wykonaniu operacji przecięcia.*
+*Po lewej   * aktywna zawartość ''(A)'' z bryłami narzędziowymi ''(B)'' i ''(C)''. Po prawej   * wynik po wykonaniu operacji przecięcia.*
 
 ## Użycie
 
-1.  [Aktywuj zawartość](PartDesign_Body/pl#Pojedyncza_ci.C4.85g.C5.82a_bry.C5.82a.md), która ma otrzymać cechę operacji logicznej. \'\'*\' Uwaga*: Ważne jest, aby ani aktywna zawartość, ani żadna z zawartych w niej cech nie były wybrane!\'\'
+1.  [Aktywuj zawartość](PartDesign_Body/pl#Pojedyncza_ci.C4.85g.C5.82a_bry.C5.82a.md), która ma otrzymać cechę operacji logicznej. \'\'*\' Uwaga*   * Ważne jest, aby ani aktywna zawartość, ani żadna z zawartych w niej cech nie były wybrane!\'\'
 2.  Naciśnij przycisk **<img src="images/PartDesign_Boolean.svg" width=16px> [Operacja logiczna](PartDesign_Boolean/pl.md)**.
 3.  W **Parametrach logicznych** kliknij przycisk **Dodaj zawartość**. Aktywna bryła tymczasowo znika z okna [widoku 3D](3D_view/pl.md), co ułatwia wybór zawartości dla narzędzia.
 4.  W w oknie widoku 3D wybierz zawartość, którą chcesz wykorzystać w funkcji logicznej. Powtórz czynność, aby dodać więcej zawartości.
@@ -32,27 +32,27 @@ Alternatywnie można wybrać jedną lub więcej brył przed użyciem przycisku O
 
 ## Opcje
 
--   **Scalenie:** łączy bryłę lub bryły narzędzia z bryłą aktywną.
--   **Wytnij:** odejmuje bryłę lub bryły narzędzia od bryły aktywnej.
--   **Część wspólna:** wycina obszar wspólny z wybranej zawartości, lub kilku zawartości z aktywną zawartością
+-   **Scalenie   *** łączy bryłę lub bryły narzędzia z bryłą aktywną.
+-   **Wytnij   *** odejmuje bryłę lub bryły narzędzia od bryły aktywnej.
+-   **Część wspólna   *** wycina obszar wspólny z wybranej zawartości, lub kilku zawartości z aktywną zawartością
 -   Naciśnij przycisk **Usuń zawartość**, aby usunąć zawartość, zaznaczając ją w oknie [widoku 3D](3D_view/pl.md).
 
 ## Właściwości
 
--    **Typ**: ustawia operację logiczną *(Scalenie, Wytnij, Część wspólna)*
+-    **Typ**   * ustawia operację logiczną *(Scalenie, Wytnij, Część wspólna)*
 
--    **Etykieta**: nazwa nadana operacji, nazwę tę można dowolnie zmieniać.
+-    **Etykieta**   * nazwa nadana operacji, nazwę tę można dowolnie zmieniać.
 
--    **Grupa**: lista zawartości będących narzędziami.
+-    **Grupa**   * lista zawartości będących narzędziami.
 
--    **Wyświetlanie**: ustawia wyświetlanie pomiędzy dwoma trybami:
+-    **Wyświetlanie**   * ustawia wyświetlanie pomiędzy dwoma trybami   *
 
-    -   Wynik *(domyślnie)*: wyświetla wynik działania funkcji logicznej. W tym trybie Zawartości narzędzi nie mogą być wyświetlane w stanie oryginalnym, nawet jeśli ich widoczność jest włączona.
-    -   Narzędzia: wyświetla Zawartości narzędzi w ich oryginalnym stanie. Tryb ten jest przydatny, gdy Zawartości narzędzi muszą być edytowane lub używane w późniejszych operacjach.
+    -   Wynik *(domyślnie)*   * wyświetla wynik działania funkcji logicznej. W tym trybie Zawartości narzędzi nie mogą być wyświetlane w stanie oryginalnym, nawet jeśli ich widoczność jest włączona.
+    -   Narzędzia   * wyświetla Zawartości narzędzi w ich oryginalnym stanie. Tryb ten jest przydatny, gdy Zawartości narzędzi muszą być edytowane lub używane w późniejszych operacjach.
 
--    **Wybieralne**: możliwe wartości {{true/pl}} lub {{false/pl}}. Jeśli ustawiono wartość false, element nie może być wybrany w oknie widoku 3D.
+-    **Wybieralne**   * możliwe wartości {{true/pl}} lub {{false/pl}}. Jeśli ustawiono wartość false, element nie może być wybrany w oknie widoku 3D.
 
--    **Widoczność**: możliwe wartości {{true/pl}} lub {{false/pl}}. Przełącza widoczność elementu w oknie widoku 3D.
+-    **Widoczność**   * możliwe wartości {{true/pl}} lub {{false/pl}}. Przełącza widoczność elementu w oknie widoku 3D.
 
 ## Ograniczenia
 

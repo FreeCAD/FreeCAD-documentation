@@ -11,7 +11,7 @@
 
 ## Opis
 
-Dzięki użyciu tej makrodefinicji pojawi się okno dialogowe z listą skal Architektury Amerykańskiej w calach pobranych z [Archtoolbox CAD Scale Factors](https://www.archtoolbox.com/representation/cad/scalefactor.html), z odpowiednim współczynnikiem do zastosowania na stronach lub widokach Rysunku Technicznego. Współczynniki skal mogą zostać dwukrotnie kliknięte w celu skopiowania.
+Dzięki użyciu tej makrodefinicji pojawi się okno dialogowe z listą skal Architektury Amerykańskiej w calach pobranych z [Archtoolbox CAD Scale Factors](https   *//www.archtoolbox.com/representation/cad/scalefactor.html), z odpowiednim współczynnikiem do zastosowania na stronach lub widokach Rysunku Technicznego. Współczynniki skal mogą zostać dwukrotnie kliknięte w celu skopiowania.
 
 ## Skrypt
 
@@ -20,15 +20,15 @@ Dzięki użyciu tej makrodefinicji pojawi się okno dialogowe z listą skal Arch
 
 {{MacroCode|code=
 <nowiki>
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
-class Dialog(QDialog):
+class Dialog(QDialog)   *
 
-    def __init__(self):
+    def __init__(self)   *
 
         QDialog.__init__(self)
         self.resize(221, 413)
@@ -112,7 +112,7 @@ class Dialog(QDialog):
 
         QMetaObject.connectSlotsByName(self)
 
-    def retranslateUi(self,dlg=None):
+    def retranslateUi(self,dlg=None)   *
 
         self.setWindowTitle(QCoreApplication.translate("Dialog", u"Arch scale factors", None))
         qtablewidgetitem = self.tableWidget.horizontalHeaderItem(0)

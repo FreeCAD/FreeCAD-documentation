@@ -1,6 +1,8 @@
 # Category:Document object/it
 Questa categoria elenca le pagine relative agli oggetti derivati dalla base [App DocumentObject](App_DocumentObject/it.md).
 
+[Category   *User Documentation/it](Category   *User_Documentation/it.md)
+
 ### Contents
 
 |     |     |     |

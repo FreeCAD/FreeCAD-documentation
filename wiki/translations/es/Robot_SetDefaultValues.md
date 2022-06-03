@@ -1,6 +1,6 @@
 # Robot SetDefaultValues/es
 ---
-- GuiCommand:/es   Name:Robot SetDefaultValues   Name/es:Robot SetDefaultValues   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Set default values---
+- GuiCommand   */es   Name   *Robot SetDefaultValues   Name/es   *Robot SetDefaultValues   Workbenches   *[[Robot_Workbench/es   Robot]]|MenuLocation   *Robot → Set default values---
 
 
 </div>
@@ -11,13 +11,13 @@ Set the default values for way-point creation.
 
 ## Usage
 
-1.  Choose **Robot** → **<img src="images/Robot_SetDefaultValues.svg" width=32px> Set default values** from the top menu, to define:
+1.  Choose **Robot** → **<img src="images/Robot_SetDefaultValues.svg" width=32px> Set default values** from the top menu, to define   *
 
-::\* speed
+   *   ** speed
 
-::\* continuous (mode)
+   *   ** continuous (mode)
 
-::\* acceleration
+   *   ** acceleration
 
 ## Notes
 

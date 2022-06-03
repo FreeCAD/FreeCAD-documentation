@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pt
-   Name:Constraint EqualLength
-   Name/pt:Constraint EqualLength
-   Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain equal
-   SeeAlso:[Constraint Radius](Sketcher_ConstrainRadius/pt.md)
+- GuiCommand   */pt
+   Name   *Constraint EqualLength
+   Name/pt   *Constraint EqualLength
+   Workbenches   *[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
+   MenuLocation   *Sketch → Sketcher constraints → Constrain equal
+   SeeAlso   *[Constraint Radius](Sketcher_ConstrainRadius/pt.md)
 ---
 
 # Sketcher ConstrainEqual/pt
@@ -26,7 +26,7 @@ Select two or more line segments (e.g. line and one side of the rectangle).
 
 ![](images/EqualConstraint2.png )
 
-Click on **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** in the Sketcher toolbar (in either the Sketcher or Part Design workbenches) or select the Constrain Equal menu item from the Sketcher constraints sub menu item in either the Sketch or Part Design menu item depending upon which workbench is selected (Sketcher or Part Design) to apply the constraint to the selected items.
+Click on **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** in the Sketcher toolbar (in either the Sketcher or Part Design workbenches) or select the Constrain Equal menu item from the Sketcher constraints sub menu item in either the Sketch or Part Design menu item depending upon which workbench is selected (Sketcher or Part Design) to apply the constraint to the selected items.
 
 ![](images/EqualConstraint3.png )
 
@@ -34,7 +34,7 @@ Now select the arc and the circle in the sketch.
 
 ![](images/EqualConstraint4.png )
 
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
+and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
 
 ![](images/EqualConstraint5.png )
 
@@ -42,7 +42,7 @@ Now select the line segment, all segments of the poly-line and one of the remain
 
 ![](images/EqualConstraint6.png )
 
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
+and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
 
 ![](images/EqualConstraint7.png )
 
@@ -50,7 +50,7 @@ Select the line segment and the arc
 
 ![](images/EqualConstraint8.png )
 
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before. A pop-up message indicates that the constrained items have to be of the same geometrical type (lines of zero curvature or lines of non-zero curvature).
+and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before. A pop-up message indicates that the constrained items have to be of the same geometrical type (lines of zero curvature or lines of non-zero curvature).
 
 ![](images/EqualConstraint9.png )
 

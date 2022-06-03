@@ -1,24 +1,24 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Rebar Drawing
-   Name/fr:Arch Dessin d'armature
-   MenuLocation:Arch → Rebar
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   SeeAlso:[Arch Dimensions des armatures](Arch_Rebar_Dimensioning/fr.md), [Addon Reinforcement](Reinforcement_Addon/fr.md)
-   Version:0.19
+- GuiCommand   */fr
+   Name   *Arch Rebar Drawing
+   Name/fr   *Arch Dessin d'armature
+   MenuLocation   *Arch → Rebar
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   SeeAlso   *[Arch Dimensions des armatures](Arch_Rebar_Dimensioning/fr.md), [Addon Reinforcement](Reinforcement_Addon/fr.md)
+   Version   *0.19
 ---
 
 # Arch Rebar Drawing/fr
 
-Remarque: le travail ci-dessous est présent dans la branche de développement de l\'atelier Reinforcement [ici](https://github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
+Remarque   * le travail ci-dessous est présent dans la branche de développement de l\'atelier Reinforcement [ici](https   *//github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
 
 ## Description
 
 L\'outil [Dessin d\'armature](Arch_Rebar_Drawing/fr.md) permet à l\'utilisateur de créer un dessin d\'armatures.
 
-Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_Drawing_example.svg  style="width:800px;">
+<img alt="" src=images/Arch_Rebar_Drawing_example.svg  style="width   *800px;">
 
 
 
@@ -34,7 +34,7 @@ from ReinforcementDrawing.make_reinforcement_drawing import (
     makeStructuresReinforcementDrawing,
 )
 
-for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
+for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
     makeStructuresReinforcementDrawing(view=view)
 ```
 
@@ -44,62 +44,62 @@ Un objet de la vue SVG Dessin des armatures.
 
 ### Propriétés
 
--    {{PropertyData/fr|Structure}}: L\'objet de structure agissant en tant qu\'hôte pour les armatures à inclure dans le dessin.
+-    {{PropertyData/fr|Structure}}   * L\'objet de structure agissant en tant qu\'hôte pour les armatures à inclure dans le dessin.
 
--    {{PropertyData/fr|Rebars}}: La liste des objets d\'armature à inclure dans le dessin.
+-    {{PropertyData/fr|Rebars}}   * La liste des objets d\'armature à inclure dans le dessin.
 
--    {{PropertyData/fr|View}}: La vue du dessin de ferraillage à générer. Il peut s\'agir de \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" ou \"Bottom\".
+-    {{PropertyData/fr|View}}   * La vue du dessin de ferraillage à générer. Il peut s\'agir de \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" ou \"Bottom\".
 
--    {{PropertyData/fr|PositionType}}: Le type de position du dessin d\'armature sur le gabarit. Il peut être \"Automatic\" pour calculer l\'emplacement du dessin en utilisant {{PropertyData/fr|LeftOffset}}, {{PropertyData/fr|TopOffset}}, {{PropertyData/fr|MinRightOffset}} et {{PropertyData/fr|MinBottomOffset}} OU \"Custom\" pour définir l\'emplacement en utilisant {{PropertyData/fr|X}} et {{PropertyData/fr|Y}}.
+-    {{PropertyData/fr|PositionType}}   * Le type de position du dessin d\'armature sur le gabarit. Il peut être \"Automatic\" pour calculer l\'emplacement du dessin en utilisant {{PropertyData/fr|LeftOffset}}, {{PropertyData/fr|TopOffset}}, {{PropertyData/fr|MinRightOffset}} et {{PropertyData/fr|MinBottomOffset}} OU \"Custom\" pour définir l\'emplacement en utilisant {{PropertyData/fr|X}} et {{PropertyData/fr|Y}}.
 
--    {{PropertyData/fr|RebarsStrokeWidth}}: La largeur de trait des armatures dans le svg de dessin d\'armature.
+-    {{PropertyData/fr|RebarsStrokeWidth}}   * La largeur de trait des armatures dans le svg de dessin d\'armature.
 
--    {{PropertyData/fr|RebarsColorStyle}}: Le style de couleur des armatures dans le svg de dessin d\'armature. Réglez-le sur \"Automatic\" pour sélectionner automatiquement la couleur des armatures OU \"Custom\" pour choisir la valeur de couleur de la forme à partir de {{PropertyData/fr|RebarsColor}}.
+-    {{PropertyData/fr|RebarsColorStyle}}   * Le style de couleur des armatures dans le svg de dessin d\'armature. Réglez-le sur \"Automatic\" pour sélectionner automatiquement la couleur des armatures OU \"Custom\" pour choisir la valeur de couleur de la forme à partir de {{PropertyData/fr|RebarsColor}}.
 
--    {{PropertyData/fr|RebarsColor}}: La couleur des armatures dans le svg de dessin d\'armature.
+-    {{PropertyData/fr|RebarsColor}}   * La couleur des armatures dans le svg de dessin d\'armature.
 
--    {{PropertyData/fr|StructureStrokeWidth}}: La largeur de trait de la structure dans le svg de dessin d\'armature.
+-    {{PropertyData/fr|StructureStrokeWidth}}   * La largeur de trait de la structure dans le svg de dessin d\'armature.
 
--    {{PropertyData/fr|StructureColorStyle}}: Le style de couleur de la structure dans le svg de dessin d\'armature. Réglez-le sur \"Automatic\" pour sélectionner automatiquement la couleur des armatures, \"Custom\" pour choisir la valeur de couleur de la forme de {{PropertyData/fr|StructureColor}} OU \"None\" pour ne pas remplir la structure.
+-    {{PropertyData/fr|StructureColorStyle}}   * Le style de couleur de la structure dans le svg de dessin d\'armature. Réglez-le sur \"Automatic\" pour sélectionner automatiquement la couleur des armatures, \"Custom\" pour choisir la valeur de couleur de la forme de {{PropertyData/fr|StructureColor}} OU \"None\" pour ne pas remplir la structure.
 
--    {{PropertyData/fr|StructureColor}}: La couleur de la structure dans le svg de dessin d\'armature.
+-    {{PropertyData/fr|StructureColor}}   * La couleur de la structure dans le svg de dessin d\'armature.
 
--    {{PropertyData/fr|Template}}: Le modèle pour la vue de dessin de ferraillage.
+-    {{PropertyData/fr|Template}}   * Le modèle pour la vue de dessin de ferraillage.
 
--    {{PropertyData/fr|Width}}: La largeur du svg de vue de dessin d\'armature.
+-    {{PropertyData/fr|Width}}   * La largeur du svg de vue de dessin d\'armature.
 
--    {{PropertyData/fr|Height}}: La hauteur du svg de vue de dessin d\'armature.
+-    {{PropertyData/fr|Height}}   * La hauteur du svg de vue de dessin d\'armature.
 
--    {{PropertyData/fr|LeftOffset}}: Le décalage gauche de la vue du dessin de ferraillage sur le gabarit.
+-    {{PropertyData/fr|LeftOffset}}   * Le décalage gauche de la vue du dessin de ferraillage sur le gabarit.
 
--    {{PropertyData/fr|TopOffset}}: Le décalage supérieur de la vue du dessin de ferraillage sur le gabarit.
+-    {{PropertyData/fr|TopOffset}}   * Le décalage supérieur de la vue du dessin de ferraillage sur le gabarit.
 
--    {{PropertyData/fr|MinRightOffset}}: Le décalage minimum à droite de la vue du dessin de ferraillage sur le gabarit.
+-    {{PropertyData/fr|MinRightOffset}}   * Le décalage minimum à droite de la vue du dessin de ferraillage sur le gabarit.
 
--    {{PropertyData/fr|MinBottomOffset}}: Le décalage inférieur minimum de la vue du dessin d\'armature sur le gabarit.
+-    {{PropertyData/fr|MinBottomOffset}}   * Le décalage inférieur minimum de la vue du dessin d\'armature sur le gabarit.
 
--    {{PropertyData/fr|MaxWidth}}: La largeur maximale de la vue du dessin de ferraillage.
+-    {{PropertyData/fr|MaxWidth}}   * La largeur maximale de la vue du dessin de ferraillage.
 
--    {{PropertyData/fr|MaxHeight}}: La hauteur maximale de la vue du dessin de ferraillage.
+-    {{PropertyData/fr|MaxHeight}}   * La hauteur maximale de la vue du dessin de ferraillage.
 
--    {{PropertyData/fr|VisibleRebars}}: La liste des objets d\'armature visibles dans la vue de dessin.
+-    {{PropertyData/fr|VisibleRebars}}   * La liste des objets d\'armature visibles dans la vue de dessin.
 
--    {{PropertyData/fr|DimensionLeftOffset}}: Le décalage gauche pour chaque nouvel objet ReinforcementDimensioning.
+-    {{PropertyData/fr|DimensionLeftOffset}}   * Le décalage gauche pour chaque nouvel objet ReinforcementDimensioning.
 
--    {{PropertyData/fr|DimensionRightOffset}}: Le décalage droit pour chaque nouvel objet ReinforcementDimensioning.
+-    {{PropertyData/fr|DimensionRightOffset}}   * Le décalage droit pour chaque nouvel objet ReinforcementDimensioning.
 
--    {{PropertyData/fr|DimensionTopOffset}}: Le décalage supérieur pour chaque nouvel objet ReinforcementDimensioning.
+-    {{PropertyData/fr|DimensionTopOffset}}   * Le décalage supérieur pour chaque nouvel objet ReinforcementDimensioning.
 
--    {{PropertyData/fr|DimensionBottomOffset}}: Le décalage inférieur pour chaque nouvel objet ReinforcementDimensioning.
+-    {{PropertyData/fr|DimensionBottomOffset}}   * Le décalage inférieur pour chaque nouvel objet ReinforcementDimensioning.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil [Dessin d\'armature](Arch_Rebar_Drawing/fr.md) peut être utilisé dans [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil [Dessin d\'armature](Arch_Rebar_Drawing/fr.md) peut être utilisé dans [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 ### Créer une vue de dessin de l\'armature 
 
@@ -137,7 +137,7 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 -   Crée un objet `ReinforcementDrawingView` pour une liste d\'objets [Arch Structure](Arch_Structure/fr.md) et [Arch Armature personnalisée](Arch_Rebar/fr.md).
 
--   Il renvoie le `reinforcement_drawing_page` de type `TechDraw::DrawPage`.
+-   Il renvoie le `reinforcement_drawing_page` de type `TechDraw   *   *DrawPage`.
 
 -    `view`spécifie la vue du dessin à générer. Il peut s\'agir de \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" ou \"Bottom\".
 
@@ -147,16 +147,16 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 -    `rebars_color`spécifie la couleur de remplissage des armatures dans le dessin svg.
 
-   Format: (r, g, b)
+   Format   * (r, g, b)
    La valeur r, g, b doit être comprise entre 0 et 1, vous devrez peut-être diviser la valeur de r, g, b par 255 pour obtenir sa valeur entre 0 et 1
    Assurez-vous que r, g, b doivent être flottants
-   Exemple: (0.67, 0.0, 0.0)
+   Exemple   * (0.67, 0.0, 0.0)
 
 -    `structure_stroke_width`spécifie la largeur de trait de la structure dans le dessin svg.
 
 -    `structure_color_style`spécifie le style de remplissage de la structure. Réglez-le sur \"Automatique\" pour sélectionner automatiquement la couleur de la structure ou \"Custom\" pour choisir la valeur de couleur de la structure à partir de la variable `structure_color`.
 
--    `structure_color`spécifie la couleur de remplissage de la structure dans le dessin svg. Format: (r, g, b)
+-    `structure_color`spécifie la couleur de remplissage de la structure dans le dessin svg. Format   * (r, g, b)
 
 -    `drawing_left_offset`spécifie le décalage gauche de la vue de dessin sur `template_file`.
 
@@ -226,7 +226,7 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 rebars = Draft.get_objects_of_type(FreeCAD.ActiveDocument.Objects, "Rebar")
 
 # Créer le schéma de barres d'armature
-for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
+for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
     make_reinforcement_drawing.makeReinforcementDrawing(
         structure=Structure,
         rebars_list=rebars,
@@ -357,7 +357,7 @@ TwoTiesSixRebars.makeTwoTiesSixRebars(
 )
 
 # Créer le schéma de barres d'armature
-for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
+for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
     make_reinforcement_drawing.makeStructuresReinforcementDrawing(
         structure_list=None,
         rebars_list=None,
@@ -381,6 +381,14 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
         dimension_bottom_offset=10,
     )
 ```
+
+
+
+
+
+
+
+[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

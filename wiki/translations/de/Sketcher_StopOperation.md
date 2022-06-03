@@ -1,15 +1,12 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher StopOperation
-   Name/de   *Skizzierer VorgangBeenden
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation   *Skizze → Vorgang Beenden
+   Name/de   *Sketcher VorgangBeenden
+   MenuLocation   *Sketch → Vorgang stoppen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher StopOperation/de
-
-
-</div>
 
 ## Beschreibung
 

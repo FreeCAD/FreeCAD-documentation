@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:FCGear CrownGear
-   MenuLocation:FCGear → Create an Crown gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:[[FCGear InvoluteGear]]
+- GuiCommand   *
+   Name   *FCGear CrownGear
+   MenuLocation   *FCGear → Create an Crown gear
+   Workbenches   *[FCGear](FCGear_Workbench.md)
+   Shortcut   *None
+   Version   *v0.16
+   SeeAlso   *[[FCGear InvoluteGear]]
 ---
 
 # FCGear CrownGear/pl
@@ -14,7 +14,7 @@
 
 The crown wheel resembles a ring-shaped curved rack. The pressure angle decreases continuously from the outer to the inner diameter. Thus, the variable peripheral speed at the crown wheel is compensated against the constant peripheral speed of the pinion. The pointed outer teeth and the steep tooth flanks on the inner diameter limit the usable tooth width. Crown gears achieve similar efficiencies as spur gears. One crown gear can drive several pinions.
 
-Known field of application of crown gears:
+Known field of application of crown gears   *
 
 -   Rear axle drives for cars and motorcycles
 -   Swivel mechanism for operating tables
@@ -22,13 +22,13 @@ Known field of application of crown gears:
 -   Powered tool systems with multiple pinions and a crown gear
 
 ![](images/Crown-Gear_example.png ) 
-*Above: Crown gear*
+*Above   * Crown gear*
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Invoke the command several way:
-    -   Press the <img alt="" src=images/FCGear_CrownGear.svg  style="width:22px;"> [Create a Crown gear](FCGear_CrownGear.md) button in the tool bar.
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  Invoke the command several way   *
+    -   Press the <img alt="" src=images/FCGear_CrownGear.svg  style="width   *22px;"> [Create a Crown gear](FCGear_CrownGear.md) button in the tool bar.
     -   Using the **Menu → Crown gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
@@ -39,34 +39,34 @@ Known field of application of crown gears:
 
 {{Properties_Title|Base}}
 
--    **Placement**: [Placement](Placement.md) is the location and orientation of an object in space.
+-    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
 
--    **Label**: User name of the object in the [Tree view](Tree_view.md).
+-    **Label**   * User name of the object in the [Tree view](Tree_view.md).
 
 
 {{Properties_Title|accuracy}}
 
--    **construct**: Default is **True**. Change to **False** and the construction component disappears. **construct** belongs to **other_teeth**.
+-    **construct**   * Default is **True**. Change to **False** and the construction component disappears. **construct** belongs to **other_teeth**.
 
--    **num_profiles**: Number of profiles used for loft.
+-    **num_profiles**   * Number of profiles used for loft.
 
 
 {{Properties_Title|gear_parameter}}
 
--    **height**: Value for the tooth width.
+-    **height**   * Value for the tooth width.
 
--    **module**: Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Note**).
+-    **module**   * Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Note**).
 
--    **other_teeth**: Number of teeth of the **construction** gear (pinion). See also the information in **Note**.
+-    **other_teeth**   * Number of teeth of the **construction** gear (pinion). See also the information in **Note**.
 
--    **teeth**: Number of teeth
+-    **teeth**   * Number of teeth
 
--    **thickness**: Height from the tip of tooth to the lower side of the crown wheel.
+-    **thickness**   * Height from the tip of tooth to the lower side of the crown wheel.
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pressure_parameter**: Default is 20 (see also the information in **Note**).
+-    **pressure_parameter**   * Default is 20 (see also the information in **Note**).
 
 ### View
 
@@ -74,15 +74,15 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 ## Notes
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **module**   * Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
 
--    **other_teeth**: Several pinions with the same number of teeth only can be used on one crown wheel.
+-    **other_teeth**   * Several pinions with the same number of teeth only can be used on one crown wheel.
 
--    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
+-    **pressure_parameter**   * Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
 -   The geometry of the crown gear is primarily determined by the spur pinion geometry (**other_teeth**).
 
--   Create spur gear with <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Involute gear](FCGear_InvoluteGear.md). The number of teeth must be identical to the parameter **other_teeth** of the crown gear.
+-   Create spur gear with <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *22px;"> [Involute gear](FCGear_InvoluteGear.md). The number of teeth must be identical to the parameter **other_teeth** of the crown gear.
 
 -   Adjustments for optimal running characteristics can be made with the parameters of involute gear.
 
@@ -102,13 +102,18 @@ The parameter descriptions of the **View** tab will be found in [Property editor
     -   
         **inner diamter**
         
-        = **module (spur gear)** \* **teeth (crown gear)** \* **cos pressure_paramter (pinion)** : **cos pressure_parameter (crown gear)**
+        = **module (spur gear)** \* **teeth (crown gear)** \* **cos pressure_paramter (pinion)**    * **cos pressure_parameter (crown gear)**
 
 -   **Outer diameter (5)**
     -   
         **outer diamter**
         
         = **inner diameter** + **2x height (tooth width crown gear)**
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

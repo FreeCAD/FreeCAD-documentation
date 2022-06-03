@@ -56,7 +56,7 @@ Workbenches installed in this way will be available to all users. Depending on y
 Copiare la cartella dell\'ambiente in `$INSTALL_DIR/Mod/`, dove `$INSTALL_DIR` è la directory di installazione di FreeCAD.
 
 -   Su Linux di solito è `/usr/share/freecad/Mod/`
--   Su Windows di solito è `C:\Program Files\FreeCAD\Mod\`
+-   Su Windows di solito è `C   *Program Files\FreeCAD\Mod\`
 -   Su Mac OSX di solito è `/Applications/FreeCAD/Mod/`
 
 
@@ -80,7 +80,7 @@ Workbenches installed in this way will be available only to one user, but will n
 Copiare la cartella dell\'ambiente in `$USER_DIR/Mod/`, dove `$USER_DIR` è la directory di FreeCAD per un particolare `nome utente`.
 
 -   Su Linux di solito è `/home/username/.FreeCAD/Mod/`
--   Su Windows è `%APPDATA%\FreeCAD\Mod\`, che di solito è `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
+-   Su Windows è `%APPDATA%\FreeCAD\Mod\`, che di solito è `C   *Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
 -   Su Mac OSX di solito è `/Users/username/Library/Preferences/FreeCAD/Mod/`. Un modo per accedere alla directory delle preferenze è utilizzare la voce di menu \"Finder\"
 
 **Go → Go to Folder**, e inserire `~/Library/Preferences/FreeCAD`.
@@ -93,6 +93,11 @@ Copiare la cartella dell\'ambiente in `$USER_DIR/Mod/`, dove `$USER_DIR` è la d
 Ulteriori informazioni su come creare un ambiente di lavoro personalizzato si trovano in [Hub sviluppatori](Developer_hub/it.md) e in [Hub utenti avanzati](Power_users_hub/it.md).
 
 Vedere anche la pagina [Come installare ambienti aggiuntivi](How_to_install_additional_workbenches/it.md).
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

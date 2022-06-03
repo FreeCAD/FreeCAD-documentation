@@ -1,30 +1,31 @@
 ---
-- GuiCommand:
-   Name:Std BoxElementSelection
-   MenuLocation:Edit → Box element selection
-   Workbenches:All
-   Shortcut:**Shift**+**E**
-   SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std SelectAll](Std_SelectAll.md)
+- GuiCommand   */pl
+   Name   *Std BoxElementSelection
+   Name/pl   *Std   * Wybór elementów ramką zaznaczenia
+   MenuLocation   *Edycja → Wybór elementów ramką zaznaczenia
+   Workbenches   *All
+   Shortcut   ***Shift** + **E**
+   SeeAlso   *[Zaznacz obszar](Std_BoxSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
 ---
 
 # Std BoxElementSelection/pl
 
-## Description
+## Opis
 
-The **Std BoxElementSelection** command selects faces from a user defined rectangular area, a box, in the [3D view](3D_view.md).
+Polecenie **Wybór elementów ramką zaznaczenia** wybiera ściany z prostokątnego obszaru zdefiniowanego przez użytkownika za pomocą ramki zaznaczenia, w oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select the **Edit → <img src="images/Std_BoxElementSelection.svg" width=16px> Box element selection** option from the menu.
-    -   Use the keyboard shortcut: **Shift**+**E**.
-2.  Do one of the following:
-    -   Drag a rectangle from left to right to select faces whose geometric center lies inside the rectangle.
-    -   Drag a rectangle from right to left to select faces whose bounding box is (partially) inside the rectangle, or touches it.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Wybierz z menu opcję **Edycja → <img src="images/Std_BoxElementSelection.svg" width=16px> Wybór elementów ramką zaznaczenia**.
+    -   Użyj skrótu klawiaturowego   * **Shift** + **E**.
+2.  Wykonaj jedną z poniższych czynności   *
+    -   Przeciągnij ramkę zaznaczenia od lewej do prawej, aby zaznaczyć obiekty, których środek geometryczny leży wewnątrz tego pola.
+    -   Przeciągnij ramkę zaznaczenia od prawej do lewej, aby zaznaczyć obiekty, których ramka otaczająca znajduje się *(częściowo)* wewnątrz tego pola lub go dotyka.
 
-## Notes
+## Uwagi
 
--   Use the [Std BoxSelection](Std_BoxSelection.md) command to box select objects instead of faces.
+-   Użyj polecenia [Zaznacz obszar](Std_BoxSelection/pl.md), aby wybrać obiekty zamiast ścian.
 
 
 

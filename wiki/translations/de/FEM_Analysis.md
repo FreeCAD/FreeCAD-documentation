@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:FEM Analysis
-   Name/de:FEM Analyse
-   MenuLocation:Modell → Analysecontainer‏‎
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:**N** **A**
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand   */de
+   Name   *FEM Analysis
+   Name/de   *FEM Analyse
+   MenuLocation   *Modell → Analysecontainer‏‎
+   Workbenches   *[FEM](FEM_Workbench/de.md)
+   Shortcut   ***N** **A**
+   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM Analysis/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Die FEM Analyse könnte als ein Behälter gesehen werden, der alle Objekte einer Finite Element Analyse aufnimmt. Es ist obligatorisch, einen Analysecontainer zu haben, der alle benötigten Objekte enthält. Mindestens eines der folgenden Objekte wird für eine mechanische Analyse benötigt:
+Die FEM Analyse könnte als ein Behälter gesehen werden, der alle Objekte einer Finite Element Analyse aufnimmt. Es ist obligatorisch, einen Analysecontainer zu haben, der alle benötigten Objekte enthält. Mindestens eines der folgenden Objekte wird für eine mechanische Analyse benötigt   *
 
 -   [Material](FEM_MaterialSolid/de.md)
 -   [ festgelegte Beschränkung](FEM_ConstraintFixed/de.md)
@@ -42,11 +42,11 @@ Die FEM Analyse könnte als ein Behälter gesehen werden, der alle Objekte einer
 ## Optionen
 
 -   Bislang gibt es keine Option zur Auswahl.
--   Eine Häufigkeitsanalyse ist in Entwicklung. Siehe [1](http://forum.freecadweb.org/viewtopic.php?f=18&t=12189) für weitere Informationen.
+-   Eine Häufigkeitsanalyse ist in Entwicklung. Siehe [1](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) für weitere Informationen.
 
 ## Eigenschaften
 
--    **OutpuDir**: Gibt das Arbeitsverzeichnis der Analyse an
+-    **OutpuDir**   * Gibt das Arbeitsverzeichnis der Analyse an
 
 ## Skripten
 
@@ -75,7 +75,7 @@ member.remove( documentobject )
  App.ActiveDocument.MechanicalAnalysis.Member = member
 ```
 
-Beispiele: 
+Beispiele   * 
 ```python
 import MechanicalAnalysis
 analysis = MechanicalAnalysis.makeMechanicalAnalysis("MechanicalAnalysis")

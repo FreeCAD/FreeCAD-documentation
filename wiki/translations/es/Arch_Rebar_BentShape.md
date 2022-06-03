@@ -1,12 +1,12 @@
 ---
-- GuiCommand:Addon/es
-   Name:Arch Rebar BentShape
-   Name/es: Arch Barra de refuerzo doblada
-   MenuLocation:Arch → Rebar tools
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Estribo](Arch_Rebar_Stirrup/es.md), [[Arch Rebar/es]]
-   Version:0.17
-   Addon:Reinforcement
+- GuiCommand   *Addon/es
+   Name   *Arch Rebar BentShape
+   Name/es   * Arch Barra de refuerzo doblada
+   MenuLocation   *Arch → Rebar tools
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   SeeAlso   *[Estribo](Arch_Rebar_Stirrup/es.md), [[Arch Rebar/es]]
+   Version   *0.17
+   Addon   *Reinforcement
 ---
 
 # Arch Rebar BentShape/es
@@ -26,14 +26,14 @@ La herramienta {{KEY | <img src="images/_Arch_Rebar_BentShape.png_" width= 16px>
 
 The [BentShape Rebar](Arch_Rebar_BentShape.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;">
+<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/BentShapeRebar.png  style="width:800px;">
+<img alt="" src=images/BentShapeRebar.png  style="width   *800px;">
 
 
 </div>
@@ -59,7 +59,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 </div>
 
 
-:   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/BentShapeDialog.png  style="width   *250px;">
 
 
 
@@ -67,25 +67,25 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Propiedades
 
--    {{PropertyData/es | Orientation}}: Decide la orientación de la barra de refuerzo (como una parte inferior, superior, derecha e izquierda).
+-    {{PropertyData/es | Orientation}}   * Decide la orientación de la barra de refuerzo (como una parte inferior, superior, derecha e izquierda).
 
--    {{PropertyData/es | Front Cover}}: la distancia entre la barra de refuerzo y la cara seleccionada.
+-    {{PropertyData/es | Front Cover}}   * la distancia entre la barra de refuerzo y la cara seleccionada.
 
--    {{PropertyData/es | Left Cover}}: la distancia entre el extremo izquierdo de la barra de refuerzo a la cara izquierda de la estructura.
+-    {{PropertyData/es | Left Cover}}   * la distancia entre el extremo izquierdo de la barra de refuerzo a la cara izquierda de la estructura.
 
--    {{PropertyData/es | Right Cover}}: la distancia entre el extremo derecho de la barra de refuerzo a la derecha de la estructura.
+-    {{PropertyData/es | Right Cover}}   * la distancia entre el extremo derecho de la barra de refuerzo a la derecha de la estructura.
 
--    {{PropertyData/es | Bottom Cover}}: la distancia entre las barras de refuerzo desde la cara inferior de la estructura.
+-    {{PropertyData/es | Bottom Cover}}   * la distancia entre las barras de refuerzo desde la cara inferior de la estructura.
 
--    {{PropertyData/es | Top Cover}}: la distancia entre barras de refuerzo desde la cara superior de la estructura.
+-    {{PropertyData/es | Top Cover}}   * la distancia entre barras de refuerzo desde la cara superior de la estructura.
 
--    {{PropertyData/es | Anchor Length}}: es la longitud del brazo de la barra de refuerzo de forma doblada.
+-    {{PropertyData/es | Anchor Length}}   * es la longitud del brazo de la barra de refuerzo de forma doblada.
 
--    {{PropertyData/es | Bent Angle}}: Decide el ángulo en la barra de herramientas de forma doblada.
+-    {{PropertyData/es | Bent Angle}}   * Decide el ángulo en la barra de herramientas de forma doblada.
 
--    {{PropertyData/es | Amount}}: la cantidad de barras de refuerzo.
+-    {{PropertyData/es | Amount}}   * la cantidad de barras de refuerzo.
 
--    {{PropertyData/es | Spacing}}: la distancia entre los ejes de cada barra.
+-    {{PropertyData/es | Spacing}}   * la distancia entre los ejes de cada barra.
 
 
 <div class="mw-translate-fuzzy">
@@ -98,7 +98,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-La herramienta **<img src="images/_Arch_Rebar_BentShape.png" width=16px> Bent Shape Rebar** puede usarse en [macros](macros/es.md) y desde la consola de python mediante la siguiente función:
+La herramienta **<img src="images/_Arch_Rebar_BentShape.png" width=16px> Bent Shape Rebar** puede usarse en [macros](macros/es.md) y desde la consola de python mediante la siguiente función   *
 
 
 </div>
@@ -113,7 +113,7 @@ Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 <div class="mw-translate-fuzzy">
 
--   La barra de refuerzo doblada tiene cuatro orientaciones diferentes:
+-   La barra de refuerzo doblada tiene cuatro orientaciones diferentes   *
     -   Fondo
     -   Superior
     -   Izquierda
@@ -181,6 +181,11 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

@@ -1,42 +1,43 @@
 ---
-- GuiCommand:
-   Name:Std Undo
-   MenuLocation:Edit → Undo
-   Workbenches:All
-   Shortcut:**Ctrl**+**Z**
-   SeeAlso:[Std Redo](Std_Redo.md)
+- GuiCommand   */pl
+   Name   *Std Undo
+   Name/pl   *Std   * Cofnij
+   MenuLocation   *Edycja → Cofnij
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl**+**Z**
+   SeeAlso   *[Przywróć](Std_Redo/pl.md)
 ---
 
 # Std Undo/pl
 
-## Description
+## Opis
 
-The **Std Undo** command undoes the last action.
+Polecenie **Cofnij** cofa ostatnią czynność
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Undo.svg" width=16px> [Std Undo](Std_Undo.md)** button.
-    -   Select the **Edit → <img src="images/Std_Undo.svg" width=16px> Undo** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**Z**.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_Undo.svg" width=16px> [Cofnij](Std_Undo.md)**.
+    -   Wybierz z menu opcję **Edycja → <img src="images/Std_Undo.svg" width=16px> Cofnij**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **Z**.
 
-## Options
+## Opcje
 
--   To undo multiple actions click on the small black down arrow to the right of the **<img src="images/Std_Undo.svg" width=16px> [Std Undo](Std_Undo.md)** button and select from the list.
+-   Aby cofnąć wiele czynności, kliknij na małą czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_Undo.svg" width=16px> [Std Cofnij](Std_Undo.md)** i wybierz odpowiednią pozycję z listy.
 
-## Preferences
+## Ustawienia
 
--   The Undo/Redo functionality can be disabled by setting **Tools → Edit parameters... → BaseApp → Preferences → Document → UsingUndo** to `False`, but this is not recommended. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
--   The maximum number of Undo/Redo steps is controlled by **Tools → Edit parameters... → BaseApp → Preferences → Document → MaxUndoSize**. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Funkcję Cofnij / Ponów można wyłączyć, ustawiając parametr **Przybory → Edycja parametrów... → BaseApp → Preferencje → Dokument → UżywanieUndo** na wartość {{FALSE/pl}}, ale nie jest to zalecane. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
+-   Maksymalna liczba kroków Cofnij / Ponów jest kontrolowana przez parametr **Przybory → Edycja parametrów... → BaseApp → Preferencje → Dokument → MaxUndoSize**. Ustawienie to można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To undo the last action use the `undo` method of the document object.
+Aby cofnąć ostatnią czynność, należy użyć metody `undo` obiektu dokumentu.
 
 
 ```python
@@ -45,7 +46,7 @@ import FreeCAD
 FreeCAD.ActiveDocument.undo()
 ```
 
-When running FreeCAD in pure console mode (CLI), the undo/redo mechanism isn\'t enabled by default. It must be explicitly activated for each document.
+Gdy FreeCAD działa w trybie czysto konsolowym *(CLI)*, mechanizm cofania / przywracania nie jest domyślnie włączony. Musi on być jawnie aktywowany dla każdego dokumentu.
 
 
 ```python

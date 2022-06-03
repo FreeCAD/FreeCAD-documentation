@@ -15,33 +15,33 @@ Jeśli jesteś zainteresowany użyciem FreeCAD w aplikacji o zamkniętym kodzie 
 
 ## Informacje ogólne 
 
-Przeważającą część pracy przeprowadza się w {{FileName|MainCmd.cpp}} lub {{FileName|MainGui.cpp}}. Projekty te generują pliki wykonywalne FreeCAD. Aby stworzyć własną markę, wystarczy skopiować projekty **Main** lub **MainGui** i nadać plikom wykonywalnym własną nazwę, np. {{FileName|FooApp.exe}}. Najważniejszych ustawienia dla nowego wyglądu można dokonać w jednym miejscu w funkcji **main()**. Oto fragment kodu sterujący brandingiem:
+Przeważającą część pracy przeprowadza się w **MainCmd.cpp** lub **MainGui.cpp**. Projekty te generują pliki wykonywalne FreeCAD. Aby stworzyć własną markę, wystarczy skopiować projekty **Main** lub **MainGui** i nadać plikom wykonywalnym własną nazwę, np. **FooApp.exe**. Najważniejszych ustawienia dla nowego wyglądu można dokonać w jednym miejscu w funkcji **main()**. Oto fragment kodu sterujący brandingiem   *
 
  {.C}
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
-    App::Application::Config()["ExeName"] = "FooApp";
-    App::Application::Config()["ExeVersion"] = "0.7";
+    App   *   *Application   *   *Config()["ExeName"] = "FooApp";
+    App   *   *Application   *   *Config()["ExeVersion"] = "0.7";
 
     // set the banner (for loging and console)
-    App::Application::Config()["CopyrightInfo"] = sBanner;
-    App::Application::Config()["AppIcon"] = "FooAppIcon";
-    App::Application::Config()["SplashScreen"] = "FooAppSplasher";
-    App::Application::Config()["StartWorkbench"] = "Part design";
-    App::Application::Config()["HiddenDockWindow"] = "Property editor";
-    App::Application::Config()["SplashAlignment" ] = "Bottom|Left";
-    App::Application::Config()["SplashTextColor" ] = "#000000"; // black
+    App   *   *Application   *   *Config()["CopyrightInfo"] = sBanner;
+    App   *   *Application   *   *Config()["AppIcon"] = "FooAppIcon";
+    App   *   *Application   *   *Config()["SplashScreen"] = "FooAppSplasher";
+    App   *   *Application   *   *Config()["StartWorkbench"] = "Part design";
+    App   *   *Application   *   *Config()["HiddenDockWindow"] = "Property editor";
+    App   *   *Application   *   *Config()["SplashAlignment" ] = "Bottom|Left";
+    App   *   *Application   *   *Config()["SplashTextColor" ] = "#000000"; // black
 
     // Inits the Application 
-    App::Application::Config()["RunMode"] = "Gui";
-    App::Application::init(argc,argv);
+    App   *   *Application   *   *Config()["RunMode"] = "Gui";
+    App   *   *Application   *   *init(argc,argv);
 
-    Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
+    Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 
-    Gui::Application::initApplication();
-    Gui::Application::runApplication();
-    App::Application::destruct();
+    Gui   *   *Application   *   *initApplication();
+    Gui   *   *Application   *   *runApplication();
+    App   *   *Application   *   *destruct();
 
     return 0;
 }
@@ -53,23 +53,23 @@ Kolejne linie określają konkretne pozycje konfiguracji aplikacji FooApp. Opis 
 
 ## Pliki obrazów 
 
-Wszystkie zasoby są zestawiane w FreeCAD przy użyciu [System zasobów Qt](http://qt-project.org/doc/qt-4.8/resources.html). Dlatego musisz zapisać plik {{FileName|.qrc}}, plik oparty na formacie XML, który wyświetla pliki obrazów na dysku, ale także każdy inny rodzaj plików zasobów. Aby załadować skompilowane zasoby wewnątrz aplikacji należy dodać linię:
+Wszystkie zasoby są zestawiane w FreeCAD przy użyciu [System zasobów Qt](http   *//qt-project.org/doc/qt-4.8/resources.html). Dlatego musisz zapisać plik **.qrc**, plik oparty na formacie XML, który wyświetla pliki obrazów na dysku, ale także każdy inny rodzaj plików zasobów. Aby załadować skompilowane zasoby wewnątrz aplikacji należy dodać linię   *
 
 
 ```python
 Q_INIT_RESOURCE(FooApp); 
 ```
 
-do funkcji **main()**. Ewentualnie, jeśli posiadasz obraz w pliku XPM, możesz go bezpośrednio włączyć do {{FileName|main.cpp}} i dodać następującą linię, aby go zarejestrować:
+do funkcji **main()**. Ewentualnie, jeśli posiadasz obraz w pliku XPM, możesz go bezpośrednio włączyć do **main.cpp** i dodać następującą linię, aby go zarejestrować   *
 
 
 ```python
-Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
+Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
 ## Marka z XML 
 
-W FreeCAD istnieje również metoda obsługiwana bez pisania niestandardowych funkcji main(). Dla tej metody musisz napisać nazwę pliku o nazwie {{FileName|branding.xml}} i umieścić go w katalogu instalacyjnym programu FreeCAD. Oto przykład z wszystkimi obsługiwanymi znacznikami:
+W FreeCAD istnieje również metoda obsługiwana bez pisania niestandardowych funkcji main(). Dla tej metody musisz napisać nazwę pliku o nazwie **branding.xml** i umieścić go w katalogu instalacyjnym programu FreeCAD. Oto przykład z wszystkimi obsługiwanymi znacznikami   *
 
  {.XML}
 <?xml version="1.0" encoding="utf-8"?>
@@ -94,6 +94,14 @@ W FreeCAD istnieje również metoda obsługiwana bez pisania niestandardowych fu
 
 
 Wszystkie wymienione znaczniki są opcjonalne.
+
+
+
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

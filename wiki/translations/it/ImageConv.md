@@ -8,7 +8,7 @@
 
 ## Compilazione
 
-ImageConv si trova nell\'albero del sorgente di FreeCAD:
+ImageConv si trova nell\'albero del sorgente di FreeCAD   *
 
 
 </div>
@@ -29,6 +29,8 @@ ImageConv è uno strumento da riga di comando.
 
 
 </div>
+
+[Category   *Developer](Category_Developer.md)
 
 
 

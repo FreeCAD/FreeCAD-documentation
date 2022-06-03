@@ -26,19 +26,19 @@ Dacă nu sunteți familiarizat cu Python, vă recomandăm să căutați tutorial
 
 ### Interpretorul
 
-Din interpretor, puteți accesa toate modulele Python instalate de sistem, precum și modulele FreeCAD încorporate și toate modulele FreeCAD suplimentare instalate ulterior. Imaginea de mai jos prezintă interpretorul Python:
+Din interpretor, puteți accesa toate modulele Python instalate de sistem, precum și modulele FreeCAD încorporate și toate modulele FreeCAD suplimentare instalate ulterior. Imaginea de mai jos prezintă interpretorul Python   *
 
 
 </div>
 
-From the interpreter, you can access all your system-installed Python modules, as well as the built-in FreeCAD modules, and all additional FreeCAD modules you installed later. The screenshot below shows the Python interpreter:
+From the interpreter, you can access all your system-installed Python modules, as well as the built-in FreeCAD modules, and all additional FreeCAD modules you installed later. The screenshot below shows the Python interpreter   *
 
 ![The FreeCAD Python interpreter](images/screenshot_pythoninterpreter.jpg )
 
 
 <div class="mw-translate-fuzzy">
 
-Din interpretor, puteți executa codul Python și puteți naviga prin clasele și funcțiile disponibile. FreeCAD oferă un browser al claselor foarte util pentru explorarea noii tale lumi FreeCAD: Când introduceți numele unei clase cunoscute, urmată de un punct (adică doriți să adăugați ceva din acea clasă), se deschide o fereastră de browser de clasă, unde puteți naviga între subclasele și metodele disponibile. Când selectați ceva, este afișat un text de ajutor asociat (dacă există):
+Din interpretor, puteți executa codul Python și puteți naviga prin clasele și funcțiile disponibile. FreeCAD oferă un browser al claselor foarte util pentru explorarea noii tale lumi FreeCAD   * Când introduceți numele unei clase cunoscute, urmată de un punct (adică doriți să adăugați ceva din acea clasă), se deschide o fereastră de browser de clasă, unde puteți naviga între subclasele și metodele disponibile. Când selectați ceva, este afișat un text de ajutor asociat (dacă există)   *
 
 
 </div>
@@ -80,12 +80,12 @@ In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python m
 
 ## Module integrate 
 
-Deoarece FreeCAD este proiectat să ruleze fără o interfață grafică de utilizator (GUI), aproape toate funcționalitățile sale sunt separate în două grupuri: funcționalitatea Core, numită \"App\", și funcționalitatea GUI, numită \"Gui\". Deci, cele două module principale FreeCAD încorporate se numesc App și Gui. Aceste două module pot fi accesate, de asemenea, din scripturile din afara interpretului, prin numele \"FreeCAD\" și respectiv \"FreeCADGui\".
+Deoarece FreeCAD este proiectat să ruleze fără o interfață grafică de utilizator (GUI), aproape toate funcționalitățile sale sunt separate în două grupuri   * funcționalitatea Core, numită \"App\", și funcționalitatea GUI, numită \"Gui\". Deci, cele două module principale FreeCAD încorporate se numesc App și Gui. Aceste două module pot fi accesate, de asemenea, din scripturile din afara interpretului, prin numele \"FreeCAD\" și respectiv \"FreeCADGui\".
 
 
 </div>
 
-Since FreeCAD is designed so that it can also be run without a Graphical User Interface (GUI), almost all its functionality is separated into two groups: Core functionality, named `App`, and GUI functionality, named `Gui`. These two modules can also be accessed from scripts outside of the interpreter, by the names `FreeCAD` and `FreeCADGui` respectively.
+Since FreeCAD is designed so that it can also be run without a Graphical User Interface (GUI), almost all its functionality is separated into two groups   * Core functionality, named `App`, and GUI functionality, named `Gui`. These two modules can also be accessed from scripts outside of the interpreter, by the names `FreeCAD` and `FreeCADGui` respectively.
 
 
 <div class="mw-translate-fuzzy">
@@ -139,7 +139,7 @@ Pentru fiecare obiect App din document, există un obiect Gui corespunzător. De
 
 <div class="mw-translate-fuzzy">
 
-Pentru a acesa partea App a unui obiect oarecare, scrieți:
+Pentru a acesa partea App a unui obiect oarecare, scrieți   *
 
 
 </div>
@@ -152,7 +152,7 @@ myObject = App.ActiveDocument.getObject("ObjectName")
 
 <div class="mw-translate-fuzzy">
 
-unde \"ObjectName\" este numele obiectului dvs. Puteți de asemenea tasta:
+unde \"ObjectName\" este numele obiectului dvs. Puteți de asemenea tasta   *
 
 
 </div>
@@ -165,7 +165,7 @@ myObject = App.ActiveDocument.ObjectName
 
 <div class="mw-translate-fuzzy">
 
-Pentru a accesa partea Gui a aceluiași obiect, scrieți:
+Pentru a accesa partea Gui a aceluiași obiect, scrieți   *
 
 
 </div>
@@ -178,7 +178,7 @@ myViewObject = Gui.ActiveDocument.getObject("ObjectName")
 
 <div class="mw-translate-fuzzy">
 
-unde \"ObjectName\" este numele obeictului duvs. Puteți de asemena tasta:
+unde \"ObjectName\" este numele obeictului duvs. Puteți de asemena tasta   *
 
 
 </div>
@@ -214,7 +214,7 @@ In FreeCAD all your work resides inside documents. A document contains your geom
 
 <div class="mw-translate-fuzzy">
 
-Pentru a accesa partea App a documentului curent deschis (activ), scrieți:
+Pentru a accesa partea App a documentului curent deschis (activ), scrieți   *
 
 
 </div>
@@ -224,7 +224,7 @@ Pentru a accesa partea App a documentului curent deschis (activ), scrieți:
 myDocument = App.ActiveDocument
 ```
 
-Pentru a crea un nou documente, scrieți:
+Pentru a crea un nou documente, scrieți   *
 
 
 ```python
@@ -234,7 +234,7 @@ myDocument = App.newDocument("Document Name")
 
 <div class="mw-translate-fuzzy">
 
-Pentru a accesa partea Gui documentul deschis (activ), tastați:
+Pentru a accesa partea Gui documentul deschis (activ), tastați   *
 
 
 </div>
@@ -244,7 +244,7 @@ Pentru a accesa partea Gui documentul deschis (activ), tastați:
 myGuiDocument = Gui.ActiveDocument
 ```
 
-Pentru a accesa vederea curentă, scrieți:
+Pentru a accesa vederea curentă, scrieți   *
 
 
 ```python
@@ -259,24 +259,24 @@ myView = Gui.ActiveDocument.ActiveView
 
 ## Utilizarea de module adiționale 
 
-Modulele FreeCAD și FreeCADGui sunt singurele responsabile pentru crearea și gestionarea obiectelor din documentul FreeCAD. Ele nu fac de fapt nimic, cum ar fi crearea sau modificarea geometriei. Aceasta deoarece această geometrie poate fi de mai multe tipuri și astfel este gestionată de module suplimentare, fiecare responsabil pentru gestionarea unui anumit tip de geometrie. De exemplu, [Part Workbench](Part_Workbench.md) utilizează kernelul OpenCascade și, prin urmare, este capabil să creeze și să manipuleze [B-rep](http://en.wikipedia.org/wiki/Boundary_representation) type geometry, ceea ce este construit pentru OpenCascade. Modul [Mesh Workbench](Mesh_Workbench.md) poate construi și modifica obiecte tip plase. În acest fel, FreeCAD este capabil să gestioneze o mare varietate de tipuri de obiecte, care pot coexista în același document, iar noi tipuri pot fi adăugate cu ușurință în viitor.
+Modulele FreeCAD și FreeCADGui sunt singurele responsabile pentru crearea și gestionarea obiectelor din documentul FreeCAD. Ele nu fac de fapt nimic, cum ar fi crearea sau modificarea geometriei. Aceasta deoarece această geometrie poate fi de mai multe tipuri și astfel este gestionată de module suplimentare, fiecare responsabil pentru gestionarea unui anumit tip de geometrie. De exemplu, [Part Workbench](Part_Workbench.md) utilizează kernelul OpenCascade și, prin urmare, este capabil să creeze și să manipuleze [B-rep](http   *//en.wikipedia.org/wiki/Boundary_representation) type geometry, ceea ce este construit pentru OpenCascade. Modul [Mesh Workbench](Mesh_Workbench.md) poate construi și modifica obiecte tip plase. În acest fel, FreeCAD este capabil să gestioneze o mare varietate de tipuri de obiecte, care pot coexista în același document, iar noi tipuri pot fi adăugate cu ușurință în viitor.
 
 
 </div>
 
-The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the [Part Workbench](Part_Workbench.md), using the OpenCascade kernel, is able to create and manipulate [BRep](http://en.wikipedia.org/wiki/Boundary_representation) type geometry. Whereas the [Mesh Workbench](Mesh_Workbench.md) is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
+The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the [Part Workbench](Part_Workbench.md), using the OpenCascade kernel, is able to create and manipulate [BRep](http   *//en.wikipedia.org/wiki/Boundary_representation) type geometry. Whereas the [Mesh Workbench](Mesh_Workbench.md) is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 ### Crearea obiectelor 
 
-Fiecare modul are propriul mod de a trata geometria sa, dar un lucru pe care, de obicei, pot să-l facă este să creeze obiecte în document. Dar documentul FreeCAD este, de asemenea, conștient de tipurile de obiecte disponibile furnizate de module:
+Fiecare modul are propriul mod de a trata geometria sa, dar un lucru pe care, de obicei, pot să-l facă este să creeze obiecte în document. Dar documentul FreeCAD este, de asemenea, conștient de tipurile de obiecte disponibile furnizate de module   *
 
 
 </div>
 
-Each module has its own way of dealing with geometry, but one thing they usually all can do is create objects in the document. But the FreeCAD document is also aware of the available object types provided by the modules:
+Each module has its own way of dealing with geometry, but one thing they usually all can do is create objects in the document. But the FreeCAD document is also aware of the available object types provided by the modules   *
 
 
 ```python
@@ -286,21 +286,21 @@ FreeCAD.ActiveDocument.supportedTypes()
 
 <div class="mw-translate-fuzzy">
 
-vă va lista toate obiectele posibile pe care le puteți crea. De exemplu, să creăm o plasă (tratată de modulul Mesh/Plasă) și o Piesă (tratată de modulul Part/Piesă):
+vă va lista toate obiectele posibile pe care le puteți crea. De exemplu, să creăm o plasă (tratată de modulul Mesh/Plasă) și o Piesă (tratată de modulul Part/Piesă)   *
 
 
 </div>
 
 
 ```python
-myMesh = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "myMeshName")
-myPart = FreeCAD.ActiveDocument.addObject("Part::Feature", "myPartName")
+myMesh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "myMeshName")
+myPart = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myPartName")
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Primul argument este tipul de obiect, al doilea este numele obiectului. Cele două obiecte arată aproape la fel: nu conțin încă nicio geometrie și majoritatea proprietăților lor sunt aceleași când le inspectați cu dir(myMesh) și dir(myPart). Cu o excepție, myMesh are o proprietate \"Mesh\" și \"Part\" are o proprietate \"Shape\". Acesta este locul în care sunt stocate datele de Plasă și Piesă. De exemplu, să creăm un cub Part și să îl stocăm în obiectul myPart:
+Primul argument este tipul de obiect, al doilea este numele obiectului. Cele două obiecte arată aproape la fel   * nu conțin încă nicio geometrie și majoritatea proprietăților lor sunt aceleași când le inspectați cu dir(myMesh) și dir(myPart). Cu o excepție, myMesh are o proprietate \"Mesh\" și \"Part\" are o proprietate \"Shape\". Acesta este locul în care sunt stocate datele de Plasă și Piesă. De exemplu, să creăm un cub Part și să îl stocăm în obiectul myPart   *
 
 
 </div>
@@ -315,7 +315,7 @@ myPart.Shape = cube
 
 <div class="mw-translate-fuzzy">
 
-Puteți încerca să stocați cubul în interiorul proprietății Mesh-ului obiectului myMesh, va veni o eroare în care se plânge despre tipul greșit. Aceasta se datorează faptului că aceste proprietăți sunt făcute pentru a stoca numai un anumit tip. În proprietatea MyMesh a Mesh, puteți salva numai chestii create cu modulul Mesh. Rețineți că majoritatea modulelor au, de asemenea, o comandă rapidă pentru a adăuga geometria lor la document:
+Puteți încerca să stocați cubul în interiorul proprietății Mesh-ului obiectului myMesh, va veni o eroare în care se plânge despre tipul greșit. Aceasta se datorează faptului că aceste proprietăți sunt făcute pentru a stoca numai un anumit tip. În proprietatea MyMesh a Mesh, puteți salva numai chestii create cu modulul Mesh. Rețineți că majoritatea modulelor au, de asemenea, o comandă rapidă pentru a adăuga geometria lor la document   *
 
 
 </div>
@@ -335,12 +335,12 @@ Part.show(cube)
 
 ### Modificarea obiectelor 
 
-Modificarea unui obiect este făcută în același mod:
+Modificarea unui obiect este făcută în același mod   *
 
 
 </div>
 
-Modifying an object is done in the same way:
+Modifying an object is done in the same way   *
 
 
 ```python
@@ -349,7 +349,7 @@ cube = Part.makeBox(2, 2, 2)
 myPart.Shape = cube
 ```
 
-Acum, să schimbăm forma printr-o formă mai mare:
+Acum, să schimbăm forma printr-o formă mai mare   *
 
 
 ```python
@@ -365,12 +365,12 @@ myPart.Shape = biggercube
 
 ### Interogarea obiectelor 
 
-Puteți să vă uitați mereu la tipul de obiect ca acesta:
+Puteți să vă uitați mereu la tipul de obiect ca acesta   *
 
 
 </div>
 
-You can always look at the type of an object like this:
+You can always look at the type of an object like this   *
 
 
 ```python
@@ -381,20 +381,20 @@ print(myObj.TypeId)
 
 <div class="mw-translate-fuzzy">
 
-sau să știm dacă un obiect este derivat dintr-unul dintre cele de bază (Part Feature, Mesh Feature, etc):
+sau să știm dacă un obiect este derivat dintr-unul dintre cele de bază (Part Feature, Mesh Feature, etc)   *
 
 
 </div>
 
 
 ```python
-print(myObj.isDerivedFrom("Part::Feature"))
+print(myObj.isDerivedFrom("Part   *   *Feature"))
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [Part Workbench](Part_Workbench.md), citiți pagina [ Pare scripting](Topological_data_scripting.md), sau pagina [Mesh Scriptingpentru](Mesh_Scripting.md) a lucra cu [Mesh Workbench](Mesh_Workbench.md).Rețineți că, deși modulele Parte și Mesh sunt cele mai complete și utilizate pe scară largă, alte module cum ar fi [Draft Workbench](Draft_Workbench.md) au, de asemenea, [scripting](Draft_API.md) APIs care vă pate fi utili.Pentru o listă completă a fiecărui modul și a instrumentelor disponibile, vizitați secțiunea [:Category:API](:Category_API.md).
+Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [Part Workbench](Part_Workbench.md), citiți pagina [ Pare scripting](Topological_data_scripting.md), sau pagina [Mesh Scriptingpentru](Mesh_Scripting.md) a lucra cu [Mesh Workbench](Mesh_Workbench.md).Rețineți că, deși modulele Parte și Mesh sunt cele mai complete și utilizate pe scară largă, alte module cum ar fi [Draft Workbench](Draft_Workbench.md) au, de asemenea, [scripting](Draft_API.md) APIs care vă pate fi utili.Pentru o listă completă a fiecărui modul și a instrumentelor disponibile, vizitați secțiunea [   *Category   *API](   *Category_API.md).
 
 
 </div>
@@ -410,6 +410,11 @@ Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

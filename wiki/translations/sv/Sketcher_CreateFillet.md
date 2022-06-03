@@ -1,6 +1,6 @@
 # Sketcher CreateFillet/sv
 ---
-- GuiCommand:/sv   Name:Sketcher CreateFillet   Name/sv:Sketcher CreateFillet   Workbenches:[[Sketcher Workbench/sv   Sketcher]]|Shortcut:F   MenuLocation:Sketch → Sketcher geometries → Create fillet---
+- GuiCommand   */sv   Name   *Sketcher CreateFillet   Name/sv   *Sketcher CreateFillet   Workbenches   *[[Sketcher Workbench/sv   Sketcher]]|Shortcut   *F   MenuLocation   *Sketch → Sketcher geometries → Create fillet---
 
 
 </div>
@@ -15,7 +15,7 @@ When starting the tool, selections are cleared and the mouse pointer changes to 
 
 ## Usage
 
-1.  Press the **[<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [Create fillet](Sketcher_CreateFillet.md)** button.
+1.  Press the **[<img src=images/Sketcher_CreateFillet.svg style="width   *16px"> [Create fillet](Sketcher_CreateFillet.md)** button.
 2.  Pick a vertex connecting two lines; or click on two connected lines, the distance you click from the vertex will set the fillet radius.
 3.  Pressing **Esc** or clicking the right mouse button cancels or terminates the function.
 

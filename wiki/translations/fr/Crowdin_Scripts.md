@@ -3,13 +3,13 @@
 
 ## Gérer les traductions de FreeCAD 
 
-FreeCAD utilise un service de traduction tiers appelé [Crowdin](https://crowdin.com/project/freecad) pour gérer les traductions.
+FreeCAD utilise un service de traduction tiers appelé [Crowdin](https   *//crowdin.com/project/freecad) pour gérer les traductions.
 
-Il existe 3 scripts dans FreeCAD/src/Tools utilisés pour gérer les fichiers de traduction:
+Il existe 3 scripts dans FreeCAD/src/Tools utilisés pour gérer les fichiers de traduction   *
 
-1.  updatets.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
-2.  updatecrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
-3.  updatefromcrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
+1.  updatets.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
+2.  updatecrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
+3.  updatefromcrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
 
 ### Remarques
 
@@ -21,11 +21,11 @@ Il existe 3 scripts dans FreeCAD/src/Tools utilisés pour gérer les fichiers de
 
 Le script updatets.py créera les fichiers .ts dans votre répertoire local FreeCAD/. Il génère des fichiers .ts (Qt Translation Source File).
 
-Il est appelé avec : python2 updatets.py
+Il est appelé avec    * python2 updatets.py
 
 ### updatecrowdin.py
 
-Le script updatecrowdin.py pousse les modifications vers Crowdin (service de traduction crowdsource de traduction tiers) à partir de votre répertoire local FreeCAD/. Le script prend actuellement en charge 4 arguments:
+Le script updatecrowdin.py pousse les modifications vers Crowdin (service de traduction crowdsource de traduction tiers) à partir de votre répertoire local FreeCAD/. Le script prend actuellement en charge 4 arguments   *
 
 -   updatecrowdin.py status affiche un statut des traductions
 -   updatecrowdin.py update met à jour la version actuelle des fichiers .ts présents dans le code source crowdin
@@ -39,7 +39,7 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 ## Pour envoyer les dernières modifications à crowdin 
 
 -   Testé uniquement sur Linux
--   Vous avez besoin d'un fichier .credentials dans votre répertoire /home/YourUser. Ce fichier est un simple fichier texte contenant une seule ligne, qui correspond à la clé API que vous obtenez sur <https://crowdin.com/project/freecad/settings#api> (uniquement pour les administrateurs).
+-   Vous avez besoin d'un fichier .credentials dans votre répertoire /home/YourUser. Ce fichier est un simple fichier texte contenant une seule ligne, qui correspond à la clé API que vous obtenez sur <https   *//crowdin.com/project/freecad/settings#api> (uniquement pour les administrateurs).
 -   Assurez-vous que votre dépôt est propre (git pull, git stash si nécessaire)
 -   cd /path/to/freecad-source-code/src/Tools
 -   python updatets.py (remplira tous les fichiers .ts trouvés dans le source avec les dernières chaînes)
@@ -50,7 +50,7 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 ## Pour fusionner les dernières traductions de crowdin 
 
 -   Testé uniquement sur Linux
--   Vous avez besoin d'un fichier .credentials dans votre répertoire /home/YourUser. Ce fichier est un simple fichier texte contenant une seule ligne, qui correspond à la clé API que vous obtenez sur <https://crowdin.com/project/freecad/settings#api> (uniquement pour les administrateurs).
+-   Vous avez besoin d'un fichier .credentials dans votre répertoire /home/YourUser. Ce fichier est un simple fichier texte contenant une seule ligne, qui correspond à la clé API que vous obtenez sur <https   *//crowdin.com/project/freecad/settings#api> (uniquement pour les administrateurs).
 -   Assurez-vous que votre dépôt est libre (git pull, git stash si nécessaire)
 -   cd /path/to/freecad-source-code/src/Tools Outils
 -   Python updatecrowdin.py build (créera un zip du côté de crowdin avec tous les fichiers, peut prendre un certain temps .. Cette étape peut également être effectuée sur le site web de crowdin)
@@ -86,6 +86,11 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 -   [Localisation](Localisation/fr.md)
 -   [Administration de Crowdin](Crowdin_Administration/fr.md)
 -   [Release process](Release_process.md) (en)
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

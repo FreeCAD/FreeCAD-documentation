@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2013-12-23
 |FCVersion=Wszystkie
-|Download=[https://www.freecadweb.org/wiki/images/6/6e/Macro_FaceToSketch.png Ikonka paska narzędzi]
+|Download=[https   *//www.freecadweb.org/wiki/images/6/6e/Macro_FaceToSketch.png Ikonka paska narzędzi]
 }}
 
 ## Opis
@@ -28,11 +28,11 @@ import Draft
   
 wires,_faces = Draft.downgrade(FreeCADGui.Selection.getSelection(),delete=True)
   
-sketch = Draft.makeSketch(wires[0:1])
-for wire in wires[1:]:
+sketch = Draft.makeSketch(wires[0   *1])
+for wire in wires[1   *]   *
     Draft.makeSketch([wire],addTo=sketch)
   
-for wire in wires:
+for wire in wires   *
     FreeCAD.ActiveDocument.removeObject(wire.Name)
 }}
 

@@ -1,6 +1,6 @@
 # Mesh FlipNormals/it
 ---
-- GuiCommand:/it   Name:Mesh_FlipNormals‏‎   Name/it:Inverti le normali‏‎   MenuLocation:Mesh → Inverti le normali   Workbenches:[SeeAlso:[[Mesh_HarmonizeNormals/it|Armonizza le normali](Mesh_Workbench/it___Mesh]].md)---
+- GuiCommand   */it   Name   *Mesh_FlipNormals‏‎   Name/it   *Inverti le normali‏‎   MenuLocation   *Mesh → Inverti le normali   Workbenches   *[SeeAlso   *[[Mesh_HarmonizeNormals/it|Armonizza le normali](Mesh_Workbench/it___Mesh]].md)---
 
 ## Descrizione
 
@@ -22,7 +22,7 @@ Il comando **Inverti le normali** inverte, capovolge, le normali degli oggetti m
 
 <div class="mw-translate-fuzzy">
 
-Per verificare questa azione:
+Per verificare questa azione   *
 
 -   selezionare la mesh nella vista ad albero
 -   passare alla scheda vista

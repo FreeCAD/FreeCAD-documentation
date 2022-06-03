@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:Sketcher ViewSketch
-   Name/pl:Skzkicownik: Widok szkicu
-   MenuLocation:Sketch → Widok szkicu
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
-   Shortcut:**Q** **P**
+- GuiCommand   */pl
+   Name   *Sketcher ViewSketch
+   Name/pl   *Skzkicownik   * Widok szkicu
+   MenuLocation   *Sketch → Widok szkicu
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   Shortcut   ***Q** **P**
 ---
 
 # Sketcher ViewSketch/pl
@@ -17,8 +17,8 @@ Narzędzie to ustawia widok modelu prostopadle do płaszczyzny szkicu. Jest ono 
 
 W trybie edycji szkicu są dostępne dwie możliwości
 
--   Kliknij na ikonę **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Widok szkicu](Sketcher_ViewSketch/pl.md)** na pasku narzędzi środowiska pracy Szkicownik lub Projekt Części.
--   przejdź do menu **Szkic → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Widok szkicu**.
+-   Kliknij na ikonę **[<img src=images/Sketcher_ViewSketch.svg style="width   *16px"> [Widok szkicu](Sketcher_ViewSketch/pl.md)** na pasku narzędzi środowiska pracy Szkicownik lub Projekt Części.
+-   przejdź do menu **Szkic → [<img src=images/Sketcher_ViewSketch.svg style="width   *16px"> Widok szkicu**.
 
 
 

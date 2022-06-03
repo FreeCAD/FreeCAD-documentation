@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:TechDraw LinkDimension
-   MenuLocation:TechDraw → Dimensions → Link Dimension to 3D Geometry
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw View](TechDraw_View.md), [TechDraw ProjectionGroup](TechDraw_ProjectionGroup.md)
+- GuiCommand   *
+   Name   *TechDraw LinkDimension
+   MenuLocation   *TechDraw → Dimensions → Link Dimension to 3D Geometry
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   SeeAlso   *[TechDraw View](TechDraw_View.md), [TechDraw ProjectionGroup](TechDraw_ProjectionGroup.md)
 ---
 
 # TechDraw LinkDimension
@@ -43,11 +43,11 @@ Note that if the Dimension to be linked is based on two vertices, you should sel
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Link Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Link Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
  
 ```python

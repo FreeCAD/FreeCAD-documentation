@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:FEM_ConstraintPlaneRotation
-   Name/it:Vincolo piano di rotazione
-   MenuLocation:Modello → Vincoli meccanici → Vincolo piano di rotazione
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+- GuiCommand   */it
+   Name   *FEM_ConstraintPlaneRotation
+   Name/it   *Vincolo piano di rotazione
+   MenuLocation   *Modello → Vincoli meccanici → Vincolo piano di rotazione
+   Workbenches   *[FEM](FEM_Workbench/it.md)
+   Shortcut   *
+   SeeAlso   *[FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintPlaneRotation/it
@@ -22,7 +22,7 @@ Crea un vincolo FEM per mantenere i nodi in una superficie planare nello stesso 
 
 <div class="mw-translate-fuzzy">
 
-1.  Cliccare su <img alt="" src=images/FEM_ConstraintPlaneRotation.png  style="width:32px;"> o scegliere **Modello** → **Vincoli meccanici** → **<img src="images/FEM_ConstraintPlaneRotation.png" width=32px> Vincolo piano di rotazione** dal menu principale.
+1.  Cliccare su <img alt="" src=images/FEM_ConstraintPlaneRotation.png  style="width   *32px;"> o scegliere **Modello** → **Vincoli meccanici** → **<img src="images/FEM_ConstraintPlaneRotation.png" width=32px> Vincolo piano di rotazione** dal menu principale.
 2.  Selezionare nella vista 3D l\'oggetto a cui deve essere applicato il vincolo, che deve essere una faccia.
 
 
@@ -44,7 +44,7 @@ Crea un vincolo FEM per mantenere i nodi in una superficie planare nello stesso 
 
 <div class="mw-translate-fuzzy">
 
-1.  Il vincolo utilizza la \*MPC card in CalculiX. La card è spiegata in dettaglio <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
+1.  Il vincolo utilizza la \*MPC card in CalculiX. La card è spiegata in dettaglio <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
 
 
 </div>

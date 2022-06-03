@@ -1,6 +1,8 @@
 # Category:BIM/bg
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/bg](Category   *User_Documentation/bg.md)
+
 ### Contents
 
 |     |     |     |

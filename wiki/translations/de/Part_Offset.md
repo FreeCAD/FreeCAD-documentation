@@ -11,15 +11,27 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug Teil 3D Versatz erzeugt parallele Kopien einer ausgewählten Form in einem bestimmten Abstand von der Grundform, wodurch ein neues Objekt entsteht.
+
+
+</div>
 
 <img alt="" src=images/PartOffset0.png  style="width   *400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width   *400" height="200px;">
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle das Objekt, von dem du den Versatz erstellen möchtest.
 2.  Drücke die **<img src="images/Part_Offset.svg" width=16px> '''3D Versatz'''** Schaltfläche
 3.  Passe Abstand und Parameter in Abhängigkeit vom Originalobjekt und der Gültigkeit der resultierenden Objekte an.
+
+
+</div>
 
 ## Notes
 

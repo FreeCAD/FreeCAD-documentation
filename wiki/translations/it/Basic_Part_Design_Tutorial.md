@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/it   Topic:Modellazione   Level:Base   Author:HarryGeier ([[User:HarryGeier   HarryGeier]])|Time:Circa un'ora   FCVersion:0.17 o superiore   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
+- TutorialInfo   */it   Topic   *Modellazione   Level   *Base   Author   *HarryGeier ([[User   *HarryGeier   HarryGeier]])|Time   *Circa un'ora   FCVersion   *0.17 o superiore   Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
 ---
 
 # Basic Part Design Tutorial/it
@@ -24,7 +24,7 @@ Questo tutorial presenta ai nuovi utenti alcuni degli strumenti e delle tecniche
 
 ![](images/Tut17_final_refined.png )
 
-Il video dell\'intera costruzione è disponibile in: <https://youtu.be/geIrH1cOCzc>
+Il video dell\'intera costruzione è disponibile in   * <https   *//youtu.be/geIrH1cOCzc>
 
 
 <div class="mw-translate-fuzzy">
@@ -73,32 +73,32 @@ Prima di iniziare accertarsi di essere nell\'ambiente Part Design. Fatto questo,
 
 Tutti i lavori in Part Design iniziano con un [Corpo](Glossary#Body.md). Quindi costruiremo il solido all\'interno del corpo iniziando con uno [schizzo](Glossary#Sketch.md).
 
-1.  Cliccare su <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Crea un nuovo corpo](PartDesign_Body/it.md) per creare e attivare un nuovo corpo contenitore. 
-*Nota: questo passaggio può essere omesso. Quando si crea uno schizzo, se non viene trovato alcun corpo esistente, ne viene automaticamente creato e attivato uno nuovo.*
-2.  Cliccare su <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> [Crea nuovo schizzo](PartDesign_NewSketch/it.md). Questo crea lo schizzo all\'interno del corpo appena creato.
+1.  Cliccare su <img alt="" src=images/PartDesign_Body.svg  style="width   *32px;"> [Crea un nuovo corpo](PartDesign_Body/it.md) per creare e attivare un nuovo corpo contenitore. 
+*Nota   * questo passaggio può essere omesso. Quando si crea uno schizzo, se non viene trovato alcun corpo esistente, ne viene automaticamente creato e attivato uno nuovo.*
+2.  Cliccare su <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *32px;"> [Crea nuovo schizzo](PartDesign_NewSketch/it.md). Questo crea lo schizzo all\'interno del corpo appena creato.
 3.  Dobbiamo definire dove deve essere allegato lo schizzo. Lo collegheremo ad un piano dell\'[Origine](Glossary#Origin.md) del Corpo.
-4.  Nella scheda Azioni dalla Vista combinata, selezionare **Piano YZ** nell\'elenco e poi premere **OK**:
+4.  Nella scheda Azioni dalla Vista combinata, selezionare **Piano YZ** nell\'elenco e poi premere **OK**   *
 
 
 </div>
 
-1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
-*Note: this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
-2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
+1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
+*Note   * this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
+2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**:
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**   *
 
-<img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
+<img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
 
 <div class="mw-translate-fuzzy">
 
-*Nota: se il pannello laterale non è sufficientemente largo è possibile che il pulsante OK non sia visibile. Per renderlo più ampio trascinare il bordo destro. Posizionare il puntatore del mouse sul bordo; quando il puntatore si trasforma in una freccia bidirezionale, tenere premuto il tasto sinistro del mouse e trascinare.*
+*Nota   * se il pannello laterale non è sufficientemente largo è possibile che il pulsante OK non sia visibile. Per renderlo più ampio trascinare il bordo destro. Posizionare il puntatore del mouse sul bordo; quando il puntatore si trasforma in una freccia bidirezionale, tenere premuto il tasto sinistro del mouse e trascinare.*
 
 
 </div>
 
-Dopo aver fatto clic su OK, FreeCAD passa automaticamente all\'ambiente [Sketcher](Sketcher_Workbench/it.md) e apre lo schizzo in modalità di modifica:
+Dopo aver fatto clic su OK, FreeCAD passa automaticamente all\'ambiente [Sketcher](Sketcher_Workbench/it.md) e apre lo schizzo in modalità di modifica   *
 
 ![](images/Tut17_sketcherempty.png )
 
@@ -109,7 +109,7 @@ Dopo aver fatto clic su OK, FreeCAD passa automaticamente all\'ambiente [Sketche
 
 ### Creare lo schizzo 
 
-Per procedere, utilizzare lo strumento <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polilinea](Sketcher_CreatePolyline/it.md) e fare una forma simile a quella dell\'immagine successiva. Non è necessario che sia perfetta, in quanto, dopo averla costruita, si applicheranno i vincoli. Dopo aver prodotto la forma di base, si passa ad applicare i vincoli. Se la casella *Autovincoli* era impostata su ON, alcuni di loro saranno già stati applicati automaticamente, in caso contrario, procedere come segue. Prima però assicurarsi di aver chiuso lo strumento polilinea cliccando con il tasto destro o premendo ** Esc** due volte; il cursore del mouse dovrebbe tornare da mirino a freccia standard. Non premere **Esc** una terza volta o si esce dalla modalità di modifica dello schizzo, se ciò accade, fare clic sulla scheda Modello, quindi fare doppio clic sull\'elemento Schizzo nell\'albero o fare clic con il pulsante destro del mouse e selezionare **Modifica schizzo** nel menu contestuale.
+Per procedere, utilizzare lo strumento <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *32px;"> [Polilinea](Sketcher_CreatePolyline/it.md) e fare una forma simile a quella dell\'immagine successiva. Non è necessario che sia perfetta, in quanto, dopo averla costruita, si applicheranno i vincoli. Dopo aver prodotto la forma di base, si passa ad applicare i vincoli. Se la casella *Autovincoli* era impostata su ON, alcuni di loro saranno già stati applicati automaticamente, in caso contrario, procedere come segue. Prima però assicurarsi di aver chiuso lo strumento polilinea cliccando con il tasto destro o premendo ** Esc** due volte; il cursore del mouse dovrebbe tornare da mirino a freccia standard. Non premere **Esc** una terza volta o si esce dalla modalità di modifica dello schizzo, se ciò accade, fare clic sulla scheda Modello, quindi fare doppio clic sull\'elemento Schizzo nell\'albero o fare clic con il pulsante destro del mouse e selezionare **Modifica schizzo** nel menu contestuale.
 
 
 </div>
@@ -117,13 +117,13 @@ Per procedere, utilizzare lo strumento <img alt="" src=images/Sketcher_CreatePol
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare le due linee orizzontali con il mouse facendo clic su di esse e, una volta selezionate, fare clic su <img alt="" src=images/Constraint_Horizontal.svg  style="width:32px;"> vincolo orizzontale.
-2.  Selezionare la linea verticale sulla destra e poi cliccare su <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;">vincolo verticale.
-3.  Selezionare i punti di inizio e fine della polilinea e poi fare clic su <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> vincolo coincidente per chiudere la polilinea.
-4.  Selezionare la linea orizzontale inferiore e la linea verticale destra e applicare un <img alt="" src=images/Constraint_EqualLength.png  style="width:32px;"> vincolo uguaglianza.
-5.  Selezionare entrambe le linee orizzontali o verticali e applicare il corrispondente vincolo di lunghezza <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:32px;"> orizzontale o <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:32px;"> verticale e dargli un valore 26 mm.
+1.  Selezionare le due linee orizzontali con il mouse facendo clic su di esse e, una volta selezionate, fare clic su <img alt="" src=images/Constraint_Horizontal.svg  style="width   *32px;"> vincolo orizzontale.
+2.  Selezionare la linea verticale sulla destra e poi cliccare su <img alt="" src=images/Constraint_Vertical.svg  style="width   *32px;">vincolo verticale.
+3.  Selezionare i punti di inizio e fine della polilinea e poi fare clic su <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> vincolo coincidente per chiudere la polilinea.
+4.  Selezionare la linea orizzontale inferiore e la linea verticale destra e applicare un <img alt="" src=images/Constraint_EqualLength.png  style="width   *32px;"> vincolo uguaglianza.
+5.  Selezionare entrambe le linee orizzontali o verticali e applicare il corrispondente vincolo di lunghezza <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width   *32px;"> orizzontale o <img alt="" src=images/Constraint_VerticalDistance.svg  style="width   *32px;"> verticale e dargli un valore 26 mm.
 6.  Selezionare la linea orizzontale superiore e applicare il vincolo di lunghezza orizzontale e assegnargli il valore 5 mm
-7.  Seleziona il punto in basso a destra, (vertice) della linea orizzontale Origine e poi il punto centrale della griglia e applicare il <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> vincolo di coincidenza per bloccare la forma.
+7.  Seleziona il punto in basso a destra, (vertice) della linea orizzontale Origine e poi il punto centrale della griglia e applicare il <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> vincolo di coincidenza per bloccare la forma.
 
 
 </div>
@@ -135,12 +135,12 @@ A questo punto si dovrebbe avere un disegno completamente vincolato, come indica
 
 <div class="mw-translate-fuzzy">
 
-Ora, nella Vista Combinata, cliccare sul pulsante Close per uscire dalla modalità di modifica schizzo e selezionare <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> *Prisma* (Pad) dalla barra degli strumenti o dal menu di Part Design. Questo apre la finestra di dialogo per Pad nella Vista Combinata. Aprire il menu a discesa di tale finestra e selezionare *due dimensioni*. Come si può vedere nel disegno presentato all\'inizio di questo tutorial la parte è lunga 53 mm. Ora, quello che vogliamo fare è estrudere lo schizzo in entrambe le direzioni simmetricamente dal centro del piano per coprire tale distanza. Il motivo di questo diventerà evidente più avanti. Per ora, dato che vogliamo che in totale sia lungo 53 mm inserire 26,5 per la *lunghezza* e di nuovo 26,5 per la *seconda lunghezza*. In alternativa, si può fornire una sola lunghezza di 53 mm e attivare la casella *Simmetrico al piano*. Fatto questo, abbiamo prodotto la base solida a cui aggiungere le funzioni aggiuntive per costruire la Parte.
+Ora, nella Vista Combinata, cliccare sul pulsante Close per uscire dalla modalità di modifica schizzo e selezionare <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> *Prisma* (Pad) dalla barra degli strumenti o dal menu di Part Design. Questo apre la finestra di dialogo per Pad nella Vista Combinata. Aprire il menu a discesa di tale finestra e selezionare *due dimensioni*. Come si può vedere nel disegno presentato all\'inizio di questo tutorial la parte è lunga 53 mm. Ora, quello che vogliamo fare è estrudere lo schizzo in entrambe le direzioni simmetricamente dal centro del piano per coprire tale distanza. Il motivo di questo diventerà evidente più avanti. Per ora, dato che vogliamo che in totale sia lungo 53 mm inserire 26,5 per la *lunghezza* e di nuovo 26,5 per la *seconda lunghezza*. In alternativa, si può fornire una sola lunghezza di 53 mm e attivare la casella *Simmetrico al piano*. Fatto questo, abbiamo prodotto la base solida a cui aggiungere le funzioni aggiuntive per costruire la Parte.
 
 
 </div>
 
-Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/cUyPnCMeTgg>
+Il video dei passaggi utilizzati in questa parte del tutorial è in   * <https   *//youtu.be/cUyPnCMeTgg>
 
 ### Features with pocket and external geometry 
 
@@ -159,7 +159,7 @@ Utilizzando il mouse, o con le icone di visualizzazione, ruotare il modello in m
 
 <div class="mw-translate-fuzzy">
 
-Dopo aver selezionato la faccia, fare clic sull\'icona Nuovo schizzo nella barra degli strumenti o dal menu Part Design per mappare il prossimo schizzo sulla faccia posteriore della Parte. Poi selezionare lo strumento <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> rettangolo e posizionare un rettangolo sulla faccia posteriore della parte in modo simile a come mostrato di seguito. Infine, seguendo i passaggi elencati, vincolare lo schizzo.
+Dopo aver selezionato la faccia, fare clic sull\'icona Nuovo schizzo nella barra degli strumenti o dal menu Part Design per mappare il prossimo schizzo sulla faccia posteriore della Parte. Poi selezionare lo strumento <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> rettangolo e posizionare un rettangolo sulla faccia posteriore della parte in modo simile a come mostrato di seguito. Infine, seguendo i passaggi elencati, vincolare lo schizzo.
 
 
 </div>
@@ -169,7 +169,7 @@ Dopo aver selezionato la faccia, fare clic sull\'icona Nuovo schizzo nella barra
 
 1.  Selezionare una delle linee orizzontali e applicare un vincolo distanza orizzontale 5 mm.
 2.  Selezionare una delle linee verticali e applicare un vincolo distanza verticale 11 mm.
-3.  Selezionare lo strumento <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> *Geometria esterna*,
+3.  Selezionare lo strumento <img alt="" src=images/Sketcher_External.svg  style="width   *32px;"> *Geometria esterna*,
 4.  Selezionare il vertice in alto a destra della faccia e cliccare su di esso per dotare lo schizzo di un punto di una geometria esterna a cui collegarlo.
 
 
@@ -185,7 +185,7 @@ Dopo aver selezionato la faccia, fare clic sull\'icona Nuovo schizzo nella barra
 
 <div class="mw-translate-fuzzy">
 
-Fatto questo, cliccare sul pulsante Chiudi nella parte superiore della scheda Azioni della Vista combinata, quindi selezionare lo strumento <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> *Tasca* (Pocket) dalla barra degli strumenti o nel menu di Part Design. Questo strumento fa l\'opposto dello strumento Pad. Così come lo strumento Pad aggiunge del materiale alla Parte, lo strumento Tasca rimuove il materiale dal pezzo. Entrambe le operazioni sono chiamate funzioni (features). Per questa operazione Tasca selezionare il tipo *Attraversa tutto* dal menu a tendina e quindi fare clic sul pulsante OK.
+Fatto questo, cliccare sul pulsante Chiudi nella parte superiore della scheda Azioni della Vista combinata, quindi selezionare lo strumento <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> *Tasca* (Pocket) dalla barra degli strumenti o nel menu di Part Design. Questo strumento fa l\'opposto dello strumento Pad. Così come lo strumento Pad aggiunge del materiale alla Parte, lo strumento Tasca rimuove il materiale dal pezzo. Entrambe le operazioni sono chiamate funzioni (features). Per questa operazione Tasca selezionare il tipo *Attraversa tutto* dal menu a tendina e quindi fare clic sul pulsante OK.
 
 
 </div>
@@ -193,14 +193,14 @@ Fatto questo, cliccare sul pulsante Chiudi nella parte superiore della scheda Az
 
 <div class="mw-translate-fuzzy">
 
-Per l\'operazione successiva, assicurarsi che \"Pocket\" sia selezionato nella vista ad albero del modello, poi cliccare sulla funzione <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> *Specchio* sulla barra degli strumenti o dal menu Part Design. Nella finestra di dialogo Specchio della Vista Combinata, selezionare *asse orizzontale dello schizzo* dal menu a tendina di *Piano*. Quindi fare clic su OK. In questo modo la funzione Specchio funziona perché, durante la prima operazione fatta con lo schizzo base, la funzione di base del nostro modello è stata estrusa in entrambe le direzioni del piano orizzontale. Se tutto è andato bene e dopo averla ruotata, ora si dovrebbe avere una Parte che si presenta come l\'immagine sottostante.
+Per l\'operazione successiva, assicurarsi che \"Pocket\" sia selezionato nella vista ad albero del modello, poi cliccare sulla funzione <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> *Specchio* sulla barra degli strumenti o dal menu Part Design. Nella finestra di dialogo Specchio della Vista Combinata, selezionare *asse orizzontale dello schizzo* dal menu a tendina di *Piano*. Quindi fare clic su OK. In questo modo la funzione Specchio funziona perché, durante la prima operazione fatta con lo schizzo base, la funzione di base del nostro modello è stata estrusa in entrambe le direzioni del piano orizzontale. Se tutto è andato bene e dopo averla ruotata, ora si dovrebbe avere una Parte che si presenta come l\'immagine sottostante.
 
 
 </div>
 
 ![](images/tut17_profilewithslots.png )
 
-Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/wiGXV9G7mrM>
+Il video dei passaggi utilizzati in questa parte del tutorial è in   * <https   *//youtu.be/wiGXV9G7mrM>
 
 ### Features with pad and external geometry 
 
@@ -238,7 +238,7 @@ Utilizzare nuovamente la funzione Specchio per creare il secondo pad, ma prima a
 
 ![](images/tut17_profilewithsideblocks.png )
 
-Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/Ido1owp8ubc>
+Il video dei passaggi utilizzati in questa parte del tutorial è in   * <https   *//youtu.be/Ido1owp8ubc>
 
 ### Feature with pocket and external geometry 
 
@@ -289,7 +289,7 @@ A questo punto *scavando* (Pocket) semplicemente questo schizzo, il foro risulta
 
 Vogliamo che il foro sia perpendicolare alla faccia posteriore, ma le dimensioni delle sue proiezioni non hanno le dimensioni 17 mm x 17 mm che sono quelle date nel disegno. Si possono fare due conti per calcolare le dimensioni necessarie, oppure si possono utilizzare gli strumenti forniti in FreeCAD per farsi fare questa proiezione.
 
-Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/x4d5nZPWCLQ>
+Il video dei passaggi utilizzati in questa parte del tutorial è in   * <https   *//youtu.be/x4d5nZPWCLQ>
 
 
 <div class="mw-translate-fuzzy">
@@ -304,7 +304,7 @@ Per creare una tasca che abbia il rettangolo inclinato sulla faccia in uscita, s
 
 <div class="mw-translate-fuzzy">
 
-Selezionare **Nuovo schizzo** <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> nella barra degli strumenti o nel menu di Part Design. Ora, in modalità di modifica degli schizzi, il rettangolo dello schizzo inclinato non è visibile. Per renderlo selezionabile, passare dalla vista combinata alla scheda del modello e selezionare l\'ultimo schizzo realizzato sul piano inclinato (Sketch003), poi usare la barra spaziatrice per renderlo visibile. Quindi, selezionare la funzione specchio precedente (mirrored001) e usando ancora la barra spaziatrice, nasconderla. Ora si dovrebbe vedere il rettangolo inclinato all\'interno della vista 3D. È possibile continuare a lavorare con la scheda del modello visibile o tornare alla scheda delle azioni. Utilizzando lo strumento <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> Geometria esterna, nel rettangolo inclinato selezionare il bordo orizzontale superiore e il bordo orizzontale inferiore del rettangolo inclinato. Quindi, aggiungere un nuovo rettangolo allo schizzo utilizzando lo strumento rettangolo <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;">.
+Selezionare **Nuovo schizzo** <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *32px;"> nella barra degli strumenti o nel menu di Part Design. Ora, in modalità di modifica degli schizzi, il rettangolo dello schizzo inclinato non è visibile. Per renderlo selezionabile, passare dalla vista combinata alla scheda del modello e selezionare l\'ultimo schizzo realizzato sul piano inclinato (Sketch003), poi usare la barra spaziatrice per renderlo visibile. Quindi, selezionare la funzione specchio precedente (mirrored001) e usando ancora la barra spaziatrice, nasconderla. Ora si dovrebbe vedere il rettangolo inclinato all\'interno della vista 3D. È possibile continuare a lavorare con la scheda del modello visibile o tornare alla scheda delle azioni. Utilizzando lo strumento <img alt="" src=images/Sketcher_External.svg  style="width   *32px;"> Geometria esterna, nel rettangolo inclinato selezionare il bordo orizzontale superiore e il bordo orizzontale inferiore del rettangolo inclinato. Quindi, aggiungere un nuovo rettangolo allo schizzo utilizzando lo strumento rettangolo <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;">.
 
 
 </div>
@@ -321,7 +321,7 @@ E con questo dovremmo finire.
 
 <div class="mw-translate-fuzzy">
 
-Per concludere questo tutorial, chiudere la finestra di sketch usando *Chiudi* o *Esci dalla modifica* dal menu di scelta rapida dello sketch004. Quindi selezionare la funzione <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Pocket dalla barra degli strumenti o dal menu Part Design. Dal menu a discesa Tipo selezionare **Attraverso tutto** e fare clic sul pulsante OK.
+Per concludere questo tutorial, chiudere la finestra di sketch usando *Chiudi* o *Esci dalla modifica* dal menu di scelta rapida dello sketch004. Quindi selezionare la funzione <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> Pocket dalla barra degli strumenti o dal menu Part Design. Dal menu a discesa Tipo selezionare **Attraverso tutto** e fare clic sul pulsante OK.
 
 
 </div>
@@ -332,13 +332,13 @@ A questo punto, sono visibili alcune linee che provengono dalle funzioni interse
 
 ![](images/Tut17_refine.png ) ![](images/Tut17_final_refined.png )
 
-Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/UYI0gvxCYeI>
+Il video dei passaggi utilizzati in questa parte del tutorial è in   * <https   *//youtu.be/UYI0gvxCYeI>
 
 Questo tutorial e il vostro modello sono terminati.
 
 ## Risorse aggiuntive 
 
--   File di FreeCAD per il confronto (fatto con 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
+-   File di FreeCAD per il confronto (fatto con 0.17) [Download](https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 
 
 {{PartDesign Tools navi

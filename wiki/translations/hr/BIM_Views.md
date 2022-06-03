@@ -1,9 +1,9 @@
 ---
-- GuiCommand:Addon
-   Name:BIM Views
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage → Views
+- GuiCommand   *Addon
+   Name   *BIM Views
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon   *BIM
+   MenuLocation   *Manage → Views
 ---
 
 # BIM Views/hr
@@ -14,7 +14,7 @@ The BIM views and levels manager is a dockable window that opens below the norma
 
 The aim of this window is to allow to quickly access your levels and working plane configurations, without the need to navigate through the tree to find them.
 
-<img alt="" src=images/BIM_views_screenshot.png  style="width:800px;">
+<img alt="" src=images/BIM_views_screenshot.png  style="width   *800px;">
 
 ## Usage
 
@@ -31,6 +31,8 @@ The BIM views manager will show all the levels (building parts) and working plan
 -   Clicking the **Isolate** button turns all levels off except the selected one
 -   Clicking the **Save camera position** button stores the current view settings in the selected object, allowing to restore it if its **Restore View** property is set to True
 -   Clicking the **Rename** button allows you to rename a selected object
+
+[Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

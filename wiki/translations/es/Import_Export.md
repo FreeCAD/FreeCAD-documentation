@@ -5,7 +5,7 @@ En esta página se enumeran los diversos formatos de archivo que FreeCAD puede i
 
 ## Relacionados
 
-Ver las siguientes páginas para obtener información adicional:
+Ver las siguientes páginas para obtener información adicional   *
 
 -   [Preferencias de importación y exportación](Import_Export_Preferences/es.md)
 -   [FreeCAD Cómo importar y exportar](FreeCAD_Howto_Import_Export/es.md)
@@ -62,6 +62,14 @@ Ver las siguientes páginas para obtener información adicional:
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

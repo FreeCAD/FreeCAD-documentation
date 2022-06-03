@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Создать фигуру из полигональной сетки
-   Name:Part_ShapeFromMesh‏‎
-   MenuLocation:Part → Создание фигуры из полигональной сетки...
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Преобразовать в твердые](Part_MakeSolid/ru.md), [Закрепить фигуру](Part_RefineShape/ru.md), [Part PointsFromMesh](Part_PointsFromMesh/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Создать фигуру из полигональной сетки
+   Name   *Part_ShapeFromMesh‏‎
+   MenuLocation   *Part → Создание фигуры из полигональной сетки...
+   Workbenches   *[Part](Part_Workbench/ru.md)
+   SeeAlso   *[Преобразовать в твердые](Part_MakeSolid/ru.md), [Закрепить фигуру](Part_RefineShape/ru.md), [Part PointsFromMesh](Part_PointsFromMesh/ru.md)
 ---
 
 # Part ShapeFromMesh/ru
@@ -24,7 +24,7 @@
 
 </div>
 
-The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
+The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width   *16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width   *24px;"> [Mesh Workbench](Mesh_Workbench.md).
 
 ## Применение
 
@@ -35,7 +35,7 @@ The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:
 
 1.  Выберите полигонально-сеточный объект.
 2.  Выберите в верхнем меню ** Деталь** → **<img src="images/Part_ShapeFromMesh.png" width=32px> Создание формы из сетки...**.
-3.  Всплывающее меню запросит допуск сшивания формы (значение по умолчанию: 0,1)
+3.  Всплывающее меню запросит допуск сшивания формы (значение по умолчанию   * 0,1)
 4.  Инструмент создаёт из сетки отдельный новый объект - форму.
 
 
@@ -53,11 +53,11 @@ The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:
 
 </div>
 
-After creation of a [Shape](Shape.md), it may be useful to use **[Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
+After creation of a [Shape](Shape.md), it may be useful to use **[Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width   *16px"> [Refine shape](Part_RefineShape.md)**.
 
 ## Ссылки
 
--   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+-   [Edit STL Files In FreeCAD](https   *//www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
 
 ## Программирование
 
@@ -71,10 +71,10 @@ import FreeCAD as App
 import Part
 
 doc = App.newDocument()
-mesh = doc.addObject("Mesh::Cube", "Mesh")
+mesh = doc.addObject("Mesh   *   *Cube", "Mesh")
 mesh.recompute()
 
-solid = doc.addObject("Part::Feature", "Shape")
+solid = doc.addObject("Part   *   *Feature", "Shape")
 shape = Part.Shape()
 shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
 

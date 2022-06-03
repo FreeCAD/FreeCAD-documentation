@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw WeldingSymbol
-   Name/fr:TechDraw Soudure
-   Icon:techdraw-weldsymbol.svg
-   MenuLocation:TechDraw → Ajouter les informations de soudage...
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw WeldingSymbol
+   Name/fr   *TechDraw Soudure
+   Icon   *techdraw-weldsymbol.svg
+   MenuLocation   *TechDraw → Ajouter les informations de soudage...
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
 ---
 
 # TechDraw WeldSymbol/fr
@@ -15,7 +15,7 @@
 
 L\'outil Soudure ajoute les spécifications de soudage à une ligne directrice existante.
 
-<img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width:330px;"> 
+<img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width   *330px;"> 
 *Spécification de soudage ajoutée à une ligne de référence*
 
 ## Utilisation
@@ -32,47 +32,47 @@ L\'outil Soudure ajoute les spécifications de soudage à une ligne directrice e
 
 ### Weld Symbol 
 
--    **All Around**: affiche le symbole *All Around* ou *Tout autour* (cercle) au niveau de la brisure de la ligne de rappel.
+-    **All Around**   * affiche le symbole *All Around* ou *Tout autour* (cercle) au niveau de la brisure de la ligne de rappel.
 
--    **Field Weld**: affiche le symbole *Field Weld* ou *Soudure sur site* (indicateur) au niveau de la brisure de la ligne de rappel.
+-    **Field Weld**   * affiche le symbole *Field Weld* ou *Soudure sur site* (indicateur) au niveau de la brisure de la ligne de rappel.
 
--    **Alternate Weld**: décale le symbole inférieur pour indiquer des soudures alternées.
+-    **Alternate Weld**   * décale le symbole inférieur pour indiquer des soudures alternées.
 
--    **Tail Text**: texte à afficher à la fin de la ligne de rappel.
+-    **Tail Text**   * texte à afficher à la fin de la ligne de rappel.
 
 ### Tile
 
-Chaque symbole individuel (\"côté flèche\" et \"autre côté\") est représenté par un objet \"tuile\". Un symbole de soudure est associé à 1 ou 2 tuiles. Chacun a les propriétés suivantes:
+Chaque symbole individuel (\"côté flèche\" et \"autre côté\") est représenté par un objet \"tuile\". Un symbole de soudure est associé à 1 ou 2 tuiles. Chacun a les propriétés suivantes   *
 
--    **Parent Tile**: le symbole de soudure parent
+-    **Parent Tile**   * le symbole de soudure parent
 
--    **Tile Row**: ligne de la tuile. 0 signifie au-dessus de la ligne, -1 en dessous de la ligne. **Remarque:** Si vous changez la rangée d\'une tuile, vous devez également changer la tuile pour le deuxième côté! De cette façon, vous pouvez retourner les côtés.
+-    **Tile Row**   * ligne de la tuile. 0 signifie au-dessus de la ligne, -1 en dessous de la ligne. **Remarque   *** Si vous changez la rangée d\'une tuile, vous devez également changer la tuile pour le deuxième côté! De cette façon, vous pouvez retourner les côtés.
 
--    **Tile Column**: colonne de la tuile. Pour le moment, il est toujours égal à 0, la propriété n\'est donc pas modifiable.
+-    **Tile Column**   * colonne de la tuile. Pour le moment, il est toujours égal à 0, la propriété n\'est donc pas modifiable.
 
--    **Symbol File**: répertoire et nom de fichier du fichier SVG du symbole.
+-    **Symbol File**   * répertoire et nom de fichier du fichier SVG du symbole.
 
--    **Symbol Included**: répertoire et nom de fichier du fichier SVG de symbole inclus réel. (Il s\'agit d\'un répertoire temporaire.)
+-    **Symbol Included**   * répertoire et nom de fichier du fichier SVG de symbole inclus réel. (Il s\'agit d\'un répertoire temporaire.)
 
--    **Left Text**: texte à afficher à gauche du symbole SVG.
+-    **Left Text**   * texte à afficher à gauche du symbole SVG.
 
--    **Center Text**: texte à afficher au-dessus/en dessous du symbole SVG.
+-    **Center Text**   * texte à afficher au-dessus/en dessous du symbole SVG.
 
--    **Right Text**: texte à afficher à droite du symbole SVG.
+-    **Right Text**   * texte à afficher à droite du symbole SVG.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Symbole peut être utilisé dans des [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Symbole peut être utilisé dans des [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python
 symbolName = "DrawWeldSymbol001")
-symbolType = "TechDraw::DrawWeldSymbol"
+symbolType = "TechDraw   *   *DrawWeldSymbol"
 App.activeDocument().addObject(symbolType, symbolName)
 App.activeDocument().Page.addView(App.activeDocument().DrawWeldSymbol001)
 App.activeDocument().DrawWeldSymbol001.Leader = myLeader
@@ -82,7 +82,7 @@ App.activeDocument().DrawWeldSymbol001.AlternatingWeld = True
 App.activeDocument().DrawWeldSymbol001.TailText = "process text"
 
 tileName = "DrawTileWeld001"
-tileType = "TechDraw::DrawTileWeld"
+tileType = "TechDraw   *   *DrawTileWeld"
 App.activeDocument().addObject(tileType, tileName)
 App.activeDocument().DrawTileWeld001.TileParent = App.activeDocument().DrawWeldSymbol001
 App.activeDocument().DrawTileWeld001.TileRow = 0
@@ -95,9 +95,9 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 ## Tuiles symbole Svg 
 
-Les symboles particuliers sont formés par des fichiers SVG de 64x64 pixels. Des symboles supplémentaires peuvent être créés dans un programme SVG comme [Inkscape](https://fr.wikipedia.org/wiki/Inkscape) en utilisant l\'un des symboles fournis par FreeCAD comme modèle.
+Les symboles particuliers sont formés par des fichiers SVG de 64x64 pixels. Des symboles supplémentaires peuvent être créés dans un programme SVG comme [Inkscape](https   *//fr.wikipedia.org/wiki/Inkscape) en utilisant l\'un des symboles fournis par FreeCAD comme modèle.
 
-<img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
+<img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width   *128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width   *128px;">
 
 -   Les symboles individuels sont formés de fichiers SVG de 64x64 pixels (nominaux). Les tuiles ont en fait une \"bordure\" de 4px. La bordure veille à ce que la ligne de repère et le symbole se rencontrent bien.
 -   Le symbole est dessiné en noir sur un fond transparent. La largeur du trait est de 0.5mm.

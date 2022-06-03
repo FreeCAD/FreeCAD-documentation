@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name/es:Fixtura de trayectoria
-   Workbenches:[Trayectoria](Path_Workbench.md)
-   MenuLocation:Trayectoria → Comandos Parciales → Fixtura
-   Shortcut:**P** **F**
-   SeeAlso:
+- GuiCommand   */es
+   Name/es   *Fixtura de trayectoria
+   Workbenches   *[Trayectoria](Path_Workbench.md)
+   MenuLocation   *Trayectoria → Comandos Parciales → Fixtura
+   Shortcut   ***P** **F**
+   SeeAlso   *
 ---
 
 # Path Fixture/es
@@ -22,7 +22,7 @@ Esta herramienta coloca un punto de fixtura (G53-G59) para las siguientes operac
 
 </div>
 
-Target Work Offset Coordinates typically include: Fixtures G53 to G59. The G-Code is simply the Fixture (G53, G54, etc\...). The coordinate offset fixtures represent:
+Target Work Offset Coordinates typically include   * Fixtures G53 to G59. The G-Code is simply the Fixture (G53, G54, etc\...). The coordinate offset fixtures represent   *
 
 -   G53 → Machine coordinate system.
 -   G54 → Scratchpad coordinate system.
@@ -44,9 +44,9 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 ## Propiedades
 
--    **Fixtura**: Coloca el actual punto como fixtura
+-    **Fixtura**   * Coloca el actual punto como fixtura
 
--    **Activar**: Define si este comando esta activo o no cuando es introducido a un compuesto.
+-    **Activar**   * Define si este comando esta activo o no cuando es introducido a un compuesto.
 
 ## Notes
 

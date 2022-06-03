@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std UserEditMode
-   Name/de:Std BenutzerBearbeitungsmodus
-   MenuLocation:Bearbeiten → Bearbeitungsmodus → ...
-   Workbenches:Alle
-   Version:0.20
-   SeeAlso:[Std Berbeiten](Std_Edit/de.md)
+- GuiCommand   */de
+   Name   *Std UserEditMode
+   Name/de   *Std BenutzerBearbeitungsmodus
+   MenuLocation   *Bearbeiten → Bearbeitungsmodus → ...
+   Workbenches   *Alle
+   Version   *0.20
+   SeeAlso   *[Std Berbeiten](Std_Edit/de.md)
 ---
 
 # Std UserEditMode/de
@@ -16,25 +16,31 @@ Die Anweisung **Std BenutzerBearbeitungsmodus** legt den Bearbeitungsmodus fest,
 
 ## Anwendung
 
-1.  Es gibt mehrere Wege, die Anweisung zu geben:
-    -   Auf den schwarzen Pfeil rechts neben der Schaltfläche **<img src="images/Std_UserEditModeDefault.svg" width=16px> [Std BenutzerBearbeitungsmodus](Std_UserEditMode/de.md)** klicken und einen Bearbeitungsmodus aus dem Ausklappmenü wählen. Beachte: das Bildchen der Schaltfläche ändert sich gemäß der gewählen Möglichkeit.
+
+<div class="mw-translate-fuzzy">
+
+1.  Es gibt mehrere Wege, die Anweisung zu geben   *
+    -   Auf den schwarzen Pfeil rechts neben der Schaltfläche **<img src="images/Std_UserEditModeDefault.svg" width=16px> [Std BenutzerBearbeitungsmodus](Std_UserEditMode/de.md)** klicken und einen Bearbeitungsmodus aus dem Ausklappmenü wählen. Beachte   * das Bildchen der Schaltfläche ändert sich gemäß der gewählen Möglichkeit.
     -   Unter dem Menüpunkt **Ansicht → Navigations/Editier-Modus** einen Bearbeitungsmodus wählen.
+
+
+</div>
 
 ## mögliche Bearbeitungsmodi 
 
-### <img alt="" src=images/Std_UserEditModeDefault.svg  style="width:24px;"> Vorgabe 
+### <img alt="" src=images/Std_UserEditModeDefault.svg  style="width   *24px;"> Vorgabe 
 
 Das Objekt wird mit seinem vorgegebenen Bearbeitungsmodus bearbeitet. Dieser Bearbeitungsmodus wird intern mit dem am besten passend für den Objekttyp festgelegt, z.B. wird dies die Formeigenschaftsbearbeitung für [Part Grundelemente](Part_Primitives/de.md) und [PartDesign Formelemente](PartDesign_Feature/de.md) sein, die Positionierungsbearbeitung für [Part Boolesche Operationen](Part_Boolean/de.md) etc.
 
-### <img alt="" src=images/Std_UserEditModeTransform.svg  style="width:24px;"> Transformieren 
+### <img alt="" src=images/Std_UserEditModeTransform.svg  style="width   *24px;"> Transformieren 
 
 Die Positionierung eines Objektes is mit der Anweisung [Std Transformieren](Std_TransformManip/de.md) bearbeitbar.
 
-### <img alt="" src=images/Std_UserEditModeCutting.svg  style="width:24px;"> Abtrennen 
+### <img alt="" src=images/Std_UserEditModeCutting.svg  style="width   *24px;"> Abtrennen 
 
 Dieser Bearbeitungsmodus ist verwendbar, scheint aber durch kein Objekt verwendet zu werden.
 
-### <img alt="" src=images/Std_UserEditModeColor.svg  style="width:24px;"> Farbe 
+### <img alt="" src=images/Std_UserEditModeColor.svg  style="width   *24px;"> Farbe 
 
 Mit der Anweisung [Part Flächenfarben](Part_FaceColors/de.md) kann die Farbe für jede einzelne Oberfläche des Objektes bestimmt werden.
 
@@ -44,16 +50,16 @@ Nicht jedes Objekt kann durch alle Bearbeitungsmodi bearbeitet werden. Ist ein B
 
 ## Einstellungen
 
--   Der letzte Bearbeitungsmodus wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → General → UserEditMode**
+-   Der letzte Bearbeitungsmodus wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → General → UserEditMode**
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Um mögliche Bearbeitungsmodi anzuzeigen:
+Um mögliche Bearbeitungsmodi anzuzeigen   *
 
 
 ```python
@@ -61,7 +67,7 @@ import FreeCADGui
 FreeCADGui.listUserEditModes()
 ```
 
-Um den aktiven Bearbeitungsmodus zu erhalten:
+Um den aktiven Bearbeitungsmodus zu erhalten   *
 
 
 ```python
@@ -69,7 +75,7 @@ import FreeCADGui
 FreeCADGui.getUserEditMode()
 ```
 
-Um den aktiven Bearbeitungsmodus zu einzustellen:
+Um den aktiven Bearbeitungsmodus zu einzustellen   *
 
 
 ```python

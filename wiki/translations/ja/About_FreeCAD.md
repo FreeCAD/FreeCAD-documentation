@@ -1,4 +1,4 @@
-# <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/ja
+# <img alt="" src=images/Freecad_default.jpg  style="width   *1024px;"> About FreeCAD/ja
 
 
 <div class="mw-translate-fuzzy">
@@ -19,7 +19,7 @@ FreeCADはCATIAやSolidWorks，Solid Edgeと類似のツールを備えている
 
 <div class="mw-translate-fuzzy">
 
-多くの最新の3D、[CAD](http://ja.wikipedia.org/wiki/CAD)モデラーと同様に、2D形状をスケッチしたり、3Dモデルから設計の詳細を抽出して2D生産図面を作成したり、2D図面を作成したりするために、多くの2Dコンポーネントがあります 図面（[AutoCAD LT](http://en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)のような）は焦点ではなく、アニメーションも有機的な形もありません（[（ソフトウェア）Maya](http://en.wikipedia.org/wiki/Maya_)、[3ds Max](http://ja.wikipedia.org/wiki/3ds_Max)、[Blender](http://en.wikipedia.org/wiki/Blender_%28software%29)または\[http：// en.wikipedia.org/wiki/CINEMA\_4D Cinema 4D\]）、その幅広い適応性のおかげで、FreeCADは現在の焦点よりもはるかに広い領域で有用になるかもしれません。
+多くの最新の3D、[CAD](http   *//ja.wikipedia.org/wiki/CAD)モデラーと同様に、2D形状をスケッチしたり、3Dモデルから設計の詳細を抽出して2D生産図面を作成したり、2D図面を作成したりするために、多くの2Dコンポーネントがあります 図面（[AutoCAD LT](http   *//en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)のような）は焦点ではなく、アニメーションも有機的な形もありません（[（ソフトウェア）Maya](http   *//en.wikipedia.org/wiki/Maya_)、[3ds Max](http   *//ja.wikipedia.org/wiki/3ds_Max)、[Blender](http   *//en.wikipedia.org/wiki/Blender_%28software%29)または\[http：// en.wikipedia.org/wiki/CINEMA\_4D Cinema 4D\]）、その幅広い適応性のおかげで、FreeCADは現在の焦点よりもはるかに広い領域で有用になるかもしれません。
 
 
 </div>
@@ -55,7 +55,7 @@ The FreeCAD project was started as far back as 2001, as described in its [histor
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD is maintained and developed by a community of enthusiastic developers and users (see the [contributors](contributors.md) page). They work on FreeCAD voluntarily, in their free time. They cannot guarantee that FreeCAD contains or will contain everything you might wish, but they will usually do their best! The community gathers on the [FreeCAD forum](http://forum.freecadweb.org), where most of the ideas and decisions are discussed. Feel free to join us there!
+FreeCAD is maintained and developed by a community of enthusiastic developers and users (see the [contributors](contributors.md) page). They work on FreeCAD voluntarily, in their free time. They cannot guarantee that FreeCAD contains or will contain everything you might wish, but they will usually do their best! The community gathers on the [FreeCAD forum](http   *//forum.freecadweb.org), where most of the ideas and decisions are discussed. Feel free to join us there!
 
 
 </div>
@@ -68,6 +68,11 @@ FreeCAD is maintained and developed by a community of enthusiastic developers an
 
 
 </div>
+
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

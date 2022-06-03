@@ -5,7 +5,8 @@ This category tracks pages that explain definitions of words related to FreeCAD
 
 |     |     |     |
 | --- | --- | --- |
-| [Command/zh-cn](wiki/Command/zh-cn.md) | [Glossary/zh-cn](wiki/Glossary/zh-cn.md) |
+| [Command/zh-cn](wiki/Command/zh-cn.md) | [Drawing/zh-cn](wiki/Drawing/zh-cn.md) | [Glossary/zh-cn](wiki/Glossary/zh-cn.md) |
+|
 
 
 

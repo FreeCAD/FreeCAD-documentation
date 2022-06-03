@@ -1,6 +1,6 @@
 # PartDesign MoveTip/it
 ---
-- GuiCommand:/it   Name:PartDesign MoveTip   Name/it:Usa come entità finale   MenuLocation:Menu contestuale → Usa come entità finale   Workbenches:[Version:0.17   SeeAlso:[[PartDesign MoveFeature/it|Sposta in altro corpo](PartDesign_Workbench/it___PartDesign]].md), [Sposta dopo altro oggetto](PartDesign_MoveFeatureInTree/it.md)---
+- GuiCommand   */it   Name   *PartDesign MoveTip   Name/it   *Usa come entità finale   MenuLocation   *Menu contestuale → Usa come entità finale   Workbenches   *[Version   *0.17   SeeAlso   *[[PartDesign MoveFeature/it|Sposta in altro corpo](PartDesign_Workbench/it___PartDesign]].md), [Sposta dopo altro oggetto](PartDesign_MoveFeatureInTree/it.md)---
 
 
 </div>
@@ -28,13 +28,13 @@ La cima è visivamente distinta nell\'albero del modello da una piccola freccia 
 ## Utilizzo
 
 1.  Nell\'albero del modello, fare clic con il tasto destro del mouse sulla funzione da impostare come entità finale.
-2.  Nel menu contestuale selezionare <img alt="" src=images/PartDesign_MoveTip.svg  style="width:24px;"> **Usa come entità finale**.
+2.  Nel menu contestuale selezionare <img alt="" src=images/PartDesign_MoveTip.svg  style="width   *24px;"> **Usa come entità finale**.
 3.  La nuova entità finale viene impostata su visibile e tutti gli elementi successivi alla cima sono nascosti alla vista. Gli elementi creati in questo punto sono posizionati dopo la cima e prima degli altri elementi esistenti.
 
 
 <div class="mw-translate-fuzzy">
 
-**Nota**: è importante non dimenticare di impostare poi nuovamente come entità finale l\'ultima funzione nella parte inferiore dell\'albero del corpo.
+**Nota**   * è importante non dimenticare di impostare poi nuovamente come entità finale l\'ultima funzione nella parte inferiore dell\'albero del corpo.
 
 
 </div>

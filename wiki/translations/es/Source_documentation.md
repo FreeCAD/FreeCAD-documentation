@@ -17,14 +17,14 @@ El código fuente de FreeCAD se comenta para permitir la generación automática
 
 <div class="mw-translate-fuzzy">
 
-La documentación está alojada en línea en el [Sitio web de FreeCAD API](http://www.freecadweb.org/api/). Tenga en cuenta que esta documentación puede no estar siempre actualizada; si necesita más detalles, descargue el último código fuente de FreeCAD y compile la documentación usted mismo. Si tienes preguntas urgentes sobre el código, por favor, pregúntalas en la sección de desarrolladores del [Foro de FreeCAD](https://forum.freecadweb.org/index.php).
+La documentación está alojada en línea en el [Sitio web de FreeCAD API](http   *//www.freecadweb.org/api/). Tenga en cuenta que esta documentación puede no estar siempre actualizada; si necesita más detalles, descargue el último código fuente de FreeCAD y compile la documentación usted mismo. Si tienes preguntas urgentes sobre el código, por favor, pregúntalas en la sección de desarrolladores del [Foro de FreeCAD](https   *//forum.freecadweb.org/index.php).
 
 
 </div>
 
 La compilación de la documentación de la API sigue los mismos pasos generales que la compilación del ejecutable de FreeCAD, como se indica en la página [Compilar en Linux](Compile_on_Linux/es.md).
 
-<img alt="" src=images/FreeCAD_documentation_compilation_workflow.svg  style="width:800px;">
+<img alt="" src=images/FreeCAD_documentation_compilation_workflow.svg  style="width   *800px;">
 
 
 
@@ -34,7 +34,7 @@ La compilación de la documentación de la API sigue los mismos pasos generales 
 
 ### Complete documentation 
 
-Si tienes Doxygen instalado, es muy fácil construir la documentación. También instala [Graphviz](https://www.graphviz.org/) para poder producir diagramas que muestren las relaciones entre las diferentes clases y bibliotecas en el código de FreeCAD. Graphviz también es utilizado por [Gráfico de dependencia](Std_DependencyGraph/es.md) de FreeCAD para mostrar las relaciones entre diferentes objetos. 
+Si tienes Doxygen instalado, es muy fácil construir la documentación. También instala [Graphviz](https   *//www.graphviz.org/) para poder producir diagramas que muestren las relaciones entre las diferentes clases y bibliotecas en el código de FreeCAD. Graphviz también es utilizado por [Gráfico de dependencia](Std_DependencyGraph/es.md) de FreeCAD para mostrar las relaciones entre diferentes objetos. 
 ```python
 sudo apt install doxygen graphviz
 ```
@@ -48,7 +48,7 @@ Then follow the same steps you would do to compile FreeCAD, as described on the 
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
+git clone https   *//github.com/FreeCAD/FreeCAD.git freecad-source
 mkdir freecad-build
 cd freecad-build
 cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
@@ -62,7 +62,7 @@ make -j$(nproc --ignore=2) DevDoc
 freecad-build/doc/SourceDocu/html/
 ```
 
-El punto de entrada a la documentación es el archivo `index.html`, que se puede abrir con un navegador web: 
+El punto de entrada a la documentación es el archivo `index.html`, que se puede abrir con un navegador web   * 
 ```python
 xdg-open freecad-build/doc/SourceDocu/html/index.html
 ```
@@ -74,7 +74,7 @@ El objetivo `DevDoc` generará una cantidad significativa de datos, alrededor de
 
 <div class="mw-translate-fuzzy">
 
-Se puede generar una versión alternativa y más pequeña de la documentación, que sólo requiere unos 600 MB, con un objetivo diferente. Esta es la versión que se muestra en el [sitio web de FreeCAD API](http://www.freecadweb.org/api/).
+Se puede generar una versión alternativa y más pequeña de la documentación, que sólo requiere unos 600 MB, con un objetivo diferente. Esta es la versión que se muestra en el [sitio web de FreeCAD API](http   *//www.freecadweb.org/api/).
 
 
 </div>
@@ -84,14 +84,14 @@ Se puede generar una versión alternativa y más pequeña de la documentación, 
 make -j$(nproc --ignore=2) WebDoc
 ```
 
-The documentation on the [FreeCAD API website](https://freecad.github.io/SourceDoc/) is produced automatically from <https://github.com/FreeCAD/SourceDoc> . Anyone can rebuild it and submit a pull request:
+The documentation on the [FreeCAD API website](https   *//freecad.github.io/SourceDoc/) is produced automatically from <https   *//github.com/FreeCAD/SourceDoc> . Anyone can rebuild it and submit a pull request   *
 
--   Fork the repo at <https://github.com/FreeCAD/SourceDoc>
--   on your machine: clone the FreeCAD code (if you haven\'t yet), create a build dir for the doc, and clone the above SourceDoc repo inside. That SourceDoc will be updated when you rebuild the doc, and you\'ll be able to commit & push the results afterwards:
+-   Fork the repo at <https   *//github.com/FreeCAD/SourceDoc>
+-   on your machine   * clone the FreeCAD code (if you haven\'t yet), create a build dir for the doc, and clone the above SourceDoc repo inside. That SourceDoc will be updated when you rebuild the doc, and you\'ll be able to commit & push the results afterwards   *
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD
+git clone https   *//github.com/FreeCAD/FreeCAD
 cd FreeCAD
 mkdir build
 cd build
@@ -113,7 +113,7 @@ git push
 
 ## Otras versiones 
 
-[FreeCAD 0.12](http://free-cad.sf.net/SrcDocu/index.html) documentación alojada en Sourceforge.
+[FreeCAD 0.12](http   *//free-cad.sf.net/SrcDocu/index.html) documentación alojada en Sourceforge.
 
 
 </div>
@@ -126,7 +126,7 @@ En los sistemas Unix es posible vincular la documentación de origen de Coin3D c
 -   Descomprima el archivo `coin.tar.gz` ubicado en `/usr/share/doc/libcoin-doc/html`; los archivos pueden estar ya descomprimidos en su sistema.
 -   Genera de nuevo la documentación de fuente.
 
-Si no instalas el paquete de documentación de Coin, se generarán los enlaces para acceder a la documentación en línea en [BitBucket](https://coin3d.bitbucket.io/Coin/). Esto sucederá si un archivo de etiquetas de Doxygen puede ser descargado en tiempo de configuración con `wget`.
+Si no instalas el paquete de documentación de Coin, se generarán los enlaces para acceder a la documentación en línea en [BitBucket](https   *//coin3d.bitbucket.io/Coin/). Esto sucederá si un archivo de etiquetas de Doxygen puede ser descargado en tiempo de configuración con `wget`.
 
 ## Usando Doxygen 
 
@@ -137,12 +137,12 @@ Esencialmente, un bloque de comentarios, comenzando con `/**` o `///` para C++, 
 /**
  * Returns the name of the workbench object.
  */
-std::string name() const;
+std   *   *string name() const;
 
 /**
  * Set the name to the workbench object.
  */
-void setName(const std::string&);
+void setName(const std   *   *string&);
 
 /// remove the added TaskWatcher
 void removeTaskWatcher(void);
@@ -156,6 +156,11 @@ void removeTaskWatcher(void);
 
 
 </div>
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

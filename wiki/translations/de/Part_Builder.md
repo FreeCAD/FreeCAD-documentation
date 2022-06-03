@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Part Builder
-   Name/de:Part FormGenerator
-   MenuLocation:Formteil → Form-Generator...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
+- GuiCommand   */de
+   Name   *Part Builder
+   Name/de   *Part FormGenerator
+   MenuLocation   *Formteil → Form-Generator...
+   Workbenches   *[Part](Part_Workbench/de.md)
+   SeeAlso   *[Part Grundkörper](Part_Primitives/de.md)
 ---
 
 # Part Builder/de
@@ -15,7 +15,7 @@ Ein Werkzeug zur Erstellung von komplexeren Formen aus verschiedenen parametrisc
 
 ## Anwendung
 
-Dieses Werkzeug kann die folgenden Objekte erstellen:
+Dieses Werkzeug kann die folgenden Objekte erstellen   *
 
 ### Kante aus zwei Knoten 
 
@@ -65,9 +65,9 @@ Dieses Werkzeug kann die folgenden Objekte erstellen:
 
 ## Hinweise
 
-Ein möglicher Arbeitsablauf könnte sein:
+Ein möglicher Arbeitsablauf könnte sein   *
 
--   Zeichne ein Drahtgittermodell deiner Form mit den Werkzeugen in der <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) (z.B. Linie und Draht)
+-   Zeichne ein Drahtgittermodell deiner Form mit den Werkzeugen in der <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) (z.B. Linie und Draht)
 -   Erzeuge alle Flächen mit \"Fläche aus Kanten\"
 -   Erzeuge eine \"Hülle aus Flächen\"
 -   Erzeuge einen \"Festkörper aus Hülle\"

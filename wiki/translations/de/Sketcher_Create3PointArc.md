@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher Create3PointArc
-   Name/de   *Skizzierer Erstelle3PunktBogen
-   MenuLocation   *Skizze → Skizzengeometrien → Erstelle Bogen durch drei Punkte
+   Name/de   *Sketcher BogenDurch3PunkteErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Kreisogen durch drei Punkte erstellen
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   *
+   Shortcut   ***G** **3** **A**
    SeeAlso   *
 ---
 
 # Sketcher Create3PointArc/de
-
-
-</div>
 
 ## Beschreibung
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Part JoinEmbed
-   Name/it:Incastro
-   MenuLocation:Part → Congiungi → Incastra oggetto
-   Workbenches:[[Part_Workbench/it   Part]]|Version:0.16.5069
-   SeeAlso:[Congiunzione](Part_JoinConnect/it.md), [Asportazione](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
+- GuiCommand   */it
+   Name   *Part JoinEmbed
+   Name/it   *Incastro
+   MenuLocation   *Part → Congiungi → Incastra oggetto
+   Workbenches   *[[Part_Workbench/it   Part]]|Version   *0.16.5069
+   SeeAlso   *[Congiunzione](Part_JoinConnect/it.md), [Asportazione](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
 ---
 
 # Part JoinEmbed/it
@@ -39,13 +39,13 @@ Viene creato un oggetto Parte JoinFeature, con la modalità, Mode, impostata su 
 
 {{TitleProperty|Base}}
 
--    **Base**: Riferisce l\'oggetto di base (l\'oggetto in cui si vuole incastrare l\'altro oggetto). L\'oggetto deve essere un solido unico.
+-    **Base**   * Riferisce l\'oggetto di base (l\'oggetto in cui si vuole incastrare l\'altro oggetto). L\'oggetto deve essere un solido unico.
 
--    **Tool**: Riferisce l\'oggetto da usare come utensile (l\'oggetto da incastrare). L\'oggetto può essere un solido unico, oppure un [composto valido](Part_Compound/it.md) di solidi.
+-    **Tool**   * Riferisce l\'oggetto da usare come utensile (l\'oggetto da incastrare). L\'oggetto può essere un solido unico, oppure un [composto valido](Part_Compound/it.md) di solidi.
 
--    **Mode**: Stabilisce la modalità dell\'operazione di Giunzione, che in questo caso è uguale a \'Connect\' (cambiando modalità si trasforma lo strumento in uno strumento Giunzione diverso). Il valore \'bypass\' può essere usato per disabilitare temporaneamente i lunghi calcoli (in questo caso, viene creato un oggetto Composto formato dagli oggetti Base e Tool , che è un\'operazione veloce).
+-    **Mode**   * Stabilisce la modalità dell\'operazione di Giunzione, che in questo caso è uguale a \'Connect\' (cambiando modalità si trasforma lo strumento in uno strumento Giunzione diverso). Il valore \'bypass\' può essere usato per disabilitare temporaneamente i lunghi calcoli (in questo caso, viene creato un oggetto Composto formato dagli oggetti Base e Tool , che è un\'operazione veloce).
 
--    **Refine**: Stabilisce se alla forma finale deve essere applicata l\'operazione [Affina](Part_RefineShape/it.md), oppure no. Il valore di default è stabilito dalla casella di controllo \'Affina automaticamente la forma dopo l\'operazione booleana\' nelle preferenze di PartDesign. Quando la proprietà Mode è impostata su \'bypass\', Affina viene ignorato (Refine non è mai applicato).
+-    **Refine**   * Stabilisce se alla forma finale deve essere applicata l\'operazione [Affina](Part_RefineShape/it.md), oppure no. Il valore di default è stabilito dalla casella di controllo \'Affina automaticamente la forma dopo l\'operazione booleana\' nelle preferenze di PartDesign. Quando la proprietà Mode è impostata su \'bypass\', Affina viene ignorato (Refine non è mai applicato).
 
 
 </div>
@@ -57,13 +57,13 @@ Viene creato un oggetto Parte JoinFeature, con la modalità, Mode, impostata su 
 
 ## Esempio
 
-1.  Creare un tubo applicando uno [Spessore](Part_Thickness/it.md) a un [cilindro](Part_Cylinder/it.md):
-    <img alt="" src=images/JoinFeatures_Example_step1.png  style="width:320px;">
-2.  Creare un nuovo tubo di diametro inferiore e [posizionarlo](Placement/it.md) in modo da perforare la parete del primo tubo:
+1.  Creare un tubo applicando uno [Spessore](Part_Thickness/it.md) a un [cilindro](Part_Cylinder/it.md)   *
+    <img alt="" src=images/JoinFeatures_Example_step1.png  style="width   *320px;">
+2.  Creare un nuovo tubo di diametro inferiore e [posizionarlo](Placement/it.md) in modo da perforare la parete del primo tubo   *
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Selezionare il primo tubo, poi il secondo tubo (l\'ordine di selezione è importante), infine selezionare l\'opzione \'Incastra\' dalla barra degli strumenti a discesa degli strumenti Giunzione.
     ![320px](images/JoinFeatures_Example_step3_Embed.png)
-4.  Per visualizzare gli interni, utilizzare uno degli strumenti di sezione: [Piano di taglio](Std_ToggleClipPlane/it.md) del menu Visualizza, [Piano di sezione](Arch_SectionPlane/it.md) di Arch, o [Piano di taglio](Arch_CutPlane/it.md) di Arch. Nell\'immagine seguente, è stato utilizzato il Piano di sezione di Arch.
+4.  Per visualizzare gli interni, utilizzare uno degli strumenti di sezione   * [Piano di taglio](Std_ToggleClipPlane/it.md) del menu Visualizza, [Piano di sezione](Arch_SectionPlane/it.md) di Arch, o [Piano di taglio](Arch_CutPlane/it.md) di Arch. Nell\'immagine seguente, è stato utilizzato il Piano di sezione di Arch.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
 
 
@@ -112,7 +112,7 @@ Gli algoritmi sottostanti agli strumenti di Giunzione sono abbastanza semplici, 
 
 ## Script
 
-Lo strumento Giunzione può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+Lo strumento Giunzione può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
 
 
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
@@ -120,7 +120,7 @@ Lo strumento Giunzione può essere utilizzato nelle [macro](macros/it.md) e dall
 -   Crea una funzione Embed vuota (o altra funzione Join, secondo la modalità passata). Le proprietà Base e Tool devono essere assegnate in modo esplicito, in seguito.
 -   Restituisce l\'oggetto appena creato.
 
-Esempio:
+Esempio   *
 
 
 {{code|code=
@@ -130,7 +130,7 @@ j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
-Lo strumento è implementato in Python, vedere {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) in cui è installato FreeCAD.
+Lo strumento è implementato in Python, vedere **/Mod/Part/JoinFeatures.py** ([Github link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) in cui è installato FreeCAD.
 
 
 <div class="mw-translate-fuzzy">

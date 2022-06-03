@@ -1,17 +1,14 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher External
-   Name/de:Skizzierer Extern
-   MenuLocation:Skizze → Skizzengeometrien → Skizzierer Extern
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut:X
-   SeeAlso:[KonstructionsModus](Sketcher_ToggleConstruction/de.md)
+- GuiCommand   */de
+   Name   *Sketcher External
+   Name/de   *Sketcher ExterneGeometrie
+   MenuLocation   *Sketch → Skizzengeometrien → Externe Geometrie
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **X**
+   SeeAlso   *[Sketcher UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md)
 ---
 
 # Sketcher External/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -23,9 +20,9 @@ Verwende das **<img src="images/Sketcher_External.svg" width=16px> [Externe Geom
 
 </div>
 
-Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit generierter (Volumen) Geometrie kann aufgrund des [Topologisches Benennungsproblem](Topological_naming_problem/de.md) zu unerwarteten Ergebnissen führen. Siehe auch [Ratschlag für stabile Modelle](https://wiki.freecadweb.org/Feature_editing/de#Ratschläge_zur_Erstellung_stabiler_Modelle.md).
+Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit generierter (Volumen) Geometrie kann aufgrund des [Topologisches Benennungsproblem](Topological_naming_problem/de.md) zu unerwarteten Ergebnissen führen. Siehe auch [Ratschlag für stabile Modelle](https   *//wiki.freecadweb.org/Feature_editing/de#Ratschläge_zur_Erstellung_stabiler_Modelle.md).
 
-<FILE:Sketcher_ExternalEsempio1.png>
+<FILE   *Sketcher_ExternalEsempio1.png>
 
 ## Anwendung
 
@@ -33,7 +30,7 @@ Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit g
 <div class="mw-translate-fuzzy">
 
 -   Erstelle eine neue Skizze oder öffne eine bestehende Skizze.
--   Klicke auf die Schaltfläche **[<img src=images/Sketcher_External.svg style="width:16px"> [Skizzierer Extern](Sketcher_External/de.md)**.
+-   Klicke auf die Schaltfläche **[<img src=images/Sketcher_External.svg style="width   *16px"> [Skizzierer Extern](Sketcher_External/de.md)**.
 -   Wähle eine Kante oder einen Scheitelpunkt aus, auf den in der Skizze verwiesen werden soll.
 -   Drücke die **Esc**-Taste oder wähle ein anderes Werkzeug, um den Import von Geometrien in die Skizze zu beenden.
 
@@ -78,24 +75,18 @@ In v0.16 und älter muss die Skizze einer Fläche zugeordnet werden, um dieses W
 
 In diesem Fall werden sie als Referenz für Tangentialbeschränkungen mit den Umfängen eines Kreises verwendet. Sie werden auch als Referenz für eine horizontale und vertikale Zwangsbeschränkungung verwendet, um den Mittelpunkt des zweiten Kreises relativ zum Ende und zur Oberseite des Polsters zu ermitteln.
 
-<FILE:Sketcher_ExternalEsempio2.png>
+<FILE   *Sketcher_ExternalEsempio2.png>
 
 Dies ist die gleiche Skizze im Bearbeitungsmodus, wobei das Polster, auf das sie abgebildet ist, ausgeblendet ist.
 
-<FILE:Sketcher_ExternalEsempio4.png>
+<FILE   *Sketcher_ExternalEsempio4.png>
 
 Wenn der Skizzenbearbeitungsmodus geschlossen ist, sind externe Geometrielinien nicht sichtbar.
 
-<FILE:Sketcher_ExternalEsempio3.png>
-
-
-<div class="mw-translate-fuzzy">
+<FILE   *Sketcher_ExternalEsempio3.png>
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

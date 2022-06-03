@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:PartDesign_Pocket
-   Name/fr:PartDesign Cavité
-   MenuLocation:Part Design → Créer une fonction soustractive → Cavité
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Protrusion](PartDesign_Pad/fr.md)
+- GuiCommand   */fr
+   Name   *PartDesign_Pocket
+   Name/fr   *PartDesign Cavité
+   MenuLocation   *Part Design → Créer une fonction soustractive → Cavité
+   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso   *[PartDesign Protrusion](PartDesign_Pad/fr.md)
 ---
 
 # PartDesign Pocket/fr
@@ -17,7 +17,7 @@ L\'outil **Cavité** découpe des solides en extrudant une esquisse ou une face 
 
 ## Utilisation
 
-1.  Sélectionnez l\'esquisse ou la face recevant la cavité. {{Version/fr|0.20}} : Vous pouvez également sélectionner plusieurs esquisses ou faces.
+1.  Sélectionnez l\'esquisse ou la face recevant la cavité. {{Version/fr|0.20}}    * Vous pouvez également sélectionner plusieurs esquisses ou faces.
 2.  Appuyez sur le bouton **<img src="images/PartDesign_Pocket.svg" width=16px> '''Cavité'''**.
 3.  Définissez les paramètres de la cavité, voir les [Options](#Options.md) ci-dessous.
 4.  Cliquez sur **OK**.
@@ -26,21 +26,21 @@ Lors de la sélection d\'une seule esquisse, celle-ci peut comporter plusieurs p
 
 ## Options
 
-Lors de la création de la protrusion, la boîte de dialogue **Paramètres de la cavité** s\'affiche. Elle offre les paramètres suivants :
+Lors de la création de la protrusion, la boîte de dialogue **Paramètres de la cavité** s\'affiche. Elle offre les paramètres suivants    *
 
 ![](images/pocket_parameters_cropped.png )
 
 ### Type
 
-Type offre 5 différentes façons de définir la longueur de la cavité:
+Type offre 5 différentes façons de définir la longueur de la cavité   *
 
 #### Dimension
 
-Entrez une valeur numérique pour la longueur de la cavité. La direction par défaut de l\'extrusion est vers le support, mais elle peut être modifiée en cochant l\'option **Inversé**. Les extrusions se produisent par défaut selon la [normale](https://fr.wikipedia.org/wiki/Normale_(g%C3%A9om%C3%A9trie)) au plan d\'esquisse de définition. Cela peut être modifié en spécifiant une autre **Direction** {{Version/fr|0.20}}. Avec l\'option **Symétrique au plan**, la cavité s\'étendra sur la moitié de la longueur donnée de chaque côté du plan. Les dimensions négatives ne sont pas possibles. Utilisez plutôt l\'option **Inversé**.
+Entrez une valeur numérique pour la longueur de la cavité. La direction par défaut de l\'extrusion est vers le support, mais elle peut être modifiée en cochant l\'option **Inversé**. Les extrusions se produisent par défaut selon la [normale](https   *//fr.wikipedia.org/wiki/Normale_(g%C3%A9om%C3%A9trie)) au plan d\'esquisse de définition. Cela peut être modifié en spécifiant une autre **Direction** {{Version/fr|0.20}}. Avec l\'option **Symétrique au plan**, la cavité s\'étendra sur la moitié de la longueur donnée de chaque côté du plan. Les dimensions négatives ne sont pas possibles. Utilisez plutôt l\'option **Inversé**.
 
 #### À travers tout 
 
-La cavité sera extrudée à travers tous les objets dans le sens de l\'extrusion. Avec l\'option **Symétrique au plan**, la cavité traversera tous les matériaux dans les deux sens.**Remarque :** Pour des raisons techniques, **À travers tout** est en fait une cavité de 10 mètres de profondeur. Si vous avez besoin de cavités plus profondes, utilisez le type **Dimension**.
+La cavité sera extrudée à travers tous les objets dans le sens de l\'extrusion. Avec l\'option **Symétrique au plan**, la cavité traversera tous les matériaux dans les deux sens.**Remarque    *** Pour des raisons techniques, **À travers tout** est en fait une cavité de 10 mètres de profondeur. Si vous avez besoin de cavités plus profondes, utilisez le type **Dimension**.
 
 #### Au premier 
 
@@ -69,7 +69,7 @@ Décalage de la surface à laquelle la cavité se terminera. Cette option n\'est
 
 #### Direction/bord
 
-Vous pouvez sélectionner la direction de la protrusion :
+Vous pouvez sélectionner la direction de la protrusion    *
 
 -   **Face/Sketch normal** L\'esquisse ou la face est extrudée le long de sa normale. Si vous avez sélectionné plusieurs esquisses ou faces à extruder, la normale de la première sera utilisée. {{Version/fr|0.20}}
 -   **Select reference\...** L\'esquisse est extrudée le long d\'une arête du modèle 3D. Lorsque cette méthode est sélectionnée, vous pouvez cliquer sur n\'importe quelle arête du modèle 3D. Celle-ci devient alors le vecteur de direction pour la protrusion.
@@ -98,7 +98,7 @@ Inverse la direction de la cavité.
 
 Génère la cavité dans le sens de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la cavité s\'élargit. Cette option n\'est disponible que si le **Type** est mis soit à **Dimension** soit à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle de conicité opposé. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
 
-Limitations :
+Limitations    *
 
 -   Les esquisses contenant des [B-splines](B-Splines/fr.md) ne peuvent souvent pas être correctement formées. Il s\'agit d\'une limitation du noyau d\'[OpenCASCADE](OpenCASCADE/fr.md) utilisé par FreeCAD.
 -   Pour des angles trés importants, le cone échouera si la face finale de la cavité a moins d\'arêtes que la face/esquisse de départ.
@@ -116,21 +116,21 @@ Génère la cavité dans le sens opposé de l\'extrusion selon l\'angle donné. 
 
 ## Propriétés
 
--    **Type**: Type de manière dont la cavité sera extrudée, voir [Options](#Options.md).
+-    **Type**   * Type de manière dont la cavité sera extrudée, voir [Options](#Options.md).
 
--    **Length**: Définit la longueur de la cavité, voir [Options](#Options.md).
+-    **Length**   * Définit la longueur de la cavité, voir [Options](#Options.md).
 
--    **Length2**: Deuxième longueur de la cavité si le **Type** est **TwoLengths**, voir [Options](#Options.md).
+-    **Length2**   * Deuxième longueur de la cavité si le **Type** est **TwoLengths**, voir [Options](#Options.md).
 
--    **Use Custom Vector**: {{Version/fr|0.20}}. Si coché, la direction de la cavité ne sera pas le vecteur normal de l\'esquisse mais le vecteur donné, voir [Options](#Options.md).
+-    **Use Custom Vector**   * {{Version/fr|0.20}}. Si coché, la direction de la cavité ne sera pas le vecteur normal de l\'esquisse mais le vecteur donné, voir [Options](#Options.md).
 
--    **Direction**: {{Version/fr|0.20}} Vecteur de la direction de la cavité si **Use Custom Vector** est utilisé.
+-    **Direction**   * {{Version/fr|0.20}} Vecteur de la direction de la cavité si **Use Custom Vector** est utilisé.
 
--    **Along Sketch Normal**: {{Version/fr|0.20}} Si *true*, la longueur de la cavité est mesurée le long de la normale à l\'esquisse. Sinon et si **Use Custom Vector** est utilisé, elle est mesurée le long de la direction personnalisée.
+-    **Along Sketch Normal**   * {{Version/fr|0.20}} Si *true*, la longueur de la cavité est mesurée le long de la normale à l\'esquisse. Sinon et si **Use Custom Vector** est utilisé, elle est mesurée le long de la direction personnalisée.
 
--    **Up To Face**: La face vers laquelle la cavité sera extrudée, voir [Options](#Options.md).
+-    **Up To Face**   * La face vers laquelle la cavité sera extrudée, voir [Options](#Options.md).
 
--    **Refine**: True ou false. Nettoie les bords résiduels laissés après l\'opération. Cette propriété est initialement définie en fonction des paramètres de l\'utilisateur (trouvés dans **Préférences → Conception de la pièce → Général → Paramètres du modèle**). Elle peut être modifiée manuellement par la suite. Cette propriété sera enregistrée avec le document FreeCAD.
+-    **Refine**   * True ou false. Nettoie les bords résiduels laissés après l\'opération. Cette propriété est initialement définie en fonction des paramètres de l\'utilisateur (trouvés dans **Préférences → Conception de la pièce → Général → Paramètres du modèle**). Elle peut être modifiée manuellement par la suite. Cette propriété sera enregistrée avec le document FreeCAD.
 
 ## Limitations
 

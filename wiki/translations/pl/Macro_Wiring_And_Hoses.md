@@ -1,12 +1,12 @@
 # Macro Wiring And Hoses/pl
 {{Macro/pl
 |Name=Macro Wiring And Hoses
-|Name/pl=Makrodefinicja: Okablowanie i rurociągi
+|Name/pl=Makrodefinicja   * Okablowanie i rurociągi
 |Description=Makra te wspierają tworzenie i obsługę kabli i rur.
 |Author=Piffpoof
 }}
 
-**Od [User:Piffpoof](User_Piffpoof.md) Uwaga: pewne zmiany pomiędzy v 0.14 a v 0.15 wpłynęły na to makro, co opóźni jego wydanie**
+**Od [User   *Piffpoof](User_Piffpoof.md) Uwaga   * pewne zmiany pomiędzy v 0.14 a v 0.15 wpłynęły na to makro, co opóźni jego wydanie**
 
 Makra te wspierają tworzenie i obsługę sieci przewodów i rur.
 
@@ -20,7 +20,7 @@ Jako część naszych innych projektów FreeCAD potrzebowaliśmy sposobu na udok
 
 W ramach projektu dokumentacji odkryliśmy, że potrzebujemy udokumentować przewody i rury. Wypróbowaliśmy kilka różnych scenariuszy takich jak tworzenie linii lub cylindrów jako część istniejącego modelu. Ze względu na problemy z ich używaniem lub utrzymaniem zdecydowaliśmy się zachować te informacje w innym formacie i poza programem FreeCAD. W ten sposób mogły być one tworzone samodzielnie lub w ramach istniejącego dokumentu. Ta decyzja pozwoliła użytkownikowi pracować z okablowaniem i rurami w sposób, który mu odpowiadał. Mógł również pracować z nimi na różne sposoby w różnych momentach, gdy zmieniały się potrzeby.
 
-Początkowo nie byliśmy pewni, jak prowadzić listę rur i przewodów i próbowaliśmy różnych podejść. Najprostszym sposobem wydawało się użycie formatu pliku CSV, który istnieje od dawna. Istniały już także procedury napisane do zarządzania plikami CSV z poziomu Pythona. Niektóre z zalet były następujące:
+Początkowo nie byliśmy pewni, jak prowadzić listę rur i przewodów i próbowaliśmy różnych podejść. Najprostszym sposobem wydawało się użycie formatu pliku CSV, który istnieje od dawna. Istniały już także procedury napisane do zarządzania plikami CSV z poziomu Pythona. Niektóre z zalet były następujące   *
 
 -   czytelny dla człowieka,
 -   może być załadowany do dowolnego arkusza kalkulacyjnego,
@@ -31,7 +31,7 @@ Kolejnymi decyzjami było \"jak\" zdefiniować takie przebiegi kabli. Ponieważ 
 
 Ten zestaw makr jest w zasadzie \"dowodem koncepcji\", demonstruje pewne pomysły i ich wykonalność. Naszym głównym celem była dokumentacja, a nie fizyczne zarządzanie instalacją. Zdecydowaliśmy się na utrzymanie struktury danych punktów, które są punktami, przez które przebiegają przewody i rury. Po drugie utworzyliśmy strukturę danych, która definiuje kable i rury pod względem punktów, przez które przechodzą. Tak więc przewód może być poprowadzony tylko tam, gdzie zostały zdefiniowane dla niego punkty.
 
-Dla tych dwóch struktur danych wybraliśmy następujące nazwy:
+Dla tych dwóch struktur danych wybraliśmy następujące nazwy   *
 
 -   Węzeł - punkt, przez który może przechodzić kabel lub rura *(liczba mnoga to Nexi)*. Węzły są po prostu punktami w przestrzeni 3D, dla ułatwienia wizualizacji oprogramowanie umieszcza pierścienie wokół lokalizacji, ale służą tylko dla ułatwienia użycia. Widoczność Pierścieni może być wyłączona lub włączona w zależności od preferencji użytkownika.
 -   Przepływy - ogólnie są to trasy składające się z Węzłów. Do każdego typu przypisany jest kod, domyślne kody to
@@ -39,7 +39,7 @@ Dla tych dwóch struktur danych wybraliśmy następujące nazwy:
     -   C - przewody, przeznaczone głównie dla kabli, ale mogące zawierać wszystko
     -   H - rury do przenoszenia różnych płynów
     -   G - przewody gazowe
-    -   K - trasa kamery, to jest tak naprawdę zarezerwowane dla przyszłych eksploracji, jak w [Zwiedzanie ujęciem widoku](http://forum.freecadweb.org/viewtopic.php?f=24&t=8437).
+    -   K - trasa kamery, to jest tak naprawdę zarezerwowane dla przyszłych eksploracji, jak w [Zwiedzanie ujęciem widoku](http   *//forum.freecadweb.org/viewtopic.php?f=24&t=8437).
 
 Zarówno Węzły jak i Przepływ mają nazwy przypisane przez użytkownika, dodatkowo Węzły mają wewnętrznie przypisane ID w celu ułatwienia zarządzania. Będąc punktami lub lokalizacjami w przestrzeni Węzły nie mają kolorów, ale Przepływy mogą mieć jeden z 48 zdefiniowanych kolorów. Nacisk na kolory wiąże się z zamierzonym celem, jakim jest dokumentacja.
 
@@ -63,9 +63,9 @@ Kod dla **Okablowania i rurociągów** znajduje się w wielu makrach i bibliotec
 
 ## Użycie
 
-Istnieją naprawdę dwa różne podejścia do pracy z tymi makrodefinicjami: Węzły i Przepływy mogą być zdefiniowane samodzielnie przy użyciu współrzędnych przestrzennych, lub można użyć istniejącego dokumentu FreeCAD i zdefiniować Węzły i Przepływy w kontekście tego dokumentu. Nie jest to decyzja typu \"albo / albo\", ale raczej oba podejścia mogą być stosowane, gdy są najbardziej odpowiednie. Ponieważ definicje Węzłów i Przepływów są przechowywane w pliku w formacie CSV, który jest przechowywany poza programem FreeCAD, obecność lub brak dokumentu FreeCAD nie ma wpływu na pracę z Węzłami i Przepływami, ale ułatwia ją poprzez zapewnienie kontekstu wizualnego. Dla tego opisu użycia w przykładzie zostanie użyty wcześniej załadowany dokument FreeCAD jako kontekst, ponieważ łatwiej jest umieścić
+Istnieją naprawdę dwa różne podejścia do pracy z tymi makrodefinicjami   * Węzły i Przepływy mogą być zdefiniowane samodzielnie przy użyciu współrzędnych przestrzennych, lub można użyć istniejącego dokumentu FreeCAD i zdefiniować Węzły i Przepływy w kontekście tego dokumentu. Nie jest to decyzja typu \"albo / albo\", ale raczej oba podejścia mogą być stosowane, gdy są najbardziej odpowiednie. Ponieważ definicje Węzłów i Przepływów są przechowywane w pliku w formacie CSV, który jest przechowywany poza programem FreeCAD, obecność lub brak dokumentu FreeCAD nie ma wpływu na pracę z Węzłami i Przepływami, ale ułatwia ją poprzez zapewnienie kontekstu wizualnego. Dla tego opisu użycia w przykładzie zostanie użyty wcześniej załadowany dokument FreeCAD jako kontekst, ponieważ łatwiej jest umieścić
 
-Użycie tych makrodefinicji dzieli się na 3 części:
+Użycie tych makrodefinicji dzieli się na 3 części   *
 
 -   zdefiniuj Węzły,
 -   zdefiniuj Przepływy,
@@ -82,30 +82,30 @@ i czeka na zainstalowanie zimnej wody i prądu. Dla wygody wyjaśnienia wszystki
 Pierwszym krokiem jest utworzenie punktów w przestrzeni trójwymiarowej *(zwanych \"Węzłami\")*. Punkty te zostaną użyte w następnym kroku do zdefiniowania przepływu. Punkty te tworzymy klikając na *(tj. wybierając)* powierzchnię, a następnie podając nazwę dla Węzła. Ten opis dotyczy definiowania punktów Węzłów dla przepływu wody.
 
 1.  kliknij na ikonę 
-2.  pojawi się następujące okno dialogowe:
+2.  pojawi się następujące okno dialogowe   *
 
 . To jest pytanie, czy chcesz otworzyć i załadować dokument FreeCAD, który zawiera model, do którego chcesz dodać Węzeł i przepływy. Nie jest konieczne wczytywanie żadnego, ale dla tego przykładu wczytamy nasz pusty dom.
 
 1.  wybierz powierzchnię klikając na nią, zostanie ona podświetlona w oknie Widoku Drzewa i będzie miała kolor potwierdzający zaznaczenie an ekranie.
 2.  kliknij na ikonę 
-3.  pojawi się następujące okno dialogowe z pytaniem o nazwę dla nowego Węzła:
+3.  pojawi się następujące okno dialogowe z pytaniem o nazwę dla nowego Węzła   *
 
 
 
 1.  Węzeł zostanie teraz zdefiniowany. Zostanie on umieszczony w przestrzeni trójwymiarowej tak, aby znajdował się na linii od wybranej ściany do obserwatora, tuż obok ściany, tak aby nie znajdował się wewnątrz obiektu. Chociaż węzeł może nie być w idealnym położeniu, zostaw go na razie, ponieważ będzie on edytowany w późniejszym kroku. Zostanie wyświetlony specjalny okrąg *(pierścień)*, który jest wyśrodkowany w punkcie węzła. Okrąg ten jest jedynie narzędziem wizualizacji, dzięki któremu można zidentyfikować położenie punktu. Pierścienie wizualizacji mogą być włączane/wyłączane w dowolnym momencie.
 2.  zdefiniuj kolejne węzły w ten sam sposób, nadając każdemu z nich sensowną nazwę
 3.  kliknij na ikonę 
-4.  pojawi się następujące okno dialogowe:
+4.  pojawi się następujące okno dialogowe   *
 
 
 
 1.  odpowiedz Tak, aby zapisać nowe węzły
 
-Uwaga: w każdym momencie możesz dołączyć już istniejący projekt, aby mieć widoczny ogólny obraz sytuacji.
+Uwaga   * w każdym momencie możesz dołączyć już istniejący projekt, aby mieć widoczny ogólny obraz sytuacji.
 
 ### Określenie przepływ 
 
-Po zdefiniowaniu Węzły mogą być one użyte do zdefiniowania przepływu. Nasz dom wygląda teraz tak:
+Po zdefiniowaniu Węzły mogą być one użyte do zdefiniowania przepływu. Nasz dom wygląda teraz tak   *
 
 \< picture of house with nexi but not flows\>
 
@@ -113,13 +113,13 @@ Posiada Węzły zdefiniowane dla przepływu wody, ale teraz jeszcze nie ma przep
 
 1.  kliknij na ikonę .
 
-pojawi się następujące okno dialogowe:
+pojawi się następujące okno dialogowe   *
 
 
 
 To jest prośba o wybranie Węzłów w kolejności, w jakiej mają one tworzyć przepływ.
 
-1.  wybierz typ przepływu: Przewody, Kanalazacja, Rury, Linie gazowe
+1.  wybierz typ przepływu   * Przewody, Kanalazacja, Rury, Linie gazowe
 2.  używając drugiego okna, wybierz Węzły w kolejności, w jakiej chcesz je utworzyć
 
 
@@ -136,7 +136,7 @@ To jest prośba o wybranie Węzłów w kolejności, w jakiej mają one tworzyć 
 
 Istnieją 3 różne sposoby edycji Węzła. Ponieważ przepływy są zdefiniowane w kategoriach Węzłów, modyfikacja Węzła będzie miała wpływ na każdy przepływ, który je zawiera. Dla opisowych atrybutów przepływu, takich jak kolor i nazwa, istnieje jeden sposób na edycję.
 
-Do tej pory w tym przykładzie wygenerowaliśmy następującą tabelę:
+Do tej pory w tym przykładzie wygenerowaliśmy następującą tabelę   *
 
 
 

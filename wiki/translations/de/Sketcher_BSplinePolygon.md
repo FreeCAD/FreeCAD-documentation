@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher BSplinePolygon
-   Name/de:Skizzierer BSplinePolygon
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation:Skizze → Skizzierer B-Spline Werkzeuge → B-Spline Kontrollpolygon ein-/ausblenden
-   Version:0.17
-   SeeAlso:[B-Spline erzeugen](Sketcher_CompCreateBSpline/de.md) 
+- GuiCommand   */de
+   Name   *Sketcher BSplinePolygon
+   Name/de   *Skizzierer BSplinePolygon
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   MenuLocation   *Skizze → Skizzierer B-Spline Werkzeuge → B-Spline Kontrollpolygon ein-/ausblenden
+   Version   *0.17
+   SeeAlso   *[B-Spline erzeugen](Sketcher_CompCreateBSpline/de.md) 
 ---
 
 # Sketcher BSplinePolygon/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Zeigt oder Blendet die Anzeige des definierten Polygons einer B-Spline Kurve aus (siehe [B-Spline](https://en.wikipedia.org/wiki/B-spline)).
+Zeigt oder Blendet die Anzeige des definierten Polygons einer B-Spline Kurve aus (siehe [B-Spline](https   *//en.wikipedia.org/wiki/B-spline)).
 
 
 </div>

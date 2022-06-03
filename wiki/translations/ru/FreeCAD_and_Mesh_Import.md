@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Для этого:
+Для этого   *
 
 -   Переключитесь на верстак Part
 -   Выберите сетку, и выберите в меню Деталь \--\> Создание формы из сетки
@@ -44,7 +44,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Что делать, если получено сообщение об ошибке: \"cannot convert because shape is not a shell\"? 
+## Что делать, если получено сообщение об ошибке   * \"cannot convert because shape is not a shell\"? 
 
 Вероятно, ваша форма содержит ошибки, возможно, она не замкнута (имеет дыры). Поскольку возможности верстака Mesh в FreeCAD пока еще ограничены, вам следует попробовать проверить и восстановить вашу модель с помощью сторонних программ. После этого попробуйте импортировать и конвертировать вашу модель заново.
 
@@ -56,8 +56,8 @@
 
 ## Какие программы можно использовать для проверки/исправления сеточной модели? 
 
--   [Meshlab](http://meshlab.sourceforge.net/)
-    -   Лицензия: Open Source (GPL V2)
+-   [Meshlab](http   *//meshlab.sourceforge.net/)
+    -   Лицензия   * Open Source (GPL V2)
     -   Работает на Windows 32/64 bit, Linux и Mac OS X
 
 
@@ -66,8 +66,8 @@
 
 <div class="mw-translate-fuzzy">
 
--   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1)
-    -   Лицензия: Freeware
+-   [netFabb basic](http   *//www.netfabb.com/downloadcenter.php?basic=1)
+    -   Лицензия   * Freeware
     -   Работает на Windows XP/7/8, Linux и Mac OS X
 
 
@@ -89,6 +89,8 @@
 ## Related
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
+
+[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
 
 
 

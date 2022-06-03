@@ -1,29 +1,29 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw ExtensionCreateVertChamferDimension
-   Name/fr:TechDraw Cote verticale chanfrein
-   MenuLocation:TechDraw → Extensions: Dimensions → Cote verticale de chanfrein
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Cote horizontale chanfrein](TechDraw_ExtensionCreateHorizChamferDimension/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw ExtensionCreateVertChamferDimension
+   Name/fr   *TechDraw Cote verticale chanfrein
+   MenuLocation   *TechDraw → Extensions   * Dimensions → Cote verticale de chanfrein
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut   *
+   Version   *0.20
+   SeeAlso   *[TechDraw Cote horizontale chanfrein](TechDraw_ExtensionCreateHorizChamferDimension/fr.md)
 ---
 
 # TechDraw ExtensionCreateVertChamferDimension/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:24px;"> **TechDraw Cote verticale chanfrein** crée une cote verticale de la dimension et de l\'angle pour un chanfrein.
+L\'outil <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width   *24px;"> **TechDraw Cote verticale chanfrein** crée une cote verticale de la dimension et de l\'angle pour un chanfrein.
 
-<img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimensionExample.png  style="width:450px;"> 
+<img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimensionExample.png  style="width   *450px;"> 
 *A droite, la cote créée*
 
 ## Utilisation
 
 1.  Sélectionnez deux sommets.
-2.  Il existe plusieurs façons de lancer l\'outil :
+2.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> [Cote verticale de chanfrein](TechDraw_ExtensionCreateVertChamferDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> Cote verticale de chanfrein** option du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> Cote verticale de chanfrein** option du menu.
 3.  Une cote de chanfrein est créée.
 
 

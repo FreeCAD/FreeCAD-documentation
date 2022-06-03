@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Part BoxSelection
-   Name/fr:Part Sélection par zone
-   MenuLocation:Part → Sélection par boîte
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.18
-   SeeAlso:[Std Sélection par boîte](Std_BoxSelection/fr.md), [Std Sélection d'éléments](Std_BoxElementSelection/fr.md), [Std Tout sélectionner](Std_SelectAll/fr.md)
+- GuiCommand   */fr
+   Name   *Part BoxSelection
+   Name/fr   *Part Sélection par zone
+   MenuLocation   *Part → Sélection par boîte
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   Version   *0.18
+   SeeAlso   *[Std Sélection par boîte](Std_BoxSelection/fr.md), [Std Sélection d'éléments](Std_BoxElementSelection/fr.md), [Std Tout sélectionner](Std_SelectAll/fr.md)
 ---
 
 # Part BoxSelection/fr

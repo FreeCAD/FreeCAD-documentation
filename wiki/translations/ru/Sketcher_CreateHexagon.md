@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Шестиугольник
-   Name:Sketcher_CreateHexagon
-   MenuLocation:Эскиз → Геометрия эскиза → Шестиугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.15
+- GuiCommand   */ru
+   Name/ru   *Шестиугольник
+   Name   *Sketcher_CreateHexagon
+   MenuLocation   *Эскиз → Геометрия эскиза → Шестиугольник
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Version   *0.15
 ---
 
 # Sketcher CreateHexagon/ru
@@ -23,7 +23,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   После нажатия кнопки **[<img src=images/Sketcher_CreateHexagon.png style="width:16px"> Шестиугольник**, нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
+-   После нажатия кнопки **[<img src=images/Sketcher_CreateHexagon.png style="width   *16px"> Шестиугольник**, нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
 -   Нажатие **Esc** или правой кнопки мыши закрывает функцию.
 
 

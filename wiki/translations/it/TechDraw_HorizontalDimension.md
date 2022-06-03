@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw_HorizontalDimension
-   Name/it:Dimensione orizzontale
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation:TechDraw → Dimensione orizzontale
-   Shortcut:
-   SeeAlso:[Lunghezza](TechDraw_LengthDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
+- GuiCommand   */it
+   Name   *TechDraw_HorizontalDimension
+   Name/it   *Dimensione orizzontale
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation   *TechDraw → Dimensione orizzontale
+   Shortcut   *
+   SeeAlso   *[Lunghezza](TechDraw_LengthDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
 ---
 
 # TechDraw HorizontalDimension/it
@@ -23,7 +23,7 @@ Lo strumento dimensione Orizzontale aggiunge una dimensione orizzontale ad una V
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width:200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width   *200px;"> 
 *Dimensione della lunghezza presa da due nodi arbitrari della vista; la distanza è misurata orizzontalmente*
 
 ## Uso
@@ -64,21 +64,21 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Dimension Horizontal può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+Lo strumento Dimension Horizontal può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
 
 
 </div>
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "DistanceX"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

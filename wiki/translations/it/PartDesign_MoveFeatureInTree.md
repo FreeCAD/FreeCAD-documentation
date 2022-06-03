@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:PartDesign MoveFeatureInTree
-   Name/it:Sposta l'oggetto dopo altro oggetto
-   Empty:1
-   MenuLocation:Menu contestuale → Sposta dopo altro oggetto
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Usa come entità finale](PartDesign_MoveTip/it.md), [Sposta in altro corpo](PartDesign_MoveFeature/it.md)
+- GuiCommand   */it
+   Name   *PartDesign MoveFeatureInTree
+   Name/it   *Sposta l'oggetto dopo altro oggetto
+   Empty   *1
+   MenuLocation   *Menu contestuale → Sposta dopo altro oggetto
+   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
+   Version   *0.17
+   SeeAlso   *[Usa come entità finale](PartDesign_MoveTip/it.md), [Sposta in altro corpo](PartDesign_MoveFeature/it.md)
 
 ---
 

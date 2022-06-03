@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/it
 ---
-- GuiCommand:/it   Name:Robot CreateTrajectory   Name/it:Crea una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Crea una traiettoria---
+- GuiCommand   */it   Name   *Robot CreateTrajectory   Name/it   *Crea una traiettoria   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Crea una traiettoria---
 
 
 </div>
@@ -20,7 +20,7 @@ Inserisce un nuovo oggetto traiettoria vuoto nella scena
 
 #### Uso
 
-Cliccare su <img alt="" src=images/Robot_CreateTrajectory.png  style="width:32px;"> o scegliere ** Robot** → **<img src="images/Robot_CreateTrajectory.png" width=32px> Crea una traiettoria** dal menu principale.
+Cliccare su <img alt="" src=images/Robot_CreateTrajectory.png  style="width   *32px;"> o scegliere ** Robot** → **<img src="images/Robot_CreateTrajectory.png" width=32px> Crea una traiettoria** dal menu principale.
 
 
 </div>

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Sketcher ConstrainParallel
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain parallel
-   Shortcut:Shift + P
-   SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
+- GuiCommand   *
+   Name   *Sketcher ConstrainParallel
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   MenuLocation   *Sketch → Sketcher constraints → Constrain parallel
+   Shortcut   *Shift + P
+   SeeAlso   *[Constraint Vertical](Sketcher_ConstrainVertical.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
 ---
 
 # Sketcher ConstrainParallel/ro
@@ -39,7 +39,7 @@ Schița conține două linii orientate aleatoriu.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel1.png  style="width:256px;">
+<img alt="" src=images/ConstrainParallel1.png  style="width   *256px;">
 
 
 </div>
@@ -55,7 +55,7 @@ Selectați ambele linii făcând clic succesiv pe fiecare dintre ele.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel2.png  style="width:256px;">
+<img alt="" src=images/ConstrainParallel2.png  style="width   *256px;">
 
 
 </div>
@@ -63,7 +63,7 @@ Selectați ambele linii făcând clic succesiv pe fiecare dintre ele.
 
 <div class="mw-translate-fuzzy">
 
-Aplicați constrângerea Paraleleă selectând iconița Constrain Parallel <img alt="" src=images/Constraint_Parallel.png  style="width:16px;"> din bara de instrumente, pe traseul Sketch → Contraintes d\'esquisse → Contrainte Parallèle de la barre d\'outils sau selectând opțiunea din meniul Contrainte Parallèle (sau Part Design, în funcție de instrumentul care este selecționat).
+Aplicați constrângerea Paraleleă selectând iconița Constrain Parallel <img alt="" src=images/Constraint_Parallel.png  style="width   *16px;"> din bara de instrumente, pe traseul Sketch → Contraintes d\'esquisse → Contrainte Parallèle de la barre d\'outils sau selectând opțiunea din meniul Contrainte Parallèle (sau Part Design, în funcție de instrumentul care este selecționat).
 
 
 </div>
@@ -71,7 +71,7 @@ Aplicați constrângerea Paraleleă selectând iconița Constrain Parallel <img 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel3.png  style="width:256px;">
+<img alt="" src=images/ConstrainParallel3.png  style="width   *256px;">
 
 
 </div>

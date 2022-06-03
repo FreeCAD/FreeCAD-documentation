@@ -11,7 +11,7 @@ Questa pagina contiene degli esempi di livello avanzato di gestione della GUI co
 
 </div>
 
-Quindi, usando il modulo PySide all\'interno di FreeCAD, si ha il controllo completo della sua interfaccia. È possibile ad esempio:
+Quindi, usando il modulo PySide all\'interno di FreeCAD, si ha il controllo completo della sua interfaccia. È possibile ad esempio   *
 
 -   Aggiungere propri pannelli, widget e barre degli strumenti
 -   Aggiungere o nascondere gli elementi nei pannelli già esistenti
@@ -24,7 +24,7 @@ Quindi, usando il modulo PySide all\'interno di FreeCAD, si ha il controllo comp
 
 ## Creare un riferimento per la finestra principale 
 
-Se si vuole lavorare sull\'interfaccia di FreeCAD, la prima cosa da fare è creare un riferimento alla finestra principale di FreeCAD:
+Se si vuole lavorare sull\'interfaccia di FreeCAD, la prima cosa da fare è creare un riferimento alla finestra principale di FreeCAD   *
 
 
 </div>
@@ -44,14 +44,14 @@ mw = FreeCADGui.getMainWindow()
 
 ## Esplorare gli elementi della finestra principale 
 
-Quindi, è possibile ad esempio esplorare tutti i widget dell\'interfaccia:
+Quindi, è possibile ad esempio esplorare tutti i widget dell\'interfaccia   *
 
 
 </div>
 
 
 ```python
-for child in mw.children():
+for child in mw.children()   *
    print('widget name = ', child.objectName(), ', widget type = ', child)
 ```
 
@@ -64,7 +64,7 @@ Di solito, in una interfaccia Qt, i widget sono annidati in widget \"contenitori
 
 ## Aggiungere manualmente un nuovo widget 
 
-Per aggiungere un nuovo widget, ad esempio un dockWidget (che può essere posizionato in uno dei pannelli laterali di FreeCAD), fare semplicemente:
+Per aggiungere un nuovo widget, ad esempio un dockWidget (che può essere posizionato in uno dei pannelli laterali di FreeCAD), fare semplicemente   *
 
 
 </div>
@@ -75,7 +75,7 @@ myWidget = QtGui.QDockWidget()
 mw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myWidget)
 ```
 
-In seguito, si può continuare e aggiungere altre cose direttamente al proprio widget:
+In seguito, si può continuare e aggiungere altre cose direttamente al proprio widget   *
 
 
 ```python
@@ -93,15 +93,15 @@ label.setObjectName("myLabel") # sets its name, so it can be found by name
 
 ## Aggiungere un nuovo widget creando un oggetto UI 
 
-Di solito, il metodo preferito consiste nel creare un oggetto UI (interfaccia utente) che faccia tutta la configurazione del proprio widget in una sola volta. Il grande vantaggio è che tale oggetto dell\'interfaccia utente può essere [creato graficamente](Dialog_creation/it.md) con il programma Qt Designer. Un tipico oggetto generato da Qt Designer si presenta come questo:
+Di solito, il metodo preferito consiste nel creare un oggetto UI (interfaccia utente) che faccia tutta la configurazione del proprio widget in una sola volta. Il grande vantaggio è che tale oggetto dell\'interfaccia utente può essere [creato graficamente](Dialog_creation/it.md) con il programma Qt Designer. Un tipico oggetto generato da Qt Designer si presenta come questo   *
 
 
 </div>
 
 
 ```python
-class myWidget_Ui(object):
-  def setupUi(self, myWidget):
+class myWidget_Ui(object)   *
+  def setupUi(self, myWidget)   *
     myWidget.setObjectName("my Nice New Widget")
     myWidget.resize(QtCore.QSize(300,100).expandedTo(myWidget.minimumSizeHint())) # sets size of the widget
 
@@ -109,12 +109,12 @@ class myWidget_Ui(object):
     self.label.setGeometry(QtCore.QRect(50,50,200,24)) # sets its size
     self.label.setObjectName("label") # sets its name, so it can be found by name
 
-  def retranslateUi(self, draftToolbar): # built-in QT function that manages translations of widgets
+  def retranslateUi(self, draftToolbar)   * # built-in QT function that manages translations of widgets
     myWidget.setWindowTitle(QtGui.QApplication.translate("myWidget", "My Widget", None, QtGui.QApplication.UnicodeUTF8))
     self.label.setText(QtGui.QApplication.translate("myWidget", "Welcome to my new widget!", None, QtGui.QApplication.UnicodeUTF8))
 ```
 
-Per usarlo, basta applicarlo al pannello (widget) appena creato in questo modo:
+Per usarlo, basta applicarlo al pannello (widget) appena creato in questo modo   *
 
 
 ```python
@@ -128,12 +128,17 @@ FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the w
 
 ## Loading the UI from a Qt Designer .ui File 
 
-The key to loading a UI file successfully is to use the full path to the file. As an example, the [Addon Manager](Std_AddonMgr.md) does it like this:
+The key to loading a UI file successfully is to use the full path to the file. As an example, the [Addon Manager](Std_AddonMgr.md) does it like this   *
 
 
 ```python
 self.dialog = FreeCADGui.PySideUic.loadUi(os.path.join(os.path.dirname(__file__), "AddonManager.ui"))
 ```
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

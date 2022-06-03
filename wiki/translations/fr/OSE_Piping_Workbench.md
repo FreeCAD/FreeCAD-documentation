@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-L\'atelier OSE Piping crée des tuyaux et des raccords. Il fait partie de [Open Source Ecology](https://www.opensourceecology.org/) et [Open Source Ecology Germany](https://www.ose-germany.de/). Pour utiliser toutes ses fonctionnalités, installez l\'atelier Dodo.
+L\'atelier OSE Piping crée des tuyaux et des raccords. Il fait partie de [Open Source Ecology](https   *//www.opensourceecology.org/) et [Open Source Ecology Germany](https   *//www.ose-germany.de/). Pour utiliser toutes ses fonctionnalités, installez l\'atelier Dodo.
 
 ![ 512px](images/OSE_Piping_workbench_screenshot.png )
 
@@ -22,7 +22,7 @@ Pour créer un tuyau, cliquez sur ![](images/OSE_Piping_create_pipe_icon.svg ) d
 
 Pour ajouter de nouvelles dimensions, ajustez le fichier CSV **pipe.csv**.
 
-Wikipédia sur la taille nominale des tuyaux (NPS) [1](https://en.wikipedia.org/wiki/Nominal_Pipe_Size).
+Wikipédia sur la taille nominale des tuyaux (NPS) [1](https   *//en.wikipedia.org/wiki/Nominal_Pipe_Size).
 
 # Coude
 
@@ -30,13 +30,17 @@ Un coude est décrit par un angle alpha, le diamètre extérieur du tuyau **POD*
 
 Pour créer un coude, cliquez sur ![](images/OSE_Piping_create_elbow_icon.svg ).
 
-<img alt="" src=images/OSE_Piping_create_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_elbow_CAD_screenshot.png )  Pour ajouter de nouveaux coudes, ajustez le fichier **elbow.csv**.
+<img alt="" src=images/OSE_Piping_create_elbow_screenshot.png  style="width   *512px;"> ![](images/OSE_Piping_elbow_CAD_screenshot.png )  Pour ajouter de nouveaux coudes, ajustez le fichier **elbow.csv**.
 
 # Coude de balayage 
 
 Un sweep elbow est un coude spécial dont le rayon de courbure est plus grand. Il est décrit par le diamètre extérieur du tube POD, l\'épaisseur du tube **PThk**, **G**, **H** et **M**. Pour créer un coude de balayage, cliquez sur ![](images/OSE_Piping_create_sweep_elbow_icon.svg ).
 
-<img alt="" src=images/OSE_Piping_create_sweep_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_sweep_elbow_CAD_screenshot.png )  Pour ajouter de nouveaux coudes, ajustez le fichier **sweep-elbow.csv**.
+<img alt="" src=images/OSE_Piping_create_sweep_elbow_screenshot.png  style="width   *512px;"> ![](images/OSE_Piping_sweep_elbow_CAD_screenshot.png )  Pour ajouter de nouveaux coudes, ajustez le fichier **sweep-elbow.csv**.
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Rendering
-   Level:Intermédiaire
-   Time:60 minutes
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 ou ultérieure
-   Files:none
+- TutorialInfo   */fr
+   Topic   *Rendering
+   Level   *Intermédiaire
+   Time   *60 minutes
+   Author   *[https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion   *0.18 ou ultérieure
+   Files   *none
 ---
 
 # Tutorial Render with Blender/fr
@@ -16,17 +16,17 @@
 
 ## Introduction
 
-Ce tutoriel montre comment produire une image rendue dans [Blender](https://www.blender.org/), à partir d\'une pièce ou d\'un assemblage créé avec FreeCAD. Il suppose que l\'utilisateur a déjà créé la pièce dans FreeCAD, ou l\'a importée dedans. Ensuite, cette partie est exportée vers Blender pour le rendu.
+Ce tutoriel montre comment produire une image rendue dans [Blender](https   *//www.blender.org/), à partir d\'une pièce ou d\'un assemblage créé avec FreeCAD. Il suppose que l\'utilisateur a déjà créé la pièce dans FreeCAD, ou l\'a importée dedans. Ensuite, cette partie est exportée vers Blender pour le rendu.
 
 Il produit un rendu avec Blender 2.80 avec les moteurs de rendu EEVEE et Cycles. Il montre diverses commandes [Python](Python/fr.md) qui peuvent être utilisées pour effectuer des actions plus rapidement à la fois dans FreeCAD et Blender.
 
-Une description similaire de ce processus est décrite dans une série de vidéos, [Render Solidworks and FreeCAD Models in Blender](https://www.youtube.com/watch?v=U7e6-Wfv2b0) par Joko Engineering.
+Une description similaire de ce processus est décrite dans une série de vidéos, [Render Solidworks and FreeCAD Models in Blender](https   *//www.youtube.com/watch?v=U7e6-Wfv2b0) par Joko Engineering.
 
 ## FreeCAD
 
 1\. Créez un assemblage en utilisant des corps de l\'[atelier Part](Part_Workbench/fr.md) ou [atelier PartDesign](PartDesign_Workbench/fr.md), ou de tout autre atelier produisant des objets solides, par exemple, l\'[atelier Arch](Arch_Workbench/fr.md). Attribuez des couleurs ou des matériaux aux corps individuels qui composent l\'assemblage, en correspondant approximativement à la couleur souhaitée dans votre rendu.
 
-<img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width:600px;">
+<img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width   *600px;">
 
 
 
@@ -53,12 +53,12 @@ importOBJ.export(objs, "/home/user/assembly.obj")
 ```
 
 
-**Remarque:**
+**Remarque   ***
 
 lors de l\'exportation vers OBJ, deux fichiers sont créés; le premier contient les informations du maillage lui-même, `assembly.obj`; le second contient la définition des matériaux, qui dans la plupart des cas est juste la couleur, `assembly.mtl`.
 
 
-**Remarque 2:**
+**Remarque 2   ***
 
 si le fichier OBJ résultant semble vide, vous devrez peut-être exporter les corps individuels. Dans ce cas, sélectionnez chacun des corps sous la pièce et répétez l\'exportation.
 
@@ -113,7 +113,7 @@ bpy.context.scene.unit_settings.scale_length = 0.001
 ```
 
 
-**Remarque:**
+**Remarque   ***
 
 changer l\'échelle et les unités de la scène n\'est nécessaire que si vous souhaitez travailler avec des objets à leurs dimensions réelles. Si vous souhaitez simplement rendre votre scène rapidement, vous pouvez omettre tout ajustement.
 
@@ -133,11 +133,11 @@ Cela peut être automatisé par un petit script qui définit simplement la rotat
 ```python
 fixed_objs = ('Camera', 'Cube', 'Light')
 
-for obj in bpy.data.objects:
-    if any(s for s in fixed_objs if s in obj.name):
+for obj in bpy.data.objects   *
+    if any(s for s in fixed_objs if s in obj.name)   *
         print('%s %s  [[No change]]' % (obj.name, obj.rotation_euler))
         continue
-    else:
+    else   *
         obj.rotation_euler = (0, 0, 0)
         print('%s %s  ... rotated' % (obj.name, obj.rotation_euler))
 ```
@@ -163,7 +163,7 @@ bpy.context.object.data.clip_end = 1e+03
 
 Si vous pouvez voir l\'objet à travers la vue de la caméra, vous pouvez maintenant rendre rapidement le modèle en appuyant sur **F12**, ce qui ouvrira `Image Editor` avec le résultat. Appuyez sur **Echap** pour quitter et revenir à `3D Viewport`.
 
-<img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width:600px;">
+<img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width   *600px;">
 
 
 
@@ -201,13 +201,13 @@ bpy.context.active_object.rotation_euler = (0.6, 0.05, 1.88)
 
 Appuyez à nouveau sur **F12** pour voir un rendu préliminaire du modèle.
 
-<img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width:600px;">
+<img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width   *600px;">
 
 
 
 *align=center|Rendu de l'assemblage dans Blender avec une lampe solaire ajoutée qui émet des rayons lumineux parallèles avec un angle fixe*
 
-### Plus de configuration: sol, éclairage global, reflets et ombres douces 
+### Plus de configuration   * sol, éclairage global, reflets et ombres douces 
 
 10\. Ajoutez un plan d\'étage. Appuyez sur **Shift**+**A** puis choisissez `Mesh`, `Plane`, et donnez-lui des dimensions environ 10 fois plus grandes que votre modèle. Cet objet maillé servira de plan de sol ou de dessus de table sur lequel le modèle se trouve. Déplacez également le plan un peu vers le bas afin qu\'il n\'intersecte pas le modèle; `-1 mm` sous l\'objet suffit.
 
@@ -253,7 +253,7 @@ Appuyez sur **F12** pour rendre la vue à travers la caméra et vérifier la qua
 
 15\. Si votre modèle semble raisonnablement bien avec le moteur de rendu EEVEE, vous pouvez déjà enregistrer l\'image en allant dans **Image → Enregistrer sous** ou en appuyant sur **Shift**+**S** dans le {{Incode|Image Editor}}.
 
-<img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
+<img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width   *600px;">
 
 
 
@@ -276,7 +276,7 @@ Appuyez sur **F12** pour rendre la vue finale à travers la caméra. Selon votre
 
 17\. Lorsque vous êtes satisfait de la qualité du rendu, dans `Image Editor` allez dans **Image → Enregistrer sous** ou appuyez sur **Shift**+**S**.
 
-<img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
+<img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width   *600px;">
 
 
 
@@ -302,8 +302,8 @@ Ceci spécifie que le rendu doit avoir lieu en arrière-plan avec `-b`; le moteu
 
 La création du maillage Wavefront intermédiaire (.obj) puis son importation dans Blender fonctionnera dans la plupart des situations. Cependant, il existe également la possibilité d\'importer le fichier FreeCAD (.FCStd) directement dans Blender au moyen d\'un plugin.
 
--   [io\_import\_fcstd.py](https://gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), version originale pour Blender 2.79
--   [Importateur FreeCAD .FCStd pour Blender 2.80](https://gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
+-   [io\_import\_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), version originale pour Blender 2.79
+-   [Importateur FreeCAD .FCStd pour Blender 2.80](https   *//gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
 
 Ceci est un plugin Blender; pour que cela fonctionne, Blender doit pouvoir importer FreeCAD en tant que module depuis la `Python Console`. 
 ```python

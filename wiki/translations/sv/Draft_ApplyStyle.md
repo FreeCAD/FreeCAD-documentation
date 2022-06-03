@@ -1,6 +1,6 @@
 # Draft ApplyStyle/sv
 ---
-- GuiCommand:/sv   Name:Draft_Apply   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Apply style---
+- GuiCommand   */sv   Name   *Draft_Apply   Workbenches   *[[Draft_Workbench/sv   Skiss]]|MenuLocation   *Draft -> Apply style---
 
 
 </div>
@@ -17,7 +17,7 @@ Detta verktyg applicerar nuvarande färg och linjestil från kommandolådan till
 
 </div>
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
+This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers   *
 
 -    **Line color**
     

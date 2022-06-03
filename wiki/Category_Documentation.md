@@ -1,6 +1,8 @@
 # Category:Documentation
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

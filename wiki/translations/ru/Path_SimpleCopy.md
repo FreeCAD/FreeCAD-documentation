@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/ru
-   Name:Path SimpleCopy
-   Name/ru:Path SimpleCopy
-   MenuLocation:Path → Path Modification → Простое копирование
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:
-   Version:
-   SeeAlso:[Path Copy](Path_Copy/ru.md)
+- GuiCommand   */ru
+   Name   *Path SimpleCopy
+   Name/ru   *Path SimpleCopy
+   MenuLocation   *Path → Path Modification → Простое копирование
+   Workbenches   *[Path](Path_Workbench/ru.md)
+   Shortcut   *
+   Version   *
+   SeeAlso   *[Path Copy](Path_Copy/ru.md)
 ---
 
 # Path SimpleCopy/ru

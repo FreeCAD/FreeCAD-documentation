@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:FEM ConstraintPlaneRotation
-   MenuLocation:Model → Geometrical Constraints → Constraint plane rotation
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint transform](FEM_ConstraintTransform.md)
+- GuiCommand   *
+   Name   *FEM ConstraintPlaneRotation
+   MenuLocation   *Model → Geometrical Constraints → Constraint plane rotation
+   Workbenches   *[FEM](FEM_Workbench.md)
+   SeeAlso   *[FEM Constraint transform](FEM_ConstraintTransform.md)
 ---
 
 # FEM ConstraintPlaneRotation/en
@@ -14,7 +14,7 @@ Creates a FEM constraint for keeping the nodes in a planar surface in the same p
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> [FEM ConstraintPlaneRotation](FEM_ConstraintPlaneRotation.md)** button.
     -   Select the **Model → Geometrical Constraints → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Constraint plane rotation** option from the menu.
 2.  In the [3D view](3D_view.md) select the object the constraint should be applied to, which can be a face.
@@ -26,7 +26,7 @@ Creates a FEM constraint for keeping the nodes in a planar surface in the same p
 
 ## Notes
 
-1.  The constraint uses the \*MPC card in CalculiX. The card is explained in detail at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
+1.  The constraint uses the \*MPC card in CalculiX. The card is explained in detail at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
 
 
 

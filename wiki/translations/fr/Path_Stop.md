@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Path Stop
-   Name/fr:Path Stop
-   MenuLocation:Path → Commandes additionnelles → Arrêter
-   Workbenches:[Path](Path_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Path Stop
+   Name/fr   *Path Stop
+   MenuLocation   *Path → Commandes additionnelles → Arrêter
+   Workbenches   *[Path](Path_Workbench/fr.md)
 ---
 
 # Path Stop/fr
@@ -12,7 +12,7 @@
 
 Cet outil insère une commande d\'arrêt (M1). Cette commande suspendra le programme en cours d\'exécution sur le contrôleur CNC dans l\'attente d\'une nouvelle action de l\'utilisateur.
 
-**Remarque : cela n\'arrête pas la broche.**
+**Remarque    * cela n\'arrête pas la broche.**
 
 ## Utilisation
 
@@ -21,7 +21,7 @@ Cet outil insère une commande d\'arrêt (M1). Cette commande suspendra le progr
 
 ## Propriétés
 
--    **Stop**: Définit si l\'arrêt est facultatif ou obligatoire.
+-    **Stop**   * Définit si l\'arrêt est facultatif ou obligatoire.
 
 
 

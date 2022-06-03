@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft_Line
-   Name/it:Linea
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Linea   Shortcut:**L** **I**
-   SeeAlso:[DWire](Draft_Wire/it.md), [Punto](Draft_Point/it.md)
-   Version:0.7
+- GuiCommand   */it
+   Name   *Draft_Line
+   Name/it   *Linea
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Linea   Shortcut   ***L** **I**
+   SeeAlso   *[DWire](Draft_Wire/it.md), [Punto](Draft_Point/it.md)
+   Version   *0.7
 ---
 
 # Draft Line/it
@@ -25,7 +25,7 @@ Crea un segmento tra due punti nel [piano di lavoro](Draft_SelectPlane/it.md) co
 
 A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
-<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -39,7 +39,7 @@ A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -87,10 +87,10 @@ La linea può essere modificata facendo doppio clic sull\'elemento nella vista a
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   To change the number of decimals used for the input of coordinates, lengths and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial focus of the task panel to the **Length** input box   * **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
 ## Properties
@@ -100,7 +100,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 ## Proprietà
 
-Un oggetto Linea condivide tutte le proprietà di una <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polilinea](Draft_Wire/it.md), tuttavia solo alcune di queste proprietà sono applicabili alla Linee.
+Un oggetto Linea condivide tutte le proprietà di una <img alt="" src=images/Draft_Wire.svg  style="width   *16px;"> [Polilinea](Draft_Wire/it.md), tuttavia solo alcune di queste proprietà sono applicabili alla Linee.
 
 
 </div>
@@ -113,7 +113,7 @@ Un oggetto Linea condivide tutte le proprietà di una <img alt="" src=images/Dra
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -123,7 +123,7 @@ Un oggetto Linea condivide tutte le proprietà di una <img alt="" src=images/Dra
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Linea può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento Linea può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 </div>
@@ -139,7 +139,7 @@ line = make_line(Shape)
 -   Crea un oggetto `Line` da un `Part.LineSegment`.
 -   Crea un oggetto `Line` dal primo vertice all\'ultimo vertice della data `Shape`.
 
-Esempio:
+Esempio   *
 
 
 ```python

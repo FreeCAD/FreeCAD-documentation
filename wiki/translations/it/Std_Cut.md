@@ -1,24 +1,24 @@
 ---
-- GuiCommand:/it
-   Name:Std_Cut
-   Name/it:Taglia
-   MenuLocation:Modifica → Taglia
-   Workbenches:Tutti
-   SeeAlso:[Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+- GuiCommand   */it
+   Name   *Std_Cut
+   Name/it   *Taglia
+   MenuLocation   *Modifica → Taglia
+   Workbenches   *Tutti
+   SeeAlso   *[Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
 ---
 
 # Std Cut/it
 
 ## Descrizione
 
-Il comando **Taglia** è limitato: può essere utilizzato solo per le [celle dei foglio di calcolo](Spreadsheet_Workbench/it.md). Il comando copia il contenuto e le proprietà delle celle negli Appunti e quindi le cancella.
+Il comando **Taglia** è limitato   * può essere utilizzato solo per le [celle dei foglio di calcolo](Spreadsheet_Workbench/it.md). Il comando copia il contenuto e le proprietà delle celle negli Appunti e quindi le cancella.
 
 Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Copy/it.md) (Copia) seguito da un\'operazione di eliminazione.
 
 ## Utilizzo
 
 1.  Selezionare una o più celle nel foglio di calcolo.
-2.  Esistono diversi modi per invocare il comando:
+2.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_Cut.svg" width=16px> [Taglia](Std_Cut/it.md)**.
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Cut.svg" width=16px> Taglia** dal menu.
 

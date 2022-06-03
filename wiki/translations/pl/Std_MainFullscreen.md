@@ -1,23 +1,24 @@
 ---
-- GuiCommand:
-   Name:Std MainFullscreen
-   MenuLocation:View → Fullscreen
-   Workbenches:All
-   Shortcut:**Alt**+**F11**
-   SeeAlso:[Std ViewFullscreen](Std_ViewFullscreen.md)
+- GuiCommand   */pl
+   Name   *Std MainFullscreen
+   Name/pl   *Std   * Pełny ekran
+   MenuLocation   *Widok  → Pełny ekran
+   Workbenches   *wszystkie
+   Shortcut   ***Alt** + **F11**
+   SeeAlso   *[Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md)
 ---
 
 # Std MainFullscreen/pl
 
-## Description
+## Opis
 
-The **Std MainFullscreen** command toggles FreeCAD\'s main window fullscreen mode.
+Polecenie **Pełny ekran** przełącza tryb pełnoekranowy okna głównego programu FreeCAD.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select the **View → <img src="images/Std_MainFullscreen.svg" width=16px> Fullscreen** option from the menu.
-    -   Use the keyboard shortcut: **Alt**+**F11**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz z menu opcję **Widok → <img src="images/Std_MainFullscreen.svg" width=16px> Pełny ekran**.
+    -   Użyj skrótu klawiaturowego   * **Alt** + **F11**.
 
 
 

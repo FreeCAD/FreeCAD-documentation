@@ -84,7 +84,7 @@ On the *General settings* tab you can specify the following   *
 |                                                          |                                                                                                                                                                                                                                                                                                   |
 +++
 
-![](images/Preferences_Draft_Tab_General_settings.png )
+ ![](images/Preferences_Draft_Tab_General_settings.png ) 
 
 ## User interface settings 
 
@@ -196,7 +196,7 @@ On the *User interface settings* tab you can specify the following   *
 |                                         |                                                                                                                                                                                                                                            |
 +++
 
-![](images/Preferences_Draft_Tab_User_interface_settings.png )
+ ![](images/Preferences_Draft_Tab_User_interface_settings.png ) 
 
 ## Grid and snapping 
 
@@ -302,7 +302,7 @@ On the *Grid and snapping* tab you can specify the following   *
 |                                                               |                                                                                                                                                                                                                                                                                    |
 +++
 
-![](images/Preferences_Draft_Tab_Grid_and_snapping.png )
+ ![](images/Preferences_Draft_Tab_Grid_and_snapping.png ) 
 
 ## Visual settings 
 
@@ -379,7 +379,7 @@ On the *Visual settings* tab you can specify the following   *
 |                                                                |                                                                                                                                                                                                                     |
 +++
 
-![](images/Preferences_Draft_Tab_Visual_settings.png )
+ ![](images/Preferences_Draft_Tab_Visual_settings.png ) 
 
 ## Texts and dimensions 
 
@@ -466,7 +466,7 @@ On the *Texts and dimensions* tab you can specify the following   *
 | **Text spacing**                       |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                     | If checked, the unit symbol are added to the dimension text.                                                                                                                                                                                                                                                                                                       |
+|                                     | If checked, the unit symbol is added to the dimension text.                                                                                                                                                                                                                                                                                                        |
 | **Show the unit suffix in dimensions** |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
@@ -479,7 +479,7 @@ On the *Texts and dimensions* tab you can specify the following   *
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
 
-![](images/Preferences_Draft_Tab_Texts_and_dimensions.png )
+ ![](images/Preferences_Draft_Tab_Texts_and_dimensions.png ) 
 
 
 

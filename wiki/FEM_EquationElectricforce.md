@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:FEM EquationElectricforce
-   MenuLocation:Solve → Electricforce equation
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
-   SeeAlso:
+- GuiCommand   *
+   Name   *FEM EquationElectricforce
+   MenuLocation   *Solve → Electricforce equation
+   Workbenches   *[FEM](FEM_Workbench.md)
+   Version   *0.19
+   SeeAlso   *
 ---
 
 # FEM EquationElectricforce

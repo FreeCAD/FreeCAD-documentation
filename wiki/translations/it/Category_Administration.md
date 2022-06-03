@@ -3,6 +3,8 @@
 
 Questa categoria contiene articoli e categorie su argomenti amministrativi del wiki.
 
+[Category   *Categories/it](Category   *Categories/it.md)
+
 ### Contents
 
 |     |     |     |

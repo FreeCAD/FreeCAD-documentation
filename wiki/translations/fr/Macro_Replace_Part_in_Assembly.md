@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2014-09-10
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/0/07/Replace_Part.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/0/07/Replace_Part.png ToolBar Icon]
 }}
 
 ## Description
@@ -28,7 +28,7 @@ Assurez-vous d\'avoir vos fichiers contenant l\'ancienne pièce et la nouvelle p
 
 ![](images/Macro_Replace_Part_in_Assembly.jpg )
 
-Voir aussi la vidéo [Demo on Youtube](http://youtu.be/rTqqqy4n1RE).
+Voir aussi la vidéo [Demo on Youtube](http   *//youtu.be/rTqqqy4n1RE).
 
 ## Script
 
@@ -39,7 +39,7 @@ ToolBar Icon ![](images/Replace_Part.png )
 
 {{MacroCode|code=
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 
 """
 Macro to replace parts in assembly FreeCAD.
@@ -76,26 +76,26 @@ import FreeCAD, Part, math
 from FreeCAD import Base
 import DraftVecUtils
 import sys
-try:
+try   *
    from PySide import QtCore, QtGui
    from PySide.QtCore import SIGNAL, QTimer
    from PySide.QtGui import QApplication
-except:
+except   *
    from PyQt4 import QtCore, QtGui
    from PyQt4.QtCore import SIGNAL, QTimer
    from PyQt4.QtGui import QApplication
 
-try:
+try   *
    _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-   _fromUtf8 = lambda s: s
+except AttributeError   *
+   _fromUtf8 = lambda s   * s
 
-try:
+try   *
    _encoding = QtGui.QApplication.UnicodeUTF8
-   def _translate(context, text, disambig):
+   def _translate(context, text, disambig)   *
       return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-   def _translate(context, text, disambig):
+except AttributeError   *
+   def _translate(context, text, disambig)   *
       return QtGui.QApplication.translate(context, text, disambig)
 
 #                     [document , name, label, position, rotation, group]
@@ -108,9 +108,9 @@ global uiColWidth ; uiColWidth = 150
 global uiPad ; uiPad = 5
 global uiMainWidth ; uiMainWidth = 400
 
-class Ui_ReplacePart(object):
+class Ui_ReplacePart(object)   *
 
-   def setupUi(self, ReplacePart):
+   def setupUi(self, ReplacePart)   *
       global uiMainWidth
       global uiRowOffset
       global uiColWidth
@@ -312,11 +312,11 @@ class Ui_ReplacePart(object):
       
       QtCore.QMetaObject.connectSlotsByName(ReplacePart)
 
-   def retranslateUi(self, ReplacePart):
+   def retranslateUi(self, ReplacePart)   *
       ReplacePart.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
       ReplacePart.setAttribute(QtCore.Qt.WA_DeleteOnClose, True)
       ReplacePart.setWindowTitle(_translate("ReplacePart", "Replace part", None))
-      self.labelCapSelected.setText(_translate("ReplacePart", "Selected Part :", None))
+      self.labelCapSelected.setText(_translate("ReplacePart", "Selected Part    *", None))
       self.labelSelected.setText(_translate("ReplacePart", "No Selected Part", None))
       self.labelNew.setText(_translate("ReplacePart", "Select New Part", None))
       self.LabelOld.setText(_translate("ReplacePart", "Select Old Part", None))
@@ -346,82 +346,82 @@ class Ui_ReplacePart(object):
    """
    #*** FIXME ***
 
-   def my_update(self):
+   def my_update(self)   *
       selectedPart = self.getSelectedPart()
       self.labelSelected.setText(selectedPart[0] + "," + selectedPart[1] + ","+ selectedPart[2])
-      FreeCAD.Console.PrintMessage("Selected part: " + selectedPart[0] + "," + selectedPart[1] + ","+ selectedPart[2] + "," + "\n")
+      FreeCAD.Console.PrintMessage("Selected part   * " + selectedPart[0] + "," + selectedPart[1] + ","+ selectedPart[2] + "," + "\n")
 
-   def closeEvent(self, event):
+   def closeEvent(self, event)   *
       FreeCAD.Console.PrintMessage("closeEvent\n")
-      if self.timer.stop():
+      if self.timer.stop()   *
          self.timer.stop()
          event.accept() # let the window close
-      else:
+      else   *
          event.ignore()
 
-   def on_exit(self, event):
+   def on_exit(self, event)   *
       FreeCAD.Console.PrintMessage("exitEvent\n")
-      if self.timer.stop():
+      if self.timer.stop()   *
          self.timer.stop()
          event.accept() # let the window close
-      else:
+      else   *
          event.ignore()
 
-   def hideEvent(self, event):
+   def hideEvent(self, event)   *
       FreeCAD.Console.PrintMessage("hideEvent\n")
-      if self.timer.stop():
+      if self.timer.stop()   *
          self.timer.stop()
          event.accept() # let the window close
-      else:
+      else   *
          event.ignore()
 
    #
    """
 
-   def on_pushButtonNew_clicked(self):
+   def on_pushButtonNew_clicked(self)   *
       global oldpart
       global newpart
       newpart = self.getSelectedPart()
-      if str(newpart[0]) == "":
+      if str(newpart[0]) == ""   *
          self.labelNew.setText("No part selected")
-      else:
+      else   *
          self.labelNew.setText(str(newpart[0])+ " , " + str(newpart[1]))
          self.radioButtonName()
          self.radioButtonLabel()
          Gui.Selection.clearSelection()
-      if str(oldpart[0]) == str(newpart[0]):
+      if str(oldpart[0]) == str(newpart[0])   *
          self.pushButtonOk.setEnabled(False)
-      elif str(oldpart[0]) == "":
+      elif str(oldpart[0]) == ""   *
          self.pushButtonOk.setEnabled(False)
-      elif str(newpart[0]) == "":
+      elif str(newpart[0]) == ""   *
          self.pushButtonOk.setEnabled(False)
-      else:
+      else   *
          self.pushButtonOk.setEnabled(True)
 
-   def on_pushButtonOld_clicked(self):
+   def on_pushButtonOld_clicked(self)   *
       global oldpart
       global newpart
       oldpart = self.getSelectedPart()
-      if str(oldpart[0]) == "":
+      if str(oldpart[0]) == ""   *
          self.LabelOld.setText("No part selected")
-      else:
+      else   *
          self.LabelOld.setText(str(oldpart[0])+ " , " + str(oldpart[1]))
          self.radioButtonName()
          self.radioButtonLabel()
          Gui.Selection.clearSelection()
-      if str(oldpart[0]) == str(newpart[0]):
+      if str(oldpart[0]) == str(newpart[0])   *
          self.pushButtonOk.setEnabled(False)
-      elif str(oldpart[0]) == "":
+      elif str(oldpart[0]) == ""   *
          self.pushButtonOk.setEnabled(False)
-      elif str(newpart[0]) == "":
+      elif str(newpart[0]) == ""   *
          self.pushButtonOk.setEnabled(False)
-      else:
+      else   *
          self.pushButtonOk.setEnabled(True)
 
-   def on_pushButtonOk_clicked(self):
-      if self.radioButtonColorFromNew.isChecked():
+   def on_pushButtonOk_clicked(self)   *
+      if self.radioButtonColorFromNew.isChecked()   *
          colors = self.getColors("new")
-      if self.radioButtonColorFromOld.isChecked():
+      if self.radioButtonColorFromOld.isChecked()   *
          colors = self.getColors("old")
       self.deleteOldPart()
       newPartName = self.makeSimple(colors)
@@ -431,93 +431,93 @@ class Ui_ReplacePart(object):
       App.Console.PrintMessage("Part replaced\n")
       #self.window.hide()
 
-   def on_radioButtonNameFromNewDoc_clicked(self):
+   def on_radioButtonNameFromNewDoc_clicked(self)   *
       self.radioButtonName()
 
-   def on_radioButtonNameFromNewName_clicked(self):
+   def on_radioButtonNameFromNewName_clicked(self)   *
       self.radioButtonName()
 
-   def on_radioButtonNameFromNewLabel_clicked(self):
+   def on_radioButtonNameFromNewLabel_clicked(self)   *
       self.radioButtonName()
 
-   def on_radioButtonNameFromOldName_clicked(self):
+   def on_radioButtonNameFromOldName_clicked(self)   *
       self.radioButtonName()
 
-   def on_radioButtonNameFromOldLabel_clicked(self):
+   def on_radioButtonNameFromOldLabel_clicked(self)   *
       self.radioButtonName()
 
-   def on_radioButtonNameFromText_clicked(self):
+   def on_radioButtonNameFromText_clicked(self)   *
       self.radioButtonName()
 
-   def on_lineEditNameFromText_changed(self):
+   def on_lineEditNameFromText_changed(self)   *
       self.radioButtonName()
 
-   def on_radioButtonLabelFromNewDoc_clicked(self):
+   def on_radioButtonLabelFromNewDoc_clicked(self)   *
       self.radioButtonLabel()
 
-   def on_radioButtonLabelFromNewName_clicked(self):
+   def on_radioButtonLabelFromNewName_clicked(self)   *
       self.radioButtonLabel()
 
-   def on_radioButtonLabelFromNewLabel_clicked(self):
+   def on_radioButtonLabelFromNewLabel_clicked(self)   *
       self.radioButtonLabel()
 
-   def on_radioButtonLabelFromOldName_clicked(self):
+   def on_radioButtonLabelFromOldName_clicked(self)   *
       self.radioButtonLabel()
 
-   def on_radioButtonLabelFromOldLabel_clicked(self):
+   def on_radioButtonLabelFromOldLabel_clicked(self)   *
       self.radioButtonLabel()
 
-   def on_radioButtonLabelFromText_clicked(self):
+   def on_radioButtonLabelFromText_clicked(self)   *
       self.radioButtonLabel()
 
-   def on_lineEditLabelFromText_changed(self):
+   def on_lineEditLabelFromText_changed(self)   *
       self.radioButtonLabel()
 
-   def radioButtonName(self):
+   def radioButtonName(self)   *
       global newPartName
-      if self.radioButtonNameFromNewDoc.isChecked():
+      if self.radioButtonNameFromNewDoc.isChecked()   *
          newPartName=self.getFromNew(0)
-      elif self.radioButtonNameFromNewName.isChecked():
+      elif self.radioButtonNameFromNewName.isChecked()   *
          newPartName=self.getFromNew(1)
-      elif self.radioButtonNameFromNewLabel.isChecked():
+      elif self.radioButtonNameFromNewLabel.isChecked()   *
          newPartName=self.getFromNew(2)
-      elif self.radioButtonNameFromOldName.isChecked():
+      elif self.radioButtonNameFromOldName.isChecked()   *
          newPartName=self.getFromOld(1)
-      elif self.radioButtonNameFromOldLabel.isChecked():
+      elif self.radioButtonNameFromOldLabel.isChecked()   *
          newPartName=self.getFromOld(2)
-      elif self.radioButtonNameFromText.isChecked():
+      elif self.radioButtonNameFromText.isChecked()   *
          newPartName=str(self.lineEditNameFromText.displayText())
-      else:
-         FreeCAD.Console.PrintError("Error: Unknown Name error\n")
+      else   *
+         FreeCAD.Console.PrintError("Error   * Unknown Name error\n")
 
-   def radioButtonLabel(self):
+   def radioButtonLabel(self)   *
       global newPartLabel
-      if self.radioButtonLabelFromNewDoc.isChecked():
+      if self.radioButtonLabelFromNewDoc.isChecked()   *
          newPartLabel=self.getFromNew(0)
-      elif self.radioButtonLabelFromNewName.isChecked():
+      elif self.radioButtonLabelFromNewName.isChecked()   *
          newPartLabel=self.getFromNew(1)
-      elif self.radioButtonLabelFromNewLabel.isChecked():
+      elif self.radioButtonLabelFromNewLabel.isChecked()   *
          newPartLabel=self.getFromNew(2)
-      elif self.radioButtonLabelFromOldName.isChecked():
+      elif self.radioButtonLabelFromOldName.isChecked()   *
          newPartLabel=self.getFromOld(1)
-      elif self.radioButtonLabelFromOldLabel.isChecked():
+      elif self.radioButtonLabelFromOldLabel.isChecked()   *
          newPartLabel=self.getFromOld(2)
-      elif self.radioButtonLabelFromText.isChecked():
+      elif self.radioButtonLabelFromText.isChecked()   *
          newPartLabel=str(self.lineEditLabelFromText.displayText())
-      else:
-         FreeCAD.Console.PrintError("Error: Unknown Label error\n")
+      else   *
+         FreeCAD.Console.PrintError("Error   * Unknown Label error\n")
 
-   def getFromNew(self, index):
+   def getFromNew(self, index)   *
       global newpart
       return newpart[index];
 
-   def getFromOld(self, index):
+   def getFromOld(self, index)   *
       global oldpart
       return oldpart[index];
 
-   def getSelectedPart(self):
+   def getSelectedPart(self)   *
       sel = FreeCADGui.Selection.getSelection()
-      if sel:
+      if sel   *
          sel = sel[0]
          name = sel.Name
          label = sel.Label
@@ -527,12 +527,12 @@ class Ui_ReplacePart(object):
          grp = self.inGroup(name)
          the_part=[doc , name, label, pos, rot, grp];
          return the_part;
-      else:
-         FreeCAD.Console.PrintError("Error: One object must be selected\n")
+      else   *
+         FreeCAD.Console.PrintError("Error   * One object must be selected\n")
          the_part=["" , ""];
          return the_part;
 
-   def makeSimple(self, colors):
+   def makeSimple(self, colors)   *
       global oldpart
       global newpart
       global newPartName
@@ -543,7 +543,7 @@ class Ui_ReplacePart(object):
       App.setActiveDocument(oldpart[0])
       Gui.ActiveDocument=Gui.getDocument(oldpart[0])
       App.ActiveDocument=App.getDocument(oldpart[0])
-      App.ActiveDocument.addObject('Part::Feature',newPartName).Shape=App.getDocument(newpart[0]).getObject(newpart[1]).Shape
+      App.ActiveDocument.addObject('Part   *   *Feature',newPartName).Shape=App.getDocument(newpart[0]).getObject(newpart[1]).Shape
       App.ActiveDocument.ActiveObject.Label = newPartLabel
       App.ActiveDocument.getObject(newPartName).Label = newPartLabel
       Gui.getDocument(oldpart[0]).getObject(newPartName).ShapeColor = colors[0]
@@ -551,62 +551,62 @@ class Ui_ReplacePart(object):
       Gui.getDocument(oldpart[0]).getObject(newPartName).PointColor = colors[2]
       return newPartName;
 
-   def moveNew2Old(self, newPartName):
+   def moveNew2Old(self, newPartName)   *
       global oldpart
       global newpart
       App.ActiveDocument.getObject(newPartName).Placement = App.Placement(oldpart[3], oldpart[4])
 
-   def deleteOldPart(self):
+   def deleteOldPart(self)   *
       global oldpart
       App.setActiveDocument(oldpart[0])
       Gui.ActiveDocument=Gui.getDocument(oldpart[0])
       App.ActiveDocument=App.getDocument(oldpart[0])
       App.ActiveDocument.removeObject(oldpart[1])
 
-   def inGroup(self, partName):
-      try:
+   def inGroup(self, partName)   *
+      try   *
          grp = App.ActiveDocument.getObject(partName).InList
          grpName = grp[0].Name
-      except:
+      except   *
          grpName = ""
       return grpName;
 
-   def move2Group(self,  newPartName):
+   def move2Group(self,  newPartName)   *
       global oldpart
       grp = App.ActiveDocument.getObject(oldpart[5])
       part = App.ActiveDocument.getObject(newPartName)
       grp.addObject(part)
 
-   def getColors(self, newORold):
+   def getColors(self, newORold)   *
       global oldpart
       global newpart
-      if newORold == "new":
+      if newORold == "new"   *
          shape = Gui.getDocument(newpart[0]).getObject(newpart[1]).ShapeColor
          line = Gui.getDocument(newpart[0]).getObject(newpart[1]).LineColor
          point = Gui.getDocument(newpart[0]).getObject(newpart[1]).PointColor
-      elif newORold == "old":
+      elif newORold == "old"   *
          shape = Gui.getDocument(oldpart[0]).getObject(oldpart[1]).ShapeColor
          line = Gui.getDocument(oldpart[0]).getObject(oldpart[1]).LineColor
          point = Gui.getDocument(oldpart[0]).getObject(oldpart[1]).PointColor
-      else:
+      else   *
          FreeCAD.Console.PrintMessage("Error! Color from newpart or old?\n")
       colors = [ shape, line, point ];
       return colors;
 
-   def uniqeName(self, newPartName):
+   def uniqeName(self, newPartName)   *
       global oldpart
       objs = App.getDocument(oldpart[0]).Objects
-      for obj in objs:
-         if obj.Name  == newPartName:
-            if obj.Name != oldpart[1]:
+      for obj in objs   *
+         if obj.Name  == newPartName   *
+            if obj.Name != oldpart[1]   *
                i = 0
-               for iobj in objs:
-                  if iobj.Name == newPartName + "_" + str(i) and iobj.Name != oldpart[1]:
+               for iobj in objs   *
+                  if iobj.Name == newPartName + "_" + str(i) and iobj.Name != oldpart[1]   *
                      i += 1
                return newPartName + "_" + str(i);
       return newPartName;
 
-class replace():
+class replace()   *
    Gui.Selection.clearSelection()
    d = QtGui.QWidget()
    d.ui = Ui_ReplacePart()

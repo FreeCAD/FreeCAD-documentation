@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch Profile
-   Name/de:Arch Profil
-   MenuLocation:Arch → Profil
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Version:0.19
+- GuiCommand   */de
+   Name   *Arch Profile
+   Name/de   *Arch Profil
+   MenuLocation   *Arch → Profil
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   Version   *0.19
 ---
 
 # Arch Profile/de
@@ -13,7 +13,7 @@
 
 Das Profil-Werkzeug erstellt ein parametrisches 2D-Profil-Objekt. Dieses Objekt kann dann als eine Basis in verschiedenen anderen Werkzeugen werden, die Extrusion durchführen, wie [Arch Rahmen](Arch_Frame/de.md), [Arch Vorhangfassade](Arch_CurtainWall/de.md) oder [Part Extrudieren](Part_Extrude/de.md).
 
-Siehe die [Liste von verfügbaren Voreinstellungen](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv).
+Siehe die [Liste von verfügbaren Voreinstellungen](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv).
 
 Das Profil-Werḱzeug ist auch im [Arch Struktur](Arch_Structure.md)-Werkzeug integriert, alle voreingestellten Profile sind auch dort verfügbar.
 
@@ -27,52 +27,52 @@ Das Profil-Werḱzeug ist auch im [Arch Struktur](Arch_Structure.md)-Werkzeug in
 
 ### Daten
 
--    **Height**: Die (Gesamt)-Höhe des Profils
+-    **Height**   * Die (Gesamt)-Höhe des Profils
 
--    **Width**: Die (Gesamt)-Breite des Profils
+-    **Width**   * Die (Gesamt)-Breite des Profils
 
--    **Diameter**: Der Durchmesser des Profils (nur Rundprofile)
+-    **Diameter**   * Der Durchmesser des Profils (nur Rundprofile)
 
--    **Thickness**: Die Wandstärke (nur runde/rechteckige Hohlprofile)
+-    **Thickness**   * Die Wandstärke (nur runde/rechteckige Hohlprofile)
 
--    **Web Thickness**: Die Dicke der Profilbahnen (nur H- und I-Profile)
+-    **Web Thickness**   * Die Dicke der Profilbahnen (nur H- und I-Profile)
 
--    **Flange Thickness**: Die Dicke des Flanschprofil (nur H- und I-Profile)
+-    **Flange Thickness**   * Die Dicke des Flanschprofil (nur H- und I-Profile)
 
 ## Hinzufügen von benutzerdefinierten Profilen 
 
-Eine zusätzliche CSV-Datei kann durch den Benutzer erstellt werden, die benutzerdefinierte Definitionen enthält. Sie muss {{FileName|profiles.csv}} heißen und in 
+Eine zusätzliche CSV-Datei kann durch den Benutzer erstellt werden, die benutzerdefinierte Definitionen enthält. Sie muss **profiles.csv** heißen und in 
 ```python
 $FREECAD_USER_DIR/Arch/
 ```
 
-Der Wert für `$FREECAD_USER_DIR` kann über die [Python-Konsole](Python_console/de.md) ermittelt werden: 
+Der Wert für `$FREECAD_USER_DIR` kann über die [Python-Konsole](Python_console/de.md) ermittelt werden   * 
 ```python
 FreeCAD.getUserAppDataDir()
 ```
 
-Der Inhalt deiner {{FileName|profiles.csv}}-Datei muss den gleichen Regeln wie die Datei [profiles.csv](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) im Quell-Code entsprechen.
+Der Inhalt deiner **profiles.csv**-Datei muss den gleichen Regeln wie die Datei [profiles.csv](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) im Quell-Code entsprechen.
 
-Die CSV-Datei muss eine Zeile für jedes verfügbare Profil enthalten, formatiert wie folgt:
+Die CSV-Datei muss eine Zeile für jedes verfügbare Profil enthalten, formatiert wie folgt   *
 
--   Für C-Profile: Kategorie, Name, Klasse, Durchmesser, Dicke
--   Für H- und U-Profile: Kategorie, Name, Klasse, Breite, Höhe, Stegdicke (/-breite), Flanschdicke (/-stärke)
--   Für R-Profile: Kategorie, Name, Klasse, Breite, Höhe
--   Für RH-Profile: Kategorie, Name, Klasse, Breite, Höhe, Dicke
+-   Für C-Profile   * Kategorie, Name, Klasse, Durchmesser, Dicke
+-   Für H- und U-Profile   * Kategorie, Name, Klasse, Breite, Höhe, Stegdicke (/-breite), Flanschdicke (/-stärke)
+-   Für R-Profile   * Kategorie, Name, Klasse, Breite, Höhe
+-   Für RH-Profile   * Kategorie, Name, Klasse, Breite, Höhe, Dicke
 
-Alle Maße müssen in Millimetern angegeben werden. Mögliche Profilklassen sind:
+Alle Maße müssen in Millimetern angegeben werden. Mögliche Profilklassen sind   *
 
--   C: Kreisförmiges Rohr
--   H: H- oder I-Profil
--   R: Rechteckig
--   RH: Rechteckig hohl
--   U: U-Profil
+-   C   * Kreisförmiges Rohr
+-   H   * H- oder I-Profil
+-   R   * Rechteckig
+-   RH   * Rechteckig hohl
+-   U   * U-Profil
 
-Zusätzliche Profiltypen können erstellt werden, aber eine entsprechende Klasse muss zuerst definiert werden in [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
+Zusätzliche Profiltypen können erstellt werden, aber eine entsprechende Klasse muss zuerst definiert werden in [ArchProfile.py](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
 
 ## Skripten
 
-Das Profil-Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
+Das Profil-Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden   *
 
 
 ```python
@@ -81,7 +81,7 @@ profile = makeProfile(profile_list)
 
 wobei {{Incode|profile_list}} die verschiedenen Elemente einer Liste in der CSV-Datei enthält.
 
-Beispiel:
+Beispiel   *
 
 
 ```python

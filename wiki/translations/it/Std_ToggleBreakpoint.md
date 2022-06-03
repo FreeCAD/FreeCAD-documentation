@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Std_ToggleBreakpoint
-   Name/it:Attiva/disattiva punto di interruzione
-   Empty:1
-   MenuLocation:Macro → Attiva/disattiva punto di interruzione 
-   Workbenches:Tutti
-   Shortcut:**F9**
-   SeeAlso:[Passo successivo](Std_MacroStepOver/it.md), [Un passo](Std_MacroStepInto/it.md)
+- GuiCommand   */it
+   Name   *Std_ToggleBreakpoint
+   Name/it   *Attiva/disattiva punto di interruzione
+   Empty   *1
+   MenuLocation   *Macro → Attiva/disattiva punto di interruzione 
+   Workbenches   *Tutti
+   Shortcut   ***F9**
+   SeeAlso   *[Passo successivo](Std_MacroStepOver/it.md), [Un passo](Std_MacroStepInto/it.md)
 ---
 
 # Std ToggleBreakpoint/it

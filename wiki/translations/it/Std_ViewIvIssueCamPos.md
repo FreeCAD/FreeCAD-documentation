@@ -1,6 +1,6 @@
 # Std ViewIvIssueCamPos/it
 ---
-- GuiCommand:/it   Name:Std ViewIvIssueCamPos   Name/it:Pubblica la posizione della camera   MenuLocation:Visualizza → Stereo → Pubblica la posizione della camera   Workbenches:Tutti   Shortcut:   SeeAlso:[Viste bloccate](Std_FreezeViews/it.md)---
+- GuiCommand   */it   Name   *Std ViewIvIssueCamPos   Name/it   *Pubblica la posizione della camera   MenuLocation   *Visualizza → Stereo → Pubblica la posizione della camera   Workbenches   *Tutti   Shortcut   *   SeeAlso   *[Viste bloccate](Std_FreezeViews/it.md)---
 
 ## Descrizione
 
@@ -9,7 +9,7 @@
 
 Questo comando serve a conoscere i dati della posizione, dell\'orientamento e le altre informazioni sulla camera.
 
-Esempio casuale dei dati di posizione della camera nel pannello Report:
+Esempio casuale dei dati di posizione della camera nel pannello Report   *
 
 ![](images/CameraPosition1_it.png )
 
@@ -22,7 +22,7 @@ Esempio casuale dei dati di posizione della camera nel pannello Report:
 
 
 
-*Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
+*Example output   * camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
 
 ## Utilizzo
 
@@ -35,7 +35,7 @@ Esempio casuale dei dati di posizione della camera nel pannello Report:
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:/de
-   Name/de:[Drawing Anmerkung](Drawing_Annotation.md)
-   Workbenches:[Drawing](Drawing_Workbench/de.md), Complete
-   MenuLocation:Drawing → Bemerkung   Shortcut:none
+- GuiCommand   */de
+   Name/de   *[Drawing Anmerkung](Drawing_Annotation.md)
+   Workbenches   *[Drawing](Drawing_Workbench/de.md), Complete
+   MenuLocation   *Drawing → Bemerkung   Shortcut   *none
 ---
 
 # Drawing Annotation/de

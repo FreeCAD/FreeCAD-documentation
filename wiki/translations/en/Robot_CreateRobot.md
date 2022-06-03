@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Robot CreateRobot
-   MenuLocation:Robot → Insert robot
-   Workbenches:[Robot](Robot_Workbench.md)
+- GuiCommand   *
+   Name   *Robot CreateRobot
+   MenuLocation   *Robot → Insert robot
+   Workbenches   *[Robot](Robot_Workbench.md)
 ---
 
 # Robot CreateRobot/en
@@ -16,11 +16,11 @@ Insert a new robot (KUKA IR500) into the scene.
 
 <div class="mw-translate-fuzzy">
 
-1.  Click on <img alt="" src=images/Robot_CreateRobot.svg  style="width:32px;"> to insert a KUKA IR500 robot into the scene.
+1.  Click on <img alt="" src=images/Robot_CreateRobot.svg  style="width   *32px;"> to insert a KUKA IR500 robot into the scene.
 2.  Inserting different/more robots can be done in two ways via the
     -   Selecting **Robot** → **Insert Robots** from the top menu.
 
-    :   **OR**
+       *   **OR**
 
     -   Make sure a new document is/was created and activated (activate via double-click on document in [tree view](Tree_view.md)).
     -   Switch to the \"Tasks\"-Tab in the [tree view](Tree_view.md)).

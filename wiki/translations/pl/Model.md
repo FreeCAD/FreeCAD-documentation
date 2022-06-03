@@ -16,7 +16,9 @@ W nieformalnym użyciu, słowo \"[Rysunek](Drawing/pl.md)\" może być używane 
 
 {{Document objects navi
 
-}}
+}} 
+
+[Category   *Glossary](Category_Glossary.md)
 
 
 

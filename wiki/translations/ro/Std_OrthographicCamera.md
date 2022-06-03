@@ -1,6 +1,6 @@
 # Std OrthographicCamera/ro
 ---
-- GuiCommand:   Name:Std OrthographicCamera   MenuLocation:[|Workbenches:All   Shortcut:O   SeeAlso:[[Std PerspectiveCamera|Perspective View](Std_View_Menu___View]]_→_Orthographic_view.md)---
+- GuiCommand   *   Name   *Std OrthographicCamera   MenuLocation   *[|Workbenches   *All   Shortcut   *O   SeeAlso   *[[Std PerspectiveCamera|Perspective View](Std_View_Menu___View]]_→_Orthographic_view.md)---
 
 
 </div>
@@ -11,7 +11,7 @@
 ## Descriere
 
 Puneți camera foto în modul de vizualizarea ortogonal.
-Ortogonal este (conform Wikipedia):
+Ortogonal este (conform Wikipedia)   *
 \... o modalitate de reprezentare a unui obiect tridimensional în două dimensiuni\...
 
 
@@ -32,9 +32,9 @@ Alegeți ** View** → **<img src="images/View-isometric.png" width=24px> Orthog
 
 </div>
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Select the **View → <img src="images/Std_OrthographicCamera.svg" width=16px> Orthographic view** option from the menu.
-    -   Use the keyboard shortcut: **V** then **O**.
+    -   Use the keyboard shortcut   * **V** then **O**.
 
 ## Notes
 
@@ -42,12 +42,12 @@ Alegeți ** View** → **<img src="images/View-isometric.png" width=24px> Orthog
 
 ## Preferences
 
--   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   The camera type can be changed in the preferences   * **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

@@ -82,7 +82,7 @@ La boîte de dialogue des dimensions propose les paramètres suivants    *
 
 -   **Utiliser la sélection**    * Définit l\'angle de la ligne d\'extension pour qu\'il corresponde à l\'angle de l\'arête sélectionnée (ou de 2 sommets) dans la vue.
 
-## Propriétés / Réglage 
+## Propriétés
 
 ### Données
 

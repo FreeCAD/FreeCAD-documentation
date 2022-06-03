@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Image CreateImagePlane
-   Name/fr:Image Créer un plan d'image
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench/fr.md)
-   SeeAlso:[Image Ouvrir une image](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
+- GuiCommand   */fr
+   Name   *Image CreateImagePlane
+   Name/fr   *Image Créer un plan d'image
+   MenuLocation   *
+   Workbenches   *[Image](Image_Workbench/fr.md)
+   SeeAlso   *[Image Ouvrir une image](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
 ---
 
 # Image CreateImagePlane/fr
@@ -30,20 +30,20 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 
 {{Properties_Title|Base}}
 
--    **Position**: spécifie les coordonnées du point de base du plan image.
+-    **Position**   * spécifie les coordonnées du point de base du plan image.
 
--    **Angle**: spécifie l\'angle de rotation du plan image.
+-    **Angle**   * spécifie l\'angle de rotation du plan image.
 
--    **Axis**: spécifie l\'axe utilisé pour l\'angle de rotation.
+-    **Axis**   * spécifie l\'axe utilisé pour l\'angle de rotation.
 
 
 {{Properties Title|Image Plane}}
 
--    **Image File**: pécifie l\'image à utiliser pour ce plan.
+-    **Image File**   * pécifie l\'image à utiliser pour ce plan.
 
--    **XSize**: spécifie la largeur du plan de l\'image.
+-    **XSize**   * spécifie la largeur du plan de l\'image.
 
--    **YSize**: spécifie la hauteur du plan de l\'image.
+-    **YSize**   * spécifie la hauteur du plan de l\'image.
 
 
 

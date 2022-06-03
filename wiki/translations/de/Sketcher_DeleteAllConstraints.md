@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher DeleteAllConstraints
-   Name/de:Skizzierer LöscheAlleBeschränkungen
-   MenuLocation:Skizze → Skizzierwerkzeuge → Alle Beschränkungen löschen
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   SeeAlso:[Skizzierer Lösche Ganze Geometrie](Sketcher_DeleteAllGeometry/de.md)
-   Version:0.18
+- GuiCommand   */de
+   Name   *Sketcher DeleteAllConstraints
+   Name/de   *Skizzierer LöscheAlleBeschränkungen
+   MenuLocation   *Skizze → Skizzierwerkzeuge → Alle Beschränkungen löschen
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   SeeAlso   *[Skizzierer Lösche Ganze Geometrie](Sketcher_DeleteAllGeometry/de.md)
+   Version   *0.18
 ---
 
 # Sketcher DeleteAllConstraints/de
@@ -22,7 +22,7 @@ Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und
 
 <div class="mw-translate-fuzzy">
 
-1.  Gehe zum **Skizze → Skizzierer Werkzeuge → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Alle Beschränkungen löschen** Menü .
+1.  Gehe zum **Skizze → Skizzierer Werkzeuge → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width   *16px"> Alle Beschränkungen löschen** Menü .
 2.  Antworte **Ja** auf das Aufklapp Dialogfeld.
 
 

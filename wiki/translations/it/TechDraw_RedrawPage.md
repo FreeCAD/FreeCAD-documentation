@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw_RedrawPage
-   Name/it:Ridisegna la pagina
-   MenuLocation:TechDraw → Ridisegna la pagina
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *TechDraw_RedrawPage
+   Name/it   *Ridisegna la pagina
+   MenuLocation   *TechDraw → Ridisegna la pagina
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   Version   *0.19
 ---
 
 # TechDraw RedrawPage/it

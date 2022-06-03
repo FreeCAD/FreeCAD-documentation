@@ -1,20 +1,20 @@
 ---
-- GuiCommand:Addon/it
-   Name:BIM Box
-   Name/it:Box BIM
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Modellazione 3D → Box
-   SeeAlso:[Box di Parte](Part_Box/it.md)
+- GuiCommand   *Addon/it
+   Name   *BIM Box
+   Name/it   *Box BIM
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Addon   *BIM
+   MenuLocation   *Modellazione 3D → Box
+   SeeAlso   *[Box di Parte](Part_Box/it.md)
 ---
 
 # BIM Box/it
 
 ## Descrizione
 
-<img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_box_screenshot.png  style="width   *1024px;">
 
-Lo strumento Box di BIM consente di creare un [Cuboide](Part_Box/it.md) standard di Part, cioè una scatola, ma invece di creare subito l\'oggetto e permettere di specificare le sue dimensioni e la posizione in seguito, come fa lo strumento originale di [Part](Part_Workbench/it.md), questo strumento consente di posizionare e definire le dimensioni della scatola graficamente durante la creazione dell\'oggetto. I Box sono forme base di [cuboidi](https://en.wikipedia.org/wiki/Cuboid), che in seguito possono essere utilizzate come base per qualsiasi altro tipo di oggetto BIM.
+Lo strumento Box di BIM consente di creare un [Cuboide](Part_Box/it.md) standard di Part, cioè una scatola, ma invece di creare subito l\'oggetto e permettere di specificare le sue dimensioni e la posizione in seguito, come fa lo strumento originale di [Part](Part_Workbench/it.md), questo strumento consente di posizionare e definire le dimensioni della scatola graficamente durante la creazione dell\'oggetto. I Box sono forme base di [cuboidi](https   *//en.wikipedia.org/wiki/Cuboid), che in seguito possono essere utilizzate come base per qualsiasi altro tipo di oggetto BIM.
 
 ## Utilizzo
 

@@ -1,6 +1,8 @@
 # Category:Draft/ru
 This category list pages related to the \"User\_Documentation/ru\" and \"Workbenches/ru\"
 
+[Category   *User Documentation/ru](Category   *User_Documentation/ru.md) [Category   *Workbenches/ru](Category   *Workbenches/ru.md)
+
 ### Contents
 
 |     |     |     |

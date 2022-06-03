@@ -1,6 +1,6 @@
 # FEM MaterialSolid/es
 ---
-- GuiCommand:   Name:FEM MaterialSolid    MenuLocation:Model → FEM material for solid   |Workbenches:[Shortcut:M,M   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand   *   Name   *FEM MaterialSolid    MenuLocation   *Model → FEM material for solid   |Workbenches   *[Shortcut   *M,M   SeeAlso   *[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -43,7 +43,7 @@ Agrega propiedades de material a una parte.
 
 <div class="mw-translate-fuzzy">
 
-1.  El material mecánico utiliza la tarjeta \* MATERIAL en CalculiX. Los detalles sobre el material mecánico se explican enhttp://web.mit.edu/calculix\_v2.7/CalculiX/ccx\_2.7/doc/ccx/node216.html
+1.  El material mecánico utiliza la tarjeta \* MATERIAL en CalculiX. Los detalles sobre el material mecánico se explican enhttp   *//web.mit.edu/calculix\_v2.7/CalculiX/ccx\_2.7/doc/ccx/node216.html
 
 
 </div>

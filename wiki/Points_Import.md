@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Points Import
-   MenuLocation:Points → Import points...
-   Workbenches:[Points](Points_Workbench.md)
-   SeeAlso:[Import Export](Import_Export.md)
+- GuiCommand   *
+   Name   *Points Import
+   MenuLocation   *Points → Import points...
+   Workbenches   *[Points](Points_Workbench.md)
+   SeeAlso   *[Import Export](Import_Export.md)
 ---
 
 # Points Import
@@ -14,7 +14,7 @@ The **Points Import** command imports a point cloud from a file.
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Points_Import.svg" width=16px> [Points Import](Points_Import.md)** button.
     -   Select the **Points → <img src="images/Points_Import.svg" width=16px> Import Points...** option from the menu.
 2.  Select a point cloud file.
@@ -26,7 +26,7 @@ See [Points Convert](Points_Convert.md).
 
 ## Point cloud file format 
 
--   A point cloud file must have the {{FileName|.asc}}, {{FileName|.pcd}} or {{FileName|.ply}} extension.
+-   A point cloud file must have the **.asc**, **.pcd** or **.ply** extension.
 -   Each line in the file must list the X, Y and Z coordinates of a point.
 -   The coordinates must be separated by spaces.
 -   The coordinates must use a decimal point, not a decimal comma.
@@ -41,7 +41,7 @@ See [Points Convert](Points_Convert.md).
 
 
 
-For testing you can use [this file](https://raw.githubusercontent.com/FreeCAD/Examples/master/Point_cloud_ExampleFiles/PointCloud-Data_Stanford-Bunny.asc), which is a low polygon version of the [Stanford Bunny](http://graphics.stanford.edu/data/3Dscanrep/).
+For testing you can use [this file](https   *//raw.githubusercontent.com/FreeCAD/Examples/master/Point_cloud_ExampleFiles/PointCloud-Data_Stanford-Bunny.asc), which is a low polygon version of the [Stanford Bunny](http   *//graphics.stanford.edu/data/3Dscanrep/).
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw 3PtAngleDimension
-   MenuLocation:TechDraw → Insert 3-Point Angle Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.18
-   SeeAlso:[TechDraw AngleDimension](TechDraw_AngleDimension.md)
+- GuiCommand   *
+   Name   *TechDraw 3PtAngleDimension
+   MenuLocation   *TechDraw → Insert 3-Point Angle Dimension
+   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Version   *0.18
+   SeeAlso   *[TechDraw AngleDimension](TechDraw_AngleDimension.md)
 ---
 
 # TechDraw 3PtAngleDimension/en
@@ -13,7 +13,7 @@
 
 The 3-Point Angle Dimension tool adds a angular dimension to a View. The dimension may be specified by selecting three Vertices on a View. **Note that the second of the three Vertices is the apex of the angle**. The Angle3Pt will initially be the projected angle (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
-<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width   *200px;"> 
 *Measuring the angle between two straight lines using three vertices; the second vertex should be the apex of the angle*
 
 ## Usage
@@ -36,15 +36,15 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The 3-Point Angle Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The 3-Point Angle Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "Angle3Pt"
 dim1.References2D=[(view1, 'Vertex1',(view1, 'Vertex4'),(view1, 'Vertex2'))]
 rc = page.addView(dim1)

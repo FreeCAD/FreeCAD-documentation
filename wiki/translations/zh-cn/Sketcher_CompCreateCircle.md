@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Sketcher Circles
-   Icon:Sketcher_CompCreateCircle.png
-   MenuLocation:None (toolbar only)
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand   *
+   Name   *Sketcher Circles
+   Icon   *Sketcher_CompCreateCircle.png
+   MenuLocation   *None (toolbar only)
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
 ---
 
 # Sketcher CompCreateCircle/zh-cn
@@ -17,8 +17,8 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_Circle.png  style="width:32px;"> [Circle by center and rim point](Sketcher_CreateCircle.md) : 通过拾取的两个点：中点与决定半径的一点来绘制一个圆。
--   <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width:32px;"> [Circle by 3 rim points](Sketcher_Create3PointCircle.md) : 通过拾取圆周上的3点来绘制一个圆。
+-   <img alt="" src=images/Sketcher_Circle.png  style="width   *32px;"> [Circle by center and rim point](Sketcher_CreateCircle.md)    * 通过拾取的两个点：中点与决定半径的一点来绘制一个圆。
+-   <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width   *32px;"> [Circle by 3 rim points](Sketcher_Create3PointCircle.md)    * 通过拾取圆周上的3点来绘制一个圆。
 
 
 </div>

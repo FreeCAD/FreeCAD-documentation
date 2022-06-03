@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name/de:Std Fenster
-   MenuLocation:Fenster → Fenster...
-   Workbenches:Alle
-   SeeAlso:[Std NächstesFensterAktivieren](Std_ActivateNextWindow/de.md), [Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md)
+- GuiCommand   */de
+   Name/de   *Std Fenster
+   MenuLocation   *Fenster → Fenster...
+   Workbenches   *Alle
+   SeeAlso   *[Std NächstesFensterAktivieren](Std_ActivateNextWindow/de.md), [Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md)
 ---
 
 # Std Windows/de
@@ -19,7 +19,7 @@ Der **Std Fenster**-Befehl öffnet eine Dialog-Box mit einer Liste der Fenster d
 
 1.  Wähle die **Fenster → <img src="images/Std_Windows.svg" width=16px> Fenster...**-Option aus dem Menü.
 2.  Die Fenster auswählen-Dialog-Box öffnet sich.
-3.  Tue eines der folgenden Dinge:
+3.  Tue eines der folgenden Dinge   *
     -   Wähle ein Fenster in der Liste und drücke die **Aktivieren**-Schaltfläche.
     -   Doppelklicke ein Fenster in der List.
 4.  Die Dialog-Box schließt sich.

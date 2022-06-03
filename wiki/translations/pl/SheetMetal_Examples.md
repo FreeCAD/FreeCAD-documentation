@@ -1,19 +1,19 @@
 # SheetMetal Examples/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
-The SheetMetal workbench has grown quite powerful now and it demands an appropriate documentation.
+Środowisko pracy Arkusz Blachy stało się bardzo rozbudowane i wymaga odpowiedniej dokumentacji.
 
-To avoid the overcrowding of the tool pages with examples this page was added to collect parts showing and explaining special SheetMetal features.
+Aby uniknąć przepełnienia stron narzędziowych przykładami, dodano tę stronę w celu zebrania części pokazujących i wyjaśniających specjalne możliwości środowiska Arkusz Blachy.
 
-Planned phases to generate content   *
+Zaplanowane etapy tworzenia treści   *
 
-1.  Collecting pictures
-2.  Adding workflow descriptions
-3.  Adding more detailed tutorials
+1.  Zbieranie zdjęć
+2.  Dodawanie opisów przepływów pracy
+3.  Dodawanie bardziej szczegółowych samouczków
 
-## Hinge
+## Zawias
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-01a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-01b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-01c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-01d.png  style="width   *200px;"> 
@@ -50,7 +50,7 @@ Planned phases to generate content   *
 
 </div>
 
-## Paper clip 
+## Klips do papieru 
 
 <img alt="" src=images/SheetMetal_Example-02.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-02a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-02b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-02c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-02d.png  style="width   *200px;"> 
@@ -128,7 +128,7 @@ clone, flip and fuse,
 
 </div>
 
-## Omega clamp 
+## Klamra Omega 
 
 <img alt="" src=images/SheetMetal_Example-03.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-03a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-03b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-03c.png  style="width   *200px;"> 
@@ -139,7 +139,7 @@ clone, flip and fuse,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
 }}
 
-## Hex bowl 
+## Sześciokątna miska 
 
 <img alt="" src=images/SheetMetal_Example-04.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-04a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-04b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-04c.png  style="width   *200px;"> 
@@ -154,7 +154,7 @@ clone, flip and fuse,
 
 When a Corner Relief is added (right side) it can be necessary to adjust the value of the **Size** property.
 
-## Pen clip 
+## Klips do długopisu 
 
 <img alt="" src=images/SheetMetal_Example-05.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-05a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05d.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05e.png  style="width   *200px;"> 
@@ -165,7 +165,7 @@ When a Corner Relief is added (right side) it can be necessary to adjust the val
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
 }}
 
-## Extend face example 
+## Przykład przedłużenia ściany 
 
 <img alt="" src=images/SheetMetal_Example-06.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-06a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-06b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-06c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-06.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-06d.png  style="width   *200px;"> 
@@ -179,7 +179,7 @@ When a Corner Relief is added (right side) it can be necessary to adjust the val
 
 For the second use of **Extend Face** a Sketch with two contours is used for shape of the extension(s); and with the value of \"use subtraction\" set to true it provides the shape for the cut-outs, as well
 
-## USB shield contact 
+## Korpus złącza USB 
 
 <img alt="" src=images/SheetMetal_Example-07.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-07a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07d.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07e.png  style="width   *200px;"> 
@@ -193,6 +193,69 @@ For the second use of **Extend Face** a Sketch with two contours is used for sha
 }}
 
 (The pull relief is just an artistic expression of what could be hidden inside a real plug)
+
+## Właściwości środowiska pracy Arkusz Blachy 
+
+This section tries to explain the properties of each SheetMetal object with simple images, where applicable.
+
+
+<div class="mw-collapsible mw-collapsed">
+
+### BaseBend object <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+<img alt="" src=images/SheetMetal_Example-08a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;">
+
+
+
+*Selected sketch + 
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)* 
+→ BaseBend object with default settings**
+
+<img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08c.png  style="width   *200px;">
+
+
+
+*Edit **length*   * Default length → Reduced length**
+
+<img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08h.png  style="width   *200px;">
+
+
+
+*Switch **Mid Plane* from {{False** to `True`   * Extrusion in one direction → Symmetric extrusion}}
+
+<img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;">
+
+
+
+*Switch **Reverse* from {{False** to `True`   * Default direction → Inverted direction}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08g.png  style="width   *200px;">
+
+
+
+*Select **Bend Side*   * {{value|Outside** (default) → {{value|Inside}} → {{value| Middle}}}}
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08i.png  style="width   *200px;">
+
+
+
+*Edit **radius*   * Default radius → Enlarged radius.<br>
+This property is the inner radius of the bends created at the vertices where two edges in the sketch have a non-tangential transition.**
+
+<img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08j.png  style="width   *200px;">
+
+
+
+*Edit **thickness*   * Default Thickness → Enlarged thickness**
+
+
+</div>
+
+
+</div>
 
 [Category   *SheetMetal](Category_SheetMetal.md) [Category   *Addons](Category_Addons.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 

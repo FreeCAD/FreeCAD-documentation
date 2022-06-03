@@ -1,108 +1,109 @@
 ---
-- GuiCommand:
-   Name:Std DlgMacroExecute
-   MenuLocation:Macro → Macros...
-   Workbenches:All
-   SeeAlso:[Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)
+- GuiCommand   */pl
+   Name   *Std DlgMacroExecute
+   Name/pl   *Std   * Okno dialogowe Makrodefinicje
+   MenuLocation   *Makrodefinicje → Makrodefinicje ...
+   Workbenches   *wszystkie
+   SeeAlso   *[Wykonaj makrodefinicję w trakcie edycji](Std_DlgMacroExecuteDirect/pl.md)
 ---
 
 # Std DlgMacroExecute/pl
 
-## Description
+## Opis
 
-The **Std DlgMacroExecute** command opens the Execute macro dialog box. From this dialog box macros can be executed, edited and managed.
+Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym oknie dialogowym można wykonywać makra, edytować je i zarządzać nimi.
 
 ![](images/Std_DlgMacroExecute_dialog.png ) 
 *The Execute macro dialog box*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std DlgMacroExecute](Std_DlgMacroExecute.md)** button.
-    -   Select the **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** option from the menu.
-2.  The Execute macro dialog box opens. See [Options](#Options.md).
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Makrodefinicje ...](Std_DlgMacroExecute/pl.md)**.
+    -   Wybierz opcję z menu **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> Makrodefinicje ...**.
+2.  Zostanie otwarte okno dialogowe Wykonaj makro. Zobacz dostępne [Opcje](#Opcje.md).
 
-## Options
+## Opcje
 
-### User macros 
+### Makrodefinicje użytkownika 
 
-1.  The **User macros** tab lists the macros available in the **User macros location**.
-2.  Click a macro to select it.
-3.  The name of the selected macro will appear in the **Macro name** box.
+1.  Zakładka **Makrodefinicje użytkownika** zawiera listę dostępnych makrodefinicji w **lokalizacji makrodefinicji użytkownika**.
+2.  Kliknij makro, aby je wybrać.
+3.  Nazwa wybranej makrodefinicji zostanie wyświetlona w polu **Nazwa makrodefinicji**.
 
-### System macros 
+### Makrodefinicje systemowe 
 
-:   The **System macros** tab is not used at this time.
+   *   Karta **Makrodefinicje systemowe** nie jest obecnie używana.
 
-### User macros location 
+### Lokalizacja makrodefinicji użytkownika 
 
-1.  Press the **...** button to change the user macros location.
-2.  Browse to a different folder and select it.
+1.  Naciśnij przycisk **...**, aby zmienić lokalizację pliku makroinstrukcji użytkownika.
+2.  Przejdź do innego folderu i wybierz go.
 
-### Execute
+### Wykonaj
 
-1.  To execute a macro do one of the following:
-    -   Select the macro in the list and press the **Execute** button.
-    -   Double-click the macro in the list.
-2.  The dialog box closes.
-3.  The macro is executed.
+1.  Aby wykonać dowolną makrodefinicję, należy postępować w jeden z następujących sposobów   *
+    -   Zaznacz odpowiednia pozycję na liście i naciśnij przycisk **Wykonaj**.
+    -   Kliknij dwukrotnie makrodefinicję z listy.
+2.  Okno dialogowe zostanie zamknięte.
+3.  Makrodefinicja zostanie wykonana.
 
-### Close
+### Zamknij
 
-1.  Press **Esc** or the **Close** button to close the dialog box.
+1.  Naciśnij **Esc** lub przycisk **Zamknij**, aby zamknąć okno dialogowe.
 
-### Create
+### Utwórz
 
-1.  Press the **Create** button to create a new macro file.
-2.  Enter a name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
-3.  Press **Enter** or the **OK** button.
-4.  Both dialog boxes close.
-5.  The new file is opened in the Macro editor.
+1.  Naciśnij przycisk **Utwórz**, aby utworzyć nowy plik makrodefinicji.
+2.  Wpisz nazwę w oknie dialogowym, które się pojawi. Nie musisz dołączać rozszerzenia **.FCMacro**.
+3.  Naciśnij klawisz **Enter** lub przycisk **OK**.
+4.  Oba okna dialogowe zostaną zamknięte.
+5.  Nowy plik zostanie otwarty w edytorze makr.
 
-### Delete
+### Usuń
 
-1.  Select the macro you want to delete in the list.
-2.  Press the **Delete** button.
-3.  Press the **Yes** button in the confirmation dialog box that pops up.
+1.  Zaznacz na liście makro, które chcesz usunąć.
+2.  Naciśnij przycisk **Usuń**.
+3.  Naciśnij przycisk **Tak** w oknie dialogowym potwierdzenia, które się pojawi.
 
-### Edit
+### Edycja
 
-1.  Select the macro you want to edit in the list.
-2.  Press the **Edit** button.
-3.  The dialog box closes.
-4.  The selected file is opened in the Macro editor.
+1.  Wybierz z listy makrodefinicję, która ma zostać poddana edycji.
+2.  Naciśnij przycisk **Edycja**.
+3.  Okno dialogowe zostanie zamknięte.
+4.  Wybrany plik zostanie otwarty w edytorze makroinstrukcji.
 
-### Rename
+### Zmień nazwę 
 
-1.  Select the macro you want to rename in the list.
-2.  Press the **Rename** button.
-3.  Enter a new name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
-4.  Press **Enter** or the **OK** button.
+1.  Zaznacz na liście pozycję, której nazwę chcesz zmienić.
+2.  Naciśnij przycisk **Zmień nazwę**.
+3.  Wpisz nową nazwę w oknie dialogowym, które się pojawi. Nie musisz dołączać rozszerzenia **.FCMacro**.
+4.  Naciśnij klawisz **Enter** lub przycisk **OK**.
 
-### Duplicate
+### Duplikuj
 
-1.  Select the macro you want to duplicate in the list.
-2.  Press the **Duplicate** button.
-3.  Enter a new name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
-4.  Press **Enter** or the **OK** button.
+1.  Zaznacz na liście wybrane makropolecenie, które chcesz powielić.
+2.  Naciśnij przycisk **Duplikuj**.
+3.  Wpisz nową nazwę w oknie dialogowym, które się pojawi. Nie musisz dołączać rozszerzenia **.FCMacro**.
+4.  Naciśnij klawisz **Enter** lub przycisk **OK**.
 
-### Toolbar
+### Pasek narzędzi 
 
-1.  Select the macro you want to add to a custom toolbar in the list.
-2.  Press the **Toolbar** button.
-3.  Two \'walkthrough\' dialogs will guide you through the required steps. See [Interface Customization](Interface_Customization.md) for more information.
+1.  Wybierz z listy wybrane makropolecenie, które chcesz dodać do niestandardowego paska narzędzi.
+2.  Naciśnij przycisk **Pasek narzędzi**.
+3.  Dwa okna dialogowe \"opis postępowania\" poprowadzą Cię przez wymagane kroki. Więcej informacji na ten temat można znaleźć w opisie [Dostosowywanie interfejsu użytkownika do własnych potrzeb](Interface_Customization/pl.md).
 
-### Addons
+### Pobierz
 
-1.  Press the **Addons...** button to start the [Addon manager](Std_AddonMgr.md).
+1.  Naciśnij przycisk **Pobierz**, aby uruchomić [Menadżer dodatków](Std_AddonMgr/pl.md).
 
-## Notes
+## Uwagi
 
--   To learn more about macros see the [Macros](Macros.md) page.
+-   Aby dowiedzieć się więcej o makropoleceniach, zobacz stronę [Makrodefinicje](Macros/pl.md).
 
-## Preferences
+## Ustawienia
 
--   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+Lokalizację plików makroinstrukcji użytkownika można również zmienić w preferencjach   * **Edycja → Preferencje ... → Ogólne → Makropolecenia → Ścieżka do plików makrodefinicji**. Więcej informacji na ten temat można znaleźć również w [Edytorze ustawień](Preferences_Editor/pl#Makropolecenia.md).
 
 
 

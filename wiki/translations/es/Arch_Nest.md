@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/es
-   Name:Arch Nest   Name/es:Arch Nest
-   MenuLocation:Arch → Panel tools → Nest
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   SeeAlso:[[Arch Panel/es]], [[Arch Panel Sheet/es]]
+- GuiCommand   */es
+   Name   *Arch Nest   Name/es   *Arch Nest
+   MenuLocation   *Arch → Panel tools → Nest
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   SeeAlso   *[[Arch Panel/es]], [[Arch Panel Sheet/es]]
 ---
 
 # Arch Nest/es
@@ -23,7 +23,7 @@ La herramienta Nido permite seleccionar una forma plana para ser un contenedor y
 
 El algoritmo detrás de la herramienta Nido está en constante evolución y actualmente no está totalmente optimizado. En el futuro, el rendimiento de esta herramienta debería ser mucho mejor.
 
-<img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Nest_example.jpg  style="width   *600px;">
 
 *La imagen de arriba muestra una serie de formas antes y después de la operación de anidación*
 
@@ -48,7 +48,7 @@ El algoritmo detrás de la herramienta Nido está en constante evolución y actu
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Arch_Nest_panel.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Nest_panel.jpg  style="width   *600px;">
 
 
 </div>

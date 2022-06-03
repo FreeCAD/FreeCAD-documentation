@@ -33,7 +33,9 @@ The GSoC project aims to add a wide range of unit test for most of FreeCAD FEM G
 
 Easy-Medium
 
-### Additional Information
+### Additional Information 
+
+[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 
 

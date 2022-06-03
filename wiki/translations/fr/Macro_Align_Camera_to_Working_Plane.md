@@ -6,9 +6,9 @@
 |Author=yorik
 |Version=0.1
 |Date=2017-03-16
-|Download=[https://www.freecadweb.org/wiki/images/f/fd/Macro_Align_Camera_to_Working_Plane.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/f/fd/Macro_Align_Camera_to_Working_Plane.png ToolBar Icon]
 |FCVersion=All
-|SeeAlso=[Macro Aligne le Plan à la Camera](Macro_Align_Working_Plane_to_Camera/fr.md) [<img src=images/Macro_Align_Working_Plane_to_Camera.png style="width:24px"> 
+|SeeAlso=[Macro Aligne le Plan à la Camera](Macro_Align_Working_Plane_to_Camera/fr.md) [<img src=images/Macro_Align_Working_Plane_to_Camera.png style="width   *24px"> 
 }}
 
 ## Description

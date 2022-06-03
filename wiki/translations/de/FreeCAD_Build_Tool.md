@@ -10,15 +10,15 @@ trunc/src/Tools/fcbt.py
 
 ## Anwendung
 
-Mit korrekt installiertem [Python](http://de.wikipedia.org/wiki/Python_%28Programmiersprache%29), kann *fcbt* durch den Befehl ausgeführt werden 
+Mit korrekt installiertem [Python](http   *//de.wikipedia.org/wiki/Python_%28Programmiersprache%29), kann *fcbt* durch den Befehl ausgeführt werden 
 ```python
 python fbct.py
-``` Es zeigt ein Menü an, in dem du die Aufgabe für den Einsatz auswählen kannst, die du auswählen willst für: 
+``` Es zeigt ein Menü an, in dem du die Aufgabe für den Einsatz auswählen kannst, die du auswählen willst für   * 
 ```python
 FreeCAD Build Tool
- Usage:
+ Usage   *
     fcbt <command name> [command parameter]
- possible commands are:
+ possible commands are   *
   - DistSrc         (DS)   Build a source Distr. of the current source tree
   - DistBin         (DB)   Build a binary Distr. of the current source tree
   - DistSetup       (DI)   Build a Setup Distr. of the current source tree
@@ -27,7 +27,7 @@ FreeCAD Build Tool
   - NextBuildNumber (NBN)  Increase the Build Number of this Version
   - CreateModule    (CM)   Insert a new FreeCAD Module (Workbench) in the module directory
  
- For help on the modules type:
+ For help on the modules type   *
    fcbt <command name> ?
 ``` An der Eingabeaufforderung gib den abgekürzten Befehl den du anrufen möchtest ein. Gib z. B. \"CM\" für [Erstellung von Arbeitsbereichen](Workbench_creation/de.md) ein.
 
@@ -58,6 +58,14 @@ Der \"NBN\" Befehl **erhöht die Bau Nummer**, um eine neue Freigabestand Versio
 ### ErstelleModul
 
 Der \"CM\" Befehl [erzeugt ein neues Anwendungsmodul (Arbeitsbereich)](Workbench_creation/de.md).
+
+
+
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

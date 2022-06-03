@@ -1,6 +1,8 @@
 # Category:Command Reference/uk
 This category contains the help pages of each of FreeCAD command.
 
+[Category   *Categories/uk](Category   *Categories/uk.md)
+
 ### Contents
 
 |     |     |     |

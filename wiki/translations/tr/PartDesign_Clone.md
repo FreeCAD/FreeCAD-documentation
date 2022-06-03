@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/tr
-   Name:PartDesign Clone
-   Name/tr:Klon oluştur
-   Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Parça tasarım → Klon oluştur
-   Version:0.17
-   SeeAlso:[Taslak Klon](Draft_Clone.md)
+- GuiCommand   */tr
+   Name   *PartDesign Clone
+   Name/tr   *Klon oluştur
+   Workbenches   *[Parça tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation   *Parça tasarım → Klon oluştur
+   Version   *0.17
+   SeeAlso   *[Taslak Klon](Draft_Clone.md)
 ---
 
 # PartDesign Clone/tr
@@ -34,7 +34,7 @@
 1.  Model ağacında klonlanacak nesneyi seçin.
 
 2.  
-    **[<img src=images/PartDesign_Clone.png style="width:24px"> '''Klon Oluştur'''**tuşuna basın.
+    **[<img src=images/PartDesign_Clone.png style="width   *24px"> '''Klon Oluştur'''**tuşuna basın.
 
 
 </div>
@@ -44,11 +44,11 @@
 
 <div class="mw-translate-fuzzy">
 
--    **Base Feature**: klonun dayandığı orijinal nesneyi ayarlar. **...** basarak değiştirilebilir nesnelerin bir listesini görebilirsiniz.
+-    **Base Feature**   * klonun dayandığı orijinal nesneyi ayarlar. **...** basarak değiştirilebilir nesnelerin bir listesini görebilirsiniz.
 
--    **Placement**: 3D alanda Klonun yönünü ve konumunu tanımlar. [Yerleşim](Placement.md) bkz.
+-    **Placement**   * 3D alanda Klonun yönünü ve konumunu tanımlar. [Yerleşim](Placement.md) bkz.
 
--    **Label**: Klon nesnesinin etiketidir. Gerekirse değiştirebilirsiniz.
+-    **Label**   * Klon nesnesinin etiketidir. Gerekirse değiştirebilirsiniz.
 
 
 </div>

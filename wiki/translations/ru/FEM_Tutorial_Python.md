@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Finite Element Analysis
-   Level: Intermediates
-   Time: 30 minutes
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-   FCVersion:0.17.12995 or above
-   Files:
+- TutorialInfo   */ru
+   Topic   * Finite Element Analysis
+   Level   * Intermediates
+   Time   * 30 minutes
+   Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   *Berndhahnebach Bernd]
+   FCVersion   *0.17.12995 or above
+   Files   *
 ---
 
 # FEM Tutorial Python/ru
@@ -30,7 +30,7 @@
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic00.jpg  style="width:700px;">
+<img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -56,7 +56,7 @@ doc = App.newDocument("Scripted_CalculiX_Cantilever3D")
 
 # part
 import Part
-box_obj = doc.addObject('Part::Box', 'Box')
+box_obj = doc.addObject('Part   *   *Box', 'Box')
 box_obj.Height = box_obj.Width = 1000
 box_obj.Length = 8000
 
@@ -114,13 +114,13 @@ analysis_object.addObject(force_constraint)
 ```
 
 
-<div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
+<div class="mw-collapsible mw-collapsed toccolours" style="width   *750px ">
 
 ### FEM mesh (manual) 
 
 This section contains the FEM mesh code. Please expand it to view the contents.
 
-**Note:** Check out the [Additional Information](#Additional_Information.md) section below for how to script mesh generation with GMSH or Netgen mesh object.
+**Note   *** Check out the [Additional Information](#Additional_Information.md) section below for how to script mesh generation with GMSH or Netgen mesh object.
 
 
 <div class="mw-collapsible-content">
@@ -444,7 +444,7 @@ femmesh.addVolume([40, 9, 19, 39, 214, 105, 168, 90, 215, 169], 227)
 
 
 # add it to the analysis
-femmesh_obj = doc.addObject('Fem::FemMeshObject', 'Box_Mesh')
+femmesh_obj = doc.addObject('Fem   *   *FemMeshObject', 'Box_Mesh')
 femmesh_obj.FemMesh = femmesh
 analysis_object.addObject(femmesh_obj)
 
@@ -477,7 +477,7 @@ analysis_object.addObject(femmesh_obj)
 
 
 ```python
-mesh = doc.addObject('Fem::FemMeshShapeNetgenObject', 'FEMMeshNetgen')
+mesh = doc.addObject('Fem   *   *FemMeshShapeNetgenObject', 'FEMMeshNetgen')
 mesh.Shape = doc.Box
 mesh.MaxSize = 1000
 mesh.Fineness = "Moderate"
@@ -500,14 +500,14 @@ doc.recompute()
 
 ## Run the analysis 
 
-To run the analysis using Python, an instance of the `ccxtools` module class `FemToolsCcx` needs to be created. Once this instance has been created, we have two choices when running the analysis:
+To run the analysis using Python, an instance of the `ccxtools` module class `FemToolsCcx` needs to be created. Once this instance has been created, we have two choices when running the analysis   *
 
 1.  Run all processes together at once (see [\"All in one\"](#All_in_one.md) section below)
 2.  Run processes one after the other (see [\"Step by step\"](#Step_by_step.md) section below)
 
 If there is only one analysis in the document and only one solver in the analysis, then no objects need to be passed on `fea init`. The `init` method of the `fea` class will activate the analysis **if the GUI is up**.
 
-Activating an analysis using Python works a follows:
+Activating an analysis using Python works a follows   *
 
 
 ```python
@@ -542,7 +542,7 @@ fea.update_objects()
 fea.setup_working_dir()
 fea.setup_ccx()
 message = fea.check_prerequisites()
-if not message:
+if not message   *
     fea.purge_results()
     fea.write_inp_file()
     # on error at inp file writing, the inp file path "" was returned (even if the file was written)
@@ -550,7 +550,7 @@ if not message:
     # fea.inp_file_name = '/tmp/FEMWB/FEMMeshGmsh.inp'
     fea.ccx_run()
     fea.load_results()
-else:
+else   *
     FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
     print("Houston, we have a problem! {}\n".format(message))  # in python console
 
@@ -562,8 +562,8 @@ else:
 
 ```python
 # show some results
-for m in analysis_object.Group:
-    if m.isDerivedFrom('Fem::FemResultObject'):
+for m in analysis_object.Group   *
+    if m.isDerivedFrom('Fem   *   *FemResultObject')   *
         result_object = m
         break
 
@@ -579,44 +579,44 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 
 ##### Netgen
 
-Scripting the Netgen mesh object was attempted in the [\"Parametrized FEM study\"](http://forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (FreeCAD FEM subforum thread), but has some limitations.
+Scripting the Netgen mesh object was attempted in the [\"Parametrized FEM study\"](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (FreeCAD FEM subforum thread), but has some limitations.
 
 ##### GMSH
 
-On the contrary, the GMSH mesh object fully supports python scripting. See the following forum posts:
+On the contrary, the GMSH mesh object fully supports python scripting. See the following forum posts   *
 
--   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
--   forum topic <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
+-   <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
+-   forum topic <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
 #### Scripting multiple analysis 
 
-See forum post: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
+See forum post   * <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
 #### Scripting results 
 
 ##### Standard FreeCAD result object 
 
-See forum posts:
+See forum posts   *
 
--   <https://forum.freecadweb.org/viewtopic.php?f=18&t=34048&p=289519#p289519> → scale factor in standard result object
--   <http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=20#p148982>
--   <http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=30#p149043>
--   <http://forum.freecadweb.org/viewtopic.php?t=18415#p144028>
--   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → coloring just one element
--   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → reset all result mesh, show colored displacement magnitude
+-   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=34048&p=289519#p289519> → scale factor in standard result object
+-   <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=20#p148982>
+-   <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=30#p149043>
+-   <http   *//forum.freecadweb.org/viewtopic.php?t=18415#p144028>
+-   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → coloring just one element
+-   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → reset all result mesh, show colored displacement magnitude
 
 ##### Vtk result object 
 
-See forum posts:
+See forum posts   *
 
--   <https://forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
+-   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
 
 <div class="mw-translate-fuzzy">
 
 ##### Консольный режим 
 
-Запись входного файла в режиме консоли FreeCAD (без графического интерфейса) может быть выполнена в тестовом режиме. См. Сообщение на этом форуме: <https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897>.
+Запись входного файла в режиме консоли FreeCAD (без графического интерфейса) может быть выполнена в тестовом режиме. См. Сообщение на этом форуме   * <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897>.
 
 
 </div>
@@ -632,7 +632,9 @@ See forum posts:
 </div>
 
 
- {{FEM Tools navi}}
+ {{FEM Tools navi}}  
+
+[Category   *Python Code](Category_Python_Code.md)
 
 
 

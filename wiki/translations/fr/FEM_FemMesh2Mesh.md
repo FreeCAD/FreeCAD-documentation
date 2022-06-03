@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM FemMesh2Mesh
-   Name/fr:FEM Maillage à maillage MEF
-   MenuLocation:Mesh → Maillage à maillage
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM FemMesh2Mesh
+   Name/fr   *FEM Maillage à maillage MEF
+   MenuLocation   *Mesh → Maillage à maillage
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM FemMesh2Mesh/fr
@@ -19,13 +19,13 @@ Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vo
 
 1.  Sélectionnez un objet de maillage MEF.
 2.  En option, sélectionnez également les résultats FEM.
-3.  Il existe plusieurs façons d\'appeler la commande:
+3.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Convertir la surface maillage MEF en maillage](FEM_FemMesh2Mesh/fr.md)**.
     -   Sélectionnez l\'option **Mesh → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> MEF maillage à maillage** dans le menu.
 
 ## Script
 
-Exemple: Téléchargez l\'exemple 3D FEM de FreeCAD à partir de l\'atelier Start et exécutez le code suivant
+Exemple   * Téléchargez l\'exemple 3D FEM de FreeCAD à partir de l\'atelier Start et exécutez le code suivant
 
 
 ```python
@@ -45,7 +45,7 @@ Sélectionnez un maillage et lancez le code suivant dans la fenêtre Python de F
 ```python
 import Mesh
 
-def extend_by_triangle(i, j, k):
+def extend_by_triangle(i, j, k)   *
     triangle = [input_mesh.getNodeById(element_nodes[i]),
                 input_mesh.getNodeById(element_nodes[j]),
                 input_mesh.getNodeById(element_nodes[k])]
@@ -54,11 +54,11 @@ def extend_by_triangle(i, j, k):
 selection = FreeCADGui.Selection.getSelection()
 input_mesh = App.ActiveDocument.getObject(selection[0].Name).FemMesh
 output_mesh = []
-for element in input_mesh.Faces:
+for element in input_mesh.Faces   *
     element_nodes = input_mesh.getElementNodes(element)
-    if len(element_nodes) in [3, 6]:  # tria3 or tria6 (ignoring mid-nodes)
+    if len(element_nodes) in [3, 6]   *  # tria3 or tria6 (ignoring mid-nodes)
         extend_by_triangle(0, 1, 2)
-    elif len(element_nodes) in [4, 8]:  # quad4 or quad8 (ignoring mid-nodes)
+    elif len(element_nodes) in [4, 8]   *  # quad4 or quad8 (ignoring mid-nodes)
         extend_by_triangle(0, 1, 2)
         extend_by_triangle(2, 3, 0)
 

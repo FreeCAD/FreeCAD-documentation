@@ -1,18 +1,18 @@
 ---
-- GuiCommand:/fr
-   Name:Plot Axes
-   Name/fr:Plot Axes
-   MenuLocation:Plot → Configurer les axes‏‎
-   Workbenches:[Plot](Plot_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Plot Axes
+   Name/fr   *Plot Axes
+   MenuLocation   *Plot → Configurer les axes‏‎
+   Workbenches   *[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Axes/fr
 
 ## Description
 
-Le module standard graphique fournit déjà un outil de base pour contrôler les axes du tracé <img alt="" src=images/Matplotlib_edit_subplot.png  style="width:24px;"> mais cet outil est clairement insuffisant lorsque des tracés multi-axes doivent être manipulés, comme c\'est le cas dans le [Tutoriel graphique à plusieurs axes](Plot_MultiAxes_tutorial/fr.md). Pour surmonter cette limitation, vous pouvez installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), ainsi un outil plus complet pour éditer les axes du tracé sera disponible.
+Le module standard graphique fournit déjà un outil de base pour contrôler les axes du tracé <img alt="" src=images/Matplotlib_edit_subplot.png  style="width   *24px;"> mais cet outil est clairement insuffisant lorsque des tracés multi-axes doivent être manipulés, comme c\'est le cas dans le [Tutoriel graphique à plusieurs axes](Plot_MultiAxes_tutorial/fr.md). Pour surmonter cette limitation, vous pouvez installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), ainsi un outil plus complet pour éditer les axes du tracé sera disponible.
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
 
 ## Utilisation
 
@@ -51,7 +51,9 @@ Enfin, vous pouvez définir les valeurs minimales et maximales prises en compte 
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Draft Mirror
-   Name/es:Draft Mirror
-   MenuLocation:Draft → Mirror
-   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   SeeAlso:[Draft Scale](Draft_Scale/es.md)
+- GuiCommand   */es
+   Name   *Draft Mirror
+   Name/es   *Draft Mirror
+   MenuLocation   *Draft → Mirror
+   Workbenches   *[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   SeeAlso   *[Draft Scale](Draft_Scale/es.md)
 ---
 
 # Draft Mirror/es
@@ -19,26 +19,26 @@
 
 ## Descripción
 
-Esta herramienta produce una copia duplicada de un objeto seleccionado, utilizando un objeto [Part Mirror](Part_Mirror.md). La copia está vinculada de forma paramétrica al objeto original: si el objeto original cambia, la copia duplicada también cambia, pero se mantiene reflejada.
+Esta herramienta produce una copia duplicada de un objeto seleccionado, utilizando un objeto [Part Mirror](Part_Mirror.md). La copia está vinculada de forma paramétrica al objeto original   * si el objeto original cambia, la copia duplicada también cambia, pero se mantiene reflejada.
 
 
 </div>
 
 The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
 
-<img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Mirror_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Mirror_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -75,22 +75,22 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Properties
 
-See also: [Property editor](property_editor.md).
+See also   * [Property editor](property_editor.md).
 
-A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Base}}
 
--    **Source|Link**: specifies the object that is mirrored.
+-    **Source|Link**   * specifies the object that is mirrored.
 
 
 {{TitleProperty|Plane}}
@@ -100,9 +100,9 @@ A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Fea
 
 ## Propiedades
 
--    {{PropertyData | Base}}: El punto base del plano espejo
+-    {{PropertyData | Base}}   * El punto base del plano espejo
 
--    {{PropertyData | Normal}}: la dirección normal del plano reflejado
+-    {{PropertyData | Normal}}   * la dirección normal del plano reflejado
 
 
 </div>
@@ -114,7 +114,7 @@ A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Fea
 
 ## Programación
 
-La herramienta de clonación se puede usar en [macros](macros.md) y desde la consola de python usando la siguiente función:
+La herramienta de clonación se puede usar en [macros](macros.md) y desde la consola de python usando la siguiente función   *
 
 
 </div>
@@ -136,7 +136,7 @@ mirrored_list = mirror(objlist, p1, p2)
 
 </div>
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Reinforcement Bar Bending Schedule
-   MenuLocation:Reinforcement → Bar Bending Schedule
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar BOM](Arch_Rebar_BOM.md), [Arch Rebar Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning.md)
+- GuiCommand   *
+   Name   *Reinforcement Bar Bending Schedule
+   MenuLocation   *Reinforcement → Bar Bending Schedule
+   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar BOM](Arch_Rebar_BOM.md), [Arch Rebar Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning.md)
 ---
 
 # Reinforcement Bar Bending Schedule
@@ -13,9 +13,9 @@
 
 The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool allows the user to create the bar bending schedule of reinforcing bars.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
- <img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width:1300px;"> 
+ <img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width   *1300px;"> 
 
 
 
@@ -43,98 +43,98 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Properties
 
-**General:**
+**General   ***
 
--    **Reinforcement Group By**: Reinforcement Group By specifies how reinforcement objects should be grouped in Bar Bending Schedule i.e. \"Host\" or \"Mark\".
+-    **Reinforcement Group By**   * Reinforcement Group By specifies how reinforcement objects should be grouped in Bar Bending Schedule i.e. \"Host\" or \"Mark\".
 
--    **Rebar Length Type**: Rebar Length Type specifies the type of rebar length used for BOM calculations i.e. \"RealLength\" or \"LengthWithSharpEdges\".
+-    **Rebar Length Type**   * Rebar Length Type specifies the type of rebar length used for BOM calculations i.e. \"RealLength\" or \"LengthWithSharpEdges\".
 
--    **Column Headers**: A dictionary with column\_data as key and tuple (column\_display\_header, column\_sequence) as value.
+-    **Column Headers**   * A dictionary with column\_data as key and tuple (column\_display\_header, column\_sequence) as value.
 
--    **Column Units**: A dictionary with keys: \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and their corresponding units as value.
+-    **Column Units**   * A dictionary with keys   * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and their corresponding units as value.
 
--    **Font Family**: Font Family of text in Bar Bending Schedule SVG.
+-    **Font Family**   * Font Family of text in Bar Bending Schedule SVG.
 
--    **Font Size**: Font size in mm.
+-    **Font Size**   * Font size in mm.
 
--    **Column Width**: Width of each column in Bar Bending Schedule SVG.
+-    **Column Width**   * Width of each column in Bar Bending Schedule SVG.
 
--    **Row Height**: Height of each row in Bar Bending Schedule SVG.
+-    **Row Height**   * Height of each row in Bar Bending Schedule SVG.
 
--    **SVG Output File**: The output file to write generated rebar shape cut list SVG.
+-    **SVG Output File**   * The output file to write generated rebar shape cut list SVG.
 
-**Rebar Shape column data:** The data related to the Rebar Shape column in Bar Bending Schedule
+**Rebar Shape column data   *** The data related to the Rebar Shape column in Bar Bending Schedule
 
--    **Column Header**: The column header for the rebar shape column.
+-    **Column Header**   * The column header for the rebar shape column.
 
--    **Stirrup Extended Edge Offset**: The offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
+-    **Stirrup Extended Edge Offset**   * The offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
 
--    **Rebars Stroke Width**: The stroke-width of rebars in the rebar shape column.
+-    **Rebars Stroke Width**   * The stroke-width of rebars in the rebar shape column.
 
--    **Rebars Color Style**: The color style of rebars.
+-    **Rebars Color Style**   * The color style of rebars.
 
-**Rebar Shape Column Dimension Data:** The data related to rebar shape dimensions in the Rebar Shape column
+**Rebar Shape Column Dimension Data   *** The data related to rebar shape dimensions in the Rebar Shape column
 
--    **Include Dimensions**: If True, then each rebar edge dimensions and bent angle dimensions will be included in the rebar shape cut list.
+-    **Include Dimensions**   * If True, then each rebar edge dimensions and bent angle dimensions will be included in the rebar shape cut list.
 
--    **Include Units in Dimension Label**: If it is True, then rebar edge length units will be shown in dimension label.
+-    **Include Units in Dimension Label**   * If it is True, then rebar edge length units will be shown in dimension label.
 
--    **Rebar Edge Dimension Units**: The units to be used for rebar edge length dimensions.
+-    **Rebar Edge Dimension Units**   * The units to be used for rebar edge length dimensions.
 
--    **Rebar Edge Dimension Precision**: The number of decimals that should be shown for rebar edge length as a dimension label.
+-    **Rebar Edge Dimension Precision**   * The number of decimals that should be shown for rebar edge length as a dimension label.
 
--    **Dimension Font Family**: The font-family of dimension text.
+-    **Dimension Font Family**   * The font-family of dimension text.
 
--    **Dimension Font Size**: The font-size of dimension text.
+-    **Dimension Font Size**   * The font-size of dimension text.
 
--    **Bent Angle Dimension Exclude List**: The list of bent angles to not include their dimensions.
+-    **Bent Angle Dimension Exclude List**   * The list of bent angles to not include their dimensions.
 
--    **Helical Rebar Dimension Label Format**: The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
+-    **Helical Rebar Dimension Label Format**   * The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
 
 ### Create Bar Bending Schedule 
 
  
 ```python
 getBarBendingSchedule(
-    rebar_objects: Optional[List] = None,
-    column_headers: Optional[Dict[str, Tuple[str, int]]] = None,
-    column_units: Optional[Dict[str, str]] = None,
-    dia_weight_map: Optional[Dict[float, FreeCAD.Units.Quantity]] = None,
-    rebar_length_type: Optional[
+    rebar_objects   * Optional[List] = None,
+    column_headers   * Optional[Dict[str, Tuple[str, int]]] = None,
+    column_units   * Optional[Dict[str, str]] = None,
+    dia_weight_map   * Optional[Dict[float, FreeCAD.Units.Quantity]] = None,
+    rebar_length_type   * Optional[
         Literal["RealLength", "LengthWithSharpEdges"]
     ] = None,
-    reinforcement_group_by: Optional[Literal["Mark", "Host"]] = None,
-    font_family: Optional[str] = None,
-    font_size: float = 5,
-    column_width: float = 60,
-    row_height: float = 30,
-    rebar_shape_column_header: str = "Rebar Shape (mm)",
-    rebar_shape_view_directions: Union[
+    reinforcement_group_by   * Optional[Literal["Mark", "Host"]] = None,
+    font_family   * Optional[str] = None,
+    font_size   * float = 5,
+    column_width   * float = 60,
+    row_height   * float = 30,
+    rebar_shape_column_header   * str = "Rebar Shape (mm)",
+    rebar_shape_view_directions   * Union[
         Union[FreeCAD.Vector, WorkingPlane.Plane],
         List[Union[FreeCAD.Vector, WorkingPlane.Plane]],
     ] = FreeCAD.Vector(0, 0, 0),
-    rebar_shape_stirrup_extended_edge_offset: float = 2,
-    rebar_shape_color_style: str = "shape color",
-    rebar_shape_stroke_width: float = 0.35,
-    rebar_shape_include_dimensions: bool = True,
-    rebar_shape_dimension_font_size: float = 3,
-    rebar_shape_edge_dimension_units: str = "mm",
-    rebar_shape_edge_dimension_precision: int = 0,
-    include_edge_dimension_units_in_dimension_label: bool = False,
-    rebar_shape_bent_angle_dimension_exclude_list: Union[
+    rebar_shape_stirrup_extended_edge_offset   * float = 2,
+    rebar_shape_color_style   * str = "shape color",
+    rebar_shape_stroke_width   * float = 0.35,
+    rebar_shape_include_dimensions   * bool = True,
+    rebar_shape_dimension_font_size   * float = 3,
+    rebar_shape_edge_dimension_units   * str = "mm",
+    rebar_shape_edge_dimension_precision   * int = 0,
+    include_edge_dimension_units_in_dimension_label   * bool = False,
+    rebar_shape_bent_angle_dimension_exclude_list   * Union[
         List[float], Tuple[float, ...]
     ] = (45, 90, 180),
-    helical_rebar_dimension_label_format: str = "%L,r=%R,pitch=%P",
-    output_file: Optional[str] = None,
+    helical_rebar_dimension_label_format   * str = "%L,r=%R,pitch=%P",
+    output_file   * Optional[str] = None,
 ) -> xml.ElementTree.Element
 ```
 
@@ -142,33 +142,33 @@ getBarBendingSchedule(
 
 -    `rebar_objects`is a list of \<ArchRebar.\_Rebar\> or \<rebar2.BaseRebar\> objects, to generate their bar bending schedule. If not provided, then all ArchRebars and rebar2.BaseRebar objects with unique Mark from ActiveDocument will be selected.
 
--    `column_headers`is a dictionary with keys: \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column\_header and their sequence number.
+-    `column_headers`is a dictionary with keys   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column\_header and their sequence number.
 
-   Example: {
-                "Host": ("Member", 1),
-                "Mark": ("Mark", 2),
-                "RebarsCount": ("No. of Rebars", 3),
-                "Diameter": ("Diameter in mm", 4),
-                "RebarLength": ("Length in m/piece", 5),
-                "RebarsTotalLength": ("Total Length in m", 6),
+   Example   * {
+                "Host"   * ("Member", 1),
+                "Mark"   * ("Mark", 2),
+                "RebarsCount"   * ("No. of Rebars", 3),
+                "Diameter"   * ("Diameter in mm", 4),
+                "RebarLength"   * ("Length in m/piece", 5),
+                "RebarsTotalLength"   * ("Total Length in m", 6),
             }
             set column sequence number to 0 to hide column.
 
--    `column_units`is a dictionary with keys: \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and their corresponding units as value.
+-    `column_units`is a dictionary with keys   * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and their corresponding units as value.
 
-   Example: {
-                "Diameter": "mm",
-                "RebarLength": "m",
-                "RebarsTotalLength": "m",
+   Example   * {
+                "Diameter"   * "mm",
+                "RebarLength"   * "m",
+                "RebarsTotalLength"   * "m",
             }
 
 -    `dia_weight_map`is a dictionary with diameter as key and corresponding weight as value.
 
-   Syntax: {
-                6: FreeCAD.Units.Quantity("0.222 kg/m"),
-                8: FreeCAD.Units.Quantity("0.395 kg/m"),
-                10: FreeCAD.Units.Quantity("0.617 kg/m"),
-                12: FreeCAD.Units.Quantity("0.888 kg/m"),
+   Syntax   * {
+                6   * FreeCAD.Units.Quantity("0.222 kg/m"),
+                8   * FreeCAD.Units.Quantity("0.395 kg/m"),
+                10   * FreeCAD.Units.Quantity("0.617 kg/m"),
+                12   * FreeCAD.Units.Quantity("0.888 kg/m"),
                 ...,
             }
 
@@ -206,7 +206,7 @@ getBarBendingSchedule(
 
 -    `rebar_shape_bent_angle_dimension_exclude_list`specifies the list of bent angles to not include their dimensions in rebar shape SVG.
 
--    `helical_rebar_dimension_label_format`specifies the format of the helical rebar dimension label in rebar shape SVG. E.g. \"%L,r=%R,pitch=%P\" where:
+-    `helical_rebar_dimension_label_format`specifies the format of the helical rebar dimension label in rebar shape SVG. E.g. \"%L,r=%R,pitch=%P\" where   *
 
    %L -> Length of helical rebar
    %R -> Helix radius of helical rebar
@@ -264,7 +264,7 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
 
 # Assign Mark to straight rebars
 </translate>
-for straight_rebar in rebar_group.RebarGroups[1].MainRebars:
+for straight_rebar in rebar_group.RebarGroups[1].MainRebars   *
     straight_rebar.Mark = "main_sb"
 
 <translate>
@@ -299,43 +299,43 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
 
 # Assign Mark to lshape rebars
 </translate>
-for lshape_rebar in rebar_group.RebarGroups[1].MainRebars:
+for lshape_rebar in rebar_group.RebarGroups[1].MainRebars   *
     lshape_rebar.Mark = "main_lb"
 
 FreeCAD.ActiveDocument.recompute()
 
 COLUMN_UNITS = {
-    "Diameter": "mm",
-    "RebarLength": "m",
-    "RebarsTotalLength": "m",
+    "Diameter"   * "mm",
+    "RebarLength"   * "m",
+    "RebarsTotalLength"   * "m",
 }
 
 COLUMN_HEADERS = {
-    "Host": ("Member", 1),
-    "Mark": ("Mark", 2),
-    "RebarsCount": ("No. of Rebars", 3),
-    "Diameter": ("Diameter in " + COLUMN_UNITS["Diameter"], 4),
-    "RebarLength": ("Length in " + COLUMN_UNITS["RebarLength"] + "/piece", 5),
-    "RebarsTotalLength": ("Total Length in " + COLUMN_UNITS["RebarsTotalLength"], 6),
+    "Host"   * ("Member", 1),
+    "Mark"   * ("Mark", 2),
+    "RebarsCount"   * ("No. of Rebars", 3),
+    "Diameter"   * ("Diameter in " + COLUMN_UNITS["Diameter"], 4),
+    "RebarLength"   * ("Length in " + COLUMN_UNITS["RebarLength"] + "/piece", 5),
+    "RebarsTotalLength"   * ("Total Length in " + COLUMN_UNITS["RebarsTotalLength"], 6),
 }
 
 DIA_WEIGHT_MAP = {
-    6: FreeCAD.Units.Quantity("0.222 kg/m"),
-    8: FreeCAD.Units.Quantity("0.395 kg/m"),
-    10: FreeCAD.Units.Quantity("0.617 kg/m"),
-    12: FreeCAD.Units.Quantity("0.888 kg/m"),
-    14: FreeCAD.Units.Quantity("1.206 kg/m"),
-    16: FreeCAD.Units.Quantity("1.578 kg/m"),
-    18: FreeCAD.Units.Quantity("2.000 kg/m"),
-    20: FreeCAD.Units.Quantity("2.466 kg/m"),
-    22: FreeCAD.Units.Quantity("2.980 kg/m"),
-    25: FreeCAD.Units.Quantity("3.854 kg/m"),
-    28: FreeCAD.Units.Quantity("4.830 kg/m"),
-    32: FreeCAD.Units.Quantity("6.313 kg/m"),
-    36: FreeCAD.Units.Quantity("7.990 kg/m"),
-    40: FreeCAD.Units.Quantity("9.864 kg/m"),
-    45: FreeCAD.Units.Quantity("12.490 kg/m"),
-    50: FreeCAD.Units.Quantity("15.410 kg/m"),
+    6   * FreeCAD.Units.Quantity("0.222 kg/m"),
+    8   * FreeCAD.Units.Quantity("0.395 kg/m"),
+    10   * FreeCAD.Units.Quantity("0.617 kg/m"),
+    12   * FreeCAD.Units.Quantity("0.888 kg/m"),
+    14   * FreeCAD.Units.Quantity("1.206 kg/m"),
+    16   * FreeCAD.Units.Quantity("1.578 kg/m"),
+    18   * FreeCAD.Units.Quantity("2.000 kg/m"),
+    20   * FreeCAD.Units.Quantity("2.466 kg/m"),
+    22   * FreeCAD.Units.Quantity("2.980 kg/m"),
+    25   * FreeCAD.Units.Quantity("3.854 kg/m"),
+    28   * FreeCAD.Units.Quantity("4.830 kg/m"),
+    32   * FreeCAD.Units.Quantity("6.313 kg/m"),
+    36   * FreeCAD.Units.Quantity("7.990 kg/m"),
+    40   * FreeCAD.Units.Quantity("9.864 kg/m"),
+    45   * FreeCAD.Units.Quantity("12.490 kg/m"),
+    50   * FreeCAD.Units.Quantity("15.410 kg/m"),
 }
 
 output_file = str(Path.home() / "BarBendingSchedule.svg")
@@ -370,6 +370,13 @@ BBSfunc.getBarBendingSchedule(
     output_file=output_file,
 )
 ```
+
+
+
+
+
+
+[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

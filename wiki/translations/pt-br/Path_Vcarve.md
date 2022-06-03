@@ -1,16 +1,16 @@
 ---
-- GuiCommand:
-   Name:Path Vcarve
-   MenuLocation:Path → Vcarve
-   Workbenches:[Path](Path_Workbench.md)
-   Version:0.19
+- GuiCommand   *
+   Name   *Path Vcarve
+   MenuLocation   *Path → Vcarve
+   Workbenches   *[Path](Path_Workbench.md)
+   Version   *0.19
 ---
 
 # Path Vcarve/pt-br
 
 ## Description
 
-The <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Path Vcarve](Path_Vcarve.md) tool is primarily for center-line engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
+The <img alt="" src=images/Path_Vcarve.svg  style="width   *24px;"> [Path Vcarve](Path_Vcarve.md) tool is primarily for center-line engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width   *24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
 
 Unlike engraving which follows the lines in the shapestring, V-carving uses a V-shaped cutter and attempts to clear the area by moving the cutter down the center of the region and varying the depth of cut. Since a v-cutter radius varies with the depth, the width of cut varies as well. The result is a more natural looking cut, particularly for serif fonts.
 
@@ -22,42 +22,42 @@ The V-carve algorithm calculates a path down the center-line of a region using a
 
 ### Prepare the shapes to engrave 
 
--    **[<img src=images/Draft_ShapeString.svg style="width:24px"> [Draft ShapeStrings](Draft_ShapeString.md)**are usable out of the box
+-    **[<img src=images/Draft_ShapeString.svg style="width   *24px"> [Draft ShapeStrings](Draft_ShapeString.md)**are usable out of the box
 
--   SVG files require some massaging, both in the editor and in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md):
-    -   In the editor (e.g. [Inkscape](https://www.inkscape.org)): make sure the file only contains paths and that the paths are ungrouped; make sure there are no self-intersecting paths, (in Inkscape) use Path → Simplify and union to join paths that overlap.
-    -   Switch to the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) in [workbench dropdown list](Std_Workbench.md)
+-   SVG files require some massaging, both in the editor and in the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md)   *
+    -   In the editor (e.g. [Inkscape](https   *//www.inkscape.org))   * make sure the file only contains paths and that the paths are ungrouped; make sure there are no self-intersecting paths, (in Inkscape) use Path → Simplify and union to join paths that overlap.
+    -   Switch to the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md) in [workbench dropdown list](Std_Workbench.md)
     -   Import the SVG using **File → Import → select "SVG as geometry"**
-    -   The result should look similar to this:
+    -   The result should look similar to this   *
 
-        :   ![](images/Svgimport.png )
-        :   
+           *   ![](images/Svgimport.png )
+           *   
             
-*Above: Results of importing 'SVG as geometry'*
+*Above   * Results of importing 'SVG as geometry'*
             
 
-:   
+   *   
 
-    :   Paths with holes (letters, the vine in the image above) are imported as 2 separate paths (named along the lines of `Path905` and `Path905001` in the [Tree view](Tree_view.md)), one of them is the hole and the other one is the outline; we\'ll deal with this in the next step
+       *   Paths with holes (letters, the vine in the image above) are imported as 2 separate paths (named along the lines of `Path905` and `Path905001` in the [Tree view](Tree_view.md)), one of them is the hole and the other one is the outline; we\'ll deal with this in the next step
 
--   -   In order to get the 2D faces, [Path Vcarve](Path_Vcarve.md) needs:
-        -   For paths without holes:
+-   -   In order to get the 2D faces, [Path Vcarve](Path_Vcarve.md) needs   *
+        -   For paths without holes   *
             1.  Select the path
             2.  Choose **Modification → ![](images/)_[Upgrade](Draft_Upgrade.md)**
             3.  Followed by **Modification → ![](images/)_[Downgrade](Draft_Downgrade.md)**
-        -   For paths with holes:
+        -   For paths with holes   *
             1.  Select the outer path, then the inner path
             2.  Choose **Modification → ![](images/)_[Downgrade](Draft_Downgrade.md)** **twice**
 
-        :   Some paths will behave differently, so you may need to play with **<img src="images/Draft_Upgrade.svg" width=16px> Upgrade** and **<img src="images/Draft_Downgrade.svg" width=16px> Downgrade** until you get something named: `Face<number>`
-        :   The end result should look like this:
-        :   ![](images/Svgfaces.png )
+           *   Some paths will behave differently, so you may need to play with **<img src="images/Draft_Upgrade.svg" width=16px> Upgrade** and **<img src="images/Draft_Downgrade.svg" width=16px> Downgrade** until you get something named   * `Face<number>`
+           *   The end result should look like this   *
+           *   ![](images/Svgfaces.png )
 
 ### Create the Vcarve operation 
 
--   Switch to the **[<img src=images/Workbench_Path.svg style="width:16px"> [Path Workbench](Path_Workbench.md)** in the [workbench dropdown menu](Std_Workbench.md)
+-   Switch to the **[<img src=images/Workbench_Path.svg style="width   *16px"> [Path Workbench](Path_Workbench.md)** in the [workbench dropdown menu](Std_Workbench.md)
 -   Add a job, use the objects named `Face<number>` (or the ShapeString) as a base, add a v-bit tool controller, set feeds, speeds, etc.
--   The operation only supports one object (either a single Face object, or a ShapeString) so for each object:
+-   The operation only supports one object (either a single Face object, or a ShapeString) so for each object   *
     -   Select **Path  →  <img src="images/Path_Vcarve.svg" width=24px> Vcarve** from the top menu. This opens the configuration panel.
     -   Open the **Base Geometry** tab and add all faces of the ShapeString, or the face of a single Face object obtained above
     -   Press **Apply** and inspect the generated path; if necessary, adjust operation parameters (Threshold can be set higher in most situations)
@@ -74,68 +74,68 @@ Empty
 
 {{TitleProperty|Base}}
 
--    **Placement**: -
+-    **Placement**   * -
 
--    **Label**: -
+-    **Label**   * -
 
 
 {{TitleProperty|Depth}}
 
--    **ClearanceHeight**: -
+-    **ClearanceHeight**   * -
 
--    **FinalDepth**: -
+-    **FinalDepth**   * -
 
--    **SafeHeight**: -
+-    **SafeHeight**   * -
 
--    **StartDepth**: -
+-    **StartDepth**   * -
 
--    **StepDown**: -
+-    **StepDown**   * -
 
 
 {{TitleProperty|Op Values}}
 
--    **OpFinalDepth**: -
+-    **OpFinalDepth**   * -
 
--    **OpStartDepth**: -
+-    **OpStartDepth**   * -
 
--    **OpStockZMax**: -
+-    **OpStockZMax**   * -
 
--    **OpStockZMin**: -
+-    **OpStockZMin**   * -
 
--    **OpToolDiameter**: -
+-    **OpToolDiameter**   * -
 
 
 {{TitleProperty|Path}}
 
--    **Active**: -
+-    **Active**   * -
 
--    **Comment**: -
+-    **Comment**   * -
 
--    **CoolantMode**: -
+-    **CoolantMode**   * -
 
--    **StartVertex**: -
+-    **StartVertex**   * -
 
--    **ToolController**: -
+-    **ToolController**   * -
 
--    **UserLabel**: -
+-    **UserLabel**   * -
 
 #### Hidden
 
--    **Base**: -
+-    **Base**   * -
 
--    **BaseObject**: -
+-    **BaseObject**   * -
 
--    **BaseShapes**: -
+-    **BaseShapes**   * -
 
--    **ExpressionEngine**: -
+-    **ExpressionEngine**   * -
 
--    **Label2**: -
+-    **Label2**   * -
 
--    **Path**: -
+-    **Path**   * -
 
--    **Proxy**: -
+-    **Proxy**   * -
 
--    **Visibility**: -
+-    **Visibility**   * -
 
 ### View
 
@@ -144,11 +144,11 @@ Empty
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

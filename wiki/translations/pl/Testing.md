@@ -32,70 +32,70 @@ freecad -c -t TestPartDesignApp
 
 ## Menu Narzędzia test 
 
-Each top level directory in FreeCAD should have a file with the tests that can be run for that particular workbench or module. The file usually starts with the word `Test`.
+W każdym katalogu najwyższego poziomu w programie FreeCAD powinien znajdować się plik z testami, które można uruchomić dla danego programu lub modułu. Plik ten zwykle zaczyna się od słowa `Test`.
 
-To run a test from within FreeCAD, switch to the Test Workbench, then **Test commands → TestToolsGui → Self test → Select test name**, then enter the name of the Python file with the tests; for example, for the [Draft Workbench](Draft_Workbench.md), this would be **TestDraft**, then press **Start**.
+Aby uruchomić test z poziomu programu FreeCAD, należy przejść do środowiska Test Workbench, następnie **Test commands → TestToolsGui → Self test → Select test name**, a następnie wpisać nazwę pliku Python z testami. Na przykład dla środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) będzie to **TestDraft**, po czym należy nacisnąć przycisk **Start**.
 
-## Test functions 
+## Funkcje testujące 
 
-This is the list of test apps as of 0.15 git 4207   *
+To jest lista aplikacji testowych od wersji 0.15 git 4207   *
 
 ### TestAPP.All
 
-Add test function
+Dodanie funkcji testowania
 
-### BaseTests
+### Testy podstawowe 
 
-Add test function
+Dodaj funkcje testowania
 
-### UnitTests
+### Testy jednostkowe 
 
-Add test function
+Dodaj funkcje testowania
 
-### Document
+### Dokument
 
-Add test function
+Dodaj funkcje testowania
 
-### UnicodeTests
+### Testy Unicode 
 
-Add test function
+Dodaj funkcje testowania
 
 ### MeshTestsApp
 
-Add test function
+Dodaj funkcje testowania
 
-### TestDraft
+### Test środowiska Rysunek Roboczy 
 
-Add test function
+Dodaj funkcje testowania
 
 ### TestSketcherApp
 
-Add test function
+Dodaj funkcje testowania
 
 ### TestPartApp
 
-Add test function
+Dodaj funkcje testowania
 
 ### TestPartDesignApp
 
-Add test function
+Dodaj funkcje testowania
 
 ### TestPathApp
 
-Path workbench test cases   *
+Testowanie środowiska pracy Path   *
 
 -   depthTestCases   *
 -   PathTestUtils   *
--   TestDressupDogbone   * Test functionality of Dogbone dressup.
--   TestHoldingTags   * Test functionality of Holding Tags dressup.
--   TestPathAdaptive   * Test selection capability of Adaptive operation.
--   TestPathCore   * Test core functionality of Path workbench.
--   TestPathDeburr   * Test general functionality of Deburr operation.
--   TestPathGeom   * Test various functions available in the PathGeom module.
--   TestPathHelix   * Test general functionality of Helix operation.
--   TestPathLog   * Test various functions available in the PathLog debugging and feedback module.
+-   TestDressupDogbone   * Test funkcjonalności ulepszenia podcięcia w narożnikach.
+-   TestHoldingTags   * Test funkcjonalności ulepszenia mostki utrzymujące.
+-   TestPathAdaptive   * Testowanie możliwości wyboru trybu pracy adaptacyjnej.
+-   TestPathCore   *Test głównych funkcji środowiska pracy Path.
+-   TestPathDeburr   * Test ogólnej funkcjonalności operacji usuwania zadziorów.
+-   TestPathGeom   * Test różnych funkcji dostępnych w module PathGeom.
+-   TestPathHelix   * Test ogólnej funkcjonalności działania operacji Helisy.
+-   TestPathLog   * Przetestuj różne funkcje dostępne w module debugowania i informacji zwrotnej PathLog.
 -   TestPathOpTools   *
--   TestPathPreferences   * Test various functions available in the PathPreferences module.
+-   TestPathPreferences   * Test różnych funkcji dostępnych w module PathPreferences.
 -   TestPathPropertyBag   *
 -   TestPathSetupSheet   *
 -   TestPathStock   *
@@ -104,67 +104,67 @@ Path workbench test cases   *
 -   TestPathToolBit   *
 -   TestPathToolController   *
 -   TestPathTooltable   *
--   TestPathUtil   * Test various functions available in the PathUtil module.
--   TestPathVcarve   * Test general functionality of Vcarve operation.
+-   TestPathUtil   * Test różnych funkcji dostępnych w module PathUtil.
+-   TestPathVcarve   * Test ogólnej funkcjonalności działania funkcji Vcarve.
 -   TestPathVoronoi   *
 
-### Workbench
+### Środowiska pracy 
 
-Add test function
+Dodaj funkcje testowania
 
 ### Menu
 
-Add test function
+Dodaj funkcje testowania
 
 ### Menu.MenuDeleteCases
 
-Add test function
+Dodaj funkcje testowania
 
 ### Menu.MenuCreateCases
 
-Add test function
+Dodaj funkcje testowania
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-### Get a list of all top-level test modules 
+### Wyświetl listę wszystkich modułów testowych najwyższego poziomu 
 
 
 ```python
 FreeCAD.__unit_test__
 ```
 
-Note that the test modules returned here depend on whether a GUI available or not. I.e. when executed in console mode, various tests ending in \"Gui\" are missing.
+Należy zauważyć, że zwracane tutaj moduły testowe zależą od tego, czy dostępny jest interfejs graficzny, czy nie. Tzn. jeśli test jest wykonywany w trybie konsoli, brakuje różnych testów kończących się na \"Gui\".
 
-### Run specific tests 
+### Wykonaj określone testy 
 
-There are various ways of running tests using [Python\'s unittest library](https   *//docs.python.org/3/library/unittest.html). FreeCAD\'s test framework removes some of the boiler plate for the most common cases.
+Istnieje wiele sposobów uruchamiania testów przy użyciu [biblioteki unittest Python](https   *//docs.python.org/3/library/unittest.html). Szkielet testowy programu FreeCAD usuwa niektóre z najczęściej występujących przypadków.
 
-Run all tests defined in a Python module   * 
+Uruchamia wszystkie testy zdefiniowane w module Python   * 
 ```python
 import Test, TestFemApp
 Test.runTestsFromModule(TestFemApp)
 ```
 
-Run all tests defined in a Python class   * 
+Uruchamia wszystkie testy zdefiniowane w klasie Python   * 
 ```python
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
 ```
 
-### Example 1 
+### Przykład 1 
 
-Within the Python Console of FreeCAD, the following code format may be used to run built-in tests. Replace the red \"**TestFem**\" text in the code below with the desired module test name.
+W konsoli Pythona programu FreeCAD do uruchamiania wbudowanych testów można użyć kodu w następującym formacie. Zamień tekst w kolorze czerwonym `"TestFem"` w poniższym kodzie na nazwę żądanego testu modułu.
 
--   For example, use \"**TestPathApp**\" to run all unit tests for the Path workbench unit test framework.
--   Submodules are available using dot notation, like \"**TestPathApp.TestPathAdaptive**\" to only run the Adaptive unit tests within the greater Path workbench test framework.
--   Multiple test modules or submodules may be combined by adding another \**suite.addTest(\...)**\ method call just like the one in the code below, but with a different module or submodule reference.
--   Output for the code below will be in the Report View panel within the FreeCAD GUI.
--   Code source is copied from post by FreeCAD forum user, *sgrogan*, in the [unit tests per python](https   *//forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251) topic, with credit there given to forum user, *wmayer*.
+-   Na przykład użyj `TestPathApp`, aby uruchomić wszystkie testy jednostkowe środowiska pracy Path.
+-   Moduły podrzędne są dostępne przy użyciu notacji kropkowej, na przykład `TestPathApp.TestPathAdaptive`, aby uruchomić tylko testy jednostkowe Adaptive w ramach większego frameworka testowego środowiska pracy Path.
+-   Wiele modułów testowych lub modułów podrzędnych można połączyć, dodając kolejne wywołanie metody `suite.addTest(...)`, tak jak w poniższym kodzie, ale z innym odniesieniem do modułu lub modułu podrzędnego.
+-   Dane wyjściowe poniższego kodu będą znajdować się w panelu Widoku raportu w graficznym interfejsie użytkownika programu FreeCAD.
+-   Źródło kodu jest skopiowane z postu użytkownika forum FreeCAD, *sgrogana*, w temacie [testy jednostkowe w pythonie](https   *//forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251), z przypisaniem do użytkownika forum, *wmayer*.
 
 
 ```python
@@ -175,11 +175,11 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
-## Additional Resources 
+## Zasoby dodatkowe 
 
-### Forum Topics 
+### Tematy na forum 
 
--   [Support for running specific unit tests with \--run-test \#331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
+-   [Support for running specific test jednostkowy z \--run-test \#331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
 
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh BoundingBox
-   Name/fr:Mesh Boîte englobante
-   MenuLocation:Maillages → Analyser → Dimensions extérieures...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Mesh BoundingBox
+   Name/fr   *Mesh Boîte englobante
+   MenuLocation   *Maillages → Analyser → Dimensions extérieures...
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh BoundingBox/fr
@@ -15,7 +15,7 @@ La commande **Mesh Boîte englobante** affiche les coordonnées de la boîte eng
 ## Utilisation
 
 1.  Sélectionnez un seul objet maillé.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_BoundingBox.svg" width=16px> [Affiche les dimensions englobantes...](Mesh_BoundingBox/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → Analyser → <img src="images/Mesh_BoundingBox.svg" width=16px> Dimensions extérieures...** dans le menu.

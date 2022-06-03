@@ -1,6 +1,8 @@
 # Category:BIM/zh-cn
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/zh-cn](Category   *User_Documentation/zh-cn.md)
+
 ### Contents
 
 |     |     |     |

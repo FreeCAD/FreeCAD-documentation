@@ -1,6 +1,6 @@
 # Path Post/ro
 ---
-- GuiCommand:   Name:Path PostProcess   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Post Process   Shortcut:P,P   SeeAlso:---
+- GuiCommand   *   Name   *Path PostProcess   Workbenches   *[[Path Workbench   Path]]|MenuLocation   *Path → Post Process   Shortcut   *P,P   SeeAlso   *---
 
 
 </div>
@@ -22,7 +22,7 @@ Fiecare controler CNC vorbește într-un dialect specific G-Cod, care necesită 
 
 <div class="mw-translate-fuzzy">
 
-Funcțiile tipice ale postprocesorului includ:
+Funcțiile tipice ale postprocesorului includ   *
 
 -   Utilizarea unei extensii de fișiere G-Cod de ieșire corectă.
 -   Selectarea comenzilor codului G. Controlerele CNC suportă în mod obișnuit un subset de comenzi G-Code disponibile. Supersetul de comenzi pentru codul G conține comenzi puternice și specializate care altfel trebuie procesate folosind mai multe comenzi simple. Postprocesoarele sunt scrise pentru a selecta cel mai bun cod G pentru o operație disponibilă în țintă.
@@ -46,9 +46,9 @@ Câteva postprocesoare furnizate generează codul adecvat pentru mai multe contr
 
 </div>
 
-**Note:** Several provided Postprocessors generate suitable code for many CNC controllers, or can be used as templates for modification
+**Note   *** Several provided Postprocessors generate suitable code for many CNC controllers, or can be used as templates for modification
 
-Postprocesoarele conțin steaguri de configurare și sunt proiectate pentru a fi reglate prin adăugarea codurilor G și M-Codurilor la definițiile furnizate pentru:
+Postprocesoarele conțin steaguri de configurare și sunt proiectate pentru a fi reglate prin adăugarea codurilor G și M-Codurilor la definițiile furnizate pentru   *
 
 -   Initializarea mașinii
 -   Finalizarea locurilor de muncă
@@ -56,9 +56,9 @@ Postprocesoarele conțin steaguri de configurare și sunt proiectate pentru a fi
 -   Răcire pornită / oprită
 -   Etc \...
 
-Postprocesoarele utilizează: [https://www.freecadweb.org/wiki/Path\_scripting\#FreeCAD.27s\_internal\_GCode\_format Path Job Operations FreeCAD G-Code dialect](https://www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_Path_Job_Operations_FreeCAD_G-Code_dialect.md), în combinație cu definițiile de configurare Postprocessor, pentru a genera G-Codul corect pentru diagramele pentru mașinile țintă. Acest lucru permite ca Atelierul Path să genereze codul G corect pentru a viza diferite controlere de mașini CNC invocând diferite postprocesoare.
+Postprocesoarele utilizează   * [https   *//www.freecadweb.org/wiki/Path\_scripting\#FreeCAD.27s\_internal\_GCode\_format Path Job Operations FreeCAD G-Code dialect](https   *//www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_Path_Job_Operations_FreeCAD_G-Code_dialect.md), în combinație cu definițiile de configurare Postprocessor, pentru a genera G-Codul corect pentru diagramele pentru mașinile țintă. Acest lucru permite ca Atelierul Path să genereze codul G corect pentru a viza diferite controlere de mașini CNC invocând diferite postprocesoare.
 
-CNC Machine Controller types include:
+CNC Machine Controller types include   *
 
 -   CNC mills
 -   CNC lathes
@@ -91,7 +91,7 @@ Fișierul de ieșire și proprietățile postprocesor pot fi setate în [ Job](P
 
 Postprocesoarele furnizate sunt scrise cu comentarii care indică zone care conțin Flaguri, Variabile de configurare și Secțiuni de G-Coduri și M-Coduri care vor fi utilizate de Postprocesor pentru a configura ieșirea.
 
-Typical Configuration True/False Flags include:
+Typical Configuration True/False Flags include   *
 
 -   OUTPUT\_COMMENTS (True = Allow, False = Suppress), Used to insert Text Comments in the output G-Code file.
 -   OUTPUT\_HEADER (True = Allow, False = Suppress), Used to insert Text Headers in the output G-Code file.
@@ -99,14 +99,14 @@ Typical Configuration True/False Flags include:
 -   SHOW\_EDITOR (True = Allow, False = Suppress), Used to show the output G-Code in a Pop-up window when invoking the Postprocessor.
 -   MODAL (True = Allow, False = Suppress), Used to reduce the number of output G-Code lines by stripping Mode information when the Mode is not changing.
 
-Typical Configuration Variables include:
+Typical Configuration Variables include   *
 
 -   LINENR (Line Number), Used to Set the Line Number index.
 -   UNITS (G20 or G21), Used to explicitly communicate to the target CNC controller what Units to use to interpret the final output file.
 -   MACHINE\_NAME (Name of Target CNC Mill), Used to Insert a machine name label in the final output file.
 -   PRECISION, Used to Set the number of digits to include after the decimal place in final output file
 
-Typical Configuration Sections include:
+Typical Configuration Sections include   *
 
 -   PREAMBLE (Code configuration inserted at beginning of the Job)
 -   POSTAMBLE (Code configuration appended to the Job, providing for parking the machine, etc\...)
@@ -117,13 +117,13 @@ The Edit-\>Preferences\...-\>Path-\>Job Preferences tab, Defaults-\>Path is used
 
 <div class="mw-translate-fuzzy">
 
-Included Postprocessors are saved in the FreeCAD.Mod.Path.Pathscripts.Post by default:
+Included Postprocessors are saved in the FreeCAD.Mod.Path.Pathscripts.Post by default   *
 
 -   centroid
 -   comparams
 -   dynapath
 -   grbl
--   [linuxcnc](http://linuxcnc.org/docs/html/gcode/g-code.html#gcode:g17-g19.1)
+-   [linuxcnc](http   *//linuxcnc.org/docs/html/gcode/g-code.html#gcode   *g17-g19.1)
 -   opensbp
 -   phillips
 -   rml

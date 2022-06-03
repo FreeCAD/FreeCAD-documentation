@@ -6,11 +6,11 @@
 
 {{ColoredParagraph|Triageː
 
-1a :  the sorting of and allocation of treatment to patients and especially battle and disaster victims according to a system of priorities designed to maximize the number of survivors
+1a    *  the sorting of and allocation of treatment to patients and especially battle and disaster victims according to a system of priorities designed to maximize the number of survivors
 
-1b :  the sorting of patients (as in an emergency room) according to the urgency of their need for care
+1b    *  the sorting of patients (as in an emergency room) according to the urgency of their need for care
 
-2:  the assigning of priority order to projects on the basis of where funds and other resources can be best used, are most needed, or are most likely to achieve success
+2   *  the assigning of priority order to projects on the basis of where funds and other resources can be best used, are most needed, or are most likely to achieve success
 }}
 
 Сортировка ошибок важна для организации и приоритизации ошибок / функций/исправлений по сравнению с FreeCAD Bug Tracker. Если эта задача игнорируется, проект может пострадать от так называемого \"Bloat Bugtracker\", который в основном состоит из накопления и разложения пропущенных билетов. Сортировка также помогает идентифицировать дубликаты билетов, которые, как правило, накапливаются, особенно если существует давняя нерешенная проблема, о которой команда FC знает, но не имеет необходимых ресурсов, независимо от причины.
@@ -29,7 +29,7 @@ In other words, **NEW** status indicates several thingsː
 2.  Ticket is still in process, i.e. Triage/Devs still evaluating/clarifying details of ticket from OP.
 3.  FreeCAD team hasn\'t decided what to do with this ticket yet.
 
-All current [open FreeCAD tickets with **NEW** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=10&hide_status=80).
+All current [open FreeCAD tickets with **NEW** status](https   *//freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=10&hide_status=80).
 
 #### Подтвержден
 
@@ -41,9 +41,9 @@ All current [open FreeCAD tickets with **NEW** status](https://freecadweb.org/tr
 
 Когда OP ответит, статус билета автоматически изменится на \"Новый\". Затем билет необходимо пересмотреть, чтобы решить, что необходимо.
 
-Продолжение обсуждения данной темы в [FreeCAD форуме](https://forum.freecadweb.org/viewtopic.php?f=10&t=23005).
+Продолжение обсуждения данной темы в [FreeCAD форуме](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=23005).
 
-All current [open FreeCAD tickets with **FEEDBACK** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=20&hide_status=80) in the FC bugtracker.
+All current [open FreeCAD tickets with **FEEDBACK** status](https   *//freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=20&hide_status=80) in the FC bugtracker.
 
 #### Подтверждён
 
@@ -54,13 +54,13 @@ All current [open FreeCAD tickets with **FEEDBACK** status](https://freecadweb.o
 
 Теперь он готов для назначения разработчику или разработчиком.
 
-All current [open FreeCAD tickets with **CONFIRMED** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=40&hide_status=80) in the FC tracker.
+All current [open FreeCAD tickets with **CONFIRMED** status](https   *//freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=40&hide_status=80) in the FC tracker.
 
 #### Назначено
 
 Само собой разумеется, что эти билеты были назначены конкретному разработчику.
 
-All current [open FreeCAD tickets with **ASSIGNED** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=50&hide_status=80) in the FC tracker.
+All current [open FreeCAD tickets with **ASSIGNED** status](https   *//freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=50&hide_status=80) in the FC tracker.
 
 #### Решено
 
@@ -141,6 +141,14 @@ An important methodology to track tickets by a certain subject/theme/category. I
 ## Related
 
 [Bugtracker](Tracker.md)
+
+
+
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

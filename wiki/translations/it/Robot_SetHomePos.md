@@ -1,6 +1,6 @@
 # Robot SetHomePos/it
 ---
-- GuiCommand:/it   Name:Robot SetHomePos   Name/it:Imposta la posizione iniziale   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Imposta la posizione iniziale---
+- GuiCommand   */it   Name   *Robot SetHomePos   Name/it   *Imposta la posizione iniziale   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Imposta la posizione iniziale---
 
 
 </div>
@@ -21,7 +21,7 @@ Imposta la posizione e l\'orientamento corrente del robot selezionato come posiz
 #### Uso
 
 1.  Selezionare il robot nella vista ad albero o nella vista 3D
-2.  Cliccare su <img alt="" src=images/Robot_SetHomePos.png  style="width:32px;"> o scegliere ** Robot** → **<img src="images/Robot_SetHomePos.png" width=32px> Imposta la posizione iniziale** dal menu in alto.
+2.  Cliccare su <img alt="" src=images/Robot_SetHomePos.png  style="width   *32px;"> o scegliere ** Robot** → **<img src="images/Robot_SetHomePos.png" width=32px> Imposta la posizione iniziale** dal menu in alto.
 
 
 </div>

@@ -1,7 +1,7 @@
 # Glossary/tr
 This page is a glossary of common FreeCAD terms and definitions.
 
-Jump to letter: {{CompactTOC|center=yes}}
+Jump to letter   * {{CompactTOC|center=yes}}
 
 ## A
 
@@ -62,7 +62,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=Output from a debugging program that displays the series of instructions FreeCAD followed before a problem occurred.}}
 
 
-{{term|Bezier Curve|content=[http://en.wikipedia.org/wiki/B%C3%A9zier_curve Bezier Curve]}}
+{{term|Bezier Curve|content=[http   *//en.wikipedia.org/wiki/B%C3%A9zier_curve Bezier Curve]}}
 
 
 {{defn|defn=A type of parametric curve.}}
@@ -71,7 +71,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Blueprint}}
 
 
-{{defn|defn=Old term used for [drawing](#Drawing.md), and coined for its original [http://en.wikipedia.org/wiki/Blueprint reproduction process].}}
+{{defn|defn=Old term used for [drawing](#Drawing.md), and coined for its original [http   *//en.wikipedia.org/wiki/Blueprint reproduction process].}}
 
 
 {{term|Body}}
@@ -83,13 +83,13 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Boolean Logic}}
 
 
-{{defn|defn=A method of data manipulation by using of the operands: And, Or, Not.}}
+{{defn|defn=A method of data manipulation by using of the operands   * And, Or, Not.}}
 
 
 {{term|Boolean Operation}}
 
 
-{{defn|defn=A method of manipulating objects by using Boolean Logic. In FreeCAD, the Boolean Operations are: Union ([Fuse](#Fuse.md)), Difference ([Cut](#Cut.md)), Intersection, and Section.}}
+{{defn|defn=A method of manipulating objects by using Boolean Logic. In FreeCAD, the Boolean Operations are   * Union ([Fuse](#Fuse.md)), Difference ([Cut](#Cut.md)), Intersection, and Section.}}
 
 
 {{term|Boolean OPerations check}}
@@ -113,13 +113,13 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|B-rep}}
 
 
-{{defn|defn=Stands for [http://en.wikipedia.org/wiki/B-rep boundary representation], which is one of two types of 3D models that FreeCAD supports (the other being [mesh](#Mesh.md)).}}
+{{defn|defn=Stands for [http   *//en.wikipedia.org/wiki/B-rep boundary representation], which is one of two types of 3D models that FreeCAD supports (the other being [mesh](#Mesh.md)).}}
 
 
 {{term|B-spline}}
 
 
-{{defn|defn=A type of parametric curve. See [http://en.wikipedia.org/wiki/B-spline B-spline]}}
+{{defn|defn=A type of parametric curve. See [http   *//en.wikipedia.org/wiki/B-spline B-spline]}}
 
 
 {{glossend}}
@@ -190,7 +190,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|1=A restriction on the geometric relationship between primitives in a [Sketch](#Sketch.md). If a constraint has a numerical value, it is referred to as Datum (e.g., a distance constraint has a numerical value - the length of an imaginary line connecting the two points). A constraint that has no numerical value (e.g., a Horizontal constraint) is sometimes referred to as Geometric Constraint.}}
 
 
-{{term|Constructive Solid Geometry|content=[http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry]}}
+{{term|Constructive Solid Geometry|content=[http   *//en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry]}}
 
 
 {{defn|defn=A solid modeling method for creating shapes by using [boolean operations](#Boolean_Operation.md) on [primitives](#Primitive.md).}}
@@ -199,7 +199,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Coordinate}}
 
 
-{{defn|defn=A number which defines the position of an object in space in reference to a [http://en.wikipedia.org/wiki/Cartesian_coordinate_system coordinate system].}}
+{{defn|defn=A number which defines the position of an object in space in reference to a [http   *//en.wikipedia.org/wiki/Cartesian_coordinate_system coordinate system].}}
 
 
 {{term|Coplanar}}
@@ -268,7 +268,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Edge}}
 
 
-{{defn|no=1|defn=A segment joining two [vertices](#Vertices.md). This segment can be a straight line or a curve. The CAD kernel defines it as: One-dimensional shape corresponding to a curve and bounded by a vertex at each extremity. A closed circle has therefore only one vertex, where it starts and ends. See [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 "Open CASCADE Technology, Profile: Defining the Topology"].}}
+{{defn|no=1|defn=A segment joining two [vertices](#Vertices.md). This segment can be a straight line or a curve. The CAD kernel defines it as   * One-dimensional shape corresponding to a curve and bounded by a vertex at each extremity. A closed circle has therefore only one vertex, where it starts and ends. See [https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 "Open CASCADE Technology, Profile   * Defining the Topology"].}}
 
 
 {{defn|no=2|defn=The joining line between two faces. It can be curved or straight.}}
@@ -297,7 +297,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|1=Face}}
 
 
-{{defn|1=A 2 dimensional topological construct.  For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as: Part of a surface bounded by a closed [wire(s)](#Wire.md). See [Profile: Defining the Topology](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md).}}
+{{defn|1=A 2 dimensional topological construct.  For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as   * Part of a surface bounded by a closed [wire(s)](#Wire.md). See [Profile   * Defining the Topology](https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md).}}
 
 
 {{term|Facet}}
@@ -327,7 +327,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|FEM|content=[FEM](FEM_Workbench.md)}}
 
 
-{{defn|defn=[https://en.wikipedia.org/wiki/Finite_element_method Finite Element Method], a [workbench](#Workbench.md) used to solve engineering and mathematical physics problems associated with parts, assemblies and structures.}}
+{{defn|defn=[https   *//en.wikipedia.org/wiki/Finite_element_method Finite Element Method], a [workbench](#Workbench.md) used to solve engineering and mathematical physics problems associated with parts, assemblies and structures.}}
 
 
 {{term|Fillet}}
@@ -351,19 +351,19 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Frenet}}
 
 
-{{defn|defn=When Sweeping a profile along a 3D path, the Frenet parameter controls the orientation of the profile as it travels along the path. If Frenet is true, the profiles are oriented using the Frenet Frame (tangent, binormal, normal) of the path. If Frenet is false the profile's rotation is not restricted. [http://en.wikipedia.org/wiki/Frenet_Frame]}}
+{{defn|defn=When Sweeping a profile along a 3D path, the Frenet parameter controls the orientation of the profile as it travels along the path. If Frenet is true, the profiles are oriented using the Frenet Frame (tangent, binormal, normal) of the path. If Frenet is false the profile's rotation is not restricted. [http   *//en.wikipedia.org/wiki/Frenet_Frame]}}
 
 
-{{term|Freetype|content=[http://www.freetype.org FreeType]}}
+{{term|Freetype|content=[http   *//www.freetype.org FreeType]}}
 
 
 {{defn|defn=A freely available software library used to extract information from font definition files.}}
 
 
-{{term|Frustum|content=[http://en.wikipedia.org/wiki/Frustum Frustum]}}
+{{term|Frustum|content=[http   *//en.wikipedia.org/wiki/Frustum Frustum]}}
 
 
-{{defn|defn=The portion of a solid that lies between two parallel planes cutting it. Used in computer graphics to describe the three-dimensional region which is visible on the screen, the [http://en.wikipedia.org/wiki/Viewing_frustum "viewing frustum"]}}
+{{defn|defn=The portion of a solid that lies between two parallel planes cutting it. Used in computer graphics to describe the three-dimensional region which is visible on the screen, the [http   *//en.wikipedia.org/wiki/Viewing_frustum "viewing frustum"]}}
 
 
 {{term|Fully Constrained}}
@@ -389,7 +389,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|GDB or gdb}}
 
 
-{{defn|defn=[https://www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], a debugging program used on Unix and other 'nix operating systems in order to get a [backtrace](#Backtrace.md). "gdb" (without the quotation marks) is also the first part of the command used to start the GDB program itself.  An example of how to use GDB with FreeCAD is in [http://forum.freecadweb.org/viewtopic.php?t=7052#p56918 this forum post]}}
+{{defn|defn=[https   *//www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], a debugging program used on Unix and other 'nix operating systems in order to get a [backtrace](#Backtrace.md). "gdb" (without the quotation marks) is also the first part of the command used to start the GDB program itself.  An example of how to use GDB with FreeCAD is in [http   *//forum.freecadweb.org/viewtopic.php?t=7052#p56918 this forum post]}}
 
 
 {{term|Geometric modeling kernel}}
@@ -401,7 +401,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Git}}
 
 
-{{defn|defn=[http://en.wikipedia.org/wiki/Distributed_revision_control Distributed revision control system] used by FreeCAD to host and manage its code base.}}
+{{defn|defn=[http   *//en.wikipedia.org/wiki/Distributed_revision_control Distributed revision control system] used by FreeCAD to host and manage its code base.}}
 
 
 {{term|[Group](Std_Group.md)}}
@@ -424,7 +424,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{gloss}}
 
 
-{{term|Half_Space|content=[http://en.wikipedia.org/wiki/Half-space_%28geometry%29 Half Space]}}
+{{term|Half_Space|content=[http   *//en.wikipedia.org/wiki/Half-space_%28geometry%29 Half Space]}}
 
 
 {{defn|defn=When a plane completely divides a 3D Euclidian space, the plane forms two half spaces.}}
@@ -444,7 +444,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=A file format for the exchange of product data models. Files extensions are *.iges, *.igs. See also [STEP](#STEP.md).}}
 
 
-{{term|Intersection|content=[http://en.wikipedia.org/wiki/Intersection Intersection]}}
+{{term|Intersection|content=[http   *//en.wikipedia.org/wiki/Intersection Intersection]}}
 
 
 {{defn|defn=That portion of two or more geometric entities that is common to all.  For example, the intersection of two lines is a point.}}
@@ -522,7 +522,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=[Constraint Lock](Sketcher_ConstrainLock.md)}}
 
 
-{{term|Loft|content=[http://en.wikipedia.org/wiki/Loft_%283D%29 Loft]}}
+{{term|Loft|content=[http   *//en.wikipedia.org/wiki/Loft_%283D%29 Loft]}}
 
 
 {{defn|defn=A topological form created by linking consecutive profiles with a surface.  Similar to the process used to make fabric covered aeroplanes or boats. Also the FreeCAD function for creating such a form.}}
@@ -557,7 +557,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Mesh}}
 
 
-{{defn|defn=Type of object that can be imported or created by FreeCAD. See [http://en.wikipedia.org/wiki/Polygon_mesh Polygon mesh] for more details.}}
+{{defn|defn=Type of object that can be imported or created by FreeCAD. See [http   *//en.wikipedia.org/wiki/Polygon_mesh Polygon mesh] for more details.}}
 
 
 {{term|Model}}
@@ -624,13 +624,13 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|Open CASCADE Technology. See [OCC](#OCC.md).}}
 
 
-{{term|Open CASCADE|content=[http://www.opencascade.org Open CASCADE]}}
+{{term|Open CASCADE|content=[http   *//www.opencascade.org Open CASCADE]}}
 
 
 {{defn|The [geometric modeling kernel](#Geometric_modeling_kernel.md) (software library) underlying FreeCAD. Also called [OCC](#OCC.md) or [OCCT](#OCCT.md) (for Open CASCADE Technology). See also [OCE](#OCE.md).}}
 
 
-{{term|OpenSCAD|content=[http://www.openscad.org/ OpenSCAD]}}
+{{term|OpenSCAD|content=[http   *//www.openscad.org/ OpenSCAD]}}
 
 
 {{defn|no=1|Name of a script-only based CAD program.}}
@@ -648,7 +648,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Orthographic}}
 
 
-{{defn|defn=See [http://en.wikipedia.org/wiki/Orthographic_projection Orthographic projection] and [http://en.wikipedia.org/wiki/Multiview_orthographic_projection Multiview orthographic projection].}}
+{{defn|defn=See [http   *//en.wikipedia.org/wiki/Orthographic_projection Orthographic projection] and [http   *//en.wikipedia.org/wiki/Multiview_orthographic_projection Multiview orthographic projection].}}
 
 
 {{glossend}}
@@ -668,7 +668,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Part|content=[Part](Part_Workbench.md)}}
 
 
-{{defn|no=1|A FreeCAD [workbench](#Workbench.md) primarily used for a [http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry] workflow.}}
+{{defn|no=1|A FreeCAD [workbench](#Workbench.md) primarily used for a [http   *//en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry] workflow.}}
 
 
 {{defn|no=2|A unibody solid. The lowest level component in an assembly.}}
@@ -698,10 +698,10 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Perspective}}
 
 
-{{defn|defn=[http://en.wikipedia.org/wiki/Graphical_projection#Perspective Perspective projection]}}
+{{defn|defn=[http   *//en.wikipedia.org/wiki/Graphical_projection#Perspective Perspective projection]}}
 
 
-{{term|Pivy|content=[http://pypi.python.org/pypi/Pivy Pivy]}}
+{{term|Pivy|content=[http   *//pypi.python.org/pypi/Pivy Pivy]}}
 
 
 {{defn|defn=A software library that allows Python to use Coin.}}
@@ -731,13 +731,13 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Plot}}
 
 
-{{defn|no=1|An outdated synonym for a technical drawing made by a pen plotter. See [https://en.wikipedia.org/wiki/Plotter Plotter]}}
+{{defn|no=1|An outdated synonym for a technical drawing made by a pen plotter. See [https   *//en.wikipedia.org/wiki/Plotter Plotter]}}
 
 
-{{defn|no=2|Short for plot plan. See [https://en.wikipedia.org/wiki/Site_plan Site plan]}}
+{{defn|no=2|Short for plot plan. See [https   *//en.wikipedia.org/wiki/Site_plan Site plan]}}
 
 
-{{defn|no=3|Graphical representation of data. See [https://en.wikipedia.org/wiki/Plot_(graphics) Plot (graphics)]}}
+{{defn|no=3|Graphical representation of data. See [https   *//en.wikipedia.org/wiki/Plot_(graphics) Plot (graphics)]}}
 
 
 {{term|1=Pocket}}
@@ -755,7 +755,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Polygon mesh}}
 
 
-{{defn|defn=See [http://en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}}
+{{defn|defn=See [http   *//en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}}
 
 
 {{term|Polyline}}
@@ -767,7 +767,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|POV-Ray}}
 
 
-{{defn|defn=[http://en.wikipedia.org/wiki/POV-Ray POV-Ray]}}
+{{defn|defn=[http   *//en.wikipedia.org/wiki/POV-Ray POV-Ray]}}
 
 
 {{term|PPA}}
@@ -779,16 +779,16 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Primitive}}
 
 
-{{defn|defn=A basic shape used in the construction of models. Some 2D primitives are: point, line, polygon, circle, ellipse, spiral, helix. 3D primitives are: box, cylinder, cone, torus, sphere, ellipsoid, prism.}}
+{{defn|defn=A basic shape used in the construction of models. Some 2D primitives are   * point, line, polygon, circle, ellipse, spiral, helix. 3D primitives are   * box, cylinder, cone, torus, sphere, ellipsoid, prism.}}
 
 
-{{term|PySide|content=[https://wiki.qt.io/PySide PySide]}}
+{{term|PySide|content=[https   *//wiki.qt.io/PySide PySide]}}
 
 
 {{defn|defn=A freely available software library that allows Python to use QT.}}
 
 
-{{term|Python|content=[http://www.python.org Python]}}
+{{term|Python|content=[http   *//www.python.org Python]}}
 
 
 {{defn|defn=A programming language used in the development of FreeCAD as well as in user-written [macros](#Macro.md) or scripts.}}
@@ -802,7 +802,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{gloss}}
 
 
-{{term|Qt|content=[https://www.qt.io/developers/ Qt]}}
+{{term|Qt|content=[https   *//www.qt.io/developers/ Qt]}}
 
 
 {{defn|1=A cross-platform application and user interface framework. Also Qt4.}}
@@ -819,7 +819,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Raytracing}}
 
 
-{{defn|defn=[http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29 Ray tracing]}}
+{{defn|defn=[http   *//en.wikipedia.org/wiki/Ray_tracing_%28graphics%29 Ray tracing]}}
 
 
 {{term|Revolve}}
@@ -831,7 +831,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Robot}}
 
 
-{{defn|defn=[http://en.wikipedia.org/wiki/Industrial_robot Industrial robot]}}
+{{defn|defn=[http   *//en.wikipedia.org/wiki/Industrial_robot Industrial robot]}}
 
 
 {{term|Rotate}}
@@ -851,7 +851,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Section}}
 
 
-{{defn|defn=[http://en.wikipedia.org/wiki/Cross_section_%28geometry%29 Cross section (geometry)]}}
+{{defn|defn=[http   *//en.wikipedia.org/wiki/Cross_section_%28geometry%29 Cross section (geometry)]}}
 
 
 {{term|Self Intersection}}
@@ -893,7 +893,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Smooth Line}}
 
 
-{{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [http://www.freecadweb.org/wiki/index.php?title=Drawing_View#Modify_an_existing_view Drawing View]}}
+{{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [http   *//www.freecadweb.org/wiki/index.php?title=Drawing_View#Modify_an_existing_view Drawing View]}}
 
 
 {{term|Solid}}
@@ -929,13 +929,13 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|SVG|content=[[SVG]]}}
 
 
-{{defn|[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
+{{defn|[https   *//en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
 
 
 {{term|Sweep}}
 
 
-{{defn|defn=A 3D shape generated from at least one 2D cross-section that traces along a trajectory (path). Commonly used to define the tool as well as the created shape. See [http://en.wikipedia.org/wiki/Solid_modeling#Sweeping Solid modeling]}}
+{{defn|defn=A 3D shape generated from at least one 2D cross-section that traces along a trajectory (path). Commonly used to define the tool as well as the created shape. See [http   *//en.wikipedia.org/wiki/Solid_modeling#Sweeping Solid modeling]}}
 
 
 {{glossend}}
@@ -955,7 +955,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Tasks tab}}
 
 
-{{defn|defn=A [https://en.wikipedia.org/wiki/Panel_(computer_software) control panel] in FreeCAD that displays content specific to the task at hand. It can show available tools in the active [workbench](#Workbench.md) or prompt for values and options while a [command](#Command.md) is active.}}
+{{defn|defn=A [https   *//en.wikipedia.org/wiki/Panel_(computer_software) control panel] in FreeCAD that displays content specific to the task at hand. It can show available tools in the active [workbench](#Workbench.md) or prompt for values and options while a [command](#Command.md) is active.}}
 
 
 {{term|Tessellation}}
@@ -982,7 +982,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Topological Naming}}
 
 
-{{defn|A scheme whereby an edge or face, once created, is assigned a permanent name.  Internally, FreeCAD identifies edges and faces on a solid by numbering them such as: Edge1, Edge2, Face1, Face2, etc. The problem is that these IDs are somewhat randomly applied, and they will change after something is done to the model that changes the amount of edges and faces.  For example, if the model is revised an item linked to a Face2 could later erroneously become linked to a different face (which was renamed to become the new Face2), causing the user unwanted results.  As of the FreeCAD 0.17 release Topological Naming has not yet been implemented, and so if an object is modified such that the number of edges or faces changes, the names of the edges or faces of that object might change too.}}
+{{defn|A scheme whereby an edge or face, once created, is assigned a permanent name.  Internally, FreeCAD identifies edges and faces on a solid by numbering them such as   * Edge1, Edge2, Face1, Face2, etc. The problem is that these IDs are somewhat randomly applied, and they will change after something is done to the model that changes the amount of edges and faces.  For example, if the model is revised an item linked to a Face2 could later erroneously become linked to a different face (which was renamed to become the new Face2), causing the user unwanted results.  As of the FreeCAD 0.17 release Topological Naming has not yet been implemented, and so if an object is modified such that the number of edges or faces changes, the names of the edges or faces of that object might change too.}}
 
 
 {{term|Torus}}
@@ -1040,7 +1040,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Vertex}}
 
 
-{{defn|defn=A lone [point](#Point.md) in space, or the corner of a [shape](#shape.md) where [edges](#Edge.md) meet. The open Cascade Technology defines it, as a zero dimensional [shape](#shape.md) corresponding to a point in geometry. [ see OCCT Profile: Defining the topology](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md)}}
+{{defn|defn=A lone [point](#Point.md) in space, or the corner of a [shape](#shape.md) where [edges](#Edge.md) meet. The open Cascade Technology defines it, as a zero dimensional [shape](#shape.md) corresponding to a point in geometry. [ see OCCT Profile   * Defining the topology](https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md)}}
 
 
 {{term|Vertices}}
@@ -1072,7 +1072,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Wire}}
 
 
-{{defn|no=1|A sequence of connected [edges](#Edge.md) by [vertices](#Vertex.md). The term wire is used in this sense mainly by Open Cascade Technology [[https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3]]and therefore also inside of FreeCAD.}}
+{{defn|no=1|A sequence of connected [edges](#Edge.md) by [vertices](#Vertex.md). The term wire is used in this sense mainly by Open Cascade Technology [[https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3]]and therefore also inside of FreeCAD.}}
 
 
 {{defn|no=2|A [Draft](Draft_Workbench.md) [workbench](#Workbench.md) command that creates a parametric wire.}}
@@ -1127,6 +1127,14 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+
+
+
+
+
+[Category   *Wiki](Category_Wiki.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

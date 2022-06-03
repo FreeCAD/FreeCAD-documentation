@@ -1,37 +1,38 @@
 ---
-- GuiCommand:
-   Name:Std ViewRight
-   MenuLocation:View → Standard views → Right
-   Workbenches:All
-   Shortcut:**3**
-   SeeAlso:[Std ViewFront](Std_ViewFront.md), [Std ViewTop](Std_ViewTop.md)
+- GuiCommand   */pl
+   Name   *Std ViewRight
+   Name/pl   *Std   * Widok od prawej
+   MenuLocation   *Widok → Widoki standardowe → Od prawej
+   Workbenches   *wszystkie
+   Shortcut   ***3**
+   SeeAlso   *[Widok od przodu](Std_ViewFront/pl.md), [Widok od góry](Std_ViewTop/pl.md)
 ---
 
 # Std ViewRight/pl
 
-## Description
+## Opis
 
-The **Std ViewRight** command points the camera in the active [3D view](3D_view.md) in the direction of the negative X axis.
+Polecenie **Widok od prawej** ustawia ujęcie widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) w kierunku ujemnym osi X.
 
 ![](images/FreeCAD_views_front.svg ) 
-*Arrow 3 points in the direction of the right view*
+*Strzałka 3 wskazuje kierunek widoku z prawej.*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewRight.svg" width=16px> [Std ViewRight](Std_ViewRight.md)** button.
-    -   Select the **View → Standard views → <img src="images/Std_ViewRight.svg" width=16px> Right** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewRight.svg" width=16px> Right** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **3**.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_ViewRight.svg" width=16px> [Od prawej](Std_ViewRight/pl.md)**.
+    -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewRight.svg" width=16px> Od prawej**.
+    -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewRight.svg" width=16px> Od prawej**.
+    -   Użyj skrótu klawiaturowego   * **3**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change to right view use the `viewRight` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok *Od prawej*, należy użyć metody `viewRight` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

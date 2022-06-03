@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/tr
-   Name:Draft BSpline
-   Name/tr:BSpline
-   MenuLocation:Taslak → BSpline
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**B** **S**
-   Version:0.7
-   SeeAlso:[Tel](Draft_Wire/tr.md),[Bezier eğrisi](Draft_BezCurve/tr.md)
+- GuiCommand   */tr
+   Name   *Draft BSpline
+   Name/tr   *BSpline
+   MenuLocation   *Taslak → BSpline
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut   ***B** **S**
+   Version   *0.7
+   SeeAlso   *[Tel](Draft_Wire/tr.md),[Bezier eğrisi](Draft_BezCurve/tr.md)
 ---
 
 # Draft BSpline/tr
@@ -18,7 +18,7 @@
 
 ## Açıklama
 
-BSpline aracı, mevcut [ Çalışma düzleminde](Draft_SelectPlane/tr.md) birçok noktadan [B-Spline eğrisi](http://en.wikipedia.org/wiki/B-spline) oluşturur.[Tepsi](Draft_Tray/tr.md) \'de ayarlanan [Çizgi stili](Draft_Linestyle/tr.md) alır.
+BSpline aracı, mevcut [ Çalışma düzleminde](Draft_SelectPlane/tr.md) birçok noktadan [B-Spline eğrisi](http   *//en.wikipedia.org/wiki/B-spline) oluşturur.[Tepsi](Draft_Tray/tr.md) \'de ayarlanan [Çizgi stili](Draft_Linestyle/tr.md) alır.
 
 
 </div>
@@ -31,12 +31,12 @@ BSpline aracı, eğrinin geçeceği noktaları belirtir; Öte yandan, [Bezier e�
 
 </div>
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;"> 
 *Spline birçok noktayla tanımlanır*
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -82,8 +82,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   **Dolu** moduna geçmek için **L** tuşuna basın veya onay kutusunu tıklayın. Dolu mod açıksa, kapalı bir eğri dolu bir yüz oluşturur ({{PropertyData/tr|Yüz yapmak}} `True`); Aksi halde, kapalı spline bir surat yapmaz ({{PropertyData/tr|Yüz yapmak}} `False`).
 
-:   
-    **Note:**Spline uygun bir yüz oluşturmayacağından kendisiyle kesiştiği takdirde doldurulmamalıdır. Spline doldurulur ancak şekli görünmüyorsa, spline\'ı görmek için {{PropertyData/tr|Yüz yapmak}} \'i `False`\' e manuel olarak ayarlayın.
+   *   
+    **Note   ***Spline uygun bir yüz oluşturmayacağından kendisiyle kesiştiği takdirde doldurulmamalıdır. Spline doldurulur ancak şekli görünmüyorsa, spline\'ı görmek için {{PropertyData/tr|Yüz yapmak}} \'i `False`\' e manuel olarak ayarlayın.
 
 -   [snapping](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken **Ctrl** tuşunu basılı tutun.
 -   Bir sonraki noktanızı yatay veya dikey olarak son noktaya göre [sınırlamak](Draft_Constrain/tr.md) çizerken **Shift** tuşunu basılı tutun.
@@ -105,16 +105,16 @@ BSpline aracı [Tel](Draft_Wire/tr.md) aracı gibi davranır, ancak bölümlerin
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Özellikler
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -126,11 +126,11 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Veri
 
--    {{PropertyData/tr|Closed}}: Spline\'ın kapalı olup olmadığını belirtir. Spline başlangıçta açıksa, bu değer `False`; `True` olarak ayarlamak, spline\'ı kapatmak için bir eğri parçası çizecektir. Spline başlangıçta kapatılırsa, bu değer `True`; `False` olarak ayarlamak, son eğri parçasını kaldıracak ve spline\'ı açacaktır.
+-    {{PropertyData/tr|Closed}}   * Spline\'ın kapalı olup olmadığını belirtir. Spline başlangıçta açıksa, bu değer `False`; `True` olarak ayarlamak, spline\'ı kapatmak için bir eğri parçası çizecektir. Spline başlangıçta kapatılırsa, bu değer `True`; `False` olarak ayarlamak, son eğri parçasını kaldıracak ve spline\'ı açacaktır.
 
--    {{PropertyData/tr|Make Face}}: Spline\'ın bir surat yapıp yapmayacağını belirtir. Eğer `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir. Bu özellik yalnızca {{PropertyData/tr|Closed}} `True` ise çalışır. : **Not:**, eğer spline uygun bir yüz oluşturmayacağından kendisiyle kesiştiğinde {{PropertyData/tr|Make Face}} ayarını `True` olarak ayarlamayın.
+-    {{PropertyData/tr|Make Face}}   * Spline\'ın bir surat yapıp yapmayacağını belirtir. Eğer `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir. Bu özellik yalnızca {{PropertyData/tr|Closed}} `True` ise çalışır.    * **Not   ***, eğer spline uygun bir yüz oluşturmayacağından kendisiyle kesiştiğinde {{PropertyData/tr|Make Face}} ayarını `True` olarak ayarlamayın.
 
--    {{PropertyData/tr|Parameterization}}: BSpline\'ın şeklini etkiler.
+-    {{PropertyData/tr|Parameterization}}   * BSpline\'ın şeklini etkiler.
 
 
 </div>
@@ -145,15 +145,15 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Görünüm
 
--    {{PropertyView/tr|Arrow Size}}: spline sonunda görüntülenen sembolün boyutunu belirtir.
+-    {{PropertyView/tr|Arrow Size}}   * spline sonunda görüntülenen sembolün boyutunu belirtir.
 
--    {{PropertyView/tr|Arrow Type}}: spline sonunda \"Dot\", \"Circle\", \"Arrow\" veya \"Tick\" olabilen sembol tipini belirtir.
+-    {{PropertyView/tr|Arrow Type}}   * spline sonunda \"Dot\", \"Circle\", \"Arrow\" veya \"Tick\" olabilen sembol tipini belirtir.
 
--    {{PropertyView/tr|End Arrow}}: Spline\'ın son noktasında bir sembol gösterilip gösterilmeyeceğini belirtir, böylece bir açıklama satırı olarak kullanılabilir.
+-    {{PropertyView/tr|End Arrow}}   * Spline\'ın son noktasında bir sembol gösterilip gösterilmeyeceğini belirtir, böylece bir açıklama satırı olarak kullanılabilir.
 
--    {{PropertyView/tr|Pattern}}: kapalı bir spline\'ın yüzünü doldurmak için bir [Draft Pattern](Draft_Pattern.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
+-    {{PropertyView/tr|Pattern}}   * kapalı bir spline\'ın yüzünü doldurmak için bir [Draft Pattern](Draft_Pattern.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
 
--    {{PropertyView/tr|Pattern Size}}: [Taslak Deseni](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
+-    {{PropertyView/tr|Pattern Size}}   * [Taslak Deseni](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
 
 
 </div>
@@ -166,7 +166,7 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -176,7 +176,7 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 <div class="mw-translate-fuzzy">
 
-BSpline aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
+BSpline aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
 
 
 </div>
@@ -206,7 +206,7 @@ bspline = make_bspline(Part.Wire, closed=False, placement=None, face=None, suppo
 
 <div class="mw-translate-fuzzy">
 
-Örnek:
+Örnek   *
 
 
 </div>

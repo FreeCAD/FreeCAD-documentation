@@ -20,13 +20,7 @@ Dreht das ausgewählte Objekt um eine gegebene Achse. Die folgenden Formtypen si
   Fläche        Volumenkörper
   Hülle         Volumenkörperverbund (Compsolid)
 
-
-<div class="mw-translate-fuzzy">
-
-Volumenkörper oder Verbundkörper sind nicht als Eingabeform zulässig. Normale Verbünde sind derzeit ebenfalls nicht zulässig. Zukünftige Versionen werden den tatsächlichen Formtyp von Verbundobjekten prüfen.
-
-
-</div>
+Eine [Skizze](Sketcher_Workbench/de.md) kann auch verwendet werden. Volumenkörper oder Verbundkörper sind nicht als Eingabeformen zulässig. Normale Verbünde sind derzeit ebenfalls nicht zulässig.
 
 ![](images/Dialog-revolve.png )
 
@@ -36,16 +30,8 @@ Wenn Du eine benutzerdefinierte Achse wählst, definieren die Zahlen die Richtun
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-### Anmerkungen
-
--   Wenn deine FreeCAD Version ein Kontrollkästchen für Volumenkörper im Dialogfeld Drehen hat, kannst du auch Volumenkörper aus geschlossenen Drähten und Kanten herstellen.
--   Wenn das Drehen mit einer Achse durchgeführt wird, die die zu drehende Fläche schneidet, und du einen Volumenkörper erzeugen möchtest, ist das Ergebnis möglicherweise ungültig. Dies kann aus verschiedenen Gründen geschehen, z.B. Selbstüberschneidung, Richtung usw.
-
-
-</div>
+-   [App-Link](App_Link/de.md)-Objekte, die mit geeigneten Objektarten verknüpft sind, können auch als Formen und zum Festlegen der Achse verwendet werden. <small>(v0.20)</small> 
+-   Wenn das zu drehende Objekt die Drehachse schneidet, wird die Ausführung in den meisten Fällen scheitern.
 
 
 

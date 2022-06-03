@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Sketcher ConstrainParallel
-   Name/es:Croquizador RestringirParallel
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquis → Restricciones del Croquizador → Restringir Paralela
-   Shortcut:**Shift** + **P**
-   SeeAlso:[Croquizador Restriccion Vertical](Sketcher_ConstrainVertical/es.md), [Croquizador Restriccion Horizontal](Sketcher_ConstrainHorizontal/es.md)
+- GuiCommand   */es
+   Name   *Sketcher ConstrainParallel
+   Name/es   *Croquizador RestringirParallel
+   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation   *Croquis → Restricciones del Croquizador → Restringir Paralela
+   Shortcut   ***Shift** + **P**
+   SeeAlso   *[Croquizador Restriccion Vertical](Sketcher_ConstrainVertical/es.md), [Croquizador Restriccion Horizontal](Sketcher_ConstrainHorizontal/es.md)
 ---
 
 # Sketcher ConstrainParallel/es
@@ -21,23 +21,23 @@ La Restricción Paralela fuerza que dos líneas rectas o aristas sean paralelas 
 
 El croquis contiene dos líneas de orientación aleatoria.
 
-<img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
+<img alt="" src=images/ConstrainParallel1.png  style="width   *500px;">
 
 
 
 *Seleccione ambas líneas haciendo clic sucesivamente en cada una de ellas.*
 
-<img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
+<img alt="" src=images/ConstrainParallel2.png  style="width   *500px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Aplica la Restricción Paralela seleccionando el icono <img alt="" src=images/Constraint_Parallel.png  style="width:16px;"> de la barra de herramientas de restricciones o seleccionando la Restricción Paralela del submenú de restricciones del entorno del Croquizador (con el entorno del Croquizador seleccionado) o del entorno de Diseño de Piezas (con el entorno de Diseño de Piezas seleccionado).
+Aplica la Restricción Paralela seleccionando el icono <img alt="" src=images/Constraint_Parallel.png  style="width   *16px;"> de la barra de herramientas de restricciones o seleccionando la Restricción Paralela del submenú de restricciones del entorno del Croquizador (con el entorno del Croquizador seleccionado) o del entorno de Diseño de Piezas (con el entorno de Diseño de Piezas seleccionado).
 
 
 </div>
 
-<img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
+<img alt="" src=images/ConstrainParallel3.png  style="width   *500px;">
 
 
 <div class="mw-translate-fuzzy">

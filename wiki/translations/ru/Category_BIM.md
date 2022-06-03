@@ -1,6 +1,8 @@
 # Category:BIM/ru
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/ru](Category   *User_Documentation/ru.md)
+
 ### Contents
 
 |     |     |     |

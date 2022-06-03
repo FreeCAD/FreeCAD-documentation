@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic:Ship Workbench
-   Level: Beginner
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */es
+   Topic   *Ship Workbench
+   Level   * Beginner
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # FreeCAD-Ship s60 tutorial (II)/es
@@ -18,13 +18,13 @@
 
 Antes de empezar este tutorial, asegúrate de que ya has realizado [la primera parte](FreeCAD-Ship_s60_tutorial/es.md).
 
-Aprende más sobre el ambiente de trabajo de la nave en su página wiki dedicada: [Ambiente de trabajo Nave](Ship_Workbench/es.md)
+Aprende más sobre el ambiente de trabajo de la nave en su página wiki dedicada   * [Ambiente de trabajo Nave](Ship_Workbench/es.md)
 
 ## Introducción
 
 En el tutorial anterior nos centramos en cálculos hidrostáticos, mientras que en el presente tutorial comenzaremos a trabajar con pesos, aprendiendo a definir los pesos del nave y sus tanques, para así poder calcular la curva de GZ, que es el parámetro hidrostático más importante en cuanto a estabilidad transversal del buque se refiere. GZ es el brazo del momento estático generado cuando el buque adquiere una escora. Por supuesto siempre que GZ sea positivo, el nave tendrá un momento adrizante que tratará de reponer la situación de equilibrio anterior a la escora, pero cuando GZ se torna negativo la estabilidad del buque se habrá agotado, tendiendo éste a dar la vuelta buscando un nuevo equilibrio.
 
-La IMO (Organización Marítima Internacional) establece los siguientes criterios mínimos de estabilidad transversal:
+La IMO (Organización Marítima Internacional) establece los siguientes criterios mínimos de estabilidad transversal   *
 
 -   *GM* \>= 0.15 m. *GM* (altura metacéntrica) es la tangente inicial de la curva de *GZ*.
 -   El valor máximo de *GZ* se debe dar a escoras superiores a 30 grados.
@@ -37,7 +37,7 @@ En este tutorial vamos a configurar los pesos y los depósitos de nuestra nave d
 
 ## Pesos del buque 
 
-De cara a poder calcular la curva de GZ se necesita conocer el peso del buque, y la posición del centro de gravedad para cada ángulo de escora. de tal forma que los pesos se pueden dividir en dos categorías:
+De cara a poder calcular la curva de GZ se necesita conocer el peso del buque, y la posición del centro de gravedad para cada ángulo de escora. de tal forma que los pesos se pueden dividir en dos categorías   *
 
 -   Pesos fijos que se mueven solidariamente con el nave.
 -   Tanques, cuyo líquido en su interior modifica su forma desplazando el centro de gravedad, siendo necesario recalcularlo para ángulo de escora.
@@ -54,12 +54,12 @@ Icono de la herramienta de definición de pesos.
 
 </center>
 
-La herramienta de definición de pesos puede utilizarse para establecer la primera categoría de pesos. Cuando se lanza la herramienta por primera vez (con la instancia del nave seleccionada), la mesa de trabajo del nave inicializa los pesos del nave con el nave ligero (igual al desplazamiento del nave) que se coloca en la coordenada X del centro de gravedad del nave, y a la altura del calado de diseño. Normalmente hay al menos 2 pesos relevantes:
+La herramienta de definición de pesos puede utilizarse para establecer la primera categoría de pesos. Cuando se lanza la herramienta por primera vez (con la instancia del nave seleccionada), la mesa de trabajo del nave inicializa los pesos del nave con el nave ligero (igual al desplazamiento del nave) que se coloca en la coordenada X del centro de gravedad del nave, y a la altura del calado de diseño. Normalmente hay al menos 2 pesos relevantes   *
 
 -   Estructura.
 -   Motor principal (o varios de ellos).
 
-Así que vamos a cambiarlo. Haciendo doble clic sobre cada celda podemos editar el valor, estableciendo los pesos:
+Así que vamos a cambiarlo. Haciendo doble clic sobre cada celda podemos editar el valor, estableciendo los pesos   *
 
 -   Estructura, 15000 kg, (-0,1, 0, 1,25) m
 -   Motor de estribor, 5000 kg, (-6,5, -0,65, 0,5) m
@@ -76,7 +76,7 @@ Vista previa de los pesos.
 
 </center>
 
-La posición de los pesos se muestra en la [vista 3D](3D_view/es.md). Nota: las anotaciones se eliminarán cuando se cierre la herramienta. Al pulsar **Aceptar** los pesos se almacenarán en la instancia de su nave.
+La posición de los pesos se muestra en la [vista 3D](3D_view/es.md). Nota   * las anotaciones se eliminarán cuando se cierre la herramienta. Al pulsar **Aceptar** los pesos se almacenarán en la instancia de su nave.
 
 ## Tanques
 
@@ -102,7 +102,7 @@ Geometría del tanque generada.
 
 Para generar la geometría del tanque de babor simplemente seleccionamos nuestro tanque a estribor y ejecutamos la herramienta de simetría, tomando XZ como plano de simetría.
 
-Para convertir las geometrías en el tipo convencional simplemente cargamos el [módulo de esbozado](Draft_Workbench/es.md), y ejecutamos promocionar sobre cada una de las geometrías generadas. Podemos renombrar las geometrías como:
+Para convertir las geometrías en el tipo convencional simplemente cargamos el [módulo de esbozado](Draft_Workbench/es.md), y ejecutamos promocionar sobre cada una de las geometrías generadas. Podemos renombrar las geometrías como   *
 
 -   StarboardTankGeom
 -   BoardTankGeom
@@ -179,7 +179,7 @@ Con la instancia buque seleccionada lanzamos la herramienta. Lo primero que enco
 
 </div>
 
-La herramienta puede informarnos sobre el calado y el desplazamiento resultantes, para lo que presionamos sobre **Actualizar desplazamiento y calado**, operación que puede tomar algún tiempo. Recibiremos la siguiente información:
+La herramienta puede informarnos sobre el calado y el desplazamiento resultantes, para lo que presionamos sobre **Actualizar desplazamiento y calado**, operación que puede tomar algún tiempo. Recibiremos la siguiente información   *
 
 -   Desplazamiento = 37505.5 kg
 -   Calado = 0.818664 m
@@ -194,7 +194,7 @@ Luego nos encontramos en una situación de carga de poco desplazamiento, puesto 
 
 La herramienta también puede calcular automáticamente el trimado del buque (presionando sobre **Auto**), operación que puede tomar alrededor de un minuto en éste caso. En este caso el buque tomaría un trimado de 0.95 grados por popa. Nosotros no consideraremos trimado ninguno (0 grados).
 
-También debemos introducir los ángulos de escora a considerar. En este ejemplo queremos conocer el comportamiento del buque a cualquier ángulo, luego establecemos los siguientes valores:
+También debemos introducir los ángulos de escora a considerar. En este ejemplo queremos conocer el comportamiento del buque a cualquier ángulo, luego establecemos los siguientes valores   *
 
 -   0 grados de escora inicial.
 -   180 grados de escora final.
@@ -208,18 +208,18 @@ Al aceptar la herramienta comienza a calcular. Si arrancaste FreeCAD desde una t
 
 </div>
 
-La herramienta emplea [pyxplot](http://www.pyxplot.org.uk/) y [ghostscript](http://www.ghostscript.com/), al igual que el generador de curvas de áreas o el de hidrostáticas. Puede encontrar el archivo **gz.dat** generado en el directorio que se indica en la vista de informe (Vista/Vistas/Vista de informe), pudiendo cargar este archivo desde un programa de hojas de cálculo (por ejemplo [libreOffice](http://www.libreoffice.org)). Junto al archivo de salida se situán algunos archivos adicionales:
+La herramienta emplea [pyxplot](http   *//www.pyxplot.org.uk/) y [ghostscript](http   *//www.ghostscript.com/), al igual que el generador de curvas de áreas o el de hidrostáticas. Puede encontrar el archivo **gz.dat** generado en el directorio que se indica en la vista de informe (Vista/Vistas/Vista de informe), pudiendo cargar este archivo desde un programa de hojas de cálculo (por ejemplo [libreOffice](http   *//www.libreoffice.org)). Junto al archivo de salida se situán algunos archivos adicionales   *
 
--   **gz.dat**: Datos de la curva de GZ.
--   **gz.pyxplot**: Guión para pyxplot para la generación de la figura.
--   **gz.eps**: Imagen en formato EPS.
--   **gz.png**: Imagen en formato PNG.
+-   **gz.dat**   * Datos de la curva de GZ.
+-   **gz.pyxplot**   * Guión para pyxplot para la generación de la figura.
+-   **gz.eps**   * Imagen en formato EPS.
+-   **gz.png**   * Imagen en formato PNG.
 
 Estos archivos se sobreescribirán la próxima vez que lance la herramienta, luego cópielos en otro lugar si desea conservarlos.
 
 ### Resultados
 
-<img alt="Curva de GZ." src=images/FreeCAD-Ship-s60GZ.png  style="width:800px;">
+<img alt="Curva de GZ." src=images/FreeCAD-Ship-s60GZ.png  style="width   *800px;">
 
 
 <center>
@@ -252,6 +252,8 @@ Por supuesto este ejemplo no es real, entre otras cosas porque no se pueden llev
 
 
 </div>
+
+[Category   *Ship](Category_Ship.md)
 
 
 

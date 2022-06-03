@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pt-br
-   Name:Sketcher NewSketch
-   Name/pt-br:Criar um esboço
-   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)
-   MenuLocation:Sketch → Criar um esboço
-   SeeAlso:[Mapear um esboço para uma face](Sketcher_MapSketch/pt-br.md), [Reorientar um esboço...](Sketcher_ReorientSketch/pt-br.md)
+- GuiCommand   */pt-br
+   Name   *Sketcher NewSketch
+   Name/pt-br   *Criar um esboço
+   Workbenches   *[Sketcher](Sketcher_Workbench/pt-br.md)
+   MenuLocation   *Sketch → Criar um esboço
+   SeeAlso   *[Mapear um esboço para uma face](Sketcher_MapSketch/pt-br.md), [Reorientar um esboço...](Sketcher_ReorientSketch/pt-br.md)
 ---
 
 # Sketcher NewSketch/pt-br
@@ -16,7 +16,7 @@
 
 This will create a new [sketch](Sketcher_Workbench.md).
 
-Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
+Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
 
 ## Usage
 

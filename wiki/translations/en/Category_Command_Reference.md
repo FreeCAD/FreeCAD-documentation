@@ -1,6 +1,8 @@
 # Category:Command Reference/en
 This category contains the help pages of each of FreeCAD [command/en](command/en.md).
 
+[Category   *Categories/en](Category   *Categories/en.md)
+
 ### Contents
 
 |     |     |     |

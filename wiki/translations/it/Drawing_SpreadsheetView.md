@@ -1,6 +1,6 @@
 # Drawing SpreadsheetView/it
 ---
-- GuiCommand:/it   Name:Drawing SpreadsheetView   Name/it:Vista foglio di calcolo   Workbenches:[[Drawing Workbench/it   Drawing]]|MenuLocation:Drawing → Vista foglio di calcolo---
+- GuiCommand   */it   Name   *Drawing SpreadsheetView   Name/it   *Vista foglio di calcolo   Workbenches   *[[Drawing Workbench/it   Drawing]]|MenuLocation   *Drawing → Vista foglio di calcolo---
 
 
 </div>
@@ -15,7 +15,7 @@ Questo strumento consente di posizionare una vista di un [foglio di calcolo](Spr
 
 </div>
 
-<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:640px;">
+<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width   *640px;">
 
 ## Utilizzo
 
@@ -25,17 +25,17 @@ Questo strumento consente di posizionare una vista di un [foglio di calcolo](Spr
 
 ## Proprietà
 
--    **Cell Start**: La cella in alto a sinistra della gamma di celle da includere in questa vista
+-    **Cell Start**   * La cella in alto a sinistra della gamma di celle da includere in questa vista
 
--    **Cell End**: La cella in basso a destra della gamma di celle da includere in questa vista
+-    **Cell End**   * La cella in basso a destra della gamma di celle da includere in questa vista
 
--    **Font**: Il nome del font utilizzato per i testi
+-    **Font**   * Il nome del font utilizzato per i testi
 
--    **Color**: Il colore delle linee e dei testi che non hanno il colore specificato nel foglio di calcolo
+-    **Color**   * Il colore delle linee e dei testi che non hanno il colore specificato nel foglio di calcolo
 
--    **Font Size**: La dimensione del carattere dei testi
+-    **Font Size**   * La dimensione del carattere dei testi
 
--    **Line Width**: La larghezza dei bordi delle celle
+-    **Line Width**   * La larghezza dei bordi delle celle
 
 
 <div class="mw-translate-fuzzy">

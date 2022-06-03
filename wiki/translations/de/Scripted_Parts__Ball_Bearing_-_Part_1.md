@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic: Part Scripting - Ball Bearing #1
-   Level: Beginner
-   Time: 30 min
-   Author:r-frank
-   FCVersion:0.16.6706
-   Files:
+- TutorialInfo   */de
+   Topic   * Part Scripting - Ball Bearing #1
+   Level   * Beginner
+   Time   * 30 min
+   Author   *r-frank
+   FCVersion   *0.16.6706
+   Files   *
 }}
 
 ### Einleitung
@@ -13,8 +13,8 @@
 Dieses Tutorial ist gedacht als Einführung wie man Modelle erstellt mit Hilfe von Python Skripten innerhalb von FreeCAD.
 Dieses Tutorial erklärt wie man ein Kugellager erstellt mittels eines CSG-Arbeitsablaufes.
 Der Code wird ein neues FreeCAD-Dokument erstellen mit 12 einzelnen Körpern (Innerer Ring, äußerer Ring und 10 Kugeln).
-Das Ergebnis sieht so aus:
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
+Das Ergebnis sieht so aus   *
+<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width   *400px;">
 
 ### Arbeitsablauf
 
@@ -43,23 +43,23 @@ Deshalb müssen wir die Kanten auswählen BEVOR wir die Rille für die Kugeln he
 ### Bemerkungen
 
 Dieses Tutorial benutzt Grundkörper und boolsche Operationen, welche sehr rechenintensiv sein können.
-Um zu sehen, wie man einen Körper mittels rotierten Skizzen erstellt, werfen Sie bitte einen Blick auf das Tutorial [Scripted Parts: Ball Bearing - Part 2/de](Scripted_Parts:_Ball_Bearing_-_Part_2/de.md).
+Um zu sehen, wie man einen Körper mittels rotierten Skizzen erstellt, werfen Sie bitte einen Blick auf das Tutorial [Scripted Parts   * Ball Bearing - Part 2/de](Scripted_Parts   *_Ball_Bearing_-_Part_2/de.md).
 
 ### Links
 
-[Scripted objects](Scripted_objects.md): Diese Wiki-Seite erklärt die Grundlagen für part scripting
-[Topological data scripting](Topological_data_scripting.md): Ein Tutorial für die Grundlagen des part scriptings
-[Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md): Erstellen des Modelles mittels Skizzen
-[Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html): Basis für dieses Tutorial, vielen Dank an JMG \...
+[Scripted objects](Scripted_objects.md)   * Diese Wiki-Seite erklärt die Grundlagen für part scripting
+[Topological data scripting](Topological_data_scripting.md)   * Ein Tutorial für die Grundlagen des part scriptings
+[Scripted Parts   * Ball Bearing - Part 2](Scripted_Parts   *_Ball_Bearing_-_Part_2.md)   * Erstellen des Modelles mittels Skizzen
+[Bearing Script 1](http   *//linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)   * Basis für dieses Tutorial, vielen Dank an JMG \...
 
 ### Code
 
 
-{{Code   code:
+{{Code   code   *
 ## Ball-bearing Skript
 ## 11.08.2016 von r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## basierend auf dem ball bearing script by JMG
-## (http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
+## (http   *//linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
 #
 #um Grundkoerper einzufuegen
 import Part
@@ -123,7 +123,7 @@ OuterRing=ORF.cut(T2)
 Part.show(OuterRing)
 #
 #Kugeln#
-for i in range(NBall):
+for i in range(NBall)   *
   Ball=Part.makeSphere(RBall)
   Alpha=(i*2*math.pi)/NBall
   BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
@@ -142,7 +142,9 @@ Gui.SendMsgToActiveView("ViewFit")
 
 {{Powerdocnavi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

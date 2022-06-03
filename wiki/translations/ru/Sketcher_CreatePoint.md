@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name:Sketcher CreatePoint
-   Name/ru:Точка
-   MenuLocation:Эскиз → Геометрия эскиза → Точка
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+- GuiCommand   */ru
+   Name   *Sketcher CreatePoint
+   Name/ru   *Точка
+   MenuLocation   *Эскиз → Геометрия эскиза → Точка
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher CreatePoint/ru
@@ -21,7 +21,7 @@
 
 </div>
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
+[480px\|Point in the sketcher](IMAGE   *Sketcher_Point_fr_01.png.md)
 
 ## Применение
 

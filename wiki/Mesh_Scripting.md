@@ -1,7 +1,7 @@
 # Mesh Scripting
 ## Introduction
 
-To get access to the `Mesh` module you have to import it first:
+To get access to the `Mesh` module you have to import it first   *
 
  
 ```python
@@ -10,21 +10,21 @@ import Mesh
 
 ## Creation
 
-To create an empty mesh object just use the standard constructor:
+To create an empty mesh object just use the standard constructor   *
 
  
 ```python
 mesh = Mesh.Mesh()
 ```
 
-You can also create an object from a file:
+You can also create an object from a file   *
 
  
 ```python
-mesh = Mesh.Mesh("D:/temp/Something.stl")
+mesh = Mesh.Mesh("D   */temp/Something.stl")
 ```
 
-Or create it out of a set of triangles described by their corner points:
+Or create it out of a set of triangles described by their corner points   *
 
  
 ```python
@@ -44,7 +44,7 @@ The Mesh-Kernel takes care of creating a topologically correct data structure by
 
 ## Modeling
 
-To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows:
+To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows   *
 
  
 ```python
@@ -54,7 +54,7 @@ Mesh.show(m)
 
 The first two parameters define the radii of the torus and the third parameter is a sub-sampling factor for how many triangles are created. The higher this value the smoother the mesh.
 
-The `Mesh` module also provides three Boolean methods: `union()`, `intersection()` and `difference()`:
+The `Mesh` module also provides three Boolean methods   * `union()`, `intersection()` and `difference()`   *
 
  
 ```python
@@ -69,7 +69,7 @@ m6 = Mesh.Mesh(m2)
 m6.difference(m1)   # the difference of m2 and m1, usually the result is different to m5
 ```
 
-Here is an example that creates a pipe using the `difference()` method:
+Here is an example that creates a pipe using the `difference()` method   *
 
  
 ```python
@@ -81,7 +81,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh::Feature", "Pipe")
+obj = d.addObject("Mesh   *   *Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -90,13 +90,15 @@ doc.recompute()
 
 ## Notes
 
-An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-See also: [Mesh API](Mesh_API.md).
+See also   * [Mesh API](Mesh_API.md).
 
 
 
-  {{Mesh Tools navi}}
+  {{Mesh Tools navi}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

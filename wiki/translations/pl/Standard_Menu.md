@@ -8,28 +8,24 @@ Standardowe menu daje dostęp do narzędzi, które mogą być używane na wszyst
 
 {{StdMenu
 |
-[Plik](Std_File_Menu.md)
+[Plik](Std_File_Menu/pl.md)
 &nbsp;&nbsp;&nbsp;
-[Edycja](Std_Edit_Menu.md)
+[Edycja](Std_Edit_Menu/pl.md)
 &nbsp;&nbsp;&nbsp;
-[Widok](Std_View_Menu.md)
+[Widok](Std_View_Menu/pl.md)
 &nbsp;&nbsp;&nbsp;
-[Narzędzia](Std_Tools_Menu.md)
+[Przybory](Std_Tools_Menu/pl.md)
 &nbsp;&nbsp;&nbsp;
-[Makro](Std_Macro_Menu.md)
+[Makrodefinicje](Std_Macro_Menu/pl.md)
 &nbsp;&nbsp;&nbsp;
-[Okna](Std_Windows_Menu.md)
+[Okna](Std_Windows_Menu/pl.md)
 &nbsp;&nbsp;&nbsp;
-[Pomoc](Std_Help_Menu.md)
+[Pomoc](Std_Help_Menu/pl.md)
 }}
-
-
-
-*Menu standardowe*
 
 ## Menu podrzędne 
 
-Standardowe menu składa się z 7 podmenu:
+Standardowe menu składa się z 7 podmenu   *
 
 -    {{StdMenu|[Plik](Std_File_Menu/pl.md)}}W menu Plik znajdują się narzędzia związane z obsługą plików źródłowych i docelowych.
 

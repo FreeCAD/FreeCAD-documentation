@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std DlgPreferences
-   Name/fr:Std Préférences
-   MenuLocation:Édition → Préférences...
-   Workbenches:Tous
-   SeeAlso:[Réglage des préférences](Preferences_Editor/fr.md)
+- GuiCommand   */fr
+   Name   *Std DlgPreferences
+   Name/fr   *Std Préférences
+   MenuLocation   *Édition → Préférences...
+   Workbenches   *Tous
+   SeeAlso   *[Réglage des préférences](Preferences_Editor/fr.md)
 ---
 
 # Std DlgPreferences/fr

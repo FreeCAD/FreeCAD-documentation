@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std ViewIvStereoOff
-   Name/fr:Std Stéréo désactivée
-   MenuLocation:Affichage → Stéréo → Désactiver la stéréo
-   Workbenches:Tous
-   SeeAlso:[Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr.md), [Std Tampon stéréo quadruple](Std_ViewIvStereoQuadBuff/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md)
+- GuiCommand   */fr
+   Name   *Std ViewIvStereoOff
+   Name/fr   *Std Stéréo désactivée
+   MenuLocation   *Affichage → Stéréo → Désactiver la stéréo
+   Workbenches   *Tous
+   SeeAlso   *[Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr.md), [Std Tampon stéréo quadruple](Std_ViewIvStereoQuadBuff/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md)
 ---
 
 # Std ViewIvStereoOff/fr
@@ -20,7 +20,7 @@ La commande **Std Stéréo désactivée** désactive le mode stéréo dans la [v
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

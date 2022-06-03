@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std ViewStatusBar
-   Name/fr:Std Barre d'état
-   Empty:1
-   MenuLocation:Affichage → Barre d'état
-   Workbenches:Tous
+- GuiCommand   */fr
+   Name   *Std ViewStatusBar
+   Name/fr   *Std Barre d'état
+   Empty   *1
+   MenuLocation   *Affichage → Barre d'état
+   Workbenches   *Tous
 ---
 
 # Std ViewStatusBar/fr

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic:Plot workbench
-   Level:Intermediate
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */es
+   Topic   *Plot workbench
+   Level   *Intermediate
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # Plot MultiAxes tutorial/es
@@ -28,12 +28,12 @@ Antes de comenzar con el presente tutorial aseguresé de haber completado el [tu
 
 </div>
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Ejemplo de gráfico con múltiples ejes" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+<img alt="Ejemplo de gráfico con múltiples ejes" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
 
 
 <center>
@@ -49,7 +49,7 @@ Ejemplo de gráfico con múltiples ejes.
 
 <div class="mw-translate-fuzzy">
 
-En la imagen anterior tenemos una muestra del aspecto del gráfico que pretendemos trazar. Siguiendo este tutorial usted aprenderá:
+En la imagen anterior tenemos una muestra del aspecto del gráfico que pretendemos trazar. Siguiendo este tutorial usted aprenderá   *
 
 -   A crear gráficos con múltiples ejes desde la consola de Python.
 -   A editar los diferentes juegos de ejes..
@@ -78,7 +78,7 @@ Tal y como hicimos en el [anterior tutorial](Plot_Basic_tutorial/es.md), vamos a
 
 ### Crear los datos 
 
-En este ejemplo trazaremos tres curvas, dos de ellas serán las empleadas en el [tutorial anterior](Plot_Basic_tutorial/es.md), pero añadiremos una más de tipo polinómico. El objetivo es que los rangos de variación de esta función sean diferentes a los de las funciones polinómicas. Para crear todos los vectores de datos necesarios ejecutamos los siguientes comandos:
+En este ejemplo trazaremos tres curvas, dos de ellas serán las empleadas en el [tutorial anterior](Plot_Basic_tutorial/es.md), pero añadiremos una más de tipo polinómico. El objetivo es que los rangos de variación de esta función sean diferentes a los de las funciones polinómicas. Para crear todos los vectores de datos necesarios ejecutamos los siguientes comandos   *
 
 
 </div>
@@ -109,16 +109,16 @@ Al moverse *x* entre 0 y 2, *y* se moverá entre 0 y 4, luego si trataramos de g
 
 ### Trazar las funciones en varios ejes 
 
-En este ejemplo vamos a trazar la curva polinómica en los ejes principales. Si todos los ejes de referencia que usted va a crear tienen el mismo tamaño, no es muy relevante cúal emplea para cada curva, pero en caso de que un juego de ejes sea de menor tamaño (como ocurre en este ejemplo), es muy recomendable dejar los ejes principales (los que se crean por defecto) como los de mayor tamaño, puesto que en ellos se incorpora el fondo blanco. Para graficar la primera curva tan sólo necesitamos recurrir a los siguientes comandos:
+En este ejemplo vamos a trazar la curva polinómica en los ejes principales. Si todos los ejes de referencia que usted va a crear tienen el mismo tamaño, no es muy relevante cúal emplea para cada curva, pero en caso de que un juego de ejes sea de menor tamaño (como ocurre en este ejemplo), es muy recomendable dejar los ejes principales (los que se crean por defecto) como los de mayor tamaño, puesto que en ellos se incorpora el fondo blanco. Para graficar la primera curva tan sólo necesitamos recurrir a los siguientes comandos   *
 
 
 </div>
 
 
 ```python
-try:
+try   *
     from FreeCAD.Plot import Plot
-except ImportError:
+except ImportError   *
     from freecad.plot import Plot
 
 Plot.plot(t,s,r"$\sin\left( 2 \pi t \right)$")
@@ -128,7 +128,7 @@ Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 
 <div class="mw-translate-fuzzy">
 
-En este ejemplo optamos por pasar directamente el título de la serie como parámetro, en lugar de editarlo más tarde. Nótese que la cadena de texto pasada como argumento viene precedida de la letra *r*, lo que le indica a Python que no debe tratar de reinterpretar las sequencias especiales (el símbolo *\\* es muy frecuente en la notación [LaTeX](http://www.latex-project.org)).
+En este ejemplo optamos por pasar directamente el título de la serie como parámetro, en lugar de editarlo más tarde. Nótese que la cadena de texto pasada como argumento viene precedida de la letra *r*, lo que le indica a Python que no debe tratar de reinterpretar las sequencias especiales (el símbolo *\\* es muy frecuente en la notación [LaTeX](http   *//www.latex-project.org)).
 
 
 </div>
@@ -250,7 +250,7 @@ Respecto de la legenda, ésta será única, pero dependiendo de en que juego de 
 
 ### Establecer los títulos 
 
-Puede establecer los títulos de la misma manera que lo hacía en el [anterior tutorial](Plot_Basic_tutorial/es.md). En este caso observará que el número de elementos es mayor, y que puede establecer un título por cada juego de ejes. En el [módulo de graficado de FreeCAD](Plot_Workbench/es.md) se permite establecer un título por cada juego de ejes, aunque en este caso estamos interesados en un único título, por tanto establezca las siguietnes etiquetas:
+Puede establecer los títulos de la misma manera que lo hacía en el [anterior tutorial](Plot_Basic_tutorial/es.md). En este caso observará que el número de elementos es mayor, y que puede establecer un título por cada juego de ejes. En el [módulo de graficado de FreeCAD](Plot_Workbench/es.md) se permite establecer un título por cada juego de ejes, aunque en este caso estamos interesados en un único título, por tanto establezca las siguietnes etiquetas   *
 
 
 </div>
@@ -258,13 +258,13 @@ Puede establecer los títulos de la misma manera que lo hacía en el [anterior t
 
 <div class="mw-translate-fuzzy">
 
-**Axes 0:**
+**Axes 0   ***
 
 -   Title = Multiaxes example
 -   X Label = \$x\$
 -   Y Label = \$\\mathrm{f} \\left( x \\right)\$
 
-**Axes 1:**
+**Axes 1   ***
 
 -   X Label = \$t\$
 -   Y Label = \$\\mathrm{f} \\left( t \\right)\$
@@ -333,7 +333,9 @@ Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) 
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}}
+}} {{Plot_Tools_navi}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

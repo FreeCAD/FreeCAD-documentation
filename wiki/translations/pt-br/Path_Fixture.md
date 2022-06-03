@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Path Fixture
-   MenuLocation:Path → Supplemental Commands → Fixture
-   Workbenches:[Path](Path_Workbench.md)
+- GuiCommand   *
+   Name   *Path Fixture
+   MenuLocation   *Path → Supplemental Commands → Fixture
+   Workbenches   *[Path](Path_Workbench.md)
 ---
 
 # Path Fixture/pt-br
@@ -11,7 +11,7 @@
 
 This tool sets the Work Offset Coordinate Fixture of the machine CNC controller.
 
-Target Work Offset Coordinates typically include: Fixtures G53 to G59. The G-Code is simply the Fixture (G53, G54, etc\...). The coordinate offset fixtures represent:
+Target Work Offset Coordinates typically include   * Fixtures G53 to G59. The G-Code is simply the Fixture (G53, G54, etc\...). The coordinate offset fixtures represent   *
 
 -   G53 → Machine coordinate system.
 -   G54 → Scratchpad coordinate system.
@@ -26,9 +26,9 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 ## Properties
 
--    **Fixture**: Sets the current fixture point
+-    **Fixture**   * Sets the current fixture point
 
--    **Active**: Defines if this command is active or not when inserted into a compound
+-    **Active**   * Defines if this command is active or not when inserted into a compound
 
 ## Notes
 

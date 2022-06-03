@@ -1,18 +1,18 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher ConstrainHorizontal
-   Name/de   *Skizzierer BeschränkeHorizontal
-   MenuLocation   *Skizze → Skizzierer Beschränkungen → Beschränke Horizontal
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Name/de   *Sketcher HorizontalFestlegen
+   MenuLocation   *Sketch → Skizzen-Beschränkungen → Horizontal einschränken
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Shortcut   ***H**
-   SeeAlso   *[Beschränkung Vertikal](Sketcher_ConstrainVertical/de.md)
+   SeeAlso   *[Sketcher VertikalFestlegen](Sketcher_ConstrainVertical/de.md)
 ---
 
 # Sketcher ConstrainHorizontal/de
 
 ## Beschreibung
 
-Die Einschränkung \'Horizontal\' sorgt dafür, dass eine oder mehrere gewählte Linien parallel zur horizontalen Achse der Skizze sind.
+Die Randbedingung HorizontalFestlegen legt fest, dass eine oder mehrere gewählte Linien parallel zur horizontalen Achse der Skizze sind.
 
 ## Anwendung
 
@@ -22,14 +22,8 @@ Die Einschränkung \'Horizontal\' sorgt dafür, dass eine oder mehrere gewählte
 <img alt="" src=images/HorizontalConstraint2.png  style="width   *500px;"> 
 *Die Linie wird dunkelgrün.*
 
-
-<div class="mw-translate-fuzzy">
-
 <img alt="" src=images/HorizontalConstraint3.png  style="width   *500px;"> 
-*Wende die horizontale Beschränkung durch anklicken auf **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width   *16px"> [Beschränkung horizontal](Sketcher_ConstrainHorizontal/de.md)* in der Skizzierer Beschränkungs Werkzeugleiste oder durch Auswahl des Menüpunkts Horizontal beschränken im Untermenü Skizzierer Beschränkungen des Skizzierer Menüpunkts im Skizzierer Arbeitsbereich (oder des Part Design Menüpunkts des Part Design Arbeitsbereichs). Die ausgewählte Linie wird so beschränkt, dass sie parallel zur horizontalen Achse der Skizze verläuft.**
-
-
-</div>
+*Die Randbedingung HorizontalFestlegen durch das Anklicken der Schaltfläche **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width   *16px"> [Horizontal einschränken](Sketcher_ConstrainHorizontal/de.md)* in der Sketcher-Werkzeugleiste für Randbedingungen oder durch Auswahl des Menüeintrags Horizontal einschränken im Untermenü Skizzen-Beschränkungen des Menüpunkts Sketch im Arbeitsbereich Sketcher (oder des Part Design Menüpunkts des Arbeitsbereichs PartDesign). Die ausgewählte Linie wird so festgelegt, dass sie parallel zur horizontalen Achse der Skizze verläuft.**
 
 <img alt="" src=images/HorizontalConstraint4.png  style="width   *500px;"> 
 *Mehrere Linien können ausgewählt werden

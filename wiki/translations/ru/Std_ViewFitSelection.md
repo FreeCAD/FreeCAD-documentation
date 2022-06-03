@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Уместить выделенное
-   Name:Std_ViewFitSelection
-   MenuLocation:Вид → Стандартные виды‏‎ → Уместить выделенное
-   Workbenches:Все
-   Shortcut:**V** **S**
-   SeeAlso:[Уместить всё](Std_ViewFitAll/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Уместить выделенное
+   Name   *Std_ViewFitSelection
+   MenuLocation   *Вид → Стандартные виды‏‎ → Уместить выделенное
+   Workbenches   *Все
+   Shortcut   ***V** **S**
+   SeeAlso   *[Уместить всё](Std_ViewFitAll/ru.md)
 ---
 
 # Std ViewFitSelection/ru
@@ -17,16 +17,16 @@ The **Std ViewFitSelection** command zooms and pans the camera so that all selec
 ## Применение
 
 1.  Select one or more objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Std_ViewFitSelection.svg" width=16px> [Std ViewFitSelection](Std_ViewFitSelection.md)** button.
     -   Select the **View → Standard views → <img src="images/Std_ViewFitSelection.svg" width=16px>Fit selection** option from the menu.
     -   Select the **<img src="images/Std_ViewFitSelection.svg" width=16px> Fit selection** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **V** then **S**.
+    -   Use the keyboard shortcut   * **V** then **S**.
 
 ## Программирование
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

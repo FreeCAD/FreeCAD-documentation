@@ -1,6 +1,6 @@
 # Draft BSpline/cs
 ---
-- GuiCommand:/cs   Name:Draft BSpline   Name/cs:Draft BSpline   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → BSpline   Shortcut:B S   SeeAlso:[Drát](Draft_Wire/cs.md)---
+- GuiCommand   */cs   Name   *Draft BSpline   Name/cs   *Draft BSpline   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Draft → BSpline   Shortcut   *B S   SeeAlso   *[Drát](Draft_Wire/cs.md)---
 
 
 </div>
@@ -12,26 +12,26 @@
 
 ## Popis
 
-Nástroj B-křivka vytváří [B-křivku](http://en.wikipedia.org/wiki/B-spline) z několika bodů v aktuální [pracovní rovině](Draft_SelectPlane/cs.md). Přebírá [tloušťku čáry a barvu](Draft_Linestyle/cs.md) předtím nastavenou v záložce nástrojů. Nástroj B-křivka se chová přesně stejně jako nástroj [Drát](Draft_Wire/cs.md).
+Nástroj B-křivka vytváří [B-křivku](http   *//en.wikipedia.org/wiki/B-spline) z několika bodů v aktuální [pracovní rovině](Draft_SelectPlane/cs.md). Přebírá [tloušťku čáry a barvu](Draft_Linestyle/cs.md) předtím nastavenou v záložce nástrojů. Nástroj B-křivka se chová přesně stejně jako nástroj [Drát](Draft_Wire/cs.md).
 
 
 </div>
 
 The Draft BSpline command specifies the **exact points** through which the curve will pass. The [Draft BezCurve](Draft_BezCurve.md) and the [Draft CubicBezCurve](Draft_CubicBezCurve.md) commands, on the other hand, use **control points** to define the position and curvature of the spline.
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;">
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -80,60 +80,60 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 
 <div class="mw-translate-fuzzy">
 
 ## Vlastnosti
 
--    **Uzavřená**: Specifikuje zda je křivka uzavřená nebo ne
+-    **Uzavřená**   * Specifikuje zda je křivka uzavřená nebo ne
 
--    **Koncová šipka**: Ukazuje sumbol šipky na koncovém bodě křivky, takže ten může být použit jako linka pro vysvělivku
+-    **Koncová šipka**   * Ukazuje sumbol šipky na koncovém bodě křivky, takže ten může být použit jako linka pro vysvělivku
 
--    **Vzor**: Specifikuje šrafovací vzor pro vyplnění drátu
+-    **Vzor**   * Specifikuje šrafovací vzor pro vyplnění drátu
 
--    **Rozměr vzoru**: Specifikuje rozměr šrafovacího vzoru
+-    **Rozměr vzoru**   * Specifikuje rozměr šrafovacího vzoru
 
 
 </div>
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the spline. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
+-    **Area|Area**   * (read-only) specifies the area of the face of the spline. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
 
--    **Closed|Bool**: specifies if the spline is closed or not. If the spline is initially open this value is `False`, setting it to `True` will draw a curve segment to close the spline. If the spline is initially closed this value is `True`, setting it to `False` will remove the last curve segment and make the spline open.
+-    **Closed|Bool**   * specifies if the spline is closed or not. If the spline is initially open this value is `False`, setting it to `True` will draw a curve segment to close the spline. If the spline is initially closed this value is `True`, setting it to `False` will remove the last curve segment and make the spline open.
 
--    **Make Face|Bool**: specifies if the spline makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the spline does not self-intersect.
+-    **Make Face|Bool**   * specifies if the spline makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the spline does not self-intersect.
 
--    **Parameterization|Float**: affects the shape of the spline.
+-    **Parameterization|Float**   * affects the shape of the spline.
 
--    **Points|VectorList**: specifies the points of the spline in its local coordinate system.
+-    **Points|VectorList**   * specifies the points of the spline in its local coordinate system.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the end of the spline.
+-    **Arrow Size|Length**   * specifies the size of the symbol displayed at the end of the spline.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the end of the spline, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**   * specifies the type of symbol displayed at the end of the spline, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
 
--    **End Arrow|Bool**: specifies whether to show a symbol at the end of the spline, so it can be used as an annotation line.
+-    **End Arrow|Bool**   * specifies whether to show a symbol at the end of the spline, so it can be used as an annotation line.
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed spline. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed spline. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
@@ -142,7 +142,7 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ## Skriptování
 
-Nástroj B-křivka může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj B-křivka může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -170,7 +170,7 @@ bspline = make_bspline(Part.Wire, closed=False, placement=None, face=None, suppo
 
 <div class="mw-translate-fuzzy">
 
-Příklad:
+Příklad   *
 
 
 </div>

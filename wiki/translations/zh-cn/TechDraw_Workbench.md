@@ -1,25 +1,25 @@
 # <img alt="TechDraw workbench icon" src=images/Workbench_TechDraw.svg  style="width   *64px;"> TechDraw Workbench/zh-cn
 
-## Introduction
+## 简介
 
-The <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw Workbench](TechDraw_Workbench.md) is used to produce basic technical drawings from 3D models created with another workbench such as [Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md), or [Arch](Arch_Workbench.md), or imported from other applications. Each drawing is a Page, which can contain various Views of drawable objects such as Part   *   *Features, PartDesign   *   *Bodies, App   *   *Part groups, and Document Object groups. The resulting drawings can be used for things like documentation, manufacturing instructions, contracts, permits, etc.
+<img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw 工作台被用来从来自其他工作台](TechDraw_Workbench.md)（比如[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md), 或 [Arch](Arch_Workbench.md)）创建的 或 从其他应用程序导入的3D模型生成基本的技术图纸。每张图纸是一页，可以包含可绘制对象(比如Part   *   *Features, PartDesign   *   *Bodies, App   *   *Part groups 和文档对象组)的各种视图。得到的图纸可被用于诸如文档、制造说明、合同、许可等。
 
-Dimensions, sections, hatched areas, annotations, and [SVG](SVG.md) symbols can be added to the page, which can be further exported to different formats like [DXF](DXF.md), [SVG](SVG.md), and [PDF](PDF.md).
+尺寸标注、剖面、填充区、注解和[SVG符号都可以加到图纸中](SVG.md)，而这些又可以进一步导出到不同的格式，如 [DXF](DXF.md), [SVG](SVG.md), [PDF](PDF.md).
 
-TechDraw was officially included in FreeCAD starting with version 0.17; it is intended to replace the unsupported [Drawing Workbench](Drawing_Workbench.md). Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases. To keep up with TechDraw plans and developments, visit the [TechDraw Roadmap](TechDraw_Roadmap.md).
+TechDraw 自从版本0.17就正式包含在FreeCAD中；他是被用来代替不被支持的[Drawing 工作台的](Drawing_Workbench.md)。这两个工作台在v0.17中都被提供，但Drawing 工作台可能在将来的版本中被移除。要了解TechDraw的计划和发展，请访问[TechDraw 路线图](TechDraw_Roadmap.md)。
 
-If your primary goal is the production of complex 2D drawings and [DXF](DXF.md) files, and you don\'t need 3D modelling, FreeCAD may not be the right choice for you. You may wish to consider a dedicated software program for technical drafting instead, such as [LibreCAD](https   *//en.wikipedia.org/wiki/LibreCAD) or [QCad](https   *//en.wikipedia.org/wiki/QCad).
+如果你的主要目标是产生复杂的2D图纸和[DXF文件](DXF.md)，并且不需要3D建模，FreeCAD可能不是正确的选择。你应该考虑一个用于绘制工程草图的专门的软件，如 [LibreCAD](https   *//en.wikipedia.org/wiki/LibreCAD) 或 [QCad](https   *//en.wikipedia.org/wiki/QCad).
 
 
 {{TOCright}}
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width   *600px;">
 
-## Pages
+## 页面
 
-These are tools for creating Page objects.
+下面是创建页面对象的工具
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width   *32px;"> [Insert Default Page](TechDraw_PageDefault.md)   * adds a new page using the default [template](TechDraw_Templates.md).
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width   *32px;"> [插入默认页](TechDraw_PageDefault.md)   * 使用默认[模板添加一个新页面](TechDraw_Templates.md) .
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width   *32px;"> [Insert Page using Template](TechDraw_PageTemplate.md)   * adds a new page using a selected [template](TechDraw_Templates.md).
 

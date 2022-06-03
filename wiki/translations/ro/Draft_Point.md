@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Draft Point
-   Name/ro:Draft Punctul
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft → Point
-   Shortcut:P T
+- GuiCommand   */ro
+   Name   *Draft Point
+   Name/ro   *Draft Punctul
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation   *Draft → Point
+   Shortcut   *P T
 ---
 
 # Draft Point/ro
@@ -22,7 +22,7 @@ Instrumentul Punct creează un punct simplu în planul curent [work plane](Draft
 
 </div>
 
-<img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_point_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -32,7 +32,7 @@ Instrumentul Punct creează un punct simplu în planul curent [work plane](Draft
 
 </div>
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -59,19 +59,19 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Notes
 
--   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Snap Near](Draft_Snap_Near.md) to snap to Draft points.
+-   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Snap Near](Draft_Snap_Near.md) to snap to Draft points.
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Proprietăți
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A Draft Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -81,11 +81,11 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/ro|X}}: Coordonatele X ale punctului
+-    {{PropertyData/ro|X}}   * Coordonatele X ale punctului
 
--    {{PropertyData/ro|Y}}: Coordonatele Y ale punctului
+-    {{PropertyData/ro|Y}}   * Coordonatele Y ale punctului
 
--    {{PropertyData/ro|Z}}: Coordonatele Z ale punctului
+-    {{PropertyData/ro|Z}}   * Coordonatele Z ale punctului
 
 
 </div>
@@ -95,9 +95,9 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: not used.
+-    **Pattern|Enumeration**   * not used.
 
--    **Pattern Size|Float**: not used.
+-    **Pattern Size|Float**   * not used.
 
 ## Scripting
 
@@ -112,7 +112,7 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Point poate fi utilizat în [macros](macros/ro.md) și de la consola Python folosind următoarea funcție:
+Instrumentul Point poate fi utilizat în [macros](macros/ro.md) și de la consola Python folosind următoarea funcție   *
 
 
 </div>
@@ -131,7 +131,7 @@ point = make_point(point, Y=0, Z=0, color=None, name="Point", point_size=5)
 
 </div>
 
-Example:
+Example   *
 
 
 ```python
@@ -165,7 +165,7 @@ centered = App.Placement(App.Vector(-L, -L, 0), App.Rotation())
 rectangle = Draft.make_rectangle(2*L, 2*L, placement=centered)
 
 N = 10
-for i in range(N):
+for i in range(N)   *
     x = 2*L*random.random() - L
     y = 2*L*random.random() - L
     z = 0

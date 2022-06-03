@@ -1,6 +1,8 @@
 # Category:Draft/ja
 This category list pages related to the \"User\_Documentation/ja\" and \"Workbenches/ja\"
 
+[Category   *User Documentation/ja](Category   *User_Documentation/ja.md) [Category   *Workbenches/ja](Category   *Workbenches/ja.md)
+
 ### Contents
 
 |     |     |     |

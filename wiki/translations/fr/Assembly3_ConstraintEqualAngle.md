@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 ConstraintEqualAngle
-   Name/fr:Assembly3 Contrainte égalité angle
-   Icon:Assembly_ConstraintEqualAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 ConstraintEqualAngle
+   Name/fr   *Assembly3 Contrainte égalité angle
+   Icon   *Assembly_ConstraintEqualAngle.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintEqualAngle/fr
@@ -23,7 +23,7 @@ Les directions des lignes ainsi que les normales des faces sont représentées p
 3.  Sélectionnez deux autres éléments de ligne ou de face planaire pour extraire la valeur de l\'angle entre eux.
 4.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintEqualAngle.svg" width=16px> [Equal angle](Assembly3_ConstraintEqualAngle/fr.md)**.
 
-:   En outre, la fonction \"Flip element\" du panneau des propriétés des éléments peut être nécessaire si les SCI ne sont pas orientés comme prévu.
+   *   En outre, la fonction \"Flip element\" du panneau des propriétés des éléments peut être nécessaire si les SCI ne sont pas orientés comme prévu.
 
 
 

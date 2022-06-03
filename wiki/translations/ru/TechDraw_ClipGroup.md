@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Создать группу Видов
-   Name:TechDraw_ClipGroup
-   MenuLocation:TechDraw → Создать группу Видов
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md), [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Создать группу Видов
+   Name   *TechDraw_ClipGroup
+   MenuLocation   *TechDraw → Создать группу Видов
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso   *[Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md), [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)
 ---
 
 # TechDraw ClipGroup/ru
@@ -28,15 +28,15 @@
 
 ## Свойства
 
--    **Width**: Ширина окна отсечения в единицах измерения
+-    **Width**   * Ширина окна отсечения в единицах измерения
 
--    **Height**: Высота окна отсечения в единицах измерения
+-    **Height**   * Высота окна отсечения в единицах измерения
 
--    **ShowFrame**: Если true, вокруг пространства группы, будет отображаться рамка
+-    **ShowFrame**   * Если true, вокруг пространства группы, будет отображаться рамка
 
--    **ShowLabels**: Если true, метки видов будут отображаться в группе. **ПРИМЕЧАНИЕ:** удалено в версии 0.19.
+-    **ShowLabels**   * Если true, метки видов будут отображаться в группе. **ПРИМЕЧАНИЕ   *** удалено в версии 0.19.
 
--    **Views**: Список Видов, содержащихся в группе
+-    **Views**   * Список Видов, содержащихся в группе
 
 
 <div class="mw-translate-fuzzy">

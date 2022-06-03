@@ -5,8 +5,8 @@
 
 ### Elementos soportados 
 
--   primitivas: cubo, esfera, cilindro, cuadrado, circunferencia, polígono, poliedro
--   booleanas: unión, diferencia, intersección
+-   primitivas   * cubo, esfera, cilindro, cuadrado, circunferencia, polígono, poliedro
+-   booleanas   * unión, diferencia, intersección
 -   extrusión lineal, revolución
 -   importar (dxf, stl, off) (sin escalado o transformación del origen)
 -   matriz múltiple
@@ -17,18 +17,18 @@
 -   proyección
 -   superficie
 -   render (ignorado)
--   operaciones en general: minkowski, deslizar, ruta, subdivisión, cáscara
+-   operaciones en general   * minkowski, deslizar, ruta, subdivisión, cáscara
 
 ## Exportar
 
 ### Elementos soportados 
 
--   primitivas: Caja, cilindro, Cono, Toro
--   booleanas: corte, fusión, común
+-   primitivas   * Caja, cilindro, Cono, Toro
+-   booleanas   * corte, fusión, común
 
 ### Recursos
 
-Todo objeto derivado de Part::Feature que aún no es soportado será mallado y exportado como un elemento poliédrico
+Todo objeto derivado de Part   *   *Feature que aún no es soportado será mallado y exportado como un elemento poliédrico
 
 ## Related
 
@@ -38,6 +38,8 @@ Todo objeto derivado de Part::Feature que aún no es soportado será mallado y e
 
 
  {{OpenSCAD Tools navi}}
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 ConstraintSymmetricHorizontal
-   Name/fr:Assembly3 Contrainte symétrie horizontale
-   Icon:Assembly_ConstraintGeneral.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 ConstraintSymmetricHorizontal
+   Name/fr   *Assembly3 Contrainte symétrie horizontale
+   Icon   *Assembly_ConstraintGeneral.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintSymmetricHorizontal/fr

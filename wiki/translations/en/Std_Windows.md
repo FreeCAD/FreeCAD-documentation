@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Std Windows
-   MenuLocation:Windows → Windows...
-   Workbenches:All
-   SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)
+- GuiCommand   *
+   Name   *Std Windows
+   MenuLocation   *Windows → Windows...
+   Workbenches   *All
+   SeeAlso   *[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)
 ---
 
 # Std Windows/en
@@ -19,7 +19,7 @@ The **Std Windows** command opens a dialog box with a list of [Main view area](M
 
 1.  Select the **Windows → <img src="images/Std_Windows.svg" width=16px> Windows...** option from the menu.
 2.  The Choose Window dialog box opens.
-3.  Do one of the following:
+3.  Do one of the following   *
     -   Select a window in the list and press the **Activate** button.
     -   Double-click a window in the list.
 4.  The dialog box closes.

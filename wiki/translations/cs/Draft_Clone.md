@@ -1,6 +1,6 @@
 # Draft Clone/cs
 ---
-- GuiCommand:/cs   Name:Draft Clone   Name/cs:Kreslení Klon   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Clone   SeeAlso:[Kreslení Měřítko](Draft_Scale/cs.md)---
+- GuiCommand   */cs   Name   *Draft Clone   Name/cs   *Kreslení Klon   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Draft → Clone   SeeAlso   *[Kreslení Měřítko](Draft_Scale/cs.md)---
 
 
 </div>
@@ -19,12 +19,12 @@ Tento nástroj vytváří klon (kopie, která je parametricky svázaná s origin
 
 The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md). Clones of 2D objects can be used in [PartDesign Bodies](PartDesign_Body.md).
 
-<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Clone_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Clone_example.jpg  style="width   *400px;">
 
 
 </div>
@@ -45,9 +45,9 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 ## Properties
 
-See also: [Property editor](property_editor.md).
+See also   * [Property editor](property_editor.md).
 
-An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties:
+An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties   *
 
 ### Data
 
@@ -59,7 +59,7 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 ## Vlastnosti
 
--    **Měřítko**: Specifikuje volitelné měřítko pro klon
+-    **Měřítko**   * Specifikuje volitelné měřítko pro klon
 
 -   Výsledek použití nástroje [Kreslení Měřítko](Draft_Scale/cs.md) je také klon
 
@@ -73,7 +73,7 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 ## Skriptování
 
-Nástroj Klon může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj Klon může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -95,7 +95,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 </div>
 
-Příklad:
+Příklad   *
 
 
 ```python

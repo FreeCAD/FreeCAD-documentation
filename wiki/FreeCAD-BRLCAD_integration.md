@@ -3,7 +3,7 @@ This page is dedicated to the description of the [Google Summer of Code 2019](Go
 
 ## Outline
 
-FreeCAD and [BRL-CAD](http://www.brlcad.org) are very complementary applications: BRL-CAD is a powerful engine which could do with a better modelling UI, and FreeCAD has an increasingly vast modelling UI but could make great use of the support for large models that BRL-CAD can offer.
+FreeCAD and [BRL-CAD](http   *//www.brlcad.org) are very complementary applications   * BRL-CAD is a powerful engine which could do with a better modelling UI, and FreeCAD has an increasingly vast modelling UI but could make great use of the support for large models that BRL-CAD can offer.
 
 FreeCAD being highly modular, and BRL-CAD having a C+ API, building a BRL-CAD module for FreeCAD is totally possible. This way, it would be possible to open BRL-CAD models (that are usually called databases, because they are often made of a collection of models) in FreeCAD, and it would also be possible to use FreeCAD as a modelling tool for BRL-CAD.
 
@@ -18,9 +18,9 @@ This project would be mentored commonly by both FreeCAD and BRL-CAD developers.
 3.  Get familiar with the BRL-CAD API
 4.  Understand how FreeCAD parametric objects (features) are constructed and work, and how the view provider system works. We will basically be constructing FreeCAD view providers around BRL-CAD objects
 5.  Also study the command-line interface tools offered by BRL-CAD, and assess if and how any of these could be put into use
-6.  Implement basic import: Allow to open a BRL-CAD database and display its contents in FreeCAD
-7.  Implement a couple of BRL-CAD-based objects: Or, how to use the FreeCAD modelling tools to produce BRL-CAD objects
-8.  Implement basic saving: How the BRL-CAD-based FreeCAD objects can be saved to a BRL-CAD database, and design a strategy for possible support of other FreeCAD objects
+6.  Implement basic import   * Allow to open a BRL-CAD database and display its contents in FreeCAD
+7.  Implement a couple of BRL-CAD-based objects   * Or, how to use the FreeCAD modelling tools to produce BRL-CAD objects
+8.  Implement basic saving   * How the BRL-CAD-based FreeCAD objects can be saved to a BRL-CAD database, and design a strategy for possible support of other FreeCAD objects
 
 ## Expected Outcome 
 
@@ -35,7 +35,7 @@ This project would be mentored commonly by both FreeCAD and BRL-CAD developers.
 
 ### Skills
 
--   Programming language: C++
+-   Programming language   * C++
 -   Good understanding and use of APIs from FreeCAD and BRL-CAD
 -   Knowledge of 3D modeling, topology and computational geometry is a plus
 
@@ -45,7 +45,9 @@ High, mostly because you have two different applications to learn and work with
 
 ### Additional Information 
 
--   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68) (FreeCAD), [rossberg](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=23847) (BRL-CAS)
+-   Potential mentors   * [Yorik](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68) (FreeCAD), [rossberg](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=23847) (BRL-CAS)
+
+[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 
 

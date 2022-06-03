@@ -16,7 +16,9 @@ In informal usage, the word \"[Drawing](Drawing.md)\" may be used with the same 
 
 {{Document objects navi
 
-}}
+}} 
+
+[Category   *Glossary](Category_Glossary.md)
 
 
 

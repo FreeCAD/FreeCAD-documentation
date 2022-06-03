@@ -1,23 +1,23 @@
 ---
-- GuiCommand:
-   Name:WebTools Sketchfab
-   MenuLocation:Web Tools → Sketchfab
-   Workbenches:[WebTools](WebTools_Workbench.md)
+- GuiCommand   *
+   Name   *WebTools Sketchfab
+   MenuLocation   *Web Tools → Sketchfab
+   Workbenches   *[WebTools](WebTools_Workbench.md)
 ---
 
 # WebTools Sketchfab/en
 
 ## Description
 
-This tool allows you to export and upload objects to your [SketchFab](http://www.sketchfab.com) account. <small>(v0.17)</small> 
+This tool allows you to export and upload objects to your [SketchFab](http   *//www.sketchfab.com) account. <small>(v0.17)</small> 
 
 ![](images/Sketchfab_exporter.jpg )
 
 ## Usage
 
-1.  Make yourself an account on [SketchFab](http://www.sketchfab.com) if you don\'t have one yet. Free accounts are just fine, paid accounts add more features like the possibility to have private models and bigger maximum upload sizes
+1.  Make yourself an account on [SketchFab](http   *//www.sketchfab.com) if you don\'t have one yet. Free accounts are just fine, paid accounts add more features like the possibility to have private models and bigger maximum upload sizes
 2.  Prepare a model you wish to upload
-3.  Click on <img alt="" src=images/WebTools_Sketchfab.svg  style="width:32px;"> from the main toolbar in the [WebTools Workbench](WebTools_Workbench.md)
+3.  Click on <img alt="" src=images/WebTools_Sketchfab.svg  style="width   *32px;"> from the main toolbar in the [WebTools Workbench](WebTools_Workbench.md)
 4.  Fill in the fields. Name and API key are mandatory
 5.  Click the \"Upload\" button
 

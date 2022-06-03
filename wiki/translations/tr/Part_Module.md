@@ -127,7 +127,7 @@ These tools perform boolean operations.
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width   *32px;"> [Boolean fragments](Part_BooleanFragments.md)   * Creates all pieces obtained from Boolean operations.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width   *32px;"> [Slice apart](Part_SliceApart.md)   * Slices and splits an object by intersecting it with other objects.
     -   <img alt="" src=images/Part_Slice.svg  style="width   *32px;"> [Slice](Part_Slice.md)   * Slices an object by intersecting it with other objects.
-    -   <img alt="" src=images/Part_XOR.svg  style="width   *32px;"> [XOR](Part_XOR.md)   * Removes space shared by an even number of objects (symmetric version of [Cut](Part_Cut.md)).
+    -   <img alt="" src=images/Part_XOR.svg  style="width   *32px;"> [XOR](Part_XOR.md)   * Removes space shared by an even number of objects.
 
 ### Measure
 

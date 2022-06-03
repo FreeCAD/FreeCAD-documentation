@@ -1,11 +1,11 @@
 # Plot Legend/tr
 ---
-- GuiCommand:/tr
-   Name/tr:Yazıt
-   MenuLocation:Arsa → Yazıt
-‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:---
+- GuiCommand   */tr
+   Name/tr   *Yazıt
+   MenuLocation   *Arsa → Yazıt
+‏‎   |Workbenches   *[Arsa](Plot_Workbench/tr.md)
+   Shortcut   *
+   SeeAlso   *---
 
 
 </div>
@@ -14,7 +14,7 @@
 
 This tool allows the user to enable/disable the data series legend on a specific plot.
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 
 ## Usage
 
@@ -28,7 +28,9 @@ Remember that the styles and labels of the data series can be edited with the [d
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

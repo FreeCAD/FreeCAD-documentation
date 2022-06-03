@@ -1,6 +1,6 @@
 # Ship GZ/it
 ---
-- GuiCommand:/it   Name:Ship PlotGZ   Name/it:Curve GZ   MenuLocation:Weights → Calcola le curve GZ   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand   */it   Name   *Ship PlotGZ   Name/it   *Curve GZ   MenuLocation   *Weights → Calcola le curve GZ   |Workbenches   *[[Ship Workbench/it   Ship]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -21,6 +21,14 @@ Da fare
 
 -   [Tutorial Ship s60, prima parte ](FreeCAD-Ship_s60_tutorial/it.md)
 -   [Tutorial Ship s60, seconda parte](FreeCAD-Ship_s60_tutorial_(II)/it.md)
+
+
+
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

@@ -1,6 +1,8 @@
 # Category:Addons/fr
 Cette page liste les ateliers externes complémentaires (addons) qui disposent d\'une page sur ce wiki. Les ateliers complémentaires sont contribués par la communauté et ne font pas partie de l\'installation standard de FreeCAD.
 
+[Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

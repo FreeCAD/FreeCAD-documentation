@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Draft Rotate
-   Name/es:Draft Rotate
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Croquis → Girar
-   Shortcut:**R** **O**
+- GuiCommand   */es
+   Name   *Draft Rotate
+   Name/es   *Draft Rotate
+   Workbenches   *[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation   *Croquis → Girar
+   Shortcut   ***R** **O**
 ---
 
 # Draft Rotate/es
@@ -24,7 +24,7 @@ Esta herramienta gira o copia y gira los objetos seleccionados un ángulo dado a
 
 The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
 
-<img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Rotate_example.jpg  style="width   *400px;"> 
 *Rotating an object around a center point*
 
 
@@ -35,7 +35,7 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 </div>
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -74,11 +74,11 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+-   To change the number of decimals used for the input of coordinates and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To store and reuse the same copy mode setting across commands   * **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
+-   To reselect the base objects after copying objects   * **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 
@@ -93,7 +93,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Girar puede utilizarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función:
+La herramienta Girar puede utilizarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función   *
 
 
 </div>
@@ -117,7 +117,7 @@ en la lista dada alrededor de un centro indicado si se proporciona, 
 
 </div>
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python

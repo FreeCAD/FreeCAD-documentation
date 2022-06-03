@@ -8,7 +8,7 @@
 
 ## Introduzione
 
-Questa pagina raccoglie le informazioni sul risolutore di elementi finiti [CalculiX](http://www.calculix.de/), il risolutore predefinito per l\'analisi strutturale e termo-meccanica nell\'ambiente **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/it.md)** a partire da FreeCAD 0.17. A seconda del sistema operativo su cui si sta lavorando, è necessario installare CalculiX prima di eseguire la prima simulazione. Si prega di consultare [Installare FEM](FEM_Install/it.md).
+Questa pagina raccoglie le informazioni sul risolutore di elementi finiti [CalculiX](http   *//www.calculix.de/), il risolutore predefinito per l\'analisi strutturale e termo-meccanica nell\'ambiente **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/it.md)** a partire da FreeCAD 0.17. A seconda del sistema operativo su cui si sta lavorando, è necessario installare CalculiX prima di eseguire la prima simulazione. Si prega di consultare [Installare FEM](FEM_Install/it.md).
 
 
 </div>
@@ -24,7 +24,7 @@ CalculiX è progettato per funzionare su piattaforme Unix come Linux e Irix ma a
 
 ## Integrazione con FreeCAD 
 
-L\'interazione tra l\'ambiente [FEM](FEM_Workbench/it.md) e CalculiX avviene attraverso la scrittura e la lettura di file di testo. La sequenza delle operazioni è la seguente:
+L\'interazione tra l\'ambiente [FEM](FEM_Workbench/it.md) e CalculiX avviene attraverso la scrittura e la lettura di file di testo. La sequenza delle operazioni è la seguente   *
 
 
 </div>
@@ -55,9 +55,9 @@ Il file di input che CalculiX utilizza può essere preparato e modificato prima 
 </div>
 
 
-**(Da fare: controllare questo. Cosa succede con la mesh se in FreeCAD si usa inch? Siccome è stata introdotta la densità, con questo abbiamo kg e s, e non più N?! Cosa ne pensate di questo?!)**
+**(Da fare   * controllare questo. Cosa succede con la mesh se in FreeCAD si usa inch? Siccome è stata introdotta la densità, con questo abbiamo kg e s, e non più N?! Cosa ne pensate di questo?!)**
 
-L\'interfaccia di CalculiX supporta i seguenti oggetti:
+L\'interfaccia di CalculiX supporta i seguenti oggetti   *
 
 ### FEM Elements 
 
@@ -124,6 +124,8 @@ Reaction forces can be found in ccx\_dat\_file which contains reaction force com
 {{FEM Tools navi
 
 }}
+
+[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

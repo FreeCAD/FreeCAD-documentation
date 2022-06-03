@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Points Import
-   Name/it:Importa punti
-   MenuLocation:Punti → Importa punti
-   Workbenches:[Punti](Points_Workbench/it.md)
-   SeeAlso:[Esporta punti](Points_Export/it.md)
-   Icon:Points_Import.svg
+- GuiCommand   */it
+   Name   *Points Import
+   Name/it   *Importa punti
+   MenuLocation   *Punti → Importa punti
+   Workbenches   *[Punti](Points_Workbench/it.md)
+   SeeAlso   *[Esporta punti](Points_Export/it.md)
+   Icon   *Points_Import.svg
 ---
 
 # Points Import/it
@@ -33,7 +33,7 @@ The **Points Import** command imports a point cloud from a file.
 
 </div>
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Points_Import.svg" width=16px> [Points Import](Points_Import.md)** button.
     -   Select the **Points → <img src="images/Points_Import.svg" width=16px> Import Points...** option from the menu.
 2.  Select a point cloud file.
@@ -45,7 +45,7 @@ See [Points Convert](Points_Convert.md).
 
 ## Point cloud file format 
 
--   A point cloud file must have the {{FileName|.asc}}, {{FileName|.pcd}} or {{FileName|.ply}} extension.
+-   A point cloud file must have the **.asc**, **.pcd** or **.ply** extension.
 -   Each line in the file must list the X, Y and Z coordinates of a point.
 -   The coordinates must be separated by spaces.
 -   The coordinates must use a decimal point, not a decimal comma.
@@ -65,7 +65,7 @@ See [Points Convert](Points_Convert.md).
 
 <div class="mw-translate-fuzzy">
 
-Per i test si può usare questo file [ASC](https://github.com/FREECAD/Examples/blob/master/Point_cloud_ExampleFiles/PointCloud-Data_Stanford-Bunny.asc), che è una versione di [Stanford Bunny](http://graphics.stanford.edu/data/3Dscanrep/).
+Per i test si può usare questo file [ASC](https   *//github.com/FREECAD/Examples/blob/master/Point_cloud_ExampleFiles/PointCloud-Data_Stanford-Bunny.asc), che è una versione di [Stanford Bunny](http   *//graphics.stanford.edu/data/3Dscanrep/).
 
 
 </div>

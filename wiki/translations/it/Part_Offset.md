@@ -7,16 +7,28 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Offset 3D di Parte crea delle copie parallele di una forma selezionata ad una certa distanza dalla forma base, dando un nuovo oggetto.
+
+
+</div>
 
 <img alt="" src=images/PartOffset0.png  style="width   *400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width   *400" height="200px;">
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare l\'oggetto da cui si vuole creare l\'offset.
 2.  Premere il pulsante **<img src="images/Part_Offset.svg" width=16px> '''Offset 3D'''
 **
 3.  Regolare la distanza e i parametri che dipendono dall\'oggetto originale e dagli oggetti risultanti.
+
+
+</div>
 
 ## Notes
 

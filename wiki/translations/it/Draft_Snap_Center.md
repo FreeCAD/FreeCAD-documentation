@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft Snap Center
-   Name/it:Centro
-   MenuLocation:Draft → [[Draft Snap/it   Ancoraggio]] → Centro|Shortcut:
-   Icon:Snap_Center.svg
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+- GuiCommand   */it
+   Name   *Draft Snap Center
+   Name/it   *Centro
+   MenuLocation   *Draft → [[Draft Snap/it   Ancoraggio]] → Centro|Shortcut   *
+   Icon   *Snap_Center.svg
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso   *[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Center/it

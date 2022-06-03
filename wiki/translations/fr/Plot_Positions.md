@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Plot Positions
-   Name/fr:Plot Positions
-   MenuLocation:Plot → Définir les tailles et positions
-   Workbenches:[Plot](Plot_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Plot Positions
+   Name/fr   *Plot Positions
+   MenuLocation   *Plot → Définir les tailles et positions
+   Workbenches   *[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Positions/fr
@@ -12,7 +12,7 @@
 
 Cet outil permet à l\'utilisateur de modifier la position de certains éléments comme les titres, les étiquettes des axes et la légende.
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
 
 ## Utilisation
 
@@ -23,8 +23,8 @@ Sélectionnez l\'onglet du graphique que vous souhaitez modifier, puis exécutez
 
 ## Options
 
--   **Position** : coordonnées x et y de l\'élément. Les étiquettes d\'axes ne peuvent être déplacées que le long de leur propre axe.
--   **Font size** : taille de la police considérée pour l\'élément.
+-   **Position**    * coordonnées x et y de l\'élément. Les étiquettes d\'axes ne peuvent être déplacées que le long de leur propre axe.
+-   **Font size**    * taille de la police considérée pour l\'élément.
 
 
 
@@ -32,7 +32,9 @@ Sélectionnez l\'onglet du graphique que vous souhaitez modifier, puis exécutez
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

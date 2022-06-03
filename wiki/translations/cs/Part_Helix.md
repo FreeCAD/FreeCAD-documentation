@@ -1,6 +1,6 @@
 # Part Helix/cs
 ---
-- GuiCommand:/cs   Name:Part Helix   Name/cs:Díl Šroubovice   MenuLocation:Díl → [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Šroubovice.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
+- GuiCommand   */cs   Name   *Part Helix   Name/cs   *Díl Šroubovice   MenuLocation   *Díl → [Workbenches   *[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Šroubovice.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso   *..---
 
 
 </div>
@@ -10,14 +10,14 @@
 
 ## Popis
 
-Na této stránce je vysvětleno jak editovat základní parametry šroubovice. Kliknete na ikonu <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> [Základní geometrické tvary](Part_CreatePrimitives.md) a na ikonu šroubovice <img alt="" src=images/Part_Helix.png  style="width:32px;"> v rozbalovacím menu pro editování parametrů vytvářené šroubovice. Když jse nastavili všechny parametry, kliknete na tlačítko \"Vytvořit\" pro vykraeslení šroubovice. Once you have edited all the parameters click the button \"create\" to draw the helix.
+Na této stránce je vysvětleno jak editovat základní parametry šroubovice. Kliknete na ikonu <img alt="" src=images/Part_CreatePrimitives.png  style="width   *32px;"> [Základní geometrické tvary](Part_CreatePrimitives.md) a na ikonu šroubovice <img alt="" src=images/Part_Helix.png  style="width   *32px;"> v rozbalovacím menu pro editování parametrů vytvářené šroubovice. Když jse nastavili všechny parametry, kliknete na tlačítko \"Vytvořit\" pro vykraeslení šroubovice. Once you have edited all the parameters click the button \"create\" to draw the helix.
 
 
 </div>
 
-A <img alt="" src=images/Part_Helix.svg  style="width:24px;"> **Part Helix** is a parametric shape that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives.md) command. In the coordinate system defined by its **Placement** property, the axis of the helix matches the Z axis and its bottom point, the start point, lies on the X axis.
+A <img alt="" src=images/Part_Helix.svg  style="width   *24px;"> **Part Helix** is a parametric shape that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width   *24px;"> [Part Primitives](Part_Primitives.md) command. In the coordinate system defined by its **Placement** property, the axis of the helix matches the Z axis and its bottom point, the start point, lies on the X axis.
 
-<img alt="" src=images/Part_Helix_Example.png  style="width:400px;">
+<img alt="" src=images/Part_Helix_Example.png  style="width   *400px;">
 
 ## Usage
 
@@ -35,9 +35,9 @@ A Part Helix object created with the [scripting example](#Scripting.md) below is
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Part Helix object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A Part Helix object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -49,36 +49,36 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Coordinate System}}
 
--    **Local Coord|Enumeration**: The [handedness](https://en.wikipedia.org/wiki/Screw_thread), or direction, of the helix: {{Value|Right-handed}} or {{Value|Left-handed}}. The default is {{Value|Right-handed}}, meaning the helix turns counterclockwise as it goes up.
+-    **Local Coord|Enumeration**   * The [handedness](https   *//en.wikipedia.org/wiki/Screw_thread), or direction, of the helix   * {{Value|Right-handed}} or {{Value|Left-handed}}. The default is {{Value|Right-handed}}, meaning the helix turns counterclockwise as it goes up.
 
 
 {{TitleProperty|Helix}}
 
--    **Pitch|Length**: The distance between two consecutive turns of the helix measured along its Z axis. The default is {{Value|1mm}}.
+-    **Pitch|Length**   * The distance between two consecutive turns of the helix measured along its Z axis. The default is {{Value|1mm}}.
 
--    **Height|Length**: The height of the helix. The default is {{Value|2mm}}.
+-    **Height|Length**   * The height of the helix. The default is {{Value|2mm}}.
 
--    **Radius|Length**: The start radius of the helix. The helix has a constant radius if **Angle** is {{Value|0°}}.
+-    **Radius|Length**   * The start radius of the helix. The helix has a constant radius if **Angle** is {{Value|0°}}.
 
--    **Segment Length|QuantityConstraint**: The number of turns per helix subdivision. The default is {{Value|1}}, meaning each full turn of the helix is a separate segment. Use {{Value|0}} to suppress subdivision.
+-    **Segment Length|QuantityConstraint**   * The number of turns per helix subdivision. The default is {{Value|1}}, meaning each full turn of the helix is a separate segment. Use {{Value|0}} to suppress subdivision.
 
--    **Angle|Angle**: The angle that defines of the outer shape of the helix. Valid range: {{Value|-90° &lt; value &lt; 90°}}. The default is {{Value|0°}}. If it is {{Value|0°}} the helix is cylindrical, else it is conical.
+-    **Angle|Angle**   * The angle that defines of the outer shape of the helix. Valid range   * {{Value|-90° &lt; value &lt; 90°}}. The default is {{Value|0°}}. If it is {{Value|0°}} the helix is cylindrical, else it is conical.
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Helix can be created with the {{Incode|addObject()}} method of the document:
+A Part Helix can be created with the {{Incode|addObject()}} method of the document   *
 
 
 ```python
-helix = FreeCAD.ActiveDocument.addObject("Part::Helix", "myHelix")
+helix = FreeCAD.ActiveDocument.addObject("Part   *   *Helix", "myHelix")
 ```
 
 -   Where {{Incode|"myHelix"}} is the name for the object.
 -   The function returns the newly created object.
 
-Example:
+Example   *
 
 
 ```python
@@ -86,7 +86,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-helix = doc.addObject("Part::Helix", "myHelix")
+helix = doc.addObject("Part   *   *Helix", "myHelix")
 helix.Pitch = 2
 helix.Height = 3
 helix.Radius = 4

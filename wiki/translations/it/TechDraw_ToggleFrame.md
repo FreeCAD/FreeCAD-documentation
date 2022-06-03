@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw ToggleFrame
-   Name/it:Attiva o disattiva la cornice
-   MenuLocation:TechDraw → Attiva o disattiva la cornice
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
+- GuiCommand   */it
+   Name   *TechDraw ToggleFrame
+   Name/it   *Attiva o disattiva la cornice
+   MenuLocation   *TechDraw → Attiva o disattiva la cornice
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
 ---
 
 # TechDraw ToggleFrame/it
@@ -16,7 +16,7 @@
 
 Lo strumento attiva o disattiva la visualizzazione della vista di cornici, etichette e vertici.
 
-<img alt="" src=images/TechDraw_ToggleFrame.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_ToggleFrame.png  style="width   *400px;"> 
 *Vista della proiezione di un solido con cornici attive e disattivate*
 
 ## Utilizzo
@@ -41,7 +41,7 @@ You can adjust the size of the vertex dots in the [TechDraw Preferences/Scale ta
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

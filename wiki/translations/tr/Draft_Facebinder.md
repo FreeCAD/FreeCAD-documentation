@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/tr
-   Name:Draft Facebinder
-   Name/tr:Yüz kaplama
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   MenuLocation:Taslak → Yüz kaplama
-   Shortcut:**F** **F**
-   SeeAlso:[Parça Kutu](Part_Box/tr.md), [Mimari Duvar](Arch_Wall/tr.md)
-   Version:0.14
+- GuiCommand   */tr
+   Name   *Draft Facebinder
+   Name/tr   *Yüz kaplama
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation   *Taslak → Yüz kaplama
+   Shortcut   ***F** **F**
+   SeeAlso   *[Parça Kutu](Part_Box/tr.md), [Mimari Duvar](Arch_Wall/tr.md)
+   Version   *0.14
 ---
 
 # Draft Facebinder/tr
@@ -32,7 +32,7 @@ Başka nesnelerden gelen bir yüz koleksiyonundan bir ekstrüzyon oluşturmak i�
 
 </div>
 
-<img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_facebinder_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -63,35 +63,35 @@ Başka nesnelerden gelen bir yüz koleksiyonundan bir ekstrüzyon oluşturmak i�
 
 ### Veri
 
--    {{PropertyData | Extrusion}}: şeklin tüm yüzlerine uygulanacak bir ekstrüzyon kalınlığı belirtir.
+-    {{PropertyData | Extrusion}}   * şeklin tüm yüzlerine uygulanacak bir ekstrüzyon kalınlığı belirtir.
 
--    {{PropertyData | Remove Splitter}}: `True` ise, Ekstrüzerin iç kavşaklarını ekstrüzyon sırasında birleştirmeye çalışır.
+-    {{PropertyData | Remove Splitter}}   * `True` ise, Ekstrüzerin iç kavşaklarını ekstrüzyon sırasında birleştirmeye çalışır.
 
--    {{PropertyData | Sew}}: `True` ise, Ekstrüder üzerine ekstrüzyon sırasında topolojik bir dikiş işlemi gerçekleştirmeye çalışır.
+-    {{PropertyData | Sew}}   * `True` ise, Ekstrüder üzerine ekstrüzyon sırasında topolojik bir dikiş işlemi gerçekleştirmeye çalışır.
 
 
 </div>
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the total area of the linked faces of the facebinder.
+-    **Area|Area**   * (read-only) specifies the total area of the linked faces of the facebinder.
 
--    **Extrusion|Distance**: specifies the extrusion thickness of the facebinder.
+-    **Extrusion|Distance**   * specifies the extrusion thickness of the facebinder.
 
--    **Faces|LinkSubList**: specifies the linked faces of the facebinder.
+-    **Faces|LinkSubList**   * specifies the linked faces of the facebinder.
 
--    **Offset|Distance**: specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
+-    **Offset|Distance**   * specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
 
--    **Remove Splitter|Bool**: Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
+-    **Remove Splitter|Bool**   * Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
 
--    **Sew|Bool**: Specifies whether to perform a topological sewing operation on the facebinder.
+-    **Sew|Bool**   * Specifies whether to perform a topological sewing operation on the facebinder.
 
 ### View
 
@@ -103,9 +103,9 @@ A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) obje
 
 ### Görünüm
 
--    {{PropertyView | Pattern}}: şeklin yüzünü doldurmak için bir [Taslak Deseni](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyView | Display Mode}} \"Düz Çizgiler\" ise çalışır.
+-    {{PropertyView | Pattern}}   * şeklin yüzünü doldurmak için bir [Taslak Deseni](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyView | Display Mode}} \"Düz Çizgiler\" ise çalışır.
 
--    {{PropertyView | Pattern Size}}: [Taslak Deseni](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
+-    {{PropertyView | Pattern Size}}   * [Taslak Deseni](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
 
 
 </div>
@@ -118,7 +118,7 @@ A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) obje
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -128,7 +128,7 @@ A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) obje
 
 <div class="mw-translate-fuzzy">
 
-Yüz kaplama aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
+Yüz kaplama aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
 
 
 </div>
@@ -171,7 +171,7 @@ Yüz kaplamanın yerleşimi, {{incode | Placement}} özniteliğinin üzerine yaz
 
 </div>
 
-Örnek:
+Örnek   *
 
 
 ```python
@@ -182,7 +182,7 @@ import Draft
 doc = App.newDocument()
 
 # Insert a solid box
-box = doc.addObject("Part::Box", "Box")
+box = doc.addObject("Part   *   *Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

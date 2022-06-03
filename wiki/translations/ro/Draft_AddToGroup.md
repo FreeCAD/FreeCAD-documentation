@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Draft AddToGroup   Name/ro:Draft AddToGroup
-   MenuLocation:Draft → Utilities → Add to groupà
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:
-   SeeAlso:[Draft SelectGroup](Draft_SelectGroup/ro.md), [Std Group](Std_Group/ro.md)
+- GuiCommand   */ro
+   Name   *Draft AddToGroup   Name/ro   *Draft AddToGroup
+   MenuLocation   *Draft → Utilities → Add to groupà
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut   *
+   SeeAlso   *[Draft SelectGroup](Draft_SelectGroup/ro.md), [Std Group](Std_Group/ro.md)
 ---
 
 # Draft AddToGroup/ro
@@ -48,7 +48,7 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 ## Legături
 
 -   [Document structure](Document_structure.md)
--   [Organizing your model](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
+-   [Organizing your model](http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
 
 
 </div>

@@ -1,6 +1,6 @@
 # Part Boolean/it
 ---
-- GuiCommand:/it   Name:Part_Boolean   Name/it:Booleana   MenuLocation:Parte → Booleana...   Workbenches:[SeeAlso:[[Part Union/it|Unione ](Part_Workbench/it____Parte]].md), [ Intersezione](Part_Common/it_.md), [ Sottrazione](Part_Cut/it_.md) e [Sezione](Part_Section/it.md)---
+- GuiCommand   */it   Name   *Part_Boolean   Name/it   *Booleana   MenuLocation   *Parte → Booleana...   Workbenches   *[SeeAlso   *[[Part Union/it|Unione ](Part_Workbench/it____Parte]].md), [ Intersezione](Part_Common/it_.md), [ Sottrazione](Part_Cut/it_.md) e [Sezione](Part_Section/it.md)---
 
 
 </div>
@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Per operazioni booleane più veloci, usare <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> [Unione](Part_Union/it.md), <img alt="" src=images/Part_Common.svg  style="width:16px;">[Intersezione](Part_Common/it.md), <img alt="" src=images/Part_Cut.svg  style="width:16px;"> [Taglio](Part_Cut/it.md) e <img alt="" src=images/Part_Section.svg  style="width:16px;"> [Sezione](Part_Section/it.md).
+Per operazioni booleane più veloci, usare <img alt="" src=images/Part_Fuse.svg  style="width   *16px;"> [Unione](Part_Union/it.md), <img alt="" src=images/Part_Common.svg  style="width   *16px;">[Intersezione](Part_Common/it.md), <img alt="" src=images/Part_Cut.svg  style="width   *16px;"> [Taglio](Part_Cut/it.md) e <img alt="" src=images/Part_Section.svg  style="width   *16px;"> [Sezione](Part_Section/it.md).
 
 
 </div>
@@ -28,7 +28,7 @@ Per operazioni booleane più veloci, usare <img alt="" src=images/Part_Fuse.svg 
 
 <div class="mw-translate-fuzzy">
 
-Vedere i singoli comandi:
+Vedere i singoli comandi   *
 
 -    **<img src="images/Part_Fuse.svg" width=16px> [Unione](Part_Union/it.md)
 **
@@ -64,26 +64,26 @@ Le operazioni booleane sono eseguite dal kernel di geometria interno, [OpenCASCA
 
 <div class="mw-translate-fuzzy">
 
-In caso di complanarità, anche se la prima operazione booleana riesce, le successive operazioni booleane potrebbero non riuscire. In questo caso, il problema potrebbe non essere nell\'ultima operazione eseguita, ma in quelle precedenti, ovvero nelle operazioni nidificate come indicato nella [vista ad albero](tree_view/it.md). Per risolvere questi problemi, si consiglia di utilizzare lo strumento **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Controlla la geometria](Part_CheckGeometry/it.md)** per ispezionare tutti gli oggetti alla ricerca di problemi.
+In caso di complanarità, anche se la prima operazione booleana riesce, le successive operazioni booleane potrebbero non riuscire. In questo caso, il problema potrebbe non essere nell\'ultima operazione eseguita, ma in quelle precedenti, ovvero nelle operazioni nidificate come indicato nella [vista ad albero](tree_view/it.md). Per risolvere questi problemi, si consiglia di utilizzare lo strumento **[<img src=images/Part_CheckGeometry.svg style="width   *16px"> [Controlla la geometria](Part_CheckGeometry/it.md)** per ispezionare tutti gli oggetti alla ricerca di problemi.
 
 
 </div>
 
-<img alt="" src=images/Part_Boolean_cut_coplanar_1.png  style="width:500px;">
+<img alt="" src=images/Part_Boolean_cut_coplanar_1.png  style="width   *500px;">
 
-<img alt="" src=images/Part_Boolean_cut_coplanar_2.png  style="width:500px;">
-
-
-
-*A sinistra: forme che condividono una faccia, un taglio booleano può produrre risultati errati. A destra: forme che si intersecano chiaramente tra loro, il taglio booleano avrà successo nella maggior parte dei casi.*
-
-<img alt="" src=images/Part_Boolean_fusion_coplanar_1.png  style="width:500px;">
-
-<img alt="" src=images/Part_Boolean_fusion_coplanar_2.png  style="width:500px;">
+<img alt="" src=images/Part_Boolean_cut_coplanar_2.png  style="width   *500px;">
 
 
 
-*A sinistra: forme che condividono una faccia, un'unione booleana può produrre risultati errati. A destra: forme che si intersecano chiaramente tra loro, l'unione booleana avrà successo nella maggior parte dei casi.*
+*A sinistra   * forme che condividono una faccia, un taglio booleano può produrre risultati errati. A destra   * forme che si intersecano chiaramente tra loro, il taglio booleano avrà successo nella maggior parte dei casi.*
+
+<img alt="" src=images/Part_Boolean_fusion_coplanar_1.png  style="width   *500px;">
+
+<img alt="" src=images/Part_Boolean_fusion_coplanar_2.png  style="width   *500px;">
+
+
+
+*A sinistra   * forme che condividono una faccia, un'unione booleana può produrre risultati errati. A destra   * forme che si intersecano chiaramente tra loro, l'unione booleana avrà successo nella maggior parte dei casi.*
 
 
 <div class="mw-translate-fuzzy">

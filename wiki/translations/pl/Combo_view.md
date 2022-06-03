@@ -3,15 +3,15 @@
 
 ## Wprowadzenie
 
-[Widok połączony](combo_view/pl.md) jest jednym z głównych paneli w [interfejsie](interface/pl.md) FreeCAD . Domyślnie znajduje się on po lewej stronie ekranu. Składa się z **dwóch części**:
+[Widok połączony](combo_view/pl.md) jest jednym z głównych paneli w [interfejsie](interface/pl.md) FreeCAD . Domyślnie znajduje się on po lewej stronie ekranu. Składa się z **dwóch części**   *
 
 -   [Sekcja górna](#Upper_section.md) posiada dwie zakładki dla właściwości **Model** i **Zadania**,
 -   [Sekcja dolna](#Lower_section.md) pokazuje [edytor właściwości](property_editor/pl.md), który również wyświetla dwie zakładki dla właściwości **Widok** i **Dane**.
 
-**Uwaga:** [Edytor właściwości](property_editor/pl.md) jest wyświetlany tylko wtedy, gdy aktywna jest zakładka **Model**, czyli gdy widoczny jest [widok drzewa](tree_view/pl.md).
+**Uwaga   *** [Edytor właściwości](property_editor/pl.md) jest wyświetlany tylko wtedy, gdy aktywna jest zakładka **Model**, czyli gdy widoczny jest [widok drzewa](tree_view/pl.md).
 
 
-**Uwaga:**
+**Uwaga   ***
 
 Pierwotnie górna część *([widoku drzewa](tree_view/pl.md))* była oddzielona od dolnej części *([edytora właściwości](property_editor/pl.md))*, ale następnie zostały one połączone i w ten sposób powstał widok *połączony*.
 
@@ -21,11 +21,11 @@ Zakładka **Model** pokazuje [widok drzewa](tree_view/pl.md), który jest reprez
 
 Zakładka **Zadania** zawiera [panel zadań](task_panel/pl.md), który pokazuje różne działania w zależności od aktywnego stołu roboczego i aktywnego narzędzia.
 
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
+<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width   *" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width   *" height="600px;">
 
 
 
-*Widok połączony posiada dwie karty: <br />kartę Model, która steruje wyświetlaniem [widoku drzewa](tree_view/pl.md) i [edytor właściwości](property_editor/pl.md), <br />oraz kartę Zadania, która kontroluje wyświetlanie [panel zadań](task_panel/pl.md).*
+*Widok połączony posiada dwie karty   * <br />kartę Model, która steruje wyświetlaniem [widoku drzewa](tree_view/pl.md) i [edytor właściwości](property_editor/pl.md), <br />oraz kartę Zadania, która kontroluje wyświetlanie [panel zadań](task_panel/pl.md).*
 
 ## Sekcja dolna 
 
@@ -35,7 +35,7 @@ W dolnej części widoku połączonego wyświetlane są [edytor właściwości](
 
 -   Zakładka **Dane** pokazuje właściwości parametryczne obiektów, które określają sposób rzeczywistego definiowania kształtów geometrycznych.
 
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width   *" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width   *" height="600px;">
 
 
 
@@ -43,7 +43,7 @@ W dolnej części widoku połączonego wyświetlane są [edytor właściwości](
 
 ## Wyłączenie widoku połączonego 
 
-Aby móc samodzielnie korzystać z tych poglądów, należy użyć [edytora parametrów](Std_DlgParameter.md). Jeśli nie istnieją stwórz następujące podgrupy:
+Aby móc samodzielnie korzystać z tych poglądów, należy użyć [edytora parametrów](Std_DlgParameter.md). Jeśli nie istnieją stwórz następujące podgrupy   *
 
 -    `BaseApp/Preferences/DockWindows/TreeView`
     

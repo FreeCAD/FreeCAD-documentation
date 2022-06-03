@@ -1,6 +1,6 @@
 # Sketcher MapSketch/cs
 ---
-- GuiCommand:/cs   Name:Sketcher_MapSketch   Name/cs:Skicář Vyznač náčrt   Vytvoří náčrt na ploše|Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Návrh dílu → Vytvoř náčrt na ploše   SeeAlso:[Vytvoř náčrt](Sketcher_NewSketch/cs.md)---
+- GuiCommand   */cs   Name   *Sketcher_MapSketch   Name/cs   *Skicář Vyznač náčrt   Vytvoří náčrt na ploše|Workbenches   *[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation   *Návrh dílu → Vytvoř náčrt na ploše   SeeAlso   *[Vytvoř náčrt](Sketcher_NewSketch/cs.md)---
 
 
 </div>
@@ -12,18 +12,18 @@
 
 ## Popis
 
-Vytvoří náčrt na ploše objektu. <img alt="Vytvoří náčrt na ploše objektu." src=images/Sketcher_MapSketch_00.png  style="width:480px;"> 
+Vytvoří náčrt na ploše objektu. <img alt="Vytvoří náčrt na ploše objektu." src=images/Sketcher_MapSketch_00.png  style="width   *480px;"> 
 
 
 </div>
 
-Please note that this tool is not used to create new sketches. It only maps, or remaps an existing sketch to the face of a solid or a PartDesign feature. Typical use cases are:
+Please note that this tool is not used to create new sketches. It only maps, or remaps an existing sketch to the face of a solid or a PartDesign feature. Typical use cases are   *
 
 -   The sketch was created on a standard plane (XY, XZ, YZ) and you want to map it to the face of a solid in order to build a feature upon it.
 -   The sketch was mapped on a specific face of a solid but you need to map it to a different face.
 -   Repairing a broken model.
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
 
 ## Usage
 
@@ -68,7 +68,9 @@ Now we select the top face of Pad and then select the Map A Sketch To A Face too
 
 {{Sketcher Tools navi
 
-}}
+}} 
+
+[Category   *Sketcher/cs](Category   *Sketcher/cs.md)
 
 
 

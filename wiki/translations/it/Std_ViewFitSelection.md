@@ -1,6 +1,6 @@
 # Std ViewFitSelection/it
 ---
-- GuiCommand:/it   Name:Std_ViewFitSelection   Name/it:Visualizza la selezione   MenuLocation:Visualizza → Viste standard → Visualizza la selezione   Workbenches:Tutti   Shortcut:**V** **S**   SeeAlso:[Visualizza tutto](Std_ViewFitAll/it.md)---
+- GuiCommand   */it   Name   *Std_ViewFitSelection   Name/it   *Visualizza la selezione   MenuLocation   *Visualizza → Viste standard → Visualizza la selezione   Workbenches   *Tutti   Shortcut   ***V** **S**   SeeAlso   *[Visualizza tutto](Std_ViewFitAll/it.md)---
 
 ## Descrizione
 
@@ -8,16 +8,16 @@ Il comando **Visualizza la selezione** adatta la camera in modo che tutti gli og
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_ViewFitSelection.svg" width=16px> Visualizza la selezione**.
     -   Selezionare l\'opzione **Visualizza → Viste standard →  <img src="images/Std_ViewFitSelection.svg" width=16px> Visualizza la selezione** dal menu.
     -   Selezionare l\'opzione **<img src="images/Std_ViewFitSelection.svg" width=16px> Visualizza la selezione** dal menu contestuale della [vista 3D](3D_view/it.md).
-    -   Usare la scorciatoia da tastiera: **V** e poi **S**.
+    -   Usare la scorciatoia da tastiera   * **V** e poi **S**.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

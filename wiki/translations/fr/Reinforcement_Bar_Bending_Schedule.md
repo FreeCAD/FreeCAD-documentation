@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Reinforcement Bar Bending Schedule
-   Name/fr:Reinforcement Tableau des armatures
-   MenuLocation:Reinforcement → Bar Bending Schedule
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md), [Arch Rebar Dessins](Arch_Rebar_Drawing_Dimensioning/fr.md)
+- GuiCommand   */fr
+   Name   *Reinforcement Bar Bending Schedule
+   Name/fr   *Reinforcement Tableau des armatures
+   MenuLocation   *Reinforcement → Bar Bending Schedule
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md), [Arch Rebar Dessins](Arch_Rebar_Drawing_Dimensioning/fr.md)
 ---
 
 # Reinforcement Bar Bending Schedule/fr
@@ -14,9 +14,9 @@
 
 L\'outil [Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md) permet à l\'utilisateur de créer la nomenclature de pliage des barres d\'armature.
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width:1300px;">
+<img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width   *1300px;">
 
 
 
@@ -44,98 +44,98 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
-**Général :**
+**Général    ***
 
--    {{PropertyData/fr|Reinforcement Group By}}: spécifie comment les objets armatures doivent être regroupés dans le Tableau des armatures, c\'est-à-dire \"Host\" ou \"Mark\".
+-    {{PropertyData/fr|Reinforcement Group By}}   * spécifie comment les objets armatures doivent être regroupés dans le Tableau des armatures, c\'est-à-dire \"Host\" ou \"Mark\".
 
--    {{PropertyData/fr|Rebar Length Type}}: type de longueur d\'armature spécifie le type de longueur d\'armature utilisé pour les calculs de nomenclature, c\'est-à-dire \"RealLength\" ou \"LengthWithSharpEdges\".
+-    {{PropertyData/fr|Rebar Length Type}}   * type de longueur d\'armature spécifie le type de longueur d\'armature utilisé pour les calculs de nomenclature, c\'est-à-dire \"RealLength\" ou \"LengthWithSharpEdges\".
 
--    {{PropertyData/fr|Column Headers}}: dictionnaire avec column\_data comme clé et tuple (column\_display\_header, column\_sequence) comme valeur.
+-    {{PropertyData/fr|Column Headers}}   * dictionnaire avec column\_data comme clé et tuple (column\_display\_header, column\_sequence) comme valeur.
 
--    {{PropertyData/fr|Column Units}}: dictionnaire avec les clés: \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
+-    {{PropertyData/fr|Column Units}}   * dictionnaire avec les clés   * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
 
--    {{PropertyData/fr|Font Family}}: famille de polices de texte dans Bar Bending Schedule SVG.
+-    {{PropertyData/fr|Font Family}}   * famille de polices de texte dans Bar Bending Schedule SVG.
 
--    {{PropertyData/fr|Font Size}}: taille de la police en mm.
+-    {{PropertyData/fr|Font Size}}   * taille de la police en mm.
 
--    {{PropertyData/fr|Column Width}}: largeur de chaque colonne dans Bar Bending Schedule SVG.
+-    {{PropertyData/fr|Column Width}}   * largeur de chaque colonne dans Bar Bending Schedule SVG.
 
--    {{PropertyData/fr|Row Height}}: hauteur de chaque ligne dans Bar Bending Schedule SVG.
+-    {{PropertyData/fr|Row Height}}   * hauteur de chaque ligne dans Bar Bending Schedule SVG.
 
--    {{PropertyData/fr|SVG Output File}}: fichier de sortie pour écrire la Nomenclature de façonnage des armatures SVG.
+-    {{PropertyData/fr|SVG Output File}}   * fichier de sortie pour écrire la Nomenclature de façonnage des armatures SVG.
 
-**Rebar Shape column data :** données relatives à la colonne forme d\'armature dans le Tableau des armatures
+**Rebar Shape column data    *** données relatives à la colonne forme d\'armature dans le Tableau des armatures
 
--    {{PropertyData/fr|Column Header}}: en-tête de colonne de la colonne de forme d\'armature.
+-    {{PropertyData/fr|Column Header}}   * en-tête de colonne de la colonne de forme d\'armature.
 
--    {{PropertyData/fr|Stirrup Extended Edge Offset}}: décalage des bords d\'extrémité étendus de l\'étrier, de sorte que les bords d\'extrémité de l\'étrier avec un angle plié à 90 degrés ne se chevauchent pas avec les bords de l\'étrier.
+-    {{PropertyData/fr|Stirrup Extended Edge Offset}}   * décalage des bords d\'extrémité étendus de l\'étrier, de sorte que les bords d\'extrémité de l\'étrier avec un angle plié à 90 degrés ne se chevauchent pas avec les bords de l\'étrier.
 
--    {{PropertyData/fr|Rebars Stroke Width}}: largeur de trait des armatures dans la colonne de forme d\'armature.
+-    {{PropertyData/fr|Rebars Stroke Width}}   * largeur de trait des armatures dans la colonne de forme d\'armature.
 
--    {{PropertyData/fr|Rebars Color Style}}: style de couleur des armatures.
+-    {{PropertyData/fr|Rebars Color Style}}   * style de couleur des armatures.
 
-**Rebar Shape Column Dimension Data :** données relatives aux dimensions de forme d\'armature dans la colonne Forme d\'armature
+**Rebar Shape Column Dimension Data    *** données relatives aux dimensions de forme d\'armature dans la colonne Forme d\'armature
 
--    {{PropertyData/fr|Include Dimensions}}: si True, les dimensions de chaque bord d\'armature et les dimensions d\'angle plié seront incluses dans le Tableau des armatures.
+-    {{PropertyData/fr|Include Dimensions}}   * si True, les dimensions de chaque bord d\'armature et les dimensions d\'angle plié seront incluses dans le Tableau des armatures.
 
--    {{PropertyData/fr|Include Units in Dimension Label}}: si la valeur est True, les unités de longueur de bord d\'armature seront affichées dans l\'étiquette de dimension.
+-    {{PropertyData/fr|Include Units in Dimension Label}}   * si la valeur est True, les unités de longueur de bord d\'armature seront affichées dans l\'étiquette de dimension.
 
--    {{PropertyData/fr|Rebar Edge Dimension Units}}: unités à utiliser pour les dimensions de longueur de bord d\'armature.
+-    {{PropertyData/fr|Rebar Edge Dimension Units}}   * unités à utiliser pour les dimensions de longueur de bord d\'armature.
 
--    {{PropertyData/fr|Rebar Edge Dimension Precision}}: nombre de décimales à afficher pour la longueur du bord de l\'armature sous forme d\'étiquette de cote.
+-    {{PropertyData/fr|Rebar Edge Dimension Precision}}   * nombre de décimales à afficher pour la longueur du bord de l\'armature sous forme d\'étiquette de cote.
 
--    {{PropertyData/fr|Dimension Font Family}}: famille de polices du texte de dimension.
+-    {{PropertyData/fr|Dimension Font Family}}   * famille de polices du texte de dimension.
 
--    {{PropertyData/fr|Dimension Police Size}}: taille de la police du texte de dimension.
+-    {{PropertyData/fr|Dimension Police Size}}   * taille de la police du texte de dimension.
 
--    {{PropertyData/fr|Bent Angle Dimension Exclude List}}: liste des angles pliés pour ne pas inclure leurs dimensions.
+-    {{PropertyData/fr|Bent Angle Dimension Exclude List}}   * liste des angles pliés pour ne pas inclure leurs dimensions.
 
--    {{PropertyData/fr|Helical Rebar Dimension Label Format}}: format de l\'étiquette de dimension d\'armature hélicoïdale. Par exemple. \"%L,r=%R,pitch=%P\" où% L -\> Longueur de l\'armature hélicoïdale, % R -\> Rayon d\'hélice de l\'armature hélicoïde
+-    {{PropertyData/fr|Helical Rebar Dimension Label Format}}   * format de l\'étiquette de dimension d\'armature hélicoïdale. Par exemple. \"%L,r=%R,pitch=%P\" où% L -\> Longueur de l\'armature hélicoïdale, % R -\> Rayon d\'hélice de l\'armature hélicoïde
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes :
+L\'outil [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes    *
 
 ### Créer un Tableau d\'armatures 
 
 
 ```python
 getBarBendingSchedule(
-    rebar_objects: Optional[List] = None,
-    column_headers: Optional[Dict[str, Tuple[str, int]]] = None,
-    column_units: Optional[Dict[str, str]] = None,
-    dia_weight_map: Optional[Dict[float, FreeCAD.Units.Quantity]] = None,
-    rebar_length_type: Optional[
+    rebar_objects   * Optional[List] = None,
+    column_headers   * Optional[Dict[str, Tuple[str, int]]] = None,
+    column_units   * Optional[Dict[str, str]] = None,
+    dia_weight_map   * Optional[Dict[float, FreeCAD.Units.Quantity]] = None,
+    rebar_length_type   * Optional[
         Literal["RealLength", "LengthWithSharpEdges"]
     ] = None,
-    reinforcement_group_by: Optional[Literal["Mark", "Host"]] = None,
-    font_family: Optional[str] = None,
-    font_size: float = 5,
-    column_width: float = 60,
-    row_height: float = 30,
-    rebar_shape_column_header: str = "Rebar Shape (mm)",
-    rebar_shape_view_directions: Union[
+    reinforcement_group_by   * Optional[Literal["Mark", "Host"]] = None,
+    font_family   * Optional[str] = None,
+    font_size   * float = 5,
+    column_width   * float = 60,
+    row_height   * float = 30,
+    rebar_shape_column_header   * str = "Rebar Shape (mm)",
+    rebar_shape_view_directions   * Union[
         Union[FreeCAD.Vector, WorkingPlane.Plane],
         List[Union[FreeCAD.Vector, WorkingPlane.Plane]],
     ] = FreeCAD.Vector(0, 0, 0),
-    rebar_shape_stirrup_extended_edge_offset: float = 2,
-    rebar_shape_color_style: str = "shape color",
-    rebar_shape_stroke_width: float = 0.35,
-    rebar_shape_include_dimensions: bool = True,
-    rebar_shape_dimension_font_size: float = 3,
-    rebar_shape_edge_dimension_units: str = "mm",
-    rebar_shape_edge_dimension_precision: int = 0,
-    include_edge_dimension_units_in_dimension_label: bool = False,
-    rebar_shape_bent_angle_dimension_exclude_list: Union[
+    rebar_shape_stirrup_extended_edge_offset   * float = 2,
+    rebar_shape_color_style   * str = "shape color",
+    rebar_shape_stroke_width   * float = 0.35,
+    rebar_shape_include_dimensions   * bool = True,
+    rebar_shape_dimension_font_size   * float = 3,
+    rebar_shape_edge_dimension_units   * str = "mm",
+    rebar_shape_edge_dimension_precision   * int = 0,
+    include_edge_dimension_units_in_dimension_label   * bool = False,
+    rebar_shape_bent_angle_dimension_exclude_list   * Union[
         List[float], Tuple[float, ...]
     ] = (45, 90, 180),
-    helical_rebar_dimension_label_format: str = "%L,r=%R,pitch=%P",
-    output_file: Optional[str] = None,
+    helical_rebar_dimension_label_format   * str = "%L,r=%R,pitch=%P",
+    output_file   * Optional[str] = None,
 ) -> xml.ElementTree.Element
 ```
 
@@ -143,33 +143,33 @@ getBarBendingSchedule(
 
 -    `rebar_objects`est une liste d\'objets \<ArchRebar.\_Rebar\> ou \<rebar2.BaseRebar\>, pour générer le tableau. S\'il n\'est pas fourni, tous les objets ArchRebars et rebar2.BaseRebar avec une marque unique d\'ActiveDocument seront sélectionnés.
 
--    `column_headers`est un dictionnaire avec les clés: \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont un tuple de column\_header et leur numéro de séquence.
+-    `column_headers`est un dictionnaire avec les clés   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont un tuple de column\_header et leur numéro de séquence.
 
-   Exemple : {
-                "Host": ("Member", 1),
-                "Mark": ("Mark", 2),
-                "RebarsCount": ("No. of Rebars", 3),
-                "Diameter": ("Diameter in mm", 4),
-                "RebarLength": ("Length in m/piece", 5),
-                "RebarsTotalLength": ("Total Length in m", 6),
+   Exemple    * {
+                "Host"   * ("Member", 1),
+                "Mark"   * ("Mark", 2),
+                "RebarsCount"   * ("No. of Rebars", 3),
+                "Diameter"   * ("Diameter in mm", 4),
+                "RebarLength"   * ("Length in m/piece", 5),
+                "RebarsTotalLength"   * ("Total Length in m", 6),
             }
             mettez le numéro de séquence de la colonne sur 0 pour masquer la colonne.
 
--    `column_units`est un dictionnaire avec les clés: \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
+-    `column_units`est un dictionnaire avec les clés   * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
 
-   Exemple: {
-                "Diameter": "mm",
-                "RebarLength": "m",
-                "RebarsTotalLength": "m",
+   Exemple   * {
+                "Diameter"   * "mm",
+                "RebarLength"   * "m",
+                "RebarsTotalLength"   * "m",
             }
 
 -    `dia_weight_map`est un dictionnaire avec le diamètre comme clé et le poids correspondant comme valeur.
 
-   Syntaxe: {
-                6: FreeCAD.Units.Quantity("0.222 kg/m"),
-                8: FreeCAD.Units.Quantity("0.395 kg/m"),
-                10: FreeCAD.Units.Quantity("0.617 kg/m"),
-                12: FreeCAD.Units.Quantity("0.888 kg/m"),
+   Syntaxe   * {
+                6   * FreeCAD.Units.Quantity("0.222 kg/m"),
+                8   * FreeCAD.Units.Quantity("0.395 kg/m"),
+                10   * FreeCAD.Units.Quantity("0.617 kg/m"),
+                12   * FreeCAD.Units.Quantity("0.888 kg/m"),
                 ...,
             }
 
@@ -207,7 +207,7 @@ getBarBendingSchedule(
 
 -    `rebar_shape_bent_angle_dimension_exclude_list`spécifie la liste des angles pliés pour ne pas inclure leurs dimensions dans la forme d\'armature SVG.
 
--    `helical_rebar_dimension_label_format`spécifie le format de l\'étiquette de cote d\'armature hélicoïdale en forme d\'armature SVG. Par exemple. \"%L,r=%R,pitch=%P\" où:
+-    `helical_rebar_dimension_label_format`spécifie le format de l\'étiquette de cote d\'armature hélicoïdale en forme d\'armature SVG. Par exemple. \"%L,r=%R,pitch=%P\" où   *
 
    % L -> Longueur de l'armature hélicoïdale
    % R -> rayon d'hélice de l'armature hélicoïdale
@@ -259,7 +259,7 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
 ).rebar_group
 
 # Attribuer Mark aux armatures droites
-for straight_rebar in rebar_group.RebarGroups[1].MainRebars:
+for straight_rebar in rebar_group.RebarGroups[1].MainRebars   *
     straight_rebar.Mark = "main_sb"
 
 
@@ -288,43 +288,43 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
 ).rebar_group
 
 # Attribuer Mark aux armatures en L
-for lshape_rebar in rebar_group.RebarGroups[1].MainRebars:
+for lshape_rebar in rebar_group.RebarGroups[1].MainRebars   *
     lshape_rebar.Mark = "main_lb"
 
 FreeCAD.ActiveDocument.recompute()
 
 COLUMN_UNITS = {
-    "Diameter": "mm",
-    "RebarLength": "m",
-    "RebarsTotalLength": "m",
+    "Diameter"   * "mm",
+    "RebarLength"   * "m",
+    "RebarsTotalLength"   * "m",
 }
 
 COLUMN_HEADERS = {
-    "Host": ("Member", 1),
-    "Mark": ("Mark", 2),
-    "RebarsCount": ("No. of Rebars", 3),
-    "Diameter": ("Diameter in " + COLUMN_UNITS["Diameter"], 4),
-    "RebarLength": ("Length in " + COLUMN_UNITS["RebarLength"] + "/piece", 5),
-    "RebarsTotalLength": ("Total Length in " + COLUMN_UNITS["RebarsTotalLength"], 6),
+    "Host"   * ("Member", 1),
+    "Mark"   * ("Mark", 2),
+    "RebarsCount"   * ("No. of Rebars", 3),
+    "Diameter"   * ("Diameter in " + COLUMN_UNITS["Diameter"], 4),
+    "RebarLength"   * ("Length in " + COLUMN_UNITS["RebarLength"] + "/piece", 5),
+    "RebarsTotalLength"   * ("Total Length in " + COLUMN_UNITS["RebarsTotalLength"], 6),
 }
 
 DIA_WEIGHT_MAP = {
-    6: FreeCAD.Units.Quantity("0.222 kg/m"),
-    8: FreeCAD.Units.Quantity("0.395 kg/m"),
-    10: FreeCAD.Units.Quantity("0.617 kg/m"),
-    12: FreeCAD.Units.Quantity("0.888 kg/m"),
-    14: FreeCAD.Units.Quantity("1.206 kg/m"),
-    16: FreeCAD.Units.Quantity("1.578 kg/m"),
-    18: FreeCAD.Units.Quantity("2.000 kg/m"),
-    20: FreeCAD.Units.Quantity("2.466 kg/m"),
-    22: FreeCAD.Units.Quantity("2.980 kg/m"),
-    25: FreeCAD.Units.Quantity("3.854 kg/m"),
-    28: FreeCAD.Units.Quantity("4.830 kg/m"),
-    32: FreeCAD.Units.Quantity("6.313 kg/m"),
-    36: FreeCAD.Units.Quantity("7.990 kg/m"),
-    40: FreeCAD.Units.Quantity("9.864 kg/m"),
-    45: FreeCAD.Units.Quantity("12.490 kg/m"),
-    50: FreeCAD.Units.Quantity("15.410 kg/m"),
+    6   * FreeCAD.Units.Quantity("0.222 kg/m"),
+    8   * FreeCAD.Units.Quantity("0.395 kg/m"),
+    10   * FreeCAD.Units.Quantity("0.617 kg/m"),
+    12   * FreeCAD.Units.Quantity("0.888 kg/m"),
+    14   * FreeCAD.Units.Quantity("1.206 kg/m"),
+    16   * FreeCAD.Units.Quantity("1.578 kg/m"),
+    18   * FreeCAD.Units.Quantity("2.000 kg/m"),
+    20   * FreeCAD.Units.Quantity("2.466 kg/m"),
+    22   * FreeCAD.Units.Quantity("2.980 kg/m"),
+    25   * FreeCAD.Units.Quantity("3.854 kg/m"),
+    28   * FreeCAD.Units.Quantity("4.830 kg/m"),
+    32   * FreeCAD.Units.Quantity("6.313 kg/m"),
+    36   * FreeCAD.Units.Quantity("7.990 kg/m"),
+    40   * FreeCAD.Units.Quantity("9.864 kg/m"),
+    45   * FreeCAD.Units.Quantity("12.490 kg/m"),
+    50   * FreeCAD.Units.Quantity("15.410 kg/m"),
 }
 
 output_file = str(Path.home() / "BarBendingSchedule.svg")
@@ -356,6 +356,11 @@ BBSfunc.getBarBendingSchedule(
     output_file=output_file,
 )
 ```
+
+
+
+
+[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

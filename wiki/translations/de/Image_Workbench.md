@@ -1,17 +1,17 @@
-# <img alt="Bild Arbeitsbereichssymbol" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/de
+# <img alt="Bild Arbeitsbereichssymbol" src=images/Workbench_Image.svg  style="width   *64px;"> Image Workbench/de
 
 
 {{TOCright}}
 
 ## Einführung
 
-Der <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Bild Arbeitsbereich](Image_Workbench/de.md) verwaltet verschiedene Arten von [Bitmap](bitmap/de.md) Bildern und ermöglicht, diese in FreeCAD zu öffnen.
+Der <img alt="" src=images/Workbench_Image.svg  style="width   *24px;"> [Bild Arbeitsbereich](Image_Workbench/de.md) verwaltet verschiedene Arten von [Bitmap](bitmap/de.md) Bildern und ermöglicht, diese in FreeCAD zu öffnen.
 
 ## Werkzeuge
 
--   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Öffnen\...](Image_Open/de.md): Öffnet ein Bild in einem neuen Ansichtsfenster.
--   <img alt="" src=images/Image_CreateImagePlane.svg  style="width:32px;"> [Bildebene erstellen\...](Image_CreateImagePlane/de.md): Importiert ein Bild auf eine Ebene in der 3D-Ansicht.
--   <img alt="" src=images/Image_Scaling.svg  style="width:32px;"> [Bildebene skalieren](Image_Scaling/de.md): Skaliert ein Bild, das auf eine Ebene importiert wurde.
+-   <img alt="" src=images/Image_Open.svg  style="width   *32px;"> [Öffnen\...](Image_Open/de.md)   * Öffnet ein Bild in einem neuen Ansichtsfenster.
+-   <img alt="" src=images/Image_CreateImagePlane.svg  style="width   *32px;"> [Bildebene erstellen\...](Image_CreateImagePlane/de.md)   * Importiert ein Bild auf eine Ebene in der 3D-Ansicht.
+-   <img alt="" src=images/Image_Scaling.svg  style="width   *32px;"> [Bildebene skalieren](Image_Scaling/de.md)   * Skaliert ein Bild, das auf eine Ebene importiert wurde.
 
 ## Funktionen
 
@@ -33,7 +33,9 @@ Der Versatz des Bildes kann beim Import eingestellt oder später über seine Eig
 
 {{Image Tools navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

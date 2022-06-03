@@ -1,6 +1,6 @@
 # Std Cut/ro
 ---
-- GuiCommand:   Name:Std Cut   MenuLocation:[Shortcut:Ctrl+X   Workbenches:All   SeeAlso:[[Std Copy|Copy](Std_Edit_Menu___Edit]]_→_Cut.md), [Paste](Std_Paste.md), [Delete](Std_Delete.md)---
+- GuiCommand   *   Name   *Std Cut   MenuLocation   *[Shortcut   *Ctrl+X   Workbenches   *All   SeeAlso   *[[Std Copy|Copy](Std_Edit_Menu___Edit]]_→_Cut.md), [Paste](Std_Paste.md), [Delete](Std_Delete.md)---
 
 
 </div>
@@ -30,17 +30,17 @@ To cut other objects you can use the [Std Copy](Std_Copy.md) command followed by
 
 -   Selectați partea care urmează a fi tăiată
 
--   Faceți clic pe {{KEY | [ <img src=images/_Std_Cut.png  style="width:16px"> Tăiere}}
+-   Faceți clic pe {{KEY | [ <img src=images/_Std_Cut.png  style="width   *16px"> Tăiere}}
 
-Același rezultat poate fi obținut prin utilizarea butoanelor din bara de instrumente de editare:
+Același rezultat poate fi obținut prin utilizarea butoanelor din bara de instrumente de editare   *
 
 ![](images/_BarraStrumentiModifica.png ).
 
-Pentru [select](Draft_Select/it.md) mai multe obiecte:
+Pentru [select](Draft_Select/it.md) mai multe obiecte   *
 
 -   folosiți tasta {{KEY/it|CTRL}} făcând clic pe funcțiile pe care doriți să le copiați,
 -   sau în meniul \'\'\'Editați *\' utilizați elementul*\'Caseta de selectare \'\'\' pentru a selecta obiectele incluse într-o anumită zonă,
--   sau în meniul \'\'\'Edit \'\'\' utilizați intrarea {{KEY | [ <img src=images/_Std_SelectAll.png  style="width:16px"> Selectați toate}} pentru a selecta întregul document.
+-   sau în meniul \'\'\'Edit \'\'\' utilizați intrarea {{KEY | [ <img src=images/_Std_SelectAll.png  style="width   *16px"> Selectați toate}} pentru a selecta întregul document.
 
 
 </div>

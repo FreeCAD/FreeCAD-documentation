@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Ship CreateShip
-   Name/fr:Ship Coque
-   MenuLocation:Ship design → Create a new ship
-   Workbenches:[Ship](Ship_Workbench.md)|
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */fr
+   Name   *Ship CreateShip
+   Name/fr   *Ship Coque
+   MenuLocation   *Ship design → Create a new ship
+   Workbenches   *[Ship](Ship_Workbench.md)|
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Ship CreateShip/fr
@@ -14,7 +14,7 @@
 
 Créer un nouveau bateau ou une nouvelle instance de bateau.
 
-Ship travaille sur des **entités de bateau**, qui doivent être créées au-dessus de la géométrie fournie. La géométrie doit être un solide, ou un ensemble de solides. Les critères suivants doivent être pris en compte :
+Ship travaille sur des **entités de bateau**, qui doivent être créées au-dessus de la géométrie fournie. La géométrie doit être un solide, ou un ensemble de solides. Les critères suivants doivent être pris en compte    *
 
 -   Toute la géométrie de la coque doit être fournie (y compris les corps symétriques).
 -   La géométrie tribord doit être incluse dans le domaine négatif *y*.
@@ -33,11 +33,11 @@ Les données les plus pertinentes du bateau doivent être introduites (le bateau
 
 ## Données du bateau 
 
-Les principales dimensions doivent être présentées ici :
+Les principales dimensions doivent être présentées ici    *
 
--   Length : Longueur entre les perpendiculaires.
--   Beam : Largeur totale du bateau.
--   Draft : Tirant d\'eau nominal.
+-   Length    * Longueur entre les perpendiculaires.
+-   Beam    * Largeur totale du bateau.
+-   Draft    * Tirant d\'eau nominal.
 
 ![](images/FreeCAD-Ship-S60ShipCreationFront.png ) 
 *Annotations de longueur*
@@ -55,6 +55,14 @@ Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de bateau n
 
 -   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
 -   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
+
+
+
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

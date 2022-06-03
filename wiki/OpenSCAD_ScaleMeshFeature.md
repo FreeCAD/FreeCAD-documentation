@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:OpenSCAD ScaleMeshFeature
-   MenuLocation:OpenSCAD → Scale Mesh Feature
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Mesh Scale](Mesh_Scale.md)
+- GuiCommand   *
+   Name   *OpenSCAD ScaleMeshFeature
+   MenuLocation   *OpenSCAD → Scale Mesh Feature
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso   *[Mesh Scale](Mesh_Scale.md)
 ---
 
 # OpenSCAD ScaleMeshFeature
@@ -27,7 +27,7 @@ Creates a new scaled mesh object with independent scaling for each axis.
 ## Notes
 
 -   The function does not modify the existing mesh, but returns a new mesh.
--   The function can be accessed via python:
+-   The function can be accessed via python   *
 
 
 ```python

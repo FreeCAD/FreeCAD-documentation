@@ -139,7 +139,7 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysunków technicznych.
 
-### Właściwości i modyfikacje 
+### Atrybuty i modyfikacje 
 
 -   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *32px;"> [Wybierz atrybuty linii, odstęp kaskadowy i odległość delta](TechDraw_ExtensionSelectLineAttributes/pl.md)   * wybierz atrybuty *(styl, szerokość i kolor)* dla nowych linii pomocniczych i linii środkowych oraz określa odstęp kaskadowy i odległość delta. {{Version/pl|0.20}}
 
@@ -181,7 +181,7 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width   *32px;"> [Geometria pomocnicza dla gwintu śruby, widok z boku](TechDraw_ExtensionThreadBoltSide/pl.md)   * dodaje symbol gwintu do widoku bocznego śruby / nakrętki / pręta gwintowanego. {{Version/pl|0.20}}
 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width   *32px;"> [Geometria pomocnicza dla śruby, widok od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md)   * dodaje symbol gwintu do widoku od dołu dla śruby / nakrętki / pręta gwintowanego . {{Version/pl|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width   *32px;"> [Geometria pomocnicza dla gwintu śruby, widok od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md)   * dodaje symbol gwintu do widoku od dołu dla śruby / nakrętki / pręta gwintowanego . {{Version/pl|0.20}}
 
 -   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width   *32px;"> [Utwórz wierzchołki w przecięciu](TechDraw_ExtensionVertexAtIntersection/pl.md)   * tworzy wierzchołki pomocnicze w miejscu przecięcia wybranych krawędzi. {{Version/pl|0.20}}
 

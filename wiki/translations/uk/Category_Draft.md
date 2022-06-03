@@ -1,6 +1,8 @@
 # Category:Draft/uk
 This category list pages related to the \"User\_Documentation/uk\" and \"Workbenches/uk\"
 
+[Category   *User Documentation/uk](Category   *User_Documentation/uk.md) [Category   *Workbenches/uk](Category   *Workbenches/uk.md)
+
 ### Contents
 
 |     |     |     |

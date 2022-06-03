@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Std ViewBoxZoom
-   Name/fr:Std Zoom fenêtre
-   MenuLocation:Affichage → Zoom → Zoom fenêtre
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**B**
-   SeeAlso:[Std Zoom avant](Std_ViewZoomIn/fr.md), [Std Zoom arrière](Std_ViewZoomOut/fr.md)
+- GuiCommand   */fr
+   Name   *Std ViewBoxZoom
+   Name/fr   *Std Zoom fenêtre
+   MenuLocation   *Affichage → Zoom → Zoom fenêtre
+   Workbenches   *Tous
+   Shortcut   ***Ctrl**+**B**
+   SeeAlso   *[Std Zoom avant](Std_ViewZoomIn/fr.md), [Std Zoom arrière](Std_ViewZoomOut/fr.md)
 ---
 
 # Std ViewBoxZoom/fr
@@ -16,9 +16,9 @@ La commande **Std Zoom fenêtre** effectue un zoom avant sur une zone rectangula
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Sélectionnez l\'option **Affichage → Zoom → <img src="images/Std_ViewBoxZoom.svg" width=16px> Zoom fenêtre** dans le menu.
-    -   Utilisez le raccourci clavier: **Ctrl**+**B**.
+    -   Utilisez le raccourci clavier   * **Ctrl**+**B**.
 2.  Faites glisser un rectangle dans la vue 3D.
 
 

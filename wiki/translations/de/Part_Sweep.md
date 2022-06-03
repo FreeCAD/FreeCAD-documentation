@@ -33,7 +33,7 @@ Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  s
 
 -   **Pfad**   * kann eine Linie (Kante) oder eine Reihe von Verbindungslinien, Draht oder verschiedene Grundelemente des Arbeitsbereiches Part, Formelemente des Arbeitsbereiches Draft oder eine Skizze sein. Der Pfad wird oft direkt aus dem Hauptmodellfenster ausgewählt, kann aber auch in der [Baumansicht](Tree_view/de.md) ausgewählt werden. (Reiter Modell der [Combo-Ansicht](Combo_View.md)). Der Pfad kann entweder eine ganze geeignete Form oder eine geeignete Unterkomponente einer weiter fortgeschrittenen Form sein (z. B. eine Kante einer <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Part Würfel](Part_Box/de.md) ausgewählt werden als Pfad). Der Pfad kann entweder offen oder geschlossen sein und erzeugt somit entweder eine offene oder geschlossene Austragung. Ein geschlossener Pfad, wie z.B. ein Teilkreis, führt zu einer geschlossenen Austragung. Beispielsweise erzeugt die Austragung eines kleineren Kreises um eine Bahn mit einem größeren Kreis einen Torus.
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
+-   [App-Link](App_Link/de.md)-Objekte, die zu geeigneten Objektarten verlinkt sind und [App-Part](App_Part/de.md)-Container, die geeignete sichtbare Objekte enthalten, können auch als Profile und Pfade verwendet werden. <small>(v0.20)</small> 
 
 ## Eigenschaften
 

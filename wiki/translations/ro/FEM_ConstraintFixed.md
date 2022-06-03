@@ -1,6 +1,6 @@
 # FEM ConstraintFixed/ro
 ---
-- GuiCommand:/ro   Name:FEM ConstraintFixed   Name/ro:FEM ConstraintFixed   MenuLocation:Model → Mechanical Constraints → Constraint fixed   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand   */ro   Name   *FEM ConstraintFixed   Name/ro   *FEM ConstraintFixed   MenuLocation   *Model → Mechanical Constraints → Constraint fixed   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>
@@ -20,7 +20,7 @@ Creează o Constrângere prin MEF pentru o intrare geometrică fixă prin blocar
 
 <div class="mw-translate-fuzzy">
 
-1.  Click on <img alt="" src=images/FEM_ConstraintFixed.png  style="width:32px;"> sau alegeți **Model** → **Mechanical Constraints** → **<img src="images/FEM_ConstraintFixed.png" width=32px> Constraint fixed** din meniul de sus.
+1.  Click on <img alt="" src=images/FEM_ConstraintFixed.png  style="width   *32px;"> sau alegeți **Model** → **Mechanical Constraints** → **<img src="images/FEM_ConstraintFixed.png" width=32px> Constraint fixed** din meniul de sus.
 2.  Selectați în vederea 3D obiectul căruia să i se aplice constrângerea și care poate fi
     1.  vertices (corners)
     2.  edges

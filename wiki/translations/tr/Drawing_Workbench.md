@@ -1,7 +1,7 @@
 # Drawing Workbench/tr
 **Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
-<img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
+<img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width   *128px;">
 
 ## Giriş
 
@@ -10,37 +10,37 @@ The Drawing module allows you to put your 3D work on paper. That is, to put view
 
 {{TOCright}}
 
-<img alt="" src=images/Drawing_extraction.png  style="width:600px;">
+<img alt="" src=images/Drawing_extraction.png  style="width   *600px;">
 
 ## Tools
 
 These are tools for creating, configuring and exporting 2D drawing sheets
 
--   <img alt="" src=images/Drawing_New.png  style="width:32px;"> [Open scalable vector graphic](Drawing_Open_SVG.md): Opens a drawing sheet previously saved as an SVG file
+-   <img alt="" src=images/Drawing_New.png  style="width   *32px;"> [Open scalable vector graphic](Drawing_Open_SVG.md)   * Opens a drawing sheet previously saved as an SVG file
 
--   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [New A3 landscape drawing](Drawing_Landscape_A3.md): Creates a new drawing sheet from FreeCAD\'s default A3 template
+-   <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [New A3 landscape drawing](Drawing_Landscape_A3.md)   * Creates a new drawing sheet from FreeCAD\'s default A3 template
 
--   <img alt="" src=images/Drawing_View.png  style="width:32px;"> [Insert a view](Drawing_View.md): Inserts a view of the selected object in the active drawing sheet
+-   <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [Insert a view](Drawing_View.md)   * Inserts a view of the selected object in the active drawing sheet
 
--   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> [Annotation](Drawing_Annotation.md): Adds an annotation to the current drawing sheet
+-   <img alt="" src=images/Drawing_Annotation.png  style="width   *32px;"> [Annotation](Drawing_Annotation.md)   * Adds an annotation to the current drawing sheet
 
--   <img alt="" src=images/Drawing_Clip.png  style="width:32px;"> [Clip](Drawing_Clip.md): Adds a clip group to the current drawing sheet
+-   <img alt="" src=images/Drawing_Clip.png  style="width   *32px;"> [Clip](Drawing_Clip.md)   * Adds a clip group to the current drawing sheet
 
--   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> [Open Browser](Drawing_Openbrowser.md): Opens a preview of the current sheet in the browser
+-   <img alt="" src=images/Drawing_Openbrowser.png  style="width   *32px;"> [Open Browser](Drawing_Openbrowser.md)   * Opens a preview of the current sheet in the browser
 
--   <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Ortho Views](Drawing_Orthoviews.md): Automatically creates orthographic views of an object on the current drawing sheet
+-   <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Ortho Views](Drawing_Orthoviews.md)   * Automatically creates orthographic views of an object on the current drawing sheet
 
--   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Symbol](Drawing_Symbol.md): Adds the contents of a SVG file as a symbol on the current drawing sheet
+-   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Symbol](Drawing_Symbol.md)   * Adds the contents of a SVG file as a symbol on the current drawing sheet
 
--   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Draft View](Draft_Drawing.md): Inserts a special Draft view of the selected object in the current drawing sheet
+-   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Draft View](Draft_Drawing.md)   * Inserts a special Draft view of the selected object in the current drawing sheet
 
--   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width:32px;"> [Spreadsheet View](Drawing_SpreadsheetView.md): Inserts a view of a selected spreadsheet in the current drawing sheet
+-   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width   *32px;"> [Spreadsheet View](Drawing_SpreadsheetView.md)   * Inserts a view of a selected spreadsheet in the current drawing sheet
 
--   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Save sheet](Drawing_Save.md): Saves the current sheet as a SVG file
+-   <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Save sheet](Drawing_Save.md)   * Saves the current sheet as a SVG file
 
--   [Project Shape](Drawing_ProjectShape.md): Creates a projection of the selected object (Source) in the 3D view.
+-   [Project Shape](Drawing_ProjectShape.md)   * Creates a projection of the selected object (Source) in the 3D view.
 
--    **Note:**the [Draft Drawing](Draft_Drawing.md) tool is used with [Draft objects](Draft_Workbench.md). It has some additional capabilities over the Drawing tools, and supports specific objects like [Draft dimensions](Draft_Dimension.md).
+-    **Note   ***the [Draft Drawing](Draft_Drawing.md) tool is used with [Draft objects](Draft_Workbench.md). It has some additional capabilities over the Drawing tools, and supports specific objects like [Draft dimensions](Draft_Dimension.md).
 
 ## Workflow
 
@@ -70,7 +70,7 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 ## External links 
 
--   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
+-   [Intro to mechanical drawing on Youtube - by Normal Universe](https   *//www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
 {{docnav/tr|Part Workbench/tr|Raytracing Workbench/tr}}
@@ -78,7 +78,9 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 {{Drawing Tools navi
 
-}}
+}} 
+
+[Category   *Obsolete Workbenches](Category_Obsolete_Workbenches.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:FEM_FemMesh2Mesh
-   Name/it:Converti mesh FEM in mesh
-   MenuLocation:Mesh → Converti mesh FEM in mesh
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
+- GuiCommand   */it
+   Name   *FEM_FemMesh2Mesh
+   Name/it   *Converti mesh FEM in mesh
+   MenuLocation   *Mesh → Converti mesh FEM in mesh
+   Workbenches   *[FEM](FEM_Workbench/it.md)
+   Shortcut   *
+   SeeAlso   *[Tutorial di FEM](FEM_tutorial/it.md)
 ---
 
 # FEM FemMesh2Mesh/it
@@ -38,7 +38,7 @@ Non vengono presi in considerazione gli elementi bidimensionali della mesh FEM. 
 
 ## Script
 
-Esempioe:
+Esempioe   *
 
 -   Caricare l\'esempio FreeCAD\'s 3D FEM dall\'ambiente Start ed eseguire il seguente codice
 
@@ -71,7 +71,7 @@ Selezionare una mesh e eseguire il seguente script python
 ```python
 import Mesh
 
-def extend_by_triangle(i, j, k):
+def extend_by_triangle(i, j, k)   *
     triangle = [input_mesh.getNodeById(element_nodes[i]),
                 input_mesh.getNodeById(element_nodes[j]),
                 input_mesh.getNodeById(element_nodes[k])]
@@ -80,11 +80,11 @@ def extend_by_triangle(i, j, k):
 selection = FreeCADGui.Selection.getSelection()
 input_mesh = App.ActiveDocument.getObject(selection[0].Name).FemMesh
 output_mesh = []
-for element in input_mesh.Faces:
+for element in input_mesh.Faces   *
     element_nodes = input_mesh.getElementNodes(element)
-    if len(element_nodes) in [3, 6]:  # tria3 or tria6 (ignoring mid-nodes)
+    if len(element_nodes) in [3, 6]   *  # tria3 or tria6 (ignoring mid-nodes)
         extend_by_triangle(0, 1, 2)
-    elif len(element_nodes) in [4, 8]:  # quad4 or quad8 (ignoring mid-nodes)
+    elif len(element_nodes) in [4, 8]   *  # quad4 or quad8 (ignoring mid-nodes)
         extend_by_triangle(0, 1, 2)
         extend_by_triangle(2, 3, 0)
 

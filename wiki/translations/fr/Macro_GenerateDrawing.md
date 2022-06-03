@@ -4,11 +4,11 @@
 |Name/fr=GenerateDrawing
 |Description=Macro pour la génération automatique de dessins avec 3 projections normales et une isométrique.
 |Author=PR-DC
-|Download=[https://wiki.freecadweb.org/File:GenerateDrawing.svg Icône de la barre d'outils]
+|Download=[https   *//wiki.freecadweb.org/File   *GenerateDrawing.svg Icône de la barre d'outils]
 |Date=2022-01-08
 |Version=1.0.0
 |FCVersion=0.18.4 et au-dessus
-|SeeAlso=[https://github.com/PR-DC/PRDC_GenerateDrawing_FC Dépôt Github]
+|SeeAlso=[https   *//github.com/PR-DC/PRDC_GenerateDrawing_FC Dépôt Github]
 }}
 
 ## Description
@@ -31,7 +31,7 @@ Icône de la barre d\'outils ![](images/GenerateDrawing.svg )
 {{MacroCode|code=
 # Macro for automatic drawing generation 
 # with 3 normal projections and one isometric.
-# Author: Milos Petrasinovic <mpetrasinovic@pr-dc.com>
+# Author   * Milos Petrasinovic <mpetrasinovic@pr-dc.com>
 # PR-DC, Republic of Serbia
 # info@pr-dc.com
 # 
@@ -39,7 +39,7 @@ Icône de la barre d\'outils ![](images/GenerateDrawing.svg )
 #
 # Copyright (C) 2022 PRDC <info@pr-dc.com>
 # 
-# This program is free software: you can redistribute it and/or modify
+# This program is free software   * you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License as 
 # published by the Free Software Foundation, either version 3 of the 
 # License, or (at your option) any later version.
@@ -50,7 +50,7 @@ Icône de la barre d\'outils ![](images/GenerateDrawing.svg )
 # GNU Lesser General Public License for more details.
 #  
 # You should have received a copy of the GNU Lesser General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# along with this program.  If not, see <https   *//www.gnu.org/licenses/>.
 #
 #  PARAMS 
 paper = [420, 297] # A3 paper size
@@ -69,13 +69,13 @@ __Author__ = 'Milos Petrasinovic <mpetrasinovic@pr-dc.com>'
 __Version__ = '1.0.0'
 __Date__ = '2022-01-07'
 __License__ = 'GPL-3.0-or-later'
-__Web__ = 'https://github.com/PR-DC/PRDC_GenerateDrawing_FC'
-__Wiki__ = 'https://wiki.freecadweb.org/Macro_GenerateDrawing'
+__Web__ = 'https   *//github.com/PR-DC/PRDC_GenerateDrawing_FC'
+__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_GenerateDrawing'
 __Icon__ = 'GenerateDrawing.svg'
 __Help__ = 'Open model and run the macro program!'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.18'
-__Communication__ = 'https://github.com/PR-DC/PRDC_GenerateDrawing_FC/issues/'
+__Communication__ = 'https   *//github.com/PR-DC/PRDC_GenerateDrawing_FC/issues/'
 __Files__ = 'GenerateDrawing.svg'
 
 import FreeCAD as App
@@ -85,7 +85,7 @@ import Draft
 import math
 import os
 
-if not os.path.isabs(template_file):
+if not os.path.isabs(template_file)   *
     template_file = os.path.dirname(__file__) + '\\' + template_file
 print(template_file)
 
@@ -94,21 +94,21 @@ doc_gui = Gui.activeDocument()
 Gui.activateWorkbench("TechDrawWorkbench")
 shapes = []
 
-def GetShapes(objs, shapes):
-    for obj in objs:
-        if obj.TypeId == 'App::DocumentObjectGroup':
+def GetShapes(objs, shapes)   *
+    for obj in objs   *
+        if obj.TypeId == 'App   *   *DocumentObjectGroup'   *
             GetShapes(obj.OutList, shapes)
-        elif hasattr(obj, "Shape") and doc_gui.getObject(obj.Name).Visibility:
+        elif hasattr(obj, "Shape") and doc_gui.getObject(obj.Name).Visibility   *
             shapes.append(obj)
     return shapes
     
-if doc is not None:
+if doc is not None   *
     shapes = GetShapes(doc.RootObjects, shapes)
-    if len(shapes):
-        if len(shapes) == 1:
+    if len(shapes)   *
+        if len(shapes) == 1   *
             model = shapes[0]
-        else:
-            model = doc.addObject("Part::Compound", "DrawingModel")
+        else   *
+            model = doc.addObject("Part   *   *Compound", "DrawingModel")
             model.Links = shapes
             doc.recompute()
         
@@ -121,7 +121,7 @@ if doc is not None:
         Isometric = Draft.makeShape2DView(model, App.Vector(0.57735, 0.57735, 0.57735))
         doc.recompute()
         IBB = Isometric.Shape.BoundBox
-        if App.Version()[1] < "19":
+        if App.Version()[1] < "19"   *
             Xrot = IBB.XMin+(IBB.XMax-IBB.XMin)/2
             Yrot = IBB.YMin+(IBB.YMax-IBB.YMin)/2
             Draft.rotate(Isometric, -120, center=App.Vector(Xrot, Yrot, 0), axis=App.Vector(0, 0, 1), copy=False)
@@ -130,40 +130,40 @@ if doc is not None:
         IsometricBB = [IBB.XMax-IBB.XMin, IBB.YMax-IBB.YMin]
         
         doc.removeObject(Isometric.Name)
-        if len(shapes) > 1:
+        if len(shapes) > 1   *
             doc.removeObject(model.Name)
-            for obj in shapes:
+            for obj in shapes   *
                 doc_gui.getObject(obj.Name).Visibility = True
                 
         # Page scale
         p1 = border[2]/(X+dx+Z)
         p2 = border[3]/(Y+dy+Z)
         
-        if p1 < 1 or p2 < 1:
+        if p1 < 1 or p2 < 1   *
             # Decrease
-            if p1 > p2:
+            if p1 > p2   *
                 s = math.ceil(1/p2)
-            else:
+            else   *
                 s = math.ceil(1/p1)
             s = 1/s
-            scale_str = "1:"+str(s)
-        else:
+            scale_str = "1   *"+str(s)
+        else   *
             # Increase
-            if p1 > p2:
+            if p1 > p2   *
                 s = math.floor(p2)
-            else:
+            else   *
                 s = math.floor(p1)
-            scale_str = str(s)+":1"
+            scale_str = str(s)+"   *1"
         
         # Add page with template
-        page = doc.addObject('TechDraw::DrawPage', 'Page')
-        template = doc.addObject('TechDraw::DrawSVGTemplate', 'Template')
+        page = doc.addObject('TechDraw   *   *DrawPage', 'Page')
+        template = doc.addObject('TechDraw   *   *DrawSVGTemplate', 'Template')
         template.Template = template_file
         page.Template = template
         page.Scale = s
         
         # Add project group views
-        views = doc.addObject('TechDraw::DrawProjGroup', 'ProjGroup')
+        views = doc.addObject('TechDraw   *   *DrawProjGroup', 'ProjGroup')
         views.AutoDistribute = False
         page.addView(views)
         views.Source = shapes
@@ -171,7 +171,7 @@ if doc is not None:
         Top = views.addProjection('Front')
         Top.Label = "Top"
         views.Anchor.Direction = App.Vector(0, 0, 1)
-        if App.Version()[1] >= "19":
+        if App.Version()[1] >= "19"   *
             views.Anchor.XDirection = App.Vector(1, 0, 0)
         views.Anchor.RotationVector = App.Vector(1, 0, 0)
         views.Anchor.recompute()
@@ -182,16 +182,16 @@ if doc is not None:
         Left.Label = "Left"
         
         # Isometric view
-        Isometric = doc.addObject('TechDraw::DrawViewPart', 'Isometric')
+        Isometric = doc.addObject('TechDraw   *   *DrawViewPart', 'Isometric')
         page.addView(Isometric)
         Isometric.Source = shapes
         Isometric.ScaleType = "Custom"
         Isometric.Scale = s/2
         Isometric.Label = "Isometric"
         Isometric.Direction = App.Vector(0.57735, 0.57735, 0.57735)
-        if App.Version()[1] >= "19":
+        if App.Version()[1] >= "19"   *
             Isometric.XDirection = App.Vector(0.57735, 0.57735, 0.57735)
-        else: 
+        else   * 
             Isometric.Rotation = -120.00
         Isometric.recompute()
            
@@ -228,23 +228,23 @@ if doc is not None:
         doc.recompute()        
         doc_gui.getObject(page.Name).show()
         Gui.updateGui()
-    else:
+    else   *
         msgBox = QtGui.QMessageBox()
         msgBox.setWindowTitle("Error")
         msgBox.setText("No shapes for drawing!")
         msgBox.exec_()
-        App.Console.PrintError("\nError: No shapes for drawing!\n")
-else:
+        App.Console.PrintError("\nError   * No shapes for drawing!\n")
+else   *
     msgBox = QtGui.QMessageBox()
     msgBox.setWindowTitle("Error")
     msgBox.setText("No active document!")
     msgBox.exec_()
-    App.Console.PrintError("\nError: No active document!\n")
+    App.Console.PrintError("\nError   * No active document!\n")
 }}
 
 ## Liens
 
-La discussion du forum [New Macros : GenerateViews et GenerateDrawing](https://forum.freecadweb.org/viewtopic.php?f=22&t=65135)
+La discussion du forum [New Macros    * GenerateViews et GenerateDrawing](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=65135)
 
 
 

@@ -31,7 +31,7 @@ There are many commands that require selection of shapes or objects present in t
 
 *Task panel that opens when editing an [Arch Component](Arch_Component.md). The panel waits for the user to select objects that can be added or subtracted from the component.*
 
-**Note:** Please notice that switching from the **Tasks** tab to the **Model** tab does not terminate the active command; the task will still be running in the background. The user is responsible for properly terminating or aborting the active command before starting a different task; leaving a task running may produce errors when trying to launch other tools.
+**Note   *** Please notice that switching from the **Tasks** tab to the **Model** tab does not terminate the active command; the task will still be running in the background. The user is responsible for properly terminating or aborting the active command before starting a different task; leaving a task running may produce errors when trying to launch other tools.
 
 ## Примечания
 
@@ -42,16 +42,16 @@ There are many commands that require selection of shapes or objects present in t
 
 **Пожалуйста, переформулируйте и обновите этот раздел**
 
-See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Call that a Task Dialog widget can use to close the Task View. It can be closed with \"this-\>close()\", but that only closes the lower part of the view, not that view itself.
+See [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Call that a Task Dialog widget can use to close the Task View. It can be closed with \"this-\>close()\", but that only closes the lower part of the view, not that view itself.
 
-Using python: 
+Using python   * 
 ```python
 Gui.Control.closeDialog()
 ```
 
-Using c++: 
+Using c++   * 
 ```python
-Gui::Control().closeDialog();
+Gui   *   *Control().closeDialog();
 ```
 
 

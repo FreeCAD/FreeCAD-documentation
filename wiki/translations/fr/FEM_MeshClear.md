@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM MeshClear
-   Name/fr:FEM Supprimer maillage MEF
-   MenuLocation:Menu contextuel sur l'objet maillé → Effacer le maillage FEM
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM MeshClear
+   Name/fr   *FEM Supprimer maillage MEF
+   MenuLocation   *Menu contextuel sur l'objet maillé → Effacer le maillage FEM
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshClear/fr
@@ -15,7 +15,7 @@ Permet à l\'utilisateur de réinitialiser le maillage à partir de l\'objet mai
 
 ## Utilisation
 
-1.  Cliquez avec le bouton droit de la souris sur un objet maillé FEM <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:16px;"> [Netgen](FEM_MeshNetgenFromShape/fr.md) ou <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:16px;"> [Gmsh](FEM_MeshGmshFromShape/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
+1.  Cliquez avec le bouton droit de la souris sur un objet maillé FEM <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *16px;"> [Netgen](FEM_MeshNetgenFromShape/fr.md) ou <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *16px;"> [Gmsh](FEM_MeshGmshFromShape/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Sélectionnez l\'option **<img src="images/FEM_MeshClear.svg" width=16px> Effacer le maillage FEM** dans le menu contextuel.
 
 ## Remarques

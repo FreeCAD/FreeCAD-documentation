@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Arch Frame
-   Name/de:Arch Rahmen
-   MenuLocation:Arch → Rahmen
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**F** **R**
-   SeeAlso:[Arch Wand](Arch_Wall/de.md), [Arch Struktur](Arch_Structure/de.md)
+- GuiCommand   */de
+   Name   *Arch Frame
+   Name/de   *Arch Rahmen
+   MenuLocation   *Arch → Rahmen
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   Shortcut   ***F** **R**
+   SeeAlso   *[Arch Wand](Arch_Wall/de.md), [Arch Struktur](Arch_Structure/de.md)
 ---
 
 # Arch Frame/de
@@ -14,7 +14,7 @@
 
 Das **<img src="images/Arch_Frame.svg" width=16px> [Arch Rahmen](Arch_Frame/de.md)**-Werkzeug wird verwendet, um alle Arten von Rahmenobjekten basierend auf einem Profil und einem Layout zu erstellen. Das Profil wird entlang der Kanten des Layouts extrudiert, bei dem es sich um ein beliebiges 2D-Objekt handeln kann, z. B. ein [Skizze](Sketcher_Workbench/de.md) oder ein [Entwurfsobjekt](Draft_Workbench/de.md). Es ist besonders nützlich, um Geländer oder Rahmenwände zu erstellen. Rahmenobjekte können dann leicht in [Wände](Arch_Wall/de.md) oder [Struktur](Arch_Structure/de.md)-Objekte umgewandelt werden.
 
-<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Frame_example.jpg  style="width   *640px;"> 
 *Rahmenobjekt erstellt aus einem [Entwurf orthogonales Feld](Draft_OrthoArray/de.md) aus einer [Entwurf Linie](Draft_Line/de.md), unter Verwendung eines [Kreises](Draft_Circle/de.md) als Profil*
 
 ## Anwendung
@@ -31,24 +31,24 @@ Das **<img src="images/Arch_Frame.svg" width=16px> [Arch Rahmen](Arch_Frame/de.m
 
 ## Eigenschaften
 
--    {{PropertyData/de|Basis}}: Das Layout, auf dem dieser Rahmen basiert.
+-    {{PropertyData/de|Basis}}   * Das Layout, auf dem dieser Rahmen basiert.
 
--    {{PropertyData/de|Profil}}: Das Profil, auf dem dieser Rahmen basiert.
+-    {{PropertyData/de|Profil}}   * Das Profil, auf dem dieser Rahmen basiert.
 
--    {{PropertyData/de|Ausrichten}}: Legt fest, ob das Profil gedreht werden muss, um die (Hoch)-Achse an jeder Kante auszurichten.
+-    {{PropertyData/de|Ausrichten}}   * Legt fest, ob das Profil gedreht werden muss, um die (Hoch)-Achse an jeder Kante auszurichten.
 
--    {{PropertyData/de|Versatz}}: Ein optionaler Abstand zwischen Layout- und Rahmen-Objekt.
+-    {{PropertyData/de|Versatz}}   * Ein optionaler Abstand zwischen Layout- und Rahmen-Objekt.
 
--    {{PropertyData/de|Drehung}}: Die Drehung des Profils um die Extrusionsachse.
+-    {{PropertyData/de|Drehung}}   * Die Drehung des Profils um die Extrusionsachse.
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Rahmen Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch Verwendung der folgenden Funktionen verwendet werden: 
+Das Rahmen Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch Verwendung der folgenden Funktionen verwendet werden   * 
 ```python
 Frame = makeFrame(baseobj, profile)
 ```
@@ -61,7 +61,7 @@ Frame = makeFrame(baseobj, profile)
 
 -    `profile`ist ein extrudierbares 2D-Objekt, das Fläche oder geschlossene Linienzüge enthält.
 
-Beispiel: 
+Beispiel   * 
 ```python
 import Draft, Arch
 

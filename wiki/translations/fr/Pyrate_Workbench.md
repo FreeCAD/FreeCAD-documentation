@@ -14,5 +14,9 @@ Cet atelier est un nouveau style d\'atelier. Cela signifie qu\'il est prévu de 
 
 
 
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+
+
+
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Pyrate Workbench/fr

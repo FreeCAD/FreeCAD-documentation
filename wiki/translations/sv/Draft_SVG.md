@@ -3,7 +3,7 @@
 
 ## Description
 
-Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Open](Std_Open.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import.md) and <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) commands to handle the [SVG](SVG.md) file format.
+Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Std Open](Std_Open.md), <img alt="" src=images/Std_Import.svg  style="width   *24px;"> [Std Import](Std_Import.md) and <img alt="" src=images/Std_Export.svg  style="width   *24px;"> [Std Export](Std_Export.md) commands to handle the [SVG](SVG.md) file format.
 
 ![](images/Screenshot_inkscape.jpg ) 
 *Inkscape drawing exported to SVG, which is subsequently opened in FreeCAD*
@@ -13,7 +13,7 @@ Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  
 
 ### Öppna
 
-Denna funktion importerar SVG file som redigerbara 2D objekt, i motsats till den inbyggda Ritningsmodulen vilken importerar svg filer som pappersritningar. Följande SVG objekt importeras för närvarande:
+Denna funktion importerar SVG file som redigerbara 2D objekt, i motsats till den inbyggda Ritningsmodulen vilken importerar svg filer som pappersritningar. Följande SVG objekt importeras för närvarande   *
 
 -   PATH objekt med M, C, L eller A kommandon
 -   RECT objekt
@@ -21,7 +21,7 @@ Denna funktion importerar SVG file som redigerbara 2D objekt, i motsats till den
 
 </div>
 
-The following SVG objects can be imported:
+The following SVG objects can be imported   *
 
 -   PATH objects
 -   LINE objects
@@ -33,14 +33,14 @@ The following SVG objects can be imported:
 
 ### Limitations
 
-FreeCAD will not import path objects that have only one point ([forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
+FreeCAD will not import path objects that have only one point ([forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
 
 
 <div class="mw-translate-fuzzy">
 
 ### Exportera
 
-Följande objekt kan exporteras i en SVG fil:
+Följande objekt kan exporteras i en SVG fil   *
 
 -   Linjer och trådar (polylines)
 -   Cirkelbågar och cirklar
@@ -51,7 +51,7 @@ Följande objekt kan exporteras i en SVG fil:
 
 </div>
 
-The following FreeCAD objects can be exported:
+The following FreeCAD objects can be exported   *
 
 -   Lines and wires (polylines)
 -   Arcs and circles
@@ -75,19 +75,19 @@ When exporting, a User Unit (px) equals one millimeter.
 
 When importing, the width, height and viewBox attributes are respected. All elements are scaled to their size in millimeters, which is FreeCAD\'s internal unit. If the SVG does not contain information on its physical size, it is assumed to have a 90 DPI resolution. Using absolute units in attributes inside the SVG should be avoided. Relative units like em, ex and % are currently not supported.
 
-The [Inkscape](https://inkscape.org/) SVG Editor currently works only with 90 DPI documents. No matter which unit is selected in Inkscape. All the output has to be considered converted to 90 DPI and rounded to 6 decimal places. As FreeCAD (and the SVG standard) is agnostic to the precision of rounding done in Inkscape these values will not be rounded on input. And odd values in millimeter will remain. If you need the SVG import not to be rounded, work on User Units (px) in Inkscape. Scaling can be done after the import in FreeCAD or by changing the width, height and viewbox attributes.
+The [Inkscape](https   *//inkscape.org/) SVG Editor currently works only with 90 DPI documents. No matter which unit is selected in Inkscape. All the output has to be considered converted to 90 DPI and rounded to 6 decimal places. As FreeCAD (and the SVG standard) is agnostic to the precision of rounding done in Inkscape these values will not be rounded on input. And odd values in millimeter will remain. If you need the SVG import not to be rounded, work on User Units (px) in Inkscape. Scaling can be done after the import in FreeCAD or by changing the width, height and viewbox attributes.
 
 
 <div class="mw-translate-fuzzy">
 
 ### Alternativ
 
-Följande parametrar kan specificeras i [Skissalternativ](Draft_Preferences/sv.md) tabben (meny Redigera -\> Alternativ -\> Draft):
+Följande parametrar kan specificeras i [Skissalternativ](Draft_Preferences/sv.md) tabben (meny Redigera -\> Alternativ -\> Draft)   *
 
--   Import style: Detta låter dig välja på vilket sätt som objekten från svg filen kommer att ritas i FreeCAD. Du kan välja mellan:
-    -   None: detta är det snabbare sättet, ingen konvertering utförs, alla objekt kommer att vara svarta med 2 pixels bredd (FreeCAD standard)
-    -   Use default color and linewidth: Alla importerade objekt kommer att anta nuvarande linjebredd/färg från Skiss kommandolådan
-    -   Original color and linewidth: Objekt kommer att behålla den färg och linjebredd (om den är specificerad) som de har i svg filen
+-   Import style   * Detta låter dig välja på vilket sätt som objekten från svg filen kommer att ritas i FreeCAD. Du kan välja mellan   *
+    -   None   * detta är det snabbare sättet, ingen konvertering utförs, alla objekt kommer att vara svarta med 2 pixels bredd (FreeCAD standard)
+    -   Use default color and linewidth   * Alla importerade objekt kommer att anta nuvarande linjebredd/färg från Skiss kommandolådan
+    -   Original color and linewidth   * Objekt kommer att behålla den färg och linjebredd (om den är specificerad) som de har i svg filen
 
 
 </div>
@@ -96,7 +96,7 @@ See [Import Export Preferences](Import_Export_Preferences.md).
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To export objects to SVG use the `export` method of the importSVG module.
 
@@ -105,9 +105,9 @@ To export objects to SVG use the `export` method of the importSVG module.
 importSVG.export(exportList, filename)
 ```
 
--   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+-   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
 
-Example:
+Example   *
 
 
 ```python
@@ -131,6 +131,11 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
 
 </div>
+
+
+ 
+
+[Category   *User Documentation/sv](Category   *User_Documentation/sv.md) [Category   *File Formats](Category_File_Formats.md)
 
 
 

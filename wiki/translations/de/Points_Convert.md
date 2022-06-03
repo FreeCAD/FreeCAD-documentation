@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Points Convert
-   Name/de:Punkte umwandeln
-   MenuLocation:Punkte → In Punkte umwandeln...
-   Workbenches:[Punkte](Points_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Points Convert
+   Name/de   *Punkte umwandeln
+   MenuLocation   *Punkte → In Punkte umwandeln...
+   Workbenches   *[Punkte](Points_Workbench/de.md)
 ---
 
 # Points Convert/de
@@ -31,25 +31,25 @@ Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md) Objekte mit den f
 
 {{TitleProperty|Strukturierte Punkte}}
 
--    **Höhe|Integer**: die Anzahl der eindeutigen Y Koordinaten in der Punktwolke. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte strukturieren](Points_Structure/de.md) erstellt wurden.
+-    **Höhe|Integer**   * die Anzahl der eindeutigen Y Koordinaten in der Punktwolke. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte strukturieren](Points_Structure/de.md) erstellt wurden.
 
--    **Breite|Integer**: die Anzahl der eindeutigen X Koordinaten in der Punktwolke. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte strukturieren](Points_Structure/de.md) erstellt wurden.
+-    **Breite|Integer**   * die Anzahl der eindeutigen X Koordinaten in der Punktwolke. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte strukturieren](Points_Structure/de.md) erstellt wurden.
 
 #### Versteckte Daten 
 
 
 {{TitleProperty|Base}}
 
--    **Punkte|PointsKernel**: ein Punkte PunkteKernel, der mit diesem Objekt verknüpft ist.
+-    **Punkte|PointsKernel**   * ein Punkte PunkteKernel, der mit diesem Objekt verknüpft ist.
 
--    **Normal|NormalList**: eine Liste von Normalen. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte umeandeln](Points_Convert/de.md) aus Netzobjekten oder Formobjekten mit Flächen erstellt wurden.
+-    **Normal|NormalList**   * eine Liste von Normalen. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte umeandeln](Points_Convert/de.md) aus Netzobjekten oder Formobjekten mit Flächen erstellt wurden.
 
 ### Ansicht
 
 
 {{TitleProperty|Base}}
 
--    **Point Size|FloatConstraint**: die Größe der Punkte in Pixeln in der [3D Ansicht](3D_view/de.md).
+-    **Point Size|FloatConstraint**   * die Größe der Punkte in Pixeln in der [3D Ansicht](3D_view/de.md).
 
 
 

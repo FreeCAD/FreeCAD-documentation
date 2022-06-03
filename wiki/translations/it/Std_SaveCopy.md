@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_SaveCopy
-   Name/it:Salva una copia
-   Empty:1
-   MenuLocation:File → Salva una copia...
-   Workbenches:All
-   SeeAlso:[Salva con nome](Std_SaveAs/it.md), [Salva](Std_Save/it.md)
+- GuiCommand   */it
+   Name   *Std_SaveCopy
+   Name/it   *Salva una copia
+   Empty   *1
+   MenuLocation   *File → Salva una copia...
+   Workbenches   *All
+   SeeAlso   *[Salva con nome](Std_SaveAs/it.md), [Salva](Std_Save/it.md)
 ---
 
 # Std SaveCopy/it
@@ -35,12 +35,12 @@ Il comando **Salva una copia** salva una copia del documento attivo con un nuovo
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   L\'ultima posizione del file utilizzato viene memorizzata in   * **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
@@ -51,11 +51,11 @@ Per salvare una copia di un documento, utilizzare il metodo `saveCopy` dell\'ogg
 import FreeCAD
 from pathlib import Path
 
-# The folder and filename we will use:
-fld = 'D:/testfiles/'
+# The folder and filename we will use   *
+fld = 'D   */testfiles/'
 fnm = fld + 'testCopy.FCStd'
 
-# Make sure fld exists:
+# Make sure fld exists   *
 Path(fld).mkdir(parents=True, exist_ok=True)
 
 doc = FreeCAD.newDocument()

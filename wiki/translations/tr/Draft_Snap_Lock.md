@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/tr
-   Name:Draft ToggleSnap
-   Name/tr:Yakalama açık/kapalı
-   MenuLocation:Taslak → Araçlar→ Yakalama açık/kapalı
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   SeeAlso:[Taslak Yakalama](Draft_Snap/tr.md), [Taslak Izgara açık/kapalı](Draft_ToggleGrid/tr.md)
+- GuiCommand   */tr
+   Name   *Draft ToggleSnap
+   Name/tr   *Yakalama açık/kapalı
+   MenuLocation   *Taslak → Araçlar→ Yakalama açık/kapalı
+   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   SeeAlso   *[Taslak Yakalama](Draft_Snap/tr.md), [Taslak Izgara açık/kapalı](Draft_ToggleGrid/tr.md)
 ---
 
 # Draft Snap Lock/tr

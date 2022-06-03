@@ -26,7 +26,7 @@ Do opracowania.
 
 ## Przybory
 
-Components created using the Rocket Workbench are essentially parts similar to what you would create using the [Part Workbench](Part_Workbench.md). They can be combined with other parts or modified using that workbench. The advantage of using the Rocket Workbench is that parts can be created with far fewer operations.
+Komponenty utworzone za pomocą środowiska pracy Rakieta są zasadniczo częściami podobnymi do tych, które można utworzyć za pomocą środowiska pracy [Część](Part_Workbench/pl.md). Mogą one być łączone z innymi częściami lub modyfikowane przy użyciu tego narzędzia. Zaletą korzystania ze środowiska Rakieta jest to, że części mogą być tworzone przy znacznie mniejszej liczbie operacji.
 
 -   <img alt="" src=images/Rocket_NoseCone.svg  style="width   *32px;"> [Nose Cone](Rocket_NoseCone.md)   * Create a nose cone
 
@@ -48,16 +48,16 @@ Components created using the Rocket Workbench are essentially parts similar to w
 
    ** <img alt="" src=images/Rocket_RailGuide.svg  style="width   *32px;"> [Rail Guide](Rocket_RailGuide.md)   * Create a rail guide
 
-## Calculators
+## Obliczenia
 
 -   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calculate Ejection Charge](Rocket_Ejection_Charge_Calculator.md)   * Calculate the amount of black powder required for ejection
 -   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calculate Parachute Size](Rocket_Parachute_Size_Calculator.md)   * Calculate the parachute size required for safe recovery
 -   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calculate Thrust To Weight](Rocket_Thrust_To_Weight_Calculator.md)   * Calculate the minimum average thrust required for a safe flight
 -   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calculate Vent Hole Size](Rocket_Vent_Hole_Size_Calculator.md)   * Calculate the required vent hole size for barometric altimeters
 
-## Tutorials and Learning 
+## Poradniki i nauka 
 
-[FreeCAD Rocket Workbench](https   *//youtube.com/playlist?list=PLIk8AsRj-ngQRr6uLD3DDJTBrLhJfF7eI) Tutorial Playlist on YouTube
+[środowisko pracy FreeCAD Rakieta](https   *//youtube.com/playlist?list=PLIk8AsRj-ngQRr6uLD3DDJTBrLhJfF7eI) Lista odtwarzania poradników na YouTube.
 
 
 

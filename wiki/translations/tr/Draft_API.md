@@ -8,7 +8,7 @@ Bu işlevler Taslak modülünün bir parçasıdır ve Taslak modülü alındıkt
 
 These functions are part of the [Draft Workbench](Draft_Workbench.md) and can be used in [macros](macros.md) and from the [Python](Python.md) console once the `Draft` module has been imported.
 
-Örnek: 
+Örnek   * 
 ```python
 import FreeCAD, Draft
 
@@ -42,6 +42,14 @@ Draft.move(myrect, mydistance)
 {{APIFunction | getSelection | | Geçerli FreeCAD seçimini döndürür. | Geçerli FreeCAD seçimidir.}}
 
 {{APIFunction | makeCircle | radius, [yerleşim], [facemode], [startangle], [endangle] | Verilen yarıçapı olan bir daire nesnesi oluşturur. Yerleşim verilirse kullanılır. Yüz modu Yanlış ise, daire bir tel kafes olarak gösterilir, aksi halde yüz olarak gösterilir. Startangle ve endangle verilirse (derece cinsinden) kullanılırlar ve nesne bir yay gibi görünür. | Yeni oluşturulan nesne.}} {{APIFunction | makeDimension | Vector, Vector, [Vector] veya FreeCAD.Object, int, int, [Vector] | İlk ve ikinci vektörler arasındaki mesafeyi ölçen bir Ölçümlendirme nesnesi oluşturur, eğer varsa boyut çizgisi üçüncü vektörden geçer. Taslak araç çubuğundan geçerli çizgi genişliği ve rengi kullanılacaktır. 2 vektör yerine, bir FreeCAD nesnesini ve iki tam sayıyı (ve isteğe bağlı olarak boyut çizgisinin geçmesi gereken bir vektör) geçirebilirsiniz. Bu durumda boyut, nesneyle ilişkilendirilir ve verilen iki indeks numarası ile gösterilen iki köşesini ölçer. | Yeni oluşturulan nesne.}} {{APIFunction | makeLine | Vector, Vector | Arasında bir çizgi oluşturur. verilen iki vektör. Taslak araç çubuğundan geçerli çizgi genişliği ve rengi kullanılacaktır. | Yeni oluşturulan nesne.}} {{APIFunction | makeRectangle | uzunluk, genişlik, [yerleştirme], [facemode] | X yönünde ve uzunluğunda bir Dikdörtgen nesnesi oluşturur. Y yönünde yükseklik. Yerleşim verilirse kullanılır. Yüz modu Yanlış ise, dikdörtgen bir tel kafes, aksi halde yüz olarak gösterilir. Taslak araç çubuğundan geçerli çizgi genişliği ve rengi kullanılacaktır. | Yeni oluşturulan nesne.}} {{APIFunction | makeText | string veya list, [Vector], [screenmode] | Belirtilen noktada bir Text nesnesi oluşturur dize veya listede verilen dizeleri, bir dizgiyi içeren bir vektör sağlanır. Taslak araç çubuğundan geçerli renk ve tercihlerde belirtilen metin yüksekliği ve yazı tipi kullanılır. Ekran modu True ise, metin her zaman görünüm yönüne bakar, aksi takdirde XY düzleminde kalır. | Yeni oluşturulan nesne.}} {{APIFunction | makeWire | list veya Part.Wire, [kapalı], [yerleşim], [ facemode] | Verilen vektör listesinden veya verilen Wire'dan bir DWire nesnesi oluşturur. Kapalı Doğru ise veya ilk ve son noktalar aynıysa, tel kapalıdır. Yüz modu Doğru ise (ve kablo kapalıysa), tel dolu görünecektir. Taslak araç çubuğundan geçerli çizgi genişliği ve rengi kullanılacaktır. | Yeni bir Taslak DWire (Parça Tel değil).}} {{APIFunction | move | FreeCAD.Object veya list, Vector, [copymode] | Verilen nesneyi taşır veya verilen listede yer alan ve belirtilen vektör tarafından belirtilen doğrultuda ve mesafedeki nesneler. Copymode True ise, gerçek nesneler taşınmaz, ancak kopyalar bunun yerine oluşturulur. | Nesneler (veya copymode True ise kopyaları).}} {{APIFunction | precision | | Taslak kullanıcı ayarlarından hassas değeri döndürür. | Bir tamsayı.}} {{APIFunction | rotate | FreeCAD.Object veya list, angle, [center], [axis], [copymode] | Verilen nesneyi veya içerdiği nesneleri döndürür Verilen listede, verilen merkez etrafında verilen açı ile, ekseni dönme ekseni olarak kullanma. Eksen ihmal edilirse, dönüş dikey Z ekseni etrafında olacaktır. Copymode True ise, gerçek nesneler taşınmaz, ancak kopyalar bunun yerine oluşturulur. | Nesneler (veya kopyaları).}} {{APIFunction | scale | FreeCAD.Object veya list, vector, [center], [copymode] | Verilen nesneyi veya verilen listede yer alan nesneleri verilen vektör tarafından tanımlanan ölçek faktörleriyle ölçeklendirir (X, Y ve Z dizinlerinde)}}
+
+
+ 
+
+
+
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

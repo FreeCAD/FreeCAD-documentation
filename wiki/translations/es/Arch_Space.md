@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Arch Space   Name/es:Arch Espacio
-   MenuLocation:Arch → Space
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:**S** **P**
-   Version:0.14
-   SeeAlso:[[Arch Wall/es]], [[Arch Structure/es]]
+- GuiCommand   */es
+   Name   *Arch Space   Name/es   *Arch Espacio
+   MenuLocation   *Arch → Space
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   Shortcut   ***S** **P**
+   Version   *0.14
+   SeeAlso   *[[Arch Wall/es]], [[Arch Structure/es]]
 ---
 
 # Arch Space/es
@@ -23,7 +23,7 @@ La herramienta Espacio le permite definir un volumen vacío, ya sea basado en un
 
 </div>
 
-<img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Space_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -63,7 +63,7 @@ La herramienta Espacio le permite definir un volumen vacío, ya sea basado en un
 
 -   No disponible antes de la versión 0.14 de FreeCAD
 -   Las propiedades de límites actualmente no se pueden editar a través de GUI
--   Ver el [anuncio del foro](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275)
+-   Ver el [anuncio del foro](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=4275)
 
 
 </div>
@@ -73,32 +73,32 @@ La herramienta Espacio le permite definir un volumen vacío, ya sea basado en un
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Base}}: El objeto base, si lo hay (debe ser un sólido)
+-    {{PropertyData/es|Base}}   * El objeto base, si lo hay (debe ser un sólido)
 
--    {{PropertyData/es|Boundaries}}: Una lista de elementos de límite opcionales
+-    {{PropertyData/es|Boundaries}}   * Una lista de elementos de límite opcionales
 
 
 </div>
 
--    **Text**: The text to show. Use \$area, \$label, \$tag, \$floor, \$walls, \$ceiling to insert the respective data
+-    **Text**   * The text to show. Use \$area, \$label, \$tag, \$floor, \$walls, \$ceiling to insert the respective data
 
--    **FontName**: The name of the font
+-    **FontName**   * The name of the font
 
--    **TextColor**: The color of the text
+-    **TextColor**   * The color of the text
 
--    **FontSize**: The size of the text
+-    **FontSize**   * The size of the text
 
--    **FirstLine**: The size of the first line of text (multiplies the font size. 1 = same size, 2 = double size, etc..)
+-    **FirstLine**   * The size of the first line of text (multiplies the font size. 1 = same size, 2 = double size, etc..)
 
--    **LineSpacing**: The space between the lines of text
+-    **LineSpacing**   * The space between the lines of text
 
--    **TextPosition**: The position of the text. Leave (0,0,0) for automatic position
+-    **TextPosition**   * The position of the text. Leave (0,0,0) for automatic position
 
--    **TextAlign**: The justification of the text
+-    **TextAlign**   * The justification of the text
 
--    **Decimals**: The number of decimals to use for calculated texts
+-    **Decimals**   * The number of decimals to use for calculated texts
 
--    **ShowUnit**: Show the unit suffix or not
+-    **ShowUnit**   * Show the unit suffix or not
 
 ## Options
 
@@ -116,7 +116,7 @@ La herramienta Espacio le permite definir un volumen vacío, ya sea basado en un
 
 <div class="mw-translate-fuzzy">
 
-La herramienta de espacio se puede usar en scripts de Python y [macros/es](macros/es.md) usando la siguiente función:
+La herramienta de espacio se puede usar en scripts de Python y [macros/es](macros/es.md) usando la siguiente función   *
 
 
 </div>
@@ -136,11 +136,11 @@ Space = makeSpace(objects=None, baseobj=None, name="Space")
 
 </div>
 
-Ejemplo: 
+Ejemplo   * 
 ```python
 import FreeCAD, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 1000
 Box.Width = 1000
 Box.Height = 1000
@@ -153,7 +153,7 @@ FreeCAD.ActiveDocument.recompute()
 
 <div class="mw-translate-fuzzy">
 
-Después de crear un objeto espacio, se pueden agregar caras seleccionadas con la siguiente función:
+Después de crear un objeto espacio, se pueden agregar caras seleccionadas con la siguiente función   *
 
 
 </div>
@@ -175,7 +175,7 @@ Arch.addSpaceBoundaries(Space, selection)
 
 <div class="mw-translate-fuzzy">
 
-Los límites también se pueden eliminar con:
+Los límites también se pueden eliminar con   *
 
 
 </div>

@@ -1,24 +1,24 @@
 # Main Page/sv
 ## Introduction
 
-This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the hubs, by following the manual, or by using the Help menu entries from within FreeCAD. This is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
+This is the documentation wiki of [FreeCAD](http   *//www.freecadweb.org). There are several ways to use this documentation   * by exploring the hubs, by following the manual, or by using the Help menu entries from within FreeCAD. This is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help FreeCAD](Special   *MyLanguage/help_FreeCAD.md)! 
 
 
 ## The hubs 
 
-<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Users hub](User_hub.md): This page contains documentation useful for FreeCAD users in general: a list of all the workbenches, detailed instructions on how to install and use the FreeCAD application, tutorials, and all you need to get started.
+<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width   *64px;"> [Users hub](User_hub.md)   * This page contains documentation useful for FreeCAD users in general   * a list of all the workbenches, detailed instructions on how to install and use the FreeCAD application, tutorials, and all you need to get started.
 
 
 
 
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): This page gathers documentation for advanced users and people interested in writing python scripts. There you will also find a repository of macros, instructions on how to install and use them, and more information about customizing FreeCAD to your specific needs. 
- <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): This section contains material for developers: How to compile FreeCAD yourself, how the FreeCAD source code is structured, how to navigate the source code, how to develop new workbenches, and embed FreeCAD in your own application. 
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width   *64px;"> [Power users hub](Power_users_hub.md)   * This page gathers documentation for advanced users and people interested in writing python scripts. There you will also find a repository of macros, instructions on how to install and use them, and more information about customizing FreeCAD to your specific needs. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;"> [Developers hub](Developer_hub.md)   * This section contains material for developers   * How to compile FreeCAD yourself, how the FreeCAD source code is structured, how to navigate the source code, how to develop new workbenches, and embed FreeCAD in your own application. 
 
 
 ## Manual
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width   *64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https   *//www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https   *//www.freecadweb.org/manual/).
 
 
 
@@ -57,14 +57,14 @@ There is plenty to do inside the FreeCAD project, if you are interested in helpi
 -   helping with the packaging of the latest release of FreeCAD for your favourite operating system
 -   helping other people around you to discover FreeCAD.
 
-The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
+The [help FreeCAD](Special   *MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
 ### Önskad hjälp 
 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD kan kompileras med cMake eller autotools, subversion länken är <https://free-cad.svn.sourceforge.net/svnroot/free-cad/trunk> och det finns kompileringsinstruktioner [Windows](Compile_on_Windows/sv.md), [Unix/Linux](Compile_on_Linux/sv.md) och [MacOSX](Compile_on_MacOS/sv.md).
+FreeCAD kan kompileras med cMake eller autotools, subversion länken är <https   *//free-cad.svn.sourceforge.net/svnroot/free-cad/trunk> och det finns kompileringsinstruktioner [Windows](Compile_on_Windows/sv.md), [Unix/Linux](Compile_on_Linux/sv.md) och [MacOSX](Compile_on_MacOS/sv.md).
 
 
 </div>
@@ -74,10 +74,15 @@ FreeCAD kan kompileras med cMake eller autotools, subversion länken är <https:
 
 <div class="mw-translate-fuzzy">
 
-Titta på [Development roadmap](Development_roadmap.md) för nyheter om vad som är planerat, [Ändringsloggen](http://www.freecadweb.org/tracker/changelog_page.php) och [Karta](http://www.freecadweb.org/tracker/roadmap_page.php) mantis sidorna för att se stegen mog nästa utgåva, eller [FreeCAD Projektstatistik](http://www.freecadweb.org/tracker) för ytterligare information om FreeCADs kodbas. All utvecklingskommunikation sker på [forumet](http://forum.freecadweb.org), så gå dit om du vill gå med.
+Titta på [Development roadmap](Development_roadmap.md) för nyheter om vad som är planerat, [Ändringsloggen](http   *//www.freecadweb.org/tracker/changelog_page.php) och [Karta](http   *//www.freecadweb.org/tracker/roadmap_page.php) mantis sidorna för att se stegen mog nästa utgåva, eller [FreeCAD Projektstatistik](http   *//www.freecadweb.org/tracker) för ytterligare information om FreeCADs kodbas. All utvecklingskommunikation sker på [forumet](http   *//forum.freecadweb.org), så gå dit om du vill gå med.
 
 
 </div>
+
+
+
+
+[Category   *Documentation](Category_Documentation.md)
 
 
 

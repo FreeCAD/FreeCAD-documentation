@@ -13,7 +13,7 @@ Diese Anleitung wurde auf macOS Catalina mit Standard XCode 11.6 getestet. Es is
 
 Diese Seite dient als Schnellstart und ist nicht als umfassende Beschreibung aller verfügbaren Build-Optionen gedacht.
 
-Wenn du nur die neueste Vorabversion von FreeCAD evaluieren möchtest, kannst du vorgefertigte Binärdateien [von hier](https://github.com/FreeCAD/FreeCAD/releases) herunterladen.
+Wenn du nur die neueste Vorabversion von FreeCAD evaluieren möchtest, kannst du vorgefertigte Binärdateien [von hier](https   *//github.com/FreeCAD/FreeCAD/releases) herunterladen.
 
 ## Installationsvoraussetzungen
 
@@ -21,11 +21,11 @@ Die folgende Software muss installiert sein, um den Bauprozess zu unterstützen.
 
 ### Homebrew Paketverwalter 
 
-Homebrew ist ein kommandozeilenbasierter Paketmanager für macOS. Die [Homebrew Hauptseite](https://brew.sh/) bietet eine Installations Befehlszeile, die du einfach in ein Terminalfenster einfügst.
+Homebrew ist ein kommandozeilenbasierter Paketmanager für macOS. Die [Homebrew Hauptseite](https   *//brew.sh/) bietet eine Installations Befehlszeile, die du einfach in ein Terminalfenster einfügst.
 
 ### CMake
 
-CMake ist ein Kompilierwerkzeug, das eine Kompilierkonfiguration auf der Grundlage von Variablen erzeugt, die du angibst. Du gibst dann den Befehl \"make\" aus, um diese Konfiguration tatsächlich zu erstellen. Die Kommandozeilenversion von CMake wird automatisch als Teil der Homebrew Installation (siehe oben) installiert. Wenn du es vorziehst, eine GUI Version von CMake zu verwenden, kannst du es von [hier](https://www.cmake.org/downloadDownload) herunterladen.
+CMake ist ein Kompilierwerkzeug, das eine Kompilierkonfiguration auf der Grundlage von Variablen erzeugt, die du angibst. Du gibst dann den Befehl \"make\" aus, um diese Konfiguration tatsächlich zu erstellen. Die Kommandozeilenversion von CMake wird automatisch als Teil der Homebrew Installation (siehe oben) installiert. Wenn du es vorziehst, eine GUI Version von CMake zu verwenden, kannst du es von [hier](https   *//www.cmake.org/downloadDownload) herunterladen.
 
 ## Abhängigkeiten einrichten 
 
@@ -38,10 +38,16 @@ brew install eigen
 brew install --only-dependencies freecad
 ```
 
-Hinweise:
 
-1.  \'brew install\' kann eine ganze Weile dauern, also solltest du dir vielleicht ein Getränk holen :-).
-2.  Homebrew wird derzeit mit Boost 1.73 ausgeliefert, das einen Fehler enthält. Um FreeCAD zu kompilieren, bearbeitest du bitte die Datei /usr/local/opt/boost/include/boost/geometry/index/detail/rtree/visitors/insert.hpp und deklarierst in Zeile 265 MembersHolder::visitor als öffentlichen Wert, indem du : MembersHolder::visitor durch : public MembersHolder::visitor ersetzst.
+<div class="mw-translate-fuzzy">
+
+Hinweise   *
+
+1.  \'brew install\' kann eine ganze Weile dauern, also solltest du dir vielleicht ein Getränk holen    *-).
+2.  Homebrew wird derzeit mit Boost 1.73 ausgeliefert, das einen Fehler enthält. Um FreeCAD zu kompilieren, bearbeitest du bitte die Datei /usr/local/opt/boost/include/boost/geometry/index/detail/rtree/visitors/insert.hpp und deklarierst in Zeile 265 MembersHolder   *   *visitor als öffentlichen Wert, indem du    * MembersHolder   *   *visitor durch    * public MembersHolder   *   *visitor ersetzst.
+
+
+</div>
 
 ## Quellcode beziehen 
 
@@ -64,7 +70,7 @@ Der folgende Befehl wird das FreeCAD git Repositorium in ein Verzeichnis namens 
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD FreeCAD-git
+git clone https   *//github.com/FreeCAD/FreeCAD FreeCAD-git
 ```
 
 Erstelle den Kompilierordner.
@@ -90,7 +96,7 @@ Zunächst führen wir CMake aus, um die Kompilierkonfiguration zu erzeugen. Mehr
   FREECAD\_USE\_EXTERNAL\_KDL   1 (BOOL)                                 Erforderlich, falls die FEM-Werkzeuge kompiliert werden sollen.
   BUILD\_FEM\_NETGEN            1 (BOOL)                                 Erforderlich.
 
-Hinweis: Kommandozeile zum Erzeugen von CMAKE\_PREFIX\_PATH:
+Hinweis   * Kommandozeile zum Erzeugen von CMAKE\_PREFIX\_PATH   *
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
@@ -98,7 +104,7 @@ ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/
 
 Open the CMake app, and fill in the source and build folder fields. In this example, it would be **/Users/username/FreeCAD/FreeCAD-git** for the source, and **/Users/username/FreeCAD/build** for the build folder.
 
-Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note: You will need to check the **Advanced** checkbox to get all of the options.
+Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note   * You will need to check the **Advanced** checkbox to get all of the options.
 
 Set options from the table above, then click **Configure** again and then **Generate**.
 
@@ -176,7 +182,15 @@ When using CMake versions older than 3.1.0, it\'s necessary to set CMake variabl
 
 ### Additional Build Instructions 
 
-FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
+FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https   *//github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
+
+
+
+
+
+
+
+[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

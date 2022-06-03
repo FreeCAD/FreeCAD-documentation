@@ -42,7 +42,9 @@ Since the integration of external solvers is a huge area in constant evolution, 
 
 Medium
 
-### Additional Information
+### Additional Information 
+
+[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 
 

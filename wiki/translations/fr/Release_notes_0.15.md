@@ -1,7 +1,7 @@
 # Release notes 0.15/fr
-FreeCAD 0.15 a été publié le 8 avril 2015. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements. Les versions plus anciennes : [0.14](Release_notes_0.14/fr.md) - [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
+FreeCAD 0.15 a été publié le 8 avril 2015. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http   *//www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements. Les versions plus anciennes    * [0.14](Release_notes_0.14/fr.md) - [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
 
-<img alt="" src=images/Spark-Plug-Plane.jpg  style="width:1024px;">
+<img alt="" src=images/Spark-Plug-Plane.jpg  style="width   *1024px;">
 
 
 <center>
@@ -27,13 +27,13 @@ Le nouveau système [d\'unités](Quantity/fr.md) de FreeCAD, introduit dans la v
 
 -   L\'Import/Export a maintenant sa propre section dans les préférences. Tous les formats de fichiers sont regroupé dans leur propre onglets, ce qui rend plus facile la recherhce des bonnes options aux nouveaux utilisateurs.
 -   Les raccourcis clavier personnalisés acceptent maintenant jusqu\'à 4 touches.
--   FreeCAD supporte maintenant [l\'Occulus Rift](http://forum.freecadweb.org/viewtopic.php?f=9&t=7715).
--   Support des barre d\'outils globales personnalisées : En plus d\'ajouter une barre d\'outils avec vos propre outils de n\'importe quels ateliers, il est maintenant possible d\'ajouter une barre d\'outils personnalisé qui restera présente dans tout les ateliers.
+-   FreeCAD supporte maintenant [l\'Occulus Rift](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=7715).
+-   Support des barre d\'outils globales personnalisées    * En plus d\'ajouter une barre d\'outils avec vos propre outils de n\'importe quels ateliers, il est maintenant possible d\'ajouter une barre d\'outils personnalisé qui restera présente dans tout les ateliers.
 -   Nouveau paquets de librairies pour Windows avec la dernière version OCE 0.17.
 
 ## Atelier Part 
 
--   Quelques nouveaux éléments géométrique de base ont été ajouté : Parabole, Arc de Parabole, Hyperbole et Arc d\'hyperbole.
+-   Quelques nouveaux éléments géométrique de base ont été ajouté    * Parabole, Arc de Parabole, Hyperbole et Arc d\'hyperbole.
 
 ## Ateliers Part Design & Sketcher 
 
@@ -60,13 +60,13 @@ L\'affichage des propriétés des objets Esquisses a été améliorés et les co
 ### Améliorations mineures 
 
 -   Ajout de plus de polygones régulier dans le sketcher
--   Ajout de novelle contraintes : Contrainte de symétrie perpendiculaire à un axe de symétrie
+-   Ajout de novelle contraintes    * Contrainte de symétrie perpendiculaire à un axe de symétrie
 
 ## Atelier Tableur 
 
 L\'[atelier Tableur](Spreadsheet_Workbench/fr.md) a été entièrement recodé. FreeCAD possède maintenant un éditeur de feuille de calcul de pointe, robuste, riche en caractéristique. Quelques fonctionnalités que l\'on trouvé dans l\'ancienne version de cet atelier ont été supprimés, comme le controlleur de propriété, mais c\'est un problème complexe qui demande plus de temps pour être implémenter proprement. A présent, le nouvel atelier Tableur offre des fonctionnalité bien plus robuste pour extraire des données depuis le modèle.
 
-<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:640px;">
+<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width   *640px;">
 
 ## Atelier Draft 
 
@@ -91,7 +91,7 @@ Le système utilisé pour exporter les pages de dessin au format DXF jusqu\'à p
 
 ![](images/Drawing-dxf-export.jpg )
 
-Dans le fichier DXF, les différents vues sont placées sous forme de blocs à l\'échelle. Cela permet de restaurer rapidement l\'échelle 1:1
+Dans le fichier DXF, les différents vues sont placées sous forme de blocs à l\'échelle. Cela permet de restaurer rapidement l\'échelle 1   *1
 
 ### Améliorations mineures 
 
@@ -101,9 +101,9 @@ Dans le fichier DXF, les différents vues sont placées sous forme de blocs à l
 
 ### Mise à jour de l\'import/export IFC 
 
-FreeCAD deL\' [ importateur IFC](Arch_IFC.md) de FreeCad a reçu beaucoup de travail et d\'essais, et une mise à niveau massive. L\'ancien,importateur basé sur Python, a été désactivé (il est encore utilisable à partir de la console de python, ), et FreeCAD utilise désormais exclusivement et de manière intensive le plus récent,d\'avant garde[Version 5](http://ifcopenshell.org/python.html) ([lire la suite](http://ifcopenshell.org/pythonOCC/example1/) à ce sujet) de [IfcOpenShell](http://ifcopenshell.org/) qui est maintenant disponible sur toutes les plateformes principales (assurez-vous de télécharger la version correspond à la version python utilisé par votre installation de FreeCAD). Nous bénéficions désormais d\'une importation et exportation beaucoup plus rapide et fiable, un code beaucoup plus simple et plus propre (lire: plus facile à étendre), et déjà quelques goodies supplémentaires, comme un meilleur support pour les objets basés sur les courbes et les propriétés IFC.
+FreeCAD deL\' [ importateur IFC](Arch_IFC.md) de FreeCad a reçu beaucoup de travail et d\'essais, et une mise à niveau massive. L\'ancien,importateur basé sur Python, a été désactivé (il est encore utilisable à partir de la console de python, ), et FreeCAD utilise désormais exclusivement et de manière intensive le plus récent,d\'avant garde[Version 5](http   *//ifcopenshell.org/python.html) ([lire la suite](http   *//ifcopenshell.org/pythonOCC/example1/) à ce sujet) de [IfcOpenShell](http   *//ifcopenshell.org/) qui est maintenant disponible sur toutes les plateformes principales (assurez-vous de télécharger la version correspond à la version python utilisé par votre installation de FreeCAD). Nous bénéficions désormais d\'une importation et exportation beaucoup plus rapide et fiable, un code beaucoup plus simple et plus propre (lire   * plus facile à étendre), et déjà quelques goodies supplémentaires, comme un meilleur support pour les objets basés sur les courbes et les propriétés IFC.
 
-### Nouvelle fonctionnalité: Couper un objet avec un plan 
+### Nouvelle fonctionnalité   * Couper un objet avec un plan 
 
 Cette nouvelle fonctionnalité, [ Arc Plan de Coupe](Arch_CutPlane.md), permet de couper un objet selon un plan définit par la face d\'un autre objet. Il est possible de couper l\'objet en arrière ou en avant du plan choisit.
 
@@ -117,9 +117,9 @@ L\'outil [Toit](Arch_Roof.md) a été complètement refait et il est désormais 
 
 ### Panneaux
 
-Un nouvel objet [Panneau](Arch_Panel.md) a été ajouté à l\' [Atelier Arch(itecture)](Arch_Workbench.md). Il permet de créer toutes sortes d\'objets en forme de plaques, et sera particulièrement utile pour les constructions de panneaux comme les projets [wikihouse](http://www.wikihouse.cc/) ou [maison contextuelle](http://www.popup-house.com/)
+Un nouvel objet [Panneau](Arch_Panel.md) a été ajouté à l\' [Atelier Arch(itecture)](Arch_Workbench.md). Il permet de créer toutes sortes d\'objets en forme de plaques, et sera particulièrement utile pour les constructions de panneaux comme les projets [wikihouse](http   *//www.wikihouse.cc/) ou [maison contextuelle](http   *//www.popup-house.com/)
 
-<img alt="" src=images/Arch_Panel_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Panel_example.jpg  style="width   *640px;">
 
 ### Fourniture
 
@@ -131,25 +131,27 @@ Le nouvel objet \[Arch Equipment\]\[Équipement Arch(itecture) \]est conçu pour
 
 ## Modules externes 
 
-Il a également été fait un travail très intéressant sur de nouveaux ateliers et macros, qui ne sont pas intégrés dans le code source FreeCAD (encore!), Mais sont faciles à installer sur une installation existante FreeCAD 0,15. Les instructions sont fournies sur les pages liées ci-dessous:
+Il a également été fait un travail très intéressant sur de nouveaux ateliers et macros, qui ne sont pas intégrés dans le code source FreeCAD (encore!), Mais sont faciles à installer sur une installation existante FreeCAD 0,15. Les instructions sont fournies sur les pages liées ci-dessous   *
 
 ### Assemblage 2 
 
-L\' [Atelier Assemblage 2](https://github.com/hamish2014/FreeCAD_assembly2) fournit des outils pour créer des assemblages multi-pièces, et est une très bonne alternative pour l\'atelier officielle d\'Assemblage encore en cours de développement (voir \[http: // forum .freecadweb.org/viewtopic.php?f=10&t=8577 forum thread\])
+L\' [Atelier Assemblage 2](https   *//github.com/hamish2014/FreeCAD_assembly2) fournit des outils pour créer des assemblages multi-pièces, et est une très bonne alternative pour l\'atelier officielle d\'Assemblage encore en cours de développement (voir \[http   * // forum .freecadweb.org/viewtopic.php?f=10&t=8577 forum thread\])
 
 ![](images/Assembly2_example.jpg )
 
 ### Dessin dimensionnement 
 
-L\'[atelier Dessin dimensionnement](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) ajoute de puissants outils d\'annotation et de dimensionnement à l\'atelier de dessin (voir [fil de discussion](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
+L\'[atelier Dessin dimensionnement](https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning) ajoute de puissants outils d\'annotation et de dimensionnement à l\'atelier de dessin (voir [fil de discussion](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
 ![](images/Drawing_Dimensioning_example.jpg )
 
 ### Caractéristiques de travail 
 
-Les [fonctions de construction macro](https://github.com/Rentlau/WorkFeature) ajoute une large gamme d\'objets utilitaires comme des plans ou des axes d\'alignement, et des outils pour vous aider à positionner et aligner les objets le long de ces objets d\'aide (voir \[http: / forum /forum.freecadweb.org/viewtopic.php?f=22&t=9056 fil de discussion\]).
+Les [fonctions de construction macro](https   *//github.com/Rentlau/WorkFeature) ajoute une large gamme d\'objets utilitaires comme des plans ou des axes d\'alignement, et des outils pour vous aider à positionner et aligner les objets le long de ces objets d\'aide (voir \[http   * / forum /forum.freecadweb.org/viewtopic.php?f=22&t=9056 fil de discussion\]).
 
-<img alt="" src=images/WF.png  style="width:640px;">
+<img alt="" src=images/WF.png  style="width   *640px;">
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

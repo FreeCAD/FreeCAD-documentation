@@ -1,17 +1,14 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign CoordinateSystem
-   Name/de:PartDesign Koordinatensystem
-   MenuLocation:PartDesign → Lokales Koordinatensystem erstellen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
+- GuiCommand   */de
+   Name   *PartDesign CoordinateSystem
+   Name/de   *PartDesign Koordinatensystem
+   MenuLocation   *Part Design → Lokales Koordinatensystem erstellen
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.18
+   SeeAlso   *[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
 ---
 
 # PartDesign CoordinateSystem/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -19,19 +16,20 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 
 ## Anwendung
 
+1.  Schaltfläche **[<img src=images/PartDesign_CoordinateSystem.svg style="width   *16px"> [Lokales Koordinatensystem erstellen](PartDesign_CoordinateSystem/de.md)** drücken.
 
-<div class="mw-translate-fuzzy">
+2.  Die Parameter des Koordinatensystems definieren. Eine erste Referenz in der 3D-Ansicht auswählen, um die verfügbaren Verbindungsarten zu filtern.
 
-1.  Drücken Sie die **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Lokales Koordinatensystem erstellen](PartDesign_CoordinateSystem/de.md)**.
-2.  Definieren Sie die Parameter des Koordinatensystems. Wählen Sie in der 3D-Ansicht eine erste Referenz aus, um die verfügbaren Anhangsmodi zu filtern.
-3.  Abhängig von der ausgewählten Referenz stehen in der Liste möglicherweise ein oder mehrere Anhangsmodi zur Verfügung. Das wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text \'\' Mit Modus verbunden \'\' wird zusammen mit dem Namen des Anhangsmodus oben im Parameterfenster grün angezeigt.
-4.  Um eine weitere Referenz hinzuzufügen, drücken Sie die nächste Taste {{Button | Referenz}}. Nach dem Drücken ändert sich das Label in \'\' Auswählen \... \'\', bis eine Auswahl getroffen wird.
-5.  Wählen Sie in der Liste einen Anhangmodus aus.
-6.  Anhängeoffsetwerte definieren.
-7.  Drücken Sie {{Button | OK}}.
+3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text \'\'Angehängt im Modus   * \'\' zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
 
+4.  Um eine weitere Referenz hinzuzufügen, drückt man die nächste Schaltfläche **Referenz2**. Sobald sie gerückt wurde ändert sich die Beschriftung zu *Auswählen\...*, bis etwas ausgewählt wurde.
 
-</div>
+5.  Einen Befestigungsmodus aus der Liste Wählen.
+
+6.  Versatzwerte für die Verbindung festlegen.
+
+7.  
+    **OK**drücken.
 
 ## Optionen
 
@@ -41,21 +39,21 @@ Mit einem Doppelklick auf (Lokales KS) **Local\_CS** in der Baumstruktur oder du
 
 ### Daten
 
--    **MapMode**: listet den verwendeten Anhängemodus auf.
+-    **MapMode**   * listet den verwendeten Anhängemodus auf.
 
--    **Attachment Reversed**: Gibt an, ob das Koordinatensystem in seiner Ausrichtung umgekehrt ist.
+-    **Attachment Reversed**   * Gibt an, ob das Koordinatensystem in seiner Ausrichtung umgekehrt ist.
 
--    **Attachment Offset**: Wendet eine Transformation (Übersetzung und Drehung) in Bezug auf die Platzierung von Anhängen an.
+-    **Attachment Offset**   * Wendet eine Transformation (Übersetzung und Drehung) in Bezug auf die Platzierung von Anhängen an.
 
--    **Placement**: Gibt die Koordinaten und Ausrichtung des Ursprungs des Koordinatensystems an .
+-    **Placement**   * Gibt die Koordinaten und Ausrichtung des Ursprungs des Koordinatensystems an .
 
--    **Label**: Name des Objekts. Dieser Name kann beliebig geändert werden.
+-    **Label**   * Name des Objekts. Dieser Name kann beliebig geändert werden.
 
 ## Skripten
 
 
 ```python
-lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
+lcs = App.activeDocument().addObject( 'PartDesign   *   *CoordinateSystem', 'LCS' )
 ```
 
 

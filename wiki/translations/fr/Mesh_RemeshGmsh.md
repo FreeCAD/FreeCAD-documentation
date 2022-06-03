@@ -1,23 +1,23 @@
 ---
-- GuiCommand:/fr
-   Name:Mesh RemeshGmsh
-   Name/fr:Mesh Affinage
-   MenuLocation:Maillages → Affinage...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Mesh Tesselation](Mesh_FromPartShape/fr.md)
+- GuiCommand   */fr
+   Name   *Mesh RemeshGmsh
+   Name/fr   *Mesh Affinage
+   MenuLocation   *Maillages → Affinage...
+   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[Mesh Tesselation](Mesh_FromPartShape/fr.md)
 ---
 
 # Mesh RemeshGmsh/fr
 
 ## Description
 
-La commande **Mesh Affinage** remet à nouveau un objet maillé en utilisant le mailleur [Gmsh](https://gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
+La commande **Mesh Affinage** remet à nouveau un objet maillé en utilisant le mailleur [Gmsh](https   *//gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
 
 ## Utilisation
 
 1.  Sélectionnez un seul objet maillé.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Affiner le maillage existant](Mesh_RemeshGmsh/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Affinage...** dans le menu.
@@ -33,7 +33,7 @@ La commande **Mesh Affinage** remet à nouveau un objet maillé en utilisant le 
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir   * [Mesh Feature](Mesh_Feature/fr.md).
 
 
 

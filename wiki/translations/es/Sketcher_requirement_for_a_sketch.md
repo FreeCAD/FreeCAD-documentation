@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/es
-   Topic:Croquis
-   Level:Principiante
-   Author:[Maker](User_Maker.md)
-   Time:
-   FCVersion:
+- TutorialInfo   */es
+   Topic   *Croquis
+   Level   *Principiante
+   Author   *[Maker](User_Maker.md)
+   Time   *
+   FCVersion   *
 ---
 
 # Sketcher requirement for a sketch/es
@@ -17,16 +17,16 @@
 
 La creación de un cuerpo en el espacio de trabajo DiseñoPieza ya es posible y *sólo* con la ayuda de una curva cerrada (perfil). La determinación completa de todas sus dimensiones y propiedades (*totalmente restringida*) aún no es necesaria.
 
-Que una curva cerrada está presente, no es evidente y no es reconocible. Cuando se conecta un arco circular a una línea recta, por ejemplo, los dos puntos finales se crean sólo uno sobre el otro. Debe utilizar el <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/es.md) para hacer un solo punto que realmente conecte la línea y el arco.
+Que una curva cerrada está presente, no es evidente y no es reconocible. Cuando se conecta un arco circular a una línea recta, por ejemplo, los dos puntos finales se crean sólo uno sobre el otro. Debe utilizar el <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [Coincidente](Sketcher_ConstrainCoincident/es.md) para hacer un solo punto que realmente conecte la línea y el arco.
 
 ![](images/Skizze2a.png )
 
 
 
 *Un boceto sencillo. 
-Izquierda: Curva sólo en cuatro lugares (rojo, restricciones automáticas al dibujar con [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polilínea](Sketcher_CreatePolyline/es.md)) cerrada. 
-Medio: Advertencia - ... cara rota (curva rota). 
-Derecha: Curva cerrada en los cuatro lugares restantes (verde)*
+Izquierda   * Curva sólo en cuatro lugares (rojo, restricciones automáticas al dibujar con [<img src=images/_Sketcher_CreatePolyline.svg style="width   *32px"> [Polilínea](Sketcher_CreatePolyline/es.md)) cerrada. 
+Medio   * Advertencia - ... cara rota (curva rota). 
+Derecha   * Curva cerrada en los cuatro lugares restantes (verde)*
 
 Sin embargo, el trabajo paramétrico consistente significa que el croquis está completamente determinado.
 

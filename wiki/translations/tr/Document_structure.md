@@ -23,7 +23,7 @@ FreeCAD\'de en az bir açık belge varsa, her zaman bir ve sadece bir aktif belg
 
 ## Uygulama ve Kullanıcı Arayüzü 
 
-FreeCAD\'deki hemen hemen her şey gibi, grafiksel kullanıcı arabirimi kısmı (GUI), temel uygulama bölümünden (App) ayrılmıştır. Bu aynı zamanda belgeler için de geçerlidir. Belgeler ayrıca iki bölümden oluşur: nesnelerimizi içeren Uygulama belgesi ve nesnelerimizin ekrandaki gösterimi içeren Görünüm belgesi.
+FreeCAD\'deki hemen hemen her şey gibi, grafiksel kullanıcı arabirimi kısmı (GUI), temel uygulama bölümünden (App) ayrılmıştır. Bu aynı zamanda belgeler için de geçerlidir. Belgeler ayrıca iki bölümden oluşur   * nesnelerimizi içeren Uygulama belgesi ve nesnelerimizin ekrandaki gösterimi içeren Görünüm belgesi.
 
 Nesnelerin tanımlandığı iki alan olarak düşünün. Yapısal parametreleri (bu bir küp mü? Koni mi? Hangi ölçüler?) Uygulama belgesinde saklanırken, grafiksel gösterimleri (Mavi renkli yüzler? Siyah renkli çizgiler??) görünüm belgesinde saklanır. Neden? Çünkü FreeCAD ayrıca , örneğin diğer programların içinde grafik arayüzü olmadan da kullanılabilir ve ekranda herhangi bir şey çizilmemiş olsa bile nesnelerimizi değiştirebilmeliyiz.
 
@@ -34,7 +34,7 @@ Görünüm belgesinde bulunan bir başka şey 3D görünümlerdir. Bir belgede b
 
 <div class="mw-translate-fuzzy">
 
-Python yorumlayıcısından belgeler kolayca oluşturulabilir, erişilebilir ve değiştirilebilir . Örneğin:
+Python yorumlayıcısından belgeler kolayca oluşturulabilir, erişilebilir ve değiştirilebilir . Örneğin   *
 
 
 </div>

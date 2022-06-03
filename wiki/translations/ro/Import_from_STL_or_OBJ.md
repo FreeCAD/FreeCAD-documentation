@@ -25,15 +25,15 @@
 
 ## Piesa de model 
 
-Pentru acest tutorial, puteți utiliza propriul fișier STL sau creați un fișier demo, făcând următoarele:
+Pentru acest tutorial, puteți utiliza propriul fișier STL sau creați un fișier demo, făcând următoarele   *
 
 -   Open FreeCAD
 -   Create a new document
 -   Switch to the mesh workbench
--   Insert a torus by clicking on ** Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regular solid...** , choosing settings like:
-    -   Radius1: 10 mm
-    -   Radius2: 2 mm
-    -   Sampling: 50
+-   Insert a torus by clicking on ** Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regular solid...** , choosing settings like   *
+    -   Radius1   * 10 mm
+    -   Radius2   * 2 mm
+    -   Sampling   * 50
 -   Click on ** Create** and then on ** Close**
 -   Save your file with ** File** → ** Save** to get a FreeCAD-File containing a mesh object
 
@@ -51,8 +51,8 @@ Practic, FreeCAD va importa orice fișier STL / OBJ. Dar scopul nostru este să 
 Scopul FreeCAD nu este acela de a fi un modelator de plasă bun, el este conceput să fie un modelator de solide. FreeCAD are câteva funcții pentru operarea cu ochiuri de plasă într-un atelier Mesh și OpenSCAD Workshop (unele operații necesită instalarea și configurarea OpenSCAD în preferințele FreeCAD).
 Unii utilizatori preferă să utilizeze software-ul terților pentru curățarea și repararea ochiurilor de plasă, de exemplu
 
--   [Netfabb Basic](http://www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - free for personal use (automatic mesh repair available)
--   [Meshlab](http://meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
+-   [Netfabb Basic](http   *//www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - free for personal use (automatic mesh repair available)
+-   [Meshlab](http   *//meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
 
 În acest tutorial vom folosi bancul de lucru cu plasă în cadrul FreeCAD clean/repair/verify plasa din fișierul eșantion.
 
@@ -87,7 +87,7 @@ Armonizarea normalelor unui obiect de plasă se poate face prin
 -   Selectara obiectului dvs tip plasă în vederea arborescentă
 -   Selectați ** Meshes** → **<img src="images/Mesh_HarmonizeNormals.png" width=32px> Harmonize normals** din meniul de sus.
 
-Sfat: Prin alegerea obiectului tip plasă din vizualizarea arborescentă, accesați fila vizualizare din vizualizarea proprietății și schimbând \"Lighting\" de la \"Two Side\" la \"One Side\" Puteți identifica triunghiurile cu normale inversate. În cazul în care normalele indică în interiorul plasei, triunghiul va fi afișat în negru.
+Sfat   * Prin alegerea obiectului tip plasă din vizualizarea arborescentă, accesați fila vizualizare din vizualizarea proprietății și schimbând \"Lighting\" de la \"Two Side\" la \"One Side\" Puteți identifica triunghiurile cu normale inversate. În cazul în care normalele indică în interiorul plasei, triunghiul va fi afișat în negru.
 
 
 </div>
@@ -147,6 +147,11 @@ Deoarece solidul creat nu are istorie si nici funcții editabile (ca o copie sim
 
 
 </div>
+
+
+ 
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

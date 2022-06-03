@@ -22,86 +22,86 @@ Obiekt `Sketcher   *   *SketchObject` wywodzi się z obiektu [Part2DObject](Part
 3.  Wybierz **orientację szkicu** jako   * Płaszczyzna XY, Płaszczyzna XZ lub Płaszczyzna YZ. Opcjonalnie wybierz także opcję **Odwróć kierunek** i podaj wartość **Odsunięcia**.
 4.  Naciśnij przycisk **OK**.
 
-Although the SketchObject can be used by itself to draw on a plane, it is most commonly used in conjunction with the [PartDesign Workbench](PartDesign_Workbench.md) to create extruded solids.
+Chociaż obiekt SketchObject może być używany samodzielnie do rysowania na płaszczyźnie, jest on najczęściej używany w połączeniu ze środowiskiem [Projekt Części](PartDesign_Workbench/pl.md) do tworzenia brył wyciąganych.
 
-1.  Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
+1.  Przejdź do środowiska [Projekt Części](PartDesign_Workbench.md).
 
-2.  Press **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Body](PartDesign_Body.md)**.
+2.  Naciśnij przycisk **[<img src=images/PartDesign_Body.svg style="width   *16px"> [Zawartość](PartDesign_Body.md)**.
 
-3.  Press **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
+3.  Naciśnij przycisk **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [Utwórz szkic](PartDesign_NewSketch/pl.md)**.
 
 4.  
-    **Select feature**   * XY\_Plane (Base plane), XZ\_Plane (Base plane), or YZ\_Plane (Base plane).
+    **Wybierz cechę**   * Płaszczyzna\_XY *(płaszczyzna bazowa)*, Płaszczyzna\_XZ *(płaszczyzna bazowa)* lub Płaszczyzna\_YZ *(płaszczyzna bazowa)*.
 
-5.  Press **OK**.
+5.  Naciśnij przycisk **OK**.
 
-## Properties
+## Właściwości
 
-See [Property](Property.md) for all property types that scripted objects can have.
+Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
 
-The [Sketcher SketchObject](Sketcher_SketchObject.md) (`Sketcher   *   *SketchObject` class) is derived from the [Part Part2DObject](Part_Part2DObject.md) (`Part   *   *Part2DObject` class) and inherits all its properties.
+Obiekt [SketchObject](Sketcher_SketchObject/pl.md) *(klasa `Sketcher   *   *SketchObject`)* wywodzi się z obiektu [Part2DObject](Part_Part2DObject/pl.md) *(klasa `Part   *   *Part2DObject`)* i dziedziczy wszystkie jego właściwości.
 
-The Sketcher SketchObject also has the following additional properties in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+Obiekt SketchObject ma także następujące dodatkowe właściwości w obszarze [edytora właściwości](Property_editor/pl.md). Ukryte właściwości można pokazać za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym okna [edycji właściwości](Property_editor/pl.md).
 
-### Data
-
-
-{{TitleProperty|Sketch}}
-
--    **Geometry|GeometryList|Hidden**   * a list of Part geometries that exist inside the sketch.
-
--    **Constraints|**   * named constraints, if they exist; otherwise it is an empty list `[]`.
-
--    **External Geometry|LinkSubList**   * a list of Part geometries outside this Sketch that are used for reference.
-
--    **Fully Constrained|Bool|Hidden**   * (read-only) if `True` the sketch is fully constrained.
-
-### View
+### Dane
 
 
-{{TitleProperty|Auto Constraints}}
+{{TitleProperty|Szkic}}
 
--    **Autoconstraints|Bool**   * if `True` constraints are automatically added when geometry is drawn.
+-    **Geometria|GeometryList|ukryty**   * lista geometrii części istniejących wewnątrz szkicu.
 
--    **Avoid Redundant|Bool**   * if `True` redundant auto-constraints are avoided.
+-    **Wiązania|**   * nazwane wiązania, jeśli istnieją. W przeciwnym razie jest to pusta lista `[]`.
 
+-    **Geometria zewnętrzna|LinkSubList**   * lista geometrii części spoza tego szkicu, które są używane jako odniesienie.
 
-{{TitleProperty|Grid}}
+-    **W pełni związany|Bool|ukryty**   * *(tylko do odczytu)* jeśli parametr przyjmuje wartość {{TRUE/pl}} szkic jest w pełni związany.
 
--    **Grid Auto Size|Bool|Hidden**   * if `True` the grid is resized based on the boundingbox of the geometry of the sketch.
-
--    **Grid Size|Length**   * the size of the spacing of the local grid lines in the [3D view](3D_view.md); it defaults to {{value|10 mm}}.
-
--    **Grid Snap|Bool**   * if `True` the grid can be used to snap points.
-
--    **Grid Style|Enumeration**   * the style of the grid lines; {{value|Dashed}} (default) or {{value|Light}}.
-
--    **Show Grid|Bool**   * if `True` a grid local to the object will be displayed in the [3D view](3D_view.md). This grid is independent of the [Draft Grid](Draft_ToggleGrid.md).
-
--    **Show Only In Edit Mode|Bool**   * if `True` the grid is only displayed while the sketch is being edited.
-
--    **Tight Grid|Bool**   * if `True` the local grid will be localized around the origin of the shape, otherwise it will extend itself more.
-
--    **max Number Of Lines|Integer**   * the maximum number of lines in the grid.
+### Widok
 
 
-{{TitleProperty|Visibility automation}}
+{{TitleProperty|Wiązania automatyczne}}
 
--    **Editing Workbench|String**   * name of the workbench to activate when editing the sketch; it defaults to {{value|SketcherWorkbench}}.
+-    **Wiązania automatyczne|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} to podczas rysowania geometrii automatycznie dodawane są wiązania.
 
--    **Force Ortho|Bool**   * if `True` the camera will be forced to [orthographic view mode](Std_OrthographicCamera.md) when the sketch is opened.
+-    **Unikaj wiązań nadmiarowych|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} unika się zbędnych automatycznych wiązań.
 
--    **Hide Dependent|Bool**   * if `True` all objects that depend on the sketch are hidden when the sketch is opened.
 
--    **Restore Camera|Bool**   * if `True` the camera position is saved before opening the sketch, and is restored after closing it.
+{{TitleProperty|Siatka}}
 
--    **Section View|Bool**   * if `True` only (parts of) objects behind the sketch plane are visible while the sketch is being edited.
+-    **Automatyczny rozmiar siatki|Bool|ukryty**   * jeśli parametr ma wartość {{TRUE/pl}} rozmiar siatki jest zmieniany na podstawie ramki otaczającej geometrii szkicu.
 
--    **Show Links|Bool**   * if `True` all objects used in links to external geometry are shown when the sketch is opened.
+-    **Rozmiar siatki|Length**   * wielkość odstępu między liniami siatki lokalnej w oknie [widoku 3D](3D_view/pl.md). Wartość domyślna to {{value|10 mm}}.
 
--    **Show Support|Bool**   * if `True` all objects this sketch is attached to are shown when the sketch is opened.
+-    **Przyciąganie do siatki|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} siatkę można wykorzystać do przyciągania punktów.
 
--    **Tempo Vis|PythonObject|Hidden**   * a custom class associated with this object, that handles hiding and showing other objects when opening and closing the sketch.
+-    **Styl siatki|Enumeration**   * styl linii siatki {{value|Przerywana}} *(domyślnie)* lub {{value|Cienka}}.
+
+-    **Pokaż siatkę|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} w oknie [widoku 3D](3D_view/pl.md) zostanie wyświetlona siatka lokalna obiektu. Siatka ta jest niezależna od [siatki projektu](Draft_ToggleGrid/pl.md).
+
+-    **Pokaż tylko w trybie edycji|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} siatka jest wyświetlana tylko podczas edycji szkicu.
+
+-    **Ciasna siatka|Bool**   * jeśli parametr ma wartość `True` lokalna siatka zostanie umieszczona wokół punktu położenia odniesienia kształtu, w przeciwnym razie będzie bardziej rozciągnięta.
+
+-    **maksymalna liczba linii|Integer**   * maksymalna liczba wierszy w siatce.
+
+
+{{TitleProperty|Widoczność automatyczna}}
+
+-    **Środowisko edycji|String**   * nazwa środowiska roboczego, które ma zostać uaktywnione podczas edycji szkicu. Wartością domyślną jest {{value|SketcherWorkbench}}.
+
+-    **Wymuś Ortho|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} po otwarciu szkicu ujęcie widoku zostanie ustawione w trybie [ortogonicznym](Std_OrthographicCamera/pl.md).
+
+-    **Ukryj zależne|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} wszystkie obiekty zależne od szkicu są ukrywane po otwarciu szkicu.
+
+-    **Restore Camera|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} pozycja ujęcia widoku jest zapisywana przed otwarciem szkicu i przywracana po jego zamknięciu.
+
+-    **Widok Przekroju|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} podczas edycji szkicu widoczne są tylko obiekty *(ich części)* znajdujące się za płaszczyzną szkicu.
+
+-    **Wyświetl odnośniki|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} wszystkie obiekty używane w łączach do geometrii zewnętrznej są wyświetlane po otwarciu szkicu.
+
+-    **Wyświetl podparcie|Bool**   * jeśli parametr ma wartość {{TRUE/pl}} po otwarciu szkicu są wyświetlane wszystkie obiekty, do których jest dołączony ten szkic.
+
+-    **Tempo Vis|PythonObject|ukryty**   * klasa niestandardowa powiązana z tym obiektem, która obsługuje ukrywanie i pokazywanie innych obiektów podczas otwierania i zamykania szkicu.
 
 ## Tworzenie skryptów 
 

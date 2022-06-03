@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 ConstraintPointDistance
-   Name/fr:Assembly3 Contrainte distance d'un point
-   Icon:Assembly_ConstraintPointDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   SeeAlso:[Assembly3 Contrainte distance entre points](Assembly3_ConstraintPointsDistance/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 ConstraintPointDistance
+   Name/fr   *Assembly3 Contrainte distance d'un point
+   Icon   *Assembly_ConstraintPointDistance.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
+   SeeAlso   *[Assembly3 Contrainte distance entre points](Assembly3_ConstraintPointsDistance/fr.md)
 ---
 
 # Assembly3 ConstraintPointDistance/fr

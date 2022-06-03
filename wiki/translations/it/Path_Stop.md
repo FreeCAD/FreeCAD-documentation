@@ -1,6 +1,6 @@
 # Path Stop/it
 ---
-- GuiCommand:/it   Name:Path Stop   Name/it:Stop   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi parziali → Stop   Shortcut:   SeeAlso:---
+- GuiCommand   */it   Name   *Path Stop   Name/it   *Stop   Workbenches   *[[Path Workbench/it   Path]]|MenuLocation   *Path → Comandi parziali → Stop   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -30,7 +30,7 @@ Nota che questo comando non ferma il mandrino.
 
 ## Proprietà
 
--    **Stop**: Definisce se l\'arresto è facoltativo o obbligatorio.
+-    **Stop**   * Definisce se l\'arresto è facoltativo o obbligatorio.
 
 
 

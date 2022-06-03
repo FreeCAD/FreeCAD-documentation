@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Субтрактивный профиль
-   Name:PartDesign_SubtractiveLoft
-   MenuLocation:Part Design → Create a substractive feature → Субтрактивный профиль
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Аддитивный профиль](PartDesign_AdditiveLoft/ru.md), [Субтрактивный трубный профиль](PartDesign_SubtractivePipe/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Субтрактивный профиль
+   Name   *PartDesign_SubtractiveLoft
+   MenuLocation   *Part Design → Create a substractive feature → Субтрактивный профиль
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   Version   *0.17
+   SeeAlso   *[Аддитивный профиль](PartDesign_AdditiveLoft/ru.md), [Субтрактивный трубный профиль](PartDesign_SubtractivePipe/ru.md)
 ---
 
 # PartDesign SubtractiveLoft/ru
@@ -21,7 +21,7 @@
 
 ### Применение через диалог 
 
-1.  Press the **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
+1.  Press the **[<img src=images/PartDesign_SubtractiveLoft.svg style="width   *24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
 2.  In the **Select feature** dialog, select a sketch to be used as base profile object and click **OK**.
     -   Alternatively, either a single sketch or the face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the subtractive loft button.
 3.  In the **Loft parameters**, press the **Add Section** button.
@@ -33,33 +33,33 @@
 
 <small>(v0.19)</small> 
 
-1.  Select several sketches. It is hereby important in what order you select them:
+1.  Select several sketches. It is hereby important in what order you select them   *
     -   The sketch selected at first will become the base profile object in the next step
-    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important   * The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
     -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
-2.  Press the **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
+2.  Press the **[<img src=images/PartDesign_SubtractiveLoft.svg style="width   *24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
 
 ## Опции
 
--   **Ruled surface**: makes straight transitions between cross-sections. Does not apply to a loft with two cross-sections. If not checked, transitions will be smooth.
--   **Closed**: makes a transition from the last cross-section to the first, creating a loop.
+-   **Ruled surface**   * makes straight transitions between cross-sections. Does not apply to a loft with two cross-sections. If not checked, transitions will be smooth.
+-   **Closed**   * makes a transition from the last cross-section to the first, creating a loop.
 
 ## Свойства
 
--    **Label**: name given to the operation, this name can be changed at convenience.
+-    **Label**   * name given to the operation, this name can be changed at convenience.
 
--    **Sections**: lists the sections used.
+-    **Sections**   * lists the sections used.
 
--    **Ruled**: see [Options](#Options.md).
+-    **Ruled**   * see [Options](#Options.md).
 
--    **Closed**: see [Options](#Options.md).
+-    **Closed**   * see [Options](#Options.md).
 
--    **Midplane**: N/A
+-    **Midplane**   * N/A
 
--    **Reversed**: N/A
+-    **Reversed**   * N/A
 
--    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    **Refine**   * true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
 
 ## Notes
 
@@ -67,7 +67,7 @@
 -   You can loft from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
 -   [Vertices](Glossary#V.md) can in most cases only be the start or end of a loft.
 -   A cross-section cannot lie on the same plane as the one immediately preceding it.
--   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created, should be the same for all sections: Either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
+-   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created, should be the same for all sections   * Either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
 -   It is not possible to loft disjoint or crossing loops.
 
 ## Ссылки

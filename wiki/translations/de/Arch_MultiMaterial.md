@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Arch MultiMaterial
-   Name/de:Arch MehrfachMaterial
-   MenuLocation:Arch → Material Werkzeuge → Mehrfach-Material
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Arch SetMaterial](Arch_SetMaterial/de.md), [Arch CompSetMaterial](Arch_CompSetMaterial/de.md)
+- GuiCommand   */de
+   Name   *Arch MultiMaterial
+   Name/de   *Arch MehrfachMaterial
+   MenuLocation   *Arch → Material Werkzeuge → Mehrfach-Material
+   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[Arch SetMaterial](Arch_SetMaterial/de.md), [Arch CompSetMaterial](Arch_CompSetMaterial/de.md)
 ---
 
 # Arch MultiMaterial/de
@@ -16,11 +16,11 @@ Das Multi-Material Werkzeug definiert eine Liste von [Materialien](Material.md) 
 
 ![](images/Arch_multimaterial_example.png )
 
-Nicht alle Arch Objekte können derzeit Multimaterialien verwenden, und die Verwendung von Multimaterialien ist unterschiedlich. Derzeit:
+Nicht alle Arch Objekte können derzeit Multimaterialien verwenden, und die Verwendung von Multimaterialien ist unterschiedlich. Derzeit   *
 
--   <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Wände](Arch_Wall/de.md) mit einem Mehrfachmaterial werden die Materialdefinitionen und -dicken verwenden, um eine mehrlagige Wand zu erstellen
--   Bei <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Fenstern](Arch_Window/de.md) mit einem Mehrfachmaterial werden die Materialien mit einem Namen innerhalb dieses Mehrfachmaterials, der zu Fensterkomponenten mit gleichem Namen oder Typ (s.u.) passt, diesen Komponenten zugeordnet. Materialdicken werden nicht berücksichtigt.
--   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Paneele](Arch_Panel/de.md) mit einem Mehrfachmaterial werden die Materialdefinitionen und -dicken verwenden, um ein mehrlagiges Paneel zu erstellen
+-   <img alt="" src=images/Arch_Wall.svg  style="width   *24px;"> [Wände](Arch_Wall/de.md) mit einem Mehrfachmaterial werden die Materialdefinitionen und -dicken verwenden, um eine mehrlagige Wand zu erstellen
+-   Bei <img alt="" src=images/Arch_Window.svg  style="width   *24px;"> [Fenstern](Arch_Window/de.md) mit einem Mehrfachmaterial werden die Materialien mit einem Namen innerhalb dieses Mehrfachmaterials, der zu Fensterkomponenten mit gleichem Namen oder Typ (s.u.) passt, diesen Komponenten zugeordnet. Materialdicken werden nicht berücksichtigt.
+-   <img alt="" src=images/Arch_Panel.svg  style="width   *24px;"> [Paneele](Arch_Panel/de.md) mit einem Mehrfachmaterial werden die Materialdefinitionen und -dicken verwenden, um ein mehrlagiges Paneel zu erstellen
 
 ## Anwendung
 
@@ -33,7 +33,7 @@ Nicht alle Arch Objekte können derzeit Multimaterialien verwenden, und die Verw
 
 ![](images/Arch_multimaterial_panel.png )
 
-Während der Erstellung oder Änderung eines MehrfachMaterials durch doppelklicken im Baum sind die folgenden Optionen verfügbar:
+Während der Erstellung oder Änderung eines MehrfachMaterials durch doppelklicken im Baum sind die folgenden Optionen verfügbar   *
 
 -   **Duplicate** another existing Multi-Material from the same document. This only copies the values over, and doesn\'t link the two multi-materials in any way.
 -   The **Name** field will also set the material object\'s Label
@@ -46,7 +46,7 @@ Während der Erstellung oder Änderung eines MehrfachMaterials durch doppelklick
 
 ## Bezug zu IFC 
 
-Dies entspricht in etwa einer Kombination aus [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) und [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
+Dies entspricht in etwa einer Kombination aus [IfcMaterialLayerSet](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) und [IfcMaterialLayer](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 
 ## Begrenzungen
 

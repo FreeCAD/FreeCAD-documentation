@@ -6,30 +6,30 @@
 
 ### Licencias utilizadas 
 
-He aquí las tres licencias bajo las que se publica FreeCAD:
+He aquí las tres licencias bajo las que se publica FreeCAD   *
 
 
 </div>
 
-FreeCAD uses two different licenses, one for the application itself, and one for the documentation:
+FreeCAD uses two different licenses, one for the application itself, and one for the documentation   *
 
 
 <div class="mw-translate-fuzzy">
 
 
-[Lesser General Public Licence (LGPL2+)](wikipedia_LGPL.md): Para las bibliotecas principales como se indica en los fichero .h y .cpp en src/App, src/Gui, sic/Base, y muchos de los [módulos](Workbenches/es.md) en src/Mod y para el ejecutable como se indica en los archivos .h y .cpp en el directorio src/main. Los iconos y otro material gráfico también son LGPL.
-[General Public Licence (GPL2+)](wikipedia_GPL.md): Para los archivo de guión de Python que construyen los binarios como se indica en los archivos .py en src/Tools
-[Open Publication Licence](wikipedia_Open_Publication_License.md): Para la documentacion en <http://free-cad.sourceforge.net/> salvo que se indique lo contrario por su autor
+[Lesser General Public Licence (LGPL2+)](wikipedia_LGPL.md)   * Para las bibliotecas principales como se indica en los fichero .h y .cpp en src/App, src/Gui, sic/Base, y muchos de los [módulos](Workbenches/es.md) en src/Mod y para el ejecutable como se indica en los archivos .h y .cpp en el directorio src/main. Los iconos y otro material gráfico también son LGPL.
+[General Public Licence (GPL2+)](wikipedia_GPL.md)   * Para los archivo de guión de Python que construyen los binarios como se indica en los archivos .py en src/Tools
+[Open Publication Licence](wikipedia_Open_Publication_License.md)   * Para la documentacion en <http   *//free-cad.sourceforge.net/> salvo que se indique lo contrario por su autor
 
 
 </div>
 
-**[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http://creativecommons.org/licenses/by/3.0/)** For the documentation on <https://www.freecadweb.org>
+**[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http   *//creativecommons.org/licenses/by/3.0/)** For the documentation on <https   *//www.freecadweb.org>
 
 
 <div class="mw-translate-fuzzy">
 
-Mira el archivo [debian copyright file](http://free-cad.git.sourceforge.net/git/gitweb.cgi?p=free-cad/free-cad;a=blob;f=package/debian/copyright;h=a97cf019d020edba596f2d0f614c9b09ce546b0f;hb=HEAD) de FreeCAD, para tener más detalles sobre las licencias utilizadas en FreeCAD
+Mira el archivo [debian copyright file](http   *//free-cad.git.sourceforge.net/git/gitweb.cgi?p=free-cad/free-cad;a=blob;f=package/debian/copyright;h=a97cf019d020edba596f2d0f614c9b09ce546b0f;hb=HEAD) de FreeCAD, para tener más detalles sobre las licencias utilizadas en FreeCAD
 
 
 </div>
@@ -42,7 +42,7 @@ Mira el archivo [debian copyright file](http://free-cad.git.sourceforge.net/git/
 
 </div>
 
-Below is a friendlier explanation of what the LGPL license means for you:
+Below is a friendlier explanation of what the LGPL license means for you   *
 
 
 <div class="mw-translate-fuzzy">
@@ -101,7 +101,7 @@ Sé que el debate sobre la licencia *\"adecuada\"* para el código abierto ocupa
 
 <div class="mw-translate-fuzzy">
 
-Elegí el [LGPL](http://en.wikipedia.org/wiki/LGPL) y [GPL](http://en.wikipedia.org/wiki/GPL) para el proyecto y conozco los pros y los contras sobre LGPL, de modo que te explicaré algunos motivos para haber tomado esta elección.
+Elegí el [LGPL](http   *//en.wikipedia.org/wiki/LGPL) y [GPL](http   *//en.wikipedia.org/wiki/GPL) para el proyecto y conozco los pros y los contras sobre LGPL, de modo que te explicaré algunos motivos para haber tomado esta elección.
 
 
 </div>
@@ -121,6 +121,11 @@ No obstante, esta decisión se ha tomado sólo para el sistema básico de FreeCA
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

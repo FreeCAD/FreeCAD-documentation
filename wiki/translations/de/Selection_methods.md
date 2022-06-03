@@ -3,7 +3,7 @@
 
 ## Überblick
 
-[Auswahlmethoden](Selection_methods/de.md) in FreeCAD ermöglichen das Auswählen von Objekten in der [FreeCAD-Oberfläche](Interface/de.md): z. B. [3D Ansicht](3D_view/de.md), [Baumansicht](Tree_view/de.md), [Auswahlansicht](Selection_view/de.md) und anderen Dialogen. Einige Auswahlmethoden sind Arbeitsbereich-spezifisch und in der jeweiligen Arbeitsbereich-Dokumentation dokumentiert.
+[Auswahlmethoden](Selection_methods/de.md) in FreeCAD ermöglichen das Auswählen von Objekten in der [FreeCAD-Oberfläche](Interface/de.md)   * z. B. [3D Ansicht](3D_view/de.md), [Baumansicht](Tree_view/de.md), [Auswahlansicht](Selection_view/de.md) und anderen Dialogen. Einige Auswahlmethoden sind Arbeitsbereich-spezifisch und in der jeweiligen Arbeitsbereich-Dokumentation dokumentiert.
 
 ## 3D Ansicht 
 
@@ -27,9 +27,9 @@ Der dritte Klick erweitert die Auswahl auf das Containerobjekt [Körper](PartDes
 
 ### Auswahl Befehle 
 
--   Um alle Objekte auszuwählen: [Std AllesAuswählen](Std_SelectAll/de.md).
--   Um mehrere Hauptobjekte in einem Kasten auszuwählen: [Std KastenAuswahl](Std_BoxSelection/de.md).
--   Um mehrere Flächen zu auszuwählen: [Std KastenElementAuswahl](Std_BoxElementSelection/de.md) oder [Part KastenAuswahl](Part_BoxSelection/de.md).
+-   Um alle Objekte auszuwählen   * [Std AllesAuswählen](Std_SelectAll/de.md).
+-   Um mehrere Hauptobjekte in einem Kasten auszuwählen   * [Std KastenAuswahl](Std_BoxSelection/de.md).
+-   Um mehrere Flächen zu auszuwählen   * [Std KastenElementAuswahl](Std_BoxElementSelection/de.md) oder [Part KastenAuswahl](Part_BoxSelection/de.md).
 
 ## Auswahlansicht
 
@@ -82,7 +82,7 @@ The command `addSelectionGate` restricts the user from selecting objects not spe
 
 
 ```python
-Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
+Gui.Selection.addSelectionGate("SELECT Part   *   *Feature SUBELEMENT Edge")
 ```
 
 See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std_PythonHelp.md) for more help on using these tools.

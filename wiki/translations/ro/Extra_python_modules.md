@@ -23,13 +23,13 @@ Această pagină afișează câteva module suplimentare de tip python sau alte p
 
 ## PySide (previously PyQt4) 
 
--   homepage (PySide): [<http://qt-project.org/wiki/PySide>](http://qt-project.org/wiki/PySide)
--   license: LGPL
--   opțional, dar necesare sunt câteva module: Draft, Arch, Ship, Plot, OpenSCAD, Spreadsheet
+-   homepage (PySide)   * [<http   *//qt-project.org/wiki/PySide>](http   *//qt-project.org/wiki/PySide)
+-   license   * LGPL
+-   opțional, dar necesare sunt câteva module   * Draft, Arch, Ship, Plot, OpenSCAD, Spreadsheet
 
 PySide (anterior numit PyQt) este solicitat de mai multe module ale FreeCAD pentru a accesa interfața Qt a FreeCAD. Acesta este deja inclus în versiunea Windows a FreeCAD și, de obicei, este instalat automat de FreeCAD pe Linux, când se instalează din depozitele oficiale. Dacă aceste module (Draft, Arch etc.) sunt activate după ce FreeCAD este instalat, înseamnă că PySide (anterior PyQt) este deja acolo și nu mai trebuie să mai faceți nimic.
 
-**Notă:** FreeCAD sa mutat progresiv de la PyQt după versiunea 0.13, în favoarea[PySide](http://qt-project.org/wiki/PySide), care face exact același lucru, dar are o licență (LGPL) mai compatibilă cu FreeCAD.
+**Notă   *** FreeCAD sa mutat progresiv de la PyQt după versiunea 0.13, în favoarea[PySide](http   *//qt-project.org/wiki/PySide), care face exact același lucru, dar are o licență (LGPL) mai compatibilă cu FreeCAD.
 
 ### Instalarea
 
@@ -39,7 +39,7 @@ Cea mai simplă modalitate de a instala PySide este prin managerul de pachete al
 
 #### Windows
 
-Programul poate fi descărcat de la <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads. Va trebui să instalați bibliotecile Qt și SIP înainte de a instala PySide (pentru a fi documentate).
+Programul poate fi descărcat de la <http   *//qt-project.org/wiki/Category   *LanguageBindings>   *   *PySide   *   *Downloads. Va trebui să instalați bibliotecile Qt și SIP înainte de a instala PySide (pentru a fi documentate).
 
 #### MacOSX
 
@@ -47,14 +47,14 @@ PyQt on Mac can be installed via homebrew or port. See [Compile on MacOS/ro\#Ins
 
 ### Utilizare
 
-Odată ce este instalat, puteți verifica dacă totul funcționează prin tastarea în consolă Python FreeCAD:
+Odată ce este instalat, puteți verifica dacă totul funcționează prin tastarea în consolă Python FreeCAD   *
 
 
 ```python
 import PySide
 ```
 
-To access the FreeCAD interface, type :
+To access the FreeCAD interface, type    *
 
 
 ```python
@@ -62,21 +62,21 @@ from PySide import QtCore,QtGui
 FreeCADWindow = FreeCADGui.getMainWindow()
 ```
 
-Acum puteți începe să explorați interfața cu comanda dir (). Puteți adăuga elemente noi, cum ar fi un widget personalizat, cu comenzi cum ar fi:
+Acum puteți începe să explorați interfața cu comanda dir (). Puteți adăuga elemente noi, cum ar fi un widget personalizat, cu comenzi cum ar fi   *
 
 
 ```python
 FreeCADWindow.addDockWidget(QtCore.Qt.RghtDockWidgetArea,my_custom_widget)
 ```
 
-Working with Unicode :
+Working with Unicode    *
 
 
 ```python
 text = text.encode('utf-8')
 ```
 
-Working with QFileDialog and OpenFileName :
+Working with QFileDialog and OpenFileName    *
 
 
 ```python
@@ -85,7 +85,7 @@ path = FreeCAD.ConfigGet("AppHomePath")
 OpenName, Filter = PySide.QtGui.QFileDialog.getOpenFileName(None, "Read a txt file", path, "*.txt")
 ```
 
-Working with QFileDialog and SaveFileName :
+Working with QFileDialog and SaveFileName    *
 
 
 ```python
@@ -96,11 +96,11 @@ SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Save a file t
 
 ### Example of transition from PyQt4 and PySide 
 
-PS: Aceste exemple de erori au fost găsite în tranziția de la PyQt4 la PySide și aceste corecții au fost făcute, alte soluții sunt cu siguranță disponibile cu exemplele de mai sus
+PS   * Aceste exemple de erori au fost găsite în tranziția de la PyQt4 la PySide și aceste corecții au fost făcute, alte soluții sunt cu siguranță disponibile cu exemplele de mai sus
 
 
 ```python
-try:
+try   *
     import PyQt4                                        # PyQt4
     from PyQt4 import QtGui ,QtCore                     # PyQt4
     from PyQt4.QtGui import QComboBox                   # PyQt4
@@ -108,7 +108,7 @@ try:
     from PyQt4.QtGui import QTableWidget, QApplication  # PyQt4
     from PyQt4.QtGui import *                           # PyQt4
     from PyQt4.QtCore import *                          # PyQt4
-except Exception:
+except Exception   *
     import PySide                                       # PySide
     from PySide import QtGui ,QtCore                    # PySide
     from PySide.QtGui import QComboBox                  # PySide
@@ -118,63 +118,63 @@ except Exception:
     from PySide.QtCore import *                         # PySide
 ```
 
-Pentru a accesa interfața FreeCAD, tastați: Puteți adăuga elemente noi, cum ar fi un widget personalizat, cu comenzi cum ar fi:
+Pentru a accesa interfața FreeCAD, tastați   * Puteți adăuga elemente noi, cum ar fi un widget personalizat, cu comenzi cum ar fi   *
 
 
 ```python
 myNewFreeCADWidget = QtGui.QDockWidget()          # create a new dockwidget
 myNewFreeCADWidget.ui = Ui_MainWindow()           # myWidget_Ui()             # load the Ui script
 myNewFreeCADWidget.ui.setupUi(myNewFreeCADWidget) # setup the ui
-try:
+try   *
     app = QtGui.qApp                              # PyQt4 # the active qt window, = the freecad window since we are inside it
     FCmw = app.activeWindow()                     # PyQt4 # the active qt window, = the freecad window since we are inside it
     FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
-except Exception:
+except Exception   *
     FCmw = FreeCADGui.getMainWindow()             # PySide # the active qt window, = the freecad window since we are inside it 
     FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
 ```
 
-Working with Unicode :
+Working with Unicode    *
 
 
 ```python
-try:
+try   *
     text = unicode(text, 'ISO-8859-1').encode('UTF-8')  # PyQt4
-except Exception:
+except Exception   *
     text = text.encode('utf-8')                         # PySide
 ```
 
-Working with QFileDialog and OpenFileName :
+Working with QFileDialog and OpenFileName    *
 
 
 ```python
 OpenName = ""
-try:
+try   *
     OpenName = QFileDialog.getOpenFileName(None,QString.fromLocal8Bit("Lire un fichier FCInfo ou txt"),path,"*.FCInfo *.txt") # PyQt4
-except Exception:
+except Exception   *
     OpenName, Filter = PySide.QtGui.QFileDialog.getOpenFileName(None, "Lire un fichier FCInfo ou txt", path, "*.FCInfo *.txt")#PySide
 ```
 
-Working with QFileDialog and SaveFileName :
+Working with QFileDialog and SaveFileName    *
 
 
 ```python
 SaveName = ""
-try:
+try   *
     SaveName = QFileDialog.getSaveFileName(None,QString.fromLocal8Bit("Sauver un fichier FCInfo"),path,"*.FCInfo") # PyQt4
-except Exception:
+except Exception   *
     SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Sauver un fichier FCInfo", path, "*.FCInfo")# PySide
 ```
 
-The MessageBox:
+The MessageBox   *
 
 
 ```python
-def errorDialog(msg):
+def errorDialog(msg)   *
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg )
-    try:
+    try   *
         diag.setWindowFlags(PyQt4.QtCore.Qt.WindowStaysOnTopHint) # PyQt4 # this function sets the window before
-    except Exception:    
+    except Exception   *    
         diag.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint)# PySide # this function sets the window before
 #    diag.setWindowModality(QtCore.Qt.ApplicationModal)       # function has been disabled to promote "WindowStaysOnTopHint"
     diag.exec_()
@@ -187,7 +187,7 @@ Working with setProperty (PyQt4) and setValue (PySide)
 self.doubleSpinBox.setProperty("value", 10.0)  # PyQt4
 ```
 
-înlocuiți cu :
+înlocuiți cu    *
 
 
 ```python
@@ -201,14 +201,14 @@ Working with setToolTip
 self.doubleSpinBox.setToolTip(_translate("MainWindow", "Coordinate placement Axis Y", None))  # PyQt4
 ```
 
-înlocuiți la :
+înlocuiți la    *
 
 
 ```python
 self.doubleSpinBox.setToolTip(_fromUtf8("Coordinate placement Axis Y"))  # PySide 
 ```
 
-ori :
+ori    *
 
 
 ```python
@@ -217,17 +217,17 @@ self.doubleSpinBox.setToolTip(u"Coordinate placement Axis Y.")# PySide
 
 ### Documentație Suplimentară 
 
-Some pyQt4 tutorials (including how to build interfaces with Qt Designer to use with python):
+Some pyQt4 tutorials (including how to build interfaces with Qt Designer to use with python)   *
 
--   <http://pyqt.sourceforge.net/Docs/PyQt4/classes.html> - the PyQt4 API Reference on sourceforge
--   <http://www.rkblog.rk.edu.pl/w/p/introduction-pyqt4/> - a simple introduction
--   <http://www.zetcode.com/tutorials/pyqt4/> - very complete in-depth tutorial
+-   <http   *//pyqt.sourceforge.net/Docs/PyQt4/classes.html> - the PyQt4 API Reference on sourceforge
+-   <http   *//www.rkblog.rk.edu.pl/w/p/introduction-pyqt4/> - a simple introduction
+-   <http   *//www.zetcode.com/tutorials/pyqt4/> - very complete in-depth tutorial
 
 ## Pivy
 
--   homepage: [<https://bitbucket.org/Coin3D/coin/wiki/Home>](https://bitbucket.org/Coin3D/coin/wiki/Home)
--   license: BSD
--   optional, but needed by several modules of FreeCAD: Draft, Arch
+-   homepage   * [<https   *//bitbucket.org/Coin3D/coin/wiki/Home>](https   *//bitbucket.org/Coin3D/coin/wiki/Home)
+-   license   * BSD
+-   optional, but needed by several modules of FreeCAD   * Draft, Arch
 
 Pivy is a needed by several modules to access the 3D view of FreeCAD. On windows, Pivy is already bundled inside the FreeCAD installer, and on Linux it is usually automatically installed when you install FreeCAD from an official repository. On MacOSX, unfortunately, you will need to compile pivy yourself.
 
@@ -237,17 +237,17 @@ Pivy is a needed by several modules to access the 3D view of FreeCAD. On windows
 
 Cred că înainte de a compila Pivy, veți dori să instalați Coin și SoQt.
 
-Am găsit că pentru construirea pe Mac a fost suficient pentru a instala [Coin3 binary package](http://www.coin3d.org/lib/plonesoftwarecenter_view). Încercarea de a instala coin de la MacPorts a fost problematică: a încercat să adauge o mulțime de pachete X Windows și în cele din urmă s-a prăbușit cu o eroare de script.
+Am găsit că pentru construirea pe Mac a fost suficient pentru a instala [Coin3 binary package](http   *//www.coin3d.org/lib/plonesoftwarecenter_view). Încercarea de a instala coin de la MacPorts a fost problematică   * a încercat să adauge o mulțime de pachete X Windows și în cele din urmă s-a prăbușit cu o eroare de script.
 
 For Fedora I found an RPM with Coin3.
 
-SoQt compiled from [source](http://www.coin3d.org/lib/soqt/releases/1.5.0) fine on Mac and Linux.
+SoQt compiled from [source](http   *//www.coin3d.org/lib/soqt/releases/1.5.0) fine on Mac and Linux.
 
 #### Debian & Ubuntu 
 
 Începând cu Debian Squeeze și Ubuntu Lucid, pivy va fi disponibil direct din depozitele oficiale, economisind astfel o mulțime de bătăi de cap. Între timp, puteți să descărcați unul dintre pachetele pe care le-am făcut (pentru debian și karmic ubuntu) disponibile în paginile [Download](Download.md) sau să le compilați singur.
 
-Cea mai bună modalitate de a compila pivy cu ușurință este să luați pachetul sursă debian pentru pivy și să faceți un pachet cu debuild. Este același cod sursă de pe site-ul oficial pivy, dar oamenii de la debian au făcut mai multe adăugări de fixare a bug-urilor. De asemenea, compilează bine karmicul ubuntu: <http://packages.debian.org/squeeze/python-pivy> descărcați fișierul .orig.gz și .diff.gz, apoi dezarhivați ambele, apoi aplicați .diff la sursă: mergeți la directorul sursă de pivy dezarhivate și aplicați patch-ul .diff:
+Cea mai bună modalitate de a compila pivy cu ușurință este să luați pachetul sursă debian pentru pivy și să faceți un pachet cu debuild. Este același cod sursă de pe site-ul oficial pivy, dar oamenii de la debian au făcut mai multe adăugări de fixare a bug-urilor. De asemenea, compilează bine karmicul ubuntu   * <http   *//packages.debian.org/squeeze/python-pivy> descărcați fișierul .orig.gz și .diff.gz, apoi dezarhivați ambele, apoi aplicați .diff la sursă   * mergeți la directorul sursă de pivy dezarhivate și aplicați patch-ul .diff   *
 
 
 ```python
@@ -265,16 +265,16 @@ to have pivy properly built into an official installable package. Then, just ins
 
 #### Alte distribuții linux 
 
-First get the latest sources from the [project\'s repository](http://pivy.coin3d.org/mercurial/):
+First get the latest sources from the [project\'s repository](http   *//pivy.coin3d.org/mercurial/)   *
 
 
 ```python
-hg clone http://hg.sim.no/Pivy/default Pivy 
+hg clone http   *//hg.sim.no/Pivy/default Pivy 
 ```
 
 As of March 2012, the latest version is Pivy-0.5.
 
-Apoi aveți nevoie de un instrument numit SWIG pentru a genera codul C++ pentru legăturile Python. Pivy-0.5 raportează că a fost testată numai cu SWIG 1.3.31, 1.3.33, 1.3.35 și 1.3.40. Deci, puteți descărca o sursă tarball pentru una dintre aceste versiuni vechi de la [<http://www.swig.org>](http://www.swig.org). Then unpack it and from a command line do (as root):
+Apoi aveți nevoie de un instrument numit SWIG pentru a genera codul C++ pentru legăturile Python. Pivy-0.5 raportează că a fost testată numai cu SWIG 1.3.31, 1.3.33, 1.3.35 și 1.3.40. Deci, puteți descărca o sursă tarball pentru una dintre aceste versiuni vechi de la [<http   *//www.swig.org>](http   *//www.swig.org). Then unpack it and from a command line do (as root)   *
 
 
 ```python
@@ -298,7 +298,7 @@ which creates the source files. Note that build can produce thousands of warning
 
 Acest lucru este probabil depășit, însă este posibil să întâmpinați o eroare de compilator în care un \"const char \*\" nu poate fi convertit într-un \'char \*\'. Pentru a repara că trebuie doar să scrieți un \"const\" înainte în liniile corespunzătoare. Există șase linii de rezolvat.
 
-După asta, instalați by issuing (ca root):
+După asta, instalați by issuing (ca root)   *
 
 
 ```python
@@ -311,37 +311,37 @@ Et voila, pivy este instalat.
 
 Este posibil ca aceste instrucțiuni să nu fie complete. Ceva aproape de acest lucru a funcționat pentru OS 10.7 în martie 2012. Eu folosesc MacPorts pentru depozite, dar ar trebui să funcționeze și alte opțiuni.
 
-În ceea ce privește linux, obțineți cea mai recentă sursă:
+În ceea ce privește linux, obțineți cea mai recentă sursă   *
 
 
 ```python
-hg clone http://hg.sim.no/Pivy/default Pivy 
+hg clone http   *//hg.sim.no/Pivy/default Pivy 
 ```
 
-Dacă nu aveți hg, îl puteți obține de la MacPorts:
+Dacă nu aveți hg, îl puteți obține de la MacPorts   *
 
 
 ```python
 port install mercurial
 ```
 
-Then, as above you need SWIG. It should be a matter of:
+Then, as above you need SWIG. It should be a matter of   *
 
 
 ```python
 port install swig
 ```
 
-I found I needed also:
+I found I needed also   *
 
 
 ```python
 port install swig-python
 ```
 
-Începând cu luna martie 2012, MacPorts SWIG este la versiunea 2.0.4. După cum s-a menționat mai sus pentru linux, este posibil să fie mai bine să descărcați o versiune mai veche. SWIG 2.0.4 pare să aibă un bug care oprește clădirea Pivy. Vedeți primul mesaj din acest rezumat:<https://sourceforge.net/mailarchive/message.php?msg_id=28114815>
+Începând cu luna martie 2012, MacPorts SWIG este la versiunea 2.0.4. După cum s-a menționat mai sus pentru linux, este posibil să fie mai bine să descărcați o versiune mai veche. SWIG 2.0.4 pare să aibă un bug care oprește clădirea Pivy. Vedeți primul mesaj din acest rezumat   *<https   *//sourceforge.net/mailarchive/message.php?msg_id=28114815>
 
-Acest lucru poate fi corectat prin editarea celor două locații sursă pentru a adăuga dereferențe: \*arg4, \*arg5 in place of arg4, arg5. Now Pivy should build:
+Acest lucru poate fi corectat prin editarea celor două locații sursă pentru a adăuga dereferențe   * \*arg4, \*arg5 in place of arg4, arg5. Now Pivy should build   *
 
 
 ```python
@@ -358,14 +358,14 @@ Presupunând că utilizați Visual Studio 2005 sau o versiune ulterioară, ar tr
 set PATH=path_to_python_2.5;%PATH%
 ```
 
-Pentru a obține o pivă de lucru, ar trebui să obțineți cele mai recente surse din depozitul proiectului:
+Pentru a obține o pivă de lucru, ar trebui să obțineți cele mai recente surse din depozitul proiectului   *
 
 
 ```python
-svn co https://svn.coin3d.org/repos/Pivy/trunk Pivy 
+svn co https   *//svn.coin3d.org/repos/Pivy/trunk Pivy 
 ```
 
-Apoi aveți nevoie de un instrument numit SWIG pentru a genera codul C++ pentru legăturile Python. Se recomandă utilizarea versiunii 1.3.25 a SWIG, nu cea mai recentă versiune, deoarece în acest moment pivy va funcționa corect numai cu 1.3.25. Descărcați binarele pentru 1.3.25 de la [<http://www.swig.org>](http://www.swig.org). Apoi despachetați-l și din linia de comandă adăugați-l pe calea sistemului
+Apoi aveți nevoie de un instrument numit SWIG pentru a genera codul C++ pentru legăturile Python. Se recomandă utilizarea versiunii 1.3.25 a SWIG, nu cea mai recentă versiune, deoarece în acest moment pivy va funcționa corect numai cu 1.3.25. Descărcați binarele pentru 1.3.25 de la [<http   *//www.swig.org>](http   *//www.swig.org). Apoi despachetați-l și din linia de comandă adăugați-l pe calea sistemului
 
 
 ```python
@@ -379,7 +379,7 @@ set PATH=path_to_swig_1.3.25;%PATH%
 set COINDIR=path_to_coin
 ```
 
-Pe Windows, fișierul config pivy se așteaptă ca SoWin în loc de SoQt ca implicit. Nu am găsit o modalitate evidentă de a construi cu SoQt, așa că am modificat fișierul setup.py direct. În linia 200, scoateți doar partea \"sowin\": (\'gui.\_sowin\', \'sowin-config\', \'pivy.gui.\') (Nu scoateți paranteza de închidere).
+Pe Windows, fișierul config pivy se așteaptă ca SoWin în loc de SoQt ca implicit. Nu am găsit o modalitate evidentă de a construi cu SoQt, așa că am modificat fișierul setup.py direct. În linia 200, scoateți doar partea \"sowin\"   * (\'gui.\_sowin\', \'sowin-config\', \'pivy.gui.\') (Nu scoateți paranteza de închidere).
 
 After that go to the pivy sources and call
 
@@ -429,7 +429,7 @@ Apoi încercați din nou. Dacă primiți o a doua eroare cum ar fi
 
 
 ```python
-error: Python was built with Visual Studio 2003;...
+error   * Python was built with Visual Studio 2003;...
 ```
 
 trebui să înlocuiți și linia 128
@@ -450,7 +450,7 @@ Reîncercați încă o dată. Dacă apare din nou o eroare cum ar fi
 
 
 ```python
-error: Python was built with Visual Studio version 8.0, and extensions need to be built with the same version of the compiler, but it isn't installed.
+error   * Python was built with Visual Studio version 8.0, and extensions need to be built with the same version of the compiler, but it isn't installed.
 ```
 
 then you should check the environment variables DISTUTILS\_USE\_SDK and MSSDK with
@@ -473,14 +473,14 @@ Acum, puteți întâlni o eroare de compilator în care un \'const char \*\' nu 
 
 ### Utilizare 
 
-Pentru a verifica dacă Pivy este instalat corect:
+Pentru a verifica dacă Pivy este instalat corect   *
 
 
 ```python
 import pivy
 ```
 
-To have Pivy access the FreeCAD scenegraph do the following:
+To have Pivy access the FreeCAD scenegraph do the following   *
 
 
 ```python
@@ -495,20 +495,20 @@ You can now explore the FCSceneGraph with the dir() command.
 
 ### Documentație suplimentară 
 
-Din păcate, documentația despre pivu este încă aproape inexistentă pe net. Dar s-ar putea să găsiți documentația Coin utilă, deoarece pivy pur și simplu traduce funcții de coin, noduri și metode în Python, totul păstrează același nume și proprietăți, ținând cont de diferența de sintaxă dintre C și python:
+Din păcate, documentația despre pivu este încă aproape inexistentă pe net. Dar s-ar putea să găsiți documentația Coin utilă, deoarece pivy pur și simplu traduce funcții de coin, noduri și metode în Python, totul păstrează același nume și proprietăți, ținând cont de diferența de sintaxă dintre C și python   *
 
--   <https://bitbucket.org/Coin3D/coin/wiki/Documentation> - Coin3D API Reference
--   <http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html> - The Inventor Mentor - The \"bible\" of Inventor scene description language.
+-   <https   *//bitbucket.org/Coin3D/coin/wiki/Documentation> - Coin3D API Reference
+-   <http   *//www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html> - The Inventor Mentor - The \"bible\" of Inventor scene description language.
 
 You can also look at the Draft.py file in the FreeCAD Mod/Draft folder, since it makes big use of pivy.
 
 ## pyCollada
 
--   homepage: <http://pycollada.github.com>
--   license: BSD
+-   homepage   * <http   *//pycollada.github.com>
+-   license   * BSD
 -   optional, needed to enable import and export of Collada (.DAE) files
 
-pyCollada is a python library that allow programs to read and write [Collada (\*.DAE)](http://en.wikipedia.org/wiki/COLLADA) files. When pyCollada is installed on your system, FreeCAD will be able to handle importing and exporting in the Collada file format.
+pyCollada is a python library that allow programs to read and write [Collada (\*.DAE)](http   *//en.wikipedia.org/wiki/COLLADA) files. When pyCollada is installed on your system, FreeCAD will be able to handle importing and exporting in the Collada file format.
 
 ### Instalare 
 
@@ -516,7 +516,7 @@ Pycollada, de obicei, nu este încă disponibilă în arhivele distribuțiilor l
 
 #### Linux 
 
-În ambele cazuri, veți avea nevoie de următoarele pachete deja instalate în sistemul dvs.:
+În ambele cazuri, veți avea nevoie de următoarele pachete deja instalate în sistemul dvs.   *
 
 
 ```python
@@ -529,21 +529,21 @@ python-dateutil
 
 
 ```python
-git clone git://github.com/pycollada/pycollada.git pycollada
+git clone git   *//github.com/pycollada/pycollada.git pycollada
 cd pycollada
 sudo python setup.py install
 ```
 
 ##### With easy\_install 
 
-Presupunând că aveți deja o instalare python completă, utilitarul easy\_install ar trebui să fie deja prezent:
+Presupunând că aveți deja o instalare python completă, utilitarul easy\_install ar trebui să fie deja prezent   *
 
 
 ```python
 easy_install pycollada
 ```
 
-You can check if pycollada was correctly installed by issuing in a python console:
+You can check if pycollada was correctly installed by issuing in a python console   *
 
 
 ```python
@@ -560,21 +560,21 @@ Pe Windows, de la 0.15 pycollada este inclus atât în versiunea FreeCAD, cât �
 
 Dacă utilizați buildul Homebrew al FreeCAD, puteți instala pycollada în sistemul dvs. Python folosind pip.
 
-If you need to install pip:
+If you need to install pip   *
 
 
 ```python
 $ sudo easy_install pip
 ```
 
-Install pycollada:
+Install pycollada   *
 
 
 ```python
 $ sudo pip install pycollada
 ```
 
-Dacă utilizați o versiune binară a FreeCAD, puteți spune pip-ului să instaleze pycollada în pachetele de site-uri din cadrul FreeCAD.app:
+Dacă utilizați o versiune binară a FreeCAD, puteți spune pip-ului să instaleze pycollada în pachetele de site-uri din cadrul FreeCAD.app   *
 
 
 ```python
@@ -585,20 +585,20 @@ sau după descărcarea codului pycollada
 
 
 ```python
-$ export PYTHONPATH=/Applications/FreeCAD\ 0.16.6706.app/Contents/lib/python2.7/site-packages:$PYTHONPATH
+$ export PYTHONPATH=/Applications/FreeCAD\ 0.16.6706.app/Contents/lib/python2.7/site-packages   *$PYTHONPATH
 $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 ```
 
 ## IfcOpenShell
 
--   homepage: <http://www.ifcopenshell.org>
--   license: LGPL
+-   homepage   * <http   *//www.ifcopenshell.org>
+-   license   * LGPL
 -   optional, needed to extend import abilities of IFC files
 
 
 <div class="mw-translate-fuzzy">
 
-IFCOpenShell este o bibliotecă în curs de dezvoltare, care permite importul fișierelor [Classes Fundation Classes (\* .IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) pentru import (și, în curând, export). IFC este o extensie a formatului STEP și devine standard în fluxurile de lucru [BIM](http://en.wikipedia.org/wiki/Building_information_modeling). Când sistemul ifcopenshell este instalat corect pe sistem, FreeCAD [Arch Workbench/ro](Arch_Workbench/ro.md) îl va detecta și îl va folosi pentru a importa fișiere IFC în locul importatorului său rudimentar integrat. Deoarece ifcopenshell se bazează pe OpenCasCade, precum FreeCAD, calitatea importului este foarte mare, producând o geometrie solidă de înaltă calitate.
+IFCOpenShell este o bibliotecă în curs de dezvoltare, care permite importul fișierelor [Classes Fundation Classes (\* .IFC)](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes) pentru import (și, în curând, export). IFC este o extensie a formatului STEP și devine standard în fluxurile de lucru [BIM](http   *//en.wikipedia.org/wiki/Building_information_modeling). Când sistemul ifcopenshell este instalat corect pe sistem, FreeCAD [Arch Workbench/ro](Arch_Workbench/ro.md) îl va detecta și îl va folosi pentru a importa fișiere IFC în locul importatorului său rudimentar integrat. Deoarece ifcopenshell se bazează pe OpenCasCade, precum FreeCAD, calitatea importului este foarte mare, producând o geometrie solidă de înaltă calitate.
 
 
 </div>
@@ -609,7 +609,7 @@ Din moment ce ifcopenshell este destul de nou, probabil că va trebui să-l comp
 
 #### Linux 
 
-Veți avea nevoie de câteva pachete de dezvoltare instalate pe sistemul dvs. pentru a compila ifcopenshell:
+Veți avea nevoie de câteva pachete de dezvoltare instalate pe sistemul dvs. pentru a compila ifcopenshell   *
 
 
 ```python
@@ -620,14 +620,14 @@ swig
 
 dar din moment ce FreeCAD le cere tuturor, dacă puteți compila FreeCAD, nu veți avea nevoie de nici o dependență suplimentară pentru a compila IfcOpenShell.
 
-Grab the latest source code from here:
+Grab the latest source code from here   *
 
 
 ```python
-git clone https://github.com/IfcOpenShell/IfcOpenShell.git
+git clone https   *//github.com/IfcOpenShell/IfcOpenShell.git
 ```
 
-The build process is very easy:
+The build process is very easy   *
 
 
 ```python
@@ -636,21 +636,21 @@ cd ifcopenshell-build
 cmake ../IfcOpenShell/cmake
 ```
 
-or, if you are using oce instead of opencascade:
+or, if you are using oce instead of opencascade   *
 
 
 ```python
 cmake -DOCC_INCLUDE_DIR=/usr/include/oce ../ifcopenshell/cmake 
 ```
 
-Deoarece ifcopenshell este făcut în primul rând pentru Blender, el folosește în mod implicit python3. Pentru a o folosi în interiorul FreeCAD, trebuie să o compilați împotriva aceleiași versiuni de Python care este folosită de FreeCAD. Deci este posibil să trebuiască să forțați versiunea python cu parametri suplimentari de tip cmake (ajustați versiunea python la a ta):
+Deoarece ifcopenshell este făcut în primul rând pentru Blender, el folosește în mod implicit python3. Pentru a o folosi în interiorul FreeCAD, trebuie să o compilați împotriva aceleiași versiuni de Python care este folosită de FreeCAD. Deci este posibil să trebuiască să forțați versiunea python cu parametri suplimentari de tip cmake (ajustați versiunea python la a ta)   *
 
 
 ```python
 cmake -DOCC_INCLUDE_DIR=/usr/include/oce -DPYTHON_INCLUDE_DIR=/usr/include/python2.7 -DPYTHON_LIBRARY=/usr/lib/python2.7.so ../ifcopenshell/cmake
 ```
 
-Then:
+Then   *
 
 
 ```python
@@ -658,7 +658,7 @@ make
 sudo make install
 ```
 
-You can check that ifcopenshell was correctly installed by issuing in a python console:
+You can check that ifcopenshell was correctly installed by issuing in a python console   *
 
 
 ```python
@@ -669,13 +669,13 @@ If it returns nothing (no error message), then all is OK
 
 #### Windows 
 
-**Notă**: Instalatorii oficiali FreeCAD obținuți de pe pagina web/github a FreeCAD conțin acum ifcopenshell.
+**Notă**   * Instalatorii oficiali FreeCAD obținuți de pe pagina web/github a FreeCAD conțin acum ifcopenshell.
 
 *Copied from the IfcOpenShell README file*
 
-Users are advised to use the Visual Studio .sln file in the win/ folder. For Windows users a prebuilt Open CASCADE version is available from the <http://opencascade.org> website. Download and install this version and provide the paths to the Open CASCADE header and library files to MS Visual Studio C++.
+Users are advised to use the Visual Studio .sln file in the win/ folder. For Windows users a prebuilt Open CASCADE version is available from the <http   *//opencascade.org> website. Download and install this version and provide the paths to the Open CASCADE header and library files to MS Visual Studio C++.
 
-Pentru a construi învelișul IfcPython, trebuie instalat SWIG. Descărcați cea mai recentă versiune swigwin de la <http://www.swig.org/download.html>. După extragerea fișierului .zip, adăugați dosarul extras la variabila de mediu PATH. Python trebuie să fie instalat, vă rugăm să furnizați căile de includere și bibliotecă la Visual Studio.
+Pentru a construi învelișul IfcPython, trebuie instalat SWIG. Descărcați cea mai recentă versiune swigwin de la <http   *//www.swig.org/download.html>. După extragerea fișierului .zip, adăugați dosarul extras la variabila de mediu PATH. Python trebuie să fie instalat, vă rugăm să furnizați căile de includere și bibliotecă la Visual Studio.
 
 ### Links
 
@@ -683,7 +683,7 @@ Tutorial [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compil
 
 ### Instalare 
 
-Pe toate platformele, numai prin instalarea pachetului corespunzător de la <https://www.opendesign.com/guestfiles/oda_file_converter>. După instalare, dacă utilitarul nu este găsit automat de FreeCAD, poate fi necesar să setați manual calea spre executabilul convertorului, Schimbați tabelul de lucru la \"Draft\", numai în meniul Editare → Preferinţe → Import-Export → DWG completați \"Calea către Teigha File Converter\" corespunzător.
+Pe toate platformele, numai prin instalarea pachetului corespunzător de la <https   *//www.opendesign.com/guestfiles/oda_file_converter>. După instalare, dacă utilitarul nu este găsit automat de FreeCAD, poate fi necesar să setați manual calea spre executabilul convertorului, Schimbați tabelul de lucru la \"Draft\", numai în meniul Editare → Preferinţe → Import-Export → DWG completați \"Calea către Teigha File Converter\" corespunzător.
 
 ## LazyLoader
 
@@ -717,10 +717,10 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
 ### Links 
 
--   Original source: <https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/util/lazy_loader.py>
--   Further explanation: <https://wil.yegelwel.com/lazily-importing-python-modules/>
--   Code within the FreeCAD source code: <https://github.com/FreeCAD/FreeCAD/tree/master/src/3rdParty/lazy_loader>
--   Forum discussion: <https://forum.freecadweb.org/viewtopic.php?f=10&t=45298>
+-   Original source   * <https   *//github.com/tensorflow/tensorflow/blob/master/tensorflow/python/util/lazy_loader.py>
+-   Further explanation   * <https   *//wil.yegelwel.com/lazily-importing-python-modules/>
+-   Code within the FreeCAD source code   * <https   *//github.com/FreeCAD/FreeCAD/tree/master/src/3rdParty/lazy_loader>
+-   Forum discussion   * <https   *//forum.freecadweb.org/viewtopic.php?f=10&t=45298>
 
 
 <div class="mw-translate-fuzzy">
@@ -733,6 +733,11 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
 
 </div>
+
+
+ 
+
+[Category   *Python Code](Category_Python_Code.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

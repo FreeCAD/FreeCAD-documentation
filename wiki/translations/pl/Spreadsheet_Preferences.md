@@ -5,9 +5,6 @@ Preferencje dla środowiska pracy <img alt="" src=images/Workbench_Spreadsheet.s
 
 Istnieje tylko jedna karta   * *Arkusz kalkulacyjny* w zakładce **Arkusz Kalkulacyjny**. Na tej karcie można zdefiniować następujące elementy   *
 
-
-<div class="mw-translate-fuzzy">
-
 +++
 | Nazwa                           | Opis                                                            |
 +=================================+=================================================================+
@@ -25,9 +22,6 @@ Istnieje tylko jedna karta   * *Arkusz kalkulacyjny* w zakładce **Arkusz Kalkul
 +++
 |                                 |                                                                 |
 +++
-
-
-</div>
 
 ![](images/Spreadsheet-Preferences-Spreadsheet.png ) 
 *Zakładka Arkusz Kalkulacyjny*

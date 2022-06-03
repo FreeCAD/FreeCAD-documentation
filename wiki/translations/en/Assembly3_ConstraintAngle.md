@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Assembly3 ConstraintAngle
-   Icon:Assembly_ConstraintAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+- GuiCommand   *
+   Name   *Assembly3 ConstraintAngle
+   Icon   *Assembly_ConstraintAngle.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintAngle/en

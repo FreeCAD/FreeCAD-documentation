@@ -1,13 +1,13 @@
 # Release notes 0.11
-This is a summary of the most important changes and new features available in the 0.11 release of FreeCAD. The complete list can be found [here](http://www.freecadweb.org/tracker/changelog_page.php).
+This is a summary of the most important changes and new features available in the 0.11 release of FreeCAD. The complete list can be found [here](http   *//www.freecadweb.org/tracker/changelog_page.php).
 
-<img alt="" src=images/FreeCAD011.png  style="width:800px;">
+<img alt="" src=images/FreeCAD011.png  style="width   *800px;">
 
 A screenshot of the 0.11 version
 
 ### General
 
--   The [FreeCAD translation project](http://crowdin.net/project/freecad) has received huge help from many people around the world and FreeCAD now ships with no less than 15 languages: English, German, French, Italian, Swedish, Spanish, Portuguese, Russian, Ukrainian, Norwegian, Afrikaans, Finnish, Simplified Chinese, Croatian and Dutch. And many more languages are being worked on for the next releases.
+-   The [FreeCAD translation project](http   *//crowdin.net/project/freecad) has received huge help from many people around the world and FreeCAD now ships with no less than 15 languages   * English, German, French, Italian, Swedish, Spanish, Portuguese, Russian, Ukrainian, Norwegian, Afrikaans, Finnish, Simplified Chinese, Croatian and Dutch. And many more languages are being worked on for the next releases.
 
 ![](images/release011-translation.jpg )
 
@@ -26,7 +26,7 @@ A screenshot of the 0.11 version
 
 ![](images/release011-sketcher.jpg )
 
-![](images/Movie.png ) Examples: [Sketcher demo](http://www.youtube.com/watch?v=hvXupH5bA0E) • [PartDesign demo](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
+![](images/Movie.png ) Examples   * [Sketcher demo](http   *//www.youtube.com/watch?v=hvXupH5bA0E) • [PartDesign demo](http   *//www.youtube.com/watch?v=7ih9Jp3OAwA)
 
 ### Robot simulation 
 
@@ -52,7 +52,7 @@ A screenshot of the 0.11 version
 -   The Draft workbench also gained a Python [API](Draft_API.md).
 -   The DXF importer now support block attributes
 
-![](images/Movie.png ) Examples: [Draft module demo](http://www.youtube.com/watch?v=Q7cG-LQK8Ps)
+![](images/Movie.png ) Examples   * [Draft module demo](http   *//www.youtube.com/watch?v=Q7cG-LQK8Ps)
 
 ### Images
 
@@ -64,6 +64,8 @@ A screenshot of the 0.11 version
 
 
 {{languages | {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

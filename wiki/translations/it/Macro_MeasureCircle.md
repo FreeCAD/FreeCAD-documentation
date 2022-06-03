@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2016-04-08
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/b/bd/Macro_MeasureCircle.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/b/bd/Macro_MeasureCircle.png ToolBar Icon]
 }}
 
 ## Descrizione
@@ -16,7 +16,7 @@
 Questa macro calcola e riporta il raggio e il centro di un cerchio dati 3 punti o uno spigolo circolare. Traccia una linea dal centro del cerchio al primo vertice, che può essere utilizzato per misurazioni future.
 
 
-{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro}}
+{{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro}}
 
 ## Uso
 
@@ -31,7 +31,7 @@ Basta selezionare i vertici e il risultato viene mostrato nel pannello Report. I
 
 <div class="mw-translate-fuzzy">
 
-L\'ultima versione della macro si trova in [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
+L\'ultima versione della macro si trova in [MeasureCircle.FCMacro](https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
 
 
 </div>

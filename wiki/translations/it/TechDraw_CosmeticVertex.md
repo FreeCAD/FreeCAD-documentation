@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw CosmeticVertex
-   Name/it:Vertice cosmetico
-   Icon:techdraw-point.svg
-   MenuLocation:TechDraw → Aggiuge Vertici → Vertice cosmetico
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Punti mediani](TechDraw_Midpoints/it.md), [Quadrante](TechDraw_Quadrants/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *TechDraw CosmeticVertex
+   Name/it   *Vertice cosmetico
+   Icon   *techdraw-point.svg
+   MenuLocation   *TechDraw → Aggiuge Vertici → Vertice cosmetico
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Punti mediani](TechDraw_Midpoints/it.md), [Quadrante](TechDraw_Quadrants/it.md)
+   Version   *0.19
 ---
 
 # TechDraw CosmeticVertex/it
@@ -18,7 +18,7 @@
 
 Lo strumento Vertice cosmetico aggiunge ad una vista un [vertice](Glossary#V.md) che non fa parte della geometria di origine. Questo vertice si comporta come qualsiasi altro vertice e può essere utilizzato per il dimensionamento.
 
-<img alt="" src=images/TechDraw_CosmeticVertex_Sample.png  style="width:300px;"> 
+<img alt="" src=images/TechDraw_CosmeticVertex_Sample.png  style="width   *300px;"> 
 *Vertice cosmetico utilizzato per creare una dimensione altrimenti impossibile*
 
 ## Utilizzo
@@ -30,7 +30,7 @@ Lo strumento Vertice cosmetico aggiunge ad una vista un [vertice](Glossary#V.md)
 
 Per eliminare un vertice cosmetico, selezionarlo e utilizzare il pulsante della barra degli strumenti **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)**.
 
-**Nota:** Non è possibile modificare la posizione del vertice cosmetico dopo che è stato creato. Al momento bisogna eliminarlo e crearne uno nuovo.
+**Nota   *** Non è possibile modificare la posizione del vertice cosmetico dopo che è stato creato. Al momento bisogna eliminarlo e crearne uno nuovo.
 
 ## Proprietà
 
@@ -42,7 +42,7 @@ I vertici cosmetici non hanno proprietà proprie, in quanto non sono dei Documen
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

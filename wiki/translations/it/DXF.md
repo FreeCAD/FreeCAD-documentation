@@ -22,7 +22,7 @@ Lo stesso vale per i DXF. Sentirete parlare di alcune versioni chiave di DXF, co
 
 <div class="mw-translate-fuzzy">
 
-Se state modificando dei file DXF e vi aspettate che rimangano quasi gli stessi quando li salvate, vi consigliamo di utilizzarli con [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) o [QCad](https://en.wikipedia.org/wiki/QCad) perché le strutture dati interne di questi programmi sono compatibili con gli oggetti del file DXF.
+Se state modificando dei file DXF e vi aspettate che rimangano quasi gli stessi quando li salvate, vi consigliamo di utilizzarli con [LibreCAD](https   *//en.wikipedia.org/wiki/LibreCAD) o [QCad](https   *//en.wikipedia.org/wiki/QCad) perché le strutture dati interne di questi programmi sono compatibili con gli oggetti del file DXF.
 
 
 </div>
@@ -60,7 +60,7 @@ Se state utilizzando la geometria importata per creare forme 3D in Part Design, 
 
 <div class="mw-translate-fuzzy">
 
-Questa implementazione è un\'implementazione veloce, ma ignora le funzioni che non riconosce, come le spline DXF. Inoltre, può importare la geometria in Draft solo come singole voci nell\'albero del modello. Le geometrie possono avere i colori letti dal file se si attiva questa opzione. Per ulteriori informazioni, vedere [questo post nel forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=32493).
+Questa implementazione è un\'implementazione veloce, ma ignora le funzioni che non riconosce, come le spline DXF. Inoltre, può importare la geometria in Draft solo come singole voci nell\'albero del modello. Le geometrie possono avere i colori letti dal file se si attiva questa opzione. Per ulteriori informazioni, vedere [questo post nel forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=32493).
 
 
 </div>
@@ -110,6 +110,11 @@ Oltre alle opzioni di Modifica → Preferenze, l\'ambiente [TechDraw](TechDraw_W
 
 
 </div>
+
+
+
+
+[Category   *User Documentation](Category_User_Documentation.md) [Category   *Draft](Category_Draft.md) [Category   *TechDraw](Category_TechDraw.md) [Category   *File\_Formats](Category_File_Formats.md)
 
 
 

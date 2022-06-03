@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Part MakeSolid
-   Name/fr:Part Convertir en solid‏‎e
-   MenuLocation:Part → Convertir en solide
-   Workbenches:[Part](Part_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Part MakeSolid
+   Name/fr   *Part Convertir en solid‏‎e
+   MenuLocation   *Part → Convertir en solide
+   Workbenches   *[Part](Part_Workbench/fr.md)
 ---
 
 # Part MakeSolid/fr

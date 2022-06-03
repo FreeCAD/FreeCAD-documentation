@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std BoxElementSelection
-   MenuLocation:Edit → Box element selection
-   Workbenches:All
-   Shortcut:**Shift**+**E**
-   SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std SelectAll](Std_SelectAll.md)
+- GuiCommand   *
+   Name   *Std BoxElementSelection
+   MenuLocation   *Edit → Box element selection
+   Workbenches   *All
+   Shortcut   ***Shift**+**E**
+   SeeAlso   *[Std BoxSelection](Std_BoxSelection.md), [Std SelectAll](Std_SelectAll.md)
 ---
 
 # Std BoxElementSelection/pt-br
@@ -15,10 +15,10 @@ The **Std BoxElementSelection** command selects faces from a user defined rectan
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Select the **Edit → <img src="images/Std_BoxElementSelection.svg" width=16px> Box element selection** option from the menu.
-    -   Use the keyboard shortcut: **Shift**+**E**.
-2.  Do one of the following:
+    -   Use the keyboard shortcut   * **Shift**+**E**.
+2.  Do one of the following   *
     -   Drag a rectangle from left to right to select faces whose geometric center lies inside the rectangle.
     -   Drag a rectangle from right to left to select faces whose bounding box is (partially) inside the rectangle, or touches it.
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Std_TreeSingleDocument
-   Name/it:Documento singolo
-   MenuLocation:Visualizza → Azioni della vista ad albero → Documento singolo
-   Workbenches:Tutti
-   SeeAlso:[Multi documento](Std_TreeMultiDocument/it.md), [Comprimi/espandi](Std_TreeCollapseDocument/it.md)
+- GuiCommand   */it
+   Name   *Std_TreeSingleDocument
+   Name/it   *Documento singolo
+   MenuLocation   *Visualizza → Azioni della vista ad albero → Documento singolo
+   Workbenches   *Tutti
+   SeeAlso   *[Multi documento](Std_TreeMultiDocument/it.md), [Comprimi/espandi](Std_TreeCollapseDocument/it.md)
 ---
 
 # Std TreeSingleDocument/it
@@ -20,13 +20,13 @@ Nella modalità Documento singolo è possibile passare a un altro documento atti
 
 ## Utilizzo
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Single document** option from the flyout. Note: the button image will change depending on the selected option.
+1.  There are several ways to invoke the command   *
+    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Single document** option from the flyout. Note   * the button image will change depending on the selected option.
     -   Select the **View → TreeView actions → <img src="images/Std_TreeSingleDocument.svg" width=16px> Single document** option from the menu.
 
 ## Preferenze
 
-The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → BaseApp → Preferences → TreeView → DocumentMode**. It is an integer value. Possible values are `0` (SingleDocument), `1` (MultiDocument) or `2` (CollapseDocument). The default is `2`.
+The Tree view DocumentMode mode is stored   * **Tools → Edit parameters... → BaseApp → Preferences → TreeView → DocumentMode**. It is an integer value. Possible values are `0` (SingleDocument), `1` (MultiDocument) or `2` (CollapseDocument). The default is `2`.
 
 
 <div class="mw-translate-fuzzy">

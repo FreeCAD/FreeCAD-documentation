@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/es
-   Name:PartDesign LinearPattern
-   Name/es:DiseñoPieza PatrónLineal
-   MenuLocation:DiseñoPieza  →  Aplicar un patrón → PatrónLineal
-   Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
+- GuiCommand   */es
+   Name   *PartDesign LinearPattern
+   Name/es   *DiseñoPieza PatrónLineal
+   MenuLocation   *DiseñoPieza  →  Aplicar un patrón → PatrónLineal
+   Workbenches   *[DiseñoPieza](PartDesign_Workbench/es.md)
 ---
 
 # PartDesign LinearPattern/es
@@ -16,24 +16,24 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''PatrónLineal'''** crea copias de una operación a una misma distancia en dirección lineal. A partir de la v0.17 la herramienta de patrón lineal puede repetir múltiples operaciones. {{VersionPlus/es|0.17}}
+La herramienta **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px"> '''PatrónLineal'''** crea copias de una operación a una misma distancia en dirección lineal. A partir de la v0.17 la herramienta de patrón lineal puede repetir múltiples operaciones. {{VersionPlus/es|0.17}}
 
 
 </div>
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
-\'\'Arriba: Una forma extruida con forma de L (B) construida encima de una base extruida (A, también referida como *soporte*) es usada para crear un patrón lineal. El resultado (C) se muestra a la derecha.\'\'
+\'\'Arriba   * Una forma extruida con forma de L (B) construida encima de una base extruida (A, también referida como *soporte*) es usada para crear un patrón lineal. El resultado (C) se muestra a la derecha.\'\'
 
 ## Uso
 
 
 <div class="mw-translate-fuzzy">
 
-Para crear un patrón de repetición:
+Para crear un patrón de repetición   *
 
 1.  Seleccionar la operación (u operaciones {{Version/es|0.19}}) que se han de repetir.
-2.  Presionar el botón **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''PatrónLineal'''** .
+2.  Presionar el botón **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px"> '''PatrónLineal'''** .
 3.  Definir la **Dirección**. Ver [Opciones](#Options/es.md).
 4.  Definir la **Longitud** (distancia) entre la que será la última copia y la figura original.
 5.  Introducir el número de **Apariciones** o copias deseadas.
@@ -46,7 +46,7 @@ Para crear un patrón de repetición:
 
 <div class="mw-translate-fuzzy">
 
-Para añadir o borrar operaciones de un patrón existente:
+Para añadir o borrar operaciones de un patrón existente   *
 
 1.  Pulsar el botón **Añadir una operación** para añadir una operación a repetir, la cual debe ser visible en la [vista 3D](3D_view/es.md).
     1.  Ir al árbol de dependencias de la pestaña Modelo.
@@ -130,7 +130,7 @@ Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) com
 
 -   Las formas del Patrón no deben superponerse unas con tras, excepto en el caso especial de que haya sólo dos repeticiones (el original más una copia)
 -   Cualquier repetición que no se apoye sobre el soporte original será excluida. Con esto se asegura que una operación de PartDesign siempre sea de un único y conectado sólido.
--   Los patrones de repetición de PartDesign patterns ano están aún tan optimizados como sus equivalentes de Draft, por lo que para un número mayor de casos, debería considerar usar mejor la herramienta [Draft array](Draft_Array/es.md) , combinada con una operación booleana de Part. Esto puede incluir mayores cambios saliendo de PartDesign, lo que significa que no se tendría que simplemente continuar con operaciones posteriores en PartDesign en el mismo Body. Un ejemplo es mostrado en [Forum topic](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192)
+-   Los patrones de repetición de PartDesign patterns ano están aún tan optimizados como sus equivalentes de Draft, por lo que para un número mayor de casos, debería considerar usar mejor la herramienta [Draft array](Draft_Array/es.md) , combinada con una operación booleana de Part. Esto puede incluir mayores cambios saliendo de PartDesign, lo que significa que no se tendría que simplemente continuar con operaciones posteriores en PartDesign en el mismo Body. Un ejemplo es mostrado en [Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192)
 -   Para más limitaciones, [PartDesign Simetría](PartDesign_Mirrored/es.md)
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/es
-   Name:Std_Delete
-   Name/es:Delete
-   Workbenches:Todos
-   MenuLocation:Editar → Borrar
+- GuiCommand   */es
+   Name   *Std_Delete
+   Name/es   *Delete
+   Workbenches   *Todos
+   MenuLocation   *Editar → Borrar
 ---
 
 # Std Delete/es
@@ -40,7 +40,7 @@ Los objetos seleccionados se pueden eliminar del documento presionando **DEL**, 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

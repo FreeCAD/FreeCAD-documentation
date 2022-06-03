@@ -1,17 +1,15 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher CreateArcOfParabola
-   Name/de:Skizzierer Parabelbogen
-   MenuLocation:Skizze → Skizzierergeometrien → Erstelle einen Parabelbogen
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Skizzierer Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md), [Skizzierer Hyperbelbogen](Sketcher_CreateArcOfHyperbola/de.md)
+- GuiCommand   */de
+   Name   *Sketcher CreateArcOfParabola
+   Name/de   *Sketcher ParabelbogenErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Parabelbogen erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **J**
+   Version   *0.17
+   SeeAlso   *[Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md), [Sketcher HyperbelbogenErstellen](Sketcher_CreateArcOfHyperbola/de.md)
 ---
 
 # Sketcher CreateArcOfParabola/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -24,7 +22,7 @@ Dieses Werkzeug erzeugt einen Bogen der Parabel durch Fokus, Knoten und Endpunkt
 
 <div class="mw-translate-fuzzy">
 
-1.  Drücke die **[<img src=images/Sketcher_CreateArcOfParabola.svg style="width:16px"> [Parabelbogen](Sketcher_CreateArcOfParabola/de.md)**
+1.  Drücke die **[<img src=images/Sketcher_CreateArcOfParabola.svg style="width   *16px"> [Parabelbogen](Sketcher_CreateArcOfParabola/de.md)**
 
 Schaltfläche.
 

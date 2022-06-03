@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std ViewLeft
-   Name/de:Std Ansicht von links
-   MenuLocation:{{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} → Standardansichten → Links
-   Workbenches:Alle
-   Shortcut:**6**
-   SeeAlso:[Rückansicht](Std_ViewRear/de.md), [Bodenansicht](Std_ViewBottom/de.md)
+- GuiCommand   */de
+   Name   *Std ViewLeft
+   Name/de   *Std Ansicht von links
+   MenuLocation   *{{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} → Standardansichten → Links
+   Workbenches   *Alle
+   Shortcut   ***6**
+   SeeAlso   *[Rückansicht](Std_ViewRear/de.md), [Bodenansicht](Std_ViewBottom/de.md)
 ---
 
 # Std ViewLeft/de
@@ -19,16 +19,16 @@ Der Befehl **Std Ansicht von links** wendet die Kamerasicht der aktiven [3D Ansi
 
 ## Anwendung
 
-1.  Es gibt verschiedene Wege, den Befehl umzusetzen:
+1.  Es gibt verschiedene Wege, den Befehl umzusetzen   *
     -   Die **<img src="images/Std_ViewLeft.svg" width=16px> [Std Ansicht von links](Std_ViewLeft/de.md)** Schaltfläche betätigen.
     -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewLeft.svg" width=16px> Ansicht von links** aus dem Menü wählen.
     -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewLeft.svg" width=16px> Ansicht von links** aus dem [3D-Ansicht](3D_view/de.md) Kontextmenü wählen.
-    -   Mit dem Tastenkürzel: **6**.
+    -   Mit dem Tastenkürzel   * **6**.
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

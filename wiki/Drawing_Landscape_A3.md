@@ -1,6 +1,6 @@
 # Drawing Landscape A3
 ---
-- GuiCommand:   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing → Insert new drawing → A3 Landscape   Shortcut:none---
+- GuiCommand   *   Name   *Drawing Landscape A3   Workbenches   *[[Drawing Workbench   Drawing]], Complete|MenuLocation   *Drawing → Insert new drawing → A3 Landscape   Shortcut   *none---
 
 This tool creates a new drawing sheet from already installed templates. Currently, even though the menu and the toolbar allow for A0 to A4 landscape formats, only an A3 Landscape template is available.
 
@@ -8,9 +8,9 @@ A **Page** object will be added to the Project tree, taking the form of a folder
 
 To open the Drawing viewer to display the page, simply double-click on the **Page** object, or right-click → Show drawing. The page will be opened in a new tab. You can close the tab and open it again at any time the same way.
 
-If the page does not display, click on the <img alt="" src=images/view-refresh.png  style="width:16px;"> refresh icon in the main toolbar, or go to *Edit → Refresh* menu, or shortcut **CTRL+R**.
+If the page does not display, click on the <img alt="" src=images/view-refresh.png  style="width   *16px;"> refresh icon in the main toolbar, or go to *Edit → Refresh* menu, or shortcut **CTRL+R**.
 
-<img alt="" src=images/Drawing_Page.png  style="width:500px;">
+<img alt="" src=images/Drawing_Page.png  style="width   *500px;">
 
 ### Options
 

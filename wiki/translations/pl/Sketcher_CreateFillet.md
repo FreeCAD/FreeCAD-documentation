@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:Sketcher CreateFillet
-   Name/pl:Szkicownik: Utwórz zaokrąglenie
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz zaokrąglenie
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **F** **F**
+- GuiCommand   */pl
+   Name   *Sketcher CreateFillet
+   Name/pl   *Szkicownik   * Utwórz zaokrąglenie
+   MenuLocation   *Szkic → Elementy geometryczne szkicownika → Utwórz zaokrąglenie
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut   ***G** **F** **F**
 ---
 
 # Sketcher CreateFillet/pl
@@ -19,7 +19,7 @@ Po uruchomieniu narzędzia zaznaczenia są usuwane, a kursor myszki zmienia się
 
 ## Użycie
 
-1.  Naciśnij przycisk **[<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [Utwórz zaokrąglenie](Sketcher_CreateFillet/pl.md)**
+1.  Naciśnij przycisk **[<img src=images/Sketcher_CreateFillet.svg style="width   *16px"> [Utwórz zaokrąglenie](Sketcher_CreateFillet/pl.md)**
 2.  Wybierz wierzchołek łączący dwie linie, lub kliknij na dwie połączone linie, odległość kliknięcia od wierzchołka ustawi promień zaokrąglenia.
 3.  Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszy anuluje lub kończy działanie funkcji.
 

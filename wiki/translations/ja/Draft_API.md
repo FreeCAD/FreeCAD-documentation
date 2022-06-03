@@ -8,7 +8,7 @@
 
 These functions are part of the [Draft Workbench](Draft_Workbench.md) and can be used in [macros](macros.md) and from the [Python](Python.md) console once the `Draft` module has been imported.
 
-例: 
+例   * 
 ```python
 import FreeCAD, Draft
 
@@ -87,6 +87,14 @@ Draft.move(myrect, mydistance)
 
 {{APIFunction|getSVG|FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]|
 与えられたオブジェクトのSVG表現を作成します。linemodifier属性はライン幅の（パーセント単位の）拡大縮小率で、textmodifierはテキストサイズ用です。またオプションで投影面を定義するベクトルのタプルを指定できますが、指定しない場合はジオメトリーはXY平面に投影されます。|与えられたオブジェクトのSVG表現が入った文字列}}
+
+
+ 
+
+
+
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

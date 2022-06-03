@@ -1,33 +1,34 @@
 ---
-- GuiCommand:
-   Name:Std Delete
-   MenuLocation:Edit → Delete
-   Workbenches:All
-   Shortcut:**Del**
+- GuiCommand   */pl
+   Name   *Std Delete
+   Name/pl   *Std   * Usuń
+   MenuLocation   *Edycja → Usuń
+   Workbenches   *wszystkie
+   Shortcut   ***Del**
 ---
 
 # Std Delete/pl
 
-## Description
+## Opis
 
-The **Std Delete** command deletes selected objects.
+Polecenie **Usuń** usuwa wybrane obiekty.
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Select the **Edit → <img src="images/Std_Delete.svg" width=16px> Delete** option from the menu.
-    -   Select the **<img src="images/Std_Delete.svg" width=16px> Delete** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **Del**.
+1.  Wybierz jeden lub więcej obiektów.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Wybierz opcję z menu **Edycja → <img src="images/Std_Delete.svg" width=16px> Usuń**.
+    -   Wybierz opcję **<img src="images/Std_Delete.svg" width=16px> Usuń** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **Del**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To delete an object use the `removeObject` method of the document object.
+Aby usunąć obiekt, należy użyć metody `removeObject` obiektu *document*.
 
 
 ```python

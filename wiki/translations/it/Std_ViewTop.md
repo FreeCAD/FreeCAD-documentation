@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_ViewTop
-   Name/it:Vista dall'alto
-   MenuLocation:Visualizza → Viste standard → Dall'alto
-   Workbenches:Tutti
-   Shortcut:**2**
-   SeeAlso:[Vista frontale](Std_ViewFront/it.md), [Vista da destra](Std_ViewRight/it.md)
+- GuiCommand   */it
+   Name   *Std_ViewTop
+   Name/it   *Vista dall'alto
+   MenuLocation   *Visualizza → Viste standard → Dall'alto
+   Workbenches   *Tutti
+   Shortcut   ***2**
+   SeeAlso   *[Vista frontale](Std_ViewFront/it.md), [Vista da destra](Std_ViewRight/it.md)
 ---
 
 # Std ViewTop/it
@@ -19,16 +19,16 @@ Il comando **Vista dall\'alto** orienta la fotocamera della [Vista 3D](3D_view/i
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_ViewTop.svg" width=16px> Vista dall'alto**.
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewTop.svg" width=16px> Dall'alto** dal menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewTop.svg" width=16px> Dall'alto** dal menu contestuale della [vista 3D](3D_view/it.md).
-    -   Usare la scorciatoia da tastiera: **2**.
+    -   Usare la scorciatoia da tastiera   * **2**.
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

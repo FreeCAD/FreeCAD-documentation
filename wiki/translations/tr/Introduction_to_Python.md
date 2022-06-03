@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Bu Python\'a yeni başlayanlar için kısa bir rehberdir. [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29), açık kaynaklı, çoklu bir platformdur [programlama dili](http://en.wikipedia.org/wiki/Programming_language). Python, onu diğer yaygın programlama dillerinden çok farklı kılan ve sizin gibi yeni kullanıcıların erişebildiği birçok özelliğe sahiptir:
+Bu Python\'a yeni başlayanlar için kısa bir rehberdir. [Python](http   *//en.wikipedia.org/wiki/Python_%28programming_language%29), açık kaynaklı, çoklu bir platformdur [programlama dili](http   *//en.wikipedia.org/wiki/Programming_language). Python, onu diğer yaygın programlama dillerinden çok farklı kılan ve sizin gibi yeni kullanıcıların erişebildiği birçok özelliğe sahiptir   *
 
 
 </div>
@@ -52,7 +52,7 @@ Genellikle, bilgisayar programları yazarken, sadece bir metin editörünü veya
 
 <div class="mw-translate-fuzzy">
 
-Python\'daki bu işlem Python yorumlayıcısının içinde şeffaf bir şekilde yapılabilir. Yorumlayıcı, yalnızca Python kodunu yazabileceğiniz bir komut istemi içeren bir Python penceresidir. Bilgisayarınıza Python yüklerseniz (Windows veya Mac'te iseniz [Python web sitesinden indirin](http://www.python.org), eğer Windows veya Mac'te iseniz, GNU / Linux'taysanız paket deponuzdan yükleyin) Başlat menünüzde bir Python yorumlayıcısı var. Ancak FreeCAD\'in alt penceresinde bir Python yorumlayıcısı da vardır:
+Python\'daki bu işlem Python yorumlayıcısının içinde şeffaf bir şekilde yapılabilir. Yorumlayıcı, yalnızca Python kodunu yazabileceğiniz bir komut istemi içeren bir Python penceresidir. Bilgisayarınıza Python yüklerseniz (Windows veya Mac'te iseniz [Python web sitesinden indirin](http   *//www.python.org), eğer Windows veya Mac'te iseniz, GNU / Linux'taysanız paket deponuzdan yükleyin) Başlat menünüzde bir Python yorumlayıcısı var. Ancak FreeCAD\'in alt penceresinde bir Python yorumlayıcısı da vardır   *
 
 
 </div>
@@ -78,7 +78,7 @@ Python\'daki bu işlem Python yorumlayıcısının içinde şeffaf bir şekilde 
 
 <div class="mw-translate-fuzzy">
 
-Yorumlayıcı, Python versiyonunu ve ardından Python kodunu girdiğiniz komut istemi olan \>\>\> sembolünü gösterir. Yorumlayıcıya kod yazmak basittir: bir satır bir talimattır. Enter tuşuna bastığınızda, kod satırınız yürütülür (hemen ve görünmez bir şekilde derlendikten sonra). Örneğin, şunu yazmayı deneyin:
+Yorumlayıcı, Python versiyonunu ve ardından Python kodunu girdiğiniz komut istemi olan \>\>\> sembolünü gösterir. Yorumlayıcıya kod yazmak basittir   * bir satır bir talimattır. Enter tuşuna bastığınızda, kod satırınız yürütülür (hemen ve görünmez bir şekilde derlendikten sonra). Örneğin, şunu yazmayı deneyin   *
 
 
 </div>
@@ -91,7 +91,7 @@ print("hello")
 
 <div class="mw-translate-fuzzy">
 
-print, açıkça ekranda bir şey yazdırmak için kullanılan özel bir Python anahtar kelimesidir. Enter tuşuna bastığınızda, işlem yürütülür ve \"merhaba\" mesajı yazdırılır. Bir hata yaparsanız, örneğin yazalım:
+print, açıkça ekranda bir şey yazdırmak için kullanılan özel bir Python anahtar kelimesidir. Enter tuşuna bastığınızda, işlem yürütülür ve \"merhaba\" mesajı yazdırılır. Bir hata yaparsanız, örneğin yazalım   *
 
 
 </div>
@@ -112,7 +112,7 @@ Python bize merhaba\'yı bilmediğini söyleyecek. \"Karakterler içeriğin sade
 
 <div class="mw-translate-fuzzy">
 
-Python yorumlayıcı ayrıca dahili bir yardım sistemine sahiptir. Yazmayı deneyin:
+Python yorumlayıcı ayrıca dahili bir yardım sistemine sahiptir. Yazmayı deneyin   *
 
 
 </div>
@@ -146,7 +146,7 @@ Artık yorumlayıcıya hükmettiğimize göre, ciddi şeylerle başlayabiliriz.
 
 <div class="mw-translate-fuzzy">
 
-Tabii ki, \"merhaba\" yazdırmak çok ilginç değil. Daha ilginç olanı, daha önce bilmediğiniz şeyler basmak ya da Python\'un sizin için bulmasına izin vermek. Değişken kavramının devreye girdiği yer burasıdır. Bir değişken, yalnızca bir ad altında sakladığınız bir değerdir. Örneğin, şunu yazın:
+Tabii ki, \"merhaba\" yazdırmak çok ilginç değil. Daha ilginç olanı, daha önce bilmediğiniz şeyler basmak ya da Python\'un sizin için bulmasına izin vermek. Değişken kavramının devreye girdiği yer burasıdır. Bir değişken, yalnızca bir ad altında sakladığınız bir değerdir. Örneğin, şunu yazın   *
 
 
 </div>
@@ -160,7 +160,7 @@ print(a)
 
 <div class="mw-translate-fuzzy">
 
-Sanırım ne olduğunu anladınız, biz \"merhaba\" dizesini \"a\" adı altında \"kaydettik\". Şimdi, \"a\" artık bilinmeyen bir isim değil! Herhangi bir yerde, örneğin baskı komutunda kullanabiliriz. İstediğimiz herhangi bir ismi kullanabiliriz, sadece boşluk veya noktalama işareti kullanmama gibi basit kurallara uyun. Örneğin, şunu yazabiliriz:
+Sanırım ne olduğunu anladınız, biz \"merhaba\" dizesini \"a\" adı altında \"kaydettik\". Şimdi, \"a\" artık bilinmeyen bir isim değil! Herhangi bir yerde, örneğin baskı komutunda kullanabiliriz. İstediğimiz herhangi bir ismi kullanabiliriz, sadece boşluk veya noktalama işareti kullanmama gibi basit kurallara uyun. Örneğin, şunu yazabiliriz   *
 
 
 </div>
@@ -174,7 +174,7 @@ print(hello)
 
 <div class="mw-translate-fuzzy">
 
-Gördünüz mü? şimdi merhaba artık tanımsız bir kelime değil. Ya, kötü şansla, Python\'da zaten var olan bir ismi seçersek? Dizimizi \"print\" adı altında saklamak istediğimizi varsayalım:
+Gördünüz mü? şimdi merhaba artık tanımsız bir kelime değil. Ya, kötü şansla, Python\'da zaten var olan bir ismi seçersek? Dizimizi \"print\" adı altında saklamak istediğimizi varsayalım   *
 
 
 </div>
@@ -190,7 +190,7 @@ print(myVariable)
 
 <div class="mw-translate-fuzzy">
 
-MyVariable\'ın değerini değiştirdik. Ayrıca değişkenleri de kopyalayabiliriz:
+MyVariable\'ın değerini değiştirdik. Ayrıca değişkenleri de kopyalayabiliriz   *
 
 
 </div>
@@ -234,7 +234,7 @@ Elbette, programlamanın yalnızca metin dizeleri için değil, her türlü veri
 
 <div class="mw-translate-fuzzy">
 
-Özel bir Python anahtar kelime türüyle bir değişkenin veri türünü her zaman kontrol edebiliriz:
+Özel bir Python anahtar kelime türüyle bir değişkenin veri türünü her zaman kontrol edebiliriz   *
 
 
 </div>
@@ -264,7 +264,7 @@ type(firstNumber)
 
 <div class="mw-translate-fuzzy">
 
-Bu çok daha ilginç, değil mi? Şimdi güçlü bir hesap makinemiz var! Ne kadar iyi çalıştığına bakın, Python 10 ve 20\'nin tam sayı olduğunu biliyor. Böylece \"int\" olarak depolanırlar ve Python onlarla tamsayılarla yapabileceği her şeyi yapabilir. Bunun sonuçlarına bakın:
+Bu çok daha ilginç, değil mi? Şimdi güçlü bir hesap makinemiz var! Ne kadar iyi çalıştığına bakın, Python 10 ve 20\'nin tam sayı olduğunu biliyor. Böylece \"int\" olarak depolanırlar ve Python onlarla tamsayılarla yapabileceği her şeyi yapabilir. Bunun sonuçlarına bakın   *
 
 
 </div>
@@ -279,7 +279,7 @@ print(firstNumber + secondNumber)
 
 <div class="mw-translate-fuzzy">
 
-Gördünüz mü? Python\'u iki değişkenimizin sayı değil, sadece metin parçaları olduğunu düşünmeye zorladık. Python iki parçayı bir araya getirebilir, ancak toplamı bulmaya çalışmaz. Fakat biz tamsayılardan bahsediyorduk. Kayan noktalı sayılar da vardır. Fark, tam sayıların ondalık bölüm içermemesi, kayan noktalı sayıların ise ondalık bölüm içermesidir:
+Gördünüz mü? Python\'u iki değişkenimizin sayı değil, sadece metin parçaları olduğunu düşünmeye zorladık. Python iki parçayı bir araya getirebilir, ancak toplamı bulmaya çalışmaz. Fakat biz tamsayılardan bahsediyorduk. Kayan noktalı sayılar da vardır. Fark, tam sayıların ondalık bölüm içermemesi, kayan noktalı sayıların ise ondalık bölüm içermesidir   *
 
 
 </div>
@@ -295,7 +295,7 @@ print("var2 is of type ", type(var2))
 
 <div class="mw-translate-fuzzy">
 
-Int ve Floats birlikte sorunsuzca karıştırılabilir:
+Int ve Floats birlikte sorunsuzca karıştırılabilir   *
 
 
 </div>
@@ -310,7 +310,7 @@ print(type(total))
 
 <div class="mw-translate-fuzzy">
 
-Elbette hepsi ondalık sayıdır, değil mi? Sonra Python otomatik olarak sonucun bir kayan noktalı sayı olduğuna karar verdi. Bunun gibi bazı durumlarda, Python hangi tipin kullanılacağına otomatik olarak karar verir. Diğer durumlarda değil. Örneğin:
+Elbette hepsi ondalık sayıdır, değil mi? Sonra Python otomatik olarak sonucun bir kayan noktalı sayı olduğuna karar verdi. Bunun gibi bazı durumlarda, Python hangi tipin kullanılacağına otomatik olarak karar verir. Diğer durumlarda değil. Örneğin   *
 
 
 </div>
@@ -325,7 +325,7 @@ print(varA + varB)
 
 <div class="mw-translate-fuzzy">
 
-Bu bize bir hata verecektir, varA bir dizedir ve varB bir int\'dir ve Python ne yapacağını bilemez. Ancak, Python\'u türler arasında dönüştürmeye zorlayabiliriz:
+Bu bize bir hata verecektir, varA bir dizedir ve varB bir int\'dir ve Python ne yapacağını bilemez. Ancak, Python\'u türler arasında dönüştürmeye zorlayabiliriz   *
 
 
 </div>
@@ -340,7 +340,7 @@ print(varA + str(varB))
 
 <div class="mw-translate-fuzzy">
 
-Şimdi her ikisi de dizgedir, işlem çalışır! Baskı sırasında varB\'yi \"dizeledik\", ancak varB\'nin kendisini değiştirmediğimizi unutmayın. VarB\'yi kalıcı olarak bir dizgeye çevirmek isteseydik, bunu yapmamız gerekirdi:
+Şimdi her ikisi de dizgedir, işlem çalışır! Baskı sırasında varB\'yi \"dizeledik\", ancak varB\'nin kendisini değiştirmediğimizi unutmayın. VarB\'yi kalıcı olarak bir dizgeye çevirmek isteseydik, bunu yapmamız gerekirdi   *
 
 
 </div>
@@ -353,7 +353,7 @@ varB = str(varB)
 
 <div class="mw-translate-fuzzy">
 
-İsterseniz int () ve float () işlevini int\'ye dönüştürmek için int () ve float () işlevini de kullanabiliriz:
+İsterseniz int () ve float () işlevini int\'ye dönüştürmek için int () ve float () işlevini de kullanabiliriz   *
 
 
 </div>
@@ -382,7 +382,7 @@ print(type(varA))
 
 <div class="mw-translate-fuzzy">
 
-tam olarak aynı sonucu verir. Çünkü biz yorumlayıcıdayız ve her şey otomatik olarak basılıyor. Yorumlayıcı dışında çalışan daha karmaşık programlar yazdığımızda, otomatik olarak yazdırılmazlar, bu yüzden print komutunu kullanmamız gerekir. Şu andan itibaren, burada kullanmayı bırakalım, daha hızlı olacak. Böylece basitçe şunu yazabiliriz:
+tam olarak aynı sonucu verir. Çünkü biz yorumlayıcıdayız ve her şey otomatik olarak basılıyor. Yorumlayıcı dışında çalışan daha karmaşık programlar yazdığımızda, otomatik olarak yazdırılmazlar, bu yüzden print komutunu kullanmamız gerekir. Şu andan itibaren, burada kullanmayı bırakalım, daha hızlı olacak. Böylece basitçe şunu yazabiliriz   *
 
 
 </div>
@@ -401,7 +401,7 @@ myVar
 
 <div class="mw-translate-fuzzy">
 
-Bir başka ilginç veri tipi de bir liste. Bir liste sadece başka bir veri topluluğudur. \"\" Kullanarak bir metin dizesini tanımladığımız şekilde, \[\] kullanarak bir liste tanımlarız:
+Bir başka ilginç veri tipi de bir liste. Bir liste sadece başka bir veri topluluğudur. \"\" Kullanarak bir metin dizesini tanımladığımız şekilde, \[\] kullanarak bir liste tanımlarız   *
 
 
 </div>
@@ -417,7 +417,7 @@ myMixedList = ["hello", 345, 34.567]
 
 <div class="mw-translate-fuzzy">
 
-Herhangi bir tür veri içerebileceğini görüyorsunuz. Listeler çok faydalıdır çünkü değişkenleri birlikte gruplayabilirsiniz. Daha sonra o gruptaki her türlü şeyi yapabilirsiniz; örneğin, onları sayarak:
+Herhangi bir tür veri içerebileceğini görüyorsunuz. Listeler çok faydalıdır çünkü değişkenleri birlikte gruplayabilirsiniz. Daha sonra o gruptaki her türlü şeyi yapabilirsiniz; örneğin, onları sayarak   *
 
 
 </div>
@@ -430,7 +430,7 @@ len(myOtherList)
 
 <div class="mw-translate-fuzzy">
 
-veya listedeki bir öğeyi almak:
+veya listedeki bir öğeyi almak   *
 
 
 </div>
@@ -444,7 +444,7 @@ myFriendsName = myOtherList[1]
 
 <div class="mw-translate-fuzzy">
 
-en () komutu bir listedeki toplam öğe sayısını döndürürken, listedeki \"konumları\" 0 ile başlar. Listedeki ilk öğe her zaman 0 konumunda, yani myOtherList \"Bob\" da 2. konumda olacaksınız. Listelerle çok daha fazlasını yapabiliriz, içerikleri sıralama, öğeleri kaldırma veya ekleme gibi [1](http://www.diveintopython.net/native_data_types/lists.html) adresini okuyabilirsiniz.
+en () komutu bir listedeki toplam öğe sayısını döndürürken, listedeki \"konumları\" 0 ile başlar. Listedeki ilk öğe her zaman 0 konumunda, yani myOtherList \"Bob\" da 2. konumda olacaksınız. Listelerle çok daha fazlasını yapabiliriz, içerikleri sıralama, öğeleri kaldırma veya ekleme gibi [1](http   *//www.diveintopython.net/native_data_types/lists.html) adresini okuyabilirsiniz.
 
 
 </div>
@@ -452,7 +452,7 @@ en () komutu bir listedeki toplam öğe sayısını döndürürken, listedeki \"
 
 <div class="mw-translate-fuzzy">
 
-Komik ve ilginç bir şey: bir metin dizesi karakter listesine çok benzer! Bunu yapmayı deneyin:
+Komik ve ilginç bir şey   * bir metin dizesi karakter listesine çok benzer! Bunu yapmayı deneyin   *
 
 
 </div>
@@ -475,7 +475,7 @@ Genellikle, listelerde yapabileceğinizi dizelerle de yapabilirsiniz. Aslında h
 
 <div class="mw-translate-fuzzy">
 
-Dizeler, ints, floats ve listeler dışında, [sözlükleri](http://www.diveintopython.net/native_data_types/index.html#d0e5174) gibi daha yerleşik veri türleri vardır veya kendi veri türlerinizi bile oluşturabilirsiniz [sınıfları](http://www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm) ile.
+Dizeler, ints, floats ve listeler dışında, [sözlükleri](http   *//www.diveintopython.net/native_data_types/index.html#d0e5174) gibi daha yerleşik veri türleri vardır veya kendi veri türlerinizi bile oluşturabilirsiniz [sınıfları](http   *//www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm) ile.
 
 
 </div>
@@ -488,7 +488,7 @@ Dizeler, ints, floats ve listeler dışında, [sözlükleri](http://www.diveinto
 
 <div class="mw-translate-fuzzy">
 
-Listelerin büyük ve harika bir kullanımı da, içinde gezinmek ve her öğeyle bir şeyler yapmaktır. Örneğin şuna bakın:
+Listelerin büyük ve harika bir kullanımı da, içinde gezinmek ve her öğeyle bir şeyler yapmaktır. Örneğin şuna bakın   *
 
 
 </div>
@@ -496,14 +496,14 @@ Listelerin büyük ve harika bir kullanımı da, içinde gezinmek ve her öğeyl
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for dalton in alldaltons:
+for dalton in alldaltons   *
     print(dalton + " Dalton")
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Listemiz boyunca \"for \... in \...\" komutunu kullanarak yineledik (programlama jargonu) ve her bir öğe için bir şeyler yaptık. Özel sözdizimine dikkat edin: \'\' \'için\' \'\' komutu \'\' \':\' \'ile sonlanır ve aşağıdakilerin birden fazla komuttan birinin bir bloğu olacağını belirtir. Tercümanda, biten komut satırına girdikten hemen sonra: komut istemi \... olarak değişecektir, bu da Python\'un iki nokta üst üste (:) son satırın gerçekleştiğini ve daha fazlasının geldiğini bildiği anlamına gelir.
+Listemiz boyunca \"for \... in \...\" komutunu kullanarak yineledik (programlama jargonu) ve her bir öğe için bir şeyler yaptık. Özel sözdizimine dikkat edin   * \'\' \'için\' \'\' komutu \'\' \'   *' \'ile sonlanır ve aşağıdakilerin birden fazla komuttan birinin bir bloğu olacağını belirtir. Tercümanda, biten komut satırına girdikten hemen sonra   * komut istemi \... olarak değişecektir, bu da Python\'un iki nokta üst üste (   *) son satırın gerçekleştiğini ve daha fazlasının geldiğini bildiği anlamına gelir.
 
 
 </div>
@@ -527,7 +527,7 @@ Girinti kullanışlıdır, çünkü programın okunabilirliğine yardımcı olur
 
 <div class="mw-translate-fuzzy">
 
-For-in komutları, bir defadan fazla yapılması gereken birçok şey için kullanılabilir. Örneğin, range () komutuyla birleştirilebilir:
+For-in komutları, bir defadan fazla yapılması gereken birçok şey için kullanılabilir. Örneğin, range () komutuyla birleştirilebilir   *
 
 
 </div>
@@ -537,7 +537,7 @@ For-in komutları, bir defadan fazla yapılması gereken birçok şey için kull
 serie = range(1, 11)
 total = 0
 print("sum")
-for number in serie:
+for number in serie   *
     print(number)
     total = total + number
 print("")
@@ -555,7 +555,7 @@ print(total)
 
 <div class="mw-translate-fuzzy">
 
-Eğer yorumlayıcıya **help(range)** yazarsanız şunu görürsünüz: 
+Eğer yorumlayıcıya **help(range)** yazarsanız şunu görürsünüz   * 
 ```python
 range(...)
     range(stop) -> list of integers
@@ -572,19 +572,19 @@ range(...)
     range(start, stop[, step]) -> list of integers
 ```
 
-Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`:
+Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`   *
 
 
 ```python
 number = 1000
-for i in range(0, 180 * number, int(0.5 * number)):
+for i in range(0, 180 * number, int(0.5 * number))   *
     print(float(i) / number)
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Veya bunun gibi daha karmaşık şeyler:
+Veya bunun gibi daha karmaşık şeyler   *
 
 
 </div>
@@ -592,14 +592,14 @@ Veya bunun gibi daha karmaşık şeyler:
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for n in range(4):
+for n in range(4)   *
     print(alldaltons[n], " is Dalton number ", n)
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Range () komutunun ayrıca, 0 ile başlayan (başlangıç numarasını belirtmezseniz) ve son numarasının belirttiğiniz bitiş numarasından daha az olacağını tuhaf bir özelliğe sahip olduğunu görürsünüz. Bu elbette diğer Python komutları ile iyi çalışır. Örneğin:
+Range () komutunun ayrıca, 0 ile başlayan (başlangıç numarasını belirtmezseniz) ve son numarasının belirttiğiniz bitiş numarasından daha az olacağını tuhaf bir özelliğe sahip olduğunu görürsünüz. Bu elbette diğer Python komutları ile iyi çalışır. Örneğin   *
 
 
 </div>
@@ -608,14 +608,14 @@ Range () komutunun ayrıca, 0 ile başlayan (başlangıç numarasını belirtmez
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
 total = len(alldaltons)
-for n in range(total):
+for n in range(total)   *
     print(alldaltons[n])
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Girintili blokların bir başka ilginç kullanımı if komutudur. Bir kod bloğunu yalnızca belirli bir koşul karşılandığında çalıştırırsa, örneğin:
+Girintili blokların bir başka ilginç kullanımı if komutudur. Bir kod bloğunu yalnızca belirli bir koşul karşılandığında çalıştırırsa, örneğin   *
 
 
 </div>
@@ -623,27 +623,27 @@ Girintili blokların bir başka ilginç kullanımı if komutudur. Bir kod bloğu
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Joe" in alldaltons:
+if "Joe" in alldaltons   *
     print("We found that Dalton!!!")
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Elbette bu her zaman ilk cümleyi yazdıracak, ancak ikinci satırı değiştirmeyi deneyin:
+Elbette bu her zaman ilk cümleyi yazdıracak, ancak ikinci satırı değiştirmeyi deneyin   *
 
 
 </div>
 
 
 ```python
-if "Lucky" in alldaltons:
+if "Lucky" in alldaltons   *
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Sonra hiçbir şey basılmaz. Ayrıca başka bir ifade de belirtebiliriz: ifadesi:
+Sonra hiçbir şey basılmaz. Ayrıca başka bir ifade de belirtebiliriz   * ifadesi   *
 
 
 </div>
@@ -651,9 +651,9 @@ Sonra hiçbir şey basılmaz. Ayrıca başka bir ifade de belirtebiliriz: ifades
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Lucky" in alldaltons:
+if "Lucky" in alldaltons   *
     print("We found that Dalton!!!")
-else:
+else   *
     print("Such Dalton doesn't exist!")
 ```
 
@@ -665,14 +665,14 @@ else:
 
 <div class="mw-translate-fuzzy">
 
-Çok az [standart Python komutları](http://docs.python.org/reference/lexical_analysis.html#identifiers) vardır. Python\'un şu anki versiyonunda, yaklaşık 30 tane var ve biz zaten birkaç tanesini biliyoruz. Ama kendi komutlarımızı icat edip edemeyeceğimizi hayal edin? Yapabiliriz ve bu son derece kolay. Aslında, Python kurulumunuza ekleyebileceğiniz çoğu ek modül tam da bunu yapar, kullanabileceğiniz komutları ekler. Python\'daki özel bir komut fonksiyon olarak adlandırılır ve şöyle yapılır:
+Çok az [standart Python komutları](http   *//docs.python.org/reference/lexical_analysis.html#identifiers) vardır. Python\'un şu anki versiyonunda, yaklaşık 30 tane var ve biz zaten birkaç tanesini biliyoruz. Ama kendi komutlarımızı icat edip edemeyeceğimizi hayal edin? Yapabiliriz ve bu son derece kolay. Aslında, Python kurulumunuza ekleyebileceğiniz çoğu ek modül tam da bunu yapar, kullanabileceğiniz komutları ekler. Python\'daki özel bir komut fonksiyon olarak adlandırılır ve şöyle yapılır   *
 
 
 </div>
 
 
 ```python
-def printsqm(myValue):
+def printsqm(myValue)   *
     print(str(myValue) + " square meters")
 
 printsqm(45)
@@ -681,7 +681,7 @@ printsqm(45)
 
 <div class="mw-translate-fuzzy">
 
-Son derece basit: def () komutu yeni bir fonksiyon tanımlar. Ona bir isim verin ve parantez içinde fonksiyonumuzda kullanacağımız argümanları tanımlayın. Bağımsız değişkenler, işleve iletilecek verilerdir. Örneğin, len () komutuna bakın. Sadece len () yazarsanız, Python size bir argüman gerektirdiğini söyleyecektir. Yani, len () bir şey istiyorum, değil mi? Sonra, örneğin, len (myList) yazacak ve myList\'in uzunluğunu alacaksınız. MyList, len () fonksiyonuna ilettiğiniz bir argümandır. Len () işlevi, kendisine geçenlerle ne yapılacağını bildiği şekilde tanımlanır. Burada yaptığımız gibi.
+Son derece basit   * def () komutu yeni bir fonksiyon tanımlar. Ona bir isim verin ve parantez içinde fonksiyonumuzda kullanacağımız argümanları tanımlayın. Bağımsız değişkenler, işleve iletilecek verilerdir. Örneğin, len () komutuna bakın. Sadece len () yazarsanız, Python size bir argüman gerektirdiğini söyleyecektir. Yani, len () bir şey istiyorum, değil mi? Sonra, örneğin, len (myList) yazacak ve myList\'in uzunluğunu alacaksınız. MyList, len () fonksiyonuna ilettiğiniz bir argümandır. Len () işlevi, kendisine geçenlerle ne yapılacağını bildiği şekilde tanımlanır. Burada yaptığımız gibi.
 
 
 </div>
@@ -689,7 +689,7 @@ Son derece basit: def () komutu yeni bir fonksiyon tanımlar. Ona bir isim verin
 
 <div class="mw-translate-fuzzy">
 
-\"MyValue\" adı herhangi bir şey olabilir ve yalnızca işlev içinde kullanılacaktır. Bu sadece argümana verdiğiniz bir isimdir, onunla bir şeyler yapabilirsiniz, ancak fonksiyona kaç tane argüman bekleneceğini de söyler. Örneğin, bunu yaparsanız:
+\"MyValue\" adı herhangi bir şey olabilir ve yalnızca işlev içinde kullanılacaktır. Bu sadece argümana verdiğiniz bir isimdir, onunla bir şeyler yapabilirsiniz, ancak fonksiyona kaç tane argüman bekleneceğini de söyler. Örneğin, bunu yaparsanız   *
 
 
 </div>
@@ -702,14 +702,14 @@ printsqm(45, 34)
 
 <div class="mw-translate-fuzzy">
 
-Bir hata olacak. Fonksiyonumuz sadece bir argüman alacak şekilde programlandı, fakat iki, 45 ve 34 aldı. Bunun yerine şöyle bir şey yapabiliriz:
+Bir hata olacak. Fonksiyonumuz sadece bir argüman alacak şekilde programlandı, fakat iki, 45 ve 34 aldı. Bunun yerine şöyle bir şey yapabiliriz   *
 
 
 </div>
 
 
 ```python
-def sum(val1, val2):
+def sum(val1, val2)   *
     total = val1 + val2
     return total
 
@@ -719,7 +719,7 @@ myTotal = sum(45, 34)
 
 <div class="mw-translate-fuzzy">
 
-İki argüman alan, toplayan ve bu değeri veren bir fonksiyon yaptık. Bir şeyi döndürmek çok yararlıdır, çünkü sonucunu myTotal değişkeninde saklamak gibi bir şey yapabiliriz. Elbette, biz tercüman olduğumuz ve her şey basıldığı için:
+İki argüman alan, toplayan ve bu değeri veren bir fonksiyon yaptık. Bir şeyi döndürmek çok yararlıdır, çünkü sonucunu myTotal değişkeninde saklamak gibi bir şey yapabiliriz. Elbette, biz tercüman olduğumuz ve her şey basıldığı için   *
 
 
 </div>
@@ -732,7 +732,7 @@ myTotal = sum(45, 34)
 
 <div class="mw-translate-fuzzy">
 
-Şimdi Python\'un nasıl çalıştığı hakkında iyi bir fikrimiz olduğuna göre, son bir şeye ihtiyacımız var: Dosya ve modüllerle nasıl çalışılır
+Şimdi Python\'un nasıl çalıştığı hakkında iyi bir fikrimiz olduğuna göre, son bir şeye ihtiyacımız var   * Dosya ve modüllerle nasıl çalışılır
 
 
 </div>
@@ -748,14 +748,14 @@ myTotal = sum(45, 34)
 
 <div class="mw-translate-fuzzy">
 
-Python\'un bu programı yürütmesini sağlamak için yüzlerce yol vardır. Pencerelerde, dosyayı sağ tıklayın, Python ile açın ve çalıştırın. Ancak Python tercümandan da çalıştırabilirsiniz. Bunun için tercümanın .py programınızın nerede olduğunu bilmesi gerekir. FreeCAD\'de en kolay yol, programınızı FreeCAD\'in Python yorumlayıcısının FreeCAD\'in bin klasörü veya Mod klasörlerinden herhangi biri gibi varsayılan olarak bildiği bir yere yerleştirmektir. (Linux\'ta muhtemelen / home /  /.FreeCAD/Mod dizininiz var, hadi metin dosyasını koyacağımız komut dosyalarına bir alt dizin ekleyelim.) Bunun gibi bir dosya yazdığımızı varsayalım:
+Python\'un bu programı yürütmesini sağlamak için yüzlerce yol vardır. Pencerelerde, dosyayı sağ tıklayın, Python ile açın ve çalıştırın. Ancak Python tercümandan da çalıştırabilirsiniz. Bunun için tercümanın .py programınızın nerede olduğunu bilmesi gerekir. FreeCAD\'de en kolay yol, programınızı FreeCAD\'in Python yorumlayıcısının FreeCAD\'in bin klasörü veya Mod klasörlerinden herhangi biri gibi varsayılan olarak bildiği bir yere yerleştirmektir. (Linux\'ta muhtemelen / home /  /.FreeCAD/Mod dizininiz var, hadi metin dosyasını koyacağımız komut dosyalarına bir alt dizin ekleyelim.) Bunun gibi bir dosya yazdığımızı varsayalım   *
 
 
 </div>
 
 
 ```python
-def sum(a,b):
+def sum(a,b)   *
     return a + b
 
 print("myTest.py succesfully loaded")
@@ -764,7 +764,7 @@ print("myTest.py succesfully loaded")
 
 <div class="mw-translate-fuzzy">
 
-ve bunu FreeCAD/bin dizinine myTest.py olarak kaydedelim (veya Linux\'ta /home/ /.FreeCAD/Mod/scripts.) Şimdi FreeCAD\'i başlatalım ve yorumlayıcı penceresinde şunu yazın:
+ve bunu FreeCAD/bin dizinine myTest.py olarak kaydedelim (veya Linux\'ta /home/ /.FreeCAD/Mod/scripts.) Şimdi FreeCAD\'i başlatalım ve yorumlayıcı penceresinde şunu yazın   *
 
 
 </div>
@@ -777,7 +777,7 @@ import myTest
 
 <div class="mw-translate-fuzzy">
 
-.py uzantısı olmadan. Bu, tıpkı yorumlayıcıya yazdığımız gibi, dosyanın içeriğini satır satır yürütür. Toplam işlevi oluşturulacak ve mesaj yazdırılacaktır. Büyük bir fark var: import komutu sadece dosyalarımızda yazılan programları yürütmek için değil, aynı zamanda içindeki fonksiyonları yüklemek için de yapılır, böylece yorumlayıcı da kullanılabilir hale gelirler. Bizimki gibi fonksiyonlar içeren dosyalara modüller denir.
+.py uzantısı olmadan. Bu, tıpkı yorumlayıcıya yazdığımız gibi, dosyanın içeriğini satır satır yürütür. Toplam işlevi oluşturulacak ve mesaj yazdırılacaktır. Büyük bir fark var   * import komutu sadece dosyalarımızda yazılan programları yürütmek için değil, aynı zamanda içindeki fonksiyonları yüklemek için de yapılır, böylece yorumlayıcı da kullanılabilir hale gelirler. Bizimki gibi fonksiyonlar içeren dosyalara modüller denir.
 
 
 </div>
@@ -785,7 +785,7 @@ import myTest
 
 <div class="mw-translate-fuzzy">
 
-Normal olarak, yorumlayıcıya bir sum () işlevi yazdığımızda, onu sadece şöyle uygularız:
+Normal olarak, yorumlayıcıya bir sum () işlevi yazdığımızda, onu sadece şöyle uygularız   *
 
 
 </div>
@@ -798,7 +798,7 @@ sum(14, 45)
 
 <div class="mw-translate-fuzzy">
 
-Daha önce yaptığımız gibi. Sum () fonksiyonumuzu içeren bir modülü içe aktardığımızda, sözdizimi biraz farklıdır. Şöyle yaparız:
+Daha önce yaptığımız gibi. Sum () fonksiyonumuzu içeren bir modülü içe aktardığımızda, sözdizimi biraz farklıdır. Şöyle yaparız   *
 
 
 </div>
@@ -819,7 +819,7 @@ Yani, modül bir \"konteyner\" olarak içe aktarılır ve tüm fonksiyonları i�
 
 <div class="mw-translate-fuzzy">
 
-Sum() fonksiyonumuzu doğrudan ana yorumlayıcı alanına da aktarabiliriz, şöyle:
+Sum() fonksiyonumuzu doğrudan ana yorumlayıcı alanına da aktarabiliriz, şöyle   *
 
 
 </div>
@@ -833,7 +833,7 @@ sum(12, 54)
 
 <div class="mw-translate-fuzzy">
 
-Temel olarak tüm modüller böyle davranır. Bir modülü içe aktarırsanız, işlevlerini kullanabilirsiniz: module.function (argument). Neredeyse tüm modüller bunu yapar: yorumlayıcı da veya kendi Python modüllerinde kullanabileceğiniz işlevleri, yeni veri türlerini ve sınıflarını tanımlar, çünkü hiçbir şey sizin modülünüzün içine diğer modülleri içe aktarmanızı engellemez!
+Temel olarak tüm modüller böyle davranır. Bir modülü içe aktarırsanız, işlevlerini kullanabilirsiniz   * module.function (argument). Neredeyse tüm modüller bunu yapar   * yorumlayıcı da veya kendi Python modüllerinde kullanabileceğiniz işlevleri, yeni veri türlerini ve sınıflarını tanımlar, çünkü hiçbir şey sizin modülünüzün içine diğer modülleri içe aktarmanızı engellemez!
 
 
 </div>
@@ -841,7 +841,7 @@ Temel olarak tüm modüller böyle davranır. Bir modülü içe aktarırsanız, 
 
 <div class="mw-translate-fuzzy">
 
-Son derece yararlı bir şey. Hangi modüllere sahip olduğumuzu, hangi fonksiyonların içinde olduğunu ve nasıl kullanılacağını (yani, ne tür argümanlara ihtiyaç duyduklarını) nasıl biliyoruz? Python\'un bir help () işlevi olduğunu zaten gördük. Şunu yapın:
+Son derece yararlı bir şey. Hangi modüllere sahip olduğumuzu, hangi fonksiyonların içinde olduğunu ve nasıl kullanılacağını (yani, ne tür argümanlara ihtiyaç duyduklarını) nasıl biliyoruz? Python\'un bir help () işlevi olduğunu zaten gördük. Şunu yapın   *
 
 
 </div>
@@ -889,7 +889,7 @@ print(math.sin.__doc__)
 
 <div class="mw-translate-fuzzy">
 
-Ve son olarak son bir küçük tüyo: Yeni veya mevcut bir modül üzerinde çalışırken, dosya uzantısını py gibi bir ile değiştirmek en iyisidir: myModule.FCMacro =\> myModule.py. Sık sık test etmek istiyoruz, böylece yukarıdaki gibi yükleyeceğiz.
+Ve son olarak son bir küçük tüyo   * Yeni veya mevcut bir modül üzerinde çalışırken, dosya uzantısını py gibi bir ile değiştirmek en iyisidir   * myModule.FCMacro =\> myModule.py. Sık sık test etmek istiyoruz, böylece yukarıdaki gibi yükleyeceğiz.
 
 
 </div>
@@ -903,14 +903,14 @@ importlib.reload(myTest)
 
 <div class="mw-translate-fuzzy">
 
-Bununla birlikte, iki alternatif vardır: Bir makroda Python\'un exec veya execfile işlevlerini kullanın.
+Bununla birlikte, iki alternatif vardır   * Bir makroda Python\'un exec veya execfile işlevlerini kullanın.
 
 
 </div>
 
 
 ```python
-exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
+exec(open("C   */PathToMyMacro/myMacro.FCMacro").read())
 ```
 
 
@@ -937,7 +937,7 @@ dir()
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
--   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
+-   Much more information about Python can be found in the [official Python tutorial](https   *//docs.python.org/3/tutorial/index.html) and the [official Python reference](https   *//docs.python.org/3/reference/).
 
 
 {{Top}}
@@ -950,6 +950,11 @@ dir()
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

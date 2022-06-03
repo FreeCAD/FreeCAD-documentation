@@ -9,59 +9,59 @@
 |Date=2019-06-19
 |FCVersion=Toutes
 |Download=<br />
-[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
-[https://www.freecadweb.org/wiki/images/5/5b/MEpipe02.png MEpipe02]<br />
-[https://www.freecadweb.org/wiki/images/e/e4/MEPlan.png MEPlan]<br />
-[https://www.freecadweb.org/wiki/images/3/30/MEPlanD.png MEPlanD]<br />
-[https://www.freecadweb.org/wiki/images/d/d8/MEPlanF.png MEPlanF]<br />
-[https://www.freecadweb.org/wiki/images/9/9f/MEPlanT.png MEPlanT]<br />
-[https://www.freecadweb.org/wiki/images/f/f2/MEPlanI.png MEPlanI]<br />
-[https://www.freecadweb.org/wiki/images/e/e6/MEPlanFC.png MEPlanFC]<br />
-[https://www.freecadweb.org/wiki/images/d/d2/MEPlanPY.png MEPlanPY]
+[https   *//www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
+[https   *//www.freecadweb.org/wiki/images/5/5b/MEpipe02.png MEpipe02]<br />
+[https   *//www.freecadweb.org/wiki/images/e/e4/MEPlan.png MEPlan]<br />
+[https   *//www.freecadweb.org/wiki/images/3/30/MEPlanD.png MEPlanD]<br />
+[https   *//www.freecadweb.org/wiki/images/d/d8/MEPlanF.png MEPlanF]<br />
+[https   *//www.freecadweb.org/wiki/images/9/9f/MEPlanT.png MEPlanT]<br />
+[https   *//www.freecadweb.org/wiki/images/f/f2/MEPlanI.png MEPlanI]<br />
+[https   *//www.freecadweb.org/wiki/images/e/e6/MEPlanFC.png MEPlanFC]<br />
+[https   *//www.freecadweb.org/wiki/images/d/d2/MEPlanPY.png MEPlanPY]
 |SeeAlso=[Création d'une boite de dialogue](Dialog_creation/fr.md)}}
 
 Cette macro est un exemple d\'utilisation des commandes Qt pour les connexions, l\'extraction et l\'affectation des données.
 
-Image:Qt\_Example\_00.png\|Exemple Qt Image:Qt\_Example\_01.png\|Details des exemples
+Image   *Qt\_Example\_00.png\|Exemple Qt Image   *Qt\_Example\_01.png\|Details des exemples
 
-Sont traités :
+Sont traités    *
 
-1.  **icon for window** : l\'icône affiché sur la fenêtre principale
-2.  **horizontalSlider** : curseur horizontal, sa connexion et extraction de données / affectation
-3.  **progressBar horizontal** : barre de progression horizontale, sa connexion et extraction de données / affectation
-4.  **verticalSlider** : curseur vertical, sa connexion et son extraction de données / affectation
-5.  **progressBar vertical** : barre de progression verticale, sa connexion et son extraction de données / affectation
-6.  **lineEdit** : édition de ligne, sa connexion et extraction de données / affectation
-7.  **lineEdit** : édition de ligne, sa connexion et extraction de données / affectation
-8.  **doubleSpinBox** : double spinbox sa connexion et extraction de données / affectation
-9.  **doubleSpinBox** :
-10. **doubleSpinBox** :
-11. **button** : bouton, sa connexion
-12. **button** :
-13. **radioButton** : bouton radio avec icônes, sa connexion et coché
-14. **checkBox** : case à cocher avec son icône de connexion cochée et non cochée.
-15. **textEdit** : édition de texte avec sa connexion et extraction de données / affectation
-16. **graphicsView** : vue graphique avec 2 graphiques et méthode utilisée pour changer l\'image.
+1.  **icon for window**    * l\'icône affiché sur la fenêtre principale
+2.  **horizontalSlider**    * curseur horizontal, sa connexion et extraction de données / affectation
+3.  **progressBar horizontal**    * barre de progression horizontale, sa connexion et extraction de données / affectation
+4.  **verticalSlider**    * curseur vertical, sa connexion et son extraction de données / affectation
+5.  **progressBar vertical**    * barre de progression verticale, sa connexion et son extraction de données / affectation
+6.  **lineEdit**    * édition de ligne, sa connexion et extraction de données / affectation
+7.  **lineEdit**    * édition de ligne, sa connexion et extraction de données / affectation
+8.  **doubleSpinBox**    * double spinbox sa connexion et extraction de données / affectation
+9.  **doubleSpinBox**    *
+10. **doubleSpinBox**    *
+11. **button**    * bouton, sa connexion
+12. **button**    *
+13. **radioButton**    * bouton radio avec icônes, sa connexion et coché
+14. **checkBox**    * case à cocher avec son icône de connexion cochée et non cochée.
+15. **textEdit**    * édition de texte avec sa connexion et extraction de données / affectation
+16. **graphicsView**    * vue graphique avec 2 graphiques et méthode utilisée pour changer l\'image.
 
-Les outils utilisés sont :
+Les outils utilisés sont    *
 
-[python-2.7.8](https://www.python.org/downloads/)
+[python-2.7.8](https   *//www.python.org/downloads/)
 
-[PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32](https://riverbankcomputing.com/software/pyqt/download)
+[PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32](https   *//riverbankcomputing.com/software/pyqt/download)
 
-Pour convertir votre fichier .ui en .py vous devez utiliser **pyuic.py** qui est dans \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (pour Windows)
+Pour convertir votre fichier .ui en .py vous devez utiliser **pyuic.py** qui est dans \"C   *Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (pour Windows)
 
-vous pouvez créer un fichier convertuitopy.bat pour automatiser la procédure :
+vous pouvez créer un fichier convertuitopy.bat pour automatiser la procédure    *
 
-\'\'\'1: \'\'\'créer un nouveau fichier dans votre répertoire de travail Qt et nommez le en **convertuitopy.bat**
+\'\'\'1   * \'\'\'créer un nouveau fichier dans votre répertoire de travail Qt et nommez le en **convertuitopy.bat**
 
-\'\'\'2: \'\'\'éditez le fichier et collez y cette ligne:
+\'\'\'2   * \'\'\'éditez le fichier et collez y cette ligne   *
 
-**@\"C:\\Python27\\python\" \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" -x %1.ui \> %1.py**
+**@\"C   *Python27\\python\" \"C   *Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" -x %1.ui \> %1.py**
 
-\'\'\'3: \'\'\'puis dans une console Dos faites **convertuitopy myproject** (ne pas donner d\'extension la commande l\'ajoute automatiquement)
+\'\'\'3   * \'\'\'puis dans une console Dos faites **convertuitopy myproject** (ne pas donner d\'extension la commande l\'ajoute automatiquement)
 
-\'\'\'4: \'\'\'votre fichier monprojet.py est créé
+\'\'\'4   * \'\'\'votre fichier monprojet.py est créé
 
 ### Les icônes utilisés 
 
@@ -69,19 +69,19 @@ vous pouvez créer un fichier convertuitopy.bat pour automatiser la procédure :
 
 ![](images/MEPlanFC.png ) ![](images/MEPlanPY.png )
 
-Vous devez copier les images dans le même répertoire que la macro , ici :
+Vous devez copier les images dans le même répertoire que la macro , ici    *
 
-Linux : \"**home/user/.FreeCAD/Macro**\"
+Linux    * \"**home/user/.FreeCAD/Macro**\"
 
-Windows : \"**C:\\Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
+Windows    * \"**C   *Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
 ## Script
 
-Le contenu du fichier **Qt\_Example.FCMacro** est donné ci-dessous :
+Le contenu du fichier **Qt\_Example.FCMacro** est donné ci-dessous    *
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 """
 ***************************************************************************
 *   Copyright (c) 2015 2017 2019 <mario52>                                *
@@ -110,34 +110,34 @@ Le contenu du fichier **Qt\_Example.FCMacro** est donné ci-dessous :
 """
 # this macro is made with Python 2.7 and Qt 4.8.7
 # 
-# the modules used hare :
-# python-2.7.8.msi                                 #    https://www.python.org/downloads/
-# PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32.exe           #    https://riverbankcomputing.com/software/pyqt/download
+# the modules used hare    *
+# python-2.7.8.msi                                 #    https   *//www.python.org/downloads/
+# PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32.exe           #    https   *//riverbankcomputing.com/software/pyqt/download
 #
 # FreeCAD
-##OS: Windows 8                                    # OS: Windows 10                                # OS: Windows 10 (10.0)
-##Word size of OS: 64-bit                          # Word size of OS: 64-bit                       # Word size of OS: 64-bit
-##Word size of FreeCAD: 64-bit                     # Word size of FreeCAD: 64-bit                  # Word size of FreeCAD: 64-bit
-##Version: 0.15.4671 (Git)                         # Version: 0.16.6706 (Git)                      # Version: 0.19.16624 (Git)
-##"Branch: releases/FreeCAD-0-15                   # Build type: Release                           # Build type: Release
-##Hash: 244b3aef360841646cbfe80a1b225c8b39c8380c   # Branch: releases/FreeCAD-0-16                 # Branch: master
-##Python version: 2.7.8                            # Hash: f86a4e411ff7848dea98d7242f43b7774bee8fa0# Hash: 222ae7305fdf1097e4ef3d050f69dff47dbd8786
-##Qt version: 4.8.6                                # Python version: 2.7.8                         # Python version: 3.6.8
-##Coin version: 4.0.0a                             # Qt version: 4.8.7                             # Qt version: 5.12.1
-##OCC version: 6.8.0.oce-0.17                      # Coin version: 4.0.0a                          # Coin version: 4.0.0a
-#                                                  # OCC version: 6.8.0.oce-0.17                   # OCC version: 7.3.0
+##OS   * Windows 8                                    # OS   * Windows 10                                # OS   * Windows 10 (10.0)
+##Word size of OS   * 64-bit                          # Word size of OS   * 64-bit                       # Word size of OS   * 64-bit
+##Word size of FreeCAD   * 64-bit                     # Word size of FreeCAD   * 64-bit                  # Word size of FreeCAD   * 64-bit
+##Version   * 0.15.4671 (Git)                         # Version   * 0.16.6706 (Git)                      # Version   * 0.19.16624 (Git)
+##"Branch   * releases/FreeCAD-0-15                   # Build type   * Release                           # Build type   * Release
+##Hash   * 244b3aef360841646cbfe80a1b225c8b39c8380c   # Branch   * releases/FreeCAD-0-16                 # Branch   * master
+##Python version   * 2.7.8                            # Hash   * f86a4e411ff7848dea98d7242f43b7774bee8fa0# Hash   * 222ae7305fdf1097e4ef3d050f69dff47dbd8786
+##Qt version   * 4.8.6                                # Python version   * 2.7.8                         # Python version   * 3.6.8
+##Coin version   * 4.0.0a                             # Qt version   * 4.8.7                             # Qt version   * 5.12.1
+##OCC version   * 6.8.0.oce-0.17                      # Coin version   * 4.0.0a                          # Coin version   * 4.0.0a
+#                                                  # OCC version   * 6.8.0.oce-0.17                   # OCC version   * 7.3.0
 #
-# this macro is an example of use some buttons and connection :
+# this macro is an example of use some buttons and connection    *
 #                                                    ********** is a connection  ** references lines **********
 # 
 # horizontalScrollBar                                                               lines 151 to 161, 431, 432, 642
-#    def on_horizontal_scrolling(self, val_X):                  #connection         lines 161, 526, 531
+#    def on_horizontal_scrolling(self, val_X)   *                  #connection         lines 161, 526, 531
 # verticalScrollBar                                                                 lines 163 to 173, 393, 394, 433, 643
-#    def on_vertical_scrolling(self, val_Y):                    #connection         lines 173, 534, 539
+#    def on_vertical_scrolling(self, val_Y)   *                    #connection         lines 173, 534, 539
 # horizontalSlider                                                                  lines 174 to 181, 575, 577, 644
-#    def on_horizontal_slider(self, val_X):                     #connection         lines 181,  542, 553
+#    def on_horizontal_slider(self, val_X)   *                     #connection         lines 181,  542, 553
 # verticalSlider                                                                    lines 183 to 188, 593, 595, 645
-#    def on_vertical_slider(self, val_Y):                       #connection         lines 188, 556, 564
+#    def on_vertical_slider(self, val_Y)   *                       #connection         lines 188, 556, 564
 # progressBar
 #     progressBar_1_Red                                                             lines 190 to 199, 533, 548, 579
 #     progressBar_1_Green                                                           lines 205 to 214, 552, 583
@@ -147,37 +147,37 @@ Le contenu du fichier **Qt\_Example.FCMacro** est donné ci-dessous :
 
 # lineEdit
 #     lineEdit_1                                                                    lines 256 to 262, 455, 531, 550, 644
-#        def on_lineEdit_1_Pressed(self):                       #connection         lines 261, 262, 572
+#        def on_lineEdit_1_Pressed(self)   *                       #connection         lines 261, 262, 572
 #     lineEdit_2                                                                    lines 264 to 270, 458, 539, 564, 645
-#        def on_lineEdit_2_Pressed(self):                       #connection         lines 269, 270, 590
+#        def on_lineEdit_2_Pressed(self)   *                       #connection         lines 269, 270, 590
 # doubleSpinBox
 #     doubleSpinBox_1                                                               lines 272 to 279, 461, 462, 641
-#        def on_doubleSpinBox_1_valueChanged(self,echelle):     #connection         lines 279, 674
+#        def on_doubleSpinBox_1_valueChanged(self,echelle)   *     #connection         lines 279, 674
 #     doubleSpinBox_2                                                               lines 281 to 287, 464, 465, 642
-#        def on_doubleSpinBox_2_valueChanged(self,angle):       #connection         lines 287, 681
+#        def on_doubleSpinBox_2_valueChanged(self,angle)   *       #connection         lines 287, 681
 #     doubleSpinBox_3                                                               lines 289 to 295, 467, 468, 643 
-#        def on_doubleSpinBox_3_valueChanged(self,epaisseur):   #connection         lines 295, 687
+#        def on_doubleSpinBox_3_valueChanged(self,epaisseur)   *   #connection         lines 295, 687
 # pushButton
 #     pushButton_1                                                                  lines 297 to 301, 450, 451, 631, 663, 670
-#        def on_pushButton_1_clicked(self):                     #connection         lines 301, 636
+#        def on_pushButton_1_clicked(self)   *                     #connection         lines 301, 636
 #     pushButton_2                                                                  lines 303 to 307, 452, 453
-#        def on_pushButton_2_clicked(self):                     #connection         lines 307, 627
+#        def on_pushButton_2_clicked(self)   *                     #connection         lines 307, 627
 # groupBox                                                                          lines 309 to 312, 315, 326, 336, 346, 356, 439
 #     radioButton
 #         radioButton_1                                                             lines 315 to 323, 440, 441, 486, 487, 651
-#            def on_radioButton_1_clicked(self):                #connection         lines 323, 482
+#            def on_radioButton_1_clicked(self)   *                #connection         lines 323, 482
 #         radioButton_2                                                             lines 325 to 333, 442, 443, 494, 495
-#            def on_radioButton_2_clicked(self):                #connection         lines 333, 490
+#            def on_radioButton_2_clicked(self)   *                #connection         lines 333, 490
 #         radioButton_3                                                             lines 335 to 343, 444, 445, 501, 502
-#            def on_radioButton_3_clicked(self):                #connection         lines 343, 498
+#            def on_radioButton_3_clicked(self)   *                #connection         lines 343, 498
 #         radioButton_4                                                             lines 345 to 353, 446, 447, 509, 510
-#            def on_radioButton_4_clicked(self):                #connection         lines 353, 505
+#            def on_radioButton_4_clicked(self)   *                #connection         lines 353, 505
 # checkBox
 #        checkBox_1                                                                 lines 355 to 364, 448, 449, 610, 614, 615, 621, 622, 652, 655
-#        def on_checkBox_1_clicked(self):                       #connection         lines 360, 606
+#        def on_checkBox_1_clicked(self)   *                       #connection         lines 360, 606
 # textEdit
 #        textEdit                                                                   lines 391 to 399, 534, 542, 556, 567, 650, 695
-#        def on_textEdit_Changed(self):                         #connection         lines 399, 694
+#        def on_textEdit_Changed(self)   *                         #connection         lines 399, 694
 # graphicsView                                                                      lines 401 to 410, 662, 669
 # 
 # 
@@ -189,11 +189,11 @@ __author__  = "mario52"
 __version__ = "00.04"
 __date__    = "14/06/2019"
  
-__url__     = "http://www.freecadweb.org/index-fr.html"
+__url__     = "http   *//www.freecadweb.org/index-fr.html"
 __Comment__ = "Example make and use buttom and . . . ."
-__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:Mario52"
+__Communication__ = "http   *//www.freecadweb.org/wiki/index.php?title=User   *Mario52"
 __IconL__  = "home/user/.FreeCAD"
-__IconW__  = "C:/Users/Mario/AppData/Roaming/FreeCAD/Macro"
+__IconW__  = "C   */Users/Mario/AppData/Roaming/FreeCAD/Macro"
  
 import PySide
 from PySide import QtCore, QtGui
@@ -205,27 +205,27 @@ global path
 #path  = FreeCAD.ConfigGet("AppHomePath")                           # path FreeCAD installation
 #path  = FreeCAD.ConfigGet("UserAppData")                           # path FreeCAD User data
 #path  = "your path"                                                # your directory path
-param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
+param = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macro")# macro path
 path = param.GetString("MacroPath","") + "/"                        # macro path
 path = path.replace("\\","/")                                       # convert the "\" to "/"
-print( "Path for the icons : " , path )                             # 
+print( "Path for the icons    * " , path )                             # 
  
-try:
+try   *
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
+except AttributeError   *
+    def _fromUtf8(s)   *
         return s
  
-try:
+try   *
     _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
+    def _translate(context, text, disambig)   *
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
+except AttributeError   *
+    def _translate(context, text, disambig)   *
         return QtGui.QApplication.translate(context, text, disambig)
  
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
+class Ui_MainWindow(object)   *
+    def setupUi(self, MainWindow)   *
         self.window = MainWindow
         global switch
  
@@ -246,7 +246,7 @@ class Ui_MainWindow(object):
 #        self.horizontalScrollBar.setOrientation(QtCore.Qt.Horizontal)                      # orientation Horizontal
 #        #self.horizontalScrollBar.setInvertedAppearance(True)                              # displacement rigth to left or left to rigth value "True" or "False"
 #        self.horizontalScrollBar.setObjectName(_fromUtf8("horizontalScrollBar"))           # object Name
-#        self.horizontalScrollBar.valueChanged.connect(self.on_horizontal_scrolling)        # connect on "def on_horizontal_scrolling:" for execute action
+#        self.horizontalScrollBar.valueChanged.connect(self.on_horizontal_scrolling)        # connect on "def on_horizontal_scrolling   *" for execute action
 #
 ##        section verticalScrollBar
 #        self.verticalScrollBar = QtGui.QScrollBar(self.widget)                             # create verticalScrollBar
@@ -258,7 +258,7 @@ class Ui_MainWindow(object):
 #        self.verticalScrollBar.setOrientation(QtCore.Qt.Vertical)                          # orientation Vertical
 #        self.verticalScrollBar.setInvertedAppearance(True)                                 # displacement top to bottom or botton to top value "True" or "False" 
 #        self.verticalScrollBar.setObjectName(_fromUtf8("verticalScrollBar"))               # object Name
-#        self.verticalScrollBar.valueChanged.connect(self.on_vertical_scrolling)            # connect on "def on_vertical_scrolling:" for execute action
+#        self.verticalScrollBar.valueChanged.connect(self.on_vertical_scrolling)            # connect on "def on_vertical_scrolling   *" for execute action
  
 #        section horizontalSlider 
         self.horizontalSlider = QtGui.QSlider(self.widget)                                  # create horizontalSlider
@@ -266,14 +266,14 @@ class Ui_MainWindow(object):
         self.horizontalSlider.setOrientation(QtCore.Qt.Horizontal)                          # orientation Horizontal
         self.horizontalSlider.setInvertedAppearance(False)                                  # displacement rigth to left or left to rigth value "True" or "False"
         self.horizontalSlider.setObjectName(_fromUtf8("horizontalSlider"))                  # object Name
-        self.horizontalSlider.valueChanged.connect(self.on_horizontal_slider)               # connect on "def on_horizontal_slider:" for execute action
+        self.horizontalSlider.valueChanged.connect(self.on_horizontal_slider)               # connect on "def on_horizontal_slider   *" for execute action
  
 #        section verticalSlider 
         self.verticalSlider = QtGui.QSlider(self.widget)                                    # create verticalSlider
         self.verticalSlider.setGeometry(QtCore.QRect(20, 44, 20, 365))                      # coordinates position
         self.verticalSlider.setOrientation(QtCore.Qt.Vertical)                              # orientation Vertical
         self.verticalSlider.setObjectName(_fromUtf8("verticalSlider"))                      # object Name
-        self.verticalSlider.valueChanged.connect(self.on_vertical_slider)                   # connect on "def on_vertical_slider:" for execute action
+        self.verticalSlider.valueChanged.connect(self.on_vertical_slider)                   # connect on "def on_vertical_slider   *" for execute action
  
 #        section progressBar 1 Red
         self.progressBar_1_Red = QtGui.QProgressBar(self.widget)                            # create object progressBar_1
@@ -284,8 +284,8 @@ class Ui_MainWindow(object):
         self.progressBar_1_Red.setObjectName(_fromUtf8("progressBar_1_Red"))                # object Name
         self.progressBar_1_Red.setToolTip(_translate("MainWindow", "progressBar_1_Red for lineEdit 1 and horizontal ScrollBar", None)) # tooltip for explanation
                                                                                             # a tooltip can be set to all objects
-        self.progressBar_1_Red.setStyleSheet("QProgressBar {color:black; }"
-                                              "QProgressBar:chunk {background-color: #FF0000;}") # modify the progressBar color 
+        self.progressBar_1_Red.setStyleSheet("QProgressBar {color   *black; }"
+                                              "QProgressBar   *chunk {background-color   * #FF0000;}") # modify the progressBar color 
 
 #        section progressBar 1 Green
         self.progressBar_1_Green = QtGui.QProgressBar(self.widget)                          # create object progressBar_1
@@ -296,8 +296,8 @@ class Ui_MainWindow(object):
         self.progressBar_1_Green.setObjectName(_fromUtf8("progressBar_1_Green"))            # object Name
         self.progressBar_1_Green.setToolTip(_translate("MainWindow", "progressBar_1_Green for lineEdit 1 and horizontal ScrollBar", None)) # tooltip for explanation
                                                                                             # a tooltip can be set to all objects
-        self.progressBar_1_Green.setStyleSheet("QProgressBar {color:black; }"
-                                              "QProgressBar:chunk {background-color: #00FF00;}") # modify the progressBar color 
+        self.progressBar_1_Green.setStyleSheet("QProgressBar {color   *black; }"
+                                              "QProgressBar   *chunk {background-color   * #00FF00;}") # modify the progressBar color 
 
 #        section progressBar 1 Blue
         self.progressBar_1_Blue = QtGui.QProgressBar(self.widget)                           # create object progressBar_1
@@ -309,8 +309,8 @@ class Ui_MainWindow(object):
         self.progressBar_1_Blue.setToolTip(_translate("MainWindow", "progressBar_1_Blue for lineEdit 1 and horizontal ScrollBar", None)) # tooltip for explanation
                                                                                             # a tooltip can be set to all objects
         self.progressBar_1_Blue.setStyleSheet(
-             "QProgressBar {color:black; text-align:right; padding:2px; border-radius: 5px;}" # modify the progressBar color and display
-             "QProgressBar:chunk {background-color: #0000FF; width: 10px; margin-left:2px;}")
+             "QProgressBar {color   *black; text-align   *right; padding   *2px; border-radius   * 5px;}" # modify the progressBar color and display
+             "QProgressBar   *chunk {background-color   * #0000FF; width   * 10px; margin-left   *2px;}")
 
 #        section progressBar 1 gradient
         self.progressBar_1_gradient = QtGui.QProgressBar(self.widget)                       # create object progressBar_1
@@ -321,10 +321,10 @@ class Ui_MainWindow(object):
         self.progressBar_1_gradient.setObjectName(_fromUtf8("progressBar_1_gradient"))      # object Name
         self.progressBar_1_gradient.setToolTip(_translate("MainWindow", "progressBar_1_gradient for lineEdit 1 and horizontal ScrollBar", None)) # tooltip for explanation
                                                                                             # a tooltip can be set to all objects
-        ##http://pyqt.sourceforge.net/Docs/PyQt4/qlineargradient.html
+        ##http   *//pyqt.sourceforge.net/Docs/PyQt4/qlineargradient.html
         self.progressBar_1_gradient.setStyleSheet(
-             "QProgressBar {color:red; text-align:right; padding:1px; }"                    # modify the progressBar color and display
-             "QProgressBar:chunk {text-align: center; background: qlineargradient(x1: 0, y1: 0.5, x2: 1, y2: 0.5, stop: 0 #FFFF00, stop: 1 #00FFFF);}")
+             "QProgressBar {color   *red; text-align   *right; padding   *1px; }"                    # modify the progressBar color and display
+             "QProgressBar   *chunk {text-align   * center; background   * qlineargradient(x1   * 0, y1   * 0.5, x2   * 1, y2   * 0.5, stop   * 0 #FFFF00, stop   * 1 #00FFFF);}")
 
 #        section progressBar 2
         self.progressBar_2 = QtGui.QProgressBar(self.widget)                                # create object progressBar_2
@@ -404,7 +404,7 @@ class Ui_MainWindow(object):
         icon01 = QtGui.QIcon()                                                              # create image name
         icon01.addPixmap(QtGui.QPixmap(self.image_01),QtGui.QIcon.Normal, QtGui.QIcon.Off)  #
         self.radioButton_1.setIcon(icon01)                                                  # associate button and image
-        self.radioButton_1.clicked.connect(self.on_radioButton_1_clicked)                   # connect radioButton_1 on "def on_radioButton_1_clicked:"
+        self.radioButton_1.clicked.connect(self.on_radioButton_1_clicked)                   # connect radioButton_1 on "def on_radioButton_1_clicked   *"
  
 #        section radioButton 2
         self.radioButton_2 = QtGui.QRadioButton(self.groupBox)                              # create object QRadioButton in groupBox
@@ -414,7 +414,7 @@ class Ui_MainWindow(object):
         icon02 = QtGui.QIcon()                                                              # create image name
         icon02.addPixmap(QtGui.QPixmap(self.image_02),QtGui.QIcon.Normal, QtGui.QIcon.Off)  #
         self.radioButton_2.setIcon(icon02)                                                  # associate button and image
-        self.radioButton_2.clicked.connect(self.on_radioButton_2_clicked)                   # connect radioButton_2 on "def on_radioButton_2_clicked:"
+        self.radioButton_2.clicked.connect(self.on_radioButton_2_clicked)                   # connect radioButton_2 on "def on_radioButton_2_clicked   *"
  
 #        section radioButton 3
         self.radioButton_3 = QtGui.QRadioButton(self.groupBox)                              # create object QRadioButton in groupBox
@@ -424,7 +424,7 @@ class Ui_MainWindow(object):
         icon03 = QtGui.QIcon()                                                              # create image name
         icon03.addPixmap(QtGui.QPixmap(self.image_03),QtGui.QIcon.Normal, QtGui.QIcon.Off)  #
         self.radioButton_3.setIcon(icon03)                                                  # associate button and image
-        self.radioButton_3.clicked.connect(self.on_radioButton_3_clicked)                   # connect radioButton_3 on "def on_radioButton_3_clicked:"
+        self.radioButton_3.clicked.connect(self.on_radioButton_3_clicked)                   # connect radioButton_3 on "def on_radioButton_3_clicked   *"
  
 #        section radioButton 4
         self.radioButton_4 = QtGui.QRadioButton(self.groupBox)                              # create object QRadioButton in groupBox
@@ -434,7 +434,7 @@ class Ui_MainWindow(object):
         icon04 = QtGui.QIcon()                                                              # create image name
         icon04.addPixmap(QtGui.QPixmap(self.image_04),QtGui.QIcon.Normal, QtGui.QIcon.Off)  #
         self.radioButton_4.setIcon(icon04)                                                  # associate button and image
-        self.radioButton_4.clicked.connect(self.on_radioButton_4_clicked)                   # connect radioButton_4 on "def on_radioButton_4_clicked:"
+        self.radioButton_4.clicked.connect(self.on_radioButton_4_clicked)                   # connect radioButton_4 on "def on_radioButton_4_clicked   *"
  
 #        section checkBox 1
         self.checkBox_1 = QtGui.QCheckBox(self.groupBox)                                    # create object QRadioButton in groupBox
@@ -511,7 +511,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
  
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, MainWindow)   *
         MainWindow.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint)                   # this function turns the front window (stay to hint)
         MainWindow.setWindowTitle(_translate("MainWindow", "Qt_Example", None))            # title main window
         MainWindow.setWindowIcon(QtGui.QIcon(path+'MEPlan.png'))                           # change the icon of the main window
@@ -551,19 +551,19 @@ class Ui_MainWindow(object):
         self.label_5.setText(_translate("MainWindow", "doubleSpinBox_3", None))
         self.doubleSpinBox_3.setToolTip(_translate("MainWindow", "doubleSpinBox_3", None))
  
-        font = QtGui.QFont()          # see http://doc.qt.io/qt-4.8/qfont.html              # label text displayed and colored in red
+        font = QtGui.QFont()          # see http   *//doc.qt.io/qt-4.8/qfont.html              # label text displayed and colored in red
         font.setFamily("Times New Roman")                                                   # font used (Windows)
         font.setPointSize(10)                                                               # font PointSize
         font.setWeight(10)                                                                  # font Weight
         font.setBold(True)                                                                  # Bolt True or False 
         self.label_6.setFont(font)                                                          # associate label_6 and font
         self.label_6.setObjectName("label_6")                                               # name of object
-        self.label_6.setStyleSheet("color : #ff0000")                                       # Color text
+        self.label_6.setStyleSheet("color    * #ff0000")                                       # Color text
         self.label_6.setText(_translate("MainWindow", "Hello world", None))                 # same resultt with "<b>Hello world</b>"
  
     ########### section connections on def #############################
     # radioboutons
-    def on_radioButton_1_clicked(self):                                                     # connection on_radioButton_1_clicked
+    def on_radioButton_1_clicked(self)   *                                                     # connection on_radioButton_1_clicked
         #
         #here your code
         #
@@ -571,7 +571,7 @@ class Ui_MainWindow(object):
         print( "radioButton_1")
         #
  
-    def on_radioButton_2_clicked(self):                                                     # connection on_radioButton_2_clicked
+    def on_radioButton_2_clicked(self)   *                                                     # connection on_radioButton_2_clicked
         #
         #here your code
         #
@@ -579,14 +579,14 @@ class Ui_MainWindow(object):
         print( "radioButton_2")
         #
  
-    def on_radioButton_3_clicked(self):                                                     # connection on_radioButton_3_clicked
+    def on_radioButton_3_clicked(self)   *                                                     # connection on_radioButton_3_clicked
         #
         #here your code
         self.label_6.setText(_translate("MainWindow", "radioButton_3          ", None))     # display in the label_6 (red)
         print( "radioButton_3")
         #
  
-    def on_radioButton_4_clicked(self):                                                     # connection on_radioButton_4_clicked
+    def on_radioButton_4_clicked(self)   *                                                     # connection on_radioButton_4_clicked
         #
         #here your code
         #
@@ -594,7 +594,7 @@ class Ui_MainWindow(object):
         print( "radioButton_4")
         #
  
-    def affectation_X (self,val_X0):                                                        # connection affectation_X
+    def affectation_X (self,val_X0)   *                                                        # connection affectation_X
         #val_X = float(val_X0)                                                              # extract the value and transform it in float
         #
         #here your code
@@ -602,7 +602,7 @@ class Ui_MainWindow(object):
         print( val_X0)
         #
  
-    def affectation_Y (self,val_Y0):                                                        # connection affectation_Y
+    def affectation_Y (self,val_Y0)   *                                                        # connection affectation_Y
         #val_Y = float(val_Y0)                                                              # extract the value and transform it in float
         #
         #here your code
@@ -611,7 +611,7 @@ class Ui_MainWindow(object):
         #
  
 #    # scroll bar barres coulissantes
-#    def on_horizontal_scrolling(self, val_X):                                              # connection on_horizontal_scrolling
+#    def on_horizontal_scrolling(self, val_X)   *                                              # connection on_horizontal_scrolling
 #        self.lineEdit_1.setText(str(val_X))
 #        self.affectation_X(val_X)
 #        self.progressBar_1_Red.setValue(val_X)
@@ -619,7 +619,7 @@ class Ui_MainWindow(object):
 #        print( "on_horizontal_scrolling")
 #
 #
-#    def on_vertical_scrolling(self, val_Y):                                                # connection on_vertical_scrolling
+#    def on_vertical_scrolling(self, val_Y)   *                                                # connection on_vertical_scrolling
 #        self.lineEdit_2.setText(str(val_Y))
 #        self.affectation_Y(val_Y)
 #        self.progressBar_2.setValue(val_Y)
@@ -627,7 +627,7 @@ class Ui_MainWindow(object):
 #        print( "on_vertical_scrolling")
  
     # slider barres coulissantes
-    def on_horizontal_slider(self, val_X):                                                  # connection on_horizontal_slider
+    def on_horizontal_slider(self, val_X)   *                                                  # connection on_horizontal_slider
         #
         #here your code
         #
@@ -641,7 +641,7 @@ class Ui_MainWindow(object):
         print( "on_horizontal_slider" )                                                       # displayed on View repport
         #
  
-    def on_vertical_slider(self, val_Y):                                                    # connection on_vertical_slider
+    def on_vertical_slider(self, val_Y)   *                                                    # connection on_vertical_slider
         #
         #here your code
         #
@@ -653,15 +653,15 @@ class Ui_MainWindow(object):
         #
  
     # lineEdit
-    def on_lineEdit_1_Pressed(self):                                                        # connection on_lineEdit_1_Pressed
+    def on_lineEdit_1_Pressed(self)   *                                                        # connection on_lineEdit_1_Pressed
         val_X = self.lineEdit_1.text()                                                      # extract the string in the lineEdit
         #
         #here your code
         #
         self.affectation_X(val_X)
-        try:
+        try   *
             self.horizontalSlider.setValue(int(val_X))                                      # affect the value "val_X" on horizontalSlider and modify this
-        except Exception:                                                                   # if error
+        except Exception   *                                                                   # if error
             self.horizontalSlider.setValue(int(0))                                          # affect the value "0" on horizontalSlider and modify this
             val_X = "0"
         self.progressBar_1_Red.setValue(int(val_X))                                         # affect the value "val_X" on progressBar_1 and modify this
@@ -671,15 +671,15 @@ class Ui_MainWindow(object):
         print( val_X)
         #
  
-    def on_lineEdit_2_Pressed(self):                                                        # connection on_lineEdit_2_Pressed
+    def on_lineEdit_2_Pressed(self)   *                                                        # connection on_lineEdit_2_Pressed
         val_Y = self.lineEdit_2.text()                                                      # extract the string in the lineEdit
         #
         #here your code
         #
         self.affectation_Y(val_Y)
-        try:
+        try   *
             self.verticalSlider.setValue(int(val_Y))                                        # affect the value "val_Y" on verticalSlider and modify this
-        except Exception:                                                                   # if error
+        except Exception   *                                                                   # if error
             self.verticalSlider.setValue(int(0))                                            # affect the value "0" on verticalSlider and modify this
             val_Y = "0"
         self.progressBar_2.setValue(int(val_Y))                                             # affect the value "val_Y" on progressBar_2 and modify this
@@ -687,18 +687,18 @@ class Ui_MainWindow(object):
         #
  
     #  checkbox_01
-    def on_checkBox_1_clicked(self):                                                        # connection on_checkBox_1_clicked
+    def on_checkBox_1_clicked(self)   *                                                        # connection on_checkBox_1_clicked
         #
         #here your code
         #
-        if self.checkBox_1.isChecked():                                                     # if checkbox_01 is checked then ....
+        if self.checkBox_1.isChecked()   *                                                     # if checkbox_01 is checked then ....
             self.image_1 = path+"MEpipe01.png"                                              # configure image_1
             icon1 = QtGui.QIcon()
             icon1.addPixmap(QtGui.QPixmap(self.image_1),QtGui.QIcon.Normal, QtGui.QIcon.Off)
             self.checkBox_1.setIcon(icon1)                                                  # affect image_1 to checkBox_1
             self.checkBox_1.setText(_translate("MainWindow", "Attached", None))             # text for checkBox_1
             print( "Mode attached")                                                           # diplayed on View Repport
-        else:                                                                               # if checkbox_01 is not checked then ....
+        else   *                                                                               # if checkbox_01 is not checked then ....
             self.image_2 = path+"MEpipe02.png"                                              # configure image_2
             icon2 = QtGui.QIcon() 
             icon2.addPixmap(QtGui.QPixmap(self.image_2),QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -708,16 +708,16 @@ class Ui_MainWindow(object):
         #
  
     # Buttons
-    def on_pushButton_2_clicked(self):    # Button Quit                                     # connection on_pushButton_2_clicked
+    def on_pushButton_2_clicked(self)   *    # Button Quit                                     # connection on_pushButton_2_clicked
         #
         #here your code
         #
-        self.pushButton_1.setStyleSheet("background-color: QPalette.Base")                  # origin system color pushButton_1
+        self.pushButton_1.setStyleSheet("background-color   * QPalette.Base")                  # origin system color pushButton_1
         App.Console.PrintMessage("End\r\n")
         self.window.hide()                                                                  # hide the window and close the macro
         #
  
-    def on_pushButton_1_clicked(self):    # Button Reset                                    # connection on_pushButton_1_clicked
+    def on_pushButton_1_clicked(self)   *    # Button Reset                                    # connection on_pushButton_1_clicked
         #
         #here your code
         #
@@ -738,44 +738,44 @@ class Ui_MainWindow(object):
         icon1.addPixmap(QtGui.QPixmap(self.image_1),QtGui.QIcon.Normal, QtGui.QIcon.Off)    # 
         self.checkBox_1.setIcon(icon1)                                                      # associate button and image
  
-        if switch == 0:                                                                     # switch for image in the graphic view Py or FC
+        if switch == 0   *                                                                     # switch for image in the graphic view Py or FC
             switch = 1
             pic = QtGui.QPixmap(path+"MEPlanPY.png")                                        # image (Python)
             self.scene = QtGui.QGraphicsScene()                                             # name of image
             self.scene.addPixmap(QtGui.QPixmap(pic))                                        # add image "pic" (MEPlanPY.png)
             self.graphicsView.setScene(ui.scene)                                            # display the image in graphicview
-            self.pushButton_1.setStyleSheet("color : #ff0000; background-color : #0000ff;") # text color; background color pushButton_1
-        else:
+            self.pushButton_1.setStyleSheet("color    * #ff0000; background-color    * #0000ff;") # text color; background color pushButton_1
+        else   *
             switch = 0
             pic = QtGui.QPixmap(path+"MEPlanFC.png")                                        # image (FreeCAD)
             self.scene = QtGui.QGraphicsScene()                                             # name of image
             self.scene.addPixmap(QtGui.QPixmap(pic))                                        # add image "pic" (MEPlanFC.png)
             self.graphicsView.setScene(ui.scene)                                            # display the image in graphicview
-            self.pushButton_1.setStyleSheet("color : #0000ff; background-color : #ff0000;") # text color; background color pushButton_1
+            self.pushButton_1.setStyleSheet("color    * #0000ff; background-color    * #ff0000;") # text color; background color pushButton_1
         print( "Reset")
         #
  
-    def on_doubleSpinBox_1_valueChanged(self,echelle):                                      # connection on_doubleSpinBox_1_valueChanged
+    def on_doubleSpinBox_1_valueChanged(self,echelle)   *                                      # connection on_doubleSpinBox_1_valueChanged
         #
         #here your code
         #
         print( "SpinBox 1 ", echelle)
         #
  
-    def on_doubleSpinBox_2_valueChanged(self,angle):                                        # connection on_doubleSpinBox_2_valueChanged
+    def on_doubleSpinBox_2_valueChanged(self,angle)   *                                        # connection on_doubleSpinBox_2_valueChanged
         #
         #here your code
         #
         print( "SpinBox 2 ", angle)
  
-    def on_doubleSpinBox_3_valueChanged(self,epaisseur):                                    # connection on_doubleSpinBox_3_valueChanged
+    def on_doubleSpinBox_3_valueChanged(self,epaisseur)   *                                    # connection on_doubleSpinBox_3_valueChanged
         #
         #here your code
         #
         print( "SpinBox 3 ", epaisseur)
         #
  
-    def on_textEdit_Changed(self):                                                          # conection on_textEdit_Changed
+    def on_textEdit_Changed(self)   *                                                          # conection on_textEdit_Changed
         texte = str(self.textEdit.toPlainText())                                            # extract the string of textEdit
         #
         #here your code
@@ -792,6 +792,8 @@ MainWindow.show()
 }}
 
 Bon amusement.
+
+[Category   *Poweruser Documentation](Category_Poweruser_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

@@ -14,15 +14,15 @@ W tym poradniku omówimy jak importować pliki STL/OBJ do programu FreeCAD. Poni
 
 ## Przykładowy plik 
 
-Dla tego przykładu możesz użyć swojego pliku STL lub stworzyć plik demo w ten sposób:
+Dla tego przykładu możesz użyć swojego pliku STL lub stworzyć plik demo w ten sposób   *
 
 -   Otwórz FreeCAD.
 -   Stwórz nowy dokument.
 -   Zmień Środowisko pracy na **mesh**.
--   Dodaj torus przez ** Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regular solid...** wybierają opcje:
-    -   Radius1: 10mm
-    -   Radius2: 2mm
-    -   Sampling: 50
+-   Dodaj torus przez ** Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regular solid...** wybierają opcje   *
+    -   Radius1   * 10mm
+    -   Radius2   * 2mm
+    -   Sampling   * 50
 -   kliknij ** Create** a następnie ** Close**
 -   Zapisz plik za pomocą ** File** → ** Save**
 
@@ -32,10 +32,10 @@ Aby zaimportować plik STL lub OBJ, stwórz nowy dokument FreeCAD i wybierz ** F
 
 FreeCAD może zaimportować każdy plik STL/OBJ. Ale naszym celem jest stworzenie bryły, która może być potem modyfikowana *(dodając wyciągnięcia lub kieszenie)*. Aby konwersja z siatki wielokątów do bryły się powiodła, musimy mieć pewność że siatka jest wodoszczelna *(nie zawiera dziur)* lub nie ma żadnych innych błędów.
 Warto pamiętać, że FreeCAD nie jest dobrym edytorem siatki wielokątów, jest on zaprojektowany do pracy z bryłami. FreeCAD ma pewne funkcje do operacji na siatce 3D w Środowisku pracy Mesh i OpenSCAD *(niektóre operacje wymagają zainstalowanego i skonfigurowanego OpenSCAD)*
-Niektórzy użytkownicy lubią używać innych zewnętrznych narzędzi do naprawienia siatki wielokątów np:
+Niektórzy użytkownicy lubią używać innych zewnętrznych narzędzi do naprawienia siatki wielokątów np   *
 
--   [Netfabb Basic](http://www.netfabb.com/downloadcenter.php?basic=1) *(Linux/Mac/Windows)* - darmowy do użytku domowego *(dostępne automatyczne naprawianie siatki)*,
--   [Meshlab](http://meshlab.sourceforge.net/) *(Linux/Mac/Windows)* - Open Source.
+-   [Netfabb Basic](http   *//www.netfabb.com/downloadcenter.php?basic=1) *(Linux/Mac/Windows)* - darmowy do użytku domowego *(dostępne automatyczne naprawianie siatki)*,
+-   [Meshlab](http   *//meshlab.sourceforge.net/) *(Linux/Mac/Windows)* - Open Source.
 
 W tym poradniku użyjemy Środowiska pracy Mesh dostępnego standardowo w programie FreeCAD, do czyszczenia/naprawiania/weryfikowania naszego przykładowego pliku.
 
@@ -53,23 +53,23 @@ W tym poradniku użyjemy Środowiska pracy Mesh dostępnego standardowo w progra
 
 ### Porządkuj wektory normalne 
 
-Porządkowanie wektorów normalnych *(harmonizing normals)* siatki obiektu może być robione przez:
+Porządkowanie wektorów normalnych *(harmonizing normals)* siatki obiektu może być robione przez   *
 
 -   wybranie obiektu \"mesh\" w widoku drzewa
 -   wybranie **Meshes** → **<img src="images/Mesh_HarmonizeNormals.svg" width=32px> Harmonize normals** z górnego menu.
 
-Wskazówka: Wybierając obiekt siatkowy w widoku drzewa, przechodząc do zakładki widok w widoku właściwości i zmieniając oświetlenie z **Two Side** do **One Side** można zidentyfikować trójkąty z odwróconymi wektorami normalnymi. Jeśli wektor normlny jest skierowana w siatkę, trójkąt będzie pokazany na czarno.
+Wskazówka   * Wybierając obiekt siatkowy w widoku drzewa, przechodząc do zakładki widok w widoku właściwości i zmieniając oświetlenie z **Two Side** do **One Side** można zidentyfikować trójkąty z odwróconymi wektorami normalnymi. Jeśli wektor normlny jest skierowana w siatkę, trójkąt będzie pokazany na czarno.
 
 ### Zaklejanie dziur 
 
-Możesz również ręcznie zakleić otwory w obiekcie mesh za pomocą:
+Możesz również ręcznie zakleić otwory w obiekcie mesh za pomocą   *
 
 -   wybierz obiekt mesh w drzewie widoku
 -   wybierz ** Meshes** → ** Fill holes...** z górnego menu
 -   określ maksymalną liczbę krawędzi do wypełnienia (domyślnie 3)
 -   Ponieważ STL i OBJ są siatkami składającymi się z trójkątów, domyślna liczba krawędzi powinna wystarczyć.
 
-Inna metoda ręcznego zaklejenia otworów w obiekcie mesh:
+Inna metoda ręcznego zaklejenia otworów w obiekcie mesh   *
 
 -   wybierz obiekt mesh w drzewie widoku
 -   Wybierz ** Meshes** → **<img src="images/Mesh_FillInteractiveHole.svg" width=32px> Close hole** z głównego menu
@@ -78,7 +78,7 @@ Inna metoda ręcznego zaklejenia otworów w obiekcie mesh:
 
 ## Konwersja siatki do bryły 
 
--   przejdź do <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Środowiska roboczego Part](Part_Workbench/pl.md),
+-   przejdź do <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Środowiska roboczego Part](Part_Workbench/pl.md),
 -   upewnij się, że obiekt siatki jest zaznaczony w widoku drzewa, w przeciwnym razie zaznacz go,
 -   wybierz opcję **Part** → **<img src="images/Part_ShapeFromMesh.svg" width=32px> Utwórz kształt  siatki ...** z menu u góry,
 -   należy określić tolerancję dla kształtu szwów *(domyślnie 0,1)*,
@@ -96,6 +96,11 @@ Ponieważ utworzona bryła nie posiada historii i żadnych edytowalnych funkcji 
 
 -   [Eksport do formatu STL or OBJ](Export_to_STL_or_OBJ.md)
 -   [Import i eksport](Import_Export/pl.md)
+
+
+ 
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

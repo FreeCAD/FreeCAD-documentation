@@ -1,6 +1,8 @@
 # Category:Documentation/zh-cn
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories/zh-cn](Category   *Categories/zh-cn.md)
+
 ### Contents
 
 |     |     |     |

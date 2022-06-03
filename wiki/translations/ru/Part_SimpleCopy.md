@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Part CreateSimpleCopy‏‎
-   Name/ru:Part CreateSimpleCopy‏‎
-   MenuLocation:Деталь → Создать простую копию
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Клонировать](Draft_Clone/ru.md), [Копировать](Std_Copy/ru.md), [Дубликат](Std_DuplicateSelection/ru.md)
-   Icon:Tree_Part.svg
+- GuiCommand   */ru
+   Name   *Part CreateSimpleCopy‏‎
+   Name/ru   *Part CreateSimpleCopy‏‎
+   MenuLocation   *Деталь → Создать простую копию
+   Workbenches   *[Part](Part_Workbench/ru.md)
+   SeeAlso   *[Клонировать](Draft_Clone/ru.md), [Копировать](Std_Copy/ru.md), [Дубликат](Std_DuplicateSelection/ru.md)
+   Icon   *Tree_Part.svg
 ---
 
 # Part SimpleCopy/ru

@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2014-01-02
 |FCVersion=Tutte versione
-|Download=[https://www.freecadweb.org/wiki/images/6/65/Macro_EdgesToArc.png Icona per la ToolBar]
+|Download=[https   *//www.freecadweb.org/wiki/images/6/65/Macro_EdgesToArc.png Icona per la ToolBar]
 |SeeAlso=[Macro SuperWire](Macro_SuperWire/it.md)
 }}
 
@@ -52,13 +52,13 @@ from math import atan2, pi, fabs
 #It might be necessary to use the superwire macro to recombine the edges back to a wire, because of small errors in the calculations.
 
 sel = FreeCADGui.Selection.getSelection()
-if len(sel) < 2:
+if len(sel) < 2   *
     Console.PrintError("Too few edges are selected\n")
 edges = [s.Shape for s in sel]
 
 start_vertices = []
 end_vertices = []
-for edge in edges:
+for edge in edges   *
     start_vertices.append(edge.Vertexes[0].Point)
     end_vertices.append(edge.Vertexes[1].Point)
 vertices = start_vertices + end_vertices
@@ -66,45 +66,45 @@ vertices = start_vertices + end_vertices
 start,end,middle = None,None,None
 
 #find start and end points
-for edge in edges:
+for edge in edges   *
     is_start = True
     is_end = True
-    for point in end_vertices:
-        if edge.Vertexes[0].Point.distanceToPoint(point) < 1e-8:
+    for point in end_vertices   *
+        if edge.Vertexes[0].Point.distanceToPoint(point) < 1e-8   *
             is_start = False
 
-    for point in start_vertices:
-        if edge.Vertexes[1].Point.distanceToPoint(point) < 1e-8:
+    for point in start_vertices   *
+        if edge.Vertexes[1].Point.distanceToPoint(point) < 1e-8   *
             is_end = False
-    if is_start:
+    if is_start   *
         start = edge.Vertexes[0].Point
-    if is_end:
+    if is_end   *
         end = edge.Vertexes[1].Point
 
 #find middle point, at least not too far away from the middle
 
-for v in vertices:
+for v in vertices   *
     ratio = v.distanceToPoint(start)/v.distanceToPoint(end)
-    if ratio > 0.5 and ratio < 2.:
+    if ratio > 0.5 and ratio < 2.   *
         middle = v
         break
 
-if middle is None:
+if middle is None   *
     Console.PrintError("Could not find suitable middle point\n")
 
 arc = Part.ArcOfCircle(start,middle,end)
 
 #Check circularity
 circular = True
-for v in vertices:
-    if fabs(v.distanceToPoint(arc.Center) - arc.Radius) > 1e-6:
+for v in vertices   *
+    if fabs(v.distanceToPoint(arc.Center) - arc.Radius) > 1e-6   *
         Console.PrintError("Edges do not approximate a circular arc\n")
         circular = False
         break
 
-if circular:
+if circular   *
         Part.show(arc.toShape())
-        for shape in sel:
+        for shape in sel   *
             FreeCAD.ActiveDocument.removeObject(shape.Name)
 }}
 

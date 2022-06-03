@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Std CloseActiveWindow
-   Name/ru:Закрыть
-   MenuLocation:Файл → Закрыть
-   Workbenches:Все
-   Shortcut:**Ctrl**+**F4**
-   SeeAlso:[Закрыть всё](Std_CloseAllWindows/ru.md)
+- GuiCommand   */ru
+   Name   *Std CloseActiveWindow
+   Name/ru   *Закрыть
+   MenuLocation   *Файл → Закрыть
+   Workbenches   *Все
+   Shortcut   ***Ctrl**+**F4**
+   SeeAlso   *[Закрыть всё](Std_CloseAllWindows/ru.md)
 ---
 
 # Std CloseActiveWindow/ru
@@ -16,17 +16,17 @@
 
 ## Применение
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Select the **File → <img src="images/Std_CloseActiveWindow.svg" width=16px> Close** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**F4**.
-2.  To close a document: repeat this for all windows belonging to it.
-3.  When closing the last window of a document that has not been saved, a dialog box will prompt you to save it:
+    -   Use the keyboard shortcut   * **Ctrl**+**F4**.
+2.  To close a document   * repeat this for all windows belonging to it.
+3.  When closing the last window of a document that has not been saved, a dialog box will prompt you to save it   *
     -   Press the **Save** button to save the document. If required enter a filename first.
     -   Press the **Discard** button to discard the document and lose all changes.
 
 ## Опции
 
--   Когда диалоговое окно отображается: нажмите **Esc** или кнопку **Отмена**, чтобы прервать выполнение команды.
+-   Когда диалоговое окно отображается   * нажмите **Esc** или кнопку **Отмена**, чтобы прервать выполнение команды.
 
 ## Примечания
 
@@ -35,12 +35,12 @@
 
 ## Настройки
 
--   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр   * **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Программирование
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

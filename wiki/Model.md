@@ -13,7 +13,9 @@ In informal usage, the word \"[Drawing](Drawing.md)\" may be used with the same 
 -   A \"Drawing\" is a strictly 2D projection of that \"Model\", usually created with the [TechDraw Workbench](TechDraw_Workbench.md) tools. This \"Drawing\" is usually intended for printing or for export.
 -   The \"Model\" is usually the real object intended for manufacturing, while the \"Drawing\" is an auxiliary, flat representation of that \"Model\" which will be used for reference and documentation purposes.
 
- {{Document objects navi}}
+ {{Document objects navi}} 
+
+[Category   *Glossary](Category_Glossary.md)
 
 
 

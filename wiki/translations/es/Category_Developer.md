@@ -1,6 +1,8 @@
 # Category:Developer/es
 Esta categoría contiene artículos que son relevantes para los desarrolladores.
 
+[Category   *Categories/es](Category   *Categories/es.md)
+
 ### Contents
 
 |     |     |     |

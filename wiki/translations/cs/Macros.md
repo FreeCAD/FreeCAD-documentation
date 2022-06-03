@@ -13,7 +13,7 @@ Makra jsou pohodlný způsob jak provádět komplexní akce ve FreeCADu. Můžet
 
 While Python scripts normally have the `.py` extension, FreeCAD macros should have the `.FCMacro` extension. A collection of macros written by experienced users is found in the [macros recipes](Macros_recipes.md) page.
 
-See the [Power users hub](Power_users_hub.md) to learn more about the [Python](Python.md) programming language, and about writing macros. In particular, you should start with these pages:
+See the [Power users hub](Power_users_hub.md) to learn more about the [Python](Python.md) programming language, and about writing macros. In particular, you should start with these pages   *
 
 -   [Introduction to Python](Introduction_to_Python.md)
 -   [Python scripting tutorial](Python_scripting_tutorial.md)
@@ -24,17 +24,17 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 
 ### Jak to funguje 
 
-Když povolíte výstup na konzolu (Menu Úpravy -\> Předvolby -\> Obecné -\> Makra -\> Zobraz skriptovací příkazy v konzole Pythonu), uvidíte ve FreeCADu, že každá operace, kterou provedete, jako je stisk tlačítka, zobrazí na výstupu příslušný příkaz Pythonu. Tyto příkazy jsou to, co se ukládá v makru. Hlavní nástroj pro vytváření maker je pruh nástrojů maker: ![](images/Macros_toolbar.jpg ). Na něm jsou 4 tlačítka: Spustit záznam, Zastavit záznam, Upravit makro a Spustit aktuální makro.
+Když povolíte výstup na konzolu (Menu Úpravy -\> Předvolby -\> Obecné -\> Makra -\> Zobraz skriptovací příkazy v konzole Pythonu), uvidíte ve FreeCADu, že každá operace, kterou provedete, jako je stisk tlačítka, zobrazí na výstupu příslušný příkaz Pythonu. Tyto příkazy jsou to, co se ukládá v makru. Hlavní nástroj pro vytváření maker je pruh nástrojů maker   * ![](images/Macros_toolbar.jpg ). Na něm jsou 4 tlačítka   * Spustit záznam, Zastavit záznam, Upravit makro a Spustit aktuální makro.
 
 
 </div>
 
-Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar   * ![](images/Macros_toolbar.jpg ). On it you have 4 buttons   * Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
 
-Použití je velmi jednoduché: Stisknete tlačítko Spustit záznam, nejdříve zadáte jméno makra a potom provádíte požadované operace. Když jste hotovi, kliknete ma Zastavit záznam a provedené operace budou uloženy. Nyní máte přístupný i editovací režim pod tlačítkem Upravit záznam:
+Použití je velmi jednoduché   * Stisknete tlačítko Spustit záznam, nejdříve zadáte jméno makra a potom provádíte požadované operace. Když jste hotovi, kliknete ma Zastavit záznam a provedené operace budou uloženy. Nyní máte přístupný i editovací režim pod tlačítkem Upravit záznam   *
 
 
 </div>
@@ -67,7 +67,7 @@ Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in th
 
 ### Přizpůsobení
 
-Samozřejmě, že není praktické natahovat makro do editoru vždy, když je chcete použít. FreeCAD nabízí mnohem lepší způsoby pro použití makra, jako jsou třeba klávesové zkratky nebo vložení makra do menu. Když už je makro vytvořeno, můžete takové úpravy udělat přes Nástroje -\> Přizpůsobení menu:
+Samozřejmě, že není praktické natahovat makro do editoru vždy, když je chcete použít. FreeCAD nabízí mnohem lepší způsoby pro použití makra, jako jsou třeba klávesové zkratky nebo vložení makra do menu. Když už je makro vytvořeno, můžete takové úpravy udělat přes Nástroje -\> Přizpůsobení menu   *
 
 
 </div>
@@ -110,7 +110,7 @@ Podívejte se na stránku [Návody pro makra](Macros_recipes/cs.md), kde najdete
 
 </div>
 
-There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
+There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
 
 ## Additional information 
 
@@ -126,6 +126,11 @@ You can manually install extensions, however, it is much simpler to just use the
 
 
 {{docnav/cs|[Modul obrázků](Image_Workbench/cs.md)|[Úvod do Pythonu](Introduction_to_Python/cs.md)}}
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

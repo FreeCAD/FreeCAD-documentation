@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/cs
-   Name:Arch_Space
-   Name/cs:Arch Space
-   MenuLocation:Architecture → Space
-   Workbenches:[Architektura](Arch_Workbench/cs.md)
-   Shortcut:**S** **P**
-   SeeAlso:[[Arch Wall/cs]], [[Arch Structure/cs]]
-   Version:0.14
+- GuiCommand   */cs
+   Name   *Arch_Space
+   Name/cs   *Arch Space
+   MenuLocation   *Architecture → Space
+   Workbenches   *[Architektura](Arch_Workbench/cs.md)
+   Shortcut   ***S** **P**
+   SeeAlso   *[[Arch Wall/cs]], [[Arch Structure/cs]]
+   Version   *0.14
 ---
 
 # Arch Space/cs
@@ -24,7 +24,7 @@ Nástroj Prostor umožňuje definovat prázdný objem, který je buď založen n
 
 </div>
 
-<img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Space_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -61,39 +61,39 @@ Nástroj Prostor umožňuje definovat prázdný objem, který je buď založen n
 </div>
 
 -   The boundaries properties is currently not editable via GUI.
--   See the [forum announcement](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275).
+-   See the [forum announcement](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=4275).
 
 ## Vlastnosti
 
 
 <div class="mw-translate-fuzzy">
 
--    **Základ**: Základový objekt, pokud existuje (musí to být těleso)
+-    **Základ**   * Základový objekt, pokud existuje (musí to být těleso)
 
--    **Hranice**: Seznam volitelných prvků hranic
+-    **Hranice**   * Seznam volitelných prvků hranic
 
 
 </div>
 
--    **Text**: The text to show. Use \$area, \$label, \$tag, \$floor, \$walls, \$ceiling to insert the respective data
+-    **Text**   * The text to show. Use \$area, \$label, \$tag, \$floor, \$walls, \$ceiling to insert the respective data
 
--    **FontName**: The name of the font
+-    **FontName**   * The name of the font
 
--    **TextColor**: The color of the text
+-    **TextColor**   * The color of the text
 
--    **FontSize**: The size of the text
+-    **FontSize**   * The size of the text
 
--    **FirstLine**: The size of the first line of text (multiplies the font size. 1 = same size, 2 = double size, etc..)
+-    **FirstLine**   * The size of the first line of text (multiplies the font size. 1 = same size, 2 = double size, etc..)
 
--    **LineSpacing**: The space between the lines of text
+-    **LineSpacing**   * The space between the lines of text
 
--    **TextPosition**: The position of the text. Leave (0,0,0) for automatic position
+-    **TextPosition**   * The position of the text. Leave (0,0,0) for automatic position
 
--    **TextAlign**: The justification of the text
+-    **TextAlign**   * The justification of the text
 
--    **Decimals**: The number of decimals to use for calculated texts
+-    **Decimals**   * The number of decimals to use for calculated texts
 
--    **ShowUnit**: Show the unit suffix or not
+-    **ShowUnit**   * Show the unit suffix or not
 
 ## Options
 
@@ -111,7 +111,7 @@ Nástroj Prostor umožňuje definovat prázdný objem, který je buď založen n
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Prostor může být použit ve skriptech Pythonu a v [makrech](macros/cs.md) použitím následující funkce:
+Nástroj Prostor může být použit ve skriptech Pythonu a v [makrech](macros/cs.md) použitím následující funkce   *
 
 
 </div>
@@ -131,11 +131,11 @@ Space = makeSpace(objects=None, baseobj=None, name="Space")
 
 </div>
 
-Příklad: 
+Příklad   * 
 ```python
 import FreeCAD, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 1000
 Box.Width = 1000
 Box.Height = 1000
@@ -145,7 +145,7 @@ Space.ViewObject.LineWidth = 2
 FreeCAD.ActiveDocument.recompute()
 ```
 
-After a space object is created, selected faces can be added to it with the following code: 
+After a space object is created, selected faces can be added to it with the following code   * 
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 
@@ -159,7 +159,7 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.addSpaceBoundaries(Space, selection)
 ```
 
-Boundaries can also be removed, again by selecting the indicated faces: 
+Boundaries can also be removed, again by selecting the indicated faces   * 
 ```python
 selection = FreeCADGui.Selection.getSelectionEx()
 Arch.removeSpaceBoundaries(Space, selection)

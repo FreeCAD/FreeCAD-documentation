@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Constraint InternalAlignment
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain InternalAlignment
-   Shortcut:Ctrl + A
-   SeeAlso:[Show/Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md), [Ellipse](Sketcher_CreateEllipseByCenter.md)
+- GuiCommand   *
+   Name   *Constraint InternalAlignment
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   MenuLocation   *Sketch → Sketcher constraints → Constrain InternalAlignment
+   Shortcut   *Ctrl + A
+   SeeAlso   *[Show/Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md), [Ellipse](Sketcher_CreateEllipseByCenter.md)
 ---
 
 # Sketcher ConstrainInternalAlignment/ro
@@ -66,25 +66,25 @@ Prima linie selectată va fi aliniată pentru a deveni axa cea mai mare al elips
 
 </div>
 
-**Note:** By default new ellipses have an internal construction geometry. When this defines the ellipse already completely, you cannot directly use the InternalAlignment constraint. You first need to delete the construction geometry or parts of it. In case you don\'t see the construction geometry, select the ellipse and use the tool **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** to make it visible.
+**Note   *** By default new ellipses have an internal construction geometry. When this defines the ellipse already completely, you cannot directly use the InternalAlignment constraint. You first need to delete the construction geometry or parts of it. In case you don\'t see the construction geometry, select the ellipse and use the tool **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width   *16px"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** to make it visible.
 
 ## Scripturi
 
 
 ```python
-Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseMajorDiameter', index_of_line, index_of_ellipse))
-Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseMinorDiameter', index_of_line, index_of_ellipse))
-Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseFocus1', index_of_point, 1, index_of_ellipse))
-Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseFocus2', index_of_point, 1, index_of_ellipse))
+Sketch.addConstraint(Sketcher.Constraint('InternalAlignment   *EllipseMajorDiameter', index_of_line, index_of_ellipse))
+Sketch.addConstraint(Sketcher.Constraint('InternalAlignment   *EllipseMinorDiameter', index_of_line, index_of_ellipse))
+Sketch.addConstraint(Sketcher.Constraint('InternalAlignment   *EllipseFocus1', index_of_point, 1, index_of_ellipse))
+Sketch.addConstraint(Sketcher.Constraint('InternalAlignment   *EllipseFocus2', index_of_point, 1, index_of_ellipse))
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Remarks:
+Remarks   *
 
-:   Sketch is a sketch object.
-:   Number 1 in the focus calls stands for starting point of a point element (it is ignored).
+   *   Sketch is a sketch object.
+   *   Number 1 in the focus calls stands for starting point of a point element (it is ignored).
 
 
 </div>

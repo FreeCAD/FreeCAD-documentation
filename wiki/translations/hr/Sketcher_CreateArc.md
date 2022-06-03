@@ -1,21 +1,21 @@
 ---
-- GuiCommand:
-   Name:Sketcher CreateArc
-   MenuLocation:Sketch → Sketcher geometries → Create arc by center
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **A**
-   SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle.md)
+- GuiCommand   *
+   Name   *Sketcher CreateArc
+   MenuLocation   *Sketch → Sketcher geometries → Create arc by center
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   Shortcut   ***G** **A**
+   SeeAlso   *[Sketcher Circle](Sketcher_CompCreateCircle.md)
 ---
 
 # Sketcher CreateArc/hr
 
 ## Description
 
-This tool draws an arc by picking three points: the center, the start angle along the radius, and the end angle.
+This tool draws an arc by picking three points   * the center, the start angle along the radius, and the end angle.
 
 When starting the tool, the mouse pointer changes to a white cross with a red arc icon. The coordinates of the pointer are shown beside it in blue in real time.
 
-<img alt="The center has been selected, dragging to set the radius‎" src=images/Sketcher_ArcExample1.png ) ![The center and start angle have been selected, dragging to set end angle‎](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
+<img alt="The center has been selected, dragging to set the radius‎" src=images/Sketcher_ArcExample1.png ) ![The center and start angle have been selected, dragging to set end angle‎](images/Sketcher_ArcExample2.png  style="width   *407" height="360px;">
 
 ## Usage
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Part PointsFromMesh‎
-   Name/de:Part PunkteAusNetz
-   MenuLocation:Part → Erzeuge Punktobjekt aus Netz
-   Workbenches:[Arbeitsbereich Part](Part_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Part FormausNetz](Part_ShapeFromMesh/de.md), [Part KonvertiereZuFestkörper](Part_MakeSolid/de.md), [Part FormVerfeinern](Part_RefineShape/de.md)
+- GuiCommand   */de
+   Name   *Part PointsFromMesh‎
+   Name/de   *Part PunkteAusNetz
+   MenuLocation   *Part → Erzeuge Punktobjekt aus Netz
+   Workbenches   *[Arbeitsbereich Part](Part_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[Part FormausNetz](Part_ShapeFromMesh/de.md), [Part KonvertiereZuFestkörper](Part_MakeSolid/de.md), [Part FormVerfeinern](Part_RefineShape/de.md)
 ---
 
 # Part PointsFromMesh/de

@@ -1,11 +1,11 @@
 # Ship Hydrostatics/ru
 ---
-- GuiCommand:/ru
-   Name:Ship Hydrostatics
-   Name/ru:Ship Hydrostatics
-   MenuLocation:Ship design → Гидростатика
-   Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:   SeeAlso:---
+- GuiCommand   */ru
+   Name   *Ship Hydrostatics
+   Name/ru   *Ship Hydrostatics
+   MenuLocation   *Ship design → Гидростатика
+   Workbenches   *[Ship](Ship_Workbench/ru.md)
+   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -14,7 +14,7 @@
 
 Plot the ship hydrostatics.
 
-<img alt="" src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width:800px;"> 
+<img alt="" src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width   *800px;"> 
 *Hydrostatics curves example*
 
 Hydrostatics computation is a critical stage of a ship\'s design, it provides an understanding to the underlying principal stability hull parameters.
@@ -25,13 +25,13 @@ The Ship workbench plot the hydrostatics in 3 main groups. In all of them the Δ
 
 ### Volume based hydrostatics 
 
-There are 3 hydrostatics (despite Δ(T)) included within this category:
+There are 3 hydrostatics (despite Δ(T)) included within this category   *
 
 -   Wetted area (WSA).
 -   Moment to trim the ship 1 cm (MCT).
 -   Longitudinal position of the bouyance center (XCB).
 
-As the amount of surface in contact with the water, WSA is heavily related with the ship dynamics, including both ship resistance and seakeeping. Moreover, WSA is part of the renormalization factor for many of the non-dimensional ship coefficients, like the drag coefficient:
+As the amount of surface in contact with the water, WSA is heavily related with the ship dynamics, including both ship resistance and seakeeping. Moreover, WSA is part of the renormalization factor for many of the non-dimensional ship coefficients, like the drag coefficient   *
 
 $c_\mathrm d = \dfrac{F_\mathrm d}{\dfrac{1}{2} \rho u^2 S},$
 
@@ -49,7 +49,7 @@ The XCB is obviously indicating the trim angle that is expected to get the ship 
 
 ### Stability hydrostatics 
 
-These hydrostatics are more related with the ship transversal stability. The following hydrostatics are provided by the Ship workbench:
+These hydrostatics are more related with the ship transversal stability. The following hydrostatics are provided by the Ship workbench   *
 
 -   Floating Area/Waterplane Area (WP).
 -   Distance between the keel and buoyance center (KB).
@@ -93,6 +93,14 @@ Press the **Accept** button when you are ready, so the Ship module will start th
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

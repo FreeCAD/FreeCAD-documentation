@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:FEM SolverCalculiX
-   Name/de:FEM LöserCalculiX
-   Icon:Fem_Solver.svg
-   MenuLocation: Lösen → Löser CalculiX experimentell
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand   */de
+   Name   *FEM SolverCalculiX
+   Name/de   *FEM LöserCalculiX
+   Icon   *Fem_Solver.svg
+   MenuLocation   * Lösen → Löser CalculiX experimentell
+   Workbenches   *[FEM](FEM_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM SolverCalculiX/de

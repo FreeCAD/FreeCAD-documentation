@@ -1,11 +1,11 @@
 # Ship Weight/ru
 ---
-- GuiCommand:/ru
-   Name:Ship Weight
-   Name/ru:Ship Weight
-   MenuLocation:Weights → Create a new ship weight
-   Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:   SeeAlso:---
+- GuiCommand   */ru
+   Name   *Ship Weight
+   Name/ru   *Ship Weight
+   MenuLocation   *Weights → Create a new ship weight
+   Workbenches   *[Ship](Ship_Workbench/ru.md)
+   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -38,7 +38,7 @@ Solid/volumetric weights are featured by its material density (in kg/m^3^, or an
 
 The next level of abstraction are the surface-based weights. This level of abstraction can be considered for plates, or in general for any surface element with a small width.
 
-<img alt="" src=images/Thin_Plate.png  style="width:200px;"> 
+<img alt="" src=images/Thin_Plate.png  style="width   *200px;"> 
 *Schematic view of a thin plate*
 
 In case no solids can be found in the selected geometry but surfaces, this is the abstraction type that will be applied, discarding the lines and vertices.
@@ -49,7 +49,7 @@ Surface/area weights are featured by its area density (in kg/m^2^, or any other 
 
 The next level of abstraction are the line-based weights. This level of abstraction can be considered for beams, or in general for any element with small cross-sectional area compared with the longitudinal dimension.
 
-<img alt="" src=images/Thin_Beam.png  style="width:200px;"> 
+<img alt="" src=images/Thin_Beam.png  style="width   *200px;"> 
 *Schematic view of a thin beam*
 
 In case neither solids nor surfaces can be found in the selected geometry, but edges/lines are indeed present, this is the abstraction type that will be applied. The vertices are indeed discarded.
@@ -72,6 +72,14 @@ Punctual weights are featured by its mass (in kg, or any other compatible unit).
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

@@ -25,7 +25,7 @@ La finestre delle preferenze di [PartDesign](PartDesign_Workbench/it.md) si trov
 
 <div class="mw-translate-fuzzy">
 
-Sono disponibili due schede: Generale e Visualizzazione della forma.
+Sono disponibili due schede   * Generale e Visualizzazione della forma.
 
 
 </div>
@@ -41,12 +41,12 @@ Sono disponibili due schede: Generale e Visualizzazione della forma.
 
 <div class="mw-translate-fuzzy">
 
-Nella scheda \"Generale\" è possibile specificare quanto segue:
+Nella scheda \"Generale\" è possibile specificare quanto segue   *
 
 +++
 | Nome                                                                                            | Descrizione                                                                                                                                                                                                                                                                                                         |
 +=================================================================================================+=====================================================================================================================================================================================================================================================================================================================+
-|                                                                                  | Se selezionato, dopo una [operazione booleana](Part_Boolean/it.md) controlla se la [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) del modello è valida. Questo viene fatto internamente dalla funzione [Controlla la geometria](Part_CheckGeometry/it.md). |
+|                                                                                  | Se selezionato, dopo una [operazione booleana](Part_Boolean/it.md) controlla se la [Boundary representation](https   *//en.wikipedia.org/wiki/Boundary_representation) (BRep) del modello è valida. Questo viene fatto internamente dalla funzione [Controlla la geometria](Part_CheckGeometry/it.md). |
 | **Controlla automaticamente il modello dopo una operazione booleana**               |                                                                                                                                                                                                                                                                                                                     |
 |                                                                                              |                                                                                                                                                                                                                                                                                                                     |
 +++
@@ -69,7 +69,7 @@ Nella scheda \"Generale\" è possibile specificare quanto segue:
 +++
 | Name                                                                    | Description                                                                                                                                                                                                            |
 +=========================================================================+========================================================================================================================================================================================================================+
-|                                                          | If checked, the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md) |
+|                                                          | If checked, the [Boundary representation](https   *//en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md) |
 | **Automatically check model after boolean operation**       |                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                        |
 +++
@@ -95,16 +95,16 @@ Nella scheda \"Generale\" è possibile specificare quanto segue:
 
 <div class="mw-translate-fuzzy">
 
-Nella scheda \'\' Visualizzazione della figura\'\' è possibile specificare quanto segue:
+Nella scheda \'\' Visualizzazione della figura\'\' è possibile specificare quanto segue   *
 
 +++
 | Nome                                                                                | Descrizione                                                                                                                                                                                                   |
 +=====================================================================================+===============================================================================================================================================================================================================+
-|                                                                      | Maximum [deflessione lineare](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) degli oggetti tessellati dalla loro superficie.                |
+|                                                                      | Maximum [deflessione lineare](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) degli oggetti tessellati dalla loro superficie.                |
 | **Deviazione massima secondo il riquadro di delimitazione del modello** |                                                                                                                                                                                                               |
 |                                                                                  |                                                                                                                                                                                                               |
 +++
-|                                                                      | Maximum [deflessione angolare](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) da una sezione alla sezione successiva di oggetti tessellati. |
+|                                                                      | Maximum [deflessione angolare](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) da una sezione alla sezione successiva di oggetti tessellati. |
 | **Massima deflessione angolare**                                        |                                                                                                                                                                                                               |
 |                                                                                  |                                                                                                                                                                                                               |
 +++
@@ -115,11 +115,11 @@ Nella scheda \'\' Visualizzazione della figura\'\' è possibile specificare quan
 +++
 | Name                                                                  | Description                                                                                                                                                                                                                     |
 +=======================================================================+=================================================================================================================================================================================================================================+
-|                                                        | Maximum [linear deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface            |
+|                                                        | Maximum [linear deflection](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface            |
 | **Maximum deviation depending on the model bounding box** |                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                 |
 +++
-|                                                        | Maximum [angular deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section |
+|                                                        | Maximum [angular deflection](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section |
 | **Maximum angular deflection**                            |                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                 |
 +++
@@ -128,7 +128,7 @@ Nella scheda \'\' Visualizzazione della figura\'\' è possibile specificare quan
 
 ### Shape appearance 
 
-On the *Shape appearance* tab you can specify the following:
+On the *Shape appearance* tab you can specify the following   *
 
 +++
 | Name                               | Description                                                                                                                                                                                                               |
@@ -161,9 +161,9 @@ On the *Shape appearance* tab you can specify the following:
 | **Two-side rendering** |                                                                                                                                                                                                                           |
 |                                 |                                                                                                                                                                                                                           |
 +++
-|                     | Text color for document annotations. There is currently no dialog to add annotations to documents. Annotations can only be added using the Python console with this command:                                              |
+|                     | Text color for document annotations. There is currently no dialog to add annotations to documents. Annotations can only be added using the Python console with this command   *                                              |
 | **Text color**         |                                                                                                                                                                                                                           |
-|                                 | obj=App.ActiveDocument.addObject("App::Annotation", "Label")                                                                                                                                                            |
+|                                 | obj=App.ActiveDocument.addObject("App   *   *Annotation", "Label")                                                                                                                                                            |
 |                                    |                                                                                                                                                                                                                           |
 |                                    | This console is shown using the menu **View → Panels → Python console**.                                                                                                                        |
 +++
@@ -172,11 +172,11 @@ On the *Shape appearance* tab you can specify the following:
 
 ## Tesselation
 
-Al fine di visualizzare un oggetto in modo efficiente la sua superficie viene [tessellata](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), cioè viene visualizzato con alcune piccole deviazioni dalla sua superficie reale. Questo vale non solo per i modelli di PartDesign, ma anche per altri oggetti di FreeCAD.
+Al fine di visualizzare un oggetto in modo efficiente la sua superficie viene [tessellata](https   *//en.wikipedia.org/wiki/Tessellation_(computer_graphics)), cioè viene visualizzato con alcune piccole deviazioni dalla sua superficie reale. Questo vale non solo per i modelli di PartDesign, ma anche per altri oggetti di FreeCAD.
 
 Il limite inferiore per la tassellatura è 0,01%. Se si vuole davvero passare più tempo di attesa dell\'elaborazione del modello si può ridurre ulteriormente il limite inferiore aprendo il menu **Strumenti → Modifica parametri ...**. Questo apre l\'editor dei parametri in cui si può accedere a **BaseApp → Preferenze → Mod → Part**.
 
-Fare clic con il tasto destro del mouse su **Deviazione mesh** scegliere nel menu contestuale **Modifica valore**. Impostare il valore di tessellatura minima desiderata. Ricordare che il valore è in%, ovvero per un valore di 0,005% si deve inserire \"0,00005\". Il valore più piccolo possibile è 1e-7. **Nota:** Nel menu delle preferenze vedrà ancora 0,01% anche se si imposta un valore più basso.
+Fare clic con il tasto destro del mouse su **Deviazione mesh** scegliere nel menu contestuale **Modifica valore**. Impostare il valore di tessellatura minima desiderata. Ricordare che il valore è in%, ovvero per un valore di 0,005% si deve inserire \"0,00005\". Il valore più piccolo possibile è 1e-7. **Nota   *** Nel menu delle preferenze vedrà ancora 0,01% anche se si imposta un valore più basso.
 
 
 <div class="mw-translate-fuzzy">
@@ -190,7 +190,9 @@ Fare clic con il tasto destro del mouse su **Deviazione mesh** scegliere nel men
 
 {{PartDesign Tools navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

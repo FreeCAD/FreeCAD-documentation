@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Текст
-   Name:Draft_Text
-   MenuLocation:Annotation → Текст
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**T** **E**
-   Version:0.7
-   SeeAlso:[Метка](Draft_Label/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Текст
+   Name   *Draft_Text
+   MenuLocation   *Annotation → Текст
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut   ***T** **E**
+   Version   *0.7
+   SeeAlso   *[Метка](Draft_Label/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
 ---
 
 # Draft Text/ru
@@ -26,7 +26,7 @@ To create a text element with an arrow use the [Draft Label](Draft_Label.md) com
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Text_example.png  style="width   *400px;"> 
 *Для размещения текстового поля требуется одна точка*
 
 
@@ -34,7 +34,7 @@ To create a text element with an arrow use the [Draft Label](Draft_Label.md) com
 
 ## Использование
 
-See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
+See also   * [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +72,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Свойства
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
 A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated.
 
@@ -84,9 +84,9 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 <div class="mw-translate-fuzzy">
 
--    **Положение**: указывает базовую точку первой линии текстового блока.
+-    **Положение**   * указывает базовую точку первой линии текстового блока.
 
--    **Текст**: указывает содержимое текстового блока как список строк, каждый элемент списка, разделённый запятыми, показывает новую строку
+-    **Текст**   * указывает содержимое текстового блока как список строк, каждый элемент списка, разделённый запятыми, показывает новую строку
 
 
 </div>
@@ -96,21 +96,21 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**   * specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the text.
+-    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the text.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
 
--    **Line Color|Color**: not used.
+-    **Line Color|Color**   * not used.
 
--    **Line Width|Float**: not used.
+-    **Line Width|Float**   * not used.
 
 
 {{TitleProperty|Text}}
@@ -118,15 +118,15 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 <div class="mw-translate-fuzzy">
 
--    **Режим отображения**: если это «3D текст», текст будет выровнен по осям сцены, изначально лежащим в плоскости XY; если это «2D-текст», текст всегда будет смотреть в камеру.
+-    **Режим отображения**   * если это «3D текст», текст будет выровнен по осям сцены, изначально лежащим в плоскости XY; если это «2D-текст», текст всегда будет смотреть в камеру.
 
--    **Шрифт**: указывает шрифт для отображения текста. Может быть название шрифта, например \"Arial\", название стиля, например, \"sans\", \"serif\" или \"mono\", название семейства, например, \"Arial,Helvetica,sans\", или название со стилем, например \"Arial:Bold\". Если указанный шрифт не найден в системе, то будет использован основной.
+-    **Шрифт**   * указывает шрифт для отображения текста. Может быть название шрифта, например \"Arial\", название стиля, например, \"sans\", \"serif\" или \"mono\", название семейства, например, \"Arial,Helvetica,sans\", или название со стилем, например \"Arial   *Bold\". Если указанный шрифт не найден в системе, то будет использован основной.
 
--    **Размер шрифта**: указывает размер символов текста. Если текстовый объект создается в древе проекта, но текст не отображается, увеличивайте размер текста, пока он не станет видим.
+-    **Размер шрифта**   * указывает размер символов текста. Если текстовый объект создается в древе проекта, но текст не отображается, увеличивайте размер текста, пока он не станет видим.
 
--    **Выравнивание**: указывает выравнивание текста налево, направо или по центру от базовой точки.
+-    **Выравнивание**   * указывает выравнивание текста налево, направо или по центру от базовой точки.
 
--    **Межстрочное расстояние**: указывает расстояние между строк текста.
+-    **Межстрочное расстояние**   * указывает расстояние между строк текста.
 
 
 </div>
@@ -134,14 +134,14 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [Draft API](Draft_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Инструмент Текст может быть использован в [макросах](macros/ru.md) и из консоли [Python](Python/ru.md) следующими функциями:
+Инструмент Текст может быть использован в [макросах](macros/ru.md) и из консоли [Python](Python/ru.md) следующими функциями   *
 
 
 </div>
@@ -165,7 +165,7 @@ text = make_text(string, placement=None, screen=False)
 
 The view properties of `text` can be changed by overwriting its attributes; for example, overwrite `ViewObject.FontSize` with the new size in millimeters.
 
-Пример:
+Пример   *
 
 
 ```python

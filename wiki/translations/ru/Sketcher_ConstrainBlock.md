@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Ограничение перемещения
-   Name:Sketcher_ConstrainBlock
-   MenuLocation:Sketch → Ограничения эскиза → Constrain Block
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Ограничение перемещения
+   Name   *Sketcher_ConstrainBlock
+   MenuLocation   *Sketch → Ограничения эскиза → Constrain Block
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Version   *0.17
+   SeeAlso   *[Ограничение положения](Sketcher_ConstrainLock/ru.md)
 ---
 
 # Sketcher ConstrainBlock/ru
@@ -17,7 +17,7 @@
 
 **Блокирующее ограничение** фиксирует геометрический элемент в указанном месте, одним нажатием.
 
-It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
+It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [B-splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
 
 ## Применение
 
@@ -25,7 +25,7 @@ It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.
 <div class="mw-translate-fuzzy">
 
 1.  Выберите элемент, степень свободы которого вы хотите ограничить.
-2.  Нажмите на кнопку **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Ограничение (Привязка)](Sketcher_ConstrainBlock/ru.md)**.
+2.  Нажмите на кнопку **[<img src=images/Sketcher_ConstrainBlock.svg style="width   *16px"> [Ограничение (Привязка)](Sketcher_ConstrainBlock/ru.md)**.
 
 
 </div>

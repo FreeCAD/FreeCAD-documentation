@@ -1,6 +1,8 @@
 # Category:Command Reference/bg
 This category contains the help pages of each of FreeCAD [Command/bg](Command/bg.md).
 
+[Category   *Categories/bg](Category   *Categories/bg.md)
+
 ### Contents
 
 |     |     |     |

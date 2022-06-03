@@ -8,11 +8,11 @@
 </div>
 
 
-{{Manual:TOC/ro}}
+{{Manual   *TOC/ro}}
 
 FreeCAD este proiectat pentru modelare parametrică. Aceasta înseamnă că geometria pe care o creați, în loc să fie construibilă liber, este produsă prin reguli și parametri. De exemplu, un cilindru ar putea fi produs dintr-o rază și o înălțime. Cu ajutorul acestor doi parametri, programul dispune de suficiente informații pentru a construi cilindrul.
 
-Obiectele parametrice, în FreeCAD, sunt în realitate bucăți mici dintr-un program care rulează ori de câte ori unul dintre parametri s-a schimbat. Obiectele pot avea mai multe tipuri diferite de parametri: numere (numere întregi cum ar fi 1, 2, 3 sau valori în virgulă mobilă cum ar fi 3.1416), dimensiuni în lumea reală (1mm, 2.4m, 4.5ft), coordonate (x,y,z), un șir de caractere (\"hello!\") sau chiar alte obiecte.
+Obiectele parametrice, în FreeCAD, sunt în realitate bucăți mici dintr-un program care rulează ori de câte ori unul dintre parametri s-a schimbat. Obiectele pot avea mai multe tipuri diferite de parametri   * numere (numere întregi cum ar fi 1, 2, 3 sau valori în virgulă mobilă cum ar fi 3.1416), dimensiuni în lumea reală (1mm, 2.4m, 4.5ft), coordonate (x,y,z), un șir de caractere (\"hello!\") sau chiar alte obiecte.
 
 Acest ultim tip permite construirea rapidă a unor lanțuri de operații complexe, fiecare obiect nou fiind bazat pe unul precedent și adăugând noi funcționalități/caracteristici.
 
@@ -22,7 +22,7 @@ Toate operațiunile intermediare (formele 2D, pad-uri, buzunare, etc) sunt înc�
 
 ![](images/Parametric_objects.jpg )
 
-Două lucruri importante sunt necesare pentru a ști:
+Două lucruri importante sunt necesare pentru a ști   *
 
 
 <div class="mw-translate-fuzzy">
@@ -64,6 +64,8 @@ Cu toate acestea, toate obiectele, parametrice sau nu, vor avea câțiva dintre 
 
 
 </div>
+
+[Category   *Poweruser Documentation](Category_Poweruser_Documentation.md) [Category   *Tutorials](Category_Tutorials.md)
 
 
 

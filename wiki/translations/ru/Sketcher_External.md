@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Внешняя геометрия
-   Name:Sketcher_External
-   MenuLocation:Sketch → Геометрия эскиза → Внешняя геометрия
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:X
-   SeeAlso:[Переключить построительную геометрию](Sketcher_ToggleConstruction/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Внешняя геометрия
+   Name   *Sketcher_External
+   MenuLocation   *Sketch → Геометрия эскиза → Внешняя геометрия
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut   *X
+   SeeAlso   *[Переключить построительную геометрию](Sketcher_ToggleConstruction/ru.md)
 ---
 
 # Sketcher External/ru
@@ -25,7 +25,7 @@
 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
-<FILE:Sketcher_ExternalEsempio1.png>
+<FILE   *Sketcher_ExternalEsempio1.png>
 
 ## Применение
 
@@ -96,15 +96,15 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 
 В этом случае они используются в качестве эталона для ограничения касания с окружностями одного круга. Они также используются в качестве эталона для горизонтального и вертикального ограничения, чтобы найти центр второго круга относительно низа и верха Выдавливания.
 
-<FILE:Sketcher_ExternalEsempio2.png>
+<FILE   *Sketcher_ExternalEsempio2.png>
 
 Это тот же эскиз в режиме редактирования, но в котором Выдавливание, с которым он связан, скрыто.
 
-<FILE:Sketcher_ExternalEsempio4.png>
+<FILE   *Sketcher_ExternalEsempio4.png>
 
 Когда режим редактирования эскиза закрыт, линии внешней геометрии не видны.
 
-<FILE:Sketcher_ExternalEsempio3.png>
+<FILE   *Sketcher_ExternalEsempio3.png>
 
 
 <div class="mw-translate-fuzzy">

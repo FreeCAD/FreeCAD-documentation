@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/pl
-   Name:Sketcher ConstrainVertical
-   Name/pl:Wiązanie pionowe
-   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie pionowe
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**V**
-   SeeAlso:[Szkicownik: Wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)
+- GuiCommand   */pl
+   Name   *Sketcher ConstrainVertical
+   Name/pl   *Wiązanie pionowe
+   MenuLocation   *Szkic → Wiązania szkicownika → Wiązanie pionowe
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut   ***V**
+   SeeAlso   *[Szkicownik   * Wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)
 ---
 
 # Sketcher ConstrainVertical/pl
@@ -17,10 +17,10 @@ Tworzy wiązanie pionowe dla wybranych linii lub elementów polilinii. Zaczynaj�
 ## Użycie
 
 1.  Wybierz linie lub wierzchołki, które mają być związane w pionie
-2.  Aby uruchomić komendę wiązania pionowego:
-    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md)**.
+2.  Aby uruchomić komendę wiązania pionowego   *
+    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> [Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md)**.
     -   Użyj skrótu na klawiaturze **V**.
-    -   Użyj pozycji **Sketch → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> Wiązanie pionowe** , znajdującej się w menu rozwijanym Szkicu
+    -   Użyj pozycji **Sketch → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> Wiązanie pionowe** , znajdującej się w menu rozwijanym Szkicu
 3.  Alternatywnie, narzędzie może być uruchomione bez wcześniejszego zaznaczenia i będzie oczekiwało zaznaczenia.
 4.  Kliknij prawym przyciskiem myszy, lub wciśnij raz klawisz **Esc** aby zakończyć działanie narzędzia.
 

@@ -1,6 +1,6 @@
 # Sketcher CreateLine/pt-br
 ---
-- GuiCommand:/pt-br   Name:Sketcher CreateLine   Name/pt-br:Sketcher Line   Workbenches:[MenuLocation:Sketch → Sketcher geometries → Create line   Shortcut:L   SeeAlso:[[Sketcher CreatePolyline/pt-br|Sketcher Polyline](Sketcher_Workbench/pt-br___Sketcher]].md)---
+- GuiCommand   */pt-br   Name   *Sketcher CreateLine   Name/pt-br   *Sketcher Line   Workbenches   *[MenuLocation   *Sketch → Sketcher geometries → Create line   Shortcut   *L   SeeAlso   *[[Sketcher CreatePolyline/pt-br|Sketcher Polyline](Sketcher_Workbench/pt-br___Sketcher]].md)---
 
 
 </div>

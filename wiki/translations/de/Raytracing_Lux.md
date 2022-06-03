@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name/de:Raytracing Lux
-   MenuLocation:Raytracing → Neues Luxrender Projekt‏‎
+- GuiCommand   */de
+   Name/de   *Raytracing Lux
+   MenuLocation   *Raytracing → Neues Luxrender Projekt‏‎
 |
-   Workbenches:[Raytracing](Raytracing_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+   Workbenches   *[Raytracing](Raytracing_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Raytracing Lux/de
@@ -32,7 +32,7 @@ Fügt ein neues LuxRender Projekt in das Dokument ein.
 
 ## Verwendung
 
-1.  Klicke auf das schwarze \"nach unten\" -Symbol nach <img alt="" src=images/Raytracing_Lux.png  style="width:32px;"> um zwischen den verschiedenen vordefinierten Vorlagen zu wählen.
+1.  Klicke auf das schwarze \"nach unten\" -Symbol nach <img alt="" src=images/Raytracing_Lux.png  style="width   *32px;"> um zwischen den verschiedenen vordefinierten Vorlagen zu wählen.
 2.  Oder wähle ** Raytracing** → ** Neues Luxrender Projekt** und eine der vordefinierten Vorlagen aus dem oberen Menü.
 3.  Es wird ein neues POVRay Projekt mit dem Namen \"LuxProject\" erstellt.
 

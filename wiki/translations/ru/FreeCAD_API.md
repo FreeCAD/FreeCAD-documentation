@@ -1,9 +1,9 @@
 # FreeCAD API/ru
-**(Октябрь 2019) Не редактируйте эту страницу. Информация является неполной и устаревшей. Для получения последней версии API см.[https://www.freecadweb.org/api автосгенерированную API документацию], или вы можете сгенерировать документацию самостоятельно, смотрите [Исходня документация](Source_documentation.md).**
+**(Октябрь 2019) Не редактируйте эту страницу. Информация является неполной и устаревшей. Для получения последней версии API см.[https   *//www.freecadweb.org/api автосгенерированную API документацию], или вы можете сгенерировать документацию самостоятельно, смотрите [Исходня документация](Source_documentation.md).**
 
 This is the principal (root) module of FreeCAD. It can also be called by \"App\" from the FreeCAD interpreter. It contains everything that is needed to manipulate documents and their contents (objects).
 
-Example: 
+Example   * 
 ```python
 import FreeCAD
 print FreeCAD.listDocuments()
@@ -26,7 +26,7 @@ mydoc = FreeCAD.activeDocument()
 {{APIFunction|activeDocument| |Return the active document or None if there is no active document.|A FreeCAD Document.}}
 
 
-{{APIFunction|addExportType|string, string|Adds a new export file type to FreeCAD. The first string must be formatted like this example: "Word Document (*.doc)". The second string is the name of a python script/module containing an export() function.| }}
+{{APIFunction|addExportType|string, string|Adds a new export file type to FreeCAD. The first string must be formatted like this example   * "Word Document (*.doc)". The second string is the name of a python script/module containing an export() function.| }}
 
 
 {{APIFunction|addImportType|string, string|Adds a new import file type to FreeCAD, works the same way as addExportType, the handling python module must contain an open() and/or an import() function.| }}
@@ -57,6 +57,11 @@ mydoc = FreeCAD.activeDocument()
 
 
 {{APIFunction|setActiveDocument|Document name|Set the active document by its name.| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

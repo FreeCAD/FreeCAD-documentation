@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Image CreateImagePlane
-   Name/ru:Image CreateImagePlane
-   MenuLocation:Toolbars → Создать двумерное изображение в трёхмерном пространстве
-   Workbenches:[Image](Image_Workbench/ru.md)
-   SeeAlso:[Image Open](Image_Open/ru.md), [Image Scaling](Image_Scaling/ru.md)
+- GuiCommand   */ru
+   Name   *Image CreateImagePlane
+   Name/ru   *Image CreateImagePlane
+   MenuLocation   *Toolbars → Создать двумерное изображение в трёхмерном пространстве
+   Workbenches   *[Image](Image_Workbench/ru.md)
+   SeeAlso   *[Image Open](Image_Open/ru.md), [Image Scaling](Image_Scaling/ru.md)
 ---
 
 # Image CreateImagePlane/ru
@@ -33,20 +33,20 @@ If no offset is given to the image initially, its position can still be adjusted
 
 {{Properties Title|Base}}
 
--    **Position**: specifies the coordinates of the base point of the image plane.
+-    **Position**   * specifies the coordinates of the base point of the image plane.
 
--    **Angle**: specifies the angle of rotation of the image plane.
+-    **Angle**   * specifies the angle of rotation of the image plane.
 
--    **Axis**: specifies the axis used for the rotation angle.
+-    **Axis**   * specifies the axis used for the rotation angle.
 
 
 {{Properties Title|Image Plane}}
 
--    **Image File**: specifies the image to use for this plane.
+-    **Image File**   * specifies the image to use for this plane.
 
--    **XSize**: specifies the width of the image plane.
+-    **XSize**   * specifies the width of the image plane.
 
--    **YSize**: specifies the height of the image plane.
+-    **YSize**   * specifies the height of the image plane.
 
 
 <div class="mw-translate-fuzzy">

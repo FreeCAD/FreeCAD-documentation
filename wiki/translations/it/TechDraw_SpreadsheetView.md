@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw_SpreadsheetView
-   Name/it:Vista di foglio di calcolo
-   MenuLocation:TechDraw → Vista di foglio di calcolo
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Foglio di calcolo](Spreadsheet_Workbench/it.md)
+- GuiCommand   */it
+   Name   *TechDraw_SpreadsheetView
+   Name/it   *Vista di foglio di calcolo
+   MenuLocation   *TechDraw → Vista di foglio di calcolo
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Foglio di calcolo](Spreadsheet_Workbench/it.md)
 ---
 
 # TechDraw SpreadsheetView/it
@@ -39,19 +39,19 @@ Questo strumento ti consente di posizionare una vista di un [foglio di calcolo](
 
 ## Proprietà
 
--    **Source**: Il foglio di calcolo da aggiungere alla pagina
+-    **Source**   * Il foglio di calcolo da aggiungere alla pagina
 
--    **Cell Start**: La cella in alto a sinistra dell\'intervallo di celle da includere in questa vista
+-    **Cell Start**   * La cella in alto a sinistra dell\'intervallo di celle da includere in questa vista
 
--    **Cell End**: La cella in basso a destra dell\'intervallo di celle da includere in questa vista
+-    **Cell End**   * La cella in basso a destra dell\'intervallo di celle da includere in questa vista
 
--    **Font**: Il nome del carattere utilizzato per i testi
+-    **Font**   * Il nome del carattere utilizzato per i testi
 
--    **Color**: Il colore delle linee e dei testi che non hanno colori specificati nel foglio di calcolo
+-    **Color**   * Il colore delle linee e dei testi che non hanno colori specificati nel foglio di calcolo
 
--    **Font Size**: La dimensione del carattere dei testi
+-    **Font Size**   * La dimensione del carattere dei testi
 
--    **Line Width**: La larghezza dei bordi delle celle
+-    **Line Width**   * La larghezza dei bordi delle celle
 
 
 <div class="mw-translate-fuzzy">

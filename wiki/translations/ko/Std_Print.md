@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ko
-   Name:Std Print
-   Name/ko:인쇄
-   MenuLocation:파일 → 인쇄...
-   Workbenches:모두
-   Shortcut:**Ctrl**+**P**
-   SeeAlso:[표준 인쇄 미리보기](Std_PrintPreview/ko.md), [표준 Pdf로 내보내기](Std_PrintPdf/ko.md), [표준 내보내기](Std_Export/ko.md), [표준 스크린샷 보기](Std_ViewScreenShot/ko.md)
+- GuiCommand   */ko
+   Name   *Std Print
+   Name/ko   *인쇄
+   MenuLocation   *파일 → 인쇄...
+   Workbenches   *모두
+   Shortcut   ***Ctrl**+**P**
+   SeeAlso   *[표준 인쇄 미리보기](Std_PrintPreview/ko.md), [표준 Pdf로 내보내기](Std_PrintPdf/ko.md), [표준 내보내기](Std_Export/ko.md), [표준 스크린샷 보기](Std_ViewScreenShot/ko.md)
 ---
 
 # Std Print/ko
@@ -23,7 +23,7 @@
 ## 용법
 
 1.  필요하다면 인쇄할 기술 도면 페이지를 활성화시키거나 3D 보기를 원하는 대로 변경합니다.
-2.  이 명령어를 실행하는 방법은 여러가지입니다:
+2.  이 명령어를 실행하는 방법은 여러가지입니다   *
     -   
         **<img src="images/Std_Print.svg" width=16px> [표준 인쇄](Std_Print/ko.md)
 **
@@ -32,7 +32,7 @@
 
     -   메뉴에서 **File → <img src="images/Std_Print.svg" width=16px> 인쇄...** 옵션을 선택합니다..
 
-    -   단축키를 사용합니다: **Ctrl**+**P**.
+    -   단축키를 사용합니다   * **Ctrl**+**P**.
 3.  표준 인쇄 대화상자가 열릴 것입니다.
 
 ## 선택 사항 

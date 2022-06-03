@@ -1,6 +1,6 @@
 # PartDesign LinearPattern/it
 ---
-- GuiCommand:/it   Name:PartDesign LinearPattern   Name/it:Schiera lineare   MenuLocation:PartDesign → Serie lineare   Workbenches:[SeeAlso:[[PartDesign PolarPattern/it|Serie polare](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand   */it   Name   *PartDesign LinearPattern   Name/it   *Schiera lineare   MenuLocation   *PartDesign → Serie lineare   Workbenches   *[SeeAlso   *[[PartDesign PolarPattern/it|Serie polare](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -10,14 +10,14 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24px;"> **Serie lineare** crea copie equidistanti di una funzione in una direzione lineare. A partire da v0.17, è in grado di replicare più funzioni.
+Lo strumento <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *24px;"> **Serie lineare** crea copie equidistanti di una funzione in una direzione lineare. A partire da v0.17, è in grado di replicare più funzioni.
 
 
 </div>
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
-*Sopra: un Pad a forma di L (B) creato su un pad di base (A, indicato anche come \"supporto\") è usato per produrre una schiera lineare. A destra viene mostrato il risultato (C).*
+*Sopra   * un Pad a forma di L (B) creato su un pad di base (A, indicato anche come \"supporto\") è usato per produrre una schiera lineare. A destra viene mostrato il risultato (C).*
 
 ## Uso
 
@@ -26,9 +26,9 @@ Lo strumento <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:2
 
 1.  Selezionare le funzioni da modellare. In alternativa, è possibile selezionare la funzione da un dialogo dopo il passaggio 2.
 
-    :   v0.16 e precedenti È possibile selezionare solo una singola funzione e deve essere l\'ultima nella parte inferiore dell\'albero delle funzioni.
-2.  Premere il pulsante **[<img src=images/PartDesign_LinearPattern.png style="width:24px"> '''Serie lineare'''**.
-3.  v0.17 e superiore Premere **Aggiungi funzione** per aggiungere una funzione da modellare. La funzione deve essere visibile nella vista 3D:
+       *   v0.16 e precedenti È possibile selezionare solo una singola funzione e deve essere l\'ultima nella parte inferiore dell\'albero delle funzioni.
+2.  Premere il pulsante **[<img src=images/PartDesign_LinearPattern.png style="width   *24px"> '''Serie lineare'''**.
+3.  v0.17 e superiore Premere **Aggiungi funzione** per aggiungere una funzione da modellare. La funzione deve essere visibile nella vista 3D   *
     1.  Passare all\'albero del modello;
     2.  Selezionare nell\'albero la funzione da aggiungere e premere **spazio** per renderla visibile nella vista 3D;
     3.  Tornare al pannello Azioni;
@@ -43,9 +43,9 @@ Lo strumento <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:2
 
 </div>
 
-To add or remove features from an existing pattern:
+To add or remove features from an existing pattern   *
 
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
     1.  Switch to the Model tree;
     2.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
     3.  Switch back to the Tasks panel;

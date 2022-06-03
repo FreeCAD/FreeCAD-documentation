@@ -1,9 +1,9 @@
 # Placement API/pl
-**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
+**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https   *//www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
 
-W FreeCAD, umiejscowienie definiuje pozycję i obrót obiektu. Koncepcja umiejscowienia jest szczegółowo wyjaśniona na tej stronie: [Umiejscowienie](Placement/pl.md).
+W FreeCAD, umiejscowienie definiuje pozycję i obrót obiektu. Koncepcja umiejscowienia jest szczegółowo wyjaśniona na tej stronie   * [Umiejscowienie](Placement/pl.md).
 
-Przykład ustawienia Umiejscowienia obiektu dokumentu: 
+Przykład ustawienia Umiejscowienia obiektu dokumentu   * 
 ```python
 myObj = FreeCAD.ActiveDocument.ActiveObject
 pl = FreeCAD.Placement()
@@ -34,6 +34,11 @@ myObj.Placement = pl
 
 
 {{APIFunction|toMatrix| | |macierz reprezentująca transformację umiejscowienia}}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

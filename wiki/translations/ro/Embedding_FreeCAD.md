@@ -22,7 +22,7 @@ FreeCAD are capacitatea uimitoare de a fi importabil ca modul python în alte pr
 
 <div class="mw-translate-fuzzy">
 
-O primă aplicație directă, ușoară și utilă pe care o puteți face este importul documentelor FreeCAD în programul dvs. În următorul exemplu, vom importa geometria pieselor unui document FreeCAD în [blender](http://www.blender.org). Iată scenariul complet. Sper că veți fi impresionat de simplitatea sa:
+O primă aplicație directă, ușoară și utilă pe care o puteți face este importul documentelor FreeCAD în programul dvs. În următorul exemplu, vom importa geometria pieselor unui document FreeCAD în [blender](http   *//www.blender.org). Iată scenariul complet. Sper că veți fi impresionat de simplitatea sa   *
 
 
 </div>
@@ -34,35 +34,35 @@ FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
 import Blender, sys
 sys.path.append(FREECADPATH)
  
-def import_fcstd(filename):
-   try:
+def import_fcstd(filename)   *
+   try   *
        import FreeCAD
-   except ValueError:
+   except ValueError   *
        Blender.Draw.PupMenu('Error%t|FreeCAD library not found. Please check the FREECADPATH variable in the import script is correct')
-   else:
+   else   *
        scene = Blender.Scene.GetCurrent()
        import Part
        doc = FreeCAD.open(filename)
        objects = doc.Objects
-       for ob in objects:
-           if ob.Type[:4] == 'Part':
+       for ob in objects   *
+           if ob.Type[   *4] == 'Part'   *
                shape = ob.Shape
-               if shape.Faces:
+               if shape.Faces   *
                    mesh = Blender.Mesh.New()
                    rawdata = shape.tessellate(1)
-                   for v in rawdata[0]:
+                   for v in rawdata[0]   *
                        mesh.verts.append((v.x,v.y,v.z))
-                   for f in rawdata[1]:
+                   for f in rawdata[1]   *
                        mesh.faces.append.append(f)
                    scene.objects.new(mesh,ob.Name)
        Blender.Redraw()
 
-def main():
+def main()   *
    Blender.Window.FileSelector(import_fcstd, 'IMPORT FCSTD', 
                         Blender.sys.makename(ext='.fcstd'))    
  
 # This lets you import the script without running it
-if __name__=='__main__':
+if __name__=='__main__'   *
    main()
 </nowiki>
 }}
@@ -95,22 +95,22 @@ Odată ce suntem siguri că biblioteca este încărcată (secvența try/except),
        import Part
        doc = FreeCAD.open(filename)
        objects = doc.Objects
-       for ob in objects:
-           if ob.Type[:4] == 'Part':
+       for ob in objects   *
+           if ob.Type[   *4] == 'Part'   *
 }}
 
 Mozaicarea (Tessellation) produce o listă de vârfuri(vertex) și o listă de fasțete definite de indici de vârfuri. Acest lucru este perfect, deoarece este exact același mod în care programul Blender definește ochiurile de plasă. Deci, sarcina noastră este ridicol de simplă, adăugăm ambele conținuturi ale listelor la vârfurile și fețetele unei rețele de tip Blender. Când totul este realizat, noi redesenăm ecranul și gata "c\'est fini" !
 
 
 {{Code|lang=python|code=
-           if ob.Type[:4] == 'Part':
+           if ob.Type[   *4] == 'Part'   *
                shape = ob.Shape
-               if shape.Faces:
+               if shape.Faces   *
                    mesh = Blender.Mesh.New()
                    rawdata = shape.tessellate(1)
-                   for v in rawdata[0]:
+                   for v in rawdata[0]   *
                        mesh.verts.append((v.x,v.y,v.z))
-                   for f in rawdata[1]:
+                   for f in rawdata[1]   *
                        mesh.faces.append.append(f)
                    scene.objects.new(mesh,ob.Name)
        Blender.Redraw()
@@ -119,13 +119,13 @@ Mozaicarea (Tessellation) produce o listă de vârfuri(vertex) și o listă de f
 
 <div class="mw-translate-fuzzy">
 
-Bineînțeles, ați văzut că acest script este foarte simplu (de fapt am făcut unul mai avansat aici [here](http://yorik.orgfree.com/scripts/import_freecad.py)),ați putea dori să-l extindeți, de exemplu importarea obiectelor de tip plasă, sau importarea "Part Geometry" care nu are fațete sau importul altor formate de fișiere pe care FreeCAD le poate citi. De asemenea, ați putea dori să exportați forme geometrice într-un document FreeCAD, care se poate face în același mod. S-ar putea să doriți, de asemenea, să construiți un dialog, astfel încât utilizatorul să poată alege ce să importe, etc\.... Frumusețea tuturor acestor lucruri constă de fapt că l-ai lăsat pe FreeCAD să efectueze în totalitate, prezentându-și în același timp rezultatele în programul pe care l-ai ales .
+Bineînțeles, ați văzut că acest script este foarte simplu (de fapt am făcut unul mai avansat aici [here](http   *//yorik.orgfree.com/scripts/import_freecad.py)),ați putea dori să-l extindeți, de exemplu importarea obiectelor de tip plasă, sau importarea "Part Geometry" care nu are fațete sau importul altor formate de fișiere pe care FreeCAD le poate citi. De asemenea, ați putea dori să exportați forme geometrice într-un document FreeCAD, care se poate face în același mod. S-ar putea să doriți, de asemenea, să construiți un dialog, astfel încât utilizatorul să poată alege ce să importe, etc\.... Frumusețea tuturor acestor lucruri constă de fapt că l-ai lăsat pe FreeCAD să efectueze în totalitate, prezentându-și în același timp rezultatele în programul pe care l-ai ales .
 
 
 </div>
 
 
-**Note:**
+**Note   ***
 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
@@ -165,16 +165,21 @@ Notă, pentru orice aplicație consolă această soluție, această soluție, nu
 
 Deși este posibil să importați FreeCAD la un interpretor extern Python, acesta este un scenariu de utilizare obișnuit și necesită o atenție deosebită. În general, este mai bine să folosiți Python inclus în FreeCAD, via o linia de comandă sau ca pe un subproces. Vedeți [Start up and Configuration](Start_up_and_Configuration.md) pentru mai multe informații asupra ultimelor două opțiuni.
 
-Deoarece modulul FreeCAD Python este compilat din C ++ (mai degrabă decât de a fi un modul Python pur), acesta poate fi importat numai de la un interpretorul Python compatibil. În general, acest lucru înseamnă că interpretorul Python trebuie să fie compilat cu același compilator C, cum a fost cel folosit pentru a construi FreeCAD. Informații despre compilatorul folosit pentru a construi un interpretor Python (inclusiv cel construit cu FreeCAD), pot fi găsite la: 
+Deoarece modulul FreeCAD Python este compilat din C ++ (mai degrabă decât de a fi un modul Python pur), acesta poate fi importat numai de la un interpretorul Python compatibil. În general, acest lucru înseamnă că interpretorul Python trebuie să fie compilat cu același compilator C, cum a fost cel folosit pentru a construi FreeCAD. Informații despre compilatorul folosit pentru a construi un interpretor Python (inclusiv cel construit cu FreeCAD), pot fi găsite la   * 
 ```python
 >>> import sys
 >>> sys.version
-'2.7.13 (default, Dec 17 2016, 23:03:43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
+'2.7.13 (default, Dec 17 2016, 23   *03   *43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
 ```
 
 ## Related
 
 -   [Headless FreeCAD](Headless_FreeCAD.md)
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

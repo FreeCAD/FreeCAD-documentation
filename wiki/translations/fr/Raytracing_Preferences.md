@@ -1,7 +1,7 @@
 # Raytracing Preferences/fr
 L\'écran de préférences de l\'[atelier Raytracing](Raytracing_Workbench/fr.md) se trouve dans la fenêtre [Préférences](Preferences_Editor/fr.md) **Édit → Préférences → Raytracing**.
 
-Il n\'y a qu\'un seul onglet: Raytracing.
+Il n\'y a qu\'un seul onglet   * Raytracing.
 
 ### Raytracing
 
@@ -10,7 +10,9 @@ Il n\'y a qu\'un seul onglet: Raytracing.
 
 {{Raytracing_Tools_navi
 
-}}
+}}  
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

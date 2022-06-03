@@ -4,11 +4,11 @@
 
 {{TOCright}}
 
-Arbeitsbereich [Gedruckte Leiterplatte](https://de.wikipedia.org/wiki/Leiterplatte) für FreeCAD (englisch.: Printed Circuit Board)(PCB)
+Arbeitsbereich [Gedruckte Leiterplatte](https   *//de.wikipedia.org/wiki/Leiterplatte) für FreeCAD (englisch.   * Printed Circuit Board)(PCB)
 
 Arbeitsbereich Flexible Gedruckte Leiterplatte für FreeCAD (FPCB)
 
-Mit dem Modul kannst Du Leiterplatten in FreeCAD importieren/erstellen. Umfang des Moduls:
+Mit dem Modul kannst Du Leiterplatten in FreeCAD importieren/erstellen. Umfang des Moduls   *
 
 -   Unterstützung für viele verschiedene Schichten,
 -   Möglichkeit, Farben, Transparenz und Namen für jede Schicht zu wählen,
@@ -17,13 +17,13 @@ Mit dem Modul kannst Du Leiterplatten in FreeCAD importieren/erstellen. Umfang d
 
 ## Referenzen
 
--   Autor: marmni
--   Hauptseite: <https://sourceforge.net/projects/eaglepcb2freecad/>
--   Quellcode auf github: <https://github.com/marmni/FreeCAD-PCB>
+-   Autor   * marmni
+-   Hauptseite   * <https   *//sourceforge.net/projects/eaglepcb2freecad/>
+-   Quellcode auf github   * <https   *//github.com/marmni/FreeCAD-PCB>
 
 ## Werkzeuge
 
-Für eine detaillierte Beschreibung der Arbeitsbereichsnutzung siehe **index.pdf** im Quellcode oder [Handbuch](https://raw.githubusercontent.com/marmni/FreeCAD-PCB/master/index.pdf)
+Für eine detaillierte Beschreibung der Arbeitsbereichsnutzung siehe **index.pdf** im Quellcode oder [Handbuch](https   *//raw.githubusercontent.com/marmni/FreeCAD-PCB/master/index.pdf)
 
 Werkzeugleiste
 
@@ -49,9 +49,9 @@ FreeCAD-PCB benötigt FreeCAD in der Version 0.18 oder höher und Python in der 
 
 Entpacke die heruntergeladene Zip Datei und kopiere den extrahierten Ordner in das Verzeichnis, in dem FreeCAD installiert ist (Unterordner Mod).
 
-Beispiel:
+Beispiel   *
 
--   FreeCAD Pfad:
+-   FreeCAD Pfad   *
 
 ~/Programs/FreeCAD
 
@@ -65,7 +65,7 @@ Beispiel:
 
 -   Ändere anschließend die Lese-/Schreibberechtigung auf 777. Bitte vergiß nicht den Parameter -R!
 
-Beispiel:
+Beispiel   *
 
 chmod 777 -R PCB
 
@@ -73,15 +73,15 @@ chmod 777 -R PCB
 
 Entpacke die heruntergeladene Zip Datei und kopiere den extrahierten Ordner in das Verzeichnis, in dem FreeCAD installiert ist (Unterordner Mod).
 
-Beispiel:
+Beispiel   *
 
--   FreeCAD Pfad:
+-   FreeCAD Pfad   *
 
-C:/Programme/FreeCAD-0.18
+C   */Programme/FreeCAD-0.18
 
 -   So kopiere mod in den Ordner
 
-C:/Programme/FreeCAD-0.18/Mod
+C   */Programme/FreeCAD-0.18/Mod
 
 -   Als nächstes ändere die Lese-/Schreibrechte für alle Benutzer. Klicke mit der rechten Maustaste auf den Ordner PCB und wähle Eigenschaften → Sicherheit → Bearbeiten → Benutzer und Markierung.
 
@@ -91,20 +91,24 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 
 ## Verweise zum FreeCAD-PCB Arbeitsbereich 
 
--   Arbeitsbereich Wiki: [Externe Arbeitsbereiche](https://wiki.freecadweb.org/External_workbenches/de)
--   FreeCAD Wiki: [Wiki Hauptseite](https://wiki.freecadweb.org/Main_Page/de)
--   FreeCAD Forum: [EaglePCB Importeur für FreeCAD](http://forum.freecadweb.org/viewtopic.php?f=9&t=5107)
--   Tutorien:
--   Videos: [EaglePCB\_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
--   Dateien: [PCB Bibliothek](https://github.com/marmni/FreeCAD-PCB-library)
--   Fehler melden: Bitte melde Fehler unter <https://github.com/marmni/FreeCAD-PCB/issues>
+-   Arbeitsbereich Wiki   * [Externe Arbeitsbereiche](https   *//wiki.freecadweb.org/External_workbenches/de)
+-   FreeCAD Wiki   * [Wiki Hauptseite](https   *//wiki.freecadweb.org/Main_Page/de)
+-   FreeCAD Forum   * [EaglePCB Importeur für FreeCAD](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=5107)
+-   Tutorien   *
+-   Videos   * [EaglePCB\_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https   *//www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
+-   Dateien   * [PCB Bibliothek](https   *//github.com/marmni/FreeCAD-PCB-library)
+-   Fehler melden   * Bitte melde Fehler unter <https   *//github.com/marmni/FreeCAD-PCB/issues>
 
 ## Andere nützliche Verweise 
 
--   [EaglePCB auf sourceforge](https://sourceforge.net/projects/eaglepcb2freecad/)
+-   [EaglePCB auf sourceforge](https   *//sourceforge.net/projects/eaglepcb2freecad/)
 -   [Makrorezepte](Macros_recipes/de.md)
 -   [FreeCAD Herunterladen](Download/de.md)
 -   [FreeCAD Gemeinschaft Portal](FreeCAD_Community_Portal/de.md)
+
+
+
+[Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

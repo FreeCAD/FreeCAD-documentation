@@ -106,7 +106,7 @@ Datums in the GD&T sense of the meaning are surfaces your tolerance is relative 
 
 ### Symbol reference 
 
-To insert any GD&T symbol, TechDraw provides the feature [customize format extension](TechDraw_ExtensionCustomizeFormat.md). To use this, select a balloon or dimension and use its toolbar button. <small>(v0.20)</small> 
+To insert GD&T symbols TechDraw provides the [Customize format label](TechDraw_ExtensionCustomizeFormat.md) feature.
 
 As reference, here are lists of characters to be used for geometric tolerancing   *
 

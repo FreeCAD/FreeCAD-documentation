@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 ConstraintPointLineDistance
-   Name/fr:Assembly3 Contrainte distance entre point et ligne
-   Icon:Assembly_ConstraintPointLineDistance.svg
-   MenuLocation:Assembly3 → ? → Point line distance
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Assembly3 ConstraintPointLineDistance
+   Name/fr   *Assembly3 Contrainte distance entre point et ligne
+   Icon   *Assembly_ConstraintPointLineDistance.svg
+   MenuLocation   *Assembly3 → ? → Point line distance
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointLineDistance/fr

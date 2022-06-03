@@ -1,6 +1,8 @@
 # Category:BIM/id
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/id](Category   *User_Documentation/id.md)
+
 ### Contents
 
 |     |     |     |

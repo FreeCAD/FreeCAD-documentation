@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Sketcher Arcs
-   Icon:Sketcher_CompCreateArc.png
-   MenuLocation:None (toolbar only) 
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand   *
+   Name   *Sketcher Arcs
+   Icon   *Sketcher_CompCreateArc.png
+   MenuLocation   *None (toolbar only) 
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
 ---
 
 # Sketcher CompCreateArc/en
@@ -14,8 +14,8 @@
 
 ## Types of arcs 
 
--   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc.md): Draws an arc by picking three points: the center, the start angle along the radius, and the end angle.
--   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arc by 3 points](Sketcher_Create3PointArc.md): Draws an arc by picking three points: the start point, the end point and a point on the arc.
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width   *32px;"> [Arc](Sketcher_CreateArc.md)   * Draws an arc by picking three points   * the center, the start angle along the radius, and the end angle.
+-   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width   *32px;"> [Arc by 3 points](Sketcher_Create3PointArc.md)   * Draws an arc by picking three points   * the start point, the end point and a point on the arc.
 
 
 

@@ -1,115 +1,108 @@
 # Start Preferences/de
+<div class="mw-translate-fuzzy">
+
 Der Einstellungsbildschirm der [Start Arbeitsbereich](Start_Workbench/de.md) befindet sich im [Einstellungseditor](Preferences_Editor/de.md), {{MenuCommand/de|Bearbeiten → Einstellungen → Start}}.
 
-Es gibt nur eine Registerkarte: Startseite.
 
-## Startseite
-
-Auf der Registerkarte \'\'Startseite \'\' kannst du folgendes festlegen:
+</div>
 
 
-{{MenuCommand/de|Startseite Vorlage}}
+<div class="mw-translate-fuzzy">
 
-: Eine optionale HTML Vorlage, die anstelle der Standard Startseite verwendet wird.
+Es gibt nur eine Registerkarte   * Startseite.
 
-+++
-| Name                                                            | Beschreibung                                                                                                                               |
-+=================================================================+============================================================================================================================================+
-|                                                  |                                                                                                                                            |
-| **Inhalt**                                             |                                                                                                                                            |
-|                                                              |                                                                                                                                            |
-+++
-|                                                  | Falls aktiviert wird ein Notizblock neben den Datei-Miniaturbildern angezeigt, wo du Notizen über Sitzungen hinweg aufbewahren kannst.     |
-| **Notizblock anzeigen**                             |                                                                                                                                            |
-|                                                              |                                                                                                                                            |
-+++
-|                                                  | Falls aktiviert werden die Beispiele im **Dokumente**-Reiter der Start-Seite angezeigt.                             |
-| **Inhalt des Beispiel-Ordners "examples" anzeigen** |                                                                                                                                            |
-|                                                              |                                                                                                                                            |
-+++
-|                                                  | Ein zusätzlicher Ordner wird unten im **Dokumente**-Reiter der Start-Seite angezeigt.                               |
-| **Zusätzlichen Ordner anzeigen**                    |                                                                                                                                            |
-|                                                              |                                                                                                                                            |
-+++
-|                                                  | Falls aktiviert werden die letzten Beiträge des FreeCAD-Forums im **Aktivitäten**-Reiter der Start-Seite angezeigt. |
-| **Zeige Forum**                                     |                                                                                                                                            |
-|                                                              |                                                                                                                                            |
-+++
+
+</div>
 
 +++
-| Name                                                       | Beschreibung                                                                                                                                                                                                                                     |
-+============================================================+==================================================================================================================================================================================================================================================+
-|                                             |                                                                                                                                                                                                                                                  |
-| **Schriftarten und Farben**                       |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+| Name                                             | Description                                                                                                                                                                                                                            |
++==================================================+========================================================================================================================================================================================================================================+
+|                                   | An optional HTML template that will be used instead of the default template.                                                                                                                                                           |
+| **Start page template**              |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Falls aktiviert und ein Stylesheet in den [Allgemeinen Einstellungen](Preferences_Editor/de.md) eingetragen ist, wird das Stylesheet die Optionen in diesem Abschnitt überschreiben.                                                     |
-| **FreeCAD-Stylesheet verwenden**               |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | If checked, a notepad will be shown next to the recent file thumbnails where you can keep notes across sessions.                                                                                                                       |
+| **Show notepad**                     |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Die Hintergrundfarbe hinter den Paneelen; der Standard ist blau.                                                                                                                                                                                 |
-| **Hintergrundfarbe**                           |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | If checked, the example files will be shown on the **Documents** tab of the Start page.                                                                                                                         |
+| **Show examples folder contents**    |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Ein optionales Bild, das als Hintergrund anzuzeigen ist; normalerweise ist es leer.                                                                                                                                                              |
-| **Hintergrundbild**                            |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | An optional custom folder to be displayed at the bottom of the **Documents** tab of the Start page.                                                                                                             |
+| **Show additional folder**           |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Die Farbe des Versionstextes auf der Start-Seite; Standard ist weiß.                                                                                                                                                                             |
-| **Hintergrundfarbe des Textes**                |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | If checked, the latest posts from the FreeCAD forum will be displayed on the **Activity** tab of the Start page.                                                                                                |
+| **Show forum**                       |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Der Hintergrund des Bereichs auf der Haupt-Start-Seite; Standard ist weiß.                                                                                                                                                                       |
-| **Hintergrundfarbe der Seite**                 |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | If checked, help tips will be shown on the **Documents** tab of the Start page.                                                                                                                                 |
+| **Show tips**                        |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Die Textfarbe auf den Hauptseiten; Standard ist schwarz.                                                                                                                                                                                         |
-| **Textfarbe auf Seiten**                       |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | If checked, and a style sheet is specified in the [General preferences](Preferences_Editor#General_2.md), the style sheet will override the options in this section.                                                           |
+| **Use FreeCAD style sheet**          |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Die Hintergrundfarbe der Kästen auf den Seiten; Standard ist hellgrau.                                                                                                                                                                           |
-| **Hintergrundfarbe der Kästen**                |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | The background color behind the panels. It defaults to blue.                                                                                                                                                                           |
+| **Background color**                 |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Die Farbe von URL-Verweisen; Standard ist königsblau.                                                                                                                                                                                            |
-| **Link-Farbe**                                 |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | An optional image to display as background. It is normally empty.                                                                                                                                                                      |
+| **Background image**                 |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Die auf der Start-Seite zu verwendende Schriftartfamilie. Es kann ein Schriftartname oder eine kommaseparierte Folge von Rückfall-Schriftarten sein; Standard ist \"Arial,Helvetica,sans\", so dass eine Schriftart ohne Serifen verwendet wird. |
-| **Schriftartfamilie**                          |                                                                                                                                                                                                                                                  |
-|                                                         | Ein Drehfeld erlaubt auch das Setzen der Basisschriftgröße für alle Texte auf der Start-Seite; Standard ist 11px.                                                                                                                                |
+|                                   | The color of the version text on the Start page. It defaults to white.                                                                                                                                                                 |
+| **Background text color**            |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
-|                                             | Falls aktiviert wird ein Farbverlauf für das \"Datei Neu\"-Symbol verwendet.                                                                                                                                                                     |
-| **farbverlauf für neues Datei-Icon verwenden** |                                                                                                                                                                                                                                                  |
-|                                                         |                                                                                                                                                                                                                                                  |
+|                                   | The background of the main start page area. It defaults to white.                                                                                                                                                                      |
+| **Page background color**            |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
++++
+|                                   | The color of the text on the main pages. It defaults to black.                                                                                                                                                                         |
+| **Page text color**                  |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
++++
+|                                   | The background color of the boxes inside the pages.                                                                                                                                                                                    |
+| **Box background color**             |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
++++
+|                                   | The color of URL links.                                                                                                                                                                                                                |
+| **Link color**                       |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
++++
+|                                   | The font family to use for the start page. It can be a font name or a comma-separated series of fallback fonts. It defaults to {{Value|Arial,Helvetica,sans}}, which will use a sans serif type of font.                 |
+| **Font family**                      |                                                                                                                                                                                                                                        |
+|                                               | A spinbox allows setting the font size for all texts on the Start page. It defaults to {{Value|13px}}.                                                                                                                   |
++++
+|                                   | If checked, a gradient color will be used for the \"New File\" icon.                                                                                                                                                                   |
+| **Use gradient for New File icon**   |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
++++
+|                                   | Not used. This is specified in the [General preferences](Preferences_Editor#General_2.md) instead.                                                                                                                             |
+| **Switch workbench after loading**   |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
++++
+|                                   | If this preference and the **Close and switch on opening file** preference are both checked, and the application is started by opening a file, the Start page will be closed after FreeCAD finishes loading. |
+| **Close start page after loading**   |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
++++
+|                                   | See previous preference.                                                                                                                                                                                                               |
+| **Close and switch on opening file** |                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                        |
 +++
 
-+++
-| Name                                                   | Beschreibung                                                                                                                                                                                                                                                                     |
-+========================================================+==================================================================================================================================================================================================================================================================================+
-|                                         |                                                                                                                                                                                                                                                                                  |
-| **Optionen**                                  |                                                                                                                                                                                                                                                                                  |
-|                                                     |                                                                                                                                                                                                                                                                                  |
-+++
-|                                         | Eine Auswahlliste mit [Arbeitsbereichen](Workbenches/de.md), aus denen einer ausgewählt werden kann. Nach dem Start von FreeCAD wird dieser Arbeitsbereich automatisch aktiviert; Standard ist der [Start-Arbeitsbereich](Start_Workbench/de.md).                |
-| **Nach dem Laden Arbeitsbereich wechseln** |                                                                                                                                                                                                                                                                                  |
-|                                                     |                                                                                                                                                                                                                                                                                  |
-+++
-|                                         | Falls aktiviert wird die Start-Seite geschlossen, nachdem FreeCAD den Ladevorgang beendet hat.                                                                                                                                                                                   |
-| **Nach dem Laden Startseite schließen**    |                                                                                                                                                                                                                                                                                  |
-|                                                     |                                                                                                                                                                                                                                                                                  |
-+++
-|                                         | Falls aktiviert und die Applikation durch das Öffnen einer Datei gestartet wird, wird die Software die beiden o.g. Optionen **Nach dem Laden Arbeitsbereich wechseln** und **Nach dem Laden Startseite schließen** anwenden. |
-| **Close and switch on opening file**       |                                                                                                                                                                                                                                                                                  |
-|                                                     |                                                                                                                                                                                                                                                                                  |
-+++
-
-![](images/Preference_Start_Tab_01.png )
+![](images/Preferences_Start_Tab_Start_page_options.png ) 
+*The Start page options tab*
 
 
 {{Start Tools navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

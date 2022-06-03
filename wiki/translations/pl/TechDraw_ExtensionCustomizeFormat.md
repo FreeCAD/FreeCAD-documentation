@@ -13,13 +13,7 @@
 
 ## Opis
 
-
-<div class="mw-translate-fuzzy">
-
-Narzędzie <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width   *24px;"> **Dostosuj format** umożliwia dostosowanie formatowania tekstu dymka lub tekstu wymiaru. [Symboli GD&T](https   *//en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) oraz można dodać inne znaki specjalne.
-
-
-</div>
+Narzędzie <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width   *24px;"> **Dostosuj format** umożliwia dostosowanie formatowania tekstu dymka lub tekstu wymiaru. Umożliwia też dodanie [Symboli GD&T](TechDraw_Geometric_dimensioning_and_tolerancing/pl.md) oraz innych znaków specjalnych.
 
 <img alt="" src=images/TechDraw_ExtensionCustomizeFormatExample.png  style="width   *250px;"> 
 *Panel zadań Dostosuj format*

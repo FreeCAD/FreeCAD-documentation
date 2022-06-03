@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Path Comment
-   Name/ru:Path Comment
-   MenuLocation:Path → Supplemental commands → Закомментировать
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:**P** **C**
-   SeeAlso:
+- GuiCommand   */ru
+   Name   *Path Comment
+   Name/ru   *Path Comment
+   MenuLocation   *Path → Supplemental commands → Закомментировать
+   Workbenches   *[Path](Path_Workbench/ru.md)
+   Shortcut   ***P** **C**
+   SeeAlso   *
 ---
 
 # Path Comment/ru
@@ -24,7 +24,7 @@ This tool inserts a comment. When exporting a project to G-code, the comments wi
 
 ## Свойства
 
--    **Comment**: The text of your comment
+-    **Comment**   * The text of your comment
 
 ## Scripting
 
@@ -34,14 +34,14 @@ This tool inserts a comment. When exporting a project to G-code, the comments wi
 ## Программирование
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 
 </div>
 
-Example:
+Example   *
 
 
 ```python

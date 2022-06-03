@@ -1,7 +1,7 @@
 # Main view area/it
 ## Introduzione
 
-L\'[area della vista principale](Main_view_area/it.md) è il widget principale che contiene le finestre secondarie nell\'[interfaccia](interface/it.md). È un\'istanza di Qt [QMdiArea](https://doc.qt.io/qt-5/qmdiarea.html).
+L\'[area della vista principale](Main_view_area/it.md) è il widget principale che contiene le finestre secondarie nell\'[interfaccia](interface/it.md). È un\'istanza di Qt [QMdiArea](https   *//doc.qt.io/qt-5/qmdiarea.html).
 
 
 <div class="mw-translate-fuzzy">
@@ -11,7 +11,7 @@ Di solito contiene le schede per la pagina iniziale dellambiente [Start](Start_W
 
 </div>
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
 
 
 

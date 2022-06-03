@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Ship Area
-   Name/fr:Ship Courbe de surface
-   MenuLocation:Ship design → Areas curve
-   Workbenches:[Ship](Ship_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */fr
+   Name   *Ship Area
+   Name/fr   *Ship Courbe de surface
+   MenuLocation   *Ship design → Areas curve
+   Workbenches   *[Ship](Ship_Workbench/fr.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Ship AreasCurve/fr
@@ -14,7 +14,7 @@
 
 Trace la courbe des aires transversales.
 
-<img alt="" src=images/FreeCAD-Ship-s60Areas.png  style="width:800px;"> 
+<img alt="" src=images/FreeCAD-Ship-s60Areas.png  style="width   *800px;"> 
 *Conception d'un projet de courbe des surfaces transversales*
 
 La courbe des surfaces transversales offre des informations très précieuses lors des premières étapes de la conception d\'un navire, car elle donne une idée de la forme et de la répartition du volume du navire.
@@ -37,6 +37,14 @@ Lorsque vous appuyez sur le bouton **Accept**, le calcul commence. Il se peut qu
 
 -   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
 -   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
+
+
+
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

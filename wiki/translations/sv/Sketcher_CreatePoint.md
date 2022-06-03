@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/sv
 ---
-- GuiCommand:/sv   Name:Sketcher CreatePoint   Name/sv:Sketcher Point   Workbenches:[[Sketcher Workbench/sv   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create point---
+- GuiCommand   */sv   Name   *Sketcher CreatePoint   Name/sv   *Sketcher Point   Workbenches   *[[Sketcher Workbench/sv   Sketcher]]|MenuLocation   *Sketch → Sketcher geometries → Create point---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 The Point tool creates a point in the current sketch, which can be used for constructing geometry elements.
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
+[480px\|Point in the sketcher](IMAGE   *Sketcher_Point_fr_01.png.md)
 
 ## Usage
 
@@ -19,7 +19,7 @@ The Point tool creates a point in the current sketch, which can be used for cons
 
 ## Options
 
--   By default points are created as construction geometry and therefore are not visible outside of Sketch editing mode. Use the <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> [Toggle Construction](Sketcher_ToggleConstruction.md) tool to change them to normal geometry. <small>(v0.19)</small> 
+-   By default points are created as construction geometry and therefore are not visible outside of Sketch editing mode. Use the <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width   *16px;"> [Toggle Construction](Sketcher_ToggleConstruction.md) tool to change them to normal geometry. <small>(v0.19)</small> 
 -   A mode to snap to the grid can be set in the [Sketcher Preferences](Sketcher_Preferences.md). The point then snaps to the grid, if it has less than 25% grid distance to a grid line. The snap mode does not fix the point to the grid. It still has two degrees of freedom and can be moved with the mouse or constrained to other locations.
 
 

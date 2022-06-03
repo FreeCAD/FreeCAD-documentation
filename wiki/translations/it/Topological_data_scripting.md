@@ -29,7 +29,7 @@ Se avete bisogno di ulteriori informazioni su come funzionano gli script in Free
 
 ## Diagramma delle classi 
 
-Questa è una panoramica delle classi [Linguaggio di Modellazione Unificato (UML)](http://it.wikipedia.org/wiki/Unified_Modeling_Language) più importanti del modulo Parte:
+Questa è una panoramica delle classi [Linguaggio di Modellazione Unificato (UML)](http   *//it.wikipedia.org/wiki/Unified_Modeling_Language) più importanti del modulo Parte   *
 
 ![Python classes of the Part module](images/Part_Classes.jpg ) {{Top}}
 
@@ -38,7 +38,7 @@ Questa è una panoramica delle classi [Linguaggio di Modellazione Unificato (UML
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti geometrici sono le fondamenta per la costruzione di tutti gli oggetti topologici:
+Gli oggetti geometrici sono le fondamenta per la costruzione di tutti gli oggetti topologici   *
 
 -   **Geom** Classe base degli oggetti geometrici
 -   **Line** Linea retta in 3D, definita dal punto iniziale e dal punto finale
@@ -53,7 +53,7 @@ Gli oggetti geometrici sono le fondamenta per la costruzione di tutti gli oggett
 
 ### Topologia
 
-Sono disponibili i seguenti tipi di dati topologici:
+Sono disponibili i seguenti tipi di dati topologici   *
 
 -   **compound** Un gruppo di qualsiasi tipo di oggetto topologico.
 -   **compsolid** Un solido composito è un insieme di solidi collegati dalle loro facce. E\' una estensione dei concetti *wire* e *shell* ai solidi.
@@ -68,7 +68,7 @@ Sono disponibili i seguenti tipi di dati topologici:
 
 {{Top}}
 
-## Esempio: Creare una semplice topologia 
+## Esempio   * Creare una semplice topologia 
 
 =
 
@@ -95,16 +95,16 @@ Per prima cosa dobbiamo creare le singole parti geometriche di questo contorno (
 
 </div>
 
-Quindi creiamo prima i punti:
+Quindi creiamo prima i punti   *
 
 
 ```python
+import FreeCAD as App
 import Part
-from FreeCAD import Base
-V1 = Base.Vector(0, 10, 0)
-V2 = Base.Vector(30, 10, 0)
-V3 = Base.Vector(30, -10, 0)
-V4 = Base.Vector(0, -10, 0)
+V1 = App.Vector(0, 10, 0)
+V2 = App.Vector(30, 10, 0)
+V3 = App.Vector(30, -10, 0)
+V4 = App.Vector(0, -10, 0)
 ```
 
 
@@ -114,13 +114,13 @@ V4 = Base.Vector(0, -10, 0)
 
 ![Circle](images/Circel.png )
 
-Per creare un arco di cerchio prima creiamo un punto di supporto poi creiamo l\'arco di cerchio tramite tre punti:
+Per creare un arco di cerchio prima creiamo un punto di supporto poi creiamo l\'arco di cerchio tramite tre punti   *
 
 
 ```python
-VC1 = Base.Vector(-10, 0, 0)
+VC1 = App.Vector(-10, 0, 0)
 C1 = Part.Arc(V1, VC1, V4)
-VC2 = Base.Vector(40, 0, 0)
+VC2 = App.Vector(40, 0, 0)
 C2 = Part.Arc(V2, VC2, V3)
 ```
 
@@ -131,7 +131,7 @@ C2 = Part.Arc(V2, VC2, V3)
 
 ![Line](images/Line.png )
 
-La linea (segmento) può essere creata molto semplicemente tramite due punti:
+La linea (segmento) può essere creata molto semplicemente tramite due punti   *
 
 
 ```python
@@ -147,7 +147,7 @@ L2 = Part.LineSegment(V3, V4)
 
 <div class="mw-translate-fuzzy">
 
-L\'ultimo passaggio consiste nell\'unire tutti gli elementi geometrici di base e produrre una forma topologica:
+L\'ultimo passaggio consiste nell\'unire tutti gli elementi geometrici di base e produrre una forma topologica   *
 
 
 </div>
@@ -165,17 +165,17 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 #### Creare un prisma 
 
-Ora si può estrudere il contorno nella direzione voluta e creare una forma 3D reale:
+Ora si può estrudere il contorno nella direzione voluta e creare una forma 3D reale   *
 
 
 </div>
 
-Ora si può estrudere il contorno nella direzione voluta e creare una forma 3D reale:
+Ora si può estrudere il contorno nella direzione voluta e creare una forma 3D reale   *
 
 
 ```python
 W = Part.Wire(S1.Edges)
-P = W.extrude(Base.Vector(0, 0, 10))
+P = W.extrude(App.Vector(0, 0, 10))
 ```
 
 
@@ -196,7 +196,7 @@ Part.show(P)
 
 <div class="mw-translate-fuzzy">
 
-Con i metodi \"make\...()\" del Modulo Parte è possibile creare facilmente oggetti topologici di base (chiamati anche forme primitive). Ad esempio, si può creare un cubo con:
+Con i metodi \"make\...()\" del Modulo Parte è possibile creare facilmente oggetti topologici di base (chiamati anche forme primitive). Ad esempio, si può creare un cubo con   *
 
 
 </div>
@@ -210,7 +210,7 @@ Part.show(b)
 
 <div class="mw-translate-fuzzy">
 
-Altri metodi make\...() disponibili sono:
+Altri metodi make\...() disponibili sono   *
 
 -   makeBox(l,w,h) \-- Produce un box situato in p e rivolto nella direzione d con le dimensioni (l,w,h)
 -   makeCircle(raggio) \-- Crea un cerchio con un raggio dato
@@ -232,12 +232,12 @@ Per avere un elenco completo dei metodi disponibili con il modulo Parte consulta
 
 ### Importare i moduli necessari 
 
-First we need to import the Part module so we can use its contents in Python. We\'ll also import the Base module from inside the FreeCAD module:
+First we need to import the FreeCAD and Part modules so we can use their contents in Python   *
 
 
 ```python
+import FreeCAD as App
 import Part
-from FreeCAD import Base
 ```
 
 
@@ -248,20 +248,20 @@ from FreeCAD import Base
 
 <div class="mw-translate-fuzzy">
 
-Per la costruzione di forme, i [Vettori](http://en.wikipedia.org/wiki/Euclidean_vector) sono una delle parti di informazione più importanti. Di solito, ma non necessariamente sempre, essi contengono 3 numeri che sono le coordinate cartesiane x, y e z. È possibile creare un vettore nel modo seguente:
+Per la costruzione di forme, i [Vettori](http   *//en.wikipedia.org/wiki/Euclidean_vector) sono una delle parti di informazione più importanti. Di solito, ma non necessariamente sempre, essi contengono 3 numeri che sono le coordinate cartesiane x, y e z. È possibile creare un vettore nel modo seguente   *
 
 
 </div>
 
 
 ```python
-myVector = Base.Vector(3, 2, 0)
+myVector = App.Vector(3, 2, 0)
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Abbiamo appena creato un vettore nelle coordinate X=3, Y=2, Z=0. Nel modulo Parte, i vettori sono usati in tutte le parti. Le forme Parte usano anche un altro tipo di rappresentazione del punto, chiamato Vertex (Vertice), che in realtà non è altro che un contenitore per un vettore. Si accede al vettore di un vertice in questo modo:
+Abbiamo appena creato un vettore nelle coordinate X=3, Y=2, Z=0. Nel modulo Parte, i vettori sono usati in tutte le parti. Le forme Parte usano anche un altro tipo di rappresentazione del punto, chiamato Vertex (Vertice), che in realtà non è altro che un contenitore per un vettore. Si accede al vettore di un vertice in questo modo   *
 
 
 </div>
@@ -278,7 +278,7 @@ print(myVertex.Point)
 
 #### Creare un bordo 
 
-Un bordo non è altro che una linea con due vertici:
+Un bordo non è altro che una linea con due vertici   *
 
 
 ```python
@@ -287,17 +287,17 @@ edge.Vertexes
 > [<Vertex object at 01877430>, <Vertex object at 014888E0>]
 ```
 
-Nota: È anche possibile creare un bordo passando due vettori:
+Nota   * È anche possibile creare un bordo passando due vettori   *
 
 
 ```python
-vec1 = Base.Vector(0, 0, 0)
-vec2 = Base.Vector(10, 0, 0)
+vec1 = App.Vector(0, 0, 0)
+vec2 = App.Vector(10, 0, 0)
 line = Part.LineSegment(vec1, vec2)
 edge = line.toShape()
 ```
 
-È possibile trovare la lunghezza e il centro di un bordo in questo modo:
+È possibile trovare la lunghezza e il centro di un bordo in questo modo   *
 
 
 ```python
@@ -315,7 +315,7 @@ edge.CenterOfMass
 
 <div class="mw-translate-fuzzy">
 
-Con le operazioni precedenti abbiamo creato un oggetto bordo, ma esso non è visibile da nessuna parte sullo schermo. Questo perché la scena 3D di FreeCAD mostra solo quello che gli si chiede di visualizzare. Per farlo, usiamo questo semplice metodo:
+Con le operazioni precedenti abbiamo creato un oggetto bordo, ma esso non è visibile da nessuna parte sullo schermo. Questo perché la scena 3D di FreeCAD mostra solo quello che gli si chiede di visualizzare. Per farlo, usiamo questo semplice metodo   *
 
 
 </div>
@@ -341,7 +341,7 @@ La funzione show crea un oggetto nel nostro documento FreeCAD e gli assegna la f
 
 <div class="mw-translate-fuzzy">
 
-Un contorno è una polilinea e può essere creato da una serie di bordi o anche da una serie di contorni:
+Un contorno è una polilinea e può essere creato da una serie di bordi o anche da una serie di contorni   *
 
 
 </div>
@@ -366,7 +366,7 @@ Part.show(wire3)
 
 `Part.show(wire3)`
 
-serve per visualizzare i 4 bordi che compongono il nostro contorno. Si possono facilmente recuperare altre informazioni utili con:
+serve per visualizzare i 4 bordi che compongono il nostro contorno. Si possono facilmente recuperare altre informazioni utili con   *
 
 
 </div>
@@ -416,28 +416,28 @@ Solamente le facce hanno un\'area, non i contorni né i bordi. {{Top}}
 
 ### Creare una circonferenza 
 
-Un cerchio può essere creato in questo semplice modo:
+Un cerchio può essere creato in questo semplice modo   *
 
 
 ```python
 circle = Part.makeCircle(10)
 circle.Curve
-> Circle (Radius : 10, Position : (0, 0, 0), Direction : (0, 0, 1))
+> Circle (Radius    * 10, Position    * (0, 0, 0), Direction    * (0, 0, 1))
 ```
 
-Se si vuole crearlo in una determinata posizione e con una direzione prestabilita:
+Se si vuole crearlo in una determinata posizione e con una direzione prestabilita   *
 
 
 ```python
-ccircle = Part.makeCircle(10, Base.Vector(10, 0, 0), Base.Vector(1, 0, 0))
+ccircle = Part.makeCircle(10, App.Vector(10, 0, 0), App.Vector(1, 0, 0))
 ccircle.Curve
-> Circle (Radius : 10, Position : (10, 0, 0), Direction : (1, 0, 0))
+> Circle (Radius    * 10, Position    * (10, 0, 0), Direction    * (1, 0, 0))
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-ccircle verrà creato a distanza 10 dall\'origine di X e sarà rivolto verso l\'asse X. Nota: `makeCircle()` accetta solo `Base.Vector()` per la posizione e le normali, ma non tuple. È inoltre possibile creare una parte di cerchio fornendo un angolo iniziale e un angolo finale come:
+ccircle verrà creato a distanza 10 dall\'origine di X e sarà rivolto verso l\'asse X. Nota   * `makeCircle()` accetta solo `Base.Vector()` per la posizione e le normali, ma non tuple. È inoltre possibile creare una parte di cerchio fornendo un angolo iniziale e un angolo finale come   *
 
 
 </div>
@@ -445,11 +445,11 @@ ccircle verrà creato a distanza 10 dall\'origine di X e sarà rivolto verso l\'
 
 ```python
 from math import pi
-arc1 = Part.makeCircle(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 0, 180)
-arc2 = Part.makeCircle(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 180, 360)
+arc1 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 180)
+arc2 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180, 360)
 ```
 
-Unendo arc1 con arc2 (sono due semicerchi) si ottiene un cerchio completo. Gli angoli devono essere forniti in gradi; se avete angoli in radianti convertirli usando semplicemente la formula: `gradi <nowiki>=</nowiki> radianti * 180/pi` o utilizzando il modulo matematico `math` di Python:
+Unendo arc1 con arc2 (sono due semicerchi) si ottiene un cerchio completo. Gli angoli devono essere forniti in gradi; se avete angoli in radianti convertirli usando semplicemente la formula   * `gradi <nowiki>=</nowiki> radianti * 180/pi` o utilizzando il modulo matematico `math` di Python   *
 
 
 ```python
@@ -472,7 +472,7 @@ Purtroppo, per creare un arco lungo tre punti non esiste una funzione makeArc ma
 
 
 ```python
-arc = Part.Arc(Base.Vector(0, 0, 0), Base.Vector(0, 5, 0), Base.Vector(5, 5, 0))
+arc = Part.Arc(App.Vector(0, 0, 0), App.Vector(0, 5, 0), App.Vector(5, 5, 0))
 arc
 > <Arc object>
 arc_edge = arc.toShape()
@@ -485,7 +485,7 @@ Part.show(arc_edge)
 
 `Arc()`
 
-accetta solo punti `Base.Vector()` , ma non tuple. Inoltre è possibile ottenere un arco utilizzando una porzione di un cerchio:
+accetta solo punti `Base.Vector()` , ma non tuple. Inoltre è possibile ottenere un arco utilizzando una porzione di un cerchio   *
 
 
 </div>
@@ -493,7 +493,7 @@ accetta solo punti `Base.Vector()` , ma non tuple. Inoltre è possibile ottenere
 
 ```python
 from math import pi
-circle = Part.Circle(Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 10)
+circle = Part.Circle(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 10)
 arc = Part.Arc(circle,0,pi)
 ```
 
@@ -501,23 +501,41 @@ Gli archi sono bordi validi, come le linee, quindi possono essere usati anche ne
 
 ### Creare un poligono 
 
-Un poligono è semplicemente un contorno composto da diversi bordi diritti. La funzione makePolygon prende una lista di punti e crea un contorno attraverso questi punti:
+
+<div class="mw-translate-fuzzy">
+
+Un poligono è semplicemente un contorno composto da diversi bordi diritti. La funzione makePolygon prende una lista di punti e crea un contorno attraverso questi punti   *
+
+
+</div>
 
 
 ```python
-lshape_wire = Part.makePolygon([Base.Vector(0, 5, 0), Base.Vector(0, 0, 0), Base.Vector(5, 0, 0)])
+lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Vector(5, 0, 0)])
 ```
 
 
 {{Top}}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Creare una curva di Bézier 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Le curve di Bézier sono utilizzate per modellare delle curve *morbide* utilizzando una serie di Poles (punti) e weight (pesi) opzionali. La funzione sottostante crea una Part.BezierCurve da una serie di punti FreeCAD.Vector. (Notare che gli indici di pole e di weight partono da 1, non da 0.)
 
 
+</div>
+
+
 ```python
-def makeBCurveEdge(Points):
+def makeBCurveEdge(Points)   *
    geomCurve = Part.BezierCurve()
    geomCurve.setPoles(Points)
    edge = Part.Edge(geomCurve)
@@ -532,7 +550,7 @@ def makeBCurveEdge(Points):
 
 <div class="mw-translate-fuzzy">
 
-Un Piano è semplicemente una superficie piana rettangolare. Il metodo utilizzato per crearlo è questo: **makePlane(lunghezza, larghezza, \[start\_pnt, dir\_normal\])**. Per impostazione predefinita start\_pnt=Vector (0,0,0) e dir\_normal=Vector(0,0,1). Utilizzando dir\_normal=Vector(0,0,1) creeremo il piano orientato come l\'asse z positivo, mentre con dir\_normal=Vector(1,0,0) creeremo il piano orientato come l\'asse x positivo:
+Un Piano è semplicemente una superficie piana rettangolare. Il metodo utilizzato per crearlo è questo   * **makePlane(lunghezza, larghezza, \[start\_pnt, dir\_normal\])**. Per impostazione predefinita start\_pnt=Vector (0,0,0) e dir\_normal=Vector(0,0,1). Utilizzando dir\_normal=Vector(0,0,1) creeremo il piano orientato come l\'asse z positivo, mentre con dir\_normal=Vector(1,0,0) creeremo il piano orientato come l\'asse x positivo   *
 
 
 </div>
@@ -542,7 +560,7 @@ Un Piano è semplicemente una superficie piana rettangolare. Il metodo utilizzat
 plane = Part.makePlane(2, 2)
 plane
 > <Face object at 028AF990>
-plane = Part.makePlane(2, 2, Base.Vector(3, 0, 0), Base.Vector(0, 1, 0))
+plane = Part.makePlane(2, 2, App.Vector(3, 0, 0), App.Vector(0, 1, 0))
 plane.BoundBox
 > BoundBox (3, 0, 0, 5, 0, 2)
 ```
@@ -558,11 +576,20 @@ plane.BoundBox
 
 </div>
 
-Nota: `makePlane()` accetta solo `Base.Vector()` per start\_pnt e dir\_normal e non tuple. {{Top}}
+
+<div class="mw-translate-fuzzy">
+
+Nota   * `makePlane()` accetta solo `Base.Vector()` per start\_pnt e dir\_normal e non tuple.
+
+
+</div>
+
+
+{{Top}}
 
 ### Creare una ellisse 
 
-Per creare un\'ellisse ci sono diversi modi:
+Per creare un\'ellisse ci sono diversi modi   *
 
 
 ```python
@@ -606,7 +633,7 @@ Crea un\'ellisse con il raggio maggiore e il raggio minore MajorRadius e MinorRa
 
 
 ```python
-eli = Part.Ellipse(Base.Vector(10, 0, 0), Base.Vector(0, 5, 0), Base.Vector(0, 0, 0))
+eli = Part.Ellipse(App.Vector(10, 0, 0), App.Vector(0, 5, 0), App.Vector(0, 0, 0))
 Part.show(eli.toShape())
 ```
 
@@ -618,11 +645,17 @@ Nel codice precedente abbiamo passato S1, S2 e il centro. Analogamente a Arco, E
 
 </div>
 
-Nota: `Ellipse()` accetta solo `Base.Vector()` per i punti, ma non le tuple.
+
+<div class="mw-translate-fuzzy">
+
+Nota   * `Ellipse()` accetta solo `Base.Vector()` per i punti, ma non le tuple.
+
+
+</div>
 
 
 ```python
-eli = Part.Ellipse(Base.Vector(0, 0, 0), 10, 5)
+eli = Part.Ellipse(App.Vector(0, 0, 0), 10, 5)
 Part.show(eli.toShape())
 ```
 
@@ -633,7 +666,7 @@ Per il costruttore Ellisse precedente abbiamo passato il centro, MajorRadius e M
 
 <div class="mw-translate-fuzzy">
 
-Utilizzando il metodo **makeTorus(radius1,radius2,\[pnt,dir,angle1,angle2,angle\])**. Per impostazione predefinita PNT=Vector(0,0,0), dir=Vector(0,0,1), angle1=0, angle2=360 e angolo=360. Si consideri un toro, come un cerchio piccolo che si muove lungo un cerchio grande. Radius1 è il raggio del cerchio grande, radius2 è il raggio del cerchio piccolo, pnt è il centro del toro e dir è la direzione normale. angle1 e angle2 sono angoli in radianti per il cerchio piccolo cerchio, l\'ultimo parametro angolo serve per realizzare una porzione del toro:
+Utilizzando il metodo **makeTorus(radius1,radius2,\[pnt,dir,angle1,angle2,angle\])**. Per impostazione predefinita PNT=Vector(0,0,0), dir=Vector(0,0,1), angle1=0, angle2=360 e angolo=360. Si consideri un toro, come un cerchio piccolo che si muove lungo un cerchio grande. Radius1 è il raggio del cerchio grande, radius2 è il raggio del cerchio piccolo, pnt è il centro del toro e dir è la direzione normale. angle1 e angle2 sono angoli in radianti per il cerchio piccolo cerchio, l\'ultimo parametro angolo serve per realizzare una porzione del toro   *
 
 
 </div>
@@ -653,14 +686,14 @@ Il codice precedente creerà un toro con diametro 20 (raggio 10) e spessore di 4
 
 
 ```python
-tor=Part.makeTorus(10, 5, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 0, 180)
+tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 180)
 ```
 
 Il codice sopra creerà una fetta del toro.
 
 
 ```python
-tor=Part.makeTorus(10, 5, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 0, 360, 180)
+tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 360, 180)
 ```
 
 
@@ -703,7 +736,7 @@ Using `makeSphere(radius, [pnt, dir, angle1, angle2, angle3])`. By default pnt =
 
 ```python
 sphere = Part.makeSphere(10)
-hemisphere = Part.makeSphere(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), -90, 90, 180)
+hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 90, 180)
 ```
 
 
@@ -719,11 +752,16 @@ Utilizzando **makeCylinder(radius,height,\[pnt,dir,angle\])**. Per impostazione 
 
 </div>
 
-Using `makeCylinder(radius, height, [pnt, dir, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360. 
+Using `makeCylinder(radius, height, [pnt, dir, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360.
+
+
 ```python
 cylinder = Part.makeCylinder(5, 20)
-partCylinder = Part.makeCylinder(5, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1), 180)
-```{{Top}}
+partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 180)
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -735,11 +773,16 @@ Utilizzando **makeCone(radius1,radius2,height,\[pnt,dir,angle\])**. Per impostaz
 
 </div>
 
-Using `makeCone(radius1, radius2, height, [pnt, dir, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360. 
+Using `makeCone(radius1, radius2, height, [pnt, dir, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360.
+
+
 ```python
 cone = Part.makeCone(10, 0, 20)
-semicone = Part.makeCone(10, 0, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1), 180)
-```{{Top}}
+semicone = Part.makeCone(10, 0, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 180)
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -766,15 +809,17 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 #### Traslare una forma 
 
-Traslare è l\'atto di spostare una forma da un luogo all\'altro. Qualsiasi forma (bordo, faccia, cubo, ecc ..) può essere traslata in questo modo:
+Traslare è l\'atto di spostare una forma da un luogo all\'altro. Qualsiasi forma (bordo, faccia, cubo, ecc ..) può essere traslata in questo modo   *
 
 
 </div>
 
-Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc\...) can be translated the same way: 
+Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc\...) can be translated the same way   *
+
+
 ```python
 myShape = Part.makeBox(2, 2, 2)
-myShape.translate(Base.Vector(2, 0, 0))
+myShape.translate(App.Vector(2, 0, 0))
 ```
 
 
@@ -793,37 +838,43 @@ Questo sposterà la forma \"myShape\" di 2 unità nella direzione dell\'asse x.
 
 #### Ruotare una forma 
 
-Per ruotare una forma, è necessario specificare il centro di rotazione, l\'asse e l\'angolo di rotazione:
+Per ruotare una forma, è necessario specificare il centro di rotazione, l\'asse e l\'angolo di rotazione   *
 
 
 </div>
 
-To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle: 
+To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle   *
+
+
 ```python
-myShape.rotate(Base.Vector(0, 0, 0),Base.Vector(0, 0, 1), 180)
-``` Il codice precedente ruota la forma di 180 gradi attorno all\'asse z. {{Top}}
+myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
+```
+
+Il codice precedente ruota la forma di 180 gradi attorno all\'asse z. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 #### Trasformazioni generiche, con matrici 
 
-Una matrice è un modo molto conveniente per memorizzare le trasformazioni nel mondo 3D. In una matrice singola, è possibile impostare valori di traslazione, rotazione e scala da applicare ad un oggetto. Ad esempio:
+Una matrice è un modo molto conveniente per memorizzare le trasformazioni nel mondo 3D. In una matrice singola, è possibile impostare valori di traslazione, rotazione e scala da applicare ad un oggetto. Ad esempio   *
 
 
 </div>
 
-A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example: 
+A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example   *
+
+
 ```python
-myMat = Base.Matrix()
-myMat.move(Base.Vector(2, 0, 0))
+myMat = App.Matrix()
+myMat.move(App.Vector(2, 0, 0))
 myMat.rotateZ(math.pi/2)
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Nota. Le matrici di FreeCAD lavorano in radianti. Inoltre, quasi tutte le operazioni di matrici che accettano un vettore possono anche accettare tre numeri, quindi le seguenti due linee fanno la stessa cosa:
+Nota. Le matrici di FreeCAD lavorano in radianti. Inoltre, quasi tutte le operazioni di matrici che accettano un vettore possono anche accettare tre numeri, quindi le seguenti due linee fanno la stessa cosa   *
 
 
 </div>
@@ -831,13 +882,13 @@ Nota. Le matrici di FreeCAD lavorano in radianti. Inoltre, quasi tutte le operaz
 
 ```python
 myMat.move(2, 0, 0)
-myMat.move(Base.Vector(2, 0, 0))
+myMat.move(App.Vector(2, 0, 0))
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Quando la matrice è impostata, possiamo applicarla alla nostra forma. FreeCAD fornisce due metodi per farlo: transformShape() e transformGeometry(). La differenza è che con il primo, si è sicuri che non si verifichino deformazioni (vedi \"scalare una forma\" più avanti). Quindi possiamo applicare la nostra trasformazione in questo modo:
+Quando la matrice è impostata, possiamo applicarla alla nostra forma. FreeCAD fornisce due metodi per farlo   * transformShape() e transformGeometry(). La differenza è che con il primo, si è sicuri che non si verifichino deformazioni (vedi \"scalare una forma\" più avanti). Quindi possiamo applicare la nostra trasformazione in questo modo   *
 
 
 </div>
@@ -847,27 +898,37 @@ Quando la matrice è impostata, possiamo applicarla alla nostra forma. FreeCAD f
 myShape.transformShape(myMat)
 ```
 
-oppure 
+oppure
+
+
 ```python
 myShape.transformGeometry(myMat)
-```{{Top}}
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 #### Scalare una forma 
 
-Scalare (ridimensionare) una forma è una delle operazioni più pericolose perché, a differenza della traslazione o della rotazione, il ridimensionamento non uniforme (con valori diversi per gli assi x, y, z) può modificare la struttura della forma. Ad esempio, la scalatura di un cerchio con un valore in orizzontale diverso da quello in verticale lo trasformerà in un ellisse, forma che matematicamente si comporta in modo molto diverso. Per il ridimensionamento, non possiamo usare transformShape, ma dobbiamo usare transformGeometry():
+Scalare (ridimensionare) una forma è una delle operazioni più pericolose perché, a differenza della traslazione o della rotazione, il ridimensionamento non uniforme (con valori diversi per gli assi x, y, z) può modificare la struttura della forma. Ad esempio, la scalatura di un cerchio con un valore in orizzontale diverso da quello in verticale lo trasformerà in un ellisse, forma che matematicamente si comporta in modo molto diverso. Per il ridimensionamento, non possiamo usare transformShape, ma dobbiamo usare transformGeometry()   *
 
 
 </div>
 
-Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the `transformShape()`, we must use `transformGeometry()`: 
+Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the `transformShape()`, we must use `transformGeometry()`   *
+
+
 ```python
-myMat = Base.Matrix()
+myMat = App.Matrix()
 myMat.scale(2, 1, 1)
 myShape=myShape.transformGeometry(myMat)
-```{{Top}}
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -882,66 +943,83 @@ myShape=myShape.transformGeometry(myMat)
 
 #### Sottrazione
 
-Nel gergo OCC/FreeCAD, la differenza (sottrazione) di una forma da un altra si chiama \"cut\" *taglia* e si esegue così:
+Nel gergo OCC/FreeCAD, la differenza (sottrazione) di una forma da un altra si chiama \"cut\" *taglia* e si esegue così   *
 
 
 </div>
 
-Subtracting a shape from another one is called \"cut\" in FreeCAD and is done like this: 
+Subtracting a shape from another one is called \"cut\" in FreeCAD and is done like this   *
+
+
 ```python
-cylinder = Part.makeCylinder(3, 10, Base.Vector(0, 0, 0), Base.Vector(1, 0, 0))
-sphere = Part.makeSphere(5, Base.Vector(5, 0, 0))
+cylinder = Part.makeCylinder(3, 10, App.Vector(0, 0, 0), App.Vector(1, 0, 0))
+sphere = Part.makeSphere(5, App.Vector(5, 0, 0))
 diff = cylinder.cut(sphere)
-```{{Top}}
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 #### Intersezione
 
-Allo stesso modo, l\'intersezione tra le due forme è chiamato \"common\" *intersezione* e viene eseguita in questo modo:
+Allo stesso modo, l\'intersezione tra le due forme è chiamato \"common\" *intersezione* e viene eseguita in questo modo   *
 
 
 </div>
 
-The same way, the intersection between two shapes is called \"common\" and is done this way: 
+The same way, the intersection between two shapes is called \"common\" and is done this way   *
+
+
 ```python
-cylinder1 = Part.makeCylinder(3, 10, Base.Vector(0, 0, 0), Base.Vector(1, 0, 0))
-cylinder2 = Part.makeCylinder(3, 10, Base.Vector(5, 0, -5), Base.Vector(0, 0, 1))
+cylinder1 = Part.makeCylinder(3, 10, App.Vector(0, 0, 0), App.Vector(1, 0, 0))
+cylinder2 = Part.makeCylinder(3, 10, App.Vector(5, 0, -5), App.Vector(0, 0, 1))
 common = cylinder1.common(cylinder2)
-```{{Top}}
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 #### Unione
 
-Unione è chiamata \"fuse\" *fusione* e funziona allo stesso modo:
+Unione è chiamata \"fuse\" *fusione* e funziona allo stesso modo   *
 
 
 </div>
 
-Union is called \"fuse\" and works the same way: 
+Union is called \"fuse\" and works the same way   *
+
+
 ```python
-cylinder1 = Part.makeCylinder(3, 10, Base.Vector(0, 0, 0), Base.Vector(1, 0, 0))
-cylinder2 = Part.makeCylinder(3, 10, Base.Vector(5, 0, -5), Base.Vector(0, 0, 1))
+cylinder1 = Part.makeCylinder(3, 10, App.Vector(0, 0, 0), App.Vector(1, 0, 0))
+cylinder2 = Part.makeCylinder(3, 10, App.Vector(5, 0, -5), App.Vector(0, 0, 1))
 fuse = cylinder1.fuse(cylinder2)
-```{{Top}}
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 #### Sezione
 
-Una sezione è l\'intersezione tra una forma solida e una forma piana. Restituisce una curva di intersezione, un composto con i bordi:
+Una sezione è l\'intersezione tra una forma solida e una forma piana. Restituisce una curva di intersezione, un composto con i bordi   *
 
 
 </div>
 
-A \"section\" is the intersection between a solid shape and a plane shape. It will return an intersection curve, a compound curve composed of edges. 
+A \"section\" is the intersection between a solid shape and a plane shape. It will return an intersection curve, a compound curve composed of edges.
+
+
 ```python
-cylinder1 = Part.makeCylinder(3, 10, Base.Vector(0, 0, 0), Base.Vector(1, 0, 0))
-cylinder2 = Part.makeCylinder(3, 10, Base.Vector(5, 0, -5), Base.Vector(0, 0, 1))
+cylinder1 = Part.makeCylinder(3, 10, App.Vector(0, 0, 0), App.Vector(1, 0, 0))
+cylinder2 = Part.makeCylinder(3, 10, App.Vector(5, 0, -5), App.Vector(0, 0, 1))
 section = cylinder1.section(cylinder2)
 section.Wires
 > []
@@ -949,28 +1027,33 @@ section.Edges
 > [<Edge object at 0D87CFE8>, <Edge object at 019564F8>, <Edge object at 0D998458>, 
  <Edge  object at 0D86DE18>, <Edge object at 0D9B8E80>, <Edge object at 012A3640>, 
  <Edge object at 0D8F4BB0>]
-```{{Top}}
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 #### Estrusione
 
-Estrusione è l\'atto di \"spingere\" una forma piatta in una certa direzione per produrre un corpo solido. Ad esempio, pensate di \"spingere\" un cerchio e di produrre un tubo:
+Estrusione è l\'atto di \"spingere\" una forma piatta in una certa direzione per produrre un corpo solido. Ad esempio, pensate di \"spingere\" un cerchio e di produrre un tubo   *
 
 
 </div>
 
-Extrusion is the act of \"pushing\" a flat shape in a certain direction, resulting in a solid body. Think of a circle becoming a tube by \"pushing it out\": 
+Extrusion is the act of \"pushing\" a flat shape in a certain direction, resulting in a solid body. Think of a circle becoming a tube by \"pushing it out\"   *
+
+
 ```python
 circle = Part.makeCircle(10)
-tube = circle.extrude(Base.Vector(0, 0, 2))
+tube = circle.extrude(App.Vector(0, 0, 2))
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Se il cerchio è vuoto (sola circonferenza), si ottiene un tubo (cavo). Se il cerchio è in realtà un disco, con una faccia piena, si ottiene un cilindro solido:
+Se il cerchio è vuoto (sola circonferenza), si ottiene un tubo (cavo). Se il cerchio è in realtà un disco, con una faccia piena, si ottiene un cilindro solido   *
 
 
 </div>
@@ -979,7 +1062,7 @@ Se il cerchio è vuoto (sola circonferenza), si ottiene un tubo (cavo). Se il ce
 ```python
 wire = Part.Wire(circle)
 disc = Part.Face(wire)
-cylinder = disc.extrude(Base.Vector(0, 0, 2))
+cylinder = disc.extrude(App.Vector(0, 0, 2))
 ```
 
 
@@ -990,12 +1073,14 @@ cylinder = disc.extrude(Base.Vector(0, 0, 2))
 
 ## Esplorare le forme 
 
-Si può facilmente esplorare la struttura dei dati topologici:
+Si può facilmente esplorare la struttura dei dati topologici   *
 
 
 </div>
 
-You can easily explore the topological data structure: 
+You can easily explore the topological data structure   *
+
+
 ```python
 import Part
 b = Part.makeBox(100, 100, 100)
@@ -1028,12 +1113,14 @@ Digitando le righe di cui sopra nell\'interprete Python, si otterrà una buona d
 
 ### Analizzare i bordi 
 
-Nel caso in cui il bordo è una curva arbitraria, è più probabile che si voglia fare una discretizzazione. In FreeCAD i bordi sono parametrizzati dalle loro lunghezze. Ciò significa che si può percorrere un bordo/curva con la sua lunghezza:
+Nel caso in cui il bordo è una curva arbitraria, è più probabile che si voglia fare una discretizzazione. In FreeCAD i bordi sono parametrizzati dalle loro lunghezze. Ciò significa che si può percorrere un bordo/curva con la sua lunghezza   *
 
 
 </div>
 
-In case of an edge, which is an arbitrary curve, it\'s most likely you want to do a discretization. In FreeCAD the edges are parametrized by their lengths. That means you can walk an edge/curve by its length: 
+In case of an edge, which is an arbitrary curve, it\'s most likely you want to do a discretization. In FreeCAD the edges are parametrized by their lengths. That means you can walk an edge/curve by its length   *
+
+
 ```python
 import Part
 box = Part.makeBox(100, 100, 100)
@@ -1070,12 +1157,14 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 ### Utilizzare la selezione 
 
-Qui ora vediamo come possiamo usare la selezione che l\'utente ha nel visualizzatore. Prima di tutto creiamo una scatola e la mostriamo nel visualizzatore:
+Qui ora vediamo come possiamo usare la selezione che l\'utente ha nel visualizzatore. Prima di tutto creiamo una scatola e la mostriamo nel visualizzatore   *
 
 
 </div>
 
-Here we see now how we can use a selection the user did in the viewer. First of all we create a box and show it in the viewer. 
+Here we see now how we can use a selection the user did in the viewer. First of all we create a box and show it in the viewer.
+
+
 ```python
 import Part
 Part.show(Part.makeBox(100, 100, 100))
@@ -1085,70 +1174,82 @@ Gui.SendMsgToActiveView("ViewFit")
 
 <div class="mw-translate-fuzzy">
 
-Selezionate ora alcune facce o bordi. Con questo script è possibile iterare sopra tutti gli oggetti selezionati e i relativi elementi secondari:
+Selezionate ora alcune facce o bordi. Con questo script è possibile iterare sopra tutti gli oggetti selezionati e i relativi elementi secondari   *
 
 
 </div>
 
 
 ```python
-for o in Gui.Selection.getSelectionEx():
+for o in Gui.Selection.getSelectionEx()   *
     print(o.ObjectName)
-    for s in o.SubElementNames:
-        print("name: ", s)
-        for s in o.SubObjects:
-            print("object: ", s)
+    for s in o.SubElementNames   *
+        print("name   * ", s)
+        for s in o.SubObjects   *
+            print("object   * ", s)
 ```
 
-Selezionate alcuni bordi e questo script calcolerà la lunghezza: 
+Selezionate alcuni bordi e questo script calcolerà la lunghezza   *
+
+
 ```python
 length = 0.0
-for o in Gui.Selection.getSelectionEx():
-    for s in o.SubObjects:
+for o in Gui.Selection.getSelectionEx()   *
+    for s in o.SubObjects   *
         length += s.Length
 
-print("Length of the selected edges: ", length)
-```{{Top}}
+print("Length of the selected edges   * ", length)
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
-## Esempio completo: La bottiglia OCC 
+## Esempio completo   * La bottiglia OCC 
 
-Un esempio tipico si trova nella pagina [OpenCasCade Technology Tutorial](http://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1) che spiega come costruire una bottiglia. Questo è un buon esercizio anche per FreeCAD. In effetti, se si segue il nostro esempio qui sotto e la pagina di OCC contemporaneamente, si capisce bene come sono implementate le strutture di OCC in FreeCAD. Lo script completo è anche incluso nell\'installazione di FreeCAD (all\'interno della cartella Mod/Part) e può essere chiamato dall\'interprete python digitando:
+Un esempio tipico si trova nella pagina [OpenCasCade Technology Tutorial](http   *//www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1) che spiega come costruire una bottiglia. Questo è un buon esercizio anche per FreeCAD. In effetti, se si segue il nostro esempio qui sotto e la pagina di OCC contemporaneamente, si capisce bene come sono implementate le strutture di OCC in FreeCAD. Lo script completo è anche incluso nell\'installazione di FreeCAD (all\'interno della cartella Mod/Part) e può essere chiamato dall\'interprete python digitando   *
 
 
 </div>
 
-A typical example found on the [OpenCasCade Technology website](https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) is how to build a bottle. This is a good exercise for FreeCAD too. In fact, if you follow our example below and the OCC page simultaneously, you will see how well OCC structures are implemented in FreeCAD. The script is included in the FreeCAD installation (inside the {{FileName|Mod/Part}} folder) and can be called from the Python interpreter by typing: 
+A typical example found on the [OpenCasCade Technology website](https   *//www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) is how to build a bottle. This is a good exercise for FreeCAD too. In fact, if you follow our example below and the OCC page simultaneously, you will see how well OCC structures are implemented in FreeCAD. The script is included in the FreeCAD installation (inside the **Mod/Part** folder) and can be called from the Python interpreter by typing   *
+
+
 ```python
 import Part
 import MakeBottle
 bottle = MakeBottle.makeBottle()
 Part.show(bottle)
-```{{Top}}
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 ### Lo script completo 
 
-Questo è lo script completo MakeBottle:
+Questo è lo script completo MakeBottle   *
 
 
 </div>
 
-For the purpose of this tutorial we will consider a reduced version of the script. In this version the bottle will not be hollowed out, and the neck of the bottle will not be threaded. 
-```python
-import Part, math
-from FreeCAD import Base
+For the purpose of this tutorial we will consider a reduced version of the script. In this version the bottle will not be hollowed out, and the neck of the bottle will not be threaded.
 
-def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
-    aPnt1=Base.Vector(-myWidth / 2., 0, 0)
-    aPnt2=Base.Vector(-myWidth / 2., -myThickness / 4., 0)
-    aPnt3=Base.Vector(0, -myThickness / 2., 0)
-    aPnt4=Base.Vector(myWidth / 2., -myThickness / 4., 0)
-    aPnt5=Base.Vector(myWidth / 2., 0, 0)
+
+```python
+import FreeCAD as App
+import Part, math
+
+def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
+    aPnt1=App.Vector(-myWidth / 2., 0, 0)
+    aPnt2=App.Vector(-myWidth / 2., -myThickness / 4., 0)
+    aPnt3=App.Vector(0, -myThickness / 2., 0)
+    aPnt4=App.Vector(myWidth / 2., -myThickness / 4., 0)
+    aPnt5=App.Vector(myWidth / 2., 0, 0)
 
     aArcOfCircle = Part.Arc(aPnt2, aPnt3, aPnt4)
     aSegment1=Part.LineSegment(aPnt1, aPnt2)
@@ -1159,7 +1260,7 @@ def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aEdge3=aSegment2.toShape()
     aWire=Part.Wire([aEdge1, aEdge2, aEdge3])
 
-    aTrsf=Base.Matrix()
+    aTrsf=App.Matrix()
     aTrsf.rotateZ(math.pi) # rotate around the z-axis
 
     aMirroredWire=aWire.copy()
@@ -1167,13 +1268,13 @@ def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     myWireProfile=Part.Wire([aWire, aMirroredWire])
 
     myFaceProfile=Part.Face(myWireProfile)
-    aPrismVec=Base.Vector(0, 0, myHeight)
+    aPrismVec=App.Vector(0, 0, myHeight)
     myBody=myFaceProfile.extrude(aPrismVec)
 
     myBody=myBody.makeFillet(myThickness / 12.0, myBody.Edges)
 
-    neckLocation=Base.Vector(0, 0, myHeight)
-    neckNormal=Base.Vector(0, 0, 1)
+    neckLocation=App.Vector(0, 0, myHeight)
+    neckNormal=App.Vector(0, 0, 1)
 
     myNeckRadius = myThickness / 4.
     myNeckHeight = myHeight / 10.
@@ -1184,7 +1285,10 @@ def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
 
 el = makeBottleTut()
 Part.show(el)
-```{{Top}}
+```
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -1196,8 +1300,8 @@ Part.show(el)
 
 
 ```python
+import FreeCAD as App
 import Part, math
-from FreeCAD import Base
 ```
 
 
@@ -1210,12 +1314,12 @@ Avremo bisogno, naturalmente, del modulo Parte, ma anche del modulo FreeCAD.Base
 
 
 ```python
-def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
-    aPnt1=Base.Vector(-myWidth / 2., 0, 0)
-    aPnt2=Base.Vector(-myWidth / 2., -myThickness / 4., 0)
-    aPnt3=Base.Vector(0, -myThickness / 2., 0)
-    aPnt4=Base.Vector(myWidth / 2., -myThickness / 4., 0)
-    aPnt5=Base.Vector(myWidth / 2., 0, 0)
+def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
+    aPnt1=App.Vector(-myWidth / 2., 0, 0)
+    aPnt2=App.Vector(-myWidth / 2., -myThickness / 4., 0)
+    aPnt3=App.Vector(0, -myThickness / 2., 0)
+    aPnt4=App.Vector(myWidth / 2., -myThickness / 4., 0)
+    aPnt5=App.Vector(myWidth / 2., 0, 0)
 ```
 
 
@@ -1237,7 +1341,7 @@ Qui definiamo la nostra funzione makeBottle. Questa funzione può essere chiamat
 
 <div class="mw-translate-fuzzy">
 
-Qui definiamo la geometria effettiva: un arco, creato da tre punti, e due segmenti di linea, creati da due punti.
+Qui definiamo la geometria effettiva   * un arco, creato da tre punti, e due segmenti di linea, creati da due punti.
 
 
 </div>
@@ -1262,7 +1366,7 @@ Ricordate la differenza tra geometria e forme? Qui costruiremo forme partendo da
 
 ```python
     ...
-    aTrsf=Base.Matrix()
+    aTrsf=App.Matrix()
     aTrsf.rotateZ(math.pi) # rotate around the z-axis
 
     aMirroredWire=aWire.copy()
@@ -1282,7 +1386,7 @@ Prima abbiamo costruito solo metà profilo. È più facile che costruire tutto l
 ```python
     ...
     myFaceProfile=Part.Face(myWireProfile)
-    aPrismVec=Base.Vector(0, 0, myHeight)
+    aPrismVec=App.Vector(0, 0, myHeight)
     myBody=myFaceProfile.extrude(aPrismVec)
 
     myBody=myBody.makeFillet(myThickness / 12.0, myBody.Edges)
@@ -1299,8 +1403,8 @@ Ora che abbiamo un contorno chiuso, esso può essere trasformato in una faccia. 
 
 ```python
     ...
-    neckLocation=Base.Vector(0, 0, myHeight)
-    neckNormal=Base.Vector(0, 0, 1)
+    neckLocation=App.Vector(0, 0, myHeight)
+    neckNormal=App.Vector(0, 0, 1)
 
     myNeckRadius = myThickness / 4.
     myNeckHeight = myHeight / 10.
@@ -1335,11 +1439,15 @@ L\'operazione di fusione, che in altre applicazioni a volte è chiamata unione, 
     return myBody
 ```
 
-Poi, otteniamo il nostro solido Parte come risultato della nostra funzione. 
+Poi, otteniamo il nostro solido Parte come risultato della nostra funzione.
+
+
 ```python
 el = makeBottleTut()
 Part.show(el)
-``` Infine, chiamiamo la funzione per creare effettivamente la parte, e quindi renderla visibile. {{Top}}
+```
+
+Infine, chiamiamo la funzione per creare effettivamente la parte, e quindi renderla visibile. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -1363,8 +1471,8 @@ La costruzione è fatta lato per lato e quando il cubo è finito, viene scavato 
 
 
 ```python
+import FreeCAD as App
 import Part, math
-from FreeCAD import Base
 
 size = 10
 poly = Part.makePolygon([(0, 0, 0), (size, 0, 0), (size, 0, size), (0, 0, size), (0, 0, 0)])
@@ -1376,33 +1484,33 @@ face4 = Part.Face(poly)
 face5 = Part.Face(poly)
 face6 = Part.Face(poly)
      
-myMat = Base.Matrix()
+myMat = App.Matrix()
 
 myMat.rotateZ(math.pi / 2)
 face2.transformShape(myMat)
-face2.translate(Base.Vector(size, 0, 0))
+face2.translate(App.Vector(size, 0, 0))
 
 myMat.rotateZ(math.pi / 2)
 face3.transformShape(myMat)
-face3.translate(Base.Vector(size, size, 0))
+face3.translate(App.Vector(size, size, 0))
 
 myMat.rotateZ(math.pi / 2)
 face4.transformShape(myMat)
-face4.translate(Base.Vector(0, size, 0))
+face4.translate(App.Vector(0, size, 0))
 
-myMat = Base.Matrix()
+myMat = App.Matrix()
 
 myMat.rotateX(-math.pi / 2)
 face5.transformShape(myMat)
 
 face6.transformShape(myMat)               
-face6.translate(Base.Vector(0, 0, size))
+face6.translate(App.Vector(0, 0, size))
 
 myShell = Part.makeShell([face1, face2, face3, face4, face5, face6])   
 mySolid = Part.makeSolid(myShell)
 
 myCyl = Part.makeCylinder(2, 20)
-myCyl.translate(Base.Vector(size / 2, size / 2, 0))
+myCyl.translate(App.Vector(size / 2, size / 2, 0))
 
 cut_part = mySolid.cut(myCyl)
 
@@ -1427,7 +1535,7 @@ There are several ways to save your work. You can of course save your FreeCAD do
 
 <div class="mw-translate-fuzzy">
 
-Salvare una forma in un file è facile. Per tutti gli oggetti di forma sono disponibili i metodi exportBrep(), exportIges(), exportStl() e exportStep(). Così, facendo:
+Salvare una forma in un file è facile. Per tutti gli oggetti di forma sono disponibili i metodi exportBrep(), exportIges(), exportStl() e exportStep(). Così, facendo   *
 
 
 </div>
@@ -1442,7 +1550,7 @@ s.exportStep("test.stp")
 
 <div class="mw-translate-fuzzy">
 
-salviamo il nostro box in un file STEP. Per caricare un file BREP, IGES o STEP basta fare:
+salviamo il nostro box in un file STEP. Per caricare un file BREP, IGES o STEP basta fare   *
 
 
 </div>
@@ -1457,7 +1565,7 @@ s.read("test.stp")
 
 <div class="mw-translate-fuzzy">
 
-Per convertire un file **.stp** in un file **.igs** fare:
+Per convertire un file **.stp** in un file **.igs** fare   *
 
 
 </div>
@@ -1481,6 +1589,11 @@ Per convertire un file **.stp** in un file **.igs** fare:
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

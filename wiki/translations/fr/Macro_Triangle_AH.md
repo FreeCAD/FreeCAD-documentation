@@ -7,7 +7,7 @@
 |Version=00.03
 |Date=2019/07/02
 |FCVersion=Toutes
-|Download=[https://www.freecadweb.org/wiki/images/4/41/Macro_Triangle_AH.png ToolBar icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/4/41/Macro_Triangle_AH.png ToolBar icon]
 }}
 
 ## Description
@@ -30,11 +30,11 @@ __title__   = "triangleAH"
 __author__  = "Mario52"
 __version__ = "00.03"
 __date__    = "2019/07/02"
-# Give angle and on choice : height or base or hypo
+# Give angle and on choice    * height or base or hypo
 from math import cos, sin, tan, degrees, radians, sqrt
 import Draft, Part
-def triangleAH(angle, height=0.0, base=0.0, hypo=0.0):
-    def line_length(x1 = 0.0, y1 = 0.0, z1 = 0.0, length = 10.0, angle2 = 0.0):  # search coordinates
+def triangleAH(angle, height=0.0, base=0.0, hypo=0.0)   *
+    def line_length(x1 = 0.0, y1 = 0.0, z1 = 0.0, length = 10.0, angle2 = 0.0)   *  # search coordinates
         x2 = x1 + (length * cos(radians(angle2)))
         y2 = y1 + (length * sin(radians(angle2)))
         z2 = z1 #+ ()
@@ -44,13 +44,13 @@ def triangleAH(angle, height=0.0, base=0.0, hypo=0.0):
     angle = float(angle)
     height = float(height)
     base = float(base)
-    if base != 0:
+    if base != 0   *
         height = ( (base/2) / (tan(radians(angle/2))) )                          # imposing base and calculate height
-    if hypo != 0:
+    if hypo != 0   *
         height = hypo * (cos(radians(angle/2)))                                  # imposing hypo and calculate height 
-    else:
+    else   *
         hypo = height / cos(radians(angle/2))                                    # calculate hypotenuse
-    if base==0:                                                                  # base of triangle
+    if base==0   *                                                                  # base of triangle
         base = (tan(radians(angle/2) ) * height) * 2                             # calculate base
     a0 = line_length(x1=x0,y1=y0,z1=z0,length=height,angle2=0 )                  # coord height of triangle
     a0 = line_length(x1=x0,y1=y0,z1=z0,length=0, angle2 = angle )                # point 0 (begin vertex)
@@ -58,12 +58,12 @@ def triangleAH(angle, height=0.0, base=0.0, hypo=0.0):
     b  = line_length(a[0],a[1],a[2],length= (abs(a[1])*2), angle2=90.0)          # base of triangle = (abs(a[1])*2)
     ##
     print()
-    print("angle theet : ", angle)
-    print("angles base : (", (180.0-angle)/2.0,"),(",(180-angle)/2.0,")")
-    print("height      : ", height)
-    print("base        : ", base)
-    print("hypotenuse  : ", hypo)
-    print("surface     : ", (base * height) / 2.0)
+    print("angle theet    * ", angle)
+    print("angles base    * (", (180.0-angle)/2.0,"),(",(180-angle)/2.0,")")
+    print("height         * ", height)
+    print("base           * ", base)
+    print("hypotenuse     * ", hypo)
+    print("surface        * ", (base * height) / 2.0)
     print("_________________________")
     Draft.makeWire([FreeCAD.Vector(a0),FreeCAD.Vector(a),FreeCAD.Vector(b)],closed=True,face=True,support=None) # create triangle
     App.ActiveDocument.recompute()
@@ -93,9 +93,9 @@ triangleAH(90, base=10)
 
 ver 00.03 2019/07/02 ajout \"App.ActiveDocument.recompute()\" et convert Py3
 
-ver 00.02 03/05/2015 : ajout \"base=0.0\", \"hypo=0.0\" affichage des données du triangle
+ver 00.02 03/05/2015    * ajout \"base=0.0\", \"hypo=0.0\" affichage des données du triangle
 
-ver 00.01 20/03/2015 :
+ver 00.01 20/03/2015    *
 
 
 

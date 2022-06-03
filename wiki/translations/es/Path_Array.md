@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Path Array
-   Name/es:Trayecoria Arreglo
-   MenuLocation:Trayecoria → Trayecoria Modificación → Arreglo
-   Workbenches:[Trayecoria](Path_Workbench/es.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */es
+   Name   *Path Array
+   Name/es   *Trayecoria Arreglo
+   MenuLocation   *Trayecoria → Trayecoria Modificación → Arreglo
+   Workbenches   *[Trayecoria](Path_Workbench/es.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Path Array/es
@@ -26,11 +26,11 @@ This tool creates a new path by duplicating another path several times at a cert
 
 ## Propiedades
 
--    **Type**: The type array (polar, linear one ore two directions)
+-    **Type**   * The type array (polar, linear one ore two directions)
 
--    **Offset**: The spacing between the array copies for each direction
+-    **Offset**   * The spacing between the array copies for each direction
 
--    **Copies**: The number of copies (not counting the original) for each direction
+-    **Copies**   * The number of copies (not counting the original) for each direction
 
 ## Limitaciones
 
@@ -39,11 +39,11 @@ This feature only works on actual path operations, not on derivative paths produ
 ## Guión
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

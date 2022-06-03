@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Draft Angle
-   Name/de:Draft Angle
-   MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Winkel
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
+- GuiCommand   */de
+   Name   *Draft Angle
+   Name/de   *Draft Angle
+   MenuLocation   *Entwurf → [Objektfang](Draft_Snap/de.md) → Winkel
+   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso   *[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Angle/de

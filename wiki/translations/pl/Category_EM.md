@@ -1,6 +1,8 @@
 # Category:EM/pl
 Ta kategoria zawiera listę stron związanych ze środowiskiem pracy [Elektromagnetyka](EM_Workbench/pl.md) które jest jednym ze [środowisk zewnętrznych](External_workbenches/pl.md).
 
+[Category   *External\_Workbenches](Category_External_Workbenches.md)
+
 ### Contents
 
 |     |     |     |

@@ -7,12 +7,12 @@
 
 </div>
 
-<img alt="L\'icona di Start" src=images/Workbench_Start.svg  style="width:128px;">
+<img alt="L\'icona di Start" src=images/Workbench_Start.svg  style="width   *128px;">
 
 
 <div class="mw-translate-fuzzy">
 
-L\'ambiente <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> Start non è propriamente un ambiente, è solo la pagina che viene presentata quando si apre FreeCAD senza nessun documento caricato.
+L\'ambiente <img alt="" src=images/Workbench_Start.svg  style="width   *24px;"> Start non è propriamente un ambiente, è solo la pagina che viene presentata quando si apre FreeCAD senza nessun documento caricato.
 
 
 </div>
@@ -25,11 +25,11 @@ Da questa interfaccia è possibile visualizzare informazioni utili e passare ai 
 
 </div>
 
-<img alt="La scheda Documenti in Start" src=images/FreeCad_Start_0.18_documents.png  style="width:500px;">
+<img alt="La scheda Documenti in Start" src=images/FreeCad_Start_0.18_documents.png  style="width   *500px;">
 
-<img alt="La scheda Aiuto in Start" src=images/FreeCad_Start_0.18_help.png  style="width:500px;">
+<img alt="La scheda Aiuto in Start" src=images/FreeCad_Start_0.18_help.png  style="width   *500px;">
 
-<img alt="La scheda Attività in Start" src=images/FreeCad_Start_0.18_activity.png  style="width:500px;">
+<img alt="La scheda Attività in Start" src=images/FreeCad_Start_0.18_activity.png  style="width   *500px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -39,6 +39,11 @@ Da questa interfaccia è possibile visualizzare informazioni utili e passare ai 
 
 
 </div>
+
+
+
+
+[Category   *Start](Category_Start.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

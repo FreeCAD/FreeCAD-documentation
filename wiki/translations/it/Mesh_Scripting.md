@@ -6,12 +6,12 @@
 
 ### Introduzione
 
-Prima di tutto si deve importare il modulo Mesh:
+Prima di tutto si deve importare il modulo Mesh   *
 
 
 </div>
 
-To get access to the `Mesh` module you have to import it first:
+To get access to the `Mesh` module you have to import it first   *
 
 
 ```python
@@ -23,12 +23,12 @@ import Mesh
 
 ### Creazione e caricamento 
 
-Per creare un oggetto mesh vuoto basta usare il costruttore standard:
+Per creare un oggetto mesh vuoto basta usare il costruttore standard   *
 
 
 </div>
 
-To create an empty mesh object just use the standard constructor:
+To create an empty mesh object just use the standard constructor   *
 
 
 ```python
@@ -45,10 +45,10 @@ Inoltre è possibile creare un oggetto da un file
 
 
 ```python
-mesh = Mesh.Mesh("D:/temp/Something.stl")
+mesh = Mesh.Mesh("D   */temp/Something.stl")
 ```
 
-Oppure crearlo tramite un gruppo di triangoli descritti dai loro vertici:
+Oppure crearlo tramite un gruppo di triangoli descritti dai loro vertici   *
 
 
 ```python
@@ -83,7 +83,7 @@ Per creare delle geometrie regolari è possibile utilizzare lo script Python Bui
 
 </div>
 
-To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows:
+To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows   *
 
 
 ```python
@@ -101,7 +101,7 @@ La classe Mesh fornisce una serie di funzioni booleane che possono essere utiliz
 
 </div>
 
-The `Mesh` module also provides three Boolean methods: `union()`, `intersection()` and `difference()`:
+The `Mesh` module also provides three Boolean methods   * `union()`, `intersection()` and `difference()`   *
 
 
 ```python
@@ -134,7 +134,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh::Feature", "Pipe")
+obj = d.addObject("Mesh   *   *Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -147,12 +147,12 @@ doc.recompute()
 
 ### Prove
 
-Una nutrita (anche se difficile da usare) libreria di script riferiti a Mesh sono gli script dell\'unita di test del Modulo Mesh. In questa unit test sono letteralmente chiamati tutti i metodi e sono ottimizzate tutte le proprietà e gli attributi. Quindi, se siete abbastanza coraggiosi, date un\'occhiata al [modulo unit test](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
+Una nutrita (anche se difficile da usare) libreria di script riferiti a Mesh sono gli script dell\'unita di test del Modulo Mesh. In questa unit test sono letteralmente chiamati tutti i metodi e sono ottimizzate tutte le proprietà e gli attributi. Quindi, se siete abbastanza coraggiosi, date un\'occhiata al [modulo unit test](http   *//free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
 
 
 </div>
 
-An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
 
 <div class="mw-translate-fuzzy">
@@ -166,7 +166,9 @@ Vedere anche [Mesh API](Mesh_API/it.md)
 {{Top}}
 
 
- {{Mesh Tools navi}}
+ {{Mesh Tools navi}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

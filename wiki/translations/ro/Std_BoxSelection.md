@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std BoxSelection
-   MenuLocation:[Edit](Std_Edit_Menu.md) → Box Selection
-   Workbenches:All
-   Shortcut:Shift + B
-   SeeAlso:[Fit Selection](Std_ViewFitSelection.md)
+- GuiCommand   *
+   Name   *Std BoxSelection
+   MenuLocation   *[Edit](Std_Edit_Menu.md) → Box Selection
+   Workbenches   *All
+   Shortcut   *Shift + B
+   SeeAlso   *[Fit Selection](Std_ViewFitSelection.md)
 ---
 
 # Std BoxSelection/ro
@@ -41,9 +41,9 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 ## Notes
 
 -   Use the [Std BoxElementSelection](Std_BoxElementSelection.md) command to box select faces instead of objects.
--   This command cannot be used to select elements in a [sketch](sketch.md). To \'box select\' when the [Sketcher Dialog](Sketcher_Dialog.md) is open:
+-   This command cannot be used to select elements in a [sketch](sketch.md). To \'box select\' when the [Sketcher Dialog](Sketcher_Dialog.md) is open   *
     1.  Make sure that no command is active.
-    2.  Do one of the following:
+    2.  Do one of the following   *
         -   Click in an empty area and drag a rectangle from left to right to select objects that lie completely inside the rectangle.
         -   Click in an empty area and drag a rectangle from right to left to also select objects that touch or cross the rectangle.
 

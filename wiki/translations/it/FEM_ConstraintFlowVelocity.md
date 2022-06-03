@@ -1,6 +1,6 @@
 # FEM ConstraintFlowVelocity/it
 ---
-- GuiCommand:/it   Name:FEM_ConstraintFlowVelocity   Name/it:Vincolo velocità del flusso   Icon:Fem-constraint-flow-velocity.svg   MenuLocation: Modello → Vincoli dei fluidi → Vincolo velocità del flusso   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand   */it   Name   *FEM_ConstraintFlowVelocity   Name/it   *Vincolo velocità del flusso   Icon   *Fem-constraint-flow-velocity.svg   MenuLocation   * Modello → Vincoli dei fluidi → Vincolo velocità del flusso   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 ## Descrizione
 
@@ -14,13 +14,13 @@ Applica una velocità del flusso come condizione al contorno a un bordo in 2D o 
 
 <div class="mw-translate-fuzzy">
 
-1.  Cliccare su <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width:24px;"> o scegliere **Modello → Vincoli dei fluidi  →  **<img src="images/Fem-constraint-flow-velocity.svg" width=20px> Vincolo velocità del flusso**** dal menu.
+1.  Cliccare su <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width   *24px;"> o scegliere **Modello → Vincoli dei fluidi  →  **<img src="images/Fem-constraint-flow-velocity.svg" width=20px> Vincolo velocità del flusso**** dal menu.
 2.  Il [pannello delle azioni](task_panel/it.md) visualizzerà i menu per vincolare la velocità del flusso.
 
-    :   ![](images/FEM-constraint-flow-velocity_task-panel.png )
-    :   
+       *   ![](images/FEM-constraint-flow-velocity_task-panel.png )
+       *   
         
-*Sopra: il menu per vincolare la velocità del flusso nella scheda azioni*
+*Sopra   * il menu per vincolare la velocità del flusso nella scheda azioni*
         
 3.  Selezionare i bordi o le facce di destinazione.
 4.  Cliccare su **Aggiungi**
@@ -39,11 +39,11 @@ Applica una velocità del flusso come condizione al contorno a un bordo in 2D o 
 
 -   I componenti del vettore contrassegnati come \"non specificati\" verranno interpolati dal risolutore selezionato.
 
-    :   Tutti i vettore che dovrebbero essere il risultato del risolutore devono essere contrassegnati come \"non specificato\".
+       *   Tutti i vettore che dovrebbero essere il risultato del risolutore devono essere contrassegnati come \"non specificato\".
 -   Se la faccia o il bordo di destinazione non è allineato con il sistema di coordinate cartesiane principale, è possibile selezionare \"normale al contorno\".
 
-    :   Se \"normale al contorno\" è spuntato, il vettore normale al bordo o alla faccia selezionati è X e sarà orientato lontano dal dominio della mesh.
-    :   Ad esempio, se un flusso d\'aria di 20 mm/s deve entrare nel dominio, dopo aver spuntato \"normale al contorno\" l\'utente dovrà inserire -20 mm/s nel campo \"velocità X\".
+       *   Se \"normale al contorno\" è spuntato, il vettore normale al bordo o alla faccia selezionati è X e sarà orientato lontano dal dominio della mesh.
+       *   Ad esempio, se un flusso d\'aria di 20 mm/s deve entrare nel dominio, dopo aver spuntato \"normale al contorno\" l\'utente dovrà inserire -20 mm/s nel campo \"velocità X\".
 
 
 </div>

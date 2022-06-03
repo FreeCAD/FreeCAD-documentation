@@ -10,7 +10,7 @@ A partire da FreeCAD 0.15, questa funzione non Ã¨ disponibile direttamente, ma Ã
 ### Opzioni
 
 +++
-| ![](images/Scaled_parameters.png ) | Quando si crea una operazione Scala, la finestra di dialogo **Parametri della scalatura** offre le seguenti opzioni:                                                   |
+| ![](images/Scaled_parameters.png ) | Quando si crea una operazione Scala, la finestra di dialogo **Parametri della scalatura** offre le seguenti opzioni   *                                                   |
 |                                                    |                                                                                                                                                                        |
 |                                                    | #### Selezionare gli originali                                                                                                             |
 |                                                    |                                                                                                                                                                        |

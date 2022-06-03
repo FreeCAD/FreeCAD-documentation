@@ -7,20 +7,20 @@
 
 </div>
 
-Lo scopo principale di questo formato di esportazione è rendere più semplice l\'elaborazione dei dati del modello di FreeCAD dai linguaggi di programmazione. Il formato [JSON](http://json.org/) è il seguente:
+Lo scopo principale di questo formato di esportazione è rendere più semplice l\'elaborazione dei dati del modello di FreeCAD dai linguaggi di programmazione. Il formato [JSON](http   *//json.org/) è il seguente   *
 
       {
-        "version": "0.0.1",
-        "description": "Mesh data exported from FreeCAD",
-        "objects": [
+        "version"   * "0.0.1",
+        "description"   * "Mesh data exported from FreeCAD",
+        "objects"   * [
           {
-            "name": "<object name>",
-            "description": "<object description>",
-            "color": "<object color>",
-            "wires": [[[<float>, <float>, <float>], . . .], . . .],
-            "vertices": [[<float>, <float>, <float>], . . .],
-            "normals": [[<float>, <float>, <float>], . . .],
-            "facets": [[<int>, <int>, <int>], . . .]
+            "name"   * "<object name>",
+            "description"   * "<object description>",
+            "color"   * "<object color>",
+            "wires"   * [[[<float>, <float>, <float>], . . .], . . .],
+            "vertices"   * [[<float>, <float>, <float>], . . .],
+            "normals"   * [[<float>, <float>, <float>], . . .],
+            "facets"   * [[<int>, <int>, <int>], . . .]
           }, . . .
         ]
       }
@@ -35,6 +35,11 @@ Nota che le faccette formano triangoli e i loro valori di riferimento delle valo
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

@@ -38,7 +38,7 @@ Un objet SheetMetal Unfold est dérivé d\'un objet [Part Feature](Part_Feature/
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Label|String}}   * Valeur par défaut    * Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
+-    **Label|String**   * Valeur par défaut    * Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
 ## Limitations
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:FEM ElementGeometry2D
-   Name/ru:FEM ElementGeometry2D
-   MenuLocation:Model →Shell plate tickness
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:**C** **S**
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand   */ru
+   Name   *FEM ElementGeometry2D
+   Name/ru   *FEM ElementGeometry2D
+   MenuLocation   *Model →Shell plate tickness
+   Workbenches   *[FEM](FEM_Workbench/ru.md)
+   Shortcut   ***C** **S**
+   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ElementGeometry2D/ru
@@ -19,7 +19,7 @@ ElementGeometry2D используется для определения тол�
 
 ## Использование
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [FEM ElementGeometry2D](FEM_ElementGeometry2D.md)** button.
     -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness** option from the menu.
 2.  Define a thickness parameter.
@@ -34,7 +34,7 @@ ElementGeometry2D используется для определения тол�
 
 **Thickness**
 
-: specifies the thickness of the shell.
+   * specifies the thickness of the shell.
 
 ## Scripting
 

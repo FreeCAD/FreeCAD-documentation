@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft_Scale
-   Name/it:Scala
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Scala
-   Shortcut:**S** **C**
-   SeeAlso:[Clona](Draft_Clone/it.md), [Offset](Draft_Offset/it.md)
+- GuiCommand   */it
+   Name   *Draft_Scale
+   Name/it   *Scala
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Scala
+   Shortcut   ***S** **C**
+   SeeAlso   *[Clona](Draft_Clone/it.md), [Offset](Draft_Offset/it.md)
 ---
 
 # Draft Scale/it
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Scale.svg  style="width:16px;"> Scala ridimensiona o copia gli oggetti selezionati attorno a un punto base.
+Lo strumento <img alt="" src=images/Draft_Scale.svg  style="width   *16px;"> Scala ridimensiona o copia gli oggetti selezionati attorno a un punto base.
 
 
 </div>
@@ -26,12 +26,12 @@ Lo strumento <img alt="" src=images/Draft_Scale.svg  style="width:16px;"> Scala 
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento può essere utilizzato su forme 2D create con <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) ma può anche essere utilizzato su molti tipi di oggetti 3D come quelli creati con <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
+Questo strumento può essere utilizzato su forme 2D create con <img alt="" src=images/Workbench_Draft.svg  style="width   *16px;"> [Draft](Draft_Workbench/it.md) ma può anche essere utilizzato su molti tipi di oggetti 3D come quelli creati con <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part](Part_Workbench/it.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width   *16px;"> [PartDesign](PartDesign_Workbench/it.md).
 
 
 </div>
 
-<img alt="" src=images/Draft_Scale_example.png  style="width:400px;">
+<img alt="" src=images/Draft_Scale_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -45,7 +45,7 @@ Questo strumento può essere utilizzato su forme 2D create con <img alt="" src=i
 
 ## Utilizzo
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -79,19 +79,19 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Inserire i fattori X, Y e Z per definire il ridimensionamento lungo tali direzione.
     -   Fare clic sulla casella di controllo \"Scalatura uniforme\" per bloccare i fattori X, Y e Z sullo stesso valore.
     -   Fare clic sulla casella di controllo \"Orientamento del piano di lavoro\" per bloccare il ridimensionamento X, Y e Z lungo il corrente [piano di lavoro](Draft_SelectPlane/it.md); altrimenti, vengono utilizzate le direzioni globali X, Y e Z.
--   Tre opzioni controllano il risultato dell\'operazione di ridimensionamento:
+-   Tre opzioni controllano il risultato dell\'operazione di ridimensionamento   *
     -   Crea un clone. Viene creato un [Clone](Draft_Clone/it.md) dell\'oggetto originale. Questo funziona per tutti i tipi di oggetto.
 
-::**Nota:** anche se i fattori di scala vengono lasciati ai valori predefiniti (1.0, 1.0, 1.0), un clone può essere modificato manualmente editando i fattori nell\'[editor delle proprietà](property_editor/it.md).
+   *   ***Nota   *** anche se i fattori di scala vengono lasciati ai valori predefiniti (1.0, 1.0, 1.0), un clone può essere modificato manualmente editando i fattori nell\'[editor delle proprietà](property_editor/it.md).
 
-:\* Modifica l\'originale. Modifica le dimensioni dell\'oggetto originale. Funziona solo con oggetti Draft e forme di Part non parametriche.
+   ** Modifica l\'originale. Modifica le dimensioni dell\'oggetto originale. Funziona solo con oggetti Draft e forme di Part non parametriche.
 
-:\* Crea una copia. Viene creata una copia ridimensionata dell\'oggetto originale. Questo funziona per tutti i tipi di oggetto, ma solo le copie degli oggetti Draft sono parametriche.
+   ** Crea una copia. Viene creata una copia ridimensionata dell\'oggetto originale. Questo funziona per tutti i tipi di oggetto, ma solo le copie degli oggetti Draft sono parametriche.
 
-:   
+   *   
 
-    :   
-        **Nota:**
+       *   
+        **Nota   ***
         
         una copia è un oggetto completamente diverso, indipendente dalla forma originale; viene creato nella scala specificata e quindi ha il proprio set di proprietà. Invece, un [Clone](Draft_Clone/it.md) è collegato alla forma originale e l\'unica proprietà che può essere modificata è la scala.
 
@@ -104,11 +104,11 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the number of decimals used for the input of scale factors ({{VersionMinus|0.19}}): **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+-   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of scale factors ({{VersionMinus|0.19}})   * **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
+-   To reselect the base objects after copying objects   * **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 
@@ -118,7 +118,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -128,7 +128,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Scala può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento Scala può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 </div>
@@ -157,7 +157,7 @@ scaled_list = scale(objectslist, scale=Vector(1,1,1), center=Vector(0,0,0), copy
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python

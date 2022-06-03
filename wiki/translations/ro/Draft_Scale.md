@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Draft Scale
-   Name/ro:Draft Scale
-   MenuLocation:Draft → Scale
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Draft Clone](Draft_Clone/ro.md)
+- GuiCommand   */ro
+   Name   *Draft Scale
+   Name/ro   *Draft Scale
+   MenuLocation   *Draft → Scale
+   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut   ***S** **C**
+   SeeAlso   *[Draft Clone](Draft_Clone/ro.md)
 ---
 
 # Draft Scale/ro
@@ -25,12 +25,12 @@ Acest instrument mărește/micșorează la scară obiectele selectate în jurul 
 
 The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
 
-<img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Scale_example.png  style="width   *400px;"> 
 *Scaling an object around a base point*
 
 ## Cum se folosește 
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -65,7 +65,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Completați valoarea de scalare X, Y și Z pentru a defini scalarea.
 -   Verificarea opțiunii \"Scalare uniformă\" va bloca X, Y și Z la aceeași valoare
 -   Opțiunea \"Relativ la planul de lucru\" va lua în considerare valorile de scalare X, Y și Z de-a lungul curentului [Working Plane](Draft_SelectPlane.md). În caz contrar, se utilizează indicațiile globale X, Y și Z.
--   Rezultatul operației de scalare poate fi:
+-   Rezultatul operației de scalare poate fi   *
     -   A [Draft Clone](Draft_Clone.md) a obiectelor originale, care nu modifică obiectele originale, dar vă permit să modificați manual factorul de scalare mai târziu (funcționează pentru toate tipurile de obiecte)
     -   Obiectele originale au modificat dimensiunea lor (vor funcționa numai cu obiecte proiectate sau cu forme neparametrice)
     -   Se produce o copie scalată a obiectelor de bază (va funcționa pentru toate tipurile de obiecte, dar numai copii ale obiectelor Draft vor fi parametrice)
@@ -79,11 +79,11 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the number of decimals used for the input of scale factors ({{VersionMinus|0.19}}): **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+-   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of scale factors ({{VersionMinus|0.19}})   * **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
+-   To reselect the base objects after copying objects   * **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 
@@ -98,7 +98,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Scale poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții:
+Instrumentul Scale poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții   *
 
 
 </div>

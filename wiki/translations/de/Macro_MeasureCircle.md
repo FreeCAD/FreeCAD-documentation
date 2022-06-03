@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2016-04-08
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/b/bd/Macro_MeasureCircle.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/b/bd/Macro_MeasureCircle.png ToolBar Icon]
 }}
 
 ## Beschreibung
@@ -15,7 +15,7 @@
 Dieses Makro zeigt nach der Angabe von drei Punkten oder einer kreisförmigen Kante den berechneten Mittelpunkt und den berechneten Radius eines Kreises an. Eine Linie wird vom Mittelpunkt zum ersten Punkt auf dem Kreis gezeichnet, der für spätere Messungen verwendet werden kann.
 
 
-{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro}}
+{{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro}}
 
 ## Anwendung
 
@@ -27,7 +27,7 @@ Man kann entweder die Elemente auswählen und dann das Makro starten oder das Ma
 
 ## Code
 
-Die neueste Version des Makros ist zu finden auf [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](Std_AddonMgr/de.md).
+Die neueste Version des Makros ist zu finden auf [MeasureCircle.FCMacro](https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](Std_AddonMgr/de.md).
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 

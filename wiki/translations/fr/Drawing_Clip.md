@@ -1,6 +1,6 @@
 # Drawing Clip/fr
 ---
-- GuiCommand:/fr   Name:Drawing Clip   Name/fr:Masque   Workbenches:[[Drawing Workbench/fr   Mise en plan]], Complet|MenuLocation :Mise en plan → Masque   Raccourci : aucun---
+- GuiCommand   */fr   Name   *Drawing Clip   Name/fr   *Masque   Workbenches   *[[Drawing Workbench/fr   Mise en plan]], Complet|MenuLocation    *Mise en plan → Masque   Raccourci    * aucun---
 
 ## Description
 

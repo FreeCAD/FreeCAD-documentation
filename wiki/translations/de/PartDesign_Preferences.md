@@ -25,7 +25,7 @@ Der Einstellungsbildschirm des [PartDesign Arbeitsbereichs](PartDesign_Workbench
 
 <div class="mw-translate-fuzzy">
 
-Es gibt zwei Reiter: Allgemein und Formansicht.
+Es gibt zwei Reiter   * Allgemein und Formansicht.
 
 
 </div>
@@ -41,12 +41,12 @@ Es gibt zwei Reiter: Allgemein und Formansicht.
 
 <div class="mw-translate-fuzzy">
 
-Im Reiter *Allgemein* kannst Du folgendes angeben:
+Im Reiter *Allgemein* kannst Du folgendes angeben   *
 
 +++
 | Name                                                                                        | Beschreibung                                                                                                                                                                                                                                                                                                                     |
 +=============================================================================================+==================================================================================================================================================================================================================================================================================================================================+
-|                                                                              | Wenn gekreuzt, nach einer [booleschen Bearbeitung](Part_Boolean/de.md) wird es geprüft wenn die [Darstellung der Grenze](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) des Modells gültig ist . Dies wird intern durch die Funktion [ÜberprüfeGeometrie](Part_CheckGeometry/de.md) durchgeführt. |
+|                                                                              | Wenn gekreuzt, nach einer [booleschen Bearbeitung](Part_Boolean/de.md) wird es geprüft wenn die [Darstellung der Grenze](https   *//en.wikipedia.org/wiki/Boundary_representation) (BRep) des Modells gültig ist . Dies wird intern durch die Funktion [ÜberprüfeGeometrie](Part_CheckGeometry/de.md) durchgeführt. |
 | {{MenuCommand/de|Modell nach boolescher Bearbeitung automatisch prüfen}}                    |                                                                                                                                                                                                                                                                                                                                  |
 |                                                                                          |                                                                                                                                                                                                                                                                                                                                  |
 +++
@@ -69,7 +69,7 @@ Im Reiter *Allgemein* kannst Du folgendes angeben:
 +++
 | Name                                                                    | Description                                                                                                                                                                                                            |
 +=========================================================================+========================================================================================================================================================================================================================+
-|                                                          | If checked, the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md) |
+|                                                          | If checked, the [Boundary representation](https   *//en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md) |
 | **Automatically check model after boolean operation**       |                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                        |
 +++
@@ -95,16 +95,16 @@ Im Reiter *Allgemein* kannst Du folgendes angeben:
 
 <div class="mw-translate-fuzzy">
 
-Im Reiter *Formansicht* kannst Du folgendes angeben:
+Im Reiter *Formansicht* kannst Du folgendes angeben   *
 
 +++
 | Name                                                                   | Beschreibung                                                                                                                                                                                                 |
 +========================================================================+==============================================================================================================================================================================================================+
-|                                                         | Maximum [linear deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) der tessellierten Objekte von ihrer Oberfläche                  |
+|                                                         | Maximum [linear deflection](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) der tessellierten Objekte von ihrer Oberfläche                  |
 | {{MenuCommand/de|Maximale Abweichung je nach Modellbegrenzungsrahmen}} |                                                                                                                                                                                                              |
 |                                                                     |                                                                                                                                                                                                              |
 +++
-|                                                         | Maximum [angular deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem tessellierten Objektabschnitt zum nächsten Abschnitt |
+|                                                         | Maximum [angular deflection](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem tessellierten Objektabschnitt zum nächsten Abschnitt |
 | {{MenuCommand/de|Maximale Winkelablenkung}}                            |                                                                                                                                                                                                              |
 |                                                                     |                                                                                                                                                                                                              |
 +++
@@ -115,11 +115,11 @@ Im Reiter *Formansicht* kannst Du folgendes angeben:
 +++
 | Name                                                                  | Description                                                                                                                                                                                                                     |
 +=======================================================================+=================================================================================================================================================================================================================================+
-|                                                        | Maximum [linear deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface            |
+|                                                        | Maximum [linear deflection](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface            |
 | **Maximum deviation depending on the model bounding box** |                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                 |
 +++
-|                                                        | Maximum [angular deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section |
+|                                                        | Maximum [angular deflection](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section |
 | **Maximum angular deflection**                            |                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                 |
 +++
@@ -128,7 +128,7 @@ Im Reiter *Formansicht* kannst Du folgendes angeben:
 
 ### Shape appearance 
 
-On the *Shape appearance* tab you can specify the following:
+On the *Shape appearance* tab you can specify the following   *
 
 +++
 | Name                               | Description                                                                                                                                                                                                               |
@@ -161,9 +161,9 @@ On the *Shape appearance* tab you can specify the following:
 | **Two-side rendering** |                                                                                                                                                                                                                           |
 |                                 |                                                                                                                                                                                                                           |
 +++
-|                     | Text color for document annotations. There is currently no dialog to add annotations to documents. Annotations can only be added using the Python console with this command:                                              |
+|                     | Text color for document annotations. There is currently no dialog to add annotations to documents. Annotations can only be added using the Python console with this command   *                                              |
 | **Text color**         |                                                                                                                                                                                                                           |
-|                                 | obj=App.ActiveDocument.addObject("App::Annotation", "Label")                                                                                                                                                            |
+|                                 | obj=App.ActiveDocument.addObject("App   *   *Annotation", "Label")                                                                                                                                                            |
 |                                    |                                                                                                                                                                                                                           |
 |                                    | This console is shown using the menu **View → Panels → Python console**.                                                                                                                        |
 +++
@@ -172,11 +172,11 @@ On the *Shape appearance* tab you can specify the following:
 
 ## Tesselation
 
-Um ein Objekt effizient darzustellen, ist seine Oberfläche [tesselliert](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), d.h. es wird mit einigen kleinen Abweichungen von seiner realen Oberfläche dargestellt. Dies gilt nicht nur für PartDesign Modelle, sondern auch für andere Objekte in FreeCAD.
+Um ein Objekt effizient darzustellen, ist seine Oberfläche [tesselliert](https   *//en.wikipedia.org/wiki/Tessellation_(computer_graphics)), d.h. es wird mit einigen kleinen Abweichungen von seiner realen Oberfläche dargestellt. Dies gilt nicht nur für PartDesign Modelle, sondern auch für andere Objekte in FreeCAD.
 
 Es gibt eine untere Grenze für die Tessellierung von 0,01%. Wenn du die zusätzliche Zeit wirklich nutzen willst, kannst du die Untergrenze noch weiter reduzieren, indem du das Menü {{MenuCommand/de|Werkzeuge → Parameter bearbeiten...}} öffnest. Dies öffnet den Parametereditor, in dem du zu {{MenuCommand/de|BaseApp → Einstellungen → Mod → Part}} navigierst.
 
-Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. Setze den Wert auf die minimale Tesselation deiner Wahl. Bitte beachte, dass der Wert in % angegeben wird, d.h. für einen Wert von 0,005% musst du \"0,00005\" eingeben. Der kleinstmögliche Wert ist 1e-7. **Hinweis:** Im Menü Einstellungen siehst du auch dann noch 0.01%, wenn du einen niedrigeren Wert einstellst.
+Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. Setze den Wert auf die minimale Tesselation deiner Wahl. Bitte beachte, dass der Wert in % angegeben wird, d.h. für einen Wert von 0,005% musst du \"0,00005\" eingeben. Der kleinstmögliche Wert ist 1e-7. **Hinweis   *** Im Menü Einstellungen siehst du auch dann noch 0.01%, wenn du einen niedrigeren Wert einstellst.
 
 
 <div class="mw-translate-fuzzy">
@@ -190,7 +190,9 @@ Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. 
 
 {{PartDesign Tools navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

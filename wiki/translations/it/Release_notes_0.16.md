@@ -1,17 +1,17 @@
 # Release notes 0.16/it
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.16 è stato rilasciato il 18 aprile 2016, ed è scaricabile da [Github](https://github.com/FreeCAD/FreeCAD/releases). Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.15](Release_notes_0.15/it.md) - [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.16 è stato rilasciato il 18 aprile 2016, ed è scaricabile da [Github](https   *//github.com/FreeCAD/FreeCAD/releases). Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http   *//www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in   * [0.15](Release_notes_0.15/it.md) - [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
 
 
 </div>
 
-<img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width:1024px;">
+<img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width   *1024px;">
 
 
 <center>
 
-Satnogs Rotator (https://satnogs.org/)
+Satnogs Rotator (https   *//satnogs.org/)
 
 
 </center>
@@ -20,22 +20,22 @@ Satnogs Rotator (https://satnogs.org/)
 
 È stato introdotto il supporto **[Espressione](Expressions/it.md)**, che consente di definire le relazioni tra le proprietà degli oggetti sotto forma di formule. Il supporto espressione è un importante passo in avanti per creare dei modelli parametrici migliori con FreeCAD. Le espressioni offrono una interfaccia semplice per realizzare dei modelli controllati da fogli di calcolo.
 
-<img alt="" src=images/Expressions-demo.png  style="width:300px;">
+<img alt="" src=images/Expressions-demo.png  style="width   *300px;">
 
 È stato ulteriormente migliorato il comportamento del **Risolutore Sketcher**. È diventato più veloce e più stabile, inoltre non indugia più sugli schizzi irrisolvibili. Ora l\'innesco del ricalcolo automatico dei documenti dopo ogni piccola correzione del disegno può essere disattivato, consentendo di modificare facilmente anche gli schizzi sepolti in profondità, sotto le dipendenze.
 
-<img alt="" src=images/Sketcher-v0.16-demo.png  style="width:300px;">
+<img alt="" src=images/Sketcher-v0.16-demo.png  style="width   *300px;">
 
 Ora FreeCAD supporta la navigazione con il tocco dello schermo 3D, il touchscreen. Ciò rende possibile l\'uso di FreeCAD senza mouse su un computer portatile convertibile con touchscreen e penna, lontano da una scrivania.
 
 L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utilizzabile per vari tipi di analisi meccanica.
 
-<img alt="" src=images/Multiple_material.jpg  style="width:700px;">
+<img alt="" src=images/Multiple_material.jpg  style="width   *700px;">
 
 ## In generale 
 
 -   Supporto per espressioni o formule
--   Tre nuovi stili di navigazione: Gesture (con il supporto touchscreen per Windows), Maya, e OpenCascade.
+-   Tre nuovi stili di navigazione   * Gesture (con il supporto touchscreen per Windows), Maya, e OpenCascade.
 -   Personalizzazione della lista degli ambienti lavoro (la lista può essere riordinata, e ogni ambiente può essere reso nascosto dalla lista)
 -   Strumento di recupero
 -   Nuove opzioni di salvataggio (Ripristina, Salva come copia)
@@ -43,31 +43,31 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 ## Ambiente Part 
 
--   Nuovi strumenti per congiungere oggetti con \"pareti\" (es. tubazioni): [Congiungi](Part_JoinConnect/it.md), [Incastra](Part_JoinEmbed/it.md) e [Asporta](Part_JoinCutout/it.md)
--   Nuova funzionalità: creare una faccia parametrica da uno schizzo
+-   Nuovi strumenti per congiungere oggetti con \"pareti\" (es. tubazioni)   * [Congiungi](Part_JoinConnect/it.md), [Incastra](Part_JoinEmbed/it.md) e [Asporta](Part_JoinCutout/it.md)
+-   Nuova funzionalità   * creare una faccia parametrica da uno schizzo
 
 ## Ambienti Part Design & Sketcher 
 
--   Nuova funzionalità: Commutazione tra [Vincoli guida o di riferimento](Sketcher_ToggleDrivingConstraint/it.md) e definitivi
--   Nuova funzionalità: Modalità di creazione Continua
--   Nuova funzionalità: Vincoli definitivi (in alternativa ai vincoli Guida)
+-   Nuova funzionalità   * Commutazione tra [Vincoli guida o di riferimento](Sketcher_ToggleDrivingConstraint/it.md) e definitivi
+-   Nuova funzionalità   * Modalità di creazione Continua
+-   Nuova funzionalità   * Vincoli definitivi (in alternativa ai vincoli Guida)
 -   Maggiore velocità
 -   Controlli avanzati del risolutore
--   Nuove funzionalità: Strumenti per la duplicazione, la riflessione e la schiera rettangolare
+-   Nuove funzionalità   * Strumenti per la duplicazione, la riflessione e la schiera rettangolare
 -   Supporto per l\'impiego di [espressioni o formule](Expressions/it.md) nei vincoli e nelle proprietà
 
 ## Ambiente Spreadsheet 
 
--   Aggiunte le funzioni: round, trunc, ceil, e floor.
+-   Aggiunte le funzioni   * round, trunc, ceil, e floor.
 
 ## Ambiente Draft 
 
--   **Nuovo importatore DXF**: Ora l\'ambiente Draft è dotato di un nuovo importatore DXF, completamente scritto in C ++, ereditato da [HeeksCad](https://github.com/Heeks/heekscad), che non ha più bisogno di scaricare dei componenti esterni, ed è molto più veloce e in grado di caricare dei file DXF molto più grandi. Una opzione nelle preferenze per i file DXF permette di tornare al vecchio importatore, se questo è necessario.
+-   **Nuovo importatore DXF**   * Ora l\'ambiente Draft è dotato di un nuovo importatore DXF, completamente scritto in C ++, ereditato da [HeeksCad](https   *//github.com/Heeks/heekscad), che non ha più bisogno di scaricare dei componenti esterni, ed è molto più veloce e in grado di caricare dei file DXF molto più grandi. Una opzione nelle preferenze per i file DXF permette di tornare al vecchio importatore, se questo è necessario.
 -   Il nuovo strumento **[Specchio](Draft_Mirror/it.md)** permette di riflettere gli oggetti nel modo Draft.
 -   Sono stati aggiunti molti **modelli DXF** incorporati nei corrispondenti modelli SVG, migliorando l\'esportazione in DXF delle pagine di Disegno (Drawing).
 -   Ora i [Rettangoli](Draft_Rectangle/it.md), le [linee e polilinee](Draft_Wire/it.md) possono essere **suddivisi**, consentendo tutti i tipi di nuove combinazioni della forma.
 
-<img alt="" src=images/Draft_subdivisions.jpg  style="width:1024px;">
+<img alt="" src=images/Draft_subdivisions.jpg  style="width   *1024px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -79,14 +79,14 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 </div>
 
-<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:1024px;">
+<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width   *1024px;">
 
 ## Ambiente Arch 
 
--   **[Supporto Materiali](Arch_SetMaterial/it.md)**: Ora gli oggetti Arch possono essere associati a un [materiale](material.md), che utilizza la struttura dei materiali interna a FreeCAD. I materiali sono condivisi con gli altri ambienti, e sono pienamente supportati nell\'importazione ed esportazione IFC.
--   **[Piano di sezione](Arch_SectionPlane/it.md)**: Ora il piano di sezione può tagliare la vista 3D, e mostrare la sezione in tempo reale.
+-   **[Supporto Materiali](Arch_SetMaterial/it.md)**   * Ora gli oggetti Arch possono essere associati a un [materiale](material.md), che utilizza la struttura dei materiali interna a FreeCAD. I materiali sono condivisi con gli altri ambienti, e sono pienamente supportati nell\'importazione ed esportazione IFC.
+-   **[Piano di sezione](Arch_SectionPlane/it.md)**   * Ora il piano di sezione può tagliare la vista 3D, e mostrare la sezione in tempo reale.
 
-<img alt="" src=images/Arch_clip_plane.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_clip_plane.jpg  style="width   *1024px;">
 
 -   Diversi miglioramenti all**\'importatore IFC**, come le nuove opzioni per il trattamento dei grandi file IFC, un migliore supporto per le estrusioni (ora rilevate durante l\'importazione) e i segmenti curvi, e il supporto di oggetti di annotazione 2D. È stata aggiunta l\'importazione IFC analitica. Al momento è supportata l\'importazione delle rappresentazioni geometriche di tutti gli oggetti analitici.
 -   Migliorate le **opzioni meshing** per i formati DAE e IFC.
@@ -117,7 +117,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 ![](images/Exercise_path_02.jpg )
 
-A FreeCAD è stato aggiunto il nuovo ambiente [Path](Path_Workbench/it.md). Questo ambiente è ancora in fase di sviluppo, ma implementa già alcune operazioni CAM, e permette di esportare un programma completo in [G-code](https://en.wikipedia.org/wiki/G-code) per una varietà di macchine CNC.
+A FreeCAD è stato aggiunto il nuovo ambiente [Path](Path_Workbench/it.md). Questo ambiente è ancora in fase di sviluppo, ma implementa già alcune operazioni CAM, e permette di esportare un programma completo in [G-code](https   *//en.wikipedia.org/wiki/G-code) per una varietà di macchine CNC.
 
 
 <div class="mw-translate-fuzzy">
@@ -129,14 +129,16 @@ Allo stato attuale, l\'ambiente permette di creare profili e tasche basate su un
 
 ## Moduli aggiuntivi 
 
-I membri della comunità hanno creato alcuni [ambienti aggiuntivi](https://github.com/FreeCAD/FreeCAD-addons). Questi ambienti sono facilmente inseribili in qualsiasi installazione di FreeCAD esistente. Tra di loro ci sono:
+I membri della comunità hanno creato alcuni [ambienti aggiuntivi](https   *//github.com/FreeCAD/FreeCAD-addons). Questi ambienti sono facilmente inseribili in qualsiasi installazione di FreeCAD esistente. Tra di loro ci sono   *
 
--   Un [Ambiente Animazione](https://github.com/microelly2/Animation) che permette di creare delle animazioni dai modelli di FreeCAD, definendo il movimento di una macchina fotografica ed esportando una sequenza di immagini.
--   Una macro per [esportare in Kerkythea](https://github.com/marmni/FreeCAD-Kerkythea) che permette di esportare i documenti di FreeCAD nel [free renderer Kerkythea](http://www.kerkythea.net/cms/).
--   È anche già disponibile un \[<http://forum.freecadweb.org/viewtopic.php?f=22&t=10892>\| Menu Pie\], ancora in lavorazione.
--   Infine, è stato creato un [addons repository](https://github.com/FreeCAD/FreeCAD-addons) per riunire tutti i nuovi ambienti interessanti, i moduli e le altre macro che stanno fiorendo intorno a FreeCAD. Questo repository è dotato di un programma di installazione che si occupa per voi della sua installazione e dell\'aggiornamento di questi addons.
+-   Un [Ambiente Animazione](https   *//github.com/microelly2/Animation) che permette di creare delle animazioni dai modelli di FreeCAD, definendo il movimento di una macchina fotografica ed esportando una sequenza di immagini.
+-   Una macro per [esportare in Kerkythea](https   *//github.com/marmni/FreeCAD-Kerkythea) che permette di esportare i documenti di FreeCAD nel [free renderer Kerkythea](http   *//www.kerkythea.net/cms/).
+-   È anche già disponibile un \[<http   *//forum.freecadweb.org/viewtopic.php?f=22&t=10892>\| Menu Pie\], ancora in lavorazione.
+-   Infine, è stato creato un [addons repository](https   *//github.com/FreeCAD/FreeCAD-addons) per riunire tutti i nuovi ambienti interessanti, i moduli e le altre macro che stanno fiorendo intorno a FreeCAD. Questo repository è dotato di un programma di installazione che si occupa per voi della sua installazione e dell\'aggiornamento di questi addons.
 
 ![](images/Macro_installer_02.jpg )
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

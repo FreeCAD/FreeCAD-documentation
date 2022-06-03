@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Draft Snap Parallel
-   Name/de:Entwurf Parallel
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   MenuLocation:Entwurf → [Fangen](Draft_Snap/de.md) → Parallel
-   Shortcut:-
-   SeeAlso:[Fangen](Draft_Snap/de.md), [Fangen ein/aus](Draft_Snap_Lock/de.md)
+- GuiCommand   */de
+   Name   *Draft Snap Parallel
+   Name/de   *Entwurf Parallel
+   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation   *Entwurf → [Fangen](Draft_Snap/de.md) → Parallel
+   Shortcut   *-
+   SeeAlso   *[Fangen](Draft_Snap/de.md), [Fangen ein/aus](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Parallel/de
@@ -49,7 +49,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 1.  
     **<img src="images/Draft_Snap_Lock.svg" width=16px> [Fangen ein/aus](Draft_Snap_Lock/de.md)**und **<img src="images/Draft_Snap_Parallel.svg" width=16px> [ Parallel fangen](Draft_Snap_Parallel/de.md)** einschalten.
 
-2.  Mit <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Entwurfslinie](Draft_Line/de.md) eine Form zeichen. Den ersten Punkt eingeben.
+2.  Mit <img alt="" src=images/Draft_Line.svg  style="width   *16px;"> [Entwurfslinie](Draft_Line/de.md) eine Form zeichen. Den ersten Punkt eingeben.
 
 3.  Den Mauszeiger über die Linie führen, die als Bezug verwendet werden soll.
 

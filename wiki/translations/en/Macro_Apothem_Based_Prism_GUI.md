@@ -6,7 +6,7 @@
 |Author=Quick61
 |Version=1.0
 |Date=2014-12-31
-|Download=[https://www.freecadweb.org/wiki/images/4/4e/Part_Prism_Apothem.svg ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/4/4e/Part_Prism_Apothem.svg ToolBar Icon]
 |FCVersion=All
 }}
 
@@ -45,12 +45,12 @@ from math import cos, radians
 App = FreeCAD
 Gui = FreeCADGui
  
-class p():
+class p()   *
  
  
-    def priSm(self):
+    def priSm(self)   *
  
-        try:
+        try   *
             dbf = float(self.d1.text())
             nos = int(self.d2.text())
             hth = float(self.d3.text())
@@ -58,7 +58,7 @@ class p():
             op1 = 180/float(nos)
             coS = cos(math.radians(op1))
             cR = aR / coS
-            prism=App.ActiveDocument.addObject("Part::Prism","Prism")
+            prism=App.ActiveDocument.addObject("Part   *   *Prism","Prism")
             prism.Polygon=nos
             prism.Circumradius=cR
             prism.Height=hth
@@ -66,12 +66,12 @@ class p():
             prism.Label='Prism'
             App.ActiveDocument.recompute()
             Gui.SendMsgToActiveView("ViewFit")
-        except:
+        except   *
             FreeCAD.Console.PrintError("Unable to complete task")
  
             self.close()
  
-    def close(self):
+    def close(self)   *
         self.dialog.hide()
  
  
@@ -79,7 +79,7 @@ class p():
 # Make dialog box and get input for distance between flats, number of sides, and height
 #
  
-    def __init__(self):
+    def __init__(self)   *
         self.dialog = None
  
         self.dialog = QtGui.QDialog()
@@ -122,11 +122,11 @@ p() }}
 
 SVG icon for use in custom toolbar shortcut.
 
-<img alt="" src=images/Part_Prism_Apothem.svg  style="width:128px;">
+<img alt="" src=images/Part_Prism_Apothem.svg  style="width   *128px;">
 
 ## Acknowledgements
 
-A thanks to FreeCAD main developer [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) and FreeCAD programmer [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) for their invaluable help and advice in constructing this Macro.
+A thanks to FreeCAD main developer [shoogen](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) and FreeCAD programmer [wandererfan](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) for their invaluable help and advice in constructing this Macro.
 
 
 

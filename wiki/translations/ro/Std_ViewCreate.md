@@ -1,6 +1,6 @@
 # Std ViewCreate/ro
 ---
-- GuiCommand:   Name:Std ViewCreate   MenuLocation:[[Std View Menu   View]] → Create new view‏‎||Workbenches:All   Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *Std ViewCreate   MenuLocation   *[[Std View Menu   View]] → Create new view‏‎||Workbenches   *All   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -18,7 +18,7 @@ Această funcționalitate vă permite să creați ferestre noi de vizualizare 3D
 
 -   Lansașu meniul **Affichage→ Créer une nouvelle vue**.
 
-În fereastra de mai jos, în zona de lucru apare un nou tab:
+În fereastra de mai jos, în zona de lucru apare un nou tab   *
 
 ![ 500px \| left](images/_ViewCreate2.png ) 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/pl
-   Name:Std TransformManip
-   Name/pl:Std: Przemieszczenie
-   MenuLocation:Kliknij prawym przyciskiem na obiekt w widoku drzewa → Przekształć
+- GuiCommand   */pl
+   Name   *Std TransformManip
+   Name/pl   *Std   * Przemieszczenie
+   MenuLocation   *Kliknij prawym przyciskiem na obiekt w widoku drzewa → Przekształć
 Edycja → Przemieszczenie
-   Workbenches:Wszystkie
-   SeeAlso:[Strona Startowa](Std_Base/pl.md)
+   Workbenches   *Wszystkie
+   SeeAlso   *[Strona Startowa](Std_Base/pl.md)
 ---
 
 # Std TransformManip/pl
@@ -31,7 +31,7 @@ Narzędzie to pozwala na stosowanie przyrostów obrotu lub przesunięcia względ
 
 Nie ma przycisku Anuluj.
 
--   Możliwe jest <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [cofnięcie](Std_Undo/pl.md) zmiany po tym fakcie.
+-   Możliwe jest <img alt="" src=images/Std_Undo.svg  style="width   *20px;"> [cofnięcie](Std_Undo/pl.md) zmiany po tym fakcie.
 -   Pola wartości mają zastosowanie dla określenia przyrostów, a nie dla podania wartości bezwzględnych.
 
 

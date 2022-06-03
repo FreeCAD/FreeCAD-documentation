@@ -2,17 +2,17 @@
 {{Macro/fr
 |Name=Macro Rotate To Point
 |Icon=Macro_Rotate_To_Point.svg
-|Description={{ColoredText|#ff0000|#ffffff|La version mise à jour de la macro a modifié l'interface graphique pour améliorer la prise en charge HiDPI (QGridLayout). Exécutez uniquement FC v0.18 ou supérieur (prenant en charge Qt5 et PySide2)}} <br/> <br/> Macro pour faire tourner un objet sur lui-même sur un axe de rotation: centre de la boîte, centre de masse, direction du fil ou dernier point cliqué. <br/> Vous pouvez sauvegarder les coordonnées travaillées dans un fichier coordonnées [(0.06,1.30,0.0),(85.0,0.0,0.0)] ou dans une macro complète pour créer une animation.<br/> <br/> Pour la version précédente (Qt4), voir [https://gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro_Rotate_To_Point Macro_Rotate_To_Point] et installez la manuellement.
+|Description={{ColoredText|#ff0000|#ffffff|La version mise à jour de la macro a modifié l'interface graphique pour améliorer la prise en charge HiDPI (QGridLayout). Exécutez uniquement FC v0.18 ou supérieur (prenant en charge Qt5 et PySide2)}} <br/> <br/> Macro pour faire tourner un objet sur lui-même sur un axe de rotation   * centre de la boîte, centre de masse, direction du fil ou dernier point cliqué. <br/> Vous pouvez sauvegarder les coordonnées travaillées dans un fichier coordonnées [(0.06,1.30,0.0),(85.0,0.0,0.0)] ou dans une macro complète pour créer une animation.<br/> <br/> Pour la version précédente (Qt4), voir [https   *//gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro_Rotate_To_Point Macro_Rotate_To_Point] et installez la manuellement.
 |Author=Mario52
 |Version=00.10
 |Date=2021/03/08
 |FCVersion=0.19
-|Download=[https://www.freecadweb.org/wiki/images/d/d1/Macro_Rotate_To_Point.svg ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/d/d1/Macro_Rotate_To_Point.svg ToolBar Icon]
 }}
 
 ## Description
 
-Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit:
+Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit   *
 
 -   centre de la boîte
 -   centre de masse
@@ -21,49 +21,49 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit:
 
 ## Utilisation
 
-1.  Téléchargez la macro depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
+1.  Téléchargez la macro depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
 2.  Exécuter la macro
 3.  Sélectionnez un objet
-4.  Choisissez l\'une des orientations suivantes:
+4.  Choisissez l\'une des orientations suivantes   *
 
 ![Interface Rotate to point ](images/Macro_Rotate_To_Point_00.png ) 
 
 ### Point de rotation 
 
-:\*Boundbox Center: Sélectionnez la rotation du centre BoundBox à l\'axe
+   **Boundbox Center   * Sélectionnez la rotation du centre BoundBox à l\'axe
 
-:\*Center of Mass: sélectionnez la rotation du centre de masse à l\'axe
+   **Center of Mass   * sélectionnez la rotation du centre de masse à l\'axe
 
-:\*Point Clicked: Sélectionnez le dernier clic de souris comme point de rotation de l\'axe
+   **Point Clicked   * Sélectionnez le dernier clic de souris comme point de rotation de l\'axe
 
-::\*1: sélectionnez l\'objet
+   *   **1   * sélectionnez l\'objet
 
-::\*2: utilisez la touche **CTRL** pour choisir un objet supplémentaire
+   *   **2   * utilisez la touche **CTRL** pour choisir un objet supplémentaire
 
 ### Axe de rotation 
 
--   -   Rotation(Z) Yaw: axe de lacet
-    -   Rotation(Y) Pitch: axe de tanguage
-    -   Rotation(X) Roll: axe de roulis
-    -   Rotation(D) Direction: rotation autour de la ligne, bord sélectionné
+-   -   Rotation(Z) Yaw   * axe de lacet
+    -   Rotation(Y) Pitch   * axe de tanguage
+    -   Rotation(X) Roll   * axe de roulis
+    -   Rotation(D) Direction   * rotation autour de la ligne, bord sélectionné
 
 ### Coordonnées du point cliqué 
 
--   -   DoubleSpinBox: Coordinate X au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
-    -   DoubleSpinBox: Coordinate Y au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
-    -   DoubleSpinBox: Coordinate Z au clic de souris (modifiable uniquement avec le mode \"Point Clicked\")
+-   -   DoubleSpinBox   * Coordinate X au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
+    -   DoubleSpinBox   * Coordinate Y au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
+    -   DoubleSpinBox   * Coordinate Z au clic de souris (modifiable uniquement avec le mode \"Point Clicked\")
 
 ### Work
 
--    {{CheckBox|Translation}}: Si cette case à cocher est {{CheckBox|TRUE|cochée}}, la rotation est désactivée, le placement de l\'objet se fait sur l\'axe sélectionné.
+-    {{CheckBox|Translation}}   * Si cette case à cocher est {{CheckBox|TRUE|cochée}}, la rotation est désactivée, le placement de l\'objet se fait sur l\'axe sélectionné.
 
--    **Point**: Si cette case à cocher est cochée, un point est créé pour visualiser l\'axe de rotation des points: rouge X, vert Y, bleu Z
+-    **Point**   * Si cette case à cocher est cochée, un point est créé pour visualiser l\'axe de rotation des points   * rouge X, vert Y, bleu Z
 
--   Line Edit: L\'édition de ligne affiche les coordonnées d\'origine de l\'axe sélectionné + les données d\'entrée données dans la spinBox
+-   Line Edit   * L\'édition de ligne affiche les coordonnées d\'origine de l\'axe sélectionné + les données d\'entrée données dans la spinBox
 
--    {{SpinBox|0,0000}}: entrez la modification (la valeur est réinitialisée après chaque sélection)
+-    {{SpinBox|0,0000}}   * entrez la modification (la valeur est réinitialisée après chaque sélection)
 
--    **Apply**: Applique la modification à l\'objet
+-    **Apply**   * Applique la modification à l\'objet
 
 -   Les coordonnées sont affichées
 
@@ -71,44 +71,44 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit:
 
 -   Fenêtre d\'affichage des coordonnées mémorisées
 
--    **Save**: Sauve les données dans un fichier
+-    **Save**   * Sauve les données dans un fichier
 
--    **Clear**: Delete and clean the text editor
+-    **Clear**   * Delete and clean the text editor
 
--    **Delete**: Efface la ligne sélectionnée
+-    **Delete**   * Efface la ligne sélectionnée
 
--    **Memorize**: Mémorise et affiche les coordonnées
+-    **Memorize**   * Mémorise et affiche les coordonnées
 
--    {{CheckBox|Macro}}:
+-    {{CheckBox|Macro}}   *
 
-    -   Mode normal {{CheckBox|Macro}} Les données sont sauvegardées dans ce mode : **\[(0.06,1.30,0.0),(85.0,0.0,0.0)\],**
+    -   Mode normal {{CheckBox|Macro}} Les données sont sauvegardées dans ce mode    * **\[(0.06,1.30,0.0),(85.0,0.0,0.0)\],**
     -   Mode macro {{CheckBox|TRUE|0,0 Coordinate}} Les coordonnées sont sauvées dans une macro complète (un ou plusieurs objet(s)) directement dans votre répertoire de macros avec le même nom que le document et l\'extension .FCMacro
         -   **Options de la macro**
-        -   **\_\_pompe\_\_\_\_engrenage\_\_** : Nom du document
-        -   **\_\_22 Coordinates\_\_** : nombre de coordonnées
-        -   **Type Key Q to Quit** : Quitte la macro
-        -   **Type Key D to Decrease speed** : Décrémente la vitesse de l\'animation
-        -   **Type Key I to Increase speed** : Incémente la vitesse de l\'animation
-        -   **Type Key P to Pause/Continue or key RETURN or ESCAPE** : Pause / Animation
-        -   **Type Key S to Step by Step (key RETURN or ESCAPE to continue)** : Pas à pas (Step by Step)
+        -   **\_\_pompe\_\_\_\_engrenage\_\_**    * Nom du document
+        -   **\_\_22 Coordinates\_\_**    * nombre de coordonnées
+        -   **Type Key Q to Quit**    * Quitte la macro
+        -   **Type Key D to Decrease speed**    * Décrémente la vitesse de l\'animation
+        -   **Type Key I to Increase speed**    * Incémente la vitesse de l\'animation
+        -   **Type Key P to Pause/Continue or key RETURN or ESCAPE**    * Pause / Animation
+        -   **Type Key S to Step by Step (key RETURN or ESCAPE to continue)**    * Pas à pas (Step by Step)
         -   \'\'\'Type Key R to reverse
-        -   **Type Key M for this message** : Affiche ce memo
+        -   **Type Key M for this message**    * Affiche ce memo
         -   \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
--    {{CheckBox|Memo on Click}}:
+-    {{CheckBox|Memo on Click}}   *
 
-    -   Mode normal {{CheckBox|Memo on Click}} : Les données ne sont pas sauvées dans la fenêtre de mémorisation, vous devez sauver les coordonnées avec le bouton **Memo (2)** (Le compteur affiche le nombre de coordonnées sauvées)
-    -   Mode Memo on Click {{CheckBox|TRUE|Memo on Demand}} : Les données sont automatiquement sauvées a chaque clic sur le bouton **Apply**
+    -   Mode normal {{CheckBox|Memo on Click}}    * Les données ne sont pas sauvées dans la fenêtre de mémorisation, vous devez sauver les coordonnées avec le bouton **Memo (2)** (Le compteur affiche le nombre de coordonnées sauvées)
+    -   Mode Memo on Click {{CheckBox|TRUE|Memo on Demand}}    * Les données sont automatiquement sauvées a chaque clic sur le bouton **Apply**
 
 ### Command
 
--    **Quit**: quitter la macro
+-    **Quit**   * quitter la macro
 
--    **Original**: Après avoir modifié les données de l\'objet, vous pouvez revenir à l\'emplacement d\'origine, si vous n\'avez pas désélectionné l\'objet actuel.
+-    **Original**   * Après avoir modifié les données de l\'objet, vous pouvez revenir à l\'emplacement d\'origine, si vous n\'avez pas désélectionné l\'objet actuel.
 
--    **0,0,0**: cette option place l\'objet en coordonnées de base `0,0,0`
+-    **0,0,0**   * cette option place l\'objet en coordonnées de base `0,0,0`
 
--    **Reset**: Réinitialisez les données dans la macro et désélectionnez l\'objet actuel (même clic de souris dans la [vue 3D](3D_view/fr.md))
+-    **Reset**   * Réinitialisez les données dans la macro et désélectionnez l\'objet actuel (même clic de souris dans la [vue 3D](3D_view/fr.md))
 
 ## Script
 
@@ -118,7 +118,7 @@ ToolBar Icon PNG ![](images/Macro_Rotate_To_Point.png ) SVG ![](images/Macro_Rot
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 from __future__ import unicode_literals
 """
 ***************************************************************************
@@ -153,24 +153,24 @@ from __future__ import unicode_literals
 """
 #
 #
-#OS: Windows 10 (10.0)
-#Word size of OS: 64-bit
-#Word size of FreeCAD: 64-bit
-#Version: 0.19.24219 (Git)
-#Build type: Release
-#Branch: master
-#Hash: 8c26baebab320b8c1c3279bc8eb34a1eb6c7a363
-#Python version: 3.6.8
-#Qt version: 5.12.1
-#Coin version: 4.0.0a
-#OCC version: 7.3.0
-#Locale: French/Mars (fr_Ma)
+#OS   * Windows 10 (10.0)
+#Word size of OS   * 64-bit
+#Word size of FreeCAD   * 64-bit
+#Version   * 0.19.24219 (Git)
+#Build type   * Release
+#Branch   * master
+#Hash   * 8c26baebab320b8c1c3279bc8eb34a1eb6c7a363
+#Python version   * 3.6.8
+#Qt version   * 5.12.1
+#Coin version   * 4.0.0a
+#OCC version   * 7.3.0
+#Locale   * French/Mars (fr_Ma)
 #
 #
 __title__   = "Rotate_To_Point"
 __author__  = "Mario52"
-__url__     = "https://www.freecadweb.org/"
-__Wiki__    = "https://www.freecadweb.org/wiki/Macro_Rotate_To_Point"
+__url__     = "https   *//www.freecadweb.org/"
+__Wiki__    = "https   *//www.freecadweb.org/wiki/Macro_Rotate_To_Point"
 __version__ = "00.10"
 __date__    = "2021/03/08"  #YYYY/MM/DD
 #
@@ -236,80 +236,80 @@ global path, path2                                                  #
 #path  = FreeCAD.ConfigGet("AppHomePath")                           # path FreeCAD installation
 #path  = FreeCAD.ConfigGet("UserAppData")                           # path FreeCAD User data
 #path  = "your path"                                                # your directory path
-param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
+param = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macro")# macro path
 path = param.GetString("MacroPath","") + "/"                        # macro path
 path = path.replace("\\","/")                                       # convert the "\" to "/"
-#print( "Path for the icons : " , path  )                            # 
+#print( "Path for the icons    * " , path  )                            # 
 #################################################################################
 
 global pathFile
 #### Configuration begin ##############################################################
-pathFile = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__ ).GetString("setLastPath")
-if pathFile == "":
+pathFile = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__ ).GetString("setLastPath")
+if pathFile == ""   *
     pathFile = path
-    FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetString("setLastPath",pathFile)
+    FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetString("setLastPath",pathFile)
 ####
-FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetString("Version",__version__ + " (" + __date__ + ")")
+FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetString("Version",__version__ + " (" + __date__ + ")")
 global switchZoomOnCilck
-switchZoomOnCilck = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).GetBool("switchZoomOnCilck")
-if switchZoomOnCilck == 0:
-    FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetBool("switchZoomOnCilck", switchZoomOnCilck)
+switchZoomOnCilck = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).GetBool("switchZoomOnCilck")
+if switchZoomOnCilck == 0   *
+    FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetBool("switchZoomOnCilck", switchZoomOnCilck)
 #### Configuration end   ##############################################################
 
 #### wiki help page ####
 import WebGui
 
-#def on_PB_Help(self): # 
-#    WebGui.openBrowser("http://www.freecadweb.org/wiki/index.php?title=xxxx")
-#    App.Console.PrintMessage("http://www.freecadweb.org/wiki/index.php?title=xxxx" + "\n")
+#def on_PB_Help(self)   * # 
+#    WebGui.openBrowser("http   *//www.freecadweb.org/wiki/index.php?title=xxxx")
+#    App.Console.PrintMessage("http   *//www.freecadweb.org/wiki/index.php?title=xxxx" + "\n")
 #### wiki help page ####
 
 global switchVersionMacroSearch#; switchVersionMacroSearch = False
-try:
-    def versionSearch():
+try   *
+    def versionSearch()   *
         import urllib
         import requests
-        contentPage = requests.get("https://wiki.freecadweb.org/Macro_" + __title__).text
-        for i in contentPage.split("\n"):            # list page to line
-            if "ctEven macro-version" in i:
+        contentPage = requests.get("https   *//wiki.freecadweb.org/Macro_" + __title__).text
+        for i in contentPage.split("\n")   *            # list page to line
+            if "ctEven macro-version" in i   *
                 versionDetect = (i.split(">")[1])
-            if "ctEven macro-date" in i:
+            if "ctEven macro-date" in i   *
                 dateDetect = (i.split(">")[1])
-            try:
-                if (len(versionDetect) != 0) and (len(dateDetect) != 0):
+            try   *
+                if (len(versionDetect) != 0) and (len(dateDetect) != 0)   *
                     break
-            except Exception:
+            except Exception   *
                 None
-        try:
-            if (versionDetect == __version__) and (dateDetect == __date__):
+        try   *
+            if (versionDetect == __version__) and (dateDetect == __date__)   *
                 None
-            else:
-                msg = ("New version availlable : " + "\n" + 
-                      str(versionDetect) + ":" + str(dateDetect) + "\n" + 
+            else   *
+                msg = ("New version availlable    * " + "\n" + 
+                      str(versionDetect) + "   *" + str(dateDetect) + "\n" + 
                       "You can install with AddonManager")
-                FreeCAD.Console.PrintMessage("your actual version    : " + str(__version__) + " : " + str(__date__) + "\n")
-                FreeCAD.Console.PrintMessage("new version availlable : " + str(versionDetect) + " : " + str(dateDetect) + "\n")
+                FreeCAD.Console.PrintMessage("your actual version       * " + str(__version__) + "    * " + str(__date__) + "\n")
+                FreeCAD.Console.PrintMessage("new version availlable    * " + str(versionDetect) + "    * " + str(dateDetect) + "\n")
                 diag = QtWidgets.QMessageBox(QtWidgets.QMessageBox.Information, 'New Version', msg)
                 diag.setWindowModality(QtCore.Qt.ApplicationModal)
                 diag.exec_()
-        except Exception:
+        except Exception   *
             None
         return versionDetect, dateDetect
     
-#    switchVersionMacroSearch = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).GetBool("switchVersionMacroSearch")
-#    if switchVersionMacroSearch == 0:
-#        FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetBool("switchVersionMacroSearch", switchVersionMacroSearch)
-#    if switchVersionMacroSearch == True:
+#    switchVersionMacroSearch = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).GetBool("switchVersionMacroSearch")
+#    if switchVersionMacroSearch == 0   *
+#        FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetBool("switchVersionMacroSearch", switchVersionMacroSearch)
+#    if switchVersionMacroSearch == True   *
 #        versionSearch()
-except Exception:
+except Exception   *
     FreeCAD.Console.PrintMessage("Failed to establish a connection" + "\n")
 #### Detect version macro ###########################################
 
-switchVersionMacroSearch = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).GetBool("switchVersionMacroSearch")
+switchVersionMacroSearch = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).GetBool("switchVersionMacroSearch")
 
-if switchVersionMacroSearch == 0:
-    FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetBool("switchVersionMacroSearch", switchVersionMacroSearch)
-if switchVersionMacroSearch == True:
+if switchVersionMacroSearch == 0   *
+    FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetBool("switchVersionMacroSearch", switchVersionMacroSearch)
+if switchVersionMacroSearch == True   *
     versionSearch()
 #### Detect version macro ###########################################
 
@@ -1294,9 +1294,9 @@ negatif_Icon = [
 
 
 global objectPlacementAngle ; objectPlacementAngle = ""
-def objectRealPlacement3D(obj):
+def objectRealPlacement3D(obj)   *
     global objectPlacementAngle
-    try:
+    try   *
         objectPlacement      = obj.Shape.Placement
         #### 
         objectPlacementBase  = FreeCAD.Vector(objectPlacement.Base)
@@ -1305,26 +1305,26 @@ def objectRealPlacement3D(obj):
         ####
         objectPlacementAngle = objectPlacement.Rotation.toEuler()
 
-        if hasattr(obj, "getGlobalPlacement"):
+        if hasattr(obj, "getGlobalPlacement")   *
             globalPlacement       = obj.getGlobalPlacement()
             globalPlacementBase   = FreeCAD.Vector(globalPlacement.Base)
             objectRealPlacement3D = globalPlacementBase.add(objectWorkCenter).sub(objectPlacementBase)
             objectPlacementAngle  = globalPlacement.Rotation.toEuler()
-        else:
+        else   *
             objectRealPlacement3D = objectWorkCenter
 
         return objectRealPlacement3D
-    except Exception:
+    except Exception   *
         return FreeCAD.Vector(0.0, 0.0, 0.0)
 
-try:
+try   *
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
+except AttributeError   *
+    def _fromUtf8(s)   *
         return s
         
-class Ui_MainWindow(object):
-    def __init__(self ):
+class Ui_MainWindow(object)   *
+    def __init__(self )   *
         global path, path2
         self.window = MainWindow
         self.path = path
@@ -1332,14 +1332,14 @@ class Ui_MainWindow(object):
         self.vueActive = FreeCADGui.ActiveDocument.ActiveView
         self.click = self.vueActive.addEventCallback("SoMouseButtonEvent",self.souris)
 
-    def souris(self,info):
+    def souris(self,info)   *
         global sourisPass
-        if (info["Button"] == "BUTTON1") and (info["State"] == "DOWN"):
+        if (info["Button"] == "BUTTON1") and (info["State"] == "DOWN")   *
             #time.sleep(0.02)
             sourisPass = 0
             #print("ok")
 
-    def setupUi(self, MainWindow):
+    def setupUi(self, MainWindow)   *
         self.window = MainWindow
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
         global saveListView
@@ -1347,7 +1347,7 @@ class Ui_MainWindow(object):
 #        MainWindow.resize(360, 300)
 #        MainWindow.setMinimumSize(QtCore.QSize(330, 10))
 #        MainWindow.setMaximumSize(QtCore.QSize(330, 330))
-#        MainWindow.setStyleSheet("background-color: rgb(50, 50, 50);")  
+#        MainWindow.setStyleSheet("background-color   * rgb(50, 50, 50);")  
 #        MainWindow.move(900, 100)
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -1387,7 +1387,7 @@ class Ui_MainWindow(object):
         self.RB_Rotation_Y.setIcon(QtGui.QIcon(QtGui.QPixmap(axis_Y_Icon))) # icone dans une variable 
         self.RB_Rotation_Y.clicked.connect(self.on_RB_Rotation_Y)
 #        self.RB_Angle_Y.setFont(QtGui.QFont(self.FontImpost,weight=QtGui.QFont.Bold))  # Bold
-#        self.RB_Angle_Y.setStyleSheet("color : #008700")                         # Color text
+#        self.RB_Angle_Y.setStyleSheet("color    * #008700")                         # Color text
 
         self.RB_Rotation_Z = QtWidgets.QRadioButton()
         self.RB_Rotation_Z.setIcon(QtGui.QIcon(QtGui.QPixmap(axis_X_Icon))) # icone dans une variable 
@@ -1513,7 +1513,7 @@ class Ui_MainWindow(object):
         self.TE_Memorize.setModel(saveListView)
         self.TE_Memorize.setSelectionRectVisible(True)#
         self.TE_Memorize.setAlternatingRowColors(True)#
-        self.TE_Memorize.setStyleSheet("alternate-background-color:#fdeeee;")
+        self.TE_Memorize.setStyleSheet("alternate-background-color   *#fdeeee;")
         self.TE_Memorize.clicked[QtCore.QModelIndex].connect(self.on_TE_Clicked)
 
         self.PB_Save_Memorize = QtWidgets.QPushButton()
@@ -1541,7 +1541,7 @@ class Ui_MainWindow(object):
         self.CB_DataInMacro.clicked.connect(self.On_CB_DataInMacro)
 
         self.label_00 = QtWidgets.QLabel()
-        self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+        self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
         ####
 
         self.groupBox_Command = QtWidgets.QGroupBox()
@@ -1649,12 +1649,12 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, MainWindow)   *
         global path
 
         MainWindow.setWindowFlags(PySide2.QtCore.Qt.WindowStaysOnTopHint)        # this function turns the front window (stay to hint)
         MainWindow.setWindowIcon(QtGui.QIcon(self.path+"Macro_Rotate_To_Point.png")) # change l'icone de la fenetre principale
-        MainWindow.setWindowTitle(__title__ + " (" + __version__ + " : " + __date__ + " (rmu)")
+        MainWindow.setWindowTitle(__title__ + " (" + __version__ + "    * " + __date__ + " (rmu)")
 
         _translate = QtCore.QCoreApplication.translate
         self.groupBox_Rotation.setTitle(_translate("MainWindow", "Point Rotation"))
@@ -1677,9 +1677,9 @@ class Ui_MainWindow(object):
         self.RB_Rotation_Z.setToolTip(_translate("MainWindow", "Rotation on Axis Roll (X)"))
         self.RB_Direction_D.setText(_translate("MainWindow", "Direction"))
         self.RB_Direction_D.setToolTip(_translate("MainWindow", "Rotation or Translation on Direction" + "\n"
-                                                                "For use the Direction option:" + "\n"
-                                                                "Select First: the object to Rotate/Translate" + "\n"
-                                                                "Second: the path: Line, Wire or Edge"))
+                                                                "For use the Direction option   *" + "\n"
+                                                                "Select First   * the object to Rotate/Translate" + "\n"
+                                                                "Second   * the path   * Line, Wire or Edge"))
         ####
         self.groupBox_Work.setTitle(_translate("MainWindow", "Work"))
         self.groupBox_Pos_Mouse.setTitle(_translate("MainWindow", "Coordinates Point clicked"))
@@ -1701,8 +1701,8 @@ class Ui_MainWindow(object):
         #
         #self.CBox_View.setItemText(0,_translate("MainWindow",  "0"))
         self.CBox_View.setToolTip(_translate("MainWindow", "Memorize the view associate with the Object worked" + "\n"
-                                             "For automate the zoom on object clicked, see:" + "\n"
-                                             "User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__ + " > switchZoomOnCilck" "\n"
+                                             "For automate the zoom on object clicked, see   *" + "\n"
+                                             "User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__ + " > switchZoomOnCilck" "\n"
                                              "and check the 'switchZoomOnCilck' option on True and restart " + __title__ ))
 
         self.CBox_Impost.setCurrentIndex(4)
@@ -1738,8 +1738,8 @@ class Ui_MainWindow(object):
         self.groupBox_Data.setTitle(_translate("MainWindow", "Data"))
         self.PB_Save_Memorize.setText(_translate("MainWindow", "Save"))
         self.PB_Save_Memorize.setToolTip(_translate("MainWindow", "Save the memorized placement" + "\n"
-                                                    "Format to save : [Placement.Base], [Placement.Rotation.toEuler]" + "\n"
-                                                    "Ex: [0.0,0.0,0.0],[0.0,0.0,0.0] with the ext: .CoorInfo" + "\n"
+                                                    "Format to save    * [Placement.Base], [Placement.Rotation.toEuler]" + "\n"
+                                                    "Ex   * [0.0,0.0,0.0],[0.0,0.0,0.0] with the ext   * .CoorInfo" + "\n"
                                                     "If the file exist, the data is saved in Append (adding) mode" + "\n"
                                                     "If the CheckBox is checked for a Macro the file is saved in Write mode"))
         self.PB_ClearMemo.setText(_translate("MainWindow", "Clear"))
@@ -1751,12 +1751,12 @@ class Ui_MainWindow(object):
         self.PB_Memorize.setToolTip(_translate("MainWindow", "Memorize the placement displayed"))
         self.CB_DataInMacro.setText(_translate("MainWindow", "Macro"))
         self.CB_DataInMacro.setToolTip(_translate("MainWindow", "If checked, the coordinate is saved in Python code (complete macro) in your Macro directory" + "\n"
-                                                                "Actual : " + path + "\n"
+                                                                "Actual    * " + path + "\n"
                                                                 "Select the object and run the macro" + "\n"
-                                                                "\t" + "The macro saved has various options :" + "\n"
+                                                                "\t" + "The macro saved has various options    *" + "\n"
                                                                 "\t" + " (Q)uit, (D)ecrease, (I)ncrease, (P)ause, (S)tep, (M)emo" + "\n"
                                                                 "If this is not checked, the data hare saved in coordinate mode" + "\n"
-                                                                "\t" + "Ex: [0.0,0.0,0.0],[0.0,0.0,0.0] with the ext: .CoorInfo" + "\n"))
+                                                                "\t" + "Ex   * [0.0,0.0,0.0],[0.0,0.0,0.0] with the ext   * .CoorInfo" + "\n"))
         self.CB_On_Click_Apply.setText(_translate("MainWindow", "Memo on click"))
         self.CB_On_Click_Apply.setToolTip(_translate("MainWindow", "Memorize the coordinates on all Click Apply button"))
         ####
@@ -1770,7 +1770,7 @@ class Ui_MainWindow(object):
         self.PB_Zero.setText(_translate("MainWindow", "0,0,0"))
         self.PB_Zero.setToolTip(_translate("MainWindow", "Move the object to the base coordinates 0, 0, 0"))
 
-    def on_DS_Pos_Mouse_X(self,val):
+    def on_DS_Pos_Mouse_X(self,val)   *
         global positionMouse
         global axisX
 
@@ -1779,7 +1779,7 @@ class Ui_MainWindow(object):
         self.DS_Pos_Mouse_X.setValue(axisX)
 #        print("on_DS_Pos_Mouse_X ", val)
 
-    def on_DS_Pos_Mouse_Y(self,val):
+    def on_DS_Pos_Mouse_Y(self,val)   *
         global positionMouse
         global axisY
 
@@ -1788,7 +1788,7 @@ class Ui_MainWindow(object):
         self.DS_Pos_Mouse_Y.setValue(axisY)
 #        print("on_DS_Pos_Mouse_Y ", val)
 
-    def on_DS_Pos_Mouse_Z(self,val):
+    def on_DS_Pos_Mouse_Z(self,val)   *
         global positionMouse
         global axisZ
 
@@ -1797,31 +1797,31 @@ class Ui_MainWindow(object):
         self.DS_Pos_Mouse_Z.setValue(axisZ)
 #        print("on_DS_Pos_Mouse_Z ", val)
 
-#    def on_SC_Slider_Bar(self,val):
+#    def on_SC_Slider_Bar(self,val)   *
 #        global ui
 #        global valeur
 #        global myObject
 #
-#        if (myObject != "") and (self.CB_Free.isChecked()):
+#        if (myObject != "") and (self.CB_Free.isChecked())   *
 #            valeur = val
 #            self.DS_Value_Angle_Dimension.setValue(1)
 #            self.SC_Slider_Bar.setValue(valeur)
 #            ui.on_PB_Apply_clicked()
 #
-##            if self.CB_Free.isChecked():
+##            if self.CB_Free.isChecked()   *
 ##                ui.on_PB_Apply_clicked()
-##        else:
+##        else   *
 ##            self.DS_Value_Angle_Dimension.setValue(0.0)
 ##            self.SC_Slider_Bar.setValue(0.0)
 
 #        print("on_SC_Scroll_Bar ", valeur)
 
-    def on_PB_Delete_Line_Memory(self):    #self.TE_Memorize    #QListView
+    def on_PB_Delete_Line_Memory(self)   *    #self.TE_Memorize    #QListView
         global countMemory
         global saveOnDisk
 
         self.model = model = QtGui.QStandardItemModel()
-        try:
+        try   *
             self.PB_Delete_Line_Memory.setStyleSheet("Base")
             lineSelected = self.TE_Memorize.selectionModel().selectedRows()[0].row()
             #textLigne = self.TE_Memorize.selectionModel().currentIndex().data() # affiche la ligne selectionnee
@@ -1829,11 +1829,11 @@ class Ui_MainWindow(object):
             del saveOnDisk[lineSelected]
             countMemory -= 1
             self.PB_Memorize.setText("Memo (" + str(countMemory) + ")")
-        except Exception:
-            self.PB_Delete_Line_Memory.setStyleSheet("background-color: rgb(255, 0, 0)")
+        except Exception   *
+            self.PB_Delete_Line_Memory.setStyleSheet("background-color   * rgb(255, 0, 0)")
 #        print("on_PB_Delete_Line_Memory ")
 
-    def on_TE_Clicked(self, index):    # click dans la fenetre 
+    def on_TE_Clicked(self, index)   *    # click dans la fenetre 
         global saveOnDisk
         global saveListView
         global memorySelected        
@@ -1841,11 +1841,11 @@ class Ui_MainWindow(object):
 ####ori colore la ligne######
 #        item = saveListView.itemFromIndex(index)
 #        item.setBackground(QtGui.QBrush(QtGui.QColor("#ef1919")))
-#        if (item.index().row()) in memorySelected:
+#        if (item.index().row()) in memorySelected   *
 ##            memorySelected.remove(item.index().row())
 #            baseBackground = self.TE_Memorize.palette().color(QPalette.Window)
 #            item.setBackground(QtGui.QBrush(QtGui.QColor(baseBackground)))
-#        else:
+#        else   *
 #            memorySelected.append(item.index().row())
 ##        print(memorySelected)
 ####ori colore la ligne######
@@ -1855,10 +1855,10 @@ class Ui_MainWindow(object):
         memorySelected.append(item.index().row())
 #        print("on_TE_Clicked ",memorySelected[0])    #self.TE_Memorize
 
-    def on_PB_PointCenter(self):
+    def on_PB_PointCenter(self)   *
         global objectPlacementAngle
 
-        try:
+        try   *
             sel = FreeCADGui.Selection.getSelection()
             placementOrigine = objectRealPlacement3D(FreeCAD.ActiveDocument.getObject(sel[0].Name))# search the original Placement
             Part.show(FreeCADGui.Selection.getSelectionEx()[0].SubObjects[0].copy())               # create repro shape subObject
@@ -1869,15 +1869,15 @@ class Ui_MainWindow(object):
             App.ActiveDocument.ActiveObject.recompute()
             #App.ActiveDocument.ActiveObject.touch()
             App.ActiveDocument.ActiveObject.purgeTouched()
-        except Exception:
-            self.PB_PointCenter.setStyleSheet("background-color: red")
-        try:
+        except Exception   *
+            self.PB_PointCenter.setStyleSheet("background-color   * red")
+        try   *
             App.ActiveDocument.removeObject(a.Name)
-        except Exception:
+        except Exception   *
             None
 #        print("on_PB_PointCenter")
 
-    def on_PB_Memorize(self):
+    def on_PB_Memorize(self)   *
         global myObject
         global myObjectName
         global saveOnDisk
@@ -1885,7 +1885,7 @@ class Ui_MainWindow(object):
         global countMemory
         global valeur
 
-#        if (valeur != 0):
+#        if (valeur != 0)   *
         self.PB_Memorize.setIcon(QtGui.QIcon(QtGui.QPixmap(memo_Allume_Icon))) # icone dans une variable 
         countMemory += 1
         xPB = str(myObject.Placement.Base[0])
@@ -1901,69 +1901,69 @@ class Ui_MainWindow(object):
         ####
         saveOnDisk.append(dummy)
         self.PB_Memorize.setText("Memo (" + str(countMemory) + ")")
-        self.PB_Memorize.setStyleSheet("background-color: rgb(188, 245, 169)"); # bouton
+        self.PB_Memorize.setStyleSheet("background-color   * rgb(188, 245, 169)"); # bouton
         self.PB_Delete_Line_Memory.setStyleSheet("Base")
         item = QtGui.QStandardItem(dummy)
         saveListView.appendRow(item)
-#        else:
-#            self.PB_Memorize.setStyleSheet("background-color: #ff0000;")
+#        else   *
+#            self.PB_Memorize.setStyleSheet("background-color   * #ff0000;")
 #            self.PB_Memorize.setIcon(QtGui.QIcon(QtGui.QPixmap(memo_Eteint_Icon))) # icone dans une variable 
 ##        print("on_PB_Memorize ",saveListView,"  ",str(countMemory))
 
-    def on_PB_Save_Memorize(self):  # Save_Memorize in macro file
+    def on_PB_Save_Memorize(self)   *  # Save_Memorize in macro file
         global pathFile
         global saveOnDisk
         global countMemory
         global path
 
-        if countMemory != 0:
-            if self.CB_DataInMacro.isChecked():
+        if countMemory != 0   *
+            if self.CB_DataInMacro.isChecked()   *
 #                SaveName, Filter = PySide2.QtWidgets.QFileDialog.getSaveFileName(None, "Save a file FCMacro", path, "FCMacro (*.FCMacro);;Python (*.py)")                   # PySide2
                 nomMacro = FreeCAD.ActiveDocument.Name
                 SaveName, Filter = PySide2.QtWidgets.QFileDialog.getSaveFileName(None, "Save a file FCMacro", path + nomMacro, "(*.FCMacro);;Python (*.py)") # PySide2
-            else:
+            else   *
                 SaveName, Filter = PySide2.QtWidgets.QFileDialog.getSaveFileName(None, "Save a file CoorInfo", pathFile, "CoorInfo (*.CoorInfo);;Ascii (*.asc);;TXT (*.txt)")   # PySide2
 
-            if SaveName == "":                                                            # if the name file are not selected then Abord process
+            if SaveName == ""   *                                                            # if the name file are not selected then Abord process
                 App.Console.PrintMessage("Process aborted"+"\n")
-            else:                                                                         # if the name file are selected or created then 
+            else   *                                                                         # if the name file are selected or created then 
                 ####new2
-                pathFile      = os.path.dirname(SaveName) + "/"  #= C:/Provisoire400/
+                pathFile      = os.path.dirname(SaveName) + "/"  #= C   */Provisoire400/
                 formatFichier = os.path.splitext(SaveName)[1]    #= .png
-                SaveName      = os.path.splitext(SaveName)[0]    #= /home/kubuntu/.FreeCAD/Macro/Texture_007_H #= C:/Provisoire400/image3D
-                SaveNameformatFichier = SaveName + formatFichier #= C:/Provisoire400/image3D.png
+                SaveName      = os.path.splitext(SaveName)[0]    #= /home/kubuntu/.FreeCAD/Macro/Texture_007_H #= C   */Provisoire400/image3D
+                SaveNameformatFichier = SaveName + formatFichier #= C   */Provisoire400/image3D.png
                 ####new2
                 
                 ######## sauve le dernier chemin utilise si n'est pas une macro########
-                if self.CB_DataInMacro.isChecked():
+                if self.CB_DataInMacro.isChecked()   *
                     None
-                else:
-                    FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetString("setLastPath",pathFile)
+                else   *
+                    FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetString("setLastPath",pathFile)
                 ######## sauve le dernier chemin utilise si n'est pas une macro########
 
                 App.Console.PrintMessage("Registration of "+SaveNameformatFichier+"\n")
-                try:
-                    if self.CB_DataInMacro.isChecked():
+                try   *
+                    if self.CB_DataInMacro.isChecked()   *
                         file = open(SaveNameformatFichier, 'w') #'w'write
-                    else:
+                    else   *
                         file = open(SaveNameformatFichier, 'a') #'a'append
-                    try:
+                    try   *
                         #### macro first section begin
-                        if self.CB_DataInMacro.isChecked():
-                            file.write("# -*- coding: utf-8 -*-" + "\n")
+                        if self.CB_DataInMacro.isChecked()   *
+                            file.write("# -*- coding   * utf-8 -*-" + "\n")
                             file.write("##" + "\n")
-                            try:
+                            try   *
                                 nameAuthor = str(unicodedata.normalize('NFD', __author__).encode('ascii','ignore'))
-                            except Exception: nameAuthor = "Sir X"
-                            try:
-                                file.write("##Created by   : " + __title__ + " : " + __version__ + ":" + __date__ + "  : " + nameAuthor + "\n")
-                                file.write("##Document     : " + FreeCAD.ActiveDocument.Name + "\n")
-                                #file.write("##Date         : " + str(QDate.currentDate().toString()) + "\n")           # mer. mars 3 2021
-                                file.write("##Date         : " + str(QDate.currentDate().toString("yyyy/MM/dd")) + "    # yyyy/MM/dd" + "\n")
-                                file.write("##Object(First): " + str(FreeCADGui.Selection.getSelection()[0].Name) + "\n")
-                                file.write("##Coordinates  : " + str(countMemory) + "\n")
+                            except Exception   * nameAuthor = "Sir X"
+                            try   *
+                                file.write("##Created by      * " + __title__ + "    * " + __version__ + "   *" + __date__ + "     * " + nameAuthor + "\n")
+                                file.write("##Document        * " + FreeCAD.ActiveDocument.Name + "\n")
+                                #file.write("##Date            * " + str(QDate.currentDate().toString()) + "\n")           # mer. mars 3 2021
+                                file.write("##Date            * " + str(QDate.currentDate().toString("yyyy/MM/dd")) + "    # yyyy/MM/dd" + "\n")
+                                file.write("##Object(First)   * " + str(FreeCADGui.Selection.getSelection()[0].Name) + "\n")
+                                file.write("##Coordinates     * " + str(countMemory) + "\n")
                                 file.write("##" + "\n")
-                            except Exception: None
+                            except Exception   * None
                             file.write("import Draft, Part" + "\n")
                             file.write("import PySide2" + "\n")
                             file.write("from pivy import coin" + "\n")
@@ -1979,7 +1979,7 @@ class Ui_MainWindow(object):
                             file.write("global v, o, c" + "\n")
                             file.write("global vitesse ; vitesse  = 0.02" + "\n")
                             file.write("" + "\n")
-                            file.write("def help():" + "\n")
+                            file.write("def help()   *" + "\n")
                             file.write("    global xxData" + "\n")
                             file.write("    global Document" + "\n")
                             file.write('    App.Console.PrintMessage("__' + FreeCAD.ActiveDocument.Name + '__"+"' + chr(92) + 'n")' + "\n")
@@ -1993,49 +1993,49 @@ class Ui_MainWindow(object):
                             file.write('    App.Console.PrintMessage("Type Key M for this message"+"' + chr(92) + 'n")' +  "\n")
                             file.write('    App.Console.PrintMessage("____________________________"+"' + chr(92) + 'n")' +  "\n")
                             file.write('\n')
-                            file.write('class ViewObserver:' +  "\n")
-                            file.write('    def logPosition(self, info):' +  "\n")
+                            file.write('class ViewObserver   *' +  "\n")
+                            file.write('    def logPosition(self, info)   *' +  "\n")
                             file.write('        global xxKey' +  "\n")
                             file.write('        global v, o, c' +  "\n")
                             file.write('        global vitesse' +  "\n")
                             file.write('' +  "\n")
                             file.write('        xxKey = info["Key"].upper()' +  "\n")
-                            file.write('        if xxKey in "QIDPSRM" or xxKey == "RETURN" or xxKey == "PAD_ENTER" or xxKey == "ESCAPE":' +  "\n")
-                            file.write('            if (xxKey == "Q"):                        # Quit' +  "\n")
+                            file.write('        if xxKey in "QIDPSRM" or xxKey == "RETURN" or xxKey == "PAD_ENTER" or xxKey == "ESCAPE"   *' +  "\n")
+                            file.write('            if (xxKey == "Q")   *                        # Quit' +  "\n")
                             file.write('                v.removeEventCallback("SoKeyboardEvent",c)' +  "\n")
                             file.write('                FreeCAD.Console.PrintMessage("End " + Document + "' + chr(92) + 'n")' +  "\n")
                             file.write('' +  "\n")
-                            file.write('            if (xxKey == "I"):                        # Increase' +  "\n")
+                            file.write('            if (xxKey == "I")   *                        # Increase' +  "\n")
                             file.write('                vitesse -= 0.01' +  "\n")
-                            file.write('                if vitesse <= 0:' +  "\n")
+                            file.write('                if vitesse <= 0   *' +  "\n")
                             file.write('                    vitesse = 0' +  "\n")
                             file.write('                    App.Console.PrintMessage("Speed maximum"+"' + chr(92) + 'n")' +  "\n")
-                            file.write('                else:' +  "\n")
+                            file.write('                else   *' +  "\n")
                             file.write('                    App.Console.PrintMessage(str(vitesse)+"' + chr(92) + 'n")' +  "\n")
                             file.write('' +  "\n")
-                            file.write('            if (xxKey == "D"):                        # Decrease' +  "\n")
+                            file.write('            if (xxKey == "D")   *                        # Decrease' +  "\n")
                             file.write('                vitesse += 0.01' +  "\n")
                             file.write('                App.Console.PrintMessage(str(vitesse)+"' + chr(92) + 'n")' +  "\n")
                             file.write('' +  "\n")
-                            file.write('            if (xxKey == "R"):                        # Reverse' +  "\n")
+                            file.write('            if (xxKey == "R")   *                        # Reverse' +  "\n")
                             file.write('                xxData.reverse()' +  "\n")
                             file.write('' +  "\n")
-                            file.write('            if (xxKey == "M"):                        # Help memo' +  "\n")
+                            file.write('            if (xxKey == "M")   *                        # Help memo' +  "\n")
                             file.write('                help()' +  "\n")
                             file.write('##Begin of file' + "\n")
                             file.write('xxData = [' + "\n")
                         #### macro first section end
                         #### save data
-                        for i in saveOnDisk:
+                        for i in saveOnDisk   *
                             file.write(i + "\n")
                         #### save data
                         #### macro second section begin
-                        if self.CB_DataInMacro.isChecked():
+                        if self.CB_DataInMacro.isChecked()   *
                             file.write(']' + "\n")
                             file.write('##End of file' + "\n")
                             file.write('' + "\n")
-                            file.write('createPoint = 0    # 0=not point 1=create point #used by "S" :Step to Step' + "\n")
-                            file.write('try:' + "\n")
+                            file.write('createPoint = 0    # 0=not point 1=create point #used by "S"    *Step to Step' + "\n")
+                            file.write('try   *' + "\n")
                             file.write('    v = Gui.activeDocument().activeView()' + "\n")
                             file.write('    o = ViewObserver()' + "\n")
                             file.write('    c = v.addEventCallback("SoKeyboardEvent",o.logPosition)' + "\n")
@@ -2045,10 +2045,10 @@ class Ui_MainWindow(object):
                             file.write('    help()    #help message' + "\n")
                             file.write('' + "\n")
                             file.write('    ##Loop' + "\n")
-                            file.write('    while xxKey != "Q":' + "\n")
+                            file.write('    while xxKey != "Q"   *' + "\n")
                             file.write('            comptCoordinate = -1          # coordinte 0 to ...x' + "\n")
-                            file.write('            for p in xxData:' + "\n")
-                            file.write('                #if (xxKey == "Q"): break # Quit the loop after finish the complete loop (commented by default: if used quit the loop as is)' + "\n")
+                            file.write('            for p in xxData   *' + "\n")
+                            file.write('                #if (xxKey == "Q")   * break # Quit the loop after finish the complete loop (commented by default   * if used quit the loop as is)' + "\n")
                             file.write('                comptCoordinate += 1' + "\n")
                             file.write('                ##         p[1]=Coordinate x,y,z;  p[2]=Rotation angle x (Roll), y (Pitch), z (Yaw)' + "\n")
                             file.write('                px = float(p[1][0]);    rx = float(p[2][0])' + "\n")
@@ -2058,60 +2058,60 @@ class Ui_MainWindow(object):
                             file.write('                Gui.updateGui()                                            # rafraichi l''ecran' + "\n")
                             file.write('                time.sleep(vitesse)' + "\n")
                             file.write('' + "\n")
-                            file.write('                if xxKey == "P":                                           # Pause' + "\n")
+                            file.write('                if xxKey == "P"   *                                           # Pause' + "\n")
                             file.write('                    xxKey = ""' + "\n")
                             file.write('                    comptLoop = 0' + "\n")
-                            file.write('                    while xxKey != "P":' + "\n")
-                            file.write('                        if xxKey == "RETURN" or xxKey == "PAD_ENTER" or xxKey == "ESCAPE": break' + "\n")
+                            file.write('                    while xxKey != "P"   *' + "\n")
+                            file.write('                        if xxKey == "RETURN" or xxKey == "PAD_ENTER" or xxKey == "ESCAPE"   * break' + "\n")
                             file.write('                        comptLoop += 1' + "\n")
-                            file.write('                        if comptLoop > 50000:' + "\n")
+                            file.write('                        if comptLoop > 50000   *' + "\n")
                             file.write('                            comptLoop = 0' + "\n")
-                            file.write('                            App.Console.PrintError("You is in mode Pause : Type P or RETURN or ESCAPE to continue" + "' + chr(92) + 'n")' + "\n")
+                            file.write('                            App.Console.PrintError("You is in mode Pause    * Type P or RETURN or ESCAPE to continue" + "' + chr(92) + 'n")' + "\n")
                             file.write('                        Gui.updateGui()                                    # rafraichi l''ecran' + "\n")
                             file.write('                    xxKey = ""' + "\n")
                             file.write('' + "\n")
-                            file.write('                if xxKey == "S":                                           # Step by Step' + "\n")
+                            file.write('                if xxKey == "S"   *                                           # Step by Step' + "\n")
                             file.write('                    App.Console.PrintMessage(str(App.ActiveDocument.getObject(p[0]).Placement) + " #(" + str(comptCoordinate) + ")" + "' + chr(92) + 'n")' + "\n")
                             file.write('                    ####' + "\n")
-                            file.write('                    if createPoint == 1:' + "\n")
+                            file.write('                    if createPoint == 1   *' + "\n")
                             file.write('                        point = Draft.makePoint(App.ActiveDocument.getObject(p[0]).Placement.Base)   # create point to Placement.Base' + "\n")
                             file.write('                        Draft.autogroup(point)                             #' + "\n")
                             file.write('                        FreeCAD.ActiveDocument.recompute()                 #' + "\n")
                             file.write('                    ####' + "\n")
                             file.write('                    xxKey = ""' + "\n")
-                            file.write('                    while xxKey != "S":' + "\n")
-                            file.write('                        if xxKey == "RETURN" or xxKey == "PAD_ENTER" or xxKey == "ESCAPE": break' + "\n")
+                            file.write('                    while xxKey != "S"   *' + "\n")
+                            file.write('                        if xxKey == "RETURN" or xxKey == "PAD_ENTER" or xxKey == "ESCAPE"   * break' + "\n")
                             file.write('                        xxKey = ""' + "\n")
                             file.write('                        Gui.updateGui()                                    # rafraichi l''ecran' + "\n")
                             file.write('' + "\n")
-                            file.write('except Exception:' + "\n")
+                            file.write('except Exception   *' + "\n")
                             file.write('    FreeCAD.Console.PrintError("' + chr(92) + 'n"+"Not document open, or not object selected" + "' + chr(92) + 'n")' + "\n")
-                            file.write('    try:' + "\n")
+                            file.write('    try   *' + "\n")
                             file.write('         v.removeEventCallback("SoKeyboardEvent",c)' + "\n")
-                            file.write('    except Exception:' + "\n")
+                            file.write('    except Exception   *' + "\n")
                             file.write('        None' + "\n")
                             file.write('' + "\n")
                         #### macro second section end
 
-                    except Exception:
-                        self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+                    except Exception   *
+                        self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
                         self.label_00.setText(" Error write file")
 #                        App.Console.PrintError("Error write file "+"\n")
-                    finally:
+                    finally   *
                         file.close()
-                except Exception:
-                    self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+                except Exception   *
+                    self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
                     self.label_00.setText(" Error Write file " + SaveName)
 #                    App.Console.PrintError("Error Write file " + SaveName+"\n")
 #        print("on_PB_Save_Memorize")
 
-    def on_PB_ClearMemo(self):
+    def on_PB_ClearMemo(self)   *
         global saveOnDisk
         global saveListView
         global countMemory
         global memorySelected
 
-        try:
+        try   *
             model = saveListView = QtGui.QStandardItemModel()
             self.TE_Memorize.model().removeRows(0, countMemory)# model.rowCount()
             saveOnDisk     = []
@@ -2121,34 +2121,34 @@ class Ui_MainWindow(object):
             self.PB_Memorize.setText("Memo")
             self.PB_Memorize.setStyleSheet("Base")
             self.PB_Memorize.setIcon(QtGui.QIcon(QtGui.QPixmap(memo_Eteint_Icon))) # icone dans une variable 
-        except Exception:
+        except Exception   *
             None
 #        print("on_PB_ClearMemo")
 
-    def on_CB_On_Click_Apply(self):
+    def on_CB_On_Click_Apply(self)   *
 
-        if self.CB_On_Click_Apply.isChecked():
+        if self.CB_On_Click_Apply.isChecked()   *
             self.CB_On_Click_Apply.setIcon(QtGui.QIcon(QtGui.QPixmap(normalWork_Icon))) # icone dans une variable 
             self.CB_On_Click_Apply.setText(u"Memo on demand")
             self.CB_On_Click_Apply.setToolTip(u"Memorize the coordinates on demand")
             self.PB_Memorize.setIcon(QtGui.QIcon(QtGui.QPixmap(memo_Allume_Icon))) # icone dans une variable 
             self.groupBox_Data.setEnabled(True)
-        else:
+        else   *
             self.CB_On_Click_Apply.setIcon(QtGui.QIcon(QtGui.QPixmap(OnClickApply_Icon))) # icone dans une variable 
             self.CB_On_Click_Apply.setText(u"Memo on click")
             self.CB_On_Click_Apply.setToolTip(u"Memorize the coordinates on all Click Apply button")
 #        print("on_CB_On_Click_Apply")
 
-    def On_CB_DataInMacro(self):
+    def On_CB_DataInMacro(self)   *
 
-        if self.CB_DataInMacro.isChecked():
+        if self.CB_DataInMacro.isChecked()   *
             self.CB_DataInMacro.setIcon(QtGui.QIcon(QtGui.QPixmap(code_FC_Icon))) # icone dans une variable 
             self.CB_DataInMacro.setText(u"Coordinate")
             self.PB_Save_Memorize.setText("Save (wr)")
             self.PB_Save_Memorize.setToolTip("The file is open in mode Write" + "\n"
                                              "If the file exist, the file is crushed" + "\n"
                                              "")
-        else:
+        else   *
             self.CB_DataInMacro.setIcon(QtGui.QIcon(QtGui.QPixmap(code_Python_Icon))) # icone dans une variable 
             self.CB_DataInMacro.setText(u"Macro")
             self.PB_Save_Memorize.setText("Save (ap)")
@@ -2157,7 +2157,7 @@ class Ui_MainWindow(object):
                                              "")
 #        print("On_CB_DataInMacro")
 
-    def on_DS_Value_Angle_Dimension(self,val):
+    def on_DS_Value_Angle_Dimension(self,val)   *
         global valeur
         global myObject
         global axisX, axisY, axisZ
@@ -2165,32 +2165,32 @@ class Ui_MainWindow(object):
         global rotAngleX, rotAngleY, rotAngleZ
 
         valeur = val
-        if (myObject == "") or (valeur == 0):
+        if (myObject == "") or (valeur == 0)   *
             self.PB_Memorize.setIcon(QtGui.QIcon(QtGui.QPixmap(memo_Eteint_Icon))) # icone dans une variable 
             self.DS_Value_Angle_Dimension.setValue(0.0)
-            self.DS_Value_Angle_Dimension.setStyleSheet("background-color: rgb(250, 88, 88)")
+            self.DS_Value_Angle_Dimension.setStyleSheet("background-color   * rgb(250, 88, 88)")
 #            self.SC_Slider_Bar.setValue(0.0)
             None
-        else:
+        else   *
             self.PB_Memorize.setIcon(QtGui.QIcon(QtGui.QPixmap(memo_Allume_Icon))) # icone dans une variable 
             self.DS_Value_Angle_Dimension.setStyleSheet("Base")
             self.PB_Memorize.setStyleSheet("Base")
 #            self.SC_Slider_Bar.setValue(valeur)
-            if self.CB_Position.isChecked():                 # translate
+            if self.CB_Position.isChecked()   *                 # translate
 
-                if self.RB_Rotation_X.isChecked():
+                if self.RB_Rotation_X.isChecked()   *
                     posX = valeur
                     posY = posZ = 0.0
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[0],4) + valeur))
-                elif self.RB_Rotation_Y.isChecked():
+                elif self.RB_Rotation_Y.isChecked()   *
                     posY = valeur
                     posX = posZ = 0.0
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[1],4) + valeur))
-                elif self.RB_Rotation_Z.isChecked():
+                elif self.RB_Rotation_Z.isChecked()   *
                     posZ = valeur
                     posX = posY = 0.0
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[2],4) + valeur))
-                elif self.RB_Direction_D.isChecked():
+                elif self.RB_Direction_D.isChecked()   *
                     posZ = valeur
                     posX = posY = 0.0
                     xD = str(round(myObject.Placement.Base[0],4))
@@ -2203,21 +2203,21 @@ class Ui_MainWindow(object):
                                                  str(round(myObject.Placement.Base[2],2))+")] " +
                                       "[Axis=("+ str(round(axisX,2)) + " , " + str(round(axisY,2)) + " , " + str(round(axisZ,2)) + ")]")
 
-            else:                                            # rotation
+            else   *                                            # rotation
 
-                if self.RB_Rotation_X.isChecked():
+                if self.RB_Rotation_X.isChecked()   *
                     rotAngleX = valeur
                     rotAngleY = rotAngleZ = 0.0
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[0],4) + valeur))
-                elif self.RB_Rotation_Y.isChecked():
+                elif self.RB_Rotation_Y.isChecked()   *
                     rotAngleY = valeur
                     rotAngleZ = rotAngleX = 0.0
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[1],4) + valeur))
-                elif self.RB_Rotation_Z.isChecked():
+                elif self.RB_Rotation_Z.isChecked()   *
                     rotAngleZ = valeur
                     rotAngleX = rotAngleY = 0.0
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[2],4) + valeur))
-                elif self.RB_Direction_D.isChecked():
+                elif self.RB_Direction_D.isChecked()   *
                     rotAngleZ = valeur
                     rotAngleX = rotAngleY = 0.0
                     xD = str(round(myObject.Placement.Rotation.toEuler()[0],4))
@@ -2229,49 +2229,49 @@ class Ui_MainWindow(object):
                                       "[Axis=("+ str(round(axisX,2)) + " , " + str(round(axisY,2)) + " , " + str(round(axisZ,2)) + ")]")
 #        print("on_DS_Value_Angle_Dimension ", valeur)
 
-    def on_PB_Negatif_clicked(self):
+    def on_PB_Negatif_clicked(self)   *
 
-        if valeur < 0:
+        if valeur < 0   *
             self.PB_Negatif.setIcon(QtGui.QIcon(QtGui.QPixmap(negatif_Icon))) # icone dans une variable 
-        else:
+        else   *
             self.PB_Negatif.setIcon(QtGui.QIcon(QtGui.QPixmap(positif_Icon))) # icone dans une variable 
 
         self.DS_Value_Angle_Dimension.setValue(-valeur)    # !?
 #        print("on_PB_Negatif_clicked")
 
-    def on_CBox_View(self,text):  # memory view on object worked
+    def on_CBox_View(self,text)   *  # memory view on object worked
         global duplicate_View
         global myObjectName
         global switchZoomOnCilck
 
-        if text == "Empty":
+        if text == "Empty"   *
             #duplicate_View = sorted(list(set(duplicate_View))) # trie et tire les doublons
             duplicate_View = sorted(duplicate_View, key=itemgetter(0)) # sort
-            try:          # supprime les doublons apres avoir ete trie (sorted)
+            try   *          # supprime les doublons apres avoir ete trie (sorted)
                 doublon = 1
-                while doublon < len(duplicate_View):
-                    if (duplicate_View[doublon][0] == duplicate_View[doublon-1][0]):
+                while doublon < len(duplicate_View)   *
+                    if (duplicate_View[doublon][0] == duplicate_View[doublon-1][0])   *
                         del duplicate_View[doublon-1]
                         doublon -= 1
                     doublon += 1
-            except Exception:
+            except Exception   *
                 None
             self.CBox_View.blockSignals(True)
             self.CBox_View.clear()
-            for i in range(len(duplicate_View)):    # copie les noms tries dans ComboBox_View
+            for i in range(len(duplicate_View))   *    # copie les noms tries dans ComboBox_View
                 self.CBox_View.addItem(duplicate_View[i][0])
                 self.CBox_View.blockSignals(False)
             #self.CBox_View.setItemText(0,_translate("MainWindow",  "0"))
-        else:
-            for i in range(len(duplicate_View)):
-                if text == duplicate_View[i][0]:
+        else   *
+            for i in range(len(duplicate_View))   *
+                if text == duplicate_View[i][0]   *
                     Gui.ActiveDocument.ActiveView.setCamera(duplicate_View[i][1])    #restore previously stored camera settings
                     ##camera = Gui.ActiveDocument.ActiveView.getCamera()              #store camera settings to 'cam'
 #        print("on_CBox_View ",text)
 
-    def on_CBox_Impost(self,text):  # value length and degrees
+    def on_CBox_Impost(self,text)   *  # value length and degrees
 
-        if self.CB_Position.isChecked():
+        if self.CB_Position.isChecked()   *
             self.CBox_Impost.setCurrentIndex(4)
             self.CBox_Impost.setItemText(0, "0.0001")
             self.CBox_Impost.setItemText(1, "0.001")
@@ -2289,7 +2289,7 @@ class Ui_MainWindow(object):
             self.CBox_Impost.setItemText(13, "1000")
             self.CBox_Impost.setItemText(14, "5000")
             self.CBox_Impost.setItemText(15, "10000")
-        else:
+        else   *
             self.CBox_Impost.setCurrentIndex(4)
             self.CBox_Impost.setItemText(0, "0.0001")
             self.CBox_Impost.setItemText(1, "0.001")
@@ -2310,7 +2310,7 @@ class Ui_MainWindow(object):
         self.DS_Value_Angle_Dimension.setProperty("value", text)
 #        print("on_CBox_Impost ",text)
 
-    def on_CBox_Memory(self,text):  # memory the value sort and delete duplicate
+    def on_CBox_Memory(self,text)   *  # memory the value sort and delete duplicate
         global duplicate_Memory
 
         self.DS_Value_Angle_Dimension.setValue(float(text))
@@ -2318,16 +2318,16 @@ class Ui_MainWindow(object):
         duplicate_Memory = sorted(list(set(duplicate_Memory))) # sort
         self.CBox_Memory.blockSignals(True)
         self.CBox_Memory.clear()
-        for i in range(len(duplicate_Memory)):
+        for i in range(len(duplicate_Memory))   *
             self.CBox_Memory.addItem(str(duplicate_Memory[i]))
             self.CBox_Memory.blockSignals(False)
 #        print("on_CBox_Memory ",text)
 
-    def on_LE_Increment_Pressed(self,text):
+    def on_LE_Increment_Pressed(self,text)   *
         None
 #        print("on_LE_Increment_Pressed")
 
-    def on_PB_Apply_clicked(self):
+    def on_PB_Apply_clicked(self)   *
         global valeur
         global selM
         global myObject
@@ -2338,14 +2338,14 @@ class Ui_MainWindow(object):
         global posX, posY, posZ
         global rotAngleX, rotAngleY, rotAngleZ
 
-        if (myObject == "") or (valeur == 0):
-            self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+        if (myObject == "") or (valeur == 0)   *
+            self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
             self.label_00.setText(" Select one Object or give one value Angle/Dimension")
 #            FreeCAD.Console.PrintError("Select one Object or give one value Angle/Dimension" + "\n")
             self.PB_Memorize.setIcon(QtGui.QIcon(QtGui.QPixmap(memo_Eteint_Icon))) # icone dans une variable 
-            if valeur == 0:
-                self.DS_Value_Angle_Dimension.setStyleSheet("background-color: rgb(250, 88, 88)")
-        else:
+            if valeur == 0   *
+                self.DS_Value_Angle_Dimension.setStyleSheet("background-color   * rgb(250, 88, 88)")
+        else   *
             self.PB_Memorize.setIcon(QtGui.QIcon(QtGui.QPixmap(memo_Allume_Icon))) # icone dans une variable 
 
             #Gui.ActiveDocument.ActiveView.setCamera(camera)    #restore previously stored camera settings
@@ -2355,47 +2355,47 @@ class Ui_MainWindow(object):
             self.on_CBox_View("Empty")
             self.on_CBox_Memory(self.DS_Value_Angle_Dimension.value())
 
-            if self.CB_Position.isChecked():                 # translate
+            if self.CB_Position.isChecked()   *                 # translate
 
-                if self.RB_Direction_D.isChecked():          # direction
-                    try:
+                if self.RB_Direction_D.isChecked()   *          # direction
+                    try   *
                         selectedEdge = FreeCADGui.Selection.getSelectionEx()[1].SubObjects[0]         # select one element and axis second object (2 selections)
-                    except Exception:
-                        try:
+                    except Exception   *
+                        try   *
                             selectedEdge = FreeCADGui.Selection.getSelectionEx()[0].SubObjects[1]     # select one element and axis same object   (2 selections)
-                        except Exception:
-                            try:
+                        except Exception   *
+                            try   *
                                 selectedEdge = FreeCADGui.Selection.getSelectionEx()[0].SubObjects[0] # select one element and axis same object   (1 selection)
-                            except Exception:
+                            except Exception   *
                                 None
                     pointsTrajet = []
-                    try:
+                    try   *
                         pointsTrajet  = selectedEdge.discretize(Distance = 1.0)                       # discretize the element
-                    except Exception:
+                    except Exception   *
                         direction = myObject.Vertexes[0].Point
                         pointsTrajet = direction
                         None
                     
-                    try:
+                    try   *
                         direction = pointsTrajet[1].sub(pointsTrajet[0])                              # search the direction line or sub
-                    except Exception:
-                        try:
+                    except Exception   *
+                        try   *
                             direction = myObject.Vertexes[0].Point                                    # direction point
-                        except Exception:
+                        except Exception   *
                             direction = App.Vector(0.0,0.0,0.0)
                     
                     selM.Placement.Base = myObject.Placement.Base + App.Vector(direction).scale(valeur, valeur, valeur)
-                else:
+                else   *
                     selM.Placement = App.Placement(App.Vector(posX, posY, posZ), App.Rotation(0.0,0.0,0.0), App.Vector(0.0,0.0,0.0)).multiply(App.ActiveDocument.getObject(myObjectName).Placement)
                 myObject = selM
 
-                if self.RB_Rotation_X.isChecked():
+                if self.RB_Rotation_X.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[0],4)))
-                elif self.RB_Rotation_Y.isChecked():
+                elif self.RB_Rotation_Y.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[1],4)))
-                elif self.RB_Rotation_Z.isChecked():
+                elif self.RB_Rotation_Z.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[2],4)))
-                elif self.RB_Direction_D.isChecked():
+                elif self.RB_Direction_D.isChecked()   *
                     xD = str(round(myObject.Placement.Base[0],4))
                     yD = str(round(myObject.Placement.Base[1],4))
                     zD = str(round(myObject.Placement.Base[2],4))
@@ -2406,37 +2406,37 @@ class Ui_MainWindow(object):
                                                  str(round(myObject.Placement.Base[2],2))+")] " +
                                       "[Axis=("+ str(round(axisX,2)) + " , " + str(round(axisY,2)) + " , " + str(round(axisZ,2)) + ")]")
 
-            else:                                            # rotation
-                if self.RB_Direction_D.isChecked():          # direction
-                    try:
+            else   *                                            # rotation
+                if self.RB_Direction_D.isChecked()   *          # direction
+                    try   *
                         selectedEdge = FreeCADGui.Selection.getSelectionEx()[1].SubObjects[0]         # select one element and axis second object (2 selections)
-                    except Exception:
-                        try:
+                    except Exception   *
+                        try   *
                             selectedEdge = FreeCADGui.Selection.getSelectionEx()[0].SubObjects[1]     # select one element and axis same object   (2 selections)
-                        except Exception:
-                            try:
+                        except Exception   *
+                            try   *
                                 selectedEdge = FreeCADGui.Selection.getSelectionEx()[0].SubObjects[0] # select one element and axis same object   (1 selection)
-                            except Exception:
+                            except Exception   *
                                 None
-                    try:
+                    try   *
                         direction = selectedEdge.Vertexes[1].Point.sub(selectedEdge.Vertexes[0].Point)# search the direction line or sub
-                    except Exception:
-                        try:
+                    except Exception   *
+                        try   *
                             direction = objectRotation.Vertexes[0].Point
-                        except Exception:
+                        except Exception   *
                             direction = App.Vector(0.0,0.0,0.0)
                     selM.Placement = App.Placement(App.Vector(0.0,0.0,0.0), App.Rotation(App.Vector(direction), valeur), App.Vector(axisX, axisY, axisZ)).multiply(App.ActiveDocument.getObject(myObjectName).Placement)
-                else:
+                else   *
                     selM.Placement = App.Placement(App.Vector(0.0,0.0,0.0), App.Rotation(rotAngleX, rotAngleY, rotAngleZ), App.Vector(axisX, axisY, axisZ)).multiply(App.ActiveDocument.getObject(myObjectName).Placement) # other method
                 myObject = selM
 
-                if self.RB_Rotation_X.isChecked():
+                if self.RB_Rotation_X.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[0],4)))
-                elif self.RB_Rotation_Y.isChecked():
+                elif self.RB_Rotation_Y.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[1],4)))
-                elif self.RB_Rotation_Z.isChecked():
+                elif self.RB_Rotation_Z.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[2],4)))
-                elif self.RB_Direction_D.isChecked():
+                elif self.RB_Direction_D.isChecked()   *
                     xD = str(round(myObject.Placement.Rotation.toEuler()[0],4))
                     yD = str(round(myObject.Placement.Rotation.toEuler()[1],4))
                     zD = str(round(myObject.Placement.Rotation.toEuler()[2],4))
@@ -2446,53 +2446,53 @@ class Ui_MainWindow(object):
                                                  str(round(myObject.Placement.Rotation.toEuler()[1],2)) + " , " + 
                                                  str(round(myObject.Placement.Rotation.toEuler()[2],2)) + ")] " +
                                       "[Axis=("+ str(round(axisX,2))+" , "+ str(round(axisY,2))+" , "+ str(round(axisZ,2))+")]")
-            if self.CB_On_Click_Apply.isChecked():
+            if self.CB_On_Click_Apply.isChecked()   *
                 self.on_PB_Memorize()
 #            FreeCAD.ActiveDocument.recompute()
 #        print("on_PB_Apply_clicked")
 
-    def on_RB_Rotation_0(self):
+    def on_RB_Rotation_0(self)   *
         None
 #        print("on_RB_Rotation_0")
 
-    def on_RB_Rotation_X(self):
+    def on_RB_Rotation_X(self)   *
         global myObject
 
-        if self.CB_Position.isChecked():              
+        if self.CB_Position.isChecked()   *              
             self.LE_Increment.setText(str(round(myObject.Placement.Base[0],4)))                  # pos X
-        else:
+        else   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[0],4)))    # yaw = Z
         self.DS_Value_Angle_Dimension.setValue(0.0)
 #        print("on_RB_Rotation_X")
 
-    def on_RB_Rotation_Y(self):
+    def on_RB_Rotation_Y(self)   *
         global myObject
 
-        if self.CB_Position.isChecked():              
+        if self.CB_Position.isChecked()   *              
             self.LE_Increment.setText(str(round(myObject.Placement.Base[1],4)))                  # pos Y
-        else:
+        else   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[1],4)))    # pitch= Y
         self.DS_Value_Angle_Dimension.setValue(0.0)
 #        print("on_RB_Rotation_Y")
 
-    def on_RB_Rotation_Z(self):
+    def on_RB_Rotation_Z(self)   *
         global myObject
 
-        if self.CB_Position.isChecked():              
+        if self.CB_Position.isChecked()   *              
             self.LE_Increment.setText(str(round(myObject.Placement.Base[2],4)))                  #  pos Z
-        else:
+        else   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[2],4)))    # roll = X
         self.DS_Value_Angle_Dimension.setValue(0.0)
 #        print("on_RB_Rotation_Z")
 
-    def on_RB_Direction_D(self):
+    def on_RB_Direction_D(self)   *
         global myObject
 
-        if self.CB_Position.isChecked():              
+        if self.CB_Position.isChecked()   *              
             xD = str(round(myObject.Placement.Base[0],4))
             yD = str(round(myObject.Placement.Base[1],4))
             zD = str(round(myObject.Placement.Base[2],4))
-        else:
+        else   *
             xD = str(round(myObject.Placement.Rotation.toEuler()[0],4))
             yD = str(round(myObject.Placement.Rotation.toEuler()[1],4))
             zD = str(round(myObject.Placement.Rotation.toEuler()[2],4))
@@ -2500,58 +2500,58 @@ class Ui_MainWindow(object):
         self.DS_Value_Angle_Dimension.setValue(0.0)
 #        print("on_RB_Direction_D")
 
-    def on_RB_CenterRot(self):                                # zero
+    def on_RB_CenterRot(self)   *                                # zero
         global myObject
         global selM
         global positionMouse
         global axisX, axisY, axisZ
         
-        try:
-            if hasattr(selM, "Shape"):
+        try   *
+            if hasattr(selM, "Shape")   *
                 sel = selM.Shape
-            elif hasattr(selM, "Mesh"):         # upgrade with wmayer thanks #http://forum.freecadweb.org/viewtopic.php?f=13&t=22331
+            elif hasattr(selM, "Mesh")   *         # upgrade with wmayer thanks #http   *//forum.freecadweb.org/viewtopic.php?f=13&t=22331
                 sel = selM.Mesh
-            elif hasattr(selM, "Points"):
+            elif hasattr(selM, "Points")   *
                 sel = selM.Points
             myObject = sel
 
             self.groupBox_Pos_Mouse.setEnabled(False)
-            if self.RB_Bond_Box_Center.isChecked():           # axis
+            if self.RB_Bond_Box_Center.isChecked()   *           # axis
                 axisX = myObject.BoundBox.Center.x
                 axisY = myObject.BoundBox.Center.y
                 axisZ = myObject.BoundBox.Center.z
                 self.label_00.setToolTip("Axis BoundBox.Center")
                 self.RB_Center_Mass.setStyleSheet("Base")
-            elif self.RB_Center_Mass.isChecked():
-                try:
+            elif self.RB_Center_Mass.isChecked()   *
+                try   *
                     axisX = myObject.CenterOfMass.x
                     axisY = myObject.CenterOfMass.y
                     axisZ = myObject.CenterOfMass.z
                     self.label_00.setToolTip("Axis Center Of Mass")
-                except Exception:   # case Mesh.MeshObject
+                except Exception   *   # case Mesh.MeshObject
                     self.RB_Bond_Box_Center.setChecked(True)
-                    self.RB_Center_Mass.setStyleSheet("background-color: rgb(250, 88, 88)")
-            elif self.RB_Point_Clicked.isChecked():
+                    self.RB_Center_Mass.setStyleSheet("background-color   * rgb(250, 88, 88)")
+            elif self.RB_Point_Clicked.isChecked()   *
                 axisX = positionMouse[0]
                 axisY = positionMouse[1]
                 axisZ = positionMouse[2]
                 self.groupBox_Pos_Mouse.setEnabled(True)
                 self.label_00.setToolTip("Point Mouse")
            
-        except Exception:
-            self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+        except Exception   *
+            self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
             self.label_00.setText("Error CenterRot_0")
 ##            FreeCAD.Console.PrintError("Error CenterRot_0" + "\n" + "or Bad selection" + "\n")
 ##        print("on_RB_CenterRot")
 
-    def on_CB_Position(self):
+    def on_CB_Position(self)   *
         global myObject
         global posX, posY, posZ
         global axisX, axisY, axisZ
         global ui
 
         self.on_CBox_Impost("")
-        if self.CB_Position.isChecked():              
+        if self.CB_Position.isChecked()   *              
             self.DS_Value_Angle_Dimension.setMinimum(-999999999.999999999)
             self.DS_Value_Angle_Dimension.setMaximum(999999999.999999999)
             self.DS_Value_Angle_Dimension.setSuffix(" mm")
@@ -2575,27 +2575,27 @@ class Ui_MainWindow(object):
             self.RB_Rotation_X.setText("Translation X ")
             self.RB_Direction_D.setText("Translation D ")
 
-            try:
+            try   *
                 self.label_00.setText("[Pl.Base=(" + str(round(myObject.Placement.Base[0],2)) + " , " + 
                                                  str(round(myObject.Placement.Base[1],2)) + " , " + 
                                                  str(round(myObject.Placement.Base[2],2)) + ")] " +
                                       "[Axis=("+ str(round(axisX,2)) + " , " + str(round(axisY,2)) + " , " + str(round(axisZ,2)) + ")]")
-                if self.RB_Rotation_X.isChecked():
+                if self.RB_Rotation_X.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[0],4)))
-                elif self.RB_Rotation_Y.isChecked():
+                elif self.RB_Rotation_Y.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[1],4)))
-                elif self.RB_Rotation_Z.isChecked():
+                elif self.RB_Rotation_Z.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Base[2],4)))
-                elif self.RB_Direction_D.isChecked():
+                elif self.RB_Direction_D.isChecked()   *
                     xD = str(round(myObject.Placement.Base[0],4))
                     yD = str(round(myObject.Placement.Base[1],4))
                     zD = str(round(myObject.Placement.Base[2],4))
                     self.LE_Increment.setText("(" + xD + ", " + yD + ", " + zD + ")")
-            except Exception:
-                self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+            except Exception   *
+                self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
                 self.label_00.setText("Error Position_0 or Bad selection")
 ##                FreeCAD.Console.PrintError("Error Position_0" + "\n" + "or Bad selection" + "\n")
-        else:
+        else   *
             self.DS_Value_Angle_Dimension.setMinimum(-360.0)
             self.DS_Value_Angle_Dimension.setMaximum(360.0)
             self.DS_Value_Angle_Dimension.setSuffix(" Degrees")
@@ -2616,59 +2616,59 @@ class Ui_MainWindow(object):
             self.RB_Rotation_X.setText("Rotation(Z) Yaw")
             self.RB_Direction_D.setText("Rotation(D)")
 
-            try:
+            try   *
                 self.label_00.setText("[Rot=(" + str(round(myObject.Placement.Rotation.toEuler()[0],2)) + " , " +
                                                  str(round(myObject.Placement.Rotation.toEuler()[1],2)) + " , " + 
                                                  str(round(myObject.Placement.Rotation.toEuler()[2],2)) + ")] " +
                                       "[Axis=("+str(round(axisX,2))+" , "+ str(round(axisY,2))+" , "+ str(round(axisZ,2))+")]")
-                if self.RB_Rotation_X.isChecked():
+                if self.RB_Rotation_X.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[0],4)))
-                elif self.RB_Rotation_Y.isChecked():
+                elif self.RB_Rotation_Y.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[1],4)))
-                elif self.RB_Rotation_Z.isChecked():
+                elif self.RB_Rotation_Z.isChecked()   *
                     self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[2],4)))
-                elif self.RB_Direction_D.isChecked():
+                elif self.RB_Direction_D.isChecked()   *
                     xD = str(round(myObject.Placement.Rotation.toEuler()[0],4))
                     yD = str(round(myObject.Placement.Rotation.toEuler()[1],4))
                     zD = str(round(myObject.Placement.Rotation.toEuler()[2],4))
                     self.LE_Increment.setText("(" + xD + ", " + yD + ", " + zD + ")")
-            except Exception:
-                self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+            except Exception   *
+                self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
                 self.label_00.setText("Error Position_1 or Bad selection")
 #                FreeCAD.Console.PrintError("Error Position_0" + "\n" + "or Bad selection" + "\n")
 
         self.DS_Value_Angle_Dimension.setValue(0.0)
 #        print("on_CB_Position")
 
-    def on_CB_Point(self):
+    def on_CB_Point(self)   *
         global ui
         global myObject
         global selM
         global myObjectName
         global positionMouse
         
-        if hasattr(selM, "Shape"):
+        if hasattr(selM, "Shape")   *
             sel = selM.Shape
-        elif hasattr(selM, "Mesh"):         # upgrade with wmayer thanks #http://forum.freecadweb.org/viewtopic.php?f=13&t=22331
+        elif hasattr(selM, "Mesh")   *         # upgrade with wmayer thanks #http   *//forum.freecadweb.org/viewtopic.php?f=13&t=22331
             sel = selM.Mesh
-        elif hasattr(selM, "Points"):
+        elif hasattr(selM, "Points")   *
             sel = selM.Points
         myObject = sel
 
-        if self.RB_Bond_Box_Center.isChecked():           # axis
+        if self.RB_Bond_Box_Center.isChecked()   *           # axis
             point = Draft.makePoint(myObject.BoundBox.Center.x, myObject.BoundBox.Center.y, myObject.BoundBox.Center.z)
             point.ViewObject.PointColor = (1.0,0.0,0.0)
             point.Label = "Point_BoundBox_Center"
             self.RB_Center_Mass.setStyleSheet("Base")
-        elif self.RB_Center_Mass.isChecked():
-            try:
+        elif self.RB_Center_Mass.isChecked()   *
+            try   *
                 point = Draft.makePoint(myObject.CenterOfMass.x, myObject.CenterOfMass.y, myObject.CenterOfMass.z)
                 point.ViewObject.PointColor = (0.0,1.0,0.0)
                 point.Label = "Point_CenterOfMass"
-            except Exception:   # case Mesh.MeshObject
+            except Exception   *   # case Mesh.MeshObject
                 self.RB_Bond_Box_Center.setChecked(True)
-                self.RB_Center_Mass.setStyleSheet("background-color: rgb(250, 88, 88)")
-        elif self.RB_Point_Clicked.isChecked():
+                self.RB_Center_Mass.setStyleSheet("background-color   * rgb(250, 88, 88)")
+        elif self.RB_Point_Clicked.isChecked()   *
             point = Draft.makePoint(positionMouse[0], positionMouse[1], positionMouse[2])
             point.ViewObject.PointColor = (0.0,0.0,1.0)
             point.Label = "Point_positionMouse"
@@ -2677,21 +2677,21 @@ class Ui_MainWindow(object):
 #        ui.on_RB_CenterRot()
 #        print("on_CB_Point")
 
-    def on_PB_Zero_clicked(self):
+    def on_PB_Zero_clicked(self)   *
         global myObject
         global selM
 
-#        if (myObject != ""):
-#            try:
+#        if (myObject != "")   *
+#            try   *
         myObject = selM
         pl = App.Placement(App.Vector(0.0,0.0,0.0), App.Rotation(0.0, 0.0, 0.0), App.Vector(0.0, 0.0, 0.0))
-        myObject.Placement = pl    if self.RB_Rotation_X.isChecked():
+        myObject.Placement = pl    if self.RB_Rotation_X.isChecked()   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[0],4)))
-        elif self.RB_Rotation_Y.isChecked():
+        elif self.RB_Rotation_Y.isChecked()   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[1],4)))
-        elif self.RB_Rotation_Z.isChecked():
+        elif self.RB_Rotation_Z.isChecked()   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[2],4)))
-        elif self.RB_Direction_D.isChecked():
+        elif self.RB_Direction_D.isChecked()   *
             xD = str(round(myObject.Placement.Rotation.toEuler()[0],4))
             yD = str(round(myObject.Placement.Rotation.toEuler()[1],4))
             zD = str(round(myObject.Placement.Rotation.toEuler()[2],4))
@@ -2705,17 +2705,17 @@ class Ui_MainWindow(object):
         Gui.activeDocument().activeView().viewTop()
         Gui.SendMsgToActiveView("ViewFit")
                 
-#            except Exception:
-#                self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+#            except Exception   *
+#                self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
 #                self.label_00.setText("Error Zero_0 or Bad selection")
 ##                FreeCAD.Console.PrintError("Error Zero_0" + "\n" + "or Bad selection" + "\n")
-#        else:
-#            self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+#        else   *
+#            self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
 #            self.label_00.setText(" Select one Object or give one value Angle/Dimension")
 ##            FreeCAD.Console.PrintError("Select one Object or give one value Angle/Dimension" + "\n")
 ##        print("on_PB_Zero_clicked")
 
-    def on_PB_Original_clicked(self):
+    def on_PB_Original_clicked(self)   *
         global ui
         global myObject
         global selM
@@ -2723,42 +2723,42 @@ class Ui_MainWindow(object):
         global axisX, axisY, axisZ
         global rotAngleX, rotAngleY, rotAngleZ
 
-#        if (myObject != ""):
-#            try:
+#        if (myObject != "")   *
+#            try   *
         rotAngleX  = rotAngleY = rotAngleZ = 0.0
         selM.Placement = originalPlacement 
-        if hasattr(selM, "Shape"):
+        if hasattr(selM, "Shape")   *
             sel = selM.Shape
-        elif hasattr(selM, "Mesh"):         # upgrade with wmayer thanks #http://forum.freecadweb.org/viewtopic.php?f=13&t=22331
+        elif hasattr(selM, "Mesh")   *         # upgrade with wmayer thanks #http   *//forum.freecadweb.org/viewtopic.php?f=13&t=22331
             sel = selM.Mesh
-        elif hasattr(selM, "Points"):
+        elif hasattr(selM, "Points")   *
             sel = selM.Points
         myObject = sel
 
-        self.DS_Value_Angle_Dimension.setValue(0.0)    if self.RB_Rotation_X.isChecked():
+        self.DS_Value_Angle_Dimension.setValue(0.0)    if self.RB_Rotation_X.isChecked()   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[0],4)))    # yaw Z
-        elif self.RB_Rotation_Y.isChecked():
+        elif self.RB_Rotation_Y.isChecked()   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[1],4)))    # pitch Y
-        elif self.RB_Rotation_Z.isChecked():
+        elif self.RB_Rotation_Z.isChecked()   *
             self.LE_Increment.setText(str(round(myObject.Placement.Rotation.toEuler()[2],4)))    # roll Z
-        elif self.RB_Direction_D.isChecked():
+        elif self.RB_Direction_D.isChecked()   *
             xD = str(round(myObject.Placement.Rotation.toEuler()[0],4))
             yD = str(round(myObject.Placement.Rotation.toEuler()[1],4))
             zD = str(round(myObject.Placement.Rotation.toEuler()[2],4))
             self.LE_Increment.setText("(" + xD + ", " + yD + ", " + zD + ")")    ui.on_RB_CenterRot()    self.label_00.setText("[Rot=(" +str(round(myObject.Placement.Rotation.toEuler()[0],2))+" , "+str(round(myObject.Placement.Rotation.toEuler()[1],2))+" , "+ str(round(myObject.Placement.Rotation.toEuler()[2],2))+")] "+
                                       "[Axis=("+str(round(axisX,2))+" , "+ str(round(axisY,2))+" , "+ str(round(axisZ,2))+")]")
                 #FreeCAD.ActiveDocument.recompute()
-#            except Exception:
-#                self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+#            except Exception   *
+#                self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
 #                self.label_00.setText("Error Original_0 or Bad selection")
 ##                FreeCAD.Console.PrintError("Error Original_0" + "\n" + "or Bad selection" + "\n")
-#        else:
-#            self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+#        else   *
+#            self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
 #            self.label_00.setText(" Select one Object or give one value Angle/Dimension")
 ##            FreeCAD.Console.PrintError("Select one Object or give one value Angle/Dimension" + "\n")
 ##        print("on_PB_Original_clicked")
 
-    def on_PB_Reset_clicked(self):
+    def on_PB_Reset_clicked(self)   *
         global ui
         global originalObject
         global myObject
@@ -2772,13 +2772,13 @@ class Ui_MainWindow(object):
         global axisX, axisY, axisZ
         global countMemory
 
-        try:
-            for obj in FreeCAD.ActiveDocument.Objects:         # deslectionne
+        try   *
+            for obj in FreeCAD.ActiveDocument.Objects   *         # deslectionne
                 FreeCADGui.Selection.removeSelection(obj)
-        except Exception:
+        except Exception   *
             None
 
-        if countMemory == 0:
+        if countMemory == 0   *
             ui.on_PB_ClearMemo
 
         originalObject = myObject = myObjectName = ""
@@ -2825,33 +2825,33 @@ class Ui_MainWindow(object):
 #        self.CB_Free.setChecked(False)
         self.PB_Memorize.setStyleSheet("Base")
 
-        self.label_00.setStyleSheet("color : #ffffff; background-color: red; font: bold 10px;")   # white red bold
+        self.label_00.setStyleSheet("color    * #ffffff; background-color   * red; font   * bold 10px;")   # white red bold
         self.label_00.setText(" Select one Object or give one value Angle/Dimension")
 #        FreeCAD.Console.PrintError("Select one Object or give one value Angle/Dimension" + "\n")
 #        FreeCAD.Console.PrintMessage("Reset" + "\n")
 #        print("on_PB_Reset_clicked")
 
-    def on_PB_Quit_clicked(self):
+    def on_PB_Quit_clicked(self)   *
         global s
         global switchZoomOnCilck
 
-        FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetBool("switchZoomOnCilck", switchZoomOnCilck)
-        try:
+        FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/" + __title__).SetBool("switchZoomOnCilck", switchZoomOnCilck)
+        try   *
             self.vueActive.removeEventCallback("SoMouseButtonEvent",self.click) # desinstalle la fonction souris
-        except Exception:
+        except Exception   *
             None
-        try:
+        try   *
             FreeCADGui.Selection.removeObserver(s)   # Uninstalls resident function (desactivated for read after LeftDock RightDock)
             self.window.setAttribute(QtCore.Qt.WA_DeleteOnClose, True)      # destroy
             self.window.deleteLater()                                       # destroy
             self.window.destroy()                                           # destroy
-        except Exception:
+        except Exception   *
             self.window.hide()                                              # hide the window and close the macro
         FreeCAD.Console.PrintMessage("Quit Rotate_To_Point" + "\n")
 
 ###################################################################################################
-class SelObserver:
-    def addSelection(self, document, object, element, position):  # Selection
+class SelObserver   *
+    def addSelection(self, document, object, element, position)   *  # Selection
         global ui
         global sourisPass
         global switchZoomOnCilck
@@ -2868,19 +2868,19 @@ class SelObserver:
         global rotAngleX, rotAngleY, rotAngleZ
         global axisX, axisY, axisZ
 
-        if sourisPass == 0:                                       # pour un seul passage
+        if sourisPass == 0   *                                       # pour un seul passage
             sourisPass == 1
             selM = FreeCADGui.Selection.getSelection()[0]         # select object with getSelection()
             myObjectName = selM.Name
 
-            if hasattr(selM, "Shape"):
+            if hasattr(selM, "Shape")   *
                 sel = selM.Shape
-            elif hasattr(selM, "Mesh"):         # upgrade with wmayer thanks #http://forum.freecadweb.org/viewtopic.php?f=13&t=22331
+            elif hasattr(selM, "Mesh")   *         # upgrade with wmayer thanks #http   *//forum.freecadweb.org/viewtopic.php?f=13&t=22331
                 sel = selM.Mesh
-            elif hasattr(selM, "Points"):
+            elif hasattr(selM, "Points")   *
                 sel = selM.Points
 
-            if switchZoomOnCilck == 1:
+            if switchZoomOnCilck == 1   *
                 ui.on_CBox_View(myObjectName)   # return on zoom on click object selected
 
             positionMouse     = position
@@ -2900,16 +2900,16 @@ class SelObserver:
 
             valeur = 0.0
             ui.DS_Value_Angle_Dimension.setValue(valeur)
-            ui.DS_Value_Angle_Dimension.setStyleSheet("background-color: rgb(250, 88, 88)")
+            ui.DS_Value_Angle_Dimension.setStyleSheet("background-color   * rgb(250, 88, 88)")
 
             ui.DS_Pos_Mouse_X.setValue(positionMouse[0])
             ui.DS_Pos_Mouse_Y.setValue(positionMouse[1])
             ui.DS_Pos_Mouse_Z.setValue(positionMouse[2])
 
             ui.on_RB_CenterRot()
-            if ui.CB_Position.isChecked():
+            if ui.CB_Position.isChecked()   *
                 ui.groupBox_Rotation.setEnabled(False)
-            else:
+            else   *
                 ui.groupBox_Rotation.setEnabled(True)
             ui.groupBox_Axis.setEnabled(True)
             ui.groupBox_Work.setEnabled(True)
@@ -2922,26 +2922,26 @@ class SelObserver:
             ui.PB_Memorize.setStyleSheet("Base")
             ui.PB_PointCenter.setStyleSheet("Base")
 
-    def clearSelection(self,doc):                                                            # Si clic sur l'ecran, effacer la selection
+    def clearSelection(self,doc)   *                                                            # Si clic sur l'ecran, effacer la selection
         global ui
         ui.on_PB_Reset_clicked()
 
 ###################################################################################################
 
 doc = FreeCAD.ActiveDocument
-if doc == None:
+if doc == None   *
     doc = FreeCAD.newDocument()
 
-try:
-    for obj in FreeCAD.ActiveDocument.Objects:         # deselectionne
+try   *
+    for obj in FreeCAD.ActiveDocument.Objects   *         # deselectionne
         FreeCADGui.Selection.removeSelection(obj)
-except Exception:
+except Exception   *
     None
 
 s=SelObserver()
 FreeCADGui.Selection.addObserver(s)                    # installe la fonction en mode resident
 
-if __name__ == "__main__":
+if __name__ == "__main__"   *
     MainWindow = QtWidgets.QMainWindow()
     MainWindow.setObjectName("__title__")              # macro internal Name
     ui = Ui_MainWindow()
@@ -2955,13 +2955,13 @@ if __name__ == "__main__":
 
 ## Liens
 
-The forum [feature req: placement - rotate part around its midpoint](http://forum.freecadweb.org/viewtopic.php?f=8&t=20925) Mes macro sur Gist [mario52a](https://gist.github.com/mario52a)
+The forum [feature req   * placement - rotate part around its midpoint](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=20925) Mes macro sur Gist [mario52a](https   *//gist.github.com/mario52a)
 
 ## Version
 
-2021/03/08 version 00.010 : ajout du zoom sur l\'objet cliqué, valeur mémoire, valeurs imposées
+2021/03/08 version 00.010    * ajout du zoom sur l\'objet cliqué, valeur mémoire, valeurs imposées
 
-2021/02/25 Version=00.09 : correction de la macro créée : cause multi objets possible
+2021/02/25 Version=00.09    * correction de la macro créée    * cause multi objets possible
 
 
 {{Code|
@@ -2972,29 +2972,29 @@ instead {{Code|
 myObject.Placement
 }}
 
-2021/02/22 Version=00.08c : correct le center facePoint (19h26 Paris)
+2021/02/22 Version=00.08c    * correct le center facePoint (19h26 Paris)
 
-2021/02/22 Version=00.08b : correct le center facePoint (17h23 Paris)
+2021/02/22 Version=00.08b    * correct le center facePoint (17h23 Paris)
 
-2021/02/22 Version=00.08 : ajout sauvegarde du fichier macro avec un ou plusieurs objets déplacés
+2021/02/22 Version=00.08    * ajout sauvegarde du fichier macro avec un ou plusieurs objets déplacés
 
-2021/01/24 Version=00.07 : ajout de l\'option R: reverse
+2021/01/24 Version=00.07    * ajout de l\'option R   * reverse
 
-2021/01/12 ver 00.06 : ajout de la section Data et d\'autres options
+2021/01/12 ver 00.06    * ajout de la section Data et d\'autres options
 
-2020/03/07 ver 00.05.2 : correction du bug translation effacée \"direction = myObject.Placement.Rotation.multVec(direction)\"
+2020/03/07 ver 00.05.2    * correction du bug translation effacée \"direction = myObject.Placement.Rotation.multVec(direction)\"
 
-2020/03/01 ver 00.05.1 : correction de la position du test \"FreeCAD version\"
+2020/03/01 ver 00.05.1    * correction de la position du test \"FreeCAD version\"
 
-2020/02/29 ver 00.05 : conversion pour Hdpi (Layout) et ajout fonction Direction
+2020/02/29 ver 00.05    * conversion pour Hdpi (Layout) et ajout fonction Direction
 
-06/04/2019 ver 00.04 : Python 3
+06/04/2019 ver 00.04    * Python 3
 
-29/03/2018 ver 00.03 : commenter les lignes \"FreeCAD.ActiveDocument.recompute()\" le changement de valeur est trop lente dans FreeCAD 0.17\.... voir [FC0.17 recompute strange behaviour (regression)](https://www.forum.freecadweb.org/viewtopic.php?f=10&t=27732&p=224195#p224195)
+29/03/2018 ver 00.03    * commenter les lignes \"FreeCAD.ActiveDocument.recompute()\" le changement de valeur est trop lente dans FreeCAD 0.17\.... voir [FC0.17 recompute strange behaviour (regression)](https   *//www.forum.freecadweb.org/viewtopic.php?f=10&t=27732&p=224195#p224195)
 
-27/03/2017 ver 00.02 : modification du spinbox \"Pos\" maintenant accepte les valeurs négatives
+27/03/2017 ver 00.02    * modification du spinbox \"Pos\" maintenant accepte les valeurs négatives
 
-05/03/2017 ver 00.01 : ajout de 3 boîtes de dialogue pour afficher les coordonnées X Y Z au clic de souris
+05/03/2017 ver 00.01    * ajout de 3 boîtes de dialogue pour afficher les coordonnées X Y Z au clic de souris
 
 04/03/2017 ver 00.00
 

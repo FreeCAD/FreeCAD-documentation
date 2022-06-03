@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon
-   Name:BIM Box
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:3D Modeling -> Box
-   SeeAlso:[[Part Box]]
+- GuiCommand   *Addon
+   Name   *BIM Box
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon   *BIM
+   MenuLocation   *3D Modeling -> Box
+   SeeAlso   *[[Part Box]]
 ---
 
 # BIM Box/ru
@@ -14,12 +14,12 @@
 
 ## Описание
 
-<img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_box_screenshot.png  style="width   *1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Инструмент BIM Box позволяет вам создать стандартный [Part Box](Part_Box.md), но вместо создания объекта и последующего указания его размеров и положения, как и инструмент оригинала [Part Workbench](Part_Workbench.md), этот инструмент позволяет вам место и определять размеры окна графически при создании объекта. Коробки являются основными [cuboid](https://en.wikipedia.org/wiki/Cuboid) фигурами, которые позже могут быть использованы как основа любого другого объекта BIM.
+Инструмент BIM Box позволяет вам создать стандартный [Part Box](Part_Box.md), но вместо создания объекта и последующего указания его размеров и положения, как и инструмент оригинала [Part Workbench](Part_Workbench.md), этот инструмент позволяет вам место и определять размеры окна графически при создании объекта. Коробки являются основными [cuboid](https   *//en.wikipedia.org/wiki/Cuboid) фигурами, которые позже могут быть использованы как основа любого другого объекта BIM.
 
 
 </div>

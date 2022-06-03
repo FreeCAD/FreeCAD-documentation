@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/sv
-   Name:Sketcher NewSketch
-   Name/sv:Skapa skiss
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md)
-   MenuLocation:Sketch → Skapa skiss
-   SeeAlso:[Kartera skiss till ytan ...](Sketcher_MapSketch/sv.md), [Omorientera skiss...](Sketcher_ReorientSketch/sv.md)
+- GuiCommand   */sv
+   Name   *Sketcher NewSketch
+   Name/sv   *Skapa skiss
+   Workbenches   *[Sketcher](Sketcher_Workbench/sv.md)
+   MenuLocation   *Sketch → Skapa skiss
+   SeeAlso   *[Kartera skiss till ytan ...](Sketcher_MapSketch/sv.md), [Omorientera skiss...](Sketcher_ReorientSketch/sv.md)
 ---
 
 # Sketcher NewSketch/sv
@@ -16,7 +16,7 @@
 
 This will create a new [sketch](Sketcher_Workbench.md).
 
-Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
+Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
 
 ## Usage
 

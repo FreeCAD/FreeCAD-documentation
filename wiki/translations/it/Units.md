@@ -1,12 +1,12 @@
 # Units/it
 <div class="mw-translate-fuzzy">
 
-Alcune letture sulle unità di misura:
+Alcune letture sulle unità di misura   *
 
--   [Sistema Internazionale di Misura SI](http://it.wikipedia.org/wiki/Sistema_internazionale_di_unit%C3%A0_di_misura)
--   [Sistema imperiale britannico](http://it.wikipedia.org/wiki/Sistema_imperiale_britannico)
--   [SI derived unit](http://en.wikipedia.org/wiki/SI_derived_unit) (in italiano si trovano nella stessa pagina del SI)
--   [Grado d\'arco - Unità angolari](http://it.wikipedia.org/wiki/Grado_d%27arco)
+-   [Sistema Internazionale di Misura SI](http   *//it.wikipedia.org/wiki/Sistema_internazionale_di_unit%C3%A0_di_misura)
+-   [Sistema imperiale britannico](http   *//it.wikipedia.org/wiki/Sistema_imperiale_britannico)
+-   [SI derived unit](http   *//en.wikipedia.org/wiki/SI_derived_unit) (in italiano si trovano nella stessa pagina del SI)
+-   [Grado d\'arco - Unità angolari](http   *//it.wikipedia.org/wiki/Grado_d%27arco)
 
 
 </div>
@@ -68,7 +68,7 @@ Un elenco completo di tutte le unità supportate [si trova quì](Expressions/it#
 
 </div>
 
-## Finalità e principi: proposta di una estensione del sistema di gestione delle unità 
+## Finalità e principi   * proposta di una estensione del sistema di gestione delle unità 
 
 Nelle sezioni successive, sviluppando il concetto di *sistema di unità*, si propone un sistema di gestione delle unità di misura attivato nel corso dell\'esecuzione di una istanza di FreeCAD. Definire tale nuovo concetto offre il vantaggio di lavorare più facilmente con tanti tipi di unità **fisiche**, quante si vuole, anche con quelle create dall\'utente, senza aumentare la complessità di gestione delle unità, né per l\'utente, né per gli sviluppatori di FreeCAD.
 
@@ -76,7 +76,7 @@ In breve, gli eventi di scalatura delle unità sono localizzati con precisione, 
 
 Il raggiungimento di tale flessibilità è necessario specialmente quando si passa a lavorare con le proprietà dei materiali che possono avere unità molto diverse e quindi difficili da gestire manualmente una ad una.
 
-Il ragionamento proposto permette di gestire le unità come descritto nella [Guida per l\'uso del Sistema Internazionale delle unità di misura (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) e nel [Sistema internazionale delle unità di misura (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), entrambi documenti del NIST.
+Il ragionamento proposto permette di gestire le unità come descritto nella [Guida per l\'uso del Sistema Internazionale delle unità di misura (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) e nel [Sistema internazionale delle unità di misura (SI)](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf), entrambi documenti del NIST.
 
 In questa proposta, la prima analisi nella sezione [Riflessioni](Units/it#Riflessioni.md) riguarda i possibili contesti per i quali è utile la gestione delle unità.
 
@@ -110,12 +110,12 @@ In questa sezione sono evidenziati i contesti (casi) di uso del sistema di gesti
 
 Essenzialmente sono considerati 2 contesti, come esempio.
 
-### Context 1: opening a data file 
+### Context 1   * opening a data file 
 
 
 <div class="mw-translate-fuzzy">
 
-### Contesto 1: apertura di un file di dati 
+### Contesto 1   * apertura di un file di dati 
 
 Questo caso probabilmente è quello più frequente. Si riceve un file contenente ad esempio un modello geometrico, o descrivente un materiale con un bel po\' di proprietà. Il modello geometrico è espresso in metri, oppure le proprietà del materiale sono espresse secondo il sistema internazionale di unità di misura.
 
@@ -128,12 +128,12 @@ Sei un esperto di modellazione di elementi finiti (FE modelling), e di solito la
 
 In questo contesto, la gestione delle unità è necessaria per scalare i dati da un sistema di unità iniziale definito nel file di input a un diverso sistema di unità definito dall\'utente.
 
-### Context 2: switching the unit system at runtime 
+### Context 2   * switching the unit system at runtime 
 
 
 <div class="mw-translate-fuzzy">
 
-### Contesto 2: commutare il sistema di unità in fase di esecuzione 
+### Contesto 2   * commutare il sistema di unità in fase di esecuzione 
 
 In questo caso, si può essere allo stesso tempo, la persona che realizza un disegno, e anche chi gestirà la modellazione per elementi finiti. Analogamente al caso precedente, i sistemi di unità di misura per questi due lavori non sono gli stessi, ed è necessario cambiare il sistema di unità iniziale in quello preferito durante l\'esecuzione.
 
@@ -161,7 +161,7 @@ Nella sezione [Riflessioni](Units/it#Riflessioni.md) sono stati presentati due c
 
 #### Coerenza di unità in tutta l\'istanza in esecuzione in FreeCAD 
 
-Il sistema proposto si basa su un assunto primario: l\'utente sta lavorando in un sistema di unità coerenti. Ad esempio, questo significa che, se l\'utente esprime la lunghezza in millimetri, necessariamente le aree saranno espresse in termini di millimetri quadrati e non in metri quadrati. Questa è la **Ipotesi numero uno**.
+Il sistema proposto si basa su un assunto primario   * l\'utente sta lavorando in un sistema di unità coerenti. Ad esempio, questo significa che, se l\'utente esprime la lunghezza in millimetri, necessariamente le aree saranno espresse in termini di millimetri quadrati e non in metri quadrati. Questa è la **Ipotesi numero uno**.
 
 
 </div>
@@ -173,12 +173,12 @@ Il sistema proposto si basa su un assunto primario: l\'utente sta lavorando in u
 
 #### Sistema di unità 
 
-In conseguenza della *Ipotesi numero uno*, è possibile e pertinente definire un sistema di unità. Un sistema di unità si applica a:
+In conseguenza della *Ipotesi numero uno*, è possibile e pertinente definire un sistema di unità. Un sistema di unità si applica a   *
 
 -   una istanza in esecuzione in FreeCAD su cui si sta lavorando
 -   oppure si può anche applicare globalmente al contenuto di un file di input
 
-Secondo la [Guida per l\'uso del Sistema Internazionale di unità di misura (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) del NIST, ci sono 7 unità fisiche di base. Abbiamo scelto di formulare un sistema di unità in termini di questi 7 unità di base.
+Secondo la [Guida per l\'uso del Sistema Internazionale di unità di misura (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) del NIST, ci sono 7 unità fisiche di base. Abbiamo scelto di formulare un sistema di unità in termini di questi 7 unità di base.
 
 
 </div>
@@ -205,7 +205,7 @@ Ecco alcuni esempi di sistemi di unità.
 
 #### Unità di base e derivate 
 
-Le Unità derivate sono create mediante la combinazione delle unità di base. Ad esempio, un\'accelerazione (m/s^2^) unisce contemporaneamente la lunghezza e il tempo. Un quadro interessante che presenta le relazioni tra le unità base e le unità derivate si può vedere in [questo documento](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf), anche esso del NIST.
+Le Unità derivate sono create mediante la combinazione delle unità di base. Ad esempio, un\'accelerazione (m/s^2^) unisce contemporaneamente la lunghezza e il tempo. Un quadro interessante che presenta le relazioni tra le unità base e le unità derivate si può vedere in [questo documento](http   *//physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf), anche esso del NIST.
 
 
 </div>
@@ -219,10 +219,10 @@ Grazie alla definizione del *sistema di unità*, l\'utente può lavorare con qua
 
 #### Simboli delle unità base e delle derivate 
 
-Secondo il [Sistema Internazionale delle unità di misura (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), i simboli per specificare una unità sono ufficialmente approvati. Da questo possono essere evidenziate due conseguenze.
+Secondo il [Sistema Internazionale delle unità di misura (SI)](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf), i simboli per specificare una unità sono ufficialmente approvati. Da questo possono essere evidenziate due conseguenze.
 
 -   per un programma del computer non è facile lavorare con i simboli delle unità perché, per esempio, alcuni sono lettere greche. Quindi per un programma possono essere un po\' difficili da elaborare
--   anche se alcune unità (e i suoi simboli) possono essere ampiamente (normalmente) utilizzate, esse possono non essere approvate ufficialmente, come ad esempio l\'unità di tonnellata (si veda p32 del [Sistema Internazionale di unità di misura (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf))
+-   anche se alcune unità (e i suoi simboli) possono essere ampiamente (normalmente) utilizzate, esse possono non essere approvate ufficialmente, come ad esempio l\'unità di tonnellata (si veda p32 del [Sistema Internazionale di unità di misura (SI)](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf))
 
 
 </div>
@@ -260,7 +260,7 @@ Come premessa, è importante sottolineare che un oggetto *unità* di per sé ind
 
 ##### Dimensione (Grandezza fisica) 
 
-Stringa obbligatoria che indica la *dimensione* (grandezza fisica) dell\'unità. La *dimensione* delle 7 unità di base (le 7 grandezze fisiche di base) sono indicate di seguito (dalla [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)) (Guida per l\'uso del Sistema Internazionale di unità di misura).
+Stringa obbligatoria che indica la *dimensione* (grandezza fisica) dell\'unità. La *dimensione* delle 7 unità di base (le 7 grandezze fisiche di base) sono indicate di seguito (dalla [Guide for the Use of the International System of Units (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf)) (Guida per l\'uso del Sistema Internazionale di unità di misura).
 
 -   LENGTH - LUNGHEZZA
 -   MASS - MASSA
@@ -277,20 +277,20 @@ L\'attributo *Dimension* permette di identificare l\'unità. Due unità non poss
 
 ##### Firma (Identificazione della grandezza fisica) 
 
-E\' un gruppo di 7 cifre intere obbligatorie (numero delle unità di misura di base) che definisce di quale unità si tratta. La firma delle 7 unità di base sono:
+E\' un gruppo di 7 cifre intere obbligatorie (numero delle unità di misura di base) che definisce di quale unità si tratta. La firma delle 7 unità di base sono   *
 
--   LENGTH - LUNGHEZZA: \[1,0,0,0,0,0,0\]
--   MASS - MASSA: \[0,1,0,0,0,0,0\]
--   TIME - TEMPO: \[0,0,1,0,0,0,0\]
--   ELECTRIC CURRENT - CORRENTE ELETTRICA: \[0,0,0,1,0,0,0\]
--   THERMODYNAMIC TEMPERATURE - TEMPERATURA TERMODINAMICA: \[0,0,0,0,1,0,0\]
--   AMOUNT OF SUBSTANCE - QUANTITA\' DI SOSTANZA: \[0,0,0,0,0,1,0\]
--   LUMINOUS INTENSITY - INTENSITA\' LUMINOSA: \[0,0,0,0,0,0,1\]
+-   LENGTH - LUNGHEZZA   * \[1,0,0,0,0,0,0\]
+-   MASS - MASSA   * \[0,1,0,0,0,0,0\]
+-   TIME - TEMPO   * \[0,0,1,0,0,0,0\]
+-   ELECTRIC CURRENT - CORRENTE ELETTRICA   * \[0,0,0,1,0,0,0\]
+-   THERMODYNAMIC TEMPERATURE - TEMPERATURA TERMODINAMICA   * \[0,0,0,0,1,0,0\]
+-   AMOUNT OF SUBSTANCE - QUANTITA\' DI SOSTANZA   * \[0,0,0,0,0,1,0\]
+-   LUMINOUS INTENSITY - INTENSITA\' LUMINOSA   * \[0,0,0,0,0,0,1\]
 
-Con queste 7 unità siamo poi in grado di esprimere tutte le unità di misura derivate definite nella [Guida per l\'uso del Sistema Internazionale di unità di misura (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) e anche di crearne di nuove secondo le esigenze personali, quali ad esempio:
+Con queste 7 unità siamo poi in grado di esprimere tutte le unità di misura derivate definite nella [Guida per l\'uso del Sistema Internazionale di unità di misura (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) e anche di crearne di nuove secondo le esigenze personali, quali ad esempio   *
 
--   MASS DENSITY - DENSITA\' : \[-3,1,0,0,0,0,0\]
--   AREA - AREA: \[0,2,0,0,0,0,0\]
+-   MASS DENSITY - DENSITA\'    * \[-3,1,0,0,0,0,0\]
+-   AREA - AREA   * \[0,2,0,0,0,0,0\]
 
 *Signature* è l\'attributo grazie al quale la scalatura delle unità può essere realizzata in modo generale.
 
@@ -308,7 +308,7 @@ Insieme di \[numero reale, stringa\] (rappresentante \[*grandezza*, *simbolo*\])
 
 Questo insieme (array) può essere esteso quanto necessario.
 
-Ad esempio, la lista dei *simboli* della unità di misura di lunghezza, e le loro relative *grandezze* è:
+Ad esempio, la lista dei *simboli* della unità di misura di lunghezza, e le loro relative *grandezze* è   *
 
  [1e+12,"Tm"],[1e+09,"Gm"],[1e+06,"Mm"],
 [1e+03,"km"],[1e+02,"hm"],[1e+01,"dam"],
@@ -316,7 +316,7 @@ Ad esempio, la lista dei *simboli* della unità di misura di lunghezza, e le lor
 [1e-03,"mm"],[1e-06,"µm"],[1e-09,"nm"],
 [1e-12,"pm"],[1e-15,"fm"]
 
-I *simboli* standard possono essere trovati sul [sito web del NIST](http://physics.nist.gov/cuu/Units/units.html) e da pag. 26 a pag. 23 e a pag. 32 (*tonnellata metrica o tonnellata*) di [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
+I *simboli* standard possono essere trovati sul [sito web del NIST](http   *//physics.nist.gov/cuu/Units/units.html) e da pag. 26 a pag. 23 e a pag. 32 (*tonnellata metrica o tonnellata*) di [The International System of Units (SI)](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf).
 
 #### Unit dictionary 
 
@@ -406,7 +406,7 @@ Il dizionario delle unità può essere un file XML (file di configurazione di Fr
 
 </div>
 
-Deve soddisfare alcune condizioni che devono essere controllate prima di attivare il sistema di gestione dell\'unità. Queste condizioni sono:
+Deve soddisfare alcune condizioni che devono essere controllate prima di attivare il sistema di gestione dell\'unità. Queste condizioni sono   *
 
 -   verificare che tutte le unità di base siano definite
 -   verificare che una *dimensione* non sia definita due volte tramite le unità
@@ -421,7 +421,7 @@ Deve soddisfare alcune condizioni che devono essere controllate prima di attivar
 
 ###### isCompatibleWithThisSignature - Compatibilità 
 
-Un dizionario di unità definisce un insieme di unità e le loro grandezze note. Quando si gestisce una unità, è opportuno controllare che la sua firma sia compatibile con l\'insieme di unità registrate nel dizionario di unità, in modo da elaborarla. Questo controllo comprende:
+Un dizionario di unità definisce un insieme di unità e le loro grandezze note. Quando si gestisce una unità, è opportuno controllare che la sua firma sia compatibile con l\'insieme di unità registrate nel dizionario di unità, in modo da elaborarla. Questo controllo comprende   *
 
 -   verificare che la lunghezza della *firma* da inserire sia della stessa dimensione delle *firme* del dizionario di unità
 
@@ -466,12 +466,12 @@ Conoscendo un valore, un sistema di unità iniziale, l\'unità di destinazione t
 
 </div>
 
-#### Motivations for such a management: example of application 
+#### Motivations for such a management   * example of application 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Le motivazioni per una tale gestione: esempio di applicazione 
+#### Le motivazioni per una tale gestione   * esempio di applicazione 
 
 Supponiamo di accingerci a creare un modello di elementi finiti. Per costruire il nostro modello, abbiamo bisogno della griglia (forma mesh), delle proprietà del materiale ed è necessario definire i parametri numerici. Considerando che possono esserci decine di proprietà dei materiali da gestire, espresse con diverse unità e a volte non sempre molto comuni, per l\'utente è importante dover solo indicare un sistema globale di unità, senza altre preoccupazioni.
 

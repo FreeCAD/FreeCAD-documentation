@@ -5,8 +5,8 @@
 
 ## Użycie
 
-1.  Wybierz środowisko pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;">. [Arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md).
-2.  Naciśnij przycisk **[<img src=images/Spreadsheet_CreateSheet.svg style="width:24px"> [Utwórz nowy arkusz](Spreadsheet_CreateSheet/pl.md)**, aby utworzyć nowy arkusz.
+1.  Wybierz środowisko pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;">. [Arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md).
+2.  Naciśnij przycisk **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *24px"> [Utwórz nowy arkusz](Spreadsheet_CreateSheet/pl.md)**, aby utworzyć nowy arkusz.
 3.  Edytuj zawartość komórek.
 4.  Zamknij kartę arkusza po zakończeniu, wartości są zapisywane automatycznie w miarę wpisywania.
 

@@ -1,35 +1,35 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher ConstrainTangent
-   Name/de   *Skizzierer BeschränkeTangential
-   MenuLocation   *Skizze → Skizzierer Beschränkungen → Beschränke Tangente
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md) 
+   Name/de   *Sketcher TangentialFestlegen
+   MenuLocation   *Sketch → Skizzen-Beschränkungen → Tangente setzen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md) 
    Shortcut   ***T**
-   SeeAlso   *[Skizzierer Beschränkung Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md)
+   SeeAlso   *[Sketcher PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md)
 ---
 
 # Sketcher ConstrainTangent/de
 
 ## Beschreibung
 
-Die Tangentenbeschränkung bewirkt, dass sich zwei Kurven berühren (sind tangential). Linien werden unendlich behandelt, und Bögen werden als Vollkreise/Ellipsen behandelt. Die Beschränkung ist auch in der Lage, zwei Kurven miteinander zu verbinden, so dass sie an der Verbindung tangential aneinanderstoßen, wodurch die Verbindung glatt wird.
+Die Randbedingung TangentialFestlegen legt fest, dass sich zwei Kurven berühren (sie tangential sind). Linien werden als unendlich angesehen, und Bögen werden wie Vollkreise/Ellipsen behandelt. Die Randbedingung ist auch in der Lage, zwei Kurven miteinander zu verbinden, und sie gleichzeitig an der Verbindungsstelle tangential festzulegen, wodurch die Verbindung glatt wird.
 
-Tangentenbeschränkung kann auch mit zwei Linien verwendet werden, um sie kolinear zu machen.
+Die Randbedingung TangentialFestlegen kann auch mit zwei Linien verwendet werden, um sie kollinear (fluchtend) auszurichten.
 
 ## Anwendung
 
-Es gibt fünf verschiedene Arten, wie die Beschränkung angewendet werden kann   *
+Es gibt fünf verschiedene Arten, wie die Randbedingung angewendet werden kann   *
 
 1.  zwischen zwei Kurven (nicht für alle Kurven verfügbar)
 2.  zwischen zwei Endpunkten einer Kurve, wodurch eine glatte Verbindung entsteht
 3.  zwischen einer Kurve und einem Endpunkt einer anderen Kurve
-4.  zwischen zwei Kurven an benutzerdefiniertem Punkt
+4.  zwischen zwei Kurven an einem benutzerdefinierten Punkt
 5.  zwischen zwei Linien, um eine kollineare Bedingung zu erzeugen
 
-Um die Tangentialbindung anzuwenden, sollten die folgenden Schritte befolgt werden   *
+Um die Randbedingung TangentialFestlegen anzuwenden, sollten die folgenden Schritte befolgt werden   *
 
--   Wähle zwei oder drei Elemente in der Skizze aus.
--   Deaktiviere die Beschränkung, durch klicken auf das Symbol in der Werkzeugleiste, durch Auswahl des Menüelements oder durch Verwendung eines Tastaturkürzels.
+-   Zwei oder drei Elemente der Skizze auswählen.
+-   Die Randbedingung aufrufen, durch klicken auf das Symbol in der Werkzeugleiste, durch Auswahl des Menüelements oder durch Verwendung eines Tastaturkürzels.
 
 ### Zwischen zwei Kurven (direkte Tangentialität) 
 

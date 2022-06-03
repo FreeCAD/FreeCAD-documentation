@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Std RandomColor
-   MenuLocation:View → Random color
-   Workbenches:All
+- GuiCommand   *
+   Name   *Std RandomColor
+   MenuLocation   *View → Random color
+   Workbenches   *All
 ---
 
 # Std RandomColor
@@ -14,7 +14,7 @@ The **Std RandomColor** command applies a random **Shape Color** to selected obj
 ## Usage
 
 1.  Select one or more objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Select the **View → <img src="images/Std_RandomColor.svg" width=16px> Random color** option from the menu.
     -   Select the **<img src="images/Std_RandomColor.svg" width=16px> Random color** option from the [Tree view](Tree_view.md) context menu (see screenshot) or [3D view](3D_view.md) context menu.
 

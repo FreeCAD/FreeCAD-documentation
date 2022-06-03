@@ -11,7 +11,7 @@
 
 ## Related
 
-See the following pages for additional information:
+See the following pages for additional information   *
 
 -   [Import Export Preferences](Import_Export_Preferences.md)
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
@@ -69,6 +69,14 @@ See the following pages for additional information:
 
 
 </div>
+
+
+
+
+
+
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

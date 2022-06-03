@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Вставить страницу используя шаблон
-   Name:TechDraw_PageTemplate
-   MenuLocation:TechDraw → Вставить страницу используя шаблон
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить страницу по умолчанию](TechDraw_PageDefault/ru.md), [Шаблоны](TechDraw_Templates/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Вставить страницу используя шаблон
+   Name   *TechDraw_PageTemplate
+   MenuLocation   *TechDraw → Вставить страницу используя шаблон
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso   *[Вставить страницу по умолчанию](TechDraw_PageDefault/ru.md), [Шаблоны](TechDraw_Templates/ru.md)
 ---
 
 # TechDraw PageTemplate/ru
@@ -18,11 +18,11 @@ The New Pick tool creates a new Page object using the template file selected fro
 
 The starting directory for the dialog can be specified in the [TechDraw Preferences](TechDraw_Preferences.md).
 
-<img alt="" src=images/A4_Landscape_ISO7200_Pep.svg  style="width:400px;">
+<img alt="" src=images/A4_Landscape_ISO7200_Pep.svg  style="width   *400px;">
 
 
 
-*One of the templates that comes with TechDraw: A4 ISO 7200_Pep, page in landscape orientation, with editable text fields*
+*One of the templates that comes with TechDraw   * A4 ISO 7200_Pep, page in landscape orientation, with editable text fields*
 
 ## Применение
 
@@ -35,18 +35,18 @@ See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The New Pick tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions: 
+The New Pick tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   * 
 ```python
 templateFileSpec = QtGui.QFileDialog.getOpenFileName(self.baseWidget,
                                                      dialogCaption, 
                                                      dialogDir,
                                                      dialogFilter)
-page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
-template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
+page = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawPage','Page')
+template = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawSVGTemplate','Template')
 template.Template = templateFileSpec
 page.Template = FreeCAD.ActiveDocument.Template
 ```
@@ -56,7 +56,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 ### Editable text fields 
 
 
-**See also:**
+**See also   ***
 
 [TechDraw Templates](TechDraw_Templates.md) for more information on creating templates.
 

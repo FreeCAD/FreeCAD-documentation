@@ -1,10 +1,10 @@
-# <img alt="Modern UI workbench icon" src=images/ModernUI_workbench_icon.svg  style="width:64px;"> ModernUI Workbench
+# <img alt="Modern UI workbench icon" src=images/ModernUI_workbench_icon.svg  style="width   *64px;"> ModernUI Workbench
 
  
 
 ## Introduction
 
-The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](External_workbenches.md) that replaces the standard user interface. It has modern features such as:
+The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](External_workbenches.md) that replaces the standard user interface. It has modern features such as   *
 
 -   Each workbench has its ribbon tab.
 -   **Modern UI** ribbon tab replaces the top-level menu.
@@ -13,8 +13,8 @@ The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](Exter
 
 ## References
 
--   Author: Hakan Seven
--   Source code on github: [Source code Modern-UI](https://github.com/HakanSeven12/Modern-UI)
+-   Author   * Hakan Seven
+-   Source code on github   * [Source code Modern-UI](https   *//github.com/HakanSeven12/Modern-UI)
 
 ## Limitations and Troubleshooting 
 
@@ -24,9 +24,9 @@ The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](Exter
 
 ## Install
 
-Install with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
+Install with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md).
 
-Note: To uninstall, you have to create a macro and execute it. If you do not feel confident about this, consider to not install.
+Note   * To uninstall, you have to create a macro and execute it. If you do not feel confident about this, consider to not install.
 
 ### Running Modern UI in a self-contained directory 
 
@@ -34,7 +34,7 @@ To easily test Modern UI without interfering with your standard configuration, y
 
 #### Linux
 
-For example:
+For example   *
 
 
 
@@ -54,13 +54,13 @@ There are not dedicated instructions for Windows yet, however, it is very simila
 
 ## Uninstall
 
-Detailed instructions can be found on [GitHub](https://github.com/HakanSeven12/Modern-UI#uninstallation).
+Detailed instructions can be found on [GitHub](https   *//github.com/HakanSeven12/Modern-UI#uninstallation).
 
-The uninstall sequence is as follows:
+The uninstall sequence is as follows   *
 
-1.  Uninstall with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
+1.  Uninstall with the <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md).
 2.  Restart FreeCAD.
-3.  Create a macro with this code:
+3.  Create a macro with this code   *
 
 ```python
 from PySide2 import QtCore, QtGui, QtWidgets
@@ -68,9 +68,9 @@ mw = FreeCADGui.getMainWindow()
 mw.menuBar().show()
  
 WBList = FreeCADGui.listWorkbenches()
-for WB in WBList:
+for WB in WBList   *
     FreeCADGui.activateWorkbench(WB)
-    for tb in mw.findChildren(QtWidgets.QToolBar):
+    for tb in mw.findChildren(QtWidgets.QToolBar)   *
         tb.show()
 ```
 
@@ -79,9 +79,13 @@ for WB in WBList:
 
 ## Links
 
--   FreeCAD Forum: <https://forum.freecadweb.org/viewtopic.php?f=34&t=44937>
--   Report bugs: <https://github.com/HakanSeven12/Modern-UI>
--   Patreon (to support the author): <https://www.patreon.com/HakanSeven12>
+-   FreeCAD Forum   * <https   *//forum.freecadweb.org/viewtopic.php?f=34&t=44937>
+-   Report bugs   * <https   *//github.com/HakanSeven12/Modern-UI>
+-   Patreon (to support the author)   * <https   *//www.patreon.com/HakanSeven12>
+
+ 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

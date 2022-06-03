@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Std SelectVisibleObjects
-   Name/ru:Std SelectVisibleObjects
-   Empty:1
-   MenuLocation:Вид → Видимость → Выбрать видимые объекты
-   Workbenches:All
+- GuiCommand   */ru
+   Name   *Std SelectVisibleObjects
+   Name/ru   *Std SelectVisibleObjects
+   Empty   *1
+   MenuLocation   *Вид → Видимость → Выбрать видимые объекты
+   Workbenches   *All
 ---
 
 # Std SelectVisibleObjects/ru
@@ -14,7 +14,7 @@
 
 ## Описание
 
-Команда **Std SelectVisibleObjects** выделяет все видимые объекты. Заметьте, что для каждого [тела PartDesign](PartDesign_Body/ru.md) обычно будет выделено два объекта: само тело и его объект **Tip**.
+Команда **Std SelectVisibleObjects** выделяет все видимые объекты. Заметьте, что для каждого [тела PartDesign](PartDesign_Body/ru.md) обычно будет выделено два объекта   * само тело и его объект **Tip**.
 
 ## Применение
 

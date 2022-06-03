@@ -12,7 +12,7 @@ This category contains macros to extend your FreeCAD installation with new funct
 | [Macro FC element selector/hr](wiki/Macro FC element selector/hr.md) | [Macro FCSpring Helix Variable/hr](wiki/Macro FCSpring Helix Variable/hr.md) | [Macro FCTreeView/hr](wiki/Macro FCTreeView/hr.md) |
 | [Macro Mouse over cb/hr](wiki/Macro Mouse over cb/hr.md) | [Macro PropertyMemo/hr](wiki/Macro PropertyMemo/hr.md) | [Macro Section/hr](wiki/Macro Section/hr.md) |
 | [Macro Select Hovering/hr](wiki/Macro Select Hovering/hr.md) | [Macro Unbind Numpad Shortcuts/hr](wiki/Macro Unbind Numpad Shortcuts/hr.md) | [Template:Macro/hr](wiki/Template_Macro/hr.md) |
-| [Macros recipes/hr](wiki/Macros recipes/hr.md) |
+|
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Преобразовать
-   Name:Std_TransformManip
-   MenuLocation:В контекстном меню древовидного обзора проекта → Преобразовать
+- GuiCommand   */ru
+   Name/ru   *Преобразовать
+   Name   *Std_TransformManip
+   MenuLocation   *В контекстном меню древовидного обзора проекта → Преобразовать
 Правка → Преобразовать
-   Workbenches:Все
-   SeeAlso:[Стандартные команды и инструменты](Std_Base/ru.md)
+   Workbenches   *Все
+   SeeAlso   *[Стандартные команды и инструменты](Std_Base/ru.md)
 ---
 
 # Std TransformManip/ru
@@ -28,7 +28,7 @@ This tool allows you to apply rotation increments or translation increments to a
 
 -   As soon as you rotate/move the object in the [3D view](3D_view.md), changes are applied.
 -   There is no Cancel button. Pressing **OK** only serves to exit the utility.
--   It\'s possible to <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [undo](Std_Undo.md) changes afterwards.
+-   It\'s possible to <img alt="" src=images/Std_Undo.svg  style="width   *20px;"> [undo](Std_Undo.md) changes afterwards.
 -   The value boxes are for increments, not absolute values.
 
 

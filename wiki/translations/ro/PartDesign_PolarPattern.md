@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ro
-   Name:PartDesign PolarPattern
-   Name/ro:PartDesign PolarPattern
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:PartDesign → PolarPattern
+- GuiCommand   */ro
+   Name   *PartDesign PolarPattern
+   Name/ro   *PartDesign PolarPattern
+   Workbenches   *[PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation   *PartDesign → PolarPattern
 ---
 
 # PartDesign PolarPattern/ro
@@ -23,7 +23,7 @@ Instrumentul **PolarPattern** ia o funcție selectată ca intrare și creează p
 
 ![](images/PartDesign_PolarPattern_example.png )
 
-*Above: a slot-shaped pocket (B) made on top of a base solid (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
+*Above   * a slot-shaped pocket (B) made on top of a base solid (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
 
 
 <div class="mw-translate-fuzzy">
@@ -58,7 +58,7 @@ You can change the order by dragging the feature in the list and you will see th
 
 ###### v0.18
 
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
@@ -80,7 +80,7 @@ or
 
 ###### v0.18 
 
-1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md):
+1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md)   *
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be removed and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
@@ -145,7 +145,7 @@ Allows you to select either a DatumLine or an edge of an object or a line of a s
 
 ### Unghiuri și apariții 
 
-Specifică unghiul care trebuie acoperit de model și numărul total de forme (inclusiv caracteristica originală). De exemplu, patru apariții la un unghi de 180 de grade ar da o distanță de 60 de grade între modele. Există o excepție: dacă unghiul este de 360 ​​de grade, deoarece prima și ultima apariție sunt identice, cele patru apariții vor fi distanțate la 90 de grade.
+Specifică unghiul care trebuie acoperit de model și numărul total de forme (inclusiv caracteristica originală). De exemplu, patru apariții la un unghi de 180 de grade ar da o distanță de 60 de grade între modele. Există o excepție   * dacă unghiul este de 360 ​​de grade, deoarece prima și ultima apariție sunt identice, cele patru apariții vor fi distanțate la 90 de grade.
 
 
 </div>

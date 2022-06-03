@@ -1,6 +1,8 @@
 # Category:Draft/ro
 This category list pages related to the \"User\_Documentation/ro\" and \"Workbenches/ro\"
 
+[Category   *User Documentation/ro](Category   *User_Documentation/ro.md) [Category   *Workbenches/ro](Category   *Workbenches/ro.md)
+
 ### Contents
 
 |     |     |     |

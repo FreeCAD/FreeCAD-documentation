@@ -1,6 +1,6 @@
 # Draft Shape2DView/cs
 ---
-- GuiCommand:/cs   Name:Draft_Shape2DView   Name/cs:Kreslení TělesoDo2DPohledu   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> TělesoDo2D---
+- GuiCommand   */cs   Name   *Draft_Shape2DView   Name/cs   *Kreslení TělesoDo2DPohledu   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení -> TělesoDo2D---
 
 
 </div>
@@ -34,15 +34,15 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 
 ## How to produce plans and sections with different linewidths 
 
-<img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
+<img alt="" src=images/Draft_shape2dview_example_plan.png  style="width   *700px;">
 
 Drawings with different linewidths for viewed and cut lines can easily be produced by using two shape2Dview objects from a same [Arch SectionPlane](Arch_SectionPlane.md). One of the shape2Dview objects has its projection mode set to **Solid**, which renders the viewed lines, and another set to **Cut lines** or **Cut faces** to render the cut lines. The two shape2Dviews are then placed at the same location, one on top of the other.
 
 ## Vlastnosti
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -52,9 +52,9 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 <div class="mw-translate-fuzzy">
 
--    **Projection**: Směr projekce.
+-    **Projection**   * Směr projekce.
 
--    **Projection Mode**: Projekční mód: těleso, individuální plochy nebo řezné čáry.
+-    **Projection Mode**   * Projekční mód   * těleso, individuální plochy nebo řezné čáry.
 
 
 </div>
@@ -64,9 +64,9 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: not used.
+-    **Pattern|Enumeration**   * not used.
 
--    **Pattern Size|Float**: not used.
+-    **Pattern Size|Float**   * not used.
 
 ## Scripting
 
@@ -81,7 +81,7 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 <div class="mw-translate-fuzzy">
 
-Nástroj TělesoDo2D může být použit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj TělesoDo2D může být použit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -102,9 +102,9 @@ shape2dview = make_shape2dview(baseobj, projectionVector=None, facenumbers=[])
 
 </div>
 
-Change the `ProjectionMode` property of the created object if required. It can be: `"Solid"`, `"Individual Faces"`, `"Cutlines"`, `"Cutfaces"` or `"Solid faces"`.
+Change the `ProjectionMode` property of the created object if required. It can be   * `"Solid"`, `"Individual Faces"`, `"Cutlines"`, `"Cutfaces"` or `"Solid faces"`.
 
-Příklad:
+Příklad   *
 
 
 ```python
@@ -113,7 +113,7 @@ import Draft
 
 doc = App.newDocument()
 
-box = doc.addObject("Part::Box", "Box")
+box = doc.addObject("Part   *   *Box", "Box")
 box.Length = 2300
 box.Width = 500
 box.Height = 1000

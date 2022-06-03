@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/es
-   Name:Draft_WireToBSpline
-   Name/es:Draft_WireToBSpline
-   MenuLocation:Boceto → Contorno a BSpline
-   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+- GuiCommand   */es
+   Name   *Draft_WireToBSpline
+   Name/es   *Draft_WireToBSpline
+   MenuLocation   *Boceto → Contorno a BSpline
+   Workbenches   *[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 
 # Draft WireToBSpline/es
@@ -18,7 +18,7 @@ Esta herramienta convierte [Contornos](Draft_Wire/es.md) en [BSplines](Draft_BSp
 
 </div>
 
-<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width   *400px;"> 
 *Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
 
 
@@ -56,7 +56,7 @@ Esta herramienta convierte [Contornos](Draft_Wire/es.md) en [BSplines](Draft_BSp
 
 <div class="mw-translate-fuzzy">
 
-No disponible, pero crear un nuevo objeto con los puntos de otro es sencillo, por ejemplo:
+No disponible, pero crear un nuevo objeto con los puntos de otro es sencillo, por ejemplo   *
 
 
 </div>

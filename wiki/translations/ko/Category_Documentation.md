@@ -1,6 +1,8 @@
 # Category:Documentation/ko
 This category groups all of the FreeCAD documentation
 
+[Category   *Categories/ko](Category   *Categories/ko.md)
+
 ### Contents
 
 |     |     |     |

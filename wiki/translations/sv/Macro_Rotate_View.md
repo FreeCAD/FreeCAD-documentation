@@ -11,8 +11,8 @@
 |Version=01.00
 |Date=2010-11-17
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/a/a0/Macro_Rotate_View_view_90_Degrees.png Macro_Rotate_View_view_90_Degrees]
-|SeeAlso=[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric/sv.md) [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width:24px"> [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width:24px"><br />[Macro Rotate View Free](Macro_Rotate_View_Free/sv.md)
+|Download=[https   *//www.freecadweb.org/wiki/images/a/a0/Macro_Rotate_View_view_90_Degrees.png Macro_Rotate_View_view_90_Degrees]
+|SeeAlso=[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric/sv.md) [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width   *24px"> [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width   *24px"><br />[Macro Rotate View Free](Macro_Rotate_View_Free/sv.md)
 }}
 
 
@@ -30,7 +30,7 @@ Detta makro roterar den nuvarande vyn med 90° åt vänster. Fungerar endast om 
 
 ## Limitations
 
-Only works if you are in Top view: ![Std\_ViewTop\|16px\|link=Std\_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop.md)
+Only works if you are in Top view   * ![Std\_ViewTop\|16px\|link=Std\_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop.md)
 
 ## Script
 

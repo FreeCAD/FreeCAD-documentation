@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Drawing Open SVG
-   Name/fr:Ouvrir SVG
-   Workbenches:[mise en plan](Drawing_Workbench/fr.md), Complet
-   MenuLocation: mise en plan → Ouvrir SVG...
-   Shortcut:Aucun
-   SeeAlso:[Sauvegarder Mise en Plan](Drawing_Save/fr.md)
+- GuiCommand   */fr
+   Name   *Drawing Open SVG
+   Name/fr   *Ouvrir SVG
+   Workbenches   *[mise en plan](Drawing_Workbench/fr.md), Complet
+   MenuLocation   * mise en plan → Ouvrir SVG...
+   Shortcut   *Aucun
+   SeeAlso   *[Sauvegarder Mise en Plan](Drawing_Save/fr.md)
 ---
 
 # Drawing Open SVG/fr

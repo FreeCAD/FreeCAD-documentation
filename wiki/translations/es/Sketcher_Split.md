@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:Sketcher Split
-   Name/es:Croquizador Dividir
-   MenuLocation:Croquis → Croquizador Geometrías → Dividir
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Version:0.20
-   SeeAlso:[Croquizador Recortar](Sketcher_Trimming/es.md)
+- GuiCommand   *
+   Name   *Sketcher Split
+   Name/es   *Croquizador Dividir
+   MenuLocation   *Croquis → Croquizador Geometrías → Dividir
+   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
+   Version   *0.20
+   SeeAlso   *[Croquizador Recortar](Sketcher_Trimming/es.md)
 ---
 
 # Sketcher Split/es
@@ -24,7 +24,7 @@ Esta herramienta permite dividir un borde en dos idénticas, mientras que la may
 
 <div class="mw-translate-fuzzy">
 
-1.  Pulse el **[<img src=images/Sketcher_Split.svg style="width:16px"> [Dividir](Sketcher_Split/es.md)**. El puntero del ratón se convierte en una cruz blanca con un símbolo rojo de división.
+1.  Pulse el **[<img src=images/Sketcher_Split.svg style="width   *16px"> [Dividir](Sketcher_Split/es.md)**. El puntero del ratón se convierte en una cruz blanca con un símbolo rojo de división.
 2.  Haz clic en el borde en el lugar donde quieres dividirla.
 3.  A partir de los bordes de línea y arco, se crearán dos nuevas, conectadas en el punto pulsado. Un círculo se convierte en un arco con el mismo punto central y otras restricciones que tenía el círculo original.
 4.  Pulsando **Esc** o el botón derecho del ratón terminará la función.

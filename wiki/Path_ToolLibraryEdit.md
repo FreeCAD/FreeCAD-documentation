@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Path ToolLibraryEdit
-   MenuLocation:Path → Tool Manager
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **T**
-   SeeAlso:
+- GuiCommand   *
+   Name   *Path ToolLibraryEdit
+   MenuLocation   *Path → Tool Manager
+   Workbenches   *[Path](Path_Workbench.md)
+   Shortcut   ***P** **T**
+   SeeAlso   *
 ---
 
 # Path ToolLibraryEdit
@@ -17,22 +17,22 @@ It serves for the selection of a tool which you want to use in your job as well.
 
  ![](images/Path-Tooltable.png ) 
 
-The handling is straight forward:
+The handling is straight forward   *
 
--   Import\...: Imports a tooltable from an XML-file. {{Note|Warning|This is currently partly broken and does not work if you have never had an xml file before.}}
--   Export\...: Exports the tooltable to an XML-file.
--   New Tool: opens a dialog where you can enter the parameters of your tool.
--   Delete: deletes the currently selected lines.{{Note|Warning|The tools are deleted from your tooltable even if you cancel the dialog}}
--   Move up: You cannot edit the tool number, instead you can move the selected line up to decrease it\'s tool number
--   Move down: You can move the selected line down to increase it\'s tool number
+-   Import\...   * Imports a tooltable from an XML-file. {{Note|Warning|This is currently partly broken and does not work if you have never had an xml file before.}}
+-   Export\...   * Exports the tooltable to an XML-file.
+-   New Tool   * opens a dialog where you can enter the parameters of your tool.
+-   Delete   * deletes the currently selected lines.{{Note|Warning|The tools are deleted from your tooltable even if you cancel the dialog}}
+-   Move up   * You cannot edit the tool number, instead you can move the selected line up to decrease it\'s tool number
+-   Move down   * You can move the selected line down to increase it\'s tool number
 
--   Create Tool Controller(s): If you check one or more of the checkboxes to the left in the tools list, this button becomes active. If you click it, the selected tools will be inserted in your current job.
+-   Create Tool Controller(s)   * If you check one or more of the checkboxes to the left in the tools list, this button becomes active. If you click it, the selected tools will be inserted in your current job.
 
 ## Usage
 
 1.  Select a **<img src="images/Path_Job.svg" width=16px> [Path Job](Path_Job.md)
 **
-2.  Invoke the Tool Manager using several methods:
+2.  Invoke the Tool Manager using several methods   *
     -   Press the **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [Tool Manager](Path_ToolLibraryEdit.md)** button in the toolbar.
     -   Using the **P** then **T** keyboard shortcut.
     -   Using the **Path → Tool Manager** entry from the top menu.

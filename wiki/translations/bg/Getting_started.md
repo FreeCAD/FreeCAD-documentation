@@ -14,7 +14,7 @@ FreeCAD е 3D CAD/CAE [програма за параметрично модел
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD е все още в ранен стадии на своето развитие. Макар и вече да предоставя много [възможности](Feature_list/bg.md), все още много елементи липсват, особенно в сравнение с някои платени продукти. Може все още да не е достатъчно развита за използване в продукция. FreeCAD има бързо растящо [общество](http://forum.freecadweb.org/index.php) of потребители и вече може да намерите [много примери](https://forum.freecadweb.org/viewforum.php?f=24) на качествени проекти разработени с FreeCAD.
+FreeCAD е все още в ранен стадии на своето развитие. Макар и вече да предоставя много [възможности](Feature_list/bg.md), все още много елементи липсват, особенно в сравнение с някои платени продукти. Може все още да не е достатъчно развита за използване в продукция. FreeCAD има бързо растящо [общество](http   *//forum.freecadweb.org/index.php) of потребители и вече може да намерите [много примери](https   *//forum.freecadweb.org/viewforum.php?f=24) на качествени проекти разработени с FreeCAD.
 
 
 </div>
@@ -27,7 +27,7 @@ FreeCAD е все още в ранен стадии на своето разви
 
 </div>
 
-See also:
+See also   *
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 -   [Tutorials](Tutorials.md)
@@ -51,12 +51,12 @@ See also:
 
 </div>
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
+<img alt="" src=images/FreeCAD_interface.png  style="width   *1024px;">
 
 
 </div>
@@ -85,12 +85,12 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-Когато отворите FreeCAD за първи път, ше видите \"началния център\" (start center):
+Когато отворите FreeCAD за първи път, ше видите \"началния център\" (start center)   *
 
 
 </div>
 
-<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -105,7 +105,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD има няколко различни режима за [навигация с мишка](Mouse_Model/bg.md) който променят ефекта на мишката и върху обектите и върхи ориентацията в порстранството. Един от тези режими е специално направен за [работа с тъч-падове (на лаптопи)](Mouse_Model/bg#Touchpad_Navigation.md), където няма среден бутон на мишката.Следната талица описва режима по подразбиране **CAD Navigation** (може да смените сегашния режим на навигация с мишката като натиснете с десния бутон върху празно място в 3D прозореца):
+FreeCAD има няколко различни режима за [навигация с мишка](Mouse_Model/bg.md) който променят ефекта на мишката и върху обектите и върхи ориентацията в порстранството. Един от тези режими е специално направен за [работа с тъч-падове (на лаптопи)](Mouse_Model/bg#Touchpad_Navigation.md), където няма среден бутон на мишката.Следната талица описва режима по подразбиране **CAD Navigation** (може да смените сегашния режим на навигация с мишката като натиснете с десния бутон върху празно място в 3D прозореца)   *
 
 
 </div>
@@ -123,7 +123,7 @@ FreeCAD има няколко различни режима за [навигац
 
 <div class="mw-translate-fuzzy">
 
-Силата на FreeCAD\'s е в точното моделиране на 3D обекти, точния контрол върху обектите (тоест възможността да се връщаме назад в историята от промените в модела, и да променяме всяко свойство на обектите), и в интеграцията с 3D принтери и CNC стругове позволяващо лесно автоматично построяване. Поради този си фокус FreeCAD е различен от други програми за 3D моделиране като например програми за създаване на анимационни филми (Blender, 3dmax, Maya). Първоначално научаването на програмата може да е трудно, особенно ако за първи път се захващате с 3D моделиране. Ако сте заседнали някъде, може да се обърнете към общността от потребители на [форумът на FreeCAD](http://forum.freecadweb.org/index.php).
+Силата на FreeCAD\'s е в точното моделиране на 3D обекти, точния контрол върху обектите (тоест възможността да се връщаме назад в историята от промените в модела, и да променяме всяко свойство на обектите), и в интеграцията с 3D принтери и CNC стругове позволяващо лесно автоматично построяване. Поради този си фокус FreeCAD е различен от други програми за 3D моделиране като например програми за създаване на анимационни филми (Blender, 3dmax, Maya). Първоначално научаването на програмата може да е трудно, особенно ако за първи път се захващате с 3D моделиране. Ако сте заседнали някъде, може да се обърнете към общността от потребители на [форумът на FreeCAD](http   *//forum.freecadweb.org/index.php).
 
 
 </div>
@@ -131,7 +131,7 @@ FreeCAD има няколко различни режима за [навигац
 
 <div class="mw-translate-fuzzy">
 
-Работния плот който ще използвате зависи от работата която искате да свършите: например за механически модели (или общо казано по-малки обекти), вероятно искате да използвате [Плотът за дезайн на части](PartDesign_Workbench/bg.md). Ако ще работите само в двумерно пространство, тогава използвайте [Draft Плотът](Draft_Workbench/bg.md). За скици с ограничения използвайте [Плотът за скициране](Sketcher_Workbench/bg.md). Ако искате да правите БИМ, пуснете [Плотът за архитектура](Arch_Workbench/bg.md). Ако искате да моелирате кораби, има специален [работен плот за тази цел](Ship_Workbench/bg.md). Ако искате да работите със [OpenSCAD](https://en.wikipedia.org/wiki/OpenSCAD.md) използвайте [работния плот за OpenSCAD](OpenSCAD_Workbench/bg.md).
+Работния плот който ще използвате зависи от работата която искате да свършите   * например за механически модели (или общо казано по-малки обекти), вероятно искате да използвате [Плотът за дезайн на части](PartDesign_Workbench/bg.md). Ако ще работите само в двумерно пространство, тогава използвайте [Draft Плотът](Draft_Workbench/bg.md). За скици с ограничения използвайте [Плотът за скициране](Sketcher_Workbench/bg.md). Ако искате да правите БИМ, пуснете [Плотът за архитектура](Arch_Workbench/bg.md). Ако искате да моелирате кораби, има специален [работен плот за тази цел](Ship_Workbench/bg.md). Ако искате да работите със [OpenSCAD](https   *//en.wikipedia.org/wiki/OpenSCAD.md) използвайте [работния плот за OpenSCAD](OpenSCAD_Workbench/bg.md).
 
 
 </div>
@@ -162,7 +162,7 @@ FreeCAD има няколко различни режима за [навигац
 
 </div>
 
-2D формите нарисувани в плота за скициране с ограничения се използват често в плота за дизайн на елементи. Например, за да създадете 3D обем, или за да изрежете дупка в страната на 3D обекта върху които работите. Ето типичния работен процес за дизайн на елемент:
+2D формите нарисувани в плота за скициране с ограничения се използват често в плота за дизайн на елементи. Например, за да създадете 3D обем, или за да изрежете дупка в страната на 3D обекта върху които работите. Ето типичния работен процес за дизайн на елемент   *
 
 1.  Отваряте двумерна скица (тоест влизате в работния плот за скициране с ограничения)
 2.  В двумерната скица създавате затворена двумерна форма
@@ -174,9 +174,9 @@ FreeCAD има няколко различни режима за [навигац
 8.  Затваряте скицата
 9.  Създавате дупка (pocket) във обекта, със формата на втората скица
 
-Би трябвало да получите обект подобен на този:
+Би трябвало да получите обект подобен на този   *
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width   *600px;">
 
 Във всеки един момент може да изберете и промените оригиналната скица, или височината на издигнатия елемент(pad extrusion parameters), или дълбочината на дупката която сте създали. Вашите промени веднага ще бъдат отразени върху крайния обект.
 
@@ -193,7 +193,7 @@ FreeCAD има няколко различни режима за [навигац
 
 <div class="mw-translate-fuzzy">
 
-Плотът [Draft](Draft_Workbench/bg.md) предлага 2D инструменти подобни на по-традиционните 2D програми като [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Тъй като стандартното 2D чертане не е основния фокус на FreeCAD, в него няма да намерите всички инструменти които има в програми специално за тази цел (като AutoCAD). Повечето инструменти в плота Draft работят не само в 2D равнини но и в 3D пространството и могат да бъдат интегрирани със помощни системи като [Work planes](Draft_SelectPlane/bg.md) и [object snapping](Draft_Snap/bg.md).
+Плотът [Draft](Draft_Workbench/bg.md) предлага 2D инструменти подобни на по-традиционните 2D програми като [AutoCAD](https   *//en.wikipedia.org/wiki/AutoCAD). Тъй като стандартното 2D чертане не е основния фокус на FreeCAD, в него няма да намерите всички инструменти които има в програми специално за тази цел (като AutoCAD). Повечето инструменти в плота Draft работят не само в 2D равнини но и в 3D пространството и могат да бъдат интегрирани със помощни системи като [Work planes](Draft_SelectPlane/bg.md) и [object snapping](Draft_Snap/bg.md).
 
 
 </div>
@@ -201,12 +201,12 @@ FreeCAD има няколко различни режима за [навигац
 
 <div class="mw-translate-fuzzy">
 
-[Архитектурния работен плот](Arch_Workbench/bg.md) добавя [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) инструменти към FreeCAD, които ви разрешават да създавате архитектурни модели с параметрични обекти. Архитектурния плит изпозва плотове като Draft и Скициране с ограничения. Всички инструменти от Draft плота например са достъпни и в Архиткетурния плот. Повечето инструменти в Архитектурния полт използват части от Draft модула за своята работа.
+[Архитектурния работен плот](Arch_Workbench/bg.md) добавя [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) инструменти към FreeCAD, които ви разрешават да създавате архитектурни модели с параметрични обекти. Архитектурния плит изпозва плотове като Draft и Скициране с ограничения. Всички инструменти от Draft плота например са достъпни и в Архиткетурния плот. Повечето инструменти в Архитектурния полт използват части от Draft модула за своята работа.
 
 
 </div>
 
-Ето пример за типичен работен процес в Архитектурния/Draft работни плотове:
+Ето пример за типичен работен процес в Архитектурния/Draft работни плотове   *
 
 1.  Начертайте няколко линии с инструмента Draft Line
 2.  Изберете всяка линия и натиснете върху инструмента Wall за да построите стена върху всяка от тях
@@ -216,9 +216,9 @@ FreeCAD има няколко различни режима за [навигац
 6.  Създайте прозорец като натистнете върху инструмента Window tool, изберете запеметен тип на прозорец, и натиснете върху лицето на стена в която да се постави прозореца
 7.  Изберете измерения като първи изберете работната равнина (ако е нужно) и след това използвате инструмента Draft Dimension
 
-Би трябвало да получите нещо подобно на следния обект:
+Би трябвало да получите нещо подобно на следния обект   *
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -240,10 +240,10 @@ FreeCAD, as an open source software, offers the possibility to supplement its wo
 
 The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
 
-There are two types of addons:
+There are two types of addons   *
 
-1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+1.  [Macros](Macros.md)   * short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
+2.  [External workbenches](External_workbenches.md)   * collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -266,13 +266,13 @@ There are two types of addons:
 
 <div class="mw-translate-fuzzy">
 
--   [Version 0.17 Release notes](Release_notes_0.17.md) : Вижте какво ново в версия 0.17 на FreeCAD
--   [Version 0.16 Release notes](Release_notes_0.16.md) : Вижте какво ново в версия 0.16 на FreeCAD
--   [Version 0.15 Release notes](Release_notes_0.15.md) : Вижте какво ново в версия 0.15 на FreeCAD
--   [Version 0.14 Release notes](Release_notes_0.14.md) : Вижте какво ново в версия 0.14 на FreeCAD
--   [Version 0.13 Release notes](Release_notes_0.13.md) : Вижте какво ново в версия 0.13 на FreeCAD
--   [Version 0.12 Release notes](Release_notes_0.12.md) : Вижте какво ново в версия 0.12 на FreeCAD
--   [Version 0.11 Release notes](Release_notes_0.11.md) : Вижте какво ново в версия 0.11 на FreeCAD
+-   [Version 0.17 Release notes](Release_notes_0.17.md)    * Вижте какво ново в версия 0.17 на FreeCAD
+-   [Version 0.16 Release notes](Release_notes_0.16.md)    * Вижте какво ново в версия 0.16 на FreeCAD
+-   [Version 0.15 Release notes](Release_notes_0.15.md)    * Вижте какво ново в версия 0.15 на FreeCAD
+-   [Version 0.14 Release notes](Release_notes_0.14.md)    * Вижте какво ново в версия 0.14 на FreeCAD
+-   [Version 0.13 Release notes](Release_notes_0.13.md)    * Вижте какво ново в версия 0.13 на FreeCAD
+-   [Version 0.12 Release notes](Release_notes_0.12.md)    * Вижте какво ново в версия 0.12 на FreeCAD
+-   [Version 0.11 Release notes](Release_notes_0.11.md)    * Вижте какво ново в версия 0.11 на FreeCAD
 
 
 </div>
@@ -285,6 +285,11 @@ There are two types of addons:
 
 
 </div>
+
+
+
+
+[Category   *User Documentation/bg](Category   *User_Documentation/bg.md)
 
 
 

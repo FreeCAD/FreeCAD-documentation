@@ -7,19 +7,19 @@ Chaque page TechDraw est basée sur un objet Modèle. Le modèle contrôle la ta
 
 Le modèle peut également contenir des champs de texte modifiables pour des attributs tels que *Titre*, *Sous-titre*, *Auteur*, *Date*, *Échelle*, *Poids*, *Numéro du dessin* et *Feuille*.
 
-Les modèles sont des fichiers [SVG](SVG.md) qui peuvent être créés et modifiés en dehors de FreeCAD, avec une application telle que [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+Les modèles sont des fichiers [SVG](SVG.md) qui peuvent être créés et modifiés en dehors de FreeCAD, avec une application telle que [Inkscape](https   *//en.wikipedia.org/wiki/Inkscape).
 
 ## Propriétés
 
--    {{PropertyData/fr|Orientation}}: Portrait ou Paysage.
+-    {{PropertyData/fr|Orientation}}   * Portrait ou Paysage.
 
--    {{PropertyData/fr|Width}}: Largeur du papier en mm.
+-    {{PropertyData/fr|Width}}   * Largeur du papier en mm.
 
--    {{PropertyData/fr|Height}}: Hauteur du papier en mm
+-    {{PropertyData/fr|Height}}   * Hauteur du papier en mm
 
--    {{PropertyData/fr|Page Result}}: Une copie du fichier modèle original incluant toutes les modifications apportées aux textes modifiables. Cela permet aux utilisateurs qui ne possèdent pas une copie du fichier modèle de voir la page comme prévu. Pas typiquement utile pour les utilisateurs finaux.
+-    {{PropertyData/fr|Page Result}}   * Une copie du fichier modèle original incluant toutes les modifications apportées aux textes modifiables. Cela permet aux utilisateurs qui ne possèdent pas une copie du fichier modèle de voir la page comme prévu. Pas typiquement utile pour les utilisateurs finaux.
 
--    {{PropertyData/fr|Template}}: a) Un pointeur vers la copie du fichier modèle original incorporé dans ce fichier \*.FCSTD, ou b) un chemin de fichier vers un modèle accessible sur la machine actuelle. Utilisez le bouton de sélection de fichier (\...) pour changer de modèle.
+-    {{PropertyData/fr|Template}}   * a) Un pointeur vers la copie du fichier modèle original incorporé dans ce fichier \*.FCSTD, ou b) un chemin de fichier vers un modèle accessible sur la machine actuelle. Utilisez le bouton de sélection de fichier (\...) pour changer de modèle.
 
 ## Modification du fichier de modèle 
 
@@ -59,11 +59,11 @@ Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateH
 
 -   Les modèles TechDraw ne sont pas entièrement interchangeables avec les [Drawing Modèles](Drawing_templates/fr.md). En général, les modèles de Drawing fonctionneront dans TechDraw, mais il peut y avoir des problèmes avec le texte modifiable.
 
--   Les clauses de transformation Svg **causeront des problèmes** dans les modèles personnalisés. Voir une discussion sur Stackoverflow à l\'adresse [en supprimant les clauses de transformation dans les fichiers SVG](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
+-   Les clauses de transformation Svg **causeront des problèmes** dans les modèles personnalisés. Voir une discussion sur Stackoverflow à l\'adresse [en supprimant les clauses de transformation dans les fichiers SVG](https   *//stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
 
--   La clause **xml:space=\"preserve\"** pose parfois des problèmes de taille et de positionnement du texte. Il est préférable d\'éviter/de supprimer cette clause du code SVG de votre modèle personnalisé.
+-   La clause **xml   *space=\"preserve\"** pose parfois des problèmes de taille et de positionnement du texte. Il est préférable d\'éviter/de supprimer cette clause du code SVG de votre modèle personnalisé.
 
--   Les modèles fonctionnent mieux lorsqu\'ils ne contiennent aucun code SVG superflu (appelé par certains \"SVG garbage\"). Il y a un bon article sur [removing garbage from SVG here](https://freecad-gost.ru/news/gost-templates-techdraw-09-01-2020/). L\'article est en russe.
+-   Les modèles fonctionnent mieux lorsqu\'ils ne contiennent aucun code SVG superflu (appelé par certains \"SVG garbage\"). Il y a un bon article sur [removing garbage from SVG here](https   *//freecad-gost.ru/news/gost-templates-techdraw-09-01-2020/). L\'article est en russe.
 
 
 

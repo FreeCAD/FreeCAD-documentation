@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Ship Area
-   Name/it:Area
-   Icon:Ship_AreaCurve.svg
-   MenuLocation:Ship design → Curva delle sezioni
-   Workbenches:[Ship](Ship_Workbench/it.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */it
+   Name   *Ship Area
+   Name/it   *Area
+   Icon   *Ship_AreaCurve.svg
+   MenuLocation   *Ship design → Curva delle sezioni
+   Workbenches   *[Ship](Ship_Workbench/it.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Ship AreasCurve/it
@@ -20,7 +20,7 @@ Da fare
 
 Plot the transversal areas curve
 
-<img alt="" src=images/FreeCAD-Ship-s60Areas.png  style="width:800px;"> 
+<img alt="" src=images/FreeCAD-Ship-s60Areas.png  style="width   *800px;"> 
 *Design draft transversal areas curve*
 
 The transversal areas curve offers really valuable information in the first stages of a ship\'s design, as it gives an idea of the shape and volume distribution of the ship.
@@ -43,6 +43,14 @@ When you press the **Accept** button, the computation starts. It may hang FreeCA
 
 -   [Tutorial Ship s60, prima parte ](FreeCAD-Ship_s60_tutorial/it.md)
 -   [Tutorial Ship s60, seconda parte](FreeCAD-Ship_s60_tutorial_(II)/it.md)
+
+
+
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft Upgrade
-   Name/it:Promuovi
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Promuovi
-   Shortcut:**U** **P**
-   SeeAlso:[Declassa](Draft_Downgrade/it.md), [Unione di Part](Part_Union/it.md)
+- GuiCommand   */it
+   Name   *Draft Upgrade
+   Name/it   *Promuovi
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Promuovi
+   Shortcut   ***U** **P**
+   SeeAlso   *[Declassa](Draft_Downgrade/it.md), [Unione di Part](Part_Union/it.md)
 ---
 
 # Draft Upgrade/it
@@ -18,12 +18,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Promuovi converte più oggetti in un unico oggetto di livello superiore in diversi modi.
+Lo strumento <img alt="" src=images/Draft_Upgrade.svg  style="width   *16px;"> Promuovi converte più oggetti in un unico oggetto di livello superiore in diversi modi.
 
 
 </div>
 
-<img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Upgrade_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -58,7 +58,7 @@ Lo strumento <img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Prom
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -68,7 +68,7 @@ Lo strumento <img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Prom
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Promuovi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Promuovi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -83,13 +83,13 @@ upgrade_list = upgrade(objects, delete=False, force=None)
 
 -   Eleva di grado il dato `objects`, che può essere un oggetto o un elenco di oggetti.
 -   Se `delete` è `True`, i vecchi oggetti vengono eliminati.
--   Se `force` è dato, viene usato per forzare un certo tipo di promozione. Esso può essere: `"makeCompound"`, `"closeGroupWires"`, `"makeSolid"`, `"closeWire"`, `"turnToParts"`, `"makeFusion"`, `"makeShell"`, `"makeFaces"`, `"draftify"`, `"joinFaces"`, `"makeSketchFace"`, `"makeWires"`, o `"turnToLine"`.
--   Restituisce una `upgrade_list`, che è una lista contenente due liste: una lista di nuovi oggetti (`addList`) e una lista di oggetti da eliminare (`deleteList`).
+-   Se `force` è dato, viene usato per forzare un certo tipo di promozione. Esso può essere   * `"makeCompound"`, `"closeGroupWires"`, `"makeSolid"`, `"closeWire"`, `"turnToParts"`, `"makeFusion"`, `"makeShell"`, `"makeFaces"`, `"draftify"`, `"joinFaces"`, `"makeSketchFace"`, `"makeWires"`, o `"turnToLine"`.
+-   Restituisce una `upgrade_list`, che è una lista contenente due liste   * una lista di nuovi oggetti (`addList`) e una lista di oggetti da eliminare (`deleteList`).
 
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python

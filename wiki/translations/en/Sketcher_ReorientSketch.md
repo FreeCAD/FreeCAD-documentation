@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Sketcher ReorientSketch
-   MenuLocation:Sketch → Reorient sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Sketcher Map sketch](Sketcher_MapSketch.md), [Sketcher New Sketch](Sketcher_NewSketch.md)
+- GuiCommand   *
+   Name   *Sketcher ReorientSketch
+   MenuLocation   *Sketch → Reorient sketch
+   Workbenches   *[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   SeeAlso   *[Sketcher Map sketch](Sketcher_MapSketch.md), [Sketcher New Sketch](Sketcher_NewSketch.md)
 ---
 
 # Sketcher ReorientSketch/en
@@ -15,7 +15,7 @@ Allows you to detach a sketch from a face and attach it to one of the main plane
 ## Usage
 
 1.  Select the sketch to be re-oriented in the tree-view
-2.  Choose **Sketch → [<img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Reorient sketch](Sketcher_ReorientSketch.md)** from the top menu.
+2.  Choose **Sketch → [<img src=images/Sketcher_ReorientSketch.svg style="width   *16px"> [Reorient sketch](Sketcher_ReorientSketch.md)** from the top menu.
 3.  A menu will pop up and ask you if you want to detach the sketch from its face
 4.  Selecting **Yes** will give you the same menu as in **Sketch → New Sketch**.
 5.  You can attach the sketch to one of the main planes

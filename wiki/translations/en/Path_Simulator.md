@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Path Simulator
-   MenuLocation:Path → CAM Simulator
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **M**
-   SeeAlso:[Path Inspect](Path_Inspect.md)
+- GuiCommand   *
+   Name   *Path Simulator
+   MenuLocation   *Path → CAM Simulator
+   Workbenches   *[Path](Path_Workbench.md)
+   Shortcut   ***P** **M**
+   SeeAlso   *[Path Inspect](Path_Inspect.md)
 ---
 
 # Path Simulator/en
@@ -17,30 +17,30 @@ This tool allows Simulation of the Path Job by sweeping 3D Models of the Tools u
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Path_Simulator.svg" width=16px> [Path Simulator](Path_Simulator.md)** button.
     -   Select the **Path → <img src="images/Path_Simulator.svg" width=16px> CAM Simulator** option from the menu.
-    -   Use the keyboard shortcut: **P** then **M**.
+    -   Use the keyboard shortcut   * **P** then **M**.
 2.  De-select any **Operations** that are not to be simulated
 3.  Tune the **Speed** and **Accuracy** settings.
 4.  Select the **Job** for simulation from the drop menu.
-5.  Use the **Path Simulator** toolbar to invoke different actions:
-    -   Press the <img alt="" src=images/Path_BPlay.svg  style="width:24px;"> (Play) button to play or playback an animation of the operations.
-    -   Press the <img alt="" src=images/Path_BFastForward.svg  style="width:24px;"> (Fast Forward) button to increase the speed substantially (in order to quickly review complicated paths).
-    -   Press the <img alt="" src=images/Path_BPause.svg  style="width:24px;"> (Pause) button to pause animation for troubleshooting purposes
-    -   Press the <img alt="" src=images/Path_BStep.svg  style="width:24px;"> (Single-Step) button for slowing down the animation, this functionality helps troubleshooting and resolving specific cuts and/or movements.
-    -   Press the <img alt="" src=images/Path_BStop.svg  style="width:24px;"> (Stop) button to stop the animation.
+5.  Use the **Path Simulator** toolbar to invoke different actions   *
+    -   Press the <img alt="" src=images/Path_BPlay.svg  style="width   *24px;"> (Play) button to play or playback an animation of the operations.
+    -   Press the <img alt="" src=images/Path_BFastForward.svg  style="width   *24px;"> (Fast Forward) button to increase the speed substantially (in order to quickly review complicated paths).
+    -   Press the <img alt="" src=images/Path_BPause.svg  style="width   *24px;"> (Pause) button to pause animation for troubleshooting purposes
+    -   Press the <img alt="" src=images/Path_BStep.svg  style="width   *24px;"> (Single-Step) button for slowing down the animation, this functionality helps troubleshooting and resolving specific cuts and/or movements.
+    -   Press the <img alt="" src=images/Path_BStop.svg  style="width   *24px;"> (Stop) button to stop the animation.
 6.  Press the **Cancel** button will remove the stock created for the simulation. If you press **OK** this object will be kept in your Job.
 
 ## Properties
 
--    **Playback Speed**: The speed of the simulation playback, in G-Code lines/second
+-    **Playback Speed**   * The speed of the simulation playback, in G-Code lines/second
 
--    **Accuracy**: The accuracy of the simulation expressed as a percentage indicating the simulations deviation from the Job. For interactive simulation, reducing accuracy to 0.3 works much faster.
+-    **Accuracy**   * The accuracy of the simulation expressed as a percentage indicating the simulations deviation from the Job. For interactive simulation, reducing accuracy to 0.3 works much faster.
 
--    **Job**: The Job used as the basis of the simulation
+-    **Job**   * The Job used as the basis of the simulation
 
--    **Operation List**: The list of Operations selected for inclusion in the simulation.
+-    **Operation List**   * The list of Operations selected for inclusion in the simulation.
 
 
 

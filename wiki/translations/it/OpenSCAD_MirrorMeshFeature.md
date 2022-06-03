@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:OpenSCAD_MirrorMeshFeature
-   Name/it:Specchia la mesh
-   MenuLocation:OpenSCAD → Specchia la mesh
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/it.md)
-   SeeAlso:[Specchia di Part](Part_Mirror/it.md)
+- GuiCommand   */it
+   Name   *OpenSCAD_MirrorMeshFeature
+   Name/it   *Specchia la mesh
+   MenuLocation   *OpenSCAD → Specchia la mesh
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/it.md)
+   SeeAlso   *[Specchia di Part](Part_Mirror/it.md)
 ---
 
 # OpenSCAD MirrorMeshFeature/it
@@ -31,7 +31,7 @@ Creates a new mirrored mesh object, mirrored about the selected axis.
 ## Notes
 
 -   The function does not modify the existing mesh, but returns a new mesh.
--   The function can be accessed via python:
+-   The function can be accessed via python   *
 
 
 ```python

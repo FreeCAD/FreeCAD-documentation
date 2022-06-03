@@ -1,6 +1,8 @@
 # Category:Document object/ru
 Эта категория перечисляет страницы, переведённые на русский язык и относящиеся к объектам, полученным из [App DocumentObject](App_DocumentObject/ru.md). Список оригинальных страниц на английском языке, в том числе ещё не переведённых, смотрите на странице\.....
 
+[Category   *User Documentation/ru](Category   *User_Documentation/ru.md) [Category   *Developer Documentation/ru](Category   *Developer_Documentation/ru.md)
+
 ### Contents
 
 |     |     |     |

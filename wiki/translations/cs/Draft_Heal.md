@@ -1,6 +1,6 @@
 # Draft Heal/cs
 ---
-- GuiCommand:/cs   Name:Draft Heal   Name/cs:Kreslení Léčit   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Utility → Léčit---
+- GuiCommand   */cs   Name   *Draft Heal   Name/cs   *Kreslení Léčit   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení → Utility → Léčit---
 
 
 </div>

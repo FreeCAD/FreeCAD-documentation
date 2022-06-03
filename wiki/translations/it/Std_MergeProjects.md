@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Std_MergeProjects
-   Name/it:Unisci progetti
-   Empty:1
-   MenuLocation:File → Unisci progetti...
-   Workbenches:Tutti
+- GuiCommand   */it
+   Name   *Std_MergeProjects
+   Name/it   *Unisci progetti
+   Empty   *1
+   MenuLocation   *File → Unisci progetti...
+   Workbenches   *Tutti
 ---
 
 # Std MergeProjects/it
@@ -39,7 +39,7 @@ Il comando **Unisci progetti** aggiunge il contenuto di un file FreeCAD nel docu
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato è memorizzata in: **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath**.
+-   L\'ultima posizione del file utilizzato è memorizzata in   * **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath**.
 -   Le etichette duplicate sono consentite se **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels** è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 
 

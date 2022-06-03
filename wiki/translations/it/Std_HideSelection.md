@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:Std HideSelection
-   Name/it:Nascondi la selezione
-   Empty:1
-   MenuLocation:Visualizza → Visibilità → Nascondi la selezione
-   Workbenches:Tutti
-   SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
+- GuiCommand   *
+   Name   *Std HideSelection
+   Name/it   *Nascondi la selezione
+   Empty   *1
+   MenuLocation   *Visualizza → Visibilità → Nascondi la selezione
+   Workbenches   *Tutti
+   SeeAlso   *[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
 ---
 
 # Std HideSelection/it
@@ -20,7 +20,7 @@ The **Std HideSelection** command hides selected objects in [3D views](3D_view.m
 ## Utilizzo
 
 1.  Select one or more objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Select the **View → Visibility → <img src="images/Std_HideSelection.svg" width=16px> Hide selection** option from the menu.
     -   Select the **<img src="images/Std_HideSelection.svg" width=16px> Hide selection** option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
 
@@ -35,7 +35,7 @@ The **Std HideSelection** command hides selected objects in [3D views](3D_view.m
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

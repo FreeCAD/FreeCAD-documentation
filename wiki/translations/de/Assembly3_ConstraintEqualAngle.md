@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Assembly3 ConstraintEqualAngle
-   Name/de:Assembly3 GleicheWinkel
-   Icon:Assembly_ConstraintEqualAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Assembly3 ConstraintEqualAngle
+   Name/de   *Assembly3 GleicheWinkel
+   Icon   *Assembly_ConstraintEqualAngle.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintEqualAngle/de
@@ -22,7 +22,7 @@ Die Richtung der Linien und auch die Flächennormalen werden durch die Z-Achse d
 2.  Jeweils ein Linienelement oder ein planeres Flächenelement beider Objekte auswählen.
 3.  Schaltfläche **<img src="images/Assembly_ConstraintEqualAngle.svg" width=16px> [Gleiche Winkel](Assembly3_ConstraintEqualAngle/de.md)** drücken.
 
-:   Zusätzlich kann es erforderlich sein die Funktion \"Element umdrehen\" zu nutzen, wenn die LKS nicht wie erwartet ausgerichtet sind.
+   *   Zusätzlich kann es erforderlich sein die Funktion \"Element umdrehen\" zu nutzen, wenn die LKS nicht wie erwartet ausgerichtet sind.
 
 
 

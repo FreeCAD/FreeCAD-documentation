@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Draft Arc
-   Name/it:Arco
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Arco
-   Shortcut:**A** **R**
-   SeeAlso:[Circonferenza](Draft_Circle/it.md), [Ellipse](Draft_Ellipse/it.md), [Arco da 3 punti](Draft_Arc_3Points/it.md)
-   Version:0.7
+- GuiCommand   */it
+   Name   *Draft Arc
+   Name/it   *Arco
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Arco
+   Shortcut   ***A** **R**
+   SeeAlso   *[Circonferenza](Draft_Circle/it.md), [Ellipse](Draft_Ellipse/it.md), [Arco da 3 punti](Draft_Arc_3Points/it.md)
+   Version   *0.7
 ---
 
 # Draft Arc/it
@@ -26,21 +26,21 @@ Crea un arco nel [piano di lavoro](Draft_SelectPlane/it.md). Si può definire l\
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
-<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_Arc_example.jpg  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
 
 
-*Arco definito da quattro punti: centro, raggio, punto iniziale dell'arco e punto finale dell'arco.*
+*Arco definito da quattro punti   * centro, raggio, punto iniziale dell'arco e punto finale dell'arco.*
 
 
 </div>
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -66,7 +66,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Opzioni
 
--   L\'uso principale dello strumento arco è selezionando quattro punti: il centro, un punto sulla circonferenza, l\'inizio dell\'arco e la sua fine.
+-   L\'uso principale dello strumento arco è selezionando quattro punti   * il centro, un punto sulla circonferenza, l\'inizio dell\'arco e la sua fine.
     -   Premendo **Alt**, si può selezionare una tangente invece diselezionare un punto, per definire il cerchio di base dell\'arco. È quindi possibile costruire diversi tipi di cerchi selezionando una, due o tre tangenti.
 -   La direzione dell\'arco dipende dal movimento che si sta facendo con il mouse. Se si inizia il movimento in senso orario dopo aver inserito il terzo punto, l\'arco va in senso orario. Per andare in senso antiorario, spostare semplicemente il mouse indietro sul terzo punto, finché l\'arco inizia a disegnare nell\'altra direzione.
 -   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
@@ -90,9 +90,9 @@ L\'arco può essere modificato facendo doppio clic sull\'elemento nella vista ad
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates, radii and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
@@ -115,7 +115,7 @@ Un oggetto Arco condivide tutte le proprietà di un [Cerchio](Draft_Circle/it.md
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -130,7 +130,7 @@ Lo strumento Arco può essere utilizzato nelle [macro](macros/it.md) e dalla con
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python

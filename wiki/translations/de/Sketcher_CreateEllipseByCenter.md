@@ -1,22 +1,21 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher CreateEllipseByCenter
-   Name/de:Skizzierer Ellipse durch Mittelpunkt erstellen
-   MenuLocation:Sketch → Skizzengeometrien → Ellipse um Mittelpunkt erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **E** **E**
-   Version:0.15
-   SeeAlso:[Skizzierer Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md), [Skizzierer Kreis](Sketcher_CreateCircle/de.md), [[Sketcher_CreateArcOfEllipse/de|Skizzierer
-Ellipsenbogen]]
+- GuiCommand   */de
+   Name   *Sketcher CreateEllipseByCenter
+   Name/de   *Skizzierer EllipseDurchMittelpunktErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Ellipse um Mittelpunkt erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **E** **E**
+   Version   *0.15
+   SeeAlso   *[Sketcher EllipseDurch3PunkteErstellen](Sketcher_CreateEllipseBy3Points/de.md), [Sketcher KreisErstellen](Sketcher_CreateCircle/de.md), [Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md)
 ---
 
 # Sketcher CreateEllipseByCenter/de
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: der Mittelpunkt, das Ende des großen Radius und der kleine Radius. Wenn du das Werkzeug startest, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Ellipsensymbol. Daneben werden die Koordinaten in Echtzeit angezeigt.
+Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden   * der Mittelpunkt, das Ende des großen Radius und der kleine Radius. Wenn du das Werkzeug startest, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Ellipsensymbol. Daneben werden die Koordinaten in Echtzeit angezeigt.
 
-<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
+<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width   *500px;">
 
 
 

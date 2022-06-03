@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Part Measure Toggle All
-   MenuLocation:Measure → Toggle All
-   Workbenches:[Part](Part_Workbench.md)
+- GuiCommand   *
+   Name   *Part Measure Toggle All
+   MenuLocation   *Measure → Toggle All
+   Workbenches   *[Part](Part_Workbench.md)
 ---
 
 # Part Measure Toggle All
@@ -15,8 +15,8 @@ This tool toggles the visibility of all measurements from the [3D view](3D_view.
 
 ## Usage
 
-1.  Invoke the command several ways:
-    -   Press the **[<img src=images/Part_Measure_Toggle_All.svg style="width:16px"> '''Toggle All'''** button.
+1.  Invoke the command several ways   *
+    -   Press the **[<img src=images/Part_Measure_Toggle_All.svg style="width   *16px"> '''Toggle All'''** button.
     -   Use the **Measure → Toggle All**
 
 

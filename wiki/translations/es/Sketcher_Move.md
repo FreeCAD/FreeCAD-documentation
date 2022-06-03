@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/es
-   Name/es:Sketcher Move
-   Icon:Sketcher_Move.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch → Herramientas de croquis → Move
-   Shortcut:Ctrl + M
-   Version:0.18
-   SeeAlso:[Clonar](Sketcher_Clone/es.md), [Copiar](Sketcher_Copy/es.md)
+- GuiCommand   */es
+   Name/es   *Sketcher Move
+   Icon   *Sketcher_Move.svg
+   Workbenches   *[Sketcher](Sketcher_Workbench/es.md)
+   MenuLocation   *Sketch → Herramientas de croquis → Move
+   Shortcut   *Ctrl + M
+   Version   *0.18
+   SeeAlso   *[Clonar](Sketcher_Clone/es.md), [Copiar](Sketcher_Copy/es.md)
 ---
 
 # Sketcher Move/es
@@ -30,10 +30,10 @@ Moves the selected sketch elements from one point to another, using the last sel
 </div>
 
 1.  Select the sketch elements for the move operation.
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/Sketcher_Move.svg style="width:16px"> [Move](Sketcher_Move.md)** button in the toolbar.
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/Sketcher_Move.svg style="width   *16px"> [Move](Sketcher_Move.md)** button in the toolbar.
     -   Use the **Z** then **M** keyboard shortcut.
-    -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_Move.svg style="width:16px"> Move** entry in the menu.
+    -   Use the **Sketch → Sketcher tools → [<img src=images/Sketcher_Move.svg style="width   *16px"> Move** entry in the menu.
 3.  Move the mouse in the [3D view](3D_view.md) to the desired location.By keeping **Shift** pressed, the angle to the location can be fixed in steps of 5°. <small>(v0.20)</small> 
 4.  Left-click in the 3D view to finish the move. The existing constraints move as well.
 5.  If you want to detach an element and move it freely, delete its locking constraints and drag it with the mouse.

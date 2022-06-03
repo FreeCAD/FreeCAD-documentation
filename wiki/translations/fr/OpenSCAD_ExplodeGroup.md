@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:OpenSCAD ExplodeGroup
-   Name/fr:OpenSCAD Dégrouper
-   MenuLocation:OpenSCAD → Dégrouper
-‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
+- GuiCommand   */fr
+   Name   *OpenSCAD ExplodeGroup
+   Name/fr   *OpenSCAD Dégrouper
+   MenuLocation   *OpenSCAD → Dégrouper
+‏‎   Workbenches   *[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
 # OpenSCAD ExplodeGroup/fr
@@ -15,7 +15,7 @@ Cette outil fait décompose une fusion ou un composé et le convertit en objets 
 ## Utilisation
 
 1.  Sélectionner fusion/composé à exploser
-2.  Cliquez sur <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width:32px;"> ou choisissez **OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Dégrouper** dans le menu principal.
+2.  Cliquez sur <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width   *32px;"> ou choisissez **OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Dégrouper** dans le menu principal.
 
 ## Limitations
 

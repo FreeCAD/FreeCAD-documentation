@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Draft Arc 3Points
-   Name/it:Arco da tre punti
-   MenuLocation:Draft → Arco da tre punti
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**A** **T**
-   SeeAlso:[Arco](Draft_Arc/it.md), [Cerchio](Draft_Circle/it.md), [Ellisse](Draft_Ellipse/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *Draft Arc 3Points
+   Name/it   *Arco da tre punti
+   MenuLocation   *Draft → Arco da tre punti
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut   ***A** **T**
+   SeeAlso   *[Arco](Draft_Arc/it.md), [Cerchio](Draft_Circle/it.md), [Ellisse](Draft_Ellipse/it.md)
+   Version   *0.19
 ---
 
 # Draft Arc 3Points/it
@@ -19,14 +19,14 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Arc_3Points.svg  style="width:16px;"> [Arco da tre punti](Draft_Arc_3Points/it.md) crea un arco circolare nell\'attuale [piano di lavoro](Draft_SelectPlane/it.md) inserendo tre punti che si trovano sulla circonferenza; il centro e il raggio sono determinati da questi tre punti. Usa [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati in precedenza nella [barra di Draft](Draft_Tray/it.md).
+Lo strumento <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *16px;"> [Arco da tre punti](Draft_Arc_3Points/it.md) crea un arco circolare nell\'attuale [piano di lavoro](Draft_SelectPlane/it.md) inserendo tre punti che si trovano sulla circonferenza; il centro e il raggio sono determinati da questi tre punti. Usa [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati in precedenza nella [barra di Draft](Draft_Tray/it.md).
 
 
 </div>
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
-<img alt="" src=images/Draft_Arc_3Points_example.png  style="width:400px;">
+<img alt="" src=images/Draft_Arc_3Points_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +40,7 @@ A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** 
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -77,9 +77,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a non-editable [Part Feature](Part_Feature.md) instead of a Draft Circle.
 
 ## Proprietà
@@ -98,7 +98,7 @@ Un oggetto Arco condivide tutte le proprietà di un [Cerchio](Draft_Circle/it.md
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -108,7 +108,7 @@ Un oggetto Arco condivide tutte le proprietà di un [Cerchio](Draft_Circle/it.md
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Arco da tre punti può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Arco da tre punti può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -126,7 +126,7 @@ arc = make_arc_3points(points, placement=None, face=False, support=None, map_mod
 -   Se `face` è `True`, l\'arco formerà una faccia, cioè apparirà pieno.
 -   Se viene fornito un `support`, esso è un `LinkSubList`, vale a dire un elenco che indica un oggetto e un sottoelemento di quell\'oggetto. Viene utilizzato in modo che l\'oggetto appaia riferito a questo supporto.
 
-:   Per esempio, support=[(obj, ("Face1"))]
+   *   Per esempio, support=[(obj, ("Face1"))]
 
 -   Se viene fornito un `map_mode`, è una stringa che definisce un tipo di mappatura, ad esempio,map_mode='FlatFace', map_mode='ThreePointsPlane', etc. Per ulteriori informazioni vedere [Part Associazione](Part_EditAttachment/it.md).
 -   Se `primitive` è `True`, l\'arco creato sarà un semplice [Part Feature](Part_Feature/it.md), e non un oggetto Draft complesso.
@@ -134,7 +134,7 @@ arc = make_arc_3points(points, placement=None, face=False, support=None, map_mod
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python

@@ -11,7 +11,11 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/ReverseEngineering/Gui/Resources/icons/actions/
 
- ![](images/FitSurface.svg )
+ ![](images/FitSurface.svg ) 
+
+ 
+
+[Category   *Artwork](Category_Artwork.md) [Category   *Reverse Engineering](Category_Reverse_Engineering.md)
 
 
 

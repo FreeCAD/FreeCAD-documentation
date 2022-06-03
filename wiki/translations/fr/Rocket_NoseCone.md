@@ -34,15 +34,35 @@ Les types de coiffes pris en charge comprennent   *
 ![](images/NC_Cone_small.png ) 
 *Conique*
 
+-   Cône arrondi. Pour toutes les formes arrondies, la longueur est la longueur réelle de la pointe et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https   *//fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
+
+![](images/NC_Blunted_Cone_small.png ) 
+*Cône arrondi sphérique*
+
 -   Ogive.
 
 ![](images/NC_Ogive_small.png ) 
 *Ogive*
 
+-   Ogive arrondie. Pour toutes les formes arrondies, l\'extrémité est arrondie de manière sphérique avec un diamètre spécifié. La longueur est la longueur réelle du nez et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https   *//fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
+
+![](images/NC_Blunted_Ogive_small.png ) 
+*Ogive arrondie sphérique*
+
+-   Ogive sécante.
+
+![](images/NC_Secant_Ogive_small.png ) 
+*Ogive sécante*
+
 -   Elliptique.
 
 ![](images/NC_Elliptical_small.png ) 
 *Elliptique*
+
+-   Sphérique. C\'est un cas particulier du cône de nez elliptique où la longueur est égale à la moitié du diamètre.
+
+![](images/NC_Sperical_small.png ) 
+*Sphérique*
 
 -   Parabole. La forme généralement considérée comme une parabole n\'est pas générée à l\'aide d\'une série parabolique, mais d\'une série de puissance avec un coefficient de 1/2. Ceci est expliqué dans l\'article de Wikipédia.
 
@@ -99,29 +119,33 @@ Les coiffes peuvent être créés avec ou sans épaulements   *
 ## Propriétés
 
 
-{{TitleProperty|Coiffe}}
+{{TitleProperty|Nose Cone}}
 
--    **Coefficent**   * Combiné avec le type de coiffe, cela définit la forme de la coiffe, voir [Options](#Options.md).
+-    **Blunted Diameter**   * Le diamètre de la partie sphérique à l\'extrémité de la pointe.
 
--    **Diameter**   * Le diamètre de la base de la coiffe.
+-    **Coefficent**   * Combiné avec le type de coiffe, cela définit la forme de la pointe, voir [Options](#Options.md).
 
--    **Length**   * La longueur de la coiffe sans l\'épaulement.
+-    **Diameter**   * Le diamètre de la base de la pointe.
 
--    **Nose Style**   * Définit le style de la coiffe, voir [Options](#Options.md).
+-    **Length**   * La longueur du cône de la pointe sans l\'épaulement. Pour toutes les formes arrondies, la longueur est la longueur réelle de la pointe et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https   *//fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
 
--    **Nose Type**   * Définit la forme de la coiffe en utilisant le coefficient si nécessaire, voir [Options](#Options.md).
+-    **Nose Style**   * Définit le style de la pointe, voir [Options](#Options.md).
 
--    **Resolution**   * Utilisé en interne, ce paramètre définit le nombre de points de données à utiliser lors du dessin du contour de la coiffe.
+-    **Nose Type**   * Définit la forme de la pointe en utilisant le coefficient si nécessaire, voir [Options](#Options.md).
 
--    **Shoulder**   * Vrai lorsque la coiffe comprend une épaulement.
+-    **Ogive Diameter**   * Diamètre du cercle de l\'ogive. Cette donnée n\'est requise que pour la pointe en ogive sécante.
 
--    **Shoulder Diameter**   * Le diamètre de l\'épaulement. Il doit être inférieur au rayon de la coiffe.
+-    **Resolution**   * Utilisé en interne, ce paramètre définit le nombre de points de données à utiliser lors du dessin du contour de la pointe.
+
+-    **Shoulder**   * Vrai lorsque la pointe comprend une épaulement.
+
+-    **Shoulder Diameter**   * Le diamètre de l\'épaulement. Il doit être inférieur au rayon de la pointe.
 
 -    **Shoulder Length**   * La longueur de l\'épaulement.
 
--    **Shoulder Thickness**   * Lorsque le style de la coiffe est creux ou bouché, cela détermine l\'épaisseur de l\'épaulement.
+-    **Shoulder Thickness**   * Lorsque le style de la pointe est creux ou bouché, cela détermine l\'épaisseur de l\'épaulement.
 
--    **Thickness**   * Lorsque le style de la coiffe est creux ou coiffé, cela déterminera l\'épaisseur de la paroi de la coiffe.
+-    **Thickness**   * Lorsque le style de la pointe est creux ou coiffé, cela déterminera l\'épaisseur de la paroi de la pointe.
 
 
 {{TitleProperty|Rocket Component}}
@@ -136,15 +160,9 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 -    **Part Number**   * Numéro de pièce du fabricant
 
-## Script
-
-Voir aussi    * [   *Category   *API/fr](   *Category   *API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
-
-A définir
-
 ## Tutoriels et apprentissage 
 
-[Coiffe atelier Rocket](https   *//youtu.be/zwLgie2E4Ts) Tutoriel sur YouTube
+Tutoriel sur YouTube [Rocket Workbench Nose Cones](https   *//youtu.be/zwLgie2E4Ts)
 
 
 
@@ -157,4 +175,4 @@ A définir
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/fr

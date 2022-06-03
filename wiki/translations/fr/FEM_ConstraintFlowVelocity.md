@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM ConstraintFlowVelocity
-   Name/fr:FEM Contrainte de vitesse d'écoulement
-   MenuLocation:Modèle → Contrainte de fluides → Contrainte de vitesse d'écoulement
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte vitesse d'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md)
+- GuiCommand   */fr
+   Name   *FEM ConstraintFlowVelocity
+   Name/fr   *FEM Contrainte de vitesse d'écoulement
+   MenuLocation   *Modèle → Contrainte de fluides → Contrainte de vitesse d'écoulement
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[FEM Contrainte vitesse d'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md)
 ---
 
 # FEM ConstraintFlowVelocity/fr
@@ -18,7 +18,7 @@ Applique une vitesse d\'écoulement comme condition limite à un bord en 2D ou �
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Contrainte de vitesse d'écoulement](FEM_ConstraintFlowVelocity/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contrainte de fluides → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Contrainte de vitesse d'écoulement** dans le menu.
 2.  Le [Panneau des tâches](Task_panel/fr.md) affichera des menus pour la contrainte de vitesse d\'écoulement
@@ -31,11 +31,11 @@ Applique une vitesse d\'écoulement comme condition limite à un bord en 2D ou �
 
 -   Les composants vectoriels cochés comme \"unspecified\" (non spécifiés) seront interpolés par le solveur sélectionné.
 
-    :   Tout vecteur qui devrait être le résultat du solveur doit être coché comme \"unspecified\".
+       *   Tout vecteur qui devrait être le résultat du solveur doit être coché comme \"unspecified\".
 -   Si la face ou l\'arête cible n\'est pas alignée avec le système de coordonnées cartésiennes principal, il est possible de cocher \"normal to boundary\".
 
-    :   Si \"normal to boundary\" est coché, le vecteur normal au bord ou à la face sélectionné est X et il sera orienté loin du domaine du maillage.
-    :   Par exemple, si un flux de 20 mm/s d\'air doit entrer dans le domaine, après avoir coché \"normal à la limite\", l\'utilisateur devra entrer -20 mm/s dans le champ \"velocity X\".
+       *   Si \"normal to boundary\" est coché, le vecteur normal au bord ou à la face sélectionné est X et il sera orienté loin du domaine du maillage.
+       *   Par exemple, si un flux de 20 mm/s d\'air doit entrer dans le domaine, après avoir coché \"normal à la limite\", l\'utilisateur devra entrer -20 mm/s dans le champ \"velocity X\".
 
 -   Pour un mur avec une condition antidérapante, le débit sera de (0,0,0)
 -   Pour une condition de symétrie, l\'écoulement sera (0, Unspecified, Unspecified) si \"normal to boundary\" est coché.

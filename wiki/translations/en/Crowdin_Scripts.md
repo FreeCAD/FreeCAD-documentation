@@ -3,13 +3,13 @@
 
 ## Managing Translations for FreeCAD 
 
-FreeCAD uses a 3rd party translation service called [Crowdin](https://crowdin.com/project/freecad) to manage translations.
+FreeCAD uses a 3rd party translation service called [Crowdin](https   *//crowdin.com/project/freecad) to manage translations.
 
-There are 3 scripts in FreeCAD/src/Tools that are used to manage translation files:
+There are 3 scripts in FreeCAD/src/Tools that are used to manage translation files   *
 
-1.  updatets.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
-2.  updatecrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
-3.  updatefromcrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
+1.  updatets.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
+2.  updatecrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
+3.  updatefromcrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
 
 ### Notes
 
@@ -21,11 +21,11 @@ There are 3 scripts in FreeCAD/src/Tools that are used to manage translation fil
 
 The updatets.py script will create the .ts files in your local FreeCAD/ directory. It generates .ts files (Qt Translation Source File).
 
-It is invoked with: python2 updatets.py
+It is invoked with   * python2 updatets.py
 
 ### updatecrowdin.py
 
-The updatecrowdin.py script pushes changes to Crowdin (3rd party translation crowdsource translation service) from your local FreeCAD/ directory. The script currently supports 4 arguments:
+The updatecrowdin.py script pushes changes to Crowdin (3rd party translation crowdsource translation service) from your local FreeCAD/ directory. The script currently supports 4 arguments   *
 
 -   updatecrowdin.py status prints a status of the translations
 -   updatecrowdin.py update updates crowdin the current version of .ts files found in the source code
@@ -39,7 +39,7 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 ## To send latest strings to crowdin 
 
 -   Only tested on linux
--   You need a .credentials file in your /home/YourUser directory. That file is a simple text file containing only one line, which is the API key that you get on <https://crowdin.com/project/freecad/settings#api> (only for admins)
+-   You need a .credentials file in your /home/YourUser directory. That file is a simple text file containing only one line, which is the API key that you get on <https   *//crowdin.com/project/freecad/settings#api> (only for admins)
 -   Make sure your repository is clean (git pull, git stash if needed)
 -   cd /path/to/freecad-source-code/src/Tools
 -   python updatets.py (will fill all the .ts files found in the source with the lastest strings)
@@ -50,7 +50,7 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 ## To merge latest translations from crowdin 
 
 -   Only tested on linux
--   You need a .credentials file in your /home/YourUser directory. That file is a simple text file containing only one line, which is the API key that you get on <https://crowdin.com/project/freecad/settings#api> (only for admins)
+-   You need a .credentials file in your /home/YourUser directory. That file is a simple text file containing only one line, which is the API key that you get on <https   *//crowdin.com/project/freecad/settings#api> (only for admins)
 -   Make sure your repository is clean (git pull, git stash if needed)
 -   cd /path/to/freecad-source-code/src/Tools
 -   python updatecrowdin.py build (will create a zip on crowdin side with all the files, can take a while.. This step can also be done on the crowdin website)
@@ -86,6 +86,11 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 -   [Localisation](Localisation.md)
 -   [Crowdin Administration](Crowdin_Administration.md)
 -   [Release process](Release_process.md)
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

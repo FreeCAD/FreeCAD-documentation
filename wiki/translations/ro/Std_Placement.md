@@ -1,6 +1,6 @@
 # Std Placement/ro
 ---
-- GuiCommand:   Name:Std Placement   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Tasks Placement|Tasks Placement](Std_Edit_Menu___Edit]]_→_Placement...‏‎.md), [Placement](Placement.md)---
+- GuiCommand   *   Name   *Std Placement   MenuLocation   *[|Workbenches   *All   Shortcut   *   SeeAlso   *[[Tasks Placement|Tasks Placement](Std_Edit_Menu___Edit]]_→_Placement...‏‎.md), [Placement](Placement.md)---
 
 
 </div>
@@ -36,7 +36,7 @@
 1.  Select a single object that has a **Placement** property in the [property editor](Property_editor.md).
 2.  Select the **Edit → Placement...** option from the menu.
 3.  Change one or more of the translation and rotation parameters.
-4.  Do one of the following:
+4.  Do one of the following   *
     -   Press the **OK** button to apply the changes and close the task panel.
     -   Press the **Apply** button to apply the changes, but keep the task panel open for further changes.
 5.  Press **Esc** or the **Cancel** button to abort the operation. This will undo any changes that have not been applied.
@@ -50,20 +50,20 @@ The dialog can also be launched by clicking on the ellipsis button **...** that 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 See the [Python scripting tutorial](Python_scripting_tutorial#Vectors_and_placements.md).
 
-A placement is internally defined by a matrix; in many cases it is simpler to represent it by means of two components, a `Base` point (vector), and a `Rotation` value. The `Rotation` itself has different representations; it can be entirely defined by the value of a \"[quaternion](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, but it can also be described by a rotation `Axis` (unit vector) and a rotation `Angle` (radians).
+A placement is internally defined by a matrix; in many cases it is simpler to represent it by means of two components, a `Base` point (vector), and a `Rotation` value. The `Rotation` itself has different representations; it can be entirely defined by the value of a \"[quaternion](https   *//en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, but it can also be described by a rotation `Axis` (unit vector) and a rotation `Angle` (radians).
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = doc.addObject("Part::Cylinder", "Cylinder")
+obj = doc.addObject("Part   *   *Cylinder", "Cylinder")
 
 print(obj.Placement)
 # Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]

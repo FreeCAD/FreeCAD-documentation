@@ -1,4 +1,4 @@
-# <img alt="Логотип верстака Inspection" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/ru
+# <img alt="Логотип верстака Inspection" src=images/Workbench_Inspection.svg  style="width   *64px;"> Inspection Workbench/ru
 
 ## Introduction
 
@@ -7,12 +7,12 @@
 
 ## Введение
 
-<img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Верстак Inspection](Inspection_Workbench/ru.md) спроектирован для того, чтобы предоставить вам специальные инструменты для изучения форм. Верстак находится в стадии разработки.
+<img alt="" src=images/Workbench_Inspection.svg  style="width   *24px;"> [Верстак Inspection](Inspection_Workbench/ru.md) спроектирован для того, чтобы предоставить вам специальные инструменты для изучения форм. Верстак находится в стадии разработки.
 
 
 </div>
 
-<img alt="Результат использования верстака" src=images/InspectionEx.png  style="width:500px;">
+<img alt="Результат использования верстака" src=images/InspectionEx.png  style="width   *500px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -30,7 +30,18 @@
 -   Then use the menu **Inspection → Visual inspection**.
 -   You will get a colored image showing the deviation between the two shapes.
 
-В качестве альтернативы, для сравнения двух фигур можно использовать макрос <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [HighlightDifference](Macro_HighlightDifference.md).
+В качестве альтернативы, для сравнения двух фигур можно использовать макрос <img alt="" src=images/HighlightDifference.png  style="width   *24px;"> [HighlightDifference](Macro_HighlightDifference.md).
+
+
+
+
+
+
+
+
+
+
+[Category   *Inspection](Category_Inspection.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

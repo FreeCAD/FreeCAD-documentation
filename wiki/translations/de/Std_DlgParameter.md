@@ -1,17 +1,17 @@
 ---
-- GuiCommand:/de
-   Name:Std DlgParameter
-   Name/de:Std ParameterDialog
-   MenuLocation:Werkzeuge → Parameter bearbeiten...
-   Workbenches:All
-   SeeAlso:[Voreinstellungseditor](Preferences_Editor/de.md)
+- GuiCommand   */de
+   Name   *Std DlgParameter
+   Name/de   *Std ParameterDialog
+   MenuLocation   *Werkzeuge → Parameter bearbeiten...
+   Workbenches   *All
+   SeeAlso   *[Voreinstellungseditor](Preferences_Editor/de.md)
 ---
 
 # Std DlgParameter/de
 
 ## Beschreibung
 
-Der Befehl **Std ParameterDialog** öffnet den Parametereditor. Im Parametereditor können die Parameter eingesehen und bei Bedarf gelöscht, hinzugefügt und geändert werden, die das Verhalten von FreeCAD und seinen Arbeitsbereichen steuern. Die Parameter werden in einer Datei namens {{FileName|user.cfg}} gespeichert, deren Speicherort vom benutzten Betriebssystem abhängt.
+Der Befehl **Std ParameterDialog** öffnet den Parametereditor. Im Parametereditor können die Parameter eingesehen und bei Bedarf gelöscht, hinzugefügt und geändert werden, die das Verhalten von FreeCAD und seinen Arbeitsbereichen steuern. Die Parameter werden in einer Datei namens **user.cfg** gespeichert, deren Speicherort vom benutzten Betriebssystem abhängt.
 
 Mit dem Parametereditor zu arbeiten erfordert etwas Erfahrung. Für die üblichen Parameter kann man auch den benutzerfreundlicheren [Voreinstellungseditor](Preferences_Editor/de.md) verwenden.
 
@@ -22,7 +22,7 @@ Mit dem Parametereditor zu arbeiten erfordert etwas Erfahrung. Für die übliche
 
 1.  Auswahl des Menüeintrags **Werkzeuge → <img src="images/Std_DlgParameter.svg" width=16px> Parameter bearbeiten...**.
 2.  Das Dialogfeld des Parametereditors öffnet sich. Siehe [Optionen](#Optionen.md) für weitere Informationen.
-3.  Optional drückt man die Schaltfläche **Speichern**, um die Datei {{FileName|user.cfg}} sofort zu aktualisieren. Dies ist nicht zwingend erforderlich, da FreeCAD die Datei automatisch aktualisiert, wenn die Anwendung geschlossen wird.
+3.  Optional drückt man die Schaltfläche **Speichern**, um die Datei **user.cfg** sofort zu aktualisieren. Dies ist nicht zwingend erforderlich, da FreeCAD die Datei automatisch aktualisiert, wenn die Anwendung geschlossen wird.
 4.  Schaltfläche **Schließen** drücken um den Parametereditor zu schließen.
 
 ## Optionen
@@ -31,7 +31,7 @@ Mit dem Parametereditor zu arbeiten erfordert etwas Erfahrung. Für die übliche
 
 The left panel shows a tree with parameter groups and sub-groups.
 
-*The following options are available in the panel\'s context menu:*
+*The following options are available in the panel\'s context menu   **
 
 #### Expand/Collapse
 
@@ -75,7 +75,7 @@ The left panel shows a tree with parameter groups and sub-groups.
 
 The right panel shows the parameters in the group selected in the left panel. If this group only contains sub-groups the right panel will be empty.
 
-*The following options are available in the panel\'s context menu:*
+*The following options are available in the panel\'s context menu   **
 
 #### Change value 
 
@@ -151,16 +151,16 @@ Typing a (partial) string in this input box will fully expand the tree in the le
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the **Edit → Preferences → Import-Export → DXF → Import options → Join geometry** preference appears in **Tools → Edit parameters → BaseApp → Preferences → Mod → Draft → dxfCreatePart** and has type `Boolean`. It can therefore be accessed in Python using the following code: 
+Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the **Edit → Preferences → Import-Export → DXF → Import options → Join geometry** preference appears in **Tools → Edit parameters → BaseApp → Preferences → Mod → Draft → dxfCreatePart** and has type `Boolean`. It can therefore be accessed in Python using the following code   * 
 ```python
-# get:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+# get   *
+App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set   *
+App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
 ```
 
 Finding which parameter is used to store which option from the Preferences editor can require searching a bit, but the [Parameter Editor](Std_DlgParameter.md) offers a search facility, which should help.

@@ -1,4 +1,4 @@
-# <img alt="Workfeature-Arbeitsbereich-Symbol" src=images/WF_wf.png  style="width:64px;"> Workfeature Workbench/de
+# <img alt="Workfeature-Arbeitsbereich-Symbol" src=images/WF_wf.png  style="width   *64px;"> Workfeature Workbench/de
 
 
 {{Note|Hinweis|Zusammenführen mit [Makro Workfeature](Macro_WorkFeatures/de.md)??}}
@@ -17,17 +17,17 @@ Werkzeug Dienstprogramm zum Erstellen
 
 ## Referenzen
 
--   Autor: [Rentlau](https://github.com/Rentlau)
--   Heimseite: [WorkFeature](https://github.com/Rentlau/WorkFeature)
--   Quellcode auf github: [WorkFeature](https://github.com/Rentlau/WorkFeature)
+-   Autor   * [Rentlau](https   *//github.com/Rentlau)
+-   Heimseite   * [WorkFeature](https   *//github.com/Rentlau/WorkFeature)
+-   Quellcode auf github   * [WorkFeature](https   *//github.com/Rentlau/WorkFeature)
 
 ## Werkzeuge
 
 ### Dokumentation
 
-Dokumentation zu Veröffentlichungen [hier](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) und
+Dokumentation zu Veröffentlichungen [hier](https   *//github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) und
 
--   Vollständige Dokumentation [hier](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
+-   Vollständige Dokumentation [hier](https   *//github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
 
 ### Werkzeugleiste
 
@@ -63,17 +63,19 @@ Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md)
 
 ## Verweise zum Arbeitsbereich Animation 
 
--   Arbeitsbereichs Wiki:
--   FreeCAD Wiki:
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160>
--   Tutorien:
--   Videos:
--   Dateien:
--   Fehler berichten: Please report bugs at [FreeCAD Forum](http://forum.freecadweb.org/index.php)
+-   Arbeitsbereichs Wiki   *
+-   FreeCAD Wiki   *
+-   FreeCAD Forum   * <http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160>
+-   Tutorien   *
+-   Videos   *
+-   Dateien   *
+-   Fehler berichten   * Please report bugs at [FreeCAD Forum](http   *//forum.freecadweb.org/index.php)
 
 ## Andere nützliche Verweise 
 
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
+
+[Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

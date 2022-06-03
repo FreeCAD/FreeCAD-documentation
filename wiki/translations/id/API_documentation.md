@@ -1,5 +1,5 @@
 # API documentation/id
-1.  REDIRECT [:Category:API](:Category_API.md)
+1.  REDIRECT [   *Category   *API](   *Category_API.md)
 
 
 

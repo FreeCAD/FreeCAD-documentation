@@ -37,7 +37,7 @@ Si hay uno o más documentos abiertos en FreeCAD, siempre alguno de ellos, y só
 
 <div class="mw-translate-fuzzy">
 
-Como casi todo lo demás en FreeCAD, la interfaz de usuario (*GUI*) del entorno de trabajo de piezas está separada de la aplicación base de piezas. Esto también es válido para los documentos. Los documentos también están hechos de dos partes: el documento de la aplicación, que contiene nuestros objetos, y el documento *Vista*, que contiene la representación en pantalla de nuestros objetos.
+Como casi todo lo demás en FreeCAD, la interfaz de usuario (*GUI*) del entorno de trabajo de piezas está separada de la aplicación base de piezas. Esto también es válido para los documentos. Los documentos también están hechos de dos partes   * el documento de la aplicación, que contiene nuestros objetos, y el documento *Vista*, que contiene la representación en pantalla de nuestros objetos.
 
 
 </div>
@@ -57,7 +57,7 @@ Otra cosa que está contenida en el *documento Vista* son las *vistas* 3D. Un do
 
 <div class="mw-translate-fuzzy">
 
-Los documentos se pueden crear fácilmente, acceder y modificar desde el intérprete de Python. Por ejemplo:
+Los documentos se pueden crear fácilmente, acceder y modificar desde el intérprete de Python. Por ejemplo   *
 
 
 </div>

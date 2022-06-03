@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/tr
-   Name:PartDesign Plane
-   Name/tr:Referans düzlemi oluştur
-   Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Parça tasarım → Referans düzlemi oluştur
-   Version:0.17
-   SeeAlso:[Referans noktası oluştur](PartDesign_Point.md), [Referans çizgisi oluştur](PartDesign_Line.md)
+- GuiCommand   */tr
+   Name   *PartDesign Plane
+   Name/tr   *Referans düzlemi oluştur
+   Workbenches   *[Parça tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation   *Parça tasarım → Referans düzlemi oluştur
+   Version   *0.17
+   SeeAlso   *[Referans noktası oluştur](PartDesign_Point.md), [Referans çizgisi oluştur](PartDesign_Line.md)
 ---
 
 # PartDesign Plane/tr
@@ -25,7 +25,7 @@ Eskizler veya diğer referans geometri için referans olarak kullanılabilecek b
 
 </div>
 
-A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
+A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
 
 
 <div class="mw-translate-fuzzy">
@@ -76,20 +76,20 @@ Model ağacındaki Referans düzlemi etiketine çift tıklayın veya sağ tıkla
 
 <div class="mw-translate-fuzzy">
 
--    **MapMode**:Kullanılan ek modu listeler.
+-    **MapMode**   *Kullanılan ek modu listeler.
 
--    **Attachment Offset**:Ataşman yerleşimine atıfta bulunan bir dönüştürme (çeviri ve döndürme) uygular.
+-    **Attachment Offset**   *Ataşman yerleşimine atıfta bulunan bir dönüştürme (çeviri ve döndürme) uygular.
 
--    **Label**: Nesneye verilen ad, bu ad uygun şekilde değiştirilebilir.
+-    **Label**   * Nesneye verilen ad, bu ad uygun şekilde değiştirilebilir.
 
 
 </div>
 
--    **MapMode**: lists the attachment mode used.
+-    **MapMode**   * lists the attachment mode used.
 
--    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**: name given to the object, this name can be changed at convenience.
+-    **Label**   * name given to the object, this name can be changed at convenience.
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std_DlgMacroExecute
-   Name/fr:Std Exécuter une macro
-   MenuLocation:Macro → Macros...
-   Workbenches:Tous
-   SeeAlso:[Std Lancer la macro](Std_DlgMacroExecuteDirect/fr.md)
+- GuiCommand   */fr
+   Name   *Std_DlgMacroExecute
+   Name/fr   *Std Exécuter une macro
+   MenuLocation   *Macro → Macros...
+   Workbenches   *Tous
+   SeeAlso   *[Std Lancer la macro](Std_DlgMacroExecuteDirect/fr.md)
 ---
 
 # Std DlgMacroExecute/fr
@@ -18,7 +18,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std Macro](Std_DlgMacroExecute/fr.md)**.
     -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** dans le menu.
 2.  La boîte de dialogue Exécuter la macro s\'ouvre. Voir [Options](#Options.md).
@@ -33,7 +33,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 ### Macros du système 
 
-:   L\'onglet **System macros** n\'est pas utilisé pour le moment.
+   *   L\'onglet **System macros** n\'est pas utilisé pour le moment.
 
 ### Emplacement des macros de l\'utilisateur 
 
@@ -42,7 +42,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 ### Lancer
 
-1.  Pour exécuter une macro, effectuez l\'une des opérations suivantes:
+1.  Pour exécuter une macro, effectuez l\'une des opérations suivantes   *
     -   Sélectionnez la macro dans la liste et appuyez sur le bouton **Lancer**.
     -   Double-cliquez sur la macro dans la liste.
 2.  La boîte de dialogue se ferme.
@@ -55,7 +55,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 ### Créer
 
 1.  Appuyez sur le bouton **Céer** pour créer un nouveau fichier de macro.
-2.  Entrez un nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension {{FileName|.FCMacro}}.
+2.  Entrez un nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
 3.  Appuyez sur **Entrée** ou sur le bouton **OK**.
 4.  Les deux boîtes de dialogue se ferment.
 5.  Le nouveau fichier est ouvert dans l\'éditeur de macros.
@@ -77,14 +77,14 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 1.  Sélectionnez la macro que vous souhaitez renommer dans la liste.
 2.  Appuyez sur le bouton **Renommer**.
-3.  Entrez un nouveau nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension {{FileName|.FCMacro}}.
+3.  Entrez un nouveau nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK**.
 
 ### Doublon
 
 1.  Sélectionnez la macro que vous souhaitez dupliquer dans la liste.
 2.  Appuyez sur le bouton **Doublon**.
-3.  Entrez un nouveau nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension {{FileName|.FCMacro}}.
+3.  Entrez un nouveau nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK**.
 
 ### Barre d\'outils 
@@ -95,7 +95,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 ### Greffons
 
-1.  Appuyez sur le bouton **Addons...** pour démarrer le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+1.  Appuyez sur le bouton **Addons...** pour démarrer le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ## Remarques
 
@@ -103,7 +103,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 ## Préférences
 
--   L\'emplacement des macros utilisateur peut également être modifié dans les préférences: **Edition → Préférences... → Général → Macro → Chemin de la macro**. Voir [ Editeur de préférences](Preferences_Editor/fr#Macro.md).
+-   L\'emplacement des macros utilisateur peut également être modifié dans les préférences   * **Edition → Préférences... → Général → Macro → Chemin de la macro**. Voir [ Editeur de préférences](Preferences_Editor/fr#Macro.md).
 
 
 

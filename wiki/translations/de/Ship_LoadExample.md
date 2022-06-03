@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Ship Load‏‎
-   Name/de:Schiffslast
-   MenuLocation:Schiffkonstruktion → Laden einer Beispielschiffsgeometrie
-   Workbenches:[Schiff](Ship_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */de
+   Name   *Ship Load‏‎
+   Name/de   *Schiffslast
+   MenuLocation   *Schiffkonstruktion → Laden einer Beispielschiffsgeometrie
+   Workbenches   *[Schiff](Ship_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Ship LoadExample/de
@@ -15,13 +15,13 @@
 
 ## Beschreibung
 
-Schiff arbeitet über **Schiffseinheiten**, die auf der bereitgestellten Geometrie erstellt werden müssen. Die Geometrie muss ein Festkörper oder ein Satz von Festkörpern sein, wobei folgende Kriterien berücksichtigt werden müssen:
+Schiff arbeitet über **Schiffseinheiten**, die auf der bereitgestellten Geometrie erstellt werden müssen. Die Geometrie muss ein Festkörper oder ein Satz von Festkörpern sein, wobei folgende Kriterien berücksichtigt werden müssen   *
 
 -   Die gesamte Rumpfgeometrie muss bereitgestellt werden (einschließlich symmetrischer Körper).
 -   Die Steuerbordgeometrie muss im negativen *y*-Bereich enthalten sein.
 -   Ursprungspunkt (0,0,0) ist der Schnittpunkt der *Mittschiffssektion* (Mittelpunkt zwischen der hinteren und vorderen Senkrechten) und der *Basislinie*.
 
-Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids. The following criteria must be taken into account:
+Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids. The following criteria must be taken into account   *
 
 -   All hull geometry must be provided (including symmetric bodies).
 -   Starboard geometry must be included at negatives *y* domain.
@@ -30,7 +30,7 @@ Ship works over **Ship entities**, that must be created on top of provided geome
 ![](images/FreeCAD-Ship-SignCriteria.jpg ) ![\|Schematische Ansicht der Vorzeichenkriterien](images/FreeCAD-Ship-SignCriteria.jpg ) 
 *Kriterien für Schiffszeichen*
 
-Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebeispiele mit den folgenden Auswahlmöglichkeiten:
+Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebeispiele mit den folgenden Auswahlmöglichkeiten   *
 
 -   Serie 60 von der Universität Iowa
 -   Kanonisches Schiff Wigley
@@ -43,7 +43,7 @@ Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebei
 <div class="mw-translate-fuzzy">
 
 1.  Aufruf des Schiff Ladeprogramms für Geometriebeispiele, entweder durch
-    -   drücken auf das <img alt="" src=images/Ship_Load.svg  style="width:24px;">-Symbol in der Werkzeugleiste
+    -   drücken auf das <img alt="" src=images/Ship_Load.svg  style="width   *24px;">-Symbol in der Werkzeugleiste
     -   wählen von **Ship design → Lade ein Beispiel einer ‏‎Schiffsgeometrie** aus dem Menü
 2.  Ein Aufgaben-Dialogfeld wird angezeigt, aus dem eine Beispielschiffsgeometrie ausgewählt werden kann.
     -   Wähle z.B. **Series 60 from Iowa Universität** und drücke **OK**
@@ -68,6 +68,11 @@ Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebei
 
 
 </div>
+
+
+
+
+[Category   *Ship](Category_Ship.md)
 
 
 

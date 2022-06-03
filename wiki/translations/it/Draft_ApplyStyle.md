@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Draft ApplyStyle
-   Name/it:Applica lo stile
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → Utilità → Applica stile
-   SeeAlso:[Barra di Draft](Draft_Tray/it.md), [Draft SetStyle](Draft_SetStyle.md)
+- GuiCommand   */it
+   Name   *Draft ApplyStyle
+   Name/it   *Applica lo stile
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation   *Draft → Utilità → Applica stile
+   SeeAlso   *[Barra di Draft](Draft_Tray/it.md), [Draft SetStyle](Draft_SetStyle.md)
 ---
 
 # Draft ApplyStyle/it
@@ -22,7 +22,7 @@ Questo strumento applica con una sola operazione il colore, lo spessore e il tip
 
 </div>
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
+This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers   *
 
 -    **Line color**
     

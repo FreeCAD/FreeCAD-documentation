@@ -1,6 +1,8 @@
 # Category:Document object/fr
 Cette catégorie répertorie les pages liées aux objets dérivés de la base [App DocumentObject](App_DocumentObject/fr.md).
 
+[Category   *User Documentation/fr](Category   *User_Documentation/fr.md)
+
 ### Contents
 
 |     |     |     |

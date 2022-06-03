@@ -1,19 +1,19 @@
 ---
-- GuiCommand:Addon/de
-   Name:BIM Classification
-   Name/de:BIM Klassifizierung
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten → Klassifizierung
+- GuiCommand   *Addon/de
+   Name   *BIM Classification
+   Name/de   *BIM Klassifizierung
+   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon   *BIM
+   MenuLocation   *Verwalten → Klassifizierung
 ---
 
 # BIM Classification/de
 
 ## Beschreibung
 
-<img alt="" src=images/BIM_classification_screenshot.png  style="width:1024px;">
+<img alt="" src=images/BIM_classification_screenshot.png  style="width   *1024px;">
 
-Der Klassifizierungsverwalter erlaubt dir, einem BIM Objekt oder Material eine Standardklasse zuzuordnen. Mehrere Klassifizierungssysteme sind in XML oder IFC Form (beide werden von diesem Werkzeug unterstützt) von <https://github.com/Moult/IfcClassification>, oder direkt von ihren Herausgebern oder von <https://www.graphisoft.com/downloads/archicad/BIM_Data.html> erhältlich. Um diese XML oder IFC Dateien FreeCAD bekannt zu machen, müssen sie in einem BIM Unterordner deiner FreeCAD Benutzerordner abgelegt werden. Der genaue Standort für dein System wird im BIM Klassifizierungsdialog angegeben. Wenn sowohl eine IFC als auch eine XML Datei verfügbar sind, wird das BIM Klassifizierungswerkzeug die IFC Datei bevorzugen.
+Der Klassifizierungsverwalter erlaubt dir, einem BIM Objekt oder Material eine Standardklasse zuzuordnen. Mehrere Klassifizierungssysteme sind in XML oder IFC Form (beide werden von diesem Werkzeug unterstützt) von <https   *//github.com/Moult/IfcClassification>, oder direkt von ihren Herausgebern oder von <https   *//www.graphisoft.com/downloads/archicad/BIM_Data.html> erhältlich. Um diese XML oder IFC Dateien FreeCAD bekannt zu machen, müssen sie in einem BIM Unterordner deiner FreeCAD Benutzerordner abgelegt werden. Der genaue Standort für dein System wird im BIM Klassifizierungsdialog angegeben. Wenn sowohl eine IFC als auch eine XML Datei verfügbar sind, wird das BIM Klassifizierungswerkzeug die IFC Datei bevorzugen.
 
 ## Anwendung
 

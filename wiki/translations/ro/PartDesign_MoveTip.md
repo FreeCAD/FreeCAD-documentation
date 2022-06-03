@@ -1,6 +1,6 @@
 # PartDesign MoveTip/ro
 ---
-- GuiCommand:   Name:PartDesign MoveTip   MenuLocation:Contextual menu → Set tip   Workbenches:[Shortcut:None   SeeAlso:[[PartDesign MoveFeature|Move object to other body](PartDesign_Workbench___PartDesign]].md), [Move object after other object](PartDesign_MoveFeatureInTree.md)---
+- GuiCommand   *   Name   *PartDesign MoveTip   MenuLocation   *Contextual menu → Set tip   Workbenches   *[Shortcut   *None   SeeAlso   *[[PartDesign MoveFeature|Move object to other body](PartDesign_Workbench___PartDesign]].md), [Move object after other object](PartDesign_MoveFeatureInTree.md)---
 
 
 </div>
@@ -37,7 +37,7 @@ Trucul este distins vizual în arborele model printr-o săgeată mică albă în
 <div class="mw-translate-fuzzy">
 
 1.  În arborescența Model, click dreapta pe funcția care urmează a fi definită ca funcție rezultantă
-2.  Selectați <img alt="" src=images/PartDesign_MoveTip.png  style="width:24px;"> **Set tip**.
+2.  Selectați <img alt="" src=images/PartDesign_MoveTip.png  style="width   *24px;"> **Set tip**.
 3.  Funcția nouă rezultată este vizibilă și toate elementele de sub ea sunt ascunse. Elementele nou create din acest punct vor fi plasate sub funcția rezultată și deasupra celorlalte elemente existente.
 
 
@@ -46,7 +46,7 @@ Trucul este distins vizual în arborele model printr-o săgeată mică albă în
 
 <div class="mw-translate-fuzzy">
 
-**Notă**: Este important să rețineți că ajustați vârful la ultima caracteristică din partea inferioară a arborelui caroseriei.
+**Notă**   * Este important să rețineți că ajustați vârful la ultima caracteristică din partea inferioară a arborelui caroseriei.
 
 
 </div>

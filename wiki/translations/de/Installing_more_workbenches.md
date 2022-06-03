@@ -21,7 +21,7 @@ Auf diese Weise installierte Arbeitsbereiche sind für alle Benutzer verfügbar.
 Kopiere den Arbeitsbereichsordner in `$INSTALL_DIR/Mod/`, wobei `$INSTALL_DIR` das FreeCAD Installationsverzeichnis ist.
 
 -   Unter Linux ist es normalerweise `/usr/share/freecad/Mod/`
--   Unter Windows ist es normalerweise `C:\Programmdateien\FreeCAD\Mod\`
+-   Unter Windows ist es normalerweise `C   *Programmdateien\FreeCAD\Mod\`
 -   Unter macOS ist es normalerweise `/Anwendungen/FreeCAD/Mod/`
 
 ## Installation für einen einzelnen Anwender 
@@ -31,7 +31,7 @@ Auf diese Weise installierte Arbeitsbereiche stehen nur einem Benutzer zur Verf�
 Kopiere den Arbeitsbereichsordner nach `$USER_DIR/Mod/`, wobei `$USER_DIR` das FreeCAD Verzeichnis für einen bestimmten `Benutzername` ist.
 
 -   Unter Linux ist es normalerweise `/home/username/.FreeCAD/Mod/`.
--   Unter Windows ist es `%APPDATA%\FreeCAD\Mod\`, das ist normalerweise `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
+-   Unter Windows ist es `%APPDATA%\FreeCAD\Mod\`, das ist normalerweise `C   *Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
 -   Unter macOS ist es normalerweise `/Users/username/Library/Preferences/FreeCAD/Mod/`. Eine Möglichkeit, in das Einstellungsverzeichnis zu gelangen, besteht darin, den \"Finder\" Menüeintrag {{MenuCommand/de|Gehe → Gehe zu Ordner}} zu benutzen und `~/Library/Preferences/FreeCAD` einzugeben.
 
 ## Zusätzliche Informationen 
@@ -39,6 +39,11 @@ Kopiere den Arbeitsbereichsordner nach `$USER_DIR/Mod/`, wobei `$USER_DIR` das F
 Weitere Informationen zur Erstellung eines benutzerdefinierten Arbeitsbereichs findest du im [Verteiler für Erfahrene Anwender](Power_users_hub/de.md) und im [Verteiler für Entwickler](Developer_hub/de.md).
 
 Siehe auch eine detaillierte Beschreibung auf der Seite [Wie man zusätzliche Arbeitsbereiche installiert](How_to_install_additional_workbenches/de.md).
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

@@ -1,17 +1,17 @@
-# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/sv
+# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width   *64px;"> Image Workbench/sv
 
 
 {{TOCright}}
 
 ## Introduction
 
-Bildmodulen hanterar olika typer av [bitmapp bilder](http://sv.wikipedia.org/wiki/Rastergrafik), och låter dig öppna dem i FreeCAD. För närvarande, så kan modulen öppna .bmp, .jpg, .png och .xpm filformat i ett separat visningsfönster. Det finns också ett verktyg som tillåter dig att fånga bilder från en webcam.
+Bildmodulen hanterar olika typer av [bitmapp bilder](http   *//sv.wikipedia.org/wiki/Rastergrafik), och låter dig öppna dem i FreeCAD. För närvarande, så kan modulen öppna .bmp, .jpg, .png och .xpm filformat i ett separat visningsfönster. Det finns också ett verktyg som tillåter dig att fånga bilder från en webcam.
 
 ## Tools
 
--   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Open\...](Image_Open.md): open an image on a new viewport.
--   <img alt="" src=images/Image_CreateImagePlane.svg  style="width:32px;"> [Create image plane\...](Image_CreateImagePlane.md): import an image to a plane in the 3D view.
--   <img alt="" src=images/Image_Scaling.svg  style="width:32px;"> [Scale image plane](Image_Scaling.md): scale an image imported to a plane.
+-   <img alt="" src=images/Image_Open.svg  style="width   *32px;"> [Open\...](Image_Open.md)   * open an image on a new viewport.
+-   <img alt="" src=images/Image_CreateImagePlane.svg  style="width   *32px;"> [Create image plane\...](Image_CreateImagePlane.md)   * import an image to a plane in the 3D view.
+-   <img alt="" src=images/Image_Scaling.svg  style="width   *32px;"> [Scale image plane](Image_Scaling.md)   * scale an image imported to a plane.
 
 ## Features
 
@@ -33,7 +33,9 @@ The offset of the image can be set during import, or changed later through its p
 
 {{Image Tools navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Arch Panel   Name/ro:Arch Panel
-   MenuLocation:Arch → Panel Tools → Panel
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**P** **A**
-   SeeAlso:[Arch Panel Cut](Arch_Panel_Cut/ro.md), [Arch Panel Sheet](Arch_Panel_Sheet/ro.md)
-   Version:0.15
+- GuiCommand   */ro
+   Name   *Arch Panel   Name/ro   *Arch Panel
+   MenuLocation   *Arch → Panel Tools → Panel
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   Shortcut   ***P** **A**
+   SeeAlso   *[Arch Panel Cut](Arch_Panel_Cut/ro.md), [Arch Panel Sheet](Arch_Panel_Sheet/ro.md)
+   Version   *0.15
 ---
 
 # Arch Panel/ro
@@ -15,21 +15,21 @@
 
 ## Descriere
 
-Acest instrument vă permite să construiți tot felul de elemente de tip panou, de obicei pentru construcții de panouri, cum ar fi proiectul [WikiHouse](http://www.wikihouse.cc/), dar și pentru toate tipurile de obiecte bazate pe un profil plat.
+Acest instrument vă permite să construiți tot felul de elemente de tip panou, de obicei pentru construcții de panouri, cum ar fi proiectul [WikiHouse](http   *//www.wikihouse.cc/), dar și pentru toate tipurile de obiecte bazate pe un profil plat.
 
-<img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
+<img alt="" src=images/Arch_Panel_example.jpg  style="width   *700px;">
 
 *Imaginea de mai sus prezintă o serie de obiecte de panou, realizate pur și simplu din contururi 2D importate dintr-un fișier DXF. Ele pot fi apoi rotite și asamblate pentru a crea structuri.*
 
 
 <div class="mw-translate-fuzzy">
 
-Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea profiluri ondulate sau trapezoidale:
+Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea profiluri ondulate sau trapezoidale   *
 
 
 </div>
 
-<img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
+<img alt="" src=images/Arch_panel_wave.jpg  style="width   *700px;">
 
 ## Cum se folosește 
 
@@ -78,25 +78,25 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 ## Proprietăți
 
--    **Length**: The length of the panel
+-    **Length**   * The length of the panel
 
--    **Width**: The width of the panel
+-    **Width**   * The width of the panel
 
--    **Thickness**: The thickness of the panel
+-    **Thickness**   * The thickness of the panel
 
--    **Area**: The area of the panel (automatic)
+-    **Area**   * The area of the panel (automatic)
 
--    **Sheets**: The number of sheets of material the panel is made of
+-    **Sheets**   * The number of sheets of material the panel is made of
 
--    **Wave Length**: The length of the wave for corrugated panels
+-    **Wave Length**   * The length of the wave for corrugated panels
 
--    **Wave Height**: The height of the wave for corrugated panels
+-    **Wave Height**   * The height of the wave for corrugated panels
 
--    **Wave Type**: The type of the wave for corrugated panels, curved, trapezoidal or spiked
+-    **Wave Type**   * The type of the wave for corrugated panels, curved, trapezoidal or spiked
 
--    **Wave Direction**: The orientation of the waves for corrugated panels
+-    **Wave Direction**   * The orientation of the waves for corrugated panels
 
--    **Bottom Wave**: If the bottom wave of the panel is flat or not
+-    **Bottom Wave**   * If the bottom wave of the panel is flat or not
 
 
 <div class="mw-translate-fuzzy">
@@ -109,7 +109,7 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Panel poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții:
+Instrumentul Panel poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții   *
 
 
 </div>

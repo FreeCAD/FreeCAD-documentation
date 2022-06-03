@@ -2,12 +2,12 @@
 <div class="mw-translate-fuzzy">
 
 
-**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].**
+**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https   *//www.freecadweb.org/api autogenerierte API-Dokumentation].**
 
 
 </div>
 
-The selection submodule is part of the FreeCADGui module. Example: 
+The selection submodule is part of the FreeCADGui module. Example   * 
 ```python
 import FreeCADGui
 sel = FreeCADGui.Selection.getSelection()
@@ -30,6 +30,11 @@ sel = FreeCADGui.Selection.getSelection()
 
 
 {{APIFunction|removeSelection|FreeCAD.Object|Removes an object from the selection| }}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

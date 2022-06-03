@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:Draft Text
-   Name/de:Draft Text
-   MenuLocation:Entwurf → Text
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**T** **E**
-   SeeAlso:[Draft Label](Draft_Label/de.md), [Draft ShapeString](Draft_ShapeString/de.md)
-   Version:0.7
+- GuiCommand   */de
+   Name   *Draft Text
+   Name/de   *Draft Text
+   MenuLocation   *Entwurf → Text
+   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut   ***T** **E**
+   SeeAlso   *[Draft Label](Draft_Label/de.md), [Draft ShapeString](Draft_ShapeString/de.md)
+   Version   *0.7
 ---
 
 # Draft Text/de
@@ -37,7 +37,7 @@ Um ein Textfeld mit einem Führungszeichen und einem Pfeil zu erstellen, verwend
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Text_example.png  style="width   *400px;"> 
 *Einzelner Punkt erforderlich zum Positionieren der Text-Box*
 
 
@@ -45,7 +45,7 @@ Um ein Textfeld mit einem Führungszeichen und einem Pfeil zu erstellen, verwend
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
+See also   * [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -82,14 +82,14 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
-**Warnung:** Die mit [version 0.18](Release_notes_0.18.md) erstellten Texte sind nicht abwärtskompatibel, sichern Sie also Ihre Arbeit, wenn Sie versuchen, mit 0.18 erstellte Dateien mit älteren Versionen zu öffnen.
+**Warnung   *** Die mit [version 0.18](Release_notes_0.18.md) erstellten Texte sind nicht abwärtskompatibel, sichern Sie also Ihre Arbeit, wenn Sie versuchen, mit 0.18 erstellte Dateien mit älteren Versionen zu öffnen.
 
 
 </div>
 
 ## Eigenschaften
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
 A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated.
 
@@ -103,13 +103,13 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 ### Daten
 
--    {{PropertyData/de|Text}}: gibt den Inhalt des Textblocks als Liste von Zeichenketten an; jedes Element auf der Liste, durch ein Komma getrennt, zeigt eine neue Zeile an.
+-    {{PropertyData/de|Text}}   * gibt den Inhalt des Textblocks als Liste von Zeichenketten an; jedes Element auf der Liste, durch ein Komma getrennt, zeigt eine neue Zeile an.
 
--    {{PropertyData/de|Position}}: gibt den Basispunkt der ersten Zeile des Textblocks an.
+-    {{PropertyData/de|Position}}   * gibt den Basispunkt der ersten Zeile des Textblocks an.
 
--    {{PropertyData/de|Winkel}}: gibt die Rotation der Grundlinie der ersten Zeile des Textblocks an.
+-    {{PropertyData/de|Winkel}}   * gibt die Rotation der Grundlinie der ersten Zeile des Textblocks an.
 
--    {{PropertyData/de|Achse}}: gibt die Achse an, die für die Rotation verwendet werden soll.
+-    {{PropertyData/de|Achse}}   * gibt die Achse an, die für die Rotation verwendet werden soll.
 
 
 </div>
@@ -119,21 +119,21 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**   * specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the text.
+-    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the text.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
 
--    **Line Color|Color**: not used.
+-    **Line Color|Color**   * not used.
 
--    **Line Width|Float**: not used.
+-    **Line Width|Float**   * not used.
 
 
 {{TitleProperty|Text}}
@@ -143,15 +143,15 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 ### Ansicht
 
--    {{PropertyView/de|Ansichtsmodus}}: wenn es sich um \"3D Text\" handelt, wird der Text an den Szenenachsen ausgerichtet, wobei er zunächst auf der XY Ebene liegt; wenn es sich um \"2D Text\" handelt, wird der Text immer der Kamera zugewandt sein.
+-    {{PropertyView/de|Ansichtsmodus}}   * wenn es sich um \"3D Text\" handelt, wird der Text an den Szenenachsen ausgerichtet, wobei er zunächst auf der XY Ebene liegt; wenn es sich um \"2D Text\" handelt, wird der Text immer der Kamera zugewandt sein.
 
--    {{PropertyView/de|Schriftartname}}: gibt die Schriftart an, die zum Zeichnen des Textes verwendet werden soll. Es kann ein Schriftname wie \"Arial\", ein Standardstil wie \"sans\", \"serif\" oder \"mono\", eine Familie wie \"Arial, Helvetica, sans\" oder ein Name mit einem Stil wie \"Arial:Bold\" sein. Wenn die angegebene Schriftart nicht auf dem System gefunden wird, wird stattdessen eine generische Schriftart verwendet.
+-    {{PropertyView/de|Schriftartname}}   * gibt die Schriftart an, die zum Zeichnen des Textes verwendet werden soll. Es kann ein Schriftname wie \"Arial\", ein Standardstil wie \"sans\", \"serif\" oder \"mono\", eine Familie wie \"Arial, Helvetica, sans\" oder ein Name mit einem Stil wie \"Arial   *Bold\" sein. Wenn die angegebene Schriftart nicht auf dem System gefunden wird, wird stattdessen eine generische Schriftart verwendet.
 
--    {{PropertyView/de|Schriftgröße}}: gibt die Größe der Buchstaben an. Wenn das Textobjekt in der Baumansicht erstellt wird, aber kein Text sichtbar ist, erhöhe die Größe des Textes, bis er sichtbar ist.
+-    {{PropertyView/de|Schriftgröße}}   * gibt die Größe der Buchstaben an. Wenn das Textobjekt in der Baumansicht erstellt wird, aber kein Text sichtbar ist, erhöhe die Größe des Textes, bis er sichtbar ist.
 
--    {{PropertyView/de|Ausrichtung}}: gibt an, ob der Text links, rechts oder in der Mitte des Basispunktes ausgerichtet ist.
+-    {{PropertyView/de|Ausrichtung}}   * gibt an, ob der Text links, rechts oder in der Mitte des Basispunktes ausgerichtet ist.
 
--    **Zeilenabstand**: gibt den Abstand zwischen den Textzeilen an.
+-    **Zeilenabstand**   * gibt den Abstand zwischen den Textzeilen an.
 
 
 </div>
@@ -164,7 +164,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Draft API](Draft_API/de.md) und [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
 
@@ -174,7 +174,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 <div class="mw-translate-fuzzy">
 
-Das Textwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
+Das Textwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   *
 
 
 </div>
@@ -204,7 +204,7 @@ Die Ansichtseigenschaften von `Text` können durch Überschreiben seiner Attribu
 
 </div>
 
-Beispiel:
+Beispiel   *
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher BSplineComb
-   Name/de:Skizzierer BSplineKamm
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation:Skizze → Skizzierer B-Spline Werkzeuge → B-Spline Krümmungskamm ein-/ausblenden
-   Version:0.17
-   SeeAlso:[Erstelle B-spline](Sketcher_CompCreateBSpline/de.md)
+- GuiCommand   */de
+   Name   *Sketcher BSplineComb
+   Name/de   *Skizzierer BSplineKamm
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   MenuLocation   *Skizze → Skizzierer B-Spline Werkzeuge → B-Spline Krümmungskamm ein-/ausblenden
+   Version   *0.17
+   SeeAlso   *[Erstelle B-spline](Sketcher_CompCreateBSpline/de.md)
 ---
 
 # Sketcher BSplineComb/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Zeigt oder blendet die Anzeige des Krümmungskamms einer B-Spline Kurve ein oder aus (siehe [B-Spline](https://en.wikipedia.org/wiki/B-spline)).
+Zeigt oder blendet die Anzeige des Krümmungskamms einer B-Spline Kurve ein oder aus (siehe [B-Spline](https   *//en.wikipedia.org/wiki/B-spline)).
 
 
 </div>

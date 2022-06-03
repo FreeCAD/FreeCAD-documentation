@@ -6,7 +6,7 @@
 
 Cette documentation explique comment configurer une macro pour qu\'elle s\'exécute automatiquement au démarrage de FreeCAD.
 
-Avant de commencer, les points suivants doivent être pris en compte:
+Avant de commencer, les points suivants doivent être pris en compte   *
 
 -   L\'exécution automatique d\'une macro au démarrage peut être considérée comme un risque pour la sécurité. Vous ne devez exécuter que des macros fiables et testées auparavant
 -   Vous avez probablement besoin de quelques notions de Python et de codage pour suivre cette procédure
@@ -19,49 +19,49 @@ Avant de commencer, les points suivants doivent être pris en compte:
 
 Généralement, il arrivera qu\'une macro ne soit pas directement compatible avec un lancement au démarrage et devra être ajustée
 
-Considérez la macro ci-dessous que vous avez téléchargée quelque part et qui est stockée dans votre dossier \'Macro\' avec le nom \'MySuperMacro.FCMacro\':
+Considérez la macro ci-dessous que vous avez téléchargée quelque part et qui est stockée dans votre dossier \'Macro\' avec le nom \'MySuperMacro.FCMacro\'   *
 
     ## Import section ##
     from PySide import QtGui
 
     ## Definition section (classes, functions, ...)
-    class MyMsgBox(QtGui.QMessageBox):
+    class MyMsgBox(QtGui.QMessageBox)   *
 
-        def __init__(self):
+        def __init__(self)   *
             super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
     ## Main instruction section
     MyMsgBox()
 
-Toutes les macros présentent généralement une structure similaire avec une première section d\'importation, puis une section de définition et enfin une section d\'instruction principale. Nous allons nous concentrer sur ce dernier point car les instructions principales (elles sont assez faciles à repérer car elles commencent au début de la ligne) sont en réalité celles qui \"exécutent\" la macro. Pour une étape ultérieure, nous devrons importer la macro avec un programme puis l\'exécuter. Cela ne peut pas être fait avec la structure réelle de la macro. Pour pouvoir le faire, nous devons inclure les instructions principales dans une fonction - par exemple. run() - puis assurez-vous que cette fonction est toujours appelée lorsque la macro est exécutée manuellement par l\'utilisateur. Si vous n\'êtes pas totalement sûr de ce que vous faites, il est conseillé de travailler sur une copie de la macro (ou vous pouvez simplement vouloir conserver la macro d\'origine telle quelle). Le fichier d\'origine doit être modifié comme suit:
+Toutes les macros présentent généralement une structure similaire avec une première section d\'importation, puis une section de définition et enfin une section d\'instruction principale. Nous allons nous concentrer sur ce dernier point car les instructions principales (elles sont assez faciles à repérer car elles commencent au début de la ligne) sont en réalité celles qui \"exécutent\" la macro. Pour une étape ultérieure, nous devrons importer la macro avec un programme puis l\'exécuter. Cela ne peut pas être fait avec la structure réelle de la macro. Pour pouvoir le faire, nous devons inclure les instructions principales dans une fonction - par exemple. run() - puis assurez-vous que cette fonction est toujours appelée lorsque la macro est exécutée manuellement par l\'utilisateur. Si vous n\'êtes pas totalement sûr de ce que vous faites, il est conseillé de travailler sur une copie de la macro (ou vous pouvez simplement vouloir conserver la macro d\'origine telle quelle). Le fichier d\'origine doit être modifié comme suit   *
 
     from PySide import QtGui
     ## The 2 below lines shall be added if not already present to ensure FreeCAD modules are imported
     import FreeCAD as App
     import FreeCADGui as Gui
 
-    class MyMsgBox(QtGui.QMessageBox):
+    class MyMsgBox(QtGui.QMessageBox)   *
 
-        def __init__(self):
+        def __init__(self)   *
             super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
     ## Enclose the main instructions in a function
-    def run():
+    def run()   *
         MyMsgBox()
 
     ## Ensure main instructions are still called in case of manual run
-    if __name__ == '__main__':
+    if __name__ == '__main__'   *
         run()
 
 Bien sûr, si la fonction \"run()\" existe déjà dans la macro, vous pouvez choisir n\'importe quel autre nom commode. La macro est maintenant prête à être intégrée au démarrage de FreeCAD.
 
 ### Intégration au démarrage de FreeCAD 
 
-Commencez par créer un nouveau dossier dans votre dossier utilisateur \"Mod\" de appelé \"MacroStartup\". Copiez la macro modifiée dans ce dossier nouvellement créé et renommez-la avec une extension \".py\" si ce n\'est pas encore le cas (notez que si vous développez la macro vous-même, vous pouvez également la nommer avec l\'extension \".py\" dans le dossier \"Macro\" pour ne pas avoir à le renommer lors de la copie). Enfin, créez dans le même dossier un fichier appelé \"InitGui.py\" qui contient le code suivant:
+Commencez par créer un nouveau dossier dans votre dossier utilisateur \"Mod\" de appelé \"MacroStartup\". Copiez la macro modifiée dans ce dossier nouvellement créé et renommez-la avec une extension \".py\" si ce n\'est pas encore le cas (notez que si vous développez la macro vous-même, vous pouvez également la nommer avec l\'extension \".py\" dans le dossier \"Macro\" pour ne pas avoir à le renommer lors de la copie). Enfin, créez dans le même dossier un fichier appelé \"InitGui.py\" qui contient le code suivant   *
 
-    def runStartupMacros(name):
+    def runStartupMacros(name)   *
         # Do not run when NoneWorkbench is activated because UI isn't yet completely there
-        if name != "NoneWorkbench":
+        if name != "NoneWorkbench"   *
             # Run macro only once by disconnecting the signal at first call
             FreeCADGui.getMainWindow().workbenchActivated.disconnect(runStartupMacros)
 
@@ -104,6 +104,11 @@ Notez que si la macro originale a été téléchargée via le gestionnaire d'add
 ## En relation 
 
 [LazyLoader](Extra_python_modules/fr#LazyLoader.md) est un module Python qui permet un chargement différé.
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

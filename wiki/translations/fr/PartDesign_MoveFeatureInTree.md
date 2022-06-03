@@ -1,18 +1,18 @@
 ---
-- GuiCommand:/fr
-   Name:PartDesign MoveFeatureInTree
-   Name/fr:PartDesign Déplacer après un autre objet
-   MenuLocation:Menu contextuel → Déplacer après un autre objet
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Désigner comme fonction résultante](PartDesign_MoveTip/fr.md), [PartDesign Déplacer vers un autre corps de pièce](PartDesign_MoveFeature/fr.md)
+- GuiCommand   */fr
+   Name   *PartDesign MoveFeatureInTree
+   Name/fr   *PartDesign Déplacer après un autre objet
+   MenuLocation   *Menu contextuel → Déplacer après un autre objet
+   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
+   Version   *0.17
+   SeeAlso   *[PartDesign Désigner comme fonction résultante](PartDesign_MoveTip/fr.md), [PartDesign Déplacer vers un autre corps de pièce](PartDesign_MoveFeature/fr.md)
 ---
 
 # PartDesign MoveFeatureInTree/fr
 
 ## Description
 
-<img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md), comme cette commande est étiquetée dans le menu contextuel, elle permet de réorganiser les objets sous un Corps. Les esquisses, la géométrie de référence et les fonctionnalités sont prises en charge.
+<img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width   *24px;"> [Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md), comme cette commande est étiquetée dans le menu contextuel, elle permet de réorganiser les objets sous un Corps. Les esquisses, la géométrie de référence et les fonctionnalités sont prises en charge.
 
 ## Utilisation
 

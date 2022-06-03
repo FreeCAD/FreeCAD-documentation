@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/tr
-   Name/tr:İnşa Ekle
-   MenuLocation:Taslak → Araçlar → İnşa grubuna ekle
-   Workbenches:[Taslak](Draft_Workbench.md), [Yapı](Arch_Workbench.md)
-   SeeAlso:[İnşa moduna geç](Draft_ToggleConstructionMode/tr.md), [Gruba ekle](Draft_AddToGroup/tr.md)
-   Version:0.17
+- GuiCommand   */tr
+   Name/tr   *İnşa Ekle
+   MenuLocation   *Taslak → Araçlar → İnşa grubuna ekle
+   Workbenches   *[Taslak](Draft_Workbench.md), [Yapı](Arch_Workbench.md)
+   SeeAlso   *[İnşa moduna geç](Draft_ToggleConstructionMode/tr.md), [Gruba ekle](Draft_AddToGroup/tr.md)
+   Version   *0.17
 ---
 
 # Draft AddConstruction/tr
@@ -24,7 +24,7 @@ Bu araç seçilen nesne(ler)i [Taslak İnşa grubuna](Draft_ToggleConstructionMo
 
 ## Bug in version 0.19 
 
-In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
+In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
 
 
 <div class="mw-translate-fuzzy">

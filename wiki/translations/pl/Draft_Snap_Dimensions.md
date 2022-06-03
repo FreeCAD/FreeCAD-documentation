@@ -1,18 +1,18 @@
 ---
-- GuiCommand:
-   Name:Draft Snap Dimensions
-   Name/pl:Rysunek Roboczy: Przyciągnij do wymiaru
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
+- GuiCommand   *
+   Name   *Draft Snap Dimensions
+   Name/pl   *Rysunek Roboczy   * Przyciągnij do wymiaru
+   Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso   *[Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
 ---
 
 # Draft Snap Dimensions/pl
 
 ## Opis
 
-Opcja <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Przyciągnij do wymiaru** pokazuje tymczasowe wymiary X i Y. Wyświetlają one odległość X i Y między kursorem a poprzednim punktem w układzie współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Wymiary są tworzone na [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
+Opcja <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *24px;"> **Przyciągnij do wymiaru** pokazuje tymczasowe wymiary X i Y. Wyświetlają one odległość X i Y między kursorem a poprzednim punktem w układzie współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Wymiary są tworzone na [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 
-<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width   *400px;"> 
 *Wymiary tymczasowe pokazują położenie kursora*
 
 ## Użycie
@@ -20,8 +20,8 @@ Opcja <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **P
 Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
 1.  Opcjonalnie zmień [płaszczyznę roboczą](Draft_SelectPlane/pl.md).
-2.  Upewnij się, że przyciąganie jest włączone. Zobacz ikonkę narzędzia <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
-3.  Jeśli **Wymiarowanie szkicu** nie jest aktywne, wykonaj jedną z poniższych czynności:
+2.  Upewnij się, że przyciąganie jest włączone. Zobacz ikonkę narzędzia <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
+3.  Jeśli **Wymiarowanie szkicu** nie jest aktywne, wykonaj jedną z poniższych czynności   *
     -   Naciśnij przycisk **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** na pasku narzędzi Rysunek Roboczy przyciąganie.
     -   Naciśnij przycisk **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** w widżecie [przyciągania](Draft_snap_widget/pl.md).
 4.  Wybierz środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), aby utworzyć geometrię.

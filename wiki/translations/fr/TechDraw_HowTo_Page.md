@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Comment et informations diverses
-   Level:Tous
-   Time:n/a
-   Author:n/a
-   FCVersion:0.19
+- TutorialInfo   */fr
+   Topic   *Comment et informations diverses
+   Level   *Tous
+   Time   *n/a
+   Author   *n/a
+   FCVersion   *0.19
 ---
 
 # TechDraw HowTo Page/fr
@@ -15,7 +15,7 @@
 
 ## Introduction
 
-Cette page fournit une collection de conseils et de petits guides sur l\'utilisation de l\' <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md). L\'ajout de nouvelles astuces et de meilleures pratiques est encouragé.
+Cette page fournit une collection de conseils et de petits guides sur l\'utilisation de l\' <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md). L\'ajout de nouvelles astuces et de meilleures pratiques est encouragé.
 
 ### Activer/Désactiver les marques de centrage 
 
@@ -32,23 +32,23 @@ Voir [ici](TechDraw_ToggleFrame/fr.md) pour les activer et désactiver et plus d
 
 ### Arêtes courbes comme entrée pour les cotes linéaires 
 
-Les arêtes courbes sont acceptées comme entrée pour les cotes linéaires. Voir ce [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
+Les arêtes courbes sont acceptées comme entrée pour les cotes linéaires. Voir ce [fil de discussion](https   *//forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
 
-<img alt="" src=images/CurvedEdgeLinearDims.png  style="width:256px;">
+<img alt="" src=images/CurvedEdgeLinearDims.png  style="width   *256px;">
 
 ### Afficher les dimensions métriques et impériales en même temps 
 
-Il est possible d\'afficher en même temps les dimensions décimales métriques et impériales. Voir ce [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711)
+Il est possible d\'afficher en même temps les dimensions décimales métriques et impériales. Voir ce [fil de discussion](https   *//forum.freecadweb.org/viewtopic.php?f=35&t=49711)
 
-<img alt="" src=images/Imperiale_decimale.png  style="width:256px;">
+<img alt="" src=images/Imperiale_decimale.png  style="width   *256px;">
 
 ### Dimensionnement en cas de trous orientés 
 
-Deux cas d\'utilisation. Voir ce [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=49976).
+Deux cas d\'utilisation. Voir ce [fil de discussion](https   *//forum.freecadweb.org/viewtopic.php?f=35&t=49976).
 
 Voir aussi [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md)
 
-<img alt="" src=images/dimension-hole.png  style="width:256px;"> <img alt="" src=images/dimension-hole_angles.png  style="width:256px;">
+<img alt="" src=images/dimension-hole.png  style="width   *256px;"> <img alt="" src=images/dimension-hole_angles.png  style="width   *256px;">
 
 
 {{TechDraw Tools navi

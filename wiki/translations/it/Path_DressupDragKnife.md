@@ -1,6 +1,6 @@
 # Path DressupDragKnife/it
 ---
-- GuiCommand:/it   Name:Path DressupTag   Name/it:Vestizione Trascina lama   Workbenches:[MenuLocation:Path → Vestizione → Trascina lama   SeeAlso:[[Path_DressupTag/it|Tag di vestizione](Path_Workbench/it___Path]].md), [Rampa di ingresso](Path_DressupRampEntry/it.md), [Vestizione Osso di cane](Path_DressupDogbone/it.md) ---
+- GuiCommand   */it   Name   *Path DressupTag   Name/it   *Vestizione Trascina lama   Workbenches   *[MenuLocation   *Path → Vestizione → Trascina lama   SeeAlso   *[[Path_DressupTag/it|Tag di vestizione](Path_Workbench/it___Path]].md), [Rampa di ingresso](Path_DressupRampEntry/it.md), [Vestizione Osso di cane](Path_DressupDogbone/it.md) ---
 
 
 </div>
@@ -31,7 +31,7 @@ Questo strumento veste un tracciato esistente per aggiungere azioni angolari ed 
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un contorno o un oggetto profilo [Path](Path_Workbench/it.md)
-2.  cliccare su <img alt="" src=images/Path_Dressup.png  style="width:16px;"> [Vestizione Dragknife](Path_DressupDragKnife/it.md)
+2.  cliccare su <img alt="" src=images/Path_Dressup.png  style="width   *16px;"> [Vestizione Dragknife](Path_DressupDragKnife/it.md)
 
 
 </div>

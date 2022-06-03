@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Draft Snap Dimensions
-   Name/it:Dimensioni
-   Icon:Snap_Dimensions.svg
-   MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Dimensioni
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+- GuiCommand   */it
+   Name   *Draft Snap Dimensions
+   Name/it   *Dimensioni
+   Icon   *Snap_Dimensions.svg
+   MenuLocation   *Draft → [Aggancio](Draft_Snap/it.md) → Dimensioni
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut   *
+   SeeAlso   *[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Dimensions/it
@@ -26,7 +26,7 @@ Questa modalità di aggancio mostra le quote X e Y temporanee tra il punto corre
 
 </div>
 
-<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;">
+<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">

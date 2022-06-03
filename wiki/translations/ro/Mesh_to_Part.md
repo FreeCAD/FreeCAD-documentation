@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Conversia obiectelor de nivel superior, cum ar fi [Part shell](Part_Workbench.md) în obiecte mai simple, cum ar fi [meshes](Mesh_Workbench.md) este o operație simplă, în care toate fațetele unui obiect Piesă i se aplică o discretizarea în triunghiur. Rezultatul acestei discretizări(tessellation) este apoi folosit pentru a construi o plasă: (să presupunem că documentul nostru conține un obiect de piesă)
+Conversia obiectelor de nivel superior, cum ar fi [Part shell](Part_Workbench.md) în obiecte mai simple, cum ar fi [meshes](Mesh_Workbench.md) este o operație simplă, în care toate fațetele unui obiect Piesă i se aplică o discretizarea în triunghiur. Rezultatul acestei discretizări(tessellation) este apoi folosit pentru a construi o plasă   * (să presupunem că documentul nostru conține un obiect de piesă)
 
 
 </div>
@@ -26,9 +26,9 @@ shp = obj.Shape
 faces = []
 
 triangles = shp.tessellate(1) # the number represents the precision of the tessellation
-for tri in triangles[1]:
+for tri in triangles[1]   *
     face = []
-    for i in tri:
+    for i in tri   *
         face.append(triangles[0][i])
     faces.append(face)
 
@@ -36,7 +36,7 @@ m = Mesh.Mesh(faces)
 Mesh.show(m)
 ```
 
-Alternative example:
+Alternative example   *
 
 
 ```python
@@ -46,7 +46,7 @@ import MeshPart
 obj = FreeCADGui.Selection.getSelection()[0] # a Part object must be preselected
 shp = obj.Shape
 
-mesh = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+mesh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
 mesh.Mesh = MeshPart.meshFromShape(
         Shape=shp,
         LinearDeflection=0.01,
@@ -81,7 +81,7 @@ Convertirea ochiurilor de plasă în obiecte de nivel superior (manipulate de [P
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD oferă în prezent două metode pentru a transforma Plasele în obiecte piese (Part). Prima metodă este o conversie simplă, directă, fără optimizare:
+FreeCAD oferă în prezent două metode pentru a transforma Plasele în obiecte piese (Part). Prima metodă este o conversie simplă, directă, fără optimizare   *
 
 
 </div>
@@ -101,7 +101,7 @@ Part.show(solid)
 
 <div class="mw-translate-fuzzy">
 
-Cea de-a doua metodă oferă posibilitatea de a considera aspectul ochiurilor de plasă coplanare atunci când unghiul dintre ele este sub o anumită valoare. Acest lucru permite construirea unor forme mai simple: (să presupunem că documentul nostru conține un obiect Mesh)
+Cea de-a doua metodă oferă posibilitatea de a considera aspectul ochiurilor de plasă coplanare atunci când unghiul dintre ele este sub o anumită valoare. Acest lucru permite construirea unor forme mai simple   * (să presupunem că documentul nostru conține un obiect Mesh)
 
 
 </div>
@@ -117,22 +117,22 @@ mesh = obj.Mesh
 segments = mesh.getPlanarSegments(0.00001) # use rather strict tolerance here
 faces = []
 
-for i in segments:
-    if len(i) > 0:
+for i in segments   *
+    if len(i) > 0   *
         # a segment can have inner holes
         wires = MeshPart.wireFromSegment(mesh, i)
         # we assume that the exterior boundary is that one with the biggest bounding box
-        if len(wires) > 0:
+        if len(wires) > 0   *
             ext = None
             max_length=0
-            for i in wires:
-                if i.BoundBox.DiagonalLength > max_length:
+            for i in wires   *
+                if i.BoundBox.DiagonalLength > max_length   *
                     max_length = i.BoundBox.DiagonalLength
                     ext = i
 
             wires.remove(ext)
             # all interior wires mark a hole and must reverse their orientation, otherwise Part.Face fails
-            for i in wires:
+            for i in wires   *
                 i.reverse()
 
             # make sure that the exterior wires comes as first in the list
@@ -145,6 +145,8 @@ Part.show(solid)
 
 
  {{Mesh Tools navi}}
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw LinkDimension
-   Name/it:Link alla dimensione
-   MenuLocation:TechDraw → Link alla geometria 3D
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Vista](TechDraw_View/it.md), [Proiezioni](TechDraw_ProjectionGroup/it.md)
+- GuiCommand   */it
+   Name   *TechDraw LinkDimension
+   Name/it   *Link alla dimensione
+   MenuLocation   *TechDraw → Link alla geometria 3D
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   Shortcut   *
+   SeeAlso   *[Vista](TechDraw_View/it.md), [Proiezioni](TechDraw_ProjectionGroup/it.md)
 ---
 
 # TechDraw LinkDimension/it
@@ -78,14 +78,14 @@ Notare che se la dimensione da collegare si basa su due vertici, si devono selez
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Link alla dimensione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Link alla dimensione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>

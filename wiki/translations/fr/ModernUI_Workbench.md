@@ -1,14 +1,14 @@
 # ModernUI Workbench/fr
 }
 
-<img alt="Icône de l\'atelier ModernUI" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
+<img alt="Icône de l\'atelier ModernUI" src=images/ModernUI_workbench_icon.svg  style="width   *128px;">
 
 
 {{TOCright}}
 
 ## Introduction
 
-L\'[atelier ModernUI](ModernUI_Workbench/fr.md) est un [Atelier externe](External_workbenches.md) qui remplace l\'interface utilisateur standard. Il possède des fonctionnalités modernes telles que :
+L\'[atelier ModernUI](ModernUI_Workbench/fr.md) est un [Atelier externe](External_workbenches.md) qui remplace l\'interface utilisateur standard. Il possède des fonctionnalités modernes telles que    *
 
 -   Chaque atelier a son onglet ruban.
 -   L\'onglet ruban **Modern UI** remplace le menu de niveau supérieur.
@@ -17,8 +17,8 @@ L\'[atelier ModernUI](ModernUI_Workbench/fr.md) est un [Atelier externe](Externa
 
 ## Références
 
--   Auteur : Hakan Seven
--   Code source sur github : [Code source Modern-UI](https://github.com/HakanSeven12/Modern-UI)
+-   Auteur    * Hakan Seven
+-   Code source sur github    * [Code source Modern-UI](https   *//github.com/HakanSeven12/Modern-UI)
 
 ## Limites et dépannage 
 
@@ -28,9 +28,9 @@ L\'[atelier ModernUI](ModernUI_Workbench/fr.md) est un [Atelier externe](Externa
 
 ## Installation
 
-Installer le avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Installer le avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-Remarque : pour désinstaller, vous devez créer une macro et l\'exécuter. Si vous n\'êtes pas sûr de vous, envisagez de ne pas l\'installer.
+Remarque    * pour désinstaller, vous devez créer une macro et l\'exécuter. Si vous n\'êtes pas sûr de vous, envisagez de ne pas l\'installer.
 
 ### Exécution de Modern UI dans un répertoire autonome 
 
@@ -38,7 +38,7 @@ Pour tester facilement Modern UI sans interférer avec votre configuration stand
 
 #### Linux
 
-Par exemple :
+Par exemple    *
 
     $ mkdir modernUI  # new directory that contains Modern UI
     $ cd modernUI
@@ -54,21 +54,21 @@ Il n\'y a pas encore d\'instructions dédiées pour Windows, cependant, c\'est t
 
 ## Désinstaller
 
-Des instructions détaillées sont disponibles sur [GitHub](https://github.com/HakanSeven12/Modern-UI#uninstallation).
+Des instructions détaillées sont disponibles sur [GitHub](https   *//github.com/HakanSeven12/Modern-UI#uninstallation).
 
-La séquence de désinstallation est la suivante :
+La séquence de désinstallation est la suivante    *
 
-1.  Désinstaller avec le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+1.  Désinstaller avec le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 2.  Redémarrez FreeCAD.
-3.  Créez une macro avec ce code :```python
+3.  Créez une macro avec ce code    *```python
     from PySide2 import QtCore, QtGui, QtWidgets
     mw = FreeCADGui.getMainWindow()
     mw.menuBar().show()
      
     WBList = FreeCADGui.listWorkbenches()
-    for WB in WBList:
+    for WB in WBList   *
         FreeCADGui.activateWorkbench(WB)
-        for tb in mw.findChildren(QtWidgets.QToolBar):
+        for tb in mw.findChildren(QtWidgets.QToolBar)   *
             tb.show()
     
 ```
@@ -77,9 +77,14 @@ La séquence de désinstallation est la suivante :
 
 ## Liens
 
--   Forum FreeCAD : <https://forum.freecadweb.org/viewtopic.php?f=34&t=44937>
--   Rapport de bogues : <https://github.com/HakanSeven12/Modern-UI>
--   Patreon (pour soutenir l\'auteur) : <https://www.patreon.com/HakanSeven12>
+-   Forum FreeCAD    * <https   *//forum.freecadweb.org/viewtopic.php?f=34&t=44937>
+-   Rapport de bogues    * <https   *//github.com/HakanSeven12/Modern-UI>
+-   Patreon (pour soutenir l\'auteur)    * <https   *//www.patreon.com/HakanSeven12>
+
+
+
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

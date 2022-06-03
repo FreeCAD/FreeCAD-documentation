@@ -5,7 +5,7 @@ The graphical user interface workflow for the [Drawing Workbench](Drawing_Workbe
 
 ## Simple example 
 
-First of all you need the Part and the Drawing module:  
+First of all you need the Part and the Drawing module   *  
 ```python
 import FreeCAD, Part, Drawing
 ```
@@ -19,14 +19,14 @@ Direct projection. The G0 means hard edge, the G1 is tangent continuous.
 ```python
 Shape = App.ActiveDocument.Shape.Shape
 [visibleG0,visibleG1,hiddenG0,hiddenG1] = Drawing.project(Shape)
-print "visible edges:", len(visibleG0.Edges)
-print "hidden edges:", len(hiddenG0.Edges)
+print "visible edges   *", len(visibleG0.Edges)
+print "hidden edges   *", len(hiddenG0.Edges)
 ```
 
-Everything was projected on the Z-plane:  
+Everything was projected on the Z-plane   *  
 ```python
-print "Bnd Box shape: X=",Shape.BoundBox.XLength," Y=",Shape.BoundBox.YLength," Z=",Shape.BoundBox.ZLength
-print "Bnd Box project: X=",visibleG0.BoundBox.XLength," Y=",visibleG0.BoundBox.YLength," Z=",visibleG0.BoundBox.ZLength
+print "Bnd Box shape   * X=",Shape.BoundBox.XLength," Y=",Shape.BoundBox.YLength," Z=",Shape.BoundBox.ZLength
+print "Bnd Box project   * X=",visibleG0.BoundBox.XLength," Y=",visibleG0.BoundBox.YLength," Z=",visibleG0.BoundBox.ZLength
 ```
 
 Different projection vector  
@@ -49,35 +49,35 @@ import Part
 import Drawing
 
 # Create three boxes and a cylinder
-App.ActiveDocument.addObject("Part::Box","Box")
+App.ActiveDocument.addObject("Part   *   *Box","Box")
 App.ActiveDocument.Box.Length=100.00
 App.ActiveDocument.Box.Width=100.00
 App.ActiveDocument.Box.Height=100.00
 
-App.ActiveDocument.addObject("Part::Box","Box1")
+App.ActiveDocument.addObject("Part   *   *Box","Box1")
 App.ActiveDocument.Box1.Length=90.00
 App.ActiveDocument.Box1.Width=40.00
 App.ActiveDocument.Box1.Height=100.00
 
-App.ActiveDocument.addObject("Part::Box","Box2")
+App.ActiveDocument.addObject("Part   *   *Box","Box2")
 App.ActiveDocument.Box2.Length=20.00
 App.ActiveDocument.Box2.Width=85.00
 App.ActiveDocument.Box2.Height=100.00
 
-App.ActiveDocument.addObject("Part::Cylinder","Cylinder")
+App.ActiveDocument.addObject("Part   *   *Cylinder","Cylinder")
 App.ActiveDocument.Cylinder.Radius=80.00
 App.ActiveDocument.Cylinder.Height=100.00
 App.ActiveDocument.Cylinder.Angle=360.00
 # Fuse two boxes and the cylinder
-App.ActiveDocument.addObject("Part::Fuse","Fusion")
+App.ActiveDocument.addObject("Part   *   *Fuse","Fusion")
 App.ActiveDocument.Fusion.Base = App.ActiveDocument.Cylinder
 App.ActiveDocument.Fusion.Tool = App.ActiveDocument.Box1
 
-App.ActiveDocument.addObject("Part::Fuse","Fusion1")
+App.ActiveDocument.addObject("Part   *   *Fuse","Fusion1")
 App.ActiveDocument.Fusion1.Base = App.ActiveDocument.Box2
 App.ActiveDocument.Fusion1.Tool = App.ActiveDocument.Fusion
 # Cut the fused shapes from the first box
-App.ActiveDocument.addObject("Part::Cut","Shape")
+App.ActiveDocument.addObject("Part   *   *Cut","Shape")
 App.ActiveDocument.Shape.Base = App.ActiveDocument.Box 
 App.ActiveDocument.Shape.Tool = App.ActiveDocument.Fusion1
 # Hide all the intermediate shapes 
@@ -91,13 +91,13 @@ Gui.ActiveDocument.Fusion1.Visibility=False
 
 Insert a Page object and assign a template  
 ```python
-App.ActiveDocument.addObject('Drawing::FeaturePage','Page')
+App.ActiveDocument.addObject('Drawing   *   *FeaturePage','Page')
 App.ActiveDocument.Page.Template = App.getResourceDir()+'Mod/Drawing/Templates/A3_Landscape.svg'
 ```
 
 Create a view on the \"Shape\" object, define the position and scale and assign it to a Page  
 ```python
-App.ActiveDocument.addObject('Drawing::FeatureViewPart','View')
+App.ActiveDocument.addObject('Drawing   *   *FeatureViewPart','View')
 App.ActiveDocument.View.Source = App.ActiveDocument.Shape
 App.ActiveDocument.View.Direction = (0.0,0.0,1.0)
 App.ActiveDocument.View.X = 10.0
@@ -107,7 +107,7 @@ App.ActiveDocument.Page.addObject(App.ActiveDocument.View)
 
 Create a second view on the same object but this time the view will be rotated by 90 degrees.  
 ```python
-App.ActiveDocument.addObject('Drawing::FeatureViewPart','ViewRot')
+App.ActiveDocument.addObject('Drawing   *   *FeatureViewPart','ViewRot')
 App.ActiveDocument.ViewRot.Source = App.ActiveDocument.Shape
 App.ActiveDocument.ViewRot.Direction = (0.0,0.0,1.0)
 App.ActiveDocument.ViewRot.X = 290.0
@@ -119,7 +119,7 @@ App.ActiveDocument.Page.addObject(App.ActiveDocument.ViewRot)
 
 Create a third view on the same object but with an isometric view direction. The hidden lines are activated too.  
 ```python
-App.ActiveDocument.addObject('Drawing::FeatureViewPart','ViewIso')
+App.ActiveDocument.addObject('Drawing   *   *FeatureViewPart','ViewIso')
 App.ActiveDocument.ViewIso.Source = App.ActiveDocument.Shape
 App.ActiveDocument.ViewIso.Direction = (1.0,1.0,1.0)
 App.ActiveDocument.ViewIso.X = 335.0
@@ -146,19 +146,19 @@ print ViewSVG
 
 Get the whole result page (it\'s a file in the document\'s temporary directory, only read permission)  
 ```python
-print "Resulting SVG document: ",App.ActiveDocument.Page.PageResult
+print "Resulting SVG document   * ",App.ActiveDocument.Page.PageResult
 file = open(App.ActiveDocument.Page.PageResult,"r")
 print "Result page is ",len(file.readlines())," lines long"
 ```
 
-Important: free the file!  
+Important   * free the file!  
 ```python
 del file
 ```
 
-Insert a view with your own content:  
+Insert a view with your own content   *  
 ```python
-App.ActiveDocument.addObject('Drawing::FeatureView','ViewSelf')
+App.ActiveDocument.addObject('Drawing   *   *FeatureView','ViewSelf')
 App.ActiveDocument.ViewSelf.ViewResult = """<g id="ViewSelf"
   stroke="rgb(0, 0, 0)"
   stroke-width="0.35"
@@ -176,33 +176,33 @@ App.ActiveDocument.recompute()
 del ViewSVG
 ```
 
-That leads to the following result:
+That leads to the following result   *
 
 ![](images/DrawingScriptResult.jpg )
 
 ## General dimensioning and tolerancing 
 
 
-**See also:**
+**See also   ***
 
 [Drawing Dimensioning Addon](Drawing_Dimensioning_Addon.md)
 
 Drawing dimensions an tolerances are still under development but you can get some basic functionality with a bit of work.
 
-First you need to get the gdtsvg python module from here (WARNING: This could be broken at any time!):
+First you need to get the gdtsvg python module from here (WARNING   * This could be broken at any time!)   *
 
-<https://github.com/jcc242/FreeCAD>
+<https   *//github.com/jcc242/FreeCAD>
 
-To get a feature control frame, try out the following:  
+To get a feature control frame, try out the following   *  
 ```python
 import gdtsvg as g # Import the module, I like to give it an easy handle
 ourFrame = g.ControlFrame("0","0", g.Perpendicularity(), ".5", g.Diameter(), g.ModifyingSymbols("M"), "A",  
            g.ModifyingSymbols("F"), "B", g.ModifyingSymbols("L"), "C", g.ModifyingSymbols("I"))
 ```
 
-Here is a good breakdown of the contents of a feature control frame: <http://www.cadblog.net/adding-geometric-tolerances.htm>
+Here is a good breakdown of the contents of a feature control frame   * <http   *//www.cadblog.net/adding-geometric-tolerances.htm>
 
-The parameters to pass to control frame are:
+The parameters to pass to control frame are   *
 
 1.  X-coordinate in SVG-coordinate system (type string)
 2.  Y-coordinate in SVG-coordinate system (type string)
@@ -219,14 +219,14 @@ The parameters to pass to control frame are:
 
 The ControlFrame function returns a type containing (svg string, overall width of control frame, overall height of control frame)\'\'\'
 
-To get a dimension, try out the following:  
+To get a dimension, try out the following   *  
 ```python
 import gdtsvg
 ourDimension = linearDimension(point1, point2, textpoint, dimensiontext, linestyle=getStyle("visible"), 
                arrowstyle=getStyle("filled"), textstyle=getStyle("text")
 ```
 
-Inputs for linear dimension are:
+Inputs for linear dimension are   *
 
 1.  point1, an (x,y) tuple with svg-coordinates, this is one of the points you would like to dimension between
 2.  point2, an (x,y) tuple with svg-coordinates, this is the second point you would like to dimension between
@@ -238,7 +238,9 @@ Inputs for linear dimension are:
 
 With those two, you can proceed as above for displaying them on the drawing page. This module is very buggy and can be broken at any given moment, bug reports are welcome on the github page for now, or contact jcc242 on the forums if you post a bug somewhere else.
 
-  {{Drawing Tools navi}}
+  {{Drawing Tools navi}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

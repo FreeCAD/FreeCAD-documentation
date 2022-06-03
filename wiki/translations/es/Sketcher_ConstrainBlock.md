@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Sketcher ConstrainBlock
-   Name/es:Croquizador RestringirBloque
-   MenuLocation:Croquis → Restricciones de croquis → Restringir Bloque
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   SeeAlso:[Restringir Lock](Sketcher_ConstrainLock/es.md)
-   Version:0.17
+- GuiCommand   */es
+   Name   *Sketcher ConstrainBlock
+   Name/es   *Croquizador RestringirBloque
+   MenuLocation   *Croquis → Restricciones de croquis → Restringir Bloque
+   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
+   SeeAlso   *[Restringir Lock](Sketcher_ConstrainLock/es.md)
+   Version   *0.17
 ---
 
 # Sketcher ConstrainBlock/es
@@ -17,7 +17,7 @@
 
 **Constrain Block** blocks a geometric element in place with a single constraint.
 
-It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
+It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [B-splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
 
 
 <div class="mw-translate-fuzzy">
@@ -28,7 +28,7 @@ It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.
 </div>
 
 1.  Select an element to constrain.
-2.  Press the **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Constrain block](Sketcher_ConstrainBlock.md)** button.
+2.  Press the **[<img src=images/Sketcher_ConstrainBlock.svg style="width   *16px"> [Constrain block](Sketcher_ConstrainBlock.md)** button.
 
 Or press the button first, and then select the elements.
 

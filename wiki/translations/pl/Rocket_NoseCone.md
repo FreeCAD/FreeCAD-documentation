@@ -8,11 +8,11 @@
 
 # Rocket NoseCone/pl
 
-## Description
+## Opis
 
-Nose cones come in a variety of shapes and sizes, most of which are difficult to model without programming. For many rocket builders, this makes the process unworkable. This command allows for nose cone creation using simple properties combined with a specialized task dialog.
+Zakończenia czubka mają różne kształty i rozmiary, a większość z nich trudno jest modelować bez programowania. Dla wielu konstruktorów rakiet jest to proces niewykonalny. To polecenie umożliwia tworzenie stożków czołowych za pomocą prostych właściwości w połączeniu z wyspecjalizowanym oknem dialogowym zadań.
 
-## Usage
+## Użycie
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Rocket_NoseCone.svg" width=16px> [Nose Cone](Rocket_NoseCone.md)** button.
@@ -33,15 +33,35 @@ Supported nose cone types include   *
 ![](images/NC_Cone_small.png ) 
 *Conical*
 
+-   Blunted Cone. For all blunted shapes, the tip is spherically rounded with a specified diameter. The length is the actual length of the nose and not the virtual length described in the [Nose cone design](https   *//en.wikipedia.org/wiki/Nose_cone_design) reference.
+
+![](images/NC_Blunted_Cone_small.png ) 
+*Spherically Blunted Cone*
+
 -   Ogive.
 
 ![](images/NC_Ogive_small.png ) 
 *Ogive*
 
+-   Blunted Ogive. For all blunted shapes, the tip is spherically rounded with a specified diameter. The length is the actual length of the nose and not the virtual length described in the [Nose cone design](https   *//en.wikipedia.org/wiki/Nose_cone_design) reference.
+
+![](images/NC_Blunted_Ogive_small.png ) 
+*Spherically Blunted Ogive*
+
+-   Secant Ogive.
+
+![](images/NC_Secant_Ogive_small.png ) 
+*Secant Ogive*
+
 -   Elliptical.
 
 ![](images/NC_Elliptical_small.png ) 
 *Elliptical*
+
+-   Spherical. This is a special case of the elliptical nose cone where the length is 1/2 of the diameter.
+
+![](images/NC_Sperical_small.png ) 
+*Spherical*
 
 -   Parabola. The shape commonly thought of as a parabola is not generated using a parabolic series, but a power series with a coefficient of 1/2. This is explained in the Wikipedia article.
 
@@ -100,15 +120,19 @@ Nose cones can be created with or without shoulders   *
 
 {{TitleProperty|Nose Cone}}
 
+-    **Blunted Diameter**   * The diameter of the spherical portion at the tip of the nose
+
 -    **Coefficient**   * Combined with the Nose Type, this defines the shape of the nose cone, see [Options](#Options.md)
 
 -    **Diameter**   * The diameter of the base of the nose cone
 
--    **Length**   * The length of the nose cone without the shoulder
+-    **Length**   * The length of the nose cone without the shoulder. For all blunted shapes, the length is the actual length of the nose and not the virtual length described in the [Nose cone design](https   *//en.wikipedia.org/wiki/Nose_cone_design) reference.
 
 -    **Nose Style**   * Defines the style of the nose cone, see [Options](#Options.md)
 
 -    **Nose Type**   * Defines the shape of the nose cone using the coefficient when required, see [Options](#Options.md)
+
+-    **Ogive Diameter**   * The diameter of the Ogive circle. This is only required for the Secant Ogive nose cone type
 
 -    **Resolution**   * Used internally, this parameter defines the number of data points to use when drawing the outline of the nose cone
 
@@ -135,12 +159,6 @@ These parameters are provided for information and have no effect on the design o
 
 -    **Part Number**   * Manufacturer part number
 
-## Tworzenie skryptów 
-
-See also   * [   *Category   *API](   *Category_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-TBD
-
 ## Tutorials and Learning 
 
 [Rocket Workbench Nose Cones](https   *//youtu.be/zwLgie2E4Ts) Tutorial on YouTube
@@ -156,4 +174,4 @@ TBD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API]] and ](Category_API]] and .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/pl

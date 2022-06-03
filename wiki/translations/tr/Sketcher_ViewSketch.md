@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/tr
-   Name:Sketcher ViewSketch
-   Name/tr:Eskiz Eskiz görünümü
-   Workbenches:[Eskiz](Sketcher_Workbench.md), [Parça tasarım](PartDesign_Workbench.md)
-   MenuLocation:Eskiz → Eskiz görünümü
+- GuiCommand   */tr
+   Name   *Sketcher ViewSketch
+   Name/tr   *Eskiz Eskiz görünümü
+   Workbenches   *[Eskiz](Sketcher_Workbench.md), [Parça tasarım](PartDesign_Workbench.md)
+   MenuLocation   *Eskiz → Eskiz görünümü
 ---
 
 # Sketcher ViewSketch/tr
@@ -28,7 +28,7 @@ Bu araç, model görünümünü çizim düzlemine dik olarak ayarlar. Kullanıc�
 
 Eskiz düzenleme modundayken ya da
 
--   Eskiz veya Parça tasarım araç çubuğundan **[16px|View sketch icon](File:Sketcher_ViewSketch.png.md)'''Eskiz görünümü'''** basınız veya
+-   Eskiz veya Parça tasarım araç çubuğundan **[16px|View sketch icon](File   *Sketcher_ViewSketch.png.md)'''Eskiz görünümü'''** basınız veya
 -   Menüden **Eskiz → Eskiz görünümü**
 
 

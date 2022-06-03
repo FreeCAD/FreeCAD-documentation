@@ -23,20 +23,20 @@ Les objets [Draft](Draft_Workbench/fr.md) ayant une propriété **Make Face** pe
 
 ## Motifs disponibles 
 
-Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General\_steel.svg\|general\_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
+Image   *Aluminium.svg\|aluminium Image   *Brick01.svg\|brick01 Image   *Concrete.svg\|concrete Image   *Cross.svg\|cross Image   *Cuprous.svg\|cuprous Image   *Diagonal1.svg\|diagonal1 Image   *Diagonal2.svg\|diagonal2 Image   *Earth.svg\|earth Image   *General\_steel.svg\|general\_steel Image   *Glass.svg\|glass Image   *Hatch45L.svg\|hatch45L Image   *Hatch45R.svg\|hatch45R Image   *Hbone.svg\|hbone Image   *Line.svg\|line Image   *Plastic.svg\|plastic Image   *Plus.svg\|plus Image   *Simple.svg\|simple Image   *Solid.svg\|solid Image   *Square.svg\|square Image   *Steel.svg\|steel Image   *Titanium.svg\|titanium Image   *Wood.svg\|wood Image   *Woodgrain.svg\|woodgrain Image   *Zinc.svg\|zinc
 
 ## Remarques
 
--   Les modèles SVG sont stockés dans des fichiers {{FileName|.SVG}}. Il est possible d\'utiliser vos propres motifs personnalisés. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
+-   Les modèles SVG sont stockés dans des fichiers **.SVG**. Il est possible d\'utiliser vos propres motifs personnalisés. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
 -   Les motifs eux-mêmes ne sont pas enregistrés dans le document FreeCAD. Les objets dont le motif **Pattern** ne peut être trouvé sont affichés avec une couleur de surface solide à la place.
 
 ## Préférences
 
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour spécifier un répertoire avec des motifs SVG supplémentaires : **Edition → Préférences... → Draft → Paramètres visuels → Autre emplacement des motifs de hachures SVG**. Sélectionnez un fichier dans le répertoire, puis supprimez le nom du fichier dans la zone de saisie des préférences, ne laissant que le chemin d\'accès. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
+-   Pour spécifier un répertoire avec des motifs SVG supplémentaires    * **Edition → Préférences... → Draft → Paramètres visuels → Autre emplacement des motifs de hachures SVG**. Sélectionnez un fichier dans le répertoire, puis supprimez le nom du fichier dans la zone de saisie des préférences, ne laissant que le chemin d\'accès. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
 -   La fenêtre **Edition → Préférences... → Draft → Paramètres visuels → Résolution des motifs SVG** préférence n\'est pas utilisée.
--   Pour modifier la taille du motif {{PropertyView/fr|Pattern Size}} utilisée pour les nouveaux objets : **Edition → Préférences... → Draft → Paramètres visuels → Taille par défaut du motif SVG**.
+-   Pour modifier la taille du motif {{PropertyView/fr|Pattern Size}} utilisée pour les nouveaux objets    * **Edition → Préférences... → Draft → Paramètres visuels → Taille par défaut du motif SVG**.
 
 
 

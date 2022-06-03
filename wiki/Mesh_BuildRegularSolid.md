@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Mesh BuildRegularSolid
-   MenuLocation:Meshes → Regular solid...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+- GuiCommand   *
+   Name   *Mesh BuildRegularSolid
+   MenuLocation   *Meshes → Regular solid...
+   Workbenches   *[Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh BuildRegularSolid
@@ -13,11 +13,11 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Mesh BuildRegularSolid](Mesh_BuildRegularSolid.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regular solid...** option from the menu.
 2.  The **Regular Solid** dialog box opens.
-3.  First select a mesh object type from the dropdown list:
+3.  First select a mesh object type from the dropdown list   *
     -   
         **<img src="images/Mesh_Cube.svg" width=16px> Cube
 **
@@ -48,7 +48,7 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
 **
         
 4.  Specify the required settings. The available settings depend on the mesh object type. See [Properties](#Properties.md).
-5.  For meshes with curved surfaces: a higher **Sampling** value results in a finer mesh.
+5.  For meshes with curved surfaces   * a higher **Sampling** value results in a finer mesh.
 6.  Press the {{button|Create}} button to create the mesh object.
 7.  Optionally create more mesh objects.
 8.  Press the {{button|Close}} button to close the dialog box and finish the command.
@@ -59,93 +59,93 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
 
 ## Properties
 
-Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior:
+Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior   *
 
-### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
+### <img alt="" src=images/Mesh_Cube.svg  style="width   *32px;"> Cube 
 
 #### Data
 
 
 {{TitleProperty|Cube}}
 
--    **Height|FloatConstraint**: the height of the cube.
+-    **Height|FloatConstraint**   * the height of the cube.
 
--    **Length|FloatConstraint**: the length of the cube.
+-    **Length|FloatConstraint**   * the length of the cube.
 
--    **Width|FloatConstraint**: the width of the cube.
+-    **Width|FloatConstraint**   * the width of the cube.
 
-### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylinder 
-
-#### Data 
-
-
-{{TitleProperty|Base}}
-
--    **Closed|Bool**: if set to `False`, the planar ends of the cylinder are left open.
-
--    **Edge Length|FloatConstraint**: the edge length of the faces in the mesh.
-
--    **Length|FloatConstraint**: the length of the cylinder.
-
--    **Radius|FloatConstraint**: the radius of the cylinder.
-
--    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
-
-### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cone 
+### <img alt="" src=images/Mesh_Cylinder.svg  style="width   *32px;"> Cylinder 
 
 #### Data 
 
 
 {{TitleProperty|Base}}
 
--    **Closed|Bool**: if set to `False`, the planar end(s) of the cone are left open.
+-    **Closed|Bool**   * if set to `False`, the planar ends of the cylinder are left open.
 
--    **Edge Length|FloatConstraint**: the edge length of the faces in the mesh.
+-    **Edge Length|FloatConstraint**   * the edge length of the faces in the mesh.
 
--    **Length|FloatConstraint**: the length of the cone.
+-    **Length|FloatConstraint**   * the length of the cylinder.
 
--    **Radius 1|FloatConstraint**: the first radius of the cone. Can be {{value|0}}.
+-    **Radius|FloatConstraint**   * the radius of the cylinder.
 
--    **Radius 2|FloatConstraint**: the second radius of the cone. Can be {{value|0}}.
+-    **Sampling|IntegerConstraint**   * the number of faces along the curved surface.
 
--    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
-
-### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphere 
+### <img alt="" src=images/Mesh_Cone.svg  style="width   *32px;"> Cone 
 
 #### Data 
 
 
 {{TitleProperty|Base}}
 
--    **Radius|FloatConstraint**: the radius of the sphere.
+-    **Closed|Bool**   * if set to `False`, the planar end(s) of the cone are left open.
 
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
+-    **Edge Length|FloatConstraint**   * the edge length of the faces in the mesh.
 
-### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoid 
+-    **Length|FloatConstraint**   * the length of the cone.
 
-#### Data 
+-    **Radius 1|FloatConstraint**   * the first radius of the cone. Can be {{value|0}}.
 
+-    **Radius 2|FloatConstraint**   * the second radius of the cone. Can be {{value|0}}.
 
-{{TitleProperty|Base}}
+-    **Sampling|IntegerConstraint**   * the number of faces along the curved surface.
 
--    **Radius 1|FloatConstraint**: the first radius of the ellipsoid.
-
--    **Radius 2|FloatConstraint**: the second radius of the ellipsoid.
-
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
-
-### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus 
+### <img alt="" src=images/Mesh_Sphere.svg  style="width   *32px;"> Sphere 
 
 #### Data 
 
 
 {{TitleProperty|Base}}
 
--    **Radius 1|FloatConstraint**: the first (main) radius the torus.
+-    **Radius|FloatConstraint**   * the radius of the sphere.
 
--    **Radius 2|FloatConstraint**: the second radius of the torus.
+-    **Sampling|IntegerConstraint**   * the number of faces along both directions of the curved surface.
 
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
+### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width   *32px;"> Ellipsoid 
+
+#### Data 
+
+
+{{TitleProperty|Base}}
+
+-    **Radius 1|FloatConstraint**   * the first radius of the ellipsoid.
+
+-    **Radius 2|FloatConstraint**   * the second radius of the ellipsoid.
+
+-    **Sampling|IntegerConstraint**   * the number of faces along both directions of the curved surface.
+
+### <img alt="" src=images/Mesh_Torus.svg  style="width   *32px;"> Torus 
+
+#### Data 
+
+
+{{TitleProperty|Base}}
+
+-    **Radius 1|FloatConstraint**   * the first (main) radius the torus.
+
+-    **Radius 2|FloatConstraint**   * the second radius of the torus.
+
+-    **Sampling|IntegerConstraint**   * the number of faces along both directions of the curved surface.
 
 
 

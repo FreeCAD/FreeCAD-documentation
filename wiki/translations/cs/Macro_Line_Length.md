@@ -8,7 +8,7 @@
 |Version=02.00
 |Date=2014-08-08
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/b/bd/Macro_Line_Length.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/b/bd/Macro_Line_Length.png ToolBar Icon]
 }}
 
 ## Popis
@@ -25,7 +25,7 @@ Může být použito z editoru maker FreeCADu.
 
 </div>
 
-predvolené hodnoty sú : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0
+predvolené hodnoty sú    * x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0
 
 ## Skript
 
@@ -35,20 +35,20 @@ ToolBar Icon ![](images/Macro_Line_Length.png )
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # créer une ligne avec une coordonnée une longueur et un angle sur le plan X Y
 # create line with coordinate length and angle to plane X Y
 import FreeCAD, FreeCADGui, Draft
 from math import cos, sin, radians
 #from FreeCAD import Base
  
-def line_length(x1 = 0.0, y1 = 0.0, z1 = 0.0, length = 10.0, angle = 0.0):
+def line_length(x1 = 0.0, y1 = 0.0, z1 = 0.0, length = 10.0, angle = 0.0)   *
     x2 = x1 + (length * cos(radians(angle)))
     y2 = y1 + (length * sin(radians(angle)))
     z2 = z1 #+ ()
     Draft.makeWire([FreeCAD.Vector(x1,y1,z1),FreeCAD.Vector(x2,y2,z2)])
 
-#Example:
+#Example   *
 #x1 = 0.0          # Edit coordinate x1 origin
 #y1 = 0.0          # Edit coordinate y1 origin
 #z1 = 0.0          # Edit coordinate z1 origin
@@ -64,7 +64,7 @@ def line_length(x1 = 0.0, y1 = 0.0, z1 = 0.0, length = 10.0, angle = 0.0):
 
 ## Príklad
 
-Ak sa makro kopíruje do konzoly Python, môžete ho použiť:
+Ak sa makro kopíruje do konzoly Python, môžete ho použiť   *
 
 
 ```python

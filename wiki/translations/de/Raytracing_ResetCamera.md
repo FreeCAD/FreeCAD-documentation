@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name/de:Raytracing ResetCamera
-   MenuLocation:Raytracing → Kamera zurücksetzen|
-   Workbenches:[Raytracing](Raytracing_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */de
+   Name/de   *Raytracing ResetCamera
+   MenuLocation   *Raytracing → Kamera zurücksetzen|
+   Workbenches   *[Raytracing](Raytracing_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Raytracing ResetCamera/de
@@ -33,7 +33,7 @@ Setzt die Kamera des ausgewählten Raytracingprojekts auf die aktuelle Ansicht.
 
 1.  Wähle das Raytracing Projekt in der Baumansicht
 2.  Stelle sicher, dass die Ansicht auf [Perspektivische Ansicht](Std_PerspectiveCamera/de.md) gesetzt ist
-3.  Klicke auf <img alt="" src=images/Raytracing_ResetCamera.png  style="width:32px;"> oder wähle ** Raytracing** → **<img src="images/Raytracing_ResetCamera.png" width=32px> Kamera zurücksetzen** aus dem Menü
+3.  Klicke auf <img alt="" src=images/Raytracing_ResetCamera.png  style="width   *32px;"> oder wähle ** Raytracing** → **<img src="images/Raytracing_ResetCamera.png" width=32px> Kamera zurücksetzen** aus dem Menü
 4.  Wähle ein Raytracing Projekt in der Baumansicht und Blick in den Daten-Reiter in der Eigenschaftenansicht zeigt die aktuellen Kamera-Eigenschaften
 
 

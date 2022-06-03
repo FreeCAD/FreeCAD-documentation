@@ -1,6 +1,6 @@
 # Std Edit/es
 ---
-- GuiCommand:/es   Name:Std_Edit   Name/es:Std Edit   MenuLocation:[[Std_Edit_Menu/es   Edición]] -> Conmutar modo de edición|Workbenches:Todos   SeeAlso:...---
+- GuiCommand   */es   Name   *Std_Edit   Name/es   *Std Edit   MenuLocation   *[[Std_Edit_Menu/es   Edición]] -> Conmutar modo de edición|Workbenches   *Todos   SeeAlso   *...---
 
 
 </div>
@@ -23,7 +23,7 @@ Este comando permite entrar o abandonar el modo de edición de un objeto selecci
 
 ## Usage
 
-1.  If no object is in edit mode: select a single object.
+1.  If no object is in edit mode   * select a single object.
 2.  Select the **Edit → <img src="images/Std_Edit.svg" width=16px> Toggle Edit mode** option from the menu.
 3.  Either the default edit mode of the selected object is activated or the existing edit mode deactivated.
 
@@ -43,14 +43,14 @@ Este comando permite entrar o abandonar el modo de edición de un objeto selecci
 </div>
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Esto entra en el modo de edición de un objeto determinado:
+Esto entra en el modo de edición de un objeto determinado   *
 
 
 </div>
@@ -62,7 +62,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-The second argument is the EditMode. The following options are available:
+The second argument is the EditMode. The following options are available   *
 
 0 = Default
 1 = Transform
@@ -72,7 +72,7 @@ The second argument is the EditMode. The following options are available:
 
 <div class="mw-translate-fuzzy">
 
-Esto cierra ek modo de edición:
+Esto cierra ek modo de edición   *
 
 
 </div>

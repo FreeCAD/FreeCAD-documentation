@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic:Ambiente de Trabajo
-   Level:Principiante
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */es
+   Topic   *Ambiente de Trabajo
+   Level   *Principiante
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # FreeCAD-Ship s60 tutorial/es
@@ -18,13 +18,13 @@
 
 En este tutorial trabajaremos con un nave de la Serie 60, de la Universidad de Iowa. El tutorial está orientado a mostrar cómo se trabaja con un nave monocasco simétrico, sin embargo se pueden realizar nave multicasco o no simétricos con el mismo procedimiento.
 
-Más información sobre <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ambiente de trabajo de naves](Ship_Workbench/es.md).
+Más información sobre <img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> [Ambiente de trabajo de naves](Ship_Workbench/es.md).
 
 ## Cargando geometría 
 
 ### Fondo
 
-El <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ambiente de trabajo nave](Ship_Workbench/es.md) trabaja sobre **Entidades de nave**, que deben ser creadas sobre la geometría proporcionada. La geometría debe ser un sólido (o conjunto de sólidos), se deben tener en cuenta los siguientes criterios:
+El <img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> [Ambiente de trabajo nave](Ship_Workbench/es.md) trabaja sobre **Entidades de nave**, que deben ser creadas sobre la geometría proporcionada. La geometría debe ser un sólido (o conjunto de sólidos), se deben tener en cuenta los siguientes criterios   *
 
 -   Se debe proporcionar toda la geometría del casco (incluyendo los cuerpos simétricos).
 -   La geometría de estribor debe incluirse en el dominio *y* negativo.
@@ -42,7 +42,7 @@ Criterio de signos de FreeCAD-Ship.
 
 ### Cargando la geometría del Serie 60 
 
-Para ayudar a los nuevos usuarios, el banco de trabajo Ship incluye un cargador de ejemplos de geometrías, con los siguientes para elegir:
+Para ayudar a los nuevos usuarios, el banco de trabajo Ship incluye un cargador de ejemplos de geometrías, con los siguientes para elegir   *
 
 -   Serie 60 de la Universidad de Iowa
 -   Buque canónico de Wigley
@@ -84,15 +84,15 @@ Icono de la herramienta de creación de naves
 
 Se mostrará el diálogo de la tarea de creación de una nave y algunas anotaciones en la [vista 3D](3D_view/es.md). Las anotaciones desaparecerán cuando cierres la herramienta de creación de naves, así que no te preocupes por esto.
 
-Se deben introducir los datos más relevantes del nave (el <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> El ambiente de trabajo nave utiliza un sistema de introducción de datos progresivo, por lo que las operaciones básicas pueden realizarse conociendo sólo los datos básicos del nave, siendo necesaria más información a medida que las operaciones se hacen más complejas).
+Se deben introducir los datos más relevantes del nave (el <img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> El ambiente de trabajo nave utiliza un sistema de introducción de datos progresivo, por lo que las operaciones básicas pueden realizarse conociendo sólo los datos básicos del nave, siendo necesaria más información a medida que las operaciones se hacen más complejas).
 
 ### Datos del nave 
 
-Las principales dimensiones deben ser introducidas aquí:
+Las principales dimensiones deben ser introducidas aquí   *
 
--   Eslora: Eslora entre perpendiculares, 25,5 m para este nave.
--   Manga: Manga total del nave, 3,389 m para este nave.
--   Calado: Calado de diseño, 1,0 m para este nave.
+-   Eslora   * Eslora entre perpendiculares, 25,5 m para este nave.
+-   Manga   * Manga total del nave, 3,389 m para este nave.
+-   Calado   * Calado de diseño, 1,0 m para este nave.
 
 ![Anotaciones sobre la vista frontal.](images/FreeCAD-Ship-S60ShipCreationFront.png )
 
@@ -146,7 +146,7 @@ Icono de la herramienta de dibujo de líneas
 
 </center>
 
-El dibujo de líneas es un conjunto de líneas de cortes de sección en los 3 ejes, que finalmente mostrarán la geometría del casco en un Plano de Líneas. Necesitamos proporcionar las líneas para las 3 siguientes vistas:
+El dibujo de líneas es un conjunto de líneas de cortes de sección en los 3 ejes, que finalmente mostrarán la geometría del casco en un Plano de Líneas. Necesitamos proporcionar las líneas para las 3 siguientes vistas   *
 
 -   Plano del cuerpo (usando los cortes transversales)
 -   Plano de la carena (usando los cortes longitudinales)
@@ -170,12 +170,12 @@ Se rellena la tabla de secciones y se muestra la vista previa de secciones llama
 
 1.  Ir al final de la tabla y hacer *doble clic* en un elemento vacío para editarlo.
 2.  Pulse **intro** para confirmar.
-3.  Agregue las siguientes secciones:
+3.  Agregue las siguientes secciones   *
 
-:   
+   *   
 
-    :   X~22~ = -12.1125 m
-    :   X~23~ = 12.1125 m
+       *   X~22~ = -12.1125 m
+       *   X~23~ = 12.1125 m
 
 Dependiendo de la complejidad de la geometría, la previsualización puede llevar algún tiempo.
 
@@ -187,7 +187,7 @@ Hay que añadir dos cortes longitudinales, por lo que hay que seleccionar el tip
 
 6 Líneas de agua entre la línea de base y el proyecto de diseño debe ser añadido, así que seleccione **Líneas de agua** tipo de secciones, vaya a **Auto crear**\' caja y establecer **5**\' (Z = 0 m no se considerará, añadir manualmente si lo necesita) secciones, a continuación, pulse **Crear secciones**. La tabla de secciones se llena, y la vista previa de las secciones se actualiza.
 
-Hay que añadir varias líneas de agua adicionales:
+Hay que añadir varias líneas de agua adicionales   *
 
 -   Z~6~ = 1.2 m
 -   Z~7~ = 1.4 m
@@ -197,7 +197,7 @@ Hay que añadir varias líneas de agua adicionales:
 
 ### Realizar el trazado 
 
-Selecciona la escala **1:100** y pulsa **Aceptar** para que la herramienta genere las secciones 3D en un nuevo objeto.
+Selecciona la escala **1   *100** y pulsa **Aceptar** para que la herramienta genere las secciones 3D en un nuevo objeto.
 
 ![Plano de formas.](images/FreeCAD-Ship-S60OutlinePlot.png )
 
@@ -209,7 +209,7 @@ Plano de formas.
 
 </center>
 
-Para trazar estas secciones puedes utilizar el [Ambiente de trabajo de dibujo](Drawing_Workbench/es.md):
+Para trazar estas secciones puedes utilizar el [Ambiente de trabajo de dibujo](Drawing_Workbench/es.md)   *
 
 ![Secciones resultantes.](images/FreeCAD-Ship-S60Outline3DSections.png )
 
@@ -239,23 +239,23 @@ Cuando se ejecuta la herramienta se muestra un diálogo de tarea, y se crea una 
 
 ### Datos de entrada 
 
-El calado y el trimado (ángulo de rotación del *borde y* del casco, positivo si el calado de popa puede aumentar) deben ser proporcionados. Se pueden realizar varias curvas de áreas, dependiendo de las situaciones de carga del buque, pero se deben realizar dos trazados típicos:
+El calado y el trimado (ángulo de rotación del *borde y* del casco, positivo si el calado de popa puede aumentar) deben ser proporcionados. Se pueden realizar varias curvas de áreas, dependiendo de las situaciones de carga del buque, pero se deben realizar dos trazados típicos   *
 
--   Curva de áreas transversales de diseño: Sin ángulo de trimado y utilizando el calado de diseño, 1,0 m en este caso.
--   Curva de áreas transversales de máximo calado: Sin ángulo de trimado y con el máximo calado permitido, 2,0 m en este caso.
+-   Curva de áreas transversales de diseño   * Sin ángulo de trimado y utilizando el calado de diseño, 1,0 m en este caso.
+-   Curva de áreas transversales de máximo calado   * Sin ángulo de trimado y con el máximo calado permitido, 2,0 m en este caso.
 
 ### Datos de salida 
 
-Se muestran algunos datos relevantes en tiempo real:
+Se muestran algunos datos relevantes en tiempo real   *
 
--   **L**: Longitud entre perpendiculares, valor establecido en la creación de la instancia de la nave.
--   **B**: Viga seleccionada en la creación del nave.
--   T\'\'\': Calado real en el centro del nave.
--   **Trim**: Ángulo de trimado.
--   T~AP~\'\': Después del calado perpendicular.
--   T~FP~\'\': Calado perpendicular a proa.
--   **Desplazamiento**: Desplazamiento del buque (considerado el agua salada, dividir por 1,025 para conocer el volumen desplazado).
--   XCB\'\'\': Coordenada X del punto central de flotación (relativa a la sección media del nave).
+-   **L**   * Longitud entre perpendiculares, valor establecido en la creación de la instancia de la nave.
+-   **B**   * Viga seleccionada en la creación del nave.
+-   T\'\'\'   * Calado real en el centro del nave.
+-   **Trim**   * Ángulo de trimado.
+-   T~AP~\'\'   * Después del calado perpendicular.
+-   T~FP~\'\'   * Calado perpendicular a proa.
+-   **Desplazamiento**   * Desplazamiento del buque (considerado el agua salada, dividir por 1,025 para conocer el volumen desplazado).
+-   XCB\'\'\'   * Coordenada X del punto central de flotación (relativa a la sección media del nave).
 
 Cuando se pulsa el botón **Aceptar** se realiza un trazado (dependiendo de la complejidad de la geometría puede llevar algún tiempo, puedes ver el progreso en el terminal, y detener el trabajo pulsando **Ctrl**+**C**). Cuando la tarea ha terminado FreeCAD generará un gráfico (ver la documentación del [Ambiente de trabajo diagrama](Plot_Workbench/es.md)) y una hoja de cálculo (ver la documentación del [Ambiente de trabajo Hoja de cálculo](Spreadsheet_Workbench/es.md)).
 
@@ -287,7 +287,7 @@ Icono de la herramienta de Hidrostáticas.
 
 Al lanzar la herramienta se muestra el cuadro de diálogo donde deberemos establecer los valores de trimado y calados. Normalmente las curvas hidrostáticas se presentan en un rango de calados para cada ángulo de trimado. En este tutorial sólo consideraremos el nave sin trimar, y puesto que no conocemos las situaciones de carga, para un amplio rango de calados (Convencionalmente se ajustan al rango de calados plausible para el buque).
 
-Por tanto establecemos los siguientes valores:
+Por tanto establecemos los siguientes valores   *
 
 -   **Trimado** = 0º
 -   **Calado mínimo** = 0.1 m
@@ -309,6 +309,8 @@ Curvas hidrostáticas.
 ## Seguir aprendiendo 
 
 El [Tutorial de FreeCAD-Nave s60 (II)](FreeCAD-Ship_s60_tutorial_(II)/es.md) es el segundo capítulo de la serie 60 de la nave universitaria de Iowa.
+
+[Category   *Ship](Category_Ship.md)
 
 
 

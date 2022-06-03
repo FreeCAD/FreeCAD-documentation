@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-由于FreeCAD界面是基于现代的[Qt](http://en.wikipedia.org/wiki/Qt_(toolkit))工具包制作，因此它具有最先进的组织架构。widget部件、菜单、工具栏与其他工具都可修改、移动、在工具台之间共享，还可设置、修改快捷键，并记录和执行宏（macro）。通过**Tools → Customize**菜单即可进行窗口的定制：
+由于FreeCAD界面是基于现代的[Qt](http   *//en.wikipedia.org/wiki/Qt_(toolkit))工具包制作，因此它具有最先进的组织架构。widget部件、菜单、工具栏与其他工具都可修改、移动、在工具台之间共享，还可设置、修改快捷键，并记录和执行宏（macro）。通过**Tools → Customize**菜单即可进行窗口的定制：
 
 
 </div>
@@ -17,7 +17,7 @@
 ## Usage
 
 1.  The commands available in the Customize dialog box depend on the workbenches that have been loaded in the current FreeCAD session. So you should first load all workbenches whose commands you want to have access to.
-2.  There are several ways to invoke the <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgCustomize](Std_DlgCustomize.md) command:
+2.  There are several ways to invoke the <img alt="" src=images/Std_DlgCustomize.svg  style="width   *16px;"> [Std DlgCustomize](Std_DlgCustomize.md) command   *
     -   Select the **Tools → <img src="images/Std_DlgCustomize.svg" width=16px> Customize...** option from the menu.
     -   Right-click a toolbar area and choose **<img src="images/Std_DlgCustomize.svg" width=16px> Customize...** from the context menu.
 3.  The Customize dialog box opens. For more information see [Options](#Options.md).
@@ -26,7 +26,7 @@
 
 ## Options
 
-In the Customize dialog box the following tabs are available:
+In the Customize dialog box the following tabs are available   *
 
 ### Commands
 
@@ -39,8 +39,8 @@ On this tab you can browse the available commands.
 
 1.  Select a command category in the **Category** panel on the left. Some categories match menu entries.
 2.  The tools available in the selected category are shown in the panel on the right.
-3.  Hover a command: its tooltip appears.
-4.  Select a command: its status bar text is displayed below the two panels.
+3.  Hover a command   * its tooltip appears.
+4.  Select a command   * its status bar text is displayed below the two panels.
 
 
 {{Top}}
@@ -180,7 +180,7 @@ On this tab custom toolbars can be created and modified.
 -   Toolbars belonging to the current workbench are updated immediately, but after disabling/re-enabling a toolbar a workbench change is required (switch to a different workbench and then switch back).
 -   To update global toolbars a workbench change (if commands have been added or removed) or a restart (if the order of a toolbar has changed or a toolbar was renamed) is required.
 
--   In V0.19 there is an issue with some Draft commands. After adding them to a custom toolbar and exiting the FreeCAD application the {{FileName|user.cfg}} file must be manually edited for these commands. Search for the name of the custom toolbar and in that section change the content of the `FCText` items that start with `gui_` to `DraftTools`.
+-   In V0.19 there is an issue with some Draft commands. After adding them to a custom toolbar and exiting the FreeCAD application the **user.cfg** file must be manually edited for these commands. Search for the name of the custom toolbar and in that section change the content of the `FCText` items that start with `gui_` to `DraftTools`.
 
 
 {{Top}}
@@ -190,9 +190,9 @@ On this tab custom toolbars can be created and modified.
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *The Macros tab*
 
-On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
+On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 
-If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) then make sure that you also download its icon image file. Most macros have an image link on the information page that appears in the Addon Manager. You can for example put this image file in the user macros folder.
+If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr.md) then make sure that you also download its icon image file. Most macros have an image link on the information page that appears in the Addon Manager. You can for example put this image file in the user macros folder.
 
 If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information.
 
@@ -204,7 +204,7 @@ If you want to use a macro downloaded from a different source you will have to i
 4.  Optionally enter a **Status text**. This text will appear in the [status bar](Status_bar.md) when you hover the toolbar icon.
 5.  Optionally enter the wiki page for the macro, if available, in the **What\'s this** input box. Enter the page name, not the full URL.
 6.  Optionally enter a shortcut in the **Accelerator** input box. See [Keyboard](#Keyboard.md) for more information.
-7.  To add an icon:
+7.  To add an icon   *
     1.  Press the **Pixmap** **...** button.
     2.  The Choose Icon dialog box opens.
     3.  If required press the **Icon folders...** button to add an icon folder.
@@ -229,58 +229,58 @@ If you want to use a macro downloaded from a different source you will have to i
 
 ### Spaceball Motion 
 
-This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This tab is blank if no Spaceball is detected. See   * [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ### Spaceball Buttons 
 
-This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This is tab is blank if no Spaceball is detected. See   * [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ## Themes
 
-FreeCAD supports complete theming of the interface, via .qss stylesheets. The [qss format](https://doc.qt.io/qt-5/stylesheet-syntax.html) is very similar to the [css format](https://en.wikipedia.org/wiki/CSS) used in web pages, it basically adds methods to reference the different widgets and elements of the Qt interface. You can change the default theme (which simply takes the style defined by your desktop system) by selecting a **style sheet** in the [FreeCAD preferences](Preferences_Editor#General.md).
+FreeCAD supports complete theming of the interface, via .qss stylesheets. The [qss format](https   *//doc.qt.io/qt-5/stylesheet-syntax.html) is very similar to the [css format](https   *//en.wikipedia.org/wiki/CSS) used in web pages, it basically adds methods to reference the different widgets and elements of the Qt interface. You can change the default theme (which simply takes the style defined by your desktop system) by selecting a **style sheet** in the [FreeCAD preferences](Preferences_Editor#General.md).
 
-You can also create your own theme if you are not satisfied with the themes that are bundled with FreeCAD, for example by editing an [existing style sheet](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Your new style must be placed in a specific folder for it to be found by FreeCAD:
+You can also create your own theme if you are not satisfied with the themes that are bundled with FreeCAD, for example by editing an [existing style sheet](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Your new style must be placed in a specific folder for it to be found by FreeCAD   *
 
--    {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}}(on Windows). The {{FileName|%APPDATA%}} folder can be retrieved by entering {{Incode|App.getUserAppDataDir()}} in the [Python console](Python_console.md).
+-    **%APPDATA%/FreeCAD/Gui/Stylesheets**(on Windows). The **%APPDATA%** folder can be retrieved by entering {{Incode|App.getUserAppDataDir()}} in the [Python console](Python_console.md).
 
--    {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}}(on Linux).
+-    **$HOME/.FreeCAD/Gui/Stylesheets**(on Linux).
 
--    {{FileName|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(on MacOS).
+-    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(on MacOS).
 
 
 {{Top}}
 
 ## Addons
 
-Addons offer yet another way to customize the use interface. Below are some addons created by users in the FreeCAD community. They can be downloaded through the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) (note: they are listed on the Workbenches tab).
+Addons offer yet another way to customize the use interface. Below are some addons created by users in the FreeCAD community. They can be downloaded through the <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr.md) (note   * they are listed on the Workbenches tab).
 
 ### CubeMenu
 
--   Github repository: <https://github.com/triplus/CubeMenu>
+-   Github repository   * <https   *//github.com/triplus/CubeMenu>
 
 ### Glass
 
--   Github repository: <https://github.com/triplus/Glass>.
+-   Github repository   * <https   *//github.com/triplus/Glass>.
 
 ### IconThemes
 
--   Github repository: <https://github.com/triplus/IconThemes>
+-   Github repository   * <https   *//github.com/triplus/IconThemes>
 
 ### Launcher
 
--   Github repository: <https://github.com/triplus/Launcher>
+-   Github repository   * <https   *//github.com/triplus/Launcher>
 
 ### PieMenu
 
--   Github repository: <https://github.com/triplus/PieMenu>
+-   Github repository   * <https   *//github.com/triplus/PieMenu>
 
 ### RemBench
 
--   Github repository: <https://github.com/triplus/RemBench>
+-   Github repository   * <https   *//github.com/triplus/RemBench>
 
 ### ShortCut
 
--   Github repository: <https://github.com/triplus/ShortCuts>
+-   Github repository   * <https   *//github.com/triplus/ShortCuts>
 
 
 {{Top}}

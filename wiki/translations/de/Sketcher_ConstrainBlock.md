@@ -1,41 +1,26 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher ConstrainBlock
-   Name/de:Skizzierer BeschränkeBlock
-   MenuLocation:Skizze → Skizzierer Beschränkungen → Beschränke Block
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[[Sketcher_ConstrainLock/de|Skizzierer
-Beschränkung Schloss]]
+- GuiCommand   */de
+   Name   *Sketcher ConstrainBlock
+   Name/de   *Sketcher Fixieren
+   MenuLocation   *Sketch → Skizzen-Beschränkungen → Fixieren
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***K** **B**
+   Version   *0.17
+   SeeAlso   *[Sketcher Sperren](Sketcher_ConstrainLock/de.md)
 ---
 
 # Sketcher ConstrainBlock/de
 
-
-</div>
-
 ## Beschreibung
 
-**Beschränke Block** blockiert ein geometrisches Element an Ort und Stelle mit einer einzigen Beschränkung.
+Die Randbedingung **Fixieren** setzt ein geometrisches Element an Ort und Stelle mit einer einzigen Bedingung fest.
 
-
-<div class="mw-translate-fuzzy">
-
-Es ist hauptsächlich für die Verwendung mit **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline/de.md)** vorgesehen, die sonst nur schwer vollständig beschränkt werden können.
-
-
-</div>
+Es ist hauptsächlich für die Verwendung mit **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [B-Splines](Sketcher_CreateBSpline/de.md)** vorgesehen, die sonst nur schwer vollständig bestimmt werden können.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle ein Element aus, das beschränkt werden soll.
-2.  Drücke die **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Beschränke Block](Sketcher_ConstrainBlock/de.md)** Taste.
-
-
-</div>
+1.  Ein Element auswählen, das fixiert werden soll.
+2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainBlock.svg style="width   *16px"> [Fixieren](Sketcher_ConstrainBlock/de.md)** drücken.
 
 Oder drücke zuerst die Taste , und wähle dann die Elemente aus.
 

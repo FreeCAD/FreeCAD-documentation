@@ -7,7 +7,11 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/Material/Gui/Resources/Icons/
 
- ![](images/preview-rendered.svg ) ![](images/preview-vector.svg )
+ ![](images/preview-rendered.svg ) ![](images/preview-vector.svg ) 
+
+
+
+[Category   *Artwork](Category_Artwork.md)
 
 
 

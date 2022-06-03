@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Path ToolLibraryEdit
-   Name/fr:Path Gestionnaire du magasin d'outils
-   MenuLocation:Path → Tool Manager
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **T**
-   SeeAlso:
+- GuiCommand   */fr
+   Name   *Path ToolLibraryEdit
+   Name/fr   *Path Gestionnaire du magasin d'outils
+   MenuLocation   *Path → Tool Manager
+   Workbenches   *[Path](Path_Workbench/fr.md)
+   Shortcut   ***P** **T**
+   SeeAlso   *
 ---
 
 # Path ToolLibraryEdit/fr
@@ -18,22 +18,22 @@ Il sert également à la sélection d\'un outil que vous souhaitez utiliser dans
 
 ![](images/Path-Tooltable.png )
 
-La manipulation est simple:
+La manipulation est simple   *
 
--   Import\...: importe une collection d\'outils à partir d\'un fichier XML. {{Note|Warning|Ceci est actuellement en partie cassé et ne fonctionne pas si vous n'avez jamais eu de fichier xml auparavant.}}
--   Export\...: exporte la collection vers un fichier XML.
--   New Tool: ouvre une boîte de dialogue dans laquelle vous pouvez entrer les paramètres de votre outil.
--   Delete: supprime les lignes actuellement sélectionnées. {{Note|Avertissement|Les outils sont supprimés de votre collection même si vous annulez la boîte de dialogue}}
--   Move up: vous ne pouvez pas modifier le numéro d\'outil, vous pouvez déplacer la ligne sélectionnée pour diminuer son numéro d\'outil
--   Move down: vous pouvez déplacer la ligne sélectionnée vers le bas pour augmenter son numéro d\'outil
+-   Import\...   * importe une collection d\'outils à partir d\'un fichier XML. {{Note|Warning|Ceci est actuellement en partie cassé et ne fonctionne pas si vous n'avez jamais eu de fichier xml auparavant.}}
+-   Export\...   * exporte la collection vers un fichier XML.
+-   New Tool   * ouvre une boîte de dialogue dans laquelle vous pouvez entrer les paramètres de votre outil.
+-   Delete   * supprime les lignes actuellement sélectionnées. {{Note|Avertissement|Les outils sont supprimés de votre collection même si vous annulez la boîte de dialogue}}
+-   Move up   * vous ne pouvez pas modifier le numéro d\'outil, vous pouvez déplacer la ligne sélectionnée pour diminuer son numéro d\'outil
+-   Move down   * vous pouvez déplacer la ligne sélectionnée vers le bas pour augmenter son numéro d\'outil
 
--   Crée un ou des contrôleurs d\'outils: Si vous cochez une ou plusieurs cases à gauche de la liste d\'outils, ce bouton devient actif. Si vous cliquez dessus, les outils sélectionnés seront insérés dans votre travail actuel.
+-   Crée un ou des contrôleurs d\'outils   * Si vous cochez une ou plusieurs cases à gauche de la liste d\'outils, ce bouton devient actif. Si vous cliquez dessus, les outils sélectionnés seront insérés dans votre travail actuel.
 
 ## Utilisation
 
 1.  Sélectionnez un **<img src="images/Path_Job.svg" width=16px> [Path Tâche](Path_Job/fr.md)
 **
-2.  Lancez le gestionnaire d\'outils en utilisant plusieurs méthodes :
+2.  Lancez le gestionnaire d\'outils en utilisant plusieurs méthodes    *
     -   Appuyez sur le bouton **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [Tool Manager](Path_ToolLibraryEdit/fr.md)** dans la barre d\'outils.
     -   En utilisant le raccourci clavier **P** puis **T**.
     -   En utilisant l\'entrée **Path → Tool Manager** du menu supérieur.

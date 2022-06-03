@@ -1,6 +1,8 @@
 # Category:Command Reference/sv
 Denna kategori innehåller hjälpsidorna för varje FreeCAD kommando.
 
+[Category   *Categories/sv](Category   *Categories/sv.md)
+
 ### Contents
 
 |     |     |     |

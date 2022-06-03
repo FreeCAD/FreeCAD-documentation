@@ -8,12 +8,12 @@
 |Version=1.0
 |Date=2014-08-07
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_MacroMenu.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/1/1e/Macro_MacroMenu.png ToolBar Icon]
 }}
 
 ## Beschreibung
 
-Dieser Code war Teil des [Draft Module](Draft_Workbench/de.md) und wurde entfernt [issue \#490](http://freecadweb.org/tracker/view.php?id=490).
+Dieser Code war Teil des [Draft Module](Draft_Workbench/de.md) und wurde entfernt [issue \#490](http   *//freecadweb.org/tracker/view.php?id=490).
 
 ## Skript
 
@@ -27,28 +27,28 @@ Werkzeugleistensymbol ![](images/Macro_MacroMenu.png )
 import os,FreeCAD,FreeCADGui
  
 macrosList = []
-macroPath = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro").GetString("MacroPath") 
+macroPath = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macro").GetString("MacroPath") 
  
-class MacroCommand():
+class MacroCommand()   *
     "A template for macro commands"
-    def __init__(self,macroname):
+    def __init__(self,macroname)   *
         self.macroname = macroname
  
-    def GetResources(self):
-        return {'Pixmap'  : 'Draft_Macro',
-                'MenuText': self.macroname,
-                'ToolTip': 'Executes the '+self.macroname+' macro'}
+    def GetResources(self)   *
+        return {'Pixmap'     * 'Draft_Macro',
+                'MenuText'   * self.macroname,
+                'ToolTip'   * 'Executes the '+self.macroname+' macro'}
  
-    def Activated(self):
+    def Activated(self)   *
         target = macroPath+os.sep+self.macroname+'.FCMacro'
-        if os.path.exists(target): execfile(target)
+        if os.path.exists(target)   * execfile(target)
             
-if macroPath and os.path.isdir(macroPath):
+if macroPath and os.path.isdir(macroPath)   *
     macros = []
-    for f in os.listdir(macroPath):
-        if ".FCMacro" in f:
-            macros.append(f[:-8])
-    for m in macros:
+    for f in os.listdir(macroPath)   *
+        if ".FCMacro" in f   *
+            macros.append(f[   *-8])
+    for m in macros   *
         cmd = 'Macro_'+m
         FreeCADGui.addCommand(cmd,MacroCommand(m))
         macrosList.append(cmd)

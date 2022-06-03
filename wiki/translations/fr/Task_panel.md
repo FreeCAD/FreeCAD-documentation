@@ -5,7 +5,7 @@
 
 Le [panneau de tâches](Task_panel/fr.md) apparaît dans l\'onglet **Tâches** de la [vue combinée](combo_view/fr.md), l\'un des panneaux importants de l\'[interface](interface/fr.md). Il s'agit d'un espace personnalisable pouvant contenir n'importe quel type de widget graphique, comme des sous-fenêtres, des tableaux, des champs de saisie, des cases à cocher, des sélecteurs, des zones de texte, des boutons, des libellés, des images et d'autres éléments, en fonction de l\'[atelier](Workbenches/fr.md) et de l'outil couramment actifs.
 
-<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
+<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width   *" height="550px;">
 
 
 
@@ -31,7 +31,7 @@ De nombreuses commandes requièrent la sélection de formes ou d\'objets présen
 
 *Panneau de tâches qui s'ouvre lors de la modification d'un [Arch Composant](Arch_Component/fr.md). Le panneau attend que l'utilisateur sélectionne des objets pouvant être ajoutés ou soustraits du composant.*
 
-**Remarque:** Merci de noter que le passage de l\'onglet **Tâches** à l\'onglet **Modèle** ne met pas fin à la commande active ; la tâche sera toujours exécutée en arrière-plan. Il incombe à l\'utilisateur de mettre fin ou d\'abandonner correctement la commande active avant de lancer une tâche différente ; laisser une tâche en cours peut générer des erreurs lors du lancement d\'autres outils.
+**Remarque   *** Merci de noter que le passage de l\'onglet **Tâches** à l\'onglet **Modèle** ne met pas fin à la commande active ; la tâche sera toujours exécutée en arrière-plan. Il incombe à l\'utilisateur de mettre fin ou d\'abandonner correctement la commande active avant de lancer une tâche différente ; laisser une tâche en cours peut générer des erreurs lors du lancement d\'autres outils.
 
 ## Remarques
 
@@ -42,16 +42,16 @@ De nombreuses commandes requièrent la sélection de formes ou d\'objets présen
 
 **Veuillez reformuler et mettre à jour cette section**
 
-Voir [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Appelez un widget de dialogue de tâche pour fermer la vue des tâches. Il peut être fermé avec \"this-\>close()\" mais cela ne ferme que la partie inférieure de la vue, pas cette vue elle-même.
+Voir [fil de discussion](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Appelez un widget de dialogue de tâche pour fermer la vue des tâches. Il peut être fermé avec \"this-\>close()\" mais cela ne ferme que la partie inférieure de la vue, pas cette vue elle-même.
 
-Utilisation de Python: 
+Utilisation de Python   * 
 ```python
 Gui.Control.closeDialog()
 ```
 
-Utilisationen C++: 
+Utilisationen C++   * 
 ```python
-Gui::Control().closeDialog();
+Gui   *   *Control().closeDialog();
 ```
 
 

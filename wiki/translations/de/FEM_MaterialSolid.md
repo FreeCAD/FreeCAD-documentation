@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:FEM MaterialSolid
-   Name/de:FEM WerkstoffVolumenkörper
-   MenuLocation:Modell → FEM Werkstoff für Volumenkörper
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:**M** **M**
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand   */de
+   Name   *FEM MaterialSolid
+   Name/de   *FEM WerkstoffVolumenkörper
+   MenuLocation   *Modell → FEM Werkstoff für Volumenkörper
+   Workbenches   *[FEM](FEM_Workbench/de.md)
+   Shortcut   ***M** **M**
+   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MaterialSolid/de
@@ -25,7 +25,7 @@ Fügt Materialeigenschaften einem Teil hinzu.
 
 <div class="mw-translate-fuzzy">
 
--   Klicke auf <img alt="" src=images/FEM_MaterialSolid.png  style="width:32px;"> oder wähle **Model** → **<img src="images/FEM_MaterialSolid.png" width=32px> FEM Werkstoff für Volumenkörper** aus dem Hauptmenü.
+-   Klicke auf <img alt="" src=images/FEM_MaterialSolid.png  style="width   *32px;"> oder wähle **Model** → **<img src="images/FEM_MaterialSolid.png" width=32px> FEM Werkstoff für Volumenkörper** aus dem Hauptmenü.
 -   Doppelklicke auf das erstellte **<img src="images/FEM_MaterialSolid.png" width=32px> VolumenkörperWerkstoff** Objekt
 
 ![](images/FEMMaterialSolidProperties.png )
@@ -45,7 +45,7 @@ Fügt Materialeigenschaften einem Teil hinzu.
 
 <div class="mw-translate-fuzzy">
 
-1.  Der mechanische Werkstoff verwendet die \*MATERIAL Karte in CalculiX. Einzelheiten über den mechanischen Werkstoff werden unter <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html> erläutert.
+1.  Der mechanische Werkstoff verwendet die \*MATERIAL Karte in CalculiX. Einzelheiten über den mechanischen Werkstoff werden unter <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html> erläutert.
 
 
 </div>

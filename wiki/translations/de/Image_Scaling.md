@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Image Scaling
-   Name/de:Image BildebeneSkalieren
-   MenuLocation:
-   Workbenches:[Image (Bild)](Image_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[Image Öffnen](Image_Open/de.md), [Image Bildebene erstellen](Image_CreateImagePlane/de.md)
+- GuiCommand   */de
+   Name   *Image Scaling
+   Name/de   *Image BildebeneSkalieren
+   MenuLocation   *
+   Workbenches   *[Image (Bild)](Image_Workbench/de.md)
+   Version   *0.18
+   SeeAlso   *[Image Öffnen](Image_Open/de.md), [Image Bildebene erstellen](Image_CreateImagePlane/de.md)
 ---
 
 # Image Scaling/de

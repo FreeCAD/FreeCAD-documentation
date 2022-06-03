@@ -10,14 +10,14 @@ The GSoC project aims to exactly do this. On pre processing side of FreeCAD a lo
 ## Details
 
 1.  Get familiar with FreeCAD FEM workbench its capabilities and its architecture. Furthermore get familiar with Z88OS and its interface text files for pre- and post processing. It is important to have a good understanding of all involved components to be able to make the needed extensions.
-2.  Post processing: Extend the importZ88result module to read stress and strains from Z88 result files and add them to the FreeCAD result object.
-3.  Pre processing: Implement Z88 input file writing for all three element dimensions (beam, shell, volume) for the following constraints of FreeCAD FEM: fixed, force, pressure, self weight, displacement.
-4.  Solver: extend the FreeCAD FEM solver object by FreeCAD properties to hold the the attributes which could be used to make the needed adjustments at Z88 solver binary.
+2.  Post processing   * Extend the importZ88result module to read stress and strains from Z88 result files and add them to the FreeCAD result object.
+3.  Pre processing   * Implement Z88 input file writing for all three element dimensions (beam, shell, volume) for the following constraints of FreeCAD FEM   * fixed, force, pressure, self weight, displacement.
+4.  Solver   * extend the FreeCAD FEM solver object by FreeCAD properties to hold the the attributes which could be used to make the needed adjustments at Z88 solver binary.
 
 
 
 
-1.  Advanced: add the free-ware solver Z88Aurora (not OpenSource, but free of license fee) as another possibility in FreeCAD FEM in addition to Z88OS. Z88Aurora supports much more constraints and analysis types than Z88OS
+1.  Advanced   * add the free-ware solver Z88Aurora (not OpenSource, but free of license fee) as another possibility in FreeCAD FEM in addition to Z88OS. Z88Aurora supports much more constraints and analysis types than Z88OS
 
 ## Expected Outcome 
 
@@ -41,7 +41,9 @@ If this project is finished successfully futher work on the FEM workbench can be
 
 Easy-Medium
 
-### Additional Information
+### Additional Information 
+
+[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 
 

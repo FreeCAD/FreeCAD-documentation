@@ -1,6 +1,6 @@
 # Path Stop/ro
 ---
-- GuiCommand:   Name:Path Stop   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Partial Commands → Stop   Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *Path Stop   Workbenches   *[[Path Workbench   Path]]|MenuLocation   *Path → Partial Commands → Stop   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -30,7 +30,7 @@ Rețineți că acest lucru nu oprește axul.
 
 ## Proprietăți
 
--    **Stop**: Definește dacă opțiunea Stop este opțională sau obligatorie.
+-    **Stop**   * Definește dacă opțiunea Stop este opțională sau obligatorie.
 
 
 

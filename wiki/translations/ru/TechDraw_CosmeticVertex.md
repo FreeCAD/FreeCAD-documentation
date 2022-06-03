@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Добавить вспомогательную вершину
-   Name:TechDraw_CosmeticVertex
-   MenuLocation:TechDraw → Добавить Вершины → Добавить вспомогательную вершину 
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Добавить вершины по центрам граней](TechDraw_Midpoints/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Добавить вспомогательную вершину
+   Name   *TechDraw_CosmeticVertex
+   MenuLocation   *TechDraw → Добавить Вершины → Добавить вспомогательную вершину 
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   Version   *0.19
+   SeeAlso   *[Добавить вершины по центрам граней](TechDraw_Midpoints/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
 ---
 
 # TechDraw CosmeticVertex/ru
@@ -14,7 +14,7 @@
 
 The Cosmetic Vertex tool adds a [Vertex](Glossary#V.md), which is not part of the source geometry, to a View. This Vertex behaves like any other vertex and can be used for dimensioning.
 
-<img alt="" src=images/TechDraw_CosmeticVertex_Sample.png  style="width:300px;"> 
+<img alt="" src=images/TechDraw_CosmeticVertex_Sample.png  style="width   *300px;"> 
 *Cosmetic Vertex used to create an otherwise impossible Dimension*
 
 ## Применение
@@ -26,7 +26,7 @@ The Cosmetic Vertex tool adds a [Vertex](Glossary#V.md), which is not part of th
 
 To delete a Cosmetic Vertex, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
 
-**Note:** You cannot change the location of the Cosmetic Vertex after it has been created. At the moment there is no other way than to delete it and creating a new one.
+**Note   *** You cannot change the location of the Cosmetic Vertex after it has been created. At the moment there is no other way than to delete it and creating a new one.
 
 ## Свойства
 
@@ -35,7 +35,7 @@ Cosmetic Vertices have no properties of their own, as they are no document objec
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

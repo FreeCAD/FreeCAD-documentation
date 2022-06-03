@@ -1,6 +1,8 @@
 # Category:Drawing/ro
 This category lists pages related to the [Drawing Workbench/ro](Drawing_Workbench/ro.md).
 
+[Category   *Obsolete Workbenches/ro](Category   *Obsolete_Workbenches/ro.md)
+
 ### Contents
 
 |     |     |     |

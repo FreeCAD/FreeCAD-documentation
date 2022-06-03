@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Draft AddConstruction
-   Name/ru:Draft AddConstruction
-   MenuLocation:Draft → Utilities → Add to construction group
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[[Draft ToggleConstructionMode]], [[Draft AddToGroup]]
-   Version:0.17
+- GuiCommand   */ru
+   Name   *Draft AddConstruction
+   Name/ru   *Draft AddConstruction
+   MenuLocation   *Draft → Utilities → Add to construction group
+   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso   *[[Draft ToggleConstructionMode]], [[Draft AddToGroup]]
+   Version   *0.17
 ---
 
 # Draft AddConstruction/ru
@@ -25,7 +25,7 @@
 
 ## Bug in version 0.19 
 
-In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
+In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
 
 
 <div class="mw-translate-fuzzy">

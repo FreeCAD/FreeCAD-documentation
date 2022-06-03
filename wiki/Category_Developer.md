@@ -1,6 +1,8 @@
 # Category:Developer
 This category contains articles that are relevant for developers.
 
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Categories](Category_Categories.md)
+
 ### Contents
 
 |     |     |     |

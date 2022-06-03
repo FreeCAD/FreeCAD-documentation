@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic:Robot Workbench
-   Level:Intermediate
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */ro
+   Topic   *Robot Workbench
+   Level   *Intermediate
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # VRML Preparation for Robot Simulation/ro
@@ -36,14 +36,14 @@ Acest tutorial explică modul de utilizare a FreeCAD și a Atelierului de simula
 
 ## Deschideți un fișier sau creați unul cu FreeCAD 
 
-Tutorialul se bazează pe fișierul STEP al unui Stäubli TX40 (TX40-HB.stp). Puteți descărca fișierul de la [Stäubli](https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html). Cu toate acestea, deși încă nu trebuie se verifică acest lucru, metoda ar trebui să se aplice și unui model freeCAD complet realizat. După deschiderea fișierului, trebuie să obțineți acest lucru:
+Tutorialul se bazează pe fișierul STEP al unui Stäubli TX40 (TX40-HB.stp). Puteți descărca fișierul de la [Stäubli](https   *//secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html). Cu toate acestea, deși încă nu trebuie se verifică acest lucru, metoda ar trebui să se aplice și unui model freeCAD complet realizat. După deschiderea fișierului, trebuie să obțineți acest lucru   *
 
-<img alt="" src=images/staeubli_step_import.png  style="width:1024px;">
+<img alt="" src=images/staeubli_step_import.png  style="width   *1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Observați că importăm, robotul este alcătuit din 8 forme, direct pe rădăcina arborelui de documente. Structura fișierului vrml exportat se poate schimba dacă se utilizează grupuri. Formele sunt comandate de la bază la instrument. Ultima formă conține axele de rotație ale tuturor axelor robotului. Corelația dintre numele formei - numele piesei este dat de (din martie 2011) FreeCAD nu importă numele incluse în fișierele STEP:
+Observați că importăm, robotul este alcătuit din 8 forme, direct pe rădăcina arborelui de documente. Structura fișierului vrml exportat se poate schimba dacă se utilizează grupuri. Formele sunt comandate de la bază la instrument. Ultima formă conține axele de rotație ale tuturor axelor robotului. Corelația dintre numele formei - numele piesei este dat de (din martie 2011) FreeCAD nu importă numele incluse în fișierele STEP   *
 
 
 </div>
@@ -69,7 +69,7 @@ Pentru acest import, schimbați \"Display Mode\" pentru fiecare formă, exceptâ
 
 ## Măsurați caracteristicile geometrice 
 
-În vederea construirii tabelului Denavit-Hartenberg (see [Robot 6-Axis](Robot_6-Axis.md)) și pregătiți fișierul vrml, trebuie să obțineți caracteristicile robotului. Deocamdată, instrumentul de măsurare FreeCAD nu este gata, puteți utiliza axele incluse în TX40\_HB007 (coordonatele sunt indicate în partea stângă jos atunci când indicați un obiect cu mouse-ul) sau trebuie să utilizați consola Python pentru a obține unele informații despre geometrie. Rețineți că tabelul DH este necesar numai dacă trebuie să utilizați cinematica inversă, adică să obțineți coordonatele carteziene sau să dirijați robotul cu coordonate carteziene. Tabelul DH-table pentru acest robot este următorul (mm, deg and deg/s):
+În vederea construirii tabelului Denavit-Hartenberg (see [Robot 6-Axis](Robot_6-Axis.md)) și pregătiți fișierul vrml, trebuie să obțineți caracteristicile robotului. Deocamdată, instrumentul de măsurare FreeCAD nu este gata, puteți utiliza axele incluse în TX40\_HB007 (coordonatele sunt indicate în partea stângă jos atunci când indicați un obiect cu mouse-ul) sau trebuie să utilizați consola Python pentru a obține unele informații despre geometrie. Rețineți că tabelul DH este necesar numai dacă trebuie să utilizați cinematica inversă, adică să obțineți coordonatele carteziene sau să dirijați robotul cu coordonate carteziene. Tabelul DH-table pentru acest robot este următorul (mm, deg and deg/s)   *
 
   i   d     θ         r     α     θmin   θmax    Axis velocity
   ---       
@@ -80,7 +80,7 @@ Pentru acest import, schimbați \"Display Mode\" pentru fiecare formă, exceptâ
   5   0     q5        0     90    -120   133.5   1135
   6   65    q6        0     0     -270   270     1575
 
-Atunci fișierul csv file este :
+Atunci fișierul csv file este    *
 
 a  , alpha, d  , theta, rotDir, maxAngle, minAngle, AxisVelocity
 0  ,   -90, 320,     0,      1,      180,     -180, 555
@@ -95,7 +95,7 @@ a  , alpha, d  , theta, rotDir, maxAngle, minAngle, AxisVelocity
 
 ## Export la vrml 
 
-Exportați documentul într-un fișier vrml. Structura fișierului vrml este următoarea:
+Exportați documentul într-un fișier vrml. Structura fișierului vrml este următoarea   *
 
 
 </div>
@@ -150,7 +150,7 @@ Puteți observa că avem 8 grupuri independente care corespund celor 8 forme.
 
 ## Pregătirea fișierului vrml 
 
-Toate formele din fișierul vrml sunt exprimate în cadrul de bază, independente una de celălaltă. Pentru Atelierul Robot Simulation Workbench, trebuie să creăm o structură în care o mișcare a unei forme induce o mișcare a tuturor formelor situate ulterior în structură. Plasarea formelor va fi relativă la forma precedentă, așa că trebuie să includem câteva translații din sistemul de referință absolut la cel relativ. Translațiile descrise în următoarea imagine:
+Toate formele din fișierul vrml sunt exprimate în cadrul de bază, independente una de celălaltă. Pentru Atelierul Robot Simulation Workbench, trebuie să creăm o structură în care o mișcare a unei forme induce o mișcare a tuturor formelor situate ulterior în structură. Plasarea formelor va fi relativă la forma precedentă, așa că trebuie să includem câteva translații din sistemul de referință absolut la cel relativ. Translațiile descrise în următoarea imagine   *
 
 
 </div>
@@ -159,12 +159,12 @@ Toate formele din fișierul vrml sunt exprimate în cadrul de bază, independent
 
 With
 
-:   A=(0, 0, 168)
-:   B=(0, 107.8, 320)
-:   C=(0, 104.15, 545)
-:   D=(0, 35, 601)
-:   E=(0, 35, 770)
-:   F=(0, 35, 835).
+   *   A=(0, 0, 168)
+   *   B=(0, 107.8, 320)
+   *   C=(0, 104.15, 545)
+   *   D=(0, 35, 601)
+   *   E=(0, 35, 770)
+   *   F=(0, 35, 835).
 
 Să luăm un exemplu în 4 axe întere ELBOW și FOREARM, situat la D=(xd, yd, zd). Ancora pentru axa FreeCAD este 
 
@@ -175,7 +175,7 @@ Să luăm un exemplu în 4 axe întere ELBOW și FOREARM, situat la D=(xd, yd, z
 
 <div class="mw-translate-fuzzy">
 
-Aceasta corespunde unei rotații în jurul axei y. În modelul CAD, rotația este în jurul axei z. Astfel, avem nevoie de o rotație în jurul axei x a  \\ pi \</ math\> înaintea definiției axei FreeCAD și a  - \\ pi \</ math\> după aceasta. De asemenea, este necesară o translație (-xd, -yd, -zd) chiar înainte ca grupul care corespunde definiției FOREARM să o exprime în cadrul de referință relativ centrat(D) Asata înseamnă că o translație (xd,yd,zd)trebuie să fie introduse înainte de prima rotație. La final, fișierul vrml de la definiția ELBOW la definiția FOREARM arată astfel:
+Aceasta corespunde unei rotații în jurul axei y. În modelul CAD, rotația este în jurul axei z. Astfel, avem nevoie de o rotație în jurul axei x a  \\ pi \</ math\> înaintea definiției axei FreeCAD și a  - \\ pi \</ math\> după aceasta. De asemenea, este necesară o translație (-xd, -yd, -zd) chiar înainte ca grupul care corespunde definiției FOREARM să o exprime în cadrul de referință relativ centrat(D) Asata înseamnă că o translație (xd,yd,zd)trebuie să fie introduse înainte de prima rotație. La final, fișierul vrml de la definiția ELBOW la definiția FOREARM arată astfel   *
 
 
 </div>
@@ -207,7 +207,7 @@ Aceasta corespunde unei rotații în jurul axei y. În modelul CAD, rotația est
 
 
 
-La sfârșitul documentului, trebuie introduse parantezele de închidere corespunzătoare: 
+La sfârșitul documentului, trebuie introduse parantezele de închidere corespunzătoare   * 
 
 #VRML V2.0 utf8
   
@@ -343,7 +343,7 @@ Group {
 
 <div class="mw-translate-fuzzy">
 
-Iată un patch pentru a obține fișierul vrml potrivit pentru simularea robotului:
+Iată un patch pentru a obține fișierul vrml potrivit pentru simularea robotului   *
 
 
 </div>
@@ -441,6 +441,12 @@ Iată un patch pentru a obține fișierul vrml potrivit pentru simularea robotul
 >       ]}}}},
 >       ]}}}},
 >       ]
+
+
+
+
+
+[Category   *Robot](Category_Robot.md)
 
 
 

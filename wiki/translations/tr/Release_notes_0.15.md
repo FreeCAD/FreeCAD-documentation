@@ -1,7 +1,7 @@
 # Release notes 0.15/tr
-FreeCAD 0.15 was released on April 8, 2015. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.15 was released on April 8, 2015. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http   *//www.freecadweb.org/tracker/changelog_page.php). Older versions at   * [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 
-<img alt="" src=images/Spark-Plug-Plane.jpg  style="width:1024px;">
+<img alt="" src=images/Spark-Plug-Plane.jpg  style="width   *1024px;">
 
 
 <center>
@@ -27,13 +27,13 @@ The new [units](Quantity.md) system of FreeCAD, introduced in version 0.14, is n
 
 -   Import/Export now has an own section in the Edit \> Preferences section. Now all file formats are grouped into their own tab, which makes it easier for new users to find the right options.
 -   Customized keyboard shortcuts now accept up to 4 keys.
--   FreeCAD now [supports the VR Occulus Rift device](http://forum.freecadweb.org/viewtopic.php?f=9&t=7715).
--   Support of custom global toolbars: Aside from adding custom toolbars with your own tools to any workbench, it is now also possible to add custom toolbars which will stay present on all workbenches.
+-   FreeCAD now [supports the VR Occulus Rift device](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=7715).
+-   Support of custom global toolbars   * Aside from adding custom toolbars with your own tools to any workbench, it is now also possible to add custom toolbars which will stay present on all workbenches.
 -   New Lib Pack for Windows, with the latest OCE 0.17
 
 ## Part Workbench 
 
--   A couple of new geometric elements have been added: Parabola, ArcOfParabola, Hyperbola & ArcOfHyperbola
+-   A couple of new geometric elements have been added   * Parabola, ArcOfParabola, Hyperbola & ArcOfHyperbola
 
 ## Part Design & Sketcher Workbench 
 
@@ -60,13 +60,13 @@ The properties view of sketch objects has also been enhanced, and named Datum co
 ### Minor improvements 
 
 -   Added more regular polygons to sketcher
--   Added new constraint: Symmetry constraint perpendicular to axis of symmetry
+-   Added new constraint   * Symmetry constraint perpendicular to axis of symmetry
 
 ## Spreadsheet Workbench 
 
 The [Spreadsheet Workbench](Spreadsheet_Workbench.md) has been completely recoded. FreeCAD now possesses a state-of-the-art, robust, feature-rich spreadsheet editor. A couple of functionalities found in the previous version of this workbench have been removed, such as the property controllers, but this is a complex issue requiring more time to design properly. At the present time, however, the new spreadsheet already offer far better possibilities to gather data from your model.
 
-<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:640px;">
+<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width   *640px;">
 
 ## Draft Workbench 
 
@@ -91,7 +91,7 @@ The system used to export Drawing pages to DXF until now used a very complicated
 
 ![](images/Drawing-dxf-export.jpg )
 
-In the DXF file, the different views are placed as scaled blocks. This allows quickly restoring the 1:1 scale.
+In the DXF file, the different views are placed as scaled blocks. This allows quickly restoring the 1   *1 scale.
 
 ### Minor improvements 
 
@@ -101,9 +101,9 @@ In the DXF file, the different views are placed as scaled blocks. This allows qu
 
 ### Updated IFC importer/exporter 
 
-FreeCAD\'s [IFC importer](Arch_IFC.md) has received a lot of work and testing, and a massive upgrade. The old, python-based importer, has been disabled (it is still usable from the python console, though), and FreeCAD now uses exclusively and intensively the newest, bleeding-edge [version 5](http://ifcopenshell.org/python.html) ([read more](http://ifcopenshell.org/pythonOCC/example1/) about it) of [IfcOpenShell](http://ifcopenshell.org/) that is now available on all main platforms (be sure to download the version that matches the python version used by your FreeCAD installation). We now benefit from a much faster and reliable import and export, a much simpler and cleaner code (read: easier to extend), and already a few additional goodies, such as better support for curve-based objects and IFC properties.
+FreeCAD\'s [IFC importer](Arch_IFC.md) has received a lot of work and testing, and a massive upgrade. The old, python-based importer, has been disabled (it is still usable from the python console, though), and FreeCAD now uses exclusively and intensively the newest, bleeding-edge [version 5](http   *//ifcopenshell.org/python.html) ([read more](http   *//ifcopenshell.org/pythonOCC/example1/) about it) of [IfcOpenShell](http   *//ifcopenshell.org/) that is now available on all main platforms (be sure to download the version that matches the python version used by your FreeCAD installation). We now benefit from a much faster and reliable import and export, a much simpler and cleaner code (read   * easier to extend), and already a few additional goodies, such as better support for curve-based objects and IFC properties.
 
-### New feature: Cut object with plane 
+### New feature   * Cut object with plane 
 
 This new functionality, [Arch CutPlane](Arch_CutPlane.md), makes it possible to cut an object according to a plane defined by the face of another object. It is possible to cut the object behind or in front of the selected plane.
 
@@ -117,9 +117,9 @@ The [Roof](Arch_Roof.md) tool was completely redone and now makes it possible to
 
 ### Panels
 
-A new [Panel](Arch_Panel.md) object has been added to the [Arch Workbench](Arch_Workbench.md). It allows creation all kinds of panel-like objects, and will be specially useful for panel constructions such as the [wikihouse](http://www.wikihouse.cc/) or [popup house](http://www.popup-house.com/) projects.
+A new [Panel](Arch_Panel.md) object has been added to the [Arch Workbench](Arch_Workbench.md). It allows creation all kinds of panel-like objects, and will be specially useful for panel constructions such as the [wikihouse](http   *//www.wikihouse.cc/) or [popup house](http   *//www.popup-house.com/) projects.
 
-<img alt="" src=images/Arch_Panel_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Panel_example.jpg  style="width   *640px;">
 
 ### Furniture
 
@@ -131,25 +131,27 @@ The new [Arch Equipment](Arch_Equipment.md) object is designed to add all kinds 
 
 ## External modules 
 
-There has also been some very interesting work on new workbenches and macros, that are not integrated into the FreeCAD source code (yet!), but are easy to install on an existing FreeCAD 0.15 installation. Instructions are provided on the pages linked below:
+There has also been some very interesting work on new workbenches and macros, that are not integrated into the FreeCAD source code (yet!), but are easy to install on an existing FreeCAD 0.15 installation. Instructions are provided on the pages linked below   *
 
 ### Assembly2
 
-The [Assembly 2 workbench](https://github.com/hamish2014/FreeCAD_assembly2) provides tools to create multi-part assemblies, and is a very good alternative for the official Assembly workbench which is still under development (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8577)).
+The [Assembly 2 workbench](https   *//github.com/hamish2014/FreeCAD_assembly2) provides tools to create multi-part assemblies, and is a very good alternative for the official Assembly workbench which is still under development (see [forum thread](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=8577)).
 
 ![](images/Assembly2_example.jpg )
 
 ### Drawing Dimensioning 
 
-The [Drawing dimensioning workbench](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) adds powerful dimensioning and annotation tools to the Drawing workbench (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
+The [Drawing dimensioning workbench](https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning) adds powerful dimensioning and annotation tools to the Drawing workbench (see [forum thread](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
 ![](images/Drawing_Dimensioning_example.jpg )
 
 ### Work Features 
 
-The [WorkFeature macro](https://github.com/Rentlau/WorkFeature) adds a wide range of helper objects such as alignment planes or axes, and tools to help you to position and align objects along those helper objects (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=22&t=9056)).
+The [WorkFeature macro](https   *//github.com/Rentlau/WorkFeature) adds a wide range of helper objects such as alignment planes or axes, and tools to help you to position and align objects along those helper objects (see [forum thread](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056)).
 
-<img alt="" src=images/WF.png  style="width:640px;">
+<img alt="" src=images/WF.png  style="width   *640px;">
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

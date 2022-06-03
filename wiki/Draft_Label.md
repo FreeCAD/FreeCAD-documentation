@@ -1,37 +1,37 @@
 ---
-- GuiCommand:
-   Name:Draft Label
-   MenuLocation:Annotation → Label
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**D** **L**
-   Version:0.17
-   SeeAlso:[Draft Text](Draft_Text.md), [Draft ShapeString](Draft_ShapeString.md)
+- GuiCommand   *
+   Name   *Draft Label
+   MenuLocation   *Annotation → Label
+   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut   ***D** **L**
+   Version   *0.17
+   SeeAlso   *[Draft Text](Draft_Text.md), [Draft ShapeString](Draft_ShapeString.md)
 ---
 
 # Draft Label
 
 ## Description
 
-The <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Label** command creates a multi-line text with a 2-segment leader line and an arrow.
+The <img alt="" src=images/Draft_Label.svg  style="width   *24px;"> **Draft Label** command creates a multi-line text with a 2-segment leader line and an arrow.
 
 If an object or a sub-element (face, edge or vertex) is selected when starting the command, the text can be made to display one or two attributes of the selected element, including position, length, area, volume and material. The text will then be linked to the attributes and will update if their values change.
 
 To insert a text element without an arrow use the [Draft Text](Draft_Text.md) command instead.
 
- <img alt="" src=images/Draft_Label_example.jpg  style="width:400px;">  
+ <img alt="" src=images/Draft_Label_example.jpg  style="width   *400px;">  
 *Various labels with different orientations, arrows and information*
 
 ## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Optionally select an object or a sub-element (vertex, edge or face) that you want to display attributes of.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Label.svg" width=16px> [Draft Label](Draft_Label.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Label.svg" width=16px> Label** option from the menu.
-    -   Use the keyboard shortcut: **D** then **L**.
+    -   Use the keyboard shortcut   * **D** then **L**.
 3.  The **Label** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have selected an element: select an option from the **Label type** dropdown list. See [Label types](#Label_types.md) below.
+4.  If you have selected an element   * select an option from the **Label type** dropdown list. See [Label types](#Label_types.md) below.
 5.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the target (arrow head). This can be anywhere, it does not have to be on an element.
 6.  Pick the second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the start of the horizontal or vertical segment of the leader.
 7.  Pick the third point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the base point of the text.
@@ -48,25 +48,25 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Label types 
 
-The following label types are available:
+The following label types are available   *
 
--    {{Value|Custom}}: displays the contents of **Custom Text**.
+-    {{Value|Custom}}   * displays the contents of **Custom Text**.
 
--    {{Value|Name}}: displays the internal name of the target object. The internal name is assigned when an object is created and remains fixed throughout the existence of the object.
+-    {{Value|Name}}   * displays the internal name of the target object. The internal name is assigned when an object is created and remains fixed throughout the existence of the object.
 
--    {{Value|Label}}: displays the label of the target object. The label of an object can be changed by the user.
+-    {{Value|Label}}   * displays the label of the target object. The label of an object can be changed by the user.
 
--    {{Value|Position}}: displays the coordinates of the base point of the target object, of the target vertex, or of the center of mass of the target subelement, if applicable.
+-    {{Value|Position}}   * displays the coordinates of the base point of the target object, of the target vertex, or of the center of mass of the target subelement, if applicable.
 
--    {{Value|Length}}: displays the length of the target object or subelement, if applicable.
+-    {{Value|Length}}   * displays the length of the target object or subelement, if applicable.
 
--    {{Value|Area}}: displays the area of the target object or subelement, if applicable.
+-    {{Value|Area}}   * displays the area of the target object or subelement, if applicable.
 
--    {{Value|Volume}}: displays the volume of the target object, if applicable.
+-    {{Value|Volume}}   * displays the volume of the target object, if applicable.
 
--    {{Value|Tag}}: displays the `Tag` attribute of the target object, if applicable. Objects created with the [Arch Workbench](Arch_Workbench.md) can have this attribute.
+-    {{Value|Tag}}   * displays the `Tag` attribute of the target object, if applicable. Objects created with the [Arch Workbench](Arch_Workbench.md) can have this attribute.
 
--    {{Value|Material}}: displays the label of the material of the target object, if applicable.
+-    {{Value|Material}}   * displays the label of the material of the target object, if applicable.
 
 -    {{Value|Label + Position}}
     
@@ -89,88 +89,88 @@ The following label types are available:
 
 ## Properties
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
+A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated   *
 
 ### Data
 
 
 {{TitleProperty|Label}}
 
--    **Custom Text|StringList**: specifies the contents of the text if **Label Type** is {{Value|Custom}}. Each item in the list represents a new text line.
+-    **Custom Text|StringList**   * specifies the contents of the text if **Label Type** is {{Value|Custom}}. Each item in the list represents a new text line.
 
--    **Label Type|Enumeration**: specifies the type of information displayed by the label. See [Label types](#Label_types.md).
+-    **Label Type|Enumeration**   * specifies the type of information displayed by the label. See [Label types](#Label_types.md).
 
--    **Placement|Placement**: specifies the position of the text in the [3D view](3D_view.md) and, unless **Straight Direction** is {{Value|Custom}}, also of the first leader segment, which is the segment where the text is attached. See [Placement](Placement.md).
+-    **Placement|Placement**   * specifies the position of the text in the [3D view](3D_view.md) and, unless **Straight Direction** is {{Value|Custom}}, also of the first leader segment, which is the segment where the text is attached. See [Placement](Placement.md).
 
--    **Text|StringList**: (read-only) specifies the contents of the text that is actually displayed. Each item in the list represents a new text line.
+-    **Text|StringList**   * (read-only) specifies the contents of the text that is actually displayed. Each item in the list represents a new text line.
 
 
 {{TitleProperty|Leader}}
 
--    **Points|VectorList**: specifies the points of the leader.
+-    **Points|VectorList**   * specifies the points of the leader.
 
--    **Straight Direction|Enumeration**: specifies the direction of the first leader segment: {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
+-    **Straight Direction|Enumeration**   * specifies the direction of the first leader segment   * {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
 
--    **Straight Distance|Distance**: specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
+-    **Straight Distance|Distance**   * specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
 
 
 {{TitleProperty|Target}}
 
--    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
+-    **Target|LinkSub**   * specifies the object and optional subelement the label is linked to.
 
--    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
+-    **Target Point|Vector**   * specifies the position of the tip of the leader, which is where the arrow is attached.
 
 ### View
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**   * specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the label.
+-    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the label.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the tip of the leader.
+-    **Arrow Size|Length**   * specifies the size of the symbol displayed at the tip of the leader.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the tip of the leader, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**   * specifies the type of symbol displayed at the tip of the leader, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
 
--    **Frame|Enumeration**: specifies what type of frame is drawn around the text. The current options are {{Value|None}} or {{Value|Rectangle}}.
+-    **Frame|Enumeration**   * specifies what type of frame is drawn around the text. The current options are {{Value|None}} or {{Value|Rectangle}}.
 
--    **Line|Bool**: specifies whether to display the leader line. If it is `False` only the arrow and the text are displayed.
+-    **Line|Bool**   * specifies whether to display the leader line. If it is `False` only the arrow and the text are displayed.
 
--    **Line Color|Color**: specifies the color of the leader and the arrow. This is also used for the frame (<small>(v0.20)</small> ).
+-    **Line Color|Color**   * specifies the color of the leader and the arrow. This is also used for the frame (<small>(v0.20)</small> ).
 
--    **Line Width|Float**: specifies the width of the leader. This is also used for the frame (<small>(v0.20)</small> ).
+-    **Line Width|Float**   * specifies the width of the leader. This is also used for the frame (<small>(v0.20)</small> ).
 
 
 {{TitleProperty|Text}}
 
--    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
+-    **Justification|Enumeration**   * specifies the horizontal alignment of the text   * {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
 
--    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
+-    **Line Spacing|Float**   * specifies the factor applied to the default line height of the text.
 
--    **Max Chars|Integer**: specifies the maximum number of characters on each line of the text.
+-    **Max Chars|Integer**   * specifies the maximum number of characters on each line of the text.
 
--    **Text Alignment|Enumeration**: specifies the vertical alignment of the text: {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
+-    **Text Alignment|Enumeration**   * specifies the vertical alignment of the text   * {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
 
--    **Text Color|Color**: specifies the color of the text.
+-    **Text Color|Color**   * specifies the color of the text.
 
--    **Text Font|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Text Font|Font**   * specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial   *Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Font Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
 ## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a Draft Label use the `make_label` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeLabel` method.
 
@@ -184,7 +184,7 @@ label = make_label(target_point=App.Vector(0, 0, 0),
                    points=None)
 ```
 
-Example:
+Example   *
 
  
 ```python

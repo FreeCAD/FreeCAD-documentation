@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:OpenSCAD ReplaceObject‏‎ 
-   Name/ru:OpenSCAD ReplaceObject‏‎ 
-   MenuLocation:OpenSCAD → Заменить объект
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   Shortcut:нет
-   SeeAlso:---
+- GuiCommand   */ru
+   Name   *OpenSCAD ReplaceObject‏‎ 
+   Name/ru   *OpenSCAD ReplaceObject‏‎ 
+   MenuLocation   *OpenSCAD → Заменить объект
+   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/ru.md)
+   Shortcut   *нет
+   SeeAlso   *---
 ---
 
 # OpenSCAD ReplaceObject/ru
@@ -26,7 +26,7 @@
 ## Usage
 
 1.  Multi-select in correct order old, new and parent object in the [tree view](Tree_view.md).
-2.  Click on <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> or choose ** OpenSCAD** → **<img src="images/OpenSCAD_ReplaceObject.svg" width=32px> Replace Object** from the top menu.
+2.  Click on <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width   *32px;"> or choose ** OpenSCAD** → **<img src="images/OpenSCAD_ReplaceObject.svg" width=32px> Replace Object** from the top menu.
 
 ## Limitations
 

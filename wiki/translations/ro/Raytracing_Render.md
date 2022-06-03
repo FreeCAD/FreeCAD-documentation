@@ -1,6 +1,6 @@
 # Raytracing Render/ro
 ---
-- GuiCommand:   Name:Raytracing Render   MenuLocation:Raytracing → Render‏‎   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand   *   Name   *Raytracing Render   MenuLocation   *Raytracing → Render‏‎   |Workbenches   *[[Raytracing_Workbench   Raytracing]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -25,7 +25,7 @@ Randează proiectul selectat folosind un renderer extern.
 ## Utilizare
 
 1.  Selectați proiectul raytracing în vizualizarea arborescentă.
-2.  Click pe <img alt="" src=images/Raytracing_Render.png  style="width:32px;"> sau alegeți ** Raytracing** → **<img src="images/Raytracing_Render.png" width=32px> Render** din meniul principal.
+2.  Click pe <img alt="" src=images/Raytracing_Render.png  style="width   *32px;"> sau alegeți ** Raytracing** → **<img src="images/Raytracing_Render.png" width=32px> Render** din meniul principal.
 
 
 </div>

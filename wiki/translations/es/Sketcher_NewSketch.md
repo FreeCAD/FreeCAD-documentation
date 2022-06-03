@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Sketcher NewSketch
-   Name/es:Croquizador Nuevo croquis
-   MenuLocation:Croquis → Crear croquis
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   SeeAlso:[DiseñoPieza Nuevo croquis](PartDesign_NewSketch/es.md), [Croquizador MapearCroquis](Sketcher_MapSketch/es.md), [Croquizador Reorientar](Sketcher_ReorientSketch/es.md)
+- GuiCommand   */es
+   Name   *Sketcher NewSketch
+   Name/es   *Croquizador Nuevo croquis
+   MenuLocation   *Croquis → Crear croquis
+   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
+   SeeAlso   *[DiseñoPieza Nuevo croquis](PartDesign_NewSketch/es.md), [Croquizador MapearCroquis](Sketcher_MapSketch/es.md), [Croquizador Reorientar](Sketcher_ReorientSketch/es.md)
 ---
 
 # Sketcher NewSketch/es
@@ -13,7 +13,7 @@
 
 Esto creará un nuevo [Croquis](Sketcher_Workbench/es.md).
 
-Tenga en cuenta que la <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md) tiene su propia herramienta [nuevo croquis](PartDesign_NewSketch/es.md), cuando se trabaja en un [Cuerpo DiseñoPiezas](PartDesign_Body/es.md) es preferible utilizar esa herramienta.
+Tenga en cuenta que la <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md) tiene su propia herramienta [nuevo croquis](PartDesign_NewSketch/es.md), cuando se trabaja en un [Cuerpo DiseñoPiezas](PartDesign_Body/es.md) es preferible utilizar esa herramienta.
 
 ## Utilización
 

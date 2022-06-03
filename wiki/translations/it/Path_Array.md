@@ -1,6 +1,6 @@
 # Path Array/it
 ---
-- GuiCommand:/it   Name:Path Array   Name/it:Schiera   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Modifica percorso → Schiera   Shortcut:   SeeAlso:---
+- GuiCommand   */it   Name   *Path Array   Name/it   *Schiera   Workbenches   *[[Path Workbench/it   Path]]|MenuLocation   *Path → Modifica percorso → Schiera   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -29,11 +29,11 @@ Questo strumento crea un nuovo percorso duplicando più volte un altro percorso 
 
 <div class="mw-translate-fuzzy">
 
--    **Type**: Il tipo di schiera (polare, lineare, in una o due direzioni)
+-    **Type**   * Il tipo di schiera (polare, lineare, in una o due direzioni)
 
--    **Offset**: La spaziatura tra le copie della schiera per ogni direzione
+-    **Offset**   * La spaziatura tra le copie della schiera per ogni direzione
 
--    **Copies**: Il numero di copie per ogni direzione
+-    **Copies**   * Il numero di copie per ogni direzione
 
 
 </div>
@@ -45,11 +45,11 @@ This feature only works on actual path operations, not on derivative paths produ
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example:
+Example   *
 
 
 ```python

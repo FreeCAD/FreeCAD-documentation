@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Path Fixture
-   Name/it:Fissaggio
-   Workbenches:[Path](Path_Workbench/it.md)
-   MenuLocation:Path → Comandi parziali → Fissaggio
-   Shortcut:**P** **F**
-   SeeAlso:
+- GuiCommand   */it
+   Name   *Path Fixture
+   Name/it   *Fissaggio
+   Workbenches   *[Path](Path_Workbench/it.md)
+   MenuLocation   *Path → Comandi parziali → Fissaggio
+   Shortcut   ***P** **F**
+   SeeAlso   *
 ---
 
 # Path Fixture/it
@@ -20,7 +20,7 @@ Questo strumento imposta il dispositivo di coordinate dell\'offset del lavoro de
 
 <div class="mw-translate-fuzzy">
 
-Target Work Offset Coordinates typically include: Fixtures G53 to G59. The G-Code is simply the Fixture (G53, G54, etc\...). The coordinate offset fixtures represent:
+Target Work Offset Coordinates typically include   * Fixtures G53 to G59. The G-Code is simply the Fixture (G53, G54, etc\...). The coordinate offset fixtures represent   *
 
 -   G53 -\> Machine coordinate system.
 -   G54 -\> Scratchpad coordinate system.
@@ -51,9 +51,9 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 ## Proprietà
 
--    **Fixture**: Imposta il punto di fissaggio corrente
+-    **Fixture**   * Imposta il punto di fissaggio corrente
 
--    **Active**: Definisce se questo comando è attivo o meno quando viene inserito in un composto
+-    **Active**   * Definisce se questo comando è attivo o meno quando viene inserito in un composto
 
 ## Notes
 

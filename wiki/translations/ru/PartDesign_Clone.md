@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Создать клон
-   Name:PartDesign_Clone
-   MenuLocation:Part Design → Создать клон
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Клонировать](Draft_Clone/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Создать клон
+   Name   *PartDesign_Clone
+   MenuLocation   *Part Design → Создать клон
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   Version   *0.17
+   SeeAlso   *[Клонировать](Draft_Clone/ru.md)
 ---
 
 # PartDesign Clone/ru
@@ -20,15 +20,15 @@
 ## Применение
 
 1.  In the Model tree, select the object to be cloned.
-2.  Press the **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Create a clone'''** button.
+2.  Press the **[<img src=images/PartDesign_Clone.svg style="width   *24px"> '''Create a clone'''** button.
 
 ## Свойства
 
--    **Base Feature**: sets the original object the clone is based on. To replace, press the **...** button to get a list of available objects.
+-    **Base Feature**   * sets the original object the clone is based on. To replace, press the **...** button to get a list of available objects.
 
--    **Placement**: defines the orientation and position of the Clone in the 3D space. See [Placement](Placement.md).
+-    **Placement**   * defines the orientation and position of the Clone in the 3D space. See [Placement](Placement.md).
 
--    **Label**: label given to the Clone object. Change to suit your needs.
+-    **Label**   * label given to the Clone object. Change to suit your needs.
 
 ## Ограничения
 

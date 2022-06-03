@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Mesh RemoveCompByHand
-   MenuLocation:Meshes → Remove components by hand...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh RemoveComponents](Mesh_RemoveComponents.md), [Arch SplitMesh](Arch_SplitMesh.md)
+- GuiCommand   *
+   Name   *Mesh RemoveCompByHand
+   MenuLocation   *Meshes → Remove components by hand...
+   Workbenches   *[Mesh](Mesh_Workbench.md)
+   SeeAlso   *[Mesh RemoveComponents](Mesh_RemoveComponents.md), [Arch SplitMesh](Arch_SplitMesh.md)
 ---
 
 # Mesh RemoveCompByHand/en
@@ -15,7 +15,7 @@ The **Mesh RemoveCompByHand** command removes components from mesh objects.
 ## Usage
 
 1.  A component refers to a complete group of connected faces. Usually a mesh object contains a single component. But, for example after using the [Mesh Merge](Mesh_Merge.md) command, a mesh object can contain multiple components.
-2.  The command uses the color red to mark selected components. To see them properly:
+2.  The command uses the color red to mark selected components. To see them properly   *
     -   The **Display Mode** of the mesh objects should show faces. If necessary use the [Std DrawStyle](Std_DrawStyle.md) command to override this property.
     -   The **Shape Color** of the mesh objects should not be red.
 3.  Select the **Meshes → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Remove components by hand...** option from the menu.

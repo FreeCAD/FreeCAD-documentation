@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name/it:Sposta
-   Icon:Sketcher_Move.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Strumenti → Sposta
-   Shortcut:**Ctrl** + **M**
-   Version:0.18
-   SeeAlso:[Clona](Sketcher_Clone/it.md), [Copia](Sketcher_Copy/it.md)
+- GuiCommand   */it
+   Name/it   *Sposta
+   Icon   *Sketcher_Move.svg
+   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation   *Sketch → Strumenti → Sposta
+   Shortcut   ***Ctrl** + **M**
+   Version   *0.18
+   SeeAlso   *[Clona](Sketcher_Clone/it.md), [Copia](Sketcher_Copy/it.md)
 ---
 
 # Sketcher Move/it

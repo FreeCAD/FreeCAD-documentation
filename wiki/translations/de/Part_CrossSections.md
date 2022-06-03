@@ -11,9 +11,18 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Dienstprogramm \"Querschnitte\" erstellt einen oder mehrere Querschnitte durch die ausgewählte Form.
 
+
+</div>
+
 ## Kurzanleitung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle eine Form aus.
 2.  Drücke die **[<img src=images/Part_SectionCross.png style="width   *24px"> '''Querschnitte'''** Taste .
@@ -23,6 +32,9 @@ Das Dienstprogramm \"Querschnitte\" erstellt einen oder mehrere Querschnitte dur
     -   Das Anhaken von *Auf beiden Seiten* verteilt die Querschnitte auf jeder Seite der Führungsebenenposition.
     -   Lege die Anzahl fest.
 6.  Drücke **OK**.
+
+
+</div>
 
 
 {{Part Tools navi/de}}

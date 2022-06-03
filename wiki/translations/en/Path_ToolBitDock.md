@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:Path ToolBitDock
-   MenuLocation:Path → ToolBit Dock
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **T**
-   Version:0.19
-   SeeAlso:[Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
+- GuiCommand   *
+   Name   *Path ToolBitDock
+   MenuLocation   *Path → ToolBit Dock
+   Workbenches   *[Path](Path_Workbench.md)
+   Shortcut   ***P** **T**
+   Version   *0.19
+   SeeAlso   *[Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
 ---
 
 # Path ToolBitDock/en
@@ -30,10 +30,10 @@ A manager button at the top right (4) allows the user to launch the library mana
 
 ### Create Tool Controllers 
 
-1.  There are several ways to open the Toolbit Dock:
+1.  There are several ways to open the Toolbit Dock   *
     -   Press the **<img src="images/Path_ToolBitDock.svg" width=16px> [Path ToolBitDock](Path_ToolBitDock.md)** button.
     -   Select the **Path → <img src="images/Path_ToolBitDock.svg" width=16px> ToolBit Dock** option from the menu.
-    -   Use the keyboard shortcut: **P** then **T**.
+    -   Use the keyboard shortcut   * **P** then **T**.
 2.  Use the dock to add tool controllers to a Path Job
     -   Doubleclick on a toolbit node (2) to create a toolcontroller for that toolbit.
     -   select one or more toolbits and press the \'add to Job..\'(3) button

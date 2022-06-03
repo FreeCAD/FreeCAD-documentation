@@ -1,12 +1,12 @@
 # Units/pl
-Oto kilka lektur na temat jednostek:
+Oto kilka lektur na temat jednostek   *
 
--   [Metrologia](http://en.wikipedia.org/wiki/Metrology)
--   [System SI](http://en.wikipedia.org/wiki/International_System_of_Units)
--   [Jednostki brytyjskie](http://en.wikipedia.org/wiki/Imperial_units)
--   [Jednostki pochodne SI](http://en.wikipedia.org/wiki/SI_derived_unit)
--   [jednostki kątowe](http://en.wikipedia.org/wiki/Degree_%28angle%29)
--   [jednostka wdrożona w OCC](https://github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
+-   [Metrologia](http   *//en.wikipedia.org/wiki/Metrology)
+-   [System SI](http   *//en.wikipedia.org/wiki/International_System_of_Units)
+-   [Jednostki brytyjskie](http   *//en.wikipedia.org/wiki/Imperial_units)
+-   [Jednostki pochodne SI](http   *//en.wikipedia.org/wiki/SI_derived_unit)
+-   [jednostki kątowe](http   *//en.wikipedia.org/wiki/Degree_%28angle%29)
+-   [jednostka wdrożona w OCC](https   *//github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
 
 ## Przykłady
 
@@ -57,7 +57,7 @@ b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 
 Pełna lista wszystkich obsługiwanych jednostek znajduje się [na tej stronie](Expressions/pl#Units.md).
 
-## Cel i zasady: propozycja rozszerzenia systemu zarządzania jednostką 
+## Cel i zasady   * propozycja rozszerzenia systemu zarządzania jednostką 
 
 W kolejnych sekcjach zaproponowano system zarządzania jednostkami rozszerzającymi, rozwijający koncepcję **systemu jednostek**, aktywowanego podczas uruchomionej instancji FreeCAD. Zainteresowanie zdefiniowaniem takiego nowego pojęcia polega na łatwiejszej pracy z tyloma typami jednostek **fizycznych**, ile się chce *(nawet tych tworzonych przez użytkowników)*, bez zwiększania złożoności zarządzania jednostkami dla użytkownika, ani dla programistów FreeCAD.
 
@@ -65,7 +65,7 @@ W skrócie, skalowanie jednostek jest precyzyjnie lokalizowane i przeprowadzane 
 
 Osiągnięcie takiej elastyczności jest szczególnie wymagane, gdy zaczyna się zajmować właściwościami materiałów, które mogą mieć bardzo różne jednostki, trudne do zarządzania pojedynczo.
 
-Proponowane rozumowanie umożliwia obsługę jednostek takich jak opisane w [Przewodnik dotyczący stosowania międzynarodowego systemu jednostek *(SI)*](http://physics.nist.gov/cuu/pdf/sp811.pdf) i [Międzynarodowy system jednostek *(SI)*](http://physics.nist.gov/Pubs/SP330/sp330.pdf) obydwóch pochodzących z NIST.
+Proponowane rozumowanie umożliwia obsługę jednostek takich jak opisane w [Przewodnik dotyczący stosowania międzynarodowego systemu jednostek *(SI)*](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) i [Międzynarodowy system jednostek *(SI)*](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf) obydwóch pochodzących z NIST.
 
 W tej propozycji, w sekcji [Burza mózgów](Units/pl#Burza_mózgów.md) po raz pierwszy przypomina się, jakie są możliwe konteksty, dla których wymagane jest zarządzanie jednostkami.
 
@@ -83,7 +83,7 @@ W tej sekcji podkreślone są konteksty stosowania takiego systemu zarządzania 
 
 Zasadniczo podane są 2 przykładowe sytuacje.
 
-### Kontekst 1: otwarcie pliku z danymi 
+### Kontekst 1   * otwarcie pliku z danymi 
 
 Otrzymujesz plik zawierający na przykład model geometryczny lub opisujący materiał o dość wielu właściwościach. Model geometryczny jest określony w metrach lub właściwościach materiału zgodnie z międzynarodowym systemem jednostek miar.
 
@@ -93,7 +93,7 @@ Jesteś ekspertem w modelowaniu FE, i zazwyczaj pracujesz z milimetrami na dług
 
 W tym przypadku, zarządzanie jednostkami jest wymagane do skalowania danych z początkowego systemu jednostek zdefiniowanego w pliku wejściowym do systemu jednostek docelowych zdefiniowanego przez użytkownika.
 
-### Kontekst 2: przełączanie układu jednostek w czasie pracy 
+### Kontekst 2   * przełączanie układu jednostek w czasie pracy 
 
 W tym przypadku, możesz być jednocześnie facetem, który sporządza rysunek, i facetem, który będzie zarządzał modelowaniem FE. Podobnie jak w poprzednim przypadku, systemy jednostkowe dla tych 2 zadań nie są takie same i musisz przełączyć początkowy system jednostek w czasie pracy na swój ulubiony.
 
@@ -105,16 +105,16 @@ W rozdziale [Burza mózgów](Units/pl#Burza_m.C3.B3zg.C3.B3w.md) przedstawiono d
 
 #### Spójność jednostek w całej bieżącej instancji FreeCAD 
 
-Proponowany system oparty jest na podstawowym założeniu: użytkownik pracuje w jednolitym systemie jednostek. Na przykład, oznacza to, że jeśli użytkownik wyraża długość w milimetrach, to koniecznie powierzchnie będą wyrażone w milimetrach kwadratowych, a nie w metrach kwadratowych. To jest **hipoteza pierwsza**.
+Proponowany system oparty jest na podstawowym założeniu   * użytkownik pracuje w jednolitym systemie jednostek. Na przykład, oznacza to, że jeśli użytkownik wyraża długość w milimetrach, to koniecznie powierzchnie będą wyrażone w milimetrach kwadratowych, a nie w metrach kwadratowych. To jest **hipoteza pierwsza**.
 
 #### System jednostek 
 
-Ze względu na \"hipotezę pierwszą\", możliwe i istotne jest zdefiniowanie systemu jednostkowego. System jednostkowy odnosi się do:
+Ze względu na \"hipotezę pierwszą\", możliwe i istotne jest zdefiniowanie systemu jednostkowego. System jednostkowy odnosi się do   *
 
 -   uruchomionej instancji FreeCAD, w której pracujesz
 -   lub może mieć również ogólne zastosowanie do zawartości pliku wejściowego
 
-Według [Przewodnika dotyczącego stosowania międzynarodowego systemu jednostek *(SI)*](http://physics.nist.gov/cuu/pdf/sp811.pdf) z NIST, jest to siedem fizycznych jednostek bazowych. Zdecydowaliśmy się wyrazić układ jednostek w kategoriach tych 7 jednostek bazowych.
+Według [Przewodnika dotyczącego stosowania międzynarodowego systemu jednostek *(SI)*](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) z NIST, jest to siedem fizycznych jednostek bazowych. Zdecydowaliśmy się wyrazić układ jednostek w kategoriach tych 7 jednostek bazowych.
 
 Pracując w instancji FreeCAD, użytkownik musi więc najpierw zdefiniować system jednostek, według którego pracuje, zanim zdecyduje się na przejście na inny system jednostek lub przed zaimportowaniem danych z pliku wejściowego.
 
@@ -133,16 +133,16 @@ Oto kilka przykładów systemów jednostek.
 
 #### Jednostki bazowe i pochodne 
 
-Jednostki pochodne są tworzone przez zestawienie jednostek bazowych. Na przykład, przyspieszenie (m/s) łączy w sobie jednocześnie długość i czas. Ciekawy obraz przedstawiający relacje pomiędzy jednostkami bazowymi i pochodnymi można zobaczyć [tutaj](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) również z NIST.
+Jednostki pochodne są tworzone przez zestawienie jednostek bazowych. Na przykład, przyspieszenie (m/s) łączy w sobie jednocześnie długość i czas. Ciekawy obraz przedstawiający relacje pomiędzy jednostkami bazowymi i pochodnymi można zobaczyć [tutaj](http   *//physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) również z NIST.
 
 Dzięki definicji \"systemu jednostek\", użytkownik może pracować z dowolnym rodzajem jednostek pochodnych, bez konieczności uprzedniego ich przewidywania przez programistów FreeCAD.
 
 #### Symbole jednostek podstawowych i pochodnych 
 
-Zgodnie z [Międzynarodowym Układem Jednostek Miar *(SI)*](http://physics.nist.gov/Pubs/SP330/sp330.pdf), symbole określające jednostki są oficjalnie zatwierdzone. Można z tego wyróżnić dwie konsekwencje.
+Zgodnie z [Międzynarodowym Układem Jednostek Miar *(SI)*](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf), symbole określające jednostki są oficjalnie zatwierdzone. Można z tego wyróżnić dwie konsekwencje.
 
 -   nie jest łatwo programowi komputerowemu pracować z symbolami jednostek, ponieważ niektóre z nich to na przykład greckie litery. Dlatego mogą być one nieco trudne do przetworzenia przez program.
--   choć niektóre jednostki i ich symbole mogą być powszechnie stosowane, mogą nie być oficjalnie zatwierdzone, jak na przykład jednostka \"tona\" (zob. p32 [Międzynarodowy Układ Jednostek Miar *(SI)*](http://physics.nist.gov/Pubs/SP330/sp330.pdf)).
+-   choć niektóre jednostki i ich symbole mogą być powszechnie stosowane, mogą nie być oficjalnie zatwierdzone, jak na przykład jednostka \"tona\" (zob. p32 [Międzynarodowy Układ Jednostek Miar *(SI)*](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf)).
 
 Aby przezwyciężyć te ograniczenia i zachować elastyczność, proponowany system preferuje użycie wielkości jednostkowych zamiast symboli jednostkowych, które mimo to są dostępne ze względów ergonomicznych.
 
@@ -156,7 +156,7 @@ Na wstępie należy podkreślić, że obiekt \" jednostki\" sam w sobie oznacza 
 
 ##### Wymiar
 
-Obowiązkowy ciąg znaków wskazujący „wymiar" urządzenia. „Wymiar" 7 jednostek podstawowych podano poniżej *(według [Przewodnika korzystania z Międzynarodowego Układu Jednostek Miar *(SI)*](http://physics.nist.gov/cuu/pdf/sp811.pdf))*.
+Obowiązkowy ciąg znaków wskazujący „wymiar" urządzenia. „Wymiar" 7 jednostek podstawowych podano poniżej *(według [Przewodnika korzystania z Międzynarodowego Układu Jednostek Miar *(SI)*](http   *//physics.nist.gov/cuu/pdf/sp811.pdf))*.
 
 -   DŁUGOŚĆ
 -   MASA
@@ -170,20 +170,20 @@ Atrybut *Wymiar* umożliwia identyfikację jednostki. Dwie jednostki nie mogą m
 
 ##### Oznaczenie
 
-Obowiązkowa tablica zawierająca liczbę całkowitą o wymiarze 7 (liczba jednostek bazowych), która określa, co to za jednostka. Oznaczeniem tych 7 jednostek bazowych jest:
+Obowiązkowa tablica zawierająca liczbę całkowitą o wymiarze 7 (liczba jednostek bazowych), która określa, co to za jednostka. Oznaczeniem tych 7 jednostek bazowych jest   *
 
--   DŁUGOŚĆ: \[1,0,0,0,0,0,0\]
--   MASA: \[0,1,0,0,0,0,0\]
--   CZAS: \[0,0,1,0,0,0,0\]
--   PRĄD ELEKTRYCZNY: \[0,0,0,1,0,0,0\]
--   TEMPERATURA TERMODYNAMICZNA: \[0,0,0,0,1,0,0\]
--   ILOŚĆ SUBSTANCJI: \[0,0,0,0,0,1,0\]
--   NATĘŻENIE ŚWIATŁA: \[0,0,0,0,0,0,1\]
+-   DŁUGOŚĆ   * \[1,0,0,0,0,0,0\]
+-   MASA   * \[0,1,0,0,0,0,0\]
+-   CZAS   * \[0,0,1,0,0,0,0\]
+-   PRĄD ELEKTRYCZNY   * \[0,0,0,1,0,0,0\]
+-   TEMPERATURA TERMODYNAMICZNA   * \[0,0,0,0,1,0,0\]
+-   ILOŚĆ SUBSTANCJI   * \[0,0,0,0,0,1,0\]
+-   NATĘŻENIE ŚWIATŁA   * \[0,0,0,0,0,0,1\]
 
-Z tych 7 jednostek jesteśmy w stanie wyrazić wszystkie jednostki pochodne zdefiniowane w [Przewodnik dotyczący stosowania międzynarodowego systemu jednostek *(SI)*](http://physics.nist.gov/cuu/pdf/sp811.pdf) i w razie potrzeby stworzyć nowe, takie jak np:
+Z tych 7 jednostek jesteśmy w stanie wyrazić wszystkie jednostki pochodne zdefiniowane w [Przewodnik dotyczący stosowania międzynarodowego systemu jednostek *(SI)*](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) i w razie potrzeby stworzyć nowe, takie jak np   *
 
--   GĘSTOŚĆ MASY: \[-3,1,0,0,0,0,0\]
--   OBSZAR: \[0,2,0,0,0,0,0\]
+-   GĘSTOŚĆ MASY   * \[-3,1,0,0,0,0,0\]
+-   OBSZAR   * \[0,2,0,0,0,0,0\]
 
 *Oznaczenie* jest atrybutem, dzięki któremu można osiągnąć skalowanie jednostkowe w sposób ogólny.
 
@@ -193,7 +193,7 @@ Tablica **\[real, string\]** (oznaczająca *\[wielkość, symbol\])*, która wym
 
 Tablica ta może być rozszerzana w miarę potrzeb.
 
-Na przykład wykaz *symboli* jednostki DŁUGOŚĆ i związanych z nimi *wielkości* stanowi:
+Na przykład wykaz *symboli* jednostki DŁUGOŚĆ i związanych z nimi *wielkości* stanowi   *
 
 [1e+12,"Tm"],[1e+09,"Gm"],[1e+06,"Mm"],
 [1e+03,"km"],[1e+02,"hm"],[1e+01,"dam"],
@@ -201,7 +201,7 @@ Na przykład wykaz *symboli* jednostki DŁUGOŚĆ i związanych z nimi *wielkoś
 [1e-03,"mm"],[1e-06,"µm"],[1e-09,"nm"],
 [1e-12,"pm"],[1e-15,"fm"]
 
-Standardowe *symbole* można znaleźć na stronie internetowej [NIST](http://physics.nist.gov/cuu/Units/units.html) oraz na str. 23-26 i str. 32 (\"tona metryczna\" lub \"tona\") z [Międzynarodowy Układ Jednostek Miar *(SI)*](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
+Standardowe *symbole* można znaleźć na stronie internetowej [NIST](http   *//physics.nist.gov/cuu/Units/units.html) oraz na str. 23-26 i str. 32 (\"tona metryczna\" lub \"tona\") z [Międzynarodowy Układ Jednostek Miar *(SI)*](http   *//physics.nist.gov/Pubs/SP330/sp330.pdf).
 
 #### Słownik jednostek 
 
@@ -235,7 +235,7 @@ Przedstawiono tylko logikę niektórych metod, aby podkreślić niektóre cechy.
 
 Słownikiem jednostek może być plik XML *(plik konfiguracyjny FreeCAD)*. Zawiera on listę zdefiniowanych jednostek. Taki słownik jest niezbędny do działania proponowanego systemu zarządzania jednostkami.
 
-Musi on spełniać pewne warunki, które należy sprawdzić przed uruchomieniem systemu zarządzania jednostkami. Warunki te są następujące:
+Musi on spełniać pewne warunki, które należy sprawdzić przed uruchomieniem systemu zarządzania jednostkami. Warunki te są następujące   *
 
 -   sprawdź, czy wszystkie jednostki bazowe są zdefiniowane,
 -   sprawdzić, czy *wymiar* nie jest zdefiniowany dwukrotnie poprzez jednostki,
@@ -245,7 +245,7 @@ Musi on spełniać pewne warunki, które należy sprawdzić przed uruchomieniem 
 
 ###### isCompatibleWithThisSignature
 
-Słownik jednostek definiuje zbiór jednostek i ich znanych wielkości. Podczas zarządzania jednostką należy sprawdzić, czy jej oznaczenie jest zgodne z zestawem jednostek zarejestrowanych w słowniku jednostek, aby móc go przetwarzać. Sprawdzenie to obejmuje:
+Słownik jednostek definiuje zbiór jednostek i ich znanych wielkości. Podczas zarządzania jednostką należy sprawdzić, czy jej oznaczenie jest zgodne z zestawem jednostek zarejestrowanych w słowniku jednostek, aby móc go przetwarzać. Sprawdzenie to obejmuje   *
 
 -   sprawdzenie, czy długość danych wejściowych oznaczenia jest takiej samej wielkości jak jednostka w słowniku oznaczenia.
 
@@ -263,7 +263,7 @@ Znając wartość początkową, jej jednostkę *(po symbolu)* oraz docelowy syst
 
 Znając wartość początkową, jej system jednostek oraz docelową jednostkę *(po symbolu)*, przeskaluj wartość.
 
-#### Motywacje do takiego zarządzania: przykład zastosowania 
+#### Motywacje do takiego zarządzania   * przykład zastosowania 
 
 Załóżmy, że będziemy ustawiać model elementów skończonych. Aby zbudować nasz model, potrzebujemy siatki, właściwości materiału oraz zdefiniować parametry numeryczne. Biorąc pod uwagę, że mogą to być dziesiątki właściwości materiałowych do zarządzania, wyrażonych różnymi jednostkami, czasami nie zawsze bardzo powszechnymi, interesujące jest dla użytkownika jedynie określenie globalnego systemu jednostek, bez zbytniego przejmowania się nimi.
 

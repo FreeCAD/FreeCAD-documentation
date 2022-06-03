@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Tutoriel de base de l'atelier Plot
-   Level:Débutant
-   Time:
-   Author:
-   FCVersion:0.19
-   Files:
+- TutorialInfo   */fr
+   Topic   *Tutoriel de base de l'atelier Plot
+   Level   *Débutant
+   Time   *
+   Author   *
+   FCVersion   *0.19
+   Files   *
 ---
 
 # Plot Basic tutorial/fr
@@ -16,17 +16,17 @@
 
 Dans ce tutoriel, nous allons apprendre à créer un tracé de base à l\'aide de l\'[atelier Plot](Plot_Workbench/fr.md) et de la [console Python](Python_console/fr.md).
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;"> 
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;"> 
 *Exemple de tracé de base*
 
-Dans l\'image, vous pouvez voir le résultat que nous obtiendrons approximativement. En suivant ce tutoriel, vous apprendrez :
+Dans l\'image, vous pouvez voir le résultat que nous obtiendrons approximativement. En suivant ce tutoriel, vous apprendrez    *
 
 -   Comment créer un Plot à partir de la [console Python](Python_console/fr.md).
 -   Comment tracer des données à partir de la [console Python](Python_console/fr.md).
--   Comment afficher la <img alt="" src=images/Plot_Grid.svg  style="width:24px;"> [Plot Grille](Plot_Grid/fr.md).
--   Comment afficher la <img alt="" src=images/Plot_Legend.svg  style="width:24px;"> [Plot Légende](Plot_Legend/fr.md).
--   Comment éditer les <img alt="" src=images/Plot_Series.svg  style="width:24px;"> [Plot Séries](Plot_Series/fr.md) en introduisant le texte dans [LaTeX](http://www.latex-project.org).
--   Comment éditer les <img alt="" src=images/Plot_Labels.svg  style="width:24px;"> [Plot Etiquettes](Plot_Labels/fr.md) en introduisant le texte dans [LaTeX](http://www.latex-project.org).
+-   Comment afficher la <img alt="" src=images/Plot_Grid.svg  style="width   *24px;"> [Plot Grille](Plot_Grid/fr.md).
+-   Comment afficher la <img alt="" src=images/Plot_Legend.svg  style="width   *24px;"> [Plot Légende](Plot_Legend/fr.md).
+-   Comment éditer les <img alt="" src=images/Plot_Series.svg  style="width   *24px;"> [Plot Séries](Plot_Series/fr.md) en introduisant le texte dans [LaTeX](http   *//www.latex-project.org).
+-   Comment éditer les <img alt="" src=images/Plot_Labels.svg  style="width   *24px;"> [Plot Etiquettes](Plot_Labels/fr.md) en introduisant le texte dans [LaTeX](http   *//www.latex-project.org).
 -   Comment éditer les styles des séries.
 -   Comment sauvegarder votre tracé.
 
@@ -36,28 +36,28 @@ Pour tracer les données, vous n\'avez pas besoin de créer un nouveau document 
 
 ### Création d\'un document Plot 
 
-Les tracés sont des documents spéciaux qui peuvent être créés manuellement afin d\'ajouter des données ultérieurement ou l\'atelier peut en créer un automatiquement lorsque vous commencez à tracer des données. La création de votre propre document de tracé présente deux avantages :
+Les tracés sont des documents spéciaux qui peuvent être créés manuellement afin d\'ajouter des données ultérieurement ou l\'atelier peut en créer un automatiquement lorsque vous commencez à tracer des données. La création de votre propre document de tracé présente deux avantages    *
 
 -   Vous pouvez définir le libellé de la fenêtre du document.
 -   Vous pouvez contrôler le document dans lequel vous tracer vos données.
 
-Pour créer un nouveau document de tracé, il suffit de lancer les commandes suivantes :
+Pour créer un nouveau document de tracé, il suffit de lancer les commandes suivantes    *
 
 
 ```python
-try:
+try   *
     from FreeCAD.Plot import Plot
-except ImportError:
+except ImportError   *
     from freecad.plot import Plot
 
 Plot.figure("TrigonometricTest")
 ```
 
-Dans FreeCAD version 0.19 il est nécessaire d\'installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), alors qu\'à partir de la version 0.20 de FreeCAD, l\'add-on externe n\'est plus nécessaire pour réaliser des tracés. Les commandes ci-dessus vont créer un nouvel onglet dans la [Zone de vue principale](Main_view_area/fr.md) appelé **TrigonometricTest**. Le document nouvellement créé possède déjà un ensemble d\'axes. Chaque document de tracé possède au moins un jeu d\'axes.
+Dans FreeCAD version 0.19 il est nécessaire d\'installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), alors qu\'à partir de la version 0.20 de FreeCAD, l\'add-on externe n\'est plus nécessaire pour réaliser des tracés. Les commandes ci-dessus vont créer un nouvel onglet dans la [Zone de vue principale](Main_view_area/fr.md) appelé **TrigonometricTest**. Le document nouvellement créé possède déjà un ensemble d\'axes. Chaque document de tracé possède au moins un jeu d\'axes.
 
 ### Fonctions de dessin 
 
-Vous pouvez également commencer à travailler à partir d\'ici car, comme nous l\'avons déjà expliqué, la commande plot créera un nouveau document si nécessaire. La chose suivante à faire est de créer les données pour les fonctions sinus et cosinus que nous voulons tracer :
+Vous pouvez également commencer à travailler à partir d\'ici car, comme nous l\'avons déjà expliqué, la commande plot créera un nouveau document si nécessaire. La chose suivante à faire est de créer les données pour les fonctions sinus et cosinus que nous voulons tracer    *
 
 
 ```python
@@ -68,13 +68,13 @@ s = [math.sin(2.0*math.pi*tt) for tt in t]
 c = [math.cos(2.0*math.pi*tt) for tt in t]
 ```
 
-Ceci va créer 3 tableaux de données (avec 101 points) :
+Ceci va créer 3 tableaux de données (avec 101 points)    *
 
 -   **t** = **Temps en secondes**.
 -   **s** = fonction **Sinus**.
 -   **c** = fonction **Cosinus**.
 
-Afin de tracer les deux fonctions, il suffit de lancer les commandes suivantes :
+Afin de tracer les deux fonctions, il suffit de lancer les commandes suivantes    *
 
 
 ```python
@@ -107,14 +107,14 @@ Avec l\'outil [Séries](Plot_Series/fr.md), vous pouvez modifier les paramètres
 ![](images/Plot_Series.svg‎ ) 
 *Icône de l'outil de configuration de la série*
 
-Sélectionnez la série que vous voulez modifier, nous allons commencer par la première. Décochez **No label** et définissez cette étiquette :
+Sélectionnez la série que vous voulez modifier, nous allons commencer par la première. Décochez **No label** et définissez cette étiquette    *
 
 
 ```python
 $y = \sin \left( 2 \pi t \right)$
 ```
 
-Puisque [matplotlib](http://matplotlib.org/) prend en charge [LaTeX](http://www.latex-project.org), vous pouvez définir toutes les étiquettes et tous les titres en utilisant LaTeX. Définissez l\'étiquette suivante pour la deuxième série :
+Puisque [matplotlib](http   *//matplotlib.org/) prend en charge [LaTeX](http   *//www.latex-project.org), vous pouvez définir toutes les étiquettes et tous les titres en utilisant LaTeX. Définissez l\'étiquette suivante pour la deuxième série    *
 
 
 ```python
@@ -132,7 +132,7 @@ Avec l\'outil [Etiquettes](Plot_Labels/fr.md), vous pouvez définir le titre et 
 ![](images/Plot_Labels.svg‎ ) 
 *Icône de l'outil Étiquettes*
 
-Définir ces données :
+Définir ces données    *
 
 -   Title = Trigonometric functions example
 -   X Label = \$t\$
@@ -154,7 +154,9 @@ Définissez la taille de l\'image de sortie en pouces, par exemple, utilisez 11,
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}}
+}} {{Plot_Tools_navi}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

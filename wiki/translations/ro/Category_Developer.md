@@ -1,6 +1,8 @@
 # Category:Developer/ro
 This category contains articles that are relevant for developers.
 
+[Category   *Categories/ro](Category   *Categories/ro.md)
+
 ### Contents
 
 |     |     |     |

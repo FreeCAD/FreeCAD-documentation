@@ -6,12 +6,12 @@
 
 ### Introduktion
 
-Först av allt så måste du importera Nätmodulen:
+Först av allt så måste du importera Nätmodulen   *
 
 
 </div>
 
-To get access to the `Mesh` module you have to import it first:
+To get access to the `Mesh` module you have to import it first   *
 
 
 ```python
@@ -23,12 +23,12 @@ import Mesh
 
 ### Skapande och laddning 
 
-För att skapa ett tomt nätobjekt använd standardkonstruktören:
+För att skapa ett tomt nätobjekt använd standardkonstruktören   *
 
 
 </div>
 
-To create an empty mesh object just use the standard constructor:
+To create an empty mesh object just use the standard constructor   *
 
 
 ```python
@@ -45,10 +45,10 @@ Du kan också skapa ett objekt från en fil
 
 
 ```python
-mesh = Mesh.Mesh("D:/temp/Something.stl")
+mesh = Mesh.Mesh("D   */temp/Something.stl")
 ```
 
-Eller skapa det från ett set av trianglar, beskrivna av dess hörnpunkter:
+Eller skapa det från ett set av trianglar, beskrivna av dess hörnpunkter   *
 
 
 ```python
@@ -83,7 +83,7 @@ För att skapa reguljärageometrier så kan du används Python skriptet BuildReg
 
 </div>
 
-To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows:
+To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows   *
 
 
 ```python
@@ -101,7 +101,7 @@ Nät klassen har ett set med booleska funktioner som kan användas för modeller
 
 </div>
 
-The `Mesh` module also provides three Boolean methods: `union()`, `intersection()` and `difference()`:
+The `Mesh` module also provides three Boolean methods   * `union()`, `intersection()` and `difference()`   *
 
 
 ```python
@@ -134,7 +134,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh::Feature", "Pipe")
+obj = d.addObject("Mesh   *   *Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -147,14 +147,16 @@ doc.recompute()
 
 ### Special
 
-En extensiv, fast svåranvänd, källa för Nätrelaterade skript är Nätmodulens enhetstestskript. I detta enhetstest så kallas samtliga metoder och samtliga egenskaper/attribut ändras. Så om du är tillräckligt modig, ta en titt på [Unit Test module](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
+En extensiv, fast svåranvänd, källa för Nätrelaterade skript är Nätmodulens enhetstestskript. I detta enhetstest så kallas samtliga metoder och samtliga egenskaper/attribut ändras. Så om du är tillräckligt modig, ta en titt på [Unit Test module](http   *//free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
 
 
 </div>
 
-An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-See also: [Mesh API](Mesh_API.md). {{Top}}  {{Mesh Tools navi}}
+See also   * [Mesh API](Mesh_API.md). {{Top}}  {{Mesh Tools navi}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

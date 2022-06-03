@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/ru
-   Name:FEM EquationFluxsolver
-   Name/ru:FEM EquationFluxsolver
-   Icon:Fem-equation-fluxsolver.svg
-   MenuLocation: Solve → Equation fluxsolver
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand   */ru
+   Name   *FEM EquationFluxsolver
+   Name/ru   *FEM EquationFluxsolver
+   Icon   *Fem-equation-fluxsolver.svg
+   MenuLocation   * Solve → Equation fluxsolver
+   Workbenches   *[FEM](FEM_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM EquationFlux/ru

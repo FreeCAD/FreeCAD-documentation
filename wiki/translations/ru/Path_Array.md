@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Path Array
-   Name/ru:Path Array
-   MenuLocation:Path → Path Modification → Массив
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */ru
+   Name   *Path Array
+   Name/ru   *Path Array
+   MenuLocation   *Path → Path Modification → Массив
+   Workbenches   *[Path](Path_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Path Array/ru
@@ -26,11 +26,11 @@ This tool creates a new path by duplicating another path several times at a cert
 
 ## Свойства
 
--    **Type**: The type array (polar, linear one ore two directions)
+-    **Type**   * The type array (polar, linear one ore two directions)
 
--    **Offset**: The spacing between the array copies for each direction
+-    **Offset**   * The spacing between the array copies for each direction
 
--    **Copies**: The number of copies (not counting the original) for each direction
+-    **Copies**   * The number of copies (not counting the original) for each direction
 
 ## Ограничения
 
@@ -39,11 +39,11 @@ This feature only works on actual path operations, not on derivative paths produ
 ## Scripting
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-Example:
+Example   *
 
 
 ```python

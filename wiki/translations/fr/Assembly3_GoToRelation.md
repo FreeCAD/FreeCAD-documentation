@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Assembly3 GoToRelation
-   Name/fr:Assembly3 GoToRelation
-   Icon:Assembly_GotoRelation.svg
-   MenuLocation:Assembly3 → Go to relation
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** **R**
+- GuiCommand   */fr
+   Name   *Assembly3 GoToRelation
+   Name/fr   *Assembly3 GoToRelation
+   Icon   *Assembly_GotoRelation.svg
+   MenuLocation   *Assembly3 → Go to relation
+   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut   ***A** **R**
 ---
 
 # Assembly3 GoToRelation/fr
@@ -18,14 +18,14 @@ Le groupe Relations est le quatrième groupe de l\'arbre d\'assemblage et est ca
 
 Le résultat (objets en surbrillance) dépend de l\'objet sélectionné.
 
-:   Sélectionnez une partie pour trouver l\'objet de la relation et ses contraintes.
-:   Sélectionnez un élément pour trouver la partie à laquelle il appartient.
-:   Sélectionnez une contrainte pour trouver les parties liées.
+   *   Sélectionnez une partie pour trouver l\'objet de la relation et ses contraintes.
+   *   Sélectionnez un élément pour trouver la partie à laquelle il appartient.
+   *   Sélectionnez une contrainte pour trouver les parties liées.
 
 ## Utilisation
 
 1.  Sélectionnez une pièce, un élément ou une contrainte.
-2.  Appuyez sur le bouton **<img src="images/Assembly_GotoRelation.svg" width=16px> [Go to relation](Assembly3_GoToRelation/fr.md)** ou utilisez le raccourci clavier : **A** puis **R**.
+2.  Appuyez sur le bouton **<img src="images/Assembly_GotoRelation.svg" width=16px> [Go to relation](Assembly3_GoToRelation/fr.md)** ou utilisez le raccourci clavier    * **A** puis **R**.
 
 
 

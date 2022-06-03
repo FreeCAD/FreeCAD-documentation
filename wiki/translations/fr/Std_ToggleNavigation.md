@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std ToggleNavigation
-   Name/fr:Std Bascule de mode navigation
-   MenuLocation:Affichage → Bascule mode navigation/édition
-   Workbenches:Tous
-   Shortcut:**Echap**
+- GuiCommand   */fr
+   Name   *Std ToggleNavigation
+   Name/fr   *Std Bascule de mode navigation
+   MenuLocation   *Affichage → Bascule mode navigation/édition
+   Workbenches   *Tous
+   Shortcut   ***Echap**
 ---
 
 # Std ToggleNavigation/fr
@@ -17,9 +17,9 @@ Ne confondez pas cette commande avec la commande [Std Mode édition](Std_Edit/fr
 
 ## Utilisation
 
-*Un exemple pour illustrer la commande:*
+*Un exemple pour illustrer la commande   **
 
-1.  Basculez vers l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Atelier Mesh](Mesh_Workbench/fr.md).
+1.  Basculez vers l\'<img alt="" src=images/Workbench_Mesh.svg  style="width   *16px;"> [Atelier Mesh](Mesh_Workbench/fr.md).
 2.  Sélectionnez l\'option **Maillages →  <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...** dans le menu.
 3.  La boîte de dialogue Solid s\'ouvre.
 4.  Choisissez **Ellipsoïde** dans la liste déroulante.
@@ -35,13 +35,13 @@ Ne confondez pas cette commande avec la commande [Std Mode édition](Std_Edit/fr
 14. Si vous survolez un point limite, un marqueur jaune apparaît et un clic gauche le sélectionne.
 15. Sélectionnez éventuellement deux autres points et ajoutez un triangle au maillage.
 16. Vous êtes maintenant en mode édition et il est impossible de faire pivoter ou de déplacer la vue 3D, bien que le zoom fonctionne toujours.
-17. Appelez la commande **Std Bascule de mode navigation** pour passer en mode navigation:
+17. Appelez la commande **Std Bascule de mode navigation** pour passer en mode navigation   *
     -   Sélectionnez l\'option **Affichage → <img src="images/Std_ToggleNavigation.svg" width=16px> Bascule mode navigation/édition** dans le menu.
-    -   Ou utilisez le raccourci clavier: **Echap**.
+    -   Ou utilisez le raccourci clavier   * **Echap**.
 18. Vous pouvez maintenant faire pivoter et déplacer la vue 3D, mais vous ne pouvez pas choisir de points pour ajouter des triangles.
-19. Appelez la commande **Std Bascule de mode navigation** pour revenir en mode édition:
+19. Appelez la commande **Std Bascule de mode navigation** pour revenir en mode édition   *
     -   Sélectionnez l\'option **Affichage → <img src="images/Std_ToggleNavigation.svg" width=16px> Bascule mode navigation/édition** dans le menu.
-    -   Ou utilisez le raccourci clavier: **Echap**.
+    -   Ou utilisez le raccourci clavier   * **Echap**.
 20. Vous pouvez à nouveau sélectionner des points et ajouter des triangles.
 21. Cliquez avec le bouton droit dans la vue 3D et choisissez **Terminer** dans le menu contextuel pour terminer la commande [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md).
 

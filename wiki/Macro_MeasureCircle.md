@@ -8,7 +8,7 @@ A line is drawn from the center of the circle to the first vertex, which may be 
 |Version=1.0
 |Date=2016-04-08
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/b/bd/Macro_MeasureCircle.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/b/bd/Macro_MeasureCircle.png ToolBar Icon]
 }}
 
 ## Description
@@ -27,7 +27,7 @@ You can either select elements and then launch the macro or launch the macro wit
 
 ## Code
 
-The latest version of the macro is to be found at [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md). 
+The latest version of the macro is to be found at [MeasureCircle.FCMacro](https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md). 
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 

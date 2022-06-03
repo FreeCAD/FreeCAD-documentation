@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_Print
-   Name/it:Stampa
-   MenuLocation:File → Stampa...
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**P**
-   SeeAlso:[Anteprima di stampa](Std_PrintPreview/it.md), [Esporta PDF](Std_PrintPdf/it.md), [Esporta](Std_Export/it.md), [Cattura schermata](Std_ViewScreenShot/it.md)
+- GuiCommand   */it
+   Name   *Std_Print
+   Name/it   *Stampa
+   MenuLocation   *File → Stampa...
+   Workbenches   *Tutti
+   Shortcut   ***Ctrl**+**P**
+   SeeAlso   *[Anteprima di stampa](Std_PrintPreview/it.md), [Esporta PDF](Std_PrintPdf/it.md), [Esporta](Std_Export/it.md), [Cattura schermata](Std_ViewScreenShot/it.md)
 ---
 
 # Std Print/it
@@ -23,10 +23,10 @@ Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechD
 ## Utilizzo
 
 1.  Se necessario, attivare la pagina TechDraw corretta o modificare la vista 3D.
-2.  Esistono diversi modi per invocare il comando:
+2.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_Print.svg" width=16px> '''Stampa'''** button.
     -   Selezionare l\'opzione **File → <img src="images/Std_Print.svg" width=16px> Stampa...** dal menu.
-    -   Usare la scorciatoia da tastiera: **Ctrl**+**P**.
+    -   Usare la scorciatoia da tastiera   * **Ctrl**+**P**.
 3.  Viene visualizzata la finestra di dialogo di stampa standard.
 
 ## Opzioni

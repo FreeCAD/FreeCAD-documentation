@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Draft Point
-   Name/it:Punto
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft →  Punto
-   Shortcut:**P** **T**
-   Version:0.7
+- GuiCommand   */it
+   Name   *Draft Point
+   Name/it   *Punto
+   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Draft →  Punto
+   Shortcut   ***P** **T**
+   Version   *0.7
 ---
 
 # Draft Point/it
@@ -18,16 +18,16 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Point.svg  style="width:16px;"> Punto crea un semplice punto nel [piano di lavoro](Draft_SelectPlane/it.md) corrente, utilizzabile come riferimento per posizionare successivamente delle linee, polilinee, o altri oggetti. Assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati nella [barra di Draft](Draft_Tray/it.md).
+Lo strumento <img alt="" src=images/Draft_Point.svg  style="width   *16px;"> Punto crea un semplice punto nel [piano di lavoro](Draft_SelectPlane/it.md) corrente, utilizzabile come riferimento per posizionare successivamente delle linee, polilinee, o altri oggetti. Assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati nella [barra di Draft](Draft_Tray/it.md).
 
 
 </div>
 
-<img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_point_example.jpg  style="width   *400px;">
 
 ## Utilizzo
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -55,19 +55,19 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Notes
 
--   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Snap Near](Draft_Snap_Near.md) to snap to Draft points.
+-   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Snap Near](Draft_Snap_Near.md) to snap to Draft points.
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-A Draft Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A Draft Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
@@ -77,11 +77,11 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 <div class="mw-translate-fuzzy">
 
--    {{ProprietaDati|X}}: la coordinata X del punto.
+-    {{ProprietaDati|X}}   * la coordinata X del punto.
 
--    {{ProprietaDati|Y}}: la coordonata Y del punto.
+-    {{ProprietaDati|Y}}   * la coordonata Y del punto.
 
--    {{ProprietaDati|Z}}: la coordonata Z del punto.
+-    {{ProprietaDati|Z}}   * la coordonata Z del punto.
 
 
 </div>
@@ -91,9 +91,9 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: not used.
+-    **Pattern|Enumeration**   * not used.
 
--    **Pattern Size|Float**: not used.
+-    **Pattern Size|Float**   * not used.
 
 ## Scripting
 
@@ -103,7 +103,7 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -113,7 +113,7 @@ A Draft Point object is derived from a [Part Feature](Part_Feature.md) object an
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Punto può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento Punto può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 </div>
@@ -139,7 +139,7 @@ point = make_point(point, Y=0, Z=0, color=None, name="Point", point_size=5)
 
 </div>
 
-Esempio:
+Esempio   *
 
 
 ```python
@@ -156,7 +156,7 @@ point2 = Draft.make_point(p2, color=(0.5, 0.3, 0.6), point_size=10)
 doc.recompute()
 ```
 
-Esempio:
+Esempio   *
 
 
 <div class="mw-translate-fuzzy">
@@ -179,7 +179,7 @@ centered = App.Placement(App.Vector(-L, -L, 0), App.Rotation())
 rectangle = Draft.make_rectangle(2*L, 2*L, placement=centered)
 
 N = 10
-for i in range(N):
+for i in range(N)   *
     x = 2*L*random.random() - L
     y = 2*L*random.random() - L
     z = 0

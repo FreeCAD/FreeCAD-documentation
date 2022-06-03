@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std ArrangeIcons
-   Empty:1
-   MenuLocation:Windows → Arrange Icons
-   Workbenches:All
-   SeeAlso:[Std TileWindows](Std_TileWindows.md)
+- GuiCommand   *
+   Name   *Std ArrangeIcons
+   Empty   *1
+   MenuLocation   *Windows → Arrange Icons
+   Workbenches   *All
+   SeeAlso   *[Std TileWindows](Std_TileWindows.md)
 ---
 
 # Std ArrangeIcons/it

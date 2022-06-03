@@ -1,8 +1,9 @@
 ---
-- TutorialInfo   *   Topic   *Assemly3, a simple mechanism and a control panel
-   Level   *Basic knowledge of Assembly3 tools is helpful
-   FCVersion   *0.20 and later
-   Time   *30 minutes
+- TutorialInfo   */pl
+   Topic   *Złożenie 3, prosty mechanizm i panel sterowania
+   Level   *Przydatna jest podstawowa znajomość narzędzi środowiska pracy Złożenie 3
+   FCVersion   *0.20 i następne
+   Time   *30 minut
    Author   *[FBXL5](User_FBXL5.md)
 ---
 
@@ -12,134 +13,134 @@
 
 
 
-## Introduction
+## Wprowadzenie
 
-This tutorial is about how to set up a simple mechanism, mainly with the tools from the external <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *16px;"> [Assembly3 Workbench](Assembly3_Workbench.md).
+Ten poradnik jest o tym, jak zbudować prosty mechanizm, głównie przy użyciu narzędzi z zewnętrznego <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *16px;"> [środowiska Złożenie 3](Assembly3_Workbench/pl.md).
 
-The kinematic assembly we will create consists of four parts   * a Base, a Slider, a Crank, and a connecting Rod. They are connected with four joints.
+Złożenie kinematyczne, które stworzymy, będzie zbudowane z czterech części   * Podstawy, Suwaka, Korby i Korbowodu. Są one połączone z wykorzystaniem czterech węzłów.
 
 <img alt="" src=images/Assembly3_KinematicExample-01.png  style="width   *400px;"> 
-*Assembled parts   * Base (amber), Slider (light blue), Crank (red), connecting Rod (green)*
+*Złożone części   * Podstawa ''(bursztynowy)'', Suwak ''(jasnoniebieski)'', Korba ''(czerwony)'', Korbowód ''(zielony)''*
 
-## Assembly
+## Złożenie
 
-### Parts
+### Części
 
-The **Base** is an object with two main geometries, a hole and a pin. Both are cylindrical. The rest of the shape is not relevant for this tutorial unless it causes clashes. The same goes for the other parts.
+**Podstawa** to obiekt składający się z dwóch głównych elementów geometrycznych   * otworu i sworznia. Oba są walcowe. Reszta kształtu nie jest istotna w tym poradniku, chyba że powoduje kolizje. To samo dotyczy innych części.
 
 <img alt="" src=images/Assembly3_KinematicExample-02.png  style="width   *300px;">
 
-The **Slider** consists of a shaft with a pin on one end. Both are cylindrical.
+**Suwak** składa się z wałka z sworzniem na jednym z końców. Oba są walcowe.
 
 <img alt="" src=images/Assembly3_KinematicExample-03.png  style="width   *300px;">
 
-The **Crank** has a hole and a pin. Again both are cylindrical.
+**Korba** ma otwór i sworzeń. Znów, oba są walcowe.
 
 <img alt="" src=images/Assembly3_KinematicExample-04.png  style="width   *300px;">
 
-The **Rod** has two cylindrical holes.
+**Korbowód** ma dwa walcowe otwory.
 
 <img alt="" src=images/Assembly3_KinematicExample-05.png  style="width   *300px;">
 
-### Joints
+### Węzły
 
-#### Locked Base 
+#### Zablokowana Podstawa 
 
-To keep the assembly at the desired position, the base part should be locked.
+Aby utrzymać zespół w zadanym położeniu, należy zablokować podstawę.
 
-   *   (If the <img alt="" src=images/Assembly_LockMover.svg  style="width   *16px;"> [Lock mover](Assembly3_LockMover.md) command is activated, motion tools are deactivated as long as a locked part is selected.)
+   *   *(Jeśli polecenie <img alt="" src=images/Assembly_LockMover.svg  style="width   *16px;"> [Zablokuj przesunięcie](Assembly3_LockMover/pl.md) jest aktywne, narzędzia ruchu są wyłączone, tak długo jak wybrana jest zablokowana część)*.
 
-1.  Select one face of the Base.
-2.  Press the button **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Create "Locked" constraint](Assembly3_ConstraintLock.md)** to keep the Base in place permanently.
+1.  Wybierz jedną ścianę Podstawy.
+2.  Wciśnij przycisk **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Utwórz "Wiązanie zablokowania"](Assembly3_ConstraintLock/pl.md)**, aby Podstawa pozostawało na swoim miejscu na stałe.
 
 <img alt="" src=images/Assembly3_KinematicExample-08.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_KinematicExample-09.png  style="width   *300px;"> 
-*Selected face → Resulting Element*
+*Zaznaczona ściana → Powstały Element*
 
-Then all four parts are connected with four joints. The kinematic chain starts at the base.
+Następnie wszystkie cztery części zostaną połączone czterema węzłami. Łańcuch kinematyczny zaczyna się od podstawy.
 
-#### Base-to-Slider joint 
+#### Węzeł Postawa-Suwak 
 
-The Base-to-Slider joint is a **cylindrical joint**. It enables the Slider to slide along and spin around the Base hole\'s Z axis while keeping both elements\' Z axes aligned (colinear).
+Węzeł Podstawa-Suwak jest **węzłem walcowym** Umożliwia on Suwakowi ślizgać się wzdłuż i obracać dookoła osi Z otworu Podstawy, jednocześnie utrzymując osie Z obu elementów wyrównane *(współosiowe)*.
 
-The matching constraint is the \"AxialAlignment\" constraint. It works with elements that represent cylindrical geometry such as cylindrical faces, circular faces and circular edges.
+Pasującym wiązaniem jest wiązanie \"Wiązanie osi\". Działa ono z elementami, które reprezentują geometrię walcową, takimi jak powierzchnie walcowe, powierzchnie kołowe i krawędzie kołowe.
 
-1.  Select the cylindrical faces of the Base hole and the Slider shaft.
-2.  Press the button **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Create "AxialAlignment" constraint](Assembly3_ConstraintAxial.md)**.
-3.  Optionally relabel the created elements (edit their **Label** property).
+1.  Wybierz powierzchnie walcowe otworu Podstawy i wałka Suwaka.
+2.  Wciśnij przycisk **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Utwórz "Wiązanie osi"](Assembly3_ConstraintAxial/pl.md)**.
+3.  Opcjonalnie zmień etykietę utworzonych elementów (edytuj ich właściwość **Label**).
 
 <img alt="" src=images/Assembly3_KinematicExample-10.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_KinematicExample-11.png  style="width   *300px;"> 
-*Selected faces → Aligned objects*
+*Wybrane ściany → Wyrównane obiekty*
 
-#### Base-to-Crank joint 
+#### Węzeł Podstawa-Korba 
 
-The Base-to-Crank joint is a **hinge joint**. It enables the Crank to spin around the Base pin\'s Z axis while keeping both elements\' Z axes aligned (colinear) and the offset between their XY planes constant.
+Węzeł Postawa-Korba jest **węzłem typu zawias**. Pozwala on obracać się Korbie wokół osi Z sworznia Podstawy, jednocześnie utrzymując wyrównanie *(współosiowość)* osi Z obu elementów oraz stałą odległość między płaszczyznami XY.
 
-The matching constraint is the \"PlaneCoincident\" constraint. It works with elements that represent planar geometry such as circular faces and circular edges (in this case).
+Pasującym wiązaniem jest wiązanie *Zbieżność płaszczyzn*. Działa ono na elementach będących geometrią planarną jak okrągłe powierzchnie i okrągłe krawędzie *(w tym przypadku)*.
 
-1.  Select the circular face or the outer circular edge of the Base pin, and the outer circular edge of the Crank hole.
-2.  Press the button **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Create "PlaneCoincident" constraint](Assembly3_ConstraintCoincidence.md)**.
-3.  Optionally relabel the created elements.
+1.  Wybierz okrągłą powierzchnię lub zewnętrzną okrągłą krawędź sworznia Podstawy oraz zewnętrzną okrągłą krawędź otworu Korby.
+2.  Wciśnij przycisk **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Utwórz wiązanie "Zbieżność płaszczyzn"](Assembly3_ConstraintCoincidence/pl.md)**.
+3.  Opcjonalnie zmień etykiety utworzonych elementów.
 
 <img alt="" src=images/Assembly3_KinematicExample-12.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_KinematicExample-13.png  style="width   *300px;"> 
-*Selected face and edge → Aligned objects*
+*Zaznaczona ściana i krawędź → Wyrównane obiekty*
 
-#### Slider-to-Rod joint 
+#### Węzeł Suwak-Korbowód 
 
-The Slider-to-Rod joint is a **hinge joint**. It enables the Rod to spin around the Slider pin\'s Z axis while keeping both elements\' Z axes aligned (colinear) and the offset between their XY planes constant.
+Węzeł Suwak-Korba jest **węzłem typu zawias**. Pozwala on obracać się Korbowodowi wokół osi Z sworznia Suwaka, jednocześnie utrzymując wyrównanie *(współosiowość)* osi Z obu elementów oraz stałą odległość między płaszczyznami XY.
 
-The matching constraint is the \"PlaneCoincident\" constraint (see above).
+Pasującym wiązaniem jest wiązanie *Zbieżność płaszczyzn* *(zobacz wyżej)*.
 
-1.  Select the circular face or the outer circular edge of the Slider pin, and the outer circular edge of the Rod hole.
-2.  Press the button **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Create "PlaneCoincident" constraint](Assembly3_ConstraintCoincidence.md)**.
-3.  Optionally relabel the created elements.
+1.  Wybierz okrągłą powierzchnię lub zewnętrzną okrągłą krawędź sworznia Suwaka oraz zewnętrzną okrągłą krawędź otworu Korbowodu.
+2.  Wciśnij przycisk **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Utwórz wiązanie "Zbieżność płaszczyzn"](Assembly3_ConstraintCoincidence/pl.md)**.
+3.  Opcjonalnie zmień etykiety utworzonych elementów.
 
 <img alt="" src=images/Assembly3_KinematicExample-14.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_KinematicExample-15.png  style="width   *300px;"> 
-*Selected face and edge → Aligned objects*
+*Zaznaczona ściana i krawędź → Wyrównane obiekty*
 
-#### Crank-to-Rod joint 
+#### Węzeł Korba-Korbowód 
 
-The Crank-to-Rod joint is a **cylindrical joint**. It enables the Rod to spin around and slide along the Crank pin\'s Z axis while keeping both elements\' Z axes aligned (colinear). But only spinning will be possible as the sliding movement is restricted through the combination of the Base-to-Crank joint and the Slider-to-Rod joint.
+Węzeł Korba-Korbowód jest **węzłem walcowym** Umożliwia on Korbowodowi obracać się dookoła i ślizgać się wzdłuż osi Z sworznia Korby, jednocześnie utrzymując osie Z obu elementów wyrównane *(współosiowe)*. Jednak możliwe jest tylko obracanie, ponieważ ruch ślizgowy jest ograniczony przez kombinację węzła Podstawa-Korba oraz węzła Suwak-Korbowód.
 
-The matching constraint is the \"AxialAlignment\" constraint (see above).
+Pasującym wiązaniem jest \"Wiązanie osi\" *(zobacz wyżej)*.
 
-1.  Select the cylindrical faces of the Crank pin and the Rod hole.
-2.  Press the button **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Create "AxialAlignment" constraint](Assembly3_ConstraintAxial.md)**.
-3.  Optionally relabel the created elements.
+1.  Wybierz powierzchnie walcowe sworznia Korby i otworu Korbowodu.
+2.  Wciśnij przycisk **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Utwórz "Wiązanie osi"](Assembly3_ConstraintAxial/pl.md)**.
+3.  Opcjonalnie zmień etykietę utworzonych elementów.
 
 <img alt="" src=images/Assembly3_KinematicExample-16.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_KinematicExample-01.png  style="width   *300px;"> 
-*Selected faces → Aligned objects*
+*Wybrane ściany → Wyrównane obiekty*
 
-#### Redundant Constraints 
+#### Nadmiarowe Wiązania 
 
-When the Base is fixed and all four joints are constrained two messages appear in the [Report view](Report_view.md)   *
+Gdy Podstawa jest zamocowana i wszystkie cztery przeguby są związane, w oknie [Widoku raportu](Report_view/pl.md) pojawiają się dwa komunikaty   *
 
--   A warning (orange)   * \"\...redundant constraints\".
--   A simple message (black)   * \"\...dof remaining   * 0\".
+-   Ostrzeżenie *(pomarańczowy)*   * \"\...wiązania nadmiarowe\".
+-   Zwykły komunikat *(czarny)*   * \"\...pozostało stopni swobody   * 0\".
 
-This combination of messages occurs when parts of an assembly are over-constrained but the solver is still able to find a valid solution. But what causes the redundacy?
+Taka kombinacja komunikatów występuje, gdy części zespołu są nadmiernie związane, ale solwer nadal jest w stanie znaleźć poprawne rozwiązanie. Ale co jest przyczyną nadmiarowości?
 
-It is the Z direction of the pins. If we take a look at the Slider pin for example we will notice that the Z axis of its element object is constrained parallel to the Base pin\'s Z axis through the assembly chain Base-Crank-Rod-Slider. This means that the Slider pin is prevented from rotating around its X and Y axes.
+Jest to kierunek Z sworzni. Jeśli przyjrzymy się na przykład sworzniowi Suwaka, zauważymy, że oś Z jego obiektu elementu jest związana równolegle do osi Z sworznia Podstawy poprzez łańcuch złożeń Podstawa-Korba-Korbowód-Suwak. Oznacza to, że sworzeń Suwaka nie może obracać się wokół swoich osi X i Y.
 
 <img alt="" src=images/Assembly3_KinematicExample-06.png  style="width   *400px;">
 
-On the other hand the rotation around the X axis (red) is already prevented by the Base-to-Crank joint; and so the corresponding degree of freedom (dof) is constrained twice (= redundant) and causes the warning.
+Z drugiej strony obrót wokół osi X *(kolor czerwony)* jest już uniemożliwiony przez węzeł Podstawa-Korba, a zatem odpowiedni stopień swobody *(dof)* jest związany dwukrotnie *(= nadmiarowy)* i powoduje wyświetlenie ostrzeżenia.
 
-   *   To avoid this redundancy an auxilliary object and corresponding constraints could be inserted, but that is for some other tutorial.
-   *   To avoid double constraining the offset between base and Rod, different constraints were used, with only one of them fixing the motion along the Z axis.
+   *   Aby uniknąć tej nadmiarowości, można by wstawić obiekt pomocniczy i odpowiednie wiązania, ale to temat na inny poradnik.
+   *   Aby uniknąć podwójnego wiązania odsunięcia między Podstawą a Korbowodem, użyto różnych wiązań, z których tylko jedno blokuje ruch wzdłuż osi Z.
 
-### Actuator
+### Siłownik
 
-Now it is still a static assembly. To turn it into a kinematic assembly one constraint has to be used as an actuator. To use the \"PlaneCoincident\" constraint of the Base-to-Crank joint as an actuator, we need to control the angle between Base pin and Crank. This can be done by setting the property **Lock Angle** to `True`. And for later use the label is marked with the suffix **.Driver**.
+Teraz jest to nadal złożenie statyczne. Aby przekształcić je w złożenie kinematyczne, należy użyć jednego z wiązań jako nastawnika. Aby użyć wiązania \"Zbieżność płaszczyzn\" w węźle Podstawa-Korba jako nastawnika, musimy kontrolować kąt między sworzniem Podstawy a Korbą. Można to zrobić, ustawiając właściwość **Zablokuj kąt** na wartość {{TRUE/pl}}. W celu późniejszego wykorzystania etykieta jest oznaczana przyrostkiem **.Driver**.
 
-The **Angle** property can now be used to spin the Crank.
+Właściwosć**Kąt** może zostać teraz użyta do obracania Korbą.
 
 <img alt="" src=images/Assembly3_KinematicExample-07.gif  style="width   *350px;">
 
-## Controller
+## Sterownik
 
-To have a dialog window to change property values without typing and with automatic recomputation would be nice.
+Dobrze byłoby mieć okno dialogowe do zmiany wartości właściwości bez wpisywania i z automatycznym przeliczaniem.
 
-Have a look at the [Kinematic Controller](Tutorial_KinematicController.md) tutorial.
+Spójrz na poradnik [Sterownik Kinematyczny](Tutorial_KinematicController/pl.md).
 
 
 

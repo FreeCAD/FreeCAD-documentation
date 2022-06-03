@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign SubtractiveLoft
-   Name/de:PartDesign Subtraktive Ausformung
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Subtraktive Ausformung
-   Version:0.17
-   SeeAlso:[Additive Ausformung](PartDesign_AdditiveLoft/de.md), [Abziehbares Rohr](PartDesign_SubtractivePipe/de.md)
+- GuiCommand   */de
+   Name   *PartDesign SubtractiveLoft
+   Name/de   *PartDesign Subtraktive Ausformung
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation   *Part Design → Subtraktive Ausformung
+   Version   *0.17
+   SeeAlso   *[Additive Ausformung](PartDesign_AdditiveLoft/de.md), [Abziehbares Rohr](PartDesign_SubtractivePipe/de.md)
 ---
 
 # PartDesign SubtractiveLoft/de
@@ -24,7 +24,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Drücke die **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** Schaltfläche.
+1.  Drücke die **[<img src=images/PartDesign_SubtractiveLoft.svg style="width   *24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** Schaltfläche.
 2.  Wähle im Dialog **Formelement auswählen** eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf **OK**.
     -   Alternativ kann eine einzelne Skizze ausgewählt werden, bevor die Schaltfläche Subtraktive Ausformung gedrückt wird.
 3.  Drücke in den **Ausformungsparametern** die Schaltfläche **Abschnitt hinzufügen**.
@@ -39,11 +39,11 @@
 
 <small>(v0.19)</small> 
 
-1.  Select several sketches. It is hereby important in what order you select them:
+1.  Select several sketches. It is hereby important in what order you select them   *
     -   The sketch selected at first will become the base profile object in the next step
-    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important   * The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
     -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
-2.  Press the **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
+2.  Press the **[<img src=images/PartDesign_SubtractiveLoft.svg style="width   *24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
 
 ## Optionen
@@ -51,7 +51,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **Geregelte Oberfläche**: generiert gerade Übergänge zwischen den Querschnitten. Gilt nicht für eine Ausformung mit zwei Querschnitten. Wenn nicht angehakt, werden die Übergänge glatt sein.
+-   **Geregelte Oberfläche**   * generiert gerade Übergänge zwischen den Querschnitten. Gilt nicht für eine Ausformung mit zwei Querschnitten. Wenn nicht angehakt, werden die Übergänge glatt sein.
 -   **Geschlossen** macht einen Übergang vom letzten Querschnitt zum ersten, wodurch ein Umlauf entsteht.
 
 
@@ -59,19 +59,19 @@
 
 ## Eigenschaften
 
--    **Kennzeichnung**: Ein Name für die Operation, kann bei Bedarf geändert werden.
+-    **Kennzeichnung**   * Ein Name für die Operation, kann bei Bedarf geändert werden.
 
--    **Schnitte**: listet die verwendeten Abschnitte auf.
+-    **Schnitte**   * listet die verwendeten Abschnitte auf.
 
--    **Geregelt**: siehe [Optionen](#Options.md).
+-    **Geregelt**   * siehe [Optionen](#Options.md).
 
--    **Geschlossen**: siehe [Optionen](#Options.md).
+-    **Geschlossen**   * siehe [Optionen](#Options.md).
 
--    **Mittelebene**: N/A
+-    **Mittelebene**   * N/A
 
--    **Umgekehrt**: N/A
+-    **Umgekehrt**   * N/A
 
--    **Verfeinern**: \"true\" oder \"false\". Wenn auf \"true\" gesetzt, wird der Festkörper von Restkanten gereinigt, die durch Formelemente hinterlassen wurden. Siehe [Part FormVerfeinern](Part_RefineShape/de.md) für weitere Einzelheiten.
+-    **Verfeinern**   * \"true\" oder \"false\". Wenn auf \"true\" gesetzt, wird der Festkörper von Restkanten gereinigt, die durch Formelemente hinterlassen wurden. Siehe [Part FormVerfeinern](Part_RefineShape/de.md) für weitere Einzelheiten.
 
 ## Notes
 

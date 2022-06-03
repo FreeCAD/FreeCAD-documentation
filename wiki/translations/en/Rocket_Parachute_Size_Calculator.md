@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Rocket Parachute Size Calculator
-   Icon:Rocket_Calculator.svg
-   MenuLocation:Rocket → Calculators → Parachute Size Calculator
-   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
-   Version:0.19
+- GuiCommand   *
+   Name   *Rocket Parachute Size Calculator
+   Icon   *Rocket_Calculator.svg
+   MenuLocation   *Rocket → Calculators → Parachute Size Calculator
+   Workbenches   *[Rocket Workbench](Rocket_Workbench.md)
+   Version   *0.19
 ---
 
 # Rocket Parachute Size Calculator/en
@@ -21,14 +21,14 @@ A key value for determining the descent rate is the coefficient of drag ($C_D$).
 
 ![](images/Calc_parachute_size.png )
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Rocket_Calculator.svg" width=16px> [Parachute Size Calculator](Rocket_Parachute_Size_Calculator.md)** button.
     -   Select the **Rocket → Calculators → <img src="images/Rocket_Calculator.svg" width=16px> Parachute Size Calculator** option from the menu.
 2.  Enter the weight of your rocket and parameters for your parachute.
 
 ## Calculation
 
-Parachute size is determined by the mass of the rocket, desired descent rate, and drag characteristics of the parachute. The calculation is a two step process. First the area of the parachute is calculated:
+Parachute size is determined by the mass of the rocket, desired descent rate, and drag characteristics of the parachute. The calculation is a two step process. First the area of the parachute is calculated   *
 
 $$A = { 2mg \over { \rho v_T^2 C_D }}$$
 
@@ -46,7 +46,7 @@ $$g = 9.807$$ acceleration due to gravity in $m/s^2$
 
 The diameter is then calculated from the surface area based on the shape.
 
-For hexagonal parachutes:
+For hexagonal parachutes   *
 
 $$D = \sqrt{ 2A \over sqrt{3}}$$
 
@@ -64,9 +64,17 @@ Calculations are done using metric units, but will display in your preferred uni
 
 ## References
 
-1.  <http://www.rocketmime.com/rockets/descent.html>
-2.  <https://descentratecalculator.onlinetesting.net/>
-3.  <https://www.math.net/area-of-a-hexagon>
+1.  <http   *//www.rocketmime.com/rockets/descent.html>
+2.  <https   *//descentratecalculator.onlinetesting.net/>
+3.  <https   *//www.math.net/area-of-a-hexagon>
+
+
+
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

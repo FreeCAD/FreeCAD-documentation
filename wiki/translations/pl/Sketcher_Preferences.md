@@ -1,13 +1,13 @@
 # Sketcher Preferences/pl
 {{TOCright}}
 
-Ekran preferencji środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md) można znaleźć w [Edytorze Preferencji](Preferences_Editor/pl.md), zlokalizowane w menu **Edycja → Preferencje → Szkicownik**.
+Ekran preferencji środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [Szkicownik](Sketcher_Workbench/pl.md) można znaleźć w [Edytorze Preferencji](Preferences_Editor/pl.md), zlokalizowane w menu **Edycja → Preferencje → Szkicownik**.
 
-Znajdują się tam trzy zakładki: [Ogólne](#Ogólne.md), [Wyświetlanie](#Wyświetlanie.md) and [Kolory](#Kolory.md).
+Znajdują się tam trzy zakładki   * [Ogólne](#Ogólne.md), [Wyświetlanie](#Wyświetlanie.md) and [Kolory](#Kolory.md).
 
 ## Ogólne
 
-W zakładce *Ogólne* można określić następujące elementy:
+W zakładce *Ogólne* można określić następujące elementy   *
 
 +++
 | Nazwa                                                                 | Opis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -22,9 +22,9 @@ W zakładce *Ogólne* można określić następujące elementy:
 +++
 |                                                        | Jeżeli opcja jest zaznaczona, nowe punkty będą przyciągane do najbliższej linii siatki. Zauważ, że punkty muszą być już blisko linii siatki, aby przyciąganie zaczęło działać. Odległość jest piątą częścią wartości ustawionej dla **Rozmiar siatki**, więc dla siatki 10 mm przyciągnięcie nastąpi tylko wtedy, gdy punkt jest nie dalej niż 2 mm od linii siatki.                                                                                                   |
 | **Przyciąganie do siatki**                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                    | **Uwaga:** Punkt przyciągany nie ma zbieżnego wiązania z punktem siatki, do którego jest przyciągany.                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                    | **Uwaga   *** Punkt przyciągany nie ma zbieżnego wiązania z punktem siatki, do którego jest przyciągany.                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
-|                                                        | Jeśli opcja ta jest zaznaczona, szkicownik automatycznie proponuje sensowne wiązania. Jeśli narysujesz na przykład [linię łamaną](Sketcher_CreatePolyline/pl.md) <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:20px;"> i zwróć uwagę na dół, zobaczysz, że szkicownik proponuje wiązanie pionowe <img alt="" src=images/Constraint_Vertical.svg  style="width:20px;">. Jeśli ustawisz teraz punkt, narysowany odcinek linii będzie posiadał wiązanie pionowe. |
+|                                                        | Jeśli opcja ta jest zaznaczona, szkicownik automatycznie proponuje sensowne wiązania. Jeśli narysujesz na przykład [linię łamaną](Sketcher_CreatePolyline/pl.md) <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *20px;"> i zwróć uwagę na dół, zobaczysz, że szkicownik proponuje wiązanie pionowe <img alt="" src=images/Constraint_Vertical.svg  style="width   *20px;">. Jeśli ustawisz teraz punkt, narysowany odcinek linii będzie posiadał wiązanie pionowe. |
 | **Wiązania automatyczne**                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 +++
@@ -63,7 +63,7 @@ W zakładce *Ogólne* można określić następujące elementy:
 
 ## Wyświetlanie
 
-W zakładce *Wyświetlanie* można określić następujące elementy:
+W zakładce *Wyświetlanie* można określić następujące elementy   *
 
 +++
 | Nazwa                                                                                     | Opis                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -86,11 +86,11 @@ W zakładce *Wyświetlanie* można określić następujące elementy:
 | **Spytaj o wartość po stworzeniu wiązania wymiaru**                           |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                                                            | Jeżeli to pole jest zaznaczone, bieżące narzędzie do tworzenia szkicownika pozostanie aktywne po utworzeniu. Jeżeli używasz np. narzędzia szkicownika [Utwórz linię](Sketcher_CreateLine/pl.md) <img alt="" src=images/Sketcher_Line.svg  style="width:20px;">, pozostanie ono aktywne po utworzeniu linii. Możesz opuścić narzędzie w każdej chwili klikając prawym przyciskiem myszki w oknie szkicu.                       |
+|                                                                            | Jeżeli to pole jest zaznaczone, bieżące narzędzie do tworzenia szkicownika pozostanie aktywne po utworzeniu. Jeżeli używasz np. narzędzia szkicownika [Utwórz linię](Sketcher_CreateLine/pl.md) <img alt="" src=images/Sketcher_Line.svg  style="width   *20px;">, pozostanie ono aktywne po utworzeniu linii. Możesz opuścić narzędzie w każdej chwili klikając prawym przyciskiem myszki w oknie szkicu.                       |
 | **Tworzenie geometrii "Tryb kontynuacji"**                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                                                            | Jeżeli to pole jest zaznaczone, aktualne narzędzie do tworzenia wiązań pozostanie aktywne po ukończeniu tworzenia. Jeżeli używasz np. narzędzia [Wiązanie styczności](Sketcher_ConstrainTangent/pl.md) <img alt="" src=images/Constraint_Tangent.png  style="width:20px;">, pozostanie ono aktywne po utworzeniu wiązań. Narzędzie można wyłączyć w dowolnym momencie, klikając prawym przyciskiem myszy w oknie szkicu. |
+|                                                                            | Jeżeli to pole jest zaznaczone, aktualne narzędzie do tworzenia wiązań pozostanie aktywne po ukończeniu tworzenia. Jeżeli używasz np. narzędzia [Wiązanie styczności](Sketcher_ConstrainTangent/pl.md) <img alt="" src=images/Constraint_Tangent.png  style="width   *20px;">, pozostanie ono aktywne po utworzeniu wiązań. Narzędzie można wyłączyć w dowolnym momencie, klikając prawym przyciskiem myszy w oknie szkicu. |
 | **Tworzenie wiązań "Tryb kontynuacji"**                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
@@ -98,7 +98,7 @@ W zakładce *Wyświetlanie* można określić następujące elementy:
 | **Ukryj jednostki długości podstawowej dla obsługiwanych systemów jednostek** |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                                                            | Jeśli to pole zostanie zaznaczone, wiązanie <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:20px;"> [średnicy](Sketcher_ConstrainDiameter/pl.md) będzie używane jako domyślne dla definiowania łuków i okręgów zamiast wiązania <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:20px;"> [promienia](Sketcher_ConstrainRadius/pl.md).                        |
+|                                                                            | Jeśli to pole zostanie zaznaczone, wiązanie <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *20px;"> [średnicy](Sketcher_ConstrainDiameter/pl.md) będzie używane jako domyślne dla definiowania łuków i okręgów zamiast wiązania <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *20px;"> [promienia](Sketcher_ConstrainRadius/pl.md).                        |
 | **Użyj średnicy jako domyślnego wiązania dla łuków i okręgów**                |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | {{Version/pl|0.20}}                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -140,7 +140,7 @@ W zakładce *Wyświetlanie* można określić następujące elementy:
 
 ## Kolory
 
-W zakładce *Kolory* można określić następujące elementy:
+W zakładce *Kolory* można określić następujące elementy   *
 
 +++
 | Nazwa                                                                           | Opis                                                                                                                                                                                                                                           |
@@ -230,7 +230,7 @@ W zakładce *Kolory* można określić następujące elementy:
 |                                                                                 |                                                                                                                                                                                                                                                |
 +++
 
-*Wskazówka:* Kolor zaznaczeń wewnątrz szkiców to globalne ustawienie zaznaczenia **Włącz podświetlanie zaznaczenia**, zobacz stronę [Edytor ustawień](Preferences_Editor/pl#Kolory.md).
+*Wskazówka   ** Kolor zaznaczeń wewnątrz szkiców to globalne ustawienie zaznaczenia **Włącz podświetlanie zaznaczenia**, zobacz stronę [Edytor ustawień](Preferences_Editor/pl#Kolory.md).
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
@@ -240,7 +240,9 @@ W zakładce *Kolory* można określić następujące elementy:
 
 {{Sketcher_Tools_navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:PartDesign InvoluteGear
-   Name/pl:Projekt Części: Koło zębate ewolwentowe
-   MenuLocation:Projekt części → Involute gear...
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[FCGear](FCGear_Workbench.md)
+- GuiCommand   */pl
+   Name   *PartDesign InvoluteGear
+   Name/pl   *Projekt Części   * Koło zębate ewolwentowe
+   MenuLocation   *Projekt części → Involute gear...
+   Workbenches   *[Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso   *[FCGear](FCGear_Workbench.md)
 ---
 
 # PartDesign InvoluteGear/pl
@@ -13,7 +13,7 @@
 
 Narzędzie to pozwala na utworzenie dwuwymiarowego profilu koła zębatego. Ten profil 2D jest w pełni parametryczny i może być wyciągnięty funkcją [Wyciągnięcie](PartDesign_Pad/pl.md) lub [Addytywna helisa](PartDesign_AdditiveHelix/pl.md).
 
-Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [przekładnie](https://en.wikipedia.org/wiki/Gear) oraz [Zarys ewolwentowy](https://en.wikipedia.org/wiki/Involute_gear)
+Bardziej szczegółowe informacje można znaleźć również na stronach Wiki   * [przekładnie](https   *//en.wikipedia.org/wiki/Gear) oraz [Zarys ewolwentowy](https   *//en.wikipedia.org/wiki/Involute_gear)
 
 ![](images/PartDesign_Involute_Gear_01.png )
 
@@ -22,10 +22,10 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 ### Utworzenie profilu 
 
 1.  Opcjonalnie aktywuj właściwą zawartość.
-2.  Przejdź do menu **Projekt Części → [<img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Przekładnia ewolwentowa ...**.
+2.  Przejdź do menu **Projekt Części → [<img src=images/PartDesign_InternalExternalGear.svg style="width   *24px"> Przekładnia ewolwentowa ...**.
 3.  Ustaw parametry zębatki.
 4.  Kliknij **OK**.
-5.  Jeśli koło zębate znajduje się poza aktywną zawartością: przeciągnij go i upuść do zawartości, aby zastosować dalsze funkcje, takie jak wyciągnięcie.
+5.  Jeśli koło zębate znajduje się poza aktywną zawartością   * przeciągnij go i upuść do zawartości, aby zastosować dalsze funkcje, takie jak wyciągnięcie.
 
 ### Utworzenie koła zębatego czołowego 
 
@@ -45,18 +45,18 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 4.  Wybierz tryb **Wysokość - Obrót**.
 5.  Ustaw **Wysokość** na żądaną szerokość czołową koła zębatego.
 6.  Aby ustawić żądany kąt skrętu należy użyć [Wyrażenia](Expressions/pl.md) dla **Obrotów**.
-    1.  Kliknij niebieską ikonę <img alt="" src=images/Bound-expression.svg  style="width:24px;"> po prawej stronie pola wprowadzania danych.
-    2.  Wprowadź następującą formułę: `Height * tan(25°) / (InvoluteGear.NumberOfTeeth * InvoluteGear.Modules * pi)`, gdzie `25°` jest przykładem pożądanego kąta spiralnego *(znanego również jako wartość beta)*, a `InvoluteGear` jest **Nazwą** profilu.
+    1.  Kliknij niebieską ikonę <img alt="" src=images/Bound-expression.svg  style="width   *24px;"> po prawej stronie pola wprowadzania danych.
+    2.  Wprowadź następującą formułę   * `Height * tan(25°) / (InvoluteGear.NumberOfTeeth * InvoluteGear.Modules * pi)`, gdzie `25°` jest przykładem pożądanego kąta spiralnego *(znanego również jako wartość beta)*, a `InvoluteGear` jest **Nazwą** profilu.
     3.  Kliknij w przycisk **OK**, aby zamknąć edytor formuły.
 7.  Kliknij w przycisk **OK**, aby zamknąć panel zadań.
 
-Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwości dynamicznej\":
+Wskazówka   * Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwości dynamicznej\"   *
 
 1.  Wybierz profil.
 2.  W oknie [Edytora właściwości](Property_editor/pl.md) aktywuj opcję **Wyświetl wszystko** w menu kontekstowym.
-3.  Ponownie w menu kontekstowym wybierz opcję **Dodaj właściwość**. Uwaga: ta pozycja jest dostępna tylko wtedy, gdy aktywna jest opcja **Wyświetl wszystko**.
-4.  W oknie dialogowym **Dodaj właściwość**:
-    1.  Wybierz `App::PropertyAngle` jako Typ.
+3.  Ponownie w menu kontekstowym wybierz opcję **Dodaj właściwość**. Uwaga   * ta pozycja jest dostępna tylko wtedy, gdy aktywna jest opcja **Wyświetl wszystko**.
+4.  W oknie dialogowym **Dodaj właściwość**   *
+    1.  Wybierz `App   *   *PropertyAngle` jako Typ.
     2.  Ustaw wartość `Gear` w polu Grupa,
     3.  Ustaw wartość `HelicalAngle` jako nazwę *(bez spacji)*,
     4.  Kliknij **OK**.
@@ -66,26 +66,26 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 
 ## Właściwości
 
--    **Zarys zewnętrzny**: przyjmuje wartość {{True/pl}} lub {{False/pl}}
+-    **Zarys zewnętrzny**   * przyjmuje wartość {{True/pl}} lub {{False/pl}}
 
--    **Wysoka dokładność**: przyjmuje wartość {{True/pl}} lub {{False/pl}}
+-    **Wysoka dokładność**   * przyjmuje wartość {{True/pl}} lub {{False/pl}}
 
--    **Modułowość**: średnica podziałki podzielona przez liczbę zębów.
+-    **Modułowość**   * średnica podziałki podzielona przez liczbę zębów.
 
--    **Liczba zębów**: ustawia liczbę zębów.
+-    **Liczba zębów**   * ustawia liczbę zębów.
 
--    **Kąt przyporu**: kąt ostry między linią działania a normalną do linii łączącej środki kół zębatych. Domyślnie jest to 20°
+-    **Kąt przyporu**   * kąt ostry między linią działania a normalną do linii łączącej środki kół zębatych. Domyślnie jest to 20°
 
-([Więcej informacji](https://en.wikipedia.org/wiki/Involute_gear)).
+([Więcej informacji](https   *//en.wikipedia.org/wiki/Involute_gear)).
 
 ## Ograniczenia
 
 -   Obecnie nie ma możliwości regulacji grubości zęba. Ząb i przestrzeń zęba są rozmieszczone równomiernie na kole podziałowym. Dlatego jedynym sposobem na kontrolowanie luzu jest dostosowanie odległości środka w parowaniu przekładni.
--   Obecnie nie ma [podcięcia](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) w generowanym profilu przekładni. Oznacza to, że koła zębate z małą liczbą zębów mogą kolidować z zębami współpracującego koła zębatego. Dolna granica zależy od **Kąt docisku** i wynosi około 17 zębów dla 20° i 32 dla 14.5°. Większość praktycznych zastosowań toleruje brak podcięcia dla kół zębatych nieco mniejszych niż ta teoretyczna granica.
+-   Obecnie nie ma [podcięcia](https   *//www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) w generowanym profilu przekładni. Oznacza to, że koła zębate z małą liczbą zębów mogą kolidować z zębami współpracującego koła zębatego. Dolna granica zależy od **Kąt docisku** i wynosi około 17 zębów dla 20° i 32 dla 14.5°. Większość praktycznych zastosowań toleruje brak podcięcia dla kół zębatych nieco mniejszych niż ta teoretyczna granica.
 
 ## Poradniki
 
-[Jak zrobić przekładnie zębate w FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
+[Jak zrobić przekładnie zębate w FreeCAD](https   *//www.youtube.com/watch?v=8VNhTrnFMfE)
 
 ## Powiązane
 

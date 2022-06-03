@@ -11,7 +11,7 @@ Veličina je kombinace čísla a jednotky. Je využívána všude ve FreeCADu k 
 
 <div class="mw-translate-fuzzy">
 
-V CAD a CAE systémech je velmi důležité sledovat jednotky hodnot. Mnoho problémů může nastat když se míchají různé jednotky nebo vypočítané výsledky v různých jednotkových systémech. Jeden známý případ je [havárie Mars Climate Orbiteru](http://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure) kvůli pomíchání jednotek. I ve stejném jednotkovém systému přicházejí jednotky se spoustou variant šitých vždy na dané použití. Jednoduché příklady jsou např. rychlost v km/h (auta), m/s (roboti) nebo mm/min (frézování). CAD systém musí spolehlivě sledovat jednotky. Také s nimi dělat výpočty a kontrolovat správné jednoty u speciálních parametrů.
+V CAD a CAE systémech je velmi důležité sledovat jednotky hodnot. Mnoho problémů může nastat když se míchají různé jednotky nebo vypočítané výsledky v různých jednotkových systémech. Jeden známý případ je [havárie Mars Climate Orbiteru](http   *//en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure) kvůli pomíchání jednotek. I ve stejném jednotkovém systému přicházejí jednotky se spoustou variant šitých vždy na dané použití. Jednoduché příklady jsou např. rychlost v km/h (auta), m/s (roboti) nebo mm/min (frézování). CAD systém musí spolehlivě sledovat jednotky. Také s nimi dělat výpočty a kontrolovat správné jednoty u speciálních parametrů.
 
 
 </div>
@@ -37,32 +37,32 @@ Vstupní parser FreeCADu podporuje balík jednotek a jednotkových systémů. Po
 
 <div class="mw-translate-fuzzy">
 
-Detailní informace najdete v kódu:
+Detailní informace najdete v kódu   *
 
--   Slovník veličin: <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/QuantityParser.l>
--   Definice veličin: <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/Quantity.cpp#l167>
+-   Slovník veličin   * <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/QuantityParser.l>
+-   Definice veličin   * <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/Quantity.cpp#l167>
 
 
 </div>
 
 ## Interní reprezentace 
 
-Všechny fyzické jednotky mohou být vyjádřeny jako kombinace sedmi [SI-jednotek](http://en.wikipedia.org/wiki/International_System_of_Units):
+Všechny fyzické jednotky mohou být vyjádřeny jako kombinace sedmi [SI-jednotek](http   *//en.wikipedia.org/wiki/International_System_of_Units)   *
 
-<img alt="" src=images/SI-Derived-Units.jpg  style="width:750px;">
+<img alt="" src=images/SI-Derived-Units.jpg  style="width   *750px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Jednoduchým způsobem jak vyjádřit jednotku je celočíselné pole 7 čísel (počet základních jednotek), které definuje o jakou jednotku se jedná. Signatury 7 základních jednotek jsou:
+Jednoduchým způsobem jak vyjádřit jednotku je celočíselné pole 7 čísel (počet základních jednotek), které definuje o jakou jednotku se jedná. Signatury 7 základních jednotek jsou   *
 
--   DĚLKA: \[1,0,0,0,0,0,0\]
--   HMOTNOST: \[0,1,0,0,0,0,0\]
--   ČAS: \[0,0,1,0,0,0,0\]
--   ELEKTRICKÝ PROUD: \[0,0,0,1,0,0,0\]
--   TERMODYNAMICKÁ TEPLOTA: \[0,0,0,0,1,0,0\]
--   LÁTKOVÉ MNOŽSTVÍ: \[0,0,0,0,0,1,0\]
--   SVĚTELNÁ INTENZITA: \[0,0,0,0,0,0,1\]
+-   DĚLKA   * \[1,0,0,0,0,0,0\]
+-   HMOTNOST   * \[0,1,0,0,0,0,0\]
+-   ČAS   * \[0,0,1,0,0,0,0\]
+-   ELEKTRICKÝ PROUD   * \[0,0,0,1,0,0,0\]
+-   TERMODYNAMICKÁ TEPLOTA   * \[0,0,0,0,1,0,0\]
+-   LÁTKOVÉ MNOŽSTVÍ   * \[0,0,0,0,0,1,0\]
+-   SVĚTELNÁ INTENZITA   * \[0,0,0,0,0,0,1\]
 
 
 </div>
@@ -70,10 +70,10 @@ Jednoduchým způsobem jak vyjádřit jednotku je celočíselné pole 7 čísel 
 
 <div class="mw-translate-fuzzy">
 
-Těmito 7 jednotkami můžeme vyjádřit všechny odvozené jednotky definované v [Průvodci pro použití Mezinárodního jednotkového systému (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) a vytvářet nové jednotky podle potřeby jako například:
+Těmito 7 jednotkami můžeme vyjádřit všechny odvozené jednotky definované v [Průvodci pro použití Mezinárodního jednotkového systému (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) a vytvářet nové jednotky podle potřeby jako například   *
 
--   MĚRNÁ HMOTNOST: \[-3,1,0,0,0,0,0\]
--   PLOCHA: \[0,2,0,0,0,0,0\]
+-   MĚRNÁ HMOTNOST   * \[-3,1,0,0,0,0,0\]
+-   PLOCHA   * \[0,2,0,0,0,0,0\]
 
 
 </div>
@@ -99,7 +99,7 @@ Protože úhly jsou fyzikálně bezrozměrné, ale ne méně důležité v CAD s
 
 <div class="mw-translate-fuzzy">
 
-Detailní popis je zde: [Std\_UnitsCalculator](Std_UnitsCalculator.md)
+Detailní popis je zde   * [Std\_UnitsCalculator](Std_UnitsCalculator.md)
 
 
 </div>
@@ -109,7 +109,7 @@ Detailní popis je zde: [Std\_UnitsCalculator](Std_UnitsCalculator.md)
 
 ## VstupníPole
 
-VstupníPole je QLineEdit odvozený z Qt widgetu k práci se všemi druhy uživatelských vstupů veličin a parametrů. Má následující vlastnosti:
+VstupníPole je QLineEdit odvozený z Qt widgetu k práci se všemi druhy uživatelských vstupů veličin a parametrů. Má následující vlastnosti   *
 
 -   zpracovává libovolné hodnoty/jednotky na vstupu
 -   kontrola na správnou jednotku (je-li zadána) a dává uživatelskou odezvu
@@ -128,7 +128,7 @@ Kalkulátor jednotek již VstupníPole používá.
 
 <div class="mw-translate-fuzzy">
 
-Hlavní dokument: [InputField/cs](InputField/cs.md)
+Hlavní dokument   * [InputField/cs](InputField/cs.md)
 
 
 </div>
@@ -136,10 +136,10 @@ Hlavní dokument: [InputField/cs](InputField/cs.md)
 
 <div class="mw-translate-fuzzy">
 
-Kód:
+Kód   *
 
--   <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.h>
--   <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.cpp>
+-   <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.h>
+-   <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.cpp>
 
 
 </div>
@@ -265,11 +265,11 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
 
 ### Hodnoty pro uživatele 
 
-Ve skriptech můžete používat veličiny pro všechny druhy výpočtů a kontrol, přijde čas, kdy budete muset vytvořit výstupní informaci pro uživatele. Můžete použít getValueAs() pro vynucení určité jednotky, ale normálně uživatel nastaví svoje preferované jednotkové schéma v předvolbách. Toto jednotkové schema dělá všechny převody do reprezentace, kterou chce uživatel vidět. V této době jsou implementována 3 schemata:
+Ve skriptech můžete používat veličiny pro všechny druhy výpočtů a kontrol, přijde čas, kdy budete muset vytvořit výstupní informaci pro uživatele. Můžete použít getValueAs() pro vynucení určité jednotky, ale normálně uživatel nastaví svoje preferované jednotkové schéma v předvolbách. Toto jednotkové schema dělá všechny převody do reprezentace, kterou chce uživatel vidět. V této době jsou implementována 3 schemata   *
 
--   1: Vnitřní (mm/kg/s)
--   2: MKS (m/kg/s)
--   3: US customary (in/lb)
+-   1   * Vnitřní (mm/kg/s)
+-   2   * MKS (m/kg/s)
+-   3   * US customary (in/lb)
 
 Přidální dalších schemat bude v budoucnosti snadné \...
 
@@ -279,7 +279,7 @@ Přidální dalších schemat bude v budoucnosti snadné \...
 
 <div class="mw-translate-fuzzy">
 
-Třída pro veličinu má dvě možnosti použití aktuálních převodového schematu:
+Třída pro veličinu má dvě možnosti použití aktuálních převodového schematu   *
 
 
 </div>
@@ -288,22 +288,22 @@ Třída pro veličinu má dvě možnosti použití aktuálních převodového sc
 ```python
 from FreeCAD import Units
 
-# Use the translated string:
+# Use the translated string   *
 Units.Quantity('1m').UserString           # '1000 mm' in 1; '1 m' in 2; and '1.09361 yr' in 3
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-To funguje jenom když potřebujete řetězce (texty). Ale někdy potřebujete větší řízení, např. když máte dialogové tlačítko a možností posunu nahoru a dolu. Pak potřebujete mnohe víc informací o převodu do výstupu. Proto je pro veličiny používána metoda getUserPrefered():
+To funguje jenom když potřebujete řetězce (texty). Ale někdy potřebujete větší řízení, např. když máte dialogové tlačítko a možností posunu nahoru a dolu. Pak potřebujete mnohe víc informací o převodu do výstupu. Proto je pro veličiny používána metoda getUserPrefered()   *
 
 
 </div>
 
 
 ```python
-Units.Quantity('22 m').getUserPreferred() # gets a tuple:('22 m', 1000.0, 'm')
-Units.Quantity('2  m').getUserPreferred() # Tuple: ('2000 mm', 1.0, 'mm')
+Units.Quantity('22 m').getUserPreferred() # gets a tuple   *('22 m', 1000.0, 'm')
+Units.Quantity('2  m').getUserPreferred() # Tuple   * ('2000 mm', 1.0, 'mm')
 ```
 
 
@@ -317,22 +317,22 @@ Zde získáte dvě další informace jako pole o velikosti 3. Dostanete řetěze
 
 <div class="mw-translate-fuzzy">
 
-Kódy pro převodní schema můžete najít zde:
+Kódy pro převodní schema můžete najít zde   *
 
--   <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/UnitsSchemaInternal.cpp>
--   <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/UnitsSchemaMKS.cpp>
--   <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/UnitsSchemaImperial1.cpp>
+-   <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/UnitsSchemaInternal.cpp>
+-   <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/UnitsSchemaMKS.cpp>
+-   <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/UnitsSchemaImperial1.cpp>
 
 
 </div>
 
 ### Precision
 
-The precision of quantities is within FreeCAD dialogs the number of decimals specified [in the preferences](Preferences_Editor#Units.md). To use this settings for your script (for example in dialogs), you can get it with this code: 
+The precision of quantities is within FreeCAD dialogs the number of decimals specified [in the preferences](Preferences_Editor#Units.md). To use this settings for your script (for example in dialogs), you can get it with this code   * 
 ```python
 import FreeCAD
 
-params = App.ParamGet("User parameter:BaseApp/Preferences/Units")
+params = App.ParamGet("User parameter   *BaseApp/Preferences/Units")
 params.GetInt('Decimals') # returns an int
 ```
 
@@ -401,6 +401,11 @@ from FreeCAD import Units
  "st"  = Units.Quantity(6.35029318   ,Units.Unit(0,1));    // Stone
  "cwt" = Units.Quantity(50.80234544  ,Units.Unit(0,1));    // hundredweights
 ```
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

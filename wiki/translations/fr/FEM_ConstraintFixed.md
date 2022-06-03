@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM ConstraintFixed
-   Name/fr:FEM Contrainte fixe
-   MenuLocation:Model → Mechanical Constraints → Constraint fixed
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte de contact](FEM_ConstraintContact/fr.md)
+- GuiCommand   */fr
+   Name   *FEM ConstraintFixed
+   Name/fr   *FEM Contrainte fixe
+   MenuLocation   *Model → Mechanical Constraints → Constraint fixed
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[FEM Contrainte de contact](FEM_ConstraintContact/fr.md)
 ---
 
 # FEM ConstraintFixed/fr
@@ -15,7 +15,7 @@ Crée une contrainte FEM pour fixer une géométrie bloquée tous les 6 degrés 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintFixed.svg" width=16px> [Creates a FEM constraint for a fixed geometry entity](FEM_ConstraintFixed/fr.md)**.
     -   Sélectionnez l\'option **Model → Mechanical Constraints → <img src="images/FEM_ConstraintFixed.svg" width=16px> Constraint fixed** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée, qui peut être un sommet (coin), une arête ou une face.

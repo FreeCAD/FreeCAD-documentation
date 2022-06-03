@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name:Std_UnitsCalculator
-   Name/ru:Std_UnitsCalculator
-   MenuLocation:Панели инструментов → Калькулятор единиц...
-   Workbenches:Все
+- GuiCommand   */ru
+   Name   *Std_UnitsCalculator
+   Name/ru   *Std_UnitsCalculator
+   MenuLocation   *Панели инструментов → Калькулятор единиц...
+   Workbenches   *Все
 ---
 
 # Std UnitsCalculator/ru

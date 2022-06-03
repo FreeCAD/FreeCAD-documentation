@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std ShowSelection
-   Name/fr:Std Afficher la sélection
-   MenuLocation:Affichage → Visibilité → Afficher la sélection
-   Workbenches:Tous
-   SeeAlso:[Std Basculer la visibilité](Std_ToggleVisibility/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher tous les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
+- GuiCommand   */fr
+   Name   *Std ShowSelection
+   Name/fr   *Std Afficher la sélection
+   MenuLocation   *Affichage → Visibilité → Afficher la sélection
+   Workbenches   *Tous
+   SeeAlso   *[Std Basculer la visibilité](Std_ToggleVisibility/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher tous les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
 ---
 
 # Std ShowSelection/fr
@@ -19,7 +19,7 @@ La commande **Std Afficher la sélection** masque les objets sélectionnés dans
     -   Les objets invisibles peuvent être sélectionnés dans la [vue en arborescence](Tree_view/fr.md).
     -   Soyez prudent lorsque vous utilisez **Ctrl**+**A** pour sélectionner tous les objets dans l\'arborescence. Cela sélectionnera également les sous-éléments du [PartDesign Corps](PartDesign_Body/fr.md) et les objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md). Dans la plupart des cas, ceux-ci doivent rester invisibles.
     -   Les objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md) sont également sélectionnés lorsque vous utilisez **Ctrl**+**A** dans une vue 3D.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ShowSelection.svg" width=16px> Afficher la sélection** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_ShowSelection.svg" width=16px> Afficher la sélection** dans le menu contextuel de l\'arborescence. Cette option n\'est pas disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
@@ -34,7 +34,7 @@ La commande **Std Afficher la sélection** masque les objets sélectionnés dans
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

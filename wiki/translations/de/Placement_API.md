@@ -2,14 +2,14 @@
 <div class="mw-translate-fuzzy">
 
 
-**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].**
+**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https   *//www.freecadweb.org/api autogenerierte API-Dokumentation].**
 
 
 </div>
 
-In FreeCAD, Placement defines an object\'s position and rotation. The Placement concept is explained in detail here: [Placement](Placement.md).
+In FreeCAD, Placement defines an object\'s position and rotation. The Placement concept is explained in detail here   * [Placement](Placement.md).
 
-Example of setting a document object\'s Placement: 
+Example of setting a document object\'s Placement   * 
 ```python
 myObj = FreeCAD.ActiveDocument.ActiveObject
 pl = FreeCAD.Placement()
@@ -40,6 +40,11 @@ myObj.Placement = pl
 
 
 {{APIFunction|toMatrix| | |a matrix representing the Placement's transformation.}}
+
+
+ 
+
+[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

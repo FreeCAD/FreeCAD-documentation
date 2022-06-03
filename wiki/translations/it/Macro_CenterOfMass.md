@@ -10,7 +10,7 @@
 |Version=0.4.1
 |Date=2019-05-25
 |FCVersion=0.18
-|Download=Scaricare il pacchetto [https://forum.freecadweb.org/download/file.php?id=84270 Macro_CenterOfMass_Icon] e posizionarlo nella stessa directory della macro.
+|Download=Scaricare il pacchetto [https   *//forum.freecadweb.org/download/file.php?id=84270 Macro_CenterOfMass_Icon] e posizionarlo nella stessa directory della macro.
 }}
 
 
@@ -18,7 +18,7 @@
 
 ## Descrizione
 
-Fornisce la massa totale e la posizione del centro di massa risultante da più oggetti selezionati. È possibile scegliere diverse densità per ciascun oggetto. {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/CenterOfMass.FCMacro}}
+Fornisce la massa totale e la posizione del centro di massa risultante da più oggetti selezionati. È possibile scegliere diverse densità per ciascun oggetto. {{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/CenterOfMass.FCMacro}}
 
 ![](images/CenterOfMass_exemple.png )
 
@@ -44,7 +44,7 @@ Download in Github
 
 </div>
 
-[Macro CenterOfMass.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/CenterOfMass.FCMacro)
+[Macro CenterOfMass.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Information/CenterOfMass.FCMacro)
 
 
 <div class="mw-translate-fuzzy">
@@ -58,30 +58,30 @@ Scaricare e incollare i file icona in una sottodirectory denominata CenterOfMass
 
 ## Link
 
-La discussione nel forum [Macro to compute center of mass](https://forum.freecadweb.org/viewtopic.php?f=24&t=31883)
+La discussione nel forum [Macro to compute center of mass](https   *//forum.freecadweb.org/viewtopic.php?f=24&t=31883)
 
 ## Versione
 
 
 <div class="mw-translate-fuzzy">
 
-0.4.1 / 2019-05-25 : add default density button, sphere cursor, change window behavior, correct a container part issue
+0.4.1 / 2019-05-25    * add default density button, sphere cursor, change window behavior, correct a container part issue
 
 
 </div>
 
-0.4.2 / 2019-06-09:
+0.4.2 / 2019-06-09   *
 
 -   Check last version number on github and popup if not last version.
 -   Automatic update of show CdG (if it exists) when densities are changed.
 -   Bug correction when changing radius.
 
-0.4.1 / 2019-05-25: Add default density button, sphere cursor, change window behavior, correct a container part issue.
+0.4.1 / 2019-05-25   * Add default density button, sphere cursor, change window behavior, correct a container part issue.
 
 
 <div class="mw-translate-fuzzy">
 
-0.3.6 / 2019-05-22 : Radius of pheres representing centers of mass of each solid depends on each masses
+0.3.6 / 2019-05-22    * Radius of pheres representing centers of mass of each solid depends on each masses
 
 
 </div>
@@ -89,7 +89,7 @@ La discussione nel forum [Macro to compute center of mass](https://forum.freecad
 
 <div class="mw-translate-fuzzy">
 
-0.3.5 / 2019-05-21 : Arrays and clone correction
+0.3.5 / 2019-05-21    * Arrays and clone correction
 
 
 </div>
@@ -97,7 +97,7 @@ La discussione nel forum [Macro to compute center of mass](https://forum.freecad
 
 <div class="mw-translate-fuzzy">
 
-0.3.4 / 2019-03-18 : minor
+0.3.4 / 2019-03-18    * minor
 
 
 </div>
@@ -105,7 +105,7 @@ La discussione nel forum [Macro to compute center of mass](https://forum.freecad
 
 <div class="mw-translate-fuzzy">
 
-0.3.3 / 2019-03-17 : loading .csv corrections
+0.3.3 / 2019-03-17    * loading .csv corrections
 
 
 </div>
@@ -113,7 +113,7 @@ La discussione nel forum [Macro to compute center of mass](https://forum.freecad
 
 <div class="mw-translate-fuzzy">
 
-0.3.2 / 2019-03-14 : add a colorify push button to add color on shapes depending on their density
+0.3.2 / 2019-03-14    * add a colorify push button to add color on shapes depending on their density
 
 
 </div>
@@ -121,7 +121,7 @@ La discussione nel forum [Macro to compute center of mass](https://forum.freecad
 
 <div class="mw-translate-fuzzy">
 
-0.3.0 / 2019-03-03 : python 3 compatibility
+0.3.0 / 2019-03-03    * python 3 compatibility
 
 
 </div>
@@ -129,7 +129,7 @@ La discussione nel forum [Macro to compute center of mass](https://forum.freecad
 
 <div class="mw-translate-fuzzy">
 
-0.2.3 / 2018-11-22 : new icon name
+0.2.3 / 2018-11-22    * new icon name
 
 
 </div>
@@ -137,7 +137,7 @@ La discussione nel forum [Macro to compute center of mass](https://forum.freecad
 
 <div class="mw-translate-fuzzy">
 
-0.1.2 / 2018-11-10 : xx
+0.1.2 / 2018-11-10    * xx
 
 
 </div>

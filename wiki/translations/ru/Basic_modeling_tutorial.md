@@ -1,12 +1,12 @@
 # Basic modeling tutorial/ru
 ---
-- TutorialInfo:/ru
-   Topic: Introduction to modelling
-   Level: Beginner
-   Time: 15 minutes
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */ru
+   Topic   * Introduction to modelling
+   Level   * Beginner
+   Time   * 15 minutes
+   Author   *
+   FCVersion   *
+   Files   *
 }}
 
 ## Introduction
@@ -21,7 +21,7 @@ Save your work often, from time to time save your work under a different name, s
 
 ## Modeling Techniques Intro 
 
-The first (and basic) technique of solid modeling is [Constructive Solid Geometry (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). There is also a detailed explanation (in the context of FreeCAD) of [Constructive\_solid\_geometry](Constructive_solid_geometry.md) on the wiki. You work with primitive shapes like cubes, cylinders, spheres and cones to construct your geometry by combining them, subtracting one shape from the other, or intersecting them. These tools are part of the [Part Workbench](Part_Workbench.md). You can also apply transformations on shapes, like applying rounds or chamfers on edges. These tools are also in the [Part Workbench](Part_Workbench.md).
+The first (and basic) technique of solid modeling is [Constructive Solid Geometry (CSG)](http   *//en.wikipedia.org/wiki/Constructive_solid_geometry). There is also a detailed explanation (in the context of FreeCAD) of [Constructive\_solid\_geometry](Constructive_solid_geometry.md) on the wiki. You work with primitive shapes like cubes, cylinders, spheres and cones to construct your geometry by combining them, subtracting one shape from the other, or intersecting them. These tools are part of the [Part Workbench](Part_Workbench.md). You can also apply transformations on shapes, like applying rounds or chamfers on edges. These tools are also in the [Part Workbench](Part_Workbench.md).
 
 Then there are more advanced tools. You start by drawing a 2D profile which you\'ll either extrude or revolve.
 
@@ -30,14 +30,14 @@ So let\'s start by trying to do some iron feet for a table with these 2 methods.
 ## 1st Method - By Constructive Solid Geometry 
 
 1.  Start with the [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click **File → New** or click the <img alt="" src=images/Std_New.svg  style="width:32px;"> **Create a new empty document** icon.
-3.  Click on the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box.md) button to create a box
+2.  If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click **File → New** or click the <img alt="" src=images/Std_New.svg  style="width   *32px;"> **Create a new empty document** icon.
+3.  Click on the <img alt="" src=images/Part_Box.svg  style="width   *32px;"> [Box](Part_Box.md) button to create a box
 4.  Change its dimensions by selecting it either in the 3D space, or by clicking it in the Project tab to the left, then
-5.  Click on the Data tab at the bottom, and change values for Length, Width and Height to 50mm, 50 and 750 *(see Fig. 1.1)* **Note**: *back when these captures were taken, the properties were ordered differently, with Height being first*.
-6.  The box now fills most of the 3D view. Click on <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Fit All](Std_ViewFitAll.md) to fit the view to the newly created box.
+5.  Click on the Data tab at the bottom, and change values for Length, Width and Height to 50mm, 50 and 750 *(see Fig. 1.1)* **Note**   * *back when these captures were taken, the properties were ordered differently, with Height being first*.
+6.  The box now fills most of the 3D view. Click on <img alt="" src=images/Std_ViewFitAll.svg  style="width   *32px;"> [Fit All](Std_ViewFitAll.md) to fit the view to the newly created box.
 7.  Create a second box the same way, but with values L=40, W=40 and H=750mm. By default this box will be superimposed on the first one. *(see Fig. 1.2)*
-8.  You\'ll now subtract the second box from the first. Select the first shape first (named Box), then the second one (named Box001), the selection order is important! (Make sure that both shapes are selected in the Project tree. **One thing to remember:** in Inventor navigation mode, **Ctrl** + click does not work for multiple selection. Switch [Mouse navigation](Mouse_navigation.md) to either CAD or Blender selection.)
-9.  On the Part Workbench toolbar, click on the <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md) tool.
+8.  You\'ll now subtract the second box from the first. Select the first shape first (named Box), then the second one (named Box001), the selection order is important! (Make sure that both shapes are selected in the Project tree. **One thing to remember   *** in Inventor navigation mode, **Ctrl** + click does not work for multiple selection. Switch [Mouse navigation](Mouse_navigation.md) to either CAD or Blender selection.)
+9.  On the Part Workbench toolbar, click on the <img alt="" src=images/Part_Cut.svg  style="width   *32px;"> [Cut](Part_Cut.md) tool.
 
 ![Fig. 1.1 The first box](images/Tutorial-normand01.jpg )
 
@@ -53,7 +53,7 @@ Don\'t want the angle oriented that way? You just need to change the placement o
 
 ![Fig. 1.5 You can still make the original boxes visible](images/Tutorial-normand05.jpg )
 
-By the way, we can add rounds to the angle so it is more realistic, using the <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md) tool. 
+By the way, we can add rounds to the angle so it is more realistic, using the <img alt="" src=images/Part_Fillet.svg  style="width   *32px;"> [Fillet](Part_Fillet.md) tool. 
 *(Fig. 1.6)*
 
 ![Fig. 1.6 The filleted edges](images/Tutorial-normand06.jpg )
@@ -62,7 +62,7 @@ By the way, we can add rounds to the angle so it is more realistic, using the <i
 
 This method requires that you start by drawing a 2D profile. You need to activate the [Draft workbench](Draft_Workbench.md) ![](images/Switch_DraftWorkbench.JPG ).
 
--   If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click File → New or click the <img alt="" src=images/Std_New.svg  style="width:32px;"> **Create a new empty document** icon.
+-   If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click File → New or click the <img alt="" src=images/Std_New.svg  style="width   *32px;"> **Create a new empty document** icon.
 
 ### Setting the working plane 
 
@@ -70,30 +70,30 @@ First we need to define on which [working plane](Draft_SelectPlane.md) to draft 
 
 1.  Locate the toolbar displayed below. Depending on your Draft preferences, it may be below the main toolbar, to the left or to the right.
 
-    :   ![](images/DraftPlaneAuto.png )
+       *   ![](images/DraftPlaneAuto.png )
 2.  Press the **Auto** button (it may be labeled \"None\").
-3.  Depending on your Draft preferences, this expands a **Select Plane** dialog in the Tasks side panel, or a horizontal toolbar labeled \"active command: **Select Plane**\". See the [Note on Draft Working Plane Button](#Note_on_Draft_Working_Plane_Button.md) for screen captures showing the two expanded modes.
+3.  Depending on your Draft preferences, this expands a **Select Plane** dialog in the Tasks side panel, or a horizontal toolbar labeled \"active command   * **Select Plane**\". See the [Note on Draft Working Plane Button](#Note_on_Draft_Working_Plane_Button.md) for screen captures showing the two expanded modes.
 4.  We will leave the *Offset* field at a value of zero.
 5.  Press the **XY** button to set the working plane to XY. This closes the Tasks panel or the expanded buttons. The \"Auto\" button will now be relabeled as \"Top\" to show it is the active plane.
 
 ### Drafting the profile 
 
-1.  Select the <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [DWire (multiple-point DraftWire)](Draft_Wire.md) tool.
+1.  Select the <img alt="" src=images/Draft_Wire.svg  style="width   *32px;"> [DWire (multiple-point DraftWire)](Draft_Wire.md) tool.
 2.  Check the \"Relative\" and \"Filled\" boxes.
-3.  Rather than drawing the shape in the 3D view, we\'ll enter coordinates in the *Global X*, *Global Y* and *Global Z* input fields. The process is the following:
+3.  Rather than drawing the shape in the 3D view, we\'ll enter coordinates in the *Global X*, *Global Y* and *Global Z* input fields. The process is the following   *
     1.  Click in the *Global X* input field;
     2.  Enter a value as listed in the bullet list below and press **TAB** to go to the *Global Y* input field;
     3.  Enter the *Global Y* value and press **TAB** to go to the *Global Z* input field;
     4.  In the *Global Z* field, leave the zero value and press **ENTER** to validate the coordinates for the point;
     5.  Repeat for the next 5 points.
         -   **Coordinates** (X, Y, Z)
-        -   1st point: 0, 0, 0
-        -   2nd point: 50, 0, 0
-        -   3rd point: 0,10, 0
-        -   4th point: -40, 0, 0 **Note:** *in FreeCAD 0.16, there is a bug that removes the previous point when entering the minus sign in the input field. A workaround is to enter a positive value, then place the cursor before the number and add the minus sign. (This bug is resolved in v0.17)*
-        -   5th point: 0, 40, 0
-        -   6th point: -10, 0, 0
-4.  Press the **Close** button to close the profile. You should now have this profile, titled **DWire** in the Model tab:
+        -   1st point   * 0, 0, 0
+        -   2nd point   * 50, 0, 0
+        -   3rd point   * 0,10, 0
+        -   4th point   * -40, 0, 0 **Note   *** *in FreeCAD 0.16, there is a bug that removes the previous point when entering the minus sign in the input field. A workaround is to enter a positive value, then place the cursor before the number and add the minus sign. (This bug is resolved in v0.17)*
+        -   5th point   * 0, 40, 0
+        -   6th point   * -10, 0, 0
+4.  Press the **Close** button to close the profile. You should now have this profile, titled **DWire** in the Model tab   *
 
 ![Fig. 1.7 The base DWire](images/Tutorial-normand07.jpg )
 
@@ -101,7 +101,7 @@ Hit the **0** (zero) key on the numerical keypad to set the view to axonometric.
 
 ### Extruding the profile 
 
-Activate the <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Workbench](Part_Workbench.md) either from the [workbench selector](Std_Workbench.md), or from the **[[Std View Menu   View]] → Workbench → Part** menu.
+Activate the <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> [Part Workbench](Part_Workbench.md) either from the [workbench selector](Std_Workbench.md), or from the **[[Std View Menu   View]] → Workbench → Part** menu.
 
 Click on the **![](images/)**_tool.
 
@@ -109,13 +109,13 @@ On the Tasks tab on the left, select the **Wire** object. Then enter the desired
 
 ![Fig. 1.8 The extruded object](images/Tutorial-normand08.jpg )
 
-This method has a minor caveat compared to the other one: to edit the shape, you need to edit the Wire, it\'s not as easy to do as the previous method.
+This method has a minor caveat compared to the other one   * to edit the shape, you need to edit the Wire, it\'s not as easy to do as the previous method.
 
-And there are a few other ways to do it too! I hope these two examples get you started. You\'ll sure hit some snags along the way (I did when I first learned FreeCAD, and I do have 3D CAD experience), but don\'t hesitate to ask questions on the [FreeCAD forum](https://forum.freecadweb.org)!
+And there are a few other ways to do it too! I hope these two examples get you started. You\'ll sure hit some snags along the way (I did when I first learned FreeCAD, and I do have 3D CAD experience), but don\'t hesitate to ask questions on the [FreeCAD forum](https   *//forum.freecadweb.org)!
 
 ### Note on Draft Working Plane Button 
 
-The label on your button may be different, depending on your version and also on what you were doing beforehand. The button label could read: \"Top\", \"Front\", \"Side\", \"None\" or a Vector representation such as d(0.0,0.0,1.0). It can also be blank. For example:
+The label on your button may be different, depending on your version and also on what you were doing beforehand. The button label could read   * \"Top\", \"Front\", \"Side\", \"None\" or a Vector representation such as d(0.0,0.0,1.0). It can also be blank. For example   *
 
 ![Select Plane None](images/DraftPlaneNone.png )
 

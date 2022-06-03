@@ -1,58 +1,33 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher CreatePoint
-   Name/de:Skizzierer ErzeugePunkt
-   MenuLocation:Skizze → Skizzengeometrien → Punkt erzeugen
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Sketcher CreatePoint
+   Name/de   *Sketcher PunktErstellen
+   MenuLocation   *Sketch → Skizzengeometrien → Punkt erstellen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***G** **Y**
 ---
 
 # Sketcher CreatePoint/de
 
-
-</div>
-
 ## Beschreibung
 
+Das Punktwerkzeug erzeugt einen Punkt in der aktuellen Skizze, der für die Konstruktion von geometrischen Elementen genutzt werden kann.
 
-<div class="mw-translate-fuzzy">
-
-Das Punktwerkzeug erzeugt einen Punkt in der aktuellen Skizze, der für die Konstruktion von geometrischen Elementen genutzt werden kann. Der Punkt ist immer ein Konstruktionselement und erscheint nicht in der 3D-Ansicht.
-
-
-</div>
-
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
+[480px\|Point in the sketcher](IMAGE   *Sketcher_Point_fr_01.png.md)
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
--   Auf die Schaltfläche **<img src="images/Sketcher_Point.svg" width=24px> ErstellePunkt** klicken.
+-   Auf die Schaltfläche **<img src="images/Sketcher_Point.svg" width=24px> Punkt erstellen** klicken, um die Funktion zu aktivieren.
 -   Ein Klick in die Skizze erzeugt einen Punkt.
 -   Durch Drücken von **Esc** oder Klicken mit der rechten Maustaste wird die Funktion abgebrochen.
 
-
-</div>
-
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
-Ein Modus zum Fangen an das Gitter kann unter [Skizzierer Einstellungen](Sketcher_Preferences/de.md) eingestellt werden. Der Punkt wird dann an das Gitter gefangen, wenn er weniger als 25% Gitterabstand zu einer Gitterlinie hat. Der Fang Modus fixiert sie nicht am Gitter. Die Punkte können mit der Maus oder mit Zwangsbeschränkungen an andere Stellen verschoben werden.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Standardmäßig werden Punkte als Konstruktionsgeometrie erstellt und sind daher außerhalb des Bearbeitungsmodus der Skizze nicht sichtbar. Mit dem Werkzeug <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width   *16px;"> [UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md) lassen sie sich in normale Geometrie umwandeln. {{Version/de|0.19}}
+-   Der Modus **Am Raster fangen** kann in den [Sketcher Einstellungen](Sketcher_Preferences/de.md) aktiviert werden. Ein Punkt wird dann am Raster gefangen, wenn sein Abstand zu einer Rasterlinie weniger als 25 % des Abstandes zwischen zwei Rasterlinien beträgt. Der Fangmodus fixiert den Punkt nicht am Raster. Er hat weiterhin zwei nicht bestimmte Freiheitsgrade und kann noch mit der Maus bewegt werden oder mit Randbedingungen anderen Positionen zugeordnet werden.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

@@ -7,9 +7,9 @@
 |Author=Mario52
 |Version=0.1
 |Date=2015-01-16
-|Download=[https://www.freecadweb.org/wiki/images/d/d5/Macro_Align_Face_Object_to_View.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/d/d5/Macro_Align_Face_Object_to_View.png ToolBar Icon]
 |FCVersion=Tutte
-|SeeAlso=[32px|FCCamera](File:FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera/it.md)}}
+|SeeAlso=[32px|FCCamera](File   *FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera/it.md)}}
 
 ## Description
 
@@ -54,19 +54,19 @@ __author__ = "Mario52"
 import pivy
 from pivy import coin
 
-try:
+try   *
     v=Gui.Selection.getSelectionEx()[0].SubObjects[0].Surface.Axis    # to Axis
 #    v = Gui.Selection.getSelectionEx()[0].SubObjects[0].normalAt(0,0) # normalAt
     r=App.Rotation(App.Vector(0,0,1),v)
     Gui.ActiveDocument.ActiveView.setCameraOrientation(r.Q)
-except Exception:
+except Exception   *
     App.Console.PrintError("Select a face and run the macro"+"\n")
 
 }}
 
 ## Links
 
-Original macro by wmayer [Looking for some helpful GUI-commands](http://forum.freecadweb.org/viewtopic.php?f=3&t=7029&p=56735&hilit=Shape.Face4#p56735)
+Original macro by wmayer [Looking for some helpful GUI-commands](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7029&p=56735&hilit=Shape.Face4#p56735)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Std LinkSelectLinked
-   MenuLocation:''None''
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+- GuiCommand   *
+   Name   *Std LinkSelectLinked
+   MenuLocation   *''None''
+   Workbenches   *All
+   Version   *0.19
+   SeeAlso   *[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
 ---
 
 # Std LinkSelectLinked/ru

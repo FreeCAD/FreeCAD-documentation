@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher BSplineDegree
-   Name/de:Skizzierer BSplineGrad
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation:Sketch → Skizzierer B-spline Werkzeuge → B-spline Grad anzeigen/ausblenden
-   Version:0.17
-   SeeAlso:[Create B-spline](Sketcher_CompCreateBSpline.md)
+- GuiCommand   */de
+   Name   *Sketcher BSplineDegree
+   Name/de   *Skizzierer BSplineGrad
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   MenuLocation   *Sketch → Skizzierer B-spline Werkzeuge → B-spline Grad anzeigen/ausblenden
+   Version   *0.17
+   SeeAlso   *[Create B-spline](Sketcher_CompCreateBSpline.md)
 ---
 
 # Sketcher BSplineDegree/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Zeigt oder blendet die Anzeige des Grades einer B-Spline-Kurve ein oder aus (siehe [B-Spline](https://en.wikipedia.org/wiki/B-spline)).
+Zeigt oder blendet die Anzeige des Grades einer B-Spline-Kurve ein oder aus (siehe [B-Spline](https   *//en.wikipedia.org/wiki/B-spline)).
 
 
 </div>

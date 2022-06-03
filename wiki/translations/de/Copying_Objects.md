@@ -18,7 +18,7 @@ Wie viele andere Software hat auch FreeCAD die Möglichkeit, Objekte zu kopieren
 
 <div class="mw-translate-fuzzy">
 
-Bitte beachte, dass die kopiert-eingefügten Objekte nicht vom Original abhängig sind. Wenn du abhängige Klone möchtest, verwende bitte <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Arbeitsbereich Entwurf Klon](Draft_Clone/de.md) oder <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [PartDesign Arbeitsbereich Klon](PartDesign_Clone/de.md). Wenn du weder einen abhängigen Klon noch ein parametrisches Abbild brauchst, kannst du auch <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [Formteil Arbeitsbereich Einfache Kopie](Part_SimpleCopy/de.md) verwenden. Für gemusterte Klone schaue bitte in den Abschnitt [Andere Methoden](Copying_Objects/de#Andere_Methoden.md) auf dieser Seite.
+Bitte beachte, dass die kopiert-eingefügten Objekte nicht vom Original abhängig sind. Wenn du abhängige Klone möchtest, verwende bitte <img alt="" src=images/Draft_Clone.svg  style="width   *24px;"> [Arbeitsbereich Entwurf Klon](Draft_Clone/de.md) oder <img alt="" src=images/PartDesign_Clone.svg  style="width   *24px;"> [PartDesign Arbeitsbereich Klon](PartDesign_Clone/de.md). Wenn du weder einen abhängigen Klon noch ein parametrisches Abbild brauchst, kannst du auch <img alt="" src=images/Part_SimpleCopy.svg  style="width   *24px;"> [Formteil Arbeitsbereich Einfache Kopie](Part_SimpleCopy/de.md) verwenden. Für gemusterte Klone schaue bitte in den Abschnitt [Andere Methoden](Copying_Objects/de#Andere_Methoden.md) auf dieser Seite.
 
 
 </div>
@@ -54,11 +54,11 @@ Nach dem Kopieren/Einfügen Vorgang ist es möglicherweise nicht offensichtlich,
 
 ## Andere Methoden 
 
-Wie bei den meisten Dingen in FreeCAD gibt es viele Möglichkeiten, eine Kopie zu erstellen. Für weitere Ideen schau unter:
+Wie bei den meisten Dingen in FreeCAD gibt es viele Möglichkeiten, eine Kopie zu erstellen. Für weitere Ideen schau unter   *
 
--   PartDesign: [Gespiegelt](PartDesign_Mirrored/de.md), [Lineares Muster](PartDesign_LinearPattern/de.md), [Radiales Muster](PartDesign_PolarPattern/de.md), [Mehrfachtransformation](PartDesign_MultiTransform/de.md)
--   Part: [Spiegeln](Part_Mirror/de.md), [Einfache Kopie erstellen](Part_SimpleCopy/de.md)
--   Draft: [Versetzen](Draft_Offset/de.md), [Skalieren](Draft_Scale/de.md), [AnordnungRechtwinklig](Draft_OrthoArray/de.md), [PfadAnordnen](Draft_PathArray/de.md), [Klonen](Draft_Clone/de.md), [Spiegeln](Draft_Mirror/de.md)
+-   PartDesign   * [Gespiegelt](PartDesign_Mirrored/de.md), [Lineares Muster](PartDesign_LinearPattern/de.md), [Radiales Muster](PartDesign_PolarPattern/de.md), [Mehrfachtransformation](PartDesign_MultiTransform/de.md)
+-   Part   * [Spiegeln](Part_Mirror/de.md), [Einfache Kopie erstellen](Part_SimpleCopy/de.md)
+-   Draft   * [Versetzen](Draft_Offset/de.md), [Skalieren](Draft_Scale/de.md), [AnordnungRechtwinklig](Draft_OrthoArray/de.md), [PfadAnordnen](Draft_PathArray/de.md), [Klonen](Draft_Clone/de.md), [Spiegeln](Draft_Mirror/de.md)
 
 
 </div>

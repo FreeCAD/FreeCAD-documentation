@@ -1,6 +1,8 @@
 # Category:BIM/sv
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/sv](Category   *User_Documentation/sv.md)
+
 ### Contents
 
 |     |     |     |

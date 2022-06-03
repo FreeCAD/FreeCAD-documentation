@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Std HideObjects
-   Name/ru:Std HideObjects
-   MenuLocation:Вид → Видимость → Скрыть все объекты
-   Workbenches:All
-   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md)
+- GuiCommand   */ru
+   Name   *Std HideObjects
+   Name/ru   *Std HideObjects
+   MenuLocation   *Вид → Видимость → Скрыть все объекты
+   Workbenches   *All
+   SeeAlso   *[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md)
 ---
 
 # Std HideObjects/ru
@@ -26,7 +26,7 @@ The **Std HideObjects** command hides all objects belonging to the active docume
 ## Программирование
 
 
-**Смотрите так же:**
+**Смотрите так же   ***
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

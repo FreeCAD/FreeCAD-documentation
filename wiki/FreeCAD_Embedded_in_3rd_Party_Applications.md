@@ -7,14 +7,14 @@ FreeCAD\'s LGPL licensure allows it to be embedded and rebranded in 3rd party so
 
 -   SAMUEL EPFL - Laboratory of Earthquake Engineering and Structural Dynamics (EESD) École Polytechnique Fédérale de Lausanne
 
-    :   clip: <https://www.youtube.com/watch?v=3Fj3wzeikqg>
+       *   clip   * <https   *//www.youtube.com/watch?v=3Fj3wzeikqg>
 -   DesignSPHysics
 
-    :   Website: <https://design.sphysics.org/>
-    :   Github: <https://github.com/DualSPHysics/DesignSPHysics/>
+       *   Website   * <https   *//design.sphysics.org/>
+       *   Github   * <https   *//github.com/DualSPHysics/DesignSPHysics/>
 -   CENOS Antenna Design and Simulation Software
 
-    :   Website: <https://www.cenos-platform.com/antenna-design>
+       *   Website   * <https   *//www.cenos-platform.com/antenna-design>
 
 
 

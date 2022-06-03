@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:OpenSCAD ExpandPlacements
-   Name/fr:OpenSCAD Développer les placements
-   MenuLocation:OpenSCAD → Développer les placements
-‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *OpenSCAD ExpandPlacements
+   Name/fr   *OpenSCAD Développer les placements
+   MenuLocation   *OpenSCAD → Développer les placements
+‏‎   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD ExpandPlacements/fr
@@ -23,7 +23,7 @@ Développe tous les emplacements dans l\'arboresence des entités.
 
 Cette commande \"réinitialise\" les valeurs de placement d\'un objet, rendant la position actuelle à 0/0/0.
 
-Marche avec:
+Marche avec   *
 
 -   objets booléens
 -   objets extrudés (dérivés de l\'atelier Part)

@@ -1,17 +1,17 @@
 ---
-- GuiCommand:
-   Name:Path Job
-   MenuLocation:Path → Job
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **J**
-   SeeAlso:[Path Post](Path_Post.md), [Path Postprocessor Customization](Path_Postprocessor_Customization.md)
+- GuiCommand   *
+   Name   *Path Job
+   MenuLocation   *Path → Job
+   Workbenches   *[Path](Path_Workbench.md)
+   Shortcut   ***P** **J**
+   SeeAlso   *[Path Post](Path_Post.md), [Path Postprocessor Customization](Path_Postprocessor_Customization.md)
 ---
 
 # Path Job/pt-br
 
 ## Description
 
-The Job tool creates a new Job object in the active document. The Job object contains the following information:
+The Job tool creates a new Job object in the active document. The Job object contains the following information   *
 
 1.  A list of Tool-Controller definitions, specifying the geometry, Feeds, and Speeds for the Path Operations Tools.
 2.  A Workflow sequential list of Path Operations.
@@ -22,41 +22,41 @@ The Job tool creates a new Job object in the active document. The Job object con
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Path_Job.svg" width=16px> [Path Job](Path_Job.md)** button.
     -   Select the **Path → <img src="images/Path_Job.svg" width=16px> Job** option from the menu.
-    -   Use the keyboard shortcut: **P** then **J**.
+    -   Use the keyboard shortcut   * **P** then **J**.
 
-The Job GUI dialog box has five horizontal aligned tabs: **General**, **Output**, **Setup**, **Tools**, and **Workplan**. The user can at anytime utilize the **OK** or **Cancel** options within the dialog.
+The Job GUI dialog box has five horizontal aligned tabs   * **General**, **Output**, **Setup**, **Tools**, and **Workplan**. The user can at anytime utilize the **OK** or **Cancel** options within the dialog.
 
 ## General
 
 ![](images/Job_1.jpg )
 
--   **Label**: The label of the Job as displayed in the tree view.
--   **Model**: The Base Object which defines by its shape the paths of the job. If it is a Part Design object it is usually the Body which you select here. If you have an element selected in the tree *before* you click the \"Add Job\" icon that element is already entered here. You can change it by selecting a different element from the dropdown menu.
--   **Description**: You can add some notes to the job here. Notes are only for your information and have no effect on the path.
+-   **Label**   * The label of the Job as displayed in the tree view.
+-   **Model**   * The Base Object which defines by its shape the paths of the job. If it is a Part Design object it is usually the Body which you select here. If you have an element selected in the tree *before* you click the \"Add Job\" icon that element is already entered here. You can change it by selecting a different element from the dropdown menu.
+-   **Description**   * You can add some notes to the job here. Notes are only for your information and have no effect on the path.
 
 ## Output
 
 ![](images/Job_2.jpg )
 
--   **Output File**: Set the name, extension, and the file path of the G-Code output. You can use the following placeholders:
+-   **Output File**   * Set the name, extension, and the file path of the G-Code output. You can use the following placeholders   *
     -   **%D** directory of the active document
     -   **%d** name of the active document (without extension)
     -   **%M** user macro directory
     -   **%j** name of the job
 
--   **Processor**: Select the [postprocesser](Path_Post.md) for your machine.
--   **Arguments**: Add arguments for the [postprocesser](Path_Post.md) as needed.
+-   **Processor**   * Select the [postprocesser](Path_Post.md) for your machine.
+-   **Arguments**   * Add arguments for the [postprocesser](Path_Post.md) as needed.
 
 ## Setup
 
 ![](images/Job_3.jpg )
 
--   **Stock**: set the size and shape of the raw material.
--   **Orientation**: Selected Edge or Face is used to orient Base or Stock accordingly.
--   **Alignment**: select a Vertex to set origin or move Base or Stock
+-   **Stock**   * set the size and shape of the raw material.
+-   **Orientation**   * Selected Edge or Face is used to orient Base or Stock accordingly.
+-   **Alignment**   * select a Vertex to set origin or move Base or Stock
 
 ## Tools
 

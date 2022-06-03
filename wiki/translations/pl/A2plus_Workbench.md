@@ -76,33 +76,33 @@ Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, okrągłą [krawędź](Glo
 
 #### Sfera w sferze 
 
-Wybierz sferyczną [powierzchnię](Glosariusz#Powierzchnia.md) lub [wierzchołek](Glosariusz#Wertex.md) *(punkt)* na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|sphereCenterIdent}} *(sfera o wspólnym środku)*. Sprawi ono, że środki sfer, środki sfery i wierzchołka lub wierzchołki będą się pokrywać.
+Wybierz sferyczną [powierzchnię](Glossary#Powierzchnia.md) lub [wierzchołek](Glossary#Wertex.md) *(punkt)* na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|sphereCenterIdent}} *(sfera o wspólnym środku)*. Sprawi ono, że środki sfer, środki sfery i wierzchołka lub wierzchołki będą się pokrywać.
 
 #### Okrągła krawędź na okrągłej krawędzi 
 
-Select a circular [edge](Glossary#Edge.md) on both parts. The toolbar button <img alt="" src=images/A2p_CircularEdgeConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|circularEdge}}. The constraint dialog allows you to specify an offset between the edges. This offset can also be flipped. You can furthermore set the constraint direction and lock the rotation of the parts. If the offset is zero, the constraint will put the edges concentric in the same plane.
+Wybierz okrągłą krawędź [krawędź](Glossary#Edge.md) na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_CircularEdgeConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|circularEdge}}. W oknie dialogowym wiązania można określić przesunięcie między krawędziami. To przesunięcie może być również odwrócone. Ponadto można ustawić kierunek wiązania i zablokować obrót części. Jeśli przesunięcie wynosi zero, wiązanie spowoduje, że krawędzie będą koncentrycznie leżeć w tej samej płaszczyźnie.
 
-#### Axis Coincident 
+#### Zbieżność osi 
 
-Select either a cylindrical [face](Glossary#Face.md) or a linear [edge](Glossary#Edge.md) on both parts. The toolbar button <img alt="" src=images/A2p_AxialConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|axisCoincident}}. The constraint dialog allows you to specify the axis direction. The dialog allows you furthermore to lock the rotation of the parts. The constraint will make the axes or lines coincident.
+Wybierz cylindryczną [Powierzchnię](Glossary#Face.md) lub liniową [Krawędź](Glossary#Edge.md) na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_AxialConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|Zbieżność osi}}. W oknie dialogowym wiązania można określić kierunek osi. W oknie tym można również zablokować obrót części. Wiązanie spowoduje, że osie lub linie będą zbieżne.
 
-#### Axis Parallel 
+#### Równoległość osi 
 
-Select either a cylindrical [face](Glossary#Face.md) or a linear [edge](Glossary#Edge.md) on both parts. The toolbar button <img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|axisParallel}}. The constraint dialog allows you to specify the axis direction. The constraint will make the axes or lines parallel.
+Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź](Glossary#Edge.md) na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|równoległości osi}}. W oknie dialogowym ograniczenia można określić kierunek osi. Ograniczenie sprawi, że osie lub linie będą równoległe.
 
-#### Axis on Plane parallel 
+#### Oś na płaszczyźnie równoległej 
 
-Select either a cylindrical [face](Glossary#Face.md) or a linear [edge](Glossary#Edge.md) on one part and a plane on the other part. The toolbar button <img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|axisPlaneParallel}}. The constraint will make the axis or line parallel to the plane.
+Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź](Glossary#Edge.md) na jednej części i płaszczyznę na drugiej części. Przycisk paska narzędzi <img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|Oś na płaszczyźnie równoległej}}. Dzięki temu wiązaniu oś lub prosta będzie równoległa do płaszczyzny.
 
-#### Axis on Plane normal 
+#### Oś na płaszczyźnie normalnej 
 
-Select either a cylindrical [face](Glossary#Face.md) or a linear [edge](Glossary#Edge.md) on one part and a plane on the other part. The toolbar button <img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|axisPlaneNormal}}. The constraint will make the axis or line normal to the plane.
+Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź](Glossary#Edge.md) na jednej części i płaszczyznę na drugiej części. Przycisk paska narzędzi <img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|Oś na płaszczyźnie normalnej}}. Wiązanie spowoduje, że oś lub linia będzie normalna do płaszczyzny.
 
-#### Axis on Plane angle 
+#### Kąt osi na płaszczyźnie 
 
-Select either a cylindrical [face](Glossary#Face.md) or a linear [edge](Glossary#Edge.md) on one part and a plane on the other part. The toolbar button <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|axisPlaneAngle}}. The constraint will at first make the axis parallel to the plane. Then you can adjust the angle for the axis in the appearing constraint settings dialog.
+Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź](Glossary#Edge.md) na jednej części i płaszczyznę na drugiej części. Przycisk paska narzędzi <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|axisPlaneAngleAngle}}. Początkowo wiązanie sprawi, że oś będzie równoległa do płaszczyzny. Następnie można dostosować kąt dla osi w pojawiającym się oknie dialogowym ustawień wiązania.
 
-#### Plane Parallel 
+#### Równoległe płaszczyzny 
 
 Select a plane on both parts. The toolbar button <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|planesParallel}}. The constraint dialog allows you to specify the constraint direction. The constraint will make the planes parallel.
 
@@ -128,7 +128,7 @@ Possible constraints for a selection are displayed in the toolbar and the *Const
 
 Existing constraints can be edited by selecting them in the model tree and then either double-clicking on it or using the toolbar button <img alt="" src=images/A2p_EditConstraint.svg  style="width   *24px;">. This opens the *Constraint Properties* dialog.
 
-Constraints can be temporarily suppressed by selecting them in the model tree and changing the tree element property **Suppressed**.
+Wiązania można tymczasowo wyciszyć, zaznaczając je w drzewie modelu i zmieniając właściwość elementu drzewa **Stłumione**.
 
 Constraints can be deleted either by selecting them in the model tree and pressing **Del** or by selecting a part with constraints in the model tree and using the toolbar button <img alt="" src=images/A2p_DeleteConnections.svg  style="width   *24px;">.
 

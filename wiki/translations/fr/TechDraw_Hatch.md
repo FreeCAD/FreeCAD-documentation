@@ -1,19 +1,19 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw Hatch
-   Name/fr:TechDraw Hachures par motif
-   MenuLocation:TechDraw → Hachurer une face en utilisant un fichier image
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md), [TechDraw Hachures](TechDraw_Hatching/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw Hatch
+   Name/fr   *TechDraw Hachures par motif
+   MenuLocation   *TechDraw → Hachurer une face en utilisant un fichier image
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso   *[TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md), [TechDraw Hachures](TechDraw_Hatching/fr.md)
 ---
 
 # TechDraw Hatch/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw Hachures par motif** remplit une région fermée dans une vue avec un motif hachuré basé sur le format [SVG](SVG/fr.md). On peut aussi utiliser l\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) utilise des motifs de hachures basés sur PAT. Voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
+L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDraw Hachures par motif** remplit une région fermée dans une vue avec un motif hachuré basé sur le format [SVG](SVG/fr.md). On peut aussi utiliser l\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) utilise des motifs de hachures basés sur PAT. Voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
 
-<img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
+<img alt="" src=images/TechDraw_Hatch_example.png  style="width   *300px;">
 
 
 
@@ -22,7 +22,7 @@ L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechD
 ## Utilisation
 
 1.  Sélectionner une région fermée dans une vue.
-2.  Il existe plusieurs façons de lancer l\'outil :
+2.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_Hatch.svg" width=16px> [Hachurer une face en utilisant un fichier image ](TechDraw_Hatch/fr.md)**.
     -   Sélectionnez le **TechDraw → <img src="images/TechDraw_Hatch.svg" width=16px> Hachurer une face en utilisant un fichier image ** dans le menu.
 3.  Le panneau de tâches **Appliquer des hachures à la face** s\'ouvre.
@@ -32,7 +32,7 @@ L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechD
 ## Remarques
 
 -   Les objets hachurés sont vulnérables au \"[problème de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations. Il est recommandé que le hachurage soit l\'une des dernières étapes de votre processus de dessin.
--   Des exemples de modèles [SVG](SVG/fr.md) sont disponibles localement dans:
+-   Des exemples de modèles [SVG](SVG/fr.md) sont disponibles localement dans   *
 
 
 ```python
@@ -42,30 +42,30 @@ $INSTALL_DIR/data/Mod/TechDraw/Patterns
 où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple 
 ```python
 /usr/share/freecad/data/Mod/TechDraw/Patterns
-``` et aussi à l\'adresse [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+``` et aussi à l\'adresse [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
 ## Propriétés
 
--    **Source**: la vue et la région qui va recevoir le motif de hachures.
+-    **Source**   * la vue et la région qui va recevoir le motif de hachures.
 
--    **Hatch Pattern**: chemin d\'accès complet et nom de fichier vers un fichier de motif SVG.
+-    **Hatch Pattern**   * chemin d\'accès complet et nom de fichier vers un fichier de motif SVG.
 
--    **Hatch Color**: le motif de hachures sera affiché dans cette couleur.
+-    **Hatch Color**   * le motif de hachures sera affiché dans cette couleur.
 
--    **Hatch Scale**: modificateur de taille de motif de hachures.
+-    **Hatch Scale**   * modificateur de taille de motif de hachures.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Hachures par motif peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Hachures par motif peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python
-hatch = FreeCAD.ActiveDocument.addObject('TechDraw::DrawHatch','Hatch')
+hatch = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawHatch','Hatch')
 hatch.Source = (view1,["Face0"])
 hatch.HatchPattern = hatchFileSpec
 rc = page.addView(hatch)

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Assembly3 ConstraintSymmetricLine
-   Name/de:Assembly3 Achsensymmetrie
-   Icon:Assembly_ConstraintSymmetricLine.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Assembly3 ConstraintSymmetricLine
+   Name/de   *Assembly3 Achsensymmetrie
+   Icon   *Assembly_ConstraintSymmetricLine.svg
+   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintSymmetricLine/de

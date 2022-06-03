@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Std SaveCopy
-   MenuLocation:File → Save a Copy...
-   Workbenches:All
-   SeeAlso:[Std SaveAs](Std_SaveAs.md), [Std Save](Std_Save.md)
+- GuiCommand   *
+   Name   *Std SaveCopy
+   MenuLocation   *File → Save a Copy...
+   Workbenches   *All
+   SeeAlso   *[Std SaveAs](Std_SaveAs.md), [Std Save](Std_Save.md)
 ---
 
 # Std SaveCopy
@@ -24,12 +24,12 @@ The **Std SaveCopy** command saves a copy of the active document under a new fil
 
 ## Preferences
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
@@ -40,11 +40,11 @@ To save a copy of a document use the `saveCopy` method of the document object.
 import FreeCAD
 from pathlib import Path
 
-# The folder and filename we will use:
-fld = 'D:/testfiles/'
+# The folder and filename we will use   *
+fld = 'D   */testfiles/'
 fnm = fld + 'testCopy.FCStd'
 
-# Make sure fld exists:
+# Make sure fld exists   *
 Path(fld).mkdir(parents=True, exist_ok=True)
 
 doc = FreeCAD.newDocument()

@@ -9,7 +9,7 @@ In dieser Dokumentation wird erklärt, wie ein Makro so eingerichtet wird, dass 
 
 <div class="mw-translate-fuzzy">
 
-Vor Beginn sind folgende Dinge zu beachten :
+Vor Beginn sind folgende Dinge zu beachten    *
 
 -   Das automatische Ausführen von Makros beim Start kann als Sicherheitsrisiko betrachtet werden. Du solltest nur Makros ausführen, denen du vertraust und die du zuvor getestet hast.
 -   Du benötigst wahrscheinlich einige Python- und Codierungsbegriffe, um diesem Verfahren zu folgen
@@ -28,7 +28,7 @@ Im Allgemeinen wird es vorkommen, dass ein Makro nicht direkt mit einem Programm
 
 <div class="mw-translate-fuzzy">
 
-Betrachte das untenstehende Makro, das du von irgendwo heruntergeladen hast und das in deinem \'Makro\' Ordner mit dem Namen \'MeinSuperMakro.FCMakro\' gespeichert ist:
+Betrachte das untenstehende Makro, das du von irgendwo heruntergeladen hast und das in deinem \'Makro\' Ordner mit dem Namen \'MeinSuperMakro.FCMakro\' gespeichert ist   *
 
 
 </div>
@@ -37,9 +37,9 @@ Betrachte das untenstehende Makro, das du von irgendwo heruntergeladen hast und 
     from PySide import QtGui
 
     ## Definition section (classes, functions, ...)
-    class MyMsgBox(QtGui.QMessageBox):
+    class MyMsgBox(QtGui.QMessageBox)   *
 
-        def __init__(self):
+        def __init__(self)   *
             super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
     ## Main instruction section
@@ -48,7 +48,7 @@ Betrachte das untenstehende Makro, das du von irgendwo heruntergeladen hast und 
 
 <div class="mw-translate-fuzzy">
 
-Alle Makros zeigen generell eine ähnliche Struktur: Zuerst ein Import-, dann ein Definitions- und abschließend der Hauptbefehlsabschnitt. Wir werden uns auf letzteren fokussieren, weil diese Hauptbefehle (die recht einfach zu erkennen sind, weil sie am Anfang der Zeile stehen) tatsächlich die sind, die das Makro \'ausführen\'. In einem späteren Schritt müssen wir das Makro programmatisch importieren und dann ausführen. Dies ist in der aktuellen Struktur des Makros nicht möglich. Um das zu tun, müssen wir die Hauptbefehle in eine Funktion -z.B. run()- einschließen und dafür sorgen, dass diese Funktion auch bei einem manuellen Start durch den Benutzer aufgerufen wird. Wenn du nicht wirklich sicher bist, was du tust, wird es empfohlen, mit einer Kopie des Makros zu arbeiten (oder einfach das Original-Makro zu lassen, wie es ist). Die Originaldatei sollte wie folgt geändert werden:
+Alle Makros zeigen generell eine ähnliche Struktur   * Zuerst ein Import-, dann ein Definitions- und abschließend der Hauptbefehlsabschnitt. Wir werden uns auf letzteren fokussieren, weil diese Hauptbefehle (die recht einfach zu erkennen sind, weil sie am Anfang der Zeile stehen) tatsächlich die sind, die das Makro \'ausführen\'. In einem späteren Schritt müssen wir das Makro programmatisch importieren und dann ausführen. Dies ist in der aktuellen Struktur des Makros nicht möglich. Um das zu tun, müssen wir die Hauptbefehle in eine Funktion -z.B. run()- einschließen und dafür sorgen, dass diese Funktion auch bei einem manuellen Start durch den Benutzer aufgerufen wird. Wenn du nicht wirklich sicher bist, was du tust, wird es empfohlen, mit einer Kopie des Makros zu arbeiten (oder einfach das Original-Makro zu lassen, wie es ist). Die Originaldatei sollte wie folgt geändert werden   *
 
 
 </div>
@@ -58,17 +58,17 @@ Alle Makros zeigen generell eine ähnliche Struktur: Zuerst ein Import-, dann ei
     import FreeCAD as App
     import FreeCADGui as Gui
 
-    class MyMsgBox(QtGui.QMessageBox):
+    class MyMsgBox(QtGui.QMessageBox)   *
 
-        def __init__(self):
+        def __init__(self)   *
             super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
     ## Enclose the main instructions in a function
-    def run():
+    def run()   *
         MyMsgBox()
 
     ## Ensure main instructions are still called in case of manual run
-    if __name__ == '__main__':
+    if __name__ == '__main__'   *
         run()
 
 Falls die Funktion \'run()\' bereits im Makro existiert, kannst du jeden anderen geeigneten Namen verwenden. Nun ist das Makro bereits, um in den FreeCAD-Start integriert zu werden.
@@ -83,9 +83,9 @@ Erstelle zunächst einen neuen Ordner in deinem Benutzerordner \'Mod\', sagen wi
 
 </div>
 
-    def runStartupMacros(name):
+    def runStartupMacros(name)   *
         # Do not run when NoneWorkbench is activated because UI isn't yet completely there
-        if name != "NoneWorkbench":
+        if name != "NoneWorkbench"   *
             # Run macro only once by disconnecting the signal at first call
             FreeCADGui.getMainWindow().workbenchActivated.disconnect(runStartupMacros)
 
@@ -140,6 +140,11 @@ Beachte, dass, wenn das Originalmakro über den Erweiterungsverwalter herunterge
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

@@ -1,6 +1,6 @@
 # Arch Axis/cs
 ---
-- GuiCommand:/cs   Name:Arch Axis   Name/cs:Osy   Workbenches:[[Arch_Workbench/cs   Architektura]]|MenuLocation:Arch → Osy   Shortcut:A X---
+- GuiCommand   */cs   Name   *Arch Axis   Name/cs   *Osy   Workbenches   *[[Arch_Workbench/cs   Architektura]]|MenuLocation   *Arch → Osy   Shortcut   *A X---
 
 
 </div>
@@ -15,7 +15,7 @@ Nástroj Osy Vám umožňuje umístit osový systém do aktuálního dokumentu. 
 
 </div>
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
+<img alt="" src=images/Arch_Axis_example.jpg  style="width   *600px;"> 
 *Two axes objects positioned perpendicularly to each other to create a grid*
 
 
@@ -53,11 +53,11 @@ Nástroj Osy Vám umožňuje umístit osový systém do aktuálního dokumentu. 
 
 <div class="mw-translate-fuzzy">
 
--    **Délka**: Délka os
+-    **Délka**   * Délka os
 
--    **Velikost bubliny**: Velikost osové bubliny
+-    **Velikost bubliny**   * Velikost osové bubliny
 
--    **Styl číslování**: Jak jsou osy číslovány: 1,2,3, A,B,C, atd\...
+-    **Styl číslování**   * Jak jsou osy číslovány   * 1,2,3, A,B,C, atd\...
 
 
 </div>
@@ -77,7 +77,7 @@ By setting the **Bubble Position** property to **Arrow left/right** or **Bar lef
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Osy může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj Osy může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -91,12 +91,12 @@ Axes = makeAxis(num=5, size=1000, name="Axes")
 <div class="mw-translate-fuzzy">
 
 
-:   vytváří osový systém založený na daném počtu os a vzdálenosti mezi osami
+   *   vytváří osový systém založený na daném počtu os a vzdálenosti mezi osami
 
 
 </div>
 
-Příklad:
+Příklad   *
 
 
 ```python
@@ -127,6 +127,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+ 
+
+[Category   *Arch/cs](Category   *Arch/cs.md)
 
 
 

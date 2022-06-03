@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:   Topic:Attachment
-   Level:Beginner/Intermediate
-   Author:Bance
-   Time:1 hour
-   FCVersion:0.17 or above
-   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+- TutorialInfo   *   Topic   *Attachment
+   Level   *Beginner/Intermediate
+   Author   *Bance
+   Time   *1 hour
+   FCVersion   *0.17 or above
+   Files   *[https   *//github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
 ---
 
 # Basic Attachment Tutorial/en
@@ -15,18 +15,18 @@
 
 ![centre\|The finished model](images/Attachment_Model.png )
 
-This tutorial should serve as an introduction to [Part:Attachment](Part_EditAttachment.md), it is not comprehensive, but hopefully will help users experiment.
+This tutorial should serve as an introduction to [Part   *Attachment](Part_EditAttachment.md), it is not comprehensive, but hopefully will help users experiment.
 
-Attachment is a utility to attach an object to another one. This links the two objects\' placement properties, the attached object will then follow the original(if its placement is changed.) The focus is on Part Design workbench and attaching sketches to other sketches, this being a recommended method for making [*stable*](Feature_editing#Advice_for_creating_stable_models.md) models. Written for V0.19, but should be valid for any version 0.17 and later. However, things may differ in some details. The original model was designed by Md. Aminul Islam and downloaded from here:-https://grabcad.com/library/50-cad-exercise-drawing-1
+Attachment is a utility to attach an object to another one. This links the two objects\' placement properties, the attached object will then follow the original(if its placement is changed.) The focus is on Part Design workbench and attaching sketches to other sketches, this being a recommended method for making [*stable*](Feature_editing#Advice_for_creating_stable_models.md) models. Written for V0.19, but should be valid for any version 0.17 and later. However, things may differ in some details. The original model was designed by Md. Aminul Islam and downloaded from here   *-https   *//grabcad.com/library/50-cad-exercise-drawing-1
 
 ## Pre-requisites 
 
-Before attempting this tutorial users should :-
+Before attempting this tutorial users should    *-
 
 1.  Use version 0.17 or greater.
 2.  Be comfortable navigating the [3D view](3D_view.md).
 3.  Be able to make and constrain a [sketch](Sketcher_Workbench.md).
-4.  Have a basic understanding of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design workbench](PartDesign_Workbench.md).
+4.  Have a basic understanding of the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Part Design workbench](PartDesign_Workbench.md).
 5.  Have a basic understanding of [Expressions](Expressions.md).
 
 ## Objectives
@@ -79,7 +79,7 @@ Do the same for the Position sub heading. Change the X offset to 80mm, and the Y
 
 Attachment offset is commonly used in conjunction with expressions to offer a parametric parallel to plane position, eg. positioning a sketch on the top face of a Pad, using a (Pad.Length) expression for Z offset.
 
-The Sketch can now be padded <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, let\'s assume that the pad\'s height should be the same as the sketch\'s width. In the **Pad parameters** dialog select the **Length** box, press **<nowiki>=</nowiki>** or select the function icon <img alt="" src=images/Bound-expression.svg  style="width:24px;"> and type \"**Sketch.Constraints.width**\", this expression should resolve to \"40 mm\", then tick **Symmetric to plane** and press **OK**.
+The Sketch can now be padded <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;">, let\'s assume that the pad\'s height should be the same as the sketch\'s width. In the **Pad parameters** dialog select the **Length** box, press **<nowiki>=</nowiki>** or select the function icon <img alt="" src=images/Bound-expression.svg  style="width   *24px;"> and type \"**Sketch.Constraints.width**\", this expression should resolve to \"40 mm\", then tick **Symmetric to plane** and press **OK**.
 
 ![centre\|The Base Pad](images/BasePad2.png )
 
@@ -89,7 +89,7 @@ Make a new sketch, choose whichever plane you like (we\'re going to change its a
 
 Draw the triangle, make two sides equal and constrain the length the same way as you did the Pad Length only this time make the formula \"**Sketch.Constraints.width/2**\".
 
-There should be two degrees of freedom remaining, they are the position with regards to the origin. Fix one of the corners to the origin so that the sketch looks thus:-
+There should be two degrees of freedom remaining, they are the position with regards to the origin. Fix one of the corners to the origin so that the sketch looks thus   *-
 
 ![centre\|The first triangle](images/IsoscelesSketch.png )
 
@@ -103,7 +103,7 @@ Now we are going to change the attachment mode of the sketch in our model.
 
 Select Pad and make it invisible, and make BaseSketch visible. We need to see the BaseSketch, and we want to hide the pad so that we avoid making incorrect selections.
 
-The 3D view should look something like this:-
+The 3D view should look something like this   *-
 
 ![centre\|Two Sketches](images/TwoSketches.png )
 
@@ -153,7 +153,7 @@ You can now pocket the sketch.
 
 ### A Step Further 
 
-Create the next sketch, the dimensions should be expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** you can use it to make a copy of the \'IsoscelesSketch\' sketch, and edit its parameters to suit.)
+Create the next sketch, the dimensions should be expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** you can use it to make a copy of the \'IsoscelesSketch\' sketch, and edit its parameters to suit.)
 
 Rename the sketch RightAngleTriangleSketch.
 
@@ -173,7 +173,7 @@ If you chose the wrong line, change it now. If the triangle is pointing the wron
 
 The RightAngleTriangleSketch is now in a position that will give us the correct Geometry after a pocket operation, however we can get a little inventive here, and position the sketch so that it makes it easier for us to attach further geometry later on. We are going to shift our sketch to the middle of the line so that it provides us with a vertex at the top of the corner chamfer.
 
-In the attachment dialogue, we are going to change the attachment mode from \"Normal To Edge\" to \"Inertia 2-3\". This will change the position to the centre of the line, it\'s beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at <img alt="" src=images/Part_Attachment.svg  style="width:24px;"> [Part EditAttachment](Part_EditAttachment.md). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
+In the attachment dialogue, we are going to change the attachment mode from \"Normal To Edge\" to \"Inertia 2-3\". This will change the position to the centre of the line, it\'s beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Part EditAttachment](Part_EditAttachment.md). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
 
 ![centre\|Attachment Dialogue Inertia 2-3 mode](images/ADInertia.png )
 
@@ -205,7 +205,7 @@ Rename the sketch FinalSketch.
 
 ![centre\|FinalSketch](images/RightAngleTriangle.png )
 
-Note that FinalSketch has been constrained to the origin differently. Otherwise we could\'ve used **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)**, but the sketch is only Three lines and five constraints.
+Note that FinalSketch has been constrained to the origin differently. Otherwise we could\'ve used **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [CarbonCopy](Sketcher_CarbonCopy.md)**, but the sketch is only Three lines and five constraints.
 
 Once again we need to hide the solid, in this case Pocket001, and make sure both sketches are visible for selection (BaseSketch and FinalSketch).
 

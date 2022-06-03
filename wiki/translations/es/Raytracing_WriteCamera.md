@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Raytracing WriteCamera‏‎
-   Name/es:Raytracing WriteCamera‏‎
-   MenuLocation:Raytracing → Camera‏‎
-   Workbenches:[Raytracing](Raytracing_Workbench/es.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */es
+   Name   *Raytracing WriteCamera‏‎
+   Name/es   *Raytracing WriteCamera‏‎
+   MenuLocation   *Raytracing → Camera‏‎
+   Workbenches   *[Raytracing](Raytracing_Workbench/es.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Raytracing WriteCamera/es

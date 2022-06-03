@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Std DemoMode
-   Name/it:Visualizza rotazione oggetti
-   Empty:1
-   MenuLocation:Strumenti → Visualizza rotazione oggetti...
-   Workbenches:Tutti
+- GuiCommand   */it
+   Name   *Std DemoMode
+   Name/it   *Visualizza rotazione oggetti
+   Empty   *1
+   MenuLocation   *Strumenti → Visualizza rotazione oggetti...
+   Workbenches   *Tutti
 ---
 
 # Std DemoMode/it

@@ -1,6 +1,6 @@
 # PartDesign Thickness/ro
 ---
-- GuiCommand:   Name:PartDesign Thickness   Workbenches:[MenuLocation:Part Design → Thickness   Shortcut:None   SeeAlso:[[Part_Thickness|Part Thickness](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand   *   Name   *PartDesign Thickness   Workbenches   *[MenuLocation   *Part Design → Thickness   Shortcut   *None   SeeAlso   *[[Part_Thickness|Part Thickness](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-un obiect gol cu pereți groși cu cel puțin o față deschisă, dând fiecărei fațete rămase o grosime uniformă. La unele solide, acest lucru vă permite să accelerați considerabil lucrarea și să evitați extrudările și buzunarele.
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
 *The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
 
 
@@ -35,15 +35,15 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
 
 ## Opţiuni
 
--   **Thickness**: Grosimea peretelui obiectului rezultat. Definiți valoarea dorită.
+-   **Thickness**   * Grosimea peretelui obiectului rezultat. Definiți valoarea dorită.
 -   **Mode**
-    -   *Skin*: Selectați această opțiune dacă doriți pentru a obține un articol ca o vază, fără capac, dar cu fund
-    -   *Pipe*: Selectați această opțiune dacă doriți să obțineți un obiect ca o țeavă, fără cap și fără fund. În acest caz, poate fi convenabil să selectați fațele care trebuie șterse înainte de a porni instrumentul. Ajutați-vă cu vizualizări predefinite sau utilizați tastele numerice.
-    -   *Recto Verso*:
+    -   *Skin*   * Selectați această opțiune dacă doriți pentru a obține un articol ca o vază, fără capac, dar cu fund
+    -   *Pipe*   * Selectați această opțiune dacă doriți să obțineți un obiect ca o țeavă, fără cap și fără fund. În acest caz, poate fi convenabil să selectați fațele care trebuie șterse înainte de a porni instrumentul. Ajutați-vă cu vizualizări predefinite sau utilizați tastele numerice.
+    -   *Recto Verso*   *
 -   **Join Type**
-    -   *Arc*: îndepărtează marginile exterioare și creează o curbă cu o rază egală cu grosimea definită.
-    -   *Intersection*:când fațele sunt decalate spre exterior, marginile ascuțite sunt păstrate între faațete.
--   **Make thickness inwards**: când sunt bifate, fațetșe sunt deplasate spre interior.
+    -   *Arc*   * îndepărtează marginile exterioare și creează o curbă cu o rază egală cu grosimea definită.
+    -   *Intersection*   *când fațele sunt decalate spre exterior, marginile ascuțite sunt păstrate între faațete.
+-   **Make thickness inwards**   * când sunt bifate, fațetșe sunt deplasate spre interior.
 
 ## Limite
 
@@ -63,7 +63,7 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
 2.  Creați o a doua schiță pe planul XY
 3.  Creați un al doilea Pad din al doua schiță
 
-As in the following pictures:
+As in the following pictures   *
 
 ![](images/Braga-primoPad.png )
 
@@ -84,12 +84,12 @@ Apoi
 
 </div>
 
-Resultat: ![](images/Brga-spessore.png )
+Resultat   * ![](images/Brga-spessore.png )
 
 ## Known Errors 
 
--   BRep\_API: command not done
--   BRep\_Tool: no parameter on edge
+-   BRep\_API   * command not done
+-   BRep\_Tool   * no parameter on edge
 -   Silently Fails
 
 

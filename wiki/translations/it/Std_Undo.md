@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_Undo
-   Name/it:Annulla
-   MenuLocation:Modifica → Annulla
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**Z**
-   SeeAlso:[Ripristina](Std_Redo/it.md)
+- GuiCommand   */it
+   Name   *Std_Undo
+   Name/it   *Annulla
+   MenuLocation   *Modifica → Annulla
+   Workbenches   *Tutti
+   Shortcut   ***Ctrl**+**Z**
+   SeeAlso   *[Ripristina](Std_Redo/it.md)
 ---
 
 # Std Undo/it
@@ -16,10 +16,10 @@ Il comando **Annulla** annulla l\'ultima azione.
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_Undo.svg" width=16px> Annulla**.
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Undo.svg" width=16px> Annulla** dal menu.
-    -   Usare la scorciatoia da tastiera: **Ctrl**+**Z**.
+    -   Usare la scorciatoia da tastiera   * **Ctrl**+**Z**.
 
 ## Opzioni
 
@@ -39,7 +39,7 @@ Il comando **Annulla** annulla l\'ultima azione.
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

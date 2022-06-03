@@ -1,6 +1,8 @@
 # Category:Administration/cs
 This category contains articles and categories about wiki administrative subjects.
 
+[Category   *Categories/cs](Category   *Categories/cs.md)
+
 ### Contents
 
 |     |     |     |

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Std ViewIvIssueCamPos
-   MenuLocation:View → Stereo → Issue camera position
-   Workbenches:All
-   SeeAlso:[Std FreezeViews](Std_FreezeViews.md)
+- GuiCommand   *
+   Name   *Std ViewIvIssueCamPos
+   MenuLocation   *View → Stereo → Issue camera position
+   Workbenches   *All
+   SeeAlso   *[Std FreezeViews](Std_FreezeViews.md)
 ---
 
 # Std ViewIvIssueCamPos/ro
@@ -15,7 +15,7 @@
 
 Această comandă este utilizată pentru a afla detaliile poziției, orientării și alte informații despre cameră.
 
-Exemplu de locație a camerei în vizualizarea Raport:
+Exemplu de locație a camerei în vizualizarea Raport   *
 
 
 </div>
@@ -34,7 +34,7 @@ Exemplu de locație a camerei în vizualizarea Raport:
 
 
 
-*Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
+*Example output   * camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
 
 ## Usage
 
@@ -47,7 +47,7 @@ Exemplu de locație a camerei în vizualizarea Raport:
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

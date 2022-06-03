@@ -1,6 +1,6 @@
 # Plot Legend/it
 ---
-- GuiCommand:/it   Name:Plot Legend   Name/it:Legenda   MenuLocation:Plot → Legenda‏‎   |Workbenches:[[Plot_Workbench/it   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand   */it   Name   *Plot Legend   Name/it   *Legenda   MenuLocation   *Plot → Legenda‏‎   |Workbenches   *[[Plot_Workbench/it   Plot]]|Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 This tool allows the user to enable/disable the data series legend on a specific plot.
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 
 ## Usage
 
@@ -29,7 +29,9 @@ Remember that the styles and labels of the data series can be edited with the [d
 
 {{Plot_Tools_navi
 
-}}
+}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

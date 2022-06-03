@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Parti con script - Cuscinetto a sfere - #2
-   Level: Base
-   Time: 30 min
-   Author:r-frank
-   FCVersion:0.16.6706
-   Files:
+- TutorialInfo   */it
+   Topic   * Parti con script - Cuscinetto a sfere - #2
+   Level   * Base
+   Time   * 30 min
+   Author   *r-frank
+   FCVersion   *0.16.6706
+   Files   *
 }}
 
 ### Introduzione
@@ -13,8 +13,8 @@
 Questo tutorial si propone di introdurre i principianti alla creazione di parti con script python all\'interno di FreeCAD.
 Questo tutorial descrive come costruire un cuscinetto a sfere con un flusso di lavoro che consiste nel creare degli schizzi e rivoluzionarli.
 Il codice produrrà un nuovo documento di FreeCAD con 12 forme (anello interno, anello esterno e 10 sfere).
-Esso sarà simile a questo:
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
+Esso sarà simile a questo   *
+<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width   *400px;">
 
 ### Flusso di lavoro 
 
@@ -23,7 +23,7 @@ Il flusso di lavoro è quasi identico a quello che si dovrebbe usare per creare 
 -   Creare un nuovo documento vuoto e renderlo attivo
 -   Disegnare la forma di base dell\'anello esterno composta da quattro segmenti e quattro archi
 
-<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width:150px;">
+<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width   *150px;">
 
 -   Collegare le linee e gli archi e promuoverli in un unico contorno
 -   Promuovere il contorno in una faccia
@@ -54,7 +54,7 @@ Infine si applica un taglio booleano tra le due forme rivoluzionate e per ottene
 
 ### Inserire le sfere 
 
-Il corretto flusso di lavoro basato su Sketcher per inserire le sfere sarebbe:
+Il corretto flusso di lavoro basato su Sketcher per inserire le sfere sarebbe   *
 \*Disegnare un arco (semicerchio) con il centro coincidente con l\'origine e tracciare una linea di chiusura del lato \"aperto\" dell\'arco
 
 -   Convertire i due elementi ad un wire, promuoverli in una faccia, ruotare la faccia attorno all\'asse z per ottenere la forma di una sfera
@@ -63,17 +63,17 @@ Il corretto flusso di lavoro basato su Sketcher per inserire le sfere sarebbe:
 -   Questa operazione di ripetizione può essere programmata con un loop
 
 In questo caso, questo non è efficace, inserire delle primitive e posizionarle è più facile e veloce.
-Quindi usiamo lo stesso metodo usato in [Parti con script: Cuscinetto a sfere - Parte 1](Scripted_Parts:_Ball_Bearing_-_Part_1/it.md).
+Quindi usiamo lo stesso metodo usato in [Parti con script   * Cuscinetto a sfere - Parte 1](Scripted_Parts   *_Ball_Bearing_-_Part_1/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
 ### Link
 
-[Script di oggetti](Scripted_objects/it.md): La pagina wiki che spiega i principi fondamentali di scripting
-[Script di dati topologici](Topological_data_scripting/it.md): Un tutorial per fornire le basi di scripting
-[Parti con script: Cuscinetto a sfere - Parte 1](Scripted_Parts:_Ball_Bearing_-_Part_1/it.md): Costruirlo con primitive di Parte
-[Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Base per questo tutorial, grazie a JMG \...
+[Script di oggetti](Scripted_objects/it.md)   * La pagina wiki che spiega i principi fondamentali di scripting
+[Script di dati topologici](Topological_data_scripting/it.md)   * Un tutorial per fornire le basi di scripting
+[Parti con script   * Cuscinetto a sfere - Parte 1](Scripted_Parts   *_Ball_Bearing_-_Part_1/it.md)   * Costruirlo con primitive di Parte
+[Bearings from scripted sketches](http   *//linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)   * Base per questo tutorial, grazie a JMG \...
 
 
 </div>
@@ -84,11 +84,11 @@ Quindi usiamo lo stesso metodo usato in [Parti con script: Cuscinetto a sfere - 
 ### Codice
 
 
-{{Code   code:
+{{Code   code   *
 ## Ball-bearing script
 ## 11.08.2016 by r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## based on ball bearing script by JMG
-## (http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
+## (http   *//linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
 #
 #needed for doing boolean operations
 import Part
@@ -168,7 +168,7 @@ IR=IR.cut(GRi)
 Part.show(IR)
 #
 #Balls#
-for i in range(NBall):
+for i in range(NBall)   *
   Ball=Part.makeSphere(RBall)
   Alpha=(i*2*math.pi)/NBall
   BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
@@ -190,7 +190,9 @@ Gui.SendMsgToActiveView("ViewFit")
 
 {{Powerdocnavi
 
-}}
+}} 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

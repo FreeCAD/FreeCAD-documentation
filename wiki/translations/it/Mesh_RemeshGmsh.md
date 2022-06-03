@@ -1,18 +1,18 @@
 ---
-- GuiCommand:/it
-   Name:Mesh_RemeshGmsh
-   Name/it:Affinamento
-   MenuLocation:Mesh → Affinamento...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Crea mesh da una forma](Mesh_FromPartShape/it.md)
+- GuiCommand   */it
+   Name   *Mesh_RemeshGmsh
+   Name/it   *Affinamento
+   MenuLocation   *Mesh → Affinamento...
+   Workbenches   *[Mesh](Mesh_Workbench/it.md)
+   Version   *0.19
+   SeeAlso   *[Crea mesh da una forma](Mesh_FromPartShape/it.md)
 ---
 
 # Mesh RemeshGmsh/it
 
 ## Descrizione
 
-Il comando **Affinamento** rigenera un oggetto mesh utilizzando il mesher [Gmsh](https://gmsh.info/). La nuova mesh può essere più fine o più grossolana.
+Il comando **Affinamento** rigenera un oggetto mesh utilizzando il mesher [Gmsh](https   *//gmsh.info/). La nuova mesh può essere più fine o più grossolana.
 
 ## Utilizzo
 
@@ -36,7 +36,7 @@ Il comando **Affinamento** rigenera un oggetto mesh utilizzando il mesher [Gmsh]
 
 ## Proprietà
 
-Vedere: [Mesh Feature](Mesh_Feature/it.md).
+Vedere   * [Mesh Feature](Mesh_Feature/it.md).
 
 
 <div class="mw-translate-fuzzy">

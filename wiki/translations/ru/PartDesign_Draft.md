@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Полость
-   Name:PartDesign_Draft
-   MenuLocation:Part Design → Apply a dress-up feature → Полость
-   Workbenches:[Part Design](PartDesign_Workbench/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Полость
+   Name   *PartDesign_Draft
+   MenuLocation   *Part Design → Apply a dress-up feature → Полость
+   Workbenches   *[Part Design](PartDesign_Workbench/ru.md)
 ---
 
 # PartDesign Draft/ru

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Mesh Difference   Name/de:Netze Differenz
-   MenuLocation:Netze → Boolean → Differenz
-   Workbenches:[Netze-Arbeitsbereich](Mesh_Workbench/de.md)
-   SeeAlso:
+- GuiCommand   */de
+   Name   *Mesh Difference   Name/de   *Netze Differenz
+   MenuLocation   *Netze → Boolean → Differenz
+   Workbenches   *[Netze-Arbeitsbereich](Mesh_Workbench/de.md)
+   SeeAlso   *
 ---
 
 # Mesh Difference/de
@@ -36,7 +36,7 @@ Das Ergebnis wird als neues separates Netz erstellt.
 
 <div class="mw-translate-fuzzy">
 
-Beispiel: Würfel geschnitten mit einer Kugel
+Beispiel   * Würfel geschnitten mit einer Kugel
 
 
 </div>
@@ -56,7 +56,7 @@ Beispiel: Würfel geschnitten mit einer Kugel
 
 ## Properties
 
-See: [Mesh Feature](Mesh_Feature.md).
+See   * [Mesh Feature](Mesh_Feature.md).
 
 
 <div class="mw-translate-fuzzy">

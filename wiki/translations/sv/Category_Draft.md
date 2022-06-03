@@ -1,6 +1,8 @@
 # Category:Draft/sv
 This category list pages related to the \"User\_Documentation/sv\" and \"Workbenches/sv\"
 
+[Category   *User Documentation/sv](Category   *User_Documentation/sv.md) [Category   *Workbenches/sv](Category   *Workbenches/sv.md)
+
 ### Contents
 
 |     |     |     |

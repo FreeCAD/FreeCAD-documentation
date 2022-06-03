@@ -1,13 +1,13 @@
 ---
-- GuiCommand:/it
+- GuiCommand   */it
 
-   Name:Std ViewDockUndockFullscreen
-   Name/it:Finestra del documento
-   Empty:1
-   MenuLocation:Visualizza → Finestra del documento → Agganciata o Non agganciata
-   Workbenches:All
-   Shortcut:**V** **D** / **V** **U**
-   SeeAlso:[Vista 3D a schermo intero](Std_ViewFullscreen/it.md), [Finestra principale a schermo intero](Std_MainFullscreen/it.md)
+   Name   *Std ViewDockUndockFullscreen
+   Name/it   *Finestra del documento
+   Empty   *1
+   MenuLocation   *Visualizza → Finestra del documento → Agganciata o Non agganciata
+   Workbenches   *All
+   Shortcut   ***V** **D** / **V** **U**
+   SeeAlso   *[Vista 3D a schermo intero](Std_ViewFullscreen/it.md), [Finestra principale a schermo intero](Std_MainFullscreen/it.md)
 ---
 
 # Std ViewDockUndockFullscreen/it
@@ -28,10 +28,10 @@ The **Docked** menu option docks the active [3D view](3D_view.md) inside the mai
 ### Utilizzo
 
 1.  Activate an undocked 3D view.
-2.  There are several ways to invoke the option:
-    -   If there are no docked 3D views: select the **View → Document window → Docked** option from the menu.
+2.  There are several ways to invoke the option   *
+    -   If there are no docked 3D views   * select the **View → Document window → Docked** option from the menu.
     -   Select the **Document window → Docked** option from the 3D view context menu.
-    -   Use the keyboard shortcut: **V** then **D**.
+    -   Use the keyboard shortcut   * **V** then **D**.
 
 ## Sganciata
 
@@ -42,10 +42,10 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
 ### Utilizzo 
 
 1.  Activate a docked 3D view.
-2.  There are several ways to invoke the option:
+2.  There are several ways to invoke the option   *
     -   Select the **View → Document window → Undocked** option from the menu.
     -   Select the **Document window → Undocked** option from the 3D view context menu.
-    -   Use the keyboard shortcut: **V** then **U**.
+    -   Use the keyboard shortcut   * **V** then **U**.
 
 ## Note
 

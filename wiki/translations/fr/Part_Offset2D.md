@@ -12,7 +12,7 @@
 
 ## Description
 
-Part Décalage 2D génère une polyligne parallèle à la polyligne d\'origine, à une distance définie de celle-ci. Il est également possible de d\'agrandir/réduire une face plane de la même façon.
+Le <img alt="" src=images/Part_Offset2D.svg  style="width   *24px;"> **Part Décalage 2D** génère une polyligne parallèle à la polyligne d\'origine, à une distance définie de celle-ci. Il est également possible de d\'agrandir/réduire une face plane de la même façon.
 
 La polyligne/face doit être plan. Il peut y avoir plusieurs polylignes dans un même objet, pas nécessairement coplanaires.
 
@@ -20,11 +20,10 @@ La polyligne/face doit être plan. Il peut y avoir plusieurs polylignes dans un 
 
 ## Utilisation
 
-1.  Sélectionner un objet à décaler
-2.  Appuyer sur le bouton **[<img src=images/Part_Offset2D.svg style="width   *24px">** **Décalage 2D**.
+1.  Sélectionner un objet à décaler.
+2.  Appuyer sur le bouton **<img src="images/Part_Offset2D.svg" width=16px> [Décalage 2D](Part_Offset2D/fr.md)**.
 3.  Définir la valeur de décalage dans le [Panneau des tâches](Task_panel/fr.md) puis valider.
 4.  Appuyer sur **OK**.
-5.  Un objet paramétrique Décalage 2D est créé. Les objets originaux passent en mode d\'affichage filaire.
 
 ## Remarques
 

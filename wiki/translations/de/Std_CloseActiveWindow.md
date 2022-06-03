@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std CloseActiveWindow
-   Name/de:Std Schließen
-   MenuLocation:Datei → Schließen
-   Workbenches:Alle
-   Shortcut:**Strg**+**F4**
-   SeeAlso:[Std AllesSchließen](Std_CloseAllWindows/de.md)
+- GuiCommand   */de
+   Name   *Std CloseActiveWindow
+   Name/de   *Std Schließen
+   MenuLocation   *Datei → Schließen
+   Workbenches   *Alle
+   Shortcut   ***Strg**+**F4**
+   SeeAlso   *[Std AllesSchließen](Std_CloseAllWindows/de.md)
 ---
 
 # Std CloseActiveWindow/de
@@ -16,11 +16,11 @@ Der Befehl **Std Schließen** schließt das aktive Fenster. Um ein Dokument zu s
 
 ## Anwendung
 
-1.  Es gibt mehrere Wege, den Befehl aufzurufen:
+1.  Es gibt mehrere Wege, den Befehl aufzurufen   *
     -   Wähle die **Datei → <img src="images/Std_CloseActiveWindow.svg" width=16px> Schließen**-Option aus dem Menü.
-    -   Benutze den Tastaturkurzbefehl: **Ctrl**+**F4**.
-2.  Um ein Dokument zu schließen: wiederhole dies für alle dazugehörigen Fenster..
-3.  Beim Schließen des letzten Fensters eines nicht gesicherten Dokument öffnet sich eine Dialog-Box, die zum Sichern auffordert:
+    -   Benutze den Tastaturkurzbefehl   * **Ctrl**+**F4**.
+2.  Um ein Dokument zu schließen   * wiederhole dies für alle dazugehörigen Fenster..
+3.  Beim Schließen des letzten Fensters eines nicht gesicherten Dokument öffnet sich eine Dialog-Box, die zum Sichern auffordert   *
     -   Drücke die **Speichern**-Schaltfläche. Falls erforderlich, gib zuerst den Dateinamen ein.
     -   Drücke die **Schließen ohne zu Speichern**-Schaltfläche, um das Dokument zu verlassen und alle Änderungen zu verlieren.
 
@@ -35,12 +35,12 @@ Der Befehl **Std Schließen** schließt das aktive Fenster. Um ein Dokument zu s
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
 
 ## Scripting
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

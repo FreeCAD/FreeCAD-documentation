@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Std MergeProjects
-   Name/de:Std ProjekteZusammenführen
-   MenuLocation:Datei → Projekte zusammenführen...
-   Workbenches:All
+- GuiCommand   */de
+   Name   *Std MergeProjects
+   Name/de   *Std ProjekteZusammenführen
+   MenuLocation   *Datei → Projekte zusammenführen...
+   Workbenches   *All
 ---
 
 # Std MergeProjects/de
@@ -29,7 +29,7 @@ Der Befehl **Std ProjekteZusammenführen** fügt den Inhalt einer FreeCAD-Datei 
 
 ## Einstellungen
 
--   Der letzte, verwendete Dateiablageort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Der letzte, verwendete Dateiablageort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → General → FileOpenSavePath**.
 -   Doppelte Beschriftungen sind erlaubt, wenn **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → DuplicateLabels** auf `True` gesetzt ist. Diese Einstellung kann auch im [Voreinstellungseditor / Dokument](Preferences_Editor/de#Dokument.md) geändert werden.
 
 

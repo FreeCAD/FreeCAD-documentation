@@ -1,19 +1,19 @@
 # Body/fr
 ## Introduction
 
-Dans FreeCAD, le mot \"[Body](Body/fr.md)\" est normalement utilisé pour faire référence à un objet [PartDesign Corps (Body)](PartDesign_Body/fr.md) (classe `PartDesign::Body`) défini par le [atelier PartDesign](PartDesign_Workbench/fr.md). Il s\'agit d\'un objet conteneur qui peut contenir des [Esquisses 2D](Sketch/fr.md) et des [fonctions géométriques 3D](PartDesign_Feature/fr.md) pour créer une forme solide.
+Dans FreeCAD, le mot \"[Body](Body/fr.md)\" est normalement utilisé pour faire référence à un objet [PartDesign Corps (Body)](PartDesign_Body/fr.md) (classe `PartDesign   *   *Body`) défini par le [atelier PartDesign](PartDesign_Workbench/fr.md). Il s\'agit d\'un objet conteneur qui peut contenir des [Esquisses 2D](Sketch/fr.md) et des [fonctions géométriques 3D](PartDesign_Feature/fr.md) pour créer une forme solide.
 
 Voir [PartDesign Corps](PartDesign_Body/fr.md) pour plus d\'informations sur ce type d\'objet.
 
 ## Utilisation
 
 1.  Basculez vers [l\'atelier PartDesign](PartDesign_Workbench/fr.md).
-2.  Presser **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
-3.  Presser **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)** pour créer une nouvelle [esquisse](Sketch/fr.md).
-4.  Créez un dessin fermé, puis utilisez **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)** pour extruder l\'esquisse et créer un solide initial.
+2.  Presser **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
+3.  Presser **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)** pour créer une nouvelle [esquisse](Sketch/fr.md).
+4.  Créez un dessin fermé, puis utilisez **[<img src=images/PartDesign_Pad.svg style="width   *16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)** pour extruder l\'esquisse et créer un solide initial.
 5.  Ajoutez d\'autres esquisses et Protrusion et utilisez d\'autres outils de [l\'atelier PartDesign](PartDesign_Workbench/fr.md) pour modifier et transformer le solide initial.
 
-Alternativement, au lieu d\'utiliser des [esquisses](Sketch/fr.md), vous pouvez ajouter des [fonctionnalités PartDesign Features](PartDesign_Feature/fr.md) primitives, par exemple un **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md)**. Un nombre illimité de fonctions additives et soustractives peuvent être utilisées pour créer un volume final.
+Alternativement, au lieu d\'utiliser des [esquisses](Sketch/fr.md), vous pouvez ajouter des [fonctionnalités PartDesign Features](PartDesign_Feature/fr.md) primitives, par exemple un **[<img src=images/PartDesign_AdditiveBox.svg style="width   *16px"> [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md)**. Un nombre illimité de fonctions additives et soustractives peuvent être utilisées pour créer un volume final.
 
 ## Remarques
 
@@ -24,7 +24,9 @@ Un corps n\'est pas requis lors de l\'utilisation de [l\'atelier Part](Part_Work
 
 {{PartDesign Tools navi
 
-}} {{Document objects navi}}
+}} {{Document objects navi}} 
+
+[Category   *Glossary](Category_Glossary.md)
 
 
 

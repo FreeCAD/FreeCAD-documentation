@@ -1,6 +1,6 @@
 # PartDesign Scaled/cs
 ---
-- GuiCommand:/cs   Name:PartDesign_Scaled   Name/cs:PartDesign Scaled   Workbenches:[[PartDesign Workbench/cs   PartDesign]], Complete|MenuLocation:PartDesign → MultiTransform---
+- GuiCommand   */cs   Name   *PartDesign_Scaled   Name/cs   *PartDesign Scaled   Workbenches   *[[PartDesign Workbench/cs   PartDesign]], Complete|MenuLocation   *PartDesign → MultiTransform---
 
 
 </div>
@@ -14,7 +14,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 ## Options
 
 +++
-| ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options:                                             |
+| ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options   *                                             |
 |                                                    |                                                                                                                                              |
 |                                                    | ### Select originals                                                                                                      |
 |                                                    |                                                                                                                                              |

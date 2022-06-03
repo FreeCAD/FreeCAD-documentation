@@ -1,6 +1,8 @@
 # Category:Developer/sv
 This category contains articles that are relevant for developers.
 
+[Category   *Categories/sv](Category   *Categories/sv.md)
+
 ### Contents
 
 |     |     |     |

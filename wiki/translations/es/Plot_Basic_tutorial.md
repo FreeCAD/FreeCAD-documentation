@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic:Plot Workbench
-   Level:Beginner
-   Time:
-   Author:
-   FCVersion:
-   Files:
+- TutorialInfo   */es
+   Topic   *Plot Workbench
+   Level   *Beginner
+   Time   *
+   Author   *
+   FCVersion   *
+   Files   *
 ---
 
 # Plot Basic tutorial/es
@@ -28,12 +28,12 @@ En este tutorial vamos a aprender a crear gráficos usando el módulo de grafica
 
 </div>
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Ejemplo de gráfico" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="Ejemplo de gráfico" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 
 
 <center>
@@ -49,14 +49,14 @@ Ejemplo de gráfico.
 
 <div class="mw-translate-fuzzy">
 
-En la imagen anterior puedes ver una muestra del gráfico que pretendemos generar. Mediante este tutorial aprenderás:
+En la imagen anterior puedes ver una muestra del gráfico que pretendemos generar. Mediante este tutorial aprenderás   *
 
 -   A crear un documento de gráfico mediante la consola de Python.
 -   A graficar series de datos mediante la consola de Python.
 -   A mostrar la malla.
 -   A mostrar la legenda.
--   A configurar los títulos de las series usando [LaTeX](http://www.latex-project.org).
--   A configurar los títulos de los ejes usando [LaTeX](http://www.latex-project.org).
+-   A configurar los títulos de las series usando [LaTeX](http   *//www.latex-project.org).
+-   A configurar los títulos de los ejes usando [LaTeX](http   *//www.latex-project.org).
 -   A configurar la apariencia de las series.
 -   A guardar el gráfico como archivo de imagen.
 
@@ -82,7 +82,7 @@ El módulo de graficado no necesita de ningún documento de FreeCAD para poder c
 
 ### Crear un documento de gráfico 
 
-Los gráficos son documentos especiales dentro de FreeCAD, y pueden ser creados bien manualmente, bien automáticamente cuando se pretende trazar graficos y todavía no existe un documento activo. Crear manualmente los gráficos tiene dos ventajas:
+Los gráficos son documentos especiales dentro de FreeCAD, y pueden ser creados bien manualmente, bien automáticamente cuando se pretende trazar graficos y todavía no existe un documento activo. Crear manualmente los gráficos tiene dos ventajas   *
 
 -   Puedes elegir la etiqueta de la ventana.
 -   Puedes controlar facilmente en que documento se trazan los gráficos.
@@ -93,16 +93,16 @@ Los gráficos son documentos especiales dentro de FreeCAD, y pueden ser creados 
 
 <div class="mw-translate-fuzzy">
 
-Para crear un documento de gráfico nuevo simplemente lanza los siguientes comandos desde la terminal:
+Para crear un documento de gráfico nuevo simplemente lanza los siguientes comandos desde la terminal   *
 
 
 </div>
 
 
 ```python
-try:
+try   *
     from FreeCAD.Plot import Plot
-except ImportError:
+except ImportError   *
     from freecad.plot import Plot
 
 Plot.figure("TrigonometricTest")
@@ -125,7 +125,7 @@ Esto creará un nuevo documento llamado **TrigonometricTest**. Éste nuevo docum
 
 Usted podría haber comenzado su trabajo en este punto, pues cuando se solicita al módulo de graficado que traze una curva sin existir un documento apropiado, el módulo genera uno nuevo, no obstante todos los consiguientes trazados se incluirán en el mismo documento hasta que se cree uno nuevo. Por esta razón es buena idea siempre tener controlado el número de documentos.
 
-Lo primero que necesitamos para trazar las curvas es generar los datos:
+Lo primero que necesitamos para trazar las curvas es generar los datos   *
 
 
 </div>
@@ -139,7 +139,7 @@ s = [math.sin(2.0*math.pi*tt) for tt in t]
 c = [math.cos(2.0*math.pi*tt) for tt in t]
 ```
 
-Lo que creará tres vectores (con 101 puntos):
+Lo que creará tres vectores (con 101 puntos)   *
 
 -   *t* = Tiempo en segundos.
 -   *s* = Función seno.
@@ -148,7 +148,7 @@ Lo que creará tres vectores (con 101 puntos):
 
 <div class="mw-translate-fuzzy">
 
-Para trazar las curvas correspondientes tan sólo será necesario lanzar los siguientes comandos:
+Para trazar las curvas correspondientes tan sólo será necesario lanzar los siguientes comandos   *
 
 
 </div>
@@ -266,7 +266,7 @@ Icono de la herramienta de edición de series.
 
 <div class="mw-translate-fuzzy">
 
-Comenzaremos seleccionando la primera serie, para la cuál desmarcaremos la casilla **No label**, lo que hará que aparezca la serie en la legenda, y nos permitirá establecer el siguiente título:
+Comenzaremos seleccionando la primera serie, para la cuál desmarcaremos la casilla **No label**, lo que hará que aparezca la serie en la legenda, y nos permitirá establecer el siguiente título   *
 
 
 </div>
@@ -279,7 +279,7 @@ $y = \sin \left( 2 \pi t \right)$
 
 <div class="mw-translate-fuzzy">
 
-Al estar [LaTeX](http://www.latex-project.org) soportado por [matplotlib](http://matplotlib.org) usted siempre podrá establecer los titulos y etiqutas haciendo uso de él. Establezca el siguiente título para la función coseno:
+Al estar [LaTeX](http   *//www.latex-project.org) soportado por [matplotlib](http   *//matplotlib.org) usted siempre podrá establecer los titulos y etiqutas haciendo uso de él. Establezca el siguiente título para la función coseno   *
 
 
 </div>
@@ -331,7 +331,7 @@ Icono de la herramienta de configuración de títulos.
 
 </div>
 
-Establezca los siguientes títulos:
+Establezca los siguientes títulos   *
 
 -   Title = Trigonometric functions example
 -   X Label = \$t\$
@@ -394,7 +394,9 @@ También puede seleccionar el tamaño de la imagen de salida en pulgadas, por ej
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}}
+}} {{Plot_Tools_navi}} 
+
+[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

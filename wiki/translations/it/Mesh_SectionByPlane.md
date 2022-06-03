@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Mesh_SectionByPlane
-   Name/it:Sezione da mesh e piano
-   MenuLocation:Mesh → Taglio → Sezione da mesh e piano
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Sezioni](Mesh_CrossSections/it.md)
+- GuiCommand   */it
+   Name   *Mesh_SectionByPlane
+   Name/it   *Sezione da mesh e piano
+   MenuLocation   *Mesh → Taglio → Sezione da mesh e piano
+   Workbenches   *[Mesh](Mesh_Workbench/it.md)
+   SeeAlso   *[Sezioni](Mesh_CrossSections/it.md)
 ---
 
 # Mesh SectionByPlane/it
@@ -26,7 +26,7 @@ Il comando **Sezione da mesh e piano** crea una sezione trasversale attraverso u
 
 ## Proprietà
 
-Vedere: [Funzioni Part](Part_Feature/it.md).
+Vedere   * [Funzioni Part](Part_Feature/it.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -9,21 +9,21 @@
 |Version=00.00
 |Date=2020-09-04
 |FCVersion= 0.18, 0.19
-|Download=[https://www.freecadweb.org/wiki/images/f/f4/Macro_Dxf_To_Shape.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/f/f4/Macro_Dxf_To_Shape.png ToolBar Icon]
 }}
 
 ## Description
 
-Macro utility to create a unique wire with many wires. Types of wire available are: MakeWire, Bspline, BsplineCurve, BsplineCurve + Arc, Polygon, and Bezier curve.
+Macro utility to create a unique wire with many wires. Types of wire available are   * MakeWire, Bspline, BsplineCurve, BsplineCurve + Arc, Polygon, and Bezier curve.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/0596ad522b151806d5970586a5051e4b/raw/23fe427f5f00df81c9a7d0a877cf58c052ea5f76/Macro_DXF_to_Shape.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/0596ad522b151806d5970586a5051e4b/raw/23fe427f5f00df81c9a7d0a877cf58c052ea5f76/Macro_DXF_to_Shape.FCMacro}}
 
 ## Usage
 
 -   Downgrade the compound line to work with a single line
 -   Discretize the first line
--   The linetest is created by choosing one of the following types: MakeWire, Bspline, BsplineCurve, Polygon, BezCurve (display the orientation Begin - End (Reversed Forward))
+-   The linetest is created by choosing one of the following types   * MakeWire, Bspline, BsplineCurve, Polygon, BezCurve (display the orientation Begin - End (Reversed Forward))
 -   test is good .. then   coordinates in file (and Del Test If you want)
 -   second line same first line and accord end to begin \....
 -   test is good .. then   coordinates in file (and Del Test If you want)
@@ -47,7 +47,7 @@ The icon for you toolBar ![](images/Macro_Dxf_To_Shape.png ) copy in same direct
 
 [How to Customize Toolbars](Customize_Toolbars.md), [How to install macros](How_to_install_macros.md)
 
-The script on github [Macro\_DXF\_to\_Shape.FCMacro](https://gist.github.com/mario52a/0596ad522b151806d5970586a5051e4b)
+The script on github [Macro\_DXF\_to\_Shape.FCMacro](https   *//gist.github.com/mario52a/0596ad522b151806d5970586a5051e4b)
 
 ## Example
 
@@ -59,15 +59,15 @@ The script on github [Macro\_DXF\_to\_Shape.FCMacro](https://gist.github.com/mar
 
 ## Links
 
--   More of mario52\'s macros can be found on [Github](https://gist.github.com/mario52a)
+-   More of mario52\'s macros can be found on [Github](https   *//gist.github.com/mario52a)
 
 ## Version
 
--   04/09/2020 ver 00.00 : add duplicate edge button
+-   04/09/2020 ver 00.00    * add duplicate edge button
 
--   13/02/2020 ver 00.00 :
+-   13/02/2020 ver 00.00    *
 
--   21/11/2016 ver 00.00 :
+-   21/11/2016 ver 00.00    *
 
 
 

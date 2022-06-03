@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Вставить растровое изображение
-   Name:TechDraw_Image
-   MenuLocation:TechDraw → Вставить растровое изображение
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить SVG знак](TechDraw_Symbol/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Вставить растровое изображение
+   Name   *TechDraw_Image
+   MenuLocation   *TechDraw → Вставить растровое изображение
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso   *[Вставить SVG знак](TechDraw_Symbol/ru.md)
 ---
 
 # TechDraw Image/ru
@@ -29,15 +29,15 @@ The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from 
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Image tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Image tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-dvi = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewImage','TestImage')
+dvi = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewImage','TestImage')
 rc = page.addView(dvi)
 dvi.ImageFile = "pathToMy/imageFile.png"
 dvi.Height = 200

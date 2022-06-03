@@ -142,7 +142,7 @@ Here is a description of some of these variables   *
   Variable name                            Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Default
     
   BUILD\_XXX                               Build FreeCAD with the component XXX. If you don\'t want/need to compile e.g. the workbench *OpenSCAD*, disable the variable *BUILD\_OPENSCAD*. FreeCAD will then not have this workbench. **Note   *** Some components are required for other components. If you for example uncheck *BUILD\_ROBOT* CMake will inform you that then the component *Path* cannot be compiled correctly. Therefore check the CMake output after you changed a BUILD\_XXX option!                                                                                                       depends
-  BUILD\_ENABLE\_CXX\_STD                  The version of the C++ language standard. **C++14** is the highest possible for FreeCAD 0.19 while at least **C++17** is required for FreeCAC 0.20. See also the note in section [Building with Visual Studio 15 (2017) and 16 (2019)](#Release_Build.md)                                                                                                                                                                                                                                                                                                  depends
+  BUILD\_ENABLE\_CXX\_STD                  The version of the C++ language standard. **C++14** is the highest possible for FreeCAD 0.19 while at least **C++17** is required for FreeCAD 0.20. See also the note in section [Building with Visual Studio 15 (2017) and 16 (2019)](#Release_Build.md)                                                                                                                                                                                                                                                                                                  depends
   BUILD\_DESIGNER\_PLUGIN                  To build the Qt Designer plugin, see [this section below](Compile_on_Windows#Qt_Designer_plugin.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                        OFF
   BUILD\_FLAT\_MESH                        Necessary to have a build that includes the [CreateFlatMesh feature](MeshPart_CreateFlatMesh.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                           OFF
   CMAKE\_INSTALL\_PREFIX                   The output folder when building the target *INSTALL*, see also section [Running and installing FreeCAD](#Running_and_installing_FreeCAD.md)                                                                                                                                                                                                                                                                                                                                                                                                                Windows default program installation folder
@@ -346,6 +346,20 @@ For Method 1 you need to put the libraries into the *bin* folder of your build f
 3.  Search there for the variable option *FREECAD\_COPY\_LIBPACK\_BIN\_TO\_BUILD* and check it.
 4.  Search there for the variable option *FREECAD\_COPY\_PLUGINS\_BIN\_TO\_BUILD* and check it.
 5.  Click on **Configure**. At the end of the configuration CMake will automatically copy the necessary libraries from the LibPack folder.
+
+### Troubleshooting
+
+When running FreeCAD you may encounter missing DLLs when using certain workbenches or features of workbenches. The error message in FreeCAD\'s console will not tell you what DLL is missing. To find this out you must use an external tool. The workflow is hereby   *
+
+-   Download the latest release of the program **Dependencies**   * <https   *//github.com/lucasg/Dependencies/releases> (choose the file *Dependencies\_x64\_Release.zip*)
+-   In the FreeCAD [Python console](Python_console.md) execute these commands   *
+
+import os
+os.system(r"~\DependenciesGui.exe")
+
+**Note**   * Instead of the \~ you must specify the full path to the *DependenciesGui.exe* on your system.
+
+-   Now drag in the \*.pyd file of the workbench with which you get missing DLLs reported.
 
 ## Updating the build 
 

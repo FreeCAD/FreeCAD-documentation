@@ -16,34 +16,34 @@ Această pagină arată modul în care se poate construi cu ușurință o funcț
 
 ## Scriptul Principal 
 
-Mai întâi vom scrie un script care conține toate funcționalitățile noastre. Apoi, vom salva acest lucru într-un fișier și îl vom importa în FreeCAD, astfel încât toate clasele și funcțiile pe care le scriem vor fi disponibile pentru FreeCAD. Deci, lansați editorul de text preferat și tastați următoarele rânduri:
+Mai întâi vom scrie un script care conține toate funcționalitățile noastre. Apoi, vom salva acest lucru într-un fișier și îl vom importa în FreeCAD, astfel încât toate clasele și funcțiile pe care le scriem vor fi disponibile pentru FreeCAD. Deci, lansați editorul de text preferat și tastați următoarele rânduri   *
 
 
 </div>
 
-First we will write a script containing all our functionality. Then we will save this in a file and import it in FreeCAD to make all its classes and functions available. Launch your favorite code editor and type the following lines:
+First we will write a script containing all our functionality. Then we will save this in a file and import it in FreeCAD to make all its classes and functions available. Launch your favorite code editor and type the following lines   *
 
 
 ```python
 import FreeCADGui, Part
 from pivy.coin import *
 
-class line:
+class line   *
 
     """This class will create a line after the user clicked 2 points on the screen"""
 
-    def __init__(self):
+    def __init__(self)   *
         self.view = FreeCADGui.ActiveDocument.ActiveView
         self.stack = []
         self.callback = self.view.addEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.getpoint)
 
-    def getpoint(self, event_cb):
+    def getpoint(self, event_cb)   *
         event = event_cb.getEvent()
-        if event.getState() == SoMouseButtonEvent.DOWN:
+        if event.getState() == SoMouseButtonEvent.DOWN   *
             pos = event.getPosition()
             point = self.view.getPoint(pos[0], pos[1])
             self.stack.append(point)
-            if len(self.stack) == 2:
+            if len(self.stack) == 2   *
                 l = Part.LineSegment(self.stack[0], self.stack[1])
                 shape = l.toShape()
                 Part.show(shape)
@@ -71,7 +71,7 @@ from pivy.coin import *
 
 
 ```python
-class line:
+class line   *
 ```
 
 Aici definim clasa noastră principală. De ce folosim o clasă și nu o funcție? Motivul este că avem nevoie ca instrumentul nostru să rămână \"în viață\" în timp ce așteptăm ca utilizatorul să facă clic pe ecran. O funcție se termină atunci când sarcina sa a fost făcută, dar un obiect (o clasă definește un obiect) rămâne în viață până când este distrus.
@@ -91,7 +91,7 @@ Aici definim clasa noastră principală. De ce folosim o clasă și nu o funcți
 
 
 ```python
-def __init__(self):
+def __init__(self)   *
 ```
 
 
@@ -136,7 +136,7 @@ self.callback = self.view.addEventCallbackPivy(SoMouseButtonEvent.getClassTypeId
 
 <div class="mw-translate-fuzzy">
 
-Acesta este un punct/parte importantă: Deoarece că este vorba de o o scenă [coin3D](http://www.coin3d.org/), FreeCAD folosește mecanismul de apel invers, care permite unei funcții să fie apelată de fiecare dată când se întâmplă un anumit eveniment scenă. În cazul nostru, creăm un apel invers pentru evenimentele [SoMouseButtonEvent](http://doc.coin3d.org/Coin/group__events.html) și îl legăm la funcția getpoint. Acum, de fiecare dată când este apăsat sau eliberat un buton mouse-ului, funcția GetPoint va fi executată.
+Acesta este un punct/parte importantă   * Deoarece că este vorba de o o scenă [coin3D](http   *//www.coin3d.org/), FreeCAD folosește mecanismul de apel invers, care permite unei funcții să fie apelată de fiecare dată când se întâmplă un anumit eveniment scenă. În cazul nostru, creăm un apel invers pentru evenimentele [SoMouseButtonEvent](http   *//doc.coin3d.org/Coin/group__events.html) și îl legăm la funcția getpoint. Acum, de fiecare dată când este apăsat sau eliberat un buton mouse-ului, funcția GetPoint va fi executată.
 
 
 </div>
@@ -154,7 +154,7 @@ Rețineți că există, de asemenea, o alternativă la addEventCallbackPivy() nu
 
 
 ```python
-def getpoint(self, event_cb):
+def getpoint(self, event_cb)   *
 ```
 
 
@@ -167,7 +167,7 @@ Acum definim funcția GetPoint, care va fi executată atunci când un buton al m
 
 
 ```python
-if event.getState() == SoMouseButtonEvent.DOWN:
+if event.getState() == SoMouseButtonEvent.DOWN   *
 ```
 
 
@@ -219,7 +219,7 @@ Noi adăugăm elementul nostru nou în stivă/morman
 
 
 ```python
-if len(self.stack) == 2:
+if len(self.stack) == 2   *
 ```
 
 Avem toate punctele necesare? dacă da, atunci să tragem linia!
@@ -284,17 +284,17 @@ Deoarece am terminat cu linia noastră, să eliminăm mecanismul de apel invers,
 
 ## Testing & Using the script 
 
-Acum, hai să salvăm scriptul într-un loc unde interpretul Python de la FreeCAD îl va găsi. Când importați module, interpretorul va căuta în următoarele locuri: căile de instalare python, directorul bin FreeCAD și toate directoarele modulelor FreeCAD. Deci, cea mai bună soluție este să creați un director nou într-unul din FreeCAD [ Mod directories](Installing_more_workbenches.md) și să salvați scriptul în el. De exemplu, să facem un director \"MyScripts\" și să salvăm scriptul nostru ca \"exercise.py\".
+Acum, hai să salvăm scriptul într-un loc unde interpretul Python de la FreeCAD îl va găsi. Când importați module, interpretorul va căuta în următoarele locuri   * căile de instalare python, directorul bin FreeCAD și toate directoarele modulelor FreeCAD. Deci, cea mai bună soluție este să creați un director nou într-unul din FreeCAD [ Mod directories](Installing_more_workbenches.md) și să salvați scriptul în el. De exemplu, să facem un director \"MyScripts\" și să salvăm scriptul nostru ca \"exercise.py\".
 
 
 </div>
 
-Now let\'s save our script in a folder where the FreeCAD Python interpreter can find it. When importing modules, the interpreter will look in the following places: the Python installation paths, the FreeCAD {{FileName|bin}} folder, and all FreeCAD {{FileName|Mod}} (module) folders. So the best solution is to create a new folder in one of the {{FileName|Mod}} folders. Let\'s create a {{FileName|MyScripts}} folder there and save our script in it as {{FileName|exercise.py}}.
+Now let\'s save our script in a folder where the FreeCAD Python interpreter can find it. When importing modules, the interpreter will look in the following places   * the Python installation paths, the FreeCAD **bin** folder, and all FreeCAD **Mod** (module) folders. So the best solution is to create a new folder in one of the **Mod** folders. Let\'s create a **MyScripts** folder there and save our script in it as **exercise.py**.
 
 
 <div class="mw-translate-fuzzy">
 
-Acum, totul este gata, să începem FreeCAD, să creăm un nou document și, în interpretorul python, să tastăm:
+Acum, totul este gata, să începem FreeCAD, să creăm un nou document și, în interpretorul python, să tastăm   *
 
 
 </div>
@@ -307,7 +307,7 @@ import exercise
 
 <div class="mw-translate-fuzzy">
 
-Dacă nu apare niciun mesaj de eroare, înseamnă că scriptul nostru de exerciții **exercise** a fost încărcat. Acum îi putem verifica conținutul cu:
+Dacă nu apare niciun mesaj de eroare, înseamnă că scriptul nostru de exerciții **exercise** a fost încărcat. Acum îi putem verifica conținutul cu   *
 
 
 </div>
@@ -320,7 +320,7 @@ dir(exercise)
 
 <div class="mw-translate-fuzzy">
 
-Comanda **dir()** este o comandă python încorporată care listează/enumeră conținutul unui modul. Putem vedea că clasa noastră **class line()** este aici, așteptându-ne. Acum, să o testăm:
+Comanda **dir()** este o comandă python încorporată care listează/enumeră conținutul unui modul. Putem vedea că clasa noastră **class line()** este aici, așteptându-ne. Acum, să o testăm   *
 
 
 </div>
@@ -330,7 +330,7 @@ Comanda **dir()** este o comandă python încorporată care listează/enumeră c
 'line' in dir(exercise)
 ```
 
-Now let\'s test it:
+Now let\'s test it   *
 
 
 ```python
@@ -353,20 +353,20 @@ Apoi, faceți dublu clic în vizualizarea 3D, și bingo, aici este linia noastr�
 
 ## Înregistrarea scriptului în interfața FreeCAD 
 
-Acum, pentru ca noul nostru instrument de trasat linii să fie foarte cool, ar trebui să aibă un buton pe interfață, deci să nu trebuiescă să tastăm toate acele lucruri de fiecare dată. Cea mai ușoară cale este să ne transformăm noul director MyScripts într-un atelier de lucru complet FreeCAD. Este ușor, tot ce este necesar este să plasați un fișier numit **InitGui.py** în directorul MyScripts. InitGui.py va conține instrucțiunile pentru a crea un nou atelier de lucru și va adăuga noul instrument. În plus, va trebui să transformăm un pic codul nostru de exerciții, astfel încât instrumentul line() este recunoscut ca o comandă oficială FreeCAD. Să începem prin a face un fișier InitGui.py și scrieți următorul cod în el:
+Acum, pentru ca noul nostru instrument de trasat linii să fie foarte cool, ar trebui să aibă un buton pe interfață, deci să nu trebuiescă să tastăm toate acele lucruri de fiecare dată. Cea mai ușoară cale este să ne transformăm noul director MyScripts într-un atelier de lucru complet FreeCAD. Este ușor, tot ce este necesar este să plasați un fișier numit **InitGui.py** în directorul MyScripts. InitGui.py va conține instrucțiunile pentru a crea un nou atelier de lucru și va adăuga noul instrument. În plus, va trebui să transformăm un pic codul nostru de exerciții, astfel încât instrumentul line() este recunoscut ca o comandă oficială FreeCAD. Să începem prin a face un fișier InitGui.py și scrieți următorul cod în el   *
 
 
 </div>
 
-For our new line tool to be really useful, and to avoid having to type all that stuff, it should have a button in the interface. One way to do this is to transform our new {{FileName|MyScripts}} folder into a full FreeCAD workbench. This is easy, all that is needed is to put a file called {{FileName|InitGui.py}} inside the {{FileName|MyScripts}} folder. {{FileName|InitGui.py}} will contain the instructions to create a new workbench, and add our new tool to it. Besides that we will also need to change our exercise code a bit, so the `line()` tool is recognized as an official FreeCAD command. Let\'s start by creating an {{FileName|InitGui.py}} file, and writing the following code in it:
+For our new line tool to be really useful, and to avoid having to type all that stuff, it should have a button in the interface. One way to do this is to transform our new **MyScripts** folder into a full FreeCAD workbench. This is easy, all that is needed is to put a file called **InitGui.py** inside the **MyScripts** folder. **InitGui.py** will contain the instructions to create a new workbench, and add our new tool to it. Besides that we will also need to change our exercise code a bit, so the `line()` tool is recognized as an official FreeCAD command. Let\'s start by creating an **InitGui.py** file, and writing the following code in it   *
 
 
 ```python
-class MyWorkbench (Workbench):
+class MyWorkbench (Workbench)   *
 
     MenuText = "MyScripts"
 
-    def Initialize(self):
+    def Initialize(self)   *
         import exercise
         commandslist = ["line"]
         self.appendToolbar("My Scripts", commandslist)
@@ -377,7 +377,7 @@ Gui.addWorkbench(MyWorkbench())
 
 <div class="mw-translate-fuzzy">
 
-Până acum, ar fi trebuit să fi înțeles deja scriptul de mai sus, mă gândesc eu: Creați o nouă clasă pe care o numiți MyWorkbench. Îi vom da un titlu (MenuText) și vom defini o funcție Initialize() care va fi executată atunci când atelierul de lucru este încărcat în FreeCAD. În această funcție, încărcăm conținutul fișierului de exerciții și adăugăm comenzile FreeCAD găsite în interiorul unei liste de comenzi. Apoi, facem o bară de instrumente numită \"Scripturile mele\" și îi atribuim comenzile noastre. În prezent, desigur, avem doar un singur instrument, astfel că lista noastră de comenzi conține doar un singur element. Apoi, odată ce atelierul nostru de lucru este gata, îl adăugăm la interfața principală.
+Până acum, ar fi trebuit să fi înțeles deja scriptul de mai sus, mă gândesc eu   * Creați o nouă clasă pe care o numiți MyWorkbench. Îi vom da un titlu (MenuText) și vom defini o funcție Initialize() care va fi executată atunci când atelierul de lucru este încărcat în FreeCAD. În această funcție, încărcăm conținutul fișierului de exerciții și adăugăm comenzile FreeCAD găsite în interiorul unei liste de comenzi. Apoi, facem o bară de instrumente numită \"Scripturile mele\" și îi atribuim comenzile noastre. În prezent, desigur, avem doar un singur instrument, astfel că lista noastră de comenzi conține doar un singur element. Apoi, odată ce atelierul nostru de lucru este gata, îl adăugăm la interfața principală.
 
 
 </div>
@@ -385,7 +385,7 @@ Până acum, ar fi trebuit să fi înțeles deja scriptul de mai sus, mă gânde
 
 <div class="mw-translate-fuzzy">
 
-Dar acest lucru nu va funcționa, deoarece o comandă FreeCAD trebuie să fie formatată într-un anumit mod de lucru. Deci, va trebui să transformăm puțin instrumentul nostru **line()**. Noul nostu script **exercise.py** va arăta cam așa:
+Dar acest lucru nu va funcționa, deoarece o comandă FreeCAD trebuie să fie formatată într-un anumit mod de lucru. Deci, va trebui să transformăm puțin instrumentul nostru **line()**. Noul nostu script **exercise.py** va arăta cam așa   *
 
 
 </div>
@@ -395,29 +395,29 @@ Dar acest lucru nu va funcționa, deoarece o comandă FreeCAD trebuie să fie fo
 import FreeCADGui, Part
 from pivy.coin import *
 
-class line:
+class line   *
 
     """This class will create a line after the user clicked 2 points on the screen"""
 
-    def Activated(self):
+    def Activated(self)   *
         self.view = FreeCADGui.ActiveDocument.ActiveView
         self.stack = []
         self.callback = self.view.addEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.getpoint)
 
-    def getpoint(self, event_cb):
+    def getpoint(self, event_cb)   *
         event = event_cb.getEvent()
-        if event.getState() == SoMouseButtonEvent.DOWN:
+        if event.getState() == SoMouseButtonEvent.DOWN   *
             pos = event.getPosition()
             point = self.view.getPoint(pos[0], pos[1])
             self.stack.append(point)
-            if len(self.stack) == 2:
+            if len(self.stack) == 2   *
                 l = Part.LineSegment(self.stack[0], self.stack[1])
                 shape = l.toShape()
                 Part.show(shape)
                 self.view.removeEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.callback)
 
-    def GetResources(self):
-        return {'Pixmap': 'path_to_an_icon/line_icon.png', 'MenuText': 'Line', 'ToolTip': 'Creates a line by clicking 2 points on the screen'}
+    def GetResources(self)   *
+        return {'Pixmap'   * 'path_to_an_icon/line_icon.png', 'MenuText'   * 'Line', 'ToolTip'   * 'Creates a line by clicking 2 points on the screen'}
 
 FreeCADGui.addCommand('line', line())
 ```
@@ -446,20 +446,22 @@ Asta este, vrem să reporniți FreeCAD și vom avea un nou atelier de lucru cu n
 
 <div class="mw-translate-fuzzy">
 
-Dacă ți-a plăcut acest exercițiu, de ce să nu încerci să îmbunătățești acest mic instrument? Sunt multe lucruri care pot fi făcute, ca de exemplu:
+Dacă ți-a plăcut acest exercițiu, de ce să nu încerci să îmbunătățești acest mic instrument? Sunt multe lucruri care pot fi făcute, ca de exemplu   *
 
--   Adăugați comentarii utilizatorilor: până acum am făcut un instrument foarte subțire îmbrăcat, utilizatorul ar putea fi un pic pierdut atunci când îl utilizează. Așadar, am putea adăuga comentarii, spunându-i ce să facă în continuare. De exemplu, puteți emite mesaje către consola FreeCAD. "Aruncați o privire" în modulul FreeCAD.Console
+-   Adăugați comentarii utilizatorilor   * până acum am făcut un instrument foarte subțire îmbrăcat, utilizatorul ar putea fi un pic pierdut atunci când îl utilizează. Așadar, am putea adăuga comentarii, spunându-i ce să facă în continuare. De exemplu, puteți emite mesaje către consola FreeCAD. "Aruncați o privire" în modulul FreeCAD.Console
 -   Adăugați posibilitatea de a introduce manual coordonatele punctelor 3D. Uitați-vă la funcția python input(), de exemplu,
 -   Adăugați posibilitatea de a adăuga mai mult de 2 puncte
--   Adăugați evenimente pentru alte lucruri: Acum verificăm doar evenimentele butonului mouse-ului, dacă am face și ceva când mouse-ul este mutat, cum ar fi afișarea coordonatelor curente?
+-   Adăugați evenimente pentru alte lucruri   * Acum verificăm doar evenimentele butonului mouse-ului, dacă am face și ceva când mouse-ul este mutat, cum ar fi afișarea coordonatelor curente?
 -   Dați un nume obiectului creat și multe alte lucruri.
 
-Nu ezitați să vă scrieți întrebările sau ideile pe [forum](http://forum.freecadweb.org/)!
+Nu ezitați să vă scrieți întrebările sau ideile pe [forum](http   *//forum.freecadweb.org/)!
 
 
 </div>
 
-Don\'t hesitate to ask questions or share ideas on the [forum](https://forum.freecadweb.org/)! {{Top}}
+Don\'t hesitate to ask questions or share ideas on the [forum](https   *//forum.freecadweb.org/)! {{Top}}  
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

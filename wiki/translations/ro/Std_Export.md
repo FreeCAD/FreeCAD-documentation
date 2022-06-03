@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Std Export
-   Name/ro:Exportul
-   Workbenches:All
-   MenuLocation:[File](Std_File_Menu/ro.md) → Exportul
-   Shortcut:Ctrl + E
-   SeeAlso:[Importul](Std_Import/ro.md)
+- GuiCommand   */ro
+   Name   *Std Export
+   Name/ro   *Exportul
+   Workbenches   *All
+   MenuLocation   *[File](Std_File_Menu/ro.md) → Exportul
+   Shortcut   *Ctrl + E
+   SeeAlso   *[Importul](Std_Import/ro.md)
 ---
 
 # Std Export/ro
@@ -44,13 +44,13 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 ## Notes
 
 -   To export a [mesh object](Mesh_Workbench.md) to a solid file format it must first be converted. See the [Import from STL or OBJ](Import_from_STL_or_OBJ.md) tutorial.
--   Some workbenches have additional export commands. See: [Import Export](Import_Export.md).
+-   Some workbenches have additional export commands. See   * [Import Export](Import_Export.md).
 
 ## Preferences
 
--   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
--   The last used export filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter**.
+-   See   * [Import Export Preferences](Import_Export_Preferences.md).
+-   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used export filter is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 
@@ -58,7 +58,9 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 {{Std Base navi
 
-}}
+}}  
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

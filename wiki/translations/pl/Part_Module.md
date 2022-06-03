@@ -1,4 +1,4 @@
-# <img alt="Ikonka FreeCAD dla Środowiska pracy Part" src=images/Workbench_Part.svg  style="width   *64px;"> Part Module/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Część" src=images/Workbench_Part.svg  style="width   *64px;"> Part Module/pl
 
 
 {{TOCright}}
@@ -18,7 +18,7 @@ Obiekty części są bardziej złożone niż obiekty siatkowe utworzone przy uż
 
 
 
-*Środowisko pracy Część jest podstawową warstwą, która udostępnia funkcje rysowania '''OCCT''' dla każdego Środowiska pracy w programie FreeCAD.*
+*Środowisko pracy Część jest podstawową warstwą, która udostępnia funkcje rysowania '''OCCT''' dla każdego środowiska pracy w programie FreeCAD.*
 
 ### Narzędzia
 
@@ -122,7 +122,7 @@ Narzędzia te wykonują operacje logiczne.
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width   *32px;"> [Fragmenty funkcji fogicznych](Part_BooleanFragments/pl.md)   * tworzy wszystkie elementy, które można uzyskać poprzez operacje logiczne pomiędzy obiektami.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width   *32px;"> [Pokrój część](Part_SliceApart/pl.md)   * Przecina i dzieli obiekt przez przecięcie go przez inne obiekty.
     -   <img alt="" src=images/Part_Slice.svg  style="width   *32px;"> [Rozkrój częścią](Part_Slice/pl.md)   * Dzieli obiekt na części, przecinając go innym obiektem.
-    -   <img alt="" src=images/Part_XOR.svg  style="width   *32px;"> [XOR](Part_XOR/pl.md)   * usuwa przestrzeń współdzieloną przez parzystą liczbę obiektów *(symetryczna wersja [Wycięcie](Part_Cut/pl.md))*.
+    -   <img alt="" src=images/Part_XOR.svg  style="width   *32px;"> [XOR](Part_XOR/pl.md)   * usuwa przestrzeń współdzieloną elementów o parzystym numerze.
 
 ### Pomiary
 

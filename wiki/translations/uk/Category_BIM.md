@@ -1,6 +1,8 @@
 # Category:BIM/uk
 This category is for pages related to building information management (BIM).
 
+[Category   *User Documentation/uk](Category   *User_Documentation/uk.md)
+
 ### Contents
 
 |     |     |     |

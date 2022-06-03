@@ -2,7 +2,7 @@
 Linux pozwala na różnego rodzaju pakiety w zależności od użytej dystrybucji. Popularne formaty to pakiety Debiana `.deb`, openSuse, Fedory `.rpm` i częściowo-wszechstronny format `.AppImage`.
 
 
-**Uwaga:**
+**Uwaga   ***
 
 dla systemów Windows i MacOS, zobacz dokument [Pakiety oprogramowania](Packaging/pl.md).
 
@@ -10,6 +10,11 @@ dla systemów Windows i MacOS, zobacz dokument [Pakiety oprogramowania](Packagin
 -   [Debian Unstable](Debian_Unstable.md)
 -   [Git buildpackage](Git_buildpackage.md)
 -   [AppImage](AppImage.md) *(zwłaszcza sekcja [Dostosowane AppImages](AppImage#Personalized_AppImages.md))*
+
+
+
+
+[Category   *Packaging](Category_Packaging.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

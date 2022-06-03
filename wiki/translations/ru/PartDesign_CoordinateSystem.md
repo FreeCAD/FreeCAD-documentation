@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Создать локальную систему координат
-   Name:PartDesign_CoordinateSystem
-   MenuLocation:PartDesign → Создать локальную систему координат
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Создать локальную систему координат
+   Name   *PartDesign_CoordinateSystem
+   MenuLocation   *PartDesign → Создать локальную систему координат
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   Version   *0.18
+   SeeAlso   *[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 # PartDesign CoordinateSystem/ru
@@ -20,7 +20,7 @@ Creates a **local coordinate system** which can be used as reference for other d
 
 ## Применение
 
-1.  Press the **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Create a local coordinate system](PartDesign_CoordinateSystem.md)** button.
+1.  Press the **[<img src=images/PartDesign_CoordinateSystem.svg style="width   *16px"> [Create a local coordinate system](PartDesign_CoordinateSystem.md)** button.
 2.  Define Coordinate System parameters. Select a first reference in the 3D view to filter the available attachment modes.
 3.  Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text *Attached with mode* along with the attachment mode name will appear in green at the top of the Parameters panel.
 4.  To add an additional reference, press the next **Reference** button. Once pressed its label changes to *Selecting\...* until a selection is made.
@@ -36,21 +36,21 @@ Double-click the **Local\_CS** label in the Model tree or right-click and select
 
 ### Данные
 
--    **MapMode**: lists the attachment mode used.
+-    **MapMode**   * lists the attachment mode used.
 
--    **Attachment Reversed**: indicates if the coordinate system is reversed in orientation.
+-    **Attachment Reversed**   * indicates if the coordinate system is reversed in orientation.
 
--    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Placement**: indicates the coordinates and alignment of the coordinates system´s origin .
+-    **Placement**   * indicates the coordinates and alignment of the coordinates system´s origin .
 
--    **Label**: name given to the object, this name can be changed at convenience.
+-    **Label**   * name given to the object, this name can be changed at convenience.
 
 ## Программирование
 
 
 ```python
-lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
+lcs = App.activeDocument().addObject( 'PartDesign   *   *CoordinateSystem', 'LCS' )
 ```
 
 

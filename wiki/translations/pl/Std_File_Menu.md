@@ -27,7 +27,7 @@
 
 W menu Plik znajdują się narzędzia związane z plikami źródłowymi i docelowymi.
 
-## Narzędzia
+## Przybory
 
 W tym menu dostępne są następujące narzędzia   *
 
@@ -63,9 +63,9 @@ W tym menu dostępne są następujące narzędzia   *
 
 -   <img alt="" src=images/Std_PrintPdf.svg  style="width   *32px;"> [Eksportuj do PDF \...](Std_PrintPdf/pl.md)   * Zapisuje bieżący obraz dokumentu do pliku PDF.
 
--   [Ostatnie pliki](Std_RecentFiles/pl.md)   * Pokazuje listę ostatnio otwartych plików.
+-   [Ostatnio używane pliki](Std_RecentFiles/pl.md)   * Pokazuje listę ostatnio otwartych plików.
 
--   <img alt="" src=images/Std_Quit.svg  style="width   *32px;"> [Zakończ](Std_Quit/pl.md)   * Kończy program FreeCAD.
+-   <img alt="" src=images/Std_Quit.svg  style="width   *32px;"> [Zakończ](Std_Quit/pl.md)   * Kończy pracę z programem FreeCAD.
 
 
 

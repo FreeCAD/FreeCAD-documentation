@@ -1,6 +1,6 @@
 # PartDesign Scaled/es
 ---
-- GuiCommand:/es   Name:PartDesign_Scaled   Workbenches:[[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation:Diseño de Piezas → MultiTransform---
+- GuiCommand   */es   Name   *PartDesign_Scaled   Workbenches   *[[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation   *Diseño de Piezas → MultiTransform---
 
 
 </div>
@@ -22,7 +22,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 ## Opciones
 
 +++
-| ![](images/Scaled_parameters.png ) | Cuando se crea una operación de Escalar, el letrero de diálogo de \'parámetros de escalado\' ofrece las siguientes opciones:                              |
+| ![](images/Scaled_parameters.png ) | Cuando se crea una operación de Escalar, el letrero de diálogo de \'parámetros de escalado\' ofrece las siguientes opciones   *                              |
 |                                                    |                                                                                                                                                           |
 |                                                    | ### Selecionar los originales                                                                                                 |
 |                                                    |                                                                                                                                                           |

@@ -3,7 +3,7 @@
 
 ## Creación
 
-ImageConv se encuentra en el árbol de fuentes de FreeCAD:
+ImageConv se encuentra en el árbol de fuentes de FreeCAD   *
 
 
 {{Incode|/trunk/src/Tools/ImageTools/ImageConv}}
@@ -13,6 +13,8 @@ La creación es fácil con el *Makefile* o el VisualStudio-Projecto.
 ## Utilización
 
 ImageConv es una herramienta de comando en línea.
+
+[Category   *Developer](Category_Developer.md)
 
 
 

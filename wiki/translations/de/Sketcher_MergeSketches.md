@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher MergeSketches
-   Name/de:Skizzierer SkizzenZusammenführen
-   MenuLocation:Skizze → Skizzen zusammenführen
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Version:0.15
+- GuiCommand   */de
+   Name   *Sketcher MergeSketches
+   Name/de   *Skizzierer SkizzenZusammenführen
+   MenuLocation   *Skizze → Skizzen zusammenführen
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Version   *0.15
 ---
 
 # Sketcher MergeSketches/de

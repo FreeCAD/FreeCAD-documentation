@@ -1,18 +1,18 @@
 ---
-- GuiCommand:
-   Name:FEM SolverMystran
-   MenuLocation:Solve → Solver Mystran
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:**S** **M**
-   Version:0.20
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+- GuiCommand   *
+   Name   *FEM SolverMystran
+   MenuLocation   *Solve → Solver Mystran
+   Workbenches   *[FEM](FEM_Workbench.md)
+   Shortcut   ***S** **M**
+   Version   *0.20
+   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM SolverMystran/en
 
 ## Description
 
-[SolverMystran](FEM_SolverMystran.md) enables usage of the [MYSTRAN](https://www.mystran.com) solver. It may be used for:
+[SolverMystran](FEM_SolverMystran.md) enables usage of the [MYSTRAN](https   *//www.mystran.com) solver. It may be used for   *
 
 1.  Setting analysis parameters
 2.  Selecting working directory
@@ -24,7 +24,7 @@ ToDo
 
 ## File function 
 
-Under Mod\\Fem\\femsolver\\mystran, there are these files:
+Under Mod\\Fem\\femsolver\\mystran, there are these files   *
 
 
 ```python
@@ -40,7 +40,7 @@ solver.py
 tasks.py
 ```
 
-The function of each file are:
+The function of each file are   *
 
 writer.py - main control file
 
@@ -60,11 +60,11 @@ BDF() - Create empty case file.
 
 
 ```python
-$pyNastran: version=msc
-$pyNastran: punch=False
-$pyNastran: encoding=utf-8
-$pyNastran: nnodes=0
-$pyNastran: nelements=0
+$pyNastran   * version=msc
+$pyNastran   * punch=False
+$pyNastran   * encoding=utf-8
+$pyNastran   * nnodes=0
+$pyNastran   * nelements=0
 ENDDATA
 ```
 

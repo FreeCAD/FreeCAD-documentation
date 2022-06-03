@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/es
-   Name:PartDesign PolarPattern
-   Name/es:DiseñoPieza PatrónPolar
-   MenuLocation:DiseñoPieza → Aplicar un patrón → PatrónPolar
-   Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
+- GuiCommand   */es
+   Name   *PartDesign PolarPattern
+   Name/es   *DiseñoPieza PatrónPolar
+   MenuLocation   *DiseñoPieza → Aplicar un patrón → PatrónPolar
+   Workbenches   *[DiseñoPieza](PartDesign_Workbench/es.md)
 ---
 
 # PartDesign PolarPattern/es
@@ -20,7 +20,7 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 
 ![](images/PartDesign_PolarPattern_example.png )
 
-*Arriba: Un vaciado de una ranura (B) creada sobre un sólido base (A, también referido como soporte) es usada para crear un patrón polar. El resultado (C) se muestra a la derecha.*
+*Arriba   * Un vaciado de una ranura (B) creada sobre un sólido base (A, también referido como soporte) es usada para crear un patrón polar. El resultado (C) se muestra a la derecha.*
 
 ## Uso
 
@@ -30,7 +30,7 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 <div class="mw-translate-fuzzy">
 
 1.  (Opcional) Seleccionar la operación (u operaciones {{Version/es|0.19}}) que se han de repetir.
-2.  Presionar el botón **[<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PatrónPolar** .
+2.  Presionar el botón **[<img src=images/PartDesign_PolarPattern.svg style="width   *24px">** **PatrónPolar** .
     -   Si no hay ninguna operación seleccionada previamente, se puede seleccionar una operación *de una sola pieza* como base.
 3.  Definir el **Eje**. Ver [Opciones](#Options/es.md).
 4.  Definir el **Ángulo** entre la que será la última copia y la figura original.
@@ -170,7 +170,7 @@ Permite al usuario seleccionar una Línea de referencia o una arista de un objet
 
 ### Ángulo y repeticiones 
 
-Especifica el ángulo a ser cubierto por el patrón, y el número total de formas repetidas (incluyendo la operación original). Por ejemplo, cuatro repeticiones en un ángulo de 280 grados dará un espaciado de 60 grados entre repeticiones. Excepción: Si el ángulo es de 360 grados, como la primera y la última repetición son idénticas, 4 repeticiones quedarán separadas 90 grados.
+Especifica el ángulo a ser cubierto por el patrón, y el número total de formas repetidas (incluyendo la operación original). Por ejemplo, cuatro repeticiones en un ángulo de 280 grados dará un espaciado de 60 grados entre repeticiones. Excepción   * Si el ángulo es de 360 grados, como la primera y la última repetición son idénticas, 4 repeticiones quedarán separadas 90 grados.
 
 
 </div>

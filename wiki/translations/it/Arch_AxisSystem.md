@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch AxisSystem
-   Name/it:Sistema di assi
-   Icon:Arch Axis System.svg
-   MenuLocation:Arch → Sistema di assi
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   SeeAlso:[Assi](Arch_Axis/it.md), [Griglia](Arch_Grid/it.md)
+- GuiCommand   */it
+   Name   *Arch AxisSystem
+   Name/it   *Sistema di assi
+   Icon   *Arch Axis System.svg
+   MenuLocation   *Arch → Sistema di assi
+   Workbenches   *[Arch](Arch_Workbench/it.md)
+   SeeAlso   *[Assi](Arch_Axis/it.md), [Griglia](Arch_Grid/it.md)
 ---
 
 # Arch AxisSystem/it
@@ -19,7 +19,7 @@ Lo strumento Sistema di assi consente di combinare 2 o 3 oggetti [Assi](Arch_Axi
 
 Questo è utile per definire i punti di intersezione tra i diversi assi. Gli oggetti Arch possono quindi utilizzare questo sistema per duplicare la loro forma sui diversi punti di intersezione.
 
-<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -64,7 +64,7 @@ Questo è utile per definire i punti di intersezione tra i diversi assi. Gli ogg
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -74,7 +74,7 @@ Questo è utile per definire i punti di intersezione tra i diversi assi. Gli ogg
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Sistema di assi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+Lo strumento Sistema di assi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -92,7 +92,7 @@ AxisSystem = makeAxisSystem(axes, name="Axis System")
 
 </div>
 
-Esempio: 
+Esempio   * 
 ```python
 import Draft, Arch
 

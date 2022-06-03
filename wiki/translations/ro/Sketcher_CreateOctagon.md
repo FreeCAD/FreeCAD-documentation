@@ -1,6 +1,6 @@
 # Sketcher CreateOctagon/ro
 ---
-- GuiCommand:/ro   Name:Sketcher CreateOctagon   Name/ro:Sketcher CreateOctagon   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create octagon   Shortcut:   SeeAlso:---
+- GuiCommand   */ro   Name   *Sketcher CreateOctagon   Name/ro   *Sketcher CreateOctagon   Workbenches   *[[Sketcher Workbench/ro   Sketcher]]|MenuLocation   *Sketch → Sketcher geometries → Create octagon   Shortcut   *   SeeAlso   *---
 
 
 </div>
@@ -22,7 +22,7 @@ Desenează un octogon înscris geometric într-un cerc. Când pornește instrume
 
 <div class="mw-translate-fuzzy">
 
--   După apăsarea butonului **[<img src=images/Sketcher_CreateOctagon.png style="width:16px"> Create octagon**, click o dată pentru a defini centrul , apoi se glisează mouse-ul și click a doua oară pentru a seta unul dintre vârfuri.
+-   După apăsarea butonului **[<img src=images/Sketcher_CreateOctagon.png style="width   *16px"> Create octagon**, click o dată pentru a defini centrul , apoi se glisează mouse-ul și click a doua oară pentru a seta unul dintre vârfuri.
 -   Apăsați **Esc** sau faceți click pe butonul dreapta al mouse-ului pentru a abandona funcția.
 
 

@@ -7,7 +7,7 @@
 |Version=2.0
 |Date=2020-02-02
 |FCVersion= >=0.17
-|Download=[https://www.freecadweb.org/wiki/images/0/0b/Macro_Toggle_Drawstyle.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/0/0b/Macro_Toggle_Drawstyle.png ToolBar Icon]
 |SeeAlso=[Macro Toggle Drawstyle Optimized](Macro_Toggle_Drawstyle_Optimized/it.md) <img src="images/Macro_Toggle_Drawstyle_Optimized.png" width=24px> per tutte le lingue
 }}
 
@@ -24,13 +24,13 @@ L\'installazione si realizza copiando i due codici nella appropriata directory d
 
 ## Uso
 
-Selezionare un oggetto, quindi fare clic sul pulsante della barra degli strumenti associata, o richiamarle dal menu Macro. Lo stile dell\'oggetto selezionato si alterna tra i due Stili specificati nel codice della macro (vedere il codice sottostante). **Note**: La definizione degli stili è elencata nel codice. Modificando il codice (che è documentato nel codice della macro) l\'utente può selezionare i 2 stili che desidere avere alternabili.
+Selezionare un oggetto, quindi fare clic sul pulsante della barra degli strumenti associata, o richiamarle dal menu Macro. Lo stile dell\'oggetto selezionato si alterna tra i due Stili specificati nel codice della macro (vedere il codice sottostante). **Note**   * La definizione degli stili è elencata nel codice. Modificando il codice (che è documentato nel codice della macro) l\'utente può selezionare i 2 stili che desidere avere alternabili.
 
 ## Interfaccia utente 
 
 L\'oggetto selezionato viene ridisegnato nello stile specificato nella macro.
 
-Script ottimizzato per tutte le lingue, su uno oggetto selezionato o tutti gli oggetti [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=40#p146239) (Sun Nov 27, 2016 6:49 pm)
+Script ottimizzato per tutte le lingue, su uno oggetto selezionato o tutti gli oggetti [Keyboard shortcut, View toolbar - Wireframe](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=40#p146239) (Sun Nov 27, 2016 6   *49 pm)
 
 ## Script
 
@@ -40,16 +40,16 @@ ToolBar icon ![](images/Macro_Toggle_Drawstyle.png )
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 #
 #
-#           Macro: Toggle Draw Style
+#           Macro   * Toggle Draw Style
 #
 # This macros allows the user to switch between different Drawstyles by clicking on
 # the button of a Macro in a toolbar.
 #
-# initial code:     triplus
-# macro-isation:    piffpoof
+# initial code   *     triplus
+# macro-isation   *    piffpoof
 #
 # This macro switches (or toggles) between 2 selected styles from the Drawstyle menu.
 # As written the macro toggles between "WireFrame" and "As is".
@@ -60,7 +60,7 @@ ToolBar icon ![](images/Macro_Toggle_Drawstyle.png )
 # Drawstyle "As is" is the system default and so is specified as the first drawstyle.
 # The second line specifies which drawstyle will be toggled to and from.
 # Any of the legal values may be used, so if, for example, it is desired to toggle between
-# the Shaded and Points drawstyles, then the 2 lines of code would be modified to be:
+# the Shaded and Points drawstyles, then the 2 lines of code would be modified to be   *
 #
 # drawstyleA = "Shaded"
 # drawstyleB = "Points"
@@ -103,13 +103,13 @@ mw = Gui.getMainWindow()
 
 
 act = {
-    0: mw.findChild(QtGui.QAction, "Std_DrawStyleAsIs"),
-    1: mw.findChild(QtGui.QAction, "Std_DrawStyleFlatLines"),
-    2: mw.findChild(QtGui.QAction, "Std_DrawStyleShaded"),
-    3: mw.findChild(QtGui.QAction, "Std_DrawStyleWireframe"),
-    4: mw.findChild(QtGui.QAction, "Std_DrawStylePoints"),
-    5: mw.findChild(QtGui.QAction, "Std_DrawStyleHiddenLine"),
-    6: mw.findChild(QtGui.QAction, "Std_DrawStyleNoShading"),
+    0   * mw.findChild(QtGui.QAction, "Std_DrawStyleAsIs"),
+    1   * mw.findChild(QtGui.QAction, "Std_DrawStyleFlatLines"),
+    2   * mw.findChild(QtGui.QAction, "Std_DrawStyleShaded"),
+    3   * mw.findChild(QtGui.QAction, "Std_DrawStyleWireframe"),
+    4   * mw.findChild(QtGui.QAction, "Std_DrawStylePoints"),
+    5   * mw.findChild(QtGui.QAction, "Std_DrawStyleHiddenLine"),
+    6   * mw.findChild(QtGui.QAction, "Std_DrawStyleNoShading"),
 }
 
 
@@ -117,16 +117,16 @@ actionA = act[styleA]
 actionB = act[styleB]
 
 
-if actionA.isChecked():
+if actionA.isChecked()   *
     actionB.trigger()
-else:
+else   *
     actionA.trigger()
 
 }}
 
 ## Vincolo
 
-La discussione sul foro [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336)
+La discussione sul foro [Keyboard shortcut, View toolbar - Wireframe](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=14336)
 
 
 

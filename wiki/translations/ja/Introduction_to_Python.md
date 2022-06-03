@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-これは、Pythonをはじめる人のために作られた短いチュートリアルです。 [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29)はオープンソース、マルチプラットフォームの[プログラミング言語](http://en.wikipedia.org/wiki/Programming_language)です。 Pythonは他の一般的なプログラミング言語と違い、あなたのようなはじめてのユーザーにとって非常に使いやすくするいくつかの機能を持っています。
+これは、Pythonをはじめる人のために作られた短いチュートリアルです。 [Python](http   *//en.wikipedia.org/wiki/Python_%28programming_language%29)はオープンソース、マルチプラットフォームの[プログラミング言語](http   *//en.wikipedia.org/wiki/Programming_language)です。 Pythonは他の一般的なプログラミング言語と違い、あなたのようなはじめてのユーザーにとって非常に使いやすくするいくつかの機能を持っています。
 
 
 </div>
@@ -43,7 +43,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Pythonにおけるプロセスは、Pythonインタプリタの内部で透過的に実行できます。Pythonインタプリタは、Pythonウィンドウのコマンドプロンプトを使って簡単にPythonコードを入力することができます。お使いのコンピュータにPythonをインストールする場合は、（WindowsもしくはMacの場合は[PythonのWebサイト](http://www.python.org)からダウンロードしてください。GNU/Linuxの場合はパッケージリポジトリからインストールしてください）スタートメニューにPythonインタプリタが入ります。しかし、FreeCADは、ウィンドウ下部にPythonインタプリタが入っています。
+Pythonにおけるプロセスは、Pythonインタプリタの内部で透過的に実行できます。Pythonインタプリタは、Pythonウィンドウのコマンドプロンプトを使って簡単にPythonコードを入力することができます。お使いのコンピュータにPythonをインストールする場合は、（WindowsもしくはMacの場合は[PythonのWebサイト](http   *//www.python.org)からダウンロードしてください。GNU/Linuxの場合はパッケージリポジトリからインストールしてください）スタートメニューにPythonインタプリタが入ります。しかし、FreeCADは、ウィンドウ下部にPythonインタプリタが入っています。
 
 
 </div>
@@ -218,7 +218,7 @@ Case is very important, `myVariable` is not the same as `myvariable`. If you wer
 
 <div class="mw-translate-fuzzy">
 
-特別なPythonのキーワードを入力することにより、いつでも変数のデータ型が何なのか確認することができます:
+特別なPythonのキーワードを入力することにより、いつでも変数のデータ型が何なのか確認することができます   *
 
 
 </div>
@@ -232,7 +232,7 @@ type(myVar)
 
 <div class="mw-translate-fuzzy">
 
-これはmyVarの中身が\'str\'、つまりPython用語における文字列であることがわかります。また、他の基本的なデータ型には、整数型や浮動小数点数型などがあります:
+これはmyVarの中身が\'str\'、つまりPython用語における文字列であることがわかります。また、他の基本的なデータ型には、整数型や浮動小数点数型などがあります   *
 
 
 </div>
@@ -248,7 +248,7 @@ type(firstNumber)
 
 <div class="mw-translate-fuzzy">
 
-これは、今までよりはるかに興味深いですが、それはないですか？今、私たちは、すでに強力な電卓を持っています！それが機能していることをよく見てください。Pythonは10と20が整数であることを認識しています。だからそれらは \"int\"型として格納されており、Pythonは整数として扱うことができます。この結果を見てください:
+これは、今までよりはるかに興味深いですが、それはないですか？今、私たちは、すでに強力な電卓を持っています！それが機能していることをよく見てください。Pythonは10と20が整数であることを認識しています。だからそれらは \"int\"型として格納されており、Pythonは整数として扱うことができます。この結果を見てください   *
 
 
 </div>
@@ -263,7 +263,7 @@ print(firstNumber + secondNumber)
 
 <div class="mw-translate-fuzzy">
 
-見ましたか？これはPythonは2つの変数が数字ではなく単なる文字列として認識していることを意味しています。Pythonは、2つの文字列を合わせて一つにすることができますが、2つの合計を求めようとはしません。しかし、我々は、整数型のことも話題にしていました。浮動小数点型もあります。これらの違いは浮動小数点の数値は小数部を有することができ、整数の数値は、小数部を持っていないということです:
+見ましたか？これはPythonは2つの変数が数字ではなく単なる文字列として認識していることを意味しています。Pythonは、2つの文字列を合わせて一つにすることができますが、2つの合計を求めようとはしません。しかし、我々は、整数型のことも話題にしていました。浮動小数点型もあります。これらの違いは浮動小数点の数値は小数部を有することができ、整数の数値は、小数部を持っていないということです   *
 
 
 </div>
@@ -279,7 +279,7 @@ print("var2 is of type ", type(var2))
 
 <div class="mw-translate-fuzzy">
 
-int型と浮動小数点型は問題なく一緒に混合することができます:
+int型と浮動小数点型は問題なく一緒に混合することができます   *
 
 
 </div>
@@ -294,7 +294,7 @@ print(type(total))
 
 <div class="mw-translate-fuzzy">
 
-いいですか？もちろん合計は小数になります。 Pythonは自動的に結果が浮動小数点型であると判断しました。この例のように、いくつかのケースではPythonは自動的に何型かをを判断します。他のケースではそれはしていません。たとえば、次のように:
+いいですか？もちろん合計は小数になります。 Pythonは自動的に結果が浮動小数点型であると判断しました。この例のように、いくつかのケースではPythonは自動的に何型かをを判断します。他のケースではそれはしていません。たとえば、次のように   *
 
 
 </div>
@@ -309,7 +309,7 @@ print(varA + varB)
 
 <div class="mw-translate-fuzzy">
 
-これは、エラーになります。varAは文字列であり、varBのデータ型は整数型で、Pythonは何をすればいいのかわかりません。しかし、型の変換をPythonに強制することもできます:
+これは、エラーになります。varAは文字列であり、varBのデータ型は整数型で、Pythonは何をすればいいのかわかりません。しかし、型の変換をPythonに強制することもできます   *
 
 
 </div>
@@ -324,7 +324,7 @@ print(varA + str(varB))
 
 <div class="mw-translate-fuzzy">
 
-これで、両方が文字列となり実行できます！表示する時にvarBが\"文字列\"となっていますが、私たちはvarB自体を変更していないことに注意してください。varBを常に文字列にしたい場合は、次のようにします:
+これで、両方が文字列となり実行できます！表示する時にvarBが\"文字列\"となっていますが、私たちはvarB自体を変更していないことに注意してください。varBを常に文字列にしたい場合は、次のようにします   *
 
 
 </div>
@@ -337,7 +337,7 @@ varB = str(varB)
 
 <div class="mw-translate-fuzzy">
 
-また、場合によって整数型や浮動小数点型に変換するためにint()やfloat()を使用することができます:
+また、場合によって整数型や浮動小数点型に変換するためにint()やfloat()を使用することができます   *
 
 
 </div>
@@ -352,7 +352,7 @@ print(float(varA))
 
 <div class="mw-translate-fuzzy">
 
-このセクションでprintコマンドをいくつかの方法で使用したことに気づいている必要があります。変数の値、合計、コンマで区切られたいくつかの事項、そしてtype()のようなPythonコマンドの結果を出力しています。これらの2つのコマンドを実行してみてはどうでしょうか:
+このセクションでprintコマンドをいくつかの方法で使用したことに気づいている必要があります。変数の値、合計、コンマで区切られたいくつかの事項、そしてtype()のようなPythonコマンドの結果を出力しています。これらの2つのコマンドを実行してみてはどうでしょうか   *
 
 
 </div>
@@ -366,7 +366,7 @@ print(type(varA))
 
 <div class="mw-translate-fuzzy">
 
-まったく同じ結果になります。それはインタプリタであり、すべてのものが画面上に自動的に表示されているからです。インタプリタの外で複雑なプログラムを書いて実行させようと思うと、自動的にすべてが画面上に表示されないので、printコマンドを使用する必要があります。しかし、今からここではそれは使わないでおきましょう。それよりはやいからです。だから簡単に書くことができます:
+まったく同じ結果になります。それはインタプリタであり、すべてのものが画面上に自動的に表示されているからです。インタプリタの外で複雑なプログラムを書いて実行させようと思うと、自動的にすべてが画面上に表示されないので、printコマンドを使用する必要があります。しかし、今からここではそれは使わないでおきましょう。それよりはやいからです。だから簡単に書くことができます   *
 
 
 </div>
@@ -438,7 +438,7 @@ myFriendsName = myOtherList[1]
 
 <div class="mw-translate-fuzzy">
 
-あなたはlen()コマンドの結果からアイテムの合計数がわかり、0から始まるリストの\"位置\"がわかります。リスト内の最初のアイテムが常に0の位置にあるので、myOtherListで、\"Bob\"は2番目の位置になります。[ここ](http://diveintopython.org/native_data_types/lists.html)を読むことによってアイテムの並び替えや削除、追加など様々な操作をおこなうことができます。
+あなたはlen()コマンドの結果からアイテムの合計数がわかり、0から始まるリストの\"位置\"がわかります。リスト内の最初のアイテムが常に0の位置にあるので、myOtherListで、\"Bob\"は2番目の位置になります。[ここ](http   *//diveintopython.org/native_data_types/lists.html)を読むことによってアイテムの並び替えや削除、追加など様々な操作をおこなうことができます。
 
 
 </div>
@@ -446,7 +446,7 @@ myFriendsName = myOtherList[1]
 
 <div class="mw-translate-fuzzy">
 
-とても面白くて興味深い事:テキストの文字列は文字のリストに非常に似ています！これをやってみてください：
+とても面白くて興味深い事   *テキストの文字列は文字のリストに非常に似ています！これをやってみてください：
 
 myvar = "hello"
 len(myvar)
@@ -473,7 +473,7 @@ myvar[2]
 
 <div class="mw-translate-fuzzy">
 
-文字列、整数、浮動小数点数とリストの他には、[辞書](http://www.diveintopython.org/getting_to_know_python/dictionaries.html)にのっているような組み込みのデータ型だけではなく、[クラス](http://www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm)を使用して独自のデータ型を作成することもできます。
+文字列、整数、浮動小数点数とリストの他には、[辞書](http   *//www.diveintopython.org/getting_to_know_python/dictionaries.html)にのっているような組み込みのデータ型だけではなく、[クラス](http   *//www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm)を使用して独自のデータ型を作成することもできます。
 
 
 </div>
@@ -489,7 +489,7 @@ myvar[2]
 リストの一つのとても洗練された使用方法は、アイテムを参照して各要素で何らかの処理をすることです。例えばこれを見てください：
 
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for dalton in alldaltons:
+for dalton in alldaltons   *
    print dalton + " Dalton"
 
 
@@ -498,14 +498,14 @@ for dalton in alldaltons:
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for dalton in alldaltons:
+for dalton in alldaltons   *
     print(dalton + " Dalton")
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-リストを使って（再びプログラミング専門用語！）\"for \... in \...\"コマンドと各要素で何らかの処理を行いました。特殊な構文に注意してください。forコマンドは、:で完了するとこその次のコマンドを1ブロックのコマンドとします。コマンドラインに:を入力すると\...コマンドプロンプトに変わります。これは:が行の終わりであることを示し次に入力される行が1ブロックであるとPythonは解釈します。
+リストを使って（再びプログラミング専門用語！）\"for \... in \...\"コマンドと各要素で何らかの処理を行いました。特殊な構文に注意してください。forコマンドは、   *で完了するとこその次のコマンドを1ブロックのコマンドとします。コマンドラインに   *を入力すると\...コマンドプロンプトに変わります。これは   *が行の終わりであることを示し次に入力される行が1ブロックであるとPythonは解釈します。
 
 
 </div>
@@ -534,7 +534,7 @@ for-inコマンドは命令を繰り返し実行するようなものにも使�
 serie = range(1,11)
 total = 0
 print "sum"
-for number in serie:
+for number in serie   *
    print number
    total = total + number
 print ""
@@ -548,7 +548,7 @@ print total
 serie = range(1, 11)
 total = 0
 print("sum")
-for number in serie:
+for number in serie   *
     print(number)
     total = total + number
 print("")
@@ -560,29 +560,29 @@ If you have been running the code examples in an interpreter by copy-pasting, yo
 
 <div class="mw-translate-fuzzy">
 
-range()コマンドは、（あなたが開始番号を指定しない場合）0から始まる特性を持っており、最後の数は、指定した終了番号より1つ少なくなることに注意してください。それはもちろん、他のPythonコマンドでも同じです。例えば、次のように:
+range()コマンドは、（あなたが開始番号を指定しない場合）0から始まる特性を持っており、最後の数は、指定した終了番号より1つ少なくなることに注意してください。それはもちろん、他のPythonコマンドでも同じです。例えば、次のように   *
 
 alldaltons = ["Joe", "William", "Jack", "Averell"]
 total = len(alldaltons)
-for n in range(total):
+for n in range(total)   *
    print alldaltons[n]
 
-インデントされたブロックのもう一つの興味深い使用方法はifコマンドを使用することです。特定の条件が満たされる場合に限り、ブロックのコードを実行します。例えば:
+インデントされたブロックのもう一つの興味深い使用方法はifコマンドを使用することです。特定の条件が満たされる場合に限り、ブロックのコードを実行します。例えば   *
 
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Joe" in alldaltons:
+if "Joe" in alldaltons   *
    print "We found that Dalton!!!"
 
-もちろん、これは常に最初のセンテンスを表示します。しかし、2行目を次のように書き換えると:
+もちろん、これは常に最初のセンテンスを表示します。しかし、2行目を次のように書き換えると   *
 
-if "Lucky" in alldaltons:
+if "Lucky" in alldaltons   *
 
-何も表示されません。else:ステートメントを指定することができます。
+何も表示されません。else   *ステートメントを指定することができます。
 
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Lucky" in alldaltons:
+if "Lucky" in alldaltons   *
    print "We found that Dalton!!!"
-else:
+else   *
    print "Such Dalton doesn't exist!"
 
 
@@ -595,12 +595,12 @@ range(...)
     range(start, stop[, step]) -> list of integers
 ```
 
-Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`:
+Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`   *
 
 
 ```python
 number = 1000
-for i in range(0, 180 * number, int(0.5 * number)):
+for i in range(0, 180 * number, int(0.5 * number))   *
     print(float(i) / number)
 ```
 
@@ -610,7 +610,7 @@ for i in range(0, 180 * number, int(0.5 * number)):
 より複雑なもの：
 
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for n in range(4):
+for n in range(4)   *
    print alldaltons[n], " is Dalton number ", n
 
 
@@ -619,44 +619,44 @@ for n in range(4):
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for n in range(4):
+for n in range(4)   *
     print(alldaltons[n], " is Dalton number ", n)
 ```
 
-The `range()` command also has that strange particularity that it begins with `0` (if you don\'t specify the starting number) and that its last number will be one less than the ending number you specify. That is, of course, so it works well with other Python commands. For example:
+The `range()` command also has that strange particularity that it begins with `0` (if you don\'t specify the starting number) and that its last number will be one less than the ending number you specify. That is, of course, so it works well with other Python commands. For example   *
 
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
 total = len(alldaltons)
-for n in range(total):
+for n in range(total)   *
     print(alldaltons[n])
 ```
 
-Another interesting use of indented blocks is with the `if` command. This command executes a code block only if a certain condition is met, for example:
+Another interesting use of indented blocks is with the `if` command. This command executes a code block only if a certain condition is met, for example   *
 
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Joe" in alldaltons:
+if "Joe" in alldaltons   *
     print("We found that Dalton!!!")
 ```
 
-Of course this will always print the sentence, but try replacing the second line with:
+Of course this will always print the sentence, but try replacing the second line with   *
 
 
 ```python
-if "Lucky" in alldaltons:
+if "Lucky" in alldaltons   *
 ```
 
-Then nothing is printed. We can also specify an `else` statement:
+Then nothing is printed. We can also specify an `else` statement   *
 
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Lucky" in alldaltons:
+if "Lucky" in alldaltons   *
     print("We found that Dalton!!!")
-else:
+else   *
     print("Such Dalton doesn't exist!")
 ```
 
@@ -668,9 +668,9 @@ else:
 
 <div class="mw-translate-fuzzy">
 
-標準のPythonコマンドは、多くはありません [standard Python commands](http://docs.python.org/reference/lexical_analysis.html#identifiers).。現在のバージョンのPythonには約30の標準コマンドがあり、すでにそれらのいくつかを知っています。しかし、独自のコマンドを考案できることを想像してみてください。さて、私たちは独自のコマンドを作ることができ、それは非常に簡単です。実際、多くの追加モジュールはあなたがコマンドを追加するだけでPythonに追加インストールされます。 Pythonでカスタムコマンドは関数と呼ばれ、このように構成されています。
+標準のPythonコマンドは、多くはありません [standard Python commands](http   *//docs.python.org/reference/lexical_analysis.html#identifiers).。現在のバージョンのPythonには約30の標準コマンドがあり、すでにそれらのいくつかを知っています。しかし、独自のコマンドを考案できることを想像してみてください。さて、私たちは独自のコマンドを作ることができ、それは非常に簡単です。実際、多くの追加モジュールはあなたがコマンドを追加するだけでPythonに追加インストールされます。 Pythonでカスタムコマンドは関数と呼ばれ、このように構成されています。
 
-def printsqm(myValue):
+def printsqm(myValue)   *
 
   print str(myValue)+" square meters"
 
@@ -681,7 +681,7 @@ printsqm(45)
 
 
 ```python
-def printsqm(myValue):
+def printsqm(myValue)   *
     print(str(myValue) + " square meters")
 
 printsqm(45)
@@ -698,7 +698,7 @@ printsqm(45)
 
 <div class="mw-translate-fuzzy">
 
-\"myValue\"の名前は何でもかまいません、それは関数の内部でのみ使用されます。 あなたが変更できるのは名前だけですが、関数が要求するする引数の数にあわせて指定します。例えば、次の場合:
+\"myValue\"の名前は何でもかまいません、それは関数の内部でのみ使用されます。 あなたが変更できるのは名前だけですが、関数が要求するする引数の数にあわせて指定します。例えば、次の場合   *
 
 printsqm(45,34)
 
@@ -713,9 +713,9 @@ printsqm(45, 34)
 
 <div class="mw-translate-fuzzy">
 
-エラーが発生します。この関数はただ1つの引数を受け取るようにプログラムされていますが、2つの引数、45および34を受け渡しました。その代わりにこのようなことができます:
+エラーが発生します。この関数はただ1つの引数を受け取るようにプログラムされていますが、2つの引数、45および34を受け渡しました。その代わりにこのようなことができます   *
 
-def sum(val1,val2):
+def sum(val1,val2)   *
 
   total = val1 + val2
   return total
@@ -727,7 +727,7 @@ sum(45,34) myTotal = sum(45,34)
 
 
 ```python
-def sum(val1, val2):
+def sum(val1, val2)   *
     total = val1 + val2
     return total
 
@@ -737,7 +737,7 @@ myTotal = sum(45, 34)
 
 <div class="mw-translate-fuzzy">
 
-2つの引数を受け取り合計して、その値を返す関数を作りました。値を返すことは非常に便利です。なぜならmyTotal変数に格納するなど、関数の実行結果を使って何かを行うことができます。もちろん、インタプリタであり、すべてのものを表示されるので、次を実行してください:
+2つの引数を受け取り合計して、その値を返す関数を作りました。値を返すことは非常に便利です。なぜならmyTotal変数に格納するなど、関数の実行結果を使って何かを行うことができます。もちろん、インタプリタであり、すべてのものを表示されるので、次を実行してください   *
 
 sum(45,34)
 
@@ -770,9 +770,9 @@ sum(45,34)
 
 Pythonでプログラムを実行する方法は何百もあります。Windowsでは、単にファイルを右クリックしPythonでそれを開いて実行します。しかし、Pythonインタプリタから直接プログラムを実行することもできます。直接実行するには、Pythonインタプリタが実行しようとする.pyプログラムの保存場所を知っている必要があります。
 
-FreeCADでの最も簡単な方法は、FreeCADのbinフォルダまたはModフォルダのようにFreeCADのPythonインタプリタにデフォルトで設定されている場所にプログラムを配置することです。次のようなファイルを作成します:
+FreeCADでの最も簡単な方法は、FreeCADのbinフォルダまたはModフォルダのようにFreeCADのPythonインタプリタにデフォルトで設定されている場所にプログラムを配置することです。次のようなファイルを作成します   *
 
-    def sum(a,b):
+    def sum(a,b)   *
         return a + b
 
     print "test.py succesfully loaded"
@@ -782,7 +782,7 @@ FreeCADでの最も簡単な方法は、FreeCADのbinフォルダまたはModフ
 
 
 ```python
-def sum(a,b):
+def sum(a,b)   *
     return a + b
 
 print("myTest.py succesfully loaded")
@@ -814,7 +814,7 @@ import myTest
 
 <div class="mw-translate-fuzzy">
 
-通常、インタプリタでsum()関数を記述し、実行するとき単に次のように入力します:
+通常、インタプリタでsum()関数を記述し、実行するとき単に次のように入力します   *
 
 sum(14,45)
 
@@ -829,7 +829,7 @@ sum(14, 45)
 
 <div class="mw-translate-fuzzy">
 
-これは以前行ったとおりです。我々はsum()関数を含むモジュールをインポートすると、構文が少し異なっています。次のように入力します:
+これは以前行ったとおりです。我々はsum()関数を含むモジュールをインポートすると、構文が少し異なっています。次のように入力します   *
 
 test.sum(14,45)
 
@@ -852,7 +852,7 @@ myTest.sum(14, 45)
 
 <div class="mw-translate-fuzzy">
 
-また、testの部分を記述せずにsum()関数のように、メインのインタプリタ空間に直接関数を読み込むことができます:
+また、testの部分を記述せずにsum()関数のように、メインのインタプリタ空間に直接関数を読み込むことができます   *
 
 from test import *
 sum(12,54)
@@ -877,7 +877,7 @@ sum(12, 54)
 
 <div class="mw-translate-fuzzy">
 
-最後にもう一つ、非常に有用なものがあります。どのようなモジュールがありその内部にはどのような関数があってどのように使う（つまり必要とする引数の種類）かわかりますか？ Pythonがhelp()関数を持っていることをすでに知っています。次の操作をしてみましょう:
+最後にもう一つ、非常に有用なものがあります。どのようなモジュールがありその内部にはどのような関数があってどのように使う（つまり必要とする引数の種類）かわかりますか？ Pythonがhelp()関数を持っていることをすでに知っています。次の操作をしてみましょう   *
 
 help()
 modules
@@ -927,7 +927,7 @@ It may not be evident, but on either side of `doc` are two underscore characters
 
 <div class="mw-translate-fuzzy">
 
-最後に少し使いやすい方法は:新しいモジュールをプログラミングするとき、時々プログラムのテストを行いたいです。一度、Pythonインタプリタでモジュールを小さく区切って新しいコードをテストするためにプログラムを記述します。
+最後に少し使いやすい方法は   *新しいモジュールをプログラミングするとき、時々プログラムのテストを行いたいです。一度、Pythonインタプリタでモジュールを小さく区切って新しいコードをテストするためにプログラムを記述します。
 
 import myModule
 myModule.myTestFunction()
@@ -941,11 +941,11 @@ import importlib
 importlib.reload(myTest)
 ```
 
-There is however an alternative:
+There is however an alternative   *
 
 
 ```python
-exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
+exec(open("C   */PathToMyMacro/myMacro.FCMacro").read())
 ```
 
 
@@ -974,7 +974,7 @@ dir()
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
--   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
+-   Much more information about Python can be found in the [official Python tutorial](https   *//docs.python.org/3/tutorial/index.html) and the [official Python reference](https   *//docs.python.org/3/reference/).
 
 
 {{Top}}
@@ -987,6 +987,11 @@ dir()
 
 
 </div>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

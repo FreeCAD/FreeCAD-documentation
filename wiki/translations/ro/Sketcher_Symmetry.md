@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Sketcher Symmetry
-   Name/ro:Sketcher Simetrie
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Sketcher tools → Symmetry
-   Version:0.16
+- GuiCommand   */ro
+   Name   *Sketcher Symmetry
+   Name/ro   *Sketcher Simetrie
+   Workbenches   *[Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation   *Sketch → Sketcher tools → Symmetry
+   Version   *0.16
 ---
 
 # Sketcher Symmetry/ro

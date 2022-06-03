@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Std HideSelection
-   Name/fr:Std Masquer la sélection
-   MenuLocation:Affichage → Visibilité → Masquer la selection
-   Workbenches:Tous
-   SeeAlso:[Std Basculer la visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects.md)
+- GuiCommand   */fr
+   Name   *Std HideSelection
+   Name/fr   *Std Masquer la sélection
+   MenuLocation   *Affichage → Visibilité → Masquer la selection
+   Workbenches   *Tous
+   SeeAlso   *[Std Basculer la visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects.md)
 ---
 
 # Std HideSelection/fr
@@ -16,7 +16,7 @@ La commande **Std Masquer la sélection** masque les objets sélectionnés dans 
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Sélectionnez l\'option {{MenuCommand/fr|Affichage → Visibilité → <img src="images/Std_HideSelection.svg" width=16px> Masquer la selection}} dans le menu.
     -   Sélectionnez l\'option {{MenuCommand/fr|<img src="images/Std_HideSelection.svg" width=16px> Masquer la selection}} dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md). Cette option n\'est pas disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
@@ -31,7 +31,7 @@ La commande **Std Masquer la sélection** masque les objets sélectionnés dans 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

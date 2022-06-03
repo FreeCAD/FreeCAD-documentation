@@ -1,6 +1,6 @@
 # Std DlgMacroExecute/ro
 ---
-- GuiCommand:   Name:Std DlgMacroExecute   MenuLocation:[Shortcut:CTRL+F6   Workbenches:All   SeeAlso:[[Std_DlgMacroExecuteDirect|Execute Direct](Macros___Macros]]_→_Execute_macro.md)---
+- GuiCommand   *   Name   *Std DlgMacroExecute   MenuLocation   *[Shortcut   *CTRL+F6   Workbenches   *All   SeeAlso   *[[Std_DlgMacroExecuteDirect|Execute Direct](Macros___Macros]]_→_Execute_macro.md)---
 
 
 </div>
@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Această funcție execută macroul selectat sau activ în editor. Este accesibil pe calea **Macro → Execute macro**, sau via butonul **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Execute macro** în bara de instrumente macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+Această funcție execută macroul selectat sau activ în editor. Este accesibil pe calea **Macro → Execute macro**, sau via butonul **[<img src=images/Std_DlgMacroExecute.png style="width   *16px"> Execute macro** în bara de instrumente macro <img alt="" src=images/Macros_toolbar.jpg  style="width   *96px;">.
 
 
 </div>
@@ -35,7 +35,7 @@ Această funcție execută macroul selectat sau activ în editor. Este accesibil
 
 <div class="mw-translate-fuzzy">
 
-Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> [Macros...](Std_DlgMacroExecuteDirect.md)**, butonul **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Execute macro** își schimbă cularea în verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:20px;">. Click pe acest buton pentru a rula macrocomanda.
+Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width   *16px"> [Macros...](Std_DlgMacroExecuteDirect.md)**, butonul **[<img src=images/Std_DlgMacroExecute.png style="width   *16px"> Execute macro** își schimbă cularea în verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width   *20px;">. Click pe acest buton pentru a rula macrocomanda.
 
 
 </div>
@@ -50,7 +50,7 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ### System macros 
 
-:   The **System macros** tab is not used at this time.
+   *   The **System macros** tab is not used at this time.
 
 ### User macros location 
 
@@ -59,7 +59,7 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ### Execute
 
-1.  To execute a macro do one of the following:
+1.  To execute a macro do one of the following   *
     -   Select the macro in the list and press the **Execute** button.
     -   Double-click the macro in the list.
 2.  The dialog box closes.
@@ -72,7 +72,7 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 ### Create
 
 1.  Press the **Create** button to create a new macro file.
-2.  Enter a name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
+2.  Enter a name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
 3.  Press **Enter** or the **OK** button.
 4.  Both dialog boxes close.
 5.  The new file is opened in the Macro editor.
@@ -94,14 +94,14 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 1.  Select the macro you want to rename in the list.
 2.  Press the **Rename** button.
-3.  Enter a new name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
+3.  Enter a new name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
 4.  Press **Enter** or the **OK** button.
 
 ### Duplicate
 
 1.  Select the macro you want to duplicate in the list.
 2.  Press the **Duplicate** button.
-3.  Enter a new name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
+3.  Enter a new name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
 4.  Press **Enter** or the **OK** button.
 
 ### Toolbar
@@ -120,7 +120,7 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences   * **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

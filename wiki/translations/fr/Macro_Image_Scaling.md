@@ -7,18 +7,18 @@
 |Version=1.0
 |Date=2016-01-19
 |FCVersion=0.17 and below
-|Download=[https://www.freecadweb.org/wiki/images/0/05/Image_Scaling.svg ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/0/05/Image_Scaling.svg ToolBar Icon]
 }}
 
 ## Description
 
 Macro pour mettre facilement un dessin à bonne échelle graphiques, diagramme, blueprint, plan et des images 2D en vue de s\'en servir comme patron pour pouvoir calquer le dessin avec les outils de FreeCAD. Il fonctionne avec les images importées dans l\'espace 3D.
 
-Remarque: Pour les photos, objets ou images il faut garder à l\'esprit l\'effet de [Parallaxe](https://en.wikipedia.org/wiki/Parallax) (distorsion due à la \"différence entre la position apparente d\'un objet vu le long de deux lignes différentes à la vue\"). Dans le schéma ci-dessous les 2 objets bleus sont coplanaires perpendiculairement au plan du point de vue de l\'utilisateur et la mise à l\'échelle peut être utilisée:
+Remarque   * Pour les photos, objets ou images il faut garder à l\'esprit l\'effet de [Parallaxe](https   *//en.wikipedia.org/wiki/Parallax) (distorsion due à la \"différence entre la position apparente d\'un objet vu le long de deux lignes différentes à la vue\"). Dans le schéma ci-dessous les 2 objets bleus sont coplanaires perpendiculairement au plan du point de vue de l\'utilisateur et la mise à l\'échelle peut être utilisée   *
 
 ![](images/Perspective.png )
 
-Dans le second schéma, les objets rouges et verts ne sont pas coplanaires avec les 2 objets bleus et la mise à l\'échelle ne peut pas être utilisée. En outre, le fait que l\'objet rouge soit co-planaire avec 1 objet bleu il ne peut être déterminé à partir du diagramme uniquement basé au point de vue de l\'utilisateur:
+Dans le second schéma, les objets rouges et verts ne sont pas coplanaires avec les 2 objets bleus et la mise à l\'échelle ne peut pas être utilisée. En outre, le fait que l\'objet rouge soit co-planaire avec 1 objet bleu il ne peut être déterminé à partir du diagramme uniquement basé au point de vue de l\'utilisateur   *
 
 ![](images/Parallax.jpg )
 
@@ -47,32 +47,32 @@ import DraftTrackers, Draft
 
 __title__   = "Macro Image Scaling"
 __author__  = "JAndersM"
-__url__     = "http://www.freecadweb.org/index-fr.html"
+__url__     = "http   *//www.freecadweb.org/index-fr.html"
 __version__ = "00.01"
 __date__    = "19/01/2016"
 
-try:
+try   *
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
+except AttributeError   *
+    def _fromUtf8(s)   *
         return s
 
-try:
+try   *
     _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
+    def _translate(context, text, disambig)   *
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
+except AttributeError   *
+    def _translate(context, text, disambig)   *
         return QtGui.QApplication.translate(context, text, disambig)
 
-def distance(p1,p2):
+def distance(p1,p2)   *
     dx=p2[0]-p1[0]
     dy=p2[1]-p1[1]
     dz=p2[2]-p1[2]
     return math.sqrt(dx*dx+dy*dy+dz*dz)
     
-class Ui_Dialog(object):
-    def setupUi(self, Dialog):
+class Ui_Dialog(object)   *
+    def setupUi(self, Dialog)   *
         self.view = FreeCADGui.ActiveDocument.ActiveView
         self.stack = []
         self.callback = self.view.addEventCallbackPivy(pvy.SoMouseButtonEvent.getClassTypeId(),self.getpoint)
@@ -106,17 +106,17 @@ class Ui_Dialog(object):
         self.tracker.on()
         self.dialog.show()
 
-    def retranslateUi(self, Dialog):
+    def retranslateUi(self, Dialog)   *
         Dialog.setWindowTitle(_translate("Dialog", "Dialog", None))
         self.label.setText(_translate("Dialog", "Distance", None))
         self.label1.setText(_translate("Dialog", "Select first point", None))
         
-    def accept(self):
+    def accept(self)   *
         sel = FreeCADGui.Selection.getSelection()
-        try:
+        try   *
             locale=QtCore.QLocale.system()
             d, ok = locale.toFloat(self.lineEdit.text())
-            if not ok:
+            if not ok   *
                 raise ValueError
             s=d/self.distance
             sel[0].XSize.Value=sel[0].XSize.Value*s
@@ -125,36 +125,36 @@ class Ui_Dialog(object):
             self.tracker.off()
             self.tracker.finalize()
             self.dialog.hide()
-        except (ValueError, ZeroDivisionError) as e:
+        except (ValueError, ZeroDivisionError) as e   *
             self.label1.setText(_translate("Dialog", "<font color='red'>Enter distance</font>", None))
             return
-        except (IndexError, AttributeError) as e:
+        except (IndexError, AttributeError) as e   *
             self.label1.setText(_translate("Dialog", "<font color='red'>Select ImagePlane</font>", None))
             return
         
-    def reject(self):
+    def reject(self)   *
         self.stack=[]
         self.view.removeEventCallbackPivy(pvy.SoMouseButtonEvent.getClassTypeId(),self.callback)
         self.view.removeEventCallbackPivy(pvy.SoLocation2Event.getClassTypeId(),self.callmouse)
         self.tracker.off()
         self.tracker.finalize()
-        self.dialog.hide()def getmousepoint(self, event_cb):
+        self.dialog.hide()def getmousepoint(self, event_cb)   *
         event = event_cb.getEvent()
-        if len(self.stack)==1:
+        if len(self.stack)==1   *
             pos = event.getPosition()
             point = self.view.getPoint(pos[0],pos[1])
             self.tracker.p2(point)
                
-    def getpoint(self,event_cb):
+    def getpoint(self,event_cb)   *
         event = event_cb.getEvent()           
-        if event.getState() == pvy.SoMouseButtonEvent.DOWN:
+        if event.getState() == pvy.SoMouseButtonEvent.DOWN   *
             pos = event.getPosition()
             point = self.view.getPoint(pos[0],pos[1])
             self.stack.append(point)
             self.label1.setText(_translate("Dialog", "Select second point", None))
-            if len(self.stack)==1:
+            if len(self.stack)==1   *
                 self.tracker.p1(point)
-            elif len(self.stack) == 2:
+            elif len(self.stack) == 2   *
                 self.distance=distance(self.stack[0], self.stack[1])
                 self.tracker.p2(point)
                 self.view.removeEventCallbackPivy(pvy.SoMouseButtonEvent.getClassTypeId(),self.callback)
@@ -171,9 +171,9 @@ ui.setupUi(d)
 
 ## Liens
 
--   [Forum discussion](http://forum.freecadweb.org/viewtopic.php?f=22&t=13877)
--   [téléchargez le zip](http://forum.freecadweb.org/download/file.php?id=19542)
--   [Movie created by microelly2](https://youtu.be/2iFE40uHrA8)
+-   [Forum discussion](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=13877)
+-   [téléchargez le zip](http   *//forum.freecadweb.org/download/file.php?id=19542)
+-   [Movie created by microelly2](https   *//youtu.be/2iFE40uHrA8)
 
 
 
