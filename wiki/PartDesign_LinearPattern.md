@@ -71,11 +71,9 @@ Select one of the Body Origin\'s standard axis (X, Y or Z) as direction.
 
 ## Limitations
 
--   Pattern shapes may not overlap one another except for the special case of only two occurrences (original plus one copy)
--   Any pattern shapes that do not overlap the original\'s support will be excluded. This ensures that a PartDesign feature always consists of a single, connected solid
--   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a bigger number of instances you should consider using [Draft array](Draft_OrthoArray.md) instead, combined with a Part boolean operation. This may include major changes to your model as you are leaving PartDesign, which means that you cannot simply continue with further PartDesign features in the same body. An example is shown in this [Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192)
+-   Any pattern shapes that do not overlap the original\'s support will be excluded. This ensures that a PartDesign feature always consists of a single, connected solid.
+-   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a bigger number of instances you should consider using [Draft array](Draft_OrthoArray.md) instead, combined with a Part boolean operation. This may include major changes to your model as you are leaving PartDesign, which means that you cannot simply continue with further PartDesign features in the same body. An example is shown in this [Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).
 -   A LinearPattern cannot be applied directly to another pattern, be it polar, linear or a mirror. For this you need a [PartDesign MultiTransform](PartDesign_MultiTransform.md).
--   For further limitations, see the [PartDesign mirrored](PartDesign_Mirrored.md) feature.
 
 
 

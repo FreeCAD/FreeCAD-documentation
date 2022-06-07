@@ -1,6 +1,6 @@
 ---
 - TutorialInfo   */pl
-   Topic   *Złożenie 3, prosty mechanizm i panel sterowania
+   Topic   *Złożenie 3, prosty mechanizm
    Level   *Przydatna jest podstawowa znajomość narzędzi środowiska pracy Złożenie 3
    FCVersion   *0.20 i następne
    Time   *30 minut

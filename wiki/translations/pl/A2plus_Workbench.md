@@ -7,7 +7,13 @@
 
 Środowisko pracy A2plus to [zewnętrzne środowisko](External_workbenches/pl.md) do wykonywania [złożeń](Assembly/pl.md) różnych części w programie FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Niniejsza dokumentacja opisuje wersję A2plus **0.4.54b lub nowszą**.
+
+
+</div>
 
 ## Instalacja
 
@@ -30,6 +36,8 @@ Aby zaktualizować części zmodyfikowane w złożeniach kliknij na przycisk na 
 Zaimportowane części zachowują swoje zewnętrzne zależności i można je edytować. W przypadku ściśle zdefiniowanych części, takich jak śruby, warto jednak, aby ich kształt nie mógł być edytowany. Można to osiągnąć za pomocą przycisku na pasku narzędzi <img alt="" src=images/A2p_ConvertPart.svg  style="width   *24px;">, który przekształca wybraną część w statyczną kopię części oryginalnej.
 
 Aby zapisać złożenie i zamknąć je po zakończeniu, można użyć przycisku paska narzędzi <img alt="" src=images/A2p_Save_and_exit.svg  style="width   *24px;">.
+
+Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> sets the way you can select several several edges, faces etc.   * Either with a single click or by **Ctrl**+click.
 
 ## Montaż
 
@@ -104,9 +112,9 @@ Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź]
 
 #### Równoległe płaszczyzny 
 
-Select a plane on both parts. The toolbar button <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|planesParallel}}. The constraint dialog allows you to specify the constraint direction. The constraint will make the planes parallel.
+Zaznacz płaszczyznę na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|RównoległePłaszczyzny}}. W oknie dialogowym wiązania można określić kierunek wiązania. Użycie tego wiązania spowoduje, że płaszczyzny będą równoległe.
 
-#### Plane on Plane 
+#### Płaszczyzna na płaszczyźnie 
 
 Select a plane on both parts. The toolbar button <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|planeCoincident}}. The constraint dialog allows you to specify a constraint direction and an offset between the planes. This offset can also be flipped. If the offset is zero, the constraint will make the planes coincident.
 
@@ -135,6 +143,8 @@ Constraints can be deleted either by selecting them in the model tree and pressi
 All constraints can be resolved at any time with the toolbar button <img alt="" src=images/A2p_solver.svg  style="width   *24px;">. If the toolbar button <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width   *24px;"> is turned on a resolve is automatically done after every edit of a constraint.
 
 The toolbar button <img alt="" src=images/A2p_FlipConstraint.svg  style="width   *24px;"> affects the constraint that was added most recently. It flips the constraint direction.
+
+With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
 
 ## Part Lists 
 

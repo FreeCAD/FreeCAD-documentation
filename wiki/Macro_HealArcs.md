@@ -39,7 +39,7 @@ else   *
             Part.show(arc)
             removeList.append(obj.Name)
     FreeCAD.ActiveDocument.recompute()
-    print "removing ",removeList
+    print("removing", removeList)
     for n in removeList   *
         FreeCAD.ActiveDocument.removeObject(n)
 }}

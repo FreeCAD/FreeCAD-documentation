@@ -11,6 +11,9 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 
 ## Versionshinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Version 0.20](Release_notes_0.20/de.md) - Zu definieren
 -   [Version 0.19](Release_notes_0.19/de.md) - März 2021
 -   [Version 0.18](Release_notes_0.18/de.md) - März 2019
@@ -21,6 +24,9 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 -   [Version 0.13](Release_notes_0.13/de.md) - Januar 2013
 -   [Version 0.12](Release_notes_0.12.md) - Dezember 2011
 -   [Version 0.11](Release_notes_0.11/de.md) - März 2011
+
+
+</div>
 
 ## Schlüsselfunktionen
 

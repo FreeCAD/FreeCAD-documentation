@@ -11,116 +11,90 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug erstellt Verrundungen (Rundungen) an den ausgewählten Kanten eines Objekts. Ein neuer separater Verrundungseintrag (gefolgt von einer fortlaufenden Nummer, wenn bereits Verrundungen im Dokument vorhanden sind) wird im Projektbaum angelegt.
-
-
-</div>
+Das Werkzeug <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> **PartDesign Verrundung** erzeugt Rundungen (Ab-, Verrundungen) an den ausgewählten Kanten eines Objekts. Es fügt dem Dokument ein **Fillet**-Objekt und den dazugehörigen Repräsentanten in der [Baumansicht](Tree_view/de.md) hinzu.
 
 ## Anwendung
 
-### Add a fillet 
+### Eine Verrundung hinzufügen 
+
+1.  Falls nötig, wird der zu verrundende Körper [aktiviert](PartDesign_Body/de#Activer_Status.md).
+2.  Es gibt mehrere Möglichkeiten die Kanten zum Verrunden auszuwählen   *
+    -   Eine oder mehrere einzelne Kanten des Körpers auswählen.
+    -   Eine oder mehrere Flächen des Körpers auswählen, um alle ihrer Kanten auszuwählen.
+    -   Ein Formelement (normalerweise das letzte) des Körpers auswählen, um alle seiner Kanten auszuwählen. {{Version/de|0.20}}
+3.  Um eine Reihe tangential verbundener Kanten auszuwählen, muss nur eine einzige Kante ausgewählt werden, die Verrundung folgt dann dem kompletten Kantenzug.
+4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+    -   Die Schaltfläche **<img src="images/PartDesign_Fillet.svg" width=16px> [Verrundung](PartDesign_Fillet/de.md)** drücken.
+    -   Den Menüeintrag **Part Design → Modifikationen → <img src="images/PartDesign_Fillet.svg" width=16px> Verrundung** auswählen.
+5.  Wenn kein Körper aktiv ist und sich zwei oder mehr Körper im Dokument befinden, offnet sich der Dialog **Active Body Required** und fordert zur Aktivierung eines Körpers auf. Ist nur ein einziger Körper vorhanden, wird er automatisch ausgewählt.
+6.  Der [Aufgabenbereich](Task_panel/de.md) **Fillet parameters** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+7.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
+
+### Eine Verrundung bearbeiten 
+
+1.  Eine der folgenden Möglichkeiten startet die Bearbeitung   *
+    -   Das Fillet-Objekt in der [Baumansicht](Tree_view/de.md) doppelt anklicken.
+    -   Das Fillet-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **Fillet bearbeiten** aus dem Kontextmenü auswählen.
+2.  Der [Aufgabenbereich](Task_panel/de.md) **Fillet parameters** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
+
+## Optionen
+
+-   Zum Hinzufügen von Kanten hat man folgende Möglichkeiten   *
+    -   Die Schaltfläche **Hinzufügen** drücken, um die Auswahl weiterer Kanten und/oder Flächen in der [3D-Ansicht](3D_view/de.md) zu starten.
+    -   Zur Auswahl aller übrigen Kanten hat man folgende Möglichkeiten   *
+        1.  Wenn nötig, Schaltfläche **Hinzufügen** drücken.
+        2.  Tastaturkürzel **Ctrl**+**Shift**+**A** anwenden, oder mit der rechten Maustaste in die Liste klicken und **Alle Kanten verwenden** aus dem Kontextmenü auswählen. {{Version/de|0.20}}
+-   Zum Entfernen von Kanten hat man folgende Möglichkeiten   *
+    -   Die Schaltfläche **Entfernen** drücken, um das Entfernen der Kanten und/oder Flächen in der [3D-Ansicht](3D_view/de.md) zu starten. Ausgewählte Elemente werden in violett hervorgehoben.
+    -   Ein oder mehrere Elemente in der Liste auswählen und die **Del**-Taste drücken, oder mit der rechten Maustaste in die Liste klicken und **Entfernen** aus dem Kontextmenü auswählen.
+-   Den **Radius** der Verrundung angeben.
+-   Die Checkbox **Alle Kanten verwenden** aktivieren, um alle Kanten des vorherigen Formelements auszuwählen. Dies deaktiviert die Auswahlliste und die dazugehörigen Schaltflächen. {{Version/de|0.20}}
+
+## Hinweise
+
+-   PartDesign Verrundung sollte nicht mit [Part Verrundung](Part_Fillet/de.md) verwechselt werden. Solange man nicht weiß, was man macht, sollte [Part Verrundung](Part_Fillet/de.md) nicht auf einen PartDesign-Body angewendet werden. Siehe [Part und PartDesign](Part_and_PartDesign/de.md).
+-   Rundungen können (dürfen?) die angrenzenden Flächen nicht komplett vereinnahmen.
+
+## Eigenschaften
+
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
+
+Ein PartDesign-Fillet-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
+
+### Daten
 
 
-<div class="mw-translate-fuzzy">
+{{Properties_Title/de|Basis}}
 
--   Wähle eine einzelne oder mehrere Kanten oder eine Fläche auf einem Objekt aus und starte das Werkzeug, in dem Du entweder auf sein Symbol klickst oder in das Menü gehst. Wenn du eine Fläche ausgewählt hast, werden alle deine Kanten beim verrunden berücksichtigt.
--   Stelle im erscheinenden [Aufgabenpaneel](Task_panel/de.md) den Verrundungsradius entweder durch Eingabe des Wertes oder durch Klicken auf die Pfeile nach oben/unten ein.
--   Wenn du Kanten oder Flächen hinzufügen möchtest
-    -   wähle entweder die Kante/Fläche in der Liste des Dialogs und drücke die Taste **DEL**. *Hinweis*   * Da es mindestens eine Kante für das Formelement geben muss, kann die letzte verbleibende Kante oder Fläche in der Liste nicht entfernt werden.
-    -   oder klicke auf die **Entfernen** Schaltfläche. Alle Kanten und Flächen, die zuvor ausgewählt wurden, werden violett hervorgehoben. Wählen Sie die Kante oder die Fläche, die entfernt werden soll.
--   Klicke **OK** zum Bestätigen.
--   Bei einer Kette von Kanten, die tangential zueinander verlaufen, kann eine einzelne Kante ausgewählt werden; die Verrundung erstreckt sich entlang der Kette.
--   Um die Verrundung nach der Validierung der Funktion zu bearbeiten, doppelklicke entweder auf das Label Verrundung im Projektbaum oder klicke mit der rechten Maustaste darauf und wähle **Verrundung bearbeiten**.
+-    {{PropertyData/de|Base|LinkSub}}   * Link to the selected edges and faces of the parent feature. Can be a link to only the parent feature if {{PropertyData/de|Use All Edges}} is `True`.
 
+-    {{PropertyData/de|Support Transform|Bool}}   * If `True` the filleted shape of the additive/subtractive parent feature will be used when the fillet object is included in a [pattern](PartDesign_Workbench#Transformation_tools.md), else only the shape of the fillet itself will be used. The default is `False`.
 
-</div>
-
-### Edit a fillet 
-
-1.  Do one of the following   *
-    -   Double-click the Fillet object in the [Tree view](Tree_view.md)
-    -   Right-click the Fillet object in the [Tree view](Tree_view.md) and select **Edit Fillet** from the context menu.
-2.  The **Fillet parameters** [task panel](Task_panel.md) opens.See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
-
-## Options
-
--   To add edges do one of the following   *
-    -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
-    -   To select all remaining edges do the following   *
-        1.  If required press the **Add** button.
-        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu. <small>(v0.20)</small> 
--   To remove edges do one of the following   *
-    -   Press the **Remove** button to start deselecting edges and/or faces in the [3D view](3D_view.md). Selected elements are highlighted in purple.
-    -   Select one or more elements in the list and press the **Del** key, or right-click the list and select **Remove** from the context menu.
--   Set the **Radius** of the fillet.
--   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
-
-## Notes
-
--   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
--   Fillets cannot completely consume the adjacent faces.
-
-## Properties
-
-See also   * [Property editor](Property_editor.md).
-
-A PartDesign Fillet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
-
-### Data
-
-
-{{Properties_Title|Base}}
-
--    **Base|LinkSub**   * Link to the selected edges and faces of the parent feature. Can be a link to only the parent feature if **Use All Edges** is `True`.
-
--    **Support Transform|Bool**   * If `True` the filleted shape of the additive/subtractive parent feature will be used when the fillet object is included in a [pattern](PartDesign_Workbench#Transformation_tools.md), else only the shape of the fillet itself will be used. The default is `False`.
-
--    **Add Sub Shape|PartShape|hidden**
+-    {{PropertyData/de|Add Sub Shape|PartShape|hidden}}
     
 
--    **Base Feature|Link|hidden**   * Link to the parent feature.
+-    {{PropertyData/de|Base Feature|Link|hidden}}   * Link to the parent feature.
 
--    **_ Body|LinkHidden|hidden**   * Link to the parent body.
-
-
-{{Properties_Title|Fillet}}
-
--    **Radius|QuantityConstraint**   * The fillet radius. The default is {{value|1 mm}}.
-
--    **Use All Edges|Bool**   * If `True` all edges of the feature are filleted, and the edges specified by **Base** are ignored. The default is `False`.
+-    {{PropertyData/de|_ Body|LinkHidden|hidden}}   * Link to the parent body.
 
 
-{{Properties_Title|Part Design}}
+{{Properties_Title/de|Fillet}}
 
--    **Refine|Bool**   * If `True` redundant edges are removed from the result of the operation. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    {{PropertyData/de|Radius|QuantityConstraint}}   * Der Rundungsradius. Standardwert   * {{value|1 mm}}.
+
+-    {{PropertyData/de|Use All Edges|Bool}}   * Wenn `True`, werden alle Kanten des Objekts verrundet, und die unter der {{PropertyData/de|Base}} angegebenen Kanen werden ignoriert. Standardwert   * `False`.
 
 
-<div class="mw-translate-fuzzy">
+{{Properties_Title/de|Part Design}}
+
+-    {{PropertyData/de|Refine|Bool}}   * Wenn auf `True` gesetzt, werden überflüssige Kanten aus dem Ergebnis der Operation entfernt. Der voreingestellte Wert wird durch die Einstellung **Modell nach skizzenbasierter Operation automatisch aufbereiten** bestimmt. Siehe [PartDesign Einstellungen](PartDesign_Preferences/de#Allgemein.md).
 
 ## Bekannte Probleme 
 
+Verrundungen, Fasen und andere Funktionen, die mit Volumenkörpern arbeiten, hängen vom zugrundeliegenden [OpenCASCADE](OpenCASCADE.md) Technology (OCCT) Kernel ab, den FreeCAD verwendet. Der OCCT Kernel hat gelegentlich Schwierigkeiten, fluchtende (gleich laufende) scharfen Kanten zu verarbeiten, wenn sich zwei Seiten treffen. Ist dies der Fall, kann FreeCAD ohne Erklärung abstürzen.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Verrundungen, Fasen und andere Funktionen, die auf Festkörpern arbeiten, hängen vom zugrunde liegenden OpenCASCADE Technology (OCCT) Kernel ab, den FreeCAD verwendet. Der OCCT Kernel hat gelegentlich Schwierigkeiten, mit zufälligen scharfen Kanten umzugehen, wenn sich zwei Seiten treffen. Wenn dies der Fall ist, kann FreeCAD ohne Erklärung abstürzen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Wenn FreeCAD vom Terminal aus gestartet wird, kann es nach dem Absturz ein solches Protokoll ausgeben   *
-
-
-</div>
+Wenn FreeCAD vom Terminal aus gestartet wird, kann es nach einem Absturz ein Protokoll wie dieses ausgeben   *
 
 
 {{code|lang=text|code=
@@ -135,38 +109,18 @@ Wenn FreeCAD vom Terminal aus gestartet wird, kann es nach dem Absturz ein solch
 ...
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Ausgabe verweist auf Funktionen, die sich in `libTKBRep.so`, `libTKFillet.so`, usw. befinden und OCCT Bibliotheken sind. Wenn diese Art von Abstürzen auftritt, muss das Problem möglicherweise in OCCT und nicht in FreeCAD berichtet und gelöst werden.
-
-
-</div>
+Diese Ausgabe verweist auf Funktionen aus OCCT Bibliotheken. Wenn diese Art von Absturz auftritt, muss das Problem möglicherweise an OCCT berichtet und dort behoben werden und nicht an FreeCAD.
 
 Siehe die Forenbeiträge für weitere Informationen   *
 
 -   [Fehler Fase größer als 2 mm verursacht Freecad Abstürze](https   *//forum.freecadweb.org/viewtopic.php?p=263818#p263818)
 -   [Segmentfehler bei der Verwendung von Part Design Verrundung](https   *//forum.freecadweb.org/viewtopic.php?p=264827#p264827)
 
-### Topological naming 
-
-
-<div class="mw-translate-fuzzy">
-
 ### Topologische Benennung 
 
-Kantennummern sind nicht vollständig stabil, daher ist es ratsam, dass Du die Hauptkonstruktionsarbeiten Deines Festkörpers abschließt, bevor Du Funktionen wie Verrundungen und Fasen anwendest, da sonst Kanten den Namen ändern könnten und abgerundete Kanten wahrscheinlich ungültig werden würden.
+Kantennummern sind nicht vollständig stabil, daher ist es ratsam, dass die Hauptkonstruktionsarbeiten am Volumenkörper abgeschlossen sind, bevor Funktionen wie Verrundung und Fase anwendet werden, da sich sonst die Namen der Kanten ändern könnten und die abgerundeten Kanten könnten ungültig werden. Wenn die {{PropertyData/de|Use All Edges}} (Alle Kanten verwenden) ({{Version/de|0.20}}) auf `True` gesetzt wird, ist man etwas davor geschützt, da in so einem Falle alle Kanten des Grundobjekts verwendet werden und es keine Abhängigkeit von einer individuellen Benennung gibt.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lies mehr unter [topologisches Namensproblem](topological_naming_problem/de.md).
-
-
-</div>
+Mehr kann man unter [Problem der topologischen Benennung](Topological_naming_problem/de.md) nachlesen.
 
 
 

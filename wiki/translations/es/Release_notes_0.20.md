@@ -1,5 +1,5 @@
 # Release notes 0.20/es
-**Esta página registra las nuevas características a medida que se añaden a la versión de desarrollo de FreeCAD, que actualmente es la 0.20. Cuando se produzca la congelación de las características de la 0.20, se borrarán estos mensajes y no se añadirán más características a esta página. Se espera que FreeCAD 0.20 sea lanzado a finales de mayo 2022.**
+**Esta página registra las nuevas características a medida que se añaden a la versión de desarrollo de FreeCAD, que actualmente es la 0.20. Cuando se produzca el congelamiento de las características de la 0.20, se borrarán estos mensajes y no se añadirán más características a esta página. Se espera que FreeCAD 0.20 sea lanzado en junio de 2022.**
 
 
 **¡¡¡ Todas las imágenes de esta página deben utilizar el sufijo **_relnotes_0.20** !!!**
@@ -20,7 +20,7 @@ Vea [Ayuda FreeCAD](Help_FreeCAD/es.md) para saber cómo contribuir a FreeCAD.
 
 {{TOCright}}
 
-**FreeCAD 0.20** fue liberado el **DD de Mes del 2022**, consíguelo desde la página [Descarga](Download/es.md). Este es un resumen de las nuevas características y los cambios más interesantes.
+**FreeCAD 0.20** fue liberado el **DD de junio del 2022**, consíguelo desde la página [Descarga](Download/es.md). Este es un resumen de las nuevas características y los cambios más interesantes.
 
 Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar en [Lista de características](Feature_list/es#Notas_de_lanzamiento.md).
 
@@ -57,6 +57,17 @@ Estamos contentos de que el proyecto [KiCad](https   *//www.kicad.org/), a trav�
 ### Documentación
 
 ### Limitaciones conocidas 
+
+#### Windows de 32bits 
+
+Desde Freecad 0.19 no soportamos oficialmente Windows de 32 bits. Puede funcionar pero no se brinda soporte para estos sistemas.
+
+#### Escritorio remoto en Windows 
+
+Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser que se encuentre un bloqueo cuando se ejecuta Freecad a través de un escritorio remoto. Para solucionar esto actualice su controlador OpenGL. Solo si esto no ayuda   *
+
+-   Descargar [esta](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) biblioteca OpenGL para Windows de 64 bits y extraerla.
+-   Cambie el nombre del archivo DLL a \'\' OpenGL32SW.DLL \'\' y cópielo a la subcarpeta \'\' bin \'\' de la carpeta de instalación de FreeCAD (sobrescriba el DLL existente allí).
 
 ## Interfaz de usuario 
 
@@ -228,6 +239,8 @@ Estamos contentos de que el proyecto [KiCad](https   *//www.kicad.org/), a trav�
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                               | También se ha añadido un nuevo comando **Crear estructura de arco múltiple**. Utiliza el primer objeto seleccionado como Base, y crea objetos de Estructuras de Arco para cada Arista de los otros objetos seleccionados. A continuación, las propiedades de los objetos de estructura individuales pueden ajustarse en el editor de propiedades. Este comando se ha añadido para el flujo de trabajo con un croquis maestro (existe el riesgo de que se produzcan problema de denominación topológica a menos que se cree una copia no paramétrica del croquis maestro o se utilice la versión de Realthunder) |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               | El soporte para **Datos 2D**, como el trabajo de línea, el achurado, los textos y las dimensiones, ahora está habilitado en la importación y exportación IFC, lo que contribuye a convertir al formato IFC cada vez más adecuado para el trabajo CAD 2D tradicional. Se está haciendo un esfuerzo similar en [BlenderBIM](https   *//blenderbim.org). Más mejoras en el flujo de trabajo 2D están documentadas [en este hilo del foro](https   *//forum.freecadweb.org/viewtopic.php?p=563067#p563067).                                                                                                               |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                               | [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request \#3229](https   *//github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
@@ -284,8 +297,6 @@ Estamos contentos de que el proyecto [KiCad](https   *//www.kicad.org/), a trav�
 -   Los materiales sólidos no lineales con endurecimiento simple ahora pueden tener un número arbitrario de puntos de fluencia. [Pull request \#5024](https   *//github.com/FreeCAD/FreeCAD/pull/5024)
 -   Permitir la adición/eliminación modal de entidades geométricas a las restricciones que actúan sobre los límites. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
 -   La mayoría de los cuadros de diálogo de restricciones FEM ahora se comportan de manera uniforme y brindan las mismas funciones de selección de objetos 3D. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
-
-## Importar
 
 ## Exportar
 
@@ -384,8 +395,6 @@ También hay un cuadro de texto para comentarios de errores de OpenSCAD.
 
 -   FreeCAD ahora proporciona el módulo Plot de forma predeterminada, por lo que cualquier otro módulo/entorno de trabajo puede crear gráficas sin necesidad de herramientas externas. [Pull request \#4971](https   *//github.com/FreeCAD/FreeCAD/pull/4971).
 
-## Ambiente de Trabajo Render 
-
 ## Ambiente de Trabajo Sketcher 
 
    
@@ -429,10 +438,6 @@ También hay un cuadro de texto para comentarios de errores de OpenSCAD.
 -   Navegación mejorada usando las teclas **Tab** y **Enter**.
 -   Interfaz mejorada para cortar y pegar bloques de celdas.
 
-## Ambiente de Trabajo Inicio 
-
-## Ambiente de Trabajo Surface 
-
 ## Ambiente de Trabajo TechDraw 
 
    
@@ -464,9 +469,37 @@ estos son los nuevos entornos de trabajo creados en este ciclo de desarrollo o l
 
 ### A2plus
 
+Se agregaron varias características para ver, inspeccionar y editar restricciones existentes. Uno puede ahora, por ejemplo resaltar las restricciones con una etiqueta, borrar una restricción temporalmente o ejecutar el solucionador solo para una restricción en particular.
+
+Para más información véa [la descripción de manejo de restricciones](A2plus_Workbench#Constraint_Handling.md).
+
 ## Assembly3
 
++++
+| <img alt="" src=images/Asm3_relnotes_0.20.jpg  style="width   *384px;">     | El entorno de trabajo Assembly3 está disponible (desde marzo de 2022) a través del [Administrador de Complementos](Std_AddonMgr.md). Esto facilita la instalación y gestión de las dependencias externas del entorno de trabajo.                                                                                                         |
+|                                                                       |                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                       | Assembly3 se utiliza para crear ensamblajes de diferentes cuerpos contenidos en un solo archivo o en múltiples documentos que aprovechan la potencia completa del sistema de enlace de FreeCAD. Obtenga más información sobre [ Enlace](App_link.md) en esta [presentación](https   *//www.youtube.com/watch?v=ytdkj7jzaws) de RealThunder. |
+|                                                                       |                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                       | El entorno de trabajo Assembly3 usa [SolveSpace](https   *//solvespace.com) como su solucionador.                                                                                                                                                                                                                                                   |
+|                                                                       |                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                       | Se puede encontrar una documentación extensa en la página principal de la [wiki de Assembly3](Assembly3.md) de FreeCAD o en la [wiki de Assembly3](https   *//github.com/realthunder/FreeCAD_assembly3/wiki) de Realthunder en GitHub                                                                                                       |
++++
+| <img alt="" src=images/Asm3_1_relnotes_0.20.jpg  style="width   *384px;"> | **Main features   ***                                                                                                                                                                                                                                                                                                                               |
+|                                                                       |                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                       | -   Solucionador dinámico/interactivo   * mueve partes con el ratón mientras el solucionador restringe el movimiento.                                                                                                                                                                                                                               |
+|                                                                       | -   Enlaces   * usa una sola parte varias veces en un ensamble.                                                                                                                                                                                                                                                                                     |
+|                                                                       | -   Enlaces externos   * permite usar partes de documentos externos.                                                                                                                                                                                                                                                                                |
+|                                                                       | -   Ensambles jerárquicos   * permite la creación de subensambles.                                                                                                                                                                                                                                                                                  |
+|                                                                       | -   Congelamiento del ensamble   * Los ensamblajes que no necesitan permanecer dinámicos pueden excluirse de los cálculos y son considerados como geometría fija por el solucionador asm3.                                                                                                                                                          |
+|                                                                       | -   Y mucho más.                                                                                                                                                                                                                                                                                                                                 |
++++
+
 ## Assembly4
+
+   
+  <img alt="" src=images/A4_veriant-beam_relnotes_0.20.png  style="width   *384px;">Diferentes longitudes de una barra como variantes.                                     Nueva característica para agregar variantes. Estos son [enlaces](App_Link.md) a una parte con parámetros variables, lo que significa que puede insertar la misma parte varias veces y ajustar los parámetros de cada instancia. Para más información vea [este hilo del foro](https   *//forum.freecadweb.org/viewtopic.php?p=538666#p538666).
+  <img alt="" src=images/A4_veriant-animation_relnotes_0.20.gif  style="width   *384px;">Un ensamble animado.Clic en la imagen para ver la animación.   Las animaciones pueden ser exportadas a los formatos MP4 o GIF.
+   
 
 ### ArchTextures
 

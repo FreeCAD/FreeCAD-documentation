@@ -161,6 +161,18 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width   *32px;"> **ASME B18.3.5D** UNC Śruba z gniazdem sześciokątnym z czubkiem.
 
+### Śruby z gniazdem sześciokątnym 
+
+-   <img alt="" src=images/Fasteners_ISO14579.svg  style="width   *32px;"> **ISO 14579** Śruba z łbem walcowym z gniazdem sześciokątnym.
+
+-   <img alt="" src=images/Fasteners_ISO14580.svg  style="width   *32px;"> **ISO 14580** Śruba z łbem walcowym z gniazdem sześciokątnym.
+
+-   <img alt="" src=images/Fasteners_ISO14582.svg  style="width   *32px;"> **ISO 14582** Śruba z łbem stożkowym z gniazdem sześciokątnym, wysoki łeb.
+
+-   <img alt="" src=images/Fasteners_ISO14583.svg  style="width   *32px;"> **ISO 14583** Śruba z łbem walcowym z gniazdem sześciokątnym.
+
+-   <img alt="" src=images/Fasteners_ISO14584.svg  style="width   *32px;"> **ISO 14584** Śruba z łbem stożkowym z gniazdem sześciokątnym.
+
 ### Śruby z łbem wpuszczanym 
 
 -   <img alt="" src=images/Fasteners_ISO2009.svg  style="width   *32px;"> **ISO 2009** Śruba z łbem płaskim z rowkiem stożkowym. Klasa produktu A.
@@ -185,43 +197,9 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** Śruba z łbem serowym z wgłębieniem krzyżowym typu H.
 
-### Śruby z gniazdem sześciokątnym 
-
--   <img alt="" src=images/Fasteners_ISO14579.svg  style="width   *32px;"> **ISO 14579** Śruba z łbem walcowym z gniazdem sześciokątnym.
-
--   <img alt="" src=images/Fasteners_ISO14580.svg  style="width   *32px;"> **ISO 14580** Śruba z łbem walcowym z gniazdem sześciokątnym.
-
--   <img alt="" src=images/Fasteners_ISO14582.svg  style="width   *32px;"> **ISO 14582** Śruba z łbem stożkowym z gniazdem sześciokątnym, wysoki łeb.
-
--   <img alt="" src=images/Fasteners_ISO14583.svg  style="width   *32px;"> **ISO 14583** Śruba z łbem walcowym z gniazdem sześciokątnym.
-
--   <img alt="" src=images/Fasteners_ISO14584.svg  style="width   *32px;"> **ISO 14584** Śruba z łbem stożkowym z gniazdem sześciokątnym.
-
 ### Inne śruby z łbami 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** Śruba UNC z okrągłym łbem i kwadratową szyjką.
-
-### Podkładki
-
--   <img alt="" src=images/Fasteners_ISO7089.svg  style="width   *32px;"> 
-**ISO 7089** Podkładka ślizgowa, seria normalna. *Klasa produktu A.*
-
--   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> **ISO 7090** Podkładka ślizgowa fazowana, seria normalna. Gatunek produktu A.
-
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Podkładka zwykła, seria mała.
-
--   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
-**ISO 7093-1** Podkładka ślizgowa, seria duża. *Klasa produktu A.*
-
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Podkładka zwykła, seria ekstra duża.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** UN podkładka, seria wąska.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN podkładka, seria regularna.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN podkładka, seria szeroka.
-
--   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
 
 ### Nakrętki
 
@@ -244,6 +222,28 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width   *32px;"> **ASME B18.2.2.4A** UNC Nakrętka sześciokątna.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width   *32px;"> **ASME B18.2.2.4B** UNC Nakrętka sześciokątna cienka.
+
+### Podkładki
+
+-   <img alt="" src=images/Fasteners_ISO7089.svg  style="width   *32px;"> 
+**ISO 7089** Podkładka ślizgowa, seria normalna. *Klasa produktu A.*
+
+-   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> **ISO 7090** Podkładka ślizgowa fazowana, seria normalna. Gatunek produktu A.
+
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Podkładka zwykła, seria mała.
+
+-   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
+**ISO 7093-1** Podkładka ślizgowa, seria duża. *Klasa produktu A.*
+
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Podkładka zwykła, seria ekstra duża.
+
+-   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Podkładka stożkowa.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** UN podkładka, seria wąska.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN podkładka, seria regularna.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN podkładka, seria szeroka.
 
 ### Elementy złączne różne 
 

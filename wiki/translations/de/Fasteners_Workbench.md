@@ -191,6 +191,18 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width   *32px;"> **ASME B18.3.5D** UNC Hexagon socket set screw with cup point.
 
+### Schrauben mit Innensechsrund 
+
+-   <img alt="" src=images/Fasteners_ISO14579.svg  style="width   *32px;"> **ISO 14579** Zylinderschr. mit Innensechsrund.
+
+-   <img alt="" src=images/Fasteners_ISO14580.svg  style="width   *32px;"> **ISO 14580** Zylinderschrauben mit Innensechsrund, niedriger Kopf.
+
+-   <img alt="" src=images/Fasteners_ISO14582.svg  style="width   *32px;"> **ISO 14582** Senkschrauben mit Innensechsrund, hoher Kopf.
+
+-   <img alt="" src=images/Fasteners_ISO14583.svg  style="width   *32px;"> **ISO 14583** Flachkopfschrauben mit Innensechsrund.
+
+-   <img alt="" src=images/Fasteners_ISO14584.svg  style="width   *32px;"> **ISO 14584** Linsensenkschrauben mit Innensechsrund.
+
 ### Schlitzschrauben
 
 -   <img alt="" src=images/Fasteners_ISO2009.svg  style="width   *32px;"> 
@@ -246,44 +258,9 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** Zylinderschrauben mit Kreuzschlitz.
 
-### Schrauben mit Innensechsrund 
-
--   <img alt="" src=images/Fasteners_ISO14579.svg  style="width   *32px;"> **ISO 14579** Zylinderschr. mit Innensechsrund.
-
--   <img alt="" src=images/Fasteners_ISO14580.svg  style="width   *32px;"> **ISO 14580** Zylinderschrauben mit Innensechsrund, niedriger Kopf.
-
--   <img alt="" src=images/Fasteners_ISO14582.svg  style="width   *32px;"> **ISO 14582** Senkschrauben mit Innensechsrund, hoher Kopf.
-
--   <img alt="" src=images/Fasteners_ISO14583.svg  style="width   *32px;"> **ISO 14583** Flachkopfschrauben mit Innensechsrund.
-
--   <img alt="" src=images/Fasteners_ISO14584.svg  style="width   *32px;"> **ISO 14584** Linsensenkschrauben mit Innensechsrund.
-
 ### Other head bolts 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** UNC Round head square neck bolt.
-
-### Scheiben
-
--   <img alt="" src=images/Fasteners_ISO7089.svg  style="width   *32px;"> 
-**ISO 7089** Scheiben, Form A. *Produktklasse A.*
-
--   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> 
-**ISO 7090** Scheiben mit Fase, Form B. *Produktklasse A.*
-
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Scheiben, kleine Reihe.
-
--   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
-**ISO 7093-1** Flache Scheiben, große Reihe. *Produktklasse A.*
-
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Scheiben, extra große Reihe.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** UN Unterlegscheibe, schmale Reihe.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN Scheibe, normale Reihe.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN Scheibe, breite Reihe.
-
--   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
 
 ### Muttern
 
@@ -309,6 +286,29 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width   *32px;"> **ASME B18.2.2.4A** UNC Hexagon nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width   *32px;"> **ASME B18.2.2.4B** UNC Hexagon thin nut.
+
+### Scheiben
+
+-   <img alt="" src=images/Fasteners_ISO7089.svg  style="width   *32px;"> 
+**ISO 7089** Scheiben, Form A. *Produktklasse A.*
+
+-   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> 
+**ISO 7090** Scheiben mit Fase, Form B. *Produktklasse A.*
+
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Scheiben, kleine Reihe.
+
+-   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
+**ISO 7093-1** Flache Scheiben, große Reihe. *Produktklasse A.*
+
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Scheiben, extra große Reihe.
+
+-   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** UN Unterlegscheibe, schmale Reihe.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN Scheibe, normale Reihe.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN Scheibe, breite Reihe.
 
 ### Verschiedenes
 

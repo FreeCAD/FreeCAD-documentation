@@ -11,6 +11,9 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 ## Notas da versão 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Versão 0.11](Release_notes_0.11.md) - Março de 2011
 -   [Versão 0.12](Release_notes_0.12.md) - Dezembro de 2011
 -   [Versão 0.13](Release_notes_0.13.md) - Janeiro de 2013
@@ -21,6 +24,9 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 -   [Versão 0.18](Release_notes_0.18.md) - Março de 2019
 -   [Versão 0.19](Release_notes_0.19.md) - Março de 2021
 -   [Versão 0.20](Release_notes_0.20.md) - A ser anunciada
+
+
+</div>
 
 ## Recursos Principais 
 

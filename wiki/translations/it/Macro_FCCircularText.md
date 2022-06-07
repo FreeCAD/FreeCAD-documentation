@@ -4,10 +4,9 @@
 |Translate=Testo Circolare
 |Icon=FCCircularTextButtom.png
 |Description={{ColoredText|#ff0000|#ffffff|La nuova GUI della versione modificata per l'HD dpi (QGridLayout) esegue solo la versione FC 0.18 e successive (PySide2 Qt5)}} <br/><br/>Per la versione precedente vedere [https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] and install it manually. <br/><br/>Questa macro crea un testo intorno ad un cilindro.<br />Ultima Versione=0.14 Date=2019/04/27<br />Download the [https   *//www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png toolBar icon]<br />
-|Author=Mario52
-|Version=0.21
-|Date=2022/05/31
-|FCVersion=0.18 è più
+|Version=0.22
+|Date=2022/06/06
+|FCVersion=0.19 è più
 |Download=[https   *//www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
 }}
 
@@ -16,7 +15,7 @@
 Questa macro usa <img alt="" src=images/Draft_ShapeString.svg  style="width   *24px;"> [Draft ShapeString](Draft_ShapeString/it.md) è scrive un testo, in piedi o coricato, circonferenziale o elicoidale nel modo di [Trajan Column](http   *//en.wikipedia.org/wiki/Trajan%27s_Column) e crea un orologio con numeri arabi **1 2 3 \...** o Romani **I II III \...** (ispirata a [Macro to Create Clock Face](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock)) FC community member, cblt2l.
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/febfd7cec2e4fcbe1abdc04161f464deb9d69691/Macro_FCCircularText.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/cffba4018708a61e43c7f19627993c3e80182312/Macro_FCCircularText.FCMacro}}
 
 <img alt="texte 360 degrees" src=images/FCCircularText_01.png  style="width   *400px;"> 
 *Esempio di macro che mostra il testo con un orientamento a 360 gradi*
@@ -707,6 +706,8 @@ In projetto    *
 Scrivere un testo circolare posizionato su un oggetto selezionato
 
 ## Registro delle modifiche   * 
+
+-   ver 0.22 2022/06/06    * adding QScrollArea cause    * [Unable to run FCCircularText \[Problem with screen size\]](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=69206)
 
 -   ver 0.21 2022/05/31    * adding button search other path fontmanuelly, and button return font origin of system
 

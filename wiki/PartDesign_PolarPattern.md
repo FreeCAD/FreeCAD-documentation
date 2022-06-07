@@ -9,7 +9,7 @@
 
 ## Description
 
-The **polar pattern** tool takes a chosen feature and creates a set of copies rotated around a chosen axis. <small>(v0.17)</small>  A list of features can be patterned.
+The **polar pattern** tool takes a chosen feature and creates a set of copies rotated around a chosen axis. A list of features can be patterned.
 
  ![](images/PartDesign_PolarPattern_example.png ) 
 
@@ -40,17 +40,6 @@ You can change the order by dragging the feature in the list and you will see th
 
 #### Adding features 
 
-###### v0.18
-
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
-2.  Switch to the Model tree;
-3.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
-4.  Switch back to the Tasks panel;
-5.  Select the feature in the 3D view; it will be added to the list.
-6.  Repeat to add other features.
-
-###### v0.19
-
 1.  Press **Add feature** to add a feature to be patterned.
 2.  Switch to the Model tree;
 3.  Select in the tree the feature to be added.
@@ -61,17 +50,6 @@ You can change the order by dragging the feature in the list and you will see th
 -   Right-click on the feature in the list and select *Remove*.
 
 or
-
-###### v0.18 
-
-1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md)   *
-2.  Switch to the Model tree;
-3.  Select in the tree the feature to be removed and press **Space** to make it visible in the [3D view](3D_view.md);
-4.  Switch back to the Tasks panel;
-5.  Select the feature in the 3D view; it will have been removed from the list.
-6.  Repeat to remove other features.
-
-###### v0.19 
 
 1.  Press **Remove feature** to remove a feature from the list.
 2.  Switch to the Model tree;
@@ -104,9 +82,6 @@ Uses the vertical axis of the sketch for axis.
 If the sketch which defines the feature to be patterned also contains a construction line (or lines), then the drop down list will contain one custom sketch axis for each construction line. The first construction line will be labelled *Sketch axis 0*.
 
 #### Base (X/Y/Z) axis 
-
-
-<small>(v0.17)</small> 
 
 Select one of the Body Origin\'s standard axis (X, Y or Z) as axis.
 

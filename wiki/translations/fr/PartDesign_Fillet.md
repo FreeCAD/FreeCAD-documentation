@@ -11,113 +11,90 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'un objet. Une nouvelle entrée de congé séparée (suivie d\'un numéro séquentiel s\'il existe déjà des congés dans le document) est créée dans l\'arborescence du projet.
-
-
-</div>
+L\'outil <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> **PartDesign Congé** crée des filets (arrondis) sur les bords sélectionnés d\'un objet. Il ajoute un objet **Fillet** au document avec sa représentation correspondante dans la [Vue en arborescence](Tree_view/fr.md).
 
 ## Utilisation
 
-### Add a fillet 
+### Ajouter un congé 
 
+1.  Vous pouvez éventuellement [activer](PartDesign_Body/fr#Statut_actif.md) le corps recevant les congés.
+2.  Il existe plusieurs façons de sélectionner les bords recevant le congé    *
+    -   Sélectionnez une ou plusieurs arêtes du corps individuellement.
+    -   Sélectionnez une ou plusieurs faces du corps pour sélectionner toutes leurs arêtes.
+    -   Sélectionnez un élément (généralement le dernier élément) du corps pour sélectionner toutes ses arêtes. {{Version/fr|0.20}}
+3.  Pour une chaîne d\'arêtes connectées tangentiellement, une seule arête doit être sélectionnée, le congé se propage le long de la chaîne.
+4.  Il y a plusieurs façons de lancer l\'outil    *
+    -   Appuyez sur le **<img src="images/PartDesign_Fillet.svg" width=16px> [Congé](PartDesign_Fillet/fr.md)**.
+    -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Fillet.svg" width=16px> Congé** dans le menu.
+5.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
+6.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres du congé** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+7.  Appuyez sur le bouton **OK** pour terminer.
 
-<div class="mw-translate-fuzzy">
+### Modifier un congé 
 
--   Sélectionnez une ou plusieurs arêtes ou une face sur un objet, puis lancez l\'outil en cliquant sur son icône ou en allant dans le menu. Si vous avez sélectionné une face ou un objet 3D ({{Version/fr|0.20}}), toutes ses arêtes sont prises en compte pour le congé.
--   Dans le [Panneau des tâches](Task_Panel/fr.md) qui apparaît, réglez le rayon du congé soit en entrant la valeur, soit en cliquant sur les flèches haut/bas.
--   Après avoir cliqué sur le bouton **Ajouter**, vous pouvez ajouter toutes les arêtes de l\'objet en faisant un clic droit et en sélectionnant **Ajouter tous les bords** dans le menu contextuel. {{Version/fr|0.20}}
--   Si vous voulez ajouter plus d\'arêtes ou de faces, cliquez sur le bouton **Ajouter** et sélectionnez les arêtes et/ou les faces.
--   Si vous voulez supprimer des arêtes ou des faces
-    -   sélectionnez l\'arête/la face dans la liste du dialogue et appuyez sur la touche **Suppr**. *Remarque*    * puisqu\'il doit y avoir au moins une arête pour la fonction, la dernière arête ou face restante dans la liste ne peut pas être supprimée.
-    -   ou cliquez sur le bouton **Suppression**. Toutes les arêtes et faces précédemment sélectionnées sont surlignées en violet. Sélectionnez l\'arête ou la face à supprimer.
-    -   Assurez-vous que la case **Utiliser tous les bords** n\'est pas cochée, sinon certains widgets de la boîte de dialogue seront désactivés. {{Version/fr|0.20}}
--   Cliquez sur **OK** pour valider.
--   Pour une chaîne d\'arêtes tangentes les unes aux autres, une seule arête peut être sélectionnée. Le congé se propagera le long de la chaîne.
--   Pour éditer le filet après la validation de la fonction, double-cliquez sur l\'étiquette du filet dans l\'arbre du projet ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Modifier le congé**.
-
-
-</div>
-
-### Edit a fillet 
-
-1.  Do one of the following   *
-    -   Double-click the Fillet object in the [Tree view](Tree_view.md)
-    -   Right-click the Fillet object in the [Tree view](Tree_view.md) and select **Edit Fillet** from the context menu.
-2.  The **Fillet parameters** [task panel](Task_panel.md) opens.See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+1.  Effectuez l\'une des opérations suivantes    *
+    -   Double-cliquez sur l\'objet Fillet dans la [Vue en arborescence](Tree_view/fr.md).
+    -   Cliquez avec le bouton droit de la souris sur l\'objet Fillet dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier le congé** dans le menu contextuel.
+2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres du congé** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+3.  Appuyez sur le bouton **OK** pour terminer.
 
 ## Options
 
--   To add edges do one of the following   *
-    -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
-    -   To select all remaining edges do the following   *
-        1.  If required press the **Add** button.
-        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu. <small>(v0.20)</small> 
--   To remove edges do one of the following   *
-    -   Press the **Remove** button to start deselecting edges and/or faces in the [3D view](3D_view.md). Selected elements are highlighted in purple.
-    -   Select one or more elements in the list and press the **Del** key, or right-click the list and select **Remove** from the context menu.
--   Set the **Radius** of the fillet.
--   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
+-   Pour ajouter des arêtes, effectuez l\'une des opérations suivantes    *
+    -   Appuyez sur le bouton **Ajouter** pour commencer à sélectionner des arêtes et/ou des faces dans la [Vue 3D](3D_view/fr.md).
+    -   Pour sélectionner toutes les arêtes restantes, procédez comme suit    *
+        1.  Si nécessaire, appuyez sur le bouton **Ajouter**.
+        2.  Utilisez le raccourci clavier **Ctrl**+**Shift**+**A**, ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Ajouter toutes les arêtes** dans le menu contextuel. {{Version/fr|0.20}}
+-   Pour supprimer des bords, effectuez l\'une des opérations suivantes    *
+    -   Appuyez sur le bouton **Supprimer** pour commencer à désélectionner les arêtes et/ou les faces dans la [Vue 3D](3D_view/fr.md). Les éléments sélectionnés sont surlignés en violet.
+    -   Sélectionnez un ou plusieurs éléments dans la liste et appuyez sur la touche **Suppr**, ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Enlever** dans le menu contextuel.
+-   Définissez le **Rayon** du congé.
+-   Cochez la case **Ajouter toutes les arêtes** pour sélectionner tous les arêtes de l\'élément précédent. Cela désactive la liste de sélection et les boutons associés. {{Version/fr|0.20}}
 
 ## Remarques
 
 -   Le PartDesign Congé ne doit pas être confondu avec le [Part Congé](Part_Fillet/fr.md). À moins que vous ne sachiez ce que vous faites, [Part Congé](Part_Fillet/fr.md) ne doit pas être utilisé sur un corps PartDesign. Voir [Part et PartDesign](Part_and_PartDesign/fr.md).
 -   Les Congés ne peuvent pas entièrement épouser les faces adjacentes.
 
-## Properties
+## Propriétés
 
-See also   * [Property editor](Property_editor.md).
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
 
-A PartDesign Fillet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+Un objet Part Congé est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
-### Data
+### Données
 
 
 {{Properties_Title|Base}}
 
--    **Base|LinkSub**   * Link to the selected edges and faces of the parent feature. Can be a link to only the parent feature if **Use All Edges** is `True`.
+-    **Base|LinkSub**   * Lien vers les arêtes et les faces sélectionnées de l\'élément parent. Peut être un lien vers l\'élément parent uniquement si **Use All Edges** est `True`.
 
--    **Support Transform|Bool**   * If `True` the filleted shape of the additive/subtractive parent feature will be used when the fillet object is included in a [pattern](PartDesign_Workbench#Transformation_tools.md), else only the shape of the fillet itself will be used. The default is `False`.
+-    **Support Transform|Bool**   * Si `True`, la forme du congé de l\'élément parent additif/soustractif sera utilisée lorsque l\'objet congé est inclus dans un [motif](PartDesign_Workbench/fr#Outils_de_transformation.md), sinon seule la forme du congé sera utilisée. La valeur par défaut est `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
 
--    **Base Feature|Link|hidden**   * Link to the parent feature.
+-    **Base Feature|Link|hidden**   * Lien vers l\'élément parent.
 
--    **_ Body|LinkHidden|hidden**   * Link to the parent body.
+-    **_ Body|LinkHidden|hidden**   * Lien vers le corps du parent.
 
 
 {{Properties_Title|Fillet}}
 
--    **Radius|QuantityConstraint**   * The fillet radius. The default is {{value|1 mm}}.
+-    **Radius|QuantityConstraint**   * Le rayon du congé. La valeur par défaut est {{value|1 mm}}.
 
--    **Use All Edges|Bool**   * If `True` all edges of the feature are filleted, and the edges specified by **Base** are ignored. The default is `False`.
+-    **Use All Edges|Bool**   * Si `True`, tous les bords de l\'élément sont pourvus de congés et les bords spécifiés par **Base** sont ignorés. La valeur par défaut est `False`.
 
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**   * If `True` redundant edges are removed from the result of the operation. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**   * Si `True`, les arêtes redondantes sont supprimées du résultat de l\'opération. La valeur par défaut est déterminée par la préférence **Automatically refine model after sketch-based operation**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 
 ## Problèmes connus 
 
+Les congés, chanfreins et autres fonctionnalités opérant sur les corps solides dépendent du noyau [OpenCASCADE](OpenCASCADE/fr.md) Technology (OCCT) sous-jacent utilisé par FreeCAD. Le noyau OCCT a parfois du mal à gérer les arêtes vives qui coïncident, là où deux faces se rencontrent. Si tel est le cas, FreeCAD peut se bloquer sans explication.
 
-<div class="mw-translate-fuzzy">
-
-Les congés, chanfreins et autres fonctionnalités opérant sur les corps solides dépendent du noyau OpenCASCADE Technology (OCCT) sous-jacent utilisé par FreeCAD. Le noyau OCCT a parfois du mal à gérer les arêtes vives qui coïncident, là où deux faces se rencontrent. Si tel est le cas, FreeCAD peut se bloquer sans explication.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Si FreeCAD est exécuté depuis le terminal, FreeCAD peut produire un fichier de logs comme celui-ci après le crash    *
-
-
-</div>
+S\'il est exécuté depuis le terminal, FreeCAD peut produire un fichier de logs comme celui-ci après un crash    *
 
 
 {{code|lang=text|code=
@@ -132,13 +109,7 @@ Si FreeCAD est exécuté depuis le terminal, FreeCAD peut produire un fichier de
 ...
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Ce dernier fait référence à des fonctions situées dans `libTKBRep.so`, `libTKFillet.so`, etc. qui sont des bibliothèques OCCT. Si ce type de plantage se produit, le problème doit être signalé et résolu dans OCCT plutôt que dans FreeCAD.
-
-
-</div>
+Cette sortie fait référence à des fonctions des bibliothèques OCCT. Si ce type de crash se produit, le problème doit être signalé et résolu dans OCCT plutôt que dans FreeCAD.
 
 Voir les discussions du forum pour plus d\'informations    *
 
@@ -147,13 +118,7 @@ Voir les discussions du forum pour plus d\'informations    *
 
 ### Dénomination topologique 
 
-
-<div class="mw-translate-fuzzy">
-
 La numérotation des arêtes n\'est pas complètement stable. Il est donc conseillé de terminer la conception principale de votre corps solide avant d\'appliquer des fonctions telles que les congés et les chanfreins, sans quoi les arêtes risquent de changer de nom et les arêtes recevant un congé risquent de devenir invalides. Lorsque la propriété **Use All Edges** ({{Version/fr|0.20}}) est cochée à `True`, il existe une certaine protection contre ce problème. En effet, dans ce cas, toutes les arêtes de l\'objet de base sont utilisées et il n\'y a aucune dépendance vis-à-vis des noms des arêtes individuelles.
-
-
-</div>
 
 Voir la page [Problème de dénomination topologique](Topological_naming_problem/fr.md) pour en savoir plus.
 

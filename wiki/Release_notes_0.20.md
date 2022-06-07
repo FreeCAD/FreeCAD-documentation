@@ -1,8 +1,5 @@
 # Release notes 0.20
-**This page tracks new features as they are added to the development version of FreeCAD, which is currently 0.20. When the 0.20 feature freeze happens, delete these messages, and don't add more features to this page. FreeCAD 0.20 is expected to be released in June 2022.**
-
-
-**!!! All images on this page must use the **_relnotes_0.20** suffix !!!**
+**FreeCAD 0.20 is expected to be released in June 2022.**
 
 
 {{Message|
@@ -16,52 +13,23 @@ See [Help FreeCAD](Help_FreeCAD.md) for ways to contribute to FreeCAD.
 
 **FreeCAD 0.20** was released on **DD June 2022**, get it from the [Download](Download.md) page. This page lists all new features and changes.
 
-Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_notes.md).
+Older FreeCAD release notes can be found in the [Feature list](Feature_list#Release_notes.md).
 
-## Highlights
+<img alt="FreeCAD_highlight_relnotes_0.20.gif" src=images/FreeCAD_highlight_relnotes_0.20.gif  style="width   *512px;">
+
+*Model of a 775 DC motor by user \"jimmihenry\", see [Users Showcase](https   *//forum.freecadweb.org/viewtopic.php?p=551765#p551765).Click on the image to see the animation.The model was made completely with the weekly [development snapshots](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) of FreeCAD 0.20. The pictures for the animated graphic were made with the FreeCAD macro [ Screen Wiki](Macro_Screen_Wiki.md). The animated GIF itself was made using [Gimp](https   *//en.wikipedia.org/wiki/The_GIMP_Project).*
 
 ## General
 
-### Compilation
+### freecad.org
 
-Since this release FreeCAD can only be compiled using Qt 5 and Python 3.
-
-To [compile FreeCAD under Windows](Compile_on_Windows.md), there are different Libpacks (prepackaged libraries) available   *
-
--   Libpack for Windows with Qt xx, OCC yy, and Python zz
-
-Lowest supported Python version is 3.6.9 according to this [FC forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701).
-
-Supported operating systems   *
-
--   Windows 7, 8 and 10
--   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
--   MacOS minimum version 10.12 Sierra
+We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [KiCAD services corp.](https   *//www.kipro-pcb.com/), sponsored us the domain freecad.org. Now all FreeCAD websites are available under [freecadweb.org](https   *//freecadweb.org) and [freecad.org](https   *//freecad.org).
 
 ### Bug/Issue Tracker 
 
 The FreeCAD bug tracker was moved to GitHub   * <https   *//github.com/FreeCAD/FreeCAD/issues>
 
 **Note   *** Only bug reports with a prior forum discussion will be considered. Reports without this will be closed.
-
-### freecad.org
-
-We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [KiCAD services corp.](https   *//www.kipro-pcb.com/), sponsored us the domain freecad.org. Now all FreeCAD websites are available under [freecadweb.org](https   *//freecadweb.org) and [freecad.org](https   *//freecad.org).
-
-### Documentation
-
-### Known limitations 
-
-#### 32bit Windows 
-
-Already since FreeCAD 0.19 we don\'t officially support 32bit Windows. It might work there but no support is given for these systems.
-
-#### Remote Desktop under Windows 
-
-Depending on the OpenGL graphics capabilities of a computer, it might be that one encounters a crash when running FreeCAD via remote desktop. To fix this upgrade your OpenGL driver. Only if this doesn\'t help   *
-
--   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
--   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
 
 ## User interface 
 
@@ -125,6 +93,8 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 ### API
 
+FreeCAD received many new Python API functions   *
+
 
 
 
@@ -138,6 +108,9 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 
 <div class="mw-collapsible-content">
+-   *ChFi2d\_AnaFilletAlgoPy*   * An analytical algorithm for calculation of the fillets. [commit f94ab3ec](https   *//github.com/FreeCAD/FreeCAD/commit/f94ab3ec)
+-   *ChFi2d\_ChamferAPIPy*   * Algorithm that creates a chamfer between two linear edges. [commit 30f8015e7](https   *//github.com/FreeCAD/FreeCAD/commit/30f8015e7)
+
 -   *Circle2dPy   *   *getCircleCenter*   * Gets the circle center defined by three points. [commit 3dc91fa2](https   *//github.com/FreeCAD/FreeCAD/commit/3dc91fa2)
 
 -   *ComplexGeoDataPy   *   *applyRotation*   * Applies an additional rotation to the placement. [commit 32592de8](https   *//github.com/FreeCAD/FreeCAD/commit/32592de8)
@@ -206,7 +179,7 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 
 
-#### Changed API 
+#### Changed Python API 
 
 -   *MeshObject   *   *trim(base, normal)* was changed to *MeshPy   *   *trimByPlane(base, normal)*   * Trims the mesh with a given plane. [commit 837de28e](https   *//github.com/FreeCAD/FreeCAD/commit/837de28e)
 
@@ -246,7 +219,7 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | A new command **Create multiple Arch Structure** was also added. It uses the first selected object as a Base, and creates Arch Structures objects for every Edge of the other selected objects. Then, the properties of individual Structure objects can be adjusted in the Property editor. This command was added for workflow with a master Sketch (there is risk of topological naming problem unless you create non-parametric copy of the master Sketch or use Realthunder\'s version) |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                               | Support for **2D data** such as linework, hatches, texts or dimensions is now enabled in IFC import and export, which contributes to turn the IFC format more and more suitable for traditional 2D CAD work. A similar effort is being made in [BlenderBIM](https   *//blenderbim.org). More 2D workflow improvements are documented [in this forum thread](https   *//forum.freecadweb.org/viewtopic.php?p=563067#p563067).                                                                       |
+|                                                                                                               | Support for **2D data** such as linework, hatches, texts and dimensions is now enabled in IFC import and export, which contributes to turn the IFC format more and more suitable for traditional 2D CAD work. A similar effort is being made in [BlenderBIM](https   *//blenderbim.org). More 2D workflow improvements are documented [in this forum thread](https   *//forum.freecadweb.org/viewtopic.php?p=563067#p563067).                                                                      |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request \#3229](https   *//github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                    |
 +++
@@ -280,15 +253,15 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 ## FEM Workbench 
 
    
-  <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width   *384px;">The new Z88 settings and their default values                                                                               The [Z88 solver](FEM_SolverZ88.md) is now fully usable. You can now specify the solver method and change the memory settings. The new default values allow you to perform also complex simulations directly. [commit d035bbc1ca and following](https   *//github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
-  <img alt="" src=images/FEM_buckling-analysis_relnotes_0.20.gif  style="width   *384px;">Result of a linear buckling analysis.Click on the image to see the animation.                       It is now possible to perform buckling analyses using the [Calculix](FEM_SolverCalculixCxxtools.md) solver. [Pull request \#4379](https   *//github.com/FreeCAD/FreeCAD/pull/4379)
-  <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width   *384px;">Effect of *Mesh Size From Curvature*; left   * set to 12, right   * deactivated                       There is a new property for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. The number of mesh elements per $2\pi$ times the radius of the curvature can be specified. The default is 12 and to get a finer mesh at small corners or holes, this value can be increased for better results. This feature requires Gmsh 4.8 or newer. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=56401), [Pull request \#4596](https   *//github.com/FreeCAD/FreeCAD/pull/4596)
-  <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width   *384px;">Effect of the rcombination algorithm; left   * using *Simple*, right   * using *Simple full-quad*   FreeCAD allows now to select an algorithm as well as 3D mesh recombination for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. For more details about the mesh element recombination see [FEM MeshGmshFromShape](FEM_MeshGmshFromShape#Element_Recombination.md). [Pull request \#4706](https   *//github.com/FreeCAD/FreeCAD/pull/4706)
+  <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width   *384px;">The new Z88 settings and their default values                                                                                The [Z88 solver](FEM_SolverZ88.md) is now fully usable. You can specify the solver method and change the memory settings. The new default values allow you to perform also complex simulations directly. [commit d035bbc1ca and following](https   *//github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
+  <img alt="" src=images/FEM_buckling-analysis_relnotes_0.20.gif  style="width   *384px;">Result of a linear buckling analysis.Click on the image to see the animation.                        It is now possible to perform buckling analyses using the [Calculix](FEM_SolverCalculixCxxtools.md) solver. [Pull request \#4379](https   *//github.com/FreeCAD/FreeCAD/pull/4379)
+  <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width   *384px;">Effect of *Mesh Size From Curvature*; left   * set to 12, right   * deactivated                        There is a new property for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. The number of mesh elements per $2\pi$ times the radius of the curvature can be specified. The default is 12 and to get a finer mesh at small corners or holes, this value can be increased for better results. This feature requires Gmsh 4.8 or newer. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=56401), [Pull request \#4596](https   *//github.com/FreeCAD/FreeCAD/pull/4596)
+  <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width   *384px;">Effect of the recombination algorithm; left   * using *Simple*, right   * using *Simple full-quad*   FreeCAD allows now to select an algorithm as well as 3D mesh recombination for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. For more details about the mesh element recombination see [FEM MeshGmshFromShape](FEM_MeshGmshFromShape#Element_Recombination.md). [Pull request \#4706](https   *//github.com/FreeCAD/FreeCAD/pull/4706)
    
 
 ### Further FEM improvements 
 
--   **Important   *** Starting from this release, FreeCAD will use SI units (m, kg, s, K, A, mol, cd) to write the [Elmer solver](FEM_SolverElmer.md) input files (*case.sif* and *mesh.nodes*). This is independent of the used FreeCAD [unit system](Preferences_Editor#Units.md).
+-   **Important   *** Starting from this release, FreeCAD will use [SI units](https   *//en.wikipedia.org/wiki/International_System_of_Units) (m, kg, s, K, A, mol, cd) to write the [Elmer solver](FEM_SolverElmer.md) input files (*case.sif* and *mesh.nodes*). This is independent of the used FreeCAD [unit system](Preferences_Editor#Units.md).
 -   **Important   *** Starting from this release, the scale of [result pipelines](FEM_PostPipelineFromResult.md) and their [filters](FEM_Workbench#Menu__Results.md) will use SI units (m, kg, s, K, A, mol, cd). So the displacement is given in meter, the stress in Pascal. This applies for all SI-derived FreeCAD [unit systems](Preferences_Editor#Units.md).
 -   Solving with the [Calculix](FEM_SolverCalculixCxxtools.md) solver now uses all CPU cores. [Pull request \#6374](https   *//github.com/FreeCAD/FreeCAD/pull/6374)
 -   Meshing with [Gmsh](FEM_MeshGmshFromShape.md) now uses all CPU cores. [Pull request \#6370](https   *//github.com/FreeCAD/FreeCAD/pull/6370)
@@ -299,8 +272,8 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 -   It is now possible to have [result pipelines](FEM_PostPipelineFromResult.md) with several filters, where some take other filters as input, some take the results directly from the pipeline. [commit 708a300b](https   *//github.com/FreeCAD/FreeCAD/commit/708a300b)
 -   Material cards can now contain values for the electrical conductivity. [Pull request \#4647](https   *//github.com/FreeCAD/FreeCAD/pull/4647)
 -   Material cards added for Nitrogen and Argon. [Pull request \#4649](https   *//github.com/FreeCAD/FreeCAD/pull/4649)
--   Support for the [Gmsh](FEM_MeshGmshFromShape.md) mesh algorithms \"HXT\" (3D) and \"Packing Parallelograms\" (2D) added. [Pull request \#4654](https   *//github.com/FreeCAD/FreeCAD/pull/4654)
--   Allow to set for the [Gmsh](FEM_MeshGmshFromShape#Properties.md) property **High Order Optimize** a certain algorithm. [Pull request \#4705](https   *//github.com/FreeCAD/FreeCAD/pull/4705)
+-   Support for the [Gmsh](FEM_MeshGmshFromShape.md) mesh algorithms \"*HXT*\" (3D) and \"*Packing Parallelograms*\" (2D) added. [Pull request \#4654](https   *//github.com/FreeCAD/FreeCAD/pull/4654)
+-   Allow to set for the [Gmsh](FEM_MeshGmshFromShape#Properties.md) property \"*High Order Optimize*\" a certain algorithm. [Pull request \#4705](https   *//github.com/FreeCAD/FreeCAD/pull/4705)
 -   Nonlinear solid materials with simple hardening can now have an arbitrary number of yield points. [Pull request \#5024](https   *//github.com/FreeCAD/FreeCAD/pull/5024)
 -   Allow modal adding/removal of geometric entities to constraints acting on boundaries. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
 -   Most FEM constraint dialogs now behave uniformly and provide the same 3D object selection features. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
@@ -429,26 +402,27 @@ There is also a text box for feedback of OpenSCAD errors.
 -   Constraint selection is disabled when using a geometry or constraint tool. It can also be disabled manually at any time by pressing **Shift** key. [Pull request \#5398](https   *//github.com/FreeCAD/FreeCAD/pull/5398) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=65465)
 -   A versatile view filter has been added in the Sketcher task panel to ease constraints visibility management [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=60569)
 -   It is now possible to set the degree of a B-Spline ([Pull request \#6463](https   *//github.com/FreeCAD/FreeCAD/pull/6463)) and undo the last defined control point ([Pull request \#6476](https   *//github.com/FreeCAD/FreeCAD/pull/6476)) at creation time.
+-   Revised the default shortcuts to remove conflicting shortcuts and make shortcuts easier to remember. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=41272); Screenshots of the shortcuts for [constraints](https   *//wiki.freecadweb.org/images/0/0c/Sketcher_Shortcuts_v0.20_Screenshot_Constraints.png), [geometry](https   *//wiki.freecadweb.org/images/4/48/Sketcher_Shortcuts_v0.20_Screenshot_Geometry.png) and [various tools](https   *//wiki.freecadweb.org/images/9/90/Sketcher_Shortcuts_v0.20_Screenshot_variousTools.png)
 
 ## Spreadsheet Workbench 
 
    
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )      The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet_configuration_table_screenshot_5.png  style="width   *384px;">   It is now possible to setup [configuration tables](Spreadsheet_Workbench#Configuration_tables.md). This way one can define different geometries for a part. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+  ![](images/Spreadsheet_binding-dialog.png )                                                    Cells can now be [bound to other cells](Spreadsheet_Workbench#Cell_binding.md) of the same or of other spreadsheets. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
    
-
--   It is now possible to select in the row/column context-menu at what positions new rows/columns will be inserted. [Pull request \#4704](https   *//github.com/FreeCAD/FreeCAD/pull/4704).
 
 ### Further Spreadsheet improvements 
 
+-   It is now possible to select in the row/column context-menu at what positions new rows/columns will be inserted. [Pull request \#4704](https   *//github.com/FreeCAD/FreeCAD/pull/4704).
 -   Import XLSX (used by [Std Import](Std_Import.md))   * Added support for floor and ceil functions. [Pull request \#5015](https   *//github.com/FreeCAD/FreeCAD/pull/5015).
--   Cell binding   * instruct a set of cells to display the contents of another set of cells. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
 -   Improved navigation using the **Tab** and **Enter** keys.
 -   Improved interface for cutting and pasting blocks of cells.
 
 ## TechDraw Workbench 
 
    
-  <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width   *400px;">   More than 30 new tools, so-called [Extensions](TechDraw_Workbench#Extensions.md), are now available. They offer new cosmetic features to enhance drawings.
+  <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width   *384px;">   More than 30 new tools, so-called [Extensions](TechDraw_Workbench#Extensions.md), are now available. They offer new cosmetic features to enhance drawings.
    
 
 ### Further TechDraw improvements 
@@ -472,27 +446,39 @@ Qt WebEngine is now considered the default option instead of Qt WebKit.
 
 these are the new workbenches created in this development cycle, or older workbenches that received updates. See [external workbenches](External_workbenches.md) for more workbenches that can be installed, and which cover a wide variety of topics. If you want to see your workbench added, join the [forum](https   *//forum.freecadweb.org/index.php) and present your code.
 
-### 3D Printing Tools 
-
 ### A2plus
 
-A2plus got several new features to view, inspect and edit existing constraints. One can this way e.g. highlight constraints with a label, suppress a constraint temporarily or to run the solver only for a particular constraint.
+Several features to view, inspect and edit existing constraints were added. One can now e.g. highlight constraints with a label, suppress a constraint temporarily or run the solver only for a particular constraint.
 
 For more information see [the constraint handling description](A2plus_Workbench#Constraint_Handling.md).
 
 ### Assembly3
 
++++
+| <img alt="" src=images/Asm3_relnotes_0.20.jpg  style="width   *384px;">     | The Assembly3 Workbench is available (as of March 2022) through the [AddonManager](Std_AddonMgr.md). This makes for easy installation and management of the external dependencies of the workbench.                                                                                                  |
+|                                                                       |                                                                                                                                                                                                                                                                                                              |
+|                                                                       | Assembly3 is used to create assemblies of different bodies contained in a single file or in multiple documents leveraging the full power of FreeCAD's Link system. Learn more about [Links](App_Link.md) in this [video presentation](https   *//www.youtube.com/watch?v=yTDkJ7JZAWs) from Realthunder. |
+|                                                                       |                                                                                                                                                                                                                                                                                                              |
+|                                                                       | Assembly3 Workbench uses [SolveSpace](https   *//solvespace.com) as it's solver.                                                                                                                                                                                                                                |
+|                                                                       |                                                                                                                                                                                                                                                                                                              |
+|                                                                       | Extensive documentation can be found at the main FreeCAD [Assembly3 wiki](Assembly3.md) page or Realthunder\'s GitHub [Assembly3 wiki](https   *//github.com/realthunder/FreeCAD_assembly3/wiki)                                                                                                        |
++++
+| <img alt="" src=images/Asm3_1_relnotes_0.20.jpg  style="width   *384px;"> | **Main features   ***                                                                                                                                                                                                                                                                                           |
+|                                                                       |                                                                                                                                                                                                                                                                                                              |
+|                                                                       | -   Dynamic/interactive solver   * move parts with the mouse while the solver constrains the motion.                                                                                                                                                                                                            |
+|                                                                       | -   Links   * use one single part multiple times in an assembly.                                                                                                                                                                                                                                                |
+|                                                                       | -   External links   * allows usage of parts from external documents.                                                                                                                                                                                                                                           |
+|                                                                       | -   Hierarchical assemblies   * permits the creation of sub assemblies.                                                                                                                                                                                                                                         |
+|                                                                       | -   Assembly freeze   * assemblies that are not required to remain dynamic can be excluded from calculations and are considered fixed geometry by the asm3 solver.                                                                                                                                              |
+|                                                                       | -   And much more.                                                                                                                                                                                                                                                                                           |
++++
+
 ### Assembly4
 
-### ArchTextures
-
-### BOLTSFC
-
-### CurvedShapes Workbench 
-
-### Dodo (formerly Flamingo) 
-
-### Fasteners
+   
+  <img alt="" src=images/A4_veriant-beam_relnotes_0.20.png  style="width   *384px;">Different length of a beam as variant.                                                  New feature to add variants. These are [links](App_Link.md) to a part with varying parameters, meaning that you can insert the same part several times, and adjust the parameters of each instance. For more info see [this forum thread](https   *//forum.freecadweb.org/viewtopic.php?p=538666#p538666).
+  <img alt="" src=images/A4_veriant-animation_relnotes_0.20.gif  style="width   *384px;">An animated assembly.Click on the image to see the animation.   Animations can be exported to the MP4 and GIF format.
+   
 
 ### FCGear
 
@@ -502,12 +488,6 @@ The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements
 -   Gear objects are now [attachable](Part_EditAttachment.md) ([details](https   *//github.com/looooo/freecad.gears/pull/72))
 -   Gear objects can now be used as additive features in PartDesign Bodies ([details](https   *//github.com/looooo/freecad.gears/pull/74))
 -   The creation of gear objects now appears in the undo stack ([details](https   *//github.com/looooo/freecad.gears/pull/83))
-
-### MeshRemodel Workbench 
-
-### MOOC Workbench 
-
-### NodeEditor (PyFlow) 
 
 ### Plot
 
@@ -520,7 +500,30 @@ The [Ship Workbench](Ship_Workbench.md) is back to life!
 -   A new tool to compute the [static sink and trim](https   *//github.com/FreeCAD/freecad.ship#static-sink-and-trim) has been added.
 -   A new tool to compute the [response amplitude operators](https   *//github.com/FreeCAD/freecad.ship#raos) has been added on top of [capytaine](https   *//github.com/mancellin/capytaine).
 
-### Trails, PyTrails, Turns, pivy\_trackers, and Geomatics 
+## Compilation
+
+Since this release FreeCAD can only be compiled using Qt 5.x and Python 3.x. The lowest supported Python version is 3.6.9 according to [this](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701) forum thread.
+
+To compile FreeCAD see the instructions for [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) and [MacOS](Compile_on_MacOS.md).
+
+The supported operating systems are   *
+
+-   Windows 7, 8, 10 and 11
+-   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
+-   MacOS   * 10.12 Sierra or newer
+
+## Known Limitations 
+
+### 32bit Windows 
+
+Already since FreeCAD 0.19 we don\'t officially support 32bit Windows. It might work there but no support is given for these systems.
+
+### Remote Desktop under Windows 
+
+Depending on the OpenGL graphics capabilities of a computer, it might be that one encounters a crash when running FreeCAD via remote desktop. To fix this upgrade your OpenGL driver. Only if this doesn\'t help   *
+
+-   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
+-   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
 
 
 

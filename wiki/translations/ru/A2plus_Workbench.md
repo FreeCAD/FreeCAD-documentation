@@ -37,6 +37,8 @@
 
 Чтобы сохранить сборку и затем закрыть ее, можно использовать кнопку на панели инструментов <img alt="" src=images/_A2p_Save_and_exit.svg  style="width   *24px;">.
 
+Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> sets the way you can select several several edges, faces etc.   * Either with a single click or by **Ctrl**+click.
+
 ## Сборка
 
 Сборка деталей осуществляется путем добавления ограничений между деталями. После введения ограничения A2plus переместит детали в соответствии с ограничением, если это возможно.
@@ -141,6 +143,8 @@ A2plus поддерживает следующие ограничения   *
 Все ограничения могут быть разрешены в любое время с помощью кнопки на панели инструментов <img alt="" src=images/_A2p_solver.svg  style="width   *24px;">. Если кнопка панели инструментов ![ 24px](images/_A2p_ToggleAutoSolve.svg ) включена, разрешение выполняется автоматически после каждого редактирования ограничения.
 
 Кнопка на панели инструментов <img alt="" src=images/_A2p_FlipConstraint.svg  style="width   *24px;"> влияет на ограничение, которое было недавно добавлено. Это переворачивает направление ограничения.
+
+With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
 
 ## Списки деталей 
 

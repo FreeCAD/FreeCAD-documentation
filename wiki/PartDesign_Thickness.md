@@ -11,7 +11,7 @@
 
 ## Description
 
-The [16px\|text-top=Thickness\|link=PartDesign\_Thickness](Image   *PartDesign_Thickness.svg.md) [PartDesign Thickness](PartDesign_Thickness.md) command works on a solid body and transforms it into a hollow object with at least one open face, giving to each of its remaining faces a uniform thickness. It adds a **Thickness** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
+The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **PartDesign Thickness** tool transforms a solid body into a hollow object with at least one open face, giving to each of its remaining faces a uniform thickness. It adds a **Thickness** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
 
  <img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;">  
 *Base solid (A) →  Solid with selected face to be opened (B) →  Resulting hollow object (C)*
@@ -20,13 +20,14 @@ The [16px\|text-top=Thickness\|link=PartDesign\_Thickness](Image   *PartDesign_T
 
 ### Add a thickness 
 
-1.  Make sure the correct body is active. If required double-click it in the [Tree view](Tree_view.md).
-2.  Select one or more face(s) of the active Body.
-3.  There are several ways to invoke the Thickness tool   *
-    -   Press the **![](images/)_[Thickness](PartDesign_Thickness.md)** button.
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the Body to apply the Thickness to.
+2.  Select one or more faces of the Body.
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_Thickness.svg" width=16px> [Thickness](PartDesign_Thickness.md)** button.
     -   Select the **Part Design → Apply a dress-up feature → <img src="images/PartDesign_Thickness.svg" width=16px> Thickness** option from the menu.
-4.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-5.  Press the **OK** button to finish the command.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+6.  Press the **OK** button to finish.
 
    *   *Remember*   *
     -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
@@ -34,47 +35,63 @@ The [16px\|text-top=Thickness\|link=PartDesign\_Thickness](Image   *PartDesign_T
 ### Edit a thickness 
 
 1.  Do one of the following   *
-    -   Double-click on the Thickness item in the [Tree view](Tree_view.md)
-    -   Right-click on the Thickness item in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
+    -   Double-click the Thickness object in the [Tree view](Tree_view.md)
+    -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
 2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish the command.
+3.  Press the **OK** button to finish.
 
 ## Options
 
--    **Thickness**   * Set the desired wall thickness of the resulting object either by editing the value or by clicking on the up/down arrows.
+-    **Add face**   * Add faces to the selection by pressing the **Add face** button and selecting more faces.
+
+-    **Remove face**   * Choose a way to remove faces from the selection   *
+
+    -   Select one or more faces in the list and press the **Del** key or right-click the list and select **Remove** from the context menu.
+    -   Press the **Remove face** button. All previously selected faces are highlighted in purple. Select each face to be removed.
+
+-    **Thickness**   * Set the wall thickness either by editing the value or by clicking the up/down arrows.
 
 -    **Mode**   *
 
     -   
         **Skin**
         
-           * Select this option if you want to get an item like a vase, headless but with the bottom
+           * Only this option can be selected.
 
     -   
         **Pipe**
         
-           * Select this option if you want to get an object like a pipe, headless and bottomless.
+           * Not implemented. See [this forum topic](https   *//forum.freecadweb.org/viewtopic.php?p=484495#p484495).
 
     -   
         **Recto Verso**
         
-           *
-
-   *   (In case you wonder   * **Pipe** and **Recto Verso** functionality hasn\'t been implemented since version 0.13, see [2013 topic](https   *//forum.freecadweb.org/viewtopic.php?p=35987#p35987) and [2021 follow-up](https   *//forum.freecadweb.org/viewtopic.php?p=484495#p484495))
+           * Not implemented. See [idem](https   *//forum.freecadweb.org/viewtopic.php?p=484495#p484495).
 
 -    **Join Type**   *
 
     -   
         **Arc**
         
-           * Removes the outer edges and creates a fillet with a radius equal to the defined thickness.
+           * When non-tangential faces are offset, new faces that do not intersect are joined by a fillet with a radius equal to the defined thickness.
 
     -   
         **Intersection**
         
-           * When faces are offset outward, sharp edges are kept between faces.
+           * When non-tangential faces are offset, new faces that do not intersect are extended to meet at their virtual intersection.
+
+-    **Intersection**   * This checkbox does not seem to work? See [this forum topic](https   *//forum.freecadweb.org/viewtopic.php?p=600360#p600360).
 
 -    **Make thickness inwards**   * When checked, faces are offset inward.
+
+## Notes
+
+-   If thickness goes inwards, the value must be smaller than the smallest height of the Body.
+-   The tool may fail with complex shapes. In this context the surface of e.g. a cone must already be regarded as complex. [Additive Pipe](PartDesign_AdditivePipe.md) or [Additive Loft](PartDesign_AdditiveLoft.md) may work better to create complex shapes.
+-   Known errors   *
+    -   BRep\_API   * command not done.
+    -   BRep\_Tool   * no parameter on edge.
+    -   Silently fails.
 
 ## Properties
 
@@ -87,73 +104,34 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 {{Properties_Title|Base}}
 
--    **Base|LinkSub**   * Base. Sub-link to the parent feature\'s list of selected edges and faces.
+-    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
 
--    **SupportTransform|Bool**   * Support Transform. \"Include the base additive/subtractive shape when used in pattern features.
+-    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
 
-   *   If disabled, only the dressed part of the shape is used for patterning. Default   * `False`.
+-    **Add Sub Shape|PartShape|hidden**
+    
 
--    **AddSubShape|PartShape|hidden**   * Add Sub Shape.
+-    **Base Feature|Link|hidden**   * Link to the parent feature.
 
--    **BaseFeature|Link|hidden**   * Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**   * \_Body. Hidden link to the parent body.
+-    **_ Body|LinkHidden|hidden**   * Link to the parent body.
 
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". Default   * `True`.
+-    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Thickness}}
 
--    **Value|Length**   * Value. \"Thickness value\". Default   * {{value|1,00 mm}}.
+-    **Value|Length**   * \"Thickness value\". Default   * {{value|1 mm}}.
 
--    **Mode|Enumeration**   * Mode. {{value|Skin}} (default), {{value|Pipe}} (seems to be useless).
+-    **Mode|Enumeration**   * \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
 
-   *   (\"Recto verso\" isn\'t even listed here\...)
+-    **Join|Enumeration**   * \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
 
--    **Join|Enumeration**   * Join. \"Join type\".{{value|Arc}} (default).
+-    **Reversed|Bool**   * \"Apply the thickness towards the solids interior\". Default   * `False`.
 
--    **Reversed|Bool**   * Reversed. \"Apply the thickness towards the solids interior\". Default   * `False`.
-
--    **Intersection|Bool**   * Intersection. \"Enable intersection-handling\". Default   * `False`.
-
-## Limitations
-
--   At least one face to be opened must be selected.
--   If thickness goes inwards, the value must be smaller than the smallest height of the Body.
--   The command may fail with complex shapes. In this context the surface of e.g. a cone has already to be regarded as complex.
-    -   [Additive Pipe](PartDesign_AdditivePipe.md) or [Additive Loft](PartDesign_AdditiveLoft.md) may work better to create complex shapes
-
-## Example
-
-1.  Create a Pad from the sketch
-2.  Create a second sketch on the XY plane
-3.  Create a second Pad from the second sketch
-
-As in the following pictures   *
-
- ![](images/Braga-primoPad.png )
-
-![](images/Braga-secondoschizzo.png )
-
-![](images/Braga-secondo_Pad.png ) 
-
-Then
-
-1.  Select a circular face
-2.  Select **<img src="images/PartDesign_Thickness.svg" width=24px> Thickness
-**
-3.  Add the other circular faces to the selection
-
-Result   *  ![](images/Brga-spessore.png ) 
-
-## Known Errors 
-
--   BRep\_API   * command not done
--   BRep\_Tool   * no parameter on edge
--   Silently Fails
+-    **Intersection|Bool**   * \"Enable intersection-handling\". Default   * `False`.
 
 
 

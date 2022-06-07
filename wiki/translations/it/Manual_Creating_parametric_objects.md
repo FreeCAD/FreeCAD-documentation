@@ -9,21 +9,28 @@ Internamente, gli oggetti parametrici non fanno nulla di diverso da quello che a
 
 FreeCAD fornisce un sistema molto vantaggioso per costruire questi oggetti parametrici completamente in Python. Esso consiste in una semplice classe Python, che definisce tutte le proprietà di cui l\'oggetto ha bisogno, e che cosa succede quando una di queste proprietà cambia. La struttura di questo oggetto parametrico è semplice come questa   *
 
-class myParametricObject   *
-  def __init__(self,obj)   *
-    obj.Proxy = self
-    obj.addProperty("App   *   *PropertyFloat","MyLength")
-    ...
-       
-  def execute(self,obj)   *
-    print ("Recalculating the shape...")
-    print ("The value of MyLength is   *")
-    print (obj.MyLength)
-    ...
+
+```python
+class myParametricObject   *
+
+    def __init__(self, obj)   *
+        obj.Proxy = self
+        obj.addProperty("App   *   *PropertyFloat", "MyLength")
+        ...
+
+    def execute(self,obj)   *
+        print ("Recalculating the shape...")
+        print ("The value of MyLength is   *")
+        print (obj.MyLength)
+        ...
+```
 
 Tutte le classi Python di solito hanno un metodo \_\_init\_\_. Ciò che è all\'interno di tale metodo viene eseguito quando tale classe viene istanziata (il che significa, in gergo di programmazione, che da quella classe è stato creato un Object Python. Pensate a una classe come a un \"modello\" per creare copie dal vivo di esso). Nella nostra funzione \_\_init\_\_ qui facciamo due cose importanti   * 1- memorizzare la nostra classe stessa nell\'attributo \"Proxy\" del nostro oggetto del documento di FreeCAD, vale a dire, l\'oggetto documento FreeCAD conterrà questo codice al suo interno, and 2- creare tutte le proprietà necessarie all\'oggetto. Sono disponibili molti tipi di proprietà, è possibile ottenere l\'elenco completo digitando questo codice   *
 
-FreeCAD.ActiveDocument.addObject("Part   *   *FeaturePython","dummy").supportedProperties() 
+
+```python
+FreeCAD.ActiveDocument.addObject("Part   *   *FeaturePython", "dummy").supportedProperties()
+```
 
 Quindi, la seconda parte importante è il metodo execute. Tutto il codice contenuto in questo metodo viene eseguito quando l\'oggetto viene contrassegnato per il ricalcolo, il che avviene quando si modifica una proprietà. Questo è tutto quello che c\'è da fare. All\'interno di execute, è necessario fare tutto ciò che deve essere fatto, vale a dire, calcolare una nuova forma e attribuirla all\'oggetto stesso con qualcosa di simile a obj.Shape = myNewShape. Ecco perché il metodo execute prende un argomento \"obj\", che sarà il FreeCAD document object stesso, e in questo modo possiamo manipolarlo all\'interno del nostro codice Python.
 
@@ -33,61 +40,73 @@ Ora faremo un piccolo esercizio, costruiremo un oggetto parametrico composto da 
 
 Diamo al nostro oggetto due proprietà   * Length e Width, che useremo per costruire un rettangolo. Poi, dato che l\'oggetto ha già una proprietà Placement pre-costruita (tutti gli oggetti geometrici ne hanno una di default, quindi non è necessario aggiungerla), collochiamo il rettangolo nella posizione e rotazione impostata in Placement, per fare in modo che l\'utente possa poi essere in grado di spostare il rettangolo ovunque desideri modificando solo la proprietà Placement.
 
-class ParametricRectangle   *
- def __init__(self,obj)   *
-   obj.Proxy = self
-   obj.addProperty("App   *   *PropertyFloat","Length")
-   obj.addProperty("App   *   *PropertyFloat","Width")
- def execute(self,obj)   *
-   # we need to import the FreeCAD module here too, because we might be running out of the Console
-   # (in a macro, for example) where the FreeCAD module has not been imported automatically
-   import Part,FreeCAD
-   
-   # first we need to make sure the values of Length and Width are not 0
-   # otherwise the Part.Line will complain that both points are equal
-   if (obj.Length == 0) or (obj.Width == 0)   *
-     # if yes, exit this method without doing anything
-     return
-     
-   # we create 4 points for the 4 corners
-   v1 = FreeCAD.Vector(0,0,0)
-   v2 = FreeCAD.Vector(obj.Length,0,0)
-   v3 = FreeCAD.Vector(obj.Length,obj.Width,0)
-   v4 = FreeCAD.Vector(0,obj.Width,0)
-   
-   # we create 4 edges
-   e1 = Part.Line(v1,v2).toShape()
-   e2 = Part.Line(v2,v3).toShape()
-   e3 = Part.Line(v3,v4).toShape()
-   e4 = Part.Line(v4,v1).toShape()
-   
-   # we create a wire
-   w = Part.Wire([e1,e2,e3,e4])
-   
-   # we create a face
-   f = Part.Face(w)
-   
-   # All shapes have a Placement too. We give our shape the value of the placement
-   # set by the user. This will move/rotate the face automatically.
-   f.Placement = obj.Placement
-   
-   # all done, we can attribute our shape to the object!
-   obj.Shape = f
+
+```python
+class ParametricRectangle   *
+
+    def __init__(self,obj)   *
+        obj.Proxy = self
+        obj.addProperty("App   *   *PropertyFloat", "Length")
+        obj.addProperty("App   *   *PropertyFloat", "Width")
+
+    def execute(self, obj)   *
+        # We need to import the FreeCAD module here too, because we might be running out of the Console
+        # (in a macro, for example) where the FreeCAD module has not been imported automatically   *
+        import FreeCAD
+        import Part
+
+        # First we need to make sure the values of Length and Width are not 0
+        # otherwise Part.LineSegment will complain that both points are equal   *
+        if (obj.Length == 0) or (obj.Width == 0)   *
+            # If yes, exit this method without doing anything   *
+            return
+
+        # We create 4 points for the 4 corners   *
+        v1 = FreeCAD.Vector(0, 0, 0)
+        v2 = FreeCAD.Vector(obj.Length, 0, 0)
+        v3 = FreeCAD.Vector(obj.Length,obj.Width, 0)
+        v4 = FreeCAD.Vector(0, obj.Width, 0)
+
+        # We create 4 edges   *
+        e1 = Part.LineSegment(v1, v2).toShape()
+        e2 = Part.LineSegment(v2, v3).toShape()
+        e3 = Part.LineSegment(v3, v4).toShape()
+        e4 = Part.LineSegment(v4, v1).toShape()
+
+        # We create a wire   *
+        w = Part.Wire([e1, e2, e3, e4])
+
+        # We create a face   *
+        f = Part.Face(w)
+
+        # All shapes have a Placement too. We give our shape the value of the placement
+        # set by the user. This will move/rotate the face automatically.
+        f.Placement = obj.Placement
+
+        # All done, we can attribute our shape to the object!
+        obj.Shape = f
+```
 
 Invece di incollare il codice precedente nella console Python, è meglio salvarlo da qualche parte, in modo da poterlo riutilizzare e modificare in un secondo tempo. Per esempio in una nuova macro (menu Strumenti -\> Macro -\> Crea). Dargli un nome, ad esempio, \"ParamRectangle\". Le macro FreeCAD vengono salvate con estensione .FCMacro, che però Python non riconosce quando si utilizza l\'importazione. Quindi, prima di utilizzare il codice di cui sopra, bisogna rinominare il file ParamRectangle.FCMacro in ParamRectangle.py. Questo può essere fatto semplicemente, navigando con il file explorer nella cartella delle macro indicata nel menu Strumenti -\> Macro.
 
 Dopo, nella console Python possiamo fare questo   *
 
-import ParamRectangle 
+
+```python
+import ParamRectangle
+```
 
 Esplorando i contenuti di ParamRectangle, possiamo verificare che contenga la nostra classe ParamRectangle.
 
 Per creare un nuovo oggetto parametrico utilizzando la nostra classe ParametricRectangle, usiamo il seguente codice. Notare che usiamo Part   *   *FeaturePython invece di Part   *   *Feature che abbiamo usato nei capitoli precedenti (The Python version allows to define our own parametric behaviour)   *
 
-myObj = FreeCAD.ActiveDocument.addObject("Part   *   *FeaturePython","Rectangle")
+
+```python
+myObj = FreeCAD.ActiveDocument.addObject("Part   *   *FeaturePython", "Rectangle")
 ParamRectangle.ParametricRectangle(myObj)
-myObj.ViewObject.Proxy = 0 # this is mandatory unless we code the ViewProvider too
+myObj.ViewObject.Proxy = 0 # This is mandatory unless we code the ViewProvider too.
 FreeCAD.ActiveDocument.recompute()
+```
 
 Sullo schermo non appare ancora nulla perché le proprietà lunghezza e larghezza sono 0, e questo attiva la condizione \"do-nothing\" (non fare nulla) dentro execute. Basta cambiare i valori di lunghezza e larghezza, e magicamente appare il nostro oggetto ricalcolato al-volo.
 
@@ -118,7 +137,7 @@ Ricordare che se si desidera distribuire a terzi i file creati con questo nuovo 
 
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 

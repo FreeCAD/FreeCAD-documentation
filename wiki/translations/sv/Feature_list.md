@@ -11,7 +11,7 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 
 ## Release notes 
 
--   [Release 0.20](Release_notes_0.20.md) - TBD
+-   [Release 0.20](Release_notes_0.20.md) - June 2022
 -   [Release 0.19](Release_notes_0.19.md) - March 2021
 -   [Release 0.18](Release_notes_0.18.md) - March 2019
 -   [Release 0.17](Release_notes_0.17.md) - April 2018

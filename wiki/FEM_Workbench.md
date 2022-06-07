@@ -167,7 +167,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Show result](FEM_ResultShow.md)   * Used to display the result of an analysis.
 
--   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Apply changes to pipeline](FEM_PostApplyChanges.md)   *
+-   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Apply changes to pipeline](FEM_PostApplyChanges.md)   * Toggles if changes to pipelines and filters are applied immediately.
 
 -   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *32px;"> [Post pipeline from result](FEM_PostPipelineFromResult.md)   * Used to add a new graphical representation of FEM analysis results (color scale and more display options).
 

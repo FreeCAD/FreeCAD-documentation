@@ -11,6 +11,7 @@ Cependant, il est également possible d\'accéder, de modifier et de créer des 
 
 La liste ci-dessous répertorie les paramètres qui ne sont pas accessibles via l'éditeur de préférences mais que vous pouvez définir manuellement (situé dans **BaseApp/Preferences**)
 
+-   **Addons/developerMode** (booléen)    * Défini à `True` pour activer le mode développeur du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Voir [Métadonnées du package](Package_Metadata/fr#Validation.md).
 -   **Bitmaps/Theme/ThemeSearchPaths** (booléen)    * Défini à `False` pour que FreeCAD utilise ses icônes incluses au lieu du thème des icônes du système sous Linux.
 -   **Dialog/DontUseNativeColorDialog** (booléen)    * Paramètre de la boîte de dialogue du sélecteur de couleur. Mettez-le à `False` si vous voulez que FreeCAD utilise la boîte de dialogue de couleur natif de votre système plutôt que la boîte de dialogue de couleur Qt. La valeur par défaut est `True`.
 -   **Dialog/DontUseNativeDialog**\' (booléen)    * Paramètre de dialogue de fichier. Définissez-le à `False` si vous voulez utiliser la boîte de dialogue native de fichier lors de l\'ouverture de fichiers ou à `True` pour utiliser la boîte de dialogue File Picker de Qt. La valeur par défaut dépend d\'un paramètre de compilation    * \#define (USE\_QT\_FILEDIALOG).

@@ -6,8 +6,8 @@
 [https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] et installez la manuellement. <br/> <br/>
 Cette macro utilise l'outil [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, y compris circonférentielle et hélicoïdale (à la manière d'une colonne Trajane). Elle peut également être utilisée pour créer un cadran d'horloge avec des chiffres arabes ''1, 2, 3'' etc., ou des chiffres romains ''I, II, III'', etc.
 |Author=Mario52
-|Version=0.21
-|Date=2022/05/31
+|Version=0.22
+|Date=2022/06/06
 |FCVersion=0.19
 |Download=[https   *//www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png Icône de la barre d'outils]
 }}
@@ -17,7 +17,7 @@ Cette macro utilise l'outil [Draft Formes à partir texte](Draft_ShapeString/fr.
 Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style="width   *24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, notamment circonférentielle et hélicoïdale comme par ex [Colonne Trajane](https   *//fr.wikipedia.org/wiki/Colonne_Trajane). Elle peut également être utilisée pour créer un cadran d\'horloge avec des chiffres arabes *1, 2, 3\...* ou des chiffres romains \'\' I, II, III\... \'\'. Cette dernière utilisation a été inspirée par le fil du Forum [Macro pour créer un cadran d\'horloge](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) par un membre de la communauté FC, cblt2l.
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/febfd7cec2e4fcbe1abdc04161f464deb9d69691/Macro_FCCircularText.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/cffba4018708a61e43c7f19627993c3e80182312/Macro_FCCircularText.FCMacro}}
 
 
    *   <img alt="Orientation à 360 degrés" src=images/FCCircularText_01.png  style="width   *400px;">
@@ -711,6 +711,8 @@ En projet   *
 Écriture sur un chemin.
 
 ## Journal des modifications 
+
+-   ver 0.22 2022/06/06    * ajout QScrollArea cause    * [Unable to run FCCircularText \[Problem with screen size\]](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=69206)
 
 -   ver 0.21 2022/05/31    * ajout bouton recherche dans les répertoires, et bouton retour à l\'origine système
 

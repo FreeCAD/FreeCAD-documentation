@@ -1,36 +1,37 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std SelBoundingBox
-   MenuLocation   *View → Bounding box
-   Workbenches   *All
+   Name/pl   *Std   * Ramka otaczająca
+   MenuLocation   *Widok → Ramka otaczająca
+   Workbenches   *wszystkie
    Version   *0.19
-   SeeAlso   *[Std DrawStyle](Std_DrawStyle.md)
+   SeeAlso   *[Styl kreślenia](Std_DrawStyle/pl.md)
 ---
 
 # Std SelBoundingBox/pl
 
-## Description
+## Opis
 
-The **Std SelBoundingBox** command toggles the global bounding box highlighting mode. If this mode is switched on, selected objects are marked in a [3D view](3D_view.md) with a highlighted bounding box even if their **Selection Style** is set to \'Shape\'.
+Polecenie **Ramka otaczająca** włącza globalny tryb wyróżniania ramek obramowań. Jeśli ten tryb jest włączony, wybrane obiekty są oznaczane w oknie [widoku 3D](3D_view/pl.md) podświetlonym obramowaniem, nawet jeśli ich parametr **Styl zaznaczenia** jest ustawiony na wartość `Kształt`.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Std_SelBoundingBox.svg" width=16px> [Std SelBoundingBox](Std_SelBoundingBox.md)** button.
-    -   Select the **View → <img src="images/Std_SelBoundingBox.svg" width=16px> Bounding box** option from the menu.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_SelBoundingBox.svg" width=16px> [Ramka otaczająca](Std_SelBoundingBox/pl.md)**.
+    -   Wybierz opcję z menu **Widok → <img src="images/Std_SelBoundingBox.svg" width=16px> Ramka otaczająca**.
 
-## Preferences
+## Ustawienia
 
-The related setting is stored   * **Tools → Edit parameters... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. It is a boolean value, the default is `False`.
+Odpowiednie ustawienie jest zapisywane w   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. Jest to wartość typu {{value|boolean}}, domyślnie ustawiona na wartość {{FALSE/pl}}.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the ShowSelectionBoundingBox setting use the `SetBool` method of the appropriate ParameterGrp. The code sample does not work if FreeCAD is in console mode.
+Aby zmienić ustawienie `ShowSelectionBoundingBox`, należy użyć metody `SetBool` odpowiedniego parametru `ParameterGrp`. Przykładowy kod nie działa, jeśli program FreeCAD jest uruchomiony w trybie konsoli.
 
 
 ```python

@@ -11,6 +11,7 @@ Jednak możliwy jest również dostęp, modyfikacja i ręczne tworzenie parametr
 
 Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwem edytora preferencji, ale które można ustawić ręcznie *(w **BaseApp/Preferencje**)*   *
 
+-   **Addons/developerMode** (boolean)   * Ustaw wartość opcji na {{TRUE/pl}} aby włączyć tryb deweloperski [Menadżera dodatków](Std_AddonMgr.md). Zobacz stronę [Metadane pakietu](Package_Metadata/pl#Sprawdzanie_poprawno.C5.9Bci.md).
 -   **Bitmaps/Theme/ThemeSearchPaths** *(boolean)*   * Ustaw wartość opcji na {{FALSE/pl}} aby FreeCAD używał dołączonych ikon zamiast systemowego motywu ikon w Linuksie.
 -   **Dialog/DontUseNativeColorDialog** *(boolean)*   * Ustawienie okna dialogowego selektora kolorów. Ustaw wartość na {{FALSE/pl}}, jeśli chcesz, aby FreeCAD używał natywnego okna dialogowego koloru w twoim systemie, a nie okna Qt Color. Wartość domyślna to {{TRUE/pl}}.
 -   **Dialog/DontUseNativeDialog** *(boolean)*   * Ustawienie okna dialogowego pliku. Ustaw wartość na {{FALSE/pl}}, jeśli chcesz używać natywnego okna dialogowego Plik podczas otwierania plików lub {{TRUE/pl}}, aby używać okna dialogowego Qt File Picker. Domyślne zależy od ustawienia podczas kompilacji   * \#define (USE\_QT\_FILEDIALOG).

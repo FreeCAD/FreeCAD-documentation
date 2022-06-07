@@ -6,8 +6,8 @@ Il s\'agit d\'une liste étendue, mais non complète, des fonctionnalités que F
 
 ## Notes de versions 
 
--   [Notes de version 0.20](Release_notes_0.20/fr.md) - A définir
--   [Notes de version 0.19](Release_notes_0.19/fr.md) - Mars 2021
+-   [Notes de version 0.20](Release_notes_0.20/fr.md) - Juin 2022
+-   [Notes de version 0.19](Release_notes_0.19/fr.md) - Mard 2021
 -   [Notes de version 0.18](Release_notes_0.18/fr.md) - Mars 2019
 -   [Notes de version 0.17](Release_notes_0.17/fr.md) - Avril 2018
 -   [Notes de version 0.16](Release_notes_0.16/fr.md) - Avril 2016

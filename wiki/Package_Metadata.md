@@ -64,7 +64,7 @@ The name of this package. Must only contain characters that are valid for filena
 
 REQUIRED
 
-A version number that follows either the [semantic versioning 2.0 standard](https   *//semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https   *//calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type. Note that this cannot be left blank, some kind of version number must be assigned \-- when the Addon Manager detects an increase in version number it will display the \"update available\" information to users.
+A version number that follows either the [semantic versioning 2.0 standard](https   *//semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https   *//calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type. Note that this cannot be left blank, some kind of version number must be assigned. When the Addon Manager detects an increase in version number it will display the \"update available\" information to users.
 
 ###  
 
@@ -217,7 +217,7 @@ Provided for convenience to other tools, any number of other files may be listed
 
 Multiple allowed   * \"repository\" is required, and \"readme\"-type is highly recommended.
 
-A Uniform Resource Locator for the package\'s website, bug tracker, source repository, zip download link, readme file, or documentation (as specified by the \"type\" attribute \-- see below).
+A Uniform Resource Locator for the package\'s website, bug tracker, source repository, zip download link, readme file, or documentation (as specified by the \"type\" attribute, see below).
 
 When specifying the \"readme\" type, a direct link to a rendered version of the README should be provided. For example, on GitHub, this is a \"blob\"-type link such as \"<https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", or on a GitLab instance, \"<https   *//gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (note the slightly different URL format between the two).
 
@@ -225,7 +225,7 @@ It is a good idea to include  tags pointing users to your package\'s online reso
 
 #### Attributes 
 
--   type=\"TYPE\" (required)   * The type should be one of the following identifiers \-- \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
+-   type=\"TYPE\" (required)   * The type should be one of the following identifiers   * \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
 -   branch=\"BRANCH\" (required for type=\"repository\")   * The name of the branch to check out to obtain this package. Typically the name of your main development branch. May also specify any other type of git reference, e.g. a tag or specific commit.
 
 ###  
@@ -242,7 +242,7 @@ The name of a person who is an author of the package, as acknowledgement of thei
 
 Multiple allowed
 
-Declares a dependency on another FreeCAD Addon or internal workbench, or Python package. The named dependency is first checked against the list of known Addons (e.g. those available either from the official FreeCAD Addons git repository, or those in a custom user-specified repository). The check is against the canonical name of the Addon \-- if a package.xml file is present for that Addon, the name is that package\'s  element. An exact match is required. If no match is found it is checked against the list of known internal workbenches (both installed and uninstalled). Finally, if the named dependency has not been located in the previous two steps it is assumed to be a Python package dependency. Note that not all dependency-related features are fully implemented yet.
+Declares a dependency on another FreeCAD Addon or internal workbench, or Python package. The named dependency is first checked against the list of known Addons (e.g. those available either from the official FreeCAD Addons git repository, or those in a custom user-specified repository). The check is against the canonical name of the Addon. If a package.xml file is present for that Addon, the name is that package\'s  element. An exact match is required. If no match is found it is checked against the list of known internal workbenches (both installed and uninstalled). Finally, if the named dependency has not been located in the previous two steps it is assumed to be a Python package dependency. Note that not all dependency-related features are fully implemented yet.
 
 #### Attributes 
 
@@ -289,7 +289,7 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
 
 ## Validation
 
-To validate your package.xml file you can enable \"developer mode\" in the Addon Manager   * create a boolean variable called \"developerMode\" in the \"Addons\" parameter group and set it to True. When the Addon Manager finished reading the Addons database it will examine all available package.xml files for errors.
+To validate your package.xml file you can enable \"developer mode\" in the Addon Manager   * create a boolean variable called \"developerMode\" in the \"Addons\" parameter group and set it to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**. When the Addon Manager has finished reading the Addons database it will examine all available package.xml files for errors.
 
 ## Examples
 

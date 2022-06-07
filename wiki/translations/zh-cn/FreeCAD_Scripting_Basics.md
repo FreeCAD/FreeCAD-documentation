@@ -1,9 +1,9 @@
 # FreeCAD Scripting Basics/zh-cn
 {{TOCright}}
 
-## Python scripting in FreeCAD 
+## FreeCAD中的Python脚本
 
-FreeCAD is built from scratch to be totally controlled by Python scripts. Almost all parts of FreeCAD, such as the interface, the scene contents, and even the representation of this content in the 3D views, are accessible from the built-in Python interpreter or from your own scripts. As a result, FreeCAD is probably one of the most deeply customizable engineering applications available today.
+FreeCAD从一开始就构建为可以由Python完全控制。FreeCAD的几乎所有组件，像界面，场景内容，甚至3D视图中内容的呈现都可以从内置的Python解释器或你自己的脚本进行访问。所以，FreeCAD可能是当今最可深度自定义的工程软件之一
 
 If you are not familiar with Python, we recommend you search for tutorials on the internet and have a quick look at its structure. Python is a very easy language to learn, especially because it can be run inside an interpreter, where simple commands, right up to complete programs, can be executed on the fly without the need to compile anything. FreeCAD has a built-in Python interpreter. If you don\'t see the window labeled **Python console** as shown below, you can activate it under the **View → Panels → Python console**.
 

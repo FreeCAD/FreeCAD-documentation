@@ -11,6 +11,9 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 
 ## Distribucijske bilješke 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Release 0.20](Release_notes_0.20.md) - TBD
 -   [Release 0.19](Release_notes_0.19.md) - March 2021
 -   [Release 0.18](Release_notes_0.18.md) - March 2019
@@ -20,6 +23,9 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 -   [Release 0.13](Release_notes_0.13.md) - January 2013
 -   [Release 0.12](Release_notes_0.12.md) - December 2011
 -   [Release 0.11](Release_notes_0.11.md) - March 2011
+
+
+</div>
 
 ## Ključne osobine 
 

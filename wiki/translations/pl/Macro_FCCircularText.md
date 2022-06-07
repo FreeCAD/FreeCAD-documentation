@@ -4,8 +4,8 @@
 |Icon=FCCircularTextButtom.png
 |Description={{ColoredText|#ff0000|#ffffff|Latest macro version supports a HiDPI layout (QGridLayout) and runs only on versions 0.18 or higher (requires PySide2/Qt5)}}<br/><br/>For backward compatible version of the macro see [https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] and install manually. <br/><br/>This macro makes use of the [[Draft ShapeString]] tool to create a text line placed in different circular orientations, including circumferential and helical (in the fashion of a Trajan Column). It can also be used to create a clock face with Arabic numerals ''1, 2, 3,'' etc., or Roman numerals ''I, II, III,'' etc.
 |Author=Mario52
-|Version=0.21
-|Date=2022/05/31
+|Version=0.22
+|Date=2022/06/06
 |FCVersion=0.19
 |Download=[https   *//www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
 }}
@@ -15,7 +15,7 @@
 This macro makes use of the <img alt="" src=images/Draft_ShapeString.svg  style="width   *24px;"> [Draft ShapeString](Draft_ShapeString.md) tool to create a text line placed in different circular orientations, including circumferential and helical in the fashion of a [Trajan\'s Column](http   *//en.wikipedia.org/wiki/Trajan%27s_Column). It can also be used to create a clock face with Arabic numerals *1, 2, 3,* etc., or Roman numerals *I, II, III,* etc. This latter usage was inspired by the Forum thread [Macro to Create Clock Face](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) by FC community member, cblt2l.
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/febfd7cec2e4fcbe1abdc04161f464deb9d69691/Macro_FCCircularText.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/cffba4018708a61e43c7f19627993c3e80182312/Macro_FCCircularText.FCMacro}}
 
 
    *   <img alt="360 degree orientation" src=images/FCCircularText_01.png  style="width   *400px;">
@@ -706,6 +706,8 @@ Planned   *
 Writing on a path circular text of position object selected.
 
 ## Change log 
+
+-   ver 0.22 2022/06/06    * adding QScrollArea cause    * [Unable to run FCCircularText \[Problem with screen size\]](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=69206)
 
 -   ver 0.21 2022/05/31    * adding button search other path fontmanuelly, and button return font origin of system
 

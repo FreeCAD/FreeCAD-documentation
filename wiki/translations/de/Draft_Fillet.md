@@ -64,13 +64,7 @@ Das [Entwurf Verrundungswerkzeug](Draft_Fillet/de.md) erstellt eine Verrundung, 
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
-Siehe auch   * [Eigenschaftseditor](property_editor/de.md).
-
-
-</div>
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
 A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
 

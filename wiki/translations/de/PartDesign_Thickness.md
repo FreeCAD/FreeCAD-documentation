@@ -12,12 +12,32 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickwandigen hohlen Gegenstand mit mindestens einer offenen Fläche um, der jeder seiner verbleibenden Flächen eine gleichmäßige Dicke verleiht. Bei einigen Volumenkörpern kann es die Bearbeitung erheblich beschleunigen und vermeidet die Erstellung von Extrusionen und Taschen.
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
+
+</div>
+
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Das Werkzeug Dicke angewendet auf die Fläche (B) eines Volumenkörpers (A) ergibt das hohle Objekt (C).*
 
+
+</div>
+
 ## Anwendung
+
+### Add a thickness 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Eine oder mehrere Flächen des aktiven Körpers auswählen.
 
@@ -32,7 +52,25 @@ Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickw
 6.  
     **OK**drücken.
 
+
+</div>
+
+
+   *   *Remember*   *
+    -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
+
+### Edit a thickness 
+
+1.  Do one of the following   *
+    -   Double-click the Thickness object in the [Tree view](Tree_view.md)
+    -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
+2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
 ## Optionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Dicke**   * Wanddicke des resultierenden Objekts. Stellen Sie den gewünschten Wert ein.
 -   **Modus**
@@ -45,43 +83,61 @@ Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickw
     -   *Schnitt(Intersection)*   * Wenn Flächen nach außen versetzt sind, werden scharfe Kanten zwischen den Flächen beibehalten.
 -   **Erzeugen einer Hülle mit innen liegendem Volumen**   * Wenn diese Option aktiviert ist, werden die Flächen nach innen versetzt.
 
-## Einschränkungen
+
+</div>
+
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Es muss mindestens eine zu öffnende Fläche ausgewählt sein.
 -   Wenn die Dicke nach innen geht, muss der Wert für die Dicke kleiner sein als die kleinste Höhe des Körpers.
 -   Der Befehl kann bei komplexen Formen fehlschlagen. In diesem Zusammenhang muss auch eine Fläche wie die eines Kegels bereits als komplex angesehen werden.
     -   [PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md) oder [PartDesign Additive Loft](PartDesign_AdditiveLoft/de.md) kann zur Erzeugung von komplexeren Formen geeigneter sein.
 
-## Beispiele
 
-1.  Einen Block(Aufpolsterung/Pad) aus der Skizze erstellen
-2.  Eine zweite Skizze auf der XY-Ebene anlegen
-3.  Ein zweiten Block aus der zweiten Skizze erstellen
+</div>
 
-Wie in den folgenden Bildern   *
+## Properties
 
-![](images/Braga-primoPad.png )
+See also   * [Property editor](Property_editor.md).
 
-![](images/Braga-secondoschizzo.png )
+A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
-![](images/Braga-secondo_Pad.png )
+### Data
 
-Dann
 
-1.  Eine kreisförmige Fläche auswählen
+{{Properties_Title|Base}}
 
-2.  
-    **<img src="images/_PartDesign_Thickness.png" width=24px>Dicke**auswählen
+-    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
 
-3.  Die anderen kreisförmigen Flächen zur Auswahl hinzufügen
+-    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
 
-Ergebnis   * ![](images/Brga-spessore.png )
+-    **Add Sub Shape|PartShape|hidden**
+    
 
-## Bekannte Fehler 
+-    **Base Feature|Link|hidden**   * Link to the parent feature.
 
--   BRep\_API   * command not done (Befehl nicht ausgeführt)
--   BRep\_Tool   * no parameter on edge
--   Fehlschlag ohne weitere Fehlermeldung
+-    **_ Body|LinkHidden|hidden**   * Link to the parent body.
+
+
+{{Properties_Title|Part Design}}
+
+-    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+
+
+{{Properties_Title|Thickness}}
+
+-    **Value|Length**   * \"Thickness value\". Default   * {{value|1 mm}}.
+
+-    **Mode|Enumeration**   * \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
+
+-    **Join|Enumeration**   * \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+
+-    **Reversed|Bool**   * \"Apply the thickness towards the solids interior\". Default   * `False`.
+
+-    **Intersection|Bool**   * \"Enable intersection-handling\". Default   * `False`.
 
 
 

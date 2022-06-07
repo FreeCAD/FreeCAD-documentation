@@ -119,15 +119,15 @@ A PartDesign Chamfer object is derived from a [Part Feature](Part_Feature.md) ob
 
 {{Properties_Title|Chamfer}}
 
--    **Camfer Type|Enumeration**   * The chamfer type   * {{value|Equal distance}} (default), {{value|Two distances}} or {{value|Distance and Angle}}.
+-    **Chamfer Type|Enumeration**   * The chamfer type   * {{value|Equal distance}} (default), {{value|Two distances}} or {{value|Distance and Angle}}.
 
 -    **Size|QuantityConstraint**   * The first chamfer distance. The default is {{value|1 mm}}.
 
--    **Size2|QuantityConstraint**   * The second chamfer distance. Only used if **Camfer Type** is {{Value|Two distances}}. The default is {{value|1 mm}}.
+-    **Size2|QuantityConstraint**   * The second chamfer distance. Only used if **Chamfer Type** is {{Value|Two distances}}. The default is {{value|1 mm}}.
 
--    **Angle|Angle**   * The chamfer angle. Only used if **Camfer Type** is {{Value|Distance and Angle}}. The default is {{value|45 °}}.
+-    **Angle|Angle**   * The chamfer angle. Only used if **Chamfer Type** is {{Value|Distance and Angle}}. The default is {{value|45 °}}.
 
--    **Flip Direction|Bool**   * If `True` the direction of the chamfer is flipped. Not used if **Camfer Type** is {{Value|Equal distance}}. The default is `False`.
+-    **Flip Direction|Bool**   * If `True` the direction of the chamfer is flipped. Not used if **Chamfer Type** is {{Value|Equal distance}}. The default is `False`.
 
 -    **Use All Edges|Bool**   * If `True` all edges of the feature are chamfered, and the edges specified by **Base** are ignored. The default is `False`.
 

@@ -147,10 +147,26 @@ Más información sobre los esfuerzos actuales para tratar con Snaps.
 
 </div>
 
+### Repositories
+
+-   <https   *//github.com/FreeCAD/FreeCAD-snap>
+-   <https   *//snapcraft.io/freecad>
+
+### Maintainer(s)
+
+-   ppd ([forum](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=24042), [github](https   *//github.com/ppd))
+-   luzpaz ([forum](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=12229), [github](https   *//github.com/luzpaz))
+
+## Related
+
 -   [AppImage](AppImage.md) - another self-contained \'binary\' like format to run FreeCAD
--   [Flatpak](Flatpak.md)
+-   [Flatpak](Flatpak.md) packages
+
+
+
+[Category   *Packaging](Category_Packaging.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Ubuntu Snap/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > Ubuntu Snap/es

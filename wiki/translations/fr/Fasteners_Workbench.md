@@ -165,6 +165,18 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width   *32px;"> **ASME B18.3.5D** Vis à tête hexagonale UNC à bout cuvette.
 
+### Vis à tête creuse hexalobulaire 
+
+-   <img alt="" src=images/Fasteners_ISO14579.svg  style="width   *32px;"> **ISO 14579** Vis à tête cylindrique à six pans creux.
+
+-   <img alt="" src=images/Fasteners_ISO14580.svg  style="width   *32px;"> **ISO 14580**Vis à tête cylindrique à six pans creux.
+
+-   <img alt="" src=images/Fasteners_ISO14582.svg  style="width   *32px;"> **ISO 14582** Vis à tête fraisée à six pans creux, tête haute.
+
+-   <img alt="" src=images/Fasteners_ISO14583.svg  style="width   *32px;"> **ISO 14583** Vis à tête cylindrique à six pans creux.
+
+-   <img alt="" src=images/Fasteners_ISO14584.svg  style="width   *32px;"> **ISO 14584** Vis à tête fraisée à six pans creux.
+
 ### Vis à tête fendue 
 
 -   <img alt="" src=images/Fasteners_ISO2009.svg  style="width   *32px;"> **ISO 2009** Vis à tête plate fendue et fraisée. *Grade de produit A*.
@@ -192,41 +204,9 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** Vis à tête cylindrique avec évidement transversal de type H.
 
-### Vis à tête creuse hexalobulaire 
-
--   <img alt="" src=images/Fasteners_ISO14579.svg  style="width   *32px;"> **ISO 14579** Vis à tête cylindrique à six pans creux.
-
--   <img alt="" src=images/Fasteners_ISO14580.svg  style="width   *32px;"> **ISO 14580**Vis à tête cylindrique à six pans creux.
-
--   <img alt="" src=images/Fasteners_ISO14582.svg  style="width   *32px;"> **ISO 14582** Vis à tête fraisée à six pans creux, tête haute.
-
--   <img alt="" src=images/Fasteners_ISO14583.svg  style="width   *32px;"> **ISO 14583** Vis à tête cylindrique à six pans creux.
-
--   <img alt="" src=images/Fasteners_ISO14584.svg  style="width   *32px;"> **ISO 14584** Vis à tête fraisée à six pans creux.
-
 ### Autres têtes de boulon 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** Boulon à tête carrée - boulon de carrosserie
-
-### Rondelles
-
--   <img alt="" src=images/Fasteners_ISO7089.svg  style="width   *32px;"> **ISO 7089** Rondelle plate, série normale. *Grade de produit A*.
-
--   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> **ISO 7090** Rondelle plate chanfreinée, série normale. *Grade de produit A*.
-
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Rondelle plate, série étroite.
-
--   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> **ISO 7093-1** Rondelle plate, série large. *Grade du produit A*.
-
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Rondelle plate, série très large.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** Rondelle UN, série étroite.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** Rondelle UN, série normale.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** Rondelle UN, série large.
-
--   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Rondelles cuvette décolletées.
 
 ### Écrous
 
@@ -252,6 +232,26 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width   *32px;"> **ASME B18.2.2.4A** Écrou hexagonal UNC.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width   *32px;"> **ASME B18.2.2.4B** Écrou mince hexagonal UNC.
+
+### Rondelles
+
+-   <img alt="" src=images/Fasteners_ISO7089.svg  style="width   *32px;"> **ISO 7089** Rondelle plate, série normale. *Grade de produit A*.
+
+-   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> **ISO 7090** Rondelle plate chanfreinée, série normale. *Grade de produit A*.
+
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Rondelle plate, série étroite.
+
+-   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> **ISO 7093-1** Rondelle plate, série large. *Grade du produit A*.
+
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Rondelle plate, série très large.
+
+-   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Rondelles cuvette décolletées.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** Rondelle UN, série étroite.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** Rondelle UN, série normale.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** Rondelle UN, série large.
 
 ### Divers
 

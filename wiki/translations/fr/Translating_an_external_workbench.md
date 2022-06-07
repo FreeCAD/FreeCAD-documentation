@@ -13,7 +13,7 @@ Dans les notes suivantes, `"context"` doit être le nom de votre addon ou de vot
 
 ### Dans chaque fichier Python .py 
 
--   Dans chaque fichier où vous devez traduire du texte, vous devez définir une fonction `translate()`. Vous pouvez utiliser le nom entièrement qualifié de Qt, mais c\'est un peu plus propre d\'utiliser    *
+-   Dans chaque fichier où vous devez traduire du texte, vous devez définir une fonction `translate()`. Elle doit être nommée exactement `translate`    * l\'extracteur de chaînes de caractères s\'appuie sur ce nom exact. Vous pouvez utiliser le nom entièrement qualifié de Qt, mais c\'est un peu plus propre à utiliser    *
 
    *   
     

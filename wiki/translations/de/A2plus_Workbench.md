@@ -37,6 +37,8 @@ Importierte Teile behalten ihre externen Abhängigkeiten und können bearbeitet 
 
 Um das Assembly zu speichern und danach zu schließen kann die Schaltfläche <img alt="" src=images/A2p_Save_and_exit.svg  style="width   *24px;"> verwendet werden.
 
+Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> sets the way you can select several several edges, faces etc.   * Either with a single click or by **Ctrl**+click.
+
 ## Der Zusammenbau 
 
 Der Zusammenbau von Teilen erfolgt durch Hinzufügen von Beschränkungen zwischen den Teilen. Nach einer Beschränkung wird A2plus die Teile nach Möglichkeit entsprechend der Beschränkung verschieben.
@@ -141,6 +143,8 @@ Beschränkungen können entweder durch Auswahl im Modellbaum und Drücken von **
 Alle Beschränkungen können jederzeit mit der Werkzeugleistenschaltfläche <img alt="" src=images/A2p_solver.svg  style="width   *24px;"> aufgelöst werden. Wenn die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width   *24px;"> aktiviert ist, wird nach jeder Bearbeitung einer Beschränkung automatisch eine Auflösung durchgeführt.
 
 Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_FlipConstraint.svg  style="width   *24px;"> wirkt sich auf die zuletzt hinzugefügte Beschränkung aus. Sie kehrt die Richtung der Beschränkung um.
+
+With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
 
 ## Stücklisten
 

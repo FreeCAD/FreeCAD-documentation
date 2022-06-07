@@ -7,7 +7,7 @@
 
 The A2plus workbench is an [external workbench](External_workbenches.md) to [assemble](Assembly.md) different parts in FreeCAD.
 
-This documentation describes A2plus version **0.4.54b or newer**.
+This documentation describes A2plus version **0.4.56 or newer**.
 
 ## Installing
 
@@ -30,6 +30,8 @@ To update changed parts in assemblies click on the toolbar button <img alt="" sr
 Imported parts will keep their external dependencies and can be edited. For well-defined parts like screws it is however useful that their shape cannot be edited. This can be achieved with the toolbar button <img alt="" src=images/A2p_ConvertPart.svg  style="width   *24px;"> that converts the selected part to a static copy of the original part.
 
 To save the assembly and close it afterwards, the toolbar button <img alt="" src=images/A2p_Save_and_exit.svg  style="width   *24px;"> can be used.
+
+Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> sets the way you can select several several edges, faces etc.   * Either with a single click or by **Ctrl**+click.
 
 ## Assembling
 
@@ -135,6 +137,8 @@ Constraints can be deleted either by selecting them in the model tree and pressi
 All constraints can be resolved at any time with the toolbar button <img alt="" src=images/A2p_solver.svg  style="width   *24px;">. If the toolbar button <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width   *24px;"> is turned on a resolve is automatically done after every edit of a constraint.
 
 The toolbar button <img alt="" src=images/A2p_FlipConstraint.svg  style="width   *24px;"> affects the constraint that was added most recently. It flips the constraint direction.
+
+With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
 
 ## Part Lists 
 

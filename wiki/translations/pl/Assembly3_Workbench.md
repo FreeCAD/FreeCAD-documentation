@@ -389,16 +389,37 @@ Elementy są specyficznym terminem w środowisku Assembly3 i ważne jest zrozumi
 
 Pomocne jest myślenie o Elementach jako ogólnym określeniu dla \'wybieralnej pozycji\' części, np. ściany, krawędzi, okręgu lub narożnika czy innego punktu. Pozycje które wybierasz aby związać je są tymi Elementami. W drzewie folderu Assembly znajdują się trzy podfoldery. Oprócz \"Parts\" i \"Constraints\" jest tam folder nazwany \"Elements\", który jest pusty tak długo jak nie ma dodanych żadnych wiązań. Podczas dodawania wiązania, samo wiązanie dostanie dwa *(lub więcej)* listki, są one wybranymi \"Elementami\". Dodatkowo zostają one dodane do folderu \"Elements\", który jest po prostu listą wszystkich Elementów użytych w złożeniu. Dobrym pomysłem jest zmiana ich nazw *(przyciskiem F2)*, szczególnie w większych złożeniach.
 
+
+<div class="mw-translate-fuzzy">
+
 Spójrzmy na przykład
 
    *   Stwórz nowy plik i z środowiska Część dodaj prostopadłościan i walec. Ustawimy walec na prostopadłościanie. Najpierw utwierdzimy część bazową, w naszym przypadku prostopadłościan. Wybierz dolną ścianę prostopadłościanu i wybierz wiązanie \"blokady odległości\" *(pierwsza ikona na [pasku](#Toolbars.md) wiązania)*. Wybierz górną ścianę walca i górną ścianę prostopadłościanu. Następnie wybierz wiązanie \"Zbierzność płaszczyzn\". W tym momencie walec zostanie przesunięty na prostopadłościan i w drzewie, pod \"Constraints\", zostanie dodany nowy listek z dwoma węzłami podrzędnymi. Dodatkowo te same węzły podrzędne zostały dodane pod \"Elements\". Jeśli twój walec jest w środku prostopadłościanu zamiast na prostopadłościanie, poprawmy to najpierw   * wybierz węzeł podrzędny pod \"Constraints\", który wskazuje na ścianę walca i przy pomocy kliknięcia prawym przyciskiem myszy wybierz w menu kontekstowym \"Flip Part\". Teraz walec jest już ustawiony na prostopadłościanie.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Kluczową rzeczą do zrozumienia jest to, że wiązanie działa na łączach do Elementów z listy w folderze drzewa \"Elements\". To pozwala na utrzymywanie nienaruszonej struktury wiązań podczas zmiany części. To jest bardzo trudne do zrozumienia bez przywołania przykładu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Spójrzmy ponownie na powyższy przykład
 
    *   Uwaga   * upewnij się, że dodałeś \"Wiązanie blokady odległości\" to prostopadłościanu, bo inaczej przykład będzie wyglądał myląco
    *   W oknie CAD wybierz inną ścianę prostopadłościanu. W tej chwili pracujemy tylko w widoku drzewa. Przesuń kursor myszki do drzewa, w miejsce gdzie prostopadłościan powinien zostać wybrany. Przeciągnij prostopadłościan do folderu \"Elements\". Upuść go na nazwę \"Elements\", a nie w żadne inne miejsce folderu - później zobaczymy dlaczego. Powinieneś zobaczyć kolejny Element dodany do listy \"Elements\". Teraz w folderze \"Constraints\" wybierz węzeł podrzędny dla ściany prostopadłościanu w wiązaniu \"Zbieżności płaszczyzn\" i usuń go. Wiązanie będzie pokazywać znak wykrzyknienia, ponieważ brakuje mu jednego Elementu. Zauważ, że usuwając Element w Wiązaniu *nie* usunęliśmy go z listy. Jest tak ponieważ wiązanie było tylko łączem do Elementu na liście. Teraz weźmy nowo dodany Element w liście \"Elements\" i przeciągnijmy go na wiązanie \"Zbieżności płaszczyzn\". W tym momencie walec przesunął się na drugą zaznaczoną ścianę Może być konieczne ponowne wybranie \"Flip Part\" z menu kontekstowego, jeśli walec znów znajduje się w środku prostopadłościanu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Wcześniejszy przykład pokazał, że możliwa jest zmiana Elementów wykorzystywanych do wiązania bez konieczności usuwania samego wiązania. W ten sam sposób możemy przenieść walec do całkowicie innej części. Po nieco dłuższym eksperymentowaniu z tym przykładem, zauważysz inne rzeczy, jak   *
 
@@ -408,6 +429,9 @@ Wcześniejszy przykład pokazał, że możliwa jest zmiana Elementów wykorzysty
 -   Możesz użyć przycisku \"Pokaż Układ Współrzędnych Elementu\" na głównym pasku narzędzi by zobaczyć co \"Menu kontekstowe / Flip Part\" i \"Menu kontekstowe / Flip Element\" robią. Upewnij się, że obserwujesz co się dzieje w Oknie Właściwości.
 -   Możesz dodać wiązanie w całkowicie innej kolejności   * najpierw dodaj kilka Elementów do \"Listy Elementów\" *(nadawanie nazw jest przydatne, np. \"Górna Ściana Prostopadłościanu czy \"Przednia Ściana Prostopadłościanu\")* a następnie dodaj wiązanie bez zaznaczania czegokolwiek - będzie ono pustym wiązaniem. Potem przeciągnij Elementy z listy \"Elementów\". Wynik będzie takim sam jak po tym co zrobiliśmy w pierwszym przykładzie. Po wykonaniu tego ćwiczenia natura działania wiązań z Elementami powinna stać się jasna.
 -   Możesz zmienić istniejące wiązanie pomiędzy istniejącymi Elementami po prostu przez wybranie innej pozycji w właściwości Okno Właściwości / ConstraintType.
+
+
+</div>
 
 
 {{top}}

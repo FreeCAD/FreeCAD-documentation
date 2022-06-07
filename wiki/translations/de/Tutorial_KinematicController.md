@@ -1,7 +1,7 @@
 ---
 - TutorialInfo   *   Topic   *Kinematisteuerung erstellt mit Python
    Level   *Pythongrundkentnisse sind hilfreich
-   FCVersion   *0.20. und später
+   FCVersion   *0.20 und später
    Time   *1 Stunde
    Author   *[FBXL5](User_FBXL5.md)
 ---
@@ -258,11 +258,9 @@ Nun ist es Zeit die Methode {{Incode|initUI()}} zu befüllen   *
 
 ```python
 ...
-    def initUI(self, Document, actuator_list)   *
+    def initUI(self, document, actuator)   *
         # Setting up class parameters
-        self.document = Document
-        self.actuators = actuator_list
-        self.actuator = self.document.getObject(self.actuators[0])
+        self.actuator = document.getObject(actuator)
         self.driver_type = self.getDriverType(self.actuator)
         # the window has 640 x 480 pixels and is centered by default
         # now make the window visible
@@ -270,7 +268,10 @@ Nun ist es Zeit die Methode {{Incode|initUI()}} zu befüllen   *
 ...
 ```
 
-The actuator to be used is the first item in the actuators list. (The list contains a single item now, but, if the controller can handle more than one driving constraint in the future, it may hold more.) ((Dieser Abschnitt ist veraltet und muss im Original überarbeitet werden. Das vollständige Makro weiter unten ist korrekt.))
+
+{{Incode|self.actuator}}
+
+repräsentiert den Antrieb und {{Incode|self.driver_type}} Speichert ein Schlüsselwort für die Art des Antriebs. Letztere sorgt dafür, dass jeder Randbedingung die richtige Eigenschaft zugeordnet wird.
 
 ##### Methode getDriverType() 
 
@@ -645,7 +646,7 @@ Zurück in der Methode {{Incode|initUI()}} fügt man folgendes zwischen Labels- 
 ...
 ```
 
-Die Eingabefelder zeigen die voreingestellten Start- und Endwerte an. Sie sind aber erst komplett, wenn auch Methoden hinzugefügt werden, die die geänderten Werte verarbeiten. Das erledigen die Methoden {{Incode|self.onEntryStart()}} und {{Incode|self.onEntry()}}, die zwischen den Methoden {{Incode|self.stepRatio()}} und {{Incode|self.onActuatorSlider()}} eingefügt werden.
+Die Eingabefelder zeigen die voreingestellten Start- und Endwerte an. Sie sind aber erst komplett, wenn auch Methoden hinzugefügt werden, die die geänderten Werte verarbeiten. Das erledigen die Methoden {{Incode|self.onEntryStart()}} und {{Incode|self.onEntryEnd()}}, die zwischen den Methoden {{Incode|self.stepRatio()}} und {{Incode|self.onActuatorSlider()}} eingefügt werden.
 
 
 ```python

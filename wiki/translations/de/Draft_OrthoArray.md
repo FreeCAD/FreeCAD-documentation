@@ -57,7 +57,7 @@ Siehe auch   * [Eigenschaftseditor](Preferences_Editor/de.md) und [Entwurfseigen
 
 ## Eigenschaften
 
-Siehe auch   * [Eigenschaftseditor](property_editor/de.md).
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
 Die Entwurfs-OrthoFeld Anweisung, die [Entwurf PolarAnordnungsanweisung](Draft_PolarArray/de.md) und die [Entwurf KreisAnordnungsanweisung](Draft_CircularArray/de.md) erstellen das gleiche Objekt. Dieses Objekt ist von einem [Part Formelement](Part_Feature/de.md)-Objekt abgeleitet und erbt alle Eigenschaften, mit Ausnahme einiger Ansichtseigenschaften, die nicht von Verknüpfungsfeldern geerbt wurden. Die folgenden Eigenschaften gibt es zusätzlich, wenn nicht anders angegeben   *
 

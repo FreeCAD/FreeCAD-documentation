@@ -117,10 +117,26 @@ Plus d\'informations sur les efforts en cours pour gérer Snaps    *
 -   [0.19 Snap Preview a besoin de \"testeurs\"](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=46044), ancien Snap de **vejmarie**. (obsolète)
 -   [Discussion   * Discussion   * état du composant logiciel Snap (Snap Packaging)](https   *//forum.freecadweb.org/viewtopic.php?f=42&t=46853), version plus récente du Snap par **ppd**. (obsolète)
 
+### Dépôts
+
+-   <https   *//github.com/FreeCAD/FreeCAD-snap>
+-   <https   *//snapcraft.io/freecad>
+
+### Mainteneur(s)
+
+-   ppd ([forum](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=24042), [github](https   *//github.com/ppd))
+-   luzpaz ([forum](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=12229), [github](https   *//github.com/luzpaz))
+
+## En relation 
+
 -   [AppImage](AppImage/fr.md) - un autre format autonome de type \'binaire\' pour exécuter FreeCAD
--   [Flatpak](Flatpak/fr.md)
+-   Paquets [Flatpak](Flatpak/fr.md)
+
+
+
+[Category   *Packaging](Category_Packaging.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Ubuntu Snap/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > Ubuntu Snap/fr

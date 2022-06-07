@@ -498,7 +498,13 @@ Vediamo un esempio
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 La chiave per capire è che il vincolo opera sui collegamenti agli elementi nella lista della cartella ad albero \'Elements\'. Questo permette di mantenere intatta la struttura del vincolo mentre si cambiano le parti. Questo è molto difficile da comprendere senza un esempio.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -511,6 +517,9 @@ Torniamo all\'esempio precedente
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 L\'esempio ha mostrato che senza rimuovere il vincolo possiamo cambiare gli Elementi che vengono utilizzati per il vincolo. Allo stesso modo possiamo spostare il cilindro in una parte totalmente diversa. Dopo aver giocato un po\' di più con questo esempio, si noteranno alcune cose aggiuntive come
 
 -   Se si rinomina un elemento nella lista, il nome verrà cambiato in tutti i Vincoli.
@@ -519,6 +528,9 @@ L\'esempio ha mostrato che senza rimuovere il vincolo possiamo cambiare gli Elem
 -   è possibile utilizzare il pulsante \"Show Element Coordinate System\" nella barra degli strumenti principale per vedere le funzioni \'Menu contestuale/Flip Part\' e \'Menu contestuale/Flip Element\'. Assicuratevi di guardare cosa succede nella finestra delle proprietà.
 -   è possibile aggiungere un vincolo in un ordine completamente diverso   * Per prima cosa aggiungere alcuni elementi alla \'Lista degli elementi\' (la denominazione è utile, es. \"Cube Top Face\" o \"Cube Front Face\"), poi aggiungere un vincolo senza selezionare nulla - sarà un vincolo vuoto. Quindi trascinare gli Elementi dalla lista \'Elements\'. Il risultato è lo stesso di quello che abbiamo fatto nel primo esempio. Dopo aver fatto questo esercizio, la natura di come funzionano i vincoli con gli Elementi dovrebbe essere chiara.
 -   potete cambiare un vincolo esistente tra elementi esistenti semplicemente selezionando un elemento diverso nella Finestra delle proprietà/ConstraintType.
+
+
+</div>
 
 [Torna all\'inizio](#top.md)
 

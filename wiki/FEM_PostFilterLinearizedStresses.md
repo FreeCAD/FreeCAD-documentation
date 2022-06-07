@@ -3,7 +3,7 @@
    Name   *FEM PostFilterLinearizedStresses
    MenuLocation   * Results → Stress linearization plot
    Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[Result pipeline](FEM_PostPipelineFromResult.md), [Line clip filter](FEM_PostFilterDataAlongLine.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterLinearizedStresses
@@ -16,7 +16,7 @@ Creates a stress linearization plot.
 
 1.  Select a previously created [Line clip filter](FEM_PostFilterDataAlongLine.md).
 2.  Invoke the command either by   *
-    -   Pressing the button **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> [Stress linearization plot](FEM_PostFilterLinearizedStresses.md)**.
+    -   Pressing the button **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> '''Stress linearization plot'''**.
     -   Using the menu **Results → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Stress linearization plot**.
 3.  An XY plot with linearized stress values (membrane, membrane+bending and total) along the line will be created in a separate window.
 

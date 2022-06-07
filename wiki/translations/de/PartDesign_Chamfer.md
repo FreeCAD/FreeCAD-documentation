@@ -2,145 +2,123 @@
 - GuiCommand   */de
    Name   *PartDesign Chamfer
    Name/de   *PartDesign Fase
-   MenuLocation   *Part Design → Apply a dress up feature (Verschönerung) → Fase
-   Workbenches   *[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
-   SeeAlso   *[Verrundung](PartDesign_Fillet/de.md), [Part Fase](Part_Chamfer/de.md)
+   MenuLocation   *Part Design → Modifikationen → Fase
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso   *[Verrundung](PartDesign_Fillet/de.md)
 ---
 
 # PartDesign Chamfer/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug erzeugt Fasen an den ausgewählten Kanten eines Objekts. Im Projektbaum wird ein neuer separater Faseneintrag (gefolgt von einer fortlaufenden Nummer, wenn bereits Fasen im Dokument vorhanden sind) angelegt.
-
-
-</div>
+Das Werkzeug <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *24px;"> **PartDesign Fase** erzeugt Fasen (Abschrägungen) an den ausgewählten Kanten eines Objekts. Es fügt dem Dokument ein **Chamfer**-Objekt und den dazugehörigen Repräsentanten in der [Baumansicht](Tree_view/de.md) hinzu.
 
 ## Anwendung
 
-### Add a chamfer 
+### Eine Fase hinzufügen 
 
+1.  Falls nötig, wird der anzufasende Körper [aktiviert](PartDesign_Body/de#Activer_Status.md).
+2.  Es gibt mehrere Möglichkeiten die Kanten zum Anfasen auszuwählen   *
+    -   Eine oder mehrere einzelne Kanten des Körpers auswählen.
+    -   Eine oder mehrere Flächen des Körpers auswählen, um alle ihrer Kanten auszuwählen.
+    -   Ein Formelement (normalerweise das letzte) des Körpers auswählen, um alle seiner Kanten auszuwählen. {{Version/de|0.20}}
+3.  Um eine Reihe tangential verbundener Kanten auszuwählen, muss nur eine einzige Kante ausgewählt werden, die Fase folgt dann dem kompletten Kantenzug.
+4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+    -   Die Schaltfläche **<img src="images/PartDesign_Chamfer.svg" width=16px> [Fase](PartDesign_Chamfer/de.md)** drücken.
+    -   Den Menüeintrag **Part Design → Modifikationen → <img src="images/PartDesign_Chamfer.svg" width=16px> Fase** auswählen.
+5.  Wenn kein Körper aktiv ist und sich zwei oder mehr Körper im Dokument befinden, offnet sich der Dialog **Active Body Required** und fordert zur Aktivierung eines Körpers auf. Ist nur ein einziger Körper vorhanden, wird er automatisch ausgewählt.
+6.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Fase** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+7.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
 
-<div class="mw-translate-fuzzy">
+### Eine Fase bearbeiten 
 
--   Wähle eine einzelne Kante, mehrere Kanten oder eine Fläche auf einem Objekt und starte dann das Werkzeug entweder durch Klicken auf die Schaltfläche **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Fase'''** oder über das Menü **PartDesign → Fase**. Im Fall das du eine Fläche ausgewählt hast, werden alle ihre Kanten zum Anfasen berücksichtigt.
--   Im erscheinenden [Aufgabenpaneel](Task_panel/de.md) kannst du die Fase auf 3 Arten definieren   *
-    -   **Gleicher Abstand**   * Die Fasenkanten sind gleich weit von der Körperkante entfernt.
-    -   **Zwei Abstände**   * Die Abstände der Fasenkante zur Körperkante werden angegeben. Die Abstandsrichtung kann umgedreht werden. <small>(v0.19)</small> 
-    -   **Abstand und Winkel**   * Es wird ein Abstand von der Fasenkante zur Körperkante angegeben. Die zweite Fasenkante wird durch den Winkel der Fase definiert. Die Abstandsrichtung kann umgedreht werden. <small>(v0.19)</small> 
--   Wenn du weitere Kanten oder Flächen hinzufügen möchtest, klicke auf die **Hinzufügen** Schaltfläche und wähle Kanten und/oder Flächen aus.
--   Wenn du Kanten oder Flächen entfernen möchtest
-    -   wähle entweder die Kante/Fläche in der Liste des Dialogs und drücke die **DEL** Taste. *Hinweis*   * Da es mindestens eine Kante für das Formelement geben muss, kann die letzte verbleibende Kante oder Fläche in der Liste nicht entfernt werden.
-    -   oder klicke auf die **Entfernen** Schaltfläche. Alle Kanten und Flächen, die zuvor ausgewählt wurden, werden violett hervorgehoben. Wähle die zu entfernende Kante oder Fläche aus.
--   Klicke auf **OK**, um zu bestätigen.
--   Bei einer Kette von Kanten, die tangential zueinander verlaufen, kann eine einzelne Kante gewählt werden; die Fase breitet sich entlang der Kette aus.
--   Um die Fase nach der Validierung der Funktion zu bearbeiten, doppelklicke entweder auf die Fasenbeschriftung im Projektbaum oder klicke mit der rechten Maustaste darauf und wähle **Fase bearbeiten**.
+1.  Eine der folgenden Möglichkeiten startet die Bearbeitung   *
+    -   Das Chamfer-Objekt in der [Baumansicht](Tree_view/de.md) doppelt anklicken.
+    -   Das Chamfer-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **Chamfer bearbeiten** aus dem Kontextmenü auswählen.
+2.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Fase** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
 
+## Optionen
 
-</div>
-
-### Edit a chamfer 
-
-1.  Do one of the following   *
-    -   Double-click the Chamfer object in the [Tree view](Tree_view.md)
-    -   Right-click the Chamfer object in the [Tree view](Tree_view.md) and select **Edit Chamfer** from the context menu.
-2.  The **Chamfer parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
-
-## Options
-
--   To add edges do one of the following   *
-    -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
-    -   To select all remaining edges do the following   *
-        1.  If required press the **Add** button.
-        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu. <small>(v0.20)</small> 
--   To remove edges do one of the following   *
-    -   Press the **Remove** button to start deselecting edges and/or faces in the [3D view](3D_view.md). Selected elements are highlighted in purple.
-    -   Select one or more elements in the list and press the **Del** key, or right-click the list and select **Remove** from the context menu.
--   Specify a chamfer **Type**   *
+-   Zum Hinzufügen von Kanten hat man folgende Möglichkeiten   *
+    -   Die Schaltfläche **Hinzufügen** drücken, um die Auswahl weiterer Kanten und/oder Flächen in der [3D-Ansicht](3D_view/de.md) zu starten.
+    -   Zur Auswahl aller übrigen Kanten hat man folgende Möglichkeiten   *
+        1.  Wenn nötig, Schaltfläche **Hinzufügen** drücken.
+        2.  Tastaturkürzel **Ctrl**+**Shift**+**A** anwenden, oder mit der rechten Maustaste in die Liste klicken und **Alle Kanten verwenden** aus dem Kontextmenü auswählen. {{Version/de|0.20}}
+-   Zum Entfernen von Kanten hat man folgende Möglichkeiten   *
+    -   Die Schaltfläche **Entfernen** drücken, um das Entfernen der Kanten und/oder Flächen in der [3D-Ansicht](3D_view/de.md) zu starten. Ausgewählte Elemente werden in violett hervorgehoben.
+    -   Ein oder mehrere Elemente in der Liste auswählen und die **Del**-Taste drücken, oder mit der rechten Maustaste in die Liste klicken und **Entfernen** aus dem Kontextmenü auswählen.
+-   Den **Typ** der Fase auswählen   *
     -   
-        **Equal distance**
+        **Gleiche Distanzen**
         
-           * One distance is used to place both chamfer edges.
+           * Für die Platzierung beider Fasenkanten wird der gleiche Abstand verwendet.
 
     -   
-        **Two distances**
+        **Zwei Distanzen**
         
-           * Two distances are used to place the chamfer edges. <small>(v0.19)</small> 
+           * Für die Platzierung der Fasenkanten werden zwei unterschiedliche Abstände verwendet. {{Version/de|0.19}}
 
     -   
-        **Distance and angle**
+        **Distanz und Winkel**
         
-           * A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer. <small>(v0.19)</small> 
--   Press the **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Flip direction** button to flip the direction of the chamfer (deactivated for **Equal distance**). <small>(v0.19)</small> 
--   Set the **Size** of the chamfer.
--   Set the **Size2** of the chamfer (only available if **Two distances** is selected).
--   Set the **Angle** of the chamfer (only available if **Distance and angle** is selected).
--   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
+           * Für die Platzierung der einen Fasenkante wird ein Abstand verwendet, die andere Fasenkante wird durch den Winkel festgelegt. {{Version/de|0.19}}
+-   Die Schaltfläche **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Richtung umkehren** drücken, um die Richtung der Fase umzudrehen (deaktivaiert für **gleiche Distanz**). {{Version/de|0.19}}
+-   Die **Größe** der Fase angeben.
+-   Die **Größe 2** der Fase angeben (ist nur verfügbar, wenn **Zwei Distanzen** ausgewählt ist).
+-   Den **Winkel** der Fase angeben (ist nur verfügbar, wenn **Distanz und Winkel** ausgewählt ist).
+-   Die Checkbox **Alle Kanten verwenden** aktivieren, um alle Kanten des vorherigen Formelements auszuwählen. Dies deaktiviert die Auswahlliste und die dazugehörigen Schaltflächen. {{Version/de|0.20}}
 
-## Notes
+## Hinweise
 
+-   PartDesign Fase sollte nicht mit [Part Fase](Part_Chamfer/de.md) verwechselt werden. Solange man nicht weiß, was man macht, sollte [Part Fase](Part_Chamfer/de.md) nicht auf einen PartDesign-Body angewendet werden. Siehe [Part und PartDesign](Part_and_PartDesign/de.md).
+-   Fasen können (dürfen?) die angrenzenden Flächen nicht komplett vereinnahmen.
 
-<div class="mw-translate-fuzzy">
+## Eigenschaften
 
-## PartDesign Fase vs. Part Fase 
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
-**Die PartDesign Fase ist nicht zu verwechseln mit ihrem [Part Arbeitsbereich Gegenstück](Part_Chamfer/de.md)**. Obwohl sie das gleiche Symbol haben, sind sie nicht identisch und werden nicht auf die gleiche Weise verwendet. Der Hauptunterschied besteht darin, dass PartDesign Fase einen separaten Faseneintrag (gefolgt von einer fortlaufenden Nummer, falls bereits Fasen vorhanden sind) im Projektbaum für den aktuellen Körper erstellt. Die Part Fase wird zum Elternobjekt des Objekts, auf das sie angewendet wurde.
+Ein PartDesign-Chamfer-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
 
-
-</div>
-
-## Properties
-
-See also   * [Property editor](Property_editor.md).
-
-A PartDesign Chamfer object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
-
-### Data
+### Daten
 
 
-{{Properties_Title|Base}}
+{{Properties_Title/de|Basis}}
 
--    **Base|LinkSub**   * Link to the selected edges and faces of the parent feature. Can be a link to only the parent feature if **Use All Edges** is `True`.
+-    {{PropertyData/de|Base|LinkSub}}   * Link to the selected edges and faces of the parent feature. Can be a link to only the parent feature if {{PropertyData/de|Use All Edges}} is `True`.
 
--    **Support Transform|Bool**   * If `True` the chamfered shape of the additive/subtractive parent feature will be used when the chamfer object is included in a [pattern](PartDesign_Workbench#Transformation_tools.md), else only the shape of the chamfer itself will be used. The default is `False`.
+-    {{PropertyData/de|Support Transform|Bool}}   * If `True` the chamfered shape of the additive/subtractive parent feature will be used when the chamfer object is included in a [pattern](PartDesign_Workbench#Transformation_tools.md), else only the shape of the chamfer itself will be used. The default is `False`.
 
--    **Add Sub Shape|PartShape|hidden**
+-    {{PropertyData/de|Add Sub Shape|PartShape|hidden}}
     
 
--    **Base Feature|Link|hidden**   * Link to the parent feature.
+-    {{PropertyData/de|Base Feature|Link|hidden}}   * Link to the parent feature.
 
--    **_ Body|LinkHidden|hidden**   * Link to the parent body.
-
-
-{{Properties_Title|Chamfer}}
-
--    **Camfer Type|Enumeration**   * The chamfer type   * {{value|Equal distance}} (default), {{value|Two distances}} or {{value|Distance and Angle}}.
-
--    **Size|QuantityConstraint**   * The first chamfer distance. The default is {{value|1 mm}}.
-
--    **Size2|QuantityConstraint**   * The second chamfer distance. Only used if **Camfer Type** is {{Value|Two distances}}. The default is {{value|1 mm}}.
-
--    **Angle|Angle**   * The chamfer angle. Only used if **Camfer Type** is {{Value|Distance and Angle}}. The default is {{value|45 °}}.
-
--    **Flip Direction|Bool**   * If `True` the direction of the chamfer is flipped. Not used if **Camfer Type** is {{Value|Equal distance}}. The default is `False`.
-
--    **Use All Edges|Bool**   * If `True` all edges of the feature are chamfered, and the edges specified by **Base** are ignored. The default is `False`.
+-    {{PropertyData/de|_ Body|LinkHidden|hidden}}   * Link to the parent body.
 
 
-{{Properties_Title|Part Design}}
+{{Properties_Title/de|Chamfer}}
 
--    **Refine|Bool**   * If `True` redundant edges are removed from the result of the operation. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    {{PropertyData/de|Chamfer Type|Enumeration}}   * Art der Fase   * {{value|Equal distance}} (gleicher Abstand - Standardeinstellung), {{value|Two distances}} (zwei Abstände) oder {{value|Distance and Angle}} (Abstand und Winkel).
 
-## Known issues 
+-    {{PropertyData/de|Größe|QuantityConstraint}}   * Erster Abstand der Fase. Standardwert   * {{value|1 mm}}.
 
-See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
+-    {{PropertyData/de|Größe2|QuantityConstraint}}   * Zweiter Abstand der Fase. Wird nur verwendet, wenn für die {{PropertyData/de|Chamfer Type}} {{Value|Two distances}} ausgewählt wurde. Standardwert   * {{value|1 mm}}.
+
+-    {{PropertyData/de|Angle|Winkel}}   * Winkel der Fase. Wird nur verwendet, wenn für die {{PropertyData/de|Chamfer Type}} {{Value|Distance and Angle}} ausgewählt wurde. Standardwert   * {{value|45 °}}.
+
+-    {{PropertyData/de|Flip Direction|Bool}}   *Wenn `True`, wird die Richtung der Fase umgedreht. Wird nicht verwendet, wenn für die {{PropertyData/de|Chamfer Type}} {{Value|Equal distance}} ausgewählt wurde. Standardwert   * `False`.
+
+-    {{PropertyData/de|Use All Edges|Bool}}   * Wenn `True`, werden alle Kanten des Objekts angefast und die unter der {{PropertyData/de|Base}} angegebenen Kanten werden ignoriert. Standardwert   * `False`.
+
+
+{{Properties_Title/de|Part Design}}
+
+-    {{PropertyData/de|Refine|Bool}}   * Wenn auf `True` gesetzt, werden überflüssige Kanten aus dem Ergebnis der Operation entfernt. Der voreingestellte Wert wird durch die Einstellung **Modell nach skizzenbasierter Operation automatisch aufbereiten** bestimmt. Siehe [PartDesign Einstellungen](PartDesign_Preferences/de#Allgemein.md).
+
+## Bekannte Probleme 
+
+Siehe [PartDesign Verrundung](PartDesign_Fillet/de#Bekannte_Probleme.md).
 
 
 

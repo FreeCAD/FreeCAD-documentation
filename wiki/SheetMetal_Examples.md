@@ -293,7 +293,7 @@ Edit **length** to vary the length of all planar strips extending from the bends
 *Edit **angle*   *Default angle (90°) → Enlarged angle → Decreased angle**
 
 We don\'t have to care about trimming the edges, because **Auto Miter** is activated by default.
-If deactivated, this situation would display like this   *
+If deactivated, the result would look like this   *
 
  <img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09g.png  style="width   *200px;"> 
 

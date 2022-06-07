@@ -13,7 +13,7 @@ W poniższych uwagach, `" kontekst"` powinien być nazwą twojego dodatku lub ś
 
 ### W każdym pliku .py Python 
 
--   W każdym pliku, w którym trzeba przetłumaczyć tekst, należy zdefiniować funkcję `translate()`. Możesz użyć w pełni kwalifikowanej nazwy z Qt, ale to jest trochę bardziej przejrzyste w użyciu   *
+-   W każdym pliku, w którym trzeba przetłumaczyć tekst, należy zdefiniować funkcję `translate()`. Musi to być dokładnie nazwa `translate`   * ekstraktor ciągów znaków opiera się właśnie na tej nazwie. Możesz użyć w pełni kwalifikowanej nazwy z Qt, ale to jest trochę bardziej przejrzyste w użyciu   *
 
    *   
     

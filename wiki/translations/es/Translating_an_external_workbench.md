@@ -24,7 +24,7 @@ En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento
 
 </div>
 
--   In every file where you need to translate text, you need a `translate()` function defined. You can use the fully-qualified name from Qt, but it\'s a little cleaner to use   *
+-   In every file where you need to translate text, you need a `translate()` function defined. It must be named exactly `translate`   * the string extractor relies on that exact name. You can use the fully-qualified name from Qt, but it\'s a little cleaner to use   *
 
    *   
     

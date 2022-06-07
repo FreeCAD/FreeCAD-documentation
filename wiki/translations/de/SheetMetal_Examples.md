@@ -257,6 +257,116 @@ Diese Eigenschaft entspricht dem Innenradius der Bögen, die an Knotenpunkten er
 
 </div>
 
+
+<div class="mw-collapsible mw-collapsed">
+
+### Bend object <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+A Bend object consists of sets of one cylindrical bend and one planar strip each. Each pair extends from a selected edge of a blank.
+
+<img alt="" src=images/SheetMetal_Example-09a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09b.png  style="width   *200px;">
+
+
+
+*Selected edges + 
+**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)* 
+→ Bend objects with default settings <br>
+(Two Bend objects in two separate bodies.)**
+
+Edit **radius** to vary the inner radius of all bends supplied by a Bend object. (See BaseBend object above)
+
+Edit **length** to vary the length of all planar strips extending from the bends of a Bend object.
+
+   *   Don\'t confuse the **length** with a flange length which is the sum of this length, radius, and thickness (90° only).
+
+<img alt="" src=images/SheetMetal_Example-09b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;">
+
+
+
+*Switch **invert* from {{FALSE** to `True`   *Default flanges (Bend objects) → Inverted flanges}}
+
+<img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09e.png  style="width   *200px;">
+
+
+
+*Edit **angle*   *Default angle (90°) → Enlarged angle → Decreased angle**
+
+We don\'t have to care about trimming the edges, because **Auto Miter** is activated by default.
+If deactivated, the result would look like this   *
+
+<img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09g.png  style="width   *200px;">
+
+
+
+*Switch **Auto Miter* from {{TRUE** to `False`   * Default angle (90°) → Enlarged angle → Decreased angle<br>
+(Auto Miter has no effect on single flanges)}}
+
+To manually miter a flange edge **miterangle1** and **miterangle2** are used   *
+
+<img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09n.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09o.png  style="width   *200px;">
+
+
+
+*Edit **miterangle1* and {{PropertyData|miterangle2**   * No miter (default) → Differently mitered edges, positive angle → Symmetrically mitered edges, negative angles}}
+
+Mitering only effects the planar strips, not the bends.
+
+   *   (It takes the whole edge into account and so cannot be used to chamfer flange edges)
+
+To display the different choices of **Bend Type** we introduce an auxiliary cuboid that extrudes from the same outline as the blank and has the same height as the Bend object (its flange length).
+
+<img alt="" src=images/SheetMetal_Example-09h.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09i.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09j.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09k.png  style="width   *200px;">
+
+
+
+*Select **Bend Type*   * {{value|Material Outside** (default) → {{value|Material Inside}} → {{value|Thickness Outside}} → {{value|Offset}}}}
+
+-   Outside   * The bend starts at the selected edge (The whole Bend object lies outside the cuboid).
+-   Inside   * The outer side of the bend ends on the cuboid surface (The whole Bend object lies inside the cuboid).
+-   Thickness Outside   * The inner side of the bend ends on the cuboid surface (only the planar strip is protruding from the cuboid surface).
+-   Offset   * According to the value of **offset** the bend is moved in outward direction from its default position.
+
+   *   An extension is inserted for positive values (high-lighted strip).
+   *   Negative values are allowed to move the bend inwards.
+
+If we don\'t want to use the whole length of an edge we can use **gap1** and **gap2**.
+
+<img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09l.png  style="width   *200px;">
+
+
+
+*Edit **gap1* and {{PropertyData|gap2**   * Default flanges → Flanges with different values for gap1 and gap2}}
+
+If the length of a gap reaches or extends the value of **min Relief Gap**, a relief will be added to the gap.
+Reliefs are controlled by **relief Type**, **reliefd** (relief depth), and **reliefw** (relief width) which are enabled only when a gap value is set.
+
+<img alt="" src=images/SheetMetal_Example-09p.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09q.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09r.png  style="width   *200px;">
+
+
+
+*Edit **reliefd* and {{PropertyData|reliefw**   * Default values → Relief depth enlarged → Relief depth and width enlarged}}
+
+<img alt="" src=images/SheetMetal_Example-09r.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09s.png  style="width   *200px;">
+
+
+
+*Switch **relief Type* from {{value|Rectangle** to {{value|Round}}   * Default rectangular relief → Round relief}}
+
+The round option will only be applied, if the relief depth is larger than the relief width.
+
+Switch **Use Relief Factor** from `False` (default) to `True` to set the values of **reliefd** and **reliefw** automatically. Both are set to the object\'s (inherited) thickness multiplied by the value of **Relief Factor**.
+
+   *   In this case the round option is useless, since the relief depth is as large as the relief width. (See above)
+
+
+</div>
+
+
+</div>
+
 [Category   *SheetMetal](Category_SheetMetal.md) [Category   *Addons](Category_Addons.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 

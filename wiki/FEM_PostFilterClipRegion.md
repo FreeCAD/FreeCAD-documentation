@@ -3,7 +3,7 @@
    Name   *FEM PostFilterClipRegion
    MenuLocation   *Results → Region clip filter
    Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[Result pipeline](FEM_PostPipelineFromResult.md), [Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterClipRegion
@@ -20,7 +20,7 @@ Clips a field using a sphere or a plane cutting through the model.
 
 1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
 2.  Invoke the command either by   *
-    -   Pressing the button **<img src="images/FEM_PostFilterClipRegion.svg" width=16px> [Region clip filter](FEM_PostFilterClipRegion.md)** button.
+    -   Pressing the button **<img src="images/FEM_PostFilterClipRegion.svg" width=16px> '''Region clip filter'''** button.
     -   Using the menu **Results → <img src="images/FEM_PostFilterClipRegion.svg" width=16px> Region clip filter** option from the menu.
 3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). You might need to hide the pipeline to see the effect of the filter in the preview.
 4.  Either

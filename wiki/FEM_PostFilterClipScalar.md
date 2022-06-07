@@ -3,7 +3,7 @@
    Name   *FEM PostFilterClipScalar
    MenuLocation   *Results → Scalar clip filter
    Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterClipScalar
@@ -24,7 +24,7 @@ A scalar filter can be combined with other filters. Here is for example a scalar
 
 1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another existing filter.
 2.  Invoke the command either by   *
-    -   Pressing the button **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> [Scalar clip filter](FEM_PostFilterClipScalar.md)**.
+    -   Pressing the button **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> '''Scalar clip filter'''**.
     -   Using the menu **Results → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Scalar clip filter**.
 3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). Hide that pipeline to see the effect of a Scalar Clip Filter.
 4.  Select the **Scalar** type from the expandable list.

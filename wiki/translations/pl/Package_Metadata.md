@@ -9,7 +9,7 @@ Beginning in FreeCAD version 0.20, external add-ons (workbenches, macros, and pr
 
 This document currently describes file format version 1.
 
-The metadata file must be a valid, well-formed XML 1.0 document. It must be called \"package.xml\", and must exist in the base directory of the software package. All understood XML tags are in lowercase, but unrecognized tags are **not** an error. Most tags are optional, and some only apply to certain types of package contents (for example, only Workbenches currently provide a \"classname\" element). Unneeded or unrecognized elements are ignored.
+The metadata file must be a valid, well-formed XML 1.0 document. It must be called \"package.xml\", and must exist in the base directory of the software package\'s primary branch (as specified by the [FreeCAD-addons .gitmodules file](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) in its git repository. Only the package.xml file from the primary branch is considered by the Addon Manager. All understood XML tags are in lowercase, but unrecognized tags are **not** an error. Most tags are optional, and some only apply to certain types of package contents (for example, only Workbenches currently provide a \"classname\" element). Unneeded or unrecognized elements are ignored.
 
 Any file path specified in package.xml must use the slash (\"/\") as the directory separator   * on systems that expect a different separator during execution (e.g. Windows) FreeCAD will automatically convert to the correct separator.
 
@@ -62,7 +62,7 @@ The name of this package. Must only contain characters that are valid for filena
 
 REQUIRED
 
-A version number that follows either the [semantic versioning 2.0 standard](https   *//semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https   *//calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type.
+A version number that follows either the [semantic versioning 2.0 standard](https   *//semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https   *//calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type. Note that this cannot be left blank, some kind of version number must be assigned. When the Addon Manager detects an increase in version number it will display the \"update available\" information to users.
 
 ###  
 
@@ -199,7 +199,7 @@ Provided for convenience to other tools, any number of other files may be listed
 
 Multiple allowed   * \"repository\" is required, and \"readme\"-type is highly recommended.
 
-A Uniform Resource Locator for the package\'s website, bug tracker, source repository, zip download link, readme file, or documentation (as specified by the \"type\" attribute \-- see below).
+A Uniform Resource Locator for the package\'s website, bug tracker, source repository, zip download link, readme file, or documentation (as specified by the \"type\" attribute, see below).
 
 When specifying the \"readme\" type, a direct link to a rendered version of the README should be provided. For example, on GitHub, this is a \"blob\"-type link such as \"<https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", or on a GitLab instance, \"<https   *//gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (note the slightly different URL format between the two).
 
@@ -207,7 +207,7 @@ It is a good idea to include  tags pointing users to your package\'s online reso
 
 #### Attributes 
 
--   type=\"TYPE\" (required)   * The type should be one of the following identifiers \-- \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
+-   type=\"TYPE\" (required)   * The type should be one of the following identifiers   * \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
 -   branch=\"BRANCH\" (required for type=\"repository\")   * The name of the branch to check out to obtain this package. Typically the name of your main development branch. May also specify any other type of git reference, e.g. a tag or specific commit.
 
 ###  
@@ -224,7 +224,7 @@ The name of a person who is an author of the package, as acknowledgement of thei
 
 Multiple allowed
 
-Declares a dependency on another FreeCAD Addon or internal workbench, or Python package. The named dependency is first checked against the list of known Addons (e.g. those available either from the official FreeCAD Addons git repository, or those in a custom user-specified repository). If no match is found it is checked against the list of known internal workbenches (both installed and uninstalled). Finally, if the named dependency has not been located in the previous two steps it is assumed to be a Python package dependency. Note that not all dependency-related features are fully implemented yet.
+Declares a dependency on another FreeCAD Addon or internal workbench, or Python package. The named dependency is first checked against the list of known Addons (e.g. those available either from the official FreeCAD Addons git repository, or those in a custom user-specified repository). The check is against the canonical name of the Addon. If a package.xml file is present for that Addon, the name is that package\'s  element. An exact match is required. If no match is found it is checked against the list of known internal workbenches (both installed and uninstalled). Finally, if the named dependency has not been located in the previous two steps it is assumed to be a Python package dependency. Note that not all dependency-related features are fully implemented yet.
 
 #### Attributes 
 
@@ -269,24 +269,31 @@ The minimum version of FreeCAD required to use this package/element, as a semant
 
 The maximum version of FreeCAD required to use package/element, as a semantic version 2.0 string in the format MAJOR.MINOR.BUILD
 
+## Sprawdzanie poprawności 
+
+To validate your package.xml file you can enable \"developer mode\" in the Addon Manager   * create a boolean variable called \"developerMode\" in the \"Addons\" parameter group and set it to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**. When the Addon Manager has finished reading the Addons database it will examine all available package.xml files for errors.
+
 ## Examples
+
+Note that comments (the text between `< ! - -` and `- - >`) are ignored by the XML parser, and are not a required part of the file format. They are provided here for information purposes and may be omitted from the final package.xml if desired.
 
 A simple workbench-only package (for example, to add a metadata file to a package that predates this metadata format)   *
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
-      <name>Legacy Workbench</name>
-      <description>A package.xml file to add to a workbench that predates the metadata standard.</description>
-      <version>1.0.1</version>
-      <date>2022-01-07</date>
+      <name>Legacy Workbench</name> 
+      <description>Text that the Addon Manager shows for the Addon. Any length, but remember that Addon Manager's compact view only shows the first sentence or so.</description>
+      <version>1.0.1</version> 
+      <date>2022-01-07</date> 
       <maintainer email="your_address@null.com">Your Name</maintainer>
-      <license file="LICENSE">LGPLv2.1</license>
-      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
+      <license file="LICENSE">LGPLv2.1</license> 
+      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url> 
+      <url type="readme">https   *//github.com/chennes/FreeCAD-Package/blob/main/README.md</url> 
       <icon>Resources/icons/PackageIcon.svg</icon> 
 
       <content>
         <workbench>
-          <classname>MyLegacyWorkbench</classname>
+          <classname>MyLegacyWorkbench</classname> 
           <subdirectory>./</subdirectory>
         </workbench>
       </content>

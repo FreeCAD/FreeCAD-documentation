@@ -7,12 +7,20 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento **Spessore** funziona su un corpo solido e lo trasforma in un oggetto cavo, con almeno una faccia aperta, e assegna a ciascuna delle sue facce rimanenti uno spessore uniforme. Su alcuni solidi permette di velocizzare significativamente il lavoro ed evita di fare estrusioni e tasche.
 
+
+</div>
+
 <img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
-*The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
+*Base solid (A) →  Solid with selected face to be opened (B) →  Resulting hollow object (C)*
 
 ## Utilizzo
+
+### Add a thickness 
 
 
 <div class="mw-translate-fuzzy">
@@ -27,7 +35,22 @@ Lo strumento **Spessore** funziona su un corpo solido e lo trasforma in un ogget
 
 </div>
 
+
+   *   *Remember*   *
+    -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
+
+### Edit a thickness 
+
+1.  Do one of the following   *
+    -   Double-click the Thickness object in the [Tree view](Tree_view.md)
+    -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
+2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
 ## Opzioni
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Thickness**   * Spessore della parete dell\'oggetto risultante. Impostare il valore desiderato.
 -   **Mode**
@@ -39,7 +62,10 @@ Lo strumento **Spessore** funziona su un corpo solido e lo trasforma in un ogget
     -   *Intersection*   * quando le facce sono spostate verso l\'esterno, gli spigoli tra le facce vengono mantenuti.
 -   **Make thickness inwards**   * quando è selezionato, le facce sono spostate verso l\'interno.
 
-## Limitazioni
+
+</div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -52,46 +78,45 @@ Lo strumento **Spessore** funziona su un corpo solido e lo trasforma in un ogget
 
 </div>
 
-## Esempio
+## Properties
 
-1.  Creare un pad dallo schizzo
-2.  Creare un secondo schizzo sul piano XY
-3.  Creare un secondo pad dal secondo schizzo
+See also   * [Property editor](Property_editor.md).
 
-Come nelle seguenti immagini   *
+A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
-![](images/Braga-primoPad.png )
-
-![](images/Braga-secondoschizzo.png )
-
-![](images/Braga-secondo_Pad.png )
+### Data
 
 
-<div class="mw-translate-fuzzy">
+{{Properties_Title|Base}}
 
-Poi
+-    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
 
-1.  Selezionare una faccia circolare
-2.  Selezionare **<img src="images/PartDesign_Thickness.svg" width=24px> Spessore
-**
-3.  Aggiungere le altre facce circolari alla selezione
+-    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
 
+-    **Add Sub Shape|PartShape|hidden**
+    
 
-</div>
+-    **Base Feature|Link|hidden**   * Link to the parent feature.
 
-Risultato   * ![](images/Brga-spessore.png )
-
-## Errori noti 
+-    **_ Body|LinkHidden|hidden**   * Link to the parent body.
 
 
-<div class="mw-translate-fuzzy">
+{{Properties_Title|Part Design}}
 
--   BRep\_API   * command not done
--   BRep\_Tool   *   * no parameter on edge
--   Silently Fails
+-    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
-</div>
+{{Properties_Title|Thickness}}
+
+-    **Value|Length**   * \"Thickness value\". Default   * {{value|1 mm}}.
+
+-    **Mode|Enumeration**   * \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
+
+-    **Join|Enumeration**   * \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+
+-    **Reversed|Bool**   * \"Apply the thickness towards the solids interior\". Default   * `False`.
+
+-    **Intersection|Bool**   * \"Enable intersection-handling\". Default   * `False`.
 
 
 <div class="mw-translate-fuzzy">

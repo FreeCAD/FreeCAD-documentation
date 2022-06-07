@@ -37,6 +37,8 @@ Le parti importate mantengono le loro dipendenze esterne e possono essere modifi
 
 Per salvare l\'assemblaggio e in seguito chiuderlo, è possibile utilizzare il pulsante <img alt="" src=images/A2p_Save_and_exit.svg  style="width   *24px;"> della barra degli strumenti.
 
+Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> sets the way you can select several several edges, faces etc.   * Either with a single click or by **Ctrl**+click.
+
 ## Assemblaggio
 
 L\'assemblaggio delle parti viene effettuato aggiungendo dei vincoli tra le parti. Dopo l\'applicazione di un vincolo, A2plus sposta le parti in base al vincolo, se possibile.
@@ -141,6 +143,8 @@ I vincoli possono essere soppressi temporaneamente selezionandoli nell\'albero d
 Tutti i vincoli possono essere risolti in qualsiasi momento con il pulsante <img alt="" src=images/A2p_solver.svg  style="width   *24px;">. Se il pulsante della barra degli strumenti <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width   *24px;"> è attivato, viene eseguita automaticamente una risoluzione dopo ogni modifica di un vincolo.
 
 Il pulsante <img alt="" src=images/A2p_FlipConstraint.svg  style="width   *24px;"> ha effetto sull\'ultimo vincolo aggiunto. Capovolge la direzione del vincolo.
+
+With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
 
 ## Elenchi delle parti 
 

@@ -9,7 +9,7 @@ A partir de la version 0.20 de FreeCAD, les add-ons externes (ateliers, macros, 
 
 Ce document décrit actuellement la version 1 du format de fichier.
 
-Le fichier de métadonnées doit être un document XML 1.0 valide et bien formé. Il doit s\'appeler \"package.xml\", et doit exister dans le répertoire de base du logiciel. Toutes les balises XML comprises sont en minuscules, mais les balises non reconnues ne constituent pas une erreur. La plupart des balises sont facultatives, et certaines ne s\'appliquent qu\'à certains types de contenu de paquetage (par exemple, seuls les ateliers fournissent actuellement un élément \"classname\"). Les éléments inutiles ou non reconnus sont ignorés.
+Le fichier de métadonnées doit être un document XML 1.0 valide et bien formé. Il doit s\'appeler \"package.xml\", et doit exister dans le répertoire de base de la branche principale du logiciel (comme spécifié par le [FreeCAD-addons .gitmodules file](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) dans son dépôt git. Seul le fichier package.xml de la branche principale est pris en compte par le gestionnaire d\'addons. Toutes les balises XML comprises sont en minuscules, mais les balises non reconnues ne sont **pas** une erreur. La plupart des balises sont facultatives, et certaines ne s\'appliquent qu\'à certains types de contenu de paquet (par exemple, seuls les ateliers fournissent actuellement un élément \"classname\"). Les éléments inutiles ou non reconnus sont ignorés.
 
 Tout chemin de fichier spécifié dans package.xml doit utiliser la barre oblique (\"/\") comme séparateur de répertoire    * sur les systèmes qui attendent un séparateur différent pendant l\'exécution (par exemple Windows) FreeCAD convertira automatiquement vers le séparateur correct.
 
@@ -62,7 +62,7 @@ Le nom de ce paquet. Ne doit contenir que des caractères valides pour les noms 
 
 OBLIGATOIRE
 
-Un numéro de version qui suit soit la [norme de versionnement sémantique 2.0](https   *//semver.org) (par exemple 1.0.2-beta), soit le style [CalVer](https   *//calver.org/) (par exemple 2021.12.08). Notez que vous ne pouvez pas inclure les deux types, et que le passage d\'un type à l\'autre n\'est pas pris en charge. En interne, le code n\'a aucune notion du type choisi, lors de la comparaison des versions, il effectue une simple comparaison numérique entre chaque composant numérique successif, quel que soit le type.
+Un numéro de version qui suit soit la [norme de versionnement sémantique 2.0](https   *//semver.org) (par exemple 1.0.2-beta), soit le style [CalVer](https   *//calver.org/) (par exemple 2021.12.08). Notez que vous ne pouvez pas inclure les deux types, et que le passage d\'un type à l\'autre n\'est pas pris en charge. En interne, le code n\'a aucune notion du type choisi, lors de la comparaison des versions, il effectue une simple comparaison numérique entre chaque composant numérique successif, quel que soit le type. Notez que ce champ ne peut pas être laissé vide, un numéro de version doit être attribué. Lorsque le gestionnaire d\'addons détecte une augmentation du numéro de version, il affiche l\'information \"mise à jour disponible\" aux utilisateurs.
 
 ###  
 
@@ -199,7 +199,7 @@ Fournis pour la convivialité d\'autres outils, un certain nombre d\'autres fich
 
 Plusieurs autorisés    * Le type \"repository\" est obligatoire, et le type \"readme\" est fortement recommandé.
 
-Un URL (Uniform Resource Locator) pour le site web du paquet, le système de suivi des bogues, le dépôt des sources, le lien de téléchargement du zip, le fichier readme ou la documentation (comme spécifié par l\'attribut \"type\" - voir ci-dessous).
+Un URL (Uniform Resource Locator) pour le site web du paquet, le système de suivi des bogues, le dépôt des sources, le lien de téléchargement du zip, le fichier readme ou la documentation (comme spécifié par l\'attribut \"type\", voir ci-dessous).
 
 Lorsque vous spécifiez le type \"readme\", un lien direct vers une version restituée du fichier README doit être fourni. Par exemple, sur GitHub, il s\'agit d\'un lien de type \"blob\" tel que \"<https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", ou sur une instance GitLab, \"<https   *//gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (notez le format d\'URL légèrement différent entre les deux).
 
@@ -224,7 +224,7 @@ Le nom d\'une personne qui est un auteur du paquet, comme reconnaissance de son 
 
 Multiple autorisé
 
-Déclare une dépendance sur un autre addon FreeCAD ou un atelier interne, ou un paquetage Python. La dépendance nommée est d\'abord comparée à la liste des modules complémentaires connus (par exemple ceux disponibles dans le dépôt git officiel de FreeCAD Addons, ou ceux dans un dépôt personnalisé spécifié par l\'utilisateur). Si aucune correspondance n\'est trouvée, elle est vérifiée par rapport à la liste des ateliers internes connus (à la fois installés et désinstallés). Enfin, si la dépendance nommée n\'a pas été localisée lors des deux étapes précédentes, elle est supposée être une dépendance du paquetage Python. Notez que toutes les fonctionnalités liées aux dépendances ne sont pas encore complètement implémentées.
+Déclare une dépendance sur un autre addon de FreeCAD ou un atelier interne, ou un module en Python. La dépendance nommée est d\'abord vérifiée par rapport à la liste des modules complémentaires connus (par exemple ceux disponibles soit dans le dépôt git officiel des modules complémentaires de FreeCAD, soit dans un dépôt personnalisé spécifié par l\'utilisateur). La vérification porte sur le nom canonique de l\'addon. Si un fichier package.xml est présent pour cet addon, le nom est l\'élément  de ce package. Une correspondance exacte est requise. Si aucune correspondance n\'est trouvée, le nom est comparé à la liste des ateliers internes connus (installés et désinstallés). Enfin, si la dépendance nommée n\'a pas été localisée lors des deux étapes précédentes, elle est supposée être une dépendance du module en Python. Notez que toutes les fonctionnalités liées aux dépendances ne sont pas encore complètement implémentées.
 
 #### Attributs 
 
@@ -269,24 +269,31 @@ La version minimale de FreeCAD requise pour utiliser ce paquetage/élément, sou
 
 La version maximale de FreeCAD requise pour utiliser le paquetage/élément, sous la forme d\'une chaîne sémantique de la version 2.0 au format MAJOR.MINOR.BUILD.
 
+## Validation
+
+Pour valider votre fichier package.xml, vous pouvez activer le \"mode développeur\" dans le gestionnaire d\'addons    * créez une variable booléenne appelée \"developerMode\" dans le groupe de paramètres \"Addons\" et définissez-la sur True    * **Outils → Editer les paramètres... → BaseApp → Préférences → Addons → developerMode**. Lorsque le gestionnaire d\'addons a fini de lire la base de données des addons, il examine tous les fichiers package.xml disponibles à la recherche d\'erreurs.
+
 ## Exemples
+
+Notez que les commentaires (le texte entre `< ! - -` et `- - >`) sont ignorés par l\'analyseur XML et ne sont pas une partie obligatoire du format de fichier. Ils sont fournis ici à titre d\'information et peuvent être omis du package.xml final si vous le souhaitez.
 
 Un paquet simple réservé à l\'atelier (par exemple, pour ajouter un fichier de métadonnées à un paquet antérieur à ce format de métadonnées)    *
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
-      <name>Legacy Workbench</name>
-      <description>A package.xml file to add to a workbench that predates the metadata standard.</description>
-      <version>1.0.1</version>
-      <date>2022-01-07</date>
+      <name>Legacy Workbench</name> 
+      <description>Text that the Addon Manager shows for the Addon. Any length, but remember that Addon Manager's compact view only shows the first sentence or so.</description>
+      <version>1.0.1</version> 
+      <date>2022-01-07</date> 
       <maintainer email="your_address@null.com">Your Name</maintainer>
-      <license file="LICENSE">LGPLv2.1</license>
-      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
+      <license file="LICENSE">LGPLv2.1</license> 
+      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url> 
+      <url type="readme">https   *//github.com/chennes/FreeCAD-Package/blob/main/README.md</url> 
       <icon>Resources/icons/PackageIcon.svg</icon> 
 
       <content>
         <workbench>
-          <classname>MyLegacyWorkbench</classname>
+          <classname>MyLegacyWorkbench</classname> 
           <subdirectory>./</subdirectory>
         </workbench>
       </content>

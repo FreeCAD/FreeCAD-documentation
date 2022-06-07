@@ -15,12 +15,20 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un objeto hueco con una pared de un grosor determinado, con al menos una cara abierta, dando a cada una de sus caras restantes un espesor uniforme. Con algunos sólidos permite un ahorro significativo de trabajo, evitando hacer extrusiones y vaciados innecesarios.
 
+
+</div>
+
 <img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
-*The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
+*Base solid (A) →  Solid with selected face to be opened (B) →  Resulting hollow object (C)*
 
 ## Uso
+
+### Add a thickness 
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +43,22 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
 
 </div>
 
+
+   *   *Remember*   *
+    -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
+
+### Edit a thickness 
+
+1.  Do one of the following   *
+    -   Double-click the Thickness object in the [Tree view](Tree_view.md)
+    -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
+2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
 ## Opciones
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Espesor**   * Grosor de la pared del objeto resultante. Introducir el valor deseado en números positivos.
 -   **Modo**
@@ -47,53 +70,61 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
     -   *Intersección*   * Cuando el espesor se aplica hacia afuera, crea los bordes rectos, sin redondear.
 -   **Hacer el grosor hacia el interior**   * Al seleccionar esta casilla, el espesor es aplicado hacia el interior de las caras, con los bordes rectos, sin redondear.
 
-## Limitaciones
+
+</div>
+
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Debe seleccionarse al menos una cara para ser abierta.
 -   Si el espesor va hacia adentro, el valor debe de ser menor que la altura más pequeña del Body (cuerpo).
 -   La operación podría fallar con formas complejas. En este contexto, la superficie, por ejemplo, de un cono, tiene que ser considerada como compleja.
     -   Las herramientas [Tubo aditivo](PartDesign_AdditivePipe/es.md) (barrido) o [Additive Loft](PartDesign_AdditiveLoft/es.md) (interpolación de secciones) podrían trabajar mejor para crear formas complejas.
 
-## Ejemplo
-
-1.  Crear una extrusión desde un boceto.
-2.  Crear un segundo boceto sobre el plano XY.
-3.  Crear una segunda extrusión desde el segundo boceto.
-
-Como en las siguientes imágenes   *
-
-![](images/Braga-primoPad.png )
-
-![](images/Braga-secondoschizzo.png )
-
-![](images/Braga-secondo_Pad.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Seguidamente   *
-
-1.  Seleccionar una cara circular.
-2.  Pulsar el botón **<img src="images/PartDesign_Thickness.svg" width=24px> Espesor
-**
-3.  Añadir las otras caras circulares a la selección.
-
 
 </div>
 
-Resultado   * ![](images/Brga-spessore.png )
+## Properties
 
-## Errores conocidos 
+See also   * [Property editor](Property_editor.md).
 
+A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
-<div class="mw-translate-fuzzy">
-
--   BRep\_API   * Operación no realizada.
--   BRep\_Tool   *   * Ningún parámetro sobre el borde.
--   Fallos silenciosos.
+### Data
 
 
-</div>
+{{Properties_Title|Base}}
+
+-    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
+
+-    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
+
+-    **Add Sub Shape|PartShape|hidden**
+    
+
+-    **Base Feature|Link|hidden**   * Link to the parent feature.
+
+-    **_ Body|LinkHidden|hidden**   * Link to the parent body.
+
+
+{{Properties_Title|Part Design}}
+
+-    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+
+
+{{Properties_Title|Thickness}}
+
+-    **Value|Length**   * \"Thickness value\". Default   * {{value|1 mm}}.
+
+-    **Mode|Enumeration**   * \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
+
+-    **Join|Enumeration**   * \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+
+-    **Reversed|Bool**   * \"Apply the thickness towards the solids interior\". Default   * `False`.
+
+-    **Intersection|Bool**   * \"Enable intersection-handling\". Default   * `False`.
 
 
 

@@ -1,5 +1,5 @@
 ---
-- TutorialInfo   *   Topic   *Assemly3, a simple mechanism and a control panel
+- TutorialInfo   *   Topic   *Assemly3, a simple mechanism
    Level   *Basic knowledge of Assembly3 tools is helpful
    FCVersion   *0.20 and later
    Time   *30 minutes

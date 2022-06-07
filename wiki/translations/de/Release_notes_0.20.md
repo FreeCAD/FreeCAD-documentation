@@ -70,6 +70,17 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 
 ### Bekannte Begrenzungen 
 
+#### 32bit Windows 
+
+Already since FreeCAD 0.19 we don\'t officially support 32bit Windows. It might work there but no support is given for these systems.
+
+#### Remote Desktop under Windows 
+
+Depending on the OpenGL graphics capabilities of a computer, it might be that one encounters a crash when running FreeCAD via remote desktop. To fix this upgrade your OpenGL driver. Only if this doesn\'t help   *
+
+-   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
+-   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
+
 ## Benutzeroberfläche
 
 
@@ -253,6 +264,8 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | A new command **Create multiple Arch Structure** was also added. It uses the first selected object as a Base, and creates Arch Structures objects for every Edge of the other selected objects. Then, the properties of individual Structure objects can be adjusted in the Property editor. This command was added for workflow with a master Sketch (there is risk of topological naming problem unless you create non-parametric copy of the master Sketch or use Realthunder\'s version) |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                               | Support for **2D data** such as linework, hatches, texts and dimensions is now enabled in IFC import and export, which contributes to turn the IFC format more and more suitable for traditional 2D CAD work. A similar effort is being made in [BlenderBIM](https   *//blenderbim.org). More 2D workflow improvements are documented [in this forum thread](https   *//forum.freecadweb.org/viewtopic.php?p=563067#p563067).                                                                      |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request \#3229](https   *//github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                    |
 +++
 
@@ -313,8 +326,6 @@ We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [K
 -   Nonlinear solid materials with simple hardening can now have an arbitrary number of yield points. [Pull request \#5024](https   *//github.com/FreeCAD/FreeCAD/pull/5024)
 -   Allow modal adding/removal of geometric entities to constraints acting on boundaries. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
 -   Most FEM constraint dialogs now behave uniformly and provide the same 3D object selection features. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
-
-## Import
 
 ## Export
 
@@ -413,8 +424,6 @@ There is also a text box for feedback of OpenSCAD errors.
 
 -   FreeCAD now provides the Plot module by default, so any other module/workbench may create plots without requiring external tools [Pull request \#4971](https   *//github.com/FreeCAD/FreeCAD/pull/4971).
 
-## Arbeitsbereich Rendern 
-
 ## Arbeitsbereich Skizzierer 
 
 
@@ -462,14 +471,10 @@ There is also a text box for feedback of OpenSCAD errors.
 -   Improved navigation using the **Tab** and **Enter** keys.
 -   Improved interface for cutting and pasting blocks of cells.
 
-## Arbeitsbereich Start 
-
-## Arbeitsbereich Oberfläche 
-
 ## Arbeitsbereich TechDraw 
 
    
-  <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width   *400px;">   More than 30 new tools, so-called [Extensions](TechDraw_Workbench#Extensions.md), are now available. They offer new cosmetic features to enhance drawings.
+  <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width   *384px;">   More than 30 new tools, so-called [Extensions](TechDraw_Workbench#Extensions.md), are now available. They offer new cosmetic features to enhance drawings.
    
 
 ### Weitere TechDraw Verbesserungen 
@@ -497,9 +502,37 @@ these are the new workbenches created in this development cycle, or older workbe
 
 ### A2plus
 
+Several features to view, inspect and edit existing constraints were added. One can now e.g. highlight constraints with a label, suppress a constraint temporarily or run the solver only for a particular constraint.
+
+For more information see [the constraint handling description](A2plus_Workbench#Constraint_Handling.md).
+
 ### Assembly3
 
++++
+| <img alt="" src=images/Asm3_relnotes_0.20.jpg  style="width   *384px;">     | The Assembly3 Workbench is available (as of March 2022) through the [AddonManager](Std_AddonMgr.md). This makes for easy installation and management of the external dependencies of the workbench.                                                                                                  |
+|                                                                       |                                                                                                                                                                                                                                                                                                              |
+|                                                                       | Assembly3 is used to create assemblies of different bodies contained in a single file or in multiple documents leveraging the full power of FreeCAD's Link system. Learn more about [Links](App_Link.md) in this [video presentation](https   *//www.youtube.com/watch?v=yTDkJ7JZAWs) from Realthunder. |
+|                                                                       |                                                                                                                                                                                                                                                                                                              |
+|                                                                       | Assembly3 Workbench uses [SolveSpace](https   *//solvespace.com) as it's solver.                                                                                                                                                                                                                                |
+|                                                                       |                                                                                                                                                                                                                                                                                                              |
+|                                                                       | Extensive documentation can be found at the main FreeCAD [Assembly3 wiki](Assembly3.md) page or Realthunder\'s GitHub [Assembly3 wiki](https   *//github.com/realthunder/FreeCAD_assembly3/wiki)                                                                                                        |
++++
+| <img alt="" src=images/Asm3_1_relnotes_0.20.jpg  style="width   *384px;"> | **Main features   ***                                                                                                                                                                                                                                                                                           |
+|                                                                       |                                                                                                                                                                                                                                                                                                              |
+|                                                                       | -   Dynamic/interactive solver   * move parts with the mouse while the solver constrains the motion.                                                                                                                                                                                                            |
+|                                                                       | -   Links   * use one single part multiple times in an assembly.                                                                                                                                                                                                                                                |
+|                                                                       | -   External links   * allows usage of parts from external documents.                                                                                                                                                                                                                                           |
+|                                                                       | -   Hierarchical assemblies   * permits the creation of sub assemblies.                                                                                                                                                                                                                                         |
+|                                                                       | -   Assembly freeze   * assemblies that are not required to remain dynamic can be excluded from calculations and are considered fixed geometry by the asm3 solver.                                                                                                                                              |
+|                                                                       | -   And much more.                                                                                                                                                                                                                                                                                           |
++++
+
 ### Assembly4
+
+   
+  <img alt="" src=images/A4_veriant-beam_relnotes_0.20.png  style="width   *384px;">Different length of a beam as variant.                                                  New feature to add variants. These are [links](App_Link.md) to a part with varying parameters, meaning that you can insert the same part several times, and adjust the parameters of each instance. For more info see [this forum thread](https   *//forum.freecadweb.org/viewtopic.php?p=538666#p538666).
+  <img alt="" src=images/A4_veriant-animation_relnotes_0.20.gif  style="width   *384px;">An animated assembly.Click on the image to see the animation.   Animations can be exported to the MP4 and GIF format.
+   
 
 ### ArchitekturTexturen
 

@@ -398,7 +398,13 @@ Sehen wir uns ein Beispiel an
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Der wichtigste Gedanke, den es zu verstehen gilt, ist dass die Beschränkung auf Verknüpfungen zu Elementen in der Liste im \"Elements\"-Baumabschnitt wirkt. Dies erlaubt, die Bindungsstruktur intakt zu halten, während die Teile geändert werden. Dies ist ohne ein Beispiel sehr schwer zu erkennen.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -411,6 +417,9 @@ Zurück zum obigen Beispiel
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Das Beispiel zeigt, dass man die zur Einschränkung gehörenden Elemente austauschen kann, ohne die Einschränkung zu Löschen. Auf dieselbe Weise kann der Zylinder auch zu einem ganz anderen Teil bewegt werden. Nachdem man etwas mit diesem Beispiel herumgespielt hat, wird man noch zusätzliche Möglichkeiten entdecken, wie z.B.
 
 -   Wenn ein Element in der Liste umbenannt wird, wird es auch in allen Einschränkungen umbenannt
@@ -419,6 +428,9 @@ Das Beispiel zeigt, dass man die zur Einschränkung gehörenden Elemente austaus
 -   Man kann den \'Show Element Coordinate System\'-Knopf der Hauptwerkzeugleiste benutzen, um zu sehen, wie sich \'Flip Part\' und \'Flip Element\' aus dem Kontextmenü auswirken. Nicht vergessen, die Änderungen im Eigenschaftsfenster zu beobachten.
 -   Eine Einschränkung kann auch in einer ganz anderen Reihenfolge hinzugefügt werden   * Zuerst werden Elemente zur \'Elements\'-Liste hinzugefügt (Eine Benennung ist hier nützlich, z.B. \"Würfel-Oberseite\" oder \"Würfel-Unterseite\"), dann wird eine Einschränkung hinzugefügt, ohne etwas auszuwählen - Das ergibt eine leere Einschränkung. Dann werden Elemente aus der Liste per \'Drag&Drop\' hierher gezogen und abgelegt. Das Ergebnis ist das gleiche, wie in dem ersten Beispiel. Nach dieser Übung sollte klar sein, wie Einschränkungen und Elemente zusammenarbeiten.
 -   Eine bestehende Einschränkung zwischen bestehenden Elementen kann einfach ausgetauscht werden, indem man eine andere Auswahl in der \'ConstraintType\'-Eigenschaft im Eigenschaftsfenster trifft.
+
+
+</div>
 
 [Zum Anfang](#top.md)
 

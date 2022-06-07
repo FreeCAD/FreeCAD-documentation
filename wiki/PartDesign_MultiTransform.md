@@ -1,7 +1,7 @@
 ---
 - GuiCommand   *
    Name   *PartDesign MultiTransform
-   MenuLocation   *Part Design → Apply a pattern → MultiTransform
+   MenuLocation   *Part Design → Apply a pattern → Create MultiTransform
    Workbenches   *[PartDesign](PartDesign_Workbench.md)
 ---
 

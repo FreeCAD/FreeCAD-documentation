@@ -3,8 +3,7 @@
 
 ### Stable
 
-
-{{code|
+If you want to install at the user level or don\'t have sudo privileges add the `--user` flag to the following commands. {{code|lang=bash|code=
 # add flathub repo just to be sure as it might not be enabled if it is your first time using flatpak
 flatpak remote-add --if-not-exists flathub https   *//flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub org.freecadweb.FreeCAD
@@ -12,8 +11,7 @@ flatpak install flathub org.freecadweb.FreeCAD
 
 ### Beta
 
-
-{{code|
+If you want to install at the user level or don\'t have sudo privileges add the `--user` flag to the following commands. {{code|lang=bash|code=
 # flathub-beta repo is not enabled by default
 flatpak remote-add --if-not-exists flathub-beta https   *//flathub.org/beta-repo/flathub-beta.flatpakrepo
 flatpak install flathub-beta org.freecadweb.FreeCAD
@@ -22,7 +20,7 @@ flatpak install flathub-beta org.freecadweb.FreeCAD
 Note   * They can be installed in parallel. To choose which one to run use the `--branch` flag   *
 
 
-{{code|
+{{code|lang=bash|code=
 flatpak run --branch=beta org.freecadweb.FreeCAD
 }}
 

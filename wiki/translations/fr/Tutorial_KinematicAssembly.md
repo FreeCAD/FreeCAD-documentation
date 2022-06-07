@@ -1,6 +1,6 @@
 ---
 - TutorialInfo   */fr
-   Topic   *Assemly3, un mécanisme simple et un panneau de contrôle
+   Topic   *Assemly3, un mécanisme simple
    Level   *Une connaissance basique des outils Assembly3 est utile
    FCVersion   *0.20 et plus
    Time   *30 minutes

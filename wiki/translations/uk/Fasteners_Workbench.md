@@ -164,6 +164,18 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width   *32px;"> **ASME B18.3.5D** UNC Hexagon socket set screw with cup point.
 
+### Hexalobular socket head screws 
+
+-   <img alt="" src=images/Fasteners_ISO14579.svg  style="width   *32px;"> **ISO 14579** Hexalobular socket head cap screw.
+
+-   <img alt="" src=images/Fasteners_ISO14580.svg  style="width   *32px;"> **ISO 14580** Hexalobular socket cheese head screw.
+
+-   <img alt="" src=images/Fasteners_ISO14582.svg  style="width   *32px;"> **ISO 14582** Hexalobular socket countersunk head screw, high head.
+
+-   <img alt="" src=images/Fasteners_ISO14583.svg  style="width   *32px;"> **ISO 14583** Hexalobular socket pan head screw.
+
+-   <img alt="" src=images/Fasteners_ISO14584.svg  style="width   *32px;"> **ISO 14584** Hexalobular socket raised countersunk head screw.
+
 ### Slotted head screws 
 
 -   <img alt="" src=images/Fasteners_ISO2009.svg  style="width   *32px;"> 
@@ -195,44 +207,9 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** Cheese head screw with type H cross recess.
 
-### Hexalobular socket head screws 
-
--   <img alt="" src=images/Fasteners_ISO14579.svg  style="width   *32px;"> **ISO 14579** Hexalobular socket head cap screw.
-
--   <img alt="" src=images/Fasteners_ISO14580.svg  style="width   *32px;"> **ISO 14580** Hexalobular socket cheese head screw.
-
--   <img alt="" src=images/Fasteners_ISO14582.svg  style="width   *32px;"> **ISO 14582** Hexalobular socket countersunk head screw, high head.
-
--   <img alt="" src=images/Fasteners_ISO14583.svg  style="width   *32px;"> **ISO 14583** Hexalobular socket pan head screw.
-
--   <img alt="" src=images/Fasteners_ISO14584.svg  style="width   *32px;"> **ISO 14584** Hexalobular socket raised countersunk head screw.
-
 ### Other head bolts 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** UNC Round head square neck bolt.
-
-### Washers
-
--   <img alt="" src=images/Fasteners_ISO7089.svg  style="width   *32px;"> 
-**ISO 7089** Plain washer, normal series. *Product grade A.*
-
--   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> 
-**ISO 7090** Plain washer chamfered, normal series. *Product grade A.*
-
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Plain washer, small series.
-
--   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
-**ISO 7093-1** Plain washer, large series. *Product grade A.*
-
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Plain washer, extra large series.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** UN washer, narrow series.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN washer, regular series.
-
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN washer, wide series.
-
--   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
 
 ### Nuts
 
@@ -258,6 +235,29 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width   *32px;"> **ASME B18.2.2.4A** UNC Hexagon nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width   *32px;"> **ASME B18.2.2.4B** UNC Hexagon thin nut.
+
+### Washers
+
+-   <img alt="" src=images/Fasteners_ISO7089.svg  style="width   *32px;"> 
+**ISO 7089** Plain washer, normal series. *Product grade A.*
+
+-   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> 
+**ISO 7090** Plain washer chamfered, normal series. *Product grade A.*
+
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Plain washer, small series.
+
+-   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
+**ISO 7093-1** Plain washer, large series. *Product grade A.*
+
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Plain washer, extra large series.
+
+-   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** UN washer, narrow series.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN washer, regular series.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
 ### Miscellaneous
 

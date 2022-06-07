@@ -137,7 +137,7 @@ All constraints can be resolved at any time with the toolbar button <img alt="" 
 
 The toolbar button <img alt="" src=images/A2p_FlipConstraint.svg  style="width   *24px;"> affects the constraint that was added most recently. It flips the constraint direction.
 
-With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking on it a dialog pops up. Then either select a part in the tree and click on the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click on the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column\'\' Suppress\'\' a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
+With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
 
 ## Part Lists 
 

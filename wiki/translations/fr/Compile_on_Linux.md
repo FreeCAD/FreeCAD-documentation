@@ -387,9 +387,9 @@ Vous pouvez éventuellement installer ces paquets supplémentaires    *
 Requiert Pyside2, disponible sous Debian Buster et les [freecad-stable/freecad-daily PPAs](Installing_on_Linux/fr#Dépôt_officiel_Ubuntu.md).
 
 
-```python
+{{Code|lang=bash|code=
 sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
-```
+}}
 
 REMARQUE    * Sur certaines versions d\'Ubuntu et certaines versions de Qt, vous obtiendrez une erreur indiquant que python3-pyside2uic est introuvable \-- sur ces systèmes, vous pouvez l\'omettre sans risque. Sur Ubuntu 20.04, vous devrez ajouter `pyqt5-dev-tools`. Vous trouverez plus d\'informations dans [cette discussion du forum](https   *//forum.freecadweb.org/viewtopic.php?t=51324).
 
@@ -404,9 +404,9 @@ Ceci n'est pas recommandé pour les nouvelles installations car Python 2 et Qt4 
 <div class="mw-collapsible-content">
 
 
-```python
+{{Code|lang=bash|code=
 sudo apt install cmake debhelper dh-exec dh-python libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin80-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside-dev libqt4-dev libqt4-opengl-dev libqtwebkit-dev libshiboken-dev libspnav-dev libvtk6-dev libx11-dev libxerces-c-dev libzipios++-dev lsb-release occt-draw pyside-tools python-dev python-matplotlib python-pivy python-ply swig
-```
+}}
 
 Utilisateurs de Ubuntu 16.04, veuillez aussi consulter la discussion sur la compilation dans le forum [Compiler sur Linux (Kubuntu)   * CMake ne peut pas trouver VTK](http   *//forum.freecadweb.org/viewtopic.php?f=4&t=16292).
 
@@ -472,6 +472,26 @@ Plus d\'informations, [FreeCAD et Raspberry Pi 4](https   *//forum.freecadweb.or
 
 <div class="mw-collapsible-content">
 
+Il y a un bogue dans cmake distribué par Fedora 34/35 qui fait que cmake ne trouve pas les bibliothèques d\'opencascade. Ceci peut être facilement corrigé en faisant un changement mineur au fichier cmake de niveau supérieur d\'opencascade installé sur Fedora. Plus de détails ici    * <https   *//bugzilla.redhat.com/show_bug.cgi?id=2083568>.
+
+Vers le haut du fichier **OpenCASCADEConfig.cmake**, changez la ligne suivante pour utiliser {{Incode|REAL_PATH()}}. Ceci corrige un bogue introduit par l\'utilisation d\'un lien symbolique de {{Incode|/lib}} à {{Incode|/usr/lib}} de Fedora, qui fait échouer cmake.
+
+Ce fichier est généralement installé dans **/usr/lib64/cmake/opencascade/OpenCASCADEConfig.cmake**.
+
+
+{{Code|lang=bash|code=
+get_filename_component (OpenCASCADE_INSTALL_PREFIX "${OpenCASCADE_INSTALL_PREFIX}" PATH)
+}}
+
+changez cela en    *
+
+
+{{Code|lang=bash|code=
+file (REAL_PATH ${OpenCASCADE_INSTALL_PREFIX} OpenCASCADE_INSTALL_PREFIX)
+}}
+
+Ce changement trivial doit être fait dans le répertoire de compilation une fois que cmake a été lancé et a échoué. Une nouvelle exécution de cmake détectera alors correctement les bibliothèques OCCT de la manière habituelle.
+
 Vous avez besoin des paquets suivants    *
 
 -   gcc-c++ (or possibly another C++ compiler?)
@@ -509,7 +529,7 @@ Vous avez besoin des paquets suivants    *
 -   SoQt-devel
 -   freetype
 -   freetype-devel
--   vtk
+-   vtk-devel
 -   med
 -   med-devel
 
@@ -519,8 +539,6 @@ Et éventuellement    *
 -   python3-pivy (https   *//bugzilla.redhat.com/show\_bug.cgi?id=458975 Pivy n\'est pas obligatoire mais nécessaire pour l\'atelier Draft)
 -   python3-markdown (pour que le gestionnaire d\'addons affiche le markdown natif)
 -   python3-git (pour que le gestionnaire d\'addons utilise git pour vérifier et mettre à jour les ateliers et les macros)
-
-Il y a un bogue dans cmake distribué par Fedora 34/35 qui ne trouve pas les bibliothèques opencascade sur Fedora. Cela peut être facilement corrigé en ajoutant une ligne au fichier cmake de niveau supérieur d\'opencascade installé sur Fedora. Plus de détails ici    * <https   *//bugzilla.redhat.com/show_bug.cgi?id=2083568>
 
 
 </div>

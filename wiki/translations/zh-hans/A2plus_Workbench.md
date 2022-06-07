@@ -53,6 +53,8 @@ To update changed parts in assemblies click on the toolbar button <img alt="" sr
 
 要保存装配体并随后将其关闭，可以使用工具栏按钮 <img alt="" src=images/A2p_Save_and_exit.svg  style="width   *24px;">。
 
+Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> sets the way you can select several several edges, faces etc.   * Either with a single click or by **Ctrl**+click.
+
 ## 装配
 
 
@@ -178,6 +180,8 @@ Constraints can be temporarily suppressed by selecting them in the model tree an
 使用工具栏按钮 <img alt="" src=images/A2p_solver.svg  style="width   *24px;">可以随时解析所有约束。 如果工具栏按钮<img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width   *24px;">处于打开状态，则在每次编辑约束后都会自动完成解析。
 
 工具栏按钮 <img alt="" src=images/A2p_FlipConstraint.svg  style="width   *24px;">影响最近添加的约束。 点击后将翻转约束方向。
+
+With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
 
 ## 零件清单
 

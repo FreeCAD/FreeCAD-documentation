@@ -7,7 +7,7 @@
 
 L\'atelier A2plus est un [atelier externe](External_workbenches/fr.md) de Freecad qui permet l\'[assemblage](Assembly/fr.md) de plusieurs pièces.
 
-Cette documentation d\'A2plus porte sur la version **0.4.54b ou plus récente**.
+Cette documentation d\'A2plus porte sur la version **0.4.56 ou plus récente**.
 
 ## Installation
 
@@ -30,6 +30,8 @@ Pour mettre à jour les pièces modifiées dans les assemblages, cliquez sur le 
 Les pièces importées conservent leurs dépendances externes et peuvent être modifiées. Pour des pièces bien définies telles que des vis, il est toutefois utile que leur forme ne puisse pas être modifiée. Ceci peut être réalisé avec le bouton de la barre d'outils <img alt="" src=images/A2p_ConvertPart.svg  style="width   *24px;"> qui convertit la pièce sélectionnée en une copie statique de la pièce d\'origine.
 
 Pour enregistrer l'ensemble et le refermer par la suite, vous pouvez utiliser le bouton de la barre d'outils <img alt="" src=images/A2p_Save_and_exit.svg  style="width   *24px;">.
+
+Le basculement du bouton de la barre d\'outils <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> définit la manière dont vous pouvez sélectionner plusieurs arêtes, faces, etc.    * soit par un simple clic, soit par **Ctrl**+clic.
 
 ## Assemblage
 
@@ -135,6 +137,8 @@ Les contraintes peuvent être supprimées en les sélectionnant dans l\'arboresc
 Toutes les contraintes peuvent être résolues à tout moment avec le bouton de la barre d'outils <img alt="" src=images/A2p_solver.svg  style="width   *24px;">. Si le bouton de la barre d\'outils <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width   *24px;"> est activé, une résolution est automatiquement effectuée après chaque édition d\'une contrainte.
 
 Le bouton de la barre d\'outils <img alt="" src=images/A2p_FlipConstraint.svg  style="width   *24px;"> affecte la contrainte qui a été ajoutée le plus récemment. Il inverse la direction de la contrainte.
+
+Avec l\'outil <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;">, il est possible d\'afficher et d\'inspecter les contraintes existantes. Après avoir cliqué sur l\'outil, une boîte de dialogue s\'ouvre. Vous pouvez alors soit sélectionner une pièce dans l\'arborescence et cliquer sur le bouton **Import from part** pour obtenir toutes les contraintes de cette pièce, soit sélectionner une ou plusieurs contraintes dans l\'arborescence et cliquer sur le bouton **Import from Tree**. Le résultat est que vous obtenez toutes les informations sur les contraintes. En cliquant dans la colonne *Suppress*, une seule contrainte peut être supprimée. Pour plus de fonctionnalités, suivez les infobulles des autres boutons de la boîte de dialogue.
 
 ## Listes de pièces 
 

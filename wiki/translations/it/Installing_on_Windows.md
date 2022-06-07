@@ -7,138 +7,95 @@
 
 {{TOCright}}
 
-## Standard Installation 
+## Installazione Standard 
 
-
-<div class="mw-translate-fuzzy">
-
-Il modo più semplice per **installare FreeCAD su Windows** è utilizzare il pacchetto di installazione scaricabile sopra. Questa pagina descrive l\'utilizzo e le funzionalità di \"NSIS Installer\" per ulteriori opzioni di installazione.
-
-
-</div>
+Il modo più semplice per installare l\'ultima versione stabile di FreeCAD è di utilizzare l\'installer.
 
 
 {{DownloadWindowsStable}}
 
+Se si desidera scaricare una versione di sviluppo, che potrebbe essere instabile, vedere la pagina [Weekly builds download](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 
-<div class="mw-translate-fuzzy">
+Dopo aver scaricato l\'installer, fare doppio clic su di esso per avviare il processo di installazione.
 
-Se si desidera scaricare una versione di sviluppo (che potrebbe essere instabile), vedere la pagina [Download](Download/it.md).
+Più avanti sono riportate ulteriori informazioni sul alcune opzioni tecniche. Ma la maggior parte degli utenti necessita solo dell\'installer. Al termine dell\'installazione leggere la pagina [Per iniziare](Getting_started/it.md).
 
+## Installazione per tutti gli utenti in ambiente Windows 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dopo aver scaricato il file .exe (NSIS Installer), fare doppio clic su di esso per avviare il processo di installazione automatica.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Più avanti sono riportate ulteriori informazioni sul alcune opzioni tecniche.
-Tuttavia, la maggior parte degli utenti ha solo bisogno dei precedenti file .exe. Al termine dell\'installazione leggere la pagina [Per iniziare](Getting_started/it.md).
-
-
-</div>
-
-## Installation for all users of the Windows system 
-
-By default FreeCAD will be installed for the user that executes the installer. If this user only has user permissions, the default installation path is   *
+Di default FreeCAD verrà installato per l\'utente che esegue l\'installazione. Se l\'utente ha permessi per il solo utente, il percorso d\'installazione è   *
 
    *   
     **C   *Users\<username>\AppData\Local\Programs\FreeCAD X.YY**
     
 
-If the installer is executed by an admin user, or you execute it as admin, you can choose if FreeCAD should be installed for all users of the system or just for you. The default is for all users.
+Se l\'installer è eseguito da un utente amministratore, o se lo esegui come amministratore, puoi scegliere se FreeCAD deve essere installato per tutti gli utenti del sistema o solo per te. Il default è per tutti gli utenti.
 
-If installed for all users, the default installation path is   *
+Se installato per tutti gli utenti, il percorso di default è   *
 
    *   
     **C   *Program Files\FreeCAD X.YY**
     
 
-## Silent Installation 
+## Installazione in modalità silente 
 
-To install FreeCAD silently, you can execute the installer from the command line   *
+Per installare FreeCAD in modalità silente, puoi eseguire l\'installer dalla riga di comando.
 
 
 {{Code|lang=text|code=
 FreeCAD-~.exe /S
 }}
 
-Default settings will be used for all options. A custom installation path can be specified in this manner   *
+Le impostazioni di default verranno utilizzate per tutte le opzioni. Si può specificare un percorso d\'installazione personalizzato in questo modo   *
 
 
 {{Code|lang=text|code=
 FreeCAD-~.exe /S /D=A path to FreeCAD with spaces
 }}
 
-By default, even with silent installations, there will be a short popup when the installer is checked for corruption. This so-called cyclic redundancy check only takes a few seconds at most. To disable this corruption check   *
+Di default, anche con installazioni in modalità silente, ci sarà un breve avviso quando l\'installer viene verificato per eventuali corruzioni. Questo è detto controllo ciclico di ridondanza e richiede normalmente pochi secondi. Per disabilitare il controllo di corruzione   *
 
 
 {{Code|lang=text|code=
 FreeCAD-~.exe /S /NCRC
 }}
 
-Note that this {{Incode|/NCRC}} flag is **not recommended** since the corruption check assures that the installer was e.g. completely downloaded.
+Notare che questa selezione {{Incode|/NCRC}} \"non è raccomandata\" perché il controllo di corruzione assicura che l\'installer sia stato completamente scaricato.
 
 ## Chocolatey
 
-
-<div class="mw-translate-fuzzy">
-
-Tuttavia, si consiglia vivamente di utilizzare un gestore di pacchetti come Chocolatey per mantenere aggiornato il software. È possibile installare Chocolatey seguendo [queste istruzioni](https   *//chocolatey.org/install) e quindi aprire un terminale PowerShell come amministratore ed eseguire   *
-
-
-</div>
+Si consiglia vivamente di utilizzare un gestore di pacchetti come Chocolatey per mantenere aggiornato il software. È possibile installare Chocolatey seguendo [queste istruzioni](https   *//chocolatey.org/install) e quindi aprire un terminale PowerShell come amministratore ed eseguire   *
 
 
 {{Code|lang=text|code=
 choco install freecad
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 di tanto in tanto si può aggiornare il proprio software con
-
-
-</div>
 
 
 {{Code|lang=text|code=
 choco upgrade freecad
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-per ottenere l\'ultima versione disponibile sul repository Chocolatey. In caso di problemi con il pacchetto chocolatey, è possibile contattare i manutentori su [questa pagina](https   *//chocolatey.org/packages/freecad).
-
-
-</div>
+Questo otterrà l\'ultima versione disponibile dal repository Chocolatey. In caso di problemi con il pacchetto Chocolatey, è possibile contattare i manutentori su [questa pagina](https   *//chocolatey.org/packages/freecad).
 
 ## Disinstallazione
 
-To uninstall FreeCAD it is preferable to use the Windows tools for uninstalling software. Alternatively you can execute the uninstaller directly. This is the file   *
+Per disinstallare FreeCAD è preferibile utilizzare gli strumenti di Windows per la disinstallazione del software. In alternativa puoi eseguire l\'uninstaller direttamente. Questo è il file   *
 
    *   
     **Uninstall-FreeCAD.exe**
     
 
-You can find it in the folder where FreeCAD is installed.
+Si trova nella cartella dove FreeCAD è installato.
 
-The uninstaller can also be executed silently using the command line   *
+L\'uninstaller può anche essere eseguito in modalità silente dalla riga di comando.
 
 
 {{Code|lang=text|code=
 Uninstall-FreeCAD.exe /S}}
 
-Note that (silent) uninstallation will fail if there is a running instance of FreeCAD, even if that instance is not the version being uninstalled.
+Notare che la disinstallazione silente fallisce se c\'è un\'instanza aperta di FreeCAD, anche se l\'istanza non è quella della versione che sta per essere disinstallata.
 
 
 {{docnav/it

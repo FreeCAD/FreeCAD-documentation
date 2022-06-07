@@ -16,7 +16,7 @@ The clipping plane is the same you get when using the feature [Toggle Clip Plane
 
 ## Usage
 
-To create a clipping plane, either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> or the menu **Utilities → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Clipping plane on face**. It is possible to have several clipping planes.
+To create a clipping plane, either use the toolbar button **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Clipping plane on face'''** or the menu **Utilities → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Clipping plane on face**. It is possible to have several clipping planes.
 
 Despite the plane is persistent, it will not appear in the [document tree](Tree_view.md). The plane appears in the model view like this   *
 

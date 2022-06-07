@@ -201,6 +201,8 @@ optionalpylibs=metadata,git
 
 Vous pouvez également inclure un script qui est exécuté lorsque votre paquet est désinstallé. Il s\'agit d\'un fichier appelé \"uninstall.py\" situé au niveau supérieur de votre module complémentaire. Il est exécuté lorsqu\'un utilisateur désinstalle votre module complémentaire à l\'aide du gestionnaire de modules complémentaires. Utilisez-le pour nettoyer tout ce que votre addon a pu faire sur le système de l\'utilisateur et qui ne devrait pas persister après la disparition de l\'addon (par exemple, suppression des fichiers de cache, etc.).
 
+To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode use the [Parameter Editor](Parameter_Editor.md) to create a boolean variable called \"developerMode\" in the \"Addons\" parameter group, and set this variable to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
+
 ### Ateliers en C++ 
 
 Si vous voulez coder votre atelier en C++, vous souhaiterez probablement coder aussi sa définition elle-même en C++ (bien que cela ne soit pas nécessaire    * vous pouvez également coder uniquement les outils en C++, et laisser la définition de de l\'atelier en Python). Dans ce cas, le fichier InitGui.py devient très simple    * il peut contenir une seule ligne    *

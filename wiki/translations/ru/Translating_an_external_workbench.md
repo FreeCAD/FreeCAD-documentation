@@ -13,7 +13,7 @@ In the following notes, `"context"` should be your addon\'s or workbench\'s name
 
 ### In every Python .py file 
 
--   In every file where you need to translate text, you need a `translate()` function defined. You can use the fully-qualified name from Qt, but it\'s a little cleaner to use   *
+-   In every file where you need to translate text, you need a `translate()` function defined. It must be named exactly `translate`   * the string extractor relies on that exact name. You can use the fully-qualified name from Qt, but it\'s a little cleaner to use   *
 
    *   
     
