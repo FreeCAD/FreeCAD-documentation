@@ -70,24 +70,24 @@ Język OpenSCAD pozwala na używanie zmiennych i pętli. Pozwala on na określen
 
 OpenSCAD tworzy konstrukcyjną geometrię bryłową, a także importuje pliki siatek i wytłacza geometrię 2D z plików [DXF](DXF/pl.md). FreeCAD pozwala również na tworzenie formatu CSG za pomocą elementów pierwotnych. Jądro geometrii FreeCAD *(OCCT)* działa w oparciu o reprezentację brzegową. Dlatego konwersja z CSG do BREP teoretycznie powinna być możliwa, natomiast konwersja z BREP do CSG zasadniczo nie jest.
 
-OpenSCAD works internally on meshes. Some operations which are useful on meshes are not meaningful on a BREP model and can not be fully supported. Among these are convex hull, minkowski sum, glide and subdiv. Currently we run the OpenSCAD binary in order to perform hull and minkwoski operations and import the result. This means that the involved geometry will be triangulated. In OpenSCAD non-uniform scaling is often used, which does not impose any problems when using meshes. In our geometry kernel geometric primitives (lines, circular sections, etc) are converted to BSpline prior to performing such deformations. Those BSplines are known to cause trouble in later boolean operations. An automatic solution is not available at the moment. Please feel free to post to the forum if you encounter such problems. Often such problems can be solved be remodeling small parts. A deformation of a cylinder can substituted by an extrusion of an ellipses.
+OpenSCAD pracuje wewnętrznie na siatkach. Niektóre operacje, które są przydatne w przypadku siatek, nie mają znaczenia w modelu BREP i nie mogą być w pełni obsługiwane. Należą do nich m.in. kadłub wypukły, suma minkowskiego, przesuwanie i podział. Obecnie w celu wykonania operacji na kadłubie i sumie minkwoskiej uruchamiamy binarny program OpenSCAD i importujemy wynik. Oznacza to, że zaangażowana geometria zostanie poddana triangulacji. W OpenSCAD często stosuje się skalowanie niejednolite, co nie stwarza problemów przy korzystaniu z siatek. W naszym jądrze geometrii elementy pierwotne geometrii (linie, odcinki koliste itp.) są konwertowane na krzywe złożone przed wykonaniem takich deformacji. Te krzywe złożone są znane z tego, że powodują problemy w późniejszych operacjach logicznych. W chwili obecnej nie jest dostępne automatyczne rozwiązanie tego problemu. Jeśli napotkasz takie problemy, napisz o tym na forum. Często takie problemy można rozwiązać, przemodelowując małe części. Zniekształcenie walca można zastąpić wycięciem elipsy.
 
-## Importing text 
+## Importowanie tekstu 
 
-Importing OpenSCAD code with texts requires that the fonts that are used are properly installed on your system. You can verify this by opening OpenSCAD as a standalone tool and checking the list in **Help → Font List**. The list will also give you the correct font names. If a font does not appear in the list after installing, you may have to manually copy the font file to the appropriate system directory.
+Importowanie kodu OpenSCAD z tekstami wymaga, aby czcionki, które są używane, były poprawnie zainstalowane w systemie. Można to sprawdzić otwierając OpenSCAD jako samodzielne narzędzie i sprawdzając listę w **Pomoc → Font List**. Lista ta zawiera również prawidłowe nazwy czcionek. Jeżeli po zainstalowaniu czcionka nie pojawia się na liście, może być konieczne ręczne skopiowanie pliku z czcionką do odpowiedniego katalogu systemowego.
 
-Importing texts is relatively slow. Behind the scenes FreeCAD uses a DXF file created by OpenSCAD. The more contours there are the slower the import.
+Importowanie tekstów jest stosunkowo powolne. Za kulisami FreeCAD korzysta z pliku DXF utworzonego przez OpenSCAD. Im więcej konturów, tym wolniejszy jest import.
 
-It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name)   *
+Dobrym pomysłem może być zaimportowanie najpierw prostego przykładu testowego *(zamień {{Incode|NameOfFont}} na poprawną nazwę czcionki)*   *
 
     TESTFONT="NameOfFont";
     linear_extrude(0.001) {
       text("A", size=5, font=TESTFONT, script="Latn");
     };
 
-The {{Incode|<nowiki>script="Latn"</nowiki>}} parameter can be left out here, but is required if the text string does not contain any letters, but only punctuation and/or numbers.
+Parametr {{Incode|<nowiki>script="Latn"</nowiki>}} można tutaj pominąć, ale jest on wymagany, jeśli łańcuch tekstowy nie zawiera żadnych liter, a jedynie znaki interpunkcyjne i / lub cyfry.
 
-Please note that {{Incode|<nowiki>use <FONT>;</nowiki>}} statements in your source files are ignored when importing in FreeCAD. Under OpenSCAD the effect of a {{Incode|use}} statement is that the provided font file is temporarily added to the list of known fonts (although even there the statement does not work when a script is modified interactively).
+Należy pamiętać, że deklaracje {{Incode|<nowiki>use <FONT>;</nowiki>}} w plikach źródłowych są ignorowane podczas importu w FreeCAD. W OpenSCAD efektem deklaracji {{Incode|use}} jest tymczasowe dodanie podanego pliku czcionki do listy znanych czcionek *(chociaż nawet tam deklaracja nie działa, gdy skrypt jest modyfikowany interaktywnie)*.
 
 ## Wskazówki
 

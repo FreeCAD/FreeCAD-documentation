@@ -7,7 +7,13 @@ Nach dem installieren von FreeCAD für dein Betriebssystem ([Windows](Installing
 
 # Hilfedateien
 
+
+<div class="mw-translate-fuzzy">
+
 Die Offline Dokumentation wird nicht mit allen Installationsprogrammen ausgeliefert, sie ist jedoch als separates Paket verfügbar. Weitere Informationen findest du auf der Seite [Installieren von Hilfedateien](Installing_Helpfile/de.md).
+
+
+</div>
 
 # Externe Arbeitsbereiche 
 

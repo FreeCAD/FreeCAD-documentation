@@ -15,6 +15,9 @@ Die **FlächenFarben** Funktion ermöglicht es dir, eine Farbe für jede Fläche
 
 ## Verwendung
 
+
+<div class="mw-translate-fuzzy">
+
 Um Flächen einzufärben   *
 
 1.  Rechtsklicke auf ein Element in der Baumansicht. Wenn das Element die Funktion *FlächenFarben* unterstützt, gibt es einen Kontextmenüeintrag **Setze Farben\...** und du kannst darauf klicken.
@@ -24,6 +27,9 @@ Um Flächen einzufärben   *
         Oder klicke im Dialogfeld auf die Schaltfläche **Boxauswahl**. Dann kannst du mit der Maus ein Auswahlrechteck im Modell ziehen. Jede Fläche, die sich teilweise im Auswahlrechteck befindet, wird ausgewählt.
 3.  Wähle im Dialogfeld eine Farbe für die ausgewählten Flächen.
 4.  Klicke auf **OK** , um das Dialogfeld zu schließen und die von dir vorgenommenen Änderungen zu übernehmen.
+
+
+</div>
 
 Um alle Flächenfarben zurückzusetzen   *
 

@@ -224,7 +224,7 @@ sudo systemctl restart spacenavd
 
 ### OSX
 
-Les périphériques d\'entrée 3Dconnexion sont pris en charge sur OS X à condition que FreeCAD soit construit et utilisé sur un système sur lequel les pilotes 3Dconnexion sont installés.
+Les périphériques d\'entrée 3Dconnexion sont pris en charge sur OS X à condition que FreeCAD soit construit et utilisé sur un système sur lequel les pilotes 3Dconnexion sont installés. Vous pouvez avoir besoin de 3DxWare 10.7.2 ou plus pour Mac OSX Monterey.
 
 ### Windows
 

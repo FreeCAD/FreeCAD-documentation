@@ -69,20 +69,20 @@
 | [FEM ElementFluid1D/ro](wiki/FEM ElementFluid1D/ro.md) | [FEM ElementGeometry1D/ro](wiki/FEM ElementGeometry1D/ro.md) | [FEM ElementGeometry2D/ro](wiki/FEM ElementGeometry2D/ro.md) |
 | [FEM ElementRotation1D/ro](wiki/FEM ElementRotation1D/ro.md) | [FEM EquationElasticity/ro](wiki/FEM EquationElasticity/ro.md) | [FEM EquationFlow/ro](wiki/FEM EquationFlow/ro.md) |
 | [FEM EquationFlux/ro](wiki/FEM EquationFlux/ro.md) | [FEM EquationHeat/ro](wiki/FEM EquationHeat/ro.md) | [FEM FemMesh2Mesh/ro](wiki/FEM FemMesh2Mesh/ro.md) |
-| [FEM Install/ro](wiki/FEM Install/ro.md) | [FEM MaterialFluid/ro](wiki/FEM MaterialFluid/ro.md) | [FEM MaterialMechanicalNonlinear/ro](wiki/FEM MaterialMechanicalNonlinear/ro.md) |
-| [FEM MaterialSolid/ro](wiki/FEM MaterialSolid/ro.md) | [FEM Mesh/ro](wiki/FEM Mesh/ro.md) | [FEM PostPipelineFromResult/ro](wiki/FEM PostPipelineFromResult/ro.md) |
-| [FEM Shear of a Composite Block/ro](wiki/FEM Shear of a Composite Block/ro.md) | [FEM Solver/ro](wiki/FEM Solver/ro.md) | [FEM SolverCalculixCxxtools/ro](wiki/FEM SolverCalculixCxxtools/ro.md) |
-| [FEM SolverZ88/ro](wiki/FEM SolverZ88/ro.md) | [FEM Tutorial Python/ro](wiki/FEM Tutorial Python/ro.md) | [FEM tutorial/ro](wiki/FEM tutorial/ro.md) |
-| [FEM Workbench/ro](wiki/FEM Workbench/ro.md) | [File Format FCStd/ro](wiki/File Format FCStd/ro.md) | [FreeCAD API/ro](wiki/FreeCAD API/ro.md) |
-| [FreeCAD Build Tool/ro](wiki/FreeCAD Build Tool/ro.md) | [FreeCADGui API/ro](wiki/FreeCADGui API/ro.md) | [Getting started/ro](wiki/Getting started/ro.md) |
-| [Glossary/ro](wiki/Glossary/ro.md) | [GuiCommand model/ro](wiki/GuiCommand model/ro.md) | [Template:GuiCommand/ro](wiki/Template_GuiCommand/ro.md) |
-| [Help FreeCAD/ro](wiki/Help FreeCAD/ro.md) | [How to install additional workbenches/ro](wiki/How to install additional workbenches/ro.md) | [Image Workbench/ro](wiki/Image Workbench/ro.md) |
-| [Import Export Preferences/ro](wiki/Import Export Preferences/ro.md) | [Import Export/ro](wiki/Import Export/ro.md) | [Import from STL or OBJ/ro](wiki/Import from STL or OBJ/ro.md) |
-| [Import/Export IFC - compiling IfcOpenShell/ro](wiki/Import/Export IFC - compiling IfcOpenShell/ro.md) | [Inspection Workbench/ro](wiki/Inspection Workbench/ro.md) | [Installing additional components/ro](wiki/Installing additional components/ro.md) |
-| [Installing on Linux/ro](wiki/Installing on Linux/ro.md) | [Installing on Mac/ro](wiki/Installing on Mac/ro.md) | [Installing on Windows/ro](wiki/Installing on Windows/ro.md) |
-| [Interface Customization/ro](wiki/Interface Customization/ro.md) | [Licence/ro](wiki/Licence/ro.md) | [Localisation/ro](wiki/Localisation/ro.md) |
-| [Macro HighlightDifference/ro](wiki/Macro HighlightDifference/ro.md) | [Macro Unroll Ruled Surface/ro](wiki/Macro Unroll Ruled Surface/ro.md) | [Template:Macro/ro](wiki/Template_Macro/ro.md) |
-| [Main Page/ro](wiki/Main Page/ro.md) | [Manual:Creating renderings/ro](wiki/Manual_Creating renderings/ro.md) | [Material editor/ro](wiki/Material editor/ro.md) |
+| [FEM Install/ro](wiki/FEM Install/ro.md) | [FEM MaterialEditor/ro](wiki/FEM MaterialEditor/ro.md) | [FEM MaterialFluid/ro](wiki/FEM MaterialFluid/ro.md) |
+| [FEM MaterialMechanicalNonlinear/ro](wiki/FEM MaterialMechanicalNonlinear/ro.md) | [FEM MaterialSolid/ro](wiki/FEM MaterialSolid/ro.md) | [FEM Mesh/ro](wiki/FEM Mesh/ro.md) |
+| [FEM PostPipelineFromResult/ro](wiki/FEM PostPipelineFromResult/ro.md) | [FEM Shear of a Composite Block/ro](wiki/FEM Shear of a Composite Block/ro.md) | [FEM Solver/ro](wiki/FEM Solver/ro.md) |
+| [FEM SolverCalculixCxxtools/ro](wiki/FEM SolverCalculixCxxtools/ro.md) | [FEM SolverZ88/ro](wiki/FEM SolverZ88/ro.md) | [FEM Tutorial Python/ro](wiki/FEM Tutorial Python/ro.md) |
+| [FEM tutorial/ro](wiki/FEM tutorial/ro.md) | [FEM Workbench/ro](wiki/FEM Workbench/ro.md) | [File Format FCStd/ro](wiki/File Format FCStd/ro.md) |
+| [FreeCAD API/ro](wiki/FreeCAD API/ro.md) | [FreeCAD Build Tool/ro](wiki/FreeCAD Build Tool/ro.md) | [FreeCADGui API/ro](wiki/FreeCADGui API/ro.md) |
+| [Getting started/ro](wiki/Getting started/ro.md) | [Glossary/ro](wiki/Glossary/ro.md) | [GuiCommand model/ro](wiki/GuiCommand model/ro.md) |
+| [Template:GuiCommand/ro](wiki/Template_GuiCommand/ro.md) | [Help FreeCAD/ro](wiki/Help FreeCAD/ro.md) | [How to install additional workbenches/ro](wiki/How to install additional workbenches/ro.md) |
+| [Image Workbench/ro](wiki/Image Workbench/ro.md) | [Import Export Preferences/ro](wiki/Import Export Preferences/ro.md) | [Import Export/ro](wiki/Import Export/ro.md) |
+| [Import from STL or OBJ/ro](wiki/Import from STL or OBJ/ro.md) | [Import/Export IFC - compiling IfcOpenShell/ro](wiki/Import/Export IFC - compiling IfcOpenShell/ro.md) | [Inspection Workbench/ro](wiki/Inspection Workbench/ro.md) |
+| [Installing additional components/ro](wiki/Installing additional components/ro.md) | [Installing on Linux/ro](wiki/Installing on Linux/ro.md) | [Installing on Mac/ro](wiki/Installing on Mac/ro.md) |
+| [Installing on Windows/ro](wiki/Installing on Windows/ro.md) | [Interface Customization/ro](wiki/Interface Customization/ro.md) | [Licence/ro](wiki/Licence/ro.md) |
+| [Localisation/ro](wiki/Localisation/ro.md) | [Macro HighlightDifference/ro](wiki/Macro HighlightDifference/ro.md) | [Macro Unroll Ruled Surface/ro](wiki/Macro Unroll Ruled Surface/ro.md) |
+| [Template:Macro/ro](wiki/Template_Macro/ro.md) | [Main Page/ro](wiki/Main Page/ro.md) | [Manual:Creating renderings/ro](wiki/Manual_Creating renderings/ro.md) |
 | [Matrix API/ro](wiki/Matrix API/ro.md) | [Mesh API/ro](wiki/Mesh API/ro.md) | [Mesh BoundingBox/ro](wiki/Mesh BoundingBox/ro.md) |
 | [Mesh BuildRegularSolid/ro](wiki/Mesh BuildRegularSolid/ro.md) | [Mesh Difference/ro](wiki/Mesh Difference/ro.md) | [Mesh EvaluateFacet/ro](wiki/Mesh EvaluateFacet/ro.md) |
 | [Mesh Export/ro](wiki/Mesh Export/ro.md) | [Mesh FillInteractiveHole/ro](wiki/Mesh FillInteractiveHole/ro.md) | [Mesh FlipNormals/ro](wiki/Mesh FlipNormals/ro.md) |

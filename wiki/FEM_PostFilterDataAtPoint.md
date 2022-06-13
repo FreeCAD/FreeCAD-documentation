@@ -14,7 +14,7 @@ Displays the value of a selected field at a picked point.
 
 ## Usage
 
-1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
+1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another filter (except of a line filter).
 2.  Invoke the command either by   *
     -   Pressing the button **<img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> '''Data at point clip filter'''**.
     -   Using the menu **Results → <img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> Data at point clip filter**.
@@ -22,8 +22,8 @@ Displays the value of a selected field at a picked point.
 4.  Pick the desired point on the surface of the mesh.
 5.  Select a **Field** from the expandable list.
 6.  The value of that field at the selected location will be displayed in a pop-up window.
-7.  Click the **OK** button to close the pop-up window.
-8.  Click the **OK** button in the task panel to finish the command.
+
+The value of the data point is anytime accessible via the [property](Property_editor.md) **Point Data**.
 
 
 

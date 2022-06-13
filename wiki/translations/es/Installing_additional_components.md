@@ -13,7 +13,13 @@ Después de instalar FreeCAD para tu sistema operativo ([Windows](Installing_on_
 
 # Archivos de ayuda 
 
+
+<div class="mw-translate-fuzzy">
+
 La documentación fuera de línea no se envía con todos los instaladores, pero está disponible como un paquete separado. Consulte la página [Instalación del archivo de ayuda](Installing_Helpfile/es.md) para obtener más información.
+
+
+</div>
 
 # Ambientes de trabajo externos 
 

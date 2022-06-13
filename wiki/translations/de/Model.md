@@ -1,9 +1,9 @@
 # Model/de
 ## Einleitung
 
-In FreeCAD wird das Wort \"[Modell](Model.md)\" im Bezug auf ein 3D-Objekt oder mehrere Objekte verwendet, die in der [3D Ansicht](3D_view/de.md) erstellt wurden.
+In FreeCAD wird das Wort \"[Modell](Model.md)\" im Bezug auf ein 3D-Objekt oder mehrere Objekte verwendet, die in der [3D-Ansicht](3D_view/de.md) erstellt wurden.
 
-\"Modell\" kann irgend etwas sein, das mit den Anwendungen aus FreeCAD erstellt wurde, z.B. dem [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) oder einer der anderen [Arbeitsbereiche](Workbenches/de.md).
+\"Modell\" kann irgend etwas sein, das mit den Anwendungen aus FreeCAD erstellt wurde, z.B. dem [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) oder einem der anderen [Arbeitsbereiche](Workbenches/de.md).
 
 ## Hinweise
 

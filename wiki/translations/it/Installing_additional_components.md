@@ -3,17 +3,17 @@
 
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
-Dopo aver installato FreeCAD sul sistema operativo ([Windows](Installing_on_Windows/it.md), [Linux](Installing_on_Linux/it.md) o [Mac](Installing_on_Mac/it.md)), si può prendere in considerazione l\'installazione di uno o più dei seguenti componenti aggiuntivi.
-
-
-</div>
+Dopo aver installato FreeCAD sul tuo sistema operativo ([Windows](Installing_on_Windows/it.md), [Linux](Installing_on_Linux/it.md) o [Mac](Installing_on_Mac/it.md)), si può prendere in considerazione l\'installazione di uno o più dei seguenti componenti aggiuntivi.
 
 # File di aiuto 
 
+
+<div class="mw-translate-fuzzy">
+
 La documentazione offline non viene fornita con tutti i programmi di installazione, ma è disponibile come pacchetto separato. Vedere la pagina [installare file di aiuto](Installing_Helpfile/it.md) per maggiori informazioni.
+
+
+</div>
 
 # Ambienti di lavoro esterni 
 

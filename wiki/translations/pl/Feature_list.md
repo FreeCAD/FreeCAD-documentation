@@ -6,10 +6,7 @@ Jest to obszerna, ale nie kompletna lista funkcji, realizowanych przez program F
 
 ## Informacje o wydaniu 
 
-
-<div class="mw-translate-fuzzy">
-
--   [Wydanie 0.20](Release_notes_0.20.md) -
+-   [Wydanie 0.20](Release_notes_0.20.md) - Czerwiec 2022
 -   [Wydanie 0.19](Release_notes_0.19/pl.md) - Marzec 2021
 -   [Wydanie 0.18](Release_notes_0.18/pl.md) - Marzec 2019
 -   [Wydanie 0.17](Release_notes_0.17/pl.md) - Kwiecień 2018
@@ -19,9 +16,6 @@ Jest to obszerna, ale nie kompletna lista funkcji, realizowanych przez program F
 -   [Wydanie 0.13](Release_notes_0.13.md) - January 2013
 -   [Wydanie 0.12](Release_notes_0.12.md) - Grudzień 2011
 -   [Wydanie 0.11](Release_notes_0.11.md) - Marzec 2011
-
-
-</div>
 
 ## Główne cechy 
 

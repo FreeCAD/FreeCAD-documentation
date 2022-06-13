@@ -220,7 +220,96 @@ Pour gérer la mise en page nécessaire à l\'impression, les feuilles de calcul
 
 ## Limitations courantes 
 
-FreeCAD vérifie les dépendances cycliques. De par sa conception, cette vérification s'arrête au niveau de l'objet feuille de calcul. Par conséquent, vous ne devriez pas avoir de feuille de calcul contenant à la fois des cellules dont les valeurs sont utilisées pour spécifier des paramètres pour le modèle et des cellules dont les valeurs utilisent la sortie du modèle. Par exemple, vous ne pouvez pas avoir de cellules spécifiant la longueur, la largeur et la hauteur d\'un objet, et une autre cellule qui référence le volume total de la forme obtenue. Cette restriction peut être surmontée en disposant de deux feuilles de calcul    * l\'une utilisée comme source de données pour les paramètres d\'entrée du modèle et l\'autre pour les calculs basés sur les données géométriques résultantes.
+FreeCAD vérifie les dépendances cycliques lorsqu\'il recalcule. De par sa conception, cette vérification s'arrête au niveau de l'objet feuille de calcul. Par conséquent, vous ne devriez pas avoir de feuille de calcul contenant à la fois des cellules dont les valeurs sont utilisées pour spécifier des paramètres pour le modèle et des cellules dont les valeurs utilisent la sortie du modèle. Par exemple, vous ne pouvez pas avoir de cellules spécifiant la longueur, la largeur et la hauteur d\'un objet, et une autre cellule qui référence le volume total de la forme obtenue. Cette restriction peut être surmontée en disposant de deux feuilles de calcul    * l\'une utilisée comme source de données pour les paramètres d\'entrée du modèle et l\'autre pour les calculs basés sur les données géométriques résultantes.
+
+## Liaison cellulaire 
+
+
+{{Version/fr|0.20}}
+
+Il est possible de lier le contenu des cellules à d\'autres cellules du tableur. Cela peut s\'avérer utile pour traiter des tables volumineuses ou pour obtenir le contenu d\'une cellule à partir d\'une autre feuille de calcul.
+
+### Créer une liaison 
+
+Pour lier, par exemple, la plage de cellules A3-C4 à la plage de cellules B1-D2    *
+
+1.  Sélectionnez la plage de cellules A3-C4.
+2.  Cliquez du bouton droit de la souris et sélectionnez **Lier...** dans le menu contextuel.
+3.  Le dialogue **Lier des cellules de la feuille de calcul** s\'ouvre.
+4.  Définissez la plage B1-D2 pour les **Vers les cellules**    *
+    ![](images/Spreadsheet_binding-dialog.png )
+5.  Appuyez sur **OK**.
+6.  Les cellules liées ont une bordure bleue pour mettre en évidence la liaison.
+7.  Si vous saisissez maintenant quelque chose dans la cellule C1, la même chose apparaîtra immédiatement dans la cellule B3.
+
+![](images/Spreadsheet_binding-result.png ) 
+*La feuille de calcul peut maintenant ressembler à ceci*
+
+### Modifier la liaison 
+
+1.  Cliquez du bouton droit de la souris sur une cellule liée (il n\'est pas nécessaire de mettre en surbrillance l\'ensemble de la plage liée) et sélectionnez **Lier...** dans le menu contextuel.
+2.  La boîte de dialogue **Lier des cellules de feuille de calcul** s\'ouvre.
+3.  Modifiez une ou plusieurs options. Notez que la plage de cellules liée, **Lier les cellules**, ne peut pas être modifiée.
+4.  Appuyez sur **OK**.
+
+### Supprimer la liaison 
+
+1.  Clic droit de la souris sur une cellule liée (il n\'est pas nécessaire de mettre en surbrillance l\'ensemble de la plage liée) et sélectionnez **Lier...** dans le menu contextuel.
+2.  La boîte de dialogue **Lier des cellules de la feuille de calcul** s\'ouvre.
+3.  Appuyez sur **Délier**.
+
+### Remarques
+
+-   L\'option **Masquer la dépendance de la liaison** peut être utilisée pour éviter les problèmes de dépendances cycliques entre les feuilles de calcul. Il est nécessaire de la sélectionner lorsque, par exemple, des cellules de la *Feuille de calcul A* sont liées à la *Feuille de calcul B*, tandis que des cellules de la *Feuille de calcul B* sont à leur tour liées à d\'autres cellules de la *Feuille de calcul A*. Cette option doit être utilisée avec prudence    *
+    -   Masquer les dépendances peut être dangereux car des dépendances cassées peuvent endommager votre fichier FreeCAD. Par exemple, lorsque vous supprimez une feuille de calcul, vous ne serez pas averti des dépendances cachées.
+    -   Lorsque vous ouvrez un document avec une feuille de calcul contenant une dépendance cachée, vous obtiendrez la feuille de calcul marquée pour être recalculée. Cela est dû au fait qu\'une dépendance cyclique ne peut pas être recalculée automatiquement. Pour recalculer, il faut utiliser l\'outil [Std Rafraichir](Std_Refresh/fr.md).
+-   La liaison des cellules possède une vérification de l\'étendue et vous avertit en cas d\'étendue non concordante. Par exemple, lier des cellules 1x3 à des cellules 3x2 ne peut pas fonctionner car on ne sait pas quelles sont les 3 cellules à utiliser sur les 6 cellules d\'origine.
+-   Vous ne pouvez pas modifier la plage de cellules d\'une liaison existante. Vous devez d\'abord délier les cellules, puis créer une nouvelle liaison.
+-   La couleur du cadre indiquant la liaison ne peut pas encore être modifiée.
+
+## Tables de configuration 
+
+
+{{Version/fr|0.20}}
+
+Vous pouvez utiliser des tableurs pour créer des tables de configuration avec des ensembles de paramètres prédéfinis pour votre modèle, puis modifier dynamiquement la configuration à utiliser. Consultez [ce message du forum](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) si vous souhaitez en savoir plus sur les rouages de cette fonctionnalité.
+
+
+<div class="mw-collapsible mw-collapsed toccolours">
+
+Développez cette section pour un bref tutoriel sur la création d\'une table de configuration.
+
+
+<div class="mw-collapsible-content">
+
+1.  Dans un nouveau document, créez d\'abord un [Std Part](Std_Part/fr.md), puis créez un [Part Cube](Part_Box/fr.md), un [Part Cylindre](Part_Cylinder/fr.md) et une feuille de calcul.
+2.  Le cube et le cylindre sont automatiquement placés dans le conteneur [Std Part](Std_Part/fr.md). Placez manuellement la feuille de calcul dans le conteneur également.
+3.  Dans la feuille de calcul, entrez le contenu comme indiqué ci-dessous. Définissez l\'alias de B2 à {{Value|width}}, C2 à {{Value|length}} et D2 à {{Value|radius}}    *
+    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
+4.  Liez les [expressions](Expressions/fr.md) {{Value|Spreadsheet.width}} et {{Value|Spreadsheet.length}} aux propriétés de la boîte **Width** et **Length**, respectivement    *
+    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
+5.  Liez l\'expression {{Value|Spreadsheet.radius}} à la propriété **Radius** du cylindre. Changez également la propriété **Height** du cylindre en {{Value|5 mm}} pour qu\'il soit plus bas que la boîte.
+6.  Clic droit sur la cellule A2 dans la feuille de calcul et sélectionner **Configuration de la table...** dans le menu contextuel.
+7.  La boîte de dialogue **Paramétrer une table de configuration** s\'ouvre.
+8.  Saisissez les éléments suivants    *
+    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
+9.  Appuyez sur **OK**.
+10. Une nouvelle propriété appelée **Configuration** est ajoutée au conteneur [Std Part](Std_Part/fr.md) pour choisir la configuration comme indiqué ci-dessous    *
+    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
+
+Vous pouvez utiliser un [Std Lien](Std_LinkMake/fr.md) ou une [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) pour instancier une [instance variante](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) d\'un objet configurable en suivant les étapes suivantes    *
+
+1.  Créez un [Std Lien](Std_LinkMake/fr.md) vers le conteneur [Std Part](Std_Part/fr.md) et attribuez à sa propriété **Link Copy On Change** la valeur {{Value|Enabled}}.
+2.  Déplacez le lien vers un nouvel emplacement en modifiant **Placement** afin qu\'il soit plus facile à distinguer de l\'objet d\'origine.
+3.  Sélectionnez une **Configuration** différente pour le lien afin de créer une instance variante.
+
+Des étapes similaires s\'appliquent à une [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md), sauf que sa propriété permettant d\'activer une instance de variante s\'appelle **Binder Copy On Change**.
+
+
+</div>
+
+
+</div>
 
 ## Scripts basiques 
 

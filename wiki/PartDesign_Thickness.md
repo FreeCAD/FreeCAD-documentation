@@ -80,7 +80,7 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **P
         
            * When non-tangential faces are offset, new faces that do not intersect are extended to meet at their virtual intersection.
 
--    **Intersection**   * This checkbox does not seem to work? See [this forum topic](https   *//forum.freecadweb.org/viewtopic.php?p=600360#p600360).
+-    **Intersection**   * When checked, self-intersections in certain models are avoided. This option is not recommended as it relies on an incomplete [OpenCASCADE method](https   *//dev.opencascade.org/doc/refman/html/class_b_rep_offset_a_p_i___make_thick_solid.html#af78f35025a31e2ce8bd96c82fb33a981).
 
 -    **Make thickness inwards**   * When checked, faces are offset inward.
 

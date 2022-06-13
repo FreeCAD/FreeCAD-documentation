@@ -1,21 +1,15 @@
 # Macro FCTreeView/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro FCTreeView
 |Icon=Macro_FCTreeView.png
 |Translate=Macro FCTree Vista
 |Description={{ColoredText|#ff0000|#ffffff|Nuova versione GUI modificata per HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/>Questa macro visualizza tutti gli oggetti del progetto in un elenco con le opzioni ordinate per etichetta del nome...<br/> <br/>Per la precedente versione vedi [https   *//gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/0a92d7f591a0a179f84b2fc417046723b4d7b0e6/Macro_FCTreeView.FCMacro Macro_FCTreeView.FCMacro] e installa la macro manuelamente.
 |Author=Mario52
-|Version=00.08
-|Date=2020-02-25
-|FCVersion=0.18 e più
+|Version=00.09
+|Date=2020-09-24
+|FCVersion=0.18 ed inferiori
 |Download=[https   *//forum.freecadweb.org/download/file.php?id=70498 Macro FCTreeView Icon package] decomprimere il file .zip e copiare le icona nella directory delle macro.
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -259,7 +253,7 @@ The icon ToolBar ![Macro FCTreeView](images/Macro_FCTreeView.png )
 
 ## Version
 
-ver 00.09 (2020-09-24)    * correct the \"**freeze**\" macro after call the **assembly4 workbench** i try activate \"**Class SelObserver**\" and it work ???
+ver 00.09 (2020-09-24)    * corretto il \"**freeze**\" macro dopo la chiamata al **assembly4 workbench** provato ad attivare \"**Class SelObserver**\" e funziona ???
 
 
 ```python

@@ -22,7 +22,7 @@ Aby kolorować powierzchnie   *
     1.  Dla pojedynczej ściany po prostu kliknij na nią, a następnie wybierz w oknie dialogowym jej kolor.
     2.  Aby wybrać kilka powierzchni, trzymaj wciśnięty klawisz **Ctrl** i klikaj w kilka powierzchni.
         lub kliknij w oknie dialogowym na przycisk **Zaznacz obszar**. Następnie można przeciągnąć myszą prostokąt zaznaczenia w oknie modelu. Zostanie zaznaczona każda powierzchnia, która częściowo znajduje się w obrębie zaznaczenia.
-3.  Wybierz w oknie dialogowym kolor dla zaznaczonych powierzchni.
+3.  Wybierz w oknie dialogowym kolor dla zaznaczonych powierzchni. {{Version/pl|0.20}} Kolorowi można również nadać przezroczystość, definiując kanał alfa.
 4.  Kliknij przycisk **OK**, aby zamknąć okno dialogowe i zaakceptować wprowadzone zmiany.
 
 Aby zresetować wszystkie kolory powierzchni   *

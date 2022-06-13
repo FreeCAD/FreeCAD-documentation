@@ -386,7 +386,13 @@ Bunlar, mevcut bir gövdeden materyal çıkarmak için kullanılan araçlardır.
 
 #### Dönüştürme araçları 
 
+
+<div class="mw-translate-fuzzy">
+
 Bunlar mevcut özellikleri dönüştürmek için kullanılan araçlardır. Hangi özellikleri dönüştüreceğinizi seçmenize izin vereceklerdir.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -422,7 +428,13 @@ Bunlar mevcut özellikleri dönüştürmek için kullanılan araçlardır. Hangi
 
 #### Süsleme araçları 
 
+
+<div class="mw-translate-fuzzy">
+
 Bu araçlar seçilen kenarlara veya yüzlere bir işlem uygular.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

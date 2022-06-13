@@ -35,13 +35,7 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> [Crea schizzo](PartDesign_NewSketch/it.md)   * crea un nuovo schizzo su una faccia o un piano selezionati. Se non viene selezionata alcuna faccia mentre viene eseguito questo strumento, all\'utente viene richiesto di selezionare un piano dal pannello Azioni. L\'interfaccia passa quindi all\'ambiente [Sketcher](Sketcher_Workbench/it.md) nella modalità di modifica dello schizzo.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width   *32px;"> [Modifica schizzo](Sketcher_EditSketch/it.md)   * modifica lo schizzo selezionato.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_EditSketch.png  style="width   *32px;"> [Edita schizzo](Sketcher_EditSketch/it.md)   * modifica lo schizzo selezionato.
 
 
 <div class="mw-translate-fuzzy">
@@ -149,19 +143,49 @@ Questi sono gli strumenti per sottrarre del materiale da un corpo esistente.
 
 #### Strumenti di trasformazione 
 
+
+<div class="mw-translate-fuzzy">
+
 Questi sono gli strumenti per trasformare le funzioni esistenti. Permetteranno di scegliere quali funzioni trasformare.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Specchiato](PartDesign_Mirrored/it.md)   * rispecchia una o più funzioni su un piano o una faccia.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Serie lineare](PartDesign_LinearPattern/it.md)   * crea una serie lineare basata su una o più funzioni.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Serie polare](PartDesign_PolarPattern/it.md)   * crea una serie polare di una o più funzioni.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Multitrasformazione](PartDesign_MultiTransform/it.md)   * crea una serie con qualsiasi combinazione delle altre trasformazioni.
+
+
+</div>
 
 #### Strumenti di abbellimento 
 
+
+<div class="mw-translate-fuzzy">
+
 Questi strumenti applicano un trattamento ai bordi o alle facce selezionate.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Raccordo](PartDesign_Fillet/it.md)   * raccorda (arrotonda) i bordi del corpo attivo.
 
@@ -169,7 +193,13 @@ Questi strumenti applicano un trattamento ai bordi o alle facce selezionate.
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Sformo](PartDesign_Draft/it.md)   * applica uno sformo angolare alle facce selezionate nel corpo attivo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Spessore](PartDesign_Thickness/it.md)   * crea un guscio di dato spessore dal corpo attivo e apre le facce selezionate.
+
+
+</div>
 
 #### Booleane
 

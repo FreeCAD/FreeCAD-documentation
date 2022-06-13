@@ -104,7 +104,7 @@ Vous pouvez choisir la licence de votre choix pour votre atelier, mais sachez qu
 
 Les fonctions `FreeCAD.addImportType()` et `addEXportType()` vous permettent de fournir le nom et l\'extension d\'un type de fichier, ainsi qu\'un module Python responsable de son importation. Dans l\'exemple ci-dessus, un module `importOwn.py` gérera les fichiers `.own`. Voir [Extraits de codes](Code_snippets/fr.md) pour plus d\'exemples.
 
-### Ateliers Python 
+### Ateliers en Python 
 
 Ceci est le fichier InitGui.py   *
 
@@ -201,7 +201,7 @@ optionalpylibs=metadata,git
 
 Vous pouvez également inclure un script qui est exécuté lorsque votre paquet est désinstallé. Il s\'agit d\'un fichier appelé \"uninstall.py\" situé au niveau supérieur de votre module complémentaire. Il est exécuté lorsqu\'un utilisateur désinstalle votre module complémentaire à l\'aide du gestionnaire de modules complémentaires. Utilisez-le pour nettoyer tout ce que votre addon a pu faire sur le système de l\'utilisateur et qui ne devrait pas persister après la disparition de l\'addon (par exemple, suppression des fichiers de cache, etc.).
 
-To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode use the [Parameter Editor](Parameter_Editor.md) to create a boolean variable called \"developerMode\" in the \"Addons\" parameter group, and set this variable to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
+Pour que votre addon soit lu correctement par le gestionnaire d\'addons, vous pouvez activer un \"mode développeur\" dans lequel le gestionnaire d\'addons examine tous les addons disponibles et s\'assure que leurs métadonnées contiennent les éléments requis. Pour activer ce mode, utilisez l\'[Éditeur des paramètres](Std_DlgParameter/fr.md) pour créer une variable booléenne appelée \"developerMode\" dans le groupe de paramètres de \"Addons\", et définissez cette variable à True    * **Outils → Editer les paramètres... → BaseApp → Preferences → Addons → developerMode**.
 
 ### Ateliers en C++ 
 

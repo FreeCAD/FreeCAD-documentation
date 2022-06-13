@@ -3,7 +3,7 @@
 
 ## Wprowadzenie
 
-Ta strona pokaże Ci, jak dodać nowe pole robocze do interfejsu programu FreeCAD. [Środowiska pracy](Workbenches/pl.md) są kontenerami dla poleceń FreeCAD. Mogą być zakodowane w Pythonie, w C++ lub w mieszance obu tych języków, co ma tę zaletę, że łączy szybkość C++ z elastycznością Pythona. We wszystkich przypadkach jednak Twoje środowisko pracy będzie uruchamiane przez zestaw dwóch plików Python. Mogą to być \"wewnętrzne\" środowiska, dołączone do dystrybucji programu FreeCAD, lub \"zewnętrzne\", dystrybuowane za pomocą [Menadżera dodatków](Std_AddonMgr.md) lub instalowane ręcznie przez pobranie z jakiegoś repozytorium online. Wewnętrzne środowiska pracy mogą być napisane w C++, środowisku Python lub kombinacji tych dwóch środowisk, podczas gdy zewnętrzne środowiska pracy muszą być napisane wyłącznie w środowisku Pythoni.
+Ta strona pokaże Ci, jak dodać nowe środowisko pracy do interfejsu programu FreeCAD. [Środowiska pracy](Workbenches/pl.md) są kontenerami dla poleceń FreeCAD. Mogą być zakodowane w Pythonie, w C++ lub w mieszance obu tych języków, co ma tę zaletę, że łączy szybkość C++ z elastycznością Pythona. We wszystkich przypadkach jednak Twoje środowisko pracy będzie uruchamiane przez zestaw dwóch plików Python. Mogą to być \"wewnętrzne\" środowiska, dołączone do dystrybucji programu FreeCAD, lub \"zewnętrzne\", dystrybuowane za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md) lub instalowane ręcznie przez pobranie z jakiegoś repozytorium online. Wewnętrzne środowiska pracy mogą być napisane w C++, środowisku Python lub kombinacji tych dwóch środowisk, podczas gdy zewnętrzne środowiska pracy muszą być napisane wyłącznie w środowisku Python.
 
 ## Struktura środowiska pracy 
 
@@ -201,7 +201,7 @@ optionalpylibs=metadata,git
 
 You may also include a script that is run when your package is uninstalled. This is a file called \"uninstall.py\" located at the top level of your Addon. It is executed when a user uninstalls your Addon using the Addon Manager. Use it to clean up anything your Addon may have done to the users system that should not persist when the Addon is gone (e.g. removing cache files, etc.).
 
-To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode use the [Parameter Editor](Parameter_Editor.md) to create a boolean variable called \"developerMode\" in the \"Addons\" parameter group, and set this variable to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
+To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode use the [Parameter Editor](Std_DlgParameter.md) to create a boolean variable called \"developerMode\" in the \"Addons\" parameter group, and set this variable to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
 
 ### C++ workbenches 
 

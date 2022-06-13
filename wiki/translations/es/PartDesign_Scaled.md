@@ -15,9 +15,39 @@
 
 </div>
 
-\'Scale features\' - This tool takes a set of one or more selected features as its input (the \'originals\'), and scales them by a given factor. Since the scaling takes place around the centre of gravity of the selected features, they usually disappear inside the scaled versions. Therefore, normally it is only useful to use scaling as part of the MultiTransform feature.
+<img alt="" src=images/PartDesign_Scaled.svg  style="width   *24px;"> **PartDesign Scaled** is one of the transformation options of <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> [MultiTransform](PartDesign_MultiTransform.md). Contrary to the other options it is not available as a separate tool. It turns a transformation result into a sequence of scaled objects with evenly distributed scale factors. Starting with the unscaled base feature of the previous transformation the scale factor is increases or decreases until reaching the given value at the last item.
 
-Starting from FreeCAD 0.15, this operation is not available directly, but was incorporated into the [MultiTransform](PartDesign_MultiTransform.md) tool.
+<img alt="" src=images/PartDesign_Scaled-01.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-02.png  style="width   *300px;"> 
+*A linear pattern and a polar pattern → Scaled the linear pattern with 3 steps (occurrences) and the polar pattern with 12 steps*
+
+If there is no previous transformation within the <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> [MultiTransform](PartDesign_MultiTransform.md) feature, scaled items will be placed at the same position as the base feature. This may result in unexpected shapes if the base feature isn\'t covered completely by the scaled object. And thus it is not recommended to use **Scaled** as a single or a first transformation of a MultiTransform feature.
+
+<img alt="" src=images/PartDesign_Scaled-03.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-04.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-05.png  style="width   *200px;"> 
+*A base feature with a hole → Scaled object with 2 occurrences → Scaled object with 4 occurrences*
+
+## Usage
+
+### Scaling a transformed feature 
+
+1.  Do one of the following   *
+    -   Double-click the MultiTransform object in the [Tree view](Tree_view.md).
+    -   Right-click the MultiTransform object in the [Tree view](Tree_view.md) and select **Edit MultiTransform** from the context menu.
+2.  The **MultiTransform parameters** [task panel](Task_panel.md) opens.
+3.  Right-click in the **Transformations** list and select **Add scaled transformation** from the context menu.
+4.  A **Scaled** item is added to the list and the task panel is extended at the bottom to allow to set the **Factor** and **Occurrences**. See [Options](#Options.md) for more information.
+5.  Click the **OK** bar at the bottom to validate the options.
+6.  Click the **OK** button at the top to finish.
+
+### Scaling a single feature 
+
+1.  Select a feature of the current body in the [Tree view](Tree_view.md).
+2.  Do one of the following   *
+    -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [MultiTransform](PartDesign_MultiTransform.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
+3.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See above.
+
+
+<div class="mw-translate-fuzzy">
 
 ## Opciones
 
@@ -37,24 +67,29 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 
 
 
-<div class="mw-translate-fuzzy">
-
-## Limitaciones
-
--   El escalado siempre se realiza con el centro de gravedad de la operación como punto base.
--   Mira la [operación de matriz lineal](PartDesign_LinearPattern/es.md) para ver más limitaciones
-
-
-
-
-
 </div>
 
-## Examples
+-    **Factor**   * The factor to which the last feature is scaled.
 
-![c\|center\|800px](images/mt_example2.png ) The smallest pad was first patterned three times in X direction and then scaled to factor two (so the three occurrences have scaling factor 1.0, 1.5 and 2.0). Then a polar pattern was applied with 8 occurrences.
+-    **Occurrences**   * Number of steps from unscaled (1) to **Factor** (including base and last feature).
 
-Since the scaling is done with respect to the center of gravity, in the case of a pad, it is necessary that the pad penetrate also in the main body, otherwise the scaled objects are floating, detached from the body. To have a pad that intersects the main body can be used \"two dimensions\" type or \"simmetric to plane\" option.
+    -   A scaled transformation accepts the number of occurrences of the previous transformation as maximum value or any integer divisor of that number returning an integer result. So {{Value|12}}, {{Value|6}}, {{Value|4}}, {{Value|3}}, and {{Value|2}} are valid for a Linear or Polar Pattern with 12 occurrences.
+    -   A scaled single feature accepts any integer number larger than 1.
+
+## Notes
+
+-   The center of scaling is the features\'s center of gravity and that may cause   *
+    -   A growing item to protrude on the opposite side of the parent feature.
+    -   A shrinking item to lose all contact with the parent feature and disappear.
+    -   A shrinking pocket to become an invisible cavity inside the parent feature.
+
+
+
+
+
+{{PartDesign Tools navi
+
+}}
 
 
 

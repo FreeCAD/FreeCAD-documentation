@@ -3,7 +3,7 @@
    Name   *Part Measure Menu
    Name/fr   *Part Menu des mesures
    Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Std Mesurer une distance](Std_MeasureDistance/fr.md), [Draft Cote](Draft_Dimension/fr.md), [Arch Prise de cotes](Arch_Survey/fr.md)
+   SeeAlso   *[Std Mesurer une distance](Std_MeasureDistance/fr.md), [Draft Cote](Draft_Dimension/fr.md), [Arch Prendre des cotes](Arch_Survey/fr.md)
 ---
 
 # Part Measure Menu/fr

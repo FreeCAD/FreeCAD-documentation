@@ -22,7 +22,7 @@ Pour colorer les faces   *
     1.  Pour une seule face cliquez simplement dessus, puis sélectionnez dans la boîte de dialogue sa couleur.
     2.  Pour sélectionner plusieurs faces, maintenez **Ctrl** enfoncée et cliquez sur plusieurs faces.
         Ou cliquez dans la boîte de dialogue sur le bouton **Sélection par boîte**. Ensuite, vous pouvez faire glisser avec la souris un rectangle de sélection dans le modèle. Chaque face qui est partiellement dans le rectangle de sélection sera sélectionnée.
-3.  Choisissez dans la boîte de dialogue une couleur pour les faces sélectionnées.
+3.  Choisissez dans la boîte de dialogue une couleur pour les faces sélectionnées. {{Version/fr|0.20}}    * La couleur peut également recevoir une transparence en définissant le *canal Alpha*.
 4.  Cliquez sur **OK** pour fermer la boîte de dialogue et accepter les modifications que vous avez effectuées.
 
 Pour réinitialiser toutes les couleurs de la face   *

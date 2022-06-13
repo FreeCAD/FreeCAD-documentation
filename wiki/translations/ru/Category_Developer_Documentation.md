@@ -37,8 +37,8 @@ This category gathers documentation article mostly aimed at programmers
 | [Source documentation/ru](wiki/Source documentation/ru.md) | [Start up and Configuration/ru](wiki/Start up and Configuration/ru.md) | [Testing/ru](wiki/Testing/ru.md) |
 | [The FreeCAD source code/ru](wiki/The FreeCAD source code/ru.md) | [Third Party Libraries/ru](wiki/Third Party Libraries/ru.md) | [Third Party Tools/ru](wiki/Third Party Tools/ru.md) |
 | [Topological data scripting/ru](wiki/Topological data scripting/ru.md) | [Tracker/ru](wiki/Tracker/ru.md) | [Translating an external workbench/ru](wiki/Translating an external workbench/ru.md) |
-| [Workbench creation/ru](wiki/Workbench creation/ru.md) | [Wrapping a Cplusplus class in Python/ru](wiki/Wrapping a Cplusplus class in Python/ru.md) | [Category:Document object/ru](wiki/Category_Document object/ru.md) |
-|
+| [Ubuntu Snap/ru](wiki/Ubuntu Snap/ru.md) | [Workbench creation/ru](wiki/Workbench creation/ru.md) | [Wrapping a Cplusplus class in Python/ru](wiki/Wrapping a Cplusplus class in Python/ru.md) |
+| [Category:Document object/ru](wiki/Category_Document object/ru.md) |
 
 
 

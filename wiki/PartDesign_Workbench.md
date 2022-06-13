@@ -132,9 +132,8 @@ These are tools for transforming existing features.
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Polar Pattern](PartDesign_PolarPattern.md)   * creates a polar pattern of one or more features.
 
--   <img alt="" src=images/PartDesign_Scaled.svg  style="width   *32px;"> [Scaled](PartDesign_Scaled.md)   * scales one or more features. This is not available as a separate transformation tool, it is an option of <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> [Create MultiTransform](PartDesign_MultiTransform.md).
-
--   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Create MultiTransform](PartDesign_MultiTransform.md)   * creates a pattern by combining any of the four transformations mentioned above.
+-   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Create MultiTransform](PartDesign_MultiTransform.md)   * creates a pattern by combining any of the transformations mentioned above, as well as the [Scaled](PartDesign_Scaled.md) transformation.
+    -   <img alt="" src=images/PartDesign_Scaled.svg  style="width   *32px;"> [Scaled](PartDesign_Scaled.md)   * scales one or more features. This is not available as a separate transformation tool.
 
 #### Dress-up tools 
 

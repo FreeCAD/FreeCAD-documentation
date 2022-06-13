@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *PartDesign Thickness
-   Name/fr   *PartDesign Épaisseur
-   MenuLocation   *Part Design → Appliquer une fonction d'habillage → Épaisseur
+   Name/fr   *PartDesign Coque
+   MenuLocation   *Part Design → Appliquer une fonction d'habillage → Coque
    Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
    Version   *0.17
    SeeAlso   *[Part Évidement](Part_Thickness/fr.md)
@@ -12,39 +12,36 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **PartDesign Épaisseur** transforme un corps solide en un objet creux avec au moins une face ouverte, en donnant à chacune de ses faces restantes une épaisseur uniforme. Il ajoute un objet **Thickness** au document avec sa représentation correspondante dans le [Vue en arborescence](Tree_view/fr.md).
+L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **PartDesign Coque** transforme un corps solide en un objet creux avec au moins une face ouverte, en donnant à chacune de ses faces restantes une épaisseur uniforme. Il ajoute un objet **Thickness** au document avec sa représentation correspondante dans le [Vue en arborescence](Tree_view/fr.md).
 
 <img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
 *Solide de base (A) → Solide avec la face sélectionnée à ouvrir (B) → Objet creux résultant (C)*
 
 ## Utilisation
 
-### Ajouter une épaisseur 
+### Ajouter une coque 
 
-1.  Vous pouvez accessoirement [activé](PartDesign_Body/fr#Statut_actif.md) le corps auquel appliquer l\'épaisseur.
+1.  Vous pouvez accessoirement [activé](PartDesign_Body/fr#Statut_actif.md) le corps auquel appliquer la coque.
 2.  Sélectionnez une ou plusieurs faces du corps.
 3.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/PartDesign_Thickness.svg" width=16px> [Épaisseur](PartDesign_Thickness/fr.md)**.
-    -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Thickness.svg" width=16px> Épaisseur** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/PartDesign_Thickness.svg" width=16px> [Coque](PartDesign_Thickness/fr.md)**.
+    -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Thickness.svg" width=16px> Coque** dans le menu.
 4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
-5.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres de l'épaisseur**. Voir [Options](#Options.md) pour plus d\'informations.
+5.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres de la coque**. Voir [Options](#Options.md) pour plus d\'informations.
 6.  Appuyez sur le bouton **OK** pour terminer.
 
    *   *Souvenez-vous*    *
     -   Puisqu\'il doit y avoir au moins une face pour la fonction, la dernière face restant dans la liste ne peut pas être retirée.
 
-### Modifier une épaisseur 
+### Modifier une coque 
 
 1.  Effectuez l\'une des opérations suivantes    *
     -   Double-cliquez sur l\'objet Thickness dans la [Vue en arborescence](Tree_view/fr.md).
-    -   Cliquez avec le bouton droit de la souris sur l\'objet Thickness dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier l'épaisseur** dans le menu contextuel.
-2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres de l'épaisseur** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Cliquez avec le bouton droit de la souris sur l\'objet Thickness dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier la coque** dans le menu contextuel.
+2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres de la coque** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Appuyez sur le bouton **OK** pour terminer.
 
 ## Options
-
-
-<div class="mw-translate-fuzzy">
 
 -    **Ajouter une face**   * Ajoutez des faces à la sélection en appuyant sur le bouton **Ajouter une face** et en sélectionnant d\'autres faces.
 
@@ -84,16 +81,13 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"
         
            * Lorsque des faces non tangentielles sont décalées, les nouvelles faces qui ne se croisent pas sont prolongées pour se rencontrer à leur intersection virtuelle.
 
--    **Intersection**   * Cette case à cocher ne fonctionne pas. Voir [ce sujet du forum](https   *//forum.freecadweb.org/viewtopic.php?p=600360#p600360).
+-    **Intersection**   * Lorsque cette option est cochée, les auto-intersections dans certains modèles sont évitées. Cette option n\'est pas recommandée car elle repose sur une [méthode incomplète OpenCASCADE](https   *//dev.opencascade.org/doc/refman/html/class_b_rep_offset_a_p_i___make_thick_solid.html#af78f35025a31e2ce8bd96c82fb33a981).
 
--    **Générer l'épaisseur vers l'intérieur**   * Lorsque cette case est cochée, les faces sont décalées vers l\'intérieur.
-
-
-</div>
+-    **Générer la coque vers l'intérieur**   * Lorsque cette case est cochée, les faces sont décalées vers l\'intérieur.
 
 ## Remarques
 
--   Si l\'épaisseur va vers l\'intérieur, la valeur doit être inférieure à la plus petite hauteur du corps.
+-   Si la coque va vers l\'intérieur, la valeur doit être inférieure à la plus petite hauteur du corps.
 -   L\'outil peut échouer avec des formes complexes. Dans ce contexte, la surface d\'un cône, par exemple, doit déjà être considérée comme complexe. Les outils [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md) ou [PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md) peuvent mieux fonctionner pour créer des formes complexes.
 -   Erreurs connues    *
     -   BRep\_API    * commande non effectuée.

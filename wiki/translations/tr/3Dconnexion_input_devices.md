@@ -296,7 +296,7 @@ sudo systemctl restart spacenavd
 
 </div>
 
-3Dconnexion input devices are supported on OS X, provided that FreeCAD is built and used on a system with the 3Dconnexion drivers installed.
+3Dconnexion input devices are supported on OS X, provided that FreeCAD is built and used on a system with the 3Dconnexion drivers installed. You may need 3DxWare 10.7.2 or greater for Mac OSX Monterey.
 
 
 <div class="mw-translate-fuzzy">

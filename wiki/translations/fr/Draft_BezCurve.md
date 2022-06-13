@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft BezCurve
    Name/fr   *Draft Courbe de Bézier
-   MenuLocation   *Esquisse → Outils Bézier → Courbe de Bézier
+   MenuLocation   *Draft → Outils de Bézier → Courbe de Bézier
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***B** **Z**
    Version   *0.14
@@ -28,7 +28,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_BezCurve.svg" width=16px> [Courbe de Bézier](Draft_BezCurve/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → Outils Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Courbe de Bézier** dans le menu.
+    -   Sélectionnez l\'option **Draft → Outils de Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Courbe de Bézier** dans le menu.
     -   Utilisez le raccourci clavier    * **B** puis **Z**. {{Version/fr|0.20}}
 2.  Le panneau de tâches **Courbe de Bézier** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.

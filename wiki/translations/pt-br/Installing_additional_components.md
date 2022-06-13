@@ -13,7 +13,13 @@ Após instalar o FreeCAD para seu sistema operacional ([Windows](Installing_on_W
 
 # Arquivos de ajuda 
 
+
+<div class="mw-translate-fuzzy">
+
 A documentação offline não é enviada com todos os instaladores, mas está disponível como um pacote separado. Consulte a página [Instalando o arquivo de ajuda](Installing_Helpfile/pt-br.md) para mais informações.
+
+
+</div>
 
 # Bancadas de trabalho externas 
 

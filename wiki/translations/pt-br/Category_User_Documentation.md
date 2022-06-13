@@ -76,22 +76,22 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Export to STL or OBJ/pt-br](wiki/Export to STL or OBJ/pt-br.md) | [External workbenches/pt-br](wiki/External workbenches/pt-br.md) | [Extra python modules/pt-br](wiki/Extra python modules/pt-br.md) |
 | [Feature editing/pt-br](wiki/Feature editing/pt-br.md) | [Feature list/pt-br](wiki/Feature list/pt-br.md) | [FEM Analysis/pt-br](wiki/FEM Analysis/pt-br.md) |
 | [FEM ConstraintElectrostaticPotential/pt-br](wiki/FEM ConstraintElectrostaticPotential/pt-br.md) | [FEM ElementFluid1D/pt-br](wiki/FEM ElementFluid1D/pt-br.md) | [FEM ElementGeometry1D/pt-br](wiki/FEM ElementGeometry1D/pt-br.md) |
-| [FEM ElementGeometry2D/pt-br](wiki/FEM ElementGeometry2D/pt-br.md) | [FEM ElementRotation1D/pt-br](wiki/FEM ElementRotation1D/pt-br.md) | [FEM MaterialFluid/pt-br](wiki/FEM MaterialFluid/pt-br.md) |
-| [FEM MaterialMechanicalNonlinear/pt-br](wiki/FEM MaterialMechanicalNonlinear/pt-br.md) | [FEM MaterialReinforced/pt-br](wiki/FEM MaterialReinforced/pt-br.md) | [FEM MaterialSolid/pt-br](wiki/FEM MaterialSolid/pt-br.md) |
-| [FEM MeshGmshFromShape/pt-br](wiki/FEM MeshGmshFromShape/pt-br.md) | [FEM SolverCalculiX/pt-br](wiki/FEM SolverCalculiX/pt-br.md) | [FEM SolverElmer/pt-br](wiki/FEM SolverElmer/pt-br.md) |
-| [FEM SolverZ88/pt-br](wiki/FEM SolverZ88/pt-br.md) | [FEM Workbench/pt-br](wiki/FEM Workbench/pt-br.md) | [File Format FCStd/pt-br](wiki/File Format FCStd/pt-br.md) |
-| [Fine-tuning/pt-br](wiki/Fine-tuning/pt-br.md) | [FreeCAD and DWG Import/pt-br](wiki/FreeCAD and DWG Import/pt-br.md) | [FreeCAD and DXF Import/pt-br](wiki/FreeCAD and DXF Import/pt-br.md) |
-| [FreeCAD Build Tool/pt-br](wiki/FreeCAD Build Tool/pt-br.md) | [FreeCAD used in production/pt-br](wiki/FreeCAD used in production/pt-br.md) | [Frequently asked questions/pt-br](wiki/Frequently asked questions/pt-br.md) |
-| [Getting started/pt-br](wiki/Getting started/pt-br.md) | [Glossary/pt-br](wiki/Glossary/pt-br.md) | [GuiCommand model/pt-br](wiki/GuiCommand model/pt-br.md) |
-| [Template:GuiCommand/pt-br](wiki/Template_GuiCommand/pt-br.md) | [Help FreeCAD/pt-br](wiki/Help FreeCAD/pt-br.md) | [How to install additional workbenches/pt-br](wiki/How to install additional workbenches/pt-br.md) |
-| [Image CreateImagePlane/pt-br](wiki/Image CreateImagePlane/pt-br.md) | [Image Open/pt-br](wiki/Image Open/pt-br.md) | [Image Scaling/pt-br](wiki/Image Scaling/pt-br.md) |
-| [Image Workbench/pt-br](wiki/Image Workbench/pt-br.md) | [Import Export Preferences/pt-br](wiki/Import Export Preferences/pt-br.md) | [Import Export/pt-br](wiki/Import Export/pt-br.md) |
-| [Import from STL or OBJ/pt-br](wiki/Import from STL or OBJ/pt-br.md) | [Inspection Workbench/pt-br](wiki/Inspection Workbench/pt-br.md) | [Installing additional components/pt-br](wiki/Installing additional components/pt-br.md) |
-| [Installing Helpfile/pt-br](wiki/Installing Helpfile/pt-br.md) | [Installing on Linux/pt-br](wiki/Installing on Linux/pt-br.md) | [Installing on Mac/pt-br](wiki/Installing on Mac/pt-br.md) |
-| [Installing on Windows/pt-br](wiki/Installing on Windows/pt-br.md) | [Interface Customization/pt-br](wiki/Interface Customization/pt-br.md) | [Interface/pt-br](wiki/Interface/pt-br.md) |
-| [Licence/pt-br](wiki/Licence/pt-br.md) | [Localisation/pt-br](wiki/Localisation/pt-br.md) | [Macro Screen Wiki/pt-br](wiki/Macro Screen Wiki/pt-br.md) |
-| [Macro Snip/pt-br](wiki/Macro Snip/pt-br.md) | [Main Page/pt-br](wiki/Main Page/pt-br.md) | [Main view area/pt-br](wiki/Main view area/pt-br.md) |
-| [Material editor/pt-br](wiki/Material editor/pt-br.md) | [Mesh FromPartShape/pt-br](wiki/Mesh FromPartShape/pt-br.md) | [Mesh Workbench/pt-br](wiki/Mesh Workbench/pt-br.md) |
+| [FEM ElementGeometry2D/pt-br](wiki/FEM ElementGeometry2D/pt-br.md) | [FEM ElementRotation1D/pt-br](wiki/FEM ElementRotation1D/pt-br.md) | [FEM MaterialEditor/pt-br](wiki/FEM MaterialEditor/pt-br.md) |
+| [FEM MaterialFluid/pt-br](wiki/FEM MaterialFluid/pt-br.md) | [FEM MaterialMechanicalNonlinear/pt-br](wiki/FEM MaterialMechanicalNonlinear/pt-br.md) | [FEM MaterialReinforced/pt-br](wiki/FEM MaterialReinforced/pt-br.md) |
+| [FEM MaterialSolid/pt-br](wiki/FEM MaterialSolid/pt-br.md) | [FEM MeshGmshFromShape/pt-br](wiki/FEM MeshGmshFromShape/pt-br.md) | [FEM SolverCalculiX/pt-br](wiki/FEM SolverCalculiX/pt-br.md) |
+| [FEM SolverElmer/pt-br](wiki/FEM SolverElmer/pt-br.md) | [FEM SolverZ88/pt-br](wiki/FEM SolverZ88/pt-br.md) | [FEM Workbench/pt-br](wiki/FEM Workbench/pt-br.md) |
+| [File Format FCStd/pt-br](wiki/File Format FCStd/pt-br.md) | [Fine-tuning/pt-br](wiki/Fine-tuning/pt-br.md) | [FreeCAD and DWG Import/pt-br](wiki/FreeCAD and DWG Import/pt-br.md) |
+| [FreeCAD and DXF Import/pt-br](wiki/FreeCAD and DXF Import/pt-br.md) | [FreeCAD Build Tool/pt-br](wiki/FreeCAD Build Tool/pt-br.md) | [FreeCAD used in production/pt-br](wiki/FreeCAD used in production/pt-br.md) |
+| [Frequently asked questions/pt-br](wiki/Frequently asked questions/pt-br.md) | [Getting started/pt-br](wiki/Getting started/pt-br.md) | [Glossary/pt-br](wiki/Glossary/pt-br.md) |
+| [GuiCommand model/pt-br](wiki/GuiCommand model/pt-br.md) | [Template:GuiCommand/pt-br](wiki/Template_GuiCommand/pt-br.md) | [Help FreeCAD/pt-br](wiki/Help FreeCAD/pt-br.md) |
+| [How to install additional workbenches/pt-br](wiki/How to install additional workbenches/pt-br.md) | [Image CreateImagePlane/pt-br](wiki/Image CreateImagePlane/pt-br.md) | [Image Open/pt-br](wiki/Image Open/pt-br.md) |
+| [Image Scaling/pt-br](wiki/Image Scaling/pt-br.md) | [Image Workbench/pt-br](wiki/Image Workbench/pt-br.md) | [Import Export Preferences/pt-br](wiki/Import Export Preferences/pt-br.md) |
+| [Import Export/pt-br](wiki/Import Export/pt-br.md) | [Import from STL or OBJ/pt-br](wiki/Import from STL or OBJ/pt-br.md) | [Inspection Workbench/pt-br](wiki/Inspection Workbench/pt-br.md) |
+| [Installing additional components/pt-br](wiki/Installing additional components/pt-br.md) | [Installing Helpfile/pt-br](wiki/Installing Helpfile/pt-br.md) | [Installing on Linux/pt-br](wiki/Installing on Linux/pt-br.md) |
+| [Installing on Mac/pt-br](wiki/Installing on Mac/pt-br.md) | [Installing on Windows/pt-br](wiki/Installing on Windows/pt-br.md) | [Interface Customization/pt-br](wiki/Interface Customization/pt-br.md) |
+| [Interface/pt-br](wiki/Interface/pt-br.md) | [Licence/pt-br](wiki/Licence/pt-br.md) | [Localisation/pt-br](wiki/Localisation/pt-br.md) |
+| [Macro Screen Wiki/pt-br](wiki/Macro Screen Wiki/pt-br.md) | [Macro Snip/pt-br](wiki/Macro Snip/pt-br.md) | [Main Page/pt-br](wiki/Main Page/pt-br.md) |
+| [Main view area/pt-br](wiki/Main view area/pt-br.md) | [Mesh FromPartShape/pt-br](wiki/Mesh FromPartShape/pt-br.md) | [Mesh Workbench/pt-br](wiki/Mesh Workbench/pt-br.md) |
 | [Migrating to FreeCAD from Fusion360/pt-br](wiki/Migrating to FreeCAD from Fusion360/pt-br.md) | [Mouse navigation/pt-br](wiki/Mouse navigation/pt-br.md) | [Navigation Cube/pt-br](wiki/Navigation Cube/pt-br.md) |
 | [Object name/pt-br](wiki/Object name/pt-br.md) | [Online Help Startpage/pt-br](wiki/Online Help Startpage/pt-br.md) | [Online Help Toc/pt-br](wiki/Online Help Toc/pt-br.md) |
 | [OpenCamLib/pt-br](wiki/OpenCamLib/pt-br.md) | [OpenSCAD Workbench/pt-br](wiki/OpenSCAD Workbench/pt-br.md) | [Part and PartDesign/pt-br](wiki/Part and PartDesign/pt-br.md) |

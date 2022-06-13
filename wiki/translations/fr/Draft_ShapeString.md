@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft ShapeString
    Name/fr   *Draft Formes à partir texte
-   MenuLocation   *Esquisse → Formes à partir de texte
+   MenuLocation   *Draft → Formes à partir de texte
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   *
    Version/fr   *0.14
@@ -26,7 +26,7 @@ Pour les utilisateurs de Windows    * veuillez d\'abord lire le paragraphe [Sél
 
 1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_ShapeString.svg" width=16px> [Formes à partir de texte ](Draft_ShapeString/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_ShapeString.svg" width=16px> Formes à partir de texte** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_ShapeString.svg" width=16px> Formes à partir de texte** dans le menu.
 2.  Le panneau de tâches **Forme de Texte** s\'ouvre.
 3.  Cliquez sur un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées.
 4.  Vous pouvez également appuyer sur le bouton **Réinitialiser le point** pour réinitialiser le point à l\'origine.

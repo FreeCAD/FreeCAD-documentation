@@ -149,19 +149,49 @@ Son herramientas para sustraer material de un cuerpo existente.
 
 #### Herramientas de transformación 
 
+
+<div class="mw-translate-fuzzy">
+
 Son herramientas que permite transformar operaciones existentes. Permiten elegir las operaciones a ser transformadas.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Reflexión o simetría](PartDesign_Mirrored/es.md)   * refleja una o más operaciones con respecto a un plano o una cara generando su operación simétrica con respecto a dicho plano o cara.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Patrón de repetición lineal](PartDesign_LinearPattern/es.md)   * crea un patrón de repetición lineal basado en una o más operaciones.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Patrón de repetición polar](PartDesign_PolarPattern/es.md)   * crea un patrón de repetición polar de una o más operaciones.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Crear transformaciones múltiples](PartDesign_MultiTransform/es.md)   * crea un patrón de repetición combinando de forma sucesiva una serie de transformaciones.
+
+
+</div>
 
 #### Herramientas de alteración 
 
+
+<div class="mw-translate-fuzzy">
+
 Estas operaciones alteran las caras o aristas seleccionadas.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Redondeado](PartDesign_Fillet/es.md)   * Altera una arista del cuerpo activo redondeándola.
 
@@ -169,7 +199,13 @@ Estas operaciones alteran las caras o aristas seleccionadas.
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Corte inclinado](PartDesign_Draft/es.md)   * altera un cara del cuerpo activo aplicándole un corte inclinado.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Vaciado de espesor](PartDesign_Thickness/es.md)   * altera el sólido eliminando las caras seleccionadas y creando un sólido definido por una superficie de un determinado espesor.
+
+
+</div>
 
 #### Operaciones booleanas 
 

@@ -46,8 +46,8 @@ Questa categoria raccoglie articoli e documentazione per lo più rivolti a progr
 | [Sphinx/it](wiki/Sphinx/it.md) | [Start up and Configuration/it](wiki/Start up and Configuration/it.md) | [Testing/it](wiki/Testing/it.md) |
 | [The FreeCAD source code/it](wiki/The FreeCAD source code/it.md) | [Third Party Libraries/it](wiki/Third Party Libraries/it.md) | [Third Party Tools/it](wiki/Third Party Tools/it.md) |
 | [Topological data scripting/it](wiki/Topological data scripting/it.md) | [Tracker/it](wiki/Tracker/it.md) | [Translating an external workbench/it](wiki/Translating an external workbench/it.md) |
-| [Viewprovider/it](wiki/Viewprovider/it.md) | [Workbench creation/it](wiki/Workbench creation/it.md) | [Category:Developer/it](wiki/Category_Developer/it.md) |
-| [Category:Packaging/it](wiki/Category_Packaging/it.md) |
+| [Ubuntu Snap/it](wiki/Ubuntu Snap/it.md) | [Viewprovider/it](wiki/Viewprovider/it.md) | [Workbench creation/it](wiki/Workbench creation/it.md) |
+| [Category:Developer/it](wiki/Category_Developer/it.md) | [Category:Packaging/it](wiki/Category_Packaging/it.md) |
 
 
 

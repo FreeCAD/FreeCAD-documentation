@@ -1,98 +1,100 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *TechDraw  ActiveView
-   MenuLocation   *TechDraw → Insert Active View (3D View)
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/pl   *Rysunek Techniczny  Aktywny widok
+   MenuLocation   *Rysunek Techniczny → Wstaw aktywny widok (widok 3D)
+   Workbenches   *[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version   *0.19
-   SeeAlso   *[TechDraw Symbol](TechDraw_Symbol.md)
+   SeeAlso   *[Symbol](TechDraw_Symbol/pl.md)
 ---
 
 # TechDraw ActiveView/pl
 
-## Description
+## Opis
 
-The ActiveView tool inserts a copy of a 3D window into a drawing page.
+Narzędzie **Aktywny widok** wstawia reprezentację okna 3D na stronie rysunku.
 
 ![](images/TechDraw_ActiveView_example.png ) 
-*A simple view from the 3D model that doesn't perform any complex calculation.*
+*Prosty widok z modelu 3D, który nie wymaga żadnych złożonych obliczeń.*
 
-## Usage
+## Użycie
 
-1.  Navigate to the correct [3D view](3D_view.md).
-2.  If there are multiple drawing pages in the document   * optionally select the desired page in the [Tree view](Tree_view.md). This is not optional for {{VersionMinus|0.19}}.
-3.  There are several ways to invoke the tool   *
-    -   Press the **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insert Active View (3D View)](TechDraw_ActiveView.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_ActiveView.svg" width=16px> Insert Active View (3D View)** option from the menu.
-4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens   * <small>(v0.20)</small> 
-    1.  Select the desired page.
-    2.  Press the **OK** button.
-5.  The **ActiveView to TD View** task panel opens. See [Options](#Options.md) for more information.
-6.  Press the **OK** button.
+1.  Przejdź do właściwego okna [Widoku 3D](3D_view/pl.md).
+2.  Jeśli w dokumencie jest wiele stron z rysunkami   * opcjonalnie wybierz odpowiednią stronę w oknie [widoku drzewa](Tree_view/pl.md). Nie jest to opcjonalne dla {{VersionMinus/pl|0.19}}.
+3.  Istnieje kilka sposobów na wywołanie narzędzia   *
+    -   Naciśnij przycisk**<img src="images/TechDraw_ActiveView.svg" width=16px> [Wstaw aktywny widok (widok 3D)](TechDraw_ActiveView/pl.md)
+**
+    -   Wybierz opcję **Rysunek Techniczny → <img src="images/TechDraw_ActiveView.svg" width=16px> Wstaw widok aktywny (widok 3D)** z menu.
+4.  Jeśli w dokumencie jest wiele stron z rysunkami i nie została jeszcze wybrana żadna strona, zostanie otwarte okno dialogowe **Wybór strony**   * {{Version/pl|0.20}}
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
+5.  Zostanie otwarty panel zadań **Aktywny widok na stronę Rysunku Technicznego**. Aby uzyskać więcej informacji, zobacz [Opcje](#Opcje.md).
+6.  Naciśnij przycisk **OK**.
 
-## Options
+## Opcje
 
-The following can be specified   *
+Można określić następujące parametry   *
 
--    **Width**   * The width of the generated view.
+-    **Szerokość**   * Szerokość generowanego widoku.
 
--    **Height**   * The height of the generated view.
+-    **Wysokość**   * Wysokość generowanego widoku.
 
--    **Border**   * The amount of empty space to be left around the view (but within Width x Height).
+-    **Ramka**   * Ilość pustego miejsca, które ma pozostać wokół widoku *(ale w granicach Szerokość x Wysokość)*.
 
--    **Background**   * If checked a background with the specified color is added.
+-    **Tło**   * Jeśli opcja ta jest zaznaczona, dodawane jest tło o określonym kolorze.
 
--    **Line Width**   * The thickness of the lines in the view.
+-    **Szerokość linii**   * Grubość linii w obrazie.
 
--    **Render Mode**   * The available modes are   *
-
-    -   
-        {{Value|As is}}
-        
-           * Render primitives as they are.
+-    **Tryb renderowania**   * Dostępne są następujące tryby   *
 
     -   
-        {{Value|Wireframe}}
+        {{Value|Domyślny}}
         
-           * Render polygons as wireframe.
+           * Renderuj elementy pierwotne takimi, jakimi są.
 
     -   
-        {{Value|Points}}
+        {{Value|Szkieletowy}}
         
-           * Render only the vertices of the polygons and lines.
+           * Renderuj wielokąty jako szkielet.
 
     -   
-        {{Value|Wireframe overlay}}
+        {{Value|Punkty}}
         
-           * Render a wireframe overlay in addition to the {{Value|As is}} mode.
+           * Renderuj tylko wierzchołki wielokątów i linii.
 
     -   
-        {{Value|Hidden Line}}
+        {{Value|Nadpisanie widoku szkieletowego}}
         
-           * As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
+           * Oprócz trybu {{Value|Domyślny}} renderuje nakładkę ze szkieletem.
 
     -   
-        {{Value|Bounding box}}
+        {{Value|Cieniowany z ukrytymi krawędziami}}
         
-           * Only show the bounding box of each object.
+           * Podobnie jak {{Value|Szkieletowy}}, ale usuwa linie, które w przeciwnym razie nie byłyby wyświetlane ze względu na geometryczny ubytek.
 
-## Notes
+    -   
+        {{Value|Ramka otaczająca}}
+        
+           * Pokaż tylko ramkę brzegową każdego obiektu.
 
--   ActiveViews are static once generated, they are never updated with changes to the 3D model.
--   An ActiveView behind the scenes is a [Symbol](TechDraw_Symbol.md). Its **Scale Type** is therefore always initialized as {{Value|Custom}}.
--   This tool is still somewhat **Experimental**.
+## Uwagi
 
-## Properties
+-   Aktywny widok jest statyczny po wygenerowaniu, nigdy nie jest aktualizowany przy zmianach w modelu 3D.
+-   Aktywny widok jest [Symbolem](TechDraw_Symbol/pl.md). Dlatego jego **Typ skali** jest zawsze inicjalizowany jako {{Value|Użytkownika}}.
+-   To narzędzie jest wciąż w pewnym stopniu **eksperymentalne**.
 
-See [TechDraw Symbol](TechDraw_Symbol.md).
+## Właściwości
 
-## Scripting
+Zobacz również stronę [Symbol](TechDraw_Symbol/pl.md).
+
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-The ActiveView tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+Narzędzie Aktywny widok może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
 
 
 ```python

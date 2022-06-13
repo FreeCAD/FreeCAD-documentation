@@ -218,7 +218,7 @@ sudo systemctl restart spacenavd
 
 ### OSX
 
-Urządzenia wejściowe 3Dconnexion są obsługiwane w systemie OS X, pod warunkiem, że program FreeCAD jest kompilowany i używany w systemie z zainstalowanymi sterownikami 3Dconnexion.
+Urządzenia wejściowe 3Dconnexion są obsługiwane w systemie OS X, pod warunkiem, że program FreeCAD jest kompilowany i używany w systemie z zainstalowanymi sterownikami 3Dconnexion. Możesz potrzebować 3DxWare 10.7.2 lub nowszego dla Mac OSX Monterey.
 
 ### Windows
 

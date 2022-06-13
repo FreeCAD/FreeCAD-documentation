@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *FEM ConstraintCentrif
    Name/fr   *FEM Contrainte centrifuge
-   MenuLocation   *Modèle → Contraintes mécaniques→ Contrainte centrifuge
+   MenuLocation   *Modèle → Contraintes mécaniques → Contrainte centrifuge
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Shortcut   *
    Version   *0.20

@@ -1,10 +1,5 @@
 # Arch templates/it
-<div class="mw-translate-fuzzy">
-
-Questa pagina contiene i modelli conformi allo standard [Arch](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute) del American National Standards Institute
-
-
-</div>
+Questa pagina elenca i modelli conformi allo standard [ANSI](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute)
 
 ### Arch A 
 

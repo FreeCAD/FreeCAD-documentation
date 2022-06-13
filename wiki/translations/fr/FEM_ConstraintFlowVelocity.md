@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *FEM ConstraintFlowVelocity
    Name/fr   *FEM Contrainte de vitesse d'écoulement
-   MenuLocation   *Modèle → Contrainte de fluides → Contrainte de vitesse d'écoulement
+   MenuLocation   *Modèle → Contraintes du fluide → Contrainte de vitesse d'écoulement
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[FEM Contrainte vitesse d'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md)
 ---
@@ -20,7 +20,7 @@ Applique une vitesse d\'écoulement comme condition limite à un bord en 2D ou �
 
 1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Contrainte de vitesse d'écoulement](FEM_ConstraintFlowVelocity/fr.md)**.
-    -   Sélectionnez l\'option **Modèle → Contrainte de fluides → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Contrainte de vitesse d'écoulement** dans le menu.
+    -   Sélectionnez l\'option **Modèle → Contraintes du fluide → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Contrainte de vitesse d'écoulement** dans le menu.
 2.  Le [Panneau des tâches](Task_panel/fr.md) affichera des menus pour la contrainte de vitesse d\'écoulement
 3.  Sélectionnez les arêtes cibles ou faces cibles.
 4.  Appuyez sur le bouton **Ajouter**.

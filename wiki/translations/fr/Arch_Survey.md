@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *Arch Survey
-   Name/fr   *Arch Prise de cotes
-   MenuLocation   *Arch → Prise de cotes
+   Name/fr   *Arch Prendre des cotes
+   MenuLocation   *Arch → Prendre des cotes
    Workbenches   *[Arch](Arch_Workbench/fr.md)
    SeeAlso   *[Macro FCInfo](Macro_FCInfo/fr.md), [Macro SimpleProperties](Macro_SimpleProperties/fr.md)
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil **<img src="images/Arch_Survey.svg" width=16px> [Arch Prise de cotes](Arch_Survey/fr.md)** accède à un mode spécial d\'arpentage, qui permet de prendre rapidement des mesures et des informations sur un modèle et de transférer ces renseignements à d\'autres applications. Une fois que vous êtes en mode Prise de cotes, et que vous cliquez sur différents sous-éléments de l\'objet 3D, vous récupérez les informations suivantes (en fonction de ce sur quoi vous cliquez)   *
+L\'outil **<img src="images/Arch_Survey.svg" width=16px> [Arch Prendre des cotes](Arch_Survey/fr.md)** accède à un mode spécial d\'arpentage, qui permet de prendre rapidement des mesures et des informations sur un modèle et de transférer ces renseignements à d\'autres applications. Une fois que vous êtes en mode Prendre des cotes, et que vous cliquez sur différents sous-éléments de l\'objet 3D, vous récupérez les informations suivantes (en fonction de ce sur quoi vous cliquez)   *
 
 -   Si vous cliquez sur un bord, vous obtenez sa longueur
 -   Si vous cliquez sur un sommet, vous obtenez sa hauteur (coordonnée sur l\'axe Z)
@@ -32,11 +32,11 @@ Lorsque les informations sont recueillies, trois choses se produisent    *
 
 ## Utilisation
 
-1.  Cliquez sur le bouton **<img src="images/Arch_Survey.svg" width=16px> [Prise de cotes](Arch_Survey/fr.md)
+1.  Cliquez sur le bouton **<img src="images/Arch_Survey.svg" width=16px> [Prendre des cotes](Arch_Survey/fr.md)
 **
 2.  Cliquez sur un sommet, arête, face ou double-cliquez sur l\'élément pour sélectionner l\'objet entier.
 3.  Cliquez hors de toute géométrie (arrière-plan de la vue 3D) pour supprimer les étiquettes existantes, imprimer une ligne totale dans la boîte de dialogue Tâche et relancer le comptage des longueurs et des surfaces à partir de zéro.
-4.  Cliquez sur la touche **Echap** ou sur le bouton **Fermer** pour quitter le mode Prise de cotes et retirer toutes les étiquettes.
+4.  Cliquez sur la touche **Echap** ou sur le bouton **Fermer** pour quitter le mode Prendre des cotes et retirer toutes les étiquettes.
 
 ## Options
 
@@ -52,7 +52,7 @@ Lorsque les informations sont recueillies, trois choses se produisent    *
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Prise de cotes n\'a pas d\'interface de programmation, mais collecte les mêmes informations à partir de n\'importe quel objet sélectionné basé sur [Part](Part_Workbench/fr.md) et est facilement reproductible avec le script suivant   *
+L\'outil Prendre des cotes n\'a pas d\'interface de programmation, mais collecte les mêmes informations à partir de n\'importe quel objet sélectionné basé sur [Part](Part_Workbench/fr.md) et est facilement reproductible avec le script suivant   *
 
 
 ```python

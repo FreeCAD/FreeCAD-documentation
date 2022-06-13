@@ -65,9 +65,9 @@ La boîte de dialogue Addons comporte deux onglets à gauche, l\'un répertorian
 
 ## Informations pour les développeurs 
 
-Si vous avez développé un atelier ou une macro et souhaitez l\'inclure dans le gestionnaire des extensions, lisez la procédure à suivre dans les pages des dépôts ([FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) et [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/)). Si vous ajoutez votre macro à la [Liste des macros](Macros_recipes/fr.md), il n\'y a rien d\'autre à faire, elle sera automatiquement sélectionnée par le gestionnaire Addon Manager.
+Si vous avez développé un atelier ou une macro et souhaitez l\'inclure dans le gestionnaire des Addons, lisez la procédure à suivre dans les pages des dépôts ([FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) et [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/)). Si vous ajoutez votre macro à la [Liste des macros](Macros_recipes/fr.md), il n\'y a rien d\'autre à faire, elle sera automatiquement sélectionnée par le gestionnaire Addon.
 
-### Ateliers Python 
+### Ateliers en Python 
 
 Pour les ateliers Python, vous n\'avez pas besoin d\'une approbation spécifique pour que votre atelier soit ajouté au gestionnaire d\'addons. De plus, comme votre module d\'extension ne fait pas partie du code source de FreeCAD, vous pouvez choisir la licence qui vous convient. Si vous demandez que votre atelier soit ajouté à la liste par défaut du gestionnaire d\'addons (nous n\'ajouterons aucun nouvel atelier sans une demande de ses auteurs), soit en le demandant sur le forum, soit en ouvrant un problème sur le dépôt [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/), votre code restera sur votre propre dépôt git, nous l\'ajouterons simplement comme un sous-module au dépôt [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/). Bien sûr, avant d\'ajouter votre atelier, nous y jetterons un coup d\'œil et nous nous assurerons qu\'il n\'y a rien de potentiellement problématique. Pour plus de détails sur la structuration de votre addon, y compris des informations sur les métadonnées utilisées par le gestionnaire d\'addons, voir [Création d\'atelier](Workbench_creation/fr.md).
 

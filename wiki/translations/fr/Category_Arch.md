@@ -39,9 +39,9 @@ Pages relating to Architectural and Building Information Management
 | [Example Combined Footing/fr](wiki/Example Combined Footing/fr.md) | [Example Slab Having LShape Rebars Reinforcement Mesh/fr](wiki/Example Slab Having LShape Rebars Reinforcement Mesh/fr.md) | [Example Slab Having Mesh Of Straight Rebars/fr](wiki/Example Slab Having Mesh Of Straight Rebars/fr.md) |
 | [Example Slab Having UShape Rebars Reinforcement Mesh/fr](wiki/Example Slab Having UShape Rebars Reinforcement Mesh/fr.md) | [Example Slab Spanning in One Direction/fr](wiki/Example Slab Spanning in One Direction/fr.md) | [Example Slab Spanning in Two Directions/fr](wiki/Example Slab Spanning in Two Directions/fr.md) |
 | [IfcOpenShell/fr](wiki/IfcOpenShell/fr.md) | [IfcPlusPlus/fr](wiki/IfcPlusPlus/fr.md) | [Import/Export IFC - compiling IfcOpenShell/fr](wiki/Import/Export IFC - compiling IfcOpenShell/fr.md) |
-| [Manual:BIM modeling/fr](wiki/Manual_BIM modeling/fr.md) | [Material editor/fr](wiki/Material editor/fr.md) | [Reinforcement Addon/fr](wiki/Reinforcement Addon/fr.md) |
-| [Reinforcement API/fr](wiki/Reinforcement API/fr.md) | [SweetHome3D/fr](wiki/SweetHome3D/fr.md) | [Tutorial custom placing of windows and doors/fr](wiki/Tutorial custom placing of windows and doors/fr.md) |
-| [Tutorial for open windows/fr](wiki/Tutorial for open windows/fr.md) | [Category:Reinforcement/fr](wiki/Category_Reinforcement/fr.md) |
+| [Manual:BIM modeling/fr](wiki/Manual_BIM modeling/fr.md) | [Reinforcement Addon/fr](wiki/Reinforcement Addon/fr.md) | [Reinforcement API/fr](wiki/Reinforcement API/fr.md) |
+| [SweetHome3D/fr](wiki/SweetHome3D/fr.md) | [Tutorial custom placing of windows and doors/fr](wiki/Tutorial custom placing of windows and doors/fr.md) | [Tutorial for open windows/fr](wiki/Tutorial for open windows/fr.md) |
+| [Category:Reinforcement/fr](wiki/Category_Reinforcement/fr.md) |
 
 
 

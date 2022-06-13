@@ -75,12 +75,7 @@ Per la geometria 2D, la maggior parte degli oggetti deriva da `Part   *   *Part2
 ## Azioni
 
 
-<div class="mw-translate-fuzzy">
-
-Le azioni nelle proprietà vista sono state implementate nella versione 0.19.
-
-
-</div>
+{{Version/it|0.19}}
 
 Facendo clic con il tasto destro in uno spazio vuoto della vista o con una proprietà selezionata, viene visualizzato solo un comando   *
 
@@ -125,13 +120,7 @@ In this section we show some common properties that are visible for a [PartDesig
 
 Most of these properties are inherited from the [Part Feature](Part_Feature.md) basic object.
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Properties_View.png  style="width   *490px;"> {{TitleProperty|Base}}
-
-
-</div>
+<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width   *490px;"> {{TitleProperty|Base}}
 
 
 <div class="mw-translate-fuzzy">
@@ -170,15 +159,9 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 ### Dati
 
-In this case we observe the properties of the [PartDesign Revolution](PartDesign_Revolution.md) feature.
+In questo caso osserviamo le proprietà dello strumento [Rivoluzione di PartDesign](PartDesign_Revolution/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Properties_Data.png  style="width   *490px;"> {{TitleProperty|Base}}
-
-
-</div>
+<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width   *490px;"> {{TitleProperty|Base}}
 
 
 <div class="mw-translate-fuzzy">
@@ -193,7 +176,7 @@ Label è il nome attribuito all\'operazione, questo nome può essere modificato 
 
 {{TitleProperty|Part Design}}
 
--    **Refine**   * whether to refine the fusion done with other objects.
+-    **Refine**   * se affinare la fusione fatta con altri oggetti.
 
 
 <div class="mw-translate-fuzzy">
@@ -247,7 +230,7 @@ Questa opzione specifica il punto base, ovvero, il punto a cui tutte le dimensio
 
 **See also   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 See [scripted objects](scripted_objects.md) for the full information on adding properties to objects defined through [Python](Python.md).
 

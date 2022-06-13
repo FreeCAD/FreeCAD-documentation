@@ -55,10 +55,10 @@ This category contains the help pages of each of FreeCAD command.
 | [FEM ConstraintTransform/ro](wiki/FEM ConstraintTransform/ro.md) | [FEM CreateNodesSet/ro](wiki/FEM CreateNodesSet/ro.md) | [FEM ElementFluid1D/ro](wiki/FEM ElementFluid1D/ro.md) |
 | [FEM ElementGeometry1D/ro](wiki/FEM ElementGeometry1D/ro.md) | [FEM ElementGeometry2D/ro](wiki/FEM ElementGeometry2D/ro.md) | [FEM ElementRotation1D/ro](wiki/FEM ElementRotation1D/ro.md) |
 | [FEM EquationElasticity/ro](wiki/FEM EquationElasticity/ro.md) | [FEM EquationFlow/ro](wiki/FEM EquationFlow/ro.md) | [FEM EquationFlux/ro](wiki/FEM EquationFlux/ro.md) |
-| [FEM EquationHeat/ro](wiki/FEM EquationHeat/ro.md) | [FEM FemMesh2Mesh/ro](wiki/FEM FemMesh2Mesh/ro.md) | [FEM MaterialFluid/ro](wiki/FEM MaterialFluid/ro.md) |
-| [FEM MaterialMechanicalNonlinear/ro](wiki/FEM MaterialMechanicalNonlinear/ro.md) | [FEM MaterialSolid/ro](wiki/FEM MaterialSolid/ro.md) | [FEM PostPipelineFromResult/ro](wiki/FEM PostPipelineFromResult/ro.md) |
-| [FEM SolverCalculixCxxtools/ro](wiki/FEM SolverCalculixCxxtools/ro.md) | [FEM SolverZ88/ro](wiki/FEM SolverZ88/ro.md) | [GuiCommand model/ro](wiki/GuiCommand model/ro.md) |
-| [Template:GuiCommand/ro](wiki/Template_GuiCommand/ro.md) | [Template:GuiCommandAddon/ro](wiki/Template_GuiCommandAddon/ro.md) | [Material editor/ro](wiki/Material editor/ro.md) |
+| [FEM EquationHeat/ro](wiki/FEM EquationHeat/ro.md) | [FEM FemMesh2Mesh/ro](wiki/FEM FemMesh2Mesh/ro.md) | [FEM MaterialEditor/ro](wiki/FEM MaterialEditor/ro.md) |
+| [FEM MaterialFluid/ro](wiki/FEM MaterialFluid/ro.md) | [FEM MaterialMechanicalNonlinear/ro](wiki/FEM MaterialMechanicalNonlinear/ro.md) | [FEM MaterialSolid/ro](wiki/FEM MaterialSolid/ro.md) |
+| [FEM PostPipelineFromResult/ro](wiki/FEM PostPipelineFromResult/ro.md) | [FEM SolverCalculixCxxtools/ro](wiki/FEM SolverCalculixCxxtools/ro.md) | [FEM SolverZ88/ro](wiki/FEM SolverZ88/ro.md) |
+| [GuiCommand model/ro](wiki/GuiCommand model/ro.md) | [Template:GuiCommand/ro](wiki/Template_GuiCommand/ro.md) | [Template:GuiCommandAddon/ro](wiki/Template_GuiCommandAddon/ro.md) |
 | [Mesh BoundingBox/ro](wiki/Mesh BoundingBox/ro.md) | [Mesh BuildRegularSolid/ro](wiki/Mesh BuildRegularSolid/ro.md) | [Mesh Difference/ro](wiki/Mesh Difference/ro.md) |
 | [Mesh EvaluateFacet/ro](wiki/Mesh EvaluateFacet/ro.md) | [Mesh Export/ro](wiki/Mesh Export/ro.md) | [Mesh FillInteractiveHole/ro](wiki/Mesh FillInteractiveHole/ro.md) |
 | [Mesh FlipNormals/ro](wiki/Mesh FlipNormals/ro.md) | [Mesh FromPartShape/ro](wiki/Mesh FromPartShape/ro.md) | [Mesh HarmonizeNormals/ro](wiki/Mesh HarmonizeNormals/ro.md) |

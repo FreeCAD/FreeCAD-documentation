@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *Arch CompAxis
-   Name/fr   *Arch Outils pour axes
+   Name/fr   *Arch Outils pour les axes 
    MenuLocation   *Arch → Outils pour les axes
    Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version   *0.17

@@ -125,19 +125,20 @@ Są to narzędzia do odejmowania materiału z istniejącej bryły.
 
 #### Narzędzia do przekształcania 
 
-Są to narzędzia służące do przekształcania istniejących właściwości. Pozwalają one na wybór cech przeznaczonych do przeprowadzenia przekształceń.
+Są to narzędzia służące do przekształcania istniejących właściwości.
 
--   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Utwórz kopie lustrzaną](PartDesign_Mirrored.md)   * jest lustrzanym odbiciem jednej lub kilku cech na płaszczyźnie lub ścianie.
+-   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Utwórz kopie lustrzaną](PartDesign_Mirrored.md)   * jest lustrzanym odbiciem jednej lub kilku cech.
 
 -   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Utwórz szyk liniowy](PartDesign_LinearPattern.md)   * tworzy wzór liniowy oparty na jednej lub kilku właściwościach.
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Utwórz szyk kołowy](PartDesign_PolarPattern.md)   * tworzy układ kołowy złożony z jednej lub więcej właściwości.
 
--   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Utwórz szyk kołowy](PartDesign_MultiTransform.md)   * tworzy układ kołowy złożony z jednej lub więcej właściwości.
+-   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Utwórz szyk kołowy](PartDesign_MultiTransform.md)   * tworzy układ kołowy złożony z jednej lub więcej właściwości, wspomniane powyżej, a także przekształcenie [Skali](PartDesign_Scaled/pl.md).
+    -   <img alt="" src=images/PartDesign_Scaled.svg  style="width   *32px;"> [Skaluj](PartDesign_Scaled/pl.md)   * skaluje jedną lub więcej funkcji. Funkcja nie jest dostępna jako osobne narzędzie do transformacji.
 
 #### Narzędzia do obróbki krawędzi 
 
-Narzędzia te umożliwiają wykonanie określonej modyfikacji wybranych krawędzi lub powierzchni.
+Narzędzia te umożliwiają wykonanie określonej modyfikacji krawędzi lub powierzchni.
 
 \_\*<img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Utwórz zaokrąglenie na krawędzi](PartDesign_Fillet.md)   * tworzy zaokrąglenia na określonych krawędziach wybranego kształtu.
 

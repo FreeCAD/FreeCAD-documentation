@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Hatch
    Name/fr   *Draft Hachure
-   MenuLocation   *Esquisse → Hachure
+   MenuLocation   *Draft → Hachure
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***H** **A**
    Version   *0.20
@@ -20,7 +20,7 @@ La commande <img alt="" src=images/Draft_Hatch.svg  style="width   *24px;"> **Dr
 1.  Sélectionnez un objet avec des faces. Seules les faces planes de l\'objet seront hachurées.
 2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Hatch.svg" width=16px> [Hachure](Draft_Hatch/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Hatch.svg" width=16px> Hachure** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Hatch.svg" width=16px> Hachure** dans le menu.
     -   Utilisez le raccourci clavier    * **H** puis **A**.
 3.  Le panneau de tâches **Hatch** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Appuyez sur le bouton **OK** pour terminer la commande.

@@ -1,10 +1,5 @@
 # Release notes 0.15/it
-<div class="mw-translate-fuzzy">
-
-FreeCAD 0.15 è stato rilasciato il giorno 8 Aprile 2015. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http   *//www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in   * [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
-
-
-</div>
+FreeCAD 0.15 è stato rilasciato il giorno 8 Aprile 2015. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http   *//www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in   * [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 
 <img alt="" src=images/Spark-Plug-Plane.jpg  style="width   *1024px;">
 
@@ -83,16 +78,10 @@ Per i nostalgici del vecchio software CAD, ora con lo strumento [Forma da testo]
 
 ### Altre migliorie minori 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Le [Linee](Draft_Line/it.md) possono essere definite dalla loro lunghezza e dall\'angolo nel piano di lavoro attuale
 -   Linee di estensione relative per la [Quotatura](Draft_Snap_Dimensions/it.md)
--   Supporto per [Ellissi](Sketcher_CreateEllipseByCenter/it.md) in Schizzo
+-   Supporto per [schizzo ellissi](Sketcher_CompCreateConic/it.md)
 -   Gli oggetti [Array](Draft_Array/it.md) (Schiere) possono essere fusi
-
-
-</div>
 
 ## Ambiente Draft 
 

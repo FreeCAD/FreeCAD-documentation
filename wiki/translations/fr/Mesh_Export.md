@@ -11,15 +11,15 @@
 
 ## Description
 
-La commande **Export de maillage** exporte un objet maillé dans un format de fichier maillé. Plusieurs formats de fichiers sont pris en charge.
+La commande **Exporter un maillage** exporte un objet maillé dans un format de fichier maillé. Plusieurs formats de fichiers sont pris en charge.
 
 ## Utilisation
 
 1.  Sélectionnez un seul objet maillé.
 2.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/Mesh_Export.svg" width=16px> [Mesh Exporte le maillage dans un fichier](Mesh_Export.md)**.
+    -   Appuyez sur le bouton **<img src="images/Mesh_Export.svg" width=16px> [Exporter le maillage...](Mesh_Export/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Export.svg" width=16px> Exporter le maillage...** dans le menu.
-    -   Sélectionnez l\'option **<img src="images/Mesh_Export.svg" width=16px> Exporter le maillage...** dans le menu contextuel de la [vue en arborescence](tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **<img src="images/Mesh_Export.svg" width=16px> Exporter le maillage...** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md).
 3.  Sélectionnez le format de fichier correct dans la boîte de dialogue.
 4.  Entrez un nom de fichier. Si vous avez sélectionné l\'option {{Value|All files (*.*)}} à l\'étape précédente et si vous ne spécifiez pas d\'extension de fichier ici, l\'extension **.stl** sera utilisée.
 5.  Appuyez sur le bouton **Sauvegarder**.

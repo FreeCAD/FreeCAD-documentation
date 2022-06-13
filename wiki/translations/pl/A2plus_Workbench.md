@@ -7,13 +7,7 @@
 
 Środowisko pracy A2plus to [zewnętrzne środowisko](External_workbenches/pl.md) do wykonywania [złożeń](Assembly/pl.md) różnych części w programie FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
-Niniejsza dokumentacja opisuje wersję A2plus **0.4.54b lub nowszą**.
-
-
-</div>
+Niniejsza dokumentacja opisuje wersję A2plus **0.4.56 lub nowszą**.
 
 ## Instalacja
 
@@ -130,7 +124,7 @@ Select either a closed [edge](Glossary#Edge.md) or a plane on both parts. The to
 
 An assembly can contain other assemblies. They are added like parts by pressing the toolbar button <img alt="" src=images/A2p_ImportPart.svg  style="width   *24px;"> and selecting a ***.FCStd** file containing an assembly. Such subassemblies can also be edited like parts using the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. Please make sure for higher assembly stages that you update the assembly recursively via the toolbar button <img alt="" src=images/A2p_RecursiveUpdate.svg  style="width   *24px;"> when there were changes.
 
-## Constraint Handling 
+## Operowanie wiązaniami 
 
 Possible constraints for a selection are displayed in the toolbar and the *Constraint Tools* dialog by enabling the corresponding buttons. The *Constraint Tools* dialog is opened via the toolbar button <img alt="" src=images/A2p_DefineConstraints.svg  style="width   *24px;">. It is intended to stay open to be able to add quickly several constraints to the assembly.
 

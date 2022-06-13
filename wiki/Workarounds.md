@@ -3,7 +3,7 @@
 
 The goal of this article is to list the most important currently missing features in FreeCAD and provide workarounds for them. It can be helpful for new users who can\'t find a particular functionality in FreeCAD.
 
-## Missing features in the Sketcher 
+## Workarounds for the Sketcher Workbench 
 
 ++++
 | No. | Missing feature                                                                                                                    | Workarounds                                                                                                                                                                                                                                                                                                              |
@@ -32,7 +32,7 @@ The goal of this article is to list the most important currently missing feature
 ++++
 | 7   | Adaptive dimension constraint                                                                                                      | -   using a range of [dimensional constraints](Sketcher_Workbench#Dimensional_constraints.md) -- 3 for lines, 1 for angles and 3 for arcs/circles                                                                                                                                                                |
 ++++
-| 8   | Inputting coordinates and dimensions on go (when drawing an object)                                                                | -   dimensioning afterwards                                                                                                                                                                                                                                                                                              |
+| 8   | Inputting coordinates and dimensions on the go (when drawing an object)                                                            | -   dimensioning afterwards                                                                                                                                                                                                                                                                                              |
 ++++
 | 9   | [Tangency](Sketcher_ConstrainTangent.md) to [B-spline](B-Splines.md) edge                                          | -   [tangency](Sketcher_ConstrainTangent.md) applied to endpoints instead of edges                                                                                                                                                                                                                               |
 ++++
@@ -49,7 +49,7 @@ The goal of this article is to list the most important currently missing feature
 | 15  | [View section](Sketcher_ViewSection.md) tool showing filled cuts                                                           | -   if the sketch is plane-parallel to one of the main planes of the global coordinate system   * use [Part SectionCut](Part_SectionCut.md)                                                                                                                                                                         |
 ++++
 
-## Missing features in the Part and Part Design workbenches 
+## Workarounds for the Part Workbench and Part Design Workbench 
 
 ++++
 | No. | Missing feature                                                                                                                                                                                     | Workarounds                                                                                                                                                                                      |
@@ -62,7 +62,8 @@ The goal of this article is to list the most important currently missing feature
 | 3   | [Clipping plane](Std_ToggleClipPlane.md) that doesn\'t make the model look like it\'s hollow                                                                                                | -   changing lighting in part's view settings to one side (very rough equivalent, problem with multicolored parts)                                                                               |
 |     |                                                                                                                                                                                                     | -   [Persistent section cut](Part_SectionCut.md) tool - deselect all planes before pressing Close, doesn't work for intersecting parts in assemblies                                     |
 ++++
-| 4   | Creation of an axis on the intersection of 2 planes and a plane midway between two faces/points, possibly more variants for [datum](Datum.md) creation                                      | -   more manual [datum](Datum.md) creation                                                                                                                                               |
+| 4   | Creation of an axis on the intersection of 2 planes and a plane midway between two faces/points, possibly more variants for [datum](Datum.md) creation                                      | -   [Macro Intersection](Macro_Intersection.md)                                                                                                                                          |
+|     |                                                                                                                                                                                                     | -   manual [datum](Datum.md) creation                                                                                                                                                    |
 ++++
 | 5   | Automated midsurface extraction (for thin-walled parts)                                                                                                                                             | -   [Draft Facebinder](Draft_Facebinder.md) and then [Draft Scale](Draft_Scale.md) or [Part Offset](Part_Offset.md) to make it actual midsurface                         |
 ++++
@@ -79,7 +80,8 @@ The goal of this article is to list the most important currently missing feature
 ++++
 | 11  | Parametric curves                                                                                                                                                                                   | -   [Macro 3D Parametric Curve](Macro_3D_Parametric_Curve.md)                                                                                                                            |
 ++++
-| 12  | Cosmetic threads                                                                                                                                                                                    | -   modeling true threads, for holes those can be generated automatically using [Hole](PartDesign_Hole.md) tool                                                                          |
+| 12  | Cosmetic threads                                                                                                                                                                                    | -   adding cosmetic threads on the [TechDraw](TechDraw_Workbench#Centerlines_and_threading.md) page                                                                                      |
+|     |                                                                                                                                                                                                     | -   modeling true threads, for holes those can be generated automatically using [Hole](PartDesign_Hole.md) tool                                                                          |
 ++++
 | 13  | Partitions (splitting surfaces and volumes with sketches and datum planes while keeping the number of parts unchanged)                                                                              | -   [Boolean Fragments](Part_BooleanFragments.md) tool -- only splitting surfaces with sketches                                                                                          |
 ++++
@@ -102,20 +104,23 @@ The goal of this article is to list the most important currently missing feature
 ++++
 | 21  | [Datum points](PartDesign_Point.md) from coordinates                                                                                                                                        | -   basing [datum points](PartDesign_Point.md) on existing geometry                                                                                                                      |
 ++++
+| 22  | A tool for automatic creation of ribs                                                                                                                                                               | -   creating ribs manually                                                                                                                                                                       |
+++++
 
-## Missing features in the TechDraw workbench 
+## Workarounds for the TechDraw Workbench 
 
 ++++
 | No. | Missing feature                                                        | Workarounds                                                                                                                                                                                                                                                                   |
 +=====+========================================================================+===============================================================================================================================================================================================================================================================================+
 | 1   | Advanced section views (half, broken out, offset and aligned sections) | -   using the [Slice apart](Part_SliceApart.md) tool to physically cut the model and then creating its view                                                                                                                                                           |
 ++++
-| 2   | Surface quality annotations                                            | -   importing symbols created in external software (e.g. Inkscape) and saved to svg format - [Insert SVG Symbol](TechDraw_Symbol.md) tool                                                                                                                             |
+| 2   | Surface quality annotations                                            | -   [SurfaceSymbols03.FCMacro](https   *//forum.freecadweb.org/viewtopic.php?style=1&p=589643#p589643)                                                                                                                                                                           |
+|     |                                                                        | -   importing symbols created in external software (e.g. Inkscape) and saved to svg format - [Insert SVG Symbol](TechDraw_Symbol.md) tool                                                                                                                             |
 ++++
 | 3   | Auto diameter dimension on side views                                  | -   manual addition of the diameter symbol                                                                                                                                                                                                                                    |
 ++++
 | 4   | Sketching in drawings                                                  | -   cosmetic line tools in [Annotations](TechDraw_Workbench#Annotations.md), limited                                                                                                                                                                                  |
-|     |                                                                        | -   creating [regular views](TechDraw_View.md) and [Draft views](TechDraw_DraftView.md) of sketches and [Draft](Draft_Workbench.md) objects                                                                                                           |
+|     |                                                                        | -   creating [regular views](TechDraw_View.md) and [Draft views](TechDraw_DraftView.md) of sketches and [Draft](Draft_Workbench.md) objects, also partially limited (can\'t create e.g. regions for hatching)                                         |
 ++++
 | 5   | Shaded views in drawings                                               | -   no known workaround                                                                                                                                                                                                                                                       |
 ++++
@@ -130,8 +135,10 @@ The goal of this article is to list the most important currently missing feature
 |     |                                                                        |     6.  if lines of the cut have to be extended, create a [view](TechDraw_View.md) of the sketch used in the first step and align it with the cut                                                                                                                     |
 |     |                                                                        |     7.  to obtain a proper value of the length of the cut part, you can either change the dimension value manually (after enabling the *Arbitrary Text* option) or [link](TechDraw_LinkDimension.md) it to the distance between the end vertices of the original part |
 ++++
+| 8   | Excluding ribs from hatching                                           | -   in some cases it might be sufficient to use the first workaround mentioned here and manually create a section with a custom cutting line                                                                                                                                  |
+++++
 
-## Missing features in the FEM workbench 
+## Workarounds for the FEM Workbench 
 
 ++++
 | No. | Missing feature                                                                                                                               | Workarounds                                                                                 |
@@ -155,7 +162,7 @@ The goal of this article is to list the most important currently missing feature
 | 9   | CalculiX keyword editor                                                                                                                       | -   no known workaround                                                                     |
 ++++
 
-## General missing features 
+## General workarounds 
 
 ++++
 | No. | Missing feature                                                                                                                                                                                             | Workarounds                                                                                                                                        |

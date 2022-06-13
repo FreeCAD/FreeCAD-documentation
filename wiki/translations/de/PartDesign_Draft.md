@@ -40,34 +40,28 @@ Das Werkzeug <img alt="" src=images/PartDesign_Draft.svg  style="width   *24px;"
 
 ### Eine Formschräge bearbeiten 
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Eine der folgenden Möglichkeiten startet die Bearbeitung   *
     -   Das Draft-Objekt in der [Baumansicht](Tree_view/de.md) doppelt anklicken.
     -   Das Draft-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **Draft bearbeiten** aus dem Kontextmenü auswählen.
 2.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Formschräge** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
 
-
-</div>
-
 ## Optionen
 
--    **Add face**   * Add faces to the selection by pressing the **Add face** button and selecting more faces.
+-    **Fläche hinzufügen**   * Flächen werden zur Auswahl hinzugefügt, indem man die Schaltfläche **Fläche hinzufügen** drückt und weitere Flächen auswählt.
 
--    **Remove face**   * Choose a way to remove faces from the selection   *
+-    **Fläche entfernen**   * Möglichkeiten eine Fläche aus der Auswahl zu entfernen   *
 
-    -   Select one or more faces in the list and press the **Del** key or right-click the list and select **Remove** from the context menu.
-    -   Press the **Remove face** button. All previously selected faces are highlighted in purple. Select each face to be removed.
+    -   Eine oder mehrere Flächen in der Liste auswählen und die **Del**-Taste drücken oder mit der rechte Maustaste in die Liste klicken und **Entfernen** aus dem Kontextmenü auswählen.
+    -   Die Schaltfläche **Fläche entfernen** drücken. Alle zuvor ausgewählten Flächen werden violett hervorgehoben. Jede zu entfernende Fläche auswählen.
 
--    **Draft angle**   * Set the Draft angle either by entering a value or by clicking the up/down arrows.
+-    **Formschrägenwinkel**   * Den Winkel der Schräge verändern, indem man einenWert eingibt oder die Pfeiltasten anklickt.
 
--    **Neutral plane**   * Set the the neutral plane by pressing the **Neutral plane** button and selecting the plane that must not change dimensionally.
+-    **Neutrale Ebene**   * Die neutrale Ebene angeben, indem man die Schaltfläche **Neutrale Ebene** drückt und die Fläche auswählt, die sich maßlicht nicht verändern soll.
 
--    **Pull direction**   * Set the the pull direction by pressing the **Pull direction** button, then select an edge. Pull Direction is only effective if the Neutral Plane has been set. Results can be unpredictable.
+-    **Zugrichtung**   * Die Zugrichtung festlegen, indem man die Schaltfläche **Zugrichtung** drückt und dann eine Kante auswählt. Die Zugrichtung hat nur dann eine Wirkung, wenn eine neutrale Ebenen angegeben wurde. Die Ergebnisse können unvorhersehbar sein.
 
--    **Reverse pull direction**   * Invert the pull direction by checking the **Reverse pull direction** checkbox. This will toggle the draft between positive and negative angles.
+-    **Zugrichtung umkehren**   * Umkehren der Zugrichtung durch aktivieren der Checkbox **|Entformungsrichtung umkehren**. Dies schaltet den Winkel der Schräge von positiv zu negativ um.
 
 ## Hinweise
 

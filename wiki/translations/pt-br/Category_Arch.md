@@ -33,7 +33,7 @@ Pages relating to Architectural and Building Information Management
 | [Arch Survey/pt-br](wiki/Arch Survey/pt-br.md) | [Arch ToggleIfcBrepFlag/pt-br](wiki/Arch ToggleIfcBrepFlag/pt-br.md) | [Arch ToggleSubs/pt-br](wiki/Arch ToggleSubs/pt-br.md) |
 | [Arch Truss/pt-br](wiki/Arch Truss/pt-br.md) | [Arch tutorial/pt-br](wiki/Arch tutorial/pt-br.md) | [Arch Wall/pt-br](wiki/Arch Wall/pt-br.md) |
 | [Arch Window/pt-br](wiki/Arch Window/pt-br.md) | [Arch Workbench/pt-br](wiki/Arch Workbench/pt-br.md) | [Manual:BIM modeling/pt-br](wiki/Manual_BIM modeling/pt-br.md) |
-| [Material editor/pt-br](wiki/Material editor/pt-br.md) |
+|
 
 
 

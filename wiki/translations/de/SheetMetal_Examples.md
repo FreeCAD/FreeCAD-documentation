@@ -260,106 +260,106 @@ Diese Eigenschaft entspricht dem Innenradius der Bögen, die an Knotenpunkten er
 
 <div class="mw-collapsible mw-collapsed">
 
-### Bend object <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *24px;"> 
+### Bend-Objekt <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *24px;"> 
 
 
 <div class="mw-collapsible-content toccolours">
 
-A Bend object consists of sets of one cylindrical bend and one planar strip each. Each pair extends from a selected edge of a blank.
+Das Bend-Objekt besteht aus aus einem Sätzen aus jeweils einem zylindrischen Bogen und einem ebenen Streifen. Jedes dieser Paare beginnt an einer ausgewählten Kante einer Platine (ebener Blechabschnitt).
 
 <img alt="" src=images/SheetMetal_Example-09a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09b.png  style="width   *200px;">
 
 
 
-*Selected edges + 
-**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)* 
-→ Bend objects with default settings <br>
-(Two Bend objects in two separate bodies.)**
+*Ausgewählte Kanten + 
+**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/de.md)* 
+→ Bend-Objekte mit Standardeinstellungen <br>
+(Zwei Bend-Objekte in zwei separaten Körpern.)**
 
-Edit **radius** to vary the inner radius of all bends supplied by a Bend object. (See BaseBend object above)
+Die {{PropertyData/de|radius}} bearbeiten, um den inneren Radius aller Bogenstücke des Bend-Objekts zu verändern. (Siehe BaseBend-Objekt weiter oben)
 
-Edit **length** to vary the length of all planar strips extending from the bends of a Bend object.
+Die {{PropertyData/de|length}} bearbeiten, um die Länge aller ebenen Streifen des Bend-Objekts, die an die Bogenstücke anschließen, zu verändern.
 
-   *   Don\'t confuse the **length** with a flange length which is the sum of this length, radius, and thickness (90° only).
+   *   Man sollte die {{PropertyData/de|length}} nicht mit der Kantenlänge (flange length) verwechseln, die sich aus der Summe aus Länge, Radius und Wandstärke (den Eigenschaften length, radius, und thickness) ergibt (nur für 90° Winkel).
 
 <img alt="" src=images/SheetMetal_Example-09b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;">
 
 
 
-*Switch **invert* from {{FALSE** to `True`   *Default flanges (Bend objects) → Inverted flanges}}
+*Die {{PropertyData/de|invert* von `False` auf `True` umschalten   * Kanten entsprechend den Standardeinstellungen (Bend objects) → Umgekehrte Kanten}}
 
 <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09e.png  style="width   *200px;">
 
 
 
-*Edit **angle*   *Default angle (90°) → Enlarged angle → Decreased angle**
+*Die {{PropertyData/de|angle* bearbeiten   * Standardwinkel (90°) → Vergrößerter Winkel → Verkleinerter Winkel}}
 
-We don\'t have to care about trimming the edges, because **Auto Miter** is activated by default.
-If deactivated, the result would look like this   *
+Man muss sich nicht um den Beschnitt der Kanten kümmern, da **Auto Miter** (automatische Gehrung) standardmäßig aktiviert ist.
+Wenn deaktiviert, sieht das Ergebnis so aus   *
 
 <img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09g.png  style="width   *200px;">
 
 
 
-*Switch **Auto Miter* from {{TRUE** to `False`   * Default angle (90°) → Enlarged angle → Decreased angle<br>
-(Auto Miter has no effect on single flanges)}}
+*Die {{PropertyData/de|Auto Miter* von `True` auf `False` umschalten   * Standardwinkel (90°) → Vergrößerter Winkel → Verkleinerter Winkel<br>
+(Auf einzelne Kanten (flanges) hat **auto Miter** keine Auswirkung)}}
 
-To manually miter a flange edge **miterangle1** and **miterangle2** are used   *
+Um eine die Kante (edge) einer Kante (flange) von Hand mit einer Gehrung zu versehen, verwendet man **miterangle1** und **miterangle1**   *
 
 <img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09n.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09o.png  style="width   *200px;">
 
 
 
-*Edit **miterangle1* and {{PropertyData|miterangle2**   * No miter (default) → Differently mitered edges, positive angle → Symmetrically mitered edges, negative angles}}
+*Die {{PropertyData/de|miterangle1* and **miterangle2** bearbeiten   * Keine Gehrung (Standard) → Gehrung mit unterschiedlichen positiven Winkeln, → Symmetrische Gehrung mit negativen Winkeln}}
 
-Mitering only effects the planar strips, not the bends.
+Die Gehrung betrifft nur die ebenen Streifen, nicht die Bogenstücke.
 
-   *   (It takes the whole edge into account and so cannot be used to chamfer flange edges)
+   *   (Es verläuft über die gesamte Länge der Kanten (edges) und kann daher nicht zum Anfasen der Kanten (edges) der Kanten (flanges) verwendet werden)
 
-To display the different choices of **Bend Type** we introduce an auxiliary cuboid that extrudes from the same outline as the blank and has the same height as the Bend object (its flange length).
+Um die verschiedenen Möglichkeiten von **Bend Type** darzustellen, wird ein Hilfsquader eingesetzt, der auf derselben Ebene steht, wie die Platine und der die gleiche Höhe hat, wie das Bend-Objekt (seine Kantenlänge).
 
 <img alt="" src=images/SheetMetal_Example-09h.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09i.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09j.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09k.png  style="width   *200px;">
 
 
 
-*Select **Bend Type*   * {{value|Material Outside** (default) → {{value|Material Inside}} → {{value|Thickness Outside}} → {{value|Offset}}}}
+*Die **Bend Type* auswählen   * {{value|Material Outside**  (Standardwert) → {{value|Material Inside}} → {{value|Thickness Outside}} → {{value|Offset}}}}
 
--   Outside   * The bend starts at the selected edge (The whole Bend object lies outside the cuboid).
--   Inside   * The outer side of the bend ends on the cuboid surface (The whole Bend object lies inside the cuboid).
--   Thickness Outside   * The inner side of the bend ends on the cuboid surface (only the planar strip is protruding from the cuboid surface).
--   Offset   * According to the value of **offset** the bend is moved in outward direction from its default position.
+-   Outside   * (Außerhalb) Der Bogen beginnt an der ausgewählten Kante (edge) (Das ganze Bend-Objekt liegt außerhalb des Quaders).
+-   Inside   * (Innerhalb) Die Außenseite der Kante (flange) endet an der Oberfläche des Quaders (Das ganze Bend-Objekt liegt innerhalb des Quaders).
+-   Thickness Outside   * (Wandstärke außerhalb) Die Innenseite des Bogens endet an der Oberfläche des Quaders (Nur der ebene Streifen tritt aus der Oberfläche des Quaders hervor).
+-   Offset   * (Versatz) Abhängig vom Wert der {{PropertyData/de|offset}} wird der Bogen von seiner Standardposition in Richtung nach außen versetzt.
 
-   *   An extension is inserted for positive values (high-lighted strip).
-   *   Negative values are allowed to move the bend inwards.
+   *   Für positive Werte wird eine Erweiterung eingefügt (hervorgehobener Streifen).
+   *   Negative Werte sind erlaubt, um den Bogen nach innen zu bewegen.
 
-If we don\'t want to use the whole length of an edge we can use **gap1** and **gap2**.
+Wenn nicht die ganze Länge einer Kante (edge) verwendet werden soll, können **gap1** und **gap2** verwendet werden.
 
 <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09l.png  style="width   *200px;">
 
 
 
-*Edit **gap1* and {{PropertyData|gap2**   * Default flanges → Flanges with different values for gap1 and gap2}}
+*Die {{PropertyData/de|gap1* und {{PropertyData/de|gap2}} bearbeiten   * Kanten entsprechend den Standardeinstellungen → Kanten(flanges) mit unterschiedlichen Werten für gap1 und gap2}}
 
-If the length of a gap reaches or extends the value of **min Relief Gap**, a relief will be added to the gap.
-Reliefs are controlled by **relief Type**, **reliefd** (relief depth), and **reliefw** (relief width) which are enabled only when a gap value is set.
+Wenn die Länge einer Lücke (gap) den Wert der {{PropertyData/de|min Relief Gap}} erreicht oder überschreitet, wird ein Entlastungsausschnitt zur Lücke hinzugefügt .
+Die Entlastungsausschnitte werden durch die {{PropertyData/de|relief Type}} (Art des Ausschnitts), die {{PropertyData/de|reliefd}} (Tiefe des Ausschnitts), und die {{PropertyData/de|reliefw}} (Breite des Ausschnitts) gesteuert, die nur dann aktiv sind, wenn ein Wert für eine Lücke angegeben wurde.
 
 <img alt="" src=images/SheetMetal_Example-09p.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09q.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09r.png  style="width   *200px;">
 
 
 
-*Edit **reliefd* and {{PropertyData|reliefw**   * Default values → Relief depth enlarged → Relief depth and width enlarged}}
+*Die {{PropertyData/de|reliefd* und die {{PropertyData/de|reliefw}} bearbeiten   * Standardwerte → Ausschnitttiefe vergrößert → Ausschnitttiefe und -Breite vergrößert}}
 
 <img alt="" src=images/SheetMetal_Example-09r.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09s.png  style="width   *200px;">
 
 
 
-*Switch **relief Type* from {{value|Rectangle** to {{value|Round}}   * Default rectangular relief → Round relief}}
+*Die {{PropertyData/de|relief Type* von {{value|Rectangle}} auf {{value|Round}} umschalten   * Standardmäßiger rechteckiger Entlastungsausschnitt → Runder Entlastungsausschnitt}}
 
-The round option will only be applied, if the relief depth is larger than the relief width.
+Die Option rund wird nur dann angewendet, wenn die Ausschnitttiefe größer als die Ausschnittbreite ist.
 
-Switch **Use Relief Factor** from `False` (default) to `True` to set the values of **reliefd** and **reliefw** automatically. Both are set to the object\'s (inherited) thickness multiplied by the value of **Relief Factor**.
+Die {{PropertyData/de|Use Relief Factor}} von `False` (Standardwert) auf `True` umschalten, um die Werte der {{PropertyData/de|reliefd}} und der {{PropertyData/de|reliefw}} automatisch einzusetzen. Beide werden auf die (ererbte) Wandstärke des Objekts multipliziert mit dem Wert der {{PropertyData/de|Relief Factor}} gesetzt.
 
-   *   In this case the round option is useless, since the relief depth is as large as the relief width. (See above)
+   *   In diesem Falle ist die Option rund nutzlos, da die Ausschnitttiefe und die Ausschnittbreite gleich groß sind. (Siehe oben)
 
 
 </div>

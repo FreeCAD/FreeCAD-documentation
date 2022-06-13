@@ -44,10 +44,10 @@ This category contains all Unfinished Documents
 | [FEM EquationFlow/fr](wiki/FEM EquationFlow/fr.md) | [FEM EquationFlux/fr](wiki/FEM EquationFlux/fr.md) | [FEM EquationHeat/fr](wiki/FEM EquationHeat/fr.md) |
 | [FEM MaterialMechanicalNonlinear/fr](wiki/FEM MaterialMechanicalNonlinear/fr.md) | [FEM MaterialReinforced/fr](wiki/FEM MaterialReinforced/fr.md) | [FEM MeshClear/fr](wiki/FEM MeshClear/fr.md) |
 | [FEM MeshNetgenFromShape/fr](wiki/FEM MeshNetgenFromShape/fr.md) | [FEM PostApplyChanges/fr](wiki/FEM PostApplyChanges/fr.md) | [FEM PostCreateFunctions/fr](wiki/FEM PostCreateFunctions/fr.md) |
-| [FEM ResultShow/fr](wiki/FEM ResultShow/fr.md) | [FEM ResultsPurge/fr](wiki/FEM ResultsPurge/fr.md) | [FEM SolverCalculiX/fr](wiki/FEM SolverCalculiX/fr.md) |
-| [FEM SolverControl/fr](wiki/FEM SolverControl/fr.md) | [FEM SolverMystran/fr](wiki/FEM SolverMystran/fr.md) | [FEM SolverRun/fr](wiki/FEM SolverRun/fr.md) |
-| [FreeCAD Docker CLI mode/fr](wiki/FreeCAD Docker CLI mode/fr.md) | [InputField/fr](wiki/InputField/fr.md) | [Lattice2 AttachablePlacement/fr](wiki/Lattice2 AttachablePlacement/fr.md) |
-| [Lattice2 Workbench/fr](wiki/Lattice2 Workbench/fr.md) | [Manual:BIM modeling/fr](wiki/Manual_BIM modeling/fr.md) | [ModernUI Workbench/fr](wiki/ModernUI Workbench/fr.md) |
+| [FEM ResultShow/fr](wiki/FEM ResultShow/fr.md) | [FEM SolverCalculiX/fr](wiki/FEM SolverCalculiX/fr.md) | [FEM SolverControl/fr](wiki/FEM SolverControl/fr.md) |
+| [FEM SolverMystran/fr](wiki/FEM SolverMystran/fr.md) | [FEM SolverRun/fr](wiki/FEM SolverRun/fr.md) | [FreeCAD Docker CLI mode/fr](wiki/FreeCAD Docker CLI mode/fr.md) |
+| [InputField/fr](wiki/InputField/fr.md) | [Lattice2 AttachablePlacement/fr](wiki/Lattice2 AttachablePlacement/fr.md) | [Lattice2 Workbench/fr](wiki/Lattice2 Workbench/fr.md) |
+| [Manual:BIM modeling/fr](wiki/Manual_BIM modeling/fr.md) | [Migrating to FreeCAD from SolidWorks/fr](wiki/Migrating to FreeCAD from SolidWorks/fr.md) | [ModernUI Workbench/fr](wiki/ModernUI Workbench/fr.md) |
 | [OpenSCAD ColorCodeShape/fr](wiki/OpenSCAD ColorCodeShape/fr.md) | [Part BoxSelection/fr](wiki/Part BoxSelection/fr.md) | [Part CompSplittingTools/fr](wiki/Part CompSplittingTools/fr.md) |
 | [Part ElementCopy/fr](wiki/Part ElementCopy/fr.md) | [Part Loft/fr](wiki/Part Loft/fr.md) | [Part Mirror/fr](wiki/Part Mirror/fr.md) |
 | [Part Offset/fr](wiki/Part Offset/fr.md) | [Part PointsFromMesh/fr](wiki/Part PointsFromMesh/fr.md) | [Part RuledSurface/fr](wiki/Part RuledSurface/fr.md) |

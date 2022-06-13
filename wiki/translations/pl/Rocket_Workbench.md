@@ -28,25 +28,25 @@ Do opracowania.
 
 Komponenty utworzone za pomocą środowiska pracy Rakieta są zasadniczo częściami podobnymi do tych, które można utworzyć za pomocą środowiska pracy [Część](Part_Workbench/pl.md). Mogą one być łączone z innymi częściami lub modyfikowane przy użyciu tego narzędzia. Zaletą korzystania ze środowiska Rakieta jest to, że części mogą być tworzone przy znacznie mniejszej liczbie operacji.
 
--   <img alt="" src=images/Rocket_NoseCone.svg  style="width   *32px;"> [Nose Cone](Rocket_NoseCone.md)   * Create a nose cone
+-   <img alt="" src=images/Rocket_NoseCone.svg  style="width   *32px;"> [Dziób](Rocket_NoseCone/pl.md)   * Tworzy krzywą czubka.
 
--   <img alt="" src=images/Rocket_Transition.svg  style="width   *32px;"> [Transition](Rocket_Transition.md)   * Create a transition
+-   <img alt="" src=images/Rocket_Transition.svg  style="width   *32px;"> [Przejście](Rocket_Transition/pl.md)   * Tworzy przejście.
 
--   <img alt="" src=images/Rocket_BodyTube.svg  style="width   *32px;"> [Body Tube](Rocket_BodyTube.md)   * Create a hollow body tube
+-   <img alt="" src=images/Rocket_BodyTube.svg  style="width   *32px;"> [Rura korpusowa](Rocket_BodyTube/pl.md)   * Tworzy rurę korpusu.
 
--   <img alt="" src=images/Rocket_CenteringRing.svg  style="width   *32px;"> [Centering Ring](Rocket_CenteringRing.md)   * Create a centering ring
+-   <img alt="" src=images/Rocket_CenteringRing.svg  style="width   *32px;"> [Pierścień centrujący](Rocket_CenteringRing/pl.md)   * Tworzy pierścień centrujący.
 
--   <img alt="" src=images/Rocket_Bulkhead.svg  style="width   *32px;"> [Bulkhead](Rocket_Bulkhead.md)   * Create a bulkhead
+-   <img alt="" src=images/Rocket_Bulkhead.svg  style="width   *32px;"> [Wręga](Rocket_Bulkhead/pl.md)   * Tworzy wręgę.
 
--   <img alt="" src=images/Rocket_Fin.svg  style="width   *32px;"> [Fin](Rocket_Fin.md)   * Create a fin
+-   <img alt="" src=images/Rocket_Fin.svg  style="width   *32px;"> [Statecznik](Rocket_Fin/pl.md)   * Tworzy statecznik.
 
--   <img alt="" src=images/Rocket_LaunchGuideComposite.png  style="width   *32px;"> [Launch Guide](Rocket_CompLaunchGuide.md)   * Create a launch guide
+-   <img alt="" src=images/Rocket_LaunchGuideComposite.png  style="width   *32px;"> [Prowadnica startowa](Rocket_CompLaunchGuide/pl.md)   * Komponent do tworzenia prowadnicy startowej.
 
-   ** <img alt="" src=images/Rocket_LaunchLug.svg  style="width   *32px;"> [Launch Lug](Rocket_LaunchLug.md)   * Create a launch lug
+   ** <img alt="" src=images/Rocket_LaunchLug.svg  style="width   *32px;"> [Uchwyt startowy](Rocket_LaunchLug/pl.md)   * Tworzy uchwyt startowy.
 
-   ** <img alt="" src=images/Rocket_RailButton.svg  style="width   *32px;"> [Rail Button](Rocket_RailButton.md)   * Create a rail button
+   ** <img alt="" src=images/Rocket_RailButton.svg  style="width   *32px;"> [Przycisk szyny](Rocket_RailButton/pl.md)   * Tworzy przycisk szyny.
 
-   ** <img alt="" src=images/Rocket_RailGuide.svg  style="width   *32px;"> [Rail Guide](Rocket_RailGuide.md)   * Create a rail guide
+   ** <img alt="" src=images/Rocket_RailGuide.svg  style="width   *32px;"> [Prowadnica](Rocket_RailGuide/pl.md)   * Tworzy prowadnicę.
 
 ## Obliczenia
 

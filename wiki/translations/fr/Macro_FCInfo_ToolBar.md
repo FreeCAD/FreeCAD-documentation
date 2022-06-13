@@ -8,7 +8,7 @@
 |Date=2022/03/29
 |FCVersion=0.18 et plus
 |Download= [https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
-|SeeAlso = [Arch Prise de cotes](Arch_Survey/fr.md), [Macro FCInfo](Macro_FCInfo/fr.md), [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
+|SeeAlso = [Arch Prendre des cotes](Arch_Survey/fr.md), [Macro FCInfo](Macro_FCInfo/fr.md), [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
 }}
 
 ## Description

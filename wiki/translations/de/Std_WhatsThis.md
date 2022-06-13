@@ -11,9 +11,20 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Der Befehl **Std Direkthilfe** öffnet die Hilfedokumentation für einen angegebenen Befehl.
 
+
+</div>
+
+In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Es gibt verschiedene Wege, den Befehl aufzurufen   *
     -   Drücke die **<img src="images/Std_WhatsThis.svg" width=16px> [Direkthilfe](Std_WhatsThis/de.md)**-Schaltfläche.
@@ -22,15 +33,12 @@ Der Befehl **Std Direkthilfe** öffnet die Hilfedokumentation für einen angegeb
 2.  Klicke auf eine Werkzeugleistenschaltfläche oder einen Menüeintrag.
 3.  Die Hilfedokumentation für den ausgewählten Befehl öffnet sich in einem neuen Fenster.
 
+
+</div>
+
 ## Hinweise
 
--   Einige Befehle sind nicht dokumentiert, in diesem Fall wird die Offline-Hilfe eine leere Seite öffnen und melden, dass die Seite nicht gefunden werden kann.
--   Die Dokumentation basiert auf Qt-kompilierten HTML-Seiten. Um sie zu starten, muss der Qt-Assistent installiert sein.
--   Auf Debian/Ubuntu und möglicherweise anderen Linux-System muss die Offline-Dokumentation ggf. separat installiert werden. Das Paket heißt **freecad-doc**, oder **freecad-daily-doc** (für das freecad-daily PPA). Siehe [Installieren Hilfedatei](Installing_Helpfile/de.md).
-
-Lies diesen Beitrag, um zu verstehen, wie die Befehle im Code benannt werden müssen, um mit den Hilfeseiten im Wiki zusammenzupassen.
-
--   [Bunch of TechDraw pages don\'t have the correct name](https   *//forum.freecadweb.org/viewtopic.php?t=27265) (engl.)
+-   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
 
 
 

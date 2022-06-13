@@ -22,7 +22,7 @@ Crée un réseau à partir d\'éléments de sketcher .
     -   Sélectionnez l\'option **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_RectangularArray.svg style="width   *16px"> Réseau rectangulaire** dans le menu.
 3.  Spécifiez les options du tableau dans la boîte de dialogue qui s\'ouvre.
 4.  Appuyez sur le bouton **OK**.
-5.  Déplacez la souris dans la dans la [Vue 3D](3D_view/fr.md) vers le point de référence souhaité.En maintenant **Maj** enfoncée, l\'angle par rapport au point de référence peut être fixé par pas de 5°. {{Version/fr|0.20}}
+5.  Déplacez la souris dans la dans la [Vue 3D](3D_view/fr.md) vers le point de référence souhaité.En maintenant **Ctrl** enfoncée, l\'angle par rapport au point de référence peut être fixé par pas de 5°. {{Version/fr|0.20}}
 6.  Cliquez avec le bouton gauche de la souris dans la vue 3D pour créer le réseau.
 7.  Pour définir les distances entre les éléments du tableau, modifiez les contraintes dimensionnelles du réseau.
 

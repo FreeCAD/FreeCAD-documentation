@@ -22,7 +22,7 @@ This category gathers documentation article mostly aimed at programmers
 | [Scripting and macros/pt-br](wiki/Scripting and macros/pt-br.md) | [Source code management/pt-br](wiki/Source code management/pt-br.md) | [Source documentation/pt-br](wiki/Source documentation/pt-br.md) |
 | [Start up and Configuration/pt-br](wiki/Start up and Configuration/pt-br.md) | [Testing/pt-br](wiki/Testing/pt-br.md) | [The FreeCAD source code/pt-br](wiki/The FreeCAD source code/pt-br.md) |
 | [Third Party Libraries/pt-br](wiki/Third Party Libraries/pt-br.md) | [Third Party Tools/pt-br](wiki/Third Party Tools/pt-br.md) | [Topological data scripting/pt-br](wiki/Topological data scripting/pt-br.md) |
-| [Tracker/pt-br](wiki/Tracker/pt-br.md) |
+| [Tracker/pt-br](wiki/Tracker/pt-br.md) | [Ubuntu Snap/pt-br](wiki/Ubuntu Snap/pt-br.md) |
 
 
 

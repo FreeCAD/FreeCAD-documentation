@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft_Arc
    Name/fr   *Draft Arc
-   MenuLocation   *Esquisse → Outils arcs → Arc
+   MenuLocation   *Draft → Outils arcs → Arc
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***A** **R**
    Version   *0.7
@@ -26,7 +26,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons d\'invoquer la commande    *
     -   Appuyez sur le **<img src="images/Draft_Arc.svg" width=16px> [Arc](Draft_Arc/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → Outils arc → <img src="images/Draft_Arc.svg" width=16px> Arc** dans le menu.
+    -   Sélectionnez l\'option **Draft → Outils arc → <img src="images/Draft_Arc.svg" width=16px> Arc** dans le menu.
     -   Utilisez le raccourci clavier    * **A** puis **R**. {{Version/fr|0.20}}
 2.  Le panneau de tâches **Arc** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point, le centre de l\'arc, dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.

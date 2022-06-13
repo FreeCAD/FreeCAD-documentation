@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *FEM ElementGeometry2D
    Name/fr   *FEM Élément de géométrie 2D
-   MenuLocation   *Modèle → Géométrie de l'élement → Épaisseur de coque
+   MenuLocation   *Modèle → Géométrie de l'élement → Épaisseur de la coque
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Shortcut   ***C** **S**
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)

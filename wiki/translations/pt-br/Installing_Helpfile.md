@@ -1,4 +1,6 @@
 # Installing Helpfile/pt-br
+{{TOCright}}
+
 ## Help module 
 
 **Note   *** The FreeCAD offline help files, described below, are being retired. The help system of FreeCAD is now managed by the [Help Addon](https   *//github.com/yorikvanhavre/FreeCAD-Help), which you can install via the [Addon manager](Std_AddonMgr.md). The Help Addon is able to access online documentation, without the need to download anything, or an offline, downloadable copy of the documentation, which can also be installed via the Addon manager.

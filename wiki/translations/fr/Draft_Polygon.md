@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Polygon
    Name/fr   *Draft Polygone
-   MenuLocation   *Esquisse → Polygone
+   MenuLocation   *Draft → Polygone
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***P** **G**
    Version   *0.7
@@ -25,7 +25,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le **<img src="images/Draft_Polygon.svg" width=16px> [Polygone](Draft_Polygon/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Polygon.svg" width=16px> Polygone** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Polygon.svg" width=16px> Polygone** dans le menu.
     -   Utilisez le raccourci clavier    * **P** puis **G**.
 2.  Le panneau de tâches **Polygone** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Réglez le nombre souhaité de **Côtés**.

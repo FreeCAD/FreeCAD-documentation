@@ -57,7 +57,7 @@ Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Kö
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md)   * Erzeugt einen Formbinder als Referenz auf Geometrie eines einzelnen übergeordneten Körpers.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width   *32px;"> [Formbinder für Teilobjekt erstellen](PartDesign_SubShapeBinder/de.md)   * Erstellt einen Formbinder als Referenz auf Geometrie von einem oder mehreren übergeordneten Objekt(en). {{Version/de|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width   *32px;"> [Formbinder für Teilobjekt erstellen](PartDesign_SubShapeBinder/de.md)   * Erstellt einen Formbinder als Referenz auf Geometrie von einem oder mehreren übergeordneten Objekten. {{Version/de|0.19}}
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width   *32px;"> [Klon erstellen](PartDesign_Clone/de.md)   * Erstellt einen Klon des ausgewählten Körpers.
 
@@ -133,19 +133,20 @@ Erzeugt eine Volumenkörperform, indem eine oder mehrere Skizzen entlang eines o
 
 #### Transformationswerkzeuge
 
-Dies sind Werkzeuge zur Transformation bestehender Formelemente. Sie ermöglichen es, die zu transformierenden Formelemente auszuwählen.
+Dies sind Werkzeuge zur Transformation bestehender Formelemente.
 
--   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Spiegeln](PartDesign_Mirrored/de.md)   * Spiegelt ein oder mehrere Formelemente auf einer Ebene oder Fläche.
+-   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Spiegeln](PartDesign_Mirrored/de.md)   * Spiegelt ein oder mehrere Formelemente.
 
--   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Lineares Muster](PartDesign_LinearPattern/de.md) erstellt ein lineares Muster auf Grundlage eines oder mehrerer Formelemente.
+-   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Lineares Muster](PartDesign_LinearPattern/de.md) erstellt ein lineares Muster aus einem oder mehreren Formelementen.
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Polares Muster](PartDesign_PolarPattern/de.md)   * Erstellt ein polares Muster aus einem oder mehreren Formelemente.
 
--   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Mehrfachtransformation](PartDesign_MultiTransform/de.md)   * Erzeugt ein Muster mit einer beliebigen Kombination der anderen Transformationen.
+-   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Mehrfachtransformation](PartDesign_MultiTransform/de.md)   * Erzeugt ein Muster durch eine beliebige Kombination der oben gelisteten Transformationen und der Transformation [Skalieren](PartDesign_Scaled/de.md).
+    -   <img alt="" src=images/PartDesign_Scaled.svg  style="width   *32px;"> [Skalieren](PartDesign_Scaled/de.md)   * Skaliert ein oder mehrere Formelemente. Dieses steht nicht als eigenständiges Transformationswerkzeug zur Verfügung.
 
-#### Verschönerungswerkzeuge
+#### Modifikationswerkzeuge
 
-Diese Werkzeuge ermöglichen es, Kanten und Flächen nachzubearbeiten.
+Diese Werkzeuge modifizieren Kanten und Flächen.
 
 -   <img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Verrundung](PartDesign_Fillet/de.md)   * Verrundungen (Rundungen) der Kanten des aktiven Körpers.
 
@@ -153,7 +154,7 @@ Diese Werkzeuge ermöglichen es, Kanten und Flächen nachzubearbeiten.
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Entwurf](PartDesign_Draft/de.md)   * wendet einen winkligen Entwurf auf ausgewählte Flächen des aktiven Körpers an.
 
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Dicke](PartDesign_Thickness/de.md)   * erzeugt eine dicke Außenhaut aus dem aktiven Körper und öffnet ausgewählte Fläche(n).
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Dicke](PartDesign_Thickness/de.md)   * erzeugt ein Schalenobjekt (mit konstanter Wandstärke) aus dem aktiven Körper und öffnet ausgewählte Flächen.
 
 #### Boolesche Operationen 
 

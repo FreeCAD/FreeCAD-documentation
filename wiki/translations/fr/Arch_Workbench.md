@@ -107,11 +107,11 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width   *32px;"> [Planificateur](Arch_Schedule/fr.md)    * Crée différents types de calendriers.
 
--   <img alt="" src=images/Arch_CompPipe.png  style="width   *48px;"> [Outils tuyauteries](Arch_CompPipe/fr.md)
+-   <img alt="" src=images/Arch_CompPipe.png  style="width   *48px;"> [Outils pour la tuyauterie](Arch_CompPipe/fr.md)
 
    ** <img alt="" src=images/Arch_Pipe.svg  style="width   *32px;"> [Tuyau](Arch_Pipe/fr.md)    * Crée un tuyau.
 
-   ** <img alt="" src=images/Arch_PipeConnector.svg  style="width   *32px;"> [Connecteur](Arch_PipeConnector/fr.md)    * Crée un angle ou une connexion en T entre 2 ou 3 tuyaux sélectionnés.
+   ** <img alt="" src=images/Arch_PipeConnector.svg  style="width   *32px;"> [Raccord](Arch_PipeConnector/fr.md)    * Crée un angle ou une connexion en T entre 2 ou 3 tuyaux sélectionnés.
 
 ### Outils de transformation 
 
@@ -125,7 +125,7 @@ Ce sont des outils de modification d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width   *32px;"> [Soustraire](Arch_Remove/fr.md)    * Soustrait ou supprime des objets d\'un composant.
 
--   <img alt="" src=images/Arch_Survey.svg  style="width   *32px;"> [Prise de cotes](Arch_Survey/fr.md)    * Entre ou sort du mode prise de cotes.
+-   <img alt="" src=images/Arch_Survey.svg  style="width   *32px;"> [Prendre des cotes](Arch_Survey/fr.md)    * Permet de rentrer ou de sortir du mode prise de cotes.
 
 ### Utilitaires
 

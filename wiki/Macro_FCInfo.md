@@ -1,5 +1,5 @@
 # Macro FCInfo
-**[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br> (This wiki page correspond in date ver 1.22 , 12/11/2020 and not include the new features) **
+**[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br>(This wiki page correspond in date ver 1.22, 12/11/2020 and not include the new features)**
 
 
 {{Macro
@@ -8,8 +8,8 @@
 |Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
 <br />French Version [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/9a23e3ef9d790818ca4b4e8061fdec1a4d649dd5/FCInfo_fr_Ver_1-26-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.26b
-|Date=2022/02/20
+|Version=1.26c
+|Date=2022/04/19
 |FCVersion=All
 |SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width   *24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width   *24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
@@ -220,14 +220,13 @@ Download image positioning on the icon <img alt="" src=images/FCInfo.png  style=
 <div class="toccolours mw-collapsible mw-collapsed">
 
 
-{{ColoredParagraph|
-There is also FCInfo_Alternate_Linux for only for FreeCAD version 0.13... and PyQt4. ''Now totally obsolete see just as example code''
+{{ColoredParagraph|There is also a [FCInfo Alternate Linux](FCInfo_Alternate_Linux.md) for only for FreeCAD version 0.13... and PyQt4. ''Now totally obsolete see just as example code''
 }}
 
 
 <div class="mw-collapsible-content">
 
-ColoredParagraph\| There is also a [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Here the code is changed (due to the character display error    * **² ³ ° μ** ordinal not in range (128)\") which posed problems. In certain configurations the functions are the same
+ColoredParagraph\|There is also a [Macro FCInfo Alternate Linux](Macro_FCInfo_Alternate_Linux.md). Here the code is changed (due to the character display error    * **² ³ ° μ** ordinal not in range (128)\") which posed problems. In certain configurations the functions are the same
 Example    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -274,6 +273,8 @@ project   *
 ~~inlay right in the interface of FreeCAD~~ done
 
 ## Version
+
+-   ver 1.26c 2022/04/19 upgrade BSpline error with Gear Bspline=Line
 
 -   ver 1.26b 20/02/2022 upgrade for detect BSpline in SubObject
 

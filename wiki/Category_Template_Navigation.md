@@ -16,7 +16,8 @@ This category lists templates that create navigation elements.
 | [Template:Raytracing Tools navi](wiki/Template_Raytracing Tools navi.md) | [Template:Robot Tools navi](wiki/Template_Robot Tools navi.md) | [Template:Sketcher Tools navi](wiki/Template_Sketcher Tools navi.md) |
 | [Template:Spreadsheet Tools navi](wiki/Template_Spreadsheet Tools navi.md) | [Template:Start Tools navi](wiki/Template_Start Tools navi.md) | [Template:Std Base navi](wiki/Template_Std Base navi.md) |
 | [Template:Surface Tools navi](wiki/Template_Surface Tools navi.md) | [Template:TechDraw Tools navi](wiki/Template_TechDraw Tools navi.md) | [Template:Top](wiki/Template_Top.md) |
-| [Template:Tutorials navi](wiki/Template_Tutorials navi.md) | [Template:Userdocnavi](wiki/Template_Userdocnavi.md) |
+| [Template:Tutorials navi](wiki/Template_Tutorials navi.md) | [Template:Userdocnavi](wiki/Template_Userdocnavi.md) | [Template:Web Tools navi](wiki/Template_Web Tools navi.md) |
+|
 
 
 

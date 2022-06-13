@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *FEM SolverCalculixCxxtools
    Name/fr   *FEM Solveur CalculiX standard
-   MenuLocation   *Solve → Solver CalculiX Standard
+   MenuLocation   *Solveur → Solveur CalculiX standard
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Shortcut   ***S** **X**
    SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-[CalculiXccxTools](FEM_SolverCalculixCxxtools/fr.md) permet d\'utiliser le solveur [CalculiX](https   *//fr.wikipedia.org/wiki/Calculix). Vous pouvez l\'utiliser pour   *
+[Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) permet d\'utiliser le solveur [CalculiX](https   *//fr.wikipedia.org/wiki/Calculix). Vous pouvez l\'utiliser pour    *
 
 1.  définir les paramètres d\'analyse
 2.  sélectionner le répertoire de travail
@@ -20,7 +20,7 @@
 
 ## Utilisation
 
-1.  Un <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *16px;"> solveur CalculiXcxxTools est créé automatiquement lors de la création d\'un <img alt="" src=images/FEM_Analysis.svg  style="width   *16px;"> [Conteneur d\'analyse](FEM_Analysis/fr.md).
+1.  Un <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *16px;"> Solveur CalculiX standard est créé automatiquement lors de la création d\'un <img alt="" src=images/FEM_Analysis.svg  style="width   *16px;"> [Conteneur d\'analyse](FEM_Analysis/fr.md).
     Pour le créer manuellement, utilisez l\'une des alternatives suivantes    *
     -   Sélectionnez **Solveur → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solveur standard CalculiX** dans le menu.
     -   Appuyez sur les touches de raccourci **S** puis **X**.
@@ -36,7 +36,7 @@ Cliquez sur le bouton **Editer le fichier .inp** pour afficher et éditer manuel
 
 ## Propriétés
 
-Les valeurs par défaut peuvent être définies dans le menu **Edition → Préférences → FEM → CalculiX**.
+Les valeurs par défaut peuvent être définies dans le menu **Édition → Préférences → FEM → CalculiX**.
 
 -    **Analysis Type**   *
 
@@ -51,7 +51,7 @@ Les valeurs par défaut peuvent être définies dans le menu **Edition → Préf
     -   faux - les résultats des éléments 1D et 2D seront moyennés aux noeuds du maillage 1D ou 2D d\'origine (c\'est-à-dire qu\'un faisceau entièrement plié affichera 0 contrainte nodale due à la mise en moyenne)
     -   true - le maillage résultant contiendra des éléments 1D et 2D développés en éléments 3D
 
--    {{PropertyData/fr|Eigenmode High Limit}}   * Les valeurs propres supérieures à cette limite ne seront pas calculées. **Remarque**   * si les valeurs propres du modèle sont supérieures à la limite haute, CalculiX se terminera sans sortie.
+-    {{PropertyData/fr|Eigenmode High Limit}}   * Les valeurs propres supérieures à cette limite ne seront pas calculées. **Remarque**    * si les valeurs propres du modèle sont supérieures à la limite haute, CalculiX se terminera sans sortie.
 
 -    {{PropertyData/fr|Eigenmode Low Limit}}   * Les valeurs propres inférieures à cette limite ne seront pas calculées
 

@@ -21,7 +21,17 @@ The constraint accepts straight edges and planar faces.
 
 1.  Place two or more objects into an assembly.
 2.  Select one straight edge element or one planar face element of each object.
-3.  Press the **<img src="images/Assembly_ConstraintAngle.svg" width=16px> [Angle](Assembly3_ConstraintAngle.md)** button.
+3.  Press the **<img src="images/Assembly_ConstraintAngle.svg" width=16px> Create "Angle" Constraint** button.
+4.  Optionally change the value of the **Angle** property.
+
+## Notes
+
+2D   * This constraint seems to be the only way to control an angle in a skeleton sketch (2D kinematic assembly); Prove me wrong, PLEASE!
+
+-   Its **Angle|Angle** property allows any positive value, but 0° and 180° exactly are puzzling the solver.
+-   It flips direction if angles greater than 180° are used and as a result 135° and 225° give the same positions for the involved elements.
+
+   *   It is useless if you want to simulate a full rotation and so ruins the principle of using a skeleton sketch for a lot of kinematic tasks such as driving a piston by a rotating crank coupled with a con-rod.
 
 
 

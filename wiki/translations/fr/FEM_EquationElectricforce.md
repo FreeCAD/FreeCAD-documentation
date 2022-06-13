@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM EquationElectricforce
-   Name/fr   *FEM
-   MenuLocation   *Solve → Electricforce equation
+   Name/fr   *FEM Équation de force électrique
+   MenuLocation   *Solveur → Équation de force électrique
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Version   *0.19
    SeeAlso   *

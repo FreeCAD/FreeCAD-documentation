@@ -1,14 +1,18 @@
 # Macro FCInfo/fr
+{{VeryImportantMessage
+|[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br> (This wiki page correspond in date ver 1.22 , 12/11/2020 and not include the new features)}}
+
+
 {{Macro/fr
 |Icon=FCInfo.png
 |Name=Macro FCInfo
 |Description=Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d'une esquisse en mode édition.
 <br />[https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/6ca25a438c3c4cfb62c0b1d6a35b7ddbd80ace23/FCInfo_fr_Ver_1-25d-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.25d
-|Date=2021/12/13
+|Version=1.26c
+|Date=2022/04/19
 |FCVersion=Toutes
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px">, [Macro SimpleProperties](Macro_SimpleProperties/fr.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Prendre des cotes](Arch_Survey/fr.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width   *24px"> [Macro SimpleProperties](Macro_SimpleProperties/fr.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width   *24px"> [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
 }}
 
 ## Description
@@ -16,9 +20,9 @@
 Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l\'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d\'une esquisse en mode édition.
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ecf1b82162b7a9e600c9ee511410ddf06c6e534/FCInfo_en_Ver_1-25d-rmu_Docked.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/5577cf1a8818a4cbc5790cce335df158713b5841/FCInfo_en_Ver_1-26c-rmu_Docked.FCMacro}}
 
-<img alt="FCInfo" src=images/Macro_FCInfo_00_en.png  style="width   *480px;"> 
+<img alt="" src=images/Macro_FCInfo_00_en.png  style="width   *480px;"> 
 *FCInfo*
 
 ## Utilisation
@@ -132,9 +136,9 @@ Si vous voulez convertir votre ancienne feuille de calcul FCInfo    * ouvrez-la 
 
 -    **CheckBox Clip Board**   * si la case est cochée les coordonnées sont copiées en mémoire dans la format    * **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **CheckBox Point**   * si la case est cochée un point est créé aux coordonnées affichées.
+-    **CheckBox Point**   * si la case est cochée un point est créé aux coordonnées affichées. **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **CheckBox Axis **   * si la case est cochée une série d\'axes dans les plans XYZ sont créés aux coordonnés affichées.
+-    **CheckBox Axis **   * si la case est cochée une série d\'axes dans les plans XYZ sont créés aux coordonnés affichées. **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
 -    **CheckBox Plane**   * si la case est cochée une série de plans dans les plans XYZ sont créés aux coordonnés affichées.
 
@@ -200,7 +204,7 @@ La \"spinBox\" de densité est réglé sur 7,5 kg, densité moyenne de l\'acier.
  global densite       ; densite       = 7.5  # (steel = 7.5 kg par dm3)
 ```
 
-Un fichier peut être créé par le bouton **Enregistrer**. Le fichier est écrit comme un fichier [csv](https   *//fr.wikipedia.org/wiki/Comma-separated_values) de cette manière, les données peuvent être étudiées dans un tableur dans FreeCAD ou [OpenOffice](http   *//www.openoffice.org/fr/), [LibreOffice](https   *//fr.libreoffice.org/)\...
+Un fichier peut être créé par le bouton **Enregistrer**. Le fichier est écrit comme un fichier [csv](https   *//fr.wikipedia.org/wiki/Comma-separated_values) de cette manière, les données peuvent être étudiées dans un tableur dans FreeCAD ou OpenOffice, LibreOffice\...
 
 ## Script
 
@@ -217,23 +221,25 @@ Télécharger les images en vous positionnant sur les icônes <img alt="" src=im
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Il y a aussi une version seulement FCInfo\_Alternate\_Linux pour la version FreeCAD 0.13\... et PyQt4
+
+{{ColoredParagraph|There is also a [FCInfo Alternate Linux](FCInfo_Alternate_Linux/fr.md) for only for FreeCAD version 0.13... and PyQt4. ''Maintenant totalement obsolète voir seulement comme code d'exemple''.
+}}
 
 
 <div class="mw-collapsible-content">
 
-Il y a aussi une version [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Ici le code est modifié (à cause de l\'erreur d\'affichage des caractères    * ² ³ ° µ\" ordinal not in range (128)\") qui posaient problèmes. Dans certaines configurations les fonctions sont les mêmes
+ColoredParagraph\| Il y a aussi une version [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Ici le code est modifié (à cause de l\'erreur d\'affichage des caractères    * ² ³ ° µ\" ordinal not in range (128)\") qui posaient problèmes. Dans certaines configurations les fonctions sont les mêmes
 Exemple    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
 global uniteVs       ; uniteVs       = u"mm³"
 global uniteAs       ; uniteAs       = u"°"
-</syntaxhighlight>
-remplacés par
-<syntaxhighlight>
-global uniteSs       ; uniteSs       = "mm"+iso8859(unichr(178))
-global uniteVs       ; uniteVs       = "mm"+iso8859(unichr(179))
-global uniteAs       ; uniteAs       = iso8859(unichr(176))
+``` remplacés par 
+```python
+global uniteSs       ; uniteSs       = "mm"+iso8859(unichr(178)) # also   *  carre    hex="\xb2"  # also   *  html=<span>&#178;</span>
+global uniteVs       ; uniteVs       = "mm"+iso8859(unichr(179)) # also   *  cube     hex="\xb3"  # also   *  html=<span>&#179;</span>
+global uniteAs       ; uniteAs       = iso8859(unichr(176))      # also   *  degrees  hex="\xb0"  # also   *  html=<span>&#176;</span>
+                                     = iso8859(unichr(181))      # also   *  micro    hex="\xB5"  # also   *  html=<span>&#181;</span>
 ``` **Les fichiers sauvegardés avec cette version sont incompatibles avec l\'autre version (docké ou non)**.
 
 
@@ -242,12 +248,10 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 
 </div>
 
-Téléchargez le fichier des icônes de FCInfo [Macro\_FCInfo\_Icon](https   *//forum.freecadweb.org/download/file.php?id=50755) décompressez le fichier et copiez les images dans le même répertoire que la macro.
-
 Téléchargez le fichier FCInfo **docké à droite**
 
 
-{{CodeDownload|https   *//gist.github.com/mario52a/6afc64081c4eb8be3b93|Dernière version de Macro_FCInfo<br /> (les icônes sont à la fin de la page)}}
+{{CodeDownload|https   *//gist.github.com/mario52a/8d40ab6c018c2bde678f|Dernière version de Macro_FCInfo}}
 
 (Ou **[sur le forum.](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
 **PS   *** Cette macro utilise la fonction **getSelection()** et la liste des objets commence à 1 ex   * pour un cube **Edge1 à Edge12** (arêtes) et le code qui liste les arêtes dans la console Python commence à 0 ex   * pour un cube **Edge\[0\] à Edge\[11\]**
@@ -272,20 +276,28 @@ en projet    *
 
 ## Version
 
--   ver 1.25c 12/12/2021 correction \"strAround((\" par \"str(Around(\" et autres petits \...
--   ver 1.25b 11/12/2021 correction d\'une erreur dans le changement/modification de nouveaux matériaux et réorganisation
--   ver 1.25 10/12/2021 PySide2 et ajout de la boîte combo pour matériaux
--   ver 1.24 02/12/2021 ajout [adjustedGlobalPlacement](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=59852) modifié par edwilliams16 pour le placement avec un Corps, traçage de la boîte à outils
--   ver 1.23cb 25/11/2021 suppression de **\"import Sketcher \* \"** qui créait un conflit avec \"**open(OpenName, \"r\")**\" ??
+-   ver 1.26c 2022/04/19 mise à niveau Erreur BSpline avec Gear Bspline=Line
 
-Ajout 
+-   ver 1.26b 20/02/2022 mise à jour pour détecter BSpline dans SubObject
+
+-   ver 1.26 06/02/2022 ajouter des informations sur les objets Mesh et Points, décoder les couleurs, dupliquer un objet ou un sous-objet, mémoriser le dernier chemin et d\'autres options de préférences.
+
+-   ver 1.25e 18/12/2021 ajouter l\'info détaillée à BSpline (ToByArcs) et l\'info \"sel\[0\].TypeId\".
+-   ver 1.25d 12/12/2021 \-\--
+-   ver 1.25c 12/12/2021 correction de \"strAround((\" par \"str(Around(\" et autres petits \...
+-   ver 1.25b 11/12/2021 correction erreur dans changement/modification nouveau matériel et réorganisation
+-   ver 1.25 10/12/2021 PySide2 et ajout de matériel comboBox
+-   Ver 1.24 02/12/2021 Ajout de [adjustedGlobalPlacement](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=59852) modifié par edwilliams16 pour le placement avec Body, traçage boundbox.
+-   ver 1.23cb 25/11/2021 delete **\"import Sketcher \* \"** create conflict with \"**open(OpenName, \"r\")**\' ? ??
+
+Ajout de 
 ```python
 FreeCAD.ActiveDocument.openTransaction(u"FCInfo")    # memorise les actions (avec annuler restore)
 FreeCAD.ActiveDocument.commitTransaction()           # restore les actions  (avec annuler restore)
 #FreeCAD.ActiveDocument.abortTransaction()            # abandonne les actions(avec annuler restore)
 ```
 
--   ver 1.25d, 13/12/2021 petite correction champ matériel décommenter le \"\'try\...Except\" !!!
+-   ver 1.25d, 13/12/2021 petite correction champ matériel décommanter le \"\'try\...Except\" !!!
 -   ver 1.25c, 12/12/2021 petite correction nouveau matériel
 -   ver 1.23b, 20/11/2021 petite correction, ajout de l\'info texte au début de la macro et ordonner le code texte.
 -   ver 1.23 , 19/11/2021 inclut l\'icône dans la macro, le nombre de décimales affichées, la hauteur du texte, configure les options dans les Préférences de Freecad, corrige les infos pour les éléments de l\'esquisse en mode édition.

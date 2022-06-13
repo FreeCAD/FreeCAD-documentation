@@ -8,9 +8,6 @@
 </div>
 
 
-**!!! Alle Bilder auf dieser Seite müssen den Suffix **_relnotes_0.20** verwenden !!!**
-
-
 {{Message|
 Fehlen Funktionen? Erwähne sie im [https   *//forum.freecadweb.org/viewtopic.php?f&#61;10&t&#61;56135 Versionshinweise für v0.20] Forumsbeitrag.
 
@@ -28,58 +25,35 @@ Siehe [Hilf FreeCAD](Help_FreeCAD/de.md) für Wege, zu FreeCAD beizutragen.
 
 </div>
 
-Ältere FreeCAD Versionshinweise findest du unter [Funktionsübersicht](Feature_list/de#Versionshinweise.md).
-
-## Höhepunkte
-
-## Allgemeines
-
 
 <div class="mw-translate-fuzzy">
 
-### Entwicklung
+Ältere FreeCAD Versionshinweise findest du unter [Funktionsübersicht](Feature_list/de#Versionshinweise.md).
 
 
 </div>
 
-Since this release FreeCAD can only be compiled using Qt 5 and Python 3.
 
-Um [FreeCAD unter Windows kompilieren](Compile_on_Windows/de.md), gibt es verschiedene Libpacks (vorgepackte Bibliotheken)   *
+<div class="mw-translate-fuzzy">
 
--   Libpack für Windows mit Qt xx, OCC yy, und Python zz
 
-Lowest supported Python version is 3.6.9 according to this [FC forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701).
+</div>
 
-Supported operating systems   *
+## Allgemeines
 
--   Windows 7, 8 and 10
--   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
--   MacOS minimum version 10.12 Sierra
+### freecad.org
 
-### Bug/Issue Tracker 
+We are happy that the [KiCAD project](https   *//www.kicad.org/), through the [KiCAD services corp.](https   *//www.kipro-pcb.com/), sponsored us the domain freecad.org. Now all FreeCAD websites are available under [freecadweb.org](https   *//freecadweb.org) and [freecad.org](https   *//freecad.org).
+
+### Bug/Issue tracker 
 
 The FreeCAD bug tracker was moved to GitHub   * <https   *//github.com/FreeCAD/FreeCAD/issues>
 
 **Note   *** Only bug reports with a prior forum discussion will be considered. Reports without this will be closed.
 
-### freecad.org
+### New help system 
 
-We are happy that the project [KiCAD](https   *//www.kicad.org/), through the [KiCAD services corp.](https   *//www.kipro-pcb.com/), sponsored us the domain freecad.org. Now all FreeCAD websites are available under [freecadweb.org](https   *//freecadweb.org) and [freecad.org](https   *//freecad.org).
-
-### Dokumentation
-
-### Bekannte Begrenzungen 
-
-#### 32bit Windows 
-
-Already since FreeCAD 0.19 we don\'t officially support 32bit Windows. It might work there but no support is given for these systems.
-
-#### Remote Desktop under Windows 
-
-Depending on the OpenGL graphics capabilities of a computer, it might be that one encounters a crash when running FreeCAD via remote desktop. To fix this upgrade your OpenGL driver. Only if this doesn\'t help   *
-
--   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
--   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
+The help system was rewritten and upgraded to display information directly from our [Wiki](User_hub.md). The system now relies on the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help). When you first use the [Help](Std_Help.md) tool or the [What\'s this?](Std_WhatsThis.md) tool you will be asked to install it.
 
 ## Benutzeroberfläche
 
@@ -117,7 +91,7 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 +++
 
 +++
-| <img alt="" src=images/Part_SectionCut_example_relnotes_0.20.png  style="width   *200px;"> | The new tool **[Section Cut](Part_SectionCut.md)** allows to get non-hollow and also persistent cuts of parts and assemblies.             |
+| <img alt="" src=images/Part_SectionCut_example_relnotes_0.20.png  style="width   *200px;"> | The new tool [Section Cut](Part_SectionCut.md) allows to get non-hollow and also persistent cuts of parts and assemblies.                 |
 |                                                                                                         | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=52441), [Pull request \#4118](https   *//github.com/FreeCAD/FreeCAD/pull/4118). |
 +++
 
@@ -143,18 +117,30 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 ### Core
 
    
-  <img alt="" src=images/Object_selection_relnotes_0.20.png  style="width   *384px;">   When using **Edit → Copy** or **Edit → Duplicate selection** for an object with dependencies there is a new **Use Original Selections** button in the object selection dialog. Click this button to copy/duplicate only the objects you originally selected prior to opening the dialog, ignoring dependencies and ignoring any actions you might have taken while the dialog was open, such as checking or unchecking some of the checkboxes. The effect is the same as if you had unchecked all the checkboxes next to the objects you did not originally select and pressed OK. Note   * special care should be taken when copying/duplicating TechDraw Pages. It is recommended to also copy/duplicate all of the children of the Page (Templates, Views, Dimensions, etc.). Otherwise changes to one of the Pages will also impact the other page, for example, deleting one of the Views in one Page also removes it from the other Page. Deleting one of the pages will also remove all the content from the other Page if copies of the content are not also made.
+  <img alt="" src=images/Object_selection_relnotes_0.20.png  style="width   *384px;">   When using **Edit → Copy** or **Edit → Duplicate selection** for an object with dependencies there is a new **Use Original Selections** button in the object selection dialog. Click this button to copy/duplicate only the objects you originally selected prior to opening the dialog, ignoring dependencies and ignoring any actions you might have taken while the dialog was open, such as checking or unchecking some of the checkboxes. The effect is the same as if you had unchecked all the checkboxes next to the objects you did not originally select and pressed OK. Note   * special care should be taken when copying/duplicating TechDraw Pages. It is recommended to also copy/duplicate all children of the Page (Templates, Views, Dimensions, etc.). Otherwise changes to one Page will also impact the other page. For example, deleting a View on one Page also removes it from the other Page, or deleting a page will also remove all its content from the other Page.
    
 
    
-  <img alt="" src=images/PrefPacks_relnotes_0.20.png  style="width   *384px;">   A new type of add-on called a [Preference Pack](Preference_Packs.md) was added, allowing a subset of a user preferences (user.cfg) file to be saved, distributed, and easily applied by other users. Preference Packs can be use to distribute \"Themes,\" for example, by allowing a developer to include both a Qt stylesheet for widgets as well as a set of other colors and styles for items in the user interface that cannot be set using a stylesheet (e.g. text colors in the Python editor or report view, etc.). Anything that can be configured via a user.cfg file can be set using a Preference Pack. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=62477)
+  <img alt="" src=images/PrefPacks_relnotes_0.20.png  style="width   *384px;">   A new type of add-on called a [Preference Pack](Preference_Packs.md) was added, allowing a subset of a user preferences file (user.cfg) to be saved, distributed, and easily applied by other users. Preference Packs can be use to distribute \"Themes,\" for example, by allowing a developer to include both a Qt stylesheet for widgets as well as a set of other colors and styles for items in the user interface that cannot be set using a stylesheet (e.g. text colors in the Python editor or report view, etc.). Anything that can be configured via a user.cfg file can be set using a Preference Pack. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=62477)
    
 
    
   <img alt="" src=images/Autoload_relnotes_0.20.png  style="width   *384px;">   The \"Workbenches\" preference panel was modified to support the ability to \"autoload\" workbenches on FreeCAD startup.
    
 
+On Linux, the default location of FreeCAD\'s configuration, data and cache files was changed to follow the [XDG Base Directory Specification](https   *//specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Here is a comparison of the old and new locations   *
+
+  Description           Old location      New location                  Defaults to
+     
+  Configuration files   \$HOME/.FreeCAD   \$XDG\_CONFIG\_HOME/FreeCAD   \$HOME/.config/FreeCAD
+  Data files            \$HOME/.FreeCAD   \$XDG\_DATA\_HOME/FreeCAD     \$HOME/.local/share/FreeCAD
+  Cache files           /tmp              \$XDG\_CACHE\_HOME/FreeCAD    \$HOME/.cache/FreeCAD
+
+If you wish to keep using the old locations you may start FreeCAD with the `--keep-deprecated-paths` option.
+
 ### API
+
+FreeCAD received many new Python API functions   *
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -163,6 +149,9 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 
 <div class="mw-collapsible-content">
+
+-   *ChFi2d\_AnaFilletAlgoPy*   * An analytical algorithm for the calculation of fillets. [commit f94ab3ec](https   *//github.com/FreeCAD/FreeCAD/commit/f94ab3ec)
+-   *ChFi2d\_ChamferAPIPy*   * Algorithm that creates a chamfer between two linear edges. [commit 30f8015e7](https   *//github.com/FreeCAD/FreeCAD/commit/30f8015e7)
 
 -   *Circle2dPy   *   *getCircleCenter*   * Gets the circle center defined by three points. [commit 3dc91fa2](https   *//github.com/FreeCAD/FreeCAD/commit/3dc91fa2)
 
@@ -228,7 +217,7 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 </div>
 
-#### Changed API 
+#### Changed Python API 
 
 -   *MeshObject   *   *trim(base, normal)* was changed to *MeshPy   *   *trimByPlane(base, normal)*   * Trims the mesh with a given plane. [commit 837de28e](https   *//github.com/FreeCAD/FreeCAD/commit/837de28e)
 
@@ -252,21 +241,35 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 +++
 
 +++
-| <img alt="" src=images/NewArchStructureProperties_relnotes_0.20.jpg  style="width   *250px;"> | **New properties in the Arch Structure objects**                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                               | **BasePerpendicularToTool**   * it copies the Base (extrusion profile) at the beginning of the Tool (extrusion path) and places it perpendicular to the first edge of the tool. It is the same as attaching the Base with MapMode=NormalToEdge, but its automatic and allows to reuse the same Base object for multiple Structures. When BasePerpendicularToTool = True, more properties control the placement of the Base relative to the Tool axis. They are shown in the attached image.     |
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                               | **ToolOffsetFirst** and **ToolOffsetLast**   * extend/trim the Structure at the start and end respectively (the real length of the Structure is available in the ComputedLength readonly property)                                                                                                                                                                                                                                                                                              |
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                               | -   BaseRotation   * rotate the Base (the rotation is around the Base\'s \"(0,0)\" point which is the center for [Arch Profiles](Arch_Profile.md), the origin for Sketches and usually the first point for [Draft Wires](Draft_Wire.md))                                                                                                                                                                                                                                        |
-|                                                                                                               | -   BaseOffsetX and BaseOffsetY   * move the Base (extrusion profile)                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                                               | -   BaseMirror   * mirror the Base (extrusion profile)                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                               | A new command **Create multiple Arch Structure** was also added. It uses the first selected object as a Base, and creates Arch Structures objects for every Edge of the other selected objects. Then, the properties of individual Structure objects can be adjusted in the Property editor. This command was added for workflow with a master Sketch (there is risk of topological naming problem unless you create non-parametric copy of the master Sketch or use Realthunder\'s version) |
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                               | Support for **2D data** such as linework, hatches, texts and dimensions is now enabled in IFC import and export, which contributes to turn the IFC format more and more suitable for traditional 2D CAD work. A similar effort is being made in [BlenderBIM](https   *//blenderbim.org). More 2D workflow improvements are documented [in this forum thread](https   *//forum.freecadweb.org/viewtopic.php?p=563067#p563067).                                                                      |
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                               | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request \#3229](https   *//github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                    |
+| <img alt="" src=images/NewArchStructureProperties_relnotes_0.20.jpg  style="width   *250px;"> | **New properties for Arch Structure objects**   *                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                               | -   **BasePerpendicularToTool**   * it creates a copy of the Base (extrusion profile) at the beginning of the Tool (extrusion path) and places it perpendicular to the first edge of the tool. It is the same as attaching the Base with MapMode=NormalToEdge, but it is automatic and allows to reuse the same Base object for multiple Structures. When BasePerpendicularToTool = True, more properties control the placement of the Base relative to the Tool axis. They are shown in the attached image. |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                               | -   **ToolOffsetFirst** and **ToolOffsetLast**   * extend/trim the Structure at the start and end respectively (the real length of the Structure is available in the ComputedLength read-only property).                                                                                                                                                                                                                                                                                                     |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                               | -   **BaseRotation**   * rotate the Base (the rotation is around the Base\'s \"(0,0)\" point which is the center for [Arch Profiles](Arch_Profile.md), the origin for Sketches and usually the first point for [Draft Wires](Draft_Wire.md)).                                                                                                                                                                                                                                                |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                               | -   **BaseOffsetX** and **BaseOffsetY**   * move the Base (extrusion profile).                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                               | -   **BaseMirror**   * mirror the Base (extrusion profile).                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                               | A new command **Create multiple Arch Structure** was also added. It uses the first selected object as a Base, and creates Arch Structures objects for every Edge of the other selected objects. Then, the properties of individual Structure objects can be adjusted in the Property editor. This command was added for workflow with a master Sketch (there is risk of topological naming problem unless you create non-parametric copy of the master Sketch or use Realthunder\'s version).             |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                               | Support for **2D data** such as linework, hatches, texts and dimensions is now enabled in IFC import and export, which contributes to making the IFC format more and more suitable for traditional 2D CAD work. A similar effort is being made in [BlenderBIM](https   *//blenderbim.org). More 2D workflow improvements are documented [in this forum thread](https   *//forum.freecadweb.org/viewtopic.php?p=563067#p563067).                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                               | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request \#3229](https   *//github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                                 |
 +++
 
 ## Arbeitsbereich Entwurf 
@@ -310,19 +313,19 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 ### Weitere FEM Verbesserungen 
 
--   **Important   *** Starting from this release, FreeCAD will use SI units (m, kg, s, K, A, mol, cd) to write the [Elmer solver](FEM_SolverElmer.md) input files (*case.sif* and *mesh.nodes*). This is independent of the used FreeCAD [unit system](Preferences_Editor#Units.md).
--   **Important   *** Starting from this release, the scale of [result pipelines](FEM_PostPipelineFromResult.md) and their [filters](FEM_Workbench#Menu__Results.md) will use SI units (m, kg, s, K, A, mol, cd). So the displacement is given in meter, the stress in Pascal. This applies for all SI-derived FreeCAD [unit systems](Preferences_Editor#Units.md).
+-   **Important   *** Starting from this release, FreeCAD will use [SI units](https   *//en.wikipedia.org/wiki/International_System_of_Units) (m, kg, s, K, A, mol, cd) to write the [Elmer solver](FEM_SolverElmer.md) input files (*case.sif* and *mesh.nodes*). This is independent of the used FreeCAD [unit system](Preferences_Editor#Units.md).
+-   **Important   *** Starting from this release, the scale of [result pipelines](FEM_PostPipelineFromResult.md) and their [filters](FEM_Workbench#Menu__Results.md) will use SI units (m, kg, s, K, A, mol, cd). So the displacement is given in meter, the stress in Pascal. This applies to all SI-derived FreeCAD [unit systems](Preferences_Editor#Units.md).
 -   Solving with the [Calculix](FEM_SolverCalculixCxxtools.md) solver now uses all CPU cores. [Pull request \#6374](https   *//github.com/FreeCAD/FreeCAD/pull/6374)
 -   Meshing with [Gmsh](FEM_MeshGmshFromShape.md) now uses all CPU cores. [Pull request \#6370](https   *//github.com/FreeCAD/FreeCAD/pull/6370)
 -   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [Pull request \#4660](https   *//github.com/FreeCAD/FreeCAD/pull/4660)
 -   A new constraint was added   * **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintCentrif.svg style="width   *16px"> [Constraint Centrif](FEM_ConstraintCentrif.md)**. [Pull request \#4738](https   *//github.com/FreeCAD/FreeCAD/pull/4738)
 -   A new solver was added   * **Solve → [<img src=images/FEM_SolverMystran.svg style="width   *16px"> [Solver Mystran](FEM_SolverMystran.md)**. Multiple commits.
 -   A new constraint was added   * **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width   *16px"> [Constraint Spring](FEM_ConstraintSpring.md)**. [Pull request \#4982](https   *//github.com/FreeCAD/FreeCAD/pull/4982)
--   It is now possible to have [result pipelines](FEM_PostPipelineFromResult.md) with several filters, where some take other filters as input, some take the results directly from the pipeline. [commit 708a300b](https   *//github.com/FreeCAD/FreeCAD/commit/708a300b)
+-   It is now possible to have [result pipelines](FEM_PostPipelineFromResult.md) with several filters, where some take other filters as input, and some take the results directly from the pipeline. [commit 708a300b](https   *//github.com/FreeCAD/FreeCAD/commit/708a300b)
 -   Material cards can now contain values for the electrical conductivity. [Pull request \#4647](https   *//github.com/FreeCAD/FreeCAD/pull/4647)
 -   Material cards added for Nitrogen and Argon. [Pull request \#4649](https   *//github.com/FreeCAD/FreeCAD/pull/4649)
--   Support for the [Gmsh](FEM_MeshGmshFromShape.md) mesh algorithms \"HXT\" (3D) and \"Packing Parallelograms\" (2D) added. [Pull request \#4654](https   *//github.com/FreeCAD/FreeCAD/pull/4654)
--   Allow to set for the [Gmsh](FEM_MeshGmshFromShape#Properties.md) property **High Order Optimize** a certain algorithm. [Pull request \#4705](https   *//github.com/FreeCAD/FreeCAD/pull/4705)
+-   Support for the [Gmsh](FEM_MeshGmshFromShape.md) mesh algorithms *\"HXT\"* (3D) and *\"Packing Parallelograms\"* (2D) added. [Pull request \#4654](https   *//github.com/FreeCAD/FreeCAD/pull/4654)
+-   Allow to specify an algorithm for the [Gmsh](FEM_MeshGmshFromShape#Properties.md) property *\"High Order Optimize\"*. [Pull request \#4705](https   *//github.com/FreeCAD/FreeCAD/pull/4705)
 -   Nonlinear solid materials with simple hardening can now have an arbitrary number of yield points. [Pull request \#5024](https   *//github.com/FreeCAD/FreeCAD/pull/5024)
 -   Allow modal adding/removal of geometric entities to constraints acting on boundaries. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
 -   Most FEM constraint dialogs now behave uniformly and provide the same 3D object selection features. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
@@ -347,16 +350,16 @@ Interoperability with OpenSCAD has been improved, adding support for several ope
 
 New options were added to support running either FreeCAD, OpenSCAD, or both, in sandboxed environments such as AppImages and Snap packages   * data can now be transferred to and from OpenSCAD via the standard temporary directory mechanism, via a user-specified temp directory that both executables have access to, or new to OpenSCAD 2021.1, via a \"stdout pipe\" mechanism, bypassing temporary files entirely.
 
-**Add OpenSCAD element** - now has additional options
-
-Load    - load a scad file
-Save    - save a scad file
-Refresh - Update FreeCAD view
-Clear   - Clear text input
-
-There is also a text box for feedback of OpenSCAD errors.
-
-![](images/OpenSCAD_AddElement_relnotes_0.20.png )
++++
+| <img alt="" src=images/OpenSCAD_AddElement_relnotes_0.20.png  style="width   *384px;"> | The following options were added to the task panel of the [Add OpenSCAD element](OpenSCAD_AddOpenSCADElement.md) feature   * |
+|                                                                                                 |                                                                                                                                   |
+|                                                                                                 | Load    - load a scad file                                                                                                      |
+|                                                                                                 | Save    - save a scad file                                                                                                      |
+|                                                                                                 | Refresh - Update FreeCAD view                                                                                                   |
+|                                                                                                 | Clear   - Clear text input                                                                                                      |
+|                                                                                                 |                                                                                                                                   |
+|                                                                                                 | A new text box gives feedback about OpenSCAD errors.                                                                              |
++++
 
 ## Arbeitsbereich Formteil 
 
@@ -367,12 +370,13 @@ There is also a text box for feedback of OpenSCAD errors.
 ### Weitere Formteil Verbesserungen 
 
 -   The dialog to edit [Cylinders](Part_Cylinder.md) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)
+-   The [Face Colors](Part_FaceColors.md) tool now also allows to set the transparency (*Alpha channel*) of faces. This transparency can be [exported](Import_Export.md), making e.g. STEP files with transparent parts possible.
 -   The following commands now support App   *   *Links   * [Loft](Part_Loft.md), [Sweep](Part_Sweep.md), [Extrude](Part_Extrude.md), [Revolve](Part_Revolve.md), [Reverse shapes](Part_ReverseShapes.md), [Mirror](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Check Geometry](Part_CheckGeometry.md), [Ruled Surface](Part_RuledSurface.md), [Cross-sections](Part_CrossSections.md), and [Thickness](Part_Thickness.md). [Pull request \#6478](https   *//github.com/FreeCAD/FreeCAD/pull/6478)
 
 ## Arbeitsbereich PartDesign 
 
 +++
-| <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width   *384px;">Padding along an edge from the model.Click on the image to see the animation.                                                                      | There is a new option to pad along the direction of an edge in the 3D model. [Pull request \#4685](https   *//github.com/FreeCAD/FreeCAD/pull/4685)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width   *384px;">Padding along an edge from the model.Click on the image to see the animation.                                                                      | There is a new option to [Pad](PartDesign_Pad.md) along the direction of an edge in the 3D model. [Pull request \#4685](https   *//github.com/FreeCAD/FreeCAD/pull/4685)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 +++
 | <img alt="" src=images/PartDesign_Chamfer_Face_Selection_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                           | When Distance and Angle is specified in the [Chamfer](PartDesign_Chamfer.md) tool and faces are selected, the distance will be applied along the selected faces. Likewise if two distances are specified then Size 1 will be applied along the selected face. This behaviour can be swapped to the other face using the flip direction button. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=62084), [Pull request \#5039](https   *//github.com/FreeCAD/FreeCAD/pull/5039)                                                                                                                                                                                                                                                                     |
 +++
@@ -380,16 +384,16 @@ There is also a text box for feedback of OpenSCAD errors.
 +++
 | <img alt="" src=images/PD_Pad-Taper-angle_relnotes_0.20.png  style="width   *384px;">A tapered pocket within a non-tapered pad.                                                                                                                                             | The dialog for [Pad](PartDesign_Pad.md) and [Pocket](PartDesign_Pocket.md) offers to set a taper angle for the extrusion. [Pull request \#5357](https   *//github.com/FreeCAD/FreeCAD/pull/5357)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 +++
-| <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width   *384px;">Pocketing along different directions.Click on the image to see the animation.                                                                                          | It is now possible to specify the direction for the pocket extrusion. [Pull request \#5164](https   *//github.com/FreeCAD/FreeCAD/pull/5164)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width   *384px;">Pocketing along different directions.Click on the image to see the animation.                                                                                          | It is now possible to specify the direction for the [Pocket](PartDesign_Pocket.md) extrusion. [Pull request \#5164](https   *//github.com/FreeCAD/FreeCAD/pull/5164)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 | <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                                   | The dialog to edit [Cylinders](PartDesign_AdditiveCylinder.md) (additive and subtractive) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 | <img alt="" src=images/PartDesign_Helix_Growth_relnotes_0.20.png  style="width   *384px;">                                                                                                                                                                                               | The [Helix](PartDesign_AdditiveHelix.md) feature has the new mode **Height-Turns-Growth** to create flat spirals. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=19&t=56378) [Pull request \#4590](https   *//github.com/FreeCAD/FreeCAD/pull/4590)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +++
-| <img alt="" src=images/PartDesign_Islands-Extrude_relnotes_0.20.png  style="width   *384px;">A single Pad and a single [Revolution](PartDesign_Revolution.md) with nested profiles. The base block is only there to ensure that the part is a single solid. | All PartDesign features that can extrude sketches can now handle sketches with nested profiles that form islands. For example it is possible to revolve a sketch consisting of 3 nested circles with the same center point.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <img alt="" src=images/PartDesign_Islands-Extrude_relnotes_0.20.png  style="width   *384px;">A single Pad and a single [Revolution](PartDesign_Revolution.md) with nested profiles. The base block is only there to ensure that the part is a single solid. | All PartDesign features that can extrude sketches can now handle sketches with nested profiles that form islands. For example it is possible to [Revolve](PartDesign_Revolution.md) a sketch consisting of 3 nested circles with the same center point.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                                                                                                                                                                                                                                       | **Note**   * Extruding nested profiles only works if the result is still a single body. [Pull request \#6381](https   *//github.com/FreeCAD/FreeCAD/pull/6381)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-| <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width   *384px;">Effect of the new option *Length along sketch normal*.Click on the image to see the animation.                                                       | There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https   *//github.com/FreeCAD/FreeCAD/pull/3893)                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width   *384px;">Effect of the new option *Length along sketch normal*.Click on the image to see the animation.                                                       | There is a new option to [Pad](PartDesign_Pad.md) a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https   *//github.com/FreeCAD/FreeCAD/pull/3893)                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +++
 | <img alt="" src=images/PartDesign_Hole_thread_relnotes_0.20.PNG  style="width   *384px;">                                                                                                                                                                                                 | The [Hole](PartDesign_Hole.md) feature can now model true threads. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=54240) [Pull request \#4274](https   *//github.com/FreeCAD/FreeCAD/pull/4274)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 +++
@@ -459,15 +463,15 @@ There is also a text box for feedback of OpenSCAD errors.
 ## Arbeitsbereich Tabellenkalkulation 
 
    
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )      The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet_configuration_table_screenshot_5.png  style="width   *384px;">   It is now possible to setup [configuration tables](Spreadsheet_Workbench#Configuration_tables.md). This way one can define different parameter sets for the same part. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+  ![](images/Spreadsheet_binding-dialog.png )                                                    Cells can now be [bound to other cells](Spreadsheet_Workbench#Cell_binding.md) of the same or a different spreadsheet. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
    
-
--   It is now possible to select in the row/column context-menu at what positions new rows/columns will be inserted. [Pull request \#4704](https   *//github.com/FreeCAD/FreeCAD/pull/4704).
 
 ### Weitere Verbesserungen Tabellenkalkulation 
 
+-   In the row/column context-menu it is now possible to specify the position when inserting rows/columns. [Pull request \#4704](https   *//github.com/FreeCAD/FreeCAD/pull/4704).
 -   Import XLSX (used by [Std Import](Std_Import.md))   * Added support for floor and ceil functions. [Pull request \#5015](https   *//github.com/FreeCAD/FreeCAD/pull/5015).
--   Cell binding   * instruct a set of cells to display the contents of another set of cells. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
 -   Improved navigation using the **Tab** and **Enter** keys.
 -   Improved interface for cutting and pasting blocks of cells.
 
@@ -497,8 +501,6 @@ Qt WebEngine is now considered the default option instead of Qt WebKit.
 **Note   ***
 
 these are the new workbenches created in this development cycle, or older workbenches that received updates. See [external workbenches](External_workbenches.md) for more workbenches that can be installed, and which cover a wide variety of topics. If you want to see your workbench added, join the [forum](https   *//forum.freecadweb.org/index.php) and present your code.
-
-### 3D Druckwerkzeuge 
 
 ### A2plus
 
@@ -534,30 +536,14 @@ For more information see [the constraint handling description](A2plus_Workbench#
   <img alt="" src=images/A4_veriant-animation_relnotes_0.20.gif  style="width   *384px;">An animated assembly.Click on the image to see the animation.   Animations can be exported to the MP4 and GIF format.
    
 
-### ArchitekturTexturen
-
-### BOLTSFC
-
-### Arbeitsbereich GekrümmteFormen 
-
-### Dodo (ehemals Flamingo) 
-
-### Befestigungselemente
-
 ### FCGear
 
-The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements
+The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements   *
 
--   For involute gears, the outside (aka tip) and root diameter are exposed as properties ([details](https   *//github.com/looooo/freecad.gears/pull/69))
--   Gear objects are now [attachable](Part_EditAttachment.md) ([details](https   *//github.com/looooo/freecad.gears/pull/72))
--   Gear objects can now be used as additive features in PartDesign Bodies ([details](https   *//github.com/looooo/freecad.gears/pull/74))
--   The creation of gear objects now appears in the undo stack ([details](https   *//github.com/looooo/freecad.gears/pull/83))
-
-### Polygonnetz Remodellierung Arbeitsbereich 
-
-### MOOC Arbeitsbereich 
-
-### KnotenEditor (PyFlow) 
+-   For involute gears, the outside (aka tip) and root diameter are exposed as properties ([details](https   *//github.com/looooo/freecad.gears/pull/69)).
+-   Gear objects are now [attachable](Part_EditAttachment.md) ([details](https   *//github.com/looooo/freecad.gears/pull/72)).
+-   Gear objects can now be used as additive features in PartDesign Bodies ([details](https   *//github.com/looooo/freecad.gears/pull/74)).
+-   The creation of gear objects now appears in the undo stack ([details](https   *//github.com/looooo/freecad.gears/pull/83)).
 
 ### Plot
 
@@ -570,7 +556,50 @@ The [Ship Workbench](Ship_Workbench.md) is back to life!
 -   A new tool to compute the [static sink and trim](https   *//github.com/FreeCAD/freecad.ship#static-sink-and-trim) has been added.
 -   A new tool to compute the [response amplitude operators](https   *//github.com/FreeCAD/freecad.ship#raos) has been added on top of [capytaine](https   *//github.com/mancellin/capytaine).
 
-### Wege, PyTrails, Abbieger, pivy\_trackers, und Geomatik 
+
+<div class="mw-translate-fuzzy">
+
+### Entwicklung
+
+
+</div>
+
+Since this release FreeCAD can only be compiled using Qt 5.x and Python 3.x. The lowest supported Python version is 3.6.9 according to [this forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701).
+
+
+<div class="mw-translate-fuzzy">
+
+Um [FreeCAD unter Windows kompilieren](Compile_on_Windows/de.md), gibt es verschiedene Libpacks (vorgepackte Bibliotheken)   *
+
+-   Libpack für Windows mit Qt xx, OCC yy, und Python zz
+
+
+</div>
+
+The supported operating systems are   *
+
+-   Windows 7, 8, 10 and 11
+-   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
+-   MacOS   * 10.12 Sierra or newer
+
+
+<div class="mw-translate-fuzzy">
+
+### Bekannte Begrenzungen 
+
+
+</div>
+
+### 32bit Windows 
+
+Since FreeCAD 0.19 we no longer officially support 32bit Windows. FreeCAD might work on these systems, but no support is given.
+
+### Remote Desktop under Windows 
+
+Depending on the OpenGL graphics capabilities of a computer, it might be that one encounters a crash when running FreeCAD via remote desktop. To fix this upgrade your OpenGL driver. Only if this doesn\'t help   *
+
+-   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
+-   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
 
 [Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 

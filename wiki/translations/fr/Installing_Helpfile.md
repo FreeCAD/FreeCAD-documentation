@@ -1,4 +1,6 @@
 # Installing Helpfile/fr
+{{TOCright}}
+
 ## Addon d\'aide 
 
 **Remarque   *** Les fichiers d\'aide hors ligne de FreeCAD, décrits ci-dessous, sont en cours de retrait. Le système d\'aide de FreeCAD est maintenant géré par [Help Addon](https   *//github.com/yorikvanhavre/FreeCAD-Help), que vous pouvez installer via le [Gestionnaire d\'Addons](Std_AddonMgr/fr.md). L\'Addon d\'aide permet d\'accéder à la documentation en ligne, sans avoir besoin de télécharger quoi que ce soit, ou à une copie téléchargeable hors ligne de la documentation, qui peut également être installée via le Gestionnaire d\'Addons.

@@ -34,10 +34,10 @@ This category contains articles and categories about wiki administrative subject
 | [Template:True](wiki/Template_True.md) | [Template:TRUE/pl](wiki/Template_TRUE/pl.md) | [Template:True/pl](wiki/Template_True/pl.md) |
 | [Template:Tutorials navi](wiki/Template_Tutorials navi.md) | [Template:UnfinishedDocu](wiki/Template_UnfinishedDocu.md) | [Template:URL](wiki/Template_URL.md) |
 | [Template:URLn](wiki/Template_URLn.md) | [Template:Userdocnavi](wiki/Template_Userdocnavi.md) | [Template:Value](wiki/Template_Value.md) |
-| [Template:Variable](wiki/Template_Variable.md) | [Template:VeryImportantMessage](wiki/Template_VeryImportantMessage.md) | [WikiPages](wiki/WikiPages.md) |
-| [WikiRobots](wiki/WikiRobots.md) | [Category:Disambiguation](wiki/Category_Disambiguation.md) | [Category:HouseKeeping](wiki/Category_HouseKeeping.md) |
-| [Category:Pages to delete](wiki/Category_Pages to delete.md) | [Category:UnfinishedDocu](wiki/Category_UnfinishedDocu.md) | [Category:Wiki](wiki/Category_Wiki.md) |
-| [Category:Work in progress](wiki/Category_Work in progress.md) |
+| [Template:Variable](wiki/Template_Variable.md) | [Template:VeryImportantMessage](wiki/Template_VeryImportantMessage.md) | [Template:Web Tools navi](wiki/Template_Web Tools navi.md) |
+| [WikiPages](wiki/WikiPages.md) | [WikiRobots](wiki/WikiRobots.md) | [Category:Disambiguation](wiki/Category_Disambiguation.md) |
+| [Category:HouseKeeping](wiki/Category_HouseKeeping.md) | [Category:Pages to delete](wiki/Category_Pages to delete.md) | [Category:UnfinishedDocu](wiki/Category_UnfinishedDocu.md) |
+| [Category:Wiki](wiki/Category_Wiki.md) | [Category:Work in progress](wiki/Category_Work in progress.md) |
 
 
 

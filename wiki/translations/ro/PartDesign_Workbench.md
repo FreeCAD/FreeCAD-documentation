@@ -388,7 +388,13 @@ creează o formă solidă făcând o tranziție/extrudere între două sau mai m
 
 #### instrumente de Transformare 
 
+
+<div class="mw-translate-fuzzy">
+
 Acestea sunt instrumente pentru transformarea caracteristicilor existente. Acestea vă vor permite să alegeți caracteristicile care trebuie transformate.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -424,7 +430,13 @@ Acestea sunt instrumente pentru transformarea caracteristicilor existente. Acest
 
 #### Instrumente pentru traiectorie suplimentară 
 
+
+<div class="mw-translate-fuzzy">
+
 Aceste instrumente se aplică tratării marginilor sau fațetelor selectate.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

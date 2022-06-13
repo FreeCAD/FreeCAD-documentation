@@ -29,7 +29,7 @@ FreeCAD este cu adevarat o aplicație multi-platformă, dezvoltată folosind ren
 
 # Help files 
 
-The offline documentation is not shipped with all installers, but it is available as a separate package. See the [Installing Helpfile](Installing_Helpfile.md) page for more information.
+See [Installing Helpfile](Installing_Helpfile.md).
 
 # External workbenches 
 

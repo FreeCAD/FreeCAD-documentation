@@ -220,7 +220,96 @@ To handle the page setup necessary for printing, FreeCAD spreadsheets are printe
 
 ## Current limitations 
 
-FreeCAD checks for cyclic dependencies. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets   * one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
+FreeCAD checks for cyclic dependencies when it recomputes. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets   * one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
+
+## Cell binding 
+
+
+<small>(v0.20)</small> 
+
+It is possible to bind the content of cells to other spreadsheet cells. This can be useful when dealing with large tables or to get cell content from another spreadsheet.
+
+### Create binding 
+
+To bind, for example, the cell range A3-C4 to the cell range B1-D2   *
+
+1.  Select the cell range A3-C4.
+2.  Right-click and select **Bind...** from the context menu.
+3.  The **Bind Spreadsheet Cells** dialog opens.
+4.  Set the range B1-D2 for the **To cells**   *
+    ![](images/Spreadsheet_binding-dialog.png )
+5.  Press **OK**.
+6.  Bound cells have a blue border to highlight the binding.
+7.  If you now enter something in cell C1, the same will immediately appear in cell B3.
+
+![](images/Spreadsheet_binding-result.png ) 
+*The spreadsheet may now look like this*
+
+### Change binding 
+
+1.  Right-click a bound cell (there is no need to highlight the whole bound range) and select **Bind...** from the context menu.
+2.  The **Bind Spreadsheet Cells** dialog opens.
+3.  Change one or more options. Note that the **Bind cells**, the bound cell range, cannot be changed.
+4.  Press **OK**.
+
+### Remove binding 
+
+1.  Right-click a bound cell (there is no need to highlight the whole bound range) and select **Bind...** from the context menu.
+2.  The **Bind Spreadsheet Cells** dialog opens.
+3.  Press **Unbind**.
+
+### Notes
+
+-   The **Hide dependency of binding** option can be used to prevent problems with cyclic dependencies between spreadsheets. Selecting it is necessary when, for example, cells in *Spreadsheet A* are bound to *Spreadsheet B*, while cells in *Spreadsheet B*, in turn, are bound to some other cells in *Spreadsheet A*. This option should be used with caution   *
+    -   Hiding dependencies can be dangerous because broken dependencies can damage your FreeCAD file. For example, when you delete a spreadsheet you will not be warned about hidden dependencies.
+    -   When you open a document with a spreadsheet containing a hidden dependency, you will get the spreadsheet marked to be recomputed. This is because a cyclic dependency cannot be recomputed automatically. To recompute the [Std Refresh](Std_Refresh.md) tool must be used.
+-   The cell binding has a range check and warns you about mismatched ranges. For example binding 1x3 cells to 3x2 cells cannot work because it is unknown which 3 cells of the original 6 cells should be used.
+-   You cannot change the cell range of an existing binding. You must first unbind the cells and then create a new binding.
+-   The frame color indicating the binding cannot be changed yet.
+
+## Configuration tables 
+
+
+<small>(v0.20)</small> 
+
+You can use Spreadsheets to create configuration tables with sets of predefined parameters for your model, and then dynamically change which configuration to use. See [this Forum post](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
+
+
+<div class="mw-collapsible mw-collapsed toccolours">
+
+Expand this section for a brief tutorial on creating a configuration table.
+
+
+<div class="mw-collapsible-content">
+
+1.  In a new document, first create a [Std Part](Std_Part.md), then create a [Part Box](Part_Box.md), a [Part Cylinder](Part_Cylinder.md) and a Spreadsheet.
+2.  The Box and the Cylinder are automatically placed in the [Std Part](Std_Part.md) container. Manually put the Spreadsheet in the container as well.
+3.  In the Spreadsheet enter the content as shown below. Set the alias for B2 as {{Value|width}}, C2 as {{Value|length}} and D2 as {{Value|radius}}   *
+    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
+4.  Bind the [expressions](Expressions.md) {{Value|Spreadsheet.width}} and {{Value|Spreadsheet.length}} to the Box\'s properties **Width** and **Length**, respectively   *
+    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
+5.  Bind the expression {{Value|Spreadsheet.radius}} to the Cylinder\'s property **Radius**. Also change the **Height** of the Cylinder to {{Value|5 mm}} so that it is lower than the Box.
+6.  Right-click the cell A2 in the Spreadsheet and select **Configuration table...** from the context menu.
+7.  The **Setup Configuration Table** dialog opens.
+8.  Enter the following   *
+    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
+9.  Press **OK**.
+10. A new property called **Configuration** is be added to the [Std Part](Std_Part.md) container to choose the configuration as shown below   *
+    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
+
+You can use either a [Std Link](Std_LinkMake.md) or a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) to instantiate a [Variant Instance](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) of a configurable object with the following steps   *
+
+1.  Create a [Std Link](Std_LinkMake.md) to the [Std Part](Std_Part.md) container and set its **Link Copy On Change** property to {{Value|Enabled}}.
+2.  Move the Link to a new place by changing its **Placement** so that it is easier to distinguish from the original object.
+3.  Select a different **Configuration** for the Link to create a variant instance.
+
+Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), except that its property for activating a variant instance is called **Binder Copy On Change**.
+
+
+</div>
+
+
+</div>
 
 ## Scripting basics 
 

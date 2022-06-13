@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Point
    Name/fr   *Draft Point
-   MenuLocation   *Esquisse → Point
+   MenuLocation   *Draft → Point
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version   *0.7
 ---
@@ -21,7 +21,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Point.svg" width=16px> [Point](Draft_Point/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Point.svg" width=16px> Point** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Point.svg" width=16px> Point** dans le menu.
 2.  Le panneau de tâches **Point** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 

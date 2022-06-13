@@ -220,95 +220,110 @@ To handle the page setup necessary for printing, FreeCAD spreadsheets are printe
 
 ## Current limitations 
 
-FreeCAD checks for cyclic dependencies when recomputes. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets   * one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
+FreeCAD checks for cyclic dependencies when it recomputes. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets   * one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
 
 ## Cell binding 
 
-It is possible to bind the content of cells to other spreadsheet cells. This is especially useful for large tables or to get a cell content in another spreadsheet.
 
-### Usage
+<small>(v0.20)</small> 
 
-To bind for example the cell range B1-D2 to cell range A3-C4
+It is possible to bind the content of cells to other spreadsheet cells. This can be useful when dealing with large tables or to get cell content from another spreadsheet.
 
--   Select the cell range A3-A4
--   Right-click and choose the context menu **Bind**
--   In the appearing dialog set the cell ranges accordingly and click **OK**   *
+### Create binding 
 
-![](images/Spreadsheet_binding-dialog.png )
+To bind, for example, the cell range A3-C4 to the cell range B1-D2   *
 
-The bound cells got a blue border to highlight the bounding. You can now enter something into cell C1 and this will appear immediately in cell B3.
 
-For example a filled spreadsheet will look like   *
 
-![](images/Spreadsheet_binding-result.png )
+1.   Select the cell range A3-C4. 
+2.   Right-click and select 
+3.   The 
+4.   Set the range B1-D2 for the 
+    ![](images/Spreadsheet_binding-dialog.png )
+5.   Press 
+6.   Bound cells have a blue border to highlight the binding. 
+7.   If you now enter something in cell C1, the same will immediately appear in cell B3. 
 
-To change an existing binding   *
+![](images/Spreadsheet_binding-result.png )  
+*The spreadsheet may now look like this*
 
--   Right-click on a bound cell (no need to highlight the whole bound range) and use the context menu **Bind**.
--   In the dialog you can change the spreadsheet and the option but not the bound cell range.
+### Change binding 
 
-To remove an existing binding   *
+1.  Right-click a bound cell (there is no need to highlight the whole bound range) and select **Bind...** from the context menu.
+2.  The **Bind Spreadsheet Cells** dialog opens.
+3.  Change one or more options. Note that the **Bind cells**, the bound cell range, cannot be changed.
+4.  Press **OK**.
 
--   Right-click on a bound cell (no need to highlight the whole bound range) and use the context menu **Bind**.
--   In the dialog click on the button **Unbind**.
+### Remove binding 
 
-The option **Use hidden reference** \...
+1.  Right-click a bound cell (there is no need to highlight the whole bound range) and select **Bind...** from the context menu.
+2.  The **Bind Spreadsheet Cells** dialog opens.
+3.  Press **Unbind**.
 
 ### Notes
 
-The cell binding has not yet a range check. Therefore you must assure that the cell ranges match. For example binding 1x3 cells to 3x2 cells cannot work because it is unknown what 3 cells of the 6 origin cells should be taken to the 3 bound cells.
-
-You cannot change the range of cells for an existing binding. You must first unbind the cells and then recreate a new binding.
-
-The frame color indicating the binding cannot be changed yet.
+-   The **Hide dependency of binding** option can be used to prevent problems with cyclic dependencies between spreadsheets. Selecting it is necessary when, for example, cells in *Spreadsheet A* are bound to *Spreadsheet B*, while cells in *Spreadsheet B*, in turn, are bound to some other cells in *Spreadsheet A*. This option should be used with caution   *
+    -   Hiding dependencies can be dangerous because broken dependencies can damage your FreeCAD file. For example, when you delete a spreadsheet you will not be warned about hidden dependencies.
+    -   When you open a document with a spreadsheet containing a hidden dependency, you will get the spreadsheet marked to be recomputed. This is because a cyclic dependency cannot be recomputed automatically. To recompute the [Std Refresh](Std_Refresh.md) tool must be used.
+-   The cell binding has a range check and warns you about mismatched ranges. For example binding 1x3 cells to 3x2 cells cannot work because it is unknown which 3 cells of the original 6 cells should be used.
+-   You cannot change the cell range of an existing binding. You must first unbind the cells and then create a new binding.
+-   The frame color indicating the binding cannot be changed yet.
 
 ## Configuration tables 
 
 
 <small>(v0.20)</small> 
 
-. You can use Spreadsheet to create one or more configuration tables for your model with a set of predefined parameters, and then dynamically change which configuration to use. See [this post](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
+You can use Spreadsheets to create configuration tables with sets of predefined parameters for your model, and then dynamically change which configuration to use. See [this Forum post](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
 
 
-<div class="mw-collapsible mw-collapsed">
 
-See the expanded section below for a brief tutorial on creating a configuration table   *
+
+<div class="mw-collapsible mw-collapsed toccolours">
+
+
+
+Expand this section for a brief tutorial on creating a configuration table.
+
+
 
 
 <div class="mw-collapsible-content">
 
--   In a new document, first create an [App   *   *Part](Std_Part.md), then create a [Cylinder](Part_Cylinder.md), a [Cube](Part_Box.md) and a Spreadsheet. Put the three objects into the App   *   *Part container.
--   In the Spreadsheet enter the contents as shown below. Set the alias for B1 as \'width\', C2 as \'length\' and D2 as \'radius\'   *
+1.   In a new document, first create a [Std Part](Std_Part.md), then create a [Part Box](Part_Box.md), a [Part Cylinder](Part_Cylinder.md) and a Spreadsheet. 
+2.   The Box and the Cylinder are automatically placed in the [Std Part](Std_Part.md) container. Manually put the Spreadsheet in the container as well. 
+3.   In the Spreadsheet enter the content as shown below. Set the alias for B2 as 
+    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
+4.   Bind the [expressions](Expressions.md) 
+    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
+5.   Bind the expression 
+6.   Right-click the cell A2 in the Spreadsheet and select 
+7.   The 
+8.   Enter the following   * 
+    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
+9.   Press 
+10.  A new property called 
+    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
 
-![](images/Spreadsheet_configuration_table_screenshot_4.png )
 
--   [Bind](Expressions.md) the expression *Spreadsheet.width* and *Spreadsheet.length* to the Cube\'s properties *Width* and \'\'Length\',\' respectively.
 
-![](images/Spreadsheet_configuration_table_screenshot_2.png )
+You can use either a [Std Link](Std_LinkMake.md) or a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) to instantiate a [Variant Instance](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) of a configurable object with the following steps   *
 
--   Bind the expression *Spreadsheet.radius* to the Cylinder\'s property *Radius*.
--   Right click cell *A2* in the Spreadsheet and select the context men *Configuration table*.
--   Enter the following content in the popup dialog, and press *OK*   *
+1.  Create a [Std Link](Std_LinkMake.md) to the [Std Part](Std_Part.md) container and set its **Link Copy On Change** property to {{Value|Enabled}}.
+2.  Move the Link to a new place by changing its **Placement** so that it is easier to distinguish from the original object.
+3.  Select a different **Configuration** for the Link to create a variant instance.
 
-![](images/Spreadsheet_configuration_table_screenshot_5.png )
+Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), except that its property for activating a variant instance is called **Binder Copy On Change**.
 
--   A new property called *Configuration* will be added to the *App   *   *Part* container to choose the configuration as shown below   *
 
-![](images/Spreadsheet_configuration_table_screenshot_6.png )
 
-You can use either [App   *   *Link](Std_Link.md) or [SubShapeBinder](PartDesign_SubShapeBinder.md) to instantiate a [Variant Instance](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) of a configurable object with the following steps   *
 
--   Create a [App   *   *Link](Std_Link.md) to the *App   *   *Part* container and set its *Link Copy On Change* property to *Enabled*.
--   Move the Link to a new place by changing its *Placement* so that it is easier to distinguish it from the original source object.
--   Select a different \'Configuration\' for the Link to create a variant instance.
-
-Similar steps apply to *SubShapeBinder*, except that its property for activating a variant instance is called *Binder Copy On Change*.
+</div>
 
 
 </div>
 
 
-</div>
 
 ## Scripting basics 
 

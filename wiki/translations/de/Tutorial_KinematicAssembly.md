@@ -1,5 +1,5 @@
 ---
-- TutorialInfo   *   Topic   *Assemly3, ein einfacher Mechanismus
+- TutorialInfo   *   Topic   *Assembly3, ein einfacher Mechanismus
    Level   *Grundwissen über Assembly3-Werkzeuge ist hilfreich
    FCVersion   *0.20 und neuer
    Time   *30 Minuten

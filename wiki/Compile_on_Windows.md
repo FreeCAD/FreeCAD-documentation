@@ -349,7 +349,7 @@ For Method 1 you need to put the libraries into the *bin* folder of your build f
 
 ### Troubleshooting
 
-When running FreeCAD you may encounter missing DLLs when using certain workbenches or features of workbenches. The error message in FreeCAD\'s console will not tell you what DLL is missing. To find this out you must use an external tool. The workflow is hereby   *
+When running FreeCAD you may encounter missing DLLs when using certain workbenches or features of workbenches. The error message in FreeCAD\'s console will not tell you what DLL is missing. To find this out you must use an external tool   *
 
 -   Download the latest release of the program **Dependencies**   * <https   *//github.com/lucasg/Dependencies/releases> (choose the file *Dependencies\_x64\_Release.zip*)
 -   In the FreeCAD [Python console](Python_console.md) execute these commands   *

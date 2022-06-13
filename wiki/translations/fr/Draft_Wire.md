@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Wire
    Name/fr   *Draft Polyligne
-   MenuLocation   *Esquisse → Polyligne
+   MenuLocation   *Draft → Polyligne
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***P** **L**
    Version   *0.7
@@ -28,7 +28,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Polyligne](Draft_Wire/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
     -   Utilisez le raccourci clavier    * **P** puis **L**.
 2.  Le panneau de tâches **Polyline** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
@@ -60,7 +60,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 2.  Sélectionnez deux ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou des Draft Polylignes.
 3.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Polyligne](Draft_Wire/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
     -   Utilisez le raccourci clavier    * **P** puis **L**.
 
 ## Remarques

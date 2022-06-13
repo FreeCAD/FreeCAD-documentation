@@ -161,19 +161,49 @@ Estas são ferramentas para subtrair material de um corpo existente.
 
 #### Ferramentas de transformação 
 
+
+<div class="mw-translate-fuzzy">
+
 Estas são ferramentas para transformar as características existentes. Elas permitirão que você escolha quais características transformar.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Simetria](PartDesign_Mirrored/pt-br.md)   * espelha uma ou mais características em um plano ou face.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Padrão Linear](PartDesign_LinearPattern/pt-br.md)   * cria um padrão linear baseado em uma ou mais características.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Padrão Polar](PartDesign_PolarPattern/pt-br.md)   * cria um padrão polar de uma ou mais características.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Transformação múltipla](PartDesign_MultiTransform/pt-br.md)   * cria um padrão com qualquer combinação das outras transformações.
+
+
+</div>
 
 #### Ferramentas de embelezamento 
 
+
+<div class="mw-translate-fuzzy">
+
 Estas ferramentas aplicam um tratamento às bordas ou faces selecionadas.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Filete](PartDesign_Fillet/pt-br.md)   * filetes (redondos) bordas do corpo ativo.
 
@@ -181,7 +211,13 @@ Estas ferramentas aplicam um tratamento às bordas ou faces selecionadas.
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Rascunho](PartDesign_Draft/pt-br.md)   * aplica um esboço angular a rostos selecionados do corpo ativo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Espessura](PartDesign_Thickness/pt-br.md)   * cria uma concha grossa a partir do corpo ativo e abre a(s) face(s) selecionada(s).
+
+
+</div>
 
 #### Booleano
 

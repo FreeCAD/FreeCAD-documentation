@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM MeshGmshFromShape
-   Name/fr   *FEM Maillage MEF à partir d'une forme avec Gmsh
-   MenuLocation   *Mesh → Maillage MEF à partir d'une forme avec Gmsh
+   Name/fr   *FEM Maillage FEM à partir d'une forme avec Gmsh
+   MenuLocation   *Maillage → Maillage FEM à partir d'une forme de Gmsh
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
@@ -11,17 +11,17 @@
 
 ## Description
 
-Pour une analyse par éléments finis, la géométrie doit être discrétisée en [FEM Mesh](FEM_Mesh/fr.md). Cette commande utilise le programme [Gmsh](https   *//fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour calculer le maillage.
+Pour une analyse par éléments finis, la géométrie doit être discrétisée en [FEM Maillage](FEM_Mesh/fr.md). Cette commande utilise le programme [Gmsh](https   *//fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour calculer le maillage.
 
 Gmsh est fourni avec les binaires d\'installation de FreeCAD. Sinon, vous pouvez l\'installer séparément de FreeCAD et ensuite utiliser le menu **Édition → Préférences → FEM → Gmsh** pour définir le chemin vers le *gmsh.exe*.
 
 ## utilisation
 
 1.  Sélectionnez la forme que vous souhaitez analyser. Pour le volume FEM, il doit s\'agir d\'un solide ou d\'un solide. Un compsolid est nécessaire si votre pièce est composée de plusieurs matériaux. (Un compsolid peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md).)
-    -   Appuyez sur le bouton **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [Créer un maillage MEF à partir de la forme avec le mailleur Gmsh](FEM_MeshGmshFromShape/fr.md)**.
-    -   Sélectionnez l\'option **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Maillage MEF à partir d'une forme avec Gmsh** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [Créer un maillage FEM à partir d'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md)**.
+    -   Sélectionnez l\'option **Maillage → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Maillage FEM à partir d'une forme de Gmsh** dans le menu.
 2.  Vous pouvez éventuellement modifier la taille minimale et maximale de l\'élément. (La détection automatique fonctionne correctement, sauf si vous appliquez des conditions aux limites compliquées.)
-3.  Cliquez sur le bouton **Apply** et attendez que le calcul du maillage soit terminé.
+3.  Cliquez sur le bouton **Appliquer** et attendez que le calcul du maillage soit terminé.
 4.  Ferme la tâche. Vous devriez maintenant voir un nouvel objet FEMMeshGMSH dans votre conteneur d\'analyse active.
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l\'aide de l\'[Éditeur de propriétés](Property_editor/fr.md). Après avoir modifié une propriété, vous devez rouvrir le dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).

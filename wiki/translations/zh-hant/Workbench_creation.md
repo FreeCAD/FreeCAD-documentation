@@ -201,7 +201,7 @@ optionalpylibs=metadata,git
 
 You may also include a script that is run when your package is uninstalled. This is a file called \"uninstall.py\" located at the top level of your Addon. It is executed when a user uninstalls your Addon using the Addon Manager. Use it to clean up anything your Addon may have done to the users system that should not persist when the Addon is gone (e.g. removing cache files, etc.).
 
-To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode use the [Parameter Editor](Parameter_Editor.md) to create a boolean variable called \"developerMode\" in the \"Addons\" parameter group, and set this variable to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
+To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode use the [Parameter Editor](Std_DlgParameter.md) to create a boolean variable called \"developerMode\" in the \"Addons\" parameter group, and set this variable to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
 
 ### C++ workbenches 
 

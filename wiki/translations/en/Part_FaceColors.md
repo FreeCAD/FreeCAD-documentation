@@ -21,7 +21,7 @@ To color faces   *
     1.  For a single face simply click on it, then select in the dialog its color
     2.  To select multiple faces, either keep **Ctrl** pressed and click on several faces.
         Or click in the dialog on the button **Box selection**. Then you can drag with the mouse a selection rectangle in the model. Every face that is partly in the selection rectangle will be selected.
-3.  Choose in the dialog a color for the selected faces.
+3.  Choose in the dialog a color for the selected faces. <small>(v0.20)</small>    * The color can also get a transparency by setting the *Alpha channel*.
 4.  Click **OK** to close the dialog an accept the changes you made.
 
 To reset all face colors   *

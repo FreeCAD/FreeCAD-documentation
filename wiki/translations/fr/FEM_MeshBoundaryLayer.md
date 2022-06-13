@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM MeshBoundaryLayer
-   Name/fr   *FEM Couche limite de maillage MEF
-   MenuLocation   *Mesh → Couche limite de maillage MEF
+   Name/fr   *FEM Couche limite de maillage FEM
+   MenuLocation   *Maillage → Couche limite de maillage FEM
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
@@ -11,15 +11,15 @@
 
 ## Description
 
-Couche limite de maillage MEF permet à l\'utilisateur de définir un ensemble localisé de paramètres de maillage en sélectionnant un ensemble d\'éléments (Vertex, Edge, Face) et en lui appliquant les paramètres. Elle est particulièrement utile pour affiner les maillages près des bords ou des surfaces dans les simulations d\'écoulement. Par exemple, elle peut être utilisée pour raffiner le maillage à proximité d\'une feuille d\'air ou d\'un obstacle dans un écoulement.
+Couche limite de maillage FEM permet à l\'utilisateur de définir un ensemble localisé de paramètres de maillage en sélectionnant un ensemble d\'éléments (Vertex, Edge, Face) et en lui appliquant les paramètres. Elle est particulièrement utile pour affiner les maillages près des bords ou des surfaces dans les simulations d\'écoulement. Par exemple, elle peut être utilisée pour raffiner le maillage à proximité d\'une feuille d\'air ou d\'un obstacle dans un écoulement.
 
 La couche limite présente l\'avantage de créer des maillages anisotropes hautement définis. Comme son nom l\'indique, elle permet d\'effectuer des calculs précis près des frontières, par exemple une paroi où se produit un frottement, générant un gradient de vitesse.
 
 ## Utilisation
 
-1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [FEM Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md).
+1.  Pour activer la fonction, un maillage doit d\'abord être fourni par <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [FEM Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
     -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et cliquez sur le bouton <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width   *32px;">.
-    -   Sélectionnez l\'objet Mesh dans l\'arborescence du modèle et sélectionnez l\'option **Mesh → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> Couche limite de maillage FEM** dans le menu.
+    -   Sélectionnez l\'objet Mesh dans l\'arborescence du modèle et sélectionnez l\'option **Maillage → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> Couche limite de maillage FEM** dans le menu.
 2.  Modifiez la taille de l\'élément de départ, le taux de croissance et le nombre de couches de croissance.
 3.  Sélectionnez un sommet, une arête, une face.
 4.  Cliquez sur le bouton **OK**.

@@ -3,77 +3,92 @@
    Name   *PartDesign LinearPattern
    MenuLocation   *Part Design → Apply a pattern → LinearPattern
    Workbenches   *[PartDesign](PartDesign_Workbench.md)
+   SeeAlso   *[PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---
 
 # PartDesign LinearPattern
 
 ## Description
 
-The **LinearPattern** tool creates evenly spaced copies of a feature along a straight line or edge.
+The <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *24px;"> **PartDesign LinearPattern** tool creates a linear pattern of one or more features.
 
- ![](images/PartDesign_LinearPattern_example.svg ) 
-
-\'\'Above   * An L-shaped pad (B) made on top of a base pad (A, also referred to as *support*) is used for a linear pattern. The result (C) is shown on the right.\'\'
+ ![](images/PartDesign_LinearPattern_example.svg )  
+*An L-shaped pad (B) made on top of a base pad (A, also referred to as support) is used for a linear pattern. The result (C) is shown on the right.*
 
 ## Usage
 
-To create a pattern   *
-
-1.  Select the feature (<small>(v0.19)</small>  or several features) to be patterned.
-2.  Press the **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px"> '''LinearPattern'''** button.
-3.  Define the **Direction**. See [Options](#Options.md).
-4.  Define the **Length** (distance) between the last copied occurrence and the original feature.
-5.  Set the number of **Occurrences**.
-6.  If you have several features in the pattern, their order can be important, see for example the image in the [PolarPattern feature](PartDesign_PolarPattern#Usage.md). <small>(v0.19)</small>  You can change the order by dragging the feature in the list and you will see the result immediately as preview.
-7.  Press **OK**.
-
-To add or remove features from an existing pattern   *
-
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
-    1.  Switch to the Model tree;
-    2.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
-    3.  Switch back to the Tasks panel;
-    4.  Select the feature in the 3D view; it will be added to the list.
-    5.  Repeat to add other features.
-2.  Press **Remove feature** to remove a feature from the list, or right-click on the feature in the list and select **Remove**
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features.
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_LinearPattern.svg" width=16px> [LinearPattern](PartDesign_LinearPattern.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_LinearPattern.svg" width=16px> LinearPattern** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
 
 ## Options
 
-![LinearPattern parameters](images/Linearpattern_parameters_v017.png )
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Specify the **Direction** of the pattern   *
+    -   
+        **Normal sketch axis**
+        
+           * The Z axis of the sketch (only available for sketch-based features).
 
-### Direction
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (idem).
 
-When creating a linear pattern feature, the **LinearPattern parameters** dialogue offers different ways of specifying the pattern direction.
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
 
-#### Horizontal sketch axis 
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
 
-Uses the horizontal axis of the sketch for direction.
+    -   
+        **Base X axis**
+        
+           * The X axis of the Body.
 
-#### Vertical sketch axis 
+    -   
+        **Base Y axis**
+        
+           * The Y axis of the Body.
 
-Uses the vertical axis of the sketch for direction.
+    -   
+        **Base Z axis**
+        
+           * The Z axis of the Body.
 
-#### Normal sketch axis 
-
-Uses the normal axis of the sketch for direction.
-
-#### Select reference\... 
-
-Allows you to select a DatumLine, a straight edge from an object or a line from a sketch to use for direction.
-
-#### Custom Sketch Axis 
-
-If the sketch which defines the feature to be patterned also contains a construction line (or lines), then the drop down list will contain one custom sketch axis for each construction line. The first construction line will be labelled *Sketch axis 0*.
-
-#### Base (X/Y/Z) axis 
-
-Select one of the Body Origin\'s standard axis (X, Y or Z) as direction.
+    -   
+        **Select reference...**
+        
+           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+-   Check the **Reverse direction** checkbox to reverse the pattern.
+-   Specify the **Length** to be covered by the pattern.
+-   Specify the number of **Occurrences** (including the original feature).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Limitations
 
--   Any pattern shapes that do not overlap the original\'s support will be excluded. This ensures that a PartDesign feature always consists of a single, connected solid.
--   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a bigger number of instances you should consider using [Draft array](Draft_OrthoArray.md) instead, combined with a Part boolean operation. This may include major changes to your model as you are leaving PartDesign, which means that you cannot simply continue with further PartDesign features in the same body. An example is shown in this [Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).
--   A LinearPattern cannot be applied directly to another pattern, be it polar, linear or a mirror. For this you need a [PartDesign MultiTransform](PartDesign_MultiTransform.md).
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

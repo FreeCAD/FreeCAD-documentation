@@ -12,26 +12,23 @@
 
 ## Description
 
-La commande **Std Qu\'est-ce que c\'est?** ouvre la documentation d\'aide pour une commande spécifiée.
+La commande **Std Qu\'est-ce que c\'est?** ouvre la documentation d\'aide pour une commande spécifique.
+
+Dans FreeCAD {{VersionPlus/fr|0.20}}, cette commande nécessite [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Si l\'addon Help n\'est pas encore disponible, il vous sera demandé de l\'installer via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+2.  Il existe plusieurs façons de lancer la commande   *
     -   Appuyez sur le bouton **<img src="images/Std_WhatsThis.svg" width=16px> [Qu'est-ce que c'est?](Std_WhatsThis/fr.md)**.
-    -   Sélectionnez l\'option **Help → <img src="images/Std_WhatsThis.svg" width=16px> Qu'est-ce que c'est?** dans le menu.
+    -   Sélectionnez l\'option **Aide → <img src="images/Std_WhatsThis.svg" width=16px> Qu'est-ce que c'est?** dans le menu.
     -   Utilisez le raccourci clavier   * **Maj** + **F1**.
-2.  Cliquez sur un bouton de la barre d\'outils ou sur une option de menu.
-3.  La documentation d\'aide de la commande sélectionnée s\'ouvre dans une nouvelle fenêtre.
+3.  Cliquez sur un bouton de la barre d\'outils ou une option de menu.
+4.  La documentation d\'aide pour la commande sélectionnée s\'ouvre.
 
 ## Remarques
 
--   Certaines commandes ne sont pas documentées, dans ce cas, l\'aide hors ligne s\'ouvrira sur une page vierge et signalera que la page est introuvable.
--   La documentation est basée sur des pages HTML compilées par Qt. Pour qu\'il démarre, Qt Assistant doit être installé.
--   Sur Debian/Ubuntu et éventuellement d\'autres systèmes Linux, la documentation hors ligne peut devoir être installée séparément. Le package est nommé **freecad-doc** ou **freecad-daily-doc** (pour le PPA freecad-daily). Voir [Installation du fichier d\'aide](Installing_Helpfile/fr.md).
-
-Lisez cet article pour comprendre comment les commandes doivent être nommées dans le code pour correspondre aux pages d\'aide du wiki.
-
--   [Un tas de pages TechDraw n\'ont pas le nom correct](https   *//forum.freecadweb.org/viewtopic.php?t=27265)
+-   L\'addon Help possède un certain nombre de préférences. Voir [Réglage des préférences](Preferences_Editor/fr#Help.md).
 
 
 

@@ -7,7 +7,7 @@ Po zainstalowaniu FreeCAD w swoim systemie operacyjnym *([Linux](Installing_on_L
 
 # Pliki pomocy 
 
-Dokumentacja offline nie jest dostarczana ze wszystkimi instalatorami, ale jest dostępna jako oddzielny pakiet. Zobacz dokument [Instalacja dokumentacji pomocy](Installing_Helpfile/pl.md) aby uzyskać więcej informacji.
+Zobacz dokument [Instalacja dokumentacji pomocy](Installing_Helpfile/pl.md) aby uzyskać więcej informacji.
 
 # Zewnętrzne Środowiska pracy 
 

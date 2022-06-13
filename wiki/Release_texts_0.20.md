@@ -15,7 +15,7 @@ FreeCAD wouldn't be possible without its amazing community of developers, tester
 
 ## Announcement text 
 
-**Aim**   * longer, referring to the [release notes](https   *//wiki.freecadweb.org/Release_notes_0.20.md), and information about the Toponaming merge plans for FreeCAD 1.0.
+**Aim**   * longer, referring to the [release notes](Release_notes_0.20.md), and information about the Toponaming merge plans for FreeCAD 1.0.
 
 **Working Draft**   *
 

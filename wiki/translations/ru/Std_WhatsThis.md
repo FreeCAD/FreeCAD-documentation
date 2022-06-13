@@ -15,26 +15,23 @@
 
 ## Описание
 
-The **Std WhatsThis** command opens the help documentation for a specified command.
+The **Std WhatsThis** command opens the help documentation for a specific command.
+
+In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  If the Help Addon is not yet available you will be asked to install it via the [Addon Manager](Std_AddonMgr.md).
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Std_WhatsThis.svg" width=16px> [Std WhatsThis](Std_WhatsThis.md)** button.
     -   Select the **Help → <img src="images/Std_WhatsThis.svg" width=16px> What's This?** option from the menu.
     -   Use the keyboard shortcut   * **Shift**+**F1**.
-2.  Click on a toolbar button or on a menu option.
-3.  The help documentation for the selected command opens in a new window.
+3.  Click a toolbar button or a menu option.
+4.  The help documentation for the selected command opens.
 
 ## Примечания
 
--   Some commands are not documented, in that case the offline help will open on a blank page and report that the page could not be found.
--   The documentation is based on Qt compiled HTML pages. For it to launch Qt Assistant must be installed.
--   On Debian/Ubuntu and possibly other Linux systems, the offline documentation may need to be installed separately. The package is named **freecad-doc**, or **freecad-daily-doc** (for the freecad-daily PPA). See [Installing Helpfile](Installing_Helpfile.md).
-
-Read this post to understand how the commands must be named in the code to match the help pages in the wiki.
-
--   [Bunch of TechDraw pages don\'t have the correct name](https   *//forum.freecadweb.org/viewtopic.php?t=27265)
+-   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
 
 
 

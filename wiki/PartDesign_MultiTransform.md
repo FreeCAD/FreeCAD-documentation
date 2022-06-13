@@ -3,6 +3,7 @@
    Name   *PartDesign MultiTransform
    MenuLocation   *Part Design → Apply a pattern → Create MultiTransform
    Workbenches   *[PartDesign](PartDesign_Workbench.md)
+   SeeAlso   *[PartDesign Mirrored](PartDesign_Mirrored.md), [PartDesign LinearPattern](PartDesign_LinearPattern.md), [PartDesign PolarPattern](PartDesign_PolarPattern.md), [PartDesign Scaled](PartDesign_Scaled.md)
 ---
 
 # PartDesign MultiTransform
@@ -101,13 +102,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 ### Limitations
 
--   A scaled transformation should not be the first in the list
--   The scaled transformation must have the same number of occurrences as the transformation immediately preceding it in the list
--   For further limitations, see the **<img src="images/PartDesign_LinearPattern.svg" width=20px> [Linear Pattern](PartDesign_LinearPattern.md)
-**
-
-
-
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md). 
 
 ## Options
 
@@ -138,12 +133,6 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | Allows changing the order of transformations in the list                                                                                                                                                                                                                                                                                                                            |
 +++
-
-## Examples
-
-![c\|800px](images/mt_example2.png ) 
-*The smallest pad was first patterned three times in X direction and then scaled to factor two (so the three occurrences have scaling factor 1.0, 1.5 and 2.0). Then a polar pattern was applied with 8 occurrences.* ![c\|800px](images/mt_example3.png ) 
-*The pocket was first mirrored on the YZ plane and then patterned with two linear patterns to give a rectangular pattern.* 
 
 
 

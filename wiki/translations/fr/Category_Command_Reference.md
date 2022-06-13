@@ -122,19 +122,19 @@ Cette catégorie recense les pages d\'aide de chaque commande de FreeCAD [Comman
 | [FEM ElementGeometry2D/fr](wiki/FEM ElementGeometry2D/fr.md) | [FEM ElementRotation1D/fr](wiki/FEM ElementRotation1D/fr.md) | [FEM EquationElasticity/fr](wiki/FEM EquationElasticity/fr.md) |
 | [FEM EquationElectricforce/fr](wiki/FEM EquationElectricforce/fr.md) | [FEM EquationElectrostatic/fr](wiki/FEM EquationElectrostatic/fr.md) | [FEM EquationFlow/fr](wiki/FEM EquationFlow/fr.md) |
 | [FEM EquationFlux/fr](wiki/FEM EquationFlux/fr.md) | [FEM EquationHeat/fr](wiki/FEM EquationHeat/fr.md) | [FEM Examples/fr](wiki/FEM Examples/fr.md) |
-| [FEM FemMesh2Mesh/fr](wiki/FEM FemMesh2Mesh/fr.md) | [FEM MaterialFluid/fr](wiki/FEM MaterialFluid/fr.md) | [FEM MaterialMechanicalNonlinear/fr](wiki/FEM MaterialMechanicalNonlinear/fr.md) |
-| [FEM MaterialReinforced/fr](wiki/FEM MaterialReinforced/fr.md) | [FEM MaterialSolid/fr](wiki/FEM MaterialSolid/fr.md) | [FEM MeshBoundaryLayer/fr](wiki/FEM MeshBoundaryLayer/fr.md) |
-| [FEM MeshClear/fr](wiki/FEM MeshClear/fr.md) | [FEM MeshDisplayInfo/fr](wiki/FEM MeshDisplayInfo/fr.md) | [FEM MeshGmshFromShape/fr](wiki/FEM MeshGmshFromShape/fr.md) |
-| [FEM MeshGroup/fr](wiki/FEM MeshGroup/fr.md) | [FEM MeshNetgenFromShape/fr](wiki/FEM MeshNetgenFromShape/fr.md) | [FEM MeshRegion/fr](wiki/FEM MeshRegion/fr.md) |
-| [FEM PostApplyChanges/fr](wiki/FEM PostApplyChanges/fr.md) | [FEM PostCreateFunctions/fr](wiki/FEM PostCreateFunctions/fr.md) | [FEM PostFilterClipRegion/fr](wiki/FEM PostFilterClipRegion/fr.md) |
-| [FEM PostFilterClipScalar/fr](wiki/FEM PostFilterClipScalar/fr.md) | [FEM PostFilterCutFunction/fr](wiki/FEM PostFilterCutFunction/fr.md) | [FEM PostFilterDataAlongLine/fr](wiki/FEM PostFilterDataAlongLine/fr.md) |
-| [FEM PostFilterDataAtPoint/fr](wiki/FEM PostFilterDataAtPoint/fr.md) | [FEM PostFilterLinearizedStresses/fr](wiki/FEM PostFilterLinearizedStresses/fr.md) | [FEM PostFilterWarp/fr](wiki/FEM PostFilterWarp/fr.md) |
-| [FEM PostPipelineFromResult/fr](wiki/FEM PostPipelineFromResult/fr.md) | [FEM ResultShow/fr](wiki/FEM ResultShow/fr.md) | [FEM ResultsPurge/fr](wiki/FEM ResultsPurge/fr.md) |
-| [FEM SolverCalculiX/fr](wiki/FEM SolverCalculiX/fr.md) | [FEM SolverCalculixCxxtools/fr](wiki/FEM SolverCalculixCxxtools/fr.md) | [FEM SolverControl/fr](wiki/FEM SolverControl/fr.md) |
-| [FEM SolverElmer/fr](wiki/FEM SolverElmer/fr.md) | [FEM SolverMystran/fr](wiki/FEM SolverMystran/fr.md) | [FEM SolverRun/fr](wiki/FEM SolverRun/fr.md) |
-| [FEM SolverZ88/fr](wiki/FEM SolverZ88/fr.md) | [GuiCommand model/fr](wiki/GuiCommand model/fr.md) | [Template:GuiCommand/fr](wiki/Template_GuiCommand/fr.md) |
-| [Template:GuiCommandAddon/fr](wiki/Template_GuiCommandAddon/fr.md) | [Image CreateImagePlane/fr](wiki/Image CreateImagePlane/fr.md) | [Image Open/fr](wiki/Image Open/fr.md) |
-| [Image Scaling/fr](wiki/Image Scaling/fr.md) | [Lattice2 AttachablePlacement/fr](wiki/Lattice2 AttachablePlacement/fr.md) | [Material editor/fr](wiki/Material editor/fr.md) |
+| [FEM FemMesh2Mesh/fr](wiki/FEM FemMesh2Mesh/fr.md) | [FEM MaterialEditor/fr](wiki/FEM MaterialEditor/fr.md) | [FEM MaterialFluid/fr](wiki/FEM MaterialFluid/fr.md) |
+| [FEM MaterialMechanicalNonlinear/fr](wiki/FEM MaterialMechanicalNonlinear/fr.md) | [FEM MaterialReinforced/fr](wiki/FEM MaterialReinforced/fr.md) | [FEM MaterialSolid/fr](wiki/FEM MaterialSolid/fr.md) |
+| [FEM MeshBoundaryLayer/fr](wiki/FEM MeshBoundaryLayer/fr.md) | [FEM MeshClear/fr](wiki/FEM MeshClear/fr.md) | [FEM MeshDisplayInfo/fr](wiki/FEM MeshDisplayInfo/fr.md) |
+| [FEM MeshGmshFromShape/fr](wiki/FEM MeshGmshFromShape/fr.md) | [FEM MeshGroup/fr](wiki/FEM MeshGroup/fr.md) | [FEM MeshNetgenFromShape/fr](wiki/FEM MeshNetgenFromShape/fr.md) |
+| [FEM MeshRegion/fr](wiki/FEM MeshRegion/fr.md) | [FEM PostApplyChanges/fr](wiki/FEM PostApplyChanges/fr.md) | [FEM PostCreateFunctions/fr](wiki/FEM PostCreateFunctions/fr.md) |
+| [FEM PostFilterClipRegion/fr](wiki/FEM PostFilterClipRegion/fr.md) | [FEM PostFilterClipScalar/fr](wiki/FEM PostFilterClipScalar/fr.md) | [FEM PostFilterCutFunction/fr](wiki/FEM PostFilterCutFunction/fr.md) |
+| [FEM PostFilterDataAlongLine/fr](wiki/FEM PostFilterDataAlongLine/fr.md) | [FEM PostFilterDataAtPoint/fr](wiki/FEM PostFilterDataAtPoint/fr.md) | [FEM PostFilterLinearizedStresses/fr](wiki/FEM PostFilterLinearizedStresses/fr.md) |
+| [FEM PostFilterWarp/fr](wiki/FEM PostFilterWarp/fr.md) | [FEM PostPipelineFromResult/fr](wiki/FEM PostPipelineFromResult/fr.md) | [FEM ResultShow/fr](wiki/FEM ResultShow/fr.md) |
+| [FEM ResultsPurge/fr](wiki/FEM ResultsPurge/fr.md) | [FEM SolverCalculiX/fr](wiki/FEM SolverCalculiX/fr.md) | [FEM SolverCalculixCxxtools/fr](wiki/FEM SolverCalculixCxxtools/fr.md) |
+| [FEM SolverControl/fr](wiki/FEM SolverControl/fr.md) | [FEM SolverElmer/fr](wiki/FEM SolverElmer/fr.md) | [FEM SolverMystran/fr](wiki/FEM SolverMystran/fr.md) |
+| [FEM SolverRun/fr](wiki/FEM SolverRun/fr.md) | [FEM SolverZ88/fr](wiki/FEM SolverZ88/fr.md) | [GuiCommand model/fr](wiki/GuiCommand model/fr.md) |
+| [Template:GuiCommand/fr](wiki/Template_GuiCommand/fr.md) | [Template:GuiCommandAddon/fr](wiki/Template_GuiCommandAddon/fr.md) | [Image CreateImagePlane/fr](wiki/Image CreateImagePlane/fr.md) |
+| [Image Open/fr](wiki/Image Open/fr.md) | [Image Scaling/fr](wiki/Image Scaling/fr.md) | [Lattice2 AttachablePlacement/fr](wiki/Lattice2 AttachablePlacement/fr.md) |
 | [Mesh AddFacet/fr](wiki/Mesh AddFacet/fr.md) | [Mesh BoundingBox/fr](wiki/Mesh BoundingBox/fr.md) | [Mesh BuildRegularSolid/fr](wiki/Mesh BuildRegularSolid/fr.md) |
 | [Mesh CrossSections/fr](wiki/Mesh CrossSections/fr.md) | [Mesh CurvatureInfo/fr](wiki/Mesh CurvatureInfo/fr.md) | [Mesh Decimating/fr](wiki/Mesh Decimating/fr.md) |
 | [Mesh Difference/fr](wiki/Mesh Difference/fr.md) | [Mesh EvaluateFacet/fr](wiki/Mesh EvaluateFacet/fr.md) | [Mesh EvaluateSolid/fr](wiki/Mesh EvaluateSolid/fr.md) |

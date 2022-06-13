@@ -46,8 +46,9 @@ This category gathers documentation article mostly aimed at programmers
 | [Sphinx/pl](wiki/Sphinx/pl.md) | [Start up and Configuration/pl](wiki/Start up and Configuration/pl.md) | [Testing/pl](wiki/Testing/pl.md) |
 | [The FreeCAD source code/pl](wiki/The FreeCAD source code/pl.md) | [Third Party Libraries/pl](wiki/Third Party Libraries/pl.md) | [Third Party Tools/pl](wiki/Third Party Tools/pl.md) |
 | [Topological data scripting/pl](wiki/Topological data scripting/pl.md) | [Tracker/pl](wiki/Tracker/pl.md) | [Translating an external workbench/pl](wiki/Translating an external workbench/pl.md) |
-| [Viewprovider/pl](wiki/Viewprovider/pl.md) | [Workbench creation/pl](wiki/Workbench creation/pl.md) | [Wrapping a Cplusplus class in Python/pl](wiki/Wrapping a Cplusplus class in Python/pl.md) |
-| [Category:Artwork/pl](wiki/Category_Artwork/pl.md) | [Category:Document object/pl](wiki/Category_Document object/pl.md) |
+| [Ubuntu Snap/pl](wiki/Ubuntu Snap/pl.md) | [Viewprovider/pl](wiki/Viewprovider/pl.md) | [Workbench creation/pl](wiki/Workbench creation/pl.md) |
+| [Wrapping a Cplusplus class in Python/pl](wiki/Wrapping a Cplusplus class in Python/pl.md) | [Category:Artwork/pl](wiki/Category_Artwork/pl.md) | [Category:Document object/pl](wiki/Category_Document object/pl.md) |
+|
 
 
 

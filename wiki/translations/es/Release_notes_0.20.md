@@ -1,8 +1,5 @@
 # Release notes 0.20/es
-**Esta página registra las nuevas características a medida que se añaden a la versión de desarrollo de FreeCAD, que actualmente es la 0.20. Cuando se produzca el congelamiento de las características de la 0.20, se borrarán estos mensajes y no se añadirán más características a esta página. Se espera que FreeCAD 0.20 sea lanzado en junio de 2022.**
-
-
-**¡¡¡ Todas las imágenes de esta página deben utilizar el sufijo **_relnotes_0.20** !!!**
+**Se espera que FreeCAD 0.20 sea lanzado en junio de 2022.**
 
 
 <div style="text-align   *center; background   *#e0e0ee; margin   *1em 7em; padding   *0.5em 2em; border   *2px solid #bb7736;">
@@ -22,27 +19,17 @@ Vea [Ayuda FreeCAD](Help_FreeCAD/es.md) para saber cómo contribuir a FreeCAD.
 
 **FreeCAD 0.20** fue liberado el **DD de junio del 2022**, consíguelo desde la página [Descarga](Download/es.md). Este es un resumen de las nuevas características y los cambios más interesantes.
 
-Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar en [Lista de características](Feature_list/es#Notas_de_lanzamiento.md).
+Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar en la [Lista de características](Feature_list/es#Notas_de_lanzamiento.md).
 
-## Destacados
+   
+  ![](images/FreeCAD_highlight_relnotes_0.20.gif )   *Modelo de un motor CD 775por el usuario \"jimmihenry\", ver [Users Showcase](https   *//forum.freecadweb.org/viewtopic.php?p=551765#p551765).El modelo fue hecho completamente con las [versiones de desarrollo](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) de FreeCAD 0.20. Las imágenes para el gráfico animado fueron hechas con la macro de FreeCAD [ Screen Wiki](Macro_Screen_Wiki.md). El GIF animado en sí fue creado usando [GIMP](https   *//en.wikipedia.org/wiki/GIMP). Para las notas de lanzamiento fue redimensionado usando [ezgif](https   *//ezgif.com/crop).*
+   
 
 ## General
 
-### Compilación
+### freecad.org
 
-Desde esta versión de FreeCAD solo puede ser compilado usando Qt 5 y Python 3.
-
-Para [compilar FreeCAD en Windows](Compile_on_Windows.md), hay diferentes Libpacks (bibliotecas pre-empaquetadas) disponibles   *
-
--   Libpack para Windows con Qt xx, OCC yy, y Python zz
-
-La versión de Python más vieja soportada es 3.6.9 según este [hilo del foro de FC](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701).
-
-Sistemas operativos soportados   *
-
--   Windows 7, 8 y 10
--   Linux Ubuntu Bionic Beaver (18.04) y Focal Fossa (20.04)
--   MacOS versión mínima 10.12 Sierra
+Estamos contentos de que el proyecto [KiCad](https   *//www.kicad.org/), a través de [KiCad Services Corp.](https   *//www.kipro-pcb.com/), nos patrocinó el dominio freecad.org. Ahora todos los sitios web de FreeCAD están disponibles en [freecadweb.org](https   *//freecadweb.org) y [freecad.org](https   *//freecad.org).
 
 ### Seguimiento de problemas/bugs 
 
@@ -50,36 +37,21 @@ El seguimiento de problemas de FreeCAD se ha movido a GitHub   * <https   *//git
 
 **Nota   *** Solo se considerarán los informes de errores con una discusión del foro anterior. Los informes sin esto serán cerrados.
 
-### freecad.org
+### Nuevo sistema de ayuda 
 
-Estamos contentos de que el proyecto [KiCad](https   *//www.kicad.org/), a través de [KiCad Services Corp.](https   *//www.kipro-pcb.com/), nos patrocinó el dominio freecad.org. Ahora todos los sitios web de FreeCAD están disponibles en [freecadweb.org](https   *//freecadweb.org) y [freecad.org](https   *//freecad.org).
-
-### Documentación
-
-### Limitaciones conocidas 
-
-#### Windows de 32bits 
-
-Desde Freecad 0.19 no soportamos oficialmente Windows de 32 bits. Puede funcionar pero no se brinda soporte para estos sistemas.
-
-#### Escritorio remoto en Windows 
-
-Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser que se encuentre un bloqueo cuando se ejecuta Freecad a través de un escritorio remoto. Para solucionar esto actualice su controlador OpenGL. Solo si esto no ayuda   *
-
--   Descargar [esta](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) biblioteca OpenGL para Windows de 64 bits y extraerla.
--   Cambie el nombre del archivo DLL a \'\' OpenGL32SW.DLL \'\' y cópielo a la subcarpeta \'\' bin \'\' de la carpeta de instalación de FreeCAD (sobrescriba el DLL existente allí).
+El sistema de ayuda ha sido reescrito y actualizado para mostrar información directamente de nuestra [Wiki](User_hub.md). El sistema ahora confía en el [Complemento de Ayuda](https   *//github.com/FreeCAD/FreeCAD-Help). Cuando usas por primera vez la herramienta de [Ayuda](Std_Help.md) o la herramienta de [¿Qué es esto?](Std_WhatsThis.md) se le pedirá instalarlo.
 
 ## Interfaz de usuario 
 
 +++
-| ![](images/Navi_Cube_relnotes_0.20.gif ) | El cubo de navegación fue reelaborado para habilitar estas nuevas características   *                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                | -   Ahora hay caras en las aristas para ver la escena en ángulos de 45°.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                | -   La opción nueva de preferencias [Girar al más cercano](Preferences_Editor#Navigation.md) permite ver la escena en el estado sensible más cercano. Cuando está apagado, hacer clic en una cara del cubo terminará siempre en la misma posición, sin importar en qué estado se encontraba el cubo al hacer clic en la cara. Vea la animación a la izquierda para comprender lo que esto significa. Pruebe la misma secuencia de clics que en la animación sin la opción \'\' Girar al más cercano \'\' para experimentar la diferencia. |
-|                                                                | -   Al hacer clic en el punto en la parte superior derecha del cubo, puede ver rápidamente la vista posterior de la escena actual.                                                                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                | -   El tamaño del cubo se puede ajustar en la opción de preferencias [Tamaño del cubo](Preferences_Editor#Navigation.md).                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                | [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=52118), [Pull request \#4502](https   *//github.com/FreeCAD/FreeCAD/pull/4502).                                                                                                                                                                                                                                                                                                                                                                                              |
+| ![](images/Navi_Cube_relnotes_0.20.gif ) | El cubo de navegación fue reelaborado   *                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                | -   Ahora hay caras en las aristas para rotar la escena 45°.                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                | -   Una preferencia nueva [Girar al más cercano](Preferences_Editor#Navigation.md) ha sido introducida. Si se selecciona, la escena 3D es rotada a la posición más cercana lógica basada en la orientación actual del cubo al dar clic en una cara del cubo. De lo contrario, hacer clic en una cara siempre dará como resultado la misma rotación. Pruebe la misma secuencia de clics que en la animación con y sin la opción \'\' Girar al más cercano \'\' para experimentar la diferencia. |
+|                                                                | -   Al hacer clic en el nuevo botón redondo en la parte superior derecha del cubo, puede cambiar rápidamente a la vista posterior de la escena actual.                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                | -   El tamaño del cubo ahora puede ser ajustado en la opción de preferencias [Tamaño del cubo](Preferences_Editor#Navigation.md).                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                | [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=52118), [Pull request \#4502](https   *//github.com/FreeCAD/FreeCAD/pull/4502).                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
    
@@ -98,12 +70,21 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 |                                                                                          | se agregaron sus dependencias a la selección a través del menú contextual.                                                                                       |
 +++
 
+
+<div class="mw-translate-fuzzy">
+
 +++
 | <img alt="" src=images/Part_SectionCut_example_relnotes_0.20.png  style="width   *200px;"> | La nueva herramienta **[Corte de sección](Part_SectionCut.md)** permite tener cortes no huecos y también persistentes de piezas y ensamblajes. |
 |                                                                                                         | [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=52441), [Pull request \#4118](https   *//github.com/FreeCAD/FreeCAD/pull/4118).  |
 +++
 
+
+</div>
+
 ### Otras mejoras de la interfaz de usuario 
+
+
+<div class="mw-translate-fuzzy">
 
 -   Ahora es posible utilizar el separador decimal perteneciente al idioma especificado para la interfaz de FreeCAD. Por ejemplo, en un Windows alemán, cuando establece el idioma de la interfaz en **Inglés** y selecciona la nueva opción **Usar formato de número de idioma seleccionado**, el punto se utilizará como separador decimal. Consulte [Preferencias](Preferences_Editor#General.md). [Pull request \#6364](https   *//github.com/FreeCAD/FreeCAD/pull/6364)**Nota**   * Para simulaciones [FEM](FEM_Workbench.md), usar el punto como separador decimal es muy recomendado para obtener resultados correctos.
 -   Se han agregado dos nuevos estilos de navegación con el mouse. Uno basado en **[OpenSCAD](Mouse_navigation#OpenSCAD_navigation.md)**, el otro en **[TinkerCAD](Mouse_navigation#TinkerCAD_navigation.md)**. [Discusión en el foro OpenSCAD](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=60975), [Discusión en el foro TinkerCAD](https   *//forum.freecadweb.org/viewtopic.php?p=544639#p544376), [commit 1](https   *//github.com/FreeCAD/FreeCAD/commit/a1c9ab658c), [commit 2](https   *//github.com/FreeCAD/FreeCAD/commit/ef100d55e9d50), [commit 3](https   *//github.com/FreeCAD/FreeCAD/commit/549e5b5650).
@@ -113,7 +94,15 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 -   Una nueva configuración en [Preferencias → General](Preferences_Editor#General.md) permite sustituir el separador decimal del teclado numérico con el separador local apropiado si son diferentes. [Pull request \#3256](https   *//github.com/FreeCAD/FreeCAD/pull/3256) [Pull request \#5150](https   *//github.com/FreeCAD/FreeCAD/pull/5150) [Pull request \#5203](https   *//github.com/FreeCAD/FreeCAD/pull/5203)
 -   Ahora es posible configurar la tecla **Retroceso** como un atajo de tecla independiente sin necesidad de especificar una tecla modificadora adicional. [Pull request \#5428](https   *//github.com/FreeCAD/FreeCAD/pull/5428)
 
+
+</div>
+
 ## Núcleo del sistema y API 
+
+### Core
+
+
+<div class="mw-translate-fuzzy">
 
 ### Núcleo
 
@@ -121,15 +110,36 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
   <img alt="" src=images/Object_selection_relnotes_0.20.png  style="width   *384px;">   Cuando se utiliza **Editar → Copiar** o **Editar → Duplicar selección** para un objeto con dependencias hay un botón nuevo **Usar selecciones originales** en el diálogo de selección de objetos. Haga clic en este botón para copiar/duplicar únicamente los objetos que seleccionó originalmente antes de abrir el cuadro de diálogo, ignorando las dependencias e ignorando cualquier acción que pudiera haber sido realizada mientras el cuadro de diálogo estaba abierto, como marcar o desmarcar algunas de las casillas de verificación. El efecto es el mismo a que si hubiera desmarcado todas las casillas de verificación junto a los objetos que no seleccionó originalmente y hubiera pulsado OK. Nota   * hay que tener especial cuidado al copiar/duplicar las páginas de TechDraw. Se recomienda copiar/duplicar también todos los hijos de la página (plantillas, vistas, dimensiones, etc.). De lo contrario, los cambios que se realicen en una de las páginas afectarán también a la otra, por ejemplo, si se elimina una de las vistas de una página también se eliminará de la otra. La eliminación de una de las páginas también eliminará todo el contenido de la otra página si no se hacen también copias del contenido.
    
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
    
   <img alt="" src=images/PrefPacks_relnotes_0.20.png  style="width   *384px;">   Se agregó un nuevo tipo de complemento llamado [Paquete de preferencias](Preference_Packs.md), que permite a un subconjunto de las preferencias (user.cfg) de un usuario ser guardadas, distribuidas y aplicadas fácilmente por otros usuarios. Los paquetes de preferencias se pueden usar para distribuir \"Temas\", por ejemplo, al permitir que un desarrollador incluya tanto una hoja de estilo Qt para widgets así como un conjunto de otros colores y estilos para elementos en la interfaz de usuario que no se pueden configurar usando una hoja de estilo ( por ejemplo, colores de texto en el editor de Python o en la vista de informe, etc.). Todo lo que se puede configurar a través de un archivo user.cfg se puede configurar mediante un paquete de preferencias. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=62477)
    
+
+
+</div>
 
    
   <img alt="" src=images/Autoload_relnotes_0.20.png  style="width   *384px;">   El panel de preferencias de los \"Entornos de trabajo\" fue modificado para permitir cargar automáticamente los entornos de trabajo mientras FreeCAD inicia.
    
 
+On Linux, the default location of FreeCAD\'s configuration, data and cache files was changed to follow the [XDG Base Directory Specification](https   *//specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Here is a comparison of the old and new locations   *
+
+  Description           Old location      New location                  Defaults to
+     
+  Configuration files   \$HOME/.FreeCAD   \$XDG\_CONFIG\_HOME/FreeCAD   \$HOME/.config/FreeCAD
+  Data files            \$HOME/.FreeCAD   \$XDG\_DATA\_HOME/FreeCAD     \$HOME/.local/share/FreeCAD
+  Cache files           /tmp              \$XDG\_CACHE\_HOME/FreeCAD    \$HOME/.cache/FreeCAD
+
+If you wish to keep using the old locations you may start FreeCAD with the `--keep-deprecated-paths` option.
+
 ### API
+
+FreeCAD recibió muchas nuevas funciones de la API de Python   *
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -138,6 +148,9 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 
 
 <div class="mw-collapsible-content">
+
+-   *ChFi2d\_AnaFilletAlgoPy*   * Un algoritmo analítico para el cálculo de filetes. [commit f94ab3ec](https   *//github.com/FreeCAD/FreeCAD/commit/f94ab3ec)
+-   *ChFi2d\_ChamferAPIPy*   * Algoritmp que crea un chaflán entre dos aristas lineales. [commit 30f8015e7](https   *//github.com/FreeCAD/FreeCAD/commit/30f8015e7)
 
 -   *Circle2dPy   *   *getCircleCenter*   * Obtiene el centro del círculo definido por tres puntos. [commit 3dc91fa2](https   *//github.com/FreeCAD/FreeCAD/commit/3dc91fa2)
 
@@ -203,7 +216,7 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 
 </div>
 
-#### API cambiada 
+#### API de Python cambiada 
 
 -   *MeshObject   *   *trim(base, normal)* fue cambiado a *MeshPy   *   *trimByPlane(base, normal)*   * Recorta la malla con un plano dado. [commit 837de28e](https   *//github.com/FreeCAD/FreeCAD/commit/837de28e)
 
@@ -227,20 +240,50 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 +++
 
 +++
-| <img alt="" src=images/NewArchStructureProperties_relnotes_0.20.jpg  style="width   *250px;"> | **Nuevas propiedadesel de los objetos de estructura de Arch**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <img alt="" src=images/NewArchStructureProperties_relnotes_0.20.jpg  style="width   *250px;"> | **Nuevas propiedades para los objetos de estructura de Arch**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                                               | **BasePerpendicularToTool**   * copia la Base (perfil de extrusión) al inicio de la herramienta (trayectoria de extrusión) y la coloca perpendicular a la primera arista de la herramienta. Es lo mismo que adjuntar la Base con MapMode=NormalToEdge, pero es automático y permite reutilizar el mismo objeto Base para múltiples Estructuras. Cuando BasePerpendicularToTool = True, hay más propiedades que controlan la colocación de la Base en relación con el eje de la Herramienta. Se muestran en la imagen adjunta.                                                                                      |
+|                                                                                                               | -   **BasePerpendicularToTool**   * crea una copia de la Base (perfil de extrusión) al inicio de la herramienta (trayectoria de extrusión) y la coloca perpendicular a la primera arista de la herramienta. Es lo mismo que adjuntar la Base con MapMode=NormalToEdge, pero es automático y permite reutilizar el mismo objeto Base para múltiples Estructuras. Cuando BasePerpendicularToTool = True, hay más propiedades que controlan la colocación de la Base en relación con el eje de la Herramienta. Se muestran en la imagen adjunta.                                                                      |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                               | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | **ToolOffsetFirst** y **ToolOffsetLast**   * extender/recortar la estructura al principio y al final respectivamente (la longitud real de la estructura está disponible en la propiedad ComputedLength de solo lectura)                                                                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                               | -   BaseRotation   * rota la Base (la rotación es alrededor del punto \"(0,0)\" de la Base que es el centro para [Perfil de Arch](Arch_Profile.md), el origen para los croquis y usualmente el primer punto para [Draft Wires](Draft_Wire.md))                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                               | -   BaseOffsetX and BaseOffsetY   * mueve la Base (perfil de extrusión)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                                               | -   BaseMirror   * refleja la Base (perfil de extrusión)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                               | </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                               | -   **BaseRotation**   * rotate the Base (the rotation is around the Base\'s \"(0,0)\" point which is the center for [Arch Profiles](Arch_Profile.md), the origin for Sketches and usually the first point for [Draft Wires](Draft_Wire.md)).                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                               | -   **BaseOffsetX** and **BaseOffsetY**   * move the Base (extrusion profile).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                               | -   **BaseMirror**   * mirror the Base (extrusion profile).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                               | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | También se ha añadido un nuevo comando **Crear estructura de arco múltiple**. Utiliza el primer objeto seleccionado como Base, y crea objetos de Estructuras de Arco para cada Arista de los otros objetos seleccionados. A continuación, las propiedades de los objetos de estructura individuales pueden ajustarse en el editor de propiedades. Este comando se ha añadido para el flujo de trabajo con un croquis maestro (existe el riesgo de que se produzcan problema de denominación topológica a menos que se cree una copia no paramétrica del croquis maestro o se utilice la versión de Realthunder) |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                               | </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                               | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | El soporte para **Datos 2D**, como el trabajo de línea, el achurado, los textos y las dimensiones, ahora está habilitado en la importación y exportación IFC, lo que contribuye a convertir al formato IFC cada vez más adecuado para el trabajo CAD 2D tradicional. Se está haciendo un esfuerzo similar en [BlenderBIM](https   *//blenderbim.org). Más mejoras en el flujo de trabajo 2D están documentadas [en este hilo del foro](https   *//forum.freecadweb.org/viewtopic.php?p=563067#p563067).                                                                                                               |
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                               | </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                                               | [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request \#3229](https   *//github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
@@ -272,6 +315,9 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 
 ## Ambiente de Trabajo FEM 
 
+
+<div class="mw-translate-fuzzy">
+
    
   <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width   *384px;">Las nuevas configuraciones de Z88 y sus valores por defecto.                                                                          El [solucionador Z88](FEM_SolverZ88.md) ahora es totalmente usable. Ahora puede especificar el método del solucionador y cambiar la configuración de la memoria. Los nuevos valores por defecto le permiten realizar también simulaciones complejas directamente. [commit d035bbc1ca y siguientes](https   *//github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
   <img alt="" src=images/FEM_buckling-analysis_relnotes_0.20.gif  style="width   *384px;">Resultado de un análisis de pandeo lineal.Clic en la imagen para ver la animación.                            Ahora es posible realizar análisis de pandeo utilizando el solucionador [Calculix](FEM_SolverCalculixCxxtools.md). [Pull request \#4379](https   *//github.com/FreeCAD/FreeCAD/pull/4379)
@@ -279,7 +325,13 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
   <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width   *384px;">Efecto del algoritmo de recombinación; izquierda   * usando *Simple*, derecha   * usando *Simple full-quad*   FreeCAD permite ahora seleccionar un algoritmo así como la recombinación de mallas 3D para el creador de mallas [Gmsh](FEM_MeshGmshFromShape.md). Para más detalles acerca de la recombinación de elementos de malla vea [FEM MeshGmshFromShape](FEM_MeshGmshFromShape#Element_Recombination.md). [Pull request \#4706](https   *//github.com/FreeCAD/FreeCAD/pull/4706)
    
 
+
+</div>
+
 ### Otras mejoras de FEM 
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Importante   *** A partir de esta versión, FreeCAD utilizará las unidades del SI (m, kg, s, K, A, mol, cd) para escribir los archivos de entrada [Solucionador Elmer](FEM_SolverElmer.md) (\'\' case.sif\'\' y *mesh.nodes*). Esto es independiente del [Sistema de unidades](Preferences_Editor#Units.md) de FreeCAD.
 -   **Importante   *** A partir de esta versión, la escala de [resultados de pipelines](FEM_PostPipelineFromResult.md) y sus [filtros](FEM_Workbench#Menu__Results.md) usarán las unidades del SI (m, kg, s, K , A, mol, cd). Entonces el desplazamiento se da en metros, la tensión en Pascal. Esto se aplica a todos los [sistemas de unidades](Preferences_Editor#Units.md) derivados del SI FreeCAD .
@@ -297,6 +349,9 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 -   Los materiales sólidos no lineales con endurecimiento simple ahora pueden tener un número arbitrario de puntos de fluencia. [Pull request \#5024](https   *//github.com/FreeCAD/FreeCAD/pull/5024)
 -   Permitir la adición/eliminación modal de entidades geométricas a las restricciones que actúan sobre los límites. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
 -   La mayoría de los cuadros de diálogo de restricciones FEM ahora se comportan de manera uniforme y brindan las mismas funciones de selección de objetos 3D. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
+
+
+</div>
 
 ## Exportar
 
@@ -318,6 +373,9 @@ Se ha mejorado la interoperabilidad con OpenSCAD, añadiendo soporte para varias
 
 Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o ambos, en entornos de espacio aislado como AppImages y paquetes Snap   * los datos ahora se pueden transferir hacia y desde OpenSCAD a través del mecanismo de directorio temporal estándar, a través de un directorio temporal especificado por el usuario al que ambos ejecutables tienen acceso, o nuevo en OpenSCAD 2021.1, a través de un mecanismo de \"stdout pipe\", omitiendo por completo los archivos temporales.
 
+
+<div class="mw-translate-fuzzy">
+
 **Añadir elemento OpenSCAD** - ahora tiene opcones adicionales
 
 Cargar    - carga un archivo scad
@@ -325,9 +383,10 @@ Guardar   - guarda un archivo scad
 Refrescar - actualiza la vista de FreeCAD
 Limpiar   - limpia el texto de entrada
 
-También hay un cuadro de texto para comentarios de errores de OpenSCAD.
 
-![](images/OpenSCAD_AddElement_relnotes_0.20.png )
+</div>
+
+Una nueva caja de texto da retroalimentación de los erroes de OpenSCAD. \|}
 
 ## Ambiente de Trabajo Part 
 
@@ -337,10 +396,19 @@ También hay un cuadro de texto para comentarios de errores de OpenSCAD.
 
 ### Otras mejoras de Part 
 
+
+<div class="mw-translate-fuzzy">
+
 -   El diálogo para editar [Cilindros](Part_Cylinder.md) ahora permite especificar un ángulo relativo a la normal de el plano seleccionado. De esta manera se pueden crear cilindros oblicuos. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)
 -   Los siguientes comandos ahora soportan App   *   *Links   * [Puente](Part_Loft.md), [Barrido](Part_Sweep.md), [Extruir](Part_Extrude.md), [Revolución](Part_Revolve.md), [Invertir formas](Part_ReverseShapes.md), [Espejo](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Comprobar geometría](Part_CheckGeometry.md), [Superficie reglada](Part_RuledSurface.md), [Cortes transversales](Part_CrossSections.md), y [Espesor](Part_Thickness.md). [Pull request \#6478](https   *//github.com/FreeCAD/FreeCAD/pull/6478)
 
+
+</div>
+
 ## Ambiente de Trabajo PartDesign 
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width   *384px;">Extruir a lo largo del un borde del modelo.Clic en la imagen para ver la animación.                                                                          | Hay una nueva opción para extruir a lo largo de la dirección de un borde en el modelo 3D. [Pull request \#4685](https   *//github.com/FreeCAD/FreeCAD/pull/4685)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -366,6 +434,9 @@ También hay un cuadro de texto para comentarios de errores de OpenSCAD.
 +++
 |                                                                                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
+
+
+</div>
 
 ### Otras mejoras de PartDesign 
 
@@ -409,6 +480,9 @@ También hay un cuadro de texto para comentarios de errores de OpenSCAD.
 
 ### Otras mejoras de Sketcher 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Soporte para Dividir refactorizado. [Pull request \#4330](https   *//github.com/FreeCAD/FreeCAD/pull/4330) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=54441) \<\-- Necesita capturas de pantalla
 -   El comportamiento de la herramienta <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *24px;"> [Ranura](Sketcher_CreateSlot.md) cambiado. Las ranuras ahora pueden ser creadas definiendo el centro de ambos semicírculos. [Pull request](https   *//github.com/FreeCAD/FreeCAD/pull/4843) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
 -   La automatización de la visibilidad permite abrir Sketcher en [ Modo de sección](Sketcher_ViewSection.md) al entrar en el modo de edición. [Pull request \#4742](https   *//github.com/FreeCAD/FreeCAD/pull/4742) [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=57056)
@@ -423,20 +497,33 @@ También hay un cuadro de texto para comentarios de errores de OpenSCAD.
 -   Se ha agregado un filtro de vista versátil en el panel de tareas de Sketcher para facilitar la gestión de la visibilidad de las restricciones. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=60569)
 -   Ahora es posible establecer el grado de una B-Spline ([Pull request \#6463](https   *//github.com/FreeCAD/FreeCAD/pull/6463)) y deshacer el último punto de control definido ([Pull request \#6476](https   *//github.com/FreeCAD/FreeCAD/pull/6476)) en el momento de la creación.
 
+
+</div>
+
 ## Ambiente de Trabajo Spreadsheet 
+
+
+<div class="mw-translate-fuzzy">
 
    
   <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   El entorno de trabajo ahora tiene ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferencias](Spreadsheet_Preferences.md). Son usadas por los comandos <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Importar](Spreadsheet_Import.md) y <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Exportar](Spreadsheet_Export.md). [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
    
 
--   Ahora es posible seleccionar en el menú contextual de filas/columnas en qué posiciones se insertarán las nuevas filas/columnas. [Pull request \#4704](https   *//github.com/FreeCAD/FreeCAD/pull/4704).
+
+</div>
 
 ### Otras mejoras de Spreadsheet 
+
+
+<div class="mw-translate-fuzzy">
 
 -   Importar XLSX (usado por [Std Import](Std_Import.md))   * Soporte agregado para funciones de piso y techo. [Pull request \#5015](https   *//github.com/FreeCAD/FreeCAD/pull/5015).
 -   Vinculación de celdas   * indica a un conjunto de celdas que muestre el contenido de otro conjunto de celdas. Parte de [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
 -   Navegación mejorada usando las teclas **Tab** y **Enter**.
 -   Interfaz mejorada para cortar y pegar bloques de celdas.
+
+
+</div>
 
 ## Ambiente de Trabajo TechDraw 
 
@@ -464,8 +551,6 @@ Qt WebEngine es ahora considerado la opción por defecto en lugar de Qt WebKit.
 **Nota   ***
 
 estos son los nuevos entornos de trabajo creados en este ciclo de desarrollo o los entornos de trabajo antiguos que recibieron actualizaciones. Consulte [entornos de trabajo externos](External_workbenches.md) para más entornos de trabajo que se pueden instalar y que cubren una amplia variedad de temas. Si desea que se agregue su entorno de trabajo, únase al \[foro de <https   *//forum.freecadweb.org/index.php>\] y presente su código.
-
-### Herramientas de impresión 3D 
 
 ### A2plus
 
@@ -501,30 +586,20 @@ Para más información véa [la descripción de manejo de restricciones](A2plus_
   <img alt="" src=images/A4_veriant-animation_relnotes_0.20.gif  style="width   *384px;">Un ensamble animado.Clic en la imagen para ver la animación.   Las animaciones pueden ser exportadas a los formatos MP4 o GIF.
    
 
-### ArchTextures
-
-### BOLTSFC
-
-### Entorno de Trabajo CurvedShapes 
-
-### Dodo (antes Flamingo) 
-
-### Fasteners
-
 ### FCGear
 
-El [entorno de trabajo FCGear](FCGear_Workbench.md) recibió un par de mejoras
+El [entorno de trabajo FCGear](FCGear_Workbench.md) recibió un par de mejoras   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   Para engranajes involutivos, el exterior (también conocido como punta) y el diámetro de la raíz se exponen como propiedades. ([details](https   *//github.com/looooo/freecad.gears/pull/69))
 -   Los objetos Gear ahora se pueden [unir](Part_EditAttachment.md) ([details](https   *//github.com/looooo/freecad.gears/pull/72))
 -   Los objetos Gear ahora se pueden usar como características aditivas en los cuerpos de PartDesign ([detalles](https   *//github.com/looooo/freecad.gears/pull/74))
 -   La creación de objetos Gear ahora aparece en la pila de deshacer ([details](https   *//github.com/looooo/freecad.gears/pull/83))
 
-### Entorno de Trabajo MeshRemodel 
 
-### Entorno de Trabajo MOOC 
-
-### NodeEditor (PyFlow) 
+</div>
 
 ### Plot
 
@@ -537,7 +612,30 @@ El [entorno de trabajo FCGear](FCGear_Workbench.md) recibió un par de mejoras
 -   Una nueva herramienta para calcular el [hudimiento estático y recorte](https   *//github.com/FreeCAD/freecad.ship#static-sink-and-trim) ha sido añadida.
 -   Una nueva herramienta para calcular los [operadores de amplitud de respuesta](https   *//github.com/FreeCAD/freecad.ship#raos) ha sido añadida encima de [capytaine](https   *//github.com/mancellin/capytaine).
 
-### Trails, PyTrails, Turns, pivy\_trackers, and Geomatics 
+### Compilación
+
+Desde esta versión de FreeCAD solo puede ser compilado usando Qt 5.x y Python 3.x. La versión más baja soportada es Python 3.6.9 de acuerdo a [este hilo del foro](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701).
+
+Para compilar FreeCAD vea las instrucciones para [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) y [MacOS](Compile_on_MacOS.md).
+
+Los sistemas operativos soportados   *
+
+-   Windows 7, 8, 10 y 11
+-   Linux Ubuntu Bionic Beaver (18.04) y Focal Fossa (20.04)
+-   MacOS   * 10.12 Sierra o más nuevo
+
+### Limitaciones conocidas 
+
+#### Windows de 32bits 
+
+Desde FreeCAD 0.19 no soportamos oficialmente Windows de 32 bits. FreeCAD podría funcionar en estos sistemas pero no se brinda soporte.
+
+#### Escritorio remoto en Windows 
+
+Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser que se encuentre un bloqueo cuando se ejecuta Freecad a través de un escritorio remoto. Para solucionar esto actualice su controlador OpenGL. Solo si esto no ayuda   *
+
+-   Descargar [esta](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) biblioteca OpenGL para Windows de 64 bits y extraerla.
+-   Cambie el nombre del archivo DLL a \'\' OpenGL32SW.DLL \'\' y cópielo a la subcarpeta \'\' bin \'\' de la carpeta de instalación de FreeCAD (sobrescriba el DLL existente allí).
 
 [Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 

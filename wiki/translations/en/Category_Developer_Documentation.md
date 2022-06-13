@@ -46,9 +46,9 @@ This category gathers documentation article mostly aimed at programmers
 | [Source documentation/en](wiki/Source documentation/en.md) | [Sphinx/en](wiki/Sphinx/en.md) | [Start up and Configuration/en](wiki/Start up and Configuration/en.md) |
 | [Testing/en](wiki/Testing/en.md) | [The FreeCAD source code/en](wiki/The FreeCAD source code/en.md) | [Third Party Libraries/en](wiki/Third Party Libraries/en.md) |
 | [Third Party Tools/en](wiki/Third Party Tools/en.md) | [Topological data scripting/en](wiki/Topological data scripting/en.md) | [Tracker/en](wiki/Tracker/en.md) |
-| [Translating an external workbench/en](wiki/Translating an external workbench/en.md) | [Viewprovider/en](wiki/Viewprovider/en.md) | [Workbench creation/en](wiki/Workbench creation/en.md) |
-| [Wrapping a Cplusplus class in Python/en](wiki/Wrapping a Cplusplus class in Python/en.md) | [Category:Artwork/en](wiki/Category_Artwork/en.md) | [Category:Developer/en](wiki/Category_Developer/en.md) |
-| [Category:Packaging/en](wiki/Category_Packaging/en.md) |
+| [Translating an external workbench/en](wiki/Translating an external workbench/en.md) | [Ubuntu Snap/en](wiki/Ubuntu Snap/en.md) | [Viewprovider/en](wiki/Viewprovider/en.md) |
+| [Workbench creation/en](wiki/Workbench creation/en.md) | [Wrapping a Cplusplus class in Python/en](wiki/Wrapping a Cplusplus class in Python/en.md) | [Category:Artwork/en](wiki/Category_Artwork/en.md) |
+| [Category:Developer/en](wiki/Category_Developer/en.md) | [Category:Packaging/en](wiki/Category_Packaging/en.md) |
 
 
 

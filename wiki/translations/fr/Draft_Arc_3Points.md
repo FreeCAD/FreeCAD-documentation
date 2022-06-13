@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Arc 3Points
    Name/fr   *Draft Arc par 3 points
-   MenuLocation   *Esquisse → Outils Arc → Arc par 3 points
+   MenuLocation   *Draft → Outils Arc → Arc par 3 points
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***A** **T**
    Version   *0.19
@@ -26,7 +26,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons d\'invoquer la commande    *
     -   Appuyez sur le **<img src="images/Draft_Arc_3Points.svg" width=16px> [Arc par 3 points](Draft_Arc_3Points/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → Outils arc → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc par 3 points** dans le menu.
+    -   Sélectionnez l\'option **Draft → Outils arc → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc par 3 points** dans le menu.
     -   Utilisez le raccourci clavier    * **A** puis **T**. {{Version/fr|0.20}}
 2.  Le panneau de tâches **Arc par 3 points** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.

@@ -44,10 +44,10 @@ This category contains all Unfinished Documents
 | [FEM EquationFlow/pl](wiki/FEM EquationFlow/pl.md) | [FEM EquationFlux/pl](wiki/FEM EquationFlux/pl.md) | [FEM EquationHeat/pl](wiki/FEM EquationHeat/pl.md) |
 | [FEM MaterialMechanicalNonlinear/pl](wiki/FEM MaterialMechanicalNonlinear/pl.md) | [FEM MaterialReinforced/pl](wiki/FEM MaterialReinforced/pl.md) | [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) |
 | [FEM MeshGroup/pl](wiki/FEM MeshGroup/pl.md) | [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) | [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) |
-| [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) | [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) | [FEM ResultsPurge/pl](wiki/FEM ResultsPurge/pl.md) |
-| [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) | [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) |
-| [FEM SolverRun/pl](wiki/FEM SolverRun/pl.md) | [FreeCAD Docker CLI mode/pl](wiki/FreeCAD Docker CLI mode/pl.md) | [InputField/pl](wiki/InputField/pl.md) |
-| [Lattice2 AttachablePlacement/pl](wiki/Lattice2 AttachablePlacement/pl.md) | [Lattice2 Workbench/pl](wiki/Lattice2 Workbench/pl.md) | [Manual:BIM modeling/pl](wiki/Manual_BIM modeling/pl.md) |
+| [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) | [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) | [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) |
+| [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) | [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) | [FEM SolverRun/pl](wiki/FEM SolverRun/pl.md) |
+| [FreeCAD Docker CLI mode/pl](wiki/FreeCAD Docker CLI mode/pl.md) | [InputField/pl](wiki/InputField/pl.md) | [Lattice2 AttachablePlacement/pl](wiki/Lattice2 AttachablePlacement/pl.md) |
+| [Lattice2 Workbench/pl](wiki/Lattice2 Workbench/pl.md) | [Manual:BIM modeling/pl](wiki/Manual_BIM modeling/pl.md) | [Migrating to FreeCAD from SolidWorks/pl](wiki/Migrating to FreeCAD from SolidWorks/pl.md) |
 | [ModernUI Workbench/pl](wiki/ModernUI Workbench/pl.md) | [OpenSCAD ColorCodeShape/pl](wiki/OpenSCAD ColorCodeShape/pl.md) | [Part BoxSelection/pl](wiki/Part BoxSelection/pl.md) |
 | [Part CompSplittingTools/pl](wiki/Part CompSplittingTools/pl.md) | [Part ElementCopy/pl](wiki/Part ElementCopy/pl.md) | [Part Loft/pl](wiki/Part Loft/pl.md) |
 | [Part Mirror/pl](wiki/Part Mirror/pl.md) | [Part Offset/pl](wiki/Part Offset/pl.md) | [Part PointsFromMesh/pl](wiki/Part PointsFromMesh/pl.md) |

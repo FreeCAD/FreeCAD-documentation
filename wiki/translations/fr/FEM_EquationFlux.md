@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *FEM EquationFlux
    Name/fr   *FEM Équation d'écoulement
-   MenuLocation   *Solve → Flux equation
+   MenuLocation   *Solveur → Équation d'écoulement
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---

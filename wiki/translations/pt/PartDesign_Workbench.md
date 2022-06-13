@@ -148,19 +148,20 @@ These are tools for subtracting material from an existing body.
 
 #### Transformation tools 
 
-These are tools for transforming existing features. They will allow you to choose which features to transform.
+These are tools for transforming existing features.
 
--   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Mirrored](PartDesign_Mirrored.md)   * mirrors one or more features on a plane or face.
+-   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Mirrored](PartDesign_Mirrored.md)   * mirrors one or more features.
 
--   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Linear Pattern](PartDesign_LinearPattern.md)   * creates a linear pattern based on one or more features.
+-   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Linear Pattern](PartDesign_LinearPattern.md)   * creates a linear pattern of one or more features.
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Polar Pattern](PartDesign_PolarPattern.md)   * creates a polar pattern of one or more features.
 
--   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Create MultiTransform](PartDesign_MultiTransform.md)   * creates a pattern with any combination of the other transformations.
+-   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Create MultiTransform](PartDesign_MultiTransform.md)   * creates a pattern by combining any of the transformations mentioned above, as well as the [Scaled](PartDesign_Scaled.md) transformation.
+    -   <img alt="" src=images/PartDesign_Scaled.svg  style="width   *32px;"> [Scaled](PartDesign_Scaled.md)   * scales one or more features. This is not available as a separate transformation tool.
 
 #### Dress-up tools 
 
-These tools apply a treatment to the selected edges or faces.
+These tools apply a treatment to edges or faces.
 
 -   <img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Fillet](PartDesign_Fillet.md)   * fillets (rounds) edges of the active body.
 
@@ -168,7 +169,7 @@ These tools apply a treatment to the selected edges or faces.
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Draft](PartDesign_Draft.md)   * applies an angular draft to selected faces of the active body.
 
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Thickness](PartDesign_Thickness.md)   * creates a thick shell from the active body and opens selected face(s).
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Thickness](PartDesign_Thickness.md)   * creates a thick shell from the active body and opens selected face.
 
 #### Boolean
 

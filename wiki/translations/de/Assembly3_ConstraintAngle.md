@@ -20,9 +20,24 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen.
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Zwei oder mehr Objekte in einen Zusammenbau einfügen.
 2.  Je ein ebenes Flächenelement oder eine gerade Kante pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintAngle.svg" width=16px> [WinkelFestlegen](Assembly3_ConstraintAngle/de.md)** drücken.
+
+
+</div>
+
+## Notes
+
+2D   * This constraint seems to be the only way to control an angle in a skeleton sketch (2D kinematic assembly); Prove me wrong, PLEASE!
+
+-   Its **Angle|Angle** property allows any positive value, but 0° and 180° exactly are puzzling the solver.
+-   It flips direction if angles greater than 180° are used and as a result 135° and 225° give the same positions for the involved elements.
+
+   *   It is useless if you want to simulate a full rotation and so ruins the principle of using a skeleton sketch for a lot of kinematic tasks such as driving a piston by a rotating crank coupled with a con-rod.
 
 
 

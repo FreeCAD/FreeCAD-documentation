@@ -22,6 +22,8 @@ Acest instrument oferă informații despre o comandă selectată prin deschidere
 
 </div>
 
+In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
+
 
 <div class="mw-translate-fuzzy">
 
@@ -41,13 +43,7 @@ Acest instrument oferă informații despre o comandă selectată prin deschidere
 
 ## Notes
 
--   Some commands are not documented, in that case the offline help will open on a blank page and report that the page could not be found.
--   The documentation is based on Qt compiled HTML pages. For it to launch Qt Assistant must be installed.
--   On Debian/Ubuntu and possibly other Linux systems, the offline documentation may need to be installed separately. The package is named **freecad-doc**, or **freecad-daily-doc** (for the freecad-daily PPA). See [Installing Helpfile](Installing_Helpfile.md).
-
-Read this post to understand how the commands must be named in the code to match the help pages in the wiki.
-
--   [Bunch of TechDraw pages don\'t have the correct name](https   *//forum.freecadweb.org/viewtopic.php?t=27265)
+-   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
 
 
 

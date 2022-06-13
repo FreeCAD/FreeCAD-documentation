@@ -4,7 +4,7 @@
    Name/fr   *Mesh Importer un maillage
    MenuLocation   *Maillages → Importer un maillage...
    Workbenches   *[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso   *[Std Importer](Std_Import/fr.md), [Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export.md)
+   SeeAlso   *[Std Importer](Std_Import/fr.md), [Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export/fr.md)
 ---
 
 # Mesh Import/fr
@@ -16,7 +16,7 @@ La commande **Importer un maillage** importe la géométrie d\'un format de fich
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/Mesh_Import.svg" width=16px> [Mesh Importe un maillage depuis un fichier](Mesh_Import/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Mesh_Import.svg" width=16px> [Importer un maillage...](Mesh_Import/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Import.svg" width=16px> Importer un maillage...** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Mesh_Import.svg" width=16px> Importer un maillage...** dans le menu contextuel de la [vue en arborescence](tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md). Cette option n\'est disponible que si un objet maillé existant a été sélectionné. Notez que l\'objet sélectionné n\'est en fait pas utilisé ou modifié par la commande.
 2.  Sélectionnez éventuellement le format de fichier correct dans la boîte de dialogue.

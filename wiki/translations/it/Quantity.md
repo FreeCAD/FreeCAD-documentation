@@ -201,17 +201,11 @@ Units.Quantity('2  m').getUserPreferred() # Tuple   * ('2000 mm', 1.0, 'mm')
 
 Qui si ottengono due informazioni in più sotto forma di una tupla di 3 elementi. Si ottiene, come prima, la stringa, inoltre il fattore numero viene tradotto e la stringa cruda con solo l\'unità scelta dal sistema di conversione. Con queste informazioni è possibile implementare una interazione con l\'utente molto più ricca.
 
-
-<div class="mw-translate-fuzzy">
-
 Il codice di definizione del sistema di conversione è visibile in   *
 
 -   [Internal](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
 -   [MKS](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
--   [Imperial](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial.cpp)
-
-
-</div>
+-   [Imperial](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
 
 ### Precisione
 

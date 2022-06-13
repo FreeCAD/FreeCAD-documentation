@@ -220,7 +220,96 @@ Aby zachować ustawienia strony niezbędne do drukowania, arkusze kalkulacyjne F
 
 ## Obecne ograniczenia 
 
-FreeCAD sprawdza, czy istnieją zależności cykliczne. Z założenia sprawdzanie to zatrzymuje się na poziomie obiektu arkusza kalkulacyjnego. W konsekwencji nie powinieneś mieć arkusza kalkulacyjnego zawierającego zarówno komórki, których wartości są używane do określania parametrów modelu, jak i komórki, których wartości wykorzystują dane wyjściowe z modelu. Na przykład nie można mieć komórek określających długość, szerokość i wysokość obiektu, a inna komórka odwołuje się do całkowitej objętości wynikowego kształtu. Ograniczenie to można obejść, mając dwa arkusze kalkulacyjne   * jeden używany jako źródło danych dla parametrów wejściowych do modelu, a drugi używany do obliczeń opartych na danych wynikowych geometrii.
+FreeCAD sprawdza zależności cykliczne podczas ponownych obliczeń. Z założenia sprawdzanie to zatrzymuje się na poziomie obiektu arkusza kalkulacyjnego. W konsekwencji nie powinieneś mieć arkusza kalkulacyjnego zawierającego zarówno komórki, których wartości są używane do określania parametrów modelu, jak i komórki, których wartości wykorzystują dane wyjściowe z modelu. Na przykład nie można mieć komórek określających długość, szerokość i wysokość obiektu, a także innej komórki, która odwołuje się do całkowitej objętości wynikowego kształtu. Ograniczenie to można obejść, mając dwa arkusze kalkulacyjne   * jeden używany jako źródło danych dla parametrów wejściowych do modelu, a drugi używany do obliczeń opartych na danych wynikowych geometrii.
+
+## Łączenie komórek 
+
+
+{{Version/pl|0.20}}
+
+Istnieje możliwość łączenia zawartości komórek z innymi komórkami arkusza kalkulacyjnego. Może to być przydatne podczas pracy z dużymi tabelami lub w celu pobrania zawartości komórki z innego arkusza kalkulacyjnego.
+
+### Tworzenie powiązań 
+
+Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2   *
+
+1.  Zaznacz zakres komórek A3-C4.
+2.  Kliknij prawym przyciskiem myszy i wybierz **Powiąż ...** z menu podręcznego.
+3.  Zostanie otwarte okno dialogowe **Powiąż komórki arkusza kalkulacyjnego**.
+4.  Ustaw zakres B1-D2 w polu **Do komórek**   *
+    ![](images/Spreadsheet_binding-dialog.png )
+5.  Naciśnij przycisk **OK**.
+6.  Związane komórki mają niebieską obwódkę, aby wyróżnić to powiązanie.
+7.  Jeśli teraz wpiszesz coś w komórce C1, to to samo pojawi się natychmiast w komórce B3.
+
+![](images/Spreadsheet_binding-result.png ) 
+*Arkusz kalkulacyjny może teraz wyglądać następująco*
+
+### Modyfikacja powiązań 
+
+1.  Kliknij prawym przyciskiem myszy powiązaną komórkę (nie trzeba zaznaczać całego powiązanego zakresu) i wybierz z menu kontekstowego polecenie **Powiąż ...**.
+2.  Otworzy się okno dialogowe **Powiąż komórki arkusza kalkulacyjnego**.
+3.  Zmień jedną lub więcej opcji. Zwróć uwagę, że nie można zmienić zakresu komórek **Powiąż komórki**, czyli powiązanego zakresu komórek.
+4.  Naciśnij przycisk **OK**.
+
+### Usuwanie powiązań 
+
+1.  Kliknij prawym przyciskiem myszy wiązaną komórkę (nie trzeba zaznaczać całego wiązanego zakresu) i wybierz z menu kontekstowego polecenie **Powiąż ...**.
+2.  Otworzy się okno dialogowe **Powiąż komórki arkusza kalkulacyjnego**.
+3.  Naciśnij przycisk **Usuń powiązanie**.
+
+### Uwagi
+
+-   Opcji **Ukryj zależność powiązania** można użyć, aby uniknąć problemów z cyklicznymi zależnościami między arkuszami kalkulacyjnymi. Zaznaczenie jej jest konieczne, gdy na przykład komórki w *Arkuszu kalkulacyjnym A* są powiązane z komórkami w *Arkuszu kalkulacyjnym B*, a komórki w *Arkuszu kalkulacyjnym B* są powiązane z innymi komórkami w *Arkuszu kalkulacyjnym A*. Opcji tej należy używać z rozwagą   *
+    -   Ukrywanie zależności może być niebezpieczne, ponieważ uszkodzone zależności mogą spowodować uszkodzenie pliku FreeCAD. Na przykład, gdy usuniesz arkusz kalkulacyjny, nie zostaniesz ostrzeżony o ukrytych zależnościach.
+    -   Gdy otworzysz dokument z arkuszem kalkulacyjnym zawierającym ukrytą zależność, arkusz zostanie oznaczony do ponownego przeliczenia. Dzieje się tak dlatego, że zależności cyklicznej nie można obliczyć ponownie w sposób automatyczny. Aby ponownie obliczyć, należy użyć narzędzia [Odśwież](Std_Refresh/pl.md).
+-   Wiązanie komórek ma funkcję sprawdzania zakresu i ostrzega o niedopasowanych zakresach. Na przykład powiązanie komórek 1x3 z komórkami 3x2 nie działa, ponieważ nie wiadomo, które 3 komórki z pierwotnych 6 komórek powinny zostać użyte.
+-   Nie można zmienić zakresu komórek w istniejącym powiązaniu. Należy najpierw usunąć powiązanie z komórek, a następnie utworzyć nowe.
+-   Nie można jeszcze zmienić koloru ramki wskazującej powiązanie.
+
+## Tabela konfiguracji 
+
+
+{{Version/pl|0.20}}
+
+Za pomocą Arkuszy kalkulacyjnych można tworzyć tabele konfiguracyjne zawierające zestawy wstępnie zdefiniowanych parametrów modelu, a następnie dynamicznie zmieniać konfigurację, która ma być używana. Aby dowiedzieć się więcej na temat działania tej funkcji, zobacz [ten post na forum](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183).
+
+
+<div class="mw-collapsible mw-collapsed toccolours">
+
+Rozwiń tę sekcję, aby zapoznać się z krótkim przewodnikiem po tworzeniu tabeli konfiguracyjnej.
+
+
+<div class="mw-collapsible-content">
+
+1.  W nowym dokumencie najpierw utwórz [Część](Std_Part.md) środowiska pracy Część, następnie utwórz [sześcian](Part_Box/pl.md), [walec](Part_Cylinder/pl.md) i arkusz kalkulacyjny.
+2.  Sześcian i walec są automatycznie umieszczane w kontenerze [Część](Std_Part/pl.md). Umieść w nim także arkusz kalkulacyjny.
+3.  W arkuszu kalkulacyjnym wprowadź zawartość w sposób przedstawiony poniżej. Ustaw aliasy dla komórek B2 jako {{Value|szerokość}}, C2 jako {{Value|długość}} i D2 jako {{Value|promień}}   *
+    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
+4.  Powiąż [wyrażeniem](Expressions.md) komórki {{Value|Spreadsheet.szerokość}} i {{Value|Spreadsheet.długość}} do właściwości sześcianu **Szerokość** i **Długość**, odpowiednio   *
+    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
+5.  Powiąż wyrażenie {{Value|Spreadsheet.promień}} z właściwością **Promień** walca. Zmień także wartość **Wysokość** walca na {{Value|5 mm}}, tak aby był on niższy niż sześcian.
+6.  Kliknij prawym przyciskiem myszy komórkę A2 w arkuszu kalkulacyjnym i wybierz z menu kontekstowego polecenie **Tabela konfiguracji ...**.
+7.  Zostanie otwarte okno dialogowe **Ustawienia tabeli konfiguracji**.
+8.  Wprowadź następujące dane   *
+    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
+9.  Naciśnij przycisk **OK**.
+10. Do kontenera [Część](Std_Part.md) jest dodawana nowa właściwość o nazwie **Konfiguracja**, która umożliwia wybór konfiguracji, jak pokazano poniżej   *
+    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
+
+Za pomocą [Łącza](Std_LinkMake/pl.md) lub funkcji [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md) można utworzyć instancję [zmienną](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) obiektu konfigurowalnego, wykonując następujące czynności   *
+
+1.  Utwórz [Łącze](Std_LinkMake/pl.md) do kontenera [Część](Std_Part/pl.md) i ustaw jego właściwość **Kopiuj łącze przy zmianie** na wartość {{Value|Włączone}}.
+2.  Przenieś łącze w nowe miejsce, zmieniając jego **Umiejscowienie** tak, aby łatwiej było je odróżnić od oryginalnego obiektu.
+3.  Wybierz inną **Konfigurację** dla łącza, aby utworzyć jego wersję wariantową.
+
+Podobne kroki dotyczą funkcji [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md), z tą różnicą, że jego właściwość do aktywowania instancji wariantu nazywa się **Kopiuj łącze przy zmianie**.
+
+
+</div>
+
+
+</div>
 
 ## Podstawy pisania skryptów 
 

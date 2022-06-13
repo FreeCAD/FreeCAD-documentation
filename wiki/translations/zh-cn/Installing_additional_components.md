@@ -29,7 +29,7 @@ FreeCAD 是一个真正的跨平台应用程序，基于世界知名的 [Qt](htt
 
 # Help files 
 
-The offline documentation is not shipped with all installers, but it is available as a separate package. See the [Installing Helpfile](Installing_Helpfile.md) page for more information.
+See [Installing Helpfile](Installing_Helpfile.md).
 
 # External workbenches 
 

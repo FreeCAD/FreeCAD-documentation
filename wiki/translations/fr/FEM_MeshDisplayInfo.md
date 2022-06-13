@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM MeshDisplayInfo
-   Name/fr   *FEM Affichage des informations du maillage MEF
-   MenuLocation   *Menu contextuel sur l'objet maillé → Afficher les informations sur le maillage MEF
+   Name/fr   *FEM Affichage des informations du maillage FEM
+   MenuLocation   *Menu contextuel sur l'objet maillé → Afficher les informations sur le maillage FEM
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---

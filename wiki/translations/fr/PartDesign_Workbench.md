@@ -25,9 +25,9 @@ Les outils Part Design sont situés dans le menu **Part Design** qui apparaît l
 
 Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennent au système [Std Base](Std_Base/fr.md). Ils ont été développés en v0.17 avec l\'intention qu\'ils seraient utiles pour organiser un modèle et créer des assemblages ; en tant que tels, ils sont très utiles lorsque vous travaillez avec des corps créés avec cet atelier.
 
--   <img alt="" src=images/Std_Part.svg  style="width   *32px;"> [Pièce](Std_Part/fr.md)   * ajoute un conteneur Pièce dans le document actif et le rend actif.
+-   <img alt="" src=images/Std_Part.svg  style="width   *32px;"> [Pièce](Std_Part/fr.md)    * ajoute un conteneur Pièce dans le document actif et le rend actif.
 
--   <img alt="" src=images/Std_Group.svg  style="width   *32px;"> [Groupe](Std_Group/fr.md)   * ajoute un Groupe dans l\'arborescence du document actif, qui permet d\'organiser les objets dans la [vue arborescence](Tree_view/fr.md).
+-   <img alt="" src=images/Std_Group.svg  style="width   *32px;"> [Groupe](Std_Group/fr.md)    * ajoute un Groupe dans l\'arborescence du document actif, qui permet d\'organiser les objets dans la [vue arborescence](Tree_view/fr.md).
 
 ### Outils d\'assistance Part Design 
 
@@ -69,7 +69,7 @@ Ces outils permettent de créer des fonctions de base ou d\'ajouter de la matiè
 
 -   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width   *32px;"> [Balayage additif](PartDesign_AdditivePipe/fr.md)    * crée un solide en balayant une ou plusieurs esquisse(s) le long d\'un chemin ouvert ou fermé.
 
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width   *32px;"> [Hélice additive](PartDesign_AdditiveHelix/fr.md)   * crée un solide en balayant une esquisse le long d\'une hélice. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width   *32px;"> [Hélice additive](PartDesign_AdditiveHelix/fr.md)    * crée un solide en balayant une esquisse le long d\'une hélice. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width   *48px;"> [Créer une primitive additive](PartDesign_CompPrimitiveAdditive/fr.md)    * ajoute une primitive additive dans le corps actif.
 
@@ -97,13 +97,13 @@ Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
 -   <img alt="" src=images/PartDesign_Hole.svg  style="width   *32px;"> [Perçage](PartDesign_Hole/fr.md)    * crée une fonction perçage à partir de l\'esquisse sélectionnée. L\'esquisse doit contenir un ou plusieurs cercles.
 
--   <img alt="" src=images/PartDesign_Groove.svg  style="width   *32px;"> [Rainure](PartDesign_Groove/fr.md)   * crée une rainure par révolution d\'une esquisse sur un axe.
+-   <img alt="" src=images/PartDesign_Groove.svg  style="width   *32px;"> [Rainure](PartDesign_Groove/fr.md)    * crée une rainure par révolution d\'une esquisse sur un axe.
 
 -   <img alt="" src=images/PartDesign_SubtractiveLoft.svg  style="width   *32px;"> [Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)    * crée un solide en réalisant une transition entre au moins deux esquisses puis la soustrait du corps actif.
 
 -   <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width   *32px;"> [Balayage soustractif](PartDesign_SubtractivePipe/fr.md)    * crée un solide en balayant une ou plusieurs esquisse(s) le long d\'un chemin ouvert ou fermé puis le soustrait du corps actif.
 
--   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width   *32px;"> [Hélice soustractive](PartDesign_SubtractiveHelix/fr.md)   * crée une forme solide en balayant une esquisse le long d\'une hélice et en la soustrayant du corps actif. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width   *32px;"> [Hélice soustractive](PartDesign_SubtractiveHelix/fr.md)    * crée une forme solide en balayant une esquisse le long d\'une hélice et en la soustrayant du corps actif. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width   *48px;"> [Créer une primitive soustractive](PartDesign_CompPrimitiveSubtractive/fr.md)    * soustrait une primitive du corps actif.
 
@@ -125,19 +125,20 @@ Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
 #### Outils de transformation 
 
-Ces outils permettent d\'appliquer une transformation au moyen de fonctions existantes. Elles vous permettront de choisir quelles fonctions utiliser.
+Il s\'agit d\'outils permettant de transformer des fonctions existantes.
 
--   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Symétrie](PartDesign_Mirrored/fr.md)    * crée une fonction de symétrie par rapport à un plan ou une face.
+-   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Symétrie](PartDesign_Mirrored/fr.md)    * symmétrise une ou plusieurs fonctions.
 
--   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Répétition linéaire](PartDesign_LinearPattern/fr.md)    * crée une fonction de répétition linéaire basée sur une ou plusieurs fonctions.
+-   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Répétition linéaire](PartDesign_LinearPattern/fr.md)    * crée une fonction de répétition linéaire d\'une ou plusieurs fonctions.
 
--   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Répétition circulaire](PartDesign_PolarPattern/fr.md)    * Crée une fonction de répétition circulaire à partir d\'une ou plusieurs fonctions.
+-   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Répétition circulaire](PartDesign_PolarPattern/fr.md)    * crée une fonction de répétition circulaire à partir d\'une ou plusieurs fonctions.
 
--   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Transformation multiple](PartDesign_MultiTransform/fr.md)    * crée une combinaison de n\'importe quelle des autres transformations.
+-   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Transformation multiple](PartDesign_MultiTransform/fr.md)    * crée une combinaison de n\'importe quelle des autres transformations ci-dessus, ainsi que la transformation [Mise à l\'échelle](PartDesign_Scaled/fr.md).
+    -   <img alt="" src=images/PartDesign_Scaled.svg  style="width   *32px;"> [Mise à l\'échelle](PartDesign_Scaled/fr.md)    * met à l\'échelle un ou plusieurs éléments. Ceci n\'est pas disponible en tant qu\'outil de transformation séparé.
 
 #### Outils d\'habillage 
 
-Ces outils appliquent un traitement aux arêtes ou faces sélectionnées.
+Ces outils appliquent un traitement aux arêtes ou faces.
 
 -   <img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Congé](PartDesign_Fillet/fr.md)    * applique un arrondi/congé sur les arêtes sélectionnées du corps actif.
 
@@ -145,7 +146,7 @@ Ces outils appliquent un traitement aux arêtes ou faces sélectionnées.
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Dépouille](PartDesign_Draft/fr.md)    * applique un angle de dépouille aux faces sélectionnées du corps actif.
 
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Épaisseur](PartDesign_Thickness/fr.md)    * évide le corps actif et le transforme en un objet creux à paroi épaisse en creusant la (ou les) face(s) sélectionnée(s).
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Coque](PartDesign_Thickness/fr.md)    * crée une coque épaisse à partir du corps actif et ouvre la face sélectionnée.
 
 #### Booléen
 
@@ -157,7 +158,7 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design    *
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width   *32px;"> [Migrer](PartDesign_Migrate/fr.md)    * migre des fichiers créés dans des versions antérieures de FreeCAD. Si le fichier ne contient que des fonctions PartDesign, la migration devrait réussir. Si le fichier contient des objets mixtes Part/Part Design/Draft, la conversion échouera presque certainement.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width   *32px;"> [Pignon](PartDesign_Sprocket/fr.md)   * crée un profil de pignon qui peut être extrudé. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width   *32px;"> [Pignon](PartDesign_Sprocket/fr.md)    * crée un profil de pignon qui peut être extrudé. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width   *32px;"> [Engrenage en développante](PartDesign_InvoluteGear/fr.md)    * crée un profil d\'engrenage en développante qui peut être extrudé.
 
@@ -165,22 +166,22 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design    *
 
 ### Éléments du menu contextuel 
 
--   <img alt="" src=images/PartDesign_MoveTip.svg  style="width   *32px;"> [Désigner comme fonction résultante](PartDesign_MoveTip/fr.md)   * redéfinit la fonction résultante qui est la fonction exposée à l\'extérieur du Corps.
+-   <img alt="" src=images/PartDesign_MoveTip.svg  style="width   *32px;"> [Désigner comme fonction résultante](PartDesign_MoveTip/fr.md)    * redéfinit la fonction résultante qui est la fonction exposée à l\'extérieur du Corps.
 
--   <img alt="" src=images/PartDesign_MoveFeature.svg  style="width   *32px;"> [Déplacer vers un autre corps](PartDesign_MoveFeature/fr.md)   * déplace l\'esquisse, la géométrie de référence ou la fonction sélectionnée vers un autre Corps.
+-   <img alt="" src=images/PartDesign_MoveFeature.svg  style="width   *32px;"> [Déplacer vers un autre corps](PartDesign_MoveFeature/fr.md)    * déplace l\'esquisse, la géométrie de référence ou la fonction sélectionnée vers un autre Corps.
 
--   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width   *32px;"> [Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md)   * permet de réorganiser l\'arborescence du corps en déplaçant l\'esquisse, la géométrie de référence ou l\'entité sélectionnée vers une autre position dans la liste des entités.
+-   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width   *32px;"> [Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md)    * permet de réorganiser l\'arborescence du corps en déplaçant l\'esquisse, la géométrie de référence ou l\'entité sélectionnée vers une autre position dans la liste des entités.
 
 #### Éléments partagés avec l\'atelier Part 
 
--   <img alt="" src=images/Std_SetAppearance.svg  style="width   *32px;"> [Std Apparence](Std_SetAppearance/fr.md)   * détermine l\'apparence de la pièce entière (transparence des couleurs etc\...).
+-   <img alt="" src=images/Std_SetAppearance.svg  style="width   *32px;"> [Std Apparence](Std_SetAppearance/fr.md)    * détermine l\'apparence de la pièce entière (transparence des couleurs etc\...).
 
--   <img alt="" src=images/Part_FaceColors.svg  style="width   *32px;"> [Part Définir les couleurs](Part_FaceColors/fr.md)   * attribue des couleurs aux faces des pièces.
+-   <img alt="" src=images/Part_FaceColors.svg  style="width   *32px;"> [Part Définir les couleurs](Part_FaceColors/fr.md)    * attribue des couleurs aux faces des pièces.
 
 ## Préférences
 
--   <img alt="" src=images/Preferences-part_design.svg  style="width   *32px;"> [Préférences\...](PartDesign_Preferences/fr.md)   * préférences disponibles pour les outils PartDesign.
--   [Réglage fin](Fine-tuning/fr.md)   * quelques paramètres supplémentaires pour affiner le comportement de PartDesign.
+-   <img alt="" src=images/Preferences-part_design.svg  style="width   *32px;"> [Préférences\...](PartDesign_Preferences/fr.md)    * préférences disponibles pour les outils PartDesign.
+-   [Réglage fin](Fine-tuning/fr.md)    * quelques paramètres supplémentaires pour affiner le comportement de PartDesign.
 
 ## Tutoriels
 

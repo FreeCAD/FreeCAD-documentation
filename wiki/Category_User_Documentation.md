@@ -168,12 +168,12 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [FEM EquationElectrostatic](wiki/FEM EquationElectrostatic.md) | [FEM EquationFlow](wiki/FEM EquationFlow.md) | [FEM EquationFlux](wiki/FEM EquationFlux.md) |
 | [FEM EquationHeat](wiki/FEM EquationHeat.md) | [FEM Example Capacitance Two Balls](wiki/FEM Example Capacitance Two Balls.md) | [FEM Examples](wiki/FEM Examples.md) |
 | [FEM FemMesh2Mesh](wiki/FEM FemMesh2Mesh.md) | [FEM FrontISTR Workbench](wiki/FEM FrontISTR Workbench.md) | [FEM Install](wiki/FEM Install.md) |
-| [FEM MaterialFluid](wiki/FEM MaterialFluid.md) | [FEM MaterialMechanicalNonlinear](wiki/FEM MaterialMechanicalNonlinear.md) | [FEM MaterialReinforced](wiki/FEM MaterialReinforced.md) |
-| [FEM MaterialSolid](wiki/FEM MaterialSolid.md) | [FEM Mesh](wiki/FEM Mesh.md) | [FEM Mesh CalculiX](wiki/FEM Mesh CalculiX.md) |
-| [FEM MeshBoundaryLayer](wiki/FEM MeshBoundaryLayer.md) | [FEM MeshClear](wiki/FEM MeshClear.md) | [FEM MeshDisplayInfo](wiki/FEM MeshDisplayInfo.md) |
-| [FEM MeshGmshFromShape](wiki/FEM MeshGmshFromShape.md) | [FEM MeshGroup](wiki/FEM MeshGroup.md) | [FEM MeshNetgenFromShape](wiki/FEM MeshNetgenFromShape.md) |
-| [FEM MeshRegion](wiki/FEM MeshRegion.md) | [FEM PostApplyChanges](wiki/FEM PostApplyChanges.md) | [FEM PostCreateFunctions](wiki/FEM PostCreateFunctions.md) |
-| [FEM PostFilterClipRegion](wiki/FEM PostFilterClipRegion.md) | [FEM PostFilterClipScalar](wiki/FEM PostFilterClipScalar.md) |
+| [FEM MaterialEditor](wiki/FEM MaterialEditor.md) | [FEM MaterialFluid](wiki/FEM MaterialFluid.md) | [FEM MaterialMechanicalNonlinear](wiki/FEM MaterialMechanicalNonlinear.md) |
+| [FEM MaterialReinforced](wiki/FEM MaterialReinforced.md) | [FEM MaterialSolid](wiki/FEM MaterialSolid.md) | [FEM Mesh](wiki/FEM Mesh.md) |
+| [FEM Mesh CalculiX](wiki/FEM Mesh CalculiX.md) | [FEM MeshBoundaryLayer](wiki/FEM MeshBoundaryLayer.md) | [FEM MeshClear](wiki/FEM MeshClear.md) |
+| [FEM MeshDisplayInfo](wiki/FEM MeshDisplayInfo.md) | [FEM MeshGmshFromShape](wiki/FEM MeshGmshFromShape.md) | [FEM MeshGroup](wiki/FEM MeshGroup.md) |
+| [FEM MeshNetgenFromShape](wiki/FEM MeshNetgenFromShape.md) | [FEM MeshRegion](wiki/FEM MeshRegion.md) | [FEM PostApplyChanges](wiki/FEM PostApplyChanges.md) |
+| [FEM PostCreateFunctions](wiki/FEM PostCreateFunctions.md) | [FEM PostFilterClipRegion](wiki/FEM PostFilterClipRegion.md) |
 
 
 

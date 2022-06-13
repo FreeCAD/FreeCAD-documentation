@@ -1,14 +1,17 @@
 # Macro FCInfo/en
+**[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br> (This wiki page correspond in date ver 1.22 , 12/11/2020 and not include the new features) **
+
+
 {{Macro
 |Name=Macro FCInfo
 |Icon=FCInfo.png
 |Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
-<br />French Version [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/6ca25a438c3c4cfb62c0b1d6a35b7ddbd80ace23/FCInfo_fr_Ver_1-25d-rmu_Docked.FCMacro Version française]
+<br />French Version [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/9a23e3ef9d790818ca4b4e8061fdec1a4d649dd5/FCInfo_fr_Ver_1-26-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.25d
-|Date=2021/12/13
+|Version=1.26c
+|Date=2022/04/19
 |FCVersion=All
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey.md)<br />[Macro SimpleProperties](Macro_SimpleProperties.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width   *24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width   *24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
 ## Description
@@ -16,7 +19,7 @@
 Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ecf1b82162b7a9e600c9ee511410ddf06c6e534/FCInfo_en_Ver_1-25d-rmu_Docked.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/5577cf1a8818a4cbc5790cce335df158713b5841/FCInfo_en_Ver_1-26c-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width   *480px;"> 
 *FCInfo*
@@ -217,12 +220,14 @@ Download image positioning on the icon <img alt="" src=images/FCInfo.png  style=
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-There is also FCInfo\_Alternate\_Linux for only for FreeCAD version 0.13\... and PyQt4
+
+{{ColoredParagraph|There is also a [FCInfo Alternate Linux](FCInfo_Alternate_Linux.md) for only for FreeCAD version 0.13... and PyQt4. ''Now totally obsolete see just as example code''
+}}
 
 
 <div class="mw-collapsible-content">
 
-There is also a [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Here the code is changed (due to the character display error    * **² ³ ° μ** ordinal not in range (128)\") which posed problems. In certain configurations the functions are the same
+ColoredParagraph\|There is also a [Macro FCInfo Alternate Linux](Macro_FCInfo_Alternate_Linux.md). Here the code is changed (due to the character display error    * **² ³ ° μ** ordinal not in range (128)\") which posed problems. In certain configurations the functions are the same
 Example    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -230,9 +235,10 @@ global uniteVs       ; uniteVs       = u"mm³"
 global uniteAs       ; uniteAs       = u"°"
 ``` remplacés par 
 ```python
-global uniteSs       ; uniteSs       = "mm"+iso8859(unichr(178))
-global uniteVs       ; uniteVs       = "mm"+iso8859(unichr(179))
-global uniteAs       ; uniteAs       = iso8859(unichr(176))
+global uniteSs       ; uniteSs       = "mm"+iso8859(unichr(178)) # also   *  carre    hex="\xb2"  # also   *  html=<span>&#178;</span>
+global uniteVs       ; uniteVs       = "mm"+iso8859(unichr(179)) # also   *  cube     hex="\xb3"  # also   *  html=<span>&#179;</span>
+global uniteAs       ; uniteAs       = iso8859(unichr(176))      # also   *  degrees  hex="\xb0"  # also   *  html=<span>&#176;</span>
+                                     = iso8859(unichr(181))      # also   *  micro    hex="\xB5"  # also   *  html=<span>&#181;</span>
 ``` **Files saved with this version is incompatible with the other version (docked or not)**
 
 
@@ -241,12 +247,10 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 
 </div>
 
-Download the icon file [Macro\_FCInfo\_Icon](https   *//forum.freecadweb.org/download/file.php?id=50755) unzip and copy the icon in the same directory of the macro
-
 Download the macro file on gist **docked to right**
 
 
-{{CodeDownload|https   *//gist.github.com/mario52a/8d40ab6c018c2bde678f|last version Macro_FCInfo (the icons are at the end of the page)}}
+{{CodeDownload|https   *//gist.github.com/mario52a/8d40ab6c018c2bde678f|last version Macro_FCInfo}}
 
 (Or **[on the forum.](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
 **PS   *** this macro uses **getSelection()** and the list of object begin to 1 ex   * for a box **Edge1 to Edge12** and the code in the console start at 0 ex   * for a box **Edge\[0\] to Edge\[11\]**
@@ -271,6 +275,14 @@ project   *
 
 ## Version
 
+-   ver 1.26c 2022/04/19 upgrade BSpline error with Gear Bspline=Line
+
+-   ver 1.26b 20/02/2022 upgrade for detect BSpline in SubObject
+
+-   ver 1.26 06/02/2022 add info on Mesh and Points objects, decode colours, duplicate object or subObject, memorize the latest path and other preferences options
+
+-   ver 1.25e 18/12/2021 add info detailed to BSpline (ToByArcs) and info \"sel\[0\].TypeId\"
+-   ver 1.25d 12/12/2021 \-\--
 -   ver 1.25c 12/12/2021 correct \"strAround((\" by \"str(Around(\" and other little \...
 -   ver 1.25b 11/12/2021 correction error in change/modify new material and reorganization
 -   ver 1.25 10/12/2021 PySide2 and add comboBox materials

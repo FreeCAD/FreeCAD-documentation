@@ -9,7 +9,7 @@ This category collects pages related to packing FreeCAD for different platforms,
 | --- | --- | --- |
 | [AppImage/de](wiki/AppImage/de.md) | [Debian development/de](wiki/Debian development/de.md) | [Debian Unstable/de](wiki/Debian Unstable/de.md) |
 | [Git buildpackage/de](wiki/Git buildpackage/de.md) | [Linux packaging/de](wiki/Linux packaging/de.md) | [Packaging/de](wiki/Packaging/de.md) |
-| [Windows packaging/de](wiki/Windows packaging/de.md) |
+| [Ubuntu Snap/de](wiki/Ubuntu Snap/de.md) | [Windows packaging/de](wiki/Windows packaging/de.md) |
 
 
 

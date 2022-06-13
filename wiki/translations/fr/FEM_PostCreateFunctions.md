@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM CompPostCreateFunctions
-   Name/fr   *FEM Fonctions filtre
-   MenuLocation   *Results → Filter functions
+   Name/fr   *FEM Fonctions de filtrage
+   MenuLocation   *Résultats → Fonctions de filtrage
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---

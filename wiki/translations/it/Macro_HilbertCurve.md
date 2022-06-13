@@ -1,7 +1,4 @@
 # Macro HilbertCurve/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=HilbertCurve
 |Description=Questa macro crea una curva di Hilbert in 2 o 3 dimensioni con varie iterazioni.
@@ -11,9 +8,6 @@
 |Versione=1.2.0
 |FCVersion= 0.16 to 0.19
 }}
-
-
-</div>
 
 ## Descrizione
 

@@ -149,19 +149,49 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 #### Инструменты преобразования форм 
 
+
+<div class="mw-translate-fuzzy">
+
 Это инструменты для преобразования существующих форм. Они позволят выбрать способы преобразования форм.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Симметрия](PartDesign_Mirrored/ru.md)   * создает один или несколько симметричных элементов.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Линейный массив](PartDesign_LinearPattern/ru.md)   * создает линейный массив на основе одной или нескольких заготовок.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Круговой массив](PartDesign_PolarPattern/ru.md)   * создает круговой массив на базе одной или нескольких заготовок.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Множественное преобразование](PartDesign_MultiTransform/ru.md)   * создает массив на основе разнообразных комбинаций преобразований массивов перечисленных выше.
+
+
+</div>
 
 #### Инструменты обработки граней тела 
 
+
+<div class="mw-translate-fuzzy">
+
 Данные инструменты предназначены для создания кромок и обработки граней.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Скругление](PartDesign_Fillet/ru.md)   * скругление граней активного тела.
 
@@ -169,7 +199,13 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Уклон](PartDesign_Draft/ru.md)   * создает уклон выбранных граней активного тела
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Полость](PartDesign_Thickness/ru.md)   * создает толстостенную полую оболочку из активного твердого тела и убирая выбранные грани.
+
+
+</div>
 
 #### Логические операции 
 

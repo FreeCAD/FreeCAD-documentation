@@ -57,11 +57,11 @@ This category contains the help pages of each of FreeCAD command.
 | [Draft Upgrade/pt-br](wiki/Draft Upgrade/pt-br.md) | [Draft Wire/pt-br](wiki/Draft Wire/pt-br.md) | [Draft WireToBSpline/pt-br](wiki/Draft WireToBSpline/pt-br.md) |
 | [Draft WorkingPlaneProxy/pt-br](wiki/Draft WorkingPlaneProxy/pt-br.md) | [FEM Analysis/pt-br](wiki/FEM Analysis/pt-br.md) | [FEM ConstraintElectrostaticPotential/pt-br](wiki/FEM ConstraintElectrostaticPotential/pt-br.md) |
 | [FEM ElementFluid1D/pt-br](wiki/FEM ElementFluid1D/pt-br.md) | [FEM ElementGeometry1D/pt-br](wiki/FEM ElementGeometry1D/pt-br.md) | [FEM ElementGeometry2D/pt-br](wiki/FEM ElementGeometry2D/pt-br.md) |
-| [FEM ElementRotation1D/pt-br](wiki/FEM ElementRotation1D/pt-br.md) | [FEM MaterialFluid/pt-br](wiki/FEM MaterialFluid/pt-br.md) | [FEM MaterialMechanicalNonlinear/pt-br](wiki/FEM MaterialMechanicalNonlinear/pt-br.md) |
-| [FEM MaterialReinforced/pt-br](wiki/FEM MaterialReinforced/pt-br.md) | [FEM MaterialSolid/pt-br](wiki/FEM MaterialSolid/pt-br.md) | [FEM MeshGmshFromShape/pt-br](wiki/FEM MeshGmshFromShape/pt-br.md) |
-| [FEM SolverCalculiX/pt-br](wiki/FEM SolverCalculiX/pt-br.md) | [FEM SolverElmer/pt-br](wiki/FEM SolverElmer/pt-br.md) | [FEM SolverZ88/pt-br](wiki/FEM SolverZ88/pt-br.md) |
-| [GuiCommand model/pt-br](wiki/GuiCommand model/pt-br.md) | [Template:GuiCommand/pt-br](wiki/Template_GuiCommand/pt-br.md) | [Image CreateImagePlane/pt-br](wiki/Image CreateImagePlane/pt-br.md) |
-| [Image Open/pt-br](wiki/Image Open/pt-br.md) | [Image Scaling/pt-br](wiki/Image Scaling/pt-br.md) | [Material editor/pt-br](wiki/Material editor/pt-br.md) |
+| [FEM ElementRotation1D/pt-br](wiki/FEM ElementRotation1D/pt-br.md) | [FEM MaterialEditor/pt-br](wiki/FEM MaterialEditor/pt-br.md) | [FEM MaterialFluid/pt-br](wiki/FEM MaterialFluid/pt-br.md) |
+| [FEM MaterialMechanicalNonlinear/pt-br](wiki/FEM MaterialMechanicalNonlinear/pt-br.md) | [FEM MaterialReinforced/pt-br](wiki/FEM MaterialReinforced/pt-br.md) | [FEM MaterialSolid/pt-br](wiki/FEM MaterialSolid/pt-br.md) |
+| [FEM MeshGmshFromShape/pt-br](wiki/FEM MeshGmshFromShape/pt-br.md) | [FEM SolverCalculiX/pt-br](wiki/FEM SolverCalculiX/pt-br.md) | [FEM SolverElmer/pt-br](wiki/FEM SolverElmer/pt-br.md) |
+| [FEM SolverZ88/pt-br](wiki/FEM SolverZ88/pt-br.md) | [GuiCommand model/pt-br](wiki/GuiCommand model/pt-br.md) | [Template:GuiCommand/pt-br](wiki/Template_GuiCommand/pt-br.md) |
+| [Image CreateImagePlane/pt-br](wiki/Image CreateImagePlane/pt-br.md) | [Image Open/pt-br](wiki/Image Open/pt-br.md) | [Image Scaling/pt-br](wiki/Image Scaling/pt-br.md) |
 | [Mesh FromPartShape/pt-br](wiki/Mesh FromPartShape/pt-br.md) | [Part Boolean/pt-br](wiki/Part Boolean/pt-br.md) | [Part BooleanFragments/pt-br](wiki/Part BooleanFragments/pt-br.md) |
 | [Part Box/pt-br](wiki/Part Box/pt-br.md) | [Part BoxSelection/pt-br](wiki/Part BoxSelection/pt-br.md) | [Part Builder/pt-br](wiki/Part Builder/pt-br.md) |
 | [Part Chamfer/pt-br](wiki/Part Chamfer/pt-br.md) | [Part CheckGeometry/pt-br](wiki/Part CheckGeometry/pt-br.md) | [Part Circle/pt-br](wiki/Part Circle/pt-br.md) |

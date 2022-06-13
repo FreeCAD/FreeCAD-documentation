@@ -44,11 +44,11 @@ This category contains all Unfinished Documents
 | [FEM EquationElectrostatic/en](wiki/FEM EquationElectrostatic/en.md) | [FEM EquationFlow/en](wiki/FEM EquationFlow/en.md) | [FEM EquationFlux/en](wiki/FEM EquationFlux/en.md) |
 | [FEM EquationHeat/en](wiki/FEM EquationHeat/en.md) | [FEM MaterialMechanicalNonlinear/en](wiki/FEM MaterialMechanicalNonlinear/en.md) | [FEM MaterialReinforced/en](wiki/FEM MaterialReinforced/en.md) |
 | [FEM MeshClear/en](wiki/FEM MeshClear/en.md) | [FEM MeshNetgenFromShape/en](wiki/FEM MeshNetgenFromShape/en.md) | [FEM PostApplyChanges/en](wiki/FEM PostApplyChanges/en.md) |
-| [FEM PostCreateFunctions/en](wiki/FEM PostCreateFunctions/en.md) | [FEM ResultShow/en](wiki/FEM ResultShow/en.md) | [FEM ResultsPurge/en](wiki/FEM ResultsPurge/en.md) |
-| [FEM SolverCalculiX/en](wiki/FEM SolverCalculiX/en.md) | [FEM SolverControl/en](wiki/FEM SolverControl/en.md) | [FEM SolverMystran/en](wiki/FEM SolverMystran/en.md) |
-| [FEM SolverRun/en](wiki/FEM SolverRun/en.md) | [FreeCAD Docker CLI mode/en](wiki/FreeCAD Docker CLI mode/en.md) | [InputField/en](wiki/InputField/en.md) |
-| [Lattice2 AttachablePlacement/en](wiki/Lattice2 AttachablePlacement/en.md) | [Lattice2 Workbench/en](wiki/Lattice2 Workbench/en.md) | [MacOS packaging/en](wiki/MacOS packaging/en.md) |
-| [Manual:BIM modeling/en](wiki/Manual_BIM modeling/en.md) | [ModernUI Workbench/en](wiki/ModernUI Workbench/en.md) | [OpenCascade/en](wiki/OpenCascade/en.md) |
+| [FEM PostCreateFunctions/en](wiki/FEM PostCreateFunctions/en.md) | [FEM ResultShow/en](wiki/FEM ResultShow/en.md) | [FEM SolverCalculiX/en](wiki/FEM SolverCalculiX/en.md) |
+| [FEM SolverControl/en](wiki/FEM SolverControl/en.md) | [FEM SolverMystran/en](wiki/FEM SolverMystran/en.md) | [FEM SolverRun/en](wiki/FEM SolverRun/en.md) |
+| [FreeCAD Docker CLI mode/en](wiki/FreeCAD Docker CLI mode/en.md) | [InputField/en](wiki/InputField/en.md) | [Lattice2 AttachablePlacement/en](wiki/Lattice2 AttachablePlacement/en.md) |
+| [Lattice2 Workbench/en](wiki/Lattice2 Workbench/en.md) | [MacOS packaging/en](wiki/MacOS packaging/en.md) | [Manual:BIM modeling/en](wiki/Manual_BIM modeling/en.md) |
+| [Migrating to FreeCAD from SolidWorks/en](wiki/Migrating to FreeCAD from SolidWorks/en.md) | [ModernUI Workbench/en](wiki/ModernUI Workbench/en.md) | [OpenCascade/en](wiki/OpenCascade/en.md) |
 | [OpenSCAD ColorCodeShape/en](wiki/OpenSCAD ColorCodeShape/en.md) | [Part BoxSelection/en](wiki/Part BoxSelection/en.md) | [Part CompSplittingTools/en](wiki/Part CompSplittingTools/en.md) |
 | [Part ElementCopy/en](wiki/Part ElementCopy/en.md) | [Part Loft/en](wiki/Part Loft/en.md) | [Part Mirror/en](wiki/Part Mirror/en.md) |
 | [Part Offset/en](wiki/Part Offset/en.md) | [Part PointsFromMesh/en](wiki/Part PointsFromMesh/en.md) | [Part RuledSurface/en](wiki/Part RuledSurface/en.md) |

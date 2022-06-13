@@ -39,12 +39,12 @@ This category list pages related to the [Arch Workbench](Arch_Workbench.md), the
 | [Example Combined Footing](wiki/Example Combined Footing.md) | [Example Slab Having LShape Rebars Reinforcement Mesh](wiki/Example Slab Having LShape Rebars Reinforcement Mesh.md) | [Example Slab Having Mesh Of Straight Rebars](wiki/Example Slab Having Mesh Of Straight Rebars.md) |
 | [Example Slab Having UShape Rebars Reinforcement Mesh](wiki/Example Slab Having UShape Rebars Reinforcement Mesh.md) | [Example Slab Spanning in One Direction](wiki/Example Slab Spanning in One Direction.md) | [Example Slab Spanning in Two Directions](wiki/Example Slab Spanning in Two Directions.md) |
 | [IfcOpenShell](wiki/IfcOpenShell.md) | [IfcPlusPlus](wiki/IfcPlusPlus.md) | [Import/Export IFC - compiling IfcOpenShell](wiki/Import/Export IFC - compiling IfcOpenShell.md) |
-| [Manual:BIM modeling](wiki/Manual_BIM modeling.md) | [Material](wiki/Material.md) | [Material editor](wiki/Material editor.md) |
-| [Reinforcement Addon](wiki/Reinforcement Addon.md) | [Reinforcement API](wiki/Reinforcement API.md) | [SweetHome3D](wiki/SweetHome3D.md) |
-| [Tutorial custom placing of windows and doors](wiki/Tutorial custom placing of windows and doors.md) | [Tutorial for open windows](wiki/Tutorial for open windows.md) | [WikiRobots](wiki/WikiRobots.md) |
-| [WikiRobots/de](wiki/WikiRobots/de.md) | [WikiRobots/en](wiki/WikiRobots/en.md) | [WikiRobots/fr](wiki/WikiRobots/fr.md) |
-| [WikiRobots/it](wiki/WikiRobots/it.md) | [WikiRobots/pl](wiki/WikiRobots/pl.md) | [Category:Reinforcement](wiki/Category_Reinforcement.md) |
-| [Category:Reinforcement/pl](wiki/Category_Reinforcement/pl.md) |
+| [Manual:BIM modeling](wiki/Manual_BIM modeling.md) | [Material](wiki/Material.md) | [Reinforcement Addon](wiki/Reinforcement Addon.md) |
+| [Reinforcement API](wiki/Reinforcement API.md) | [SweetHome3D](wiki/SweetHome3D.md) | [Tutorial custom placing of windows and doors](wiki/Tutorial custom placing of windows and doors.md) |
+| [Tutorial for open windows](wiki/Tutorial for open windows.md) | [WikiRobots](wiki/WikiRobots.md) | [WikiRobots/de](wiki/WikiRobots/de.md) |
+| [WikiRobots/en](wiki/WikiRobots/en.md) | [WikiRobots/fr](wiki/WikiRobots/fr.md) | [WikiRobots/it](wiki/WikiRobots/it.md) |
+| [WikiRobots/pl](wiki/WikiRobots/pl.md) | [Category:Reinforcement](wiki/Category_Reinforcement.md) | [Category:Reinforcement/pl](wiki/Category_Reinforcement/pl.md) |
+|
 
 
 

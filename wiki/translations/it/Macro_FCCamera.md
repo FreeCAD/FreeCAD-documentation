@@ -1,21 +1,15 @@
 # Macro FCCamera/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro FCCamera
 |Translate=Posizione camera
 |Icon=FCCamera_00.png
 |Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}}<br/>For the precedent version see [https   *//gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/42dc3ef73dc8db463a03b175f5a7f1f6978e3293/Macro%2520FCCamera.FCMacro FCCamera] and install it manually.<br/><br/> Questa macro può ruotare lo schermo di un determinato angolo, lungo un asse a scelta e creare un piano frontale allo schermo.
 |Author=Mario52
-|Version=0.13
-|Date=2020/06/28
-|FCVersion=0.18 e piu
+|Version=0.14
+|Date=2020/10/20
+|FCVersion=0.18 e più
 |Download=[https   *//forum.freecadweb.org/download/file.php?id=79288 FCCamera_Icones.zip]. Unzippato il pacchetto e incollare l'icona totale nella stessa directory della macro. 
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -182,7 +176,7 @@ Si può ottenere lo stesso risultato posizionando uno schizzo su un piano inclin
 
 ## Versione
 
--   **ver 0.14 (20/10/2020)   *** correction bug \"Grid\" not accepted
+-   **ver 0.14 (20/10/2020)   *** corretto bug \"Grid\" non accettata
 
 -   **ver 0.13 (28/06/2020)   *** adding files image in source code, create plane \"On point, Center face, BBox center, Center Mass\", gridLayout
 

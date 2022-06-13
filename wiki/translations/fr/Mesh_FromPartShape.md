@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *Mesh FromPartShape‏‎
-   Name/fr   *Mesh Tesselation
+   Name/fr   *Mesh Créer un maillage
 ‏‎   MenuLocation   *Maillages → Créer un maillage à partir d'une forme...
    Workbenches   *[Mesh](Mesh_Workbench/fr.md)
 ---
@@ -18,8 +18,8 @@ L\'opération inverse est [Part Forme à partir du maillage](Part_ShapeFromMesh/
 
 1.  Sélectionnez éventuellement un ou plusieurs objets.
 2.  Il existe plusieurs manières d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/_Mesh_FromPartShape.svg" width=16px> [Mesh Tesselation de la forme](Mesh_FromPartShape/fr.md)**.
-    -   Sélectionnez l\'option **Maillages → <img src="images/_Mesh_FromPartShape.svg" width=16px> Créer un maillage à partir de la forme...** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/_Mesh_FromPartShape.svg" width=16px> [Créer un maillage à partir d'une forme...](Mesh_FromPartShape/fr.md)**.
+    -   Sélectionnez l\'option **Maillages → <img src="images/_Mesh_FromPartShape.svg" width=16px> Créer un maillage à partir d'une forme...** dans le menu.
 3.  Le panneau des tâches **Tessellation** s\'ouvre.
 4.  Lorsque le panneau des tâches est ouvert, vous pouvez créer une nouvelle sélection ou modifier une sélection existante.
 5.  Sélectionnez l\'onglet du mailleur que vous souhaitez utiliser.
@@ -32,21 +32,21 @@ Voici les mailleurs disponibles et leurs paramètres   *
 
 ### Mailleur standard 
 
--    **Déviation de surface**   * la [déviation linéaire](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage par rapport à la surface de l\'objet.
+-    **Surface deviation**   * la [déviation linéaire](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage par rapport à la surface de l\'objet.
 
--    **Déviation angulaire**   * la [déviation angulaire](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage à la suivante . Ce paramètre est utilisé lors du maillage de surfaces courbes.
+-    **Angular deviation**   * la [déviation angulaire](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage à la suivante . Ce paramètre est utilisé lors du maillage de surfaces courbes.
 
--    **Ecart relatif de surface**   * si cochée, la déviation linéaire maximale d\'un segment de maillage sera la **Déviation de surface** multipliée par la longueur du segment de maillage courant (bord).
+-    **Relative surface deviation**   * si cochée, la déviation linéaire maximale d\'un segment de maillage sera **Surface deviation** multipliée par la longueur du segment de maillage courant (bord).
 
--    **Appliquer les couleurs de face au maillage**   * si coché, le maillage obtiendra les couleurs de face de l\'objet.
+-    **Apply face colors to mesh**   * si coché, le maillage obtiendra les couleurs de face de l\'objet.
 
--    **Définir les segments par couleurs de face**   * si coché, les segments de maillage seront regroupés en fonction des couleurs des faces de l\'objet. Ces groupes seront exportés pour les formats de sortie de maillage prenant en charge cette fonctionnalité (le format [OBJ](https   *//fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier)) par exemple).
+-    **Define segments by face colors**   * si coché, les segments de maillage seront regroupés en fonction des couleurs des faces de l\'objet. Ces groupes seront exportés pour les formats de sortie de maillage prenant en charge cette fonctionnalité (le format [OBJ](https   *//fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier)) par exemple).
 
 ### Mailleur Mefisto 
 
--    **Longueur maximale d'arêtes**   * la longueur maximale du bord du maillage. Une valeur plus petite donne un maillage plus fin. Si vous spécifiez {{Value|0}} ou décochez la case, vous obtenez un maillage très grossier.
+-    **Maximum edge length**   * la longueur maximale du bord du maillage. Une valeur plus petite donne un maillage plus fin. Si vous spécifiez {{Value|0}} ou décochez la case, vous obtenez un maillage très grossier.
 
-    -   Si vous appuyez sur le bouton **Estimation**, le mailleur entrera une valeur estimée pour **Longueur maximale d'arêtes**. Cette valeur n\'est pas très fiable si plusieurs objets ont été sélectionnés.
+    -   Si vous appuyez sur le bouton **Estimate**, le mailleur entrera une valeur estimée pour **Maximum edge length**. Cette valeur n\'est pas très fiable si plusieurs objets ont été sélectionnés.
 
 ### Mailleur Netgen 
 

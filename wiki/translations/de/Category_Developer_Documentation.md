@@ -41,8 +41,9 @@ This category gathers documentation article mostly aimed at programmers
 | [Source code management/de](wiki/Source code management/de.md) | [Source documentation/de](wiki/Source documentation/de.md) | [Start up and Configuration/de](wiki/Start up and Configuration/de.md) |
 | [Testing/de](wiki/Testing/de.md) | [The FreeCAD source code/de](wiki/The FreeCAD source code/de.md) | [Third Party Libraries/de](wiki/Third Party Libraries/de.md) |
 | [Third Party Tools/de](wiki/Third Party Tools/de.md) | [Topological data scripting/de](wiki/Topological data scripting/de.md) | [Tracker/de](wiki/Tracker/de.md) |
-| [Translating an external workbench/de](wiki/Translating an external workbench/de.md) | [Windows packaging/de](wiki/Windows packaging/de.md) | [Workbench creation/de](wiki/Workbench creation/de.md) |
-| [Category:Artwork/de](wiki/Category_Artwork/de.md) | [Category:Packaging/de](wiki/Category_Packaging/de.md) |
+| [Translating an external workbench/de](wiki/Translating an external workbench/de.md) | [Ubuntu Snap/de](wiki/Ubuntu Snap/de.md) | [Windows packaging/de](wiki/Windows packaging/de.md) |
+| [Workbench creation/de](wiki/Workbench creation/de.md) | [Category:Artwork/de](wiki/Category_Artwork/de.md) | [Category:Packaging/de](wiki/Category_Packaging/de.md) |
+|
 
 
 

@@ -22,7 +22,17 @@ La contrainte accepte les bords droits et les faces planes.
 
 1.  Placez deux objets ou plus dans un assemblage.
 2.  Sélectionnez un élément de bord droit ou un élément de face plane de chaque objet.
-3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintAngle.svg" width=16px> [Angle](Assembly3_ConstraintAngle/fr.md)**.
+3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintAngle.svg" width=16px> Create "Angle" Constraint**.
+4.  Changez éventuellement la valeur de la propriété **Angle**.
+
+## Remarques
+
+2D    * Cette contrainte semble être le seul moyen de contrôler un angle dans une esquisse de squelette (assemblage cinématique 2D) ; Prouvez-moi le contraire, SVP !
+
+-   Sa propriété **Angle|Angle** permet toute valeur positive, mais 0° et 180° exactement laissent le solveur perplexe.
+-   Il inverse le sens si des angles supérieurs à 180° sont utilisés et, par conséquent, 135° et 225° donnent les mêmes positions pour les éléments concernés.
+
+   *   Il est inutile si l\'on veut simuler une rotation complète et ruine ainsi le principe d\'utilisation d\'une esquisse de squelette pour de nombreuses tâches cinématiques telles que l\'entraînement d\'un piston par une manivelle rotative couplée à une bielle.
 
 
 

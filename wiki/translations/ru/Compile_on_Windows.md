@@ -376,6 +376,20 @@ git clone https   *//github.com/FreeCAD/FreeCAD.git
 4.  Найдите там параметр переменной \"FREECAD\_COPY\_PLUGINS\_BIN\_TO\_BUILD\" и проверьте его.
 5.  Нажмите на кнопку \"Configure\". В конце настройки CMake автоматически скопирует необходимые библиотеки из папки LibPack.
 
+### Troubleshooting
+
+When running FreeCAD you may encounter missing DLLs when using certain workbenches or features of workbenches. The error message in FreeCAD\'s console will not tell you what DLL is missing. To find this out you must use an external tool   *
+
+-   Download the latest release of the program **Dependencies**   * <https   *//github.com/lucasg/Dependencies/releases> (choose the file *Dependencies\_x64\_Release.zip*)
+-   In the FreeCAD [Python console](Python_console.md) execute these commands   *
+
+import os
+os.system(r"~\DependenciesGui.exe")
+
+**Note**   * Instead of the \~ you must specify the full path to the *DependenciesGui.exe* on your system.
+
+-   Now drag in the \*.pyd file of the workbench with which you get missing DLLs reported.
+
 ## Обновление сборки 
 
 FreeCAD очень активно развивается. Поэтому его исходный код меняется почти ежедневно. Добавляются новые функции и исправляются ошибки. Чтобы извлечь выгоду из этих изменений исходного кода, вы должны перестроить свой FreeCAD. Это делается в два этапа   *
@@ -418,9 +432,22 @@ git pull https   *//github.com/FreeCAD/FreeCAD.git master
 
 FreeCAD использует [Qt](https   *//en.wikipedia.org/wiki/Qt_(software)) в качестве инструментария для его пользовательского интерфейса. Все диалоговые окна настраиваются в UI-файлах, которые можно редактировать с помощью программы [Qt Designer](https   *//doc.qt.io/qt-5/qtdesigner-manual.html), который является частью любой установки Qt, а также включен в пакет LibPack. FreeCAD имеет свой собственный набор виджетов Qt для предоставления специальных функций, таких как добавление единицы измерения в поля ввода и настройка свойств настроек.
 
-### Установка
+#### Сборник 
 
-Чтобы Qt Designer знал о виджетах FreeCAD, вы должны
+
+<div class="mw-translate-fuzzy">
+
+DLL не может быть загружена как плагин, если она была скомпилирована с использованием другой версии Qt, чем тот, на котором основан ваш Qt Designer/Qt Creator. В этом случае вы должны скомпилировать DLL самостоятельно. Это делается следующим образом   *
+
+
+</div>
+
+-   In the CMake options (see [this section above](Compile_on_Windows#Options_for_the_build_process.md)) enable the option BUILD\_DESIGNER\_PLUGIN and reconfigure.
+-   open MSVC and build the target **FreeCAD\_widgets**
+
+As result you will get the plugin file *\'FreeCAD\_widgets.dll* in the folder*\~\\src\\Tools\\plugins\\widget\\Release*
+
+### Установка
 
 
 <div class="mw-translate-fuzzy">
@@ -434,24 +461,18 @@ FreeCAD использует [Qt](https   *//en.wikipedia.org/wiki/Qt_(software)
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 (Повторно)Запустите Qt Designer и проверьте его меню **Help → Plugins**. Если плагин \"\' FreeCAD\_widgets.dll\"\' указана как загружаемая, теперь вы можете создавать и изменять файлы .ui FreeCAD. Если нет, вы должны [compile](#Compilation.md) создать библиотеку DLL самостоятельно.
 
-Если вы предпочитаете использовать [Qt Creator](https   *//en.wikipedia.org/wiki/Qt_Creator) вместо Qt Designer библиотека DLL должна быть помещена в эту папку   *"C   *Qt\\Qt5.15.2\\Tools\\QtCreator\\bin\\plugins\\designer\"(Повторно)Запустите Qt Creator, переключитесь в режим \"Design\", а затем проверьте меню **Tools → Form Editor → About Qt Designer Plugins**. Если плагин \"\' FreeCAD\_widgets.dll\"\' указана как загружаемая, теперь вы можете создавать и изменять файлы .ui FreeCAD. Если нет, вы должны [compile](#Compilation.md) создать библиотеку DLL самостоятельно.
 
-#### Сборник 
-
-DLL не может быть загружена как плагин, если она была скомпилирована с использованием другой версии Qt, чем тот, на котором основан ваш Qt Designer/Qt Creator. В этом случае вы должны скомпилировать DLL самостоятельно. Это делается следующим образом   *
+</div>
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Перейдите в исходную папку FreeCAD\"\~\\src\\Tools\\plugins\\widget\"
-2.  Откройте командную строку MSVC x64 с помощью меню \"Пуск\" Windows и перейдите в нее в указанную выше папку. Важно, чтобы это была x64-версия командной строки MSVC!
-3.  Выполните эту команду \"D   *FreeCAD-build\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\qmake -t vclib plugin.pro\"for a full Qt это\"C   *Qt\\5.15.2\\msvc2019\_64\\bin\\qmake -t vclib plugin.pro\" (адаптируйте пути к вашей установке!)
-4.  Вызов \"qmake\" создал файл \"FreeCAD\_widgets.vcxproj\" в папке \"\~\\src\\Tools\\plugins\\widget\". Дважды щелкните по нему, и откроется среда разработки MSVC.
-5.  На панели инструментов среды разработки MSVC убедитесь, что вы используете целевой объект компиляции \"Release\".
-6.  Есть окно под названием \"Solution Explorer\". Щелкните правой кнопкой мыши на \"FreeCAD\_widgets\", а затем выберите \"Build\".
-7.  В результате у вас теперь должны быть \"\'FreeCAD\_widgets.dll\"\' в папке \"\~\\src\\Tools\\plugins\\widget\\release\", которую вы можете установить в качестве плагина, как описано выше.
+Если вы предпочитаете использовать [Qt Creator](https   *//en.wikipedia.org/wiki/Qt_Creator) вместо Qt Designer библиотека DLL должна быть помещена в эту папку   *"C   *Qt\\Qt5.15.2\\Tools\\QtCreator\\bin\\plugins\\designer\"(Повторно)Запустите Qt Creator, переключитесь в режим \"Design\", а затем проверьте меню **Tools → Form Editor → About Qt Designer Plugins**. Если плагин \"\' FreeCAD\_widgets.dll\"\' указана как загружаемая, теперь вы можете создавать и изменять файлы .ui FreeCAD. Если нет, вы должны [compile](#Compilation.md) создать библиотеку DLL самостоятельно.
 
 
 </div>
@@ -488,24 +509,91 @@ FreeCAD имеет функцию предварительного просмо�
 10. Есть окно под названием \"Solution Explorer\". Щелкните правой кнопкой мыши на \"ALL\_BUILD\", а затем выберите \"Build\".
 11. В результате у вас теперь должно быть \"\'FCStdThumbnail.dll\"\' в папке \"\~\\src\\Tools\\thumbs\\ThumbnailProvider\\release\", который вы можете установить, как описано выше.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Компиляция OpenCascade 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Стандартный пакет Libpack поставляется с версией OpenCascade, подходящей для общего использования. Однако при некоторых обстоятельствах вы можете захотеть скомпилировать с альтернативной версией OpenCascade, такой как один из их официальных релизов или исправленная ветвь. Обратите внимание, что нет никакой гарантии, что FreeCAD будет работать со всеми версиями OpenCascade, и использование версии, отличной от Libpack, предназначено только для продвинутых пользователей. Обратите также внимание, что если вы используете библиотеку Netgen, она использует OpenCascade для некоторых своих функций и должна быть скомпилирована с той же версией OpenCascade, которую вы используете при компиляции FreeCAD.
 
-Процесс создания пользовательской версии OpenCascade аналогичен процессу для FreeCAD, и вы можете использовать уже загруженный пакет FreeCAD Libpack для предоставления необходимых ему сторонних зависимостей (Freetype и Tcl/Tk).
+
+</div>
+
+When compiling Open Cascade for FreeCAD note that there is no guarantee that FreeCAD will work with all versions of Open Cascade. Note also that when you are using the Netgen library, you must use the a NetGen version that it approved to compile with the Open Cascade version you like to compile.
+
+
+<div class="mw-translate-fuzzy">
 
 Сначала получите исходный код OpenCascade либо непосредственно со страницы выпуска по адресу [OpenCASCADE.org](https   *//old.opencascade.com/content/latest-release), через [git](https   *//git.dev.opencascade.org/repos/occt.git), или путем клонирования чужой вилки, например [вилка \"blobfish\"](https   *//gitlab.com/blobfish/occt) поддерживается участником форума FreeCAD [tanderson69](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=208).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Затем используйте CMake для настройки системы сборки аналогично созданию FreeCAD. Примечательными вариантами CMake для OpenCascade являются   *
 
 -   **3RDPARTY\_DIR** - Место расположения ваших сторонних библиотек, обычно заданное в каталоге FreeCAD Libpack
 -   **INSTALL\_DIR** - Где устанавливают готовые библиотеки. Рекомендуется использовать изолированный каталог в вашей системе, а не устанавливать его глобально или перезаписывать версию Libpack.
 
-Наконец, откройте проект в Visual Studio и создайте ALL\_BUILD, а затем УСТАНОВИТЕ целевые объекты.
 
-Как только вы сгенерируете соответствующие библиотеки DLL для OpenCascade (их много), вам нужно будет перестроить FreeCAD. Откройте CMake и настройте каталоги исходного кода и сборки сборки FreeCAD, как указано выше. Как правило, рекомендуется использовать новый каталог сборки для этой альтернативной версии OpenCascade, чтобы было легко переключиться на старую версию FreeCAD, если что-то пойдет не так, и настроить каталог установки, чтобы вы могли убедиться, что установлены правильные библиотеки. В дополнение к переменным CMake, описанным выше, установите переменную OpenCASCADE\_DIR в расположение папки cmake, содержащей информацию о сборке OpenCascade. Например   * CMAKE\_INSTALL\_PREFIX C   */Users/JaneDoe/Work/FreeCAD\_occt751-install/ OpenCASCADE\_DIR C   */Users/JaneDoe/Work/opencascade-7.5.1-install/cmake/
+</div>
 
-После того, как вы использовали CMake для создания файлов сборки для FreeCAD, откройте его в Visual Studio, создайте его, а затем запустите сборку в целевом объекте УСТАНОВКИ.
+-   Open the project in Visual Studio and first build the ALL\_BUILD and then INSTALL targets in the **Release** mode.
+-   Repeat building the two targets in the **Debug** mode.
+
+To build FreeCAD using the self-compiled Open Cascade, you must do the following   *
+
+-   Copy all folders from the INSTALL\_DIR to your LibPack folder (overwrite the existing files)
+-   Switch to the LibPack folder and go there to the subfolder *cmake*
+-   Open there the file *OpenCASCADEDrawTargets.cmake* with a text editor
+-   Search there for absolute paths to your LibPack folder and remove them. So e.g. the absolute path*D   */FreeCADLibs\_12.5.4\_x64\_VC17/lib/freetype.lib*becomes just *freetype.lib*
+-   Do the same for the file *OpenCASCADEVisualizationTargets.cmake*
+
+## Compiling Netgen 
+
+The LibPack comes with a version of [Netgen](https   *//ngsolve.org) that will was tested to be build with the Open Cascade version of the LibPack. The problem is that every new release of Netgen changes the API. Also every new release of Open Cascade does the same. Therefore one cannot just easily change the Netgen version.
+
+However, you might build Netgen nevertheless. This is an easy task   *
+
+-   First obtain the Netgen source code, either directly from [Netgen \'s git repository](https   *//github.com/NGSolve/netgen).
+-   Then open the CMake GUI to configure the build system in a similar manner to building FreeCAD. These CMake options have to be set   *
+
+  Variable name            Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Default
+    
+  CMAKE\_INSTALL\_PREFIX   The output folder when building the target *INSTALL*. If the build was successful, take the files from this folder to update your LibPack.                                                                                                                                                                                                                                                                                                                                                                                                     C   */netgen
+  OpenCasCade\_DIR         The path to the CMake files of Open Cascade. If you built Open Cascade as described in section [Compiling Open Cascade](#Compiling_Open_Cascade.md) you can use the subfolder *cmake* of there folder you used as INSTALL\_DIR. If not, use the subfolder *cmake* of your LibPack. Note hereby that the LibPack must then already contain a proper Open Cascade build. Independent what folder you use, you must now also create there a subfolder *lib* and copy in the files *freetype.lib* and *freetyped.lib* from your LibPack.   empty
+  USE\_GUI                 set it to **OFF**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ON
+  USE\_NATIVE\_ARCH        set it to **OFF**; this is only necessary important to support older CPU that don\'t have the [AVX2](https   *//en.wikipedia.org/wiki/Advanced_Vector_Extensions) instruction set                                                                                                                                                                                                                                                                                                                                                                 ON
+  USE\_OCC                 set it to **ON**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               OFF
+  USE\_PYTHON              set it to **OFF**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ON
+  USE\_SUPERBUILD          set it to **OFF**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ON
+  ZLIB\_INCLUDE\_DIR       The path to the necessary 3rdparty component [zlib](https   *//en.wikipedia.org/wiki/Zlib). It is recommended to use the folder as input where your used LibPack is.                                                                                                                                                                                                                                                                                                                                                                              empty
+  ZLIB\_LIBRARY\_DEBUG     The path to the ZLib file *zlibd.lib*. It is located in the subfolder *lib* of your LibPack folder.                                                                                                                                                                                                                                                                                                                                                                                                                                            empty
+  ZLIB\_LIBRARY\_RELEASE   The path to the ZLib file *zlib.lib*. It is located in the subfolder *lib* of your LibPack folder.                                                                                                                                                                                                                                                                                                                                                                                                                                             empty
+
+-   Additionally you need to add a new CMake entry   *
+
+name   * *CMAKE\_DEBUG\_POSTFIX*, type   * *string*, content   * **\_d** This assures that he file names of the debug libraries get another name than the release libraries and can later not be accidentally exchanged.
+
+-   Press the *Configure* button in CMake to generate the \*.cmake files.
+-   Only necessary if older CPU should be supported that don\'t have the AVX2 instruction set   *
+    -   Search your Netgen build folder for the file *netgen-targets.cmake* and open it with a text editor. Remove the setting *;/arch   *AVX2* in the Option INTERFACE\_COMPILE\_OPTIONS.
+    -   Press the *Configure* button in CMake again.
+-   Press the *Generate* button in CMake.
+-   Open the project in Visual Studio and first build the ALL\_BUILD and then INSTALL targets in the **Release** mode.
+-   Repeat building the two targets in the **Debug** mode.
+
+To build FreeCAD using the self-compiled Netgen, you must do the following   *
+
+-   Copy all folders from the CMAKE\_INSTALL\_PREFIX to your LibPack folder (overwrite the existing files)
 
 ## Ссылки на литературу 
 

@@ -22,14 +22,14 @@ This category includes FreeCAD pages related to PartDesign
 | [PartDesign MultiTransform/fr](wiki/PartDesign MultiTransform/fr.md) | [PartDesign NewSketch/fr](wiki/PartDesign NewSketch/fr.md) | [PartDesign Pad/fr](wiki/PartDesign Pad/fr.md) |
 | [PartDesign Plane/fr](wiki/PartDesign Plane/fr.md) | [PartDesign Pocket/fr](wiki/PartDesign Pocket/fr.md) | [PartDesign Point/fr](wiki/PartDesign Point/fr.md) |
 | [PartDesign PolarPattern/fr](wiki/PartDesign PolarPattern/fr.md) | [PartDesign Preferences/fr](wiki/PartDesign Preferences/fr.md) | [PartDesign Revolution/fr](wiki/PartDesign Revolution/fr.md) |
-| [PartDesign ShapeBinder/fr](wiki/PartDesign ShapeBinder/fr.md) | [PartDesign Sprocket/fr](wiki/PartDesign Sprocket/fr.md) | [PartDesign SubShapeBinder/fr](wiki/PartDesign SubShapeBinder/fr.md) |
-| [PartDesign SubtractiveBox/fr](wiki/PartDesign SubtractiveBox/fr.md) | [PartDesign SubtractiveCone/fr](wiki/PartDesign SubtractiveCone/fr.md) | [PartDesign SubtractiveCylinder/fr](wiki/PartDesign SubtractiveCylinder/fr.md) |
-| [PartDesign SubtractiveEllipsoid/fr](wiki/PartDesign SubtractiveEllipsoid/fr.md) | [PartDesign SubtractiveHelix/fr](wiki/PartDesign SubtractiveHelix/fr.md) | [PartDesign SubtractiveLoft/fr](wiki/PartDesign SubtractiveLoft/fr.md) |
-| [PartDesign SubtractivePipe/fr](wiki/PartDesign SubtractivePipe/fr.md) | [PartDesign SubtractivePrism/fr](wiki/PartDesign SubtractivePrism/fr.md) | [PartDesign SubtractiveSphere/fr](wiki/PartDesign SubtractiveSphere/fr.md) |
-| [PartDesign SubtractiveTorus/fr](wiki/PartDesign SubtractiveTorus/fr.md) | [PartDesign SubtractiveWedge/fr](wiki/PartDesign SubtractiveWedge/fr.md) | [PartDesign Thickness/fr](wiki/PartDesign Thickness/fr.md) |
-| [Template:PartDesign Tools navi/fr](wiki/Template_PartDesign Tools navi/fr.md) | [PartDesign WizardShaft/fr](wiki/PartDesign WizardShaft/fr.md) | [PartDesign Workbench/fr](wiki/PartDesign Workbench/fr.md) |
-| [Thread for Screw Tutorial/fr](wiki/Thread for Screw Tutorial/fr.md) | [Toothbrush Head Stand/fr](wiki/Toothbrush Head Stand/fr.md) | [Topological naming problem/fr](wiki/Topological naming problem/fr.md) |
-|
+| [PartDesign Scaled/fr](wiki/PartDesign Scaled/fr.md) | [PartDesign ShapeBinder/fr](wiki/PartDesign ShapeBinder/fr.md) | [PartDesign Sprocket/fr](wiki/PartDesign Sprocket/fr.md) |
+| [PartDesign SubShapeBinder/fr](wiki/PartDesign SubShapeBinder/fr.md) | [PartDesign SubtractiveBox/fr](wiki/PartDesign SubtractiveBox/fr.md) | [PartDesign SubtractiveCone/fr](wiki/PartDesign SubtractiveCone/fr.md) |
+| [PartDesign SubtractiveCylinder/fr](wiki/PartDesign SubtractiveCylinder/fr.md) | [PartDesign SubtractiveEllipsoid/fr](wiki/PartDesign SubtractiveEllipsoid/fr.md) | [PartDesign SubtractiveHelix/fr](wiki/PartDesign SubtractiveHelix/fr.md) |
+| [PartDesign SubtractiveLoft/fr](wiki/PartDesign SubtractiveLoft/fr.md) | [PartDesign SubtractivePipe/fr](wiki/PartDesign SubtractivePipe/fr.md) | [PartDesign SubtractivePrism/fr](wiki/PartDesign SubtractivePrism/fr.md) |
+| [PartDesign SubtractiveSphere/fr](wiki/PartDesign SubtractiveSphere/fr.md) | [PartDesign SubtractiveTorus/fr](wiki/PartDesign SubtractiveTorus/fr.md) | [PartDesign SubtractiveWedge/fr](wiki/PartDesign SubtractiveWedge/fr.md) |
+| [PartDesign Thickness/fr](wiki/PartDesign Thickness/fr.md) | [Template:PartDesign Tools navi/fr](wiki/Template_PartDesign Tools navi/fr.md) | [PartDesign WizardShaft/fr](wiki/PartDesign WizardShaft/fr.md) |
+| [PartDesign Workbench/fr](wiki/PartDesign Workbench/fr.md) | [Thread for Screw Tutorial/fr](wiki/Thread for Screw Tutorial/fr.md) | [Toothbrush Head Stand/fr](wiki/Toothbrush Head Stand/fr.md) |
+| [Topological naming problem/fr](wiki/Topological naming problem/fr.md) |
 
 
 

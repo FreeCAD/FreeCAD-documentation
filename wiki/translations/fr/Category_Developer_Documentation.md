@@ -48,8 +48,9 @@ Cette catégorie rassemble les articles de documentation s\'adressant surtout au
 | [Sphinx/fr](wiki/Sphinx/fr.md) | [Start up and Configuration/fr](wiki/Start up and Configuration/fr.md) | [Testing/fr](wiki/Testing/fr.md) |
 | [The FreeCAD source code/fr](wiki/The FreeCAD source code/fr.md) | [Third Party Libraries/fr](wiki/Third Party Libraries/fr.md) | [Third Party Tools/fr](wiki/Third Party Tools/fr.md) |
 | [Topological data scripting/fr](wiki/Topological data scripting/fr.md) | [Tracker/fr](wiki/Tracker/fr.md) | [Translating an external workbench/fr](wiki/Translating an external workbench/fr.md) |
-| [Viewprovider/fr](wiki/Viewprovider/fr.md) | [Windows packaging/fr](wiki/Windows packaging/fr.md) | [Workbench creation/fr](wiki/Workbench creation/fr.md) |
-| [Wrapping a Cplusplus class in Python/fr](wiki/Wrapping a Cplusplus class in Python/fr.md) | [Category:Packaging/fr](wiki/Category_Packaging/fr.md) |
+| [Ubuntu Snap/fr](wiki/Ubuntu Snap/fr.md) | [Viewprovider/fr](wiki/Viewprovider/fr.md) | [Windows packaging/fr](wiki/Windows packaging/fr.md) |
+| [Workbench creation/fr](wiki/Workbench creation/fr.md) | [Wrapping a Cplusplus class in Python/fr](wiki/Wrapping a Cplusplus class in Python/fr.md) | [Category:Packaging/fr](wiki/Category_Packaging/fr.md) |
+|
 
 
 

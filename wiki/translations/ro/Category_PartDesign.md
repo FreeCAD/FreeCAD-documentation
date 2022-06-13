@@ -18,12 +18,13 @@ This category includes FreeCAD pages related to PartDesign
 | [PartDesign MoveFeatureInTree/ro](wiki/PartDesign MoveFeatureInTree/ro.md) | [PartDesign MoveTip/ro](wiki/PartDesign MoveTip/ro.md) | [PartDesign MultiTransform/ro](wiki/PartDesign MultiTransform/ro.md) |
 | [PartDesign NewSketch/ro](wiki/PartDesign NewSketch/ro.md) | [PartDesign Pad/ro](wiki/PartDesign Pad/ro.md) | [PartDesign Plane/ro](wiki/PartDesign Plane/ro.md) |
 | [PartDesign Pocket/ro](wiki/PartDesign Pocket/ro.md) | [PartDesign Point/ro](wiki/PartDesign Point/ro.md) | [PartDesign PolarPattern/ro](wiki/PartDesign PolarPattern/ro.md) |
-| [PartDesign Revolution/ro](wiki/PartDesign Revolution/ro.md) | [PartDesign ShapeBinder/ro](wiki/PartDesign ShapeBinder/ro.md) | [PartDesign SubtractiveBox/ro](wiki/PartDesign SubtractiveBox/ro.md) |
-| [PartDesign SubtractiveCone/ro](wiki/PartDesign SubtractiveCone/ro.md) | [PartDesign SubtractiveCylinder/ro](wiki/PartDesign SubtractiveCylinder/ro.md) | [PartDesign SubtractiveEllipsoid/ro](wiki/PartDesign SubtractiveEllipsoid/ro.md) |
-| [PartDesign SubtractiveLoft/ro](wiki/PartDesign SubtractiveLoft/ro.md) | [PartDesign SubtractivePipe/ro](wiki/PartDesign SubtractivePipe/ro.md) | [PartDesign SubtractivePrism/ro](wiki/PartDesign SubtractivePrism/ro.md) |
-| [PartDesign SubtractiveSphere/ro](wiki/PartDesign SubtractiveSphere/ro.md) | [PartDesign SubtractiveTorus/ro](wiki/PartDesign SubtractiveTorus/ro.md) | [PartDesign SubtractiveWedge/ro](wiki/PartDesign SubtractiveWedge/ro.md) |
-| [PartDesign Thickness/ro](wiki/PartDesign Thickness/ro.md) | [PartDesign WizardShaft/ro](wiki/PartDesign WizardShaft/ro.md) | [PartDesign Workbench/ro](wiki/PartDesign Workbench/ro.md) |
-| [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) | [Toothbrush Head Stand/ro](wiki/Toothbrush Head Stand/ro.md) |
+| [PartDesign Revolution/ro](wiki/PartDesign Revolution/ro.md) | [PartDesign Scaled/ro](wiki/PartDesign Scaled/ro.md) | [PartDesign ShapeBinder/ro](wiki/PartDesign ShapeBinder/ro.md) |
+| [PartDesign SubtractiveBox/ro](wiki/PartDesign SubtractiveBox/ro.md) | [PartDesign SubtractiveCone/ro](wiki/PartDesign SubtractiveCone/ro.md) | [PartDesign SubtractiveCylinder/ro](wiki/PartDesign SubtractiveCylinder/ro.md) |
+| [PartDesign SubtractiveEllipsoid/ro](wiki/PartDesign SubtractiveEllipsoid/ro.md) | [PartDesign SubtractiveLoft/ro](wiki/PartDesign SubtractiveLoft/ro.md) | [PartDesign SubtractivePipe/ro](wiki/PartDesign SubtractivePipe/ro.md) |
+| [PartDesign SubtractivePrism/ro](wiki/PartDesign SubtractivePrism/ro.md) | [PartDesign SubtractiveSphere/ro](wiki/PartDesign SubtractiveSphere/ro.md) | [PartDesign SubtractiveTorus/ro](wiki/PartDesign SubtractiveTorus/ro.md) |
+| [PartDesign SubtractiveWedge/ro](wiki/PartDesign SubtractiveWedge/ro.md) | [PartDesign Thickness/ro](wiki/PartDesign Thickness/ro.md) | [PartDesign WizardShaft/ro](wiki/PartDesign WizardShaft/ro.md) |
+| [PartDesign Workbench/ro](wiki/PartDesign Workbench/ro.md) | [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) | [Toothbrush Head Stand/ro](wiki/Toothbrush Head Stand/ro.md) |
+|
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Line
    Name/fr   *Draft Ligne
-   MenuLocation   *Esquisse → Ligne
+   MenuLocation   *Draft → Ligne
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***L** **I**
    Version   *0.7
@@ -26,7 +26,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le **<img src="images/Draft_Line.svg" width=16px> [Ligne](Draft_Line/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Line.svg" width=16px> Ligne** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Line.svg" width=16px> Ligne** dans le menu.
     -   Utilisez le raccourci clavier    * **L** puis **I**.
 2.  Le panneau de tâches **Ligne** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.

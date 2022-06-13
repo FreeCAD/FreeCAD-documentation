@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM ConstraintHeatflux
-   Name/fr   *FEM Contrainte flux de chaleur
-   MenuLocation   *Model → Thermal Constraints → Constraint heatflux
+   Name/fr   *FEM Contrainte de flux de chaleur
+   MenuLocation   *Modèle → Contraintes thermiques → Contrainte de flux de chaleur
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
@@ -16,8 +16,8 @@ Cette contrainte spécifie l\'échange de chaleur (transfert de chaleur par film
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintHeatflux.svg" width=16px> [Create a FEM contrainst for a heatflux...](FEM_ConstraintHeatflux/fr.md)**.
-    -   Sélectionnez l\'option **Model → Thermal Constraints → <img src="images/FEM_ConstraintHeatflux.svg" width=16px> Constraint heatflux** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintHeatflux.svg" width=16px> [Contrainte de flux de chaleur](FEM_ConstraintHeatflux/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → Contraintes thermiques → <img src="images/FEM_ConstraintHeatflux.svg" width=16px> Contrainte de flux de chaleur** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez la ou les faces auxquelles la contrainte doit être appliquée.
 3.  Entrez la température de surface, le coefficient de film et la température ambiante souhaités.
 

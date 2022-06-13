@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Ellipse
    Name/fr   *Draft Ellipse
-   MenuLocation   *Esquisse → Ellipse
+   MenuLocation   *Draft → Ellipse
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***E** **L**
    Version   *0.7
@@ -25,7 +25,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Ellipse.svg" width=16px> [Ellipse](Draft_Ellipse/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** dans le menu.
     -   Utilisez le raccourci clavier    * **E** puis **L**.
 2.  Le panneau de tâches **Ellipse** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.

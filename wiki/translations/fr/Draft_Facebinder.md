@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Facebinder
    Name/fr   *Draft Surfaces liées
-   MenuLocation   *Esquisse → Surfaces liées
+   MenuLocation   *Draft → Surfaces liées
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***F** **F**
    Version   *0.14
@@ -24,7 +24,7 @@ Elle peut être utilisée pour créer une extrusion à partir d\'une combinaison
 1.  Sélectionnez une ou plusieurs faces.
 2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Facebinder.svg" width=16px> [Surfaces liées](Draft_Facebinder/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées** dans le menu.
     -   Utilisez le raccourci clavier    * **F** puis **F**.
 
 ## Propriétés

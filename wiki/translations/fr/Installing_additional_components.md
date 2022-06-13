@@ -7,7 +7,7 @@ Après avoir installé FreeCAD sur votre système d\'exploitation ([Windows](Ins
 
 # Fichiers d\'aide 
 
-La documentation hors ligne n\'est pas fournie avec tous les programmes d\'installation mais elle est disponible sous forme de package distinct. Consultez la page [Installation du fichier d\'aide](Installing_Helpfile/fr.md) pour plus d\'informations.
+Voir [Installation du fichier d\'aide](Installing_Helpfile/fr.md).
 
 # Ateliers externes 
 

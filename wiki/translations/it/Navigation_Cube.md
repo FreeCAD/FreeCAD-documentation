@@ -7,109 +7,63 @@
 
 {{TOCright}}
 
-## Introduction
+## Introduzione
 
+Il **Cubo di Navigazione** dà un\'informazione visiva riguardo l\'orientamento della telecamera nella [vista 3D](3D_view/it.md) attuale e può essere utilizzato per cambiarla. Di default è visibile e si trova nell\'angolo in alto a destra della vista.
 
-<div class="mw-translate-fuzzy">
-
-Il controllo cubo di navigazione, o **cubo di navigazione**, è un aiuto grafico dell\'interfaccia utente per riorientare la vista 3D. Per impostazione predefinita, è visibile e si trova nell\'angolo in alto a destra del display 3D. Nella vista 3D standard appare in questo modo   *
-
-
-</div>
-
-The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this page describes that version. In FreeCAD version 0.19 the main behavior is the same but some features are missing.
+Il Cubo di Navigazione è stato aggiornato in FreeCAD versione 0.20 e il resto di questa pagina descrive questa versione. In FreeCAD versione 0.19 il comportamento principale è lo stesso ma mancano alcune funzionalità.
 
 ![](images/Navigation_Cube_Example.png )
 
+Il Cubo di Navigazione consiste in un certo numero di parti   *
 
-<div class="mw-translate-fuzzy">
+-   Il [cubo principale](#Cubo_Principale.md)
+-   Sei [freccie direzionali](#Frecce_Direzionali.md)
+-   Il [bottone inversione vista](#Bottone_Inversione_Vista.md) (in alto a destra) {{Version/it|0.20}}
+-   Il [menu mini-cubo](#Menu_Mini-Cubo.md) (in basso a destra)
+-   Gli indicatori degli assi X, Y e Z
 
-Il cubo di navigazione è costituito da diverse parti   *
+Tutte le parti, eccetto gli indicatori degli assi, possono essere cliccate.
 
--   Frecce direzionali
--   Parte principale del Cubo di navigazione
--   Menu del mini-cubo
+## Utilizzo
 
+### Cubo Principale 
 
-</div>
+Il cubo principale ha 26 facce   * 6 facce principali quadrate, 12 facce di bordo rettangolari ({{Version/it|0.20}}) e 8 facce d\'angolo triangolari. Facendo clic su uno di essi si riorienterà la telecamera in modo che la sua direzione sia perpendicolare alla faccia selezionata.
 
-All parts, except the axis indicators, can be clicked.
+### Frecce Direzionali 
 
-## Usage
+Ci sono sei frecce direzionali   * quattro freccie con punte triangolari e due frecce curve. Facendo clic su una delle frecce triangolari, la [Vista 3D](3D_view/it.md) ruota attorno a una linea perpendicolare alla direzione della freccia. Facendo clic su una freccia curva, la [Vista 3D](3D_view/it.md) ruota attorno alla direzione della vista.
 
-### Main cube 
+### Bottone Inversione Vista 
 
-The main cube has 26 faces   * 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
+Facendo clic sul pulsante rotondo nell\'angolo in alto a destra del Cubo di navigazione, la [Vista 3D](3D_view/it.md) ruoterà di 180 gradi attorno all\'asse verticale della vista.
 
+### Menu Mini-Cubo 
 
-<div class="mw-translate-fuzzy">
+Facendo clic sul cubo nell\'angolo inferiore destro del Cubo di Navigazione verrà visualizzato un menu con le seguenti opzioni   *
 
-## Frecce direzionali 
+-    **[Ortografica](Std_OrthographicCamera/it.md)**   * passa a una vista ortogonale.
 
+-    **[Prospettica](Std_PerspectiveCamera/it.md)**   * passa a una vista prospettica.
 
-</div>
+-    **[Isometrica](Std_ViewIsometric/it.md)**   * passa a una vista isometrica.
 
+-    **[Adatta alla finestra](Std_ViewFitAll/it.md)**   * esegue lo zoom e lo spostamento della telecamera in modo che tutti gli oggetti visibili rientrino nella vista.
 
-<div class="mw-translate-fuzzy">
+## Personalizzazione
 
-Ci sono sei frecce direzionali   * quattro punte di freccia triangolari, una in alto, in basso, a sinistra e a destra; e due frecce curve, una su ciascun lato della freccia in alto.
+### Muovere il Cubo di Navigazione 
 
+L\'intero cubo di navigazione può essere spostato cliccando col mouse in un punto qualsiasi del cubo principale e trascinandolo. La struttura non inizierà a muoversi finché il cursore non si sposta oltre uno dei bordi del cubo principale.
 
-</div>
+### Preferenze
 
-### Reverse view button 
+Il Cubo di navigazione è controllato da diverse preferenze   * **Modifica → Preferenze... → Visualizzazione → Navigazione → Cubo di navigazione**. Vedere [Impostare le Preferenze](Preferences_Editor/it#Navigazione.md).
 
-Clicking the round button in the top right corner of the Navigation Cube will rotate the [3D view](3D_view.md) 180 degrees around the vertical axis of the view.
+### Impostazioni Avanzate 
 
-
-<div class="mw-translate-fuzzy">
-
-## Menu del mini-cubo 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Nell\'angolo in basso a destra del cubo di navigazione c\'è un piccolo cubo. Cliccando su questo cubo si apre un menu per cambiare il tipo di vista (ortografica, prospettiva, isometrica) e fare uno \"Zoom per adattare la vista\".
-
-
-</div>
-
-## Customization
-
-### Move the Navigation Cube 
-
-
-<div class="mw-translate-fuzzy">
-
-## Spostare il cubo di navigazione 
-
-È possibile spostare l\'intera struttura di controllo del cubo di navigazione in un\'altra posizione nella visualizzazione 3D premendo il mouse in qualsiasi punto del cubo di navigazione principale e trascinando. La struttura non inizia a muoversi finché il puntatore del mouse non viene spostato oltre il bordo del cubo di navigazione principale.
-
-
-</div>
-
-### Preferences
-
-
-<div class="mw-translate-fuzzy">
-
-Il cubo di navigazione è configurabie, compresa la regolazione della sua dimensione   * **Modifica → Preferenze... → Visualizzazione → Navigazione → Cubo di navigazione** <small>(v0.19)</small> .
-
-
-</div>
-
-### Advanced options 
-
-
-<div class="mw-translate-fuzzy">
-
-Per una configurazione più avanzata, fare riferimento a [CubeMenu](Interface_Customization/it#CubeMenu.md) [ambienti complementari](External_workbenches/it.md).
-
-
-</div>
+L\'ambiente di lavoro esterno [CubeMenu](Interface_Customization/it#CubeMenu.md) fornisce un accesso più semplice a diverse opzioni di personalizzazione più avanzate.
 
 
 {{docnav/it

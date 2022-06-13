@@ -31,7 +31,7 @@ Dává řadu informací o vybraném tvaru a může zobrazit konverzi délky, skl
 </div>
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ecf1b82162b7a9e600c9ee511410ddf06c6e534/FCInfo_en_Ver_1-25d-rmu_Docked.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/5577cf1a8818a4cbc5790cce335df158713b5841/FCInfo_en_Ver_1-26c-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width   *480px;"> 
 *FCInfo*
@@ -358,10 +358,16 @@ Download image positioning on the icon <img alt="" src=images/FCInfo.png  style=
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
+
+<div class="mw-translate-fuzzy">
+
 Tam je také FCInfo\_Alternate\_Linux pouze pro FreeCAD verze 0.13 \... a PyQt4
 
 
 <div class="mw-collapsible-content">
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -389,7 +395,25 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 
 </div>
 
-Stažení souboru ikon [Macro\_FCInfo\_Icon](https   *//forum.freecadweb.org/download/file.php?id=50755) rozbalte a zkopírujte ikonu ve stejném adresáři makra
+Example    * 
+```python
+global uniteSs       ; uniteSs       = u"mm²"
+global uniteVs       ; uniteVs       = u"mm³"
+global uniteAs       ; uniteAs       = u"°"
+``` remplacés par 
+```python
+global uniteSs       ; uniteSs       = "mm"+iso8859(unichr(178)) # also   *  carre    hex="\xb2"  # also   *  html=<span>&#178;</span>
+global uniteVs       ; uniteVs       = "mm"+iso8859(unichr(179)) # also   *  cube     hex="\xb3"  # also   *  html=<span>&#179;</span>
+global uniteAs       ; uniteAs       = iso8859(unichr(176))      # also   *  degrees  hex="\xb0"  # also   *  html=<span>&#176;</span>
+                                     = iso8859(unichr(181))      # also   *  micro    hex="\xB5"  # also   *  html=<span>&#181;</span>
+``` **Files saved with this version is incompatible with the other version (docked or not)**
+
+
+</div>
+
+
+</div>
+
 
 
 <div class="mw-translate-fuzzy">
@@ -466,7 +490,19 @@ Sdružení látky s její hustotou
 
 </div>
 
+-   ver 1.26b 20/02/2022 upgrade for detect BSpline in SubObject
 
+-   ver 1.26 06/02/2022 add info on Mesh and Points objects, decode colours, duplicate object or subObject, memorize the latest path and other preferences options
+
+-   ver 1.25e 18/12/2021 add info detailed to BSpline (ToByArcs) and info \"sel\[0\].TypeId\"
+-   ver 1.25d 12/12/2021 \-\--
+-   ver 1.25c 12/12/2021 correct \"strAround((\" by \"str(Around(\" and other little \...
+-   ver 1.25b 11/12/2021 correction error in change/modify new material and reorganization
+-   ver 1.25 10/12/2021 PySide2 and add comboBox materials
+-   ver 1.24 02/12/2021 add [adjustedGlobalPlacement](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=59852) modified by edwilliams16 for placement with Body, boundbox tracing
+-   ver 1.23cb 25/11/2021 delete **\"import Sketcher \* \"** create conflict with \"**open(OpenName, \"r\")**\" ??
+
+Adding 
 ```python
 FreeCAD.ActiveDocument.openTransaction(u"FCInfo")    # memorise les actions (avec annuler restore)
 FreeCAD.ActiveDocument.commitTransaction()           # restore les actions  (avec annuler restore)

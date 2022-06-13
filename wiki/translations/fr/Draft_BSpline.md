@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft BSpline
    Name/fr   *Draft B-spline
-   MenuLocation   *Esquisse → B-spline
+   MenuLocation   *Draft → B-spline
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***B** **S**
    Version   *0.7
@@ -26,7 +26,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons d\'invoquer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_BSpline.svg" width=16px> [B-spline](Draft_BSpline/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_BSpline.svg" width=16px> B-spline** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_BSpline.svg" width=16px> B-spline** dans le menu.
     -   Utilisez le raccourci clavier    * **B** puis **S**.
 2.  Le panneau de tâches **B-spline** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.

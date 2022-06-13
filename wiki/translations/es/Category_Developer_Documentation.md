@@ -30,8 +30,8 @@ Esta categoría recopila documentación de artículos principalmente dirigidos a
 | [Source documentation/es](wiki/Source documentation/es.md) | [Start up and Configuration/es](wiki/Start up and Configuration/es.md) | [Testing/es](wiki/Testing/es.md) |
 | [The FreeCAD source code/es](wiki/The FreeCAD source code/es.md) | [Third Party Libraries/es](wiki/Third Party Libraries/es.md) | [Third Party Tools/es](wiki/Third Party Tools/es.md) |
 | [Topological data scripting/es](wiki/Topological data scripting/es.md) | [Tracker/es](wiki/Tracker/es.md) | [Translating an external workbench/es](wiki/Translating an external workbench/es.md) |
-| [Windows packaging/es](wiki/Windows packaging/es.md) | [Workbench creation/es](wiki/Workbench creation/es.md) | [Category:Artwork/es](wiki/Category_Artwork/es.md) |
-|
+| [Ubuntu Snap/es](wiki/Ubuntu Snap/es.md) | [Windows packaging/es](wiki/Windows packaging/es.md) | [Workbench creation/es](wiki/Workbench creation/es.md) |
+| [Category:Artwork/es](wiki/Category_Artwork/es.md) |
 
 
 

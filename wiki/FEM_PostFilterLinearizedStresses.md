@@ -12,6 +12,12 @@
 
 Creates a stress linearization plot.
 
+To learn more about stress linearization plots, you can read [this description](https   *//www.graspengineering.com/what-is-stress-linearization/).
+
+ <img alt="" src=images/FEM_Stress-Linearization-Plot-Example.png  style="width   *500px;"> 
+
+*A stress linearization plot.*
+
 ## Usage
 
 1.  Select a previously created [Line clip filter](FEM_PostFilterDataAlongLine.md).

@@ -68,7 +68,7 @@ balises doit entourer la page entière pour activer le système de traduction, e
 
 Pour voir un exemple de comment l\'outil de traduction fonctionne, vous pouvez visiter la [Page principale](Main_Page/fr.md). Vous verrez qu\'une barre de menu de langues est automatiquement générée en haut de page. Cliquez par exemple sur le lien *français* et vous serez redirigé sur [Main\_Page/fr](Main_Page/fr.md). Juste sous le titre, vous pourrez lire  (XX étant le pourcentage de traduction réalisé). Cliquez sur le lien \"Traduire\" pour lancer l\'utilitaire de traduction pour mettre à jour, corriger ou revoir une traduction existante.
 
-Si vous allez sur [WIKI    * Page principale](Main_Page/fr.md), vous remarquerez que vous ne pouvez plus \"éditer\" directement une page une fois qu\'elle a été marquée pour \"traduction\". Vous devez passer par l\'outil de traduction.
+Si vous vous rendez sur la [Page principale](Main_Page/fr.md), vous remarquerez que vous ne pouvez plus modifier la page directement en cliquant sur les balises \[Edit\], et que le lien supérieur \"Modifier\" a été remplacé par le lien \"Traduire\" qui ouvre l\'utilitaire de traduction.
 
 Lors de l\'ajout de nouveau contenu, la page anglaise devrait être créée en premier, puis traduite dans une autre langue. Si vous désirez changer ou ajouter du contenu dans une page, la modification doit en premier se faire dans la page anglaise.
 

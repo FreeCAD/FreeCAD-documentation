@@ -76,7 +76,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 ### Contraintes mécaniques 
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width   *32px;"> [Contrainte fixe](FEM_ConstraintFixed/fr.md)    * Utilisé pour définir une contrainte fixe sur le point/bord/face(s).
+-   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width   *32px;"> [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md)    * Utilisé pour définir une contrainte d\'immobilisation sur le point/bord/face(s).
 
 -   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width   *32px;"> [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md)    * Utilisé pour définir une contrainte de déplacement sur le point/bord/face(s).
 

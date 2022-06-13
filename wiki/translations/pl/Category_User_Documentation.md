@@ -162,18 +162,18 @@ Ta kategoria zawiera artykuły na temat sposobu używania FreeCAD. Jest to równ
 | [FEM EquationElasticity/pl](wiki/FEM EquationElasticity/pl.md) | [FEM EquationElectricforce/pl](wiki/FEM EquationElectricforce/pl.md) | [FEM EquationElectrostatic/pl](wiki/FEM EquationElectrostatic/pl.md) |
 | [FEM EquationFlow/pl](wiki/FEM EquationFlow/pl.md) | [FEM EquationFlux/pl](wiki/FEM EquationFlux/pl.md) | [FEM EquationHeat/pl](wiki/FEM EquationHeat/pl.md) |
 | [FEM Example Capacitance Two Balls/pl](wiki/FEM Example Capacitance Two Balls/pl.md) | [FEM Examples/pl](wiki/FEM Examples/pl.md) | [FEM FemMesh2Mesh/pl](wiki/FEM FemMesh2Mesh/pl.md) |
-| [FEM FrontISTR Workbench/pl](wiki/FEM FrontISTR Workbench/pl.md) | [FEM Install/pl](wiki/FEM Install/pl.md) | [FEM MaterialFluid/pl](wiki/FEM MaterialFluid/pl.md) |
-| [FEM MaterialMechanicalNonlinear/pl](wiki/FEM MaterialMechanicalNonlinear/pl.md) | [FEM MaterialReinforced/pl](wiki/FEM MaterialReinforced/pl.md) | [FEM MaterialSolid/pl](wiki/FEM MaterialSolid/pl.md) |
-| [FEM Mesh CalculiX/pl](wiki/FEM Mesh CalculiX/pl.md) | [FEM Mesh/pl](wiki/FEM Mesh/pl.md) | [FEM MeshBoundaryLayer/pl](wiki/FEM MeshBoundaryLayer/pl.md) |
-| [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) | [FEM MeshDisplayInfo/pl](wiki/FEM MeshDisplayInfo/pl.md) | [FEM MeshGmshFromShape/pl](wiki/FEM MeshGmshFromShape/pl.md) |
-| [FEM MeshGroup/pl](wiki/FEM MeshGroup/pl.md) | [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) | [FEM MeshRegion/pl](wiki/FEM MeshRegion/pl.md) |
-| [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) | [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) | [FEM PostFilterClipRegion/pl](wiki/FEM PostFilterClipRegion/pl.md) |
-| [FEM PostFilterClipScalar/pl](wiki/FEM PostFilterClipScalar/pl.md) | [FEM PostFilterCutFunction/pl](wiki/FEM PostFilterCutFunction/pl.md) | [FEM PostFilterDataAlongLine/pl](wiki/FEM PostFilterDataAlongLine/pl.md) |
-| [FEM PostFilterDataAtPoint/pl](wiki/FEM PostFilterDataAtPoint/pl.md) | [FEM PostFilterLinearizedStresses/pl](wiki/FEM PostFilterLinearizedStresses/pl.md) | [FEM PostFilterWarp/pl](wiki/FEM PostFilterWarp/pl.md) |
-| [FEM PostPipelineFromResult/pl](wiki/FEM PostPipelineFromResult/pl.md) | [FEM Preferences/pl](wiki/FEM Preferences/pl.md) | [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) |
-| [FEM ResultsPurge/pl](wiki/FEM ResultsPurge/pl.md) | [FEM Shear of a Composite Block/pl](wiki/FEM Shear of a Composite Block/pl.md) | [FEM Solver/pl](wiki/FEM Solver/pl.md) |
-| [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverCalculixCxxtools/pl](wiki/FEM SolverCalculixCxxtools/pl.md) | [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) |
-| [FEM SolverElmer/pl](wiki/FEM SolverElmer/pl.md) | [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) |
+| [FEM FrontISTR Workbench/pl](wiki/FEM FrontISTR Workbench/pl.md) | [FEM Install/pl](wiki/FEM Install/pl.md) | [FEM MaterialEditor/pl](wiki/FEM MaterialEditor/pl.md) |
+| [FEM MaterialFluid/pl](wiki/FEM MaterialFluid/pl.md) | [FEM MaterialMechanicalNonlinear/pl](wiki/FEM MaterialMechanicalNonlinear/pl.md) | [FEM MaterialReinforced/pl](wiki/FEM MaterialReinforced/pl.md) |
+| [FEM MaterialSolid/pl](wiki/FEM MaterialSolid/pl.md) | [FEM Mesh CalculiX/pl](wiki/FEM Mesh CalculiX/pl.md) | [FEM Mesh/pl](wiki/FEM Mesh/pl.md) |
+| [FEM MeshBoundaryLayer/pl](wiki/FEM MeshBoundaryLayer/pl.md) | [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) | [FEM MeshDisplayInfo/pl](wiki/FEM MeshDisplayInfo/pl.md) |
+| [FEM MeshGmshFromShape/pl](wiki/FEM MeshGmshFromShape/pl.md) | [FEM MeshGroup/pl](wiki/FEM MeshGroup/pl.md) | [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) |
+| [FEM MeshRegion/pl](wiki/FEM MeshRegion/pl.md) | [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) | [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) |
+| [FEM PostFilterClipRegion/pl](wiki/FEM PostFilterClipRegion/pl.md) | [FEM PostFilterClipScalar/pl](wiki/FEM PostFilterClipScalar/pl.md) | [FEM PostFilterCutFunction/pl](wiki/FEM PostFilterCutFunction/pl.md) |
+| [FEM PostFilterDataAlongLine/pl](wiki/FEM PostFilterDataAlongLine/pl.md) | [FEM PostFilterDataAtPoint/pl](wiki/FEM PostFilterDataAtPoint/pl.md) | [FEM PostFilterLinearizedStresses/pl](wiki/FEM PostFilterLinearizedStresses/pl.md) |
+| [FEM PostFilterWarp/pl](wiki/FEM PostFilterWarp/pl.md) | [FEM PostPipelineFromResult/pl](wiki/FEM PostPipelineFromResult/pl.md) | [FEM Preferences/pl](wiki/FEM Preferences/pl.md) |
+| [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) | [FEM ResultsPurge/pl](wiki/FEM ResultsPurge/pl.md) | [FEM Shear of a Composite Block/pl](wiki/FEM Shear of a Composite Block/pl.md) |
+| [FEM Solver/pl](wiki/FEM Solver/pl.md) | [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverCalculixCxxtools/pl](wiki/FEM SolverCalculixCxxtools/pl.md) |
+| [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) | [FEM SolverElmer/pl](wiki/FEM SolverElmer/pl.md) |
 
 
 

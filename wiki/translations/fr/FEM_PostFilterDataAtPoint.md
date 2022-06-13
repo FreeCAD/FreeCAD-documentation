@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *FEM PostFilterDataAtPoint
-   Name/fr   *FEM Données du filtre d'écrêtage d'un point
+   Name/fr   *FEM Données du filtre d'écrêtage du point
    MenuLocation   *Résultats → Données du filtre d'écrêtage du point
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)

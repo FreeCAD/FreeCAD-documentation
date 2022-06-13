@@ -442,7 +442,7 @@ class ViewProviderOctahedron   *
      self.color = coin.SoBaseColor()
 
      self.data=coin.SoCoordinate3()
-     self.face=coin.SoIndexedLineSet()
+     self.face=coin.SoIndexedFaceSet()
 
      self.shaded.addChild(self.scale)
      self.shaded.addChild(self.color)

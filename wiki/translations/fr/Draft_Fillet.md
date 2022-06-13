@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft Fillet
    Name/fr   *Draft Congé
-   MenuLocation   *Esquisse → Congé
+   MenuLocation   *Draft → Congé
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut   ***F** **I**
    Version   *0.19
@@ -23,7 +23,7 @@ La commande <img alt="" src=images/Draft_Fillet.svg  style="width   *24px;"> **D
 1.  Sélectionnez deux [Draft Lignes](Draft_Line/fr.md) qui se rejoignent en un seul point.
 2.  Il y a plusieurs façons de lancer la commande    *
     -   Appuyez sur le **<img src="images/Draft_Fillet.svg" width=16px> [Congé](Draft_Fillet/fr.md)**.
-    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Fillet.svg" width=16px> Congé** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Fillet.svg" width=16px> Congé** dans le menu.
     -   Utilisez le raccourci clavier    * **F** puis **I**.
 3.  Saisissez le **Rayon du congé**. Si l\'option **Créer un chanfrein** est sélectionnée, ce sera la taille du chanfrein (la longueur de la règle). Notez que la commande n\'aboutira pas si le rayon ou la taille du chanfrein est trop grand pour les lignes sélectionnées.
 4.  Vérifiez éventuellement l\'option **Supprimer les objets originaux**.

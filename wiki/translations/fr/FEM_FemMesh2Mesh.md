@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM FemMesh2Mesh
-   Name/fr   *FEM Maillage à maillage MEF
-   MenuLocation   *Mesh → Maillage à maillage
+   Name/fr   *FEM Maillage à maillage FEM
+   MenuLocation   *Maillage → Maillage à maillage FEM
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
@@ -11,17 +11,17 @@
 
 ## Description
 
-Cet outil converti une surface un élément 3D ou un élément FEM maille sélectionné en un élément maille . En interne, l\'élément FEM maille choisi est unique (non partagé entre deux éléments) et l\'utilise pour créer une face ou un élément maille. Optionnellement il permet de créer un maillage déformé causé par les forces établies . Ceci est fait par ajout du déplacement de FEM résultant des nœuds du maillage.
+Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélectionné en maillage. En interne, il choisit les faces des éléments du maillage FEM qui sont uniques (non partagées par deux éléments) et les utilise pour créer les faces d\'un maillage. En option, il permet de créer un maillage déformé par l\'action des forces définies. Ceci est fait en ajoutant le déplacement des résultats FEM aux nœuds du maillage.
 
-Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vous devez les convertir, vous pouvez utiliser le script python ci-dessous.
+Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vous devez les convertir, vous pouvez utiliser le script Python ci-dessous.
 
 ## Utilisation
 
-1.  Sélectionnez un objet de maillage MEF.
+1.  Sélectionnez un objet de maillage FEM.
 2.  En option, sélectionnez également les résultats FEM.
 3.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Convertir la surface maillage MEF en maillage](FEM_FemMesh2Mesh/fr.md)**.
-    -   Sélectionnez l\'option **Mesh → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> MEF maillage à maillage** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Maillage à maillage FEM ](FEM_FemMesh2Mesh/fr.md)**.
+    -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage à maillage FEM ** dans le menu.
 
 ## Script
 

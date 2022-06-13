@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM MeshRegion
-   Name/fr   *FEM Région de maillage MEF
-   MenuLocation   *Mesh → Région de maillage FEM
+   Name/fr   *FEM Région de maillage FEM
+   MenuLocation   *Maillage → Région de maillage FEM
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
@@ -11,15 +11,15 @@
 
 ## Description
 
-FEM Région de maillage MEF permet à l\'utilisateur de définir un ensemble localisé de paramètres de maillage en sélectionnant un ensemble d\'éléments (Vertex-points, Edge-arêtes, Face) et en lui appliquant les paramètres. Cette fonction est particulièrement utile pour affiner les maillages dans les zones d\'intérêt ou les zones où le solveur générera un gradient plus fort d\'une variable. Par exemple, elle peut être utilisée pour raffiner le maillage autour des points de contrainte (arêtes vives, cercles\...) en analyse mécanique, ou aux zones de contraction dans un écoulement de fluide.
+FEM Région de maillage FEM permet à l\'utilisateur de définir un ensemble localisé de paramètres de maillage en sélectionnant un ensemble d\'éléments (Vertex-points, Edge-arêtes, Face) et en lui appliquant les paramètres. Cette fonction est particulièrement utile pour affiner les maillages dans les zones d\'intérêt ou les zones où le solveur générera un gradient plus fort d\'une variable. Par exemple, elle peut être utilisée pour raffiner le maillage autour des points de contrainte (arêtes vives, cercles\...) en analyse mécanique, ou aux zones de contraction dans un écoulement de fluide.
 
 Le réaffinement du maillage a l\'avantage de permettre une simulation précise là où c\'est nécessaire, tout en autorisant un maillage plus grossier dans le domaine plus large, ce qui permet d\'optimiser considérablement le temps de calcul tout en conservant des solutions significatives en sortie.
 
 ## Utilisation
 
-1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [FEM Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md).
+1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [FEM Maillage MEF à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
     -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et cliquez sur le bouton <img alt="" src=images/FEM_MeshRegion.svg  style="width   *32px;">.
-    -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et sélectionnez l\'option **Mesh → <img src="images/FEM_MeshRegion.svg" width=32px> Créer une région de maillage FEM** dans le menu.
+    -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et sélectionnez l\'option **Maillage →  <img src="images/FEM_MeshRegion.svg" width=32px> Région de maillage FEM** dans le menu.
 2.  Modifiez la taille maximale des éléments pour la région.
 3.  Cliquez sur le bouton **OK**.
 4.  Fermez la tâche.

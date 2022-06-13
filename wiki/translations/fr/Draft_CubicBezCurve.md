@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Draft CubicBezCurve
    Name/fr   *Draft Courbe de Bézier cubique
-   MenuLocation   *Esquisse → Outils Bézier → Courbe de Bézier cubique
+   MenuLocation   *Draft → Outils de Bézier → Courbe de Bézier cubique
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version   *0.19
    SeeAlso   *[Draft Courbe de Bézier](Draft_BezCurve/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
@@ -27,7 +27,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md)**.
-    -   Sélectionnez la **Esquisse → Outils Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique** dans le menu.
+    -   Sélectionnez la **Draft → Outils de Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique** dans le menu.
 2.  Le panneau de tâches **Courbe cubique de Bézier** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Il n\'est pas possible de saisir des points via le panneau de tâches.
 4.  Pour les [modes de navigation par la souris](Mouse_navigation/fr.md) suivants, une touche du clavier doit être maintenue enfoncée    *

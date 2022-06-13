@@ -472,33 +472,27 @@ Więcej informacji, [FreeCAD i Raspberry Pi 4](https   *//forum.freecadweb.org/v
 
 <div class="mw-collapsible-content">
 
-There is a bug in cmake distributed by Fedora 34/35 which results in cmake failing to find the opencascade libraries. This can easily be fixed by making one minor change to the top level cmake file of opencascade installed on Fedora. Details here   * <https   *//bugzilla.redhat.com/show_bug.cgi?id=2083568>.
+W cmake dystrybuowanym przez Fedorę 34/35 jest błąd, który powoduje, że cmake nie znajduje bibliotek opencascade. Można to łatwo naprawić, wprowadzając jedną drobną zmianę do głównego poziomu pliku cmake programu opencascade zainstalowanego na Fedorze. Szczegóły tutaj   * <https   *//bugzilla.redhat.com/show_bug.cgi?id=2083568>.
 
-Near the top of the file **OpenCASCADEConfig.cmake**, change the following line to use {{Incode|REAL_PATH()}}. This fixes a bug introduced by the use of a symlink from {{Incode|/lib}} to {{Incode|/usr/lib}} of Fedora, which causes cmake to fail.
+W górnej części pliku **OpenCASCADEConfig.cmake** zmień następujący wiersz, aby użyć {{Incode|REAL_PATH()}}. Usuwa to błąd wprowadzony przez użycie linka symbolicznego z {{Incode|/lib}} do {{Incode|/usr/lib}} w Fedorze, co powodowało błąd w cmake.
 
-This file is usually installed in **/usr/lib64/cmake/opencascade/OpenCASCADEConfig.cmake**.
+Ten plik jest zwykle instalowany w **/usr/lib64/cmake/opencascade/OpenCASCADEConfig.cmake**.
 
 
 {{Code|lang=bash|code=
 get_filename_component (OpenCASCADE_INSTALL_PREFIX "${OpenCASCADE_INSTALL_PREFIX}" PATH)
 }}
 
-change this to   *
+zmień to na   *
 
 
 {{Code|lang=bash|code=
 file (REAL_PATH ${OpenCASCADE_INSTALL_PREFIX} OpenCASCADE_INSTALL_PREFIX)
 }}
 
-This trivial change needs to be made inside the build directory once cmake has been run and failed. Re-running cmake will then correctly detect the OCCT libraries in the normal way.
-
-
-<div class="mw-translate-fuzzy">
+Tę trywialną zmianę należy wprowadzić w katalogu kompilacji po uruchomieniu cmake i niepowodzeniu. Ponowne uruchomienie cmake spowoduje prawidłowe wykrycie bibliotek OCCT w normalny sposób.
 
 Potrzebne są następujące pakiety   *
-
-
-</div>
 
 -   gcc-c++ (or possibly another C++ compiler?)
 -   cmake
@@ -539,13 +533,7 @@ Potrzebne są następujące pakiety   *
 -   med
 -   med-devel
 
-
-<div class="mw-translate-fuzzy">
-
 I opcjonalnie   *
-
-
-</div>
 
 -   libspnav-devel *(do obsługi urządzeń 3Dconnexion, takich jak Space Navigator czy Space Pilot)*,
 -   python3-pivy *(https   *//bugzilla.redhat.com/show\_bug.cgi?id=458975 Pivy nie jest obowiązkowy, ale jest wymagany dla środowiska Rysunek Roboczy)*,

@@ -121,13 +121,7 @@ La `$ROOT_DIR` può essere la directory di un utente particolare.
 
 ### Metodo automatico 
 
-
-<div class="mw-translate-fuzzy">
-
 A partire da FreeCAD 0.17, utilizzare [Addon Manager](Std_AddonMgr/it.md) in **Strumenti → Addon manager** per installare una macro che è stata inclusa nel repository [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros).
-
-
-</div>
 
 
 <div class="mw-collapsible-content">
@@ -137,13 +131,7 @@ Nelle versioni precedenti di FreeCAD è possibile utilizzare due metodi automati
 -   [addons\_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * è essa stessa una macro, è il precursore del Gestore Addon ed è ospitato nel repository [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Non è necessario utilizzare questo strumento nelle recenti versioni di FreeCAD.
 -   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * è anche una macro, potrebbe essere usata per installare nuovi componenti in FreeCAD. Non è più sviluppato.
 
-
-<div class="mw-translate-fuzzy">
-
-Il metodo consigliato per installare i componenti aggiuntivi, ovvero gli [ambienti esterni](external_workbenches/it.md) e le macro, è [Addon Manager](Std_AddonMgr/it.md). Tuttavia, è ancora possibile aggiungere delle macro al prorpio sistema con i metodi manuali descritti nelle seguenti sezioni; questo è utile per sviluppare e testare il proprio codice.
-
-
-</div>
+Il metodo consigliato per installare i componenti aggiuntivi, ovvero gli [ambienti esterni](external_workbenches/it.md) e le macro, è [Addon Manager](Std_AddonMgr/it.md). Tuttavia, è ancora possibile aggiungere delle macro al proprio sistema con i metodi manuali descritti nelle seguenti sezioni; questo è utile per sviluppare e testare il proprio codice.
 
 
 </div>
