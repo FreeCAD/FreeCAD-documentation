@@ -1,17 +1,7 @@
 # Release notes 0.20/fr
-**FreeCAD 0.20 devrait sortir en juin 2022.**
-
-
-{{Message|
-Des fonctionnalités sont-elles manquantes? Mentionnez-les dans les [https   *//forum.freecadweb.org/viewtopic.php?f&#61;10&t&#61;56135 Notes de publication pour v0.20] du fil du forum.
-
-Consultez l'[aide FreeCAD](Help_FreeCAD/fr.md) pour savoir comment contribuer à FreeCAD.
-}}
-
-
 {{TOCright}}
 
-**FreeCAD 0.20** a été publié le **DD juin 2022**, téléchargez le depuis la page [Téléchargement](Download/fr.md). Cette page liste toutes les nouvelles fonctionnalités et les changements.
+**FreeCAD 0.20** a été publié le **14 juin 2022**, téléchargez le depuis la page [Téléchargement](Download/fr.md). Cette page liste toutes les nouvelles fonctionnalités et les changements.
 
 Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [Liste des fonctionnalités](Feature_list/fr#Notes_de_versions.md).
 
@@ -278,6 +268,7 @@ FreeCAD a reçu de nombreuses nouvelles fonctions de l\'API en Python    *
 -   Le maillage avec le solveur [Calculix](FEM_SolverCalculixCxxtools/fr.md) utilise désormais tous les cœurs du processeur. [Pull request \#6374](https   *//github.com/FreeCAD/FreeCAD/pull/6374)
 -   Le maillage avec [Gmsh](FEM_MeshGmshFromShape/fr.md) utilise désormais tous les cœurs du CPU. [Pull request \#6370](https   *//github.com/FreeCAD/FreeCAD/pull/6370)
 -   L\'ordre des éléments des maillages [Gmsh](FEM_MeshGmshFromShape/fr.md) peut être modifié via la boîte de dialogue de maillage. [Pull request \#4660](https   *//github.com/FreeCAD/FreeCAD/pull/4660)
+-   Le filtre de résultat [Données du filtre d\'écrêtage du point](FEM_PostFilterDataAtPoint/fr.md) fonctionne maintenant réellement    * On obtient des informations à partir des mailles de résultat en cliquant dessus ou en spécifiant une coordonnée de maille.
 -   Une nouvelle contrainte a été ajoutée    * **Modèle → Contraintes mécaniques → [<img src=images/FEM_ConstraintCentrif.svg style="width   *16px"> [Constrainte centrifuge](FEM_ConstraintCentrif/fr.md)**. [Pull request \#4738](https   *//github.com/FreeCAD/FreeCAD/pull/4738)
 -   Un nouveau solveur a été ajouté    * **Solveur → [<img src=images/FEM_SolverMystran.svg style="width   *16px"> [Solveur Mystran](FEM_SolverMystran/fr.md)**. De nombreux commits.
 -   Une nouvelle contrainte a été ajoutée    * **Modèle → Contraintes géométriques → [<img src=images/FEM_ConstraintSpring.svg style="width   *16px"> [Contrainte ressort](FEM_ConstraintSpring/fr.md)**. [Pull request \#4982](https   *//github.com/FreeCAD/FreeCAD/pull/4982)
@@ -397,7 +388,7 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
   <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                      Nouvelle fonction ![](images/Sketcher_ConstrainRadiam.svg  style="width   *24px;"> [Contrainte automatique rayon/diamètre](Sketcher_ConstrainRadiam/fr.md) permet d\'assigner automatiquement un poids sur le pôle B-spline, un diamètre sur un cercle complet ou un rayon sur un arc. Support de la multi-sélection comme outils de diamètre/rayon. [Discussion du forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request \#4855](https   *//github.com/FreeCAD/FreeCAD/pull/4855)
   <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          Nouvel outil de contrainte ![](images/Sketcher_RemoveAxesAlignment.svg  style="width   *24px;"> [Supprimer l\'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md) pour supprimer l\'alignement des axes tout en essayant de préserver la relation de contrainte de la sélection. [Main commit](https   *//github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
   \| ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                     [Sketcher Rainure](Sketcher_CreateSlot/fr.md) peut être contraint horizontalement ou verticalement soit en l\'aimantant manuellement avec la touche **Ctrl**, soit en utilisant l\'option *Auto contraintes* de Sketcher. [Pull request \#5200](https   *//github.com/FreeCAD/FreeCAD/pull/5200)
-  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif  style="width   *384px;">                             Nouvel outil <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insérer un nœud](Sketcher_BSplineInsertKnot/fr.md) pour insérer un nœud dans une B-spline existante. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) et [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
+  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif )                                          Nouvel outil ![](images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insérer un nœud](Sketcher_BSplineInsertKnot/fr.md) pour insérer un nœud dans une B-spline existante. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) et [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
    
 
 ### Autres améliorations de Sketcher 
@@ -420,9 +411,9 @@ De nouvelles options ont été ajoutées pour supporter l\'exécution de FreeCAD
 ## Atelier Spreadsheet 
 
    
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )      L\'atelier a maintenant des ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Préférences](Spreadsheet_Preferences/fr.md). Elles sont utilisées par les commandes <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Importer](Spreadsheet_Import/fr.md) et <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Exporter](Spreadsheet_Export/fr.md). [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
-  <img alt="" src=images/Spreadsheet_configuration_table_screenshot_5.png  style="width   *384px;">   Il est désormais possible de configurer les [tables de configuration](Spreadsheet_Workbench/fr#Tables_de_configuration.md). De cette façon, on peut définir différents jeux de paramètres pour la même pièce. Fait partie du [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
-  ![](images/Spreadsheet_binding-dialog.png )                                                    Les cellules peuvent désormais être [liées à d\'autres cellules](Spreadsheet_Workbench/fr#Liaison_cellulaire.md) de la même feuille de calcul ou d\'une feuille différente. Fait partie du [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )        L\'atelier a maintenant des ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Préférences](Spreadsheet_Preferences/fr.md). Elles sont utilisées par les commandes <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Importer](Spreadsheet_Import/fr.md) et <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Exporter](Spreadsheet_Export/fr.md). [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet_configuration_table_relnotes_0.20.png  style="width   *384px;">   Il est désormais possible de configurer les [tables de configuration](Spreadsheet_Workbench/fr#Tables_de_configuration.md). De cette façon, on peut définir différents jeux de paramètres pour la même pièce. Fait partie du [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+  ![](images/Spreadsheet_binding-dialog.png )                                                      Les cellules peuvent désormais être [liées à d\'autres cellules](Spreadsheet_Workbench/fr#Liaison_cellulaire.md) de la même feuille de calcul ou d\'une feuille différente. Fait partie du [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
    
 
 ### Autres améliorations de Spreadsheet 
@@ -504,7 +495,7 @@ L\'[atelier FCGear](FCGear_Workbench/fr.md) a reçu quelques améliorations    *
 
 ### Plot
 
--   Le module Plot a été supprimé de l\'atelier car il est désormais fourni par FreeCAD.
+-   Le [module Plot](Plot_Workbench/fr.md) a été supprimé de l\'atelier car il est désormais fourni par FreeCAD.
 
 ### Ship
 

@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Mesh CrossSections
    Name/fr   *Mesh Coupes
-   MenuLocation   *Maillages → Cutting → Coupes...
+   MenuLocation   *Maillages → Coupe → Coupes...
    Workbenches   *[Mesh](Mesh_Workbench/fr.md)
    SeeAlso   *[Mesh Section](Mesh_SectionByPlane/fr.md)
 ---
@@ -19,7 +19,7 @@ La commande **Mesh Coupes** crée plusieurs coupes transversales sur les objets 
 2.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_CrossSections.svg" width=16px> [Coupes](Mesh_CrossSections/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → Cutting → <img src="images/Mesh_CrossSections.svg" width=16px> Coupes..** dans le menu.
+    -   Sélectionnez l\'option **Maillages → Coupe → <img src="images/Mesh_CrossSections.svg" width=16px> Coupes..** dans le menu.
 3.  Le panneau des tâches **Coupes** s\'ouvre.
 4.  Les plans qui seront utilisés pour créer les coupes sont indiqués dans la [vue 3D](3D_view/fr.md) et seront mis à jour en fonction des entrées du panneau de tâches.
 5.  Sélectionnez le **Plan guide**   *

@@ -8,7 +8,7 @@
 |Date=2020-01-27
 |FCVersion=All
 |Download=[https   *//wiki.freecadweb.org/images/9/94/Macro_Guitar_Nut.png ToolBar icon]
-|SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard.md) <img src="images/Macro_Guitar_fretboard.png" width=24px>
+|SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard.md)
 }}
 
 ## Description
@@ -31,17 +31,15 @@ The diameter of each string is configurable and the slots can be made a configur
 
 ## Limitations
 
--   Macro file must be edited with the desired nut parameters before use
+-   Macro file must be edited with the desired nut parameters before use.
 
  
 
 ## Script
 
-
-
 ToolBar icon <img alt="" src=images/Macro_Guitar_Nut.png  style="width   *64px;">
 
-**GuitarNut.FCMacro**
+ **GuitarNut.FCMacro**
 
 
 {{MacroCode|code=

@@ -44,7 +44,13 @@
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [Армированный материал (бетон)](FEM_MaterialReinforced/ru.md)   * Позволяет выбрать из базы данных армированные материалы, состоящие из матрицы и армирования.
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Material editor](Material_editor/ru.md)   * Позволяет открыть редактор для редактирования материалов.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Material editor](FEM_MaterialEditor/ru.md)   * Позволяет открыть редактор для редактирования материалов.
+
+
+</div>
 
 ### Геометрия элемента 
 
@@ -218,7 +224,13 @@ Translations   *FEM Module/141/ru
 
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Show result](FEM_ResultShow/ru.md)   * Используется для показа результатов исследования (Von Mises Stress или Displacement).
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Apply changes to pipeline](FEM_PostApplyChanges/ru.md)   * Apply changes to parameters directly and not on recompute only\....
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -284,15 +296,33 @@ Translations   *FEM Module/141/ru
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Filter functions](FEM_PostCreateFunctions/ru.md)   *
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;">
     -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;">
 
+
+</div>
+
 ## Меню   * Утилиты 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd/ru.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Remove all clipping planes](FEM_ClippingPlaneRemoveAll/ru.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [Open FEM examples](FEM_Examples/ru.md)   * Открыть графический интерфейс для доступа к примерам МКЭ.
 

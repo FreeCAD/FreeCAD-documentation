@@ -48,7 +48,13 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [Material reforçado](FEM_MaterialReinforced/pt-br.md)   * Permite selecionar materiais reforçados constituídos por uma matriz e um reforço da base de dados.
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Editor de materiais](Material_editor/pt-br.md)   *   * Permite que você abra o editor de materiais para editar materiais.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Editor de materiais](FEM_MaterialEditor/pt-br.md)   *   * Permite que você abra o editor de materiais para editar materiais.
+
+
+</div>
 
 ### Geometria do Elemento 
 
@@ -222,7 +228,13 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Mostrar resultado](FEM_ResultShow/pt-br.md)   * Usado para exibir o resultado de uma análise.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Postar mudanças aplicadas](FEM_PostApplyChanges/pt-br.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -288,15 +300,33 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Funções de filtro](FEM_PostCreateFunctions/pt-br.md)   *
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;">
     -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;">
 
+
+</div>
+
 ## Menu   * Utilidades 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Plano de grampeamento na face](FEM_ClippingPlaneAdd/pt-br.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Remover todos os aviões de corte](FEM_ClippingPlaneRemoveAll/pt-br.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [Exemplos de FEM abertos](FEM_Examples/pt-br.md)   * Abra a GUI para acessar exemplos FEM.
 

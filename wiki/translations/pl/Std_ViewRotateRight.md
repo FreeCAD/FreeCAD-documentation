@@ -1,33 +1,34 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewRotateRight
-   MenuLocation   *View → Standard views → Rotate Right
-   Workbenches   *All
-   Shortcut   ***Shift**+**Right**
-   SeeAlso   *[Std ViewRotateLeft](Std_ViewRotateLeft.md)
+   Name/pl   *Std   * Odwróć widok w prawo
+   MenuLocation   *Widok → Widoki standardowe → Odwróć w prawo
+   Workbenches   *wszystkie
+   Shortcut   ***Shift** + **Prawo**
+   SeeAlso   *[Odwróć widok w lewo](Std_ViewRotateLeft/pl.md)
 ---
 
 # Std ViewRotateRight/pl
 
-## Description
+## Opis
 
-The **Std ViewRotateRight** command rotates the camera in the active [3D view](3D_view.md) around the view direction in 90-degree increments towards the right (clockwise).
+Polecenie **Odwróć widok w prawo** obraca widok w aktywnym oknie [widoku 3D](3D_view/pl.md) wokół osi normalnej *(prostopadłej do widoku)*, w 90-stopniowych przyrostach w prawo *(zgodnie z ruchem wskazówek zegara)*.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Select the **View → Standard views → <img src="images/Std_ViewRotateRight.svg" width=16px> Rotate Right** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewRotateRight.svg" width=16px> Rotate Right** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut   * **Shift**+**Right**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz opcję **Widok → Widoki standardowe → <img src="images/Std_ViewRotateRight.svg" width=16px|16px> Odwróć w prawo** z menu.
+    -   Wybierz opcję **Widoki standardowe → <img src="images/Std_ViewRotateRight.svg" width=16px> Odwróć w prawo** z menu podręcznego w oknie [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **Shift** + **Prawo**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To rotate the view to the right use the `viewRotateRight` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby obrócić widok w Prawo, użyj metody `viewRotateRigh` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

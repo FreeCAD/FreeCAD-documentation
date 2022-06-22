@@ -28,13 +28,7 @@ Adds nonlinear mechanical material model. Currently only plasticity with simple 
     -   Define yield points (stress vs plastic strain). The first point must have a zero plastic strain specified. Currently only 3 yield points can be defined.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

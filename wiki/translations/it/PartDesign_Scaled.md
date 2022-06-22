@@ -24,7 +24,7 @@ Lo strumento **Scala** prende come input un insieme di una o più operazioni sel
 <img alt="" src=images/PartDesign_Scaled-01.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-02.png  style="width   *300px;"> 
 *A linear pattern and a polar pattern → Scaled the linear pattern with 3 steps (occurrences) and the polar pattern with 12 steps*
 
-If there is no previous transformation within the <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> [MultiTransform](PartDesign_MultiTransform.md) feature, scaled items will be placed at the same position as the base feature. This may result in unexpected shapes if the base feature isn\'t covered completely by the scaled object. And thus it is not recommended to use **Scaled** as a single or a first transformation of a MultiTransform feature.
+If there is no previous transformation within the <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> [MultiTransform](PartDesign_MultiTransform.md) feature, scaled items will be placed at the same position as the base feature. This may result in unexpected shapes if the base feature isn\'t covered completely by the scaled object. And thus it is not recommended to use **Scaled** as the first transformation of a MultiTransform feature.
 
 <img alt="" src=images/PartDesign_Scaled-03.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-04.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-05.png  style="width   *200px;"> 
 *A base feature with a hole → Scaled object with 2 occurrences → Scaled object with 4 occurrences*
@@ -45,8 +45,8 @@ A partire da FreeCAD 0.15, questa funzione non è disponibile direttamente, ma �
 2.  The **MultiTransform parameters** [task panel](Task_panel.md) opens.
 3.  Right-click in the **Transformations** list and select **Add scaled transformation** from the context menu.
 4.  A **Scaled** item is added to the list and the task panel is extended at the bottom to allow to set the **Factor** and **Occurrences**. See [Options](#Options.md) for more information.
-5.  Click the **OK** bar at the bottom to validate the options.
-6.  Click the **OK** button at the top to finish.
+5.  Press the **OK** bar at the bottom.
+6.  Press the **OK** button at the top to finish.
 
 ### Scaling a single feature 
 

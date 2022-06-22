@@ -12,7 +12,7 @@
 
 The [Image Scaling](Image_Scaling.md) tool scales an image that was imported with the [Image CreateImagePlane](Image_CreateImagePlane.md) tool.
 
-## How to use 
+## Usage
 
 1.  Press the **<img src="images/Image_Scaling.svg" width=16px> [Image Scaling](Image_Scaling.md)** button.
 2.  Click a first point on the 3D view.

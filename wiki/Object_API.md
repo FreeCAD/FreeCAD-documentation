@@ -322,21 +322,27 @@ Clear the expression for a property
 
 #### <img src="images/type_method.svg" style="width:16px;"> dumpContent
 
-Dumps the content of the object, both the XML representation as well as the additional datafiles  
-required, into a byte representation. It will be returned as byte array.
-dumpContent() -- returns a byte array with full content
-dumpContent(Compression=1-9) -- Sets the data compression from 0 (no) to 9 (max)
-                
+dumpContent(Compression=3) -> bytearray
+
+Dumps the content of the object, both the XML representation and the additional
+data files required, into a byte representation.
+
+Compression : int
+    Set the data compression level in the range [0,9]. Set to 0 for no compression.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> dumpPropertyContent
 
-Dumps the content of the property, both the XML representation as well as the additional datafiles  
-required, into a byte representation. It will be returned as byte array.
-dumpPropertyContent(propertyname) -- returns a byte array with full content
-dumpPropertyContent(propertyname, [Compression=1-9]) -- Sets the data compression from 0 (no) to 9 (max)
-                
+dumpPropertyContent(Property, Compression=3) -> bytearray
+
+Dumps the content of the property, both the XML representation and the additional
+data files required, into a byte representation.
+
+Property : str
+    Property Name.
+Compression : int
+    Set the data compression level in the range [0, 9]. Set to 0 for no compression.
 
 
 
@@ -360,29 +366,52 @@ Returns all descendants
 
 #### <img src="images/type_method.svg" style="width:16px;"> getDocumentationOfProperty
 
-Return the documentation string of the property of this class.
+getDocumentationOfProperty(name) -> str
+
+Returns the documentation string of the property of this class.
+
+name : str
+    Property name.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> getEditorMode
 
+getEditorMode(name) -> list
+
 Get the behaviour of the property in the property editor.
-It returns a list of strings with the current mode. If the list is empty there are no special restrictions.
-If the list contains 'ReadOnly' then the item appears in the property editor but is disabled.
+It returns a list of strings with the current mode. If the list is empty there are no
+special restrictions.
+If the list contains 'ReadOnly' then the item appears in the property editor but is
+disabled.
 If the list contains 'Hidden' then the item even doesn't appear in the property editor.
-                
+
+name : str
+    Property name.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> getEnumerationsOfProperty
 
-Return all enumeration strings of the property of this class or None if not a PropertyEnumeration.
+getEnumerationsOfProperty(name) -> list or  None
+
+Return all enumeration strings of the property of this class or None if not a
+PropertyEnumeration.
+
+name : str
+    Property name.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> getGroupOfProperty
 
-Return the name of the group which the property belongs to in this class. The properties sorted in different named groups for convenience.
+getGroupOfProperty(name) -> str
+
+Returns the name of the group which the property belongs to in this class.
+The properties are sorted in different named groups for convenience.
+
+name : str
+    Property name.
 
 
 
@@ -429,35 +458,39 @@ Get all paths from this object to another object following the OutList.
 
 #### <img src="images/type_method.svg" style="width:16px;"> getPropertyByName
 
+getPropertyByName(name, checkOwner=0) -> object or Tuple
 
-getPropertyByName(name,checkOwner=0)
-
-Return the value of a named property. Note that the returned property may not
+Returns the value of a named property. Note that the returned property may not
 always belong to this container (e.g. from a linked object).
 
-* name: name of the property
-* checkOwner:  0: just return the property
-               1: raise exception if not found or the property 
-                  does not belong to this container
-               2: return a tuple(owner,property_value)
-        
+name : str
+     Name of the property.
+checkOwner : int
+    0: just return the property.
+    1: raise exception if not found or the property does not belong to this container.
+    2: return a tuple (owner, propertyValue).
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> getPropertyStatus
 
+getPropertyStatus(name='') -> list
 
-getPropertyStatus(name=''): Get property status.
+Get property status.
 
-name(String): property name. If name is empty, return a list of supported
-text names of the status.
-                
+name : str
+    Property name. If empty, returns a list of supported text names of the status.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> getPropertyTouchList
 
-Return a list of index of touched values for list type properties.
+getPropertyTouchList(name) -> tuple
+
+Returns a list of index of touched values for list type properties.
+
+name : str
+    Property name.
 
 
 
@@ -521,13 +554,24 @@ getSubObjects(reason=0): Return subname reference of all sub-objects
 
 #### <img src="images/type_method.svg" style="width:16px;"> getTypeIdOfProperty
 
+getTypeIdOfProperty(name) -> str
+
 Returns the C++ class name of a named property.
+
+name : str
+    Property name.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> getTypeOfProperty
 
-Return the type of a named property. This can be (Hidden,ReadOnly,Output) or any combination. 
+getTypeOfProperty(name) -> list
+
+Returns the type of a named property. This can be a list conformed by elements in
+(Hidden, NoRecompute, NoPersist, Output, ReadOnly, Transient).
+
+name : str
+    Property name.
 
 
 
@@ -615,35 +659,55 @@ Return tuple(obj,newElementName,oldElementName)
 
 #### <img src="images/type_method.svg" style="width:16px;"> restoreContent
 
-Restore the content of the object from a byte representation as stored by "dumpContent".
-It could be restored from any python object implementing the buffer protocol.
-restoreContent(buffer) -- restores from the given byte array
-                
+restoreContent(obj) -> None
+
+Restore the content of the object from a byte representation as stored by `dumpContent`.
+It could be restored from any Python object implementing the buffer protocol.
+
+obj : buffer
+    Object with buffer protocol support.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> restorePropertyContent
 
-Restore the content of given property from a byte representation as stored by "dumpContent".
-It could be restored from any python object implementing the buffer protocol.
-restorePropertyContent(propertyname, buffer) -- restores from the given byte array
-                
+restorePropertyContent(name, obj) -> None
+
+Restore the content of the object from a byte representation as stored by `dumpPropertyContent`.
+It could be restored from any Python object implementing the buffer protocol.
+
+name : str
+    Property name.
+obj : buffer
+    Object with buffer protocol support.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> setDocumentationOfProperty
 
+setDocumentationOfProperty(name, docstring) -> None
+
 Set the documentation string of a dynamic property of this class.
+
+name : str
+    Property name.
+docstring : str
+    Documentation string.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> setEditorMode
 
+setEditorMode(name, type) -> None
+
 Set the behaviour of the property in the property editor.
-0 - default behaviour
-1 - item is ready-only
-2 - item is hidden
-                
+
+name : str
+    Property name.
+type : int, sequence of str
+    Property type.
+    0: default behaviour. 1: item is ready-only. 2: item is hidden. 3: item is hidden and read-only.
+    If sequence, the available items are 'ReadOnly' and 'Hidden'.
 
 
 
@@ -664,22 +728,28 @@ Register an expression for a property
 
 #### <img src="images/type_method.svg" style="width:16px;"> setGroupOfProperty
 
+setGroupOfProperty(name, group) -> None
+
 Set the name of the group of a dynamic property.
+
+name : str
+    Property name.
+group : str
+    Group name.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> setPropertyStatus
 
+setPropertyStatus(name, val) -> None
 
-setPropertyStatus(name,val): Set property status
+Set property status.
 
-name(String): property name
-
-val(String|Int|[String|Int...]): text or integer value, or list/tuple of
-values. Call getPropertyStatus() to get a list of supported text value.
-If the text start with '-' or the integer value is negative, then the
-status is cleared.
-                
+name : str
+    Property name.
+val : int, str, sequence of str or int
+    Call getPropertyStatus() to get a list of supported text value.
+    If the text start with '-' or the integer value is negative, then the status is cleared.
 
 
 

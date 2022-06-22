@@ -17,116 +17,104 @@ Instrumentul **Linear pattern** creează copii uniform distanțate dintr-o func�
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
-*Deasupra   * Un bosaj în formă de L (B), realizat după un bosaj de bază (A, denumit și \"suport\"), este utilizat pentru un model repetitiv liniar. Rezultatul (C) este afișat în partea dreaptă.*
-
-## Cum se folosește 
-
 
 <div class="mw-translate-fuzzy">
 
-1.  Select the feature(s) to be patterned. Alternatively, the feature can be selected from a dialogue after step 2.
-
-       *   v0.16 and below Only a single feature can be selected, and it must be the last one at the bottom of the feature tree.
-2.  Press the **[<img src=images/PartDesign_LinearPattern.png style="width   *24px"> '''LinearPattern'''** button.
-3.  v0.17 and above Press **Add feature** to add a feature to be patterned. The feature must be visible in the 3D view   *
-    1.  Switch to the Model tree;
-    2.  Select in the tree the feature to be added and press **spacebar** to make it visible in the 3D view;
-    3.  Switch back to the Tasks panel;
-    4.  Select the feature in the 3D view; it will be added to the list.
-    5.  Repeat to add other features.
-4.  v0.17 and above Press **Remove feature** to remove a feature from the list, or right-click on the feature in the list and select *Remove*.
-5.  Define the Direction. See [Options](#Options.md).
-6.  Define the Length (distance) between the last copied occurrence and the original feature.
-7.  Set the number of occurrences.
-8.  Press **OK** .
+*Deasupra   * Un bosaj în formă de L (B), realizat după un bosaj de bază (A, denumit și \"suport\"), este utilizat pentru un model repetitiv liniar. Rezultatul (C) este afișat în partea dreaptă.*
 
 
 </div>
 
-To add or remove features from an existing pattern   *
+## Cum se folosește 
 
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
-    1.  Switch to the Model tree;
-    2.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
-    3.  Switch back to the Tasks panel;
-    4.  Select the feature in the 3D view; it will be added to the list.
-    5.  Repeat to add other features.
-2.  Press **Remove feature** to remove a feature from the list, or right-click on the feature in the list and select **Remove**
+### Create
+
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_LinearPattern.svg" width=16px> [LinearPattern](PartDesign_LinearPattern.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_LinearPattern.svg" width=16px> LinearPattern** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
+
+### Edit
+
+1.  Do one of the following   *
+    -   Double-click the LinearPattern object in the [Tree view](Tree_view.md).
+    -   Right-click the LinearPattern object in the [Tree view](Tree_view.md) and select **Edit LinearPattern** from the context menu.
+2.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
+
+<div class="mw-translate-fuzzy">
 
 ## Opţiuni
 
 
-<div class="mw-translate-fuzzy">
-
-![LinearPattern parameters in v0.16 and below.](images/Linearpattern_parameters.png ) ![LinearPattern parameters in v0.17 and above.](images/Linearpattern_parameters_v017.png )
-
-
 </div>
 
-### Direcția
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Specify the **Direction** of the pattern   *
+    -   
+        **Normal sketch axis**
+        
+           * The Z axis of the sketch (only available for sketch-based features).
 
-When creating a linear pattern feature, the **LinearPattern parameters** dialogue offers different ways of specifying the pattern direction.
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (idem).
 
-Atunci când creați o funcție de model repetitiv liniar, dialogul **LinearPattern parameters** oferă diferite modalități de specificare a direcției de repetare a modelului.
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
 
-#### Schița Axa Orizontală 
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
 
-Utilizează axa orizontală a schiței pentru direcție.
+    -   
+        **Base X axis**
+        
+           * The X axis of the Body.
 
-#### Schiță Axa Verticală 
+    -   
+        **Base Y axis**
+        
+           * The Y axis of the Body.
 
-Utilizează axa vertical a schiței pentru direcție.
+    -   
+        **Base Z axis**
+        
+           * The Z axis of the Body.
 
-#### Schița Axa Normală 
-
-
-<div class="mw-translate-fuzzy">
-
-v0.17 and above Uses the normal axis of the sketch for direction.
-
-
-</div>
-
-#### Selectare referințe\... 
-
-
-<div class="mw-translate-fuzzy">
-
-Vă permite să selectați fie o linie de referință, fie o margine a unui obiect, sau o linie din schiță care să fie utilizată pentru direcție.
-
-
-</div>
-
-#### Schiță Axă Personalizată 
-
-Dacă schița care definește funcția care urmează să fie modelată conține, de asemenea, o linie de construcție (sau linii), atunci lista derulantă/contextuală va conține o axă de schiță personalizată pentru fiecare linie de construcție. Prima linie de construcție va fi etichetă \"Axă de schiță 0\".
-
-#### Baza (X/Y/Z) axa 
-
-
-<div class="mw-translate-fuzzy">
-
-v0.17 and above Select one of the Body Origin\'s standard axis (X, Y or Z) as direction. 
-
-
-</div>
+    -   
+        **Select reference...**
+        
+           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+-   Check the **Reverse direction** checkbox to reverse the pattern.
+-   Specify the **Length** to be covered by the pattern.
+-   Specify the number of **Occurrences** (including the original feature).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Limitations
 
-
-<div class="mw-translate-fuzzy">
-
-## Limitări
-
--   Formele modelelor nu se pot suprapune reciproc, cu excepția cazului special de numai două apariții (original plus un exemplar)
--   Va fi exclusă orice formă de model care nu se suprapune pe suportul originalului. Acest lucru asigură faptul că o funcție PartDesign constă întotdeauna într-un singur, solid conectat
--   Pentru alte limitări, consultați secțiunea [mirrored feature](PartDesign_Mirrored.md)
-
-
-
-
-
-</div>
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

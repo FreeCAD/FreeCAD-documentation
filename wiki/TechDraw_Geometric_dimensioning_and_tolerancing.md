@@ -7,7 +7,7 @@ Take for example this part   *
 
 ![](images/TechDraw_Hole-Position-Example.png )
 
-In the application an axis should be put through the 2 holes of the part. That mean we have to specify the following things
+In the application an axis should be put through the 2 holes of the part. That means we have to specify the following things
 
 -   The diameter of the holes and their positions.
 -   That the holes are along a certain axis that is not perpendicular to the XZ base plane.
@@ -19,7 +19,7 @@ If you are not familiar with the concept of GD&T, we highly recommend to learn a
 
 GD&T is normed in the norms [ISO 1101](http   *//geo-dim-tol.ir/files/iso1101.pdf) and [ASME Y14.5](http   *//www.sharifcadcam.ir/uploaded/2e22f9ef-dfc5-47bc-a126-cc51e9686c4f.pdf).
 
-TechDraws\' capabilities to fulfill the common GD&T standards is limited (as of FreeCAD 0.19) but you can achieve already many things. This Wiki page explains what is implemented and what tricks can be used for non-implemented features. **Note   *** this Wiki page is not about to teach GD&T!
+TechDraws\' capabilities to fulfill the common GD&T standards is limited (as of FreeCAD 0.20) but you can achieve already many things. This Wiki page explains what is implemented and what tricks can be used for non-implemented features. **Note   *** this Wiki page is not about to teach GD&T!
 
 ## Dimensioning
 

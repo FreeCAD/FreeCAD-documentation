@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *Image Open
-   Name/fr   *Ouvrir une image
+   Name/fr   *Image Ouvrir
    MenuLocation   *
    Workbenches   *[Image](Image_Workbench/fr.md)
    SeeAlso   *[Image Créer un plan d'image](Image_CreateImagePlane/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil [Ouvrir une image](Image_Open/fr.md) ouvre simplement une image de votre système dans un nouvel onglet de la fenêtre.
+L\'outil [Image Ouvrir](Image_Open/fr.md) ouvre simplement une image de votre système dans un nouvel onglet de la fenêtre.
 
 ## Utilisation
 

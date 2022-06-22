@@ -18,7 +18,7 @@ Nettoie les arêtes résiduelles. Après une opération booléenne, certaines ar
 ## Utilisation
 
 1.  Sélectionnez la forme à nettoyer.
-2.  Cliquez sur le menu **OpenSCAD → Refine shape**.
+2.  Cliquez sur le menu **OpenSCAD → Affiner la forme**.
 
 -   Un objet-parent est créé et entièrement nettoyé, l\'objet original est rendu caché.
 

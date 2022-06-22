@@ -8,92 +8,119 @@
 
 # PartDesign LinearPattern/de
 
+
+</div>
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Das Werkzeug **LinearesMuster** erzeugt gleichmäßig verteilte Kopien eines Formelements entlang einer geraden Linie oder Kante.
 
+
+</div>
+
 ![](images/PartDesign_LinearPattern_example.svg )
+
+
+<div class="mw-translate-fuzzy">
 
 \'\'Oben   * Ein L-förmiger Block (B), der auf einer Grundplatte (A, auch als *Träger* bezeichnet) angebracht ist, wird für ein lineares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.\'\'
 
+
+</div>
+
 ## Anwendung
 
-Um ein Muster zu erstellen   *
+### Create
 
-1.  Das Formelement (oder mehrere Formelemente {{Version/de|0.19}}) auswählen, das (die) angeordnet werden soll(en).
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_LinearPattern.svg" width=16px> [LinearPattern](PartDesign_LinearPattern.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_LinearPattern.svg" width=16px> LinearPattern** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
 
-2.  Die Schaltfläche **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px">  '''Lineares Muster'''** drücken.
+### Edit
 
-3.  Die **Richtung** definieren. Siehe [Optionen](#Options/de.md).
+1.  Do one of the following   *
+    -   Double-click the LinearPattern object in the [Tree view](Tree_view.md).
+    -   Right-click the LinearPattern object in the [Tree view](Tree_view.md) and select **Edit LinearPattern** from the context menu.
+2.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
 
-4.  Die **Länge** (Abstand) zwischen dem letzten kopierten Vorkommen und dem originalen Formelement definieren.
 
-5.  Die Anzahl der **Vorkommen** festlegen.
-
-6.  Wenn das Muster mehrere Formelemente enthält, kann ihre Reihenfolge wichtig sein, siehe z.B. das Bild im Abschnitt [PolaresMuster, Formelemente ordnen](PartDesign_PolarPattern/de#Anwendung.md). Die Reihenfolge kann geändert werden, indem man das Formelement in der Liste verschiebt, wobei das Ergebnis sofort als Vorschau zu sehen ist {{Version/de|0.19}}.
-
-7.  
-    **OK**drücken.
-
-Zum Hinzufügen oder Entfernen von Formelementen zu einem bestehenden Muster   *
-
-1.  
-    **Element hinzufügen**drücken, um ein Formelement hinzuzufügen, das gemustert werden soll. Das Formelement muss in der [3D-Ansicht](3D_view/de.md) sichtbar sein   *
-
-    1.  In den Modellbaum wechseln;
-
-    2.  Im Baum das hinzuzufügende Formelement auswählen und die **Leertaste** drücken, um es in der [3D-Ansicht](3D_view/de.md) sichtbar zu machen;
-
-    3.  Zum Aufgabenbereich zurück wechseln;
-
-    4.  Das Formelement in der 3D-Ansicht auswählen; es wird der Liste hinzugefügt.
-
-    5.  Diesen Vorgang wiederholen, um weitere Formelemente hinzuzufügen.
-
-    6.  
-        **Element entfernen**
-        
-        drücken, um ein Formelement aus der Liste zu entfernen, oder mit der rechten Maustaste auf das Formelement in der Liste klicken und **Entfernen** auswählen.
+<div class="mw-translate-fuzzy">
 
 ## Optionen
 
-![Parameter des linearen Musters](images/Linearpattern_parameters_v017.png )
 
-### Richtung
+</div>
 
-Bei der Erstellung eines LinearPattern-Objekts bietet der Dialog **Parameter des Linearen Musters** verschiedene Möglichkeiten, die Richtung des Musters auszuwählen.
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Specify the **Direction** of the pattern   *
+    -   
+        **Normal sketch axis**
+        
+           * The Z axis of the sketch (only available for sketch-based features).
 
-#### Horizontale Skizzenachse 
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (idem).
 
-Verwendet die horizontale Skizzenachse als Richtung.
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
 
-#### Vertikale Skizzenachse 
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
 
-Verwendet die vertikale Skizzenachse als Richtung.
+    -   
+        **Base X axis**
+        
+           * The X axis of the Body.
 
-#### Senkrecht zur Skizze 
+    -   
+        **Base Y axis**
+        
+           * The Y axis of the Body.
 
-Verwendet die Flächennormale der Skizze als Richtung.
+    -   
+        **Base Z axis**
+        
+           * The Z axis of the Body.
 
-#### Referenz auswählen\... 
-
-Ermöglicht eine Bezugslinie (DatumLine), eine gerade Kante eines Objekts oder eine Linie aus einer Skizze als Richtung zu verwenden.
-
-#### Angepasste Skizzenachse 
-
-Wenn die Skizze für das zu wiederholende Muster Konstruktionslinien besitzt, werden diese Konstruktionslinien in dem Dropdown-MenüI als jeweils spezielle Achsen aufgelistet. Die erste Konstruktionslinie wird im Menü als *Konstruktionslinie 1* aufgelistet.
-
-#### Basis (X/Y/Z) Achse 
-
-Eine der Standardachsen (X, Y oder Z) des Körperursprungs als Richtung auswählen. 
+    -   
+        **Select reference...**
+        
+           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+-   Check the **Reverse direction** checkbox to reverse the pattern.
+-   Specify the **Length** to be covered by the pattern.
+-   Specify the number of **Occurrences** (including the original feature).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Einschränkungen
 
--   Musterformen dürfen einander nicht überlappen, außer im Sonderfall von nur zwei Vorkommen (Original plus eine Kopie)
--   Alle Musterformen, die die Auflage des Originals nicht überlappen, werden ausgeschlossen. Dies stellt sicher, dass ein PartDesign Formelement immer aus einem einzelnen, verbundenen Festkörper besteht.
--   Die PartDesign Muster sind noch nicht so optimiert wie ihre Draft Gegenstücke. Bei einer größeren Anzahl von Instanzen solltest du daher stattdessen die Verwendung von [Draft Anordnung](Draft_OrthoArray/de.md) in Kombination mit einer booleschen Part Operation in Betracht ziehen. Dies kann größere Änderungen an deinem Modell beinhalten, wenn du PartDesign verlässt, was bedeutet, dass du nicht einfach mit weiteren PartDesign Formelementen im selben Körper fortfahren kannst. Ein Beispiel wird in diesem [Forum Thema](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192) gezeigt.
--   Eine lineare Anordnung kann nicht direkt auf andere Anordnungen angewendet werden, egal ob sie linear, polar oder eine Spiegelung sind. Dafür benutzt man die Funktion [PartDesign Mehrfach-Transformation erstellen](PartDesign_MultiTransform/de.md).
--   Für weitere Einschränkungen siehe die Funktion [PartDesign Spiegeln](PartDesign_Mirrored/de.md).
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

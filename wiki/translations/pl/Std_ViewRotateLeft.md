@@ -1,33 +1,34 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewRotateLeft
-   MenuLocation   *View → Standard views → Rotate Left
-   Workbenches   *All
-   Shortcut   ***Shift**+**Left**
-   SeeAlso   *[Std ViewRotateRight](Std_ViewRotateRight.md)
+   Name/pl   *Std   * Odwróć widok w lewo
+   MenuLocation   *Widok → Widoki standardowe → Odwróć w lewo
+   Workbenches   *wszystkie
+   Shortcut   ***Shift**+**Lewo**
+   SeeAlso   *[Odwróć widok w prawo](Std_ViewRotateRight/pl.md)
 ---
 
 # Std ViewRotateLeft/pl
 
-## Description
+## Opis
 
-The **Std ViewRotateLeft** command rotates the camera in the active [3D view](3D_view.md) around the view direction in 90-degree increments towards the left (counterclockwise).
+Polecenie **Odwróć widok w lewo** obraca widok w aktywnym oknie [widoku 3D](3D_view/pl.md) wokół osi normalnej *(prostopadłej do widoku)*, w 90-stopniowych przyrostach w lewo *(przeciwnie do ruchu wskazówek zegara)*.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Select the **View → Standard views → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotate Left** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotate Left** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut   * **Shift**+**Left**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz opcję **Widok → Widoki standardowe → <img src="images/Std_ViewRotateLeft.svg" width=16px> Odwróć w lewo** z menu.
+    -   Wybierz opcję **Widoki standardowe → <img src="images/Std_ViewRotateLeft.svg" width=16px> Odwróć w lewo** z menu podręcznego w oknie [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **Shift** + **Lewo**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To rotate the view to the left use the `viewRotateLeft` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby obrócić widok w lewo, użyj metody `viewRotateLeft` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

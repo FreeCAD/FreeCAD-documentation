@@ -1,11 +1,11 @@
 ---
 - GuiCommand   */de
    Name   *Arch Project
-   Name/de   *Architektur Projekt
-   MenuLocation   *Architektur → Projekt
-   Workbenches   *[Arch-Arbeitsbereich](Arch_Workbench.md)
-   Shortcut   ***P** **O**/de
-   SeeAlso   *[Architektur Grundstück](Arch_Site/de.md), [Architektur Gebäude](Arch_Building/de.md)
+   Name/de   *Arch Projekt
+   MenuLocation   *Arch→ Projekt
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   Shortcut   ***P** **O**
+   SeeAlso   *[Arch Grundstück](Arch_Site/de.md), [Arch Gebäude](Arch_Building/de.md)
 ---
 
 # Arch Project/de
@@ -22,15 +22,6 @@ Beachte, dass zwar jedes andere BIM Objekt zu einem Projekt hinzugefügt werden 
 
 1.  Drücke die **<img src="images/Arch_Project.svg" width=16px> [Arch Projekt](Arch_Project/de.md)** Taste oder drücke die Tasten**P** und dann **O**.
 2.  Füge deinem Projekt ein beliebiges Objekt hinzu, indem du es per Ziehen & Ablegen auf das Projekt in der [Baumansicht](Tree_view/de.md) ziehst.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

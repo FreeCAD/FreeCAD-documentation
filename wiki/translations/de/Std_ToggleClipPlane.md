@@ -4,7 +4,7 @@
    Name/de   *Std Schnittebene
    MenuLocation   *Ansicht → Schnittebene
    Workbenches   *Alle
-   SeeAlso   *[Part Ausschnitt](Part_SectionCut/de.md)
+   SeeAlso   *[Part Schnittansicht](Part_SectionCut/de.md)
 ---
 
 # Std ToggleClipPlane/de

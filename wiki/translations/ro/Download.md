@@ -28,11 +28,11 @@ Veți găsi SHA256 checksums (pentru a verifica integritatea descărcării) și 
 Previous versions can be downloaded from the [releases](https   *//github.com/FreeCAD/FreeCAD/releases) page.
 
 +   *   *+---+   *   *+---+   *   *+
-| ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png )         |
-|                                                                                                                                   |   |                                                                                                                 |   |                                                    |
-| [Install on Windows](Installing_on_Windows.md)                                                                            |   | [Install on Mac](Installing_on_Mac.md)                                                                  |   | [Install on Linux](Installing_on_Linux.md) |
-|                                                                                                                                   |   |                                                                                                                 |   |                                                    |
-| [64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-4.exe) (includes installer) |   | [macOS 64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)             |
+| ![](images/Windows.png )                                                                                                  |   | ![](images/Mac.png )                                                                                |   | ![](images/AppImage-logo.png )         |
+|                                                                                                                                 |   |                                                                                                       |   |                                                    |
+| [Install on Windows](Installing_on_Windows.md)                                                                          |   | [Install on Mac](Installing_on_Mac.md)                                                        |   | [Install on Linux](Installing_on_Linux.md) |
+|                                                                                                                                 |   |                                                                                                       |   |                                                    |
+| [64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-WIN-x64-installer-1.exe) (includes installer) |   | [macOS 64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-OSX-i386.dmg) |   | [AppImage 64-bit](AppImage.md)             |
 ++---++---++
 
 
@@ -77,8 +77,8 @@ Please see the [Installing on Linux](Installing_on_Linux.md) page for more insta
 A portable version that doesn\'t need installation can be achieved by starting FreeCAD with these commands   * <small>(v0.19)</small>  
 ```python
 cd path/to/directory_containing_AppImage/
-chmod +x ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
-HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
+chmod +x ./FreeCAD-0.20.0-Linux-x86_64.AppImage
+HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD-0.20.0-Linux-x86_64.AppImage
 ```
 
 More information about FreeCAD\'s environment variables can be found on [the configuration page](Start_up_and_Configuration#Environment_variables.md).

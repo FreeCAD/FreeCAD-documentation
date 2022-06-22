@@ -44,7 +44,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [Reinforced material (concrete)](FEM_MaterialReinforced.md)   * Lets you select reinforced materials consisting of a matrix and a reinforcement from the database.
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Material editor](Material_editor.md)   * Lets you open the material editor to edit materials.
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Material editor](FEM_MaterialEditor.md)   * Lets you open the material editor to edit materials.
 
 ### Element Geometry 
 
@@ -168,7 +168,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Show result](FEM_ResultShow.md)   * Used to display the result of an analysis.
 
--   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Apply changes to pipeline](FEM_PostApplyChanges.md)   *
+-   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Apply changes to pipeline](FEM_PostApplyChanges.md)   * Toggles if changes to pipelines and filters are applied immediately.
 
 -   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *32px;"> [Post pipeline from result](FEM_PostPipelineFromResult.md)   * Used to add a new graphical representation of FEM analysis results (color scale and more display options).
 
@@ -186,15 +186,13 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width   *32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md)   * Used to display value of a selected field at a given point.
 
--   [Filter functions](FEM_PostCreateFunctions.md)   *
-    -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;">
-    -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;">
+-   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter functions](FEM_PostCreateFunctions.md)   * Used to define how the result mesh is cut for the [Function cut filter](FEM_PostFilterCutFunction.md) and [Region clip filter](FEM_PostFilterClipRegion.md).
 
 ## Menu   * Utilities 
 
--   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd.md)   *
+-   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd.md)   * Adds a clipping plane for the whole model view.
 
--   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Remove all clipping planes](FEM_ClippingPlaneRemoveAll.md)   *
+-   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Remove all clipping planes](FEM_ClippingPlaneRemoveAll.md)   * Removes all existing [clipping planes](FEM_ClippingPlaneAdd.md).
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [Open FEM examples](FEM_Examples.md)   * Open the GUI to access FEM examples.
 

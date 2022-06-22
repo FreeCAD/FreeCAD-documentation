@@ -8,124 +8,128 @@
 
 # PartDesign PolarPattern/de
 
+
+</div>
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Das Werkzeug **PolaresMuster** erstellt auf Basis eines ausgewählten Formelements eine Reihe von Kopien, die um eine ausgewählte Achse herum angeordnet werden. Es können auch mehrere Formelemente angeordnet werden {{Version/de|0.17}}.
 
+
+</div>
+
 ![](images/PartDesign_PolarPattern_example.png )
+
+
+<div class="mw-translate-fuzzy">
 
 *Oben   * Eine schlitzförmige Tasche (B), die in einem Grundkörper (A, auch als Träger bezeichnet) eingebracht ist, wird für ein polares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.*
 
+
+</div>
+
 ## Anwendung
 
-#### Ein Muster erstellen 
+### Create
 
-1.  (Optional) Das Formelement (oder mehrere Formelemente {{Version/de|0.19}}) auswählen, das (die) angeordnet werden soll(en).
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> [PolarPattern](PartDesign_PolarPattern.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_PolarPattern.svg" width=16px> PolarPattern** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
 
-2.  Die Schaltfläche **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px">  '''Polares Muster'''** drücken.
-    -   Falls anfangs noch kein Element ausgewählt wurde, kann jetzt ein *einzelnes* Grundelement ausgewählt werden.
+### Edit
 
-3.  Die **Achse** festtlegen, siehe [Optionen](#Optionen.md).
+1.  Do one of the following   *
+    -   Double-click the PolarPattern object in the [Tree view](Tree_view.md).
+    -   Right-click the PolarPattern object in the [Tree view](Tree_view.md) and select **Edit PolarPattern** from the context menu.
+2.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
 
-4.  Den **Winkel** zwischen dem letzten kopierten Vorkommen und dem originalen Formelement festlegen.
+## Optionen
 
-5.  Die Anzahl der **Vorkommen** festlegen.
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [Ordering features](#Ordering_features.md).
+-   Specify the **Axis** of the pattern   *
+    -   
+        **Normal sketch axis**
+        
+           * The Z axis of the sketch (only available for sketch-based features).
 
-6.  Wenn das Muster mehrere Formelemente enthält, kann ihre Reihenfolge wichtig sein, siehe Abbildung unten.
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (idem).
 
-7.  
-    **OK**drücken.
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
+
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
+
+    -   
+        **Base X axis**
+        
+           * The X axis of the Body.
+
+    -   
+        **Base Y axis**
+        
+           * The Y axis of the Body.
+
+    -   
+        **Base Z axis**
+        
+           * The Z axis of the Body.
+
+    -   
+        **Select reference...**
+        
+           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+-   Check the **Reverse direction** checkbox to reverse the pattern.
+-   Specify the **Angle** to be covered by the pattern.
+-   Specify the number of **Occurrences** (including the original feature).
+-   If the **Update view** checkbox is checked the view will update in real time.
+
+
+<div class="mw-translate-fuzzy">
 
 #### Formelemente ordnen 
+
+
+</div>
+
+If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list. <small>(v0.19)</small> 
 
 ![](images/PartDesign_feature-order.gif ) 
 *Auswirkung der Formelementreihenfolge*
 
-Die Reihenfolge kann geändert werden, indem man das Formelement in der Liste verschiebt, wobei das Ergebnis sofort als Vorschau zu sehen ist {{Version/de|0.19}}.
-
-#### Formelemente hinzufügen 
-
-###### v0.18
-
-1.  Drücke **Element hinzufügen**, um ein Formelement hinzuzufügen, das gemustert werden soll. Das Formelement muss in der [3D-Ansicht](3D_view/de.md) sichtbar sein   *
-    1.  Wechsle in den Baumansicht;
-    2.  Wähle in der Baumansicht das hinzuzufügende Formelement aus und drücke die **Leertaste**, um es in der [3D-Ansicht](3D_view/de.md) sichtbar zu machen.
-    3.  Wechsle zurück in die Aufgabenansicht;
-    4.  Wähle das Formelement in der 3D-Ansicht; es wird der Liste hinzugefügt.
-    5.  Wiederhole dies um weitere Formelemente hinzuzufügen.
-
-###### v0.19
-
-1.  Drücke **Element hinzufügen**, um ein Formelement hinzuzufügen, das einem Muster beigefügt werden soll.
-2.  Wechsle zur Baumansicht.
-3.  Wähle in der Baumansicht das hinzuzufügende Formelement.
-4.  Wiederhole den Vorgang, um weitere Formelemente hinzuzufügen.
-
-#### Formelemente entfernen 
-
--   Rechtsklicke auf das Formelement in der Liste und wähle *Entfernen*.
-
-oder
-
-###### v0.18 
-
-1.  Drücke **Element entfernen** um ein Formelement aus der Liste zu entfernen. Das Formelement muss in der [3D-Ansicht](3D_view/de.md) sichtbar sein   *
-    1.  Wechsle in die Baumansicht.
-    2.  Wähle in der Baumansicht das zu entfernende Formelement aus und drücke die **Leertaste**, um es in der [3D-Ansicht](3D_view/de.md) sichtbar zu machen;
-    3.  Wechsle zurück zum Aufgabenansicht.
-    4.  Wähle das Formelement in der 3D-Ansicht; es sollte aus der Liste entfernt worden sein.
-    5.  Wiederhole dies um weitere Formelemente zu entfernen.
-
-###### v0.19 
-
-1.  Drücke **Element entfernen**, um ein Formelement aus der Liste zu entfernen.
-2.  Wechsle zur Baumansicht;
-3.  Wähle in der Baumansicht das zu entfernende Formelement.
-4.  Wiederhole den Vorgang, um andere Formelemente zu entfernen.
-
-## Optionen
-
-![](images/Polarpattern_parameters.png )
-
-### Achse
-
-Beim Erstellen eines Polaren Musters bietet der Dialog \"Parameter des polaren Musters\" verschiedene Möglichkeiten die Rotationsachse des Musters festzulegen.
-
-#### Senkrecht zur Skizze 
-
-Eine Achse, die eine Normale zur Skizze ist und im Ursprung der Skizze des verwendeten Formelementes beginnt, wird als Achse für das polare Muster genommen.
-Die Ausrichtung des Musters kann umgekehrt werden, indem Sie auf \"Richtung umkehren\" klicken.
-
-#### Horizontale Skizzenachse 
-
-Benutzt die horizontale Achse der Skizze als Achse.
-
-#### Vertikale Skizzenachse 
-
-Benutzt die vertikale Achse der Skizze als Achse.
-
-#### Individuelle Achse in der Skizze 
-
-Wenn die Skizze für das zu wiederholende Muster Konstruktionslinien besitzt, werden diese Konstruktionslinien in dem Dropdown-MenüI als jeweils spezielle Achsen aufgelistet. Die erste Konstruktionslinie wird im Menü als *Konstruktionslinie 1* aufgelistet.
-
-#### Basis (X/Y/Z) Achse 
-
-
-<small>(v0.17)</small> 
-
-Die Standardachsen des Koordinatensystems des Körpers (Body) stehen als Basis X, Y oder Z-Richtung zur Verfügung. 
-
-#### Referenz auswählen\... 
-
-Ermöglicht entweder eine Bezugslinie (DatumLine) oder eine Kante eines Objekts oder eine Linie einer Skizze als Achse zu verwenden.
-
-### Winkel und Häufigkeiten 
-
-Gibt den Winkel an, der vom Muster abgedeckt werden soll, sowie die Gesamtzahl der Musterformen (einschließlich des ursprünglichen Formelements). Zum Beispiel würden vier Vorkommen in einem Winkel von 180 Grad einen Abstand von 60 Grad zwischen Mustern ergeben. Es gibt eine Ausnahme   * Wenn der Winkel 360 Grad beträgt, sodass das erste und das letzte Vorkommen identisch sind, werden vier Vorkommen um 90 Grad voneinander getrennt.
-
 ## Begrenzungen
 
--   Siehe [Begrenzungen](PartDesign_LinearPattern/de#Begrenzungen.md) unter PartDesign Lineare Anordnung.
+-   Any shape in the pattern that does not overlap the parent feature will be excluded. This ensures that a PartDesign Body always consists of a single, connected solid.
+-   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a large number of instances you should consider using a [Draft PolarArray](Draft_PolarArray.md) instead, combined with a Part boolean operation. This may require major changes to your model as you are leaving PartDesign and therefore cannot simply continue with further PartDesign features in the same body. An example is shown in [this Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).
+-   A pattern cannot be applied directly to another pattern, be it polar, linear or a mirror. For this you need a [PartDesign MultiTransform](PartDesign_MultiTransform.md).
 
 
 

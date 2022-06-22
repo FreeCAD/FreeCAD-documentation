@@ -1,5 +1,5 @@
 # Online Help Toc/ru
-Эта страница содержания используется для автоматического построения системы **онлайн справки** FreeCAD. Версия для печати данного руководства так же доступна на [странице релизов FreeCAD](https   *//github.com/FreeCAD/FreeCAD/releases). Если у Вас есть вопросы или нужна помощь с FreeCAD, пожалуйста, обратитесь к [странице помощи](Help/ru.md), включая форумы и чат-группы.
+Это оглавление, используемое для автоматического построения системы \"Онлайн Справка\" во FreeCAD. Версия для печати этого руководства также доступна на [странице релизов](https   *//github.com/FreeCAD/FreeCAD/releases). Если у Вас есть вопросы или нужна помощь с FreeCAD, пожалуйста, обратитесь к [странице помощи](Help/ru.md), включая форумы и группы чатов.
 
 Вы можете так же ознакомиться с еще одним [Руководством по FreeCAD](Manual   *Introduction/ru.md).
 
@@ -8,7 +8,7 @@
 -   Введение
     -   [Добро пожаловать](Online_Help_Startpage/ru.md)
     -   [О FreeCAD](About_FreeCAD/ru.md)
-    -   [Перечисление возможностей](Feature_list/ru.md)
+    -   [Список функций](Feature_list/ru.md)
     -   [Установка в Windows](Installing_on_Windows/ru.md)
     -   [Установка в Linux](Installing_on_Linux/ru.md)
     -   [Установка в Mac](Installing_on_Mac/ru.md)
@@ -47,13 +47,13 @@
     -   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> [Встроенный браузер](Web_Workbench/ru.md)
     -   [Внешние верстаки](External_workbenches/ru.md)
 
--   [Список всех команд FreeCAD](List_of_Commands/ru.md)
+-   [Список команд FreeCAD](List_of_Commands/ru.md)
 
 -   [Список форматов файлов (импорт-экспорт)](Import_Export/ru.md)
 
 -   [Часто задаваемые вопросы](Frequently_asked_questions.md)
 
--   [Workarounds](Workarounds.md)
+-   [Обходные решения](Обходные_решения.md)
 
 -   [Сборник руководств по обучению](Tutorials/ru.md)
 
@@ -63,26 +63,20 @@
     -   [Установка настроек импорта-экспорта](Import_Export_Preferences/ru.md)
     -   [Запуск и конфигурация](Start_up_and_Configuration/ru.md)
 
-
-<div class="mw-translate-fuzzy">
-
--   Python скрипты
+-   [Скрипты Python](Scripting_and_macros.md)
     -   [Работа с макросами](Macros/ru.md)
     -   [Руководство по скриптам](Scripts/ru.md)
     -   [Введение в Python](Introduction_to_Python/ru.md)
-    -   [Руководство по Python скрипатм](Python_scripting_tutorial/ru.md)
-    -   [Основы написания скриптов для FreeCAD](FreeCAD_Scripting_Basics/ru.md)
-    -   [Написание скриптов для Деталей](Part_scripting/ru.md)
+    -   [Руководство по скриптам Python](Python_scripting_tutorial/ru.md)
+    -   [Основы скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md)
+    -   [Скрипты Part](Part_scripting/ru.md)
     -   [Скрипты для манипуляции формой](Topological_data_scripting/ru.md)
-    -   [Объекты по сценарию](Scripted_objects/ru.md)
-    -   [Coin сценография](Scenegraph/ru.md)
+    -   [Скрипты объектов](Scripted_objects/ru.md)
+    -   [Сценарии Coin3D](Scenegraph/ru.md)
     -   [Работа с Pivy](Pivy/ru.md)
     -   [Работа с PySide](PySide/ru.md)
     -   [Разработка графических интерфейсов](Interface_creation/ru.md)
     -   [Разработка диалогов](Dialog_creation/ru.md)
-
-
-</div>
 
 -   Разработка
     -   [Лиценция](Licence/ru.md)

@@ -5,23 +5,15 @@
    MenuLocation   *Hojas de cálculo → Importar Hojas de cálculo
    Workbenches   *[Ambiente de trabajo Hojas de cálculo](Spreadsheet_Workbench/es.md)
    Version   *0.17
-   SeeAlso   *[Std Importar](Std_Import/es.md)
+   SeeAlso   *
+[Spreadsheet Export](Spreadsheet_Export.md)
 ---
 
 # Spreadsheet Import/es
 
-
-</div>
-
 ## Descripción
 
-
-<div class="mw-translate-fuzzy">
-
-El herramienta **[<img src=images/Spreadsheet_Import.svg style="width   *16px"> [Importación de hojas de cálculo](Spreadsheet_Import/es.md)** permite importar un archivo de valores separados por tabulaciones (denominado vagamente CSV) (inglés   * valores separados por comas) a una hoja de cálculo para poder modificarlo y utilizarlo con [expresiones](expressions/es.md).
-
-
-</div>
+La herramienta **[<img src=images/Spreadsheet_Import.svg style="width   *16px"> [Importar hojas de cálculo](Spreadsheet_Import/es.md)** permite importar un archivo CSV (inglés   * valores separados por comas) a una hoja de cálculo para poder modificarlo y utilizarlo con [expresiones](expressions/es.md). Note que el caractér {{Value|tab}}, y no la {{Value|coma}}, es el delimitador de campo por defectp. Pero esto se puede cambiar en las [Preferencias de Hoja de Cálculo](Spreadsheet_Preferences.md) (<small>(v0.20)</small> ).
 
 ## Utilización
 

@@ -8,6 +8,9 @@
 
 # PartDesign PolarPattern/es
 
+
+</div>
+
 ## Descripción
 
 
@@ -20,173 +23,113 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 
 ![](images/PartDesign_PolarPattern_example.png )
 
-*Arriba   * Un vaciado de una ranura (B) creada sobre un sólido base (A, también referido como soporte) es usada para crear un patrón polar. El resultado (C) se muestra a la derecha.*
-
-## Uso
-
-#### Para crear un patrón 
-
 
 <div class="mw-translate-fuzzy">
 
-1.  (Opcional) Seleccionar la operación (u operaciones {{Version/es|0.19}}) que se han de repetir.
-2.  Presionar el botón **[<img src=images/PartDesign_PolarPattern.svg style="width   *24px">** **PatrónPolar** .
-    -   Si no hay ninguna operación seleccionada previamente, se puede seleccionar una operación *de una sola pieza* como base.
-3.  Definir el **Eje**. Ver [Opciones](#Options/es.md).
-4.  Definir el **Ángulo** entre la que será la última copia y la figura original.
-5.  Introducir el número de **Apariciones** o copias deseadas.
-6.  Si hay varias operaciones en el patrón, su orden puede ser importante, ver la imagen inferior.
-7.  Aceptar con **OK**.
+*Arriba   * Un vaciado de una ranura (B) creada sobre un sólido base (A, también referido como soporte) es usada para crear un patrón polar. El resultado (C) se muestra a la derecha.*
 
 
 </div>
 
+## Uso
+
+### Create
+
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> [PolarPattern](PartDesign_PolarPattern.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_PolarPattern.svg" width=16px> PolarPattern** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
+
+### Edit
+
+1.  Do one of the following   *
+    -   Double-click the PolarPattern object in the [Tree view](Tree_view.md).
+    -   Right-click the PolarPattern object in the [Tree view](Tree_view.md) and select **Edit PolarPattern** from the context menu.
+2.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
+## Opciones
+
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [Ordering features](#Ordering_features.md).
+-   Specify the **Axis** of the pattern   *
+    -   
+        **Normal sketch axis**
+        
+           * The Z axis of the sketch (only available for sketch-based features).
+
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (idem).
+
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
+
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
+
+    -   
+        **Base X axis**
+        
+           * The X axis of the Body.
+
+    -   
+        **Base Y axis**
+        
+           * The Y axis of the Body.
+
+    -   
+        **Base Z axis**
+        
+           * The Z axis of the Body.
+
+    -   
+        **Select reference...**
+        
+           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+-   Check the **Reverse direction** checkbox to reverse the pattern.
+-   Specify the **Angle** to be covered by the pattern.
+-   Specify the number of **Occurrences** (including the original feature).
+-   If the **Update view** checkbox is checked the view will update in real time.
+
+
+<div class="mw-translate-fuzzy">
+
 #### Ordenar operaciones 
+
+
+</div>
+
+If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list. <small>(v0.19)</small> 
 
 ![](images/PartDesign_feature-order.gif ) 
 *Efecto del orden de operaciones*
 
-
-{{Version/es|0.19}}
-
-Se puede cambiar el orden arrastrando la forma deseada en la lista e inmediatamente se puede apreciar el resultado como vista previa.
-
-#### Añadir operaciones 
-
-###### v0.18
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Pulsar el botón **Añadir una operación** para añadir una operación a repetir, la cual debe ser visible en la [vista 3D](3D_view/es.md).
-    1.  Ir al árbol de dependencias de la pestaña Modelo.
-    2.  Seleccionar en el árbol la operación a añadir y presionar la **barra espaciadora** para hacerla visible en la [vista 3D](3D_view/es.md).
-    3.  Volver al panel de tareas.
-    4.  Seleccionar la operación en la vista 3D; será añadida a la lista.
-    5.  Repetir para añadir más operaciones.
-
-
-</div>
-
-###### v0.19
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Pulsar el botón **Añadir una operación** para añadir una operación a repetir.
-    1.  Ir al árbol de dependencias de la pestaña Modelo.
-    2.  Seleccionar en el árbol la operación que se tiene que añadir.
-    3.  Repetir para añadir más operaciones.
-
-
-</div>
-
-#### Eliminar operaciones 
-
--   Pinchar con botón derecho del ratón sobre la operación en la lista y seleccionar *Eliminar*.
-
-o
-
-###### v0.18 
-
-
-<div class="mw-translate-fuzzy">
-
-###### v0.18 
-
-1.  Pulsar el botón **Eliminar operación** para eliminar una operación de la lista, la cual debe ser visible en la [vista 3D](3D_view/es.md).
-    1.  Ir al árbol de dependencias de la pestaña Modelo.
-    2.  Seleccionar en el árbol la operación que se tiene que eliminar y presionar la **barra espaciadora** para hacerla visible en la [vista 3D](3D_view/es.md).
-    3.  Volver al panel de tareas.
-    4.  Seleccionar la operación en la vista 3D; habrá sido eliminada la lista.
-    5.  Repetir para eliminar más operaciones.
-
-
-</div>
-
-###### v0.19 
-
-
-<div class="mw-translate-fuzzy">
-
-###### v0.19 
-
-1.  Presionar **Eliminar operación** para eliminar una operación de la lista.
-2.  Ir al árbol de dependencias de la pestaña Modelo.
-3.  Seleccionar en el árbol la operación a eliminar.
-4.  Repetir para eliminar más operaciones.
-
-
-</div>
-
-## Opciones
-
-![](images/Polarpattern_parameters.png )
-
-### Eje
-
-Cuando se crea una operación de patrón polar, la ventana de diálogo *PolarPattern parameters* ofrece diferentes maneras de especificar el eje de rotación del patrón.
-
-#### Normal sketch axis 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Eje normal del boceto 
-
-Se toma como eje para el patrón polar un eje que es normal al boceto y que comienza en el origen del boceto de la operación.
-La dirección del patrón puede invertirse pinchando la casilla \'Reverse direction\'.
-
-
-</div>
-
-#### Eje horizontal del boceto 
-
-Usa el eje horizontal del boceto como eje.
-
-#### Eje vertical del boceto 
-
-Usa el eje vertical del boceto como eje.
-
-#### Eje del boceto personalizado 
-
-Si el boceto que define la operación a copiar contiene también una línea o líneas de construcción, la lista desplegable contendrá un eje de boceto personalizado por cada línea de construcción. La primera línea de construcción se llamará \'Línea de construcción 1\'.
-
-#### Eje base (X/Y/Z) 
-
-
-{{VersionPlus/es|0.17}}
-
-Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) como eje.
-
-#### Seleccione referencia\... 
-
-Permite al usuario seleccionar una Línea de referencia o una arista de un objeto, o una línea de un boceto para usarla como eje.
-
-### Angle and Occurrences 
-
-
-<div class="mw-translate-fuzzy">
-
-### Ángulo y repeticiones 
-
-Especifica el ángulo a ser cubierto por el patrón, y el número total de formas repetidas (incluyendo la operación original). Por ejemplo, cuatro repeticiones en un ángulo de 280 grados dará un espaciado de 60 grados entre repeticiones. Excepción   * Si el ángulo es de 360 grados, como la primera y la última repetición son idénticas, 4 repeticiones quedarán separadas 90 grados.
-
-
-</div>
-
 ## Limitaciones
 
-
-<div class="mw-translate-fuzzy">
-
--   Ver [Patrón lineal Limitaciones](PartDesign_LinearPattern/es#Limitations.md).
-
-
-
-
-
-</div>
+-   Any shape in the pattern that does not overlap the parent feature will be excluded. This ensures that a PartDesign Body always consists of a single, connected solid.
+-   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a large number of instances you should consider using a [Draft PolarArray](Draft_PolarArray.md) instead, combined with a Part boolean operation. This may require major changes to your model as you are leaving PartDesign and therefore cannot simply continue with further PartDesign features in the same body. An example is shown in [this Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).
+-   A pattern cannot be applied directly to another pattern, be it polar, linear or a mirror. For this you need a [PartDesign MultiTransform](PartDesign_MultiTransform.md).
 
 
 

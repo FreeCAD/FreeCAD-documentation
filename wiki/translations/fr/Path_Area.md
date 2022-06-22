@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *Path-Area
-   Name/fr   *Path Zone d'usinage
+   Name/fr   *Path Surface
    MenuLocation   *Path → Surface
    Workbenches   *[Path](Path_Workbench/fr.md)
 ---

@@ -17,8 +17,10 @@ The <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *24px;"> 
 
 ## Usage
 
+### Create
+
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
-2.  Optionally select one or more features.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
 3.  There are several ways to invoke the tool   *
     -   Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> [PolarPattern](PartDesign_PolarPattern.md)** button.
     -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_PolarPattern.svg" width=16px> PolarPattern** option from the menu.
@@ -26,6 +28,14 @@ The <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *24px;"> 
 5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
 6.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
+
+### Edit
+
+1.  Do one of the following   *
+    -   Double-click the PolarPattern object in the [Tree view](Tree_view.md).
+    -   Right-click the PolarPattern object in the [Tree view](Tree_view.md) and select **Edit PolarPattern** from the context menu.
+2.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
 
 ## Options
 

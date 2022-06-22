@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Part Compound‏‎Filter
    Name/fr   *Part Filtre de composé
-   MenuLocation   *Part → Outils composés → Filtre composé
+   MenuLocation   *Part → Composés → Filtre composé
    Workbenches   *[Part](Part_Workbench/fr.md)
    Version   *0.17
 ---
@@ -22,7 +22,7 @@ S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfa
 ## Utilisation
 
 1.  Sélectionnez l\'objet découpé
-2.  Appliquez **Part → Outils composés → Filtre composé**
+2.  Appliquez **Part → Composés → Filtre composé**
 3.  Sélectionnez l\'objet CompoundFilter dans l\'arborescence
 4.  Dans l\'onglet Propriétés, définissez \"Type de filtre\" sur \"éléments spécifiques\".
 5.  Définit les items sur les éléments à extraire

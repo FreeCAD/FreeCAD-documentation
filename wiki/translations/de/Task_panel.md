@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Der [Aufgabenbereich](Task_panel/de.md) erscheint im Reiter **Aufgaben** der [Combo-Ansicht](combo_view/de.md) und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Er ist ein anpassbaren Bereich, der jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. ausklappbare Unterfenster, Tabellen, Eingabefelder, Kontrollkästchen, Drehfelder, Auswahlfelder, Textfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente enthalten kann, abhängig vom gerade aktiven [Arbeitsbereich](Workbenches/de.md) und dem gerade aktiven Werkzeug.
+Der [Aufgabenbereich](Task_panel/de.md) erscheint im Reiter **Aufgaben** der [Combo-Ansicht](combo_view/de.md) und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Er ist ein anpassbarer Bereich, der jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. ausklappbare Unterfenster, Tabellen, Eingabefelder, Kontrollkästchen, Drehfelder, Auswahlfelder, Textfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente enthalten kann, abhängig vom gerade aktiven [Arbeitsbereich](Workbenches/de.md) und dem gerade aktiven Werkzeug.
 
 <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width   *" height="550px;">
 

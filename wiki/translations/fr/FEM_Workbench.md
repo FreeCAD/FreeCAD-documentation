@@ -44,15 +44,15 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [Matériau renforcé](FEM_MaterialReinforced/fr.md)    * Permet de sélectionner dans la base de données des matériaux renforcés composés d\'une matrice et d\'un renfort.
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Editeur de matériaux](Material_editor/fr.md)    * Permet d\'ouvrir l\'éditeur de matériaux pour éditer des matériaux.
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Editeur de matériaux](FEM_MaterialEditor/fr.md)    * Permet d\'ouvrir l\'éditeur de matériaux pour éditer des matériaux.
 
 ### Géométrie de l\'élément 
 
--   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width   *32px;"> [Coupe transversale de poutre](FEM_ElementGeometry1D/fr.md)    *Utilisé pour définir les coupes transversales des éléments de poutre.
+-   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width   *32px;"> [Coupe transversale élément type poutre](FEM_ElementGeometry1D/fr.md)    * Utilisé pour définir les sections transversales d\'éléments de type poutre.
 
--   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width   *32px;"> [Rotation de poutre](FEM_ElementRotation1D/fr.md)    * Utilisé pour faire pivoter les coupes transversales des éléments de poutre.
+-   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width   *32px;"> [Rotation élément type poutre](FEM_ElementRotation1D/fr.md)    * Utilisé pour faire pivoter les coupes transversales d\'éléments de type poutre.
 
--   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width   *32px;"> [Epaisseur d\'une coque](FEM_ElementGeometry2D/fr.md)    * Utilisé pour définir l\'épaisseur de l\'élément de structure.
+-   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width   *32px;"> [Épaisseur élément de type coque](FEM_ElementGeometry2D/fr.md)    * Utilisé pour définir l\'épaisseur de l\'élément de type coque.
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width   *32px;"> [Section fluide pour flux 1D](FEM_ElementFluid1D/fr.md)    * Utilisé pour créer un élément de section fluide pour les réseaux pneumatiques et hydrauliques.
 
@@ -62,7 +62,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 ### Contraintes de fluides 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Contrainte de la vitesse du flux d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md)    * Utilisé pour définir une vitesse d\'écoulement initiale pour le domaine.
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Contrainte de vitesse d\'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md)    * Utilisé pour définir une vitesse d\'écoulement initiale pour le domaine.
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [Contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md)    * Utilisé pour définir une vitesse d\'écoulement comme condition aux limites sur une arête (2D) ou une face (3D).
 
@@ -96,17 +96,17 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 ### Contraintes thermiques 
 
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width   *32px;"> [Contrainte initiale de température](FEM_ConstraintInitialTemperature/fr.md)    * Permet de définir la température initiale d\'un corps.
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width   *32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)    * Permet de définir la température initiale d\'un corps.
 
--   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width   *32px;"> [Contrainte flux thermique](FEM_ConstraintHeatflux/fr.md)    * Permet de définir une contrainte de flux thermique sur une ou plusieurs face(s)
+-   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width   *32px;"> [Contrainte de flux de chaleur](FEM_ConstraintHeatflux/fr.md)    * Permet de définir une contrainte de flux thermique sur une ou plusieurs face(s)
 
 -   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width   *32px;"> [Contrainte de température](FEM_ConstraintTemperature/fr.md)    * Permet de définir une contrainte de température sur un point/bord/face(s).
 
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *32px;"> [Contrainte de source de chaleur d\'un corps](FEM_ConstraintBodyHeatSource/fr.md)    * Utilisé pour définir une source de chaleur interne d\'un objet.
+-   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *32px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md)    * Utilisé pour définir une source de chaleur interne d\'un objet.
 
 ### Contraintes sans solveur 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width   *32px;"> [Condition aux limites du fluide](FEM_ConstraintFluidBoundary/fr.md)    * Utilisé pour définir une condition limite de fluide.
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width   *32px;"> [Condition de limite du fluide](FEM_ConstraintFluidBoundary/fr.md)    * Utilisé pour définir une condition limite de fluide.
 
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width   *32px;"> [Contrainte de roulement](FEM_ConstraintBearing/fr.md)    * Utilisé pour définir une contrainte de roulement.
 
@@ -120,19 +120,19 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 ## Menu    * Maillage 
 
--   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *32px;"> [Maillage MEF à partir d\'une forme avec Netgen](FEM_MeshNetgenFromShape/fr.md)    * Génère un maillage d\'éléments finis pour un modèle en utilisant Netgen.
+-   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *32px;"> [Maillage FEM à partir d\'une forme avec Netgen](FEM_MeshNetgenFromShape/fr.md)    * Génère un maillage d\'éléments finis pour un modèle en utilisant Netgen.
 
--   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md)    * Génère un maillage d\'éléments finis pour un modèle en utilisant Gmsh.
+-   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [Maillage FEM à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md)    * Génère un maillage d\'éléments finis pour un modèle en utilisant Gmsh.
 
--   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width   *32px;"> [Couche limite de maillage MEF](FEM_MeshBoundaryLayer/fr.md)    * crée des maillages anisotropes pour des calculs précis près des frontières.
+-   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width   *32px;"> [Couche limite de maillage FEM](FEM_MeshBoundaryLayer/fr.md)    * Crée des maillages anisotropes pour des calculs précis près des frontières.
 
--   <img alt="" src=images/FEM_MeshRegion.svg  style="width   *32px;"> [Région de maillage MEF](FEM_MeshRegion/fr.md)    * crée une ou plusieurs zones localisées à mailler, ce qui optimise considérablement le temps d\'analyse.
+-   <img alt="" src=images/FEM_MeshRegion.svg  style="width   *32px;"> [Région de maillage FEM](FEM_MeshRegion/fr.md)    * Crée une ou plusieurs zones localisées à mailler, ce qui optimise considérablement le temps d\'analyse.
 
--   <img alt="" src=images/FEM_MeshGroup.svg  style="width   *32px;"> [Groupe de type maillage MEF](FEM_MeshGroup/fr.md)    * regroupe et étiquette les éléments d\'un maillage (sommet, bord, surface) ensemble, ce qui est utile pour exporter le maillage vers des solveurs externes.
+-   <img alt="" src=images/FEM_MeshGroup.svg  style="width   *32px;"> [Groupe de maillage FEM](FEM_MeshGroup/fr.md)    * Regroupe et étiquette les éléments d\'un maillage (sommet, bord, surface) ensemble, ce qui est utile pour exporter le maillage vers des solveurs externes.
 
 -   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width   *32px;"> [Ensemble de nœuds](FEM_CreateNodesSet/fr.md)    * Crée/définit un ensemble de nœuds à partir d\'un maillage FEM.
 
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *32px;"> [Maillage à maillage MEF](FEM_FemMesh2Mesh/fr.md)    * convertit la surface d\'un maillage MEF en maillage.
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *32px;"> [Maillage à maillage FEM](FEM_FemMesh2Mesh/fr.md)    * Convertit la surface d\'un maillage FEM en maillage.
 
 ## Menu    * Solveur 
 
@@ -168,7 +168,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Afficher les résultats](FEM_ResultShow/fr.md)    * Utilisé pour afficher les résultats d\'une analyse.
 
--   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Appliquer les modifications au pipeline](FEM_PostApplyChanges/fr.md)    *
+-   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Appliquer les modifications au pipeline](FEM_PostApplyChanges/fr.md)    * Active l\'application immédiate des modifications apportées aux pipelines et aux filtres.
 
 -   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *32px;"> [Pipeline à partir du résultat](FEM_PostPipelineFromResult/fr.md)    * Permet d\'ajouter une nouvelle représentation graphique des résultats d\'analyse FEM (échelle de couleurs et plus d\'options d\'affichage).
 
@@ -176,9 +176,9 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width   *32px;"> [Filtre d\'écrêtage scalaire](FEM_PostFilterClipScalar/fr.md)    * Utilisé pour écrêter un champ avec une valeur scalaire spécifiée.
 
--   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width   *32px;"> [Filtre de fonction coupe](FEM_PostFilterCutFunction/fr.md)    * Permet d\'afficher les résultats sur une sphère ou un plan traversant le modèle.
+-   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width   *32px;"> [Filtre de découpe selon une fonction](FEM_PostFilterCutFunction/fr.md)    * Permet d\'afficher les résultats sur une sphère ou un plan traversant le modèle.
 
--   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width   *32px;"> [Filtre d\'écrêtage d\'une région](FEM_PostFilterClipRegion/fr.md)    * Utilisé pour écrêter un champ avec une sphère ou un plan traversant le modèle.
+-   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width   *32px;"> [Filtre de découpe selon une région](FEM_PostFilterClipRegion/fr.md)    * Utilisé pour écrêter un champ avec une sphère ou un plan traversant le modèle.
 
 -   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width   *32px;"> [Filtre d\'écrêtage selon une ligne](FEM_PostFilterDataAlongLine/fr.md)    * Utilisé pour tracer les valeurs d\'un champ le long d\'une ligne spécifiée.
 
@@ -186,23 +186,21 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width   *32px;"> [Données du filtre d\'écrêtage d\'un point](FEM_PostFilterDataAtPoint/fr.md)    * Permet d\'afficher la valeur d\'un champ sélectionné à un point donné.
 
--   [Fonctions filtres](FEM_PostCreateFunctions/fr.md)    *
-    -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;">
-    -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;">
+-   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Fonctions de filtrage](FEM_PostCreateFunctions/fr.md)    * Utilisé pour définir comment le maillage résultant est découpé par le [Filtre de découpe selon une fonction](FEM_PostFilterCutFunction/fr.md) et [Filtre de découpe selon une région](FEM_PostFilterClipRegion/fr.md).
 
 ## Menu    * Utilitaires 
 
--   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Plan de coupe sur la face](FEM_ClippingPlaneAdd/fr.md)    *
+-   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Plan de coupe](FEM_ClippingPlaneAdd/fr.md)    * Ajoute un plan de découpe pour l\'ensemble de la vue du modèle.
 
--   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Supprimer tous les plans de coupe](FEM_ClippingPlaneRemoveAll/fr.md)    *
+-   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Supprimer les plans de coupe](FEM_ClippingPlaneRemoveAll/fr.md)    * Supprime tous les [plans de coupe](FEM_ClippingPlaneAdd/fr.md) existants.
 
--   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [FEM Exemples](FEM_Examples/fr.md)    * Ouvrez l\'interface graphique pour accéder aux exemples FEM.
+-   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [Exemples](FEM_Examples/fr.md)    * Ouvrez l\'interface graphique pour accéder aux exemples FEM.
 
 ## Menu contextuel 
 
--   <img alt="" src=images/FEM_MeshClear.svg  style="width   *32px;"> [Supprimer maillage MEF](FEM_MeshClear/fr.md)    * supprime le fichier de maillage du fichier FreeCAD. Utile pour alléger un fichier FreeCAD.
+-   <img alt="" src=images/FEM_MeshClear.svg  style="width   *32px;"> [Supprimer maillage FEM](FEM_MeshClear/fr.md)    * supprime le fichier de maillage du fichier FreeCAD. Utile pour alléger un fichier FreeCAD.
 
--   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width   *32px;"> [Affichage des informations du maillage MEF](FEM_MeshDisplayInfo/fr.md)    * Affiche les statistiques de base du maillage existant - nombre de nœuds et d\'éléments de chaque type.
+-   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width   *32px;"> [Affichage des informations du maillage FEM](FEM_MeshDisplayInfo/fr.md)    * Affiche les statistiques de base du maillage existant - nombre de nœuds et d\'éléments de chaque type.
 
 ## Préférences
 

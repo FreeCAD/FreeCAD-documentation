@@ -1,18 +1,15 @@
 ---
 - GuiCommand   */de
    Name   *Arch CurtainWall
-   Name/de   *Architektur Vorhangfassade
+   Name/de   *Arch Vorhangfassade
    MenuLocation   *Arch → Vorhandene Fassade
    Workbenches   *[Arch](Arch_Workbench/de.md)
    Shortcut   ***C** **W**
    Version   *0.19
-   SeeAlso   *[Architektur Wand](Arch_Wall/de.md), [Architektur Gitter](Arch_Grid/de.md)
+   SeeAlso   *[Arch Wand](Arch_Wall/de.md), [Arch Gitter](Arch_Grid/de.md)
 ---
 
 # Arch CurtainWall/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -173,20 +170,12 @@ Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade
 
 </div>
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
 
 **Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -218,15 +207,6 @@ curtainwall = Arch.makeCurtainWall(baseface)
 curtainWall.VerticalSections = 6
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -84,78 +84,76 @@ Facendo clic con il tasto destro in uno spazio vuoto della vista o con una propr
     -   Dati   * \"Proxy\", \"Label2\", \"Expression Engine\", and \"Visibility\".
     -   Vista   * \"Proxy\".
 
-
-<div class="mw-translate-fuzzy">
-
 Quando l\'opzione **Mostra tutto** è attiva e viene selezionata una proprietà, facendo un secondo clic con il tasto destro sono disponibili altre azioni   *
 
 -    **Mostra tutto**   * disattiva il comando **Mostra tutto** e nasconde le proprietà aggiuntive di Dati e Vista.
 
--    **Add Property**   * aggiunge una proprietà dinamica all\'oggetto; funziona con oggetti di [script](scripted_objects/it.md) C++ e Python.
+-    **Aggiungi proprietà**   * aggiunge una proprietà dinamica all\'oggetto; funziona con oggetti definiti in [script](scripted_objects/it.md) C++ e Python.
 
--    **Expression**   * visualizza l\'editor delle formule, che consente di utilizzare le [espressioni](Expressions/it.md) nel valore della proprietà.
+-    **Espressione**   * visualizza l\'editor delle formule, che consente di utilizzare le [espressioni](Expressions/it.md) nel valore della proprietà.
 
--    **Hidden**   * se attivo, imposta la proprietà come nascosta, il che significa che verrà visualizzata solo se **Mostra tutto** è attivo.
+-    **Hidden**   * se attivo, imposta la proprietà come nascosta, il che significa che verrà visualizzata nell\'editor delle proprietà solo se **Mostra tutto** è attivo.
 
 -    **Output**   * se attivo, imposta la proprietà come output.
 
 -    **NoRecompute**   * se attivo, imposta la proprietà come non ricalcolata quandi il documento viene ricalcolato; è utile quando una proprietà non deve essere influenzata da altri aggiornamenti.
 
--    **ReadOnly**   * se attivo, imposta la proprietà in sola lettura; non sarà più modificabile fino a quando questo interruttore non viene disattivato.
+-    **ReadOnly**   * se attivo, imposta la proprietà in sola lettura; non sarà più modificabile nell\'editor delle proprietà fino a quando questo interruttore non viene disattivato.La voce di menu **Expression...** non è più disponibile. {{Enfasi|Nota   *}} Potrebbe essere ancora possibile modificare la proprietà tramite una finestra di dialogo che aggiorna la proprietà.
 
--    **Transient**   * se attivo, imposta la proprietà come transitoria.
+-    **Transient**   * se attivo, imposta la proprietà come transitoria. Il valore di una proprietà transitoria non viene salvato su file. Quando si apre un file, viene istanziata con il suo valore predefinito.
 
 -    **Touched**   * se attivo, viene toccato e pronto per il ricalcolo.
 
 -    **EvalOnRestore**   * se attivo, viene valutato al ripristino del documento.
 
-
-</div>
-
 ## Esempio di proprietà di un oggetto PartDesign 
 
-In this section we show some common properties that are visible for a [PartDesign Body](PartDesign_Body.md), and one [PartDesign Feature](PartDesign_Feature.md). The specific properties of an object can found in the specific documentation page of that object.
+In questa sezione mostriamo alcune proprietà comuni che sono visibili per un [Corpo PartDesign](Corpo_PartDesign.md) e una [Funzione PartDesign](Funzione_PartDesign.md). Le proprietà specifiche di un oggetto possono essere trovate nella pagina della documentazione specifica di quell\'oggetto.
 
 ### Vista
 
-Most of these properties are inherited from the [Part Feature](Part_Feature.md) basic object.
+La maggior parte di queste proprietà viene ereditata dall\'oggetto di base [Funzione Part](Part_Feature/it.md).
 
 <img alt="" src=images/FreeCAD_Property_editor_View.png  style="width   *490px;"> {{TitleProperty|Base}}
 
+-    **Angular Deflection**   * è un altro modo per specificare quanto finemente generare la mesh per il rendering sullo schermo o durante l\'esportazione. Il valore predefinito è 28,5 gradi o 0,5 radianti. Più piccolo è il valore, più uniforme sarà l\'aspetto in [Vista 3D](3D_view/it.md) e più fine sarà la mesh che verrà esportata.
 
-<div class="mw-translate-fuzzy">
+-    **Bounding Box**   * Indica se deve essere visualizzata una casella che mostra l\'ingombro complessivo dell\'oggetto.
 
--    **Bounding Box**   * Indica se deve essere visualizzata una casella (riquadro di delimitazione) che mostra l\'ingombro complessivo dell\'oggetto. Valore Falso o Vero (predefinito, Falso).
+-    **Deviation**   * imposta la precisione della rappresentazione poligonale del modello nella vista 3D (tassellatura). Valori più bassi indicano una migliore qualità. Il valore è in percentuale della dimensione dell\'oggetto.
 
--    **Control Point**   * Indica se i punti di controllo delle funzioni devono essere visualizzati. Valore Falso o Vero (predefinito, Falso).
+-    **Display Mode**   * modalità di visualizzazione dell\'intero corpo,{{Value|Flat lines}} (default), {{Value|Shaded}}, {{Value|Wireframe}}, {{Value|Points}}.
 
--    **Deviation**   * Imposta la precisione della rappresentazione poligonale del modello nella vista 3D (tassellatura). Valori più bassi = migliore qualità. Il valore è in percentuale della dimensione dell\'oggetto (deviazione in mm = (w+h+d)/3\* valore in Percentuale /100, dove w, h, d sono le dimensioni del riquadro di delimitazione).
+-    **Display Mode Body**   * modalità di visualizzazione della punta del corpo, {{Value|Through}} (default), {{Value|Tip}}.
 
--    **Display Mode**   *Modalità di visualizzazione della funzione, **Flat lines, Shaded, Wireframe, Points** [96px](IMAGE   *Vue_DisplayModePartDesign_fr_00.png.md). (Default, **Flat lines**).
+-    **Draw Style**   * {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dotted}}, {{Value|Dashdot}}; definisce lo stile dei bordi nella [vista 3D](3D_view/it.md).
 
--    **Lighting**   * Illuminazione **One side, Two side** [96px](IMAGE   *Vue_Lighting_fr_00.png.md). (Default, **Two side**).
+-    **Lighting**   * {{Value|One side}}, {{Value|Two side}} (default).
 
--    **Line Color**   * Dà il colore della linea (bordi) (Default, **25, 25, 25**).
+-    **Line Color**   * il colore RGB dei bordi, di default {{value|(25, 25, 25)}}.
 
--    **Line Width**   * Dà lo spessore della linea (bordi) (Default, **2**).
+-    **Line Width**   * lo spessore dei bordi, di default {{value|2}} pixels.
 
--    **Point Color**   * Fornisce il colore dei punti (estremità della funzione) (Default, **25, 25, 25**).
+-    **On Top When Selected**   * {{value|Disabled}}, {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
 
--    **Point Size**   * Dà la dimensione dei punti (Default, **2**).
+-    **Point Color**   * il colore RGB dei vertici, di default {{value|(25, 25, 25)}}.
 
--    **Selectable**   * Consente la selezione della funzione. Valore Falso o Vero (predefinito, Vero).
+-    **Point Size**   * la dimensione dei vertici, di default {{value|2}} pixels.
 
--    **Shape Color**   * Dà il colore della forma (default, **204, 204, 204**).
+-    **Selectable**   * se l\'oggetto è selezionabile o meno.
 
--    **Transparency**   * Imposta il grado di trasparenza nella funzione da **0** a **100** (Default, **0**).
+-    **Selection Style**   * {{value|Shape}}, {{value|BoundBox}}.
 
--    **Visibility**   * Determina la visibilità della funzione (come la barra **SPACE**). Valore Falso o Vero (predefinito, Vero).
+-    **Shape Color**   * il colore RGB della forma, di default {{value|(204, 204, 204)}}.
+
+-    **Show In Tree**   * se è `True`, l\'oggetto appare nella vista ad albero. Altrimenti, è impostato come invisibile.
+
+-    **Transparency**   * imposta il grado di trasparenza nella funzione da **0** a **100** (Default, **0**).
+
+-    **Visibility**   * se l\'oggetto è visibile o no nella [vista 3D](3D_view/it.md). Commuta con la barra **Space** della tastiera.
 
 
 
-
-
-</div>
 
 ### Dati
 
@@ -163,15 +161,7 @@ In questo caso osserviamo le proprietà dello strumento [Rivoluzione di PartDesi
 
 <img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width   *490px;"> {{TitleProperty|Base}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{ProprietaDati|Label}}   *
-
-Label è il nome attribuito all\'operazione, questo nome può essere modificato a discrezione.
-
-
-</div>
+-    {{ProprietaDati|Label}}   * il nome definito dall\'utente assegnato all\'oggetto, questo può essere modificato a piacere.
 
 
 {{TitleProperty|Part Design}}
@@ -179,48 +169,20 @@ Label è il nome attribuito all\'operazione, questo nome può essere modificato 
 -    **Refine**   * se affinare la fusione fatta con altri oggetti.
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Rivoluzione}}
 
--    **Placement**   *
+-    **Base**   * il punto nello spazio che specifica dove avviene la rivoluzione. Non può essere modificato direttamente, solo durante la modifica della funzione.
 
-Ogni funzione ha un posizionamento che può essere controllato tramite la tabella delle proprietà dei dati. Placement controlla il posizionamento della parte rispetto al sistema di coordinate. NOTA   * le proprietà di posizionamento non influenzano le dimensioni fisiche della funzione, ma semplicemente la sua posizione nello spazio!
-Se si seleziona il titolo **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, alla sua destra appare un pulsante con **tre puntini**. Cliccando su questi ** '''...'''**, si apre la finestra delle opzioni per il **[Posizionamento](Tasks_Placement/it.md)**.
+-    **Asse**   * l\'asse attorno al quale verrà eseguita la rivoluzione. Non può essere modificato direttamente, solo durante la modifica della funzione.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--    {{ProprietaDati|Axis}}   *
-
-Questa opzione specifica l\'asse o gli assi su cui l\'operazione creata deve essere ruotata. Il valore di rotazione esatto viene dalla opzione angolo (sopra). Questa opzione ha tre argomenti, che vengono passati come numeri alle rispettive caselle di testo X, Y, Z dello strumento. Inserendo un valore in più di uno degli assi si causa la rotazione della parte del corrispondente angolo per ogni asse. Per esempio, con un angolo impostato pari a 15°, specificando un valore di 1,0 per X, e di 2,0 per Y causa una rotazione finale del pezzo di 15° sull\'asse X e di 30° sull\'asse Y.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--    {{ProprietaDati|Angle}}   *
-
-L\'argomento Angolo specifica l\'angolo da utilizzare con l\'opzione Axis. In questa opzione si stabilisce un angolo, poi sotto, con l\'opzione Axis, si imposta l\'asse sul quale si vuole utilizzare questo angolo. L\'operazione viene ruotata dell\'angolo specificato, attorno all\'asse specificato. Un esempio di utilizzo potrebbe essere quando si crea una operazione rivoluzione, ma poi serve ruotare l\'intera operazione di un certo valore, per allinearla con una diversa operazione preesistente.
-
-
-</div>
+-    **Angolo**   * l\'angolo che specifica quanto dell\'elemento base viene ruotato. Per impostazione predefinita è {{value|360 gradi}}, ma può essere qualsiasi sua frazione.
 
 
 {{TitleProperty|Sketch Based}}
 
+-    **Midplane**   * se l\'oggetto di base è uno [Sketch](Sketch.md), quando questa proprietà è `True`, eseguirà la rivoluzione con lo schizzo che funge da piano di simmetria. Questo è evidente se l\' **Angolo** è diverso da {{value|360 gradi}}.
 
-<div class="mw-translate-fuzzy">
-
--    {{ProprietaDati|Position}}   *
-
-Questa opzione specifica il punto base, ovvero, il punto a cui tutte le dimensioni si riferiscono. Questa opzione ha tre argomenti, che vengono passati come numeri alle rispettive caselle di testo X, Y, Z dello strumento. Inserendo un valore in una o più caselle si produce una traslazione della parte sull\'asse corrispondente, pari al numero di unità indicate.
-
-
-</div>
+-    **Reversed**   * di default è `True`. Indica se eseguire la rivoluzione in una direzione o nell\'altra.
 
 
 

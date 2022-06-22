@@ -55,7 +55,7 @@ Das Werkzeug <img alt="" src=images/PartDesign_Draft.svg  style="width   *24px;"
     -   Eine oder mehrere Flächen in der Liste auswählen und die **Del**-Taste drücken oder mit der rechte Maustaste in die Liste klicken und **Entfernen** aus dem Kontextmenü auswählen.
     -   Die Schaltfläche **Fläche entfernen** drücken. Alle zuvor ausgewählten Flächen werden violett hervorgehoben. Jede zu entfernende Fläche auswählen.
 
--    **Formschrägenwinkel**   * Den Winkel der Schräge verändern, indem man einenWert eingibt oder die Pfeiltasten anklickt.
+-    **Formschrägenwinkel**   * Den Winkel der Schräge verändern, indem man einen Wert eingibt oder die Pfeiltasten anklickt.
 
 -    **Neutrale Ebene**   * Die neutrale Ebene angeben, indem man die Schaltfläche **Neutrale Ebene** drückt und die Fläche auswählt, die sich maßlicht nicht verändern soll.
 

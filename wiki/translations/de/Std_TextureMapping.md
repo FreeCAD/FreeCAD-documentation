@@ -18,7 +18,7 @@ Der Befehl **Std Texturabbildung** bildet temporär eine Textur auf allen Objekt
 ## Anwendung
 
 1.  Menüeintrag **Ansicht → <img src="images/Std_TextureMapping.svg" width=16px> Texturabbildung...** auswählen.
-2.  Bei Bedarf im Augabenbereich Texture die Checkbox {{CheckBox|TRUE|Umgebung}} aktivieren.
+2.  Bei Bedarf im Aufgabenbereich Texture die Checkbox {{CheckBox|TRUE|Umgebung}} aktivieren.
 3.  Schaltfläche **...** drücken.
 4.  Eine Bilddatei im Dialogfenster auswählen
 5.  Schaltfläche **Schließen** drücken, um den Aufgabenbereich zu schließen und den Befehl zu beenden.

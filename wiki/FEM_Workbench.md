@@ -43,7 +43,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [Reinforced material (concrete)](FEM_MaterialReinforced.md)   * Lets you select reinforced materials consisting of a matrix and a reinforcement from the database.
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Material editor](Material_editor.md)   * Lets you open the material editor to edit materials.
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Material editor](FEM_MaterialEditor.md)   * Lets you open the material editor to edit materials.
 
 ### Element Geometry 
 

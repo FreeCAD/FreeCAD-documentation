@@ -2,8 +2,9 @@
 - GuiCommand   */fr
    Name   *PartDesign_Scaled
    Name/fr   *PartDesign Mise à l'échelle
-   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
    MenuLocation   *Aucune (option dans Part Design → Appliquer une transformation → Transformation multiple)
+   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso   *[PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
 ---
 
 # PartDesign Scaled/fr
@@ -15,7 +16,7 @@
 <img alt="" src=images/PartDesign_Scaled-01.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-02.png  style="width   *300px;"> 
 *Une répétition linéaire et une répétition polaire → Mise à l'échelle de la répétition linéaire avec 3 occurrences et de la répétition polaire avec 12 occurrences*
 
-S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> [Transformation multiple](PartDesign_MultiTransform/fr.md), les éléments mis à l\'échelle seront placés à la même position que l\'élément de base. Cela peut donner lieu à des formes inattendues si l\'élément de base n\'est pas entièrement couvert par l\'objet mis à l\'échelle. Il n\'est donc pas recommandé d\'utiliser **Mise à l\'échelle** comme transformation unique ou première transformation d\'une fonction Transformation multiple.
+S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> [Transformation multiple](PartDesign_MultiTransform/fr.md), les éléments mis à l\'échelle seront placés à la même position que l\'élément de base. Cela peut donner lieu à des formes inattendues si l\'élément de base n\'est pas entièrement couvert par l\'objet mis à l\'échelle. Il n\'est donc pas recommandé d\'utiliser **Mise à l\'échelle** comme la première transformation d\'une fonction Transformation multiple.
 
 <img alt="" src=images/PartDesign_Scaled-03.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-04.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/PartDesign_Scaled-05.png  style="width   *200px;"> 
 *Un élément de base avec un trou → Objet mis à l'échelle avec 2 occurrences → Objet mis à l'échelle avec 4 occurrences*
@@ -30,8 +31,8 @@ S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=
 2.  Le [Panneau des tâches](Task_panel/fr.md) **Paramètres de la transformation multiple** s\'ouvre.
 3.  Cliquez du bouton droit de la souris dans la liste **Transformations** et sélectionnez **Ajouter une transformation de mise à l'échelle** dans le menu contextuel.
 4.  Un élément **Scaled** est ajouté à la liste. Le panneau des tâches sétend vers le bas pour permettre de définir le **Facteur** et les **Occurrences**. Voir [Options](#Options.md) pour plus d\'informations.
-5.  Cliquez sur la barre **OK** en bas pour valider les options.
-6.  Cliquez sur le bouton **OK** en haut pour terminer.
+5.  Appuyez sur **OK** de la barre en bas.
+6.  Appuyez sur le bouton **OK** en haut pour terminer.
 
 ### Mise à l\'échelle d\'un seul élément 
 

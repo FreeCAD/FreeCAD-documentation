@@ -86,13 +86,13 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 -   <img alt="" src=images/Path_Sanity.svg  style="width   *32px;"> [Rechercher des erreurs](Path_Sanity/fr.md)    * Vérifie les valeurs manquantes dans la tâche sélectionnée. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
--   <img alt="" src=images/Path_ExportTemplate.svg  style="width   *32px;"> [Exporter comme modèle](Path_ExportTemplate/fr.md)    * Exporte la tâche en cours en tant que modèle.
+-   <img alt="" src=images/Path_ExportTemplate.svg  style="width   *32px;"> [Modèle d\'exportation](Path_ExportTemplate/fr.md)    * Exporte la tâche en cours en tant que modèle.
 
 ### Commandes d\'outils 
 
--   <img alt="" src=images/Path_Inspect.svg  style="width   *32px;"> [Inspection du G-code](Path_Inspect/fr.md)   * Affiche le G-code pour vérification.
+-   <img alt="" src=images/Path_Inspect.svg  style="width   *32px;"> [Inspecter commandes de trajectoire](Path_Inspect/fr.md)   * Affiche le G-code pour vérification.
 
--   <img alt="" src=images/Path_Simulator.svg  style="width   *32px;"> [Simulateur d\'usinage](Path_Simulator/fr.md)    * Montre l\'opération d\'usinage comme le ferait la machine.
+-   <img alt="" src=images/Path_Simulator.svg  style="width   *32px;"> [Simulateur FAO](Path_Simulator/fr.md)    * Montre l\'opération d\'usinage comme le ferait la machine.
 
 -   <img alt="" src=images/Path_SelectLoop.svg  style="width   *32px;"> [Terminer une boucle](Path_SelectLoop/fr.md)    * Complète une boucle à partir de deux arêtes sélectionnées.
 
@@ -166,7 +166,7 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 ### Divers
 
--   <img alt="" src=images/Path_Area.svg  style="width   *32px;"> [Zone d\'usinage](Path_Area/fr.md)    * Crée une zone d\'usinage à partir d\'objets sélectionnés. [**Fonctions expérimentales**](Path_experimental/fr.md).
+-   <img alt="" src=images/Path_Area.svg  style="width   *32px;"> [Surface](Path_Area/fr.md)    * Crée une zone d\'usinage à partir d\'objets sélectionnés. [**Fonctions expérimentales**](Path_experimental/fr.md).
 
 -   <img alt="" src=images/Path_Area_Workplane.svg  style="width   *32px;"> [Plan de travail](Path_Area_Workplane/fr.md)    * Crée une zone d\'usinage plane. [**Fonctions expérimentales**](Path_experimental/fr.md).
 

@@ -3,18 +3,18 @@
 
 ## Aktualne stabilne wersje 
 
-Wydanie **0.19.3** *(24366)* programu FreeCAD zostało opublikowane 2021-12-04. Aby dowiedzieć się o nowościach, zobacz [Informacje o wydaniu](Release_notes_0.19/pl.md).
+Wydanie **0.20** *(29177)* programu FreeCAD zostało opublikowane 2022-06-14. Aby dowiedzieć się o nowościach, zobacz stronę [Informacje o wydaniu](Release_notes_0.20/pl.md).
 
-Sumy kontrolne **SHA256** do weryfikacji wiarygodności pobranych plików znajdziesz na stronie [0.19.3 wydania](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.19.3).
+Sumy kontrolne **SHA256** do weryfikacji wiarygodności pobranych plików znajdziesz na stronie [wydania 0.20](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.20).
 
 Poprzednie wersje można pobrać ze strony [wydań](https   *//github.com/FreeCAD/FreeCAD/releases).
 
 +   *   *+---+   *   *+---+   *   *+
-| ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png )         |
-|                                                                                                                                   |   |                                                                                                                 |   |                                                    |
-| [Install on Windows](Installing_on_Windows.md)                                                                            |   | [Install on Mac](Installing_on_Mac.md)                                                                  |   | [Install on Linux](Installing_on_Linux.md) |
-|                                                                                                                                   |   |                                                                                                                 |   |                                                    |
-| [64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-4.exe) (includes installer) |   | [macOS 64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)             |
+| ![](images/Windows.png )                                                                                                  |   | ![](images/Mac.png )                                                                                |   | ![](images/AppImage-logo.png )         |
+|                                                                                                                                 |   |                                                                                                       |   |                                                    |
+| [Install on Windows](Installing_on_Windows.md)                                                                          |   | [Install on Mac](Installing_on_Mac.md)                                                        |   | [Install on Linux](Installing_on_Linux.md) |
+|                                                                                                                                 |   |                                                                                                       |   |                                                    |
+| [64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-WIN-x64-installer-1.exe) (includes installer) |   | [macOS 64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-OSX-i386.dmg) |   | [AppImage 64-bit](AppImage.md)             |
 ++---++---++
 
 ### Uwagi dla użytkowników systemu Windows 
@@ -36,8 +36,8 @@ Proszę zobaczyć stronę [Kompilacja w systemie Linux](Installing_on_Linux/pl.m
 Wersja przenośna, która nie wymaga instalacji, może być osiągnięta przez uruchomienie programu FreeCAD następującymi poleceniami   * {{Version/pl|0.19}} 
 ```python
 cd ścieżka/doo/folderu_z_AppImage/
-chmod +x ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
-HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
+chmod +x ./FreeCAD-0.20.0-Linux-x86_64.AppImage
+HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD-0.20.0-Linux-x86_64.AppImage
 ```
 
 Więcej informacji na temat zmiennych środowiskowych FreeCAD można znaleźć na stronie [uruchomienie i konfiguracja](Start_up_and_Configuration/pl#Zmienne_.C5.9Brodowiskowe/pl.md).

@@ -1,13 +1,4 @@
-# Std Base/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="Icona di base" src=images/Freecad.svg  style="width   *128px;">
+# <img alt="Icona di base" src=images/Freecad.svg  style="width   *64px;"> Std Base/it
 
 
 {{TOCright}}
@@ -44,37 +35,25 @@ Il menu standard è composto da 7 sotto-menu. Ogni sotto-menu ha una pagina dedi
 
 ### Strumenti aggiuntivi 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_Part.svg  style="width   *32px;"> [Parte](Std_Part/it.md)   * Crea una nuova parte e la rende attiva.
--   <img alt="" src=images/Std_Group.svg  style="width   *32px;"> [Gruppo](Std_Group/it.md)   * Crea un nuovo gruppo.
--   <img alt="" src=images/Std_LinkMake.svg  style="width   *32px;"> [Crea link](Std_LinkMake/it.md)   * Crea un link. {{Version/it|0.19}}
--   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width   *32px;"> [Crea link relativo](Std_LinkMakeRelative/it.md)   * Crea un collegamento di sotto-oggetto o sotto-elemento. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_Part.svg  style="width   *32px;"> [Crea una parte](Std_Part/it.md)   * Crea una nuova parte e la rende attiva.
+-   <img alt="" src=images/Std_Group.svg  style="width   *32px;"> [Crea gruppo](Std_Group/it.md)   * Crea un nuovo gruppo.
+-   <img alt="" src=images/Std_LinkMake.svg  style="width   *32px;"> [Crea un link](Std_LinkMake/it.md)   * Crea un collegamento. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width   *32px;"> [Crea link relativo](Std_LinkMakeRelative/it.md)   * Crea un collegamento a un sotto-oggetto o a un sotto-elemento. {{Version/it|0.19}}
 -   <img alt="" src=images/Std_LinkReplace.svg  style="width   *32px;"> [Sostituisci con il link](Std_LinkReplace/it.md)   * Sostituisce l\'oggetto(i) con un nuovo collegamento(i). {{Version/it|0.19}}
--   <img alt="" src=images/Std_LinkUnlink.svg  style="width   *32px;"> [Annulla il link](Std_LinkUnlink/it.md)   * Sostituisce i link con i loro oggetti collegati. {{Version/it|0.19}}
--   <img alt="" src=images/Std_LinkImport.svg  style="width   *32px;"> [Importa un link](Std_LinkImport/it.md)   * Importa i link esterni selezionati. {{Version/it|0.19}}
--   <img alt="" src=images/Std_LinkImportAll.svg  style="width   *32px;"> [Importa tutti i link](Std_LinkImportAll/it.md)   * Importa tutti i link esterni. {{Version/it|0.19}}
--   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width   *32px;"> [Std LinkMakeGroup](Std_LinkMakeGroup/it.md)   * Crea un gruppo di collegamenti. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkUnlink.svg  style="width   *32px;"> [Annulla il link](Std_LinkUnlink/it.md)   * Sostituisce i collegamenti con i loro oggetti collegati. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkImport.svg  style="width   *32px;"> [Importa un link](Std_LinkImport/it.md)   * Importa i collegamenti esterni selezionati. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkImportAll.svg  style="width   *32px;"> [Importa tutti i link](Std_LinkImportAll/it.md)   * Importa tutti i collegamenti esterni. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width   *32px;"> [Crea un gruppo di link](Std_LinkMakeGroup/it.md)   * Crea un gruppo di collegamenti. {{Version/it|0.19}}
 -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width   *32px;"> [Collega i link selezionati](Std_LinkSelectLinked/it.md)   * Seleziona l\'oggetto collegato e passa al suo documento. {{Version/it|0.19}}
--   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width   *32px;"> [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/it.md)   * Seleziona l\'oggetto collegato più profondo e passa al suo documento. {{Version/it|0.19}}
--   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width   *32px;"> [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/it.md)   * Seleziona tutti i collegamenti ad un oggetto. {{Version/it|0.19}}
--   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width   *32px;"> [Std TreeSelectAllInstances](Std_TreeSelectAllInstances/it.md)   * Seleziona tutte le istanze di un oggetto. {{Version/it|0.19}}
--   <img alt="" src=images/Std_SelBack.svg  style="width   *32px;"> [Std SelBack](Std_SelBack/it.md)   * Ripristina la precedente selezione salvata. {{Version/it|0.19}}
--   <img alt="" src=images/Std_SelForward.svg  style="width   *32px;"> [Std SelForward](Std_SelForward/it.md)   * Ripristina la successiva selezione salvata. {{Version/it|0.19}}
--   [Std Expressions](Std_Expressions/it.md)   * Azioni di espressione. {{Version/it|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width   *32px;"> [Vai all\'oggetto collegato più profondo](Std_LinkSelectLinkedFinal/it.md)   * Seleziona l\'oggetto collegato più profondo e passa al suo documento. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width   *32px;"> [Seleziona tutti i link](Std_LinkSelectAllLinks/it.md)   * Seleziona tutti i collegamenti ad un oggetto. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width   *32px;"> [Seleziona tutte le istanze](Std_TreeSelectAllInstances/it.md)   * Seleziona tutte le istanze di un oggetto. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_SelBack.svg  style="width   *32px;"> [Indietro](Std_SelBack/it.md)   * Ripristina la precedente selezione salvata. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_SelForward.svg  style="width   *32px;"> [Avanti](Std_SelForward/it.md)   * Ripristina la successiva selezione salvata. {{Version/it|0.19}}
+-   [Espressioni](Std_Expressions/it.md)   * Azioni di espressione. {{Version/it|0.19}}
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

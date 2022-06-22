@@ -36,7 +36,7 @@ Finds out missing coincidences for overlapping vertices, and adds them. Press th
 
 If necessary, define a larger tolerance value in the drop-down field.
 
-Press **Highlight open vertexes** to highlight vertexes that are outside this tolerance.
+Press **Highlight troublesome vertexes** to highlight vertexes that are outside this tolerance.
 
 This tolerance is also used by the **Find**/**Fix** process.
 

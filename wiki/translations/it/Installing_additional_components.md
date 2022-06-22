@@ -7,13 +7,7 @@ Dopo aver installato FreeCAD sul tuo sistema operativo ([Windows](Installing_on_
 
 # File di aiuto 
 
-
-<div class="mw-translate-fuzzy">
-
-La documentazione offline non viene fornita con tutti i programmi di installazione, ma è disponibile come pacchetto separato. Vedere la pagina [installare file di aiuto](Installing_Helpfile/it.md) per maggiori informazioni.
-
-
-</div>
+Vedere [Installazione del file della Guida](Installing_Helpfile/it.md).
 
 # Ambienti di lavoro esterni 
 
@@ -53,15 +47,15 @@ Tutto il software in questa sezione viene utilizzato dagli strumenti [Importa](S
 
 FreeCAD ha un importatore ed esportatore nativo per file DXF, programmato in C++. Attualmente non implementa tutte le funzionalità del formato DXF. Per queste funzionalità sono ancora disponibili l\'importatore ed esportatore Python legacy. Questi richiedono la libreria Python [Draft-dxf-importer](https   *//github.com/yorikvanhavre/Draft-dxf-importer). Vedere la pagina [Importare i file DXF in FreeCAD](FreeCAD_and_DXF_Import/it.md) per maggiori informazioni.
 
-### DWG converters 
+### Convertitori DWG 
 
-FreeCAD cannot directly read and write DWG files. To convert DXF files to DWG files, and vice-versa, FreeCAD relies on external converters. There is built-in support for the following DWG converters   *
+FreeCAD non può leggere e scrivere direttamente file DWG. Per convertire file DXF in file DWG e viceversa, FreeCAD si affida a convertitori esterni. È disponibile il supporto integrato per i seguenti convertitori DWG   *
 
--   [LibreDWG](https   *//www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
--   [ODA File Converter](https   *//www.opendesign.com/guestfiles/oda_file_converter) (free, but not open-source).
--   [QCAD pro](https   *//qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
+-   [LibreDWG](https   *//www.gnu.org/software/libredwg) (open-source, manca il supporto per alcune entità DWG).
+-   [ODA File Converter](https   *//www.opendesign.com/guestfiles/oda_file_converter) (free, ma non open-source).
+-   [QCAD pro](https   *//qcad.org/en/qcad-command-line-tools#dwg2dwg) (commerciale). <small>(v0.20)</small> 
 
-See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
+Vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it#DWG.md) e [Importare i file DWG in FreeCAD](FreeCAD_and_DWG_Import/it.md) per maggiori informazioni.
 
 ### IfcOpenShell
 

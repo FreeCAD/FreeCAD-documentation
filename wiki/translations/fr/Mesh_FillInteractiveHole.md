@@ -16,7 +16,7 @@ La commande **Mesh Boucher un trou** remplit les trous sélectionnés dans les o
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/Mesh_FillInteractiveHole.svg" width=16px> [Bouche un trou de manière interactive](Mesh_FillInteractiveHole/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Mesh_FillInteractiveHole.svg" width=16px> [Boucher un trou](Mesh_FillInteractiveHole/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Boucher un trou** dans le menu.
 2.  Le curseur se transforme en icône triangulaire.

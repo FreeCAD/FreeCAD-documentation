@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *Path ExportTemplate
-   Name/fr   *Path Exporter comme modèle
+   Name/fr   *Path Modèle d'exportation
    MenuLocation   *Path → Modèle d'exportation
    Workbenches   *[Path](Path_Workbench/fr.md)
    SeeAlso   *[Path Feuille de configuration](Path_SetupSheet/fr.md)

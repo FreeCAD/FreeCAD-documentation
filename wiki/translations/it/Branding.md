@@ -1,50 +1,23 @@
 # Branding/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Presentazione
 
+Questo articolo descrive la **Marchiatura** di FreeCAD. Marchiare (Branding) significa creare una propria applicazione basata su FreeCAD. La personalizzazione può riguardare solo il proprio eseguibile oppure andare dalla [schermata iniziale](Splash_screen/it.md) fino alla rielaborazione completa del programma. Sulla base dell\'architettura flessibile di FreeCAD è facile utilizzarlo come base per il proprio programma per scopi speciali.
 
-<div class="mw-translate-fuzzy">
+## Avvertimento
 
-Questo articolo descrive la personalizzazione o **Marchiatura** di FreeCAD.
+Sebbene FreeCAD sia offerto gratuitamente e la comunità di FreeCAD sia felice di vedere emergere altre applicazioni basate su FreeCAD, abbiamo d\'altronde visto un uso ingiusto delle informazioni contenute in questa pagina da parte di persone che semplicemente hanno rimarchiato FreeCAD in un\'applicazione closed-source per trarne profitto.
 
-Marchiare (Branding) significa avviare la realizzazione di una propria applicazione basata su FreeCAD. La personalizzazione può riguardare solo il proprio eseguibile oppure andare dalla [schermata iniziale](Splash_screen/it.md) fino alla rielaborazione completa del programma. Sulla base dell\'architettura flessibile di FreeCAD è facile utilizzarlo come base per il proprio programma per scopi speciali.
+Sebbene la [Licenza LGPL](Licence/it.md) consenta di utilizzare il codice sorgente di FreeCAD in applicazioni closed-source, fornisce anche regole rigide per farlo e non consente semplicemente di prendere FreeCAD, rinominarlo e togliergli la licenza.
 
+Se sei interessato a utilizzare FreeCAD in un\'applicazione closed-source, assicurati di controllare accuratamente le implicazioni della licenza LGPL e, ancora meglio, contatta qualsiasi sviluppatore, amministratore o moderatore di FreeCAD prima di farlo.
 
-</div>
+## Generale
 
-## Warning
+La maggior parte della marchiatura avviene in **MainCmd.cpp** oppure in **MainGui.cpp**. Questi Progetti generano i file eseguibili di FreeCAD. Per costruire il proprio marchio è sufficiente copiare i progetti Main o MainGui e dare all\'eseguibile il proprio nome, ad esempio, **FooApp.exe**.
 
-Although FreeCAD is offered to you free of charge, and the FreeCAD community is happy to see other applications emerging, that are based on FreeCAD, we have on the other hand seen a lot of unfair use of the information contained on this page by people who simply rebranded FreeCAD into a closed-source application to make profit from it.
-
-Although the [LGPL license](License.md) allows to use the FreeCAD source code in closed-source applications, it also gives strict rules to do so, and does not allow simply taking FreeCAD, renaming it and stripping it of its license.
-
-Would you be interested in using FreeCAD in a closed-source application, be sure to check thoroughly the implications of the LGPL license, and, even better, contact any FreeCAD developer, administrator or moderator before doing so.
-
-## General
-
-
-<div class="mw-translate-fuzzy">
-
-#### Generale
-
-La maggior parte della marchiatura avviene in **MainCmd.cpp** oppure in **MainGui.cpp**. Questi Progetti generano i file eseguibili di FreeCAD. Per costruire il proprio marchio è sufficiente copiare i progetti Main o MainGui e dare all\'eseguibile un nome diverso, ad esempio, **FooApp.exe**.
-
-Le impostazioni più importanti per dare all\'applicazione un nuovo aspetto possono essere fatte all\'interno della funzione main().
-
-Ecco la sezione di codice che controlla la marchiatura   *
-
-
-</div>
+Le impostazioni più importanti per dare all\'applicazione un nuovo aspetto possono essere fatte all\'interno della funzione main(). Ecco la sezione di codice che controlla la marchiatura   *
 
  {.C}
 int main( int argc, char ** argv )
@@ -80,17 +53,9 @@ La prima voce Config definisce il nome del programma. Questo nome non è il nome
 
 Le righe successive definiscono le voci di configurazione della vostra applicazione FooApp. Una descrizione di Config e delle sue voci si trova in [Avvio e Configurazione](Start_up_and_Configuration/it.md).
 
-## Images
-
-
-<div class="mw-translate-fuzzy">
-
-#### Immagini
+## Immagini
 
 In FreeCAD tutte le risorse immagine vengono compilate utilizzando [Qt\'s resource system](http   *//qt-project.org/doc/qt-4.8/resources.html). Pertanto è necessario scrivere un file **.qrc**, un file basato sul formato XML, che elenca i file di immagine sul disco, ma anche qualsiasi altro tipo di file di risorse. Per caricare all\'interno dell\'applicazione le risorse compilate è necessario aggiungere una riga
-
-
-</div>
 
 
 ```python
@@ -104,17 +69,9 @@ nella funzione main(). In alternativa, se si dispone di un\'immagine in formato 
 Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-## Branding XML 
-
-
-<div class="mw-translate-fuzzy">
-
-### Branding XML 
+## Marchiatura XML 
 
 In FreeCAD c\'è anche un metodo supportato senza scrivere una funzione main() personalizzata. Per questo metodo basta scrivere un file chiamato **branding.xml** e metterlo nella directory di installazione di FreeCAD. Ecco un esempio con tutti i tag supportati   *
-
-
-</div>
 
  {.XML}
 <?xml version="1.0" encoding="utf-8"?>
@@ -138,22 +95,10 @@ In FreeCAD c\'è anche un metodo supportato senza scrivere una funzione main() p
 </Branding>
 
 
-
-<div class="mw-translate-fuzzy">
-
 Tutti i tag elencati sono opzionali.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

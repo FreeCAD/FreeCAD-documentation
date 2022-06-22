@@ -2,17 +2,17 @@
 {{Macro/fr
 |Name=Macro Rotate To Point
 |Icon=Macro_Rotate_To_Point.svg
-|Description={{ColoredText|#ff0000|#ffffff|La version mise à jour de la macro a modifié l'interface graphique pour améliorer la prise en charge HiDPI (QGridLayout). Exécutez uniquement FC v0.18 ou supérieur (prenant en charge Qt5 et PySide2)}} <br/> <br/> Macro pour faire tourner un objet sur lui-même sur un axe de rotation   * centre de la boîte, centre de masse, direction du fil ou dernier point cliqué. <br/> Vous pouvez sauvegarder les coordonnées travaillées dans un fichier coordonnées [(0.06,1.30,0.0),(85.0,0.0,0.0)] ou dans une macro complète pour créer une animation.<br/> <br/> Pour la version précédente (Qt4), voir [https   *//gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro_Rotate_To_Point Macro_Rotate_To_Point] et installez la manuellement.
+|Description={{ColoredText|#ff0000|#ffffff|La version mise à jour de la macro a modifié l'interface graphique pour améliorer la prise en charge HiDPI (QGridLayout). Exécutez uniquement FC v0.18 ou supérieur (prenant en charge Qt5 et PySide2)}} <br/> <br/>Macro pour faire tourner un objet sur lui-même sur un axe de rotation    * centre de la boîte, centre de masse, direction du fil ou dernier point cliqué. <br/>Vous pouvez sauvegarder les coordonnées travaillées dans un fichier coordonnées [(0.06,1.30,0.0),(85.0,0.0,0.0)] ou dans une macro complète pour créer une animation.<br/> <br/>Pour la version précédente (Qt4), voir [https   *//gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro_Rotate_To_Point] et installez la manuellement.
 |Author=Mario52
 |Version=00.10
 |Date=2021/03/08
 |FCVersion=0.19
-|Download=[https   *//www.freecadweb.org/wiki/images/d/d1/Macro_Rotate_To_Point.svg ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/d/d1/Macro_Rotate_To_Point.svg Icône de la barre d'outils]
 }}
 
 ## Description
 
-Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit   *
+Macro pour faire tourner un objet sur lui-même avec l\'axe de rotation étant soit le    *
 
 -   centre de la boîte
 -   centre de masse
@@ -22,36 +22,32 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit 
 ## Utilisation
 
 1.  Téléchargez la macro depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
-2.  Exécuter la macro
+2.  Exécutez la macro
 3.  Sélectionnez un objet
-4.  Choisissez l\'une des orientations suivantes   *
+4.  Choisissez l\'une des orientations suivantes    *
 
 ![Interface Rotate to point ](images/Macro_Rotate_To_Point_00.png ) 
 
-### Point de rotation 
+### Point Rotation 
 
-   **Boundbox Center   * Sélectionnez la rotation du centre BoundBox à l\'axe
+-   Boundbox Center    * Sélectionnez la rotation du centre BoundBox à l\'axe
+-   Center of Mass    * Sélectionnez la rotation du centre de masse à l\'axe
+-   Point Clicked    * Sélectionnez le dernier clic de souris comme point de rotation de l\'axe
+    -   1    * Sélectionnez l\'objet
+    -   2    * Utilisez la touche **CTRL** pour choisir un objet supplémentaire
 
-   **Center of Mass   * sélectionnez la rotation du centre de masse à l\'axe
+### Axis Rotation 
 
-   **Point Clicked   * Sélectionnez le dernier clic de souris comme point de rotation de l\'axe
+-   Rotation(Z) Yaw    * Axe de lacet
+-   Rotation(Y) Pitch    * Axe de tanguage
+-   Rotation(X) Roll    * Axe de roulis
+-   Rotation(D) Direction    * Rotation autour de la ligne, bord sélectionné
 
-   *   **1   * sélectionnez l\'objet
+### Coordinates Point clicked 
 
-   *   **2   * utilisez la touche **CTRL** pour choisir un objet supplémentaire
-
-### Axe de rotation 
-
--   -   Rotation(Z) Yaw   * axe de lacet
-    -   Rotation(Y) Pitch   * axe de tanguage
-    -   Rotation(X) Roll   * axe de roulis
-    -   Rotation(D) Direction   * rotation autour de la ligne, bord sélectionné
-
-### Coordonnées du point cliqué 
-
--   -   DoubleSpinBox   * Coordinate X au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
-    -   DoubleSpinBox   * Coordinate Y au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
-    -   DoubleSpinBox   * Coordinate Z au clic de souris (modifiable uniquement avec le mode \"Point Clicked\")
+-   DoubleSpinBox    * Coordonnée X au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
+-   DoubleSpinBox    * Coordonnée Y au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
+-   DoubleSpinBox    * Coordonnée Z au clic de la souris (modifiable seulement avec le mode \"Point Clicked\")
 
 ### Work
 
@@ -61,7 +57,7 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit 
 
 -   Line Edit   * L\'édition de ligne affiche les coordonnées d\'origine de l\'axe sélectionné + les données d\'entrée données dans la spinBox
 
--    {{SpinBox|0,0000}}   * entrez la modification (la valeur est réinitialisée après chaque sélection)
+-    {{SpinBox|0,0000}}   * Entrez la modification (la valeur est réinitialisée après chaque sélection)
 
 -    **Apply**   * Applique la modification à l\'objet
 
@@ -73,7 +69,7 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit 
 
 -    **Save**   * Sauve les données dans un fichier
 
--    **Clear**   * Delete and clean the text editor
+-    **Clear**   * Supprime et nettoie l\'éditeur de texte
 
 -    **Delete**   * Efface la ligne sélectionnée
 
@@ -81,14 +77,14 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit 
 
 -    {{CheckBox|Macro}}   *
 
-    -   Mode normal {{CheckBox|Macro}} Les données sont sauvegardées dans ce mode    * **\[(0.06,1.30,0.0),(85.0,0.0,0.0)\],**
+    -   Mode normal {{CheckBox|Macro}} Les coordonnées sont sauvegardées dans ce mode    * **\[(0.06,1.30,0.0),(85.0,0.0,0.0)\],**
     -   Mode macro {{CheckBox|TRUE|0,0 Coordinate}} Les coordonnées sont sauvées dans une macro complète (un ou plusieurs objet(s)) directement dans votre répertoire de macros avec le même nom que le document et l\'extension .FCMacro
         -   **Options de la macro**
         -   **\_\_pompe\_\_\_\_engrenage\_\_**    * Nom du document
-        -   **\_\_22 Coordinates\_\_**    * nombre de coordonnées
+        -   **\_\_22 Coordinates\_\_**    * Nombre de coordonnées
         -   **Type Key Q to Quit**    * Quitte la macro
-        -   **Type Key D to Decrease speed**    * Décrémente la vitesse de l\'animation
-        -   **Type Key I to Increase speed**    * Incémente la vitesse de l\'animation
+        -   **Type Key D to Decrease speed**    * Diminue la vitesse de l\'animation
+        -   **Type Key I to Increase speed**    * Augmente la vitesse de l\'animation
         -   **Type Key P to Pause/Continue or key RETURN or ESCAPE**    * Pause / Animation
         -   **Type Key S to Step by Step (key RETURN or ESCAPE to continue)**    * Pas à pas (Step by Step)
         -   \'\'\'Type Key R to reverse
@@ -102,13 +98,13 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit 
 
 ### Command
 
--    **Quit**   * quitter la macro
+-    **Quit**   * Quitter la macro
 
 -    **Original**   * Après avoir modifié les données de l\'objet, vous pouvez revenir à l\'emplacement d\'origine, si vous n\'avez pas désélectionné l\'objet actuel.
 
--    **0,0,0**   * cette option place l\'objet en coordonnées de base `0,0,0`
+-    **0,0,0**   * Cette option place l\'objet en coordonnées de base `0,0,0`
 
--    **Reset**   * Réinitialisez les données dans la macro et désélectionnez l\'objet actuel (même clic de souris dans la [vue 3D](3D_view/fr.md))
+-    **Reset**   * Réinitialisez les données dans la macro et désélectionnez l\'objet en cours (même clic de souris dans la [vue 3D](3D_view/fr.md))
 
 ## Script
 

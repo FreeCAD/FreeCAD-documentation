@@ -32,8 +32,8 @@ Narzędzie <img alt="" src=images/PartDesign_Draft.svg  style="width   *24px;"> 
 5.  Zostanie otwarty [panel zadań](Task_panel/pl.md) funkcji **Parametry funkcji pochylenie ścian**. Więcej informacji na ten temat znajdziesz w sekcji [Opcje](#Opcje.md).
 6.  Naciśnij przycisk **OK**, aby zakończyć.
 
-   *   *Remember*   *
-    -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
+   *   *Pamiętaj*\'   *
+    -   Ponieważ dla danej cechy musi istnieć przynajmniej jedna ściana, ostatnia pozostała na liście ściana nie może zostać usunięta.
 
 ### Edycja pochylenia ścian 
 
@@ -70,10 +70,10 @@ See also   * [Property editor](Property_editor.md).
 
 A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
-### Data
+### Dane
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Podstawowe}}
 
 -    **Angle|Angle**   * Cannot be negative. Default   * {{value|1.5 °}}.
 
@@ -99,7 +99,7 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
     
 
 
-{{Properties_Title|Part Design}}
+{{Properties_Title|Projekt Części}}
 
 -    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 

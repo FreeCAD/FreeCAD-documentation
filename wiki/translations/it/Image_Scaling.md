@@ -24,7 +24,13 @@ Lo strumento [Scala immagine](Image_Scaling/it.md) ridimensiona un\'immagine imp
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Utilizzo
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

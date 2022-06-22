@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *Path Simulator
-   Name/fr   *Path Simulateur d'usinage
+   Name/fr   *Path Simulateur FAO
    MenuLocation   *Path → Simulateur FAO
    Workbenches   *[Path](Path_Workbench/fr.md)
    Shortcut   ***P** **M**

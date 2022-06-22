@@ -7,7 +7,7 @@
 |Icon=FCInfo.png
 |Name=Macro FCInfo
 |Description=Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d'une esquisse en mode édition.
-<br />[https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/6ca25a438c3c4cfb62c0b1d6a35b7ddbd80ace23/FCInfo_fr_Ver_1-25d-rmu_Docked.FCMacro Version française]
+<br />[https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/795cac01c84fbbfa7ea68703c7138667119995d8/FCInfo_fr_Ver_1-26c-rmu_Docked.FCMacro Version française]
 |Author=Mario52
 |Version=1.26c
 |Date=2022/04/19

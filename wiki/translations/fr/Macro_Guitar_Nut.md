@@ -8,8 +8,8 @@
 |Version=0.1
 |Date=2020-01-27
 |FCVersion=All
-|Download=[https   *//wiki.freecadweb.org/images/9/94/Macro_Guitar_Nut.png ToolBar icon]
-|SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard/fr.md) <img src="images/Macro_Guitar_fretboard.png" width=24px>
+|Download=[https   *//wiki.freecadweb.org/images/9/94/Macro_Guitar_Nut.png Icône de la barre d'outils]
+|SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard/fr.md)
 }}
 
 ## Description
@@ -32,14 +32,14 @@ Le diamètre de chaque chaîne est configurable et les fentes peuvent être rend
 
 ## Limitations
 
--   Le code de la macro doit être modifié avec les paramètres souhaités avant l\'utilisation
+-   Le code de la macro doit être modifié avec les paramètres souhaités avant l\'utilisation.
 
 
 
 
 ## Script
 
-ToolBar icon <img alt="" src=images/Macro_Guitar_Nut.png  style="width   *64px;">
+Icône de la barre d\'outils <img alt="" src=images/Macro_Guitar_Nut.png  style="width   *64px;">
 
 **GuitarNut.FCMacro**
 

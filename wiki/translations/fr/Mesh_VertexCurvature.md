@@ -14,13 +14,13 @@
 La commande **Mesh Tracé de courbure** crée des objets maillés de courbure pour les objets maillés. Un objet de courbure affiche la courbure d\'un maillage en utilisant différentes couleurs pour les parties convexes, plates et concaves.
 
 ![](images/Mesh_VertexCurvature_example.png ) 
-*Exemple d'un objet maillé de courbure*
+*Exemple d'un objet avec courbure de Mesh*
 
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets maillés.
 2.  Il existe plusieurs manières d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Mesh Tracé de courbure](Mesh_VertexCurvature/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Tracé de courbure](Mesh_VertexCurvature/fr.md)**.
     -   Sélectionnez l\'option **Meshes → <img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracé de courbure** dans le menu.
     -   Sélectionnez l\'option **<img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracé de courbure** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou dans le menu contextuel [vue 3D](3D_view/fr.md).
 

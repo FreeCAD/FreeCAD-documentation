@@ -1,31 +1,31 @@
 ---
 - GuiCommand   */fr
    Name   *Mesh RemeshGmsh
-   Name/fr   *Mesh Affinage
-   MenuLocation   *Maillages → Affinage...
+   Name/fr   *Mesh Affiner
+   MenuLocation   *Maillages → Affiner...
    Workbenches   *[Mesh](Mesh_Workbench/fr.md)
    Version   *0.19
-   SeeAlso   *[Mesh Tesselation](Mesh_FromPartShape/fr.md)
+   SeeAlso   *[Mesh Créer un maillage](Mesh_FromPartShape/fr.md)
 ---
 
 # Mesh RemeshGmsh/fr
 
 ## Description
 
-La commande **Mesh Affinage** remet à nouveau un objet maillé en utilisant le mailleur [Gmsh](https   *//gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
+La commande **Mesh Affiner** remet à nouveau un objet maillé en utilisant le mailleur [Gmsh](https   *//gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
 
 ## Utilisation
 
 1.  Sélectionnez un seul objet maillé.
 2.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Affiner le maillage existant](Mesh_RemeshGmsh/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Affiner...](Mesh_RemeshGmsh/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Affinage...** dans le menu.
-3.  Le panneau des tâches **Remaiilage par gmsh** s\'ouvre.
-4.  Spécifiez les paramètres requis. Voir la [configuration du mailleur Gmsh](Mesh_FromPartShape/fr#Mailleur_Gmsh.md) de la commande [Mesh Tesselation](Mesh_FromPartShape/fr.md).
-5.  Appuyez sur le bouton **Apply** pour remailler l\'objet maillé.
-6.  Modifiez éventuellement un ou plusieurs paramètres et appuyez à nouveau sur le bouton **Apply** jusqu\'à ce que le nouveau maillage vous convienne.
-7.  Appuyez sur le bouton **Close** pour fermer le panneau des tâches et terminer la commande.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Affiner...** dans le menu.
+3.  Le panneau des tâches **Remaillage par Gmsh** s\'ouvre.
+4.  Spécifiez les paramètres requis. Voir la [configuration du mailleur Gmsh](Mesh_FromPartShape/fr#Mailleur_Gmsh.md) de la commande [Mesh Créer un maillage](Mesh_FromPartShape/fr.md).
+5.  Appuyez sur le bouton **Appliquer** pour remailler l\'objet maillé.
+6.  Modifiez éventuellement un ou plusieurs paramètres et appuyez à nouveau sur le bouton **Appliquer** jusqu\'à ce que le nouveau maillage vous convienne.
+7.  Appuyez sur le bouton **Fermer** pour fermer le panneau des tâches et terminer la commande.
 
 ## Remarques
 

@@ -50,7 +50,13 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [ Materiale rinforzato (calcestruzzo)](FEM_MaterialReinforced/it.md)   * consente di selezionare dal database i materiali rinforzati costituiti da una matrice e un rinforzo.
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Editor dei materiali](Material_editor/it.md)   * Consente di aprire l\'editor dei materiali per modificare i materiali.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Editor dei materiali](FEM_MaterialEditor/it.md)   * Consente di aprire l\'editor dei materiali per modificare i materiali.
+
+
+</div>
 
 ### Geometria dell\'elemento 
 
@@ -222,7 +228,13 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/Fem-result.svg  style="width   *24px;"> [Mostra i risultati](FEM_ResultShow/it.md)   * Visualizza i risultati di un\'analisi.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostApplyChanges.png  style="width   *32px;"> [Post Applica le modifiche](FEM_PostApplyChanges/it.md)   *
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -288,15 +300,33 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem_CompPostCreateFunctions.png  style="width   *48px;"> [Post Crea funzioni](FEM_PostCreateFunctions/it.md)   *
     -   <img alt="" src=images/Fem-sphere.svg  style="width   *32px;">    *
     -   <img alt="" src=images/Fem-plane.svg  style="width   *32px;">    *
 
+
+</div>
+
 ## Menu   * Utilità 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Piano di taglio di ritaglio sulla faccia](FEM_ClippingPlaneAdd/it.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Rimuovi tutti i piani di taglio](FEM_ClippingPlaneRemoveAll/it.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/Preferences-fem.svg  style="width   *32px;"> [Esempi di FEM](FEM_Examples/it.md)   * Apri la GUI per accedere agli esempi FEM.
 

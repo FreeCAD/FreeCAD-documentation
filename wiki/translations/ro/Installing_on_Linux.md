@@ -14,8 +14,8 @@
 
 The installation of FreeCAD on the most well-known Linux systems has been now endorsed by the community, and FreeCAD should be directly available via the package manager available on your distribution. The FreeCAD team also provides some   *
 
--   \"Official\" packages when new releases are made
--   Experimental [Personal Package Archive](https   *//help.ubuntu.com/community/PPA) (PPA) repositories, [AppImages](AppImage.md), and [Ubuntu Snaps](Ubuntu_Snap.md) for testing bleeding-edge features.
+-   \"Official\" packages when new releases are made available via [Snap packages](Ubuntu_Snap.md), [AppImages](AppImage.md), [Flatpaks](Flatpak.md) and the [PPA](#Stable_PPA_version.md)
+-   Experimental or \'bleeding edge\' builds available via [PPA](#Development_PPA_.28Daily.29.md) daily repository, [AppImages](AppImage.md), [Ubuntu Snaps](Ubuntu_Snap.md).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

@@ -1,36 +1,29 @@
 # FreeCAD Managing Expectations
 ## Purpose
 
- 
+This wiki page is intended for new FreeCAD users coming from other CAD/CAM solutions.
 
-The purpose of this wiki page is to \'Manage Expectations\' of users using FreeCAD, especially those coming from other proprietary CAD/CAM solutions.
+## FreeCAD is FreeCAD 
 
-## The Eternal Open Source Conundrum 
+If you are considering FreeCAD as a replacement for another CAD program you may wonder why FreeCAD is different. The simple answer is that FreeCAD just is. It does not aim to emulate product X, Y or Z, it has its own way of doing thing, its own workflows, its own [history](History.md).
 
-I really like/dislike using \[Insert your go-to proprietary program\] but I   *
+Does that mean FreeCAD developers think that FreeCAD is perfect the way it is? No, of course not. There are bugs in FreeCAD that need to be fixed, because we are a FOSS project we can be quite open about this, but also new features that programmers want to introduce. And if you ask for a feature developers may well consider it. But, please, do not expect them to drop what they are currently doing. Or quit their day job for that matter, most of them are volunteers after all. *It\'s done when it\'s done* is the FreeCAD motto.
 
--   can\'t afford it
--   resent that I need to pay for it
--   don\'t want to be locked in to proprietary format/technology
--   want to own my work
--   want to work on my local machine (not on someone else\'s cloud)
--   really like using FOSS better
--   don\'t want to be involved in a FOSS because I don\'t have   * time, skills the community needs
--   don\'t want to involved in a FOSS because someone else is probably doing that
--   want to complain somewhere about a pathetic attempt at competing with \[Insert your go-to proprietary program\]
--   want to vent about how ugly the UI is to someone/somewhere just because wanna!
+## What can I expect? 
 
-### Reflections
+At its core FreeCAD is parametric modeler. It uses a workbench concept, where each workbench is responsible for specific tasks and functions. As such it can be used for many purposes. It is actively used in production and quite stable. But, like any other CAD program, FreeCAD is not 100% stable.
 
-How do people conceive the way open source software is created?
+Coming from another CAD program you may have to change your workflow, or use a workaround or a macro, but in many cases you will be able to achieve what you want. And if you need help   * we have a very active and responsive [forum](https   *//forum.freecad.org/index.php) willing to assist. And among the forum member there are bound to be (former) users of you current CAD program. So do not hesitate to tap into that resource.
 
-#### Hopium
+### Can FreeCAD be used for 2D drafting? 
 
-*I hope this open source project can get their act together (self-organize)* .
+### Can FreeCAD be used for non-parametric modeling? 
 
-#### Hand Washing 
+### Can FreeCAD be used for mesh modeling? 
 
-*Why can\'t these people self-organize?!? It\'s possible, look at these other successful projects\...*
+## How can I contribute? 
+
+There are many ways   * you can make a [donation](Donate.md), help with [forum](https   *//forum.freecad.org/index.php) questions, or write documentation or code. See [Help FreeCAD](Help_FreeCAD.md).
 
 ## What FreeCAD is not 
 
@@ -57,8 +50,6 @@ This is true to of any of many CAD applications. FreeCAD suffers from this as we
 -   The topic of changes to UI/UX is very contentious. Changes to the UI/UX require proof of concepts, popularity in the community, and effectiveness to eventually make it in to the mainline FreeCAD code. This takes time and diplomacy.
 -   Is it really? Thanks to customization possibilities (as of v0.20) there is an ability to customize the UI (see [Preference Packs](Preference_Packs.md)). At some point very soon, FreeCAD will be provide a comprehensive flexibility to customize its UI, something other CAD packages would not be able to boast.
 
-### Where is my favorite feature? 
-
 ## Realities
 
 ### OpenCascade Kernel 
@@ -70,35 +61,11 @@ OpenCascade (OCC/OCCT) is a core external CAD kernel dependency that FreeCAD is 
 
 ### Qt
 
-### Volunteers
+## Links
 
-The reality of having a volunteer based workforce   *
-
--   Project timelines/goals change due to unforeseen life issues.
--   Goals abandoned due to financial or motivational problems.
--   Incompatible relational attitudes/behaviors that come up during collaborations.
--   Unpaid volunteers
-
-Hence, FreeCAD\'s motto *It\'s done when it\'s done.*
-
-### Organizational Challenges 
-
-As with many opensource projects, FreeCAD has had its organizational challenges. Some of them are listed here in short   *
-
--   Departure of jriegel (one of the original core developers)
--   The incomplete implementation of PartDesign workbench (incompatibilities with Part WB).
--   Assembly workbench development that had been abandoned several times (Assembly and Assembly2). It now has 3 separate solutions (Assembly2+, Assembly3, Assembly4). There is an intention to unify these 3 active Assembly approaches.
-
-## Relevant Links 
-
--   [Why the GIMP Team Obviously\* Hates You (\*We Actually Lot you. \*\*mostly)](https   *//www.youtube.com/watch?v=JBmdbipkbrk) Pat David from GIMP team presentation at SCaLE16x California 2016
+-   [Discussion   * FreeCAD is not ready for 1.0 (forum thread)](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=43461)
+-   [Why the GIMP Team Obviously\* Hates You (\*We Actually Love You. \*\*Mostly)](https   *//www.youtube.com/watch?v=JBmdbipkbrk) Pat David from GIMP team presentation at SCaLE16x California 2016
 -   [Earning Your Support Instead of Buying it   * A How-to Guide to Open Source Assistance](https   *//vimeo.com/144089061) by [Ian Turton](https   *//twitter.com/ijturton) at FOSS4G Seoul 2015
-
-## Discussion Threads 
-
-Links to forum thread discussions related to this topic
-
--   Discussion   * FreeCAD is not ready for 1.0 ([forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=43461))
 
 
 

@@ -1,100 +1,73 @@
 # Workbenches/it
-FreeCAD, come molte applicazioni moderne di progettazione come [Revit](wikipedia_Revit.md) o [CATIA](wikipedia_CATIA.md), è basato sul concetto di [Workbench](wikipedia_Workbench.md). Un banco da lavoro può essere considerato come un insieme di strumenti appositamente raggruppati per un certo compito. In un tradizionale laboratorio di mobili, si avrebbe un tavolo da lavoro per la persona che lavora con il legno, un altro per quello che lavora con i pezzi di metallo, e forse un terzo per quello che monta tutti i pezzi insieme.
+FreeCAD, come molte applicazioni moderne di progettazione come [Revit](wikipedia_Revit.md) o [CATIA](wikipedia_CATIA.md), è basato sul concetto di [Workbench](wikipedia_Workbench.md). Un ambiente di lavoro può essere considerato come un insieme di strumenti appositamente raggruppati per un certo compito. In un tradizionale laboratorio di mobili, avresti un tavolo da lavoro per la persona che lavora con il legno, un altro per quello che lavora con i pezzi di metallo, e forse un terzo per quello che monta tutti i pezzi insieme.
 
-In FreeCAD, viene applicato lo stesso concetto. Gli strumenti sono raggruppati per ambienti in base alle funzioni correlate.
+In FreeCAD, viene applicato lo stesso concetto. Gli strumenti sono raggruppati per ambienti di lavoro in base ai compiti correlati.
 
-Quando si passa da un ambiente di lavoro ad un altro, cambiano anche gli strumenti disponibili visualizzati sull\'interfaccia. Le barre degli strumenti, le barre dei comandi e eventualmente altre parti dell\'interfaccia si adattano al nuovo ambiente, ma il contenuto della scena visualizzata non cambia. Si può, ad esempio, iniziare a disegnare forme 2D utilizzando l\'ambiente **Draft** e poi continuare a lavorare su di esse con l\'ambiente **Parte**.
+Quando si passa da un ambiente di lavoro ad un altro, cambiano anche gli strumenti disponibili visualizzati sull\'interfaccia. Le barre degli strumenti, le barre dei comandi e eventualmente altre parti dell\'interfaccia si adattano al nuovo ambiente, ma il contenuto della scena visualizzata non cambia. Si può, ad esempio, iniziare a disegnare forme 2D utilizzando l\'ambiente **Draft** e poi continuare a lavorare su di esse con l\'ambiente **Part**.
 
-
-<div class="mw-translate-fuzzy">
-
-Notare che a volte un Ambiente viene indicato come un *Modulo*. Gli Ambienti e i Moduli sono però entità diverse. Un modulo è una estensione di FreeCAD, mentre un ambiente di lavoro è una speciale configurazione dell\'interfaccia grafica che raggruppa alcune barre degli strumenti e dei menu specifici. Di solito, ogni modulo contiene anche il proprio ambiente di lavoro, e viceversa, ogni ambiente dipende da un modulo, per questo motivo succede di fare un uso incrociato del nome.
-
-
-</div>
+Notare che a volte un Ambiente viene indicato come un *Modulo*. Gli Ambienti e i Moduli sono però entità diverse. Un Modulo è un\'estensione di FreeCAD, mentre un Ambiente di lavoro è un tipo speciale di modulo con una GUI configurata (barre degli strumenti e menu).
 
 ## Ambienti incorporati 
 
+I seguenti ambienti di lavoro sono inclusi in ogni installazione di FreeCAD   *
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Menu di Base](Std_Base/it.md). Questo non è realmente un ambiente di lavoro, ma piuttosto una categoria di comandi e strumenti \"standard\" che possono essere utilizzati in tutti gli ambienti di lavoro.
 
-Attualmente in tutte le installazioni di FreeCAD sono disponibili i seguenti ambienti   *
+-   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Ambiente Architettura](Arch_Workbench/it.md) per lavorare con elementi architettonici.
 
+-   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> [Ambiente Draft](Draft_Workbench/it.md) contiene strumenti 2D e operazioni CAD 2D e 3D di base.
 
-</div>
+-   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Ambiente FEM](FEM_Workbench/it.md) fornisce un flusso di lavoro di analisi agli elementi finiti (FEA).
 
--   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Std Base](Std_Base.md). This is not really a workbench, but rather a category of \'standard\' commands and tools that can be used in all workbenches.
+-   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> [Ambiente Immagine](Image_Workbench/it.md) per lavorare con immagini bitmap.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> The [Arch Workbench](Arch_Workbench.md) for working with architectural elements.
+-   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;"> [Ambiente Inspection](Inspection_Workbench/it.md) è realizzato per fornirti strumenti specifici per l\'esame delle forme. È ancora in fase di sviluppo.
 
--   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> The [Draft Workbench](Draft_Workbench.md) contains 2D tools and basic 2D and 3D CAD operations.
+-   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;"> [Ambiente Mesh](Mesh_Workbench/it.md) per lavorare con maglie triangolari.
 
--   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> The [FEM Workbench](FEM_Workbench.md) provides Finite Element Analysis (FEA) workflow.
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> [Ambiente OpenSCAD](OpenSCAD_Workbench/it.md) per l\'interoperabilità con OpenSCAD e la riparazione della cronologia del modello della [geometria solida costruttiva](constructive_solid_geometry/it.md) (CSG).
 
--   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> The [Image Workbench](Image_Workbench.md) for working with bitmap images.
+-   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> [Ambiente Part](Part_Workbench/it.md) per lavorare con parti CAD.
 
--   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;"> The [Inspection Workbench](Inspection_Workbench.md) is made to give you specific tools for examination of shapes. It is still under development.
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [Ambiente Part Design](PartDesign_Workbench/it.md) per la costruzione di forme di parti da schizzi.
 
--   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;"> The [Mesh Workbench](Mesh_Workbench.md) for working with triangulated meshes.
+-   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> [Ambiente Path](Path_Workbench/it.md) viene utilizzato per produrre istruzioni G-Code. È ancora in fase di sviluppo.
 
--   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> The [OpenSCAD Workbench](OpenSCAD_Workbench.md) for interoperability with OpenSCAD and repairing [constructive solid geometry](constructive_solid_geometry.md) (CSG) model history.
+-   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;"> [Ambiente Punti](Points_Workbench/it.md) per lavorare con nuvole di punti.
 
--   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> The [Part Workbench](Part_Workbench.md) for working with CAD parts.
+-   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;"> [Ambiente Raytracing](Raytracing_Workbench/it.md) per lavorare con ray-tracing (rendering).
 
--   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> The [Part Design Workbench](PartDesign_Workbench.md) for building Part shapes from sketches.
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;"> [Ambiente Ingegneria inversa](Reverse_Engineering_Workbench/it.md) ha lo scopo di fornire strumenti specifici per convertire forme/solidi/mesh in forme parametriche compatibili con FreeCAD. È ancora in fase di sviluppo.
 
--   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> The [Path Workbench](Path_Workbench.md) is used to produce G-Code instructions. It is still under development.
+-   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;"> [ Ambiente Robot](Robot_Workbench/it.md) per lo studio dei movimenti dei robot.
 
--   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;"> The [Points Workbench](Points_Workbench.md) for working with point clouds.
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> [Ambiente Sketcher](Sketcher_Workbench/it.md) per lavorare con schizzi a geometria vincolata.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;"> The [Raytracing Workbench](Raytracing_Workbench.md) for working with ray-tracing (rendering).
+-   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;"> [Ambiente Foglio di calcolo](Spreadsheet_Workbench/it.md) per la creazione e la manipolazione di dati in un foglio di calcolo.
 
--   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;"> The [Reverse Engineering Workbench](Reverse_Engineering_Workbench.md) is intended to provide specific tools to convert shapes/solids/meshes into parametric FreeCAD-compatible features. It is still under development.
+-   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;"> [Ambiente Start](Start_Workbench/it.md) consente di passare rapidamente agli ambienti di lavoro più comuni.
 
--   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;"> The [Robot Workbench](Robot_Workbench.md) for studying robot movements.
+-   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;"> [Ambiente Superficie](Surface_Workbench/it.md) fornisce strumenti per creare e modificare le superfici. È simile al [Part Builder](Part_Builder/it.md) con l\'opzione faccia dai bordi.
 
--   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> The [Sketcher Workbench](Sketcher_Workbench.md) for working with geometry-constrained sketches.
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;"> [Ambiente TechDraw](TechDraw_Workbench/it.md) per la produzione di disegni tecnici da modelli 3D. È il successore dell\'[Ambiente Disegno Tecnico](Drawing_Workbench/it.md).
 
--   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;"> The [Spreadsheet Workbench](Spreadsheet_Workbench.md) for creating and manipulating spreadsheet data.
+-   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> [Ambiente di Test](Testing/it.md) serve per il debug di FreeCAD.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;"> The [Start Center Workbench](Start_Workbench.md) allows you to quickly jump to one of the most common workbenches.
-
--   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;"> The [Surface Workbench](Surface_Workbench.md) provides tools to create and modify surfaces. It is similar to the [Part Builder](Part_Builder.md) Face from edges option.
-
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;"> The [TechDraw Workbench](TechDraw_Workbench.md) for producing technical drawings from 3D models. It is the successor of the [Drawing Workbench](Drawing_Workbench.md).
-
--   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> The [Test Framework Workbench](Testing.md) is for debugging FreeCAD.
-
--   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> The [Web Workbench](Web_Workbench.md) provides you with a browser window instead of the [3D view](3D_view.md) within FreeCAD.
+-   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> [Ambiente Web](Web_Workbench/it.md) fornisce una finestra del browser invece della [vista 3D](3D_view/it.md) all\'interno di FreeCAD.
 
 ### Deprecati
 
-
-<div class="mw-translate-fuzzy">
-
 I seguenti ambienti di lavoro sono ancora inclusi nell\'installazione di base per motivi di compatibilità, ma non dovrebbero più essere utilizzati.
 
--   <img alt="" src=images/Workbench_Complete.svg  style="width   *32px;"> [Completo](Complete_Workbench/it.md) contiene tutti i comandi e le funzionalità di tutti i moduli e banchi di lavoro che soddisfano determinati criteri di qualità. {{Obsolete/it|0.17}}
--   <img alt="" src=images/Workbench_Drawing.svg  style="width   *32px;"> [Drawing](Drawing_Workbench/it.md) è stato usato per visualizzare il lavoro in 3D su un foglio 2D ma ora è stato deprecato, è ancora necessario leggere i vecchi file di FreeCAD che contengono un oggetto Drawing originariamente creato con questo ambiente. Vedere [TechDraw](TechDraw_Workbench/it.md), che è un sostituto più avanzato. {{Obsolete/it|0.17}}
+-   <img alt="" src=images/Workbench_Complete.svg  style="width   *32px;"> [Completo](Complete_Workbench/it.md) contiene tutti i comandi e le funzionalità di tutti gli ambienti di lavoro che soddisfano determinati criteri di qualità. {{Obsolete/it|0.17}}
 
-
-</div>
-
--   <img alt="" src=images/Workbench_Complete.svg  style="width   *32px;"> The [Complete Workbench](Complete_Workbench.md) holds all commands and features from all workbenches that met certain quality criteria. {{Obsolete|0.17}}
-
--   <img alt="" src=images/Workbench_Drawing.svg  style="width   *32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings but has now been deprecated. It is still needed to read old FreeCAD files that contain objects created with this workbench. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement. {{Obsolete|0.17}}
+-   <img alt="" src=images/Workbench_Drawing.svg  style="width   *32px;"> [Drawing](Drawing_Workbench/it.md) è stato utilizzato per la produzione di disegni tecnici, ma ora è stato deprecato. È ancora necessario per leggere i vecchi file di FreeCAD, che contengono oggetti creati con questo ambiente di lavoro. L\'[Ambiente TechDraw](TechDraw_Workbench/it.md) è il suo sostituto più avanzato. {{Obsolete|0.17}}
 
 ## Ambienti aggiuntivi 
 
 Gli ambienti di lavoro per FreeCAD sono facilmente programmabili in [Python](Python/it.md), quindi ci sono molte persone che stanno sviluppando degli ambienti aggiuntivi al di fuori dell\'area principale di sviluppo di FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
 La pagina [Ambienti complementari](external_workbenches/it.md) elenca tutti quelli che sono noti a questa comunità. La maggior parte è facilmente installabile da FreeCAD, usando [Addon manager](Std_AddonMgr/it.md), che si trova nel menu **Strumenti → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
-
-
-</div>
 
 Sono in fase di sviluppo ulteriori nuovi ambienti, mantenetevi aggiornati.
 

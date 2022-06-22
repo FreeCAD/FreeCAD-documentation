@@ -32,28 +32,28 @@ Voici les mailleurs disponibles et leurs paramètres   *
 
 ### Mailleur standard 
 
--    **Surface deviation**   * la [déviation linéaire](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage par rapport à la surface de l\'objet.
+-    **Déviation de surface**   * la [déviation linéaire](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage par rapport à la surface de l\'objet.
 
--    **Angular deviation**   * la [déviation angulaire](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage à la suivante . Ce paramètre est utilisé lors du maillage de surfaces courbes.
+-    **Déviation angulaire**   * la [déviation angulaire](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage à la suivante . Ce paramètre est utilisé lors du maillage de surfaces courbes.
 
--    **Relative surface deviation**   * si cochée, la déviation linéaire maximale d\'un segment de maillage sera **Surface deviation** multipliée par la longueur du segment de maillage courant (bord).
+-    **Écart relatif de surface**   * si cochée, la déviation linéaire maximale d\'un segment de maillage sera **Déviation de surface** multipliée par la longueur du segment de maillage courant (bord).
 
--    **Apply face colors to mesh**   * si coché, le maillage obtiendra les couleurs de face de l\'objet.
+-    **Appliquer les couleurs des faces au maillage**   * si coché, le maillage obtiendra les couleurs de face de l\'objet.
 
--    **Define segments by face colors**   * si coché, les segments de maillage seront regroupés en fonction des couleurs des faces de l\'objet. Ces groupes seront exportés pour les formats de sortie de maillage prenant en charge cette fonctionnalité (le format [OBJ](https   *//fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier)) par exemple).
+-    **Définir les segments par les couleurs des faces**   * si coché, les segments de maillage seront regroupés en fonction des couleurs des faces de l\'objet. Ces groupes seront exportés pour les formats de sortie de maillage prenant en charge cette fonctionnalité (le format [OBJ](https   *//fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier)) par exemple).
 
 ### Mailleur Mefisto 
 
--    **Maximum edge length**   * la longueur maximale du bord du maillage. Une valeur plus petite donne un maillage plus fin. Si vous spécifiez {{Value|0}} ou décochez la case, vous obtenez un maillage très grossier.
+-    **Longueur maximale d'arêtes**   * la longueur maximale du bord du maillage. Une valeur plus petite donne un maillage plus fin. Si vous spécifiez {{Value|0}} ou décochez la case, vous obtenez un maillage très grossier.
 
-    -   Si vous appuyez sur le bouton **Estimate**, le mailleur entrera une valeur estimée pour **Maximum edge length**. Cette valeur n\'est pas très fiable si plusieurs objets ont été sélectionnés.
+    -   Si vous appuyez sur le bouton **Estimation**, le mailleur entrera une valeur estimée pour **Longueur maximale d'arêtes**. Cette valeur n\'est pas très fiable si plusieurs objets ont été sélectionnés.
 
 ### Mailleur Netgen 
 
 -    **Fineness**   * sélectionnez une option pour la finesse du maillage   *
 
     -   
-        **Très grossier**
+        **Very coarse**
         
 
     -   
@@ -61,7 +61,7 @@ Voici les mailleurs disponibles et leurs paramètres   *
         
 
     -   
-        **Modéré**
+        **Moderate**
         
 
     -   
@@ -69,7 +69,7 @@ Voici les mailleurs disponibles et leurs paramètres   *
         
 
     -   
-        **Très bien**
+        **Very fine**
         
 
     -   
@@ -78,25 +78,25 @@ Voici les mailleurs disponibles et leurs paramètres   *
            * pour cette option, les paramètres suivants peuvent être spécifiés   *
 
         -   
-            **Graduation de la taille du maillage**
+            **Mesh size grading**
             
                * une valeur plus petite donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.1}} - {{Value|1.0}}.
 
         -   
-            **Elément par arête**
+            **Element per edge**
             
                * une valeur plus grande donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.2}} - {{Value|10.0}}.
 
         -   
-            **Elément par rayon de courbure**
+            **Element per curvature radius**
             
                * une valeur plus grande donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.2}} - {{Value|10}}.
 
--    **Optimiser la surface**   * si coché, la forme de la surface sera optimisée.
+-    **Optimize surface**   * si coché, la forme de la surface sera optimisée.
 
--    **Eléments du second ordre**   * si coché, les éléments du second ordre seront générés résultant en un maillage plus fin.
+-    **Second order elements**   * si coché, les éléments du second ordre seront générés résultant en un maillage plus fin.
 
--    **Quad dominé**   * si coché, le maillage utilisera de préférence [quadrilateral faces](https   *//en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
+-    **Quad dominated**   * si coché, le maillage utilisera de préférence [faces de quadrilatères](https   *//en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
 
 ### Mailleur Gmsh 
 
@@ -105,14 +105,14 @@ Voici les mailleurs disponibles et leurs paramètres   *
 
 Pour les utilisateurs Linux   * le module externe [Gmsh](https   *//gmsh.info/) est requis.
 
--    **Maillage**   * sélectionnez une option de maillage   *
+-    **Maillage**   * sélectionnez une option de maillage    *
 
     -   
         **Automatique**
         
 
     -   
-        **Adaptatif**
+        **Adaptif**
         
 
     -   
@@ -137,13 +137,13 @@ Pour les utilisateurs Linux   * le module externe [Gmsh](https   *//gmsh.info/) 
 
 -    **Taille maximale de l'élément**   * une valeur plus petite donne un maillage plus fin. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
 
--    **Taille minimale de l'élément**   * une valeur plus petite donne un maillage plus fin. La valeur doit être inférieure à **Max. taille de l'élément**. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
+-    **Taille minimale de l'élément**   * une valeur plus petite donne un maillage plus fin. La valeur doit être inférieure à **Taille maximale de l'élément**. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
 
 -    **Angle**   * semble ne pas être pris en charge pour le moment.
 
--    **Path**   * appuyez sur le bouton **...** et allez jusqu\'au chemin **gmsh.exe**.
+-    **Chemin**   * appuyez sur le bouton **...** et allez jusqu\'au chemin **gmsh.exe**.
 
--   Si le processus de maillage prend trop de temps, vous pouvez appuyer sur le bouton **Kill** pour l\'abandonner.
+-   Si le processus de maillage prend trop de temps, vous pouvez appuyer sur le bouton **Arrêter** pour l\'abandonner.
 
 -   Appuyez sur le bouton **Effacer** pour supprimer les informations de la zone de texte.
 
@@ -157,13 +157,13 @@ Pour les utilisateurs Linux   * le module externe [Gmsh](https   *//gmsh.info/) 
 
 ### Mailleur standard 
 
--   Le paramètre **Surface déviation** est stocké   * **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection**.
--   Le paramètre **Déviation angulaire** est stocké   * **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
--   Le paramètre **Ecart relatif de surface** est stocké   * **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
+-   Le paramètre **Déviation de surface** est stocké    * **Outils → Editer les de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection**.
+-   Le paramètre **Déviation angulaire** est stocké    * **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
+-   Le paramètre **Écart relatif de surface** est stocké    * **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
 
 ### Mailleur Gmsh 
 
--   Le **Parcours** est stocké   * **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → gmshExe**.
+-    **Chemin**est stocké    * **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → gmshExe**.
 
 ## Propriétés
 

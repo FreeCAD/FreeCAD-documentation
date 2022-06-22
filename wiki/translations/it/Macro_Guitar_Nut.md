@@ -1,4 +1,7 @@
 # Macro Guitar Nut/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro
 |Name=Macro Guitar Nut
 |Name/fr=Macro Guitar Nut
@@ -12,15 +15,30 @@
 |SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard/it.md) <img src="images/Macro_Guitar_fretboard.png" width=24px>
 }}
 
+
+</div>
+
 ## Descrizione
 
 Guitar Nut Maker è uno script macro di FreeCAD che crea una complessa forma di dado per chitarra.
 
 Questa macro crea un dado con la parte inferiore delle fessure delle corde all\'altezza desiderata sopra una tastiera del raggio desiderato.
 
+
+<div class="mw-translate-fuzzy">
+
 Le fessure possono essere allargate nella parte posteriore del dado rispetto alla faccia e le fessure possono essere create con l\'angolo di interruzione desiderato. Gli slot possono trovarsi su centri uguali o avere lo stesso spazio tra loro.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Il diametro di ogni stringa è configurabile e gli slot possono essere resi una quantità configurabile più ampia della stringa per impedire l\'associazione. La parte superiore del dado è sferica e può essere configurata sopra/sotto il punto centrale delle stringhe. I bordi del dado non sono sagomati, né la parte superiore è sagomata dalla faccia alla parte posteriore, ma queste trasformazioni possono essere applicate manualmente in FreeCAD, o addirittura dopo la fresatura della parte.
+
+
+</div>
 
 ![](images/Nut_macro.png ) 
 *Risultati usando la macro Guitar Nut Maker*
@@ -38,7 +56,13 @@ Il diametro di ogni stringa è configurabile e gli slot possono essere resi una 
 
 ## Limitativo
 
+
+<div class="mw-translate-fuzzy">
+
 -   Il codice della macro deve essere modificato con i parametri desiderati prima dell\'uso
+
+
+</div>
 
 
 

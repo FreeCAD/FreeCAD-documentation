@@ -17,7 +17,7 @@ La commande **Mesh Inverser les normales‏‎** inverse, retourne, les normales
 
 1.  Sélectionnez un ou plusieurs objets maillés.
 2.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/Mesh_FlipNormals.svg" width=16px> [Inverse les normales du maillage](Mesh_FlipNormals/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Mesh_FlipNormals.svg" width=16px> [Inverser les normales](Mesh_FlipNormals/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_FlipNormals.svg" width=16px> Inverser les normales** dans le menu.
 

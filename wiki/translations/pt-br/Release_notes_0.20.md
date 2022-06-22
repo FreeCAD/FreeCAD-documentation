@@ -1,17 +1,7 @@
 # Release notes 0.20/pt-br
-**FreeCAD 0.20 is expected to be released in June 2022.**
-
-
-{{Message|
-Are features missing? Mention them in the [https   *//forum.freecadweb.org/viewtopic.php?f&#61;10&t&#61;56135 Release notes for v0.20] forum thread.
-
-See [Help FreeCAD](Help_FreeCAD.md) for ways to contribute to FreeCAD.
-}}
-
-
 {{TOCright}}
 
-**FreeCAD 0.20** was released on **DD June 2022**, get it from the [Download](Download.md) page. This page lists all new features and changes.
+**FreeCAD 0.20** was released on **14 June 2022**, get it from the [Download](Download.md) page. This page lists all new features and changes.
 
 Older FreeCAD release notes can be found in the [Feature list](Feature_list#Release_notes.md).
 
@@ -281,6 +271,7 @@ FreeCAD received many new Python API functions   *
 -   Solving with the [Calculix](FEM_SolverCalculixCxxtools.md) solver now uses all CPU cores. [Pull request \#6374](https   *//github.com/FreeCAD/FreeCAD/pull/6374)
 -   Meshing with [Gmsh](FEM_MeshGmshFromShape.md) now uses all CPU cores. [Pull request \#6370](https   *//github.com/FreeCAD/FreeCAD/pull/6370)
 -   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [Pull request \#4660](https   *//github.com/FreeCAD/FreeCAD/pull/4660)
+-   The [Data at point clip](FEM_PostFilterDataAtPoint.md) result filter is now actually working   * One gets info from result meshes by clicking into them or by specifying a mesh coordinate.
 -   A new constraint was added   * **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintCentrif.svg style="width   *16px"> [Constraint Centrif](FEM_ConstraintCentrif.md)**. [Pull request \#4738](https   *//github.com/FreeCAD/FreeCAD/pull/4738)
 -   A new solver was added   * **Solve → [<img src=images/FEM_SolverMystran.svg style="width   *16px"> [Solver Mystran](FEM_SolverMystran.md)**. Multiple commits.
 -   A new constraint was added   * **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width   *16px"> [Constraint Spring](FEM_ConstraintSpring.md)**. [Pull request \#4982](https   *//github.com/FreeCAD/FreeCAD/pull/4982)
@@ -400,7 +391,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
   <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                      New ![](images/Sketcher_ConstrainRadiam.svg  style="width   *24px;"> [Radiam](Sketcher_ConstrainRadiam.md) function to automatically assign weight on B-spline pole, diameter on complete circle, or radius on arc. Support multi-selection as diameter/radius tools. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request \#4855](https   *//github.com/FreeCAD/FreeCAD/pull/4855)
   <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          New ![](images/Sketcher_RemoveAxesAlignment.svg  style="width   *24px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md) constraint tool to remove axes alignment while trying to preserve the constraint relationship of the selection. [Main commit](https   *//github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
   ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                            [Slots](Sketcher_CreateSlot.md) can be constrained horizontally or vertically either by snapping it manually with the **Ctrl** key, or by using the **Auto constraints** option of Sketcher. [Pull request \#5200](https   *//github.com/FreeCAD/FreeCAD/pull/5200)
-  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif  style="width   *384px;">                             New <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insert Knot](Sketcher_BSplineInsertKnot.md) tool to insert a knot in an existing B-spline. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
+  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif )                                          New ![](images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insert Knot](Sketcher_BSplineInsertKnot.md) tool to insert a knot in an existing B-spline. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
    
 
 ### Further Sketcher improvements 
@@ -423,9 +414,9 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 ## Spreadsheet Workbench 
 
    
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )      The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
-  <img alt="" src=images/Spreadsheet_configuration_table_screenshot_5.png  style="width   *384px;">   It is now possible to setup [configuration tables](Spreadsheet_Workbench#Configuration_tables.md). This way one can define different parameter sets for the same part. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
-  ![](images/Spreadsheet_binding-dialog.png )                                                    Cells can now be [bound to other cells](Spreadsheet_Workbench#Cell_binding.md) of the same or a different spreadsheet. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )        The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet_configuration_table_relnotes_0.20.png  style="width   *384px;">   It is now possible to setup [configuration tables](Spreadsheet_Workbench#Configuration_tables.md). This way one can define different parameter sets for the same part. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+  ![](images/Spreadsheet_binding-dialog_relnotes_0.20.png )                          Cells can now be [bound to other cells](Spreadsheet_Workbench#Cell_binding.md) of the same or a different spreadsheet. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
    
 
 ### Further Spreadsheet improvements 
@@ -507,7 +498,7 @@ The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements   
 
 ### Plot
 
--   The Plot module has been stripped from the workbench since it is now provided by FreeCAD.
+-   The [Plot module](Plot_Workbench.md) has been stripped from the workbench since it is now provided by FreeCAD.
 
 ### Ship
 

@@ -1,61 +1,34 @@
-# Robot TrajectoryDressUp/it
 ---
-- GuiCommand   */it   Name   *Robot TrajectoryDressUp   Name/it   *Vesti una traiettoria   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Vesti una traiettoria ---
+- GuiCommand   */it
+   Name   *Robot TrajectoryDressUp
+   Name/it   *Vesti una traiettoria
+   MenuLocation   *Robot → Vesti una traiettoria
+   Workbenches   *[Robot](Robot_Workbench/it.md)
+---
 
+# Robot TrajectoryDressUp/it
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Descrizione
+## Descrizione
 
 Consente di modificare una o più proprietà di una traiettoria.
 
+## Utilizzo
 
-</div>
+1.  Selezionare nella [Vista ad albero](Tree_view/it.md) una traiettoria o un bordo-traiettoria da vestire
+2.  Cliccare su <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width   *32px;"> o passare nella [Scheda Azioni](Task_panel/it.md) e cliccare su 
+** <img src="images/Robot_TrajectoryDressUp.svg" width=32px> Vesti traiettoria**
 
-
-<div class="mw-translate-fuzzy">
-
-#### Utilizzo
-
-1.  Selezionare nella vista ad albero una traiettoria o un bordo-traiettoria da modificare
-2.  Cliccare su <img alt="" src=images/Robot_TrajectoryDressUp.png  style="width   *32px;"> o passare nella scheda \"Azioni\" e cliccare su 
-** <img src="images/Robot_TrajectoryDressUp.png" width=32px> Vesti traiettoria**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Si è quindi in grado di modificare i valori per
+Con conseguente possibilità di modificare i valori per   *
 
 -   velocità
 -   accelerazione
 -   modalità continua
 -   posizione e orientamento
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Note
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Note
 
 
 
-
-
-</div>
 
 
 {{Robot_Tools_navi

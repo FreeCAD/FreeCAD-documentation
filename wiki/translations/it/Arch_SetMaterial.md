@@ -52,7 +52,7 @@ Lo strumento materiale permette di aggiungere dei [materiali](Material.md) al do
 
 -   **Choose preset**   * Scegliere uno dei materiali preimpostati, da utilizzare come è, o per adattarlo modificando i campi sottostanti
 -   **Name**   * Scegliere un nome per il materiale
--   **Edit button**   * Questo apre il materiale corrente nel [Editor dei materiali](Material_editor/it.md) di FreeCAD, che permette di modificare molte proprietà aggiuntive e di aggiungere le proprie personalizzate
+-   **Edit button**   * Questo apre il materiale corrente nel [Editor dei materiali](FEM_MaterialEditor/it.md) di FreeCAD, che permette di modificare molte proprietà aggiuntive e di aggiungere le proprie personalizzate
 -   **Description**   * Una descrizione più dettagliata del materiale
 -   **Color**   * Il colore di visualizzazione per il materiale, che sarà applicato a tutti gli oggetti che utilizzano tale materiale
 -   **Code**   * Un nome e numero di riferimento di un sistema di specificazione, come [Masterformat](https   *//en.wikipedia.org/wiki/MasterFormat) o [Omniclass](http   *//www.omniclass.org/).

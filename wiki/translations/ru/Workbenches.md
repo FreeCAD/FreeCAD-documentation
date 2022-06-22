@@ -9,17 +9,17 @@ FreeCAD, подобно многим современным приложения
 
 ## Встроенные верстаки 
 
-В комплекте с FreeCAD идут следующие верстаки   *
+Следующие верстаки идут в комплекте с каждой установкой FreeCAD   *
 
--   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Std Base](Std_Base.md). This is not really a workbench, but rather a category of \'standard\' commands and tools that can be used in all workbenches.
+-   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Std Base](Std_Base/ru.md). На самом деле это не верстак, а скорее категория \'стандартных\' команд и инструментов, которые можно использовать на всех верстаках.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Архитектурный верстак](Arch_Workbench/ru.md) для работы с элементами архитектуры.
+-   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> The [Верстак Arch](Arch_Workbench/ru.md) для работы с элементами архитектуры.
 
--   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> The [Draft Workbench](Draft_Workbench.md) contains 2D tools and basic 2D and 3D CAD operations.
+-   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> The [Верстак Draft](Draft_Workbench/ru.md) содержит 2D-инструменты и основные операции 2D и 3D CAD.
 
--   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Верстак МКЭ](FEM_Workbench/ru.md) обеспечивает рабочий процесс Метода Конечных Элементов (МКЭ).
+-   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> The [Верстак FEM](FEM_Workbench/ru.md) обеспечивает рабочий процесс анализа Методом Конечных Элементов (МКЭ).
 
--   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> The [Image Workbench](Image_Workbench.md) for working with bitmap images.
+-   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> The [Верстак Image](Image_Workbench/ru.md) для работы с растровыми изображениями.
 
 -   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;"> The [Inspection Workbench](Inspection_Workbench.md) is made to give you specific tools for examination of shapes. It is still under development.
 
@@ -55,13 +55,13 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> The [Web Workbench](Web_Workbench.md) provides you with a browser window instead of the [3D view](3D_view.md) within FreeCAD.
 
-### Не рекомендуемые 
+### Устаревшие
 
-The following workbenches are still included in the base installation for compatibility purposes, but they should no longer be used.
+Следующие верстаки по-прежнему входят в базовую установку в целях совместимости, но их больше не следует использовать.
 
--   <img alt="" src=images/Workbench_Complete.svg  style="width   *32px;"> The [Complete Workbench](Complete_Workbench.md) holds all commands and features from all workbenches that met certain quality criteria. {{Obsolete|0.17}}
+-   <img alt="" src=images/Workbench_Complete.svg  style="width   *32px;"> [Верстак Complete](Complete_Workbench/ru.md) содержит все команды и функции со всех верстаков, которые соответствуют определенным критериям качества. {{Obsolete|0.17}}
 
--   <img alt="" src=images/Workbench_Drawing.svg  style="width   *32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings but has now been deprecated. It is still needed to read old FreeCAD files that contain objects created with this workbench. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement. {{Obsolete|0.17}}
+-   <img alt="" src=images/Workbench_Drawing.svg  style="width   *32px;"> [Верстак Drawing](Drawing_Workbench/ru.md) использовался для изготовления технических чертежей, но в настоящее время устарел. По-прежнему необходимо читать старые файлы FreeCAD, содержащие объекты, созданные с помощью этого верстака. [Верстак TechDraw](TechDraw_Workbench/ru.md) является его более продвинутой заменой. {{Obsolete|0.17}}
 
 ## Внешние верстаки 
 

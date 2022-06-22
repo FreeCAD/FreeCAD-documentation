@@ -3,79 +3,94 @@
    Name   *PartDesign Mirrored
    MenuLocation   *Part Design → Apply a pattern → Mirrored
    Workbenches   *[PartDesign](PartDesign_Workbench.md)
+   SeeAlso   *[PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---
 
 # PartDesign Mirrored/pl
 
 ## Description
 
-The **Mirrored** tool mirrors features on a plane.
+The <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> **PartDesign Mirrored** tool mirrors one or more features.
 
-![](images/PartDesign_Mirrored_example.svg )
-
-
-
-*Above   * a Pocket feature was created from a sketch containing a circle (A), the Pocket was subsequently used to create a Mirrored feature. The sketch vertical axis (B) was used as axis of symmetry. The result (C) is shown on the right.*
+![](images/PartDesign_Mirrored_example.svg ) 
+*A Pocket feature created from a sketch containing a circle (A) is used to create a mirrored feature. The vertical axis of the sketch (B) is used to the define the mirror plane. The result (C) is shown on the right.*
 
 ## Usage
 
-To create a mirroring   *
+### Create
 
-1.  Select the one or more features to be mirrored.
-2.  Press the **[<img src=images/PartDesign_Mirrored.svg style="width   *24px"> '''Mirrored'''** button.
-3.  If you have several features in the mirroring, their order can be important, see for example the image in the [PolarPattern feature](PartDesign_PolarPattern#Usage.md). You can change the order by dragging the feature in the list and you will see the result immediately as preview.
-4.  Define the mirror **Plane**. See [Options](#Options.md).
-5.  Press **OK**.
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features.
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_Mirrored.svg" width=16px> [Mirrored](PartDesign_Mirrored.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_Mirrored.svg" width=16px> Mirrored** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
 
-To add or remove features from an existing mirroring   *
+### Edit
 
-1.  Press **Add feature** to add a feature to be mirrored. The feature must be visible in the [3D view](3D_view.md)   *
-    1.  Switch to the Model tree;
-    2.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
-    3.  Switch back to the Tasks panel;
-    4.  Select the feature in the 3D view; it will be added to the list.
-    5.  Repeat to add other features.
-2.  Press **Remove feature** to remove a feature from the list, or right-click on the feature in the list and select *Remove*.
+1.  Do one of the following   *
+    -   Double-click the Mirrored object in the [Tree view](Tree_view.md).
+    -   Right-click the Mirrored object in the [Tree view](Tree_view.md) and select **Edit Mirrored** from the context menu.
+2.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
 
 ## Options
 
-![Mirrored parameters](images/Mirrored_parameters_v017.png )
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Specify the mirror **Plane**   *
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (the plane passes through this reference and the Z axis of the sketch, only available for sketch-based features).
 
-### Plane
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
 
-When creating a mirrored feature, the **Mirrored parameters** dialog offers different ways of specifying the mirror line or plane .
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
 
-#### Horizontal sketch axis 
+    -   
+        **Base XY plane**
+        
+           * The XY plane of the Body.
 
-Uses the horizontal axis of the sketch as the axis of symmetry.
+    -   
+        **Base YZ plane**
+        
+           * The YZ plane of the Body.
 
-#### Vertical sketch axis 
+    -   
+        **Base XZ plane**
+        
+           * The XZ plane of the Body.
 
-Uses the vertical axis of the sketch as the axis of symmetry.
-
-#### Select reference\... 
-
-Allows you to select a plane (such as a face of an object) to use as a mirror plane .
-
-#### Custom Sketch Axis 
-
-If the sketch which defines the feature to be mirrored also contains a construction line (or lines), then the drop down list will contain one custom sketch axis for each construction line. The first construction line will be labelled \'Sketch axis 0\'. The image below is an example with the sketch in edit mode showing that it includes a construction line for use as the Mirrored axis.
-
-![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
-
-#### Base (XY/XZ/YZ) plane 
-
-Select one of the Body Origin\'s standard planes (XY, XZ or YZ).
-
-### Preview
-
-The mirror result can be previewed in real time before clicking **OK** by checking \"Update view\" . 
+    -   
+        **Select reference...**
+        
+           * Select a planar face in the [3D view](3D_view.md).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Limitations
 
--   The Mirrored feature cannot mirror a whole solid body. For that, see [Part Mirror](Part_Mirror.md) .
--   A Mirrored feature cannot be applied directly to another pattern, be it polar, linear or another mirror. For this you need a [PartDesign MultiTransform](PartDesign_MultiTransform.md).
--   The mirrored feature must intersect the solid (also called *support*) it is based on, or the command will fail.
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

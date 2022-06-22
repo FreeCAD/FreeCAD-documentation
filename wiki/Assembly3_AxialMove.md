@@ -2,7 +2,7 @@
 - GuiCommand   *
    Name   *Assembly3 AxialMove
    Icon   *Assembly_AxialMove.svg
-   MenuLocation   *Assembly3 → Axial move
+   MenuLocation   *Assembly3 → Axial move part
    Workbenches   *[Assembly3](Assembly3_Workbench.md)
    Shortcut   ***A** then **A**
 ---
@@ -19,8 +19,8 @@ The <img alt="" src=images/Assembly_AxialMove.svg  style="width   *24px;"> [Axia
 
 1.  Select either a face, an edge, or a vertex of the 3D part or the whole part in the assembly tree.
 2.  Activate the <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> **Axial move** command using one of the following   *
-    -   The **<img src="images/Assembly_AxialMove.svg" width=16px> [Axial move](Assembly3_AxialMove.md)** button.
-    -   The **Assembly3 → <img src="images/Assembly_AxialMove.svg" width=16px> Axial move** menu option.
+    -   The **<img src="images/Assembly_AxialMove.svg" width=16px> [Axial move part](Assembly3_AxialMove.md)** button.
+    -   The **Assembly3 → <img src="images/Assembly_AxialMove.svg" width=16px> Axial move part** menu option.
     -   The keyboard shortcut   * **A** then **A**.
 3.  Drag the handles to reposition the part.
 4.  To fix the position and leave the tool use one of the following   *

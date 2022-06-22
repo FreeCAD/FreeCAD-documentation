@@ -50,7 +50,13 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [Reinforced material (concrete)](FEM_MaterialReinforced.md)   * Lets you select reinforced materials consisting of a matrix and a reinforcement from the database.
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Material editor](Material_editor.md)   *   * Lets you open the material editor to edit materials
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Material editor](FEM_MaterialEditor.md)   *   * Lets you open the material editor to edit materials
+
+
+</div>
 
 ### Element Geometry 
 
@@ -216,7 +222,13 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 -   <img alt="" src=images/Fem-result.svg  style="width   *24px;"> [Result show](FEM_ResultShow/ro.md)   * Utilizează afișarea rezultatelor analizei
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostApplyChanges.png  style="width   *32px;"> [Post Apply changes](FEM_PostApplyChanges.md)   *
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -282,13 +294,31 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-sphere.svg  style="width   *32px;"> [Post Create functions](FEM_PostCreateFunctions.md)   *
+
+
+</div>
 
 ## Meniu   * Utilități 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/fem-clipping-plane-add.svg  style="width   *32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/fem-clipping-plane-remove-all.svg  style="width   *32px;"> [Remove all clipping planes](FEM_ClippingPlaneRemoveAll.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [Open FEM examples](FEM_Examples.md)   * Open the GUI to access FEM examples.
 

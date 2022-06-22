@@ -10,29 +10,30 @@ From this browser you are able to navigate the web, click on links, read the onl
 
 The Web Workbench offers the following tools   *
 
--   <img alt="" src=images/Web_web-set-url.svg  style="width   *32px;"> [Set Browser URL](Web_BrowserSetURL.md)   * Changes the URL of the current Web tab
--   <img alt="" src=images/Web_web-browser.svg  style="width   *32px;"> [Open FreeCAD Website](Web_OpenWebsite.md)   * Opens the [FreeCAD website](https   *//freecad.org)
+-   <img alt="" src=images/Web_BrowserSetURL.svg  style="width   *32px;"> [Set URL](Web_BrowserSetURL.md)   * Changes the URL of the active Web tab.
 
--   <img alt="" src=images/Web_web-previous.svg  style="width   *32px;"> [Go Back](Web_BrowserBack.md)   * Goes to previously shown website
+-   <img alt="" src=images/Web_OpenWebsite.svg  style="width   *32px;"> [Open website\...](Web_OpenWebsite.md)   * Opens the [FreeCAD website](https   *//freecadweb.org).
 
--   <img alt="" src=images/Web_web-next.svg  style="width   *32px;"> [Go Next](Web_BrowserNext.md)   * Goes to next website
+-   <img alt="" src=images/Web_BrowserBack.svg  style="width   *32px;"> [Previous page](Web_BrowserBack.md)   * Goes to the previous web page.
 
--   <img alt="" src=images/Web_web-refresh.svg  style="width   *32px;"> [Refresh](Web_BrowserRefresh.md)   * Refreshes view of current website
+-   <img alt="" src=images/Web_BrowserNext.svg  style="width   *32px;"> [Next page](Web_BrowserNext.md)   * Goes to the next web page.
 
--   <img alt="" src=images/Web_web-stop.svg  style="width   *32px;"> [Stop](Web_BrowserStop.md)   * Stops loading website
+-   <img alt="" src=images/Web_BrowserRefresh.svg  style="width   *32px;"> [Refresh web page](Web_BrowserRefresh.md)   * Updates the current web page.
 
--   <img alt="" src=images/Web_web-zoom-in.svg  style="width   *32px;"> [Zoom In](Web_BrowserZoomIn.md)   * Zooms into current website
+-   <img alt="" src=images/Web_BrowserStop.svg  style="width   *32px;"> [Stop loading](Web_BrowserStop.md)   * Stops loading the current web page.
 
--   <img alt="" src=images/Web_web-zoom-out.svg  style="width   *32px;"> [Zoom Out](Web_BrowserZoomOut.md)   * Zooms out of current website
+-   <img alt="" src=images/Web_BrowserZoomIn.svg  style="width   *32px;"> [Zoom in](Web_BrowserZoomIn.md)   * Zooms in on the current web page.
+
+-   <img alt="" src=images/Web_BrowserZoomOut.svg  style="width   *32px;"> [Zoom out](Web_BrowserZoomOut.md)   * Zooms out on the current web page.
 
 
 
 
- 
+ {{Web Tools navi}} 
 
-[Category   *Web](Category_Web.md) [Category   *Workbenches](Category_Workbenches.md)
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Category_Web.md) > [Workbenches](Category_Workbenches.md) > Web Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench

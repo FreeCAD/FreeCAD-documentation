@@ -3,10 +3,10 @@
 
 ## Обзор
 
-Установка FreeCAD на наиболее известные системы Linux теперь поддерживается сообществом, и FreeCAD должен быть доступен через диспетчер пакетов вашего дистрибутива напрямую. Команда FreeCAD также предоставляет   *
+Установка FreeCAD на наиболее известных системах Linux теперь поддерживается сообществом и FreeCAD должен быть доступен напрямую через диспетчер пакетов вашего дистрибутива. Команда FreeCAD также предоставляет   *
 
--   «Официальные» пакеты при выпуске новых релизов
--   Экспериментальные репозитории [Personal Package Archive](https   *//help.ubuntu.com/community/PPA) (PPA), [AppImages](AppImage.md), и [Ubuntu Snaps](Ubuntu_Snap.md) для тестирования последних возможностей.
+-   «Официальные» пакеты при выпуске новых релизов доступны через [Snap packages](Ubuntu_Snap/ru.md), [AppImages](AppImage/ru.md), [Flatpaks](Flatpak.md) и [PPA](#Stable_PPA_version.md)
+-   Экспериментальные сборки доступны через [PPA](#Development_PPA_.28Daily.29.md) daily repository, [AppImages](AppImage/ru.md), [Ubuntu Snaps](Ubuntu_Snap/ru.md).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

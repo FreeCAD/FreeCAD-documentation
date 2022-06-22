@@ -1,33 +1,34 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewIvStereoQuadBuff
-   MenuLocation   *View → Stereo → Stereo quad buffer
-   Workbenches   *All
-   SeeAlso   *[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff.md)
+   Name/pl   *Std   * Widok poczwórny bufor stereo
+   MenuLocation   *Widok → Widok trójwymiarowy → Poczwórny bufor stereo
+   Workbenches   *wszystkie
+   SeeAlso   *[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
 ---
 
 # Std ViewIvStereoQuadBuff/pl
 
-## Description
+## Opis
 
-The **Std ViewIvStereoQuadBuff** command changes the active [3D view](3D_view.md) to quad buffer stereo view mode. To use this stereo mode a special graphics card, a special display and [shutter glasses](https   *//en.wikipedia.org/wiki/Active_shutter_3D_system) are requires.
+Polecenie **Poczwórny bufor stereo** zmienia aktywny [widok 3D](3D_view/pl.md) na tryb widoku stereo z poczwórnym buforem. Do korzystania z tego trybu stereo wymagana jest specjalna karta graficzna, specjalny monitor i [okulary z przysłoną](https   *//en.wikipedia.org/wiki/Active_shutter_3D_system).
 
-## Usage
+## Użycie
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoQuadBuff.svg" width=16px> Stereo quad buffer** option from the menu.
+1.  Wybierz z menu opcję **Widok → Widok trójwymiarowy → <img src="images/Std_ViewIvStereoQuadBuff.svg" width=16px> Poczwórny bufor stereo**.
 
-## Preferences
+## Ustawienia
 
--   The eye to eye distance can be changed in the preferences   * **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Odległość między oczami można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the view to quad buffer stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok poczwórny bufor stereo, należy użyć metody `setStereoType` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

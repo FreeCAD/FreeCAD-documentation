@@ -50,10 +50,10 @@ Komponenty utworzone za pomocą środowiska pracy Rakieta są zasadniczo częśc
 
 ## Obliczenia
 
--   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calculate Ejection Charge](Rocket_Ejection_Charge_Calculator.md)   * Calculate the amount of black powder required for ejection
--   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calculate Parachute Size](Rocket_Parachute_Size_Calculator.md)   * Calculate the parachute size required for safe recovery
--   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calculate Thrust To Weight](Rocket_Thrust_To_Weight_Calculator.md)   * Calculate the minimum average thrust required for a safe flight
--   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calculate Vent Hole Size](Rocket_Vent_Hole_Size_Calculator.md)   * Calculate the required vent hole size for barometric altimeters
+-   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Oblicz ładunek wyrzutowy](Rocket_Ejection_Charge_Calculator/pl.md)   * Oblicza ilość czarnego prochu potrzebną do wyrzutu.
+-   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Oblicz średnicę spadochronu](Rocket_Parachute_Size_Calculator.md)   * Oblicza rozmiar spadochronu wymagany do bezpiecznego powrotu.
+-   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Oblicz stosunek siły ciągu do masy](Rocket_Thrust_To_Weight_Calculator/pl.md)   * Oblicza minimalną średnią siłę ciągu wymaganą do bezpiecznego lotu.
+-   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Oblicz wielkość otworu wentylacyjnego](Rocket_Vent_Hole_Size_Calculator.md)   *Oblicza wymaganą wielkość otworu wentylacyjnego dla wysokościomierzy barometrycznych.
 
 ## Poradniki i nauka 
 

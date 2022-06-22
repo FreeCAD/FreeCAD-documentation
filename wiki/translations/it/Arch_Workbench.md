@@ -172,19 +172,11 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
 ## API
 
-
-<div class="mw-translate-fuzzy">
-
-Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/it.md) utilizzando la funzione [Arch Python API](http   *//www.freecadweb.org/api/Arch.html).
-
-
-</div>
+Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/it.md) utilizzando le funzioni [Python API di Arch](Arch_API/it.md).
 
 ## Tutorial
 
-
-<div class="mw-translate-fuzzy">
-
+-   [Migrare a FreeCAD da Revit](Migrating_to_FreeCAD_from_Revit/it.md)
 -   [Architecture workflow](http   *//yorik.uncreated.net/guestblog.php?tag=freecad)   * Un esempio di flusso di lavoro di FreeCAD in architettura.
 -   [Tutorial di Arch](Arch_tutorial/it.md) (v0.14)
 -   [Breve panoramica su Arch nel blog di Yorik](http   *//yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
@@ -193,9 +185,6 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 -   [Il capitolo sulla modellazione BIM nel manuale di FreeCAD](Manual   *BIM_modeling/it.md)
 -   [Importare da STL o OBJ](Import_from_STL_or_OBJ/it.md)
 -   [Esportare in STL o OBJ](Export_to_STL_or_OBJ/it.md)
-
-
-</div>
 
 
 

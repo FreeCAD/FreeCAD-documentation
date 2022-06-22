@@ -3,23 +3,11 @@
 
 # Введение
 
-
-<div class="mw-translate-fuzzy">
-
-После установки FreeCAD для вашей операционной системы ([Windows](Installing_on_Windows/ru.md), [Linux](Installing_on_Linux.md) или [Mac](Installing_on_Mac/ru.md)) вы можете пожелать установить одного или нескольких из следующих дополнительных компонентов.
-
-
-</div>
+После установки FreeCAD на вашей операционной системе ([Windows](Installing_on_Windows/ru.md), [Linux](Installing_on_Linux/ru.md) или [Mac](Installing_on_Mac/ru.md)), вы можете рассмотреть возможность установки одного или нескольких из следующих дополнительных компонентов.
 
 # Файлы помощи 
 
-
-<div class="mw-translate-fuzzy">
-
-Офлайн-документация не поставляется со всеми установщиками, но доступна в виде отдельного пакета. См. Страницу [Установка файла справки](Installing_Helpfile/ru.md) для получения дополнительной информации.
-
-
-</div>
+Смотри [Установка файла справки](Installing_Helpfile/ru.md).
 
 # Внешние верстаки 
 

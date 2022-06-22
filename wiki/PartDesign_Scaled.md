@@ -30,8 +30,8 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
 2.  The **MultiTransform parameters** [task panel](Task_panel.md) opens.
 3.  Right-click in the **Transformations** list and select **Add scaled transformation** from the context menu.
 4.  A **Scaled** item is added to the list and the task panel is extended at the bottom to allow to set the **Factor** and **Occurrences**. See [Options](#Options.md) for more information.
-5.  Click the **OK** bar at the bottom to validate the options.
-6.  Click the **OK** button at the top to finish.
+5.  Press the **OK** bar at the bottom.
+6.  Press the **OK** button at the top to finish.
 
 ### Scaling a single feature 
 

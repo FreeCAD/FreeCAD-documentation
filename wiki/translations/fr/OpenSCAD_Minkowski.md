@@ -26,7 +26,7 @@ Exemple de somme de Minkowski appliquée au cylindre et au cube. Remarque   * la
 
 ## Utilisation
 
-1.  Sélectionner des formes dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/Fr.md).
+1.  Sélectionner des formes dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
 2.  Cliquer sur <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width   *32px;"> ou **OpenSCAD** → **<img src="images/OpenSCAD_Minkowski.svg" width=32px> Somme de Minkowski** dans le menu supérieur.
 
 ## Limitations

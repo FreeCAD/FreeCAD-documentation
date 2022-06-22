@@ -30,7 +30,7 @@ Workbenches installed in this way will be available only to one user, but will n
 
 Copy the workbench folder into `$USER_DIR/Mod/`, where `$USER_DIR` is the FreeCAD directory for a particular `username`.
 
--   On Linux it is usually `/home/username/.FreeCAD/Mod/`
+-   On Linux it is usually `/home/username/.local/share/FreeCAD/Mod/` (<small>(v0.20)</small> ) or in `/home/username/.FreeCAD/Mod/` for {{VersionMinus|0.19}}.
 -   On Windows it is `%APPDATA%\FreeCAD\Mod\`, which is usually `C   *Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
 -   On macOS it is usually `/Users/username/Library/Preferences/FreeCAD/Mod/`. One way to get to the preferences directory is to use the \"Finder\" menu item **Go → Go to Folder**, and entering `~/Library/Preferences/FreeCAD`.
 

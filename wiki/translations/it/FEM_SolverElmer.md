@@ -43,9 +43,9 @@ Elmer requires two components to be interfaced with FreeCAD   *
 There are standalone programs for both of these applications but their installation and usage are beyond the scope of the FreeCAD integration.
 
 1.  Go to the CSC binaries resources for Elmer   * [binaries](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/) OR [CSC binaries](https   *//www.csc.fi/web/elmer/binaries)
-2.  Download and install the version best suited to your Operating System ([Windows 64](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) bits or [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt))
+2.  Download and install the version best suited to your Operating System ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) or [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). It is recommended to install the `mpi` version to get multi CPU core support.
 3.  In FreeCAD go to **Edit → Preferences → FEM → Elmer**
-4.  Link the correct path for both `ElmerGrid` and `ElmerSolver`
+4.  Link the correct path for both `ElmerGrid` and `ElmerSolver` or, to make Elmer use all available CPU cores, `ElmerSolver_mpi`.
 
        *   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
        *   

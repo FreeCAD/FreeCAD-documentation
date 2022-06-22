@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Part ExplodeCompound
    Name/fr   *Part Éclater le composé
-   MenuLocation   *Part → Outils composés → Éclater le composé
+   MenuLocation   *Part → Composés → Éclater le composé
    Workbenches   *[Part](Part_Workbench/fr.md)
    Version   *0.18
    SeeAlso   *[Part Composé](Part_Compound/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
@@ -24,7 +24,7 @@ L\'outil fera également exploser des formes non composées dans leurs constitua
 
 1.  Lancez l\'outil Part Éclater le composé de plusieurs manières    *
     -   En appuyant sur le bouton <img alt="" src=images/Part_ExplodeCompound.svg  style="width   *24px;"> dans la barre d\'outils Part
-    -   Utilisation de l\'entrée **Part → Outils composés → Éclater le composé** dans le menu Part
+    -   Utilisation de l\'entrée **Part → Composés → Éclater le composé** dans le menu Part
 
 ## Cas d\'utilisation 
 

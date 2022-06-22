@@ -11,7 +11,7 @@
 
 ## Description
 
-The **Section Cut** feature is available for all workbenches, despite it only works for Part and PartDesign objects and assemblies of those. It creates a persistent cut of objects and assemblies. Since the cut result is a normal [Part Cut](Part_Cut.md) object, it can be modified further or for example 3D printed. See below for possible applications.
+The **Section Cut** feature is available for all workbenches but it only works for Part and PartDesign objects and assemblies of those. It creates a persistent cut of objects and assemblies. Since the cut result is a normal [Part Cut](Part_Cut.md) object, it can be modified further or for example 3D printed. See below for possible applications.
 
 <img alt="" src=images/Part_SectionCut_example.png  style="width   *300px;"> 
 *A cut assembly. Some cut faces were manually colored. The yellow part is not cut because it was purposely moved by one micron into another part.*
@@ -66,7 +66,7 @@ When you select a cut object in the tree view and then open the Section Cut dial
 
 <img alt="An assembly where two parts intersect each other and that are therefore not cut. Note the color artifacts at the cut face." src=images/Part_SectionCut_Color-artifact.png  style="width   *200px;">
 
--   **Important   *** The Section Cut feature works poorly with [OpenCASCADE](OpenCASCADE.md) 7.4 and older due to bugs. It is therefore recommended to use OpenCASCADE 7.5 or newer (all builds of FreeCAD 0.20 assure this).
+-   **Important   *** The Section Cut feature works poorly with [OpenCASCADE](OpenCASCADE.md) 7.4 and older due to bugs. It is therefore recommended to use OpenCASCADE 7.5 or newer (all builds of FreeCAD <small>(v0.20)</small>  assure this).
 -   In assemblies **parts that intersect each other cannot be cut**. Normally intersecting objects will not be cut while the others will. However, sometimes the cutting can produce strange results which is a bug in the OpenCASCADE libraries. To get a cut view also for intersecting objects, you can use the the macro [Cross Section](Macro_cross_section.md).
 -   Especially when using the [A2plus workbench](A2plus_Workbench.md), some the assembled parts can overlap each other by just a micron due to internal rounding errors. To fix this, add a micron as space in the constraint settings.
 -   There can be color artifacts in the cut result. If and how depends on the OpenCASCADE library and also on the view position. In many cases the color artifacts disappear when the 3D view is slightly rotated.

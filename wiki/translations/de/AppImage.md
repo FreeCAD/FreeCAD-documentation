@@ -25,9 +25,9 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 
 **'''Note   *''' Entwicklungs-Builds werden nun auf dem [https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo bereitgestellt.<br/>Wenn die untenstehenden Download-Verknüpfungen nicht funktionieren, lade die Dateien bitte manuell aus dem ausgeklappten Abschnitt "Assets" unter dem o.g. Link herunter.**
 
-  Stable                                                                                                                                                                                                                                                                                                              Development
+  Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [0.19.3](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage) ([SHA256](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage-SHA256.txt))   ![](images/AppImage-logo.png ) \[<https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{   *Template   *Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{   *Template   *Development-Version}}\] (\[<https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{   *Template   *Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
+  ![](images/AppImage-logo.png ) [v0.20](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
      * style=\"text-align   * center; font-size   * 150%; \| Available FreeCAD AppImages \|+
 

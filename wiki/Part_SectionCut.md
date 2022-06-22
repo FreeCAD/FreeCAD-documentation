@@ -11,7 +11,7 @@
 
 ## Description
 
-The **Section Cut** feature is available for all workbenches, despite it only works for Part and PartDesign objects and assemblies of those. It creates a persistent cut of objects and assemblies. Since the cut result is a normal [Part Cut](Part_Cut.md) object, it can be modified further or for example 3D printed. See below for possible applications.
+The **Section Cut** feature is available for all workbenches but it only works for Part and PartDesign objects and assemblies of those. It creates a persistent cut of objects and assemblies. Since the cut result is a normal [Part Cut](Part_Cut.md) object, it can be modified further or for example 3D printed. See below for possible applications.
 
  <img alt="" src=images/Part_SectionCut_example.png  style="width   *300px;">  
 *A cut assembly. Some cut faces were manually colored. The yellow part is not cut because it was purposely moved by one micron into another part.*

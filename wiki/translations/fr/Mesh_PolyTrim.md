@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Mesh PolyTrim
    Name/fr   *Mesh Découper
-   MenuLocation   *Maillages → Cutting → Découper
+   MenuLocation   *Maillages → Coupe → Découper
    Workbenches   *[Mesh](Mesh_Workbench/fr.md)
    SeeAlso   *[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
 ---
@@ -19,7 +19,7 @@ La commande **Mesh Découper** permet de découper les faces et parties de faces
 2.  Sélectionnez un ou plusieurs objets maillés.
 3.  Il existe plusieurs façons de lancer la commande   *
     -   Appuyez sur le bouton **<img src="images/Mesh_PolyTrim.svg" width=16px> [Découper](Mesh_PolyTrim/fr.md)**.
-    -   Sélectionnez l\'option **Maillages → Cutting → <img src="images/Mesh_PolyTrim.svg" width=16px> Découper** dans le menu.
+    -   Sélectionnez l\'option **Maillages → Coupe → <img src="images/Mesh_PolyTrim.svg" width=16px> Découper** dans le menu.
 4.  Définissez un polygone en sélectionnant des points dans la vue 3D.
 5.  Sélectionnez une option dans le menu contextuel de la vue 3D   *
     -   

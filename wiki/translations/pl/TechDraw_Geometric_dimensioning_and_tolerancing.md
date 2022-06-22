@@ -21,7 +21,7 @@ Jeśli nie jesteś zaznajomiony z koncepcją GD&T, gorąco polecamy zapoznanie s
 
 GD&T zostało uregulowane w normach [ISO 1101](http   *//geo-dim-tol.ir/files/iso1101.pdf) oraz [ASME Y14.5](http   *//www.sharifcadcam.ir/uploaded/2e22f9ef-dfc5-47bc-a126-cc51e9686c4f.pdf).
 
-Możliwości środowisk parcy Rysunek Techniczny w zakresie spełniania wspólnych standardów GD&T są obecnie niewielkie *(od wersji FreeCAD 0.19)*, ale można już osiągnąć wiele rzeczy. Ta strona Wiki wyjaśnia co jest zaimplementowane i jakie sztuczki mogą być użyte dla niezaimplementowanych funkcji. **Uwaga   *** ta strona Wiki nie ma na celu nauczenia GD&T!
+Możliwości środowisk parcy Rysunek Techniczny w zakresie spełniania wspólnych standardów GD&T są obecnie niewielkie *(od wersji FreeCAD 0.20)*, ale można już osiągnąć wiele rzeczy. Ta strona Wiki wyjaśnia co jest zaimplementowane i jakie sztuczki mogą być użyte dla niezaimplementowanych funkcji. **Uwaga   *** ta strona Wiki nie ma na celu nauczenia GD&T!
 
 ## Wymiarowanie
 

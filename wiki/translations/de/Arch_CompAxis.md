@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */de
    Name   *Arch CompAxis
-   Name/de   *Arch BildeAchse
+   Name/de   *Arch AuswahlAchsenwerkzeuge
    MenuLocation   *Arch → Achsenwerkzeuge
    Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
    Version   *0.17

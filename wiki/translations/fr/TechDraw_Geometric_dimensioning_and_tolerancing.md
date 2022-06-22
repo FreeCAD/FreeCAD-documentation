@@ -21,7 +21,7 @@ Si vous n\'êtes pas familier avec le concept de GD&T, nous vous recommandons vi
 
 GD&T est normalisé dans les normes [ISO 1101](http   *//geo-dim-tol.ir/files/iso1101.pdf) and [ASME Y14.5](http   *//www.sharifcadcam.ir/uploaded/2e22f9ef-dfc5-47bc-a126-cc51e9686c4f.pdf).
 
-Les possibilités de TechDraws pour répondre aux normes GD&T courantes sont limitées (à partir de FreeCAD 0.19), mais vous pouvez déjà accomplir beaucoup de choses. Cette page Wiki explique ce qui est implémenté et quelles astuces peuvent être utilisées pour les fonctionnalités non implémentées. **Note   *** cette page Wiki n\'est pas là pour enseigner GD&T!
+Les possibilités de TechDraws pour répondre aux normes GD&T courantes sont limitées (à partir de FreeCAD 0.20), mais vous pouvez déjà accomplir beaucoup de choses. Cette page Wiki explique ce qui est implémenté et quelles astuces peuvent être utilisées pour les fonctionnalités non implémentées. **Remarque    *** cette page Wiki n\'est pas là pour enseigner GD&T!
 
 ## Cotations
 

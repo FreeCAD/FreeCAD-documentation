@@ -1,149 +1,118 @@
 ---
 - GuiCommand   */de
    Name   *PartDesign MultiTransform
-   Name/de   *PartDesign MehrfachTransformation
-   MenuLocation   *PartDesign → Muster anwenden → Mehrfach-Transformation erstellen
-   Workbenches   *[Part Design](PartDesign_Workbench/de.md)
+   Name/de   *PartDesign MultiTransform
+   MenuLocation   *Part Design → Muster anwenden → Mehrfach-Transformation erstellen
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso   *[PartDesign Spiegeln](PartDesign_Mirrored/de.md), [PartDesign LinearesMuster](PartDesign_LinearPattern/de.md), [PartDesign PolaresMuster](PartDesign_PolarPattern/de.md), [PartDesign Skalieren](PartDesign_Scaled/de.md)
 ---
 
 # PartDesign MultiTransform/de
 
 ## Beschreibung
 
-\'Ein Muster aus Kombinationen von Umwandlungen herstellen\' - Die **![](images/)_[Mehrfach-Transformation](PartDesign_MultiTransform.md)** nimmt eine (oder einen Satz von) Part \'Formelementen\' als seine Eingabe und ermöglicht es dem Anwender, mehrfache Transformationen auf dieses Formelement (oder diesen Satz von Formelementen) zunehmend, der Reihe nach - eine gemeinsame oder zusammengesetzte Transformation zu erzeugen.
+Das Werkzeug <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *24px;"> **PartDesign MehrfachTransformation** erstellt ein Muster aus einem oder mehreren Formelementen. Das Muster kann mehrere Transformationen enthalten, wobei jede folgende Transformation auf das Ergebnis der vorherigen Transformation angewendet wird.
 
-Zum Beispiel, um den Flansch mit einer doppelten Lochreihe, wie unten abgebildet, herzustellen, der Anwender   *
-
-1.  wählt die Bohrung als \'Element\' (Basis) im Modellbaum aus
-2.  klickt auf das **![](images/)_[Erstellen_einer_Mehrfach-Transformation](PartDesign_MultiTransform/de.md)** Symbol.
-3.  fügt ein lineares Muster mit zwei Vorkommen in X Richtung hinzu
-4.  fügt ein polares Muster mit acht Vorkommen um die Y Achse hinzu.
+Folgende Transformationen stehen zur Verfügung   * <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *16px;"> [Spiegeln](PartDesign_Mirrored/de.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *16px;"> [LinearesMuster](PartDesign_LinearPattern/de.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *16px;"> [PolaresMuster](PartDesign_PolarPattern/de.md) und <img alt="" src=images/PartDesign_Scaled.svg  style="width   *16px;"> [Skaliert](PartDesign_Scaled/de.md). Die ersten drei stehen auch als separate Werkzeuge zur Verfügung.
 
 <img alt="" src=images/multitransform_example.png  style="width   *600px;"> 
-*Flansch mit doppelter Lochreihe. Lochmuster erstellt mit 'Mehrfach-Transformation'.*
+*Ein Lochmuster, das aus einem einzelnen Loch erstellt wurde, wobei zuerst ein lineares Muster mit 2 Vorkommen und danach ein polares Muster mit 8 Vorkommen angewendet wurde.*
 
 ## Anwendung
 
-Bevor mit einer der folgenden Methoden begonnen wird, muß das erforderliche **![](images/)_[Körper](PartDesign_Body/de.md)** -Objekt [aktiv](PartDesign_Body/de#Anwendungs_Hinweise.md) sein. Ansonsten erscheint die Fehlermeldung, dass ein **![](images/)_[Körper](PartDesign_Body/de.md)** -Objekt vor der Anwendung des **![](images/)__[MehrfachTransformation](PartDesign_MultiTransform/de.md)**s-Werkzeuges aktiv sein muss.
+### Erstellen
 
-### Standardmethode
+1.  Bei Bedarf den korrekten Körper [aktivieren](PartDesign_Body#Active_status/de.md).
+2.  Wahlweise können ein oder mehrere Elemente in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
+3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+    -   Die Schaltfläche **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Mehrfach-Transformation erstellen](PartDesign_MultiTransform/de.md)** drücken.
+    -   Den Menüeintrag **Part Design → Muster anwenden → <img src="images/PartDesign_MultiTransform.svg" width=16px> Mehrfach-Transformation erstellen** auswählen.
+4.  Falls kein Körper aktiviert ist und sich zwei oder mehr Körper im Dokument befinden, öffnet sich der Dialog **Aktiver Körper erforderlich** mit der Aufforderung einen zu aktivieren. Wenn nur ein einziger Körper vorhanden ist, wird dieser automatisch aktiviert.
+5.  Wenn kein Formelement ausgewählt wurde, öffnet sich der [Aufgabenbereich](Task_panel/de.md) {{MenuCommand/de|Element auswählen}}   * Ein oder mehrere (**Ctrl**-Taste gedrückt halten) aus der Liste auswählen und die Schaltfläche **OK** drücken.
+6.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Mehrfach-Transformation** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+7.  Zum Fertigstellen die Schaltfläche **OK** am oberen Rand drücken.
 
-Diese Methode beginnt ohne vorhandene Transformationsformelemente und ohne ausgewählte Elemente im Ansichtsfenster oder im Modellobjektbaum.
-Wenn mit dieser Methode begonnen und abgeschlossen wird, sollte die **![](images/)_[Mehrfachtransformation](PartDesign_MultiTransform/de.md)** korrekterweise das oberste Element des Körperobjekts werden.
+### Bearbeiten
 
-1.  Klicke auf das **![](images/)__[MehrfachTransformation](PartDesign_MultiTransform/de.md)**ssymbol, um den Vorgang einzuleiten.
-2.  Du wirst mit dem Fenster **Formelement auswählen** aufgefordert, eines auszuwählen.
-    Wähle aus der Liste ein Anfangselement aus, das für die Transformationen verwendet werden soll und klicke auf **OK**, um fortzufahren.
-    Du kannst im nächsten Schritt weitere Formelemente hinzufügen.
+1.  Eine der folgenden Möglichkeiten startet die Bearbeitung   *
+    -   Das MultiTransform-Objekt in der [Baumansicht](Tree_view/de.md) doppelt anklicken.
+    -   Das MultiTransform-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **MultiTransform bearbeiten** aus dem Kontextmenü auswählen.
+2.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Mehrfach-Transformation** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Zum Fertigstellen die Schaltfläche **OK** am oberen Rand drücken.
 
-       *   <img alt="" src=images/PartDesign-MultiTransform-Select_feature.png  style="width   *300px;">
-3.  Das Fenster **Transformierte Funktionsmeldungen** und das Fenster **Parameter Mehrfachtransformation** erscheint.
-    Du siehst die Beschriftung des Formelements, das du in der Formelementlistenansicht ausgewählt hast, unter den Schaltflächen **Element hinzufügen** und **Element entfernen**.
-    <img alt="" src=images/PartDesign-MultiTransform-General.png  style="width   *300px;">
-4.  Wenn du zusätzliche Elemente für die Transformationen aufnehmen möchtest,   *
-    1.  klicke auf **Element hinzufügen** im Transformationswerkzeug
-    2.  wechsle in die Modellbaumansicht (Klicke auf den **Modell**-Reiter)
-    3.  wähle das Element, das du hinzufügen möchtest und mache es sichtbar (Leertaste oder Rechtsklick und schalte die Sichtbarkeit um).
+### Kombinieren vorhandener Transformationen 
 
-           *   **Hinweis   *** Dadurch wird das zuvor sichtbare Element ausgeblendet.
-    4.  klicke auf ein Element in der 3D Ansicht (Ansichtsbereich).
-    5.  klicke auf den Aufgaben-Reiter in der Comboansicht, um zum Fenster Multitransformparameter zurückzukehren.
-        Du solltest in der Elementenliste das zuvor ausgewählte Element sehen.
-5.  Unter der Elementenliste befindet sich die Transformationen-Liste. Darin solltest du den Text Hinzufügen mittels Rechtsklick sehen.
-6.  Füge in der Transformationenliste eine Transformation durch Rechtsklick hinzu, um die Optionsliste anzuzeigen.
-    <img alt="" src=images/PartDesign-MultiTransform-Transformations_Right_Click.png  style="width   *300px;">
-    1.  Füge die gewünschte Transformation hinzu, indem du sie in der Optionsliste auswählst.
-    2.  Der neue Transformationseintrag erscheint in der Liste Transformationen mit den entsprechenden Einstellungen unterhalb der Liste.
+Es ist möglich ein MultiTransform-Objekt von vorhandenen Transformationen wie [Spiegeln](PartDesign_Mirrored/de.md), [Lineares Muster](PartDesign_LinearPattern/de.md) und [Polares Muster](PartDesign_PolarPattern/de.md) zu erstellen.
 
-           *   <img alt="" src=images/PartDesign-MultiTransform-Transformations-add_linear_pattern.png  style="width   *300px;">
-    3.  Passe die Einstellungen für die neue Transformation an. (*Du wirst die Vorschau im Ansichtsbereich sehen.*)
-    4.  Klicke unter diesen Einstellungen **OK**, um die neue Transformation zu sichern.
-7.  Fahre mit dem Hinzufügen von Transformationen in der gewünschten Reihenfolge unter Verwendung von Schritt 5 oben fort.
-8.  Du kannst durch Rechtsklick auf eine Transformation in der Liste Transformationen und Auswahl der entsprechenden Option die Transformationen auch nach Bedarf bearbeiten, löschen und verschieben, also die Reihenfolge der Transformationen ändern.
-9.  Wenn du mit dem Hinzufügen und Bearbeiten der Transformationen fertig bist, klicke ganz oben auf **OK**, um die **![](images/)_[Mehrfach-Transformation](PartDesign_MultiTransform/de.md)** zu speichern und zu beenden.
-
-### Alternative Methode 1 
-
-Diese Methode beginnt mit einem vorhandenen Transformationslement im **![](images/)_[Körper](PartDesign_Body/de.md)**-Objekt.
-
-1.  Wähle im Modellbaum innerhalb des aktiven Körperobjekts die vorhandenen Formelemente aus, die einbezogen werden sollen.
-2.  Klicke auf das **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)**, um die Operation zu starten.
-3.  In der Formelemente Listenansicht siehst du die Beschriftung(en) des/der zuvor ausgewählten Formelement(e).
-    Um weitere Formelemente hinzuzufügen, siehe **Schritt 3** in der [Standard Methode](PartDesign_MultiTransform/de#Standard_Methode.md) oben.
-4.  Beende die **Schritte 5-8** in der [Standard Methode](PartDesign_MultiTransform/de#Standard_Methode.md) oben.
-
-### Alternative Methode 2 
-
-Diese Methode beginnt mit mehreren vorhandenen, unabhängigen Transformationen im **![](images/)_[Körper](PartDesign_Body.md)**, um sie zu kombinieren.
-ANMERKUNG   * um bestehende Transformationen zu kombinieren, müssen sie sich innerhalb desselben Körpers befinden und sollten alle dasselbe Formelement oder denselben Elementesatz in jedem Objekt verwenden.
-
-1.  Wähle im Modellbaum innerhalb des aktiven Körperobjekts eine der vorhandenen Transformationen aus, die du einbeziehen möchtest.
-2.  Klicke auf den **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)**, um den Vorgang zu starten.
-3.  Klicke auf die Schaltfläche **OK** oben, um zu speichern und zu beenden.
-4.  Wähle im Objektbaum die gerade erstellte **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)**.
-5.  Suche im Fenster *Eigenschaftsansicht* die Eigenschaft **Transformationen** auf dem Reiter *Daten*.
-6.  Bearbeite die Eigenschaft **Transformationen**, indem du auf ihren Wert klickst, und klicke dann auf das erscheinende Ellipsenfeld, um das Fenster **Verknüpfungen** für diese Eigenschaft zu öffnen.
-7.  Wähle alle vorhandenen Formelementtransformationen aus, die einbezogen werden sollen. Eine Mehrfachauswahl ist mit **Strg** + Klick zulässig.
-8.  Klicke auf **OK**, um zu speichern und das **Verknüpfungs**-Fenster zu schließen.
-9.  Klicke auf **![](images/)_[Aktualisieren](Std_Refresh/de.md)**, wenn diese Schaltfläche aktiviert ist.
-    Wenn auf diese Weise eingeleitet und abgeschlossen wird, wird die **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)** möglicherweise nicht an der \"Spitze\" des Körperobjekts stehen.
-
-Wenn du es an der \"Spitze\" benötigst   *
-
-1.  klicke mit der rechten Maustaste auf die gerade erstellte **![](images/)_[Mehrfachtransformation](PartDesign_MultiTransform/de.md)**.
-2.  falls verfügbar, wähle \"**Spitze setzen**\".
-
-### Anwendungshinweise
-
--   Unterstützte Transformationenfunktionen sind   *
-    **<img src="images/PartDesign_Mirrored.svg" width=20px>[Gespiegelt](PartDesign_Mirrored/de.md)**, **<img src="images/PartDesign_LinearPattern.svg" width=20px> [Lineares Muster](PartDesign_LinearPattern/de.md)**, **<img src="images/PartDesign_PolarPattern.svg" width=20px> [Polares Muster](PartDesign_PolarPattern/de.md)** und SKALIERTE Transformation.
--   Jede mit der **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)** verknüpfte Transformation sollte das gleiche Formelement oder den gleichen Satz von Formelementen verwenden.
-
-### Einschränkungen
-
--   Eine skalierte Transformation sollte nicht die erste in der Liste sein
--   Die skalierte Transformation muss die gleiche Anzahl von Vorkommen haben, wie die Transformation, die ihr in der Liste unmittelbar vorausgeht
--   Für weitere Einschränkungen siehe **<img src="images/PartDesign_LinearPattern.svg" width=20px> [Lineares Muster](PartDesign_LinearPattern/de.md)
-**
-
-
-
+1.  Check the **Originals** property of the existing transformations to make sure they have been applied to the same features.
+2.  Select those features in the [Tree view](Tree_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Create MultiTransform](PartDesign_MultiTransform.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
+4.  The **MultiTransform parameters** [task panel](Task_panel.md) opens.
+5.  Press the **OK** button at the top.
+6.  Edit the **Tranformations** property of the created MultiTransform object   *
+    1.  Click in the field.
+    2.  Press the **...** button that appears.
+    3.  The **Link** dialog opens.
+    4.  Hold down the **Ctrl** key and select the existing transformations.
+    5.  Press the **OK** button.
+7.  Optionally [edit](#Edit.md) the MultiTransform object, see above.
 
 ## Optionen
 
-+++
-| ![](images/Multitransfrom_parameters.png ) | Beim Erstellen eines Mehrfachtransformationselementes bietet der Dialog \'Mehrfachtransformation Parameter\' zwei verschiedene Listenansichten.                                                                                                                                                                                                                                                                 |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | ### Originale auswählen                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | Die Listenansicht zeigt die \'Originale\', also die Formelemente, die transformiert werden sollen. Wenn du auf ein beliebiges Element klickst, wird es der Liste hinzugefügt.                                                                                                                                                                                                                                   |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | ### Wähle Umwandlungen                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | Diese Liste kann mit einer Kombination aus den einfachen Transformation [gespiegelt](PartDesign_Mirrored/de.md), [lineares Muster](PartDesign_LinearPattern/de.md), [polares Muster](PartDesign_PolarPattern/de.md) und [skaliert](PartDesign_Scaled/de.md) gefüllt werden. Die Transformationen werden nacheinander angewendet. Das Kontextmenü bietet die folgenden Einträge   * |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | #### Bearbeiten                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | Erlaubt die Bearbeitung der Parameter einer Transformation in der Liste (Doppelklick hat den gleichen Effekt)                                                                                                                                                                                                                                                                                                   |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | #### Löschen                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | Entfernt eine Transformation aus der Liste.                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | #### Transformation hinzufügen                                                                                                                                                                                                                                                                                                                                                      |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | Fügt der Liste eine Transformation hinzu.                                                                                                                                                                                                                                                                                                                                                                       |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | #### Nach oben/unten bewegen                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | Erlaubt die Änderung der Reihenfolge der Transformationen in der Liste.                                                                                                                                                                                                                                                                                                                                         |
-+++
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list at the top and press the **Del** key.
+        -   Right-click a feature in the list at the top and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   To add transformations   *
+    1.  If there are existing transformations   * select the transformation after which the new transformation should be added.
+    2.  Right-click the **Transformations** list.
+    3.  Select one the following options from the context menu   *
+        -   
+            **Add mirrored transformation**
+            
+            . See [PartDesign Mirrored](PartDesign_Mirrored.md).
 
-## Beispiele
+        -   
+            **Add linear pattern**
+            
+            . See [PartDesign LinearPattern](PartDesign_LinearPattern.md).
 
-![c\|800px](images/mt_example2.png ) 
-*Die kleinste Aufpolsterung wurde zunächst dreimal in X Richtung aufgereiht und dann mit dem Faktor zwei skaliert (die drei Vorkommen haben also den Skalierungsfaktor 1,0, 1,5 und 2,0). Dann wurde ein lineares Muster 8-fach angewendet.* ![c\|800px](images/mt_example3.png ) 
-*Die Tasche wurde zunächst auf der YZ Ebene gespiegelt und dann mit zwei linearen Mustern aufgereiht, um ein rechteckiges Muster zu erhalten.* 
+        -   
+            **Add polar pattern**
+            
+            See [PartDesign PolarPattern](PartDesign_PolarPattern.md).
+
+        -   
+            **Add scaled transformation**
+            
+            . See [PartDesign Scaled](PartDesign_Scaled.md).
+    4.  The selected transformation is added to the list and the settings for the transformation are displayed below the list.
+    5.  Adjust the settings to suit.
+    6.  Press the **OK** bar at the bottom.
+    7.  Repeat to add more transformations.
+-   To edit a transformation   *
+    1.  Right-click the transformation in the **Transformations** list.
+    2.  Select **Edit** from the context menu.
+    3.  Adjust the settings to suit.
+    4.  Press the **OK** bar at the bottom.
+-   To change the order of the transformations   *
+    1.  Right-click a transformation in the **Transformations** list.
+    2.  Select **Move up** or **Move down** from the context menu.
+-   If the **Update view** checkbox is checked the view will update in real time.
+
+## Einschränkungen
+
+Siehe [PartDesign PolaresMuster](PartDesign_PolarPattern/de#Einschränkungen.md).
 
 
 

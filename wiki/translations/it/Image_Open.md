@@ -23,7 +23,13 @@ Lo strumento [Apri immagine](Image_Open/it.md) apre semplicemente un\'immagine d
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Utilizzo
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

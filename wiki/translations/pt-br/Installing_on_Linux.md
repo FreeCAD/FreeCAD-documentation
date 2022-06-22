@@ -3,10 +3,16 @@
 
 ## Visão geral 
 
+
+<div class="mw-translate-fuzzy">
+
 A instalação do FreeCAD nos sistemas Linux mais populares já foi aprovada pela comunidade, e o FreeCAD deve estar diretamente disponível através do gerenciador de pacotes disponíveis em sua distribuição. A equipe do FreeCAD também oferece   *
 
 -   Pacotes \"oficiais\" quando novos lançamentos são feitos
 -   Repositórios [Arquivo de pacotes pessoais](https   *//help.ubuntu.com/community/PPA) (PPA), [AppImages](AppImage/pt-br.md) e [Ubuntu Snaps](Ubuntu_Snap/pt-br.md) para testar as últimas características.
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

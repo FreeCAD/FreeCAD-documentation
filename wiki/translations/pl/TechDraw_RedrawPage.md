@@ -1,14 +1,15 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *TechDraw RedrawPage
-   MenuLocation   *TechDraw → Redraw Page
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/pl   *Rysunek Techniczny   * Przerysuj stronę
+   MenuLocation   *Rysunek Techniczny → Przerysuj stronę
+   Workbenches   *[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version   *0.19
 ---
 
 # TechDraw RedrawPage/pl
 
-## Description
+## Opis
 
 The Redraw tool forces a page update despite any contrary settings of KeepUpdated (Page property), Update with 3D (parameter) or Allow Page Override (parameter).
 
@@ -21,19 +22,19 @@ This tool was removed in v0.18, but reimplemented in v0.19.
 
 ## Options
 
-None.
+Brak.
 
-## Properties
+## Właściwości
 
--   n/a
+-   nie ma
 
-## Scripting
+## Tworzenie skryptów 
 
-The Redraw command is not directly available in scripts.
+Polecenie **Przerysuj stronę**nie jest bezpośrednio dostępne w skryptach.
 
-## Notes
+## Uwagi
 
--   None at this time.
+-   Obecnie brak.
 
 
 

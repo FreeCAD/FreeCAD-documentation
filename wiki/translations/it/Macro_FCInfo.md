@@ -1,4 +1,7 @@
 # Macro FCInfo/it
+<div class="mw-translate-fuzzy">
+
+
 **[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br> (This wiki page correspond in date ver 1.22 , 12/11/2020 and not include the new features) **
 
 
@@ -13,6 +16,22 @@
 |FCVersion=Tutte
 |Download=Tele-carica il zip file [https   *//forum.freecadweb.org/download/file.php?id=50755 Macro_FCInfo_Icon] e copia le imagine nello stesso repertorio ché la macro.
 |SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey/it.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/it.md)
+}}
+
+
+</div>
+
+
+{{Macro
+|Name=Macro FCInfo
+|Icon=FCInfo.png
+|Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
+<br />French Version [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/795cac01c84fbbfa7ea68703c7138667119995d8/FCInfo_fr_Ver_1-26c-rmu_Docked.FCMacro Version française]
+|Author=Mario52
+|Version=1.26c
+|Date=2022/04/19
+|FCVersion=All
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width   *24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width   *24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
 ## Descrizione

@@ -14,49 +14,37 @@ El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [Am
 
 -   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *24px;"> [Crear hoja](Spreadsheet_CreateSheet/es.md)   * crea una nueva hoja de cálculo.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Import](Spreadsheet_Import.md)   * import a CSV file into a spreadsheet.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Importar](Spreadsheet_Import/es.md)   * importa un archivo CSV a una hoja de cálculo.
 
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Export](Spreadsheet_Export.md)   * export a CSV file from a spreadsheet.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Exportar](Spreadsheet_Export/es.md)   * exporta un archivo CSV desde una hoja de cálculo.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Merge cells](Spreadsheet_MergeCells.md)   * merge selected cells.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Unir celdas](Spreadsheet_MergeCells.md)   * une las celdas seleccionadas.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Split cell](Spreadsheet_SplitCell.md)   * split previously merged cells.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Dividir celdas](Spreadsheet_SplitCell.md)   * divide celdas previamente unidas.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Align left](Spreadsheet_AlignLeft.md)   * align the contents of selected cells to the left.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Alinear a la izquierda](Spreadsheet_AlignLeft.md)   * alinea el contenido de las celdas seleccionadas a la izquierda.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Align center](Spreadsheet_AlignCenter.md)   * align the contents of selected cells to the center horizontally.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Alinear al centro](Spreadsheet_AlignCenter.md)   * alinea el contenido de las celdas seleccionadas al centro horizontalmente.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Align right](Spreadsheet_AlignRight.md)   * align the contents of selected cells to the right.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Alinear a la derecha](Spreadsheet_AlignRight.md)   * alinea el contenido de las celdas seleccionadas a la derecha.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Align top](Spreadsheet_AlignTop.md)   * align the contents of selected cells to the top.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Alinear arriba](Spreadsheet_AlignTop.md)   * alinea el contenido de las celdas seleccionadas hacia arriba.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Align vertical center](Spreadsheet_AlignVCenter.md)   * align the contents of selected cells to the center vertically.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Alinear al centro vertical](Spreadsheet_AlignVCenter.md)   * alinea el contenido de las celdas seleccionadas al centro vertical.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Align bottom](Spreadsheet_AlignBottom.md)   * top align the contents of selected cells to the bottom.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Alinear abajo](Spreadsheet_AlignBottom.md)   * alinea el contenido de las celdas seleccionadas hacia abajo.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Style bold](Spreadsheet_StyleBold.md)   * set the contents of selected cells to bold.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Estilo negrita](Spreadsheet_StyleBold.md)   * establece el contenido de las celdas seleccionadas a negrita.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Style italic](Spreadsheet_StyleItalic.md)   * set the contents of selected cells to italic.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Estilo itálica](Spreadsheet_StyleItalic.md)   * establece el contenido de las celdas seleccionadas a itálica.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Style underline](Spreadsheet_StyleUnderline.md)   * set the contents of selected cells to underlined.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Estilo subrayar](Spreadsheet_StyleUnderline.md)   * establece el contenido de las celdas seleccionadas a subrayar.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Establecer alias](Spreadsheet_SetAlias/es.md)   * establece un alias para las celdas seleccionadas.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Establecer alias](Spreadsheet_SetAlias/es.md)   * establece el alias para una celda seleccionada.
 
 -    **Negro**y **Blanco** establecen los colores de primer plano y de fondo de las celdas seleccionadas.
 
-
-</div>
-
-## Preferences
+## Preferencias
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Preferences](Spreadsheet_Preferences.md)   * the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
 
@@ -291,17 +279,17 @@ To bind, for example, the cell range A3-C4 to the cell range B1-D2   *
 -   You cannot change the cell range of an existing binding. You must first unbind the cells and then create a new binding.
 -   The frame color indicating the binding cannot be changed yet.
 
-## Configuration tables 
+## Tablas de configuración 
 
 
 <small>(v0.20)</small> 
 
-You can use Spreadsheets to create configuration tables with sets of predefined parameters for your model, and then dynamically change which configuration to use. See [this Forum post](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
+Puedes usar hojas de cálculo para crear tablas de configuración con conjuntos de parámetros predefinidos para tu modelo, y después cambiar dinamicamente que configuración usar. Vea [este post del foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) si quiere saber más sobre el funcionamiento interno de esta característica.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-Expand this section for a brief tutorial on creating a configuration table.
+Expandir esta sección para un breve tutorial de como crear una tabla de configuración.
 
 
 <div class="mw-collapsible-content">
@@ -335,7 +323,7 @@ Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.m
 
 </div>
 
-## Guión básicos 
+## Scripting básico 
 
 
 ```python

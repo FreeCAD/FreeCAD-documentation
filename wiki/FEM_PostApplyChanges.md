@@ -1,9 +1,9 @@
 ---
 - GuiCommand   *
    Name   *FEM PostApplyChanges
-   MenuLocation   * Results → Apply changes to pipeline
+   MenuLocation   *Results → Apply changes to pipeline
    Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[Std Refresh](Std_Refresh.md), [Filter functions](FEM_PostCreateFunctions.md)
+   SeeAlso   *[Std Refresh](Std_Refresh.md), [FEM Filter functions](FEM_PostCreateFunctions.md)
 ---
 
 # FEM PostApplyChanges
@@ -18,7 +18,11 @@ If the feature is not active, a change of the size and position of functions fir
 
 ## Usage
 
-Click the toolbar button **<img src="images/FEM_PostApplyChanges.svg" width=16px> '''Apply changes to pipeline'''** or use the menu **Results → <img src="images/FEM_PostApplyChanges.svg" width=16px> Apply changes to pipeline**.
+There are several ways to invoke the command   *
+
+-   Click the toolbar button **<img src="images/FEM_PostApplyChanges.svg" width=16px> '''Apply changes to pipeline'''
+**
+-   Use the menu **Results → <img src="images/FEM_PostApplyChanges.svg" width=16px> Apply changes to pipeline**.
 
 
 

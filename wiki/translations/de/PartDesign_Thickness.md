@@ -12,132 +12,127 @@
 
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **PartDesign Dicke** wandelt einen Volumenkörper in ein hohles Objekt (Schalenobjekt) mit mindestens einer offenen Fläche, und gibt allen verbleibenden Flächen eine konstante Wandstärke. Es fügt dem Dokument ein **Thickness**-Objekt und den dazugehörigen Repräsentanten in der [Baumansicht](Tree_view/de.md) hinzu.
 
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickwandigen hohlen Gegenstand mit mindestens einer offenen Fläche um, der jeder seiner verbleibenden Flächen eine gleichmäßige Dicke verleiht. Bei einigen Volumenkörpern kann es die Bearbeitung erheblich beschleunigen und vermeidet die Erstellung von Extrusionen und Taschen.
-
-
-</div>
-
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Das Werkzeug Dicke angewendet auf die Fläche (B) eines Volumenkörpers (A) ergibt das hohle Objekt (C).*
-
-
-</div>
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
+*Ausgangsvolumenkörper (A) →  Volumenkörper mit der ausgewählten Fläche, die geöffnet werden soll (B) →  Das resultierende hohle Objekt (C)*
 
 ## Anwendung
 
-### Add a thickness 
+### Dicke hinzufügen 
 
+1.  Optional [aktiviert](PartDesign_Body/de#Aktiver_Status.md) man den Körper, der ausgehöhlt werden soll.
+2.  Eine oder mehrere Flächen des Körpers auswählen.
+3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+    -   Die Schaltfläche **<img src="images/PartDesign_Thickness.svg" width=16px> [Dicke](PartDesign_Thickness/de.md)** drücken.
+    -   Den Menüeintrag **Part Design → Modifikationen → <img src="images/PartDesign_Thickness.svg" width=16px> Dicke** auswählen.
+4.  Wenn zwei oder mehr Körper vorhanden sind und kein Körper aktiviert ist, wird der der Dialog **Active Body Required** geöffnet mit der Aufforderung einen zu aktivieren. Ist nur ein einziger Körper vorhanden, wird dieser automatisch aktiviert.
+5.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Wandstärke** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+6.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
 
-<div class="mw-translate-fuzzy">
+   *   *Nicht vergessen*   *
+    -   Da das Werkzeug immer mindestens eine Fläche erfordert, kann die letzte vorhandene Fläche nicht aus der Liste entfernt werden.
 
-1.  Eine oder mehrere Flächen des aktiven Körpers auswählen.
+### Dicke bearbeiten 
 
-2.  Die Schaltfläche **<img src="images/PartDesign_Thickness.png" width=24px> ''Dicke''** drücken.
-
-3.  Die **Dicke- (Thickness) Parameter** festlegen (siehe [Optionen](#Optionen.md)).
-
-4.  Um weitere Flächen zum Öffnen hinzuzufügen, drückt man die Schaltfläche **Fläche hinzufügen** und wählt eine oder mehrere Flächen in der 3D-Ansicht aus.
-
-5.  Um eine zuvor ausgewählte Fläche zu entfernen, drückt man ** Fläche entfernen** und wählt eine Fläche in der 3D-Ansicht, oder klickt mit der rechten Maustaste auf die Fläche in der Liste und wählt *Entfernen*.
-
-6.  
-    **OK**drücken.
-
-
-</div>
-
-
-   *   *Remember*   *
-    -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
-
-### Edit a thickness 
-
-1.  Do one of the following   *
-    -   Double-click the Thickness object in the [Tree view](Tree_view.md)
-    -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
-2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+1.  Eine der folgenden Möglichkeiten startet die Bearbeitung   *
+    -   Das Thickness-Objekt in der [Baumansicht](Tree_view/de.md) doppelt anklicken.
+    -   Das Thickness-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **Thickness bearbeiten** aus dem Kontextmenü auswählen.
+2.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Wandstärke** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
 
 ## Optionen
 
+-    **Fläche hinzufügen**   * Fügt Flächen hinzu, durch Drücken der Schaltfläche **Fläche hinzufügen** und die Auswahl weiterer Flächen.
 
-<div class="mw-translate-fuzzy">
+-    **Fläche entfernen**   * Möglichkeiten eine Fläche aus der Auswahl zu entfernen   *
 
--   **Dicke**   * Wanddicke des resultierenden Objekts. Stellen Sie den gewünschten Wert ein.
--   **Modus**
-    -   *Skin*   * Wählen Sie diese Option, wenn Sie ein Objekt wie eine Vase, kopflos, aber mit dem Boden bekommen wollen
-    -   *Rohr*   * Wählen Sie diese Option, wenn Sie ein Objekt wie ein Rohr bekommen möchten, ohne Boden und Deckel. In diesem Fall kann es nützlich sein, die zu löschenden Flächen auszuwählen, bevor Sie das Werkzeug starten. Nutzen Sie dazu die vordefinierten Ansichten Schaltflächen oder verwenden Sie die numerischen Tasten.
-    -   *Recto Verso*   *
+    -   Eine oder mehrere Flächen in der Liste auswählen und die **Del**-Taste drücken oder mit der rechte Maustaste in die Liste klicken und Entfernen aus dem Kontextmenü auswählen.
+    -   Die Schaltfläche **Fläche entfernen** drücken. Alle zuvor ausgewählten Flächen werden violett hervorgehoben. Jede zu entfernende Fläche auswählen.
 
--   **Verbindungstyp**
-    -   *KreisBogen(Arc)*   * entfernt die äußeren Kanten und erstellt eine Leiste mit einem Radius, der der definierten Stärke entspricht.
-    -   *Schnitt(Intersection)*   * Wenn Flächen nach außen versetzt sind, werden scharfe Kanten zwischen den Flächen beibehalten.
--   **Erzeugen einer Hülle mit innen liegendem Volumen**   * Wenn diese Option aktiviert ist, werden die Flächen nach innen versetzt.
+-    **Dicke**   * Die Wandstärke verändern, indem man einen Wert eingibt oder die Pfeiltasten anklickt.
+
+-    **Modus**   *
+
+    -   
+        **Oberfläche**
+        
+           * Nur diese Möglichkeit wird verwendet.
+
+    -   
+        **Rohr**
+        
+           * Nicht implementiert. Siehe [diesen Forumsbeitrag (engl.)](https   *//forum.freecadweb.org/viewtopic.php?p=484495#p484495).
+
+    -   
+        **Recto Verso**
+        
+           * Nicht implementiert. Siehe [derselbe](https   *//forum.freecadweb.org/viewtopic.php?p=484495#p484495).
+
+-    **Verbindungstyp**   *
+
+    -   
+        **Kreisbogen**
+        
+           * Wenn nicht tangentiale Flächen versetzt werden und sich die neuen Flächen nicht überschneiden, werden sie mit einer Rundung verbunden, deren Radius der festgelegten Wandstärke entspricht.
+
+    -   
+        **Schnitt**
+        
+           * Wenn nicht tangentiale Flächen versetzt werden und sich die neuen Flächen nicht überschneiden, werden sie bis zu ihrer virtuellen Schnittlinie verlängert.
+
+-    **Schnitt**   * Wenn aktiviert, werden bei bestimmten Modellen Selbstdurchdringungen verhindert. Diese Möglichkeit wird nicht empfohlen, da sie auf einer unvollständigen [OpenCASCADE-Methode](https   *//dev.opencascade.org/doc/refman/html/class_b_rep_offset_a_p_i___make_thick_solid.html#af78f35025a31e2ce8bd96c82fb33a981) basiert.
+
+-    **Dicke nach innen auftragen**   * Wenn aktiviert, werden Flächen nach innen versetzt.
+
+## Hinweise
+
+-   Wenn die Wandstärke nach innen aufgetragen wird, muss der Wert kleiner sein als die kleinste Höhe des Körpers.
+-   Das Wekzeug kann bei komplexen Formen versagen. [Rohr](PartDesign_AdditivePipe/de.md) oder [Ausformung](PartDesign_AdditiveLoft.md) können geeigneter sein, um komplexe Formen zu erstellen.
+-   Bekannte Fehler   *
+    -   BRep\_API   * command not done (Befehl nicht ausgeführt).
+    -   BRep\_Tool   * no parameter on edge (Kein Parameter auf der Kante).
+    -   Silently fails (Stilles Versagen).
+
+## Eigenschaften
+
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
+
+Ein PartDesign-Thickness-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
+
+### Daten
 
 
-</div>
+{{Properties_Title/de|Basis}}
 
-## Notes
+-    **Base|LinkSub**   * Sub-link zu der Liste des übergeordneten Formelements, die die ausgewählten Kanten und Flächen enthält.
 
-
-<div class="mw-translate-fuzzy">
-
--   Es muss mindestens eine zu öffnende Fläche ausgewählt sein.
--   Wenn die Dicke nach innen geht, muss der Wert für die Dicke kleiner sein als die kleinste Höhe des Körpers.
--   Der Befehl kann bei komplexen Formen fehlschlagen. In diesem Zusammenhang muss auch eine Fläche wie die eines Kegels bereits als komplex angesehen werden.
-    -   [PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md) oder [PartDesign Additive Loft](PartDesign_AdditiveLoft/de.md) kann zur Erzeugung von komplexeren Formen geeigneter sein.
-
-
-</div>
-
-## Properties
-
-See also   * [Property editor](Property_editor.md).
-
-A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
-
-### Data
-
-
-{{Properties_Title|Base}}
-
--    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
-
--    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
+-    **Support Transform|Bool**   * \"Beinhaltet das ursprüngliche Formelement zur Verwendung in Muster-Objekten. Wenn deaktiviert, wird nur der angepasste (bearbeitete) Anteil der Form zum Erstellen von Mustern verwendet. Standardwert   * `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
 
--    **Base Feature|Link|hidden**   * Link to the parent feature.
+-    **Base Feature|Link|hidden**   * Verknüpfung mit dem übergeordneten Formelement.
 
--    **_ Body|LinkHidden|hidden**   * Link to the parent body.
-
-
-{{Properties_Title|Part Design}}
-
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **_ Body|LinkHidden|hidden**   * Verknüpfung mit dem übergeordneten Körper.
 
 
-{{Properties_Title|Thickness}}
+{{Properties_Title/de|Part Design}}
 
--    **Value|Length**   * \"Thickness value\". Default   * {{value|1 mm}}.
+-    {{PropertyData/de|Refine|Bool}}   * \"Form aufbereiten (überflüssige Kanten entfernen) nach einer Hinzufügen- oder Entfernen-Operation. Der voreingestellte Wert wird durch die Einstellung **Modell nach skizzenbasierter Operation automatisch aufbereiten** bestimmt. Siehe [PartDesign Einstellungen](PartDesign_Preferences/de#Allgemein.md).
 
--    **Mode|Enumeration**   * \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
 
--    **Join|Enumeration**   * \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+{{Properties_Title/de|Thickness}}
 
--    **Reversed|Bool**   * \"Apply the thickness towards the solids interior\". Default   * `False`.
+-    **Value|Length**   * \"Wert der Wandstärke (Dicke)\". Standardwert   * {{value|1 mm}}.
 
--    **Intersection|Bool**   * \"Enable intersection-handling\". Default   * `False`.
+-    **Mode|Enumeration**   * \"Modus\". {{value|Skin}} (Standard), {{value|Pipe}} oder {{Value|Recto verso}}. Nur {{value|Skin}} ist implementiert.
+
+-    **Join|Enumeration**   * \"Verbindungstyp\". {{value|Arc}} (Standard) oder {{Value|Intersection}}.
+
+-    **Reversed|Bool**   * \"Wandstärke in Richtung des Körperinneren auftragen\". Standardwert   * `False`.
+
+-    **Intersection|Bool**   * \"Bearbeitung von Überschneidungen aktivieren\". Standardwert   * `False`.
 
 
 

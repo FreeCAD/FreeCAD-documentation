@@ -14,9 +14,9 @@ Creates a FEM constraint for the electrostatic potential. To be used together wi
 
 ## Usage
 
-\#\* Either press the **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [ConstraintElectrostaticPotential](FEM_ConstraintElectrostaticPotential.md)** button
+\#\* Either press the **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [FEM ConstraintElectrostaticPotential](FEM_ConstraintElectrostaticPotential.md)** button
 
-\#\* or use the menu **Model → Electrostatic Constraints → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Constraint electrostatic potential**.
+\#\* Or use the menu **Model → Electrostatic Constraints → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Constraint electrostatic potential**.
 
 1.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
 2.  Press the **Add** button.

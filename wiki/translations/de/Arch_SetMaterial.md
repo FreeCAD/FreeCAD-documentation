@@ -47,6 +47,9 @@ Die Material Werkzeuge erlauben dir [Materialien](Material.md) zum aktiven Dokum
 
 ![](images/Arch_materials_02.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Voreinstellungen wählen\...**   * Wähle eins der voreingestellten Materialien, entweder wie vorgegeben oder angepasst durch ändern der folgenden Felder   *
 -   **Kopiere bestehende\...**   * Kopiere eins der bestehenden Materialien
 -   **Name**   * Wähle einen Namen für das Material
@@ -60,6 +63,9 @@ Die Material Werkzeuge erlauben dir [Materialien](Material.md) zum aktiven Dokum
 -   **URL**   * Eine URL, wo mehr Informationen zu diesem Material gefunden werden können
 -   **URL**-Schaltfläche   * erlaubt das Öffnen der URL in einem Web-Browser
 -   **Vater**   * ?
+
+
+</div>
 
 ## Bezug zu IFC 
 

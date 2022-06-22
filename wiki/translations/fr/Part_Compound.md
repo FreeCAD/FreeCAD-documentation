@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Part Compound‏‎
    Name/fr   *Part Composé
-   MenuLocation   *Part → Outils composés → Créer un composé
+   MenuLocation   *Part → Composés → Créer un composé
    Workbenches   *[Part](Part_Workbench/fr.md)
    Version   *0.14
    SeeAlso   *[Part Union](Part_Fuse/fr.md), [Part Filtre composé](Part_CompoundFilter/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
@@ -17,7 +17,7 @@ Cette commande crée un composé d\'objets ayant une forme topologique tels que 
 ## Utilisation
 
 1.  Sélectionnez les formes dans la [vue en arborescence](Tree_view/fr.md) qui seront ajoutées au composé
-2.  Faites **Part → Outils composés → Créer un composé** dans le menu Part ou cliquez sur le bouton <img alt="" src=images/Part_Compound.svg  style="width   *24px;">.
+2.  Faites **Part → Composés → Créer un composé** dans le menu Part ou cliquez sur le bouton <img alt="" src=images/Part_Compound.svg  style="width   *24px;">.
 
 ## Remarques
 

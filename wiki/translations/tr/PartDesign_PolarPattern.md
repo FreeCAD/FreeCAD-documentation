@@ -3,124 +3,111 @@
    Name   *PartDesign PolarPattern
    MenuLocation   *Part Design → Apply a pattern → PolarPattern
    Workbenches   *[PartDesign](PartDesign_Workbench.md)
+   SeeAlso   *[PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---
 
 # PartDesign PolarPattern/tr
 
 ## Tanım
 
-The **polar pattern** tool takes a chosen feature and creates a set of copies rotated around a chosen axis. <small>(v0.17)</small>  A list of features can be patterned.
+The <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *24px;"> **PartDesign PolarPattern** tool creates a polar pattern of one or more features.
 
-![](images/PartDesign_PolarPattern_example.png )
-
-*Above   * a slot-shaped pocket (B) made on top of a base solid (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
+![](images/PartDesign_PolarPattern_example.png ) 
+*A slot-shaped pocket (B) made on top of a base pad (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
 
 ## Usage
 
-#### To create a pattern 
+### Create
 
-1.  (Optional) Select the feature (or <small>(v0.19)</small>  several features) to be patterned.
-2.  Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> '''PolarPattern'''** button.
-    -   If you didn\'t initially select any features, you\'ll be able to select a *single* base feature
-3.  Define the **Axis**. See [Options](#Options.md).
-4.  Define the **Angle** between the last copied occurrence and the original feature.
-5.  Set the number of **Occurrences**.
-6.  If you have several features in the pattern, their order can be important, see the image below.
-7.  Press **OK**.
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> [PolarPattern](PartDesign_PolarPattern.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_PolarPattern.svg" width=16px> PolarPattern** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
 
-#### Ordering features 
+### Edit
+
+1.  Do one of the following   *
+    -   Double-click the PolarPattern object in the [Tree view](Tree_view.md).
+    -   Right-click the PolarPattern object in the [Tree view](Tree_view.md) and select **Edit PolarPattern** from the context menu.
+2.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
+## Options
+
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [Ordering features](#Ordering_features.md).
+-   Specify the **Axis** of the pattern   *
+    -   
+        **Normal sketch axis**
+        
+           * The Z axis of the sketch (only available for sketch-based features).
+
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (idem).
+
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
+
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
+
+    -   
+        **Base X axis**
+        
+           * The X axis of the Body.
+
+    -   
+        **Base Y axis**
+        
+           * The Y axis of the Body.
+
+    -   
+        **Base Z axis**
+        
+           * The Z axis of the Body.
+
+    -   
+        **Select reference...**
+        
+           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+-   Check the **Reverse direction** checkbox to reverse the pattern.
+-   Specify the **Angle** to be covered by the pattern.
+-   Specify the number of **Occurrences** (including the original feature).
+-   If the **Update view** checkbox is checked the view will update in real time.
+
+## Ordering features 
+
+If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list. <small>(v0.19)</small> 
 
 ![](images/PartDesign_feature-order.gif ) 
 *Effect of the feature order*
 
-
-<small>(v0.19)</small> 
-
-You can change the order by dragging the feature in the list and you will see the result immediately as preview.
-
-#### Adding features 
-
-###### v0.18
-
-1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md)   *
-2.  Switch to the Model tree;
-3.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
-4.  Switch back to the Tasks panel;
-5.  Select the feature in the 3D view; it will be added to the list.
-6.  Repeat to add other features.
-
-###### v0.19
-
-1.  Press **Add feature** to add a feature to be patterned.
-2.  Switch to the Model tree;
-3.  Select in the tree the feature to be added.
-4.  Repeat to add other features.
-
-#### Removing features 
-
--   Right-click on the feature in the list and select *Remove*.
-
-or
-
-###### v0.18 
-
-1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md)   *
-2.  Switch to the Model tree;
-3.  Select in the tree the feature to be removed and press **Space** to make it visible in the [3D view](3D_view.md);
-4.  Switch back to the Tasks panel;
-5.  Select the feature in the 3D view; it will have been removed from the list.
-6.  Repeat to remove other features.
-
-###### v0.19 
-
-1.  Press **Remove feature** to remove a feature from the list.
-2.  Switch to the Model tree;
-3.  Select in the tree the feature to be removed.
-4.  Repeat to remove other features.
-
-## Options
-
-![](images/Polarpattern_parameters.png )
-
-### Axis
-
-When creating a polar pattern feature, the *PolarPattern parameters* dialogue offers different ways of specifying the pattern rotation axis.
-
-#### Normal sketch axis 
-
-An axis being normal to the sketch and starting in the origin of the sketch of the feature being used is taken as axis for the polar pattern.
-The pattern direction can be reversed by ticking \'Reverse direction\'.
-
-#### Horizontal sketch axis 
-
-Uses the horizontal axis of the sketch for axis.
-
-#### Vertical sketch axis 
-
-Uses the vertical axis of the sketch for axis.
-
-#### Custom Sketch Axis 
-
-If the sketch which defines the feature to be patterned also contains a construction line (or lines), then the drop down list will contain one custom sketch axis for each construction line. The first construction line will be labelled *Sketch axis 0*.
-
-#### Base (X/Y/Z) axis 
-
-
-<small>(v0.17)</small> 
-
-Select one of the Body Origin\'s standard axis (X, Y or Z) as axis.
-
-#### Select reference\... 
-
-Allows you to select either a DatumLine or an edge of an object or a line of a sketch to use for axis.
-
-### Angle and Occurrences 
-
-Specifies the angle to be covered by the pattern, and the total number of pattern shapes (including the original feature). For example, four occurrences in an angle of 180 degrees would give a spacing of 60 degrees between patterns. There is one exception   * If the angle is 360 degrees, since first and last occurrence are identical, four occurrences will be spaced 90 degrees apart.
-
 ## Limitations
 
--   See [linear pattern feature limitations](PartDesign_LinearPattern#Limitations.md).
+-   Any shape in the pattern that does not overlap the parent feature will be excluded. This ensures that a PartDesign Body always consists of a single, connected solid.
+-   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a large number of instances you should consider using a [Draft PolarArray](Draft_PolarArray.md) instead, combined with a Part boolean operation. This may require major changes to your model as you are leaving PartDesign and therefore cannot simply continue with further PartDesign features in the same body. An example is shown in [this Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).
+-   A pattern cannot be applied directly to another pattern, be it polar, linear or a mirror. For this you need a [PartDesign MultiTransform](PartDesign_MultiTransform.md).
 
 
 

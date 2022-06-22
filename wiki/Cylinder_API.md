@@ -34,7 +34,7 @@ Center of the cylinder.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> Content
 
-Content of the object in XML representation
+Content of the object in XML representation.
 
 
 
@@ -48,7 +48,7 @@ Content of the object in XML representation
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
 
-Memory size of the object in byte
+Memory size of the object in bytes.
 
 
 
@@ -151,11 +151,13 @@ Deletes all extensions of the indicated type.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> dumpContent
 
-Dumps the content of the object, both the XML representation as well as the additional datafiles  
-required, into a byte representation. It will be returned as byte array.
-dumpContent() -- returns a byte array with full content
-dumpContent(Compression=1-9) -- Sets the data compression from 0 (no) to 9 (max)
-                
+dumpContent(Compression=3) -> bytearray
+
+Dumps the content of the object, both the XML representation and the additional
+data files required, into a byte representation.
+
+Compression : int
+    Set the data compression level in the range [0,9]. Set to 0 for no compression.
 
 
 
@@ -315,10 +317,13 @@ projectPoint(Vector,"Point") -> list of points
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> restoreContent
 
-Restore the content of the object from a byte representation as stored by "dumpContent".
-It could be restored from any python object implementing the buffer protocol.
-restoreContent(buffer) -- restores from the given byte array
-                
+restoreContent(obj) -> None
+
+Restore the content of the object from a byte representation as stored by `dumpContent`.
+It could be restored from any Python object implementing the buffer protocol.
+
+obj : buffer
+    Object with buffer protocol support.
 
 
 

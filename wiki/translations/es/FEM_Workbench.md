@@ -45,7 +45,13 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [Material reforzado (hormigón)](FEM_MaterialReinforced/es.md)   * Le permite seleccionar materiales reforzados compuestos por una matriz y una armadura de la base de datos.
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Editor de materiales](Material_editor/es.md)   * Te permite abrir el editor de materiales para editarlos.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Editor de materiales](FEM_MaterialEditor/es.md)   * Te permite abrir el editor de materiales para editarlos.
+
+
+</div>
 
 ### Geometría Elementos 
 
@@ -219,7 +225,13 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Mostrar resultados](FEM_ResultShow/es.md)   * Used to display the result of an analysis.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Aplicar cambios a la canaliza](FEM_PostApplyChanges/es.md)   *
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -285,15 +297,33 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Funciones del filtro](FEM_PostCreateFunctions/es.md)   *
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;">
     -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;">
 
+
+</div>
+
 ## Menú   * Utilidades 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Plano de recorte en la cara](FEM_ClippingPlaneAdd/es.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Eliminar todos los planos de recorte](FEM_ClippingPlaneRemoveAll/es.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [Abrir ejemplos MEF](FEM_Examples/es.md)   * Abre la interfaz gráfica de usuario para acceder a los ejemplos de MEF.
 

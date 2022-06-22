@@ -67,7 +67,7 @@ Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialog
 
 <img alt="Złożenie, w którym dwie części krzyżują się ze sobą i dlatego nie są przecięte. Zwróć uwagę na artefakty kolorystyczne na powierzchni przecięcia." src=images/Part_SectionCut_Color-artifact.png  style="width   *200px;">
 
--   **Ważne   *** Funkcja wycinania przekroju źle działa z [OpenCASCADE](OpenCASCADE/pl.md) 7.4 i starszym z powodu błędów. Dlatego zalecane jest używanie OpenCASCADE 7.5 lub nowszego *(wszystkie wersje FreeCAD 0.20 to zapewniają)*.
+-   **Ważne   *** Funkcja wycinania przekroju źle działa z [OpenCASCADE](OpenCASCADE/pl.md) 7.4 i starszym z powodu błędów. Dlatego zalecane jest używanie OpenCASCADE 7.5 lub nowszego *(wszystkie wersje FreeCAD {{VersionPlus/pl|0.20}} to zapewniają)*.
 -   Na złożeniach części, **które wzajemnie na siebie nachodzą**, nie są możliwe przecięcia. Zazwyczaj elementy wzajemnie na siebie nachodzące nie są cięte, podczas gdy pozostałe są cięte. Jednakże, czasami cięcie może dać dziwne rezultaty, co jest błędem w bibliotekach OpenCASCADE. Aby uzyskać widok przekroju również dla przecinających się obiektów, można użyć makrodefinicji [Przekrój](Macro_cross_section/pl.md).
 -   Szczególnie w przypadku korzystania ze środowiska pracy [A2plus](A2plus_Workbench/pl.md) niektóre złożenia mogą nachodzić na siebie zaledwie o mikron z powodu wewnętrznych błędów zaokrąglania. Aby to naprawić, dodaj mikron jako odstęp w ustawieniach wiązań.
 -   W wyniku cięcia mogą pojawić się artefakty kolorystyczne. Czy i w jaki sposób zależą one od biblioteki OpenCASCADE, a także od położenia widoku. W wielu przypadkach artefakty kolorystyczne znikają po lekkim obróceniu widoku 3D.

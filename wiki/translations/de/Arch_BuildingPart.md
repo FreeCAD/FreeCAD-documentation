@@ -1,11 +1,11 @@
 ---
 - GuiCommand   */de
    Name   *Arch BuildingPart
-   Name/de   *Architektur GebäudeTeil
+   Name/de   *Arch Gebäudeteil
    MenuLocation   *Arch → Gebäudeteil
-   Workbenches   *[Arch](Arch_Workbench.md)
+   Workbenches   *[Arch](Arch_Workbench/de.md)
    Version   *0.18
-   SeeAlso   *[Arch Gebäude](Arch_Building/de.md), [Arch Baugrund](Arch_Site/de.md)
+   SeeAlso   *[Arch Gebäude](Arch_Building/de.md), [Arch Grundstück](Arch_Site/de.md)
 ---
 
 # Arch BuildingPart/de
@@ -58,11 +58,11 @@ Erneutes Doppelklicken auf das GebäudeTeil deaktiviert es und setzt die Arbeits
 
 ## Eigenschaften
 
-See also   * [Property editor](Property_editor.md).
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
 An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) object and inherits all its properties. It also has the following additional properties   *
 
-### Data
+### Daten
 
 
 {{TitleProperty|Base}}
@@ -131,7 +131,7 @@ An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) obje
 -    **User Defined Partitioning Type|String**
     
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Auto Group}}
@@ -206,20 +206,12 @@ An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) obje
 
 -    **View Data|FloatList|Hidden**   * Camera position data associated with this object.
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
 
 **Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -256,15 +248,6 @@ Building = Arch.makeBuilding([Floor])
 Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *FEM ElementGeometry1D
-   Name/fr   *FEM Élément de géométries 1D
+   Name/fr   *FEM Coupe transversale élément type poutre
    MenuLocation   *Modèle → Géométrie de l'élement → Coupe tranversale de poutre
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Shortcut   ***C** **B**
@@ -12,7 +12,7 @@
 
 ## Description
 
-Elément de géométries 1D est utilisé pour définir les coupes transversales des éléments de poutre. Pour l\'instant, les types de sections transversales suivants sont disponibles    * rectangulaire, circulaire et tube.
+**Coupe transversale élément type poutre** est utilisé pour définir les sections transversales d\'éléments de type poutre. Pour l\'instant, les types de sections transversales suivantes disponibles sections    * rectangulaire, circulaire et tube.
 
 ## Utilisation
 

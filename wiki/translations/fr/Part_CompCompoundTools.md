@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *Part CompCompoundTools
-   Name/fr   *Part Outils composés
-   MenuLocation   *Part → Outils composés
+   Name/fr   *Part Composés
+   MenuLocation   *Part → Composés
    Workbenches   *[Part](Part_Workbench/fr.md)
 ---
 

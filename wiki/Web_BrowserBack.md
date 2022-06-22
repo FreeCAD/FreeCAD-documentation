@@ -1,21 +1,20 @@
 ---
 - GuiCommand   *
-   Icon   *Web_web-previous.svg
    Name   *Web BrowserBack
-   MenuLocation   *only available via toolbar
-   Workbenches   *[Web](Web_Workbench.md)
-   SeeAlso   *[Open Website](Web_OpenWebsite.md)
+   MenuLocation   *
+   Workbenches   *[Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso   *
 ---
 
 # Web BrowserBack
 
 ## Description
 
-Use the <img alt="" src=images/Web_web-previous.svg  style="width   *24px;"> **Web BrowserBack** command to browse the list of visited web pages in backward direction.
+Use the <img alt="" src=images/Web_BrowserBack.svg  style="width   *24px;"> **Web BrowserBack** command to go to the previous page in the list of visited web pages.
 
 ## Usage
 
-1.  Press the **<img src="images/Web_web-previous.svg" width=16px> Previous page** button.
+1.  Press the **<img src="images/Web_BrowserBack.svg" width=16px> [Previous page](Web_BrowserBack.md)** button.
 
 
 

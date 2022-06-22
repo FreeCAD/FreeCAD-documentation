@@ -5,7 +5,7 @@
 
 ## Introduzione
 
-La <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Ambiente PartDesign](PartDesign_Workbench/it.md) fornisce strumenti avanzati per la modellazione di parti solide complesse. È principalmente focalizzato sulla creazione di parti meccaniche che possono essere fabbricate e assemblate in un prodotto finito. Tuttavia, i solidi creati possono essere utilizzati in generale per qualsiasi altro scopo come [progettazione architettonica](Arch_Workbench/it.md), [analisi degli elementi finiti](FEM_Workbench/it.md), o [lavorazione e stampa 3D](Path_Workbench/it.md).
+L\' <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Ambiente PartDesign](PartDesign_Workbench/it.md) fornisce strumenti avanzati per la modellazione di parti solide complesse. È principalmente focalizzato sulla creazione di parti meccaniche che possono essere fabbricate e assemblate in un prodotto finito. Tuttavia, i solidi creati possono essere utilizzati in generale per qualsiasi altro scopo come [progettazione architettonica](Arch_Workbench/it.md), [analisi degli elementi finiti](FEM_Workbench/it.md), o [lavorazione e stampa 3D](Path_Workbench/it.md).
 
 L\'ambiente PartDesign è intrinsecamente correlato all\'ambiente [Sketcher](Sketcher_Workbench/it.md). L\'utente normalmente crea uno schizzo, quindi usa lo strumento [Estrusione PartDesign](PartDesign_Pad/it.md) per estruderlo e creare un solido di base che in seguito può essere ulteriormente modificato.
 
@@ -37,13 +37,7 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/Sketcher_EditSketch.png  style="width   *32px;"> [Edita schizzo](Sketcher_EditSketch/it.md)   * modifica lo schizzo selezionato.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_MapSketch.svg‎  style="width   *32px;"> [Mappa schizzo su faccia](Sketcher_MapSketch/it.md)   * mappa uno schizzo su un piano precedentemente selezionato o su una faccia del corpo attivo.
-
-
-</div>
 
 ### Strumenti di modellazione di Part Design 
 
@@ -151,13 +145,7 @@ Questi sono gli strumenti per trasformare le funzioni esistenti. Permetteranno d
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Specchiato](PartDesign_Mirrored/it.md)   * rispecchia una o più funzioni su un piano o una faccia.
-
-
-</div>
+-   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Specchiato](PartDesign_Mirrored/it.md)   * rispecchia una o più caratteristiche.
 
 
 <div class="mw-translate-fuzzy">

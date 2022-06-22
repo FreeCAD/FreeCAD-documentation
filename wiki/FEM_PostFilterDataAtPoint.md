@@ -3,7 +3,7 @@
    Name   *FEM PostFilterDataAtPoint
    MenuLocation   *Results → Data at point clip filter
    Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterDataAtPoint
@@ -18,12 +18,11 @@ Displays the value of a selected field at a picked point.
 2.  Invoke the command either by   *
     -   Pressing the button **<img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> '''Data at point clip filter'''**.
     -   Using the menu **Results → <img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> Data at point clip filter**.
-3.  Click the **Select Point** button.
-4.  Pick the desired point on the surface of the mesh.
-5.  Select a **Field** from the expandable list.
-6.  The value of that field at the selected location will be displayed in a pop-up window.
+3.  Now
+    -   Either click the **Select Point** button and subsequently pick the desired point in the mesh.
+    -   Change the point coordinate.
 
-The value of the data point is anytime accessible via the [property](Property_editor.md) **Point Data**.
+The value at this point for the given **Field** is output to the dialog. The value of the data point is also anytime accessible via the [property](Property_editor.md) **Point Data**.
 
 
 

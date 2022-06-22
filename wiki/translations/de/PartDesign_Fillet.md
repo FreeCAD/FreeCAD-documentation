@@ -123,13 +123,7 @@ Kantennummern sind nicht vollständig stabil, daher ist es ratsam, dass die Haup
 Mehr kann man unter [Problem der topologischen Benennung](Topological_naming_problem/de.md) nachlesen.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign Tools navi

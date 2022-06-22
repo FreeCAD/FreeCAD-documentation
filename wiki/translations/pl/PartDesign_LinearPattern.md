@@ -2,83 +2,104 @@
 - GuiCommand   */pl
    Name   *PartDesign LinearPattern
    Name/pl   *Projekt Części   * Szyk liniowy
-   MenuLocation   *Projekt Części → Zastosuj wzór → Szyk liniowy
+   MenuLocation   *Projekt Części → Zastosuj szyk → Szyk liniowy
    Workbenches   *[Projekt Części](PartDesign_Workbench/pl.md)
-   Version   *
-   SeeAlso   *
+   SeeAlso   *[Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
 ---
 
 # PartDesign LinearPattern/pl
 
 ## Opis
 
-Narzędzie **Szyk liniowy** tworzy równomiernie rozmieszczone kopie elementu wzdłuż linii lub prostej krawędzi.
+Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *24px;"> **Szyk liniowy** tworzy liniowy wzór jednej lub kilku cech.
 
-![](images/PartDesign_LinearPattern_example.svg )
-
-\'\'Powyżej   * wyciągnięcie w kształcie litery L *(B)* wykonane na bazie bryły *(A, zwanej również podstawą)* jest używane do tworzenia liniowego wzoru. Wynik *(C)* jest pokazany po prawej stronie\'\'.
+![](images/PartDesign_LinearPattern_example.svg ) 
+*Powyżej   * wyciągnięcie w kształcie litery L ''(B)'' wykonane na bazie bryły ''(A, zwanej również podstawą)'' jest używane do tworzenia liniowego wzoru. Wynik ''(C)'' jest pokazany po prawej stronie*.
 
 ## Użycie
 
-Aby utworzyć wzorzec   *
+### Create
 
-1.  Wybierz element *({{Version/pl|0.19}} lub kilka elementów)*, które mają być układane we wzór.
-2.  Naciśnij przycisk **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px"> '''Szyk liniowy'''**.
-3.  Zdefiniuj **Kierunek**. Patrz [Opcje](#Opcje.md).
-4.  Zdefiniuj **Długość** *(odległość)* między ostatnim skopiowanym wystąpieniem a oryginalnym elementem.
-5.  Ustaw liczbę **Wystąpień**.
-6.  Jeśli masz kilka elementów we wzorcu, ich kolejność może być ważna, zobacz obrazek z funkcją [Szyk kołowy](PartDesign_PolarPattern/pl#Użycie.md). {{Version/pl|0.19}} Możesz zmienić kolejność, przeciągając element na liście, a wynik pojawi się natychmiast jako podgląd.
-7.  Naciśnij **OK**.
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_LinearPattern.svg" width=16px> [LinearPattern](PartDesign_LinearPattern.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_LinearPattern.svg" width=16px> LinearPattern** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
 
-Aby dodać lub usunąć elementy z istniejącego wzorca   *
+### Edit
 
-1.  Naciśnij przycisk **Dodaj element**, aby dodać element, który ma być wzorcem. Element musi być widoczny w oknie [widoku 3D](3D_view.md)   *
-    1.  Przejdź do widoku drzewa modelu,
-    2.  Wybierz w drzewie element, który ma zostać dodany i naciśnij klawisz **Spacja**, aby wybrany element był widoczny w oknie [widoku 3D](3D_view.md),
-    3.  Przejdź z powrotem do panelu zadań,
-    4.  Wybierz element w oknie [widoku 3D](3D_view.md), zostanie on dodany do listy,
-    5.  Powtórz czynność, aby dodać inne elementy.
-2.  Naciśnij przycisk **Usuń element**, aby usunąć element z listy, lub kliknij prawym przyciskiem myszy na elemencie z listy i wybierz **Usuń**.
+1.  Do one of the following   *
+    -   Double-click the LinearPattern object in the [Tree view](Tree_view.md).
+    -   Right-click the LinearPattern object in the [Tree view](Tree_view.md) and select **Edit LinearPattern** from the context menu.
+2.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
 
 ## Opcje
 
-![Parametry Szyku liniowego](images/Linearpattern_parameters_v017.png )
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Specify the **Direction** of the pattern   *
+    -   
+        **Normal sketch axis**
+        
+           * The Z axis of the sketch (only available for sketch-based features).
 
-### Kierunek
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (idem).
 
-Podczas tworzenia cech szyku liniowego, dialog \"Szyk liniowy parametry\" oferuje różne sposoby określania kierunku dla szyku.
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
 
-#### Pozioma oś szkicu 
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
 
-Używa poziomej osi szkicu jako kierunku dla wzorca.
+    -   
+        **Base X axis**
+        
+           * The X axis of the Body.
 
-#### Pionowa oś szkicu 
+    -   
+        **Base Y axis**
+        
+           * The Y axis of the Body.
 
-Używa pionowej osi szkicu jako kierunku dla wzorca.
+    -   
+        **Base Z axis**
+        
+           * The Z axis of the Body.
 
-#### Oś normalna szkicu 
-
-Używa normalnej osi szkicu jako kierunku.
-
-#### Wybierz odniesienie\... 
-
-Umożliwia wybranie linii odniesienia, krawędzi prostej z obiektu lub linii ze szkicu, która ma być użyta jako kierunek.
-
-#### Niestandardowa oś szkicu 
-
-Jeżeli szkic definiujący element, który ma być użyty jako wzór, zawiera również linię *(lub linie)* konstrukcyjną, to lista rozwijana będzie zawierać jedną niestandardową oś szkicu dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna będzie oznaczona etykietą *Oś szkicu 0*.
-
-#### Oś bazowa *(X / Y / Z)* 
-
-Wybierz jedną ze standardowych osi odniesienia bryły *(X, Y lub Z)* jako kierunek dla wzorca.
+    -   
+        **Select reference...**
+        
+           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+-   Check the **Reverse direction** checkbox to reverse the pattern.
+-   Specify the **Length** to be covered by the pattern.
+-   Specify the number of **Occurrences** (including the original feature).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Ograniczenia
 
--   Kształty wzorców nie mogą na siebie zachodzić, z wyjątkiem szczególnego przypadku tylko dwóch wystąpień *(oryginał plus jedna kopia)*.
--   Wszystkie kształty wzorców, które nie nakładają się na podstawę oryginału, będą wykluczone. Zapewnia to, że element środowiska Projekt części zawsze składa się z pojedynczej, połączonej bryły.
--   Wzorce środowiska Projekt części nie są jeszcze tak zoptymalizowane jak ich odpowiedniki w środowisku Rysunek roboczy. Więc dla większej liczby instancji powinieneś rozważyć użycie funkcji [Rysunek roboczy   * szyk](Draft_OrthoArray/pl.md) zamiast tego, w połączeniu z operacją logiczna środowiska Część. Może to obejmować duże zmiany w modelu, gdy wychodzisz ze środowisko Projekt części, co oznacza, że nie możesz po prostu kontynuować dalszych funkcji Projektu części w tej samej zawartości. Przykład jest pokazany w tym wątku [na forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).
--   \* Funkcja ta nie może być zastosowany bezpośrednio do innego wzorca, czy to biegunowego, liniowego czy lustrzanego. Do tego potrzebujesz [transformacji wielokrotnej](PartDesign_MultiTransform/pl.md).
--   W celu poznania dalszych ograniczeń, patrz funkcja   * [odbicia lustrzanego](PartDesign_Mirrored/pl.md).
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

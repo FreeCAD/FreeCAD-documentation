@@ -1,21 +1,20 @@
 ---
 - GuiCommand   *
-   Icon   *Web_web-next.svg
    Name   *Web BrowserNext
-   MenuLocation   *only available via toolbar
-   Workbenches   *[Web](Web_Workbench.md)
-   SeeAlso   *[Open Website](Web_OpenWebsite.md)
+   MenuLocation   *
+   Workbenches   *[Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso   *
 ---
 
 # Web BrowserNext
 
 ## Description
 
-Use the <img alt="" src=images/Web_web-next.svg  style="width   *24px;"> **Web BrowserNext** command to browse the list of visited web pages in forward direction.
+Use the <img alt="" src=images/Web_BrowserNext.svg  style="width   *24px;"> **Web BrowserNext** command to go to the next page in the list of visited web pages.
 
 ## Usage
 
-1.  Press the **<img src="images/Web_web-next.svg" width=16px> Next page** button.
+1.  Press the **<img src="images/Web_BrowserNext.svg" width=16px> [Next page](Web_BrowserNext.md)** button.
 
 
 

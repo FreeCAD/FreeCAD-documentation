@@ -23,118 +23,104 @@ La herramienta **[<img src=images/PartDesign_LinearPattern.svg style="width   *2
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
+
+<div class="mw-translate-fuzzy">
+
 \'\'Arriba   * Una forma extruida con forma de L (B) construida encima de una base extruida (A, también referida como *soporte*) es usada para crear un patrón lineal. El resultado (C) se muestra a la derecha.\'\'
+
+
+</div>
 
 ## Uso
 
+### Create
+
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_LinearPattern.svg" width=16px> [LinearPattern](PartDesign_LinearPattern.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_LinearPattern.svg" width=16px> LinearPattern** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
+
+### Edit
+
+1.  Do one of the following   *
+    -   Double-click the LinearPattern object in the [Tree view](Tree_view.md).
+    -   Right-click the LinearPattern object in the [Tree view](Tree_view.md) and select **Edit LinearPattern** from the context menu.
+2.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
 
 <div class="mw-translate-fuzzy">
-
-Para crear un patrón de repetición   *
-
-1.  Seleccionar la operación (u operaciones {{Version/es|0.19}}) que se han de repetir.
-2.  Presionar el botón **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px"> '''PatrónLineal'''** .
-3.  Definir la **Dirección**. Ver [Opciones](#Options/es.md).
-4.  Definir la **Longitud** (distancia) entre la que será la última copia y la figura original.
-5.  Introducir el número de **Apariciones** o copias deseadas.
-6.  Si hay varias operaciones en el patrón, su orden puede ser importante, ver por ejemplo la imagen de [PolarPattern feature](PartDesign_PolarPattern#Usage.md). {{Version/es|0.19}} Se puede cambiar el orden arrastrando la forma deseada en la lista e inmediatamente se puede apreciar el resultado como vista previa.
-7.  Aceptar con **OK**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Para añadir o borrar operaciones de un patrón existente   *
-
-1.  Pulsar el botón **Añadir una operación** para añadir una operación a repetir, la cual debe ser visible en la [vista 3D](3D_view/es.md).
-    1.  Ir al árbol de dependencias de la pestaña Modelo.
-    2.  Seleccionar en el árbol la operación que se tiene que añadir y presionar la **barra espaciadora** para hacerla visible en la [vista 3D](3D_view/es.md).
-    3.  Volver al panel de tareas.
-    4.  Seleccionar la operación en la vista 3D; será añadida a la lista.
-    5.  Repetir para añadir más operaciones.
-2.  Pulsar el botón **Eliminar operación** para quitar una operación de la lista, o pinchar con botón derecho del ratón sobre la operación en la lista y seleccionar *Eliminar*.
-
-
-</div>
 
 ## Opciones
 
 
-<div class="mw-translate-fuzzy">
-
-![Parámetros de PatrónLineal en la versión v0.16 y anteriores.](images/Linearpattern_parameters.png ) ![Parámetros de PatrónLineal en la versión v0.17 y posteriores.](images/Linearpattern_parameters_v017.png )
-
-
 </div>
 
-### Dirección
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Specify the **Direction** of the pattern   *
+    -   
+        **Normal sketch axis**
+        
+           * The Z axis of the sketch (only available for sketch-based features).
 
-Mientras se crea una operación de repetición lineal, la ventana de diálogo de parámetros de repetición **Parámetros del PatrónLineal** ofrece diferentes maneras de especificar la dirección del patrón.
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (idem).
 
-#### Eje horizontal del croquis 
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
 
-Usa el eje horizontal del boceto como dirección.
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
 
-#### Eje vertical del croquis 
+    -   
+        **Base X axis**
+        
+           * The X axis of the Body.
 
-Usa el eje vertical del boceto como dirección.
+    -   
+        **Base Y axis**
+        
+           * The Y axis of the Body.
 
-#### Eje normal del croquis 
+    -   
+        **Base Z axis**
+        
+           * The Z axis of the Body.
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{VersionPlus/es|0.17}}
-
-Usa el eje normal del croquis como dirección.
-
-
-</div>
-
-#### Seleccione referencia\... 
-
-
-<div class="mw-translate-fuzzy">
-
-Permite al usuario seleccionar una Línea de referencia o una arista de un objeto, o una línea de un boceto para usarla como dirección.
-
-
-</div>
-
-#### Eje del croquis personalizado 
-
-Si el boceto que define la operación a copiar contiene también una línea o líneas de construcción, la lista desplegable contendrá un eje de boceto personalizado por cada línea de construcción. La primera línea de construcción se llamará \'Línea de construcción 1\'.
-
-#### Eje base (X/Y/Z) 
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{VersionPlus/es|0.17}}
-
-Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) como dirección.
-
-
-</div>
+    -   
+        **Select reference...**
+        
+           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+-   Check the **Reverse direction** checkbox to reverse the pattern.
+-   Specify the **Length** to be covered by the pattern.
+-   Specify the number of **Occurrences** (including the original feature).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Limitations
 
-
-<div class="mw-translate-fuzzy">
-
-## Limitaciones
-
--   Las formas del Patrón no deben superponerse unas con tras, excepto en el caso especial de que haya sólo dos repeticiones (el original más una copia)
--   Cualquier repetición que no se apoye sobre el soporte original será excluida. Con esto se asegura que una operación de PartDesign siempre sea de un único y conectado sólido.
--   Los patrones de repetición de PartDesign patterns ano están aún tan optimizados como sus equivalentes de Draft, por lo que para un número mayor de casos, debería considerar usar mejor la herramienta [Draft array](Draft_Array/es.md) , combinada con una operación booleana de Part. Esto puede incluir mayores cambios saliendo de PartDesign, lo que significa que no se tendría que simplemente continuar con operaciones posteriores en PartDesign en el mismo Body. Un ejemplo es mostrado en [Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192)
--   Para más limitaciones, [PartDesign Simetría](PartDesign_Mirrored/es.md)
-
-
-</div>
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

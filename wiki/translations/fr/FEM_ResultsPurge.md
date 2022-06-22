@@ -12,9 +12,9 @@
 
 ## Description
 
-Supprime tous les objets résultats du conteneur d\'analyse actif dans la [Vue en arborescence](Tree_view/fr.md).
+FEM Purger les résultats supprime tous les [objets de résultat](FEM_ResultShow/fr.md) et tous les maillages de résultat du conteneur d\'analyse actif de la [Vue en arborescence](Tree_view/fr.md).
 
-A faire    * Ajouter une capture d\'écran avant et après
+Si vous voulez seulement supprimer un objet résultat et garder le maillage résultat, créez une copie du maillage résultat, puis sélectionnez l\'objet résultat dans la [Vue en arborescence](Tree_view/fr.md) et supprimez-le en appuyant sur **Suppr**. De cette façon, la copie créée du maillage sera conservée. (L\'utilisation de FEM Purger les résultats supprimerait également la copie).
 
 ## Utilisation
 

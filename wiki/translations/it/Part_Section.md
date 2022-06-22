@@ -7,17 +7,19 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea una sezione attraverso l\'intersezione di due oggetti selezionati, l\'ultimo oggetto viene utilizzato come piano di sezione. Questa operazione è completamente parametrica   * si possono modificare i componenti e il risultato viene ricalcolato.
 
-In questo esempio un cubo viene sezionato con un cilindro   *
 
-+++
-| ![](images/PartSection1_it.png ) | -   **Base**   * oggetto base, il Box                 |
-|                                                | -   **Tool**   * lo strumento di sezione, il Cilindro |
-+++
+</div>
 
+-   An intersection of two solids/faces results in one or more section lines.
+-   An intersection of two lines, or a line and a solid/face, results in one or more points.
 
-
+![](images/PartSection1_it.png ) 
+*A cube sectioned with a cylinder*
 
 ## Utilizzo
 
@@ -30,6 +32,33 @@ In questo esempio un cubo viene sezionato con un cilindro   *
 
 
 </div>
+
+## Properties
+
+See also   * [Property editor](Property_editor.md).
+
+A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+
+### Data
+
+
+{{Properties_Title|Base}}
+
+-    **Base|Link**   * Link to the first object.
+
+-    **Tool|Link**   * Link to the second object.
+
+
+{{Properties_Title|Boolean}}
+
+-    **History|ShapeHistory|hidden**   * \"Shape history\".
+
+-    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+
+
+{{Properties_Title|Section}}
+
+-    **Approximation|Bool**   * Approximate the output edges.
 
 ## Link
 

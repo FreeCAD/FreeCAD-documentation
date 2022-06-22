@@ -6,37 +6,38 @@
 |Download=[https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/TimingGear.FCMacro download here]
 |Date=2019-12-29
 |Version=1.5.0
-|FCVersion= ?
+|FCVersion=0.18.5
 }}
 
 ## Description
 
-This macro creates GT2/GT3/GT5 timing gears to be used with [timing belts](https   *//en.wikipedia.org/wiki/Timing_belt_(camshaft)). It uses operations of the PartDesign workbench.
+This macro creates GT2/GT3/GT5 timing gears to be used with [timing belts](https   *//en.wikipedia.org/wiki/Timing_belt_(camshaft)). It uses operations of the [PartDesign Workbench](PartDesign_Workbench.md).
 
 The purpose of timing gears is to allow the camshaft and crankshaft to turn the timing chain. The crankshaft turns to move pistons up and down inside the cylinders. The camshaft turns to allow intake and exhaust valves on the cylinders to open and close. These components are important for proper engine timing.
 
 Timing gears are connected to a timing belt or timing chain.
 
- ![](images/TimingGear_usage.png )  
-*Above   * Example of usage of 2 timing pulleys created with the TimingGear macro. Both pulleys were modified to add more features. The GT2 pulleys drive the Z axis of a CNC.*
+ <img alt="" src=images/TimingGear_usage.png  style="width   *600px;">  
+*Above   * Example of usage of 2 timing pulleys created with the TimingGear macro. Both pulleys were modified to add more features. The GT2 pulleys drive the Z axis of a 3 axis CNC machine.*
 
 ## Usage
 
 +++
-|  ![](images/Macro_TimingGear_dialog.png )  | 1.  Start the macro in a FreeCAD document. Remember that at the moment of installing you can create a button in the Macros toolbar to start it. |
-|                                                                                                               | 2.  In the dialog that opens choose the parameters for the GTx timing gear   *                                                                     |
-|                                                                                                               |     -   Select the *type of gear*   * GT2/GT3/GT5.                                                                                                 |
-|                                                                                                               |     -   Specify the *number of tooth*.                                                                                                          |
-|                                                                                                               |     -   Specify the *gear height* in mm.                                                                                                        |
-|                                                                                                               |     -   Optionally you can *add a shaft*, if it\'s the case select between circle and hexagon options and insert the diameter.                  |
-|                                                                                                               |     -   Also optionally you can add a *base* disc and a *top* disc, if it\'s the case insert the height and the diameter.                       |
-|                                                                                                               | 3.  Click on the create button and wait for the body to be created.                                                                             |
-|                                                                                                               | 4.  Once the body is finished you can use the PartDesign workbench to add features to the gear.                                                 |
+|  ![](images/Macro_TimingGear_dialog.png )  | 1.  Start the macro in a FreeCAD document. Remember that at the moment of installation you can create a button in the Macros toolbar to start it.                                                                                                                        |
+|                                                                                                               | 2.  In the dialog window that opens choose the parameters for the GTx timing gear   *                                                                                                                                                                                       |
+|                                                                                                               |     -   Select the *type of gear*   * GT2/GT3/GT5, every GTx gear has a x mm pitch.                                                                                                                                                                                         |
+|                                                                                                               |     -   Specify the *tooth count*, it is the number of teeth for the gear it takes a value between 5 and 360.                                                                                                                                                            |
+|                                                                                                               |     -   Specify the *gear height*, the height of the gear in mm.                                                                                                                                                                                                         |
+|                                                                                                               |     -   Optionally you can *add a shaft*, this option creates a circular or hexagonal hole in the center of the gear used to insert a shaft, leadscrew or similar part, if it\'s your case select between circle/hexagon and specify the diameter of the bore in mm.     |
+|                                                                                                               |     -   Also optionally you can add a *base* disc and a *top* disc, with this option you can create a pair of discs at the inferior and superior faces of the gear, it\'s useful for creating pulleys, if it\'s your case insert the height and the diameter both in mm. |
+|                                                                                                               | 3.  Click on the create button and wait for the body to be created.                                                                                                                                                                                                      |
+|                                                                                                               | 4.  Once the body is finished you can use the [PartDesign Workbench](PartDesign_Workbench.md) to add features to the gear, for example an extra disc and/or a pair of holes to locate the set screws.                                                            |
 +++
 
 ## Notes
 
--   The pitch of the timing belts (distance from tooth centre to tooth centre of consecutive teeth) is specified in types. GT2 has a pitch of 2 mm, GT3 of 3 mm, GT5 of 5 mm etc..
+-   If you need to create a double head GTx pulley you can create 2 pulleys with the same parameters and then join them with a boolean operation.
+-   The pitch of the timing belts (distance from tooth center to tooth center of consecutive teeth) is specified in types. GT2 has a pitch of 2 mm, GT3 of 3 mm, GT5 of 5 mm etc..
 
 ## Useful formulas 
 
@@ -45,6 +46,11 @@ Timing gears are connected to a timing belt or timing chain.
 -    **belt length**= 2 \* **axle base** + **belt tooth pitch**    * 2 \* **(teeth 1 + 2)** + **belt tooth pitch²**    * 4 \* pi² \* **axle base** \* **(teeth 1 - 2)²**
 
 -    **axle base**= **belt length**    * 4 - **belt tooth pitch**    * 8 \* **(teeth 1+2)** + ¼ \* sqrt \[**belt length** - ½ \* **belt tooth pitch** \* **(teeth 1+2)²** - 2 \* **belt tooth pitch²** \* **(teeth 1+2)²**    * pi²\]
+
+## Links
+
+-   Forum thread   * [GT2, GT3 and GT5 Timing Gear Creator](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35899).
+-   You can also create timing gears with [FCGear\_TimingGear](FCGear_TimingGear.md).
 
 ## Script
 
@@ -100,9 +106,9 @@ __Version__ = '1.5.0'
 __Date__ = '2019-12-29'
 __License__ = 'LGPL-2.0-or-later'
 __Web__ = 'http   *//www.emilioaguirre.com'
-__Wiki__ = ''
+__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_TimingGear'
 __Icon__ = 'TimingGear.png'
-__Help__ = ''
+__Help__ = 'Click on the TimingGear button/macro, and enter the required data in the dialog window.'
 __Status__ = ''
 __Requires__ = 'FreeCAD ?.??'
 __Communication__ = 'info_at_emilioaguirre.com,https   *//github.com/FreeCAD/FreeCAD-macros/issues   *//forum.freecadweb.org/viewtopic.php?t=35899'

@@ -2,81 +2,102 @@
 - GuiCommand   */fr
    Name   *PartDesign_Mirrored
    Name/fr   *PartDesign Symétrie
-   MenuLocation   *Part Design → Appliquer un modèle → Symétrie
+   MenuLocation   *Part Design → Appliquer une transformation → Symétrie
    Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso   *[PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
 ---
 
 # PartDesign Mirrored/fr
 
 ## Description
 
-L\'outil **Symétrie** copie symétriquement des fonctions par rapport à un plan.
+L\'outil <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> **PartDesign Symétrie** reflète une ou plusieurs fonctions.
 
-![](images/PartDesign_Mirrored_example.svg )
-
-
-
-*Ci-dessus    * une fonction Pocket a été créée à partir d'un croquis contenant un cercle (A), la poche a ensuite été utilisée pour créer une fonction miroir. L'axe vertical d'esquisse (B) a été utilisé comme axe de symétrie. Le résultat (C) est affiché à droite.*
+![](images/PartDesign_Mirrored_example.svg ) 
+*Une fonction poche créée à partir d'une esquisse contenant un cercle (A) est utilisée pour créer une fonction symétrie. L'axe vertical de l'esquisse (B) est utilisé pour définir le plan symétrique. Le résultat (C) est illustré à droite.*
 
 ## Utilisation
 
-Pour créer une mise en miroir    *
+### Créer
 
-1.  Sélectionnez la ou les fonctionnalités à mettre en miroir.
-2.  Appuyez sur le bouton **[<img src=images/_PartDesign_Mirrored.svg style="width   *24px"> '''Symétrie'''**.
-3.  Si vous avez plusieurs fonctionnalités dans la mise en miroir, leur ordre peut être important, voir par exemple l\'image dans la [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Utilisation.md). {{Version/fr|0.19}}, vous pouvez changer l\'ordre en faisant glisser la fonction dans la liste et vous verrez le résultat immédiatement en aperçu.
-4.  Définissez le miroir **Plan**. Voir [Options](#Options.md).
-5.  Appuyez sur **OK**.
+1.  Vous pouvez [activé](PartDesign_Body#Active_status.md) le bon corps.
+2.  Sélectionnez au besoin une ou plusieurs fonctions dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+3.  Il existe plusieurs façons de lancer l\'outil    *
+    -   Appuyez sur le bouton **<img src="images/PartDesign_Mirrored.svg" width=16px> [Symétrie](PartDesign_Mirrored/fr.md)**.
+    -   Sélectionnez l\'option **Part Design → Appliquer une transformation → <img src="images/PartDesign_Mirrored.svg" width=16px> Symétrie** dans le menu.
+4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il y a un seul corps, il sera activé automatiquement.
+5.  Si aucune fonction n\'a été sélectionnée, le [Panneau des tâches](Task_panel/fr.md) **Ajouter une fonction** s\'ouvre    * sélectionnez-en une ou plusieurs (en maintenant la touche **Ctrl**) dans la liste et appuyez sur le bouton **OK**.
+6.  Le [Panneau des tâches](Task_panel/fr.md) **Paramètres de la symétrie** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+7.  Appuyez sur le bouton **OK** pour terminer.
 
-Pour ajouter ou supprimer des fonctionnalités d\'un modèle existant    *
+### Éditer
 
-1.  Appuyez sur **Ajouter une fonction** pour ajouter une fonction à modeler. La fonction doit être visible dans la [vue 3D](3D_view/fr.md)    *
-    1.  Basculez vers l\'arborescence du modèle ;
-    2.  Sélectionnez dans l\'arborescence la fonction à ajouter et appuyez sur **Barre d'espace** pour la rendre visible dans la [vue 3D](3D_view/fr.md) ;
-    3.  Revenez au panneau Tâches ;
-    4.  Sélectionnez la fonction dans la vue 3D ; il sera ajouté à la liste.
-    5.  Répétez pour ajouter d\'autres fonctionnalités.
-2.  Appuyez sur **Supprimer une fonction** pour supprimer une fonctionnalité de la liste, ou cliquez avec le bouton droit de la souris sur la fonctionnalité dans la liste et sélectionnez *Supprimer*.
+1.  Effectuez l\'une des opérations suivantes    *
+    -   Double-cliquez sur l\'objet Mirrored dans la [Vue en arborescence](Tree_view/fr.md).
+    -   Cliquez avec le bouton droit de la souris sur l\'objet Mirrored dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier la symétrie** dans le menu contextuel.
+2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres de la symétrie** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+3.  Appuyez sur le bouton **OK** pour terminer.
 
 ## Options
 
-![Paramètres de symétrie](images/Mirrored_parameters_v017.png )
+-   Pour ajouter des fonctions    *
+    1.  Appuyez sur le bouton **Ajouter une fonction**.
+    2.  Sélectionnez une fonction dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+    3.  Répétez l\'opération pour ajouter d\'autres fonctions.
+-   Pour supprimer des fonctions    *
+    1.  Appuyez sur le bouton **Supprimer une fonction**.
+    2.  Effectuez l\'une des opérations suivantes    *
+        -   Sélectionnez une fonction dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+        -   Sélectionnez une fonction dans la liste et appuyez sur la touche **Suppr**.
+        -   Cliquez avec le bouton droit de la souris sur une fonction de la liste et sélectionnez **Enlever** dans le menu contextuel.
+    3.  Répétez l\'opération pour supprimer d\'autres fonctions.
+-   S\'il y a plusieurs fonctions dans la transformation, leur ordre peut être important. Voir [Organiser les fonctions](#Organiser_les_fonctions.md).
+-   Spécifiez le **Plan** de la symétrie    *
+    -   
+        **Axe normal à l'esquisse**
+        
+           * L\'axe Z de l\'esquisse (disponible uniquement pour les fonctions basées sur l\'esquisse).
 
-### Plan
+    -   
+        **Axe d'esquisse vertical**
+        
+           * L\'axe Y de l\'esquisse (idem).
 
-Lors de la création d\'une fonction symétrique, la boîte de dialogue **Paramètres de symétrie** propose différentes manières de spécifier la ligne ou le plan symétrique.
+    -   
+        **Axe d'esquisse horizontal**
+        
+           * L\'axe X de l\'esquisse (idem).
 
-#### Axe d\'esquisse horizontal 
+    -   
+        **Ligne de construction #**
+        
+           * Une entrée séparée pour chaque ligne de construction dans l\'esquisse (idem).
 
-Utilise l\'axe horizontal de l\'esquisse comme axe de symétrie.
+    -   
+        **Axe X**
+        
+           * L\'axe X du corps.
 
-#### Axe d\'esquisse vertical 
+    -   
+        **Axe Y**
+        
+           * L\'axe Y du corps.
 
-Utilise l\'axe vertical de l\'esquisse comme axe de symétrie.
+    -   
+        **Axe Z**
+        
+           * L\'axe Z du corps.
 
-#### Sélectionnez une référence \... 
-
-Vous permet de sélectionner un plan (comme une face d\'un objet) pour l\'utiliser comme plan de symétrie.
-
-#### Axe personnalisé d\'esquisse 
-
-Si l\'esquisse qui définit la fonction à symétriser contient également une ou plusieurs ligne(s) de construction, alors la liste déroulante contiendra un axe d\'esquisse personnalisé pour chaque ligne de construction. La première ligne de la construction sera étiquetée *Sketch axis 0*. L\'image ci-dessous est un exemple avec l\'esquisse en mode d\'édition affichant une ligne de construction utilisée comme axe de symétrie.
-
-![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
-
-#### Plan (XY/XZ/YZ) 
-
-Sélectionnez l\'un des plans standards de l\'origine du Corps (XY, XZ ou YZ).
-
-### Aperçu
-
-Le résultat de la symétrie peut être prévisualisé en temps réel avant de cliquer sur **OK** en cochant *Réactualiser la vue*. 
+    -   
+        **Sélectionnez une référence...**
+        
+           * Sélectionnez une face planaire dans la [Vue 3D](3D_view/fr.md).
+-   Cochez la case **Inverser la direction** pour inverser la transformation.
+-   Si la case **Réactualiser la vue** est cochée, la vue sera mise à jour en temps réel.
 
 ## Limitations
 
--   La fonction Symétrie ne peut pas symétriser un solide entier. Pour cela, voir [Part Miroir](Part_Mirror/fr.md).
--   Une fonction Symétrie ne peut pas être appliquée directement à un autre motif, qu\'il soit polaire, linéaire ou un autre miroir. Pour cela, vous avez besoin d\'une [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md).
--   La fonction Symétrie doit être en intersection avec le solide (également appelé *support*) sur lequel elle est basée, sinon la commande échouera.
+Voir [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Limitations.md).
 
 
 

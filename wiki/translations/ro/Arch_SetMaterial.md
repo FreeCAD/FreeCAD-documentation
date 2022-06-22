@@ -54,7 +54,7 @@ Instrumentul Material permite să se adauge [materials](Material.md) la document
 
 -   **Choose preset**   * Selectați unul dintrre materialele predefinite, pentru a fi folosit ca atare, sau pentru a fi adaptat prin modificarea câmpurilor de mai jos
 -   **Name**   * Alegeți un nume pentru material
--   **Edit button**   * Acesta deschide materialul curent în FreeCAD\'s [Material editor](Material_editor.md), care permite să definiți mai mute proprietăți suplimentare și să adăugăți unele personale
+-   **Edit button**   * Acesta deschide materialul curent în FreeCAD\'s [Material editor](FEM_MaterialEditor.md), care permite să definiți mai mute proprietăți suplimentare și să adăugăți unele personale
 -   **Description**   * O descrie mai detaliată a meterialului
 -   **Color**   * A display color for the material, which will be applied to all objects that use that material
 -   **Code**   * Un nume și un număr de referință pentru specificația sistemului ca de ex [Masterformat](https   *//en.wikipedia.org/wiki/MasterFormat) or [Omniclass](http   *//www.omniclass.org/).

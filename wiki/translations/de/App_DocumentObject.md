@@ -7,13 +7,7 @@
 
 Ein [Anwendung DokumentObjekt](App_DocumentObject/de.md) Objekt oder formal ein `App   *   *DocumentObject` ist die Basisklasse aller im Dokument behandelten Objektklassen.
 
-
-<div class="mw-translate-fuzzy">
-
-Allgemein ausgedrückt ist ein \"Dokumentobjekt\" jedes \"Ding\", das in der [Baumansicht](tree_view/de.md) erscheinen kann und das beim Öffnen eines Dokuments gespeichert und wiederhergestellt wird.
-
-
-</div>
+Allgemein ausgedrückt ist ein \"DocumentObject\" jedes \"Ding\", das in der [Baumansicht](Tree_view/de.md) erscheinen kann und das gespeichert und beim Öffnen eines Dokuments wiederhergestellt wird.
 
 ![](images/App_DocumentObject_example.png )
 
@@ -24,24 +18,12 @@ Allgemein ausgedrückt ist ein \"Dokumentobjekt\" jedes \"Ding\", das in der [Ba
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `App   *   *DocumentObject* Klasse ist die Basisklasse von im Wesentlichen allen Objekten in der Software.`
-
-
-</div>
+*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-Das [Anwendung DokumentObjekt](App_DocumentObject/de.md) ist eine interne Klasse, kann also weder von der grafischen Oberfläche aus erstellt werden, noch ist sie für sich selbst gedacht. Sie definiert lediglich das grundlegende Verhalten und die Eigenschaften von Objekten in der Software.
-
-
-</div>
+Das [App DocumentObject](App_DocumentObject/de.md) ist eine interne Klasse, kann also weder von der grafischen Oberfläche aus erstellt werden, noch ist sie für sich selbst gedacht. Sie definiert lediglich das grundlegende Verhalten und die Eigenschaften von Objekten im Programm.
 
 
 <div class="mw-translate-fuzzy">

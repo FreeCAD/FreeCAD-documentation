@@ -24,90 +24,97 @@ La herramienta **Simetría** realiza una operación de simetría o espejo sobre 
 ![](images/PartDesign_Mirrored_example.svg )
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *Arriba   * Una operación de vaciado fue creada desde un boceto que contenía un círculo (A). Dicho vaciado fue usado posteriormente para crear una operación de Simetría. El eje vertical del boceto (B) se usó como eje de simetría. El resultado se muestra a la derecha. (C) *
 
+
+</div>
+
 ## Uso
 
+### Create
+
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features.
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_Mirrored.svg" width=16px> [Mirrored](PartDesign_Mirrored.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_Mirrored.svg" width=16px> Mirrored** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
+
+### Edit
+
+1.  Do one of the following   *
+    -   Double-click the Mirrored object in the [Tree view](Tree_view.md).
+    -   Right-click the Mirrored object in the [Tree view](Tree_view.md) and select **Edit Mirrored** from the context menu.
+2.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
 
 <div class="mw-translate-fuzzy">
-
-Para crear una simetría   *
-
-1.  Seleccionar la forma o formas que se desea hacer simétricas. {{Version/es|0.19}}
-2.  Pulsar el botón **[<img src=images/PartDesign_Mirrored.svg style="width   *24px"> '''Crear una operación simétrica'''** .
-3.  Si se va a realizar la operación con varias formas, el orden de las mismas puede ser importante, ver un ejemplo de imagen en [PartDesign PolarPattern](PartDesign_PolarPattern#Usage.md). {{Version/es|0.19}} Se puede cambiar el orden arrastrando la forma deseada en la lista e inmediatamente se puede apreciar el resultado como vista previa.
-4.  Definir el **Plano** de simetría. Ver [Opciones](#Options/es.md).
-5.  Presionar **OK** para confirmar.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Para añadir o borrar operaciones de una simetría existente   *
-
-1.  Pulsar el botón **Añadir una operación** para añadir una operación a la simetría, la cual debe ser visible en la [vista 3D](3D_view/es.md)   *
-    1.  Ir al árbol de dependencias de la pestaña Modelo;
-    2.  Seleccionar en el árbol la operación que se tiene que añadir y presionar la **barra espaciadora** para hacerla visible en la [vista 3D](3D_view/es.md);
-    3.  Volver al panel de tareas;
-    4.  Seleccionar la operación en la vista 3D; será añadida a la lista.
-    5.  Repetir si se desea añadir más operaciones.
-2.  Pulsar el botón **Eliminar operación** para quitar una operación de la lista, o pinchar con botón derecho del ratón sobre la operación en la lista y seleccionar *Eliminar*.
-
-
-</div>
 
 ## Opciones
 
 
-<div class="mw-translate-fuzzy">
-
-![Parámetros de Simetría en la versión v0.16 y anteriores.](images/mirrored_parameters.png ) ![Parámetros de Simetría en la versión v0.17 y posteriores.](images/Mirrored_parameters_v017.png )
-
-
 </div>
 
-### Plano
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Specify the mirror **Plane**   *
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (the plane passes through this reference and the Z axis of the sketch, only available for sketch-based features).
 
-Mientras se crea una operación de simetría, la ventana de diálogo de parámetros de simetría **Mirrored parameters** ofrece diferentes maneras de especificar un plano o línea de simetría.
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
 
-#### Eje horizontal del boceto 
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
 
-Usa el eje horizontal del boceto como eje de simetría.
+    -   
+        **Base XY plane**
+        
+           * The XY plane of the Body.
 
-#### Eje vertical del boceto 
+    -   
+        **Base YZ plane**
+        
+           * The YZ plane of the Body.
 
-Usa el eje vertical del boceto como eje de simetría.
+    -   
+        **Base XZ plane**
+        
+           * The XZ plane of the Body.
 
-#### Seleccione referencia\... 
-
-Permite al usuario seleccionar un plano (como puede ser una cara o un objeto) para usarlo como plano de simetría.
-
-#### Eje del boceto personalizado 
-
-Si el boceto que define la simetría a realizar contiene también una línea o líneas de construcción, la lista desplegable contendrá un eje de boceto personalizado por cada línea de construcción. La primera línea de construcción se llamará \'Línea de construcción 1\'. La imagen inferior es un ejemplo, con el boceto en modo edición, que muestra una línea de construcción contenida en el boceto y es usada como eje de Simetría.
-
-![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
-
-#### Base plano (XY/XZ/YZ) 
-
-Seleccionar uno de los planos estándar de Origen del Body (cuerpo) (XY, XZ or YZ).
-
-### Previsualización
-
-La simetría resultante puede ser vista de forma predeterminada en tiempo real antes de aceptar pulsando el botón **OK** habiendo marcado la casilla \"Actualizar vista\" . 
+    -   
+        **Select reference...**
+        
+           * Select a planar face in the [3D view](3D_view.md).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Limitaciones
 
-
-<div class="mw-translate-fuzzy">
-
--   No se puede realizar una operación de simetría con un sólido completo. Para ello, ver [Part Mirror](Part_Mirror/es.md) .
-
-
-</div>
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

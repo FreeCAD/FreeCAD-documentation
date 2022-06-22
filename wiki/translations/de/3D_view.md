@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Die [3D Ansicht](3D_view/de.md) von FreeCAD ist eine Instanz von Coin3D [Szenegraph](Scenegraph/de.md) die das wichtigste Fenster in der [Benutzeroberfläche](interface/de.md) bildet. Coin3D ist eine Bibliothek, die den OpenInventor 2.1 Szenenbeschreibungsstandard implementiert.
+Die [3D-Ansicht](3D_view/de.md) von FreeCAD ist eine Instanz eines Coin3D-[Szenengraph](Scenegraph/de.md), die das wichtigste Fenster in der [Benutzeroberfläche](interface/de.md) darstellt. Coin3D ist eine Bibliothek, die den OpenInventor 2.1 Szenenbeschreibungsstandard implementiert.
 
 Bestimmte Eigenschaften der Ansicht, wie Hintergrundfarbe, [Mausnavigation](Mouse_navigation/de.md) Stil und Zoomschritte, können in der Datei [Voreinstellungseditor](Preferences_Editor/de.md).
 

@@ -16,7 +16,13 @@
 
 The [Image Open](Image_Open.md) tool simply opens an image from your system in a new tab in the viewport.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Использование
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

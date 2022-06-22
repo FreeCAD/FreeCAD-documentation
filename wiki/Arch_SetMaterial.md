@@ -33,7 +33,7 @@ This tool allows to add [materials](Material.md) to the active document and attr
 
 -   **Choose preset**   * Choose one of the preset materials, to be used as is, or to be adapted by modifying the fields below
 -   **Name**   * Choose a name for the material
--   **Edit button**   * This opens the current material in FreeCAD\'s [Material editor](Material_editor.md), which allows you to edit many additional properties and add your own custom ones
+-   **Edit button**   * This opens the current material in FreeCAD\'s [Material editor](FEM_MaterialEditor.md), which allows you to edit many additional properties and add your own custom ones
 -   **Description**   * A more detailed description of the material
 -   **Color**   * A display color for the material, which will be applied to all objects that use that material
 -   **Section Color**   * A display color for the material, which will be applied on TechDraw pages, when an object with this material is cut, and the \"Display materials\" property of the containing section plane is set to True.

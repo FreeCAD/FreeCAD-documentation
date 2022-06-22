@@ -17,15 +17,11 @@ Extrage o secțiune din intersecția a două forme selectate, cea de-a doua serv
 
 </div>
 
-In this example, a cube is sectioned with a cylinder   *
+-   An intersection of two solids/faces results in one or more section lines.
+-   An intersection of two lines, or a line and a solid/face, results in one or more points.
 
-+++
-| ![](images/PartSection1_it.png ) | -   **Base**   * base object, the Box       |
-|                                                | -   **Tool**   * Section tool, the cylinder |
-+++
-
-
-
+![](images/PartSection1_it.png ) 
+*A cube sectioned with a cylinder*
 
 
 <div class="mw-translate-fuzzy">
@@ -44,6 +40,33 @@ In this example, a cube is sectioned with a cylinder   *
 
 
 </div>
+
+## Properties
+
+See also   * [Property editor](Property_editor.md).
+
+A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+
+### Data
+
+
+{{Properties_Title|Base}}
+
+-    **Base|Link**   * Link to the first object.
+
+-    **Tool|Link**   * Link to the second object.
+
+
+{{Properties_Title|Boolean}}
+
+-    **History|ShapeHistory|hidden**   * \"Shape history\".
+
+-    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+
+
+{{Properties_Title|Section}}
+
+-    **Approximation|Bool**   * Approximate the output edges.
 
 ## Legături
 

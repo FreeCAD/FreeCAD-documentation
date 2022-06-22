@@ -17,68 +17,68 @@ Cependant, dans le domaine de l\'ingénierie, les maillages présentent une gran
 
 Tous les outils de l\'atelier Mesh sont accessibles depuis le menu **Maillages**. Presque tous sont également disponibles dans l\'une des barres d\'outils Mesh.
 
--   <img alt="" src=images/Mesh_Import.svg  style="width   *32px;"> [Importer un maillage\...](Mesh_Import/fr.md)   * Importe un objet maillé depuis un fichier.
+-   <img alt="" src=images/Mesh_Import.svg  style="width   *32px;"> [Importer un maillage](Mesh_Import/fr.md)    * Importe un objet maillé depuis un fichier.
 
--   <img alt="" src=images/Mesh_Export.svg  style="width   *32px;"> [Exporter le maillage\...](Mesh_Export/fr.md)   * Exporte un objet maillé depuis un fichier.
+-   <img alt="" src=images/Mesh_Export.svg  style="width   *32px;"> [Exporter le maillage](Mesh_Export/fr.md)    * Exporte un objet maillé depuis un fichier.
 
--   <img alt="" src=images/Mesh_FromPartShape.svg  style="width   *32px;"> [Créer un maillage à partir d\'une forme\...](Mesh_FromPartShape/fr.md)   * Crée des objets maillés à partir de la forme d\'objets.
+-   <img alt="" src=images/Mesh_FromPartShape.svg  style="width   *32px;"> [Créer un maillage](Mesh_FromPartShape/fr.md)    * Crée des objets maillés à partir de la forme d\'objets.
 
--   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width   *32px;"> [Affinage\...](Mesh_RemeshGmsh/fr.md)   * Affine un objet maillé. {{Version/fr|0.19}}
+-   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width   *32px;"> [Affiner](Mesh_RemeshGmsh/fr.md)    * Affine un objet maillé. {{Version/fr|0.19}}
 
 -   Analyse
-    -   <img alt="" src=images/Mesh_Evaluation.svg  style="width   *32px;"> [Évaluer et réparer le maillage\...](Mesh_Evaluation/fr.md)   * Evalue et répare un objet maillé.
-    -   <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width   *32px;"> [Infos sur la face](Mesh_EvaluateFacet/fr.md)   * Affiche des informations sur les faces des objets maillés.
-    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width   *32px;"> [Info de courbures](Mesh_CurvatureInfo/fr.md)   * Affiche la courbure absolue des [objets de courbure](Mesh_VertexCurvature/fr.md) aux points sélectionnés.
-    -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width   *32px;"> [Vérification du maillage du solide](Mesh_EvaluateSolid/fr.md)   * Vérifie si un objet maillé est solide.
-    -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width   *32px;"> [Boîte englobante](Mesh_BoundingBox/fr.md)   * Affiche les coordonnées de la boîte englobante d\'un objet maillé.
+    -   <img alt="" src=images/Mesh_Evaluation.svg  style="width   *32px;"> [Evaluation](Mesh_Evaluation/fr.md)    * Evalue et répare un objet maillé.
+    -   <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width   *32px;"> [Infos sur la face](Mesh_EvaluateFacet/fr.md)    * Affiche des informations sur les faces des objets maillés.
+    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width   *32px;"> [Info de courbures](Mesh_CurvatureInfo/fr.md)    * Affiche la courbure absolue des [objets de courbure](Mesh_VertexCurvature/fr.md) aux points sélectionnés.
+    -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width   *32px;"> [Solidité du maillage](Mesh_EvaluateSolid/fr.md)    * Vérifie si un objet maillé est solide.
+    -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width   *32px;"> [Boîte englobante](Mesh_BoundingBox/fr.md)    * Affiche les coordonnées de la boîte englobante d\'un objet maillé.
 
--   <img alt="" src=images/Mesh_VertexCurvature.svg  style="width   *32px;"> [Tracé de courbure](Mesh_VertexCurvature/fr.md)   * Crée des objets maillés de courbure pour les objets maillés.
+-   <img alt="" src=images/Mesh_VertexCurvature.svg  style="width   *32px;"> [Tracé de courbure](Mesh_VertexCurvature/fr.md)    * Crée des objets maillés de courbure pour les objets maillés.
 
--   <img alt="" src=images/Mesh_HarmonizeNormals.svg  style="width   *32px;"> [Harmoniser les normales](Mesh_HarmonizeNormals/fr.md)   * harmonise les normales d\'objets maillés.
+-   <img alt="" src=images/Mesh_HarmonizeNormals.svg  style="width   *32px;"> [Harmoniser les normales](Mesh_HarmonizeNormals/fr.md)    * harmonise les normales d\'objets maillés.
 
--   <img alt="" src=images/Mesh_FlipNormals.svg  style="width   *32px;"> [Inverser les normales](Mesh_FlipNormals/fr.md)   * Inverse les normales d\'objets maillés.
+-   <img alt="" src=images/Mesh_FlipNormals.svg  style="width   *32px;"> [Inverser les normales](Mesh_FlipNormals/fr.md)    * Inverse les normales d\'objets maillés.
 
--   <img alt="" src=images/Mesh_FillupHoles.svg  style="width   *32px;"> [Remplir les trous\...](Mesh_FillupHoles/fr.md)   * Remplit les trous dans des objets maillés.
+-   <img alt="" src=images/Mesh_FillupHoles.svg  style="width   *32px;"> [Remplir les trous](Mesh_FillupHoles/fr.md)    * Remplit les trous dans des objets maillés.
 
--   <img alt="" src=images/Mesh_FillInteractiveHole.svg  style="width   *32px;"> [Boucher un trou](Mesh_FillInteractiveHole/fr.md)   * Remplit des trous sélectionnés d\'objets maillés.
+-   <img alt="" src=images/Mesh_FillInteractiveHole.svg  style="width   *32px;"> [Boucher un trou](Mesh_FillInteractiveHole/fr.md)    * Remplit des trous sélectionnés d\'objets maillés.
 
--   <img alt="" src=images/Mesh_AddFacet.svg  style="width   *32px;">[Ajouter un triangle](Mesh_AddFacet/fr.md)   * Ajoute des faces le long de la limite d\'un objet maillé ouvert.
+-   <img alt="" src=images/Mesh_AddFacet.svg  style="width   *32px;">[Ajouter un triangle](Mesh_AddFacet/fr.md)    * Ajoute des faces le long de la limite d\'un objet maillé ouvert.
 
--   <img alt="" src=images/Mesh_RemoveComponents.svg  style="width   *32px;"> [Supprimer des composants\...](Mesh_RemoveComponents/fr.md)   * Supprime des faces d\'objets maillés.
+-   <img alt="" src=images/Mesh_RemoveComponents.svg  style="width   *32px;"> [Supprimer des composants](Mesh_RemoveComponents/fr.md)    * Supprime des faces d\'objets maillés.
 
--   <img alt="" src=images/Mesh_RemoveCompByHand.svg  style="width   *32px;"> [Supprimer manuellement des composants\...](Mesh_RemoveCompByHand/fr.md)   * Supprime des composants d\'objets maillés.
+-   <img alt="" src=images/Mesh_RemoveCompByHand.svg  style="width   *32px;"> [Supprimer manuellement des composants](Mesh_RemoveCompByHand/fr.md)    * Supprime des composants d\'objets maillés.
 
--   <img alt="" src=images/Mesh_Segmentation.svg  style="width   *32px;"> [Diviser le maillage\...](Mesh_Segmentation/fr.md)   * Crée des segments maillés séparés pour des types de surface spécifiés d\'un objet maillé.
+-   <img alt="" src=images/Mesh_Segmentation.svg  style="width   *32px;"> [Division](Mesh_Segmentation/fr.md)    * Crée des segments maillés séparés pour des types de surface spécifiés d\'un objet maillé.
 
--   <img alt="" src=images/Mesh_SegmentationBestFit.svg  style="width   *32px;"> [Crée des segments de maillage à partir des surfaces les mieux ajustées\...](Mesh_SegmentationBestFit/fr.md)   * Crée des segments maillés séparés pour des types de surface spécifiés d\'un objet maillé.
+-   <img alt="" src=images/Mesh_SegmentationBestFit.svg  style="width   *32px;"> [Segmentation adaptée](Mesh_SegmentationBestFit/fr.md)    * Crée des segments maillés séparés pour des types de surface spécifiés d\'un objet maillé.
 
--   <img alt="" src=images/Mesh_Smoothing.svg  style="width   *32px;"> [Lisser\...](Mesh_Smoothing/fr.md)   * Lisse des objets maillés.
+-   <img alt="" src=images/Mesh_Smoothing.svg  style="width   *32px;"> [Lissage](Mesh_Smoothing/fr.md)    * Lisse des objets maillés.
 
--   <img alt="" src=images/Mesh_Decimating.svg  style="width   *32px;"> [Décimation\...](Mesh_Decimating/fr.md)   * Réduit le nombre de faces dans les objets maillés. {{Version/fr|0.19}}
+-   <img alt="" src=images/Mesh_Decimating.svg  style="width   *32px;"> [Décimation](Mesh_Decimating/fr.md)    * Réduit le nombre de faces dans les objets maillés. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Mesh_Scale.svg  style="width   *32px;"> [Echelle\...](Mesh_Scale/fr.md)   * Met à l\'échelle les objets maillés.
+-   <img alt="" src=images/Mesh_Scale.svg  style="width   *32px;"> [Echelle](Mesh_Scale/fr.md)    * Met à l\'échelle les objets maillés.
 
--   <img alt="" src=images/Mesh_BuildRegularSolid.svg  style="width   *32px;"> [Solide régulier\...](Mesh_BuildRegularSolid/fr.md)   * Crée un objet maillé solide paramétrique régulier.
+-   <img alt="" src=images/Mesh_BuildRegularSolid.svg  style="width   *32px;"> [Solide régulier](Mesh_BuildRegularSolid/fr.md)    * Crée un objet maillé solide paramétrique régulier.
 
 -   Opérations Booléennes
-    -   <img alt="" src=images/Mesh_Union.svg  style="width   *32px;"> [Union](Mesh_Union/fr.md)   * Crée un objet maillé qui est l\'union de deux objets maillés.
-    -   <img alt="" src=images/Mesh_Intersection.svg  style="width   *32px;"> [Intersection](Mesh_Intersection/fr.md)   * Crée un objet maillé qui est l\'intersection de deux objets maillés.
-    -   <img alt="" src=images/Mesh_Difference.svg  style="width   *32px;"> [Différence](Mesh_Difference/fr.md)   * Crée un objet maillé qui est la différence de deux objets maillés.
+    -   <img alt="" src=images/Mesh_Union.svg  style="width   *32px;"> [Union](Mesh_Union/fr.md)    * Crée un objet maillé qui est l\'union de deux objets maillés.
+    -   <img alt="" src=images/Mesh_Intersection.svg  style="width   *32px;"> [Intersection](Mesh_Intersection/fr.md)    * Crée un objet maillé qui est l\'intersection de deux objets maillés.
+    -   <img alt="" src=images/Mesh_Difference.svg  style="width   *32px;"> [Différence](Mesh_Difference/fr.md)    * Crée un objet maillé qui est la différence de deux objets maillés.
 
 -   Coupe
-    -   <img alt="" src=images/Mesh_PolyCut.svg  style="width   *32px;"> [Couper le maillage](Mesh_PolyCut/fr.md)   * Coupe des faces entières à partir des objets maillés.
-    -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width   *32px;"> [Découper](Mesh_PolyTrim/fr.md)   * Ajuste les faces et les parties de faces des objets maillés.
-    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width   *32px;"> [Ajuster par plan](Mesh_TrimByPlane/fr.md)   * Ajuste les faces et les parties de faces d\'un côté d\'un plan à partir d\'un objet maillé.
-    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width   *32px;"> [Section](Mesh_SectionByPlane/fr.md)   * Crée une coupe transversale à travers un objet maillé.
-    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width   *32px;"> [Coupes\...](Mesh_CrossSections/fr.md)   * Crée plusieurs sections transversales à travers les objets maillés. {{Version/fr|0.19}}
+    -   <img alt="" src=images/Mesh_PolyCut.svg  style="width   *32px;"> [Couper le maillage](Mesh_PolyCut/fr.md)    * Coupe des faces entières à partir des objets maillés.
+    -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width   *32px;"> [Découper](Mesh_PolyTrim/fr.md)    * Ajuste les faces et les parties de faces des objets maillés.
+    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width   *32px;"> [Ajuster par plan](Mesh_TrimByPlane/fr.md)    * Ajuste les faces et les parties de faces d\'un côté d\'un plan à partir d\'un objet maillé.
+    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width   *32px;"> [Section](Mesh_SectionByPlane/fr.md)    * Crée une coupe transversale à travers un objet maillé.
+    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width   *32px;"> [Coupes](Mesh_CrossSections/fr.md)    * Crée plusieurs sections transversales à travers les objets maillés. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Mesh_Merge.svg  style="width   *32px;"> [Fusionner](Mesh_Merge/fr.md)   * Crée un objet maillé en combinant les mailles d\'au moins deux objets maillés.
+-   <img alt="" src=images/Mesh_Merge.svg  style="width   *32px;"> [Fusionner](Mesh_Merge/fr.md)    * Crée un objet maillé en combinant les mailles d\'au moins deux objets maillés.
 
--   <img alt="" src=images/Mesh_SplitComponents.svg  style="width   *32px;"> [Éclater par composants](Mesh_SplitComponents/fr.md)   * Divise un objet maillé en ses composants. {{Version/fr|0.19}}
+-   <img alt="" src=images/Mesh_SplitComponents.svg  style="width   *32px;"> [Éclater par composants](Mesh_SplitComponents/fr.md)    * Divise un objet maillé en ses composants. {{Version/fr|0.19}}
 
--   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width   *32px;"> [Développer un maillage](MeshPart_CreateFlatMesh/fr.md)   * Crée une représentation à plat d\'un objet maillé. {{Version/fr|0.19}}
+-   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width   *32px;"> [Développer un maillage](MeshPart_CreateFlatMesh/fr.md)    * Crée une représentation à plat d\'un objet maillé. {{Version/fr|0.19}}
 
--   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width   *32px;"> [Développer une face](MeshPart_CreateFlatFace/fr.md)   * Crée une représentation à plat d\'une face d\'un objet. {{Version/fr|0.19}}
+-   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width   *32px;"> [Développer une face](MeshPart_CreateFlatFace/fr.md)    * Crée une représentation à plat d\'une face d\'un objet. {{Version/fr|0.19}}
 
 ## Préférences
 

@@ -15,182 +15,108 @@
 
 </div>
 
-\'Make a pattern from combinations of transformations\' - The **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** tool takes one (or a set of) part \'features\' as its input, and allows the user to apply multiple transformations to that feature (or set of features) progressively, in sequence - creating a combined or compound transformation.
+The <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *24px;"> **PartDesign MultiTransform** tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
 
-For example, to produce the flange with a double row of holes as pictured below, the user   *
-
-1.  selected the hole as the \'feature\' (base) in the Model tree
-2.  clicked on the **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** icon
-3.  added a linear pattern with two occurrences in the X direction
-4.  added a polar pattern with eight occurrences around the Y axis.
+The available transformations are   * <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *16px;"> [Mirrored](PartDesign_Mirrored.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *16px;"> [LinearPattern](PartDesign_LinearPattern.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *16px;"> [PolarPattern](PartDesign_PolarPattern.md) and <img alt="" src=images/PartDesign_Scaled.svg  style="width   *16px;"> [Scaled](PartDesign_Scaled.md). The first three are also available as separate tools.
 
 <img alt="" src=images/multitransform_example.png  style="width   *600px;"> 
-*Flange with double row of holes. Hole pattern created with 'MultiTransform' tool.*
+*A pattern of holes created from a single Hole feature by applying a LinearPattern with 2 occurences, followed by a PolarPattern with 8 occurrences.*
 
 ## Usage
 
-Before beginning any of the methods below, make sure the necessary **![](images/)_[Body](PartDesign_Body.md)** object is [active](PartDesign_Body#Usage_Notes.md); if not, you will receive a pop-up error message stating you need an active **![](images/)_[Body](PartDesign_Body.md)** object before using the **![](images/)_[_MultiTransform](PartDesign_MultiTransform.md)** tool.
+### Create
 
-### Standard Method 
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Create MultiTransform](PartDesign_MultiTransform.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button at the top to finish.
 
-This method starts with no existing transformation features and no selections in the viewport or the Model object tree.
-When initiated and completed with this method, the **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** should correctly become the \"Tip\" of the Body object.
+### Edit
 
-1.  Click on the **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** icon to initiate the operation.
-2.  You will be prompted with the **Select feature** window.
-    From the list, select one initial feature to be used for the transformations and click **OK** to proceed.
-    You may add additional features in the next step.
+1.  Do one of the following   *
+    -   Double-click the MultiTransform object in the [Tree view](Tree_view.md).
+    -   Right-click the MultiTransform object in the [Tree view](Tree_view.md) and select **Edit MultiTransform** from the context menu.
+2.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button at the top to finish.
 
-       *   <img alt="" src=images/PartDesign-MultiTransform-Select_feature.png  style="width   *300px;">
-3.  The **Transformed features messages** and **MultiTransform parameters** window will appear.
-    You will see the label of the feature you selected in the feature list view, below the **Add feature** and **Remove feature** buttons.
+### Combine existing transformations 
 
-       *   <img alt="" src=images/PartDesign-MultiTransform-General.png  style="width   *300px;">
-       *   If you want to include additional features for the transformations, follow these instructions   *
+It is possible to create a MultiTransform object from existing [Mirrored](PartDesign_Mirrored.md), [LinearPattern](PartDesign_LinearPattern.md) and [PolarPattern](PartDesign_PolarPattern.md) transformations.
 
-    1.  Click the **Add feature** button in the transform tool
-    2.  Switch to the Model tree view (Click on **Model** tab)
-    3.  Select the feature you want to add, and make it visible(spacebar, ***or*** right-click and toggle visibility).
-
-           *   **Note   *** This will hide the previously visible feature.
-    4.  Click on anything in 3D view (viewport).
-    5.  Click on **Tasks** tab in Combo View to return to **MultiTransform parameters** window.
-    6.  You should see the label of the recently selected feature appear in the feature list view.
-4.  Below the feature list view is the **Transformations** list view. Within you should see the text, \"*Right-click to add*\".
-5.  Add a transformation by right-clicking in the **Transformations** list view to display the options list.
-
-       *   <img alt="" src=images/PartDesign-MultiTransform-Transformations_Right_Click.png  style="width   *300px;">
-
-    1.  Add the desired transformation by selecting it in the options list.
-    2.  The new transformation entry will appear in the **Transformations** list with corresponding settings appearing below the list.
-
-           *   <img alt="" src=images/PartDesign-MultiTransform-Transformations-add_linear_pattern.png  style="width   *300px;">
-    3.  Adjust the settings for the new transformation. (*You will see the preview in the viewport.*)
-    4.  Click the **OK** button underneath these settings to save the new transformation.
-6.  Continue to add transformations in the order you wish to apply them using Step 5 above.
-7.  You may also edit, delete, and move (change the order of) the transformations as needed by right-clicking on a transformation in the **Transformations** list and selecting the corresponding option.
-8.  When you are finished adding and editing the transformations, click the **OK** button at the very top to save the **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** and exit.
-
-### Alternate Method 1 
-
-This method starts with one existing transformation feature in the **![](images/)_[Body](PartDesign_Body.md)** object.
-
-1.  In the Model tree, within the active Body object, select the existing features to be included.
-2.  Click on the **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** icon to initiate the operation.
-3.  In the feature list view, you will see the label(s) of the previously selected feature(s).
-    To add additional features, see **Step 3** in the [Standard Method](PartDesign_MultiTransform#Standard_Method.md) above.
-4.  Finish using **Steps 5-8** in the [Standard Method](PartDesign_MultiTransform#Standard_Method.md) above.
-
-### Alternate Method 2 
-
-This method starts with multiple existing, independent feature transformations in the **![](images/)_[Body](PartDesign_Body.md)** object - with the idea of combining them. **NOTE   *** to combine existing transformations, they must be within the same Body object and should all use the same feature or feature set in each.
-
-1.  In the Model tree, within the active Body object, select one of existing transformation of those you wish to include.
-2.  Click on the **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** icon to initiate the operation.
-3.  Click the **OK** button at top to save and exit.
-4.  In the object tree, select the newly created **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)**.
-5.  In the *Property View* window, locate the **Transformations** property in the *Data* tab.
-6.  Edit the **Transformations** property by clicking on its value, then click on the ellipse box that appeared to open the **Links** window for this property.
-7.  Select all existing feature transformations that should be included. Multiple selections are permitted using **CTRL** + click.
-8.  Click **OK** to save and close the **Links** window.
-9.  Click the **![](images/)_[Refresh](Std_Refresh.md)** button if activated.
-
-When initiated and completed in this way, the **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** might fail to become the \"Tip\" of the Body object. If you need it to be the \"Tip\"   *
-
-1.  Right click on the newly created **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)**.
-2.  If available, choose \"**Set tip**\".
-
-### Usage Notes 
-
--   Supported feature transformations are   * **<img src="images/PartDesign_Mirrored.svg" width=20px> [Mirrored](PartDesign_Mirrored.md)**, **<img src="images/PartDesign_LinearPattern.svg" width=20px> [Linear Pattern](PartDesign_LinearPattern.md)**, **<img src="images/PartDesign_PolarPattern.svg" width=20px> [Polar Pattern](PartDesign_PolarPattern.md)**, and SCALED transformation.
--   Each transformation linked to the **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** should use the same feature, or set of features, in each.
-
-### Limitations
-
--   A scaled transformation should not be the first in the list
--   The scaled transformation must have the same number of occurrences as the transformation immediately preceding it in the list
--   For further limitations, see the **<img src="images/PartDesign_LinearPattern.svg" width=20px> [Linear Pattern](PartDesign_LinearPattern.md)
-**
-
-
-
+1.  Check the **Originals** property of the existing transformations to make sure they have been applied to the same features.
+2.  Select those features in the [Tree view](Tree_view.md).
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Create MultiTransform](PartDesign_MultiTransform.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
+4.  The **MultiTransform parameters** [task panel](Task_panel.md) opens.
+5.  Press the **OK** button at the top.
+6.  Edit the **Tranformations** property of the created MultiTransform object   *
+    1.  Click in the field.
+    2.  Press the **...** button that appears.
+    3.  The **Link** dialog opens.
+    4.  Hold down the **Ctrl** key and select the existing transformations.
+    5.  Press the **OK** button.
+7.  Optionally [edit](#Edit.md) the MultiTransform object, see above.
 
 ## Options
 
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list at the top and press the **Del** key.
+        -   Right-click a feature in the list at the top and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   To add transformations   *
+    1.  If there are existing transformations   * select the transformation after which the new transformation should be added.
+    2.  Right-click the **Transformations** list.
+    3.  Select one the following options from the context menu   *
+        -   
+            **Add mirrored transformation**
+            
+            . See [PartDesign Mirrored](PartDesign_Mirrored.md).
 
-<div class="mw-translate-fuzzy">
+        -   
+            **Add linear pattern**
+            
+            . See [PartDesign LinearPattern](PartDesign_LinearPattern.md).
 
-## Opțiuni
+        -   
+            **Add polar pattern**
+            
+            See [PartDesign PolarPattern](PartDesign_PolarPattern.md).
 
-+++
-| ![](images/Multitransfrom_parameters.png ) | Atunci când creați o funcție multitransformare, dialogul \"parametrii multitransformați\" oferă două vizualizări de listă diferite.                                                                                                                                                                                                                                                 |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | ### Selectați originalele                                                                                                                                                                                                                                                                                                                                   |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | The list view shows the \'originals\', the features that are to be patterned. Clicking on any feature will add it to the list.                                                                                                                                                                                                                                                      |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | ### Selectați transformările                                                                                                                                                                                                                                                                                                                             |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | This list can be filled with a combination of the simple transformations [mirrored](PartDesign_Mirrored.md), [linear pattern](PartDesign_LinearPattern.md), [polar pattern](PartDesign_PolarPattern.md) and [scaled](PartDesign_Scaled.md). The transformations will be applied one after the other. The context menu offers the following entries   * |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | #### Editare                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | Allows editing the parameters of a transformation in the list (double-clicking will have the same effect)                                                                                                                                                                                                                                                                           |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | #### Ștergere                                                                                                                                                                                                                                                                                                                                                                       |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | Removes a transformation from the list                                                                                                                                                                                                                                                                                                                                              |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | #### Adăugarea transformări                                                                                                                                                                                                                                                                                                                                |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | Adds a transformation to the list                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | #### Mutarea Sus/Jos                                                                                                                                                                                                                                                                                                                                               |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | Permite modificarea ordinii transformărilor din listă                                                                                                                                                                                                                                                                                                                               |
-+++
+        -   
+            **Add scaled transformation**
+            
+            . See [PartDesign Scaled](PartDesign_Scaled.md).
+    4.  The selected transformation is added to the list and the settings for the transformation are displayed below the list.
+    5.  Adjust the settings to suit.
+    6.  Press the **OK** bar at the bottom.
+    7.  Repeat to add more transformations.
+-   To edit a transformation   *
+    1.  Right-click the transformation in the **Transformations** list.
+    2.  Select **Edit** from the context menu.
+    3.  Adjust the settings to suit.
+    4.  Press the **OK** bar at the bottom.
+-   To change the order of the transformations   *
+    1.  Right-click a transformation in the **Transformations** list.
+    2.  Select **Move up** or **Move down** from the context menu.
+-   If the **Update view** checkbox is checked the view will update in real time.
 
+## Limitations
 
-
-
-
-</div>
-
-### Select originals 
-
-The list view shows the \'originals\', the features that are to be patterned. Clicking on any feature will add it to the list.
-
-### Select transformations 
-
-This list can be filled with a combination of the simple transformations [mirrored](PartDesign_Mirrored.md), [linear pattern](PartDesign_LinearPattern.md), [polar pattern](PartDesign_PolarPattern.md) and [scaled](PartDesign_Scaled.md). The transformations will be applied one after the other. The context menu offers the following entries   *
-
-#### Edit
-
-Allows editing the parameters of a transformation in the list (double-clicking will have the same effect)
-
-#### Delete
-
-Removes a transformation from the list
-
-#### Add transformation 
-
-Adds a transformation to the list
-
-#### Move Up/Down 
-
-Allows changing the order of transformations in the list \|}
-
-## Examples
-
-
-<div class="mw-translate-fuzzy">
-
-## Example
-
-![c\|center\|800px](images/mt_example2.png ) Cel mai mic bosaj a fost modelat mai întâi de trei ori în direcția X și apoi scalat la factorul doi (deci cele trei apariții au factorul de scalare 1,0, 1,5 și 2,0). Apoi a fost aplicat un model polar cu 8 apariții. ![c\|center\|800px](images/mt_example3.png ) Buzunarul a fost primul oglindit pe planul YZ și apoi modelat cu două modele liniare pentru a da un model dreptunghiular. 
-
-
-</div>
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 

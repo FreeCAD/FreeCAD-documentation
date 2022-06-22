@@ -9,7 +9,7 @@
 
 AppImage is a \"universal binary package\" intended to distribute an application to any Linux distribution. Read more about it on the [Appimage homepage](https   *//appimage.org) and [Wikipedia](https   *//en.wikipedia.org/wiki/AppImage).
 
-To run it, fist make it executable, and then type the relative or full path.
+To run it, first make it executable, and then type the relative or full path.
 
  
 ```python
@@ -26,9 +26,9 @@ For other types of installation see [Download](Download.md).
 
 
 
-  Stable                                                                                                                                                                                                                                                                                                              Development
+  Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [0.19.3](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage) ([SHA256](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage-SHA256.txt))   ![](images/AppImage-logo.png ) \[<https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{   *Template   *Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{   *Template   *Development-Version}}\] (\[<https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{   *Template   *Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
+  ![](images/AppImage-logo.png ) [v0.20](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
      * style=\"text-align   * center; font-size   * 150%; \| Available FreeCAD AppImages \|+
 

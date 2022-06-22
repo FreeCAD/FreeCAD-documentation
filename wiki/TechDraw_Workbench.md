@@ -262,6 +262,10 @@ The TechDraw tools can be used in [macros](macros.md) and from the [Python](Pyth
 
 -   [Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)   * introduction to creating drawings with the TechDraw Workbench.
 -   [Creating a new template](TechDraw_TemplateHowTo.md)   * instructions to create a new page template in Inkscape for using with the TechDraw Workbench.
+-   [ TechDraw TemplateGenerator](TechDraw_TemplateGenerator.md)   * instructions to create a macro for creating a basic template.
+
+   *   A \"few\" added lines of code give a tool like the [Macro TemplateHelper](Macro_TemplateHelper.md).
+
 -   [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)   * instructions for adding centerlines and subsequent angle representations on holes.
 -   [Miscellaneous](TechDraw_HowTo_Page.md)   * instructions for different settings like center marks, etc.
 -   [TechDraw Pitch Circle Tutorial](TechDraw_Pitch_Circle_Tutorial.md)   * instructions for adding a pitch circle.

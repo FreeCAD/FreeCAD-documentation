@@ -1,7 +1,7 @@
 # Screenshots/ru
 {{TOCright}}
 
-Здесь находятся несколько скриншотов, показывающих различные части FreeCAD. Они не упорядочены по времени, так что изображения могут отличаться от вашей реальной версии. Смотрите другие скриншоты, присылаемые пользователями FreeCAD, в [теме скриншотов форума](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=4751) и на[\"Show your project here!\" Users Showcase forum part](http   *//forum.freecadweb.org/viewforum.php?f=24).
+Здесь находятся несколько скриншотов, показывающих различные части FreeCAD. Они не упорядочены по времени, так что изображения могут отличаться от вашей реальной версии. Смотрите другие скриншоты, присылаемые пользователями FreeCAD, в [теме скриншотов форума](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=4751) и на [\"Покажи свой проект здесь!\" части форума Users Showcase](http   *//forum.freecadweb.org/viewforum.php?f=24).
 
 ### Выпуск 0.17 
 
@@ -57,7 +57,7 @@
 
 <img alt="" src=images/Lou_papet.png  style="width   *1024px;">
 
-### выпуск 0.14 
+### Выпуск 0.14 
 
 <img alt="" src=images/Freecad_jeep.png  style="width   *1024px;">
 
@@ -67,23 +67,11 @@
 
 <img alt="" src=images/Rockn_house2.png  style="width   *1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Дом, спроектированный rockn с помощью модуля Arch.
-
-
-</div>
+Дом, спроектированный rockn с помощью верстака Arch.
 
 <img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width   *1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Сетевой анализ изгиба в модуле Mesh.
-
-
-</div>
+Анализ кривизны сетки в верстаке Mesh.
 
 <img alt="" src=images/Cura_export.png  style="width   *1024px;">
 
@@ -177,23 +165,11 @@ FreeCAD на Windows Vista с моделью IGES, загруженной из [
 
 Скриншот, показывающий, как одни и те же файлы отрисовываются в FreeCAD и inkscape
 
-
-<div class="mw-translate-fuzzy">
-
-### Модуль Draft 
+### Верстак Draft 
 
 ![](images/Screenshot_draft.jpg )
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Freecad с импортированным чертежом dxf и загруженным [модулем Draft](Draft_Workbench/ru.md)
-
-
-</div>
+Freecad с загруженным [верстаком Draft](Draft_Workbench/ru.md) и импортированным чертежом dxf
 
 ### Настройки
 

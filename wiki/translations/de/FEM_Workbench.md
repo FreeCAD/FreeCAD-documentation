@@ -46,7 +46,13 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 .
 
--   <img alt="" src=images/Arch_Material_Group.svg  style="width   *32px;"> [Werkstoffeditor](Material_editor/de.md)   * Ermöglicht Dir, den Werkstoffeditor zu öffnen, um Werkstoffe zu bearbeiten.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Werkstoffeditor](FEM_MaterialEditor/de.md)   * Ermöglicht Dir, den Werkstoffeditor zu öffnen, um Werkstoffe zu bearbeiten.
+
+
+</div>
 
 ### Elementgeometrie
 
@@ -224,7 +230,13 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Ergebnisanzeige](FEM_ResultShow/de.md)   * Wird verwendet, um das Ergebnis einer Analyse anzuzeigen.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *32px;"> [Änderungen auf die Pipeline anwenden](FEM_PostApplyChanges/de.md)   *
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -290,15 +302,33 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Filterfunktionen](FEM_PostCreateFunctions.md)   *
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;">
     -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;">
 
+
+</div>
+
 ## Menü   * Hilfsmittel 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Beschnittebene auf Fläche](FEM_ClippingPlaneAdd/de.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *32px;"> [Alle Beschnittebenen entfernen](FEM_ClippingPlaneRemoveAll/de.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [FEM Beispiele öffnen](FEM_Examples/de.md)   * Öffne die GUI, um auf FEM Beispiele zuzugreifen.
 

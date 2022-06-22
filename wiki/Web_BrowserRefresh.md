@@ -1,21 +1,20 @@
 ---
 - GuiCommand   *
-   Icon   *Web_web-refresh.svg
    Name   *Web BrowserRefresh
-   MenuLocation   *only available via toolbar
-   Workbenches   *[Web](Web_Workbench.md)
-   SeeAlso   *[Open Website](Web_OpenWebsite.md)
+   MenuLocation   *
+   Workbenches   *[Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso   *
 ---
 
 # Web BrowserRefresh
 
 ## Description
 
-Use the <img alt="" src=images/Web_web-refresh.svg  style="width   *24px;"> **Web BrowserRefresh** command to update the cached data of the displayed web site.
+The <img alt="" src=images/Web_BrowserRefresh.svg  style="width   *24px;"> **Web BrowserRefresh** command updates the current web page.
 
 ## Usage
 
-1.  Press the **<img src="images/Web_web-refresh.svg_" width=16px> Refresh web page** button.
+1.  Press the **<img src="images/Web_BrowserRefresh.svg" width=16px> [Refresh web page](Web_BrowserRefresh.md)** button.
 
 
 

@@ -1,17 +1,17 @@
 ---
 - GuiCommand   */fr
    Name   *Image Scaling
-   Name/fr   *Redimensionner l'image
+   Name/fr   *Image Redimensionner l'image
    MenuLocation   *
    Workbenches   *[Image](Image_Workbench/fr.md)
-   SeeAlso   *[Image Ouvrir une image](Image_Open/fr.md), [Image Créer un plan d'image](Image_CreateImagePlane/fr.md)
+   SeeAlso   *[Image Ouvrir](Image_Open/fr.md), [Image Créer un plan d'image](Image_CreateImagePlane/fr.md)
 ---
 
 # Image Scaling/fr
 
 ## Description
 
-L\'outil [Redimensionner l\'mage](Image_Scaling/fr.md) redimensionne une image importée à l\'aide de l\'outil [Image Créer un plan d\'image](Image_CreateImagePlane/fr.md).
+L\'outil [Image Redimensionner l\'image](Image_Scaling/fr.md) redimensionne une image importée à l\'aide de l\'outil [Image Créer un plan d\'image](Image_CreateImagePlane/fr.md).
 
 ## Utilisation
 

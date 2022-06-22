@@ -18,96 +18,97 @@ Lo strumento **Simmetria** riflette una funzione su un piano. A partire da v0.17
 ![](images/PartDesign_Mirrored_example.svg )
 
 
-
-*Sopra, a sinistra è stata creata una funzione Tasca da uno schizzo contenente un cerchio (A), poi la Tasca è stata utilizzata per creare una funzione Simmetria. Come asse di simmetria è stato utilizzato l'asse verticale dello schizzo (B). A destra è mostrato il risultato (C).*
-
-## Utilizzo
-
-
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare le funzioni da rispecchiare. In alternativa, è possibile selezionare la funzione dal dialogo dopo il passaggio 2.
 
-       *   v0.16 e precedenti È possibile selezionare solo una singola funzione e deve essere l\'ultima nella parte inferiore dell\'albero delle funzioni.
-2.  Premere il pulsante **[<img src=images/PartDesign_Mirrored.svg style="width   *24px"> '''Simmetria'''**.
-3.  v0.17 e superiori Premere **Aggiungi funzione** per aggiungere una funzione da riflettere. La funzione deve essere visibile nella vista 3D   *
-    1.  Passare all\'albero del modello;
-    2.  Selezionare nell\'albero la funzione da aggiungere e premere **spazio** per renderla visibile nella vista 3D;
-    3.  Tornare al pannello Azioni;
-    4.  Selezionare la funzione nella vista 3D; essa viene aggiunta alla lista.
-    5.  Ripetere per aggiungere altre funzioni.
-4.  v0.17 e superiori Premere **Removi funzione** per rimuovere una funzione dall\'elenco o fare clic con il tasto destro del mouse sulla funzione nell\'elenco e selezionare *Rimuovi*.
-5.  Definire il piano di riflessione. Vedere le [Opzioni](#Opzioni.md).
-6.  Premere **OK**.
+
+*Sopra, a sinistra è stata creata una funzione Tasca da uno schizzo contenente un cerchio (A), poi la Tasca è stata utilizzata per creare una funzione Simmetria. Come asse di simmetria è stato utilizzato l'asse verticale dello schizzo (B). A destra è mostrato il risultato (C).*
 
 
 </div>
 
-To add or remove features from an existing mirroring   *
+## Utilizzo
 
-1.  Press **Add feature** to add a feature to be mirrored. The feature must be visible in the [3D view](3D_view.md)   *
-    1.  Switch to the Model tree;
-    2.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
-    3.  Switch back to the Tasks panel;
-    4.  Select the feature in the 3D view; it will be added to the list.
-    5.  Repeat to add other features.
-2.  Press **Remove feature** to remove a feature from the list, or right-click on the feature in the list and select *Remove*.
+### Create
+
+1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
+2.  Optionally select one or more features.
+3.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/PartDesign_Mirrored.svg" width=16px> [Mirrored](PartDesign_Mirrored.md)** button.
+    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_Mirrored.svg" width=16px> Mirrored** option from the menu.
+4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+6.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+7.  Press the **OK** button to finish.
+
+### Edit
+
+1.  Do one of the following   *
+    -   Double-click the Mirrored object in the [Tree view](Tree_view.md).
+    -   Right-click the Mirrored object in the [Tree view](Tree_view.md) and select **Edit Mirrored** from the context menu.
+2.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
+
+
+<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
 
-<div class="mw-translate-fuzzy">
-
-![Parametri della simmetria in v0.16 e precedenti.](images/mirrored_parameters.png ) ![Parametri della simmetria in v0.17 e successive.](images/Mirrored_parameters_v017_it.png )
-
-
 </div>
 
-### Selezione del piano di riflessione 
+-   To add features   *
+    1.  Press the **Add feature** button.
+    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+    3.  Repeat to add more features.
+-   To remove features   *
+    1.  Press the **Remove feature** button.
+    2.  Do one of the following   *
+        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+        -   Select a feature in the list and press the **Del** key.
+        -   Right-click a feature in the list and select **Remove** from the context menu.
+    3.  Repeat to remove more features.
+-   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Specify the mirror **Plane**   *
+    -   
+        **Vertical sketch axis**
+        
+           * The Y axis of the sketch (the plane passes through this reference and the Z axis of the sketch, only available for sketch-based features).
 
-Quando si crea una operazione Simmetria, la finestra di dialogo **Mirrored parameters** (Parametri della simmetria) offre diversi modi per specificare la linea o il piano di riflessione.
+    -   
+        **Horizontal sketch axis**
+        
+           * The X axis of the sketch (idem).
 
-#### Asse orizzontale dello sketch 
+    -   
+        **Construction line #**
+        
+           * A separate entry for each construction line in the sketch (idem).
 
-Utilizza l\'asse orizzontale dello schizzo come asse di simmetria.
+    -   
+        **Base XY plane**
+        
+           * The XY plane of the Body.
 
-#### Asse verticale dello sketch 
+    -   
+        **Base YZ plane**
+        
+           * The YZ plane of the Body.
 
-Utilizza l\'asse verticale dello schizzo come asse di simmetria.
+    -   
+        **Base XZ plane**
+        
+           * The XZ plane of the Body.
 
-#### Seleziona riferimento\... 
-
-Consente di selezionare un piano (ad esempio una faccia di un oggetto) da utilizzare come piano di riflessione.
-
-#### Asse creato nello Schizzo 
-
-Se lo schizzo che definisce la caratteristica da rispecchiare contiene anche una linea di costruzione (o più linee) l\'elenco a discesa contiene un asse personalizzato per ognuna delle linee di costruzione presenti nello schizzo. La prima linea di costruzione è etichettata \'Sketch axis 0\'.
-
-![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
-
-#### Piano di base XY/XZ/YZ 
-
-
-<div class="mw-translate-fuzzy">
-
-v0.17 e successive Seleziona uno dei piani standard dell\'origine del corpo (XY, XZ o YZ).
-
-
-</div>
-
-### Anteprima
-
-Il risultato della funzione di simmetria può essere visualizzato in tempo reale, prima dell\'esecuzione, attivando **Aggiorna vista**. 
+    -   
+        **Select reference...**
+        
+           * Select a planar face in the [3D view](3D_view.md).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ### Limitazioni
 
-
-<div class="mw-translate-fuzzy">
-
--   La funzione simmetria non può riflettere un intero corpo solido. Per questo, vedere [Specchia](Part_Mirror/it.md) di Part .
-
-
-</div>
+See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 <div class="mw-translate-fuzzy">

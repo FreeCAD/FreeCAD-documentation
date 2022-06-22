@@ -1,33 +1,34 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewIvStereoRedGreen
-   MenuLocation   *View → Stereo → Stereo red/cyan
-   Workbenches   *All
-   SeeAlso   *[Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff.md)
+   Name/pl   *Std   * Widok stereo czerwony / cyjan
+   MenuLocation   *Widok → Widok trójwymiarowy → Stereo czerwony / cyjan
+   Workbenches   *wszystkie
+   SeeAlso   *[Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
 ---
 
 # Std ViewIvStereoRedGreen/pl
 
-## Description
+## Opis
 
-The **Std ViewIvStereoRedGreen** command changes the active [3D view](3D_view.md) to red/cyan, [anaglyph](https   *//en.wikipedia.org/wiki/Anaglyph_3D), stereo view mode. To use this stereo mode glasses with colored lenses are requires.
+Polecenie **Widok stereo czerwony / cyjan** zmienia aktywny [widok 3D](3D_view/pl.md) na czerwono-cyjanowy, [anaglif](https   *//en.wikipedia.org/wiki/Anaglyph_3D), tryb widoku stereo. Do korzystania z tego trybu stereo wymagane są okulary z kolorowymi soczewkami.
 
-## Usage
+## Użycie
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo red/cyan** option from the menu.
+1.  Wybierz z menu opcję **Widok → Widok trójwymiarowy → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo czerwony / cyjan**.
 
-## Preferences
+## Ustawienia
 
--   The eye to eye distance can be changed in the preferences   * **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Odległość między oczami można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the view to red/cyan stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok stereo czerwony / cyjan, należy użyć metody `setStereoType` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

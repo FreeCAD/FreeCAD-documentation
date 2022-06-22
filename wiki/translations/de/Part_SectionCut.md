@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */de
    Name   *Part SectionCut
-   Name/de   *Part Ausschnitt
-   MenuLocation   *Ansicht → Persistent section cut
+   Name/de   *Part Schnittansicht
+   MenuLocation   *Ansicht → Dauerhafte Schnittdarstellung
    Workbenches   *Alle
    Version   *0.20
    SeeAlso   *[Std Schnittebene](Std_ToggleClipPlane/de.md)
@@ -12,7 +12,13 @@
 
 ## Beschreibung
 
-Der Befehl **Part Ausschnitt** steht allen Arbeitsbereichen zur Verfügung, obwohl er nur mit Part- und PartDesign-Objekten sowie mit Baugruppen aus diesen zusammenarbeitet. Er erstellt ein dauerhaftes Cut-Objekt aus (vorhandenen) Objekten und Baugruppen. Da das ausgeschnittene Ergebnis ein normales [Part Cut](Part_Cut/de.md)-Objekt ist, kann es weiterbearbeitet werden oder z.B. 3D-gedruckt werden. Siehe unten für mögliche Anwendungen.
+
+<div class="mw-translate-fuzzy">
+
+Der Befehl **Part Schnittansicht** steht allen Arbeitsbereichen zur Verfügung, arbeitet aber nur mit Part- und PartDesign-Objekten sowie mit Baugruppen aus diesen zusammen. Er erstellt ein dauerhaftes Cut-Objekt aus (vorhandenen) Objekten und Baugruppen. Da das ausgeschnittene Ergebnis ein normales [Part Cut](Part_Cut/de.md)-Objekt ist, kann es weiterbearbeitet werden oder z.B. 3D-gedruckt werden. Siehe unten für mögliche Anwendungen.
+
+
+</div>
 
 <img alt="" src=images/Part_SectionCut_example.png  style="width   *300px;"> 
 *Eine Baugruppe mit Ausschnitt. Einige der Schnittflächen sind von Hand eingefärbt. Das gelbe Teil wurde nicht ausgeschnitten, da es absichtlich um ein Tausendstel (mm) in ein anderes Teil verschoben wurde.*
@@ -21,7 +27,7 @@ Der Befehl **Part Ausschnitt** steht allen Arbeitsbereichen zur Verfügung, obwo
 
 ![Das Dialogfeld Section Cut.](images/Part_SectionCut_Dialog.png )
 
-Das Dialogfeld **Section Cutting** wird mit dem Menüeintrag **Ansicht → <img src="images/Part_SectionCut.svg" width=16px> Persistent section cut** geöffnet. Es ist unabhängig vom aktuellen Arbeitsbereich und vom aktuell geöffneten Dokument. Es kann durch drücken der Schaltfläche in der oberen linken Ecke des Dialogfeldes von seiner Ursprungsposition gelöst werden.
+Das Dialogfeld **Section Cutting** wird mit dem Menüeintrag **Ansicht → <img src="images/Part_SectionCut.svg" width=16px> Dauerhafte Schnittdarstellung** geöffnet. Es ist unabhängig vom aktuellen Arbeitsbereich und vom aktuell geöffneten Dokument. Es kann durch drücken der Schaltfläche in der oberen linken Ecke des Dialogfeldes von seiner Ursprungsposition gelöst werden.
 
 The **Section Cut** feature takes all currently visible Part objects in the active document into account. Therefore you can control what will be cut, by making a part visible or not. By checking one of the **Cutting** options in the dialog the feature is activated. You can then either enter a position (in coordinates of the document) or use the sliders to set the cut position. It is also possible to combine cuts, for example to cut in X and Z direction. The buttons **Flip** flip the side that is cut.
 
@@ -67,7 +73,7 @@ When you select a cut object in the tree view and then open the Section Cut dial
 
 <img alt="An assembly where two parts intersect each other and that are therefore not cut. Note the color artifacts at the cut face." src=images/Part_SectionCut_Color-artifact.png  style="width   *200px;">
 
--   **Important   *** The Section Cut feature works poorly with [OpenCASCADE](OpenCASCADE.md) 7.4 and older due to bugs. It is therefore recommended to use OpenCASCADE 7.5 or newer (all builds of FreeCAD 0.20 assure this).
+-   **Important   *** The Section Cut feature works poorly with [OpenCASCADE](OpenCASCADE.md) 7.4 and older due to bugs. It is therefore recommended to use OpenCASCADE 7.5 or newer (all builds of FreeCAD <small>(v0.20)</small>  assure this).
 -   In assemblies **parts that intersect each other cannot be cut**. Normally intersecting objects will not be cut while the others will. However, sometimes the cutting can produce strange results which is a bug in the OpenCASCADE libraries. To get a cut view also for intersecting objects, you can use the the macro [Cross Section](Macro_cross_section.md).
 -   Especially when using the [A2plus workbench](A2plus_Workbench.md), some the assembled parts can overlap each other by just a micron due to internal rounding errors. To fix this, add a micron as space in the constraint settings.
 -   There can be color artifacts in the cut result. If and how depends on the OpenCASCADE library and also on the view position. In many cases the color artifacts disappear when the 3D view is slightly rotated.

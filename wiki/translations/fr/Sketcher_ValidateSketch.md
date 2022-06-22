@@ -31,17 +31,17 @@ L\'utilitaire **Valider l\'esquisse** permet d\'analyser et de réparer une esqu
 
 ## Options
 
-### Coincidences perdues 
+### Coincidences manquantes 
 
-Trouve les coïncidences manquantes pour les sommets qui se chevauchent et les ajoute. Appuyez sur le bouton **Rechercher**. une boîte de dialogue apparaîtra pour indiquer combien de coïncidences manquantes ont été trouvées ; elles seront affichées dans la vue 3D sous forme de croix jaunes. Appuyez sur **OK** pour fermer la boîte de dialogue, puis appuyez sur le bouton **Corriger** pour ajouter les coïncidences manquantes.
+Trouve les coïncidences manquantes pour les sommets qui se chevauchent et les ajoute. Appuyez sur le bouton **Rechercher**. une boîte de dialogue apparaîtra pour indiquer combien de coïncidences manquantes ont été trouvées ; elles seront affichées dans la vue 3D sous forme de croix jaunes. Appuyez sur **OK** pour fermer la boîte de dialogue, puis appuyez sur le bouton **Réparer** pour ajouter les coïncidences manquantes.
 
 Si nécessaire, définissez une valeur de tolérance supérieure dans le champ déroulant.
 
-Appuyez sur **Surligner les sommets ouverts** pour mettre en évidence les sommets qui sont en dehors de cette tolérance.
+Appuyez sur **Surligner les sommets posant problème** pour mettre en évidence les sommets qui sont en dehors de cette tolérance.
 
-Cette tolérance est utilisée par le processus **Chercher**/**Réparer**.
+Cette tolérance est utilisée par le processus **Rechercher**/**Réparer**.
 
-Laissez la case à cocher \"Ignorer la géométrie de construction\" cochée pour ignorer la géométrie de construction dans l\'analyse.
+Laissez la case à cocher \"Ignorer les géométries de construction\" cochée pour ignorer la géométrie de construction dans l\'analyse.
 
 ### Contraintes non valides 
 
@@ -51,7 +51,7 @@ Par exemple, s\'il y a une contrainte Cercle-Ligne-Tangente mais qu\'elle fait r
 
 (Cela se produit parfois en raison du problème de [dénomination topologique](Topological_naming_problem/fr.md), c\'est-à-dire que la géométrie externe change de type).
 
-Il effectue également d\'autres contrôles, par exemple pour les liens vides.
+Effectue également d\'autres contrôles, par exemple pour les liens vides.
 
 ### Géométrie dégénérée 
 
@@ -71,7 +71,7 @@ Ce processus peut être utile si les esquisses à géométrie externe ne peuvent
 
 Les contraintes tangentes et perpendiculaires sont mises en œuvre (via-point).
 
-En interne, elles fonctionnent en contraignant l\'angle entre les vecteurs tangents. Avec une contrainte de tangente par exemple, l\'angle peut être de 0 ou 180 degrés (vecteurs co-dirigés ou opposés). L\'angle réel est mémorisé dans les données de contrainte (\"l\'orientation de la contrainte est verrouillée\"), cela protège contre le retournement. Mais l\'angle peut être effacé (\"déverrouillage d\'orientation de contrainte\") ou mis à jour. Ces outils font exactement cela.
+En interne, elles fonctionnent en contraignant l\'angle entre les vecteurs tangents. Avec une contrainte de tangente par exemple, l\'angle peut être de 0 ou 180 degrés (vecteurs co-dirigés ou opposés). L\'angle réel est mémorisé dans les données de contrainte (\"l\'orientation de la contrainte est verrouillée\"), cela protège contre le retournement. Mais l\'angle peut être effacé (\"déverrouillage d\'orientation de la contrainte\") ou mis à jour. Ces outils font exactement cela.
 
 Le mécanisme de verrouillage fonctionne généralement bien et cet outil ne devrait pas être nécessaire. **Il ne doit être utilisé qu\'après avoir effectué une sauvegarde du document ouvert.**
 

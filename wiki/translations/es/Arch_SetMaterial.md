@@ -55,7 +55,7 @@ Las herramientas Material permiten agregar [materials](Material.md) al documento
 
 -   **Elegir predefinido**   * elija uno de los materiales preestablecidos, para usarlo tal cual, o para adaptarlo modificando los campos a continuación
 -   **Nombre**   * elija un nombre para el material
--   **Botón Editar**   * Esto abre el material actual en [Material editor](Material_editor.md) de FreeCAD, lo que le permite editar muchas propiedades adicionales y agregar sus propias propiedades personalizadas
+-   **Botón Editar**   * Esto abre el material actual en [Material editor](FEM_MaterialEditor.md) de FreeCAD, lo que le permite editar muchas propiedades adicionales y agregar sus propias propiedades personalizadas
 -   **Descripción**   * Una descripción más detallada del material
 -   **Color**   * un color de pantalla para el material, que se aplicará a todos los objetos que usen ese material
 -   **Código**   * un nombre y número de referencia de un sistema de especificación como [Masterformat](https   *//en.wikipedia.org/wiki/MasterFormat) o [Omniclass](http   *//www.omniclass.org/) .

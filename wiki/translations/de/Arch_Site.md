@@ -1,11 +1,11 @@
 ---
 - GuiCommand   */de
    Name   *Arch Site
-   Name/de   *Arch Baustelle
+   Name/de   *Arch Grundstück
    Workbenches   *[Arch](Arch_Workbench/de.md)
-   MenuLocation   *Architektur → Baustelle
+   MenuLocation   *Arch → Grundstück
    Shortcut   ***S** **I**
-   SeeAlso   *[Arch Etage](Arch_Floor/de.md), [Arch Gebäude](Arch_Building/de.md)
+   SeeAlso   *[Arch Ebene](Arch_Floor/de.md), [Arch Gebäude](Arch_Building/de.md)
 ---
 
 # Arch Site/de
@@ -16,8 +16,8 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 ## Anwendung
 
-1.  Wähle wahlweise ein oder mehrere Objekte, welche in deine neue Baustelle übernommen werden sollen.
-2.  Drücke die **<img src="images/Arch_Site.svg" width=16px> [Baustelle](Arch_Site/de.md)** Schaltfläche oder drücke **S**, dann **I** Tasten.
+1.  Optional ein oder mehrere Objekte auswählen, die in eine neues Grundstück übernommen werden sollen.
+2.  Die Schaltfläche **<img src="images/Arch_Site.svg" width=16px> [Grundstück](Arch_Site/de.md)** drücken oder das Tastaturkürzel **S**, dann **I** verwenden.
 
 ## Optionen
 
@@ -119,11 +119,6 @@ Wenn [Ladybug](https   *//www.ladybug.tools/ladybug.html) auf deinem System inst
 
 ![](images/Freecad-solar-diagram.jpg )
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
 
@@ -131,16 +126,7 @@ Wenn [Ladybug](https   *//www.ladybug.tools/ladybug.html) auf deinem System inst
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Baustellenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   *
-
-
-</div>
+Das Baustellenwerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden   *
 
 
 ```python

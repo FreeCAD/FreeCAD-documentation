@@ -4,7 +4,7 @@
    Name/fr   *Image Créer un plan d'image
    MenuLocation   *
    Workbenches   *[Image](Image_Workbench/fr.md)
-   SeeAlso   *[Image Ouvrir une image](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
+   SeeAlso   *[Image Ouvrir](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
 ---
 
 # Image CreateImagePlane/fr

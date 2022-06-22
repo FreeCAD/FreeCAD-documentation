@@ -67,23 +67,11 @@ Una jeep modellata da psicofil
 
 <img alt="" src=images/Rockn_house2.png  style="width   *1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Una casa creata con il modulo Arch da rockn
-
-
-</div>
+Una casa creata con l\'Ambiente Arch da rockn
 
 <img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width   *1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Analisi di curvatura mesh dal modulo Mesh
-
-
-</div>
+Analisi di curvatura mesh dall\'Ambiente Mesh
 
 <img alt="" src=images/Cura_export.png  style="width   *1024px;">
 
@@ -177,23 +165,11 @@ Lo stesso file visualizzato in FreeCAD e qCAD.
 
 Lo stesso file visualizzato in FreeCAD e inkscape
 
-
-<div class="mw-translate-fuzzy">
-
-### Modulo Draft 
+### Ambiente Draft 
 
 ![](images/Screenshot_draft.jpg )
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD ed il suo [modulo di disegno](Draft_Workbench/it.md) con un file dxf importato.
-
-
-</div>
+FreeCAD ed il suo [Ambiente di disegno](Draft_Workbench/it.md) con un file dxf importato.
 
 ### Preferenze
 

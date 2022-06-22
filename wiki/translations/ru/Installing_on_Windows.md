@@ -1,42 +1,18 @@
 # Installing on Windows/ru
 {{TOCright}}
 
-## Standard Installation 
+## Стандартная установка 
 
-
-<div class="mw-translate-fuzzy">
-
-Простейший способ **установить FreeCAD на Windows** - использовать пакет загружаемой программы установки выше. Эта страница описывает использование и возможности *Microsoft Installer* для дополнительных опций установки.
-
-
-</div>
+Самый простой способ установить последнюю стабильную версию FreeCAD - использовать программу установки   *
 
 
 {{DownloadWindowsStable}}
 
+Если вы хотите загрузить версию для разработчиков (которая может быть нестабильной), смотрите страницу [Еженедельных сборок](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 
-<div class="mw-translate-fuzzy">
+После загрузки программы установки, дважды щёлкните по ней, чтобы запустить процесс установки.
 
-Если вы хотите загрузить версию для разработчиков (которая может быть нестабильной), см. страницу [ Загрузки](Download.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-После загрузки файла .msi (Microsoft Installer)дважды щёлкните по нему мышкой для начала установки.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Далее приведена информация о технических опциях. Если она выглядит обескураживающей, не волнуйтесь! Большинству пользователей Windows не потребуется ничего кроме файла .msi чтобы установить FreeCAD и **[ начать с ним работу](Getting_started.md)**!
-
-
-</div>
+Ниже приведена дополнительная информация о некоторых технических вариантах. Но большинству пользователей не нужно больше, чем эта программа установки. Перейдите в [Начало работы](Getting_started/ru.md) после завершения установки.
 
 ## Installation for all users of the Windows system 
 
@@ -54,7 +30,7 @@ If installed for all users, the default installation path is   *
     **C   *Program Files\FreeCAD X.YY**
     
 
-## Silent Installation 
+## Тихая (автоматическая) установка 
 
 To install FreeCAD silently, you can execute the installer from the command line   *
 

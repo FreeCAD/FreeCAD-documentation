@@ -17,6 +17,8 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> **Pa
 
 ## Usage
 
+### Create
+
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
 2.  Optionally select one or more features.
 3.  There are several ways to invoke the tool   *
@@ -26,6 +28,14 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> **Pa
 5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
 6.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
+
+### Edit
+
+1.  Do one of the following   *
+    -   Double-click the Mirrored object in the [Tree view](Tree_view.md).
+    -   Right-click the Mirrored object in the [Tree view](Tree_view.md) and select **Edit Mirrored** from the context menu.
+2.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
+3.  Press the **OK** button to finish.
 
 ## Options
 
@@ -76,6 +86,7 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> **Pa
         **Select reference...**
         
            * Select a planar face in the [3D view](3D_view.md).
+-   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Limitations
 

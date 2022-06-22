@@ -17,7 +17,7 @@ La commande **Mesh Division** crée des segments de maillage séparés pour les 
 
 1.  Sélectionnez un seul objet maillé.
 2.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/Mesh_Segmentation.svg" width=16px> [Diviser un maillage](Mesh_Segmentation/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Mesh_Segmentation.svg" width=16px> [Diviser le maillage...](Mesh_Segmentation/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Segmentation.svg" width=16px> Diviser le maillage...** dans le menu.
 3.  Le panneau des tâches **Segmentation du maillage** s\'ouvre.

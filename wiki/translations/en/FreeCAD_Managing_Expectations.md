@@ -23,14 +23,26 @@ I really like/dislike using \[Insert your go-to proprietary program\] but I   *
 
 ### Reflections
 
--   How do people conceive the way open source software is created?
--   Do people expect that when a group of people with common interest come together that they will magically self-organize in to a highly productive and well-oiled machine? (see [tweet](https   *//twitter.com/rickhanlonii/status/1231585270966951936))
+How do people conceive the way open source software is created?
+
+#### Hopium
+
+*I hope this open source project can get their act together (self-organize)* .
+
+#### Hand Washing 
+
+*Why can\'t these people self-organize?!? It\'s possible, look at these other successful projects\...*
 
 ## What FreeCAD is not 
 
 ### Non Parametric 
 
+-   FreeCAD can be used non-parametrically. But the user needs to know how.
+-   Blender is the ideal free libre opensource tool for non-parametric design.
+
 ### Mesh Modeler 
+
+-   Again, Blender is the more appropriate application for mesh modeling.
 
 ## Common Perspectives 
 
@@ -38,7 +50,13 @@ I really like/dislike using \[Insert your go-to proprietary program\] but I   *
 
 ### FreeCAD is not stable 
 
+This is true to of any of many CAD applications. FreeCAD suffers from this as well. Although the community works to address catastrophic crashes quickly, users are encouraged to employ a workflow in which they save their work often and utilize the backup features (available in preferences) to recover or roll-back from problematic issues. An important point here to consider is that many users aren\'t always using the most up to date version of FreeCAD and end up complaining of deprecated or already addressed instability problems. FreeCAD also has a very long release cycle and in the past has not backported fixes due to time and 3rd-party dependency complexity. In short, many bugs get fixed in the development version and so users need to make the unorthodox decision of running a development version of FreeCAD instead of the \'stable\'.
+
 ### FreeCAD UI is ugly 
+
+-   At its core, this is relegated to \'Eye of the beholder\' (subjective) perspective. FreeCAD has been around a very long time, its dedicated users have grown familiar with the user interface.
+-   The topic of changes to UI/UX is very contentious. Changes to the UI/UX require proof of concepts, popularity in the community, and effectiveness to eventually make it in to the mainline FreeCAD code. This takes time and diplomacy.
+-   Is it really? Thanks to customization possibilities (as of v0.20) there is an ability to customize the UI (see [Preference Packs](Preference_Packs.md)). At some point very soon, FreeCAD will be provide a comprehensive flexibility to customize its UI, something other CAD packages would not be able to boast.
 
 ### Where is my favorite feature? 
 
@@ -46,17 +64,31 @@ I really like/dislike using \[Insert your go-to proprietary program\] but I   *
 
 ### OpenCascade Kernel 
 
-A core external dependency that FreeCAD is utterly dependent on. There are ATM no FreeCAD devs that have any upstream interaction on the OpenCascade code.
+OpenCascade (OCC/OCCT) is a core external CAD kernel dependency that FreeCAD is utterly dependent on. There are many open \'upstream\' bugs that the FreeCAD community has identified and track regarding OCC. We track them via the   *
+
+-   [bugtracker](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
+-   [forum thread](https   *//forum.freecad.org/viewtopic.php?t=20264) called *OCC Bugs in the Bugtracker*
 
 ### Qt
 
 ### Volunteers
 
-Timelines, unpaid\... it\'s done when it\'s done.
+The reality of having a volunteer based workforce   *
 
-### History
+-   Project timelines/goals change due to unforeseen life issues.
+-   Goals abandoned due to financial or motivational problems.
+-   Incompatible relational attitudes/behaviors that come up during collaborations.
+-   Unpaid volunteers
 
-FreeCAD\'s history along with departures (jriegel) and pivots (PartDesign Next, App   *Link etc\...)
+Hence, FreeCAD\'s motto *It\'s done when it\'s done.*
+
+### Organizational Challenges 
+
+As with many opensource projects, FreeCAD has had its organizational challenges. Some of them are listed here in short   *
+
+-   Departure of jriegel (one of the original core developers)
+-   The incomplete implementation of PartDesign workbench (incompatibilities with Part WB).
+-   Assembly workbench development that had been abandoned several times (Assembly and Assembly2). It now has 3 separate solutions (Assembly2+, Assembly3, Assembly4). There is an intention to unify these 3 active Assembly approaches.
 
 ## Relevant Links 
 

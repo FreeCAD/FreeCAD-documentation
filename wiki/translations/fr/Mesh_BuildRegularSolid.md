@@ -65,89 +65,89 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 ### <img alt="" src=images/Mesh_Cube.svg  style="width   *32px;"> Cube 
 
-### Données
+#### Données
 
 
 {{TitleProperty|Cube}}
 
--    {{PropertyData/fr|Hauteur|FloatConstraint}}   * hauteur du cube.
+-    **Height|FloatConstraint**   * hauteur du cube.
 
--    {{PropertyData/fr|Longueur|FloatConstraint}}   * longueur du cube.
+-    **Length|FloatConstraint**   * longueur du cube.
 
--    {{PropertyData/fr|Largeur|FloatConstraint}}   * largeur du cube.
+-    **Width|FloatConstraint**   * largeur du cube.
 
 ### <img alt="" src=images/Mesh_Cylinder.svg  style="width   *32px;"> Cylindre 
 
-### Données 
+#### Données 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Fermé|Bool}}   * s\'il est défini sur `False`, les extrémités planes du cylindre restent ouvertes.
+-    **Closed|Bool**   * si à `False`, les extrémités planes du cylindre sont laissées ouvertes.
 
--    {{PropertyData/fr|Longueur du contour|FloatConstraint}}   * longueur d\'arête des faces dans le maillage.
+-    **Edge Length|FloatConstraint**   * longueur des arêtes des faces du maillage.
 
--    {{PropertyData/fr|Longueur|FloatConstraint}}   * longueur du cylindre.
+-    **Length|FloatConstraint**   * la longueur du cylindre.
 
--    {{PropertyData/fr|Rayon|FloatConstraint}}   * rayon du cylindre.
+-    **Radius|FloatConstraint**   * rayon du cylindre.
 
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long de la surface courbe.
+-    **Sampling|IntegerConstraint**   * le nombre de faces le long de la surface courbe.
 
 ### <img alt="" src=images/Mesh_Cone.svg  style="width   *32px;"> Cône 
 
-### Données 
+#### Données 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Fermé|Bool}}   * si mis à `False`, la ou les extrémités planes du cône restent ouvertes.
+-    **Closed|Bool**   * si la valeur `False` est attribuée, la ou les extrémités planes du cône sont laissées ouvertes.
 
--    {{PropertyData/fr|Longueur du contour|FloatConstraint}}   * longueur d\'arête des faces dans le maillage.
+-    **Edge Length|FloatConstraint**   * longueur des arêtes des faces du maillage.
 
--    {{PropertyData/fr|Longueur|FloatConstraint}}   * longueur du cône.
+-    **Length|FloatConstraint**   * la longueur du cône.
 
--    {{PropertyData/fr|Rayon 1|FloatConstraint}}   * premier rayon du cône. Peut être {{value|0}}.
+-    **Radius 1|FloatConstraint**   * le premier rayon du cône. Peut être {{value|0}}.
 
--    {{PropertyData/fr|Rayon 2|FloatConstraint}}   * deuxième rayon du cône. Peut être {{value|0}}.
+-    **Radius 2|FloatConstraint**   * le deuxième rayon du cône. Peut être {{value|0}}.
 
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long de la surface courbe.
+-    **Sampling|IntegerConstraint**   * le nombre de faces le long de la surface courbe.
 
 ### <img alt="" src=images/Mesh_Sphere.svg  style="width   *32px;"> Sphère 
 
-### Données 
+#### Données 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Rayon|FloatConstraint}}   * rayon de la sphère.
+-    **Radius|FloatConstraint**   * le rayon de la sphère.
 
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long des deux directions de la surface courbe.
+-    **Sampling|IntegerConstraint**   * le nombre de faces dans les deux directions de la surface courbe.
 
 ### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width   *32px;"> Ellipsoïde 
 
-### Données 
+#### Données 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Rayon 1|FloatConstraint}}   * premier rayon de l\'ellipsoïde.
+-    **Radius 1|FloatConstraint**   * le premier rayon de l\'ellipsoïde.
 
--    {{PropertyData/fr|Rayon 2|FloatConstraint}}   * deuxième rayon de l\'ellipsoïde.
+-    **Radius 2|FloatConstraint**   * le deuxième rayon de l\'ellipsoïde.
 
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long des deux directions de la surface courbe.
+-    **Sampling|IntegerConstraint**   * le nombre de faces dans les deux directions de la surface courbe.
 
 ### <img alt="" src=images/Mesh_Torus.svg  style="width   *32px;"> Tore 
 
-### Données 
+#### Données 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Rayon 1|FloatConstraint}}   * premier rayon (le principal) du tore.
+-    **Radius 1|FloatConstraint**   * le premier rayon (principal) du tore.
 
--    {{PropertyData/fr|Rayon 2|FloatConstraint}}   * deuxième rayon du tore.
+-    **Radius 2|FloatConstraint**   * le deuxième rayon du tore.
 
--    {{PropertyData/fr|Numérisation|IntegerConstraint}}   * nombre de faces le long des deux directions de la surface courbe.
+-    **Sampling|IntegerConstraint**   * le nombre de faces dans les deux directions de la surface courbe.
 
 
 

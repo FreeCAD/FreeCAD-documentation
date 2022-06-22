@@ -2,81 +2,104 @@
 - GuiCommand   */fr
    Name   *PartDesign_LinearPattern
    Name/fr   *PartDesign Répétition linéaire
-   MenuLocation   *Part Design → Appliquer un modèle → Répétition linéaire
+   MenuLocation   *Part Design → Appliquer une transformation → Répétition linéaire
    Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso   *[PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
 ---
 
 # PartDesign LinearPattern/fr
 
 ## Description
 
-L\'outil **Répétition linéaire** crée des copies uniformément espacées d\'un élément le long d\'une ligne ou d\'un bord droit.
+L\'outil <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *24px;"> **PartDesign Répétition linéaire** crée une transformation linéaire d\'une ou plusieurs fonctions.
 
-![](images/PartDesign_LinearPattern_example.svg )
-
-*Ci-dessus, une protrusion en forme de L (B) créée sur le dessus de la protrusion de base (A, aussi dénommée \"support\") est utilisée dans une répétition linéaire. Le résultat (C) est affiché à droite.*
+![](images/PartDesign_LinearPattern_example.svg ) 
+*Ci-dessus, une protrusion en forme de L (B) créée sur le dessus de la protrusion de base (A, aussi dénommée "support") est utilisée dans une répétition linéaire. Le résultat (C) est affiché à droite.*
 
 ## Utilisation
 
-Pour créer un motif    *
+### Créer
 
-1.  Sélectionnez la fonction ({{Version/fr|0.19}} ou plusieurs fonctions) à répéter.
-2.  Appuyez sur le bouton **[<img src=images/PartDesign_LinearPattern.svg style="width   *24px"> '''Répétition linéaire'''**.
-3.  Définissez la **Direction**. Voir [Options](#Options.md).
-4.  Définissez la **Longueur** (distance) entre la dernière occurrence copiée et l\'entité d\'origine.
-5.  Définissez le nombre **d\'occurrences**.
-6.  Si vous avez plusieurs fonctions dans le motif, leur ordre peut être important, voir par exemple l\'image dans [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Utilisation.md). {{Version/fr|0.19}}. Vous pouvez changer l\'ordre en faisant glisser la fonction dans la liste et vous verrez le résultat immédiatement en aperçu.
-7.  Appuyez sur **OK**.
+1.  Vous pouvez [activé](PartDesign_Body#Active_status.md) le bon corps.
+2.  Sélectionnez au besoin une ou plusieurs fonctions dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+3.  Il existe plusieurs façons de lancer l\'outil    *
+    -   Appuyez sur le bouton **<img src="images/PartDesign_LinearPattern.svg" width=16px> [Répétition linéaire](PartDesign_LinearPattern/fr.md)**.
+    -   Sélectionnez l\'option **Part Design → Appliquer une transformation → <img src="images/PartDesign_LinearPattern.svg" width=16px> Répétition linéaire** dans le menu.
+4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il y a un seul corps, il sera activé automatiquement.
+5.  Si aucune fonction n\'a été sélectionnée, le [Panneau des tâches](Task_panel/fr.md) **Ajouter une fonction** s\'ouvre    * sélectionnez-en une ou plusieurs (en maintenant la touche **Ctrl**) dans la liste et appuyez sur le bouton **OK**.
+6.  Le [Panneau des tâches](Task_panel/fr.md) **Paramètres de la répétition linéaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+7.  Appuyez sur le bouton **OK** pour terminer.
 
-Pour ajouter ou supprimer des fonctions à partir d\'un modèle existant    *
+### Éditer
 
-1.  Appuyez sur **Ajouter une fonction** pour ajouter une fonction à modeler. La fonction doit être visible dans la [vue 3D](3D_view/fr.md)    *
-    1.  Basculez vers l\'arborescence du modèle ;
-    2.  Sélectionnez dans l\'arborescence la fonction à ajouter et appuyez sur la **Barre d'espace** pour la rendre visible dans la [vue 3D](3D_view/fr.md) ;
-    3.  Revenez au panneau Tâches;
-    4.  Sélectionnez la fonction dans la vue 3D. Elle sera ajoutée à la liste.
-    5.  Répétez pour ajouter d\'autres fonctions.
-2.  Appuyez sur **Supprimer une fonction** pour supprimer une fonction de la liste, ou cliquez avec le bouton droit de la souris sur la fonction dans la liste et sélectionnez **Supprimer**.
+1.  Faites l\'une des choses suivantes    *
+    -   Double-cliquez sur l\'objet Draft dans la [Vue en arborescence](Tree_view/fr.md).
+    -   Cliquez avec le bouton droit de la souris sur l\'objet Draft dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Paramètres de la répétition linéaire** dans le menu contextuel.
+2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres de la répétition linéaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+3.  Appuyez sur le bouton **OK** pour terminer.
 
 ## Options
 
-![Paramètres de Répétition linéaire](images/Linearpattern_parameters_v017.png )
+-   Pour ajouter des fonctions    *
+    1.  Appuyez sur le bouton **Ajouter une fonction**.
+    2.  Sélectionnez une fonction dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+    3.  Répétez l\'opération pour ajouter d\'autres fonctions.
+-   Pour supprimer des fonctions    *
+    1.  Appuyez sur le bouton **Supprimer une fonction**.
+    2.  Effectuez l\'une des opérations suivantes    *
+        -   Sélectionnez une fonction dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+        -   Sélectionnez une fonction dans la liste et appuyez sur la touche **Suppr**.
+        -   Cliquez avec le bouton droit de la souris sur une fonction de la liste et sélectionnez **Enlever** dans le menu contextuel.
+    3.  Répétez l\'opération pour supprimer d\'autres fonctions.
+-   S\'il y a plusieurs fonctions dans le modèle, leur ordre peut être important. Voir [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Organiser_les_fonctions.md).
+-   Spécifiez la **Direction** de la transformation    *
+    -   
+        **Axe normal à l'esquisse**
+        
+           * L\'axe Z de l\'esquisse (disponible uniquement pour les fonctions basées sur l\'esquisse).
 
-### Direction
+    -   
+        **Axe d'esquisse vertical**
+        
+           * L\'axe Y de l\'esquisse (idem).
 
-Lors de la création d\'une répétition linéaire, la boîte de dialogue **Paramètres de la répétition linéaire** offre différentes manières de spécifier la direction de la répétition.
+    -   
+        **Axe d'esquisse horizontal**
+        
+           * L\'axe X de l\'esquisse (idem).
 
-#### Axe d\'esquisse horizontal 
+    -   
+        **Ligne de construction #**
+        
+           * Une entrée séparée pour chaque ligne de construction dans l\'esquisse (idem).
 
-Utilise l\'axe horizontal de l\'esquisse comme direction.
+    -   
+        **Axe X**
+        
+           * L\'axe X du corps.
 
-#### Axe d\'esquisse vertical 
+    -   
+        **Axe Y**
+        
+           * L\'axe Y du corps.
 
-Utilise l\'axe vertical de l\'esquisse comme direction.
+    -   
+        **Axe Z**
+        
+           * L\'axe Z du corps.
 
-#### Axe normal à l\'esquisse 
-
-Utilise l\'axe normal à l\'esquisse comme direction.
-
-#### Sélectionnez une référence\... 
-
-Permet de sélectionner une ligne de référence, une arête droite d\'un objet ou une ligne d\'une esquisse à utiliser comme direction.
-
-#### Axe d\'esquisse personnalisé 
-
-Si l\'esquisse qui définit la fonction à répéter contient également une ou plusieurs ligne(s) de construction, alors la liste déroulante contiendra un axe d\'esquisse personnalisé pour chaque ligne de construction. La première ligne de la construction sera étiquetée *Sketch axis 0*.
-
-#### Axe (X/Y/Z) 
-
-Sélectionnez l\'un des axes standard de l\'origine du corps (X, Y ou Z) comme direction.
+    -   
+        **Sélectionnez une référence...**
+        
+           * Sélectionnez une [PartDesign Ligne de référence](PartDesign_Line/fr.md) dans la [Vue en arborescence](Tree_view/fr.md) ou une [PartDesign Ligne de référence](PartDesign_Line/fr.md) ou une arête dans la [Vue 3D](3D_view/fr.md).
+-   Cochez la case **Inverser la direction** pour inverser la transformation.
+-   Spécifiez la **Longueur** à couvrir par la transformation.
+-   Spécifiez le nombre d\'occurrences **Occurrences** (y compris la fonction d\'origine).
+-   Si la case **Réactualiser la vue** est cochée, la vue sera mise à jour en temps réel.
 
 ## Limitations
 
--   Les formes de motifs ne peuvent pas se chevaucher, sauf dans le cas particulier de deux occurrences seulement (original plus une copie).
--   Toute forme de motif qui ne recouvre pas le support de l\'original sera exclue. Cela garantit qu\'un élément PartDesign est toujours constitué d\'un solide unique et connecté.
--   Les motifs PartDesign ne sont pas encore aussi optimisés que leurs homologues Draft. Donc, pour un plus grand nombre d\'instances, vous devriez envisager d\'utiliser [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) à la place, combiné avec une opération booléenne Part. Cela peut entraîner des modifications majeures de votre modèle lorsque vous quittez PartDesign, ce qui signifie que vous ne pouvez pas simplement continuer avec d\'autres fonctionnalités PartDesign dans le même corps. Un exemple est présenté dans ce [Sujet de forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).
--   Une PartDesign Répétition linéaire ne peut pas être appliqué directement à un autre motif, qu\'il soit polaire, linéaire ou miroir. Pour cela, vous avez besoin d\'une [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md).
--   Pour d\'autres limitations, voir [PartDesign Symétrie](PartDesign_Mirrored/fr.md).
+Voir [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Limitations.md).
 
 
 

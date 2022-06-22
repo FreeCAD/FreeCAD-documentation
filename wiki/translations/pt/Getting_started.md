@@ -236,24 +236,18 @@ Mais em[ Tuturials](Tutorials.md).
 
 </div>
 
-FreeCAD, as an open source software, offers the possibility to supplement its workbenches with addons.
+O Freecad, sendo um software open source, dá a possibilidade de complementar as suas bancadas de trabalho com addons.
 
-The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
+O princípio [Extensões](Addon/pt.md) é baseado no desenvolvimento de um complemento da bancada de trabalho. Qualquer utilizador pode desenvolver uma função que considere faltar para as suas próprias necessidades ou, em última instância, para a comunidade. Com o fórum, o utilizador pode solicitar uma opinião ou ajuda. Ele pode partilhar, ou não, o objeto de seu desenvolvimento de acordo com as regras de direitos autorais a definir. Gratuito para ela/ele. Para desenvolver, o utilizador tem disponíveis funções de [scripting](Power_users_hub/pt.md).
 
-There are two types of addons   *
+Existem dois tipos de addons   *
 
-1.  [Macros](Macros.md)   * short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md)   * collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+1.  [Macros](Macros/pt.md)   * pequenos trechos de código Python que adicionam uma nova ferramenta ou funcionalidade. As macros normalmente começam como uma forma de simplificar ou automatizar a tarefa de desenhar ou editar um objecto em particular. Se muitas dessas macros são agrupadas dentro de um directório, o directório inteiro pode ser distribuído como uma nova bancada de trabalho.
+2.  [External workbenches](External_workbenches/pt.md)   * colecções de ferramentas programadas em Python ou C++ que ampliam de forma importante o Freecad . Se uma bancada de trabalho está suficientemente desenvolvida e bem documentada, pode até ser incluída como uma das bancadas de trabalho base dentro do Freecad. Em [External workbenches](External_workbenches/pt.md), irá encontrar o fundamento de cada uma e uma lista das várias bancadas externas.
 
-## Scripting
+## Programação (Scripting) 
 
-
-<div class="mw-translate-fuzzy">
-
-E finalmente, um dos recursos mais poderoso do FreeCAD é o ambiente de [ programação (scripting)](scripting.md). Desde da consola python integrada (ou a partir de qualquer outro script Python externo), pode obter acesso a praticamente qualquer parte do FreeCAD, criar ou modificar geometria, modificar a apresentação desses objetos na cena 3D ou aceder e modificar a interface do FreeCAD. Programação Python pode também ser usada em [ macros](macros/pt.md), que proporcionam um método fácil de criar comandos personalizados.
-
-
-</div>
+E finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente de [ programação (scripting)](scripting.md). Desde da consola python integrada (ou a partir de qualquer outro script Python externo), pode obter acesso a praticamente qualquer parte do FreeCAD, criar ou modificar geometria, modificar a apresentação desses objetos na cena 3D ou aceder e modificar a interface do FreeCAD. A programação Python pode também ser usada em [ macros](macros/pt.md), que proporcionam um método fácil de criar comandos personalizados.
 
 
 <div class="mw-translate-fuzzy">

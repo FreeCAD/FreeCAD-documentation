@@ -1,20 +1,4 @@
 # Release notes 0.20/de
-<div class="mw-translate-fuzzy">
-
-
-**Diese Seite verfolgt neue Funktionen, die der Entwicklungsversion von FreeCAD, die derzeit 0.20 ist, hinzugefügt werden. Wenn das Einfrieren der Funktionen von 0.20 eintritt, lösche diese Meldungen und füge keine weiteren Funktionen zu dieser Seite hinzu. FreeCAD 0.20 wird voraussichtlich im Jahr 202x veröffentlicht werden.**
-
-
-</div>
-
-
-{{Message|
-Fehlen Funktionen? Erwähne sie im [https   *//forum.freecadweb.org/viewtopic.php?f&#61;10&t&#61;56135 Versionshinweise für v0.20] Forumsbeitrag.
-
-Siehe [Hilf FreeCAD](Help_FreeCAD/de.md) für Wege, zu FreeCAD beizutragen.
-}}
-
-
 {{TOCright}}
 
 
@@ -318,6 +302,7 @@ FreeCAD received many new Python API functions   *
 -   Solving with the [Calculix](FEM_SolverCalculixCxxtools.md) solver now uses all CPU cores. [Pull request \#6374](https   *//github.com/FreeCAD/FreeCAD/pull/6374)
 -   Meshing with [Gmsh](FEM_MeshGmshFromShape.md) now uses all CPU cores. [Pull request \#6370](https   *//github.com/FreeCAD/FreeCAD/pull/6370)
 -   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [Pull request \#4660](https   *//github.com/FreeCAD/FreeCAD/pull/4660)
+-   The [Data at point clip](FEM_PostFilterDataAtPoint.md) result filter is now actually working   * One gets info from result meshes by clicking into them or by specifying a mesh coordinate.
 -   A new constraint was added   * **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintCentrif.svg style="width   *16px"> [Constraint Centrif](FEM_ConstraintCentrif.md)**. [Pull request \#4738](https   *//github.com/FreeCAD/FreeCAD/pull/4738)
 -   A new solver was added   * **Solve → [<img src=images/FEM_SolverMystran.svg style="width   *16px"> [Solver Mystran](FEM_SolverMystran.md)**. Multiple commits.
 -   A new constraint was added   * **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width   *16px"> [Constraint Spring](FEM_ConstraintSpring.md)**. [Pull request \#4982](https   *//github.com/FreeCAD/FreeCAD/pull/4982)
@@ -463,9 +448,9 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 ## Arbeitsbereich Tabellenkalkulation 
 
    
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )      The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
-  <img alt="" src=images/Spreadsheet_configuration_table_screenshot_5.png  style="width   *384px;">   It is now possible to setup [configuration tables](Spreadsheet_Workbench#Configuration_tables.md). This way one can define different parameter sets for the same part. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
-  ![](images/Spreadsheet_binding-dialog.png )                                                    Cells can now be [bound to other cells](Spreadsheet_Workbench#Cell_binding.md) of the same or a different spreadsheet. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )        The workbench now has ![](images/Std_DlgPreferences.svg  style="width   *24px;"> [Preferences](Spreadsheet_Preferences.md). They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width   *16px;"> [Spreadsheet Import](Spreadsheet_Import.md) and <img alt="" src=images/Spreadsheet_Export.svg  style="width   *16px;"> [Spreadsheet Export](Spreadsheet_Export.md) commands. [Pull request \#5073](https   *//github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet_configuration_table_relnotes_0.20.png  style="width   *384px;">   It is now possible to setup [configuration tables](Spreadsheet_Workbench#Configuration_tables.md). This way one can define different parameter sets for the same part. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
+  ![](images/Spreadsheet_binding-dialog_relnotes_0.20.png )                          Cells can now be [bound to other cells](Spreadsheet_Workbench#Cell_binding.md) of the same or a different spreadsheet. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
    
 
 ### Weitere Verbesserungen Tabellenkalkulation 
@@ -547,7 +532,7 @@ The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements   
 
 ### Plot
 
--   The Plot module has been stripped from the workbench since it is now provided by FreeCAD.
+-   The [Plot module](Plot_Workbench.md) has been stripped from the workbench since it is now provided by FreeCAD.
 
 ### Ship
 

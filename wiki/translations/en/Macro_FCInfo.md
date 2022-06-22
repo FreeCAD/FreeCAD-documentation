@@ -1,12 +1,12 @@
 # Macro FCInfo/en
-**[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br> (This wiki page correspond in date ver 1.22 , 12/11/2020 and not include the new features) **
+**[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br>(This wiki page correspond in date ver 1.22, 12/11/2020 and not include the new features)**
 
 
 {{Macro
 |Name=Macro FCInfo
 |Icon=FCInfo.png
 |Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
-<br />French Version [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/9a23e3ef9d790818ca4b4e8061fdec1a4d649dd5/FCInfo_fr_Ver_1-26-rmu_Docked.FCMacro Version française]
+<br />French Version [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/795cac01c84fbbfa7ea68703c7138667119995d8/FCInfo_fr_Ver_1-26c-rmu_Docked.FCMacro Version française]
 |Author=Mario52
 |Version=1.26c
 |Date=2022/04/19

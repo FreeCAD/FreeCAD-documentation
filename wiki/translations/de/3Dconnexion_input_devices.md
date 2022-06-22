@@ -224,13 +224,7 @@ sudo systemctl restart spacenavd
 
 ### OSX
 
-
-<div class="mw-translate-fuzzy">
-
-3Dconnexion Eingabegeräte werden unter OS X unterstützt, vorausgesetzt, dass FreeCAD auf einem System mit installierten 3Dconnexion-Treibern erstellt und verwendet wird.
-
-
-</div>
+3Dconnexion Eingabegeräte werden unter OS X unterstützt, vorausgesetzt, dass FreeCAD auf einem System mit installierten 3Dconnexion-Treibern erstellt und verwendet wird. Für Mac OSX Monterey sollte man 3DxWare 10.7.2 oder neuer verwenden
 
 ### Windows
 
@@ -278,7 +272,7 @@ Wenn Du diese Registerkarte zum ersten Mal öffnest, ist sie leer und nicht verf
 
 Um einen bestimmten Befehl mit einer Schaltfläche zu verbinden, wähle die Schaltfläche auf der linken Seite und den Befehl auf der rechten Seite. Um die Befehle der Taste zu löschen, drücke \"Löschen\".
 
-### Troubleshooting
+### Fehlersuche
 
 Check if your FreeCAD installation links to the spacenav library. The best way to check this is by running FreeCAD from the command line terminal `FreeCAD --log-file /tmp/freecad.log` and close it immediately again. Then open the file **/tmp/freecad.log** and search for the messages   *
 
