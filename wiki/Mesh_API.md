@@ -14,67 +14,7 @@ Mesh() -- Create an empty mesh object.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Edge](Edge_API.md)
-
-Edge in mesh
-This is an edge of a facet in a MeshObject. You can get it by e.g. iterating over the facets of a
-mesh and calling getEdge(index).
-        
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Facet
-
-Facet in mesh
-This is a facet in a MeshObject. You can get it by e.g. iterating a
-mesh. The facet has a connection to its mesh and allows therefore
-topological operations. It is also possible to create an unbounded facet e.g. to create
-a mesh. In this case the topological operations will fail. The same is
-when you cut the bound to the mesh by calling unbound().
-		
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Feature
-
-The Mesh::Feature class handles meshes.
-The Mesh.MeshFeature() function is for internal use only and cannot be used to create instances of this class.
-Therefore you must have a reference to a document, e.g. 'd' then you can create an instance with
-d.addObject("Mesh::Feature").
-			
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Mesh](Mesh_API.md)
-
-Mesh() -- Create an empty mesh object.
-
-This class allows one to manipulate the mesh object by adding new facets, deleting facets, importing from an STL file,
-transforming the mesh and much more.
-For a complete overview of what can be done see also the documentation of mesh.
-A mesh object cannot be added to an existing document directly. Therefore the document must create an object
-with a property class that supports meshes.
-Example:
-  m = Mesh.Mesh()
-  ... # Manipulate the mesh
-  d = FreeCAD.activeDocument() # Get a reference to the actie document
-  f = d.addObject("Mesh::Feature", "Mesh") # Create a mesh feature
-  f.Mesh = m # Assign the mesh object to the internal property
-  d.recompute()
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> MeshPoint
-
- Point in mesh
-This is a point in a MeshObject. You can get it by e.g. iterating a
-mesh. The point has a connection to its mesh and allows therefore 
-topological operations. It is also possible to create an unbounded mesh point e.g. to create
-a mesh. In this case the topological operations will fail. The same is
-when you cut the bound to the mesh by calling unbound().
-	  
-
-
+### Functions
 
 #### <img src="images/type_method.svg" style="width:16px;"> calculateEigenTransform
 
@@ -84,7 +24,6 @@ calculate the point's local coordinate system with the center
 of gravity as origin. The local coordinate system is computed
 this way that u has minimum and w has maximum expansion.
 The local coordinate system is right-handed.
-
 
 
 
@@ -141,7 +80,6 @@ compressed.
 
 
 
-
 #### <img src="images/type_method.svg" style="width:16px;"> insert
 
 insert(string|mesh,[string])
@@ -155,7 +93,6 @@ minimumVolumeOrientedBox(seq(Base.Vector)) -- Calculates the minimum
 volume oriented box containing all points. The return value is a
 tuple of seven items:
     center, u, v, w directions and the lengths of the three vectors.
-
 
 
 
@@ -182,6 +119,64 @@ Read a mesh from a file and returns a Mesh object.
 #### <img src="images/type_method.svg" style="width:16px;"> show
 
 show(shape,[string]) -- Add the mesh to the active document or create one if no document exists.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Edge](Edge_API.md)
+
+Edge in mesh
+This is an edge of a facet in a MeshObject. You can get it by e.g. iterating over the facets of a
+mesh and calling getEdge(index).
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Facet
+
+Facet in mesh
+This is a facet in a MeshObject. You can get it by e.g. iterating a
+mesh. The facet has a connection to its mesh and allows therefore
+topological operations. It is also possible to create an unbounded facet e.g. to create
+a mesh. In this case the topological operations will fail. The same is
+when you cut the bound to the mesh by calling unbound().
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Feature
+
+The Mesh::Feature class handles meshes.
+The Mesh.MeshFeature() function is for internal use only and cannot be used to create instances of this class.
+Therefore you must have a reference to a document, e.g. 'd' then you can create an instance with
+d.addObject("Mesh::Feature").
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Mesh](Mesh_API.md)
+
+Mesh() -- Create an empty mesh object.
+
+This class allows one to manipulate the mesh object by adding new facets, deleting facets, importing from an STL file,
+transforming the mesh and much more.
+For a complete overview of what can be done see also the documentation of mesh.
+A mesh object cannot be added to an existing document directly. Therefore the document must create an object
+with a property class that supports meshes.
+Example:
+  m = Mesh.Mesh()
+  ... # Manipulate the mesh
+  d = FreeCAD.activeDocument() # Get a reference to the actie document
+  f = d.addObject(":Feature", "Mesh") # Create a mesh feature
+  f.Mesh = m # Assign the mesh object to the internal property
+  d.recompute()
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> MeshPoint
+
+Point in mesh
+This is a point in a MeshObject. You can get it by e.g. iterating a
+mesh. The point has a connection to its mesh and allows therefore 
+topological operations. It is also possible to create an unbounded mesh point e.g. to create
+a mesh. In this case the topological operations will fail. The same is
+when you cut the bound to the mesh by calling unbound().
 
 
 

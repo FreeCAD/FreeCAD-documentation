@@ -5,10 +5,11 @@ FreeCAD GUI module
 
 
 
+### Functions
+
 #### <img src="images/type_method.svg" style="width:16px;"> embedToWindow
 
 embedToWindow() -- Embeds the main window into another window
-
 
 
 
@@ -23,7 +24,6 @@ Note: this will block the call until the event loop has terminated
 
 setupWithoutGUI() -- Uses this module without starting
 an event loop or showing up any GUI
-
 
 
 

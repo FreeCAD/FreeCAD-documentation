@@ -12,33 +12,25 @@ Content of the object in XML representation.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> Continuity
 
-
-					Returns the global continuity of the curve.
-				
+Returns the global continuity of the curve.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> EndPoint
 
-
-                    Returns the end point of the bounded curve.
-                
+Returns the end point of the bounded curve.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> FirstParameter
 
-
-					Returns the value of the first parameter.
-				
+Returns the value of the first parameter.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> LastParameter
 
-
-					Returns the value of the last parameter.
-				
+Returns the value of the last parameter.
 
 
 
@@ -62,9 +54,7 @@ Returns a rotation object to describe the orientation for curve that supports it
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> StartPoint
 
-
-                    Returns the starting point of the bounded curve.
-		
+Returns the starting point of the bounded curve.
 
 
 
@@ -82,10 +72,8 @@ Is the type of the FreeCAD object with module domain
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> approximateBSpline
 
-
-					Approximates a curve of any type to a B-Spline curve
+Approximates a curve of any type to a B-Spline curve
 					approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
-				
 
 
 
@@ -164,7 +152,6 @@ Part.show(s)
 p=c.discretize(Angular=0.09,Curvature=0.01,Last=3.14,Minimum=100)
 s=Part.Compound([Part.Vertex(i) for i in p])
 Part.show(s)
-
 
 
 
@@ -248,11 +235,9 @@ Returns a boolean indicating whether a geometry extension of the type indicated 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> intersect
 
-
-                  Returns all intersection points and curve segments between the curve and the curve/surface.
+Returns all intersection points and curve segments between the curve and the curve/surface.
 
 				  arguments: curve/surface (for the intersection), precision (float)
-              
 
 
 
@@ -264,25 +249,19 @@ Get intersection points with another curve lying on a plane.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> intersectCC
 
-
-                  Returns all intersection points between this curve and the given curve.
-              
+Returns all intersection points between this curve and the given curve.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> intersectCS
 
-
-                  Returns all intersection points and curve segments between the curve and the surface.
-              
+Returns all intersection points and curve segments between the curve and the surface.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isClosed
 
-
-              Returns true if the curve is closed.
-            
+Returns true if the curve is closed.
 
 
 
@@ -389,9 +368,7 @@ Sets a geometry extension of the indicated type.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setParameterRange
 
-
-                    Re-trims this curve to the provided parameter range ([Float=First, Float=Last])
-                
+Re-trims this curve to the provided parameter range ([Float=First, Float=Last])
 
 
 
@@ -403,19 +380,15 @@ Computes the tangent of parameter u on this curve
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> toBSpline
 
-
-					Converts a curve of any type (only part from First to Last)
+Converts a curve of any type (only part from First to Last)
 					toBSpline([Float=First, Float=Last]) -> B-Spline curve
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> toNurbs
 
-
-                    Converts a curve of any type (only part from First to Last)
+Converts a curve of any type (only part from First to Last)
                     toNurbs([Float=First, Float=Last]) -> NURBS curve
-                
 
 
 
@@ -439,10 +412,8 @@ Translates this geometric object
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> trim
 
-
-                    Returns a trimmed curve defined in the given parameter range
+Returns a trimmed curve defined in the given parameter range
                     trim([Float=First, Float=Last]) -> trimmed curve
-                
 
 
 

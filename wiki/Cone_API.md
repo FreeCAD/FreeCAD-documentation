@@ -56,9 +56,7 @@ Content of the object in XML representation.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> Continuity
 
-
-					Returns the global continuity of the surface.
-				
+Returns the global continuity of the surface.
 
 
 
@@ -106,25 +104,19 @@ Is the type of the FreeCAD object with module domain
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> UPeriod
 
-
-					Returns the period of this patch in the u parametric direction.
-				
+Returns the period of this patch in the u parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> VPeriod
 
-
-					Returns the period of this patch in the v parametric direction.
-				
+Returns the period of this patch in the v parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> bounds
 
-
-					Returns the parametric bounds (U1, U2, V1, V2) of this trimmed surface.
-				
+Returns the parametric bounds (U1, U2, V1, V2) of this trimmed surface.
 
 
 
@@ -155,7 +147,6 @@ Computes the directions of maximum and minimum curvature
 of parameter (u,v) on this geometry.
 The first vector corresponds to the maximum curvature,
 the second vector corresponds to the minimum curvature.
-
 
 
 
@@ -233,20 +224,16 @@ Returns a boolean indicating whether a geometry extension of the type indicated 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> intersect
 
-
-                    Returns all intersection points/curves between the surface and the curve/surface.
-                
+Returns all intersection points/curves between the surface and the curve/surface.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> intersectSS
 
-
 Returns all intersection curves of this surface and the given surface.
 The required arguments are:
 * Second surface
 * precision code (optional, default=0)
-                
 
 
 
@@ -258,18 +245,14 @@ Returns true if given type is a father
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isPlanar
 
-
 isPlanar([float]) -> Bool
 Checks if the surface is planar within a certain tolerance.
-                
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isUClosed
 
-
-					Checks if this surface is closed in the u parametric direction.
-				
+Checks if this surface is closed in the u parametric direction.
 
 
 
@@ -289,9 +272,7 @@ i.e. maximum and minimum curvature are equal.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isVClosed
 
-
-					Checks if this surface is closed in the v parametric direction.
-				
+Checks if this surface is closed in the v parametric direction.
 
 
 
@@ -323,7 +304,6 @@ of the nearest orthogonal projection of the point.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> projectPoint
 
-
 Computes the projection of a point on the surface
 
 projectPoint(Point=Vector,[Method="NearestPoint"])
@@ -333,7 +313,6 @@ projectPoint(Vector,"LowerDistanceParameters") -> tuple of floats (u,v)
 projectPoint(Vector,"Distance") -> list of floats
 projectPoint(Vector,"Parameters") -> list of tuples of floats
 projectPoint(Vector,"Point") -> list of points
-
 
 
 
@@ -376,8 +355,7 @@ Computes the tangent of parameter (u,v) on this geometry
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> toBSpline
 
-
-					Returns a B-Spline representation of this surface. 
+Returns a B-Spline representation of this surface. 
 					The optional arguments are:
 					* tolerance (default=1e-7)
 					* continuity in u (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
@@ -387,7 +365,6 @@ Computes the tangent of parameter (u,v) on this geometry
 					* maximum number of segments (default=1000)
 					* precision code (default=0)
 					Will raise an exception if surface is infinite in U or V (like planes, cones or cylinders)
-				
 
 
 

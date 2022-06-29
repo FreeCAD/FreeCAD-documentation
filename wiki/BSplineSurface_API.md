@@ -12,16 +12,13 @@ Content of the object in XML representation.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> Continuity
 
-
-					Returns the global continuity of the surface.
-				
+Returns the global continuity of the surface.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> FirstUKnotIndex
 
-
-					Returns the index in the knot array associated with the u parametric direction,
+Returns the index in the knot array associated with the u parametric direction,
 					which corresponds to the first parameter of this B-Spline surface in the specified
 					parametric direction.
 
@@ -31,14 +28,12 @@ Content of the object in XML representation.
 					Note: The index does not correspond to the first knot of the surface in the specified
 					parametric direction unless the multiplicity of the first knot is equal to Degree + 1,
 					where Degree is the degree of this surface in the corresponding parametric direction.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> FirstVKnotIndex
 
-
-					Returns the index in the knot array associated with the v parametric direction,
+Returns the index in the knot array associated with the v parametric direction,
 					which corresponds to the first parameter of this B-Spline surface in the specified
 					parametric direction.
 
@@ -48,14 +43,12 @@ Content of the object in XML representation.
 					Note: The index does not correspond to the first knot of the surface in the specified
 					parametric direction unless the multiplicity of the first knot is equal to Degree + 1,
 					where Degree is the degree of this surface in the corresponding parametric direction.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> LastUKnotIndex
 
-
-					Returns the index in the knot array associated with the u parametric direction,
+Returns the index in the knot array associated with the u parametric direction,
 					which corresponds to the last parameter of this B-Spline surface in the specified
 					parametric direction.
 
@@ -65,14 +58,12 @@ Content of the object in XML representation.
 					Note: The index does not correspond to the first knot of the surface in the specified
 					parametric direction unless the multiplicity of the last knot is equal to Degree + 1,
 					where Degree is the degree of this surface in the corresponding parametric direction.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> LastVKnotIndex
 
-
-					Returns the index in the knot array associated with the v parametric direction,
+Returns the index in the knot array associated with the v parametric direction,
 					which corresponds to the last parameter of this B-Spline surface in the specified
 					parametric direction.
 
@@ -82,17 +73,14 @@ Content of the object in XML representation.
 					Note: The index does not correspond to the first knot of the surface in the specified
 					parametric direction unless the multiplicity of the last knot is equal to Degree + 1,
 					where Degree is the degree of this surface in the corresponding parametric direction.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> MaxDegree
 
-
-					Returns the value of the maximum polynomial degree of any
+Returns the value of the maximum polynomial degree of any
 					B-Spline surface surface in either parametric directions.
 					This value is 25.
-				
 
 
 
@@ -110,33 +98,25 @@ Module in which this class is defined
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> NbUKnots
 
-
-					Returns the number of knots of this B-Spline surface in the u parametric direction.
-				
+Returns the number of knots of this B-Spline surface in the u parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> NbUPoles
 
-
-					Returns the number of poles of this B-Spline surface in the u parametric direction.
-				
+Returns the number of poles of this B-Spline surface in the u parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> NbVKnots
 
-
-					Returns the number of knots of this B-Spline surface in the v parametric direction.
-				
+Returns the number of knots of this B-Spline surface in the v parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> NbVPoles
 
-
-					Returns the number of poles of this B-Spline surface in the v parametric direction.
-				
+Returns the number of poles of this B-Spline surface in the v parametric direction.
 
 
 
@@ -160,58 +140,45 @@ Is the type of the FreeCAD object with module domain
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> UDegree
 
-
-					Returns the degree of this B-Spline surface in the u parametric direction.
-				
+Returns the degree of this B-Spline surface in the u parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> UKnotSequence
 
-
-						Returns the knots sequence of this B-Spline surface in
+Returns the knots sequence of this B-Spline surface in
 						the u direction.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> UPeriod
 
-
-					Returns the period of this patch in the u parametric direction.
-				
+Returns the period of this patch in the u parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> VDegree
 
-
-					Returns the degree of this B-Spline surface in the v parametric direction.
-				
+Returns the degree of this B-Spline surface in the v parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> VKnotSequence
 
-
-					Returns the knots sequence of this B-Spline surface in
+Returns the knots sequence of this B-Spline surface in
 					the v direction.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> VPeriod
 
-
-					Returns the period of this patch in the v parametric direction.
-				
+Returns the period of this patch in the v parametric direction.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> approximate
 
-
-					Replaces this B-Spline surface by approximating a set of points.
+Replaces this B-Spline surface by approximating a set of points.
 					This method uses keywords :
 					- Points = 2Darray of points (or floats, in combination with X0, dX, Y0, dY)
 					- DegMin (int), DegMax (int)
@@ -228,32 +195,25 @@ Is the type of the FreeCAD object with module domain
 					With explicit keywords :
 					- approximate(Points, DegMin, DegMax, Continuity, Tolerance, ParamType)
 					- approximate(Points, DegMax, Continuity, Tolerance, LengthWeight, CurvatureWeight, TorsionWeight)
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> bounds
 
-
-					Returns the parametric bounds (U1, U2, V1, V2) of this B-Spline surface.
-				
+Returns the parametric bounds (U1, U2, V1, V2) of this B-Spline surface.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> buildFromNSections
 
-
-					Builds a B-Spline from a list of control curves
-				
+Builds a B-Spline from a list of control curves
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> buildFromPolesMultsKnots
 
-
-					Builds a B-Spline by a lists of Poles, Mults and Knots
+Builds a B-Spline by a lists of Poles, Mults and Knots
 					arguments: poles (sequence of sequence of Base.Vector), umults, vmults, [uknots, vknots, uperiodic, vperiodic, udegree, vdegree, weights (sequence of sequence of float)]
-				
 
 
 
@@ -287,7 +247,6 @@ the second vector corresponds to the minimum curvature.
 
 
 
-
 #### <img src="images/Type_enum.svg" style="width:16px;"> deleteExtensionOfName
 
 Deletes all extensions of the indicated name.
@@ -314,15 +273,13 @@ Compression : int
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> exchangeUV
 
-
-					Exchanges the u and v parametric directions on this B-Spline surface.
+Exchanges the u and v parametric directions on this B-Spline surface.
 					As a consequence:
 					-- the poles and weights tables are transposed,
 					-- the knots and multiplicities tables are exchanged,
 					-- degrees of continuity and rational, periodic and uniform
 					   characteristics are exchanged and
 					-- the orientation of the surface is reversed.
-				
 
 
 
@@ -364,9 +321,7 @@ Returns a list with information about the geometry extensions.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getPole
 
-
-					Returns the pole of index (UIndex,VIndex) of this B-Spline surface.
-				
+Returns the pole of index (UIndex,VIndex) of this B-Spline surface.
 
 
 
@@ -384,8 +339,7 @@ Returns the table of poles and weights in homogeneous coordinates.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getResolution
 
-
-					Computes two tolerance values for this B-Spline surface, based on the
+Computes two tolerance values for this B-Spline surface, based on the
 					given tolerance in 3D space Tolerance3D. The tolerances computed are:
 					-- UTolerance in the u parametric direction and
 					-- VTolerance in the v parametric direction.
@@ -395,88 +349,69 @@ Returns the table of poles and weights in homogeneous coordinates.
 					|u1 - u0| < UTolerance
 					|v1 - v0| < VTolerance
 					====> ||f(u1, v1) - f(u2, v2)|| < Tolerance3D
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getUKnot
 
-
-					Returns, for this B-Spline surface, in the u parametric direction
+Returns, for this B-Spline surface, in the u parametric direction
 					the knot of index UIndex of the knots table.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getUKnots
 
-
-					Returns, for this B-Spline surface, the knots table
+Returns, for this B-Spline surface, the knots table
 					in the u parametric direction
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getUMultiplicities
 
-
-					Returns, for this B-Spline surface, the table of
+Returns, for this B-Spline surface, the table of
 					multiplicities in the u parametric direction
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getUMultiplicity
 
-
-					Returns, for this B-Spline surface, the multiplicity of
+Returns, for this B-Spline surface, the multiplicity of
 					the knot of index UIndex in the u parametric direction.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getVKnot
 
-
-					Returns, for this B-Spline surface, in the v parametric direction
+Returns, for this B-Spline surface, in the v parametric direction
 					the knot of index VIndex of the knots table.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getVKnots
 
-
-					Returns, for this B-Spline surface, the knots table
+Returns, for this B-Spline surface, the knots table
 					in the v parametric direction
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getVMultiplicities
 
-
-					Returns, for this B-Spline surface, the table of
+Returns, for this B-Spline surface, the table of
 					multiplicities in the v parametric direction
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getVMultiplicity
 
-
-					Returns, for this B-Spline surface, the multiplicity of
+Returns, for this B-Spline surface, the multiplicity of
 					the knot of index VIndex in the v parametric direction.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> getWeight
 
-
-					Return the weight of the pole of index (UIndex,VIndex)
+Return the weight of the pole of index (UIndex,VIndex)
 					in the poles table for this B-Spline surface.
-				
 
 
 
@@ -500,8 +435,7 @@ Returns a boolean indicating whether a geometry extension of the type indicated 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> increaseDegree
 
-
-					increase(Int=UDegree, int=VDegree)
+increase(Int=UDegree, int=VDegree)
 					Increases the degrees of this B-Spline surface to UDegree and VDegree
 					in the u and v parametric directions respectively.
 					As a result, the tables of poles, weights and multiplicities are modified.
@@ -509,7 +443,6 @@ Returns a boolean indicating whether a geometry extension of the type indicated 
 
 					Note: Nothing is done if the given degree is less than or equal to the
 					current degree in the corresponding parametric direction.
-				
 
 
 
@@ -563,8 +496,7 @@ insertUKnote(List of float V, List of float Mult, float Tolerance) - Inserts kno
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> interpolate
 
-
-					interpolate(points)
+interpolate(points)
 					interpolate(zpoints, X0, dX, Y0, dY)
 
 					Replaces this B-Spline surface by interpolating a set of points.
@@ -576,26 +508,21 @@ insertUKnote(List of float V, List of float Mult, float Tolerance) - Inserts kno
 					the x starting point X0 (float),
 					the x increment dX (float),
 					the y starting point Y0 and increment dY
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> intersect
 
-
-                    Returns all intersection points/curves between the surface and the curve/surface.
-                
+Returns all intersection points/curves between the surface and the curve/surface.
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> intersectSS
 
-
 Returns all intersection curves of this surface and the given surface.
 The required arguments are:
 * Second surface
 * precision code (optional, default=0)
-                
 
 
 
@@ -607,20 +534,16 @@ Returns true if given type is a father
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isPlanar
 
-
 isPlanar([float]) -> Bool
 Checks if the surface is planar within a certain tolerance.
-                
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isUClosed
 
-
-					Checks if this surface is closed in the u parametric direction.
+Checks if this surface is closed in the u parametric direction.
 					Returns true if, in the table of poles the first row and the last
 					row are identical.
-				
 
 
 
@@ -632,12 +555,10 @@ Returns true if this surface is periodic in the u parametric direction.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isURational
 
-
-					Returns false if the equation of this B-Spline surface is polynomial
+Returns false if the equation of this B-Spline surface is polynomial
 					(e.g. non-rational) in the u or v parametric direction.
 					In other words, returns false if for each row of poles, the associated
 					weights are identical
-				
 
 
 
@@ -651,11 +572,9 @@ i.e. maximum and minimum curvature are equal.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isVClosed
 
-
-					Checks if this surface is closed in the v parametric direction.
+Checks if this surface is closed in the v parametric direction.
 					Returns true if, in the table of poles the first column and the
 					last column are identical.
-				
 
 
 
@@ -667,12 +586,10 @@ Returns true if this surface is periodic in the v parametric direction.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isVRational
 
-
-					Returns false if the equation of this B-Spline surface is polynomial
+Returns false if the equation of this B-Spline surface is polynomial
 					(e.g. non-rational) in the u or v parametric direction.
 					In other words, returns false if for each column of poles, the associated
 					weights are identical
-				
 
 
 
@@ -684,8 +601,7 @@ Performs the symmetrical transformation of this geometric object
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> movePoint
 
-
-					Moves the point of parameters (U, V) of this B-Spline surface to P.
+Moves the point of parameters (U, V) of this B-Spline surface to P.
 					UIndex1, UIndex2, VIndex1 and VIndex2 are the indexes in the poles
 					table of this B-Spline surface, of the first and last poles which
 					can be moved in each parametric direction.
@@ -697,7 +613,6 @@ Performs the symmetrical transformation of this geometric object
 					-- no change is made to this B-Spline surface, and
 					-- UFirstIndex, ULastIndex, VFirstIndex and VLastIndex are set to
 					   null.
-				
 
 
 
@@ -717,7 +632,6 @@ of the nearest orthogonal projection of the point.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> projectPoint
 
-
 Computes the projection of a point on the surface
 
 projectPoint(Point=Vector,[Method="NearestPoint"])
@@ -730,11 +644,9 @@ projectPoint(Vector,"Point") -> list of points
 
 
 
-
 #### <img src="images/Type_enum.svg" style="width:16px;"> removeUKnot
 
-
-				Reduces to M the multiplicity of the knot of index Index in the given
+Reduces to M the multiplicity of the knot of index Index in the given
 				parametric direction. If M is 0, the knot is removed.
 				With a modification of this type, the table of poles is also modified.
 				Two different algorithms are used systematically to compute the new
@@ -747,14 +659,12 @@ projectPoint(Vector,"Point") -> list of points
 
 				A low tolerance prevents modification of the surface. A high tolerance
 				'smoothes' the surface.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> removeVKnot
 
-
-				Reduces to M the multiplicity of the knot of index Index in the given
+Reduces to M the multiplicity of the knot of index Index in the given
 				parametric direction. If M is 0, the knot is removed.
 				With a modification of this type, the table of poles is also modified.
 				Two different algorithms are used systematically to compute the new
@@ -767,7 +677,6 @@ projectPoint(Vector,"Point") -> list of points
 
 				A low tolerance prevents modification of the surface. A high tolerance
 				'smoothes' the surface.
-				
 
 
 
@@ -803,8 +712,7 @@ Applies a scaling transformation on this geometric object with a center and scal
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> segment
 
-
-					Modifies this B-Spline surface by segmenting it between U1 and U2 in the
+Modifies this B-Spline surface by segmenting it between U1 and U2 in the
 					u parametric direction and between V1 and V2 in the v parametric direction.
 					Any of these values can be outside the bounds of this surface, but U2 must
 					be greater than U1 and V2 must be greater than V1.
@@ -813,7 +721,6 @@ Applies a scaling transformation on this geometric object with a center and scal
 					knots located between U1 and U2 in the u parametric direction, and between
 					V1 and V2 in the v parametric direction are retained.
 					The degree of the surface in each parametric direction is not modified.
-				
 
 
 
@@ -825,69 +732,58 @@ Sets a geometry extension of the indicated type.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setPole
 
-
-					Modifies this B-Spline surface by assigning P to the pole of
+Modifies this B-Spline surface by assigning P to the pole of
 					index (UIndex, VIndex) in the poles table.
 					The second syntax allows you also to change the weight of the
 					modified pole. The weight is set to Weight. This syntax must
 					only be used for rational surfaces.
 					Modifies this B-Spline curve by assigning P to the pole of
 					index Index in the poles table.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setPoleCol
 
-
-					Modifies this B-Spline surface by assigning values to all or part
+Modifies this B-Spline surface by assigning values to all or part
 					of the column of poles of index VIndex, of this B-Spline surface.
 					You can also change the weights of the modified poles. The weights
 					are set to the corresponding values of CPoleWeights.
 					These syntaxes must only be used for rational surfaces.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setPoleRow
 
-
-					Modifies this B-Spline surface by assigning values to all or part
+Modifies this B-Spline surface by assigning values to all or part
 					of the row of poles of index VIndex, of this B-Spline surface.
 					You can also change the weights of the modified poles. The weights
 					are set to the corresponding values of CPoleWeights.
 					These syntaxes must only be used for rational surfaces.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setUKnot
 
-
-					Modifies this B-Spline surface by assigning the value K to the knot of index
+Modifies this B-Spline surface by assigning the value K to the knot of index
 					UIndex of the knots table corresponding to the u parametric direction.
 					This modification remains relatively local, since K must lie between the values
 					of the knots which frame the modified knot.
 
 					You can also increase the multiplicity of the modified knot to M. Note however
 					that it is not possible to decrease the multiplicity of a knot with this function.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setUKnots
 
-
-					Changes all knots of this B-Spline surface in the u parametric
+Changes all knots of this B-Spline surface in the u parametric
 					direction. The multiplicity of the knots is not modified.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setUNotPeriodic
 
-
-					Changes this B-Spline surface into a non-periodic one in the u parametric direction.
+Changes this B-Spline surface into a non-periodic one in the u parametric direction.
 					If this B-Spline surface is already non-periodic in the given parametric direction,
 					it is not modified.
 					If this B-Spline surface is periodic in the given parametric direction, the boundaries
@@ -898,25 +794,21 @@ Sets a geometry extension of the indicated type.
 					this property.
 
 					Note: the poles and knots tables are modified.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setUOrigin
 
-
-					Assigns the knot of index Index in the knots table
+Assigns the knot of index Index in the knots table
 					in the u parametric direction to be the origin of
 					this periodic B-Spline surface. As a consequence,
 					the knots and poles tables are modified.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setUPeriodic
 
-
-					Modifies this surface to be periodic in the u parametric direction.
+Modifies this surface to be periodic in the u parametric direction.
 					To become periodic in a given parametric direction a surface must
 					be closed in that parametric direction, and the knot sequence relative
 					to that direction must be periodic.
@@ -929,37 +821,31 @@ Sets a geometry extension of the indicated type.
 					Knots(I1) - Knots(I2)
 
 					As a result, the knots and poles tables are modified.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setVKnot
 
-
-					Modifies this B-Spline surface by assigning the value K to the knot of index
+Modifies this B-Spline surface by assigning the value K to the knot of index
 					VIndex of the knots table corresponding to the v parametric direction.
 					This modification remains relatively local, since K must lie between the values
 					of the knots which frame the modified knot.
 
 					You can also increase the multiplicity of the modified knot to M. Note however
 					that it is not possible to decrease the multiplicity of a knot with this function.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setVKnots
 
-
-					Changes all knots of this B-Spline surface in the v parametric
+Changes all knots of this B-Spline surface in the v parametric
 					direction. The multiplicity of the knots is not modified.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setVNotPeriodic
 
-
-					Changes this B-Spline surface into a non-periodic one in the v parametric direction.
+Changes this B-Spline surface into a non-periodic one in the v parametric direction.
 					If this B-Spline surface is already non-periodic in the given parametric direction,
 					it is not modified.
 					If this B-Spline surface is periodic in the given parametric direction, the boundaries
@@ -970,25 +856,21 @@ Sets a geometry extension of the indicated type.
 					this property.
 
 					Note: the poles and knots tables are modified.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setVOrigin
 
-
-					Assigns the knot of index Index in the knots table
+Assigns the knot of index Index in the knots table
 					in the v parametric direction to be the origin of
 					this periodic B-Spline surface. As a consequence,
 					the knots and poles tables are modified.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setVPeriodic
 
-
-					Modifies this surface to be periodic in the v parametric direction.
+Modifies this surface to be periodic in the v parametric direction.
 					To become periodic in a given parametric direction a surface must
 					be closed in that parametric direction, and the knot sequence relative
 					to that direction must be periodic.
@@ -1001,47 +883,40 @@ Sets a geometry extension of the indicated type.
 					Knots(I1) - Knots(I2)
 
 					As a result, the knots and poles tables are modified.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setWeight
 
-
-					Modifies this B-Spline surface by assigning the value Weight to the weight
+Modifies this B-Spline surface by assigning the value Weight to the weight
 					of the pole of index (UIndex, VIndex) in the poles tables of this B-Spline
 					surface.
 
 					This function must only be used for rational surfaces.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setWeightCol
 
-
-					Modifies this B-Spline surface by assigning values to all or part of the
+Modifies this B-Spline surface by assigning values to all or part of the
 					weights of the column of poles of index VIndex of this B-Spline surface.
 
 					The modified part of the column of weights is defined by the bounds
 					of the array CPoleWeights.
 
 					This function must only be used for rational surfaces.
-				
 
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> setWeightRow
 
-
-					Modifies this B-Spline surface by assigning values to all or part of the
+Modifies this B-Spline surface by assigning values to all or part of the
 					weights of the row of poles of index UIndex of this B-Spline surface.
 
 					The modified part of the row of weights is defined by the bounds of the
 					array CPoleWeights.
 
 					This function must only be used for rational surfaces.
-				
 
 
 
@@ -1054,8 +929,7 @@ Computes the tangent of parameter (u,v) on this geometry
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> toBSpline
 
-
-					Returns a B-Spline representation of this surface. 
+Returns a B-Spline representation of this surface. 
 					The optional arguments are:
 					* tolerance (default=1e-7)
 					* continuity in u (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
@@ -1065,7 +939,6 @@ Computes the tangent of parameter (u,v) on this geometry
 					* maximum number of segments (default=1000)
 					* precision code (default=0)
 					Will raise an exception if surface is infinite in U or V (like planes, cones or cylinders)
-				
 
 
 

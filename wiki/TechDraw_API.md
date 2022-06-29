@@ -4,6 +4,8 @@ This is a module for making drawings
 
 
 
+### Functions
+
 #### <img src="images/type_method.svg" style="width:16px;"> edgeWalker
 
 [wires] = edgeWalker(edgePile,inclBiggest) -- Planar graph traversal finds wires in edge pile.
@@ -42,7 +44,7 @@ makeDistanceDim(DrawViewPart, dimType, 3dFromPoint, 3dToPoint) -- draw a Length 
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeExtentDim
 
-makeExtentDim(DrawViewPart, [edges], direction) -- draw horizontal or vertical extent dimension for edges (or all of DrawViewPart if edge list is empty. direction:  0 - Horizontal, 1 - Vertical.
+0 - Horizontal, 1 - Vertical.
 
 
 
@@ -101,13 +103,13 @@ string = viewPartAsSvg(DrawViewPart) -- Return the edges of a DrawViewPart in Sv
 
 #### <img src="images/type_method.svg" style="width:16px;"> writeDXFPage
 
-writeDXFPage(page,filename): Exports a DrawPage to a DXF file.
+Exports a DrawPage to a DXF file.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> writeDXFView
 
-writeDXFView(view,filename): Exports a DrawViewPart to a DXF file.
+Exports a DrawViewPart to a DXF file.
 
 
 

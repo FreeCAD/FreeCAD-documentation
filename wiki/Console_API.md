@@ -5,6 +5,8 @@ FreeCAD Console
 
 
 
+### Functions
+
 #### <img src="images/type_method.svg" style="width:16px;"> GetStatus
 
 Get the status for either Log, Msg, Wrn or Error for an observer

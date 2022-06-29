@@ -1103,7 +1103,7 @@ class MediaWiki:
             #import FreeCADGui
             #module = FreeCADGui.Selection
             pass # TODO : handle this
-        elif modname in ["Console","Vector"]:
+        elif modname in ["Console","Vector","Matrix","Base","Placement"]:
             module = getattr(FreeCAD,modname)
         elif modname == "TopoShape":
             import Part
@@ -1121,7 +1121,14 @@ class MediaWiki:
             import inspect
             if module.__doc__:
                 md += module.__doc__
+            else:
+                md += "This page is an auto-generated Python API documentation, "
+                md += "including variables, classes and functions for module " + modname + "\n"
             md += "\n\n\n\n"
+            builtins = ""
+            modules = ""
+            types = ""
+            others = ""
             for membername in [m for m in dir(module) if not(m.startswith("_"))]:
                 member = getattr(module,membername)
                 membertype = str(type(member))
@@ -1131,25 +1138,45 @@ class MediaWiki:
                         memberattrs = str(inspect.signature(member))
                     except:
                         pass
-                md += "#### "
+                mmd = "#### "
                 if ("builtin" in membertype) or ("function" in membertype):
-                     md += make_icon(self.icon_function)
+                     mmd += make_icon(self.icon_function)
                 elif("module" in membertype):
-                    md += make_icon(self.icon_module)
+                    mmd += make_icon(self.icon_module)
                 elif("Type" in membertype):
-                    md += make_icon(self.icon_type)
+                    mmd += make_icon(self.icon_type)
                 else:
-                    md += make_icon(self.icon_builtin)
+                    mmd += make_icon(self.icon_builtin)
                 if (membername+"_API.md") in apipages:
-                    md += "[" + membername +"](" + membername +"_API.md)"
+                    mmd += "[" + membername +"](" + membername +"_API.md)"
                 else:
-                    md += membername
+                    mmd += membername
                 if memberattrs:
-                    md += " <small>" + memberattrs + "</small>"
-                md += "\n\n"
+                    mmd += " <small>" + memberattrs + "</small>"
+                mmd += "\n\n"
                 if member.__doc__:
-                    md += member.__doc__
-                md += "\n\n\n\n"
+                    d = member.__doc__.strip()
+                    d = re.sub("---+"," ",d)
+                    if d.startswith(membername):
+                        d = re.sub(membername+".*?\:","",d).strip()
+                    #d = re.sub("    ","",d)
+                    mmd += d
+                mmd += "\n\n\n\n"
+                if ("builtin" in membertype) or ("function" in membertype):
+                    builtins += mmd
+                elif("module" in membertype):
+                    modules += mmd
+                elif("Type" in membertype):
+                    types += mmd
+                else:
+                    others += mmd
+            if types:
+                md += "### Attributes\n\n" + types        
+            if builtins:
+                md += "### Functions\n\n" + builtins
+            md += others
+            if modules:
+                md += "### Modules\n\n" + modules
         md += "\n\n"
         md = self.addFooter(apipage[:-3],md)
         fname = os.path.join(self.output,apipage)

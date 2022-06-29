@@ -11,385 +11,11 @@ defined in `DraftTools.py`.
 
 
 
-#### <img src="images/Type_enum.svg" style="width:16px;"> AngularDimension <small>(obj)</small>
-
-The angular dimension object.
-
-    This inherits `DimensionBase` to provide the basic functionality of
-    a dimension.
-    
-
-
-
-#### <img src="images/type_module.svg" style="width:16px;"> App
-
-The functions in the FreeCAD module allow working with documents.
-The FreeCAD instance provides a list of references of documents which
-can be addressed by a string. Hence the document name must be unique.
-
-The document has the read-only attribute FileName which points to the
-file the document should be stored to.
-
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Array <small>(obj)</small>
-
-The Draft Array object.
-
-    To Do
-    -----
-    The `Array` class currently handles three types of arrays,
-    orthogonal, polar, and circular. In the future, probably they should be
-    split in separate classes so that they are easier to manage.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> BSpline <small>(obj)</small>
-
-The BSpline object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> BezCurve <small>(obj)</small>
-
-The BezCurve object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Block <small>(obj)</small>
-
-The Block object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Circle](Circle_API.md) <small>(obj)</small>
-
-The Circle object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Clone <small>(obj)</small>
-
-The Clone object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> DraftLabel <small>(obj)</small>
-
-The Draft Label object.
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> DraftLink <small>(obj, tp)</small>
-
-New class to use the App::Link objects in arrays.
-
-    Introduced by realthunder.
-    This is subclassed by `draftobjects.array.Array`
-    and by `draftobjects.patharray.PathArray`.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> DraftObject <small>(obj, tp='Unknown')</small>
-
-The base class for Draft objects.
-
-    Parameters
-    ----------
-    obj : a base C++ object
-        The base object instantiated during creation,
-        which commonly may be of types `Part::Part2DObjectPython`,
-        `Part::FeaturePython`, or `App::FeaturePython`.
-
-            >>> obj = App.ActiveDocument.addObject('Part::Part2DObjectPython')
-            >>> DraftObject(obj)
-
-        This class instance is stored in the `Proxy` attribute
-        of the base object.
-        ::
-            obj.Proxy = self
-
-    tp : str, optional
-        It defaults to `'Unknown'`.
-        It indicates the type of this scripted object,
-        which will be assigned to the Proxy's `Type` attribute.
-
-        This is useful to distinguish different types of scripted objects
-        that may be derived from the same C++ class.
-
-    Attributes
-    ----------
-    Type : str
-        It indicates the type of scripted object.
-        Normally `Type = tp`.
-
-        All objects have a `TypeId` attribute, but this attribute
-        refers to the C++ class only. Using the `Type` attribute
-        allows distinguishing among various types of objects
-        derived from the same C++ class.
-
-            >>> print(A.TypeId, "->", A.Proxy.Type)
-            Part::Part2DObjectPython -> Wire
-            >>> print(B.TypeId, "->", B.Proxy.Type)
-            Part::Part2DObjectPython -> Circle
-
-    This class attribute is accessible through the `Proxy` object:
-    `obj.Proxy.Type`.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> DraftText <small>(obj)</small>
-
-The Draft Text object.
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> DrawingView <small>(obj)</small>
-
-The DrawingView object. This class is OBSOLETE.
-
-    This object was used with the Drawing Workbench, but since this workbench
-    because obsolete in v0.17, the object should no longer be used.
-    It is retained for compatibility purposes, that is, to open older
-    files that may contain this object.
-
-    To produce 2D drawings, use TechDraw Workbench.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Ellipse](Ellipse_API.md) <small>(obj)</small>
-
-The Circle object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Facebinder <small>(obj)</small>
-
-The Draft Facebinder object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Fillet <small>(obj)</small>
-
-Proxy class for the Fillet object.
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Hatch <small>(obj)</small>
-
-
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Label <small>(obj)</small>
-
-The Draft Label object.
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Layer <small>(obj)</small>
-
-The Layer object.
-
-    This class is normally used to extend a base `App::FeaturePython` object.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> LinearDimension <small>(obj)</small>
-
-The linear dimension object.
-
-    This inherits `DimensionBase` to provide the basic functionality of
-    a dimension.
-
-    This linear dimension includes measurements between two vertices,
-    but also a radial dimension of a circular edge or arc.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> PathArray <small>(obj)</small>
-
-The Draft Path Array object.
-
-    The object distributes copies of an object along a path like a polyline,
-    spline, or bezier curve.
-
-    Attributes
-    ----------
-    Align: bool
-        It defaults to `False`.
-        It sets whether the object will be specially aligned to the path.
-
-    AlignMode: str
-        It defaults to `'Original'`.
-        Indicates the type of alignment that will be calculated when
-        `Align` is `True`.
-
-        `'Original'` mode is the historic `'Align'` for old (v0.18) documents.
-        It is not really the Fernat alignment. It uses the normal parameter
-        from `getNormal` (or the default) as a constant, it does not calculate
-        curve normal.
-        `X` is curve tangent, `Y` is normal parameter, `Z` is the cross product
-        `X` x `Y`.
-
-        `'Tangent'` mode is similar to `Original`, but includes a pre-rotation
-        (in execute) to align the `Base` object's `X` to `TangentVector`,
-        then `X` follows curve tangent, normal input parameter
-        is the Z component.
-
-        If `ForceVertical` is `True`, the normal parameter from `getNormal`
-        is ignored, and `X` is curve tangent, `Z` is `VerticalVector`,
-        and `Y` is the cross product `X` x `Z`.
-
-        `'Frenet'` mode orients the copies to a coordinate system
-        along the path.
-        `X` is tangent to curve, `Y` is curve normal, `Z` is curve binormal.
-        If normal cannot be computed, for example, in a straight line,
-        the default is used.
-
-    ForceVertical: bool
-        It defaults to `False`.
-        If it is `True`, and `AlignMode` is `'Original'` or `'Tangent'`,
-        it will use the vector in `VerticalVector` as the `Z` axis.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Point](Point_API.md) <small>(obj, x=0, y=0, z=0)</small>
-
-The Draft Point object.
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> PointArray <small>(obj)</small>
-
-The Draft Point Array object.
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Polygon <small>(obj)</small>
-
-The Polygon object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Rectangle <small>(obj)</small>
-
-The Rectangle object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Shape2DView <small>(obj)</small>
-
-The Shape2DView object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> ShapeString <small>(obj)</small>
-
-The ShapeString object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> Text <small>(obj)</small>
-
-The Draft Text object.
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraft <small>(vobj)</small>
-
-The base class for Draft view providers.
-
-    Parameters
-    ----------
-    vobj : a base C++ view provider
-        The view provider of the scripted object (`obj.ViewObject`),
-        which commonly may be of types `PartGui::ViewProvider2DObjectPython`,
-        `PartGui::ViewProviderPython`, or `Gui::ViewProviderPythonFeature`.
-
-        A basic view provider is instantiated during the creation
-        of the base C++ object, for example,
-        `Part::Part2DObjectPython`, `Part::FeaturePython`,
-        or `App::FeaturePython`.
-
-            >>> obj = App.ActiveDocument.addObject('Part::Part2DObjectPython')
-            >>> vobj = obj.ViewObject
-            >>> ViewProviderDraft(vobj)
-
-        This view provider class instance is stored in the `Proxy` attribute
-        of the base view provider.
-        ::
-            vobj.Proxy = self
-
-    Attributes
-    ----------
-    Object : the base C++ object
-        The scripted document object that is associated
-        with this view provider, which commonly may be of types
-        `Part::Part2DObjectPython`, `Part::FeaturePython`,
-        or `App::FeaturePython`.
-
-    texture : coin.SoTexture2
-        A texture that could be added to this object.
-
-    texcoords : coin.SoTextureCoordinatePlane
-        The coordinates defining a plane to use for aligning the texture.
-
-    These class attributes are accessible through the `Proxy` object:
-    `vobj.Proxy.Object`, `vobj.Proxy.texture`, etc.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftAlt <small>(vobj)</small>
-
-A view provider that doesn't absorb its base object in the tree view.
-
-    The `claimChildren` method is overridden to return an empty list.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftLink <small>(vobj)</small>
-
- A view provider for link type object.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftPart <small>(vobj)</small>
-
-A view provider that displays a Part icon instead of a Draft icon.
-
-    The `getIcon` method is overridden to provide `Part_3D_object.svg`.
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> [Wire](Wire_API.md) <small>(obj)</small>
-
-The Wire object
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> WorkingPlaneProxy <small>(obj)</small>
-
-The Draft working plane proxy object
-
-
+### Functions
 
 #### <img src="images/type_method.svg" style="width:16px;"> array <small>(objectslist, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None)</small>
 
-
-    This function creates an array of independent objects.
+This function creates an array of independent objects.
     Use make_array() to create a parametric array object.
     
     Creates an array of the given objects (that can be an object or a list
@@ -404,22 +30,12 @@ The Draft working plane proxy object
     the original.
 
     Use
-    ---
+     
     array(objectslist, xvector, yvector, xnum, ynum) for rectangular array
 
     array(objectslist, xvector, yvector, zvector, xnum, ynum, znum) for rectangular array
 
     array(objectslist, center, totalangle, totalnum) for polar array
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> arrowtypes
-
-Built-in mutable sequence.
-
-If no argument is given, the constructor creates a new empty list.
-The argument must be an iterable if specified.
 
 
 
@@ -439,10 +55,9 @@ Add a given object to the defined Draft autogroup, if applicable.
     Now it works with Draft Layers.
 
     Parameters
-    ----------
+     
     obj: App::DocumentObject
         Any type of object that will be stored in the group.
-    
 
 
 
@@ -455,7 +70,7 @@ clone(obj,[delta,forcedraft])
     object changes, the final object changes too.
 
     Parameters
-    ----------
+     
     obj :
 
     delta : Base.Vector
@@ -464,8 +79,6 @@ clone(obj,[delta,forcedraft])
     forcedraft : bool
         If forcedraft is True, the resulting object is a Draft clone
         even if the input object is an Arch object.
-
-    
 
 
 
@@ -482,12 +95,11 @@ Print the differences between 2 objects.
     Neither `Shape` nor `Label` attributes are compared.
 
     Parameters
-    ----------
+     
     obj1 : App::DocumentObject
         Any type of scripted object.
     obj2 : App::DocumentObject
         Any type of scripted object.
-    
 
 
 
@@ -504,12 +116,11 @@ Print the differences between 2 objects.
     Neither `Shape` nor `Label` attributes are compared.
 
     Parameters
-    ----------
+     
     obj1 : App::DocumentObject
         Any type of scripted object.
     obj2 : App::DocumentObject
         Any type of scripted object.
-    
 
 
 
@@ -530,67 +141,54 @@ Convert the given Annotation to a Draft text.
     This function was already present at splitting time during v0.19.
 
     Parameters
-    ----------
+     
     textslist: list of objects, optional
         It defaults to `None`.
         A list containing `App::Annotation` objects or a single of these
         objects.
         If it is `None` it will convert all objects in the current document.
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> copyMovedEdges <small>(arguments)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> copyRotatedEdges <small>(arguments)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> copyScaledEdges <small>(arguments)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> copy_moved_edges <small>(arguments)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> copy_rotated_edges <small>(arguments)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> copy_scaled_edges <small>(arguments)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
@@ -599,7 +197,7 @@ Convert the given Annotation to a Draft text.
 Return a cut object made from the difference of the 2 given objects.
 
     Parameters
-    ----------
+     
     object1: Part::Feature
         Any object with a `Part::TopoShape`.
 
@@ -607,13 +205,12 @@ Return a cut object made from the difference of the 2 given objects.
         Any object with a `Part::TopoShape`.
 
     Returns
-    -------
+     
     Part::Cut
         The resulting cut object.
 
     None
         If there is a problem and the new object can't be created.
-    
 
 
 
@@ -625,7 +222,7 @@ Return a SoSeparator with a line used to make dimension dashes.
     like `'Tick-2'`, `'DimOvershoot'`, and `'ExtOvershoot'` dashes.
 
     Parameters
-    ----------
+     
     p1: tuple of three floats or Base::Vector3
         A point to define a line vertex.
 
@@ -633,11 +230,10 @@ Return a SoSeparator with a line used to make dimension dashes.
         A point to define a line vertex.
 
     Returns
-    -------
+     
     Coin.SoSeparator
         A Coin object with a `SoLineSet` created from `p1` and `p2`
         as vertices.
-    
 
 
 
@@ -646,7 +242,7 @@ Return a SoSeparator with a line used to make dimension dashes.
 Return the specified dimension symbol.
 
     Parameters
-    ----------
+     
     symbol: int, optional
         It defaults to `None`, in which it gets the value from the parameter
         database, `get_param("dimsymbol", 0)`.
@@ -666,11 +262,10 @@ Return the specified dimension symbol.
         +90 degrees.
 
     Returns
-    -------
+     
     Coin.SoNode
         A `Coin.SoSphere`, or `Coin.SoSeparator` (circle, cone, face, line)
         that will be used as a dimension symbol.
-    
 
 
 
@@ -682,7 +277,7 @@ Return a SoSeparator with a line used to make dimension dashes.
     like `'Tick-2'`, `'DimOvershoot'`, and `'ExtOvershoot'` dashes.
 
     Parameters
-    ----------
+     
     p1: tuple of three floats or Base::Vector3
         A point to define a line vertex.
 
@@ -690,11 +285,10 @@ Return a SoSeparator with a line used to make dimension dashes.
         A point to define a line vertex.
 
     Returns
-    -------
+     
     Coin.SoSeparator
         A Coin object with a `SoLineSet` created from `p1` and `p2`
         as vertices.
-    
 
 
 
@@ -703,7 +297,7 @@ Return a SoSeparator with a line used to make dimension dashes.
 Return the specified dimension symbol.
 
     Parameters
-    ----------
+     
     symbol: int, optional
         It defaults to `None`, in which it gets the value from the parameter
         database, `get_param("dimsymbol", 0)`.
@@ -723,11 +317,10 @@ Return the specified dimension symbol.
         +90 degrees.
 
     Returns
-    -------
+     
     Coin.SoNode
         A `Coin.SoSphere`, or `Coin.SoSeparator` (circle, cone, face, line)
         that will be used as a dimension symbol.
-    
 
 
 
@@ -738,7 +331,7 @@ Downgrade the given objects.
     This is a counterpart to `upgrade`.
 
     Parameters
-    ----------
+     
     objects: Part::Feature or list
         A single object to downgrade or a list
         containing various such objects.
@@ -755,7 +348,7 @@ Downgrade the given objects.
         `'cut2'`, `'getWire'`, `'splitWires'`, or `'splitCompounds'`.
 
     Returns
-    -------
+     
     tuple
         A tuple containing two lists, a list of new objects
         and a list of objects to be deleted.
@@ -764,9 +357,8 @@ Downgrade the given objects.
         If there is a problem it will return `None`.
 
     See Also
-    --------
+     
     ugrade
-    
 
 
 
@@ -780,7 +372,7 @@ draftify(objectslist,[makeblock],[delete])
     TODO: support more objects
 
     Parameters
-    ----------
+     
     objectslist :
 
     makeblock : bool
@@ -788,7 +380,6 @@ draftify(objectslist,[makeblock],[delete])
     
     delete : bool
         If delete = False, old objects are not deleted
-    
 
 
 
@@ -803,10 +394,9 @@ Return a small number based on the tolerance for use in comparisons.
         epsilon = num/denom
 
     Returns
-    -------
+     
     float
         1/(10**tolerance)
-    
 
 
 
@@ -817,7 +407,7 @@ extrude(object, vector, [solid])
     Create a Part::Extrusion object from a given object.
 
     Parameters
-    ----------
+     
     obj :
 
     vector : Base.Vector
@@ -825,7 +415,6 @@ extrude(object, vector, [solid])
     
     solid : bool
         TODO: describe.
-    
 
 
 
@@ -850,7 +439,7 @@ Apply visual properties from the Draft toolbar or another object.
     (`obj.ViewObject`).
 
     Parameters
-    ----------
+     
     target: App::DocumentObject
         Any type of scripted object.
 
@@ -868,7 +457,6 @@ Apply visual properties from the Draft toolbar or another object.
         If it exists, it will provide the visual properties to assign
         to `target`, with the exception of `BoundingBox`, `Proxy`,
         `RootNode` and `Visibility`.
-    
 
 
 
@@ -881,7 +469,7 @@ Apply visual properties from the Draft toolbar or another object.
     (`obj.ViewObject`).
 
     Parameters
-    ----------
+     
     target: App::DocumentObject
         Any type of scripted object.
 
@@ -899,7 +487,6 @@ Apply visual properties from the Draft toolbar or another object.
         If it exists, it will provide the visual properties to assign
         to `target`, with the exception of `BoundingBox`, `Proxy`,
         `RootNode` and `Visibility`.
-    
 
 
 
@@ -910,8 +497,6 @@ fuse(oject1, object2)
     Returns an object made from the union of the 2 given objects. 
     If the objects are coplanar, a special Draft Wire is used, otherwise we use
     a standard Part fuse.
-    
-    
 
 
 
@@ -920,13 +505,12 @@ fuse(oject1, object2)
 Return the current 3D view.
 
     Returns
-    -------
+     
     Gui::View3DInventor
         Return the current `ActiveView` in the active document,
         or the first `Gui::View3DInventor` view found.
 
         Return `None` if the graphical interface is not available.
-    
 
 
 
@@ -935,7 +519,7 @@ Return the current 3D view.
 Return the object cloned by this object, if any.
 
     Parameters
-    ----------
+     
     obj: App::DocumentObject
         Any type of object.
 
@@ -952,7 +536,7 @@ Return the object cloned by this object, if any.
         base object.
 
     Returns
-    -------
+     
     App::DocumentObject
         It `obj` is a `Draft Clone`, it will return the first object
         that is in its `Objects` property.
@@ -967,7 +551,6 @@ Return the object cloned by this object, if any.
     False
         It will return `False` if `obj` is not a clone,
         and `strict` is `True`.
-    
 
 
 
@@ -1000,7 +583,7 @@ Return a list of objects with child objects. DEPRECATED.
 Return only the objects that match the type in the list of objects.
 
     Parameters
-    ----------
+     
     objects : list of App::DocumentObject
         A list of objects which will be tested.
 
@@ -1009,10 +592,9 @@ Return only the objects that match the type in the list of objects.
         that can be returned by `get_type`.
 
     Returns
-    -------
+     
     list of objects
         Only the objects that match `typ` will be added to the output list.
-    
 
 
 
@@ -1031,7 +613,7 @@ Return a parameter value from the current parameter database.
         'User parameter:BaseApp/Preferences/View/DefaultShapeLineColor'
 
     Parameters
-    ----------
+     
     param : str
         A string that indicates a parameter in the parameter database.
 
@@ -1042,12 +624,11 @@ Return a parameter value from the current parameter database.
         with `get_param_type`.
 
     Returns
-    -------
+     
     int, or str, or float, or bool
         Depending on `param` and its type, by returning `ParameterGrp.GetInt`,
         `ParameterGrp.GetString`, `ParameterGrp.GetFloat`,
         `ParameterGrp.GetBool`, or `ParameterGrp.GetUnsinged`.
-    
 
 
 
@@ -1056,17 +637,16 @@ Return a parameter value from the current parameter database.
 Return the type of the parameter entered.
 
     Parameters
-    ----------
+     
     param : str
         A string that indicates a parameter in the parameter database.
 
     Returns
-    -------
+     
     str or None
         The returned string could be `'int'`, `'string'`, `'float'`,
         `'bool'`, `'unsigned'`, depending on the parameter.
         It returns `None` for unhandled situations.
-    
 
 
 
@@ -1075,17 +655,16 @@ Return the type of the parameter entered.
 Strip the trailing numbers from a string to get only the letters.
 
     Parameters
-    ----------
+     
     name : str
         A string that may have a number at the end, `Line001`.
 
     Returns
-    -------
+     
     str
         A string without the numbers at the end, `Line`.
         The returned string cannot be empty; it will have
         at least one letter.
-    
 
 
 
@@ -1105,7 +684,7 @@ Return the current selected objects.
     It wraps around `Gui.Selection.getSelection`
 
     Parameters
-    ----------
+     
     gui: bool, optional
         It defaults to the value of `App.GuiUp`, which is `True`
         when the interface exists, and `False` otherwise.
@@ -1114,13 +693,12 @@ Return the current selected objects.
         when the interface is not available.
 
     Returns
-    -------
+     
     list of App::DocumentObject
         Returns a list of objects in the current selection.
         It can be an empty list if no object is selected.
 
         If the interface is not available, it returns `None`.
-    
 
 
 
@@ -1134,7 +712,7 @@ Return the current selected objects together with their subelements.
     It wraps around `Gui.Selection.getSelectionEx`
 
     Parameters
-    ----------
+     
     gui: bool, optional
         It defaults to the value of `App.GuiUp`, which is `True`
         when the interface exists, and `False` otherwise.
@@ -1143,7 +721,7 @@ Return the current selected objects together with their subelements.
         when the interface is not available.
 
     Returns
-    -------
+     
     list of Gui::SelectionObject
         Returns a list of `Gui::SelectionObject` in the current selection.
         It can be an empty list if no object is selected.
@@ -1151,7 +729,7 @@ Return the current selected objects together with their subelements.
         If the interface is not available, it returns `None`.
 
     Selection objects
-    -----------------
+     
     One `Gui::SelectionObject` has attributes that indicate which specific
     subelements, that is, vertices, wires, and faces, were selected.
     This can be useful to operate on the subelements themselves.
@@ -1164,7 +742,6 @@ Return the current selected objects together with their subelements.
 
     `SubObjects` and `SubElementNames` should be empty tuples
     if `HasSubObjects` is `False`.
-    
 
 
 
@@ -1173,13 +750,13 @@ Return the current selected objects together with their subelements.
 Return a string indicating the type of the given object.
 
     Parameters
-    ----------
+     
     obj : App::DocumentObject
         Any type of scripted object created with Draft,
         or any other workbench.
 
     Returns
-    -------
+     
     str
         If `obj` has a `Proxy`, it will return the value of `obj.Proxy.Type`.
 
@@ -1189,7 +766,6 @@ Return a string indicating the type of the given object.
 
         In other cases, it will return `'Unknown'`,
         or `None` if `obj` is `None`.
-    
 
 
 
@@ -1198,13 +774,12 @@ Return a string indicating the type of the given object.
 Return the current 3D view.
 
     Returns
-    -------
+     
     Gui::View3DInventor
         Return the current `ActiveView` in the active document,
         or the first `Gui::View3DInventor` view found.
 
         Return `None` if the graphical interface is not available.
-    
 
 
 
@@ -1222,12 +797,12 @@ Return a BoundBox from any object that has a Coin RootNode.
     the bounding box can be calculated from the `RootNode` of the viewprovider.
 
     Parameters
-    ----------
+     
     obj: App::DocumentObject
         Any object that has a `ViewObject.RootNode`.
 
     Returns
-    -------
+     
     Base::BoundBox
         It returns a `BoundBox` object which has information like
         minimum and maximum values of X, Y, and Z, as well as bounding box
@@ -1235,7 +810,6 @@ Return a BoundBox from any object that has a Coin RootNode.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -1244,7 +818,7 @@ Return a BoundBox from any object that has a Coin RootNode.
 Return the object cloned by this object, if any.
 
     Parameters
-    ----------
+     
     obj: App::DocumentObject
         Any type of object.
 
@@ -1261,7 +835,7 @@ Return the object cloned by this object, if any.
         base object.
 
     Returns
-    -------
+     
     App::DocumentObject
         It `obj` is a `Draft Clone`, it will return the first object
         that is in its `Objects` property.
@@ -1276,7 +850,6 @@ Return the object cloned by this object, if any.
     False
         It will return `False` if `obj` is not a clone,
         and `strict` is `True`.
-    
 
 
 
@@ -1285,7 +858,6 @@ Return the object cloned by this object, if any.
 Return a DXF entity from the given object.
 
     If direction is given, the object is projected in 2D.
-    
 
 
 
@@ -1297,7 +869,7 @@ Return a list of objects from expanding the input groups.
     with "groups", as it is meant to unpack the objects inside these groups.
 
     Parameters
-    ----------
+     
     objectslist: list
         If any object in the list is considered a group, see the `is_group`
         function, its contents (`obj.Group`) are extracted and added to the
@@ -1327,11 +899,10 @@ Return a list of objects from expanding the input groups.
         (Arch Workbench) aren't added to the output list.
 
     Returns
-    -------
+     
     list
         The list of objects from each group present in `objectslist`,
         plus any other individual object given in `objectslist`.
-    
 
 
 
@@ -1340,20 +911,19 @@ Return a list of objects from expanding the input groups.
 Return a list of names of existing groups in the document.
 
     Parameters
-    ----------
+     
     doc: App::Document, optional
         It defaults to `None`.
         A document on which to search group names.
         It if is `None` it will search the current document.
 
     Returns
-    -------
+     
     list of str
         A list of names of objects that are considered groups.
         See the is_group function.
 
         Otherwise returns an empty list.
-    
 
 
 
@@ -1366,7 +936,7 @@ Return a list of objects with child objects that move with a host.
     This function is mostly useful for Arch Workbench objects.
 
     Parameters
-    ----------
+     
     objectslist: list of App::DocumentObject
         A single scripted object or list of objects.
 
@@ -1378,11 +948,10 @@ Return a list of objects with child objects that move with a host.
         are added to the output list.
 
     Returns
-    -------
+     
     list
         List of children objects that have their `MoveWithHost` attribute
         set to `True`.
-    
 
 
 
@@ -1391,7 +960,7 @@ Return a list of objects with child objects that move with a host.
 Return only the objects that match the type in the list of objects.
 
     Parameters
-    ----------
+     
     objects : list of App::DocumentObject
         A list of objects which will be tested.
 
@@ -1400,10 +969,9 @@ Return only the objects that match the type in the list of objects.
         that can be returned by `get_type`.
 
     Returns
-    -------
+     
     list of objects
         Only the objects that match `typ` will be added to the output list.
-    
 
 
 
@@ -1422,7 +990,7 @@ Return a parameter value from the current parameter database.
         'User parameter:BaseApp/Preferences/View/DefaultShapeLineColor'
 
     Parameters
-    ----------
+     
     param : str
         A string that indicates a parameter in the parameter database.
 
@@ -1433,12 +1001,11 @@ Return a parameter value from the current parameter database.
         with `get_param_type`.
 
     Returns
-    -------
+     
     int, or str, or float, or bool
         Depending on `param` and its type, by returning `ParameterGrp.GetInt`,
         `ParameterGrp.GetString`, `ParameterGrp.GetFloat`,
         `ParameterGrp.GetBool`, or `ParameterGrp.GetUnsinged`.
-    
 
 
 
@@ -1447,17 +1014,16 @@ Return a parameter value from the current parameter database.
 Return the type of the parameter entered.
 
     Parameters
-    ----------
+     
     param : str
         A string that indicates a parameter in the parameter database.
 
     Returns
-    -------
+     
     str or None
         The returned string could be `'int'`, `'string'`, `'float'`,
         `'bool'`, `'unsigned'`, depending on the parameter.
         It returns `None` for unhandled situations.
-    
 
 
 
@@ -1466,17 +1032,16 @@ Return the type of the parameter entered.
 Strip the trailing numbers from a string to get only the letters.
 
     Parameters
-    ----------
+     
     name : str
         A string that may have a number at the end, `Line001`.
 
     Returns
-    -------
+     
     str
         A string without the numbers at the end, `Line`.
         The returned string cannot be empty; it will have
         at least one letter.
-    
 
 
 
@@ -1485,10 +1050,9 @@ Strip the trailing numbers from a string to get only the letters.
 Return an RRGGBB value #000000 from a FreeCAD color.
 
     Parameters
-    ----------
+     
     testwb : bool (default = True)
         pure white will be converted into pure black
-    
 
 
 
@@ -1502,7 +1066,7 @@ Return the current selected objects.
     It wraps around `Gui.Selection.getSelection`
 
     Parameters
-    ----------
+     
     gui: bool, optional
         It defaults to the value of `App.GuiUp`, which is `True`
         when the interface exists, and `False` otherwise.
@@ -1511,13 +1075,12 @@ Return the current selected objects.
         when the interface is not available.
 
     Returns
-    -------
+     
     list of App::DocumentObject
         Returns a list of objects in the current selection.
         It can be an empty list if no object is selected.
 
         If the interface is not available, it returns `None`.
-    
 
 
 
@@ -1531,7 +1094,7 @@ Return the current selected objects together with their subelements.
     It wraps around `Gui.Selection.getSelectionEx`
 
     Parameters
-    ----------
+     
     gui: bool, optional
         It defaults to the value of `App.GuiUp`, which is `True`
         when the interface exists, and `False` otherwise.
@@ -1540,7 +1103,7 @@ Return the current selected objects together with their subelements.
         when the interface is not available.
 
     Returns
-    -------
+     
     list of Gui::SelectionObject
         Returns a list of `Gui::SelectionObject` in the current selection.
         It can be an empty list if no object is selected.
@@ -1548,7 +1111,7 @@ Return the current selected objects together with their subelements.
         If the interface is not available, it returns `None`.
 
     Selection objects
-    -----------------
+     
     One `Gui::SelectionObject` has attributes that indicate which specific
     subelements, that is, vertices, wires, and faces, were selected.
     This can be useful to operate on the subelements themselves.
@@ -1561,7 +1124,6 @@ Return the current selected objects together with their subelements.
 
     `SubObjects` and `SubElementNames` should be empty tuples
     if `HasSubObjects` is `False`.
-    
 
 
 
@@ -1570,7 +1132,7 @@ Return the current selected objects together with their subelements.
 Return a string containing an SVG representation of the object.
 
     Paramaeters
-    -----------
+     
     scale: float, optional
         It defaults to 1.
         It allows scaling line widths down, so they are resolution-independent.
@@ -1612,7 +1174,6 @@ Return a string containing an SVG representation of the object.
 
     override: bool, optional
         It defaults to `True`.
-    
 
 
 
@@ -1621,13 +1182,13 @@ Return a string containing an SVG representation of the object.
 Return a string indicating the type of the given object.
 
     Parameters
-    ----------
+     
     obj : App::DocumentObject
         Any type of scripted object created with Draft,
         or any other workbench.
 
     Returns
-    -------
+     
     str
         If `obj` has a `Proxy`, it will return the value of `obj.Proxy.Type`.
 
@@ -1637,7 +1198,6 @@ Return a string indicating the type of the given object.
 
         In other cases, it will return `'Unknown'`,
         or `None` if `obj` is `None`.
-    
 
 
 
@@ -1646,7 +1206,7 @@ Return a string indicating the type of the given object.
 Return the windows and rebars inside a host.
 
     Parameters
-    ----------
+     
     obj: App::DocumentObject
         A scripted object of type `'Wall'` or `'Structure'`
         (Arch Workbench).
@@ -1659,12 +1219,11 @@ Return the windows and rebars inside a host.
         and structures.
 
     Returns
-    -------
+     
     list
         A list of all found windows and rebars in `obj`.
         If `obj` is itself a `'Window'` or a `'Rebar'`, or a clone of them,
         it will return the same `obj` element.
-    
 
 
 
@@ -1673,20 +1232,9 @@ Return the windows and rebars inside a host.
 Return an RRGGBB value #000000 from a FreeCAD color.
 
     Parameters
-    ----------
+     
     testwb : bool (default = True)
         pure white will be converted into pure black
-    
-
-
-
-#### <img src="images/Type_enum.svg" style="width:16px;"> gui
-
-bool(x) -> bool
-
-Returns True when the argument x is true, False otherwise.
-The builtins True and False are the only two instances of the class bool.
-The class bool is a subclass of the class int, and cannot be subclassed.
 
 
 
@@ -1699,7 +1247,7 @@ heal([objlist],[delete],[reparent])
     will be healed if they are damaged.
 
     Parameters
-    ----------
+     
     objlist : list
 
     delete : Base.Vector or list of Base.Vector
@@ -1708,7 +1256,6 @@ heal([objlist],[delete],[reparent])
     reparent : bool
         If reparent is True (default), new objects go at the very same place 
         in the tree than their original.
-    
 
 
 
@@ -1726,7 +1273,7 @@ Return True if the given object is a clone of a certain type.
     can be compared to `objtype`.
 
     Parameters
-    ----------
+     
     obj : App::DocumentObject
         The clone object that will be tested for a certain type.
 
@@ -1743,7 +1290,7 @@ Return True if the given object is a clone of a certain type.
         that is, if `obj` is a clone of a clone.
 
     Returns
-    -------
+     
     bool
         Returns `True` if `obj` is of type `'Clone'`,
         and `obj.Object[0]` is of type `objtype`.
@@ -1757,7 +1304,6 @@ Return True if the given object is a clone of a certain type.
 
         It returns `False` otherwise, for example,
         if `obj` is not even a clone.
-    
 
 
 
@@ -1781,7 +1327,7 @@ Return True if the given object is a clone of a certain type.
     can be compared to `objtype`.
 
     Parameters
-    ----------
+     
     obj : App::DocumentObject
         The clone object that will be tested for a certain type.
 
@@ -1798,7 +1344,7 @@ Return True if the given object is a clone of a certain type.
         that is, if `obj` is a clone of a clone.
 
     Returns
-    -------
+     
     bool
         Returns `True` if `obj` is of type `'Clone'`,
         and `obj.Object[0]` is of type `objtype`.
@@ -1812,7 +1358,6 @@ Return True if the given object is a clone of a certain type.
 
         It returns `False` otherwise, for example,
         if `obj` is not even a clone.
-    
 
 
 
@@ -1827,12 +1372,12 @@ Return True if the given object is a clone of a certain type.
 Return True if the given object is considered a group.
 
     Parameters
-    ----------
+     
     obj : App::DocumentObject
         The object to check.
 
     Returns
-    -------
+     
     bool
         Returns `True` if `obj` is considered a group:
 
@@ -1844,13 +1389,12 @@ Return True if the given object is considered a group.
         Note that `'Floor'` and `'Building'` are obsolete types.
 
         Otherwise returns `False`.
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> joinTwoWires <small>(wire1, wire2)</small>
 
-joinTwoWires(object, object): joins two wires if they share a common
+joins two wires if they share a common
     point as a start or an end.
 
     BUG: it occasionally fails to join lines even if the lines
@@ -1860,13 +1404,12 @@ joinTwoWires(object, object): joins two wires if they share a common
     and thus the lines not joining.
     Test properly using `DraftVecUtils.equals` because then it will consider
     the precision set in the Draft preferences.
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> joinWires <small>(wires, joinAttempts=0)</small>
 
-joinWires(objects): merges a set of wires where possible, if any of those
+merges a set of wires where possible, if any of those
     wires have a coincident start and end point
 
 
@@ -1883,7 +1426,6 @@ joinTwoWires(object, object): joins two wires if they share a common
     and thus the lines not joining.
     Test properly using `DraftVecUtils.equals` because then it will consider
     the precision set in the Draft preferences.
-    
 
 
 
@@ -1900,7 +1442,6 @@ Load the default Draft SVG patterns and user defined patterns.
 
     The SVG patterns are added as a dictionary to the `App.svgpatterns`
     attribute.
-    
 
 
 
@@ -1913,7 +1454,7 @@ Return a Coin.SoSFImage to use as a texture for a 2D plane.
     are attributes of the view provider (`obj.ViewObject`).
 
     Parameters
-    ----------
+     
     filename: str
         A path to a pixel image file (PNG) that can be used as a texture
         on the face of an object.
@@ -1938,7 +1479,7 @@ Return a Coin.SoSFImage to use as a texture for a 2D plane.
         when the interface is not available.
 
     Returns
-    -------
+     
     coin.SoSFImage
         An image object with the appropriate size, number of components
         (grayscale, grayscale and transparency, color,
@@ -1946,7 +1487,6 @@ Return a Coin.SoSFImage to use as a texture for a 2D plane.
 
         It returns `None` if the interface is not available,
         or if there is a problem creating the image.
-    
 
 
 
@@ -1956,7 +1496,6 @@ Load the default Draft SVG patterns and user defined patterns.
 
     The SVG patterns are added as a dictionary to the `App.svgpatterns`
     attribute.
-    
 
 
 
@@ -1969,7 +1508,7 @@ Return a Coin.SoSFImage to use as a texture for a 2D plane.
     are attributes of the view provider (`obj.ViewObject`).
 
     Parameters
-    ----------
+     
     filename: str
         A path to a pixel image file (PNG) that can be used as a texture
         on the face of an object.
@@ -1994,7 +1533,7 @@ Return a Coin.SoSFImage to use as a texture for a 2D plane.
         when the interface is not available.
 
     Returns
-    -------
+     
     coin.SoSFImage
         An image object with the appropriate size, number of components
         (grayscale, grayscale and transparency, color,
@@ -2002,7 +1541,6 @@ Return a Coin.SoSFImage to use as a texture for a 2D plane.
 
         It returns `None` if the interface is not available,
         or if there is a problem creating the image.
-    
 
 
 
@@ -2025,7 +1563,7 @@ make_bspline(pointslist, [closed], [placement])
     Creates a B-Spline object from the given list of vectors.
     
     Parameters
-    ----------
+     
     pointlist : [Base.Vector]
         List of points to create the polyline.
         Instead of a pointslist, you can also pass a Part Wire.
@@ -2044,7 +1582,6 @@ make_bspline(pointslist, [closed], [placement])
 
     support : 
         TODO: Describe
-    
 
 
 
@@ -2055,7 +1592,7 @@ make_bezcurve(pointslist, [closed], [placement])
     Creates a Bezier Curve object from the given list of vectors.
     
     Parameters
-    ----------
+     
     pointlist : [Base.Vector]
         List of points to create the polyline.
         Instead of a pointslist, you can also pass a Part Wire.
@@ -2077,7 +1614,6 @@ make_bezcurve(pointslist, [closed], [placement])
     
     degree : int
         Degree of the BezCurve
-    
 
 
 
@@ -2088,11 +1624,9 @@ make_block(objectslist)
     Creates a Draft Block from the given objects.
 
     Parameters
-    ----------
+     
     objectlist : list
         Major radius of the ellipse.
-
-    
 
 
 
@@ -2104,7 +1638,7 @@ make_circle(radius, [placement, face, startangle, endangle])
     Creates a circle object with given parameters. 
 
     Parameters
-    ----------
+     
     radius : the radius of the circle.
 
     placement : 
@@ -2125,7 +1659,6 @@ make_circle(radius, [placement, face, startangle, endangle])
 
     support : 
         TODO: Describe
-    
 
 
 
@@ -2136,7 +1669,7 @@ make_copy(object, [force], [reparent], [simple_copy])
     Make an exact copy of an object and return it.
 
     Parameters
-    ----------
+     
     obj :
         Object to copy.
 
@@ -2149,7 +1682,6 @@ make_copy(object, [force], [reparent], [simple_copy])
     simple_copy :
         Create a simple copy of the object (a new non parametric
         Part::Feature with the same Shape as the given object).
-    
 
 
 
@@ -2161,14 +1693,13 @@ Create a dimension. DEPRECATED. Use 'make_dimension'.
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeDrawingView <small>(obj, page, lwmod=None, tmod=None, otherProjection=None)</small>
 
-
-    make_drawing_view(object,page,[lwmod,tmod])
+make_drawing_view(object,page,[lwmod,tmod])
     
     This function is OBSOLETE, since TechDraw substituted the Drawing Workbench.
     Add a View of the given object to the given page. 
 
     Parameters
-    ----------
+     
     lwmod : 
         modifies lineweights (in percent), 
     
@@ -2177,7 +1708,6 @@ Create a dimension. DEPRECATED. Use 'make_dimension'.
 
     The Hint scale, X and Y of the page are used.
         TODO: Document it properly
-    
 
 
 
@@ -2189,7 +1719,7 @@ make_ellipse(majradius, minradius, [placement], [face], [support])
     a placement.
 
     Parameters
-    ----------
+     
     majradius : 
         Major radius of the ellipse.
 
@@ -2205,7 +1735,6 @@ make_ellipse(majradius, minradius, [placement], [face], [support])
 
     support : 
         TODO: Describe.
-    
 
 
 
@@ -2216,13 +1745,12 @@ make_facebinder(selectionset, [name])
     Creates a Facebinder object from a selection set.
 
     Parameters
-    ----------
+     
     selectionset :
         Only faces will be added.
 
     name : string (default = "Facebinder")
         Name of the created object
-    
 
 
 
@@ -2245,7 +1773,7 @@ makeLine(first_param, p2)
     Creates a line from 2 points or from a given object.
 
     Parameters
-    ----------
+     
     first_param : 
         Base.Vector -> First point of the line (if p2 is None)
         Part.LineSegment -> Line is created from the given Linesegment
@@ -2254,7 +1782,6 @@ makeLine(first_param, p2)
     last_param : Base.Vector
         Second point of the line, if not set the function evaluates 
         the first_param to look for a Part.LineSegment or a Shape
-    
 
 
 
@@ -2266,13 +1793,13 @@ Create PathArray. DEPRECATED. Use 'make_path_array'.
 
 #### <img src="images/type_method.svg" style="width:16px;"> makePoint <small>(X=0, Y=0, Z=0, color=None, name='Point', point_size=5)</small>
 
- make_point(x, y, z, [color(r, g, b), point_size]) or
+make_point(x, y, z, [color(r, g, b), point_size]) or
         make_point(Vector, color(r, g, b), point_size])
 
     Creates a Draft Point in the current document.
 
     Parameters
-    ----------
+     
     X : 
         float -> X coordinate of the point
         Base.Vector -> Ignore Y and Z coordinates and create the point
@@ -2290,7 +1817,6 @@ Create PathArray. DEPRECATED. Use 'make_path_array'.
         make_point(0,0,0,(1,0,0)) # color = red
         example to change the color, make sure values are floats:
         p1.ViewObject.PointColor =(0.0,0.0,1.0)
-    
 
 
 
@@ -2307,7 +1833,7 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
     Creates a polygon object with the given number of edges and radius.
 
     Parameters
-    ----------
+     
     edges : int
         Number of edges of the polygon.
 
@@ -2326,7 +1852,6 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
     
     support : 
         TODO: Describe
-    
 
 
 
@@ -2338,7 +1863,7 @@ make_rectangle(length, width, [placement], [face])
     direction.
 
     Parameters
-    ----------
+     
     length, height : dimensions of the rectangle
 
     placement : Base.Placement
@@ -2353,7 +1878,6 @@ make_rectangle(length, width, [placement], [face])
     but you are responsible to check yourself that these 4 vertices are ordered
     and actually form a rectangle, otherwise the result might be wrong. Placement
     is ignored when constructing a rectangle this way (face argument is kept).
-    
 
 
 
@@ -2364,7 +1888,7 @@ make_shape2dview(object, [projectionVector], [facenumbers])
     Add a 2D shape to the document, which is a 2D projection of the given object. 
     
     Parameters
-    ----------
+     
     object : 
         TODO: Describe
 
@@ -2373,7 +1897,6 @@ make_shape2dview(object, [projectionVector], [facenumbers])
 
     facenumbers : [] TODO: Describe
         A list of face numbers to be considered in individual faces mode.
-    
 
 
 
@@ -2384,11 +1907,9 @@ ShapeString(Text,FontFile,[Height],[Track])
     Turns a text string into a Compound Shape
     
     Parameters
-    ----------
+     
     majradius : 
         Major radius of the ellipse.
-
-    
 
 
 
@@ -2400,7 +1921,7 @@ make_sketch(objects_list, [autoconstraints], [addTo], [delete],
     Makes a Sketch objects_list with the given Draft objects.
 
     Parameters
-    ----------
+     
     objects_list: can be single or list of objects of Draft type objects,
         Part::Feature, Part.Shape, or mix of them.
 
@@ -2423,7 +1944,6 @@ make_sketch(objects_list, [autoconstraints], [addTo], [delete],
 
     tol(1e-3): Tolerance used to check if the shapes are planar and coplanar.
         Consider change to tol=-1 for a more accurate analysis.
-    
 
 
 
@@ -2442,7 +1962,7 @@ make_wire(pointslist, [closed], [placement])
     a pointslist, you can also pass a Part Wire.
 
     Parameters
-    ----------
+     
     pointslist : [Base.Vector]
         List of points to create the polyline
 
@@ -2462,7 +1982,6 @@ make_wire(pointslist, [closed], [placement])
     
     bs2wire : bool
         TODO: Describe
-    
 
 
 
@@ -2473,10 +1992,9 @@ make_working_plane_proxy(placement)
     Creates a Working Plane proxy object in the current document.
 
     Parameters
-    ----------
+     
     placement : Base.Placement
         specify the p.
-    
 
 
 
@@ -2485,7 +2003,7 @@ make_working_plane_proxy(placement)
 Create an angular dimension from the given center and angles.
 
     Parameters
-    ----------
+     
     center: Base::Vector3, optional
         It defaults to the origin `Vector(0, 0, 0)`.
         Center of the dimension line, which is a circular arc.
@@ -2514,7 +2032,7 @@ Create an angular dimension from the given center and angles.
         defaults to +Z or `Vector(0, 0, 1)`.
 
     Returns
-    -------
+     
     App::FeaturePython
         A scripted object of type `'AngularDimension'`.
         This object does not have a `Shape` attribute, as the text and lines
@@ -2522,7 +2040,6 @@ Create an angular dimension from the given center and angles.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -2531,7 +2048,7 @@ Create an angular dimension from the given center and angles.
 Draw a circular arc defined by three points in the circumference.
 
     Parameters
-    ----------
+     
     points: list of Base::Vector3
         A list that must be three points.
 
@@ -2593,7 +2110,7 @@ Draw a circular arc defined by three points in the circumference.
         are ignored.
 
     Returns
-    -------
+     
     Part::Part2DObject or Part::Feature
         The new arc object.
         Normally it returns a parametric Draft object (`Part::Part2DObject`).
@@ -2601,7 +2118,6 @@ Draw a circular arc defined by three points in the circumference.
 
     None
         Returns `None` if there is a problem and the object cannot be created.
-    
 
 
 
@@ -2610,7 +2126,7 @@ Draw a circular arc defined by three points in the circumference.
 Create a Draft Array of the given object.
 
     Rectangular array
-    -----------------
+     
     make_array(object, xvector, yvector, xnum, ynum)
     make_array(object, xvector, yvector, zvector, xnum, ynum, znum)
 
@@ -2619,14 +2135,14 @@ Create a Draft Array of the given object.
     with yvector and ynum, same for z direction with zvector and znum.
 
     Polar array
-    -----------
+     
     make_array(object, center, totalangle, totalnum) for polar array, or
 
     center is a vector, totalangle is the angle to cover (in degrees)
     and totalnum is the number of objects, including the original.
 
     Circular array
-    --------------
+     
     make_array(object, rdistance, tdistance, axis, center, ncircles, symmetry)
 
     In case of a circular array, rdistance is the distance of the
@@ -2635,11 +2151,10 @@ Create a Draft Array of the given object.
     and symmetry the number of symmetry-axis of the distribution.
 
     To Do
-    -----
+     
     The `Array` class currently handles three types of arrays,
     orthogonal, polar, and circular. In the future, probably they should be
     split in separate classes so that they are easier to manage.
-    
 
 
 
@@ -2650,7 +2165,7 @@ make_bezcurve(pointslist, [closed], [placement])
     Creates a Bezier Curve object from the given list of vectors.
     
     Parameters
-    ----------
+     
     pointlist : [Base.Vector]
         List of points to create the polyline.
         Instead of a pointslist, you can also pass a Part Wire.
@@ -2672,7 +2187,6 @@ make_bezcurve(pointslist, [closed], [placement])
     
     degree : int
         Degree of the BezCurve
-    
 
 
 
@@ -2683,11 +2197,9 @@ make_block(objectslist)
     Creates a Draft Block from the given objects.
 
     Parameters
-    ----------
+     
     objectlist : list
         Major radius of the ellipse.
-
-    
 
 
 
@@ -2698,7 +2210,7 @@ make_bspline(pointslist, [closed], [placement])
     Creates a B-Spline object from the given list of vectors.
     
     Parameters
-    ----------
+     
     pointlist : [Base.Vector]
         List of points to create the polyline.
         Instead of a pointslist, you can also pass a Part Wire.
@@ -2717,19 +2229,18 @@ make_bspline(pointslist, [closed], [placement])
 
     support : 
         TODO: Describe
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_circle <small>(radius, placement=None, face=None, startangle=None, endangle=None, support=None)</small>
 
 make_circle(radius, [placement, face, startangle, endangle])
-    or make_circle(edge,[face]):
+    or 
 
     Creates a circle object with given parameters. 
 
     Parameters
-    ----------
+     
     radius : the radius of the circle.
 
     placement : 
@@ -2750,7 +2261,6 @@ make_circle(radius, [placement, face, startangle, endangle])
 
     support : 
         TODO: Describe
-    
 
 
 
@@ -2759,7 +2269,7 @@ make_circle(radius, [placement, face, startangle, endangle])
 Create a circular array from the given object.
 
     Parameters
-    ----------
+     
     base_object: Part::Feature or str
         Any of object that has a `Part::TopoShape` that can be duplicated.
         This means most 2D and 3D objects produced with any workbench.
@@ -2822,7 +2332,7 @@ Create a circular array from the given object.
         all copies into a single object, if they touch each other.
 
     Returns
-    -------
+     
     Part::FeaturePython
         A scripted object of type `'Array'`.
         Its `Shape` is a compound of the copies of the original object.
@@ -2831,9 +2341,8 @@ Create a circular array from the given object.
         If there is a problem it will return `None`.
 
     See Also
-    --------
+     
     make_ortho_array, make_polar_array, make_path_array, make_point_array
-    
 
 
 
@@ -2846,7 +2355,7 @@ clone(obj,[delta,forcedraft])
     object changes, the final object changes too.
 
     Parameters
-    ----------
+     
     obj :
 
     delta : Base.Vector
@@ -2855,8 +2364,6 @@ clone(obj,[delta,forcedraft])
     forcedraft : bool
         If forcedraft is True, the resulting object is a Draft clone
         even if the input object is an Arch object.
-
-    
 
 
 
@@ -2867,7 +2374,7 @@ make_copy(object, [force], [reparent], [simple_copy])
     Make an exact copy of an object and return it.
 
     Parameters
-    ----------
+     
     obj :
         Object to copy.
 
@@ -2880,7 +2387,6 @@ make_copy(object, [force], [reparent], [simple_copy])
     simple_copy :
         Create a simple copy of the object (a new non parametric
         Part::Feature with the same Shape as the given object).
-    
 
 
 
@@ -2894,7 +2400,7 @@ Create one of three types of dimension objects.
     The current line width and color will be used.
 
     Linear dimension
-    ----------------
+     
     - (p1, p2, p3): a simple linear dimension from p1 to p2
 
     - (object, i1, i2, p3): creates a linked dimension to the provided
@@ -2902,24 +2408,22 @@ Create one of three types of dimension objects.
       indexed i1 and i2
 
     Circular dimension
-    ------------------
+     
     - (arc, i1, mode, p3): creates a linked dimension to the given arc
       object, i1 is the index of the arc edge that will be measured;
       mode is either "radius" or "diameter".
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_drawing_view <small>(obj, page, lwmod=None, tmod=None, otherProjection=None)</small>
 
-
-    make_drawing_view(object,page,[lwmod,tmod])
+make_drawing_view(object,page,[lwmod,tmod])
     
     This function is OBSOLETE, since TechDraw substituted the Drawing Workbench.
     Add a View of the given object to the given page. 
 
     Parameters
-    ----------
+     
     lwmod : 
         modifies lineweights (in percent), 
     
@@ -2928,7 +2432,6 @@ Create one of three types of dimension objects.
 
     The Hint scale, X and Y of the page are used.
         TODO: Document it properly
-    
 
 
 
@@ -2940,7 +2443,7 @@ make_ellipse(majradius, minradius, [placement], [face], [support])
     a placement.
 
     Parameters
-    ----------
+     
     majradius : 
         Major radius of the ellipse.
 
@@ -2956,7 +2459,6 @@ make_ellipse(majradius, minradius, [placement], [face], [support])
 
     support : 
         TODO: Describe.
-    
 
 
 
@@ -2967,13 +2469,12 @@ make_facebinder(selectionset, [name])
     Creates a Facebinder object from a selection set.
 
     Parameters
-    ----------
+     
     selectionset :
         Only faces will be added.
 
     name : string (default = "Facebinder")
         Name of the created object
-    
 
 
 
@@ -2982,7 +2483,7 @@ make_facebinder(selectionset, [name])
 Create a fillet between two lines or Part.Edges.
 
     Parameters
-    ----------
+     
     objs: list
         List of two objects of type wire, or edges.
 
@@ -3000,17 +2501,16 @@ Create a fillet between two lines or Part.Edges.
         Otherwise, the original objects will still be there.
 
     Returns
-    -------
+     
     Part::Part2DObjectPython
         The object of Proxy type `'Fillet'`.
         It returns `None` if it fails producing the object.
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_hatch <small>(baseobject, filename, pattern, scale, rotation)</small>
 
-make_hatch(baseobject, filename, pattern, scale, rotation): Creates and returns a
+Creates and returns a
     hatch object made by applying the given pattern of the given PAT file to the faces of
     the given base object. Given scale and rotation factors are applied to the hatch object.
     The result is a Part-based object created in the active document.
@@ -3025,7 +2525,7 @@ Create a Label object containing different types of information.
     are used.
 
     Parameters
-    ----------
+     
     target_point: Base::Vector3, optional
         It defaults to the origin `App.Vector(0, 0, 0)`.
         This is the point which is pointed to by the label's leader line.
@@ -3119,7 +2619,7 @@ Create a Label object containing different types of information.
             T
             |
             |
-            o------- L text
+            o  L text
 
         The `oL` segment's length is defined by `distance`
         while the `oT` segment is automatically calculated depending
@@ -3149,7 +2649,7 @@ Create a Label object containing different types of information.
         can be overwritten by a suitable list of points.
 
     Returns
-    -------
+     
     App::FeaturePython
         A scripted object of type `'Label'`.
         This object does not have a `Shape` attribute, as the text and lines
@@ -3157,7 +2657,6 @@ Create a Label object containing different types of information.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -3173,7 +2672,7 @@ Create a Layer object in the active document.
     is up.
 
     Parameters
-    ----------
+     
     name: str, optional
         It is used to set the layer's `Label` (user editable).
         It defaults to `None`, in which case the `Label`
@@ -3209,7 +2708,7 @@ Create a Layer object in the active document.
         to 100 (completely transparent).
 
     Return
-    ------
+     
     App::FeaturePython
         A scripted object of type `'Layer'`.
         This object does not have a `Shape` attribute.
@@ -3218,7 +2717,6 @@ Create a Layer object in the active document.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -3229,7 +2727,7 @@ makeLine(first_param, p2)
     Creates a line from 2 points or from a given object.
 
     Parameters
-    ----------
+     
     first_param : 
         Base.Vector -> First point of the line (if p2 is None)
         Part.LineSegment -> Line is created from the given Linesegment
@@ -3238,7 +2736,6 @@ makeLine(first_param, p2)
     last_param : Base.Vector
         Second point of the line, if not set the function evaluates 
         the first_param to look for a Part.LineSegment or a Shape
-    
 
 
 
@@ -3247,7 +2744,7 @@ makeLine(first_param, p2)
 Create a free linear dimension from two main points.
 
     Parameters
-    ----------
+     
     p1: Base::Vector3
         First point of the measurement.
 
@@ -3265,7 +2762,7 @@ Create a free linear dimension from two main points.
         distance betwwen `p1` and `p2`.
 
     Returns
-    -------
+     
     App::FeaturePython
         A scripted object of type `'LinearDimension'`.
         This object does not have a `Shape` attribute, as the text and lines
@@ -3273,7 +2770,6 @@ Create a free linear dimension from two main points.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -3282,7 +2778,7 @@ Create a free linear dimension from two main points.
 Create a linear dimension from an object.
 
     Parameters
-    ----------
+     
     edge_object: Part::Feature
         The object which has an edge which will be measured.
         It must have a `Part::TopoShape`, and at least one element
@@ -3323,7 +2819,7 @@ Create a linear dimension from an object.
         distance betwwen the vertices defined by `i1` and `i2`.
 
     Returns
-    -------
+     
     App::FeaturePython
         A scripted object of type `'LinearDimension'`.
         This object does not have a `Shape` attribute, as the text and lines
@@ -3331,7 +2827,6 @@ Create a linear dimension from an object.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -3340,7 +2835,7 @@ Create a linear dimension from an object.
 Create an orthogonal array from the given object.
 
     Parameters
-    ----------
+     
     base_object: Part::Feature or str
         Any of object that has a `Part::TopoShape` that can be duplicated.
         This means most 2D and 3D objects produced with any workbench.
@@ -3415,7 +2910,7 @@ Create an orthogonal array from the given object.
         all copies into a single object, if they touch each other.
 
     Returns
-    -------
+     
     Part::FeaturePython
         A scripted object of type `'Array'`.
         Its `Shape` is a compound of the copies of the original object.
@@ -3424,10 +2919,9 @@ Create an orthogonal array from the given object.
         If there is a problem it will return `None`.
 
     See Also
-    --------
+     
     make_ortho_array2d, make_rect_array, make_rect_array2d, make_polar_array,
     make_circular_array, make_path_array, make_point_array
-    
 
 
 
@@ -3440,7 +2934,7 @@ Create a 2D orthogonal array from the given object.
     in X and Y directions.
 
     Parameters
-    ----------
+     
     base_object: Part::Feature or str
         Any of object that has a `Part::TopoShape` that can be duplicated.
         This means most 2D and 3D objects produced with any workbench.
@@ -3463,7 +2957,7 @@ Create a 2D orthogonal array from the given object.
         See `make_ortho_array`.
 
     Returns
-    -------
+     
     Part::FeaturePython
         A scripted object of type `'Array'`.
         Its `Shape` is a compound of the copies of the original object.
@@ -3472,10 +2966,9 @@ Create a 2D orthogonal array from the given object.
         If there is a problem it will return `None`.
 
     See Also
-    --------
+     
     make_ortho_array, make_rect_array, make_rect_array2d, make_polar_array,
     make_circular_array, make_path_array, make_point_array
-    
 
 
 
@@ -3487,7 +2980,7 @@ Make a Draft PathArray object.
     or `subelements` from `path_object`.
 
     Parameters
-    ----------
+     
     base_object: Part::Feature or str
         Any of object that has a `Part::TopoShape` that can be duplicated.
         This means most 2D and 3D objects produced with any workbench.
@@ -3569,14 +3062,13 @@ Make a Draft PathArray object.
         the resulting array heavier.
 
     Returns
-    -------
+     
     Part::FeaturePython
         The scripted object of type `'PathArray'`.
         Its `Shape` is a compound of the copies of the original object.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -3588,13 +3080,13 @@ Create a Path twisted array.
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_point <small>(X=0, Y=0, Z=0, color=None, name='Point', point_size=5)</small>
 
- make_point(x, y, z, [color(r, g, b), point_size]) or
+make_point(x, y, z, [color(r, g, b), point_size]) or
         make_point(Vector, color(r, g, b), point_size])
 
     Creates a Draft Point in the current document.
 
     Parameters
-    ----------
+     
     X : 
         float -> X coordinate of the point
         Base.Vector -> Ignore Y and Z coordinates and create the point
@@ -3612,7 +3104,6 @@ Create a Path twisted array.
         make_point(0,0,0,(1,0,0)) # color = red
         example to change the color, make sure values are floats:
         p1.ViewObject.PointColor =(0.0,0.0,1.0)
-    
 
 
 
@@ -3624,7 +3115,7 @@ Make a Draft PointArray object.
     defined by `point_object`.
 
     Parameters
-    ----------
+     
     base_object: Part::Feature or str
         Any of object that has a `Part::TopoShape` that can be duplicated.
         This means most 2D and 3D objects produced with any workbench.
@@ -3661,14 +3152,13 @@ Make a Draft PointArray object.
         the additional translation, or just a rotation.
 
     Returns
-    -------
+     
     Part::FeaturePython
         A scripted object of type `'PointArray'`.
         Its `Shape` is a compound of the copies of the original object.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -3677,7 +3167,7 @@ Make a Draft PointArray object.
 Create a polar array from the given object.
 
     Parameters
-    ----------
+     
     base_object: Part::Feature or str
         Any of object that has a `Part::TopoShape` that can be duplicated.
         This means most 2D and 3D objects produced with any workbench.
@@ -3714,7 +3204,7 @@ Create a polar array from the given object.
         all copies into a single object, if they touch each other.
 
     Returns
-    -------
+     
     Part::FeaturePython
         A scripted object of type `'Array'`.
         Its `Shape` is a compound of the copies of the original object.
@@ -3723,9 +3213,8 @@ Create a polar array from the given object.
         If there is a problem it will return `None`.
 
     See Also
-    --------
+     
     make_ortho_array, make_circular_array, make_path_array, make_point_array
-    
 
 
 
@@ -3736,7 +3225,7 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
     Creates a polygon object with the given number of edges and radius.
 
     Parameters
-    ----------
+     
     edges : int
         Number of edges of the polygon.
 
@@ -3755,7 +3244,6 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
     
     support : 
         TODO: Describe
-    
 
 
 
@@ -3764,7 +3252,7 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
 Create a radial or diameter dimension from an arc object.
 
     Parameters
-    ----------
+     
     edge_object: Part::Feature
         The object which has a circular edge which will be measured.
         It must have a `Part::TopoShape`, and at least one element
@@ -3794,7 +3282,7 @@ Create a radial or diameter dimension from an arc object.
         horizontal, that is, parallel to the +X axis.
 
     Returns
-    -------
+     
     App::FeaturePython
         A scripted object of type `'LinearDimension'`.
         This object does not have a `Shape` attribute, as the text and lines
@@ -3802,7 +3290,6 @@ Create a radial or diameter dimension from an arc object.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -3816,7 +3303,7 @@ Create a rectangular array from the given object.
     only have their respective components in X, Y, and Z.
 
     Parameters
-    ----------
+     
     base_object: Part::Feature or str
         Any of object that has a `Part::TopoShape` that can be duplicated.
         This means most 2D and 3D objects produced with any workbench.
@@ -3835,7 +3322,7 @@ Create a rectangular array from the given object.
         See `make_ortho_array`.
 
     Returns
-    -------
+     
     Part::FeaturePython
         A scripted object of type `'Array'`.
         Its `Shape` is a compound of the copies of the original object.
@@ -3844,10 +3331,9 @@ Create a rectangular array from the given object.
         If there is a problem it will return `None`.
 
     See Also
-    --------
+     
     make_ortho_array, make_ortho_array2d, make_rect_array2d, make_polar_array,
     make_circular_array, make_path_array, make_point_array
-    
 
 
 
@@ -3862,7 +3348,7 @@ Create a 2D rectangular array from the given object.
     The Z component is ignored.
 
     Parameters
-    ----------
+     
     base_object: Part::Feature or str
         Any of object that has a `Part::TopoShape` that can be duplicated.
         This means most 2D and 3D objects produced with any workbench.
@@ -3881,7 +3367,7 @@ Create a 2D rectangular array from the given object.
         See `make_ortho_array`.
 
     Returns
-    -------
+     
     Part::FeaturePython
         A scripted object of type `'Array'`.
         Its `Shape` is a compound of the copies of the original object.
@@ -3890,10 +3376,9 @@ Create a 2D rectangular array from the given object.
         If there is a problem it will return `None`.
 
     See Also
-    --------
+     
     make_ortho_array, make_ortho_array2d, make_rect_array, make_polar_array,
     make_circular_array, make_path_array, make_point_array
-    
 
 
 
@@ -3905,7 +3390,7 @@ make_rectangle(length, width, [placement], [face])
     direction.
 
     Parameters
-    ----------
+     
     length, height : dimensions of the rectangle
 
     placement : Base.Placement
@@ -3920,7 +3405,6 @@ make_rectangle(length, width, [placement], [face])
     but you are responsible to check yourself that these 4 vertices are ordered
     and actually form a rectangle, otherwise the result might be wrong. Placement
     is ignored when constructing a rectangle this way (face argument is kept).
-    
 
 
 
@@ -3931,7 +3415,7 @@ make_shape2dview(object, [projectionVector], [facenumbers])
     Add a 2D shape to the document, which is a 2D projection of the given object. 
     
     Parameters
-    ----------
+     
     object : 
         TODO: Describe
 
@@ -3940,7 +3424,6 @@ make_shape2dview(object, [projectionVector], [facenumbers])
 
     facenumbers : [] TODO: Describe
         A list of face numbers to be considered in individual faces mode.
-    
 
 
 
@@ -3951,11 +3434,9 @@ ShapeString(Text,FontFile,[Height],[Track])
     Turns a text string into a Compound Shape
     
     Parameters
-    ----------
+     
     majradius : 
         Major radius of the ellipse.
-
-    
 
 
 
@@ -3967,7 +3448,7 @@ make_sketch(objects_list, [autoconstraints], [addTo], [delete],
     Makes a Sketch objects_list with the given Draft objects.
 
     Parameters
-    ----------
+     
     objects_list: can be single or list of objects of Draft type objects,
         Part::Feature, Part.Shape, or mix of them.
 
@@ -3990,7 +3471,6 @@ make_sketch(objects_list, [autoconstraints], [addTo], [delete],
 
     tol(1e-3): Tolerance used to check if the shapes are planar and coplanar.
         Consider change to tol=-1 for a more accurate analysis.
-    
 
 
 
@@ -4002,7 +3482,7 @@ Create a Text object containing the given list of strings.
     are used.
 
     Parameters
-    ----------
+     
     string: str, or list of str
         String to display on screen.
         If it is a list, each element in the list represents a new text line.
@@ -4021,7 +3501,7 @@ Create a Text object containing the given list of strings.
         to the camera direction, that is, it will be flat on the screen.
 
     Returns
-    -------
+     
     App::FeaturePython
         A scripted object of type `'Text'`.
         This object does not have a `Shape` attribute, as the text is created
@@ -4029,7 +3509,6 @@ Create a Text object containing the given list of strings.
 
     None
         If there is a problem it will return `None`.
-    
 
 
 
@@ -4042,7 +3521,7 @@ make_wire(pointslist, [closed], [placement])
     a pointslist, you can also pass a Part Wire.
 
     Parameters
-    ----------
+     
     pointslist : [Base.Vector]
         List of points to create the polyline
 
@@ -4062,7 +3541,6 @@ make_wire(pointslist, [closed], [placement])
     
     bs2wire : bool
         TODO: Describe
-    
 
 
 
@@ -4073,10 +3551,9 @@ make_working_plane_proxy(placement)
     Creates a Working Plane proxy object in the current document.
 
     Parameters
-    ----------
+     
     placement : Base.Placement
         specify the p.
-    
 
 
 
@@ -4096,7 +3573,7 @@ Create a mirror object from the provided list and line.
     If neither of these two is available, it uses as normal the +Z vector.
 
     Parameters
-    ----------
+     
     objlist: single object or a list of objects
         A single object or a list of objects.
 
@@ -4108,7 +3585,7 @@ Create a mirror object from the provided list and line.
         Point 1 of the mirror plane.
 
     Returns
-    -------
+     
     None
         If the operation fails.
 
@@ -4117,11 +3594,10 @@ Create a mirror object from the provided list and line.
         depending on the input `objlist`.
 
     To Do
-    -----
+     
     Implement a mirror tool specific to the workbench that does not
     just use `Part::Mirroring`. It should create a derived object,
     that is, it should work similar to `Draft.offset`.
-    
 
 
 
@@ -4134,7 +3610,7 @@ move(objects,vector,[copy])
     vector. 
 
     Parameters
-    ----------
+     
     objectslist : list
 
     vector : Base.Vector
@@ -4145,45 +3621,36 @@ move(objects,vector,[copy])
         are created instead. 
 
     Return
-    ----------
+     
     The objects (or their copies) are returned.
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> moveEdge <small>(object, edge_index, vector)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> moveVertex <small>(object, vertex_index, vector)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> move_edge <small>(object, edge_index, vector)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> move_vertex <small>(object, vertex_index, vector)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
@@ -4195,7 +3662,7 @@ offset(object,delta,[copymode],[bind])
     vertex.
 
     Parameters
-    ----------
+     
     obj :
 
     delta : Base.Vector or list of Base.Vector
@@ -4213,7 +3680,6 @@ offset(object,delta,[copymode],[bind])
     sym : bool
         if sym is True, bind must be true too, and the offset is made on both
         sides, the total width being the given delta length.
-    
 
 
 
@@ -4234,10 +3700,9 @@ Return the precision value from the parameter database.
     By default the precision is 6 decimal places.
 
     Returns
-    -------
+     
     int
         get_param("precision", 6)
-    
 
 
 
@@ -4246,10 +3711,9 @@ Return the precision value from the parameter database.
 Print detailed information of a topological shape.
 
     Parameters
-    ----------
+     
     shape : Part::TopoShape
         Any topological shape in an object, usually obtained from `obj.Shape`.
-    
 
 
 
@@ -4258,10 +3722,9 @@ Print detailed information of a topological shape.
 Print detailed information of a topological shape.
 
     Parameters
-    ----------
+     
     shape : Part::TopoShape
         Any topological shape in an object, usually obtained from `obj.Shape`.
-    
 
 
 
@@ -4274,19 +3737,18 @@ Return only the visible objects in the list.
     (`obj.ViewObject`).
 
     Parameters
-    ----------
+     
     objectslist: list of App::DocumentObject
         List of any type of object.
 
     Returns
-    -------
+     
     list
         Return a copy of the input list without those objects
         for which `obj.ViewObject.Visibility` is `False`.
 
         If the graphical interface is not loaded
         the returned list is just a copy of the input list.
-    
 
 
 
@@ -4299,19 +3761,18 @@ Return only the visible objects in the list.
     (`obj.ViewObject`).
 
     Parameters
-    ----------
+     
     objectslist: list of App::DocumentObject
         List of any type of object.
 
     Returns
-    -------
+     
     list
         Return a copy of the input list without those objects
         for which `obj.ViewObject.Visibility` is `False`.
 
         If the graphical interface is not loaded
         the returned list is just a copy of the input list.
-    
 
 
 
@@ -4324,7 +3785,7 @@ rotate(objects,angle,[center,axis,copy])
     axis as a rotation axis.
 
     Parameters
-    ----------
+     
     objectlist : list
 
     angle : list
@@ -4339,45 +3800,36 @@ rotate(objects,angle,[center,axis,copy])
         are created instead.
 
     Return
-    ----------
+     
     The objects (or their copies) are returned.
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> rotateEdge <small>(object, edge_index, angle, center, axis)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> rotateVertex <small>(object, vertex_index, angle, center, axis)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> rotate_edge <small>(object, edge_index, angle, center, axis)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> rotate_vertex <small>(object, vertex_index, angle, center, axis)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
@@ -4389,10 +3841,10 @@ scale(objects, scale, [center], copy)
     an object) of the given  around given center.
 
     Parameters
-    ----------
+     
     objectlist : list
 
-    scale : Base.Vector
+     Base.Vector
         Scale factors defined by a given vector (in X, Y, Z directions).
 
     objectlist : Base.Vector
@@ -4403,45 +3855,36 @@ scale(objects, scale, [center], copy)
         are created instead.
 
     Return
-    ----------
+     
     The objects (or their copies) are returned.
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> scaleEdge <small>(obj, edge_index, scale, center)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> scaleVertex <small>(obj, vertex_index, scale, center)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> scale_edge <small>(obj, edge_index, scale, center)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> scale_vertex <small>(obj, vertex_index, scale, center)</small>
 
-
-    Needed for SubObjects modifiers.
+Needed for SubObjects modifiers.
     Implemented by Dion Moult during 0.19 dev cycle (works only with Draft Wire).
-    
 
 
 
@@ -4453,7 +3896,7 @@ Unselects everything and selects only the given list of objects.
     as the selection module only works on the 3D view.
 
     Parameters
-    ----------
+     
     objs: list of App::DocumentObject, optional
         It defaults to `None`.
         Any type of scripted object.
@@ -4465,7 +3908,6 @@ Unselects everything and selects only the given list of objects.
 
         This value can be set to `False` to simulate
         when the interface is not available.
-    
 
 
 
@@ -4484,7 +3926,7 @@ Set a Draft parameter with the given value.
         'User parameter:BaseApp/Preferences/View/DefaultShapeLineColor'
 
     Parameters
-    ----------
+     
     param : str
         A string that indicates a parameter in the parameter database.
 
@@ -4494,7 +3936,6 @@ Set a Draft parameter with the given value.
         it sets the appropriate value by calling `ParameterGrp.SetInt`,
         `ParameterGrp.SetString`, `ParameterGrp.SetFloat`,
         `ParameterGrp.SetBool`, or `ParameterGrp.SetUnsinged`.
-    
 
 
 
@@ -4513,7 +3954,7 @@ Set a Draft parameter with the given value.
         'User parameter:BaseApp/Preferences/View/DefaultShapeLineColor'
 
     Parameters
-    ----------
+     
     param : str
         A string that indicates a parameter in the parameter database.
 
@@ -4523,7 +3964,6 @@ Set a Draft parameter with the given value.
         it sets the appropriate value by calling `ParameterGrp.SetInt`,
         `ParameterGrp.SetString`, `ParameterGrp.SetFloat`,
         `ParameterGrp.SetBool`, or `ParameterGrp.SetUnsinged`.
-    
 
 
 
@@ -4532,7 +3972,7 @@ Set a Draft parameter with the given value.
 Transform a parametric object into a static, non-parametric shape.
 
     Parameters
-    ----------
+     
     obj : App::DocumentObject
         Any type of scripted object.
 
@@ -4541,7 +3981,7 @@ Transform a parametric object into a static, non-parametric shape.
         will be created.
 
     Returns
-    -------
+     
     Part::Feature
         The new object that takes `obj.Shape` as its own.
 
@@ -4552,7 +3992,6 @@ Transform a parametric object into a static, non-parametric shape.
 
         If there is a problem with `obj.Shape`, it will return `None`,
         and the original object will not be modified.
-    
 
 
 
@@ -4567,17 +4006,16 @@ Transform a parametric object into a static, non-parametric shape.
 Encode a unicode object to be used as a string in coin.
 
     Parameters
-    ----------
+     
     ustr : str
         A string to be encoded
 
     Returns
-    -------
+     
     str
         Encoded string. If the coin version is >= 4
         it will encode the string to `'utf-8'`, otherwise
         it will encode it to `'latin-1'`.
-    
 
 
 
@@ -4586,17 +4024,16 @@ Encode a unicode object to be used as a string in coin.
 Encode a unicode object to be used as a string in coin.
 
     Parameters
-    ----------
+     
     ustr : str
         A string to be encoded
 
     Returns
-    -------
+     
     str
         Encoded string. If the coin version is >= 4
         it will encode the string to `'utf-8'`, otherwise
         it will encode it to `'latin-1'`.
-    
 
 
 
@@ -4605,12 +4042,11 @@ Encode a unicode object to be used as a string in coin.
 Return a dictionary with installed SVG patterns.
 
     Returns
-    -------
+     
     dict
         Returns `App.svgpatterns` if it exists.
         Otherwise it calls `load_svg_patterns` to create it
         before returning it.
-    
 
 
 
@@ -4619,12 +4055,11 @@ Return a dictionary with installed SVG patterns.
 Return a dictionary with installed SVG patterns.
 
     Returns
-    -------
+     
     dict
         Returns `App.svgpatterns` if it exists.
         Otherwise it calls `load_svg_patterns` to create it
         before returning it.
-    
 
 
 
@@ -4640,10 +4075,9 @@ Return the tolerance value from the parameter database.
     By default the tolerance is 0.05.
 
     Returns
-    -------
+     
     float
         get_param("tolerance", 0.05)
-    
 
 
 
@@ -4652,7 +4086,7 @@ Return the tolerance value from the parameter database.
 Check that the arguments are instances of certain types.
 
     Parameters
-    ----------
+     
     args_and_types : list
         A list of tuples. The first element of a tuple is tested as being
         an instance of the second element.
@@ -4675,11 +4109,10 @@ Check that the arguments are instances of certain types.
         Defaults to `'?'`. The name of the check.
 
     Raises
-    ------
+     
     TypeError
         If the first element in the tuple is not an instance of the second
         element, it raises `Draft.name`.
-    
 
 
 
@@ -4688,7 +4121,7 @@ Check that the arguments are instances of certain types.
 Check that the arguments are instances of certain types.
 
     Parameters
-    ----------
+     
     args_and_types : list
         A list of tuples. The first element of a tuple is tested as being
         an instance of the second element.
@@ -4711,11 +4144,10 @@ Check that the arguments are instances of certain types.
         Defaults to `'?'`. The name of the check.
 
     Raises
-    ------
+     
     TypeError
         If the first element in the tuple is not an instance of the second
         element, it raises `Draft.name`.
-    
 
 
 
@@ -4726,13 +4158,12 @@ Remove the object from any group to which it belongs.
     A "group" is any object returned by `get_group_names`.
 
     Parameters
-    ----------
+     
     obj: App::DocumentObject or str
         Any type of object.
         If it is a string, it must be the `Label` of that object.
         Since a label is not guaranteed to be unique in a document,
         it will use the first object found with this label.
-    
 
 
 
@@ -4743,7 +4174,7 @@ Upgrade the given objects.
     This is a counterpart to `downgrade`.
 
     Parameters
-    ----------
+     
     objects: Part::Feature or list
         A single object to upgrade or a list
         containing various such objects.
@@ -4762,7 +4193,7 @@ Upgrade the given objects.
         `'makeSketchFace'`, `'makeWires'`.
 
     Returns
-    -------
+     
     tuple
         A tuple containing two lists, a list of new objects
         and a list of objects to be deleted.
@@ -4771,9 +4202,391 @@ Upgrade the given objects.
         If there is a problem it will return `None`.
 
     See Also
-    --------
+     
     downgrade
-    
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> AngularDimension <small>(obj)</small>
+
+The angular dimension object.
+
+    This inherits `DimensionBase` to provide the basic functionality of
+    a dimension.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Array <small>(obj)</small>
+
+The Draft Array object.
+
+    To Do
+     
+    The `Array` class currently handles three types of arrays,
+    orthogonal, polar, and circular. In the future, probably they should be
+    split in separate classes so that they are easier to manage.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> BSpline <small>(obj)</small>
+
+The BSpline object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> BezCurve <small>(obj)</small>
+
+The BezCurve object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Block <small>(obj)</small>
+
+The Block object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Circle](Circle_API.md) <small>(obj)</small>
+
+The Circle object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Clone <small>(obj)</small>
+
+The Clone object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> DraftLabel <small>(obj)</small>
+
+The Draft Label object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> DraftLink <small>(obj, tp)</small>
+
+New class to use the App::Link objects in arrays.
+
+    Introduced by realthunder.
+    This is subclassed by `draftobjects.array.Array`
+    and by `draftobjects.patharray.PathArray`.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> DraftObject <small>(obj, tp='Unknown')</small>
+
+The base class for Draft objects.
+
+    Parameters
+     
+    obj : a base C++ object
+        The base object instantiated during creation,
+        which commonly may be of types `Part::Part2DObjectPython`,
+        `Part::FeaturePython`, or `App::FeaturePython`.
+
+            >>> obj = App.ActiveDocument.addObject('Part::Part2DObjectPython')
+            >>> DraftObject(obj)
+
+        This class instance is stored in the `Proxy` attribute
+        of the base object.
+        ::
+            obj.Proxy = self
+
+    tp : str, optional
+        It defaults to `'Unknown'`.
+        It indicates the type of this scripted object,
+        which will be assigned to the Proxy's `Type` attribute.
+
+        This is useful to distinguish different types of scripted objects
+        that may be derived from the same C++ class.
+
+    Attributes
+     
+    Type : str
+        It indicates the type of scripted object.
+        Normally `Type = tp`.
+
+        All objects have a `TypeId` attribute, but this attribute
+        refers to the C++ class only. Using the `Type` attribute
+        allows distinguishing among various types of objects
+        derived from the same C++ class.
+
+            >>> print(A.TypeId, "->", A.Proxy.Type)
+            Part::Part2DObjectPython -> Wire
+            >>> print(B.TypeId, "->", B.Proxy.Type)
+            Part::Part2DObjectPython -> Circle
+
+    This class attribute is accessible through the `Proxy` object:
+    `obj.Proxy.Type`.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> DraftText <small>(obj)</small>
+
+The Draft Text object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> DrawingView <small>(obj)</small>
+
+The DrawingView object. This class is OBSOLETE.
+
+    This object was used with the Drawing Workbench, but since this workbench
+    because obsolete in v0.17, the object should no longer be used.
+    It is retained for compatibility purposes, that is, to open older
+    files that may contain this object.
+
+    To produce 2D drawings, use TechDraw Workbench.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Ellipse](Ellipse_API.md) <small>(obj)</small>
+
+The Circle object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Facebinder <small>(obj)</small>
+
+The Draft Facebinder object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Fillet <small>(obj)</small>
+
+Proxy class for the Fillet object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Hatch <small>(obj)</small>
+
+
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Label <small>(obj)</small>
+
+The Draft Label object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Layer <small>(obj)</small>
+
+The Layer object.
+
+    This class is normally used to extend a base `App::FeaturePython` object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> LinearDimension <small>(obj)</small>
+
+The linear dimension object.
+
+    This inherits `DimensionBase` to provide the basic functionality of
+    a dimension.
+
+    This linear dimension includes measurements between two vertices,
+    but also a radial dimension of a circular edge or arc.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> PathArray <small>(obj)</small>
+
+The Draft Path Array object.
+
+    The object distributes copies of an object along a path like a polyline,
+    spline, or bezier curve.
+
+    Attributes
+     
+    Align: bool
+        It defaults to `False`.
+        It sets whether the object will be specially aligned to the path.
+
+    AlignMode: str
+        It defaults to `'Original'`.
+        Indicates the type of alignment that will be calculated when
+        `Align` is `True`.
+
+        `'Original'` mode is the historic `'Align'` for old (v0.18) documents.
+        It is not really the Fernat alignment. It uses the normal parameter
+        from `getNormal` (or the default) as a constant, it does not calculate
+        curve normal.
+        `X` is curve tangent, `Y` is normal parameter, `Z` is the cross product
+        `X` x `Y`.
+
+        `'Tangent'` mode is similar to `Original`, but includes a pre-rotation
+        (in execute) to align the `Base` object's `X` to `TangentVector`,
+        then `X` follows curve tangent, normal input parameter
+        is the Z component.
+
+        If `ForceVertical` is `True`, the normal parameter from `getNormal`
+        is ignored, and `X` is curve tangent, `Z` is `VerticalVector`,
+        and `Y` is the cross product `X` x `Z`.
+
+        `'Frenet'` mode orients the copies to a coordinate system
+        along the path.
+        `X` is tangent to curve, `Y` is curve normal, `Z` is curve binormal.
+        If normal cannot be computed, for example, in a straight line,
+        the default is used.
+
+    ForceVertical: bool
+        It defaults to `False`.
+        If it is `True`, and `AlignMode` is `'Original'` or `'Tangent'`,
+        it will use the vector in `VerticalVector` as the `Z` axis.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Point](Point_API.md) <small>(obj, x=0, y=0, z=0)</small>
+
+The Draft Point object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> PointArray <small>(obj)</small>
+
+The Draft Point Array object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Polygon <small>(obj)</small>
+
+The Polygon object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Rectangle <small>(obj)</small>
+
+The Rectangle object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Shape2DView <small>(obj)</small>
+
+The Shape2DView object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> ShapeString <small>(obj)</small>
+
+The ShapeString object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Text <small>(obj)</small>
+
+The Draft Text object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraft <small>(vobj)</small>
+
+The base class for Draft view providers.
+
+    Parameters
+     
+    vobj : a base C++ view provider
+        The view provider of the scripted object (`obj.ViewObject`),
+        which commonly may be of types `PartGui::ViewProvider2DObjectPython`,
+        `PartGui::ViewProviderPython`, or `Gui::ViewProviderPythonFeature`.
+
+        A basic view provider is instantiated during the creation
+        of the base C++ object, for example,
+        `Part::Part2DObjectPython`, `Part::FeaturePython`,
+        or `App::FeaturePython`.
+
+            >>> obj = App.ActiveDocument.addObject('Part::Part2DObjectPython')
+            >>> vobj = obj.ViewObject
+            >>> ViewProviderDraft(vobj)
+
+        This view provider class instance is stored in the `Proxy` attribute
+        of the base view provider.
+        ::
+            vobj.Proxy = self
+
+    Attributes
+     
+    Object : the base C++ object
+        The scripted document object that is associated
+        with this view provider, which commonly may be of types
+        `Part::Part2DObjectPython`, `Part::FeaturePython`,
+        or `App::FeaturePython`.
+
+    texture : coin.SoTexture2
+        A texture that could be added to this object.
+
+    texcoords : coin.SoTextureCoordinatePlane
+        The coordinates defining a plane to use for aligning the texture.
+
+    These class attributes are accessible through the `Proxy` object:
+    `vobj.Proxy.Object`, `vobj.Proxy.texture`, etc.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftAlt <small>(vobj)</small>
+
+A view provider that doesn't absorb its base object in the tree view.
+
+    The `claimChildren` method is overridden to return an empty list.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftLink <small>(vobj)</small>
+
+A view provider for link type object.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftPart <small>(vobj)</small>
+
+A view provider that displays a Part icon instead of a Draft icon.
+
+    The `getIcon` method is overridden to provide `Part_3D_object.svg`.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Wire](Wire_API.md) <small>(obj)</small>
+
+The Wire object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> WorkingPlaneProxy <small>(obj)</small>
+
+The Draft working plane proxy object
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> arrowtypes
+
+Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> gui
+
+bool(x) -> bool
+
+Returns True when the argument x is true, False otherwise.
+The builtins True and False are the only two instances of the class bool.
+The class bool is a subclass of the class int, and cannot be subclassed.
+
+
+
+### Modules
+
+#### <img src="images/type_module.svg" style="width:16px;"> App
+
+The functions in the FreeCAD module allow working with documents.
+The FreeCAD instance provides a list of references of documents which
+can be addressed by a string. Hence the document name must be unique.
+
+The document has the read-only attribute FileName which points to the
+file the document should be stored to.
 
 
 

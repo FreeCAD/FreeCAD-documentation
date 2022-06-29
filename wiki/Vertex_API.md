@@ -170,7 +170,6 @@ Z component of this Vertex.
 
 For a sub-shape of this shape get its ancestors of a type.
 ancestorsOfType(shape, shape type) -> list
-        
 
 
 
@@ -206,7 +205,6 @@ childShapes([cumOri=True, cumLoc=True]) -> list
  * If cumLoc is true, the function multiplies all
    sub-shapes by the location of this shape, i.e. it applies to
    each sub-shape the transformation that is associated with this shape.
-        
 
 
 
@@ -218,7 +216,6 @@ clean()
 This can be useful to reduce file size when exporting as a BREP file.
 Warning: Use the cleaned shape with care because certain algorithms may work incorrectly
 if the shape has no internal triangulation any more.
-
 
 
 
@@ -243,7 +240,6 @@ OCC 6.9.0 or later is required.
 Computes the complement of the orientation of this shape,
 i.e. reverses the interior/exterior status of boundaries of this shape.
 complement()
-        
 
 
 
@@ -259,12 +255,10 @@ geometry and triangulation will be shared with original shape.
 
 
 
-
 #### <img src="images/Type_enum.svg" style="width:16px;"> countElement
 
 Returns the count of a type of element
 countElement(type) -> int
-        
 
 
 
@@ -321,7 +315,7 @@ infos contains additional info on the solutions. It is a list of tuples:
 
     params1, params2 are parameters of internal space of the elements. For
     vertices, params is None. For edges, params is one float, u. For faces,
-    params is a tuple (u,v). 
+    params is a tuple (u,v).
 
 
 
@@ -348,7 +342,6 @@ dumpToString() -> string
 
 Export the content of this shape in binary format to a file.
 exportBinary(filename)
-        
 
 
 
@@ -358,7 +351,6 @@ Export the content of this shape to an BREP file.
 exportBrep(filename)
 --
 BREP is an OpenCasCade native format.
-        
 
 
 
@@ -375,7 +367,6 @@ BREP is an OpenCasCade native format.
 
 Export the content of this shape to an IGES file.
 exportIges(filename)
-        
 
 
 
@@ -383,7 +374,6 @@ exportIges(filename)
 
 Export the content of this shape to an STEP file.
 exportStep(filename)
-        
 
 
 
@@ -405,7 +395,6 @@ extrude(direction, length)
 
 return a plane if the shape is planar
 findPlane(tol=None) -> Shape
-          
 
 
 
@@ -415,7 +404,6 @@ Tries to fix a broken shape.
 fix(working precision, minimum precision, maximum precision) -> bool
 --
 True is returned if the operation succeeded, False otherwise.
-        
 
 
 
@@ -429,7 +417,6 @@ ShapeType = Edge   : only edges are set
 ShapeType = Face   : only faces are set
 ShapeType = Wire   : to have edges and their vertices set
 ShapeType = other value : all (vertices,edges,faces) are set
-        
 
 
 
@@ -481,7 +468,6 @@ OCC 6.9.0 or later is required.
 
 
 
-
 #### <img src="images/Type_enum.svg" style="width:16px;"> getAllDerivedFrom
 
 Returns all descendants
@@ -492,7 +478,6 @@ Returns all descendants
 
 Returns a SubElement
 getElement(elementName) -> Face | Edge | Vertex
-        
 
 
 
@@ -547,7 +532,6 @@ Edge   : only edges,
 Face   : only faces,
 Shell  : combined Shell + Face, for each face (and containing
          shell), also checks edge and Vertex
-        
 
 
 
@@ -559,7 +543,6 @@ globalTolerance(mode) -> float
 mode = 0 : average
 mode > 0 : maximal
 mode < 0 : minimal
-        
 
 
 
@@ -592,7 +575,6 @@ Load the shape from a string that keeps the content in BREP format.
 importBrepFromString(string, [displayProgressBar=True])
 --
 importBrepFromString(str,False) to not display a progress bar.
-        
 
 
 
@@ -602,7 +584,6 @@ Determines which shapes have a tolerance within a given interval
 inTolerance(value, [ShapeType=Shape]) -> ShapeList
 --
 ShapeType is interpreted as in the method getTolerance
-        
 
 
 
@@ -618,12 +599,10 @@ If the shape is an edge it returns True if its vertices are the same.
 
 
 
-
 #### <img src="images/Type_enum.svg" style="width:16px;"> isCoplanar
 
 Checks if this shape is coplanar with the given shape.
 isCoplanar(shape,tol=None) -> bool
-        
 
 
 
@@ -638,7 +617,6 @@ Returns true if given type is a father
 Checks if both shapes are equal.
         This means geometry, placement and orientation are equal.
 isEqual(shape) -> bool
-        
 
 
 
@@ -646,7 +624,6 @@ isEqual(shape) -> bool
 
 Checks if this shape has an infinite expansion.
 isInfinite() -> bool
-        
 
 
 
@@ -656,7 +633,6 @@ Checks whether a point is inside or outside the shape.
 isInside(point, tolerance, checkFace) => Boolean
 --
 checkFace indicates if the point lying directly on a face is considered to be inside or not
-        
 
 
 
@@ -672,7 +648,6 @@ isNull() -> bool
 Checks if both shapes share the same geometry.
 Placement and orientation may differ.
 isPartner(shape) -> bool
-        
 
 
 
@@ -681,7 +656,6 @@ isPartner(shape) -> bool
 Checks if both shapes share the same geometry
         and placement. Orientation may differ.
 isSame(shape) -> bool
-        
 
 
 
@@ -689,7 +663,6 @@ isSame(shape) -> bool
 
 Checks if the shape is valid, i.e. neither null, nor empty nor corrupted.
 isValid() -> bool
-        
 
 
 
@@ -709,7 +682,6 @@ ShapeType = Face   : only faces are set
 ShapeType = Wire   : to have edges and their vertices set
 ShapeType = other value : all (vertices,edges,faces) are set
 Returns True if at least one tolerance of the sub-shape has been modified
-        
 
 
 
@@ -728,7 +700,6 @@ Make fillet.
 makeFillet(radius,edgeList) -> Shape
 or
 makeFillet(radius1,radius2,edgeList) -> Shape
-        
 
 
 
@@ -797,7 +768,6 @@ Returns: result of offsetting.
 
 Parallel projection of an edge or wire on this shape
 makeParallelProjection(shape, dir) -> Shape
-        
 
 
 
@@ -805,7 +775,6 @@ makeParallelProjection(shape, dir) -> Shape
 
 Perspective projection of an edge or wire on this shape
 makePerspectiveProjection(shape, pnt) -> Shape
-        
 
 
 
@@ -843,7 +812,6 @@ it will map any edge and vertex element name inside the input shape into the
 itself.
 
 op: an optional string to be appended when auto generates element mapping.
-        
 
 
 
@@ -876,7 +844,6 @@ Deprecated: use fuse() instead.
 Destroys the reference to the underlying shape stored in this shape.
 As a result, this shape becomes null.
 nullify()
-        
 
 
 
@@ -884,7 +851,6 @@ nullify()
 
 Union of this and a given topo shape (old algorithm).
 oldFuse(tool) -> Shape
-        
 
 
 
@@ -892,7 +858,6 @@ oldFuse(tool) -> Shape
 
 Get the optimal bounding box
 optimalBoundingBox([useTriangulation = True, useShapeTolerance = False]) -> bound box
-        
 
 
 
@@ -902,7 +867,6 @@ Determines which shapes have a tolerance over the given value
 overTolerance(value, [ShapeType=Shape]) -> ShapeList
 --
 ShapeType is interpreted as in the method getTolerance
-        
 
 
 
@@ -910,7 +874,6 @@ ShapeType is interpreted as in the method getTolerance
 
 Project a list of shapes on this shape
 project(shapeList) -> Shape
-        
 
 
 
@@ -918,7 +881,6 @@ project(shapeList) -> Shape
 
 Returns two lists of Face indexes for the Faces involved in the intersection.
 proximity(shape,[tolerance]) -> (selfFaces, shapeFaces)
-        
 
 
 
@@ -926,7 +888,6 @@ proximity(shape,[tolerance]) -> (selfFaces, shapeFaces)
 
 Read in an IGES, STEP or BREP file.
 read(filename)
-        
 
 
 
@@ -947,7 +908,6 @@ EdgeType is a string defining the type of result edges :
 - Sharp : sharp edge (of C0-continuity)
 If Visible is True (default), only visible edges are returned.
 If Visible is False, only invisible edges are returned.
-        
 
 
 
@@ -955,7 +915,6 @@ If Visible is False, only invisible edges are returned.
 
 Removes internal wires (also holes) from the shape.
 removeInternalWires(minimalArea) -> bool
-        
 
 
 
@@ -972,7 +931,6 @@ The parameter is a list of shapes.
 
 Removes redundant edges from the B-REP model
 removeSplitter() -> Shape
-
 
 
 
@@ -1001,7 +959,6 @@ obj : buffer
 
 Reverses the orientation of this shape.
 reverse()
-        
 
 
 
@@ -1009,7 +966,6 @@ reverse()
 
 Reverses the orientation of a copy of this shape.
 reversed() -> Shape
-        
 
 
 
@@ -1051,7 +1007,6 @@ e=Part.Ellipse()
 s=e.toShape(e.LastParameter/4,3*e.LastParameter/4)
 r=s.revolve(V(0,0,0),V(0,1,0), 360)
 Part.show(r)
-        
 
 
 
@@ -1061,7 +1016,6 @@ Apply the rotation (base,dir,degree) to the current location of this shape
 rotate(base,dir,degree)
 --
 Shp.rotate(Vector(0,0,0),Vector(0,0,1),180) - rotate the shape around the Z Axis 180 degrees.
-        
 
 
 
@@ -1069,7 +1023,6 @@ Shp.rotate(Vector(0,0,0),Vector(0,0,1),180) - rotate the shape around the Z Axis
 
 Create a new shape with rotation.
 rotated(base,dir,degree) -> shape
-        
 
 
 
@@ -1077,7 +1030,6 @@ rotated(base,dir,degree) -> shape
 
 Apply scaling with point and factor to this shape.
 scale(factor,[base=Vector(0,0,0)])
-        
 
 
 
@@ -1085,7 +1037,6 @@ scale(factor,[base=Vector(0,0,0)])
 
 Create a new shape with scale.
 scaled(factor,[base=Vector(0,0,0)]) -> shape
-          
 
 
 
@@ -1111,7 +1062,6 @@ OCC 6.9.0 or later is required.
 
 Sew the shape if there is a gap.
 sewShape()
-        
 
 
 
@@ -1126,7 +1076,6 @@ slice(direction, distance) --> Wires
 
 Make slices of this shape.
 slices(direction, distancesList) --> Wires
-        
 
 
 
@@ -1134,7 +1083,6 @@ slices(direction, distancesList) --> Wires
 
 Tessellate the shape and return a list of vertices and face indices
 tessellate() -> (vertex,facets)
-        
 
 
 
@@ -1173,7 +1121,6 @@ underlying geometry then use the methods translate or rotate.
 
 
 
-
 #### <img src="images/Type_enum.svg" style="width:16px;"> transformShape
 
 Apply transformation on a shape without changing the underlying geometry.
@@ -1188,7 +1135,6 @@ scaling is detected.
 
 Create a new transformed shape
 transformed(Matrix,copy=False,checkScale=False,op=None) -> shape
-        
 
 
 
@@ -1196,7 +1142,6 @@ transformed(Matrix,copy=False,checkScale=False,op=None) -> shape
 
 Apply the translation to the current location of this shape.
 translate(vector)
-        
 
 
 
@@ -1204,7 +1149,6 @@ translate(vector)
 
 Create a new shape with translation
 translated(vector) -> shape
-         
 
 
 
@@ -1212,7 +1156,6 @@ translated(vector) -> shape
 
 Write the mesh in OpenInventor format to a string.
 writeInventor() -> string
-        
 
 
 
