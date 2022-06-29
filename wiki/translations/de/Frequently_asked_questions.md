@@ -57,7 +57,13 @@ Ein Absturz könnte eine ernsthafteren Fehler andeuten oder ein Problem in deine
 
 Dies ist eine sehr häufige Ursache für das Problem. Die Symptome sind einfach, dass FreeCAD beim Start abstürzt, oder immer dann, wenn du eine 3D Ansicht öffnest (z.B. durch Erstellen eines neuen Dokuments). Versuche herauszufinden, was für einen Grafikchip du hast, dann finde heraus, ob er [OpenGL](https   *//en.wikipedia.org/wiki/OpenGL) unterstützt (die meisten neueren Chips tun das), dann finde den richtigen Treiber und installieren ihn. Eine gute Möglichkeit, um zu überprüfen, ob OpenGL verfügbar ist, ist der Versuch, eine andere OpenGL Anwendung wie [blender](http   *//www.blender.org) zu starten.
 
+
+<div class="mw-translate-fuzzy">
+
 Und als allgemeiner Tip, um mehr Informationen über Abstürze mit FreeCAD zu erhalten, kannst du es mit dem Programmparameter {{SystemInput|--write-log}} starten. Dadurch wird die Datei **FreeCAD.log** in **$HOME/.FreeCAD** auf Linux, in **$HOME/Library/Preferences/FreeCAD** unter macOS oder **%APPDATA%/FreeCAD** auf Windows Systemen erstellt.
+
+
+</div>
 
 In einigen seltenen Fällen hast Du vielleicht einen Grafiktreiber installiert, der nicht zu Deiner Grafikkarte passt. Wir hatten einen Fall, wo im Laptop des Benutzer eine Intel on-board Grafik verbaut war, aber einige ATI Treiber installiert waren ([1](http   *//forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042)). Nach dem Entfernen der Dateien und der Neuinstallation des richtigen Treibers begann FreeCAD zu arbeiten.
 
@@ -107,9 +113,15 @@ Höchstwahrscheinlich hast du die regionalen Einstellungen von Windows falsch ei
 
 Dies kann auch passieren, wenn du eine ältere Version von FreeCAD installiert hattest und auf eine neuere Version aktualisiert hast. Bei diesem Prozeß könnten die Konfigurationsdateien von FreeCAD aus irgendeinem Grund beschädigt worden sein, und nun kann FreeCAD sie nicht mehr lesen und startet nicht mehr. Die Lösung ist einfach, diese Konfigurationsdateien zu löschen, so dass FreeCAD sie beim ersten Lauf neu erstellt.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Auf Windows   * Öffne den Datei Explorer und schreibe **%APPDATA%\FreeCAD** als Dateipfad. Dort angekommen, lösche dort die Dateien **user.cfg** und **system.cfg**
 -   Auf Linux   * Navigiere zu **/home/USERNAME/.FreeCAD** und lösche dort die Dateien **user.cfg** und **system.cfg**
 -   Auf Mac   * Navigiere zu **/Users/USERNAME/Library/Preferences/FreeCAD** und lösche dort die Dateien **user.cfg** und **system.cfg**
+
+
+</div>
 
 FreeCAD sollte nun wieder normal, mit allen Einstellungen zurückgesetzt, starten.
 

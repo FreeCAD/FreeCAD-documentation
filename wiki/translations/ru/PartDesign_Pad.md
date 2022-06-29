@@ -2,23 +2,20 @@
 - GuiCommand   */ru
    Name/ru   *Выдавливание
    Name   *PartDesign_Pad
-   MenuLocation   *Part Design → Create an additive feature → Выдавливание
+   MenuLocation   *Part Design → Аддитивные преобразования → Выдавливание
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    SeeAlso   *[Вырез](PartDesign_Pocket/ru.md)
 ---
 
 # PartDesign Pad/ru
 
-
-</div>
-
 ## Описание
 
-The **Pad** tool extrudes a sketch or a face of a solid along a straight path.
+Инструмент **Выдавливание** вытягивает эскиз или грань твёрдого тела по прямой траектории.
 
 ![](images/PartDesign_Pad_example.svg )
 
-*Sketch (A) shown on the left; end result after pad operation (B) on the right.*
+*Эскиз (А) показан слева; конечный результат после операции выдавливания (B) справа.*
 
 ## Применение
 
@@ -35,7 +32,7 @@ When creating a pad, the **Pad parameters** dialog will be shown. It offers the 
 
 ![](images/pad_parameters_cropped.png )
 
-### Type
+### Тип (Type) 
 
 Type offers five different ways of specifying the length to which the pad will be extruded   *
 

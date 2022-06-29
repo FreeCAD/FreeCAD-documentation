@@ -13,9 +13,10 @@ Esta categoría contiene macros para extender tu instalación de FreeCAD con nue
 | [Macro Make Cube/es](wiki/Macro Make Cube/es.md) | [Macro MeshToPart/es](wiki/Macro MeshToPart/es.md) | [Macro MessageBox/es](wiki/Macro MessageBox/es.md) |
 | [Macro Mouse Cross/es](wiki/Macro Mouse Cross/es.md) | [Macro PartsLibrary/es](wiki/Macro PartsLibrary/es.md) | [Macro Rectellipse/es](wiki/Macro Rectellipse/es.md) |
 | [Macro Remove parametric history/es](wiki/Macro Remove parametric history/es.md) | [Macro Rotate View/es](wiki/Macro Rotate View/es.md) | [Macro Solid Sweep/es](wiki/Macro Solid Sweep/es.md) |
-| [Macro SuperWire/es](wiki/Macro SuperWire/es.md) | [Macro Texture Objects/es](wiki/Macro Texture Objects/es.md) | [Macro View Rotation/es](wiki/Macro View Rotation/es.md) |
-| [Template:Macro/es](wiki/Template_Macro/es.md) | [Macros recipes/es](wiki/Macros recipes/es.md) | [Macros/es](wiki/Macros/es.md) |
-| [Qt Example/es](wiki/Qt Example/es.md) | [Svg Namespace/es](wiki/Svg Namespace/es.md) |
+| [Macro SuperWire/es](wiki/Macro SuperWire/es.md) | [Macro Texture Objects/es](wiki/Macro Texture Objects/es.md) | [Macro TimingGear/es](wiki/Macro TimingGear/es.md) |
+| [Macro View Rotation/es](wiki/Macro View Rotation/es.md) | [Template:Macro/es](wiki/Template_Macro/es.md) | [Macros recipes/es](wiki/Macros recipes/es.md) |
+| [Macros/es](wiki/Macros/es.md) | [Qt Example/es](wiki/Qt Example/es.md) | [Svg Namespace/es](wiki/Svg Namespace/es.md) |
+|
 
 
 

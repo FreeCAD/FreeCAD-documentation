@@ -50,7 +50,7 @@ Timing gears are connected to a timing belt or timing chain.
 ## Links
 
 -   Forum thread   * [GT2, GT3 and GT5 Timing Gear Creator](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35899).
--   You can also create timing gears with [FCGear\_TimingGear](FCGear_TimingGear.md).
+-   You can also create timing gears with the [FCGear TimingGear](FCGear_TimingGear.md) command from the external [FCGear Workbench](FCGear_Workbench.md).
 
 ## Script
 

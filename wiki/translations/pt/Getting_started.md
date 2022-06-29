@@ -228,13 +228,7 @@ Mais em[ Tuturials](Tutorials.md).
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Programação (Scripting) 
-
-
-</div>
+## Addons, Macros e bancadas de trabalho externas 
 
 O Freecad, sendo um software open source, dá a possibilidade de complementar as suas bancadas de trabalho com addons.
 
@@ -243,7 +237,7 @@ O princípio [Extensões](Addon/pt.md) é baseado no desenvolvimento de um compl
 Existem dois tipos de addons   *
 
 1.  [Macros](Macros/pt.md)   * pequenos trechos de código Python que adicionam uma nova ferramenta ou funcionalidade. As macros normalmente começam como uma forma de simplificar ou automatizar a tarefa de desenhar ou editar um objecto em particular. Se muitas dessas macros são agrupadas dentro de um directório, o directório inteiro pode ser distribuído como uma nova bancada de trabalho.
-2.  [External workbenches](External_workbenches/pt.md)   * colecções de ferramentas programadas em Python ou C++ que ampliam de forma importante o Freecad . Se uma bancada de trabalho está suficientemente desenvolvida e bem documentada, pode até ser incluída como uma das bancadas de trabalho base dentro do Freecad. Em [External workbenches](External_workbenches/pt.md), irá encontrar o fundamento de cada uma e uma lista das várias bancadas externas.
+2.  [Bancadas de trabalho externas](External_workbenches/pt.md)   * colecções de ferramentas programadas em Python ou C++ que ampliam de forma importante o Freecad . Se uma bancada de trabalho está suficientemente desenvolvida e bem documentada, pode até ser incluída como uma das bancadas de trabalho base dentro do Freecad. Em [Bancadas de trabalho externas](External_workbenches/pt.md), irá encontrar o fundamento de cada uma e uma lista das várias bancadas externas.
 
 ## Programação (Scripting) 
 
@@ -275,13 +269,7 @@ E finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente de [ progr
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav|Install on Mac|Mouse Model}}
-
-
-</div>
 
 
 

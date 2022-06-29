@@ -50,7 +50,7 @@
 
 При необходимости определите большее значение допуска в выпадающем поле.
 
-Press **Highlight open vertexes** to highlight vertexes that are outside this tolerance.
+Press **Highlight troublesome vertexes** to highlight vertexes that are outside this tolerance.
 
 This tolerance is also used by the **Find**/**Fix** process.
 

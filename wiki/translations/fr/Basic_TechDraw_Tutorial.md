@@ -11,7 +11,7 @@
 
 ## Introduction
 
-Ce didacticiel présente au nouvel utilisateur certains des outils et techniques utilisés dans l\'**![](images/)**. Ce didacticiel n\'est pas un guide complet de l\'atelier TechDraw et de nombreux outils et fonctionnalités ne sont pas couverts. Ce didacticiel vous guidera dans les étapes nécessaires à la réalisation des dessins techniques de la pièce du [Tutoriel d\'introduction à l\'atelier PartDesign](Basic_Part_Design_Tutorial_017/fr.md).
+Ce tutoriel présente au nouvel utilisateur certains des outils et techniques utilisés dans l\'**![](images/)**. Ce didacticiel n\'est pas un guide complet de l\'atelier TechDraw et de nombreux outils et fonctionnalités ne sont pas couverts. Ce didacticiel vous guidera dans les étapes nécessaires à la réalisation des dessins techniques de la pièce du [Tutoriel d\'introduction à l\'atelier PartDesign](Basic_Part_Design_Tutorial_017/fr.md).
 
 ## Avant de commencer 
 

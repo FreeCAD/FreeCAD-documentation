@@ -497,6 +497,12 @@ Sub-elements such as vertices, edges or faces are accessible as:
 
 
 
+#### <img src="images/type_module.svg" style="width:16px;"> ShapeFix
+
+This is a module working with the ShapeFix framework.
+
+
+
 #### <img src="images/type_module.svg" style="width:16px;"> ShapeUpgrade
 
 This is a module working with the ShapeUpgrade framework.

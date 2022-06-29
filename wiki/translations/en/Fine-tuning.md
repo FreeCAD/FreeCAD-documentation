@@ -12,7 +12,7 @@ However, it is also possible to access, modify and create parameters manually, u
 The list below shows parameters that are not accessible via the preferences editor, but that you can set manually (located in **BaseApp/Preferences**)
 
 -   **Addons/developerMode** (boolean)   * Set to `True` to enable the developer mode of the [Addon Manager](Std_AddonMgr.md). See [Package Metadata](Package_Metadata#Validation.md).
--   **Bitmaps/Theme/ThemeSearchPaths** (boolean)   * Set to `False` so FreeCAD uses it\'s included icons instead of the system icon theme on Linux.
+-   **Bitmaps/Theme/ThemeSearchPaths** (boolean)   * Set to `False` so FreeCAD uses its included icons instead of the system icon theme on Linux.
 -   **Dialog/DontUseNativeColorDialog** (boolean)   * Color picker dialog setting. Set to `False` if you want FreeCAD to use the native color dialog on your system rather than the Qt Color Dialog. Defaults to `True`.
 -   **Dialog/DontUseNativeDialog** (boolean)   * File dialog setting. Set to `False` if you want to use the native File dialog when opening files or to `True` to use the Qt File Picker Dialog. Default depends on a compile time setting   * \#define (USE\_QT\_FILEDIALOG).
 -   **Dialog/DontUseNativeFontDialog** (boolean)   * Used by the [Draft ShapeString](Draft_ShapeString.md) command. Set to `False` to use the native Font dialog. Defaults to `True`.
@@ -42,7 +42,10 @@ The list below shows parameters that are not accessible via the preferences edit
 -   **Selection/AutoShowSelectionView** (boolean)   * Set to `True` to make the Selection View pane show automatically when selecting something. Defaults to `False`.
 -   **Selection/singleClickFeatureSelect** (boolean)   * Set to `False` to disable single click selection of a feature in PartDesign. Defaults to `True`.
 -   **TreeView/TreeViewStretchDescription** (boolean)   * Set to `True` to stretch the \'Description\' column in the [Tree view](Tree_view.md) to the right edge of the pane. Defaults to `False`.
--   **View/NavigationDebug** (boolean)   * enables debug output of navigation styles (as of v0.19, only Gesture navigation style has something to say).
+-   **View/Dimensions3dColor** (string)   * Set to a hex color value in the format `#RRGGBB` to change the direct dimension display color in [Part Measure Linear](Part_Measure_Linear.md).
+-   **View/DimensionsAngularColor** (string)   * Set to a hex color value in the format `#RRGGBB` to change the angular dimension display color in [Part Measure Angular](Part_Measure_Angular.md).
+-   **View/DimensionsDeltaColor** (string)   * Set to a hex color value in the format `#RRGGBB` to change the orthogonal dimensions display color in [Part Measure Linear](Part_Measure_Linear.md).
+-   **View/NavigationDebug** (boolean)   * Enables debug output of navigation styles (as of v0.19, only Gesture navigation style has something to say).
 -   **View/SavePicture** (string)   * Set to **FramebufferObject**, **PixelBuffer** or **CoinOffscreenRenderer** for different methods to produce images from the 3D view.
 
 ### Export Default Filename 

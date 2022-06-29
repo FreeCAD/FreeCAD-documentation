@@ -26,7 +26,7 @@ Macro to rotate an object on itself with the axis of rotation being either the  
 3.  Select one object
 4.  Choose one of the following orientations   *
 
-![Interface Rotate to point ](images/Macro_Rotate_To_Point_00.png ) 
+![Interface Rotate to point](images/Macro_Rotate_To_Point_00.png ) 
 
 ### Point Rotation 
 
@@ -2945,11 +2945,15 @@ if __name__ == "__main__"   *
     MainWindow.show()
 }}
 
-==<Example   *==> ![](images/Macro_Rotate_To_Point_01.gif )
+## Example
+
+![](images/Macro_Rotate_To_Point_01.gif )
 
 ## Links
 
-The forum [feature req   * placement - rotate part around its midpoint](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=20925) My macro to Gist [mario52a](https   *//gist.github.com/mario52a)
+The forum [feature req   * placement - rotate part around its midpoint](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=20925)
+
+My macro on Gist [mario52a](https   *//gist.github.com/mario52a)
 
 ## Version
 

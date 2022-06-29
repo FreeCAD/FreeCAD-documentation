@@ -59,11 +59,38 @@ snap install --edge freecad
 
 ## Remarques
 
+#### Quelle est la version de FreeCAD que j\'utilise ? 
+
 Pour savoir quelle version de développement est installée, tapez ce qui suit dans l\'interface de ligne de commande    *
 
 
 {{Code|lang=bash|code=
 snap info freecad
+}}
+
+#### Changer entre différents snaps 
+
+A partir de la fin du cycle de la version 0.20, les mainteneurs snap de FreeCAD ont ajouté la possibilité de tester des versions expérimentales de FreeCAD. Les snaps permettent de le faire en basculant facilement entre différents snaps (la terminologie est \'[channels or tracks](https   *//snapcraft.io/docs/channels)\'). Par exemple    *
+
+Test de la branche Topological Naming (\'toponaming\') (créée au début du cycle de release v0.21/v1.0)    *
+
+
+{{code|lang=bash|code=
+snap switch freecad --channel=latest/edge/toponaming
+}}
+
+L\'utilisation de la commande `refresh` permet de basculer et de mettre à jour le canal snap sur lequel vous basculez    *
+
+
+{{code|lang=bash|code=
+snap refresh freecad --channel=latest/edge/toponaming
+}}
+
+Retour sur le \"dernier\" canal de développement    *
+
+
+{{code|lang=bash|code=
+snap refresh freecad --channel=latest/edge
 }}
 
 ## Mode avancé 

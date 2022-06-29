@@ -9,7 +9,7 @@ Creating new ToolShapes is an advanced topic. The most commonly needed ToolShape
 
 -   On Linux it is usually `/usr/lib64/FreeCAD/Mod/Path/Tools/Shape`
 -   On Windows it is usually `C   *Program Files\FreeCAD\Mod\Path\Tools\Shape`
--   On macOS it is usually `/Applications/FreeCAD/Mod/Path/Tools/Shape`
+-   On macOS it is usually `/Applications/FreeCAD.app/Contents/Resources/Mod/Path/Tools/Shape`
 
 They are   *
 
@@ -49,7 +49,7 @@ They are   *
     **v-bit.fcstd**
     
 
-These can be found in the **/Mod/Path/Tools/Shape/** subdirectory where FreeCAD was installed.
+These can be found in the **Mod/Path/Tools/Shape/** subdirectory where FreeCAD was installed.
 
 ## Usage
 

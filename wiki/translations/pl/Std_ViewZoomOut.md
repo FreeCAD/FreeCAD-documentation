@@ -1,40 +1,41 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewZoomOut
-   MenuLocation   *View → Zoom → Zoom Out
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**-**
-   SeeAlso   *[Std ViewZoomIn](Std_ViewZoomIn.md), [Std ViewBoxZoom](Std_ViewBoxZoom.md)
+   Name/pl   *Std   * Oddal widok
+   MenuLocation   *Widok → Powiększenie → Oddal
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **-**
+   SeeAlso   *[Przybliż](Std_ViewZoomIn/pl.md), [Powiększ obszar](Std_ViewBoxZoom/pl.md)
 ---
 
 # Std ViewZoomOut/pl
 
-## Description
+## Opis
 
-The **Std ViewZoomOut** command zooms out in the active [3D view](3D_view.md).
+Polecenie **Oddal** powoduje powiększenie aktywnego widoku w oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Select the **View → Zoom → <img src="images/Std_ViewZoomOut.svg" width=16px> Zoom Out** option from the menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**-**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz z menu opcję **Widok → Powiększenie → <img src="images/Std_ViewZoomOut.svg" width=16px> Oddal**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **-**.
 
-## Notes
+## Uwagi
 
--   It is also possible to zoom with the mouse scroll wheel.
+-   Istnieje również możliwość powiększania /pomniejszenia obrazu za pomocą kółka przewijania myszy.
 
-## Preferences
+## Ustawienia
 
--   The zoom factor can be changed in the preferences   * **Edit → Preferences... → Display → Navigation → Zoom step**. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
+-   Współczynnik powiększenia można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Krok powiększenia**. To ustawienie ma również wpływ na powiększanie za pomocą kółka przewijania. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To zoom out use the `zoomOut` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby pomniejszyć obraz, użyj metody `zoomOut` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

@@ -10,7 +10,7 @@
 
 AppImage is a \"universal binary package\" intended to distribute an application to any Linux distribution. Read more about it on the [Appimage homepage](https   *//appimage.org) and [Wikipedia](https   *//en.wikipedia.org/wiki/AppImage).
 
-To run it, fist make it executable, and then type the relative or full path.
+To run it, first make it executable, and then type the relative or full path.
 
 
 ```python

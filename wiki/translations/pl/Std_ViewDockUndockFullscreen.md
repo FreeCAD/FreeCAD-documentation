@@ -1,55 +1,56 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
 
    Name   *Std ViewDockUndockFullscreen
+   Nam/pl   *Std   * Zadokuj / Oddokuj okno
    Empty   *1
-   MenuLocation   *View → Document window → Docked/Undocked
-   Workbenches   *All
+   MenuLocation   *Widok → Okno dokumentu → Zadokowany / Niezadokowany
+   Workbenches   *wszystkie
    Shortcut   ***V** **D** / **V** **U**
-   SeeAlso   *[Std ViewFullscreen](Std_ViewFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)
+   SeeAlso   *[Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
 ---
 
 # Std ViewDockUndockFullscreen/pl
 
-## Introduction
+## Wprowadzenie
 
-[3D views](3D_view.md) can be undocked from the main [FreeCAD interface](Interface.md) and moved to a different display for example.
+Okna [widoków 3D](3D_view/pl.md) mogą być odłączane od głównego [interfejsu FreeCAD](Interface/pl.md) i przenoszone na przykład na inny ekran.
 
 ![](images/FinestraNonAgganciata.png ) 
-*An undocked 3D view*
+*Oddokowane okno widoku 3D*
 
-## Docked
+## Zablokowane
 
-### Description
+### Opis
 
-The **Docked** menu option docks the active [3D view](3D_view.md) inside the main FreeCAD interface.
+Opcja menu **Zadokowany** powoduje zadokowanie aktywnego okna [widoku 3D](3D_view/pl.md) wewnątrz głównego interfejsu programu FreeCAD.
 
-### Usage
+## Użycie
 
-1.  Activate an undocked 3D view.
-2.  There are several ways to invoke the option   *
-    -   If there are no docked 3D views   * select the **View → Document window → Docked** option from the menu.
-    -   Select the **Document window → Docked** option from the 3D view context menu.
-    -   Use the keyboard shortcut   * **V** then **D**.
+1.  Aktywuj odłączone okno widoku 3D.
+2.  Opcję można wywołać na kilka sposobów   *
+    -   Jeśli nie ma zadokowanych widoków 3D   * wybierz z menu opcję **Widok → Okno dokumentu → Zadokowany**.
+    -   Wybierz opcję **Okno dokumentu → Zadokowany** z menu kontekstowego okna widoku 3D.
+    -   Użyj skrótu klawiaturowego   * **V**, a następnie **D**.
 
-## Undocked
+## Odblokowane
 
-### Description 
+### Opis 
 
-The **Undocked** menu option undocks the active [3D view](3D_view.md) from the main FreeCAD interface.
+Opcja menu **Niezadokowany** powoduje odłączenie aktywnego okna [widoku 3D](3D_view/pl.md) od głównego interfejsu programu FreeCAD.
 
-### Usage 
+## Użycie 
 
-1.  Activate a docked 3D view.
-2.  There are several ways to invoke the option   *
-    -   Select the **View → Document window → Undocked** option from the menu.
-    -   Select the **Document window → Undocked** option from the 3D view context menu.
-    -   Use the keyboard shortcut   * **V** then **U**.
+1.  Aktywuj okno widoku 3D.
+2.  Opcję można wywołać na kilka sposobów   *
+    -   Jeśli nie ma zadokowanych widoków 3D   * wybierz z menu opcję **Widok → Okno dokumentu → Niezadokowany**.
+    -   Wybierz opcję **Okno dokumentu → Niezadokowany** z menu kontekstowego okna widoku 3D.
+    -   Użyj skrótu klawiaturowego   * **V**, a następnie **U**.
 
-## Notes
+## Uwagi
 
--   Multiple 3D views for the same document can be created with the [Std ViewCreate](Std_ViewCreate.md) command.
--   3D views can also be docked and undocked with the [Std ViewFullscreen](Std_ViewFullscreen.md) command.
+-   Można utworzyć wiele widoków 3D dla tego samego dokumentu za pomocą polecenia [Utwórz widok](Std_ViewCreate/pl.md).
+-   Widoki 3D można również zadokować i oddokować za pomocą polecenia [Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md).
 
 
 

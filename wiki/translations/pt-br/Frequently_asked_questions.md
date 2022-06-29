@@ -63,7 +63,11 @@ Esta é uma causa muito comum. Neste caso, o FreeCAD simplesmente trava na inici
 
 Tente descobrir qual é seu chip gráfico ou placa de vídeo e depois verifique se ele suporta [OpenGL](https   *//en.wikipedia.org/wiki/OpenGL). A seguir, verifique se o driver correto está instalado, Se não estiver, encontre o driver correto e instale-o. Uma boa maneira de verificar se OpenGL está disponível é tentar executar outro aplicativo que faz uso de OpenGL, como o [blender](http   *//www.blender.org).
 
+
+<div class="mw-translate-fuzzy">
+
 Para obter mais informações sobre travamentos do seu FreeCAD, inicie-o utilizando o parâmetro {{SystemInput|--write-log}}}. Isto criará o arquivo {**FreeCAD.log**}, localizado em {**$HOME/.FreeCAD**} no Linux e Mac OS X, ou na pasta {**%APPDATA%/FreeCAD** em sistemas Windows.
+</div>
 
 Em alguns casos raros, você pode ter um driver de vídeo instalado que não é compatível com sua placa gráfica. Tivemos um caso em que o laptop do usuário tinha um chipset Intel on-board, mas alguns drivers ATI estavam instalados. [http   *//forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042]
 Depois de remover os arquivos da ATI e reinstalar o driver correto, o FreeCAD começou a funcionar.
@@ -116,9 +120,15 @@ Provavelmente, você tem uma configuração incorreta das configurações region
 
 Isto também pode acontecer se você tivesse uma versão mais antiga do FreeCAD instalada, e você atualizasse para uma versão mais nova. Nesse processo, os arquivos de configuração do FreeCAD podem ter sido corrompidos por alguma razão, e agora o FreeCAD não consegue mais lê-los, e não inicia. A solução é simplesmente apagar estes arquivos de configuração, assim o FreeCAD irá recriá-los na primeira execução.
 
+
+<div class="mw-translate-fuzzy">
+
 -   No Windows   * Abra o explorador de arquivos, e escreva **%APPDATA%\FreeCAD** como o caminho do arquivo. Uma vez lá, apague os arquivos **user.cfg** e **system.cfg**.
 -   No Linux   * Navegue até **/home/USERNAME/.FreeCAD** e exclua os arquivos **user.cfg** e **system.cfg**
 -   No Mac   * Navegue até **/UserNAME/Library/Preferences/FreeCAD** e apague os arquivos **user.cfg** e **system.cfg**
+
+
+</div>
 
 O FreeCAD deve agora recomeçar normalmente com todas as suas configurações reiniciadas.
 

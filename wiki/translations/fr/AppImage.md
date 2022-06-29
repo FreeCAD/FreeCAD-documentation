@@ -10,7 +10,7 @@
 
 AppImage est un \"paquet binaire universel\" destiné à distribuer une application quel que soit la distribution Linux. En savoir plus à ce sujet en lisant la [page d\'accueil Appimage](https   *//appimage.org) et [AppImage sur Wikipédia](https   *//fr.wikipedia.org/wiki/AppImage)
 
-Pour l\'exécuter, commencez par le rendre exécutable, puis tapez le chemin d\'accès relatif ou complet.
+Pour le lancer, il faut d\'abord le rendre exécutable, puis taper le chemin relatif ou complet.
 
 
 ```python

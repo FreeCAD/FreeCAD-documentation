@@ -1,13 +1,4 @@
-# Part Module/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="L\'icona dell\'ambiente Part" src=images/Workbench_Part.svg  style="width   *128px;">
+# <img alt="L\'icona dell\'ambiente Part" src=images/Workbench_Part.svg  style="width   *64px;"> Part Module/it
 
 
 {{TOCright}}
@@ -44,9 +35,9 @@ Questi sono strumenti per creare oggetti primitivi.
 
 -   <img alt="" src=images/Part_Cone.svg  style="width   *32px;"> [Cono](Part_Cone/it.md)   * Crea un cono.
 
--   <img alt="" src=images/Part_Torus.svg  style="width   *32px;"> [Torus](Part_Torus.md)   * Creates a torus.
+-   <img alt="" src=images/Part_Torus.svg  style="width   *32px;"> [Toro](Part_Torus/it.md)   * Crea un toro.
 
--   <img alt="" src=images/Part_Tube.svg  style="width   *32px;"> [Tube](Part_Tube.md)   * Creates a tube. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_Tube.svg  style="width   *32px;"> [Tubo](Part_Tube/it.md)   * Crea un tubo. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width   *32px;"> [Create primitives\...](Part_Primitives.md)   * A tool to create one of the following primitives   *
     -   <img alt="" src=images/Part_Plane.svg  style="width   *32px;"> [Plane](Part_Plane.md)   * Creates a plane.
@@ -66,7 +57,7 @@ Questi sono strumenti per creare oggetti primitivi.
     -   <img alt="" src=images/Part_Line.svg  style="width   *32px;"> [Line](Part_Line.md)   * Creates a line.
     -   <img alt="" src=images/Part_RegularPolygon.svg  style="width   *32px;"> [Regular polygon](Part_RegularPolygon.md)   * Creates a regular polygon.
 
--   <img alt="" src=images/Part_Builder.svg  style="width   *32px;"> [Shape builder\...](Part_Builder.md)   * Creates shapes from various primitives.
+-   <img alt="" src=images/Part_Builder.svg  style="width   *32px;"> [Crea una forma\...](Part_Builder/it.md)   * Crea forme partendo da varie primitive.
 
 ### Creazione e modifica 
 
@@ -74,17 +65,17 @@ Questi sono strumenti per creare nuovi oggetti e modificare quelli esistenti.
 
 -   <img alt="" src=images/Part_Extrude.svg  style="width   *32px;"> [Estrusione](Part_Extrude/it.md)   * Estrude facce planari.
 
--   <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> [Revolve](Part_Revolve.md)   * Creates a solid by revolving an object (not a solid) around an axis.
+-   <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> [Rivoluziona](Part_Revolve/it.md)   * Crea un solido tramite la rivoluzione di un oggetto (non solido) attorno ad un asse.
 
--   <img alt="" src=images/Part_Mirror.svg  style="width   *32px;"> [Mirror](Part_Mirror.md)   * Mirrors the selected object across a mirror plane.
+-   <img alt="" src=images/Part_Mirror.svg  style="width   *32px;"> [Specchia](Part_Mirror/it.md)   * Riflette l\'oggetto selezionato rispetto ad un asse stabilito.
 
--   <img alt="" src=images/Part_Fillet.svg  style="width   *32px;"> [Fillet](Part_Fillet.md)   * Fillets (rounds) edges of an object.
+-   <img alt="" src=images/Part_Fillet.svg  style="width   *32px;"> [Raccorda](Part_Fillet/it.md)   * Raccorda (arrotonda) i bordi di un oggetto.
 
--   <img alt="" src=images/Part_Chamfer.svg  style="width   *32px;"> [Chamfer](Part_Chamfer.md)   * Chamfers edges of an object.
+-   <img alt="" src=images/Part_Chamfer.svg  style="width   *32px;"> [Smussa](Part_Chamfer/it.md)   * Smussa i bordi di un oggetto.
 
 -   <img alt="" src=images/Part_MakeFace.svg  style="width   *32px;"> [Crea faccia](Part_MakeFace/it.md)   * Crea una faccia da un insieme di linee (contorni). <small>(v0.19)</small> 
 
--   <img alt="" src=images/Part_RuledSurface.svg  style="width   *32px;"> [Ruled Surface](Part_RuledSurface.md)   * Creates a ruled surface.
+-   <img alt="" src=images/Part_RuledSurface.svg  style="width   *32px;"> [Superficie rigata](Part_RuledSurface/it.md)   * Crea una superficie superficie rigata.
 
 -   <img alt="" src=images/Part_Loft.svg  style="width   *32px;"> [Loft](Part_Loft.md)   * Lofts from one profile to another.
 

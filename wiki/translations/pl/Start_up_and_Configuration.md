@@ -1,4 +1,8 @@
 # Start up and Configuration/pl
+**W wersji 0.20 programu FreeCAD w systemie Linux zmieniono domyślną lokalizację plików konfiguracji, danych i pamięci podręcznej programu..<br>
+Więcej informacji można znaleźć na stronie [Informacje o wydaniu 0.20](Release_notes_0.20/pl#Rdze.C5.84_programu.md). Niniejsza strona nie została jeszcze odpowiednio zaktualizowana.**
+
+
 {{TOCright}}
 
 ## Informacje ogólne 

@@ -117,7 +117,7 @@ Note that several features do not work in the V0.19 version of this command.
 
 -   The **Line color**, **Line width** and **Shape color** settings are not only used for Draft objects, but also for objects created with other workbenches.
 -   Styles are saved in a file with a fixed name   * **StylePresets.json** which is stored in FreeCAD\'s user **Draft** folder   *
-    -   On Linux it is usually **/home/<username>/.FreeCAD/Draft/**.
+    -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Draft/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Draft/** ({{VersionMinus|0.19}}).
     -   On Windows it is **%APPDATA%\FreeCAD\Draft\**, which is usually **C   *Users\<username>\Appdata\Roaming\FreeCAD\Draft\**.
     -   On macOS it is usually **/Users/<username>/Library/Preferences/FreeCAD/Draft/**.
 

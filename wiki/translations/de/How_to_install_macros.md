@@ -5,7 +5,13 @@
    Zeit   *15 Minuten
    FCVersion   *Alle
    Author   *[Mario52](User_Mario52.md)
-}}
+---
+
+# How to install macros/de
+
+
+
+
 
 ## Beschreibung
 
@@ -13,13 +19,18 @@ Seit v0.17 ist es einfach, Makros mit Hilfe des [Erweiterungsverwalter](Std_Addo
 
 Makros sind Befehlssequenzen, die zur Ausführung einer komplexen Zeichenoperation verwendet werden. Makros sind [Python](Python/de.md) Skripte, d.h. sie sind Textdateien, die mit einem Texteditor geschrieben und bearbeitet werden können.
 
-Während Python Skripte normalerweise die Erweiterung {{incode   .py}} haben, sollten FreeCAD Makros die Erweiterung {{incode   .FCMacro}} haben. Eine Sammlung von Makros, die von erfahrenen Anwendern geschrieben wurden, findest Du auf der Seite [Makrozepte](macros_recipes/de.md).
+Während Python Skripte normalerweise die Erweiterung `.py` haben, sollten FreeCAD Makros die Erweiterung `.FCMacro` haben. Eine Sammlung von Makros, die von erfahrenen Anwendern geschrieben wurden, findest Du auf der Seite [Makrozepte](macros_recipes/de.md).
 
 Siehe [Einführung in Python](Introduction_to_Python/de.md), um mehr über die Programmiersprache Python zu erfahren, und dann [Python Skript Tutorium](Python_scripting_tutorial/de.md) und [FreeCAD Skript Grundlagen](FreeCAD_Scripting_Basics/de.md), um das Schreiben von Makros zu erlernen.
 
 Hier ist ein Video über [Installieren von FreeCAD Makros in Ubuntu](https   *//wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
 ## Das Makro Menü und die Werkzeugleiste 
+
+### Toolbar
+
+
+<div class="mw-translate-fuzzy">
 
 ### Werkzeugleiste
 
@@ -28,9 +39,17 @@ Hier ist ein Video über [Installieren von FreeCAD Makros in Ubuntu](https   *//
 -   <img alt="open editor" src=images/Std_DlgMacroExecute.svg  style="width   *32px;"> [Makros\...](Std_DlgMacroExecute/de.md)
 -   <img alt="execute" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *32px;"> [Makro Ausführen](Std_DlgMacroExecuteDirect/de.md)
 
+
+</div>
+
+### Menu
+
+
+<div class="mw-translate-fuzzy">
+
 ### Menü
 
-Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im {{MenuCommand/de   Makro}} Menü verfügbar.
+Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im {{MenuCommand/de|Makro}} Menü verfügbar.
 
 -   [An den entfernten Debugger anhängen](Std_MacroAttachDebugger/de.md)
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width   *32px;"> [Fehlersuche Makro](Std_MacroStartDebug/de.md)
@@ -39,30 +58,38 @@ Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im
 -   [Schritt nach vorn](Std_MacroStepInto/de.md)
 -   [Umschalten Haltepunkt](Std_ToggleBreakpoint/de.md)
 
+
+</div>
+
 ## Makros Verzeichnis 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Makros werden in einem bestimmten Ordner unter dem FreeCAD Benutzerverzeichnis erstellt. Dieses Verzeichnis kann im [Makrodialog ausführen](Std_DlgMacroExecute/de.md), oder im [Einstellungseditor](Preferences_Editor/de.md), über das Menü {{MenuCommand/de   Bearbeiten → Einstellungen → Allgemein →  Makro → Makro Aufnahme Einstellungen}}.
+Makros werden in einem bestimmten Ordner unter dem FreeCAD Benutzerverzeichnis erstellt. Dieses Verzeichnis kann im [Makrodialog ausführen](Std_DlgMacroExecute/de.md), oder im [Einstellungseditor](Preferences_Editor/de.md), über das Menü {{MenuCommand/de|Bearbeiten → Einstellungen → Allgemein →  Makro → Makro Aufnahme Einstellungen}}.
 
 Heruntergeladene Makros sollten ebenfalls in diesem Verzeichnis abgelegt werden.
 
 
 <div class="mw-collapsible-content">
 
+### Default directory 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Standardverzeichnis
 
 Makros können einfach kopiert werden in
 
 
-{{Code   code   *
+</div>
+
+
+```python
 $ROOT_DIR/
----
+```
 
-# How to install macros/de
-
- 
 wobei `$ROOT_DIR` ein Verzeichnis der obersten Ebene ist, das von FreeCAD beim Start durchsucht wird.
 
 Der `$ROOT_DIR` könnte ein systemweites Verzeichnis sein, in diesem Fall wird das Makro für alle Benutzer installiert.
@@ -71,24 +98,44 @@ Der `$ROOT_DIR` könnte ein systemweites Verzeichnis sein, in diesem Fall wird d
 -   Unter Windows ist es normalerweise `C   *Program Files\FreeCAD\`
 -   Unter Mac OSX ist es normalerweise `/Applications/FreeCAD/`
 
+
+<div class="mw-translate-fuzzy">
+
 Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
 
 -   Unter Linux ist es normalerweise `/home/username/.FreeCAD/`
 -   Unter Windows ist es normalerweise `C   *Benutzername\Benutzername\Anwendungsdaten\FreeCAD\`
 -   Unter Mac OSX ist es normalerweise `/Benutzer/Benutzername/Bibliothek/Einstellungen/FreeCAD/`
 
+
+</div>
+
+### Configuring the user directory 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Konfigurieren des Benutzerverzeichnisses 
 
 1\. Öffne das Menü {{MenuCommand/de|Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)}}, um den [Makrodialog ausführen](Std_DlgMacroExecute/de.md).
 
+
+</div>
+
 ![](images/Dxf_Importer_Install_01.png ) 
 *align=center|Öffnen des Makro ausführen Dialogs*
+
+
+<div class="mw-translate-fuzzy">
 
 2\. Setze den entsprechenden `Nutzer Makros Standort`.
 
 -   Linux   * normalerweise `/home/username/.FreeCAD/`
 -   Windows   * normalerweise `C   *Users\username\AppData\Roaming\FreeCAD\`
 -   MacOS   * normalerweise `/Users/username/Library/Preferences/FreeCAD/`
+
+
+</div>
 
 ![](images/Dxf_Importer_Install_02.png ) 
 *align=center|Setting of the macros directory*
@@ -437,9 +484,17 @@ Wenn keine Information angezeigt wird, stelle sicher, dass die Reportansicht und
 
 <div class="mw-collapsible-content">
 
+#### Printing information 
+
+
+<div class="mw-translate-fuzzy">
+
 ##### Druckinformationen
 
 FreeCAD Makros haben zwei Methoden, um Informationen in die Berichtsansicht zu drucken.
+
+
+</div>
 
 Die FreeCAD Funktionen
 
@@ -457,9 +512,17 @@ Die einfache Python Funktion
 print("Hello World!")
 ```
 
+#### Enabling the report view 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Aktivieren der Berichtsansicht 
 
 Um die in der Konsole angezeigten Informationen zu sehen, solltest Du   *
+
+
+</div>
 
 1\. Gehe zum Menü {{MenuCommand/de|Ansicht → Paneele}}.
 
@@ -478,7 +541,15 @@ Um die in der Konsole angezeigten Informationen zu sehen, solltest Du   *
 ![](images/Macro_Install_HowTo_34.png ) 
 *align=center|FreeCAD Hauptfenster mit der Berichtsansicht und der Python Konsole*
 
+#### Enabling the print() command 
+
+
+<div class="mw-translate-fuzzy">
+
 ===== Aktivieren des Befehls print() ==== FreeCAD muss möglicherweise so konfiguriert werden, dass die Funktion `print()` von [Python](Python/de.md) seine Ausgabe korrekt in die Berichtsansicht umleitet.
+
+
+</div>
 
 1\. Gehe in den [Einstellungs Editor](Preferences_Editor/de.md) mit dem Menü {{MenuCommand/de|Bearbeiten → Einstellungen}}.
 
@@ -511,7 +582,7 @@ und drücke dann die **OK** Schaltfläche.
 </div>
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 

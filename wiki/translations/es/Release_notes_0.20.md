@@ -384,9 +384,6 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 
 ## Ambiente de Trabajo Sketcher 
 
-
-<div class="mw-translate-fuzzy">
-
    
   <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  La nueva función ![](images/Sketcher_Split.svg  style="width   *24px;"> [Dividir](Sketcher_Split.md) divide líneas o arcos existentes. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=55412) [Pull request \#4420](https   *//github.com/FreeCAD/FreeCAD/pull/4420)
   <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                  La nueva herramienta ![](images/Sketcher_CreateOblong.svg  style="width   *24px;"> [Rectángulo redondeado](Sketcher_CreateOblong.md) crea un rectángulo con esquinas redondeadas. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main Pull request \#4835](https   *//github.com/FreeCAD/FreeCAD/pull/4835)
@@ -394,11 +391,8 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
   <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                      La nueva función ![](images/Sketcher_ConstrainRadiam.svg  style="width   *24px;"> [Radiam](Sketcher_ConstrainRadiam.md) para asignar automáticamente el peso en el polo en una B-spline, el diámetro en el círculo completo o el radio en el arco. Admite selección múltiple como herramientas de diámetro/radio. [Discusión en el foro](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request \#4855](https   *//github.com/FreeCAD/FreeCAD/pull/4855)
   <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          La nueva herramienta de restricción ![](images/Sketcher_RemoveAxesAlignment.svg  style="width   *24px;"> [Eliminar Alineación de Ejes](Sketcher_RemoveAxesAlignment.md) elimina la alineación de los ejes mientras trata de preservar las relaciones de restricciones de la selección. [Main commit](https   *//github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
   ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                            Las [Ranuras](Sketcher_CreateSlot.md) pueden ser restringidas horizontalmente o verticalementeya ya sea ajustándolo manualmente con la tecla **Ctrl**, o usando la opción **Restricciones automáticas** de Sketcher. [Pull request \#5200](https   *//github.com/FreeCAD/FreeCAD/pull/5200)
-  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif  style="width   *384px;">                             La nueva herramienta <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insertar Nodo](Sketcher_BSplineInsertKnot.md) inserta un nodo en una B-splina ya existente. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
+  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif )                                          La nueva herramienta ![](images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insertar Nodo](Sketcher_BSplineInsertKnot.md) inserta un nodo en una B-splina ya existente. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
    
-
-
-</div>
 
 ### Otras mejoras de Sketcher 
 
@@ -507,7 +501,7 @@ El [entorno de trabajo FCGear](FCGear_Workbench.md) recibió un par de mejoras  
 
 <div class="mw-translate-fuzzy">
 
--   El módulo Plot ha sido eliminado del banco de trabajo ya que ahora es proporcionado por FreeCAD.
+-   El [módulo Plot](Plot_Workbench.md) ha sido eliminado del banco de trabajo ya que ahora es proporcionado por FreeCAD.
 
 
 </div>

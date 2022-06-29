@@ -11,7 +11,7 @@ Vous avez besoin d\'un dossier, avec le nom de votre choix, placé dans le répe
 
 Le répertoire User Mod est un sous-répertoire du répertoire de données de l\'application utilisateur (vous pouvez trouver ce dernier en tapant `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md))   *
 
--   Sous Linux, il s\'agit généralement de **/home/<username>/.FreeCAD/Mod/**.
+-   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
 -   Sous Windows, il s\'agit de **%APPDATA%\FreeCAD\Macro\**, qui est généralement **C   *Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
 -   Sur macOS, il s\'agit généralement de **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
 

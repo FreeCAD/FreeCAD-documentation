@@ -42,10 +42,11 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [TechDraw TemplateHowTo](wiki/TechDraw TemplateHowTo.md) | [Thread for Screw Tutorial](wiki/Thread for Screw Tutorial.md) | [Toothbrush Head Stand](wiki/Toothbrush Head Stand.md) |
 | [Transient FEM analysis](wiki/Transient FEM analysis.md) | [Tutorial custom placing of windows and doors](wiki/Tutorial custom placing of windows and doors.md) | [Tutorial for open windows](wiki/Tutorial for open windows.md) |
 | [Tutorial FreeCAD POV ray](wiki/Tutorial FreeCAD POV ray.md) | [Tutorial guidelines](wiki/Tutorial guidelines.md) | [Tutorial KinematicAssembly](wiki/Tutorial KinematicAssembly.md) |
-| [Tutorial KinematicController](wiki/Tutorial KinematicController.md) | [Tutorial Render with Blender](wiki/Tutorial Render with Blender.md) | [Template:TutorialInfo](wiki/Template_TutorialInfo.md) |
-| [Tutorials](wiki/Tutorials.md) | [Video tutorials](wiki/Video tutorials.md) | [Video tutorials for architectural design](wiki/Video tutorials for architectural design.md) |
-| [Video tutorials for product design](wiki/Video tutorials for product design.md) | [Video tutorials obsolete](wiki/Video tutorials obsolete.md) | [VRML Preparation for Robot Simulation](wiki/VRML Preparation for Robot Simulation.md) |
-| [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) | [Wikihouse porting tutorial](wiki/Wikihouse porting tutorial.md) |
+| [Tutorial KinematicController](wiki/Tutorial KinematicController.md) | [Tutorial KinematicSkeleton](wiki/Tutorial KinematicSkeleton.md) | [Tutorial Render with Blender](wiki/Tutorial Render with Blender.md) |
+| [Template:TutorialInfo](wiki/Template_TutorialInfo.md) | [Tutorials](wiki/Tutorials.md) | [Video tutorials](wiki/Video tutorials.md) |
+| [Video tutorials for architectural design](wiki/Video tutorials for architectural design.md) | [Video tutorials for product design](wiki/Video tutorials for product design.md) | [Video tutorials obsolete](wiki/Video tutorials obsolete.md) |
+| [VRML Preparation for Robot Simulation](wiki/VRML Preparation for Robot Simulation.md) | [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) | [Wikihouse porting tutorial](wiki/Wikihouse porting tutorial.md) |
+|
 
 
 

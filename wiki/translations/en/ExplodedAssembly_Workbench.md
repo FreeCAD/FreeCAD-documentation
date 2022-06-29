@@ -74,7 +74,7 @@ That\'s all, the next time you launch FreeCAD the workbench should be available.
 
 To install manually download this repository as ZIP and   *
 
--   For Ubuntu, Mint and similar OS\'s extract it inside   * **/home/username/.FreeCAD/Mod**
+-   For Ubuntu, Mint and similar OS\'s extract it inside   * **/home/username/.local/share/FreeCAD/Mod** (<small>(v0.20)</small> ) or **/home/username/.FreeCAD/Mod** ({{VersionMinus|0.19}})
 -   For Windows extract it inside   * **C   *Users\your_user_name\AppData\Roaming\FreeCAD\Mod**
 
 ## Links to ExplodedAssembly Workbench 

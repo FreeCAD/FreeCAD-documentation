@@ -329,7 +329,25 @@ but which can also be used in other workbenches and in macros.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> EAST
 
-This class represents a 3D float vector
+Base.Vector class.
+
+This class represents a 3D float vector.
+Useful to represent points in the 3D space.
+
+The following constructors are supported:
+
+Vector(x=0, y=0, z=0)
+x : float
+y : float
+z : float
+
+Vector(vector)
+Copy constructor.
+vector : Base.Vector
+
+Vector(seq)
+Define from a sequence of float.
+seq : sequence of float.
 
 
 
@@ -465,7 +483,25 @@ The Unit API
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> [Vector](Vector_API.md)
 
-This class represents a 3D float vector
+Base.Vector class.
+
+This class represents a 3D float vector.
+Useful to represent points in the 3D space.
+
+The following constructors are supported:
+
+Vector(x=0, y=0, z=0)
+x : float
+y : float
+z : float
+
+Vector(vector)
+Copy constructor.
+vector : Base.Vector
+
+Vector(seq)
+Define from a sequence of float.
+seq : sequence of float.
 
 
 

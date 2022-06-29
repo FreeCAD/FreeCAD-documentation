@@ -49,26 +49,26 @@ This category contains all Unfinished Documents
 | [FreeCAD Docker CLI mode/pl](wiki/FreeCAD Docker CLI mode/pl.md) | [InputField/pl](wiki/InputField/pl.md) | [Lattice2 AttachablePlacement/pl](wiki/Lattice2 AttachablePlacement/pl.md) |
 | [Lattice2 Workbench/pl](wiki/Lattice2 Workbench/pl.md) | [Manual:BIM modeling/pl](wiki/Manual_BIM modeling/pl.md) | [Migrating to FreeCAD from SolidWorks/pl](wiki/Migrating to FreeCAD from SolidWorks/pl.md) |
 | [ModernUI Workbench/pl](wiki/ModernUI Workbench/pl.md) | [OpenSCAD ColorCodeShape/pl](wiki/OpenSCAD ColorCodeShape/pl.md) | [Part BoxSelection/pl](wiki/Part BoxSelection/pl.md) |
-| [Part CompSplittingTools/pl](wiki/Part CompSplittingTools/pl.md) | [Part ElementCopy/pl](wiki/Part ElementCopy/pl.md) | [Part Loft/pl](wiki/Part Loft/pl.md) |
-| [Part Mirror/pl](wiki/Part Mirror/pl.md) | [Part Offset/pl](wiki/Part Offset/pl.md) | [Part PointsFromMesh/pl](wiki/Part PointsFromMesh/pl.md) |
-| [Part RuledSurface/pl](wiki/Part RuledSurface/pl.md) | [Part TransformedCopy/pl](wiki/Part TransformedCopy/pl.md) | [PartDesign Examples/pl](wiki/PartDesign Examples/pl.md) |
-| [Path Area Workplane/pl](wiki/Path Area Workplane/pl.md) | [Path Area/pl](wiki/Path Area/pl.md) | [Path DressupLeadInOut/pl](wiki/Path DressupLeadInOut/pl.md) |
-| [Path Engrave/pl](wiki/Path Engrave/pl.md) | [Path Fixture/pl](wiki/Path Fixture/pl.md) | [Path Helix/pl](wiki/Path Helix/pl.md) |
-| [Path MillFace/pl](wiki/Path MillFace/pl.md) | [Path OpActiveToggle/pl](wiki/Path OpActiveToggle/pl.md) | [Path Pocket 3D/pl](wiki/Path Pocket 3D/pl.md) |
-| [Path Postprocessor Customization/pl](wiki/Path Postprocessor Customization/pl.md) | [Path Sanity/pl](wiki/Path Sanity/pl.md) | [Path Shape/pl](wiki/Path Shape/pl.md) |
-| [Path Simulator/pl](wiki/Path Simulator/pl.md) | [Path Surface/pl](wiki/Path Surface/pl.md) | [Path ToolBit Library/pl](wiki/Path ToolBit Library/pl.md) |
-| [Path ToolBit/pl](wiki/Path ToolBit/pl.md) | [Path ToolBitDock/pl](wiki/Path ToolBitDock/pl.md) | [Path ToolBitLibraryOpen/pl](wiki/Path ToolBitLibraryOpen/pl.md) |
-| [Path ToolController/pl](wiki/Path ToolController/pl.md) | [Path Tools/pl](wiki/Path Tools/pl.md) | [Path Waterline/pl](wiki/Path Waterline/pl.md) |
-| [POV-Ray-Rendering Workbench/pl](wiki/POV-Ray-Rendering Workbench/pl.md) | [Pyrate Workbench/pl](wiki/Pyrate Workbench/pl.md) | [Robot SetDefaultOrientation/pl](wiki/Robot SetDefaultOrientation/pl.md) |
-| [SheetMetal AddBase/pl](wiki/SheetMetal AddBase/pl.md) | [SheetMetal AddBend/pl](wiki/SheetMetal AddBend/pl.md) | [SheetMetal AddCornerRelief/pl](wiki/SheetMetal AddCornerRelief/pl.md) |
-| [SheetMetal AddFoldWall/pl](wiki/SheetMetal AddFoldWall/pl.md) | [SheetMetal AddJunction/pl](wiki/SheetMetal AddJunction/pl.md) | [SheetMetal AddRelief/pl](wiki/SheetMetal AddRelief/pl.md) |
-| [SheetMetal AddWall/pl](wiki/SheetMetal AddWall/pl.md) | [SheetMetal Examples/pl](wiki/SheetMetal Examples/pl.md) | [SheetMetal Extrude/pl](wiki/SheetMetal Extrude/pl.md) |
-| [SheetMetal Forming/pl](wiki/SheetMetal Forming/pl.md) | [SheetMetal SketchOnSheet/pl](wiki/SheetMetal SketchOnSheet/pl.md) | [SheetMetal UnattendedUnfold/pl](wiki/SheetMetal UnattendedUnfold/pl.md) |
-| [SheetMetal Unfold/pl](wiki/SheetMetal Unfold/pl.md) | [SheetMetal Workbench/pl](wiki/SheetMetal Workbench/pl.md) | [Ship Capacity/pl](wiki/Ship Capacity/pl.md) |
-| [Ship GZ/pl](wiki/Ship GZ/pl.md) | [Ship LoadCondition/pl](wiki/Ship LoadCondition/pl.md) | [Silk Workbench/pl](wiki/Silk Workbench/pl.md) |
-| [Sketcher ConstrainHorizontal/pl](wiki/Sketcher ConstrainHorizontal/pl.md) | [Sketcher SelectElementsWithDoFs/pl](wiki/Sketcher SelectElementsWithDoFs/pl.md) | [Std MacroAttachDebugger/pl](wiki/Std MacroAttachDebugger/pl.md) |
-| [TechDraw LinkDimension/pl](wiki/TechDraw LinkDimension/pl.md) | [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) | [Template:UnfinishedDocu/pl](wiki/Template_UnfinishedDocu/pl.md) |
-| [WikiPages/pl](wiki/WikiPages/pl.md) | [Windows packaging/pl](wiki/Windows packaging/pl.md) |
+| [Part ElementCopy/pl](wiki/Part ElementCopy/pl.md) | [Part Loft/pl](wiki/Part Loft/pl.md) | [Part Mirror/pl](wiki/Part Mirror/pl.md) |
+| [Part Offset/pl](wiki/Part Offset/pl.md) | [Part PointsFromMesh/pl](wiki/Part PointsFromMesh/pl.md) | [Part RuledSurface/pl](wiki/Part RuledSurface/pl.md) |
+| [Part TransformedCopy/pl](wiki/Part TransformedCopy/pl.md) | [PartDesign Examples/pl](wiki/PartDesign Examples/pl.md) | [Path Area Workplane/pl](wiki/Path Area Workplane/pl.md) |
+| [Path Area/pl](wiki/Path Area/pl.md) | [Path DressupLeadInOut/pl](wiki/Path DressupLeadInOut/pl.md) | [Path Engrave/pl](wiki/Path Engrave/pl.md) |
+| [Path Fixture/pl](wiki/Path Fixture/pl.md) | [Path Helix/pl](wiki/Path Helix/pl.md) | [Path MillFace/pl](wiki/Path MillFace/pl.md) |
+| [Path OpActiveToggle/pl](wiki/Path OpActiveToggle/pl.md) | [Path Pocket 3D/pl](wiki/Path Pocket 3D/pl.md) | [Path Postprocessor Customization/pl](wiki/Path Postprocessor Customization/pl.md) |
+| [Path Sanity/pl](wiki/Path Sanity/pl.md) | [Path Shape/pl](wiki/Path Shape/pl.md) | [Path Simulator/pl](wiki/Path Simulator/pl.md) |
+| [Path Surface/pl](wiki/Path Surface/pl.md) | [Path ToolBit Library/pl](wiki/Path ToolBit Library/pl.md) | [Path ToolBit/pl](wiki/Path ToolBit/pl.md) |
+| [Path ToolBitDock/pl](wiki/Path ToolBitDock/pl.md) | [Path ToolBitLibraryOpen/pl](wiki/Path ToolBitLibraryOpen/pl.md) | [Path ToolController/pl](wiki/Path ToolController/pl.md) |
+| [Path Tools/pl](wiki/Path Tools/pl.md) | [Path Waterline/pl](wiki/Path Waterline/pl.md) | [POV-Ray-Rendering Workbench/pl](wiki/POV-Ray-Rendering Workbench/pl.md) |
+| [Pyrate Workbench/pl](wiki/Pyrate Workbench/pl.md) | [Robot SetDefaultOrientation/pl](wiki/Robot SetDefaultOrientation/pl.md) | [SheetMetal AddBase/pl](wiki/SheetMetal AddBase/pl.md) |
+| [SheetMetal AddBend/pl](wiki/SheetMetal AddBend/pl.md) | [SheetMetal AddCornerRelief/pl](wiki/SheetMetal AddCornerRelief/pl.md) | [SheetMetal AddFoldWall/pl](wiki/SheetMetal AddFoldWall/pl.md) |
+| [SheetMetal AddJunction/pl](wiki/SheetMetal AddJunction/pl.md) | [SheetMetal AddRelief/pl](wiki/SheetMetal AddRelief/pl.md) | [SheetMetal AddWall/pl](wiki/SheetMetal AddWall/pl.md) |
+| [SheetMetal Examples/pl](wiki/SheetMetal Examples/pl.md) | [SheetMetal Extrude/pl](wiki/SheetMetal Extrude/pl.md) | [SheetMetal Forming/pl](wiki/SheetMetal Forming/pl.md) |
+| [SheetMetal SketchOnSheet/pl](wiki/SheetMetal SketchOnSheet/pl.md) | [SheetMetal UnattendedUnfold/pl](wiki/SheetMetal UnattendedUnfold/pl.md) | [SheetMetal Unfold/pl](wiki/SheetMetal Unfold/pl.md) |
+| [SheetMetal Workbench/pl](wiki/SheetMetal Workbench/pl.md) | [Ship Capacity/pl](wiki/Ship Capacity/pl.md) | [Ship GZ/pl](wiki/Ship GZ/pl.md) |
+| [Ship LoadCondition/pl](wiki/Ship LoadCondition/pl.md) | [Silk Workbench/pl](wiki/Silk Workbench/pl.md) | [Sketcher ConstrainHorizontal/pl](wiki/Sketcher ConstrainHorizontal/pl.md) |
+| [Sketcher SelectElementsWithDoFs/pl](wiki/Sketcher SelectElementsWithDoFs/pl.md) | [Std MacroAttachDebugger/pl](wiki/Std MacroAttachDebugger/pl.md) | [TechDraw LinkDimension/pl](wiki/TechDraw LinkDimension/pl.md) |
+| [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) | [Template:UnfinishedDocu/pl](wiki/Template_UnfinishedDocu/pl.md) | [WikiPages/pl](wiki/WikiPages/pl.md) |
+| [Windows packaging/pl](wiki/Windows packaging/pl.md) |
 
 
 

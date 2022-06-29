@@ -10,11 +10,11 @@ Si vous aimez FreeCAD et que vous désirez participer à son développement, en 
 
 Aidez-nous à construire, corriger et étendre cette documentation. Corrigez les erreurs, étendez ou corrigez les pages qui ne sont pas claires, créez de nouvelles pages si un sujet est manquant, etc. Contribuer au wiki FreeCAD est facile, sur [Les pages Wiki](WikiPages/fr.md) vous pouvez trouver les directives générales et l\'aide nécessaire pour commencer. Pour éditer le wiki, vous aurez besoin d\'un compte wiki avec les permissions \"Éditeur\" (le wiki est protégé en écriture pour éviter le spam). Vous pouvez demander un compte [sur le forum](http   *//forum.freecadweb.org/viewtopic.php?f=21&t=6830) ou sur le [canal IRC](https   *//wiki.freecadweb.org/Help#Chat) . Veuillez noter que le canal IRC peut ne pas être aussi réactif que le forum. [Le forum officiel de FreeCAD](https   *//forum.freecadweb.org) devrait être le premier endroit pour poser des questions et démarrer des discussions, car il aidera à préserver l\'expérience et les connaissances de la communauté.
 
-Quelques parties qui apprécieraient votre contribution    *
+Quelques domaines qui apprécieraient votre contribution    *
 
--   La page de la liste [Command Reference](   *Category_Command_Reference.md) de toutes les [commandes](Command/fr.md) de FreeCAD. La plupart d\'entre elles contiennent peu ou pas d\'informations. Veuillez vous référer à [Ecrire une page Wiki](WikiPages/fr.md) pour des recommandations de ce que devrait être une bonne page de documentation de commandes.
+-   La liste des [commandes de référence](   *Category   *Command_Reference/fr.md) de toutes les [commandes](Command/fr.md) de FreeCAD. La plupart d\'entre elles contiennent peu ou pas d\'informations. Veuillez vous référer à [Ecrire une page Wiki](WikiPages/fr.md) pour des recommandations de ce que devrait être une bonne page de documentation de commandes.
 -   La section [tutoriels](Tutorials/fr.md) a besoin d\'exemples d\'utilisation des ateliers. Si vous avez développé quelque chose de sympa avec FreeCAD, pourquoi ne pas le pérenniser dans une page de documentation ?
--   Il y a des billets ouverts sur le [traqueur de bogues](Tracker/fr.md) de FreeCAD intitulé [\"documentation\"](https   *//freecadweb.org/tracker/search.php?tag_string=documentation) qui mériteraient qu\'on s\'y intéresse.
+-   Il y a des tickets ouverts sur le [\"bug tracker\"](https   *//github.com/FreeCAD/FreeCAD/issues) de FreeCAD étiquetés [\"documentation\"](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation) qui auraient besoin d\'un peu d\'amour.
 
 ## Partagez vos connaissances de FreeCAD 
 
@@ -92,4 +92,4 @@ Consultez les pages [Graphisme](Artwork/fr.md) et [Recommandations pour la chart
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference|Command Reference]] de toutes les ](Category_Command_Reference|Command Reference]] de toutes les .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference/fr|commandes de référence]] de toutes les ](Category_Command_Reference/fr|commandes de référence]] de toutes les .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/fr

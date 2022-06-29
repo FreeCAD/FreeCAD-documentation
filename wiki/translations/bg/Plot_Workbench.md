@@ -18,14 +18,14 @@ The module can be invoked in a Python console or in a [macro](Macros.md). The fi
 from freecad.plot import Plot
 ```
 
-From FreeCAD 0.20 on plot module is already packaged within the program, so you don\'t need to install any add-on, but just type
+Since FreeCAD 0.20 the plot module is already packaged with the program, so you don\'t need to install any add-on, but just type   *
 
 
 ```python
 from FreeCAD.Plot import Plot
 ```
 
-After that, you can plot a straight line from (0,0) to (1,2) just simply typing
+After that, you can plot a straight line from (0,0) to (1,2) just simply typing   *
 
 
 ```python

@@ -1,30 +1,31 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewFullscreen
-   MenuLocation   *View → Document window → Fullscreen
-   Workbenches   *All
+   Name/pl   *Std   * Wyświetl na pełnym ekranie
+   MenuLocation   *Widok → Okno dokumentu → Pełny ekran
+   Workbenches   *wszystkie
    Shortcut   ***F11**
-   SeeAlso   *[Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)
+   SeeAlso   *[Zadokuj / Oddokuj okno](Std_ViewDockUndockFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
 ---
 
 # Std ViewFullscreen/pl
 
-## Description
+## Opis
 
-The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from fullscreen mode. 3D views are automatically [undocked](Std_ViewDockUndockFullscreen.md) for fullscreen mode.
+Polecenie **Wyświetl na pełnym ekranie** przełącza okno [widoku 3D](3D_view/pl.md) do i z trybu pełnoekranowego. Widoki 3D są automatycznie [oddokowane](Std_ViewDockUndockFullscreen/pl.md) dla trybu pełnoekranowego.
 
-## Usage
+## Użycie
 
-1.  Activate the correct 3D view.
-2.  There are several ways to invoke the command   *
-    -   Select the **View → Document window → <img src="images/Std_ViewFullscreen.svg" width=16px> Fullscreen** option from the menu. This option does not work if you want to switch off fullscreen mode and there are other docked 3D views.
-    -   Select the **Document window → <img src="images/Std_ViewFullscreen.svg" width=16px> Fullscreen** option from the 3D view context menu.
-    -   Use the keyboard shortcut   * **F11**.
+1.  Aktywuj odpowiednie okno widoku 3D.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Wybierz z menu opcję **Widok → Okno dokumentu → <img src="images/Std_ViewFullscreen.svg" width=16px> Pełny ekran**. Opcja ta nie działa, jeśli chcesz wyłączyć tryb pełnoekranowy, a istnieją inne zadokowane widoki 3D.
+    -   Wybierz z menu opcję **Okno dokumentu → <img src="images/Std_ViewFullscreen.svg" width=16px> Pełny ekran** z menu kontekstowego okna widoku 3D.
+    -   Użyj skrótu klawiaturowego   * **F11**.
 
-## Notes
+## Uwagi
 
--   Multiple 3D views for the same document can be created with the [Std ViewCreate](Std_ViewCreate.md) command.
--   3D views can also be docked and undocked with the [Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen.md) command.
+-   Można utworzyć wiele widoków 3D dla tego samego dokumentu za pomocą polecenia [Utwórz widok](Std_ViewCreate/pl.md).
+-   Widoki 3D można również zadokować i oddokować za pomocą polecenia [Zadokuj / Oddokuj okno](Std_ViewDockUndockFullscreen/pl.md).
 
 
 

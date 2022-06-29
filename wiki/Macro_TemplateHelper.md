@@ -15,7 +15,7 @@ This macro generates a TechDraw template on the fly and inserts it into the acti
 
 If you wish, you can fill the space between the title block and the upper border of the drawing area with a BOM. You choose how many lines you need or if you fill the whole space.
 
-<img alt="" src=images/Macro_TemplateHelper_A3+BOM.png  style="width   *480px;"> 
+ <img alt="" src=images/Macro_TemplateHelper_A3+BOM.png  style="width   *480px;">  
 *Page with macro generated template, ISO A3 + bill of material*
 
 ## Usage
@@ -38,18 +38,18 @@ If you wish, you can fill the space between the title block and the upper border
 
 ## Dialogue window 
 
-<img alt="" src=images/Macro_TemplateHelper_DiaWin.png  style="width   *240px;"> 
+ <img alt="" src=images/Macro_TemplateHelper_DiaWin.png  style="width   *240px;">  
 *Dialogue window on launch*
 
-<img alt="" src=images/Macro_TemplateHelper_DiaLang.png  style="width   *240px;"> 
+ <img alt="" src=images/Macro_TemplateHelper_DiaLang.png  style="width   *240px;">  
 *Language options*
 
 English is default and just one version, but maybe someone likes to distinguish \'merican and bri\'ish English in the future\...    *-D
 
-<img alt="" src=images/Macro_TemplateHelper_DiaSize.png  style="width   *240px;"> 
+ <img alt="" src=images/Macro_TemplateHelper_DiaSize.png  style="width   *240px;">  
 *Format options*
 
-<img alt="" src=images/Macro_TemplateHelper_DiaBOM.png  style="width   *240px;"> 
+ <img alt="" src=images/Macro_TemplateHelper_DiaBOM.png  style="width   *240px;">  
 *BOM options*
 
 ## Script
@@ -62,6 +62,8 @@ The Macro should be found in the macro directory. To put it there, you need to  
 4.  Type in the name (TemplateHelper) and select **OK**. (*.FCMacro* is added automatically.)
 5.  Paste the clipboard content into the Editor window.
 6.  Press <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *16px;"> [Execute macro](Std_DlgMacroExecuteDirect.md) to start the macro.
+
+
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

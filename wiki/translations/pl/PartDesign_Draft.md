@@ -37,28 +37,28 @@ Narzędzie <img alt="" src=images/PartDesign_Draft.svg  style="width   *24px;"> 
 
 ### Edycja pochylenia ścian 
 
-1.  Do one of the following   *
-    -   Double-click the Draft object in the [Tree view](Tree_view.md).
-    -   Right-click the Draft object in the [Tree view](Tree_view.md) and select **Edit Draft** from the context menu.
-2.  The **Draft parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+1.  Wykonaj jedną z poniższych czynności   *
+    -   Kliknij dwukrotnie obiekt Szkic w oknie [Widok drzewa](Tree_view.md).
+    -   Kliknij obiekt Szkic prawym przyciskiem myszy w oknie [Widok drzewa](Tree_view.md) i wybierz **Edytuj Pochylenie ścian** z menu kontekstowego.
+2.  Otworzy się panel [Panel zadań](Task_panel.md) **Parametry funkcji pochylenia ścian**. Więcej informacji można znaleźć w punkcie [Opcje](#Opcje.md).
+3.  Naciśnij przycisk **OK**, aby zakończyć.
 
 ## Opcje
 
--    **Add face**   * Add faces to the selection by pressing the **Add face** button and selecting more faces.
+-    **Dodaj ścianę**   * Dodaje ściany do zaznaczenia, naciśnij przycisk **Dodaj ścianę** i wybierz więcej ścian.
 
--    **Remove face**   * Choose a way to remove faces from the selection   *
+-    **Usuń ścianę**   * Wybierz sposób usuwania ścian z zaznaczenia   *
 
-    -   Select one or more faces in the list and press the **Del** key or right-click the list and select **Remove** from the context menu.
-    -   Press the **Remove face** button. All previously selected faces are highlighted in purple. Select each face to be removed.
+    -   Zaznacz jedną lub więcej powierzchni na liście i naciśnij klawisz **Del** lub kliknij listę prawym przyciskiem myszy i wybierz z menu kontekstowego polecenie **Skasuj**.
+    -   Naciśnij przycisk **Usuń ścianę**. Wszystkie poprzednio zaznaczone powierzchnie zostaną podświetlone na fioletowo. Zaznacz każdą ścianę, która ma zostać usunięta.
 
--    **Draft angle**   * Set the Draft angle either by entering a value or by clicking the up/down arrows.
+-    **Kąt początkowy**   * Ustaw kąt nachylenia narzędzia, wprowadzając wartość lub klikając strzałki w górę/w dół.
 
--    **Neutral plane**   * Set the the neutral plane by pressing the **Neutral plane** button and selecting the plane that must not change dimensionally.
+-    **Płaszczyzna neutralna**   * Ustaw płaszczyznę neutralną, naciskając przycisk **Płaszczyzna neutralna** i wybierając ścianę, która nie może zmieniać wymiarów.
 
--    **Pull direction**   * Set the the pull direction by pressing the **Pull direction** button, then select an edge. Pull Direction is only effective if the Neutral Plane has been set. Results can be unpredictable.
+-    **Kierunek wyciągania**   * Ustaw kierunek wyciągnięcia, naciskając przycisk **Kierunek wyciągnięcia**, a następnie wybierz krawędź. Kierunek wyciągania działa tylko wtedy, gdy została ustawiona płaszczyzna neutralna. Wyniki mogą być nieprzewidywalne.
 
--    **Reverse pull direction**   * Invert the pull direction by checking the **Reverse pull direction** checkbox. This will toggle the draft between positive and negative angles.
+-    **Odwróć kierunek wyciągnięcia**   * Odwróć kierunek wyciągnięcia, zaznaczając pole wyboru **Odwróć kierunek wyciągnięcia**. Spowoduje to przełączenie pochylenia między kątami dodatnimi i ujemnymi.
 
 ## Uwagi
 
@@ -66,42 +66,42 @@ Narzędzie Pochylenie ścian działa tylko na powierzchniach, które nie są sty
 
 ## Właściwości
 
-See also   * [Property editor](Property_editor.md).
+Zobacz również stronę   * [Edytor właściwości](Property_editor/pl.md).
 
-A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+Obiekt Pochylenie ścian środowiska Projekt Części wywodzi się z obiektu [Część   * Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości   *
 
 ### Dane
 
 
 {{Properties_Title|Podstawowe}}
 
--    **Angle|Angle**   * Cannot be negative. Default   * {{value|1.5 °}}.
+-    **Kąt|Angle**   * Wartość nie może być ujemna. Domyślnie   * {{value|1.5 °}}.
 
--    **Reversed|Bool**   * Default   * `False`.
+-    **Odwrócony|Bool**   * Domyślnie przyjmuje wartość   * {{FALSE/pl}}.
 
--    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
+-    **Baza|LinkSub**   * Łącze podrzędne do listy wybranych krawędzi i powierzchni elementu nadrzędnego.
 
--    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
+-    **Wsparcie Przekształcenia|Bool**   * \"Uwzględnia podstawowy kształt addytywny/subtraktywny, gdy jest używany w cechach wzoru. Jeśli ta opcja zostanie wyłączona, do tworzenia wzorów będzie używana tylko podstawowa część kształtu\". Wartość domyślna   * {{FALSE/pl}}.
 
--    **Add Sub Shape|PartShape|hidden**
+-    **Dodaj kształt podrzędny|PartShape|ukryte**
     
 
--    **Base Feature|Link|hidden**   * Link to the parent feature.
+-    **Cecha bazowa|Link|ukryte**   * Łącze do elementu nadrzędnego.
 
--    **_ Body|LinkHidden|hidden**   * Link to the parent body.
+-    **_ Zawartość|LinkHidden|ukryte**   * Łącze do zawartości nadrzędnej.
 
 
-{{Properties_Title|Draft}}
+{{Properties_Title|Pochylenie}}
 
--    **Neutral Plane|LinkSub**   * Sub-link to the parent feature\'s list containing the neutral plane.
+-    **Neutral Plane|LinkSub**   * Łącze podrzędne do listy cech nadrzędnych zawierającej płaszczyznę neutralną.
 
--    **Pull Direction|LinkSub**
+-    **Kierunek wyciągnięcia|LinkSub**
     
 
 
 {{Properties_Title|Projekt Części}}
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Ulepsz|Bool**   * \"Ulepsz kształt (usuń zbędne krawędzie) po operacji dodawania/odejmowania\". Wartość domyślna jest określana przez preferencję **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu**. Zobacz [Projekt Części   * Ustawienia](PartDesign_Preferences/pl#Og.C3.B3lne.md).
 
 
 

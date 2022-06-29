@@ -10,7 +10,7 @@ Początkowo Profile narzędzi są po prostu dokumentami FreeCAD z jednym korpuse
 Tworzenie nowych profili narzędzi jest tematem zaawansowanym. Najczęściej potrzebne kształty już istnieją i są dostarczane wraz z instalacją programu FreeCAD   *
 
 -   W systemie Linux jest to zazwyczaj folder `/usr/lib64/FreeCAD/Mod/Path/Tools/Shape`.
--   Na macOS jest to zazwyczaj folder `/Applications/FreeCAD/Mod/Path/Tools/Shape`.
+-   Na macOS jest to zazwyczaj folder `/Applications/FreeCAD.app/Contents/Resources/Mod/Path/Tools/Shape`.
 -   W systemie Windows jest to zazwyczaj folder `C   *Program Files\FreeCAD\Mod\Path\Tools\Shape`.
 
 Są to   *

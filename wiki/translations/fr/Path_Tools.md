@@ -40,7 +40,7 @@ Lorsque FreeCAD est installé, un exemple de hiérarchie de bibliothèques d\'ou
 
 -   Sous Linux, il s\'agit généralement de **/usr/lib64/FreeCAD/Mod/Path/Tools**.
 -   Sous Windows, il s\'agit généralement de **C   *Program Files\FreeCAD\Mod\Path\Tools**.
--   Sous macOS, il s\'agit généralement de **/Applications/FreeCAD/Mod/Path/Tools** {{ColoredText||Red|--> doit être révisé}}.
+-   Sous macOS, il s\'agit généralement de **/Applications/FreeCAD.app/Contents/Resources/Mod/Path/Tools**.
 
 
 

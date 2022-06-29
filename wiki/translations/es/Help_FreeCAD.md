@@ -17,7 +17,7 @@ Algunas áreas en las que será bienvenido tu trabajo   *
 
 -   La página [   *Category   *Command\_Reference](   *Category_Command_Reference.md) lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
 -   La sección [Tutorials](Tutorials/es.md) necesita ejemplos sobre cómo usar los ambientes de trabajo. Si desarrollaste algo genial con FreeCAD, ¿por qué no documentar cómo lo hiciste para la posteridad?
--   Hay tickets abiertos en el [bugtracker](Tracker/es.md) de FreeCAD etiquetados como [\"documentation\"](https   *//freecadweb.org/tracker/search.php?tag_string=documentation) que podrían necesitar algo de amor.
+-   Hay tickets abiertos en el [bug tracker](Tracker/es.md) de FreeCAD etiquetados como [\"documentation\"](https   *//freecadweb.org/tracker/search.php?tag_string=documentation) que podrían necesitar algo de amor.
 
 
 </div>
@@ -70,29 +70,18 @@ Although the place to report confirmed bugs and suggest new features is eventual
 
 ## Diseña material gráfico 
 
-
-<div class="mw-translate-fuzzy">
-
-Mira la página del [Material gráfico](Artwork/es.md) para ver las directrices sobre el diseño de iconos para FreeCAD.
-
-
-</div>
+Mira la página del [Directrices Obras de Arte](Artwork_Guidelines/es.md) para ver las directrices sobre el diseño de iconos para FreeCAD.
 
 ## Programa!
 
+Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de permiso, puedes empezar ahora mismo a trabajar en algo que quieras, luego [issue tracker](https   *//github.com/FreeCAD/FreeCAD/issues) o solicitar una fusión desde una rama de Git. Pero para evitar algunos dolores de cabeza deberías conocer primero los siguientes prerequisitos   *
 
-<div class="mw-translate-fuzzy">
-
-Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de permiso, puedes empezar ahora mismo a trabajar en algo que quieras, luego [enviar un parche](http   *//www.freecadweb.org/tracker) o solicitar una fusión desde una rama de Git. Pero para evitar algunos dolores de cabeza deberías conocer primero los siguientes prerequisitos   *
-
--   FreeCAD va a su propio ritmo, y tiene un equipo de desarrolladores muy pequeño. No tenemos tanto tiempo como nos gustaría para dedicar a FreeCAD, y las cosas no son planificadas con anticipación, se realizan cuando algún desarrollador ve que encajan y cuando encuentra tiempo para hacerlas. De modo que no mantenemos una lista de tareas pendientes. Depende de ti encontrar algo que quieras hacer, por ejemplo un defecto que quieras corregir, o una pequeña característica que crees que falta. El [sistema de seguimiento](http   *//www.freecadweb.org/tracker) también contiene algunos elementos que aún no se han asignado a nadie.
--   Antes de que empieces a programar para FreeCAD, debes conocer bien como funciona FreeCAD. Esto parece obvio, pero si no sabes como se supone que trabaja no podrás saber que hacer internamente o como hacerlo.
+-   Información de [como compilar FreeCAD](Developer_hub/es#Compilando_FreeCAD.md) está disponible para diferentes sistemas operativos.
+-   Antes de que empieces a programar para FreeCAD, debes conocer como funciona FreeCAD. Esto parece obvio, pero si no sabes como se supone que trabaja no podrás saber que hacer internamente o como hacerlo.
 -   Casi todo se puede hacer en Python o C++. El trabajo interno casi siempre es en estos lenguajes. Sugerimos que leas las páginas de los [Usuarios avanzados](Power_users_hub/es.md), incluso si vas a programar en C++, ya que te dará una buena visión de su funcionamiento interno.
 -   Si vas a trabajar en C++, asegúrate antes de que puedes compilar FreeCAD sin problemas.
 -   Preséntate a otros desarrolladores. FreeCAD es antes de nada un proyecto social, discutimos un montón de asuntos en los [foros](http   *//forum.freecadweb.org) antes de implementarlo, y siempre es mejor discutir tus ideas y decirle a la gente lo que tienes planeado hacer antes de hacerlo. También tenemos un [canal de IRC](irc   *//chat.freenode.net/freecad), pero el foro es el principal y único sitio en el que encontraras a todos los desarrolladores.
-
-
-</div>
+-   Desde 2016, FreeCAD participa en el [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Asegúrate de checar nuestras ideas si estás interesado en participar en la siguiente edición.
 
 
 

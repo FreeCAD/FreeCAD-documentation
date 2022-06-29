@@ -381,7 +381,7 @@ Jusqu\'à présent, nous avons écrit les instructions Python ligne par ligne da
 
 Il existe plusieurs façons d\'exécuter un programme Python. Sous Windows, faites simplement un clic droit sur votre fichier, ouvrez-le avec Python et exécutez-le. Mais vous pouvez également l\'exécuter à partir de l\'interpréteur Python lui-même. Pour cela, l\'interprète doit savoir où se trouve votre programme. Dans FreeCAD, le moyen le plus simple consiste à placer votre programme dans un dossier que l\'interpréteur Python de FreeCAD connaît par défaut, tel que le dossier utilisateur **Mod** de FreeCAD   *
 
--   Sous Linux il s\'agit généralement de **/home/<nom_utilisateur>/.FreeCAD/Mod/**.
+-   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
 -   Sous Windows il s\'agit de **%APPDATA%\FreeCAD\Mod\**, qui est généralement **C   *Utilisateurs\<nom_utilisateur>\Appdata\ Roaming\FreeCAD\Mod\**.
 -   Sous Mac OSX il s\'agit généralement de **/Utilisateurs/<nom_utilisateur>/Bibliothèque/Preferences/FreeCAD/Mod/**.
 

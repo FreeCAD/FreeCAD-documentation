@@ -23,7 +23,7 @@ Los piñones son conectados a una correa de distribución o una cadena de distri
 ## Utilización
 
 +++
-| ![](images/Macro_TimingGear_dialog.png ) | 1.  Inicie la macro en un documento de FreeCAD. Recuerde que al momento de instalación puede crear un botón en la barra de herramientas de Macros para iniciarla.                                                                                                                       |
+| ![](images/Macro_TimingGear_dialog.png ) | 1.  Inicie la macro en un documento de FreeCAD. Recuerde que al momento de la instalación puede crear un botón en la barra de herramientas de Macros para iniciarla.                                                                                                                    |
 |                                                                | 2.  En la ventana de diálogo que se abre elija los parámetros para el piñon de sincronización GTx   *                                                                                                                                                                                      |
 |                                                                |     -   Seleccione el *tipo de piñon*   * GT2/GT3/GT5, cada piñon GTx tiene un paso de x mm.                                                                                                                                                                                               |
 |                                                                |     -   Especifique el *número de dientes*, es el número de dientes para el piñon y toma un valor entre 5 y 360.                                                                                                                                                                        |
@@ -31,11 +31,12 @@ Los piñones son conectados a una correa de distribución o una cadena de distri
 |                                                                |     -   Opcionalmente puedes *añadir un eje*, esta opción crea un círculo o un hexágono en el centro del piñon que sirve para insertar el piñon a un eje, husillo o pieza similar, si es tu caso selecciona entre círculo/hexágono e introduce el diámetro del agujero expresado en mm. |
 |                                                                |     -   También, opcionalmente puedes añadir un disco *base* y un disco *superior*, con esta opción puedes crear un par de discos en las caras inferior y superior del piñon, es útil para crear poleas, si es tu caso inserta la altura y el diámetro ambos en mm.                     |
 |                                                                | 3.  Pulsa el botón de crear y espera a que la parte sea creada.                                                                                                                                                                                                                         |
-|                                                                | 4.  Una vez terminada la parte puedes utilizar el [PartDesign Workbench](PartDesign_Workbench.md) para añadir características al piñon, por ejemplo un disco extra y/o un par de agujeros para los tornillos opresores.                                                         |
+|                                                                | 4.  Una vez terminada la parte puedes utilizar el [entorno de trabajo PartDesign](PartDesign_Workbench.md) para añadir características al piñon, por ejemplo un disco extra y/o un par de agujeros para los tornillos opresores.                                                |
 +++
 
 ## Notas
 
+-   Si necesitas crear una polea de GTx de doble cabeza puedes crear 2 poleas con los mismos parámetros y después unirlas con una operación booleanan.
 -   El paso de las correas de distribución (distancia desde el centro del diente hasta el centro de dientes de dientes consecutivos) se especifica en los tipos. GT2 tiene un paso de 2 mm, GT3 de 3 mm, GT5 de 5 mm, etc.
 
 ## Fórmulas útiles 
@@ -45,6 +46,17 @@ Los piñones son conectados a una correa de distribución o una cadena de distri
 -    **belt length**= 2 \* **axle base** + **belt tooth pitch**    * 2 \* **(teeth 1 + 2)** + **belt tooth pitch²**    * 4 \* pi² \* **axle base** \* **(teeth 1 - 2)²**
 
 -    **axle base**= **belt length**    * 4 - **belt tooth pitch**    * 8 \* **(teeth 1+2)** + ¼ \* sqrt \[**belt length** - ½ \* **belt tooth pitch** \* **(teeth 1+2)²** - 2 \* **belt tooth pitch²** \* **(teeth 1+2)²**    * pi²\]
+
+## Enlaces
+
+
+<div class="mw-translate-fuzzy">
+
+-   Hilo del foro   * [GT2, GT3 and GT5 Timing Gear Creator](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35899).
+-   También puedes crear piñones de con [FCGear\_TimingGear](FCGear_TimingGear.md).
+
+
+</div>
 
 ## Script
 
@@ -100,9 +112,9 @@ __Version__ = '1.5.0'
 __Date__ = '2019-12-29'
 __License__ = 'LGPL-2.0-or-later'
 __Web__ = 'http   *//www.emilioaguirre.com'
-__Wiki__ = ''
+__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_TimingGear'
 __Icon__ = 'TimingGear.png'
-__Help__ = ''
+__Help__ = 'Click on the TimingGear button/macro, and enter the required data in the dialog window.'
 __Status__ = ''
 __Requires__ = 'FreeCAD ?.??'
 __Communication__ = 'info_at_emilioaguirre.com,https   *//github.com/FreeCAD/FreeCAD-macros/issues   *//forum.freecadweb.org/viewtopic.php?t=35899'

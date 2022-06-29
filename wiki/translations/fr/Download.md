@@ -3,7 +3,7 @@
 
 ## Version stable courante 
 
-La version 0.20 de FreeCAD (29177) a été publiée le 14 juin 2022. Pour découvrir ses nouveautés, consultez la [note de version](Release_notes_0.20/fr.md).
+La version 0.20 de FreeCAD (29177) a été publiée le 14 juin 2022. Pour découvrir ses nouveautés, consultez les [notes de version](Release_notes_0.20/fr.md).
 
 Vous pouvez trouver des checksums SHA256 pour vérifier l\'intégrité de votre téléchargement sur la [page de la release 0.20](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.20).
 
@@ -19,15 +19,15 @@ Les versions précédentes peuvent être téléchargées à partir de la page [r
 
 ### Notes aux utilisateurs de Windows 
 
--   Les versions suivantes de Windows sont prises en charge    * 7/8/10/11.
+-   Les versions suivantes de Windows sont prises en charge    * 64-bit 7/8/10/11. Windows 32 bits n\'est pas pris en charge.
 -   Une version portable qui ne nécessite pas d\'installation est disponible sur la page [releases](https   *//github.com/FreeCAD/FreeCAD/releases/).
 -   Le paquet peut également être installé à partir du gestionnaire [Chocolatey](https   *//chocolatey.org/packages/freecad).
 
-### Notes aux utilisateurs de MacOS X 
+### Notes aux utilisateurs de Mac OS X 
 
-MacOS OS X 10.12 Sierra est la version minimum compatible.
+Mac OS X 10.12 Sierra est la version minimum compatible.
 
-### Note aux utilisateurs de GNU/Linux 
+### Notes aux utilisateurs de GNU/Linux 
 
 La plupart des distributions portent FreeCAD dans leurs référentiels officiels. Toutefois, si la distribution ne suit pas un modèle de version évolutive, la version fournie peut être obsolète. À la place, vous pouvez télécharger l'AppImage ci-dessus, le marquer comme exécutable et le lancer sans installation.
 

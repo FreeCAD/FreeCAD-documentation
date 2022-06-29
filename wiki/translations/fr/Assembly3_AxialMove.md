@@ -3,7 +3,7 @@
    Name   *Assembly3 AxialMove
    Name/fr   *Assembly3 Déplacement axial
    Icon   *Assembly_AxialMove.svg
-   MenuLocation   *Assembly3 → Axial move
+   MenuLocation   *Assembly3 → Axial move part
    Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
    Shortcut   ***A** puis **A**
 ---
@@ -20,8 +20,8 @@ La commande <img alt="" src=images/Assembly_AxialMove.svg  style="width   *24px;
 
 1.  Sélectionnez une face, une arête ou un sommet de la pièce 3D ou de la pièce entière dans l\'arbre d\'assemblage.
 2.  Activez la commande <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> **Déplacement axial** en utilisant l\'une des méthodes suivantes    *
-    -   Le bouton **<img src="images/Assembly_AxialMove.svg" width=16px> [Axial move](Assembly3_AxialMove/fr.md)**.
-    -   L\'option du menu **Assembly3 → <img src="images/Assembly_AxialMove.svg" width=16px> Axial move**.
+    -   Le bouton **<img src="images/Assembly_AxialMove.svg" width=16px> [Axial move part](Assembly3_AxialMove/fr.md)**.
+    -   L\'option du menu **Assembly3 → <img src="images/Assembly_AxialMove.svg" width=16px> Axial move part**.
     -   Le raccourci clavier    * **A** puis **A**.
 3.  Faites glisser les poignées pour repositionner la pièce.
 4.  Pour fixer la position et quitter l\'outil, utilisez l\'une des options suivantes    *

@@ -15,7 +15,7 @@ Jednakże, w celu aktualizacji oprogramowania, wysoce zalecane jest użycie mene
 brew install --cask freecad
 ```
 
-i aby użyć najnowszej dostępnej wersji *(0.19pre)* na HomeBrew, możesz uruchomić
+i aby użyć najnowszej dostępnej wersji na HomeBrew, możesz uruchomić
 
 
 ```python

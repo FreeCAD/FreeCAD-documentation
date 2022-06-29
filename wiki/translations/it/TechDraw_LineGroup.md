@@ -24,9 +24,17 @@ To change the LineGroups definition file
 1.  Go to the preferences tab *[General](TechDraw_Preferences#General.md)*.
 2.  Select in the field **Line Group File** a LineGroup definition file.
 
+### Customizing LineGroups 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Personalizzare i gruppi di linee 
 
 Se si hanno i permessi di scrittura si può modificare `LineGroup.csv` per aggiungere altri Gruppi di linee (LineGroup).
+
+
+</div>
 
 Questo file in genere è in   *
 

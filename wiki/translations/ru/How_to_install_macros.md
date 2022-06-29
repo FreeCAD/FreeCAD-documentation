@@ -4,7 +4,13 @@
    Time   *15 minutes
    FCVersion   *All
    Author   *[Mario52](User_Mario52.md)
-}}
+---
+
+# How to install macros/ru
+
+
+
+
 
 ## Описание
 
@@ -12,7 +18,7 @@ Since v0.17 it is easy to add macros by using the [Addon Manager](Std_AddonMgr.m
 
 Macros are sequences of commands which are used to perform a complex drawing operation. Macros are [Python](Python.md) scripts, which means they are text files that can be written and edited with a text editor.
 
-While Python scripts normally have the {{incode   .py}} extension, FreeCAD macros should have the {{incode   .FCMacro}} extension. A collection of macros written by experienced users is found in the [macros recipes](macros_recipes.md) page.
+While Python scripts normally have the `.py` extension, FreeCAD macros should have the `.FCMacro` extension. A collection of macros written by experienced users is found in the [macros recipes](macros_recipes.md) page.
 
 See [Introduction to Python](Introduction_to_Python.md) to learn about the Python programming language, and then [Python scripting tutorial](Python_scripting_tutorial.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) to learn about writing macros.
 
@@ -20,12 +26,20 @@ Here is a video on [installing FreeCAD macros in Ubuntu](https   *//wiki.opensou
 
 ## The Macro menu and toolbar 
 
+### Toolbar
+
+
+<div class="mw-translate-fuzzy">
+
 ### Панель инструментов 
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width   *32px;"> [Запись макроса\...](Std_DlgMacroRecord/ru.md)
 -   <img alt="" src=images/Std_MacroStopRecord.svg  style="width   *32px;"> [Остановка записи макроса](Std_MacroStopRecord/ru.md)
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *32px;"> [Управление макросами\...](Std_DlgMacroExecute/ru.md)
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *32px;"> [Запуск мароса](Std_DlgMacroExecuteDirect/ru.md)
+
+
+</div>
 
 ### Menu
 
@@ -50,18 +64,23 @@ Downloaded macros should also be placed in this directory.
 
 <div class="mw-collapsible-content">
 
+### Default directory 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Папка по умолчанию 
 
 Макросы можно просто скопировать в
 
 
-{{Code   code   *
+</div>
+
+
+```python
 $ROOT_DIR/
----
+```
 
-# How to install macros/ru
-
- 
 где `$ROOT_DIR` это корневая папка которую FreeCAD просматривает при стартке.
 
 The `$ROOT_DIR` could be a system wide directory, in which case the macro is installed for all users.
@@ -72,8 +91,8 @@ The `$ROOT_DIR` could be a system wide directory, in which case the macro is ins
 
 The `$ROOT_DIR` could be a particular user\'s directory.
 
--   On Linux it is usually `/home/username/.FreeCAD/`
--   On Windows it is usually `C   *Users\username\Application Data\FreeCAD\`
+-   On Linux it is usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
+-   On Windows it is usually `C   *Users\username\AppData\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
 
 ### Configuring the user directory 
@@ -85,7 +104,7 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 2\. Set the appropriate `User macros location`.
 
--   Linux   * usually `/home/username/.FreeCAD/`
+-   Linux   * usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}})
 -   Windows   * usually `C   *Users\username\AppData\Roaming\FreeCAD\`
 -   MacOS   * usually `/Users/username/Library/Preferences/FreeCAD/`
 
@@ -510,7 +529,7 @@ and then press the **OK** button.
 </div>
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 

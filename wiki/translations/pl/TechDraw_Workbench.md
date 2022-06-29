@@ -264,6 +264,11 @@ Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Ma
 
 -   [Poradnik   * Podstawy dla Środowiska pracy Rysunek Techniczny](Basic_TechDraw_Tutorial/pl.md)   * wprowadzenie do tworzenia rysunków przy użyciu środowiska pracy Rysunek Techniczny.
 -   [Rysunek Techniczny   * Jak wykonać nowy szablon ramki](TechDraw_TemplateHowTo/pl.md)   * instrukcja tworzenia nowego szablonu strony w programie Inkscape do użycia w środowisku pracy Rysunek Techniczny.
+
+-   [Generator szablonów](TechDraw_TemplateGenerator/pl.md)   * instrukcje tworzenia makra do generowania podstawowego szablonu.
+
+   *   Po dodaniu \"kilku\" wierszy kodu powstaje narzędzie takie jak [Makro Pomocnik szablonów](Macro_TemplateHelper/pl.md).
+
 -   [Pomiar kątów na otworach](Measurement_Of_Angles_On_Holes/pl.md)   * instrukcje dotyczące dodawania linii centrujących i kolejnych oznaczeń kątowych na otworach.
 -   [Rozmaitości](TechDraw_HowTo_Page/pl.md)   * instrukcje dotyczące różnych ustawień, takich jak znaki środka, itp.
 -   [Tworzenie koła podziałowego](TechDraw_Pitch_Circle_Tutorial/pl.md)   * instrukcja dodawania koła podziałowego.

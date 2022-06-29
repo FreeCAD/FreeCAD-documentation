@@ -1,24 +1,25 @@
 ---
-- GuiCommand   *
-   Name   *Std ViewBoxZoom
-   MenuLocation   *View → Zoom → Box zoom
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**B**
-   SeeAlso   *[Std ViewZoomIn](Std_ViewZoomIn.md), [Std ViewZoomOut](Std_ViewZoomOut.md)
+- GuiCommand   */pl
+   Name   *Std Std ViewBoxZoom
+   Name/pl   *Std   * Powiększ obszar
+   MenuLocation   *Widok → Powiększenie → Powiększ obszar
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **B**
+   SeeAlso   *[Przybliż](Std_ViewZoomIn/pl.md),  [Oddal](Std_ViewZoomOut/pl.md)
 ---
 
 # Std ViewBoxZoom/pl
 
-## Description
+## Opis
 
-The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a box, in the active [3D view](3D_view.md).
+Polecenie **Powiększ obszar** powoduje powiększenie prostokątnego obszaru zdefiniowanego przez użytkownika, czyli obszaru o kształcie kwadratu, w aktywnym oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Select the **View → Zoom → <img src="images/Std_ViewBoxZoom.svg" width=16px> Box zoom** option from the menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**B**.
-2.  Drag a rectangle in the 3D view.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz z menu opcję **Widok → Powiększenie → <img src="images/Std_ViewBoxZoom.svg" width=16px> Powiększ obszar**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **B**.
+2.  Przeciągnij prostokąt w widoku 3D.
 
 
 

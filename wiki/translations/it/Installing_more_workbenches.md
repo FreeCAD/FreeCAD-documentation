@@ -1,4 +1,6 @@
 # Installing more workbenches/it
+{{TOCright}}
+
 ## Introduction
 
 Since v0.17 it is easy to add [external workbenches](external_workbenches.md) by using the [Addon Manager](Std_AddonMgr.md). A regular user doesn\'t need to do more than use this tool.
@@ -95,7 +97,7 @@ Ulteriori informazioni su come creare un ambiente di lavoro personalizzato si tr
 Vedere anche la pagina [Come installare ambienti aggiuntivi](How_to_install_additional_workbenches/it.md).
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md)
 

@@ -11,16 +11,16 @@
 
 ## Opis
 
-The Redraw tool forces a page update despite any contrary settings of KeepUpdated (Page property), Update with 3D (parameter) or Allow Page Override (parameter).
+Narzędzie Przerysuj wymusza aktualizację strony pomimo innych ustawień opcji Zachowaj aktualizację *(właściwość strony)*, Aktualizuj z 3D *(parametr)* lub Zezwalaj na zastępowanie strony *(parametr)*.
 
-This tool was removed in v0.18, but reimplemented in v0.19.
+To narzędzie zostało usunięte w wersji 0.18, ale ponownie wprowadzone w wersji 0.19.
 
-## Usage
+## Użycie
 
-1.  If you have multiple pages in your file, select the one you want updated.
-2.  Press the **<img src="images/TechDraw_RedrawPage.svg" width=24px> [Redraw Page](TechDraw_RedrawPage.md)** button
+1.  Jeśli masz wiele stron w swoim pliku, wybierz tę, którą chcesz zaktualizować.
+2.  Wciśnij przycisk **<img src="images/TechDraw_RedrawPage.svg" width=24px> '''Przerysuj stronę'''**.
 
-## Options
+## Opcje
 
 Brak.
 

@@ -40,7 +40,7 @@ When FreeCAD is installed an example hierarchy of tool libraries and toolbits is
 
 -   On Linux it is usually **/usr/lib64/FreeCAD/Mod/Path/Tools**
 -   On Windows it is usually **C   *Program Files\FreeCAD\Mod\Path\Tools**
--   On macOS it is usually **/Applications/FreeCAD/Mod/Path/Tools** {{ColoredText||Red|--> has to be revised}}
+-   On macOS it is usually **/Applications/FreeCAD.app/Contents/Resources/Mod/Path/Tools**
 
 
 

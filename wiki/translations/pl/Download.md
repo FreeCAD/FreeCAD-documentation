@@ -19,7 +19,7 @@ Poprzednie wersje można pobrać ze strony [wydań](https   *//github.com/FreeCA
 
 ### Uwagi dla użytkowników systemu Windows 
 
--   Instalator wersji 32-bit *(x86)* obsługuje następujące wersje systemu Windows   * 7/8/10/11.
+-   Obsługiwane są następujące wersje systemu Windows   * 64-bitowy 7/8/10/11. 32-bitowy system Windows nie jest obsługiwany.
 -   Wersja portable nie wymaga instalacji i jest dostępna na stronie [wydania](https   *//github.com/FreeCAD/FreeCAD/releases/).
 -   Pakiet można również zainstalować za pomocą menedżera [Chocolatey](https   *//chocolatey.org/packages/freecad).
 

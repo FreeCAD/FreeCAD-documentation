@@ -11,7 +11,13 @@
 
 AppImage è un \"pacchetto binario universale\" destinato a distribuire un\'applicazione a qualsiasi distribuzione Linux. Maggiori informazioni al riguardo su [Appimage homepage](https   *//appimage.org) e [Wikipedia](https   *//en.wikipedia.org/wiki/AppImage).
 
+
+<div class="mw-translate-fuzzy">
+
 Per eseguirlo, renderlo prima eseguibile, quindi digitare il percorso relativo o completo.
+
+
+</div>
 
 
 ```python

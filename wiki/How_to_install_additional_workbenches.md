@@ -5,7 +5,13 @@
    FCVersion   *All
    Author   *[r-frank](User   *R-Frank.md)
    Files   *none
-}}
+---
+
+# How to install additional workbenches
+
+ 
+
+
 
 ## Description
 
@@ -81,16 +87,13 @@ Adding the [community-ppa](https   *//launchpad.net/~freecad-community/+archive/
 Installing the workbenches via synaptic packet manager.
 
 
-{{Code   code   *
+```python
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone  https   *//github.com/tomate44/CurvesWB.git
----
+```
 
-# How to install additional workbenches
-
-  
 In FreeCAD you will now have a new workbench-entry called \"CurvesWB\". Once installed, use git to upgrade to the latest version   *
 
 
@@ -177,7 +180,7 @@ For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_W
     -   keep the [report view](report_view.md) open while starting FreeCAD, and read the error,
     -   see this forum thread [Assembly2 in Version   * 0.16.5602 (Git)](http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
- {{Userdocnavi}} 
+  
 
 [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 

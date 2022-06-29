@@ -100,8 +100,9 @@ W kwietniu 2019 roku zespół core developerów został powiększony   * Jürgen
 
   Version   Nazwa wydania   Data ogłoszenia   Uwagi                                                           Commit wydania                                                                            Gałąź wydania
        
-  0.20      ?               w opracowaniu     [Informacje o wydaniu 0.20](Release_notes_0.20.md)      [head master](https   *//github.com/FreeCAD/FreeCAD/commits/master)                          
-  0.19      ?               w opracowaniu     [Informacje o wydaniu 0.19](Release_notes_0.19/pl.md)   [head master](https   *//github.com/FreeCAD/FreeCAD/commits/master)                          
+  1.0       \-              w opracowaniu     [Informacje o wydaniu 1.0](Release_notes_1.0/pl.md)     [head master](https   *//github.com/FreeCAD/FreeCAD/commits/master)                          
+  0.20      \-              2022-06-14        [Informacje o wydaniu 0.20](Release_notes_0.20.md)      [release commit 0.20](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-20)   [branch bugfixes 0.20](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-20)
+  0.19      \-              2021-03-20        [Informacje o wydaniu 0.19](Release_notes_0.19/pl.md)   [release commit 0.19](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)   [branch bugfixes 0.19](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
   0.18      \-              2019-03-12        [Informacje o wydaniu 0.18](Release_notes_0.18/pl.md)   [release commit 0.18](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [branch bugfixes 0.18](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
   0.17      Roland          2018-04-06        [Informacje o wydaniu 0.17](Release_notes_0.17/pl.md)   [release commit 0.17](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-17)   [branch bugfixes 0.17](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-17)
   0.16      \-              2016-04-18        [Informacje o wydaniu 0.16](Release_notes_0.16/pl.md)   [release commit 0.16](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-16)   [branch bugfixes 0.16](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-16)

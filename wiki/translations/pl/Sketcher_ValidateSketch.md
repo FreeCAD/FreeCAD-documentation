@@ -37,7 +37,7 @@ Wyszukuje brakujące zbieżności dla nakładających się wierzchołków i doda
 
 W razie potrzeby w rozwijanym polu zdefiniować większą wartość tolerancji.
 
-Naciśnij ** Podświetl otwarte wierzchołki **, aby podświetlić wierzchołki, które nie spełniają tej tolerancji.
+Naciśnij **Podświetl otwarte wierzchołki**, aby podświetlić wierzchołki, które nie spełniają tej tolerancji.
 
 Tolerancja ta jest również używana przez proces **Znajdź** / **Napraw**.
 

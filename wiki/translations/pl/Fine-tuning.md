@@ -39,8 +39,12 @@ Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwe
 -   **PropertyView/AutoTransactionView** *(boolean)*   * Ustawienie wartość opcji na {{TRUE/pl}} powoduje, że zmiany właściwości karty Widok są dodawane do stosu cofania *(a więc można je cofnąć)*. Domyślną wartością jest {{FALSE/pl}}.
 -   **Selection/AutoShowSelectionView** *(boolean)*   * Ustaw wartość opcji na {{TRUE/pl}} aby panel Widok zaznaczenia wyświetlał się automatycznie po wybraniu obiektu. Domyślnie {{FALSE/pl}}.
 -   **Selection/singleClickFeatureSelect** *(boolean)*   * Ustaw opcję na wartość {{FALSE/pl}}, aby wyłączyć możliwość wyboru elementu jednym kliknięciem w środowisku Projekt Części. Domyślnie {{TRUE/pl}}.
-
 -   **TreeView/TreeViewStretchDescription** (boolean)   * Ustaw opcję na wartość {{FALSE/pl}}, aby rozciągnąć kolumnę \"Opis\" w oknie [widoku drzewa](Tree_view/pl.md) do prawej krawędzi panelu. Wartość domyślna to {{FALSE/pl}}.
+
+-   **View/Dimensions3dColor** (ciąg znaków)   * Ustaw wartość koloru w formacie szesnastkowym `#RRGGBB`, aby zmienić kolor wyświetlania wymiarów bezpośrednich w narzędziu [Część   * Wymiarowanie liniowe](Part_Measure_Linear/pl.md).
+-   **View/DimensionsAngularColor** (ciąg znaków)   * Ustaw wartość koloru w formacie heksadecymalnym `#RRGGBB`, aby zmienić kolor wyświetlania wymiaru kątowego w narzędziu [Część   * Wymiarowanie kątowe](Part_Measure_Angular/pl.md).
+-   **View/DimensionsDeltaColor** (ciąg znaków)   * Ustaw wartość koloru heksadecymalnego w formacie `#RRGGBB`, aby zmienić kolor wyświetlania wymiarów ortogonalnych w narzędziu [Część   * Wymiarowanie liniowe](Part_Measure_Linear/pl.md).
+
 -   **View/NavigationDebug** *(boolean)*   * Włącza debugowanie stylów nawigacji *(od wersji v0.19 tylko styl nawigacji Gesture ma coś do powiedzenia)*.
 -   **View/NavigationDebug** *(boolean)*   * Udostępnia możliwość debugowania stylów nawigacji *(od v0.19, tylko styl nawigacji Gesture znajduje zastosowanie)*.
 -   **View/SavePicture** *(string)*   * Ustaw wartość opcji na **FramebufferObject**, **PixelBuffer** lub **CoinOffscreenRenderer** dla różnych metod tworzenia obrazów w oknie widoku 3D.

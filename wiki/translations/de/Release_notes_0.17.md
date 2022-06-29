@@ -6,15 +6,9 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD 0.17 wurde am 6. April 2018 veröffentlicht, man kann es auf der [Download](Download/de.md)-Seite herunterladen. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die komplette Liste der Änderungen kann unter [MantisBT bugtracker FC 0.17 changelog](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=73) auf Englisch nachgelesen werden.
+FreeCAD 0.17 wurde am 6. April 2018 veröffentlicht, man kann es von der [GitHub](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.17)-Seite herunterladen. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die komplette Liste der Änderungen kann unter [MantisBT bugtracker FC 0.17 changelog](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=73) auf Englisch nachgelesen werden.
 
 Ältere Veröffentlichungsnotizen von FreeCAD sind unter [Feature list](Feature_list#Release_notes/de.md) zu finden.
-
-
-</div>
 
 <img alt="" src=images/Release017_Title.jpg  style="width   *800px;"> 
 *Garten-Eisenbahnwagen Orenstein&Koppel (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http   *//forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
@@ -25,15 +19,7 @@ Es ist beinahe zwei Jahre her, seit der Veröffentlichung der vorherigen Version
 
 Der Arbeitsbereich **PartDesign** wurde komplett überarbeitet. Ein neuer Körpercontainer nimmt jetzt eine Kette von Features (Formelementen) auf und enthebt von der Anforderung, die Skizzen auf ebenen Körperflächen anbringen zu müssen. Neue Werkzeuge zum Erstellen von Bezugsgeometrien wie Punkte, Achsen und Ebenen machen PartDesign erheblich vielseitiger. ![](images/PartDesign_Body_tree.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Der neue über das Werkzeug-Menü zugängliche [Addon manager](Std_AddonMgr/de.md) (der vorher als Makro zur Verfügung stand unter [addons installer macro](https   *//github.com/FreeCAD/FreeCAD-addons)) macht das Installieren und das Aktualisieren von zusätzlichen Modulen und Makros viel leichter und einheitlicher unter Windows, Mac OS X und Linux.
-
-
-</div>
-
-<img alt="" src=images/Addon_manager_v017.png  style="width   *300px;">
+Der neue über das Werkzeug-Menü zugängliche [Addon-Manager](Std_AddonMgr/de.md) (der vorher als Makro zur Verfügung stand unter [addons installer macro](https   *//github.com/FreeCAD/FreeCAD-addons)) macht das Installieren und das Aktualisieren von zusätzlichen Modulen und Makros viel leichter und einheitlicher unter Windows, Mac OS X und Linux. <img alt="" src=images/Addon_manager_v017.png  style="width   *300px;">
 
 Der Arbeitsbereich **Sketcher** unterstützt nun die Erstellung von B-splines mit verschiedenen Weisen die Kontrollkurven zu bearbeiten und die Kurvendaten anzuzeigen. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width   *300px;">
 
@@ -104,29 +90,20 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 ## Arbeitsbereich FEM 
 
-
-<div class="mw-translate-fuzzy">
-
 -   FEM Mesh
-    -   **Gmsh object** ToDo
-    -   **Boundary layer object for gmsh** ToDo
-    -   **Mesh group object for gmsh** ToDo
-    -   **Mesh region object for gmsh** ToDo
-    -   **GUI clear mesh tool** ToDo
-    -   **GUI print mesh info tool** ToDo
-    -   **GUI mesh view provider** Darstellung von sowohl Vierecknetzen als auch Hexaeder-, Pentaeder- und Pyramidennetzen
-    -   **Mesh data model** Update von SMESH zu Version 7.7.1 <https   *//github.com/FreedCAD/FreeCAD/commit/666a3e5a>
-    -   **Mesh API** Fähigkeit Netzgruppendaten aus dem FreeCAD SMESH FEM-mesh-Daten mittels Python zu lesen. Dies war die Basis für das Gmsh-Gruppen-Objekt   *
-    -   **Mesh API** Export von Netzgruppen in das inp-Dateiformat
-    -   **FEM mesh 2 mesh tool** Werkzeug um die Oberfläche eines Volumennetzes in ein Oberflächennetz für das FreeCAD Mesh Modul zu konvertieren
-    -   **Mesh problems** nicht positive Jacobi-Matrizen ist ein häufig gesehenes Problem in den FEM-Netzen. Elemente, die nicht positive Jacobi-Matrizen in dem CalculiX-Solver aufweisen, werden farbig dargestellt.
--   Neu unterstützte Analysetypen von Calculix
-    -   **Coupled Thermal Structural Analysis**
-    -   **1D pipe Flow analysis Analysis**
-    -   **Coupled Beam Shell Solid models**
-
-
-</div>
+    -   **Gmsh object** ist ein Netzobjekt, das die Verwendung des [Gmsh](http   *//gmsh.info/)-Vernetzungswerkzeugs innerhalb von FreeCAD erlaubt. Verschiedene Optionen von Gmsh werden unterstützt.
+    -   **Boundary layer object for gmsh** ermöglicht es Grenzschichten zu erstellen.
+    -   **Mesh group object for gmsh** ermöglicht es Knoten- und Elementgruppen zu erstellen. Die Namen können durch den Benutzer geändert werden.
+    -   **Mesh region object for gmsh** ermöglicht es Netzregionen mit unterschiedlichen Elementgrößen für Knoten, Kanten, Flächen und Volumen zu erstellen.
+    -   **GUI clear mesh tool** löscht das Netz aber behält alle Netzeinstellungen. Dies ist praktisch, wenn Dateien gemeinsam genutzt werden sollen.
+    -   **GUI print mesh info tool** gibt alle Arten von Netzinformationen aus.
+    -   **GUI mesh view provider** kann genau so gut Netze aus vierseitigen Flächen darstellen, wie sechsseitige, fünfseitige und pyramidenförmige Netzelemente.
+    -   **Mesh data model** wurde aktualisiert, um [SMESH](http   *//salome-platform.org) version 7.7.1 <https   *//github.com/FreeCAD/FreeCAD/commit/666a3e5a> zu verwenden.
+    -   **Mesh API** wurde erweitert, um Python zu ermöglichen **mesh group data** aus den **FreeCAD SMESH FEM mesh data** auszulesen. Dies ist die Basis für das Gmsh-group-Objekt.
+    -   **Mesh API** wurde erweitert, um mesh groups in das Abaqus- und CalculiX-inp-Datenformat zu exportieren.
+    -   **FEM mesh 2 mesh tool** wandelt eine Oberfläche eines Volumennetzes in ein Netz für FreeCADs Mesh-Modul.
+    -   **Mesh problems   *** nicht positive Jacobi-Matrizen sind ein häufiges Problem in den FEM-Netzen. Elemente, die nicht positive Jacobi-Matrizen in dem CalculiX-Solver aufweisen, werden in FreeCAD farbig dargestellt.
+    -   **Fenics** Import und Export des Fenics-Mesh-Formats wurden hinzugefügt.
 
 -   Objects
     -   **Beam rotation object** enables the analysis of beams rotated around their main axis.
@@ -178,7 +155,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
     -   Python code complies with most rules of **flake8**.
     -   Dozens of **typos** inside source code have been fixed (AFAIK this applies to all FreeCAD, luzpaz finds all of them like finding a needle in the haystack).
 
--   Some Pictures
+-   Einige Bilder
 
 <img alt="" src=images/bridge-all.png  style="width   *640px;"> <img alt="" src=images/bridge-detail.png  style="width   *640px;">
 
@@ -198,13 +175,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   Erweiterung   * Das Werkzeug [Part Revolve](Part_Revolve/de.md) unterstützt nun eine parametrische Verbindung zur Rotationsachse (eigentlich in nur in PartDesign).
 
-
-<div class="mw-translate-fuzzy">
-
--   Die neue Hilfsfunktion [Part EditAttachment](Part_EditAttachment/de.md) verfügbar über das Menü *Part → Attachment...* kann benutzt werden, um die meisten Typen von Objekten miteinander parametrisch zu verbinden.
-
-
-</div>
+-   Die neue Hilfsfunktion [Part Befestigen](Part_EditAttachment/de.md), verfügbar über das Menü *Part → Attachment...*, kann benutzt werden, um die meisten Arten von Objekten parametrisch mit anderen Geometrien zu verbinden.
 
 -   Der neue [Part-Container](Std_Part/de.md) kann verwendet werden um die meisten Typen von [Shapes](Glossary/de#Shape.md) zu gruppieren und sie als Einheit zu bewegen. Er enthält auch die Standardebenen und -achsen, an denen ebenfalls Objekte angeheftet werden können. Er wird die Basis für den zukünftigen Arbeitsbereich Assembly bilden, um eine Möglichkeit zu haben, Baugruppen im Raum zu bewegen. Er steht in allen Arbeitsbereichen zusammen mit [Group](Std_Group/de.md) in der Werkzeugleiste zur Verfügung.
 
@@ -224,13 +195,7 @@ Der Arbeitsbereich PartDesign erlebte massive Änderungen, die Frucht der gemein
 
 Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Überarbeitung resultierte in der Entfernung des alten Codes von HeeksCNC und den Ersatz der Python-Bibliothek für den Zugriff auf die Bibliothek libarea mit dem neuen Path-Area-Modul. Das Ergebnis war, dass die Operationen weit leistungsfähiger und schneller wurden mit einer deutlich vereinfachten Code-Basis.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Die Unterstützung für 2.5D Operationen ist komplett einschließlich [contour](Path_Profile.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_Profile.md) und [drilling](Path_Drilling.md)
-
-
-</div>
 
 -   Es gibt eine eingeschränkte Unterstützung für [3D pocketing](Path_Pocket_3D.md) Operationen.
 
@@ -298,13 +263,7 @@ Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Übe
 
 ## Arbeitsbereich TechDraw 
 
-
-<div class="mw-translate-fuzzy">
-
-[TechDraw](TechDraw_Workbench.md) ist ein neuer Arbeitsbereich zur Erstellung von technischen Zeichnungen, der antritt den veralteten Arbeitsbereich Drawing zu ersetzen. FreeCAD v0.17 wird immer noch mit dem Arbeitsbereich Drawing ausgeliefert, so dass es noch möglich ist, die Dokumente, die Drawing-Seiten enthalten, zu öffnen und zu editieren, aber Drawing wird in zukünftigen Versionen auslaufen. Einige der aufregenden neuen Sachen aus TechDraw   *
-
-
-</div>
+Der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) ist ein neuer Arbeitsbereich zur Erstellung von technischen Zeichnungen, der antritt den veralteten Arbeitsbereich Drawing zu ersetzen. FreeCAD v0.17 wird immer noch mit dem Arbeitsbereich Drawing ausgeliefert, so dass es noch möglich ist, die Dokumente, die Drawing-Seiten enthalten, zu öffnen und zu editieren, aber Drawing wird in zukünftigen Versionen auslaufen. Einige der aufregenden neuen Sachen die TechDraw mitbringt   *
 
 -   Die meisten Werkzeuge des Arbeitsbereichs Drawing haben ein Gegenstück im Arbeitsbereich TechDraw.
 -   Leichter Erstellung von Ansichten und deren Bearbeitung. Ansichten können an ihren Rahmen mit der Maus gefasst werden und auf der Seite verschoben werden. Die Ausrichtung der orthogonalen Ansichten kann festgelegt werden.
@@ -318,7 +277,7 @@ Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Übe
 
 Einige der neuen Module, die von der FreeCAD-Gemeinschaft geschaffen wurden.
 
--   [Manipulator Workbench](Manipulator_Workbench.md) is aimed to help in Aligning, Moving, Rotating and Measuring 3D objects (Part Design allowed) through a friendly GUI.
+-   Der Arbeitsbereich [Manipulator](Manipulator_Workbench/de.md) soll mit einer freundlichen Benutzeroberfläche dabei helfen 3D-Objekte auszurichten, zu verschieben, zu drehen und zu messen (Part Design allowed).
 
 -   [Curves](https   *//github.com/tomate44/CurvesWB), eine Sammlung von Werkzeugen, um \[<https   *//de.wikipedia.org/wiki/Non-Uniform_Rational_B-Spline%5D-Kurven> und -Oberflächen zu erstellen und zu bearbeiten.
 
@@ -326,7 +285,7 @@ Einige der neuen Module, die von der FreeCAD-Gemeinschaft geschaffen wurden.
 
 -   [Silk](https   *//github.com/edwardvmills/Silk), eine Sammlung von Werkzeugen zur Bearbeitung von NURBS-Oberflächen mit dem Fokus auf niedrigen Grad und Nahtkontinuität.
 
--   [Flamingo Workbench](Flamingo_Workbench.md), a set of customized FreeCAD commands and objects that help to speed-up the drawing of frames and pipelines.
+-   Der Arbeitsbereich [Flamingo](Flamingo_Workbench/de.md) ist ein Satz von benutzerdefinierten FreeCAD-Befehlen und Objekten, die dabei helfen die Darstellung von Rahmen und Rohrleitungen zu beschleunigen. and objects that help to speed-up the drawing of frames and pipelines.
 
 -   [Civil Engineering/Transportation Workbench](Civil_Engineering_Workbench.md)
 

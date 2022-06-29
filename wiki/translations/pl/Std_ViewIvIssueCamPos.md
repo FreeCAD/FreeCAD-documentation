@@ -1,16 +1,17 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewIvIssueCamPos
-   MenuLocation   *View → Stereo → Issue camera position
-   Workbenches   *All
-   SeeAlso   *[Std FreezeViews](Std_FreezeViews.md)
+   Name/pl   *Std   * Parametry ujęcia widoku
+   MenuLocation   *Widok → Widok trójwymiarowy → Parametry ujęcia widoku
+   Workbenches   *wszystkie
+   SeeAlso   *[Zamroź widok](Std_FreezeViews/pl.md)
 ---
 
 # Std ViewIvIssueCamPos/pl
 
-## Description
+## Opis
 
-The **Std ViewIvIssueCamPos** command prints the camera settings of the active [3D view](3D_view.md) in the [Report view](Report_view.md) and the [Python console](Python_console.md).
+Polecenie **Std ViewIvIssueCamPos** wyświetla ustawienia ujęcia aktywnego [widoku 3D](3D_view/pl.md) w oknie [Widoku raportu](Report_view/pl.md) i [konsoli Python](Python_console/pl.md).
 
 
 ```python   OrthographicCamera {   viewportMapping ADJUST_CAMERA   position 57.73505 -57.73502 57.735027   orientation 0.74290609 0.30772209 0.59447283  1.2171158   nearDistance 81.588844   farDistance 109.60551   aspectRatio 1   focalDistance 100   height 100  } 
@@ -18,24 +19,24 @@ The **Std ViewIvIssueCamPos** command prints the camera settings of the active [
 
 
 
-*Example output   * camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
+*Przykładowe wyświetlone dane   * ustawienia ujęcia widoku po zmianie widoku na [izometryczny](Std_ViewIsometric/pl.md) w nowym dokumencie*
 
-## Usage
+## Użycie
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Issue camera position** option from the menu.
+1.  Wybierz z menu opcję **Widok → Widok trójwymiarowy → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Parametry ujęcia widoku**.
 
-## Notes
+## Uwagi
 
--   The camera settings can be used to add frozen views to a \*.cam file. See [Std FreezeViews](Std_FreezeViews.md).
+-   Ustawienia kamery można wykorzystać do dodania zamrożenia widoków do pliku \*.cam. Zobacz temat [Zamroź widok](Std_FreezeViews/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-The `getCamera` method of the ActiveView object returns the same camera settings in a single string. This method is not available if FreeCAD is in console mode.
+Metoda `getCamera` obiektu *ActiveView* zwraca te same parametry ustawienia ujęcia widoku w postaci pojedynczego ciągu znaków. Ta metoda nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

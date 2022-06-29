@@ -21,7 +21,7 @@ Previous versions can be downloaded from the [releases](https   *//github.com/Fr
 
 ### Notes for Windows users 
 
--   The following Windows versions are supported   * 7/8/10/11.
+-   The following Windows versions are supported   * 64-bit 7/8/10/11. 32-bit Windows is not supported.
 -   A portable version that doesn\'t need installation is available on the [releases](https   *//github.com/FreeCAD/FreeCAD/releases/) page.
 -   The package can also be installed from the [Chocolatey](https   *//chocolatey.org/packages/freecad) manager.
 

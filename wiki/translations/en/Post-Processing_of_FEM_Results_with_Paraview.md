@@ -1,8 +1,8 @@
 # Post-Processing of FEM Results with Paraview/en
 ---
-- TutorialInfo   *   Topic   * Post-Processing of FEM Results with ParaView
-   Level   * Intermediate
-   Time   * 120 minutes
+- TutorialInfo   *   Topic   *Post-Processing of FEM Results with ParaView
+   Level   *Intermediate
+   Time   *120 minutes
    Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   * HarryvL]
    FCVersion   *0.19
    Files   *[https   *//forum.freecadweb.org/download/file.php?id=103403 beam] and [https   *//forum.freecadweb.org/download/file.php?id=103557 wall] found in this [https   *//forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 FC forum thread]
@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Some forum posts and tutorials use Paraview (PV) to review and analyse FreeCAD <img alt="" src=images/_Workbench_FEM.svg  style="width   *24px;"> [FEM Workbench](FEM_Workbench.md) (FEMWB) results. This tutorial explains the basics of transferring data from FEMWB to PV and shows some of the options and settings for displaying data.
+Some forum posts and tutorials use Paraview (PV) to review and analyse FreeCAD <img alt="" src=images/_Workbench_FEM.svg  style="width   *24px;"> [FEM Workbench](FEM_Workbench.md) results. This tutorial explains the basics of transferring data from FEM Workbench to PV and shows some of the options and settings for displaying data.
 
 ## Prerequisites
 
@@ -19,15 +19,17 @@ Some forum posts and tutorials use Paraview (PV) to review and analyse FreeCAD <
     -   This tutorial is based on version Paraview 5.8.0 for Windows, which was the most recent version at the time of writing the tutorial.
 -   The FreeCAD files used for this tutorial available in [this](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) and [this](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315) FC forum thread.
 
-## Data Transfer from FEMWB 
+## Data Transfer from FEM workbench 
 
-In FEMWB highlight the CCX\_Results object. Next, use menu option **File > Export > FEM result VTK (*.vtk *.vtu)** to export the VTK data.
+In FEM workbench highlight the CCX\_Results object. Next, use menu option **File > Export > FEM result VTK (*.vtk *.vtu)** to export the VTK data.
 
 ## Data Import in Paraview 
 
-The start-up screen shows an empty Pipeline Browser. This is where the imported VTK data objects and applied filter objects (for geometry or data) will be visible. <img alt="" src=images/PVPic1.png  style="width   *500px;">
+The start-up screen shows an empty Pipeline Browser. This is where the imported VTK data objects and applied filter objects (for geometry or data) will be visible.
 
-Use menu option **File > Open > *.vtk** to open the VTK file that was generated with FEMWB
+<img alt="" src=images/PVPic1.png  style="width   *500px;">
+
+Use menu option **File > Open > *.vtk** to open the VTK file that was generated with FEM Workbench.
 
 <img alt="" src=images/PVPic2.png  style="width   *500px;">
 
@@ -43,9 +45,9 @@ The gray geometry can be inspected by rotating the view. The left mouse button m
 
 Rather than saving data, Paraview stores the status (state) of the actions performed on the imported VTK object. Therefore, to save your work use menu option **File > Save State**. **NOTE**   * there will be no warning when leaving Paraview to save the state and all work may be lost when exiting the program.
 
-To continue where you left off in the previous session use **File > Load State**. This prompts the user to specify a VTK file, which means that the actions performed in the last session can also be applied to a new VTK file. In this way, data from different FEMWB analyses can be displayed in exactly the same way, without any additional effort.
+To continue where you left off in the previous session use **File > Load State**. This prompts the user to specify a VTK file, which means that the actions performed in the last session can also be applied to a new VTK file. In this way, data from different FEM Workbench analyses can be displayed in exactly the same way, without any additional effort.
 
-## Visualise FEMWB Results 
+## Visualise FEM Workbench Results 
 
 Paraview has many options and settings for displaying results. We will first have a look at displaying base import data on the original geometry and thereafter see how to apply filters to modify the geometry. Finally, we will use the calculator and integration filters to derive new results by combining base import data.
 
@@ -91,9 +93,9 @@ The setting for Color Discretization is useful to limit the number of iso values
 
 <img alt="" src=images/PVPic16.png  style="width   *700px;">
 
-## Applying Filters to FEMWB results 
+## Applying Filters to FEM Workbench results 
 
-To modify the base data or geometry imported from FEMWB, filters can be applied.
+To modify the base data or geometry imported from FEM Workbench, filters can be applied.
 
 Here only the Slice and Warp filters will be discussed. Filters for creating compound results from base data will be discussed in the next section.
 
@@ -159,7 +161,7 @@ Now we are left with just one value in the table of integration results
 
 As explained before this is the negative value of the integral we are looking for. So the indicative total volume of steel required in x direction is 2.27e+06 mm3 (= 2272 cm3) or 2272 cm3 \* 7.6 g/cm3 = 17267 g (= 17.3 kg). In practice the number will be higher due to practical considerations (e.g. anchoring requirements, minimum reinforcement requirements, etc.). Nevertheless, this result can be used to compare conceptual designs
 
-The above was an example of the integration of a variable directly exported by FEMWB. In some cases we may want to combine VTK variables to obtain new results. This can be done in several ways, but here I will only discuss the simplest, i.e. with the Calculator Filter.
+The above was an example of the integration of a variable directly exported by FEM Workbench. In some cases we may want to combine VTK variables to obtain new results. This can be done in several ways, but here I will only discuss the simplest, i.e. with the Calculator Filter.
 
 For example, if we want to know the total reinforcement requirement in all three coordinate directions we would have to sum ReinforcementRatio\_x, ReinforcementRatio\_y and ReinforcementRatio\_z.
 
@@ -233,7 +235,7 @@ To demonstrate visualisation and integration of results over a line we use the 2
 
 Techniques introduced in previous sections of this tutorial will not be repeated here. It is also important to note again that as more objects are added to the Pipeline Browser and more display windows are open, it becomes increasingly important to ensure that the right object is selected in the Pipeline Browser and the right Window has focus when making changes to the Properties Tab. Otherwise much time can be spent on finding the right property or changes to properties may not seem to take effect.
 
-Starting with the VTK object imported from FEMWB we note that the PV controls operate slightly differently on a 2 dimensional object. The left mouse button drags the geometry and the middle mouse button rotates it. To position the geometry in the plane of analysis (i.e. x-y), press the icon that puts the view along the negative z axis   *
+Starting with the VTK object imported from FEM Workbench, we note that the PV controls operate slightly differently on a 2 dimensional object. The left mouse button drags the geometry and the middle mouse button rotates it. To position the geometry in the plane of analysis (i.e. x-y), press the icon that puts the view along the negative z axis   *
 
 <img alt="" src=images/PVPicLine1.png  style="width   *75px;">
 

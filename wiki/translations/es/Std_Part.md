@@ -10,23 +10,17 @@
 
 # Std Part/es
 
-
-</div>
-
 ## Descripción
 
 
-<div class="mw-translate-fuzzy">
+**[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part.md)**
 
-**Parte** es un contenedor de propósito general que mantiene juntos un grupo de objetos para que puedan moverse como una unidad. La parte puede contener la mayoría de los objetos de FreeCAD, como conjuntos de PartDesign, objetos del ambiente de trabajo de Pieza, objetos de malla, etc.
-
-
-</div>
+(internamente llamado [App Part](App_Part.md)) es un contenedor de propósito general que mantiene juntos un grupo de objetos para que puedan moverse juntos como una unidad en la [vista 3D](3D_view/es.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Part proporciona un sistema de coordenadas local al que se pueden adjuntar sketches y otros objetos.
+El elemento Std Part se desarrolló para ser el bloque de construcción básico para crear [ensambles]([assembly.md) mecánicos. En particular, está destinado a organizar objetos que tengan un [Part TopoShape](Part_TopoShape.md), como [Part Primitives](Part_Primitives.md), [PartDesign Bodies](PartDesign_Body.md) y otras [Part Features](Part_Feature.md) . El Std Part proporciona un [Origen de objeto](#Origin.md) con ejes locales X, Y y Z, y planos estándar, que pueden ser usados como referencia a la posición de los objetos contenidos. Además, Std Parts pueden anidarse dentro de otras partes de Std Parts para crear ensambles grandes a partir de sub-ensambles más pequeños.
 
 
 </div>

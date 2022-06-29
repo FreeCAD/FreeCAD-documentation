@@ -19,7 +19,7 @@
 
 ## Introduction
 
-Cette démonstration traite de l\'utilisation du mode d\'attachement OYX pour ajuster la position de l\'origine d\'une esquisse comme décrit dans [Part Ancrage](Part_EditAttachment/fr.md), elle n\'est pas exhaustive, mais nous espérons qu\'elle aidera les utilisateurs à expérimenter.
+Cette démonstration traite de l\'utilisation du mode d\'ancrage OYX pour ajuster la position de l\'origine d\'une esquisse comme décrit dans [Part Ancrage](Part_EditAttachment/fr.md), elle n\'est pas exhaustive, mais nous espérons qu\'elle aidera les utilisateurs à expérimenter.
 
 L\'image ci-dessus montre la géométrie utilisée dans cette démonstration.
 
@@ -31,7 +31,7 @@ Deux autres esquisses comprennent une géométrie qui sera utilisée pour reposi
 
 ## Discussion
 
-Le mode d\'attachement Aligner O-Y-X est défini comme suit dans [Part Ancrage](Part_EditAttachment/fr.md)    * *Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne ses axes de plan vertical et horizontal vers le sommet/long de la ligne*. Elle indique également qu\'il existe plusieurs combinaisons de référence.
+Le mode d\'ancrage Aligner O-Y-X est défini comme suit dans [Part Ancrage](Part_EditAttachment/fr.md)    * *Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne ses axes de plan vertical et horizontal vers le sommet/long de la ligne*. Elle indique également qu\'il existe plusieurs combinaisons de référence.
 
    *; Combinaisons de référence   *
 
@@ -56,7 +56,7 @@ Ainsi, si nous sélectionnons le sommet supérieur/gauche de l\'arête jaune (co
 
    *; Remarques    *
 
-   *   L\'option Aligner O-Y-X est sélectionnée dans la boîte de dialogue des pièces jointes.
+   *   L\'option Aligner O-Y-X est sélectionnée dans la boîte de dialogue Ancrage.
    *   L\'origine de l\'esquisse se trouve maintenant au sommet supérieur gauche/supérieur de la ligne jaune.
    *   L\'axe Y de l\'esquisse est maintenant aligné avec la ligne jaune.
    *   L\'axe Z de l\'esquisse est perpendiculaire à la ligne jaune.

@@ -1,8 +1,9 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std AxisCross
-   MenuLocation   *View → Toggle axis cross
-   Workbenches   *All
+   Name/pl   *Std   * Symbol osi
+   MenuLocation   *Widok → Pokaż / ukryj symbol osi
+   Workbenches   *wszystkie
    Shortcut   ***A** **C**
 ---
 

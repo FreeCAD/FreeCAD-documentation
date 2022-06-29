@@ -9,45 +9,36 @@
 
 # Sketcher RectangularArray/ru
 
-
-</div>
-
 ## Описание
 
-Creates an array of selected sketcher elements.
+Создаёт массив выбранных элементов эскиза.
 
 ## Применение
 
-1.  Select sketcher elements in [task panel](task_panel.md) or in [3D view](3D_view.md).
-2.  There are several ways to invoke the command   *
-    -   Press the **[<img src=images/Sketcher_RectangularArray.svg style="width   *16px"> [Rectangular array](Sketcher_RectangularArray.md)** button.
-    -   Select the **Sketch → Sketcher tools → [<img src=images/Sketcher_RectangularArray.svg style="width   *16px"> Rectangular array** option from the menu.
-3.  Specify the options for the array in the dialog that opens.
-4.  Press the **OK** button.
-5.  Move the mouse in the [3D view](3D_view.md) towards the desired reference point.By keeping **Ctrl** pressed, the angle to the reference point can be fixed in steps of 5°. <small>(v0.20)</small> 
-6.  Left-click in the 3D view to create the array.
-7.  To set the distances between the array elements, edit the dimensional constraints of the array.
+1.  Выберите элементы эскиза на [панели задач](task_panel/ru.md) или в [3D-виде](3D_view/ru.md).
+2.  Существует несколько способов вызова команды   *
+    -   Нажмите кнопку **[<img src=images/Sketcher_RectangularArray.svg style="width   *16px"> [Прямоугольный массив](Sketcher_RectangularArray/ru.md)**.
+    -   Выберите в меню пункт **Sketch → Инструменты для эскиза → [<img src=images/Sketcher_RectangularArray.svg style="width   *16px"> Прямоугольный массив**.
+3.  Задайте параметры массива в открывшемся диалоговом окне.
+4.  Нажмите кнопку **OK**.
+5.  Переместите мышь в [3D виде](3D_view/ru.md) к нужной опорной точке.Удерживая нажатой клавишу **Ctrl**, угол до опорной точки можно зафиксировать с шагом 5°. <small>(v0.20)</small> 
+6.  Щёлкните левой кнопкой мыши на 3D виде для создания массива.
+7.  Чтобы задать расстояния между элементами массива, отредактируйте размерные зависимости массива.
 
-## Options
+## Опции
 
 ![](images/Sketcher_RectangularArray_Options.jpg )
 
-**Rectangular array** has the following options   *
+**Прямоугольный массив** имеет следующие параметры   *
 
--   **Colums**   * The number of columns for the array.
--   **Rows**   * The number of rows for the array.
--   **Equal vertical/horizontal spacing**   * If the vertical distance between the array elements should be the same as the vertical distance.
--   **Constrain inter-element separation**   * When this is checked, the distance between the array elements will be constrained.If you for example only know that you need a 23 x 15 mm array, use this option the be later able to change these constraints to the dimensions you need.
--   **Clone**   * ??
-
-
-<div class="mw-translate-fuzzy">
+-   **Столбцы (Columns)**   * Количество столбцов для массива.
+-   **Строки (Rows)**   * Количество строк для массива.
+-   **Равные интервалы вертикальный/горизонтальный (Equal vertical/horizontal spacing)**   * Флажок устанавливается, если расстояние по вертикали между элементами массива должно быть таким же, как расстояние по вертикали.
+-   **Ограничения разделения между элементами (Constrain inter-element separation)**   * Когда этот флажок установлен, расстояние между элементами массива будет ограничено.Если, например, известно, что требуется массив размером 23 x 15 мм, используйте эту опцию, чтобы впоследствии изменить эти ограничения на необходимые размеры.
+-   **Клонировать (Clone)**   * Если флажок установлен, размерные ограничения будут заменены геометрическими ограничениями в копиях так, что изменение исходного элемента непосредственно отразится на копиях.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

@@ -15,7 +15,13 @@ Du kannst auch einen Paketmanager wie HomeBrew verwenden, um deine Software auf 
 brew install --cask freecad
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 und um die neueste verfügbare Version (0.19pre) auf HomeBrew zu verwenden, kannst du
+
+
+</div>
 
 
 ```python

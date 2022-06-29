@@ -1,44 +1,44 @@
 # Gui Command/de
-Der Gui Befehl ist eine der wichtigsten Funktionen von FreeCAD. im Hauptinteraktionspunkt des Benutzers. Jedes Mal, wenn der Benutzer einen Menüpunkt auswählt oder eine Schaltfläche in der Werkzeugleiste drückt , die einen Gui Befehl aktiviert. Einige der Attribute eines Gui Befehls sind   *
+Der GUI-Befehl (Befehl der grafischen Benutzerschnittstelle) ist eine der wichtigsten Funktionen von FreeCAD im Hauptinteraktionsbereich des Benutzers. Jedes Mal, wenn der Benutzer einen Menüeintrag auswählt oder eine Schaltfläche in der Werkzeugleiste drückt, wird ein GUI-Befehl aktiviert. Einige der Merkmale eines GUI-Befehls sind   *
 
 -   Definiert einen Namen
 -   Enthält ein Symbol
 -   Definiert den Umfang für ein Rückgängigmachen/Wiederherstellen.
--   Hat eine Hilfeseite
--   Öffnet und kontrolliert Dialoge
--   Makro Aufnahme
+-   Besitzt eine Hilfeseite
+-   Öffnet und steuert Dialoge
+-   Makroaufnahme
 -   und andere.
 
 ## Benennung
 
-Der Gui Befehl wird standardmäßig benannt   * *ModuleName\_CommandName*. z.B. \"[Base\_Open](Base_Open/de.md)\" Dies ist der Open Gui Befehl im Basissystem. Der Gui Befehl in einem bestimmten Modul wird mit dem Modulnamen benannt. davor z.B. \"[Teil Zylinder](Part_Cylinder/de.md)\"
+Der GUI-Befehl wird nach einem Standardmuster benannt   * *Modulname\_Befehlsname*, z.B. \"[Base\_Öffnen](Base_Open/de.md)\" Dies wäre der GUI-Befehl Öffnen in einem Basissystem. Der GUI-Befehl in einem bestimmten Modul wird mit dem Modulnamen an erster Stelle benannt z.B. \"[Part Zylinder](Part_Cylinder/de.md)\"
 
-Wenn die Dokumentation noch nicht fertig ist, verwende [Template   *UnfinishedDocu](Template_UnfinishedDocu.md).
+Wenn die Dokumentation noch nicht fertig ist, verwendet man die Vorlage [UnfinishedDocu](Template_UnfinishedDocu.md).
 
 ## Hilfeseite
 
-Jeder Gui Befehl muss eine Hilfeseite haben. Die Hilfeseite wird auf der Seite FreeCAD Dokumentations Wiki. Der Artikel hat den gleichen Namen wie der Gui Befehl, z.B. [Draft ShapeString](Draft_ShapeString.md).
+Jeder GUI-Befehl muss eine Hilfeseite haben. Die Hilfeseite wird im Wiki der FreeCAD-Dokumentation gehostet. Der Artikel hat den gleichen Namen wie der GUI-Befehl, z.B. [Draft ShapeString](Draft_ShapeString.md).
 
-Um Deine eigenen Hilfeseiten zu erstellen, kannst Du die Vorlage [GuiCommand model](GuiCommand_model.md) verwenden.
+Um eigene Hilfeseiten zu erstellen, kann man die Vorlage [GuiCommand model](GuiCommand_model.md) verwenden.
 
 Beispiel   *
 
--   [Entwurf FormString](Draft_ShapeString/de.md)
--   [Entwurfslinie](Draft_Line/de.md)
+-   [Draft ShapeString](Draft_ShapeString.md)
+-   [Draft Line](Draft_Line.md)
 
 ## Symbole
 
 <img alt="" src=images/Tango-Palette.png  style="width   *400px;">
 
-Jeder GuiBefehl muss ein Symbol haben. Wir verwenden das [Tango Symbolsatz](http   *//tango-project.org/Tango_Desktop_Project/) und seine Richtlinien. Auf der rechten Seite siehst du die Tango Farbpalette.
+Jeder GUI-Befehl muss ein Symbol haben. Wir verwenden den [Tango Symbolsatz](http   *//tango-project.org/Tango_Desktop_Project/) und seine Richtlinien. Auf der rechten Seite ist die Tango-Farbpalette dargestellt.
 
-Alle Symbole sollten im Format [SVG](SVG.md) mit einer Vektorbildanwendung, wie beispielsweise [Inkscape](http   *//inkscape.org), erstellt werden. Dies erleichtert die Übernahme von Änderungen und die Ableitung von Änderungen. zusätzliche Symbole im gleichen Anwendungsbereich.
+Alle Symbole sollten im Format [SVG](SVG.md) mit einer Vektorgrafikanwendung, wie beispielsweise [Inkscape](http   *//inkscape.org), erstellt werden. Dies erleichtert die Anwendung von Änderungen und die Ableitung von zusätzlichen Symbolen im gleichen Anwendungsbereich.
 
-### Symbol Farbkodierungstabelle 
+### Symbol-Farbkodierungstabelle 
 
 <img alt="" src=images/Colorchart.png  style="width   *200px;">
 
-Wir versuchen so weit wie möglich, dieses Diagramm zu respektieren, so dass die Farbe der Symbole eine direkte Bedeutung hat.
+Wir versuchen so weit wie möglich, dieses Diagramm zu berücksichtigen, und so hat die Farbe der Symbole eine direkte Bedeutung.
 
 ## Qualitätsanforderungen
 

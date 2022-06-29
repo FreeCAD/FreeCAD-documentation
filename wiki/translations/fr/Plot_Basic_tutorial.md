@@ -70,9 +70,9 @@ c = [math.cos(2.0*math.pi*tt) for tt in t]
 
 Ceci va créer 3 tableaux de données (avec 101 points)    *
 
--   **t** = **Temps en secondes**.
--   **s** = fonction **Sinus**.
--   **c** = fonction **Cosinus**.
+-   *t* = Temps en secondes.
+-   *s* = fonction Sinus.
+-   *c* = fonction Cosinus.
 
 Afin de tracer les deux fonctions, il suffit de lancer les commandes suivantes    *
 
@@ -84,7 +84,7 @@ Plot.plot(t,c)
 
 La commande **plot** permet d\'utiliser l\'étiquette de la série comme argument, mais comme nous la modifierons plus tard à l\'aide des outils de l\'atelier Plot, nous ne transmettons pas encore cette donnée.
 
-## Configurez **Plot** 
+## Configurez Plot 
 
 ### Affichage de la grille et de la légende 
 

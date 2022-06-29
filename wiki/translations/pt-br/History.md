@@ -100,7 +100,8 @@ In April 2019 the team of core developers was expanded   * Jürgen, Werner and Y
 
   Version   Release name   Release date     Release notes                                         Release commit                                                                            Release branch
        
-  0.20      ?              in development   [Release notes 0.20](Release_notes_0.20.md)   [head master](https   *//github.com/FreeCAD/FreeCAD/commits/master)                          
+  1.0       \-             in development   [Release notes 1.0](Release_notes_1.0.md)     [head master](https   *//github.com/FreeCAD/FreeCAD/commits/master)                          
+  0.20      \-             2022-06-14       [Release notes 0.20](Release_notes_0.20.md)   [release commit 0.20](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-20)   [branch bugfixes 0.20](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-20)
   0.19      \-             2021-03-20       [Release notes 0.19](Release_notes_0.19.md)   [release commit 0.19](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)   [branch bugfixes 0.19](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
   0.18      \-             2019-03-12       [Release notes 0.18](Release_notes_0.18.md)   [release commit 0.18](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [branch bugfixes 0.18](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
   0.17      Roland         2018-04-06       [Release notes 0.17](Release_notes_0.17.md)   [release commit 0.17](https   *//github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-17)   [branch bugfixes 0.17](https   *//github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-17)

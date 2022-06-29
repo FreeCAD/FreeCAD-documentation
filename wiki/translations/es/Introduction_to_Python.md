@@ -379,6 +379,9 @@ Ahora que tienes una buena idea de cómo funciona Python, necesitarás saber una
 
 Hasta ahora, hemos escrito las instrucciones de Python línea por línea en el intérprete. Obviamente, este método no es adecuado para programas más grandes. Normalmente el código de los programas Python se almacena en archivos con la extensión **.py**. Los cuales son simplemente archivos de texto plano y cualquier editor de texto (Linux gedit, emacs, vi o incluso el Bloc de notas de Windows) puede ser utilizado para crear y editarlos.
 
+
+<div class="mw-translate-fuzzy">
+
 Hay varias formas de ejecutar un programa Python. En Windows, basta con hacer clic con el botón derecho en el archivo, abrirlo con Python y ejecutarlo. Pero también puedes ejecutarlo desde el propio intérprete de Python. Para ello, el intérprete debe saber dónde está tu programa. En FreeCAD la forma más fácil es colocar tu programa en una carpeta que el intérprete de Python de FreeCAD conozca por defecto, como la carpeta del usuario de FreeCAD **Mod**   *
 
 -   En Linux suele ser **/home/<username>/.FreeCAD/Mod/**.
@@ -386,6 +389,9 @@ Hay varias formas de ejecutar un programa Python. En Windows, basta con hacer cl
 -   En Mac OSX suele ser **/Users/<username>/Library/Preferences/FreeCAD/Mod/**.
 
 Vamos a añadir una subcarpeta allí llamada **scripts** y luego escribir un archivo como este   *
+
+
+</div>
 
 
 ```python

@@ -48,7 +48,7 @@
 
 如有需要，可在下拉字段中定义一个更大的公差值。
 
-Press **Highlight open vertexes** to highlight vertexes that are outside this tolerance.
+Press **Highlight troublesome vertexes** to highlight vertexes that are outside this tolerance.
 
 This tolerance is also used by the **Find**/**Fix** process.
 

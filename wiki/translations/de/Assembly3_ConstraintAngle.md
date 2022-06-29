@@ -20,24 +20,19 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Zwei oder mehr Objekte in einen Zusammenbau einfügen.
 2.  Je ein ebenes Flächenelement oder eine gerade Kante pro Objekt auswählen.
-3.  Schaltfläche**<img src="images/Assembly_ConstraintAngle.svg" width=16px> [WinkelFestlegen](Assembly3_ConstraintAngle/de.md)** drücken.
+3.  Schaltfläche**<img src="images/Assembly_ConstraintAngle.svg" width=16px> WinkelFestlegen** drücken.
+4.  Optional kann der Wert der {{PropertyData/de|Angle}} (Winkel) geändert werden.
 
+## Hinweise
 
-</div>
+2D   * Diese Randbedingung scheint die einzige Möglichkeit zu sein, einen Winkel in einer Skelettskizze zu steuern (2D kinematischer Zusammenbau); Kann das BITTE jemand wiederlegen?
 
-## Notes
+-   Ihre {{PropertyData/de|Angle|Angle}} erlaubt jeden positiven Wert, aber genau 0° und 180° verwirren den Löser.
+-   Die Richtung wird umgekehrt, wenn Winkel größer als 180° angegeben werden und daraus ergibt sich für 135° und 225° die gleiche Position für die beteiligten Elemente.
 
-2D   * This constraint seems to be the only way to control an angle in a skeleton sketch (2D kinematic assembly); Prove me wrong, PLEASE!
-
--   Its **Angle|Angle** property allows any positive value, but 0° and 180° exactly are puzzling the solver.
--   It flips direction if angles greater than 180° are used and as a result 135° and 225° give the same positions for the involved elements.
-
-   *   It is useless if you want to simulate a full rotation and so ruins the principle of using a skeleton sketch for a lot of kinematic tasks such as driving a piston by a rotating crank coupled with a con-rod.
+   *   Sie ist nutzlos, wenn man eine komplette Drehung simulieren möchte und ruiniert so das Prinzip eine Skelettskizze zu verwenden für sehr viele kinematische Anwendungen, wie z. B. einen Kolben mit einer Kurbel, verbunden über ein Pleuel, anzutreiben.
 
 
 

@@ -74,7 +74,7 @@ To wszystko, przy następnym uruchomieniu programu FreeCAD powinno być dostępn
 
 Aby przeprowadzić instalację samodzielnie, pobierz to repozytorium jako ZIP i   *
 
--   Dla Ubuntu, Mint i podobnych OS rozpakuj go wewnątrz folderu   * **/home/username/.FreeCAD/Mod**
+-   Dla Ubuntu, Mint i podobnych OS rozpakuj go wewnątrz folderu   * **/home/username/.local/share/FreeCAD/Mod** (<small>(v0.20)</small> ) lub **/home/username/.FreeCAD/Mod** ({{VersionMinus/pl|0.19}})
 -   Dla Windows rozpakuj go w   * **C   *Users\twoja_nazwa_użytkownika\AppData\Roaming\FreeCAD\Mod**
 
 ## Linki do środowiska pracy Rozłożony Zespół 

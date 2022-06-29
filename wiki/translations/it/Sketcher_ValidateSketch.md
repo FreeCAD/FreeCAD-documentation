@@ -52,7 +52,7 @@ Trova coincidenze mancanti per i vertici sovrapposti e li aggiunge. Premere il p
 
 Se necessario, definire un valore di tolleranza maggiore nel campo a discesa.
 
-Press **Highlight open vertexes** to highlight vertexes that are outside this tolerance.
+Press **Highlight troublesome vertexes** to highlight vertexes that are outside this tolerance.
 
 This tolerance is also used by the **Find**/**Fix** process.
 

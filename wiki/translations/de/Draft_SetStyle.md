@@ -129,11 +129,17 @@ Dieser Befehl ist aktuell in Bearbeitung und sowohl die V0.19- als auch die V0.2
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   Die Einstellungen für **Linienfarbe**, **Linienbreite** und **Formfarbe** werden nicht nur für Draft-Objekte verwendet, sondern auch für Objekte, die mit anderen Arbeitsbereiche erstellt werden.
 -   Stile werden in einer Datei mit festgelegtem Namen gespeichert   * **StylePresets.json**, die im FreeCAD-Benutzer-**Draft**-Verzeichnis abgelegt ist   *
     -   Unter Linux ist es normalerweise **/home/<username>/.FreeCAD/Draft/**.
     -   Unter Windows ist es **%APPDATA%\FreeCAD\Draft\**, normalerweise **C   *Users\<username>\Appdata\Roaming\FreeCAD\Draft\**.
     -   Unter macOS ist es normalerweise **/Users/<username>/Library/Preferences/FreeCAD/Draft/**.
+
+
+</div>
 
 ## Einstellungen
 

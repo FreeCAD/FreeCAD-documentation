@@ -138,7 +138,7 @@ Lo más probable es que tenga una mala configuración regional de Windows. Compr
 Esto también puede ocurrir si tenías una versión anterior de FreeCAD instalada, y actualizaste a una versión más reciente. En ese proceso, los archivos de configuración de FreeCAD podrían haberse corrompido por alguna razón, y ahora FreeCAD no puede leerlos más, y falla al iniciarse. La solución es simplemente borrar estos archivos de configuración, para que FreeCAD los recree en la primera ejecución.
 
 -   On Windows   * Open the file explorer, and write **%APPDATA%\FreeCAD** as the file path. Once there, delete the files **user.cfg** and **system.cfg**
--   On Linux   * Navigate to **/home/USERNAME/.FreeCAD** and delete the files **user.cfg** and **system.cfg**
+-   On Linux   * Navigate to **/home/USERNAME/.local/share/FreeCAD** (<small>(v0.20)</small> ) or **/home/USERNAME/.FreeCAD** ({{VersionMinus|0.19}}) and delete the files **user.cfg** and **system.cfg**
 -   On Mac   * Navigate to **/Users/USERNAME/Library/Preferences/FreeCAD** and delete the files **user.cfg** and **system.cfg**
 
 FreeCAD should now start again normally with all its settings reset.

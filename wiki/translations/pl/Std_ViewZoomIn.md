@@ -1,40 +1,41 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewZoomIn
-   MenuLocation   *View → Zoom → Zoom In
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**+**
-   SeeAlso   *[Std ViewZoomOut](Std_ViewZoomOut.md), [Std ViewBoxZoom](Std_ViewBoxZoom.md)
+   Name/pl   *Std   * Przybliż widok
+   MenuLocation   *Widok → Powiększenie → Przybliż
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **+**
+   SeeAlso   *[Oddal](Std_ViewZoomOut/pl.md), [Powiększ obszar](Std_ViewBoxZoom/pl.md)
 ---
 
 # Std ViewZoomIn/pl
 
-## Description
+## Opis
 
-The **Std ViewZoomIn** command zooms in in the active [3D view](3D_view.md).
+Polecenie **Przybliż** powoduje powiększenie aktywnego widoku w oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Select the **View → Zoom → <img src="images/Std_ViewZoomIn.svg" width=16px> Zoom In** option from the menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**+**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz z menu opcję **Widok → Powiększenie → <img src="images/Std_ViewZoomIn.svg" width=16px> Przybliż**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **+**.
 
-## Notes
+## Uwagi
 
--   It is also possible to zoom with the mouse scroll wheel.
+-   Istnieje również możliwość powiększania / pomniejszenia obrazu za pomocą kółka przewijania myszy.
 
-## Preferences
+## Ustawienia
 
--   The zoom factor can be changed in the preferences   * **Edit → Preferences... → Display → Navigation → Zoom step**. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
+-   Współczynnik powiększenia można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Krok powiększenia**. To ustawienie ma również wpływ na powiększanie za pomocą kółka przewijania. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To zoom in use the `zoomIn` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby powiększyć obraz, użyj metody `zoomIn` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

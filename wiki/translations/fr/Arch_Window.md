@@ -47,7 +47,7 @@ Si vous installez la [Bibliothèques de pièces](Parts_Library_Workbench/fr.md) 
 
 -    **$ROOT_DIR**est le répertoire utilisateur où sont stockés les fichiers de configuration de FreeCAD, les macros, et les ateliers externes. Il peut être trouvé en entrant `FreeCAD.getUserAppDataDir()` dans la [console Python](Python_console/fr.md).
 
-    -   Sous Linux, c\'est généralement **/home/username/.FreeCAD/**
+    -   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
     -   Sous Windows, il s\'agit généralement du fichier **C   *Users\username\Application Data\FreeCAD\**
     -   Sous Mac OSX, il s\'agit généralement de **/Users/username/Library/Preferences/FreeCAD/**
 

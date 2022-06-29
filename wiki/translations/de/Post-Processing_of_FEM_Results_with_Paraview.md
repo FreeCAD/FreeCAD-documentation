@@ -1,4 +1,3 @@
-# Post-Processing of FEM Results with Paraview/de
 ---
 - TutorialInfo   */de
    Topic   * PNachbearbeitung von FEM Ergebnissen mit ParaView
@@ -7,11 +6,29 @@
    Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   * HarryvL]
    FCVersion   *0.19
    Files   *[https   *//forum.freecadweb.org/download/file.php?id=103403 Balken] und [https   *//forum.freecadweb.org/download/file.php?id=103557 Mauer] gefunden in diesem [https   *//forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 FC Forumsbeitrag]
-}}
+---
+
+# Post-Processing of FEM Results with Paraview/de
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
 
 ## Einführung
 
+
+<div class="mw-translate-fuzzy">
+
 Einige Forenbeiträge und Tutorien verwenden Paraview (PV) zur Überprüfung und Analyse von FreeCAD <img alt="" src=images/_Workbench_FEM.svg  style="width   *24px;"> [FEM Arbeitsbereich](FEM_Workbench/de.md) (FEMWB) Ergebnisse. Dieses Tutorial erklärt die Grundlagen des Datentransfers von FEMWB zu PV und zeigt einige der Optionen und Einstellungen für die Anzeige von Daten.
+
+
+</div>
 
 ## Voraussetzungen
 
@@ -20,15 +37,29 @@ Einige Forenbeiträge und Tutorien verwenden Paraview (PV) zur Überprüfung und
     -   Dieses Tutorium basiert auf der Version Paraview 5.8.0 für Windows, die zum Zeitpunkt der Erstellung des Tutoriums die aktuellste Version war.
     -   Die für dieses Tutorial verwendeten FreeCAD Dateien sind in [this](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) und [diesem](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315) FC Forumsbeitrag verfügbar.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Datentransfer vom FEM Arbeitsbereich 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 In der FEMWB hebe das Objekt CCX\_Results hervor. Verwende dann die Menüoption **Datei > Export > FEM Ergebnis VTK (*.vtk *.vtu)**, um die VTK Daten zu exportieren.
 
+
+</div>
+
 ## Datenimport in Paraview 
 
-The start-up screen shows an empty Pipeline Browser. This is where the imported VTK data objects and applied filter objects (for geometry or data) will be visible. <img alt="" src=images/PVPic1.png  style="width   *500px;">
+The start-up screen shows an empty Pipeline Browser. This is where the imported VTK data objects and applied filter objects (for geometry or data) will be visible.
 
-Use menu option **File > Open > *.vtk** to open the VTK file that was generated with FEMWB
+<img alt="" src=images/PVPic1.png  style="width   *500px;">
+
+Use menu option **File > Open > *.vtk** to open the VTK file that was generated with FEM Workbench.
 
 <img alt="" src=images/PVPic2.png  style="width   *500px;">
 
@@ -44,9 +75,15 @@ The gray geometry can be inspected by rotating the view. The left mouse button m
 
 Rather than saving data, Paraview stores the status (state) of the actions performed on the imported VTK object. Therefore, to save your work use menu option **File > Save State**. **NOTE**   * there will be no warning when leaving Paraview to save the state and all work may be lost when exiting the program.
 
-To continue where you left off in the previous session use **File > Load State**. This prompts the user to specify a VTK file, which means that the actions performed in the last session can also be applied to a new VTK file. In this way, data from different FEMWB analyses can be displayed in exactly the same way, without any additional effort.
+To continue where you left off in the previous session use **File > Load State**. This prompts the user to specify a VTK file, which means that the actions performed in the last session can also be applied to a new VTK file. In this way, data from different FEM Workbench analyses can be displayed in exactly the same way, without any additional effort.
+
+
+<div class="mw-translate-fuzzy">
 
 ## Visualisieren der FEM Arbeitsbereich Ergebnisse 
+
+
+</div>
 
 Paraview has many options and settings for displaying results. We will first have a look at displaying base import data on the original geometry and thereafter see how to apply filters to modify the geometry. Finally, we will use the calculator and integration filters to derive new results by combining base import data.
 
@@ -92,9 +129,15 @@ The setting for Color Discretization is useful to limit the number of iso values
 
 <img alt="" src=images/PVPic16.png  style="width   *700px;">
 
+
+<div class="mw-translate-fuzzy">
+
 ## Anwenden von Filtern auf FEM Arbeitsbereich Ergebnissen 
 
-To modify the base data or geometry imported from FEMWB, filters can be applied.
+
+</div>
+
+To modify the base data or geometry imported from FEM Workbench, filters can be applied.
 
 Here only the Slice and Warp filters will be discussed. Filters for creating compound results from base data will be discussed in the next section.
 
@@ -126,11 +169,11 @@ To show the deformed geometry superimposed on the undeformed geometry, simply ma
 
 If we want to know the amount of reinforcement steel in the beam as a whole or the amount passing though a particular cross section we need to perform integration (summation over the geometry) of the base data.
 
-For example, the total volume of reinforcement bars in the beam running in x-direction is obtained from the integral {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}} over the full geometry and the total area of reinforcement steel running though a particular beam cross section is obtained from {{incode   INTEGRATE(ReinforcementRatio_x * dy * dz)}} over a slice.
+For example, the total volume of reinforcement bars in the beam running in x-direction is obtained from the integral `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` over the full geometry and the total area of reinforcement steel running though a particular beam cross section is obtained from `INTEGRATE(ReinforcementRatio_x * dy * dz)` over a slice.
 
 In Paraview, integration can be done with an Integration Filter. This filter can be applied to the entire VTK object (the beam) or to a Slice (the cross section).
 
-NOTE   * due to a mismatch of node ordering between FCFEM and PV, integration over a volume renders negative results, i.e. {{incode   INTEGRATE( 1.0 * dx * dy *dz)}} = - Volume instead of + Volume.
+NOTE   * due to a mismatch of node ordering between FCFEM and PV, integration over a volume renders negative results, i.e. `INTEGRATE( 1.0 * dx * dy *dz)` = - Volume instead of + Volume.
 
 To calculate integrals we need to apply an Integration Filter, which can be found in the menu item Filters \> Alphabetical. Highlight the VTK object and apply the filter.
 
@@ -140,7 +183,7 @@ Press the **Apply** button in the Properties tab and the results will open in a 
 
 <img alt="" src=images/PVPic24.png  style="width   *700px;">
 
-Before we tidy this up to find the desired result, i.e. {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, lets first see how we can control where the window is placed and what it contains.
+Before we tidy this up to find the desired result, i.e. `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, lets first see how we can control where the window is placed and what it contains.
 
 First close the SpreadSheetView window that has opened to the right. Then press the horizontal split icon on the Renderview window and a new window will open with a menu of display options. Before selecting an option, make sure the Integration filter object is highlighted in the Pipeline Browser.
 
@@ -150,7 +193,7 @@ To display numerical results we need to select SpreadSheet View at the bottom of
 
 <img alt="" src=images/PVPic26.png  style="width   *400px;">
 
-To inspect {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}} we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio\_x**.
+To inspect `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio\_x**.
 
 <img alt="" src=images/PVPic27.png  style="width   *300px;"> . <img alt="" src=images/PVPic28.png  style="width   *500px;">
 
@@ -160,7 +203,7 @@ Now we are left with just one value in the table of integration results
 
 As explained before this is the negative value of the integral we are looking for. So the indicative total volume of steel required in x direction is 2.27e+06 mm3 (= 2272 cm3) or 2272 cm3 \* 7.6 g/cm3 = 17267 g (= 17.3 kg). In practice the number will be higher due to practical considerations (e.g. anchoring requirements, minimum reinforcement requirements, etc.). Nevertheless, this result can be used to compare conceptual designs
 
-The above was an example of the integration of a variable directly exported by FEMWB. In some cases we may want to combine VTK variables to obtain new results. This can be done in several ways, but here I will only discuss the simplest, i.e. with the Calculator Filter.
+The above was an example of the integration of a variable directly exported by FEM Workbench. In some cases we may want to combine VTK variables to obtain new results. This can be done in several ways, but here I will only discuss the simplest, i.e. with the Calculator Filter.
 
 For example, if we want to know the total reinforcement requirement in all three coordinate directions we would have to sum ReinforcementRatio\_x, ReinforcementRatio\_y and ReinforcementRatio\_z.
 
@@ -234,7 +277,7 @@ To demonstrate visualisation and integration of results over a line we use the 2
 
 Techniques introduced in previous sections of this tutorial will not be repeated here. It is also important to note again that as more objects are added to the Pipeline Browser and more display windows are open, it becomes increasingly important to ensure that the right object is selected in the Pipeline Browser and the right Window has focus when making changes to the Properties Tab. Otherwise much time can be spent on finding the right property or changes to properties may not seem to take effect.
 
-Starting with the VTK object imported from FEMWB we note that the PV controls operate slightly differently on a 2 dimensional object. The left mouse button drags the geometry and the middle mouse button rotates it. To position the geometry in the plane of analysis (i.e. x-y), press the icon that puts the view along the negative z axis   *
+Starting with the VTK object imported from FEM Workbench, we note that the PV controls operate slightly differently on a 2 dimensional object. The left mouse button drags the geometry and the middle mouse button rotates it. To position the geometry in the plane of analysis (i.e. x-y), press the icon that puts the view along the negative z axis   *
 
 <img alt="" src=images/PVPicLine1.png  style="width   *75px;">
 
@@ -352,8 +395,7 @@ The final result shows the major and minor principal stress vectors superimposed
 
 ## Export grafischer Ergebnisse 
 
-To export a RenderView window highlight the window and use menu option **File > Save Screenshot**  {{FEM Tools navi}} {{Userdocnavi
----
+To export a RenderView window highlight the window and use menu option **File > Save Screenshot**  {{FEM Tools navi}}
 
 
 

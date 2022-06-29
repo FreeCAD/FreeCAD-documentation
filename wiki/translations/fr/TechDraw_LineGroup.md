@@ -8,12 +8,12 @@ Les Groupes de lignes sont utilisés pour contrôler l\'apparence de différents
 ### Utilisation
 
 1.  Allez dans l\'onglet des préférences *[Annotation](TechDraw_Preferences/fr#Annotation.md)*.
-2.  Sélectionnez dans le champ **Line Width Group** un LineGroup. Ce sont les groupes définis dans le fichier csv de définition LineGroup.
+2.  Sélectionnez dans le champ **Epaisseur de la ligne dans le groupe** un groupe de lignes (LineGroup). Ce sont les groupes définis dans le fichier csv de définition des groupes de lignes.
 
 Pour modifier le fichier de définition LineGroups
 
-1.  Allez dans l\'onglet des préférences *[Généralités](TechDraw_Preferences/fr#G.C3.A9n.C3.A9ralit.C3.A9s.md)*.
-2.  Sélectionnez dans le champ **Line Group File** un fichier de définition LineGroup.
+1.  Allez dans l\'onglet des préférences *[Général](TechDraw_Preferences/fr#G.C3.A9n.C3.A9ralit.C3.A9s.md)*.
+2.  Sélectionnez dans le champ **Fichier des groupes de lignes** un fichier de définition de groupe de lignes.
 
 ### Personnaliser les groupes de lignes 
 

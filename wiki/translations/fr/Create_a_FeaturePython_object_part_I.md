@@ -29,7 +29,7 @@ Les classes d\'objets FeaturePython doivent agir comme des modules importables d
 
 Si vous ne savez pas où se trouve le dossier Macro de FreeCAD, tapez `FreeCAD.getUserMacroDir(True)` dans la [console Python](Python_console/fr.md) de FreeCAD    *
 
--   Sous Linux, il s\'agit généralement de **/home/<username>/.FreeCAD/Macro/**.
+-   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
 -   Sous Windows, c\'est **%APPDATA%\FreeCAD\Macro\**, ce qui est généralement **C   *Users\<username>\Appdata\Roaming\FreeCAD\Macro\**.
 -   Sous Mac OSX, il s\'agit généralement de **/Users/<username>/Library/Preferences/FreeCAD/Macro/**.
 

@@ -6,7 +6,7 @@
 |Download=[https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/TimingGear.FCMacro Télécharger ici]
 |Date=2019-12-29
 |Version=1.5.0
-|FCVersion= ?
+|FCVersion=0.18.5
 }}
 
 ## Description
@@ -18,25 +18,26 @@ Le but des engrenages de distribution est de permettre à l\'arbre à cames et a
 Les engrenages de distribution sont connectés à une courroie de distribution ou une chaîne de distribution.
 
 <img alt="" src=images/TimingGear_usage.png  style="width   *600px;"> 
-*Ci-dessus    * Exemple d'utilisation de 2 poulies de distribution créées avec la macro TimingGear. Les deux poulies ont été modifiées pour ajouter des fonctionnalités supplémentaires. Les poulies GT2 entraînent l'axe Z d'une CNC.*
+*Ci-dessus    * Exemple d'utilisation de 2 poulies de distribution créées avec la macro TimingGear. Les deux poulies ont été modifiées pour ajouter des fonctionnalités supplémentaires. Les poulies GT2 entraînent l'axe Z d'une CNC à 3 axes.*
 
 ## Utilisation
 
 +++
-| ![](images/Macro_TimingGear_dialog.png ) | 1.  Lancez la macro dans un document FreeCAD. Rappelez-vous qu\'au moment de l\'installation vous pouvez créer un bouton dans la barre d\'outils Macros pour la lancer. |
-|                                                                | 2.  Dans la boîte de dialogue qui s\'ouvre, choisissez les paramètres de la roue dentée GTx    *                                                                           |
-|                                                                |     -   Sélectionnez le *type d\'engrenage*    * GT2/GT3/GT5.                                                                                                              |
-|                                                                |     -   Spécifiez le *nombre de dents*.                                                                                                                                 |
-|                                                                |     -   Spécifiez la *hauteur de l\'engrenage* en mm.                                                                                                                   |
-|                                                                |     -   Vous pouvez également *ajouter un arbre*, si c\'est le cas choisissez entre les options cercle et hexagone et insérez le diamètre.                              |
-|                                                                |     -   Vous pouvez également ajouter un disque de *base* et un disque *supérieur*, si c\'est le cas, indiquez la hauteur et le diamètre.                               |
-|                                                                | 3.  Cliquez sur le bouton de création et attendez que le corps soit créé.                                                                                               |
-|                                                                | 4.  Une fois le corps terminé, vous pouvez utiliser l\'atelier PartDesign pour ajouter des caractéristiques à l\'engrenage.                                             |
+| ![](images/Macro_TimingGear_dialog.png ) | 1.  Lancez la macro dans un document FreeCAD. Rappelez-vous qu\'au moment de l\'installation vous pouvez créer un bouton dans la barre d\'outils Macros pour la lancer.                                                                                                                                           |
+|                                                                | 2.  Dans la fenêtre de dialogue qui s\'ouvre, choisissez les paramètres de la roue dentée GTx    *                                                                                                                                                                                                                   |
+|                                                                |     -   *type of gear*    * sélectionnez le type d\'engrenage GT2/GT3/GT5, chaque engrenage GTx a un pas de x mm.                                                                                                                                                                                                    |
+|                                                                |     -   *tooth count*, c\'est le nombre de dents de l\'engrenage, il prend une valeur entre 5 et 360.                                                                                                                                                                                                             |
+|                                                                |     -   *gear height*, la hauteur de l\'engrenage en mm.                                                                                                                                                                                                                                                          |
+|                                                                |     -   Optionnellement vous pouvez ajouter un arbre *add a shaft*, cette option crée un trou circulaire ou hexagonal au centre de l\'engrenage utilisé pour insérer un arbre, une vis ou une pièce similaire, si c\'est votre cas choisissez entre cercle/hexagone et spécifiez le diamètre de l\'alésage en mm. |
+|                                                                |     -   Vous pouvez également ajouter un disque de *base* et un disque *supérieur*, avec cette option vous pouvez créer une paire de disques sur les faces inférieures et supérieures de l\'engrenage, c\'est utile pour créer des poulies, si c\'est votre cas insérez la hauteur et le diamètre en mm.          |
+|                                                                | 3.  Cliquez sur le bouton créer et attendez que le corps soit créé.                                                                                                                                                                                                                                               |
+|                                                                | 4.  Une fois le corps terminé, vous pouvez utiliser l\'[atelier PartDesign](PartDesign_Workbench/fr.md) pour ajouter des caractéristiques à l\'engrenage, par exemple un disque supplémentaire et/ou une paire de trous pour placer les vis de réglage.                                                   |
 +++
 
 ## Remarques
 
--   Le pas des courroies de distribution (distance entre les centres des dents consécutives) est spécifié par type. La GT2 a un pas de 2 mm, la GT3 de 3 mm, la GT5 de 5 mm, etc.
+-   Si vous avez besoin de créer une poulie GTx à double tête, vous pouvez créer 2 poulies avec les mêmes paramètres, puis les joindre avec une opération booléenne.
+-   Le pas des courroies dentées (distance entre le centre de la dent et le centre de la dent de dents consécutives) est spécifié en types. La GT2 a un pas de 2 mm, la GT3 de 3 mm, la GT5 de 5 mm, etc.
 
 ## Formules utiles 
 
@@ -45,6 +46,11 @@ Les engrenages de distribution sont connectés à une courroie de distribution o
 -    **longueur de la courroie**= 2 \* **base de l'axe** + **pas de dents de la courroie**    * 2 \* **(dents 1 + 2)** + **pas des dents de la courroie²**    * 4 \* pi² \* **base de l'axe**. \* **(dents 1 - 2)²**
 
 -    **base de l'axe**= **longueur de la courroie**    * 4 - **pas de la courroie**    * 8 \* **(dents 1+2)** + ¼ \* racine carré \[**longueur de la courroie** - ½ \* **pas de dents de la courroie** \* **(dents 1+2)** - 2 \* **pas de dents de la courroie²** \* **(dents 1+2)²**    * pi²\]
+
+## Liens
+
+-   Sujet de discussion du forum    * [GT2, GT3 et GT5 Timing Gear Creator](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35899).
+-   Vous pouvez également créer des engrenages de synchronisation avec la commande [FCGear TimingGear](FCGear_TimingGear/fr.md) à partir de l\'[atelier FCGear](FCGear_Workbench/fr.md) externe .
 
 ## Script
 
@@ -100,9 +106,9 @@ __Version__ = '1.5.0'
 __Date__ = '2019-12-29'
 __License__ = 'LGPL-2.0-or-later'
 __Web__ = 'http   *//www.emilioaguirre.com'
-__Wiki__ = ''
+__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_TimingGear'
 __Icon__ = 'TimingGear.png'
-__Help__ = ''
+__Help__ = 'Click on the TimingGear button/macro, and enter the required data in the dialog window.'
 __Status__ = ''
 __Requires__ = 'FreeCAD ?.??'
 __Communication__ = 'info_at_emilioaguirre.com,https   *//github.com/FreeCAD/FreeCAD-macros/issues   *//forum.freecadweb.org/viewtopic.php?t=35899'

@@ -27,11 +27,11 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> The [OpenSCAD Workbench](OpenSCAD_Workbench.md) for interoperability with OpenSCAD and repairing [constructive solid geometry](constructive_solid_geometry.md) (CSG) model history.
 
--   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> The [Part Workbench](Part_Workbench.md) for working with CAD parts.
+-   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> [ Верстак Part](Part_Workbench/ru.md) для работы с деталями САПР.
 
--   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> The [Part Design Workbench](PartDesign_Workbench.md) for building Part shapes from sketches.
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [ Верстак Part Design](PartDesign_Workbench/ru.md) для построения фигур деталей из эскизов.
 
--   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> The [Path Workbench](Path_Workbench.md) is used to produce G-Code instructions. It is still under development.
+-   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> [Верстак Path](Path_Workbench/ru.md) используется для создания инструкций G-Code. Он всё ещё находится в стадии разработки.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;"> The [Points Workbench](Points_Workbench.md) for working with point clouds.
 
@@ -41,7 +41,7 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;"> The [Robot Workbench](Robot_Workbench.md) for studying robot movements.
 
--   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> The [Sketcher Workbench](Sketcher_Workbench.md) for working with geometry-constrained sketches.
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> [Верстак Sketcher](Sketcher_Workbench/ru.md) для работы с эскизами с геометрическими ограничениями.
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;"> [Верстак Электронных таблиц](Spreadsheet_Workbench/ru.md) для создания и редактирования табличных данных.
 

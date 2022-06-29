@@ -1,11 +1,11 @@
 # Import Export/de
-## Einführung
+## Einleitung
 
-Diese Seite listet die verschiedenen Dateiformate auf, die FreeCAD importieren und exportieren kann. Der Vollständigkeit halber ist das FreeCAD Eigenformat in der Liste enthalten. Einige Formate haben eine zugehörige Wiki Seite, die durch Klicken auf die Erweiterung in der ersten Spalte erreicht werden kann.
+Diese Seite listet die verschiedenen Dateiformate auf, die FreeCAD importieren und exportieren kann. Der Vollständigkeit halber ist FreeCADs eigenes Format in der Liste enthalten. Einige Formate haben eine zugehörige Wiki-Seite, die durch Klicken auf die Erweiterung in der ersten Spalte erreicht werden kann.
 
 ## Verwandt
 
-Siehe die folgenden Seiten fürzusätzliche Information   *
+Siehe die folgenden Seiten für zusätzliche Informationen   *
 
 -   [Import Export Einstellungen](Import_Export_Preferences/de.md)
 -   [FreeCAD Anleitung Import Export](FreeCAD_Howto_Import_Export.md)

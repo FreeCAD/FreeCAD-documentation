@@ -46,9 +46,9 @@ Vous pouvez ensuite consulter le fichier et le comparer à la sortie des postpro
 
 ## Convention de dénomination 
 
-Pour un format de fichier **<filename>**, le postprocesseur doit obtenir le nom **<filename>_post.py**. Veuillez noter que le postfix et l\'extension, **_post.py**, doivent être en minuscules.
+Le postprocesseur peut être installé dans votre répertoire de macros FreeCAD. Pour un préfixe **<filename>**, le postprocesseur doit avoir le nom **<filename>_post.py**. Veuillez noter que le postfixe et l\'extension, **_post.py**, doivent être en minuscules.
 
-The new name should be reflected at the head of the parser arguments list in the **<filename>_post.py** file, e.g.   *
+Le nouveau nom doit être repris en tête de la liste des arguments de l\'analyseur syntaxique dans le fichier **<filename>_post.py**, par exemple    *
 
 
 {{Code|lang=text|code=

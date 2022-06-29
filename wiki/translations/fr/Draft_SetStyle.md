@@ -118,7 +118,7 @@ Notez que plusieurs fonctionnalités ne fonctionnent pas dans la version V0.19 d
 
 -   Les paramètres **Couleur de ligne**, **Largeur de ligne** et **Couleur de la forme** ne sont pas seulement utilisés pour les objets Draft, mais aussi pour les objets créés avec d\'autres ateliers.
 -   Les styles sont enregistrés dans un fichier au nom fixe    * **StylePresets.json** stocké dans le dossier utilisateur de FreeCAD **Draft**    *
-    -   Sous Linux, il s\'agit généralement de **/home/<username>/.FreeCAD/Draft/**.
+    -   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
     -   Sous Windows, il s\'agit du dossier **%APPDATA%\FreeCAD\\Draft**, qui est généralement sous **C   *Users\<username>\Appdata\Roaming\FreeCAD\Draft**.
     -   Sous macOS, il s\'agit généralement de **/Users/<username>/Library/Preferences/FreeCAD/Draft/**.
 

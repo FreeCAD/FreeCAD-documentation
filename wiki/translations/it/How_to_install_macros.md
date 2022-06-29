@@ -1,5 +1,12 @@
 ---
-- TutorialInfo   */it   Topic   *Programmazione e Configurazione   Level   *Medio   Time   *15 minuti   FCVersion   *Tutte   Author   *[[User   *Mario52   Mario52]]}}
+- TutorialInfo   */it   Topic   *Programmazione e Configurazione   Level   *Medio   Time   *15 minuti   FCVersion   *Tutte   Author   *[Mario52](User_Mario52.md)
+---
+
+# How to install macros/it
+
+
+
+
 
 ## Descrizione
 
@@ -7,13 +14,18 @@ Dalla v0.17 è facile aggiungere le macro usando [Addon Manager](Std_AddonMgr/it
 
 Le macro sono sequenze di comandi che vengono utilizzati per eseguire un\'operazione complessa. Le macro sono degli script [Python](Python/it.md), il che significa che sono file di testo che possono essere scritti e modificati con un editor di testo.
 
-Sebbene gli script Python abbiano normalmente l\'estensione {{incode   .py}}, le macro di FreeCAD dovrebbero avere l\'estensione {{incode   .FCMacro}}. Una raccolta di macro scritte da utenti esperti si trova nella pagina [Raccolta di macro](macros_recipes/it.md).
+Sebbene gli script Python abbiano normalmente l\'estensione `.py`, le macro di FreeCAD dovrebbero avere l\'estensione `.FCMacro`. Una raccolta di macro scritte da utenti esperti si trova nella pagina [Raccolta di macro](macros_recipes/it.md).
 
 Vedere la pagina [Introduzione a Python](Introduction_to_Python/it.md) per conoscere il linguaggio di programmazione Python e poi le pagine [Guida agli script Python](Python_scripting_tutorial/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md) per imparare a scrivere delle macro.
 
 Questo è un video su come [installare le macro in FreeCAD in Ubuntu](https   *//wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
 ## Il menu Macro e i suoi strumenti 
+
+### Toolbar
+
+
+<div class="mw-translate-fuzzy">
 
 ###### Barra degli strumenti 
 
@@ -22,7 +34,15 @@ Questo è un video su come [installare le macro in FreeCAD in Ubuntu](https   */
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *32px;"> [Macro\...](Std_DlgMacroExecute/it.md)
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *32px;"> [Esegui la macro](Std_DlgMacroExecuteDirect/it.md)
 
+
+</div>
+
 ### Menu
+
+
+<div class="mw-translate-fuzzy">
+
+### Menu 
 
 Oltre agli strumenti nella barra degli strumenti, nel menu **Macro** sono disponibili anche le seguenti funzioni.
 
@@ -32,6 +52,9 @@ Oltre agli strumenti nella barra degli strumenti, nel menu **Macro** sono dispon
 -   [Passo succesivo](Std_MacroStepOver/it.md)
 -   [Un passo](Std_MacroStepInto/it.md)
 -   [Attiva/Disattiva punto di interruzione](Std_ToggleBreakpoint/it.md)
+
+
+</div>
 
 ## Directory delle macro 
 
@@ -45,18 +68,23 @@ Anche le macro scaricate dovrebbero essere collocate in questa directory.
 
 <div class="mw-collapsible-content">
 
+### Default directory 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Directory di default 
 
 Le macro possono essere semplicemente copiate in
 
 
-{{Code   code   *
+</div>
+
+
+```python
 $ROOT_DIR/
----
+```
 
-# How to install macros/it
-
- 
 dove `$ROOT_DIR` è una directory di primo livello ricercata da FreeCAD all\'avvio.
 
 La `$ROOT_DIR` può essere una directory di sistema, nel qual caso la macro viene installata per tutti gli utenti.
@@ -65,24 +93,44 @@ La `$ROOT_DIR` può essere una directory di sistema, nel qual caso la macro vien
 -   Di solito in Windows è `C   *Program Files\FreeCAD\`
 -   Di solito in Mac OSX è `/Applications/FreeCAD/`
 
+
+<div class="mw-translate-fuzzy">
+
 La `$ROOT_DIR` può essere la directory di un utente particolare.
 
 -   Su Linux di solito è `/home/username/.FreeCAD/`
 -   Su Windows di solito è `C   *Users\username\Application Data\FreeCAD\`
 -   Su Mac OSX di solito è `/Users/username/Library/Preferences/FreeCAD/`
 
+
+</div>
+
+### Configuring the user directory 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Configurazione della directory utente 
 
 1\. Aprire il menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macro...](Std_DlgMacroExecute/it.md)** per aprire la finestra di dialogo [Esegui la macro](Std_DlgMacroExecute/it.md).
 
+
+</div>
+
 ![](images/Dxf_Importer_Install_01.png ) 
 *align=center|Apertura della finestra di dialogo Esegui la macro*
+
+
+<div class="mw-translate-fuzzy">
 
 2\. Impostare l\'appropriata `Posizione delle macro utente`.
 
 -   Linux   * generalmente `/home/username/.FreeCAD/`
 -   Windows   * generalmente `C   *Users\username\AppData\Roaming\FreeCAD\`
 -   MacOS   * generalmente `/Users/username/Library/Preferences/FreeCAD/`
+
+
+</div>
 
 ![](images/Dxf_Importer_Install_02.png ) 
 *align=center|Impostazione della directory delle macro*
@@ -428,9 +476,17 @@ Se non viene visualizzata alcuna informazione, assicurarsi che la vista report e
 
 <div class="mw-collapsible-content">
 
+#### Printing information 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Visualizzare le informazioni 
 
 Le macro di FreeCAD hanno due metodi per stampare le informazioni nella vista report.
+
+
+</div>
 
 Le funzioni di FreeCAD
 
@@ -448,9 +504,17 @@ La semplice funzione Python
 print("Hello World!")
 ```
 
+#### Enabling the report view 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Abilitare la vista report 
 
 Per vedere le informazioni visualizzate nella console è necessario   *
+
+
+</div>
 
 1\. Andare nel menu **Visualizza → Pannelli**.
 
@@ -469,9 +533,17 @@ Per vedere le informazioni visualizzate nella console è necessario   *
 ![](images/Macro_Install_HowTo_34.png ) 
 *align=center|Finestra principale di FreeCAD con la vista Report e la console Python*
 
+#### Enabling the print() command 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Abilitare il comando print() 
 
 Potrebbe essere necessario configurare FreeCAD in modo che la funzione `print()` di [Python](Python/it.md) reindirizzi correttamente il suo output alla vista Report.
+
+
+</div>
 
 1\. Andare nell\'[editor delle preferenze](Preferences_Editor/it.md) con il menu **Modifica → Preferenze**.
 
@@ -504,7 +576,7 @@ e poi cliccare sul pulsante **OK**
 </div>
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 

@@ -1,4 +1,8 @@
 # Start up and Configuration/es
+**In FreeCAD version 0.20 the default location of the program's configuration, data and cache files was changed for Linux.<br>
+See [Release notes 0.20](Release_notes_0.20#Core.md) for more information. This page has not yet been updated accordingly.**
+
+
 {{TOCright}}
 
 ## Overview

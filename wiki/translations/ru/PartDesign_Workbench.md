@@ -85,9 +85,9 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 Это инструменты для создания базовых элементов или добавления материала к существующему твердому телу.
 
--   <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> [Выдавить эскиз](PartDesign_Pad/ru.md)   * выдавливает форму из выбранного эскиза.
+-   <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> [Выдавливание](PartDesign_Pad/ru.md)   * выдавливает твёрдое тело из выбранного эскиза.
 
--   <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> [Фигура вращения](PartDesign_Revolution/ru.md)   * создает фигуру вращения, \"выдавливая\" эскиз вокруг оси. Контур эскиза должен быть замкнутым.
+-   <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> [Вращение](PartDesign_Revolution/ru.md)   * создаёт твёрдое тело, поворачивая эскиз вокруг оси. Контур эскиза должен быть замкнутым.
 
 -   <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width   *32px;"> [Аддитивный профиль](PartDesign_AdditiveLoft/ru.md)   * создает переходную форму, между двумя и более переходными контурами.
 

@@ -2,7 +2,7 @@
 - TutorialInfo   */fr
    Topic   * Analyse par les éléments finis
    Level   *Débutant
-   Time   *
+   Time   *Non donné
    Author   *[https   *//wiki.freecadweb.org/User   *Sudhanshu_Dubey Sudhanshu Dubey]
    FCVersion   *0.19 et au-dessus
    Files   *
@@ -16,7 +16,7 @@
 
 ## Introduction
 
-Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, en utilisant les nouveaux [FEM Exemples](FEM_Examples/fr.md). Ce tutoriel illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [FEM Solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md).
+Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, en utilisant les nouveaux [FEM Exemples](FEM_Examples/fr.md). Ce tutoriel illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [FEM Solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant [FEM Filtre de découpe selon une région](FEM_PostFilterClipRegion/fr.md).
 
 <img alt="" src=images/Two_balls_result_2.png  style="width   *1200px;">
 

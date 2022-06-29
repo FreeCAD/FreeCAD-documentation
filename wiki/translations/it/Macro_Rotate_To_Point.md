@@ -39,7 +39,7 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 </div>
 
-![Interface Rotate to point ](images/Macro_Rotate_To_Point_00.png ) 
+![Interface Rotate to point](images/Macro_Rotate_To_Point_00.png ) 
 
 ### Point Rotation 
 
@@ -110,6 +110,9 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 ### Command
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Quit**   * chiude la macro
 
 -    **Original**   * dopo aver modificato i dati dell\'oggetto puoi tornare alla posizione originale, se non hai deselezionato l\'oggetto corrente.
@@ -117,6 +120,9 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 -    **0,0,0**   * questa opzione posiziona l\'oggetto nella coordinata di base ` 0, 0, 0`
 
 -    **Reset**   * reimposta i dati nella macro e deseleziona l\'oggetto corrente (stesso clic del mouse nella [vista 3D](3D_view/it.md))
+
+
+</div>
 
 ## Script
 
@@ -2957,13 +2963,27 @@ if __name__ == "__main__"   *
     MainWindow.show()
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ## Esempi
+
+
+</div>
 
 ![](images/Macro_Rotate_To_Point_01.gif )
 
 ## Link
 
-The forum [feature req   * placement - rotate part around its midpoint](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=20925) Le mie macro su Gist [mario52a](https   *//gist.github.com/mario52a)
+The forum [feature req   * placement - rotate part around its midpoint](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=20925)
+
+
+<div class="mw-translate-fuzzy">
+
+Le mie macro su Gist [mario52a](https   *//gist.github.com/mario52a)
+
+
+</div>
 
 ## Versione
 

@@ -29,11 +29,17 @@ Le versioni precedenti possono essere scaricate dalla pagina di [rilascio](https
 | [64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-WIN-x64-installer-1.exe) (includes installer) |   | [macOS 64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-OSX-i386.dmg) |   | [AppImage 64-bit](AppImage.md)             |
 ++---++---++
 
+
+<div class="mw-translate-fuzzy">
+
 ### Note per gli utenti di Windows 
 
 -   Le seguenti versioni di Windows sono supportate   *7/8/10/11.
 -   Una versione portatile che non necessita di installazione si trova nella pagina di [rilascio](https   *//github.com/FreeCAD/FreeCAD/releases/).
 -   Il pacchetto può anche essere installato dal gestore [Chocolatey](https   *//chocolatey.org/packages/freecad).
+
+
+</div>
 
 ### Note per gli utenti di Mac 
 

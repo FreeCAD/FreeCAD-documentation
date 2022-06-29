@@ -1,21 +1,9 @@
 # Release notes 0.20/de
 {{TOCright}}
 
+**FreeCAD 0.20** wurde am **14 Jun1 2022** veröffentlicht, es kann von der [Download](Download/de.md)-Seite heruntergeladen werden. Diese Seite listet alle Neuerungen und Änderungen auf.
 
-<div class="mw-translate-fuzzy">
-
-**FreeCAD 0.19** wurde veröffentlicht auf *\'DD Month 202x*, hole es von der [Herunterladen](Download/de.md) Seite. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die vollständige Liste der Änderungen kann im [MantisBT bugtracker FC 0.20 Änderungsprotokoll](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=78) eingesehen werden.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ältere FreeCAD Versionshinweise findest du unter [Funktionsübersicht](Feature_list/de#Versionshinweise.md).
-
-
-</div>
+Ältere FreeCAD-Versionshinweise findet man unter der [Funktionsübersicht](Feature_list/de#Versionshinweise.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -532,7 +520,7 @@ The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements   
 
 ### Plot
 
--   The [Plot module](Plot_Workbench.md) has been stripped from the workbench since it is now provided by FreeCAD.
+-   The Plot module has been stripped from the [Plot Workbench](Plot_Workbench.md) since it is now provided by FreeCAD.
 
 ### Ship
 

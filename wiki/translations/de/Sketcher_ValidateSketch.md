@@ -44,7 +44,13 @@ Findet fehlende Deckungsgleichheit für überlappende Knoten und fügt sie hinzu
 
 Lege bei Bedarf einen größeren Toleranzwert im Aufklappfeld fest.
 
+
+<div class="mw-translate-fuzzy">
+
 Drücke **Offene Knoten markieren**, um Knoten zu markieren, die außerhalb dieser Toleranz liegen.
+
+
+</div>
 
 Diese Toleranz wird auch von dem Prozess **Find**/**Fix** verwendet.
 
@@ -56,7 +62,13 @@ Prüft auf fehlerhafte Beschränkungen.
 
 Gibt es beispielsweise eine Kreis-Linie-Tangente Beschränkung, die sich aber auf zwei Linien bezieht, wird sie als ungültig betrachtet.
 
+
+<div class="mw-translate-fuzzy">
+
 (Dies geschieht manchmal aufgrund des [Topologisches Benennungsproblems](Topological_naming_problem/de.md), d.h. die äußere Geometrie ändert den Typ).
+
+
+</div>
 
 Es führt auch andere Prüfungen durch, z. B. auf leere Verweise.
 

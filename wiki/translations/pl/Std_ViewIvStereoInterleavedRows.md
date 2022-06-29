@@ -1,33 +1,34 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewIvStereoInterleavedRows
-   MenuLocation   *View → Stereo → Stereo interleaved Rows
-   Workbenches   *All
-   SeeAlso   *[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff.md)
+   Name/pl   *Std   * Widok stereo z przeplotem wierszy
+   MenuLocation   *Widok → Widok trójwymiarowy → Widok z przeplotem wierszy
+   Workbenches   *wszystkie
+   SeeAlso   *[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl.md),  [Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
 ---
 
 # Std ViewIvStereoInterleavedRows/pl
 
-## Description
+## Opis
 
-The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_view.md) to interleaved rows stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https   *//en.wikipedia.org/wiki/Polarized_3D_system) are requires.
+Polecenie **Widok stereo z przeplotem wierszy** zmienia aktywny [widok 3D](3D_view/pl.md) na tryb widoku stereo z przeplotem wierszy. Do korzystania z tego trybu stereo wymagana jest specjalna karta graficzna, specjalny monitor i [okulary z polaryzacją](https   *//en.wikipedia.org/wiki/Active_shutter_3D_system).
 
-## Usage
+## Użycie
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoInterleavedRows.svg" width=16px> Stereo interleaved Rows** option from the menu.
+1.  Wybierz z menu opcję **Widok → Widok trójwymiarowy → <img src="images/Std_ViewIvStereoInterleavedRows.svg" width=16px> Widok stereo z przeplotem wierszy**.
 
-## Preferences
+## Ustawienia
 
--   The eye to eye distance can be changed in the preferences   * **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Odległość między oczami można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the view to interleaved rows stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok stereo z przeplotem wireszy, należy użyć metody `setStereoType` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

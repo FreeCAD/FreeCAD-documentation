@@ -10,7 +10,13 @@
 
 AnwendungsAbbild ist ein \"universelles Binärpaket\", das dazu bestimmt ist, eine Anwendung an jede beliebige Linux Distribution zu verteilen. Lies mehr darüber auf der [Appimage Homepage](https   *//appimage.org) und [Wikipedia](https   *//en.wikipedia.org/wiki/AppImage).
 
+
+<div class="mw-translate-fuzzy">
+
 Um es auszuführen, mache es zunächst ausführbar und gib dann den relativen oder vollständigen Pfad ein.
+
+
+</div>
 
 
 ```python

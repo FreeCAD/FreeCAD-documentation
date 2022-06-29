@@ -5,19 +5,35 @@
 
 LinienGruppen werden verwendet, um das Aussehen verschiedener Arten von Linien zu steuern.
 
+### Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ### Anwendung
 
 1.  Gehe auf den Einstellungen Reiter *[Anmerkung](TechDraw_Preferences/de#Anmerkung.md)*.
 2.  Wähle im Feld **Linienbreitengruppe** eine LinienGruppe aus. Dies sind die Gruppen, die in der LinienGruppen Definition csv Datei definiert sind.
+
+
+</div>
 
 Zum ändern der LinienGruppen-Definitionsdatei
 
 1.  Gehe auf den Einstellungsreiter *[Allgemein](TechDraw_Preferences/de#Allgemein.md)*.
 2.  Wähle im Feld **Linien Gruppen Datei** eine LinienGrupppen Definitionsdatei aus.
 
+### Customizing LineGroups 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Anpassen von LinienGruppen 
 
 Wenn du Schreibberechtigung hast, kannst du `LineGroup.csv` bearbeiten, um deine eigenen LinienGruppen hinzuzufügen.
+
+
+</div>
 
 Diese Datei ist normalerweise in   *
 

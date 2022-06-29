@@ -267,11 +267,17 @@ Die TechDraw Werkzeuge können in [Makros](macros/de.md) oder aus der [Python](P
 
 ## Tutorien
 
+
+<div class="mw-translate-fuzzy">
+
 -   [TechDraw Grundlagentutorium](Basic_TechDraw_Tutorial/de.md)   * Einführung in die Zeichnungserstellung mit dem TechDraw Arbeitsbereich.
 -   [Erstellen einer neuen Vorlage](TechDraw_TemplateHowTo/de.md)   * Anweisungen in die Erstellung einer neuen Seitenvorlage in Inkscape zur Benutzung mit dem TechDraw Arbeitsbereich.
 -   [Winkelbemaßung an Bohrungen](Measurement_Of_Angles_On_Holes/de.md)   * Anweisungen zum Hinzufügen von Mittellinien und nachfolgenden Winkeldarstellungen auf Bohrungen.
 -   [Verschiedenes](TechDraw_HowTo_Page/de.md)   * Anweisungen für verschiedene Einstellungen wie Mittelpunktsmarkierungen usw.
 -   [Erstellen eines Teilkreises](TechDraw_Pitch_Circle_Tutorial.md)   * Anweisungen zum Hinzufügen eines Teilkreises.
+
+
+</div>
 
 Video Tutorien von sliptonic
 

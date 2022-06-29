@@ -59,7 +59,7 @@ Un plantage peut indiquer un bogue plus grave ou un problème dans votre configu
 
 C\'est une cause très courante du problème. Les symptômes sont simplement que FreeCAD se bloque au démarrage, ou chaque fois que vous ouvrez une vue 3D (par exemple en créant un nouveau document). Essayez de découvrir quelle est votre puce graphique, puis découvrez si elle prend en charge [OpenGL](https   *//fr.wikipedia.org/wiki/OpenGL) (les puces les plus récentes le font), puis trouvez le pilote approprié et installez-le. Un bon moyen de vérifier si OpenGL est disponible est d\'essayer d\'exécuter une autre application OpenGL telle que [blender](http   *//www.blender.org).
 
-Et comme astuce générale pour obtenir plus d\'informations sur les plantages avec FreeCAD, vous pouvez le démarrer avec le paramètre de programme {{SystemInput|--write-log}}. Cela créera le fichier **FreeCAD.log** dans **$HOME/.FreeCAD** sur Linux ou **$HOME/Library/Preferences/FreeCAD** sur macOS ou **%APPDATA%/FreeCAD** sur les systèmes Windows.
+Et comme astuce générale pour obtenir plus d\'informations sur les plantages avec FreeCAD, vous pouvez le démarrer avec le paramètre de programme {{SystemInput|--write-log}}. Cela créera le fichier **FreeCAD.log** dans **$XDG_CONFIG_HOME/FreeCAD** (<small>(v0.20)</small> ) ou **$HOME/.FreeCAD** ({{VersionMinus/fr|0.19}}) sur Linux, ou **$HOME/Library/Preferences/FreeCAD** sur macOS, ou **%APPDATA%/FreeCAD** sur les systèmes Windows.
 
 Dans certains cas rares, vous pouvez avoir un pilote graphique installé qui ne correspond pas à votre carte graphique. Nous avons eu un cas où l\'ordinateur portable de l\'utilisateur avait un graphique Intel intégré, mais certains pilotes ATI ont été installés. [1](http   *//forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042) Après avoir supprimé les fichiers et réinstallé le pilote correct, FreeCAD a commencé à fonctionner.
 
@@ -110,7 +110,7 @@ Vous avez probablement une mauvaise configuration des paramètres régionaux de 
 Cela peut également se produire si vous aviez une ancienne version de FreeCAD installée et que vous êtes passé à une version plus récente. Dans ce processus, les fichiers de configuration de FreeCAD ont peut-être été corrompus pour une raison quelconque, et maintenant FreeCAD ne peut plus les lire et ne parvient pas à démarrer. La solution consiste simplement à supprimer ces fichiers de configuration, afin que FreeCAD les recrée lors de la première exécution.
 
 -   sur Windows    * Ouvrez le gestionnaire de fichiers et saisir **%APPDATA%\FreeCAD** dans le chemin de fichiers. Ensuite supprimer les fichiers **user.cfg** et **system.cfg**.
--   sur Linux    * Naviguez jusqu\'à **/home/USERNAME/.FreeCAD** et supprimer les fichiers **user.cfg** et **system.cfg**.
+-   sur Linux    * Naviguez jusqu\'à **/home/USERNAME/.local/share/FreeCAD** ({{VersionPlus/fr|0.20}}) ou **/home/USERNAME/.FreeCAD** ({{VersionMinus/fr|0.19}}) et supprimer les fichiers **user.cfg** et **system.cfg**.
 -   sur Mac    * Naviguez jusqu\'à **/Users/USERNAME/Library/Preferences/FreeCAD**et supprimer les fichiers **user.cfg** et **system.cfg**.
 
 FreeCAD devrait maintenant redémarrer normalement avec tous ses paramètres réinitialisés.

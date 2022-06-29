@@ -85,9 +85,21 @@ The Sketch can now be padded <img alt="" src=images/PartDesign_Pad.svg  style="w
 
 Let\'s make the next sketch, it\'s not really important which one we choose, but the easiest one is the 20x20 isosceles triangle that pockets through the length of the block.
 
+
+<div id="CA1">
+
+
+</div>
+
 Make a new sketch, choose whichever plane you like (we\'re going to change its attachment anyway.)
 
-Draw the triangle, make two sides equal and constrain the length the same way as you did the Pad Length only this time make the formula \"**Sketch.Constraints.width/2**\".
+
+<div id="CA2">
+
+
+</div>
+
+Draw the triangle, make two sides equal and constrain it\'s length the same way as you did the Pad Length, only this time make the formula \"**Sketch.Constraints.width/2**\".
 
 There should be two degrees of freedom remaining, they are the position with regards to the origin. Fix one of the corners to the origin so that the sketch looks thus   *-
 
@@ -97,7 +109,7 @@ There should be two degrees of freedom remaining, they are the position with reg
 
 ### Changing Attachment 
 
-Close the sketch. Rename the sketch, call it \'IsoscelesSketch\'. The origin of the sketch is the point that will be attached in the future, so choosing how the sketch is constrained to the origin is important. The origin can be thought of as hook that catches onto the reference. We can adjust the position of the sketch using offsets, but it is better to choose wisely in the first place.
+Close the sketch. Rename the sketch, call it \'IsoscelesSketch\'. The origin of the sketch is the point that will be attached in the future, so choosing how the sketch is constrained to the origin is important. The origin can be thought of as a hook that catches onto the reference. We can adjust the position of the sketch using offsets, but it is better to choose wisely in the first place.
 
 Now we are going to change the attachment mode of the sketch in our model.
 
@@ -145,7 +157,7 @@ At this point you could make another selection, and see the difference in modes.
 
 The IsoscelesSketch is now correctly positioned so confirm and exit the dialogue.
 
-You can now pocket the sketch.
+You can now [Pocket](PartDesign_Pocket.md) the sketch.
 
 ![centre\|Pocket](images/Pocket.png )
 

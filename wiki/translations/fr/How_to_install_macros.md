@@ -5,7 +5,13 @@
    Time   *15 minutes
    FCVersion   *Toutes versions
    Author   *[Mario52](User_Mario52.md)
-}}
+---
+
+# How to install macros/fr
+
+
+
+
 
 ## Description
 
@@ -13,7 +19,7 @@ Depuis la v0.17, il est facile d\'ajouter des macros en utilisant le [Gestionnai
 
 Les macros sont des séquences de commandes utilisées pour effectuer une opération de dessin complexe. Les macros sont des scripts en [Python](Python/fr.md), ce qui signifie qu\'il s\'agit de fichiers texte pouvant être écrits et modifiés à l\'aide d\'un éditeur de texte.
 
-Alors que les scripts Python ont normalement pour extension {{incode   .py}}, les macros FreeCAD doivent avoir comme extension {{incode   .FCMacro}}. Une collection de macros écrites par des utilisateurs expérimentés se trouve dans la page [Macros](macros_recipes/fr.md).
+Alors que les scripts Python ont normalement pour extension `.py`, les macros FreeCAD doivent avoir comme extension `.FCMacro`. Une collection de macros écrites par des utilisateurs expérimentés se trouve dans la page [Macros](macros_recipes/fr.md).
 
 Voir [Introduction à Python](Introduction_to_Python/fr.md) pour en savoir plus sur le langage de programmation Python, puis sur [Tutoriel sur les scripts Python](Python_scripting_tutorial/fr.md) et sur [principes de base des scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md) pour lancer la création de scripts dans FreeCAD.
 
@@ -32,7 +38,7 @@ Ici une video sur l\'installation [installing FreeCAD macros in Ubuntu](https   
 
 Outre les outils de la barre d\'outils, les fonctions suivantes sont également disponibles dans le menu **Macro**.
 
--   [Attach to remote debugger\...](Std_MacroAttachDebugger/fr.md)
+-   [Attacher au débogueur distant\...](Std_MacroAttachDebugger/fr.md)
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width   *32px;"> [Déboguer la macro](Std_MacroStartDebug/fr.md)
 -   <img alt="" src=images/Std_MacroStopDebug.svg  style="width   *32px;"> [Arrêter le débogage](Std_MacroStopDebug/fr.md)
 -   [Passer outre](Std_MacroStepOver/fr.md)
@@ -56,13 +62,10 @@ Les macros téléchargées doivent également être placées dans ce répertoire
 Les macros peuvent être simplement copiées dans
 
 
-{{Code   code   *
+```python
 $ROOT_DIR/
----
+```
 
-# How to install macros/fr
-
- 
 où `$ROOT_DIR` est un des premiers répertoire recherché par FreeCAD au démarrage.
 
 Le `$ROOT_DIR` pourrait être un répertoire système, auquel cas la macro est installée pour tous les utilisateurs.
@@ -73,8 +76,8 @@ Le `$ROOT_DIR` pourrait être un répertoire système, auquel cas la macro est i
 
 Le `$ROOT_DIR` pourrait être le répertoire d\'un utilisateur particulier.
 
--   Sous Linux, il s'agit généralement de `/home/username/.FreeCAD/`.
--   Sous Windows, il s'agit généralement de `C   *Users\username\Application Data\FreeCAD\`.
+-   Sous Linux, il s'agit généralement de `/home/username/.local/share/FreeCAD/` ({{VersionPlus/fr|0.20}}) ou `/home/username/.FreeCAD/` ({{VersionMinus/fr|0.19}}).
+-   Sous Windows, il s'agit généralement de `C   *Users\username\AppData\FreeCAD\`
 -   Sous Mac OSX, il s'agit généralement de `/Users/username/Library/Preferences/FreeCAD/`.
 
 ### Configuration du répertoire utilisateur 
@@ -86,7 +89,7 @@ Le `$ROOT_DIR` pourrait être le répertoire d\'un utilisateur particulier.
 
 2\. Définissez l\'emplacement `User macros location` approprié.
 
--   Linux   * généralement `/home/username/.FreeCAD/`.
+-   Linux   * généralement `/home/username/.local/share/FreeCAD/` ({{VersionPlus/fr|0.20}}) ou `/home/username/.FreeCAD/` ({{VersionMinus/fr|0.19}})
 -   Windows   * généralement `C   *Users\username\AppData\Roaming\FreeCAD\`.
 -   MacOS   * généralement `/Users/username/Library/Preferences/FreeCAD/`.
 
@@ -155,7 +158,7 @@ Pour les macros relativement petites, 300 lignes ou moins, le code peut être co
 
 <div class="mw-collapsible-content">
 
-Nous utiliserons <img alt="" src=images/Part_Prism_Apothem.svg  style="width   *24px;"> [Macro Apothem Based Prism GUI](Macro_Apothem_Based_Prism_GUI.md) par exemple.
+Nous utiliserons <img alt="" src=images/Part_Prism_Apothem.svg  style="width   *24px;"> [Macro Apothem Based Prism GUI](Macro_Apothem_Based_Prism_GUI/fr.md) par exemple.
 
 1\. Allez sur la page wiki macro qui devrait être présente dans la liste [Macros](Macros_recipes/fr.md).
 
@@ -246,7 +249,7 @@ Certaines macros sont trop importantes pour être copier-coller dans l\'éditeur
 
 <div class="mw-collapsible-content">
 
-Nous utiliserons <img alt="" src=images/Text-x-python.png  style="width   *24px;"> [Macro screw maker](Macro_screw_maker1_2.md) par exemple.
+Nous utiliserons <img alt="" src=images/Text-x-python.png  style="width   *24px;"> [Macro screw maker](Macro_screw_maker1_2/fr.md) par exemple.
 
 1\. Téléchargez le code compressé à partir du forum,[Screw Maker](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887).
 
@@ -435,9 +438,9 @@ Si aucune information n\'est affichée, assurez-vous que la vue du rapport et la
 
 <div class="mw-collapsible-content">
 
-#### Informations sur l\'impression 
+#### Informations sur l\'affichage 
 
-Les macros FreeCAD ont deux méthodes pour imprimer des informations dans la vue du rapport.
+Les macros FreeCAD ont deux méthodes pour afficher des informations dans la vue rapport.
 
 Les fonctions FreeCAD
 
@@ -455,7 +458,7 @@ La simple fonction Python
 print("Hello World!")
 ```
 
-#### Activer l\'affichage du rapport 
+#### Activer la vue rapport 
 
 Pour voir les informations affichées dans la console, vous devez   *
 
@@ -513,7 +516,7 @@ et validez en cliquant sur le bouton **OK**.
 </div>
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 

@@ -3,30 +3,24 @@
 
 ## Overview
 
+Os **estilos de navegação** do FreeCAD consistem nos comandos usados para navegar visualmente no espaço 3D e interagir com os objetos mostrados. O FreeCAD suporta múltiplos estilos de navegação. O predefinido é o chamado [Navegação CAD](#CAD_navigation.md), e é muito simples e prático, mas o FreeCAD também disponibiliza estilos de navegação alternativos, que pode escolher de acordo com as suas preferências. O estilo escolhido fica activado para todas as Bancadas de trabalho.
 
-<div class="mw-translate-fuzzy">
+Para mais informação sobre selecção de objectos ver [Métodos de selecção](Selection_methods/pt.md).
 
-Os **estilos de navegação** do FreeCAD consistem nos comandos usados para navegar visualmente no espaço 3D e interagir com os objetos mostrados. O FreeCAD suporta multiplos estilos de navegação. O predefinido é o chamado \"Navegação CAD\", e é muito simples e prático, mas o FreeCAD também disponibiliza estilos de navegação alternativos, que pode escolher de acordo com as suas preferências.
+Para mais informação sobre manipulação de objectos ver [Std TransformManip](Std_TransformManip/pt.md).
 
+## Seleccionar uma forma de navegação 
 
-</div>
+1.  Escolher de entre os seguintes passos   *
+    -   Clicar no **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** botão na [Barra de estado](Status_bar/pt.md).
+    -   Clicar com o lado direito do rato numa zona vazia na [Vista 3D](3D_view/pt.md), e seleccionar **Navigation styles** a partir do Menu de contexto.
+    -   Usar o [Editor de preferências](Preferences_Editor/pt#Navigation.md). No menu seleccione **Edit → Preferences** e depois **Display → Navigation → 3D Navigation**.
+2.  Seleccione um dos estilos da lista.
+3.  Opcionalmente mudar o **Orbit style**   * clicar no **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** botão na [Barra de estado](Status_bar/pt.md) e depois escolher **Settings → Orbit style**. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
+4.  Opcionalmente mudar o **Rotation mode**. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
+5.  Se o **CAD** estilo de navegação está seleccionado   * opcionalmente mudar a **Enable animation** definição. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
 
-For more information about selecting objects see [Selection methods](Selection_methods.md).
-
-For more information about manipulating objects see [Std TransformManip](Std_TransformManip.md).
-
-## Selecting a navigation style 
-
-
-<div class="mw-translate-fuzzy">
-
--   No [Editor de Preferências](Preferences_Editor.md), Secção Visualização, separador *Vista 3D*;
--   Clicando com o botão direito do rato numa área vazia na vista 3D, e selecionando *Estilo de Navegação* no menu de contexto.
-
-
-</div>
-
-## Available navigation styles 
+## Estilos de navegação disponíveis 
 
 
 <div class="mw-translate-fuzzy">
@@ -36,34 +30,24 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 </div>
 
-The Blender navigation style was modeled after [Blender](https   *//www.blender.org).
+Este estilo de navegação foi adoptado depois do [Blender](https   *//www.blender.org).
 
 
-<div class="mw-translate-fuzzy">
-
-Na Navegação Blender, criada a partir do [Blender](http   *//www.blender.org), não é possivel fazer \"pan\" apenas com o rato. Para fazer \"pan\" á vista, necessita de pressionar a tecla **SHIFT**. {{Blender Navigation
-|Select_name=Select
+{{Blender Navigation
+|Select_name=Seleccionar
 |Pan_name=Pan
 |Zoom_name=Zoom
-|Rotate_view_name=Rotate view
+|Rotate_view_name=Rodar vista
 |Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold **Shift** and the middle mouse button, then move the pointer.
+|Select_text=Clique com o botão esquerdo do rato no objecto que quer seleccionar.
+|Pan_text=Mantenha pressionado o **Shift** e o botão do meio do rato e mova o cursor.
 
-Alternatively, hold both left and right mouse buttons, and then move the pointer.
-|Zoom_text=Use the mouse wheel to zoom in and out.
-|Rotate_view_text=Hold the middle mouse button, then move the pointer.
+Em alternativa mantenha pressionados os botões esquerdo e direito do rato e mova o cursor.
+|Zoom_text=Use a roda do rato para aproximar ou afastar (zoom in/out).
+|Rotate_view_text=Mantenha pressionado o botão do meio do rato e mova o cursor.
 }}
 
-
-</div>
-
-Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
-
-### CAD navigation 
-
-
-<div class="mw-translate-fuzzy">
+### Navegação CAD 
 
 ### Navegação CAD (predefinido) 
 
@@ -71,111 +55,66 @@ Este é o estilo de navegação predefinido e permite ao utilizador um controlo 
 
 
 {{CAD Navigation
-|Select_name=Select
+|Select_name=Seleccionar
 |Pan_name=Pan
 |Zoom_name=Zoom
-|Rotate_view_name=Rotate view<br>First method
-|Rotate_view_alt_name=Rotate view<br>Alternate method
+|Rotate_view_name=Rodar vista<br>primeiro método
+|Rotate_view_alt_name=Rodar vista<br>Método alternativo
 |Ctrl=**Ctrl**
 |Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
+|Select_text=Clique com o botão esquerdo do rato no objecto que quer seleccionar.
 
-Holding down **Ctrl** allows the selection of multiple objects.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode   * hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Zoom_text=Use the mouse wheel to zoom in and out.
+Mantenha pressionada a tecla **Ctrl** para seleccionar vários objectos.
+|Pan_text=Mantenha pressionado o botão do meio do rato e mova o cursor.
+|Pan_mode_text=Pan mode   * Mantenha pressionada a tecla **Ctrl**, clique no botão direito do rato uma veze mova o cursor.
+|Zoom_text=Use a roda do rato para aproximar ou afastar (zoom in/out).
 
-Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode   * hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
+Clicando com o botão do meio do rato re-centra a vista onde está localizado o cursor.
+|Zoom_mode_text=Zoom mode   * Manter pressionadas as teclas **Ctrl** e **Shift**, clicar uma vez no botão direito do rato e depois mova o cursor.
+|Rotate_view_text=Manter pressionado o botão do meio do rato, a seguir clicar e também manter pressionado o botão esquerdo do rato, e depois mova o cursor.
 
-The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues [[spinning]], if this is enabled.
+Se soltar os botões do rato antes de parar o movimento do mesmo a vista 3D continua a girar, caso essa função esteja activada.
 
-A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode   * hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
+Um duplo clique com o botão do meio do rato define um novo centro de rotação.
+|Rotate_view_mode_text=Modo de rotação   * Mantenha pressionada a tecla **Shift**, clique o botão direito do rato uma vez e mova o cursor.
+|Rotate_view_alt_text=Mantenha pressionado o botão do meio do rato, a seguir mantenha pressionado o botão direito do rato e mova o cursor.
 
-With this method the middle mouse button may be released after the right mouse button is held pressed.
+Com este método o botão do meio do rato pode ser solto depois do botão direito estar pressionado.
 
-Users who use the mouse with their right hand may find this method easier than the first method.
+Utilizadores que usem o rato com a mão direita podem achar este método mais fácil que o primeiro.
 }}
 
+### Navegação por Gestos 
 
-</div>
+Este estilo foi adequado ao uso com um ecrã táctil e caneta. No entanto pode também ser usado com um rato, e é recomendado para usar num MAC com trackpad.
 
 
-{{CAD Navigation
+{{Gesture Navigation
 |Select_name=Select
 |Pan_name=Pan
 |Zoom_name=Zoom
-|Rotate_view_name=Rotate view<br>First method
-|Rotate_view_alt_name=Rotate view<br>Alternate method
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
+|Rotate_view_name=Rodar vista
+|Tilt_view_name=Inclinar vista
+|Select_text=Clique com o botão esquerdo do rato no objecto que quer seleccionar.
+|Select_gesture_text=Toque para seleccionar.
+|Pan_text=Mantenha pressionado o botão direito do rato e mova o cursor.
+|Pan_gesture_text=Arraste com dois dedos.
 
-Hold down **Ctrl** to select multiple objects.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode   * hold the **Ctrl** key, press the right mouse button once, then move the pointer.
-|Zoom_text=Use the mouse wheel to zoom in and out.
+Em alternativa, toque e segure e depois arraste. Isto simula o Pan com o botão direito do rato.
+|Zoom_text=Use a roda do rato para aproximar ou afastar (zoom in/out).
+|Zoom_gesture_text=Arraste dois dedos juntando-os ou afastando-os.
+|Rotate_view_text=Mantenha pressionado o botão esquerdo do rato e mova o cursor.
+Na [Bancada de trabalho de Esboço](Sketcher_Workbench/pt.md) e outros modos de edição, este comportamento está desactivado. Mantenha pressionada a tecla **Alt** e clique com o botão esquerdo do rato para entrar em modo de rotação.
 
-Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode   * hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer.
-|Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
+Para definir o ponto de foco da câmera para rotação, clique num ponto com o botão do meio do rato. Em alternativa, ponha o cursor num ponto e clique na tecla **H** do teclado.
+|Rotate_view_gesture_text=Arraste com um dedo para rodar.
 
-If the buttons are released before you stop the mouse motion, the view continues spinning, if this is enabled.
+Mantenha pressionada a tecla **Alt** se estiver na [Bancada de trabalho de Esboço](Sketcher_Workbench/pt.md).
+|Tilt_view_text=Mantenha os botões esquerdo e direito do rato pressionados e mova o cursor para os lados. 
+|Tilt_view_gesture_text=Rodar dois pontos de toque.
 
-A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode   * hold the **Shift** key, press the right mouse button once, then move the pointer.
-|Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
-
-With this method the middle mouse button may be released after the right mouse button is held pressed.
-
-Users who use the mouse with their right hand may find this method easier than the first method.
+Na versão v0.18 este método está desactivado por defeito. Para o activar vá ao **Edit → Preferences → Display**, e desmarque a caixa "Disable touchscreen tilt gesture".
 }}
-
-
-<div class="mw-translate-fuzzy">
-
-### Navegação Gestual (v0.16) 
-
-
-</div>
-
-This style was tailored for use with a touchscreen and pen. Nevertheless, it can also be used with a mouse, and is recommended for use when using a Mac with a trackpad.
-
-
-<div class="mw-translate-fuzzy">
-
-Este estilo de navegação está talhado para ser usado com monitores tateis e com caneta, mas é bastante prático também com o rato. {{Gesture Navigation
-|Select_name=Select
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view
-|Tilt_view_name=Tilt view
-|Select_text=Press the left mouse button over an object you want to select.
-|Select_gesture_text=Tap to select.
-|Pan_text=Hold the right mouse button, then move the pointer.
-|Pan_gesture_text=Drag with two fingers.
-
-Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button.
-|Zoom_text=Use the mouse wheel to zoom in and out.
-|Zoom_gesture_text=Drag two fingers (pinch) closer or farther apart.
-|Rotate_view_text=Hold the left mouse button, then move the pointer.
-In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
-
-To set the camera's focus point for rotation, click a point with the middle mouse button. Alternatively, aim the cursor at a point and press **H** on the keyboard.
-|Rotate_view_gesture_text=Drag with one finger to rotate.
-
-Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md).
-|Tilt_view_text=Hold both left and right mouse buttons, and then move the pointer sideways. 
-|Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
-
-On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick "Disable touchscreen tilt gesture" checkbox.
-}}
-
-
-</div>
 
 Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Zoom\_gesture\_text=Drag two fingers (pinch) closer or farther apart. \|Rotate\_view\_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
 
@@ -396,9 +335,6 @@ On MacBooks with a trackpad the Gesture navigation works very well, but the gest
 ## Developing a custom navigation 
 
 The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
-
-
-{{docnav/pt|Getting started/pt|Document structure/pt}}
 
 
 

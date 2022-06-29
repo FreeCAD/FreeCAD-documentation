@@ -42,6 +42,9 @@ La liste ci-dessous répertorie les paramètres qui ne sont pas accessibles via 
 -   **Selection/AutoShowSelectionView** (booléen)    * Défini à `True` pour que le volet de la vue de sélection s\'affiche automatiquement lorsque vous sélectionnez quelque chose. La valeur par défaut est `False`.
 -   **Selection/singleClickFeatureSelect** (booléen)    * Défini à `False` pour désactiver la sélection en un seul clic d\'une fonction dans PartDesign. La valeur par défaut est `True`.
 -   **TreeView/TreeViewStretchDescription** (booléen)    * Défini à `True` pour étirer la colonne \'Description\' dans la [Vue en arborescence](Tree_view/fr.md) vers le bord droit du volet. La valeur par défaut est `False`.
+-   **View/Dimensions3dColor** (chaîne)    * Définit une valeur de couleur au format hexa `#RRGGBB` pour modifier la couleur d\'affichage des dimensions directes dans [Part Mesure linéaire](Part_Measure_Linear/fr.md).
+-   **View/DimensionsAngularColor** (chaîne)    * Définit une valeur de couleur au format hexa `#RRGGBB` pour modifier la couleur d\'affichage de la dimension angulaire dans [Part Mesure angulaire](Part_Measure_Angular/fr.md).
+-   **View/DimensionsDeltaColor** (chaîne)    * Définit une valeur de couleur au format hexa `#RRGGBB` pour modifier la couleur d\'affichage des dimensions orthogonales dans [Part Mesure linéaire](Part_Measure_Linear/fr.md).
 -   **View/NavigationDebug** (booléen)    * Active la sortie de débogage des styles de navigation (à partir de la v0.19, seul le style de navigation Gesture a quelque chose à dire).
 -   **View/SavePicture** (chaîne)    * Défini à **FramebufferObject**, **PixelBuffer** ou **CoinOffscreenRenderer** pour différentes méthodes de production d\'images à partir de la vue 3D.
 

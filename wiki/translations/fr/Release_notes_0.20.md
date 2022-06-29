@@ -495,7 +495,7 @@ L\'[atelier FCGear](FCGear_Workbench/fr.md) a reçu quelques améliorations    *
 
 ### Plot
 
--   Le [module Plot](Plot_Workbench/fr.md) a été supprimé de l\'atelier car il est désormais fourni par FreeCAD.
+-   Le module Plot a été retiré de l\'[atelier Plot](Plot_Workbench/fr.md) puisqu\'il est maintenant fourni par FreeCAD.
 
 ### Ship
 

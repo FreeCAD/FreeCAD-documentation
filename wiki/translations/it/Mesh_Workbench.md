@@ -1,13 +1,4 @@
-# Mesh Workbench/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="L\'icona dell\'ambiente Mesh" src=images/Workbench_Mesh.svg  style="width   *128px;">
+# <img alt="L\'icona dell\'ambiente Mesh" src=images/Workbench_Mesh.svg  style="width   *64px;"> Mesh Workbench/it
 
 
 {{TOCright}}
@@ -93,16 +84,10 @@ Tutti gli strumenti dell\'ambiente Mesh sono accessibili dal menu **Meshes**. Qu
 
 -   Esistono alcune [preferenze di esportazione correlate ai formati mesh](Import_Export_Preferences/it#Formati_mesh.md) ma esse non vengono utilizzate dai comandi appartenenti a questo ambiente. Sono utilizzate dal comando [Esporta](Std_Export/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
 Le preferenze di Mesh si trovano nelle seguenti categorie dell\'[editor delle preferenze](Preferences_Editor/it.md)   *
 
--   <img alt="" src=images/Preferences-display.svg  style="width   *32px;"> [Visualizzazione](Preferences_Editor/it#Impostazioni_di_visualizzazione.md)   * Nella scheda [Visualizzazione mesh](Preferences_Editor/it#Visualizzazione_mesh.md) possono essere impostate diverse preferenze.
+-   <img alt="" src=images/Preferences-display.svg  style="width   *32px;"> [Visualizzazione](Preferences_Editor/it#Visualizzazione.md)   * Nella scheda [Visualizzazione mesh](Preferences_Editor/it#Visualizzazione_mesh.md) possono essere impostate diverse preferenze.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width   *32px;"> [OpenSCAD](OpenSCAD_Preferences/it.md)   * I comandi [Mesh Unione](Mesh_Union/it.md), [Mesh Intersezione](Mesh_Intersection/it.md) e [Mesh Differenza](Mesh_Difference/it.md) richiedono [OpenSCAD](http   *//www.openscad.org/) e usano le preferenze **OpenSCAD executable** per trovare il loro eseguibile.
-
-
-</div>
 
 ## Note
 
@@ -112,13 +97,7 @@ Le preferenze di Mesh si trovano nelle seguenti categorie dell\'[editor delle pr
 -   Vedere [Asintoto](Asymptote/it.md) per esportare le mesh nel formato Asymptote.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

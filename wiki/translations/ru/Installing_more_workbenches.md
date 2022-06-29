@@ -1,4 +1,6 @@
 # Installing more workbenches/ru
+{{TOCright}}
+
 ## Введение
 
 Начиная с v0.17 легко добавить [внешний верстак](external_workbenches/ru.md), используя [Addon Manager](Std_AddonMgr/ru.md). Обычному пользователю ничего не требуется кроме использования этого инструмента.
@@ -7,10 +9,14 @@
 
 ## Общее описание 
 
-Workbenches are nothing more than collections of files that are placed in a folder. This folder is usually compressed into a zip archive. On installation, this folder is simply uncompressed and copied to 
+Workbenches are nothing more than collections of files that are placed in a folder. This folder is usually compressed into a zip archive. On installation, this folder is simply uncompressed and copied to
+
+
 ```python
 $ROOT_DIR/Mod/
-``` where `$ROOT_DIR` is a top level directory searched by FreeCAD on startup. This is essentially what the [Addon Manager](Std_AddonMgr.md) does.
+```
+
+where `$ROOT_DIR` is a top level directory searched by FreeCAD on startup. This is essentially what the [Addon Manager](Std_AddonMgr.md) does.
 
 The `Mod/` directories are scanned every time FreeCAD is started, and the available workbenches are automatically added.
 
@@ -28,11 +34,11 @@ Copy the workbench folder into `$INSTALL_DIR/Mod/`, where `$INSTALL_DIR` is the 
 
 Workbenches installed in this way will be available only to one user, but will not require any administrator privileges.
 
-Copy the workbench folder into `$USER_DIR/Mod/`, where `$USER_DIR` is the FreeCAD directory for a particular `username`.
+Copy the workbench folder into `$USER_DIR/Mod/`, where `$USER_DIR` is the FreeCAD directory for a particular `username` (you can find the latter by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md)).
 
--   On Linux it is usually `/home/username/.FreeCAD/Mod/`
--   On Windows it is `%APPDATA%\FreeCAD\Mod\`, which is usually `C   *Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
--   On macOS it is usually `/Users/username/Library/Preferences/FreeCAD/Mod/`. One way to get to the preferences directory is to use the \"Finder\" menu item **Go → Go to Folder**, and entering `~/Library/Preferences/FreeCAD`.
+-   On Linux it is usually `/home/username/.local/share/FreeCAD/Mod/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/Mod/` ({{VersionMinus|0.19}}).
+-   On Windows it is `%APPDATA%\FreeCAD\Mod\`, which is usually `C   *Users\username\Appdata\Roaming\FreeCAD\Mod\`
+-   On macOS it is usually `/Users/username/Library/Preferences/FreeCAD/Mod/`.
 
 ## Дополнительная информация 
 
@@ -41,7 +47,7 @@ Copy the workbench folder into `$USER_DIR/Mod/`, where `$USER_DIR` is the FreeCA
 Смотрите так же детальное описание [как установить дополнительные верстаки](How_to_install_additional_workbenches.md).
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md)
 

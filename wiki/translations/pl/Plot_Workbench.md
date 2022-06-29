@@ -18,14 +18,14 @@ Moduł można wywołać w konsoli [Python](Python/pl.md) lub w [makrodefinicji](
 from freecad.plot import Plot
 ```
 
-Od wersji FreeCAD **v0.20** moduł plot jest wbudowany w program, więc nie trzeba instalować żadnego dodatku, a jedynie wpisać
+Od wersji FreeCAD **v0.20** moduł Wykres jest wbudowany w program, więc nie trzeba instalować żadnego dodatku, a jedynie wpisać   *
 
 
 ```python
 from FreeCAD.Plot import Plot
 ```
 
-Następnie można wykreślić linię prostą od współrzędnych *(0,0)* do *(1,2)* wpisując po prostu
+Następnie można wykreślić linię prostą od współrzędnych *(0,0)* do *(1,2)* wpisując po prostu   *
 
 
 ```python

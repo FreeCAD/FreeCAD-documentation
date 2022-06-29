@@ -74,7 +74,7 @@ C\'est tout, la prochaine fois que vous lancerez FreeCAD, l\'atelier devrait êt
 
 Pour installer manuellement, téléchargez ce dépôt en ZIP et    *
 
--   Pour Ubuntu, Mint et les OS similaires, extrayez-le à l\'intérieur de    * **/home/username/.FreeCAD/Mod**.
+-   Pour Ubuntu, Mint et les OS similaires, extrayez-le à l\'intérieur de    * **/home/username/.local/share/FreeCAD/Mod** ({{VersionPlus/fr|0.20}}) ou **/home/username/.FreeCAD/Mod** ({{VersionMinus/fr|0.19}})
 -   Pour Windows, extrayez-le à l\'intérieur de    * **C   *Users\votre_nom_d'utilisateur\AppData\Roaming\FreeCAD\Mod**.
 
 ## Liens vers l\'atelier ExplodedAssembly 

@@ -77,8 +77,8 @@ The `$ROOT_DIR` could be a system wide directory, in which case the macro is ins
 
 The `$ROOT_DIR` could be a particular user\'s directory.
 
--   On Linux it is usually `/home/username/.FreeCAD/`
--   On Windows it is usually `C   *Users\username\Application Data\FreeCAD\`
+-   On Linux it is usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
+-   On Windows it is usually `C   *Users\username\AppData\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
 
 ### Configuring the user directory 
@@ -90,7 +90,7 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 2\. Set the appropriate `User macros location`.
 
--   Linux   * usually `/home/username/.FreeCAD/`
+-   Linux   * usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}})
 -   Windows   * usually `C   *Users\username\AppData\Roaming\FreeCAD\`
 -   MacOS   * usually `/Users/username/Library/Preferences/FreeCAD/`
 
@@ -515,7 +515,7 @@ and then press the **OK** button.
 </div>
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 

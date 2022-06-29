@@ -52,7 +52,7 @@ You can then have a look at the file and compare it to the output of existing po
 
 ## Naming convention 
 
-For a file format **<filename>** the postprocessor should get the name **<filename>_post.py**. Please note that the postfix and extension, **_post.py**, have to be lower case.
+The postprocessor can be placed in your FreeCAD macro directory. For a prefix **<filename>** the postprocessor should get the name **<filename>_post.py**. Please note that the postfix and extension, **_post.py**, have to be lower case.
 
 The new name should be reflected at the head of the parser arguments list in the **<filename>_post.py** file, e.g.   *
 

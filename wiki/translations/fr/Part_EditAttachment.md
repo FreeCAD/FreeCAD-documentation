@@ -12,7 +12,7 @@
 
 ## Description
 
-**Part Ancrage** est un utilitaire permettant d\'attacher un objet à un autre. L\'objet attaché est lié à l\'autre objet, ce qui signifie que si le placement de ce dernier est modifié par la suite, l\'objet attaché sera mis à jour à sa nouvelle position.
+**Part Ancrage** est un utilitaire permettant d\'ancrer un objet à un autre. L\'objet ancré est lié à l\'autre objet, ce qui signifie que si le placement de ce dernier est modifié par la suite, l\'objet ancré sera mis à jour à sa nouvelle position.
 
 ## Utilisation
 

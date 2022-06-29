@@ -15,7 +15,13 @@ También puede utilizar un gestor de paquetes como HomeBrew para mantener su sof
 brew install --cask freecad
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 y para utilizar la última versión disponible (0.19pre) en HomeBrew puede ejecutar
+
+
+</div>
 
 
 ```python

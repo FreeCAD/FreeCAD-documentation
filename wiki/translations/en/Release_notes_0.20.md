@@ -498,7 +498,7 @@ The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements   
 
 ### Plot
 
--   The [Plot module](Plot_Workbench.md) has been stripped from the workbench since it is now provided by FreeCAD.
+-   The Plot module has been stripped from the [Plot Workbench](Plot_Workbench.md) since it is now provided by FreeCAD.
 
 ### Ship
 

@@ -11,13 +11,7 @@
 
 # GuiCommand model/de
 
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
-
-
-</div>
 
 While the page is under construction, add the [Template   *UnfinishedDocu](Template_UnfinishedDocu.md) template at the top of the page by simply typing   * ****
 

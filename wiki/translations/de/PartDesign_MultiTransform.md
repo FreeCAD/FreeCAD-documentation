@@ -44,71 +44,81 @@ Folgende Transformationen stehen zur Verfügung   * <img alt="" src=images/PartD
 
 Es ist möglich ein MultiTransform-Objekt von vorhandenen Transformationen wie [Spiegeln](PartDesign_Mirrored/de.md), [Lineares Muster](PartDesign_LinearPattern/de.md) und [Polares Muster](PartDesign_PolarPattern/de.md) zu erstellen.
 
-1.  Check the **Originals** property of the existing transformations to make sure they have been applied to the same features.
-2.  Select those features in the [Tree view](Tree_view.md).
-3.  There are several ways to invoke the tool   *
-    -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Create MultiTransform](PartDesign_MultiTransform.md)** button.
-    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
-4.  The **MultiTransform parameters** [task panel](Task_panel.md) opens.
-5.  Press the **OK** button at the top.
-6.  Edit the **Tranformations** property of the created MultiTransform object   *
-    1.  Click in the field.
-    2.  Press the **...** button that appears.
-    3.  The **Link** dialog opens.
-    4.  Hold down the **Ctrl** key and select the existing transformations.
-    5.  Press the **OK** button.
-7.  Optionally [edit](#Edit.md) the MultiTransform object, see above.
+1.  Die {{PropertyData/de|Originals}} der bestehenden Transformationen überprüfen, ob sie auf dieselben Formelemente angewendet werden.
+2.  Diese Formelemente in der [Baumansicht](Tree_view/de.md) auswählen.
+3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+    -   Die Schaltfläche **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Mehrfach-Transformation erstellen](PartDesign_MultiTransform/de.md)** drücken.
+    -   Den Menüeintrag **Part Design → Muster anwenden → <img src="images/PartDesign_MultiTransform.svg" width=16px> Mehrfach-Transformation erstellen** auswählen.
+4.  Der [Aufgabenbereich](Task_panel/de.md) {{MenuCommand/de|Parameter der Mehrfach-Transformation}} wird geöffnet.
+5.  Die Schaltfläche **OK** am oberen Rand drücken.
+6.  Die {{PropertyData/de|Tranformations}} des erstellten MultiTransform-Objekts bearbeiten   *
+    1.  Auf das Feld klicken.
+    2.  Die Schaltfläche **...**, die dann erscheint, anklicken.
+    3.  Der Dialog **Link** wird geöffnet.
+    4.  Mit gedrückter **Ctrl**-Taste werden die bestehenden Transformationen ausgewählt.
+    5.  Die Schaltfläche **OK** drücken.
+7.  Wahlweise das MultiTransform-Objekt [bearbeiten](#Bearbeiten.md), siehe oben.
 
 ## Optionen
 
--   To add features   *
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features   *
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following   *
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list at the top and press the **Del** key.
-        -   Right-click a feature in the list at the top and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
--   To add transformations   *
-    1.  If there are existing transformations   * select the transformation after which the new transformation should be added.
-    2.  Right-click the **Transformations** list.
-    3.  Select one the following options from the context menu   *
+-   Formelemente hinzufügen   *
+    1.  Die Schaltfläche **Element hinzufügen** drücken.
+    2.  Ein Formelement in der [Baumansicht](Tree_view/de.md) oder in der [3D-Ansicht](3D_view/de.md) auswählen.
+    3.  Wiederholen, um weitere Formelemente hinzuzufügen.
+-   Formelemente entfernen   *
+    1.  Die Schaltfläche **Element entfernen** drücken.
+    2.  Eine der folgenden Möglichkeiten wählen   *
+        -   Ein Formelement in der [Baumansicht](Tree_view/de.md) oder in der [3D-Ansicht](3D_view/de.md) auswählen.
+        -   Ein Formelement in der oberen Liste auswählen und die **Del**-Taste drücken.
+        -   Mit der rechten Maustaste ein Formelement in der oberen Liste anklicken und **Entfernen** aus dem Kontextmenü auswählen.
+    3.  Wiederholen, um weitere Formelemente zu entfernen.
+-   Wenn ein Muster mehrere Formelemente enthält, kann deren Reihenfolge wichtig sein. Siehe [PartDesign PolaresMuster](PartDesign_PolarPattern/de#Formelemente_ordnen.md).
+-   Transformationen hinzufügen   *
+    1.  Wenn schon Transformationen vorhanden sind   * Die Transformation auswählen, hinter der die neue Transformation eingefügt werden soll.
+    2.  Mit der rechten Maustaste in die Liste **Transformationen** klicken.
+    3.  Eine der folgenden Möglichkeiten des Kontextmenüs auswählen   *
         -   
-            **Add mirrored transformation**
+            **Spiegelung hinzufügen**
             
-            . See [PartDesign Mirrored](PartDesign_Mirrored.md).
+            . Siehe [PartDesign Mirrored](PartDesign_Mirrored.md).
 
         -   
-            **Add linear pattern**
+            **Lineares Muster hinzufügen**
             
-            . See [PartDesign LinearPattern](PartDesign_LinearPattern.md).
+            . Siehe [PartDesign LinearesMuster](PartDesign_LinearPattern/de.md).
 
         -   
-            **Add polar pattern**
+            **Polares Muster hinzufügen**
             
-            See [PartDesign PolarPattern](PartDesign_PolarPattern.md).
+            Siehe [PartDesign PolaresMuster](PartDesign_PolarPattern/de.md).
 
         -   
-            **Add scaled transformation**
+            **Skalierte Transformation hinzufügen**
             
-            . See [PartDesign Scaled](PartDesign_Scaled.md).
-    4.  The selected transformation is added to the list and the settings for the transformation are displayed below the list.
-    5.  Adjust the settings to suit.
-    6.  Press the **OK** bar at the bottom.
-    7.  Repeat to add more transformations.
--   To edit a transformation   *
-    1.  Right-click the transformation in the **Transformations** list.
-    2.  Select **Edit** from the context menu.
-    3.  Adjust the settings to suit.
-    4.  Press the **OK** bar at the bottom.
--   To change the order of the transformations   *
-    1.  Right-click a transformation in the **Transformations** list.
-    2.  Select **Move up** or **Move down** from the context menu.
--   If the **Update view** checkbox is checked the view will update in real time.
+            . Siehe [PartDesign Skalieren](PartDesign_Scaled/de.md).
+    4.  Die ausgewählte Transformation wird zur Liste hinzugefügt und die Einstellungen der Transformationen werden unterhalb der Liste angezeigt.
+    5.  Die Einstellungen nach Bedarf anpassen.
+    6.  Die **OK**-Leiste am unteren Rand drücken.
+    7.  Wiederholen, um weitere Transformationen hinzuzufügen.
+-   Transformationen bearbeiten   *
+    1.  Mit der rechten Maustaste in die Liste **Transformationen** klicken.
+
+    2.  
+        **Bearbeiten**
+        
+        aus dem Kontextmenü auswählen.
+
+    3.  Die Einstellungen nach Bedarf anpassen.
+
+    4.  Die **OK**-Leiste am unteren Rand drücken.
+-   Die Reihenfolge der Transformationen ändern   *
+    1.  Mit der rechten Maustaste in die Liste **Transformationen** klicken.
+
+    2.  
+        **Nach oben verschieben**
+        
+        or **Nach unten verschieben** aus dem Kontextmenü auswählen.
+-   Wenn die Checkbox **Ansicht aktualisieren** aktiviert ist, erfolgt die aktualisierung in Echtzeit.
 
 ## Einschränkungen
 

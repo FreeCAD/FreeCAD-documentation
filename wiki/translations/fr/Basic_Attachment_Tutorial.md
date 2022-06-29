@@ -26,7 +26,7 @@ Avant de démarrer ce tutoriel l\'utilisateur doit    *
 1.  Utiliser la version 0.17 ou supérieure.
 2.  Être à l\'aise pour naviguer dans la [Vue 3D](3D_view/fr.md).
 3.  Être capable de créer et de contraindre une [esquisse](Sketcher_Workbench/fr.md).
-4.  Avoir une connaissance de base de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Atelier PartDesign](PartDesign_Workbench.md).
+4.  Avoir une connaissance de base de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md).
 5.  Avoir une connaissance de base des [Expressions](Expressions/fr.md).
 
 ## Objectifs

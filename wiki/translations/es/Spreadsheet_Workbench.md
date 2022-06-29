@@ -46,19 +46,31 @@ El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [Am
 
 ## Preferencias
 
--   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Preferences](Spreadsheet_Preferences.md)   * the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Preferencias](Spreadsheet_Preferences.md)   * las preferencias para el entorno de trabajo Spreadsheet. <small>(v0.20)</small> 
 
-## Insert and remove rows and columns 
+## Inserte elimine filas y columnas 
 
-Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the contex menu. It is possible to select multiple rows or columns first. Either by holding down the **Ctrl** key while selecting the headers, or by holding down the left mouse button and dragging.
+Filas y columnas pueden ser insertadas o eliminadas haciendo clic derecho en un encabezado de fila o columna y seleccionando la opción apropiada en el menú contextual. Es posible seleccionar primero varias filas o columnas. Ya sea manteniendo presionado la tecla {{KEY | Ctrl}} al seleccionar los encabezados, o manteniendo presionado el botón del mouse izquierdo y arrastrando.
 
-In FreeCAD version 0.19 and earlier rows are inserted above the selected rows, and colomns on the left of the selected columns. In FreeCAD version 0.20 you can specify the insertion side.
 
-Note that removing rows or columns with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+<div class="mw-translate-fuzzy">
 
-## Cut and copy-paste cells 
+En FreeCAD versión 0.19 y anteriores las filas son insertadas arriba de las filas seleccionadas, y las columnas a la izquierda de las columnas seleccionadas. En FreeCAD versión 0.20 puede especificar el lugar de inserción.
 
-Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations   * **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+
+</div>
+
+Tenga en cuenta que eliminar filas o columnas con datos puede romper la hoja de cálculo y su modelo si se basa en la hoja de cálculo. No será advertido previamente si esto sucede.
+
+## Cortar y copiar-pegar celdas 
+
+
+<div class="mw-translate-fuzzy">
+
+Las operaciones de cortar y copiar-pegar se pueden usar en las celdas de hojas de cálculo de FreeCAD. Puede usar los atajos normales para estas operaciones   * {{KEY | Ctrl}} {{KEY | X}}, {{KEY | Ctrl}} {{KEY | C}} y {{KEY | Ctrl}}} {{KEY | V}} respectivamente. Para seleccionar múltiples celdas, mantenga presionada la tecla {{KEY | Ctrl}} mientras selecciona, o mantenga presionado el botón del mouse izquierdo y arrastre para seleccionar un rango de celda rectangular.
+
+
+</div>
 
 The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
 
@@ -68,13 +80,7 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 ## Propiedades de la celda 
 
-
-<div class="mw-translate-fuzzy">
-
-Las propiedades de una celda de la hoja de cálculo pueden editarse haciendo clic con el botón derecho del ratón en una celda. Aparece el siguiente cuadro de diálogo   *
-
-
-</div>
+Las propiedades de una celda de la hoja de cálculo pueden ser editadas haciendo clic derecho en la celda y seleccionando **Propiedades...** del menú contextual. El siguiente cuadro de diálogo aparece   *
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -90,13 +96,7 @@ Como se indica en las pestañas, se pueden modificar las siguientes propiedades 
 
 Una celda de la hoja de cálculo puede contener un texto arbitrario o una expresión. Técnicamente, las expresiones deben comenzar con un signo igual \'=\'. Sin embargo, la hoja de cálculo intenta ser inteligente; si se introduce lo que parece una expresión sin el \'=\' inicial, se añadirá uno automáticamente.
 
-
-<div class="mw-translate-fuzzy">
-
-Las expresiones de celdas pueden contener números, funciones, referencias a otras celdas y referencias a propiedades del modelo (Pero vea [Limitaciones actuales](#Limitaciones_actuales.md) más abajo). Las celdas se referencian por su columna (letra MAYÚSCULA) y fila (número). Una celda también puede ser referenciada por su [nombre\_alias](#nombre_alias.md) (más abajo). Ejemplo   * B4 + A6
-
-
-</div>
+Las expresiones de celdas pueden contener números, funciones, referencias a otras celdas y referencias a propiedades del modelo (Pero vea [Limitaciones actuales](#Limitaciones_actuales.md) más abajo). Las celdas se referencian por su columna (letra MAYÚSCULA) y fila (número). Una celda también puede ser referenciada por su [nombre\_alias](#nombre_alias.md). Ejemplo   * B4 + A6
 
 **Nota   *** Las expresiones de celda son tratadas por FreeCAD como código de programación. Por lo tanto, cuando editas una celda el contenido ves que no sigue su configuración de visualización   *
 
@@ -234,19 +234,19 @@ To handle the page setup necessary for printing, FreeCAD spreadsheets are printe
 
 FreeCAD checks for cyclic dependencies when it recomputes. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets   * one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
 
-## Cell binding 
+## Enlazamiento de celdas 
 
 
 <small>(v0.20)</small> 
 
-It is possible to bind the content of cells to other spreadsheet cells. This can be useful when dealing with large tables or to get cell content from another spreadsheet.
+Es posible enlazar el contenido de unas celdas a otras celdas en la hoja de cálculo. Esto puede ser útil cuando se trata de tablas grandes o para obtener contenido de celda de otra hoja de cálculo.
 
-### Create binding 
+### Crear enlaces 
 
-To bind, for example, the cell range A3-C4 to the cell range B1-D2   *
+Para enlazar, por ejemplo, el rango de celdas A3-C4 al rango de celdas B1-D2   *
 
-1.  Select the cell range A3-C4.
-2.  Right-click and select **Bind...** from the context menu.
+1.  Seleccione el rango de celdas A3-C4.
+2.  Clic derecho y seleccione **Enlace...** del menú contextual.
 3.  The **Bind Spreadsheet Cells** dialog opens.
 4.  Set the range B1-D2 for the **To cells**   *
     ![](images/Spreadsheet_binding-dialog.png )
@@ -294,28 +294,28 @@ Expandir esta sección para un breve tutorial de como crear una tabla de configu
 
 <div class="mw-collapsible-content">
 
-1.  In a new document, first create a [Std Part](Std_Part.md), then create a [Part Box](Part_Box.md), a [Part Cylinder](Part_Cylinder.md) and a Spreadsheet.
-2.  The Box and the Cylinder are automatically placed in the [Std Part](Std_Part.md) container. Manually put the Spreadsheet in the container as well.
-3.  In the Spreadsheet enter the content as shown below. Set the alias for B2 as {{Value|width}}, C2 as {{Value|length}} and D2 as {{Value|radius}}   *
+1.  En un nuevo documento, primero cree una [Std Pieza](Std_Part/es.md), después cree un [Part Box](Part_Box/es.md), un [Part Cylinder](Part_Cylinder/es.md) y una hoja de cálculo.
+2.  La caja y el cilindro se colocan automáticamente en el contenedor [Std Pieza](Std_Part.md). Coloque manualmente la hoja de cálculo en el contenedor también.
+3.  En la hoja de cálculo ingrese the contenido mostrado abajo. Establezca el alias para B2 como {{Value|width}}, C2 como {{Value|length}} y D2 como {{Value|radius}}   *
     ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Bind the [expressions](Expressions.md) {{Value|Spreadsheet.width}} and {{Value|Spreadsheet.length}} to the Box\'s properties **Width** and **Length**, respectively   *
+4.  Enlce las [expresiones](Expressions.md){{Value|Spreadsheet.width}} y {{Value|Spreadsheet.length}} a las propiedades **Width** y **Length** de la caja, respectivamente   *
     ![](images/Spreadsheet_configuration_table_screenshot_2.png )
-5.  Bind the expression {{Value|Spreadsheet.radius}} to the Cylinder\'s property **Radius**. Also change the **Height** of the Cylinder to {{Value|5 mm}} so that it is lower than the Box.
-6.  Right-click the cell A2 in the Spreadsheet and select **Configuration table...** from the context menu.
-7.  The **Setup Configuration Table** dialog opens.
-8.  Enter the following   *
+5.  Enlace la expresión {{Value|Spreadsheet.radius}} a la propiedad **Radius** del cilindro. Tambieén cambie la **Height** del cilindro a {{Value|5 mm}} para que sea más bajo que la caja.
+6.  Clic derecho en la celda A2 en la hoja de cálculo y seleccione **Tabla de configuración...** del menú contextual.
+7.  El cuadro de diálogo **Configurar tabl de configuración** se abre.
+8.  Ingrese lo siguiente   *
     ![](images/Spreadsheet_configuration_table_screenshot_5.png )
-9.  Press **OK**.
-10. A new property called **Configuration** is be added to the [Std Part](Std_Part.md) container to choose the configuration as shown below   *
+9.  Presione **OK**.
+10. Se agregará una nueva propiedad llamada **Configuration** al contenedor [Std Part](Std_Part.md) para elegir la configuración como se muestra a continuación   *
     ![](images/Spreadsheet_configuration_table_screenshot_6.png )
 
-You can use either a [Std Link](Std_LinkMake.md) or a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) to instantiate a [Variant Instance](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) of a configurable object with the following steps   *
+Puede usar un [Std Link](Std_LinkMake.md) o un [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) para instanciar una [Instancia de una Variante](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) de un objeto configurable con los siguientes pasos   *
 
-1.  Create a [Std Link](Std_LinkMake.md) to the [Std Part](Std_Part.md) container and set its **Link Copy On Change** property to {{Value|Enabled}}.
-2.  Move the Link to a new place by changing its **Placement** so that it is easier to distinguish from the original object.
-3.  Select a different **Configuration** for the Link to create a variant instance.
+1.  Cree un [Std Link](Std_LinkMake.md) al contenedor [Std Part](Std_Part.md) y configure su propiedad **Link Copy On Change** a {{Value|Enabled}}.
+2.  Mueva el Link a un nuevo lugar cambiando su **Posición** para que sea más fácil distinguirlo del objeto original.
+3.  Seleccione una **Configuración** diferente para el Link para crear una instancia de una variante.
 
-Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), except that its property for activating a variant instance is called **Binder Copy On Change**.
+Pasos similares se aplican a un [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), excepto que su propiedad para activar una instancia de una variante se llama **Binder Copy On Change**.
 
 
 </div>

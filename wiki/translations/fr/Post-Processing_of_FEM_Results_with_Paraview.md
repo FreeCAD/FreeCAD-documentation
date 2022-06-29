@@ -26,7 +26,9 @@ Dans l\'atelier FEM, mettez en surbrillance l\'objet CCX\_Results. Ensuite, util
 
 ## Importation de données dans Paraview 
 
-L\'écran de démarrage affiche un navigateur de pipeline vide. C\'est là que les objets de données VTK importés et les objets de filtre appliqués (pour la géométrie ou les données) seront visibles. <img alt="" src=images/PVPic1.png  style="width   *500px;">
+L\'écran de démarrage affiche un navigateur de pipeline vide. C\'est là que les objets de données VTK importés et les objets de filtre appliqués (pour la géométrie ou les données) seront visibles.
+
+<img alt="" src=images/PVPic1.png  style="width   *500px;">
 
 Utilisez l\'option de menu **File > Open > *.vtk** pour ouvrir le fichier VTK généré avec l\'atelier FEM.
 

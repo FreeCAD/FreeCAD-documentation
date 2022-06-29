@@ -15,7 +15,7 @@ Vous pouvez aussi utiliser un gestionnaire de paquets tel que HomeBrew pour main
 brew install --cask freecad
 ```
 
-et pour utiliser la dernière version disponible (0.19pre) sur HomeBrew, vous pouvez exécuter
+et pour utiliser la dernière version disponible sur HomeBrew, vous pouvez exécuter
 
 
 ```python

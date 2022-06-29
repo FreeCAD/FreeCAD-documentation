@@ -44,10 +44,18 @@ Here is a video on [installing FreeCAD macros in Ubuntu](https   *//wiki.opensou
 
 ### Toolbar
 
+
+<div class="mw-translate-fuzzy">
+
+### Toolbar 
+
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width   *32px;"> [Macro recording\...](Std_DlgMacroRecord.md)
 -   <img alt="" src=images/Std_MacroStopRecord.svg  style="width   *32px;"> [Stop macro recording](Std_MacroStopRecord.md)
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *32px;"> [Macros\...](Std_DlgMacroExecute.md)
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md)
+
+
+</div>
 
 ### Menu
 
@@ -97,9 +105,11 @@ The `$ROOT_DIR` could be a system wide directory, in which case the macro is ins
 
 The `$ROOT_DIR` could be a particular user\'s directory.
 
--   On Linux it is usually `/home/username/.FreeCAD/`
--   On Windows it is usually `C   *Users\username\Application Data\FreeCAD\`
+-   On Linux it is usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
+-   On Windows it is usually `C   *Users\username\AppData\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
+
+### Configuring the user directory 
 
 
 <div class="mw-translate-fuzzy">
@@ -934,6 +944,8 @@ or
 print("Hello World!")
 ```
 
+#### Enabling the report view 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -997,6 +1009,8 @@ To see the information displayed in the console you should   *
 
 
 </div>
+
+#### Enabling the print() command 
 
 
 <div class="mw-translate-fuzzy">
@@ -1093,7 +1107,7 @@ and click the **OK** button
 </div>
 
 
- 
+
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 

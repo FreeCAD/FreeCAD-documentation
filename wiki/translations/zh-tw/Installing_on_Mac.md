@@ -15,7 +15,7 @@ You can also use a package manager such as HomeBrew to keep your software update
 brew install --cask freecad
 ```
 
-and to use the latest version available (0.19pre) on HomeBrew you may run
+and to use the latest version available on HomeBrew you may run
 
 
 ```python

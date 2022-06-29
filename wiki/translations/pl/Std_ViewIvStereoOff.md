@@ -1,29 +1,30 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ViewIvStereoOff
-   MenuLocation   *View → Stereo → Stereo Off
-   Workbenches   *All
-   SeeAlso   *[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md)
+   Name/pl   *Std   * Wyłącz widok trójwymiarowy
+   MenuLocation   *Widok → Widok trójwymiarowy → Widok z przeplotem kolumn
+   Workbenches   *wszystkie
+   SeeAlso   *[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl.md),  [Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md)
 ---
 
 # Std ViewIvStereoOff/pl
 
-## Description
+## Opis
 
-The **Std ViewIvStereoOff** command switches off stereo mode in the active [3D view](3D_view.md).
+Polecenie **Wyłącz widok trójwymiarowy** wyłącza tryb stereo w aktywnym oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Stereo Off** option from the menu.
+1.  Wybierz z menu opcję **Widok → Widok trójwymiarowy → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Wyłącz widok trójwymiarowy**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the view to non-stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby zmienić widok na widok standardowy, należy użyć metody `setStereoType` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

@@ -11,7 +11,7 @@ La création de nouvelles Formes d\'outils est un sujet avancé. Les Formes d\'o
 
 -   Sous Linux, il s\'agit généralement de `/usr/lib64/FreeCAD/Mod/Path/Tools/Shape`.
 -   Sous Windows, il s\'agit généralement de `C   *Program Files\FreeCAD\Mod\Path\Tools\Shape`.
--   Sous macOS, il s\'agit généralement de `/Applications/FreeCAD/Mod/Path/Tools/Shape`.
+-   Sous macOS, il s\'agit généralement de `/Applications/FreeCAD.app/Contents/Resources/Mod/Path/Tools/Shape`.
 
 Ce sont    *
 

@@ -13,7 +13,7 @@ A couple of areas that would welcome your work   *
 
 -   The [   *Category   *Command Reference](   *Category_Command_Reference.md) page lists and documents all of the FreeCAD [commands](command.md). Most of them contain little to no information at all. Please refer to [WikiPages](WikiPages.md) for good examples of what command documentation pages should look like.
 -   The [Tutorials](Tutorials.md) section needs examples on how to use the workbenches. If you developed something cool with FreeCAD, why not document how you did it for posterity?
--   There are open tickets on the FreeCAD [bug tracker](Tracker.md) tagged [\"documentation\"](https   *//freecadweb.org/tracker/search.php?tag_string=documentation) that could use some love.
+-   There are open tickets on the FreeCAD [\"bug tracker\"](https   *//github.com/FreeCAD/FreeCAD/issues) tagged [\"documentation\"](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation) that could use some love.
 
 ## Share your FreeCAD knowledge 
 

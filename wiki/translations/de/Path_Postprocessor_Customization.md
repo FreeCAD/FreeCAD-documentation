@@ -64,7 +64,13 @@ Du kannst dir dann die Datei anschauen und sie mit der Ausgabe bestehender Postp
 
 ## Namenskonvention
 
+
+<div class="mw-translate-fuzzy">
+
 Für ein Dateiformat **<filename>** sollte der Postprozessor den Namen **<filename>_post.py** erhalten. Bitte beachte, dass die Nachsilbe und die Erweiterung **_post.py** klein geschrieben werden müssen.
+
+
+</div>
 
 The new name should be reflected at the head of the parser arguments list in the **<filename>_post.py** file, e.g.   *
 
