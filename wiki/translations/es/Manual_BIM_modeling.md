@@ -116,7 +116,7 @@ Windows are always built on sketches. It is easy to create custom windows by fir
 -   Select the rectangle
 -   Click the <img alt="" src=images/Arch_Structure.svg  style="width   *16px;"> [structure](Arch_Structure.md) tool to create a slab from the rectangle
 -   Set the **height** property of the slab to 0.2m and its **normal** direction to (0,0,-1) because we want it to extrude downwards. We could also simply have moved it 0.2m down, but it is always good practice to keep extruded objects at the same place as their base profile.
--   Set the **Role** property of the slab to **slab**. This is not necessary in FreeCAD, but is important for IFC export, as it will ensure that the object is exported with the correct IFC type.
+-   Set the **Ifc Type** property of the slab to **slab**. This is not necessary in FreeCAD, but is important for IFC export, as it will ensure that the object is exported with the correct IFC type.
 
 ![](images/Exercise_arch_10.jpg )
 

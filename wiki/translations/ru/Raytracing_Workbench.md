@@ -1,7 +1,7 @@
 # Raytracing Workbench/ru
-**Верстак Raytracing по сути устарел. Ведётся новая разработка  [https   *//github.com/FreeCAD/FreeCAD-render верстака Render], который планируется как замена. Этот верстак полностью программируется на Python, поэтому его легче расширить.
+**Верстак Raytracing по сути устарел. Ведётся новая разработка  [https   *//github.com/FreeCAD/FreeCAD-render Верстака Render], который планируется как замена. Этот верстак полностью программируется на Python, поэтому его легче расширить.
 
-Тем не менее, информация на этой странице в общем полезна для нового верстака, и оба модуля в основе работают одинаково.
+Тем не менее, информация на этой странице в целом полезна для нового верстака, поскольку оба модуля работают в основном одинаково.
 **
 
 <img alt="Логотип верстака Raytracing" src=images/Workbench_Raytracing.svg  style="width   *128px;">
@@ -38,28 +38,22 @@
 
 ### Инструменты проекта 
 
-
-<div class="mw-translate-fuzzy">
-
 Это главные инструменты для экспорта Вашей трёхмерной работы во внешние визуализаторы.
 
--   <img alt="" src=images/Raytrace_New.svg  style="width   *32px;"> [New PovRay project](Raytracing_New/ru.md)   * Вставляет в документ новый проект PovRay
--   <img alt="" src=images/Raytrace_Lux.svg  style="width   *32px;"> [New LuxRender project](Raytracing_Lux/ru.md)   * Вставляет в документ новый проект LuxRender
--   <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width   *32px;"> [Insert part](Raytracing_InsertPart/ru.md)   * Вставляет вид объекта Part в проект визуализации
--   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width   *32px;"> [Reset camera](Raytracing_ResetCamera/ru.md)   * Сопоставляет позицию камеры проекта трассировки лучей с текущим видом
--   <img alt="" src=images/Raytrace_ExportProject.svg  style="width   *32px;"> [Export project](Raytracing_ExportProject/ru.md)   * Экспортирует проект визуализации в файл сцены для отрисовки во внешнем визуализаторе
--   <img alt="" src=images/Raytrace_Render.svg  style="width   *32px;"> [Render](Raytracing_Render/ru.md)   * Визуализирует проект трассировки лучей во внешнем визуализаторе
-
-
-</div>
+-   <img alt="" src=images/Raytracing_New.svg  style="width   *32px;"> [Новый проект Pov-Ray](Raytracing_New/ru.md)   * Вставляет в документ новый проект PovRay
+-   <img alt="" src=images/Raytracing_Lux.svg  style="width   *32px;"> [Новый проект LuxRender](Raytracing_Lux/ru.md)   * Вставляет в документ новый проект LuxRender
+-   <img alt="" src=images/Raytracing_InsertPart.svg  style="width   *32px;"> [Вставить деталь](Raytracing_InsertPart/ru.md)   * Вставляет вид объекта Part в проект визуализации
+-   <img alt="" src=images/Raytracing_ResetCamera.svg  style="width   *32px;"> [Сброс камеры](Raytracing_ResetCamera/ru.md)   * Сопоставляет позицию камеры проекта трассировки лучей с текущим видом
+-   <img alt="" src=images/Raytracing_ExportProject.svg  style="width   *32px;"> [Экспортировать проект](Raytracing_ExportProject/ru.md)   * Экспортирует проект визуализации в файл сцены для отрисовки во внешнем визуализаторе
+-   <img alt="" src=images/Raytracing_Render.svg  style="width   *32px;"> [Визуализировать](Raytracing_Render/ru.md)   * Визуализирует проект трассировки лучей во внешнем визуализаторе
 
 ### Утилиты
 
 Это вспомогательные инструменты для ручного выполнения особых задач.
 
--   <img alt="" src=images/Raytracing_WriteView.svg  style="width   *32px;"> [Export view to povray](Raytracing_WriteView/ru.md)   * Записывает активный трёхмерный вид с камерой и содержимым в файл povray
--   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width   *32px;"> [Export camera to povray](Raytracing_WriteCamera/ru.md)   * Экспортирует позицию камеры активного трёхмерного вида в формате POV-Ray в файл
--   <img alt="" src=images/Raytracing_WritePart.svg  style="width   *32px;"> [Export part to povray](Raytracing_WritePart/ru.md)   * Записывает выделенный объект Part как файл povray
+-   <img alt="" src=images/Raytracing_WriteView.svg  style="width   *32px;"> [Экспорт вида в POV-Ray](Raytracing_WriteView/ru.md)   * Записывает активный трёхмерный вид с камерой и содержимым в файл povray
+-   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width   *32px;"> [Экспорт вида в POV-Ray](Raytracing_WriteCamera/ru.md)   * Экспортирует позицию камеры активного трёхмерного вида в формате POV-Ray в файл
+-   <img alt="" src=images/Raytracing_WritePart.svg  style="width   *32px;"> [Экспортировать деталь в POV-Ray](Raytracing_WritePart/ru.md)   * Записывает выделенный объект Part как файл povray
 
 ## Настройки
 

@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionHoleCircle
    Name/fr   *TechDraw Axes de centrage de trous/vis
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Axes de centrage des trous/vis
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Axes de centrage des trous/vis
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -24,7 +24,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width  
 2.  Sélectionnez trois cercles ou plus formant un motif circulaire.
 3.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> [Axes de centrage des trous/vis](TechDraw_ExtensionHoleCircle/fr.md)**.
-    -   Sélectionnez la commande **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> Axes de centrage des trous/vis** à partir du menu.
+    -   Sélectionnez la commande **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> Axes de centrage des trous/vis** à partir du menu.
 4.  Les axes de centrage sont ajoutées.
 
 

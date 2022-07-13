@@ -36,7 +36,7 @@ Questo comando posiziona un oggetto Piano proxy allineato al corrente [Piano di 
 
 </div>
 
-## Context menu 
+## Menu contestuale 
 
 For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu   *
 

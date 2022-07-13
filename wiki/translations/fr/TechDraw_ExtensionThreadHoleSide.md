@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionThreadHoleSide
    Name/fr   *TechDraw Corps de taraudage
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Corps de taraudage
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Corps de taraudage
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Version   *0.20
    SeeAlso   *[TechDraw Corps de filetage](TechDraw_ExtensionThreadBoltSide/fr.md)
@@ -23,7 +23,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="wid
 2.  Sélectionnez deux lignes parallèles.
 3.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px>. [Corps de taraudage](TechDraw_ExtensionThreadHoleSide/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px> Corps de taraudage** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px> Corps de taraudage** à partir du menu.
 4.  Un filet cosmétique est ajouté.
 
 

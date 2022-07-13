@@ -2,11 +2,11 @@
 {{Macro/fr
 |Name=Macro FCSpring Helix Variable
 |Icon=FCSpring Helix Variable.png
-|Description=Cette macro crée un ressort avec personnalisable, tout tour peut changer la configuration du ressort peut être enregistré dans un fichier avec l'extension '''.FCSpring'''.<br/>Sont détectés   * Surface (direction de la face), Cylindre (rayon), Ellipse (rayon mineur), Sphère (rayon), Tore (rayon1), Plan (direction), Ligne (suit la direction), point (Position XYZ du vertex) <br / > Si aucun objet n'est détecté (pas de sélection), le ressort est créé au point XYZ 0., 0., 0. <br/>Voir des [https   *//www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable/fr#Exemples exemples]
+|Description=Cette macro crée un ressort personnalisable. Chaque tour peut modifier la configuration du ressort qui peut être enregistrée dans un fichier avec l'extension '''.FCSpring''' ou les coordonnées '''.FCSpringCoor'''.<br/>Sont détectés    * Surface (direction de la face), Cylindre (rayon), Ellipse (rayon mineur), Sphère (rayon), Toroïde (rayon 1), Plan (direction), Ligne (suit la direction), Point (position du sommet XYZ). <br/ > Si aucun objet n'est détecté (pas de sélection), le ressort est créé au point XYZ 0., 0., 0. <br/>Voir des [https   *//www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable/fr#Exemples exemples]
 |Author=Mario52
 |Version=01.18
 |Date=2022/03/16
-|Download= du fichier .zip [https   *//forum.freecadweb.org/download/file.php?id=80844 des icônes]
+|Download=Le fichier .zip [https   *//forum.freecadweb.org/download/file.php?id=80844 des icônes]
 |FCVersion=0.19
 }}
 

@@ -49,7 +49,7 @@ The CalculiX interface supports the following objects   *
 
 ## Postprocessing interface 
 
-The FEM Workbench loads CalculiX results to the result object which will contain   *
+The FEM Workbench loads CalculiX results into a [result object](FEM_ResultShow.md) which will contain   *
 
 -   Displacements
 -   Stresses

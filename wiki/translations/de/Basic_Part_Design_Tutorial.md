@@ -114,6 +114,8 @@ Als nächstes das ![ 32px](images/_Sketcher_CreatePolyline.svg )[Polylinie](Sket
 
 </div>
 
+*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed.(The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
+
 
 <div class="mw-translate-fuzzy">
 
@@ -130,7 +132,7 @@ Als nächstes das ![ 32px](images/_Sketcher_CreatePolyline.svg )[Polylinie](Sket
 
 An diesem Punkt sollten Sie eine vollständig eingeschränkte Skizze haben, wie durch die Farbe und die in der Combo-Ansicht angezeigte Nachricht angezeigt. Es sollte jetzt genau wie das Bild unten aussehen.
 
-![](images/Tut17_profile.png )
+![](images/Tut17B_profile.png )
 
 
 <div class="mw-translate-fuzzy">

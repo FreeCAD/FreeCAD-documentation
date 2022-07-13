@@ -323,6 +323,20 @@ or raises an exception if it is not periodic.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> projectPoint
+
+Computes the projection of a point on the curve
+
+projectPoint(Point=Vector,[Method="NearestPoint"])
+projectPoint(Vector,"NearestPoint") -> Vector
+projectPoint(Vector,"LowerDistance") -> float
+projectPoint(Vector,"LowerDistanceParameter") -> float
+projectPoint(Vector,"Distance") -> list of floats
+projectPoint(Vector,"Parameter") -> list of floats
+projectPoint(Vector,"Point") -> list of points
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> restoreContent
 
 restoreContent(obj) -> None

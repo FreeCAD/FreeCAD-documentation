@@ -11,7 +11,7 @@
 
 ## Description
 
-ElementGeometry1D is used to define cross sections for beam elements. Currently the following types of cross sections are available   * rectangular, circular and pipe.
+**ElementGeometry1D** is used to define cross sections for beam elements. Currently the following types of cross sections are available   * rectangular, circular and pipe.
 
 ## Usage
 

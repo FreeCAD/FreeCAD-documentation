@@ -141,25 +141,25 @@ The goal of this article is to list the most important currently missing feature
 ## Workarounds for the FEM Workbench 
 
 ++++
-| No. | Missing feature                                                                                                                               | Workarounds                                                                                 |
-+=====+===============================================================================================================================================+=============================================================================================+
-| 1   | Beams with arbitrary [cross-section](FEM_ElementGeometry1D.md)                                                                        | -   no known workaround                                                                     |
+| No. | Missing feature                                                                                                                               | Workarounds                                                                                                                                                                                                                                  |
++=====+===============================================================================================================================================+==============================================================================================================================================================================================================================================+
+| 1   | Beams with arbitrary [cross-section](FEM_ElementGeometry1D.md)                                                                        | -   no known workaround                                                                                                                                                                                                                      |
 ++++
-| 2   | [Pressure load](FEM_ConstraintPressure.md) on shells, distributed load on beams                                                       | -   [force load](FEM_ConstraintForce.md)                                            |
+| 2   | [Pressure load](FEM_ConstraintPressure.md) on shells, distributed load on beams                                                       | -   [force load](FEM_ConstraintForce.md)                                                                                                                                                                                             |
 ++++
-| 3   | Support for multiple meshes and thus possibility to define [contact](FEM_ConstraintContact.md) between touching (not separated) faces | -   no known workaround                                                                     |
+| 3   | Support for multiple meshes and thus possibility to define [contact](FEM_ConstraintContact.md) between touching (not separated) faces | -   no known workaround                                                                                                                                                                                                                      |
 ++++
-| 4   | Applying torque to any surface                                                                                                                | -   [Transform constraint](FEM_ConstraintTransform.md) (only for cylindrical faces) |
+| 4   | Applying torque to any surface                                                                                                                | -   [Transform constraint](FEM_ConstraintTransform.md) (only for cylindrical faces)                                                                                                                                                  |
 ++++
-| 5   | Defining rigid bodies and virtual elements                                                                                                    | -   no known workaround                                                                     |
+| 5   | Defining rigid bodies and virtual elements                                                                                                    | -   no known workaround                                                                                                                                                                                                                      |
 ++++
-| 6   | Advanced material models (hyperelasticity, creep and so on)                                                                                   | -   no known workaround                                                                     |
+| 6   | Advanced material models (hyperelasticity, creep and so on)                                                                                   | -   no known workaround                                                                                                                                                                                                                      |
 ++++
-| 7   | Composite shells                                                                                                                              | -   no known workaround                                                                     |
+| 7   | Composite shells                                                                                                                              | -   no known workaround                                                                                                                                                                                                                      |
 ++++
-| 8   | Simple creation of node and element sets                                                                                                      | -   no known workaround                                                                     |
+| 8   | Simple creation of node and element sets                                                                                                      | -   no known workaround                                                                                                                                                                                                                      |
 ++++
-| 9   | CalculiX keyword editor                                                                                                                       | -   no known workaround                                                                     |
+| 9   | CalculiX keyword editor that can fold data lines and allow changes not only right before running the analysis                                 | -   simple editor that can open the .inp file before running the analysis, color the syntax and save changes (accessed using the **Edit .inp file** button in [FEM SolverControl](FEM_SolverControl.md) window) |
 ++++
 
 ## General workarounds 

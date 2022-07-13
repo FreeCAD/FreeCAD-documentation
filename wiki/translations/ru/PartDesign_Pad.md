@@ -19,12 +19,12 @@
 
 ## Применение
 
-1.  Select one sketch or face to be padded. <small>(v0.20)</small>    * Alternatively you can select several sketches or faces.
-2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> [Pad](PartDesign_Pad.md)** button.
-3.  Set the Pad parameters, see the [Options](#Options.md) below.
-4.  Click **OK**.
+1.  Выберите один эскиз или грань для выдавливания. <small>(v0.20)</small>    * Можно также выбрать несколько эскизов или граней.
+2.  Нажмите кнопку **<img src="images/PartDesign_Pad.svg" width=16px> [Выдавливание](PartDesign_Pad/ru.md)**.
+3.  Установите параметры Выдавливания, смотрите [Опции](#Options.md) ниже.
+4.  Нажмите **OK**.
 
-When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
+При выборе одного эскиза он может иметь несколько замкнутых профилей внутри большего, например прямоугольник с двумя окружностями внутри. Но профили могут не пересекаться друг с другом. <small>(v0.20)</small> 
 
 ## Опции
 
@@ -32,39 +32,39 @@ When creating a pad, the **Pad parameters** dialog will be shown. It offers the 
 
 ![](images/pad_parameters_cropped.png )
 
-### Тип (Type) 
+### Тип
 
-Type offers five different ways of specifying the length to which the pad will be extruded   *
+Тип предлагает пять различных способов задания протяжённости выдавливания   *
 
-#### Dimension
+#### Размер
 
 Enter a numeric value for the length of the pad. The default direction for extrusion is away (outside of) the support, but it can be changed by ticking the **Reversed** option. Extrusions occur by default [normal](http   *//en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. This can be changed by specifying another **Direction**. With the option **Symmetric to plane** the pad will extend half of the given length to either side of the plane. Negative dimensions are not possible. Use the **Reversed** option instead.
 
-#### To last 
+#### К последнему 
 
 The pad will extrude up to the last face of the support in the extrusion direction. If there is no support, an error message will appear.
 
-#### To first 
+#### К первому 
 
 The pad will extrude up to the first face of the support in the extrusion direction. If there is no support, an error message will appear.
 
-#### Up to face 
+#### До грани 
 
 The pad will extrude up to a face in the model that can be chosen by clicking on it.
 
-#### Two dimensions 
+#### Два размера 
 
 This allows to enter a second length in which the pad should extend in the opposite direction (into the support). The directions can be switched by ticking the **Reversed** option.
 
-### Length
+### Длина
 
 Defines the length of the pad. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available when **Type** is either **Dimension** or **Two dimensions**.
 
-### Offset to face 
+### Смещение к грани 
 
 Offset from face at which the pad will end. This option is only available when **Type** is either **To last**, **To first** or **Up to face**.
 
-### Direction
+### Направление
 
 #### Direction/edge
 
@@ -135,14 +135,14 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 ## Ограничения
 
--   Like all Part Design features, Pad creates a solid, thus the sketch must include a closed profile or it will fail with a *Failed to validate broken face* error.
--   The algorithm used for **To First** and **To Last** is   *
-    -   Create a line through the center of gravity of the sketch
-    -   Find all faces of the support cut by this line
-    -   Choose the face where the intersection point is nearest/furthest from the sketch
+-   Как и все элементы Part Design, Выдавливание создает твёрдое тело, поэтому эскиз должен содержать замкнутый профиль, иначе произойдет сбой с ошибкой *Failed to validate broken face*.
+-   Алгоритм, используемый для **К первому** и **К Последнему**   *
+    -   Создаёт линию через центр эскиза
+    -   Находит все грани твёрдого тела, разрезанные этой линией.
+    -   Выбирает грань, в которой точка пересечения находится ближе/дальше всего от эскиза
 
-   *   This means that the face that is found might not always be what you expected. If you run into this problem, use the **Up to face** type instead, and pick the face you want.
-   *   For the very special case of extrusion to a concave surface, where the sketch is larger than this surface, extrusion will fail. This is a unresolved bug.
+   *   Это означает, что найденная грань может быть не всегда такой, которую вы ожидали. Если вы столкнулись с этой проблемой, используйте вместо этого тип **До грани** и выберите нужную грань.
+   *   Для особого случая выдавливания на вогнутую поверхность, где эскиз больше этой поверхности, выдавливание не выполняется. Это неразрешенная ошибка.
 
 
 

@@ -3,69 +3,57 @@
 
 ## Resumen
 
-
-<div class="mw-translate-fuzzy">
-
 Es posible definir propiedades utilizando expresiones matemáticas. En la interfaz gráfica de usuario, los cuadros de giro o campos de entrada que están vinculados a las propiedades contienen un icono azul <img alt="" src=images/Bound-expression.svg  style="width   *24px;">. Haciendo clic en el icono o escribiendo el signo igual **&#61;** aparece el editor de expresiones para esa propiedad en particular.
-
-
-</div>
 
 Es una expresión matemática que sigue la notación de los operadores y funciones matemáticas estándar, como se describe a continuación. Además, la expresión puede hacer referencia a otras propiedades, y también utilizar condicionales. Los números en una expresión pueden tener una unidad opcional adjunta.
 
-Numbers may use either a comma `,` or a decimal point `.` separating whole digits from decimals. When the decimal marker is used, it *must* be followed by at least one digit. Thus, the expressions `1.+2.` and `1,+2,` are invalid, but `1.0 + 2.0` and `1,0 + 2,0` are valid.
+Los número pueden usar ya sea una coma `,` o un punto decimal `.` para separar los dígitos enteros de los decimales. Cuando se usa el marcador decimal, \"debe\" ser seguido por al menos un dígito. Por lo tanto, las expresiones {{incode | 1.+2.}} y {{incode | 1,+2,}} son inválidas, pero {{incode | 1.0+2.0}} y {{incode | 1,0+2,0}} son válidas.
 
-Operators and functions are unit-aware, and require valid combinations of units, if supplied. For example, `2mm + 4mm` is a valid expression, while `2mm + 4` is not (the reason for this is that an expression like `1in + 4` will most likely be interpreted as `1in + 4in` by humans, but all units are converted to the SI system internally, and the system is not able to guess this). These [units](#Units.md) are currently recognized.
+Los operadores y las funciones son conscientes de la unidad y requieren combinaciones válidas de unidades, si se suministran. Por ejemplo, {{incode | 2mm+4mm}} es una expresión válida, mientras que {{incode | 2mm+4}} no lo es (la razón es que una expresión como {{incode | 1in+4}} probablemente será interpretada como {{Incode | 1in+4in}} por los humanos, pero todas las unidades se convierten al sistema métrico internamente, y el sistema no puede adivinar esto). Estas [unidades](#Unidades.md) son reconocidas actualmente.
 
-You can use [predefined constants](#Supported_constants.md) and [functions](#Supported_functions.md).
-
-
-<div class="mw-translate-fuzzy">
+Puedes usar [constantes predefinidas](#Constantes_soportadas.md) y [funciones](#Funciones_soportadas.md).
 
 ### Argumentos de la función 
 
+Múltiples argumentos a una función pueden estar separados por un punto y coma  seguida por un espacio  {{incode |, }}. En el último caso, la coma se convierte a un punto y coma después de la entrada. Cuando se usa un punto y coma, no es necesario un espacio final.
 
-</div>
-
-Multiple arguments to a function may be separated by either a semicolon followed by a space `, `. In the latter case, the comma is converted to a semicolon after entry. When a semicolon is used, no trailing space is necessary.
-
-Arguments may include references to cells in a spreadsheet. A cell reference consists of the cell\'s uppercase row letter followed by its column number, for example `A1`. A cell may also be referenced by using the cell\'s alias instead, for example `Spreadsheet.MyPartWidth`.
+Los argumentos pueden incluir referencias a las celdas en una hoja de cálculo. Una referencia de celda consiste en la letra mayúscula de fila de la celda seguida de su número de columna, por ejemplo {{incode | A1}}. También se puede hacer referencia a una celda utilizando el alias de la celda, por ejemplo, `Spreadsheet.MyPartWidth`.
 
 ### Referencia de objetos 
 
-You can reference an object by its **Name** or by its **Label**. In the case of a **Label**, it must be enclosed in double `<<` and `>>` symbols, such as `<<Label>>`.
+Puede hacer referencia a un objeto por su {{PropertyData | Name}} o por su {{PropertyData | Label}}. En el caso de un {{PropertyData | Label}}, debe estar encerrado en doble símbolos {{incode | <<}} y {{incode | >>}}, como {{incode | <<Label>>}}.
 
-You can reference any property of an object. For example, to reference a Cylinder\'s height, you may use `Cylinder.Height` or `<<Long_name_of_cylinder>>.Height`. To reference the object itself use the `_self` pseudo property. For example, you may use `Cylinder._self` or `<<Label_of_cylinder>>._self`.
+Puede referenciar cualquier propiedad de un objeto. Por ejemplo, para referenciar la altura de un Cilindro puede usar `Cylinder.Height` o `<<Long_name_of_cylinder>>.Height`. Para referenciar al objeto mismo use la pseudo propiedad `_self`. Por ejemplo, puede usar `Cylinder._self` o `<<Label_of_cylinder>>._self`.
 
-To reference list objects, use `<<object_label>>.list[list_index]` or `object_name.list[list_index]`. If you want for example to reference a constraint in a sketch, use `<<MySketch>>.Constraints[16]`. If you are in the same sketch you may omit its name and just use `Constraints[16]`.
-**Note   *** The index starts with 0, therefore constraint 17 has the index 16.
+Para referenciar una lista de objetos use `<<object_label>>.list[list_index]` or `object_name.list[list_index]`. Si quiere por ejemplo referenciar una restricción de un croquis use `<<MySketch>>.Constraints[16]`. Si está en el mismo croquis puede omitir su nombre y solo usar `Constraints[16]`.
+**Nota   *** El índice inicia en 0, por lo que la restricción 17 tiene el índice 16.
 
-For more information about referencing objects, see [Reference to CAD\_data](#Reference_to_CAD_data.md). {{Top}}
+Para más información de como referenciar objetos, vea [Referencia a los datos CAD](#Referencia_a_los_datos_CAD.md). {{Top}}
 
 ## Constantes soportadas 
 
-The following constants are supported   *
+Las siguientes constantes están soportadas.
 
   Constant   Description
    
-  **e**      [Euler\'s number](https   *//en.wikipedia.org/wiki/E_(mathematical_constant))
-  **pi**     [Pi](https   *//en.wikipedia.org/wiki/Pi)
+  **e**      [Número de Euler](https   *//es.wikipedia.org/wiki/N%C3%BAmero_e)
+  **pi**     [Pi](https   *//es.wikipedia.org/wiki/N%C3%BAmero_%CF%80)
 
 
 {{Top}}
 
 ## Operadores soportados 
 
-The following operators are supported   *
+Los siguientes operadores son soportados.
 
   Operator   Description
    
-  **+**      [Addition](https   *//en.wikipedia.org/wiki/Addition)
-  **-**      [Subtraction](https   *//en.wikipedia.org/wiki/Subtraction)
-  **\***     [Multiplication](https   *//en.wikipedia.org/wiki/Multiplication)
-  **/**      Floating point [Division](https   *//en.wikipedia.org/wiki/Division_(mathematics))
-  **%**      [Remainder](https   *//en.wikipedia.org/wiki/Remainder)
-  **\^**     [Exponentiation](https   *//en.wikipedia.org/wiki/Exponentiation)
+  **+**      [Suma](https   *//es.wikipedia.org/wiki/Adici%C3%B3n_(matem%C3%A1tica))
+  **-**      [Resta](https   *//es.wikipedia.org/wiki/Resta)
+  **\***     [Multiplicación](https   *//es.wikipedia.org/wiki/Multiplicaci%C3%B3n)
+  **/**      [Division](https   *//es.wikipedia.org/wiki/Divisi%C3%B3n_(matem%C3%A1tica)) de punto flotante
+  **%**      [Residuo](https   *//es.wikipedia.org/wiki/Resto)
+  **\^**     [Potenciación](https   *//es.wikipedia.org/wiki/Potenciaci%C3%B3n)
 
 
 {{Top}}
@@ -74,9 +62,9 @@ The following operators are supported   *
 
 ### Funciones matemáticas generales 
 
-The following mathematical functions are supported   *
+Las siguientes funciones matemáticas son soportadas   *
 
-#### Trigonometric functions 
+#### Funciones trigonométricas 
 
 [Trigonometric functions](https   *//en.wikipedia.org/wiki/Trigonometric_functions) use degree as their default unit. For radian measure, add first value in an expression. So e.g. `cos(45)` is the same as `cos(pi rad / 4)`. Expressions in degrees can use either `deg` or `°`, e.g. `360deg - atan2(3; 4)` or `360&deg; - atan2(3; 4)`. If an expression is without units and needs to be converted to degrees or radians for compatibility, multiply by `1&nbsp;deg`, `1&nbsp;°` or `1&nbsp;rad` as appropriate, e.g. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 

@@ -5,13 +5,7 @@
 
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
-Il **Modulo FEM** offre a FreeCAD un moderno flusso di lavoro per [l\'analisi agli elementi finiti](https   *//en.wikipedia.org/wiki/Finite_element_analysis) (FEA). Questo significa che tutti gli strumenti per fare una analisi degli elementi finiti sono combinati in una GUI.
-
-
-</div>
+L\' **Ambiente FEM** offre a FreeCAD un moderno flusso di lavoro per [l\'analisi agli elementi finiti](https   *//en.wikipedia.org/wiki/Finite_element_analysis) (FEA). Questo significa che tutti gli strumenti per fare una analisi degli elementi finiti sono combinati in una GUI.
 
 <img alt="" src=images/FemWorkbench.jpg  style="width   *300px;">
 
@@ -50,13 +44,7 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [ Materiale rinforzato (calcestruzzo)](FEM_MaterialReinforced/it.md)   * consente di selezionare dal database i materiali rinforzati costituiti da una matrice e un rinforzo.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Editor dei materiali](FEM_MaterialEditor/it.md)   * Consente di aprire l\'editor dei materiali per modificare i materiali.
-
-
-</div>
 
 ### Geometria dell\'elemento 
 
@@ -66,23 +54,11 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width   *32px;"> [Spessore di una lastra](FEM_ElementGeometry2D/it.md)   *
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width   *32px;"> [Sezione del fluido per flusso 1D](FEM_ElementFluid1D/it.md)   * Crea un elemento sezione del fluido FEM per reti pneumatiche e idrauliche.
-
-
-</div>
+-   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width   *32px;"> [Sezione del fluido per flusso 1D](FEM_ElementFluid1D/it.md)   * Usato per creare un elemento sezione del fluido FEM per reti pneumatiche e idrauliche.
 
 ### Vincoli elettrostatici 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *32px;"> [Potenziale elettrostatico di vincolo](FEM_ConstraintElectrostaticPotential/it.md)   *
-
-
-</div>
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *32px;"> [Vincolo Potenziale elettrostatico](FEM_ConstraintElectrostaticPotential/it.md)   * Usato per la definizione del potenziale elettrostatico
 
 ### Vincoli dei fluidi 
 
@@ -94,13 +70,7 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width   *32px;"> [Vincolo piano di rotazione](FEM_ConstraintPlaneRotation/it.md)   * Serve per definire un vincolo piano di rotazione su una faccia piana.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width   *32px;"> [Stampa sezione dei vincoli](FEM_ConstraintSectionPrint/it.md)   * <small>(v0.19)</small> 
-
-
-</div>
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width   *32px;"> [Stampa sezione dei vincoli](FEM_ConstraintSectionPrint/it.md)   * Utilizzato per stampare le variabili di output facciale predefinite (forze e momenti) nel file dat.<small>(v0.19)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width   *32px;"> [Vincolo trasforma](FEM_ConstraintTransform/it.md)   * Utilizzato per definire un vincolo di trasformazione su una faccia.
 

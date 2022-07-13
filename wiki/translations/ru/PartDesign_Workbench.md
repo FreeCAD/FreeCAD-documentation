@@ -7,7 +7,7 @@
 
 <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;">[Верстак PartDesign](PartDesign_Workbench/ru.md) предоставляет расширенные инструменты для моделирования сложных твердых деталей. Предназначен в основном для создания механических деталей, которые можно изготовить и собрать в готовый продукт. Тем не менее, созданные тела могут быть использованы в целом для любых других целей, таких как [архитектурный дизайн](Arch_Workbench/ru.md), [анализ методом конечных элементов](FEM_Workbench/ru.md), или [механическая обработка и 3D-печать](Path_Workbench/ru.md).
 
-PartDesign Workbench неразрывно связан с [верстаком Sketcher](Sketcher_Workbench/ru.md). Пользователь обычно создает эскиз, затем использует инструмент [PartDesign Pad](PartDesign_Pad/ru.md) для его выдавливания и создания простого объемного тела, далее это тело дополнительно модифицируется.
+Верстак PartDesign неразрывно связан с [верстаком Sketcher](Sketcher_Workbench/ru.md). Пользователь обычно создаёт эскиз, затем используя инструмент [Выдавливание PartDesign](PartDesign_Pad/ru.md) для его выдавливания и создания базового твёрдого тела, которое в последующем модифицируется (изменяется).
 
 В то время как <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Верстак \"Part\"](Part_Workbench/ru.md) основан на методологии [конструктивной сплошной геометрии](constructive_solid_geometry/ru.md) (CSG) для построения фигур, верстак PartDesign использует параметрическую методологию редактирования объектов, которая означает, что базовое твердое тело последовательно преобразуется путем добавления элементов от начала и до тех пор, пока не будет получена окончательная форма. Более полное объяснение данного процесса см. на странице [особенности редактирования компонентов](feature_editing/ru.md). Страница   * [создание простой детали с помощью PartDesign](Creating_a_simple_part_with_PartDesign/ru.md), так же описывает процесс создание твердых тел.
 
@@ -27,7 +27,7 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/Std_Part.svg  style="width   *32px;"> [Создать деталь](Std_Part/ru.md)   * создает новую Деталь в текущем документе и делает её активной.
 
--   <img alt="" src=images/Std_Group.svg  style="width   *32px;"> [Создать группу](Std_Group/ru.md)   * создает в текужем документе объединяющий контейнер группу, что позволяет упорядочить объекты в [дереве просмотра](Tree_view.md).
+-   <img alt="" src=images/Std_Group.svg  style="width   *32px;"> [Создать группу](Std_Group/ru.md)   * добавляет в текущий документ контейнер группы, который позволяет организовать объекты в [древовидном представлении](Tree_view.md).
 
 ### Вспомогательные инструменты Part Design 
 
@@ -71,15 +71,9 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 </div>
 
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width   *32px;"> [Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md)   * создаёт геометрию привязки формы из одного или нескольких родительских объектов. {{Version/ru|0.19}}
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width   *32px;"> [Создать связующую форму к подэлементу](PartDesign_SubShapeBinder/ru.md)   * создает связующую форму к подэлементу, например к краю или грани другого тела, сохраняя при этом относительное положение этого элемента.{{Version/ru|0.19}}
-
-
-</div>
-
--   <img alt="" src=images/PartDesign_Clone.svg  style="width   *32px;"> [Создать нового клона](PartDesign_Clone/ru.md)   * клонирует выбранное тело.
+-   <img alt="" src=images/PartDesign_Clone.svg  style="width   *32px;"> [Создать клон](PartDesign_Clone/ru.md)   * клонирует выбранное тело.
 
 #### Инструменты добавления (наращивания) материала (Additive tools) 
 
@@ -91,13 +85,13 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width   *32px;"> [Аддитивный профиль](PartDesign_AdditiveLoft/ru.md)   * создает переходную форму, между двумя и более переходными контурами.
 
--   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width   *32px;"> [Аддитивная трубный профиль](PartDesign_AdditivePipe/ru.md)   * создает сплошное тело, перемещая один или несколько эскизов по конечной или замкнутой траектории.
+-   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width   *32px;"> [Аддитивный профиль по траектории](PartDesign_AdditivePipe/ru.md)   * создаёт твёрдое тело путем протягивания одного или нескольких эскизов вдоль открытой или замкнутой траектории.
 
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width   *32px;"> [Аддитивная спираль](PartDesign_AdditiveHelix/ru.md)   * создает сплошное тело, перемещая эскиз по спирали. {{Version/ru|0.19}}
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width   *48px;"> [Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md)   * добавляет аддитивный примитив к активному телу.
 
-   **<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width   *32px;"> [Аддитивный куб](PartDesign_AdditiveBox/ru.md)   * создает аддитивный куб.
+   **<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width   *32px;"> [Аддитивный параллелепипед](PartDesign_AdditiveBox/ru.md)   * создаёт аддитивный параллелепипед.
 
    **<img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width   *32px;"> [Аддитивный цилиндр](PartDesign_AdditiveCylinder/ru.md)   * создает аддитивный цилиндр.
 

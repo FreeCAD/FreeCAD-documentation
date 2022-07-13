@@ -49,14 +49,8 @@ Los piñones son conectados a una correa de distribución o una cadena de distri
 
 ## Enlaces
 
-
-<div class="mw-translate-fuzzy">
-
 -   Hilo del foro   * [GT2, GT3 and GT5 Timing Gear Creator](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35899).
--   También puedes crear piñones de con [FCGear\_TimingGear](FCGear_TimingGear.md).
-
-
-</div>
+-   También puedes crear piñones de el comando [FCGear\_TimingGear](FCGear_TimingGear.md) de [FCGear Workbench](FCGear_Workbench.md).
 
 ## Script
 

@@ -2,12 +2,12 @@
 {{Macro/fr
 |Name=Macro FCCInfo ToolBar
 |Icon=FCInfoToolBar.png
-|Description=Donne des informations en temps réel sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume ... dans différentes unités (métriques et impériales) dans une barre d'outils. Les informations à afficher sont paramétrables dans le Paramètre de FreeCAD.
+|Description=Donne des informations en temps réel sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume... dans différentes unités (métriques et impériales) dans une barre d'outils. Les informations à afficher sont paramétrables dans les Paramètres de FreeCAD.
 |Author=Mario52
 |Version=00.03
 |Date=2022/03/29
 |FCVersion=0.18 et plus
-|Download= [https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
+|Download= [https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png Icône de la barre d'outils]
 |SeeAlso = [Arch Prendre des cotes](Arch_Survey/fr.md), [Macro FCInfo](Macro_FCInfo/fr.md), [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
 }}
 

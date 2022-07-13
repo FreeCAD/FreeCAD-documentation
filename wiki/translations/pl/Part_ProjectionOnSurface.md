@@ -88,6 +88,8 @@ Jeśli tak się stanie   *
 -   Sprawdź, czy kierunek rzutowania jest poprawny. Czy powierzchnia źródłowa może być realistycznie rzutowana na powierzchnię docelową? Czy rzut prosty trafiłby w powierzchnię? Ustaw ujęcie widoku tak, aby powierzchnia źródłowa znajdowała się przed powierzchnią docelową, a następnie spróbuj ponownie.
 -   Spróbuj użyć opcji {{RadioButton|TRUE|Wyświetl krawędzie}}. Czy krawędzie są wyświetlane poprawnie? Spróbuj ręcznie odtworzyć krawędzie na powierzchni.
 
+Rzutowanie wykonane w środowisku pracy Część nie jest parametryczne. Jeśli potrzebujesz parametrycznego przepływu pracy, proszę skonsultuj [klasę Projection](https   *//gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), która jest obiektem skryptowym środowiska Python, przeznaczonym do użytku programistycznego.
+
 ## Odnośniki internetowe 
 
 -   Wątek na forum   * [Rzutowanie powierzchni czołowych na zagiętą powierzchnię](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=33700)

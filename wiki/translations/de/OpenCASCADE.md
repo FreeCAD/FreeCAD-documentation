@@ -43,7 +43,13 @@ In der OpenCascade Terminologie unterscheiden wir zwischen geometrischen Grundel
 
 Zusammenfassend lässt sich sagen, dass Geometrie Grundelemente \"formlose\" Bausteine sind, während [topologische Formen](Part_TopoShape/de.md) die darauf aufgebauten realen Objekte sind.
 
+
+<div class="mw-translate-fuzzy">
+
 Eine vollständige Liste aller Grundelemente und Formen findest du in der [OCC Dokumentation](http   *//www.opencascade.org/org/doc/) (Alternativ   * [sourcearchive.com](https   *//www.opencascade.com/doc/occt-7.4.0/refman/html/)) und suche nach **Geom\_\*** (für geometrische Grundelemente) und **TopoDS\_\*** (für Formen). Dort kannst du auch mehr über die Unterschiede zwischen ihnen lesen. Bitte beachte, dass die offizielle OCC Dokumentation nicht online verfügbar ist (Du musst ein Archiv herunterladen) und sich hauptsächlich an Programmierer und nicht an Endbenutzer richtet. Aber hoffentlich findest du hier genügend Informationen, um anzufangen. Siehe auch [Benutzerhandbuch zur Datenmodellierung](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
+
+
+</div>
 
 > *Auf einer sehr hohen Stufe sagt die Topologie aus, aus welchen Teilen ein Objekt besteht und welche logischen Beziehungen zwischen ihnen bestehen. Eine Form besteht aus einem bestimmten Satz von Flächen. Eine Fläche wird durch einen bestimmten Satz von Kanten begrenzt. Zwei Flächen sind benachbart, wenn sie eine gemeinsame Kante teilen.*
 

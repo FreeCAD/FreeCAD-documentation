@@ -11,9 +11,17 @@
 |FCVersion= 0.18 y por debajo
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descripción
 
 Esta macro permite poner temporalmente una imagen de textura en los objetos seleccionados. Para eliminar las texturas, simplemente cierra y vuelve a abrir el documento.
+
+
+</div>
 
 <img alt="" src=images/Textured_objects.jpg  style="width   *680px;">
 
@@ -42,9 +50,21 @@ for obj in FreeCADGui.Selection.getSelection()   *
 
 ## Links
 
+
+<div class="mw-translate-fuzzy">
+
 [Macro Texture Objects](https   *//forum.freecadweb.org/viewtopic.php?t=7216)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 [Script to map texture with environement checked](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=28795)
+
+
+</div>
 
 
 

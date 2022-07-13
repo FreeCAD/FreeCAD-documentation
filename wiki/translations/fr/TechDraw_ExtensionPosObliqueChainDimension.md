@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionPosObliqueChainDimension
    Name/fr   *TechDraw Aligner obliquement
-   MenuLocation   *TechDraw → Extensions   * Attributes/Modifications → Aligner obliquement les cotes
+   MenuLocation   *TechDraw → Extensions    * attributs/modifications → Aligner obliquement
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -23,8 +23,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  
 1.  Sélectionnez deux cotes obliques ou plus.
 2.  La première cote définit la position. Cette cote ne sera pas déplacée.
 3.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPosObliqueChainDimension.svg" width=16px> [Aligner obliquement les cotes](TechDraw_ExtensionPosObliqueChainDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Attributes/Modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Aligner obliquement les cotes** à partir du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPosObliqueChainDimension.svg" width=16px> [Aligner obliquement](TechDraw_ExtensionPosObliqueChainDimension/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * attributs/modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Aligner obliquement** à partir du menu.
 4.  Les cotes sont alignées et leurs textes sont centrés.
 
 

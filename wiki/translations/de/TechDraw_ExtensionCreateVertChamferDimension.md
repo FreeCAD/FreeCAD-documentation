@@ -1,11 +1,12 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *TechDraw ExtensionCreateVertChamferDimension
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Create Vertical Chamfer Dimension
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/de   *TechDraw ErgänzungVertikalesFasenmaß
+   MenuLocation   *TechDraw → Ergänzungen   * Maße →Vertikales Maß an Fase erstellen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Shortcut   *
    Version   *0.20
-   SeeAlso   *[TechDraw ExtensionCreateHorizChamferDimension](TechDraw_ExtensionCreateHorizChamferDimension.md)
+   SeeAlso   *[TechDraw ErgänzungHorizontalesFasenmaß](TechDraw_ExtensionCreateHorizChamferDimension/de.md)
 ---
 
 # TechDraw ExtensionCreateVertChamferDimension/de
@@ -19,10 +20,10 @@ Das <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  sty
 
 ## Anwendung
 
-1.  Wähle zwei Knotenpunkte.
+1.  Zwei Knotenpunkte auswählen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
-    -   Wähle die **<img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> [TechDraw ExtensionCreateVertChamferDimension](TechDraw_ExtensionCreateVertChamferDimension.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> Create Vertical Chamfer Dimension** Option aus dem Menü.
+    -   Die schaltfläche **<img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> [Vertikales Maß an Fase erstellen](TechDraw_ExtensionCreateVertChamferDimension/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzung   * Maße → <img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> Vertikales Maß an Fase erstellen** auswählen.
 3.  Eine Fasenbemaßung wird eingefügt.
 
 

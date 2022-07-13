@@ -52,31 +52,19 @@ El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [Am
 
 Filas y columnas pueden ser insertadas o eliminadas haciendo clic derecho en un encabezado de fila o columna y seleccionando la opción apropiada en el menú contextual. Es posible seleccionar primero varias filas o columnas. Ya sea manteniendo presionado la tecla {{KEY | Ctrl}} al seleccionar los encabezados, o manteniendo presionado el botón del mouse izquierdo y arrastrando.
 
-
-<div class="mw-translate-fuzzy">
-
 En FreeCAD versión 0.19 y anteriores las filas son insertadas arriba de las filas seleccionadas, y las columnas a la izquierda de las columnas seleccionadas. En FreeCAD versión 0.20 puede especificar el lugar de inserción.
-
-
-</div>
 
 Tenga en cuenta que eliminar filas o columnas con datos puede romper la hoja de cálculo y su modelo si se basa en la hoja de cálculo. No será advertido previamente si esto sucede.
 
 ## Cortar y copiar-pegar celdas 
 
+Las operaciones de cortar y copiar-pegar se pueden usar en las celdas de hojas de cálculo de FreeCAD. Puede usar los atajos normales para estas operaciones   * {{KEY | Ctrl}} {{KEY | X}}, {{KEY | Ctrl}} {{KEY | C}} y {{KEY | Ctrl}} {{KEY | V}} respectivamente. Para seleccionar múltiples celdas, mantenga presionada la tecla {{KEY | Ctrl}} mientras selecciona, o mantenga presionado el botón del mouse izquierdo y arrastre para seleccionar un rango de celda rectangular.
 
-<div class="mw-translate-fuzzy">
+Las operaciones de cortar y copiar almacenan el contenido y las propiedades de las celdas en el portapapeles. La operación de pegar escribe los datos de tal manera que el contenido de la celda superior izquierda de los datos almacenados aparezcan en la celda activa. Otro contenido almacenado se coloca en relación con esa celda. Las fórmulas se actualizan en consecuencia.
 
-Las operaciones de cortar y copiar-pegar se pueden usar en las celdas de hojas de cálculo de FreeCAD. Puede usar los atajos normales para estas operaciones   * {{KEY | Ctrl}} {{KEY | X}}, {{KEY | Ctrl}} {{KEY | C}} y {{KEY | Ctrl}}} {{KEY | V}} respectivamente. Para seleccionar múltiples celdas, mantenga presionada la tecla {{KEY | Ctrl}} mientras selecciona, o mantenga presionado el botón del mouse izquierdo y arrastre para seleccionar un rango de celda rectangular.
+Note que eliminar celdas con datos puede romper la hoja de cálculo y tu modelo si este se basa en la hoja de cálculo. No será advertido previamente si esto sucede.
 
-
-</div>
-
-The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
-
-Note that removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
-
-In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to hang if a non-rectangular cell range is pasted. It is advisable to save your work before performing any paste operations.
+En FreeCAD versión 0.19 y anteriores hay un error que puede hacer que FreeCAD se cuelgue si se pega un rango de celdas no rectangular. Es aconsejable guardar su trabajo antes de realizar cualquier operación de pegar.
 
 ## Propiedades de la celda 
 
@@ -107,11 +95,11 @@ Las referencias a objetos en el modelo se explican en [Referencias a datos CAD](
 
 ## Interacción entre las hojas de cálculo y el modelo CAD 
 
-Data in the cells of a spreadsheet may be used in CAD model parameter expressions. Thus, a spreadsheet may be used as the source for parameter values used throughout a model, effectively gathering the values in one place. When values are changed in the spreadsheet, they are propagated throughout the model.
+Los datos en las celdas de una hoja de cálculo pueden usarse en expresiones de parámetros del modelo CAD. Por lo tanto, una hoja de cálculo puede usarse como fuente de valores de parámetros utilizados en todo un modelo, recolectando efectivamente los valores en un solo lugar. Cuando los valores se cambian en la hoja de cálculo, se propagan por todo el modelo.
 
-Similarly, properties from CAD model objects may be used in expressions in spreadsheet cells. This allows use of object properties like volume or area in the spreadsheet. If the name of an object in the CAD model is changed, the change will automatically be propagated to any references in spreadsheet expressions using the name which was changed.
+De manera similar, las propiedades de los objetos del modelo CAD pueden usarse en expresiones en celdas de hoja de cálculo. Esto permite el uso de propiedades de objetos como volumen o área en la hoja de cálculo. Si se cambia el nombre de un objeto en el modelo CAD, el cambio se propagará automáticamente a cualquier referencia en expresiones de hoja de cálculo utilizando el nombre al que se cambió.
 
-More than one spreadsheet may be used in a document. A spreadsheet can be identified using either its name or its label.
+Se puede usar más de una hoja de cálculo en un documento. Una hoja de cálculo puede ser identificada usando su nombre o su etiqueta.
 
 FreeCAD will automatically assign a unique name to a spreadsheet when it is created. These names follow the pattern `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` and so on. The name can not be changed manually, and it is not visible in the properties of the spreadsheet. It can be used to refer to the spreadsheet in an [Expression](Expressions.md) (see [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below.)
 

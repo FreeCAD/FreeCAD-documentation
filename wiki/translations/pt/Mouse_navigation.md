@@ -100,14 +100,14 @@ Este estilo foi adequado ao uso com um ecrã táctil e caneta. No entanto pode t
 |Pan_text=Mantenha pressionado o botão direito do rato e mova o cursor.
 |Pan_gesture_text=Arraste com dois dedos.
 
-Em alternativa, toque e segure e depois arraste. Isto simula o Pan com o botão direito do rato.
+Como alternativa, toque e segure, depois arraste. Isto simula o Pan com o lado direito do rato.
 |Zoom_text=Use a roda do rato para aproximar ou afastar (zoom in/out).
 |Zoom_gesture_text=Arraste dois dedos juntando-os ou afastando-os.
-|Rotate_view_text=Mantenha pressionado o botão esquerdo do rato e mova o cursor.
-Na [Bancada de trabalho de Esboço](Sketcher_Workbench/pt.md) e outros modos de edição, este comportamento está desactivado. Mantenha pressionada a tecla **Alt** e clique com o botão esquerdo do rato para entrar em modo de rotação.
+|Rotate_view_text=Mantenha pressionado o botão esquerdo do rato e mova o cursor. 
+Na [Bancada de trabalho de esboço](Sketcher_Workbench/pt.md) e outros modos de edição, este comportamento está desactivado. Mantenha premida a tecla **Alt** quando pressiona o botão do rato para entrar no modo de rotação.
 
-Para definir o ponto de foco da câmera para rotação, clique num ponto com o botão do meio do rato. Em alternativa, ponha o cursor num ponto e clique na tecla **H** do teclado.
-|Rotate_view_gesture_text=Arraste com um dedo para rodar.
+Para definir o ponto de foco da câmera para rotação, clique num ponto com o botão do meio do rato. Como alternativa, aponte o cursor para um ponto e pressione a tecla **H** do teclado.
+|Rotate_view_gesture_text=Arraste com um dedo para girar.
 
 Mantenha pressionada a tecla **Alt** se estiver na [Bancada de trabalho de Esboço](Sketcher_Workbench/pt.md).
 |Tilt_view_text=Mantenha os botões esquerdo e direito do rato pressionados e mova o cursor para os lados. 
@@ -116,21 +116,7 @@ Mantenha pressionada a tecla **Alt** se estiver na [Bancada de trabalho de Esbo�
 Na versão v0.18 este método está desactivado por defeito. Para o activar vá ao **Edit → Preferences → Display**, e desmarque a caixa "Disable touchscreen tilt gesture".
 }}
 
-Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Zoom\_gesture\_text=Drag two fingers (pinch) closer or farther apart. \|Rotate\_view\_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
-
-To set the camera\'s focus point for rotation, click a point with the middle mouse button. Alternatively, aim the cursor at a point and press **H** on the keyboard. \|Rotate\_view\_gesture\_text=Drag with one finger to rotate.
-
-Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt\_view\_gesture\_text=Rotate the imaginary line formed by two touch points.
-
-On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
-
-
-<div class="mw-translate-fuzzy">
-
-### Maya-Gesture Navigation 
-
-
-</div>
+### Navegação por Gestos no Maya 
 
 In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this style was developed over the [Gesture navigation](#Gesture_navigation.md) style.
 

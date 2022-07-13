@@ -45,9 +45,9 @@ for obj in FreeCADGui.Selection.getSelection()   *
 
 ## Links
 
-[Macro Texture Objects](https   *//forum.freecadweb.org/viewtopic.php?t=7216)
+-   Forum thread [Macro Texture Objects](https   *//forum.freecadweb.org/viewtopic.php?t=7216)
 
-[Script to map texture with environement checked](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=28795)
+-   Forum thread [Script to map texture with environement checked](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=28795)
 
 
 

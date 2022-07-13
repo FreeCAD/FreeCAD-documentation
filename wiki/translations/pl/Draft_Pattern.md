@@ -1,7 +1,7 @@
 # Draft Pattern/pl
 {{TOCright}}
 
-## Description
+## Opis
 
 [Draft](Draft_Workbench.md) objects with a **Make Face** property can display an SVG pattern instead of a solid face color.
 

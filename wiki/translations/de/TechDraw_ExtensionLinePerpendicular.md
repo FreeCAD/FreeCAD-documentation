@@ -1,30 +1,31 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *TechDraw ExtensionLinePerpendicular
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Add Cosmetic Perpendicular Line
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/de   *TechDraw ErgänzungRechtwinkligeLinie
+   MenuLocation   *TechDraw → Ergänzungen   * Mittellinien/Gewinde → Senkrechte Hilfslinie hinzufügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Shortcut   *
    Version   *0.20
-   SeeAlso   *[TechDraw ExtensionLineParallel](TechDraw_ExtensionLineParallel.md)
+   SeeAlso   *[TechDraw ErgänzungParalleleLinie](TechDraw_ExtensionLineParallel/de.md)
 ---
 
 # TechDraw ExtensionLinePerpendicular/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width   *24px;"> **TechDraw ExtensionLinePerpendicular** Werkzeug fügt eine Hilfslinie normal zu einer anderen Linie, durch einen Knotenpunkt verlaufend, ein.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width   *24px;"> **TechDraw ErgänzungRechtwinkligeLinie** fügt eine Hilfslinie rechtwinklig zu einer anderen Linie und durch einen Knotenpunkt verlaufend ein.
 
 <img alt="" src=images/TechDraw_ExtensionLinePerpendicularExample.png  style="width   *250px;"> 
-*Rechts eine eingefügte normale Hilfslinie*
+*Rechts eine eingefügte rechtwinklige Hilfslinie*
 
 ## Anwendung
 
-1.  Optional   * definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
-2.  Wähle eine Gerade Linie um die Richtung und die Länge der Linie festzulegen.
-3.  Wähle einen Knotenpunkt um die Position der Linie festzulegen.
+1.  Optional könne die Eigenschaften der Linien mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) definiert werden.
+2.  Eine gerade Linie auswählen, um die Richtung und die Länge der Linie festzulegen.
+3.  Einen Knotenpunkt auswählen, um die Position der Linie festzulegen.
 4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücke die **<img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> [TechDraw ExtensionLinePerpendicular](TechDraw_ExtensionLinePerpendicular.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> Add Cosmetic Perpendicular Line** Option aus dem Menü.
+    -   Die Schalrfläche **<img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> [Senkrechte Hilfslinie hinzufügen](TechDraw_ExtensionLinePerpendicular/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen   * Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> Senkrechte Hilfslinie hinzufügen** auswählen.
 5.  Eine Hilfslinie wird eingefügt.
 
 

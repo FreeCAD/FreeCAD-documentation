@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionCreateObliqueCoordDimension
    Name/fr   *TechDraw Cotes parallèles obliques
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Cotes parallèles obliques
+   MenuLocation   *TechDraw → Extensions    * cotes → Cotes parallèles obliques
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -26,7 +26,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.sv
 4.  Les deux premiers sommets définissent également la direction.
 5.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> [Cotes parallèles obliques](TechDraw_ExtensionCreateObliqueCoordDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px>. Cotes parallèles obliques** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * cotes → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px>. Cotes parallèles obliques** à partir du menu.
 6.  Des cotes avec des textes de cotes centrés sont créées.
 
 

@@ -22,37 +22,37 @@ L\'outil Vue active insère une copie d\'une fenêtre 3D dans une page de dessin
 1.  Aller à la bonne [Vue 3D](3D_view/fr.md).
 2.  S\'il y a plusieurs pages de dessin dans le document    * sélectionnez éventuellement la page souhaitée dans la [Vue en arborescence](Tree_view/fr.md). Ceci n\'est pas optionnel pour {{VersionMinus/fr|0.19}}.
 3.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insérer la vue active (vue 3D)](TechDraw_ActiveView/fr.md)**.
-    -   Sélectionnez le bouton **TechDraw → <img src="images/TechDraw_ActiveView.svg" width=16px> Insérer la vue active (vue 3D)** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insérer la vue active (dans la vue 3D)](TechDraw_ActiveView/fr.md)**.
+    -   Sélectionnez le bouton **TechDraw → <img src="images/TechDraw_ActiveView.svg" width=16px> Insérer la vue active (dans la vue 3D)** dans le menu.
 4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de page** s\'ouvre    * {{Version/fr|0.20}}
     1.  Sélectionnez la page souhaitée.
     2.  Appuyez sur le bouton **OK**.
-5.  Le panneau de tâches **De vue active à vue TD** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+5.  Le panneau de tâches **De la vue active à la vue TechDraw** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 6.  Appuyez sur le bouton **OK**.
 
 ## Options
 
 Les éléments suivants peuvent être spécifiés    *
 
--    **Width**   * La largeur de la vue générée.
+-    **Largeur**   * La largeur de la vue générée.
 
--    **Height**   * La hauteur de la vue générée.
+-    **Hauteur**   * La hauteur de la vue générée.
 
--    **Border**   * La quantité d\'espace vide à laisser autour de la vue (mais dans les limites de la largeur x de la hauteur).
+-    **Décalage**   * La quantité d\'espace vide à laisser autour de la vue (mais dans les limites de la largeur x de la hauteur).
 
--    **Background**   * Si la case est cochée, un arrière-plan de la couleur spécifiée est ajouté.
+-    **Arrière-plan**   * Si la case est cochée, un arrière-plan de la couleur spécifiée est ajouté.
 
--    **Line Width**   * L\'épaisseur des lignes dans la vue.
+-    **Epaisseur de ligne**   * L\'épaisseur des lignes dans la vue.
 
--    **Render Mode**   * Les modes disponibles sont    *
+-    **Type de rendu**   * Les modes disponibles sont    *
 
     -   
-        {{Value|As is}}
+        {{Value|Comme maintenant}}
         
            * Rendu des primitives telles qu\'elles sont.
 
     -   
-        {{Value|Wireframe}}
+        {{Value|Filaire}}
         
            * Rendu des polygones sous forme filaire.
 
@@ -62,17 +62,17 @@ Les éléments suivants peuvent être spécifiés    *
            * Rendu uniquement des sommets des polygones et des lignes.
 
     -   
-        {{Value|Wireframe overlay}}
+        {{Value|Superposition filaire}}
         
-           * Rendu d\'une superposition filaire en plus du mode {{Value|As is}}.
+           * Rendu d\'une superposition filaire en plus du mode {{Value|Comme maintenant}}.
 
     -   
-        {{Value|Hidden Line}}
+        {{Value|Lignes cachées}}
         
-           * Comme {{Value|Wireframe}}, mais élimine les lignes qui ne seraient pas affichées autrement en raison de l\'élimination géométrique.
+           * Comme {{Value|Filaire}}, mais élimine les lignes qui ne seraient pas affichées autrement en raison de l\'élimination géométrique.
 
     -   
-        {{Value|Bounding box}}
+        {{Value|Cadre de sélection}}
         
            * Affiche uniquement la boîte englobante de chaque objet.
 

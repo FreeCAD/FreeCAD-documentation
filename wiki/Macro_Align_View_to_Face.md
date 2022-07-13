@@ -21,9 +21,9 @@ This macro rotates the current view to point perpendicularly at a selected face 
 
 ## Script
 
- ToolBar Icon ![](images/Macro_Align_View_to_Face.png )
+ToolBar Icon ![](images/Macro_Align_View_to_Face.png )
 
-**Macro\_Align\_View\_to\_Face.FCMacro** {{MacroCode|code=
+ **Macro\_Align\_View\_to\_Face.FCMacro** {{MacroCode|code=
 
 # -*- coding   * utf-8 -*-
 # Set the current view perpendicular to the selected face

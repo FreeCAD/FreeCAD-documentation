@@ -571,7 +571,8 @@ Creates a Section plane objects including the
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeSectionView <small>(section, name='View')</small>
 
-Creates a Drawing view of the given Section Plane
+OBSOLETE
+    makeSectionView(section) : Creates a Drawing view of the given Section Plane
     in the active Page object (a new page will be created if none exists
 
 

@@ -76,7 +76,7 @@ Test de la branche Topological Naming (\'toponaming\') (créée au début du cyc
 
 
 {{code|lang=bash|code=
-snap switch freecad --channel=latest/edge/toponaming
+snap refresh freecad --channel=latest/edge/toponaming
 }}
 
 L\'utilisation de la commande `refresh` permet de basculer et de mettre à jour le canal snap sur lequel vous basculez    *

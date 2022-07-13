@@ -7,7 +7,7 @@
 |Version=2.0
 |Date=2016-03-06
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -21,7 +21,7 @@ Cette macro pivote la vue courante perpendiculairement sur la face sélectionné
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Align_View_to_Face.png )
+Icône de la barre d\'outils ![](images/Macro_Align_View_to_Face.png )
 
 **Macro\_Align\_View\_to\_Face.FCMacro** {{MacroCode|code=
 

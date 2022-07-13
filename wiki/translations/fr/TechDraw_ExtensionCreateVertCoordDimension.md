@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionCreateVertCoordDimension
    Name/fr   *TechDraw Cotes parallèles verticales
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Cotes parallèles verticales
+   MenuLocation   *TechDraw → Extensions    * cotes → Cotes parallèles verticales
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -25,7 +25,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  
 3.  L\'ordre de sélection des deux premiers sommets détermine la position de la ligne de base. Si le premier sommet sélectionné se trouve sous le second, la ligne de base est créée au sommet le plus bas, sinon elle est créée au sommet le plus haut.
 4.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> [Cotes parallèles verticales](TechDraw_ExtensionCreateVertCoordDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> Cotes parallèles verticales** du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * cotes → <img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> Cotes parallèles verticales** du menu.
 5.  Des cotes avec des textes de cotes centrés sont créées.
 
 

@@ -87,6 +87,8 @@ If this happens   *
 -   Check if the projection direction is valid. Can the source face be realistically projected onto the target surface? Would a straight projection hit the surface? Adjust the camera so that the source face is in front of the target surface, and try again.
 -   Try to use the {{RadioButton|TRUE|Show edges}} option. Are the edges projected correctly? Try to create a face with the edges by hand.
 
+The projection done in the Part workbench is not parametric. If you need a parametric workflow, please consult with the [Projection class](https   *//gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), which is a Python scripted object, intended for programmatic use.
+
 ## Ссылки
 
 -   Forum thread   * [Project faces onto bent surface](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=33700)

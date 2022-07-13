@@ -1,21 +1,22 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *TechDraw ExtensionCreateHorizChamferDimension
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Create Horizontal Chamfer Dimension
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/de   *TechDraw ErgänzungHorizontalesFasenmaß
+   MenuLocation   *TechDraw → Ergänzungen   * Maße → Horizontales Maß an Fase erstellen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Shortcut   *
    Version   *0.20
-   SeeAlso   *[TechDraw ExtensionCreateVertChamferDimension](TechDraw_ExtensionCreateVertChamferDimension.md)
+   SeeAlso   *[TechDraw ErgänzungVertikalesFasenmaß](TechDraw_ExtensionCreateVertChamferDimension/de.md)
 ---
 
 # TechDraw ExtensionCreateHorizChamferDimension/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width   *24px;"> **TechDraw ExtensionCreateHorizChamferDimension** Werkzeug fügt eine horizontale Fasenbemaßung mit Winkelangabe ein.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width   *24px;"> **TechDraw ErgänzungHorizontalesFasenmaß** fügt ein horizontales Fasenmaß mit Winkelangabe ein.
 
 <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimensionExample.png  style="width   *450px;"> 
-*Rechts die erzeugte Bemaßung*
+*Rechts das erzeugte Maß*
 
 ## Anwendung
 

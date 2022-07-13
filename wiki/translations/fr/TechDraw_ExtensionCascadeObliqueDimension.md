@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionCascadeObliqueDimension
    Name/fr   *TechDraw Cascade oblique
-   MenuLocation   *TechDraw → Extensions   * Attributes/Modifications → Cascader obliquement les cotes
+   MenuLocation   *TechDraw → Extensions    * attributs/modifications → Cascader obliquement les cotes
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -25,7 +25,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  s
 3.  La première cote définit la position. Cette cote ne sera pas déplacée, les autres cotes seront positionnées par rapport à cette cote.
 4.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCascadeObliqueDimension.svg" width=16px> [Cascader obliquement les cotes](TechDraw_ExtensionCascadeObliqueDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions    * Attributs/Modifications → <img src="images/TechDraw_ExtensionCascadeObliqueDimension.svg" width=16px> Cascader obliquement les cotes** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * attributs/modifications → <img src="images/TechDraw_ExtensionCascadeObliqueDimension.svg" width=16px> Cascader obliquement les cotes** à partir du menu.
 5.  Les cotes sont uniformément espacées.
 
 

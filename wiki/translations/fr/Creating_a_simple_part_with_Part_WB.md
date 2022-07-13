@@ -16,7 +16,7 @@
 
 ## Introduction
 
-Ce tutoriel a pour but d\'être utilisé comme une première introduction à la modélisation 3d en utilisant l\'[atelier Part](Part_Workbench/fr.md) ![](images/Switch_PartWorkbench.JPG ) de FreeCAD. Après avoir terminé ce tutoriel, vous devriez être en mesure de créer des modèles 3D simples en utilisant des primitives comme des cubes, des cylindres, etc. avec une technique appelée [Géométrie de construction de solides](https   *//fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides), en bref la modélisation **CSG** pour *Constructive Solid Geometry*. Une autre façon de créer des modèles 3D consiste à utiliser une forme 2D, par exemple en extrudant ou en faisant tourner la forme 2D dans l\'espace 3D. Pour une introduction à cette technique, veuillez suivre le tutoriel similaire *[PartDesign    * Créer une pièce simple](Creating_a_simple_part_with_PartDesign/fr.md)*. Les deux tutoriels ont intentionnellement généré exactement le même modèle, ce qui permet au débutant d\'avoir une expérience pratique des deux techniques différentes et de la façon dont elles sont mises en œuvre dans FreeCAD. La définition des deux techniques peut être considérée comme strictement divisée d\'un point de vue sémantique, cependant il n\'y a rien qui empêche directement un mélange des techniques lors de la création de modèles. Il y a quelques mises en garde à faire lors du mélange des techniques de modélisation, qui sont principalement liées à des aspects de la façon dont FreeCAD est programmé. Il y a un [3ème tutoriel](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md) destiné à servir de première introduction à un exemple de modélisation mixte. Ce tutoriel utilise **l\'atelier \"Draft** pour créer un profil 2d utilisé pour extruder un solide dans **l\'atelier Part** pour créer le même modèle que dans ce tutoriel.
+Ce tutoriel a pour but d\'être utilisé comme une première introduction à la modélisation 3d en utilisant l\'[atelier Part](Part_Workbench/fr.md) ![](images/Switch_PartWorkbench.JPG ) de FreeCAD. Après avoir terminé ce tutoriel, vous devriez être en mesure de créer des modèles 3D simples en utilisant des primitives comme des cubes, des cylindres, etc. avec une technique appelée [Géométrie de construction de solides](https   *//fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides), en bref la modélisation **CSG** pour *Constructive Solid Geometry*. Une autre façon de créer des modèles 3D consiste à utiliser une forme 2D, par exemple en extrudant ou en faisant tourner la forme 2D dans l\'espace 3D. Pour une introduction à cette technique, veuillez suivre le tutoriel similaire *[PartDesign    * Créer une pièce simple](Creating_a_simple_part_with_PartDesign/fr.md)*. Les deux tutoriels ont intentionnellement généré exactement le même modèle, ce qui permet au débutant d\'avoir une expérience pratique des deux techniques différentes et de la façon dont elles sont mises en œuvre dans FreeCAD. La définition des deux techniques peut être considérée comme strictement divisée d\'un point de vue sémantique, cependant il n\'y a rien qui empêche directement un mélange des techniques lors de la création de modèles. Il y a quelques mises en garde à faire lors du mélange des techniques de modélisation, qui sont principalement liées à des aspects de la façon dont FreeCAD est programmé. Il y a un [3ème tutoriel](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md) destiné à servir de première introduction à un exemple de modélisation mixte. Ce tutoriel utilise **l\'atelier \"Draft** pour créer un profil 2D utilisé pour extruder un solide dans **l\'atelier Part** pour créer le même modèle que dans ce tutoriel.
 
 Avant de commencer, regardez comment **[naviguer](Mouse_navigation/fr.md)** dans l\'espace 3D. En passant le curseur sur le sélecteur de modèle de souris dans le coin inférieur droit de la fenêtre de FreeCAD, un aide-mémoire du modèle de navigation en cours apparaît comme dans l\'image ci-dessous.
 
@@ -48,13 +48,13 @@ Créez un nouveau document et enregistrez-le directement sous un nouveau nom. Il
 
 ### Créer le bloc solide principal 
 
-Appuyez sur <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Cube](Part_Box/fr.md) pour créer un cube solide par défaut. Le cube apparaît dans la vue 3D et aussi comme un nouvel objet dans la [Vue en arborescence](Tree_view/fr.md) dans la barre latérale.
+Appuyez sur <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Cube](Part_Box/fr.md) pour créer un cube solide par défaut. Le cube apparaît dans la [Vue 3D](3D_view/fr.md) et aussi comme un nouvel objet dans la [Vue en arborescence](Tree_view/fr.md) dans la barre latérale.
 
 Appuyez sur <img alt="" src=images/Std_ViewIsometric.svg  style="width   *24px;"> [Isométrique](Std_ViewIsometric/fr.md) pour voir le cube en 3D.
 
 ![](images/T101pwb01-03_cube1.png )
 
-Sélectionnez le cube dans la [Vue en arborescence](Tree_view/fr.md), il devient vert dans la vue 3d. Dans la vue en arborescence, vous verrez que le cube est créé par défaut avec les dimensions **Longueur x Largeur x Hauteur** de *10 x 10 x 10 mm*. Changez ces dimensions en *100 x 30 x 50* comme dans le dessin initial du modèle.
+Sélectionnez le cube dans la [Vue en arborescence](Tree_view/fr.md), il devient vert dans la vue 3D. Dans la vue en arborescence, vous verrez que le cube est créé par défaut avec les dimensions **Longueur x Largeur x Hauteur** de *10 x 10 x 10 mm*. Changez ces dimensions en *100 x 30 x 50* comme dans le dessin initial du modèle.
 
 ![](images/T101pwb01-04_cubedims.png )
 
@@ -66,11 +66,11 @@ Cliquez sur <img alt="" src=images/Std_ViewFitAll.svg  style="width   *24px;"> *
 
 ### Créer le congé 
 
-Pour réaliser le congé sur le coin, dans la barre d\'outils, appuyez sur <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> *[Congé](Part_Fillet/fr.md)* qui ouvre le *panneau de tâches* pour les congés dans la vue combinée sur le côté. Changez la spinbox *radius* à 20 mm, puis dans la vue 3D, sélectionnez le bord de largeur en haut à droite et cliquez sur **OK**.
+Pour réaliser le congé sur le coin, dans la barre d\'outils, appuyez sur <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> *[Congé](Part_Fillet/fr.md)* qui ouvre le *panneau de tâches* pour les congés dans la [Vue combinée](Combo_view/fr.md) sur le côté. Changez la spinbox *radius* à 20 mm, puis dans la vue 3D, sélectionnez le bord de largeur en haut à droite et cliquez sur **OK**.
 
 ![](images/T101pwb01-06_filletrad.png )
 
-Le *panneau de tâches* se ferme et vous revenez à la Vue en arborescence qui comporte maintenant un objet congé au lieu du cube précédent.
+Le *Panneau de tâches* se ferme et vous revenez à la Vue en arborescence qui comporte maintenant un objet congé au lieu du cube précédent.
 
 ### Visibilité des enfants 
 
@@ -112,7 +112,7 @@ En cliquant sur cette icône, une nouvelle fenêtre *Editeurs de formules* s\'ou
 
 ![](images/T101pwb01-13_expression2.png )
 
-Pour effectuer la coupe, avec la touche **Ctrl** enfoncée, sélectionnez d\'abord le **Fillet** dans l\'arborescence, puis le dernier cube créé (nommé **Cube001**) et enfin, dans la barre d\'outils, appuyez sur le bouton <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Soustraction](Part_Cut/fr.md)**. Votre arborescence devrait à nouveau comporter un seul objet à la racine appelé **Cut**.
+Pour effectuer la coupe, avec la touche **Ctrl** enfoncée, sélectionnez d\'abord le **Fillet** dans la Vue en arborescence, puis le dernier cube créé (nommé **Cube001**) et enfin, dans la barre d\'outils, appuyez sur le bouton <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Soustraction](Part_Cut/fr.md)**. Votre Vue en arborescence devrait à nouveau comporter un seul objet à la racine appelé **Cut**.
 
 ![](images/T101pwb01-14_model1.png )
 
@@ -130,11 +130,11 @@ Pour faire le trou, appuyez sur le bouton <img alt="" src=images/Part_Cylinder.s
 
 ![](images/T101pwb01-16_cyl1.png )
 
-Ensuite, nous devons positionner le trou en fonction des dimensions du dessin. Changez la vue en <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> **[Vue de dessus](Std_ViewTop/fr.md)**, puis cliquez avec le bouton droit de la souris sur le **Cylindre** dans l\'arborescence et sélectionnez **Transformer** dans le menu contextuel.
+Ensuite, nous devons positionner le trou en fonction des dimensions du dessin. Changez la vue en <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> **[Vue de dessus](Std_ViewTop/fr.md)**, puis cliquez avec le bouton droit de la souris sur le **Cylindre** dans la Vue en arborescence et sélectionnez **Transformer** dans le menu contextuel.
 
 ![](images/T101pwb01-17_cyl1translate.png )
 
-Changez *Translation increment* à 5 et utilisez les flèches rouge et verte pour positionner le cylindre dans la bonne position, en le déplaçant de 15 mm en y et 65 en x en faisant glisser les extrémités des flèches avec la souris. Cliquez sur **OK** pour fermer la boîte de dialogue *Transformer*. Pour faire le trou, appuyez sur la touche **Ctrl** et sélectionnez **Cut** et **Cylinder** dans l\'arborescence, puis appuyez sur le bouton <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Soustraction](Part_Cut/fr.md)** dans la barre d\'outils. Votre vue en arborescence devrait à nouveau avoir un seul objet à la racine appelé **Cut001**.
+Changez *Translation increment* à 5 et utilisez les flèches rouge et verte pour positionner le cylindre dans la bonne position, en le déplaçant de 15 mm en y et 65 en x en faisant glisser les extrémités des flèches avec la souris. Cliquez sur **OK** pour fermer la boîte de dialogue *Transformer*. Pour faire le trou, appuyez sur la touche **Ctrl** et sélectionnez **Cut** et **Cylinder** dans la Vue en arborescence, puis appuyez sur le bouton <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Soustraction](Part_Cut/fr.md)** dans la barre d\'outils. Votre vue en arborescence devrait à nouveau avoir un seul objet à la racine appelé **Cut001**.
 
 Félicitations, le modèle est maintenant prêt.
 
@@ -158,7 +158,9 @@ Faites un *enregistrer sous* sous un nouveau nom. Supprimez ensuite la coupe qui
 
 ![](images/T101pwb03-01_cyl.png )
 
-Cette fois, l\'<img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> **[atelier Draft](Draft_Workbench/fr.md)** sera utilisé pour localiser le trou. Comme précédemment, le trou doit être situé au centre de la face supérieure, qui est le même que le point médian de la diagonale de la face supérieure. Commencez par basculer l\'atelier à **Draft**, il se peut qu\'une *grille* apparaisse dans la vue 3D, la visibilité de la grille peut être modifiée avec <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) dans la barre d\'outils. Lorsque vous utilisez la fonctionnalité **[aimantation](Draft_Snap/fr.md)** dans l**\'atelier Draft**, il est utile de n\'activer que les *types d\'aimantation* qui vous intéressent. Cette fois-ci, il suffit de laisser *point d\'extrémité, point milieu et centre du cercle activés*, ainsi les paramètres d\'aimantation devraient ressembler à ce qui suit.
+Cette fois, l\'<img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> **[atelier Draft](Draft_Workbench/fr.md)** sera utilisé pour localiser le trou. Comme précédemment, le trou doit être situé au centre de la face supérieure, qui est le même que le point médian de la diagonale de la face supérieure.
+
+Commencez par basculer l\'atelier à **Draft**, il se peut qu\'une *grille* apparaisse dans la vue 3D, la visibilité de la grille peut être modifiée avec <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) dans la barre d\'outils. Lorsque vous utilisez la fonctionnalité **[aimantation](Draft_Snap/fr.md)** dans l**\'atelier Draft**, il est utile de n\'activer que les *types d\'aimantation* qui vous intéressent. Cette fois-ci, il suffit de laisser *point d\'extrémité, point milieu et centre du cercle activés*, ainsi les paramètres d\'aimantation devraient ressembler à ce qui suit.
 
 ![](images/T101pwb03-02_snap.png )
 
@@ -186,7 +188,9 @@ Lorsque vous travaillez avec FreeCAD, vous êtes continuellement confronté à p
 
 ![](images/T101pwb04-01_cone.png )
 
-Translater le cône de façon à ce qu\'il soit \"concentrique\" au trou et \"coplanaire\" à la surface supérieure du solide principal. Utilisez n\'importe quelle méthode décrite précédemment dans ce tutoriel pour y parvenir. Dans l\'image ci-dessous, le déplacement est effectué avec *Transform* et un paramètre *increment* de 1 mm, car le cône a une dimension spécifique de 7 mm, ce qui signifie que le précédent paramètre d\'incrément de 5 mm ne permettra pas un positionnement correct. Le rendu <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> **[filaire](Std_DrawStyle/fr#Filaire.md)** est utilisé pour voir facilement que le cône est dans la bonne position.
+Translater le cône de façon à ce qu\'il soit \"concentrique\" au trou et \"coplanaire\" à la surface supérieure du solide principal. Utilisez n\'importe quelle méthode décrite précédemment dans ce tutoriel pour y parvenir.
+
+Dans l\'image ci-dessous, le déplacement est effectué avec *Transform* et un paramètre *increment* de 1 mm, car le cône a une dimension spécifique de 7 mm, ce qui signifie que le précédent paramètre d\'incrément de 5 mm ne permettra pas un positionnement correct. Le rendu <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> **[filaire](Std_DrawStyle/fr#Filaire.md)** est utilisé pour voir facilement que le cône est dans la bonne position.
 
 ![](images/T101pwb04-02_conetranslate.png )
 
@@ -214,7 +218,7 @@ Cliquez sur **OK**, comme vous pouvez le voir, il y a maintenant un *rayon* sur 
 
 ![](images/T101pwb05-03_thickness_dimension.png )
 
-De plus, en prenant la mesure de la largeur de la pièce, celle-ci est maintenant de 32 mm, donc la *coque* a été appliquée *vers l\'extérieur*. Modifions cela, double-cliquez sur le modèle dans l\'arborescence et modifiez les paramètres du *type de raccordement* en *intersection* et le paramètre *coque* en -1.
+De plus, en prenant la mesure de la largeur de la pièce, celle-ci est maintenant de 32 mm, donc la *coque* a été appliquée *vers l\'extérieur*. Modifions cela, double-cliquez sur le modèle dans la Vue en arborescence et modifiez les paramètres du *type de raccordement* en *intersection* et le paramètre *coque* en -1.
 
 ![](images/T101pwb05-04_thickness_modify.png )
 
@@ -244,7 +248,7 @@ Cela montre une fois de plus qu\'il y a toujours plusieurs façons de produire l
 
 ## Modification des dimensions, couleurs de la face et TNP 
 
-FreeCAD est un modeleur 3D paramétrique, ce qui vous permet de changer n\'importe quel *placement* ou *dimension* et le modèle sera mis à jour en conséquence. En général, cela fonctionne, mais il est possible de casser un modèle lors de l\'édition - par exemple lorsqu\'un congé est basé sur une arête qui n\'existe plus à cause d\'une modification. Lorsqu\'un modèle se casse pendant la modification, on parle de **TNP, Topological Naming Problem**, en français Problème de dénomination topologique.
+FreeCAD est un modeleur 3D paramétrique, ce qui vous permet de changer n\'importe quel *placement* ou *dimension* et le modèle sera mis à jour en conséquence. En général, cela fonctionne, mais il est possible de casser un modèle lors de l\'édition - par exemple lorsqu\'un congé est basé sur une arête qui n\'existe plus à cause d\'une modification. Lorsqu\'un modèle se casse pendant la modification, on parle de **TNP ou [Problème de dénomination topologique](Topological_naming_problem/fr.md)**.
 
 Allez-y et expérimentez en changeant les dimensions et les placements pour voir si vous pouvez casser le modèle, n\'oubliez pas de recalculer le modèle après les changements si nécessaire. Cela peut être fait avec le bouton <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Rafraîchir](Std_Refresh/fr.md) dans la barre d\'outils, si l\'icône est grisée, il n\'est pas nécessaire de rafraîchir l\'objet.
 
@@ -260,7 +264,7 @@ Lorsque vous déplacez le cylindre et que vous percez la surface extérieure, da
 
 ![](images/T101pwb07-02_wrongcolor.png )
 
-Voici un moyen de les récupérer. Changez d\'abord *transparency* d\'un cran vers le haut ou vers le bas, puis revenez en arrière, cela ramène la transparence. Vous pouvez faire la même chose avec *shape color*. Une autre façon de récupérer la couleur est de faire un *clic droit* sur **Cut002** dans l\'arborescence et de sélectionner **Définir les couleurs** dans le menu contextuel. Dans le *panneau de tâches* qui s\'affiche, cliquez sur **Définir par défaut**, ce qui ramène la couleur à celle définie dans les propriétés de la vue.
+Voici un moyen de les récupérer. Changez d\'abord *transparency* d\'un cran vers le haut ou vers le bas, puis revenez en arrière, cela ramène la transparence. Vous pouvez faire la même chose avec *shape color*. Une autre façon de récupérer la couleur est de faire un *clic droit* sur **Cut002** dans la Vue en arborescence et de sélectionner **Définir les couleurs** dans le menu contextuel. Dans le *panneau de tâches* qui s\'affiche, cliquez sur **Définir par défaut**, ce qui ramène la couleur à celle définie dans les propriétés de la vue.
 
 ![](images/T101pwb07-03_set_colors.png )
 
@@ -276,15 +280,19 @@ Comme on peut le voir en repositionnant le chanfrein de cette manière, le résu
 
 ### TNP
 
-En revenant au modèle original complété, explorons comment les faces sont nommées. Ici, la **[fenêtre de sélection](Selection_view/fr.md)** a été rendue active, juste pour montrer clairement ce qui est sélectionné et ce qui ne l\'est pas, la coloration est également ajustée pour que la sélection soit plus facile à voir.
+En revenant au modèle original complété, explorons comment les faces sont nommées.
+
+Ici, la **[fenêtre de sélection](Selection_view/fr.md)** a été rendue active, juste pour montrer clairement ce qui est sélectionné et ce qui ne l\'est pas, la coloration est également ajustée pour que la sélection soit plus facile à voir.
 
 ![](images/T101pwb07-05_face2and9.png )
 
-En sélectionnant une face latérale et la face intérieure du cylindre, on voit qu\'elles sont appelées face *2* et *9*, où face *2* est la face latérale. La numérotation des faces peut être différente pour vous. En déplaçant le cylindre de façon à ce que la cavité se retrouve sur la face latérale, et en effectuant la sélection des faces, on obtient un numéro différent pour la face cylindrique.
+En sélectionnant une face latérale et la face intérieure du cylindre, on voit qu\'elles sont appelées face *2* et *9*, où face *2* est la face latérale. La numérotation des faces peut être différente pour vous.
+
+En déplaçant le cylindre de façon à ce que la cavité se retrouve sur la face latérale, et en effectuant la sélection des faces, on obtient un numéro différent pour la face cylindrique.
 
 ![](images/T101pwb07-06_newfacenumbers.png )
 
-La face 2 est le côté droit de la face 2 originale, le côté gauche de l\'ancienne face 2 est maintenant la face 8. La partie cylindrique était la face 9, elle est maintenant la face 7. FreeCAD réassigne la numérotation et l\'ordre n\'est pas nécessairement préservé. Le nombre total de faces dans le premier modèle est de 10, dans la version avec la face cylindrique perçant la face latérale, le nombre total de faces est de 11. Il est donc évident que la numérotation des faces doit changer lorsque la *topologie* change. Cela peut sembler un détail minuscule, mais il s\'avère être très important dans la CAO 3D paramétrique. Imaginez que vous ayez utilisé la face cylindrique comme référence pour un autre élément, qui s\'appelait auparavant face 9, mais qui s\'appelle maintenant face 8. La référence à la surface cylindrique prévue est perdue. Puisque FreeCAD, au moins dans les versions actuelles, ne garde pas la trace de la *face prévue* mais garde seulement la trace de la *face numérotée*, un modèle se casse lorsqu\'une référence est faite à une face qui est ensuite renumérotée. C\'est ce qu\'on appelle le **TNP, Topological Naming Problem**.
+La face 2 est le côté droit de la face 2 originale, le côté gauche de l\'ancienne face 2 est maintenant la face 8. La partie cylindrique était la face 9, elle est maintenant la face 7. FreeCAD réassigne la numérotation et l\'ordre n\'est pas nécessairement préservé. Le nombre total de faces dans le premier modèle est de 10, dans la version avec la face cylindrique perçant la face latérale, le nombre total de faces est de 11. Il est donc évident que la numérotation des faces doit changer lorsque la *topologie* change. Cela peut sembler un détail minuscule, mais il s\'avère être très important dans la CAO 3D paramétrique. Imaginez que vous ayez utilisé la face cylindrique comme référence pour un autre élément, qui s\'appelait auparavant face 9, mais qui s\'appelle maintenant face 8. La référence à la surface cylindrique prévue est perdue. Puisque FreeCAD, au moins dans les versions actuelles, ne garde pas la trace de la *face prévue* mais garde seulement la trace de la *face numérotée*, un modèle se casse lorsqu\'une référence est faite à une face qui est ensuite renumérotée. C\'est ce qu\'on appelle le **TNP, [Problème de dénomination topologique](Topological_naming_problem/fr.md)**.
 
 Vous êtes encouragés à apprendre comment éviter les modèles cassés à cause de TNP, des lectures supplémentaires peuvent être faites [ailleurs sur le wiki](Topological_naming_problem/fr.md), qui se concentre principalement sur un flux de travail *basé sur des esquisses*, le mécanisme sous-jacent est le même cependant. La renumérotation décrite ici pour les faces est valable pour toutes les entités géométriques, faces, arêtes et sommets.
 
@@ -294,7 +302,9 @@ Faites un *enregistrer sous* sous un nouveau nom. Puis supprimez toutes les sous
 
 ![](images/T101pwb08-01_primitives.png )
 
-Lorsque vous utilisez l**\'atelier Part** et que vous modélisez des solides avec de nombreuses fonctions, l\'arborescence d\'un solide peut devenir difficile à déchiffrer. Jusqu\'à présent, nous avons créé une primitive/fonction et appliqué une opération booléenne. Dans l\'atelier Part, il est possible de regrouper des primitives en une seule opération booléenne. Dans notre cas, nous avons le cylindre, le cône et le cube qui sont tous une opération booléenne de soustraction. Au lieu de faire une soustraction pour chaque primitive, nous pouvons d\'abord appliquer une union booléenne, <img alt="" src=images/Part_Fuse.svg  style="width   *24px;"> **[Unir](Part_Fuse/fr.md)** les primitives destinées à la soustraction booléenne, puis faire la *soustraction* entre le **congé** et l**\'union**.
+Lorsque vous utilisez l**\'atelier Part** et que vous modélisez des solides avec de nombreuses fonctions, l\'arborescence d\'un solide peut devenir difficile à déchiffrer. Jusqu\'à présent, nous avons créé une primitive/fonction et appliqué une opération booléenne. Dans l\'atelier Part, il est possible de regrouper des primitives en une seule opération booléenne. Dans notre cas, nous avons le cylindre, le cône et le cube qui sont tous une opération booléenne de soustraction.
+
+Au lieu de faire une soustraction pour chaque primitive, nous pouvons d\'abord appliquer une union booléenne, <img alt="" src=images/Part_Fuse.svg  style="width   *24px;"> **[Unir](Part_Fuse/fr.md)** les primitives destinées à la soustraction booléenne, puis faire la *soustraction* entre le **congé** et l**\'union**.
 
 En utilisant cette approche, la vue en arborescence finit par ressembler à ce qui suit, qui est simplement une façon différente de construire le même modèle. Comparez cela avec la vue arborescente originale, aucune n\'est meilleure que l\'autre, mais lors de la création de modèles plus complexes, une approche plutôt qu\'une autre peut présenter des avantages en termes de facilité de modification/réorganisation du modèle si nécessaire.
 

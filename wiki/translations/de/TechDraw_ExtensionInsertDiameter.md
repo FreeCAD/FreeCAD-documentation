@@ -1,29 +1,30 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *TechDraw ExtensionInsertDiameter
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Insert '⌀' Prefix
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/de   *TechDraw ErgänzungDurchmesserEinfügen
+   MenuLocation   *TechDraw → Ergänzung   * Maße → '⌀'-Symbol einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Shortcut   *
    Version   *0.20
-   SeeAlso   *[TechDraw ExtensionInsertSquare](TechDraw_ExtensionInsertSquare.md)
+   SeeAlso   *[TechDraw ErgänzungQuadratsymbolEinfügen](TechDraw_ExtensionInsertSquare.md)
 ---
 
 # TechDraw ExtensionInsertDiameter/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width   *24px;"> **TechDraw ExtensionInsertDiameter** Werkzeug fügt ein \'⌀\' Symbol am Anfang des Maßtextes ein.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width   *24px;"> **TechDraw ErgänzungDurchmesserEinfügen** fügt ein ⌀-Symbol am Anfang des Maßtextes ein.
 
 <img alt="" src=images/TechDraw_ExtensionInsertDiameterExample.png  style="width   *600px;"> 
-*Rechts Bemaßungen mit dem eingefügten Symbol*
+*Rechts Maße mit dem eingefügten Symbol*
 
 ## Anwendung
 
-1.  Wähle eine oder mehrere Bemaßungen.
+1.  Eine oder mehrere Bemaßungen auswählen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücke die **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> [TechDraw ExtensionInsertDiameter](TechDraw_ExtensionInsertDiameter.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> Insert '⌀' Prefix** Option aus dem Menü.
-3.  Das \'⌀\' Symbol wird in die Maßtexte der gewählte Bemaßungen eingefügt.
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> ['⌀'-Symbol einfügen](TechDraw_ExtensionInsertDiameter/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen   * Maße → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> '⌀'-Symbol einfügen** auswählen.
+3.  Das ⌀-Symbol wird in die Maßtexte der ausgewählten Maße eingefügt.
 
 
 

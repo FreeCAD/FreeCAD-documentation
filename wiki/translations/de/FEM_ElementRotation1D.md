@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-ElementRotation1D is used to rotate the beam profile around the axis of beam elements.
+**ElementRotation1D** is used to rotate the beam profile around the axis of beam elements.
 
 ## Usage
 

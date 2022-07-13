@@ -183,9 +183,9 @@ The 3D view should be similar to the picture above. It is not important which en
 
 If you chose the wrong line, change it now. If the triangle is pointing the wrong way you can correct it by checking the \"Flip Sides\" checkbox at the bottom of the dialogue (or later on after closing the dialogue it can be changed in the properties data tab by setting \"Map Reversed\" to \"True\").
 
-The RightAngleTriangleSketch is now in a position that will give us the correct Geometry after a pocket operation, however we can get a little inventive here, and position the sketch so that it makes it easier for us to attach further geometry later on. We are going to shift our sketch to the middle of the line so that it provides us with a vertex at the top of the corner chamfer.
+The RightAngleTriangleSketch is now in a position that will give us the correct Geometry after a pocket operation, however we can get a little inventive here, and position the sketch so that it makes it easier for us to attach further geometry later on. We are going to shift our sketch to the middle of the line so that it provides us with a vertex at the top of the corner [chamfer](Glossary#C.md).
 
-In the attachment dialogue, we are going to change the attachment mode from \"Normal To Edge\" to \"Inertia 2-3\". This will change the position to the centre of the line, it\'s beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Part EditAttachment](Part_EditAttachment.md). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
+In the attachment dialogue, we are going to change the attachment mode from \"[Normal To Edge](Part_EditAttachment#Normal_to_edge.md)\" to \"[Inertia 2-3](Part_EditAttachment#Inertia_2-3.md)\". This will change the position to the centre of the line, it\'s beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Part EditAttachment](Part_EditAttachment.md). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
 
 ![centre\|Attachment Dialogue Inertia 2-3 mode](images/ADInertia.png )
 
@@ -205,9 +205,9 @@ In general it is better to position our sketches simply with attachment modes. B
 
 FreeCAD provides a number of ways to do this.
 
-1.  Attachment offset, allows positioning relative to the local coordinates of the attachment point. (where the origin of the positioned sketch is attached.)
-2.  Map Path parameter (in the Property data tab with show all enabled) This allows for the positioning along a selected edge.
-3.  Flip Sides/Map Reversed. Effectively mirrors the sketch.
+1.  [Attachment offset](Part_Part2DObject#Property_Attachment_Offset.md), allows positioning relative to the local coordinates of the attachment point. (where the origin of the positioned sketch is attached.)
+2.  [Map Path parameter](Part_Part2DObject#Property_Map_Path.md) (in the Property data tab with show all enabled) This allows for the positioning along a selected edge.
+3.  [Flip Sides/Map Reversed](Part_Part2DObject#Property_Map_Reversed.md). Effectively mirrors the sketch.
 
 For our final sketch, we will Attach it arbitrarily, and correct its position using the modifiers listed above.
 
@@ -233,7 +233,7 @@ At the bottom of the attachment dialogue is a check box labeled \'Flip Sides\', 
 
 The FinalSketch mirrors itself.
 
-Now we will translate through 90°. From the illustration FinalSketch above we can see the axis of revolution should be the X axis. In the Wiki this termed Roll. Remember this is relative to the local Coordinate System. Enter 90° in the \"around X-axis\" box of the attachment offset section of the dialogue.
+Now we will translate through 90°. From the illustration FinalSketch above we can see the axis of revolution should be the X axis. In the Wiki this term is *[Roll](Tasks_Placement#Roll.md)*. Remember this is relative to the local Coordinate System. Enter 90° in the \"around X-axis\" box of the attachment offset section of the dialogue.
 
 ![centre\|FinalSketch flipped and rotated](images/FSFlipRot.png )
 

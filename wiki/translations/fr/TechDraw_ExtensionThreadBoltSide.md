@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionThreadBoltSide
    Name/fr   *TechDraw Corps de filetage
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Corps de filetage
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Corps de filetage
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Version   *0.20
    SeeAlso   *[TechDraw Corps de taraudage](TechDraw_ExtensionThreadHoleSide/fr.md)
@@ -23,7 +23,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="wid
 2.  Sélectionnez deux lignes parallèles.
 3.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Corps de filetage](TechDraw_ExtensionThreadBoltSide.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Corps de filetage** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Corps de filetage** à partir du menu.
 4.  Un corps de filetage cosmétique est ajouté.
 
 

@@ -5,7 +5,7 @@
 |Author=Mario52
 |Version=00.05
 |Date=2016-08-28
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey/fr.md)
+|SeeAlso=[Arch Prendre des cotes](Arch_Survey/fr.md)
 }}
 
 ## Description
@@ -20,9 +20,7 @@ Donne une série d\'informations sur l\'objet avec affichage directement dans la
 
 ## Utilisation
 
-Copiez la macro dans votre répertoire de macro. Lancez la macro sélectionnez un objet et les informations s\'affichent dans dans la vue 3D.
-
-La macro reste résidente et fonctionnelle jusqu'à la sortie de FreeCAD.
+Sélectionnez un objet ou lancez l\'application et sélectionnez un objet, et une série d\'informations apparaissent sur la vue 3D.
 
 **Modifiez ces lignes** (lines 84 et 85) pour positionner la fenêtre (transparente) de texte dans votre écran. 
 ```python

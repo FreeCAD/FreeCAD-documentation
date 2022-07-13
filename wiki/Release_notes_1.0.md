@@ -26,6 +26,8 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ### Further user interface improvements 
 
+-   It is now possible to set a default transparency for new [Part](Part_Module.md) or [PartDesign](PartDesign_Workbench.md) objects in the [Preferences](PartDesign_Preferences.md). [Pull request \#7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103)
+
 ## Core system and API 
 
 ### Core
@@ -117,6 +119,11 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ## Sketcher Workbench 
 
+   
+  ![](images/sketcher-move-piece_relnotes_1.0.gif )   Dragging a B-Spline now only moves the part between knots. [Pull request \#7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110)
+                                                                                     
+   
+
 ### Further Sketcher improvements 
 
 ## Spreadsheet Workbench 
@@ -165,6 +172,10 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 -   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
 -   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
+
+### MacOS   * Start Workbench shows blank page 
+
+If the Start Workbench shows only a blank page, you must enable the option **Use software OpenGL** in the menu **Edit → Preferences → Display**.
 
 
 

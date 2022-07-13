@@ -1,105 +1,92 @@
 # FreeCAD Managing Expectations/en
-## Purpose
+**While we welcome and encourage community growth and participation, demands, emotional rants and wild claims are generally poorly received as our community is made up of many experienced and passionate supporters of FreeCAD who have heard similar statements many times over. If you find a feature lacking, or something which is annoying for you, we highly encourage you to consider getting engaged with the code itself. FreeCAD is largely developed by a relatively small group of talented people who all have day jobs, families and other interests beyond just programming on-demand. If you have the skills (Python/C++) and motivation to participate, your contributions can help make FreeCAD even better than it is today. You can find tracked bugs/feature requests [https   *//github.com/FreeCAD/FreeCAD/issues here].**
 
 
 {{TOCright}}
 
-The purpose of this wiki page is to \'Manage Expectations\' of users using FreeCAD, especially those coming from other proprietary CAD/CAM solutions.
+## Purpose
 
-## The Eternal Open Source Conundrum 
+This wiki page is intended for new FreeCAD users coming from other CAD/CAM solutions.
 
-I really like/dislike using \[Insert your go-to proprietary program\] but I   *
+## Opening statement 
 
--   can\'t afford it
--   resent that I need to pay for it
--   don\'t want to be locked in to proprietary format/technology
--   want to own my work
--   want to work on my local machine (not on someone else\'s cloud)
--   really like using FOSS better
--   don\'t want to be involved in a FOSS because I don\'t have   * time, skills the community needs
--   don\'t want to involved in a FOSS because someone else is probably doing that
--   want to complain somewhere about a pathetic attempt at competing with \[Insert your go-to proprietary program\]
--   want to vent about how ugly the UI is to someone/somewhere just because wanna!
+Many hobbyists, freelance designers and small businesses often seek refuge from the high costs and licensing restrictions of commercial software, or perhaps you merely choose FreeCAD because you believe in the philosophy behind [FOSS](https   *//en.wikipedia.org/wiki/FOSS). In either case, WELCOME! There are many users, just like you who have successfully made the transition to FreeCAD for their personal and professional needs. This wiki page is designed to help set you on the path to success and establish some realistic expectations while diving into the *FreeCAD Way*, which is most likely quite a bit different from what you may have grown accustomed to with other popular CAD software.
 
-### Reflections
+## What can I expect? 
 
-How do people conceive the way open source software is created?
+At its core, FreeCAD is a powerful parametric modeler. It uses a modular \'workbench\' concept, where each workbench is responsible for specific tasks and functions. This concept is very flexible and can be successfully used for many purposes. FreeCAD is actively developed, used in production, and quite stable; but like any other CAD program, it is not 100% stable.
 
-#### Hopium
+Coming from another CAD program you may find FreeCAD\'s terminology, structure and organization to be slightly foreign. You will probably need to make some adjustments to your workflows, learn functional workarounds or utilize our powerful [macro](Macros.md) ecosystem, but in most cases you will be able to achieve what you want. And if you need help   * we have a very active and responsive [forum](https   *//forum.freecad.org/index.php) willing to assist. Among the forum members there are bound to be (former) users of your current CAD program. So do not hesitate to tap into that resource.
 
-*I hope this open source project can get their act together (self-organize)* .
+## How can I contribute? 
 
-#### Hand Washing 
+There are many ways   * you can make a [donation](Donate.md), help with [forum](https   *//forum.freecad.org/index.php) questions, or write documentation or code. See [Help FreeCAD](Help_FreeCAD.md).
 
-*Why can\'t these people self-organize?!? It\'s possible, look at these other successful projects\...*
+## Learning resources 
 
-## What FreeCAD is not 
+### Official
 
-### Non Parametric 
+-   [This Wiki](Main_Page.md)
+-   [The Help Forum](https   *//forum.freecadweb.org/viewforum.php?f=3)
+-   [Workarounds for known problems](Workarounds.md)
 
--   FreeCAD can be used non-parametrically. But the user needs to know how.
--   Blender is the ideal free libre opensource tool for non-parametric design.
+### Un-official 
 
-### Mesh Modeler 
+The following YouTube Channels have reasonably good quality content focused around FreeCAD (it is recommended to ignore any tutorials based on version 0.17 or earlier)   *
 
--   Again, Blender is the more appropriate application for mesh modeling.
+-   *MangoJelly Solutions* (several beginner, intermediate and advanced video playlists)
+-   *Joko EngineeringHelp* (intermediate/advanced videos)
+-   *Brodie Fairhall* (A couple of videos helping Fusion 360 users transition to FreeCAD)
+-   And more\...
 
-## Common Perspectives 
+## Questions and answers 
 
-### FreeCAD has not reached v1.0 
+### \"Can FreeCAD do XYZ?\" 
 
-### FreeCAD is not stable 
+FreeCAD already has the ability to do the following types of work   *
 
-This is true to of any of many CAD applications. FreeCAD suffers from this as well. Although the community works to address catastrophic crashes quickly, users are encouraged to employ a workflow in which they save their work often and utilize the backup features (available in preferences) to recover or roll-back from problematic issues. An important point here to consider is that many users aren\'t always using the most up to date version of FreeCAD and end up complaining of deprecated or already addressed instability problems. FreeCAD also has a very long release cycle and in the past has not backported fixes due to time and 3rd-party dependency complexity. In short, many bugs get fixed in the development version and so users need to make the unorthodox decision of running a development version of FreeCAD instead of the \'stable\'.
+-   Spline-based parametric modeling using the [Part](Part_Workbench.md), [Part Design](PartDesign_Workbench.md) and [Sketcher](Sketcher_Workbench.md) workbenches
+-   [Surface](Surface_Workbench.md)/[Curves](Curves_Workbench.md) modeling using NURBS
+-   [Mesh](Mesh_Workbench.md) import/modifications
+-   Assembly simulation (3 different approaches, [A2+](A2plus_Workbench.md), [ASM3](Assembly3_Workbench.md), and [ASM4](Assembly4_Workbench.md), are all actively developed)
+-   [Architectural](Arch_Workbench.md)/[BIM](BIM_Workbench.md) design\]
+-   Mechanical Stress Analysis ([FEM/FEA](FEM_Workbench.md))
+-   Computational Fluid Dynamic Analysis ([CFD](Cfd_Workbench.md))
+-   [Technical Drawings](TechDraw_Workbench.md)/[Drafting](Draft_Workbench.md)
+-   And more [core](Workbenches.md) and [external](External_workbenches.md) workbenches\...
 
-### FreeCAD UI is ugly 
+### \"User interface (UI/UX) is ugly, odd, confusing or not like XYZ Software!\" 
 
--   At its core, this is relegated to \'Eye of the beholder\' (subjective) perspective. FreeCAD has been around a very long time, its dedicated users have grown familiar with the user interface.
--   The topic of changes to UI/UX is very contentious. Changes to the UI/UX require proof of concepts, popularity in the community, and effectiveness to eventually make it in to the mainline FreeCAD code. This takes time and diplomacy.
--   Is it really? Thanks to customization possibilities (as of v0.20) there is an ability to customize the UI (see [Preference Packs](Preference_Packs.md)). At some point very soon, FreeCAD will be provide a comprehensive flexibility to customize its UI, something other CAD packages would not be able to boast.
+FreeCAD allows for [extensive customization](Interface_Customization.md) of the user interface. While we realize the default colors or arrangement of elements may not be pleasing to everyone, we encourage you to tailor it to your own specific needs and work-flows. If you feel you\'ve come up with what could be a popular arrangement/theme/customized toolbars etc. please feel free to look into leveraging the recently added [Preference Pack](Preference_Packs.md) feature and share it with the community. Perhaps your efforts will help someone else in their transition to FreeCAD. FOSS software thrives on all sorts of community contributions and this is a common topic of discussion.
 
-### Where is my favorite feature? 
+### \"Why doesn\'t this feature work like in XYZ software?\" 
 
-## Realities
+FreeCAD has a development pedigree spanning over [20 years](History.md). Functions and behaviors are heavily reviewed, debated and assessed before they are added or changed. Have an open mind, while it may not be apparent, there is likely a very good rationale behind such things. This isn\'t to say that FreeCAD is perfect, but please consider that what you\'ve grown used to may not be the only or best way to get something done.
 
-### OpenCascade Kernel 
+### \"I can\'t figure out the workflow of FreeCAD!\" 
 
-OpenCascade (OCC/OCCT) is a core external CAD kernel dependency that FreeCAD is utterly dependent on. There are many open \'upstream\' bugs that the FreeCAD community has identified and track regarding OCC. We track them via the   *
+FreeCAD has a philosophy to not dictate \'how\' you use it. Rather it provides tools and a wide array of options under which you \'can\' use them. This means two things. First, the software isn\'t going to necessarily \'guide\' or \'steer\' you toward a certain style or workflow. Second, this means you can experiment with the tools and find what works best for you. This doesn\'t mean there aren\'t general [\'best practices\'](Feature_editing.md) to keep in mind while using FreeCAD, but those best practices generally apply to any professional design software when creating stable models.
 
--   [bugtracker](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
--   [forum thread](https   *//forum.freecad.org/viewtopic.php?t=20264) called *OCC Bugs in the Bugtracker*
+### \"What the heck is with all these workbenches?\" 
 
-### Qt
+One of the powerful features of FreeCAD is it\'s modularity. This is done by compartmentalizing tool development into workbenches. Once you are familiar with the tools provided they can often work synergistically to create highly complex and advanced models. A great analogy is that FreeCAD is structured similar to a mechanics rolling tool-chest, and each workbench is a drawer of specific tools. You can use these tools to build a car, but it is up to the mechanic to understand how to use them to accomplish their goal.
 
-### Volunteers
+### \"FreeCAD is fundamentally broken, my models blow-up!\" 
 
-The reality of having a volunteer based workforce   *
+FreeCAD is built around an open-source Geometric Modeling Kernel called \"[OpenCascade Technology](OpenCASCADE.md)\" (or OCC). It is the most feature rich and mature open source modeling kernel available. However it does have bugs, quirks and limitations. One of these is referred to as the [\"Topological Naming Problem\"](Topological_naming_problem.md) (or TNP). Whenever a model is modified, the internal names of faces and edges are changed by the kernel causing undesirable behavior for any model features that reference them. The current development cycle is focused around implementing a naming algorithm designed to mitigate this effect under most circumstances. However, be aware that TNP mitigation is not a replacement for [good modeling practice and techniques](Feature_editing.md).
 
--   Project timelines/goals change due to unforeseen life issues.
--   Goals abandoned due to financial or motivational problems.
--   Incompatible relational attitudes/behaviors that come up during collaborations.
--   Unpaid volunteers
+## OpenCascade kernel 
 
-Hence, FreeCAD\'s motto *It\'s done when it\'s done.*
+OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on. There are many open \'upstream\' bugs that the FreeCAD community has identified and tracks regarding OCC. See   *
 
-### Organizational Challenges 
+-   [Bugtracker](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
+-   [OCC Bugs in the Bugtracker (forum thread)](https   *//forum.freecad.org/viewtopic.php?t=20264)
 
-As with many opensource projects, FreeCAD has had its organizational challenges. Some of them are listed here in short   *
+## Additional links 
 
--   Departure of jriegel (one of the original core developers)
--   The incomplete implementation of PartDesign workbench (incompatibilities with Part WB).
--   Assembly workbench development that had been abandoned several times (Assembly and Assembly2). It now has 3 separate solutions (Assembly2+, Assembly3, Assembly4). There is an intention to unify these 3 active Assembly approaches.
-
-## Relevant Links 
-
--   [Why the GIMP Team Obviously\* Hates You (\*We Actually Lot you. \*\*mostly)](https   *//www.youtube.com/watch?v=JBmdbipkbrk) Pat David from GIMP team presentation at SCaLE16x California 2016
+-   [Discussion   * FreeCAD is not ready for 1.0 (forum thread)](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=43461)
+-   [Why the GIMP Team Obviously\* Hates You (\*We Actually Love You. \*\*Mostly)](https   *//www.youtube.com/watch?v=JBmdbipkbrk) Pat David from GIMP team presentation at SCaLE16x California 2016
 -   [Earning Your Support Instead of Buying it   * A How-to Guide to Open Source Assistance](https   *//vimeo.com/144089061) by [Ian Turton](https   *//twitter.com/ijturton) at FOSS4G Seoul 2015
-
-## Discussion Threads 
-
-Links to forum thread discussions related to this topic
-
--   Discussion   * FreeCAD is not ready for 1.0 ([forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=43461))
 
 [Category   *Common Questions](Category_Common_Questions.md)
 

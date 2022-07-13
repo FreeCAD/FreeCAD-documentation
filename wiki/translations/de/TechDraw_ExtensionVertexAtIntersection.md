@@ -2,7 +2,7 @@
 - GuiCommand   */de
    Name   *TechDraw ExtensionVertexAtIntersection
    Name/de   *TechDraw ErgänzungKnotenAnSchnittstelle
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Add Cosmetic Intersection Vertex(es)
+   MenuLocation   *TechDraw → Ergänzungen   * Mittellinien/Gewinde → Hilfsschnittpunkte hinzufügen
    Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Shortcut   *
    Version   *0.20
@@ -13,18 +13,18 @@
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width   *24px;"> **TechDraw ExtensionVertexAtIntersection** Werkzeug fügt an den Schnittstellen der gewählten Kanten Knotenpunkte ein.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width   *24px;"> **TechDraw ErgänzungKnotenAnSchittstelle** fügt an den Schnittstellen der gewählten Kanten Knotenpunkte ein.
 
 <img alt="" src=images/TechDraw_ExtensionVertexAtIntersectionExample.png  style="width   *200px;"> 
 *Rechts hinzugefügte Knotenpunkte*
 
 ## Verwendung
 
-1.  Wähle zwei Kanten. Geraden werden als unendlich lange Linien, Kreisbögen als Kreise angesehen.
+1.  Zwei Kanten auswählen. Geraden werden als unendlich lange Linien, Kreisbögen als Kreise angesehen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücke die **<img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> [TechDraw ExtensionVertexAtIntersection](TechDraw_ExtensionVertexAtIntersection.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> Add Cosmetic Intersection Vertex(es)** Option aus dem Menü.
-3.  Bei jedem Schnittpunkt werden Knotenpunkte eingefügt.
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> [Hilfsschnittpunkte hinzufügen](TechDraw_ExtensionVertexAtIntersection/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen   * Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> Hilfsschnittpunkte hinzufügen** auswählen.
+3.  An jedem Schnittpunkt wird ein Knotenpunkt eingefügt.
 
 
 

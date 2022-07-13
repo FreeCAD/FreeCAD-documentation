@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionCreateHorizChamferDimension
    Name/fr   *TechDraw Cote horizontale chanfrein
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Cote horizontale de chanfrein
+   MenuLocation   *TechDraw → Extensions    * cotes → Cote horizontale et d'angle de chanfrein
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -22,8 +22,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.sv
 
 1.  Sélectionnez deux sommets.
 2.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> [Cote horizontale de chanfrein](TechDraw_ExtensionCreateHorizChamferDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> Cote horizontale de chanfrein** option du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> [Cote horizontale et d'angle de chanfrein](TechDraw_ExtensionCreateHorizChamferDimension/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * cotes → <img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> Cote horizontale et d'angle de chanfrein** option du menu.
 3.  Une cote de chanfrein est créée.
 
 

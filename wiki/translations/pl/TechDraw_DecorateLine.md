@@ -11,7 +11,7 @@
 
 ## Description
 
-The DecorateLine tool changes the appearance of Edges.
+The **TechDraw DecorateLine** tool changes the appearance of Edges.
 
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 

@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionCreateHorizCoordDimension
    Name/fr   *TechDraw Cotes parallèles horizontales
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Cotes parallèles horizontales
+   MenuLocation   *TechDraw → Extensions    * cotes → Cotes parallèles horizontales
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -25,7 +25,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg 
 3.  L\'ordre de sélection des deux premiers sommets détermine la position de la ligne de base. Si le sommet sélectionné en premier est à gauche du second, la ligne de base est créée au niveau du sommet le plus à gauche, sinon elle est créée au niveau du sommet le plus à droite.
 4.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> [Cotes parallèles horizontales](TechDraw_ExtensionCreateHorizCoordDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> Cotes parallèles horizontales** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * cotes → <img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> Cotes parallèles horizontales** à partir du menu.
 5.  Des cotes avec des textes de cotes centrés sont créées.
 
 

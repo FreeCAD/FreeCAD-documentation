@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionCircleCenterLines
    Name/fr   *TechDraw Axes de centrage
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Axes de centrage d'arcs et cercles
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Axes de centrage
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -23,8 +23,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="
 1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez un ou plusieurs cercles ou arcs.
 3.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> [Axes de centrage d'arcs et cercles](TechDraw_ExtensionCircleCenterLines/fr.md)**.
-    -   Sélectionnez le **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> Axes de centrage d'arcs et cercles** du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> [Axes de centrage](TechDraw_ExtensionCircleCenterLines/fr.md)**.
+    -   Sélectionnez le **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> Axes de centrage** du menu.
 4.  Les axes de centrage sont ajoutées à chaque cercle et arc.
 
 

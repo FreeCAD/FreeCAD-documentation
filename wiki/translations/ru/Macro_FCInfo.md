@@ -1,29 +1,12 @@
 # Macro FCInfo/ru
-<div class="mw-translate-fuzzy">
-
-
-{{Macro/ru
-|Name=Macro FCInfo
-|Translate=Macro FCInfo
-|Icon=FCInfo.png
-|Description=Дает серию информации о форме.
-|Author=Mario52
-|Version=1.22
-|Date=2020/11/12
-|FCVersion=All
-|Download=Download the [https   *//forum.freecadweb.org/download/file.php?id=50755 Macro_FCInfo_Icon] package and paste it in the same directory of the macro
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey/ru.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/ru.md)
-}}
-
-
-</div>
+**[left|45px|link=](File   *Under_construction_icon-blue.svg.md) изображение и страница ещё не обновлены с новой функцией... ждём<br>(Эта вики-страница соответствует версии 1.22, 12/11/2020 и не включает в себя новые функции)**
 
 
 {{Macro
 |Name=Macro FCInfo
 |Icon=FCInfo.png
-|Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
-<br />French Version [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/795cac01c84fbbfa7ea68703c7138667119995d8/FCInfo_fr_Ver_1-26c-rmu_Docked.FCMacro Version française]
+|Description=Предоставляет информацию о выбранной форме и может отображать преобразование длины, наклона (градусы, радианы, уклоны, процент), площади, объема и веса в различных единицах (метрических и британских). Теперь макрос также работает для элементов эскиза в режиме редактирования.
+<br />Французская Версия [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/795cac01c84fbbfa7ea68703c7138667119995d8/FCInfo_fr_Ver_1-26c-rmu_Docked.FCMacro Version française]
 |Author=Mario52
 |Version=1.26c
 |Date=2022/04/19
@@ -31,17 +14,9 @@
 |SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width   *24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width   *24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Описание
 
-Предоставляет серию информации о выбранной форме и может отображать преобразование длины, угла наклона (градусы, радианы, градусы, исходное значение) формы, поверхности, объема и веса формы в плотность, выбранную в различных единицах величин международных и англоязычных -Saxon.
-
-
-</div>
+Предоставляет информацию о выбранной форме и может отображать преобразование длины, наклона (градусы, радианы, уклоны, процент), площади, объёма и веса в различных единицах (метрических и британских). Теперь макрос также работает для элементов эскиза в режиме редактирования.
 
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/5577cf1a8818a4cbc5790cce335df158713b5841/FCInfo_en_Ver_1-26c-rmu_Docked.FCMacro}}
@@ -49,17 +24,9 @@
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width   *480px;"> 
 *FCInfo*
 
-## Utilisation
-
-
-<div class="mw-translate-fuzzy">
-
 ## Использование
 
-Выберите объект или запустите приложение и выберите объект, и появится ряд информации. Его расчеты основаны на единстве FreeCAD, которое представляет собой «мм» для каждого нового выделения, единица длины всегда возвращается на \"mm\", а угол на «десятичные градусы». <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width   *200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width   *200px;">
-
-
-</div>
+Выберите объект или запустите приложение и выберите объект, после чего появится ряд сведений. Его расчеты основаны на единице измерения FreeCAD, которой является **мм** при каждом новом выделении, единица длины всегда указывается в **мм**, а угол - в **десятичных градусах**. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width   *200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width   *200px;">
 
 
 
@@ -580,17 +547,9 @@ In a Linux distribution and in the case of an error of **\"ordinal not in range 
 \*ver 1.02 , 7/09/2013    * small updates
 \*ver 1.00 , 6/09/2013
 
+## Ссылки
 
-<div class="mw-translate-fuzzy">
-
-## Links
-
-Смотрите также [Arch Survey](Arch_Survey/ru.md) <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width   *36px;">
-
-
-</div>
-
-See Also   * <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width   *36px;"> [Arch Survey](Arch_Survey.md)
+Смотрите также   * <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width   *36px;"> [Arch Survey](Arch_Survey/ru.md)
 
 Вы можете поделиться своими комментариями на форуме [Info Workbench - Help with icons please.](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Здесь еще один пост [FCInfo Macro](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=6005)

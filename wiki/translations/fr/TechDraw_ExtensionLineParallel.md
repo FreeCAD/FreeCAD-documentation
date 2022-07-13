@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionLineParallel
    Name/fr   *TechDraw Ligne parallèle
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Ligne parallèle
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Ligne parallèle
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -25,7 +25,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width
 3.  Sélectionnez un sommet pour déterminer la position de la ligne.
 4.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> [Ligne parallèle](TechDraw_ExtensionLineParallel/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> Ligne parallèle** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> Ligne parallèle** à partir du menu.
 5.  Une ligne cosmétique est ajoutée.
 
 

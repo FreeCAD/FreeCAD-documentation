@@ -12,10 +12,10 @@
 
 ## Описание
 
-**Additive Loft** creates a solid in the active Body by making a transition between two or more sketches (also referred to as cross-sections). If the Body already contains features, the additive loft will be merged to them.
+**Аддитивный профиль** создаёт твёрдое тело в активном Теле путём перехода между двумя или более эскизами (также называемыми поперечными сечениями). Если тело уже содержит элементы, аддитивный профиль будет объединён с ними.
 
 ![](images/PartDesign_AddLoft_example.png ) 
-*On the left   * cross-sections (A), (B) and (C); created Additive loft on the right.*
+*Слева   * поперечные сечения (A), (B) и (C); справа созданный Аддитивный профиль.*
 
 ## Применение
 

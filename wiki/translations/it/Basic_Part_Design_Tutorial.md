@@ -114,6 +114,8 @@ Per procedere, utilizzare lo strumento <img alt="" src=images/Sketcher_CreatePol
 
 </div>
 
+*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed.(The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
+
 
 <div class="mw-translate-fuzzy">
 
@@ -130,7 +132,7 @@ Per procedere, utilizzare lo strumento <img alt="" src=images/Sketcher_CreatePol
 
 A questo punto si dovrebbe avere un disegno completamente vincolato, come indicato dal cambio di colore e dal messaggio mostrato nella Vista Combinata. Lo schizzo dovrebbe apparire esattamente come nell\'immagine sottostante.
 
-![](images/Tut17_profile.png )
+![](images/Tut17B_profile.png )
 
 
 <div class="mw-translate-fuzzy">

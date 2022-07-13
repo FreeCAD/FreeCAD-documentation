@@ -3,27 +3,25 @@
 
 **FreeCAD 0.20** wurde am **14 Jun1 2022** veröffentlicht, es kann von der [Download](Download/de.md)-Seite heruntergeladen werden. Diese Seite listet alle Neuerungen und Änderungen auf.
 
-Ältere FreeCAD-Versionshinweise findet man unter der [Funktionsübersicht](Feature_list/de#Versionshinweise.md).
+Ältere FreeCAD-Versionshinweise findet man in der [Funktionsliste](Feature_list/de#Versionshinweise.md).
 
-
-<div class="mw-translate-fuzzy">
-
-
-</div>
+   
+  ![](images/FreeCAD_highlight_relnotes_0.20.gif )   *Modell eines 775 Gleichspannungsmotors von Benutzer \"jimmihenry\", siehe [Users Showcase](https   *//forum.freecadweb.org/viewtopic.php?p=551765#p551765).Das Modell wurde komplett mit den wöchentlichen [development snapshots](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) von FreeCAD 0.20 erstellt. Die Bilder für die animierte Grafik wurden mit dem FreeCAD-Makro [ Bildschirm Wiki](Macro_Screen_Wiki/de.md) erstellt. Die animierte GIF-Grafik selbst wurde unter Verwendung von [GIMP](https   *//en.wikipedia.org/wiki/GIMP) erstellt. Für diese Versionshinweise wurde es mit [ezgif](https   *//ezgif.com/crop) zugeschnitten und in seiner Größe angepasst.*
+   
 
 ## Allgemeines
 
 ### freecad.org
 
-We are happy that the [KiCAD project](https   *//www.kicad.org/), through the [KiCAD services corp.](https   *//www.kipro-pcb.com/), sponsored us the domain freecad.org. Now all FreeCAD websites are available under [freecadweb.org](https   *//freecadweb.org) and [freecad.org](https   *//freecad.org).
+Wir freuen uns darüber, dass das [KiCAD-Projekt](https   *//www.kicad.org/) durch die [KiCAD services corp.](https   *//www.kipro-pcb.com/) unsere Domain freecad.org sponsert. Jetzt sind alle FreeCAD-Webseiten unter [freecadweb.org](https   *//freecadweb.org) und [freecad.org](https   *//freecad.org) zu finden.
 
 ### Bug/Issue tracker 
 
-The FreeCAD bug tracker was moved to GitHub   * <https   *//github.com/FreeCAD/FreeCAD/issues>
+Die FreeCAD-Fehlerverfolgung ist nach GitHub umgezogen   * <https   *//github.com/FreeCAD/FreeCAD/issues>
 
-**Note   *** Only bug reports with a prior forum discussion will be considered. Reports without this will be closed.
+**Hinweis   *** Nur Fehlermeldungen, die zuvor im Forum diskutiert wurden, werden berücksichtigt. Fehlermeldungen ohne Diskussion werden geschlossen.
 
-### New help system 
+### Ein neues Hilfesystem 
 
 The help system was rewritten and upgraded to display information directly from our [Wiki](User_hub.md). The system now relies on the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help). When you first use the [Help](Std_Help.md) tool or the [What\'s this?](Std_WhatsThis.md) tool you will be asked to install it.
 

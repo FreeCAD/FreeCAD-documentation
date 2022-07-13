@@ -87,12 +87,18 @@ Die einzelnen Wände sind nach wie vor zugänglich, wenn die Wand in der Baumans
 
 Fenster basieren immer auf Skizzen. Es ist einfach, maßgeschneiderte Fenster zu erstellen, indem zuerst eine Skizze auf einer Fläche erzeugt wird, die dann zu einem Fenster wird, wenn man den Fenster-Button drückt. Dann können nach Doppelklick auf das Fenster in der Baumansicht die Fenster-Erstellungsparameter, also welche Polygonzüge der Skizze und wie sehr diese zu extrudieren sind, verändert werden. Nun werden wir eine Decke erstellen   *
 
+
+<div class="mw-translate-fuzzy">
+
 -   Setze mit [Ebene markieren](Draft_SelectPlane/de.md) die Arbeitsebene auf **XY**
 -   Erstelle ein <img alt="" src=images/Draft_Rectangle.svg  style="width   *16px;"> [Rechteck](Draft_Rectangle/de.md) mit einer **Länge** von 5 m, einer **Höhe** von **4 m** und einer Position von **x = -0.5m, y   *-0.5m, z   *0**.
 -   Wähle das Rechteck
 -   Klicke das <img alt="" src=images/Arch_Structure.svg  style="width   *16px;"> [Struktur](Arch_Structure/de.md) Werkzeug, um aus dem Rechteck eine Decke zu erzeugen
 -   Setze die **Höhe** Eigenschaft der Decke auf 0,2 m und die **normal** Richtung auf (0,0,-1), weil wir sie nach unten extrudieren wollen. Wir hätten sie auch vorher 20 cm nach unten verschieben können, aber es immer gute Praxis, das extrudierte Objekt am gleichen Platz wie das Basisprofil zu belassen.
 -   Setze die **Role** Eigenschaft der Decke auf **slab**. Das ist für FreeCAD nicht nötig, aber für den IFC Export ist das wichtig, weil es dafür sorgt, dass das Objekt mit dem richtigen IFC Typ exportiert wird.
+
+
+</div>
 
 ![](images/Exercise_arch_10.jpg )
 

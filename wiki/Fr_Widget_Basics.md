@@ -1,7 +1,7 @@
 # Fr Widget Basics
 This chapter teaches you the basics of Fr\_Widget toolkit
 
-## Writing your first Fr\_Widget program 
+## Writing your first Fr\_Widget based program 
 
 Basically, you need always to have a Fr\_CoinWindow. This widget is the container of the other widgets you create. It is a subclass of Fr\_Group. The Fr\_CoinWindow used to distribute events and hold a link to each widget you have in your window.
 
@@ -245,7 +245,7 @@ We need also functions that will put the size of the object, resize it and move 
         pass
 ```}
 
-Label move is not implemented yet. But drawing move,size and resize in deed is the same function. There many ways to do this job but to make it simple, Fr\_Widget delete the original vector and simply redraw the whole object. Not so much to clarify .. It is clear how the function works.
+Label move is not implemented yet. But drawing move, size and resize indeed is the same function. There are many ways to do this job but to make it simple, Fr\_Widget delete the original vectors and simply redraw the whole object. There is not so much to clarify .. It is clear how the function works.
 
 ==== Part8   * ====
 

@@ -26,7 +26,7 @@ Ne pas confondre le <img alt="" src=images/PartDesign_Body.svg  style="width   *
 Si aucun solide précédent n\'est sélectionné   *
 
 1.  Appuyez sur le bouton **<img src="images/PartDesign_Body.svg" width=16px> [Créer un corps](PartDesign_Body/fr.md)**. Le nouveau corps est créé et devient automatiquement **[actif](PartDesign_Body/fr#Statut_actif.md)**.
-2.  Vous pouvez maintenant appuyer sur **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Créer une esquisse ](PartDesign_NewSketch/fr.md)** pour créer une [esquisse](Sketch/fr.md) dans le corps qui peut être utilisée avec **[<img src=images/_PartDesign_Pad.svg style="width   *16px"> [PartDesign Protusion](PartDesign_Pad/fr.md)**.
+2.  Vous pouvez maintenant appuyer sur **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Créer une esquisse](PartDesign_NewSketch/fr.md)** pour créer une [esquisse](Sketch/fr.md) dans le corps qui peut être utilisée avec **[<img src=images/_PartDesign_Pad.svg style="width   *16px"> [PartDesign Protusion](PartDesign_Pad/fr.md)**.
 3.  Alternativement, vous pouvez ajouter une [PartDesign Fonction](PartDesign_Feature/fr.md), par exemple un **[<img src=images/_PartDesign_AdditiveBox.svg style="width   *16px"> [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md)**.
 
 Si un objet solide est sélectionné   *
@@ -35,14 +35,14 @@ Si un objet solide est sélectionné   *
 
 ### Remarques
 
--   Si aucun corps n\'existe au moment où une **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Esquisse](PartDesign_NewSketch/fr.md)** est sélectionnée, un nouveau Corps sera automatiquement créé. Si un corps existe déjà, il doit être rendu actif avant d\'utiliser **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Créer une esquisse](PartDesign_NewSketch/fr.md)**.
--   Double-cliquez sur le Corps dans la [Vue en arborescence](Tree_view/fr.md) du modèle ou ouvrez le menu contextuel (clic droit) et sélectionnez **Toggle active body** pour activer ou désactiver le Corps. Si un autre Corps est déjà actif, il sera automatiquement désactivé. Voir [statut actif](PartDesign_Body/fr#Statut_actif.md) pour plus d\'informations.
+-   Si aucun corps n\'existe au moment où une **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Esquisse](PartDesign_NewSketch/fr.md)** est sélectionnée, un nouveau Corps sera automatiquement créé. Si un corps existe déjà, il doit être rendu actif avant d\'utiliser **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Esquisse](PartDesign_NewSketch/fr.md)**.
+-   Double-cliquez sur le Corps dans la [Vue en arborescence](Tree_view/fr.md) du modèle ou ouvrez le menu contextuel (clic droit) et sélectionnez **Activer/désactiver le corps**. Si un autre corps est déjà actif, il sera automatiquement désactivé. Voir [statut actif](PartDesign_Body/fr#Statut_actif.md) pour plus d\'informations.
 
 ## Propriétés
 
-Un [PartDesign Corps](PartDesign_Body/fr.md) (classe `PartDesign   *   *Body`) est dérivé d\'une [Part Fonctionnalité](Part_Feature/fr.md) (classe `Part   *   *Feature`), par conséquent il partage toutes les propriétés de ce dernier.
+Un [PartDesign Corps](PartDesign_Body/fr.md) (classe `PartDesign   *   *Body`) est dérivé d\'une [Part Feature](Part_Feature/fr.md) (classe `Part   *   *Feature`), par conséquent il partage toutes les propriétés de ce dernier.
 
-Outre les propriétés décrites dans [Part Fonctionnalité](Part_Feature/fr.md), le PartDesign Corps a les propriétés suivantes dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le PartDesign Corps a les propriétés suivantes dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
 ### Données
 

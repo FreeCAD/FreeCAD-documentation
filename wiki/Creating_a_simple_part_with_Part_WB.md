@@ -17,7 +17,7 @@
 
 This tutorial aims to be used as a first introduction to 3D modeling using the [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ) of FreeCAD. After having finished this tutorial you should be able to make simple 3D models by using primitives like cubes, cylinders, etc with a technique called [Constructive Solid Geometry](https   *//en.wikipedia.org/wiki/Constructive_solid_geometry), short **CSG** modeling. Another way to create 3D models is by using a 2D shape by for example extruding or revolving the 2D shape in 3D space. For an introduction of that technique please follow the sister-tutorial *[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)*. The two tutorials intentionally have exactly the same model generated, this presents the beginner with a hands on experience of the two different techniques and how they are implemented in FreeCAD. The definition of the two techniques can be viewed as strictly divided from a semantic point of view, however there is nothing directly hindering a mix of the techniques when creating models. There are some caveats to watch out for when mixing modeling techniques, those are mainly related to aspects of how FreeCAD is programmed. There is a [third tutorial](Creating_a_simple_part_with_Draft_and_Part_WB.md) intended as a first introduction to a mixed modeling example. That tutorial uses the **Draft Workbench** to create a 2D profile utilized to extrude a solid in the **Part Workbench** to make the same model as in this tutorial.
 
-Before you start please have a look at how to **[navigate](Mouse_navigation.md)** in the 3D space. When hoovering over the mouse model selector in the lower right corner of the FreeCAD window, a cheat-sheet of the current mouse model appears as in the picture below.
+Before you start please have a look at how to **[navigate](Mouse_navigation.md)** in 3D space. When hoovering over the mouse model selector in the lower right corner of the FreeCAD window, a cheat-sheet of the current mouse model appears as in the picture below.
 
  ![](images/T101pwb00-01_navi.png ) 
 
@@ -47,7 +47,7 @@ Create a new document and save it directly under a new name, it is good practice
 
 ### Create the main solid block 
 
-Press <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Box](Part_Box.md) to make a default solid cube. The cube appears in the \[\[3D\_view\|3D view}} and also as a new object in the [Tree view](Tree_view.md) in the sidebar.
+Press <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Box](Part_Box.md) to make a default solid cube. The cube appears in the [3D view](3D_view.md) and also as a new object in the [Tree view](Tree_view.md) in the sidebar.
 
 Press <img alt="" src=images/Std_ViewIsometric.svg  style="width   *24px;"> [Isometric](Std_ViewIsometric.md) to see the cube in 3D.
 
@@ -69,11 +69,11 @@ To make the filleted corner, in the toolbar press <img alt="" src=images/Part_Fi
 
  ![](images/T101pwb01-06_filletrad.png ) 
 
-The *task panel* closes and you are back to the tree-view which now has a fillet object instead of the earlier cube.
+The *task panel* closes and you are back to the Tree view which now has a fillet object instead of the earlier cube.
 
 ### Visibility of children 
 
-Click the plus sign/caret to expand the children of the fillet, which in this case is the *cube* we created earlier, but it is grayed out. Select the cube and press the space bar -- this toggles visibility so the cube is now visible again and the icon is no longer grayed out. To deselect the cube click in a blank area in the tree-view or the 3D view.
+Click the plus sign/caret to expand the children of the fillet, which in this case is the *cube* we created earlier, but it is grayed out. Select the cube and press the space bar -- this toggles visibility so the cube is now visible again and the icon is no longer grayed out. To deselect the cube click in a blank area in the Tree view or the 3D view.
 
  ![](images/T101pwb01-07_fillet.png ) 
 
@@ -111,7 +111,7 @@ Clicking that icon opens new window *Formula editor* where formulas and expressi
 
  ![](images/T101pwb01-13_expression2.png ) 
 
-To make the cut, with the **Ctrl** key pressed down first select the **Fillet** in the tree-view and then the latest created cube (named **Cube001**) and finally in the toolbar press the <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Cut](Part_Cut.md)** button. Your tree-view should now again be a single object in the root called **Cut**.
+To make the cut, with the **Ctrl** key pressed down first select the **Fillet** in the Tree view and then the latest created cube (named **Cube001**) and finally in the toolbar press the <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Cut](Part_Cut.md)** button. Your Tree view should now again be a single object in the root called **Cut**.
 
  ![](images/T101pwb01-14_model1.png ) 
 
@@ -129,11 +129,11 @@ To make the hole, press the <img alt="" src=images/Part_Cylinder.svg  style="wid
 
  ![](images/T101pwb01-16_cyl1.png ) 
 
-Next we need to position the hole according to the dimensions in the drawing. Change the view to <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> **[Top](Std_ViewTop.md)** view, then right-click the **Cylinder** in the tree-view and select **Transform** from the pop-up menu.
+Next we need to position the hole according to the dimensions in the drawing. Change the view to <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> **[Top](Std_ViewTop.md)** view, then right-click the **Cylinder** in the Tree view and select **Transform** from the pop-up menu.
 
  ![](images/T101pwb01-17_cyl1translate.png ) 
 
-Change the *Translation increment* to 5 and use the red and green arrow to position the cylinder in the right position, moving it 15 mm in y and 65 in x by dragging the arrow ends with the mouse. Click **OK** to close the *Transform* dialogue. To make the hole press the **Ctrl** key and select the **Cut** and **Cylinder** in the tree-view, then press the <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Cut](Part_Cut.md)** button in the toolbar. Your tree-view should once again have a single object in the root called **Cut001**.
+Change the *Translation increment* to 5 and use the red and green arrow to position the cylinder in the right position, moving it 15 mm in y and 65 in x by dragging the arrow ends with the mouse. Click **OK** to close the *Transform* dialogue. To make the hole press the **Ctrl** key and select the **Cut** and **Cylinder** in the Tree view, then press the <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Cut](Part_Cut.md)** button in the toolbar. Your Tree view should once again have a single object in the root called **Cut001**.
 
 Congratulations, the model is now ready.
 
@@ -143,7 +143,7 @@ With the basic model ready, let us explore different ways to alter this model, s
 
 ## Changing the color and transparency 
 
-There are several different ways one can change the appearance of objects, for this case, let\'s use the view tab in the property part of the combo view. First select the object in the tree-view and then edit any property like line color, shape color or transparency via the **view tab** (found at the bottom of the *combo view*).
+There are several different ways one can change the appearance of objects, for this case, let\'s use the view tab in the property part of the combo view. First select the object in the Tree view and then edit any property like line color, shape color or transparency via the **view tab** (found at the bottom of the *combo view*).
 
  ![](images/T101pwb02-01_appearance1.png ) 
 
@@ -165,7 +165,7 @@ Start by switching the workbench to **Draft**, it might be that a *grid* appears
 
 Finding the point to place the center of the cylinder could be done by making a diagonal as helpline and use the center of the cylinder and midpoint of the diagonal to identify the points to move between, however it turns out that we do not even need to make any helplines, we can snap on already existing solid geometry.
 
-Select the **Cylinder** in the tree-view (it turns green in the 3D view) and press the <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> **[Move](Draft_Move.md)** button in the toolbar. A *task panel* opens for moving objects, make sure that *Copy* is unchecked.
+Select the **Cylinder** in the Tree view (it turns green in the 3D view) and press the <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> **[Move](Draft_Move.md)** button in the toolbar. A *task panel* opens for moving objects, make sure that *Copy* is unchecked.
 
  ![](images/T101pwb03-03_move.png ) 
 
@@ -217,7 +217,7 @@ Click **OK**, as you can see there is now a *radius* on the hollowed out part.
 
  ![](images/T101pwb05-03_thickness_dimension.png ) 
 
-Moreover, when taking a measurement of the width of the part, it is now 32 mm, so the *thickness* has been applied *outwards*. Let's edit that, double-click the model in the tree-view and modify the *join-type* settings to *intersection* and the *thickness* setting to -1.
+Moreover, when taking a measurement of the width of the part, it is now 32 mm, so the *thickness* has been applied *outwards*. Let's edit that, double-click the model in the Tree view and modify the *join-type* settings to *intersection* and the *thickness* setting to -1.
 
  ![](images/T101pwb05-04_thickness_modify.png ) 
 
@@ -263,7 +263,7 @@ When you move the cylinder and break through the outer surface, in version 0.19 
 
  ![](images/T101pwb07-02_wrongcolor.png ) 
 
-Here is one way to get it back. First change *transparency* one tick up or down and then back, that brings back the transparency. You can do the same trick on *shape color*. Another way to get the color back is to *right-click* **Cut002** in the tree-view and select **Set Colors** in the context menu. In the *task panel* that displays, click **Set to Default**, that brings back the color to the one set in the view-properties.
+Here is one way to get it back. First change *transparency* one tick up or down and then back, that brings back the transparency. You can do the same trick on *shape color*. Another way to get the color back is to *right-click* **Cut002** in the Tree view and select **Set Colors** in the context menu. In the *task panel* that displays, click **Set to Default**, that brings back the color to the one set in the view-properties.
 
  ![](images/T101pwb07-03_set_colors.png ) 
 
@@ -305,7 +305,7 @@ When using the **Part Workbench** and modelling feature rich solids, the tree st
 
 Instead of making a cut for each primitive, we can first apply a boolean union, <img alt="" src=images/Part_Fuse.svg  style="width   *24px;"> **[Fuse](Part_Fuse.md)** the primitives intended for the boolean cut, and then make the *cut* between the **Fillet** and the **Fusion**.
 
-Using this approach, the tree-view ends up looking like below, which is just a different way of building the same model. Compare this with the original tree-view, none is better than the other, however when making more complex models, one approach over the other can have benefits in ease of modifying/reorganizing the model if needed.
+Using this approach, the Tree view ends up looking like below, which is just a different way of building the same model. Compare this with the original Tree view, none is better than the other, however when making more complex models, one approach over the other can have benefits in ease of modifying/reorganizing the model if needed.
 
  ![](images/T101pwb08-02_fused.png ) 
 

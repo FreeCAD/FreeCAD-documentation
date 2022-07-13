@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionInsertDiameter
    Name/fr   *TechDraw Diamètre
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Insérer le préfixe "⌀"
+   MenuLocation   *TechDraw → Extensions    * cotes → Insérer un préfixe '⌀'
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -22,8 +22,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="wid
 
 1.  Sélectionnez une ou plusieurs cotes.
 2.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> [Diamètre](TechDraw_ExtensionInsertDiameter/fr.md)**.
-    -   Sélectionnez la commande **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> Insérer le préfixe "⌀"** à partir du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> [Insérer un préfixe '⌀'](TechDraw_ExtensionInsertDiameter/fr.md)**.
+    -   Sélectionnez la commande **TechDraw → Extensions    * cotes → <img src="images/TechDraw_ExtensionInsertDiameter.svg" width=16px> Insérer un préfixe '⌀'** à partir du menu.
 3.  Le symbole \"⌀\" est inséré dans le texte de dimension des cotes sélectionnées.
 
 

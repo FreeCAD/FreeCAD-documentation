@@ -21,19 +21,12 @@ Diese Beschränkung ist für erfahrene Benutzer gedacht, da ihre Verwendung nich
 
 ## Einsatz auf Ellipse 
 
+1.  Die auszurichtenden Elemente und eine Ellipse auswählen. Die Ellipse muss zuletzt ausgewählt werden. Akzeptiert werden bis zu zwei Linien und bis zu zwei Punkte.
+2.  Das Aufrufen der Beschränkung kann auf verschiedene Weisen erfolgen   *
+    -   Die Schaltflache **[<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width   *16px"> [Interne Ausrichtung festlegen](Sketcher_ConstrainInternalAlignment/de.md)** in der Werkzeugleiste drücken.
+    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width   *16px"> Interne Ausrichtung festlegen** auswählen.
 
-<div class="mw-translate-fuzzy">
-
-1.  Wähle die auszurichtenden Elemente und eine Ellipse aus. Die Ellipse muss zuletzt ausgewählt werden. Akzeptiert werden bis zu zwei Linien und bis zu zwei Punkte.
-2.  Das Aufrufen der Beschränkung kann auf verschiedene Weise erfolgen   *
-    -   Drücken der **[<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width   *16px"> [Beschränke innere Ausrichtung](Sketcher_ConstrainInternalAlignment/de.md)** Schaltfläche in der Werkzeugleiste.
-    -   Verwendung der **Strg** + **A** Tastaturkürzel.
-    -   Verwendung des **Skizze → Skizziererbeschränkungen → Beschränke [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width   *16px"> Beschränke InnereAusrichtung** Eintrags aus dem oberen Menü.
-
-
-</div>
-
-Die erste ausgewählte Linie wird so ausgerichtet, dass sie zum Hauptdurchmesser der Ellipse wird (aber wenn sie nicht bereits durch eine andere Linie belegt ist, wird sie sonst zum Nebendurchmesser). Die zweite Linie wird so ausgerichtet, dass sie zu einem Nebenradius wird. Die Linien werden automatisch auf [Konstruktion](Sketcher_ToggleConstruction/de.md) umgeschaltet.
+Die erste ausgewählte Linie wird so ausgerichtet, dass sie zum Hauptdurchmesser der Ellipse wird (aber (nur) wenn sie nicht bereits durch eine andere Linie belegt ist, sonst wird sie zum Nebendurchmesser). Die zweite Linie wird so ausgerichtet, dass sie zu einem Nebenradius wird. Die Linien werden automatisch in den [Konstruktionsmodus](Sketcher_ToggleConstruction/de.md) umgeschaltet.
 
 Ebenso ist der erste Punkt beschränkt, um der erste unbesetzte Fokus zu werden, und der zweite Punkt geht zum anderen Fokus.
 

@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionDecreaseDecimal
    Name/fr   *TechDraw Moins de décimales
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Moins de décimales
+   MenuLocation   *TechDraw → Extensions    * cotes → Moins de décimales
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -20,7 +20,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="wi
 1.  Sélectionnez une ou plusieurs cotes.
 2.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> [Moins de décimales](TechDraw_ExtensionDecreaseDecimal/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions    * Dimensions → <img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> Moins de décimales** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * cotes → <img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> Moins de décimales** à partir du menu.
 3.  Le nombre de décimales des cotes sélectionnées est diminué d\'une unité.
 
 ## Remarques

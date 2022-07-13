@@ -88,6 +88,8 @@ Si ça arrive   *
 -   Vérifiez si la direction de projection est valide. La face source peut-elle être projetée de manière réaliste sur la surface cible? Une projection droite toucherait-elle la surface? Ajustez la caméra de sorte que la face source soit devant la surface cible et réessayez.
 -   Essayez d\'utiliser l\'option {{RadioButton|TRUE|Afficher les bords}}. Les bords sont-ils correctement projetés? Essayez de créer à la main une face avec les bords.
 
+La projection effectuée dans l\'atelier Part n\'est pas paramétrique. Si vous avez besoin d\'un flux de travail paramétrique, veuillez consulter la [classe Projection](https   *//gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), qui est un objet scripté en Python, destiné à une utilisation programmatique.
+
 ## Liens
 
 -   Fil de discussion du forum   * [Project faces onto bent surface](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=33700)

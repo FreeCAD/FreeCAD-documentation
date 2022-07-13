@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionThreadHoleBottom
    Name/fr   *TechDraw Taraudage
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Taraudage
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Taraudage
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -24,7 +24,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="w
 2.  Sélectionnez un ou plusieurs cercles.
 3.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> [Taraudage](TechDraw_ExtensionThreadHoleBottom/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> Taraudage** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> Taraudage** à partir du menu.
 4.  Les filets cosmétiques sont ajoutés.
 
 

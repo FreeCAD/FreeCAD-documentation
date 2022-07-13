@@ -1,13 +1,4 @@
 # Manual:A gentle introduction/ru
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual   *TOC/ru}}
 
 [Python](https   *//ru.wikipedia.org/wiki/Python) - популярный язык программирования с открытыми исходниками, часто встраиваемый в приложения как скриптовый язык, как в случае FreeCAD. У него так же много возможностей, интересных для пользователей FreeCAD   * он лёгок в изучении, особенно для людей, ранее не программировавших, и встроен во множество других приложений. Это делает его очень ценным для изучения, поскольку Вы сможете использовать его во множестве других приложений, таких как [Blender](http   *//www.blender.org), [Inkscape](http   *//www.inkscape.org) или [GRASS](http   *//grass.osgeo.org/).
@@ -117,13 +108,7 @@ box.Placement = otherpla
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

@@ -11,7 +11,7 @@
 
 ## Description
 
-The Material Editor allows you to edit and save the information contained in a [FreeCAD material](Material.md). Currently such materials are used by the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench.md) and <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch](Arch_Workbench.md) workbenches.
+The **Material Editor** allows you to edit and save the information contained in a [FreeCAD material](Material.md). Currently such materials are used by the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench.md) and <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch](Arch_Workbench.md) workbenches.
 
 ![](images/Material_editor.png )
 
@@ -19,12 +19,12 @@ The Material Editor allows you to edit and save the information contained in a [
 
 The material editor can currently be accessed by either   *
 
-1.  <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch Workbench](Arch_Workbench.md)
-    -   The <img alt="" src=images/Arch_SetMaterial.svg  style="width   *16px;"> [Set Material](Arch_SetMaterial.md) button of the [Arch Workbench](Arch_Workbench.md)
-    -   The menu **Arch → Set material...** entry
-2.  <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM Workbench](FEM_Workbench.md)
-    -   The <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *16px;"> [Material editor](FEM_MaterialEditor.md) icon
-    -   The menu **Model → Materials → Material editor** entry
+1.  <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch Workbench](Arch_Workbench.md)   *
+    -   The **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial.md)** button.
+    -   The menu **Arch → Material tools → <img src="images/Arch_SetMaterial.svg" width=16px> Material** entry.
+2.  <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM Workbench](FEM_Workbench.md)   *
+    -   The **<img src="images/FEM_MaterialEditor.svg" width=16px> [Material editor](FEM_MaterialEditor.md)** button.
+    -   The menu **Model → Materials → <img src="images/FEM_MaterialEditor.svg" width=16px> Material editor** entry.
 
 ## Options
 

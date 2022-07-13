@@ -21,11 +21,11 @@ L\'éditeur de matériaux alloue, édite ou sauve les informations contenues dan
 L\'éditeur de matériau est accessible soit par   *
 
 1.  <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Atelier Arch](Arch_Workbench/fr.md)
-    -   Le bouton <img alt="" src=images/Arch_SetMaterial.svg  style="width   *16px;"> [Matériau](Arch_SetMaterial/fr.md) de l\'[Atelier Arch](Arch_Workbench/fr.md)
-    -   L\'entrée du menu **Arch → Outils pour les matériaux...**
+    -   Le bouton **<img src="images/Arch_SetMaterial.svg" width=16px> [Matériau](Arch_SetMaterial/fr.md)**.
+    -   L\'entrée du menu **Arch → Outils pour les matériaux → <img src="images/Arch_SetMaterial.svg" width=16px> Matériau**.
 2.  L\'<img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [Atelier FEM](FEM_Workbench/fr.md)
-    -   L\'icône <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *16px;"> [Editeur de matériaux](FEM_MaterialEditor/fr.md)
-    -   L\'entrée du menu **Modèle → Matériaux → Éditeur de matériaux**
+    -   Le bouton **<img src="images/FEM_MaterialEditor.svg" width=16px> [Editeur de matériaux](FEM_MaterialEditor/fr.md)**.
+    -   L\'entrée du menu **Modèle → Matériaux → <img src="images/FEM_MaterialEditor.svg" width=16px> Éditeur de matériaux**.
 
 ## Options
 

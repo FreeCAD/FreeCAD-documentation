@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionCreateObliqueChainDimension
    Name/fr   *TechDraw Cotes obliques
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Cotes obliques
+   MenuLocation   *TechDraw → Extensions    * cotes → Cotes obliques
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -24,7 +24,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.sv
 2.  Les deux sommets sélectionnés définissent d\'abord la direction et déterminent la position de la dimension de la chaîne.
 3.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateObliqueChainDimension.svg" width=16px> [Cotes obliques](TechDraw_ExtensionCreateObliqueChainDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionCreateObliqueChainDimension.svg" width=16px> Cotes obliques** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * cotes → <img src="images/TechDraw_ExtensionCreateObliqueChainDimension.svg" width=16px> Cotes obliques** à partir du menu.
 4.  La chaîne de cotes avec des textes de cotes centrés est créée.
 
 

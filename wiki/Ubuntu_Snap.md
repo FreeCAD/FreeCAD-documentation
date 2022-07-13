@@ -67,7 +67,7 @@ Starting from the tail end of the v0.20 release cycle, the FreeCAD snap maintain
 Testing the Topological Naming (\'toponaming\') branch (created at the start of the v0.21/v1.0 release cycle)   *
 
  {{code|lang=bash|code=
-snap switch freecad --channel=latest/edge/toponaming
+snap refresh freecad --channel=latest/edge/toponaming
 }}
 
 Using the `refresh` command will switch and update the snap channel you\'re switching to   *

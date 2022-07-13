@@ -98,56 +98,26 @@ Sketcher не предназначен для создания 2D чертеже
 
    ** <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Окружность по трём точкам](Sketcher_Create3PointCircle/ru.md)   * Рисует окружность по трём точкам окружности.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *48px;"> [Создать коническое сечение](Sketcher_CompCreateConic/ru.md)   * Sketcher обеспечивает следующие конические сечения. В отличие от B-сплайнов они могут использоваться со всеми видами ограничений, такими как [касательные](Sketcher_ConstrainTangent/ru.md), [точки на объекте](Sketcher_ConstrainPointOnObject/ru.md) или [перпендикуляры](Sketcher_ConstrainPerpendicular/ru.md).
-    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md)   * Рисует эллипс по центральной точке, точке большого радиуса и точке малого радиуса.
-    -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Эллипс по 3 точкам](Sketcher_CreateEllipseBy3Points/ru.md)   * Рисует эллипс по большому диаметру (2 точки) и малому радиусу.
-    -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Дуга эллипса](Sketcher_CreateArcOfEllipse/ru.md)   * Рисует дугу эллипса от центральной точки, главной точки радиуса, начальной и конечной точкам.
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *48px;"> [Создать фигуру конического сечения](Sketcher_CompCreateConic/ru.md)   * Sketcher обеспечивает следующие конические сечения. В отличие от B-сплайнов они могут использоваться со всеми видами ограничений, такими как [Касательные](Sketcher_ConstrainTangent/ru.md), [Точки на объекте](Sketcher_ConstrainPointOnObject/ru.md) или [Перпендикуляры](Sketcher_ConstrainPerpendicular/ru.md).
+    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Эллипс по центру](Sketcher_CreateEllipseByCenter/ru.md)   * Рисует эллипс по центральной точке, точке большого радиуса и точке малого радиуса.
+    -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Эллипс по 3 точкам](Sketcher_CreateEllipseBy3Points/ru.md)   * Рисует эллипс по большому диаметру (2 точки) и точке малого радиуса.
+    -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Дуга эллипса](Sketcher_CreateArcOfEllipse/ru.md)   * Рисует дугу эллипса по центральной точке, главной точке радиуса, начальной и конечной точкам.
     -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Дуга гиперболы](Sketcher_CreateArcOfHyperbola/ru.md)   * Рисует дугу гиперболы.
     -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Дуга параболы](Sketcher_CreateArcOfParabola/ru.md)   * Рисует дугу параболы.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width   *48px;"> [Нарисовать B-сплайн](Sketcher_CompCreateBSpline/ru.md)   * Данный элемент панели инструментов Sketcher, является меню и содержит следующие команды   *
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [Создать B-сплайн](Sketcher_CreateBSpline/ru.md)   * Рисует B-сплайн по его контрольным точкам.
-    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Создать периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md)   * Рисует периодическую (замкнутую) кривую B-сплайна по контрольным точкам.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width   *48px;"> [Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)   * Это меню значков на панели инструментов Sketcher, содержащее следующие команды   *
+    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-сплайн](Sketcher_CreateBSpline/ru.md)   * Строит B-сплайн по его контрольным точкам.
+    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md)   * Строит периодическую (замкнутую) кривую B-сплайна по контрольным точкам.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *32px;"> [Полилиния (линия состоящая из нескольких отрезков)](Sketcher_CreatePolyline/ru.md)   * Построение линии из нескольких отрезков. Нажатие клавиши **M** при построении позволяет переключаться между различными режимами полилинии.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width   *48px;"> [Создать прямоугольник](Sketcher_CompCreateRectangles/ru.md)   * Данный элемент панели инструментов Sketcher, является меню и содержит следующие команды   * {{Version/ru|0.20}}
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width   *48px;"> [Создать прямоугольник](Sketcher_CompCreateRectangles/ru.md)   * Это меню значков на панели инструментов Sketcher, содержащее следующие команды   * {{Version/ru|0.20}}
 
    ** <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> [Прямоугольник](Sketcher_CreateRectangle/ru.md)   * Рисует прямоугольник по 2-ум противоположным точкам.
 
+   ** <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *32px;"> [Прямоугольник по центру](Sketcher_CreateRectangle_Center/ru.md)   * Рисует прямоугольник по точке центра и вершине. {{Version/ru|0.20}}
 
-<div class="mw-translate-fuzzy">
-
-   ** <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *32px;"> [Создать прямоугольник](Sketcher_CreateRectangle_Center/ru.md)   * Рисует прямоугольник по центральной и крайней точкам. {{Version/ru|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-   ** <img alt="" src=images/Sketcher_CreateOblong.svg  style="width   *32px;"> [Скругленный прямоугольник](Sketcher_CreateOblong/ru.md)   * Рисует cкругленный прямоугольник по двум точкам. {{Version/ru|0.20}}
-
-
-</div>
+   ** <img alt="" src=images/Sketcher_CreateOblong.svg  style="width   *32px;"> [Скруглённый прямоугольник](Sketcher_CreateOblong/ru.md)   * Рисует cкруглённый прямоугольник по двум противоположным точкам. {{Version/ru|0.20}}
 
 
 <div class="mw-translate-fuzzy">
@@ -441,10 +411,10 @@ Sketcher не предназначен для создания 2D чертеже
 
 ## Уроки
 
--   [Урок по Sketcher](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104) от chrisb. Это большой 70-ти страничный PDF документ который служит подробным руководством по Sketcher. В нем объясняются основы использования Sketcher и подробно рассказывается о создании геометрических фигур и каждом из ограничений.
+-   [Справочник по Sketcher](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104) от chrisb. Это большой 70-ти страничный PDF документ который служит подробным руководством по Sketcher. В нем объясняются основы использования Sketcher и подробно рассказывается о создании геометрических фигур и каждом из ограничений.
 -   [Базовые уроки по Sketcher](Basic_Sketcher_Tutorial/ru.md) для начинающих
 -   [Мини Урок по Sketcher - Ограничения на практике](Sketcher_Micro_Tutorial_-_Constraint_Practices/ru.md)
--   [Sketcher requirement for a sketch](Sketcher_requirement_for_a_sketch/ru.md) Минимальные требования для эскиза и полного определения эскиза.
+-   [Требования к эскизам верстака Sketcher](Sketcher_requirement_for_a_sketch/ru.md) Минимальные требования для эскиза и полного определения эскиза.
 
 ## Программирование
 

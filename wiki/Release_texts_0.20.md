@@ -1,4 +1,6 @@
 # Release texts 0.20
+{{TOCright}}
+
 ## Press release 
 
 **Aim**   * shorter, less technical details, highlighting new features.

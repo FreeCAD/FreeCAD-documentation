@@ -15,10 +15,18 @@
 
 Dieses Makro dreht die aktuelle Ansicht, um senkrecht auf eine ausgewählte Fläche eines vorhandenen Objekts zu zeigen.
 
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ## Anwendung
 
 1.  Wähle eine Fläche auf einem Objekt aus
 2.  Führe das Makro aus
+
+
+</div>
 
 ## Skript
 

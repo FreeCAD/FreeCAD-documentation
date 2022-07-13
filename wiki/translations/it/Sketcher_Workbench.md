@@ -13,89 +13,34 @@ Un solutore dei vincoli calcola la quantità di vincoli applicati alla geometria
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width   *450px;"> 
 *Uno schizzo base, completamente vincolato‎.*
 
-## Basics of constraint sketching 
-
-
-<div class="mw-translate-fuzzy">
-
 ## Nozioni di base sugli schizzi vincolati 
 
 Per spiegare come funziona il modulo Sketcher, è utile fare un confronto con il **modo tradizionale** di disegnare.
-
-
-</div>
-
-#### Traditional Drafting 
-
-
-<div class="mw-translate-fuzzy">
 
 ##### Disegno tradizionale 
 
 Il modo tradizionale di disegno CAD è derivato dal vecchio [tavolo da disegno](http   *//en.wikipedia.org/wiki/Drawing_board).
 [Le viste ortogonali 2D](http   *//en.wikipedia.org/wiki/Multiview_orthographic_projection) sono disegnate manualmente e finalizzate alla produzione di disegni tecnici (noti anche come dettagli o particolari). Gli oggetti sono disegnati esattamente con le loro forme, misure o dimensioni previste. Per tracciare una linea orizzontale lunga 100 mm a partire dal punto (0,0), si attiva lo strumento linea, si fa clic sullo schermo o si inserisce le coordinate (0,0) per il primo punto, poi si fa un secondo clic o si inserisce il secondo punto di coordinate (100,0). Oppure, si costruisce una linea base senza riguardo alla sua posizione e in seguito la si sposta. Dopo aver disegnato le geometrie si aggiungono le dimensioni.
 
-
-</div>
-
-#### Constraint Sketching 
-
-
-<div class="mw-translate-fuzzy">
-
-##### Schizzo vincolato 
+#### Schizzo vincolato 
 
 Lo strumento Sketcher si allontana da questa logica. Non è più necessario disegnare gli oggetti esattamente come sono desiderati, perché è possibile ridefinirli in seguito tramite i vincoli. È possibile disegnare liberamente gli oggetti e dopo, fintanto che non vengono vincolati, modificarli. Sostanzialmente, essi sono **flottanti**, quindi si possono spostare, allungare, scalare, e così via. Questo permette una grande flessibilità nel processo di progettazione.
 
-
-</div>
-
-#### What are constraints? 
-
-
-<div class="mw-translate-fuzzy">
-
 #### Cosa sono i vincoli? 
 
-Invece delle dimensioni, i vincoli vengono utilizzati per limitare i gradi di libertà di un oggetto. Ad esempio, una linea senza vincoli ha **4 gradi di libertà** (DOF Degrees Of Freedom)   * essa può essere spostata orizzontalmente o verticalmente, può essere allungata, e può essere ruotata.
-
-
-</div>
+Invece delle dimensioni, i vincoli vengono utilizzati per limitare i gradi di libertà di un oggetto. Ad esempio, una linea senza vincoli ha 4 gradi di libertà (DOF Degrees Of Freedom)   * essa può essere spostata orizzontalmente o verticalmente, può essere allungata, e può essere ruotata.
 
 Applicando a una linea un vincolo orizzontale o verticale, oppure un vincolo angolare (rispetto ad un\'altra linea o ad uno degli assi) si limita la sua capacità di ruotare, lasciandola quindi con solo 2 gradi di libertà. Bloccando uno dei suoi punti rispetto all\'origine si rimuove un ulteriore grado di libertà. Applicando un vincolo dimensionale si rimuove l\'ultimo grado di libertà. A questo punto, la linea è quindi considerata **completamente vincolata**.
 
 Più oggetti possono essere vincolati tra di loro. Due linee possono essere unite attraverso uno dei loro punti con il vincolo punto coincidente. Tra due linee si può impostare un angolo, oppure impostarle perpendicolari. Una linea può essere tangente ad un arco o a un cerchio, e così via. Per vincolare uno schizzo complesso, con più oggetti, sono possibili diverse soluzioni, e renderlo **completamente vincolato** significa che almeno una di queste è stato raggiunta in base ai vincoli applicati.
 
+Ci sono due tipi di vincoli   * geometrici e dimensionali. Essi sono descritti nella successiva sezione dedicata agli [\'Strumenti\'](#Strumenti.md).
 
-<div class="mw-translate-fuzzy">
+#### Per che cosa l\'Ambiente Sketcher non va bene 
 
-Ci sono due tipi di vincoli   * geometrici e dimensionali. Essi sono descritti nella successiva sezione dedicata agli [strumenti](#Gli_strumenti.md).
-
-I vincoli sono controllati dal [solutore](#Il_solutore_dei_vincoli.md)
-
-
-</div>
-
-#### What the Sketcher is not good for 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Uso corretto dell\'ambiente Sketcher 
-
-Il modulo Sketcher non è pensato per produrre disegni dettagliati in 2D.
-Dopo che gli schizzi sono stati utilizzati per generare una forma solida vengono automaticamente nascosti. I vincoli (la quotatura dei vincoli e i segni grafici di vincolo) sono visibili solo in modalità **Modifica sketch**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Il modulo Sketcher non è pensato per produrre disegni dettagliati in 2D. Dopo che gli schizzi sono stati utilizzati per generare una forma solida vengono automaticamente nascosti. I vincoli (la quotatura dei vincoli e i segni grafici di vincolo) sono visibili solo in modalità **Modifica sketch**.
 
 Se serve solo produrre delle viste 2D per la stampa e non si intende creare dei modelli 3D, si può utilizzare l\'ambiente [Draft](Draft_Workbench/it.md). A differenza degli elementi di Sketcher, gli oggetti di Draft non usano i vincoli, ma sono forme semplici definite al momento della creazione. Sia Draft che Sketcher possono essere utilizzati per il disegno di geometrie 2D e la creazione di solidi 3D, sebbene il loro uso previsto sia diverso. Sketcher viene normalmente utilizzato insieme a [Part](Part_Workbench/it.md) e [PartDesign](PartDesign_Workbench/it.md) per creare solidi. Draft viene normalmente utilizzato per semplici disegni planari su una griglia, come quando si disegna una pianta architettonica, quindi Draft viene utilizzato principalmente con [Arch](Arch_Workbench/it.md). Lo strumento [Da Draft a Schizzo](Draft_Draft2Sketch/it.md) converte un oggetto Draft in un oggetto Sketch e viceversa. Molti strumenti che richiedono un elemento 2D come input funzionano con entrambi i tipi di oggetto poiché viene eseguita automaticamente una conversione interna.
-
-
-</div>
 
 ## Flusso di lavoro per gli schizzi 
 
@@ -105,43 +50,17 @@ Se lo schizzo contiene dei segmenti che si intersecano, punti non collocati esat
 
 All\'interno dell\'area racchiusa si possono avere delle piccole aree non sovrapposte. Queste diverranno dei \"vuoti\" quando si crea il solido 3D.
 
+Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventano verdi. La geometria di costruzione rimane blu. Di solito a questo punto lo schizzo è \"finito\" e adatto per l\'uso nella creazione di un solido 3D. Tuttavia, una volta chiusa la finestra di dialogo Schizzo, può essere utile andare in <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Ambiente Part](Part_Workbench/it.md) ed eseguire <img alt="" src=images/Part_CheckGeometry.svg  style="width   *16px;"> [Controlla la geometria](Part_CheckGeometry/it.md) per assicurarsi che nello schizzo non ci siano funzioni che possono causare problemi successivi.
 
-<div class="mw-translate-fuzzy">
-
-Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventano verdi. La geometria di costruzione rimane blu. Di solito a questo punto lo schizzo è \"finito\" e adatto per l\'uso nella creazione di un solido 3D. Tuttavia, una volta chiusa la finestra di dialogo Schizzo, può essere utile andare in <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part](Part_Workbench/it.md) ed eseguire <img alt="" src=images/Part_CheckGeometry.svg  style="width   *16px;"> [Controlla la geometria](Part_CheckGeometry/it.md) per assicurarsi che nello schizzo non ci siano funzioni che possono causare problemi successivi.
-
-
-</div>
-
-## Tools
-
-
-<div class="mw-translate-fuzzy">
-
-## Gli strumenti 
+## Strumenti
 
 Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si carica questo ambiente.
 
-
-</div>
-
 ### Generale
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> [Nuovo schizzo](Sketcher_NewSketch/it.md)   * Crea un nuovo schizzo su una faccia selezionata o in un piano. Se non si esegue nessuna selezione, di default, viene utilizzato il piano XY.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_EditSketch.png  style="width   *32px;"> [Edita schizzo](Sketcher_EditSketch/it.md)   * Modifica lo schizzo selezionato. Apre la finestra [Dialogo di Sketcher](Sketcher_Dialog/it.md)
-
-
-</div>
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width   *32px;"> [Esci](Sketcher_LeaveSketch/it.md)   * Termina la modalità di modifica dello schizzo.
 
@@ -159,13 +78,7 @@ Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si c
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg‎‎‎  style="width   *32px;"> [Rifletti schizzo](Sketcher_MirrorSketch/it.md)   * Riflette uno schizzo rispetto all\'asse verticale, o all\'asse orizzontale e all\'origine.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_StopOperation.svg  style="width   *32px;"> [Ferma operazione](Sketcher_StopOperation/it.md)   * quando è in modalità di modifica, ferma l\'operazione corrente, sia che si tratti di disegnare, impostare vincoli, ecc.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_StopOperation.svg  style="width   *32px;"> [Ferma operazione](Sketcher_StopOperation/it.md)   * Quando è in modalità di modifica, ferma l\'operazione corrente, sia che si tratti di disegnare, impostare vincoli, ecc.
 
 ### Geometrie
 
@@ -187,65 +100,35 @@ Gli strumenti per creare gli oggetti.
 
    **<img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Circonferenza da tre punti](Sketcher_Create3PointCircle/it.md)    * Disegna un cerchio da tre punti sulla circonferenza.
 
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *48px;"> [Sezioni di coni](Sketcher_CompCreateConic/it.md)   * L\'ambiente Schizzo fornisce le seguenti sezioni coniche. A differenza delle B-spline, possono essere usate con tutti i tipi di vincoli come [tangenti](Sketcher_ConstrainTangent/it.md), [punti](Sketcher_ConstrainPointOnObject/it.md), o [perpendicolari](Sketcher_ConstrainPerpendicular/it.md).
 
-<div class="mw-translate-fuzzy">
+   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellisse](Sketcher_CreateEllipseByCenter/it.md)   * Disegna un\'ellisse dal centro, raggio maggiore e raggio minore.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *48px;"> [Sezioni di coni](Sketcher_CompCreateConic/it.md)   * l\'ambiente Schizzo fornisce le seguenti sezioni coniche. A differenza delle B-spline, possono essere usate con tutti i tipi di vincoli come [tangenti](Sketcher_ConstrainTangent/it.md), [punti](Sketcher_ConstrainPointOnObject/it.md), o [perpendicolari](Sketcher_ConstrainPerpendicular/it.md).
+   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellisse da tre punti](Sketcher_CreateEllipseBy3Points/it.md)   * Disegna una ellisse da due punti del raggio maggiore e un punto del raggio minore.
 
-   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellisse dal centro](Sketcher_CreateEllipseByCenter/it.md)   * disegna un\'ellisse dal centro, raggio maggiore e raggio minore.
+   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md)   * Disegna un arco di ellisse dal punto centrale, un punto del raggio maggiore, il punto iniziale e il punto finale.
 
-   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellisse da tre punti](Sketcher_CreateEllipseBy3Points/it.md)   * disegna una ellisse da due punti del raggio maggiore e un punto del raggio minore.
+   **<img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arco di iperbole](Sketcher_CreateArcOfHyperbola/it.md)   * Disegna un arco di iperbole.
 
-   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md)   * disegna un arco di ellisse dal punto centrale, un punto del raggio maggiore, il punto iniziale e il punto finale.
-
-   **<img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arco di iperbole](Sketcher_CreateArcOfHyperbola/it.md)   * disegna un arco di iperbole.
-
-   **<img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arco di parabola](Sketcher_CreateArcOfParabola/it.md)   * disegna un arco di parabola.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+   **<img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arco di parabola](Sketcher_CreateArcOfParabola/it.md)   * Disegna un arco di parabola.
 
 -   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width   *48px;"> [Crea una B-spline](Sketcher_CompCreateBSpline/it.md)   * Questo è un menu icona nella barra degli strumenti Sketcher che contiene i seguenti comandi   *
 
    ** <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline/it.md)    * Disegna una curva B-spline dai suoi punti di controllo.
 
-   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [B-pline periodica](Sketcher_CreatePeriodicBSpline/it.md)    * Disegna una curva B-spline periodica (chiusa) dai suoi punti di controllo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [B-spline Periodica](Sketcher_CreatePeriodicBSpline/it.md)    * Disegna una curva B-spline periodica (chiusa) dai suoi punti di controllo.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *32px;"> [Polilinea ](Sketcher_CreatePolyline/it.md)   * Disegna una linea composta da segmenti definiti da punti. Premendo il tasto **M** mentre si disegna una polilinea si alternano le diverse modalità della polilinea.
 
-
-</div>
-
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width   *48px;"> [Create a rectangle](Sketcher_CompCreateRectangles.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   * <small>(v0.20)</small> 
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width   *48px;"> [Crea un rettangolo](Sketcher_CompCreateRectangles/it.md)   * Questo è un menu icona nella barra degli strumenti Sketcher che contiene i seguenti comandi   * <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> [Rettangolo](Sketcher_CreateRectangle/it.md)   * Disegna un rettangolo specificando gli angoli opposti.
 
+   ** <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *32px;"> [Rettangolo dal centro](Sketcher_CreateRectangle_Center/it.md)   * Disegna un rettangolo da un punto centrale e un punto di bordo. <small>(v0.20)</small> 
 
-</div>
+   ** <img alt="" src=images/Sketcher_CreateOblong.svg  style="width   *32px;"> [Rettangolo arrotondato](Sketcher_CreateOblong/it.md)   * Disegna un rettangolo arrotondato da 2 punti opposti. <small>(v0.20)</small> 
 
-   ** <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *32px;"> [Centered rectangle](Sketcher_CreateRectangle_Center.md)   * Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
-
-   ** <img alt="" src=images/Sketcher_CreateOblong.svg  style="width   *32px;"> [Rounded rectangle](Sketcher_CreateOblong.md)   * Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width   *48px;"> [Poligono regolare](Sketcher_CompCreateRegularPolygon/it.md)   * Questo è una icona menu nella barra degli strumenti Sketcher che contiene i seguenti comandi   *
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width   *48px;"> [Crea un Poligono regolare](Sketcher_CompCreateRegularPolygon/it.md)   * Questo è una icona menu nella barra degli strumenti Sketcher che contiene i seguenti comandi   *
 
    ** <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width   *32px;"> [Triangolo equilatero](Sketcher_CreateTriangle/it.md)   * Disegna un triangolo equilatero inscritto in una circonferenza di costruzione.
 

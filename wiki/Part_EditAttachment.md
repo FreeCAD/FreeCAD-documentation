@@ -49,7 +49,9 @@ Object is made perpendicular to edge. Optional vertex reference defines location
    *   Edge, Vertex
    *   Vertex, Edge
 
-#### Align O-N-X 
+**Note** See [Align O-X-Y type attachment modes](https   *//wiki.freecadweb.org/O-X-Y_type_attachment_modes) for more details on these following modes.
+
+#### Align O-Z-X 
 
 Matches object\'s origin with first referenced vertex, then aligns its normal and horizontal plane axis toward vertex/along line.
 
@@ -62,7 +64,7 @@ Matches object\'s origin with first referenced vertex, then aligns its normal an
    *   Vertex, Vertex
    *   Vertex, Edge
 
-#### Align O-N-Y 
+#### Align O-Z-Y 
 
 Matches object\'s origin with first referenced vertex and aligns its normal and vertical plane axis toward vertex/along line.
 
@@ -88,7 +90,7 @@ Matches object\'s origin with first referenced vertex and aligns its horizontal 
    *   Vertex, Vertex
    *   Vertex, Edge
 
-#### Align O-X-N 
+#### Align O-X-Z 
 
 Matches object\'s origin with first referenced vertex and aligns its horizontal plane axis and normal toward vertex/along line.
 
@@ -101,7 +103,7 @@ Matches object\'s origin with first referenced vertex and aligns its horizontal 
    *   Vertex, Vertex
    *   Vertex, Edge
 
-#### Align O-Y-N 
+#### Align O-Y-Z 
 
 Matches object\'s origin with first referenced vertex and aligns its vertical plane axis and normal toward vertex/along line.
 

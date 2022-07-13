@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionDrawCosmArc
    Name/fr   *TechDraw Arc
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Arc
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Arc
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -26,7 +26,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width 
 4.  Sélectionnez le troisième sommet pour déterminer l\'angle final de l\'arc.
 5.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px>. [Arc](TechDraw_ExtensionDrawCosmArc/fr.md)**.
-    -   Sélectionnez le **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px> Arc** dans le menu.
+    -   Sélectionnez le **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px> Arc** dans le menu.
 6.  Un arc cosmétique est ajouté.
 
 

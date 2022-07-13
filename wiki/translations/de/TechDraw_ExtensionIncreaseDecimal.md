@@ -1,26 +1,27 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *TechDraw ExtensionIncreaseDecimal
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Increase Decimal Places
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/de   *TechDraw ErgänzungDezimalstellenzahlErhöhen
+   MenuLocation   *TechDraw → Ergänzungen   * Maße → Dezimalstellenanzahl erhöhen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Shortcut   *
    Version   *0.20
-   SeeAlso   *[TechDraw ExtensionDecreaseDecimal](TechDraw_ExtensionDecreaseDecimal.md)
+   SeeAlso   *[TechDraw ErgänzungDezimalstellenzahlVerringern](TechDraw_ExtensionDecreaseDecimal/de.md)
 ---
 
 # TechDraw ExtensionIncreaseDecimal/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width   *24px;"> **TechDraw ExtensionIncreaseDecimal** Werkzeug vergrößert die Anzahl der Dezimalstellen im Maßtext.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width   *24px;"> **TechDraw ErgänzungDezimalstellenzahlErhöhen** vergrößert die Anzahl der Dezimalstellen im Maßtext.
 
 ## Anwendung
 
-1.  Wähle eine oder mehrere Bemaßungen.
+1.  Eine oder mehrere Maße auswählen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücke die **<img src="images/TechDraw_ExtensionIncreaseDecimal.svg" width=16px> [TechDraw ExtensionIncreaseDecimal](TechDraw_ExtensionIncreaseDecimal.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionIncreaseDecimal.svg" width=16px> Increase Decimal Places** Option aus dem Menü.
-3.  Die Anzahl der Dezimalstellen der gewählten Bemaßungen wird um eins vergrößert.
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionIncreaseDecimal.svg" width=16px> [Dezimalstellenanzahl erhöhen](TechDraw_ExtensionIncreaseDecimal.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionIncreaseDecimal.svg" width=16px> Dezimalstellenanzahl erhöhen** auswählen.
+3.  Die Anzahl der Dezimalstellen der gewählten Maße wird um eins erhöht.
 
 ## Anmerkungen
 

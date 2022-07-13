@@ -901,6 +901,13 @@ locate python3.6
 
 Puede utilizar `python3 -m site` en un terminal para determinar el directorio `site-packages`, o `dist-packages` para los sistemas Debian.
 
+Some components of FreeCAD, such as PySide, try to autodetect the most recent Python version installed on your system, which might fail if it is different from what you entered above. Adding the following cMake option might solve the issue   *
+
+
+{{Code|lang=bash|code=
+-DPython3_FIND_STRATEGY=LOCATION
+}}
+
 #### Creación con Qt Creator contra Python 3 y Qt5 
 
 1\. Inicie Qt Creator.

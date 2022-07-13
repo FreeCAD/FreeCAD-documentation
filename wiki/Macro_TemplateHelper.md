@@ -9,7 +9,7 @@
 
 ## Description
 
-If you are tired of retyping information whenever you inserted another page into your active FreeCAD file or if you prefer a \"drawn\" bill of material (BOM) over an inserted spread sheet this macro is for you.
+If you are tired of retyping information whenever you insert another page into your FreeCAD document or if you prefer a \"drawn\" bill of material (BOM) over an inserted spread sheet this macro is for you.
 
 This macro generates a TechDraw template on the fly and inserts it into the active document, ready to get new views added.
 
@@ -25,16 +25,13 @@ If you wish, you can fill the space between the title block and the upper border
 
        *   (The Script section below describes how to put it there.)
 3.  Press **Execute** to start the macro.
-4.  Select page format.
-5.  Select language for the title block.
-6.  If you need a BOM change the number of rows.
-
-   *   
+4.  Select the page format.
+5.  Select the language for the title block.
+6.  If you need a BOM change the number of rows   *
 
        *   You can use the right mouse button to reset to 0 or
-       *   to set the maximum number of rows that fit on your chosen page size.
-
-   *   Finally   * Click **OK** to continue.
+       *   to set the maximum number of rows that fits on your chosen page size.
+7.  Click **OK** to finish.
 
 ## Dialogue window 
 

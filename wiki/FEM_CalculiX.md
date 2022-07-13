@@ -47,7 +47,7 @@ The CalculiX interface supports the following objects   *
 
 ## Postprocessing interface 
 
-The FEM Workbench loads CalculiX results to a [result object](FEM_ResultShow.md) which will contain   *
+The FEM Workbench loads CalculiX results into a [result object](FEM_ResultShow.md) which will contain   *
 
 -   Displacements
 -   Stresses
@@ -55,7 +55,7 @@ The FEM Workbench loads CalculiX results to a [result object](FEM_ResultShow.md)
 -   Equivalent plastic strain (PEEQ) -- if nonlinear material was used
 -   Temperature -- for thermomechanical analysis
 
-FreeCAD reads results from \*.frd file which was created by CaluliX. If these results contain multiple time steps, each time step is imported to FreeCAD as a new result object. Same behavior applies for Frequency or Buckling analysis with multiple eigenvalues.
+FreeCAD reads results from \*.frd file which was created by CalculiX. If these results contain multiple time steps, each time step is imported to FreeCAD as a new result object. Same behavior applies for Frequency or Buckling analysis with multiple eigenvalues.
 
 Reaction forces can be found in ccx\_dat\_file which contains reaction force components (fx, fy, fz) for each Constraint fixed and for each Constraint displacement which constrains translation degrees of freedom.
 

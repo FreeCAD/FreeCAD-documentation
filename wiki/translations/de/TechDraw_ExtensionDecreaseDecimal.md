@@ -1,26 +1,27 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *TechDraw ExtensionDecreaseDecimal
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Decrease Decimal Places
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/de   *TechDraw ErgänzungDezimalstellenzahlVerringern
+   MenuLocation   *TechDraw → Ergänzungen   * Maße → Dezimalstellenanzahl verringern
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Shortcut   *
    Version   *0.20
-   SeeAlso   *[TechDraw ExtensionIncreaseDecimal](TechDraw_ExtensionIncreaseDecimal.md)
+   SeeAlso   *[TechDraw ErgänzungDezimalstellenzahlErhöhen](TechDraw_ExtensionIncreaseDecimal/de.md)
 ---
 
 # TechDraw ExtensionDecreaseDecimal/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width   *24px;"> **TechDraw ExtensionDecreaseDecimal** Werkzeug verkleinert die Anzahl der Dezimalstellen im Maßtext.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width   *24px;"> **TechDraw ErgänzungDezimalstellenzahlVerringern** verkleinert die Anzahl der Dezimalstellen im Maßtext.
 
 ## Anwendung
 
-1.  Wähle eine oder mehrere Bemaßungen.
+1.  Eine oder mehrere Maße auswählen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücke die **<img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> [TechDraw ExtensionDecreaseDecimal](TechDraw_ExtensionDecreaseDecimal.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> Decrease Decimal Places** Option aus dem Menü.
-3.  Die Anzahl der Dezimalstellen der gewählten Bemaßungen wird um eins verkleinert.
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> [Dezimalstellenanzahl verringern](TechDraw_ExtensionDecreaseDecimal/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionDecreaseDecimal.svg" width=16px> Dezimalstellenanzahl verringern** auswählen.
+3.  Die Anzahl der Dezimalstellen der gewählten Maße wird um eins verringert.
 
 ## Hinweise
 

@@ -231,7 +231,7 @@ Tutorial 4   * [FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.m
 
 Tutorial 5   * [Transient FEM analysis](Transient_FEM_analysis.md)
 
-Tutorial 6   * [Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)
+Tutorial 6   * [Post-Processing of FEM Results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)
 
 Tutorial 7   * [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md); Elmer\'s GUI tutorial 6 \"Electrostatics Capacitance Two Balls\" using FEM Examples.
 

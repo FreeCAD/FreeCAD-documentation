@@ -89,6 +89,8 @@ Wenn dies geschieht   *
 -   Prüfe, ob die Projektionsrichtung gültig ist. Kann die Quellfläche realistisch auf die Zielfläche projiziert werden? Würde eine gerade Projektion auf die Oberfläche treffen? Stelle die Kamera so ein, dass die Quellfläche vor der Zielfläche liegt, und versuche es erneut.
 -   Versuche, die Option {{RadioButton|TRUE|Kanten anzeigen}} zu verwenden. Werden die Kanten korrekt projiziert? Versuche, eine Fläche mit den Kanten von Hand zu erzeugen.
 
+The projection done in the Part workbench is not parametric. If you need a parametric workflow, please consult with the [Projection class](https   *//gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), which is a Python scripted object, intended for programmatic use.
+
 ## Verweise
 
 -   Forumsbeitrag   * [Flächen auf gebogene Oberfläche projizieren](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=33700)

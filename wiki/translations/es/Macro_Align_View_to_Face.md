@@ -15,6 +15,8 @@
 
 Esta macro gira la vista actual para apuntar perpendicularmente a una cara seleccionada de un objeto existente.
 
+## Usage
+
 
 <div class="mw-translate-fuzzy">
 

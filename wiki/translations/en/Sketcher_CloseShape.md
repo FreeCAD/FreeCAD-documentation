@@ -3,7 +3,6 @@
    Name   *Sketcher CloseShape
    MenuLocation   *Sketch → Sketcher tools → Close shape
    Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Shortcut   ***Ctrl** + **Shift** + **S**
    Shortcut   ***Z** **W**
    Version   *0.15
 ---

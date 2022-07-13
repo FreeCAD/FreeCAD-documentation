@@ -1,7 +1,7 @@
 ---
 - TutorialInfo   */ru
-   Topic   *Sketch
-   Level   *Beginner
+   Topic   *Эскиз
+   Level   *Новичок
    Author   *[Maker](User_Maker.md)
    Time   *
    FCVersion   *
@@ -13,24 +13,24 @@
 
 
 
-## Minimum requirement for a sketch 
+## Минимальное требование к эскизу 
 
-The creation of a body in the workspace PartDesign is already possible and *only* with the help of a closed curve (profile). The complete determination of all their dimensions and properties (*fully constrained*) is not yet required.
+Создание тела в рабочей среде PartDesign уже возможно и *только* с помощью замкнутой кривой (профиля). Полное определение всех их размеров и свойств (*полностью ограниченных*) пока не требуется.
 
-That a closed curve is present, is not self-evident and not recognizable. When connecting a circular arc to a straight line, e.g. The two endpoints are created only one above the other. You must use the <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraint to make a single point that actually connects the line and the arc.
+Наличие замкнутой кривой не является самоочевидным и нераспознаваемым. При соединении дуги окружности с прямой линией, например, две конечные точки создаются только одна над другой. Для создания единой точки, которая фактически соединяет отрезок и дугу, необходимо использовать ограничение <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [Совпадение](Sketcher_ConstrainCoincident/ru.md).
 
 ![](images/Skizze2a.png )
 
 
 
-*A simple sketch. 
-Left   * Curve only in four places (red, automatic constraints when drawing with [<img src=images/_Sketcher_CreatePolyline.svg style="width   *32px"> [Polyline](Sketcher_CreatePolyline.md)) closed. 
-Middle   * Warning - ... broken face (broken curve). 
-Right   * Curve closed at remaining four places (green)*
+*Простой эскиз. 
+Слева   * Кривая замкнута только в четырёх местах (красный цвет, автоматические ограничения при рисовании с помощью [<img src=images/_Sketcher_CreatePolyline.svg style="width   *32px"> [Полилинии](Sketcher_CreatePolyline/ru.md)). 
+Середина   * Предупреждение -... разорванная линия (разорванная кривая).
+Справа   * кривая замкнута в оставшихся четырех местах (зеленый цвет)*
 
-However, consistent parametric working means that the sketch is completely determined.
+Однако последовательная параметрическая обработка означает, что эскиз полностью определен.
 
-## Defining a sketch completely 
+## Полное определение эскиза 
 
 Even a relatively simple sketch may contain dozens of indeterminacies (indicated in the combo view as a \"degrees of freedom\" number). To eliminate them together at the end is a relatively confusing task.
 

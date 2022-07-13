@@ -120,6 +120,8 @@
 
 </div>
 
+*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed.(The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
+
 
 <div class="mw-translate-fuzzy">
 
@@ -136,7 +138,7 @@
 
 На этом этапе у вас должен получиться полностью ограниченный эскиз, на что указывает его изменение цвета и сообщение, отображаемое в Комбо панели. Теперь он должен выглядеть так же, как на картинке ниже.
 
-![](images/Tut17_profile.png )
+![](images/Tut17B_profile.png )
 
 
 <div class="mw-translate-fuzzy">

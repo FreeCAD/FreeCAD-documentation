@@ -217,7 +217,11 @@ Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań  
 
 -   <img alt="" src=images/Sketcher_CloseShape.svg  style="width   *32px;"> [Zamknij kształt](Sketcher_CloseShape/pl.md)   * Tworzy zamknięty kształt, stosując wiązania zgodności względem punktów końcowych.
 
+To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach ({{VersionPlus/pl|1.0}})
+
 -   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width   *32px;"> [Połącz krawędzie](Sketcher_ConnectLines/pl.md)   * Połącz elementy szkicownika poprzez zastosowanie zbieżnych ograniczeń do punktów końcowych.
+
+To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach ({{VersionPlus/pl|1.0}})
 
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width   *32px;"> [Wybierz powiązane wiązania](Sketcher_SelectConstraints/pl.md)   * Wybiera wiązania elementu rysunku w szkicowniku.
 

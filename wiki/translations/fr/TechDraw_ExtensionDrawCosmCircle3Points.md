@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionDrawCosmCircle3Points
    Name/fr   *TechDraw Cercle par 3 points
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Cercle par 3 points
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Cercle par 3 points
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -24,7 +24,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  sty
 2.  Sélectionnez trois sommets sur la circonférence pour déterminer le cercle.
 3.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> [Cercle par 3 points](TechDraw_ExtensionDrawCosmCircle3Points/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> Ajouter un cercle cosmétique 3 points** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionDrawCosmCircle3Points.svg" width=16px> Ajouter un cercle cosmétique 3 points** à partir du menu.
 4.  Un cercle cosmétique est ajouté.
 
 

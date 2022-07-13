@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionPosHorizChainDimension
    Name/fr   *TechDraw Aligner horizontalement
-   MenuLocation   *TechDraw → Extensions   * Attributes/Modifications → Aligner horizontalement les cotes
+   MenuLocation   *TechDraw → Extensions    * attributs/modifications → Aligner horizontalement
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -23,8 +23,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  st
 1.  Sélectionnez deux cotes horizontales ou plus.
 2.  La première cote définit la position. Cette cote ne sera pas déplacée.
 3.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> [Aligner horizontalement les cotes](TechDraw_ExtensionPosHorizChainDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions    * Attributs/Modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Aligner horizontalement les cotes** à partir du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> [Aligner horizontalement](TechDraw_ExtensionPosHorizChainDimension/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * attributs/modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Aligner horizontalement** à partir du menu.
 4.  Les cotes sont alignées et leurs textes sont centrés.
 
 ## Remarques

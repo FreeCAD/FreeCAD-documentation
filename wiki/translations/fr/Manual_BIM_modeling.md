@@ -92,7 +92,7 @@ Les fenêtres sont toujours construites sur des esquisses. Il est facile de cré
 -   Sélectionnez le rectangle.
 -   Cliquez sur l\'outil <img alt="" src=images/Arch_Structure.svg  style="width   *16px;"> [Arch Structure](Arch_Structure/fr.md) pour créer une dalle à partir du rectangle.
 -   Réglez la propriété de **hauteur** de la dalle à 0,2 m et sa direction **normale** à (0,0,-1) car nous voulons qu\'elle soit extrudée vers le bas. Nous pourrions aussi simplement l\'avoir déplacée de 0,2 m vers le bas, mais il est toujours recommandé de conserver les objets extrudés au même endroit que leur profil de base.
--   Définissez la propriété **Role** de la dalle sur **slab** (dalle). Ceci n\'est pas nécessaire dans FreeCAD, mais il est important pour l\'exportation IFC car il garantira que l\'objet est exporté avec le type IFC correct.
+-   Définissez la propriété **Ifc Type** de la dalle sur **slab** (dalle). Ceci n\'est pas nécessaire dans FreeCAD, mais il est important pour l\'exportation IFC car il garantira que l\'objet est exporté avec le type IFC correct.
 
 ![](images/Exercise_arch_10.jpg )
 

@@ -16,11 +16,11 @@
 
 This tutorial is about how to set up a simple 2D mechanism and attach 3D objects, mainly with the tools from the external <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *16px;"> [Assembly3 Workbench](Assembly3_Workbench.md).
 
-This tutorial does not use the skeleton sketch principle. See [notes](Assembly3_ConstraintAngle#Notes.md) for reasons.
+This tutorial does not use the skeleton sketch principle (see Assembly3 [Create-Skeleton-Sketch](https   *//github.com/realthunder/FreeCAD_assembly3/wiki/Create-Skeleton-Sketch) on GitHub).
 
 Instead we will use <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [PartDesign Bodies](PartDesign_Body.md) containing only one <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Sketch](Sketcher_Workbench.md) each, to build a 2D mechanism, a **multi sketch skeleton**.
 
-The dimensions and the colours as well are taken from the [SolveSpace tutorial](http   *//solvespace.com/linkage.pl) which is referred to on the Assembly3 GitHub page [Create-Skeleton-Sketch](https   *//github.com/realthunder/FreeCAD_assembly3/wiki/Create-Skeleton-Sketch).
+The dimensions and the colours as well are taken from the [SolveSpace tutorial](http   *//solvespace.com/linkage.pl) which is referred to on the Assembly3 GitHub page (see above).
 
 ## Multi sketch skeleton 
 

@@ -1,4 +1,7 @@
 # Macro FCInfoGlass/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FCInfoGlass
 |Translate=Info su fondo trasparente
@@ -7,6 +10,9 @@
 |Version=00.05
 |Date=2016-08-28
 }}
+
+
+</div>
 
 ## Descrizione
 
@@ -18,9 +24,17 @@ Fornisce una serie di informazioni sulla forma selezionata e visualizza i dati d
 <img alt="" src=images/Macro_FCTransparentInfo_00.FCMacro.png  style="width   *480px;"> 
 *FCInfoGlass*
 
+## Utilisation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Uso
 
 Selezionare un oggetto o avviare l\'applicazione e selezionare un oggetto. Nella vista 3D appare una serie di informazioni.
+
+
+</div>
 
 Per spostare la visualizzazione dei dati sullo schermo modificare le righe 84 e 85 del codice 
 ```python
@@ -201,15 +215,31 @@ le **righe 87 e 88 e SizeX SizeY** per le dimensioni della finestra
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
+## Script 
+
 L\'icona di **Macro\_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width   *64px;">
+
+
+</div>
 
 Copiare lo script in Gits [**Macro\_FCInfoGlass.FCMacro**](https   *//gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
 
 poi copiare la Macro\_FCInfoGlass.FCMacro e l\'icona nella propria directory delle macro.
 
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
 ## Link
 
 La discussione nel forum [FCInfo Macro](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=6005)
+
+
+</div>
 
 Le mie macro in [mario52a](https   *//gist.github.com/mario52a) gists
 

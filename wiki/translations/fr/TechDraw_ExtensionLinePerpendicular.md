@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionLinePerpendicular
    Name/fr   *TechDraw Ligne perpendiculaire
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Ligne perpendiculaire
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Ligne perpendiculaire
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -25,7 +25,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="
 3.  Sélectionnez un sommet pour déterminer la position de la ligne.
 4.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> [Ligne perpendiculaire](TechDraw_ExtensionLinePerpendicular/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> Ligne perpendiculaire** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionLinePerpendicular.svg" width=16px> Ligne perpendiculaire** à partir du menu.
 5.  Une ligne cosmétique est ajoutée.
 
 

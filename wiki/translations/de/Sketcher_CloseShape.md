@@ -11,6 +11,9 @@
 
 # Sketcher CloseShape/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug kann verwendet werden, um im Sketcher eine ausgewählte Kontur zu schließen, indem der Endpunkt eines Skizzenelements zur Überdeckung mit dem Endpunkt des nächsten gewählten Skizzenelements gebracht wird.

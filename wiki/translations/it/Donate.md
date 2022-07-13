@@ -1,14 +1,26 @@
 # Donate/it
-<div id="Donate" style="text-align   *center; font-size   *150%; background   *#dfeee0;margin   *1em 7em;padding   *0.5em 2em;border   *2px solid #226622;">
+Below are the different donation options currently supported by the project. Remember, it is not required and will never be required to pay anything to use, study, distribute, modify FreeCAD, and FreeCAD does not require money to be developed. Donations, however, can help FreeCAD to grow faster and further.
 
-Donazione rapida   * <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Conto del team FreeCAD](https   *//liberapay.com/FreeCAD)
+   --  -- 
+   <img alt="" src=images/Liberapay_logo.svg  style="width   *128px;"> [FreeCAD LiberaPay team](https   *//liberapay.com/FreeCAD) (recommended)      <img alt="" src=images/PayPal_Logo_Icon_2014.svg  style="width   *128px;"> [PayPal](https   *//www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q)                    <img alt="" src=images/SepaLogoEN.jpg  style="width   *128px;"> SEPA bank transfer   * IBAN BE04 0019 2896 4531
+                   <img alt="" src=images/GitHub.svg  style="width   *128px;"> [GitHub sponsor](https   *//github.com/sponsors/FreeCAD)                                 <img alt="" src=images/Opencollective_logo.svg  style="width   *128px;"> [OpenCollective](https   *//opencollective.com/freecad)                  <img alt="" src=images/Bountysource_logo.png  style="width   *128px;"> [Bountysource](https   *//app.bountysource.com/teams/freecad)
+   --  -- 
+
+
+<div class="mw-translate-fuzzy">
+
+Vedi altri modi per [aiutare il progetto](Help_FreeCAD/it.md) (documentazione, traduzione).
 
 
 </div>
 
-Vedi altri modi per [aiutare il progetto](Help_FreeCAD/it.md) (documentazione, traduzione).
+
+<div class="mw-translate-fuzzy">
 
 ## Opzioni
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -18,7 +30,13 @@ Vedi altri modi per [aiutare il progetto](Help_FreeCAD/it.md) (documentazione, t
 
 </div>
 
--   There are official FreeCAD accounts on several funding platforms   * [Github sponsoring](https   *//github.com/sponsors/FreeCAD), [openCollective](https   *//opencollective.com/freecad). You can donate there via credit card or paypal. The money gathered there is managed by the [FPA](https   *//github.com/FreeCAD/FPA).
+-   <img alt="" src=images/PayPal_Logo_Icon_2014.svg  style="width   *24px;"> FreeCAD has an official [PayPal account](https   *//www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q) where you can donate any amount by credit card or your own Paypal account, one time only or recurrently. The PayPal account is managed by the [FPA](https   *//github.com/FreeCAD/FPA). Paypal is a convenient platform but charges a fee on what FreeCAD receives. **Warning**   * Paypal just arbitrarily disabled our account, so it doesn\'t work at the moment. We\'re working as hard as we can to solve the issue..
+
+-   <img alt="" src=images/SepaLogoEN.jpg  style="width   *24px;"> FreeCAD has an Euro bank account where you can transfer money directly via your own banking application. The IBAN number is BE04 0019 2896 4531, owned by the FreeCAD project association. The bank agency is BNP Paribas Fortis, address   * Rue de la Station 64, 1360 Perwez, Belgium, BIC/SWIFT code   * GEBABEBBXXX
+
+-   <img alt="" src=images/Opencollective_logo.svg  style="width   *24px;"> FreeCAD has an official [OpenCollective PayPal account](https   *//opencollective.com/freecad) where you can donate any amount, one time only or recurrently, via credit card, SEPA transfer or Paypal. The OpenCollective account is managed by the [FPA](https   *//github.com/FreeCAD/FPA). OpenCollective is a good option as it is independent and used by many open-source projects.
+
+-   <img alt="" src=images/_GitHub.svg  style="width   *24px;"> [GitHub sponsors](https   *//github.com/sponsors/FreeCAD) is a sponsoring platform offered by GitHub, where the FreeCAD source code is hosted. There you can donate any amount monthly to FreeCAD, via credit card or Paypal. The GitHub sponsors account is managed by the [FPA](https   *//github.com/FreeCAD/FPA).
 
 
 <div class="mw-translate-fuzzy">
@@ -28,7 +46,13 @@ Vedi altri modi per [aiutare il progetto](Help_FreeCAD/it.md) (documentazione, t
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Sostieni i costi di web hosting donando direttamente a [conto paypal di Jürgen Riegel](https   *//www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen è lo sviluppatore originale di FreeCAD.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -49,13 +73,22 @@ Vedi altri modi per [aiutare il progetto](Help_FreeCAD/it.md) (documentazione, t
 -   Ci potrebbero essere altri sviluppatori interessati a fare un lavoro specifico per il progetto; se volete accelerare lo sviluppo di un\'idea o di una caratteristica, considerate di assumere uno sviluppatore. Sta a te costruire un\'idea, discuterla sul forum e trovare sviluppatori interessati a farlo. Puoi offrire un lavoro nel [Job offers subforum](https   *//forum.freecadweb.org/viewforum.php?f=31).
 -   Anche i lavori di modellazione sono benvenuti. Non tutti gli utenti esperti di FreeCAD sono sviluppatori. Gli utenti esperti possono aiutare a migrare i progetti a FreeCAD, il che contribuisce a rendere popolare il software nelle organizzazioni. Vedi [FreeCAD usato nella produzione](FreeCAD_used_in_production.md)
 
-## La situazione 
+## Sponsoring
 
-Al momento FreeCAD è un progetto molto piccolo con un team limitato di sviluppatori. La maggior parte di noi ha un lavoro giornaliero e lavora su FreeCAD nel tempo libero. Avere più soldi non cambierebbe questa situazione in modo significativo. Tuttavia, alcuni di noi hanno un orario di lavoro più flessibile dove il denaro può fare la differenza.
+We call sponsoring the act of donating money recurrently to the FreeCAD project. You can do that as an individual or as a company or institution, through different channels or platforms, depending on your preferences. You can sponsor FreeCAD via the [sponsoring page](https   *//www.freecad.org/sponsor.php).
 
-C\'è anche il problema che non abbiamo una struttura (fondazione, associazione, ONG, ecc.) per raccogliere denaro. Creare una tale struttura rappresenta uno sforzo enorme (avvocato, contabile, rapporti, compiti amministrativi). Il piccolo team di FreeCAD passerebbe tutto il suo tempo a fare questo invece di sviluppare, anche se potessimo raccogliere abbastanza soldi per sostenerlo. Questo \[articolo <http   *//lwn.net/Articles/561336/>\] spiega abbastanza bene il problema. Stiamo comunque valutando la possibilità di entrare a far parte di una [umbrella organization](https   *//en.wikipedia.org/wiki/List_of_free_and_open-source_software_organizations), che potrebbe rimediare notevolmente alla situazione.
+Sponsoring FreeCAD allows its developers to count on a steady flow of income, so it allows the FPA to plan things ahead, and the FreeCAD developers to invest themselves more seriously into FreeCAD.
 
-Questo è il tempo del finanziamento collettivo (inglese   * crowdfunding), dove tutti i tipi di progetti e idee possono a volte raccogliere molto denaro e interesse. Perché non inventare qualcosa di nuovo che potrebbe essere fatto per FreeCAD con i soldi, o aiutare a trovare soluzioni migliori? Sentiti libero di discuterne sul forum, [A proposito di finanziamenti e tutto il resto](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=12242).
+To encourage persons and companies to sponsor the FreeCAD project, we have created different sponsoring tiers. By donating regularly to the project, you will have the possibility to have your name, company name and/or logo to be featured on the FreeCAD website, depending on the tier you fit into   *
+
+-   ♥ Normal sponsor   * from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors.
+-   🥉 Bronze sponsor   * from 25 USD / 25 EUR per month. Allows you to have your name or company name displayed on the [sponsors page](https   *//www.freecad.org/sponsor.php).
+-   🥈 Silver sponsor   * from 100 USD / 100 EUR per month. Allows you to have your name or company name displayed on the [sponsors page](https   *//www.freecad.org/sponsor.php), with a link to your website, and a one-line description text.
+-   🥇 Gold sponsor   * from 200 USD / 200 EUR per month. Allows you to have your name or company name and logo displayed on the [sponsors page](https   *//www.freecad.org/sponsor.php), with a link to your website and a custom description text. Companies that have helped FreeCAD early on will also appear under Gold sponsors.
+
+## The FPA 
+
+The **FreeCAD project association** (FPA) is a non-profit association created in 2022 by FreeCAD\'s administrators and core developers and seated in Belgium. It is responsible for transparently collecting, handling and distributing the money collected via donations. More details and reports are available on the [FPA page](https   *//github.com/FreeCAD/FPA). Excepting the [LiberaPay team account](https   *//liberapay.com/FreeCAD), which is directly manager by its members, all other donation channels above are handled and managed by the FPA.
 
 
 

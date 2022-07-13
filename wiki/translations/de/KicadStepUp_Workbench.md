@@ -1,39 +1,21 @@
-# KicadStepUp Workbench/de
-<div class="mw-translate-fuzzy">
-
-Symbol Externer Arbeitsbereich KicadStepUp
-
-
-</div>
+# <img alt="Symbol des externen Arbeitsbereichs KicadStepUp" src=images/Kicad-StepUp-tools-WB.svg  style="width   *64px;"> KicadStepUp Workbench/de
 
 
 {{TOCright}}
 
-## Einführung
+## Einleitung
 
-KicadStepUp Arbeitsbereich zielt darauf ab, sowohl KiCad als auch FreeCAD Benutzer bei der Zusammenarbeit mit der elektrischen (ECAD) und mechanischen (MCAD) Konstruktion zu unterstützen.
+Der Arbeitsbereich KicadStepUp zielt darauf ab, sowohl KiCad- als auch FreeCAD-Benutzer bei der Zusammenarbeit mit der elektrischen (ECAD) und mechanischen (MCAD) Konstruktion zu unterstützen.
 
 ## Hintergrund
 
+Kicad ([Webseite](https   *//kicad.org/)) ist ein Opensource-Programmpaket für die Automatisierung der Konstruktion von elektronischen Schaltungen. Es ermöglicht, einen elektrische Schalkreis zu entwerfen und eine ein- oder mehrlagige Leiterplatte mit Hilfe einer umfangreichen Bibliothek von Teilen zu erstellen. Das Großartige daran ist, dass die Verwendung von FreeCAD mit dem Arbeitsbereich KicadStepUp der offizielle Kicad-Weg ist, um 3D-Teile für elektrische Komponenten für Kicad zu erstellen. Die Bibliotheken werden [hier](https   *//kicad.github.io/) gehostet, damit jeder Teile erstellen und einchecken kann.
 
-<div class="mw-translate-fuzzy">
+KiCADs GUI-Philosophie ist im Vergleich zu FreeCAD etwas anders, vor allem, wenn es darum geht, Elemente zu erstellen und sie zu verschieben. Da Kicad jedoch seit Jahren in der Produktion eingesetzt wird, gibt es eine ausgezeichnete Dokumentation, z.B. ein sehr gutes \"Getting Started\" Dokument. Zusätzlich hat jedes Werkzeug seine eigene Anleitung.
 
-Kicad ([Webseite](https   *//kicad-pcb.org/)) ist eine Opensource Elektronikkonstruktionsautomatisierungsfamilie. Sie ermöglicht es, eine elektrische Schaltung zu entwerfen und eine ein oder mehrlagige Leiterplatte mit einer umfangreichen Bibliothek von Teilen zu erstellen. Das Tolle daran ist, dass die Verwendung des FreeCAD und KicadStepUp Arbeitsbereichs der offizielle Weg ist, um 3D Teile für elektrische Komponenten für Kicad zu erstellen. Die Bibliotheken werden bereitgestellt durch [hier](https   *//kicad.github.io/), so dass jeder Teile erstellen und einbuchen kann.
+Wenn man [Kicad](https   *//kicad.org/) noch nicht kennt, wird empfohlen, eine eigenständige Leiterplatte gemäß dem [Leitfaden für den Einstieg](https   *//docs.kicad-pcb.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) zu erstellen, um die verwendeten Konzepte zu verstehen. Obwohl einige Themen wie das Hinzufügen von neuen Schaltplänen und Lötflächenrastern (engl.   * footprints, wörtlich   * Fußabdrücke) zu einer lokalen Bibliothek für den Anfänger wenig interessant zu sein scheinen, stößt man in der Praxis oft schnell darauf, wenn man ein ernsthaftes Projekt beginnt.
 
-
-</div>
-
-KiCADs GUI Philosophie ist im Vergleich zu FreeCAD etwas anders, vor allem, wenn es darum geht, Elemente zu erstellen und sie zu verschieben. Da Kicad jedoch seit Jahren in der Produktion eingesetzt wird, gibt es eine ausgezeichnete Dokumentation, z.B. ein sehr gutes \"Getting Started\" Dokument. Zusätzlich hat jedes Werkzeug sein eigenes Handbuch.
-
-
-<div class="mw-translate-fuzzy">
-
-Wenn man [Kicad](https   *//kicad-pcb.org/) noch nicht kennt, empfiehlt es sich, eine eigenständige Leiterplatte gemäß dem [Leitfaden für den Einstieg](https   *//docs.kicad-pcb.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) zu erstellen, um die Konzepte zu verstehen. Obwohl einige Themen wie das Hinzufügen von neuen Schaltplänen und Lötflächenrastern (engl.   *footprints, wörtlich   * Fußabdrücke) zu einer lokalen Bibliothek für den Anfänger wenig interessant zu sein scheinen, stößt man in der Praxis oft schnell darauf, wenn man ein ernsthaftes Projekt beginnt.
-
-Für alle diese [Kicad](https   *//kicad-pcb.org/) Konzepte findet man im KicadStepUp Arbeitsbereich eine Art von Funktion. Wenn man diese also kennt, ist es viel einfacher zu verstehen, wie man diesen Arbeitsbereich benutzt.
-
-
-</div>
+Für alle diese [Kicad](https   *//kicad-pcb.org/)-Konzepte findet man im Arbeitsbereich KicadStepUp diverse Funktionen. Wenn man diese kennt, ist es viel einfacher zu verstehen, wie man diesen Arbeitsbereich benutzt.
 
 ## Funktionen
 
@@ -53,56 +35,25 @@ Für alle diese [Kicad](https   *//kicad-pcb.org/) Konzepte findet man im KicadS
 
 ## Einrichtung
 
-
-<div class="mw-translate-fuzzy">
-
-KicadStepUp ist Teil der [externen Arbeitsbereiche](external_workbenches/de.md) und kann automatisch mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> installiert werden. [FreeCAD Erweiterungsverwalter](Std_AddonMgr/de.md), der mit FreeCAD 0.17 mitgeliefert wird, unter dem Menüpunkt **Werkzeuge → Erweiterungsverwalter** installiert werden.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+KicadStepUp ist Teil der [externen Arbeitsbereiche](external_workbenches/de.md) und kann automatisch mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [FreeCAD Addon-Manager](Std_AddonMgr/de.md), der mit FreeCAD 0.17 mitgeliefert wird, unter dem Menüpunkt **Werkzeuge → Addon-Manager** installiert werden.
 
 ## Anwendung
 
 
 {{emphasis|In Bearbeitung}}
 
+### Allgemeine Herangehensweise 
 
-</div>
+Die Grundidee von KicadStepUp ist es, Daten zwischen den beiden Anwendungen zu synchronisieren. Für den Heimgebrauch hat man vielleicht FreeCAD und Kicad gleichzeitig geöffnet. Im professionellen Einsatz arbeitet man mit den gleichen Dateien (z.B. auf einem zentralen Server) und hat Spezialisten für mechanisches CAD (MCAD), die in FreeCAD arbeiten, und Elektronikexperten für elektrisches CAD (ECAD).
 
-
-{{emphasis|In progress}}
-
-### General Approach 
-
-
-<div class="mw-translate-fuzzy">
-
-### Allgemeiner Ansatz 
-
-Die Grundidee von KicadStepUp ist es, Daten zwischen den beiden Anwendungen zu synchronisieren. Für den Heimgebrauch hast du vielleicht FreeCAD und Kicad gleichzeitig geöffnet. Im professionellen Einsatz arbeitest du mit den gleichen Dateien (z.B. auf einem zentralen Server) und hast Spezialisten für mechanisches CAD (MCAD), die in FreeCAD arbeiten, und Elektronikexperten für elektrisches CAD (ECAD).
-
-
-</div>
-
-KicadStepUp wandelt Standard FreeCAD Dateien in Kicad Dateien um und umgekehrt. Auf diese Weise kann jede Anwendung mit ihren natürlichen Datendateien arbeiten. Projekte können verwendet werden, ohne dass die andere Anwendung oder KicadStepUp installiert ist. Das ist auch der Grund, dass kein Zusatzprogramm auf der Kicad Seite benötigt wird.
+KicadStepUp wandelt Standard-FreeCAD-Dateien in Kicad-Dateien um und umgekehrt. Auf diese Weise kann jede Anwendung mit ihren angestammten Datendateien arbeiten. Projekte können verwendet werden, ohne dass die andere Anwendung oder KicadStepUp installiert ist. Das ist auch der Grund, dass kein Zusatzprogramm auf der Kicad Seite benötigt wird.
 
 Um die feinen Details des Arbeitsablaufs zu verstehen, ist es hilfreich zu wissen, dass die Unterschiede zwischen den beiden Programmen einige Schwierigkeiten für einen vollständigen Datenaustausch mit sich bringen.
-Ein Beispiel ist, dass der Skizzierer, der in Kicad verwendet wird, um den Umriss der Platine zu definieren, im Vergleich zum FreeCAD Skizzierer viel begrenzter ist, so dass der Inhalt des Modells nicht komplexer sein kann, als der Kicad Skizzierer verarbeiten kann. Aus der Sicht von FreeCAD bedeutet das, dass du möglicherweise Daten verlierst. KicadStepUp bietet Umgehungsmöglichkeiten, die möglicherweise schwieriger zu verstehen sind, wenn du nicht über diesen Hintergrund verfügst.
-
-### Basic Workflow 
-
-
-<div class="mw-translate-fuzzy">
+Ein Beispiel ist, dass der Skizzierer, der in Kicad verwendet wird, um den Umriss der Platine zu definieren, im Vergleich zum FreeCAD-Sketcher viel begrenzter ist, d. h. um den Modellinhalt hin und her zu kopieren darf der Inhalt des Modells nicht komplexer sein, als der Kicad-Skizzierer verarbeiten kann. Aus der Sicht von FreeCAD bedeutet das, dass man möglicherweise Daten verliert. KicadStepUp bietet Workarounds, die möglicherweise schwieriger zu verstehen sind, wenn man nicht über diesen Hintergrund verfügt.
 
 ### Grundlegender Arbeitsablauf 
 
 Eine Zusammenarbeit kann mit einem neuen oder einem bestehenden Projekt begonnen werden. Wir betrachten hier ein neues Projekt, um die Dinge einfach zu halten   *
-
-
-</div>
 
 1.  Create a new Kicad Project anywhere you like. Lets name it \"KsuTest\"
 2.  Open the PCB Editor and create on the layer \"Edit.Cuts\" a closed outline. Shape does not matter, we will overwrite it anyway.

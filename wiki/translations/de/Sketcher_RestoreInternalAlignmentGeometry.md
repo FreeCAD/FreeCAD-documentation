@@ -1,10 +1,11 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *Sketcher RestoreInternalAlignmentGeometry
-   MenuLocation   *Sketch → Sketcher tools → Show/hide internal geometry
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   Name/de   *Sketcher InterneAusrichtungsgeometrieWiederherstellen
+   MenuLocation   *Sketch → Skizzen-Werkzeuge → Interne Geometrie anzeigen / ausblenden
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Shortcut   ***Z** **I**
-   SeeAlso   *[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
+   SeeAlso   *[Sketcher EllipseDurchMittelpunktErstellen](Sketcher_CreateEllipseByCenter/de.md), [Sketcher InterneAusrichtungFestlegen](Sketcher_ConstrainInternalAlignment/de.md)
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/de
@@ -13,34 +14,21 @@
 
 Der Befehl löscht unbenutzte Elemente, die an der Innengeometrie ausgerichtet sind, oder erstellt die fehlenden Elemente neu.
 
+## Anwendung
 
-<div class="mw-translate-fuzzy">
+-   Wähle ein Element einer Skizze aus, das die interne Ausrichtung unterstützt (derzeit nur Ellipse/Bogen und B-Spline).
+-   Den Befehl aufrufen, durch anklicken von **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width   *16px"> [Interne Geometrie anzeigen / ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md)** oder Auswahl des Menüeintrags **Sketch → Skizzen-Werkzeuge → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width   *16px"> Interne Geometrie anzeigen / ausblenden** oder Drücken der Tastenkombination.
 
-## Kurzanleitung
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Wähle ein Element einer Skizze aus, das die innenliegende Ausrichtung unterstützt (derzeit nur Ellipse/Bogen und B-Spline).
--   Rufe den Befehl auf, indem du auf eine Schaltfläche in der Symbolleiste klickst, den Menübefehl auswählst oder die Tastenkombination verwendest.
-
-Sind für das ausgewählte Element freie Ausrichtungsplätze vorhanden, wird eine neue Konstruktionsgeometrie erstellt und an den verfügbaren Stellen ausgerichtet. Sind alle Ausrichtungsplätze belegt, wird die unbenutzte Innengeometrie gelöscht (das Element wird als unbenutzt behandelt, wenn es an nichts anderes gebunden ist).
-
-
-</div>
+Sind für das ausgewählte Element mögliche Ausrichtungen ungenutzt, wird neue Konstruktionsgeometrie erstellt und an den verfügbaren Stellen ausgerichtet. Sind (schon) alle Stellen ausgerichtet, wird unbenutzte interne Geometrie gelöscht (das Element wird als unbenutzt behandelt, wenn es an nichts anderes gebunden ist).
 
 ## Beispiel
 
+1.  Eine neue Ellipse erstellen. Neue Ellipsen sind timer vollständig bestückt. Man erkennt eine Ellipse und etwas Konstruktionsgeometrie   * Hauptachse, Nebenachse, Brennpunkte.
+2.  Nebenachse auswählen und **Del**-Tast drücken. Die Achse ist entfernt, aber die Ellipse ist noch da. Wie bekommt man die Achse zurück?
+3.  Ellipse auswählen und den Befehl **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width   *16px"> [Interne Geometrie anzeigen / ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md)** aufrufen. Die Achse ist wiederhergestellt.
+4.  Jetzt wird der Hauptachse eine Länge zugeordnet. Ellipse auswählen und den Befehl **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width   *16px"> [Interne Geometrie anzeigen / ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md)** aufrufen.
 
-<div class="mw-translate-fuzzy">
-
-Erstelle eine neue Ellipse. Neue Ellipsen sind immer vollgepackt. Du siehst eine Ellipse und eine Reihe von Konstruktionsgeometrien   * Hauptdurchmesser, Nebendurchmesser, Brennpunkte.
-
-
-</div>
+**Ergebnis   *** Die Nebenachse und die Brennpunkte sind entfernt, aber die Hauptachse wurde behalten, da sie mit anderen Randbedingungen zusammenhängt. Der Mittelpunkt der Ellipse bleibt ebenso, da er fest vorgegeben ist, wie auch der Mittelpunkt eines Kreises.
 
 
 

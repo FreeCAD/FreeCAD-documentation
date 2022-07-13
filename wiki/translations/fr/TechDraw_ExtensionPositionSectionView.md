@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionPositionSectionView
    Name/fr   *TechDraw
-   MenuLocation   *TechDraw → Extensions   * Attributes/Modifications → Position d'une vue en coupe
+   MenuLocation   *TechDraw → Extensions    * attributs/modifications → Position de la vue en coupe
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -22,8 +22,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style
 
 1.  Sélectionnez une seule vue en coupe.
 2.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> [Position d'une vue en coupe](TechDraw_ExtensionPositionSectionView.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions    * Attributs/Modifications → <img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> Position d'une vue en coupe** à partir du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> [Position de la vue en coupe](TechDraw_ExtensionPositionSectionView.md)**.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * attributs/modifications → <img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> Position de la vue en coupe** à partir du menu.
 3.  La vue en coupe est alignée avec sa vue source.
 
 

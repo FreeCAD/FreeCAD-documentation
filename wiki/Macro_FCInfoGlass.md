@@ -5,7 +5,7 @@
 |Author=Mario52
 |Version=00.05
 |Date=2016-08-28
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey.md)
+|SeeAlso=[Arch Survey](Arch_Survey.md)
 }}
 
 ## Description
@@ -180,7 +180,9 @@ global VertexesForme         ;VertexesForme                    = 0    # Vertexes
                                                                       # peut prendre du temps, depasser la fenetre et donner des donnees incompletes
                                                                       # can take time and exceed the window and give data's incompletes
 ### End Section Switch #######################################################################################################################
-``` After a change save the macro and run
+```
+
+After a change save the macro and run
 
 It is not possible at the moment to leave the function from the macro or scrolling
 

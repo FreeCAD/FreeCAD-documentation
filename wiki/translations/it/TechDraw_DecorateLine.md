@@ -15,7 +15,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Decora linea modifica l\'aspetto dei bordi.
+
+
+</div>
 
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 

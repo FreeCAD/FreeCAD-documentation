@@ -12,7 +12,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug AusgestaltenLinie ändert die Darstellung von Kanten.
+
+
+</div>
 
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 

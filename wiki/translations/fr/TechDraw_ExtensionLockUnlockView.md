@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionLockUnlockView
    Name/fr   *TechDraw Verrouiller/déverrouiller
-   MenuLocation   *TechDraw → Extensions   * Attributes/Modifications → Verrouiller/déverrouiller la vue
+   MenuLocation   *TechDraw → Extensions    * attributs/modifications → Verrouiller/déverrouiller les vues
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -20,7 +20,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="wid
 1.  Sélectionnez une seule vue de dessin.
 2.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> [Verrouiller/déverrouiller la vue](TechDraw_ExtensionLockUnlockView/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Attributes/Modifications → <img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> Verrouiller/déverrouiller la vue** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * attributs/modifications → <img src="images/TechDraw_ExtensionLockUnlockView.svg" width=16px> Verrouiller/déverrouiller les vues** à partir du menu.
 3.  La propriété **Lock Position** de la vue est basculée. Les vues verrouillées ont une icône avec une cadenas rouge <img alt="" src=images/TechDraw_Lock.svg  style="width   *16px;"> dans le coin inférieur gauche.
 
 

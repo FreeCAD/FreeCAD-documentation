@@ -4,7 +4,6 @@
    Name/fr   *Sketcher Fermer la forme
    MenuLocation   *Esquisse → Outils d'esquisse → Fermer le forme
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***Ctrl** + **Maj** + **S**
    Shortcut   ***Z** **W**
    Version   *0.15
 ---

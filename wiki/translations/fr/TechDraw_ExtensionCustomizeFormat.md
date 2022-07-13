@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionCustomizeFormat
    Name/fr   *TechDraw Personnaliser le format d'infobulle
-   MenuLocation   *TechDraw → Extensions   * Attributes/Modifications → Personnaliser le format d'infobulle
+   MenuLocation   *TechDraw → Extensions    * attributs/modifications → Personnaliser le format de l'infobulle
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -22,8 +22,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="wi
 
 1.  Sélectionnez un objet Infobulle ou un objet Dimension.
 2.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> [Personnaliser le format d'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md)** bouton.
-    -   Sélectionnez l\'option **TechDraw → Extensions    * Attributs/Modifications → <img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> Personnaliser le format d'infobulle** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> [Personnaliser le format de l'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md)** bouton.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * attributs/modifications → <img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> Personnaliser le format de l'infobulle** dans le menu.
 3.  Le panneau de tâches **Personnaliser le format** s\'ouvre.
 4.  Modifiez le champ **Format** à l\'aide des boutons disponibles du panneau de tâches et/ou du clavier.
 5.  Le champ **Aperçu** affiche le résultat du formatage en cours.

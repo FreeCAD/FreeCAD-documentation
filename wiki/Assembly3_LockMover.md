@@ -14,11 +14,17 @@ The <img alt="" src=images/Assembly_LockMover.svg  style="width   *24px;"> [Lock
 
 When activated, none of the mover commands <img alt="" src=images/Assembly_Move.svg‎‎  style="width   *16px;"> [Move part](Assembly3_MovePart.md), <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width   *16px;"> [Axial move](Assembly3_AxialMove.md), or <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width   *16px;"> [Quick move](Assembly3_QuickMove.md) can be selected as long as the current selection contains a fixed object.
 
+   *   (This seems not to apply to 2D geometry)
+
 ## Usage
 
 1.  Activate the <img alt="" src=images/Assembly_LockMover.svg  style="width   *16px;"> **Lock mover** command using one of the following   *
     -   The **<img src="images/Assembly_LockMover.svg" width=16px> [Lock mover](Assembly3_LockMover.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_LockMover.svg" width=16px> Lock mover** menu option.
+
+## Notes
+
+Selected **2D geometry**, such as Draft lines, arcs, and circles, fixed with the Locked constraint does not deactivate the mover tools. While circles and arcs still keep their position when a mover is applied to them, lines can be relocated and tilted.
 
 
 

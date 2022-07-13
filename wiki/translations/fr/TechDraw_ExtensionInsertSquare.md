@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionInsertSquare
    Name/fr   *TechDraw Section tube
-   MenuLocation   *TechDraw → Extensions   * Dimensions → Insérer le préfixe "〼"
+   MenuLocation   *TechDraw → Extensions    * cotes → Insérer un préfixe '〼'
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -22,8 +22,8 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width
 
 1.  Sélectionnez une ou plusieurs cotes.
 2.  Il existe plusieurs façons de lancer l\'outil    *
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> [Section tube](TechDraw_ExtensionInsertSquare/fr.md)**.
-    -   Sélectionnez la commande **TechDraw → Extensions   * Dimensions → <img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> Insérer le préfixe "〼"** à partir du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> [Insérer un préfixe '〼'](TechDraw_ExtensionInsertSquare/fr.md)**.
+    -   Sélectionnez la commande **TechDraw → Extensions    * cotes → <img src="images/TechDraw_ExtensionInsertSquare.svg" width=16px> Insérer un préfixe '〼'** à partir du menu.
 3.  Le symbole \"〼\" est inséré dans le texte de dimension des cotes sélectionnées.
 
 

@@ -1,30 +1,31 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *TechDraw ExtensionLineParallel
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Add Cosmetic Parallel Line
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/de   *TechDraw ErgänzungParalleleLinie
+   MenuLocation   *TechDraw → Ergänzungen   * Mittellinien/Gewinde → Parallele Hilfslinie hinzufügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Shortcut   *
    Version   *0.20
-   SeeAlso   *[TechDraw ExtensionLinePerpendicular](TechDraw_ExtensionLinePerpendicular.md)
+   SeeAlso   *[TechDraw ErgänzungRechtwinkligeLinie](TechDraw_ExtensionLinePerpendicular/de.md)
 ---
 
 # TechDraw ExtensionLineParallel/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width   *24px;"> **TechDraw ExtensionLineParallel** Werkzeug fügt eine Hilfslinie parallel zu einer anderen Linie, durch einen Knotenpunkt verlaufend, ein.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width   *24px;"> **TechDraw ErgänzunParalleleLinie** fügt eine Hilfslinie parallel zu einer anderen Linie, durch einen Knotenpunkt verlaufend, ein.
 
 <img alt="" src=images/TechDraw_ExtensionLineParallelExample.png  style="width   *250px;"> 
 *Rechts eine eingefügte parallele Hilfslinie*
 
 ## Anwendung
 
-1.  Optional   * definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
-2.  Wähle eine Gerade Linie um die Richtung und die Länge der Linie festzulegen.
-3.  Wähle einen Knotenpunkt um die Position der Linie festzulegen.
+1.  Optional können die Eigenschaften der Linien mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) definiert werden.
+2.  Eine gerade Linie auswählen, um die Richtung und die Länge der Linie festzulegen.
+3.  Einen Knotenpunkt auswählen, um die Position der Linie festzulegen.
 4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücke die **<img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> [TechDraw ExtensionLineParallel](TechDraw_ExtensionLineParallel.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> Add Cosmetic Parallel Line** Option aus dem Menü.
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> [Parallele Hilfslinie hinzufügen](TechDraw_ExtensionLineParallel/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen   * Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionLineParallel.svg" width=16px> Parallele Hilfslinie hinzufügen** auswählen.
 5.  Eine Hilfslinie wird eingefügt.
 
 

@@ -545,12 +545,12 @@ This is the Material class
 Base.Matrix class.
 
 A 4x4 Matrix.
-In particular, this matrix can represent an affine transformation, that is, given a
-3D vector `x`, apply the transformation y = M*x + b, where the matrix `M` is a linear
-map and the vector `b` is a translation.
-`y` can be obtained using a linear transformation represented by the 4x4 matrix `A`
-conformed by the augmented 3x4 matrix (M|b), augmented by row with (0,0,0,1), therefore:
-(y, 1) = A*(x, 1).
+In particular, this matrix can represent an affine transformation, that is,
+given a 3D vector `x`, apply the transformation y = M*x + b, where the matrix
+`M` is a linear map and the vector `b` is a translation.
+`y` can be obtained using a linear transformation represented by the 4x4 matrix
+`A` conformed by the augmented 3x4 matrix (M|b), augmented by row with
+(0,0,0,1), therefore: (y, 1) = A*(x, 1).
 
 The following constructors are supported:
 
@@ -567,8 +567,9 @@ coef : sequence of float
     The sequence can have up to 16 elements which complete the matrix by rows.
 
 Matrix(vector1, vector2, vector3, vector4)
-Define from four 3D vectors which represent the columns of the 3x4 submatrix, useful
-to represent an affine transformation. The fourth row is made up by (0,0,0,1).
+Define from four 3D vectors which represent the columns of the 3x4 submatrix,
+useful to represent an affine transformation. The fourth row is made up by
+(0,0,0,1).
 vector1 : Base.Vector
 vector2 : Base.Vector
 vector3 : Base.Vector
@@ -644,7 +645,7 @@ rotation : Base.Rotation
 center : Base.Vector
 
 Placement(base, axis, angle)
-define position and rotation
+define position and rotation.
 base : Base.Vector
 axis : Base.Vector
 angle : float

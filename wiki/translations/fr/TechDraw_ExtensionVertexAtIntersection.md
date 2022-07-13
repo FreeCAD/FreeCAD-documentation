@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionVertexAtIntersection
    Name/fr   *TechDraw Intersection de lignes
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Intersection de lignes
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Intersection de lignes
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -23,7 +23,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  styl
 1.  Sélectionnez deux arêtes. Les arêtes droites seront considérées comme des lignes infinies, et les arcs seront considérés comme des cercles complets.
 2.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> [Intersection de lignes](TechDraw_ExtensionVertexAtIntersection/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> Intersection de lignes** à partir du menu.
+    -   Sélectionnez l\'option **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> Intersection de lignes** à partir du menu.
 3.  Un sommet (vertex) cosmétique est ajouté à chaque intersection.
 
 

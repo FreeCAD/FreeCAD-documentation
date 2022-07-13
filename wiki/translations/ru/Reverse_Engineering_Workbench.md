@@ -1,28 +1,20 @@
 # <img alt="Логотип верстака обратной разработки" src=images/Workbench_Reverse_Engineering.svg  style="width   *64px;"> Reverse Engineering Workbench/ru
 
-## Introduction
+## Введение
 
+<img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *24px;"> [Верстак Reverse Engineering (обратной разработки)](Reverse_Engineering_Workbench/ru.md) предназначен для предоставления специальных инструментов для преобразования форм, твёрдых тел и сеток в параметрические элементы FreeCAD. Он всё ещё находится в стадии разработки.
 
-<div class="mw-translate-fuzzy">
-
-## Вступление
-
-<img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *24px;"> [Верстак Обратной Разработки](Reverse_Engineering_Workbench.md) предназначен для того, чпредназначен для превращения твердых тел или сетей в совместимые с FreeCAD параметрические объекты с помощью применения специфичных инструментов. Он постепенно развивается.
-
-
-</div>
-
-На данный момент пока ещё в нём нет **НИКАКОЙ** функциональности. Он используется как \"песочница\" для программистов.
+На данный момент в этом верстаке нет **НИКАКОЙ** функциональности. Он используется как \"песочница\" для программистов.
 
 ## Инструменты
 
-The Reverse Engineering tools are all located in the Reverse Engineering menu and the Reverse Engineering toolbar that appear when you load the Reverse Engineering workbench from the workbench dropdown menu.
+Инструменты верстака находятся в меню Reverse Engineering и панели инструментов, которые появляются при загрузке верстака Reverse Engineering из выпадающего меню переключения верстаков.
 
--   <img alt="" src=images/FitSurface.svg  style="width   *32px;"> Approximate a B-spline surface   *
+-   <img alt="" src=images/FitSurface.svg  style="width   *32px;"> Аппроксимация поверхности B-сплайна   *
 
 ## Разработка
 
-Link to appropriate threads discussing this workbench
+Ссылка на соответствующие темы, обсуждающие этот верстак
 
 
 

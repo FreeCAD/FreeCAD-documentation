@@ -216,9 +216,9 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width   *32px;"> [Sélecteur des degrés de liberté non contraints](Sketcher_SelectElementsWithDoFs/fr.md)   * surligne en vert les éléments de l\'esquisse contenant des degrés de liberté, c\'est-à-dire non complètement contraints.
 
--   <img alt="" src=images/Sketcher_CloseShape.svg  style="width   *32px;"> [Fermer la forme](Sketcher_CloseShape/fr.md)    * ferme une forme en appliquant des contraintes coïncidentes aux points d\'arrivée.
+-   <img alt="" src=images/Sketcher_CloseShape.svg  style="width   *32px;"> [Fermer la forme](Sketcher_CloseShape/fr.md)    * ferme une forme en appliquant des contraintes coïncidentes aux points d\'arrivée. Cet outil est obsolète, il ne sera pas disponible dans les prochaines versions ({{VersionPlus/fr|1.0}}).
 
--   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width   *32px;"> [Connecter les côtés](Sketcher_ConnectLines/fr.md)    * connecte les éléments de l\'esquisse en appliquant des contraintes de coïncidence aux points d\'arrivée.
+-   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width   *32px;"> [Connecter les côtés](Sketcher_ConnectLines/fr.md)    * connecte les éléments de l\'esquisse en appliquant des contraintes de coïncidence aux points d\'arrivée. Cet outil est obsolète, il ne sera pas disponible dans les prochaines versions ({{VersionPlus/fr|1.0}}).
 
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width   *32px;"> [Sélecteur de contraintes associées](Sketcher_SelectConstraints/fr.md)    * sélectionne les contraintes d\'un élément de l\'esquisse.
 

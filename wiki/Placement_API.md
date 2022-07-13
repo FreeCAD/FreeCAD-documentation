@@ -30,7 +30,7 @@ rotation : Base.Rotation
 center : Base.Vector
 
 Placement(base, axis, angle)
-define position and rotation
+define position and rotation.
 base : Base.Vector
 axis : Base.Vector
 angle : float

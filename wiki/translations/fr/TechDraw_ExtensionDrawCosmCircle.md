@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *TechDraw ExtensionDrawCosmCircle
    Name/fr   *TechDraw Cercle
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Cercle
+   MenuLocation   *TechDraw → Extensions    * taraudages/filetages → Cercle
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut   *
    Version   *0.20
@@ -25,7 +25,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="wid
 3.  Sélectionnez le deuxième sommet pour déterminer le rayon du cercle.
 4.  Il existe plusieurs façons de lancer l\'outil    *
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionDrawCosmCircle.svg" width=16px> [Cercle](TechDraw_ExtensionDrawCosmCircle/fr.md)**.
-    -   Sélectionnez la commande **TechDraw → Extensions    * Lignes centrales/Filage → <img src="images/TechDraw_ExtensionDrawCosmCircle.svg" width=16px> Cercle** à partir du menu.
+    -   Sélectionnez la commande **TechDraw → Extensions    * taraudages/filetages → <img src="images/TechDraw_ExtensionDrawCosmCircle.svg" width=16px> Cercle** à partir du menu.
 5.  Un cercle cosmétique est ajouté.
 
 

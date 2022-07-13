@@ -107,6 +107,8 @@ Se questo accade   *
 
 </div>
 
+The projection done in the Part workbench is not parametric. If you need a parametric workflow, please consult with the [Projection class](https   *//gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), which is a Python scripted object, intended for programmatic use.
+
 ## Link
 
 

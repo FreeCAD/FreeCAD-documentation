@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil Apparence des lignes modifie l\'apparence des lignes (Edges).
+L\'outil **TechDraw Apparence des lignes** modifie l\'apparence des lignes (Edges).
 
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 

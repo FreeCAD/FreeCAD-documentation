@@ -13,7 +13,15 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
+## Description 
+
 Toto makro umožňuje dočasně vložit obrázek s texturou na vybraný objekt. Pro odstranění textury stačí jednoduše zavřít a znovu otevřít dokument.
+
+
+</div>
 
 <img alt="" src=images/Textured_objects.jpg  style="width   *680px;">
 
@@ -42,9 +50,21 @@ for obj in FreeCADGui.Selection.getSelection()   *
 
 ## Линкови
 
+
+<div class="mw-translate-fuzzy">
+
 [Macro Texture Objects](https   *//forum.freecadweb.org/viewtopic.php?t=7216)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 [Script to map texture with environement checked](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=28795)
+
+
+</div>
 
 
 

@@ -43,7 +43,13 @@ En la terminología de OpenCascade, distinguimos entre primitivas geométricas y
 
 En resumen, las primitivas de geometría son bloques de construcción \"sin forma\", mientras que [formas topológicas](Part_TopoShape/es.md) son los objetos reales construidos sobre ellas.
 
+
+<div class="mw-translate-fuzzy">
+
 La lista completa de todas las primitivas y formas se puede consultar en la [OCC documentation](http   *//www.opencascade.org/org/doc/) (Alternative   * [sourcearchive.com](https   *//www.opencascade.com/doc/occt-7.4.0/refman/html/)) y busque **Geom\_\*** (para primitivas geométricas) y **TopoDS\_\*** (para formas). Allí también puedes leer más sobre las diferencias entre ellos. Tenga en cuenta que la documentación oficial de OCC no está disponible en línea (debe descargar un archivo) y está dirigida principalmente a los programadores, no a los usuarios finales. Pero esperamos que encuentre suficiente información para empezar. Consulte también [Guía del usuario de datos de modelado](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
+
+
+</div>
 
 > \'\'En un nivel muy alto, la topología indica de qué piezas está hecho un objeto y las relaciones lógicas entre ellas. Una forma está formada por un determinado conjunto de caras. Una cara está delimitada por un determinado conjunto de aristas. Dos caras son adyacentes si comparten una arista común\".
 

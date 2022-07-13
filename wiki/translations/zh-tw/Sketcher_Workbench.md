@@ -220,9 +220,9 @@ The following tools can be used the change the effect of constraints   *
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width   *32px;"> [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md)   * Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
 
--   <img alt="" src=images/Sketcher_CloseShape.svg  style="width   *32px;"> [Close shape](Sketcher_CloseShape.md)   * Creates a closed shape by applying coincident constraints to endpoints.
+-   <img alt="" src=images/Sketcher_CloseShape.svg  style="width   *32px;"> [Close shape](Sketcher_CloseShape.md)   * Creates a closed shape by applying coincident constraints to endpoints. This tool is obsolete, it will not be available in future releases (<small>(v1.0)</small> ).
 
--   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width   *32px;"> [Connect edges](Sketcher_ConnectLines.md)   * Connect sketcher elements by applying coincident constraints to endpoints.
+-   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width   *32px;"> [Connect edges](Sketcher_ConnectLines.md)   * Connect sketcher elements by applying coincident constraints to endpoints. This tool is obsolete, it will not be available in future releases (<small>(v1.0)</small> ).
 
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width   *32px;"> [Select associated constraints](Sketcher_SelectConstraints.md)   * Selects the constraints of a sketcher element.
 

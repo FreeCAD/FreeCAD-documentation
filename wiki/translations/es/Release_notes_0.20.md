@@ -498,13 +498,7 @@ El [entorno de trabajo FCGear](FCGear_Workbench.md) recibió un par de mejoras  
 
 ### Plot
 
-
-<div class="mw-translate-fuzzy">
-
--   El [módulo Plot](Plot_Workbench.md) ha sido eliminado del banco de trabajo ya que ahora es proporcionado por FreeCAD.
-
-
-</div>
+-   El módulo Plot ha sido eliminado del [Entorno de trabajo Plot](Plot_Workbench.md) ya que ahora es proporcionado por FreeCAD.
 
 ### Ship
 

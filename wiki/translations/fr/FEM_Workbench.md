@@ -232,28 +232,28 @@ Tutoriel 4    * [FEM Cisaillement d\'un bloc composite](FEM_Shear_of_a_Composite
 
 Tutoriel 5    * [Analyse FEM transitoire](Transient_FEM_analysis/fr.md)
 
-Tutoriel 6    * [Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)
+Tutoriel 6    * [Post-traitement des résultats FEM avec Paraview](Post-Processing_of_FEM_Results_with_Paraview/fr.md)
 
-Tutoriel 7    * [Exemple FEM Capacité Deux Balles](FEM_Example_Capacitance_Two_Balls/fr.md) ; Tutoriel 6 GUI d\'Elmer \"Capacitance électrostatique deux boules\" utilisant des exemples FEM.
+Tutoriel 7    * [Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md) ; Tutoriel 6 GUI d\'Elmer \"Exemple calcul capacité de deux sphères\" utilisant des exemples FEM.
 
 Tutoriel analyse de couple thermique [openSIM](https   *//opensimsa.github.io/training.html)
 
-Tutoriel vidéo 1    * [Article du Forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499#p158353) (avec lien sur YouTube)
+Tutoriel vidéo 1    * [Vidéo FEM pour les débutants](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499#p158353) (avec lien sur YouTube)
 
-Tutoriel vidéo 2    * [Article du Forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) (avec lien sur YouTube)
+Tutoriel vidéo 2    * [Vidéo FEM pour les débutants](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) (avec lien sur YouTube)
 
-Recherche de tutoriels vidéo    * [Article du Forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162640) (avec lien sur YouTube en Allemand)
+Nombreux tutoriels vidéo    * [anisim Logiciels d\'ingénierie à code source ouvert](https   *//www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (en allemand)
 
 ## Extension de l\'atelier FEM 
 
 L\'atelier FEM est constante évolution. Un des objectifs du projet est de trouver des moyens d'interagir facilement avec divers solveurs FEM, afin que l'utilisateur final puisse rationaliser le processus de création, de maillage, de simulation et d'optimisation d'un problème de conception technique, le tout avec FreeCAD.
 
-Les informations suivantes sont destinées aux utilisateurs expérimentés et aux développeurs qui souhaitent étendre l\'atelier FEM de différentes manières. Une connaissance des langages C ++ et Python est préconisée. Une certaine connaissance du système \"document objet\" utilisé dans FreeCAD est également nécessaire. Ces informations sont disponibles dans la [documentation des utilisateurs](Power_users_hub/fr.md) et le [documentation des développeurs](Developer_hub/fr.md). Veuillez noter que FreeCAD étant toujours en cours de développement, certains articles peuvent être anciens et donc obsolètes. Les informations les plus récentes sont traitées dans les [forums FreeCAD](https   *//forum.freecadweb.org/index.php), dans la section Développement. Pour les discussions sur l\'atelier FEM, les conseils ou l'aide pour l'extension de l'atelier reférez vous dans le [subforum FEM](https   *//forum.freecadweb.org/viewforum.php?f=18).
+Les informations suivantes sont destinées aux utilisateurs expérimentés et aux développeurs qui souhaitent étendre l\'atelier FEM de différentes manières. Une connaissance des langages C ++ et Python est préconisée. Une certaine connaissance du système \"document objet\" utilisé dans FreeCAD est également nécessaire. Ces informations sont disponibles dans la [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md) et la [Documentation pour développeurs](Developer_hub/fr.md). Veuillez noter que FreeCAD étant toujours en cours de développement, certains articles peuvent être anciens et donc obsolètes. Les informations les plus récentes sont traitées dans les [forums FreeCAD](https   *//forum.freecadweb.org/index.php), dans la section Développement. Pour les discussions sur l\'atelier FEM, les conseils ou l'aide pour l'extension de l'atelier reférez vous dans le [sous forum FEM](https   *//forum.freecadweb.org/viewforum.php?f=18).
 
 Les articles suivants expliquent comment étendre l\'atelier, par exemple en ajoutant de nouveaux types de conditions aux limites (contraintes) ou équations.
 
 -   [Extension module FEM ](Extend_FEM_Module/fr.md)
--   [Embarquer les développeurs FEM](Onboarding_FEM_Devs/fr.md) Tente d\'orienter les nouveaux développeurs sur la façon de contribuer à l\'atelier FEM.
+-   [Embarquer les développeurs FEM](Onboarding_FEM_Devs/fr.md) tente d\'orienter les nouveaux développeurs sur la façon de contribuer à l\'atelier FEM.
 -   [Tutoriel FEM Ajouter une équation](Add_FEM_Equation_Tutorial/fr.md)
 -   [Tutoriel FEM Ajouter une contrainte](Add_FEM_Constraint_Tutorial/fr.md)
 
