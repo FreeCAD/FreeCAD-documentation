@@ -59,7 +59,16 @@ L\'oggetto è reso perpendicolare al bordo. Riferimento facoltativo ad un vertic
    *   Bordo, Vertice
    *   Vertice, Bordo
 
+
+{{Part Tools navi/it}}
+
+
+<div class="mw-translate-fuzzy">
+
 #### Allinea O-N-X 
+
+
+</div>
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento, poi allinea la sua normale e l\'asse del piano orizzontale verso il vertice/la linea.
 
@@ -72,7 +81,13 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento, p
    *   Vertice, Vertice
    *   Vertice, Bordo
 
+
+<div class="mw-translate-fuzzy">
+
 #### Allinea O-N-Y 
+
+
+</div>
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e allinea la sua normale e l\'asse verticale del piano verso il vertice/la linea.
 
@@ -98,7 +113,13 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e 
    *   Vertice, Vertice
    *   Vertice, Bordo
 
+
+<div class="mw-translate-fuzzy">
+
 #### Allinea O-X-N 
+
+
+</div>
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e allinea il suo asse del piano orizzontale e la normale al vertice/alla linea.
 
@@ -111,7 +132,13 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e al
    *   Vertice, Vertice
    *   Vertice, Bordo
 
+
+<div class="mw-translate-fuzzy">
+
 #### Allinea O-Y-N 
+
+
+</div>
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e allinea il suo asse del piano verticale e la normale al vertice/alla linea.
 

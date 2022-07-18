@@ -13,9 +13,9 @@ Esta categoría agrupa toda la documentación de FreeCAD
 | [Release notes 0.11/es](wiki/Release notes 0.11/es.md) | [Release notes 0.12/es](wiki/Release notes 0.12/es.md) | [Release notes 0.13/es](wiki/Release notes 0.13/es.md) |
 | [Release notes 0.14/es](wiki/Release notes 0.14/es.md) | [Release notes 0.15/es](wiki/Release notes 0.15/es.md) | [Release notes 0.16/es](wiki/Release notes 0.16/es.md) |
 | [Release notes 0.17/es](wiki/Release notes 0.17/es.md) | [Release notes 0.18/es](wiki/Release notes 0.18/es.md) | [Release notes 0.19/es](wiki/Release notes 0.19/es.md) |
-| [Release notes 0.20/es](wiki/Release notes 0.20/es.md) | [WikiPages/es](wiki/WikiPages/es.md) | [Category:Developer Documentation/es](wiki/Category_Developer Documentation/es.md) |
-| [Category:Poweruser Documentation/es](wiki/Category_Poweruser Documentation/es.md) | [Category:Screenshots/es](wiki/Category_Screenshots/es.md) | [Category:User Documentation/es](wiki/Category_User Documentation/es.md) |
-| [Category:Wiki/es](wiki/Category_Wiki/es.md) |
+| [Release notes 0.20/es](wiki/Release notes 0.20/es.md) | [Release notes 1.0/es](wiki/Release notes 1.0/es.md) | [WikiPages/es](wiki/WikiPages/es.md) |
+| [Category:Developer Documentation/es](wiki/Category_Developer Documentation/es.md) | [Category:Poweruser Documentation/es](wiki/Category_Poweruser Documentation/es.md) | [Category:Screenshots/es](wiki/Category_Screenshots/es.md) |
+| [Category:User Documentation/es](wiki/Category_User Documentation/es.md) | [Category:Wiki/es](wiki/Category_Wiki/es.md) |
 
 
 

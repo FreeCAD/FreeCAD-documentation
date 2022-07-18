@@ -1,19 +1,13 @@
-# <img alt="Логотип верстака для тестирования" src=images/Workbench_Test.svg  style="width   *64px;"> Testing/ru
+# <img alt="Логотип верстака Test Framework" src=images/Workbench_Test.svg  style="width   *64px;"> Testing/ru
 
 
 {{TOCright}}
 
 ## Введение
 
+[Верстак Test Framework](Testing/ru.md) на самом деле не является верстаком для моделирования, но он содержит набор скриптов [Python](Python.md) для выполнения различных тестов на основных компонентах FreeCAD с целью отладки проблем. Смотри также [Отладку](debugging/ru.md).
 
-<div class="mw-translate-fuzzy">
-
-FreeCAD поставляется с обширным модулем тестирования. Тестирование основано на наборе Python сценариев расположенных в тестовом(test) модуле.
-
-
-</div>
-
-You can run the tests from the command line, by using the `-t` or `--run-test` options.
+Вы можете запустить тесты из командной строки, используя параметры `-t` или `--run-test`.
 
 Запустите все тесты   *
 
@@ -22,7 +16,7 @@ You can run the tests from the command line, by using the `-t` or `--run-test` o
 freecad --run-test 0
 ```
 
-Run only some the specified unit test, for example   *
+Запустите только один из указанных тестов модулей, например   *
 
 
 ```python
@@ -42,27 +36,11 @@ Each top level directory in FreeCAD should have a file with the tests that can b
 
 To run a test from within FreeCAD, switch to the Test Workbench, then **Test commands → TestToolsGui → Self test → Select test name**, then enter the name of the Python file with the tests; for example, for the [Draft Workbench](Draft_Workbench.md), this would be **TestDraft**, then press **Start**.
 
-## Test functions 
-
-
-<div class="mw-translate-fuzzy">
-
 ## Функции тестирования 
 
-Это список тестовых приложений на 0.15 Git 4207   *
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Это список тестовых приложений по состоянию   * версия 0.15 git 4207   *
 
 ### TestAPP.All
-
-Добавить функцию тестирования
-
-
-</div>
 
 Add test function
 

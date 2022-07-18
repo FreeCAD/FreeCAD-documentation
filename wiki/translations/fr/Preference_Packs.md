@@ -361,7 +361,7 @@ De nombreux modules complémentaires comportent des informations de préférence
 
 ## Distribuer un kit 
 
-Les kits de préférences sont distribués de manière identique aux [ateliers externes](External_workbenches/fr.md) par le biais du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour installer un kit manuellement, utilisez git pour cloner le dépôt du kit dans votre répertoire de données FreeCAD (le répertoire où se trouve votre fichier user.cfg), dans un sous-répertoire appelé \"Preference Packs\".
+Les kits de préférences sont distribués de manière identique aux [ateliers externes](External_workbenches/fr.md) par le biais du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour installer un kit manuellement, utilisez git pour cloner le dépôt du kit dans votre répertoire de données FreeCAD ((entrez `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md) pour obtenir ce chemin)), dans un sous-répertoire appelé \"Preference Packs\".
 
 [Category   *User Documentation](Category_User_Documentation.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 

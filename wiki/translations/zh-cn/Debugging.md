@@ -20,6 +20,9 @@ FreeCAD 的 \"调试\" 是由一些内部机制支持的。FreeCAD 的命令行�
  --dump-config         转储配置 
  -get-config arg       根据关键字打印特定的配置
 
+
+<div class="mw-translate-fuzzy">
+
 配置   *
 
  -l [ --write-log ]       输出 log 文件到   *
@@ -34,6 +37,9 @@ FreeCAD 的 \"调试\" 是由一些内部机制支持的。FreeCAD 的命令行�
  -M [ --module-path ] arg 额外的模块路径
  -P [ --python-path ] arg 额外的python脚本路径
  --single-instance        允许以单例模式运行
+
+
+</div>
 
 ## 生成回溯
 

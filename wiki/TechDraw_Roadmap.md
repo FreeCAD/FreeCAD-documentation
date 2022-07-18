@@ -6,17 +6,17 @@ Here is a rough roadmap of areas to be addressed in the future (in no particular
 
 ### Current Activity 
 
--   v0.20 release preparation - linux display problems [6698](https   *//github.com/FreeCAD/FreeCAD/issues/6698)
+-   investigation of using separate thread for hidden line removal and face finding
 
 ### Upcoming
 
 These items have working code in the development environment and will be implemented early in the v0.21 development cycle.
 
--   Navigation modes
+-   Navigation modes (implemented)
 -   New face detection algorithm
 -   PrintAll function
--   Bitmap hatching [6582](https   *//github.com/FreeCAD/FreeCAD/issues/6582)
--   Extension line gaps [6774](https   *//github.com/FreeCAD/FreeCAD/issues/6774)
+-   Bitmap hatching [6582](https   *//github.com/FreeCAD/FreeCAD/issues/6582) (implemented)
+-   Extension line gaps [6774](https   *//github.com/FreeCAD/FreeCAD/issues/6774) (implemented)
 -   Section dialog live/deferred update option
 -   Convert all templates to \"plain svg\"
 -   View stacking order [6012](https   *//github.com/FreeCAD/FreeCAD/issues/6012)

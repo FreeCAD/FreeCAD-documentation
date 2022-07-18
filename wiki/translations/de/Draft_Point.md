@@ -41,7 +41,13 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   Benutze <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Fang Nächste](Draft_Snap_Near/de.md), um an Entwurfspunkten einzurasten.
+
+
+</div>
 
 ## Einstellungen
 

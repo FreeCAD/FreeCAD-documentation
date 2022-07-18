@@ -58,7 +58,7 @@ On the *Shape appearance* tab you can specify the following   *
 | **Shape color**        |                                                                                                                                                                                                                           |
 |                                 |                                                                                                                                                                                                                           |
 +++
-|                     | Transparencyfor new shapes <small>(v1.0)</small>                                                                                                                                                                   |
+|                     | Transparency for new shapes <small>(v1.0)</small>                                                                                                                                                                  |
 | **Shape transparency** |                                                                                                                                                                                                                           |
 |                                 |                                                                                                                                                                                                                           |
 +++

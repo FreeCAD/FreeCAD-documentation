@@ -61,7 +61,7 @@ FreeCAD already has the ability to do the following types of work   *
 -   [Surface](Surface_Workbench.md)/[Curves](Curves_Workbench.md) modeling using NURBS
 -   [Mesh](Mesh_Workbench.md) import/modifications
 -   Assembly simulation (3 different approaches, [A2+](A2plus_Workbench.md), [ASM3](Assembly3_Workbench.md), and [ASM4](Assembly4_Workbench.md), are all actively developed)
--   [Architectural](Arch_Workbench.md)/[BIM](BIM_Workbench.md) design\]
+-   [Architectural](Arch_Workbench.md)/[BIM](BIM_Workbench.md) design
 -   Mechanical Stress Analysis ([FEM/FEA](FEM_Workbench.md))
 -   Computational Fluid Dynamic Analysis ([CFD](Cfd_Workbench.md))
 -   [Technical Drawings](TechDraw_Workbench.md)/[Drafting](Draft_Workbench.md)

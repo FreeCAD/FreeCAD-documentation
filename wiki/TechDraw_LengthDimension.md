@@ -91,7 +91,7 @@ The dimension dialog offers the following settings   *
 
 -    **Y**   * Vertical position of the dimension text relative to the View.
 
--    **Type**   * Length,radius,diameter, etc. Not normally manipulated by the end user.
+-    **Type**   * Length, radius, diameter, etc. Not normally manipulated by the end user.
 
 -    **Measure Type**   * How the measurement is performed. Not normally manipulated directly by the end user.
 
@@ -205,6 +205,10 @@ The dimension dialog offers the following settings   *
 -    **Font**   * The name of the font to use for the dimension text.
 
 -    **Font Size**   * Dimension text size.
+
+-    **Gap Factor ASME**   * Adjusts the gap between dimension points and start of extension line. The gap is this value times line width. <small>(v1.0)</small> 
+
+-    **Gap Factor ISO**   * Adjusts the gap between dimension points and start of extension line. The gap is this value times line width. <small>(v1.0)</small> 
 
 -    **Line Width**   * Dimension line weight.
 

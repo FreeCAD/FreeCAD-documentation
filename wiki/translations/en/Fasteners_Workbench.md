@@ -118,6 +118,8 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_EN1665.svg  style="width   *32px;"> **EN 1665** Hexagon head bolt with flange, heavy series.
 
+-   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Hexagon head wood screw.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width   *32px;"> **ASME B18.2.1.6** UNC Hexagon head screw.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width   *32px;"> **ASME B18.2.1.8** UNC Hexagon head screw with flange.
@@ -223,6 +225,10 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 **ISO 4035** Hexagon thin nut, chamfered. *Product grades A and B.*
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** Hexagon nut with flange.
+
+-   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Cap nut, low form.
+
+-   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Cap nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Square nut.
 

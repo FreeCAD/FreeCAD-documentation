@@ -1,6 +1,8 @@
 # Flatpak
 {{TOCright}}
 
+## Installing
+
 ### Stable
 
 If you want to install at the user level or don\'t have sudo privileges add the `--user` flag to the following commands. {{code|lang=bash|code=
@@ -17,14 +19,30 @@ flatpak remote-add --if-not-exists flathub-beta https   *//flathub.org/beta-repo
 flatpak install flathub-beta org.freecadweb.FreeCAD
 }}
 
-Note   * They can be installed in parallel. To choose which one to run use the `--branch` flag   *
+## Running
+
+You may start the flatpak using the desktop file or using the following command   *
+
+
+{{code|lang=bash|code=
+flatpak run org.freecadweb.FreeCAD
+}}
+
+The different branches can be installed in parallel. To choose which one to run use the `--branch` flag   *
 
 
 {{code|lang=bash|code=
 flatpak run --branch=beta org.freecadweb.FreeCAD
 }}
 
-### Repository
+To run a specific executable (for example `FreeCADCmd` to run without GUI) from the flatpak use the `--command` flag   *
+
+
+{{code|lang=bash|code=
+flatpak run --command=FreeCADCmd org.freecadweb.FreeCAD
+}}
+
+## Repository
 
 -   <https   *//github.com/flathub/org.freecadweb.FreeCAD>
 
@@ -32,7 +50,7 @@ flatpak run --branch=beta org.freecadweb.FreeCAD
 
 -   [hfiguiere](https   *//github.com/hfiguiere)
 
-### Related
+## Related
 
 -   [AppImage](AppImage.md) packages
 -   [Snap](Snap.md) panckages

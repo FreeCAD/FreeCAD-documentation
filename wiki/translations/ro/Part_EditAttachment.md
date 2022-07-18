@@ -59,7 +59,15 @@ Object is made perpendicular to edge. Optional vertex reference defines location
    *   Edge, Vertex
    *   Vertex, Edge
 
+See [Align O-X-Y type attachment modes](O-X-Y_type_attachment_modes.md) for more details on the following modes   *
+
+
+<div class="mw-translate-fuzzy">
+
 #### Align O-N-X 
+
+
+</div>
 
 Matches object\'s origin with first referenced vertex, then aligns its normal and horizontal plane axis toward vertex/along line .
 
@@ -72,7 +80,13 @@ Matches object\'s origin with first referenced vertex, then aligns its normal an
    *   Vertex, Vertex
    *   Vertex, Edge
 
+
+<div class="mw-translate-fuzzy">
+
 #### Align O-N-Y 
+
+
+</div>
 
 Matches object\'s origin with first referenced vertex and aligns its normal and vertical plane axis toward vertex/along line .
 
@@ -98,7 +112,13 @@ Matches object\'s origin with first referenced vertex and aligns its horizontal 
    *   Vertex, Vertex
    *   Vertex, Edge
 
+
+<div class="mw-translate-fuzzy">
+
 #### Align O-X-N 
+
+
+</div>
 
 Matches object\'s origin with first referenced vertex and aligns its horizontal plane axis and normal toward vertex/along line .
 
@@ -111,7 +131,13 @@ Matches object\'s origin with first referenced vertex and aligns its horizontal 
    *   Vertex, Vertex
    *   Vertex, Edge
 
+
+<div class="mw-translate-fuzzy">
+
 #### Align O-Y-N 
+
+
+</div>
 
 Matches object\'s origin with first referenced vertex and aligns its vertical plane axis and normal toward vertex/along line .
 

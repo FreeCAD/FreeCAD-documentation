@@ -47,9 +47,19 @@ L\'outil Extension horizontale peut être utilisé dans des [macros](Macros/fr.m
 
 
 ```python
-selection = [(view1, 'Edge1'), (view1, 'Edge2')]  #or [] for all
-hExtentDim = TechDraw.Dimension.makeExtentDim(selection, HORIZONTAL)
-rc = page.addView(hExtentDim)
+selection = ['Edge1', 'Edge2']                      # or [] for all
+
+TechDraw.makeExtentDim(view1, selection, 0)         # view1 is a DrawViewPart; 0 for horizontal
+App.ActiveDocument.DimExtent.Y = -60                # offset dimension line from dimensioned edges in Y direction
+App.ActiveDocument.DimExtent.X = 10                 # offset dimension text along dimension line in X direction
+App.ActiveDocument.DimExtent.FormatSpec = '%.0f'    # Dimension format
+
+TechDraw.makeExtentDim(view1, selection, 1)         # view1 is a DrawViewPart; 1 for vertical
+App.ActiveDocument.DimExtent001.X = -130            # offset dimension line from dimensioned edges in X direction
+App.ActiveDocument.DimExtent001.Y = 10              # offset dimension text along dimension line in Y direction
+App.ActiveDocument.DimExtent001.FormatSpec = '%.0f'
+
+# Note the dimension names are 'DimExtent', 'DimExtent001' etc in the order created.
 ```
 
 

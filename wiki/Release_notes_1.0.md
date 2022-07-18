@@ -115,6 +115,8 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 -   Additional substitution strings for automatic output naming. If output is being split into multiple files, the filenames can automatically substitute the toolcontroller label, WCS, or operation label. This is in addition to the other existing substitution strings like date, job name, etc.
 
+-   Implemented Chipbreaking option for peck style drill cycles. Chipbreaking emits a G73 cycle which causes the control to make a very small retraction move to break the chip without fully retracting the bit from the hole. G73 is supported natively by LinuxCNC. Other postprocessors will have to interpret the G73 and emit control appropriate codes or decompose the retraction into G1/G0 moves. Postprocessor support for G73 decomposition is pending.
+
 ## Plot module 
 
 ## Sketcher Workbench 
@@ -133,6 +135,8 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 ## TechDraw Workbench 
 
 ### Further TechDraw improvements 
+
+-   Support for adjustable gaps for extension lines was added [Pull request \#7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133).
 
 ## Web
 

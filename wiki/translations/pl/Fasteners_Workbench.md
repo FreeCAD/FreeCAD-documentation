@@ -115,6 +115,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_EN1665.svg  style="width   *32px;"> **EN 1665** Śruba sześciokątna z kołnierzem, seria gruba.
 
+-   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Hexagon head wood screw.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width   *32px;"> **ASME B18.2.1.6** UNC Śruba z łbem sześciokątnym.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width   *32px;"> **ASME B18.2.1.8** UNC Śruba z łbem sześciokątnym z kołnierzem.
@@ -210,6 +212,10 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 -   <img alt="" src=images/Fasteners_ISO4035.svg  style="width   *32px;"> **ISO 4035** Nakrętka sześciokątna cienka, fazowana. Gatunek produktu A i B.
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** Nakrętka sześciokątna z kołnierzem.
+
+-   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Cap nut, low form.
+
+-   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Cap nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Nakrętka czworokątna.
 

@@ -9,8 +9,7 @@ The <img alt="" src=images/Fasteners_workbench_icon.svg  style="width   *24px;">
  ![](images/Fasteners_toolbars.png )  
 *The optional single toolbar layout of the workbench.<br>
 Fasteners with metric dimensions have orange icons.<br>
-Fasteners with inch dimensions have downy icons.<br>
-Fasteners with metric wood thread have green icons.*
+Fasteners with inch dimensions have green icons.*
 
 ## Installation
 
@@ -227,6 +226,8 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** Hexagon nut with flange.
 
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Cap nut, low form.
+
+-   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Cap nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Square nut.
 

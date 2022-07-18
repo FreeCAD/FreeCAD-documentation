@@ -11,8 +11,6 @@
 
 
 
- 
-
 
 
 ## Introduction
@@ -160,7 +158,8 @@ See a Stackoverflow discussion on [removing transform clauses in SVG files](http
 
 If you do not see the green boxes for your editable texts, there might be something wrong with your document scale. Open your file in Inkscape again and confirm the values of the viewBox and the sizes are matching.
 
-  {{TechDraw Tools navi}} 
+
+ {{TechDraw Tools navi}} 
 
 [Category   *Sandbox](Category_Sandbox.md)
 

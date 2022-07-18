@@ -1,10 +1,13 @@
 # Help FreeCAD/fr
-## Introduction
-
-
 {{TOCright}}
 
-Si vous aimez FreeCAD et que vous désirez participer à son développement, en dehors d\'une [donation directe](Donate/fr.md), il y a beaucoup d\'autres choses que vous pouvez faire, même si vous n\'êtes pas un programmeur.
+## Introduction
+
+Si vous aimez FreeCAD et souhaitez aider le projet, vous pouvez faire beaucoup de choses, que vous préfériez investir du temps ou de l\'argent, ou que vous sachiez écrire du code ou non.
+
+## Don d\'argent 
+
+Bien que FreeCAD n\'ait pas besoin d\'argent pour être développé, les dons peuvent aider le projet à se développer plus loin et plus rapidement. La page [Faire un don](Donation/fr.md) liste toutes les options dont vous disposez pour donner de l\'argent au projet.
 
 ## Travailler sur la documentation 
 
@@ -21,9 +24,9 @@ Quelques domaines qui apprécieraient votre contribution    *
 La communauté des utilisateurs de FreeCAD est encore faible, mais comprend plusieurs utilisateurs éclairés, qui fournissent un travail très important, pour montrer et apprendre aux nouveaux arrivants comment utiliser le logiciel. Si vous commencez à vous sentir à l\'aise avec FreeCAD, vos connaissances pourraient être très utiles à d\'autres, et vous pourriez contribuer, grâce à vos acquis, à    *
 
 -   Montrer ce que vous avez réalisé sous FreeCAD sur le [forum Users Showcase](http   *//forum.freecadweb.org/viewforum.php?f=24). Vous pouvez poster des [captures d\'écran](Std_ViewScreenShot/fr.md), mieux encore, joindre vos fichiers FreeCAD pour que d\'autres personnes puissent les examiner et comprendre comment vous avez travaillé et découvrir d\'autres fonctionnalités.
--   Enregistrer des [clips vidéos](http   *//www.youtube.com/user/FreeCADNews) détaillant les étapes que vous avez franchies pour arriver à votre projet final, dans FreeCAD. Ces vidéos sont une bonne façon de montrer de nouvelles fonctionnalités.
--   Écrire des [didacticiels](Tutorials/fr.md) décrivant ou enseignant quelque chose d\'intéressant. Vous pouvez écrire des tutoriels sur votre propre blog, directement sur ​​notre wiki, ou même sur le [forum](https   *//forum.freecadweb.org/).
--   Poster sur le réseau social libre [Mastodon](https   *//joinmastodon.org/) (et suivez-y [1](https   *//fosstodon.org/@FreeCAD)) ou sur la communauté [Facebook](https   *//www.facebook.com/groups/416491481766626).
+-   Enregistrer des [vidéos](http   *//www.youtube.com/user/FreeCADNews) détaillant les étapes que vous avez franchies pour arriver à votre projet terminé dans FreeCAD. Ces vidéos sont une bonne façon de montrer de nouvelles fonctionnalités.
+-   Écrire des [tutoriels](Tutorials/fr.md) décrivant ou enseignant quelque chose d\'intéressant. Vous pouvez écrire des tutoriels sur votre propre blog, directement sur ​​notre wiki, ou même sur le [forum](https   *//forum.freecadweb.org/).
+-   Publiez sur le réseau social open source [Mastodon](https   *//joinmastodon.org/) (et [suivre FreeCAD](https   *//fosstodon.org/@FreeCAD) ici), sur [Facebook](https   *//www.facebook.com/groups/416491481766626) ou sur [Twitter](https   *//twitter.com) (et [suivre FreeCAD](https   *//twitter.com/FreeCADNews) ici). Utilisez les hashtags \#FreeCAD, \#MadeWithFreeCAD ou \#fc3d pour que les autres utilisateurs de FreeCAD puissent trouver plus facilement vos messages relatifs à FreeCAD.
 -   Consultez les dernières publications de FreeCAD sur [Reddit](https   *//www.reddit.com/search/?q=freecad&type=link&sort=new), [3dprinting.stackexchange](https   *//3dprinting.stackexchange.com/search?tab=newest&q=freecad), [StackOverflow](https   *//stackoverflow.com/search?q=freecad)\... Essayez d\'y répondre et de participer aux discussions en partageant votre expérience et vos informations.
 -   Être présent sur le canal IRC FreeCAD ou [d\'autres groupes de discussion](https   *//www.freecadweb.org/wiki/Help#Chat).
 
@@ -69,11 +72,15 @@ Vous devez simplement marquer votre problème comme \"Bug\" (quelque chose qui n
 -   Avant de soumettre une demande de fonctionnalité, discutez-en toujours avec les autres utilisateurs sur le [forum *discussions ouvertes*](https   *//forum.freecadweb.org/viewforum.php?f=8), de sorte que vous puissiez vous retrouver avec une proposition plus solide, ayant plus de chances d\'intéresser un programmeur à la mettre en œuvre.
 -   Rappelez-vous que FreeCAD est développé par des bénévoles qui utilisent leur temps libre pour travailler à son élaboration. Bien que tous essaient de leur mieux de développer la meilleure application possible, votre rapport de bogue pourrait être traité avec une faible priorité, ou abandonné si vous ne pouvez pas fournir suffisamment d\'informations. Votre demande de fonctionnalité pourrait être reportée ou même abandonnée si aucun développeur ne souhaite la mettre en œuvre, ou si elle demande une quantité de travail beaucoup trop importante.
 
+## Triage des bogues 
+
+Des dizaines de bogues sont signalés chaque semaine sur [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues). Il faut beaucoup de temps pour les lire, les catégoriser, vérifier si le problème est reproductible, voir si des actions simples peuvent être réalisées ou demander à la personne qui a posté le problème de fournir plus d\'informations. Il est facile d\'aider au triage, il suffit de se rendre sur [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) et de commencer à commenter tout problème pour lequel vous pensez pouvoir apporter votre aide !
+
 ## Design graphique 
 
 Consultez les pages [Graphisme](Artwork/fr.md) et [Recommandations pour la charte graphique](Artwork_Guidelines/fr.md) pour connaître les directives sur la conception d\'icônes pour FreeCAD.
 
-## Programmer !
+## Écrire du code ! 
 
 Écrire du code pour FreeCAD n\'est pas difficile, et vous n\'avez besoin d\'aucune permission, vous pouvez commencer dès maintenant à travailler sur ce que vous voulez, puis soumettre un patch sur le [gestionnaire de problèmes](https   *//github.com/FreeCAD/FreeCAD/issues) ou demander une fusion à partir d\'une [branche git](https   *//github.com/FreeCAD). Pour éviter les maux de tête, vous devez d\'abord remplir les conditions préalables suivantes    *
 
@@ -83,6 +90,11 @@ Consultez les pages [Graphisme](Artwork/fr.md) et [Recommandations pour la chart
 -   Si vous comptez travailler en C++, assurez-vous avant tout de pouvoir compiler FreeCAD sans problème.
 -   Présentez-vous aux autres développeurs. FreeCAD est avant tout un projet social, nous discutons de beaucoup de choses sur le [forum](http   *//forum.freecadweb.org) avant leur mise en œuvre, et il est toujours préférable de discuter de vos idées et dire aux autres ce que vous envisagez de faire avant de le concrétiser. Nous avons également un [canal IRC](irc   *//chat.freenode.net/freecad) qui est synchronisé avec notre canal [gitter](https   *//gitter.im/FreeCAD/FreeCAD), mais le [forum](http   *//forum.freecadweb.org) est le seul et unique endroit de rencontre de tous les développeurs.
 -   Depuis 2016, FreeCAD participe également au [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Assurez-vous de vérifier vos idées à cet endroit si vous souhaitez participer à une prochaine édition.
+-   De plus en plus de fonctionnalités de FreeCAD ne sont pas écrites dans le code FreeCAD lui-même mais dans des addons, des macros et des extensions. Ensemble, cet écosystème est ce qui rend FreeCAD puissant. Souvent, travailler sur un addon est plus facile parce qu\'il y a moins de code à lire et à comprendre, et moins de personnes impliquées. Consultez le [dépôt des Addons](https   *//github.com/FreeCAD/FreeCAD-addons) et le [dépôt des Macros](https   *//github.com/FreeCAD/FreeCAD-macros) pour avoir quelques idées !
+
+## Bibliothèque de modèles 
+
+FreeCAD dispose d\'une [bibliothèque de modèles](https   *//github.com/FreeCAD/FreeCAD-library) qui est gratuite et ouverte à tous. Pourquoi ne pas y ajouter des éléments utiles, qui pourraient être réutilisés par d\'autres ? Veillez à créer vous-même des modèles à partir de rien, afin que la bibliothèque reste à 100% exempte de composants éventuellement protégés par des droits d\'auteur ou non libres.
 
 
 

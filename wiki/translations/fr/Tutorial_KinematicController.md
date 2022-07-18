@@ -367,9 +367,9 @@ Pour compléter les paramètres, nous définissons un nombre de pas par défaut 
 
 {{Top}}
 
-### Intitulés
+### Labels
 
-Maintenant, trois intitulés sont ajoutés pour afficher le début, la fin et la valeur en cours.
+Maintenant, trois labels sont ajoutés pour afficher le début, la fin et la valeur en cours.
 
 Tout d\'abord, la classe {{Incode|QLabel}} doit être importée, c\'est-à-dire que la liste d\'importation doit être étendue comme ceci    *
 
@@ -558,7 +558,7 @@ Tout d\'abord, la classe {{Incode|QSlider}} doit être importée, c\'est-à-dire
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider)
 ```
 
-De retour dans la méthode {{Incode|initUI()}} et juste après la section des intitulés (labels), nous insérons    *
+De retour dans la méthode {{Incode|initUI()}} et juste après la section des labels, nous insérons    *
 
 
 ```python
@@ -590,7 +590,7 @@ Travailler avec un ratio au lieu de modifier les valeurs min et max du curseur p
 
 Et après celle-ci, vient une autre méthode définissant ce qu\'il faut faire lorsque la position du curseur ou la valeur du curseur change. La méthode {{Incode|onActuatorSlider()}} est appelée par la méthode {{Incode|connect()}} qui fournit également la valeur du curseur comme argument.
 
-Il recalcule la valeur courante à partir de la position du curseur, réécrit le texte de l\'intitulé {{Incode|self.label_current}} et modifie la propriété de la contrainte en fonction du type de curseur.
+Il recalcule la valeur courante à partir de la position du curseur, réécrit le texte du label {{Incode|self.label_current}} et modifie la propriété de la contrainte en fonction du type de curseur.
 
 L\'exécution de la commande {{Incode|"asm3CmdQuickSolve"}} lance le solveur pour réorganiser les pièces de l\'assemblage avec la valeur modifiée.
 
@@ -628,7 +628,7 @@ Tout d\'abord, la classe {{Incode|QLineEdit}} doit être importée, c\'est-à-di
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit)
 ```
 
-De retour dans la méthode {{Incode|initUI()}} et entre les intitulés (labels) et les sections du curseur, nous insérons    *
+De retour dans la méthode {{Incode|initUI()}} et entre les labels et les sections du curseur, nous insérons    *
 
 
 ```python

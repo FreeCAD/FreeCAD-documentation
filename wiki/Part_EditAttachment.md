@@ -49,7 +49,7 @@ Object is made perpendicular to edge. Optional vertex reference defines location
    *   Edge, Vertex
    *   Vertex, Edge
 
-**Note** See [Align O-X-Y type attachment modes](https   *//wiki.freecadweb.org/O-X-Y_type_attachment_modes) for more details on these following modes.
+See [Align O-X-Y type attachment modes](O-X-Y_type_attachment_modes.md) for more details on the following modes   *
 
 #### Align O-Z-X 
 

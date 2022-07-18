@@ -53,6 +53,9 @@ W zakładce *Widok kształtu* można zdefiniować następujące parametry   *
 
 W zakładce *Wygląd kształtu* można zdefiniować następujące parametry   *
 
+
+<div class="mw-translate-fuzzy">
+
 +++
 | Nazwa                                   | Opis                                                                                                                                                                                                                                                                   |
 +=========================================+========================================================================================================================================================================================================================================================================+
@@ -86,7 +89,10 @@ W zakładce *Wygląd kształtu* można zdefiniować następujące parametry   *
 +++
 |                          | Kolor tekstu w adnotacjach na dokumentach. Obecnie nie ma okna dialogowego umożliwiającego dodawanie adnotacji do dokumentów. Adnotacje można dodawać wyłącznie za pomocą poleceń w konsoli Python   *                                                                    |
 | **Kolor tekstu**            |                                                                                                                                                                                                                                                                        |
-|                                      | obj=App.ActiveDocument.addObject("App   *   *Annotation", "Label")                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                              |
+|                                         | </div>                                                                                                                                                                                                                                                                 |
+|                                         |                                                                                                                                                                                                                                                                     |
+|                                         | obj=App.ActiveDocument.addObject("App   *   *Annotation", "Label")                                                                                                                                                                                                         |
 |                                         |                                                                                                                                                                                                                                                                        |
 |                                         | Konsole można aktywować w menu **Widok → Panele → konsola Python**.                                                                                                                                                                          |
 +++

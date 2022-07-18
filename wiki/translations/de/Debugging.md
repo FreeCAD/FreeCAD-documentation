@@ -20,6 +20,9 @@ Grundlegende Optionen   *
  --dump-config         Dump der Konfiguration
  --get-config arg      Gibt den Wert des angegebenen Konfigurationsschlüssels aus
 
+
+<div class="mw-translate-fuzzy">
+
 Konfiguration   *
 
  -l [ --write-log ]       Schreibt eine Log-Datei nach   *
@@ -33,6 +36,9 @@ Konfiguration   *
  -M [ --module-path ] arg Zusätzliche Modulpfade
  -P [ --python-path ] arg Zusätzliche Python-Pfade
  --single-instance        Startet eine (einzige) Instanz der Applikation zu starten
+
+
+</div>
 
 ## Erzeugen einer Rückverfolgung 
 

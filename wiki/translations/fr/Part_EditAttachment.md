@@ -50,7 +50,10 @@ L\'objet est rendu perpendiculaire au bord. La référence au sommet, facultativ
    *   arête, sommet
    *   sommet, arête
 
-#### Alignement O-N-X 
+
+{{Part Tools navi/fr}}
+
+#### Alignement O-Z-X 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé, puis aligne sa normale avec l\'axe horizontal du plan vers le sommet/le long de la ligne.
 
@@ -63,7 +66,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé, pu
    *   sommet, sommet
    *   sommet, arête
 
-#### Alignement O-N-Y 
+#### Alignement O-Z-Y 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne sa normale avec l\'axe vertical du plan vers le sommet/le long de la ligne.
 
@@ -89,7 +92,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et 
    *   sommet, sommet
    *   sommet, arête
 
-#### Alignement O-X-N 
+#### Alignement O-X-Z 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne son axe horizontal et sa normale sur le sommet/le long de la ligne.
 
@@ -102,7 +105,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et 
    *   sommet, sommet
    *   sommet, arête
 
-#### Alignement O-Y-N 
+#### Alignement O-Y-Z 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne son axe vertical et sa normale vers le sommet/le long de la ligne.
 

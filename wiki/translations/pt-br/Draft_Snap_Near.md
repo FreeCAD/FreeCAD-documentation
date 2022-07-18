@@ -33,7 +33,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Notas
 
 -   It is not a good idea to have [Draft Snap Near](Draft_Snap_Near.md) permanently active as it takes precedence over many other snap options.
--   When snapping to curves, [Draft Snap Near](Draft_Snap_Near.md) snaps to their segmented representation in the [3D view](3D_view.md) which results in an inaccuracy. To get an exact on-curve point draw a [Draft Line](Draft_Line.md) across the curve and then cut the line with [Draft Trimex](Draft_Trimex.md) using the curve as a cutting tool.
+-   In {{VersionMinus|0.20}} when snapping to curves, [Draft Snap Near](Draft_Snap_Near.md) snaps to their segmented representation in the [3D view](3D_view.md) which results in an inaccuracy. To get an exact on-curve point draw a [Draft Line](Draft_Line.md) across the curve and then cut the line with [Draft Trimex](Draft_Trimex.md) using the curve as a cutting tool.
 
 ## Preferências
 

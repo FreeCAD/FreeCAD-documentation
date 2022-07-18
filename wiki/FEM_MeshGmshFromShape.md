@@ -12,7 +12,7 @@
 
 For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the program [Gmsh](https   *//en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) for calculating the mesh.
 
-Gmsh is bundled with the FreeCAD installation binaries. Alternatively you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
+Depending on your operating system and your installation package Gmsh might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
 
 ## Usage
 

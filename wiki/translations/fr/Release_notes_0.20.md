@@ -529,6 +529,10 @@ Selon les capacités graphiques OpenGL d\'un ordinateur, il se peut que l\'on re
 -   Téléchargez [cette bibliothèque OpenGL](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) pour Windows 64 bits et extrayez-la.
 -   Renommez le fichier DLL en *opengl32sw.dll* et copiez-le dans le sous-dossier *bin* du dossier d\'installation de FreeCAD (écrasez la DLL existante).
 
+### MacOS    * L\'atelier Start affiche une page blanche 
+
+Si l\'[atelier Start](Start_Workbench/fr.md) n\'affiche qu\'une page blanche, vous devez activer l\'option **Utiliser le logiciel OpenGL** dans le menu {{MenuCommande|Edition → Préférences → Affichage}}.
+
 [Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 

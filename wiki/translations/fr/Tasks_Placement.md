@@ -80,11 +80,35 @@ Pour ajuster nos **paramètres de rotation**, deux moyens sont possibles.
 
 Cette option peut être plus facile à travailler, toutefois, même dans ce mode, il y a des choses importantes à retenir    * les rotations positives sont dans le sens **Horaire**, en regardant depuis l\'origine le long d\'un axe positif. Ou pour le dire autrement, les rotations positives sont dans le sens \'\'\' anti-horaire \'\'\', en regardant vers l\'origine le long d\'un axe positif.
 
-   ** **[Lacet](https   *//fr.wikipedia.org/wiki/Lacet_(mouvement))**    * Le lacet est le mouvement de rotation horizontal d\'un mobile autour d\'un axe vertical. (Le lacet est l\'angle **Psi ψ**)
+   **
 
-   ** **[Tangage](https   *//fr.wikipedia.org/wiki/Tangage)**    * Le tangage est défini comme étant un mouvement d\'oscillation d\'un bateau d\'avant en arrière. (Le tangage est l\'angle **Phi φ**).
 
-   ** **[Roulis](https   *//fr.wikipedia.org/wiki/Roulis)**    * Le roulis est un mouvement de rotation d\'un mobile autour de son axe longitudinal (axe de roulis). (Le Roulis est l\'angle **Thêta θ**).
+<div id="Yaw">
+
+
+</div>
+
+**[Lacet](https   *//fr.wikipedia.org/wiki/Lacet_(mouvement))**    * Le lacet est le mouvement de rotation horizontal d\'un mobile autour d\'un axe vertical. (Le lacet est l\'angle **Psi ψ**)
+
+   **
+
+
+<div id="Pitch">
+
+
+</div>
+
+**[Tangage](https   *//fr.wikipedia.org/wiki/Tangage)**    * Le tangage est défini comme étant un mouvement d\'oscillation d\'un bateau d\'avant en arrière. (Le tangage est l\'angle **Phi φ**).
+
+   **
+
+
+<div id="Roll">
+
+
+</div>
+
+**[Roulis](https   *//fr.wikipedia.org/wiki/Roulis)**    * Le roulis est un mouvement de rotation d\'un mobile autour de son axe longitudinal (axe de roulis). (Le Roulis est l\'angle **Thêta θ**).
 
 Lacet, roulis et tangage se référent à l**\'attitude** d\'un objet dans l\'espace 3D. Ces termes sont couramment utilisés dans l\'aviation. Les angles sont les **angles Tait-Bryan.** Si vous voulez plus d\'informations, lire [angles d\'Euler](https   *//fr.wikipedia.org/wiki/Angles_d%27Euler).
 

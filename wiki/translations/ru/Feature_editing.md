@@ -3,7 +3,7 @@
 
 ## Введение
 
-This page explains the way the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [PartDesign Workbench](PartDesign_Workbench.md) is intended to be used starting with FreeCAD 0.17.
+На этой странице объясняется, как использовать <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md), начиная с версии FreeCAD 0.17.
 
 
 <div class="mw-translate-fuzzy">

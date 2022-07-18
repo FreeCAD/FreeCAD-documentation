@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-В FreeCAD слово \"[Sketch(Эскиз)](Sketch/ru.md)\" обычно используется для обозначения [Sketcher SketchObject](Sketcher_SketchObject/ru.md) (`Sketcher   *   *SketchObject` класс), который определяется [Верстаком Sketcher](Sketcher_Workbench/ru.md). Это 2D-чертеж, который использует математические ограничения для точного описания 2D-геометрии.
+В FreeCAD слово \"[Эскиз](Sketch/ru.md)\" обычно используется для обозначения [Sketcher SketchObject](Sketcher_SketchObject/ru.md) (`Sketcher   *   *SketchObject` класс), который определяется [Верстаком Sketcher](Sketcher_Workbench/ru.md). Это 2D-чертеж, который использует математические ограничения для точного описания 2D-геометрии.
 
 Дополнительные сведения об этом типе объектов см. в разделе [Sketcher SketchObject](Sketcher_SketchObject/ru.md).
 

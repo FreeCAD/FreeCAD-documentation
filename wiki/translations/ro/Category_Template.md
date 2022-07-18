@@ -8,8 +8,8 @@ This category contains all the Templates
 |     |     |     |
 | --- | --- | --- |
 | [Template:Blender Navigation/ro](wiki/Template_Blender Navigation/ro.md) | [Template:CAD Navigation/ro](wiki/Template_CAD Navigation/ro.md) | [Template:Inventor Navigation/ro](wiki/Template_Inventor Navigation/ro.md) |
-| [Template:Languages/ro](wiki/Template_Languages/ro.md) | [Template:Version/ro](wiki/Template_Version/ro.md) | [Category:Template:Doc/ro](wiki/Category_Template_Doc/ro.md) |
-| [Category:Template:Navigation/ro](wiki/Category_Template_Navigation/ro.md) |
+| [Template:Languages/ro](wiki/Template_Languages/ro.md) | [Category:Template:Doc/ro](wiki/Category_Template_Doc/ro.md) | [Category:Template:Navigation/ro](wiki/Category_Template_Navigation/ro.md) |
+|
 
 
 

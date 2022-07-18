@@ -549,7 +549,7 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 ### MacOS   * Start Workbench shows blank page 
 
-If the Start Workbench shows only a blank page, you must enable the option **Use software OpenGL** in the menu **Edit → Preferences → Display**.
+If the [Start Workbench](Start_Workbench.md) shows only a blank page, you must enable the option **Use software OpenGL** in the menu **Edit → Preferences → Display**.
 
 
 

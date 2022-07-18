@@ -55,7 +55,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Notes
 
--   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Snap Near](Draft_Snap_Near.md) to snap to Draft points.
+-   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Snap Near](Draft_Snap_Near.md) ({{VersionMinus|0.20}}) or <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *16px;"> [Draft Snap Endpoint](Draft_Snap_Endpoint.md) (<small>(v1.0)</small> ) to snap to Draft points.
 
 ## Preferences
 

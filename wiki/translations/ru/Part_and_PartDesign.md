@@ -3,15 +3,15 @@
 
 ## Обзор
 
-There has been much discussion over the years about the differences and ramifications of using the <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench.md) and the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench.md) workbenches.
+В течение многих лет широко обсуждались различия и последствия использования верстаков <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench/ru.md) и <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench/ru.md).
 
-It is a good idea to use one or the other until the user is comfortable with one, then learn the other. It is also typically recommended that new users not mix them until the ramifications of doing so are understood.
+Рекомендуется использовать один из верстаков, пока пользователь не освоится с ним, а затем изучить другой. Также обычно рекомендуется, чтобы новые пользователи не смешивали их, пока не будут понятны последствия этого.
 
-Let\'s talk about those ramifications.
+Давайте поговорим об этих последствиях.
 
-## Коцепция верстака Part 
+## Коцепции Верстака Part 
 
-Part Workbench is essentially [CSG style modeling](Constructive_solid_geometry.md). The operator combines various primitives to end up with a representation of the desired shape. (In fact, Part Workbench goes one step further than just primitives and allows the operator to use a sketch+extrude operation (or sketch+revolve, loft, sweep \...) to create random shapes as well.) When each primitive or shape is created, it has no relationship to other objects created (except sketches and their attachments), it is a single solitary solid.
+Верстак Part это по сути [моделирование в стиле КТГ](Constructive_solid_geometry/ru.md). Оператор комбинирует различные примитивы, чтобы в конечном итоге получить представление желаемой формы. (Фактически, Верстак Part идёт на один шаг дальше, чем просто примитивы и позволяет оператору использовать операцию эскиз+выдавливание (или эскиз+вращение, лофт, развертку \...) для создания случайных форм.) При создании каждого примитива или фигуры он не имеет отношения к другим созданным объектам (кроме эскизов и их вложений), является единственным одиночным твердым телом.
 
 ![centre\|Solitary solids](images/Part_CSG_Prims.png )
 
@@ -19,7 +19,7 @@ This condition remains so, until, the operator uses some operation to combine th
 
 The take away is the single solitary solid bit and the combining them bit.
 
-## Коцепция верстака PartDesign 
+## Коцепции Верстака PartDesign 
 
 In the PartDesign Workbench the Body object is constructed directly as a single solitary cumulative solid.
 

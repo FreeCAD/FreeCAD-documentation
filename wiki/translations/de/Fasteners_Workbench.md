@@ -127,6 +127,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 </div>
 
+-   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Hexagon head wood screw.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -274,6 +276,10 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 **ISO 4035** Sechskantmuttern mit Fase, niedrige Form. *Produktklassen A und B.*
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** Sechskantmuttern mit Flansch.
+
+-   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Cap nut, low form.
+
+-   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Cap nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Vierkantmuttern.
 

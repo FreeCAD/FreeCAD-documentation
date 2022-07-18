@@ -14,9 +14,9 @@ This category groups all of the FreeCAD documentation.
 | [Part Measure Menu/en](wiki/Part Measure Menu/en.md) | [Release notes 0.13/en](wiki/Release notes 0.13/en.md) | [Release notes 0.14/en](wiki/Release notes 0.14/en.md) |
 | [Release notes 0.15/en](wiki/Release notes 0.15/en.md) | [Release notes 0.16/en](wiki/Release notes 0.16/en.md) | [Release notes 0.17/en](wiki/Release notes 0.17/en.md) |
 | [Release notes 0.18/en](wiki/Release notes 0.18/en.md) | [Release notes 0.19/en](wiki/Release notes 0.19/en.md) | [Release notes 0.20/en](wiki/Release notes 0.20/en.md) |
-| [Transportation Workbench/en](wiki/Transportation Workbench/en.md) | [WikiPages/en](wiki/WikiPages/en.md) | [Category:Developer Documentation/en](wiki/Category_Developer Documentation/en.md) |
-| [Category:Poweruser Documentation/en](wiki/Category_Poweruser Documentation/en.md) | [Category:User Documentation/en](wiki/Category_User Documentation/en.md) | [Category:Wiki/en](wiki/Category_Wiki/en.md) |
-|
+| [Release notes 1.0/en](wiki/Release notes 1.0/en.md) | [Transportation Workbench/en](wiki/Transportation Workbench/en.md) | [WikiPages/en](wiki/WikiPages/en.md) |
+| [Category:Developer Documentation/en](wiki/Category_Developer Documentation/en.md) | [Category:Poweruser Documentation/en](wiki/Category_Poweruser Documentation/en.md) | [Category:User Documentation/en](wiki/Category_User Documentation/en.md) |
+| [Category:Wiki/en](wiki/Category_Wiki/en.md) |
 
 
 

@@ -7,9 +7,10 @@ Esta categoría contiene artículos y categorías sobre temas de administración
 
 |     |     |     |
 | --- | --- | --- |
-| [Changelog/es](wiki/Changelog/es.md) | [Organization chart/es](wiki/Organization chart/es.md) | [Template:PropertyData/es](wiki/Template_PropertyData/es.md) |
-| [Template:PropertyView/es](wiki/Template_PropertyView/es.md) | [Tracker/es](wiki/Tracker/es.md) | [WikiPages/es](wiki/WikiPages/es.md) |
-| [Category:Wiki/es](wiki/Category_Wiki/es.md) |
+| [Changelog/es](wiki/Changelog/es.md) | [Crowdin Administration/es](wiki/Crowdin Administration/es.md) | [Crowdin Scripts/es](wiki/Crowdin Scripts/es.md) |
+| [Organization chart/es](wiki/Organization chart/es.md) | [Template:PropertyData/es](wiki/Template_PropertyData/es.md) | [Template:PropertyView/es](wiki/Template_PropertyView/es.md) |
+| [Tracker/es](wiki/Tracker/es.md) | [WikiPages/es](wiki/WikiPages/es.md) | [Category:Wiki/es](wiki/Category_Wiki/es.md) |
+|
 
 
 

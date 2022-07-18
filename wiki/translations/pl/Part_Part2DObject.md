@@ -36,6 +36,9 @@ Obiekt Part2DObject ma także następujące dodatkowe właściwości w obszarze 
 
 {{TitleProperty|Dołączenie}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Typ mocowania|String|ukryty**   * nazwa klasy obiektu attach engine sterującego dołączeniem. Domyślnie jest to `Attacher   *   *AttachEnginePlane`.
 
 -    **Podparcie|LinkSubList**   * jest to płaszczyzna lub powierzchnia obsługująca geometrię 2D. Domyślnie jest to pusta lista `[]`.
@@ -47,6 +50,9 @@ Obiekt Part2DObject ma także następujące dodatkowe właściwości w obszarze 
 -    **Parametr ścieżki dołączenia|Float|ukryty**   * ustawia punkt krzywej, na który ma być mapowany [szkic](Sketch/pl.md). Przebiega od {{value|0}} do {{value|1}}, co odpowiada wartościom {{value|początek}} i {{value|koniec}}. Domyślnie przyjmuje wartość {{value|0}}.
 
 -    **Odsunięcie mocowania|umocowanie**   * pozycja obiektu w oknie [widoku 3D](3D_view/pl.md), w odniesieniu do umiejscowienia obiektu dołączonego. Położenie jest określone przez punkt `Bazowy` *(wektor)* i punkt `Obrotu` *(oś i kąt)*. Zobacz [Umiejscowienie](Placement/pl.md). Ukryje, jeśli **Tryb dołączenia** ma wartość {{value|Dezaktywowany}}.
+
+
+</div>
 
 ## Tworzenie skryptów 
 

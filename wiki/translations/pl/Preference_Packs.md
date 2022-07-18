@@ -361,7 +361,7 @@ Wiele dodatków zawiera informacje o preferencjach użytkownika, które są doda
 
 ## Dystrybucja pakietu 
 
-Pakiety Preferencji są dystrybuowane tak samo jak [Zewnętrzne środowiska pracy](External_workbenches/pl.md) poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Aby zainstalować pakiet ręcznie, użyj git, aby sklonować repozytorium pakietów do katalogu danych FreeCAD *(katalogu, w którym znajduje się plik user.cfg)*, w podkatalogu o nazwie \"Pakiety preferencji\".
+Pakiety Preferencji są dystrybuowane tak samo jak [Zewnętrzne środowiska pracy](External_workbenches/pl.md) poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Aby zainstalować pakiet ręcznie, użyj git, aby sklonować repozytorium pakietów do katalogu danych FreeCAD *((wpisz `App.getUserAppDataDir()` w [Konsoli Python](Python_console/pl.md), aby poznać tę ścieżkę))*, w podkatalogu o nazwie \"Pakiety preferencji\".
 
 [Category   *User Documentation](Category_User_Documentation.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 

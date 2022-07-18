@@ -137,7 +137,7 @@
 
 </div>
 
-### Keyboard actions 
+### Действия с клавиатуры 
 
 The following keyboard actions are available when the focus is on the Tree view   *
 
@@ -184,7 +184,7 @@ The following keyboard actions are available when the focus is on the Tree view 
 
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Жёлтый крестик 
 
-Это используется только для [sketches](Sketch/ru.md)(эскизов) и указывает на то, что эскиз не полностью ограничен. Внутри верстака [Sketcher](Sketcher_Workbench/ru.md) количество оставшихся степеней свободы отображается в сообщениях решателя на вкладке Состояние эскиза.
+Это обозначение используется только для [эскизов](Sketch/ru.md) и указывает на то, что эскиз не полностью ограничен. В среде [Sketcher](Sketcher_Workbench/ru.md) количество оставшихся степеней свободы отображается в сообщениях решателя.
 
 ### ![](images/FreeCAD_Tree_view_error.png ) Белый восклицательный знак на красном фоне 
 

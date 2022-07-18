@@ -10,9 +10,9 @@
 
 ## Description
 
-L\'option <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *24px;"> **Draft Aimantation Perpendiculaire** permet de s\'aimanter sur le point perpendiculaire des arêtes. Les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
+L\'option <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *24px;"> **Draft Aimantation Perpendiculaire** permet de s\'aimanter aux points perpendiculaires sur les faces ({{Version/fr|1.0}}) ou les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
-Cette option d\'aimantation permet également de trouver des points sur le prolongement des arêtes droites. Les arêtes circulaires sont toujours traitées comme des cercles complets, si une arête circulaire est un arc, le point trouvé peut ne pas se trouver sur l\'arête réelle.
+Cette option d\'aimantation permet également de trouver des points sur des faces et des arêtes étendues.
 
 ![](images/Draft_Snap_Perpendicular_example.png ) 
 *Aimantation du deuxième point d'une ligne au point perpendiculaire sur une arête étendue*
@@ -28,8 +28,8 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 3.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 4.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 5.  Choisissez un premier point. Cette option d\'aimantation nécessite un point précédent. Le point perpendiculaire sera déterminé par rapport à ce point.
-6.  Déplacez le curseur sur une arête.
-7.  L\'arête est mise en évidence.
+6.  Déplacez le curseur sur une face ou un bord.
+7.  La face ou l\'arête est mise en évidence.
 8.  Si une perpendiculaire est trouvée, le point est marqué et l\'icône <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *16px;"> s\'affiche près du curseur.
 9.  Cliquez pour confirmer le point.
 

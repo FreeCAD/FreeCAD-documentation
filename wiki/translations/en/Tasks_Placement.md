@@ -77,11 +77,35 @@ To adjust our **rotation parameters** we have two methods available.
 
 This option may be easier to work with, however, even in this mode, there are important things to remember   * Positive rotations are in the **clockwise** direction, looking **out** from the origin along a positive axis. Or to put it differently, the rotations are positive in the **counterclockwise** direction, looking **in** to the origin along a positive axis.
 
-   ** **[Yaw](https   *//en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))**    * is a horizontal rotation of a body about a vertical axis. (The symbol **ψ** is often used for yaw.)
+   **
 
-   ** **[Pitch](https   *//en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))**    * is defined as an oscillating movement of a vessel fore and aft.
 
-   ** **[Roll](https   *//en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))**    * is a rotary movement of a body about its longitudinal axis (roll axis).
+<div id="Yaw">
+
+
+</div>
+
+**[Yaw](https   *//en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))**    * is a horizontal rotation of a body about a vertical axis. (The symbol **ψ** is often used for yaw.)
+
+   **
+
+
+<div id="Pitch">
+
+
+</div>
+
+**[Pitch](https   *//en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))**    * is defined as an oscillating movement of a vessel fore and aft.
+
+   **
+
+
+<div id="Roll">
+
+
+</div>
+
+**[Roll](https   *//en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))**    * is a rotary movement of a body about its longitudinal axis (roll axis).
 
 Yaw, pitch and roll refer to the **attitude** of an object in 3D space. These terms are commonly used in aviation. The angles are the **Tait-Bryan angles**. If you want more information, read [Euler angles](https   *//en.wikipedia.org/wiki/Euler_angles).
 

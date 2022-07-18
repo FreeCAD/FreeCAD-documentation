@@ -1,10 +1,19 @@
 # Help FreeCAD/zh-cn
+{{TOCright}}
+
 ## 简介
 
 
-{{TOCright}}
+<div class="mw-translate-fuzzy">
 
 如果你喜欢FreeCAD，也愿意为它的开发工作提供帮助，即使你不是一名程序员，除了[捐献以外](Donate.md)，你仍有很多事情可做。
+
+
+</div>
+
+## Donate money 
+
+Although FreeCAD doesn\'t need money to be developed, donations can help the project to grow further and faster. The [Donate](Donate.md) page lists all the options you have to donate money to the project.
 
 ## 文档工作
 
@@ -24,12 +33,18 @@
 
 ## 分享你的FreeCAD知识
 
+
+<div class="mw-translate-fuzzy">
+
 虽然FreeCAD的使用者社群还比较小，但是那里已经有好几位高级用户，他们向新人展示如何使用这个软件，这可是很重要的活儿。如果你开始感觉熟悉了FreeCAD，用着挺舒服，那么你的知识对别人就可能非常有价值。比如说，你可以在以下几个方面作出贡献：
 
 -   在[用户展示论坛](http   *//forum.freecadweb.org/viewforum.php?f=24)秀出你的作品。你可以贴出截屏，最好能附上你的FreeCAD文件，这样别人就能检验它，来理解你是怎么做的。
 -   录制[视频](http   *//www.youtube.com/user/FreeCADNews)，演示你怎样使用FreeCAD，怎样做出了有趣的东西。这些视频通常在展示新功能方面功不可没。
 -   撰写[教程](http   *//freecad-tutorial.blogspot.com/)，描述或教授你觉得有意思的东西。你可以在你自己的博客里写教程，然后把它指向我们的wiki，或者直接写在论坛里。
 -   在我们的[FreeCAD Google Plus](https   *//plus.google.com/communities/103183769032333474646)或[Facebook](https   *//www.facebook.com/groups/416491481766626)社区发帖。
+
+
+</div>
 
 ## 翻译FreeCAD
 
@@ -98,6 +113,10 @@ Although the place to report confirmed bugs and suggest new features is eventual
 -   Before submitting a feature request, always discuss it with other users first on the [Open discussion forum](http   *//forum.freecadweb.org/viewforum.php?f=8), so you might end up with a more solid proposal, with more chances to interest a developer to implement it.
 -   Remember that FreeCAD is developed by volunteers who use their free time to work on it. Although everyone tries his best to make the best possible application, your bug report might be treated with low priority, or canceled if you cannot give sufficient information, and your feature request might be postponed or even refused if no developer has interest in implement it or if that would request an unrealistic amount of work.
 
+## Triage bugs 
+
+There are dozens of bugs reported on [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) weekly. It takes a lot of time to read them, categorize them, verify if the issue is reproducible, see if some easy actions can be done, or ask the person who posted the issue to provide more information. Helping to triage is easy, just head over the [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) and start commenting on any issue where you think you might be able to help!
+
 
 <div class="mw-translate-fuzzy">
 
@@ -135,6 +154,11 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 -   If you are going to work in C++, make sure you can compile FreeCAD without problems first.
 -   Present yourself to other developers. FreeCAD is before anything a social project, we discuss a lot of things on the [forum](http   *//forum.freecadweb.org) before implementing it, and it\'s always best to discuss your ideas and tell people what you are planning to do before actually doing it. We also have an [IRC channel](irc   *//chat.freenode.net/freecad) which is synchronized with our [gitter](https   *//gitter.im/FreeCAD/FreeCAD) channel, but the forum is the one and only place where you can meet all the developers.
 -   Since 2016, FreeCAD also participates in the [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Be sure to check our ideas there if you are interested in participating in the next edition.
+-   More and more of the FreeCAD functionality is not written in the FreeCAD code itself but in addons, macros and extensions. Together, this ecosystem is what makes FreeCAD powerful. Oftentimes, working on an addon is easier because there is less code to read and understand, and fewer people involved. check the [Addons repository](https   *//github.com/FreeCAD/FreeCAD-addons) and [Macros repository](https   *//github.com/FreeCAD/FreeCAD-macros) to get some ideas!
+
+## Model
+
+FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 
 
 

@@ -43,6 +43,36 @@ object and select an attachment mode in the attachment tab.
 
 ```pythonexec(open("/path/foo.py").read())```
 
+## Useful links 
+
+[Mediawiki Links](https   *//www.mediawiki.org/wiki/Help   *Links)
+[Formatting](https   *//www.mediawiki.org/wiki/Help   *Formatting)
+[Collapsible elements](https   *//www.mediawiki.org/wiki/Manual   *Collapsible_elements)
+
+## collabsed
+
+
+<div class="toccolours mw-collapsible mw-collapsed" style="width   *400px; overflow   *auto;">
+
+
+<div style="font-weight   *bold;line-height   *1.6;">
+
+Collapsed text   *
+
+
+</div>
+
+
+<div class="mw-collapsible-content">
+
+This text is collapsed.
+
+
+</div>
+
+
+</div>
+
 [Category   *Sandbox](Category_Sandbox.md)
 
 

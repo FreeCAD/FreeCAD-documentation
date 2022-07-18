@@ -164,7 +164,13 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Snap Intersezione](Draft_Snap_Intersection/it.md)   * aggancia all\'intersezione di due bordi.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md)   * aggancia al punto perpendicolare sui bordi.
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Snap Estensione](Draft_Snap_Extension/it.md)   * aggancia a una linea immaginaria che si estende oltre i punti finali dei bordi diritti.
 

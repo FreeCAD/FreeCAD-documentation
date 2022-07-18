@@ -22,15 +22,15 @@ Options génériques    *
 
 Configuration    *
 
- -l [ --write-log ]           Ecrit un fichier journal dans    *
+ -l [ --write-log ]           Ecrit un fichier log dans    *
                               $HOME/.FreeCAD/FreeCAD.log (Linux)
-                              $HOME/Library/Preferences/FreeCAD/FreeCAD.log (macOS)
+                              $HOME/Library/Application\ Support/FreeCAD/FreeCAD.log (macOS)
                               %APPDATA%\FreeCAD\FreeCAD.log (Windows)
  --log-file arg               Contrairement à --write-log cela permet de se connecter à un fichier arbitraire
  -u [ --user-cfg ] arg        Fichier de configuration utilisateur pour charger/enregistrer les paramètres utilisateur
  -s [ --system-cfg ] arg      Fichier de configuration pour charger/enregistrer les paramètres du système
  -t [ --run-test ] arg        Cas de test - ou 0 pour tous 
- -M [ --module-path ] arg     Chemin de module supplémentaire
+ -M [ --module-path ] arg     Chemins de modules supplémentaires
  -P [ --python-path ] arg     Autres chemins Python
  --single-instance            Autoriser à exécuter une seule instance de l'application
 

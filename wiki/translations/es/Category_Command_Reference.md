@@ -120,20 +120,20 @@ Esta categoría contiene las páginas de ayuda de cada comando de FreeCAD.
 | [Sketcher StopOperation/es](wiki/Sketcher StopOperation/es.md) | [Sketcher Symmetry/es](wiki/Sketcher Symmetry/es.md) | [Sketcher ToggleConstruction/es](wiki/Sketcher ToggleConstruction/es.md) |
 | [Sketcher ToggleDrivingConstraint/es](wiki/Sketcher ToggleDrivingConstraint/es.md) | [Sketcher Trimming/es](wiki/Sketcher Trimming/es.md) | [Sketcher ValidateSketch/es](wiki/Sketcher ValidateSketch/es.md) |
 | [Sketcher ViewSketch/es](wiki/Sketcher ViewSketch/es.md) | [Spreadsheet CreateSheet/es](wiki/Spreadsheet CreateSheet/es.md) | [Spreadsheet Export/es](wiki/Spreadsheet Export/es.md) |
-| [Spreadsheet Import/es](wiki/Spreadsheet Import/es.md) | [Std AddonMgr/es](wiki/Std AddonMgr/es.md) | [Std Delete/es](wiki/Std Delete/es.md) |
-| [Std DependencyGraph/es](wiki/Std DependencyGraph/es.md) | [Std DlgCustomize/es](wiki/Std DlgCustomize/es.md) | [Std Edit/es](wiki/Std Edit/es.md) |
-| [Std Group/es](wiki/Std Group/es.md) | [Std Import/es](wiki/Std Import/es.md) | [Std New/es](wiki/Std New/es.md) |
-| [Std Open/es](wiki/Std Open/es.md) | [Std OrthographicCamera/es](wiki/Std OrthographicCamera/es.md) | [Std Part/es](wiki/Std Part/es.md) |
-| [Std PerspectiveCamera/es](wiki/Std PerspectiveCamera/es.md) | [Std ProjectUtil/es](wiki/Std ProjectUtil/es.md) | [Std Save/es](wiki/Std Save/es.md) |
-| [Std SaveAs/es](wiki/Std SaveAs/es.md) | [Std SceneInspector/es](wiki/Std SceneInspector/es.md) | [Std ToggleClipPlane/es](wiki/Std ToggleClipPlane/es.md) |
-| [Std ViewScreenShot/es](wiki/Std ViewScreenShot/es.md) | [Std Workbench/es](wiki/Std Workbench/es.md) | [Tasks Placement/es](wiki/Tasks Placement/es.md) |
-| [TechDraw AngleDimension/es](wiki/TechDraw AngleDimension/es.md) | [TechDraw DiameterDimension/es](wiki/TechDraw DiameterDimension/es.md) | [TechDraw ExportPageDXF/es](wiki/TechDraw ExportPageDXF/es.md) |
-| [TechDraw ExportPageSVG/es](wiki/TechDraw ExportPageSVG/es.md) | [TechDraw Hatch/es](wiki/TechDraw Hatch/es.md) | [TechDraw HorizontalDimension/es](wiki/TechDraw HorizontalDimension/es.md) |
-| [TechDraw LengthDimension/es](wiki/TechDraw LengthDimension/es.md) | [TechDraw PageDefault/es](wiki/TechDraw PageDefault/es.md) | [TechDraw PageTemplate/es](wiki/TechDraw PageTemplate/es.md) |
-| [TechDraw ProjectionGroup/es](wiki/TechDraw ProjectionGroup/es.md) | [TechDraw RadiusDimension/es](wiki/TechDraw RadiusDimension/es.md) | [TechDraw RedrawPage/es](wiki/TechDraw RedrawPage/es.md) |
-| [TechDraw SectionView/es](wiki/TechDraw SectionView/es.md) | [TechDraw VerticalDimension/es](wiki/TechDraw VerticalDimension/es.md) | [TechDraw View/es](wiki/TechDraw View/es.md) |
-| [WebTools BimServer/es](wiki/WebTools BimServer/es.md) | [WebTools Git/es](wiki/WebTools Git/es.md) | [WebTools Sketchfab/es](wiki/WebTools Sketchfab/es.md) |
-|
+| [Spreadsheet Import/es](wiki/Spreadsheet Import/es.md) | [Spreadsheet MergeCells/es](wiki/Spreadsheet MergeCells/es.md) | [Std AddonMgr/es](wiki/Std AddonMgr/es.md) |
+| [Std Delete/es](wiki/Std Delete/es.md) | [Std DependencyGraph/es](wiki/Std DependencyGraph/es.md) | [Std DlgCustomize/es](wiki/Std DlgCustomize/es.md) |
+| [Std Edit/es](wiki/Std Edit/es.md) | [Std Group/es](wiki/Std Group/es.md) | [Std Import/es](wiki/Std Import/es.md) |
+| [Std New/es](wiki/Std New/es.md) | [Std Open/es](wiki/Std Open/es.md) | [Std OrthographicCamera/es](wiki/Std OrthographicCamera/es.md) |
+| [Std Part/es](wiki/Std Part/es.md) | [Std PerspectiveCamera/es](wiki/Std PerspectiveCamera/es.md) | [Std ProjectUtil/es](wiki/Std ProjectUtil/es.md) |
+| [Std Save/es](wiki/Std Save/es.md) | [Std SaveAs/es](wiki/Std SaveAs/es.md) | [Std SceneInspector/es](wiki/Std SceneInspector/es.md) |
+| [Std ToggleClipPlane/es](wiki/Std ToggleClipPlane/es.md) | [Std ViewScreenShot/es](wiki/Std ViewScreenShot/es.md) | [Std Workbench/es](wiki/Std Workbench/es.md) |
+| [Tasks Placement/es](wiki/Tasks Placement/es.md) | [TechDraw AngleDimension/es](wiki/TechDraw AngleDimension/es.md) | [TechDraw DiameterDimension/es](wiki/TechDraw DiameterDimension/es.md) |
+| [TechDraw ExportPageDXF/es](wiki/TechDraw ExportPageDXF/es.md) | [TechDraw ExportPageSVG/es](wiki/TechDraw ExportPageSVG/es.md) | [TechDraw Hatch/es](wiki/TechDraw Hatch/es.md) |
+| [TechDraw HorizontalDimension/es](wiki/TechDraw HorizontalDimension/es.md) | [TechDraw LengthDimension/es](wiki/TechDraw LengthDimension/es.md) | [TechDraw PageDefault/es](wiki/TechDraw PageDefault/es.md) |
+| [TechDraw PageTemplate/es](wiki/TechDraw PageTemplate/es.md) | [TechDraw ProjectionGroup/es](wiki/TechDraw ProjectionGroup/es.md) | [TechDraw RadiusDimension/es](wiki/TechDraw RadiusDimension/es.md) |
+| [TechDraw RedrawPage/es](wiki/TechDraw RedrawPage/es.md) | [TechDraw SectionView/es](wiki/TechDraw SectionView/es.md) | [TechDraw VerticalDimension/es](wiki/TechDraw VerticalDimension/es.md) |
+| [TechDraw View/es](wiki/TechDraw View/es.md) | [WebTools BimServer/es](wiki/WebTools BimServer/es.md) | [WebTools Git/es](wiki/WebTools Git/es.md) |
+| [WebTools Sketchfab/es](wiki/WebTools Sketchfab/es.md) |
 
 
 

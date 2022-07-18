@@ -24,7 +24,7 @@ Configuration   *
 
  -l [ --write-log ]        Writes a log file to   *
                            $HOME/.FreeCAD/FreeCAD.log (Linux)
-                           $HOME/Library/Preferences/FreeCAD/FreeCAD.log (macOS)
+                           $HOME/Library/Application\ Support/FreeCAD/FreeCAD.log (macOS)
                            %APPDATA%\FreeCAD\FreeCAD.log (Windows)
  --log-file arg            Unlike to --write-log this allows to log to an 
                            arbitrary file

@@ -7,9 +7,7 @@ Pages using duplicate arguments in template calls
 | --- | --- | --- |
 | [Mouse navigation/de](wiki/Mouse navigation/de.md) | [Mouse navigation/pt-br](wiki/Mouse navigation/pt-br.md) | [Mouse navigation/ru](wiki/Mouse navigation/ru.md) |
 | [Mouse navigation/zh](wiki/Mouse navigation/zh.md) | [Mouse navigation/zh-cn](wiki/Mouse navigation/zh-cn.md) | [Part Loft/de](wiki/Part Loft/de.md) |
-| [Sketcher CloseShape](wiki/Sketcher CloseShape.md) | [Sketcher CloseShape/de](wiki/Sketcher CloseShape/de.md) | [Sketcher CloseShape/en](wiki/Sketcher CloseShape/en.md) |
-| [Sketcher CloseShape/fr](wiki/Sketcher CloseShape/fr.md) | [Sketcher CloseShape/hr](wiki/Sketcher CloseShape/hr.md) | [Sketcher CloseShape/pl](wiki/Sketcher CloseShape/pl.md) |
-| [Sketcher CloseShape/pt-br](wiki/Sketcher CloseShape/pt-br.md) | [Std SendToPythonConsole/pl](wiki/Std SendToPythonConsole/pl.md) |
+| [Sketcher CloseShape/de](wiki/Sketcher CloseShape/de.md) | [Std SendToPythonConsole/pl](wiki/Std SendToPythonConsole/pl.md) |
 
 
 

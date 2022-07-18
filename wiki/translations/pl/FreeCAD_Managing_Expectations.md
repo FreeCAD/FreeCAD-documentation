@@ -1,5 +1,5 @@
 # FreeCAD Managing Expectations/pl
-**While we welcome and encourage community growth and participation, demands, emotional rants and wild claims are generally poorly received as our community is made up of many experienced and passionate supporters of FreeCAD who have heard similar statements many times over. If you find a feature lacking, or something which is annoying for you, we highly encourage you to consider getting engaged with the code itself. FreeCAD is largely developed by a relatively small group of talented people who all have day jobs, families and other interests beyond just programming on-demand. If you have the skills (Python/C++) and motivation to participate, your contributions can help make FreeCAD even better than it is today. You can find tracked bugs/feature requests [https   *//github.com/FreeCAD/FreeCAD/issues here].**
+**Chociaż witamy i zachęcamy do rozwoju i uczestnictwa wśród społeczności, żądania, emocjonalne tyrady i dzikie roszczenia są ogólnie słabo odbierane, ponieważ nasza społeczność składa się z wielu doświadczonych i pełnych pasji zwolenników FreeCAD, którzy wielokrotnie słyszeli podobne oświadczenia. Jeśli zauważysz brak jakiejś funkcji lub coś, co Cię denerwuje, gorąco zachęcamy do rozważenia zaangażowania się w sam kod. FreeCAD jest w dużej mierze rozwijany przez stosunkowo niewielką grupę utalentowanych ludzi, którzy mają pracę dzienną, rodziny i inne zainteresowania poza programowaniem na żądanie. Jeśli masz umiejętności ''(Python / C++)'' i motywację do udziału, Twój wkład może sprawić, że FreeCAD będzie jeszcze lepszy niż obecnie. Możesz znaleźć śledzone błędy / prośby o funkcje na stronie [https   *//github.com/FreeCAD/FreeCAD/issues zgłoszenia].**
 
 
 {{TOCright}}
@@ -8,111 +8,83 @@
 
 Ta strona wiki jest przeznaczona dla nowych użytkowników programu FreeCAD odchodzących z innych rozwiązań CAD / CAM.
 
-## Opening statement 
+## Słowo wstępne 
 
-Many hobbyists, freelance designers and small businesses often seek refuge from the high costs and licensing restrictions of commercial software, or perhaps you merely choose FreeCAD because you believe in the philosophy behind [FOSS](https   *//en.wikipedia.org/wiki/FOSS). In either case, WELCOME! There are many users, just like you who have successfully made the transition to FreeCAD for their personal and professional needs. This wiki page is designed to help set you on the path to success and establish some realistic expectations while diving into the *FreeCAD Way*, which is most likely quite a bit different from what you may have grown accustomed to with other popular CAD software.
+Wielu hobbystów, niezależnych projektantów i małych firm często szuka schronienia przed wysokimi kosztami i ograniczeniami licencyjnymi komercyjnego oprogramowania, a może po prostu wybierasz FreeCAD, ponieważ wierzysz w filozofię stojącą za [FOSS](https   *//en.wikipedia.org/wiki/FOSS). W każdym z tych przypadków, WITAMY! Jest wielu użytkowników, tak jak Ty, którzy z powodzeniem przeszli na FreeCAD dla swoich osobistych i zawodowych potrzeb. Ta strona wiki jest zaprojektowana aby pomóc Ci w osiągnięciu sukcesu i ustalić realistyczne oczekiwania podczas nurkowania w *FreeCAD Way*, który najprawdopodobniej różni się od tego do czego przywykłeś w innych popularnych programach CAD.
 
 ## Czego mogę się spodziewać? 
 
-
-<div class="mw-translate-fuzzy">
-
 W swoim rdzeniu FreeCAD jest modelerem parametrycznym. Wykorzystuje koncepcję środowisk pracy, gdzie każde środowisko jest odpowiedzialne za konkretne zadania i funkcje. Jako taki może być używany do wielu celów. Jest aktywnie wykorzystywany w produkcji i dość stabilny. Jednak, jak każdy inny program CAD, FreeCAD nie jest w 100% stabilny.
 
+W swoim rdzeniu FreeCAD jest potężnym modelerem parametrycznym. Wykorzystuje on modułową koncepcję *środowisk pracy*, gdzie każde z nich odpowiada za określone zadania i funkcje. Koncepcja ta jest bardzo elastyczna i może być z powodzeniem wykorzystywana do wielu celów. FreeCAD jest aktywnie rozwijany, używany w produkcji i dość stabilny, ale jak każdy inny program CAD, nie jest stabilny w 100%.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Pochodząc z innego programu CAD, być może będziesz musiał zmienić swój sposób pracy, użyć obejścia lub makra, ale w wielu przypadkach będziesz w stanie osiągnąć to, czego chcesz. A jeśli potrzebujesz pomocy   * mamy bardzo aktywne i responsywne [forum](https   *//forum.freecad.org/index.php) chętne do pomocy. A wśród członków forum na pewno są (byli) użytkownicy Twojego obecnego programu CAD. Więc nie wahaj się skorzystać z tych zasobów.
-
-
-</div>
+Pochodząc z innego programu CAD możesz uznać terminologię, strukturę i organizację FreeCADa za nieco obcą. Prawdopodobnie będziesz musiał dokonać pewnych dostosowań w swoich przepływach pracy, nauczyć się funkcjonalnych obejść lub wykorzystać nasz potężny ekosystem [makrodefinicji](Macros.md), ale w większości przypadków będziesz w stanie osiągnąć to, co chcesz. A jeśli potrzebujesz pomocy   * mamy bardzo aktywne i responsywne [forum](https   *//forum.freecad.org/index.php) chętne do pomocy. Wśród członków forum na pewno są (byli) użytkownicy twojego obecnego programu CAD. Nie wahaj się więc skorzystać z tych zasobów.
 
 ## Jak mogę pomóc? 
 
 Jest wiele sposobów   * możesz dokonać [wpłaty](Donate/pl.md), pomóc w pytaniach na [forum](https   *//forum.freecad.org/index.php), albo napisać dokumentację lub kod. Zobacz [Pomoc FreeCAD](Help_FreeCAD/pl.md).
 
-## Learning resources 
+## Zasoby dydaktyczne 
 
-### Official
+### Oficjalne
 
--   [This Wiki](Main_Page.md)
--   [The Help Forum](https   *//forum.freecadweb.org/viewforum.php?f=3)
--   [Workarounds for known problems](Workarounds.md)
+-   [To Wiki](Main_Page/pl.md)
+-   [Forum Pomocy](https   *//forum.freecadweb.org/viewforum.php?f=3)
+-   [Obejścia znanych problemów](Workarounds/pl.md)
 
-### Un-official 
+### Nieoficjalne
 
-The following YouTube Channels have reasonably good quality content focused around FreeCAD (it is recommended to ignore any tutorials based on version 0.17 or earlier)   *
+Następujące kanały YouTube mają dość dobrej jakości treści skupione wokół programu FreeCAD (zaleca się ignorowanie wszelkich tutoriali opartych na wersji 0.17 lub wcześniejszej)   *
 
--   *MangoJelly Solutions* (several beginner, intermediate and advanced video playlists)
--   *Joko EngineeringHelp* (intermediate/advanced videos)
--   *Brodie Fairhall* (A couple of videos helping Fusion 360 users transition to FreeCAD)
--   And more\...
+-   *MangoJelly Solutions* (kilka list odtwarzana dla początkujących, średnio-zaawansowanych i zaawansowanych użytkowników)
+-   *Joko EngineeringHelp* (filmy dla średnio-zaawansowanych)
+-   *Brodie Fairhall* (kilka filmów pomagających użytkownikom Fusion 360 w przejściu na FreeCAD)
+-   I więcej\...
 
-## Questions and answers 
+## Pytania i ospowiedzi 
 
-### \"Can FreeCAD do XYZ?\" 
+### \"Czy FreeCAD może XYZ?\" 
 
-FreeCAD already has the ability to do the following types of work   *
+FreeCAD ma już możliwość wykonywania następujących typów prac   *
 
--   Spline-based parametric modeling using the [Part](Part_Workbench.md), [Part Design](PartDesign_Workbench.md) and [Sketcher](Sketcher_Workbench.md) workbenches
--   [Surface](Surface_Workbench.md)/[Curves](Curves_Workbench.md) modeling using NURBS
--   [Mesh](Mesh_Workbench.md) import/modifications
--   Assembly simulation (3 different approaches, [A2+](A2plus_Workbench.md), [ASM3](Assembly3_Workbench.md), and [ASM4](Assembly4_Workbench.md), are all actively developed)
--   [Architectural](Arch_Workbench.md)/[BIM](BIM_Workbench.md) design\]
--   Mechanical Stress Analysis ([FEM/FEA](FEM_Workbench.md))
--   Computational Fluid Dynamic Analysis ([CFD](Cfd_Workbench.md))
--   [Technical Drawings](TechDraw_Workbench.md)/[Drafting](Draft_Workbench.md)
--   And more [core](Workbenches.md) and [external](External_workbenches.md) workbenches\...
+-   Modelowanie parametryczne oparte na splajnie z wykorzystaniem środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) i [Szkicownik](Sketcher_Workbench/pl.md).
+-   Modelowanie [Powierzchnii 3D](Surface_Workbench/pl.md) / [Krzywych](Curves_Workbench/pl.md) z wykorzystaniem NURBS.
+-   Import / modyfikacja [Siatek](Mesh_Workbench/pl.md).
+-   Symulacja złożeń *(aktywnie rozwijane są 3 różne podejścia, [A2+](A2plus_Workbench/pl.md), [ASM3](Assembly3_Workbench/pl.md) i [ASM4](Assembly4_Workbench/pl.md))*.
+-   Projektowanie [Architektury](Arch_Workbench/pl.md) / [BIM](BIM_Workbench/pl.md).
+-   Analiza naprężeń mechanicznych *([MES / FEA](FEM_Workbench/pl.md))*.
+-   Obliczeniowa Dynamika Płynów *([CFD](Cfd_Workbench/pl.md))*.
+-   [Rysunek Techniczny](TechDraw_Workbench/pl.md) / [Rysunek Roboczy](Draft_Workbench/pl.md).
+-   IOraz więcej [podstawownych](Workbenches/pl.md) oraz [zewnętrznych](External_workbenches/pl.md) środowisk pracy\...
 
-### \"User interface (UI/UX) is ugly, odd, confusing or not like XYZ Software!\" 
+### \"Interfejs użytkownika (UI/UX) jest brzydki, dziwny, niezrozumiały lub nie taki jak w programie XYZ!\" 
 
-FreeCAD allows for [extensive customization](Interface_Customization.md) of the user interface. While we realize the default colors or arrangement of elements may not be pleasing to everyone, we encourage you to tailor it to your own specific needs and work-flows. If you feel you\'ve come up with what could be a popular arrangement/theme/customized toolbars etc. please feel free to look into leveraging the recently added [Preference Pack](Preference_Packs.md) feature and share it with the community. Perhaps your efforts will help someone else in their transition to FreeCAD. FOSS software thrives on all sorts of community contributions and this is a common topic of discussion.
+FreeCAD pozwala na [rozległe dostosowanie](Interface_Customization/pl.md) interfejsu użytkownika. Zdajemy sobie sprawę, że domyślne kolory i rozmieszczenie elementów może nie być przyjemne dla każdego, ale zachęcamy do dostosowania go do własnych specyficznych potrzeb i organizacji pracy. Jeśli uważasz, że udało Ci się wymyślić mogący zdobyć popularność układ/temat/pasek narzędzi itp. zachęcamy do skorzystania z niedawno dodanej funkcji [Paczki Preferencji](Preference_Packs/pl.md) i podzielenia się nią ze społecznością. Być może Twoje wysiłki pomogą komuś innemu w przejściu na FreeCAD. Oprogramowanie FOSS rozwija się dzięki wkładom społeczności wszelkiego rodzaju i jest to częsty temat dyskusji.
 
-### \"Why doesn\'t this feature work like in XYZ software?\" 
+### \"Dlaczego ta funkcja nie działa jak w programie XYZ?\" 
 
-FreeCAD has a development pedigree spanning over [20 years](History.md). Functions and behaviors are heavily reviewed, debated and assessed before they are added or changed. Have an open mind, while it may not be apparent, there is likely a very good rationale behind such things. This isn\'t to say that FreeCAD is perfect, but please consider that what you\'ve grown used to may not be the only or best way to get something done.
+FreeCAD ma rodowód rozwojowy sięgający ponad [20 lat](History/pl.md). Funkcje i zachowania są intensywnie recenzowane, omawiane i oceniane zanim zostaną dodane lub zmienione. Miej otwarty umysł, podczas gdy może to nie być oczywiste, prawdopodobnie istnieje bardzo dobre uzasadnienie dla takich rzeczy. Nie oznacza to, że FreeCAD jest doskonały, ale proszę weź pod uwagę, że to do czego przywykłeś może nie być jedynym lub najlepszym sposobem na zrobienie czegoś.
 
-### \"I can\'t figure out the workflow of FreeCAD!\" 
+### \"Nie mogę zrozumieć organizacji pracy w programie FreeCAD!\" 
 
-FreeCAD has a philosophy to not dictate \'how\' you use it. Rather it provides tools and a wide array of options under which you \'can\' use them. This means two things. First, the software isn\'t going to necessarily \'guide\' or \'steer\' you toward a certain style or workflow. Second, this means you can experiment with the tools and find what works best for you. This doesn\'t mean there aren\'t general [\'best practices\'](Feature_editing.md) to keep in mind while using FreeCAD, but those best practices generally apply to any professional design software when creating stable models.
+FreeCAD ma filozofię niedyktowania \"jak\" go używać. Zamiast tego dostarcza narzędzia i szeroki wachlarz opcji, który \"możesz\" wykorzystać. Oznacza to dwie rzeczy. Po pierwsze, oprogramowanie nie będzie koniecznie \"prowadzić\" lub \"kierować\" Cię w stronę określonego stylu lub organizacji pracy. Po drugie, oznacza to, że możesz eksperymentować z narzędziami i znaleźć to, co działa najlepiej dla Ciebie. Nie oznacza to, że nie ma ogólnych [\"dobrych praktyk\"](Feature_editing/pl.md) do uwzględnienia podczas używania programu FreeCAD, ale te najlepsze praktyki generalnie dotyczą każdego profesjonalnego oprogramowania do projektowania gdy tworzone są stabilne modele.
 
-### \"What the heck is with all these workbenches?\" 
+### \"O co chodzi z tymi wszystkimi środowiskami pracy?\" 
 
-One of the powerful features of FreeCAD is it\'s modularity. This is done by compartmentalizing tool development into workbenches. Once you are familiar with the tools provided they can often work synergistically to create highly complex and advanced models. A great analogy is that FreeCAD is structured similar to a mechanics rolling tool-chest, and each workbench is a drawer of specific tools. You can use these tools to build a car, but it is up to the mechanic to understand how to use them to accomplish their goal.
+Jedną z potężnych cech FreeCAD jest jego modularność. Jest to możliwe dzięki podzieleniu rozwoju narzędzi na środowiska pracy. Kiedy już zapoznasz się z dostarczonymi narzędziami, mogą one często działać synergicznie, aby tworzyć bardzo złożone i zaawansowane modele. Doskonałą analogią jest to, że FreeCAD ma strukturę podobną do szafki narzędziowej mechanika, a każdy środowisko pracy jest szufladą z określonymi narzędziami. Możesz użyć tych narzędzi do zbudowania samochodu, ale to do mechanika należy zrozumienie jak ich użyć aby osiągnąć swój cel.
 
-### \"FreeCAD is fundamentally broken, my models blow-up!\" 
+### \"FreeCAD jest fundamentalnie zepsuty, moje modele się rozwalają!\" 
 
-FreeCAD is built around an open-source Geometric Modeling Kernel called \"[OpenCascade Technology](OpenCASCADE.md)\" (or OCC). It is the most feature rich and mature open source modeling kernel available. However it does have bugs, quirks and limitations. One of these is referred to as the [\"Topological Naming Problem\"](Topological_naming_problem.md) (or TNP). Whenever a model is modified, the internal names of faces and edges are changed by the kernel causing undesirable behavior for any model features that reference them. The current development cycle is focused around implementing a naming algorithm designed to mitigate this effect under most circumstances. However, be aware that TNP mitigation is not a replacement for [good modeling practice and techniques](Feature_editing.md).
-
-
-<div class="mw-translate-fuzzy">
+FreeCAD jest zbudowany wokół otwartego Kernela Modelowania Geometrycznego nazwanego \"[OpenCascade Technology](OpenCASCADE/pl.md)\" *(lub OCC)*. Jest to najbardziej bogate w funkcje i dojrzałe dostępne jądro modelowania open source. Posiada jednak błędy, dziwactwa i ograniczenia. Jeden z nich jest określany [\"Problemem Nazewnictwa Topologicznego\"](Topological_naming_problem/pl.md) *(lub TNP)*. Za każdym razem, gdy model jest modyfikowany, wewnętrzne nazwy powierzchni i krawędzi są zmieniane przez kernel, powodując niepożądane zachowanie dla wszystkich cech modelu, które się do nich odwołują. Obecny cykl rozwoju skupia się na implementacji algorytmu nazewnictwa zaprojektowanego tak, aby zminimalizować ten efekt w większości przypadków. Należy jednak pamiętać, że minimalizacja TNP nie jest zamiennikiem dla [dobrych praktyk i technik modelowania](Feature_editing/pl.md).
 
 ### Kernel OpenCascade 
 
+OpenCascade *(OCC / OCCT)* jest podstawową zewnętrzną zależnością jądra CAD, od której FreeCAD jest całkowicie zależny. Istnieje wiele otwartych błędów \"upstream\", które społeczność FreeCAD zidentyfikowała i śledzi w odniesieniu do OCC. Śledzimy je poprzez   *
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-OpenCascade (OCC/OCCT) jest podstawową zewnętrzną zależnością jądra CAD, od której FreeCAD jest całkowicie zależny. Istnieje wiele otwartych błędów \"upstream\", które społeczność FreeCAD zidentyfikowała i śledzi w odniesieniu do OCC. Śledzimy je poprzez   *
-
--   [bugtracker](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
--   [wątek na forum](https   *//forum.freecad.org/viewtopic.php?t=20264) o nazwie *OCC Bugs in the Bugtracker*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   [Bugtracker](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
+-   [Błędy OCC w Bugtrackerze *(wątek na forum)*](https   *//forum.freecad.org/viewtopic.php?t=20264)
 
 ## Odnośniki internetowe 
-
-
-</div>
 
 -   [Dyskusja   * FreeCAD nie jest gotowy na 1.0 (wątek na forum)](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=43461)
 -   [Why the GIMP Team Obviously\* Hates You (\*We Actually Love You. \*\*Mostly)](https   *//www.youtube.com/watch?v=JBmdbipkbrk) Pat David z prezentacji zespołu GIMP na SCaLE16x California 2016 r.

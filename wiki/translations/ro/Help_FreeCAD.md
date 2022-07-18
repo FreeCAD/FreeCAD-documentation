@@ -1,8 +1,7 @@
 # Help FreeCAD/ro
-## Introduction
-
-
 {{TOCright}}
+
+## Introduction
 
 
 <div class="mw-translate-fuzzy">
@@ -11,6 +10,10 @@ Dacă vă place FreeCAD și doriți să ajutați în dezvoltarea sa, există mul
 
 
 </div>
+
+## Donate money 
+
+Although FreeCAD doesn\'t need money to be developed, donations can help the project to grow further and faster. The [Donate](Donate.md) page lists all the options you have to donate money to the project.
 
 
 <div class="mw-translate-fuzzy">
@@ -58,9 +61,9 @@ The user community around FreeCAD is still small, but already includes several a
 -   Showing the work you do with FreeCAD on the [Users Showcase forum](http   *//forum.freecadweb.org/viewforum.php?f=24). You can post screenshots, and, even better, attach the FreeCAD files so other people can examine it and understand how you did it.
 -   Recording [videos](http   *//www.youtube.com/user/FreeCADNews) showing how you did something interesting in FreeCAD. These videos usually do a great job in showing new features.
 -   Write [tutorials](http   *//freecad-tutorial.blogspot.com/) describing or teaching something interesting. You can write tutorials on your own blog, directly on our wiki, or even on the forum.
--   Post on the [Mastodon](https   *//joinmastodon.org/) open source social network (and [follow FreeCAD](https   *//fosstodon.org/@FreeCAD) there) or on the [Facebook](https   *//www.facebook.com/groups/416491481766626) community.
+-   Post on the [Mastodon](https   *//joinmastodon.org/) open source social network (and [follow FreeCAD](https   *//fosstodon.org/@FreeCAD) there), on the [Facebook](https   *//www.facebook.com/groups/416491481766626) community or on [Twitter](https   *//twitter.com) (and [follow FreeCAD](https   *//twitter.com/FreeCADNews) there). Use the hashtags \#FreeCAD, \#MadeWithFreeCAD or \#fc3d to make your FreeCAD-related posts easier to find by other FreeCAD users.
 -   Look into the latest FreeCAD posts on [Reddit](https   *//www.reddit.com/search/?q=freecad&type=link&sort=new), [3dprinting.stackexchange](https   *//3dprinting.stackexchange.com/search?tab=newest&q=freecad), [StackOverflow](https   *//stackoverflow.com/search?q=freecad)\... Try to answer them and participate in the discussions sharing your experience and information.
--   Be present at the FreeCAD IRC channel or [other chat groups](https   *//www.freecadweb.org/wiki/Help#Chat)
+-   Be present at the FreeCAD IRC channel or [other chat groups](https   *//www.freecadweb.org/wiki/Help#Chat).
 
 
 <div class="mw-translate-fuzzy">
@@ -146,6 +149,10 @@ Although the place to report confirmed bugs and suggest new features is eventual
 -   Before submitting a feature request, always discuss it with other users first on the [Open discussion forum](http   *//forum.freecadweb.org/viewforum.php?f=8), so you might end up with a more solid proposal, with more chances to interest a developer to implement it.
 -   Remember that FreeCAD is developed by volunteers who use their free time to work on it. Although everyone tries his best to make the best possible application, your bug report might be treated with low priority, or canceled if you cannot give sufficient information, and your feature request might be postponed or even refused if no developer has interest in implement it or if that would request an unrealistic amount of work.
 
+## Triage bugs 
+
+There are dozens of bugs reported on [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) weekly. It takes a lot of time to read them, categorize them, verify if the issue is reproducible, see if some easy actions can be done, or ask the person who posted the issue to provide more information. Helping to triage is easy, just head over the [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) and start commenting on any issue where you think you might be able to help!
+
 
 <div class="mw-translate-fuzzy">
 
@@ -183,6 +190,11 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 -   If you are going to work in C++, make sure you can compile FreeCAD without problems first.
 -   Present yourself to other developers. FreeCAD is before anything a social project, we discuss a lot of things on the [forum](http   *//forum.freecadweb.org) before implementing it, and it\'s always best to discuss your ideas and tell people what you are planning to do before actually doing it. We also have an [IRC channel](irc   *//chat.freenode.net/freecad) which is synchronized with our [gitter](https   *//gitter.im/FreeCAD/FreeCAD) channel, but the forum is the one and only place where you can meet all the developers.
 -   Since 2016, FreeCAD also participates in the [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Be sure to check our ideas there if you are interested in participating in the next edition.
+-   More and more of the FreeCAD functionality is not written in the FreeCAD code itself but in addons, macros and extensions. Together, this ecosystem is what makes FreeCAD powerful. Oftentimes, working on an addon is easier because there is less code to read and understand, and fewer people involved. check the [Addons repository](https   *//github.com/FreeCAD/FreeCAD-addons) and [Macros repository](https   *//github.com/FreeCAD/FreeCAD-macros) to get some ideas!
+
+## Model
+
+FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 
 
 

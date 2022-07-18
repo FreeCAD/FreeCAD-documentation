@@ -60,17 +60,29 @@ Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigen
 
 {{TitleProperty|Attachment}}
 
--    **Attacher Type|String|Hidden**   * class name of the attach engine object driving the attachment. It defaults to `Attacher   *   *AttachEnginePlane`.
+-    <div id="Property_Attacher_Type">
+    </div>
+    **Attacher Type|String|Hidden**   * class name of the attach engine object driving the attachment. It defaults to `Attacher   *   *AttachEnginePlane`.
 
--    **Support|LinkSubList**   * it is the plane or face supporting the 2D geometry. It defaults to an empty list `[]`.
+-    <div id="Property_Support">
+    </div>
+    **Support|LinkSubList**   * it is the plane or face supporting the 2D geometry. It defaults to an empty list `[]`.
 
--    **Map Mode|Enumeration**   * {{value|Deactivated}} by default. This property determines a plane which the object will use as reference for 2D geometry. Clicking on the ellipsis **...** (three dots), to the right of the entry field starts the [Part EditAttachment](Part_EditAttachment.md) command that allows selecting the supporting plane by picking different elements in the [3D view](3D_view.md). The different modes are   * {{value|Deactivated}}, {{value|Translate origin}}, {{value|Object's XY}}, {{value|Object's XZ}}, {{value|Object's YZ}}, {{value|Plane face}}, {{value|Tangent to surface}}, {{value|Normal to edge}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Concentric}}, {{value|Revolution section}}, {{value|Plane by 3 points}}, {{value|Normal to 3 points}}, {{value|Folding}}, {{value|Inertia 2-3}}, {{value|Align O-N-X}}, {{value|Align O-N-Y}}, {{value|Align O-X-Y}}, {{value|Align O-X-N}}, {{value|Align O-Y-N}}, {{value|Align O-Y-X}}.
+-    <div id="Property_Map_Mode">
+    </div>
+    **Map Mode|Enumeration**   * {{value|Deactivated}} by default. This property determines a plane which the object will use as reference for 2D geometry. Clicking on the ellipsis **...** (three dots), to the right of the entry field starts the [Part EditAttachment](Part_EditAttachment.md) command that allows selecting the supporting plane by picking different elements in the [3D view](3D_view.md). The different modes are   * {{value|Deactivated}}, {{value|Translate origin}}, {{value|Object's XY}}, {{value|Object's XZ}}, {{value|Object's YZ}}, {{value|Plane face}}, {{value|Tangent to surface}}, {{value|Normal to edge}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Concentric}}, {{value|Revolution section}}, {{value|Plane by 3 points}}, {{value|Normal to 3 points}}, {{value|Folding}}, {{value|Inertia 2-3}}, {{value|Align O-N-X}}, {{value|Align O-N-Y}}, {{value|Align O-X-Y}}, {{value|Align O-X-N}}, {{value|Align O-Y-N}}, {{value|Align O-Y-X}}.
 
--    **Map Reversed|Bool**   * it defaults to `False`; if it is `True` the Z direction will be reversed. For example, a [sketch](sketch.md) will be flipped upside down. Hidden if **Map Mode** is {{value|Deactivated}}.
+-    <div id="Property_Map_Reversed">
+    </div>
+    **Map Reversed|Bool**   * it defaults to `False`; if it is `True` the Z direction will be reversed. For example, a [sketch](sketch.md) will be flipped upside down. Hidden if **Map Mode** is {{value|Deactivated}}.
 
--    **Map Path Parameter|Float|Hidden**   * sets point of curve to map a [sketch](sketch.md) to. It goes from {{value|0}} to {{value|1}}, which corresponds to the {{value|start}} and {{value|end}}. It defaults to {{value|0}}.
+-    <div id="Property_Map_Path">
+    </div>
+    **Map Path Parameter|Float|Hidden**   * sets point of curve to map a [sketch](sketch.md) to. It goes from {{value|0}} to {{value|1}}, which corresponds to the {{value|start}} and {{value|end}}. It defaults to {{value|0}}.
 
--    **Attachment Offset|Placement**   * the position of the object in the [3D view](3D_view.md), with respect to the attachment object\'s placement. The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md). Hidden if **Map Mode** is {{value|Deactivated}}.
+-    <div id="Property_Attachment_Offset">
+    </div>
+    **Attachment Offset|Placement**   * the position of the object in the [3D view](3D_view.md), with respect to the attachment object\'s placement. The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md). Hidden if **Map Mode** is {{value|Deactivated}}.
 
 ## Skripten
 

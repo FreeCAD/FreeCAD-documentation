@@ -19,7 +19,7 @@ L\'option <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *24px;"
 
 Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Draft_Snap/fr.md).
 
-1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;">. [Draft Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md).
+1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;"> [Draft Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md).
 2.  Si **Draft Aimantation Le plus proche** n\'est pas actif, faites l\'une des choses suivantes    *
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Near.svg" width=16px>** de la barre d\'outils Draft Aimantation.
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu, sélectionnez l\'option **<img src="images/Draft_Snap_Near.svg" width=16px> Aimanter au plus proche (OFF)**.
@@ -34,7 +34,7 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 ## Remarques
 
 -   Ce n\'est pas une bonne idée d\'avoir [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) actif en permanence car il est prioritaire sur de nombreuses autres options d\'aimantation.
--   Lors d\'aimantation à des courbes, [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) s\'aimante à leur représentation segmentée dans la [Vue 3D](3D_view/fr.md), ce qui entraîne une imprécision. Pour obtenir un point exact sur la courbe, tracez une [Draft Ligne](Draft_Line/fr.md) à travers la courbe, puis coupez la ligne avec [Draft Ajuster ou prolonger](Draft_Trimex/fr.md) en utilisant la courbe comme outil de coupe.
+-   Dans la {{VersionMinus/fr|0.20}}, lors d\'aimantation à des courbes, [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) s\'aimante à leur représentation segmentée dans la [Vue 3D](3D_view/fr.md), ce qui entraîne une imprécision. Pour obtenir un point exact sur la courbe, tracez une [Draft Ligne](Draft_Line/fr.md) à travers la courbe, puis coupez la ligne avec [Draft Ajuster ou prolonger](Draft_Trimex/fr.md) en utilisant la courbe comme outil de coupe.
 
 ## Préférences
 

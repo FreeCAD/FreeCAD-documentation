@@ -1,10 +1,19 @@
 # Help FreeCAD/ru
+{{TOCright}}
+
 ## Вступление
 
 
-{{TOCright}}
+<div class="mw-translate-fuzzy">
 
 Если вам нравится FreeCAD и вы хотите помочь в его разработке, вы можете сделать много вещей, помимо [пожертвования](Donate.md), даже если вы не программист.
+
+
+</div>
+
+## Donate money 
+
+Although FreeCAD doesn\'t need money to be developed, donations can help the project to grow further and faster. The [Donate](Donate.md) page lists all the options you have to donate money to the project.
 
 ## Работа над документацией 
 
@@ -24,12 +33,18 @@
 
 ## Поделитесь своими знаниями FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 Сообщество пользователей вокруг FreeCAD все еще невелико, но уже включает в себя несколько опытных пользователей, которые выполняют очень важную работу, показывая новичкам, как использовать программное обеспечение. Если вы начинаете чувствовать себя комфортно работая с FreeCAD, ваши знания могут быть очень ценными для других, и вы можете внести свой посильный вклад делая следующее   *
 
 -   Покажите работы которые вы выполнили в FreeCAD на [Users Showcase forum](http   *//forum.freecadweb.org/viewforum.php?f=24). Вы можете опубликовать снимки экранов и, что еще лучше, прикрепить файлы FreeCAD, чтобы другие люди могли их изучить и понять, как вы это сделали.
 -   Запишите [видео](http   *//www.youtube.com/user/FreeCADNews) показывающее, как вы сделали что-то интересное во FreeCAD. Такое видео обычно отлично демонстрирует новые функции.
 -   Напишите [примеры](http   *//freecad-tutorial.blogspot.com/) описывающие или обучающие чему-то интересному. Вы можете написать свои примеры в своем блоге, прямо в нашей вики или даже на форуме.
 -   Опубликуйте в [Mastodon](https   *//joinmastodon.org/) социальной сети с открытым исходным кодом (и [follow FreeCAD](https   *//fosstodon.org/@FreeCAD) здесь) или в нашей группе в социальной сети [Facebook](https   *//www.facebook.com/groups/416491481766626).
+
+
+</div>
 
 ## Переведите FreeCAD 
 
@@ -70,11 +85,21 @@
 -   Перед отправкой запроса на функцию всегда сначала обсудите её с другими пользователями на [Открытом дискуссионном форуме](http   *//forum.freecadweb.org/viewforum.php?f=8), так как вы можете получить более солидное предложение с большим количеством шансов заинтересовать разработчика реализовать его.
 -   Помните, что FreeCAD разрабатывается добровольцами, которые используют свое свободное время для работы над ним. Хотя каждый старается изо всех сил создать лучшее из возможных приложений, ваш отчет об ошибке может быть обработан с низким приоритетом или отменен, если вы не можете предоставить достаточно информации, а ваш запрос функции может быть отложен или даже отклонен, если ни один разработчик не заинтересован в её реализации или если это потребует нереального объема работы.
 
+## Triage bugs 
+
+There are dozens of bugs reported on [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) weekly. It takes a lot of time to read them, categorize them, verify if the issue is reproducible, see if some easy actions can be done, or ask the person who posted the issue to provide more information. Helping to triage is easy, just head over the [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) and start commenting on any issue where you think you might be able to help!
+
 ## Графический Дизайн 
 
 Смотрите [Каталог художественных работ](Artwork/ru.md), а так же [Руководство по художественному оформлению](Artwork_Guidelines/ru.md) чтобы узнать о том, как создавать иконки для FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Программируй!
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -90,6 +115,10 @@
 
 
 </div>
+
+## Model
+
+FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 
 
 

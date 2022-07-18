@@ -164,7 +164,7 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Aimantation Intersection](Draft_Snap_Intersection/fr.md)   * aimante à l\'intersection de deux bords.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md)    * aimante au point perpendiculaire sur les bords.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md)    * aimante aux points perpendiculaires sur les faces ({{Version/fr|1.0}}) ou les arêtes.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Aimantation Extension](Draft_Snap_Extension/fr.md)    * aimante à une ligne imaginaire qui s\'étend au-delà des extrémités des bords droits.
 

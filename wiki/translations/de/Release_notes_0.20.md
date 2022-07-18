@@ -561,9 +561,9 @@ The supported operating systems are   *
 
 </div>
 
-### 32bit Windows 
+### 32-bit Windows 
 
-Since FreeCAD 0.19 we no longer officially support 32bit Windows. FreeCAD might work on these systems, but no support is given.
+Since FreeCAD 0.19 we no longer officially support 32-bit Windows. FreeCAD might work on these systems, but no support is given.
 
 ### Remote Desktop under Windows 
 
@@ -571,6 +571,10 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 -   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
 -   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
+
+### MacOS   * Start Workbench shows blank page 
+
+If the [Start Workbench](Start_Workbench.md) shows only a blank page, you must enable the option **Use software OpenGL** in the menu **Edit → Preferences → Display**.
 
 [Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 

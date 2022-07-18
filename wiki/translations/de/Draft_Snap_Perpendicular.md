@@ -22,7 +22,7 @@ Diese Methode rastet an einer Linie oder Kante oder ihrer Verlängerung ein, um 
 
 </div>
 
-This snap option will also find points on the extension of straight edges. Circular edges are always treated as full circles, if a circular edge is an arc the point that is found may not lie on the actual edge.
+This snap option will also find points on extended faces and edges.
 
 ![](images/Draft_Snap_Perpendicular_example.png )
 

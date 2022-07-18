@@ -119,6 +119,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_EN1665.svg  style="width   *32px;"> **EN 1665** Boulon à tête hexagonale avec embase, série large.
 
+-   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Hexagon head wood screw.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width   *32px;"> **ASME B18.2.1.6** Vis à tête hexagonale UNC.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width   *32px;"> **ASME B18.2.1.8** Vis à tête hexagonale UNC avec bride.
@@ -220,6 +222,10 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 **ISO 4035** Écrou mince hexagonal, chanfreiné. *Catégories de produits A et B.*
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** Écrou hexagonal avec embase.
+
+-   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Cap nut, low form.
+
+-   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Cap nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Écrou carré.
 

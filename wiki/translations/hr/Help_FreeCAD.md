@@ -1,10 +1,19 @@
 # Help FreeCAD/hr
+{{TOCright}}
+
 ## Introduction
 
 
-{{TOCright}}
+<div class="mw-translate-fuzzy">
 
 Ako volite FreeCAD i ako želite možete pomoći u razvoju FreeCAD-a osim [direktne donacije](Donate/hr.md), postoji i više mogućnosti kako to možete ostvariti, čak i ako niste programer.
+
+
+</div>
+
+## Donate money 
+
+Although FreeCAD doesn\'t need money to be developed, donations can help the project to grow further and faster. The [Donate](Donate.md) page lists all the options you have to donate money to the project.
 
 ### Radi na dokumentaciji 
 
@@ -30,6 +39,9 @@ Par područja koja bi pozdravila vaš rad   *
 
 ### Dijelite svoje znanje o FreeCAD-u 
 
+
+<div class="mw-translate-fuzzy">
+
 Zajednica korisnika oko FreeCAD-a je još uvijek mala, ali već uključuje nekoliko naprednih korisnika koji rade vrlo važan posao pokazujući pridošlicama kako koristiti softver. Ako se počnete osjećati ugodno s FreeCAD-om, vaše bi znanje moglo biti vrlo vrijedno za druge, a možda i vi doprinosi važnim sredstvima kao što su   *
 
 -   Prikazivanje posla koji radite sa FreeCAD-om na [forumu korisničkih izloga](http   *//forum.freecadweb.org/viewforum.php?f=24). Možete postavljati snimke zaslona i, što je još bolje, priložiti FreeCAD datoteke kako bi ih drugi mogli pregledati i razumjeti kako ste to napravili.
@@ -38,6 +50,9 @@ Zajednica korisnika oko FreeCAD-a je još uvijek mala, ali već uključuje nekol
 -   Objavite na [Mastodon](https   *//joinmastodon.org/) društvenoj mreži otvorenog koda (i [pratite FreeCAD](https   *//fosstodon.org/@FreeCAD) tamo) ili na [/ groups / 416491481766626 Facebook](https   *//www.facebook.com) zajednice.
 -   Pogledajte najnovije postove FreeCAD-a na [Reddit](https   *//www.reddit.com/search/?q=freecad&type=link&sort=new), [3dprinting.stackexchange](https   *//3dprinting.stackexchange.com/search?tab=newest&q=freecad), [StackOverflow](https   *//stackoverflow.com/search?q=freecad) \... Pokušajte odgovoriti na njih i sudjelujte u raspravama koje dijele vaše iskustvo i informacije.
 -   Budite prisutni na FreeCAD IRC kanalu ili [drugim grupama za chat](https   *//www.freecadweb.org/wiki/Help#Chat)
+
+
+</div>
 
 ### Prevedi FreeCAD 
 
@@ -80,6 +95,10 @@ Iako je mjesto za prijavljivanje potvrđenih grešaka i sugeriranje novih znača
 
 \\
 
+## Triage bugs 
+
+There are dozens of bugs reported on [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) weekly. It takes a lot of time to read them, categorize them, verify if the issue is reproducible, see if some easy actions can be done, or ask the person who posted the issue to provide more information. Helping to triage is easy, just head over the [GitHub](https   *//github.com/FreeCAD/FreeCAD/issues) and start commenting on any issue where you think you might be able to help!
+
 ### Dizajnerska djela 
 
 
@@ -90,7 +109,13 @@ Pogledajte [Umetničko djelo](Artwork.md) stranicu za upute o dizajniranju ikona
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Program!
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -106,6 +131,10 @@ Kod za pisanje za FreeCAD nije težak i ne trebate nikakvo dopuštenje, odmah mo
 
 
 </div>
+
+## Model
+
+FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 
 
 

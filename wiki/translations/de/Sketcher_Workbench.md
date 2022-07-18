@@ -32,25 +32,11 @@ Anwenden einer horizontalen oder vertikalen Beschränkung oder einer Winkelbesch
 
 Mehrere Objekte können untereinander beschränkt werden. Zwei Linien können durch einen ihrer Punkte mit der Deckungsgleicher Punktbeschränkung verbunden werden. Ein Winkel kann zwischen ihnen festgelegt werden oder sie können senkrecht zueinander platziert werden. Eine Linie kann tangential zu einem Bogen oder einem Kreis sein, usw.. Eine komplexe Skizze mit mehreren Objekten weist eine Reihe verschiedener Lösungen auf, und wenn man sie **vollständig-beschränkt** erstellt, bedeutet dies, dass nur eine dieser möglichen Lösungen auf der Grundlage der angewandten Beschränkungen erreicht wurde.
 
-
-<div class="mw-translate-fuzzy">
-
 Es gibt zwei Arten von Beschränkungen   * geometrische und maßliche. Sie sind im Abschnitt [\'Die Werkzeuge\'](#Die_Werkzeuge.md) weiter unten ausführlich beschrieben.
 
-
-</div>
-
-#### What the Sketcher is not good for 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Wofür der Skizzierer nicht geeignet ist 
+Wofür der Skizzierer nicht geeignet ist
 
 Der Skizzierer ist nicht für die Herstellung von 2D Blaupausen vorgesehen. Sobald Skizzen verwendet werden, um eine Volumenkörpermerkmal zu erzeugen, werden sie automatisch verborgen. Beschränkungen sind nur im Bearbeitungsmodus Skizze sichtbar.
-
-
-</div>
 
 Falls du nur 2D Ansichten zum Ausdrucken erzeugen möchtest und keine 3D Modelle, dann schau dir den [Arbeitsbereich Entwurf](Draft_Workbench/de.md) an. Anders als Skizzierer Elemente, verwenden Entwurfsobjekte keine Beschränkungen; sie sind einfache Formen die im Augenblick der Erstellung definiert werden. Sowohl Draft und Skizzierer können zum zeichnen von 2D Geometrien und zum Erzeugen von 3D Volumenkörpern verwendet werden, obwohl ihre bevorzugte Verwendung unterschiedlich ist; der Skizzierer wird normalerweise mit dem [Part Arbeitsbereich](Part_Workbench/de.md) und [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verwendet um Volumenkörper zu erzeugen; Entwurf wird normalerweise verwendet für einfache ebene Zeichnungen über einem Raster, so wie beim Zeichnen eines Architektur Grundrisses; in solchen Situationen werden Entwurfsobjekte hauptsächlich zusammen mit dem [Arch Arbeitsbereich](Arch_Workbench/de.md) verwendet. Das Werkzeug [EntwurfZuSkizze](Draft_Draft2Sketch/de.md) wandelt ein Entwurfsobjekt in ein Skizzenobjekt, und umgekehrt; Viele Werkzeuge, die ein 2D Element als Eingabe benötigen, arbeiten mit beiden Objekttypen, da eine interne Konversion automatisch erfolgt.
 
@@ -68,33 +54,15 @@ Sobald eine Skizze vollständig beschränkt ist, wechselt die Skizzenmerkmale zu
 
 ## Tools
 
-
-<div class="mw-translate-fuzzy">
-
 ## Die Werkzeuge 
 
 Die Werkzeuge des Sketch-Arbeitsbereich sind alle im Sketch-Menü zu finden, das beim Laden des Arbeitsbereichs erscheint.
 
-
-</div>
-
 ### Allgemein
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_NewSketch.png‎‎  style="width   *32px;"> [Neue Skizze](Sketcher_NewSketch/de.md)   * Erstellt eine neue Skizze auf einer ausgewählten Fläche oder Ebene. Falls bei der Ausführung dieses Werkzeugs keine Fläche gewählt wurde, wird der Benutzer über ein Dialogfenster zur Auswahl einer Ebene aufgefordert.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_EditSketch.png  style="width   *32px;"> [Skizze bearbeiten](Sketcher_EditSketch/de.md)   * Editieren der gewählten Skizze. Dies öffnet den [Skizzierer Dialog](Sketcher_Dialog/de.md).
-
-
-</div>
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.png  style="width   *32px;"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)   * Beenden des Skizzierer Bearbeitungsmodus.
 
@@ -112,13 +80,7 @@ Die Werkzeuge des Sketch-Arbeitsbereich sind alle im Sketch-Menü zu finden, das
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg‎  style="width   *32px;"> [Skizze spiegeln](Sketcher_MirrorSketch/de.md)   * Spiegelt eine Skizze entlang der X-Achse, der Y-Achse oder dem Ursprung.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width   *32px;"> [Vorgang anhalten](Sketcher_StopOperation/de.md)   * im Bearbeitungsmodus, hält den aktuellen Vorgang an, ob es sich um das Zeichnen, das Festlegen von Beschränkungen usw. handelt.
-
-
-</div>
 
 ### Skizziergeometrien
 
@@ -340,13 +302,7 @@ Beschränkt das ausgewählte Element, in dem vertikale und horizontale Abstände
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam/de.md)   * Definiert automatisch Radius/Durchmesser eines ausgewählten Bogens oder Kreises (Gewicht für einen B-Spline-Pol, Durchmesser für einen vollständigen Kreis, Radius für einen Bogen) {{Version/de|0.20}}
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Winkel](Sketcher_ConstrainAngle/de.md)   * Definiert den Innenwinkel zwischen zwei ausgewählten Linien.
 
-
-<div class="mw-translate-fuzzy">
-
 #### Besondere Beschränkungen 
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

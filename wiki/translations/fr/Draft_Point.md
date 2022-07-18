@@ -38,7 +38,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Remarques
 
--   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) pour s\'aimanter aux points Draft.
+-   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) ({{VersionMinus/fr|0.20}}) ou <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *16px;"> [Draft Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) ({{VersionPlus/fr|1.0}}) pour s\'aimanter aux Draft points.
 
 ## Préférences
 

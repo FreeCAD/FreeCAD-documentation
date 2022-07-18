@@ -9,9 +9,9 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *24px;"> **Draft Snap Perpendicular** option snaps to the perpendicular point on edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
+The <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *24px;"> **Draft Snap Perpendicular** option snaps to the perpendicular points on faces (<small>(v1.0)</small> ) or edges. The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
-This snap option will also find points on the extension of straight edges. Circular edges are always treated as full circles, if a circular edge is an arc the point that is found may not lie on the actual edge.
+This snap option will also find points on extended faces and edges.
 
  ![](images/Draft_Snap_Perpendicular_example.png )  
 *Snapping the second point of a line to the perpendicular point on an extended edge*
@@ -27,8 +27,8 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 3.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
 4.  Note that you can also change snap options while a command is active.
 5.  Pick a first point. This snap option requires a previous point. The perpendicular point will be determined in relation to this point.
-6.  Move the cursor over an edge.
-7.  The edge is highlighted.
+6.  Move the cursor over a face or edge.
+7.  The face or edge is highlighted.
 8.  If a perpendicular is found the point is marked and the <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *16px;"> icon is displayed near the cursor.
 9.  Click to confirm the point.
 

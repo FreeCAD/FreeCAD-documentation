@@ -6,7 +6,7 @@
 |Author=Rockn
 |Version=2.0
 |Date=2016-03-06
-|FCVersion=All
+|FCVersion=Toutes
 |Download=[https   *//www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png Icône de la barre d'outils]
 }}
 

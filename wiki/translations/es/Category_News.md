@@ -10,7 +10,8 @@ Esta categoría contiene artículos con noticias y mensajes sobre FreeCAD.
 | [History/es](wiki/History/es.md) | [Release notes 0.11/es](wiki/Release notes 0.11/es.md) | [Release notes 0.12/es](wiki/Release notes 0.12/es.md) |
 | [Release notes 0.13/es](wiki/Release notes 0.13/es.md) | [Release notes 0.14/es](wiki/Release notes 0.14/es.md) | [Release notes 0.15/es](wiki/Release notes 0.15/es.md) |
 | [Release notes 0.16/es](wiki/Release notes 0.16/es.md) | [Release notes 0.17/es](wiki/Release notes 0.17/es.md) | [Release notes 0.18/es](wiki/Release notes 0.18/es.md) |
-| [Release notes 0.19/es](wiki/Release notes 0.19/es.md) | [Release notes 0.20/es](wiki/Release notes 0.20/es.md) |
+| [Release notes 0.19/es](wiki/Release notes 0.19/es.md) | [Release notes 0.20/es](wiki/Release notes 0.20/es.md) | [Release notes 1.0/es](wiki/Release notes 1.0/es.md) |
+|
 
 
 

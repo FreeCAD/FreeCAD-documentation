@@ -164,7 +164,13 @@ Pasek narzędzi [Rysunek roboczy   * Przyciągnij](Draft_Snap/pl.md) umożliwia 
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Przecięcie](Draft_Snap_Intersection/pl.md)   * przyciąga do przecięcia dwóch krawędzi.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md)   * przyciąga prostopadle w punkcie prostopadłym na krawędziach.
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Rozszerzenie](Draft_Snap_Extension/pl.md)   * przyciąga do umownej linii, która rozciąga się poza punkty końcowe segmentów linii.
 

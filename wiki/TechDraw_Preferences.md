@@ -85,6 +85,8 @@ All preferences settings with *italic* labels are default values for new drawing
 -   **Diameter Symbol**   * Character used to indicate diameter dimensions.
 -   **Arrow Style**   * Arrowhead style for dimensions.
 -   **Arrow Size**   * Arrowhead size of dimensions.
+-   **Extension Gap ASME**   * Gap between dimension point and start of extension lines for ASME dimensions.
+-   **Extension Gap ISO**   * Gap between dimension point and start of extension lines for ISO dimensions.
 
 ## Annotation
 

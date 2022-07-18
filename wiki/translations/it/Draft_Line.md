@@ -15,27 +15,12 @@
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Line.svg  style="width   *24px;"> **Draft Linea** crea una linea dritta.
 
-<div class="mw-translate-fuzzy">
+Una Draft Linea è di fatto una [Polilinea](Draft_Wire/it.md) con solo due punti.
 
-Crea un segmento tra due punti nel [piano di lavoro](Draft_SelectPlane/it.md) corrente. Il segmento assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati in precedenza nella [barra di Draft](Draft_Tray/it.md). Lo strumento Linea si comporta esattamente come lo strumento [DWire](Draft_Wire/it.md) di Draft, tranne che si disattiva dopo che sono stati definiti due punti.
-
-
-</div>
-
-A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
-
-<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Linea creata da due punti*
-
-
-</div>
+<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;"> 
+*Linea definita da due punti*
 
 ## Utilizzo
 

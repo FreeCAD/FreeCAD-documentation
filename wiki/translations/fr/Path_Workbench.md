@@ -130,19 +130,19 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 -   <img alt="" src=images/Path_Waterline.svg  style="width   *32px;"> [Contour par lignes de niveau](Path_Waterline/fr.md)    * Crée un tracé défini par lignes de niveau pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
-### Habillage de parcours 
+### Finitions de parcours 
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width   *32px;"> [Limitation de zones](Path_DressupPathBoundary/fr.md)    * Ajoute une modification d\'habillage des limites à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width   *32px;"> [Limitation de zones](Path_DressupPathBoundary/fr.md)    * Ajoute une finition aux limites à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupDogbone.svg  style="width   *32px;"> [Dégagement des angles](Path_DressupDogbone/fr.md)    * Ajoute une modification pour l\'usinage des coins à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupDogbone.svg  style="width   *32px;"> [Dégagement des angles](Path_DressupDogbone/fr.md)    * Ajoute une finition pour l\'usinage des coins à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width   *32px;"> [Lame rotative](Path_DressupDragKnife/fr.md)    * Ajoute un habillage pour lame rotative à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width   *32px;"> [Lame rotative](Path_DressupDragKnife/fr.md)    * Ajoute une finition pour lame rotative à un parcours d\'usinage sélectionné.
 
 -   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width   *32px;"> [Trajectoire entrée/sortie](Path_DressupLeadInOut/fr.md)    * Ajoute un point d\'entrée et/ou de sortie à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupRampEntry.svg  style="width   *32px;"> [Rampe d\'entrée](Path_DressupRampEntry/fr.md)    * Ajoute une rampe d\'entrée d\'usinage à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupRampEntry.svg  style="width   *32px;"> [Rampe d\'entrée](Path_DressupRampEntry/fr.md)    * Ajoute une finition de rampe d\'entrée d\'usinage à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupTag.svg  style="width   *32px;"> [Attaches](Path_DressupTag/fr.md)    * Ajoute une attache à une trajectoire d\'usinage sélectionnée.
+-   <img alt="" src=images/Path_DressupTag.svg  style="width   *32px;"> [Attaches](Path_DressupTag/fr.md)    * Ajoute une finition d\'attache à une trajectoire d\'usinage sélectionnée.
 
 ### Commandes supplémentaires 
 

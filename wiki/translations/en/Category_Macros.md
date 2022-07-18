@@ -66,17 +66,17 @@ This category contains macros to extend your FreeCAD installation with new funct
 | [Macro Site From Contours/en](wiki/Macro Site From Contours/en.md) | [Macro SketchUnmap/en](wiki/Macro SketchUnmap/en.md) | [Macro Snip/en](wiki/Macro Snip/en.md) |
 | [Macro Solid Sweep/en](wiki/Macro Solid Sweep/en.md) | [Macro SplitPropEditor/en](wiki/Macro SplitPropEditor/en.md) | [Macro Spreadsheet2html/en](wiki/Macro Spreadsheet2html/en.md) |
 | [Macro SpreadsheetTools/en](wiki/Macro SpreadsheetTools/en.md) | [Macro Spring/en](wiki/Macro Spring/en.md) | [Macro Stairs/en](wiki/Macro Stairs/en.md) |
-| [Macro StraightenObject/en](wiki/Macro StraightenObject/en.md) | [Macro SuperWire/en](wiki/Macro SuperWire/en.md) | [Macro Texture Objects/en](wiki/Macro Texture Objects/en.md) |
-| [Macro Texture/en](wiki/Macro Texture/en.md) | [Macro TimingGear/en](wiki/Macro TimingGear/en.md) | [Macro Toggle Drawstyle Optimized/en](wiki/Macro Toggle Drawstyle Optimized/en.md) |
-| [Macro Toggle Drawstyle/en](wiki/Macro Toggle Drawstyle/en.md) | [Macro Toggle Panels Visibility/en](wiki/Macro Toggle Panels Visibility/en.md) | [Macro Toggle Visibility/en](wiki/Macro Toggle Visibility/en.md) |
-| [Macro Toggle Visibility2 1-2/en](wiki/Macro Toggle Visibility2 1-2/en.md) | [Macro Toggle Visibility2 2-2/en](wiki/Macro Toggle Visibility2 2-2/en.md) | [Macro TreeToAscii/en](wiki/Macro TreeToAscii/en.md) |
-| [Macro Triangle AH/en](wiki/Macro Triangle AH/en.md) | [Macro Unbind Numpad Shortcuts/en](wiki/Macro Unbind Numpad Shortcuts/en.md) | [Macro Unfold Box/en](wiki/Macro Unfold Box/en.md) |
-| [Macro Unroll Ruled Surface/en](wiki/Macro Unroll Ruled Surface/en.md) | [Macro View Rotation/en](wiki/Macro View Rotation/en.md) | [Macro Visibility Manager/en](wiki/Macro Visibility Manager/en.md) |
-| [Macro VisibleAlls/en](wiki/Macro VisibleAlls/en.md) | [Macro Wiki Object Properties List Generator Basic Version/en](wiki/Macro Wiki Object Properties List Generator Basic Version/en.md) | [Macro Wiki Object Properties List Generator/en](wiki/Macro Wiki Object Properties List Generator/en.md) |
-| [Macro WireFilter/en](wiki/Macro WireFilter/en.md) | [Macro WireXYZ/en](wiki/Macro WireXYZ/en.md) | [Macro Wiring And Hoses/en](wiki/Macro Wiring And Hoses/en.md) |
-| [Macro WorkFeatures/en](wiki/Macro WorkFeatures/en.md) | [Macro Zoom1 1/en](wiki/Macro Zoom1 1/en.md) | [Macros recipes/en](wiki/Macros recipes/en.md) |
-| [Macros/en](wiki/Macros/en.md) | [Misc templates Full/en](wiki/Misc templates Full/en.md) | [Qt Example/en](wiki/Qt Example/en.md) |
-| [Svg Namespace/en](wiki/Svg Namespace/en.md) |
+| [Macro StraightenObject/en](wiki/Macro StraightenObject/en.md) | [Macro SuperWire/en](wiki/Macro SuperWire/en.md) | [Macro TemplateHelper/en](wiki/Macro TemplateHelper/en.md) |
+| [Macro Texture Objects/en](wiki/Macro Texture Objects/en.md) | [Macro Texture/en](wiki/Macro Texture/en.md) | [Macro TimingGear/en](wiki/Macro TimingGear/en.md) |
+| [Macro Toggle Drawstyle Optimized/en](wiki/Macro Toggle Drawstyle Optimized/en.md) | [Macro Toggle Drawstyle/en](wiki/Macro Toggle Drawstyle/en.md) | [Macro Toggle Panels Visibility/en](wiki/Macro Toggle Panels Visibility/en.md) |
+| [Macro Toggle Visibility/en](wiki/Macro Toggle Visibility/en.md) | [Macro Toggle Visibility2 1-2/en](wiki/Macro Toggle Visibility2 1-2/en.md) | [Macro Toggle Visibility2 2-2/en](wiki/Macro Toggle Visibility2 2-2/en.md) |
+| [Macro TreeToAscii/en](wiki/Macro TreeToAscii/en.md) | [Macro Triangle AH/en](wiki/Macro Triangle AH/en.md) | [Macro Unbind Numpad Shortcuts/en](wiki/Macro Unbind Numpad Shortcuts/en.md) |
+| [Macro Unfold Box/en](wiki/Macro Unfold Box/en.md) | [Macro Unroll Ruled Surface/en](wiki/Macro Unroll Ruled Surface/en.md) | [Macro View Rotation/en](wiki/Macro View Rotation/en.md) |
+| [Macro Visibility Manager/en](wiki/Macro Visibility Manager/en.md) | [Macro VisibleAlls/en](wiki/Macro VisibleAlls/en.md) | [Macro Wiki Object Properties List Generator Basic Version/en](wiki/Macro Wiki Object Properties List Generator Basic Version/en.md) |
+| [Macro Wiki Object Properties List Generator/en](wiki/Macro Wiki Object Properties List Generator/en.md) | [Macro WireFilter/en](wiki/Macro WireFilter/en.md) | [Macro WireXYZ/en](wiki/Macro WireXYZ/en.md) |
+| [Macro Wiring And Hoses/en](wiki/Macro Wiring And Hoses/en.md) | [Macro WorkFeatures/en](wiki/Macro WorkFeatures/en.md) | [Macro Zoom1 1/en](wiki/Macro Zoom1 1/en.md) |
+| [Macros recipes/en](wiki/Macros recipes/en.md) | [Macros/en](wiki/Macros/en.md) | [Misc templates Full/en](wiki/Misc templates Full/en.md) |
+| [Qt Example/en](wiki/Qt Example/en.md) | [Svg Namespace/en](wiki/Svg Namespace/en.md) |
 
 
 

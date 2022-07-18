@@ -39,17 +39,29 @@ Le Part2DObject possède également les propriétés supplémentaires suivantes 
 
 {{TitleProperty|Attachment}}
 
--    **Attacher Type|String|Hidden**   * nom de la classe de l\'objet moteur de l\'attachement. La valeur par défaut est `Attacher   *   *AttachEnginePlane`.
+-    <div id="Property_Attacher_Type">
+    </div>
+    **Attacher Type|String|Hidden**   * nom de la classe de l\'objet moteur de l\'attachement. La valeur par défaut est `Attacher   *   *AttachEnginePlane`.
 
--    **Support|LinkSubList**   * il s\'agit du plan ou de la face supportant la géométrie 2D. Par défaut, il s\'agit d\'une liste vide `[]`.
+-    <div id="Property_Support">
+    </div>
+    **Support|LinkSubList**   * il s\'agit du plan ou de la face supportant la géométrie 2D. Par défaut, il s\'agit d\'une liste vide `[]`.
 
--    **Map Mode|Enumeration**   * {{value|Deactivated}} par défaut. Cette propriété détermine un plan que l\'objet utilisera comme référence pour la géométrie 2D. En cliquant sur l\'ellipse **...** (trois points), à droite du champ de saisie, lance la commande [Part Ancrage](Part_EditAttachment/fr.md) qui permet de sélectionner le plan de référence en choisissant différents éléments dans la [Vue 3D](3D_view/fr.md). Les différents modes sont    * {{value|Deactivated}}, {{value|Translate origin}}, {{value|Object's XY}}, {{value|Object's XZ}}, {{value|Object's YZ}}, {{value|Plane face}}, {{value|Tangent to surface}}, {{value|Normal to edge}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Concentric}}, {{value|Revolution section}}, {{value|Plane by 3 points}}, {{value|Normal to 3 points}}, {{value|Folding}}, {{value|Inertia 2-3}}, {{value|Align O-N-X}}, {{value|Align O-N-Y}}, {{value|Align O-X-Y}}, {{value|Align O-X-N}}, {{value|Align O-Y-N}}, {{value|Align O-Y-X}}.
+-    <div id="Property_Map_Mode">
+    </div>
+    **Map Mode|Enumeration**   * {{value|Deactivated}} par défaut. Cette propriété détermine un plan que l\'objet utilisera comme référence pour la géométrie 2D. En cliquant sur l\'ellipse **...** (trois points), à droite du champ de saisie, lance la commande [Part Ancrage](Part_EditAttachment/fr.md) qui permet de sélectionner le plan de référence en choisissant différents éléments dans la [Vue 3D](3D_view/fr.md). Les différents modes sont    * {{value|Deactivated}}, {{value|Translate origin}}, {{value|Object's XY}}, {{value|Object's XZ}}, {{value|Object's YZ}}, {{value|Plane face}}, {{value|Tangent to surface}}, {{value|Normal to edge}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Concentric}}, {{value|Revolution section}}, {{value|Plane by 3 points}}, {{value|Normal to 3 points}}, {{value|Folding}}, {{value|Inertia 2-3}}, {{value|Align O-N-X}}, {{value|Align O-N-Y}}, {{value|Align O-X-Y}}, {{value|Align O-X-N}}, {{value|Align O-Y-N}}, {{value|Align O-Y-X}}.
 
--    **Map Reversed|Bool**   * sa valeur par défaut est `False` ; si elle est `True`, la direction Z sera inversée. Par exemple, une [esquisse](sketch/fr.md) sera retournée à l\'envers. Caché si **Map Mode** est {{value|Deactivated}}.
+-    <div id="Property_Map_Reversed">
+    </div>
+    **Map Reversed|Bool**   * sa valeur par défaut est `False` ; si elle est `True`, la direction Z sera inversée. Par exemple, une [esquisse](sketch/fr.md) sera retournée à l\'envers. Caché si **Map Mode** est {{value|Deactivated}}.
 
--    **Map Path Parameter|Float|Hidden**   * définit le point de la courbe vers lequel mapper une [esquisse](sketch/fr.md). Il va de {{value|0}} à {{value|1}}, qui correspondent aux {{value|start}} et {{value|end}}. La valeur par défaut est {{value|0}}.
+-    <div id="Property_Map_Path">
+    </div>
+    **Map Path Parameter|Float|Hidden**   * définit le point de la courbe vers lequel mapper une [esquisse](sketch/fr.md). Il va de {{value|0}} à {{value|1}}, qui correspondent aux {{value|start}} et {{value|end}}. La valeur par défaut est {{value|0}}.
 
--    **Attachment Offset|Placement**   * la position de l\'objet dans la [Vue 3D](3D_view/fr.md), par rapport au placement de l\'objet d\'attachement. L\'emplacement est défini par un point `Base` (vecteur) et un `Rotation` (axe et angle). Voir [Placement](Placement/fr.md). Masqué si **Map Mode** est {{value|Deactivated}}.
+-    <div id="Property_Attachment_Offset">
+    </div>
+    **Attachment Offset|Placement**   * la position de l\'objet dans la [Vue 3D](3D_view/fr.md), par rapport au placement de l\'objet d\'attachement. L\'emplacement est défini par un point `Base` (vecteur) et un `Rotation` (axe et angle). Voir [Placement](Placement/fr.md). Masqué si **Map Mode** est {{value|Deactivated}}.
 
 ## Script
 
