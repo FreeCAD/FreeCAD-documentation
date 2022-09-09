@@ -664,6 +664,8 @@ class MediaWiki:
             files = os.listdir(os.path.dirname(__file__))
             jsonfiles = [f for f in files if (f.endswith(".json") and f.startswith("revision"))]
             jsonfiles.sort(key=os.path.getmtime, reverse=True)
+            if not jsonfiles:
+                return data
             filename = os.path.join(os.path.dirname(__file__),jsonfiles[0])
             print("Opening",os.path.basename(filename))
         if os.path.exists(filename):
