@@ -25,19 +25,19 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [Manual:Generating 2D drawings/it](wiki/Manual_Generating 2D drawings/it.md) | [Manual:Import and export to other filetypes/it](wiki/Manual_Import and export to other filetypes/it.md) | [Manual:Installing/it](wiki/Manual_Installing/it.md) |
 | [Manual:Modeling for product design/it](wiki/Manual_Modeling for product design/it.md) | [Manual:Parametric objects/it](wiki/Manual_Parametric objects/it.md) | [Manual:Preparing models for 3D printing/it](wiki/Manual_Preparing models for 3D printing/it.md) |
 | [Manual:Traditional 2D drafting/it](wiki/Manual_Traditional 2D drafting/it.md) | [Manual:Traditional modeling, the CSG way/it](wiki/Manual_Traditional modeling, the CSG way/it.md) | [Manual:Using spreadsheets/it](wiki/Manual_Using spreadsheets/it.md) |
-| [Measurement Of Angles On Holes/it](wiki/Measurement Of Angles On Holes/it.md) | [Part and PartDesign/it](wiki/Part and PartDesign/it.md) | [Part Loft Technical Details/it](wiki/Part Loft Technical Details/it.md) |
-| [PartDesign Bearingholder Tutorial I/it](wiki/PartDesign Bearingholder Tutorial I/it.md) | [PartDesign Bearingholder Tutorial II/it](wiki/PartDesign Bearingholder Tutorial II/it.md) | [PartDesign tutorial/it](wiki/PartDesign tutorial/it.md) |
-| [Path Walkthrough for the Impatient/it](wiki/Path Walkthrough for the Impatient/it.md) | [Plot Basic tutorial/it](wiki/Plot Basic tutorial/it.md) | [Plot MultiAxes tutorial/it](wiki/Plot MultiAxes tutorial/it.md) |
-| [Post-Processing of FEM Results with Paraview/it](wiki/Post-Processing of FEM Results with Paraview/it.md) | [Raytracing tutorial/it](wiki/Raytracing tutorial/it.md) | [Robot 6-Axis/it](wiki/Robot 6-Axis/it.md) |
-| [Robot tutorial/it](wiki/Robot tutorial/it.md) | [Scripted Parts: Ball Bearing - Part 1/it](wiki/Scripted Parts_ Ball Bearing - Part 1/it.md) | [Scripted Parts: Ball Bearing - Part 2/it](wiki/Scripted Parts_ Ball Bearing - Part 2/it.md) |
-| [Scripts/it](wiki/Scripts/it.md) | [Sketcher Micro Tutorial - Constraint Practices/it](wiki/Sketcher Micro Tutorial - Constraint Practices/it.md) | [Sketcher reference/it](wiki/Sketcher reference/it.md) |
-| [Sketcher requirement for a sketch/it](wiki/Sketcher requirement for a sketch/it.md) | [Sketcher Tutorial/it](wiki/Sketcher Tutorial/it.md) | [TechDraw HowTo Page/it](wiki/TechDraw HowTo Page/it.md) |
-| [TechDraw TemplateHowTo/it](wiki/TechDraw TemplateHowTo/it.md) | [Thread for Screw Tutorial/it](wiki/Thread for Screw Tutorial/it.md) | [Toothbrush Head Stand/it](wiki/Toothbrush Head Stand/it.md) |
-| [Transient FEM analysis/it](wiki/Transient FEM analysis/it.md) | [Tutorial custom placing of windows and doors/it](wiki/Tutorial custom placing of windows and doors/it.md) | [Tutorial for open windows/it](wiki/Tutorial for open windows/it.md) |
-| [Tutorial FreeCAD POV ray/it](wiki/Tutorial FreeCAD POV ray/it.md) | [Tutorial Render with Blender/it](wiki/Tutorial Render with Blender/it.md) | [Template:TutorialInfo/it](wiki/Template_TutorialInfo/it.md) |
-| [Tutorials/it](wiki/Tutorials/it.md) | [Video tutorials for architectural design/it](wiki/Video tutorials for architectural design/it.md) | [Video tutorials for product design/it](wiki/Video tutorials for product design/it.md) |
-| [Video tutorials obsolete/it](wiki/Video tutorials obsolete/it.md) | [Video tutorials/it](wiki/Video tutorials/it.md) | [VRML Preparation for Robot Simulation/it](wiki/VRML Preparation for Robot Simulation/it.md) |
-| [Whiffle Ball tutorial/it](wiki/Whiffle Ball tutorial/it.md) | [Wikihouse porting tutorial/it](wiki/Wikihouse porting tutorial/it.md) |
+| [Measurement Of Angles On Holes/it](wiki/Measurement Of Angles On Holes/it.md) | [PartDesign Bearingholder Tutorial I/it](wiki/PartDesign Bearingholder Tutorial I/it.md) | [PartDesign Bearingholder Tutorial II/it](wiki/PartDesign Bearingholder Tutorial II/it.md) |
+| [PartDesign tutorial/it](wiki/PartDesign tutorial/it.md) | [Path Walkthrough for the Impatient/it](wiki/Path Walkthrough for the Impatient/it.md) | [Plot Basic tutorial/it](wiki/Plot Basic tutorial/it.md) |
+| [Plot MultiAxes tutorial/it](wiki/Plot MultiAxes tutorial/it.md) | [Post-Processing of FEM Results with Paraview/it](wiki/Post-Processing of FEM Results with Paraview/it.md) | [Raytracing tutorial/it](wiki/Raytracing tutorial/it.md) |
+| [Robot 6-Axis/it](wiki/Robot 6-Axis/it.md) | [Robot tutorial/it](wiki/Robot tutorial/it.md) | [Scripted Parts: Ball Bearing - Part 1/it](wiki/Scripted Parts_ Ball Bearing - Part 1/it.md) |
+| [Scripted Parts: Ball Bearing - Part 2/it](wiki/Scripted Parts_ Ball Bearing - Part 2/it.md) | [Scripts/it](wiki/Scripts/it.md) | [Sketcher Micro Tutorial - Constraint Practices/it](wiki/Sketcher Micro Tutorial - Constraint Practices/it.md) |
+| [Sketcher reference/it](wiki/Sketcher reference/it.md) | [Sketcher requirement for a sketch/it](wiki/Sketcher requirement for a sketch/it.md) | [Sketcher Tutorial/it](wiki/Sketcher Tutorial/it.md) |
+| [TechDraw HowTo Page/it](wiki/TechDraw HowTo Page/it.md) | [TechDraw TemplateHowTo/it](wiki/TechDraw TemplateHowTo/it.md) | [Thread for Screw Tutorial/it](wiki/Thread for Screw Tutorial/it.md) |
+| [Toothbrush Head Stand/it](wiki/Toothbrush Head Stand/it.md) | [Transient FEM analysis/it](wiki/Transient FEM analysis/it.md) | [Tutorial custom placing of windows and doors/it](wiki/Tutorial custom placing of windows and doors/it.md) |
+| [Tutorial for open windows/it](wiki/Tutorial for open windows/it.md) | [Tutorial FreeCAD POV ray/it](wiki/Tutorial FreeCAD POV ray/it.md) | [Tutorial Render with Blender/it](wiki/Tutorial Render with Blender/it.md) |
+| [Template:TutorialInfo/it](wiki/Template_TutorialInfo/it.md) | [Tutorials/it](wiki/Tutorials/it.md) | [Video tutorials for architectural design/it](wiki/Video tutorials for architectural design/it.md) |
+| [Video tutorials for product design/it](wiki/Video tutorials for product design/it.md) | [Video tutorials obsolete/it](wiki/Video tutorials obsolete/it.md) | [Video tutorials/it](wiki/Video tutorials/it.md) |
+| [VRML Preparation for Robot Simulation/it](wiki/VRML Preparation for Robot Simulation/it.md) | [Whiffle Ball tutorial/it](wiki/Whiffle Ball tutorial/it.md) | [Wikihouse porting tutorial/it](wiki/Wikihouse porting tutorial/it.md) |
+|
 
 
 

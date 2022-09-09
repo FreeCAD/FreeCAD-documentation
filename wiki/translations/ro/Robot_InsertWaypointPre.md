@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -15,10 +17,12 @@ Include un punct intermediar preluat din obiecte pre-selectate într-o traiector
 
 </div>
 
+## Usage
+
 
 <div class="mw-translate-fuzzy">
 
-#### Usage
+#### Usage 
 
 Depending on the used navigation style pre-selecting may vary.
 For example, when using blender navigation, you can hover with the mouse cursor over an object to highlight (pre-select) it.
@@ -27,6 +31,8 @@ Press ** W** to insert this waypoint into the selected trajectory.
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

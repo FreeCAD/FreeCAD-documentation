@@ -1,83 +1,86 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *SheetMetal AddBase
-   MenuLocation   *SheetMetal → Make Base Wall
-   Workbenches   *[SheetMetal](SheetMetal_Workbench.md)
+   Name/pl   *Arkusz Blachy   * Dodaj element bazowy
+   MenuLocation   *SheetMetal → Dodaj element bazowy
+   Workbenches   *[Arkusz Blachy](SheetMetal_Workbench/pl.md)
    Shortcut   ***C** **B**
 ---
 
 # SheetMetal AddBase/pl
 
-## Description
+## Opis
 
-The <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *24px;"> **SheetMetal AddBase** command creates a SheetMetal base object from a sketch.
+<img alt="" src=images/SheetMetal_AddBase.svg  style="width   *24px;"> **Dodaj element bazowy** tworzy obiekt bazowy środowiska pracy Arkusz Blachy ze szkicu profilu.
 
-From an open contour it creates a prismatic **profile**   *
+Z otwartego konturu tworzy przestrzenny *profil*   *
 
 <img alt="" src=images/SheetMetal_AddBase-01.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_AddBase-02.png  style="width   *200px;">
 
-From a closed outline it creates a base **plate** (blank)   *
+Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*   *
 
 <img alt="" src=images/SheetMetal_AddBase-03.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width   *200px;">
 
-## Usage
+## Użycie
 
-### Profile
+### Profil
 
-1.  Select an **open contour** <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [sketch](Sketcher_Workbench.md).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) command using one of the following   *
-    -   The **<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddBase.svg" width=16px> Make Base Wall** menu option.
-    -   The keyboard shortcut   * **C** then **B**.
-3.  Adjust the profile\'s parameters by editing the corresponding values in the [Property editor](Property_editor.md)   *
-    -   The property **length** for the profile length,
-    -   The property **thickness** for the profile thickness,
-    -   The property **radius** for the inner radius of the bends.
+1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [szkic](Sketcher_Workbench/pl.md) **otwartego konturu**.
+2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md) za pomocą jednej z następujących możliwości   *
+    -   Przycisk **<img src="images/SheetMetal_AddBase.svg" width=16px> [Dodaj element bazowy](SheetMetal_AddBase/pl.md)** na pasku narzędzi.
+    -   Opcja w menu **Arkusz Blachy → <img src="images/SheetMetal_AddBase.svg" width=16px> Dodaj element bazowy**.
+    -   Skrót klawiaturowy   * **C** następnie **B**.
+3.  Dostosuj parametry profilu, edytując odpowiednie wartości w [Edytorze właściwości](Property_editor/pl.md)   *
+    -   Właściwość **Długość** dla długości profilu,
+    -   Właściwość **Grubość** dla grubości profilu,
+    -   Właściwość **Promień** dla promienia wewnętrznego łuków.
 
-### Plate
+### Płyta
 
-1.  Select a **closed outline** <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [sketch](Sketcher_Workbench.md).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) command (see above).
-3.  Adjust the plate\'s parameter by editing the corresponding value in the [Property editor](Property_editor.md)   *
-    -   The property **thickness** for the thickness of the plate.
+1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [szkic](Sketcher_Workbench/pl.md) **zamkniętego konturu**.<img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [sketch](Sketcher_Workbench.md).
+2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md) *(patrz powyżej)*.
+3.  Dostosuj parametry profilu, edytując odpowiednie wartości w [Edytorze właściwości](Property_editor/pl.md)   *
+    -   Właściwość **Grubość** dla grubości płyty.
 
    *   
 
-       *   (The properties **length** and **radius** are not used for plates.)
+       *   *(Właściwość **Długość** oraz **Promień** są nieużywane dla płyty.)*
 
-## Properties
+## Właściwości
 
-See also   * [Property editor](Property_editor.md).
+Zobacz również stronę   * [Edytor właściwości](Property_editor/pl.md).
 
-A SheetMetal BaseBend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+Obiekt bazowy wygięcia środowiska Arkusz Blachy wywodzi się z obiektu [Część   * Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości   *
 
-### Data
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**   * Default value   * The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**   * Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**   * Hidden link to the parent body.
+### Dane
 
 
-{{Properties_Title|Parameters}}
+{{Properties_Title|Podstawowe}}
 
--    **Bend Side|Enumeration**   * \"Relief Type\". {{value|Outside}} (default), {{value|Inside}}, {{value| Middle}}.
+-    **Etykieta|String**   * Wartość domyślna   * {{value|WallForming}} *(+ kolejny numer dla drugiej i następnych pozycji)*.
 
--    **Bend Sketch|Link**   * \"Wall Sketch object\". Link to the profile/outline sketch.
+Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
 
--    **Mid Plane|Bool**   * \"Extrude Symmetric to Plane\".   `True`, the profile extends symmetrically to both sides of the sketch plane.
+-    **Cecha podstawowa|Link|ukryte**   * Cecha bazowa. Link do cechy nadrzędnej.
 
--    **Reverse|Bool**   * \"Reverse Extrusion Direction\". Default   * `False`.
+-    **_Body|LinkHidden|ukryte**   * Link ukryty do zawartości nadrzędnej.
 
--    **length|Length**   * \"Length of wall\". Default   * {{value|100,00 mm}}.
 
--    **radius|Length**   * \"Bend Radius\". Default   * {{value|1,00 mm}}.
+{{Properties_Title|Parametry}}
 
--    **thickness|Length**   * \"Thickness of sheetmetal\". Default   * {{value|1,00 mm}}.
+-    **Strona wygięcia|Enumeration**   * \"Type wpustu\". {{value|Na zewnątrz}} *(domyślnie)*, {{value|Do wewnątrz}}, {{value|Pośrodku}}.
+
+-    **Szkic wygięcia|Link**   * \"Obiekt szkicu ściany\". Link do profilu / szkicu konturu.
+
+-    **Płaszczyzna środkowa|Bool**   * \"Wyciągnięcie symetrycznie do płaszczyzny\".   {{TRUE/pl}}, profil rozciąga się symetrycznie na obie strony płaszczyzny szkicu.
+
+-    **Odwrócony|Bool**   * \"Odwrotny kierunek wyciągnięcia\". Domyślnie   * {{FALSE/pl}}.
+
+-    **Długość|Length**   * \"Długość ściany\". Domyślnie   * {{value|100,00 mm}}.
+
+-    **Promień|Length**   * \"Promień wygięcia\". Domyślnie   * {{value|1,00 mm}}.
+
+-    **Grubość|Length**   * \"Grubość arkusza blachy\". Domyślnie   * {{value|1,00 mm}}.
 
 
 

@@ -5,13 +5,7 @@
 
 ## Введение
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Workbench_Ship.svg  style="width   *32px;"> [Верстак Ship](Ship_Workbench/ru.md) FreeCADа используется для создания структур, общих для судостроения.
-
-
-</div>
+<img alt="" src=images/Workbench_Ship.svg  style="width   *32px;"> [Верстак Ship](Ship_Workbench/ru.md) применяется для создания конструкций, которые являются основными в судостроении.
 
 ## Инструменты
 

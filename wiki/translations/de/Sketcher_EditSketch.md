@@ -1,60 +1,33 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher EditSketch
-   Name/de   *Skizzierer SkizzeBearbeiten
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation   *Skizze → Skizze Bearbeiten
-   SeeAlso   *[ Skizzierer SkizzeVerlassen](Sketcher_LeaveSketch/de.md)
+   Name/de   *Sketcher SkizzeBearbeiten
+   MenuLocation   *Sketch → Skizze bearbeiten
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso   *[Sketcher SkizzeVerlassen](Sketcher_LeaveSketch/de.md)
 ---
 
 # Sketcher EditSketch/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Mit diesem Befehl kannst Du eine vorhandene Skizze bearbeiten. Er öffnet die [Sketcher Dialog](Sketcher_Dialog.md).
-
-
-</div>
+Mit diesem Befehl kann eine vorhandene Skizze bearbeitet werden. Er öffnet den [Dialog](Sketcher_Dialog/de.md).
 
 ## Anwendung
 
+Es gibt verschiedene Wege den Befehl SkizzeBearbeiten aufzurufen   *
 
-<div class="mw-translate-fuzzy">
-
-Es gibt verschiedene Wege den Befehl Skizze bearbeiten aufzurufen   *
-
--   Rechtsklicke auf eine Skizze in der [Baumansicht](tree_view/de.md) und wähle *Skizze bearbeiten*.
--   Wähle Skizze in der [Baumansicht](tree_view/de.md) und wähle **Skizze → Skizze bearbeiten** aus dem Aufklappmenü.
--   Doppelklicke einfach auf die Skizze
--   Klicke auf die <img alt="" src=images/Sketcher_EditSketch.svg  style="width   *24px;"> Schaltfläche in der Skizzierer Werkzeugleiste.
-
-
-</div>
+-   Rechtsklick auf eine Skizze in der [Baumansicht](tree_view/de.md) und *Skizze bearbeiten* auswählen.
+-   Eine Skizze in der [Baumansicht](tree_view/de.md) auswählen und anschließend den Menüeintrag **Sketch/Skizze → Skizze bearbeiten** auswählen.
+-   Doppelklick auf die Skizze
+-   Auf die Schaltfläche <img alt="" src=images/Sketcher_EditSketch.svg  style="width   *24px;"> in der Sketcher-Werkzeugleiste klicken.
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Klicken auf [Skizze verlassen](Sketcher_LeaveSketch.md) beendet den Bearbeitungsmodus.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Die Auswahl von [Skizze verlassen](Sketcher_LeaveSketch.md) beendet den Bearbeitungsmodus.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

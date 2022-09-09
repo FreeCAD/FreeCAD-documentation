@@ -20,10 +20,10 @@ Das Werkzeug Schweißsymbol fügt einer bestehenden Hinweislinie Schweißspezifi
 
 ## Anwendung
 
-1.  Wähle eine vorhandene [Hinweislinie](TechDraw_LeaderLine/de.md).
-2.  Drücke die **<img src="images/techdraw-weldsymbol.svg" width=16px> Hinzufügen von Schweißinformationen zur Hinweislinie** Schaltfläche.
-3.  Ein Aufgabendialog wird geöffnet. Er ermöglicht es, individuelle Schweißsymbole und begleitenden Text festzulegen, die der Hinweislinie hinzugefügt werden sollen.
-4.  Um den Dialog zu verlassen und die Änderungen zu speichern, drücke die OK Taste. Um das Dialogfeld zu verlassen, ohne zu speichern, drücke die Schaltfläche Abbrechen.
+1.  Eine vorhandene [Hinweislinie](TechDraw_LeaderLine/de.md) auswählen.
+2.  Die Schaltfläche **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Hinzufügen von Schweißinformationen zur Hinweislinie](TechDraw_WeldSymbol/de.md)** drücken.
+3.  Der Aufgabenbereich wird geöffnet. Er ermöglicht es, individuelle Schweißsymbole und begleitenden Text festzulegen, die der Hinweislinie hinzugefügt werden.
+4.  Um den Dialog zu verlassen und die Änderungen zu speichern, die OK Taste drücken. Um das Dialogfeld zu verlassen, ohne zu speichern, die Schaltfläche Abbrechen drücken.
 5.  Nachdem das Schweißsymbol erstellt wurde, kann es durch Doppelklicken auf das Schweißsymbol im Baum bearbeitet werden.
 
 ## Eigenschaften

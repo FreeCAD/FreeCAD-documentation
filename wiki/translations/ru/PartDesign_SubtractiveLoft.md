@@ -5,13 +5,10 @@
    MenuLocation   *Part Design → Create a substractive feature → Субтрактивный профиль
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Аддитивный профиль](PartDesign_AdditiveLoft/ru.md), [Субтрактивный трубный профиль](PartDesign_SubtractivePipe/ru.md)
+   SeeAlso   *[Аддитивный профиль](PartDesign_AdditiveLoft/ru.md), [Субтрактивный профиль по траектории](PartDesign_SubtractivePipe/ru.md)
 ---
 
 # PartDesign SubtractiveLoft/ru
-
-
-</div>
 
 ## Описание
 

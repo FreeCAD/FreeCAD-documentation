@@ -25,7 +25,7 @@ Das **Std Menü Bearbeiten** ist eines der 7 Untermenüs im [Standardmenü](Stan
 [Hilfe](Std_Help_Menu/de.md)
 }}
 
-Das Menü Bearbeiten bietet Werkzeuge zum Ändern des Modells.
+Das Menü Bearbeiten stellt Werkzeuge bereit zum Ändern des Modells.
 
 ## Werkzeuge
 

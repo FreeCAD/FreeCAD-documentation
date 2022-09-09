@@ -2,18 +2,18 @@
 {{Macro
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png
-|Description= This macro display all elements below cursor (all elements covered by other elements will also be displayed).
+|Description=This macro displays all elements below the cursor (all elements covered by other elements will also be displayed).
 |Author=HoWil
 |Version=01.00
 |Date=2016-12-26
 |FCVersion=All
 |Download=[https   *//www.freecadweb.org/wiki/images/0/07/Macro_FC_element_selector.png ToolBar Icon]
-|SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb.md) [<img src=images/Macro_Mouse_over_cb.png style="width   *24px">
+|SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb.md)
 }}
 
 ## Description
 
-This macro display in report view all elements below cursor (all elements covered by other elements will also be displayed)
+This macro displays in the report view all elements below the cursor (all elements covered by other elements will also be displayed).
 
 ## Usage
 
@@ -21,7 +21,7 @@ Run the macro.
 
 ## Script
 
- ToolBar Icon ![](images/Macro_FC_element_selector.png )
+ToolBar Icon ![](images/Macro_FC_element_selector.png ) 
 
 **Macro FC element selector.FCMacro**
 

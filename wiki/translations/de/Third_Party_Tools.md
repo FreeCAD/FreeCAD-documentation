@@ -27,36 +27,18 @@ Hole dir das GIMP hier   * [www.gimp.org](http   *//www.gimp.org/)
 
 #### Gitkraken
 
-
-<div class="mw-translate-fuzzy">
-
 Dies ist eine proprietäre git-GUI, die sehr hilfreich ist, um zu erfahren, wie git funktioniert, wenn du zu FreeCAD beitragen möchtest. Relevante Seiten für die Nachforschung   *
 
--   [Gitkraken](Gitkraken.md)
--   [Github](Github.md)
-
-
-</div>
+-   [Entwicklung von FreeCAD mit GitKraken](Developing_FreeCAD_with_GitKraken/de.md)
+-   [Quellcodeverwaltung](Source_code_management/de.md)
 
 #### OBS Studio 
 
-
-<div class="mw-translate-fuzzy">
-
 Freie und quelloffene Software für Videoaufzeichnung und Live Streaming. Weitere Einzelheiten auf der offiziellen Website    * [obsproject.com](https   *//obsproject.com/)
-
-
-</div>
 
 #### OpenCamLib
 
-
-<div class="mw-translate-fuzzy">
-
-[OpenCamLib](OpenCamLib.md) (OCL) ist eine Open Source Bibliothek mit dem Ziel, CAM Algorithmen (Computer Aided Manufacturing) zur Verfügung zu stellen. FreeCAD verwendet OCL in den experimentellen 3D Oberflächenpfad Operationen und anderen experimentellen Funktionen.
-
-
-</div>
+[OpenCamLib](OpenCamLib.md) (OCL) ist eine Open Source Bibliothek mit dem Ziel, CAM Algorithmen (Computer Aided Manufacturing) zur Verfügung zu stellen. FreeCAD verwendet OCL in den experimentellen 3D-Oberflächen-Pfadoperationen und anderen experimentellen Funktionen.
 
 #### StarUML
 
@@ -70,13 +52,7 @@ Hier herunterladen   * [staruml.io](http   *//staruml.io)
 
 Visual Studio Community ist für Open Source-Projekte und kleine Strukturen kostenlos. Die Installation ist modular, du kannst Unterstützung für eine Vielzahl von Sprachen, einschließlich C++ und Python, hinzufügen.
 
-
-<div class="mw-translate-fuzzy">
-
-Es kann heruntergeladen werden unter [1](https   *//visualstudio.microsoft.com/fr/vs/community)
-
-
-</div>
+Es kann heruntergeladen werden unter [Visual Studio Community](https   *//visualstudio.microsoft.com/fr/vs/community).
 
 #### CamStudio
 

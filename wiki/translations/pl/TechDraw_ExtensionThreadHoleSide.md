@@ -1,30 +1,31 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *TechDraw ExtensionThreadHoleSide
-   MenuLocation   *TechDraw → Extensions   * Centerlines/Threading → Add Cosmetic Thread Hole Side View
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
+   Name/pl   *Rysunek Techniczny   * Geometria pomocnicza dla otworu gwintowanego, widok z boku
+   MenuLocation   *Rysunek Techniczny → Rozszerzenia   * Linie środka / Gwinty → Geometria pomocnicza dla otworu gwintowanego, widok z boku
+   Workbenches   *[środowisko pracy Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut   *
    Version   *0.20
-   SeeAlso   *[TechDraw ExtensionThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md)
+   SeeAlso   *[Geometria pomocnicza dla gwintu śruby, widok z boku](TechDraw_ExtensionThreadBoltSide/pl.md)
 ---
 
 # TechDraw ExtensionThreadHoleSide/pl
 
 ## Opis
 
-The <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width   *24px;"> **TechDraw ExtensionThreadHoleSide** tool adds a cosmetic thread to the side view of a hole.
+Narzędzie <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width   *24px;"> **Geometria pomocnicza dla otworu gwintowanego, widok z boku** dodaje geometrię pomocniczą gwintu do widoku otworu z boku.
 
 <img alt="" src=images/TechDraw_ExtensionThreadHoleSideExample.png  style="width   *200px;"> 
-*On the right a hole with a cosmetic thread*
+*Po prawej stronie otwór z geometrią pomocniczą gwintu*
 
-## Usage
+## Użycie
 
-1.  Optionally specify the line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select two parallel lines.
-3.  There are several ways to invoke the tool   *
-    -   Press the **<img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px> [TechDraw ExtensionThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md)** button.
-    -   Select the **TechDraw → Extensions   * Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px> Add Cosmetic Thread Hole Side View** option from the menu.
-4.  A cosmetic thread is added.
+1.  Opcjonalnie określ atrybuty linii za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width   *16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md) .
+2.  Wybierz dwie równoległe linie.
+3.  Istnieje kilka sposobów na wywołanie narzędzia   *
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px> [Geometria pomocnicza dla otworu gwintowanego, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md)**.
+    -   Wybierz opcje z menu **Rysunek Techniczny → Rozszerzenia   * Linie środka / Gwinty → <img src="images/TechDraw_ExtensionThreadHoleSide.svg" width=16px> Geometria pomocnicza dla otworu gwintowanego, widok z boku**.
+4.  Dodany zostanie gwint kosmetyczny.
 
 
 

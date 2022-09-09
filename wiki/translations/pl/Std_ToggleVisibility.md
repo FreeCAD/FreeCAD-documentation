@@ -1,47 +1,48 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ToggleVisibility
-   MenuLocation   *View → Toggle visibility
-   Workbenches   *All
-   Shortcut   ***Space**
-   SeeAlso   *[Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
+   Name/pl   *Std   * Przełącz widoczność
+   MenuLocation   *Widok → Przełącz widoczność
+   Workbenches   *wszystkie
+   Shortcut   ***Spacja**
+   SeeAlso   *[Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection/pl.md), [Przełącz widoczność](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std ToggleVisibility/pl
 
-## Description
+## Opis
 
-The **Std ToggleVisibility** command toggles the visibility of selected objects in [3D views](3D_view.md).
+Polecenie **Przełącz widoczność** przełącza widoczność wybranych obiektów w oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-    -   Invisible objects can be selected in the [Tree view](Tree_view.md).
-    -   Be careful when you use **Ctrl**+**A** to select all objects in the Tree view. This will also selects sub-elements of [PartDesign bodies](PartDesign_Body.md) and objects used for [Part Booleans](Part_Boolean.md). In most cases these should stay invisible.
-    -   Objects used for [Part Booleans](Part_Boolean.md) are also selected when you use **Ctrl**+**A** in a 3D view.
-2.  There are several ways to invoke the command   *
-    -   Select the **View → <img src="images/Std_ToggleVisibility.svg" width=16px> Toggle visibility** option from the menu.
-    -   Select the **View → Visibility → <img src="images/Std_ToggleVisibility.svg" width=16px> Toggle visibility** option from the menu.
-    -   Select the **<img src="images/Std_ToggleVisibility.svg" width=16px> Toggle visibility** option from the Tree view context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
-    -   Select the **<img src="images/Std_ToggleVisibility.svg" width=16px> Toggle visibility** option from the 3D view context menu.
-    -   Use the keyboard shortcut   * **Space**.
+1.  Wybierz jeden lub więcej obiektów.
+    -   Niewidoczne obiekty mogą być zaznaczone w oknie [Widoku drzewa](Tree_view/pl.md).
+    -   Bądź ostrożny, gdy używasz kombinacji klawiszy **Ctrl** + **A**, aby wybrać wszystkie obiekty w oknie Widoku drzewa. Spowoduje to również zaznaczenie elementów podrzędnych [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części i obiektów używanych dla [funkcji logicznych](Part_Boolean/pl.md) środowiska Część. W większości przypadków powinny one pozostać niewidoczne.
+    -   Obiekty używane dla [funkcji logicznych](Part_Boolean/pl.md) środowiska Część są również wybierane, gdy używasz kombinacji klawiszy **Ctrl** + **A** w oknie widoku 3D.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Wybierz opcję z menu **Widok → <img src="images/Std_ToggleVisibility.svg" width=16px> Przełącz widoczność**.
+    -   Wybierz opcję z menu **Widok → Widoczność → <img src="images/Std_ToggleVisibility.svg" width=16px> Przełącz widoczność**.
+    -   Wybierz opcję **<img src="images/Std_ToggleVisibility.svg" width=16px> Przełącz widoczność** z menu kontekstowego okna widoku drzewa. Opcja ta nie jest dostępna w środowisku pracy [Projekt części](PartDesign_Workbench.md)
+    -   Wybierz opcję **<img src="images/Std_ToggleVisibility.svg" width=16px> Przełącz widoczność** z menu kontekstowego okna widoku 3D.
+    -   Użyj skrótu klawiaturowego   * **Spacja**.
 
-## Notes
+## Uwagi
 
--   Invisible objects are displayed with a greyed out label and a greyed out icon in the [Tree view](Tree_view.md).
--   Objects nested in a [Std Part](Std_Part.md), or a [Std Link](Std_LinkMake.md) to a [Std Group](Std_Group.md), or a LinkGroup, and [features](PartDesign_Feature.md) of a [PartDesign Body](PartDesign_Body.md) will only be visible in [3D views](3D_view.md) if their parent is visible as well. This means that a feature in a PartDesign Body that is nested in a Std Part will only be visible in 3D views if the feature itself, the PartDesign Body, and the Std Part are all visible. And if the Std Part is in turn nested in another Std Part, then that last object must also be visible.
--   If the visibility of a [Std Group](Std_Group.md) (or an object derived from it such as an [Arch BuildingPart](Arch_BuildingPart.md)) is changed, the visibility of its nested objects will change accordingly. But their visibility can be changed independently as well.
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Niewidoczne obiekty są wyświetlane z wyszarzoną etykietą i wyszarzoną ikoną w oknie [Widoku drzewa](Tree_view/pl.md).
+-   Obiekty zagnieżdżone w [Części](Std_Part/pl.md), lub [obiekcie połączonym](Std_LinkMake/pl.md) do [Grupy](Std_Group/pl.md), lub Grupy linków, oraz [cech](PartDesign_Feature/pl.md) w [Zawartości Projektu Części](PartDesign_Body/pl.md) będą widoczne w oknie [Widoku 3D](3D_view/pl.md) tylko wtedy, gdy ich obiekt nadrzędny jest również widoczny. Oznacza to, że element w Zawartości Projektu Części, który jest zagnieżdżony w obiekcie Część będzie widoczny w oknie widoku 3D tylko wtedy, gdy sam element, Zawartości Projektu Części i Część są widoczne. A jeśli obiekt Część jest z kolei zagnieżdżony w innej obiekcie Część, to ten ostatni obiekt musi być również widoczny.
+-   Jeśli widoczność [Grupy](Std_Group/pl.md) *(lub obiektu pochodnego, takiego jak [Część budowli](Arch_BuildingPart/pl.md) środowiska Architektura)* zostanie zmieniona, widoczność jej zagnieżdżonych obiektów zmieni się odpowiednio. Ale ich widoczność może być również zmieniana indywidualnie.
+-   Działanie tego polecenia nie może być cofnięte za pomocą przycisku [Cofnij](Std_Undo/pl.md).
+-   Widoczność obiektu można również zmienić poprzez jego powiązaną właściwość **Widoczność** w [Edytorze właściwości](Property_editor/pl.md) lub oknie [Widok połączonego](Combo_view/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-Use the `show` and `hide` methods of an object to change its visibility.
+Użyj metod obiektu `show` i `hide`, aby zmienić jego widoczność.
 
 
 ```python

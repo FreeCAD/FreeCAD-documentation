@@ -39,7 +39,7 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 -   **Plik grupy linii**   * Alternatywny plik dla osobistych definicji [LineGroup](TechDraw_LineGroup.md).
 -   **Katalog spawalniczy**   * Domyślny katalog dla przycisku narzędzia **[<img src=images/TechDraw_WeldSymbol.svg style="width   *16px"> [Symboli spawalniczych](TechDraw_WeldSymbol.md)**. {{Version/pl|0.19}}
 -   **Plik PAT**   * Domyślny plik definicji wzoru PAT dla **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku graficznego](TechDraw_GeometricHatch.md)**.
--   \'\'\'\' Nazwa wzoru \'\'\'   * Nazwa domyślnego wzoru PAT.
+-   **Nazwa wzoru**   * Nazwa domyślnego wzoru PAT.
 
 ### Siatka
 
@@ -67,8 +67,6 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 <img alt="Preferencje wymiarów" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
-### Wymiary 
-
 -   **Standard i wygląd**   * Norma stosowana dla wartości wymiarów. Różnica pomiędzy standardami przedstawiona jest na zdjęciu   * ![\|500px\|Różnice pomiędzy wspieranymi normami. *([źródło ilustracji](images/https   *//forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))*](TechDraw_Dimension_standardization.png )
 
    *   
@@ -86,7 +84,10 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 -   **Skala tekstu tolerancji**   * Ustawienie wielkości czcionki tolerancji. Mnożnik wymiaru **[rozmiaru czcionki](TechDraw_Preferences/pl#Wymiary_2.md)**.
 -   **Symbol średnicy**   * wymiary średnicy będą poprzedzone tym symbolem.
 -   **Styl strzałki**   * wybierz preferowany znacznik zakończenia linii wymiarowej.
--   **Rozmiar strzałki**   * rozmiar znacznika końcowego w mm.\* **Format Spec**   * formatuje tekst wymiarowy. Używa [specyfikator formatu printf](https   *//en.wikipedia.org/wiki/Printf_format_string).
+-   **Rozmiar strzałki**   * rozmiar znacznika końcowego w mm.
+-   **Format Spec**   * formatuje tekst wymiarowy. Używa [specyfikator formatu printf](https   *//en.wikipedia.org/wiki/Printf_format_string).
+-   **Współczynnik zwiększenia odstępu - ISO**   * Odstęp między punktem wymiarowym a początkiem linii pomocniczych dla wymiarów ISO. {{Version/pl|1.0}}
+-   **Współczynnik zwiększenia odstępu - ASME**   * Odstęp pomiędzy punktem wymiarowym a początkiem linii pomocniczych dla wymiarów ASME. {{Version/pl|1.0}}
 
 ## Adnotacje
 

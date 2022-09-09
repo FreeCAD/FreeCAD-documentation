@@ -5,53 +5,29 @@
 
 <img alt="" src=images/Mesh_Tree.svg  style="width   *32px;">
 
+Ein [Mesh Feature](Mesh_Feature/de.md)-Objekt (Mesh Formelement) oder formal ein `Mesh   *   *Feature` ist ein einfaches Element mit einem ihm zugeordneten [Mesh MeshObject](Mesh_MeshObject/de.md) (Mesh-Objekt), das in der [3D-Ansicht](3D_view/de.md) angezeigt werden kann.
 
-<div class="mw-translate-fuzzy">
+Ein Mesh Formelement ähnelt konzeptionell einem [Part Formelement](Part_Feature/de.md); Ersteres ist das Basisobjekt für Elemente mit \"Polygonnetz\"-Information, während Letzteres das Basisobjekt für Elemente mit \"geometrischer Form\"-Information ist.
 
-Ein <img alt="" src=images/Mesh_Tree.svg  style="width   *32px;"> [Polygonnetz Formelement](Mesh_Feature/de.md) Objekt oder formal ein `Mesh   *   *Feature` ist ein einfaches Element mit einem ihm zugeordneten [Polygonnetz Objekt](Mesh_MeshObject/de.md), das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
-
-
-</div>
-
-Ein Polygonnetz Formelement ähnelt konzeptionell einem [Part Formelement](Part_Feature/de.md); Ersteres ist das Basisobjekt für Elemente mit \"Polygonnetz\" Information, während Letzteres das Basisobjekt für Elemente mit \"geometrischer Form\" Information ist.
-
-
-<div class="mw-translate-fuzzy">
-
-Bitte beachte, dass der **<img src="images/Workbench_FEM.svg" width=16px> [FEM Arbeitsbereich](FEM_Workbench/de.md)** ebenfalls Polygonnetze verwendet, aber in diesem Fall wird ein anderes Objekt verwendet, das [Fem FemPolygonnetzObjekt](FEM_Mesh/de.md) (`Fem   *   *FemMeshObject` Klasse) genannt wird. Dieses Objekt ist nicht von Polygonnetz Formelement abgeleitet und hat daher andere Eigenschaften.
-
-
-</div>
+Bitte beachten, dass der Arbeitsbereich [FEM](FEM_Workbench/de.md) ebenfalls Polygonnetze verwendet, aber in diesem Fall wird ein anderes Objekt verwendet, das [FEM FemMeshObject](FEM_Mesh/de.md) genannt wird (`Fem   *   *FemMeshObject`-Klasse). Dieses Objekt ist nicht von dem Mesh Formelement abgeleitet und hat andere Eigenschaften.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `Mesh   *   *Feature* Klasse ist der Ursprung der meisten Objekte, die über ein [Dreieckspolygonnetz](Mesh_MeshObject/de.md) verfügen. Diese Objekte werden von der [Polygonnetz Arbeitsbereich](Mesh_Workbench/de.md) oder durch Importieren von STL, OBJ und ähnlichen Polygonnetzformatdateien erstellt.`
-
-
-</div>
+*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD.*
 
 ## Anwendung
 
+Fast alle Mesh-Objekte, die mit den im Arbeitsbereich [Mesh](Mesh_Workbench/de.md) verfügbaren Befehlen erzeugt werden, sind [Mesh Formelemente](Mesh_Feature/de.md). Die parametrischen Mesh-Objekte, die mit dem Befehl [Mesh RegelgeometrieErstellen](Mesh_BuildRegularSolid/de.md) erzeugt werden, bilden die einzige Ausnahme. Ein [Mesh Formelement](Mesh_Feature/de.md) kann auch über die [Python-Konsole](Python_console/de.md) erstellt werden, wie im Abschnitt [Skripten](Mesh_Feature/de#Skripten.md) beschrieben.
 
-<div class="mw-translate-fuzzy">
+Das `Mesh   *   *Feature` wird im Arbeitsbereich [Mesh](Mesh_Workbench/de.md) definiert, kann aber als Basisklasse für [skriptgenerierte Objekte](Scripted_objects/de.md) in allen [Arbeitsbereichen](Workbenches/de.md), die 2D- and 3D-Netze erstellen, verwendet werden.
 
-Fast alle Polygonnetz Objekte, die mit den in der grafischen Oberfläche [Polygonnetz Arbeitsbereich](Mesh_Workbench/de.md) verfügbaren Befehlen erzeugt werden, sind [Polygonnetz Funktionen](Mesh_Feature/de.md). Die einzige Ausnahme bilden die parametrischen Polygonnetzobjekte, die mit dem Befehl [Polygonnetz BauRegularSolid](Mesh_BuildRegularSolid/de.md) erzeugt werden. Ein [Polygonnetz Funktion](Mesh_Feature/de.md) kann auch über die [Python Konsole](Python_console/de.md) erzeugt werden, wie im Abschnitt [Skripten](Mesh_Feature/de#Skripten.md) beschrieben.
-
-
-</div>
-
-The `Mesh   *   *Feature` is defined in the [Mesh Workbench](Mesh_Workbench.md) but can be used as the base class for [scripted objects](Scripted_objects.md) in all [workbenches](Workbenches.md) that produce 2D and 3D meshes.
-
-A `Mesh   *   *Feature` has simple properties like a [placement](Placement.md), and visual properties to define the appearance of its edges and faces.
+Ein `Mesh   *   *Feature` besitzt einfache Eigenschaften, wie eine [Positionierungund](Placement/de.md) visuelle Eigenschaften, die die Darstellung seiner Kanten und Flächen bestimmen.
 
 ## Eigenschaften
 
-See [Property](Property.md) for all property types that scripted objects can have.
+Siehe [Eigenschaft](Property/de.md) für alle Arten von Eigenschaften, die skriptgenerierte Objekte besitzen können.
 
 The [Mesh Feature](Mesh_Feature.md) (`Mesh   *   *Feature` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App   *   *GeoFeature` class) and inherits all its properties. It also has several additional properties. Notably a **Mesh** property, which stores its [Mesh MeshObject](Mesh_MeshObject.md). This is the geometry that is shown in the [3D view](3D_view.md).
 
@@ -60,7 +36,7 @@ These are the properties available in the [property editor](Property_editor.md).
 ### Daten
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
 -    **Proxy|PythonObject|Hidden**   * a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](#Scripting.md).
 

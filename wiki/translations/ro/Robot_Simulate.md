@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Deschide dialogul de simulare și vă permite să simulați mișcarea robotului 
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

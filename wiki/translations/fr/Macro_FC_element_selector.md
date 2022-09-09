@@ -2,18 +2,18 @@
 {{Macro/fr
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png
-|Description= Cette macro affiche tous les éléments sous le curseur (les éléments cachés seront aussi affichés).
+|Description=Cette macro affiche tous les éléments situés sous le curseur (tous les éléments couverts par d'autres éléments seront également affichés).
 |Author=HoWil
 |Version=01.00
 |Date=2016-12-26
-|FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/0/07/Macro_FC_element_selector.png ToolBar Icon]
-|SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb.md) [<img src=images/Macro_Mouse_over_cb.png style="width   *24px">
+|FCVersion=Toute
+|Download=[https   *//www.freecadweb.org/wiki/images/0/07/Macro_FC_element_selector.png Icône de la barre d'outils]
+|SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb/fr.md)
 }}
 
 ## Description
 
-Cette macro affiche tous les éléments sous le curseur de la souris. ( Tous les éléments cachés par d\'autres élément sont aussi affichés)
+Cette macro affiche dans la vue du rapport tous les éléments situés sous le curseur (tous les éléments couverts par d\'autres éléments seront également affichés).
 
 ## Utilisation
 
@@ -21,7 +21,7 @@ Lancez la macro.
 
 ## Script
 
-ToolBar Icon ![](images/Macro_FC_element_selector.png )
+Icône de la barre d\'outils ![](images/Macro_FC_element_selector.png )
 
 **Macro FC element selector.FCMacro**
 
@@ -204,7 +204,7 @@ element_selector()
 
 La discussion sur le forum [Selecting internal faces of a pressure vessel](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
 
-Macro similaire [Macro Mouse over cb](Macro_Mouse_over_cb.md)
+Macro similaire [Macro Mouse over cb](Macro_Mouse_over_cb/fr.md)
 
 
 

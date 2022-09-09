@@ -67,14 +67,8 @@ Note that Loft has a \"Ruled\" property. If it is set to true, ruled surfaces ar
 
     
   <img alt="It is not required that the profiles are parallel." src=images/Loft_nonparallel.png  style="width   *300px;">   <img alt="In Loft, the profiles can be coplanar. In this example, two of three profiles are coplanar." src=images/Loft_Coplanar.png  style="width   *300px;">   <img alt="An example of a closed loft between three pentagonal profiles (white). Note the non-smooth joint at the outermost profile. This is the first profile in the closed loft." src=images/Loft-closed.png  style="width   *300px;">
-    
-
-
- 
-
-[Category   *Tutorials](Category_Tutorials.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/en

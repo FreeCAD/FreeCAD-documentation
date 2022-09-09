@@ -15,7 +15,7 @@
 
 ## Описание
 
-Fixes the horizontal distance between 2 points or line ends. If only one point is selected, the distance is set to the sketch origin.
+Фиксирует горизонтальное расстояние между 2 точками или концами отрезка. Если выбрана только одна точка, расстояние устанавливается в точки центра координат эскиза.
 
 ![](images/Constraint_H_Distance.png )
 
@@ -32,12 +32,12 @@ Fixes the horizontal distance between 2 points or line ends. If only one point i
 
 ## Программирование
 
-Distance from origin   *
+Расстояние от начала координат   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Дистанция между двумя вершинами   *
+Расстояние между двумя вершинами   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```

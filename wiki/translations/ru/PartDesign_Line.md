@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */ru
-   Name/ru   *Создать опорную линию
+   Name/ru   *Создать опорный отрезок
    Name   *PartDesign_Line
-   MenuLocation   *Part Design → Create a datum → Создать опорную линию
+   MenuLocation   *Part Design → Create a datum → Создать опорный отрезок
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
    SeeAlso   *[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
@@ -12,10 +12,10 @@
 
 ## Описание
 
-Creates a **datum line** which can be used as reference for sketches, other datum geometry or features. For example it can be used as revolution axis for Revolution and Groove features.
+Создает **опорный отрезок**, который можно использовать для размещения эскизов или другой опорной геометрии. Например, его можно использовать в качестве оси симметрии для построения фигур вращения или для выреза пазов (канавок).
 
 <img alt="" src=images/datum_line.png  style="width   *600px;"> 
-*Two Datum lines through opposite corners of the cube meet at the center of mass.*
+*Два опорных отрезка, проходящих через противоположные углы параллелепипеда, пересекаются в центре масс.*
 
 ## Применение
 

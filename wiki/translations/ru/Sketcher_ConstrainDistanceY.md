@@ -4,18 +4,15 @@
    Name   *Sketcher_ConstrainDistanceY
    MenuLocation   *Sketch → Ограничения эскиза → Ограничение расстояния по вертикали
    Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut   ***Shift** + **V**
+   Shortcut   ***I**
    SeeAlso   *[Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничить расстояние](Sketcher_ConstrainDistance/ru.md)
 ---
 
 # Sketcher ConstrainDistanceY/ru
 
-
-</div>
-
 ## Описание
 
-Fixes the vertical distance between 2 points or line ends. If only one point is selected, the distance is set to the sketch origin.
+Фиксирует вертикальное расстояние между 2 точками или концами отрезка. Если выбрана только одна точка, расстояние устанавливается в точки центра координат эскиза.
 
 ![](images/Sketcher_ConstraintDistanceY_example.png )
 
@@ -32,12 +29,12 @@ Fixes the vertical distance between 2 points or line ends. If only one point is 
 
 ## Программирование
 
-Distance from origin   *
+Расстояние от начала координат   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Дистанция между двумя вершинами   *
+Расстояние между двумя вершинами   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```

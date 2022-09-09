@@ -25,7 +25,7 @@
 [<u>С</u>правка](Std_Help_Menu/ru.md)
 }}
 
-The Tools menu provides tools for debugging models, customizing FreeCAD\'s behavior, as well as auxiliary tools.
+Меню \"Инструменты\" предоставляет инструменты для отладки моделей, настройки поведения FreeCAD, а также вспомогательные инструменты.
 
 ## Инструменты
 
@@ -33,7 +33,7 @@ The Tools menu provides tools for debugging models, customizing FreeCAD\'s behav
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width   *32px;"> [Редактор параметров\...](Std_DlgParameter/ru.md)   * Открывает диалоговое окно, позволяющее изменять многие установки, которые управляют программой FreeCAD.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width   *32px;"> [Сохранить изображение](Std_ViewScreenShot/ru.md)   * Сохраняет снимок экрана текущего [3D вида](3D_view/ru.md).
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width   *32px;"> [Сохранить изображение\...](Std_ViewScreenShot/ru.md)   * Сохраняет снимок экрана текущего [3D вида](3D_view/ru.md).
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width   *32px;"> [Инспектор сцены\...](Std_SceneInspector/ru.md)   * Открывает окно обзора узлов графической сцены активного 3D-вида.
 
@@ -41,9 +41,9 @@ The Tools menu provides tools for debugging models, customizing FreeCAD\'s behav
 
 -   <img alt="" src=images/Std_ProjectUtil.svg  style="width   *32px;"> [Утилита распаковки файла проекта\...](Std_ProjectUtil/ru.md)   * Помогает в восстановлении поврежденных файлов проекта.
 
--   <img alt="" src=images/Std_MeasureDistance.svg  style="width   *32px;"> [Measure distance](Std_MeasureDistance.md)   * Creates an object to measures and display a distance.
+-   <img alt="" src=images/Std_MeasureDistance.svg  style="width   *32px;"> [Измерить расстояние](Std_MeasureDistance/ru.md)   * Создаёт объект для измерения и отображения расстояния.
 
--   <img alt="" src=images/Std_TextDocument.svg  style="width   *32px;"> [Add text document](Std_TextDocument.md)   * Creates an object capable of holding text.
+-   <img alt="" src=images/Std_TextDocument.svg  style="width   *32px;"> [Добавить текстовый документ](Std_TextDocument/ru.md)   * Создаёт объект, способный содержать текст.
 
 -   <img alt="" src=images/Std_DemoMode.svg  style="width   *32px;"> [Поворотный просмотр](Std_DemoMode/ru.md) Вращает камеру вокруг модели в активном 3D Виде.
 

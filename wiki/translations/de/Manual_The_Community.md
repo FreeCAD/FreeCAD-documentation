@@ -28,12 +28,18 @@ Hoffentlich ist es uns gelungen, dir in diesem Handbuch einen guten Vorgeschmack
 
 **Mehr lesen**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Das FreeCAD Forum](http   *//forum.freecadweb.org)
 -   [Der Quellcode von FreeCAD](https   *//github.com/FreeCAD/FreeCAD)
 -   [Die Facebook FreeCAD Gemeinde](https   *//www.facebook.com/FreeCAD)
 -   [Das FreeCAD Dokumentations Wiki](http   *//www.freecadweb.org/wiki)
 -   [FreeCAD auf Crowdin übersetzen](https   *//crowdin.com/project/freecad)
 -   [Der FreeCAD Fehlernachverfolger](http   *//www.freecadweb.org/tracker)
+
+
+</div>
 
 
 

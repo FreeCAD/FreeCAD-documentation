@@ -2,45 +2,45 @@
 - GuiCommand   */pl
    Name   *Std AxisCross
    Name/pl   *Std   * Symbol osi
-   MenuLocation   *Widok → Pokaż / ukryj symbol osi
+   MenuLocation   *Widok → Przełącz krzyż osi
    Workbenches   *wszystkie
    Shortcut   ***A** **C**
 ---
 
 # Std AxisCross/pl
 
-## Description
+## Opis
 
-The **Std AxisCross** command toggles the axis cross in the active [3D view](3D_view.md).
+Polecenie **Symbol osi** włącza / wyłącza krzyż osi w aktywnym oknie [Widoku 3D](3D_view/pl.md).
 
-The axis cross consists of three arrows representing the positive X, Y and Z axis of the global coordinate system. Their common start point is the origin of the global coordinate system.
+Krzyż osi składa się z trzech strzałek reprezentujących osie X, Y i Z globalnego układu współrzędnych w kierunku dodatnim. Ich wspólnym punktem początkowym jest początek globalnego układu współrzędnych.
 
 ![](images/Std_AxisCross_example.svg ) 
-*The axis cross (the letters are not part of the axis cross)*
+*Krzyż osi ''(litery nie są częścią krzyża osi)''.*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Select the **View → <img src="images/Std_AxisCross.svg" width=16px> Toggle axis cross** option from the menu.
-    -   Use the keyboard shortcut   * **A** then **C**.
+1.  Istnieje kilka sposobów wywołania tego polecenia   *
+    -   Wybierz z menu opcję **Widok → <img src="images/Std_AxisCross.svg" width=16px> Przełącz krzyż osi**.
+    -   Użyj skrótu klawiaturowego   * **V** kolejnie **P**.
 
-## Notes
+## Uwagi
 
--   FreeCAD can display a smaller coordinate system indicator in the bottom right corner of 3D views   * **Edit → Preferences... → Display → 3D View → Show coordinate system in the corner**. See [Preferences Editor](Preferences_Editor#3D_View.md).
--   The [Navigation Cube](Navigation_Cube.md) also includes a coordinate system indicator.
+-   FreeCAD może wyświetlać mniejszy symbol układu współrzędnych w prawym dolnym rogu okna widoków 3D   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Pokaż w narożniku symbol układu współrzędnych**. Patrz [Edytor preferencji](Preferences_Editor/pl#Widok_3D.md)
+-   [Kostka do nawigacji 3D](Navigation_Cube/pl.md) zawiera również wskaźnik układu współrzędnych.
 
-## Preferences
+## Ustawienia
 
--   The default for the axis cross can be changed in the preferences   * **Edit → Preferences... → Display → 3D view → Show axis cross by default**. See [Preferences Editor](Preferences_Editor#3D_View.md). <small>(v0.19)</small> 
+Domyślne ustawienie krzyża osi można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Pokaż w narożniku symbol układu współrzędnych**. Przeczytaj również informacje o [Edytorze preferencji](Preferences_Editor/pl#Widok_3D.md). {{Version/pl|0.19}}
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To toggle the axis cross use the `setAxisCross` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+Aby przełączyć widoczność **symbolu osi**, należy użyć metody `setAxisCross` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
 
 
 ```python

@@ -1,53 +1,54 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign SubtractiveEllipsoid
-   MenuLocation   *Part Design → Create a subtractive primitive → Subtractive Ellipsoid
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
+- GuiCommand   */ru
+   Name/ru   *Субтрактивный эллипсоид
+   Name   *PartDesign_SubtractiveEllipsoid
+   MenuLocation   *Part Design → Создать субтрактивный примитив → Субтрактивный эллипсоид
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveEllipsoid](PartDesign_AdditiveEllipsoid.md)
+   SeeAlso   *[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный эллипсоид](PartDesign_AdditiveEllipsoid/ru.md)
 ---
 
 # PartDesign SubtractiveEllipsoid/ru
 
-## Description
+## Описание
 
-Inserts a subtractive ellipsoid in the active Body. Its shape is subtracted from the existing solid.
+Вставляет эллипсоид в активное Тело. Его форма вычитается из существующего тела.
 
 ![](images/PartDesign_SubtractiveEllipsoid_example.svg )
 
-*On the left   * active body (A) shown in grey and subtractive ellipsoid (B) shown in transparent red; result on the right.*
+*Слева   * активное тело (A) отображено серым цветом, к которому добавлен субтрактивный эллипсоид (B) отображен прозрачным красным цветом. Справа   * форма полученная в результате преобразования.*
 
-## Usage
+## Применение
 
-1.  Press the **<img src="images/PartDesign_SubtractiveEllipsoid.svg" width=24px> '''Subtractive Ellipsoid'''** button. **Note**   * the Subtractive Ellipsoid is part of an icon menu labelled *Create an subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Ellipsoid button, click on the down arrow besides the visible icon and select Subtractive Ellipsoid in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  An Ellipsoid feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_SubtractiveEllipsoid.svg" width=24px> '''Субтрактивный эллипсоид'''**. **Примечание**   * Инструмент Субтрактивный эллипсоид входит в состав меню с названием \"Создать субтрактивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Субтрактивный куб. Чтобы перейти к кнопке создания Эллипсоида, нажмите на стрелку указывающую вниз рядом со значком и выберите Субтрактивный эллипсоид в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Эллипсоид появится в иерархии документа под активным Телом.
 
-## Options
+## Опции
 
-The Ellipsoid can be edited after its creation in two ways   *
+Параметры Эллипсоида после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
-## Properties
+## Свойства
 
--    **Attachment**   * defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+-    **Attachment**   * Определяет режим крепления, а также смещение конструктивного элемента при его [креплении](Part_EditAttachment/ru.md).
 
--    **Label**   * label given to the Ellipsoid object. Change to suit your needs.
+-    **Label**   * Метка, присвоенная объекту Эллипсоид. Может быть изменена в соответствии с вашими потребностями.
 
--    **Radius1**   * the radius value along the ellipsoid\'s vertical axis; by default, parallel to the Z-axis.
+-    **Radius1**   * радиус эллипсоида вдоль вертикальной полуоси; по умолчанию параллельной оси Z.
 
--    **Radius2**   * the radius value along the ellipsoid\'s length; by default, parallel to the X-axis.
+-    **Radius2**   * радиус эллипсоида вдоль горизонтальной первой полуоси; по умолчанию параллельной оси X.
 
--    **Radius3**   * the radius value along the ellipsoid\'s width; by default, parallel to the Y-axis. At the default value of zero, the ellipsoid forms an [oblate spheroid](http   *//en.wikipedia.org/wiki/Oblate_spheroid).
+-    **Radius3**   * радиус эллипсоида вдоль горизонтальной второй полуоси; по умолчанию параллельной оси Y. При значении по умолчанию, равном нулю, эллипсоид образует [сфероид вращения](https   *//ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%BB%D0%B8%D0%BF%D1%81%D0%BE%D0%B8%D0%B4_%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D1%8F).
 
--    **Angle1**   * (labelled *V parameter* in the Primitive parameters) lower truncation of the ellipsoid, parallel to the circular cross section (-90 degrees in a full spheroid)
+-    **Angle1**   * (Обозначено, как *Параметр V* в настройках параметров эллипсоида) усечение верхней части эллипсоида, параллельное круглому поперечному сечению (для полного сфероида значение должно быть равно -90 градусов)
 
--    **Angle2**   * (unlabelled in the Primitive parameters) upper truncation of the ellipsoid, parallel to the circular cross section (90 degrees in a full spheroid).
+-    **Angle2**   * (Параметр без названия в настройках параметров эллипсоида) усечение нижней части эллипсоида, параллельное круглому поперечному сечению (для полного сфероида значение должно быть равно 90 градусов).
 
--    **Angle3**   * (labelled *U parameter* in the Primitive parameters) angle of rotation of the elliptical cross section (360 degrees in a full spheroid).
+-    **Angle3**   * (Обозначено, как *Параметр U* в настройках параметров эллипсоида) угол поперечного выреза эллипсоида (для полного сфероида значение должно быть равно 360 градусов).
 
 
 

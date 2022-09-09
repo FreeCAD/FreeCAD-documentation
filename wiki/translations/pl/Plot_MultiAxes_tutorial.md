@@ -141,4 +141,4 @@ Teraz możesz zapisać swoją pracę. Zobacz [poprzedni poradnik](Plot_Basic_tut
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot MultiAxes tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot MultiAxes tutorial/pl

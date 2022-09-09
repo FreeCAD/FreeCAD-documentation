@@ -1,85 +1,46 @@
----
-- TutorialInfo   */fr
-   Topic   *Robot Workbench
-   Level   *Intermediate
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
----
-
 # VRML Preparation for Robot Simulation/fr
+{{TutorialInfo/fr
+|Topic=Atelier Robot
+|Level=Intermediaire
+|Time=
+|Author=
+|FCVersion=0.11.4252ppa1
+|Files=
+}}
 
 
+**L'atelier FreeCAD Robot n'est plus maintenu. SVP, signalez dans le forum FreeCAD si vous êtes intéressés à maintenir cet atelier.**
 
+## Présentation
 
-<div class="mw-translate-fuzzy">
+Ce tutoriel explique comment utiliser FreeCAD et l\'<img alt="" src=images/Workbench_Robot.svg  style="width   *24px;"> [atelier de simulation Robot](Robot_Workbench/fr.md) pour simuler les mouvements d\'un robot série à 6 axes. **Le tutoriel se concentre sur la création du fichier VRML** utilisé comme visualisation. La base du fichier VRML est un modèle FreeCAD. La version de FreeCAD utilisée est 0.11.4252ppa1 sur Ubuntu 32bit.
 
+## Ouvrir un fichier ou en créer un avec FreeCAD 
 
-
-
-</div>
-
-
-**The FreeCAD Robot Workbench is unmaintained. Please mention on the FreeCAD forum if you have an interest in maintaining this 
-workbench.**
-
-## Overview
-
-
-<div class="mw-translate-fuzzy">
-
-Ce tutoriel explique comment utiliser FreeCAD et le **Workbench Simulation Robot** pour simuler les mouvements du robot sur **6 axes**.
-Le tutoriel se concentre sur la création du fichier **VRML** utilisé pour la visualisation. La base du fichier **VRML** est un modèle FreeCAD. La version de FreeCAD utilisée est **0.11.4252ppa1** sur Ubuntu 32 bits.
-
-
-</div>
-
-## Ouvrir un fichier, ou en créer un avec FreeCAD 
-
-Le tutoriel est basé sur un **fichier-STEP** d\'un **[Stäubli TX40](http   *//www.staubli.com/fr/robotique/robots-4-et-6-axes/robots-petits-porteurs/tx40/)**, vous pouvez télécharger le fichier [fichier TX40-HB.stp](https   *//secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html), la méthode, devrait également s\'appliquer à un modèle entièrement réalisé dans FreeCAD, cependant, je n\'ai pas encore eu le temps de vérifier ce point.
-Après l\'ouverture du fichier, vous devriez obtenir ceci    *
+Ce tutoriel est basé sur un fichier STEP d\'un Stäubli TX40 (TX40-HB.stp). Vous pouvez télécharger ce fichier à partir de [Stäubli](https   *//secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html). Cependant, bien que je n\'aie pas encore eu le temps de le vérifier, la méthode devrait également s\'appliquer à un modèle entièrement réalisé dans FreeCAD. Après avoir ouvert le fichier, vous devriez obtenir ceci    *
 
 <img alt="" src=images/staeubli_step_import.png  style="width   *1024px;">
 
+Remarquez, qu\'à l\'importation, le robot est composé de 8 formes, directement à la racine de l\'arbre du document. La structure du fichier VRML exporté peut changer si des groupes sont utilisés. Les formes sont ordonnées de la base à l\'outil. La dernière forme contient les axes de rotations de tous les axes du robot. La corrélation nom de forme - nom de pièce est donnée par (pour l\'instant (mars 2011) FreeCAD n\'importe pas les noms inclus dans les fichiers STEP)    *
 
-<div class="mw-translate-fuzzy">
-
-On notera que pour l\'importation, le robot est composé de 8 formes, directement sur la racine de l\'arbre du document.
-La structure du fichier **VRML** exporté peut changer si des groupes sont utilisés. Les formes sont commandées à partir de la base de l\'outil.
-La dernière forme contient les axes de rotation de tous les axes du robot.
-Le nom de forme de corrélation, le nom de la pièce est donné (pour l\'instant (Mars 2011) par FreeCAD, FreeCAD n\'importe pas encore les noms inclus dans les fichiers STEP)    *
-
-
-</div>
-
-  FreeCAD name   STEP name
+  Nom FreeCAD   Nom STEP
    
-  TX40\_HB       HORIZONTAL BASE CABLE OUTLET
-  TX40\_HB001    SHOULDER
-  TX40\_HB002    ARM
-  TX40\_HB003    ELBOW
-  TX40\_HB004    FOREARM
-  TX40\_HB005    WRIST
-  TX40\_HB006    TOOL FLANGE
-  TX40\_HB007    ?
+  TX40\_HB      HORIZONTAL BASE CABLE OUTLET
+  TX40\_HB001   SHOULDER
+  TX40\_HB002   ARM
+  TX40\_HB003   ELBOW
+  TX40\_HB004   FOREARM
+  TX40\_HB005   WRIST
+  TX40\_HB006   TOOL FLANGE
+  TX40\_HB007   ?
 
+Pour cette importation, changez le \"Mode d\'affichage\" de chaque forme, à l\'exception de TX40\_HB007, de \"Flat Lines\" à \"Shaded\" pour que l\'exportation VRML soit bonne. J\'ai également changé les couleurs en \[245, 196, 0\] et \[204, 204, 204\] pour mieux correspondre au jaune de Stäubli. Cachez TX40\_HB007 car il contient les axes de toutes les articulations et ne peut pas être démonté.
 
-<div class="mw-translate-fuzzy">
+## Mesurer les caractéristiques géométriques 
 
-Pour cette importation, changez le \"Mode d\'affichage\" de chaque forme, à l\'exception **TX40\_HB007**, de \"**lisser**\" les lignes en \"**Ombrage**\" pour l\'exportation **VRML** pour faire bonne figure. J\'ai aussi changé les couleurs de **\[245, 196, 0\]** et **\[204, 204, 204\]** afin de mieux correspondre au jaune Stäubli.
-Masquer **TX40\_HB007** car il contient les axes de tous les joints et ne peut pas être démonté.
+Afin de construire la table de Denavit-Hartenberg (voir [Robot 6 Axes](Robot_6-Axis/fr.md)) et de préparer le fichier VRML, vous devez obtenir les caractéristiques du robot. Pour l\'instant, l\'outil de mesure de FreeCAD n\'est pas prêt, vous pouvez utiliser les axes inclus dans TX40\_HB007 (les coordonnées sont indiquées en bas à gauche lorsque vous pointez un objet avec la souris) ou vous devez utiliser la console Python pour obtenir quelques informations sur la géométrie. Notez que la table DH n\'est nécessaire que si vous devez utiliser la cinématique inverse, c\'est-à-dire obtenir les coordonnées cartésiennes ou piloter le robot avec des coordonnées cartésiennes. La table DH pour ce robot est la suivante (mm, deg et deg/s)    *
 
-
-</div>
-
-## Mesure des caractéristiques géométriques 
-
-Afin de construire la table [Denavit-Hartenberg](http   *//fr.wikipedia.org/wiki/Denavit-Hartenberg) (voir [6-Axis\_Robot](Robot_6-Axis/fr.md) ) et de préparer le fichier [VRML](http   *//fr.wikipedia.org/wiki/Virtual_Reality_Markup_Language), que vous avez besoin pour obtenir des caractéristiques du Robot. Pour l\'instant, l\'outil de mesure de FreeCAD n\'est pas prêt, vous pouvez utiliser les axes inclus dans **TX40\_HB007** (les coordonnées sont indiquées en bas à gauche lorsque vous pointez un objet avec la souris) ou vous devez utiliser la [console Python](Introduction_to_Python/fr.md) pour obtenir des informations sur la forme géométrique.
-Notez que, le **DH-tableau** n\'est nécessaire que si vous avez besoin d\'utiliser la cinématique inverse, c\'est à dire obtenir les coordonnées cartésiennes ou de commander le robot en coordonnées cartésiennes.
-La **DH-table** pour ce robot est le suivant **(mm, degrés et deg/s)**    *
-
-  i   d     θ         r     α     θmin   θmax    Axis velocity
+  i   d     θ         r     α     θmin   θmax    Vitesse de l\'axe
   ---       
   1   320   q1        0     -90   -180   180     555
   2   35    q2 - 90   225   0     -125   125     475
@@ -88,9 +49,9 @@ La **DH-table** pour ce robot est le suivant **(mm, degrés et deg/s)**    *
   5   0     q5        0     90    -120   133.5   1135
   6   65    q6        0     0     -270   270     1575
 
-Le fichier **csv** est    *
+Le fichier csv est alors    *
 
- a  , alpha, d  , theta, rotDir, maxAngle, minAngle, AxisVelocity
+a  , alpha, d  , theta, rotDir, maxAngle, minAngle, AxisVelocity
 0  ,   -90, 320,     0,      1,      180,     -180, 555
 225,     0,  35,   -90,      1,      125,     -125, 475
 0  ,    90,   0,    90,      1,      138,     -138, 585
@@ -98,18 +59,9 @@ Le fichier **csv** est    *
 0  ,    90,   0,     0,      1,    133.5,     -120, 1135
 0  ,     0,  65,     0,      1,      270,     -270, 1575
 
+## Exportation en VRML 
 
-<div class="mw-translate-fuzzy">
-
-## Exporter en VRML 
-
-Exporter le document dans un fichier VRML.
-La structure du fichier VRML est la suivante    *
-
-
-</div>
-
-
+Exportez le document vers un fichier VRML. La structure du fichier VRML est la suivante    * 
 
 #VRML V2.0 utf8
 Group {
@@ -154,20 +106,13 @@ Group {
 
 Vous pouvez remarquer que nous avons 8 groupes indépendants, correspondants aux 8 formes.
 
+## Préparation du fichier VRML 
 
-<div class="mw-translate-fuzzy">
-
-## Préparation du dossier de vrml 
-
-Toutes les formes dans le fichier **vrml** sont exprimées dans le cadre de base, indépendamment les uns des autres. Pour le **Workbench Simulation Robot**, nous avons besoin de créer une structure où, un mouvement de formes induit un mouvement de toutes les formes qui se trouveront ensuite dans la structure. Le placement des formes sera relatif à la forme précédente, nous avons donc besoin d\'inclure quelques modifications à partir du système de référence absolu vers le système relatif.
-Les traductions sont décrites dans le tableau suivant    *
-
-
-</div>
+Toutes les formes du fichier VRML sont exprimées dans le cadre de base, indépendamment les unes des autres. Pour l\'[atelier de simulation Robot](Robot_Workbench/fr.md), nous devons créer une structure où le mouvement d\'une forme induit un mouvement de toutes les formes situées après dans la structure. Le placement des formes sera relatif à la forme précédente, nous devons donc inclure des translations du système de référence absolu vers le système relatif. Ces translations sont décrites dans l\'image suivante    *
 
 ![](images/staeubli_important_points.png )
 
-With
+Avec
 
    *   A=(0, 0, 168)
    *   B=(0, 107.8, 320)
@@ -176,24 +121,11 @@ With
    *   E=(0, 35, 770)
    *   F=(0, 35, 835).
 
-Prenons l\'exemple de l\'axe **4** entre le coude et avant-bras, située à **D = (xd, yd, zd)**.
-Le point d\'ancrage pour l\'axe de FreeCAD est    * 
+Prenons l\'exemple de l\'axe 4 entre ELBOW et FOREARM, situé à D=(xd, yd, zd). L\'ancrage de l\'axe FreeCAD est le suivant 
 
 "DEF FREECAD_AXIS4 Transform { rotation 0 1 0 0 children ["
 
-
-
-
-<div class="mw-translate-fuzzy">
-
-Cela correspond à une rotation autour de l\'axe **y**. Dans le modèle CAO, la rotation se fait sur l\'axe **z**. Ainsi, nous avons besoin d\'une rotation autour de l\'axe **x** de **$\pi$** avant la définition des axes de FreeCAD et de **-$\pi$** après. En outre, une traduction de **(-xd, yd-,-zd)** est nécessaire juste avant le groupe correspondant à la définition de l\'avant bras, et de l\'exprimer dans le cadre de référence centré par rapport à **D**.
-Cela signifie que la traduction de **(xd, yd, zd)** doit être insérée avant la première rotation.
-A la fin, le **fichier vrml** à partir de la définition du **COUDE** (ELBOW) vers la définition de l**\'avant bras** (FOREARM) ressemble à ceci    *
-
-
-</div>
-
-
+ Cela correspond à une rotation autour de l\'axe des y. Dans le modèle CAO, la rotation se fait autour de l\'axe z. Ainsi, nous avons besoin d\'une rotation autour de l\'axe des x de $\pi$ avant la définition de l\'axe FreeCAD et de $-\pi$ après celle-ci. De même, une translation de (-xd, -yd, -zd) est nécessaire juste avant le groupe correspondant à la définition de FOREARM pour l\'exprimer dans le référentiel relatif centré sur D. Cela signifie qu\'une translation de (xd, yd, zd) doit être insérée avant la première rotation. A la fin, le fichier VRML de la définition de ELBOW à la définition de FOREARM ressemble à ceci    * 
 
       # ELBOW
       Group {
@@ -220,7 +152,7 @@ A la fin, le **fichier vrml** à partir de la définition du **COUDE** (ELBOW) v
 
 
 
-En fin de document, les crochets de fermeture appropriés doivent être insérés   * 
+En fin de document, les crochets de fermeture appropriés doivent être insérés    * 
 
 #VRML V2.0 utf8
   
@@ -351,17 +283,7 @@ Group {
   }
 }
 
-
-
-
-<div class="mw-translate-fuzzy">
-
-Voici un **patch** pour obtenir un fichier **vrml** convenant à la simulation du robot    *
-
-
-</div>
-
-
+ Voici un patch pour obtenir le fichier VRML adapté à la simulation de robot    * 
 
 7a8
 >         # HORIZONTAL BASE CABLE OUTLET 

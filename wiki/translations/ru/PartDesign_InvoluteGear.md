@@ -1,53 +1,43 @@
 ---
 - GuiCommand   */ru
-   Name   *PartDesign InvoluteGear
-   Name/ru   *PartDesign InvoluteGear
-   MenuLocation   *Part Design → Involute gear...
+   Name/ru   *Шестерня с эвольвентным профилем
+   Name   *PartDesign_InvoluteGear
+   MenuLocation   *Part Design → Шестерня с эвольвентным профилем...
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso   *[Верстак FCGear](FCGear_Workbench/ru.md)
 ---
 
 # PartDesign InvoluteGear/ru
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Описание
 
-Инструмент позволяет создавать двумерный профиль внутренней шестерёнчатой передачи. Этот профиль полностью параметрический, и может быть оформлен с помощью [выдавливания](PartDesign_Pad/ru.md).
-
-
-</div>
+Инструмент позволяет создать двумерный профиль эвольвентного зубчатого колеса (шестерни). Этот профиль полностью параметрический настраиваемый, и может быть преобразован в твердое тело с помощью [выдавливания](PartDesign_Pad/ru.md) или инструмента [Аддитивная спираль](PartDesign_AdditiveHelix.md).
 
 For more detailed information see Wikipedia\'s entries for   * [Gear](https   *//en.wikipedia.org/wiki/Gear) and [Involute Gear](https   *//en.wikipedia.org/wiki/Involute_gear)
 
 ![](images/PartDesign_Involute_Gear_01.png )
 
-## Usage
+## Применение
 
-### Create the profile 
+### Создание профиля 
 
-1.  Optionally activate the correct body.
-2.  Go to the menu **Part Design → [<img src=images/PartDesign_InternalExternalGear.svg style="width   *16px"> Involute gear...**.
-3.  Set the Involute parameters.
-4.  Click **OK**.
-5.  If there was no active body   * drag and drop the gear into a body for the application of further features like padding.
+1.  По желанию активируйте подходящее тело (необязательно) .
+2.  Выберите пункт меню **Part Design → [<img src=images/PartDesign_InternalExternalGear.svg style="width   *16px"> Шестерня с эвольвентным профилем...**.
+3.  Установите параметры эвольвентного зацепления.
+4.  Нажмите **OK**.
+5.  Если при создании профиля активного Тело не было выбрано, тогда переместите сформированный профиль в какое-нибудь Тело чтобы в дальнейшем выдавить или вырезать полученный профиль.
 
-### Create a spur gear 
+### Формирование зубчатого колеса из профиля 
 
-1.  Select the gear profile in the [Tree view](Tree_view.md).
-2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesign_Pad.md)** button.
-3.  Set the pad\'s **Length** to the desired face width of the gear.
-4.  Click **OK**
+1.  Выберите уже сформированный профиль зубчатого колеса в [иерархии проекта](Tree_view/ru.md).
+2.  Примените инструмент **<img src="images/PartDesign_Pad.svg" width=16px> [Выдавливание](PartDesign_Pad/ru.md)**.
+3.  Установите величину выдавливания **Length** чтобы получить зубчатое колесо желаемой толщины.
+4.  Нажмите **OK**
 
-### Create a helical gear 
+### Создание косозубого зубчатого колеса 
 
 
-<small>(v0.19)</small> 
+{{Version/ru|0.19}}
 
 1.  Select the gear profile in the [Tree view](Tree_view.md).
 2.  Press the **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)** button.
@@ -74,39 +64,33 @@ Hint   * To make the helical angle an accessible parameter, use a *dynamic prope
 6.  Assign the desired helical angle to the new property.
 7.  In the formula of the **Turns** property of the AdditiveHelix, you can now reference `InvoluteGear.HelicalAngle` instead of the hard coded value of e.g. `25°`; again assuming `InvoluteGear` is the **Name** of the profile.
 
-## Properties
+## Свойства
 
--    **External Gear**   * True or false
+-    **External Gear**   * Внешнее зацепление - Да или Нет
 
--    **High Precision**   * True or false
+-    **High Precision**   * Высокая точность - Да или Нет
 
--    **Modules**   * Pitch diameter divided by the number of teeth.
+-    **Modules**   * Модуль - Диаметр делительной окружности, деленный на количество зубцов.
 
--    **Number Of Teeth**   * Sets the number of teeth.
+-    **Number Of Teeth**   * Задает количество зубьев.
 
 -    **Pressure Angle**   * Acute angle between the line of action and a normal to the line connecting the gear centers. Default is 20 degrees. ([More info](https   *//en.wikipedia.org/wiki/Involute_gear))
 
-## Limitations
+## Ограничения
 
 -   It is currently not possible to adjust the tooth thickness. Tooth and tooth space are distributed equally on the pitch circle. Thus the only way to control backlash is to adjust the center distance in a gear paring.
 -   There is currently no [undercut](https   *//www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) in the generated gear profile. That means gears with a low number of teeth can interfere with the teeth of the mating gear. The lower limit depends on the **Pressure Angle** and is around 17 teeth for 20° and 32 for 14.5°. Most practical applications tolerate a missing undercut for gears a little smaller than this theoretical limit though.
 
-## Tutorials
+## Материалы для изучения 
 
-[How to make gears in FreeCAD](https   *//www.youtube.com/watch?v=8VNhTrnFMfE)
+[Как создавать шестерни в FreeCAD](https   *//www.youtube.com/watch?v=8VNhTrnFMfE)
 
-## Related
+## Сопутствующая информация 
 
--   [FCGear Workbench](FCGear_Workbench.md)
-
-
-<div class="mw-translate-fuzzy">
+-   [Верстак FCGear](FCGear_Workbench/ru.md)
 
 
 
-
-
-</div>
 
 
 {{PartDesign Tools navi

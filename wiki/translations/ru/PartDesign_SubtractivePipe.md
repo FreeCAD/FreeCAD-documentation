@@ -1,21 +1,18 @@
 ---
 - GuiCommand   */ru
-   Name/ru   *Субтрактивный трубный профиль
+   Name/ru   *Субтрактивный профиль по траектории
    Name   *PartDesign_SubtractivePipe
-   MenuLocation   *Part Design → Create a substractive feature → Субтрактивный трубный профиль
+   MenuLocation   *Part Design → Create a substractive feature → Субтрактивный профиль по траектории
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Аддитивный трубный профиль](PartDesign_AdditivePipe/ru.md), [Субтрактивный профиль](PartDesign_SubtractiveLoft/ru.md)
+   SeeAlso   *[Аддитивный профиль по траектории](PartDesign_AdditivePipe/ru.md), [Субтрактивный профиль](PartDesign_SubtractiveLoft/ru.md)
 ---
 
 # PartDesign SubtractivePipe/ru
 
-
-</div>
-
 ## Описание
 
-**Субтрактивный трубный профиль** создает субтрактивное твердое тело в активном теле, перемещая один или несколько эскизов (также называемых поперечными сечениями) по открытому или замкнутому контуру. После чего созанная форма вычитается из существующего твердого тела. Субтрактивный трубный профиль часто применяется совместно с инструментами   * [спираль](Part_Helix/ru.md) и [связующая форма](PartDesign_ShapeBinder/ru.md) для создания резьбы; подробности см. в [руководстве по созданию резьбы](Thread_for_Screw_Tutorial/ru.md).
+**Субтрактивный профиль по траектории** создает субтрактивное твердое тело в активном теле, перемещая один или несколько эскизов (также называемых поперечными сечениями) по открытому или замкнутому контуру. После чего созанная форма вычитается из существующего твердого тела. Субтрактивный профиль часто применяется совместно с инструментами   * [спираль](Part_Helix/ru.md) и [связующая форма](PartDesign_ShapeBinder/ru.md) для создания резьбы; подробности см. в [руководстве по созданию резьбы](Thread_for_Screw_Tutorial/ru.md).
 
 ## Применение
 
@@ -79,7 +76,7 @@
 
 -    **Transformation**   * *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
 
-## Notes
+## Примечания
 
 
 <div class="mw-translate-fuzzy">

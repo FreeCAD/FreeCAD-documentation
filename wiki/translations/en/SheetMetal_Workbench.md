@@ -118,6 +118,8 @@ Until tutorial pages are available on this wiki there is an [Examples](SheetMeta
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width   *100px;">
 
+It contains some hints about [properties](SheetMetal_Examples#SheetMetal_properties.md) as well.
+
 ## Limitations
 
 -   The workbench is affected by the [topological naming issue](Glossary#Topological_Naming.md) that is inherent to FreeCAD. If an edit of a bend earlier in the history of the part renumbers the faces, then the following bends may be affected and switch faces. If the bend features do not break, you can double-click on it to get a dialog where you can select the proper face in the [3D view](3D_view.md), and update the Bend.

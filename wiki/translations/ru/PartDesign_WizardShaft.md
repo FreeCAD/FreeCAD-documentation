@@ -11,25 +11,11 @@
 
 </div>
 
-## Description
+## Описание
 
+Данный инструмент позволяет создать вал на основе значений таблицы, также проводить анализ силы и моментов. Мастер можно запустить через меню **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width   *20px"> Мастер проектирования вала...**.
 
-<div class="mw-translate-fuzzy">
-
-## Введение
-
-Этот инструмент позволяет создавать вал из таблицы значений, а также анализировать силы и моменты. Вы можете запустить мастер из меню «Дизайн детали» или набрав
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-в консоль Python FreeCAD. Мастер запустится и покажет таблицу по умолчанию, соответствующую часть вала и графики силы / момента.
-
-
-</div>
+Запущенный Мастер отобразит таблицу с значениями по умолчанию, соответствующую деталь вала и графики сил/моментов.
 
 <img alt="" src=images/WizardShaft_Part.jpg  style="width   *780px;">
 
@@ -41,7 +27,7 @@ The top of the window is taken up by the table. It is organized into numbered co
 
 The shaft design wizard depends on the [matplotlib](http   *//matplotlib.org/) library to create and display the graphs of shear force and bending moment. On Debian/Ubuntu-based systems, it is available through the python-matplotlib package.
 
-## Parameters
+## Параметры
 
 For each shaft segment, the following parameters can be defined
 
@@ -56,15 +42,15 @@ For each shaft segment, the following parameters can be defined
 
 (Other rows and load types exist but no functionality has been implemented yet)
 
-## Menus
+## Меню
 
-To add a new shaft segment, right-click into the empty space to the right of the table, and choose \"Add column\".
+Чтобы добавить новый сегмент вала, щелкните правой кнопкой мыши на пустом месте справа от таблицы и выберите \"Добавить столбец\".
 
-## Limitations
+## Ограничения
 
--   It is not possible to have adjacent shaft segments with the same diameter.
+-   Невозможно создавать соседние сегменты вала с одинаковым диаметром.
 
-## Planned functionality 
+## Планируемая функциональность 
 
 -   Table-driven chamfers and rounds on the shaft edges
 -   Recognize a previously created shaft wizard part and initialize the table values from it

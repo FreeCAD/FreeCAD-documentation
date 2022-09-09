@@ -1,11 +1,11 @@
 ---
 - TutorialInfo   */ru
-   Topic   *Architecture
-   Level   *Beginner
+   Topic   *Архитектура
+   Level   *Для начинающих
    Time   *60 минут
    Author   *[https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion   *0.18 или выше
-   Files   *none
+   FCVersion   *0.18 и выше
+   Files   *нет
 ---
 
 # Tutorial for open windows/ru
@@ -14,7 +14,7 @@
 
 
 
-## Introduction
+## Введение
 
 This tutorial shows how to place [Arch Windows](Arch_Window.md) and Doors in a building model, how to display them as open in the 3D view, and how to create a 2D drawing (plan and elevation projection) for the model. It uses the [Draft Workbench](Draft_Workbench.md), the [Arch Workbench](Arch_Workbench.md), and the [TechDraw Workbench](TechDraw_Workbench.md).
 
@@ -24,7 +24,7 @@ See also the following page for some videos on how to work with windows and door
 
 -   [The workbench used to create architectural projects is called Arch](http   *//help-freecad-jpg87.fr/04_arch_ind.php)
 
-## Setup
+## Подготовка
 
 1\. Open FreeCAD, create a new empty document, and switch to the [Arch Workbench](Arch_Workbench.md).
 
@@ -36,7 +36,7 @@ See also the following page for some videos on how to work with windows and door
 
 Now we are ready to create a simple building with closed walls, two doors and two windows.
 
-## Placing a wall 
+## Размещение стен 
 
 5\. Use the [Draft Wire](Draft_Wire.md) tool to create a closed wire. Go counterclockwise.
 
@@ -62,7 +62,7 @@ Now we are ready to create a simple building with closed walls, two doors and tw
 <img alt="" src=images/02_T01_just_wall.png  style="width   *600px;"> 
 *align=center|Wall constructed from the wire*
 
-## Placing doors and windows 
+## Размещение окон и дверей 
 
 8\. Click the [Arch Window](Arch_Window.md) tool; as preset select `Simple door`, and change the height to 2 m.
 
@@ -114,7 +114,7 @@ when placing a window or a door with a preset, hover the element over the [Arch 
 
 occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as long as the element is parallel to that wall, you should be able to correct the position manually.
 
-## Opening the doors 
+## Указание направления открытия дверей 
 
 10\. In the tree view select `Sketch` underlying `Door`, and press **Space**, or change the property **Visibility** to `True`
 
@@ -157,7 +157,7 @@ occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as 
 <img alt="" src=images/09_T01_window_symbol_plan.png  style="width   *600px;"> 
 *align=center|Door with plan symbol, top view*
 
-## Opening the windows 
+## Указание направления открытия окон 
 
 15\. In the tree view select `Sketch002` underlying `Window`, and press **Space**, or change the property **Visibility** to `True`.
 
@@ -192,7 +192,7 @@ occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as 
 <img alt="" src=images/11_T01_window_all_symbol_top.png  style="width   *600px;"> 
 *align=center|Elevation and plan symbols for all elements, top view*
 
-## Making a floor plan of the building 
+## Создание плана помещения 
 
 20\. Still in the [Arch Workbench](Arch_Workbench.md), select all components in the tree view, the [Arch Wall](Arch_Wall.md), the two [Arch Windows](Arch_Window.md), and the two [Arch Doors](Arch_Door.md), then use the [Arch SectionPlane](Arch_SectionPlane.md) tool to create a `Section` element.
 
@@ -241,7 +241,7 @@ set **All On** to `True` for [TechDraw ArchView](TechDraw_ArchView.md) objects s
 <img alt="" src=images/14_T01_TechDraw_window_all_symbols_elevation.png  style="width   *600px;"> 
 *align=center|Section view of the building, two top views, and one elevation view, A4 sheet, scale 1   *50*
 
-## Arch and TechDraw interaction 
+## Взаимодействие между верстаками Arch и TechDraw 
 
 As of the time of writing of this document (FreeCAD 0.18, November 2018), the [TechDraw Workbench](TechDraw_Workbench.md) can only display in its pages what the [Arch Workbench](Arch_Workbench.md) exports as [SVG](SVG.md). This means that the appearance of the elements included within the [Arch SectionPlane](Arch_SectionPlane.md) tool, and displayed by the [TechDraw ArchView](TechDraw_ArchView.md) tool, is controlled by the [Arch Workbench](Arch_Workbench.md).
 

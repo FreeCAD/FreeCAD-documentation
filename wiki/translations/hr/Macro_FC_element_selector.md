@@ -1,4 +1,7 @@
 # Macro FC element selector/hr
+<div class="mw-translate-fuzzy">
+
+
 {{Macro
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png
@@ -12,9 +15,18 @@
 |SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb/hr.md)
 }}
 
+
+</div>
+
 ## Opis
 
+
+<div class="mw-translate-fuzzy">
+
 Ovaj prikaz makronaredbe u izvješću prikazuje sve elemente ispod pokazivača (prikazat će se i svi elementi obuhvaćeni drugim elementima)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -211,7 +223,13 @@ element_selector()
 
 Rasprava na forumu [Selecting internal faces of a pressure vessel](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
 
+
+<div class="mw-translate-fuzzy">
+
 Drugi slični makro [Macro Mouse over cb](Macro_Mouse_over_cb/hr.md)
+
+
+</div>
 
 
 

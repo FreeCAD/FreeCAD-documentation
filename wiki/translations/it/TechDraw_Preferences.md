@@ -107,8 +107,6 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 <img alt="Preferenze per le dimensioni" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
-### Dimensioni 
-
 
 <div class="mw-translate-fuzzy">
 

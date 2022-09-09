@@ -358,7 +358,7 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-24.JPG  style="width   *800px;">
 
--   Clquez sur le cercle
+-   Cliquez sur le cercle
 -   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [**Contrainte radiale**](Sketcher_ConstrainRadius/fr.md)
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 3,5 mm et cliquez sur OK.
 

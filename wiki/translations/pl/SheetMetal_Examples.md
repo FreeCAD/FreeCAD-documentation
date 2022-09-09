@@ -3,7 +3,7 @@
 
 ## Wprowadzenie
 
-Środowisko pracy Arkusz Blachy stało się bardzo rozbudowane i wymaga odpowiedniej dokumentacji.
+Środowisko pracy <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width   *24px;"> [Arkusz Blachy](SheetMetal_Workbench/pl.md) *(jest [zewnętrznym środowiskiem](External_workbenches/pl.md) dostępnym poprzez [Menadżer dodatków](Std_AddonMgr/pl.md))* stało się bardzo rozbudowane i wymaga odpowiedniej dokumentacji.
 
 Aby uniknąć przepełnienia stron narzędziowych przykładami, dodano tę stronę w celu zebrania części pokazujących i wyjaśniających specjalne możliwości środowiska Arkusz Blachy.
 
@@ -17,32 +17,32 @@ Zaplanowane etapy tworzenia treści   *
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-01a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-01b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-01c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-01d.png  style="width   *200px;"> 
-*Workflow Hinge   *
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)*,
-{{Button|<img src="images/PartDesign_Pocket.svg" width=16px> [PartDesign Pocket](PartDesign_Pocket.md)**,
-**<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Hole](PartDesign_Hole.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
+*Przepływ pracy Zawias   *
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md)*,
+{{Button|<img src="images/PartDesign_Pocket.svg" width=16px> [Projekt części   * Kieszeń](PartDesign_Pocket/pl.md)**,
+**<img src="images/PartDesign_Hole.svg" width=16px> [Projekt Części   * Otwór](PartDesign_Hole/pl.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy   * Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
 
 
 <div class="mw-collapsible mw-collapsed">
 
-### Hinge step by step 
+### Zawias - krok po kroku 
 
 
 <div class="mw-collapsible-content toccolours">
 
-1.  Create a profile (a line and a tangent arc), preferably using the <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a BaseBend object.
-3.  Edit the BaseBend object\'s parameters   *
-    -   Set **Mid Plane** to `True`to let the profile extend symmetrically to both sides of the sketch plane.
-    -   Set **radius** and **thickness** to values of your choice.
-4.  Create a cut-out contour with the <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-5.  Use the <img alt="" src=images/PartDesign_Pocket.svg  style="width   *16px;"> [PartDesign Pocket](PartDesign_Pocket.md) command to cut off one half of the Round bit.
-6.  Create a hole pattern with the <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-7.  Use the <img alt="" src=images/PartDesign_Hole.svg  style="width   *16px;"> [PartDesign Hole](PartDesign_Hole.md) command. Avoid the countersink and counterbore options to keep the body unfoldable.
-8.  Activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Unfold](SheetMetal_Unfold.md) command to get an Unfold object.
-9.  Done!
+1.  Utwórz profil *(linię i łuk styczny)*, najlepiej korzystając ze środowiska <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Szkicownik](Sketcher_Workbench/pl.md).
+2.  Aktywuj funkcję <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md), aby utworzyć obiekt bazowy wyginania.
+3.  Edytuj parametry obiektu bazowego wyginania   *
+    -   Ustaw wartość parametru **Płaszczyzna środkowa** na {{TRUE/pl}}, aby profil rozciągał się symetrycznie na obie strony płaszczyzny szkicu.
+    -   Ustaw parametry **promień** i **grubość** na wybrane wartości.
+4.  Utwórz kontur do wycięcia za pomocą środowiska <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Szkicownik](Sketcher_Workbench/pl.md).
+5.  Użyj funkcji <img alt="" src=images/PartDesign_Pocket.svg  style="width   *16px;"> [Projekt Części   * Kieszeń](PartDesign_Pocket/pl.md), aby odciąć jedną połowę okrągłego kawałka.
+6.  Utwórz wzór otworu za pomocą środowiska <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Szkicownik](Sketcher_Workbench.md).
+7.  Użyj polecenia <img alt="" src=images/PartDesign_Hole.svg  style="width   *16px;"> [Projekt Części   * Otwór](PartDesign_Hole.md). Unikaj opcji pogłębiania i pogłębiania stożkowego, aby zachować możliwość rozłożenia korpusu.
+8.  Aktywuj polecenie <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Arkusz Blachy   * Rozwiń](SheetMetal_Unfold/pl.md), aby uzyskać obiekt w rozwinięciu.
+9.  Gotowe!
 
 
 </div>
@@ -54,73 +54,69 @@ Zaplanowane etapy tworzenia treści   *
 
 <img alt="" src=images/SheetMetal_Example-02.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-02a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-02b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-02c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-02d.png  style="width   *200px;"> 
-*Workflow Paper Clip   *
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)*,
-{{Button|<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Sketch on Sheet](SheetMetal_SketchOnSheet.md)**,
-clone, flip and fuse,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
+*Przepływ pracy Klips do papieru   *
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md)*,
+{{Button|<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Arkusz Blachy   * Szkic na arkuszu](SheetMetal_SketchOnSheet/pl.md)**,
+klonowanie, odwracanie i łączenie,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy   * Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
 
 
 <div class="mw-collapsible mw-collapsed">
 
-### Paper clip step by step 
+### Klips do papieru - krok po kroku 
 
 
 <div class="mw-collapsible-content toccolours">
 
-1.  Create a profile, preferably using the <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Sketcher Workbench](Sketcher_Workbench.md) on the XZ plane.
-    <img alt="Profile sketch" src=images/SheetMetal_Example-02e.png  style="width   *300px;">
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a BaseBend object.
-3.  Edit the BaseBend object\'s parameters in the properties panel   *
-    <img alt="BaseBend object and highlighted sketch" src=images/SheetMetal_Example-02f.png  style="width   *200px;">
-    -   Set **Mid Plane** to `True`to let the profile extend symmetrically to both sides of the sketch plane.
-    -   Set **length** to 32 mm.
-    -   Set **radius** to 2 mm.
-    -   Set **thickness** to 0.3 mm.
-4.  Select the face between the round sections and activate the <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-    <img alt="Face to support the sketch" src=images/SheetMetal_Example-02g.png  style="width   *200px;">
-5.  To hide the curled part use the <img alt="" src=images/Sketcher_ViewSection.svg  style="width   *16px;"> [Sketcher View section](Sketcher_ViewSection.md) command.
-6.  Create the cut-out contour.
-    <img alt="Cut-out contour" src=images/SheetMetal_Example-02h.png  style="width   *" height="240px;"> <img alt="Cut-out contour slightly touching the selected face" src=images/SheetMetal_Example-02i.png  style="width   *" height="240px;">
-7.  Finish the sketch using the <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width   *16px;"> [Sketcher Leave sketch](Sketcher_LeaveSketch.md) command.
-8.  Select the face again and add the Cut-out sketch to the selection.
-    <img alt="Face and sketch selected" src=images/SheetMetal_Example-02j.png  style="width   *200px;">
-9.  Use the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width   *16px;"> [Sketch on Sheet](SheetMetal_SketchOnSheet.md) command to cut around the curled bit.
-    <img alt="Finished first half" src=images/SheetMetal_Example-02b.png  style="width   *200px;">
-10. One side is finished. We now need to find a way to mirror the body.
+1.  Utwórz profil na płaszczyźnie XZ, najlepiej używając środowiska <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Szkicownik](Sketcher_Workbench/pl.md).
+    <img alt="Szkic profilu" src=images/SheetMetal_Example-02e.png  style="width   *300px;">
+2.  Aktywuj funkcję   * <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md) , aby utworzyć obiekt bazowy wyginania.
+3.  Edytuj parametry obiektu bazowego wyginania w panelu ustawień   *
+    <img alt="Obiekt bazowy wyginania z podświetlonym szkicem." src=images/SheetMetal_Example-02f.png  style="width   *200px;">
+    -   Ustaw wartość parametru **Płaszczyzna środkowa** na {{TRUE/pl}} aby profil rozciągał się symetrycznie na obie strony płaszczyzny szkicu.
+    -   Ustaw wartość parametru **Długość** na {{Value|32 mm}}.
+    -   Ustaw wartość parametru **Promień** na {{Value|2 mm}}.
+    -   Ustaw wartość parametru **Grubość** na {{Value|0.3 mm}}.
+4.  Wybierz powierzchnię pomiędzy okrągłymi sekcjami i aktywuj środowisko pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Szkicownik](Sketcher_Workbench/pl.md).
+    <img alt="Płaszczyzna do umieszczenia szkicu." src=images/SheetMetal_Example-02g.png  style="width   *200px;">
+5.  Aby ukryć zawiniętą część użyj funkcji <img alt="" src=images/Sketcher_ViewSection.svg  style="width   *16px;"> [Widok przekroju](Sketcher_ViewSection/pl.md).
+6.  Utwórz kontur wycięcia.
+    <img alt="Kontur wycięcia." src=images/SheetMetal_Example-02h.png  style="width   *" height="240px;"> <img alt="Wycięty kontur lekko dotykający wybranej powierzchni" src=images/SheetMetal_Example-02i.png  style="width   *" height="240px;">
+7.  Zakończ rysowanie używając funkcji <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width   *16px;"> [Opuść szkic](Sketcher_LeaveSketch/pl.md).
+8.  Ponownie wybierz powierzchnię ściany i dodaj do zaznaczenia szkic wycięcia.
+    <img alt="Powierzchnia z zaznaczonym szkicem." src=images/SheetMetal_Example-02j.png  style="width   *200px;">
+9.  Użyj polecenia <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width   *16px;"> [Szkic na arkuszu](SheetMetal_SketchOnSheet/pl.md), aby wykonać wycięcie wzdłuż zakręconego fragmentu.
+    <img alt="Zakończona pierwsza połowa." src=images/SheetMetal_Example-02b.png  style="width   *200px;">
+10. Jedna strona jest skończona. Teraz musimy znaleźć sposób na lustrzane odbicie korpusu.
 
-**Potential mirror options   ***
+**Potencjalne opcje wykonania odbicia lustrzanego   ***
 
--   The <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *16px;"> [PartDesign Mirrored](PartDesign_Mirrored.md) command fails because it cannot handle SheetMetal features for some reason. So that does not work.
--   The <img alt="" src=images/Part_Mirror.svg  style="width   *16px;"> [Part Mirror](Part_Mirror.md) command creates a mirrored part, but this is no longer unfoldable. So that does not work either.
--   One way that can work is to use a clone. This still can\'t be mirrored, but it can use axial symmetry (turn it 180°).
--   Another way that works is to use a link object.
+-   Polecenie <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *16px;"> [Projekt Części   * Odbicie lustrzane](PartDesign_Mirrored/pl.md) polecenie kończy się niepowodzeniem, ponieważ z jakiegoś powodu nie może obsługiwać elementów środowiska Arkusz Blachy. Tak więc to nie działa.
+-   Polecenie <img alt="" src=images/Part_Mirror.svg  style="width   *16px;"> [Część   * Odbicie lustrzane](Part_Mirror/pl.md) polecenie tworzy część w odbiciu lustrzanym, ale nie jest ona już rozkładana. Więc to też nie działa.
+-   Jednym sposobem, który działa, jest użycie klonu. To nadal nie jest odbicie lustrzane, ale może używać symetrii osiowej *(obróć go o 180°)*.
+-   Innym sposobem, który działa, jest użycie obiektu odnośnika.
 
-**Mirror using a clone   ***
+**Odbicie lustrzane z zastosowaniem klonu   ***
 
-1.  Select the body from the tree view.
-2.  Use the <img alt="" src=images/PartDesign_Clone.svg  style="width   *16px;"> [PartDesign Clone](PartDesign_Clone.md) command. It adds a new body containing a clone object.
-    To apply a 180° turn set the **Angle** under the Placement property of either the body or the clone to 180°. (Z axis is default and should be fine if you started on the XZ plane as described).
-    <img alt="Cloned half" src=images/SheetMetal_Example-02b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="Flipped cloned half" src=images/SheetMetal_Example-02l.png  style="width   *200px;">
-3.  With the body still active, use the <img alt="" src=images/PartDesign_Boolean.svg  style="width   *16px;"> [PartDesign Boolean operation](PartDesign_Boolean.md) command to add the body of the clone and fuse both halves.
-    <img alt="Fused halves" src=images/SheetMetal_Example-02c.png  style="width   *200px;">
-4.  Activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Unfold](SheetMetal_Unfold.md) command to get an Unfold object.
-    <img alt="Clip and Unfold object" src=images/SheetMetal_Example-02m.png  style="width   *200px;"> <img alt="Unfold object" src=images/SheetMetal_Example-02d.png  style="width   *200px;">
-5.  Done!
+1.  Zaznacz Zawartość z widoku drzewa.
+2.  Skorzystaj z polecenia <img alt="" src=images/PartDesign_Clone.svg  style="width   *16px;"> [Projekt Części   * Utwórz klon](PartDesign_Clone/pl.md). Doda nową Zawartość z obiektem klonu.
 
-**Mirror using a link object   ***
+Aby zastosować obrót o 180°, ustaw parametr **Kąt** we właściwości Umiejscowienie Zawartości lub klonu na wartość {{Value|180°}}. *(Oś Z jest domyślna i powinna być odpowiednia, jeśli zacząłeś na płaszczyźnie XZ, jak zalecano na wstępie)*.
+<img alt="Klonowana połowa" src=images/SheetMetal_Example-02b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="Odwrócona sklonowana połowa" src=images/SheetMetal_Example-02l.png  style="width   *200px;">
 
-1.  Select the body from the tree view.
-2.  Use the <img alt="" src=images/Std_LinkMake.svg  style="width   *16px;"> [Make link](Std_LinkMake.md) command. This adds a new link object.
-3.  Duplicate the link object by setting the property **Element Count** to 2.
-4.  To apply a 180° turn set the **Angle** under the Placement property of either of the sub-linked objects to 180°. (Z axis is default and should be fine if you started on the XZ plane as described).
-5.  Select both sub-linked objects in the tree view.
-6.  Activate the <img alt="" src=images/Part_Fuse.svg  style="width   *16px;"> [Part Fuse](Part_Fuse.md) command to fuse both halves.
-    <img alt="Fused halves" src=images/SheetMetal_Example-02c.png  style="width   *200px;">
-7.  Activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Unfold](SheetMetal_Unfold.md) command to get an Unfold object.
-    <img alt="Clip and Unfold object" src=images/SheetMetal_Example-02m.png  style="width   *200px;"> <img alt="Unfold object" src=images/SheetMetal_Example-02d.png  style="width   *200px;">
-8.  Done!
+1.  Mając wciąż aktywną Zawartość, użyj polecenia <img alt="link" src=images/PartDesign_Boolean.svg  style="width   *16px;"> [Projekt Części   * Funkcje logiczne](PartDesign_Boolean/pl.md) aby dodać Zawartość klonu i połączyć obie połówki.
+    <img alt="Połączone połówki" src=images/SheetMetal_Example-02c.png  style="width   *200px;">
+2.  Uruchom funkcję <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Rozwiń](SheetMetal_Unfold/pl.md) aby otrzymać obiekt rozwinięcia.
+    <img alt="Obiekt wycięty i rozwinięty" src=images/SheetMetal_Example-02m.png  style="width   *200px;"> <img alt="Obiekt rozwinięty" src=images/SheetMetal_Example-02d.png  style="width   *200px;">
+3.  Gotowe!
+
+**Odbicie lustrzane z zastosowaniem obiektu łącza   ***
+
+1.  Wybierz Zawartość z widoku drzewa.
+2.  Użyj narzędzia <img alt="" src=images/Std_LinkMake.svg  style="width   *16px;"> [Utwórz łącze](Std_LinkMake/pl.md). Stworzy to nowy obiekt łącza.
+3.  Powiel obiekt łącza, ustawiając wartość właściwości **Liczba elementów** na {{Value|2}}.
+4.  Aby zastosować obrót o 180° ustaw wartość właściwości **Kąt** pod właściwością Umiejscowienia któregokolwiek z obiektów łącza podrzędnego na {{Value|180°}}. *(Oś Z jest domyślna i powinna być odpowiednia, jeśli zacząłeś na płaszczyźnie XZ, jak zalecano na wstępie)*.
 
 
 </div>
@@ -132,76 +128,76 @@ clone, flip and fuse,
 
 <img alt="" src=images/SheetMetal_Example-03.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-03a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-03b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-03c.png  style="width   *200px;"> 
-*Workflow Omega Clip   *
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)*,
-{{Button|<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Hole](PartDesign_Hole.md)**,
-**<img src="images/PartDesign_Fillet.svg" width=16px> [PartDesign Fillet](PartDesign_Fillet.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
+*Przepływ pracy Klamra Omega   *
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md)*,
+{{Button|<img src="images/PartDesign_Hole.svg" width=16px> [Projekt Części   * Otwór](PartDesign_Hole/pl.md)**,
+**<img src="images/PartDesign_Fillet.svg" width=16px> [Projekt Części   * Zaokrąglenie](PartDesign_Fillet/pl.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy   * Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
 
 ## Sześciokątna miska 
 
 <img alt="" src=images/SheetMetal_Example-04.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-04a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-04b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-04c.png  style="width   *200px;"> 
-*Workflow Hex Bowl   *
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)*,
-{{Button|<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)**,
-6x **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Add Corner Relief](SheetMetal_AddCornerRelief.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
+*Przepływ pracy Sześciokątna misa   *
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md)*,
+{{Button|<img src="images/SheetMetal_AddWall.svg" width=16px> [Arkusz Blachy   * Dodaj ścianę](SheetMetal_AddWall/pl.md)**,
+6x **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Arkusz Blachy   * Dodaj podcięcie w narożniku](SheetMetal_AddCornerRelief/pl.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy   * Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
 
 <img alt="" src=images/SheetMetal_Example-04d.png  style="width   *200px;">
 
-When a Corner Relief is added (right side) it can be necessary to adjust the value of the **Size** property.
+Po dodaniu podcięcia narożnego *(prawa strona)* może być konieczne dostosowanie wartości właściwości **Rozmiar**.
 
 ## Klips do długopisu 
 
 <img alt="" src=images/SheetMetal_Example-05.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-05a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05d.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-05e.png  style="width   *200px;"> 
-*Workflow Pen Clip   *
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)*,
-{{Button|<img src="images/PartDesign_Pocket.svg" width=16px> [PartDesign Pocket](PartDesign_Pocket.md)**,
-3x **<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
+*Przepływ pracy Klips do długopisu   *
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md)*,
+{{Button|<img src="images/PartDesign_Pocket.svg" width=16px> [Projekt Części   * Kieszeń](PartDesign_Pocket/pl.md)**,
+3x **<img src="images/SheetMetal_AddWall.svg" width=16px> [Arkusz Blachy   * Dodaj ścianę](SheetMetal_AddWall/pl.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy   * Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
 
 ## Przykład przedłużenia ściany 
 
 <img alt="" src=images/SheetMetal_Example-06.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-06a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-06b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-06c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-06.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-06d.png  style="width   *200px;"> 
-*Workflow Extend Face Example   *
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)*,
-{{Button|<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)**,
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)**,
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
+*Przepływ pracy Przykład przedłużenia ściany   *
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md)*,
+{{Button|<img src="images/SheetMetal_AddWall.svg" width=16px> [Arkusz Blachy   * Dodaj ścianę](SheetMetal_AddWall/pl.md)**,
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Arkusz Blachy   * Wyciągnij](SheetMetal_Extrude/pl.md)**,
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Arkusz Blachy   * Wyciągnij](SheetMetal_Extrude/pl.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy   * Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
 
-For the second use of **Extend Face** a Sketch with two contours is used for shape of the extension(s); and with the value of \"use subtraction\" set to true it provides the shape for the cut-outs, as well
+Przy drugim użyciu **Wyciągnięcia ściany** do kształtu przedłużenia (przedłużeń) używany jest szkic z dwoma konturami, a przy wartości parametru \"użyj odjęcia\" ustawionej na wartość {{true/pl}} zapewnia on kształt dla wycięć, jak również
 
 ## Korpus złącza USB 
 
 <img alt="" src=images/SheetMetal_Example-07.png  style="width   *400px;">
 <img alt="" src=images/SheetMetal_Example-07a.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07b.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07c.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07d.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-07e.png  style="width   *200px;"> 
-*Workflow USB shield contact   *
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)*,
-{{Button|<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)**,
-**<img src="images/PartDesign_Pocket.svg" width=16px> [PartDesign Pocket](PartDesign_Pocket.md)**,
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)**,
-**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)**.
+*Przepływ pracy Korpus złącza USB   *
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md)*,
+{{Button|<img src="images/SheetMetal_Extrude.svg" width=16px> [Arkusz Blachy   * Wyciągnij](SheetMetal_Extrude/pl.md)**,
+**<img src="images/PartDesign_Pocket.svg" width=16px> [Projekt Części   * Kieszeń](PartDesign_Pocket/pl.md)**,
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Arkusz Blachy   * Wyciągnij](SheetMetal_Extrude/pl.md)**,
+**<img src="images/SheetMetal_AddWall.svg" width=16px> [Arkusz Blachy   * Dodaj ścianę](SheetMetal_AddWall/pl.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Arkusz Blachy   * Rozwiń](SheetMetal_Unfold/pl.md)**.
 }}
 
-(The pull relief is just an artistic expression of what could be hidden inside a real plug)
+*(Płaskorzeźba jest tylko artystycznym wyrazem tego, co może być ukryte wewnątrz prawdziwej wtyczki)*.
 
 ## Właściwości środowiska pracy Arkusz Blachy 
 
-This section tries to explain the properties of each SheetMetal object with simple images, where applicable.
+W tym rozdziale staramy się wyjaśnić właściwości każdego obiektu środowiska Arkusz Blachy za pomocą prostych obrazków, jeśli to możliwe.
 
 
 <div class="mw-collapsible mw-collapsed">
 
-### BaseBend object <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *24px;"> 
+### Obiekt bazowy wyginania <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *24px;"> 
 
 
 <div class="mw-collapsible-content toccolours">
@@ -210,46 +206,46 @@ This section tries to explain the properties of each SheetMetal object with simp
 
 
 
-*Selected sketch + 
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)* 
-→ BaseBend object with default settings**
+*Wybrany szkic + 
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Arkusz Blachy   * Dodaj element bazowy](SheetMetal_AddBase/pl.md)* 
+→ Obiekt bazowy wyginania z domyślnymi nastawami**
 
 <img alt="" src=images/SheetMetal_Example-08b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08c.png  style="width   *200px;">
 
 
 
-*Edit **length*   * Default length → Reduced length**
+*Edycja **Długość*   * Długość domyślnie → Długość skrócona**
 
 <img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08h.png  style="width   *200px;">
 
 
 
-*Switch **Mid Plane* from {{False** to `True`   * Extrusion in one direction → Symmetric extrusion}}
+*Przełącznik **Płaszczyzna środkowa* z {{False/pl** na {{TRUE/pl}}   * Wyciągnięcie w jednym kierunku → Wyciągnięcie symetryczne}}
 
 <img alt="" src=images/SheetMetal_Example-08d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;">
 
 
 
-*Switch **Reverse* from {{False** to `True`   * Default direction → Inverted direction}}
+*Pezełącznik **Odwrócony* z {{False/pl** na {{TRUE/pl}}   * Kierunek domyślny → Kierunek przeciwny}}
 
 <img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08g.png  style="width   *200px;">
 
 
 
-*Select **Bend Side*   * {{value|Outside** (default) → {{value|Inside}} → {{value| Middle}}}}
+*Wybór **Strona wygięcia*   * {{value|Na zewnątrz** ''(domyślnie)'' → {{value|Do wewnątrz}} → {{value| Pośrodku}}}}
 
 <img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08i.png  style="width   *200px;">
 
 
 
-*Edit **radius*   * Default radius → Enlarged radius.<br>
-This property is the inner radius of the bends created at the vertices where two edges in the sketch have a non-tangential transition.**
+*Edycja **Promień*   * Promień domyślnie → Promień powiększony.<br>
+Właściwość ta, to wewnętrzny promień zagięć tworzonych w wierzchołkach, w których dwie krawędzie w szkicu mają przejście nie styczne.**
 
 <img alt="" src=images/SheetMetal_Example-08e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-08j.png  style="width   *200px;">
 
 
 
-*Edit **thickness*   * Default Thickness → Enlarged thickness**
+*Edycja **Grubość*   * Grubość domyślnie → Grubość powiększona**
 
 
 </div>
@@ -260,106 +256,115 @@ This property is the inner radius of the bends created at the vertices where two
 
 <div class="mw-collapsible mw-collapsed">
 
-### Bend object <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *24px;"> 
+### Obiekt wyginania <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *24px;"> 
 
 
 <div class="mw-collapsible-content toccolours">
 
-A Bend object consists of sets of one cylindrical bend and one planar strip each. Each pair extends from a selected edge of a blank.
+Obiekt Wyginania składa się z zestawów składających się z jednego cylindrycznego zgięcia i jednej płaskiej ścianki. Każda para rozciąga się od wybranej krawędzi półfabrykatu.
 
 <img alt="" src=images/SheetMetal_Example-09a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09b.png  style="width   *200px;">
 
 
 
-*Selected edges + 
-**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)* 
-→ Bend objects with default settings <br>
-(Two Bend objects in two separate bodies.)**
+*Wybrane krawędzie + 
+**<img src="images/SheetMetal_AddWall.svg" width=16px> [Dodaj ścianę](SheetMetal_AddWall/pl.md)* 
+→ Obiekt <br> wyginania z ustawieniami domyślnymi
+''(Dwa obiekty wyginania w dwóch oddzielnych Zawartościach)''.**
 
-Edit **radius** to vary the inner radius of all bends supplied by a Bend object. (See BaseBend object above)
+Edycja **Promień** aby zmienić wewnętrzny promień wszystkich zagięć dostarczonych przez obiekt wyginania. *(Patrz obiekt bazowy wyginania powyżej.)*
 
-Edit **length** to vary the length of all planar strips extending from the bends of a Bend object.
+Edycja **Długość** aby zmienić długość wszystkich płaskich pasków wystających z zagięć obiektu wyginania.
 
-   *   Don\'t confuse the **length** with a flange length which is the sum of this length, radius, and thickness (90° only).
+   *   Nie mylić właściwości **Długość** z długością kołnierza, która jest sumą tej długości, promienia i grubości *(tylko 90°)*.
 
 <img alt="" src=images/SheetMetal_Example-09b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;">
 
 
 
-*Switch **invert* from {{FALSE** to `True`   *Default flanges (Bend objects) → Inverted flanges}}
+*Przełcznik **Odwrócony* z {{FALSE/pl** na {{TRUE/pl}}   * Kołnierze domyślnie ''(obiekty typu wygięcie)'' → Kołnierze odwrócone}}
 
 <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09e.png  style="width   *200px;">
 
 
 
-*Edit **angle*   *Default angle (90°) → Enlarged angle → Decreased angle**
+*Edycja **Kąt*   * Kąt domyślnie ''(90°)'' → Kąt powiększony → Kąt zmniejszony**
 
-We don\'t have to care about trimming the edges, because **Auto Miter** is activated by default.
-If deactivated, the result would look like this   *
+Nie musimy się przejmować przycinaniem krawędzi, ponieważ opcja **Automatyczne ukosowanie** jest domyślnie włączona.
+Gdyby była wyłączona, wynik wyglądałby następująco   *
 
 <img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09g.png  style="width   *200px;">
 
 
 
-*Switch **Auto Miter* from {{TRUE** to `False`   * Default angle (90°) → Enlarged angle → Decreased angle<br>
-(Auto Miter has no effect on single flanges)}}
+*Przełącznik **Automatyczne ukosowanie* z {{TRUE/pl** na {{FALSE/pl}}   * Kąt domyślny ''(90°)'' → Kąt powiększony → Kąt zmniejszony<br>
+''(Właściwość Automatyczne ukosowanie nie ma wpływu na pojedyncze kołnierze)''}}
 
-To manually miter a flange edge **miterangle1** and **miterangle2** are used   *
+Aby ręcznie ściąć krawędź obrzeża stosuje się właściwość **KątŚcięcia1** i **KątŚcięcia2**   *
 
 <img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09n.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09o.png  style="width   *200px;">
 
 
 
-*Edit **miterangle1* and {{PropertyData|miterangle2**   * No miter (default) → Differently mitered edges, positive angle → Symmetrically mitered edges, negative angles}}
+*Edycja **KątŚcięcia1* oraz {{PropertyData|KątŚcięcia2**   * Brak ścięcia ''(domyślnie)'' → Różnie ścięte krawędzie, kąt dodatni → Symetrycznie ścięte krawędzie, kąt ujemny}}
 
-Mitering only effects the planar strips, not the bends.
+Ścinanie działa tylko na płaskie ścianki, a nie na zagięcia.
 
-   *   (It takes the whole edge into account and so cannot be used to chamfer flange edges)
+   *   *(Uwzględnia całą krawędź i dlatego nie może być stosowane do ukosowania krawędzi kołnierzy)*.
 
-To display the different choices of **Bend Type** we introduce an auxiliary cuboid that extrudes from the same outline as the blank and has the same height as the Bend object (its flange length).
+Aby pokazać różne możliwości wyboru **typu zagięcia** wprowadzamy pomocniczy prostopadłościan, który wycina się z tego samego obrysu co półfabrykat i ma taką samą wysokość jak obiekt Wygięcia *(jego długość kołnierza)*.
 
 <img alt="" src=images/SheetMetal_Example-09h.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09i.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09j.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09k.png  style="width   *200px;">
 
 
 
-*Select **Bend Type*   * {{value|Material Outside** (default) → {{value|Material Inside}} → {{value|Thickness Outside}} → {{value|Offset}}}}
+*Wybór **Typ zagięcia*   * {{Value|Materiał na zewnątrz** ''(domyślnie)'' → {{Value|Materiał do wewnątrz}} → {{Value|Grubość na zewnątrz}} → {{Value|Odsunięcie}}}}
 
--   Outside   * The bend starts at the selected edge (The whole Bend object lies outside the cuboid).
--   Inside   * The outer side of the bend ends on the cuboid surface (The whole Bend object lies inside the cuboid).
--   Thickness Outside   * The inner side of the bend ends on the cuboid surface (only the planar strip is protruding from the cuboid surface).
--   Offset   * According to the value of **offset** the bend is moved in outward direction from its default position.
+-   Materiał na zewnątrz   * Wygięcie zaczyna się od wybranej krawędzi *(Cały obiekt Wygięcia leży poza prostopadłościanem)*.
+-   Materiał do wewnątrz   * Zewnętrzna strona zgięcia kończy się na powierzchni prostopadłościanu *(Cały obiekt Wygięcia leży wewnątrz prostopadłościanu)*.
+-   Grubość na zewnątrz   * Wewnętrzna strona zagięcia kończy się na powierzchni prostopadłościanu *(z powierzchni prostopadłościanu wystaje tylko pasek planarny)*.
+-   Odsunięcie   * Zgodnie z wartością właściwości **Odsunięcie** zgięcie jest przesuwane w kierunku zewnętrznym od jego domyślnej pozycji.
 
-   *   An extension is inserted for positive values (high-lighted strip).
-   *   Negative values are allowed to move the bend inwards.
+   *   Wstawiono rozszerzenie dla wartości dodatnich *(podświetlony pasek)*.
+   *   Dla wartości ujemnych dopuszcza się przesunięcie zgięcia do wewnątrz.
 
-If we don\'t want to use the whole length of an edge we can use **gap1** and **gap2**.
+Jeśli nie chcemy wykorzystywać całej długości krawędzi możemy użyć właściwości **Przerwa1** i **Przerwa2**.
 
 <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09l.png  style="width   *200px;">
 
 
 
-*Edit **gap1* and {{PropertyData|gap2**   * Default flanges → Flanges with different values for gap1 and gap2}}
+*Edycja **Przerwa1* and {{PropertyData|Przerwa1**   * Kołnierze domyślnie → Kołnierze z różnymi wartościami dla właściwości Przerwa1 i Przerwa2}}
 
-If the length of a gap reaches or extends the value of **min Relief Gap**, a relief will be added to the gap.
-Reliefs are controlled by **relief Type**, **reliefd** (relief depth), and **reliefw** (relief width) which are enabled only when a gap value is set.
+Jeśli długość przerwy osiągnie lub przekroczy wartość **min podcięcia przerwy**, do przerwy zostanie dodane podcięcie.
+Podcięcia są kontrolowane przez właściwości **Typ podcięcia**, **PodcięcieD** *(głębokość podcięcia)*, oraz **PodcięcieW** *(szerokość podcięcia)*, które są włączone tylko wtedy, gdy ustawiona jest wartość przerwy.
 
 <img alt="" src=images/SheetMetal_Example-09p.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09q.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09r.png  style="width   *200px;">
 
 
 
-*Edit **reliefd* and {{PropertyData|reliefw**   * Default values → Relief depth enlarged → Relief depth and width enlarged}}
+*Edycja **PodcięcieD* oraz {{PropertyData|PodcięcieW**   * Wartości domyślne → Powiększona głębokość podcięcia→ Powiększona głębokość i szerokość podcięcia}}
 
 <img alt="" src=images/SheetMetal_Example-09r.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09s.png  style="width   *200px;">
 
 
 
-*Switch **relief Type* from {{value|Rectangle** to {{value|Round}}   * Default rectangular relief → Round relief}}
+*Przełącznik **Typ podcięcia* z {{value|Prostokątny** na {{value|Zaokrąglony}}   * Domyślnie Podcięcie prostokątne → Podcięcie zaokrąglone}}
 
-The round option will only be applied, if the relief depth is larger than the relief width.
+Opcja zaokrąglenia zostanie zastosowana tylko wtedy, gdy głębokość podcięcia jest większa niż jego szerokość.
 
-Switch **Use Relief Factor** from `False` (default) to `True` to set the values of **reliefd** and **reliefw** automatically. Both are set to the object\'s (inherited) thickness multiplied by the value of **Relief Factor**.
+Przełącz wartość właściwości **Użyj współczynnika szczeliny** z {{FALSE/pl}} *(domyślnie)* na {{TRUE/pl}}, aby automatycznie ustawić wartości **SzczelinaD** i **SzczelinaW**. Obie są ustawione na grubość *(dziedziczoną)* obiektu pomnożoną przez wartość **Współczynnik szczeliny**.
 
-   *   In this case the round option is useless, since the relief depth is as large as the relief width. (See above)
+   *   W tym przypadku opcja zaokrąglenia jest bezużyteczna, ponieważ głębokość szczeliny jest tak duża, jak jej szerokość. *(Patrz wyżej)*
+
+Nowa właściwość **DługośćSpec** {{Version/pl|1.0}} umożliwia nam wybór sposobu pomiaru długości obiektu wygięcia   *
+
+<img alt="" src=images/SheetMetal_Example-09t.png  style="width   *500px;"> 
+*Widok z boku czterech kołnierzy 120° o domyślnej długości {{Value|10 mm* i różnych wartościach **Length Spec**   * <br> {{value|Leg}} ''(domyślnie)'', {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}}}
+
+Przy wybranej opcji {{value|Tangential}} właściwość **Długość** jest odpowiednikiem długości kołnierza.
+
+Wartości {{value|Outer Sharp}} i {{value|Tangential}} są identyczne dla kątów 90°.
 
 
 </div>

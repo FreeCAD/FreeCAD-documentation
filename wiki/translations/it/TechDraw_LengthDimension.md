@@ -327,9 +327,15 @@ rc = page.addView(dim1)
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Selezione dei bordi**. I bordi possono essere difficili da selezionare. Si può regolare l\'area di selezione per i bordi usando il parametro \"/Mod/TechDraw/General/EdgeFuzz\" (vedere [Parametri standard](Std_DlgParameter/it.md)). Questo è un numero senza dimensioni. Il valore predefinito è 10.0. I valori nell\'intervallo 20-30 rendono notevolmente più semplice la selezione dei bordi. I numeri più grandi causano sovrapposizioni con altri elementi di disegno.
 -   **Numero di decimali**. Le dimensioni utilizzano l\'impostazione delle posizioni decimali globali per impostazione predefinita. Questo può essere modificato tramite le [preferenze](TechDraw_Preferences/it#Dimensioni.md) o modificando la proprietà FormatSpec.
 -   **Qualsiasi oggetto**. Le viste possono contenere più oggetti 3D come Sorgente. Le quote possono essere applicate alla geometria da qualsiasi oggetto nella vista (ad es. Da Object1.Vertex0 a Object2.Vertex3).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

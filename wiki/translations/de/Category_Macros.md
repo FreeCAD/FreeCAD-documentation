@@ -28,11 +28,11 @@ This category contains macros to extend your FreeCAD installation with new funct
 | [Macro Rectellipse/de](wiki/Macro Rectellipse/de.md) | [Macro Remove parametric history/de](wiki/Macro Remove parametric history/de.md) | [Macro Rotate View/de](wiki/Macro Rotate View/de.md) |
 | [Macro Screen Wiki/de](wiki/Macro Screen Wiki/de.md) | [Macro screw maker1 2/de](wiki/Macro screw maker1 2/de.md) | [Macro SelectVisible/de](wiki/Macro SelectVisible/de.md) |
 | [Macro SimpleProperties/de](wiki/Macro SimpleProperties/de.md) | [Macro Site From Contours/de](wiki/Macro Site From Contours/de.md) | [Macro Snip/de](wiki/Macro Snip/de.md) |
-| [Macro Solid Sweep/de](wiki/Macro Solid Sweep/de.md) | [Macro SuperWire/de](wiki/Macro SuperWire/de.md) | [Macro Texture Objects/de](wiki/Macro Texture Objects/de.md) |
-| [Macro Texture/de](wiki/Macro Texture/de.md) | [Macro Unfold Box/de](wiki/Macro Unfold Box/de.md) | [Macro Unroll Ruled Surface/de](wiki/Macro Unroll Ruled Surface/de.md) |
-| [Macro View Rotation/de](wiki/Macro View Rotation/de.md) | [Macro WorkFeatures/de](wiki/Macro WorkFeatures/de.md) | [Template:Macro/de](wiki/Template_Macro/de.md) |
-| [Macros recipes/de](wiki/Macros recipes/de.md) | [Macros/de](wiki/Macros/de.md) | [Qt Example/de](wiki/Qt Example/de.md) |
-| [Svg Namespace/de](wiki/Svg Namespace/de.md) |
+| [Macro Solid Sweep/de](wiki/Macro Solid Sweep/de.md) | [Macro SuperWire/de](wiki/Macro SuperWire/de.md) | [Macro TemplateHelper/de](wiki/Macro TemplateHelper/de.md) |
+| [Macro Texture Objects/de](wiki/Macro Texture Objects/de.md) | [Macro Texture/de](wiki/Macro Texture/de.md) | [Macro Unfold Box/de](wiki/Macro Unfold Box/de.md) |
+| [Macro Unroll Ruled Surface/de](wiki/Macro Unroll Ruled Surface/de.md) | [Macro View Rotation/de](wiki/Macro View Rotation/de.md) | [Macro WorkFeatures/de](wiki/Macro WorkFeatures/de.md) |
+| [Template:Macro/de](wiki/Template_Macro/de.md) | [Macros recipes/de](wiki/Macros recipes/de.md) | [Macros/de](wiki/Macros/de.md) |
+| [Qt Example/de](wiki/Qt Example/de.md) | [Svg Namespace/de](wiki/Svg Namespace/de.md) |
 
 
 

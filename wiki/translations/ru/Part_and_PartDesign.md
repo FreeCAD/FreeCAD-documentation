@@ -3,35 +3,35 @@
 
 ## Обзор
 
-В течение многих лет широко обсуждались различия и последствия использования верстаков <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench/ru.md) и <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench/ru.md).
+В течение многих лет широко обсуждались различия и особенности совместного применения верстаков <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench/ru.md) и <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench/ru.md).
 
 Рекомендуется использовать один из верстаков, пока пользователь не освоится с ним, а затем изучить другой. Также обычно рекомендуется, чтобы новые пользователи не смешивали их, пока не будут понятны последствия этого.
 
-Давайте поговорим об этих последствиях.
+Давайте обсудим эти особенности.
 
-## Коцепции Верстака Part 
+## Концепция Верстака Part 
 
 Верстак Part это по сути [моделирование в стиле КТГ](Constructive_solid_geometry/ru.md). Оператор комбинирует различные примитивы, чтобы в конечном итоге получить представление желаемой формы. (Фактически, Верстак Part идёт на один шаг дальше, чем просто примитивы и позволяет оператору использовать операцию эскиз+выдавливание (или эскиз+вращение, лофт, развертку \...) для создания случайных форм.) При создании каждого примитива или фигуры он не имеет отношения к другим созданным объектам (кроме эскизов и их вложений), является единственным одиночным твердым телом.
 
 ![centre\|Solitary solids](images/Part_CSG_Prims.png )
 
-This condition remains so, until, the operator uses some operation to combine them (typically a Boolean that adds or subtracts them). Each starting solid remains accessible separately and the operation creates a new object.
+Это условие остается таким до тех пор, пока оператор не использует некоторую операцию для их объединения (обычно это Булева операция, которая складывает или вычитает тела). Каждое твердое тело изначально является отдельным, но операция создает новый объект.
 
 The take away is the single solitary solid bit and the combining them bit.
 
-## Коцепции Верстака PartDesign 
+## Концепция Верстака PartDesign 
 
-In the PartDesign Workbench the Body object is constructed directly as a single solitary cumulative solid.
+В рабочей среде PartDesign объект Body создается, как непосредственное самостоятельное твердое тело.
 
-The 1st step in a body must be a block of material, either from an additive primitive or an extrusion from a sketch, or an imported shape (then called Base Feature).
+Первым шагом для создания такого тела может быть аддитивныф примитив, либо форма выдавленная из эскиза, либо из импортированная форма (называемая Base Feature).
 
-This initial block of material will be changed sequentially until the desired final shape (solid) is obtained.
+Этот исходный блок материала будет последовательно изменяться до тех пор, пока не будет получена желаемая конечная форма (твердая).
 
-It is cumulative in the sense that each operation adds or removes material.
+Он является совокупностью в том смысле, что каждая операция добавляет или удаляет материал.
 
-By default, the \"tip\" of the body - unless there is a voluntary change in the visualization of a particular feature - is the last operation performed on the body. This is the current and visible state of the body, ready to be changed again by new feature.
+По умолчанию \"точка завершения расчета тела\" (tip) - является последней операцией, выполняемой над телом (если она конечно добровольно не сдвинута на определённый шаг построения фигуры). Это текущее и видимое состояние тела, готовое к повторному изменению с помощью следующего инструмента.
 
-Any function under the body represents the cumulative shape of the solid from the 1st feature to the feature considered.
+Каждый шаг построения тела представляет собой тело сформированное в результате проведения совокупности операций от начального объекта до рассматриваемого объекта.
 
 So **to have the complete solid**, on the one hand the Tip feature must be the last stage of the construction of this solid, and on the other hand **it is the body which must be selected** and not a stage of its construction.
 
@@ -41,35 +41,41 @@ This will make it possible, in the event of a modification, **to always have the
 
 When everything is finished, you have to redeclare the last feature as Tip, which corresponds to the finished object.
 
-![centre\|Cumulative Body Solid](images/Part_Design_Cumulativ.png )
+![centre\|Твердое тело полученное в результате совокупности операций](images/Part_Design_Cumulativ.png )
 
-This image shows a Body. It is a cumulative solid that consists of a padded sketch and a cone primitive. This is a single solid.
+На изображении представлено совокупное твердое тело, состоящее из выдавленного эскиза и примитива конуса. Это единое твердое тело.
 
 If Tip on **Pad**, the pad can exist separately, but if Tip on **Cone**, the cone cannot exist separately (Tip on cone = pad + cone).
 
 (Another thing mentioned often is a Body ***MUST*** be a single contiguous solid. This means all geometry created by a feature in the Body *must* touch it\'s predecessor.)
 
-## The Ramifications 
+## Совместное применение 
 
-Although not recommended for newcomers, it is possible to combine tools from Part workbench and PartDesign workbench, provided you know what you are doing. For example    *
+Хотя это и не рекомендуется для новичков, но инструменты из верстаков Part и Part Design можно комбинировать, при условии, что вы знаете, что делаете. Например    *
 
-People get caught when they attempt to use some feature under the Body (rather than the Body itself) as one selection of a Part Workbench Boolean operation. This is a problem, because the selected feature does not represent **THE** complete solid.
+Люди попадают в ловушку, когда пытаются использовать какую-либо функцию под телом (а не само тело) в качестве одного выбора Булевой операции верстака Part. Это проблема, потому что выбранный элемент не представляет единое твердотельное тело.
 
-In a sense, from a Part Workbench standpoint, the Body represents another primitive. So, using a Body (remember it is a proxy for the tip) and a Part Workbench object to do a Boolean is valid. But the resulting object is a Part WWorkbench object. And, thus PartDesign Workbench tools can\'t be used on it any longer.
 
-And, it can get even more complicated. If you create a new Body and drag the result from the previous paragraph into it, a BaseObject is created. And you can go off an use the PartDesign Workbench tools on it.
+<div class="mw-translate-fuzzy">
 
-## The Caveats 
+В некотором смысле, с точки зрения Part Workbench, Body представляет собой еще один примитив. Таким образом, использование Body (помните, что это прокси для подсказки) и объекта Part Workbench для выполнения логического значения допустимо. Но результирующий объект является частью объекта Part Workbench. И, таким образом, инструменты PartDesign Workbench больше нельзя использовать на нем.
+
+
+</div>
+
+И это может стать еще более сложным. Если вы создадите новое тело и перетащите в него результат из предыдущего абзаца, будет создан базовый объект. И вы можете использовать на нем инструменты PartDesign Workbench.
+
+## Предупреждение
 
 There is a caveat with the Tip and it\'s representation of the single solid in the Body. *If* the tip is a subtractive feature and is used in a dress up operation, for instance a Mirror, the Mirror is operating on the underlying feature (a pocket for example). Thus the cumulative solid is not mirrored, but the subtractive feature is. The result of this must create a single solid.
 
 In this example, a mirror of the tip (which is the pocket of the slot) around any of the base planes, or even a face of the solid will not produce a mirrored solid of the entire model. (In fact, it will produce a Mirrored feature in the tree that is essentially empty.)
 
-![centre\|Solitary solids](images/PhantomMirror.png )
+![centre\|Обособленные твердые тела](images/PhantomMirror.png )
 
 In this example, a mirror of the tip (which is the pocket of the slot) is performed around the datum plane and produces a mirrored slot   *
 
-![centre\|Solitary solids](images/MirroredSlot.png )
+![centre\|Обособленные твердые тела](images/PhantomMirror.png )
 
 See the <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> [PartDesign Mirrored](PartDesign_Mirrored.md) tool wiki page for more information.
 
@@ -170,9 +176,9 @@ Part and PartDesign workbenches can be used together with some care, creating qu
 [Top](#Top.md)
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/ru

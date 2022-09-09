@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Das**Std Werkzeugemenü** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
+Das **Std Menü Werkzeuge** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
 
 
 {{StdMenu
@@ -25,7 +25,7 @@ Das**Std Werkzeugemenü** ist eines der 7 Untermenüs im [Standardmenü](Standar
 [Hilfe](Std_Help_Menu/de.md)
 }}
 
-Das Werkzeuge Menü bietet Werkzeuge zur Fehlersuche von Modellen, zum Anpassen des Verhaltens von FreeCAD sowie Hilfswerkzeuge.
+Das Menü Werkzeuge stellt Werkzeuge bereit zur Fehlersuche von Modellen, zum Anpassen des Verhaltens von FreeCAD sowie Hilfswerkzeuge.
 
 ## Werkzeuge
 

@@ -30,18 +30,6 @@ ConfigSet(string, string) -- Set the given key to the given value.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> EndingAdd
-
-deprecated -- use addImportType
-
-
-
-#### <img src="images/type_method.svg" style="width:16px;"> EndingGet
-
-deprecated -- use getImportType
-
-
-
 #### <img src="images/type_method.svg" style="width:16px;"> ParamGet
 
 Get parameters by path
@@ -774,7 +762,12 @@ like vector, matrix, bounding box, placement, rotation, axis, ...
 
 #### <img src="images/type_module.svg" style="width:16px;"> [Console](Console_API.md)
 
-FreeCAD Console
+FreeCAD Console module.
+
+The Console module contains functions to manage log entries, messages,
+warnings and errors.
+There are also functions to get/set the status of the observers used as
+logging interfaces.
 
 
 

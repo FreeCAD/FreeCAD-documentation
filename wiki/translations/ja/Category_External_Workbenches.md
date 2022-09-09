@@ -7,7 +7,8 @@ This category collects pages from the [external workbenches](external_workbenche
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Save/ja](wiki/Plot Save/ja.md) | [Ship Workbench/ja](wiki/Ship Workbench/ja.md) |
+| [BIM Workbench/ja](wiki/BIM Workbench/ja.md) | [Plot Save/ja](wiki/Plot Save/ja.md) | [Ship Workbench/ja](wiki/Ship Workbench/ja.md) |
+|
 
 
 

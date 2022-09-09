@@ -14,9 +14,10 @@ This category groups all of the FreeCAD documentation
 | [Part Measure Menu/de](wiki/Part Measure Menu/de.md) | [Release notes 0.11/de](wiki/Release notes 0.11/de.md) | [Release notes 0.13/de](wiki/Release notes 0.13/de.md) |
 | [Release notes 0.14/de](wiki/Release notes 0.14/de.md) | [Release notes 0.15/de](wiki/Release notes 0.15/de.md) | [Release notes 0.16/de](wiki/Release notes 0.16/de.md) |
 | [Release notes 0.17/de](wiki/Release notes 0.17/de.md) | [Release notes 0.18/de](wiki/Release notes 0.18/de.md) | [Release notes 0.19/de](wiki/Release notes 0.19/de.md) |
-| [Release notes 0.20/de](wiki/Release notes 0.20/de.md) | [Transportation Workbench/de](wiki/Transportation Workbench/de.md) | [WikiPages/de](wiki/WikiPages/de.md) |
-| [Category:Developer Documentation/de](wiki/Category_Developer Documentation/de.md) | [Category:Poweruser Documentation/de](wiki/Category_Poweruser Documentation/de.md) | [Category:Screenshots/de](wiki/Category_Screenshots/de.md) |
-| [Category:User Documentation/de](wiki/Category_User Documentation/de.md) | [Category:Wiki/de](wiki/Category_Wiki/de.md) |
+| [Release notes 0.20/de](wiki/Release notes 0.20/de.md) | [Release notes 1.0/de](wiki/Release notes 1.0/de.md) | [Transportation Workbench/de](wiki/Transportation Workbench/de.md) |
+| [WikiPages/de](wiki/WikiPages/de.md) | [Category:Developer Documentation/de](wiki/Category_Developer Documentation/de.md) | [Category:Poweruser Documentation/de](wiki/Category_Poweruser Documentation/de.md) |
+| [Category:Screenshots/de](wiki/Category_Screenshots/de.md) | [Category:User Documentation/de](wiki/Category_User Documentation/de.md) | [Category:Wiki/de](wiki/Category_Wiki/de.md) |
+|
 
 
 

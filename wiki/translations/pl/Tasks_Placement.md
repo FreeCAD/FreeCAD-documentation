@@ -100,12 +100,12 @@ This option may be easier to work with, however, even in this mode, there are im
    **
 
 
-<div id="Roll">
+<div id="Obrót">
 
 
 </div>
 
-**[Roll](https   *//en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))**    * is a rotary movement of a body about its longitudinal axis (roll axis).
+**[Obrót](https   *//en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft))**    * jest to ruch obrotowy ciała wokół jego osi wzdłużnej *(osi obrotu)*.
 
 Yaw, pitch and roll refer to the **attitude** of an object in 3D space. These terms are commonly used in aviation. The angles are the **Tait-Bryan angles**. If you want more information, read [Euler angles](https   *//en.wikipedia.org/wiki/Euler_angles).
 
@@ -119,9 +119,9 @@ Yaw, pitch and roll refer to the **attitude** of an object in 3D space. These te
 
 -    {{TasksTag|pitch axis}}**Pitch is rotation about the Y axis**, that is to say nose-up and nose-down. (The Pitch angle is the **Phi φ**). Value **-360.00 °** to \'\'\'360, 00 ° \'\'\'(Default, **0.00 °**).
 
-![None\|Roll](images/Tache_Placement_Roulis_fr_Mini.gif )
+![None\|Obrót](images/Tache_Placement_Roulis_fr_Mini.gif )
 
--    {{TasksTag|roll axis}}**Roll is rotation about the X axis**, that is to say wing up and down. (The Roll angle is the **Thêta θ**). Value **-360.00 °** to \'\'\'360, 00 ° \'\'\'(Default, **0.00 °**).
+-    {{TasksTag|roll axis}}**Obrót oznacza obrót wokół osi X**, czyli inaczej mówiąc skrzydło w górę i w dół. *(Kąt obrotu to **Thêta θ**)*. Przyjmuje wartość **-360.00 °** do **360, 00 °** *(Domyślnie, **0.00 °**)*.
 
 -    {{TasksTag|Apply incremental changes}}to the placement of the object   * Once selected, this option **virtually** sets all parameters to zero, to allow you to enter your values ​​without having to calculate with the original parameters of the form. Once you have confirmed with **OK**, the entered values ​​will be added to the values ​​on the form.
 

@@ -40,4 +40,4 @@ Sélectionnez l\'onglet du graphique que vous voulez sauvegarder, et lancez cet 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Save/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save/fr

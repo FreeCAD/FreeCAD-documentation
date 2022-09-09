@@ -1,28 +1,29 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std TreeRecordSelection
-   MenuLocation   *View → TreeView actions → Record selection
-   Workbenches   *All
+   Name/pl   *Std   * Zapisz zaznaczenie z widoku drzewa
+   MenuLocation   *Widok→ Akcje widoku drzewa → Zapisz zaznaczenie
+   Workbenches   *wszystkie
    Shortcut   ***T** **5**
    Version   *0.19
 ---
 
 # Std TreeRecordSelection/pl
 
-## Description
+## Opis
 
-The **Std TreeRecordSelection** command toggles the [Tree view](Tree_view.md) RecordSelection mode. If this mode is on, each Tree view selection is stored for future use. With the **<img src="images/Std_SelBack.svg" width=16px>** and **<img src="images/Std_SelForward.svg" width=16px>** buttons you can go backwards and forwards through these selections and restore them.
+Polecenie **Zapisz zaznaczenie** przełącza tryb zapisu zaznaczenia [Widoku drzewa](Tree_view/pl.md). Jeśli ten tryb jest włączony, każdy wybór widoku drzewa jest zapisywany do przyszłego użytku. Za pomocą przycisków **<img src="images/Std_SelBack.svg" width=16px>** i **<img src="images/Std_SelForward.svg" width=16px>** możesz przechodzić wstecz i w przód przez te pozycje wyboru i przywracać je.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Record selection** option from the flyout. Note   * the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeRecordSelection.svg" width=16px> Record selection** option from the menu.
-    -   Use the keyboard shortcut   * **T** then **5**.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **Zapisz zaznaczenie** z menu podręcznego. Uwaga   * ikonka przycisku będzie się zmieniać w zależności od wybranej opcji.
+    -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeRecordSelection.svg" width=16px> Zapisz zaznaczenie**.
+    -   Użyj skrótu klawiaturowego   * **T**, a następnie **5**.
 
-## Preferences
+## Ustawienia
 
-The Tree view RecordSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md)   * **Edit→ Preferences → General → Selection**.
+Tryb Zapisu zaznaczenia w widoku drzewa można również ustawić w [Edytorze preferencji](Preferences_Editor/pl#Zaznaczenie.md)   * **Edycja → Preferencje ...→ Ogólne → Zaznaczanie**.
 
 
 

@@ -363,7 +363,7 @@ You now have a floating slot of unspecified dimensions.
 <img alt="" src=images/TBHS2-24.JPG  style="width   *800px;">
 
 -   Click on the circle
--   Click on <img alt="" src=images/Sketcher_ConstrainRadius.  style="width   *32px;"> [**Radius**](Sketcher_ConstrainRadius.md)
+-   Click on <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [**Radius**](Sketcher_ConstrainRadius.md)
 -   A dialog prompts you to set a dimension. Enter 3.5mm, click OK.
 
 <img alt="" src=images/TBHS2-25.JPG  style="width   *800px;">

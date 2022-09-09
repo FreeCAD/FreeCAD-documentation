@@ -34,13 +34,13 @@ La Sphère peut être éditée après sa création de deux façons    *
 
 -    **Attachment**   * définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
--    **Label**   * donne le nom de la Sphère, changer si nécessaire.
+-    **Label**   * donne le nom de la sphère, changer si nécessaire.
 
 -    **Radius**   * rayon de la sphère.
 
--    **Angle1**   * (nommé *Paramètre V* dans les paramètres de la primitive) troncature inférieure de la sphère, parallèle à la section circulaire (-90 degrés dans une sphère complète)
+-    **Angle1**   * (nommé *Paramètre V* dans les paramètres de la primitive) troncature inférieure de la sphère, parallèle à la section circulaire (-90 degrés dans une sphère complète).
 
--    **Angle2**   * (sans nom dans Paramètres de la primitive) troncature supérieure de l\'ellipsoïde, parallèle à la section circulaire (90 degrés dans une sphère complète).
+-    **Angle2**   * (sans nom dans Paramètres de la primitive) troncature supérieure de la sphère, parallèle à la section circulaire (90 degrés dans une sphère complète).
 
 -    **Angle3**   * (nommé *Paramètre U* dans les paramètres de la primitive) angle de rotation de la section transversale (360 degrés dans une sphère complète).
 

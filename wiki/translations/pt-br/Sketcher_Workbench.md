@@ -94,11 +94,29 @@ Se você só precisa produzir visualizações 2D para impressão e não deseja c
 
 ## Fluxo de Trabalho da Esboçagem 
 
+
+<div class="mw-translate-fuzzy">
+
 Um esboço é sempre bidimensional (2D). Para criar um sólido, um esboço 2D de uma única área fechada é criado e, a seguir, preenchido ou revolvido para adicionar a 3ª dimensão, criando um sólido 3D a partir do esboço 2D.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Se um esboço tem segmentos que se cruzam, lugares onde um ponto não está diretamente em um segmento, ou lugares onde há lacunas entre as extremidades de segmentos adjacentes, as ferramentas Pad ou Revolution não criarão um sólido. Às vezes, um esboço que contém linhas que se cruzam funcionará para uma operação simples, como Pad, mas operações posteriores como Linear Pattern falharão. É melhor evitar cruzar linhas. A exceção a esta regra é que ela não se aplica à geometria de construção (azul).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Dentro da área fechada, podemos ter áreas menores não sobrepostas. Eles se tornarão vazios quando o sólido 3D for criado.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -195,6 +213,16 @@ Estas são ferramentas para criar objetos.
 
 </div>
 
+   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md)   * Draws an ellipse by center point, major radius point and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)   * Draws an ellipse by major diameter (2 points) and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md)   * Draws an arc of ellipse by center point, major radius point, starting point and ending point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)   * Draws an arc of hyperbola.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)   * Draws an arc of parabola.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -204,6 +232,10 @@ Estas são ferramentas para criar objetos.
 
 
 </div>
+
+   ** <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-spline curve by its control points.
+
+   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic (closed) B-spline curve by its control points.
 
 
 <div class="mw-translate-fuzzy">
@@ -369,10 +401,24 @@ Estas são restrições associadas a dados numéricos, para os quais você pode 
 
 -   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width   *32px;"> [Distancia](Sketcher_ConstrainDistance/pt-br.md)   * Define a distância de uma linha selecionada, restringindo seu comprimento, ou define a distância entre dois pontos quaisquer, restringindo-a.
 
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width   *48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md)   * This is an icon menu in the Sketcher constraints toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Raio](Sketcher_ConstrainRadius/pt-br.md)   * Define e restringe o raio de um arco ou círculo selecionado.
 -   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diâmetro](Sketcher_ConstrainDiameter/pt-br.md)   * Define o diâmetro de um arco ou círculo selecionado, restringindo o raio.
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiano](Sketcher_ConstrainRadiam/pt-br.md)   * Define automaticamente o raio/diâmetro de um arco ou círculo selecionado (peso para um pólo de eixo B, diâmetro para um círculo completo, raio para um arco) <small>(v0.20)</small> 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Angulo](Sketcher_ConstrainAngle/pt-br.md)   * Define o ângulo interno entre duas linhas selecionadas.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+
+-   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Angle](Sketcher_ConstrainAngle.md)   * Defines the internal angle between two selected lines.
 
 
 <div class="mw-translate-fuzzy">
@@ -618,6 +664,9 @@ Cada usuário CAD desenvolve sua própria maneira de trabalhar ao longo do tempo
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Uma série de esboços simples é mais fácil de gerenciar do que um único e complexo. Por exemplo, um primeiro esboço pode ser criado para o recurso 3D base (um "pad" ou um "revolve"), enquanto um segundo pode conter furos ou recortes ("pockets"). Alguns detalhes podem ser omitidos, para serem adicionados posteriormente como elementos 3D. Você pode escolher evitar filetes em seu esboço se houver muitos e adicioná-los como um elemento 3D.
 -   Sempre crie um perfil fechado, ou seu esboço não produzirá um sólido, mas sim um conjunto de faces abertas. Se você não quiser que alguns dos objetos sejam incluídos na criação do sólido, transforme-os em elementos de construção com a ferramenta Construction Mode.
 -   Use o recurso de restrições automáticas para limitar o número de restrições que você terá que adicionar manualmente.
@@ -627,12 +676,21 @@ Cada usuário CAD desenvolve sua própria maneira de trabalhar ao longo do tempo
 -   Em geral, as melhores restrições a serem usadas são   * Restrições horizontais e verticais; restrições de comprimento horizontal e vertical; tangência ponto a ponto. Se possível, limite o uso destes   * a restrição geral de comprimento; tangência borda a borda; restrição de fixar o ponto em uma linha; restrição de simetria.
 -   Se estiver em dúvida sobre a validade de um esboço depois de concluído (os elementos ficam verdes), feche a caixa de diálogo do Sketcher, mude para a <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Bancada de trabalho Part](Part_Workbench/pt-br.md) e execute **[<img src=images/Part_CheckGeometry.svg style="width   *16px"> [Verificar geometria](Part_CheckGeometry/pt-br.md)**.
 
+
+</div>
+
 ## Tutoriais
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Sketcher tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104) por chrisb. Este é um documento PDF de 70 páginas que serve como um manual detalhado para o desenhista. Ele explica os fundamentos do uso do Sketcher e dá muitos detalhes sobre a criação de formas geométricas e cada uma das restrições.
 -   [Tutorial Básico de Sketcher](Basic_Sketcher_Tutorial/pt-br.md) para iniciantes.
 -   [Sketcher Micro Tutorial - Práticas de Restrição](Sketcher_Micro_Tutorial_-_Constraint_Practices/pt-br.md).
 -   [Requisitos de esboço para um esboço](Sketcher_requirement_for_a_sketch/pt-br.md) Requisito Mínimo para um Esboço e Determinação Completa de um Esboço.
+
+
+</div>
 
 ## Scripting
 

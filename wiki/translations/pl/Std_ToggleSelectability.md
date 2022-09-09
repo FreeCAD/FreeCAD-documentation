@@ -1,36 +1,37 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ToggleSelectability
-   MenuLocation   *View → Visibility → Toggle selectability
-   Workbenches   *All
+   Name/pl   *Std   * Przełącz możliwość zaznaczenia
+   MenuLocation   *Widok → Widoczność → Przełącz możliwość zaznaczenia
+   Workbenches   *wszystkie
 ---
 
 # Std ToggleSelectability/pl
 
-## Description
+## Opis
 
-The **Std ToggleSelectability** command toggles the selectability of objects in [3D views](3D_view.md).
+Polecenie **Przełącz możliwość zaznaczenia** przełącza możliwość wyboru obiektów w oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command   *
-    -   Select the **View → Visibility → <img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the menu.
-    -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
-    -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the 3D view context menu.
+1.  Wybierz jeden lub więcej obiektów.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Wybierz z opcję menu **Widok → Widoczność → <img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia**.
+    -   Wybierz z opcję **<img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia** z menu podręcznego [Widoku drzewa](Tree_view/pl.md). Opcja ta nie jest dostępna w środowisku pracy [PartDesign Workbench](PartDesign_Workbench/pl.md)
+    -   Wybierz opcję **<img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia** z menu kontekstowego widoku 3D.
 
-## Notes
+## Uwagi
 
--   The selectability of an object can also be changed through its related **Selectable** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Wybieralność obiektu można również zmienić poprzez jego powiązaną właściwość **Selectable** w [Edytorze właściwości](Property_editor/pl.md) lub oknie [Widoku połączonego](Combo_view/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-The `Selectable` property of an object determines its selectability.
+Właściwość `Selectable` obiektu określa jego możliwość zaznaczenia.
 
 
 ```python

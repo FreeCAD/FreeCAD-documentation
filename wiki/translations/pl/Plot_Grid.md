@@ -33,4 +33,4 @@ Narzędzie to działa na aktywnym zestawie osi. W przypadku wykresów wieloosiow
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Grid/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/pl

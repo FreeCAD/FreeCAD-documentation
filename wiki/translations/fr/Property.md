@@ -3,46 +3,71 @@
 
 Une [propriété](Property/fr.md) est une information, telle qu\'un nombre ou une chaîne de texte, attachée à un document FreeCAD ou à un objet d\'un document. Les propriétés peuvent être visualisées et modifiées avec l\'[éditeur de propriétés](Property_editor/fr.md).
 
-Les propriétés jouent un rôle très important dans FreeCAD. Comme les objets dans FreeCAD sont \"paramétriques\", cela signifie que leur comportement est défini par leurs propriétés et par la manière dont ces propriétés sont utilisées comme entrée pour leurs méthodes de classe. Voir aussi [PropertyLink   *_InList\_and\_OutList](PropertyLink   *_InList_and_OutList/fr.md)
+Les propriétés jouent un rôle très important dans FreeCAD. Comme les objets dans FreeCAD sont \"paramétriques\", cela signifie que leur comportement est défini par leurs propriétés et par la manière dont ces propriétés sont utilisées comme entrée pour leurs méthodes de classe. Voir aussi [Propriétés personnalisées de FeaturePython](FeaturePython_Custom_Properties/fr.md) et [PropertyLink   * InList et OutList](PropertyLink__InList_and_OutList.md)
 
 ## Tous les types de propriétés 
 
-Les [Objets créés par script](scripted_objects/fr.md) personnalisés dans FreeCAD peuvent avoir des propriétés des types suivants    * 
+Les [Objets créés par script](scripted_objects/fr.md) personnalisés dans FreeCAD peuvent avoir des propriétés des types suivants    *
+
+
 ```python
-Bool
-Float
-FloatList
-FloatConstraint
+Acceleration
 Angle
+Area
+Bool
+BoolList
+Color
+ColorList
+Direction
 Distance
+ElectricPotential
+Enumeration
+ExpressionContainer
 ExpressionEngine
+File
+FileIncluded
+Float
+FloatConstraint
+FloatList
+Font
+Force
+Frequency
+Geometry
 Integer
 IntegerConstraint
-Percent
-Enumeration
 IntegerList
-String
-StringList
+IntegerSet
 Length
 Link
 LinkList
 LinkSubList
+Lists
+Map
+Material
+MaterialList
 Matrix
-Vector
-VectorList
-VectorDistance
+PartShape
+Path
+Percent
 Placement
 PlacementLink
+PlacementList
+Position
+Precision
+Pressure
 PythonObject
-Color
-ColorList
-Material
-Path
-File
-FileIncluded
-PartShape
-FilletContour
-Circle
+Quantity
+QuantityConstraint
+Rotation
+Speed
+Stiffness
+String
+StringList
+VacuumPermittivity
+Vector
+VectorDistance
+VectorList
+Volume
 ```
 
 En interne, le nom de la propriété est préfixé par `App   *   *Property`   * 

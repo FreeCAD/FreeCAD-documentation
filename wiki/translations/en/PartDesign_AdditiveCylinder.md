@@ -41,7 +41,7 @@ The Cylinder can be edited after its creation in two ways   *
 
 -    **Angle**   * angle of rotation of the cross section (360 degrees forms a full cylinder).
 
--    **Height**   * the length of the cylinder along its axis.
+-    **Height**   * the height of the cylinder along its axis.
 
 -    **First Angle**   * angle in first direction. <small>(v0.20)</small> 
 

@@ -1,17 +1,8 @@
-# OpenSCAD Workbench/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="L\'icona dell\'ambiente OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width   *128px;">
+# <img alt="L\'icona dell\'ambiente OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width   *64px;"> OpenSCAD Workbench/it
 
 ## Introduzione
 
-L\'ambiente <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *24px;"> OpenSCAD serve per offrire interoperabilità con il software open source [OpenSCAD](http   *//www.openscad.org/). Questo programma non è distribuito come parte di FreeCAD, ma dovrebbe essere installato per poter sfruttare appieno questo ambiente. OpenSCAD non deve essere confuso con [OpenCASCADE](OpenCASCADE/it.md), che è il kernel geometrico che FreeCAD utilizza per costruire la geometria sullo schermo. Le librerie OpenCASCADE sono sempre necessarie per utilizzare FreeCAD, mentre l\'eseguibile OpenSCAD è del tutto opzionale.
+L\'[Ambiente OpenSCAD](OpenSCAD_Workbench/it.md) <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *24px;"> serve per offrire interoperabilità con il software open source [OpenSCAD](http   *//www.openscad.org/). Questo programma non è distribuito come parte di FreeCAD, ma dovrebbe essere installato per poter sfruttare appieno questo ambiente. OpenSCAD non deve essere confuso con [OpenCASCADE](OpenCASCADE/it.md), che è il kernel geometrico che FreeCAD utilizza per costruire la geometria sullo schermo. Le librerie OpenCASCADE sono sempre necessarie per utilizzare FreeCAD, mentre l\'eseguibile OpenSCAD è del tutto opzionale.
 
 Contiene un importatore [CSG](OpenSCAD_CSG/it.md) che permette di aprire i file CSG di OpenSCAD, e un esportatore per produrre un albero basato su CSG. La geometria che non è basata su operazioni CSG viene esportata come mesh.
 
@@ -26,7 +17,7 @@ Questo ambiente contiene le funzioni per modificare l\'albero delle caratteristi
 
 In FreeCAD 0.19, il modulo Ply (Python-Lex-Yacc), utilizzato per importare i file CSG, è stato rimosso dal codice sorgente di FreeCAD, in quanto è una libreria di terze parti non sviluppata da FreeCAD. Di conseguenza, ora è necessario installare Ply prima di utilizzare l\'ambiente OpenSCAD. Quando si utilizza una versione preconfezionata e stabile di FreeCAD, questa dipendenza dovrebbe essere installata automaticamente su tutte le piattaforme; in altri casi, ad esempio, quando si [compila](Compiling/it.md) dal sorgente, potrebbe essere necessario installarlo da un repository online.
 
-In openSUSE this is done by   *
+In openSUSE questo viene fatto da   *
 
 
 ```python
@@ -75,44 +66,28 @@ Durante la conversione si perde tutto il comportamento parametrico - tutti i nom
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width   *32px;"> [Preferenze](OpenSCAD_Preferences/it.md)   * Preferenze disponibili in OpenSCAD.
 
-## Limitations
-
-
-<div class="mw-translate-fuzzy">
-
 ## Limitazioni
 
 OpenSCAD crea una geometria solida costruttiva, importa i file mesh e estrude la geometria 2D da file [DXF](DXF/it.md). FreeCAD consente anche di creare CSG con primitive. Il kernel di geometria di FreeCAD (OCCT) funziona utilizzando la rappresentazione dei limiti. Pertanto la conversione da CSG a BREP dovrebbe, in teoria, essere possibile, mentre la conversione da BREP a CSG, in generale, non lo è.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 OpenSCAD lavora internamente su maglie. Alcune operazioni che sono utili con le maglie non sono significative su un modello BREP e attualmente non possono essere completamente supportate. Tra queste ci sono convex hull, minkowski sum, glide e subdiv. Attualmente si può eseguire il binario OpenSCAD al fine di eseguire le operazioni hull e minkwoski e importare il risultato. Ciò significa che la geometria coinvolta sarà triangolata. In OpenSCAD è spesso usata la scalatura non uniforme, che non crea alcun problema quando si utilizzano mesh. Nel nostro kernel geometrico le primitive geometriche (linee, sezioni circolari, ecc) vengono convertite in BSpline prima di eseguire queste deformazioni. Le bspline sono note per causare problemi nelle successive operazioni booleane. Al momento non è disponibile nessuna soluzione automatica. Non esitate a postare sul forum se si verificano tali problemi. Spesso tali problemi possono essere risolti rimodellamento piccole parti. Una deformazione di un cilindro può sostituita da una estrusione di una ellisse.
 
+## Importare testo 
 
-</div>
+L\'importazione di codice OpenSCAD con testi richiede che i font utilizzati siano installati correttamente sul sistema. Puoi verificarlo aprendo OpenSCAD come strumento autonomo e controllando l\'elenco in **Aiuto → Font List**. L\'elenco ti darà anche i nomi dei caratteri corretti. Se un font non viene visualizzato nell\'elenco dopo l\'installazione, potrebbe essere necessario copiare manualmente il file del font nella directory di sistema appropriata.
 
-## Importing text 
+L\'importazione di testi è relativamente lenta. Dietro le quinte FreeCAD utilizza un file DXF creato da OpenSCAD. Più contorni ci sono, più lenta sarà l\'importazione.
 
-Importing OpenSCAD code with texts requires that the fonts that are used are properly installed on your system. You can verify this by opening OpenSCAD as a standalone tool and checking the list in **Help → Font List**. The list will also give you the correct font names. If a font does not appear in the list after installing, you may have to manually copy the font file to the appropriate system directory.
-
-Importing texts is relatively slow. Behind the scenes FreeCAD uses a DXF file created by OpenSCAD. The more contours there are the slower the import.
-
-It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name)   *
+Può essere una buona idea importare prima un semplice test case (sostituire {{Incode|NameOfFont}} con il nome del carattere corretto)   *
 
     TESTFONT="NameOfFont";
     linear_extrude(0.001) {
       text("A", size=5, font=TESTFONT, script="Latn");
     };
 
-The {{Incode|<nowiki>script="Latn"</nowiki>}} parameter can be left out here, but is required if the text string does not contain any letters, but only punctuation and/or numbers.
+Il parametro {{Incode|<nowiki>script="Latn"</nowiki>}} può essere omesso qui, ma è obbligatorio se la stringa di testo non contiene lettere, ma solo punteggiatura e/o numeri.
 
-Please note that {{Incode|<nowiki>use <FONT>;</nowiki>}} statements in your source files are ignored when importing in FreeCAD. Under OpenSCAD the effect of a {{Incode|use}} statement is that the provided font file is temporarily added to the list of known fonts (although even there the statement does not work when a script is modified interactively).
-
-## Hints
+Tieni presente che le istruzioni {{Incode|<nowiki>use <FONT>;</nowiki>}} nei file sorgente vengono ignorate durante l\'importazione in FreeCAD. Sotto OpenSCAD l\'effetto di un\'istruzione {{Incode|use}} è che il file di font fornito viene temporaneamente aggiunto all\'elenco dei font conosciuti (sebbene anche lì l\'istruzione non funzioni quando uno script viene modificato in modo interattivo).
 
 ## Suggerimenti
 
@@ -124,32 +99,16 @@ Se FreeCAD va in crash durante l\'importazione CSG, si consiglia vivamente di at
 
 ## Tutorials
 
-## Tutorial
-
 -   [Importare codice OpenSCAD](Import_OpenSCAD_code/it.md)
 
 ## Links
 
-
-<div class="mw-translate-fuzzy">
-
-## Link
-
--   OpenSCAD source code repository on [GitHub](https   *//github.com/openscad/openscad)
--   [Open tickets tagged \"Openscad\" on the FreeCAD bugtracker](https   *//freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
--   [Elementi etichettati \"OpenSCAD\" in Thingiverse](http   *//www.thingiverse.com/tag   *openscad)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Il repository ufficiale del codice sorgente del progetto OpenSCAD è ospitato su [GitHub](https   *//github.com/openscad/openscad)
+-   Aprire un ticket etichettato \"OpenSCAD\" su [FreeCAD Github Issue tracker](https   *//github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). Ci sono anche ticket sull\'ormai archiviato [mantis bugtracker](https   *//freecadweb.org/tracker/search.php?tag_string=OpenSCAD).
+-   Modelli etichettati con \"OpenSCAD\" su [Thingiverse](http   *//www.thingiverse.com/tag   *openscad)
 
 
 
-
-
-</div>
 
 
 {{OpenSCAD Tools navi

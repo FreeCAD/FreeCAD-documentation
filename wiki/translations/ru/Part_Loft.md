@@ -14,7 +14,7 @@
 
 ## Overview
 
-The Loft tool is used to create a face, shell or a solid shape from two or more profiles. The profiles can be a point (vertex), line (Edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations and complications](Part_Loft#Limitations_and_complications.md), see below, however the profiles may come from the Part Workbench primitives, Draft Workbench features and a Sketch.
+The **Part Loft** tool is used to create a face, shell or a solid shape from two or more profiles. The profiles can be a point (vertex), line (Edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations and complications](Part_Loft#Limitations_and_complications.md), see below, however the profiles may come from [Part Workbench primitives](Part_Workbench.md), [Draft Workbench objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md).
 
 The Loft has three parameters, \"Ruled surface\",\"Create solid\" and \"Closed\" each with a value of either \"true\" or \"false\".
 

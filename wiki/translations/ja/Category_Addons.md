@@ -7,8 +7,8 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 |     |     |     |
 | --- | --- | --- |
-| [Plot Save/ja](wiki/Plot Save/ja.md) | [Ship Workbench/ja](wiki/Ship Workbench/ja.md) | [Category:External Workbenches/ja](wiki/Category_External Workbenches/ja.md) |
-| [Category:Macros/ja](wiki/Category_Macros/ja.md) |
+| [BIM Workbench/ja](wiki/BIM Workbench/ja.md) | [Plot Save/ja](wiki/Plot Save/ja.md) | [Ship Workbench/ja](wiki/Ship Workbench/ja.md) |
+| [Category:External Workbenches/ja](wiki/Category_External Workbenches/ja.md) | [Category:Macros/ja](wiki/Category_Macros/ja.md) |
 
 
 

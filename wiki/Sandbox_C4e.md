@@ -1,7 +1,7 @@
 # Sandbox:C4e
 ## All property types 
 
-Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system   * 
+Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system   *
 
 ++
 | Property Type                |
@@ -283,9 +283,9 @@ Custom [scripted objects](scripted_objects.md) can use any of the property types
 |                           |
 ++
 
+Internally, the property name is prefixed with `App   *   *Property`   *
 
 
-Internally, the property name is prefixed with  
 ```python
 App   *   *PropertyBool
 App   *   *PropertyFloat
@@ -297,7 +297,7 @@ Remember that these are property **types**. A single object may have many proper
 
 For example   *
 
- 
+
 ```python
 obj.addProperty("App   *   *PropertyFloat", "Length")
 obj.addProperty("App   *   *PropertyFloat", "Width")
@@ -305,8 +305,6 @@ obj.addProperty("App   *   *PropertyFloat", "Height")
 ```
 
 This indicates an object with three properties of type \"Float\", named \"Length\", \"Width\", and \"Height\", respectively.
-
-
 
 [Category   *Sandbox](Category_Sandbox.md)
 

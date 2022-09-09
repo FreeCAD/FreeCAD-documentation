@@ -26,9 +26,11 @@ Jeśli chcesz dodać treść do tych stron, poproś o konto Wiki z uprawnieniami
 
 ### Informacje ogólne 
 
+-   [Skrypty i makrodefinicje](Scripting_and_macros/pl.md) - Lista istotnych stron Wiki,
 -   [Wprowadzenie do Python](Introduction_to_Python/pl.md) - Zobacz także inne samouczki dotyczące języka Python na dole tej strony,
 -   [FreeCAD poradnik tworzenia skryptów](Python_scripting_tutorial/pl.md) - Ogólne spojrzenie na pisanie skryptów Pythona w programie FreeCAD,
 -   [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md)   * No cóż, podstawy.
+-   [FreeCAD Manual - Sekcja Skrypty w języku Python](Manual_A_gentle_introduction.md)   * Wielorozdziałowe wprowadzenie do skryptów środowiska Python w programie FreeCAD,
 -   [Polecenia Gui](Gui_Command/pl.md)   * Dodawanie niestandardowych poleceń do GUI,
 -   Używanie mieszanych [jednostek](Units/pl.md) we FreeCAD.
 -   [Tworzenie profili](Profiling/pl.md) kod środowiska Python,

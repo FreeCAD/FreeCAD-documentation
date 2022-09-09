@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Definește valori implicite pentru crearea unui punct pe traiectorie.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -28,6 +32,8 @@ Alegeți ** Robot** → ** Set default values** din meniul principal pentru a de
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

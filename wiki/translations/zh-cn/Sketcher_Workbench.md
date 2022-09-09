@@ -106,13 +106,31 @@ CAD绘图的传统方式继承于旧的[绘图板](http   *//en.wikipedia.org/wi
 
 ## Sketching Workflow 
 
+
+<div class="mw-translate-fuzzy">
+
 ## 草图工作流程
 
 草图总是二维（2D）。要创建一个实体，创建单个封闭区域的2D草图，然后垫高或旋转以添加第三维，从2D草图创建3D实体。
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 如果草图具有彼此交叉的段，其中一个点不直接位于段上的位置，或相邻段的端点之间存在间隙的位置，垫高或旋转将不会创建一个实体。这个规则的例外是它不适用于构造（蓝色）几何对象。
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 在封闭区域内，我们可以有较小的非重叠区域。当创建3D实体时，这些将变为空白。
+
+
+</div>
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part Workbench](Part_Workbench.md) and running **[<img src=images/Part_CheckGeometry.svg style="width   *16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
@@ -209,6 +227,16 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
+   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md)   * Draws an ellipse by center point, major radius point and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)   * Draws an ellipse by major diameter (2 points) and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md)   * Draws an arc of ellipse by center point, major radius point, starting point and ending point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)   * Draws an arc of hyperbola.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)   * Draws an arc of parabola.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -218,6 +246,10 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 
 </div>
+
+   ** <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-spline curve by its control points.
+
+   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic (closed) B-spline curve by its control points.
 
 
 <div class="mw-translate-fuzzy">
@@ -446,6 +478,8 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width   *48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md)   * This is an icon menu in the Sketcher constraints toolbar that holds the following commands   *
+
 
 <div class="mw-translate-fuzzy">
 
@@ -454,6 +488,12 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 
 </div>
+
+   ** <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+
+-   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Angle](Sketcher_ConstrainAngle.md)   * Defines the internal angle between two selected lines.
 
 #### Special constraints 
 

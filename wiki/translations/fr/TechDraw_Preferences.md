@@ -67,8 +67,6 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 
 <img alt="Préférences de Dimensions" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
-### Dimensions 
-
 -   **Standard et Style**    * norme à utiliser pour les valeurs dimensionnelles. La différence entre les normes est indiquée dans l\'image   * ![\|500px\|Différences entre les differentes normes prises en charge. ([Image source](images/https   *//forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png ).
 
    *   
@@ -87,6 +85,8 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 -   **Symbole de diamètre**    * caractère utilisé pour indiquer les dimensions des diamètres.
 -   **Style des flèches**    * style de pointe des flèches pour les dimensions.
 -   **Taille des flèches**    * taille de la pointe des flèches des dimensions.
+-   **Facteur d\'écart d\'extension - ISO**    * écart entre le point de dimension et le début des lignes d\'extension pour les dimensions ISO. {{Version/fr|1.0}}
+-   **Facteur d\'écart d\'extension - ASME**    * écart entre le point de cote et le début des lignes d\'extension pour les cotes ASME. {{Version/fr|1.0}}
 
 ## Annotation
 
@@ -132,7 +132,7 @@ Configuration des couleurs par défaut pour les nouvelles pages   *
 -   **Hachure géometrique**    * Couleur du motif des [hachures géométriques](TechDraw_GeometricHatch/fr.md).
 -   **Sommet**    * Couleur des [vertices](Glossary/fr#V.md) (sommets) sélectionnables dans les vues.
 -   **Lignes de référence**    * Couleur des nouvelles [lignes de référence](TechDraw_LeaderLine/fr.md).
--   **Couleur de la grille**    * Couleur pour toutes les grilles de pages. <small>(v0.20)</small> 
+-   **Couleur de la grille**    * Couleur pour toutes les grilles de pages. {{Version/fr|0.20}}
 
 ## Lignes cachées 
 

@@ -118,6 +118,8 @@ Dopóki strony poradników nie są dostępne na tej wiki, istnieje strona z [prz
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width   *100px;">
 
+Zawiera również kilka wskazówek dotyczących [własności](SheetMetal_Examples/pl#W.C5.82a.C5.9Bciwo.C5.9Bci_.C5.9Brodowiska_pracy_Arkusz_Blachy.md).
+
 ## Ograniczenia
 
 -   Na środowisko robocze ma wpływ [problem nazewnictwa topologicznego](Topological_naming_problem/pl.md), który jest nieodłączny dla FreeCAD. Jeśli edycja zagięcia wcześniej w historii części zmieni numerację powierzchni, wówczas kolejne zagięcia mogą zostać naruszone i zmienić powierzchnię. Jeżeli właściwości gięcia nie zostaną uszkodzone, możesz kliknąć na nim dwukrotnie, aby uzyskać okno dialogowe, w którym możesz wybrać odpowiednią powierzchnię w oknie [widoku 3D](3D_view/pl.md) i zaktualizować gięcie.

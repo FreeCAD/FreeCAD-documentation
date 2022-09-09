@@ -112,7 +112,13 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_Profile.svg  style="width   *32px;"> [Profile](Path_Profile/de.md)   * Erzeugt eine Profilbearbeitung des gesamten Modells oder von einer oder mehreren ausgewählten Flächen oder Kanten. {{Version/de|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Path_Pocket.svg  style="width   *32px;"> [Taschenform](Path_Pocket_Shape/de.md)   * Erzeugt eine Taschenbearbeitung aus einer oder mehreren ausgewählten Taschen.
+
+
+</div>
 
 -   <img alt="" src=images/Path_Drilling.svg  style="width   *32px;"> [Bohren](Path_Drilling/de.md)   * Führt einen Bohrzyklus durch.
 

@@ -25,7 +25,7 @@ Das **Std Menü Ansicht** ist eines der 7 Untermenüs im [Standardmenü](Standar
 [Hilfe](Std_Help_Menu/de.md)
 }}
 
-Das Menü Ansicht bietet Werkzeuge zum Ändern der [3D Ansicht](3D_view/de.md) und der Ansichtseigenschaften von Objekten im Modell sowie Werkzeuge für die Anzeige von Oberflächenkomponenten.
+Das Menü Ansicht stellt Werkzeuge bereit zum Ändern der [3D-Ansicht](3D_view/de.md) und der Ansichtseigenschaften von Objekten im Modell sowie Werkzeuge für die Anzeige von Oberflächenkomponenten.
 
 ## Werkzeuge
 

@@ -34,7 +34,7 @@ The **Std Workbench** command activates a selected [workbench](Workbenches.md) i
 
 -   The start up workbench can be changed in the preferences   * **Edit → Preferences... → General → General → Start up**. See [Preferences Editor](Preferences_Editor#General.md).
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же   ***

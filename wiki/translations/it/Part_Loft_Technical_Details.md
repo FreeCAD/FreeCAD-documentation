@@ -67,14 +67,8 @@ Notare che Loft ha una proprietà \"Ruled\". Se è impostata su true, le superfi
 
     
   <img alt="Non è necessario che i profili siano paralleli." src=images/Loft_nonparallel.png  style="width   *300px;">   <img alt="In Loft, i profili possono essere complanari. In questo esempio, due dei tre profili sono complanari." src=images/Loft_Coplanar.png  style="width   *300px;">   <img alt="Un esempio di un Loft chiuso tra tre profili pentagonali bianchi. Notare la giunzione non levigata sul profilo più esterno. Questo è il primo profilo nel loft chiuso." src=images/Loft-closed.png  style="width   *300px;">
-    
-
-
- 
-
-[Category   *Tutorials](Category_Tutorials.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/it

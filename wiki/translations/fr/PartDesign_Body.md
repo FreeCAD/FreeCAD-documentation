@@ -59,7 +59,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le Par
 
 ##### Propriétés cachées de Données 
 
--    **Origin|Link**   * l\'objet [App Origin](App_Origin/fr.md) est la référence de position pour tous les éléments répertoriés dans **Group**.
+-    **Origin|Link**   * l\'objet [App Origin](App_OriginGroupExtension/fr.md) est la référence de position pour tous les éléments répertoriés dans **Group**.
 
 -    **_ Group Touched|Bool**   * si le groupe est coché ou non.
 
@@ -141,9 +141,9 @@ L\'Origine se compose des trois axes standard (X, Y, Z) et de trois plans standa
 Le même processus peut être utilisé lors de la création d\'une géométrie de référence auxiliaire comme des [PartDesign Lignes](PartDesign_Line/fr.md), [PartDesign Plans](PartDesign_Plane/fr.md) et [PartDesign Systèmes de coordonnées](PartDesign_CoordinateSystem/fr.md).
 
 
-**Remarque   ***
+**Remarque    ***
 
-L\'Origine est un objet [App Origin](App_Origin/fr.md) (classe `App   *   *Origin`) tandis que les axes et les plans sont respectivement des objets de type `App   *   *Line` et `App   *   *Plane`. Chacun de ces éléments peut être masqué et non masqué individuellement avec la barre **Espace**. Cela est utile pour choisir la référence correcte lors de la création d\'autres objets.
+l\'Origine est un objet [App Origin](App_OriginGroupExtension/fr.md) (classe `App   *   *Origin`) tandis que les axes et les plans sont respectivement des objets de type `App   *   *Line` et `App   *   *Plane`. Chacun de ces éléments peut être masqué et non masqué individuellement avec la barre **Espace**. Cela est utile pour choisir la référence correcte lors de la création d\'autres objets.
 
 
 **Remarque 2   ***

@@ -1,49 +1,50 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign SubtractiveCone
-   MenuLocation   *Part Design → Create a subtractive primitive → Subtractive Cone
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
+- GuiCommand   */ru
+   Name/ru   *Субтрактивный конус
+   Name   *PartDesign_SubtractiveCone
+   MenuLocation   *Part Design → Создать субтрактивный примитив → Субтрактивный конус
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveCone](PartDesign_AdditiveCone.md)
+   SeeAlso   *[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный конус](PartDesign_AdditiveCone/ru.md)
 ---
 
 # PartDesign SubtractiveCone/ru
 
 ## Описание
 
-Inserts a subtractive cone in the active Body. Its shape is subtracted from the existing solid.
+Вставляет субтрактивный конус в активное Тело. Его форма вычитается из существующего тела.
 
 ![](images/PartDesign_SubtractiveCone_example.png )
 
-*On the left   * active body (A) shown in grey and subtractive cone (B) shown in transparent red; result on the right.*
+*Слева   * активное тело (A) отображено серым цветом, к которому добавлен субтрактивный конус (B) отображен прозрачным красным цветом. Справа   * форма полученная в результате преобразования.*
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_SubtractiveCone.svg" width=24px> '''Subtractive Cone'''** button. **Note**   * the Subtractive Cone is part of an icon menu labelled *Create a subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Subtractive Cone in the menu.
-2.  Set the Primitive parameters (for a complete cone, set one of the radii to zero) and the [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Cone feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_SubtractiveCone.svg" width=24px> '''Субтрактивный конус'''**. **Примечание**   * Инструмент Субтрактивный конус входит в состав меню с названием \"Создать субтрактивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Субтрактивный куб. Чтобы перейти к кнопке создания Конуса, нажмите на стрелку указывающую вниз рядом со значком и выберите Субтрактивный Конус в выпадающем меню.
+2.  Установите параметры геометрической формы (для создания острого конуса установите один из радиусов равным нулю) и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Конус появится в иерархии документа под активным Телом.
 
 ## Опции
 
-The Cone can be edited after its creation in two ways   *
+Параметры Конуса после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
--    **Attachment**   * defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+-    **Attachment**   * Определяет режим крепления, а также смещение конструктивного элемента при его [креплении](Part_EditAttachment/ru.md).
 
--    **Label**   * label given to the Cone object. Change to suit your needs.
+-    **Label**   * Метка, присвоенная объекту Конус. Может быть изменена в соответствии с вашими потребностями.
 
--    **Radius1**   * the radius value at the cone\'s base.
+-    **Radius1**   * радиус основания конуса.
 
--    **Radius2**   * the radius value at the cone\'s top. A non-zero value creates a truncated cone.
+-    **Radius2**   * радиус вершины конуса. Ненулевое значение создает усеченный конус.
 
--    **Height**   * the height of the cone along its axis.
+-    **Height**   * высота конуса вдоль его оси.
 
--    **Angle**   * angle of rotation of the cross section (360 degrees in a full cone).
+-    **Angle**   * угол поперечного выреза (360 градусов образуют полный конус).
 
 
 

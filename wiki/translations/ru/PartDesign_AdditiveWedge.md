@@ -2,7 +2,7 @@
 - GuiCommand   */ru
    Name/ru   *Аддитивный клин
    Name   *PartDesign_AdditiveWedge
-   MenuLocation   *Part Design → Создать аддитивный примитив → Аддитивный клин
+   MenuLocation   *Part Design → Создать аддитивный примитив → Аддитивный Клин
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
    SeeAlso   *[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный клин](PartDesign_SubtractiveWedge/ru.md)
@@ -10,55 +10,46 @@
 
 # PartDesign AdditiveWedge/ru
 
-
-</div>
-
 ## Описание
 
-Inserts a primitive wedge in the active Body as the first feature, or fuses it to the existing feature(s).
+Вставляет в активное Тело простую геометрическую форму - клин, в качестве базового конструктивного элемента, или объединяет этот элемент с уже существующей совокупностью конструктивных элементов.
 
 <img alt="" src=images/PartDesign_AdditiveWedge_example.png  style="width   *200px;">
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Additive Wedge'''** button. **Note**   * the Additive Wedge is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Wedge, click on the down arrow besides the visible icon and select Additive Wedge in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Wedge feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Аддитивный клин'''**. **Примечание**   * Инструмент Аддитивный клин входит в состав меню с названием \"Создать аддитивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Аддитивный куб. Чтобы перейти к кнопке создания клина, нажмите на стрелку указывающую вниз рядом со значком и выберите Аддитивный клин в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент клин появится в иерархии документа под активным Телом.
 
 ## Опции
 
-The Wedge can be edited after its creation in two ways   *
+Параметры Клина после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
-Using the default placement, the below inputs are   *
+При положении по умолчанию, приведенные ниже входные данные являются   *
 
--    **X min/max**   * Base face X axis span
+-    **X min/max**   * Размеры основания по оси X
 
--    **Y min/max**   * Wedge height span
+-    **Y min/max**   * Высота клина по оси Y
 
--    **Z min/max**   * Base face Z axis span
+-    **Z min/max**   * Размеры основания по оси Z
 
--    **X2 min/max**   * Top face X axis span
+-    **X2 min/max**   * Размеры вершины по оси X
 
--    **Z2 min/max**   * Top face Z axis span
+-    **Z2 min/max**   * Размеры вершины по оси Z
 
-## Pyramids
+## Пирамиды
 
-Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max** each so that min = max.
-
-
-<div class="mw-translate-fuzzy">
+Инструмент Клин можно использовать для создания пирамид, если установить свойства Клина   * **X2 min/max** и **Z2 min/max** так, чтобы min = max.
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

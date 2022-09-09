@@ -151,6 +151,7 @@ __Files__ = ""
 
 # imports and constants
 import time, os     # built-in modules
+from PySide2 import QtCore
 from PySide2.QtWidgets import (QDialog, QPushButton, QLabel, QComboBox,
                                QLineEdit, QAction, QDoubleSpinBox)
 

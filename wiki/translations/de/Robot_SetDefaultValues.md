@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Setzen der Standardwerte für das Erzeugen von Wegpunkten.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -28,6 +32,8 @@ Wählen Sie ** Roboter** → ** Festlegen von Standardwerten** aus dem Top-Menü
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

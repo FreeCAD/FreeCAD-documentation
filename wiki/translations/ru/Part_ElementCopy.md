@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */ru
-   Name   *Part ElementCopy
-   Name/ru   *Part ElementCopy
-   MenuLocation   *Part → Create a copy → Create shape element copy
+   Name/ru   *Создать копию элемента формы
+   Name   *Part_ElementCopy
+   MenuLocation   *Деталь → Создать копию → Создать копию элемента формы
    Workbenches   *[Part](Part_Workbench/ru.md)
    Version   *0.19
-   SeeAlso   *[SimpleCopy](Part_SimpleCopy/ru.md), [TransformedCopy](Part_TransformedCopy/ru.md), [RefineShape](Part_RefineShape/ru.md)
+   SeeAlso   *[Создать простую копию](Part_SimpleCopy/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
 ---
 
 # Part ElementCopy/ru
-
-
-</div>
 
 ## Описание
 
@@ -29,11 +26,11 @@ To produce complete non-parametric copies of the objects use **<img src="images/
 
 ### Данные
 
-The copy has a simple **Placement** property like any other [Part Feature](Part_Feature.md).
+Копия имеет простое свойство **Placement** , как и у любых других [Part Feature](Part_Feature/ru.md).
 
 ### Вид
 
-The copy has simple view properties like any other [Part Feature](Part_Feature.md).
+Копия имеет простые свойства вида, аналогичные тем, что имеются у любых других [Part Feature](Part_Feature/ru.md).
 
 
 

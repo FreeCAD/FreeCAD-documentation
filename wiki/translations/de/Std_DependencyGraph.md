@@ -17,7 +17,7 @@ Es kann bei der Analyse eines FreeCAD-Dokuments und beim Auffinden von Verzweigu
 Der Abhängigkeitsgraph ist ein reines Visualisierungswerkzeug, daher kann er nicht bearbeitet werden. Er wird automatisch aktualisiert, wenn Änderungen am Modell vorgenommen werden.
 
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width   *400px;"> 
-*Beispiel eines Abhängigkeitsdiagramms mit einem PartDesign Körper auf der linken Seite und einem mit Teiloperationen erzeugten Objekt auf der rechten Seite*
+*Beispiel eines Abhängigkeitsgraphen mit einem PartDesign-Körper auf der linken Seite und einem in der Arbeitsumgebung Part erzeugten Objekt auf der rechten Seite*
 
 ## Installation
 
@@ -38,27 +38,21 @@ Du kannst graphviz mit [Homebrew](https   *//brew.sh/) installieren. (Werde bei 
 brew install graphviz
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Dadurch werden die Graphviz Binärdateien unter /usr/local/bin installiert. FreeCAD wird dort ganz von selbst suchen. Wenn das Programm dort nicht gefunden wird, wirst du aufgefordert, den Pfad einzugeben. Leider können wir vom Dateidialog aus, der aus **Werkzeuge → Abhängigkeitsdiagramm...** aufgerufen wird, nicht direkt dorthin navigieren. Wenn du den Dateiauswahldialog erhälst, hast du zwei Möglichkeiten   * Du kannst die Tastenkombination Cmd+Shift+. verwenden, die dir alle ausgeblendeten Elemente anzeigt. Oder du verwendest die Tastenkombination Cmd+Shift+G, um ein Eingabefeld für den Pfad zu erhalten. Eingabe von
-
-
-</div>
+Dadurch werden die Graphviz-Binärdateien unter /usr/local/bin für macOS auf Intel, und /opt/homebrew für macOS auf Apple Silicon/ARM installiert. FreeCAD wird dort ganz von selbst suchen. Wenn das Programm dort nicht gefunden wird, wird man aufgefordert, den Pfad einzugeben. Leider können wir vom Dateidialog aus, der mit **Werkzeuge → Abhängigkeitsgraph...** aufgerufen wird, nicht direkt dorthin navigieren. Wenn sich der Dateiauswahldialog öffnet, bietet er zwei Möglichkeiten   * Die Tastenkombination Cmd+Shift+. zu verwenden, die alle ausgeblendeten Elemente anzeigt oder die Tastenkombination Cmd+Shift+G, um ein Eingabefeld für den Pfad zu erhalten. Darin gibt man
 
 
 {{Code|lang=text|code=
 /usr/local/bin
 }}
 
-or
+oder
 
 
 {{Code|lang=text|code=
 /opt/homebrew/bin
 }}
 
-und bestätige das Eingabefeld und den Dateiauswahldialog.
+ein und bestätigt das Eingabefeld und den Dateiauswahldialog.
 
 Falls die Graphviz Binärdateien an einem nicht-standardmäßigen Ort installiert sind, versuche, das Programm mit dem Befehl zu finden
 

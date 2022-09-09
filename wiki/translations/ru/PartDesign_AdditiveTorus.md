@@ -5,33 +5,30 @@
    MenuLocation   *Part Design → Создать аддитивный примитив → Аддитивный Тор
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md)
+   SeeAlso   *[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный тор](PartDesign_SubtractiveTorus/ru.md)
 ---
 
 # PartDesign AdditiveTorus/ru
 
-
-</div>
-
 ## Описание
 
-Inserts a primitive torus in the active Body as the first feature, or fuses it to the existing feature(s).
+Вставляет в активное Тело простую геометрическую форму - тор, в качестве базового конструктивного элемента, или объединяет этот элемент с уже существующей совокупностью конструктивных элементов.
 
 <img alt="" src=images/PartDesign_AdditiveTorus_example.png  style="width   *200px;">
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_AdditiveTorus.svg" width=24px> '''Additive Torus'''** button. **Note**   * the Additive Torus is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Torus, click on the down arrow besides the visible icon and select Additive Torus in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Torus feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_AdditiveTorus.svg" width=24px> '''Аддитивный тор'''**. **Примечание**   * Инструмент Аддитивный тор входит в состав меню с названием \"Создать аддитивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Аддитивный куб. Чтобы перейти к кнопке создания Тора, нажмите на стрелку указывающую вниз рядом со значком и выберите Аддитивный тор в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Тор появится в иерархии документа под активным Телом.
 
 ## Опции
 
-The Torus can be edited after its creation in two ways   *
+Параметры Тора после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
@@ -50,13 +47,7 @@ The Torus can be edited after its creation in two ways   *
 -    **Angle3**   * (labelled *U parameter* in the Primitive parameters) angle of rotation of the circular cross section (360 degrees in a full torus).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

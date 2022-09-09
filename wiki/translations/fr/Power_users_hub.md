@@ -26,13 +26,16 @@ Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki av
 
 ### Général
 
+-   [Exemples de scripts et macros](Scripting_and_macros/fr.md) - Une liste de pages du wiki pertinentes.
 -   [Introduction à Python](Introduction_to_Python/fr.md)    * Allez voir aussi les autres tutoriels pour Python en liens en bas de cette page.
 -   [Tutoriel sur les scripts Python](Python_scripting_tutorial/fr.md)    * Une vue générale des scripts Python dans FreeCAD.
 -   [Scripts de base](FreeCAD_Scripting_Basics/fr.md)    * Les bases des scripts en Python\...
 -   [Interface et commandes](Gui_Command/fr.md)    * Ajouter des commandes personnalisées dans l\'interface de FreeCAD.
+-   [Manuel    * petite introduction à Python](Manual   *A_gentle_introduction/fr.md)    * Introduction en plusieurs chapitres aux scripts Python dans FreeCAD.
 -   Utiliser des [Unités](Units/fr.md) variées dans FreeCAD.
 -   [Profilage](Profiling/fr.md) du code Python.
 -   [Débogage](Debugging/fr#D.C3.A9bogage_Python.md) du code Python.
+-   [Environnement de développement pour Python](Python_Development_Environment/fr.md) - Un développement simplifié pour Python dans FreeCAD
 
 ### Modules
 

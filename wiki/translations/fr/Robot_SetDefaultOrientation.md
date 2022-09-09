@@ -2,39 +2,19 @@
 - GuiCommand   */fr
    Name   *Robot SetDefaultOrientation
    Name/fr   *Robot Orientation par défaut
-   Workbenches   *[Robot](Robot_Workbench/fr.md)
    MenuLocation   *Robot → Définir l'orientation par défaut
+   Workbenches   *[Robot](Robot_Workbench/fr.md)
+   SeeAlso   *...
 ---
 
 # Robot SetDefaultOrientation/fr
 
+## Description
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Description
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Utilisation
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Utilisation
 
 
 
-
-
-</div>
 
 
 {{Robot_Tools_navi

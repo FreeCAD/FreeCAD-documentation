@@ -1,48 +1,27 @@
 # Sketcher Preferences/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
+Die Einstellungen für den Arbeitsbereich <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [Sketcher](Sketcher_Workbench/de.md) befinden sich im [Voreinstellungseditor](Preferences_Editor.md). Im Menü wählt man **Bearbeiten → Einstellungen...** und dann **Sketcher**.
 
-<div class="mw-translate-fuzzy">
-
-Der Einstellungsbildschirm des [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) befindet sich im [Einstellungseditor](Preferences_Editor/de.md), **Bearbeiten → Einstellungen → Skizzierer**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Es gibt drei Reiter   * Allgemein, Anzeige und Farben.
-
-
-</div>
+Es gibt drei Reiter   * [Allgemein](#Allgemein.md), [Anzeige](#Anzeige.md) und [Farben](#Farben.md).
 
 ## Allgemein
 
-In the *General* tab you can specify the following   *
+Auf der Registerkarte *Allgemein* kann Folgendes festgelegt werden   *
 
 +++
-| Name                                                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Name                                                         | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 +==============================================================+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-|                                               | If checked, a grid will be shown in the sketches.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Show Grid**                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                           | This option and the following 5 preferences settings can also be specified only for single sketches in the [sketcher dialog](Sketcher_Dialog#Edit_controls.md) section *Edit controls*.                                                                                                                                                                                                                                                                                   |
+|                                               | Wenn aktiviert, wird in den Skizzen ein Raster angezeigt.                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Raster anzeigen**                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                           | Diese Wahlmöglichkeit und die folgende 5 Vorzugseinstellungen können auch für nur eine einzelne Skizze im abschnitt *Bedienelemente bearbeiten* des [Sketcher-Dialogs](Sketcher_Dialog/de#Bedienelemente_bearbeiten.md) festgelegt werden.                                                                                                                                                                                                                                |
 +++
-|                                               | The distance between two subsequent grid lines. Note that the default value of 0 mm will result in a 10 mm grid.                                                                                                                                                                                                                                                                                                                                                                  |
-| **Grid size**                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               | Abstand zweier aufeinander folgenden Rasterlinien. Man beachte, dass der Vorgabewert von 0 mm ein Raster mit 10 mm Abstand ergibt.                                                                                                                                                                                                                                                                                                                                                |
+| **Rastergröße**                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
-|                                               | If checked, new points will snap to the nearest grid line. Note that the points have already to be close to a grid line that the snap takes effect. The distance is a fifth of the value set for **Grid size**, so for a 10 mm grid, the snapping only occurs if the point is not more than 2 mm away from a grid line.                                                                                                                                 |
-| **Grid snap**                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                               | Wenn aktiviert, rasten neue Punkte auf der nächstgelegenen Rasterlinie ein. Man beachte, dass sich die Punkte schon dicht an einer Rasterlinie befinden müssen, damit sie einrasten. Der Abstand ist ein Fünftel des Wertes für die **Rastergröße**, bei einem 10 mm Raster tritt das Einrasten also nur ein, wenn der Punkt nicht weiter als 2 mm von der Rasterlinie entfernt ist.                                                                    |
+| **Am Raster fangen**                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                           | **Note   *** A snapped point has no coincident constraint with the grid point it snapped to.                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 |                                               | If checked, the sketcher proposes automatically sensible constraints. If you draw for example a [polyline](Sketcher_CreatePolyline.md) <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *20px;"> and point towards the bottom, you will see that the sketcher proposes a vertical constraint   *<img alt="" src=images/Constraint_Vertical.svg  style="width   *20px;">. If you set now a point the drawn line segment will get the vertical constraint. |
@@ -82,7 +61,7 @@ In the *General* tab you can specify the following   *
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-General.png )
 
-## Display
+## Anzeige
 
 In the *Display* tab you can specify the following   *
 
@@ -159,7 +138,7 @@ In the *Display* tab you can specify the following   *
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Display.png )
 
-## Colors
+## Farben
 
 In the *Colors* tab you can specify the following   *
 
@@ -255,14 +234,18 @@ In the *Colors* tab you can specify the following   *
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
+## Note
 
-<div class="mw-translate-fuzzy">
+There is another preference that has an influence on sketches. If the **Transparent objects** preference on the [Display → 3D View](Preferences_Editor#3D_View.md) tab is set to {{Value|Backface pass}}, the arrowheads on one end of sketcher dimensions are hidden if **Show grid** is deactivated in the [Edit controls](Sketcher_Dialog#Edit_controls.md) section of the [Task panel](Task_panel.md). This applies to FreeCAD version 0.19, version 0.20 and recent development versions (up to 0.21-30058, at least) except Link branch.
+
+<img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-01.png  style="width   *200px;"> <img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-02.png  style="width   *200px;"> 
+*Front view, grid enabled and grid disabled*
+
+<img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-03.png  style="width   *200px;"> <img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-04.png  style="width   *200px;"> 
+*Rear view, grid enabled and grid disabled hiding arrowheads on the opposite end as well as the dimension value*
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

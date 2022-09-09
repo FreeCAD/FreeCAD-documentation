@@ -130,7 +130,7 @@ View will try to draw anything with a `Shape` property. You can select [sketches
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The New View tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+The View tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python

@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher BSplineDecreaseDegree
-   Name/de   *Skizzierer BSplineGradVerkleinern
-   MenuLocation   *Skizze → Skizzierer B-spline Werkzeuge → B-Spline Grad verringern
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Name/de   *Sketcher BSplineGradVerringern
+   MenuLocation   *Sketch → B-Spline-Werkzeuge → Grad des B-Splines verringern
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.19
-   SeeAlso   *[Skizzierer B-Spline-Grad ein-/ausblenden](Sketcher_BSplineDegree/de.md), [Skizzierer B-Spline Grad erhöhen](Sketcher_BSplineIncreaseDegree/de.md)
+   SeeAlso   *[BSplineGrad](Sketcher_BSplineDegree/de.md), [BSplineGradVerringern](Sketcher_BSplineIncreaseDegree/de.md)
 ---
 
 # Sketcher BSplineDecreaseDegree/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -39,7 +36,7 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 ## Anwendung
 
-1.  Select an edge from an existing B-spline, and press **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width   *24px"> '''Decrease B-spline degree'''**.
+1.  Eine Kante eines existierenden B-Splines auswählen und die Schaltfläche **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width   *24px"> '''Grad des B-Splines verringern''' drücken**.
 
 
 

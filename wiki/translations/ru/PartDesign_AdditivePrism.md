@@ -10,30 +10,27 @@
 
 # PartDesign AdditivePrism/ru
 
-
-</div>
-
 ## Описание
 
-Inserts a primitive prism in the active Body as the first feature, or fuses it to the existing feature(s).
+Вставляет в активное Тело простую геометрическую форму - призму, в качестве базового конструктивного элемента, или объединяет этот элемент с уже существующей совокупностью конструктивных элементов.
 
 <img alt="" src=images/PartDesign_AdditivePrism_example.png  style="width   *200px;">
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_AdditivePrism.svg" width=24px> '''Additive Prism'''** button. **Note**   * the Additive Prism is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Prism, click on the down arrow besides the visible icon and select Additive Prism in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Prism feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_AdditivePrism.svg" width=24px> '''Аддитивная призма'''**. **Примечание**   * Инструмент Аддитивная призма входит в состав меню с названием \"Создать аддитивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Аддитивный куб. Чтобы перейти к кнопке создания Призмы, нажмите на стрелку указывающую вниз рядом со значком и выберите Аддитивная призма в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Призма появится в иерархии документа под активным Телом.
 
 ## Опции
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.19)</small> 
+Возможно также создавать наклонные призмы, указав углы наклона её боковых рёбер относительно плоскости основания. {{Version/ru|0.19}}
 
-The Prism can be edited after its creation in two ways   *
+Параметры Призмы после её создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по ней в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
@@ -52,13 +49,7 @@ The Prism can be edited after its creation in two ways   *
 -    **Second Angle**   * angle in second direction. <small>(v0.19)</small> 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

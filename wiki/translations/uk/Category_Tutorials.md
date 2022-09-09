@@ -9,8 +9,8 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch tutorial/uk](wiki/Arch tutorial/uk.md) | [Manual:Installing/uk](wiki/Manual_Installing/uk.md) | [Template:TutorialInfo/uk](wiki/Template_TutorialInfo/uk.md) |
-| [Tutorials/uk](wiki/Tutorials/uk.md) | [Video tutorials/uk](wiki/Video tutorials/uk.md) |
+| [Arch tutorial/uk](wiki/Arch tutorial/uk.md) | [Manual:Installing/uk](wiki/Manual_Installing/uk.md) | [Tutorials/uk](wiki/Tutorials/uk.md) |
+| [Video tutorials/uk](wiki/Video tutorials/uk.md) |
 
 
 

@@ -35,29 +35,29 @@
 
 -   <img alt="" src=images/Part_Cone.svg  style="width   *32px;"> [Конус](Part_Cone/ru.md)   * Создаёт твердотельный конус.
 
--   <img alt="" src=images/Part_Torus.svg  style="width   *32px;"> [Torus](Part_Torus.md)   * Creates a torus.
+-   <img alt="" src=images/Part_Torus.svg  style="width   *32px;"> [Тор](Part_Torus/ru.md)   * Создаёт твердотельный тор (кольцо).
 
--   <img alt="" src=images/Part_Tube.svg  style="width   *32px;"> [Tube](Part_Tube.md)   * Creates a tube. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_Tube.svg  style="width   *32px;"> [Полый цилиндр](Part_Tube/ru.md)   * Создаёт полый цилиндр. {{Version/ru|0.19}}
 
--   <img alt="" src=images/Part_Primitives.svg  style="width   *32px;"> [Create primitives\...](Part_Primitives.md)   * A tool to create one of the following primitives   *
-    -   <img alt="" src=images/Part_Plane.svg  style="width   *32px;"> [Plane](Part_Plane.md)   * Creates a plane.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width   *32px;"> [Box](Part_Box.md)   * Creates a box. This object can also be created with the <img alt="" src=images/Part_Box.svg  style="width   *32px;"> [Box](Part_Box.md) tool.
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width   *32px;"> [Cylinder](Part_Cylinder.md)   * Creates a cylinder. This object can also be created with the <img alt="" src=images/Part_Cylinder.svg  style="width   *32px;"> [Cylinder](Part_Cylinder.md) tool.
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width   *32px;"> [Cone](Part_Cone.md)   * Creates a cone. This object can also be created with the <img alt="" src=images/Part_Cone.svg  style="width   *32px;"> [Cone](Part_Cone.md) tool.
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width   *32px;"> [Sphere](Part_Sphere.md)   * Creates a sphere. This object can also be created with the <img alt="" src=images/Part_Sphere.svg  style="width   *32px;"> [Sphere](Part_Sphere.md) tool.
-    -   <img alt="" src=images/Part_Ellipsoid.svg  style="width   *32px;"> [Ellipsoid](Part_Ellipsoid.md)   * Creates a ellipsoid.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width   *32px;"> [Torus](Part_Torus.md)   * Creates a torus. This object can also be created with the <img alt="" src=images/Part_Torus.svg  style="width   *32px;"> [Torus](Part_Torus.md) tool.
-    -   <img alt="" src=images/Part_Prism.svg  style="width   *32px;"> [Prism](Part_Prism.md)   * Creates a prism.
-    -   <img alt="" src=images/Part_Wedge.svg  style="width   *32px;"> [Wedge](Part_Wedge.md)   * Creates a wedge.
-    -   <img alt="" src=images/Part_Helix.svg  style="width   *32px;"> [Helix](Part_Helix.md)   * Creates a helix.
-    -   <img alt="" src=images/Part_Spiral.svg  style="width   *32px;"> [Spiral](Part_Spiral.md)   * Creates a spiral.
-    -   <img alt="" src=images/Part_Circle.svg  style="width   *32px;"> [Circle](Part_Circle.md)   * Creates a circular arc.
-    -   <img alt="" src=images/Part_Ellipse.svg  style="width   *32px;"> [Ellipse](Part_Ellipse.md)   * Creates an elliptical arc.
-    -   <img alt="" src=images/Part_Point.svg  style="width   *32px;"> [Point](Part_Point.md)   * Creates a point.
-    -   <img alt="" src=images/Part_Line.svg  style="width   *32px;"> [Line](Part_Line.md)   * Creates a line.
-    -   <img alt="" src=images/Part_RegularPolygon.svg  style="width   *32px;"> [Regular polygon](Part_RegularPolygon.md)   * Creates a regular polygon.
+-   <img alt="" src=images/Part_Primitives.svg  style="width   *32px;"> [Примитивы](Part_Primitives/ru.md)   * Инструмент для создания одного из следующих примитивов   *
+    -   <img alt="" src=images/Part_Plane.svg  style="width   *32px;"> [Плоскость](Part_Plane/ru.md)   * Создаёт плоскость.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width   *32px;"> [Куб](Part_Box/ru.md)   * Создаёт куб (параллепипед). Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Box.svg  style="width   *32px;"> [Куб](Part_Box/ru.md).
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width   *32px;"> [Цилиндр](Part_Cylinder/ru.md)   * Создаёт цилиндр. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cylinder.svg  style="width   *32px;"> [Цилиндр](Part_Cylinder/ru.md).
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width   *32px;"> [Конус](Part_Cone/ru.md)   * Создаёт конус. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cone.svg  style="width   *32px;"> [Конус](Part_Cone/ru.md).
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width   *32px;"> [Сфера](Part_Sphere/ru.md)   * Создаёт сферу. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Sphere.svg  style="width   *32px;"> [Сфера](Part_Sphere/ru.md).
+    -   <img alt="" src=images/Part_Ellipsoid.svg  style="width   *32px;"> [Эллипсоид](Part_Ellipsoid/ru.md)   * Создаёт эллипсоид.
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width   *32px;"> [Тор](Part_Torus/ru.md)   * Создаёт тор. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Torus.svg  style="width   *32px;"> [Тор](Part_Torus/ru.md).
+    -   <img alt="" src=images/Part_Prism.svg  style="width   *32px;"> [Призма](Part_Prism/ru.md)   * Создаёт призму.
+    -   <img alt="" src=images/Part_Wedge.svg  style="width   *32px;"> [Клин](Part_Wedge/ru.md)   * Создаёт клин.
+    -   <img alt="" src=images/Part_Helix.svg  style="width   *32px;"> [Спираль винтовая](Part_Helix/ru.md)   * Создаёт винтовую спираль.
+    -   <img alt="" src=images/Part_Spiral.svg  style="width   *32px;"> [Спираль плоская](Part_Spiral/ru.md)   * Создаёт плоскую спираль.
+    -   <img alt="" src=images/Part_Circle.svg  style="width   *32px;"> [Окружность](Part_Circle/ru.md)   * Создаёт круглое ребро.
+    -   <img alt="" src=images/Part_Ellipse.svg  style="width   *32px;"> [Эллипс](Part_Ellipse/ru.md)   * Создаёт эллиптическое ребро.
+    -   <img alt="" src=images/Part_Point.svg  style="width   *32px;"> [Точка](Part_Point/ru.md)   * Создаёт точку (вершину).
+    -   <img alt="" src=images/Part_Line.svg  style="width   *32px;"> [Отрезок](Part_Line/ru.md)   * Создаёт отрезок (ребро).
+    -   <img alt="" src=images/Part_RegularPolygon.svg  style="width   *32px;"> [Правильный Многоугольник](Part_RegularPolygon/ru.md)   * Создаёт правильный многоугольник.
 
--   <img alt="" src=images/Part_Builder.svg  style="width   *32px;"> [Shape builder\...](Part_Builder.md)   * Creates shapes from various primitives.
+-   <img alt="" src=images/Part_Builder.svg  style="width   *32px;"> [Построитель](Part_Builder/ru.md)   * Создаёт формы из разнообразных примитивов.
 
 ### Создание и изменение 
 
@@ -65,21 +65,21 @@
 
 -   <img alt="" src=images/Part_Extrude.svg  style="width   *32px;"> [Выдавить](Part_Extrude/ru.md)   * Выдавливает (вытягивает) плоские грани.
 
--   <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> [Revolve](Part_Revolve.md)   * Creates a solid by revolving an object (not a solid) around an axis.
+-   <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> [Вращать](Part_Revolve/ru.md)   *Создаёт твёрдое тело, вращая объект (не твёрдое тело) вокруг оси.
 
--   <img alt="" src=images/Part_Mirror.svg  style="width   *32px;"> [Mirror](Part_Mirror.md)   * Mirrors the selected object across a mirror plane.
+-   <img alt="" src=images/Part_Mirror.svg  style="width   *32px;"> [Отразить зеркально](Part_Mirror/ru.md)   * Отражает выбранный объект относительно зеркальной плоскости.
 
--   <img alt="" src=images/Part_Fillet.svg  style="width   *32px;"> [Fillet](Part_Fillet.md)   * Fillets (rounds) edges of an object.
+-   <img alt="" src=images/Part_Fillet.svg  style="width   *32px;"> [Скругление](Part_Fillet/ru.md)   * Закругляет края объекта.
 
--   <img alt="" src=images/Part_Chamfer.svg  style="width   *32px;"> [Chamfer](Part_Chamfer.md)   * Chamfers edges of an object.
+-   <img alt="" src=images/Part_Chamfer.svg  style="width   *32px;"> [Фаска](Part_Chamfer/ru.md)   * Делает фаску на рёбрах объекта.
 
 -   <img alt="" src=images/Part_MakeFace.svg  style="width   *32px;"> [Создать грань из ломанных](Part_MakeFace/ru.md)   * Создаёт грань из набора ломанных (рёбер или контуров). Доступно из меню **Деталь** {{Version/ru|0.19}}.
 
--   <img alt="" src=images/Part_RuledSurface.svg  style="width   *32px;"> [Ruled Surface](Part_RuledSurface.md)   * Creates a ruled surface.
+-   <img alt="" src=images/Part_RuledSurface.svg  style="width   *32px;"> [Линейчатая поверхность](Part_RuledSurface/ru.md)   * Создаёт линейчатую поверхность.
 
--   <img alt="" src=images/Part_Loft.svg  style="width   *32px;"> [Loft](Part_Loft.md)   * Lofts from one profile to another.
+-   <img alt="" src=images/Part_Loft.svg  style="width   *32px;"> [Лофт](Part_Loft/ru.md)   * Построение профиля методом перехода от одного эскиза к другому.
 
--   <img alt="" src=images/Part_Sweep.svg  style="width   *32px;"> [Sweep](Part_Sweep.md)   * Sweeps one or more profiles along a path.
+-   <img alt="" src=images/Part_Sweep.svg  style="width   *32px;"> [Развёртка](Part_Sweep/ru.md)   * Переносит (проецирует) один или несколько профилей вдоль траектории.
 
 -   <img alt="" src=images/Part_Section.svg  style="width   *32px;"> [Разделить](Part_Section/ru.md)   * Обрезает объект по поверхности пересечения секущего объекта.
 
@@ -106,9 +106,9 @@
 
 -   <img alt="" src=images/Part_Boolean.svg  style="width   *32px;"> [Булевы](Part_Boolean/ru.md)   * Производит булевы (логические) операции над объектами.
 
--   <img alt="" src=images/Part_Cut.svg  style="width   *32px;"> [Cut](Part_Cut.md)   * Cuts (subtracts) one object from another.
+-   <img alt="" src=images/Part_Cut.svg  style="width   *32px;"> [Обрезать](Part_Cut/ru.md)   * Вырезает (вычитает) один объект из другого.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width   *32px;"> [Fuse](Part_Fuse.md)   * Fuses (unions) two objects.
+-   <img alt="" src=images/Part_Fuse.svg  style="width   *32px;"> [Объединить](Part_Fuse/ru.md)   * Объединяет (сплавляет) два объекта.
 
 -   <img alt="" src=images/Part_Common.svg  style="width   *32px;"> [Пересечь](Part_Common/ru.md)   * Извлекает общую (пересекающуюся) часть двух объектов.
 
@@ -117,17 +117,11 @@
     -   <img alt="" src=images/Part_JoinEmbed.svg  style="width   *32px;"> [Embed (Внедрить)](Part_JoinEmbed/ru.md)   * Внедряет один тонкостенный объект в другой тонкостенный объект.
     -   <img alt="" src=images/Part_JoinCutout.svg  style="width   *32px;"> [Cutout (Вырезать)](Part_JoinCutout/ru.md)   * Создаёт вырез в стенке тонкостенного объекта для другого тонкостенного объекта.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Part_CompSplittingTools.png  style="width   *48px;"> [Инструменты разделения](Part_CompSplittingTools/ru.md)   *
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width   *32px;"> [Логические(Булевы) фрагменты](Part_BooleanFragments/ru.md)   * Создаёт все фрагменты, которые могут быть получены булевыми операциями между объектами.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width   *32px;"> [Разрезать на части](Part_SliceApart/ru.md)   * Разрезает и разбивает объект, путём его пересечения с другими объектами.
     -   <img alt="" src=images/Part_Slice.svg  style="width   *32px;"> [Обрезать](Part_Slice/ru.md)   * Обрезает объект, пересекая его с другими объектами образуя объединение.
-    -   <img alt="" src=images/Part_XOR.svg  style="width   *32px;"> [Булева XOR](Part_XOR/ru.md)   * Удаляет пространство, общее для пересекаемых объектов (обратная версия [Обрезать](Part_Cut/ru.md)).
-
-
-</div>
+    -   <img alt="" src=images/Part_XOR.svg  style="width   *32px;"> [Булева XOR](Part_XOR/ru.md)   * Удаляет пространство, общее для пересекаемых объектов.
 
 ### Измерение
 
@@ -153,13 +147,7 @@
 
 -   <img alt="" src=images/Part_Export.svg  style="width   *32px;"> [Экспорт в CAD\...](Part_Export/ru.md)   * Экспортирует деталь в формат \*.IGES, \*.STEP или \*.BREP.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_BoxSelection.svg  style="width   *32px;"> [Выделить область](Part_BoxSelection/ru.md)   * Позволяет выбирать грани прямоугольной областью.
-
-
-</div>
+-   <img alt="" src=images/Part_BoxSelection.svg  style="width   *32px;"> [Выделение прямоугольной область](Part_BoxSelection/ru.md)   * Позволяет выбирать грани прямоугольной областью.
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width   *32px;"> [Создание фигуры из полигональной сетки](Part_ShapeFromMesh/ru.md)   * Создаёт форму из сетки.
 
@@ -169,11 +157,11 @@
 
 -   <img alt="" src=images/Part_ReverseShapes.svg  style="width   *32px;"> [Reverse shapes (Обратная фигура)](Part_ReverseShapes/ru.md)   * Переворачивает нормали всех поверхностей выбранного объекта.
 
--   создать копию   *
--   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width   *32px;"> [Create simple copy (Создать простую копию)](Part_SimpleCopy/ru.md)   * Создаёт простую копию выбранного объекта.
-    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width   *32px;"> [Create transformed copy (Создать преобразованную копию)](Part_TransformedCopy/ru.md)   * Создаёт преобразованную копию выбранных объектов. {{Version/ru|0.19}}
-    -   <img alt="" src=images/Part_ElementCopy.svg  style="width   *32px;"> [Create shape element copy (Создать копию формы)](Part_ElementCopy/ru.md)   * Создаёт копию только элементов, выбранного объекта (вершины, рёбра, грани) . {{Version/ru|0.19}}
--   <img alt="" src=images/Part_RefineShape.png  style="width   *32px;"> [Уточнить форму](Part_RefineShape/ru.md)   * Очищает поверхности и удаляет ненужные линии (так называемые \"артефакты\").
+-   Создать копию   *
+    -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width   *32px;"> [Создать простую копию](Part_SimpleCopy/ru.md)   * Создаёт простую копию выбранного объекта.
+    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width   *32px;"> [Создать преобразованную копию](Part_TransformedCopy/ru.md)   * Создаёт преобразованную копию выбранных объектов. {{Version/ru|0.19}}
+    -   <img alt="" src=images/Part_ElementCopy.svg  style="width   *32px;"> [Создать копию элемента формы](Part_ElementCopy/ru.md)   * Создаёт копию только элементов, выбранного объекта (вершины, рёбра, грани) . {{Version/ru|0.19}}
+    -   <img alt="" src=images/Part_RefineShape.png  style="width   *32px;"> [Уточнить форму](Part_RefineShape/ru.md)   * Очищает поверхности детали и удаляет ненужные линии (так называемые \"артефакты\").
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width   *32px;"> [Проверка геометрии](Part_CheckGeometry/ru.md)   * Проверяет геометрию выбранных объектов на ошибки.
 
@@ -183,7 +171,7 @@
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width   *32px;"> [Внешний вид\...](Std_SetAppearance/ru.md)   * Определяет внешний вид всего объекта (цвет, прозрачность и т.д.).
 
--   <img alt="" src=images/Part_FaceColors.svg  style="width   *32px;"> [Set colors (Установить цвета)](Part_FaceColors/ru.md)   * Задаёт цвет отдельным граням объекта.
+-   <img alt="" src=images/Part_FaceColors.svg  style="width   *32px;"> [Установить цвета](Part_FaceColors/ru.md)   * Позволяет назначить цвета для граней детали.
 
 ## Настройки
 

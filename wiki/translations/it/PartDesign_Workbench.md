@@ -5,7 +5,7 @@
 
 ## Introduzione
 
-L\' <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Ambiente PartDesign](PartDesign_Workbench/it.md) fornisce strumenti avanzati per la modellazione di parti solide complesse. È principalmente focalizzato sulla creazione di parti meccaniche che possono essere fabbricate e assemblate in un prodotto finito. Tuttavia, i solidi creati possono essere utilizzati in generale per qualsiasi altro scopo come [progettazione architettonica](Arch_Workbench/it.md), [analisi degli elementi finiti](FEM_Workbench/it.md), o [lavorazione e stampa 3D](Path_Workbench/it.md).
+L\' [Ambiente PartDesign](PartDesign_Workbench/it.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> fornisce strumenti avanzati per la modellazione di parti solide complesse. È principalmente focalizzato sulla creazione di parti meccaniche che possono essere fabbricate e assemblate in un prodotto finito. Tuttavia, i solidi creati possono essere utilizzati in generale per qualsiasi altro scopo come [progettazione architettonica](Arch_Workbench/it.md), [analisi degli elementi finiti](FEM_Workbench/it.md), o [lavorazione e stampa 3D](Path_Workbench/it.md).
 
 L\'ambiente PartDesign è intrinsecamente correlato all\'ambiente [Sketcher](Sketcher_Workbench/it.md). L\'utente normalmente crea uno schizzo, quindi usa lo strumento [Estrusione PartDesign](PartDesign_Pad/it.md) per estruderlo e creare un solido di base che in seguito può essere ulteriormente modificato.
 
@@ -51,21 +51,9 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width   *32px;"> [Sistema di coordinate locali](PartDesign_CoordinateSystem/it.md)   * crea nel corpo attivo un sistema di coordinate locale collegato alla geometria di riferimento.
 
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *32px;"> [Crea un Forma legata](PartDesign_ShapeBinder/it.md)   * crea un raccoglitore di forme che fa riferimento alla geometria da un singolo oggetto principale
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *32px;"> [Crea un Forma legata](PartDesign_ShapeBinder/it.md)   * crea un raccoglitore di forme nel corpo attivo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width   *32px;"> [Crea una Forma legata sotto-oggetti](PartDesign_SubShapeBinder/it.md)   * crea una forma legata di un sottoelemento, come un bordo o una faccia di un altro corpo, mantenendo la posizione relativa di quell\'elemento. {{Version/it|0.19}}
-
-
-</div>
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width   *32px;"> [Crea una Forma legata a sotto-oggetti](PartDesign_SubShapeBinder/it.md)   * crea un raccoglitore di forme che fa riferimento alla geometria da uno o più oggetti principali. {{Version/it|0.19}}
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width   *32px;"> [Crea un clone](PartDesign_Clone/it.md)   * crea un clone del corpo selezionato.
 
@@ -137,43 +125,20 @@ Questi sono gli strumenti per sottrarre del materiale da un corpo esistente.
 
 #### Strumenti di trasformazione 
 
-
-<div class="mw-translate-fuzzy">
-
-Questi sono gli strumenti per trasformare le funzioni esistenti. Permetteranno di scegliere quali funzioni trasformare.
-
-
-</div>
+Questi sono gli strumenti per trasformare le funzioni esistenti.
 
 -   <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *32px;"> [Specchiato](PartDesign_Mirrored/it.md)   * rispecchia una o più caratteristiche.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Serie lineare](PartDesign_LinearPattern/it.md)   * crea una serie lineare basata su una o più funzioni.
-
-
-</div>
+-   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [Serie lineare](PartDesign_LinearPattern/it.md)   * crea un modello lineare di una o più funzioni.
 
 -   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> [Serie polare](PartDesign_PolarPattern/it.md)   * crea una serie polare di una o più funzioni.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Multitrasformazione](PartDesign_MultiTransform/it.md)   * crea una serie con qualsiasi combinazione delle altre trasformazioni.
-
-
-</div>
+-   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Multitrasformazione](PartDesign_MultiTransform/it.md)   * crea un modello combinando una qualsiasi delle trasformazioni sopra menzionate, nonché la trasformazione [Scala](PartDesign_Scaled/it.md).
+    -   <img alt="" src=images/PartDesign_Scaled.svg  style="width   *32px;"> [Scala](PartDesign_Scaled/it.md)   * ridimensiona una o più funzioni. Questo non è disponibile come strumento di trasformazione separato.
 
 #### Strumenti di abbellimento 
 
-
-<div class="mw-translate-fuzzy">
-
-Questi strumenti applicano un trattamento ai bordi o alle facce selezionate.
-
-
-</div>
+Questi strumenti applicano un trattamento ai bordi o alle facce.
 
 -   <img alt="" src=images/PartDesign_Fillet.svg  style="width   *32px;"> [Raccordo](PartDesign_Fillet/it.md)   * raccorda (arrotonda) i bordi del corpo attivo.
 
@@ -181,13 +146,7 @@ Questi strumenti applicano un trattamento ai bordi o alle facce selezionate.
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Sformo](PartDesign_Draft/it.md)   * applica uno sformo angolare alle facce selezionate nel corpo attivo.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Spessore](PartDesign_Thickness/it.md)   * crea un guscio di dato spessore dal corpo attivo e apre le facce selezionate.
-
-
-</div>
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Spessore](PartDesign_Thickness/it.md)   * crea un guscio di dato spessore dal corpo attivo e apre la faccia o le facce selezionate.
 
 #### Booleane
 
@@ -199,21 +158,9 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design   *
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width   *32px;"> [Migra](PartDesign_Migrate/it.md)   * migra nella versione 0.17 i file creati con versioni precedenti di FreeCAD. Se il file è basato su funzioni PartDesign, la migrazione dovrebbe riuscire. Se il file contiene oggetti Part, PartDesign e Draft misti, molto probabilmente la conversione fallisce.
 
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width   *32px;"> [Pignone](PartDesign_Sprocket/it.md)   * crea un profilo del pignone, che può essere estruso. {{Version/it|0.19}}
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width   *32px;"> [Procedura guidata per la progettazione delle ruote dentate](PartDesign_Sprocket/it.md)   * crea un profilo della ruota dentata che può essere estruso. <small>(v0.19)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width   *32px;"> [Ingranaggio evolvente](PartDesign_InvoluteGear/it.md)   * crea un profilo di ingranaggio involuto che può essere estruso.
-
-
-</div>
+-   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width   *32px;"> [Ingranaggio evolvente](PartDesign_InvoluteGear/it.md)   * crea un profilo ad evolvente d\'ingranaggio, che può essere estruso.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width   *32px;"> [Procedura guidata per alberi](PartDesign_WizardShaft/it.md)   * genera un albero da una tabella di valori e consente di analizzare forze e momenti. L\'albero è realizzato con uno schizzo ruotato che può essere modificato.
 
@@ -231,13 +178,7 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design   *
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width   *32px;"> [Imposta i colori](Part_FaceColors/it.md)   * assegna i colori alle facce delle parti.
 
-
-<div class="mw-translate-fuzzy">
-
-### Preferenze
-
-
-</div>
+## Preferenze
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width   *32px;"> [Preferenze](PartDesign_Preferences/it.md)   * preferenze disponibili negli strumenti PartDesign.
 -   [Ottimizzare l\'installazione](Fine-tuning/it.md)   * alcuni parametri extra per ottimizzare il comportamento di PartDesign.

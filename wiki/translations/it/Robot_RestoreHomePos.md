@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Sposta il robot selezionato nella sua posizione iniziale.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -25,6 +29,8 @@ Sposta il robot selezionato nella sua posizione iniziale.
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

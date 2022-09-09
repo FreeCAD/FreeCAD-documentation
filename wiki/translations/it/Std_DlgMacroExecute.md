@@ -5,13 +5,7 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -22,15 +16,9 @@ Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibi
 </div>
 
 ![](images/Std_DlgMacroExecute_dialog.png ) 
-*The Execute macro dialog box*
-
-
-<div class="mw-translate-fuzzy">
+*La finestra di dialogo Esegui macro*
 
 ## Utilizzo
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -40,24 +28,24 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 </div>
 
-## Options
+## Opzioni
 
-### User macros 
+### Macro utente 
 
 1.  The **User macros** tab lists the macros available in the **User macros location**.
 2.  Click a macro to select it.
 3.  The name of the selected macro will appear in the **Macro name** box.
 
-### System macros 
+### Macro di sistema 
 
    *   The **System macros** tab is not used at this time.
 
-### User macros location 
+### Posizione delle macro utente 
 
 1.  Press the **...** button to change the user macros location.
 2.  Browse to a different folder and select it.
 
-### Execute
+### Eseguire
 
 1.  To execute a macro do one of the following   *
     -   Select the macro in the list and press the **Execute** button.

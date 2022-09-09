@@ -12,16 +12,26 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 La commande **Gestionnaire d\'Addons** ouvre le gestionnaire de modules complémentaires. Avec le Gestionnaire d\'Addons, vous pouvez installer et gérer [ateliers complémentaires](external_workbenches/fr.md) et des [macros](macros/fr.md) fournis par la communauté FreeCAD. Les ateliers et les macros disponibles proviennent de deux dépôts [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) et [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/) et à partir de la page [Liste des macros](Macros_recipes/fr.md).
 
-Les addons marqués par {{emphasis|Python 2 uniquement}} ne fonctionneront pas dans FreeCAD version 0.19 ou supérieure.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 En raison des modifications apportées à la plate-forme GitHub en 2020, le gestionnaire de modules complémentaires ne fonctionne plus si vous utilisez des versions de FreeCAD inférieure ou égale à 0.17. Vous devez passer à la version [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) ou à une version récente [0.19](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre). Vous pouvez également installer les addons manuellement, voir [Remarques](#Remarques.md) ci-dessous.
 
-![](images/Std_AddonMgr_dialog.png ) 
-*Boîte de dialogue du Gestionnaire d'Addons*
+
+</div>
 
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez l\'option **Outils → <img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire d'Addons** dans le menu.
 2.  Si vous utilisez le gestionnaire d\'extensions pour la première fois, une boîte de dialogue s\'ouvrira pour vous avertir que les extensions du gestionnaire d\'Addons ne font pas officiellement partie de FreeCAD. Appuyez sur le bouton **OK** pour confirmer et continuer.
@@ -30,32 +40,36 @@ En raison des modifications apportées à la plate-forme GitHub en 2020, le gest
 5.  Appuyez sur le bouton **<img src="images/Process-stop.svg" width=16px> Fermer** pour fermer la boîte de dialogue.
 6.  Si vous avez installé ou mis à jour un plan de travail, une nouvelle boîte de dialogue s\'ouvre vous informant que vous devez redémarrer FreeCAD pour que les modifications prennent effet.
 
+
+</div>
+
 ## Options
 
-La boîte de dialogue Addons comporte deux onglets à gauche, l\'un répertoriant les ateliers disponibles et l\'autre répertoriant les macros disponibles. Le panneau d\'information sur la droite affichera la page d\'accueil de l\'addon sélectionné.
+<img alt="" src=images/AddonManager_Main.png  style="width   *600px;">
 
-### Désinstaller
+1.  The Addon manager provides two view layouts   * \"Condensed\" and \"Expanded\". In \"Condensed\" view, each addon takes a single line, and its description is truncated to fit the available space. \"Expanded\" shows additional details, including more of the description text as well as maintainer information, more installation details, etc.
+2.  Three different types of addons are supported   * [workbenches](external_workbenches.md), [macros](macros.md), and [preference packs](Preference_Packs.md). You can choose to show just one type, or all of them in a single list.
+3.  The list can be limited to show just installed packages, just packages with available updates, or just packages that are not yet installed.
+4.  The list can be filtered, searching for a keyword in the title, description, and tags (description and tags must be specified by the addon developer in their addon\'s metadata). The filter can even be a regular expression, for fine-grained control of the exact search term.
+5.  The expanded view shows available version information, description, maintainer information, and installation version information, for packages that provide a [package metadata](Package_Metadata.md) file (or for macros with embedded metadata).
+6.  Addon data is cached locally, with a variable cache update frequency set in the user preferences.
+7.  At any time you can choose to manually update your local cache to see the latest updates available for each addon.
+8.  Update checks may be set up to be automatic, or done manually via a button click (configured in user preferences). If GitPython and git are installed on your system then update information is fetched using git. If not, then update information is obtained from any present metadata file.
 
-1.  Sélectionnez un module complémentaire installé dans l\'onglet <img alt="" src=images/Folder.svg  style="width   *16px;"> **Ateliers** ou dans l\'onglet <img alt="" src=images/Applications-python.svg  style="width   *16px;"> **Macros**.
-2.  Appuyez sur le bouton **<img src="images/Delete.svg" width=16px> Désinstaller la sélection**.
+Clicking on an addon in this view brings up the addon\'s Details page   *
 
-### Installer/mettre à jour 
+<img alt="" src=images/AddonManager_Details.png  style="width   *600px;">
 
-1.  Sélectionnez un module complémentaire dans l\'onglet <img alt="" src=images/Folder.svg  style="width   *16px;"> **Ateliers** ou dans l\'onglet <img alt="" src=images/Applications-python.svg  style="width   *16px;"> **Macros**.
-2.  Appuyez sur le bouton **<img src="images/Edit_OK.svg" width=16px> Installer/mettre à jour la sélection**.
-3.  Si vous souhaitez ajouter une macro à une barre d\'outils personnalisée, n\'oubliez pas de télécharger manuellement le fichier image d\'icône, si disponible, en cliquant sur le lien sur la page d\'accueil dans le panneau d\'informations. Voir [Personnalisation de l\'interface](Interface_Customization/fr#Barre_d.27outils.md).
-4.  Pour modifier la position d\'un atelier complémentaire dans la liste des [Ateliers](Std_Workbench/fr.md), voir [Personnalisation de l\'interface](Interface_Customization/fr#Ateliers.md).
+The details page shows buttons allowing installing, uninstalling, updating, and temporarily disabling an addon. For installed addons it lists the currently installed version and the installation date, and whether that is the most recent version available. Below is an embedded web browser window showing the addon\'s README page (for workbenches and preference packs), or Wiki page (for macros).
 
-### Configuration
+## Preferences
 
-1.  Appuyez sur le bouton **<img src="images/Preferences-general.svg" width=16px> Configurer...**.
-2.  La boîte de dialogue des options du gestionnaire d\'extensions s\'ouvre.
-3.  Cochez éventuellement la case {{CheckBox|TRUE|Rechercher automatiquement les mises à jour au démarrage (nécessite GitPython)}}.
-4.  Ajoutez éventuellement des dépôts à la liste **Dépôts personnalisés**. Les modules complémentaires de ces référentiels seront ajoutés sur l\'onglet <img alt="" src=images/Folder.svg  style="width   *16px;"> **Ateliers** ou l\'onglet <img alt="" src=images/Applications-python.svg  style="width   *16px;"> **Macros**.
-5.  Choisissez éventuellement les paramètres du proxy.
-6.  Appuyez sur le bouton **OK** ou sur le **Annuler** pour fermer la boîte de dialogue.
+The preferences for the Addon manager can be found in the [Preferences Editor](Preferences_Editor#Addon_Manager.md). <small>(v0.20)</small> 
 
 ## Remarques
+
+
+<div class="mw-translate-fuzzy">
 
 -   L\'utilisation des addons n\'est pas limitée à la version FreeCAD à partir de laquelle ils ont été installés. Vous pourrez également les utiliser dans n\'importe quelle autre version de FreeCAD, prise en charge par l\'addon, que vous pourriez avoir sur votre système.
 -   Les modules complémentaires disponibles dans le gestionnaire de modules complémentaires ne font pas partie du programme officiel FreeCAD et ne sont pas pris en charge par l\'équipe de développement principale de FreeCAD. Vous devez lire attentivement les informations fournies pour vous assurer que vous savez ce que vous installez.
@@ -63,17 +77,12 @@ La boîte de dialogue Addons comporte deux onglets à gauche, l\'un répertorian
 -   Si le package [GitPython](https   *//github.com/gitpython-developers/GitPython) est installé sur votre ordinateur, le gestionnaire d\'extensions s\'en servira, ce qui accélérera les téléchargements.
 -   Vous pouvez également installer des modules complémentaires manuellement. Voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md) et [Comment installer des macros](How_to_install_macros/fr.md).
 
+
+</div>
+
 ## Informations pour les développeurs 
 
-Si vous avez développé un atelier ou une macro et souhaitez l\'inclure dans le gestionnaire des Addons, lisez la procédure à suivre dans les pages des dépôts ([FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) et [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/)). Si vous ajoutez votre macro à la [Liste des macros](Macros_recipes/fr.md), il n\'y a rien d\'autre à faire, elle sera automatiquement sélectionnée par le gestionnaire Addon.
-
-### Ateliers en Python 
-
-Pour les ateliers Python, vous n\'avez pas besoin d\'une approbation spécifique pour que votre atelier soit ajouté au gestionnaire d\'addons. De plus, comme votre module d\'extension ne fait pas partie du code source de FreeCAD, vous pouvez choisir la licence qui vous convient. Si vous demandez que votre atelier soit ajouté à la liste par défaut du gestionnaire d\'addons (nous n\'ajouterons aucun nouvel atelier sans une demande de ses auteurs), soit en le demandant sur le forum, soit en ouvrant un problème sur le dépôt [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/), votre code restera sur votre propre dépôt git, nous l\'ajouterons simplement comme un sous-module au dépôt [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/). Bien sûr, avant d\'ajouter votre atelier, nous y jetterons un coup d\'œil et nous nous assurerons qu\'il n\'y a rien de potentiellement problématique. Pour plus de détails sur la structuration de votre addon, y compris des informations sur les métadonnées utilisées par le gestionnaire d\'addons, voir [Création d\'atelier](Workbench_creation/fr.md).
-
-### Ateliers C++ 
-
-Si vous développez un atelier en C++, il ne peut pas être exécuté directement par les utilisateurs et doit d\'abord être compilé. Vous avez alors deux options, soit vous fournissez vous-même les versions pré-compilées de votre atelier pour les différents systèmes d\'exploitation, soit vous devez demander à ce que votre code soit fusionné dans le code source de FreeCAD. Pour cela, vous devez utiliser la licence LGPL (ou une licence entièrement compatible comme celle du MIT ou BSD) et présenter vos nouveaux outils à la communauté dans le [forum de FreeCAD](https   *//forum.freecadweb.org) pour être examiné. Une fois que votre code a été testé et approuvé, vous devez créer une nouvelle branche dans le dépôt FreeCAD, si ce n'est pas encore fait, y insérer votre code et ouvrir une demande de retrait (pull request) afin que votre branche soit fusionnée dans le dépôt principal.
+See [Addon](Addon#Information_for_developers.md).
 
 
 

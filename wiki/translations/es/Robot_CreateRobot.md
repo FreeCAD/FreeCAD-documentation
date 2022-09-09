@@ -31,7 +31,7 @@ Related to versions 0.15/0.16
 
 ## Notes
 
-The predefined robots are
+The predefined robots are   *
 
 -   KUKA IR500
 -   KUKA IR210

@@ -1,26 +1,16 @@
-# Part CheckGeometry/ru
 ---
 - GuiCommand   */ru
-   Name   *Part CheckGeometry‏‎
-   Name/ru   *Part CheckGeometry‏‎
+   Name/ru   *Проверка геометрии
+   Name   *Part_CheckGeometry‏‎
    MenuLocation   *Деталь → Проверка геометрии
    Workbenches   *[Part](Part_Workbench/ru.md)
-   SeeAlso   *---
+---
 
-
-</div>
+# Part CheckGeometry/ru
 
 ## Описание
 
-
-<div class="mw-translate-fuzzy">
-
-## Введение
-
-Инструмент проверки геометрии позволяет убедиться, что тело не содержит ошибок.
-
-
-</div>
+Инструмент **<img src="images/Part_CheckGeometry.svg" width=16px> [Проверка геометрии](Part_CheckGeometry.md)** выполняет проверку и сообщает, является ли геометрическая форма допустимым твердым телом. Инструмент проверяет, является ли допустимым [граничное представление](https   *//en.wikipedia.org/wiki/Boundary_representation) (BRep или [B-rep](Глоссарий#B.md)) модели.
 
 ## Применение
 
@@ -32,7 +22,7 @@
 
 Results will be reported in the [Task panel](Task_panel.md). If the check produced errors   * click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
 
-## Options
+## Опции
 
 ### Skip settings page 
 
@@ -46,30 +36,30 @@ If ticked, additionally a Boolean OPerations (BOP) check is performed. <small>(v
 
 If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
 
-## Shape Content 
+## Определение характеристик формы 
 
-In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object   *
+В дополнение к обнаружению потенциальных ошибок геометрии, этот инструмент показывает ряд свойств, относящихся к выбранному объекту   *
 
--   Checked object
--   Shape type
--   Number of geometric entities   * vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
--   Geometric and mass properties   *
-    -   Area
-    -   Volume
-    -   Mass
-    -   Length
-    -   Center of mass
-    -   Orientation
-    -   Symmetry axis
-    -   Symmetry point
-    -   Moments
-    -   First axis of inertia
-    -   Second axis of inertia
-    -   Third axis of inertia
-    -   Radius of gyration
-    -   Global placement
+-   Проверенный объект
+-   Тип формы
+-   Количество геометрических объектов   * вершины, ребра, провода, грани, оболочки, твердые тела, составные части, соединения, общие формы
+-   Геометрические и массовые свойства   *
+    -   Площадь
+    -   Объем
+    -   Масса
+    -   Длина
+    -   Центр масс
+    -   Ориентация
+    -   Ось симметрии
+    -   Точка симметрии
+    -   Моменты
+    -   Первая ось инерции
+    -   Вторая ось инерции
+    -   Третья ось инерции
+    -   Радиус вращения
+    -   Глобальное размещение
 
-## Notes
+## Примечания
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be checked using this tool. For [App Links](App_Link.md) the shape of the linked object is checked. For [App Part](App_Part.md) containers the visible objects within are checked as compounds. <small>(v0.20)</small> 
 -   FreeCAD has no methods to automatically repair geometry. If faults are detected the steps involved to create the model need to be examined and fixed manually.

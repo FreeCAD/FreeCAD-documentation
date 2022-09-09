@@ -249,6 +249,16 @@ In the *Colors* tab you can specify the following   *
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
+## Note
+
+There is another preference that has an influence on sketches. If the **Transparent objects** preference on the [Display → 3D View](Preferences_Editor#3D_View.md) tab is set to {{Value|Backface pass}}, the arrowheads on one end of sketcher dimensions are hidden if **Show grid** is deactivated in the [Edit controls](Sketcher_Dialog#Edit_controls.md) section of the [Task panel](Task_panel.md). This applies to FreeCAD version 0.19, version 0.20 and recent development versions (up to 0.21-30058, at least) except Link branch.
+
+<img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-01.png  style="width   *200px;"> <img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-02.png  style="width   *200px;"> 
+*Front view, grid enabled and grid disabled*
+
+<img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-03.png  style="width   *200px;"> <img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-04.png  style="width   *200px;"> 
+*Rear view, grid enabled and grid disabled hiding arrowheads on the opposite end as well as the dimension value*
+
 
 <div class="mw-translate-fuzzy">
 

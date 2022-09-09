@@ -85,15 +85,6 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/ru

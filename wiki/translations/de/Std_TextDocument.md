@@ -1,86 +1,51 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *Std TextDocument
-   MenuLocation   *Tools → Add text document
+   Name/de   *Std Textdokument
+   MenuLocation   *Werkzeuge → Textdokument hinzufügen
    Workbenches   *All
    Version   *0.19
-   SeeAlso   *[Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
+   SeeAlso   *[Draft Textform](Draft_ShapeString/de.md), [Draft Text](Draft_Text/de.md)
 ---
 
 # Std TextDocument/de
 
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-[Std TextDocumenterstellt](Std_TextDocument/de.md) ein Objekt, das beliebigen Text aufnehmen kann. Dieses Element kann verwendet werden, um allgemeine Informationen oder Dokumentationen über das Modell zu schreiben.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Der Befehl **Std Textdokument** erstellt ein Objekt, das beliebigen Text aufnehmen kann. Dieses Element kann verwendet werden, um allgemeine Informationen aufzuschreiben oder für die Dokumentation des Modells.
 
 ## Anwendung
 
+1.  Den Menüeintrag {{MenuCommand/de|Werkzeuge → Textdokument hinzufügen}} auswählen.
+2.  Das neu erstellte Objekt in der [Baumansicht](tree_view/de.md) doppelklicken, um eine Registerkarte zu öffnen, in die der Text geschrieben wird.
+3.  Text hizufügen.
+4.  Registerkarte schließen und die Datei speichern, wenn danach gefragt wird.
 
-</div>
+## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Gehe zum Menü {{MenuCommand/de|Werkzeuge → Textdokument hinzufügen}}.
-2.  Doppelklicken Sie auf das neue Objekt, das in der [Baumansicht](tree_view.md) erstellt wurde, um eine Registerkarte zu öffnen, in der Du Text schreiben kannst.
-3.  Text hinzufügen.
-4.  Schließe die Registerkarte und speichere die Datei, wenn gefragt wird.
-
-
-</div>
-
-## Properties
-
-### View
+### Ansicht
 
 
 {{TitleProperty|Editor}}
 
--    **Font Name|Font**   * a font name, for example, {{Value|Ubuntu Mono}}.
+-    {{PropertyView/de|Font Name|Font}}   * Schriftname, z.B. {{Value|Ubuntu Mono}}.
 
--    **Font Size|Float**   * a font size in points, for example, {{Value|11}}.
+-    {{PropertyView/de|Font Size|Float}}   * Schrifthöhe in Punkt, z.B. {{Value|11}}.
 
--    **Read Only|Bool**   * it defaults to `False`. If set to `True` the text cannot be edited.
+-    {{PropertyView/de|Read Only|Bool}}   * Standardmäßig `False`. Wenn auf `True` gesetzt, kann der Text nicht editiert werden.
 
--    **Syntax Highlighter|Enumeration**   * it defaults to {{Value|None}}. If set to {{Value|Python}}, the text will be highlighted like the [Python console](Python_console.md).
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyView/de|Syntax Highlighter|Enumeration}}   * Standardmäßig {{Value|None}}. Wenn auf {{Value|Python}} gesetzt, wird der Text wie in der [Python-Konsole](Python_console/de.md) hervorgehoben.
 
 ## Skripten
-
-
-</div>
 
 
 **Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md), und [skriptgesteuerte Objekte](scripted_objects/de.md).
 
-Siehe [Part Funktionen](Part_Feature/de.md) für allgemeine Informationen zum Hinzufügen von Objekten zu einem Dokument.
+Siehe [Part Formelement](Part_Feature/de.md) für allgemeine Informationen zum Hinzufügen von Objekten zu einem Dokument.
 
-
-<div class="mw-translate-fuzzy">
-
-Ein `App   *   *TextDocument` Objekt wird mit der `addObject()` Methode des Dokuments erstellt. Sobald ein TextDokument existiert, werden seine Textinformationen in seinem Attribut `Text` gespeichert. Dieses Attribut kann in anderen Objekten verwendet werden, z.B. als Zeichenkette in einem [Entwurf FormBand](Draft_ShapeString/de.md).
-
-
-</div>
+Ein `App   *   *TextDocument`-Objekt (Textdokument) wird mit der `addObject()`-Methode des Dokuments erstellt. Sobald ein Textdokument existiert, werden seine Textinformationen in seinem Attribut `Text` gespeichert. Dieses Attribut kann in anderen Objekten verwendet werden, z.B. als Zeichenkette in einer **<img src="images/Draft_ShapeString.svg" width=16px> [Draft Textform](Draft_ShapeString/de.md)**.
 
 
 ```python

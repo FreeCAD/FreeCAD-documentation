@@ -11,7 +11,7 @@ This manual is an experiment, taking a different approach from the [official Fre
 
 This manual is being written for the newest stable version of FreeCAD, version **0.18** (early 2019).
 
-The contents of this manual are published under the [Creative Commons 4.0](http   *//creativecommons.org/licenses/by/4.0/) license, and can be freely used, downloaded, copied, and modified. The source files for this manual are hosted on this [wiki](Main_Page.md), and on the original [github](https   *//github.com/yorikvanhavre/FreeCAD-manual) account used to write the first version of this book. Easier to read HTML, PDF, MOBI and EPUB versions are available on [GitBook](https   *//www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). A printed version is being prepared.
+The contents of this manual are published under the [Creative Commons 4.0](http   *//creativecommons.org/licenses/by/4.0/) license, and can be freely used, downloaded, copied, and modified. The source files for this manual are hosted on this [wiki](Main_Page.md), and on the original [github](https   *//github.com/yorikvanhavre/FreeCAD-manual) account used to write the first version of this book. Easier to read HTML, PDF, MOBI and EPUB versions are [also available here](https   *//github.com/yorikvanhavre/FreeCAD-manual/releases). A printed version is being prepared.
 
 
 

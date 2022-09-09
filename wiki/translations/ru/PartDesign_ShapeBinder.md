@@ -49,7 +49,7 @@ The referenced geometry can either be a single object (for example a [Part Box](
 
 To edit a ShapeBinder double-click it in the [Tree view](Tree_view.md), or right-click it and select **Edit shape binder** from the [Tree view](Tree_view.md) context menu.
 
-## Notes
+## Примечания
 
 -   A ShapeBinder can be dragged out of the Body it is nested in, and dropped onto the <img alt="" src=images/Document.svg  style="width   *16px;"> document node in the [Tree view](Tree_view.md). Such an unnested ShapeBinder can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
 -   A ShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the ShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
@@ -64,7 +64,7 @@ See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBin
 
 -    **Trace Support|Bool**   * Default is {{False}}. When {{True}}, the shape binder does observe relative placements of the parts and bodies (by manipulating values of its hidden **Placement** property).
 
-## Example
+## Пример
 
 The example uses the ShapeBinder Feature to make a hole (with or without threads) through more than one body. Normally the Hole function of the Part Design workbench is limited to a single body. The example uses two cubes facing each other but misaligned in an arbitrary way. The holes are created with sketches containing a circle for every hole (the diameter is ignored by the hole function). When you copy the sketch to the other cube it will be at the same position in the local cube coordinate system. In the image this is shown by the white circle on the back cube. This is not what we want, because the hole at that position would not be aligned to the hole in the front cube.
 

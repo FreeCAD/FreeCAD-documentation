@@ -11,6 +11,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -20,6 +22,8 @@ Fügt aus vorselektierten Objekten einen Wegpunkt in eine Bewegungsbahn ein.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -33,6 +37,8 @@ Drücken Sie ** W**, um diesen Wegpunkt in die selektierte Bewegungsbahn einzuf�
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

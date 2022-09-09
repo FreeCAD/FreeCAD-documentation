@@ -12,7 +12,7 @@
 
 ## Описание
 
-Creates a **datum point** which can be used as reference for sketches or other datum geometry.
+Создает **опорную точку**, которую можно использовать для размещения эскизов или другой опорной геометрии.
 
 ![](images/DatumPoint.png ) 
 *A datum point attached to a sphere with an attachment offset of {{Value|2* in the Z direction.}}
@@ -27,11 +27,11 @@ Creates a **datum point** which can be used as reference for sketches or other d
 6.  Define Attachment Offset values.
 7.  Press **OK**.
 
-## Options
+## Опции
 
 Double-click the DatumPoint label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
 
-## Properties
+## Свойства
 
 -    **MapMode**   * lists the attachment mode used.
 

@@ -1,10 +1,10 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher ValidateSketch
-   Name/de   *Skizzierer SkizzeÜberprüfen
-   MenuLocation   *Skizze → Skizze überprüfen…
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
-   SeeAlso   *[Skizzierer BeschränkeDeckungsgleich](Sketcher_ConstrainCoincident/de.md), [Topologisches Benennungsproblem](Topological_naming_problem/de.md)
+   Name/de   *Sketcher SkizzeÜberprüfen
+   MenuLocation   *Sketch → Skizze überprüfen…
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso   *[Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md), [Problem der topologischen Benennung](Topological_naming_problem/de.md)
 ---
 
 # Sketcher ValidateSketch/de
@@ -45,12 +45,9 @@ Findet fehlende Deckungsgleichheit für überlappende Knoten und fügt sie hinzu
 Lege bei Bedarf einen größeren Toleranzwert im Aufklappfeld fest.
 
 
-<div class="mw-translate-fuzzy">
+**Fehlerhafte Knotenpunkte hervorheben**
 
-Drücke **Offene Knoten markieren**, um Knoten zu markieren, die außerhalb dieser Toleranz liegen.
-
-
-</div>
+drücken, um Knoten zu markieren, die außerhalb dieser Toleranz liegen.
 
 Diese Toleranz wird auch von dem Prozess **Find**/**Fix** verwendet.
 
@@ -62,13 +59,7 @@ Prüft auf fehlerhafte Beschränkungen.
 
 Gibt es beispielsweise eine Kreis-Linie-Tangente Beschränkung, die sich aber auf zwei Linien bezieht, wird sie als ungültig betrachtet.
 
-
-<div class="mw-translate-fuzzy">
-
-(Dies geschieht manchmal aufgrund des [Topologisches Benennungsproblems](Topological_naming_problem/de.md), d.h. die äußere Geometrie ändert den Typ).
-
-
-</div>
+(Dies geschieht manchmal aufgrund des [Problems der topologischen Benennung](Topological_naming_problem/de.md), wenn externe Geometrie ihren Typ ändert).
 
 Es führt auch andere Prüfungen durch, z. B. auf leere Verweise.
 

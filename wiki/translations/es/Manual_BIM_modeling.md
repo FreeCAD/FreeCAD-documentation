@@ -162,7 +162,7 @@ Our model is now ready to export   *
 
 The [IFC format](https   *//en.wikipedia.org/wiki/Industry_Foundation_Classes) is one of the most precious assets in a free BIM world, because it allows the exchange of data between any application and actor of the construction world, in an open manner (the format is open, free and maintained by an independent consortium). Exporting your BIM models as IFC ensures that anyone can see and analyze them, no matter the application used.
 
-In FreeCAD, IFC import and export is done by interfacing with another piece of software, called [IfcOpenShell](http   *//ifcopenshell.org/). To be able to export to IFC from FreeCAD, the [IfcOpenShell-python](http   *//ifcopenshell.org/python.html) package must be installed on your system. Be sure to select one which uses the same python version as FreeCAD. The python version that FreeCAD uses is informed when opening the **View -\> Panels -\> Python console** panel in FreeCAD. When that is done, we can now export our model   *
+In FreeCAD, IFC import and export is done by interfacing with another piece of software, called [IfcOpenShell](http   *//ifcopenshell.org/). To be able to export to IFC from FreeCAD, the [IfcOpenShell-python](http   *//ifcopenshell.org/python) package must be installed on your system. Be sure to select one which uses the same python version as FreeCAD. The python version that FreeCAD uses is informed when opening the **View -\> Panels -\> Python console** panel in FreeCAD. When that is done, we can now export our model   *
 
 -   Select the top object you want to export, that is, the Building object.
 -   Select menu **File -\> Export -\> Industry Foundation Classes** and save your file.

@@ -1,4 +1,7 @@
 # Macro Mouse over cb/hr
+<div class="mw-translate-fuzzy">
+
+
 {{Macro
 |Name=Macro Mouse over cb
 |Icon=Macro_Mouse_over_cb.png
@@ -12,9 +15,18 @@
 |SeeAlso=[Macro FC element selector](Macro_FC_element_selector/hr.md)
 }}
 
+
+</div>
+
 ## Opis
 
+
+<div class="mw-translate-fuzzy">
+
 Ovaj prikaz makronaredbe u izvješću prikazuje sve elemente ispod pokazivača (prikazat će se i svi elementi obuhvaćeni drugim elementima)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

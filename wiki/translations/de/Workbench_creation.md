@@ -3,31 +3,19 @@
 
 ## Einführung
 
+Diese Seite zeigt, wie man einen neuen Arbeitsbereich zur FreeCAD Oberfläche hinzufügt. [Arbeitbereiche](Workbenches/de.md) sind Behälter für FreeCAD-Befehle. Sie können in Python, in C++ oder in einer Mischung aus beiden programmiert werden, was den Vorteil hat, die Geschwindigkeit von C++ mit der Flexibilität von Python zu verbinden. In jedem Fall wird der neue Arbeitsbereich durch einen Satz von zwei Pythondateien gestartet. Dies können \"interne\" Arbeitsbereiche sein, die im FreeCAD-Paket enthalten sind oder \"externe\" Arbeitsbereiche, die mit dem [Addon Manager](Std_AddonMgr.md) erhältlich sind oder sie werden manuell über das Herunterladen einiger Quellen (repositories) aus dem Netz installiert. Interne Arbeitsbereiche können in C++, Python oder einer Kombination der beiden programmiert sein, wogegen externe Arbeitsbereiche nur in Python programmiert sein dürfen.
 
-<div class="mw-translate-fuzzy">
-
-Diese Seite zeigt dir, wie du einen neuen Arbeitsbereich zur FreeCAD Oberfläche hinzufügst. [Arbeitbereiche](Workbenches/de.md) sind Behälter für FreeCAD Befehle. Sie können in Python, in C++ oder in einer Mischung aus beidem programmiert werden, was den Vorteil hat, die Geschwindigkeit von C++ mit der Flexibilität von Python zu verbinden. In allen Fällen wird dein Arbeitsbereich jedoch durch einen Satz von zwei Python Dateien gestartet.
-
-
-</div>
-
-## Die Arbeitsbereichsstruktur 
+## Die Struktur der Arbeitsbereiche 
 
 Du benötigst einen Ordner mit irgendeinem Namen den du magst, platziert im Benutzer Mod Verzeichnis, mit einer `Init.py` Datei und wahlweise, einer `InitGui.py` Datei. Die Init Datei wird immer ausgeführt wenn FreeCAD startet, und die `InitGui.py` Datei wird unmittelbar danach ausgeführt wird, aber nur, wenn FreeCAD im GUI Modus startet. Das ist alles, was FreeCAD braucht, um deinen Arbeitsbereich beim Start zu finden und ihn in seine Oberfläche aufzunehmen.
 
+Das Mod-Verzeichnis des Benutzers ist ein Unterverzeichnis Anwendungsdaten-Verzeichnisses des Benutzers (letzteres findet man durch Eingabe von `App.getUserAppDataDir()` in der [Pythonkonsole](Python_console/de.md))   *
 
-<div class="mw-translate-fuzzy">
+-   Unter Linux ist es üblicherweise **/home/<username>/.local/share/FreeCAD/Mod/** (<small>(v0.20)</small> ) oder **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus|0.19}}).
+-   Unter Windows ist es **%APPDATA%\FreeCAD\Mod\**, das üblicherweise **C   *Users\<username>\Appdata\Roaming\FreeCAD\Mod\** ist.
+-   Unter macOS ist es üblicherweise **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
 
-Das Benutzer Mod Verzeichnis ist ein Unterverzeichnis des Benutzer Anwendungsdaten Verzeichnisses (du kannst letzteres finden durch eintippen von `App.getUserAppDataDir()` in der [Python Konsole](Python_console/de.md))   *
-
--   Unter Linux ist es üblicherweise **/home/<username>/.FreeCAD/Mod/**.
--   Unter Windows ist es **%APPDATA%\FreeCAD\Macro\**, üblicherweise **C   *Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
--   Unter macOS ist es üblicherweise **/Users/<username>/Library/Preferences/FreeCAD/Mod/**.
-
-
-</div>
-
-Das Mod Verzeichnis sollte so aussehen   *
+Das Mod-Verzeichnis sollte so aussehen   *
 
 
 ```python
@@ -48,13 +36,7 @@ Weitere Informationen zu dem Thema findest du unter [Verwandtes](Workbench_creat
 
 ### C++ Arbeitsbereichsstruktur 
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn du deinen Arbeitsbereich in Python programmieren willst, brauchst du keine besondere Vorsicht walten zu lassen und kannst einfach deine anderen Python Dateien zusammen mit deinen Init.py und InitGui.py Dateien unterbringen. Wenn du jedoch mit C++ arbeitest, solltest du größere Sorgfalt walten lassen und damit beginnen, eine grundlegende Regel von FreeCAD zu beachten   * Die Trennung deines Arbeitsbereichs zwischen einem Anwendungsteil (der im Konsolenmodus laufen kann, ohne jedes GUI Element) und einem Gui Teil, der nur geladen wird, wenn FreeCAD mit seiner vollständigen GUI Umgebung läuft. Wenn du also einen C++ Arbeitsbereich verwendest, wirst du höchstwahrscheinlich zwei Module verwenden, eine Anwendung und eine Gui. Diese beiden Module müssen natürlich von Python aus aufrufbar sein. Jedes FreeCAD Modul (Anwendung oder Gui) besteht mindestens aus einer Modul Init Datei. Dies ist eine typische AppMyModuleGui.cpp Datei   *
-
-
-</div>
+Wenn du deinen Arbeitsbereich in Python programmieren willst, brauchst du keine besondere Vorsicht walten zu lassen und kannst einfach deine anderen Pythondateien zusammen mit deinen Init.py- und InitGui.py-Dateien unterbringen. Wenn du jedoch mit C++ arbeitest, solltest du größere Sorgfalt walten lassen und eine grundlegende Regel von FreeCAD beachten   * die Trennung deines Arbeitsbereichs zwischen einem Anwendungsteil (der ohne jedes GUI Element im Konsolenmodus laufen kann) und einem GUI-Teil, der nur geladen wird, wenn FreeCAD mit seiner vollständigen GUI-Umgebung läuft. Wenn du also einen C++ Arbeitsbereich erstellst, wirst du höchstwahrscheinlich zwei Module erstellen, eine Anwendung und eine GUI. Diese beiden Module müssen natürlich von Python aus aufrufbar sein. Jedes FreeCAD-Modul (Anwendung oder GUI) besteht mindestens aus einer Modul-Init-Datei. Dies ist eine typische AppMyModuleGui.cpp Datei   *
 
 
 ```python
@@ -123,17 +105,9 @@ Du kannst jede beliebige Lizenz für deinen Arbeitsbereich wählen, aber sei dir
 
 Die `FreeCAD.addImportType()` und `addEXportType()` Funktionen ermöglichen es dir, den Namen und die Erweiterung eines Dateityps sowie ein für seinen Import verantwortliches Python-Modul anzugeben. Im obigen Beispiel wird ein `importOwn.py` Modul `.own` Dateien handhaben. Siehe [Codeschnipsel](Code_snippets/de.md) für weitere Beispiele.
 
-### Python workbenches 
-
-
-<div class="mw-translate-fuzzy">
-
-### Python Arbeitsbereiche 
+### Python-Arbeitsbereiche 
 
 Dies ist die InitGui.py Datei   *
-
-
-</div>
 
 
 ```python
@@ -202,13 +176,13 @@ Hinzufügen deiner Einstellungsseite(n)   *
 -   In deinem Arbeitsbereich, z.B. innerhalb der InitGui Datei, innerhalb der Initialisierungsmethode (aber jeder andere Ort funktioniert auch), füge   * FreeCADGui.addPreferencePage(\"/path/to/myUiFile.ui\",\"MyGroup\"), \"MyGroup\" als eine der Präferenzgruppen auf der linken Seite. FreeCAD sucht automatisch nach einer \"preferences-mygroup.svg\" Datei an den bekannten Speicherorten (die du mit FreeCADGui.addIconPath() erweitern kannst)
 -   Stelle sicher, dass die Methode addPreferencePage() nur einmal aufgerufen wird, andernfalls wird deine Vorzugsseite mehrmals hinzugefügt
 
-#### Distribution
+#### Programmpaket (distribution) 
 
 To distribute your Python workbench, you may either simply host the files in some location and instruct your users to download them and place them in their Mod directory manually, or you may host them in an online git repository (GitHub, GitLab, Framagit, and Debian Salsa are currently supported locations) and configure them for the [Addon Manager](Std_AddonMgr.md) to install. Instructions for inclusion on FreeCAD\'s official Addons list can be found on the [FreeCAD Addons GitHub repository](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). To use the Addon Manager, a [package.xml metadata file](Package_Metadata.md) should be included, which instructs the Addon Manager how to find your workbench\'s icon, and allows display of a description, version number, etc. It can also be used to specify other workbenches or Python packages that your Workbench either depends on, is blocked by, or is intended to replace.
 
 Optionally, you can include a separate metadata file describing your Python dependencies. This may be either a file called metadata.txt describing your workbench\'s external dependencies (on either other Addons, Workbenches, or Python modules), or a [requirements.txt](https   *//pip.pypa.io/en/latest/reference/requirements-file-format/) describing your Python dependencies. Note that if using a requirements.txt file, only the names of the specified packages are used for dependency resolution   * pip command options, include options and version information are not supported by the Addon Manager. Users may manually run the requirements file using pip if those features are required.
 
-The format of the metadata.txt file is plain text, with three optional lines   *
+Das Format der metadata.txt - Datei ist Textformat mit drei Zeilen zur Auswahl   *
 
 
 ```python
@@ -217,7 +191,7 @@ pylibs=
 optionalpylibs=
 ```
 
-Each line should consist of a comma-separated list of items your Workbench depends on. Workbenches may be either an internal FreeCAD Workbench, e.g. \"FEM\", or an external Addon, for example \"Curves\". The required and optional Python libraries should be specified with their canonical Python names, such as you would use with `pip install`. For example   *
+Jede Zeile sollte aus einer durch Komma getrennten Liste von Punkten bestehen, von der dein Arbeitsbereich abhängt. Arbeitsbereiche können entweder ein interner FreeCAD-Arbeitsbereich, z.B. \"FEM\", oder ein externes Addon, z.B. \"Curves\" sein. Die benötigten oder wählbaren Python-Bibliotheken sollten mit deren regelkonformen Pythonnamen genannt werden, wie sie auch mit `pip install` verwendet werden. Zum Beispiel   *
 
 
 ```python
@@ -226,9 +200,9 @@ pylibs=ezdxf
 optionalpylibs=metadata,git
 ```
 
-You may also include a script that is run when your package is uninstalled. This is a file called \"uninstall.py\" located at the top level of your Addon. It is executed when a user uninstalls your Addon using the Addon Manager. Use it to clean up anything your Addon may have done to the users system that should not persist when the Addon is gone (e.g. removing cache files, etc.).
+Du kannst auch ein Script einfügen, das gestartet wird, wenn dein Paket deinstalliert wird. Das wäre die Datei \"uninstall.py\", die ganz oben in deinem Addon zu finden wäre. Es wird ausgeführt, wenn ein Benutzer dein Addon mit dem Addon-Manager deinstalliert. Es wird verwendet, um alles, was das Addon auf dem Benutzersystem gemacht hat und nicht dort bleiben soll, zu entfernen, wenn das Addon deinstalliert ist, z.B. Cachedateien entfernen etc.
 
-To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode use the [Parameter Editor](Std_DlgParameter.md) to create a boolean variable called \"developerMode\" in the \"Addons\" parameter group, and set this variable to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
+Um zu gewährleisten, dass dein Addon vom Addon-Manager richtig gelesen werden kann, kann der \"developer mode\" aktiviert werden, in dem der Addon-Manager alle verfügbaren Addons prüft und gewährleistet, dass deren Metadaten die erforderlichen Elemente enthält. Verwende den [Parameter Editor](Std_DlgParameter.md) um dies zu aktivieren, indem eine Boolsche Variable \"developerMode\" in der \"Addons\"-Parametergruppe erstellt wird und diese Variable auf True gesetzt wird   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
 
 ### C++ Arbeitsbereiche 
 
@@ -402,15 +376,9 @@ os.remove(qrc_filename)
 
 ## Verwandtes
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
--   [Namespaced Workbenches - discussion](https   *//forum.freecadweb.org/viewtopic.php?t=47460)
+-   [Forum discussion   * Namespaced Workbenches](https   *//forum.freecadweb.org/viewtopic.php?t=47460)
 -   [freecad.workbench\_starterkit](https   *//github.com/FreeCAD/freecad.workbench_starterkit)
-
-
-</div>
 
 
 

@@ -70,7 +70,7 @@ Odsunięcie od powierzchni, na której ma się kończyć wyciągnięcie. Opcja t
 
 Można wybrać kierunek wyciągania   *
 
--   **Ściana / Normalna szkicu** Szkic lub ściana zostanie wyciągnięty wzdłuż swojego wektora normalnego. Jeśli wybrałeś kilka szkiców lub ścian do wyciągnięcia, użyty zostanie wektor normalnej pierwszego z nich. {{Version/pl|0.20}}
+-   **Normalna szkicu** Szkic lub ściana zostanie wyciągnięty wzdłuż swojego wektora normalnego. Jeśli wybrałeś kilka szkiców lub ścian do wyciągnięcia, użyty zostanie wektor normalnej pierwszego z nich. {{Version/pl|0.20}}
 -   **Wybierz odniesienie\...**. Szkic zostanie wyciągnięty wzdłuż krawędzi modelu 3D. Gdy ta metoda jest wybrana, można wybrać dowolną krawędź w modelu 3D. Stanie się ona wtedy wektorem kierunku dla wyłożenia. {{Version/pl|0.20}}
 -   **Kierunek niestandardowy** Szkic jest wyciskany wzdłuż kierunku, który można określić za pomocą wartości wektorowych. {{Version/pl|0.19}}
 

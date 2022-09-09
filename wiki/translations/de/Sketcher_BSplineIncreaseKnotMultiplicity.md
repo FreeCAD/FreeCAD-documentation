@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher BSplineIncreaseKnotMultiplicity
-   Name/de   *Skizzierer BSplineErhöheKnotenVielfalt
-   MenuLocation   *Skizze → Skizzierer B-spline Werkzeuge → Erhöhe Knoten Vielfalt
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Name/de   *Sketcher BSplineKnotenVielfachheitErhöhen
+   MenuLocation   *Sketch → B-Spline-Werkzeuge → Vielfachheit eines Spline-Knotens erhöhen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.17
-   SeeAlso   *[Erstelle B-spline](Sketcher_CompCreateBSpline/de.md)
+   SeeAlso   *[BSplineKnotenVielfachheit](Sketcher_BSplineKnotMultiplicity/de.md), [BSplineKnotenVielfachheitVerringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)
 ---
 
 # Sketcher BSplineIncreaseKnotMultiplicity/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -55,13 +52,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

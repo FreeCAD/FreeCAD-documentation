@@ -80,6 +80,15 @@ Matrix representation is the 4D identity matrix.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> isSame
+
+isSame(Base.Placement, [tol=0.0]) -> bool
+
+Checks whether this and the given placement are the same.
+The default tolerance is set to 0.0
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> move
 
 move(vector) -> None
@@ -131,10 +140,11 @@ shorten : bool
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> rotate
 
-rotate(center, axis, angle) -> None
+rotate(center, axis, angle, comp) -> None
 
 Rotate the current placement around center and axis with the given angle.
-This method is compatible with TopoShape.rotate().
+This method is compatible with TopoShape.rotate() if the (optional) keyword
+argument comp is True (default=False).
 
 center : Base.Vector, sequence of float
     Rotation center.
@@ -142,6 +152,9 @@ axis : Base.Vector, sequence of float
     Rotation axis.
 angle : float
     Rotation angle in degrees.
+comp : bool
+    optional keyword only argument, if True (default=False),
+behave like TopoShape.rotate() (i.e. the resulting placements are interchangeable).
 
 
 

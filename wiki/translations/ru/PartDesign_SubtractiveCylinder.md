@@ -1,10 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign SubtractiveCylinder
-   MenuLocation   *Part Design → Create a subtractive primitive → Subtractive Cylinder
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
+- GuiCommand   */ru
+   Name/ru   *Субтрактивный цилиндр
+   Name   *PartDesign_SubtractiveCylinder
+   MenuLocation   *Part Design → Создать субтрактивный примитив → Субтрактивный цилиндр
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign_AdditiveCylinder](PartDesign_AdditiveCylinder.md)
+   SeeAlso   *[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [PartDesign_AdditiveCylinder](PartDesign_AdditiveCylinder/ru.md)
 ---
 
 # PartDesign SubtractiveCylinder/ru
@@ -15,39 +16,39 @@
 
 ![](images/PartDesign_SubtractiveCylinder_example.svg )
 
-\"Слева   * активное тело (A) показано серым цветом, а субтрактивный цилиндр (B) показан прозрачным красным цветом; результат справа.\"
+*Слева   * активное тело (A) отображено серым цветом, к которому добавлен субтрактивный цилиндр (B) отображен прозрачным красным цветом. Справа   * форма полученная в результате преобразования.*
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Subtractive Cylinder'''** button. **Note**   * the Subtractive Cylinder is part of an icon menu labelled *Create an subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cylinder button, click on the down arrow besides the visible icon and select Subtractive cylinder in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Cylinder feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Субтрактивный цилиндр'''**. **Примечание**   * Инструмент Субтрактивный цилиндр входит в состав меню с названием \"Создать cубтрактивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Субтрактивный куб. Чтобы перейти к кнопке создания Цилиндра, нажмите на стрелку указывающую вниз рядом со значком и выберите Субтрактивный цилиндр в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Цилиндр появится в иерархии документа под активным Телом.
 
 ## Опции
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
+Возможно также создавать наклонные цилиндры, указав углы наклона образующей цилиндра относительно плоскости основания. {{Version/ru|0.20}}
 
-The Cylinder can be edited after its creation in two ways   *
+Параметры Цилиндра после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
--    **Attachment**   * defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+-    **Attachment**   * Определяет режим крепления, а также смещение конструктивного элемента при его [креплении](Part_EditAttachment/ru.md).
 
--    **Label**   * label given to the Cylinder object. Change to suit your needs.
+-    **Label**   * Метка, присвоенная объекту Цилиндр. Может быть изменена в соответствии с вашими потребностями.
 
--    **Radius**   * the radius value of the cylinder.
+-    **Radius**   * радиус цилиндра.
 
--    **Angle**   * angle of rotation of the cross section (360 degrees forms a full cylinder).
+-    **Angle**   * угол поперечного выреза цилиндра (360 градусов образуют полный цилиндр).
 
--    **Height**   * the length of the cylinder along its axis.
+-    **Height**   * высота цилиндра вдоль его оси.
 
--    **First Angle**   * angle in first direction. <small>(v0.20)</small> 
+-    **First Angle**   * угол наклона образующей цилиндра по первой оси относительно плоскости основания. {{Version/ru|0.20}}
 
--    **Second Angle**   * angle in second direction. <small>(v0.20)</small> 
+-    **Second Angle**   * угол наклона образующей цилиндра по второй оси относительно плоскости основания. {{Version/ru|0.20}}
 
 
 

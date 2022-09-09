@@ -67,28 +67,34 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 <img alt="Bemaßungseinstellungen" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
-### Bemaßungen 
 
--   **Normbasis und Ausführung von Maßeinträgen**   * Der Standard, der für Bemaßungswerte zu verwenden ist. Die Unterschiede zwischen den Standards sind in der Abbildung dargestellt   *
+<div class="mw-translate-fuzzy">
+
+-   **Normbasis und Ausführung von Maßeinträgen**   * Der Standard, der für Maßzahlen zu verwenden ist. Die Unterschiede zwischen den Standards sind in der Abbildung dargestellt   *
 
 ![\|500px\|Unterschiede zwischen den unterstützten Normen. ([Image source](images/https   *//forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png )
 
    *   
 
-       *   ISO Oriented - gezeichnet gemäß Standard ISO 129-1, Text ist gedreht, um parallel zu der Bemaßungslinientangente zu sein.
-       *   ISO Referencing - gezeichnet in Übereinstimmung mit ISO 129-1, Text ist immer horizontal, über der kürzest möglichen Referenzlinie.
-       *   ASME Inlined - gezeichnet gemäß Standard ASME Y14.5M, Text ist horizontal, eingefügt in einer Unterbrechung von Bemaßungslinie oder -bogen.
-       *   ASME Referencing - gezeichnet in Übereinstimmung mit ASME Y14.5M, Text ist horizontal, kurze Referenzlinie ist an einer Seite des vertikalen Zentrums angebracht.
+       *   ISO Oriented - gezeichnet gemäß Norm ISO 129-1, Text ist gedreht, um parallel zu der (Tangente an die) Maßlinie zu sein.
+       *   ISO Referencing - gezeichnet entsprechend der Norm ISO 129-1, Text ist immer horizontal, über der kürzest möglichen Referenzlinie.
+       *   ASME Inlined - gezeichnet gemäß Norm ASME Y14.5M, Text ist horizontal, eingefügt in einer Lücke der Maßlinie (bzw. des \"Maßbogens\" bei Winkeln).
+       *   ASME Referencing - gezeichnet entsprechend der Norm ASME Y14.5M, Text ist horizontal, kurze Referenzlinie ist an einer Seite des vertikalen Zentrums angebracht.
 
--   **Globale Dezimalstellen verwenden**   * Verwende Anzahl der Dezimalstellen aus [Allgemeine Einstellungen](Preferences_Editor/de#Einheiten.md).
--   **Maßeinheiten anzeigen**   * Hängt die Einheit (mm, in, etc.) an Bemaßungswerte an.
+-   **Globale Dezimalstellen verwenden**   * Verwendet die Anzahl der Dezimalstellen aus den [Allgemeine Einstellungen](Preferences_Editor/de#Einheiten.md).
+-   **Maßeinheiten anzeigen**   * Hängt die Maßeinheit (mm, in, etc.) an Maßzahlen an.
 -   **Dezimalstellen ändern**   * Anzahl der Dezimalstellen, wenn **Globale Dezimalstellen verwenden** nicht aktiviert ist.
--   **Standard Format**   * Benutzerdefiniertes Format für Bemaßungstext. Verwendet den [printf Format Spezifizierer](https   *//en.wikipedia.org/wiki/Printf_format_string).
--   **Schrifthöhe**   * Schriftgröße für Bemaßungstext.
--   **Skalierung der Toleranzeinträge**   * Toleranz-Schriftgrößenanpassung. Bemaßungsmultiplikator **[Bemaßungen](TechDraw_Preferences/de#Bema.C3.9Fungen_2.md)**.
--   **Durchmessersymbol**   * Zur Angabe von Durchmesserbemaßungen verwendete Zeichen.
--   **Pfeildarstellung**   * Pfeilspitzenstil für Bemaßungen.
--   **Pfeillänge**   * Pfeilspitzengröße der Bemaßungen.
+-   **Standard Format**   * Benutzerdefiniertes Format für Maßzahlen (und -Texte). Verwendet die [printf-Formatierung](https   *//de.wikipedia.org/wiki/Printf).
+-   **Schrifthöhe**   * Schriftgröße für Maßzahlen und -Texte.
+-   **Skalierung der Toleranzeinträge**   * Schriftgrößenanpassung für Toleranzeinträge. Ein Multiplikator der **[Schrifthöhe](TechDraw_Preferences/de#Bemaßungen.md)**.
+-   **Durchmessersymbol**   * Zeichen für die Kennzeichnung von Durchmessermaßen.
+-   **Pfeildarstellung**   * Art der Maßpfeile.
+-   **Pfeillänge**   * Größe der Maßpfeile.
+-   **Extension Gap Factor - ASME**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ASME-Maße. {{Version/de|1.0}}
+-   **Extension Gap Factor - ISO**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ISO-Maße. {{Version/de|1.0}}
+
+
+</div>
 
 ## Anmerkung
 

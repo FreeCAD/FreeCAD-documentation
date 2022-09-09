@@ -19,7 +19,7 @@ The Symbol tool inserts an [SVG](SVG.md) file into the page. This symbol can be 
 ## Применение
 
 1.  Press the **<img src="images/TechDraw_Symbol.svg" width=16px> [Insert SVG Symbol](TechDraw_Symbol.md)** button
-2.  A File Save dialog will open.
+2.  A File dialog will open.
 3.  Select a location and file name.
 4.  Press **OK**
 

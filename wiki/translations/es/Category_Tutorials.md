@@ -18,14 +18,14 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [FreeCAD-Ship s60 tutorial/es](wiki/FreeCAD-Ship s60 tutorial/es.md) | [How to install additional workbenches/es](wiki/How to install additional workbenches/es.md) | [How to install macros/es](wiki/How to install macros/es.md) |
 | [Import OpenSCAD code/es](wiki/Import OpenSCAD code/es.md) | [Import/Export IFC - compiling IfcOpenShell/es](wiki/Import/Export IFC - compiling IfcOpenShell/es.md) | [Manual:BIM modeling/es](wiki/Manual_BIM modeling/es.md) |
 | [Manual:Generating 2D drawings/es](wiki/Manual_Generating 2D drawings/es.md) | [Manual:Import and export to other filetypes/es](wiki/Manual_Import and export to other filetypes/es.md) | [Manual:Installing/es](wiki/Manual_Installing/es.md) |
-| [Manual:Parametric objects/es](wiki/Manual_Parametric objects/es.md) | [Manual:Preparing models for 3D printing/es](wiki/Manual_Preparing models for 3D printing/es.md) | [Part and PartDesign/es](wiki/Part and PartDesign/es.md) |
-| [PartDesign Bearingholder Tutorial I/es](wiki/PartDesign Bearingholder Tutorial I/es.md) | [PartDesign Bearingholder Tutorial II/es](wiki/PartDesign Bearingholder Tutorial II/es.md) | [PartDesign tutorial/es](wiki/PartDesign tutorial/es.md) |
-| [Plot Basic tutorial/es](wiki/Plot Basic tutorial/es.md) | [Plot MultiAxes tutorial/es](wiki/Plot MultiAxes tutorial/es.md) | [Robot 6-Axis/es](wiki/Robot 6-Axis/es.md) |
-| [Robot tutorial/es](wiki/Robot tutorial/es.md) | [Sketcher requirement for a sketch/es](wiki/Sketcher requirement for a sketch/es.md) | [Sketcher Tutorial/es](wiki/Sketcher Tutorial/es.md) |
-| [TechDraw HowTo Page/es](wiki/TechDraw HowTo Page/es.md) | [Toothbrush Head Stand/es](wiki/Toothbrush Head Stand/es.md) | [Template:TutorialInfo/es](wiki/Template_TutorialInfo/es.md) |
-| [Tutorials/es](wiki/Tutorials/es.md) | [Video tutorials for architectural design/es](wiki/Video tutorials for architectural design/es.md) | [Video tutorials for product design/es](wiki/Video tutorials for product design/es.md) |
-| [Video tutorials obsolete/es](wiki/Video tutorials obsolete/es.md) | [Video tutorials/es](wiki/Video tutorials/es.md) | [VRML Preparation for Robot Simulation/es](wiki/VRML Preparation for Robot Simulation/es.md) |
-| [Wikihouse porting tutorial/es](wiki/Wikihouse porting tutorial/es.md) |
+| [Manual:Parametric objects/es](wiki/Manual_Parametric objects/es.md) | [Manual:Preparing models for 3D printing/es](wiki/Manual_Preparing models for 3D printing/es.md) | [PartDesign Bearingholder Tutorial I/es](wiki/PartDesign Bearingholder Tutorial I/es.md) |
+| [PartDesign Bearingholder Tutorial II/es](wiki/PartDesign Bearingholder Tutorial II/es.md) | [PartDesign tutorial/es](wiki/PartDesign tutorial/es.md) | [Plot Basic tutorial/es](wiki/Plot Basic tutorial/es.md) |
+| [Plot MultiAxes tutorial/es](wiki/Plot MultiAxes tutorial/es.md) | [Robot 6-Axis/es](wiki/Robot 6-Axis/es.md) | [Robot tutorial/es](wiki/Robot tutorial/es.md) |
+| [Sketcher requirement for a sketch/es](wiki/Sketcher requirement for a sketch/es.md) | [Sketcher Tutorial/es](wiki/Sketcher Tutorial/es.md) | [TechDraw HowTo Page/es](wiki/TechDraw HowTo Page/es.md) |
+| [Toothbrush Head Stand/es](wiki/Toothbrush Head Stand/es.md) | [Template:TutorialInfo/es](wiki/Template_TutorialInfo/es.md) | [Tutorials/es](wiki/Tutorials/es.md) |
+| [Video tutorials for architectural design/es](wiki/Video tutorials for architectural design/es.md) | [Video tutorials for product design/es](wiki/Video tutorials for product design/es.md) | [Video tutorials obsolete/es](wiki/Video tutorials obsolete/es.md) |
+| [Video tutorials/es](wiki/Video tutorials/es.md) | [VRML Preparation for Robot Simulation/es](wiki/VRML Preparation for Robot Simulation/es.md) | [Wikihouse porting tutorial/es](wiki/Wikihouse porting tutorial/es.md) |
+|
 
 
 

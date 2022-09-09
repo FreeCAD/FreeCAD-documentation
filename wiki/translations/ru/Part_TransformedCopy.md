@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */ru
-   Name   *Part TransformedCopy
-   Name/ru   *Part TransformedCopy
-   MenuLocation   *Деталь → Create a copy → Create transformed copy
+   Name/ru   *Создать преобразованную копию
+   Name   *Part_TransformedCopy
+   MenuLocation   *Деталь → Создать копию → Создать преобразованную копию
    Workbenches   *[Part](Part_Workbench/ru.md)
    Version   *0.19
-   SeeAlso   *[Part SimpleCopy](Part_SimpleCopy/ru.md), [Part ElementCopy](Part_ElementCopy/ru.md), [Part RefineShape](Part_RefineShape/ru.md)
+   SeeAlso   *[Создать простую копию](Part_SimpleCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
 ---
 
 # Part TransformedCopy/ru
-
-
-</div>
 
 ## Описание
 
@@ -29,11 +26,11 @@ To produce other non-parametric copies use **<img src="images/Part_SimpleCopy.sv
 
 ### Данные
 
-The copy has a simple **Placement** property like any other [Part Feature](Part_Feature.md).
+Копия имеет простое свойство **Placement** , как и у любых других [Part Feature](Part_Feature/ru.md).
 
 ### Вид
 
-The copy has simple view properties like any other [Part Feature](Part_Feature.md).
+Копия имеет простые свойства вида, аналогичные тем, что имеются у любых других [Part Feature](Part_Feature/ru.md).
 
 
 

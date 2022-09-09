@@ -2,59 +2,50 @@
 - GuiCommand   */ru
    Name/ru   *Аддитивная сфера
    Name   *PartDesign_AdditiveSphere
-   MenuLocation   *Part Design → Создать аддитивный примитив → Аддитивная сфера
+   MenuLocation   *Part Design → Создать аддитивный примитив → Аддитивная Сфера
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md)
+   SeeAlso   *[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивная сфера](PartDesign_SubtractiveSphere/ru.md)
 ---
 
 # PartDesign AdditiveSphere/ru
 
-
-</div>
-
 ## Описание
 
-Inserts a primitive sphere in the active Body as the first feature, or fuses it to the existing feature(s).
+Вставляет в активное Тело простую геометрическую форму - сферу, в качестве базового конструктивного элемента, или объединяет этот элемент с уже существующей совокупностью конструктивных элементов.
 
 <img alt="" src=images/PartDesign_AdditiveSphere_example.png  style="width   *200px;">
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_AdditiveSphere.svg" width=24px> '''Additive Sphere'''** button. **Note**   * the Additive Sphere is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Additive Sphere in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Sphere feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_AdditiveSphere.svg" width=24px> '''Аддитивная сфера'''**. **Примечание**   * Инструмент Аддитивная сфера входит в состав меню с названием \"Создать аддитивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Аддитивный куб. Чтобы перейти к кнопке создания Сферы, нажмите на стрелку указывающую вниз рядом со значком и выберите Аддитивную сферу в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Сфера появится в иерархии документа под активным Телом.
 
 ## Опции
 
-The Sphere can be edited after its creation in two ways   *
+Параметры Сферы после её создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по ней в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
--    **Attachment**   * defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+-    **Attachment**   * Определяет режим крепления, а также смещение конструктивного элемента при его [креплении](Part_EditAttachment/ru.md).
 
--    **Label**   * Label given to the Sphere object. Change to suit your needs.
+-    **Label**   * Метка, присвоенная объекту Сфера. Может быть изменена в соответствии с вашими потребностями.
 
--    **Radius**   * Radius of the sphere.
+-    **Radius**   * Радиус сферы.
 
--    **Angle1**   * (labelled *V parameter* in the Primitive parameters) lower truncation of the sphere, parallel to the circular cross section (-90 degrees in a full sphere)
+-    **Angle1**   * (Обозначено, как *Параметр V* в настройках параметров сферы) усечение верхней части сферы, параллельное круглому поперечному сечению (для полной сферы значение должно быть равно -90 градусов)
 
--    **Angle2**   * (unlabelled in the Primitive parameters) upper truncation of the ellipsoid, parallel to the circular cross section (90 degrees in a full sphere).
+-    **Angle2**   * (Параметр без названия в настройках параметров сферы) усечение нижней части сферы, параллельное круглому поперечному сечению (для полной сферы значение должно быть равно 90 градусов).
 
--    **Angle3**   * (labelled *U parameter* in the Primitive parameters) angle of rotation of the cross section (360 degrees in a full sphere).
-
-
-<div class="mw-translate-fuzzy">
+-    **Angle3**   * (Обозначено, как *Параметр U* в настройках параметров сферы) угол поперечного выреза сферы (для полной сферы значение должно быть равно 360 градусов).
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

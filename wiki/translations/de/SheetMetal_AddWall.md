@@ -78,6 +78,8 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 -    {{PropertyData/de|Bend Type|Enumeration}}   * \"Bend Type\". {{value|Material Outside}} (standard), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
 
+-    {{PropertyData/de|Length Spec|Enumeration}}   * \"Type of Length Specification\". Art der Längenbestimmung. {{value|Leg}} (standard), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}. {{Version/de|1.0}}
+
 -    {{PropertyData/de|angle|Angle}}   * \"Bend Angle\". Biegewinkel. Standardwinkel {{value|90,00°}}.
 
 -    {{PropertyData/de|base Object|LinkSub}}   * \"Base Object\". Verknüpfung zur ebenen Fläche, an die eine Kante angesetzt werden soll.

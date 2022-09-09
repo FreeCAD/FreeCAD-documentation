@@ -112,11 +112,17 @@ Los objetos Datum, [puntos](PartDesign_Point/es.md), [líneas](PartDesign_Line/e
 
 ## Enlaces
 
+
+<div class="mw-translate-fuzzy">
+
 -   [DiseñoPieza Redondeo - Denominación topológica](PartDesign_Fillet#Topological_naming/es.md)
 -   [Topological Naming, My Take](https   *//forum.freecadweb.org/viewtopic.php?t=27278), a possible solution, by realthunder.
 -   [Proyecto de denominación topológica](Topological_Naming_Project/es.md)   * idea para resolver el problema, por ickby.
 -   [Guión de datos topológicos](Topological_data_scripting/es.md)
 -   [Edición de artículos](Feature_editing/es.md)   * contiene consejos alternativos para las técnicas de modelado estable.
+
+
+</div>
 
 ## Vídeos
 

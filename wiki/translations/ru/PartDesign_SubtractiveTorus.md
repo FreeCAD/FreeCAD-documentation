@@ -5,33 +5,30 @@
    MenuLocation   *Part Design → Создать субтрактивный примитив → Субтрактивный тор
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md)
+   SeeAlso   *[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный тор](PartDesign_AdditiveTorus/ru.md)
 ---
 
 # PartDesign SubtractiveTorus/ru
 
-
-</div>
-
 ## Описание
 
-Inserts a subtractive torus in the active Body. Its shape is subtracted from the existing solid.
+Вставляет субтрактивный тор в активное Тело. Его форма вычитается из существующего тела.
 
-![](images/PartDesign_SubtractiveTorus_example.svg ) *On the left   * active body (A) shown in grey and subtractive torus (B) shown in transparent red; result on the right.*
+![](images/PartDesign_SubtractiveTorus_example.svg ) *Слева   * активное тело (A) отображено серым цветом, к которому добавлен субтрактивный тор (B) отображен прозрачным красным цветом. Справа   * форма полученная в результате преобразования.*
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_SubtractiveTorus.svg" width=24px> '''Subtractive Torus'''** button. **Note**   * the Subtractive Torus is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Torus, click on the down arrow besides the visible icon and select Subtractive Torus in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Torus feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_SubtractiveTorus.svg" width=24px> '''Субтрактивный тор'''**. **Примечание**   * Инструмент Субтрактивный тор входит в состав меню с названием \"Создать субтрактивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Аддитивный куб. Чтобы перейти к кнопке создания Тора, нажмите на стрелку указывающую вниз рядом со значком и выберите Субтрактивный тор в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Тор появится в иерархии документа под активным Телом.
 
 ## Опции
 
-The Torus can be edited after its creation in two ways   *
+Параметры Тора после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
@@ -50,13 +47,7 @@ The Torus can be edited after its creation in two ways   *
 -    **Angle3**   * (labelled *U parameter* in the Primitive parameters) angle of rotation of the circular cross section (360° in a full torus).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

@@ -192,15 +192,22 @@ These are tools for creating objects.
    ** <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Circle by 3 points](Sketcher_Create3PointCircle.md)   * Draws a circle from three points on the circumference.
 
 -   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *48px;"> [Create a conic](Sketcher_CompCreateConic.md)   * The sketcher provides the following conical sections. Unlike B-splines they can be used with all sorts of constraints such as [Tangent](Sketcher_ConstrainTangent.md), [Point On Object](Sketcher_ConstrainPointOnObject.md), or [Perpendicular](Sketcher_ConstrainPerpendicular.md).
-    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipse](Sketcher_CreateEllipseByCenter.md)   * Draws an ellipse by center point, major radius point and minor radius point.
-    -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)   * Draws an ellipse by major diameter (2 points) and minor radius point.
-    -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md)   * Draws an arc of ellipse by center point, major radius point, starting point and ending point.
-    -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)   * Draws an arc of hyperbola.
-    -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)   * Draws an arc of parabola.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md)   * Draws an ellipse by center point, major radius point and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)   * Draws an ellipse by major diameter (2 points) and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md)   * Draws an arc of ellipse by center point, major radius point, starting point and ending point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)   * Draws an arc of hyperbola.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)   * Draws an arc of parabola.
 
 -   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width   *48px;"> [Create a B-spline](Sketcher_CompCreateBSpline.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-spline curve by its control points.
-    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic (closed) B-spline curve by its control points.
+
+   ** <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-spline curve by its control points.
+
+   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic (closed) B-spline curve by its control points.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *32px;"> [Polyline (multiple-point line)](Sketcher_CreatePolyline.md)   * Draws a line made of multiple line segments. Pressing the **M** key while drawing a Polyline toggles between the different polyline modes.
 
@@ -284,9 +291,14 @@ These are constraints associated with numeric data, for which you can use the [e
 
 -   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width   *32px;"> [Distance](Sketcher_ConstrainDistance.md)   * Defines the distance of a selected line by constraining its length, or defines the distance between two points by constraining the distance between them.
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Radius](Sketcher_ConstrainRadius.md)   * Defines the radius of a selected arc or circle by constraining the radius.
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
--   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc) <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width   *48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md)   * This is an icon menu in the Sketcher constraints toolbar that holds the following commands   *
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Radius](Sketcher_ConstrainRadius.md)   * Defines the radius of a selected arc or circle by constraining the radius.
+
+   ** <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Angle](Sketcher_ConstrainAngle.md)   * Defines the internal angle between two selected lines.
 
 #### Special constraints 

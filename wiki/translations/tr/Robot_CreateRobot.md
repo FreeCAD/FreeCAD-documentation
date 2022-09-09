@@ -9,9 +9,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Açıklama
 
 Sahneye yeni bir robot (KUKA IR500) yerleştirin.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -33,6 +41,8 @@ Sahneye bir KUKA IR500 robotu yerleştirmek için ![ 32px](images/_Robot_CreateR
     -   Switch to the \"Tasks\"-Tab in the [tree view](Tree_view.md)).
 3.  Select one of the four predefined robots.
 
+## Limitations
+
 
 <div class="mw-translate-fuzzy">
 
@@ -46,6 +56,8 @@ Robot kod ve bir vrml dosyası aracılığıyla tanımlanmalıdır, daha
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

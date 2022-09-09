@@ -125,55 +125,55 @@ Esta categoría contiene artículos sobre la utilización de FreeCAD. También e
 | [PartDesign Draft/es](wiki/PartDesign Draft/es.md) | [PartDesign Feature/es](wiki/PartDesign Feature/es.md) | [PartDesign Fillet/es](wiki/PartDesign Fillet/es.md) |
 | [PartDesign Groove/es](wiki/PartDesign Groove/es.md) | [PartDesign Hole/es](wiki/PartDesign Hole/es.md) | [PartDesign InvoluteGear/es](wiki/PartDesign InvoluteGear/es.md) |
 | [PartDesign Line/es](wiki/PartDesign Line/es.md) | [PartDesign LinearPattern/es](wiki/PartDesign LinearPattern/es.md) | [PartDesign Migrate/es](wiki/PartDesign Migrate/es.md) |
-| [PartDesign Mirrored/es](wiki/PartDesign Mirrored/es.md) | [PartDesign MultiTransform/es](wiki/PartDesign MultiTransform/es.md) | [PartDesign NewSketch/es](wiki/PartDesign NewSketch/es.md) |
-| [PartDesign Pad/es](wiki/PartDesign Pad/es.md) | [PartDesign Plane/es](wiki/PartDesign Plane/es.md) | [PartDesign Pocket/es](wiki/PartDesign Pocket/es.md) |
-| [PartDesign Point/es](wiki/PartDesign Point/es.md) | [PartDesign PolarPattern/es](wiki/PartDesign PolarPattern/es.md) | [PartDesign Revolution/es](wiki/PartDesign Revolution/es.md) |
-| [PartDesign Scaled/es](wiki/PartDesign Scaled/es.md) | [PartDesign ShapeBinder/es](wiki/PartDesign ShapeBinder/es.md) | [PartDesign Sprocket/es](wiki/PartDesign Sprocket/es.md) |
-| [PartDesign SubtractiveBox/es](wiki/PartDesign SubtractiveBox/es.md) | [PartDesign SubtractiveCone/es](wiki/PartDesign SubtractiveCone/es.md) | [PartDesign SubtractiveCylinder/es](wiki/PartDesign SubtractiveCylinder/es.md) |
-| [PartDesign SubtractiveEllipsoid/es](wiki/PartDesign SubtractiveEllipsoid/es.md) | [PartDesign SubtractivePipe/es](wiki/PartDesign SubtractivePipe/es.md) | [PartDesign SubtractivePrism/es](wiki/PartDesign SubtractivePrism/es.md) |
-| [PartDesign SubtractiveSphere/es](wiki/PartDesign SubtractiveSphere/es.md) | [PartDesign SubtractiveTorus/es](wiki/PartDesign SubtractiveTorus/es.md) | [PartDesign SubtractiveWedge/es](wiki/PartDesign SubtractiveWedge/es.md) |
-| [PartDesign Thickness/es](wiki/PartDesign Thickness/es.md) | [PartDesign WizardShaft/es](wiki/PartDesign WizardShaft/es.md) | [Path Array/es](wiki/Path Array/es.md) |
-| [Path FAQ/es](wiki/Path FAQ/es.md) | [Path Fixture/es](wiki/Path Fixture/es.md) | [Path Job/es](wiki/Path Job/es.md) |
-| [Path Pocket 3D/es](wiki/Path Pocket 3D/es.md) | [Path Postprocessor Customization/es](wiki/Path Postprocessor Customization/es.md) | [Path Workbench/es](wiki/Path Workbench/es.md) |
-| [PCB Workbench/es](wiki/PCB Workbench/es.md) | [PDF/es](wiki/PDF/es.md) | [Placement API/es](wiki/Placement API/es.md) |
-| [Placement/es](wiki/Placement/es.md) | [Plot Axes/es](wiki/Plot Axes/es.md) | [Plot Basic tutorial/es](wiki/Plot Basic tutorial/es.md) |
-| [Plot Grid/es](wiki/Plot Grid/es.md) | [Plot Labels/es](wiki/Plot Labels/es.md) | [Plot Legend/es](wiki/Plot Legend/es.md) |
-| [Plot MultiAxes tutorial/es](wiki/Plot MultiAxes tutorial/es.md) | [Plot Positions/es](wiki/Plot Positions/es.md) | [Plot Save/es](wiki/Plot Save/es.md) |
-| [Plot Series/es](wiki/Plot Series/es.md) | [Plot Workbench/es](wiki/Plot Workbench/es.md) | [Points Workbench/es](wiki/Points Workbench/es.md) |
-| [Preferences Editor/es](wiki/Preferences Editor/es.md) | [Property editor/es](wiki/Property editor/es.md) | [Python console/es](wiki/Python console/es.md) |
-| [Qt Example/es](wiki/Qt Example/es.md) | [Raytracing New/es](wiki/Raytracing New/es.md) | [Raytracing Workbench/es](wiki/Raytracing Workbench/es.md) |
-| [Raytracing WriteCamera/es](wiki/Raytracing WriteCamera/es.md) | [Raytracing WritePart/es](wiki/Raytracing WritePart/es.md) | [Raytracing WriteView/es](wiki/Raytracing WriteView/es.md) |
-| [Report view/es](wiki/Report view/es.md) | [Reverse Engineering Workbench/es](wiki/Reverse Engineering Workbench/es.md) | [Robot 6-Axis/es](wiki/Robot 6-Axis/es.md) |
-| [Robot API example/es](wiki/Robot API example/es.md) | [Robot CreateRobot/es](wiki/Robot CreateRobot/es.md) | [Robot CreateTrajectory/es](wiki/Robot CreateTrajectory/es.md) |
-| [Robot Edge2Trac/es](wiki/Robot Edge2Trac/es.md) | [Robot Export/es](wiki/Robot Export/es.md) | [Robot InsertWaypoint/es](wiki/Robot InsertWaypoint/es.md) |
-| [Robot InsertWaypointPre/es](wiki/Robot InsertWaypointPre/es.md) | [Robot RestoreHomePos/es](wiki/Robot RestoreHomePos/es.md) | [Robot SetDefaultOrientation/es](wiki/Robot SetDefaultOrientation/es.md) |
-| [Robot SetDefaultValues/es](wiki/Robot SetDefaultValues/es.md) | [Robot SetHomePos/es](wiki/Robot SetHomePos/es.md) | [Robot Simulate/es](wiki/Robot Simulate/es.md) |
-| [Robot TrajectoryCompound/es](wiki/Robot TrajectoryCompound/es.md) | [Robot TrajectoryDressUp/es](wiki/Robot TrajectoryDressUp/es.md) | [Robot tutorial/es](wiki/Robot tutorial/es.md) |
-| [Robot Workbench/es](wiki/Robot Workbench/es.md) | [Screenshots/es](wiki/Screenshots/es.md) | [Selection API/es](wiki/Selection API/es.md) |
-| [Selection methods/es](wiki/Selection methods/es.md) | [Ship AreasCurve/es](wiki/Ship AreasCurve/es.md) | [Ship CreateShip/es](wiki/Ship CreateShip/es.md) |
-| [Ship Hydrostatics/es](wiki/Ship Hydrostatics/es.md) | [Ship LoadExample/es](wiki/Ship LoadExample/es.md) | [Ship Workbench/es](wiki/Ship Workbench/es.md) |
-| [Sketch/es](wiki/Sketch/es.md) | [Sketcher CarbonCopy/es](wiki/Sketcher CarbonCopy/es.md) | [Sketcher Clone/es](wiki/Sketcher Clone/es.md) |
-| [Sketcher CloseShape/es](wiki/Sketcher CloseShape/es.md) | [Sketcher CompCreateArc/es](wiki/Sketcher CompCreateArc/es.md) | [Sketcher CompCreateBSpline/es](wiki/Sketcher CompCreateBSpline/es.md) |
-| [Sketcher CompCreateCircle/es](wiki/Sketcher CompCreateCircle/es.md) | [Sketcher CompCreateConic/es](wiki/Sketcher CompCreateConic/es.md) | [Sketcher CompCreateRegularPolygon/es](wiki/Sketcher CompCreateRegularPolygon/es.md) |
-| [Sketcher ConnectLines/es](wiki/Sketcher ConnectLines/es.md) | [Sketcher ConstrainAngle/es](wiki/Sketcher ConstrainAngle/es.md) | [Sketcher ConstrainBlock/es](wiki/Sketcher ConstrainBlock/es.md) |
-| [Sketcher ConstrainCoincident/es](wiki/Sketcher ConstrainCoincident/es.md) | [Sketcher ConstrainDiameter/es](wiki/Sketcher ConstrainDiameter/es.md) | [Sketcher ConstrainDistance/es](wiki/Sketcher ConstrainDistance/es.md) |
-| [Sketcher ConstrainDistanceX/es](wiki/Sketcher ConstrainDistanceX/es.md) | [Sketcher ConstrainDistanceY/es](wiki/Sketcher ConstrainDistanceY/es.md) | [Sketcher ConstrainEqual/es](wiki/Sketcher ConstrainEqual/es.md) |
-| [Sketcher ConstrainHorizontal/es](wiki/Sketcher ConstrainHorizontal/es.md) | [Sketcher ConstrainInternalAlignment/es](wiki/Sketcher ConstrainInternalAlignment/es.md) | [Sketcher ConstrainLock/es](wiki/Sketcher ConstrainLock/es.md) |
-| [Sketcher ConstrainParallel/es](wiki/Sketcher ConstrainParallel/es.md) | [Sketcher ConstrainPerpendicular/es](wiki/Sketcher ConstrainPerpendicular/es.md) | [Sketcher ConstrainPointOnObject/es](wiki/Sketcher ConstrainPointOnObject/es.md) |
-| [Sketcher ConstrainRadius/es](wiki/Sketcher ConstrainRadius/es.md) | [Sketcher ConstrainSnellsLaw/es](wiki/Sketcher ConstrainSnellsLaw/es.md) | [Sketcher ConstrainSymmetric/es](wiki/Sketcher ConstrainSymmetric/es.md) |
-| [Sketcher ConstrainTangent/es](wiki/Sketcher ConstrainTangent/es.md) | [Sketcher ConstrainVertical/es](wiki/Sketcher ConstrainVertical/es.md) | [Sketcher Copy/es](wiki/Sketcher Copy/es.md) |
-| [Sketcher Create3PointArc/es](wiki/Sketcher Create3PointArc/es.md) | [Sketcher Create3PointCircle/es](wiki/Sketcher Create3PointCircle/es.md) | [Sketcher CreateArc/es](wiki/Sketcher CreateArc/es.md) |
-| [Sketcher CreateArcOfEllipse/es](wiki/Sketcher CreateArcOfEllipse/es.md) | [Sketcher CreateArcOfHyperbola/es](wiki/Sketcher CreateArcOfHyperbola/es.md) | [Sketcher CreateArcOfParabola/es](wiki/Sketcher CreateArcOfParabola/es.md) |
-| [Sketcher CreateCircle/es](wiki/Sketcher CreateCircle/es.md) | [Sketcher CreateEllipseBy3Points/es](wiki/Sketcher CreateEllipseBy3Points/es.md) | [Sketcher CreateEllipseByCenter/es](wiki/Sketcher CreateEllipseByCenter/es.md) |
-| [Sketcher CreateFillet/es](wiki/Sketcher CreateFillet/es.md) | [Sketcher CreateHeptagon/es](wiki/Sketcher CreateHeptagon/es.md) | [Sketcher CreateHexagon/es](wiki/Sketcher CreateHexagon/es.md) |
-| [Sketcher CreateLine/es](wiki/Sketcher CreateLine/es.md) | [Sketcher CreateOctagon/es](wiki/Sketcher CreateOctagon/es.md) | [Sketcher CreatePentagon/es](wiki/Sketcher CreatePentagon/es.md) |
-| [Sketcher CreatePoint/es](wiki/Sketcher CreatePoint/es.md) | [Sketcher CreatePolyline/es](wiki/Sketcher CreatePolyline/es.md) | [Sketcher CreateRectangle/es](wiki/Sketcher CreateRectangle/es.md) |
-| [Sketcher CreateRegularPolygon/es](wiki/Sketcher CreateRegularPolygon/es.md) | [Sketcher CreateSlot/es](wiki/Sketcher CreateSlot/es.md) | [Sketcher CreateSquare/es](wiki/Sketcher CreateSquare/es.md) |
-| [Sketcher CreateTriangle/es](wiki/Sketcher CreateTriangle/es.md) | [Sketcher EditSketch/es](wiki/Sketcher EditSketch/es.md) | [Sketcher Extend/es](wiki/Sketcher Extend/es.md) |
-| [Sketcher External/es](wiki/Sketcher External/es.md) | [Sketcher helper constraint/es](wiki/Sketcher helper constraint/es.md) | [Sketcher LeaveSketch/es](wiki/Sketcher LeaveSketch/es.md) |
-| [Sketcher MapSketch/es](wiki/Sketcher MapSketch/es.md) | [Sketcher MergeSketches/es](wiki/Sketcher MergeSketches/es.md) | [Sketcher MirrorSketch/es](wiki/Sketcher MirrorSketch/es.md) |
-| [Sketcher Move/es](wiki/Sketcher Move/es.md) | [Sketcher NewSketch/es](wiki/Sketcher NewSketch/es.md) | [Sketcher Preferences/es](wiki/Sketcher Preferences/es.md) |
-| [Sketcher RectangularArray/es](wiki/Sketcher RectangularArray/es.md) | [Sketcher ReorientSketch/es](wiki/Sketcher ReorientSketch/es.md) |
+| [PartDesign Mirrored/es](wiki/PartDesign Mirrored/es.md) | [PartDesign MoveTip/es](wiki/PartDesign MoveTip/es.md) | [PartDesign MultiTransform/es](wiki/PartDesign MultiTransform/es.md) |
+| [PartDesign NewSketch/es](wiki/PartDesign NewSketch/es.md) | [PartDesign Pad/es](wiki/PartDesign Pad/es.md) | [PartDesign Plane/es](wiki/PartDesign Plane/es.md) |
+| [PartDesign Pocket/es](wiki/PartDesign Pocket/es.md) | [PartDesign Point/es](wiki/PartDesign Point/es.md) | [PartDesign PolarPattern/es](wiki/PartDesign PolarPattern/es.md) |
+| [PartDesign Revolution/es](wiki/PartDesign Revolution/es.md) | [PartDesign Scaled/es](wiki/PartDesign Scaled/es.md) | [PartDesign ShapeBinder/es](wiki/PartDesign ShapeBinder/es.md) |
+| [PartDesign Sprocket/es](wiki/PartDesign Sprocket/es.md) | [PartDesign SubtractiveBox/es](wiki/PartDesign SubtractiveBox/es.md) | [PartDesign SubtractiveCone/es](wiki/PartDesign SubtractiveCone/es.md) |
+| [PartDesign SubtractiveCylinder/es](wiki/PartDesign SubtractiveCylinder/es.md) | [PartDesign SubtractiveEllipsoid/es](wiki/PartDesign SubtractiveEllipsoid/es.md) | [PartDesign SubtractivePipe/es](wiki/PartDesign SubtractivePipe/es.md) |
+| [PartDesign SubtractivePrism/es](wiki/PartDesign SubtractivePrism/es.md) | [PartDesign SubtractiveSphere/es](wiki/PartDesign SubtractiveSphere/es.md) | [PartDesign SubtractiveTorus/es](wiki/PartDesign SubtractiveTorus/es.md) |
+| [PartDesign SubtractiveWedge/es](wiki/PartDesign SubtractiveWedge/es.md) | [PartDesign Thickness/es](wiki/PartDesign Thickness/es.md) | [PartDesign WizardShaft/es](wiki/PartDesign WizardShaft/es.md) |
+| [Path Array/es](wiki/Path Array/es.md) | [Path FAQ/es](wiki/Path FAQ/es.md) | [Path Fixture/es](wiki/Path Fixture/es.md) |
+| [Path Job/es](wiki/Path Job/es.md) | [Path Pocket 3D/es](wiki/Path Pocket 3D/es.md) | [Path Postprocessor Customization/es](wiki/Path Postprocessor Customization/es.md) |
+| [Path Workbench/es](wiki/Path Workbench/es.md) | [PCB Workbench/es](wiki/PCB Workbench/es.md) | [PDF/es](wiki/PDF/es.md) |
+| [Placement API/es](wiki/Placement API/es.md) | [Placement/es](wiki/Placement/es.md) | [Plot Axes/es](wiki/Plot Axes/es.md) |
+| [Plot Basic tutorial/es](wiki/Plot Basic tutorial/es.md) | [Plot Grid/es](wiki/Plot Grid/es.md) | [Plot Labels/es](wiki/Plot Labels/es.md) |
+| [Plot Legend/es](wiki/Plot Legend/es.md) | [Plot MultiAxes tutorial/es](wiki/Plot MultiAxes tutorial/es.md) | [Plot Positions/es](wiki/Plot Positions/es.md) |
+| [Plot Save/es](wiki/Plot Save/es.md) | [Plot Series/es](wiki/Plot Series/es.md) | [Plot Workbench/es](wiki/Plot Workbench/es.md) |
+| [Points Workbench/es](wiki/Points Workbench/es.md) | [Preferences Editor/es](wiki/Preferences Editor/es.md) | [Property editor/es](wiki/Property editor/es.md) |
+| [Python console/es](wiki/Python console/es.md) | [Qt Example/es](wiki/Qt Example/es.md) | [Raytracing New/es](wiki/Raytracing New/es.md) |
+| [Raytracing Workbench/es](wiki/Raytracing Workbench/es.md) | [Raytracing WriteCamera/es](wiki/Raytracing WriteCamera/es.md) | [Raytracing WritePart/es](wiki/Raytracing WritePart/es.md) |
+| [Raytracing WriteView/es](wiki/Raytracing WriteView/es.md) | [Report view/es](wiki/Report view/es.md) | [Reverse Engineering Workbench/es](wiki/Reverse Engineering Workbench/es.md) |
+| [Robot 6-Axis/es](wiki/Robot 6-Axis/es.md) | [Robot API example/es](wiki/Robot API example/es.md) | [Robot CreateRobot/es](wiki/Robot CreateRobot/es.md) |
+| [Robot CreateTrajectory/es](wiki/Robot CreateTrajectory/es.md) | [Robot Edge2Trac/es](wiki/Robot Edge2Trac/es.md) | [Robot Export/es](wiki/Robot Export/es.md) |
+| [Robot InsertWaypoint/es](wiki/Robot InsertWaypoint/es.md) | [Robot InsertWaypointPre/es](wiki/Robot InsertWaypointPre/es.md) | [Robot RestoreHomePos/es](wiki/Robot RestoreHomePos/es.md) |
+| [Robot SetDefaultOrientation/es](wiki/Robot SetDefaultOrientation/es.md) | [Robot SetDefaultValues/es](wiki/Robot SetDefaultValues/es.md) | [Robot SetHomePos/es](wiki/Robot SetHomePos/es.md) |
+| [Robot Simulate/es](wiki/Robot Simulate/es.md) | [Robot TrajectoryCompound/es](wiki/Robot TrajectoryCompound/es.md) | [Robot TrajectoryDressUp/es](wiki/Robot TrajectoryDressUp/es.md) |
+| [Robot tutorial/es](wiki/Robot tutorial/es.md) | [Robot Workbench/es](wiki/Robot Workbench/es.md) | [Screenshots/es](wiki/Screenshots/es.md) |
+| [Selection API/es](wiki/Selection API/es.md) | [Selection methods/es](wiki/Selection methods/es.md) | [Ship AreasCurve/es](wiki/Ship AreasCurve/es.md) |
+| [Ship CreateShip/es](wiki/Ship CreateShip/es.md) | [Ship Hydrostatics/es](wiki/Ship Hydrostatics/es.md) | [Ship LoadExample/es](wiki/Ship LoadExample/es.md) |
+| [Ship Workbench/es](wiki/Ship Workbench/es.md) | [Sketch/es](wiki/Sketch/es.md) | [Sketcher CarbonCopy/es](wiki/Sketcher CarbonCopy/es.md) |
+| [Sketcher Clone/es](wiki/Sketcher Clone/es.md) | [Sketcher CloseShape/es](wiki/Sketcher CloseShape/es.md) | [Sketcher CompCreateArc/es](wiki/Sketcher CompCreateArc/es.md) |
+| [Sketcher CompCreateBSpline/es](wiki/Sketcher CompCreateBSpline/es.md) | [Sketcher CompCreateCircle/es](wiki/Sketcher CompCreateCircle/es.md) | [Sketcher CompCreateConic/es](wiki/Sketcher CompCreateConic/es.md) |
+| [Sketcher CompCreateRegularPolygon/es](wiki/Sketcher CompCreateRegularPolygon/es.md) | [Sketcher ConnectLines/es](wiki/Sketcher ConnectLines/es.md) | [Sketcher ConstrainAngle/es](wiki/Sketcher ConstrainAngle/es.md) |
+| [Sketcher ConstrainBlock/es](wiki/Sketcher ConstrainBlock/es.md) | [Sketcher ConstrainCoincident/es](wiki/Sketcher ConstrainCoincident/es.md) | [Sketcher ConstrainDiameter/es](wiki/Sketcher ConstrainDiameter/es.md) |
+| [Sketcher ConstrainDistance/es](wiki/Sketcher ConstrainDistance/es.md) | [Sketcher ConstrainDistanceX/es](wiki/Sketcher ConstrainDistanceX/es.md) | [Sketcher ConstrainDistanceY/es](wiki/Sketcher ConstrainDistanceY/es.md) |
+| [Sketcher ConstrainEqual/es](wiki/Sketcher ConstrainEqual/es.md) | [Sketcher ConstrainHorizontal/es](wiki/Sketcher ConstrainHorizontal/es.md) | [Sketcher ConstrainInternalAlignment/es](wiki/Sketcher ConstrainInternalAlignment/es.md) |
+| [Sketcher ConstrainLock/es](wiki/Sketcher ConstrainLock/es.md) | [Sketcher ConstrainParallel/es](wiki/Sketcher ConstrainParallel/es.md) | [Sketcher ConstrainPerpendicular/es](wiki/Sketcher ConstrainPerpendicular/es.md) |
+| [Sketcher ConstrainPointOnObject/es](wiki/Sketcher ConstrainPointOnObject/es.md) | [Sketcher ConstrainRadius/es](wiki/Sketcher ConstrainRadius/es.md) | [Sketcher ConstrainSnellsLaw/es](wiki/Sketcher ConstrainSnellsLaw/es.md) |
+| [Sketcher ConstrainSymmetric/es](wiki/Sketcher ConstrainSymmetric/es.md) | [Sketcher ConstrainTangent/es](wiki/Sketcher ConstrainTangent/es.md) | [Sketcher ConstrainVertical/es](wiki/Sketcher ConstrainVertical/es.md) |
+| [Sketcher Copy/es](wiki/Sketcher Copy/es.md) | [Sketcher Create3PointArc/es](wiki/Sketcher Create3PointArc/es.md) | [Sketcher Create3PointCircle/es](wiki/Sketcher Create3PointCircle/es.md) |
+| [Sketcher CreateArc/es](wiki/Sketcher CreateArc/es.md) | [Sketcher CreateArcOfEllipse/es](wiki/Sketcher CreateArcOfEllipse/es.md) | [Sketcher CreateArcOfHyperbola/es](wiki/Sketcher CreateArcOfHyperbola/es.md) |
+| [Sketcher CreateArcOfParabola/es](wiki/Sketcher CreateArcOfParabola/es.md) | [Sketcher CreateCircle/es](wiki/Sketcher CreateCircle/es.md) | [Sketcher CreateEllipseBy3Points/es](wiki/Sketcher CreateEllipseBy3Points/es.md) |
+| [Sketcher CreateEllipseByCenter/es](wiki/Sketcher CreateEllipseByCenter/es.md) | [Sketcher CreateFillet/es](wiki/Sketcher CreateFillet/es.md) | [Sketcher CreateHeptagon/es](wiki/Sketcher CreateHeptagon/es.md) |
+| [Sketcher CreateHexagon/es](wiki/Sketcher CreateHexagon/es.md) | [Sketcher CreateLine/es](wiki/Sketcher CreateLine/es.md) | [Sketcher CreateOctagon/es](wiki/Sketcher CreateOctagon/es.md) |
+| [Sketcher CreatePentagon/es](wiki/Sketcher CreatePentagon/es.md) | [Sketcher CreatePoint/es](wiki/Sketcher CreatePoint/es.md) | [Sketcher CreatePolyline/es](wiki/Sketcher CreatePolyline/es.md) |
+| [Sketcher CreateRectangle/es](wiki/Sketcher CreateRectangle/es.md) | [Sketcher CreateRegularPolygon/es](wiki/Sketcher CreateRegularPolygon/es.md) | [Sketcher CreateSlot/es](wiki/Sketcher CreateSlot/es.md) |
+| [Sketcher CreateSquare/es](wiki/Sketcher CreateSquare/es.md) | [Sketcher CreateTriangle/es](wiki/Sketcher CreateTriangle/es.md) | [Sketcher EditSketch/es](wiki/Sketcher EditSketch/es.md) |
+| [Sketcher Extend/es](wiki/Sketcher Extend/es.md) | [Sketcher External/es](wiki/Sketcher External/es.md) | [Sketcher helper constraint/es](wiki/Sketcher helper constraint/es.md) |
+| [Sketcher LeaveSketch/es](wiki/Sketcher LeaveSketch/es.md) | [Sketcher MapSketch/es](wiki/Sketcher MapSketch/es.md) | [Sketcher MergeSketches/es](wiki/Sketcher MergeSketches/es.md) |
+| [Sketcher MirrorSketch/es](wiki/Sketcher MirrorSketch/es.md) | [Sketcher Move/es](wiki/Sketcher Move/es.md) | [Sketcher NewSketch/es](wiki/Sketcher NewSketch/es.md) |
+| [Sketcher Preferences/es](wiki/Sketcher Preferences/es.md) | [Sketcher RectangularArray/es](wiki/Sketcher RectangularArray/es.md) |
 
 
 

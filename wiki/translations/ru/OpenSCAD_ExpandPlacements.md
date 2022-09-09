@@ -17,7 +17,7 @@
 
 Expand all placements downwards the Feature-Tree.
 
-## Использование
+## Применение
 
 1.  Select object in the \[Tree\_view\|tree view\]\].
 2.  Choose **OpenSCAD** → **<img src="images/OpenSCAD_ExpandPlacements.svg" width=32px> Expand Placements** from the top menu.

@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Std OrthographicCamera
-   Name/de   *Std OrthogonaleAnsicht
+   Name/de   *Std OrthogonaleKamera
    MenuLocation   *Ansicht → Orthogonale Ansicht
    Workbenches   *Alle
    Shortcut   ***V** **O**
-   SeeAlso   *[Std PerspektivAnsicht](Std_PerspectiveCamera/de.md)
+   SeeAlso   *[Std PerspektivKamera](Std_PerspectiveCamera/de.md)
 ---
 
 # Std OrthographicCamera/de
-
-
-</div>
 
 ## Beschreibung
 

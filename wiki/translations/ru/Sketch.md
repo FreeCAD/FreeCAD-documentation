@@ -8,7 +8,7 @@
 
 Дополнительные сведения об этом типе объектов см. в разделе [Sketcher SketchObject](Sketcher_SketchObject/ru.md).
 
-## Использование
+## Применение
 
 Существует два наиболее распространенных способа создания эскиза   * непосредственно с помощью [верстака Sketcher](Sketcher_Workbench/ru.md) или через [верстак PartDesign](PartDesign_Workbench/ru.md).
 

@@ -2,66 +2,33 @@
 - GuiCommand   */fr
    Name   *Robot TrajectoryDressUp
    Name/fr   *Robot Habillage de trajectoire
+   MenuLocation   *Robot → Habillage de trajectoire
    Workbenches   *[Robot](Robot_Workbench/fr.md)
-   MenuLocation   *-
 ---
 
 # Robot TrajectoryDressUp/fr
 
+## Description
 
-</div>
+Permet de remplacer une ou plusieurs propriétés d\'une trajectoire.
 
+## Utilisation
 
-<div class="mw-translate-fuzzy">
+1.  Sélectionnez la trajectoire ou la trajectoire Edge2Trac à habiller dans la [Vue en arborescence](Tree_view/fr.md).
+2.  Cliquez sur <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width   *32px;"> ou passez dans le [Panneau des tâches](Task_panel/fr.md) et cliquez sur 
+** <img src="images/Robot_TrajectoryDressUp.svg" width=32px> Habillage de trajectoire**
 
-#### Description
-
-Vous permet de remplacer une ou plusieurs propriétés d\'une trajectoire.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Utilisation
-
-1.  Sélectionnez la trajectoire ou la trajectoire Edge2Trac à afficher dans l\'arborescence
-2.  Cliquez sur <img alt="" src=images/Robot_TrajectoryDressUp.png  style="width   *32px;"> ou passez par le panneau \"Tâches\" puis cliquez sur 
-** <img src="images/Robot_TrajectoryDressUp.png" width=32px> Trajectoire d'habillage**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Vous pouvez alors changer les valeurs pour
+Ce qui permet de modifier les valeurs de    *
 
 -   la vitesse
 -   l\'accélération
 -   le mode continu
--   la position et orientation
+-   la position et l\'orientation
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Remarques
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Remarques
 
 
 
-
-
-</div>
 
 
 {{Robot_Tools_navi

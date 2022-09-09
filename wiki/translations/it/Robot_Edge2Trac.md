@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Inserisce un nuovo oggetto che scompone i bordi in una traiettoria.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +30,8 @@ Inserisce un nuovo oggetto che scompone i bordi in una traiettoria.
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

@@ -23,13 +23,12 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [Manual:Creating renderings/ro](wiki/Manual_Creating renderings/ro.md) | [Manual:Generating 2D drawings/ro](wiki/Manual_Generating 2D drawings/ro.md) | [Manual:Import and export to other filetypes/ro](wiki/Manual_Import and export to other filetypes/ro.md) |
 | [Manual:Installing/ro](wiki/Manual_Installing/ro.md) | [Manual:Modeling for product design/ro](wiki/Manual_Modeling for product design/ro.md) | [Manual:Parametric objects/ro](wiki/Manual_Parametric objects/ro.md) |
 | [Manual:Preparing models for 3D printing/ro](wiki/Manual_Preparing models for 3D printing/ro.md) | [Manual:Traditional 2D drafting/ro](wiki/Manual_Traditional 2D drafting/ro.md) | [Manual:Traditional modeling, the CSG way/ro](wiki/Manual_Traditional modeling, the CSG way/ro.md) |
-| [Manual:Using spreadsheets/ro](wiki/Manual_Using spreadsheets/ro.md) | [Part Loft Technical Details/ro](wiki/Part Loft Technical Details/ro.md) | [PartDesign Bearingholder Tutorial I/ro](wiki/PartDesign Bearingholder Tutorial I/ro.md) |
-| [PartDesign Bearingholder Tutorial II/ro](wiki/PartDesign Bearingholder Tutorial II/ro.md) | [PartDesign tutorial/ro](wiki/PartDesign tutorial/ro.md) | [Path Walkthrough for the Impatient/ro](wiki/Path Walkthrough for the Impatient/ro.md) |
-| [Raytracing tutorial/ro](wiki/Raytracing tutorial/ro.md) | [Robot 6-Axis/ro](wiki/Robot 6-Axis/ro.md) | [Robot tutorial/ro](wiki/Robot tutorial/ro.md) |
-| [Scripted Parts: Ball Bearing - Part 1/ro](wiki/Scripted Parts_ Ball Bearing - Part 1/ro.md) | [Sketcher Micro Tutorial - Constraint Practices/ro](wiki/Sketcher Micro Tutorial - Constraint Practices/ro.md) | [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) |
-| [Toothbrush Head Stand/ro](wiki/Toothbrush Head Stand/ro.md) | [Template:TutorialInfo/ro](wiki/Template_TutorialInfo/ro.md) | [Tutorials/ro](wiki/Tutorials/ro.md) |
-| [Video tutorials/ro](wiki/Video tutorials/ro.md) | [VRML Preparation for Robot Simulation/ro](wiki/VRML Preparation for Robot Simulation/ro.md) | [Whiffle Ball tutorial/ro](wiki/Whiffle Ball tutorial/ro.md) |
-| [Wikihouse porting tutorial/ro](wiki/Wikihouse porting tutorial/ro.md) |
+| [Manual:Using spreadsheets/ro](wiki/Manual_Using spreadsheets/ro.md) | [PartDesign Bearingholder Tutorial I/ro](wiki/PartDesign Bearingholder Tutorial I/ro.md) | [PartDesign Bearingholder Tutorial II/ro](wiki/PartDesign Bearingholder Tutorial II/ro.md) |
+| [PartDesign tutorial/ro](wiki/PartDesign tutorial/ro.md) | [Path Walkthrough for the Impatient/ro](wiki/Path Walkthrough for the Impatient/ro.md) | [Raytracing tutorial/ro](wiki/Raytracing tutorial/ro.md) |
+| [Robot 6-Axis/ro](wiki/Robot 6-Axis/ro.md) | [Robot tutorial/ro](wiki/Robot tutorial/ro.md) | [Scripted Parts: Ball Bearing - Part 1/ro](wiki/Scripted Parts_ Ball Bearing - Part 1/ro.md) |
+| [Sketcher Micro Tutorial - Constraint Practices/ro](wiki/Sketcher Micro Tutorial - Constraint Practices/ro.md) | [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) | [Toothbrush Head Stand/ro](wiki/Toothbrush Head Stand/ro.md) |
+| [Tutorials/ro](wiki/Tutorials/ro.md) | [Video tutorials/ro](wiki/Video tutorials/ro.md) | [VRML Preparation for Robot Simulation/ro](wiki/VRML Preparation for Robot Simulation/ro.md) |
+| [Whiffle Ball tutorial/ro](wiki/Whiffle Ball tutorial/ro.md) | [Wikihouse porting tutorial/ro](wiki/Wikihouse porting tutorial/ro.md) |
 
 
 

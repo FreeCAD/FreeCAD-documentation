@@ -13,7 +13,7 @@
 
 </div>
 
-## Description
+## Описание
 
 **Constrain distance** constrains the length of a line, the perpendicular distance between a point and a line or the distance between two points to have a specified value.
 
@@ -36,12 +36,12 @@ If applicable please consider using the **[<img src=images/Sketcher_ConstrainDis
 
 ## Программирование
 
-Distance from origin   *
+Расстояние от начала координат   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Дистанция между двумя вершинами   *
+Расстояние между двумя вершинами   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```

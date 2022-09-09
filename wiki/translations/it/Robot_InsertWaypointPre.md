@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Inserisce in una traiettoria un punto intermedio preso da oggetti pre-selezionat
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -27,6 +31,8 @@ Premere ** W** per inserire il punto intermedio nella traiettoria selezionata.
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

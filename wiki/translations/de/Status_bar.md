@@ -7,13 +7,7 @@ Wenn sich der Mauszeiger über einer Schaltfläche oder einem Menü befindet, we
 
 ![](images/FreeCAD_Status_bar.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Die Statusleiste zeigt die Zoomstufe in der rechten Ecke neben dem Mausnavigationsstil an. Die Zoomstufe gibt die Grösse der aktuellen [3D-Ansicht](3D_view.md) in geeigneten Einheiten für den aktuellen Massstab an, z.B. Millimeter (mm) oder Meter (m).
-
-
-</div>
+Die Statusleiste zeigt den Modus der [Mausnavigation](Mouse_navigation/de.md) und die Zoomstufe auf der rechten Seite an. Die Zoomstufe gibt die Grösse der aktuellen [3D-Ansicht](3D_view/de.md) in geeigneten Einheiten für den aktuellen Maßstab an, z.B. Millimeter (mm) oder Meter (m).
 
 Die Statusleiste zeigt auch das zuletzt vorgewählte Objekt (jedes Objekt unter dem Zeiger ist vorgewählt) oder Element eines Objekts (Scheitelpunkt, Kante, Fläche) und die Koordinaten des Mauszeigers. Damit sind sofort die Koordinaten bestimmter Scheitelpunkte in Ihren Formen zu kennen. Die 3D-Koordinaten werden automatisch aktualisiert, solange der Mauszeiger über einem geometrischen Element schwebt. Die Aktualisierung stoppt, wenn der Mauszeiger über einer leeren Stelle in der [3D-Ansicht](3D_view.md) ruht.
 

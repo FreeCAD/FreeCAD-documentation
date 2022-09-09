@@ -17,7 +17,7 @@
 
 The **Mesh Scale** command scales mesh objects.
 
-## Использование
+## Применение
 
 1.  Select one or more mesh objects.
 2.  There are several ways to invoke the command   *

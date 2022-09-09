@@ -34,9 +34,17 @@ Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md)-Formen sein. Beispiele  
 
 Verbunde werden unterstützt; es wird jedoch davon ausgegangen, dass sich in einen Verbund gepackte Formen nicht berühren oder kreuzen. Wenn sie es tatsächlich tun, wird die Verschmelzung wahrscheinlich fehlschlagen oder ein falsches Ergebnis liefern.
 
+## Options
+
+
+<div class="mw-translate-fuzzy">
+
 ## Optionen
 
 Elemente können der Verschmelzung hinzugefügt und entfernt werden, indem sie mit der Maus in der Baumansicht in das Verschmelzungsformelement hinein oder aus ihm heraus gezogen werden. Eine manuelle Neuberechnung (drücke **F5** Taste oder klicke auf das <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Aktualisieren/Neuberechnen](Std_Refresh/de.md) Symbol) ist erforderlich, um die Ergebnisse zu sehen.
+
+
+</div>
 
 Nachdem dieser Vorgang abgeschlossen ist, kann es notwendig sein, die Form mit <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [FormVerfeinern](Part_RefineShape/de.md) zu säubern.
 

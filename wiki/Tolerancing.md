@@ -5,12 +5,13 @@
 
 There\'s also a distinction between the terms \"limits and fits\" and \"geometric tolerances and surface conditions\". 
 
+
 ## Standards
 
 There are 2 ANSI/ISO standards   *
 
--   ISO 1101 / ASME Y14.5 Stating and interpreting Geometric Dimensions and Tolerances (Definitions and symbols) [1](http   *//www.sharifcadcam.ir/uploaded/2e22f9ef-dfc5-47bc-a126-cc51e9686c4f.pdf)
--   ISO 16792 / ASME Y14.41 Model-based definitions (CAD data) 3D model presentation and geometric dimensioning and tolerancing [2](http   *//gost-snip.su/download/asme_y14_412003_digital_product_definition_data_practices)
+-   ISO 1101 / ASME Y14.5 Stating and interpreting Geometric Dimensions and Tolerances (Definitions and symbols)
+-   ISO 16792 / ASME Y14.41 Model-based definitions (CAD data) 3D model presentation and geometric dimensioning and tolerancing
 
 ISO 16792 is a part of \"Geometrical Product Specification\" (GPS), which defines dimensional and geometrical tolerancing, surface properties and the related verification principles, measuring equipment and calibration requirements, including the uncertainty of dimensional and geometrical measurement.
 
@@ -23,7 +24,7 @@ There\'s also ISO 10303 (informally \"STEP\"), which defines the file format for
 There are two approaches to specifying Product and Manufacturing Information (PMI).
 
 -   The legacy approach (Traditional) of producing 2D drawings with GD&T symbols. In some industries, this approach is also referred to as Technical Product Documentation (TPD). How this is achieved with FreeCAD is described in [TechDraw Geometric dimensioning and tolerancing](TechDraw_Geometric_dimensioning_and_tolerancing.md).
--   The modern 3D approach Model-Based Definition (MBD) which embeds GD&T data into the model and produces drawings with GD&T symbols
+-   The modern 3D approach Model-Based Definition (MBD) which embeds GD&T data into the model and produces drawings with GD&T symbols.
 
   Traditional                                           MBD
    

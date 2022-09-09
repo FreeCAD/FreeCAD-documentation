@@ -11,7 +11,7 @@
 | [Arch Rebar Helical/de](wiki/Arch Rebar Helical/de.md) | [Arch Rebar LShape/de](wiki/Arch Rebar LShape/de.md) | [Arch Rebar Stirrup/de](wiki/Arch Rebar Stirrup/de.md) |
 | [Arch Rebar Straight/de](wiki/Arch Rebar Straight/de.md) | [Arch Rebar UShape/de](wiki/Arch Rebar UShape/de.md) | [Arch Rebar/de](wiki/Arch Rebar/de.md) |
 | [Custom Spacing/de](wiki/Custom Spacing/de.md) | [Reinforcement Addon/de](wiki/Reinforcement Addon/de.md) | [Reinforcement API/de](wiki/Reinforcement API/de.md) |
-| [Reinforcement Bar Bending Schedule/de](wiki/Reinforcement Bar Bending Schedule/de.md) |
+| [Reinforcement Bar Bending Schedule/de](wiki/Reinforcement Bar Bending Schedule/de.md) | [Reinforcement Workbench/de](wiki/Reinforcement Workbench/de.md) |
 
 
 

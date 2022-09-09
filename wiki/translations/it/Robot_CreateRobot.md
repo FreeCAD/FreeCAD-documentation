@@ -5,9 +5,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Inserisce un nuovo Robot (KUKA IR500) nella scena.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -29,6 +37,8 @@ Cliccare su <img alt="" src=images/Robot_CreateRobot.png  style="width   *32px;"
     -   Switch to the \"Tasks\"-Tab in the [tree view](Tree_view.md)).
 3.  Select one of the four predefined robots.
 
+## Limitations
+
 
 <div class="mw-translate-fuzzy">
 
@@ -41,6 +51,8 @@ Il robot deve essere definito tramite codice e file vrml, per maggiori informazi
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

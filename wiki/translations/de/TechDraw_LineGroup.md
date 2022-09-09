@@ -3,62 +3,46 @@
 
 ## Übersicht
 
-LinienGruppen werden verwendet, um das Aussehen verschiedener Arten von Linien zu steuern.
-
-### Usage
-
-
-<div class="mw-translate-fuzzy">
+Liniengruppen werden verwendet, um die Darstellung verschiedener Linienarten zu steuern.
 
 ### Anwendung
 
-1.  Gehe auf den Einstellungen Reiter *[Anmerkung](TechDraw_Preferences/de#Anmerkung.md)*.
-2.  Wähle im Feld **Linienbreitengruppe** eine LinienGruppe aus. Dies sind die Gruppen, die in der LinienGruppen Definition csv Datei definiert sind.
+1.  Zum Reiter *[Anmerkung](TechDraw_Preferences/de#Anmerkung.md)* der Einstellungen wechseln.
+2.  Im Feld **Liniengruppe** eine Liniengruppe auswählen. Dies sind die Gruppen, die in der CSV-Datei LineGroup definiert sind.
 
+Zum ändern der Liniengruppendatei
 
-</div>
+1.  Zum Reiter *[Allgemein](TechDraw_Preferences/de#Allgemein.md)* der Einstellungen wechseln.
+2.  Im Feld **Liniengruppendatei** eine Liniengruppendatei auswählen.
 
-Zum ändern der LinienGruppen-Definitionsdatei
+### Liniengruppen anpassen 
 
-1.  Gehe auf den Einstellungsreiter *[Allgemein](TechDraw_Preferences/de#Allgemein.md)*.
-2.  Wähle im Feld **Linien Gruppen Datei** eine LinienGrupppen Definitionsdatei aus.
+Wenn man Schreibberechtigung hat, kann man `LineGroup.csv` bearbeiten, um eigene Liniengruppen hinzuzufügen.
 
-### Customizing LineGroups 
-
-
-<div class="mw-translate-fuzzy">
-
-### Anpassen von LinienGruppen 
-
-Wenn du Schreibberechtigung hast, kannst du `LineGroup.csv` bearbeiten, um deine eigenen LinienGruppen hinzuzufügen.
-
-
-</div>
-
-Diese Datei ist normalerweise in   *
+Diese Datei befindet sich normalerweise in   *
 
 
 ```python
 $INSTALL_DIR/Mod/TechDraw/LineGroup/LineGroup.csv
 ```
 
-wobei `$INSTALL_DIR` das Verzeichnis ist, in dem FreeCAD installiert wurde, z.B.
+Dabei ist `$INSTALL_DIR` das Verzeichnis, in dem FreeCAD installiert wurde, z.B.
 
 
 ```python
 /usr/share/freecad/Mod/TechDraw/LineGroup/LineGroup.csv
 ```
 
-Du kannst deine bevorzugten Standardeinstellungen in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) angeben.
+Die eigenen bevorzugten Standardeinstellungen können in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) angeben werden.
 
-## LinienGruppe Dateipfad 
+## Pfad der LineGroup-Datei 
 
 -   **Windows**   * `C   *Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
 -   **Mac**   * `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
 -   **Linux**   * {`/usr/share/freecad/Mod/TechDraw/LineGroup/`}
     -   ***freecad-daily PPA***   * `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
 
-Hinweis   * Eine neue Einstellung wurde hinzugefügt, die es dir erlaubt, deine eigene persönliche LinienGruppe Datei zu verwenden.
+Hinweis   * Eine neue Einstellung wurde hinzugefügt, die es erlaubt, eine eigene persönliche Liniengruppendatei zu verwenden.
 
 
 ```python
@@ -81,7 +65,7 @@ Hinweis   * Eine neue Einstellung wurde hinzugefügt, die es dir erlaubt, deine 
 
 ## Hinweis
 
--   Die Linienbreite in TechDraw ist immer in mm angegeben, auch bei Verwendung anderer Einheitensysteme.
+-   Die Linienbreite in TechDraw wird immer in mm angegeben, auch bei Verwendung anderer Einheitensysteme.
 
 
 

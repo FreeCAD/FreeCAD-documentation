@@ -1,40 +1,41 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std HideSelection
-   MenuLocation   *View → Visibility → Hide selection
-   Workbenches   *All
-   SeeAlso   *[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
+   Name/pl   *Std   * Ukryj zaznaczone
+   MenuLocation   *Widok → Widoczność → Ukryj zaznaczone
+   Workbenches   *wszystkie
+   SeeAlso   *[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Przełącz widoczność wszystkich](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std HideSelection/pl
 
-## Description
+## Opis
 
-The **Std HideSelection** command hides selected objects in [3D views](3D_view.md).
+Polecenie **Ukryj zaznaczone** ukrywa widoczność wybranych obiektów w oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command   *
-    -   Select the **View → Visibility → <img src="images/Std_HideSelection.svg" width=16px> Hide selection** option from the menu.
-    -   Select the **<img src="images/Std_HideSelection.svg" width=16px> Hide selection** option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
+1.  Wybierz jeden lub więcej obiektów.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Wybierz z menu opcję **Widok → Widoczność → <img src="images/Std_HideSelection.svg" width=16px> Ukryj zaznaczone**.
+    -   Wybierz opcję z menu kontekstowego **<img src="images/Std_HideSelection.svg" width=16px> Ukryj zaznaczone** [Widoku drzewa](Tree_view/pl.md). Opcja ta nie jest dostępna w środowisku pracy [Projekt Części](PartDesign_Workbench/pl.md).
 
-## Notes
+## Uwagi
 
--   Invisible objects are displayed with a greyed out label and a greyed out icon in the [Tree view](Tree_view.md).
--   Objects nested in a [Std Part](Std_Part.md), or a [Std Link](Std_LinkMake.md) to a [Std Group](Std_Group.md), or a LinkGroup, and [features](PartDesign_Feature.md) of a [PartDesign Body](PartDesign_Body.md) will only be visible in [3D views](3D_view.md) if their parent is visible as well. This means that a feature in a PartDesign Body that is nested in a Std Part will only be visible in 3D views if the feature itself, the PartDesign Body, and the Std Part are all visible. And if the Std Part is in turn nested in another Std Part, then that last object must also be visible.
--   If the visibility of a [Std Group](Std_Group.md) (or an object derived from it such as an [Arch BuildingPart](Arch_BuildingPart.md)) is changed, the visibility of its nested objects will change accordingly. But their visibility can be changed independently as well.
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Niewidoczne obiekty są wyświetlane z wyszarzoną etykietą i wyszarzoną ikoną w oknie [Widoku drzewa](Tree_view/pl.md).
+-   Obiekty zagnieżdżone w [Części](Std_Part/pl.md), lub [obiekcie połączonym](Std_LinkMake/pl.md) do [Grupy](Std_Group/pl.md), lub Grupy linków, oraz [cech](PartDesign_Feature/pl.md) w [Zawartości Projektu Części](PartDesign_Body/pl.md) będą widoczne w oknie [Widoku 3D](3D_view/pl.md) tylko wtedy, gdy ich obiekt nadrzędny jest również widoczny. Oznacza to, że element w Zawartości Projektu Części, który jest zagnieżdżony w obiekcie Część będzie widoczny w oknie widoku 3D tylko wtedy, gdy sam element, Zawartości Projektu Części i Część są widoczne. A jeśli obiekt Część jest z kolei zagnieżdżony w innej obiekcie Część, to ten ostatni obiekt musi być również widoczny.
+-   Jeśli widoczność [Grupy](Std_Group/pl.md) *(lub obiektu pochodnego, takiego jak [Część budowli](Arch_BuildingPart/pl.md) środowiska Architektura)* zostanie zmieniona, widoczność jej zagnieżdżonych obiektów zmieni się odpowiednio. Ale ich widoczność może być również zmieniana indywidualnie.
+-   Działanie tego polecenia nie może być cofnięte za pomocą przycisku [Cofnij](Std_Undo/pl.md).
+-   Widoczność obiektu można również zmienić poprzez jego powiązaną właściwość **Widoczność** w [Edytorze właściwości](Property_editor/pl.md) lub oknie [Widok połączonego](Combo_view/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
+Aby zapoznać się z przykładami skryptów zobacz stronę [Przełącz widoczność](Std_ToggleVisibility/pl.md).
 
 
 

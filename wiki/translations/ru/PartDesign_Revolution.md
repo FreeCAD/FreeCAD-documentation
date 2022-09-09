@@ -11,7 +11,7 @@
 
 </div>
 
-## Description
+## Описание
 
 The **Revolution** tool creates a solid by revolving a selected sketch or 2D object about a given axis.
 
@@ -25,7 +25,7 @@ The **Revolution** tool creates a solid by revolving a selected sketch or 2D obj
 3.  Set the Revolution parameters (see next section).
 4.  Press **OK**.
 
-## Options
+## Опции
 
 When creating a revolution, the **Revolution parameters** dialogue offers several parameters specifying how the sketch should be revolved.
 

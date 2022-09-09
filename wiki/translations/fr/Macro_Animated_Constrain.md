@@ -2,17 +2,17 @@
 {{Macro/fr
 |Name=Animated Constrain
 |Icon=Macro_Animated_Constrain.png
-|Description=Animate Constrain within sketch in FreeCAD
+|Description=Animer une contrainte dans une esquisse dans FreeCAD
 |Author=psicofil
 |Version=1.0
 |Date=2015-05-20
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/a/af/Macro_Animated_Constrain.png ToolBar Icon]<br/>Not file for testing [https   *//www.youtube.com/watch?v=kmqDcomLnk0 See the animation on YouTube.]
+|Download=[https   *//www.freecadweb.org/wiki/images/a/af/Macro_Animated_Constrain.png Icône de la barre d'outils]<br/>Pas de fichier pour les essais [https   *//www.youtube.com/watch?v=kmqDcomLnk0 Voir l'animation sur YouTube.]
 }}
 
 ## Description
 
-Simple animation des contraintes dans le Sketcher. Basée sur les travaux de \@microelly. Anime et révise les contraintes et affiche les effets.
+Macro simple pour animer les contraintes d\'angles dans Sketcher. Basée sur le travail de \@microelly. Animez une contrainte et examinez les effets obtenus.
 
 
 {{Codeextralink|https   *//raw.githubusercontent.com/psicofil/Macros_FreeCAD/master/Macros/AnimatedConstrain.FCMacro}}
@@ -21,7 +21,7 @@ Simple animation des contraintes dans le Sketcher. Basée sur les travaux de \@m
 
 La macro peut être téléchargée dans le dépôt github suivant   * [Macro_Animated_Constrain.FCMacro](https   *//github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
 
-ToolBar Icon ![](images/Macro_Animated_Constrain.png )
+Icône de la barre d\'outils ![](images/Macro_Animated_Constrain.png )
 
 **AnimatedConstrain.FCMacro**
 

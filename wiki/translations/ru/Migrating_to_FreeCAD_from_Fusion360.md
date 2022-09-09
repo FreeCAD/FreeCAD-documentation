@@ -52,7 +52,7 @@ Reference the [Glossary](Glossary.md) page in general but here is a short list o
 
 Is this wiki page missing something. Please make a request for [wiki permissions](https   *//forum.freecadweb.org/viewtopic.php?f=21&t=6830) on the forum to edit this page.
 
-## Related
+## Сопутствующая информация 
 
 -   [Migrating to FreeCAD from OnShape](Migrating_to_FreeCAD_from_OnShape.md)
 

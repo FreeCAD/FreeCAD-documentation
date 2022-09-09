@@ -1,4 +1,7 @@
 # Placement/zh-cn
+## Overview
+
+
 <div class="mw-translate-fuzzy">
 
 ## 概述
@@ -11,6 +14,10 @@
 
 
 </div>
+
+### Accessing the Placement Attribute 
+
+An object\'s Placement attributes can be accessed and modified in 3 ways   *
 
 
 <div class="mw-translate-fuzzy">
@@ -30,6 +37,8 @@
 
 ![Placement task panel](images/PlacementDialogv10.png ) 
 
+## Forms of Placement 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -42,9 +51,17 @@
 
 </div>
 
+### Angle, Axis and Position 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Angle，Axis与Position属性
 
 **Placement = \[Angle, Axis, Position\]**
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -56,12 +73,25 @@
 
 </div>
 
+**Angle = r** is a scalar indicating the amount of rotation of the object about **Axis**. Entered as degrees, but stored internally as radians.
+
+
+<div class="mw-translate-fuzzy">
+
 **Axis = (ax,ay,az)**是一个向量，描述的是旋转轴（参见关于旋转轴的备注）。以下为示例：
 
    (1,0,0)       ==> 绕**X**轴旋转
    (0,1,0)       ==> 绕**Y**轴旋转
    (0,0,1)       ==> 绕**Z**轴旋转
    (0.71,0.71,0) ==> 绕直线**y=x**旋转
+
+
+</div>
+
+   (1,0,0)       ==> about **X** axis
+   (0,1,0)       ==> about **Y** axis
+   (0,0,1)       ==> about **Z** axis
+   (0.71,0.71,0) ==> about the line **y=x**
 
 
 <div class="mw-translate-fuzzy">
@@ -73,6 +103,10 @@
 
 </div>
 
+**Position = (x,y,z)** is a Vector describing the point from which the object\'s geometry will be calculated (in effect, a \"local origin\" for the object). Note that in scripts, Placement.Base is used to denote the Position component of a placement. The property editor calls this value **Position** and the Placement task panel calls it **Translation**.
+
+### Position and Yaw, Pitch and Roll 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -82,6 +116,8 @@
 
 
 </div>
+
+**Placement = \[Position, Yaw-Pitch-Roll\]**
 
 
 <div class="mw-translate-fuzzy">
@@ -93,9 +129,20 @@
 
 **Position = (x,y,z)**为一个向量，描述目标对象几何体的位置（事实上，对于对象而言，此为其"局部原点（local origin）"）。
 
+
+<div class="mw-translate-fuzzy">
+
 **Yaw-Pitch-Roll = (y,p,r)**是一个指定目标对象姿态的三元组。y、p、r三值分别用于指定对象绕z、y、x三轴旋转的角度（参考备注）。  
 ```python
 >>> App.getDocument("Sans_nom").Cylinder.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(10,20,30), App.Vector(0,0,0))
+```
+
+
+</div>
+
+
+```python
+>>> App.ActiveDocument.Cylinder.Placement = App.Placement(App.Vector(0,0,0), App.Rotation(10,20,30), App.Vector(0,0,0))
 ```
 
 App.Rotation(10,20,30) = 欧拉角
@@ -115,9 +162,17 @@ App.Rotation(10,20,30) = 欧拉角
 ![](images/Tache_Placement_Roulis_fr_Mini.gif )**Roll**为绕**X轴**进行旋转，可以说是机翼上下翻转。
 （Roll角为**Thêta θ**）。 
 
+### Matrix
+
+
+<div class="mw-translate-fuzzy">
+
 ### 矩阵
 
 **Placement = Matrix**
+
+
+</div>
 
 第三种指定**Placement**的方式是利用一个4x4仿射变换矩阵进行描述([仿射变换](http   *//en.wikipedia.org/wiki/Affine_transformation))。
 
@@ -126,10 +181,15 @@ App.Rotation(10,20,30) = 欧拉角
   ((r11,r12,r13,t1),
    (r21,r22,r23,t2),
    (r31,r32,r33,t3),
-   (0,0,0,1)) , with rij specifying rotation and ti specifying translation. 
+   (0,0,0,1)) , with rij specifying rotation and ti specifying translation.
 
 
 
+
+## The Placement Dialog 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Placement对话框
 
@@ -137,18 +197,29 @@ App.Rotation(10,20,30) = 欧拉角
 
 **Translation**部分用于调整对象的空间位置。 **Center**部分用于将旋转轴调整为并非穿过目标对象参考点（reference point）的旋转轴。 **Rotation**部分用于调整旋转角以及指定旋转角的具体方式。
 
+
+</div>
+
+-   The **Translation** section adjusts the object\'s location in space.
+-   The **Center** section adjusts the rotational axis to one that does not pass through the object\'s reference point.
+-   The **Rotation** section adjusts the rotational angle(s) and the method of specifying those angles.
+
 But while the elements within each section generally apply to the purpose of that section there are also some elements in one section that can affect elements in another section. For example, clicking the Selected points button in the **Center** section with 2 points selected in the 3d view results in not only populating the **Center** coordinate spinboxes with the coordinates of the midpoint between those 2 selected points, but it also creates a custom axis along the line defined by those 2 selected points in the **Rotation** section. In another example, placing a value in the Axial spinbox and clicking the Apply axial button in the **Translation** section translates (moves) the object along the axis defined in the **Rotation** section.
 
 The **Apply incremental changes to object placement** tick box is useful when translations/rotations are to be made relative the object\'s current position/attitude, rather than to the original position/attitude. Ticking this box resets the dialogue input fields to zero, but does not change the object\'s orientation or location. Subsequent entries do change the orientation/location, but are applied from the object\'s current position. Enabling this checkbox is also useful when using the Selected points button as it can sometimes prevent undesired placement changes.
 
-PS   * since version 0.17 introduce new object Part, this object have his placement, and the Placement object created in the Part object is incremented with the Part Placement. <small>(v0.17)</small>  For obtain the Part Placement use this code 
+PS   * since version 0.17 introduce new object Part, this object have his placement, and the Placement object created in the Part object is incremented with the Part Placement. <small>(v0.17)</small> 
+
+To obtain the Part Placement use this code   *
+
+
 ```python
 import Draft, Part
 sel = FreeCADGui.Selection.getSelection()
-print sel[0].Placement
-print sel[0].getGlobalPlacement()   # return the GlobalPlacement
-print sel[0].getParentGeoFeatureGroup() # return the GeoFeatureGroup, ex   *  Body or a Part.
-print  "____________________"
+print(sel[0].Placement)
+print(sel[0].getGlobalPlacement())   # return the GlobalPlacement
+print(sel[0].getParentGeoFeatureGroup()) # return the GeoFeatureGroup, ex   *  Body or a Part.
+print("____________________")
 ```
 
 **Selected points** button is used to populate the coordinates in the **Center** coordinates spinboxes and (when 2 or 3 points are selected) additionally to create a custom (user-defined) axis of rotation in the **Rotation** section. A point can be a vertex, but it can also be any point along an edge or on a face. When you select an edge or face the entire edge or face is selected, but FreeCAD also remembers which point on that face or edge the mouse pointer was hovering over when that edge or face was selected. It is this point\'s coordinates that get used in the Placement dialog when the **Selected points** button is clicked. You might be thinking this isn\'t a very precise way of selecting a point, and you are correct, but in many cases it is sufficient that the point selected is guaranteed to be on that edge or face. In cases where you need to precisely designate a point to be used you should select a vertex. When there is no vertex in the desired location consider creating one, perhaps in a temporary sketch attached to that face or edge, perhaps using a Draft workbench object, such as a line or point, etc.
@@ -185,13 +256,13 @@ Rotation using Euler angles   *
 
 Placement is not the only way to position a shape in space. Note the Python console in this image   *
 
-![2 Shapes with Same Placement](images/2Placements800.png )
+![2 Shapes with Same Placement](images/2Placements800.png ) 
 
 Both cubes have the same value for Placement, but are in different locations! This is because the 2 shapes are defined by different vertices (curves in more complex shapes). For the 2 shapes in the above illustration   *
 
  >>> ev = App.ActiveDocument.Extrude.Shape.Vertexes
- >>> for v in ev   * print v.X,",",v.Y,",",v.Z
- ... 
+ >>> for v in ev   * print(v.X,",",v.Y,",",v.Z)
+ ...
  30.0,30.0,0.0
  30.0,30.0,10.0
  40.0,30.0,0.0
@@ -201,8 +272,8 @@ Both cubes have the same value for Placement, but are in different locations! Th
  30.0,40.0,0.0
  30.0,40.0,10.0
  >>> e1v = App.ActiveDocument.Extrude001.Shape.Vertexes
- >>> for v in e1v   * print v.X,",",v.Y,",",v.Z
- ... 
+ >>> for v in e1v   * print(v.X,",",v.Y,",",v.Z)
+ ...
  0.0,10.0,0.0
  0.0,10.0,10.0
  10.0,10.0,0.0
@@ -211,8 +282,7 @@ Both cubes have the same value for Placement, but are in different locations! Th
  10.0,0.0,10.0
  0.0,0.0,0.0
  0.0,0.0,10.0
- >>> 
- 
+ >>>
 
 The Vertices (or Vectors) that define the shape use the Placement.Base attribute as their origin. So if you want to move a shape 10 units along the **X** axis, you could add 10 to the **X** coordinates of all the Vertices or you could set Placement.Base to (10,0,0).
 
@@ -220,26 +290,38 @@ The Vertices (or Vectors) that define the shape use the Placement.Base attribute
 
 By default, the axis of rotation isn\'t really the x/y/z axis. It is a line parallel to the selected axis, but passing through the reference point (Placement.Base) of the object to be rotated. This can be changed by using the Center fields in the Placement dialog or, in scripts, by using the Center parameter of the FreeCAD.Placement constructor.
 
-For example, suppose we have a box (below) positioned at (20,20,10). ![Before Rotation](images/LocalZBefore2.png ) We wish to spin the box around it\'s own vertical centre line (ie local Z), while keeping it the same position. We can easily achieve this by specifying a Center value equal to the coordinates of the box\'s central point (25,25,15). ![After Rotation](images/LocalZAfter2.png )
+For example, suppose we have a box (below) positioned at (20,20,10).
 
-In a script, we would do   * 
+![Before Rotation](images/LocalZBefore2.png ) 
+
+We wish to spin the box around it\'s own vertical centre line (ie local Z), while keeping it the same position. We can easily achieve this by specifying a Center value equal to the coordinates of the box\'s central point (25,25,15).
+
+![After Rotation](images/LocalZAfter2.png ) 
+
+In a script, we would do   *
+
+
 ```python
 import FreeCAD
 obj = App.ActiveDocument.Box                       # our box
 rot = FreeCAD.Rotation(FreeCAD.Vector(0,0,1),45)   # 45° about Z
 #rot = FreeCAD.Rotation(FreeCAD.Vector(1,0,1),45)   # 45° about X and 45° about Z
-#rot = FreeCAD.Rotation(10,20,30)                   # here example with Euler angle Yaw = 10 degrees (Z), Pitch = 20 degrees (Y), Roll = 30 degrees (X) 
-centre = FreeCAD.Vector(25,25,15)                  # central point of box 
+#rot = FreeCAD.Rotation(10,20,30)                   # here example with Euler angle Yaw = 10 degrees (Z), Pitch = 20 degrees (Y), Roll = 30 degrees (X)
+centre = FreeCAD.Vector(25,25,15)                  # central point of box
 pos = obj.Placement.Base                           # position point of box
 newplace = FreeCAD.Placement(pos,rot,centre)       # make a new Placement object
 obj.Placement = newplace                           # spin the box
-``` Same script with the file example [RotateCoG2.fcstd](http   *//forum.freecadweb.org/download/file.php?id=1651) (discussion on the [forum](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052)) 
+```
+
+Same script with the file example [RotateCoG2.fcstd](http   *//forum.freecadweb.org/download/file.php?id=1651) (discussion on the [forum](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052))
+
+
 ```python
 import FreeCAD
 obj = App.ActiveDocument.Extrude                    # our box
 rot = FreeCAD.Rotation(FreeCAD.Vector(0,0,1),45)    # 45 about Z
 #rot = FreeCAD.Rotation(FreeCAD.Vector(1,0,1),45)    # 45° about X and 45° about Z
-#rot = FreeCAD.Rotation(10,20,30)                    # here example with Euler angle Yaw = 10 degrees (Z), Pitch = 20 degrees (Y), Roll = 30 degrees (X) 
+#rot = FreeCAD.Rotation(10,20,30)                    # here example with Euler angle Yaw = 10 degrees (Z), Pitch = 20 degrees (Y), Roll = 30 degrees (X)
 centre = FreeCAD.Vector(25,25,0)                    # "centre" of rotation (where local Z cuts XY)
 pos = obj.Placement.Base                            # original placement of obj
 newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement object
@@ -248,29 +330,41 @@ obj.Placement = newplace                            # spin the box
 
 ## Using Placement in expressions 
 
-In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\"   * 
+In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\"   *
+
+
 ```python
 <<Cube>>.Placement.Base.x
 ```
 
-You can access the angle of the rotation by 
+You can access the angle of the rotation by
+
+
 ```python
 <<Cube>>.Placement.Rotation.Angle
 ```
 
-The axis of rotation can be accessed with 
+The axis of rotation can be accessed with
+
+
 ```python
 <<Cube>>.Placement.Rotation.Axis.x
 <<Cube>>.Placement.Rotation.Axis.y
 <<Cube>>.Placement.Rotation.Axis.z
-``` where often one of these values is 1 while the others are 0.
+```
+
+where often one of these values is 1 while the others are 0.
 
 You can also use the whole Placement in a single expression   * Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
 
-To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would enter in that way for Sketch the expression 
+To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would enter in that way for Sketch the expression
+
+
 ```python
 <<Cube>>.Placement
-``` ![Setting the whole Placement in one expression](images/PlacementInExpression.png )
+```
+
+![Setting the whole Placement in one expression](images/PlacementInExpression.png ) 
 
 **NOTE   *** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
 

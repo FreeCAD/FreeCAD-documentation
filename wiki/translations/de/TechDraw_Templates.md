@@ -7,9 +7,12 @@ Jede TechDraw Seite basiert auf einem Vorlagenobjekt. Die Vorlage steuert die Pa
 
 Die Vorlage kann auch änderbare Textfelder für Attribute wie *Titel*, *Untertitel*, *Autor*, *Datum*, *Maßstab*, \'\'Gewicht\", *Zeichnungsnummer* und *Blatt*.
 
-Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD erstellt und geändert werden können, mit einer Anwendung wie [Inkscape](https   *//de.wikipedia.org/wiki/Inkscape).
+Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD mit einer Anwendung wie [Inkscape](https   *//de.wikipedia.org/wiki/Inkscape) erstellt und geändert werden können.
 
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Orientierung**   * Hoch- oder Querformat
 
@@ -21,19 +24,40 @@ Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD erstellt und
 
 -    **Vorlage**   * Eine Referenz auf die Kopie der ursprünglichen Vorlagendatei, die in dieser \*.FCSTD Datei eingebunden ist. Außerdem kann hier ein Dateipfad zu einem Vorlagenordner ausgewählt werden. Dazu auf das Dateiauswahl-Zeichen **\[\...\]** klicken, um zu einer anderen Vorlage zu wechseln.
 
-## Ändern der Vorlagendatei 
 
-Um die Vorlage einer Zeichnung zu ändern
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+## Vorlagendatei ändern 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Um die Vorlage einer Zeichnung zu wechseln
 
 1.  klicke die gewünschte Seite im Baum an
 2.  wenn nicht bereits geöffnet, sollte der Baum einen kleinen Unterbaum mit mehreren Blättern öffnen
 3.  Wähle das Vorlagenblatt aus
-4.  in der Eigenschaftsleiste/Datenreiter/Vorlage ist der Pfad zur Vorlagendatei. Um die Datei zu ändern, drücke die Ellipsentaste (\'\...\'). Dadurch wird dein Standardvorlagenordner (wie in Einstellungen/TechDraw eingestellt) geöffnet.
+4.  in der Eigenschaftsleiste/Datenreiter/Vorlage ist der Pfad zur Vorlagendatei. Um die Datei zu wechseln, drücke die Ellipsentaste (\'\...\'). Dadurch wird dein Standardvorlagenordner (wie in Einstellungen/TechDraw eingestellt) geöffnet.
 5.  wähle eine andere Vorlagendatei.
 
 Die neue Datei wird direkt geöffnet.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Wenn du eine geänderte Vorlagendatei aktualisieren möchtest, beachte, dass du eine andere Datei laden musst, bevor du die gleiche Datei erneut auswählen kannst. Dies liegt daran, dass die Auswahl der gleichen Datei ignoriert wird.
+
+
+</div>
 
 ## Benutzerdefinierte Vorlagen 
 

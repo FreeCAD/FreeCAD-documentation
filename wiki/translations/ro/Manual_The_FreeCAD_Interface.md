@@ -1,16 +1,7 @@
 # Manual:The FreeCAD Interface/ro
-{{Manual   *TOC}}
-
-
-<div class="mw-translate-fuzzy">
-
-
 {{Manual   *TOC/ro}}
 
 FreeCAD utilizează [Qt framework](https   *//en.wikipedia.org/wiki/Qt_(software)) pentru a desena și administra interfața sa. Acest cadru este folosit într-o gamă largă de aplicații, astfel încât interfața FreeCAD este foarte clasică și nu prezintă dificultăți speciale în înțelegere Cele mai multe butoane sunt standard și vor fi găsite acolo unde vă așteptați(File -\> Open, Edit -\> Paste, etc). Iată aspectul FreeCAD atunci când îl deschideți pentru prima dată, imediat după instalare, afișându-vă centrul de start   *
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

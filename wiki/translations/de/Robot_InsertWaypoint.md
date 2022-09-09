@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Einfügen eines Wegpunkts aus der aktuellen Roboter-(Werkzeug)-Position in eine 
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -25,6 +29,8 @@ Einfügen eines Wegpunkts aus der aktuellen Roboter-(Werkzeug)-Position in eine 
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

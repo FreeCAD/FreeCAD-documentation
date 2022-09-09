@@ -12,22 +12,20 @@
 
 ## Descrizione
 
-Il comando **Std AddonMgr** apre Addon manager. Con il gestore degli addon è possibile installare e gestire gli [ambienti esterni](external_workbenches/it.md) e le [macro](macros/it.md) forniti dalla comunità di FreeCAD. Gli ambienti e le macro disponibili sono presi da due repository, [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) e [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/), e dalla pagina [Raccolta di macro](Macros_recipes/it.md).
-
 
 <div class="mw-translate-fuzzy">
 
-Si noti che gli addon contrassegnati come {{emphasis|Solo Python 2}} non funzioneranno nella versione 0.19 o successive di FreeCAD.
+Il comando **Std AddonMgr** apre Addon manager. Con il gestore degli addon è possibile installare e gestire gli [ambienti esterni](external_workbenches/it.md) e le [macro](macros/it.md) forniti dalla comunità di FreeCAD. Gli ambienti e le macro disponibili sono presi da due repository, [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) e [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/), e dalla pagina [Raccolta di macro](Macros_recipes/it.md).
 
 
 </div>
 
-Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or a recent [0.19](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre) version. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
-
-![](images/Std_AddonMgr_dialog.png ) 
-*La finestra di dialogo di Gestione de componenti aggiuntivi*
+Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or later. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
 
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare l\'opzione **Strumenti → <img src="images/Std_AddonMgr.svg" width=16px> Addon manager** dal menu principale.
 2.  La prima volta che si usa il gestore Addon si apre una finestra di dialogo che avverte che i componenti aggiuntivi nel gestore Addon non fanno ufficialmente parte di FreeCAD. Premere il pulsante **OK** per confermare e continuare.
@@ -36,30 +34,31 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 5.  Premere il pulsante **<img src="images/Process-stop.svg" width=16px> Chiudi** per chiudere la finestra di dialogo.
 6.  Se è stato installato o aggiornato un ambiente di lavoro, si aprirà una nuova finestra di dialogo per informare che si deve riavviare FreeCAD affinché le modifiche abbiano effetto.
 
+
+</div>
+
 ## Opzioni
 
-La finestra di Addon manager ha due schede a sinistra, una che elenca gli ambienti disponibili e l\'altra che elenca le macro disponibili. Il pannello delle informazioni sulla destra mostra la pagina iniziale del componente aggiuntivo selezionato.
+<img alt="" src=images/AddonManager_Main.png  style="width   *600px;">
 
-### Disinstallazione
+1.  The Addon manager provides two view layouts   * \"Condensed\" and \"Expanded\". In \"Condensed\" view, each addon takes a single line, and its description is truncated to fit the available space. \"Expanded\" shows additional details, including more of the description text as well as maintainer information, more installation details, etc.
+2.  Three different types of addons are supported   * [workbenches](external_workbenches.md), [macros](macros.md), and [preference packs](Preference_Packs.md). You can choose to show just one type, or all of them in a single list.
+3.  The list can be limited to show just installed packages, just packages with available updates, or just packages that are not yet installed.
+4.  The list can be filtered, searching for a keyword in the title, description, and tags (description and tags must be specified by the addon developer in their addon\'s metadata). The filter can even be a regular expression, for fine-grained control of the exact search term.
+5.  The expanded view shows available version information, description, maintainer information, and installation version information, for packages that provide a [package metadata](Package_Metadata.md) file (or for macros with embedded metadata).
+6.  Addon data is cached locally, with a variable cache update frequency set in the user preferences.
+7.  At any time you can choose to manually update your local cache to see the latest updates available for each addon.
+8.  Update checks may be set up to be automatic, or done manually via a button click (configured in user preferences). If GitPython and git are installed on your system then update information is fetched using git. If not, then update information is obtained from any present metadata file.
 
-1.  Selezionare nella scheda <img alt="" src=images/Folder.svg  style="width   *16px;"> **Ambienti di lavoro** o nelle <img alt="" src=images/Applications-python.svg  style="width   *16px;"> **Macro** un componente aggiuntivo installato.
-2.  Premere il pulsante **<img src="images/Delete.svg" width=16px> Disinstalla selezionati**.
+Clicking on an addon in this view brings up the addon\'s Details page   *
 
-### Installazione/aggiornamento
+<img alt="" src=images/AddonManager_Details.png  style="width   *600px;">
 
-1.  Seleziona un componente aggiuntivo nella scheda <img alt="" src=images/Folder.svg  style="width   *16px;"> **Ambienti di lavoro** o nella scheda <img alt="" src=images/Applications-python.svg  style="width   *16px;"> **Macro** tab.
-2.  Premere il pulsante **<img src="images/Edit_OK.svg" width=16px> Installa/aggiorna i selezionati**.
-3.  Se si desidera aggiungere una macro a una barra degli strumenti personalizzata, non dimenticare di scaricare manualmente il file immagine dell\'icona, se disponibile, facendo clic sul collegamento nella pagina iniziale nel pannello delle informazioni. Vedere [Personalizzare l\'interfaccia](Interface_Customization/it#Barre_degli_strumenti.md).
-4.  Per modificare la posizione di un ambiente aggiuntivo nella lista del [selettore degli ambienti](Std_Workbench/it.md) vedere [Personalizzare l\'interfaccia](Interface_Customization/it#Ambienti_di_lavoro.md).
+The details page shows buttons allowing installing, uninstalling, updating, and temporarily disabling an addon. For installed addons it lists the currently installed version and the installation date, and whether that is the most recent version available. Below is an embedded web browser window showing the addon\'s README page (for workbenches and preference packs), or Wiki page (for macros).
 
-### Configurazione
+## Preferences
 
-1.  Premere il pulsante **<img src="images/Preferences-general.svg" width=16px> Configura...**.
-2.  Viene visualizzata la finestra di dialogo Opzioni del gestore dei componenti aggiuntivi.
-3.  Opzionalmente selezionare la casella di controllo {{CheckBox|TRUE|Controlla automaticamente gli aggiornamenti all'avvio (richiede GitPython)}}.
-4.  Opzionalmente aggiungere repository all\'elenco **Repository personalizzati**. I componenti aggiuntivi di questi repository verranno aggiunti nella scheda <img alt="" src=images/Folder.svg  style="width   *16px;"> **Ambienti** o nella scheda <img alt="" src=images/Applications-python.svg  style="width   *16px;"> **Macro**.
-5.  Opzionalmente scegliere le impostazioni proxy.
-6.  Premere il pulsante **OK** o il pulsante **Annulla** per chiudere la finestra di dialogo.
+The preferences for the Addon manager can be found in the [Preferences Editor](Preferences_Editor#Addon_Manager.md). <small>(v0.20)</small> 
 
 ## Note
 
@@ -76,21 +75,7 @@ La finestra di Addon manager ha due schede a sinistra, una che elenca gli ambien
 
 ## Informazioni per gli sviluppatori 
 
-Se avete sviluppato un workbench o una macro e volete vederlo incluso in Addon manager, leggete come farlo nelle pagine del repository ([FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) e [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/)). Se aggiungete la vostra macro a [Raccolta di macro](Macros_recipes.md), non dovete fare nient\'altro, essa verrà automaticamente selezionata da Addon manager.
-
-### Ambienti di lavoro in Python 
-
-
-<div class="mw-translate-fuzzy">
-
-Per i workbench Python, non è necessaria alcuna approvazione specifica per aggiungerlo a Addon manager e, essendo al di fuori del codice sorgente di FreeCAD, è possibile scegliere la licenza desiderata. Se si richiede che il proprio workbench sia aggiunto alla lista (senza la richiesta dei suoi autori non viene aggiunto nessun nuovo workbench), sia chiedendolo sul forum o aprendo una istanza nel repository [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/), il codice continua a rimanere sul repository git dell\'autore, e viene semplicemente aggiunto come sottomodulo al repository [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/). Ovviamente, prima di aggiungere un nuovo workbench, viene data un\'occhiata al codice per verificare che non contenga nulla di potenzialmente problematico.
-
-
-</div>
-
-### Workbench in C++ 
-
-Se si sviluppa un workbench in C++, esso non può essere eseguito direttamente dagli utenti e deve prima essere compilato. Quindi si hanno due opzioni, o fornire le versioni precompilate del proprio workbench per i diversi sistemi operativi, oppure si deve chiedere di unire il proprio codice al codice sorgente di FreeCAD. Per questo, si deve usare la licenza LGPL (o una licenza completamente compatibile come MIT o BSD), e si deve presentare i nuovi strumenti alla comunità nel [forum di FreeCAD](https   *//forum.freecadweb.org) per la revisione. Quando il codice è stato testato e approvato, è necessario creare una biforcazione nel repository di FreeCAD, se non ancora fatto, e creare un nuovo ramo, inserirvi il codice e aprire una richiesta di pull in modo che il ramo venga unito al repository principale.
+See [Addon](Addon#Information_for_developers.md).
 
 
 <div class="mw-translate-fuzzy">

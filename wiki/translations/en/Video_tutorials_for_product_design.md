@@ -44,7 +44,11 @@ Videos that go through modeling of various solid objects using workbenches such 
 -   [Glasson Design Studio playlists](https   *//www.youtube.com/channel/UC-Nio4u1JhP7eUFeBtz7XFw/playlists)   * various videos in English on woodworking and furniture design, including use of FreeCAD.
     -   [FreeCAD for Woodworkers](https   *//www.youtube.com/playlist?list=PLNKr-ocZWgQ66AX5y3uY71SCTClpUpGrt)   * a series of videos showing how to use FreeCAD 0.17 to 0.18 to model wooden objects, using workbenches like [PartDesign](PartDesign_Workbench.md), [Sketcher](Sketcher_Workbench.md), [Spreadsheet](Spreadsheet_Workbench.md), and [TechDraw](TechDraw_Workbench.md).
 
--   [FreeCAD Beginners Tutorials](https   *//www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi)   * FreeCAD 0.17, a series of 5 videos by Eklavya Self Learning Tutorials, in English, that teach the basics of FreeCAD, such as installing, the interface, and presents basic workbenches like Draft, Arch, Part, and the Sketcher.
+-   [FreeCAD Beginners Tutorials](https   *//www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi)   * FreeCAD 0.17, a series of 5 videos by Eklavya Self Learning Tutorials, in English, that teach the basics of FreeCAD, such as installing, the interface, and presents basic workbenches like [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), [Part](Part_Workbench.md), and [Sketcher](Sketcher_Workbench.md).
+
+### French
+
+-   [jp willm playlists](https   *//www.youtube.com/channel/UCJwHW5GwrK1fq16cxUoBOUw/videos)   * for beginners to more experienced users, jp willm produces many videos on 3D modelling with tools mainly from [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md), but also exploring [TechDraw](TechDraw_Workbench.md) and of course [Sketcher](Sketcher_Workbench.md).
 
 ### German
 

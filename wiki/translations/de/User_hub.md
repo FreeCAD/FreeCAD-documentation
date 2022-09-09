@@ -23,44 +23,30 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 -   [FAQ](Frequently_asked_questions/de.md)   * Häufig gestellte Fragen.
 -   [Tutorien](Tutorials/de.md) decken verschiedene Teile von FreeCAD ab.
 
-#### Migrating from other software? 
+#### Umstieg von einer anderen Anwendung? 
 
-
-<div class="mw-translate-fuzzy">
-
-Siehe auch   *
-
+-   [Fehlerumgehung](Workarounds/de.md)
 -   [Umstieg auf FreeCAD von Fusion360](Migrating_to_FreeCAD_from_Fusion360/de.md)
-
-
-</div>
+-   [Umstieg auf FreeCAD von OnShape](Migrating_to_FreeCAD_from_OnShape/de.md)
+-   [Umstieg auf FreeCAD von SolidWorks](Migrating_to_FreeCAD_from_SolidWorks/de.md)
+-   [Umstieg auf FreeCAD von Revit](Migrating_to_FreeCAD_from_Revit/de.md)
+-   [FreeCAD BIM migration guide](https   *//yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
+-   [BIM applications compatibility table](BIM_application_compatibility_table/de.md)
 
 ### Grundlegende Anwendung 
 
-
-<div class="mw-translate-fuzzy">
-
--   [Benutzeroberfläche](Interface/de.md)   * Die FreeCAD Benutzeroberfläche besteht aus verschiedenen grafischen Elementen auf dem Bildschirm, darunter der [3D Ansicht](3D_view/de.md), der [Baumansicht](Tree_view/de.md), dem [Eigenschaftseditor](Property_editor/de.md), der [Aufgabenleiste](Task_panel/de.md) und der [Python Konsole](Python_console/de.md).
--   [Mausnavigation](Mouse_navigation/de.md)   * die verschiedenen Arten der Verwendung der Maus oder des Trackpads zur Navigation in der 3D Ansicht.
--   [Auswahlmethoden](Selection_methods/de.md)   * den unterschiedlichen Methoden zur Auswahl von Objekten im Programm.
--   [Objektname](Object_name/de.md)   * alle Objekte haben einen einzigartigen `Namen` der sie identifiziert und eine `Beschriftung` die vom Anwender bearbeitet werden kann.
--   [Einstellungseditor](Preferences_Editor/de.md)   * das System, mit dem viele Eigenschaften des Basissystems und der einzelnen Arbeitsbereiche gesteuert werden können.
--   [Dateiformate](Import_Export/de.md)   * die verschiedenen Dateiformate, die FreeCAD lesen und schreiben kann.
-
-
-</div>
+-   [Oberfläche](Interface/de.md)   * Die FreeCAD-Benutzeroberfläche besteht aus verschiedenen grafischen Elementen auf dem Bildschirm, darunter der [3D-Ansicht](3D_view/de.md), der [Baumansicht](Tree_view/de.md), dem [Eigenschafteneditor](Property_editor/de.md), der [Aufgabenbereich](Task_panel/de.md) und der [Python-Konsole](Python_console/de.md).
+-   [Mausnavigation](Mouse_navigation/de.md)   * Die verschiedenen Arten der Verwendung der Maus oder des Trackpads zur Navigation in der 3D-Ansicht.
+-   [Auswahlmethoden](Selection_methods/de.md)   * Die unterschiedlichen Methoden zur Auswahl von Objekten im Programm.
+-   [Objektname](Object_name/de.md)   * Alle Objekte haben einen einzigartigen, nicht veränderbaren `Namen`, der sie eindeutig identifiziert und ein `Label` das vom Anwender beliebig geändert werden kann.
+-   [Voreinstellungseditor](Preferences_Editor/de.md)   * Das System, mit dem viele Eigenschaften des Basissystems und der einzelnen Arbeitsbereiche gesteuert werden können.
+-   [Dateiformate](Import_Export/de.md)   * Die verschiedenen Dateiformate, die FreeCAD lesen und schreiben kann.
 
 ### Arbeitsbereiche
 
 [Arbeitsbereiche](Workbenches/de.md) sind Werkzeugsammlungen, die für eine spezifische Aufgabe genutzt werden. Diese sind die Basis Arbeitsbereiche, die mit jeder FreeCAD-Installation verfügbar werden   *
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Std Basis](Std_Base/de.md). Dies ist eigentlich kein Arbeitsbereich, sondern eher eine Kategorie von \'Standard\' Befehlen und Werkzeugen, die in allen Arbeitsbereichen verwendet werden können.
-
-
-</div>
+-   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Std Werkzeuge](Std_Base/de.md). Diese Befehle und Werkzeuge stehen in allen Arbeitsbereichen zur verfügung.
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> Der [Arbeitsbereich Arch](Arch_Workbench/de.md) für die Arbeit mit architektonischen Elementen.
 

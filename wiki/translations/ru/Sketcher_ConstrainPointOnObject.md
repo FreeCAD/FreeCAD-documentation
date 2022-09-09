@@ -4,14 +4,11 @@
    Name   *Sketcher_ConstrainPointOnObject
    MenuLocation   *Sketch → Ограничения эскиза → Зафиксировать точку на объекте
    Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut   ***Shift** + **O**
+   Shortcut   ***O**
    SeeAlso   *[Ограничение пересечения](Sketcher_ConstrainCoincident/ru.md)
 ---
 
 # Sketcher ConstrainPointOnObject/ru
-
-
-</div>
 
 ## Описание
 
@@ -33,13 +30,7 @@
 
 ## Программирование
 
-
-<div class="mw-translate-fuzzy">
-
-Ограничения можно создавать макросами и в консоли python, используя следующие команды   *
-
-
-</div>
+Ограничения можно создавать с помощью [макросов](Macros/ru.md) и в консоли [Python](Python/ru.md), используя следующие команды   *
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

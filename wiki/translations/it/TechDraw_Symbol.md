@@ -23,11 +23,17 @@ Lo strumento Simbolo inserisce un file [SVG](SVG/it.md) nella pagina. Questo sim
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/TechDraw_Symbol.svg" width=16px> [Simbolo SVG](TechDraw_Symbol/it.md)
 **
 2.  Si apre una finestra di dialogo.
 3.  Selezionare un percorso e il nome file.
 4.  Premere **OK**
+
+
+</div>
 
 -   Il simbolo può apparire più grande del previsto. Utilizzare la proprietà Scala per regolare le dimensioni.
 

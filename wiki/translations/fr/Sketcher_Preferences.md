@@ -234,6 +234,16 @@ Dans l\'onglet *Couleurs*, vous pouvez spécifier les éléments suivants   *
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
+## Remarque
+
+Il existe une autre préférence qui a une influence sur les esquisses. Si la préférence **Objets transparents** de l\'onglet [Affichage → Vue 3D](Preferences_Editor/fr#Vue_3D.md) est définie sur {{Value|Passe pour les faces cachées}}, les pointes de flèche situées à une extrémité des dimensions de l\'esquisse sont masquées si **Afficher la grille** est désactivé dans la section [Modifier les contrôles](Sketcher_Dialog/fr#Modifier_les_contr.C3.B4les.md) du [Panneau des tâches](Task_panel/fr.md). Ceci s\'applique à FreeCAD version 0.19, version 0.20 et aux versions de développement récentes (jusqu\'à 0.21-30058, au moins) sauf la branche Link.
+
+<img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-01.png  style="width   *200px;"> <img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-02.png  style="width   *200px;"> 
+*Vue de face, grille activée et grille désactivée*
+
+<img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-03.png  style="width   *200px;"> <img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-04.png  style="width   *200px;"> 
+*Vue arrière, grille activée et grille désactivée cachant les pointes de flèches à l'extrémité opposée ainsi que la valeur de la dimension*
+
 
 
 

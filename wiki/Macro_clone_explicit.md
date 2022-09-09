@@ -1,40 +1,45 @@
 # Macro clone explicit
 {{Macro
-|Name=clone_explicit
+|Name=Macro Clone explicit
 |Icon=Macro_clone_explicit.png
 |Description=Creates a copy of each selected object and sets its properties to an expression linking to the original object, making it an explicit and editable clone.
 |Author=Raph82
 |Version=0.1
 |Date=2018-12-15
-|FCVersion=All
+|FCVersion=18 and after
 |Download=[https   *//www.freecadweb.org/wiki/images/a/ab/Macro_clone_explicit.png ToolBar Icon]
 |SeeAlso=[Expressions](Expressions.md)
 }}
 
 ## Description
 
-This macro creates a copy of each selected object and sets its properties to an [expression](Expressions.md) linking to the original object, making it an explicit and editable clone.
+This macro creates a copy of each selected object and sets its properties to an [expression](Expressions.md) linked to the original object, making it an explicit and editable clone.
 
-This clone is a copy of the original object, as in the **Edit** → **Duplicate selection** command. Then its properties are defined by expressions.
+This clone is a copy of the original object, as in the **Edit → Duplicate selection** command, but its properties are defined by expressions.
 
-### How would this \'explicit and editable clone\' differs from a Clone object? 
+### How does this \'explicit and editable clone\' differ from a Clone object? 
 
-Explicit because all of the original object properties are here to see. In a Clone object of a Cube, can you see its Height for example? When you use an expression to a Clone object, can you easily access its parent properties?
+\'Explicit\' because all of the original object properties are visible. In a Clone object of a Cube, can you see its Height for example? When you use an expression for a Clone object, can you easily access its parent properties?
 
-Editable because all of the original object properties are here to edit. Contrary to a Clone object, you can edit the expression of any property. So the clone would actually only clone interesting properties of its parent, while you have fun modifying the others.
+\'Editable\' because, contrary to a Clone object, you can edit the expression of any property. So it is possible to have the object only clone certain properties of its parent, while you modify the others.
 
 ## Usage
 
 1.  Select at least one object.
 
 2.  
-    **Macro**→ **Macros...** → clone\_explicit.FCMacro → **Execute**.
+    **Macro → Macros...**
+    
+
+3.  Select the **clone_explicit.FCMacro** from the list.
+
+4.  Press the **Execute** button.
 
 ## Script
 
 ToolBar Icon ![](images/Macro_clone_explicit.png )
 
-**Macro\_clone\_explicit.FCMacro**
+ **Macro\_clone\_explicit.FCMacro**
 
 
 {{MacroCode|code=
@@ -198,7 +203,7 @@ Here\'s an example. Imagine the parent object (the one you select before running
         -   Parent.Height = Object**4**.Height * 2 and
         -   Clone.Height = Object**3**.Height * 2 still.
 
-For now, the macro is run with the mode parameter set to direct and no choice is proposed to the user.
+ For now, the macro is run with the mode parameter set to direct and no choice is proposed to the user.
 
 ## Limitations
 
@@ -206,29 +211,9 @@ For now, the macro is run with the mode parameter set to direct and no choice is
     -   find how to identify an object type to deal with its different properties accordingly;
     -   find how to catch the Property not found error.
 
-Many docs to read!
-
 ## Version history 
 
 -   0.1   * first public release
-
-## Other
-
-Version of FreeCAD used to create the macro   * 
-```python
-OS   * Linux Mint 18.2 Sonya
-Word size of OS   * 64-bit
-Word size of FreeCAD   * 64-bit
-Version   * 0.18.15188 (Git)
-Build type   * Release
-Branch   * master
-Hash   * de074ec4f37ee8baf4c268a3bc528f4bddf8ac15
-Python version   * 2.7.12
-Qt version   * 4.8.7
-Coin version   * 4.0.0a
-OCC version   * 7.3.0
-Locale   * French/France (fr_FR)
-```
 
 
 

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Plot Module/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Plot](Plot_Workbench.md) > Plot Module/hr

@@ -11,7 +11,7 @@ Tuttavia, le informazioni in questa pagina sono generalmente utili anche per il 
 
 {{TOCright}}
 
-Il modulo <img alt="" src=images/Workbench_Raytracing.svg  style="width   *24px;"> Raytracing viene utilizzato per generare immagini fotorealistiche dei modelli elaborandole con un renderer esterno.
+L\'[Ambiente Raytracing](Raytracing_Workbench/it.md) <img alt="" src=images/Workbench_Raytracing.svg  style="width   *24px;"> viene utilizzato per generare immagini fotorealistiche dei modelli elaborandole con un renderer esterno.
 
 Il modulo Raytracing lavora con dei [modelli](Raytracing_templates/it.md), che sono file di progetto che definiscono una scena per il modello 3D. È possibile posizionare luci e geometrie come i piani terra e contiene anche i segnaposto per la posizione della telecamera e per le informazioni sul materiale degli oggetti nella scena. Il progetto può quindi essere esportato in un file pronto per il rendering o essere eseguito direttamente in FreeCAD.
 
@@ -21,18 +21,12 @@ L\'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenen
 
 <img alt="" src=images/Raytracing_example.jpg  style="width   *1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
 ## Flusso di lavoro tipico 
 
 1.  Creare o aprire un progetto di FreeCAD, aggiungere alcuni oggetti solidi sul modulo [Part](Part_Workbench/it.md) o [PartDesign-based](PartDesign_Workbench/it.md); i mesh non sono ancora supportati
 2.  Creare un progetto Raytracing (luxrender o povray)
 3.  Selezionare gli oggetti che si desidera aggiungere al progetto raytracing e aggiungerli con lo strumento \"Inserisci Parte\"
 4.  Esportare o elaborare direttamente
-
-
-</div>
 
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width   *600px;">
 
@@ -44,20 +38,14 @@ L\'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenen
 
 ### Strumenti di progetto 
 
-
-<div class="mw-translate-fuzzy">
-
 Questi sono gli strumenti principali per esportare il proprio lavoro 3D su renderer esterni.
 
--   <img alt="" src=images/Raytrace_New.svg  style="width   *32px;"> [Nuovo progetto PovRay](Raytracing_New/it.md)   * inserisce un nuovo progetto PovRay nel documento.
--   <img alt="" src=images/Raytrace_Lux.svg  style="width   *32px;"> [Nuovo progetto LuxRender](Raytracing_Lux/it.md)   * inserisce un nuovo progetto LuxRender nel documento.
--   <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width   *32px;"> [Inserisci parte](Raytracing_InsertPart/it.md)   * inserisce una vista di una parte in un progetto di raytracing.
--   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width   *32px;"> [Reset camera](Raytracing_ResetCamera/it.md)   * abbina la posizione della telecamera di un progetto di raytracing alla vista corrente.
--   <img alt="" src=images/Raytrace_ExportProject.svg  style="width   *32px;"> [Esporta progetto\...](Raytracing_ExportProject/it.md)   * esporta un progetto di raytracing in un file di scena per il rendering in un renderer esterno.
--   <img alt="" src=images/Raytrace_Render.svg  style="width   *32px;"> [Render](Raytracing_Render/it.md)   * esegue il rendering di un progetto raytracing con un renderer esterno.
-
-
-</div>
+-   <img alt="" src=images/Raytracing_New.svg  style="width   *32px;"> [Nuovo progetto PovRay](Raytracing_New/it.md)   * inserisce un nuovo progetto PovRay nel documento.
+-   <img alt="" src=images/Raytracing_Lux.svg  style="width   *32px;"> [Nuovo progetto LuxRender](Raytracing_Lux/it.md)   * inserisce un nuovo progetto LuxRender nel documento.
+-   <img alt="" src=images/Raytracing_InsertPart.svg  style="width   *32px;"> [Inserisci parte](Raytracing_InsertPart/it.md)   * inserisce una vista di una parte in un progetto di raytracing.
+-   <img alt="" src=images/Raytracing_ResetCamera.svg  style="width   *32px;"> [Reset camera](Raytracing_ResetCamera/it.md)   * abbina la posizione della telecamera di un progetto di raytracing alla vista corrente.
+-   <img alt="" src=images/Raytracing_ExportProject.svg  style="width   *32px;"> [Esporta progetto\...](Raytracing_ExportProject/it.md)   * esporta un progetto di raytracing in un file di scena per il rendering in un renderer esterno.
+-   <img alt="" src=images/Raytracing_Render.svg  style="width   *32px;"> [Render](Raytracing_Render/it.md)   * esegue il rendering di un progetto raytracing con un renderer esterno.
 
 ### Utilità
 

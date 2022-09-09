@@ -6,8 +6,8 @@ Pages relatives aux tests concernant les tests unitaires, l\'intégration contin
 |     |     |     |
 | --- | --- | --- |
 | [AppImage/fr](wiki/AppImage/fr.md) | [Artwork Test/fr](wiki/Artwork Test/fr.md) | [Continuous Integration/fr](wiki/Continuous Integration/fr.md) |
-| [LGTM/fr](wiki/LGTM/fr.md) | [Testing/fr](wiki/Testing/fr.md) | [Ubuntu Snap/fr](wiki/Ubuntu Snap/fr.md) |
-| [Category:Test Framework/fr](wiki/Category_Test Framework/fr.md) |
+| [Flatpak/fr](wiki/Flatpak/fr.md) | [LGTM/fr](wiki/LGTM/fr.md) | [Testing/fr](wiki/Testing/fr.md) |
+| [Ubuntu Snap/fr](wiki/Ubuntu Snap/fr.md) | [Category:Test Framework/fr](wiki/Category_Test Framework/fr.md) |
 
 
 

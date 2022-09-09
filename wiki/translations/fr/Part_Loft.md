@@ -12,7 +12,7 @@
 
 ## Présentation
 
-L\'outil Lissage est utilisé pour créer une face, une coquille ou une forme solide à partir de deux ou plusieurs profils. Les profils peuvent être un point (sommet), ligne (Arête), un fil ou une face. Arêtes et fils peuvent être soit ouverts ou fermés. Il existe différents [limites et complications](Part_Loft/fr#Limitations_et_complications.md), voir ci-dessous, mais les profils peuvent provenir des primitives de l\'atelier Part, de fonctions de l\'atelier Draft et d\'une esquisse.
+L\'outil **Part Lissage** est utilisé pour créer une face, une coquille ou une forme solide à partir de deux ou plusieurs profils. Les profils peuvent être un point (sommet), ligne (Arête), un fil ou une face. Arêtes et fils peuvent être soit ouverts ou fermés. Il existe différents [limites et complications](Part_Loft/fr#Limitations_et_complications.md), voir ci-dessous, mais les profils peuvent provenir des [primitives de l\'atelier Part](Part_Workbench/fr.md), des [objets de l\'atelier Draft](Draft_Workbench/fr.md) et des [esquisses](Sketcher_Workbench/fr.md).
 
 Le Lissage a trois paramètres, \"Surface réglée\", \"Créer le solide\" et \"Fermé\", chacun avec une valeur soit \"true\" (vrai) soit \"false\" (faux).
 

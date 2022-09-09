@@ -1,20 +1,11 @@
-# Surface Workbench/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="L\'icona dell\'ambiente Surface" src=images/Workbench_Surface.svg  style="width   *128px;">
+# <img alt="L\'icona dell\'ambiente Surface" src=images/Workbench_Surface.svg  style="width   *64px;"> Surface Workbench/it
 
 
 {{TOCright}}
 
 ## Introduzione
 
-L\'ambiente <img alt="" src=images/Workbench_Surface.svg  style="width   *24px;"> [Surface](Surface_Workbench/it.md) introdotto in FreeCAD 0.17 fornisce strumenti per creare e modificare semplici [superfici NURBS](https   *//en.wikipedia.org/wiki/Non-uniform_rational_B-spline). Questi strumenti hanno una funzionalità simile allo strumento <img alt="" src=images/Part_Builder.svg  style="width   *16px;"> [Genera una forma\...](Part_Builder/it.md) di Part quando si usa l\'opzione **Faccia dai bordi**. Tuttavia, a differenza di quello strumento, gli strumenti di Surface sono parametrici e forniscono opzioni aggiuntive. A tale riguardo, gli strumenti di questo ambiente sono simili a funzioni come <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width   *16px;"> [Loft additivo](PartDesign_AdditiveLoft/it.md) e <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width   *16px;"> [Sweep additivo](PartDesign_AdditivePipe/it.md) di PartDesign.
+L\'[Ambiente Surface](Surface_Workbench/it.md)<img alt="" src=images/Workbench_Surface.svg  style="width   *24px;"> introdotto in FreeCAD 0.17 fornisce strumenti per creare e modificare semplici [superfici NURBS](https   *//en.wikipedia.org/wiki/Non-uniform_rational_B-spline). Questi strumenti hanno una funzionalità simile allo strumento <img alt="" src=images/Part_Builder.svg  style="width   *16px;"> [Genera una forma\...](Part_Builder/it.md) di Part quando si usa l\'opzione **Faccia dai bordi**. Tuttavia, a differenza di quello strumento, gli strumenti di Surface sono parametrici e forniscono opzioni aggiuntive. A tale riguardo, gli strumenti di questo ambiente sono simili a funzioni come <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width   *16px;"> [Loft additivo](PartDesign_AdditiveLoft/it.md) e <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width   *16px;"> [Sweep additivo](PartDesign_AdditivePipe/it.md) di PartDesign.
 
 Alcune delle funzioni fornite sono   *
 
@@ -42,27 +33,18 @@ Allo stato attuale di FreeCAD (v0.17) non è possibile posizionare le superfici 
 
 ## Strumenti
 
--   <img alt="" src=images/Surface_Filling.svg  style="width   *32px;"> [Filling](Surface_Filling/it.md)   * riempie una serie di curve di confine con una superficie. La superficie può essere modificata aggiungendo curve e vertici di vincoli. La superficie cambia forma in modo da passare attraverso gli elementi di vincolo aggiunti.
--   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width   *32px;"> [Fill boundary curves](Surface_GeomFillSurface/it.md)   * crea una superficie da due, tre o quattro bordi limite. Sono disponibili tre diverse modalità di riempimento   * Stretch, Coons, Curved.
+-   <img alt="" src=images/Surface_Filling.svg  style="width   *32px;"> [Filling](Surface_Filling/it.md)   * riempie una serie di curve di confine con una superficie.
 
--   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width   *32px;"> [Fill boundary curves](Surface_GeomFillSurface.md)   * creates a surface from two, three or four boundary edges.
+-   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width   *32px;"> [Riempi le curve del contorno](Surface_GeomFillSurface/it.md)   * crea una superficie da due, tre o quattro bordi limite.
 
 -   <img alt="" src=images/Surface_Sections.svg  style="width   *32px;"> [Sections](Surface_Sections/it.md)   * crea una superficie dai bordi che rappresentano sezioni trasversali di superficie. {{Version/it|0.19}}
--   <img alt="" src=images/Surface_ExtendFace.svg  style="width   *32px;"> [Extend face](Surface_ExtendFace/it.md)   * estrapola la superficie dai bordi con i sui parametri U e V locali.
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width   *32px;"> [Curve on mesh](Surface_CurveOnMesh/it.md)   * crea segmenti di spline approssimati sopra un oggetto [mesh](Mesh_Workbench/it.md) selezionato. Se l\'oggetto non è un [mesh](Mesh/it.md), ma una [forma](Shape/it.md) parametrica, deve essere convertito in mesh utilizzando <img alt="" src=images/Mesh_FromPartShape.svg  style="width   *16px;"> [Mesh da forma](Mesh_FromPartShape/it.md).
 
--   <img alt="" src=images/Surface_ExtendFace.svg  style="width   *32px;"> [Extend face](Surface_ExtendFace.md)   * extrapolates the surface at the boundaries with its local U parameter and V parameter.
+-   <img alt="" src=images/Surface_ExtendFace.svg  style="width   *32px;"> [Estendi faccia](Surface_ExtendFace/it.md)   * estrapola la superficie dai bordi con il suo parametro U locale e il parametro V.
 
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width   *32px;"> [Curve on mesh](Surface_CurveOnMesh.md)   * create approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width   *32px;"> [Curve on mesh](Surface_CurveOnMesh.md)   * crea segmenti di spline approssimati sopra un oggetto [mesh](Mesh_Workbench/it.md) selezionato.
 
 
 
-
-
-</div>
 
 
 {{Surface Tools navi

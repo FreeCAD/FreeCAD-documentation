@@ -1,5 +1,5 @@
 # Video tutorials for product design/fr
-**Faites attention à la version de FreeCAD utilisée dans le tutoriel. Si un tutoriel utilise une version plus ancienne du programme, le processus de modélisation général peut toujours fonctionner mais certains outils peuvent avoir changé dans les nouvelles versions. N'ajoutez pas de vidéos créées avec la version 0.16 ou antérieure, ces versions étant considérées comme obsolètes.**
+**Faites attention à la version de FreeCAD utilisée dans les tutoriels. Si un tutoriel utilise une version plus ancienne du programme, le processus de modélisation général peut toujours fonctionner mais certains outils peuvent avoir changé dans les nouvelles versions. N'ajoutez pas de vidéos créées avec la version 0.16 ou antérieure, ces versions étant considérées comme obsolètes.**
 
 ## Introduction
 
@@ -44,7 +44,11 @@ Les vidéos qui passent par la modélisation de divers objets solides à l\'aide
 -   [Playlists Glasson Design Studio](https   *//www.youtube.com/channel/UC-Nio4u1JhP7eUFeBtz7XFw/playlists)   * diverses vidéos en anglais sur le travail du bois et la conception de meubles, y compris l\'utilisation de FreeCAD.
     -   [FreeCAD for Woodworkers](https   *//www.youtube.com/playlist?list=PLNKr-ocZWgQ66AX5y3uY71SCTClpUpGrt)   * une série de vidéos montrant comment utiliser FreeCAD 0.17 à 0.18 pour modéliser des objets en bois, à l\'aide d\'ateliers comme [PartDesign ](PartDesign_Workbench/fr.md), [Sketcher](Sketcher_Workbench/fr.md), [Spreadsheet](Spreadsheet_Workbench/fr.md) et [TechDraw](TechDraw_Workbench/fr.md).
 
--   [FreeCAD Beginners Tutorials](https   *//www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi)    * FreeCAD 0.17, une série de 5 vidéos d\'Eklavya Self Learning Tutorials, en anglais, explique les bases de FreeCAD, telles que l\'installation, l\'interface et présente des ateliers de base tels que Draft, Arch, Part et Sketcher.
+-   [FreeCAD Beginners Tutorials](https   *//www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi)    * FreeCAD 0.17, une série de 5 vidéos d\'Eklavya Self Learning Tutorials, en anglais, explique les bases de FreeCAD, telles que l\'installation, l\'interface et présente des ateliers de base tels que [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md), [Part](Part_Workbench/fr.md) et [Sketcher](Sketcher_Workbench/fr.md).
+
+### Français
+
+-   [jp willm playlists](https   *//www.youtube.com/channel/UCJwHW5GwrK1fq16cxUoBOUw/videos)    * pour les débutants comme pour les utilisateurs plus expérimentés, jp willm produit de nombreuses vidéos sur la modélisation 3D avec des outils provenant principalement de [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md), mais explorant aussi [TechDraw](TechDraw_Workbench/fr.md) et bien sûr [Sketcher](Sketcher_Workbench/fr.md).
 
 ### En allemand 
 
@@ -73,6 +77,7 @@ Bien que cette liste se concentre sur le contenu allemand, bon nombre de ces cha
 
         * [https   *//www.youtube.com/user/TheMeeone/playlists Listes de lecture Christian Tutoriales CAD]   * diverses vidéos sur l'utilisation des modélisateurs 3D, dont FreeCAD, en espagnol.
         ** [https   *//www.youtube.com/watch?v=cBA7EJyrLkQ&list=PLfv54N1Sqk4zFGrn6mVU5kTSpfyfN2GyW FREECAD 0.17 - 0.18]   * une série de 15 vidéos montrant comment modéliser divers objets   * connecteurs mécaniques, turbines, pinces, tubings, jantes de pneus vis, un bouchon à vis, un embout de vis, un engrenage hélicoïdal, un pneu de vélo, et d'autres.
+
 
         {{Tutorials navi**
 

@@ -135,6 +135,8 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width   *32px;"> [Soudure](TechDraw_WeldSymbol/fr.md)    * ajoute des spécifications de soudage à une ligne de référence existante. {{Version/fr|0.19}}
 
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *32px;"> [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md)    * ajoute un symbole de finition de surface à une page. {{Version/fr|1.0}}
+
 ## Extensions
 
 Ce sont des outils pour améliorer vos dessins TechDraw.

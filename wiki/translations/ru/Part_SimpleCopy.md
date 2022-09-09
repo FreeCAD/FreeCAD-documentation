@@ -1,57 +1,37 @@
 ---
 - GuiCommand   */ru
-   Name   *Part CreateSimpleCopy‏‎
-   Name/ru   *Part CreateSimpleCopy‏‎
-   MenuLocation   *Деталь → Создать простую копию
+   Name/ru   *Создать простую копию‎
+   Name   *Part_SimpleCopy‎
+   MenuLocation   *Part → Создать копию → Создать простую копию
    Workbenches   *[Part](Part_Workbench/ru.md)
-   SeeAlso   *[Клонировать](Draft_Clone/ru.md), [Копировать](Std_Copy/ru.md), [Дубликат](Std_DuplicateSelection/ru.md)
-   Icon   *Tree_Part.svg
+   SeeAlso   *[Копировать](Std_Copy/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
 ---
 
 # Part SimpleCopy/ru
 
-
-</div>
-
 ## Введение
 
-Убирает историю детали, так что отдельные шаги по созданию детали больше не доступны и не редактируемы
 
+**![](images/)_[Создать_простую_копию‎](Part_SimpleCopy‎/ru.md)**
 
-**![](images/)_[Part_SimpleCopy‎](Part_SimpleCopy‎.md)**
+создает непараметрическую копию объекта уже без истории построения; шаги и операции, необходимые для ее создания объекта, становятся больше не доступными.
 
-produces a copy that has no parametric history; the steps and operations needed to create it aren\'t accessible any more.
+**В качестве альтернативы**, для создания непараметрической копии объекта можно использовать <img alt="" src=images/Part_TransformedCopy.svg  style="width   *16px;">[Transformed Copy](Part_TransformedCopy/ru.md), <img alt="" src=images/Part_ElementCopy.svg  style="width   *16px;"> [Element Copy](Part_ElementCopy/ru.md) и <img alt="" src=images/Part_RefineShape.svg  style="width   *16px;"> [RefineShape](Part_RefineShape/ru.md)
 
+## Применение
 
-<div class="mw-translate-fuzzy">
+1.  Выберите объект, упрощенную копию которого вы хотите сделать.
+2.  Перейдите в меню **Деталь → Создать копию → ![](images/)_[Создать_простую_копию](Part_SimpleCopy/ru.md)**.
 
-С помощью инструмента получается простое, не параметрическое тело, так что если Вам нужно что-то изменить, Вам следует вернуться к назад по истории создания файла и решить проблему, после чего создать новое простое тело.
+## Свойства
 
+### Данные
 
-</div>
+Копия имеет простое свойство **Placement** , как и у любых других [Part Feature](Part_Feature/ru.md).
 
+### Вид
 
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-Отметьте выбранную деталь в древе проекта и выделите в верхнем меню **Деталь → Создать простую копию**.
-
-
-</div>
-
-1.  Select an object for which you wish to make a copy.
-2.  Go to the menu **Part → Create a copy → ![](images/)_[Create_simple_copy](Part_SimpleCopy.md)**.
-
-## Properties
-
-### Data
-
-The copy has a simple **Placement** property like any other [Part Feature](Part_Feature.md).
-
-### View
-
-The copy has simple view properties like any other [Part Feature](Part_Feature.md).
+Копия имеет простые свойства вида, аналогичные тем, что имеются у любых других [Part Feature](Part_Feature/ru.md).
 
 
 

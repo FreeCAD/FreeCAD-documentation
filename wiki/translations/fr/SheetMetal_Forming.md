@@ -29,7 +29,7 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
 ### Fossette
 
 1.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
-2.  Ajoutez la **face inférieure** (face arrière) du solide définissant la forme à la sélection.
+2.  Ajoutez à la sélection la **face inférieure** (face arrière) du solide définissant la forme.
 3.  Relâchez la touche **Ctrl** (ou la touche **Command**).
 4.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width   *16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) en utilisant l\'une des commandes suivantes    *
     -   Le bouton **<img src="images/SheetMetal_Forming.svg" width=16px> [SheetMetal Forming](SheetMetal_Forming/fr.md)**.
@@ -40,7 +40,7 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
 
 1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
 2.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
-3.  Ajoutez la **face inférieure** (face arrière) du solide définissant la forme à la sélection.
+3.  Ajoutez à la sélection la **face inférieure** (face arrière) du solide définissant la forme.
 4.  Ajoutez à la sélection une **face latérale** adjointe à la face inférieure pour indiquer la position de la coupe.
 5.  Relâchez la touche **Ctrl** (ou la touche **Command**).
 6.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width   *16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
@@ -49,9 +49,9 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
 
 1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
 2.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
-3.  Ajoutez la **face inférieure** (face arrière) du solide définissant la forme à la sélection.
-4.  Ajoutez une **face latérale** adjacente à la face inférieure pour indiquer la position de la première coupe à la sélection.
-5.  Ajoutez la **face latérale opposée** adjointe à la face inférieure pour indiquer la position de la deuxième coupe à la sélection.
+3.  Ajoutez à la sélection la **face inférieure** (face arrière) du solide définissant la forme.
+4.  Ajoutez à la sélection une **face latérale** adjacente à la face inférieure pour indiquer la position de la première coupe.
+5.  Ajoutez à la sélection la **face latérale opposée** adjointe à la face inférieure pour indiquer la position de la deuxième coupe.
 6.  Relâchez la touche **Ctrl** (ou la touche **Command**).
 7.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width   *16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
 
@@ -59,8 +59,8 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
 
 1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
 2.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
-3.  Ajoutez la **face inférieure** (face arrière) du solide définissant la forme à la sélection.
-4.  Ajoutez la **face supérieure** opposée à la face inférieure pour marquer la zone à découper à la sélection.
+3.  Ajoutez à la sélection la **face inférieure** (face arrière) du solide définissant la forme.
+4.  Ajoutez à la sélection la **face supérieure** opposée à la face inférieure pour marquer la zone à découper.
 5.  Relâchez la touche **Ctrl** (ou la touche **Command**).
 6.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width   *16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
 

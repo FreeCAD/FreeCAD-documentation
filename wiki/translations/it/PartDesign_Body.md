@@ -2,26 +2,17 @@
 - GuiCommand   */it
    Name   *PartDesign Body
    Name/it   *Corpo
-   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
    MenuLocation   *Part Design → Crea un corpo
+   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
    Version   *0.17
    SeeAlso   *[Parte standard](Std_Part/it.md), [Editazione delle funzioni](feature_editing/it.md)
 ---
 
 # PartDesign Body/it
 
-
-</div>
-
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 Un [Corpo](PartDesign_Body/it.md) di PartDesign è l\'elemento base per creare forme solide con [PartDesign](PartDesign_Workbench/it.md). Può contenere [schizzi](Sketch/it.md), [oggetti di riferimento](Datum/it.md) e [funzioni di PartDesign](PartDesign_Feature/it.md) che aiutano a produrre un [singolo solido contiguo](PartDesign_Body/it#Singolo_solido_contiguo.md).
-
-
-</div>
 
 Il Corpo fornisce un oggetto **Origin** che include gli assi X,Y,Z, e i piani standard. Questi elementi possono essere usati come riferimenti per collegare gli [schizzi](Sketch/it.md) e gli [oggetti primitivi](PartDesign_CompPrimitiveAdditive/it.md).
 
@@ -75,9 +66,15 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), il corpo 
 
 #### Proprietà dati nascoste 
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Origin|Link**   * l\'oggetto [App Origin](App_Origin/it.md) che è il riferimento posizionale per tutti gli elementi elencati nel **Gruppo**.
 
 -    **_ Group Touched|Bool**   * se il gruppo viene toccato o no.
+
+
+</div>
 
 Oltre ale proprietà nascoste descritte in [Part Feature](Part_Feature/it.md) il corpo di PartDesign ha le seguenti proprietà nell\'[editor delle proprietà](Property_editor/it.md).
 
@@ -113,13 +110,7 @@ Quando questi solidi contigui vengono riuniti in un qualche tipo di disposizione
 
 Un corpo di PartDesign è progettato per funzionare creando un solido iniziale, da uno [schizzo](Sketch/it.md) o da una [forma primitiva](PartDesign_CompPrimitiveAdditive/it.md), e quindi modificandolo tramite le [\"funzioni\"](PartDesign_Feature/it.md) per aggiungere o rimuovere materiale dalla forma precedente. Per una spiegazione completa, vedere la pagina [editazione delle funzioni](feature_editing/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Un corpo di PartDesign esegue una [fusione](Part_Union/it.md) (unione) automatica degli elementi solidi al suo interno. Ciò significa che (1) i solidi parziali devono toccarsi quando vengono creati e (2) che i solidi disconnessi non sono consentiti.
-
-
-</div>
+Un corpo di PartDesign esegue una [fusione](Part_Fuse/it.md) (unione) automatica degli elementi solidi al suo interno. Ciò significa che (1) i solidi parziali devono toccarsi quando vengono creati e (2) che i solidi disconnessi non sono consentiti.
 
 <img alt="" src=images/PartDesign_Body_two_intersection.png  style="width   *" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width   *" height="200px;"> 
 *A sinistra   * due singoli solidi che si intersecano. A destra   * un singolo corpo di PartDesign creato con due [funzioni additive](PartDesign_Feature/it.md), che vengono automaticamente fuse insieme, quindi invece di intersecarsi, formano un singolo solido contiguo.*
@@ -165,7 +156,7 @@ The same process can be used when creating auxiliary datum geometry like [PartDe
 
 **Note   ***
 
-the Origin is an [App Origin](App_Origin.md) object (`App   *   *Origin` class), while the axes and planes are objects of type `App   *   *Line` and `App   *   *Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
+the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App   *   *Origin` class), while the axes and planes are objects of type `App   *   *Line` and `App   *   *Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
 
 
 **Note 2   ***

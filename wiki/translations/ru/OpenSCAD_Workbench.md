@@ -1,13 +1,4 @@
-# OpenSCAD Workbench/ru
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="Логотип верстака OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width   *128px;">
+# <img alt="Логотип верстака OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width   *64px;"> OpenSCAD Workbench/ru
 
 ## Введение
 
@@ -112,13 +103,7 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 -   Models tagged with \"OpenSCAD\" on [Thingiverse](http   *//www.thingiverse.com/tag   *openscad)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{OpenSCAD Tools navi

@@ -72,7 +72,7 @@ Cette section est destinée à donner une idée générale de la façon d\'utili
 
 #### Débuter avec un panneau 
 
-1.  Créer une polyligne ouverte (de préférence avec le sketcher)
+1.  Créer une polyligne fermée (de préférence avec le sketcher)
 2.  Utilisez la commande <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Make Base Wall](SheetMetal_AddBase/fr.md) pour créer un panneau de tôle.
 
 #### Débuter avec une PartDesign protrusion 
@@ -117,6 +117,8 @@ Le résultat sera un objet 3D avec une esquisse de contour en option comprenant 
 En attendant que des pages de tutoriel soient disponibles sur ce wiki, il existe une page [Exemples](SheetMetal_Examples/fr.md).
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width   *100px;">
+
+Il contient également quelques indications sur les [propriétés](SheetMetal_Examples/fr#Propri.C3.A9t.C3.A9s_de_SheetMetal.md).
 
 ## Limitations
 

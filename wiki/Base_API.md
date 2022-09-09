@@ -205,6 +205,12 @@ angle : float
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> Precision
+
+This is the Precision class
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> ProgressIndicator
 
 Progress indicator

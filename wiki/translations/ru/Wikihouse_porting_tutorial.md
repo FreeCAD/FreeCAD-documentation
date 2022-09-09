@@ -1,8 +1,8 @@
 ---
 - TutorialInfo   */ru
-   Topic   * Wikihouse porting tutorial
-   Level   * Intermediate/Advanced
-   Time   * 60 минут
+   Topic   *Руководство по портированию файлов проекта Wikihouse в FreeCAD
+   Level   *Intermediate/Advanced
+   Time   *60 минут
    Author   *
    FCVersion   *
    Files   *
@@ -13,16 +13,10 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
+## Вступление
 
-
-
-</div>
-
-## Introduction
-
-This tutorial will show you how to convert [SketchUp](http   *//www.sketchup.com/) files used by the [Wikihouse](http   *//wikihouse.cc/) project to FreeCAD, making use of the [Arch Panel](Arch_Panel.md) tools in FreeCAD. The result is a full copy of the original SketchUp file, except that it has become fully parametric. The level of parametricism of the final file depends on the work you spend on it, as explained below. But it is totally possible to do things step by step, and rebuild the Wikihouse file rather quickly, and leave the more lengthy conversion of base profiles to sketches for later.
+В данном руководстве показано, как конвертировать [SketchUp](http   *//www.sketchup.com/) файлы, используемые в проекте [Wikihouse](http   *//wikihouse.cc/) в FreeCAD, с помощью инструментов [панелиования](Arch_Panel.md). В результате должна получится полная копия исходного файла SketchUp, за исключением того, что он станет полностью параметризованным. Уровень параметризации конечного файла зависит от количества затраченной на него работы, как описано ниже. Но вполне возможно делать все шаг за шагом и довольно быстро перестраивать файл Wikihouse, а более длительное преобразование базовых профилей в эскизы оставить на потом.
 
 This tutorial will require intermediate knowledge of FreeCAD, that is, you are able to find your way between the different workbenches and tools, are already able to model simple objects, and, above all, are comfortable with [Draft Move](Draft_Move.md) and [Draft Rotate](Draft_Rotate.md). It will use mostly [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) tools, but knowledge of the [Sketcher Workbench](Sketcher_Workbench.md) will become necessary when converting the base profiles to sketches.
 
@@ -30,9 +24,9 @@ Since the Wikihouse project is open by nature, files are easy to find on the pro
 
 In the following tutorial we used the [Chassis](https   *//github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) file from Wikihouse\'s Microhouse subproject.
 
-## Preparing the Sketchup file 
+## Подготовка файла Sketchup 
 
-The first thing you will need to do is to open the file in SketchUp and delete everything you don\'t want to export. We will only export one section of the Microhouse, so everything else must be deleted.
+Первое, что нужно сделать, это открыть файл в SketchUp и удалить все, что вы не хотите экспортировать. Мы будем экспортировать только одну часть Микро-дома, поэтому все остальное должно быть удалено.
 
 ![](images/Arch_Wikihouse_05.jpg )
 

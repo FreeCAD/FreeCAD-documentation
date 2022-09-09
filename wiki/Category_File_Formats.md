@@ -15,9 +15,10 @@ This category collects pages about all the different file formats that FreeCAD i
 | [FreeCAD and Mesh Import](wiki/FreeCAD and Mesh Import.md) | [GlTF](wiki/GlTF.md) | [Import Export](wiki/Import Export.md) |
 | [Import Export Preferences](wiki/Import Export Preferences.md) | [Import from STL or OBJ](wiki/Import from STL or OBJ.md) | [Import/Export IFC - compiling IfcOpenShell](wiki/Import/Export IFC - compiling IfcOpenShell.md) |
 | [Importing From Sketchup](wiki/Importing From Sketchup.md) | [Macro 3DXML import](wiki/Macro 3DXML import.md) | [Macro FCBmpImport](wiki/Macro FCBmpImport.md) |
-| [Macro Iges PyImporter](wiki/Macro Iges PyImporter.md) | [Material](wiki/Material.md) | [OpenSCAD CSG](wiki/OpenSCAD CSG.md) |
-| [PDF](wiki/PDF.md) | [Spreadsheet CSV](wiki/Spreadsheet CSV.md) | [Std Export](wiki/Std Export.md) |
-| [Std Import](wiki/Std Import.md) | [SVG](wiki/SVG.md) |
+| [Macro Iges PyImporter](wiki/Macro Iges PyImporter.md) | [Macro Z Height Map](wiki/Macro Z Height Map.md) | [Material](wiki/Material.md) |
+| [OpenSCAD CSG](wiki/OpenSCAD CSG.md) | [PDF](wiki/PDF.md) | [Spreadsheet CSV](wiki/Spreadsheet CSV.md) |
+| [Std Export](wiki/Std Export.md) | [Std Import](wiki/Std Import.md) | [SVG](wiki/SVG.md) |
+|
 
 
 

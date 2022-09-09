@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Inserează un punct din poziția curentă a robotului (instrument) în traiector
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -25,6 +29,8 @@ Inserează un punct din poziția curentă a robotului (instrument) în traiector
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

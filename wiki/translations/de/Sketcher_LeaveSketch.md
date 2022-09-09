@@ -1,47 +1,26 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher LeaveSketch
-   Name/de   *Skizzierer SkizzeVerlassen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation   *Skizze → Skizze verlassen
-   SeeAlso   *[Skizzierer SkizzeBearbeiten](Sketcher_EditSketch.md)
+   Name/de   *Sketcher Skizze verlassen
+   MenuLocation   *Sketch → SkizzeVerlassen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso   *[Sketcher SkizzeBearbeiten](Sketcher_EditSketch/de.md)
 ---
 
 # Sketcher LeaveSketch/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Der **Skizze verlassen** Befehl verlässt den Skizzenbearbeitungsmodus und gibt das [Aufgabenpaneel](Task_panel/de.md) frei.
-
-
-</div>
+Mit dem Befehl **SkizzeVerlassen** wird der Skizzenbearbeitungsmodus verlassen und der [Aufgabenbereich](Task_panel/de.md) freigegeben.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Es gibt mehrere Möglichkeiten, das Skizzierer SkizzeVerlassen Werkzeug aufzurufen   *
-    -   Drücke die **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** Schaltfläche
-    -   Drücke die **Schließen** Schaltfläche oben auf dem [Aufgabenpaneel](task_panel/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug SkizzeVerlassen aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** drücken.
+    -   Die Schaltfläche **Schließen** oben im [Aufgabenbereich](Task_panel/de.md) drücken.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

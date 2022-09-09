@@ -1,15 +1,13 @@
 ---
 - GuiCommand   */ru
-   Name   *PartDesign Pocket
-   Name/ru   *PartDesign Pocket
-   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation   *PartDesign → Карман
+   Name/ru   *Вырез
+   Name   *PartDesign_Pocket
+   MenuLocation   *Part Design → Create a substractive feature → Вырез
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso   *[Выдавливание](PartDesign_Pad/ru.md)
 ---
 
 # PartDesign Pocket/ru
-
-
-</div>
 
 ## Description
 

@@ -1,17 +1,15 @@
 ---
 - GuiCommand   */ru
-   Name/ru   *Создать дугу эллипса
+   Name/ru   *Эллиптическая дуга
    Name   *Sketcher_CreateArcOfEllipse
-   MenuLocation   *Sketch → Геометрия эскиза → Создать дугу эллипса
+   MenuLocation   *Sketch → Геометрия эскиза → Эллиптическая дуга
    Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut   ***G** **E** **A**
    Version   *0.15
    SeeAlso   *[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
 ---
 
 # Sketcher CreateArcOfEllipse/ru
-
-
-</div>
 
 ## Описание
 
@@ -22,16 +20,10 @@
 
 ## Применение
 
-
-<div class="mw-translate-fuzzy">
-
--   Нажмите кнопку **[<img src=images/Sketcher_CreateArcOfEllipse.png style="width   *24px"> '''Дуга по эллипсу'''**.
+-   Нажмите кнопку **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width   *16px"> [Дуга по эллипсу](Sketcher_CreateArcOfEllipse.md)**.
 -   Первым нажатием в 3D виде задайте точку центра эллипса. Вторым нажатием задайте первый радиус и ориентацию эллипса. Третьим нажатием задайте другой радиус и начало дуги. Четвертым нажатием задайте конец дуги.
 -   После четвертого нажатия создается дуга по эллипсу вместе с набором вспомогательной геометрии, привязанной к нему (большой диаметр, малый диаметр, два фокуса). Вспомогательная геометрия может быть удалена вручную, если не нужна, и воссоздана позже. Смотрите [Выравнивание Внутренних Ограничений](Sketcher_ConstrainInternalAlignment/ru.md) и [Sketcher Показать Скрытую Внутреннюю Геометрию](Sketcher_RestoreInternalAlignmentGeometry/ru.md).
 -   Нажатие **ESC** или правой кнопки мыши отменяет функцию.
-
-
-</div>
 
 ## Особенности
 

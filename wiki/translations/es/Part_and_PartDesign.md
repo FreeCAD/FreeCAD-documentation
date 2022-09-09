@@ -67,7 +67,13 @@ Aunque no es recomendable para los principiantes, es posible combinar herramient
 
 La gente se queda atascada cuando intenta usar alguna operación dentro del Body (en vez de con el Body en sí mismo) como una selección de una operación booleana del banco de trabajo Part. Esto es un problema, porque la operación seleccionada no representa **EL** sólido completo.
 
+
+<div class="mw-translate-fuzzy">
+
 En cierto modo, desde el punto de vista del banco de trabajo Part, el Body (cuerpo) representa otra primitiva. Así pues, usar un Body (recuerde que es un sustituto para la Punta) y un objeto del banco de trabajo Part para realizar una operación booleana es válido. Pero el objeto resultante es un objeto del banco de trabajo Part; y por tanto, las herramientas del banco de trabajo PartDesign no pueden volver a ser utilizadas.
+
+
+</div>
 
 E incluso puede ser aún más complicado. Si crea un nuevo Body y arrastra el resultado de la operación previa dentro del mismo, un objeto Base es creado. Posteriormente se puede salir y usar las herramientas del banco de trabajo PartDesign sobre él.
 
@@ -212,9 +218,9 @@ Los bancos de trabajo Part y PartDesign pueden ser usados juntos con cuidado, cr
 [Arriba](#Top.md)
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/es

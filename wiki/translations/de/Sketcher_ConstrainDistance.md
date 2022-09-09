@@ -74,7 +74,13 @@ Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die f
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

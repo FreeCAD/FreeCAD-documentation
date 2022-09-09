@@ -38,11 +38,11 @@ Le Cylindre peut être édité après sa création de deux façons    *
 
 -    **Label**   * donne le nom du cylindre, changer si nécessaire.
 
--    **Radius**   * c\'est la valeur du rayon de la base du cylindre.
+-    **Radius**   * valeur du rayon de la base du cylindre.
 
 -    **Angle**   * angle de rotation (360° pour un cylindre complet, 0 à 360° pour un quartier).
 
--    **Height**   * la hauteur du cylindre entre les deux faces.
+-    **Height**   * hauteur du cylindre entre les deux faces.
 
 -    **First Angle**   * angle dans la première direction. {{Version/fr|0.20}}
 

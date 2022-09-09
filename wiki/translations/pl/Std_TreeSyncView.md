@@ -1,28 +1,29 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std TreeSyncView
-   MenuLocation   *View → TreeView actions → Sync view
-   Workbenches   *All
+   Name/pl   *Std   * Synchronizuj widok
+   MenuLocation   *Widok → Akcje widoku drzewa → Synchronizuj widok
+   Workbenches   *wszystkie
    Shortcut   ***T** **1**
    Version   *0.19
 ---
 
 # Std TreeSyncView/pl
 
-## Description
+## Opis
 
-The **Std TreeSyncView** command toggles the [Tree view](Tree_view.md) SyncView mode. If this mode is on, selecting an object from a different document in the Tree view automatically activates that document's last used docked [3D view](3D_view.md).
+Polecenie **Synchronizuj widok drzewa** przełącza [Widok drzewa](Tree_view/pl.md) w tryb synchronicznego widoku. Jeśli ten tryb jest włączony, to wybranie obiektu z innego dokumentu w widoku Drzewa automatycznie aktywuje ostatnio używany dokowany [widok 3D](3D_view/pl.md) tego dokumentu.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Sync view** option from the flyout. Note   * the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeSyncView.svg" width=16px> Sync view** option from the menu.
-    -   Use the keyboard shortcut   * **T** then **1**.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **Synchronizuj widok** z menu podręcznego. Uwaga   * obraz przycisku będzie się zmieniał w zależności od wybranej opcji.
+    -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeSyncView.svg" width=16px> Synchronizuj wwidok**.
+    -   Użyj skrótu klawiaturowego   * **T**, a następnie **1**.
 
-## Preferences
+## Ustawienia
 
-The Tree view SyncView mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md)   * **Edit→ Preferences → General → Selection**.
+Tryb Synchronizacja widoku drzewa można również ustawić w [Edytorze preferencji](Preferences_Editor/pl#Zaznaczenie.md)   * **Edycja → Preferencje ... → Ogólne → Zaznaczanie**.
 
 
 

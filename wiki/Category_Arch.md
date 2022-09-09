@@ -43,8 +43,8 @@ This category list pages related to the [Arch Workbench](Arch_Workbench.md), the
 | [Reinforcement API](wiki/Reinforcement API.md) | [SweetHome3D](wiki/SweetHome3D.md) | [Tutorial custom placing of windows and doors](wiki/Tutorial custom placing of windows and doors.md) |
 | [Tutorial for open windows](wiki/Tutorial for open windows.md) | [WikiRobots](wiki/WikiRobots.md) | [WikiRobots/de](wiki/WikiRobots/de.md) |
 | [WikiRobots/en](wiki/WikiRobots/en.md) | [WikiRobots/fr](wiki/WikiRobots/fr.md) | [WikiRobots/it](wiki/WikiRobots/it.md) |
-| [WikiRobots/pl](wiki/WikiRobots/pl.md) | [Category:Reinforcement](wiki/Category_Reinforcement.md) | [Category:Reinforcement/pl](wiki/Category_Reinforcement/pl.md) |
-|
+| [WikiRobots/pl](wiki/WikiRobots/pl.md) | [WikiRobots/ru](wiki/WikiRobots/ru.md) | [Category:Reinforcement](wiki/Category_Reinforcement.md) |
+| [Category:Reinforcement/pl](wiki/Category_Reinforcement/pl.md) |
 
 
 

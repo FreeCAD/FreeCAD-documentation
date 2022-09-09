@@ -10,7 +10,7 @@
 
 ## Description
 
-\'Miroir\' - Cet outil crée un nouvel objet (image) qui est la réflexion de l\'objet source sélectionné par rapport à un plan miroir. Le plan miroir peut être un plan standard (**XY**, **YZ**, ou **XZ**) ou n\'importe quel plan parallèle à un plan standard.
+**Part Miroir** crée un nouvel objet (image) qui est la réflexion de l\'objet source sélectionné par rapport à un plan miroir. Le plan miroir peut être un plan standard (**XY**, **YZ**, ou **XZ**) ou n\'importe quel plan parallèle à un plan standard.
 
 Un exemple    *
 
@@ -35,7 +35,7 @@ Les cases **Point de base** peuvent être utilisées pour déplacer le miroir pl
 
   Plan miroir   Point de base   Résultat
     
-  **XY**        **Z**           Déplace le plan de symmétrie le long de l\'axe *Z*.
+  **XY**        **Z**           Déplace le plan de symmétrie le long de l\'axe **Z**.
   **XY**        **X**, **Y**    Pas d\'effet.
   **XZ**        **Y**           Déplace le plan de symmétrie le long de l\'axe **Y**.
   **XZ**        **X**, **Z**    Pas d\'effet.

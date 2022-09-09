@@ -2,20 +2,17 @@
 - GuiCommand   */ru
    Name/ru   *Создать опорную плоскость
    Name   *PartDesign_Plane
-   MenuLocation   *PartDesign → Create a datum → Создать опорную плоскость
+   MenuLocation   *Part Design → Create a datum → Создать опорную плоскость
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md)
+   SeeAlso   *[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорный отрезок](PartDesign_Line/ru.md)
 ---
 
 # PartDesign Plane/ru
 
-
-</div>
-
 ## Описание
 
-Creates a **datum plane** which can be used as reference for sketches or other datum geometry. Sketches can be attached to datum planes. ![](images/Datum_plane.png ) *Datum Plane crossing 3 corners of the Cube with a Cylinder sketched on it using the Datum Plane as its X-Y Plane.*
+Создает **опорную плоскость**, которую можно использовать для размещения эскизов или другой опорной геометрии. Эскизы можно размещать на опорных плоскостях. ![](images/Datum_plane.png ) *Datum Plane crossing 3 corners of the Cube with a Cylinder sketched on it using the Datum Plane as its X-Y Plane.*
 
 ## Требования
 

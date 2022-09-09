@@ -7,6 +7,8 @@
 
 # Robot CreateTrajectory/de
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -16,6 +18,8 @@ Fügt ein neues leeres Bewegungsbahn-Objekt in die Szene ein.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

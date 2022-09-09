@@ -25,9 +25,9 @@ Narzędzie <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *2
 3.  Istnieje kilka sposobów wywołania narzędzia   *
     -   Naciśnij przycisk **<img src="images/PartDesign_PolarPattern.svg" width=16px> [Szyk kołowy](PartDesign_PolarPattern/pl.md)**,
     -   Wybierz opcję z menu **Projekt Części → Zastosuj wzór → <img src="images/PartDesign_PolarPattern.svg" width=16px> Szyk kołowy**.
-4.  Jeśli nie ma aktywnej Zawartości, a w dokumencie są dwie lub więcej Zawartości, otworzy się okno dialogowe **Wymagana jest aktywna zawartość** i poprosi o uaktywnienie jednej z nich. Jeśli istnieje jedna Zawartość, zostanie ona aktywowany automatycznie.
+4.  Jeśli nie ma aktywnej Zawartości, a w dokumencie są dwie lub więcej Zawartości, otworzy się okno dialogowe **Wymagana jest aktywna zawartość** i poprosi o uaktywnienie jednej z nich. Jeśli istnieje jedna Zawartość, zostanie ona aktywowana automatycznie.
 5.  Jeśli nie wybrano żadnych cech, zostanie wyświetlone okno dialogowe **Wybierz cechę** otworzy się [panel zadań](Task_panel/pl.md)   * wybierz jedną lub więcej *(przytrzymaj klawisz **Ctrl**)* z listy i naciśnij przycisk **OK**.
-6.  Parametry **Szyk kołowy** otwiera się [panel zadań](Task_panel/pl.md). Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+6.  Otwórz [panel zadań](Task_panel/pl.md) Parametry **Szyku kołowego**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
 7.  Naciśnij przycisk **OK**, aby zakończyć.
 
 ### Edycja
@@ -40,62 +40,62 @@ Narzędzie <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *2
 
 ## Opcje
 
--   To add features   *
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features   *
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following   *
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [Ordering features](#Ordering_features.md).
--   Specify the **Axis** of the pattern   *
+-   Aby dodać cechy   *
+    1.  Naciśnij przycisk **Dodaj cechę**.
+    2.  Wybierz cechę w oknie [Widoku drzewa](Tree_view/pl.md) lub w oknie [Widoku 3D](3D_view/pl.md).
+    3.  Powtórz, aby dodać więcej cech.
+-   Aby usunąć cechy   *
+    1.  Naciśnij przycisk **Usuń cechę**.
+    2.  Wykonaj jedną z następujących czynności   *
+        -   Wybierz cechę w oknie [Widoku drzewa](Tree_view/pl.md) lub w oknie [Widoku 3D](3D_view/pl.md).
+        -   Zaznacz cechę na liście i naciśnij klawisz **Del**.
+        -   Kliknij prawym przyciskiem myszy cechę na liście i wybierz z menu podrzędnego opcję **Usuń**.
+    3.  Powtórz czynność, aby usunąć więcej cech.
+-   Jeśli we wzorcu znajduje się kilka cech, ich kolejność może być ważna. Zobacz sekcję [Oczekiwane funkcje](PartDesign_PolarPattern/pl#Oczekiwane_funkcje.md).
+-   Określenie **Osi** wzorca   *
     -   
-        **Normal sketch axis**
+        **Normalna oś szkicu**
         
-           * The Z axis of the sketch (only available for sketch-based features).
+           * Oś Z szkicu *(dostępna tylko dla cech opartych na szkicu)*.
 
     -   
-        **Vertical sketch axis**
+        **Pionowa oś szkicu**
         
-           * The Y axis of the sketch (idem).
+           * Oś Y szkicu *(analogicznie)*.
 
     -   
-        **Horizontal sketch axis**
+        **Pozioma oś szkicu**
         
-           * The X axis of the sketch (idem).
+           * Oś X szkicu *(analogicznie)*.
 
     -   
-        **Construction line #**
+        **Linia konstrukcyjna #**
         
-           * A separate entry for each construction line in the sketch (idem).
+           * Osobny wpis dla każdej linii konstrukcyjnej w szkicu *(analogicznie)*.
 
     -   
-        **Base X axis**
+        **Podstawowa oś X**
         
-           * The X axis of the Body.
+           * Oś X Zawartości.
 
     -   
-        **Base Y axis**
+        **Podstawowa oś Y**
         
-           * The Y axis of the Body.
+           * Oś Y Zawartości.
 
     -   
-        **Base Z axis**
+        **Podstawowa oś Z**
         
-           * The Z axis of the Body.
+           * Oś Z Zawartości.
 
     -   
-        **Select reference...**
+        **Wybór odniesienia...**
         
-           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
--   Check the **Reverse direction** checkbox to reverse the pattern.
--   Specify the **Angle** to be covered by the pattern.
--   Specify the number of **Occurrences** (including the original feature).
--   If the **Update view** checkbox is checked the view will update in real time.
+           * Wybierz [Linię odniesienia](PartDesign_Line/pl.md) w oknie [Widok drzewa](Tree_view/pl.md) lub [Linię odniesienia](PartDesign_Line/pl.md) lub krawędź w oknie [Widok 3D](3D_view/pl.md).
+-   Zaznacz pole wyboru **Odwróć kierunek**, aby odwrócić wzór.
+-   Określ **Kąt**, który ma być objęty wzorcem.
+-   Określ liczbę **Wystąpień** *(łącznie z cechą oryginalną)*.
+-   Jeśli zaznaczone jest pole wyboru **Aktualizuj widok**, widok będzie aktualizowany w czasie rzeczywistym.
 
 ## Oczekiwane funkcje 
 

@@ -3,7 +3,7 @@
 
 ## Introduction
 
-L\'atelier SheetMetal est devenu très puissant et exige une documentation appropriée.
+L\'<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width   *24px;"> [atelier SheetMetal](SheetMetal_Workbench/fr.md) (un [atelier externe](External_workbenches/fr.md) disponible via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)) est devenu assez puissant et mérite d\'être documenté de manière appropriée.
 
 Pour éviter de surcharger les pages d\'outils avec des exemples, cette page a été ajoutée pour rassembler les pièces montrant et expliquant les caractéristiques spéciales de SheetMetal.
 
@@ -262,106 +262,118 @@ Cette propriété est le rayon intérieur des pliures créées aux sommets où d
 
 <div class="mw-collapsible mw-collapsed">
 
-### Bend object <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *24px;"> 
+### Objet Bend <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *24px;"> 
 
 
 <div class="mw-collapsible-content toccolours">
 
-A Bend object consists of sets of one cylindrical bend and one planar strip each. Each pair extends from a selected edge of a blank.
+Un objet Bend est constitué d\'ensembles comprenant chacun un pli cylindrique et une bande plane. Chaque paire s\'étend à partir d\'un bord sélectionné d\'une tôle.
 
 <img alt="" src=images/SheetMetal_Example-09a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09b.png  style="width   *200px;">
 
 
 
-*Selected edges + 
-**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)* 
-→ Bend objects with default settings <br>
-(Two Bend objects in two separate bodies.)**
+*Bords sélectionnés + 
+**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)* 
+→ Plier les objets avec les paramètres par défaut <br>
+(Deux objets pliés dans deux corps distincts.)**
 
-Edit **radius** to vary the inner radius of all bends supplied by a Bend object. (See BaseBend object above)
+Modifiez **radius** pour faire varier le rayon intérieur de tous les plis fournis par un objet Bend. (Voir l\'objet BaseBend ci-dessus)
 
-Edit **length** to vary the length of all planar strips extending from the bends of a Bend object.
+Modifiez **length** pour faire varier la longueur de toutes les bandes planes s\'étendant depuis les plis d\'un objet Bend.
 
-   *   Don\'t confuse the **length** with a flange length which is the sum of this length, radius, and thickness (90° only).
+   *   Ne confondez pas **length** avec une longueur de bride qui est la somme de cette longueur, du rayon et de l\'épaisseur (90° uniquement).
 
 <img alt="" src=images/SheetMetal_Example-09b.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;">
 
 
 
-*Switch **invert* from {{FALSE** to `True`   *Default flanges (Bend objects) → Inverted flanges}}
+*Faire passer **invert* de {{FALSE** à `True`    * Brides par défaut (objets Bend ) → Brides inversées}}
 
 <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09e.png  style="width   *200px;">
 
 
 
-*Edit **angle*   *Default angle (90°) → Enlarged angle → Decreased angle**
+*Editer **angle*    * Angle par défaut (90°) → Angle agrandi → Angle diminué**
 
-We don\'t have to care about trimming the edges, because **Auto Miter** is activated by default.
-If deactivated, the result would look like this   *
+Nous n\'avons pas à nous soucier de la coupe des bords, car **Auto Miter** est activé par défaut.
+Si elle était désactivée, le résultat ressemblerait à ceci    *
 
 <img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09f.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09g.png  style="width   *200px;">
 
 
 
-*Switch **Auto Miter* from {{TRUE** to `False`   * Default angle (90°) → Enlarged angle → Decreased angle<br>
-(Auto Miter has no effect on single flanges)}}
+*Faites passer **Auto Miter* de {{TRUE** à `False`    * Angle par défaut (90°) → Angle agrandi → Angle diminué.<br>
+(Auto Miter n'a aucun effet sur les brides simples)}}
 
-To manually miter a flange edge **miterangle1** and **miterangle2** are used   *
+Pour réaliser manuellement l\'onglet d\'un bord de bride, on utilise *\'miterangle1* et *\'miterangle2*    *
 
 <img alt="" src=images/SheetMetal_Example-09m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09n.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09o.png  style="width   *200px;">
 
 
 
-*Edit **miterangle1* and {{PropertyData|miterangle2**   * No miter (default) → Differently mitered edges, positive angle → Symmetrically mitered edges, negative angles}}
+*Modifiez **miterangle1* et {{PropertyData|miterangle2**    * Pas d'onglet (par défaut) → Bords à onglets différents, angle positif → Bords à onglets symétriques, angles négatifs}}
 
-Mitering only effects the planar strips, not the bends.
+Les onglets n\'affectent que les bandes planes, pas les plis.
 
-   *   (It takes the whole edge into account and so cannot be used to chamfer flange edges)
+   *   (Prise en compte de l\'ensemble du bord et ne peut donc pas être utilisé pour chanfreiner les bords des brides)
 
-To display the different choices of **Bend Type** we introduce an auxiliary cuboid that extrudes from the same outline as the blank and has the same height as the Bend object (its flange length).
+Pour montrer les différents choix de **Type de pliage**, nous introduisons un cuboïde auxiliaire qui extrude du même contour que la tôle et a la même hauteur que l\'objet Bend (sa longueur de bride).
 
 <img alt="" src=images/SheetMetal_Example-09h.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09i.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09j.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09k.png  style="width   *200px;">
 
 
 
-*Select **Bend Type*   * {{value|Material Outside** (default) → {{value|Material Inside}} → {{value|Thickness Outside}} → {{value|Offset}}}}
+*Sélectionnez **Bend Type*    * {{value|Material Outside** (par défaut) → {{value|Material Inside}} → {{value|Thickness Outside}} → {{value|Offset}}}}
 
--   Outside   * The bend starts at the selected edge (The whole Bend object lies outside the cuboid).
--   Inside   * The outer side of the bend ends on the cuboid surface (The whole Bend object lies inside the cuboid).
--   Thickness Outside   * The inner side of the bend ends on the cuboid surface (only the planar strip is protruding from the cuboid surface).
--   Offset   * According to the value of **offset** the bend is moved in outward direction from its default position.
+-   Extérieur    * Le pli commence au bord sélectionné (l\'ensemble de l\'objet Bend se trouve à l\'extérieur du cuboïde).
+-   Intérieur    * Le côté extérieur du pli se termine sur la surface du cuboïde (l\'ensemble de l\'objet Bend se trouve à l\'intérieur du cuboïde).
+-   Épaisseur extérieure    * Le côté intérieur du pli se termine sur la surface du parallélépipède (seule la bande planaire dépasse de la surface du parallélépipède).
+-   Décalage    * Selon la valeur de **offset**, le pli est déplacé vers l\'extérieur à partir de sa position par défaut.
 
-   *   An extension is inserted for positive values (high-lighted strip).
-   *   Negative values are allowed to move the bend inwards.
+   *   Une extension est insérée pour les valeurs positives (bande en surbrillance).
+   *   Les valeurs négatives permettent de déplacer le pli vers l\'intérieur.
 
-If we don\'t want to use the whole length of an edge we can use **gap1** and **gap2**.
+Si nous ne voulons pas utiliser toute la longueur d\'un bord, nous pouvons utiliser **gap1** et **gap2**.
 
 <img alt="" src=images/SheetMetal_Example-09c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09l.png  style="width   *200px;">
 
 
 
-*Edit **gap1* and {{PropertyData|gap2**   * Default flanges → Flanges with different values for gap1 and gap2}}
+*Modifiez **gap1* et {{PropertyData|gap2**    * Brides par défaut → Brides avec des valeurs différentes pour gap1 et gap2.}}
 
-If the length of a gap reaches or extends the value of **min Relief Gap**, a relief will be added to the gap.
-Reliefs are controlled by **relief Type**, **reliefd** (relief depth), and **reliefw** (relief width) which are enabled only when a gap value is set.
+Si la longueur d\'un espace atteint ou dépasse la valeur de **min Relief Gap**, un grugeage sera ajouté à cet espace.
+Les grugeages sont contrôlés par **relief Type**, **reliefd** (profondeur du grugeage), et **reliefw** (largeur du grugeage) qui ne sont activés que lorsqu\'une valeur d\'écart est définie.
 
 <img alt="" src=images/SheetMetal_Example-09p.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09q.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09r.png  style="width   *200px;">
 
 
 
-*Edit **reliefd* and {{PropertyData|reliefw**   * Default values → Relief depth enlarged → Relief depth and width enlarged}}
+*Modifiez **reliefd* et {{PropertyData|reliefw**    * Valeurs par défaut → Profondeur du grugeage agrandi → Profondeur et largeur du grugeage agrandies}}
 
 <img alt="" src=images/SheetMetal_Example-09r.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-09s.png  style="width   *200px;">
 
 
 
-*Switch **relief Type* from {{value|Rectangle** to {{value|Round}}   * Default rectangular relief → Round relief}}
+*Faites passer **relief Type* de {{value|Rectangle** à {{value|Round}}    * Grugeage rectangulaire par défaut → Grugeage rond}}
 
-The round option will only be applied, if the relief depth is larger than the relief width.
+L\'option ronde ne sera appliquée que si la profondeur du grugeage est supérieure à la largeur du grugeage.
 
-Switch **Use Relief Factor** from `False` (default) to `True` to set the values of **reliefd** and **reliefw** automatically. Both are set to the object\'s (inherited) thickness multiplied by the value of **Relief Factor**.
+Faites passer **Use Relief Factor** de `False` (valeur par défaut) à `True` pour définir automatiquement les valeurs de **reliefd** et **reliefw**. Ces deux valeurs sont définies sur l\'épaisseur (héritée) de l\'objet multipliée par la valeur de **Relief Factor**.
 
-   *   In this case the round option is useless, since the relief depth is as large as the relief width. (See above)
+   *   Dans ce cas, l\'option ronde est inutile, puisque la profondeur du grugeage est aussi grande que la largeur du grugeage. (Voir ci-dessus)
+
+Une nouvelle propriété **Length Spec** {{Version/fr|1.0}} nous permet de choisir comment mesurer la longueur de l\'objet Bend    *
+
+<img alt="" src=images/SheetMetal_Example-09t.png  style="width   *500px;"> 
+*Vue latérale de quatre brides de 120° avec une longueur par défaut (10 mm) et différentes valeurs de **Length Spec*    * <br> {{value|Leg** (par défaut), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}}}
+
+Lorsque l\'option {{value|Tangential}} est sélectionnée, la propriété **length** est l\'équivalent de la longueur de la bride.
+
+
+{{value|Outer Sharp}}
+
+et {{value|Tangential}} sont identiques pour des angles de 90°.
 
 
 </div>

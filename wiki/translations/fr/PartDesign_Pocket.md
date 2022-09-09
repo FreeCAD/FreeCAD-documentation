@@ -67,13 +67,13 @@ Décalage de la surface à laquelle la cavité se terminera. Cette option n\'est
 
 {{Version/fr|0.20}}
 
-#### Direction/bord
+#### Direction/arête
 
 Vous pouvez sélectionner la direction de la protrusion    *
 
--   **Face/Sketch normal** L\'esquisse ou la face est extrudée le long de sa normale. Si vous avez sélectionné plusieurs esquisses ou faces à extruder, la normale de la première sera utilisée. {{Version/fr|0.20}}
--   **Select reference\...** L\'esquisse est extrudée le long d\'une arête du modèle 3D. Lorsque cette méthode est sélectionnée, vous pouvez cliquer sur n\'importe quelle arête du modèle 3D. Celle-ci devient alors le vecteur de direction pour la protrusion.
--   **Custom direction** L\'esquisse est extrudée selon une direction qui peut être spécifiée par des valeurs vectorielles.
+-   **Normale à l\'esquisse** L\'esquisse ou la face est extrudée le long de sa normale. Si vous avez sélectionné plusieurs esquisses ou faces à extruder, la normale de la première sera utilisée. {{Version/fr|0.20}}
+-   **Sélectionnez une reference\...** L\'esquisse est extrudée le long d\'une arête du modèle 3D. Lorsque cette méthode est sélectionnée, vous pouvez cliquer sur n\'importe quelle arête du modèle 3D. Celle-ci devient alors le vecteur de direction pour la protrusion.
+-   **Direction personnalisée** L\'esquisse est extrudée selon une direction qui peut être spécifiée par des valeurs vectorielles.
 
 #### Afficher la direction 
 
@@ -91,23 +91,23 @@ Cochez la case pour extruder la moitié de la longueur donnée de chaque côté 
 
 Inverse la direction de la cavité.
 
-### Angle de conicité 
+### Angle de dépouille/contre dépouille 
 
 
 {{Version/fr|0.20}}
 
-Génère la cavité dans le sens de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la cavité s\'élargit. Cette option n\'est disponible que si le **Type** est mis soit à **Dimension** soit à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle de conicité opposé. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
+Génère la cavité dans le sens de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la cavité s\'élargit. Cette option n\'est disponible que si le **Type** est mis soit à **Dimension** soit à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle d\'inclinaison opposée. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
 
 Limitations    *
 
--   Les esquisses contenant des [B-splines](B-Splines/fr.md) ne peuvent souvent pas être correctement formées. Il s\'agit d\'une limitation du noyau d\'[OpenCASCADE](OpenCASCADE/fr.md) utilisé par FreeCAD.
--   Pour des angles trés importants, le cone échouera si la face finale de la cavité a moins d\'arêtes que la face/esquisse de départ.
+-   Les esquisses contenant des [B-splines](B-Splines/fr.md) ne peuvent souvent pas être correctement formées. Il s\'agit d\'une limitation du noyau [OpenCASCADE](OpenCASCADE/fr.md) que FreeCAD utilise.
+-   Pour des angles plus importants, le cône échouera si la dernière face de la cavité a moins d\'arêtes que la face/esquisse de départ.
 
 ### 2ème longueur 
 
 Définit la longueur de la cavité dans le sens d\'extrusion opposé. Plusieurs unités peuvent être utilisées indépendamment des préférences de l\'utilisateur (m, cm, mm, nm, ft ou \', in ou \"). Cette option n\'est disponible que si le **Type** est à **Deux dimensions**.
 
-### 2ème angle de conicité 
+### 2ème angle de dépouille/contre dépouille 
 
 
 {{Version/fr|0.20}}

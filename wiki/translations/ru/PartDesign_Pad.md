@@ -19,12 +19,12 @@
 
 ## Применение
 
-1.  Выберите один эскиз или грань для выдавливания. <small>(v0.20)</small>    * Можно также выбрать несколько эскизов или граней.
+1.  Выберите один эскиз или грань для выдавливания. {{Version/ru|0.20}}   * Можно также выбрать несколько эскизов или граней.
 2.  Нажмите кнопку **<img src="images/PartDesign_Pad.svg" width=16px> [Выдавливание](PartDesign_Pad/ru.md)**.
 3.  Установите параметры Выдавливания, смотрите [Опции](#Options.md) ниже.
 4.  Нажмите **OK**.
 
-При выборе одного эскиза он может иметь несколько замкнутых профилей внутри большего, например прямоугольник с двумя окружностями внутри. Но профили могут не пересекаться друг с другом. <small>(v0.20)</small> 
+При выборе одного эскиза он может иметь несколько замкнутых профилей внутри большего, например прямоугольник с двумя окружностями внутри. Но профили могут не пересекаться друг с другом. {{Version/ru|0.20}}
 
 ## Опции
 
@@ -46,7 +46,7 @@ The pad will extrude up to the last face of the support in the extrusion directi
 
 #### К первому 
 
-The pad will extrude up to the first face of the support in the extrusion direction. If there is no support, an error message will appear.
+Контур будет выдавлен до первой встречной грани детали в направлении выдавливания. Если такая грань не будет обнаружена, появится сообщение об ошибке.
 
 #### До грани 
 
@@ -70,7 +70,7 @@ Offset from face at which the pad will end. This option is only available when *
 
 You can select the direction of the extrusion   *
 
--   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
 -   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
 -   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
 
@@ -82,7 +82,7 @@ If checked, the pad direction will be shown. In case the pad uses a **Custom dir
 
 If checked, the pad length is measured along the sketch normal, otherwise along the custom direction. <small>(v0.20)</small> 
 
-### Symmetric to plane 
+### Симметрично плоскости 
 
 Tick the checkbox to extrude half of the given length to either side of the sketch or plane.
 
@@ -109,7 +109,7 @@ Defines the length of the pad in the opposite extrusion direction. Multiple unit
 ### 2nd taper angle 
 
 
-<small>(v0.20)</small> 
+{{Version/ru|0.20}}
 
 Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 

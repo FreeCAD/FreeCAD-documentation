@@ -1,15 +1,12 @@
 ---
 - GuiCommand   */ru
-   Name   *Sketcher StopOperation
    Name/ru   *Остановить операцию
+   Name   *Sketcher_StopOperation
+   MenuLocation   *Эскиз → Остановить операцию
    Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   MenuLocation   *Sketch → Остановить операцию
 ---
 
 # Sketcher StopOperation/ru
-
-
-</div>
 
 ## Описание
 

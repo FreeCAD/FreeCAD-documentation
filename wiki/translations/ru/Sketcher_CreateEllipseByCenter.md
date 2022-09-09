@@ -4,14 +4,12 @@
    Name   *Sketcher_CreateEllipseByCenter
    MenuLocation   *Sketch → Геометрия эскиза → Создать эллипс от центра
    Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut   ***G** **E** **E**
    Version   *0.15
    SeeAlso   *[Создать эллипс по трём точкам](Sketcher_CreateEllipseBy3Points/ru.md), [Создать окружность](Sketcher_CreateCircle/ru.md), [Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md)
 ---
 
 # Sketcher CreateEllipseByCenter/ru
-
-
-</div>
 
 ## Описание
 

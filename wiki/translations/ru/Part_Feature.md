@@ -70,7 +70,7 @@ These are the properties available in the [property editor](Property_editor.md).
 
 -    **Visibility|Bool|Hidden**   * whether to display the object or not.
 
-### View
+### Вид
 
 Most objects in FreeCAD have what is called a \"[viewprovider](viewprovider.md)\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [Tree view](Tree_view.md). The default viewprovider of Part Feature objects defines the following properties. Scripted objects that are derived from Part Feature will have access to these properties as well.
 

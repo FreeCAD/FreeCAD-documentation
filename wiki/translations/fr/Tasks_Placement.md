@@ -13,14 +13,14 @@ La fonction **Positionnement** peut être accessible de plusieurs façons   *
 
 -   ou, dans la fenêtre **Vue combinée → Propriétés → Données → Placement → **...****,
 
-   *   ![Task\_Placement](images/Tache_Placement_fr_01.png )
+   *   ![Task Placement](images/Tache_Placement_fr_01.png )
 
 -   ou par le menu **Edition → Placement\...**.
 
 ### Activer Placement dans la fenêtre Affichage 
 
 -   Cliquez sur une forme pour la sélectionner.
--   Cliquez sur **Placement** (le titre, pas la petite flèche) et une ellipse **...** apparaît   * <img alt="Tache\_Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">
+-   Cliquez sur **Placement** (le titre, pas la petite flèche) et une ellipse **...** apparaît   * <img alt="Tache Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">
 -   Cliquez sur l\'ellipse et le **Boîte de dialogue de Placement** est affiché   *
 
    *   ![](images/Tache_Placement_en_02.png )
@@ -55,7 +55,7 @@ La fonction **Positionnement** peut être accessible de plusieurs façons   *
 
 Pour ajuster nos **paramètres de rotation**, deux moyens sont possibles.
 
--   Première option. Sélectionner **Axe de rotation et angle** <img alt="Tache\_Placement Option Axe de rotation et angle" src=images/Tache_Placement_fr_05.png  style="width   *256px;"> (Par défaut)
+-   Première option. Sélectionner **Axe de rotation et angle** <img alt="Tache Placement Option Axe de rotation et angle" src=images/Tache_Placement_fr_05.png  style="width   *256px;"> (Par défaut)
     -   
         {{TasksTag|Axis   * X}}
         
@@ -76,7 +76,7 @@ Pour ajuster nos **paramètres de rotation**, deux moyens sont possibles.
         
            * Angle de rotation en **degrés** de **-360,00°** à **360,00°**. ( Par défaut    * **0,00°**).
 
--   Deuxième option. Sélectionnez **Angles d\'Euler** <img alt="Tache\_Placement Option Angles d\'Euler" src=images/Tache_Placement_fr_04.png  style="width   *256px;">.
+-   Deuxième option. Sélectionnez **Angles d\'Euler** <img alt="Tache Placement Option Angles d\'Euler" src=images/Tache_Placement_fr_04.png  style="width   *256px;">.
 
 Cette option peut être plus facile à travailler, toutefois, même dans ce mode, il y a des choses importantes à retenir    * les rotations positives sont dans le sens **Horaire**, en regardant depuis l\'origine le long d\'un axe positif. Ou pour le dire autrement, les rotations positives sont dans le sens \'\'\' anti-horaire \'\'\', en regardant vers l\'origine le long d\'un axe positif.
 

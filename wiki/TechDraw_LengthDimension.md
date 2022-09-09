@@ -206,9 +206,9 @@ The dimension dialog offers the following settings   *
 
 -    **Font Size**   * Dimension text size.
 
--    **Gap Factor ASME**   * Adjusts the gap between dimension points and start of extension line. The gap is this value times line width. <small>(v1.0)</small> 
+-    **Gap Factor ASME**   * Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
 
--    **Gap Factor ISO**   * Adjusts the gap between dimension points and start of extension line. The gap is this value times line width. <small>(v1.0)</small> 
+-    **Gap Factor ISO**   * Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
 
 -    **Line Width**   * Dimension line weight.
 

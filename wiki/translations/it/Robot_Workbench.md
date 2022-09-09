@@ -8,7 +8,7 @@ Il motivo per cui questo ambiente è ancora nel codice sorgente principale è pe
 
 <img alt="L\'icona dell\'ambiente Robot" src=images/Workbench_Robot.svg  style="width   *128px;">
 
-L\'ambiente <img alt="" src=images/Workbench_Robot.svg  style="width   *24px;"> [Robot Workbench](Robot_Workbench.md) è uno strumento per simulare un [Robot a 6 assi](Robot_6-Axis/it.md) di tipo industriale, come per esempio i robot [Kuka](http   *//kuka.com/).
+L\'[Ambiente Robot](Robot_Workbench/it.md) <img alt="" src=images/Workbench_Robot.svg  style="width   *24px;"> è uno strumento per simulare un [Robot a 6 assi](Robot_6-Axis/it.md) di tipo industriale, come per esempio i robot [Kuka](http   *//kuka.com/).
 
 È possibile eseguire le seguenti operazioni   *
 

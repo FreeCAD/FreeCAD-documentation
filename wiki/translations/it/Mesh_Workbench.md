@@ -5,7 +5,7 @@
 
 ## Introduzione
 
-L\'ambiente [Mesh](Mesh_Workbench/it.md) gestisce i reticoli triangolari degli oggetti [mesh](http   *//en.wikipedia.org/wiki/Triangle_mesh). Gli oggetti mesh sono un tipo speciale di oggetti 3D, composti da facce triangolari (le maglie della griglia) connesse lungo i loro bordi e nei loro vertici. Oggetti tessellati.
+L\'[Ambiente Mesh](Mesh_Workbench/it.md) <img alt="" src=images/Workbench_Mesh.svg  style="width   *24px;"> gestisce i reticoli triangolari degli oggetti [mesh](http   *//en.wikipedia.org/wiki/Triangle_mesh). Gli oggetti mesh sono un tipo speciale di oggetti 3D, composti da facce triangolari (le maglie della griglia) connesse lungo i loro bordi e nei loro vertici. Oggetti tessellati.
 
 Molte applicazioni 3D utilizzano i mesh come tipo principale di oggetti 3D, ad esempio   * [Sketchup](http   *//en.wikipedia.org/wiki/Sketchup), [Blender](http   *//en.wikipedia.org/wiki/Blender_(software)), [Maya](http   *//en.wikipedia.org/wiki/Maya_(software)) e [3D Studio Max](http   *//en.wikipedia.org/wiki/3d_max). Dato che i mesh sono oggetti molto semplici, contenenti solo vertici (punti), bordi e facce (triangoli), sono molto facili da creare, modificare, suddividere, allungare, e altrettanto facili da trasferire da un\'applicazione all\'altra senza alcuna perdita di informazioni. Inoltre, dal momento che contengono dati molto semplici, le applicazioni 3D ne possono gestire grandi quantità senza alcun problema. Per queste ragioni, gli oggetti mesh sono spesso il tipo di oggetto 3D utilizzato dalle applicazioni che si occupano di cinema, animazione e creazione di immagini.
 

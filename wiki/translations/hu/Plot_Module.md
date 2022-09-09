@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Plot Module/hu
+![](images/Right_arrow.png) [documentation index](../README.md) > [Plot](Plot_Workbench.md) > Plot Module/hu

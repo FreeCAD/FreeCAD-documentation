@@ -1,4 +1,7 @@
 # Macro Mouse over cb/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Mouse over cb
 |Icon=Macro_Mouse_over_cb.png
@@ -12,9 +15,18 @@
 |SeeAlso=[Macro FC element selector](Macro_FC_element_selector.md) [<img src=images/Macro_FC_element_selector.png style="width   *24px">
 }}
 
+
+</div>
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questa macro mostra tutti gli elementi sotto il mouse (verranno visualizzati anche tutti gli elementi coperti da altri elementi)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

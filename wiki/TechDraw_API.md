@@ -8,13 +8,13 @@ This is a module for making drawings
 
 #### <img src="images/type_method.svg" style="width:16px;"> edgeWalker
 
-[wires] = edgeWalker(edgePile,inclBiggest) -- Planar graph traversal finds wires in edge pile.
+[wires] = edgeWalker(edgePile, inclBiggest) -- Planar graph traversal finds wires in edge pile.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> findCentroid
 
-vector = findCentroid(shape,direction): finds geometric centroid of shape looking in direction.
+vector = findCentroid(shape, direction): finds geometric centroid of shape looking in direction.
 
 
 
@@ -26,7 +26,7 @@ wire = findOuterWire(edgeList) -- Planar graph traversal finds OuterWire in edge
 
 #### <img src="images/type_method.svg" style="width:16px;"> findShapeOutline
 
-wire = findShapeOutline(shape,scale,direction) -- Project shape in direction and find outer wire of result.
+wire = findShapeOutline(shape, scale, direction) -- Project shape in direction and find outer wire of result.
 
 
 
@@ -56,21 +56,21 @@ makeGeomHatch(face, [patScale], [patName], [patFile]) -- draw a geom hatch on a 
 
 #### <img src="images/type_method.svg" style="width:16px;"> project
 
-[visiblyG0,visiblyG1,hiddenG0,hiddenG1] = project(TopoShape[,App.Vector Direction, string type])
+[visiblyG0, visiblyG1, hiddenG0, hiddenG1] = project(TopoShape[, App.Vector Direction, string type])
  -- Project a shape and return the visible/invisible parts of it.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> projectEx
 
-[V,V1,VN,VO,VI,H,H1,HN,HO,HI] = projectEx(TopoShape[,App.Vector Direction, string type])
+[V, V1, VN, VO, VI, H,H1, HN, HO, HI] = projectEx(TopoShape[, App.Vector Direction, string type])
  -- Project a shape and return the all parts of it.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> projectToDXF
 
-string = projectToDXF(TopoShape[,App.Vector Direction, string type])
+string = projectToDXF(TopoShape[, App.Vector Direction, string type])
  -- Project a shape and return the DXF representation as string.
 
 

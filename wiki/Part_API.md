@@ -38,7 +38,7 @@ simplified mesh generation
 
 #### <img src="images/type_method.svg" style="width:16px;"> getShape
 
-Obtain the the TopoShape of a given object with SubName reference
+Obtain the TopoShape of a given object with SubName reference
 
 * obj: the input object
 * subname: dot separated sub-object reference
@@ -117,6 +117,12 @@ maker_class_name is a string like 'Part::FaceMakerSimple'.
 #### <img src="images/type_method.svg" style="width:16px;"> makeFilledFace
 
 makeFilledFace(list) -- Create a face out of a list of edges.
+
+
+
+#### <img src="images/type_method.svg" style="width:16px;"> makeFilledSurface
+
+makeFilledSurface(list of curves, tolerance) -- Create a surface out of a list of curves.
 
 
 
@@ -749,7 +755,7 @@ Part.Point(Vector)
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> Precision
 
-This is the Type class
+This is the Precision class
 
 
 

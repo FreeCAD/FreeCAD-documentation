@@ -13,16 +13,16 @@
 
 ## Beschreibung
 
-This tool draws a rectangle by first picking a point that will become the center point, then by picking an edge point. The result is a rectangle like with the [Rectangle](Sketcher_CreateRectangle.md) tool, only the definition points are different.
+Dieses Werkzeug zeichnet ein Rechteck, indem erst ein Punkt ausgewählt wird, der zum Mittelpunkt wird und danach ein Eckpunkt. Das Ergebnis ist ein Rechteck wie das aus dem Werkzeug [RechteckErstellen](Sketcher_CreateRectangle/de.md), nur mit anderen Punkten festgelegt.
 
-When starting the tool, the mouse pointer changes to a white cross with a red rectangle icon. The coordinates of the pointer are shown beside it in blue in real time.
+Beim starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Rechtecksymbol. Die Koordinaten werden neben dem Zeiger in blau in Echtzeit angezeigt.
 
 ![](images/SketcherCreateCenteredRectangleExample.png‎ )
 
 ## Anwendung
 
--   After pressing the <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *24px;"> **Create centered rectangle** toolbar button, click once to set the center point, then move the mouse and click a second time to set a corner point.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+-   Nach Drücken der <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *24px;"> *Zentriertes Rechteck erstellen* Werkzeugleisten Taste, klicke einmal, um den Mittelpunkt zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen Eckpunkt zu setzen.
+-   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 
 

@@ -21,8 +21,8 @@ The WeldingSymbol tool adds welding specifications to an existing leader line.
 ## Применение
 
 1.  Select an existing [leaderline](TechDraw_LeaderLine.md).
-2.  Press the **<img src="images/TechDraw_WeldSymbol.svg" width=16px> Add Welding Information to Leaderline** button.
-3.  A task dialog will open. It allows to set individual welding symbols and accompanying text to be added to the leader line.
+2.  Press the **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Add Welding Information to Leaderline](TechDraw_WeldSymbol.md)** button.
+3.  A task panel will open. It allows to set individual welding symbols and accompanying text to be added to the leader line.
 4.  To exit the dialog and save changes, press the OK button. To exit the dialog without saving, press the Cancel button.
 5.  After the welding symbol is created, it can be edited by double clicking the Welding Symbol in the Tree.
 

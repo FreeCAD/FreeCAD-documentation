@@ -2,18 +2,18 @@
 {{Macro
 |Name=Macro Mouse over cb
 |Icon=Macro_Mouse_over_cb.png
-|Description=This macro display in report view all elements below cursor (all elements covered by other elements will also be displayed)
+|Description=This macro displays in the report view all elements below the cursor (all elements covered by other elements will also be displayed)
 |Author=Chris_G
 |Version=00.00
 |Date=2016-12-13
 |FCVersion=All
 |Download=[https   *//www.freecadweb.org/wiki/images/5/55/Macro_Mouse_over_cb.png Toolbar icon]
-|SeeAlso=[Macro FC element selector](Macro_FC_element_selector.md) [<img src=images/Macro_FC_element_selector.png style="width   *24px">
+|SeeAlso=[Macro FC element selector](Macro_FC_element_selector.md)
 }}
 
 ## Description
 
-This macro display in report view all elements below cursor (all elements covered by other elements will also be displayed)
+This macro displays in the report view all elements below the cursor (all elements covered by other elements will also be displayed).
 
 ## Usage
 
@@ -21,9 +21,9 @@ Run the macro, the macro stay resident in memory.
 
 ## Script
 
- Toolbar icon ![](images/Macro_Mouse_over_cb.png )
+Toolbar icon ![](images/Macro_Mouse_over_cb.png )
 
-**Macro\_Mouse\_over\_cb.FCMacro**
+ **Macro\_Mouse\_over\_cb.FCMacro**
 
 
 {{MacroCode|code=

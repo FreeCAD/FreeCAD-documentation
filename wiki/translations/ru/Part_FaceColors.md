@@ -1,18 +1,19 @@
 ---
-- GuiCommand   *
-   Name   *Part FaceColors
-   MenuLocation   *Context menu → Set colors
-   Workbenches   *[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso   *[Std Appearance](Std_SetAppearance.md)
+- GuiCommand   */ru
+   Name/ru   *Установить цвет
+   Name   *Part_FaceColors
+   MenuLocation   *Context menu → Установить цвет
+   Workbenches   *[Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso   *[Внешний вид](Std_SetAppearance/ru.md)
 ---
 
 # Part FaceColors/ru
 
-## Установить цвет поверхностей 
+## Описание
 
 The **FaceColors** feature allows you to define a color for each face or surface of an object. This way you can assign multiple colors to one part. To color whole parts, use instead is the feature *[SetAppearance](Std_SetAppearance.md)*.
 
-## Usage
+## Применение
 
 To color faces   *
 

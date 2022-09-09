@@ -9,15 +9,9 @@
 
 </div>
 
+## Описание
 
-<div class="mw-translate-fuzzy">
-
-#### Описание
-
-Позволяет переписать некоторые параметры траектории.
-
-
-</div>
+Позволяет отредактировать одно или несколько свойств траектории.
 
 ## Usage
 
@@ -32,7 +26,7 @@ Resulting in the ability to change values for   *
 -   continous mode
 -   position and orientation
 
-## Notes
+## Примечания
 
 
 

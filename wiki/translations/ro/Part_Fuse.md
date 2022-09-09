@@ -49,9 +49,17 @@ Elementele de intrare trebuie să fie forme OpenCascade. Exemple   * chestii rea
 
 Compounds are supported; however, it is assumed that shapes packed into a compound do not touch or intersect. If they actually do, Fusion will likely fail, or produce an incorrect result.
 
+## Options
+
+
+<div class="mw-translate-fuzzy">
+
 ## Opțiuni
 
 Elementele pot fi adăugate și scoase din fuziune/uniune, tragându-le în sau în afara funcției de siguranțe din arborele cu mouse-ul. Este necesară o recalculare manuală (apăsați tasta F5 sau faceți clic pe pictograma recompute) pentru a vedea rezultatele.
+
+
+</div>
 
 După această operație, este posibil să fie necesară curățarea formei [RefineShape](Part_RefineShape.md).
 

@@ -23,11 +23,17 @@ Lo strumento Simbolo saldatura aggiunge le specifiche di saldatura a una linea g
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare una [linea guida](TechDraw_LeaderLine/it.md). esistente.
 2.  Premere il pulsante **<img src="images/TechDraw_WeldSymbol.svg" width=16px> Informazioni di saldatura**.
 3.  Si apre una finestra di dialogo Azioni. Essa consente di inserire o selezionare singoli simboli di saldatura e il testo di accompagnamento da aggiungere alla linea guida.
 4.  Per uscire dalla finestra di dialogo e salvare le modifiche, premere il pulsante **OK**. Per uscire dalla finestra di dialogo senza salvare, premere il pulsante **Annulla**.
 5.  Dopo aver creato il simbolo di saldatura, è possibile modificarlo facendo doppio clic sul Welding Symbol nell\'albero.
+
+
+</div>
 
 ## Proprietà
 

@@ -5,15 +5,19 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
-#### Description
+#### Description 
 
 Inserează un nou obiect care descompune muchiile într-o traiectorie.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +30,8 @@ Inserează un nou obiect care descompune muchiile într-o traiectorie.
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

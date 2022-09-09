@@ -1,69 +1,71 @@
 # TechDraw Templates/pl
 {{TOCright}}
 
-## Overview
+## Informacje ogólne 
 
-Every TechDraw page is based on a Template object. The Template controls paper size and contains fixed text graphics and text, for example, a page frame or border.
+Każda strona środowiska Rysunek Roboczy jest oparta na obiekcie Szablonu. Szablon określa rozmiar papieru i zawiera stałą grafikę i tekst, na przykład ramkę lub obramowanie strony.
 
-The Template can also contain editable text fields for attributes like *Title*, *Subtitle*, *Author*, *Date*, *Scale*, *Weight*, *Drawing number* and *Sheet*.
+Szablon może również zawierać edytowalne pola tekstowe dla atrybutów takich jak *Tytuł*, *Podtytuł*, *Autor*, *Data*, *Skala*, *Waga*, *Numer rysunku* i *Arkusz*.
 
-Templates are [SVG](SVG.md) files which can be created and modified outside of FreeCAD, with an application such as [Inkscape](https   *//en.wikipedia.org/wiki/Inkscape).
+Szablony to pliki [SVG](SVG.md), które można tworzyć i modyfikować poza środowiskiem programu FreeCAD, za pomocą aplikacji takiej jak np. [Inkscape](https   *//en.wikipedia.org/wiki/Inkscape).
 
-## Properties
+## Właściwości
 
--    **Orientation**   * Portrait or Landscape.
+-    **Orientacja**   * Portret lub Krajobraz.
 
--    **Width**   * Paper width in mm.
+-    **Szerokość**   * Szerokość papieru w mm.
 
--    **Height**   * Paper height in mm.
+-    **Wysokość**   * Wysokość papieru w mm.
 
--    **Page Result**   * A copy of the original Template file including all changes to editable texts. This allows users who may not have a copy of the Template file to see the Page as intended. Not typically useful for end users.
+-    **Strona Wynikowa**   * Kopia oryginalnego pliku Szablonu zawierająca wszystkie zmiany w edytowalnych tekstach. Pozwala to użytkownikom, którzy mogą nie mieć kopii pliku Szablonu, zobaczyć stronę zgodnie ze swoim przeznaczeniem. Nie jest to typowo przydatne dla użytkowników końcowych.
 
--    **Template**   * a) A pointer to the copy of the original Template file which is incorporated into this \*.FCSTD file, or b) a filepath to a template accessible on the current machine. Use the file selection ellipsis (\...) to change to a different template.
+-    **Szablon**   * a) wskaźnik do kopii oryginalnego pliku Szablonu, który jest włączony do tego pliku \*.FCStd, lub b) ścieżka do pliku szablonu dostępnego na bieżącym komputerze. Użyj wielokropka przy wyborze pliku *(\...)*, aby zmienić szablon na inny.
 
-## Changing Template File 
+## Wybór innego pliku szablonu 
 
-To change the template of a drawing
+Aby wybrać inny szablon dla rysunku   *
 
-1.  click the desired page in the tree
-2.  if not already open the tree should open a small sub-tree with several leaves
-3.  Select the Template leaf
-4.  in the property panel/Data Tab/Template is the path to the template file. To change the file press the ellipsis button (\'\...\'). This will open your default template folder (as set in Preferences/TechDraw).
-5.  select another template file.
+1.  Zlokalizuj żądany obiekt Strony w [Widoku drzewa](Tree_view/pl.md).
+2.  Rozwiń węzeł Strona, jeśli to konieczne.
+3.  Wybierz obiekt Szablon.
+4.  W [Edytorze właściwości](Property_editor/pl.md) kliknij w polu właściwości **Szablon**.
+5.  Naciśnij przycisk **...** *(wielokropek)*, który się pojawi.
+6.  Otwiera się okno dialogowe plik, w którym znajduje się folder z aktualnym szablonem. Jeżeli Strona została utworzona w bieżącej sesji FreeCAD będzie to domyślny folder szablonu *(skonfigurowany w [Ustawieniach Rysunku Technicznego](TechDraw_Preferences/pl#Plik.md))*.
+7.  Opcjonalnie przejdź do innego folderu.
+8.  Wybierz inny plik szablonu.
+9.  Naciśnij przycisk **OK**.
 
-The new file will be opened directly.
+Jeśli zmodyfikowałeś plik szablonu i chcesz zaktualizować Stronę utworzoną w bieżącej sesji FreeCAD, która używa tego szablonu, tymczasowo wybierz najpierw inny plik, a następnie ponownie wybierz zmodyfikowany plik.
 
-When you want to update a changed template file note that you have to load another file before you can select the same file again. This is because the selection of the same file is ignored.
+## Szablony użytkownika 
 
-## Custom Templates 
-
-A limited number of pre-formatted templates in various standard page sizes are included with FreeCAD. These are found in
+Do programu FreeCAD dołączona jest niewielka liczba wstępnie sformatowanych szablonów w różnych standardowych rozmiarach stron. Znajdują się one w   *
 
 
 ```python
 $INSTALL_DIR/Mod/TechDraw/Templates/
 ```
 
-Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
+Gdzie `$INSTALL_DIR` to katalog, w którym zainstalowano FreeCAD, na przykład   *
 
 
 ```python
 /usr/share/freecad/Mod/TechDraw/Templates/
 ```
 
-Custom templates can also be specified as a default in the [TechDraw Preferences](TechDraw_Preferences.md).
+Szablony własne można również określić jako domyślne w [Ustawieniach](TechDraw_Preferences/pl.md) środowiska Rysunek Techniczny.
 
-See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md).
+Zobacz również stronę [Jak stworzyć własny szablon Rysunku Technicznego](TechDraw_TemplateHowTo/pl.md).
 
-## Notes
+## Uwagi
 
--   TechDraw Templates are not entirely interchangeable with [Drawing Templates](Drawing_templates.md). In general, Drawing templates will work in TechDraw, but there may be problems with editable text.
+-   Szablony środowiska pracy Rysunek Techniczny nie są całkowicie zamienne z szablonami [Rysunku Roboczego](Drawing_templates/pl.md). Ogólnie rzecz biorąc, szablony środowiska Rysunku Roboczego będą działać w środowisku Rysunek Techniczny, ale mogą wystąpić problemy z edytowalnym tekstem.
 
--   Svg transform clauses **will cause problems** in custom templates. See a Stackoverflow discussion on [removing transform clauses in SVG files](https   *//stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
+-   Klauzule transform Svg **spowodują problemy** w niestandardowych szablonach. Zobacz dyskusję Stackoverflow na temat [usuwanie klauzul transform w plikach SVG](https   *//stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
 
--   The **xml   *space=\"preserve\"** clause sometimes causes problems with text size and positioning. It is best to avoid/remove this clause from your custom template\'s SVG code.
+-   Klauzula **xml   *space=\"preserve\"** czasami powoduje problemy z rozmiarem i pozycjonowaniem tekstu. Najlepiej jest unikać / usunąć tę klauzulę z kodu SVG twojego niestandardowego szablonu.
 
--   Templates work best when they contain no extraneous SVG code (called \"garbage SVG\" by some). There is a good article on [removing garbage from SVG here](https   *//freecad-gost.ru/news/gost-templates-techdraw-09-01-2020/). The article is in Russian.
+-   Szablony działają najlepiej, gdy nie zawierają zbędnego kodu SVG *(nazywanego przez niektórych \"śmieciowym SVG\")*. Istnieje dobry artykuł na temat [usuwanie śmieci z SVG](https   *//freecad-gost.ru/news/gost-templates-techdraw-09-01-2020/). Artykuł napisano w języku rosyjskim.
 
 
 

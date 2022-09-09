@@ -1,53 +1,54 @@
 ---
 - GuiCommand   *
    Name   *Std SetAppearance
-   MenuLocation   *View → Appearance...
-   Workbenches   *All
+   Name   *Std   * Wygląd zewnętrzny
+   MenuLocation   *Widok → Wygląd zewnętrzny ...
+   Workbenches   *wszystkie
    Shortcut   ***Ctrl**+**D**
-   SeeAlso   *[Part FaceColors](Part_FaceColors.md)
+   SeeAlso   *[Kolor powierzchni](Part_FaceColors/pl.md)
 ---
 
 # Std SetAppearance/pl
 
-## Description
+## Opis
 
-The **Std SetAppearance** command shows the Display properties [task panel](Task_panel.md) for selected objects.
+Polecenie **Wygląd zewnętrzny** pokazuje [Panel zadań](Task_panel/pl.md) właściwości wyświetlania dla wybranych obiektów.
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command   *
-    -   Select the **View → <img src="images/Std_SetAppearance.svg" width=16px> Appearance...** option from the menu.
-    -   Select the **<img src="images/Std_SetAppearance.svg" width=16px> Appearance...** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**D**.
-3.  Change one or more display properties. See [Options](#Options.md). The objects will update immediately.
-4.  Optionally select one or more new objects whose display properties you want to change.
-5.  Press the **Close** button to close the task panel and finish the command.
+1.  Wybierz jeden lub więcej obiektów.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Wybierz opcję z menu **Widok → <img src="images/Std_SetAppearance.svg" width=16px> Wygląd zewnętrzny ...**.
+    -   Wybierz opcję **<img src="images/Std_SetAppearance.svg" width=16px> Wygląd zewnętrzny ...** z menu kontekstowego okna [Widoku Drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego   * **Ctrl**+**D**.
+3.  Zmień jedną lub więcej właściwości wyświetlania. Zobacz dostępne [Opcje](#Opcje.md). Obiekty zostaną natychmiast zaktualizowane.
+4.  Opcjonalnie wybierz jeden lub więcej nowych obiektów, których właściwości wyświetlania chcesz zmienić.
+5.  Naciśnij przycisk **Zamknij**, aby zamknąć panel zadań i zakończyć polecenie.
 
-## Options
+## Opcje
 
-### Viewing mode 
+### Ustawienia trybu wyświetlania 
 
--   Select a **Display Mode** from the dropdown list. The available options are   * \'Flat lines\', \'Shaded\' (not for [Draft](Draft_Workbench.md) objects), \'Wireframe\' and \'Points\'. See the [Std DrawStyle](Std_DrawStyle.md) command for more information.
+-   Wybierz **Tryb wyświetlania** z rozwijanej listy. Dostępne opcje to   * *Cieniowany z krawędziami*, *Cieniowany* *(nie dotyczy obiektów środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md))*, *Szkielet* i *Tylko punkty*. Więcej informacji znajdziesz w opisie polecenia [Styl kreślenia](Std_DrawStyle/pl.md).
 
-### Material
+### Materiał
 
--   Select a predefined material from the dropdown list (\'Default\', \'Aluminum\', \'Brass\', \'Bronze\', etc.).
--   Press the **...** button to open the Material properties dialog box and edit the ambient, diffuse, emissive and specular colors, as well as the shininess.
--   **Color plot   *** unsupported at this time.
--   **Shape color   *** sets the **Shape Color** property. Press the button to open the Select color dialog box.
--   **Line color   *** sets the **Line Color** property. Press the button to open the Select color dialog box.
+-   Wybierz predefiniowany materiał z listy rozwijanej *(\"Domyślny\", \"Aluminium\", \"Mosiądz\", \"Brąz\", itd.)*.
+-   Naciśnij przycisk **...**, aby otworzyć okno dialogowe właściwości materiału i edytować kolory otoczenia, rozproszenia, emisyjności i odbicia, a także połysk.
+-   **Kolor na wydruku   *** nieobsługiwane w tym momencie.
+-   **Kolor kształtu   *** ustawia właściwość **Kolor kształtu**. Naciśnij przycisk, aby otworzyć okno dialogowe Wybierz kolor.
+-   **Kolor linii   *** ustawia właściwość **Kolor linii**. Naciśnij przycisk, aby otworzyć okno dialogowe Wybierz kolor.
 
-### Display
+### Wyświetlanie
 
--   **Point size   *** sets the **Point Size** property (in pixels).
--   **Line width   *** sets the **Line Width** property (in pixels).
--   **Transparency   *** sets the **Transparency** property (in percentage). 0% is opaque, 100% is fully transparent.
--   **Line transparency   *** unsupported at this time.
+-   **Wielkość punktu   *** ustawia właściwość **Rozmiar punktu** *(w pikselach)*.
+-   **Szerokość linii   *** ustawia właściwość **Szerokość linii** *(w pikselach)*.
+-   **Przezroczystość   *** ustawia właściwość **Przezroczystość** *(w procentach)*. 0% to brak przezroczystości, 100% to pełna przezroczystość.
+-   **Przezroczystość linii   *** obecnie nie jest obsługiwana.
 
-## Notes
+## Uwagi
 
--   The mentioned view properties can also be changed in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Wymienione właściwości widoku można również zmienić w oknie [Edytora właściwości](Property_editor/pl.md) lub [Widoku połączonego](Combo_view/pl.md).
 
 
 

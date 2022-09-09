@@ -23,7 +23,8 @@
     -   [Редактор свойств](Property_editor/ru.md)
 
 -   [Верстаки](Workbenches/ru.md)
-    -   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Стандартные команды и инструменты](Std_Base/ru.md)
+
+-   -   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Стандартные инструменты для всех Верстаков](Std_Base/ru.md)
     -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Верстак Arch (Архитектура)](Arch_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> [Верстак Draft (Черчение на плоскости)](Draft_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Верстак FEM (Расчёты Методом Конечных Элементов)](FEM_Workbench/ru.md)
@@ -53,7 +54,7 @@
 
 -   [Часто задаваемые вопросы](Frequently_asked_questions.md)
 
--   [Обходные решения](Обходные_решения.md)
+-   [Обходные пути для решения некоторых задач](Workarounds/ru.md)
 
 -   [Сборник руководств по обучению](Tutorials/ru.md)
 

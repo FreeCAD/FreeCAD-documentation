@@ -27,20 +27,16 @@ The **[<img src=images/Std_LinkMake.svg style="width   *16px"> [Std LinkMake](St
 
 ## Anwendung
 
+Mit Auswahl   *
 
-<div class="mw-translate-fuzzy">
+1.  Ein Objekt in der [Baumansicht](tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen, für das eine Verknüpfung erstellt werden soll.
+2.  Die Schaltfläche **[<img src=images/Std_LinkMake.svg style="width   *16px"> [Verknüpfung erstellen](Std_LinkMake/de.md)** drücken. Das erzeugte Objekt hat dasselbe Symbol wie das Originalobjekt, ist jedoch mit einem Pfeil überlagert, der darauf hinweist, dass es sich um eine Verknüpfung handelt.
 
-1.  Wähle ein Objekt aus, für das Du einen Link erstellen möchtest.
-2.  Drücke die Taste **<img src="images/Std_LinkMake.svg" width=16px> [Std LinkMake](Std_LinkMake/de.md)** Schaltfläche. Wenn kein Objekt ausgewählt ist, wird eine leere Verknüpfung erstellt.
+Ohne Auswahl   *
 
-
-</div>
-
-Without selection   *
-
-1.  If no object is selected, press the **[<img src=images/Std_LinkMake.svg style="width   *16px"> [Make link](Std_LinkMake.md)** button to create an empty <img alt="" src=images/Link.svg  style="width   *24px;"> Link.
-2.  Go to the [property editor](property_editor.md), then click on the **Linked Object** property to open the [Link selection dialog](Selection_methods.md) to choose an object, then press **OK**.
-3.  Instead of choosing an entire object in the [tree view](tree_view.md), you can also pick subelements (vertices, edges, or faces) of a single object in the [3D view](3D_view.md). In this case, the Link will duplicate only these subelements, and the arrow overlay will be different. This can also be done with **[<img src=images/Std_LinkMakeRelative.svg style="width   *16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)**.
+1.  Wenn kein Objekt ausgewählt wurde, wird durch das Drücken der Schaltfläche **[<img src=images/Std_LinkMake.svg style="width   *16px"> [Verknüpfung erstellen](Std_LinkMake/de.md)** eine leere <img alt="" src=images/Link.svg  style="width   *24px;"> Verknüpfung erstellt.
+2.  Zum [Eigenschafteneditor](property_editor/de.md) wechseln, dann auf die {{PropertyData/de|Linked Object}} klicken, um den Dialog Link zu öffnen (siehe [Auswahlmethoden](Selection_methods/de.md)) und ein Objekt auszuwählen, anschließend **OK** drücken.
+3.  Anstatt ein komplettes Objekt in der [Baumansicht](tree_view/de.md) auszuwählen, kann man auch Unterelemente (Knoten, Kanten oder Flächen) eines einzigen Objekts in der [3D-Ansicht](3D_view/de.md) auswählen. In diesem Falle dupliziert die Verknüpfung nur diese Unterelemente und der überlagerte Pfeil sieht anders aus. Dies kann auch mit **[<img src=images/Std_LinkMakeRelative.svg style="width   *16px"> [Unterverknüpfung erstellen](Std_LinkMakeRelative/de.md)** erreicht werden.
 
 ![](images/Std_Link_tree_example.png ) ![](images/Std_Link_example.png )
 

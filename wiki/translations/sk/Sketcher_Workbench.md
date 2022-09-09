@@ -38,17 +38,47 @@ Existujú dva typy väzieb   * geometrické a rozmerové. Sú opísané nižšie
 
 Náčrtník neslúži na tvorbu 2D výkresov. Akonáhle boli náčrty použité na vytvorenie prvku telesa, sú automaticky skryté. Väzby sú viditeľné iba v upravovacom režime náčrtu.
 
+
+<div class="mw-translate-fuzzy">
+
 Ak chcete vytvárať iba 2D pohľady pre tlač a nie 3D modely, skúste použiť radšej [pracovný stôl Návrh](Draft_Workbench.md). Na rozdiel od prvkov v Náčrtníku nepoužívajú objekty v Návrhu väzby; sú to jednoduché tvary definované v okamihu ich tvorby. Návrh aj Náčrtník je možné použiť na kreslenie 2D geometrie a vytváranie 3D telies, hoci zmysel ich použitia je iný; Náčrtník sa bežne používa spolu s pracovnými stolmi [Diel](Part_Workbench.md) a [Tvorba dielu](PartDesign_Workbench.md) na vytváranie telies; Návrh sa bežne používa pre jednoduché rovinné výkresy s mriežkou, ako pri kreslení architektonického pôdorysu; v týchto situáciách sa Návrh väčšinou používa spolu s [pracovným stolom Arch](Arch_Workbench.md). Nástroj pracovného stola Návrh - [Návrh do náčrtu](Draft_Draft2Sketch.md) prevedie objekt Návrhu na objekt Náčrtu a späť; mnoho nástrojov, ktoré ako vstup vyžadujú 2D tvar, dokážu pracovať s oboma typmi objektov, keďže sa pri tom vykoná automatická interná konverzia.
+
+
+</div>
 
 ## Pracovný postup pri náčrte 
 
+
+<div class="mw-translate-fuzzy">
+
 Náčrt je vždy dvojrozmerný (2D). Na vytvorenie telesa treba najprv vytvoriť 2D náčrt jednej uzavretej oblasti a ten potom vytiahnuť alebo obtočiť a tým pridať 3. rozmer, teda z 2D náčrtu vytvoriť 3D teleso.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Ak náčrt obsahuje segmenty, ktoré sa križujú, miesta, na ktorých sa bod nenachádza priamo na nejakom segmente, alebo miesta, na ktorých sú medzery medzi koncovými bodmi priľahlých segmentov, teleso sa vytiahnutím alebo obtočením nevytvorí. Niekedy bude s jednoduchými operáciami typu vytiahnutie fungovať aj náčrt, ktorý obsahuje križujúce sa čiary, ale neskoršie operácie, napr. lineárny vzor, zlyhajú. Preto odporúčame vyhnúť sa križovaniu čiar. Výnimkou z tohto pravidla je použitie konštrukčnej (modrej) geometrie.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Vo vnútri uzavretej oblasti sa môžu nachádzať aj menšie neprekrývajúce sa oblasti. Tieto sa pri tvorbe 3D telesa stanú prázdnym priestorom.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Akonáhle je náčrt plne zaväzbený, prvky náčrtu sa prefarbia na zeleno; konštrukčná geometria zostane modrá. V tomto okamihu je náčrt spravidla \"dokončený\" a pripravený na tvorbu 3D telesa. Po zavretí dialógového okna náčrtu ale môže byť užitočné prejsť na <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [pracovný stôl Diel](Part_Workbench.md) a spustiť príkaz **[<img src=images/Part_CheckGeometry.svg style="width   *16px"> [Skontrolovať geometriu](Part_CheckGeometry.md)** a odhaliť potenciálne prvky náčrtu, ktoré by mohli neskôr spôsobiť problémy.
+
+
+</div>
 
 ## Nástroje
 
@@ -123,6 +153,16 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 </div>
 
+   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md)   * Draws an ellipse by center point, major radius point and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)   * Draws an ellipse by major diameter (2 points) and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md)   * Draws an arc of ellipse by center point, major radius point, starting point and ending point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)   * Draws an arc of hyperbola.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)   * Draws an arc of parabola.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -132,6 +172,10 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 
 </div>
+
+   ** <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-spline curve by its control points.
+
+   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic (closed) B-spline curve by its control points.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *32px;"> [Lomená čiara (čiara s viacerými bodmi)](Sketcher_CreatePolyline.md)   * Nakreslí čiaru zloženú z viacerých segmentov. Pri kreslení lomenej čiary a stláčaní klávesy **M** preskakujete medzi jednotlivými štýlmi lomených čiar.
 
@@ -275,10 +319,24 @@ Tieto väzby sú spojené s číselnými dátami a môžete v nich použiť [mat
 
 -   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width   *32px;"> [Vzdialenosť](Sketcher_ConstrainDistance.md)   * Definuje vzdialenosť vybranej čiary zaväzbením jej dĺžky, alebo definuje vzdialenosť medzi dvomi bodmi zaväzbením ich vzájomnej vzdialenosti.
 
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width   *48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md)   * This is an icon menu in the Sketcher constraints toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Polomer](Sketcher_ConstrainRadius.md)   * Zaväzbí polomer vybraného oblúka alebo kruhu určením jeho konkrétnej hodnoty.
 -   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Priemer](Sketcher_ConstrainDiameter.md)   * Zaväzbí priemer vybraného oblúka alebo kruhu určením jeho konkrétnej hodnoty.
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [ Automatické zaväzbenie polomeru/priemeru](Sketcher_ConstrainRadiam.md)   * Automaticky definuje polomer/priemer vybraného oblúka alebo kruhu (váhu riadiaceho bodu B-spline krivky, priemer kompletného kruhu, polomer oblúka) <small>(v0.20)</small> 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Uhol](Sketcher_ConstrainAngle.md)   * Definuje interný uhol medzi dvomi vybranými čiarami.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+
+-   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Angle](Sketcher_ConstrainAngle.md)   * Defines the internal angle between two selected lines.
 
 #### Špeciálne väzby 
 
@@ -478,6 +536,9 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi   *
 
 Každý CAD používateľ si priebežne vytvára vlastný pracovný postup, ale existujú určité osvedčené postupy, ktoré je dobré zachovávať.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Séria jednoduchých náčrtov sa spravuje ľahšie, ako jeden komplexný náčrt. Napríklad prvý náčrt môžete vytvoriť pre základný 3D prvok (napríklad pomocou vytiahnutia alebo obtočenia), zatiaľ čo druhý môžete použiť na vytvorenie dier alebo výrezov (kapies). Niektoré detaily môžete vynechať a vytvoriť ich neskôr ako 3D prvky. Môžete v náčrte takisto vynechať zaoblenia, ak ich obsahuje príliš veľa, pričom ich neskôr pridáte ako 3D prvky.
 -   Vždy vytvárajte uzavretý profil, inak z vášho náčrtu nebudete môcť vytvoriť teleso, ale iba súbor otvorených plôch. Ak nechcete, aby boli niektoré objekty zahrnuté do tvorby telesa, zmeňte ich pomocou nástroja Konštrukčný režim na konštrukčné elementy.
 -   Aby ste nemuseli všetky väzby vytvárať manuálne, môžete na niektoré elementy použiť ich automatické vytváranie.
@@ -487,12 +548,21 @@ Každý CAD používateľ si priebežne vytvára vlastný pracovný postup, ale 
 -   Vo všeobecnosti sú najlepšie väzby tieto   * vodorovná a zvislá vzdialenosť, vodorovná a zvislá dĺžka, dotyčnica bod-na-bod. Ak je to možné, obmedzte použitie týchto väzieb   * všeobecná väzba dĺžky; dotyčnica hrana-na-hranu; väzba bodu na čiaru; väzba symetrie.
 -   Ak máte pochybnosti o platnosti náčrtu po jeho ukončení (prvky sú vysvietené nazeleno), zavrite dialógové okno Náčrtníka, prepnite sa na <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [pracovný stôl Dielec](Part_Workbench.md) a spustite príkaz **[<img src=images/Part_CheckGeometry.svg style="width   *16px"> [Skontrolovať geomegriu](Part_CheckGeometry.md)**.
 
+
+</div>
+
 ## Návody
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Sketcher tutorial](https   *//forum.freecadweb.org/viewtopic.php) od autora chrisb. Toto je 70-stranový PDF dokument, ktorý slúži ako detailný návod na použitie Náčrtníka. Vysvetľuje základy použitia Náčrtníka a poskytuje veľa detailov o tvorbe geometrických tvarov a všetkých druhov väzieb.
 -   [Basic Sketcher Tutorial](Basic_Sketcher_Tutorial.md) pre začiatočníkov
 -   [Sketcher Micro Tutorial - Constraint Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)
 -   [Sketcher requirement for a sketch](Sketcher_requirement_for_a_sketch.md) Minimálne požiadavky na náčrt a úplné určenie náčrtu.
+
+
+</div>
 
 ## Skriptovanie
 

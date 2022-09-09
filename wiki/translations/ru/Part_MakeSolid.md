@@ -24,15 +24,6 @@ This command creates a solid from a shape object.
 -   It is recommended to use [Part RefineShape](Part_RefineShape.md) before converting to a solid.
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ru

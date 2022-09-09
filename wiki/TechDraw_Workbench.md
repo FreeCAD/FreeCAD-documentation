@@ -48,6 +48,8 @@ These are tools for creating View objects.
 
 -   <img alt="" src=images/TechDraw_ShareView.svg  style="width   *32px;"> [Share View](TechDraw_ShareView.md)   * Share a view between multiple pages. <small>(v0.20)</small> 
 
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *32px;"> [PrintAll](TechDraw_PrintAll.md)   * Print all the pages in a document. <small>(v0.21)</small> 
+
 ## Clips
 
 These are tools to create and manage Clip objects (clipped views).
@@ -133,6 +135,8 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width   *32px;"> [Show/Hide Invisible Edges](TechDraw_ShowAll.md)   * shows/hides invisible lines/edges in a view. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width   *32px;"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md)   * adds welding specifications to an existing leaderline. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md)   * adds a surface finish symbol to a page. <small>(v1.0)</small> 
 
 ## Extensions
 

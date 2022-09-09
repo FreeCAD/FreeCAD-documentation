@@ -1,9 +1,9 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher SwitchVirtualSpace
-   Name/de   *Skizzierer WechselnVirtuellerRaum
-   MenuLocation   *Skizze → Skizzierer Virtueller Raum → Wechseln Virtueller Raum
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Name/de   *Sketcher VirtuellenBereichWechseln
+   MenuLocation   *Sketch → Virtueller Bereich → Virtuellen Bereich wechseln
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.17
 ---
 
@@ -11,33 +11,27 @@
 
 ## Beschreibung
 
-Der FreeCAD Skizzierer verfügt über zwei virtuelle Räume, in denen Beschränkungen festgelegt werden können. Gewöhnlich werden alle Beschränkungen auf den virtuellen Raum eins gesetzt. Du kannst einige Beschränkungen in den virtuellen Raum zwei verschieben. Dies kann helfen, nur einige wenige Beschränkungen gleichzeitig zu untersuchen.
+Der FreeCAD-Sketcher verfügt über zwei virtuelle Räume, denen Einschränkungen zugeordnet werden können. Generell werden alle Beschränkungen dem virtuellen Bereich eins zugeordnet. Es können einige Einschränkungen in den virtuellen Bereich zwei verschoben werden. Dies kann helfen, wenn nur wenige Einschränkungen gleichzeitig untersucht werden sollen.
 
 ## Anwendung
 
-Um Beschränkungen in den anderen virtuellen Raum zu verlagern   *
+Um Einschränkungen in den anderen virtuellen Bereich zu verlagern   *
 
-1.  Wähle die Beschränkungen aus, die du verschieben möchtest.
-2.  Drücke die **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width   *16px">  [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md)** Schaltfläche.
+1.  Die Einschränkungen auswählen, die verschoben werden sollen.
+2.  Die Schaltfläche **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width   *16px">  [Virtuellen Bereich wechseln](Sketcher_SwitchVirtualSpace/de.md)** drücken.
 
-Zum Wechseln des virtuellen Raums   *
+Zum Wechseln des virtuellen Bereiches   *
 
-1.  Stelle sicher, dass du keine Beschränkung ausgewählt hast.
-2.  Drücke die **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width   *16px">  [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md)** Schaltfläche.
+1.  Sicherstellen, dass keine Einschränkung ausgewählt wurde.
+2.  Die Schaltfläche **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width   *16px">  [Virtuellen Bereich wechseln](Sketcher_SwitchVirtualSpace/de.md)** drücken.
 
 
 **Hinweis   ***
 
-Wenn du dich entscheidest, Beschränkungen für den zweiten virtuellen Raum festzulegen, vergesse diese später nicht, wenn du sie in der [3D Ansicht](3D_view/de.md) nicht siehst.
-
-
-<div class="mw-translate-fuzzy">
+Wenn man sich entscheidest, Einschränkungen dem zweiten virtuellen Bereich zuzuordnen, sollte man sich später an sie erinnern, wenn man sie in der [3D-Ansicht](3D_view/de.md) nicht sieht.
 
 
 
-
-
-</div>
 
 
 {{Sketcher Tools navi

@@ -118,6 +118,8 @@ Bis Seiten mit Tutorials innerhalb des Wikis zur Verfügung stehen, gibt es eine
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width   *100px;">
 
+Sie enthält auch ein paar Hinweise zu den [Eigenschaften](SheetMetal_Examples/de#SheetMetal_Eigenschaften.md).
+
 ## Begrenzungen
 
 -   Der Arbeitsbereich ist betroffen von dem mit FreeCAD verbundenen [topological naming issue](Glossary#Topological_Naming.md). Wenn bei der Bearbeitung einer in der Geschichte des Teils früheren Biegung die Flächen neu nummeriert werden, können die folgenden Biegungen betroffen sein und die Flächen vertauscht werden. Wenn die Biegungsmerkmale nicht brechen, kannst Du darauf doppelklicken, um ein Dialogfeld zu erhalten, in dem du die richtige Fläche in der [3D Ansicht](3D_view/de.md) auswählen und die Biegung aktualisieren kannst.

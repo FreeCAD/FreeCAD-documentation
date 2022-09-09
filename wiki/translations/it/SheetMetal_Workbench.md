@@ -118,6 +118,8 @@ Until tutorial pages are available on this wiki there is an [Examples](SheetMeta
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width   *100px;">
 
+It contains some hints about [properties](SheetMetal_Examples#SheetMetal_properties.md) as well.
+
 ## Limitazioni
 
 -   Il workbench è influenzato dal problema della [denominazione topologica](Glossary#Topological_Naming.md) inerente a FreeCAD. Se una modifica di una piega precedente nella cronologia della parte rinomina le facce, le piegature successive potrebbero essere influenzate e cambiare le facce. Se le funzioni di piegatura non si interrompono, si può fare doppio clic su di esse per ottenere una finestra di dialogo in cui è possibile selezionare la faccia corretta nella vista 3D e aggiornare la Piegatura.

@@ -9,7 +9,7 @@
 
 # Part EditAttachment/pl
 
-## Description
+## Opis
 
 **Part EditAttachment** is a utility to attach an object to another one. The attached object is linked to the other object, which means that if the latter\'s placement is changed afterwards, the attached object will update to its new position.
 
@@ -29,17 +29,17 @@
 8.  Optionally set an [Attachment Offset](#Attachment_Offset.md).
 9.  Press **OK**.
 
-## Options
+## Opcje
 
 ![](images/Part_Offset_Tasks.png )
 
-### Attachment mode 
+### Tryb dołączenia 
 
-#### Deactivated
+#### Nieaktywny
 
 Default, no reference selected.
 
-#### Normal to edge 
+#### Normalna do krawędzi 
 
 Object is made perpendicular to edge. Optional vertex reference defines location.
 
@@ -268,7 +268,7 @@ Specialty mode for folding polyhedra. Select 4 edge in order   * glueable edge, 
    *   Line, Line, Line, Line
    *   ![ 250px](images/Attacher_mode_Folding.png )
 
-#### Inertia 2-3 
+#### Bezwładność 2-3 
 
 Object will be attached to a plane passing through second and third principal axes of inertia (passes through center of mass).
 
@@ -297,7 +297,7 @@ Attachment Offset is used to apply a linear or rotary offset from the referenced
 
 -   **Flip sides**   * if checked, the attached object is reversed from its XY plane.
 
-## Limitations
+## Ograniczenia
 
 -   [Part](Std_Part.md) and [Body](PartDesign_Body.md) containers are not supported. While it\'s possible to use Attachment to align them, the attachment won\'t be parametrically linked.
 -   If selecting two lines results in a traceback with \"points are collinear. Can\'t make a plane\", try selecting three points instead [1](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614#p473594).

@@ -12,12 +12,9 @@
 
 ## Описание
 
-Создает субтрактивный примитив в активном теле, примитив вычитающий форму из существующего твердого тела.
+Создаёт субтрактивную простую геометрическую форму в активном Теле, созданная форма вычитается из существующего твердого тела.
 
 ## Типы примитивов 
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width   *32px;"> [Субтрактивный куб (параллелепипед)](PartDesign_SubtractiveBox/ru.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width   *32px;"> [Субтрактивный конус](PartDesign_SubtractiveCone/ru.md)
@@ -27,9 +24,6 @@
 -   <img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width   *32px;"> [Субтрактивная сфера](PartDesign_SubtractiveSphere/ru.md)
 -   <img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width   *32px;"> [Субтрактивный тор](PartDesign_SubtractiveTorus/ru.md)
 -   <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width   *32px;"> [Субтрактивный клин](PartDesign_SubtractiveWedge/ru.md)
-
-
-</div>
 
 
 

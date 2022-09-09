@@ -67,61 +67,63 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Label|String}}   * Valeur par défaut    * Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
+-    **Label|String**   * Valeur par défaut    * Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
--    {{PropertyData/fr|Base Feature|Link|hidden}}   * Fonctionnalité de base. Lien vers la caractéristique parent.
+-    **Base Feature|Link|hidden**   * Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    {{PropertyData/fr|_Body|LinkHidden|hidden}}   * Lien caché vers le corps du parent.
+-    **_Body|LinkHidden|hidden**   * Lien caché vers le corps du parent.
 
 
 {{Properties_Title|Parameters}}
 
--    {{PropertyData/fr|Bend Type|Enumeration}}   * \"Type de pliage\". {{value|Material Outside}}, {{value|Material Inside}}, {{value|Thickness Outside}}. (par défaut), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
+-    **Bend Type|Enumeration**   * \"Type de pliage\". {{value|Material Outside}}, {{value|Material Inside}}, {{value|Thickness Outside}}. (par défaut), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
 
--    {{PropertyData/fr|angle|Angle}}   * \"Angle de pliage\". Angle par défaut    * {{value|90,00°}}.
+-    **Length Spec|Enumeration**   * \"Type de spécification de longueur\". {{value|Leg}} (par défaut), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}. {{Version/fr|1.0}}
 
--    {{PropertyData/fr|base Object|LinkSub}}   * \"Objet de base\". Lien vers la face planaire devant recevoir une courbure.
+-    **angle|Angle**   * \"Angle de pliage\". Angle par défaut    * {{value|90,00°}}.
 
--    {{PropertyData/fr|gap1|Distance}}   * \"Ecart par rapport au côté gauche\". Valeur par défaut    * {{value|0,00 mm}}.
+-    **base Object|LinkSub**   * \"Objet de base\". Lien vers la face planaire devant recevoir une courbure.
 
--    {{PropertyData/fr|gap2|Distance}}   * \"Ecart depuis le côté droit\". Valeur par défaut    * {{value|0,00 mm}}.
+-    **gap1|Distance**   * \"Ecart par rapport au côté gauche\". Valeur par défaut    * {{value|0,00 mm}}.
 
--    {{PropertyData/fr|invert|Bool}    *} "Inverser la direction du pliage". Valeur par défaut    * `False`.
-    * {{PropertyData/fr|length|Length}}    * "Longueur du mur". Valeur par défaut    * {{value|10,00 mm}}.
-    * {{PropertyData/fr|radius|Length}}    * "Rayon de courbure". Valeur par défaut    * {{value|1,00 mm}}.
+-    **gap2|Distance**   * \"Ecart depuis le côté droit\". Valeur par défaut    * {{value|0,00 mm}}.
+
+-    **invert|Bool}    *} "Inverser la direction du pliage". Valeur par défaut    * {{FALSE**.
+    * **length|Length**    * "Longueur du mur". Valeur par défaut    * {{value|10,00 mm}}.
+    * **radius|Length**    * "Rayon de courbure". Valeur par défaut    * {{value|1,00 mm}}.
 
     {{Properties_Title|Parameters Ex}}
 
-    * {{PropertyData/fr|Auto Miter|Bool}}    * "Activer l'onglet automatique". Valeur par défaut    * `True`.
-    * {{PropertyData/fr|extend1|Distance}}    * "Étendre à partir du côté gauche". Valeur par défaut    * {{value|0,00 mm}}.
-    * {{PropertyData/fr|extend2|Distance}    *} "Extension à partir du côté droit". Valeur par défaut    * {{value|0,00 mm}}.
-    * {{PropertyData/fr|kfactor|FloatConstraint}}    * "Emplacement de la ligne neutre. Attention    * Utiliser les normes ANSI et non DIN.". </br>Par défaut    * {{value|0,50}}. Facteur K (également connu sous le nom de facteur neutre) pour le coude. Utilisé pour calculer la marge de pliage lors du dépliage.
-    * {{PropertyData/fr|max Extend Dist|Length}}    * "Distance maximale d'extension de l'onglet automatique". Valeur par défaut    * {{value|5,00 mm}}.
-    * {{PropertyData/fr|min Gap|Length}}    * "L'espacement minimum de l'onglet automatique. Valeur par défaut    * {{value|5,00 mm}}.
-    * {{PropertyData/fr|miterangle1|Angle}}    * "Angle de l'onglet de pliage depuis le côté gauche". Angle par défaut    * {{value|0,00°}}.
-    * {{PropertyData/fr|miterangle2|Angle}}    * "Angle de pliage à partir du côté droit. Angle par défaut    * {{value|0,00°}}.
-    * {{PropertyData/fr|offset|Distance}}    * "Coude décalé". Valeur par défaut    * {{value|0,00 mm}}.
-    * {{PropertyData/fr|unfold|Bool}}    * "Montre la vue dépliée du pliage en cours". Valeur par défaut    * `False`. </br> `True` Déplie le pli.
+    * **Auto Miter|Bool**    * "Activer l'onglet automatique". Valeur par défaut    * `True`.
+    * **extend1|Distance**    * "Étendre à partir du côté gauche". Valeur par défaut    * {{value|0,00 mm}}.
+    * **extend2|Distance}    *} "Extension à partir du côté droit". Valeur par défaut    * {{value|0,00 mm**.
+    * **kfactor|FloatConstraint**    * "Emplacement de la ligne neutre. Attention    * Utiliser les normes ANSI et non DIN.". </br>Par défaut    * {{value|0,50}}. Facteur K (également connu sous le nom de facteur neutre) pour le coude. Utilisé pour calculer la marge de pliage lors du dépliage.
+    * **max Extend Dist|Length**    * "Distance maximale d'extension de l'onglet automatique". Valeur par défaut    * {{value|5,00 mm}}.
+    * **min Gap|Length**    * "L'espacement minimum de l'onglet automatique. Valeur par défaut    * {{value|5,00 mm}}.
+    * **miterangle1|Angle**    * "Angle de l'onglet de pliage depuis le côté gauche". Angle par défaut    * {{value|0,00°}}.
+    * **miterangle2|Angle**    * "Angle de pliage à partir du côté droit. Angle par défaut    * {{value|0,00°}}.
+    * **offset|Distance**    * "Coude décalé". Valeur par défaut    * {{value|0,00 mm}}.
+    * **unfold|Bool**    * "Montre la vue dépliée du pliage en cours". Valeur par défaut    * `False`. </br> `True` Déplie le pli.
 
     {{Properties_Title|Parameters Ex2}}
 
-    * {{PropertyData/fr|Sketch|Link}}    * "Objet de l'esquisse".
-    * {{PropertyData/fr|sketchflip|Bool}}    * "Retourner la direction de l'esquisse". Valeur par défaut    * `False`.
-    * {{PropertyData/fr|sketchinvert|Bool}}    * "Inverser le début de l'esquisse". Valeur par défaut    * `False`.
+    * **Sketch|Link**    * "Objet de l'esquisse".
+    * **sketchflip|Bool**    * "Retourner la direction de l'esquisse". Valeur par défaut    * `False`.
+    * **sketchinvert|Bool**    * "Inverser le début de l'esquisse". Valeur par défaut    * `False`.
 
     {{Properties_Title|Parameters Ex3}}
 
-    * {{PropertyData/fr|Length List|FloatList}}    * "Longueur de la liste des parois". Valeur par défaut    * {{value|[10,00]}}.
-    * {{PropertyData/fr|bend AList|FloatList}}    * "Liste des angles de pliage". Valeur par défaut    * {{value|[90,00]}}.
+    * **Length List|FloatList**    * "Longueur de la liste des parois". Valeur par défaut    * {{value|[10,00]}}.
+    * **bend AList|FloatList**    * "Liste des angles de pliage". Valeur par défaut    * {{value|[90,00]}}.
 
     {{Properties_Title|Parameters Relief}}
 
-    * {{PropertyData/fr|Relief Factor|Float}}    * "Facteur de soulagement". Valeur par défaut    * {{value|0,70}}.
-    * {{PropertyData/fr|Use Relief Factor|Bool}    *} "Use Relief Factor". Valeur par défaut    * `False`.
-    * {{PropertyData/fr|min Relief Gap|Length}}    * "Espace minimum pour la coupe en relief". Valeur par défaut    * {{value|1,00 mm}}.
-    * {{PropertyData/fr|relief Type|Enumeration}}    * "Type de relief". {{value|Rectangle}} (valeur par défaut), {{value|Rectangle}}. (par défaut), {{value|Round}}. Activé uniquement lorsqu'une valeur d'écart est définie.
-    * {{PropertyData/fr|reliefd|Length}}    * "Profondeur du relief". Valeur par défaut    * {{value|1,00 mm}}. Activé uniquement lorsqu'une valeur d'écart est définie.
-    * {{PropertyData/fr|reliefw|Length}}    * "Largeur du relief". Valeur par défaut    * {{value|0,80 mm}}. Activé uniquement lorsqu'une valeur d'écart est définie.
+    * **Relief Factor|Float**    * "Facteur de soulagement". Valeur par défaut    * {{value|0,70}}.
+    * **Use Relief Factor|Bool}    *} "Use Relief Factor". Valeur par défaut    * {{FALSE**.
+    * **min Relief Gap|Length**    * "Espace minimum pour la coupe en relief". Valeur par défaut    * {{value|1,00 mm}}.
+    * **relief Type|Enumeration**    * "Type de relief". {{value|Rectangle}} (valeur par défaut), {{value|Rectangle}}. (par défaut), {{value|Round}}. Activé uniquement lorsqu'une valeur d'écart est définie.
+    * **reliefd|Length**    * "Profondeur du relief". Valeur par défaut    * {{value|1,00 mm}}. Activé uniquement lorsqu'une valeur d'écart est définie.
+    * **reliefw|Length**    * "Largeur du relief". Valeur par défaut    * {{value|0,80 mm}}. Activé uniquement lorsqu'une valeur d'écart est définie.
 
     == Exemple ==
 

@@ -1,24 +1,22 @@
 ---
 - GuiCommand   */ru
-   Name   *PartDesign LinearPattern
-   Name/ru   *PartDesign LinearPattern
-   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation   *PartDesign → Линейный массив
+   Name/ru   *Линейный массив
+   Name   *PartDesign_LinearPattern
+   MenuLocation   *Part Design → Apply a pattern → Линейный массив
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso   *[Множественное преобразование](PartDesign_MultiTransform/ru.md)
 ---
 
 # PartDesign LinearPattern/ru
 
-
-</div>
-
-## Description
+## Описание
 
 The <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *24px;"> **PartDesign LinearPattern** tool creates a linear pattern of one or more features.
 
 ![](images/PartDesign_LinearPattern_example.svg ) 
 *An L-shaped pad (B) made on top of a base pad (A, also referred to as support) is used for a linear pattern. The result (C) is shown on the right.*
 
-## Usage
+## Применение
 
 ### Create
 
@@ -40,7 +38,7 @@ The <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *24px;">
 2.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-## Options
+## Опции
 
 -   To add features   *
     1.  Press the **Add feature** button.
@@ -99,9 +97,9 @@ The <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *24px;">
 -   Specify the number of **Occurrences** (including the original feature).
 -   If the **Update view** checkbox is checked the view will update in real time.
 
-## Limitations
+## Ограничения
 
-See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
+Смотрите [PartDesign Круговой массив](PartDesign_PolarPattern/ru#Ограничения.md).
 
 
 

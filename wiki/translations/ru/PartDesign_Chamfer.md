@@ -41,7 +41,7 @@ The <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *24px;"> **Par
 2.  The **Chamfer parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-## Options
+## Опции
 
 -   To add edges do one of the following   *
     -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
@@ -72,12 +72,12 @@ The <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *24px;"> **Par
 -   Set the **Angle** of the chamfer (only available if **Distance and angle** is selected).
 -   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
 
-## Notes
+## Примечания
 
 -   PartDesign Chamfer should not be confused with [Part Chamfer](Part_Chamfer.md). Unless you know what you are doing, [Part Chamfer](Part_Chamfer.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 -   Chamfers cannot completely consume the adjacent faces.
 
-## Properties
+## Свойства
 
 See also   * [Property editor](Property_editor.md).
 

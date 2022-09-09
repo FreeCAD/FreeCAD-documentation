@@ -2,26 +2,26 @@
 {{Macro/fr
 |Name=Macro Mouse over cb
 |Icon=Macro_Mouse_over_cb.png
-|Description= Cette macro affiche tous les éléments sous le curseur de la souris.
+|Description=Cette macro affiche tous les éléments situés sous le curseur (tous les éléments couverts par d'autres éléments seront également affichés).
 |Author=Chris_G
 |Version=00.00
 |Date=2016-12-13
-|FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/5/55/Macro_Mouse_over_cb.png Toolbar icon]
-|SeeAlso=[Macro FC element selector](Macro_FC_element_selector.md) [<img src=images/Macro_FC_element_selector.png style="width   *24px">
+|FCVersion=Toute
+|Download=[https   *//www.freecadweb.org/wiki/images/5/55/Macro_Mouse_over_cb.png Icône de la barre d'outils]
+|SeeAlso=[Macro FC element selector](Macro_FC_element_selector/fr.md)
 }}
 
 ## Description
 
-Cette macro affiche tous les éléments sous le curseur de la souris. ( Tous les éléments cachés par d\'autres élément sont aussi affichés)
+Cette macro affiche dans la vue du rapport tous les éléments situés sous le curseur (tous les éléments couverts par d\'autres éléments seront également affichés).
 
 ## Utilisation
 
-lancer la macro, la macro reste résidente en mémoire.
+Lancez la macro, la macro reste résidente en mémoire.
 
 ## Script
 
-Toolbar icon ![](images/Macro_Mouse_over_cb.png )
+Icône de la barre d\'outils ![](images/Macro_Mouse_over_cb.png )
 
 **Macro\_Mouse\_over\_cb.FCMacro**
 

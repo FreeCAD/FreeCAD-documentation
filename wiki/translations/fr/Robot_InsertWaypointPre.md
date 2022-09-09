@@ -1,63 +1,37 @@
 ---
 - GuiCommand   */fr
    Name   *Robot InsertWaypointPre
-   Name/fr   *Robot Point dans trajectoire Pré-sélection
+   Name/fr   *Robot Point de passage à partir d'objets présélectionnés
+   MenuLocation   *Robot → Insérer dans la trajectoire 
    Workbenches   *[Robot](Robot_Workbench/fr.md)
-   MenuLocation   *Robot → Insérer dans la trajectoire
-   Shortcut   *W
-   SeeAlso   *---
+   Shortcut   ***W**
+   SeeAlso   *[Robot Trajectoire](Robot_CreateTrajectory/fr.md), [Robot Point de passage](Robot_InsertWaypoint/fr.md)
 ---
 
 # Robot InsertWaypointPre/fr
 
+## Description
 
-</div>
+Insère un point de passage à partir d\'objets présélectionnés dans une trajectoire.
 
+## Utilisation
 
-<div class="mw-translate-fuzzy">
+La présélection peut varier en fonction du style de navigation utilisé.
 
-#### Description
+-   Par exemple, lorsque vous utilisez le [mode Blender](Mouse_navigation/fr#Mode_Blender.md), vous pouvez passer le curseur de la souris sur un objet pour le mettre en évidence (présélectionner).
+-   Assurez-vous qu\'une trajectoire est sélectionnée dans l\'arborescence.
+-   Appuyez sur **W** pour insérer ce point de repère dans la trajectoire sélectionnée.
 
-Insère un point de cheminement d\'objets présélectionnés dans une trajectoire.
+## Remarques
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Utilisation
-
-Selon le style de navigation utilisé, la présélection peut varier.
-Par exemple, lorsque vous utilisez la navigation dans Blender, vous pouvez passer le curseur de la souris sur un objet pour le surligner (présélectionner).
-Assurez-vous qu\'une trajectoire est sélectionnée dans l\'arborescence.
-Appuyez sur ** W** pour insérer ce point de cheminement dans la trajectoire sélectionnée.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Remarques
-
-Les objets sélectionnables sont   *
+Les objets sélectionnables sont    *
 
 -   Coins de solides
--   Points insérés via le brouillon
--   Extrémités des éléments d\'esquisse tels que des lignes, des arcs (l\'esquisse doit être visible)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Points insérés par l\'intermédiaire de l\'<img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [atelier Draft](Draft_Workbench/fr.md)
+-   Points d\'extrémité d\'éléments d\'esquisse tels que des lignes ou des arcs (l\'esquisse doit être visible).
 
 
 
-
-
-</div>
 
 
 {{Robot_Tools_navi

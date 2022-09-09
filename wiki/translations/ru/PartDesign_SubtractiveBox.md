@@ -1,45 +1,46 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign SubtractiveBox
-   MenuLocation   *Part Design → Create a subtractive primitive → Subtractive box
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
+- GuiCommand   */ru
+   Name/ru   *Субтрактивный куб (параллелепипед)
+   Name   *PartDesign_SubtractiveBox
+   MenuLocation   *Part Design → Создать субтрактивный примитив → Субтрактивный куб (параллелепипед)
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveBox](PartDesign_AdditiveBox.md)
+   SeeAlso   *[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный куб (параллелепипед)](PartDesign_AdditiveBox/ru.md)
 ---
 
 # PartDesign SubtractiveBox/ru
 
 ## Описание
 
-Inserts a subtractive box in the active Body. Its shape is subtracted from the existing solid.
+Вставляет субтрактивный куб (параллелепипед) в активное Тело. Его форма вычитается из существующего тела.
 
-![](images/PartDesign_SubtractiveBox_example.png ) *On the left   * active body (A) shown in grey and subtractive box (B) shown in transparent red; result on the right.*
+![](images/PartDesign_SubtractiveBox_example.png ) *Слева   * активное тело (A) отображено серым цветом, к которому добавлен субтрактивный параллелепипед (B) отображен прозрачным красным цветом. Справа   * форма полученная в результате преобразования.*
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_SubtractiveBox.svg" width=24px> '''Subtractive Box'''** button. **Note**   * the Subtractive Box is part of an icon menu labelled *Create a subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. If a different primitive is displayed, click on the down arrow besides the icon and select Subtractive Box in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Box feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_SubtractiveBox.svg" width=24px> '''Субтрактивный куб'''**. **Примечание**   * Инструмент Субтрактивный куб входит в состав меню с названием \"Создать субтрактивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Субтрактивный куб. Если отображается другой инструмент, нажмите на стрелку указывающую вниз рядом со значком и выберите Субтрактивный куб в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Куб появится в иерархии документа под активным Телом.
 
 ## Опции
 
-The Box can be edited after its creation in two ways   *
+Параметры Куба после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
--    **Attachment**   * defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+-    **Attachment**   * Определяет режим крепления, а также cмещение конструктивного элемента при его [креплении](Part_EditAttachment/ru.md).
 
--    **Label**   * Label given to the Box object. Change to suit your needs.
+-    **Label**   * Метка, присвоенная объекту Куб. Может быть изменена в соответствии с вашими потребностями.
 
--    **Length**   * the Box\'s dimension in the X-direction.
+-    **Length**   * Длина - размер Куба по оси X.
 
--    **Width**   * the Box\'s dimension in the Y-direction.
+-    **Width**   * Ширина - размер Куба по оси Y.
 
--    **Height**   * the Box\'s dimension in the Z-direction.
+-    **Height**   * Высота - размер Куба по оси Z.
 
 
 

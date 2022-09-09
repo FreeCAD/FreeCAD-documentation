@@ -39,12 +39,12 @@ Cette catégorie répertorie les pages liées à l\'atelier [Workbench](TechDraw
 | [TechDraw Pitch Circle Tutorial/fr](wiki/TechDraw Pitch Circle Tutorial/fr.md) | [TechDraw Preferences/fr](wiki/TechDraw Preferences/fr.md) | [TechDraw ProjectionGroup/fr](wiki/TechDraw ProjectionGroup/fr.md) |
 | [TechDraw Quadrants/fr](wiki/TechDraw Quadrants/fr.md) | [TechDraw RadiusDimension/fr](wiki/TechDraw RadiusDimension/fr.md) | [TechDraw RedrawPage/fr](wiki/TechDraw RedrawPage/fr.md) |
 | [TechDraw RichTextAnnotation/fr](wiki/TechDraw RichTextAnnotation/fr.md) | [TechDraw SectionView/fr](wiki/TechDraw SectionView/fr.md) | [TechDraw ShareView/fr](wiki/TechDraw ShareView/fr.md) |
-| [TechDraw ShowAll/fr](wiki/TechDraw ShowAll/fr.md) | [TechDraw SpreadsheetView/fr](wiki/TechDraw SpreadsheetView/fr.md) | [TechDraw Symbol/fr](wiki/TechDraw Symbol/fr.md) |
-| [TechDraw TemplateHowTo/fr](wiki/TechDraw TemplateHowTo/fr.md) | [TechDraw Templates/fr](wiki/TechDraw Templates/fr.md) | [TechDraw ToggleFrame/fr](wiki/TechDraw ToggleFrame/fr.md) |
-| [Template:TechDraw Tools navi/fr](wiki/Template_TechDraw Tools navi/fr.md) | [TechDraw VerticalDimension/fr](wiki/TechDraw VerticalDimension/fr.md) | [TechDraw VerticalExtentDimension/fr](wiki/TechDraw VerticalExtentDimension/fr.md) |
-| [TechDraw View/fr](wiki/TechDraw View/fr.md) | [TechDraw WeldSymbol/fr](wiki/TechDraw WeldSymbol/fr.md) | [TechDraw Workbench/fr](wiki/TechDraw Workbench/fr.md) |
-| [TechDrawGui API/fr](wiki/TechDrawGui API/fr.md) | [Topological naming problem/fr](wiki/Topological naming problem/fr.md) | [Tutorial for open windows/fr](wiki/Tutorial for open windows/fr.md) |
-|
+| [TechDraw ShowAll/fr](wiki/TechDraw ShowAll/fr.md) | [TechDraw SpreadsheetView/fr](wiki/TechDraw SpreadsheetView/fr.md) | [TechDraw SurfaceFinishSymbol/fr](wiki/TechDraw SurfaceFinishSymbol/fr.md) |
+| [TechDraw Symbol/fr](wiki/TechDraw Symbol/fr.md) | [TechDraw TemplateHowTo/fr](wiki/TechDraw TemplateHowTo/fr.md) | [TechDraw Templates/fr](wiki/TechDraw Templates/fr.md) |
+| [TechDraw ToggleFrame/fr](wiki/TechDraw ToggleFrame/fr.md) | [Template:TechDraw Tools navi/fr](wiki/Template_TechDraw Tools navi/fr.md) | [TechDraw VerticalDimension/fr](wiki/TechDraw VerticalDimension/fr.md) |
+| [TechDraw VerticalExtentDimension/fr](wiki/TechDraw VerticalExtentDimension/fr.md) | [TechDraw View/fr](wiki/TechDraw View/fr.md) | [TechDraw WeldSymbol/fr](wiki/TechDraw WeldSymbol/fr.md) |
+| [TechDraw Workbench/fr](wiki/TechDraw Workbench/fr.md) | [TechDrawGui API/fr](wiki/TechDrawGui API/fr.md) | [Topological naming problem/fr](wiki/Topological naming problem/fr.md) |
+| [Tutorial for open windows/fr](wiki/Tutorial for open windows/fr.md) |
 
 
 

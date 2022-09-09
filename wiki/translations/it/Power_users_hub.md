@@ -24,12 +24,10 @@ Se si desidera contribuire con contenuti a queste pagine, richiedere un account 
 
 ## Script in FreeCAD 
 
-### General
+### Generale
 
 
 <div class="mw-translate-fuzzy">
-
-### Generale
 
 -   [Introduzione a Python](Introduction_to_Python/it.md) - Vedere anche altri tutorial Python in fondo a questa pagina
 -   [Guida agli script in FreeCAD](Python_scripting_tutorial/it.md) - Uno sguardo generale agli script in Python FreeCAD
@@ -37,6 +35,7 @@ Se si desidera contribuire con contenuti a queste pagine, richiedere un account 
 -   [Comandi dell\'interfaccia grafica](Gui_Command/it.md)    * Aggiungere comandi personalizzati alla GUI
 -   [Unità](Units/it.md)   * utilizzare unità miste in FreeCAD
 -   [Profilazione](Profiling/it.md) del codice Python
+-   [Debugging](Debugging/it#Eliminare_errori_Python.md) del codice Python
 
 
 </div>
@@ -48,58 +47,26 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 -   I [Moduli builtin](Builtin_modules/it.md) sono i moduli principali di FreeCAD. Essi contengono gli strumenti per manipolare le configurazioni generali di FreeCAD, i documenti e il loro contenuto.
 -   La pagina [Creare un Ambiente di lavoro](Workbench_creation/it.md) spiega come creare un proprio ambiente di lavoro.
 
-#### Working with Meshes 
+#### Lavorare con Meshes 
 
+-   [Script per Mesh](Mesh_Scripting/it.md)   * Come interagire con il [Ambiente Mesh](Mesh_Workbench/it.md)
 
-<div class="mw-translate-fuzzy">
+#### Lavorare con Parts 
 
-### Lavorare con Mesh 
-
--   [Script per Mesh](Mesh_Scripting/it.md)   * Come interagire con il [Modulo Mesh](Mesh_Workbench/it.md)
-
-
-</div>
-
-#### Working with Parts 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Lavorare con Parti 
-
--   [Il Modulo Parte](Part_Workbench/it.md)   * Come sono utilizzati gli strumenti e la struttura di [Open CASCADE Technology](http   *//en.wikipedia.org/wiki/Open_CASCADE) in FreeCAD
+-   [L\'ambiente Part](Part_Workbench/it.md)   * Come sono utilizzati gli strumenti e la struttura di [Open CASCADE Technology](http   *//en.wikipedia.org/wiki/Open_CASCADE) in FreeCAD
 -   [Script di dati topologici](Topological_data_scripting/it.md)   * Come interagire con il Modulo Parte
 -   [PythonOCC](PythonOCC.md) - [PythonOCC](PythonOCC/it.md)   * Come utilizzare tutta la potenza di Open CASCADE
 -   [Da Mesh a Parte](Mesh_to_Part/it.md)   * Conversione tra tipi di oggetti
-
-
-</div>
-
-#### Accessing the Coin scenegraph 
-
-
-<div class="mw-translate-fuzzy">
 
 #### Accedere alla scenografia di Coin 
 
 -   [La grafica di scena di Coin/Inventor](Scenegraph/it.md)   * Come funziona la rappresentazione della scena in FreeCAD
 -   [Pivy](Pivy/it.md)   * Come accedere alla grafica della scena e come modificarla
 
-
-</div>
-
-### Controlling the Qt interface 
-
-
-<div class="mw-translate-fuzzy">
-
 ### Controllare l\'interfaccia di Qt 
 
 -   [PySide](PySide/it.md)   * Come accedere alla gestione dell\'interfaccia e modificare il suo contenuto
 -   [Using the FreeCAD GUI](Embedding_FreeCADGui.md) - [Utlizzare l\'interfaccia grafica utente di FreeCAD](Embedding_FreeCADGui/it.md) in una diversa applicazione Qt tramite PyQt
-
-
-</div>
 
 ### Lavorare con oggetti parametrici 
 
@@ -108,22 +75,14 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
     -   [Oggetti creati da script che salvano gli attributi](Scripted_objects_saving_attributes/it.md)   * come salvare e ripristinare gli attributi della classe proxy con `__getstate__` e `__setstate__`.
     -   [Migrazione di oggetti creati da script](Scripted_objects_migration/it.md)   * come migrare dei vecchi oggetti creati da script in una nuova classe.
 
-### Examples
-
-
-<div class="mw-translate-fuzzy">
-
 ### Esempi
 
 -   [Parti di codici](Code_snippets/it.md)    * Una raccolta di esempi di codice Python di FreeCAD, da utilizzare negli script \...
 -   [Funzione per tracciare linee](Line_drawing_function/it.md)   * Come costruire un semplice strumento per tracciare linee
 -   [Creare finestre di dialogo](Dialog_creation/it.md)   * Come creare finestre di dialogo con Qt designer, e come utilizzarle in FreeCAD
 -   [Incorporare FreeCAD](Embedding_FreeCAD/it.md)   * Come importare FreeCAD sotto forma di un modulo Python in altre applicazioni
--   Il [Modulo Disegno](Draft_Workbench/it.md) aggiunge a FreeCAD funzioni base di disegno 2D. E \'scritto interamente in Python, e costituisce un valido esempio per scrivere moduli personali.
+-   Il [Ambiente Draft](Draft_Workbench/it.md) aggiunge a FreeCAD funzioni base di disegno 2D. E \'scritto interamente in Python, e costituisce un valido esempio per scrivere moduli personali.
 -   [FreeCAD vector math library](FreeCAD_vector_math_library.md) - [Libreria di matematica vettoriale di FreeCAD](FreeCAD_vector_math_library/it.md)    * Un paio di funzioni utili per manipolare i vettori in FreeCAD. Questa libreria è inclusa anche nel modulo Draft.
-
-
-</div>
 
 ## Funzioni API 
 
@@ -143,17 +102,11 @@ Relazionato   * [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 Questi sono buoni tutorial generici, non specifici per FreeCAD, che possono interessare chi è totalmente nuovo a Python.
 
-
-<div class="mw-translate-fuzzy">
-
 **Python**
 
--   [Official python tutorial](https   *//docs.python.org/2.7/tutorial/index.html) - Una guida molto completa per scoprire Python
--   [Non-programmer tutorial per Python](http   *//en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python) - Un eccellente wiki
+-   [Official python tutorial](https   *//docs.python.org/3/tutorial/index.html) - Una guida molto completa per scoprire Python
+-   [Non-programmer tutorial per Python](https   *//en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3) - Un eccellente wiki
 -   [Python per novizi](http   *//npt.cc.rsu.ru/user/wanderer/ODP/Python_for_Newbies.htm) - Un grande manuale che si occupa di tutti i concetti base
-
-
-</div>
 
 **PySide** - Come creare e gestire l\'interfaccia Qt di FreeCAD con Python
 
@@ -169,16 +122,11 @@ I seguenti sono due riferimenti specifici di PyQt (non di PySide) che possono of
 -   [Tutorial base di PyQt](http   *//www.cs.usfca.edu/~afedosov/qttut/)    * Un semplice e breve tutorial basato su Linux che spiega come lavorare con PyQt e Qt Designer
 -   [Programmare Applicazioni Qt in Python](http   *//vizzzion.org/?id=pyqt)    * Un tutorial molto approfondito che copre tutti i processi di lavoro con Qt e Python.
 
-
-<div class="mw-translate-fuzzy">
-
 **Pivy** - Come interagire con le scene 3D di FreeCAD
 
--   [Tutorial base di Pivy](http   *//pivy.coin3d.org/documentation/pycon)    * Un tutorial molto semplice del sito di Pivy
--   [Introduzione a Pivy](http   *//www.google.com.br/url?sa=U&start=3&q=http   *//studierstube.icg.tu-graz.ac.at/doc/pdf/PivyStudierstubeTutorial.pdf&ei=XyC1Sc2wOeCKmQem_eHnBQ&usg=AFQjCNEYhb-0DcUc6OxFVijAe1epBb-4aA)    * Un documento che non è realmente un tutorial, ma che illustra bene come funziona Pivy
-
-
-</div>
+-   [Pivy - Embedding a Dynamic Scripting Language into a Scene Graph Library](http   *//citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.947&rep=rep1&type=pdf)    * Tesi che illustra Pivy nel dettaglio
+-   [High Level 3D Graphics Programming in Python](http   *//ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/)    * esempio Pivy da Pycon 2004
+-   [Introducing Pivy into studierstube](https   *//www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https   *//www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42)    * Uno scritto che non è un vero tutorial, ma illustra bene come Pivy funziona (richiede un account accademico)
 
 ## Progetti della comunità 
 

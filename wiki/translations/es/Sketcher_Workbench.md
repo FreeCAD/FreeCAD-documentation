@@ -94,11 +94,29 @@ Si sólo necesitas producir vistas 2D para imprimir, y no quieres crear modelos 
 
 ## Flujo de trabajo del Croquizado 
 
+
+<div class="mw-translate-fuzzy">
+
 Un croquis es siempre bidimensional (2D). Para crear un sólido, se crea un croquis con un perfil cerrado y posteriormente se extruye o se realiza una operación de revolución. De esta forma se añade la tercera dimensión y se crea un sólido tridimensional.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Si un Bosquejo tiene segmentos que se cruzan entre sí, lugares donde un Punto no está directamente en un segmento, o lugares donde hay huecos entre los puntos finales de segmentos adyacentes, Pad o Revolución no creará un sólido. A veces un Boceto que contiene líneas que se cruzan entre sí funcionará para una operación simple como Pad, pero operaciones posteriores como Patrón Lineal fallarán. Es mejor evitar cruzar las líneas. La excepción a esta regla es que no se aplica a la Geometría de Construcción (azul).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Dentro de un perfil cerrado puede haber contenidos otros perfiles interiores que no se solapen, ni con el anterior, ni entre ellos. Al aplicar la operación tridimensional estos perfiles interiores constituirán huecos en la forma tridimensional.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -200,6 +218,16 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 </div>
 
+   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md)   * Draws an ellipse by center point, major radius point and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)   * Draws an ellipse by major diameter (2 points) and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md)   * Draws an arc of ellipse by center point, major radius point, starting point and ending point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)   * Draws an arc of hyperbola.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)   * Draws an arc of parabola.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -209,6 +237,10 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 
 </div>
+
+   ** <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-spline curve by its control points.
+
+   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic (closed) B-spline curve by its control points.
 
 
 <div class="mw-translate-fuzzy">
@@ -374,10 +406,24 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 
 -   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width   *32px;"> [Distancia](Sketcher_ConstrainDistance/es.md)   * Define la distancia de una línea seleccionada limitando su longitud, o define la distancia entre dos puntos limitando la distancia entre ellos.
 
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width   *48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md)   * This is an icon menu in the Sketcher constraints toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Radio](Sketcher_ConstrainRadius/es.md)   * Define el radio de un arco o círculo seleccionado restringiendo el radio.
 -   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diámetro](Sketcher_ConstrainDiameter/es.md)   * Define el diámetro de un arco o círculo seleccionado restringiendo el diámetro.
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam/es.md)   * Define automáticamente el radio/diámetro de un arco o círculo seleccionado (peso para un polo B-spline, diámetro para un círculo completo, radio para un arco) {{Version/es|0.20}}
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Ángulo](Sketcher_ConstrainAngle/es.md)   * Define el ángulo interno entre dos líneas seleccionadas.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+
+-   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Angle](Sketcher_ConstrainAngle.md)   * Defines the internal angle between two selected lines.
 
 
 <div class="mw-translate-fuzzy">
@@ -647,10 +693,16 @@ Cada usuario de CAD desarrolla su propia forma de trabajar a lo largo del tiempo
 
 ## Tutoriales
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Tutorial de croquis](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104) por Chrisb. Este es un documento PDF de 70 páginas que sirve como un manual detallado para el croquis. Explica los fundamentos del uso del croquis, y entra en muchos detalles sobre la creación de formas geométricas, y cada una de las restricciones.
 -   [Tutorial básico de dibujo](Basic_Sketcher_Tutorial/es.md) para principiantes
 -   [Coquis Micro Tutorial - Prácticas de Restricción](Sketcher_Micro_Tutorial_-_Constraint_Practices/es.md)
 -   [Requisito por un boceto](Sketcher_requirement_for_a_sketch/es.md) Requisito mínimo de un boceto y determinación completa de un boceto
+
+
+</div>
 
 ## Guión
 

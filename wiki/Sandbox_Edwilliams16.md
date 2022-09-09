@@ -220,6 +220,21 @@ newP = C + Rotation.multVec(P -  C)
 
 Placements can do this with a third *center* Argument Placement(BaseVector, Rotation, Center) represents a *Rotation* about *Center* followed by a displacement of *BaseVector*.
 
+Constructing from first principles, we see   * 
+```python 
+baseVector = App.Vector(50,0,0)
+axis = App.Vector(1, 1, 1)
+angle = 45
+center = App.Vector(0, 10, 0)
+rotation = App.Rotation(axis, angle)
+zeroVec = App.Vector(0,0,0)  # or =App.Vector()
+zeroRot = App.Rotation(App.Vector(0, 0, 1), 0) # or =App.Rotation()
+p1 = App.Placement(baseVector, rotation, center)
+p2 = App.Placement(BaseVector, zeroRot) * App.Placement(center, zeroRot) * App.Placement(zeroVec,  rotation) * App.Placement(-center, zeroRot)
+p1.__eq__(p2)
+True
+```
+
 ### Some other Vector Methods 
 
 Let v, v0, v1, v2 etc. be Vectors

@@ -17,7 +17,7 @@
 ## Применение
 
 <img alt="" src=images/HorizontalConstraint1.png  style="width   *500px;"> 
-*Выберите линию на эскизе, кликнув по ней.*
+*Выберите отрезок на эскизе, кликнув по нему.*
 
 <img alt="" src=images/HorizontalConstraint2.png  style="width   *500px;"> 
 *Линия становится тёмно-зелёной.*

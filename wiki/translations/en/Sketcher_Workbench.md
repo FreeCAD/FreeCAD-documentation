@@ -38,7 +38,7 @@ There are two kinds of constraints   * geometric and dimensional. They are detai
 
 The Sketcher is not intended for producing 2D blueprints. Once sketches are used to generate a solid feature, they are automatically hidden. Constraints are only visible in Sketch edit mode.
 
-If you only need to produce 2D views for print, and don\'t want to create 3D models, check out the [Draft workbench](Draft_Workbench.md). Unlike Sketcher elements, Draft objects don\'t use constraints; they are simple shapes defined at the moment of creation. Both Draft and Sketcher can be used for 2D geometry drawing, and 3D solid creation, although their preferred use is different; the Sketcher is normally used together with [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) to create solids; Draft is normally used for simple planar drawings over a grid, as when drawing an architectural floor plan; in these situations Draft is mostly used together with the [Arch Workbench](Arch_Workbench.md). The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sketch object, and vice versa; many tools that require a 2D element as input work with either type of object as an internal conversion is done automatically.
+If you only need to produce 2D views for print, and don\'t want to create 3D models, check out the [Draft workbench](Draft_Workbench.md). Unlike Sketcher elements, Draft objects don\'t use constraints; they are simple shapes defined at the moment of creation. Both Draft and Sketcher can be used for 2D geometry drawing, and 3D solid creation, although their preferred use is different; the Sketcher is normally used together with the [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) workbenches to create solids; Draft is normally used for simple planar drawings over a grid, as when drawing an architectural floor plan; in these situations Draft is mostly used together with the [Arch Workbench](Arch_Workbench.md). The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sketch object, and vice versa; many tools that require a 2D element as input work with either type of object as an internal conversion is done automatically.
 
 ## Sketching Workflow 
 
@@ -99,15 +99,22 @@ These are tools for creating objects.
    ** <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Circle by 3 points](Sketcher_Create3PointCircle.md)   * Draws a circle from three points on the circumference.
 
 -   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *48px;"> [Create a conic](Sketcher_CompCreateConic.md)   * The sketcher provides the following conical sections. Unlike B-splines they can be used with all sorts of constraints such as [Tangent](Sketcher_ConstrainTangent.md), [Point On Object](Sketcher_ConstrainPointOnObject.md), or [Perpendicular](Sketcher_ConstrainPerpendicular.md).
-    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipse](Sketcher_CreateEllipseByCenter.md)   * Draws an ellipse by center point, major radius point and minor radius point.
-    -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)   * Draws an ellipse by major diameter (2 points) and minor radius point.
-    -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md)   * Draws an arc of ellipse by center point, major radius point, starting point and ending point.
-    -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)   * Draws an arc of hyperbola.
-    -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)   * Draws an arc of parabola.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md)   * Draws an ellipse by center point, major radius point and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)   * Draws an ellipse by major diameter (2 points) and minor radius point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md)   * Draws an arc of ellipse by center point, major radius point, starting point and ending point.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)   * Draws an arc of hyperbola.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)   * Draws an arc of parabola.
 
 -   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width   *48px;"> [Create a B-spline](Sketcher_CompCreateBSpline.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-spline curve by its control points.
-    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic (closed) B-spline curve by its control points.
+
+   ** <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-spline curve by its control points.
+
+   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic (closed) B-spline curve by its control points.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *32px;"> [Polyline (multiple-point line)](Sketcher_CreatePolyline.md)   * Draws a line made of multiple line segments. Pressing the **M** key while drawing a Polyline toggles between the different polyline modes.
 
@@ -191,9 +198,14 @@ These are constraints associated with numeric data, for which you can use the [e
 
 -   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width   *32px;"> [Distance](Sketcher_ConstrainDistance.md)   * Defines the distance of a selected line by constraining its length, or defines the distance between two points by constraining the distance between them.
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Radius](Sketcher_ConstrainRadius.md)   * Defines the radius of a selected arc or circle by constraining the radius.
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
--   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc) <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width   *48px;"> [Arc or circle](Sketcher_CompConstrainRadDia.md)   * This is an icon menu in the Sketcher constraints toolbar that holds the following commands   *
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Radius](Sketcher_ConstrainRadius.md)   * Defines the radius of a selected arc or circle by constraining the radius.
+
+   ** <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc). <small>(v0.20)</small> 
+
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Angle](Sketcher_ConstrainAngle.md)   * Defines the internal angle between two selected lines.
 
 #### Special constraints 
@@ -290,7 +302,7 @@ Every CAD user develops his own way of working over time, but there are some use
 -   Always create a closed profile, or your sketch won\'t produce a solid, but rather a set of open faces. If you don\'t want some of the objects to be included in the solid creation, turn them to construction elements with the Construction Mode tool.
 -   Use the auto constraints feature to limit the number of constraints you\'ll have to add manually.
 -   As a general rule, apply geometric constraints first, then dimensional constraints, and lock your sketch last. But remember   * rules are made to be broken. If you\'re having trouble manipulating your sketch, it may be useful to constrain a few objects first before completing your profile.
--   If possible, center your sketch to the origin (0,0) with the lock constraint. If your sketch is not symmetric, locate one of its points to the origin, or choose nice round numbers for the lock distances. In v0.12, external constraints (constraining the sketch to existing 3D geometry like edges or to other sketches) are not implemented. This means that to locate following sketches geometry to your first sketch, you\'ll need to set distances relative to your first sketch manually. A lock constraint of (25,75) from the origin is more easily remembered than (23.47,73.02).
+-   If possible, center your sketch to the origin (0,0) with the lock constraint. If your sketch is not symmetric, locate one of its points to the origin, or choose nice round numbers for the lock distances.
 -   If you have the possibility to choose between the Length constraint and the Horizontal or Vertical Distance constraints, prefer the latter. Horizontal and Vertical Distance constraints are computationally cheaper.
 -   In general, the best constraints to use are   * Horizontal and Vertical Constraints; Horizontal and Vertical Length Constraints; Point-to-Point Tangency. If possible, limit the use of these   * the general Length Constraint; Edge-to-Edge Tangency; Fix Point Onto a Line Constraint; Symmetry Constraint.
 -   If in doubt about the validity of a sketch once it is complete (features turn green), close the Sketcher dialog, switch to the <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part Workbench](Part_Workbench.md) and run **[<img src=images/Part_CheckGeometry.svg style="width   *16px"> [Check geometry](Part_CheckGeometry.md)**.

@@ -1,14 +1,14 @@
 # PartDesign Feature/ru
 ## Введение
 
-[PartDesign Feature](PartDesign_Feature/ru.md) относится к «шагу» в процессе моделирования, происходившему внутри [PartDesign Body](PartDesign_Body/ru.md). Например, каждый раз, когда вы добавляете сплошную коробку с помощью [PartDesign AdditiveBox](PartDesign_AdditiveBox/ru.md), вы добавляете элемент; когда вы добавляете фаску к кромке с помощью [PartDesign Chamfer](PartDesign_Chamfer/ru.md), вы добавляете еще один элемент; когда вы вырезаете отверстие с помощью [sketch](Sketch/ru.md) и [PartDesign Pocket](PartDesign_Pocket/ru.md), вы добавляете ещё один элемент.
+[Констуктивный элемент PartDesign](PartDesign_Feature/ru.md) является «шагом» в процессе моделирования, происходящим внутри [Тела PartDesign](PartDesign_Body/ru.md). Например, каждый раз, когда вы добавляете Куб с помощью [PartDesign AdditiveBox](PartDesign_AdditiveBox/ru.md), вы добавляете констуктивный элемент; когда вы добавляете фаску к кромке с помощью [PartDesign Chamfer](PartDesign_Chamfer/ru.md), вы добавляете еще один конструктивный элемент; когда вы вырезаете отверстие с помощью [sketch](Sketch/ru.md) и [PartDesign Pocket](PartDesign_Pocket/ru.md), вы добавляете ещё один конструктивный элемент.
 
 <img alt="" src=images/PartDesign_Feature_example.png  style="width   *600px;"> 
-*Редактирование элементов в [PartDesign Body](PartDesign_Body/ru.md) с тремя последовательными элементами.*
+*Изменение [PartDesign Тела](PartDesign_Body/ru.md) последовательностью из трех конструктивных элементов.*
 
 Есть много типов элементов, которые могут добавить или удалить объем исходного твердого тела. Слово «элемент» относится к самой операции, а также к твёрдому телу, полученному после этой операции.
 
-Чтобы узнать больше о создании твердых объектов с помощью [PartDesign Workbench](PartDesign_Workbench/ru.md), смотрите [редактирование элементов](feature_editing/ru.md).
+Чтобы узнать больше о создании твердотельных объектов с помощью [верстака PartDesign](PartDesign_Workbench/ru.md), смотрите [редактирование конструктивных элементов](feature_editing/ru.md).
 
 ## Применение
 

@@ -1,7 +1,7 @@
 # Release notes 0.20/ru
 {{TOCright}}
 
-**FreeCAD 0.20** was released on **14 June 2022**, get it from the [Download](Download.md) page. This page lists all new features and changes.
+**FreeCAD 0.20** был выпущен **14 июня 2022**, скачать его можно со [страницы загрузок](Download/ru.md). На этой странице перечислены все новые возможности и изменения.
 
 Older FreeCAD release notes can be found in the [Feature list](Feature_list#Release_notes.md).
 
@@ -21,7 +21,7 @@ The FreeCAD bug tracker was moved to GitHub   * <https   *//github.com/FreeCAD/F
 
 **Note   *** Only bug reports with a prior forum discussion will be considered. Reports without this will be closed.
 
-### New help system 
+### Новая система помощи 
 
 The help system was rewritten and upgraded to display information directly from our [Wiki](User_hub.md). The system now relies on the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help). When you first use the [Help](Std_Help.md) tool or the [What\'s this?](Std_WhatsThis.md) tool you will be asked to install it.
 
@@ -59,7 +59,7 @@ The help system was rewritten and upgraded to display information directly from 
 |                                                                                                         | [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=52441), [Pull request \#4118](https   *//github.com/FreeCAD/FreeCAD/pull/4118). |
 +++
 
-### Further user interface improvements 
+### Предстоящие улучшения пользовательского интерфейса 
 
 -   It is now possible to use the decimal separator belonging to the language specified for the FreeCAD interface. For example on a German Windows, when you set the interface language to **English** and select the new option **Use selected language number format**, the dot will be used as the decimal separator. See [Preferences](Preferences_Editor#General.md). [Pull request \#6364](https   *//github.com/FreeCAD/FreeCAD/pull/6364)**Note**   * For [FEM](FEM_Workbench.md) simulations using the dot as decimal separator is highly recommended to get correct results.
 -   Two new mouse navigation styles have been added. One based on [OpenSCAD](Mouse_navigation#OpenSCAD_navigation.md), the other on [TinkerCAD](Mouse_navigation#TinkerCAD_navigation.md). [Forum discussion OpenSCAD](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=60975), [Forum discussion TinkerCAD](https   *//forum.freecadweb.org/viewtopic.php?p=544639#p544376), [commit 1](https   *//github.com/FreeCAD/FreeCAD/commit/a1c9ab658c), [commit 2](https   *//github.com/FreeCAD/FreeCAD/commit/ef100d55e9d50), [commit 3](https   *//github.com/FreeCAD/FreeCAD/commit/549e5b5650).
@@ -69,9 +69,9 @@ The help system was rewritten and upgraded to display information directly from 
 -   A new setting in [Preferences → General](Preferences_Editor#General.md) allows to substitute the numerical keypad decimal separator with the appropriate locale separator if they are different. [Pull request \#3256](https   *//github.com/FreeCAD/FreeCAD/pull/3256) [Pull request \#5150](https   *//github.com/FreeCAD/FreeCAD/pull/5150) [Pull request 5203](https   *//github.com/FreeCAD/FreeCAD/pull/5203)
 -   It is now possible to set the **Backspace** key as a standalone shortcut key without the need to specify an additional modifier key. [Pull request \#5428](https   *//github.com/FreeCAD/FreeCAD/pull/5428)
 
-## Core system and API 
+## Ядро системы и API 
 
-### Core
+### Ядро
 
    
   <img alt="" src=images/Object_selection_relnotes_0.20.png  style="width   *384px;">   When using **Edit → Copy** or **Edit → Duplicate selection** for an object with dependencies there is a new **Use Original Selections** button in the object selection dialog. Click this button to copy/duplicate only the objects you originally selected prior to opening the dialog, ignoring dependencies and ignoring any actions you might have taken while the dialog was open, such as checking or unchecking some of the checkboxes. The effect is the same as if you had unchecked all the checkboxes next to the objects you did not originally select and pressed OK. Note   * special care should be taken when copying/duplicating TechDraw Pages. It is recommended to also copy/duplicate all children of the Page (Templates, Views, Dimensions, etc.). Otherwise changes to one Page will also impact the other page. For example, deleting a View on one Page also removes it from the other Page, or deleting a page will also remove all its content from the other Page.
@@ -85,19 +85,19 @@ The help system was rewritten and upgraded to display information directly from 
   <img alt="" src=images/Autoload_relnotes_0.20.png  style="width   *384px;">   The \"Workbenches\" preference panel was modified to support the ability to \"autoload\" workbenches on FreeCAD startup.
    
 
-On Linux, the default location of FreeCAD\'s configuration, data and cache files was changed to follow the [XDG Base Directory Specification](https   *//specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Here is a comparison of the old and new locations   *
+В Linux расположение файлов конфигурации, данных и кэша FreeCAD по умолчанию было изменено в соответствии с [XDG Base Directory Specification](https   *//specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Таблица содержит сравнение старых и новых локаций   *
 
-  Description           Old location      New location                  Defaults to
+  Описание             Старое расположение   Новое расположение            По умолчанию
      
-  Configuration files   \$HOME/.FreeCAD   \$XDG\_CONFIG\_HOME/FreeCAD   \$HOME/.config/FreeCAD
-  Data files            \$HOME/.FreeCAD   \$XDG\_DATA\_HOME/FreeCAD     \$HOME/.local/share/FreeCAD
-  Cache files           /tmp              \$XDG\_CACHE\_HOME/FreeCAD    \$HOME/.cache/FreeCAD
+  Файлы конфигурации   \$HOME/.FreeCAD       \$XDG\_CONFIG\_HOME/FreeCAD   \$HOME/.config/FreeCAD
+  Файлы данных         \$HOME/.FreeCAD       \$XDG\_DATA\_HOME/FreeCAD     \$HOME/.local/share/FreeCAD
+  Файлы кэша           /tmp                  \$XDG\_CACHE\_HOME/FreeCAD    \$HOME/.cache/FreeCAD
 
 If you wish to keep using the old locations you may start FreeCAD with the `--keep-deprecated-paths` option.
 
 ### API
 
-FreeCAD received many new Python API functions   *
+В FreeCAD было добавлено множество новых функций Python API   *
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -181,7 +181,7 @@ FreeCAD received many new Python API functions   *
 
 </div>
 
-## Менеджер Аддонов 
+## Менеджер Дополнений 
 
    
   <img alt="" src=images/AddonManagerExpanded_relnotes_0.20.png  style="width   *400px;">   The [Addon Manager](Std_AddonMgr.md) was modified to support the distribution of Preference Packs, and to display information found in an addon\'s metadata. The Addon Manager also includes improved support for Addons whose source code is located at several different git hosting locations. Networking support was improved to provide more robust handling of SSL connections and support for proxies requiring authentication. Support was added for automatically adding macro buttons to the toolbar after installing, for disabling Addons without removing them, and for switching which git branch of an Addon is checked out. Finally, the user interface was modified to improve searching and display of different list filters.
@@ -247,7 +247,7 @@ FreeCAD received many new Python API functions   *
 
 -   It is now possible to reverse a [Draft Wire](Draft_Wire.md) via the <img alt="" src=images/Draft_Edit.svg  style="width   *24px;"> [Draft Edit](Draft_Edit.md) context menu. [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [Pull request \#4811](https   *//github.com/FreeCAD/FreeCAD/pull/4811).
 
-### Further Draft improvements 
+### Предстоящие улучшения верстака Draft 
 
 -   Fixed [Draft Snap Grid](Draft_Snap_Grid.md) when the cursor is over a face. [Forum discussion](https   *//forum.freecad.org/viewtopic.php?f=23&t=62274). [Git commit](https   *//github.com/FreeCAD/FreeCAD/commit/1761eb8ce).
 
@@ -255,7 +255,7 @@ FreeCAD received many new Python API functions   *
 
 -   Support for two DWG converters was added   * [LibreDWG](https   *//www.gnu.org/software/libredwg) and [QCAD pro](https   *//qcad.org/en/qcad-command-line-tools#dwg2dwg). See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 
-## Верстак FEM (Метод Конечных Элементов) 
+## Верстак FEM 
 
    
   <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width   *384px;">The new Z88 settings and their default values                                                                                The [Z88 solver](FEM_SolverZ88.md) is now fully usable. You can specify the solver method and change the memory settings. The new default values allow you to perform also complex simulations directly. [commit d035bbc1ca and following](https   *//github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
@@ -264,7 +264,7 @@ FreeCAD received many new Python API functions   *
   <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width   *384px;">Effect of the recombination algorithm; left   * using *Simple*, right   * using *Simple full-quad*   FreeCAD now allows to select an algorithm as well as 3D mesh recombination for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. For more details about mesh element recombination see [FEM MeshGmshFromShape](FEM_MeshGmshFromShape#Element_Recombination.md). [Pull request \#4706](https   *//github.com/FreeCAD/FreeCAD/pull/4706)
    
 
-### Further FEM improvements 
+### Предстоящие улучшения верстака FEM 
 
 -   **Important   *** Starting from this release, FreeCAD will use [SI units](https   *//en.wikipedia.org/wiki/International_System_of_Units) (m, kg, s, K, A, mol, cd) to write the [Elmer solver](FEM_SolverElmer.md) input files (*case.sif* and *mesh.nodes*). This is independent of the used FreeCAD [unit system](Preferences_Editor#Units.md).
 -   **Important   *** Starting from this release, the scale of [result pipelines](FEM_PostPipelineFromResult.md) and their [filters](FEM_Workbench#Menu__Results.md) will use SI units (m, kg, s, K, A, mol, cd). So the displacement is given in meter, the stress in Pascal. This applies to all SI-derived FreeCAD [unit systems](Preferences_Editor#Units.md).
@@ -284,7 +284,7 @@ FreeCAD received many new Python API functions   *
 -   Allow modal adding/removal of geometric entities to constraints acting on boundaries. [Pull request \#5117](https   *//github.com/FreeCAD/FreeCAD/pull/5117)
 -   Most FEM constraint dialogs now behave uniformly and provide the same 3D object selection features. [Pull request \#5391](https   *//github.com/FreeCAD/FreeCAD/pull/5391)
 
-## Export
+## Экспортирование
 
 -   DXF   * The missing unit block was added to the header14.rub file. [Pull request \#5793](https   *//github.com/FreeCAD/FreeCAD/issues/5793)
 
@@ -294,7 +294,7 @@ FreeCAD received many new Python API functions   *
 
 The Mesh import tool now supports the high-precision \"GRID\*\" element. The standard-precision \"GRID\" element was also improved, now supporting both space-delimited numeric input as well as fixed-field-width input, per the NASTRAN95 format documentation.
 
-### Further Mesh improvements 
+### Планируемые улучшения верстака Mesh 
 
 Fixed false negatives during self-intersection tests when facets are coplanar   * [Pull request \#5002](https   *//github.com/FreeCAD/FreeCAD/pull/5002).
 
@@ -315,19 +315,19 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 |                                                                                                 | A new text box gives feedback about OpenSCAD errors.                                                                              |
 +++
 
-## Part Workbench 
+## Верстак Part 
 
    
   <img alt="" src=images/Part_Extrusion-inner-structures_relnotes_0.20.png  style="width   *384px;">Tapered extrusion of a sketch with an inner structure.   A tapered [extrusion](Part_Extrude.md) of inner structures now creates usable results. Previously, inner structures were extruded as if they were stand-alone and not part of a structure. [Pull request \#5367](https   *//github.com/FreeCAD/FreeCAD/pull/5367)
    
 
-### Further Part improvements 
+### Предстоящие улучшения верстака Part 
 
 -   The dialog to edit [Cylinders](Part_Cylinder.md) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https   *//github.com/FreeCAD/FreeCAD/pull/4708)
 -   The [Face Colors](Part_FaceColors.md) tool now also allows to set the transparency (*Alpha channel*) of faces. This transparency can be [exported](Import_Export.md), making e.g. STEP files with transparent parts possible.
 -   The following commands now support App   *   *Links   * [Loft](Part_Loft.md), [Sweep](Part_Sweep.md), [Extrude](Part_Extrude.md), [Revolve](Part_Revolve.md), [Reverse shapes](Part_ReverseShapes.md), [Mirror](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Check Geometry](Part_CheckGeometry.md), [Ruled Surface](Part_RuledSurface.md), [Cross-sections](Part_CrossSections.md), and [Thickness](Part_Thickness.md). [Pull request \#6478](https   *//github.com/FreeCAD/FreeCAD/pull/6478)
 
-## PartDesign Workbench 
+## Верстак PartDesign 
 
 +++
 | <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width   *384px;">Padding along an edge from the model.Click on the image to see the animation.                                                                      | There is a new option to [Pad](PartDesign_Pad.md) along the direction of an edge in the 3D model. [Pull request \#4685](https   *//github.com/FreeCAD/FreeCAD/pull/4685)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -354,7 +354,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 |                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 +++
 
-### Further PartDesign improvements 
+### Предстоящие улучшения верстака PartDesign 
 
 -   In the [Helix](PartDesign_AdditiveHelix.md) feature one can now also use the sketch normal as axis. [Pull request \#5199](https   *//github.com/FreeCAD/FreeCAD/pull/5199)
 -   The [Sprocket](PartDesign_Sprocket.md) feature can now also create ISO-normed sprockets. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [Pull request \#4478](https   *//github.com/FreeCAD/FreeCAD/pull/4478)
@@ -378,7 +378,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 -   The stability of engraving on sketches was improved. [Pull request \#6394](https   *//github.com/FreeCAD/FreeCAD/pull/6394)
 -   The visibility of path objects was made more natural. [Pull request \#4911](https   *//github.com/FreeCAD/FreeCAD/pull/4911)
 
-## Plot module 
+## Модуль Plot 
 
 -   FreeCAD now provides the Plot module by default, so any other module/workbench may create plots without requiring external tools [Pull request \#4971](https   *//github.com/FreeCAD/FreeCAD/pull/4971).
 
@@ -394,7 +394,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
   <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif )                                          New ![](images/Sketcher_BSplineInsertKnot.svg  style="width   *24px;"> [Insert Knot](Sketcher_BSplineInsertKnot.md) tool to insert a knot in an existing B-spline. [Pull request \#5311](https   *//github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request \#6356](https   *//github.com/FreeCAD/FreeCAD/pull/6356)
    
 
-### Further Sketcher improvements 
+### Предстоящие улучшения Sketcher 
 
 -   Refactored Trim support. [Pull request \#4330](https   *//github.com/FreeCAD/FreeCAD/pull/4330) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=54441)
 -   The behavior of the <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *24px;"> [Slot](Sketcher_CreateSlot.md) tool has changed. Slots can now be created by defining the center of both semicircles. [Pull request](https   *//github.com/FreeCAD/FreeCAD/pull/4843) [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
@@ -419,7 +419,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
   ![](images/Spreadsheet_binding-dialog_relnotes_0.20.png )                          Cells can now be [bound to other cells](Spreadsheet_Workbench#Cell_binding.md) of the same or a different spreadsheet. Part of [Pull request \#2862](https   *//github.com/FreeCAD/FreeCAD/pull/2862).
    
 
-### Further Spreadsheet improvements 
+### Предстоящие улучшения электронных таблиц 
 
 -   In the row/column context-menu it is now possible to specify the position when inserting rows/columns. [Pull request \#4704](https   *//github.com/FreeCAD/FreeCAD/pull/4704).
 -   Import XLSX (used by [Std Import](Std_Import.md))   * Added support for floor and ceil functions. [Pull request \#5015](https   *//github.com/FreeCAD/FreeCAD/pull/5015).
@@ -432,7 +432,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
   <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width   *384px;">   More than 30 new tools, so-called [Extensions](TechDraw_Workbench#Extensions.md), are now available. They offer new cosmetic features to enhance drawings.
    
 
-### Further TechDraw improvements 
+### Предстоящие улучшения верстака TechDraw 
 
 -   It is now possible to [Share](TechDraw_ShareView.md) and [Move](TechDraw_MoveView.md) [Views](TechDraw_Workbench#Views.md) between pages.
 -   When there are several [Pages](TechDraw_PageDefault.md) and a [View](TechDraw_View.md), [ProjectionGroup](TechDraw_ProjectionGroup.md) etc. is added, there is now a dialog to ask to what page the view should be added. [Pull request \#5309](https   *//github.com/FreeCAD/FreeCAD/pull/5309).
@@ -444,9 +444,9 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 
 ## Web
 
-Qt WebEngine is now considered the default option instead of Qt WebKit.
+Qt WebEngine теперь считается опцией по умолчанию вместо Qt WebKit.
 
-## External workbenches 
+## Внешние верстаки 
 
 
 **Note   ***
@@ -502,38 +502,26 @@ The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements   
 
 ### Ship
 
-The [Ship Workbench](Ship_Workbench.md) is back to life!
+[Верстак Ship](Ship_Workbench/ru.md) обновлен!
 
 -   A new tool to compute the [static sink and trim](https   *//github.com/FreeCAD/freecad.ship#static-sink-and-trim) has been added.
 -   A new tool to compute the [response amplitude operators](https   *//github.com/FreeCAD/freecad.ship#raos) has been added on top of [capytaine](https   *//github.com/mancellin/capytaine).
 
-
-<div class="mw-translate-fuzzy">
-
-### Разработка
-
-
-</div>
+## Сборка
 
 Since this release FreeCAD can only be compiled using Qt 5.x and Python 3.x. The lowest supported Python version is 3.6.9 according to [this forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=62701).
 
-To compile FreeCAD see the instructions for [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) and [MacOS](Compile_on_MacOS.md).
+Для компиляции FreeCAD под определенную ОС ознакомьтесь с инструкциями   * [Windows](Compile_on_Windows/ru.md), [Linux](Compile_on_Linux/ru.md) и [macOS](Compile_on_MacOS/ru.md).
 
-The supported operating systems are   *
+Поддерживаемые операционные системы   *
 
--   Windows 7, 8, 10 and 11
--   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
--   MacOS   * 10.12 Sierra or newer
+-   Windows 7, 8, 10 и 11
+-   Linux Ubuntu Bionic Beaver (18.04) и Focal Fossa (20.04)
+-   MacOS   * 10.12 Sierra и выше
 
+## Известные Ограничения 
 
-<div class="mw-translate-fuzzy">
-
-### Известные Ограничения 
-
-
-</div>
-
-### 32-bit Windows 
+### 32bit Windows 
 
 Since FreeCAD 0.19 we no longer officially support 32-bit Windows. FreeCAD might work on these systems, but no support is given.
 

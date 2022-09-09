@@ -15,19 +15,13 @@
 
 ## Типы правильных многоугольников 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width   *32px;"> [Нарисовать равносторонний треугольник](Sketcher_CreateTriangle/ru.md)    * Рисует равносторонний треугольник по двум указанным точкам   * центр и один угол.
--   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width   *32px;"> [Нарисовать квадрат](Sketcher_CreateSquare/ru.md)    * Рисует квадрат по двум указанным точкам   * центр и один угол.
--   <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width   *32px;"> [Нарисовать пятиугольник](Sketcher_CreatePentagon/ru.md)    * Рисует пятиугольник по двум указанным точкам   * центр и один угол.
--   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width   *32px;"> [Нарисовать шестиугольник](Sketcher_CreateHexagon/ru.md)    * Рисует шестиугольник по двум указанным точкам   * центр и один угол.
--   <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width   *32px;"> [Нарисовать семиугольник](Sketcher_CreateHeptagon/ru.md)    * Рисует семиугольник по двум указанным точкам   * центр и один угол.
--   <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width   *32px;"> [Нарисовать восьмиугольник](Sketcher_CreateOctagon/ru.md)    * Рисует восьмиугольник по двум указанным точкам   * центр и один угол.
--   <img alt="" src=images/Sketcher_CreateRegularPolygon.png  style="width   *32px;"> [Нарисовать обычный многоугольник](Sketcher_CreateRegularPolygon/ru.md)    * Рисует правильный многоугольник, выбирая количество сторон и указывая две точки   * центр и один угол.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width   *32px;"> [Треугольник](Sketcher_CreateTriangle/ru.md)    * Создать равносторонний треугольник по двум указанным точкам   * центр и один угол.
+-   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width   *32px;"> [Квадрат](Sketcher_CreateSquare/ru.md)    * Создать квадрат по двум указанным точкам   * центр и один угол.
+-   <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width   *32px;"> [Пятиугольник](Sketcher_CreatePentagon/ru.md)    * Создать пятиугольник по двум указанным точкам   * центр и один угол.
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width   *32px;"> [Шестиугольник](Sketcher_CreateHexagon/ru.md)    * Создать шестиугольник по двум указанным точкам   * центр и один угол.
+-   <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width   *32px;"> [Семиугольник](Sketcher_CreateHeptagon/ru.md)    * Создать семиугольник по двум указанным точкам   * центр и один угол.
+-   <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width   *32px;"> [Восьмиугольник](Sketcher_CreateOctagon/ru.md)    * Создать восьмиугольник по двум указанным точкам   * центр и один угол.
+-   <img alt="" src=images/Sketcher_CreateRegularPolygon.png  style="width   *32px;"> [Правильный многоугольник](Sketcher_CreateRegularPolygon/ru.md)    * Создать правильный многоугольник, выбирая количество сторон и указывая две точки   * центр и один угол.
 
 
 

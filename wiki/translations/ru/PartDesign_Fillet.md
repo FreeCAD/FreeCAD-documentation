@@ -132,13 +132,7 @@ Edge numbers are not completely stable, therefore it is advisable that you finis
 Read more in [topological naming problem](Topological_naming_problem.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign Tools navi

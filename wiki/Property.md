@@ -3,46 +3,71 @@
 
 A [property](Property.md) is a piece of information like a number or a text string that is attached to a FreeCAD document or an object in a document. Public properties can be viewed and modified in the [Property editor](Property_editor.md).
 
-Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also [PropertyLink   *_InList\_and\_OutList](PropertyLink__InList_and_OutList.md)
+Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also [FeaturePython Custom Properties](FeaturePython_Custom_Properties.md) and [PropertyLink   * InList and OutList](PropertyLink__InList_and_OutList.md)
 
 ## All property types 
 
-Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system   *  
+Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system   *
+
+ 
 ```python
-Bool
-Float
-FloatList
-FloatConstraint
+Acceleration
 Angle
+Area
+Bool
+BoolList
+Color
+ColorList
+Direction
 Distance
+ElectricPotential
+Enumeration
+ExpressionContainer
 ExpressionEngine
+File
+FileIncluded
+Float
+FloatConstraint
+FloatList
+Font
+Force
+Frequency
+Geometry
 Integer
 IntegerConstraint
-Percent
-Enumeration
 IntegerList
-String
-StringList
+IntegerSet
 Length
 Link
 LinkList
 LinkSubList
+Lists
+Map
+Material
+MaterialList
 Matrix
-Vector
-VectorList
-VectorDistance
+PartShape
+Path
+Percent
 Placement
 PlacementLink
+PlacementList
+Position
+Precision
+Pressure
 PythonObject
-Color
-ColorList
-Material
-Path
-File
-FileIncluded
-PartShape
-FilletContour
-Circle
+Quantity
+QuantityConstraint
+Rotation
+Speed
+Stiffness
+String
+StringList
+VacuumPermittivity
+Vector
+VectorDistance
+VectorList
+Volume
 ```
 
 Internally, the property name is prefixed with  

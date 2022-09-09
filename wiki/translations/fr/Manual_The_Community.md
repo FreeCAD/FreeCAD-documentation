@@ -33,7 +33,7 @@ Nous espérons que nous avons réussi à vous donner un bon aperçu de FreeCAD d
 -   [La communauté Facebook FreeCAD](https   *//www.facebook.com/FreeCAD)
 -   [Le wiki de documentation FreeCAD](http   *//www.freecadweb.org/wiki)
 -   [Traduction de FreeCAD sur crowdin](https   *//crowdin.com/project/freecad)
--   [Le tracker des bugs FreeCAD](http   *//www.freecadweb.org/tracker)
+-   [Le tracker des bugs FreeCAD](https   *//github.com/FreeCAD/FreeCAD/issues)
 
 
 

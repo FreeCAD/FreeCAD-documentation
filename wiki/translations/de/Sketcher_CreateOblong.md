@@ -13,14 +13,14 @@
 
 ## Beschreibung
 
-This tool draws a rounded rectangle by picking two opposite points. When starting the tool, the mouse pointer changes to a white cross with a red rounded rectangle icon. The coordinates of the pointer are shown beside it in blue in real time.
+Dieses Werkzeug zeichnet ein abgerundetes Rechteck, indem zwei gegenüberliegende Punkte gegriffen werden. Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten abgerundeten Rechtecksymbol. Die Koordinaten des Mauszeigers werden daneben in Echtzeit blau angezeigt.
 
 ![](images/SketcherCreateRoundedRectangleExample.png‎ )
 
 ## Anwendung
 
--   After pressing the <img alt="" src=images/Sketcher_CreateOblong.svg  style="width   *24px;"> **Create rounded rectangle** toolbar button, click once to set the first corner, then move the mouse and click a second time to set the opposite corner.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+-   Nach Drücken der <img alt="" src=images/Sketcher_CreateOblong.svg  style="width   *24px;"> *Abgerundetes Rechteck erstellen* Werkzeugleisten Taste, klicke einmal, um die erste Ecke zu setzen, bewege dann die Maus und klicke ein zweites Mal, um die gegenüberliegende Ecke zu setzen.
+-   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 
 

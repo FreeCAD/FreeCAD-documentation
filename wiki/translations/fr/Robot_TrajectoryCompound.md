@@ -2,55 +2,28 @@
 - GuiCommand   */fr
    Name   *Robot TrajectoryCompound
    Name/fr   *Robot Groupement de trajectoires
+   MenuLocation   *Robot → Groupement de trajectoires
    Workbenches   *[Robot](Robot_Workbench/fr.md)
-   MenuLocation   *-
 ---
 
 # Robot TrajectoryCompound/fr
 
+## Description
 
-</div>
+Crée un groupement à partir de quelques trajectoires simples.
 
+## Utilisation
 
-<div class="mw-translate-fuzzy">
+1.  Cliquez sur l\'outil <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width   *24px;"> ou utilisez la commande **Robot → Groupement de trajectoires**.
+2.  Un objet TrajectoryCompound vide sera créé.
+3.  Passez au panneau \"Modèle\".
+4.  Sélectionnez les objets Trajectories/Edge2Trac/DressUp dans la [Vue en arborescence](Tree_view/fr.md).
+5.  Revenez au [Panneau des tâches](Task_panel/fr.md) et cliquez sur **OK** pour terminer la sélection.
 
-#### Description
-
-Crée un composé à partir de de plusieurs trajectoires individuelles.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Utilisation
-
-1.  Cliquez sur <img alt="" src=images/_Robot_TrajectoryCompound.png  style="width   *32px;">
-2.  Un objet de trajectoire composée vide est créé
-3.  Passer dans l\'onglet \"Modèle\"
-4.  Sélectionnez les objets Trajectories/Edge2Trac/DressUp dans l\'arborescence.
-5.  Retournez à l\'onglet \"Actions\" et cliquez sur **OK** pour terminer la sélection
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Remarques
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Remarques
 
 
 
-
-
-</div>
 
 
 {{Robot_Tools_navi

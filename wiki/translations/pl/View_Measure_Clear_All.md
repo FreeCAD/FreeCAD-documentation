@@ -1,26 +1,27 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *View Measure Clear All
-   MenuLocation   *View → Visibility → Clear measurement
-   Workbenches   *All
-   SeeAlso   *[View Measure Toggle All](View_Measure_Toggle_All.md), [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Clear All](Part_Measure_Clear_All.md)
+   Name/pl   *Usuń widoczne wymiary
+   MenuLocation   *Widok → Widoczność→ Usuń widoczne wymiary
+   Workbenches   *wszystkie
+   SeeAlso   *[Przełącz widoczność wymiarów](View_Measure_Toggle_All/pl.md), [Przełącz widoczność wszystkich wymiarów](Part_Measure_Toggle_All/pl.md), [Usuń wymiary](Part_Measure_Clear_All/pl.md)
 ---
 
 # View Measure Clear All/pl
 
-## Description
+## Opis
 
-The **View Measure Clear All** command clears the active [3D view](3D_view.md)\'s [Part](Part_Workbench.md) measurements.
+Polecenie **Usuń wszystkie pomiary widoku** powoduje usunięcie pomiarów aktywnego [widok 3D](3D_view/pl.md) w środowisku [Część](Part_Workbench/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Select the **View → Visibility → <img src="images/View_Measure_Clear_All.svg" width=16px> Clear measurement** option from the menu.
-    -   Select the **Measure → <img src="images/View_Measure_Clear_All.svg" width=16px> Clear measurement** option from the 3D view context menu.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Wybierz opcję z menu **Widok → Widoczność → <img src="images/View_Measure_Clear_All.svg" width=16px> Usuń widoczne pomiary**.
+    -   Wybierz opcję **Wymiarowanie → <img src="images/View_Measure_Clear_All.svg" width=16px> Usuń widoczne pomiary** z menu kontekstowego widoku 3D.
 
-## Notes
+## Uwagi
 
--   This command is identical to the [Part Measure Clear All](Part_Measure_Clear_All.md) command.
+-   To polecenie jest identyczne z poleceniem [Usuń wymiary](Part_Measure_Clear_All/pl.md) środowiska Część.
 
 
 

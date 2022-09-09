@@ -12,7 +12,7 @@ Wenn du dich in einer Skizze befindest, wird der Skizzierdialog im Combo-Ansicht
 
 Der Dialog besteht aus den folgenden Abschnitten   *
 
-## Lösermeldungen
+## Meldungen des Lösers 
 
 Dieser Abschnitt informiert dich über den Zustand der Skizze, ob sie unter- oder überbeschränkt ist und wie viele Freiheitsgrade die Skizze hat. Durch Anklicken der Freiheitsgrade werden die unterbeschränkten Skizzierelemente grün markiert.
 
@@ -30,11 +30,11 @@ Es gibt zwei Optionen für Löser-Meldungen   *
 |                                                         |                                                                                                                                                                                                                                                                                                                                                             |
 +++
 
-## Erweiterte Löser Steuerung 
+## Erweiterte Steuerung des Lösers 
 
-Dieser Dialogabschnitt wird nur angezeigt, wenn du die Option **\'Show Advanced Solver Control in the Task bar**\'\' in the [Skizzierer Einstellungen](Sketcher_Preferences/de.md) setzt.
+Dieser Dialogabschnitt wird nur angezeigt, wenn die Option **Bereich \'Erweiterte Steuerung des Lösers\' im Aufgaben-Dialog anzeigen** in den [Voreinstellungen des Sketchers](Sketcher_Preferences/de.md) gesetzt wurde.
 
-Du kannst Folgendes festlegen   *
+Es kann Folgendes festgelegt werden   *
 
 +++
 | Name                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -110,7 +110,7 @@ Du kannst Folgendes festlegen   *
 
 *Hinweis   ** Die meisten der Löser-Parameter haben keinen praktischen Nutzen. Sie können trotzdem beim Testen und Verstehen der Löser helfen.
 
-## Bearbeitungssteuerung
+## Bedienelemente bearbeiten 
 
 Die Bearbeitungssteuerung sollen den Arbeitsablauf verbessern. Sie können auch global für alle Skizzen über die [Bearbeitungs Einstellungen](Sketcher_Preferences#General_Settings/de.md) eingestellt werden.
 
@@ -144,7 +144,7 @@ Du kannst die folgenden Steuerelemente einstellen   *
 |                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
 
-## Zwangsbeschränkungen
+## Einschränkungen
 
 In diesem Abschnitt werden die Einschränkungen der Skizze aufgelistet. Wenn du eine Zwangsbeschränkung in der Liste deaktivierst, kannst du es ausblenden.
 
@@ -179,9 +179,6 @@ Wenn Du die Taste **Ctrl** gedrückt hältst, kannst Du mehrere Elemente auf ein
 
 Du kannst die folgenden Optionen einstellen   *
 
-
-<div class="mw-translate-fuzzy">
-
 +++
 | Name                                             | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                               |
 +==================================================+============================================================================================================================================================================================================================================================================================================================================================================================================================================+
@@ -193,19 +190,16 @@ Du kannst die folgenden Optionen einstellen   *
 | **Modus**                            |                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
-|                                   | Falls aktiviert ändert sich die Benennung in der Liste von                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                   | Falls aktiviert ändert sich die Benennung in der Liste von   *                                                                                                                                                                                                                                                                                                                                                                                |
 | **Erweiterte Namensgebung**          | *-Typ*                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|                                               | auf                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                  | *Typ(Edge\[-Konstruktion\]*                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                               | auf   *                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                  | *Typ(Edge)\[-Konstruktion\]*                                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                  | Der Name wird länger, enthält aber die Information über den Elementmodus.                                                                                                                                                                                                                                                                                                                                                                  |
 +++
 |                                   | Falls aktiviert, ist nur der **Typ** *Kante* für die Liste verfügbar.                                                                                                                                                                                                                                                                                                                                            |
 | **Automatisch zur Kante umschalten** |                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
-
-
-</div>
 
 
 

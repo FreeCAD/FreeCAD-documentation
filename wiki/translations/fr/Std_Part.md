@@ -42,7 +42,7 @@ L\'outil **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_P
 ## Remarques
 
 -   Un objet ne peut appartenir qu\'à une seule pièce.
--   Les opérations 3D comme les [Part Opérationd booléenned](Part_Boolean/fr.md) ne peuvent pas être appliquées aux pièces. Par exemple, vous ne pouvez pas sélectionner deux pièces et effectuer un [Part Union](Part_Fuse/fr.md) ou un [Part Soustraction](Part_Cut/fr.md).
+-   Les opérations 3D comme les [Part Opération booléenne](Part_Boolean/fr.md) ne peuvent pas être appliquées aux pièces. Par exemple, vous ne pouvez pas sélectionner deux pièces et effectuer un [Part Union](Part_Fuse/fr.md) ou un [Part Soustraction](Part_Cut/fr.md).
 
 ## Propriétés
 

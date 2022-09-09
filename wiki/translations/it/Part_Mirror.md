@@ -7,7 +7,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un nuovo oggetto (un duplicato) di un oggetto di tipo **Parte** che è una riflessione dell\'oggetto originale (sorgente). L\'oggetto duplicato viene creato tramite un piano di riflessione. Il piano di riflessione può essere un piano standard (XY, YZ o XZ), o qualsiasi piano parallelo ad un piano standard.
+
+
+</div>
 
 Esempio   *
 

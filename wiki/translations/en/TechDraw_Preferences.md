@@ -67,8 +67,6 @@ All preferences settings with *italic* labels are default values for new drawing
 
 <img alt="Dimensions preferences" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
-### Dimensions 
-
 -   **Standard and Style**   * The standard to be used for dimensional values. The difference between the standards are shown in the image   * <img alt="Differences between the supported standards. ([Image source" src=images/https   *//forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png  style="width   *500px;">
 
    *   
@@ -87,6 +85,8 @@ All preferences settings with *italic* labels are default values for new drawing
 -   **Diameter Symbol**   * Character used to indicate diameter dimensions.
 -   **Arrow Style**   * Arrowhead style for dimensions.
 -   **Arrow Size**   * Arrowhead size of dimensions.
+-   **Extension Gap Factor - ISO**   * Gap between dimension point and start of extension lines for ISO dimensions. <small>(v1.0)</small> 
+-   **Extension Gap Factor - ASME**   * Gap between dimension point and start of extension lines for ASME dimensions. <small>(v1.0)</small> 
 
 ## Annotation
 

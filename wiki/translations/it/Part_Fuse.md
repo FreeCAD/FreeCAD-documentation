@@ -44,9 +44,17 @@ Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.m
 
 I composti sono supportati a condizione che le forme confezionate in un composto non si tocchino o si intersechino. Se lo fanno, la Fusione probabilmente fallisce, o produce un risultato errato.
 
+## Options
+
+
+<div class="mw-translate-fuzzy">
+
 ## Opzioni
 
 Gli elementi possono essere aggiunti e rimossi dalla fusione, trascinandoli dentro o fuori dalla funzione fusione nella vista ad albero, con il mouse. È necessario un ricalcolo manuale (premere il tasto **F5** o fare clic sull\'icona <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Aggiorna/Ricalcola](Std_Refresh/it.md)) per vedere i risultati.
+
+
+</div>
 
 ### Pulire la forma 
 

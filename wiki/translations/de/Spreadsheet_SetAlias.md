@@ -27,13 +27,7 @@ Das **[<img src=images/Spreadsheet_SetAlias.svg style="width   *16px"> [Kalkulat
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Spreadsheet_Tools_navi

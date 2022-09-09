@@ -5,7 +5,7 @@
 
 {{TOCright}}
 
-L\'<img alt="" src=images/Workbench_Points.svg  style="width   *24px;"> [Ambiente Punti](Points_Workbench/it.md) offre gli strumenti specifici per lavorare con [point clouds](http   *//en.wikipedia.org/wiki/Point_cloud) (nuvole di punti). È ancora in sviluppo.
+L\'[Ambiente Points](Points_Workbench/it.md) <img alt="" src=images/Workbench_Points.svg  style="width   *24px;"> offre gli strumenti specifici per lavorare con [point clouds](http   *//en.wikipedia.org/wiki/Point_cloud) (nuvole di punti). È ancora in sviluppo.
 
 Una nuvola di punti è una raccolta di punti nello spazio 3D. Generalmente una nuvola di punti viene prodotta analizzando la superficie di un oggetto solido. La nuvola di punti può quindi essere utilizzata per molti scopi, tra cui la costruzione di una mesh per l\'oggetto, la ricostruzione di superfici e volumi solidi, il reverse engineering, nonché per visualizzare e ispezionare la qualità.
 

@@ -75,26 +75,28 @@ Voici comment utiliser la fonction Forme liée pour y parvenir    *
 
 1.  Préparez un montage comme dans l\'image ci-dessus. Si vous utilisez les cubes de l\'[atelier Part](Part_Workbench/fr.md), n\'oubliez pas que vous devez les placer dans un conteneur de corps. Chacun d\'entre eux doit être placé dans un seul conteneur de corps. Sinon, les fonctions de [PartDesign](PartDesign_Workbench/fr.md) ne fonctionneraient pas. Si vous les construisez à partir d\'esquisses, le système devrait créer des conteneurs de corps par défaut.
 2.  Dans l\'[Éditeur de propriétés](Property_editor/fr.md), modifiez le placement du deuxième cube de sorte qu\'il touche le premier cube avec un déplacement latéral.
-3.  Sélectionnez l\'atelier PartDesign
+3.  Sélectionnez l\'atelier PartDesign.
 4.  Créez une esquisse sur la face avant du premier cube, placez un cercle n\'importe où et fermez l\'esquisse.
-5.  Sélectionnez l\'esquisse dans l\'arbre et appuyez sur le bouton **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Perçage](PartDesign_Hole/fr.md)** bouton. Avant de s\'assurer que le premier corps est le [corps actif](PartDesign_Body/fr#Statut_actif.md). (double-cliquez).
-6.  Sélectionnez un trou de taille appropriée. Dans l\'image ci-dessus, le contre-trou a également été sélectionné. Fermez la fonction [Perçage](PartDesign_Hole/fr.md).
+
+Sélectionnez l\'esquisse dans la vue en arborescence et appuyez sur le bouton **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Perçage](PartDesign_Hole/fr.md)**. Assurez-vous auparavant que le premier corps est le [corps actif](PartDesign_Body/fr#Statut_actif.md), (double-cliquez).
+
+1.  Sélectionnez un trou de taille appropriée. Dans l\'image ci-dessus, le contre-trou a également été sélectionné. Fermez la fonction [Perçage](PartDesign_Hole/fr.md).
 
        *   L\'image devrait maintenant ressembler à celle ci-dessus. Lorsque vous masquez le premier cube (sélectionnez et appuyez sur espace), vous pouvez voir que le trou n\'atteint pas le deuxième cube. Il ne le fera pas, même si vous sélectionnez **A travers tout**, ou si vous entrez une distance vraiment importante dans le panneau de tâches de [Perçage](PartDesign_Hole/fr.md). Le trou est toujours limité à un seul corps.
        *   C\'est ici que notre Forme liée entre en jeu.
-7.  Tout d\'abord, sélectionnez le cube arrière. C\'est la cible où la Forme liée sera ajoutée. Elle doit être [activée](PartDesign_Body/fr#Statut_actif.md) avant, donc assurez-vous qu\'elle a été double-cliquée.
-8.  Dans l\'arborescence, sélectionnez l\'esquisse que nous avons utilisée pour le trou. Il est important de ne pas activer le premier corps.
-9.  Sélectionnez la fonction Forme liée.
+2.  Tout d\'abord, sélectionnez le cube arrière. C\'est la cible où la Forme liée sera ajoutée. Elle doit être [activée](PartDesign_Body/fr#Statut_actif.md) avant, donc assurez-vous qu\'elle a été double-cliquée.
+3.  Dans l\'arborescence, sélectionnez l\'esquisse que nous avons utilisée pour le trou. Il est important de ne pas activer le premier corps.
+4.  Sélectionnez la fonction Forme liée.
 
-       *   Un panneau de tâches devrait s\'ouvrir. Dans la ligne **Objet**, le nom de notre esquisse devrait être visible. Si vous aviez sélectionné la fonction sans sélectionner l\'esquisse, vous pourriez appuyer sur **Objet** et sélectionner ensuite l\'esquisse dans la liste. Il est recommandé de la sélectionner en premier afin d\'obtenir la bonne, surtout si vous avez plusieurs esquisses avec des noms générés automatiquement Sketch001,\... La fonction **Ajouter une géométrie** n\'est pas utile pour nous, car nous voulons sélectionner toute l\'esquisse. L\'option **Ajouter une géométrie** est utilisée si seules certaines parties doivent être sélectionnées.
-10. Appuyez sur **OK** pour fermer le panneau des tâches et vérifier qu\'un nouvel élément a été ajouté à l\'arbre du second cube.
+       *   Un panneau de tâches devrait s\'ouvrir. A la ligne **Objet**, le nom de notre esquisse devrait être visible. Si vous aviez sélectionné la fonction sans sélectionner l\'esquisse, vous pourriez appuyer sur **Objet** et sélectionner ensuite l\'esquisse dans la liste. Il est recommandé de la sélectionner en premier afin d\'obtenir la bonne, surtout si vous avez plusieurs esquisses avec des noms générés automatiquement Sketch001,\... La fonction **Ajouter une géométrie** n\'est pas utile pour nous, car nous voulons sélectionner toute l\'esquisse. L\'option **Ajouter une géométrie** est utilisée si seules certaines parties doivent être sélectionnées.
+5.  Appuyez sur **OK** pour fermer le panneau des tâches et vérifier qu\'un nouvel élément a été ajouté à la vue en arborescence du second cube.
 
        *   Lorsque vous basculez la visibilité de la Forme liée, elle apparaît en jaune dans la [Vue 3D](3D_view/fr.md). Cependant, elle est sur la mauvaise position, tout comme le cercle blanc dans l\'image ci-dessus. Cela est dû au réglage par défaut du paramètre Trace.
-11. Dans la PropertyView de la Forme liée, dans l\'onglet Data, réglez le paramètre **Trace Support** sur true. La valeur par défaut était false.
+6.  Dans la PropertyView de la Forme liée, dans l\'onglet Data, réglez le paramètre **Trace Support** sur true. La valeur par défaut était false.
 
        *   Avec **Trace Support** vrai, la Forme liée n\'est pas affectée par les transformations locales du corps cible, par exemple nos translations. La forme reste exactement à l\'endroit où se trouvait la forme originale de l\'objet frontal. Essayez de déplacer l\'objet frontal et vous pourrez constater que la Forme liée suit toujours la nouvelle position.
-12. Sélectionnez la Forme liée dans l\'arborescence et appuyez sur le bouton **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Perçage](PartDesign_Hole/fr.md)**. Si vous entrez les mêmes valeurs que pour le trou initial, vous remarquerez qu\'aucun trou n\'est créé dans le deuxième cube. Cela est dû au fait que, dans certains cas, la Forme liée a une \" direction d\'outil \" opposée à celle de l\'esquisse référencée. Pour résoudre ce problème, cochez la case Inverser. Appuyez sur **OK** pour terminer.
-13. Vous avez maintenant des trous liés dans deux corps différents. Si vous modifiez la position du cercle dans l\'esquisse, les deux trous s\'adapteront. Vous pouvez même ajouter de nouveaux cercles dans l\'esquisse pour créer d\'autres trous liés.
+7.  Sélectionnez la Forme liée dans la vue en arborescence et appuyez sur le bouton **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Perçage](PartDesign_Hole/fr.md)**. Si vous entrez les mêmes valeurs que pour le trou initial, vous remarquerez qu\'aucun trou n\'est créé dans le deuxième cube. Cela est dû au fait que, dans certains cas, la Forme liée a une \" direction d\'outil \" opposée à celle de l\'esquisse référencée. Pour résoudre ce problème, cochez la case Inverser. Appuyez sur **OK** pour terminer.
+8.  Vous avez maintenant des trous liés dans deux corps différents. Si vous modifiez la position du cercle dans l\'esquisse, les deux trous s\'adapteront. Vous pouvez même ajouter de nouveaux cercles dans l\'esquisse pour créer d\'autres trous liés.
 
 
 

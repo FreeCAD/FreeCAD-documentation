@@ -1,10 +1,10 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher NewSketch
-   Name/de   *Sketcher Skizze erstellen
+   Name/de   *Sketcher NeueSkizze
    MenuLocation   *Sketch → Skizze erstellen
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   SeeAlso   *[PartDesign Skizze erstellen](PartDesign_NewSketch/de.md),[Skizze einer Fläche zuordnen...](Sketcher_MapSketch/de.md), [Skizze neu ausrichten...](Sketcher_ReorientSketch/de.md)
+   SeeAlso   *[PartDesign NeueSkizze](PartDesign_NewSketch/de.md),[SkizzeZuordnen](Sketcher_MapSketch/de.md), [SkizzeAusrichten](Sketcher_ReorientSketch/de.md)
 ---
 
 # Sketcher NewSketch/de
@@ -13,7 +13,7 @@
 
 Dies erzeugt eine neue [Skizze](Sketcher_Workbench/de.md).
 
-Beachte, dass der <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;">[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) seinen eigenen Befehl [Neue Skizze erstellen](PartDesign_NewSketch.md) hat. Bei der Arbeit an einem [PartDesign-Körper](PartDesign_Body/de.md) ist der Gebrauch jenes Werkzeugs vorzuziehen.
+Man beachte, dass der Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;">[PartDesign](PartDesign_Workbench/de.md) seinen eigenen Befehl [NeueSkizze](PartDesign_NewSketch.md) hat. Bei der Arbeit an einem [PartDesign-Körper](PartDesign_Body/de.md) ist der Gebrauch jenes Werkzeugs vorzuziehen.
 
 ## Anwendung
 
@@ -25,13 +25,13 @@ Durch Klicken auf die Symbol-Schaltfläche ohne vorher eine Fläche (vor-)ausgew
 
 erstellt werden soll. Man kann einen Versatz zu jeder beliebigen der drei Ebenen und die Seite des Versatzes ändern.
 
-Klick auf die Symbol-Schaltfläche mit einer Vorauswahl einer Fläche führt dazu, das die Skizze der gewählten Fläche zugewiesen wird.
+Klickt man auf die Schaltfläche und es ist eine Fläche (vor-)ausgewählt, wird die Skizze auf der ausgewählten Fläche angeordnet.
 
-## Anmerkungen
+## Hinweise
 
-Die Skizze kann mit dem [Map Sketch](Sketcher_MapSketch/de.md)-Befehl jederzeit einer anderen Fläche zugewiesen werden.
+Die Skizze kann mit dem Befehl [SkizzeZuordnen](Sketcher_MapSketch/de.md) jederzeit einer anderen Fläche zugeordnet werden.
 
-Die Fläche kann in der [3D-Ansicht](3D_view/de.md) mittels [Positionierung](Placement/de.md) verschoben werden.
+Die Skizze kann in der [3D-Ansicht](3D_view/de.md) mittels [Positionierung](Placement/de.md) verschoben werden.
 
 
 

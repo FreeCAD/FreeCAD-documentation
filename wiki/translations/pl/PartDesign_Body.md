@@ -59,7 +59,7 @@ Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md)
 
 #### Ukryte Dane właściwości 
 
--    **Odniesienie położenia|Link**   * obiekt [odniesienia położenia](App_Origin/pl.md), który jest pozycyjnym odniesieniem dla wszystkich elementów wymienionych w **Grupie**.
+-    **Odniesienie położenia|Link**   * obiekt [odniesienia położenia](App_OriginGroupExtension/pl.md), który jest pozycyjnym odniesieniem dla wszystkich elementów wymienionych w **Grupie**.
 
 -    **_ Grupa Dotknięta|Bool**   * czy grupa jest wzruszona czy nie.
 
@@ -143,7 +143,7 @@ Ten sam proces może być zastosowany przy tworzeniu pomocniczej geometrii ukła
 
 **Uwaga   ***
 
-Odniesienie położenia jest obiektem [App   * Origin](App_Origin/pl.md) *(klasa `App   *   *Origin`)*, podczas gdy osie i płaszczyzny są obiektami odpowiednio typu `App   *   *Line` oraz `App   *   *Plane`. Każdy z tych elementów może być ukryty i nieujawniany indywidualnie przy użyciu klawisza **spacja**. Jest to przydatne przy tworzeniu innych obiektów, aby wybrać właściwe odniesienie.
+Początek układu współrzędnych jest obiektem [App   * Odniesienie położenia](App_OriginGroupExtension.md) *(klasa `App   *   *Origin`)*, podczas gdy osie i płaszczyzny są obiektami odpowiednio typu `App   *   *Line` oraz `App   *   *Plane`. Każdy z tych elementów może być ukryty i nieujawniany indywidualnie przy użyciu klawisza **spacja**. Jest to przydatne przy tworzeniu innych obiektów, aby wybrać właściwe odniesienie.
 
 
 **Uwaga 2   ***

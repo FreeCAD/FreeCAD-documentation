@@ -12,7 +12,7 @@
 
 ## Opis
 
-Polecenie **Wybór wstępny w widoku drzewa** przełącza Tryb wstępnego zaznaczania w oknie [widok drzewa](Tree_view/pl.md). Jeśli ten tryb jest włączony, obiekt, nad którym znajduje się kursor myszki w widoku drzewa, zostanie wstępnie zaznaczony *(tymczasowo podświetlony)* we wszystkich [widokach 3D](3D_view/pl.md) danego obiektu w dokumencie.
+Polecenie **Wybór wstępny w widoku drzewa** przełącza Tryb wstępnego zaznaczania w oknie [Widoku drzewa](Tree_view/pl.md). Jeśli ten tryb jest włączony, obiekt, nad którym znajduje się kursor myszki w widoku drzewa, zostanie wstępnie zaznaczony *(tymczasowo podświetlony)* we wszystkich [widokach 3D](3D_view/pl.md) danego obiektu w dokumencie.
 
 ## Użycie
 

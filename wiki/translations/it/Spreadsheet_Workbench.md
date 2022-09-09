@@ -2,7 +2,7 @@
 
 ## Introduzione
 
-L\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> Spreadsheet consente di creare e modificare fogli di calcolo, utilizzare i dati del foglio di calcolo come parametri in un modello, riempire il foglio di calcolo con i dati ricavati da un modello, eseguire calcoli ed esportare i dati in altre applicazioni di fogli di calcolo come LibreOffice o Microsoft Excel.
+L\'[AmbienteSpreadsheet](Spreadsheet_Workbench/it.md) <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> consente di creare e modificare fogli di calcolo, utilizzare i dati del foglio di calcolo come parametri in un modello, riempire il foglio di calcolo con i dati ricavati da un modello, eseguire calcoli ed esportare i dati in altre applicazioni di fogli di calcolo come LibreOffice o Microsoft Excel.
 
 
 {{TOCright}}
@@ -14,79 +14,61 @@ L\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24
 
 -   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *24px;"> [Crea un foglio di calcolo](Spreadsheet_CreateSheet/it.md)   * crea un nuovo foglio di calcolo.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Import](Spreadsheet_Import.md)   * import a CSV file into a spreadsheet.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Importa](Spreadsheet_Import/it.md)   * importa un file CSV in un foglio di calcolo.
 
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Export](Spreadsheet_Export.md)   * export a CSV file from a spreadsheet.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Esporta](Spreadsheet_Export.md)   * esporta un file CSV da un foglio di calcolo.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Merge cells](Spreadsheet_MergeCells.md)   * merge selected cells.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Unisci celle](Spreadsheet_MergeCells/it.md)   * unisce le celle selezionate.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Split cell](Spreadsheet_SplitCell.md)   * split previously merged cells.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Dividi celle](Spreadsheet_SplitCell/it.md)   * divide le celle precedentemente unite.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Align left](Spreadsheet_AlignLeft.md)   * align the contents of selected cells to the left.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Allinea a sinistra](Spreadsheet_AlignLeft/it.md)   * allinea il contenuto delle celle selezionate a sinistra.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Align center](Spreadsheet_AlignCenter.md)   * align the contents of selected cells to the center horizontally.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Allinea al centro](Spreadsheet_AlignCenter/it.md)   * allinea il contenuto delle celle selezionate al centro orizzontalmente.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Align right](Spreadsheet_AlignRight.md)   * align the contents of selected cells to the right.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Allinea a destra](Spreadsheet_AlignRight/it.md)   * allinea il contenuto delle celle selezionate a destra.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Align top](Spreadsheet_AlignTop.md)   * align the contents of selected cells to the top.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Allinea in alto](Spreadsheet_AlignTop/it.md)   * allinea il contenuto delle celle selezionate in alto.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Align vertical center](Spreadsheet_AlignVCenter.md)   * align the contents of selected cells to the center vertically.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Allinea verticalmente in centro](Spreadsheet_AlignVCenter/it.md)   * allinea verticalmente il contenuto delle celle selezionate al centro.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Align bottom](Spreadsheet_AlignBottom.md)   * top align the contents of selected cells to the bottom.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Allinea in basso](Spreadsheet_AlignBottom/it.md)   * allinea in basso il contenuto delle celle selezionate.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Style bold](Spreadsheet_StyleBold.md)   * set the contents of selected cells to bold.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Stile grassetto](Spreadsheet_StyleBold/it.md)   * imposta il contenuto delle celle selezionate in grassetto.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Style italic](Spreadsheet_StyleItalic.md)   * set the contents of selected cells to italic.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Stile corsivo](Spreadsheet_StyleItalic/it.md)   * imposta il contenuto delle celle selezionate in corsivo.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Style underline](Spreadsheet_StyleUnderline.md)   * set the contents of selected cells to underlined.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Stile sottolineato](Spreadsheet_StyleUnderline/it.md)   * imposta il contenuto delle celle selezionate su sottolineato.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Alias](Spreadsheet_SetAlias/it.md)   * imposta un alias per le celle selezionate.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Alias](Spreadsheet_SetAlias/it.md)   * imposta l\'alias per la cella selezionata.
 
 -    **Nero**e **Bianco** impostano i colori di primo piano e di sfondo delle celle selezionate.
 
+## Preferenze
 
-</div>
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Preferenze](Spreadsheet_Preferences/it.md)   * le preferenze per l\'Ambiente Spreadsheet. {{Version/it|0.20}}
 
-## Preferences
+## Inserisci e rimuovi righe e colonne 
 
--   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Preferences](Spreadsheet_Preferences.md)   * the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
+È possibile inserire o rimuovere righe e colonne facendo clic con il pulsante destro del mouse sull\'intestazione di una riga o di una colonna e selezionando l\'opzione appropriata dal menu contestuale. È possibile selezionare prima più righe o colonne. Tenendo premuto il tasto **Ctrl** durante la selezione delle intestazioni, oppure tenendo premuto il pulsante sinistro del mouse e trascinando.
 
-## Insert and remove rows and columns 
+In FreeCAD versione 0.19 e precedenti le righe vengono inserite sopra le righe selezionate e le colonne a sinistra delle colonne selezionate. In FreeCAD versione 0.20 puoi specificare il lato di inserimento.
 
-Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the contex menu. It is possible to select multiple rows or columns first. Either by holding down the **Ctrl** key while selecting the headers, or by holding down the left mouse button and dragging.
+Tieni presente che la rimozione di righe o colonne con dati può danneggiare il foglio di calcolo e il tuo modello se si basa sul foglio di calcolo. Non sei avvisato se ciò accade.
 
-In FreeCAD version 0.19 and earlier rows are inserted above the selected rows, and columns on the left of the selected columns. In FreeCAD version 0.20 you can specify the insertion side.
+## Taglia e copia-incolla le celle 
 
-Note that removing rows or columns with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+Le operazioni di taglia e copia-incolla possono essere utilizzate sulle celle nei fogli di calcolo di FreeCAD. Puoi utilizzare le normali scorciatoie per queste operazioni   * **Ctrl**+**X**, **Ctrl**+**C** e **Ctrl**+ **V** rispettivamente. Per selezionare più celle, tieni premuto il tasto **Ctrl** durante la selezione oppure tieni premuto il pulsante sinistro del mouse e trascina per selezionare un intervallo di celle rettangolari.
 
-## Cut and copy-paste cells 
+Le operazioni di taglio e copia memorizzano il contenuto e le proprietà delle celle negli Appunti. L\'operazione di incollaggio scrive i dati in modo tale che il contenuto della cella in alto a sinistra dei dati archiviati venga rilasciato nella cella attiva. L\'altro contenuto archiviato viene posizionato rispetto a quella cella. Le formule vengono aggiornate di conseguenza.
 
-Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations   * **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+Tieni presente che la rimozione di celle con dati può danneggiare il foglio di calcolo e il modello se si basa sul foglio di calcolo. Non sei avvisato se ciò accade.
 
-The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
-
-Note that removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
-
-In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to hang if a non-rectangular cell range is pasted. It is advisable to save your work before performing any paste operations.
+In FreeCAD versione 0.19 e precedenti c\'è un bug che può causare il blocco di FreeCAD se viene incollato un intervallo di celle non rettangolare. Si consiglia di salvare il lavoro prima di eseguire qualsiasi operazione di incollaggio.
 
 ### Proprietà delle celle 
 
-
-<div class="mw-translate-fuzzy">
-
-Le proprietà di una cella del foglio possono essere modificate con un clic destro su una cella. Si apre la seguente finestra   *
-
-
-</div>
+Le proprietà di una cella del foglio possono essere modificate cliccando col tasto destro su una cella and selezionando **Proprietà...** dal menu contestuale. Si apre la seguente finestra   *
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -102,13 +84,7 @@ Come indicato dalle schede, è possibile modificare le seguenti proprietà   *
 
 Una cella del foglio di calcolo può contenere un testo arbitrario o un\'espressione. Tecnicamente, le espressioni devono iniziare con un segno \"=\" uguale. Tuttavia, il foglio elettronico tenta di essere intelligente; se si inserisce qualcosa che sembra un\'espressione senza il segno \'=\', lo aggiunge automaticamente.
 
-
-<div class="mw-translate-fuzzy">
-
 Le espressioni inserite nelle celle possono contenere numeri, funzioni, riferimenti ad altre celle e riferimenti alle proprietà del modello (Ma vedere sotto le [ Limitazioni attuali](#Limitazioni_attuali.md)). Le celle sono referenziate dalla loro colonna (lettera maiuscola) e riga (numero). Una cella può anche essere referenziata dal suo [ alias](#Riferimento_ai_dati_CAD.md) (sottostante). Esempio   * B4 + A6
-
-
-</div>
 
 Le espressioni inserite nelle celle sono trattate da FreeCAD come codice di programmazione. Pertanto, quando modifichi una cella il contenuto che vedi non segue le tue impostazioni di visualizzazione   *
 
@@ -129,13 +105,7 @@ FreeCAD assegna automaticamente un nome univoco ad un foglio di calcolo quando q
 
 L\'etichetta di un foglio di calcolo viene automaticamente impostata sul nome del foglio di calcolo al momento della creazione. A differenza del nome, l\'etichetta può essere modificata, ad esempio nel pannello delle proprietà o utilizzando l\'azione del menu contestuale Rinomina. Notare che l\'etichetta di un foglio di calcolo all\'interno di un documento deve essere univoca; se provi a cambiare l\'etichetta con un\'etichetta già utilizzata da un altro foglio di calcolo, FreeCAD non accetterà la nuova etichetta.
 
-
-<div class="mw-translate-fuzzy">
-
 FreeCAD verifica le dipendenze cicliche. Vedere [Limitazioni attuali](Spreadsheet_Workbench/it#Limitazioni_attuali.md).
-
-
-</div>
 
 ### Riferimento ai dati CAD 
 
@@ -162,16 +132,7 @@ La tabella seguente mostra alcuni esempi assumendo che il modello abbia una figu
 
 ### Dati dei fogli di calcolo nelle espressioni 
 
-
-<div class="mw-translate-fuzzy">
-
 Per utilizzare i dati del foglio di calcolo in altre parti di FreeCAD, di solito creerai un [ Espressione](Expressions/it#Espressioni.md) che si riferisce al foglio di calcolo e alla cella che contiene i dati che desideri utilizzare. Puoi identificare i fogli di calcolo per nome o per etichetta e puoi identificare le celle per posizione o per alias. Il completamento automatico è disponibile per tutti i tipi di riferimento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ++++
 |                     | Foglio di calcolo per nome                          | Foglio di calcolo per etichetta                        |
@@ -184,9 +145,6 @@ Per utilizzare i dati del foglio di calcolo in altre parti di FreeCAD, di solito
 |                     | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                     |                                                  |                                                     |
 ++++
-
-
-</div>
 
 
 <div class = "mw-collapsible mw-collapsed">
@@ -212,26 +170,21 @@ Sebbene sia possibile utilizzare il numero di riga e di colonna in un\'espressio
 
 La modifica di un foglio di calcolo attiverà un ricalcolo del modello 3D, anche se le modifiche non influiscono sul modello. Per un modello complesso un ricalcolo può richiedere molto tempo e dover attendere dopo ogni singola modifica è ovviamente piuttosto fastidioso.
 
-
-<div class="mw-translate-fuzzy">
-
 Ci sono tre soluzioni per affrontare questo problema   *
 
-1.  Nella [Vista ad albero](Tree_view/it.md) fai clic con il tasto destro del mouse sul documento <img alt="" src=images/Document.svg  style="width   *24px;"> che contiene il foglio di calcolo.
+1.  Salta temporaneamente i ricalcoli   *
+    -   Nella [Vista ad albero](Tree_view/it.md) fai clic con il tasto destro del mouse sul documento <img alt="" src=images/Document.svg  style="width   *24px;"> che contiene il foglio di calcolo.
     -   Selezionare l\'opzione {{MenuCommand | Salta il ricalcolo}} dal menu contestuale.
     -   C\'è un grosso svantaggio in questa soluzione. I nuovi valori immessi nel foglio di calcolo non verranno visualizzati finché il documento non viene ricalcolato. Viene invece mostrato {{incode | #PENDING}}.
     -   Puoi ricalcolare manualmente, usando il comando [ Modifica   * Aggiorna](Std_Refresh/it.md), o disabilitare {{MenuCommand | Salta il ricalcolo}} quando hai finito di modificare.
 2.  Usare una macro per saltare automaticamente i ricalcoli durante la modifica di un foglio di calcolo   *
     -   Scarica ed esegui [skipSheet.FCMacro](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   Questa soluzione consente di risparmiare alcuni passaggi rispetto alla prima soluzione, ma presenta anche lo svantaggio menzionato.
-3.  Mettere il ​​foglio di calcolo in un file separato   *
-    -   Puoi fare riferimento ai dati di un foglio di calcolo da un file esterno con questa sintassi   * {{incode | <nowiki> = NameOfFile#<<MySpreadsheet>>.MyAlias​​</nowiki>}}.
+3.  Mettere il ​​foglio di calcolo in un file [FreeCAD](File_Format_FCStd/it.md) separato   *
+    -   Puoi fare riferimento ai dati di un foglio di calcolo da un file **.FCStd** esterno con questa sintassi   * {{incode | <nowiki> = NameOfFile#<<MySpreadsheet>>.MyAlias​​</nowiki>}}.
     -   Il vantaggio di avere il foglio di calcolo in un altro file rispetto alla disattivazione dei ricalcoli è che il foglio di calcolo stesso viene ricalcolato.
     -   Lo svantaggio è che il modello non verrà ricalcolato automaticamente dopo le modifiche al foglio di calcolo.
     -   Nello scenario in cui apri prima il file \"foglio di calcolo\", modifichi uno o più valori e quindi apri il file \"modello\", non ci sarà alcuna indicazione che il modello debba essere ricalcolato. Tuttavia, se entrambi i file sono aperti, l\'icona [ Aggiorna](Std_Refresh/it.md) aggiornerà correttamente il file \"modello\" dopo le modifiche al file \"foglio di calcolo\".
-
-
-</div>
 
 ## Unità di misura 
 
@@ -247,43 +200,19 @@ Occasionalmente può essere desiderabile sbarazzarsi di una dimensione in un\'es
 
 ## Importazione ed esportazione 
 
-### CSV format 
+### formato CSV 
 
+I fogli di calcolo di FreeCAD possono essere importati ed esportati nel formato [​​CSV](https   *//en.wikipedia.org/wiki/Comma-separated_values) che può anche essere letto e scritto dalla maggior parte delle altre applicazioni di fogli di calcolo come Microsoft Excel o LibreOffice Calc. Vedere [Importazione foglio di calcolo](Spreadsheet_Import/it.md) e [Esportazione foglio di lavoro](Spreadsheet_Export/it.md) per ulteriori informazioni.
 
-<div class="mw-translate-fuzzy">
+### formato XLSX 
 
-I fogli possono essere importati ed esportati nel formato [csv](https   *//en.wikipedia.org/wiki/Comma-separated_values) che può anche essere letto e scritto da molte altre applicazioni di fogli di calcolo come Microsoft Excel o LibreOffice Calc. Durante l\'importazione dei file in FreeCAD, il delimitatore (il carattere che viene utilizzato per separare le colonne) deve essere il carattere di tabulazione (questo può essere impostato durante l\'esportazione da altre applicazioni). L\'importazione di un file CSV è disponibile tramite il menu **Spreadsheet → Import Spreadsheet** o facendo clic sull\'icona <img alt="" src=images/SpreadsheetImport.svg  style="width   *24px;">. Questa funzione di importazione non apre file Excel o altri formati di fogli di calcolo.
+I fogli di calcolo in formato Excel XLSX possono essere importati con il comando [Importa](Std_Import/it.md) o col comando [Apri](Std_Open/it.md). Sono supportate le seguenti funzionalità   *
 
+-   Tutte le funzioni che sono disponibili anche nel foglio di calcolo FreeCAD. Le altre funzioni danno un errore nella cella corrispondente dopo l\'importazione.
+-   I nomi alias per le celle.
+-   Più di un foglio nei fogli di calcolo Excel. In questo caso viene creato un foglio di calcolo di FreeCAD per ogni foglio di Excel.
 
-</div>
-
-### XLSX format 
-
-
-<div class="mw-translate-fuzzy">
-
-I fogli di calcolo in formato Excel \"xlsx\" possono essere importati in un documento FreeCAD tramite il menu **File → Importa...**. I fogli di calcolo Excel possono anche essere aperti da FreeCAD facendo clic nel menu **File → Apri...** o facendo clic sull\'icona <img alt="" src=images/Document-open.svg  style="width   *24px;">. In questi casi si crea un nuovo documento con all\'interno un foglio di calcolo. Sono supportate le seguenti caratteristiche   *
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   tutte le funzioni che sono disponibili anche nel foglio di calcolo FreeCAD. Le altre funzioni danno un errore nella cella corrispondente dopo l\'importazione.
--   i nomi alias per le celle
--   più di una foglio nei fogli di calcolo Excel. In questo caso viene creato un foglio di calcolo di FreeCAD per ogni foglio di Excel.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Le altre funzionalità non vengono importate nel foglio di calcolo di FreeCAD. L\'importazione di Excel è disponibile dalla {{Version/it|0.17}} di FreeCAD.
-
-
-</div>
+Le altre funzionalità non vengono importate nel foglio di calcolo di FreeCAD.
 
 ## Stampa
 
@@ -291,96 +220,90 @@ Per gestire l\'impostazione della pagina necessaria per la stampa, i fogli di ca
 
 ## Limitazioni attuali 
 
+FreeCAD verifica le dipendenze cicliche quando ricalcola. Per come è concepita, tale verifica si arresta al livello dell\'oggetto foglio di calcolo. Di conseguenza, non si dovrebbe avere un foglio di calcolo che contiene contemporaneamente le celle i cui valori sono utilizzati per specificare parametri nel modello e sia celle i cui valori utilizzano l\'output del modello. Ad esempio, non è possibile avere celle che specificano la lunghezza, la larghezza e l\'altezza di un oggetto e un\'altra cella che fa riferimento al volume totale della forma risultante. Questa limitazione può essere superata creando due fogli di calcolo   * uno utilizzato come origine dati per i parametri di input per il modello e l\'altro usato per il risultato dei calcoli basati sui dati geometrici.
 
-<div class="mw-translate-fuzzy">
-
-FreeCAD verifica le dipendenze cicliche. Per come è concepita, tale verifica si arresta al livello dell\'oggetto foglio di calcolo. Di conseguenza, non si dovrebbe avere un foglio di calcolo che contiene contemporaneamente le celle i cui valori sono utilizzati per specificare parametri nel modello e sia celle i cui valori utilizzano l\'output del modello. Ad esempio, non è possibile avere celle che specificano la lunghezza, la larghezza e l\'altezza di un oggetto e un\'altra cella che fa riferimento al volume totale della forma risultante. Questa limitazione può essere superata creando due fogli di calcolo   * uno utilizzato come origine dati per i parametri di input per il modello e l\'altro usato per il risultato dei calcoli basati sui dati geometrici.
-
-
-</div>
-
-## Cell binding 
+## Collegare celle 
 
 
-<small>(v0.20)</small> 
+{{Version/it|0.20}}
 
-It is possible to bind the content of cells to other spreadsheet cells. This can be useful when dealing with large tables or to get cell content from another spreadsheet.
+È possibile collegare il contenuto delle celle ad altre celle del foglio di calcolo. Questo può essere utile quando si hanno a che fare con tabelle di grandi dimensioni o per ottenere il contenuto della cella da un altro foglio di calcolo.
 
-### Create binding 
+### Creare collegamenti 
 
-To bind, for example, the cell range A3-C4 to the cell range B1-D2   *
+Per collegare, ad esempio, l\'intervallo di celle A3-C4 all\'intervallo di celle B1-D2   *
 
-1.  Select the cell range A3-C4.
-2.  Right-click and select **Bind...** from the context menu.
-3.  The **Bind Spreadsheet Cells** dialog opens.
-4.  Set the range B1-D2 for the **To cells**   *
+1.  Seleziona l\'intervallo di celle A3-C4.
+2.  Fare clic con il pulsante destro del mouse e selezionare **Collega...** dal menu contestuale.
+3.  Viene visualizzata la finestra di dialogo **Associa celle foglio di calcolo**.
+4.  Imposta l\'intervallo B1-D2 per **Alle celle**   *
     ![](images/Spreadsheet_binding-dialog.png )
-5.  Press **OK**.
-6.  Bound cells have a blue border to highlight the binding.
-7.  If you now enter something in cell C1, the same will immediately appear in cell B3.
+5.  Clicca **OK**.
+6.  Le celle legate hanno un bordo blu per evidenziare il legame.
+7.  Se ora inserisci qualcosa nella cella C1, lo stesso apparirà immediatamente nella cella B3.
 
 ![](images/Spreadsheet_binding-result.png ) 
-*The spreadsheet may now look like this*
+*Il foglio di calcolo ora potrebbe assomigliare a questo*
 
-### Change binding 
+### Modificare il collegamento 
 
-1.  Right-click a bound cell (there is no need to highlight the whole bound range) and select **Bind...** from the context menu.
-2.  The **Bind Spreadsheet Cells** dialog opens.
-3.  Change one or more options. Note that the **Bind cells**, the bound cell range, cannot be changed.
-4.  Press **OK**.
+1.  Fare clic con il pulsante destro del mouse su una cella associata (non è necessario evidenziare l\'intero intervallo delimitato) e selezionare **Collega...** dal menu contestuale.
+2.  Si apre la finestra di dialogo **Associa celle foglio di calcolo**.
+3.  Modifica una o più opzioni. Si noti che le **Celle collegate**, nell\'intervallo di celle associate, non possono essere modificate.
+4.  Premi **OK**.
 
-### Remove binding 
+### Rimuovi collegamento 
 
-1.  Right-click a bound cell (there is no need to highlight the whole bound range) and select **Bind...** from the context menu.
-2.  The **Bind Spreadsheet Cells** dialog opens.
-3.  Press **Unbind**.
+1.  Fare clic con il pulsante destro del mouse su una cella associata (non è necessario evidenziare l\'intero intervallo delimitato) e selezionare **Collega...** dal menu contestuale.
+2.  Si apre la finestra di dialogo **Associa celle foglio di calcolo**.
+3.  Premi **Scollega**.
 
-### Notes
+### Note
 
--   The **Hide dependency of binding** option can be used to prevent problems with cyclic dependencies between spreadsheets. Selecting it is necessary when, for example, cells in *Spreadsheet A* are bound to *Spreadsheet B*, while cells in *Spreadsheet B*, in turn, are bound to some other cells in *Spreadsheet A*. This option should be used with caution   *
-    -   Hiding dependencies can be dangerous because broken dependencies can damage your FreeCAD file. For example, when you delete a spreadsheet you will not be warned about hidden dependencies.
-    -   When you open a document with a spreadsheet containing a hidden dependency, you will get the spreadsheet marked to be recomputed. This is because a cyclic dependency cannot be recomputed automatically. To recompute the [Std Refresh](Std_Refresh.md) tool must be used.
--   The cell binding has a range check and warns you about mismatched ranges. For example binding 1x3 cells to 3x2 cells cannot work because it is unknown which 3 cells of the original 6 cells should be used.
--   You cannot change the cell range of an existing binding. You must first unbind the cells and then create a new binding.
--   The frame color indicating the binding cannot be changed yet.
+-   L\'opzione **Hide dependency of binding** può essere utilizzata per prevenire problemi con dipendenze cicliche tra fogli di calcolo. E necessario selezionarlo quando, ad esempio, le celle in *Foglio di calcolo A* sono collegate nel *Foglio di calcolo B*, mentre le celle in *Foglio di calcolo B*, a loro volta, sono collegate ad altre celle nel *Foglio di calcolo A*. Questa opzione deve essere utilizzata con cautela   *
+    -   Nascondere le dipendenze può essere pericoloso perché le dipendenze interrotte possono danneggiare il tuo file FreeCAD. Ad esempio, quando elimini un foglio di calcolo non verrai avvisato delle dipendenze nascoste.
+    -   Quando apri un documento con un foglio di calcolo contenente una dipendenza nascosta, il foglio di calcolo verrà contrassegnato per essere ricalcolato. Questo perché una dipendenza ciclica non può essere ricalcolata automaticamente. Per ricalcolare è necessario utilizzare lo strumento [Agggiorna](Std_Refresh.md).
+-   L\'associazione delle celle ha un controllo dell\'intervallo e ti avverte di intervalli non corrispondenti. Ad esempio, legare 1x3 celle a 3x2 celle non può funzionare perché non si sa quali 3 celle delle 6 celle originali dovrebbero essere utilizzate.
+-   Non è possibile modificare l\'intervallo di celle di un collegamento esistente. Devi prima separare le celle e quindi creare un nuovo collegamento.
+-   Non è ancora possibile modificare il colore della cornice che evidenzia il collegamento.
 
-## Configuration tables 
+## Tabelle di configurazione 
 
 
-<small>(v0.20)</small> 
+{{Version/it|0.20}}
 
-You can use Spreadsheets to create configuration tables with sets of predefined parameters for your model, and then dynamically change which configuration to use. See [this Forum post](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
+È possibile utilizzare i fogli di calcolo per creare tabelle di configurazione con insiemi di parametri predefiniti per il modello e quindi modificare dinamicamente la configurazione da utilizzare. Vedi [questo post del forum](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) se vuoi saperne di più sul funzionamento interno di questa funzione.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-Expand this section for a brief tutorial on creating a configuration table.
+Espandi questa sezione per un breve tutorial sulla creazione di una tabella di configurazione.
 
 
 <div class="mw-collapsible-content">
 
-1.  In a new document, first create a [Std Part](Std_Part.md), then create a [Part Box](Part_Box.md), a [Part Cylinder](Part_Cylinder.md) and a Spreadsheet.
-2.  The Box and the Cylinder are automatically placed in the [Std Part](Std_Part.md) container. Manually put the Spreadsheet in the container as well.
-3.  In the Spreadsheet enter the content as shown below. Set the alias for B2 as {{Value|width}}, C2 as {{Value|length}} and D2 as {{Value|radius}}   *
+1.  In un nuovo documento, creare prima una [Parte](Part_Std/it.md), quindi creare un [Cubo](Part_Box/it.md), un [Cilindro](Part_Cylinder/it.md) e un foglio di calcolo.
+2.  Il cubo e il cilindro vengono automaticamente collocati nel contenitore [Part](Std_Part/it.md). Metti manualmente anche il foglio di calcolo nel contenitore.
+3.  Nel foglio di calcolo inserisci il contenuto come mostrato di seguito. Imposta l\'alias per B2 come {{Value|width}}, C2 come {{Value|length}} e D2 come {{Value|radius}}   *
     ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Bind the [expressions](Expressions.md) {{Value|Spreadsheet.width}} and {{Value|Spreadsheet.length}} to the Box\'s properties **Width** and **Length**, respectively   *
+4.  Associare le [espressioni](Expressions/it.md) {{Value|Spreadsheet.width}} e {{Value|Spreadsheet.length}} alle proprietà della casella **Width** e **Length**, rispettivamente   *
     ![](images/Spreadsheet_configuration_table_screenshot_2.png )
-5.  Bind the expression {{Value|Spreadsheet.radius}} to the Cylinder\'s property **Radius**. Also change the **Height** of the Cylinder to {{Value|5 mm}} so that it is lower than the Box.
-6.  Right-click the cell A2 in the Spreadsheet and select **Configuration table...** from the context menu.
-7.  The **Setup Configuration Table** dialog opens.
-8.  Enter the following   *
+5.  Associa l\'espressione {{Value|Spreadsheet.radius}} alla proprietà del cilindro **Radius**. Modificare anche **Height** del cilindro in {{Value|5 mm}} in modo che sia inferiore al Cubo.
+6.  Fare clic con il pulsante destro del mouse sulla cella A2 nel foglio di calcolo e selezionare **Tabella di configurazione...** dal menu contestuale.
+7.  Si apre la finestra di dialogo **Imposta tabella di configurazione**.
+8.  Digita quanto segue   *
     ![](images/Spreadsheet_configuration_table_screenshot_5.png )
-9.  Press **OK**.
-10. A new property called **Configuration** is be added to the [Std Part](Std_Part.md) container to choose the configuration as shown below   *
+9.  Clicca su **OK**.
+10. Una nuova proprietà denominata **Configuration** viene aggiunta al contenitore [Part](Std_Part/it.md) per scegliere la configurazione come mostrato di seguito   *
     ![](images/Spreadsheet_configuration_table_screenshot_6.png )
 
-You can use either a [Std Link](Std_LinkMake.md) or a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) to instantiate a [Variant Instance](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) of a configurable object with the following steps   *
+È possibile utilizzare un [Link](Std_LinkMake/it.md) o un [Riferimento a Forma di Part Design](PartDesign_SubShapeBinder/it.md) per creare un\'istanza di un [Istanza Variante](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) di un oggetto configurabile con i seguenti passaggi   *
 
-1.  Create a [Std Link](Std_LinkMake.md) to the [Std Part](Std_Part.md) container and set its **Link Copy On Change** property to {{Value|Enabled}}.
-2.  Move the Link to a new place by changing its **Placement** so that it is easier to distinguish from the original object.
-3.  Select a different **Configuration** for the Link to create a variant instance.
+1.  Crea un [Link](Std_LinkMake/it.md) nel contenitore [Part](Std_Part/it.md) e imposta la sua proprietà **Link Copy On Change** su {{Value|Enabled}}.
+2.  Sposta il collegamento in una nuova posizione modificandone **Placement** in modo che sia più facile distinguerlo dall\'oggetto originale.
+3.  Selezionare una **Configurazione** diversa per il collegamento per creare un\'istanza variante.
 
-Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), except that its property for activating a variant instance is called **Binder Copy On Change**.
+Passaggi simili si applicano a un [PartDesign Riferimento a Forma di Part Design](PartDesign_SubShapeBinder/it.md), tranne per il fatto che la sua proprietà per l\'attivazione di un\'istanza variante è denominata **Bind Copy On Change**.
 
 
 </div>

@@ -67,7 +67,13 @@ Anche se non è raccomandato ai nuovi utenti, è possibile combinare gli strumen
 
 Le persone vengono colte di sorpresa quando tentano di usare qualche caratteristica sotto il corpo (piuttosto che il corpo stesso) come una selezione di un\'operazione booleana nell\'ambiente Part. Questo è un problema, perché la caratteristica selezionata non rappresenta **IL** solido completo.
 
+
+<div class="mw-translate-fuzzy">
+
 In un certo senso, dal punto di vista dell\'ambiente Part, il corpo rappresenta un\'altra primitiva. Quindi, si puoò usare un corpo (ricordate che è un proxy per la punta) e un oggetto Part per fare un operazione booleana. Ma l\'oggetto risultante è un oggetto dell\'ambiente Part. E quindi gli strumenti dell\'ambiente PartDesign non possono più essere usati.
+
+
+</div>
 
 E può diventare ancora più complicato. Se si crea un nuovo corpo e vi si trascina il risultato del paragrafo precedente, si crea un BaseObject. E su questo si può andare ad usare gli strumenti dell\'ambiente PartDesign.
 
@@ -218,9 +224,9 @@ I banchi di lavoro Part e PartDesign possono essere usati insieme con una certa 
 [Torna su](#Top.md)
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/it

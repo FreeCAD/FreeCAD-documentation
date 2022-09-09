@@ -2,51 +2,25 @@
 - GuiCommand   */fr
    Name   *Robot CreateTrajectory
    Name/fr   *Robot Trajectoire
-   Workbenches   *[Robot](Robot_Workbench/fr.md)
    MenuLocation   *Robot → Créer une trajectoire
+   Workbenches   *[Robot](Robot_Workbench/fr.md)
+   SeeAlso   *
 ---
 
 # Robot CreateTrajectory/fr
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Description
+## Description
 
 Insère un nouvel objet de trajectoire vide dans la scène.
 
+## Utilisation
 
-</div>
+Cliquez sur <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *32px;"> ou choisissez ** Robot** → **<img src="images/Robot_CreateTrajectory.svg" width=32px> Créer une trajectoire** dans le menu du haut.
 
-
-<div class="mw-translate-fuzzy">
-
-#### Utilisation
-
-Cliquez sur <img alt="" src=images/Robot_CreateTrajectory.png  style="width   *32px;"> ou choisissez ** Robot** → **<img src="images/Robot_CreateTrajectory.png" width=32px> Créer une trajectoire** dans le menu du haut.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Remarques
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Remarques
 
 
 
-
-
-</div>
 
 
 {{Robot_Tools_navi

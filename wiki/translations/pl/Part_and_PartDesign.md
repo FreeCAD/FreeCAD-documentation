@@ -170,9 +170,9 @@ Porównaj drzewa konstrukcji w obu środowiskach pracy, jak również ich organi
 [Na początek strony](#Top.md)
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/pl

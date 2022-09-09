@@ -9,7 +9,7 @@ A partir de la version 0.20 de FreeCAD, les add-ons externes (ateliers, macros, 
 
 Ce document décrit actuellement la version 1 du format de fichier.
 
-Le fichier de métadonnées doit être un document XML 1.0 valide et bien formé. Il doit s\'appeler \"package.xml\", et doit exister dans le répertoire de base de la branche principale du logiciel (comme spécifié par le [FreeCAD-addons .gitmodules file](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) dans son dépôt git. Seul le fichier package.xml de la branche principale est pris en compte par le gestionnaire d\'addons. Toutes les balises XML comprises sont en minuscules, mais les balises non reconnues ne sont **pas** une erreur. La plupart des balises sont facultatives, et certaines ne s\'appliquent qu\'à certains types de contenu de paquet (par exemple, seuls les ateliers fournissent actuellement un élément \"classname\"). Les éléments inutiles ou non reconnus sont ignorés.
+Le fichier de métadonnées doit être un document XML 1.0 valide et bien formé. Il doit s\'appeler \"package.xml\", et doit exister dans le répertoire de base de la branche principale du logiciel (comme spécifié par le [fichier .gitmodules des addons de FreeCAD](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) dans son dépôt git. Seul le fichier package.xml de la branche principale est pris en compte par le gestionnaire d\'addons. Toutes les balises XML comprises sont en minuscules, mais les balises non reconnues ne sont **pas** une erreur. La plupart des balises sont facultatives, et certaines ne s\'appliquent qu\'à certains types de contenu de paquet (par exemple, seuls les ateliers fournissent actuellement un élément \"classname\"). Les éléments inutiles ou non reconnus sont ignorés.
 
 Tout chemin de fichier spécifié dans package.xml doit utiliser la barre oblique (\"/\") comme séparateur de répertoire    * sur les systèmes qui attendent un séparateur différent pendant l\'exécution (par exemple Windows) FreeCAD convertira automatiquement vers le séparateur correct.
 
@@ -275,7 +275,7 @@ Pour valider votre fichier package.xml, vous pouvez activer le \"mode développe
 
 ## Exemples
 
-Notez que les commentaires (le texte entre `< ! - -` et `- - >`) sont ignorés par l\'analyseur XML et ne sont pas une partie obligatoire du format de fichier. Ils sont fournis ici à titre d\'information et peuvent être omis du package.xml final si vous le souhaitez.
+Notez que les commentaires (le texte entre `&lt;&#33;--` et `--&gt;`) sont ignorés par l\'analyseur XML et ne sont pas une partie obligatoire du format de fichier. Ils sont fournis ici à titre d\'information et peuvent être omis du package.xml final si vous le souhaitez.
 
 Un paquet simple réservé à l\'atelier (par exemple, pour ajouter un fichier de métadonnées à un paquet antérieur à ce format de métadonnées)    *
 

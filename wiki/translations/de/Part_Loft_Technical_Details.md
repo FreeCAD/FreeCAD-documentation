@@ -67,14 +67,8 @@ Beachte, dass Ausformung eine \"Ruled\"-Eigenschaft hat. Wenn sie auf \"true\" g
 
     
   <img alt="Es ist nicht erforderlich, dass die Profile parallel sind." src=images/Loft_nonparallel.png  style="width   *300px;">   <img alt="In Ausformung können die Profile koplanar sein. In diesem Beispiel sind zwei von drei Profilen koplanar." src=images/Loft_Coplanar.png  style="width   *300px;">   <img alt="Ein Beispiel für eine geschlossene Ausformung zwischen drei fünfeckigen Profilen (weiß). Beachte die nicht glatte Verbindung am äußersten Profil. Dies ist das erste Profil im geschlossenen Loft." src=images/Loft-closed.png  style="width   *300px;">
-    
-
-
- 
-
-[Category   *Tutorials](Category_Tutorials.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/de

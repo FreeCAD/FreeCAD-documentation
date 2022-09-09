@@ -1,10 +1,10 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher MapSketch
-   Name/de   *Skizzierer ZuordnenSkizze
-   MenuLocation   *Part Design/Skizze → Skizze einer Fläche zuordnen...
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso   *[Skizzierer Neue Skizze](Sketcher_NewSketch/de.md)
+   Name/de   *Sketcher SkizzeZuordnen
+   MenuLocation   *Sketch (Sketcher)/Skizze (Part Design) → Skizze einer Fläche zuordnen...
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso   *[Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
 ---
 
 # Sketcher MapSketch/de
@@ -23,14 +23,14 @@ Bitte beachte, daß dieses Werkzeug nicht zum Erstellen neuer Skizzen verwendet 
 
 ## Anwendung
 
--   Wähle die Fläche eines PartDesign Formelements oder eines Festkörpers.
--   Klicke auf das **<img src="images/Sketcher_MapSketch.svg" width=16px> [Skizze zu Fläche zuordnen](Sketcher_MapSketch/de.md)** Symbol in der Werkzeugleiste (oder gehe zum Menü PartDesign oder Skizze, abhängig davon welcher Arbeitsbereich aktiv ist)
--   Im **Skizze auswählen**Dialogfenster, das sich öffnet, wähle aus der Liste die Skizze aus, die der Fläche zugeordnet werden soll, und klicke OK.
+-   Eine Fläche eines PartDesign-Formelements oder eines Festkörpers auswählen.
+-   Auf die Schaltfläche **<img src="images/Sketcher_MapSketch.svg" width=16px> [Skizze einer Fläche zuordnen...](Sketcher_MapSketch/de.md)** in der Werkzeugleiste klicken (oder zum Menü PartDesign oder Skizze gehen, abhängig davon, welcher Arbeitsbereich aktiv ist)
+-   Im Dialogfenster **Skizze auswählen**, das sich öffnet, wählt man aus der Liste die Skizze aus, die der Fläche zugeordnet werden soll, und klickt OK.
 -   Die Skizze wird automatisch im Bearbeitungsmodus geöffnet.
 
 ## Anwendung beim Reparieren eines kaputten Modells 
 
-Skizzierer ZuordnenSkizze wird häufig bei der Reparatur eines kaputten Modells verwendet.
+Sketcher SkizzeZuordnen wird häufig bei der Reparatur eines kaputten Modells verwendet.
 
 Ein häufiger Anwendungsfall ist, wenn der Abhängigkeitsgraph beschädigt wurde. (Du kannst den Abhängigkeitsgraph mit **Werkzeuge** anzeigen. → **[Abhängigkeitsgraph](Std_DependencyGraph/de.md)**.) Dies kann passieren, wenn du ein Formelement in der Mitte deines Modellbaums löschst. Im folgenden Beispiel wird ein Modell beschädigt und repariert.
 

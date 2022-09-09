@@ -15,7 +15,7 @@
 
 ## Описание
 
-**Part EditAttachment** is a utility to attach an object to another one. The attached object is linked to the other object, which means that if the latter\'s placement is changed afterwards, the attached object will update to its new position.
+**Прикрепить** - это утилита для прикрепления объекта к другому объекту. Прикрепленный объект связан с другим объектом, что означает, что если впоследствии расположение базового объекта будет изменено, то положение прикрепленного объекта тоже обновится до нового положения.
 
 ## Применение
 

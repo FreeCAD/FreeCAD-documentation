@@ -1,31 +1,17 @@
 ---
 - GuiCommand   */ru
-   Name   *Robot SetDefaultOrientation
-   Name/ru   *Robot SetDefaultOrientation
+   Name/ru   *Создать траекторию
+   Name   *Robot_SetDefaultOrientation
+   MenuLocation   *Робот → Установить ориентацию по умолчанию
    Workbenches   *[Robot](Robot_Workbench/ru.md)
-   MenuLocation   *Робот→ Установить ориентацию по умолчанию
+   SeeAlso   *...
 ---
 
 # Robot SetDefaultOrientation/ru
 
+## Описание
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Описание
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-#### Использование
-
-
-</div>
+## Применение
 
 
 

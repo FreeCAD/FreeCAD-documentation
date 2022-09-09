@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Imposta i valori predefiniti per la creazione dei punti intermedi.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -28,6 +32,8 @@ Scegliere ** Robot** → ** Imposta i valori predefiniti** dal menu principale p
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

@@ -51,7 +51,7 @@ Centerlines have no properties of their own, as they are no document objects. Th
 7.  **Weight**   * Thickness of the centerline
 8.  **Style**   * <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> DashDotDot
 
-## Сценарии
+## Программирование
 
 
 **См. так же   ***

@@ -8,7 +8,7 @@
 
 # PartDesign Draft/ru
 
-## Description
+## Описание
 
 The <img alt="" src=images/PartDesign_Draft.svg  style="width   *24px;"> **PartDesign Draft** tool creates angular draft on the selected faces of an object. It adds a **Draft** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
 
@@ -20,7 +20,7 @@ The <img alt="" src=images/PartDesign_Draft.svg  style="width   *24px;"> **PartD
 
 
 
-## Usage
+## Применение
 
 ### Add a draft 
 
@@ -44,7 +44,7 @@ The <img alt="" src=images/PartDesign_Draft.svg  style="width   *24px;"> **PartD
 2.  The **Draft parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-## Options
+## Опции
 
 -    **Add face**   * Add faces to the selection by pressing the **Add face** button and selecting more faces.
 
@@ -61,11 +61,11 @@ The <img alt="" src=images/PartDesign_Draft.svg  style="width   *24px;"> **PartD
 
 -    **Reverse pull direction**   * Invert the pull direction by checking the **Reverse pull direction** checkbox. This will toggle the draft between positive and negative angles.
 
-## Notes
+## Примечания
 
 -   The Draft tool will only work on faces that are not tangentially connected to other faces. A common mistake is to attempt to apply draft to a face that already has a fillet applied to it. To solve this, remove the fillet, apply the draft as needed, then re-apply the fillet.
 
-## Properties
+## Свойства
 
 See also   * [Property editor](Property_editor.md).
 

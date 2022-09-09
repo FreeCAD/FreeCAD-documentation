@@ -1394,44 +1394,28 @@ Return True if the given object is considered a group.
 
 #### <img src="images/type_method.svg" style="width:16px;"> joinTwoWires <small>(wire1, wire2)</small>
 
-joins two wires if they share a common
+join_two_wires(object, object): joins two wires if they share a common
     point as a start or an end.
-
-    BUG: it occasionally fails to join lines even if the lines
-    visually share a point.
-    This is a rounding error in the comparison of the shared point;
-    a small difference will result in the points being considered different
-    and thus the lines not joining.
-    Test properly using `DraftVecUtils.equals` because then it will consider
-    the precision set in the Draft preferences.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> joinWires <small>(wires, joinAttempts=0)</small>
 
-merges a set of wires where possible, if any of those
+join_wires(objects): merges a set of wires where possible, if any of those
     wires have a coincident start and end point
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> join_two_wires <small>(wire1, wire2)</small>
 
-joinTwoWires(object, object): joins two wires if they share a common
+joins two wires if they share a common
     point as a start or an end.
-
-    BUG: it occasionally fails to join lines even if the lines
-    visually share a point.
-    This is a rounding error in the comparison of the shared point;
-    a small difference will result in the points being considered different
-    and thus the lines not joining.
-    Test properly using `DraftVecUtils.equals` because then it will consider
-    the precision set in the Draft preferences.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> join_wires <small>(wires, joinAttempts=0)</small>
 
-joinWires(objects): merges a set of wires where possible, if any of those
+merges a set of wires where possible, if any of those
     wires have a coincident start and end point
 
 
@@ -1559,9 +1543,9 @@ Create an Array. DEPRECATED. Use 'make_array'.
 #### <img src="images/type_method.svg" style="width:16px;"> makeBSpline <small>(pointslist, closed=False, placement=None, face=None, support=None)</small>
 
 make_bspline(pointslist, [closed], [placement])
-    
+
     Creates a B-Spline object from the given list of vectors.
-    
+
     Parameters
      
     pointlist : [Base.Vector]
@@ -1570,17 +1554,17 @@ make_bspline(pointslist, [closed], [placement])
         TODO: Change the name so!
 
     closed : bool
-        If closed is True or first and last points are identical, 
+        If closed is True or first and last points are identical,
         the created BSpline will be closed.
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
-    face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
-        otherwise as a face.   
 
-    support : 
+    face : Bool
+        If face is False, the rectangle is shown as a wireframe,
+        otherwise as a face.
+
+    support :
         TODO: Describe
 
 
@@ -1588,9 +1572,9 @@ make_bspline(pointslist, [closed], [placement])
 #### <img src="images/type_method.svg" style="width:16px;"> makeBezCurve <small>(pointslist, closed=False, placement=None, face=None, support=None, degree=None)</small>
 
 make_bezcurve(pointslist, [closed], [placement])
-    
+
     Creates a Bezier Curve object from the given list of vectors.
-    
+
     Parameters
      
     pointlist : [Base.Vector]
@@ -1599,19 +1583,19 @@ make_bezcurve(pointslist, [closed], [placement])
         TODO: Change the name so!
 
     closed : bool
-        If closed is True or first and last points are identical, 
+        If closed is True or first and last points are identical,
         the created BSpline will be closed.
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
-    face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
-        otherwise as a face.   
 
-    support : 
+    face : Bool
+        If face is False, the rectangle is shown as a wireframe,
+        otherwise as a face.
+
+    support :
         TODO: Describe
-    
+
     degree : int
         Degree of the BezCurve
 
@@ -1635,29 +1619,29 @@ make_block(objectslist)
 make_circle(radius, [placement, face, startangle, endangle])
     or make_circle(edge,[face]):
 
-    Creates a circle object with given parameters. 
+    Creates a circle object with given parameters.
 
     Parameters
      
     radius : the radius of the circle.
 
-    placement : 
-        If placement is given, it is used. 
-    
+    placement :
+        If placement is given, it is used.
+
     face : Bool
-        If face is False, the circle is shown as a wireframe, 
-        otherwise as a face. 
-    
+        If face is False, the circle is shown as a wireframe,
+        otherwise as a face.
+
     startangle : start angle of the arc (in degrees)
 
     endangle : end angle of the arc (in degrees)
-        if startangle and endangle are equal, a circle is created, 
+        if startangle and endangle are equal, a circle is created,
         if they are different an arc is created
 
     edge : edge.Curve must be a 'Part.Circle'
         the circle is created from the given edge
 
-    support : 
+    support :
         TODO: Describe
 
 
@@ -1714,26 +1698,26 @@ make_drawing_view(object,page,[lwmod,tmod])
 #### <img src="images/type_method.svg" style="width:16px;"> makeEllipse <small>(majradius, minradius, placement=None, face=None, support=None)</small>
 
 make_ellipse(majradius, minradius, [placement], [face], [support])
-    
+
     Makes an ellipse with the given major and minor radius, and optionally
     a placement.
 
     Parameters
      
-    majradius : 
+    majradius :
         Major radius of the ellipse.
 
-    minradius : 
+    minradius :
         Minor radius of the ellipse.
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
-    face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
-        otherwise as a face.   
 
-    support : 
+    face : Bool
+        If face is False, the rectangle is shown as a wireframe,
+        otherwise as a face.
+
+    support :
         TODO: Describe.
 
 
@@ -1800,7 +1784,7 @@ make_point(x, y, z, [color(r, g, b), point_size]) or
 
     Parameters
      
-    X : 
+    X :
         float -> X coordinate of the point
         Base.Vector -> Ignore Y and Z coordinates and create the point
             from the vector.
@@ -1814,9 +1798,9 @@ make_point(x, y, z, [color(r, g, b), point_size]) or
     color : (R, G, B)
         Point color as RGB
         example to create a colored point:
-        make_point(0,0,0,(1,0,0)) # color = red
+        make_point(0, 0, 0, (1, 0, 0)) # color = red
         example to change the color, make sure values are floats:
-        p1.ViewObject.PointColor =(0.0,0.0,1.0)
+        p1.ViewObject.PointColor = (0.0, 0.0, 1.0)
 
 
 
@@ -1837,20 +1821,20 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
     edges : int
         Number of edges of the polygon.
 
-    radius : 
+    radius :
         Radius of the control circle.
 
     inscribed : bool
         Defines is the polygon is inscribed or not into the control circle.
 
     placement : Base.Placement
-        If placement is given, it is used. 
-    
+        If placement is given, it is used.
+
     face : bool
-        If face is True, the resulting shape is displayed as a face, 
+        If face is True, the resulting shape is displayed as a face,
         otherwise as a wireframe.
-    
-    support : 
+
+    support :
         TODO: Describe
 
 
@@ -1956,7 +1940,7 @@ Create Text. DEPRECATED. Use 'make_text'.
 #### <img src="images/type_method.svg" style="width:16px;"> makeWire <small>(pointslist, closed=False, placement=None, face=None, support=None, bs2wire=False)</small>
 
 make_wire(pointslist, [closed], [placement])
-    
+
     Creates a Wire object from the given list of vectors.  If face is
     true (and wire is closed), the wire will appear filled. Instead of
     a pointslist, you can also pass a Part Wire.
@@ -1967,19 +1951,19 @@ make_wire(pointslist, [closed], [placement])
         List of points to create the polyline
 
     closed : bool
-        If closed is True or first and last points are identical, 
+        If closed is True or first and last points are identical,
         the created polyline will be closed.
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
-    face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
-        otherwise as a face.   
 
-    support : 
+    face : Bool
+        If face is False, the rectangle is shown as a wireframe,
+        otherwise as a face.
+
+    support :
         TODO: Describe
-    
+
     bs2wire : bool
         TODO: Describe
 
@@ -2161,9 +2145,9 @@ Create a Draft Array of the given object.
 #### <img src="images/type_method.svg" style="width:16px;"> make_bezcurve <small>(pointslist, closed=False, placement=None, face=None, support=None, degree=None)</small>
 
 make_bezcurve(pointslist, [closed], [placement])
-    
+
     Creates a Bezier Curve object from the given list of vectors.
-    
+
     Parameters
      
     pointlist : [Base.Vector]
@@ -2172,19 +2156,19 @@ make_bezcurve(pointslist, [closed], [placement])
         TODO: Change the name so!
 
     closed : bool
-        If closed is True or first and last points are identical, 
+        If closed is True or first and last points are identical,
         the created BSpline will be closed.
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
-    face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
-        otherwise as a face.   
 
-    support : 
+    face : Bool
+        If face is False, the rectangle is shown as a wireframe,
+        otherwise as a face.
+
+    support :
         TODO: Describe
-    
+
     degree : int
         Degree of the BezCurve
 
@@ -2206,9 +2190,9 @@ make_block(objectslist)
 #### <img src="images/type_method.svg" style="width:16px;"> make_bspline <small>(pointslist, closed=False, placement=None, face=None, support=None)</small>
 
 make_bspline(pointslist, [closed], [placement])
-    
+
     Creates a B-Spline object from the given list of vectors.
-    
+
     Parameters
      
     pointlist : [Base.Vector]
@@ -2217,17 +2201,17 @@ make_bspline(pointslist, [closed], [placement])
         TODO: Change the name so!
 
     closed : bool
-        If closed is True or first and last points are identical, 
+        If closed is True or first and last points are identical,
         the created BSpline will be closed.
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
-    face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
-        otherwise as a face.   
 
-    support : 
+    face : Bool
+        If face is False, the rectangle is shown as a wireframe,
+        otherwise as a face.
+
+    support :
         TODO: Describe
 
 
@@ -2237,29 +2221,29 @@ make_bspline(pointslist, [closed], [placement])
 make_circle(radius, [placement, face, startangle, endangle])
     or 
 
-    Creates a circle object with given parameters. 
+    Creates a circle object with given parameters.
 
     Parameters
      
     radius : the radius of the circle.
 
-    placement : 
-        If placement is given, it is used. 
-    
+    placement :
+        If placement is given, it is used.
+
     face : Bool
-        If face is False, the circle is shown as a wireframe, 
-        otherwise as a face. 
-    
+        If face is False, the circle is shown as a wireframe,
+        otherwise as a face.
+
     startangle : start angle of the arc (in degrees)
 
     endangle : end angle of the arc (in degrees)
-        if startangle and endangle are equal, a circle is created, 
+        if startangle and endangle are equal, a circle is created,
         if they are different an arc is created
 
     edge : edge.Curve must be a 'Part.Circle'
         the circle is created from the given edge
 
-    support : 
+    support :
         TODO: Describe
 
 
@@ -2438,26 +2422,26 @@ make_drawing_view(object,page,[lwmod,tmod])
 #### <img src="images/type_method.svg" style="width:16px;"> make_ellipse <small>(majradius, minradius, placement=None, face=None, support=None)</small>
 
 make_ellipse(majradius, minradius, [placement], [face], [support])
-    
+
     Makes an ellipse with the given major and minor radius, and optionally
     a placement.
 
     Parameters
      
-    majradius : 
+    majradius :
         Major radius of the ellipse.
 
-    minradius : 
+    minradius :
         Minor radius of the ellipse.
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
-    face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
-        otherwise as a face.   
 
-    support : 
+    face : Bool
+        If face is False, the rectangle is shown as a wireframe,
+        otherwise as a face.
+
+    support :
         TODO: Describe.
 
 
@@ -3087,7 +3071,7 @@ make_point(x, y, z, [color(r, g, b), point_size]) or
 
     Parameters
      
-    X : 
+    X :
         float -> X coordinate of the point
         Base.Vector -> Ignore Y and Z coordinates and create the point
             from the vector.
@@ -3101,9 +3085,9 @@ make_point(x, y, z, [color(r, g, b), point_size]) or
     color : (R, G, B)
         Point color as RGB
         example to create a colored point:
-        make_point(0,0,0,(1,0,0)) # color = red
+        make_point(0, 0, 0, (1, 0, 0)) # color = red
         example to change the color, make sure values are floats:
-        p1.ViewObject.PointColor =(0.0,0.0,1.0)
+        p1.ViewObject.PointColor = (0.0, 0.0, 1.0)
 
 
 
@@ -3229,20 +3213,20 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
     edges : int
         Number of edges of the polygon.
 
-    radius : 
+    radius :
         Radius of the control circle.
 
     inscribed : bool
         Defines is the polygon is inscribed or not into the control circle.
 
     placement : Base.Placement
-        If placement is given, it is used. 
-    
+        If placement is given, it is used.
+
     face : bool
-        If face is True, the resulting shape is displayed as a face, 
+        If face is True, the resulting shape is displayed as a face,
         otherwise as a wireframe.
-    
-    support : 
+
+    support :
         TODO: Describe
 
 
@@ -3515,7 +3499,7 @@ Create a Text object containing the given list of strings.
 #### <img src="images/type_method.svg" style="width:16px;"> make_wire <small>(pointslist, closed=False, placement=None, face=None, support=None, bs2wire=False)</small>
 
 make_wire(pointslist, [closed], [placement])
-    
+
     Creates a Wire object from the given list of vectors.  If face is
     true (and wire is closed), the wire will appear filled. Instead of
     a pointslist, you can also pass a Part Wire.
@@ -3526,19 +3510,19 @@ make_wire(pointslist, [closed], [placement])
         List of points to create the polyline
 
     closed : bool
-        If closed is True or first and last points are identical, 
+        If closed is True or first and last points are identical,
         the created polyline will be closed.
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
-    face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
-        otherwise as a face.   
 
-    support : 
+    face : Bool
+        If face is False, the rectangle is shown as a wireframe,
+        otherwise as a face.
+
+    support :
         TODO: Describe
-    
+
     bs2wire : bool
         TODO: Describe
 
@@ -3604,21 +3588,21 @@ Create a mirror object from the provided list and line.
 #### <img src="images/type_method.svg" style="width:16px;"> move <small>(objectslist, vector, copy=False)</small>
 
 move(objects,vector,[copy])
-    
+
     Move the objects contained in objects (that can be an object or a
     list of objects) in the direction and distance indicated by the given
-    vector. 
+    vector.
 
     Parameters
      
     objectslist : list
 
     vector : Base.Vector
-        Delta Vector to move the clone from the original position. 
+        Delta Vector to move the clone from the original position.
 
     copy : bool
         If copy is True, the actual objects are not moved, but copies
-        are created instead. 
+        are created instead.
 
     Return
      
@@ -3786,9 +3770,9 @@ rotate(objects,angle,[center,axis,copy])
 
     Parameters
      
-    objectlist : list
+    objectslist : list
 
-    angle : list
+    angle : rotation angle (in degrees)
 
     center : Base.Vector
 

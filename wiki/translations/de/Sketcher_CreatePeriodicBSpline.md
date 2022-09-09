@@ -13,13 +13,13 @@
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschlossene) B-Spline-Kurve auf. (Siehe [diese Seite](B-Splines/de.md) für mehr Informationen über B-Splines).
+Dieses Werkzeug erstellt eine periodische (geschlossene) B-Spline-Kurve aus ihren Kontrollpunkten. (Siehe [diese Seite](B-Splines/de.md) für weitere Informationen über B-Splines).
 
 ![](images/Sketcher_Periodic_B-spline_example01.png )
 
 
 
-*Eine periodische B-Spline-Kurve (in Weiß) aus 5 Punkten erstellt. Abgebildet sind das Kontrollpolygon in grün (die Geraden verbinden die roten Punkte), die Gewichtskreise in blau und der Krümmungskamm in grün. Die (3) Ziffer in der Mitte bezieht sich auf den Grad des B-Splines, und die (1) und (2) Ziffern auf den Knoten, die auf der Kurve liegen, beziehen sich auf deren Vielzahl.*
+*Eine periodische B-Spline-Kurve (in Weiß), durch 5 Punkte definiert. Abgebildet sind das Kontrollpolygon in grün (die Geraden verbinden die roten Punkte), die Gewichtskreise in blau und der Krümmungskamm in grün. Die Ziffer (3) in der Mitte bezieht sich auf den Grad des B-Splines und die Ziffern (1) und (2) an den Knoten, die auf der Kurve liegen, beziehen sich auf deren Vielfachheit.*
 
 ## Anwendung
 

@@ -187,7 +187,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Profile.svg  style="width   *32px;"> [Profile](Path_Profile.md)   * Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Path_Pocket_Shape.svg  style="width   *32px;"> [Pocket Shape](Path_Pocket_Shape.md)   * Creates a pocketing operation from one ore more selected pocket(s).
+-   <img alt="" src=images/Path_Pocket_Shape.svg  style="width   *32px;"> [Pocket Shape](Path_Pocket_Shape.md)   * Creates a pocketing operation from one or more selected pocket(s).
 
 
 <div class="mw-translate-fuzzy">

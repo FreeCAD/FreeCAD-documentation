@@ -1,9 +1,9 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher MergeSketches
-   Name/de   *Skizzierer SkizzenZusammenführen
-   MenuLocation   *Skizze → Skizzen zusammenführen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Name/de   *Sketcher SkizzenZusammenführen
+   MenuLocation   *Sketch → Skizzen zusammenführen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.15
 ---
 
@@ -11,13 +11,13 @@
 
 ## Beschreibung
 
-Eine oder mehrere Skizzen in einer Skizze zusammenführen.
+Zwei oder mehr Skizzen in einer Skizze zusammenführen.
 
 ## Anwendung
 
-1.  Wähle eine oder mehrere Skizzen.
-2.  Klick auf **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Skizzen zusammenführen](Sketcher_MergeSketches.md)** oder wähle **Skizze → <img src="images/Sketcher_MergeSketches.svg" width=16px> [Skizzen zusammenführen](Sketcher_MergeSketches/de.md)** aus dem oberen Menü.
-3.  Die resultierende Skizze wird als gesondertes neues Objekt erzeugt.
+1.  Zwei oder mehr Skizzen auswählen.
+2.  Die Schaltfläche **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Skizzen zusammenführen](Sketcher_MergeSketches.md)** anklicken oder den Menüeintrag **Sketch → <img src="images/Sketcher_MergeSketches.svg" width=16px> [Skizzen zusammenführen](Sketcher_MergeSketches/de.md)** auswählen.
+3.  Die resultierende Skizze wird als separates neues Objekt erzeugt.
 
 
 

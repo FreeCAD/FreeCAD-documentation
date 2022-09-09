@@ -11,7 +11,7 @@
 
 ## Opis
 
-Narzędzie Widok dodaje reprezentację jednego lub więcej obiektów do strony Rysunku. Jest to podstawowy element środowiska Rysunek Techniczny. Większość innych widoków pochodzi w jakiś sposób od metody Nowy widok.
+Narzędzie Widok dodaje reprezentację jednego lub więcej obiektów do strony Rysunku. Jest to podstawowy element środowiska Rysunek Techniczny. Większość innych widoków pochodzi w jakiś sposób od metody Widok.
 
 Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Możesz wybrać obiekty [szkicu](Draft_Workbench/pl.md) i również [Projekt Części   * Zawartość](PartDesign_Body/pl.md), środowiska [Rysunek Roboczy](Draft_Workbench/pl.md). Widok wyodrębni również kształty z obiektów w kontenerze [Std   * Część](Std_Part/pl.md) lub [Std   * Grupa](Std_Group/pl.md).
 
@@ -121,7 +121,7 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 
 [TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Narzędzie Nowy widok może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
+Narzędzie Widok może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
 
 
 ```python

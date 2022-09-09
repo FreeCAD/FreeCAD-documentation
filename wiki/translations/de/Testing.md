@@ -5,13 +5,7 @@
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Die [Erprobung](Testing/de.md) ist nicht wirklich eine Modellierungsarbeitsbereich, aber sie enthält einen Satz von [Python](Python/de.md) Skripten, um verschiedene Tests an den Kernkomponenten von FreeCAD durchzuführen, um Probleme zu beheben. Siehe auch [Fehlerdiagnose](Debugging/de.md).
-
-
-</div>
+Der Arbeitsbereich [Erprobung](Testing/de.md) ist nicht wirklich ein Modellierungsarbeitsbereich, aber er enthält einen Satz von [Python](Python/de.md) Skripten, zum Durchzuführen verschiedener Tests an den Kernkomponenten von FreeCAD, um Probleme zu beheben. Siehe auch [Fehlerdiagnose](Debugging/de.md).
 
 Du kannst die Tests auf der Kommandozeile ausführen, indem du die Optionen `-t` oder `--run-test` verwendest.
 
@@ -29,7 +23,7 @@ Führe nur einen Teil des angegebenen Komponententests aus, z.B.   *
 freecad -t TestDraft
 ```
 
-If a test does not need the GUI, it can also be executed in console mode by setting the `-c` or `--console` option in addition. This usually results in much faster startup time as the GUI is not loaded. For example   *
+Wenn ein Test die Benutzerschnittstelle (GUI) nicht braucht, kann er auch im Konsolenmodus gestartet werden durch das zusätzliche Setzen der Option `-c` oder `--console`. Daraus resultiert eine erheblich kürzere Startzeit, da die GUI nicht geladen wird. Z.B.   *
 
 
 ```python

@@ -10,21 +10,21 @@
 
 ## Beschreibung
 
-The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *24px;"> **Fasteners ScrewCalculator** command shows a calculator to determine the tap hole size of screws.
+Der Befehl <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *24px;"> **Fasteners ScrewCalculator** zeigt einer Rechner zum Ermitteln des Kernlochdurchmessers einer Gewindebohrung an.
 
 ![](images/Fasteners_ScrewCalculator_Dialog.png ) 
-*The Screw hole calculator dialog box*
+*Das Dialogfenster des Schraubenloch-Rechners*
 
 ## Anwendung
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** option from the menu.
-2.  The **Screw hole calculator** dialog box opens.
-3.  Specify the **Fastener type** and the **Screw diameter**.
-4.  The **Suggested hole diameter** is displayed.
-5.  The dialog box is modeless, meaning it can stay open while you continue working in FreeCAD.
-6.  Press the **Close** button (provided by the OS) to close the dialog box.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Screw calculator](Fasteners_ScrewCalculator.md)** drücken.
+    -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** auswählen.
+2.  Das Dialogfenster **Screw hole calculator** wird geöffnet.
+3.  Die Art des Verbindungselements angeben und den Durchmesser ( **Fastener type** und **Screw diameter**) .
+4.  Der empfohlene Lochdurchmesser (**Suggested hole diameter**) wird angezeigt.
+5.  Das Dialogfenster ist \"modeless\" d.h. es kann geöffnet bleiben während man in FreeCAD weiterarbeitet.
+6.  Die Schaltfläche **Close** (vom Betriebssystem bereitgestellt) drücken, um das Dialogfenster zu schließen.
 
 
 

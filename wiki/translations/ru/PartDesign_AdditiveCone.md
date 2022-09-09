@@ -1,47 +1,48 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign AdditiveCone
-   MenuLocation   *Part Design → Create an additive primitive → Additive Cone
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
+- GuiCommand   */ru
+   Name/ru   *Аддитивный конус
+   Name   *PartDesign_AdditiveCone
+   MenuLocation   *Part Design → Создать аддитивный примитив → Аддитивный Конус
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveCone](PartDesign_SubtractiveCone.md)
+   SeeAlso   *[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный конус](PartDesign_SubtractiveCone/ru.md)
 ---
 
 # PartDesign AdditiveCone/ru
 
 ## Описание
 
-Inserts a primitive cone in the active Body as the first feature, or fuses it to the existing feature(s).
+Вставляет в активное Тело простую геометрическую форму - конус, в качестве базового конструктивного элемента, или объединяет этот элемент с уже существующей совокупностью конструктивных элементов.
 
 <img alt="" src=images/PartDesign_AdditiveCone_example.png  style="width   *200px;">
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_AdditiveCone.svg" width=24px> '''Additive Cone'''** button. **Note**   * the Additive Cone is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Additive Cone in the menu.
-2.  Set the Primitive parameters (for a complete cone, set one of the radii to zero) and the [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Cone feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_AdditiveCone.svg" width=24px> '''Аддитивный конус'''**. **Примечание**   * Инструмент Аддитивный конус входит в состав меню с названием \"Создать аддитивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Аддитивный куб. Чтобы перейти к кнопке создания Конуса, нажмите на стрелку указывающую вниз рядом со значком и выберите Аддитивный Конус в выпадающем меню.
+2.  Установите параметры геометрической формы (для создания острого конуса установите один из радиусов равным нулю) и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Конус появится в иерархии документа под активным Телом.
 
 ## Опции
 
-The Cone can be edited after its creation in two ways   *
+Параметры Конуса после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
--    **Attachment**   * defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
+-    **Attachment**   * Определяет режим крепления, а также смещение конструктивного элемента при его [креплении](Part_EditAttachment/ru.md).
 
--    **Label**   * label given to the Cone object. Change to suit your needs.
+-    **Label**   * Метка, присвоенная объекту Конус. Может быть изменена в соответствии с вашими потребностями.
 
--    **Radius1**   * the radius value at the cone\'s base.
+-    **Radius1**   * радиус основания конуса.
 
--    **Radius2**   * the radius value at the cone\'s top. A non-zero value creates a truncated cone.
+-    **Radius2**   * радиус вершины конуса. Ненулевое значение создает усеченный конус.
 
--    **Height**   * the height of the cone along its axis.
+-    **Height**   * высота конуса вдоль его оси.
 
--    **Angle**   * angle of rotation of the cross section (360 degrees in a full cone).
+-    **Angle**   * угол поперечного выреза (360 градусов образуют полный конус).
 
 
 

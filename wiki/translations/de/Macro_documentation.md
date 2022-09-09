@@ -1,9 +1,9 @@
 # Macro documentation/de
 ## Beschreibung
 
-Alle Makros sollten ordnungsgemäß dokumentiert werden, und zwar auf die gleiche Weise wie [Gui Befehle](Gui_Command/de.md) dokumentiert werden. Sie sollten eine eigene Wiki Seite haben und in einer der Kategorien unter [Makro Rezepte](Macros_recipes/de.md) aufgeführt sein.
+Alle Makros sollten ordentlich dokumentiert werden, und zwar auf die gleiche Weise wie [GUI-Befehle](Gui_Command/de.md) dokumentiert werden. Sie sollten eine eigene Wiki-Seite haben und in einer der Kategorien unter [Makro Rezepte](Macros_recipes/de.md) aufgeführt sein.
 
-Die [Makro Rezepte](Macros_recipes/de.md) Seite hat eine gute Auswahl von Makros, die von erfahrenen Benutzern erstellt wurden, und viele von ihnen können direkt aus dem [Addon-Manager](Std_AddonMgr/de.md) installiert werden.
+Die Seite [Makro Rezepte](Macros_recipes/de.md) enthält eine gute Auswahl von Makros, die von erfahrenen Benutzern erstellt wurden, und viele von ihnen können direkt mit dem [Addon-Manager](Std_AddonMgr/de.md) installiert werden.
 
 Siehe [GuiBefehl Modell](GuiCommand_model/de.md) und Makroseiten wie [Makro Ausformung](Macro_Loft/de.md) und [Makro Seite Aus Konturen](Macro_Site_From_Contours/de.md), um zu sehen, wie Makros dokumentiert werden sollten. Es sollten mindestens zwei Abschnitte enthalten sein, ein Abschnitt **Description** mit allgemeinen Informationen zur Verwendung und ein Abschnitt **Script**, der den eigentlichen Makrocode enthält. Bei Bedarf können weitere Abschnitte hinzugefügt werden, um die Verwendung des Makros näher zu erläutern.
 

@@ -36,7 +36,7 @@ Obsługiwane są związki; zakłada się jednak, że kształty upakowane w zwią
 
 ## Opcje
 
-Elementy mogą być dodawane i usuwane z scalenia, poprzez przeciąganie ich myszą do lub z elementu scalenia w widoku drzewa. Ręczna ponowna kalkulacja *(naciśnij klawisz **F5** lub kliknij na przycisk <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Przelicz aktywny dokument](Std_Refresh/pl.md))* jest konieczna, aby zobaczyć wyniki.
+Elementy mogą być dodawane i usuwane ze scalenia, poprzez przeciąganie ich myszą do lub z elementu scalenia w widoku drzewa. Aby przeciągnąć obiekty scalenia musisz je upuścić na węzeł dokumentu *(nazwa pliku)* swojego modelu. Ręczna ponowna kalkulacja *(naciśnij klawisz **F5** lub kliknij na przycisk <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Przelicz aktywny dokument](Std_Refresh/pl.md))* jest konieczna, aby zobaczyć wyniki.
 
 Po zakończeniu tej operacji może być konieczne wyczyszczenie kształtu za pomocą narzędzia <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;">. [Udoskonal kształt](Part_RefineShape/pl.md).
 

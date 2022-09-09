@@ -234,6 +234,16 @@ W zakładce *Kolory* można określić następujące elementy   *
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
+## Uwagi
+
+Jest jeszcze jedna preferencja, która ma wpływ na szkice. Jeżeli preferencja **Przezroczystość obiektów** na zakładce [Wyświetlanie → Widok 3D](Preferences_Editor/pl#Widok_3D.md) jest ustawiona na {{Value|Przebieg od tyłu}}, groty strzałek na jednym końcu wymiarów szkicownika są ukryte, jeśli opcja **Pokaż siatkę** jest wyłączona w sekcji [Edycja kontrolek](Sketcher_Dialog/pl#Edycja_kontrolek.md) w [Panelu zadań](Task_panel/pl.md). Dotyczy to programu FreeCAD w wersji 0.19, wersji 0.20 i ostatnich wersji rozwojowych *(przynajmniej do 0.21-30058)* z wyjątkiem gałęzi Link.
+
+<img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-01.png  style="width   *200px;"> <img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-02.png  style="width   *200px;"> 
+*Widok z przodu, włączona i wyłączona siatka*
+
+<img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-03.png  style="width   *200px;"> <img alt="" src=images/Sketcher-Preferences-Note-Arrowhead-04.png  style="width   *200px;"> 
+*Widok z tyłu, siatka włączona i siatka wyłączona ukrywając groty strzałek na przeciwległym końcu, jak również wartość wymiaru.*
+
 
 
 

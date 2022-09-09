@@ -11,6 +11,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -20,6 +22,8 @@ Seçilen robotun ana konumuna dönmesini sağlar.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -31,6 +35,8 @@ Seçilen robotun ana konumuna dönmesini sağlar.
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

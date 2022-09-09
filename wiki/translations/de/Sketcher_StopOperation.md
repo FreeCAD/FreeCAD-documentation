@@ -11,9 +11,9 @@
 ## Beschreibung
 
 
-**[<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Vorgang beenden](Sketcher_StopOperation/de.md)**
+**[<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [VorgangBeenden](Sketcher_StopOperation/de.md)**
 
-hält einen gerade aktiven Befehl an, während eine Skizze bearbeitet wird; dies kann ein Zeichnungsvorgang, ein Beschränkungsvorgang eine B-Spline Vorgang usw. bedeuten.
+hält einen gerade aktiven Befehl an, während eine Skizze bearbeitet wird; dies könnte ein Zeichnungsvorgang, ein Beschränkungsvorgang, ein B-Spline-Vorgang usw. sein.
 
 Dies ist ähnlich wie das Drücken der **Esc** Taste.
 

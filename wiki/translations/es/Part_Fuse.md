@@ -39,7 +39,7 @@ Compounds are supported; however, it is assumed that shapes packed into a compou
 
 ## Options
 
-Items can be added and removed from the fusion, by dragging them in or out of the fusion feature in the tree view with the mouse. A manual recompute (press **F5** key or click on the <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Refresh/Recompute](Std_Refresh.md) icon) is required to see the results.
+Items can be added and removed from a fusion, by dragging them in or out of the fusion feature in the tree view with the mouse. To drag items out of a fusion you have to drop them onto the document node (the filename) of your model. A manual recompute (press **F5** key or click on the <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Refresh/Recompute](Std_Refresh.md) icon) is required to see the results.
 
 After this operation is complete, it may be necessary to clean up the shape with <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [RefineShape](Part_RefineShape.md).
 

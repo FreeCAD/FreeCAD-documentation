@@ -36,23 +36,28 @@ Obiekt Part2DObject ma także następujące dodatkowe właściwości w obszarze 
 
 {{TitleProperty|Dołączenie}}
 
+-    <div id="Property_Typ_mocowania">
+    </div>**Typ mocowania|String|ukryty**   * nazwa klasy obiektu attach engine sterującego dołączeniem. Domyślnie jest to `Attacher   *   *AttachEnginePlane`.
 
-<div class="mw-translate-fuzzy">
+-    <div id="Property_Podparcie">
+    </div>
+    **Podparcie|LinkSubList**   * jest to płaszczyzna lub powierzchnia obsługująca geometrię 2D. Domyślnie jest to pusta lista `[]`.
 
--    **Typ mocowania|String|ukryty**   * nazwa klasy obiektu attach engine sterującego dołączeniem. Domyślnie jest to `Attacher   *   *AttachEnginePlane`.
+-    <div id="Property_Tryb_dołączenia">
+    </div>
+    **Tryb odłączenia|Enumeration**   * {{value|Dezaktywowany}} domyślnie. Ta właściwość określa płaszczyznę, która będzie używana przez obiekt jako odniesienie dla geometrii 2D. Kliknięcie na elipsę **...** *(trzy kropki)*, po prawej stronie pola edycyjnego, uruchamia polecenie [Część   * Edycja mocowania](Part_EditAttachment.md), które umożliwia wybór płaszczyzny pomocniczej poprzez wybranie różnych elementów w oknie [widoku 3D](3D_view/pl.md). Dostępne są różne tryby   * {{value|Deactivated}}, {{value|Przemieść położenie odniesienia}}, {{value|Objekt XY}}, {{value|Objekt XZ}}, {{value|Objekt YZ}}, {{value|Płaszczyzna ściany}}, {{value|Stycznie do powierzchni}}, {{value|Normalna do krawędzi}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Współśrodkowo}}, {{value|Płaszczyzna przez 3 punkty}}, {{value|Normalna do 3 punktów}}, {{value|Składanie}}, {{value|Bezwładność 2-3}}, {{value|Wyrównane O-N-X}}, {{value|Wyrównane O-N-Y}}, {{value|Wyrównane O-X-Y}}, {{value|Wyrównane O-X-N}}, {{value|Wyrównane O-X-N}}, {{value|Wyrównane O-Y-N}}, {{value|Wyrównane O-Y-X}}.
 
--    **Podparcie|LinkSubList**   * jest to płaszczyzna lub powierzchnia obsługująca geometrię 2D. Domyślnie jest to pusta lista `[]`.
+-    <div id="Property_Dołączenie_odwrotne">
+    </div>
+    **Dołączenie odwrotne|Bool**   * wartość domyślna to {{FALSE/pl}}.Jeśli parametr ma wartość {{TRUE/pl}}, kierunek Z zostanie odwrócony. Na przykład [szkic](Sketch/pl.md) zostanie odwrócony do góry nogami. Ukryje, jeśli parametr **Tryb dołączenia** ma wartość {{value|Dezaktywowany}}.
 
--    **Tryb odłączenia|Enumeration**   * {{value|Dezaktywowany}} domyślnie. Ta właściwość określa płaszczyznę, która będzie używana przez obiekt jako odniesienie dla geometrii 2D. Kliknięcie na elipsę **...** *(trzy kropki)*, po prawej stronie pola edycyjnego, uruchamia polecenie [Część   * Edycja mocowania](Part_EditAttachment.md), które umożliwia wybór płaszczyzny pomocniczej poprzez wybranie różnych elementów w oknie [widoku 3D](3D_view/pl.md). Dostępne są różne tryby   * {{value|Deactivated}}, {{value|Przemieść położenie odniesienia}}, {{value|Objekt XY}}, {{value|Objekt XZ}}, {{value|Objekt YZ}}, {{value|Płaszczyzna ściany}}, {{value|Stycznie do powierzchni}}, {{value|Normalna do krawędzi}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Współśrodkowo}}, {{value|Płaszczyzna przez 3 punkty}}, {{value|Normalna do 3 punktów}}, {{value|Składanie}}, {{value|Bezwładność 2-3}}, {{value|Wyrównane O-N-X}}, {{value|Wyrównane O-N-Y}}, {{value|Wyrównane O-X-Y}}, {{value|Wyrównane O-X-N}}, {{value|Wyrównane O-X-N}}, {{value|Wyrównane O-Y-N}}, {{value|Wyrównane O-Y-X}}.
+-    <div id="Property_Ścieżka_dołączenia">
+    </div>
+    **Ścieżka dołączenia|Float|ukryty**   * ustawia punkt krzywej, na który ma być mapowany [szkic](Sketch/pl.md). Przebiega od {{value|0}} do {{value|1}}, co odpowiada wartościom {{value|początek}} i {{value|koniec}}. Domyślnie przyjmuje wartość {{value|0}}.
 
--    **Dołączenie odwrotne|Bool**   * wartość domyślna to {{FALSE/pl}}.Jeśli parametr ma wartość {{TRUE/pl}}, kierunek Z zostanie odwrócony. Na przykład [szkic](Sketch/pl.md) zostanie odwrócony do góry nogami. Ukryje, jeśli parametr **Tryb dołączenia** ma wartość {{value|Dezaktywowany}}.
-
--    **Parametr ścieżki dołączenia|Float|ukryty**   * ustawia punkt krzywej, na który ma być mapowany [szkic](Sketch/pl.md). Przebiega od {{value|0}} do {{value|1}}, co odpowiada wartościom {{value|początek}} i {{value|koniec}}. Domyślnie przyjmuje wartość {{value|0}}.
-
--    **Odsunięcie mocowania|umocowanie**   * pozycja obiektu w oknie [widoku 3D](3D_view/pl.md), w odniesieniu do umiejscowienia obiektu dołączonego. Położenie jest określone przez punkt `Bazowy` *(wektor)* i punkt `Obrotu` *(oś i kąt)*. Zobacz [Umiejscowienie](Placement/pl.md). Ukryje, jeśli **Tryb dołączenia** ma wartość {{value|Dezaktywowany}}.
-
-
-</div>
+-    <div id="Property_Odsunięcie_mocowania">
+    </div>
+    **Odsunięcie mocowania|umocowanie**   * pozycja obiektu w oknie [widoku 3D](3D_view/pl.md), w odniesieniu do umiejscowienia obiektu dołączonego. Położenie jest określone przez punkt `Bazowy` *(wektor)* i punkt `Obrotu` *(oś i kąt)*. Zobacz [Umiejscowienie](Placement/pl.md). Ukryje, jeśli **Tryb dołączenia** ma wartość {{value|Dezaktywowany}}.
 
 ## Tworzenie skryptów 
 

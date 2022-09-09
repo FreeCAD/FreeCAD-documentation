@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Der Arbeitsbereich Blech (SheetMetal) ist ziemlich mächtig geworden und verlangt jetzt nach einer angemessenen Dokumentation.
+Der Arbeitsbereich <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width   *24px;"> [SheetMetal](SheetMetal_Workbench/de.md) (ein [externer Arbeitsbereich](External_workbenches/de.md), der durch den [Addon-Manager](Std_AddonMgr/de.md) zur Verfügung gestellt wird) ist ziemlich mächtig geworden und verlangt jetzt nach einer angemessenen Dokumentation.
 
 Um die Überfüllung der Werkzeugseiten zu vermeiden, wurde diese Seite angelegt, um Teile zu sammeln, die die speziellen Blechfunktionen darstellen und erklären.
 
@@ -360,6 +360,18 @@ Die Option rund wird nur dann angewendet, wenn die Ausschnitttiefe größer als 
 Die {{PropertyData/de|Use Relief Factor}} von `False` (Standardwert) auf `True` umschalten, um die Werte der {{PropertyData/de|reliefd}} und der {{PropertyData/de|reliefw}} automatisch einzusetzen. Beide werden auf die (ererbte) Wandstärke des Objekts multipliziert mit dem Wert der {{PropertyData/de|Relief Factor}} gesetzt.
 
    *   In diesem Falle ist die Option rund nutzlos, da die Ausschnitttiefe und die Ausschnittbreite gleich groß sind. (Siehe oben)
+
+Eine neue {{PropertyData/de|Length Spec}} <small>(v1.0)</small>  ermöglicht es, auszuwählen, wie die Länge des Bend-Objekts gemessen wird   *
+
+<img alt="" src=images/SheetMetal_Example-09t.png  style="width   *500px;"> 
+*Seitenansicht auf vier 120°-Kanten mit der Vorgabelänge (10 mm) und unterschiedlichen Werten der {{PropertyData/de|Length Spec*   * <br> Nur der ebene Streifen {{value|Leg}} (Standard), Außenmaß zur theoretischen Ecke {{value|Outer Sharp}}, Innenmaß zur theoretischen Ecke {{value|Inner Sharp}}, Außenmaß bie Bogen {{value|Tangential}}}}
+
+Mit der ausgewählten Option {{value|Tangential}} entspricht die {{PropertyData/de|length}} der Kantenhöhe (flange length).
+
+
+{{value|Outer Sharp}}
+
+und {{value|Tangential}} sind gleich für 90°-Winkel.
 
 
 </div>

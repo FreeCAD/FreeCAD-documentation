@@ -16,10 +16,9 @@ This is the **top category** which contains the main categories of the FreeCAD w
 | [Category:Categories/de](wiki/Category_Categories/de.md) | [Category:Command Reference/de](wiki/Category_Command Reference/de.md) | [Category:Developer/de](wiki/Category_Developer/de.md) |
 | [Category:Documentation/de](wiki/Category_Documentation/de.md) | [Category:Help/de](wiki/Category_Help/de.md) | [Category:Hubs/de](wiki/Category_Hubs/de.md) |
 | [Category:Image/de](wiki/Category_Image/de.md) | [Category:Macros/de](wiki/Category_Macros/de.md) | [Category:News/de](wiki/Category_News/de.md) |
-| [Category:Pages to delete/de](wiki/Category_Pages to delete/de.md) | [Category:Poweruser Documentation/de](wiki/Category_Poweruser Documentation/de.md) | [Category:Python Code/de](wiki/Category_Python Code/de.md) |
-| [Category:Repository/de](wiki/Category_Repository/de.md) | [Category:Roadmap/de](wiki/Category_Roadmap/de.md) | [Category:Template/de](wiki/Category_Template/de.md) |
-| [Category:UnfinishedDocu/de](wiki/Category_UnfinishedDocu/de.md) | [Category:User Documentation/de](wiki/Category_User Documentation/de.md) | [Category:Wiki/de](wiki/Category_Wiki/de.md) |
-|
+| [Category:Poweruser Documentation/de](wiki/Category_Poweruser Documentation/de.md) | [Category:Python Code/de](wiki/Category_Python Code/de.md) | [Category:Repository/de](wiki/Category_Repository/de.md) |
+| [Category:Roadmap/de](wiki/Category_Roadmap/de.md) | [Category:Template/de](wiki/Category_Template/de.md) | [Category:UnfinishedDocu/de](wiki/Category_UnfinishedDocu/de.md) |
+| [Category:User Documentation/de](wiki/Category_User Documentation/de.md) | [Category:Wiki/de](wiki/Category_Wiki/de.md) |
 
 
 

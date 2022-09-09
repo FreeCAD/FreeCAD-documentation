@@ -293,7 +293,7 @@ To validate your package.xml file you can enable \"developer mode\" in the Addon
 
 ## Examples
 
-Note that comments (the text between `< ! - -` and `- - >`) are ignored by the XML parser, and are not a required part of the file format. They are provided here for information purposes and may be omitted from the final package.xml if desired.
+Note that comments (the text between `&lt;&#33;--` and `--&gt;`) are ignored by the XML parser, and are not a required part of the file format. They are provided here for information purposes and may be omitted from the final package.xml if desired.
 
 A simple workbench-only package (for example, to add a metadata file to a package that predates this metadata format)   *
 

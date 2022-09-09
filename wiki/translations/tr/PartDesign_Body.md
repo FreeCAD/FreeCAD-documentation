@@ -68,7 +68,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 #### Hidden properties Data 
 
--    **Origin|Link**   * the [App Origin](App_Origin.md) object that is the positional reference for all elements listed in **Group**.
+-    **Origin|Link**   * the [App Origin](App_OriginGroupExtension.md) object that is the positional reference for all elements listed in **Group**.
 
 -    **_ Group Touched|Bool**   * whether the group is touched or not.
 
@@ -192,7 +192,7 @@ The same process can be used when creating auxiliary datum geometry like [PartDe
 
 **Note   ***
 
-the Origin is an [App Origin](App_Origin.md) object (`App   *   *Origin` class), while the axes and planes are objects of type `App   *   *Line` and `App   *   *Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
+the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App   *   *Origin` class), while the axes and planes are objects of type `App   *   *Line` and `App   *   *Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
 
 
 **Note 2   ***

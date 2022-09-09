@@ -11,7 +11,7 @@
 
 Die meisten *\'Std Basis* Werkzeuge können aus dem [Standardmenü](Standard_Menu/de.md) erreicht werden. Diejenigen, die nur über ein Kontextmenü verfügbar sind, werden unter [Zusätzliche Werkzeuge](#Additional_tools/de.md) aufgelistet.
 
-### Standardmenüwerkzeuge
+### Standardmenü-Werkzeuge 
 
 Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat eine eigene Seite. Klicke einfach auf einen der untenstehenden Namen.
 

@@ -15,15 +15,15 @@
 
 ## Wprowadzenie
 
-This tutorial describes how to generate a simple kinematic controller to use with assemblies created with the [Assembly3 Workbench](Assembly3_Workbench.md) out of some lines of Python code.
+Ten poradnik opisuje jak z kilku linijek kodu Python wygenerować prosty kontroler kinematyczny do użycia z zespołami utworzonymi za pomocą środowiska pracy [Złożenie 3](Assembly3_Workbench/pl.md).
 
-Any text editor can be used to code. My choice is Atom, but FreeCAD\'s built-in editor works well, too.
+Do kodowania można użyć dowolnego edytora tekstu. Mój wybór to Atom, ale wbudowany edytor FreeCAD też działa dobrze.
 
 The following code examples can be copied and pasted into an empty text file and then saved under a name of your choice as a ***.py** or ***.FCMacro** file.
 
 ## Macro sections 
 
-### Basic structure 
+### Podstawowa struktura 
 
 
 ```python
@@ -1217,13 +1217,13 @@ The dialog window able to change the number of steps should look like this   *
 <img alt="Dialog window with another text entry field" src=images/Tutorial_KinCon-06.png  style="width   *300px;"> 
 *Dialog window with another text entry field* {{Top}}
 
-#### Image sequence 
+#### Sekwencja obrazów 
 
-When the motion of our assembly meets our expectations, we can take a picture of each step. The resulting sequence of images can be used to create a short gif animation.
+Gdy ruch wykonywany przez złożenie spełnia nasze oczekiwania, możemy zrobić zdjęcie każdego kroku. Powstała sekwencja zdjęć może posłużyć do stworzenia krótkiej animacji gif.
 
-To implement this functionality we need a {{Incode|QCheckBox}} widget, and a directory to store the images.
+Do realizacji tej funkcjonalności potrzebujemy widżetu {{Incode|QCheckBox}}, oraz katalogu do przechowywania obrazków.
 
-One more import and widget   *
+Jeszcze jeden import i widżet   *
 
 
 ```python
@@ -1231,7 +1231,7 @@ import time
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit, QPushButton, QCheckBox)
 ```
 
-Back in the {{Incode|initUI()}} method we insert the check box after the slider section   *
+Wracając do metody {{Incode|initUI()}} wstawiamy pole wyboru po sekcji suwaka   *
 
 
 ```python
@@ -1246,7 +1246,7 @@ Back in the {{Incode|initUI()}} method we insert the check box after the slider 
 ...
 ```
 
-The method {{Incode|onOutputClicked()}} synchronises the parameter {{Incode|self.sequence}} and the display of the check mark.
+Metoda {{Incode|onOutputClicked()}} synchronizuje parametr {{Incode|self.sequence}} i wyświetlenie znaku kontrolnego.
 
 
 ```python
@@ -1261,7 +1261,7 @@ The method {{Incode|onOutputClicked()}} synchronises the parameter {{Incode|self
 ...
 ```
 
-To define the output parameters we use the method {{Incode|output()}}   *
+Do określenia parametrów wyjściowych używamy metody {{Incode|output()}}   *
 
 
 ```python
@@ -1287,15 +1287,15 @@ To define the output parameters we use the method {{Incode|output()}}   *
 ...
 ```
 
-First the image path has to be adapted to your OS; the last part is the image name without current number and file tag. This must be done manually for now.
+Przede wszystkim ścieżka do obrazów musi być dostosowana do Twojego systemu operacyjnego. Ostatnią częścią jest określenie nazwy obrazu bez numeru bieżącego i tagu pliku. Na razie trzeba to zrobić samodzielnie.
 
-Then follow file tag to finish the image name, image height and width, and how the background should be filled ({{Incode|"Current"}} (3D view background), {{Incode|"White"}}, {{Incode|"Black"}}, or {{Incode|"Transparent"}}).
+Następnie podążaj za tagiem pliku, aby zakończyć nazwę obrazu, nadać wysokość i szerokość obrazu oraz sposób wypełnienia tła ({{Incode|"Bieżące"}} *(tło widoku 3D)*, {{Incode|"Białe"}}, {{ Incode\|\"Czarne\"}} lub {{Incode|"Przezroczyste"}}).
 
-To always have a 3 digit number leading zeros have to be prefixed to the counter parameter.
+Aby zawsze mieć trzycyfrową liczbę, należy przed parametrem licznika umieścić wiodące zera.
 
-Finally the scripted version of the command <img alt="" src=images/Std_ViewScreenShot.svg  style="width   *24px;"> [Std ViewScreenShot](Std_ViewScreenShot.md) is used to take a picture based on the mentioned parameters.
+W końcu oskryptowana wersja polecenia <img alt="" src=images/Std_ViewScreenShot.svg  style="width   *24px;"> [Zrzut ekranu](Std_ViewScreenShot/pl.md) jest używana do robienia zdjęcia na podstawie wspomnianych parametrów.
 
-Still no pictures taken!?! No problem, as this method doesn\'t get called yet, and so we need to insert a call in the while loop of {{Incode|onForward()}} and {{Incode|onBackward()}}. Right after {{Incode|time.sleep(0.2)}} we insert this line   *
+Nadal nie zrobiono zdjęć!!! Nie ma problemu, ponieważ ta metoda nie została jeszcze wywołana, a więc musimy wstawić wywołanie w pętli *while* {{Incode|onForward()}} i {{Incode|onBackward()}}. Zaraz po {{Incode|time.sleep(0,2)}} wstawiamy tę linię   *
 
 
 ```python
@@ -1304,22 +1304,22 @@ Still no pictures taken!?! No problem, as this method doesn\'t get called yet, a
 ...
 ```
 
-Now the macro should be ready to control an assembly and to take pictures for an animated gif.
+Teraz makrodefinicja powinno być gotowa do sterowania złożeniem oraz do robienia zdjęć do animowanego gifa.
 
-The final version of the dialog window   *
+Końcowa wersja okna dialogowego   *
 
 <img alt="Dialog window finished" src=images/Tutorial_KinCon-07.png  style="width   *300px;"> 
-*Dialog windows finished*
+*Ukończone okno dialogowe.*
 
 
 <div class="mw-collapsible mw-collapsed">
 
-**And finally the whole macro**
+**I wreszcie całe makro**
 
 
 <div class="mw-collapsible-content">
 
-**Don\'t forget to set the path in the output() method!**
+\'\'\'Nie zapomnij ustawić ścieżki w metodzie output()!
 
 
 ```python
@@ -1589,11 +1589,11 @@ if __name__ == "__main__"   *
 
 {{Top}}
 
-## Some imperfections 
+## Kilka niedoskonałości 
 
--   The order of the image sequence is reversed as we use the variable steps\_left which is counted down.
--   The image directory and the image name are hard-coded.
--   Multiple Controllers are not synchronised.
+-   Kolejność sekwencji obrazów jest odwrócona, ponieważ używamy zmiennej steps\_left, która jest odliczana.
+-   Katalog obrazów i nazwa obrazu są zakodowane na sztywno.
+-   Wiele kontrolerów nie jest zsynchronizowanych.
 
 
 

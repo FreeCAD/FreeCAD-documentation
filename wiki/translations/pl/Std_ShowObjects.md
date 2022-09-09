@@ -1,34 +1,35 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std ShowObjects
-   MenuLocation   *View → Visibility → Show all objects
-   Workbenches   *All
-   SeeAlso   *[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std HideObjects](Std_HideObjects.md)
+   Name/pl   *Std   * Wyświetl wszystkie obiekty
+   MenuLocation   *Widok → Widoczność → Wyświetl wszystkie obiekty
+   Workbenches   *wszystkie
+   SeeAlso   *[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection.md), [Przełącz widoczność wszystkich obiektów](Std_ToggleObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std ShowObjects/pl
 
-## Description
+## Opis
 
-The **Std ShowObjects** command shows all objects belonging to the active document in [3D views](3D_view.md). Be careful when you use this command as it will also show sub-elements of [PartDesign bodies](PartDesign_Body.md) and objects used for [Part Booleans](Part_Boolean.md). In most cases these should stay invisible.
+Polecenie **Wyświetl wszystkie obiekty** powoduje wyświetlenie wszystkich obiektów należących do aktywnego dokumentu w oknie [widoku 3D](3D_view.md). Uważaj, gdy używasz tego polecenia, ponieważ pokaże ono również elementy podrzędne [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części oraz obiekty używane dla [funkcji logicznych](Part_Boolean/pl.md) środowiska Część. W większości przypadków powinny one pozostać niewidoczne.
 
-## Usage
+## Użycie
 
-1.  Select the **View → Visibility → <img src="images/Std_ShowObjects.svg" width=16px> Show all objects** option from the menu.
+1.  Wybierz z menu opcję **Widok → Widoczność → <img src="images/Std_ShowObjects.svg" width=16px> Wyświetl wszystkie obiekty**.
 
-## Notes
+## Uwagi
 
--   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
--   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Działanie tego polecenia nie może być cofnięte za pomocą przycisku [Cofnij](Std_Undo/pl.md).
+-   Widoczność obiektu można również zmienić poprzez jego powiązaną właściwość **Widoczność** w [Edytorze właściwości](Property_editor/pl.md) lub oknie [Widoku połączonego](Combo_view/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also   ***
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
+Aby zapoznać się z przykładami skryptów zobacz stronę [Przełącz widoczność](Std_ToggleVisibility/pl.md).
 
 
 

@@ -55,17 +55,9 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
-## Supported units 
-
-
-<div class="mw-translate-fuzzy">
-
 ## Unterstützte Einheiten 
 
-Eine vollständige Liste aller unterstützten Einheiten kann [hier gefunden](Expressions/de#Einheiten.md) werden.
-
-
-</div>
+Eine vollständige Liste aller unterstützter Einheiten kann man [hier](Expressions/de#Einheiten.md) finden.
 
 ## Siehe auch 
 

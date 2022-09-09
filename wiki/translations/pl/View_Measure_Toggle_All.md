@@ -1,26 +1,27 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *View Measure Toggle All
-   MenuLocation   *View → Visibility → Toggle measurement
-   Workbenches   *All
-   SeeAlso   *[View Measure Clear All](View_Measure_Clear_All.md), [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Clear All](Part_Measure_Clear_All.md)
+   Name/pl   *Przełącz widoczność wymiarów
+   MenuLocation   *Widok → Widoczność → Przełącz widoczność wymiarów
+   Workbenches   *wszystkie
+   SeeAlso   *[Usuń widoczne wymiary](View_Measure_Clear_All/pl.md), [Przełącz widoczność wszystkich wymiarów](Part_Measure_Toggle_All/pl.md), [Usuń wymiary](Part_Measure_Clear_All/pl.md)
 ---
 
 # View Measure Toggle All/pl
 
-## Description
+## Opis
 
-The **View Measure Toggle All** command toggles the display of the active [3D view](3D_view.md)\'s [Part](Part_Workbench.md) measurements.
+Polecenie **Przełącz widoczność wymiarów** przełącza wyświetlanie pomiarów z aktywnego okna [widoku 3D](3D_view/pl.md) w środowisku pracy [Część](Part_Workbench/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Select the **View → Visibility → <img src="images/View_Measure_Toggle_All.svg" width=16px> Toggle measurement** option from the menu.
-    -   Select the **Measure → <img src="images/View_Measure_Toggle_All.svg" width=16px> Toggle measurement** option from the 3D view context menu.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Wybierz opcję z menu **Widok → Widoczność → <img src="images/View_Measure_Toggle_All.svg" width=16px> Przełącz widoczność wymiarów**.
+    -   Wybierz opcję **Wymiarowanie → <img src="images/View_Measure_Toggle_All.svg" width=16px> Przełącz widoczność wymiarów** z menu podręcznego widoku 3D.
 
-## Notes
+## Uwagi
 
--   This command is identical to the [Part Measure Toggle All](Part_Measure_Toggle_All.md) command.
+-   To polecenie jest identyczne z poleceniem [Przełącz widoczność wszystkich wymiarów](Part_Measure_Toggle_All/pl.md) środowiska Część.
 
 
 

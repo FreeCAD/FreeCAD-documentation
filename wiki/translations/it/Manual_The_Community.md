@@ -37,12 +37,18 @@ Con questo manuale speriamo di essere riusciti a dare una buona impressione di F
 
 **Approfondimenti**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Il forum di FreeCAD](http   *//forum.freecadweb.org)
 -   [Il codice sorgente di FreeCAD](https   *//github.com/FreeCAD/FreeCAD)
 -   [La comunità di FreeCAD su Facebook](https   *//www.facebook.com/FreeCAD)
 -   [Il wiki della documentazione di FreeCAD](http   *//www.freecadweb.org/wiki)
 -   [Tradurre FreeCAD su crowdin](https   *//crowdin.com/project/freecad)
 -   [Il bug tracker di FreeCAD](http   *//www.freecadweb.org/tracker)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

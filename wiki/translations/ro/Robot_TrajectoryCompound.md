@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Creează un compus din mai multe traiectorii singulare.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

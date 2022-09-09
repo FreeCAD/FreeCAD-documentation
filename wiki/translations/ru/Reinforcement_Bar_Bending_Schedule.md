@@ -21,7 +21,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Bar Bending Schedule of reinforcing bars*
 
-## Использование
+## Применение
 
 1\. Select **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects you want to include in Bar Bending Schedule. Or select **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** objects to include **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects hosted by that into Bar Bending Schedule. If nothing is selected, then Bar Bending Schedule will be generated for all **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** and Rebar2 objects present in the model.
 
@@ -91,7 +91,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Helical Rebar Dimension Label Format**   * The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
 
-## Scripting
+## Программирование
 
 
 **See also   ***

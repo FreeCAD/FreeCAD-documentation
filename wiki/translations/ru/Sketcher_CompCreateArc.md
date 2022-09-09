@@ -15,23 +15,11 @@
 
 ## Типы дуг 
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_CreateArc.svg  style="width   *32px;"> [Дуга](Sketcher_CreateArc/ru.md)    * Рисует дугу, по трем точкам   * центральной, и углу между точками радиуса.
 -   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width   *32px;"> [Дуга по 3 точкам](Sketcher_Create3PointArc/ru.md)    * Рисует дугу, по трем точкам   * начальной точке, конечной точке и точке на окружности.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

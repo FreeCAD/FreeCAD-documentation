@@ -3,46 +3,71 @@
 
 [Właściwości](Property.md) to informacje takie jak liczba lub łańcuch tekstowy, który jest dołączony do dokumentu FreeCAD, lub obiektu w dokumencie. Właściwości ogólnodostępne można przeglądać i modyfikować w [Edytorze właściwości](Property_editor.md).
 
-Właściwości odgrywają bardzo ważną rolę w FreeCAD. Ponieważ obiekty w FreeCAD są **parametryczne**, oznacza to, że ich zachowanie jest definiowane przez ich właściwości, i jak te właściwości są wykorzystywane jako dane wejściowe dla ich metod klasowych. Zobacz również [wskaźnik właściwości   *_InList\_ oraz\_OutList](PropertyLink   *_InList_and_OutList/pl.md)
+Właściwości odgrywają bardzo ważną rolę w FreeCAD. Ponieważ obiekty w FreeCAD są **parametryczne**, oznacza to, że ich zachowanie jest definiowane przez ich właściwości, i jak te właściwości są wykorzystywane jako dane wejściowe dla ich metod klasowych. Zobacz również [Właściwości niestandardowe funkcji Python](FeaturePython_Custom_Properties/pl.md) oraz [wskaźnik właściwości   * InList oraz OutList](PropertyLink   *_InList_and_OutList/pl.md).
 
 ## Wszystkie rodzaje właściwości 
 
-Niestandardowe [obiekty skryptowe](scripted_objects.md) mogą używać dowolnych typów właściwości zdefiniowanych w systemie bazowym   * 
+Niestandardowe [obiekty skryptowe](scripted_objects.md) mogą używać dowolnych typów właściwości zdefiniowanych w systemie bazowym   *
+
+
 ```python
-Bool
-Float
-FloatList
-FloatConstraint
+Acceleration
 Angle
+Area
+Bool
+BoolList
+Color
+ColorList
+Direction
 Distance
+ElectricPotential
+Enumeration
+ExpressionContainer
 ExpressionEngine
+File
+FileIncluded
+Float
+FloatConstraint
+FloatList
+Font
+Force
+Frequency
+Geometry
 Integer
 IntegerConstraint
-Percent
-Enumeration
 IntegerList
-String
-StringList
+IntegerSet
 Length
 Link
 LinkList
 LinkSubList
+Lists
+Map
+Material
+MaterialList
 Matrix
-Vector
-VectorList
-VectorDistance
+PartShape
+Path
+Percent
 Placement
 PlacementLink
+PlacementList
+Position
+Precision
+Pressure
 PythonObject
-Color
-ColorList
-Material
-Path
-File
-FileIncluded
-PartShape
-FilletContour
-Circle
+Quantity
+QuantityConstraint
+Rotation
+Speed
+Stiffness
+String
+StringList
+VacuumPermittivity
+Vector
+VectorDistance
+VectorList
+Volume
 ```
 
 Wewnętrzne, nazwa właściwości jest poprzedzona przez `App   *   *Property`   * 

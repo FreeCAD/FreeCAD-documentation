@@ -91,9 +91,9 @@ W tym menu dostępne są następujące narzędzia   *
     -   [Odblokowane](Std_ViewDockUndockFullscreen/pl#Odblokowane.md)   * Odblokowany widok 3D.
     -   <img alt="" src=images/Std_ViewFullscreen.svg  style="width   *32px;"> [Pełny ekran](Std_ViewFullscreen/pl.md)   * Przełącza widok 3D do trybu pełnoekranowego.
 
--   <img alt="" src=images/Std_AxisCross.svg  style="width   *32px;"> [Przełącz oś przekroju](Std_AxisCross/pl.md)   * Przełącza pomiędzy osiami.
+-   <img alt="" src=images/Std_AxisCross.svg  style="width   *32px;"> [Przełącz symbol osi](Std_AxisCross/pl.md)   * Włącza / wyłącza krzyż osi w aktywnym oknie Widoku 3D.
 
--   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width   *32px;"> [Płaszczyzna tnąca](Std_ToggleClipPlane/pl.md)   * Tymczasowo przycina obiekty.
+-   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width   *32px;"> [Przełącz płaszczyznę tnącą](Std_ToggleClipPlane/pl.md)   * Tymczasowo ukrywa obiekty po jednej stronie wirtualnej płaszczyzny w aktywnym widoku 3D.
 
 -   <img alt="" src=images/Part_SectionCut.svg  style="width   *32px;"> [Wycinek przekroju](Part_SectionCut/pl.md)   * Tworzenie trwałych wycinków obiektów i zespołów. {{Version/pl|0.20}}
 

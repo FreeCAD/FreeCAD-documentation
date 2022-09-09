@@ -39,7 +39,7 @@ The Sphere can be edited after its creation in two ways   *
 
 -    **Angle1**   * (labelled *V parameter* in the Primitive parameters) lower truncation of the sphere, parallel to the circular cross section (-90 degrees in a full sphere)
 
--    **Angle2**   * (unlabelled in the Primitive parameters) upper truncation of the ellipsoid, parallel to the circular cross section (90 degrees in a full sphere).
+-    **Angle2**   * (unlabelled in the Primitive parameters) upper truncation of the sphere, parallel to the circular cross section (90 degrees in a full sphere).
 
 -    **Angle3**   * (labelled *U parameter* in the Primitive parameters) angle of rotation of the cross section (360 degrees in a full sphere).
 

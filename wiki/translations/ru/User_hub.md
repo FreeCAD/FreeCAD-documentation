@@ -11,7 +11,7 @@ FreeCAD находится в непрерывной разработке, по�
 
 Если вы хотите узнать, с чего начался FreeCAD в прежние годы, посетите страницу [История](History/ru.md).
 
-## Использование FreeCAD 
+## Применение FreeCAD 
 
 ### Введение
 
@@ -23,80 +23,72 @@ FreeCAD находится в непрерывной разработке, по�
 -   [FAQ](FAQ/ru.md)   * Часто задаваемые вопросы
 -   [Учебники](Tutorials/ru.md) по различным частям FreeCAD
 
-#### Migrating from other software? 
+#### Переход с других САПР 
 
-
-<div class="mw-translate-fuzzy">
-
-Смотрите также   *
-
--   [Переход на FreeCAD с Fusion360](Migrating_to_FreeCAD_from_Fusion360/ru.md)
-
-
-</div>
+-   [Обходные решения](Workarounds/ru.md)
+-   [Переход в FreeCAD с Fusion 360](Migrating_to_FreeCAD_from_Fusion360/ru.md)
+-   [Переход в FreeCAD с OnShape](Migrating_to_FreeCAD_from_OnShape/ru.md)
+-   [Переход в FreeCAD с SolidWorks](Migrating_to_FreeCAD_from_SolidWorks/ru.md)
+-   [Переход в FreeCAD с Revit](Migrating_to_FreeCAD_from_Revit/ru.md)
+-   [Руководство по миграции FreeCAD BIM](https   *//yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
+-   [Таблица совместимости приложений BIM](BIM_application_compatibility_table/ru.md)
 
 ### Основные элементы Приложения 
-
-
-<div class="mw-translate-fuzzy">
 
 -   [Интерфейс](Interface/ru.md)   * интерфейс FreeCAD составлен из различных графических элементов на экране, включая [трёхмерный вид](3D_view/ru.md), [древо проекта](Tree_view/ru.md), [редактор свойств](Property_editor/ru.md), [панель задач](Task_panel/ru.md), и [консоль Python](Python_console/ru.md).
 -   [Навигация мышью](Mouse_navigation/ru.md)   * различные способы использования мыши или трэкпада для навигации в панели трёхмерного вида.
 -   [Методы выделения](Selection_methods/ru.md)   * различные методы выделения объектов в программе.
--   [Object name](Object_name/ru.md)   * все объекты имеют атрибут только для чтения `Name`, который уникально идентифицирует их, и `Label`, редактируемый пользователем.
+-   [Именование объектов](Object_name/ru.md)   * Объекты FreeCAD имеют атрибут только для чтения `Name`, который уникально идентифицирует их, и `Label`, редактируемый пользователем.
 -   [Редактор настроек](Preferences_Editor/ru.md)   * система, позволяющая управлять множеством свойств базовой системы и отдельных верстаков.
 -   [Форматы файлов](Import_Export/ru.md)   * различные форматы файлов, которые FreeCAD может читать и записывать
-
-
-</div>
 
 ### Верстаки
 
 [Верстаки](Workbenches/ru.md) - это наборы инструментов, используемые для решения определенных задач. Далее перечислены базовые верстаки, идущие в комплекте с каждой установкой FreeCAD   *
 
--   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Standard tools](Std_Base.md). These commands and tools are present in all workbenches.
+-   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Стандартные инструменты](Std_Base/ru.md). Эти команды и инструменты присутствуют во всех верстаках.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> The [Arch Workbench](Arch_Workbench.md) for working with architectural elements.
+-   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Верстак Arch](Arch_Workbench/ru.md) для работы с элементами архитектуры.
 
--   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> The [Draft Workbench](Draft_Workbench.md) contains 2D tools and basic 2D and 3D CAD operations.
+-   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> [Верстак Draft](Draft_Workbench/ru.md) содержит 2D-инструменты и основные операции 2D и 3D CAD.
 
--   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> The [FEM Workbench](FEM_Workbench.md) provides Finite Element Analysis (FEA) workflow.
+-   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Верстак FEM](FEM_Workbench/ru.md) обеспечивает рабочий процесс анализа Методом Конечных Элементов (МКЭ).
 
--   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> The [Image Workbench](Image_Workbench.md) for working with bitmap images.
+-   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> [Верстак Image](Image_Workbench/ru.md) для работы с растровыми изображениями.
 
--   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;"> The [Inspection Workbench](Inspection_Workbench.md) is made to give you specific tools for examination of shapes. It is still under development.
+-   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;"> [Верстак Inspection](Inspection_Workbench/ru.md) сделан для того, чтобы дать вам специфические инструменты для осмотра форм. Он всё ещё находится в стадии разработки.
 
--   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;"> The [Mesh Workbench](Mesh_Workbench.md) for working with triangulated meshes.
+-   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;"> [Верстак Mesh](Mesh_Workbench/ru.md) для работы с триангулярными (разбитыми на треугольники) сетками.
 
--   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> The [OpenSCAD Workbench](OpenSCAD_Workbench.md) for interoperability with OpenSCAD and repairing [constructive solid geometry](Constructive_solid_geometry.md) (CSG) model history.
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> [Верстак OpenSCAD](OpenSCAD_Workbench/ru.md) обеспечивает совместимость с OpenSCAD и восстановление истории модели [конструктивной твердотельной геометрии](constructive_solid_geometry/ru.md) (CSG).
 
--   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> The [Part Workbench](Part_Workbench.md) for working with CAD parts.
+-   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> [ Верстак Part](Part_Workbench/ru.md) для работы с деталями САПР.
 
--   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> The [Part Design Workbench](PartDesign_Workbench.md) for building Part shapes from sketches.
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [ Верстак Part Design](PartDesign_Workbench/ru.md) для построения фигур деталей из эскизов.
 
--   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> The [Path Workbench](Path_Workbench.md) is used to produce G-Code instructions. It is still under development.
+-   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> [Верстак Path](Path_Workbench/ru.md) используется для создания инструкций G-Code. Он всё ещё находится в стадии разработки.
 
--   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;"> The [Points Workbench](Points_Workbench.md) for working with point clouds.
+-   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;"> [Верстак Points](Points_Workbench/ru.md) для работы с облаками точек.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;"> The [Raytracing Workbench](Raytracing_Workbench.md) for working with ray-tracing (rendering).
+-   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;"> [Верстак Raytracing](Raytracing_Workbench/ru.md) для работы с трассировкой лучей (рендеринг).
 
--   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;"> The [Reverse Engineering Workbench](Reverse_Engineering_Workbench.md) is intended to provide specific tools to convert shapes/solids/meshes into parametric FreeCAD-compatible features. It is still under development.
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;"> [Верстак Reverse Engineering](Reverse_Engineering_Workbench/ru.md) предназначен для предоставления специальных инструментов для преобразования форм/тел/сеток в параметрические элементы, совместимые с FreeCAD. Он все ещё находится в стадии разработки.
 
--   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;"> The [Robot Workbench](Robot_Workbench.md) for studying robot movements.
+-   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;"> [Верстак Robot](Robot_Workbench/ru.md) для изучения движений робота.
 
--   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> The [Sketcher Workbench](Sketcher_Workbench.md) for working with geometry-constrained sketches.
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> [Верстак Sketcher](Sketcher_Workbench/ru.md) для работы с геометрически ограниченными эскизами.
 
--   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;"> The [Spreadsheet Workbench](Spreadsheet_Workbench.md) for creating and manipulating spreadsheet data.
+-   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;"> [Верстак Spreadsheet](Spreadsheet_Workbench/ru.md) предназначен для создания и обработки данных электронных таблиц.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;"> The [Start Center Workbench](Start_Workbench.md) allows you to quickly jump to one of the most common workbenches.
+-   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;"> [Верстак Start Center](Start_Workbench/ru.md) позволяет быстро перейти к одному из наиболее распространённых верстаков.
 
--   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;"> The [Surface Workbench](Surface_Workbench.md) provides tools to create and modify surfaces. It is similar to the [Part Builder](Part_Builder.md) Face from edges option.
+-   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;"> [Верстак Surface](Surface_Workbench/ru.md) предоставляет инструменты для создания и изменения поверхностей. Он похож на опцию Грань из отрезков [Построителя Форм](Part_Builder/ru.md).
 
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;"> The [TechDraw Workbench](TechDraw_Workbench.md) for producing technical drawings from 3D models. It is the successor of the [Drawing Workbench](Drawing_Workbench.md).
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;"> [Верстак TechDraw](TechDraw_Workbench/ru.md) для создания технических чертежей из 3D-моделей. Это преемник [Верстака Drawing](Drawing_Workbench/ru.md).
 
--   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> The [Test Framework Workbench](Testing.md) is for debugging FreeCAD.
+-   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> [Верстак Test Framework](Testing/ru.md) предназначен для отладки FreeCAD.
 
--   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> The [Web Workbench](Web_Workbench.md) provides you with a browser window instead of the [3D view](3D_view.md) within FreeCAD.
+-   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> [Верстак Web](Web_Workbench/ru.md) предоставляет окно браузера вместо [3D вида](3D_view/ru.md) FreeCAD.
 
 ### Макросы
 
@@ -106,29 +98,17 @@ FreeCAD находится в непрерывной разработке, по�
 
 Начиная с версии FreeCAD 0.17,многие макросы можно установить с помощью [Менеджера Дополнений](Std_AddonMgr/ru.md). Список макросов приведен на странице [рецепты макросов](Macros_recipes/ru.md). Для ручной установки см. [Как установить макросы](How_to_install_macros/ru.md).
 
-### Сторонние Верстаки 
+### Внешние верстаки 
 
 Когда много макросов и функций разрабатываются вместе, и организуются в панели инструментов и меню, они становятся новыми верстаками.
 
 К [сторонним верстакам](External_workbenches/ru.md) относят собрания функций, которые не входят в базовую систему FreeCAD, обычно разрабатываемые опытными пользователями и ориентированные на особые потребности.
 
-
-<div class="mw-translate-fuzzy">
-
-Начиная с FreeCAD 0.17, многие рабочие верстаки можно установить с помощью [ Менеджера Дополнений](Std_AddonMgr.md). Для ручной установки см. [ Как установить дополнительные верстаки](How_to_install_additional_workbenches.md).
-
-
-</div>
+Начиная с FreeCAD 0.17, многие рабочие верстаки можно установить с помощью [Менеджера Дополнений](Std_AddonMgr/ru.md). Для ручной установки см. [Как установить дополнительные верстаки](How_to_install_additional_workbenches/ru.md).
 
 ## Ссылки
 
-
-<div class="mw-translate-fuzzy">
-
--   [Справочник по командам](List_of_Commands/ru.md)   * Полный список доступных команд FreeCAD.
-
-
-</div>
+-   [Справочник команд](List_of_Commands/ru.md)   * Полный список доступных команд FreeCAD.
 
 ## Онлайн помощь 
 
@@ -138,15 +118,9 @@ FreeCAD находится в непрерывной разработке, по�
 
 ## Дополнительно
 
-
-<div class="mw-translate-fuzzy">
-
--   [Уголок опытных пользователей](Power_users_hub/ru.md) - это то место, куда стоит пойти, если вы хотите увидеть более продвинутое использование FreeCAD.
--   На [портале сообщества FreeCAD](FreeCAD_Community_Portal/ru.md) перечислены проекты, созданные членами сообщества FreeCAD.
--   Не понимаете термин или выражение, используемый в FreeCAD? Посмотрите в [Словарь](Glossary/ru.md) .
-
-
-</div>
+-   [Центр опытных пользователей](Power_users_hub/ru.md) - это раздел, который следует посетить, если вы хотите узнать о более продвинутых способах работы в FreeCAD.
+-   На [Портал сообщества FreeCAD](FreeCAD_Community_Portal/ru.md) содержит в себе проекты, созданные членами сообщества FreeCAD.
+-   Не понять смысл того или иного термина или выражения, применямого в FreeCAD? Попробуйте найти ответ в [Справочнике](Glossary/ru.md) .
 
 
 

@@ -18,11 +18,11 @@ The <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *24px;"
 The available transformations are   * <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *16px;"> [Mirrored](PartDesign_Mirrored.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *16px;"> [LinearPattern](PartDesign_LinearPattern.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *16px;"> [PolarPattern](PartDesign_PolarPattern.md) and <img alt="" src=images/PartDesign_Scaled.svg  style="width   *16px;"> [Scaled](PartDesign_Scaled.md). The first three are also available as separate tools.
 
 <img alt="" src=images/multitransform_example.png  style="width   *600px;"> 
-*A pattern of holes created from a single Hole feature by applying a LinearPattern with 2 occurences, followed by a PolarPattern with 8 occurrences.*
+*Массив отверстий, созданный из объекта с одним отверстием путем применения Линейного массива с 2-мя повторами, после которого был применен Круговой массив с 8-ю повторами.*
 
-## Usage
+## Применение
 
-### Create
+### Создание массива 
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
 2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
@@ -34,7 +34,7 @@ The available transformations are   * <img alt="" src=images/PartDesign_Mirrored
 6.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button at the top to finish.
 
-### Edit
+### Изменение
 
 1.  Do one of the following   *
     -   Double-click the MultiTransform object in the [Tree view](Tree_view.md).
@@ -42,7 +42,7 @@ The available transformations are   * <img alt="" src=images/PartDesign_Mirrored
 2.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button at the top to finish.
 
-### Combine existing transformations 
+### Объединение уже существующих трансформаций 
 
 It is possible to create a MultiTransform object from existing [Mirrored](PartDesign_Mirrored.md), [LinearPattern](PartDesign_LinearPattern.md) and [PolarPattern](PartDesign_PolarPattern.md) transformations.
 
@@ -61,7 +61,7 @@ It is possible to create a MultiTransform object from existing [Mirrored](PartDe
     5.  Press the **OK** button.
 7.  Optionally [edit](#Edit.md) the MultiTransform object, see above.
 
-## Options
+## Опции
 
 -   To add features   *
     1.  Press the **Add feature** button.
@@ -112,18 +112,12 @@ It is possible to create a MultiTransform object from existing [Mirrored](PartDe
     2.  Select **Move up** or **Move down** from the context menu.
 -   If the **Update view** checkbox is checked the view will update in real time.
 
-## Limitations
+## Ограничения
 
-See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
-
-
-<div class="mw-translate-fuzzy">
+Смотрите [PartDesign Круговой массив](PartDesign_PolarPattern/ru#Ограничения.md).
 
 
 
-
-
-</div>
 
 
 {{PartDesign Tools navi

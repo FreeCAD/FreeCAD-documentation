@@ -63,7 +63,7 @@ The Std Group has the same properties as the [App FeaturePython](App_FeaturePyth
 
 </div>
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+Общие сведения о добавлении объектов в документ смотрите в разделе [Конструктивный элемент верстака Part](Part_Feature/ru.md).
 
 A Std Group ([App DocumentObjectGroup](App_DocumentObjectGroup.md)) is created with the `addObject()` method of the document. Once a Group exists, other objects can be added to it with the `addObject()` or `addObjects()` methods.
 

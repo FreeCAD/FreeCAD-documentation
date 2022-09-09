@@ -1,9 +1,9 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher MirrorSketch
-   Name/de   *Skizzierer SkizzeSpiegeln
-   MenuLocation   *Skizze → Skizze spiegeln
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Name/de   *Sketcher SkizzeSpiegeln
+   MenuLocation   *Sketch → Skizze spiegeln
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.16
 ---
 
@@ -19,26 +19,12 @@ Spiegelt eine Skizze entlang der X Achse, der Y Achse oder dem Ursprung. Dieser 
 2.  Klick auf **[<img src=images/Sketcher_MirrorSketch.svg style="width   *16px"> [ Skizze spiegeln](Sketcher_MirrorSketch/de.md)** oder wähle **Skizze → [<img src=images/Sketcher_MirrorSketch.svg style="width   *16px"> [Skizze spiegeln](Sketcher_MirrorSketch/de.md)** aus dem oberen Menü.
 3.  Die resultierende Skizze wird als separates neues Objekt erstellt.
 
-## Notes
+## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Hinweise   *
-
--   Mehrere Skizzen können vor Anwenden der Operation ausgewählt werden.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Es können mehrere Skizzen ausgewählt werden, bevor die Operation angewendet wird.
 
 
 
-
-
-</div>
 
 
 {{Sketcher Tools navi

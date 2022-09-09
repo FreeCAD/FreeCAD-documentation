@@ -4,14 +4,11 @@
    Name   *Sketcher_ConstrainParallel
    MenuLocation   *Sketch → Ограничения эскиза → Ограничение параллельности
    Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut   ***Shift** + **P**
+   Shortcut   ***P**
    SeeAlso   *[Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md), [Ограничение горизонтальности](Sketcher_ConstrainHorizontal/ru.md)
 ---
 
 # Sketcher ConstrainParallel/ru
-
-
-</div>
 
 ## Описание
 

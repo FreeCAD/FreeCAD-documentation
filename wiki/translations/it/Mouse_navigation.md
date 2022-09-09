@@ -62,7 +62,7 @@ Questo è lo stile di navigazione predefinito. Consente all\'utente un semplice 
 
 Tenere premuto **Ctrl** per selezionare più oggetti.
 |Pan_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
-|Pan_mode_text=Modalità Traslazione   * tenere premuto il tasto **Ctrl**, preme il tasto destro del mouse una volta, quindi muovere il puntatore.
+|Pan_mode_text=Modalità Traslazione   * tenere premuto il tasto **Ctrl**, premere il tasto destro del mouse una volta, quindi muovere il puntatore.
 |Zoom_text=Usare la rotellina del mouse per zoommare avanti e indietro.
 
 Facendo clic sul pulsante centrale del mouse, la vista viene nuovamente centrata sulla posizione del cursore.

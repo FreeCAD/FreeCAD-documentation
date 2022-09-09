@@ -4,6 +4,7 @@
    FCVersion   *0.20 and later
    Time   *40 minutes
    Author   *[FBXL5](User_FBXL5.md)
+   SeeAlso   *[Tutorial KinematicAssembly](Tutorial_KinematicAssembly.md), [Tutorial KinematicController](Tutorial_KinematicController.md)
 ---
 
 # Tutorial KinematicSkeleton/en
@@ -44,9 +45,9 @@ The shape can deviate from that of the real part, but the position of the joint 
 
 #### Parent assembly 
 
-To fix or control the positions of all bodies we need an <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width   *16px;"> Assembly object. It adds an assembly branch to the [Tree View](Tree_View.md).
+To fix or control the positions of all bodies we need an <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width   *16px;"> Assembly object. It adds an assembly branch to the [Tree view](Tree_view.md).
 
--   Press the **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)** button to create an assembly branch in the [Tree View](Tree_View.md).
+-   Press the **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)** button to create an assembly branch in the [Tree view](Tree_view.md).
 
 #### Sub-assemblies 
 
@@ -114,7 +115,7 @@ The last link in this kinematic chain connects two Elements whose Z directions a
 <img alt="" src=images/Assembly3_SketchSkeleton-10.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-11.png  style="width   *300px;"> 
 *Circles on Upper Plate and Rod 1 selected → Relocated Rod 1, and tilted Crank and Upper Plate*
 
-If the 3 joints are colinear (those belonging to Crank and Rod 1), the solver might fail to rearrange the objects. In that case we need to help the solver and tilt one object (e.g. the Crank) manually using the <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> [Axial move](Assembly3_AxialMove.md) tool.
+If the Z axes of three elements or joints are parallel and lie on the same virtual plane, the solver may fail to rearrange them in a following step because it is unable to decide in which direction the middle joint should be rotated. This can occur for the Rod 1 element, the Crank - Rod 1 joint, and the Base - Crank joint we have here. If this happens we need to help the solver and rotate one object (e.g. the Crank) manually using the <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> [Axial move](Assembly3_AxialMove.md) tool.
 
 #### Upper Plate - Rod 2 
 
@@ -172,7 +173,7 @@ The finished kinematic assembly with deactivated representation of Elements and 
 
 My expectations about attaching a new object to a base object belonging to a kinematic assembly were something like   *
 
--   Put the new object into the base objects Parts container.
+-   Put the new object into the base object\'s Parts container.
 -   Position the new object in relation to the base object.
 -   Fix the relative offset and orientation using the Attachment constraint.
 
@@ -186,9 +187,9 @@ Let\'s attach Rod 4-3D to Rod 4 for example   *
 
 The objects have a different orientation and the 3D object should have an offset from the 2D object.
 
-1.  Put the new object into the base objects Parts container.
+1.  Put the new object into the base object\'s Parts container.
 2.  Select two corresponding circles or arcs.
-3.  Press the **<img src="images/Assembly_ConstraintAttachment.svg‎‎" width=16px> [Create "Attachment" constraint](Assembly3_ConstraintAttachment.md)**.
+3.  Press the **<img src="images/Assembly_ConstraintAttachment.svg‎‎" width=16px> [Create "Attachment" constraint](Assembly3_ConstraintAttachment.md)** button.
 
    *   <img alt="" src=images/Assembly3_SketchSkeleton-28.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-29.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-30.png  style="width   *200px;">
 

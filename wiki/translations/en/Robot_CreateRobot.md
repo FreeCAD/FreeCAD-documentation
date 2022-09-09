@@ -13,9 +13,6 @@ Insert a new robot (KUKA IR500) into the scene.
 
 ## Usage
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Click on <img alt="" src=images/Robot_CreateRobot.svg  style="width   *32px;"> to insert a KUKA IR500 robot into the scene.
 2.  Inserting different/more robots can be done in two ways via the
     -   Selecting **Robot** → **Insert Robots** from the top menu.
@@ -25,9 +22,6 @@ Insert a new robot (KUKA IR500) into the scene.
     -   Make sure a new document is/was created and activated (activate via double-click on document in [tree view](Tree_view.md)).
     -   Switch to the \"Tasks\"-Tab in the [tree view](Tree_view.md)).
 3.  Select one of the four predefined robots.
-
-
-</div>
 
 ## Limitations
 
@@ -39,7 +33,7 @@ Related to versions 0.15/0.16
 
 ## Notes
 
-The predefined robots are
+The predefined robots are   *
 
 -   KUKA IR500
 -   KUKA IR210

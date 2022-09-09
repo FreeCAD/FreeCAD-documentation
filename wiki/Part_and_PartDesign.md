@@ -53,7 +53,7 @@ Although not recommended for newcomers, it is possible to combine tools from Par
 
 People get caught when they attempt to use some feature under the Body (rather than the Body itself) as one selection of a Part Workbench Boolean operation. This is a problem, because the selected feature does not represent **THE** complete solid.
 
-In a sense, from a Part Workbench standpoint, the Body represents another primitive. So, using a Body (remember it is a proxy for the tip) and a Part Workbench object to do a Boolean is valid. But the resulting object is a Part WWorkbench object. And, thus PartDesign Workbench tools can\'t be used on it any longer.
+In a sense, from a Part Workbench standpoint, the Body represents another primitive. So, using a Body (remember it is a proxy for the tip) and a Part Workbench object to do a Boolean is valid. But the resulting object is a Part Workbench object. And, thus PartDesign Workbench tools can\'t be used on it any longer.
 
 And, it can get even more complicated. If you create a new Body and drag the result from the previous paragraph into it, a BaseObject is created. And you can go off an use the PartDesign Workbench tools on it.
 
@@ -165,12 +165,11 @@ Compare the construction trees in the two workbenches as well as their organizat
 
 Part and PartDesign workbenches can be used together with some care, creating quite complex models.
 
-[Top](#Top.md) 
-
+[Top](#Top.md)
 
   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign

@@ -3,8 +3,9 @@
    Topic   *Złożenie 3, i Szkielet kinematyczny
    Level   *Podstawowa wiedza o środowisku Złożenie 3 i Szkicownik będzie pomocna
    FCVersion   *0.20 lub nowsza
-   Time   *40 Minut
+   Time   *40 minut
    Author   *[FBXL5](User_FBXL5.md)
+   SeeAlso   *[Poradnik Złożenie kinematyczne](Tutorial_KinematicAssembly/pl.md), [Poradnik Sterownik kinematyczny](Tutorial_KinematicController/pl.md)
 ---
 
 # Tutorial KinematicSkeleton/pl
@@ -17,212 +18,212 @@
 
 Ten poradnik prezentuje, jak zbudować prosty mechanizm 2D i dodać elementy przestrzenne, głównie przy użyciu narzędzi z zewnętrznego <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *16px;"> [środowiska Złożenie 3](Assembly3_Workbench/pl.md).
 
-This tutorial does not use the skeleton sketch principle (see Assembly3 [Create-Skeleton-Sketch](https   *//github.com/realthunder/FreeCAD_assembly3/wiki/Create-Skeleton-Sketch) on GitHub).
+Ten poradnik nie wykorzystuje zasady szkicu szkieletu *(patrz Złożenie 3 [Create-Skeleton-Sketch](https   *//github.com/realthunder/FreeCAD_assembly3/wiki/Create-Skeleton-Sketch) na GitHub)*.
 
-Instead we will use <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [PartDesign Bodies](PartDesign_Body.md) containing only one <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Sketch](Sketcher_Workbench.md) each, to build a 2D mechanism, a **multi sketch skeleton**.
+Zamiast tego użyjemy <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części zawierającej tylko jeden <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Szkic](Sketcher_Workbench/pl.md), aby zbudować mechanizm 2D, czyli **szkielet wielu szkiców**.
 
-The dimensions, and the colours as well, are taken from the [SolveSpace tutorial](http   *//solvespace.com/linkage.pl) which is referred to on the Assembly3 GitHub page (see above).
+Wymiary, a także kolory, pochodzą z [poradnika SolveSpace](http   *//solvespace.com/linkage.pl), do którego odwołuje się strona Złożenie 3 z GitHub *(patrz wyżej)*.
 
-## Multi sketch skeleton 
+## Szkielet wieloszkieletowy 
 
-This so-called multi sketch skeleton consists of several individual <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Bodies](PartDesign_Body.md) and an <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width   *16px;"> [Assembly](Assembly3_CreateAssembly.md) container. To be able to attach further objects each body is put into a separate Assembly container.
+Ten tzw. szkielet wieloszkicowy składa się z kilku indywidualnych <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Zawartości](PartDesign_Body/pl.md) oraz kontenera <img alt="" src=images/Assembly_New_Assembly.svg  style="width   *16px;"> [Złożenia](Assembly3_CreateAssembly/pl.md). Aby móc dołączyć kolejne obiekty, każda bryła jest umieszczana w osobnym kontenerze Złożenia.
 
-### 2D Body objects 
+## Obiekty Zawartości 2D 
 
-The bodies, and their sketches, that are used in this assembly   *
+Zawartości, oraz ich szkice, które są wykorzystywane w tym montażu   *
 
--   A base plate (green)
--   A crank (blue)
--   Two movable plates (red and grey)
--   Four connecting rods (white, yellow, purple, and brown)
+-   Płyta podstawy *(zielona)*,
+-   Korba *(niebieska)*,
+-   Dwie ruchome płyty *(czerwona i szara)*,
+-   Cztery korbowody *(biały, żółty, fioletowy i brązowy)*.
 
 <img alt="" src=images/Assembly3_SketchSkeleton-01.png  style="width   *400px;"> 
-*All eight sketches individually coloured and manually positioned by moving their parent bodies*
+*Wszystkie osiem szkiców indywidualnie pokolorowanych i ręcznie pozycjonowanych poprzez przesunięcie ich zawartości.*
 
-The shape can deviate from that of the real part, but the position of the joint defining geometry must be accurate.
+Kształt może odbiegać od kształtu rzeczywistej części, ale położenie złącza definiującego geometrię musi być dokładne.
 
-### Assembly containers 
+### Montaż kontenerów 
 
-#### Parent assembly 
+#### Złożenie nadrzędne 
 
-To fix or control the positions of all bodies we need an <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width   *16px;"> Assembly object. It adds an assembly branch to the [Tree View](Tree_View.md).
+Aby ustalić lub kontrolować pozycje wszystkich Zawartości potrzebujemy <img alt="" src=images/Assembly_New_Assembly.svg  style="width   *16px;"> Obiektu Złożenia. Dodaje on gałąź złożenia do [Widoku drzewa](Tree_view/pl.md)
 
--   Press the **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)** button to create an assembly branch in the [Tree View](Tree_View.md).
+-   Naciśnij przycisk **<img src="images/Assembly_New_Assembly.svg" width=16px> [Utwórz złożenie](Assembly3_CreateAssembly/pl.md)**, aby utworzyć gałąź złożenia w [Widoku drzewa](Tree_view/pl.md).
 
-#### Sub-assemblies 
+#### Złożenia podrzędne 
 
-Repeat above action to create an Assembly object for each Body and drag the Body into its Parts container. Then fix the Body to its Assembly   *
+Powtórz powyższą czynność, aby utworzyć obiekt Złożenia dla każdej Zawartości i przeciągnij ją go jej kontenera Części. Następnie połącz Zawartość z jej Złożeniem   *
 
-1.  Activate the Assembly object (double-click).
-2.  Select a circle/arc belonging the Body object.
-3.  Press the **<img src="images/Assembly_ConstraintLock.svg‎‎" width=16px> [Create "Locked" constraint](Assembly3_ConstraintLock.md)** button to fix the Body in its sub-assembly.
+1.  Uaktywnij obiekt Złożenie *(podwójne kliknięcie)*.
+2.  Zaznacz okrąg / łuki należące do obiektu Zawartość.
+3.  Naciśnij przycisk **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Wiązanie ''zablokowania''](Assembly3_ConstraintLock/pl.md)**, aby przytwierdzić Zawartość w jej złożeniu podrzędnym.
 
-The Crank-Assembly, for example, should look like this   *
+Na przykład Złożenie korbowe powinno wyglądać następująco   *
 
 <img alt="" src=images/Assembly3_SketchSkeleton-25.png  style="width   *500px;"> 
-*The Crank's sub-assembly branch in the Tree view and the Crank with its locked Element in the 3D view*
+*Gałąź złożenia korby w widoku drzewa oraz korba z zablokowanym elementem w oknie widoku 3D.*
 
-#### Assembly tree 
+#### Drzewo złożenia 
 
-In the Tree view drag all sub-assembly branches into the Parts container of the parent Assembly object.
+W widoku Drzewa przeciągnij wszystkie gałęzie złożeń podrzędnych do kontenera Części obiektu nadrzędnego Złożenia.
 
 <img alt="" src=images/Assembly3_SketchSkeleton-26.png  style="width   *300px;"> 
-*Assembly branch in the Tree view*
+*Gałąź Złożenia w widoku Drzewa*
 
-Now they are ready to be arranged.
+Teraz są one gotowe do ułożenia.
 
-### Fixed base plate 
+#### Nieruchoma płyta podstawy 
 
-First we need a fixed part. To fix the Base completely we would usually select a face, but in this case a circle will do as well.
+Najpierw potrzebujemy elementu nieruchomego. Aby całkowicie zamocować Bazę, zwykle wybralibyśmy ścianę, ale w tym przypadku równie dobrze sprawdzi się okrąg.
 
-1.  Select a circle of the Base.
-2.  Press the **<img src="images/Assembly_ConstraintLock.svg‎‎" width=16px> [Create "Locked" constraint](Assembly3_ConstraintLock.md)** button to fix the Base.
+1.  Wybierz okrąg w części bazowej.
+2.  Naciśnij przycisk **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Wiązanie zablokowania](Assembly3_ConstraintLock/pl.md)**, aby ustalić Bazę.
 
 <img alt="" src=images/Assembly3_SketchSkeleton-02.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-03.png  style="width   *300px;"> 
-*Selected circle → Fixed Base with the created Element object and element coordinate system (ECS) displayed (green)*
+*Wybrany okrąg → Nieruchoma podstawa z utworzonym obiektem Element i wyświetlonym układem współrzędnych ''(ECS)'' elementu ''(kolor zielony)''.*
 
-### Joints
+### Połączenia
 
-For hinge-like joints we select one circle of each sketch and use the <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Plane Coincidence](Assembly3_ConstraintCoincidence.md) constraint. It not only sets both Element\'s XY planes coplanar, but sets their Z axes colinear, too.
+W przypadku przegubów wybieramy jeden okrąg z każdego szkicu i używamy funkcji <img alt="" src=images/Assembly_ConstraintCoincidence.svg  style="width   *16px;"> [Wiązanie zbieżności](Assembly3_ConstraintCoincidence/pl.md). Wiązanie to nie tylko ustawia płaszczyzny XY obu elementów współbieżnie, ale także ustawia ich osie Z współbieżnie.
 
-1.  Select a circle of each object to connect.
-2.  Press the **<img src="images/Assembly_ConstraintCoincidence.svg‎‎" width=16px> [Create "Plane Coincidence" constraint](Assembly3_ConstraintCoincidence.md)** button.
+1.  Wybierz okrąg każdego obiektu, który chcesz połączyć.
+2.  Naciśnij przycisk **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Wiązanie zbieżności](Assembly3_ConstraintCoincidence/pl.md)**.
 
-#### Base - Crank 
+#### Baza - Korba 
 
 <img alt="" src=images/Assembly3_SketchSkeleton-04.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-05.png  style="width   *300px;"> 
-*Circles on Base and Crank selected → Relocated Crank with the created Element objects and ECSs displayed (green)*
+*Zaznaczone okręgi na obiekcie bazowym i korbie → Ulokowana korba z zaznaczonymi utworzonymi obiektami Elementów i ECS ''(kolor zielony)''.*
 
-#### Base - Upper Plate 
+#### Baza - Płyta górna 
 
 <img alt="" src=images/Assembly3_SketchSkeleton-06.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-07.png  style="width   *300px;"> 
-*Circles on Base and Upper Plate selected → Relocated Upper Plate*
+*Zaznaczone okręgi na podstawie i górnej płycie → Ulokowana płyta górna*
 
-Previously created joints can be identified by their constraint representations (red).
+Poprzednio utworzone przeguby można rozpoznać po ich reprezentacjach wiązań *(kolor czerwony)*.
 
-#### Crank - Rod 1 
+#### Korba - Pręt 1 
 
 <img alt="" src=images/Assembly3_SketchSkeleton-08.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-09.png  style="width   *300px;"> 
-*Circles on Crank and Rod 1 selected → Relocated Rod 1 and tilted Crank*
+*Zaznaczone okręgi na Korbie i Pręcie 1 → Ulokowany Pręt 1 i przechylona Korba*
 
-#### Upper Plate - Rod 1 
+#### Płyta górna - Pręt 1 
 
-The last link in this kinematic chain connects two Elements whose Z directions are already defined and a <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *16px;"> [Point on line](Assembly3_ConstraintPointOnLine.md) constraint is all we need.
+Ostatnie ogniwo w tym łańcuchu kinematycznym łączy dwa Elementy, których kierunki Z są już zdefiniowane, a wiązanie <img alt="" src=images/Assembly_ConstraintPointOnLine.svg  style="width   *16px;"> [punkt na linii](Assembly3_ConstraintPointOnLine/pl.md) jest wszystkim, czego potrzebujemy.
 
-1.  Select a circle of each object to connect.
-2.  Press the **<img src="images/Assembly_ConstraintPointOnLine.svg‎‎" width=16px> [Create "PointOnLine" constraint](Assembly3_ConstraintPointOnLine.md)** button.
+1.  Wybierz okrąg z każdego obiektu do połączenia.
+2.  Naciśnij przycisk wiązania **<img src="images/Assembly_ConstraintPointOnLine.svg" width=16px> [Punkt na linii](Assembly3_ConstraintPointOnLine/pl.md)**.
 
 <img alt="" src=images/Assembly3_SketchSkeleton-10.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-11.png  style="width   *300px;"> 
-*Circles on Upper Plate and Rod 1 selected → Relocated Rod 1, and tilted Crank and Upper Plate*
+*Zaznaczone okręgi na Płycie górnej i Pręcie 1 → Ulokowany Pręt 1 i odchylona Korba i Płyta górna*
 
-If the 3 joints are colinear (those belonging to Crank and Rod 1), the solver might fail to rearrange the objects. In that case we need to help the solver and tilt one object (e.g. the Crank) manually using the <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> [Axial move](Assembly3_AxialMove.md) tool.
+Jeśli osie Z trzech elementów lub przegubów są równoległe i leżą na tej samej płaszczyźnie wirtualnej, solver może nie zmienić ich położenia w kolejnym kroku, ponieważ nie jest w stanie zdecydować, w którym kierunku należy obrócić środkowy przegub. Taka sytuacja może wystąpić dla elementu Pręt 1, przegubu Korba - Pręt 1 oraz przegubu Baza - Korba, który mamy tutaj. W takiej sytuacji musimy pomóc solverowi i obrócić jeden obiekt *(np. Korbę)* ręcznie za pomocą narzędzia <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> [Przesunięcie osiowe](Assembly3_AxialMove/pl.md).
 
-#### Upper Plate - Rod 2 
+#### Płyta górna - Pręt 2 
 
-Another kinematic (sub-)chain starts with <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Plane Coincidence](Assembly3_ConstraintCoincidence.md) constraints.
+Kolejny *(podrzędny)* łańcuch kinematyczny zaczyna się od wiązania <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [zbieżności](Assembly3_ConstraintCoincidence/pl.md).
 
 <img alt="" src=images/Assembly3_SketchSkeleton-12.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-13.png  style="width   *300px;"> 
-*Circles on Upper Plate (or Base) and Rod 2 selected → Relocated Rod 2*
+*Zaznaczone okręgi na Płycie górnej ''(lub podstawie)'' i Pręcie 2 → Umiejscowiony Pręt 2*
 
-#### Rod 2 - Lower Plate 
+#### Pręt 2 - Płyta dolna 
 
 <img alt="" src=images/Assembly3_SketchSkeleton-14.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-15.png  style="width   *300px;"> 
-*Circles on Rod 2 and Lower Plate selected → Relocated Lower Plate and tilted Rod 2*
+*Zaznaczone okręgi na Pręcie 2 i Płycie dolnej → Ulokowana Płyta dolna i przechylony Pręt 2*
 
-#### Upper Plate - Rod 3 
+#### Płyta górna - Pręt 3 
 
 <img alt="" src=images/Assembly3_SketchSkeleton-16.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-17.png  style="width   *300px;"> 
-*Circles on Upper Plate and Rod 3 selected → Relocated Rod 3 and rearranged upper kinematic sub-chain*
+*Zaznaczone okręgi na Płycie górnej i Pręcie 3 → Ulokowany Pręt 3 i przeorganizowany górny podłańcuch kinematyczny*
 
-#### Lower Plate - Rod 3 
+#### Płyta dolna - Pręt 3 
 
-And this kinematic (sub-)chain ends with a <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *16px;"> [Point on line](Assembly3_ConstraintPointOnLine.md) constraint, too.
+Kolejny *(podrzędny)* łańcuch kinematyczny kończy się na wiązaniu <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *16px;"> [Punkt na linii](Assembly3_ConstraintPointOnLine/pl.md).
 
 <img alt="" src=images/Assembly3_SketchSkeleton-18.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-19.png  style="width   *300px;"> 
-*Circles on Lower Plate and Rod 3 selected → Relocated Rod 3 and rearranged ukinematic sub-chains*
+*Zaznaczone okręgi na Płycie Dolnej i Pręcie 3 → Ulokowany Pręt 3 i przeorganizowane podłańcuchy ukinematyczne*.
 
-To connect both kinematic sub-chains we use Rod 4 with a <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Plane Coincidence](Assembly3_ConstraintCoincidence.md) constraint on one end and a <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *16px;"> [Point on line](Assembly3_ConstraintPointOnLine.md) constraint on the other.
+Do połączenia obu podłańcuchów kinematycznych wykorzystujemy Pręt 4 z wiązaniem <img alt="" src=images/Assembly_ConstraintCoincidence.svg  style="width   *16px;"> [Zbieżności](Assembly3_ConstraintCoincidence/pl.md) na jednym końcu oraz wiązaniem <img alt="" src=images/Assembly_ConstraintPointOnLine.svg  style="width   *16px;"> [Punkt na linii](Assembly3_ConstraintPointOnLine/pl.md) na drugim końcu.
 
-#### Crank - Rod 4 
+#### Korba - Pręt 4 
 
 <img alt="" src=images/Assembly3_SketchSkeleton-20.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-21.png  style="width   *300px;"> 
-*Circles on Crank and Rod 4 selected → Relocated Rod 4*
+*Zaznaczone kręgi na Korbie i Pręcie 4 → Umiejscowiony Pręt 4*
 
-#### Lower Plate - Rod 4 
+#### Płyta dolna - Pręt 1 
 
 <img alt="" src=images/Assembly3_SketchSkeleton-22.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-23.png  style="width   *300px;"> 
-*Circles on Lower Plate and Rod 4 selected → Relocated Rod 4 and final layout of kinematic assembly*
+*Zaznaczone okręgi na Płycie dolnej i Pręcie 4 → Ulokowany Pręt 4 i ostateczny widok układ zespołu kinematycznego.*
 
-### Actuator
+### Siłownik
 
-Since Assembly3 doesn\'t provide any means to control kinematic assemblies, we need external assistance such as this [kinematic controller](Tutorial_KinematicController.md). To use this controller we need to mark one constraint\'s label with the suffix {{Incode|"Driver"}} to make it a driving constraint. It may be separated by a {{Incode|"."}} or {{Incode|"-"}} for clarity, as the controller will only check if the label ends with {{Incode|"Driver"}}.
+Ponieważ środowisko Złożenie 3 nie dostarcza żadnych środków do sterowania złożeniami kinematycznymi, potrzebujemy zewnętrznej pomocy, takiej jak w poradniku [Sterownik kinematyczny](Tutorial_KinematicController/pl.md). Aby użyć tego kontrolera, musimy oznaczyć etykietę jednego z wiązań przyrostkiem {{Incode|"Driver"}}, aby uczynić je wiązaniem napędzającym. Może on być oddzielony przez {{Incode|"."}} lub {{Incode|"-"}} dla jasności, ponieważ kontroler sprawdzi tylko czy etykieta kończy się na {{Incode|"Driver"}}.
 
-We therefore change the label of the Base-Crank joint to {{Incode|Base-Crank.Driver}}.
+Zmieniamy zatem etykietę złącza Baza-Korba na {{Incode|Base-Crank.Driver}}.
 
-### Finished skeleton 
+### Ukończony szkielet 
 
-The finished kinematic assembly with deactivated representation of Elements and Constraints should look like this   *
+Gotowy zespół kinematyczny z dezaktywowaną reprezentacją Elementów i Więzów powinien wyglądać następująco   *
 
 <img alt="" src=images/Assembly3_SketchSkeleton-24.png  style="width   *500px;"> 
-*Finished assembly in the [Tree view](Tree_view.md) and the [3D view](3D_view.md)*
+*Ukończone złożenie widok w oknie [Widoku drzewa](Tree_view/pl.md) oraz w oknie [widoku 3D](3D_view/pl.md)*.
 
 <img alt="" src=images/Assembly3_SketchSkeleton-27.gif  style="width   *500px;"> 
-*GIF animation made from an image sequence from this [kinematic controller](Tutorial_KinematicController.md)*
+*Animacja GIF wykonana na podstawie sekwencji obrazów z tematu [Poradnik   * Sterownik kinematyczny](Tutorial_KinematicController/pl.md).*
 
-## Attaching 3D geometry 
+## Dołączanie geometrii w przestrzeni 3D 
 
-My expectations about attaching a new object to a base object belonging to a kinematic assembly were something like   *
+Moje oczekiwania dotyczące dołączania nowego obiektu do obiektu bazowego należącego do zespołu kinematycznego były czymś w rodzaju   *
 
--   Put the new object into the base objects Parts container.
--   Position the new object in relation to the base object.
--   Fix the relative offset and orientation using the Attachment constraint.
+-   Umieść nowy obiekt w kontenerze Część obiektu bazowego.
+-   Ustaw nowy obiekt w stosunku do obiektu bazowego.
+-   Ustalenie względnego przesunięcia i orientacji za pomocą wiązania Mocowanie.
 
-But that would have been too easy.
+Ale to byłoby zbyt proste.
 
-The <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *16px;"> [Assembly3 ConstraintAttachment](Assembly3_ConstraintAttachment.md) tool, like any Assembly3 constraint tool, relies on the use of Element objects and their element coordinate systems (ECSs) for positioning tasks.
+Narzędzie <img alt="" src=images/Assembly_ConstraintAttachment.svg  style="width   *16px;"> [Wiązanie umocowania](Assembly3_ConstraintAttachment/pl.md), jak każde narzędzie wiązania w środowisku Złożenie 3, opiera się na wykorzystaniu obiektów Elementów i ich układów współrzędnych *(ECS)* do zadań pozycjonowania.
 
-And so attaching objects is just another way of adding objects to a (sub-)assembly.
+I tak dołączanie obiektów jest po prostu innym sposobem dodawania obiektów do *(pod)*zespołu.
 
-Let\'s attach Rod 4-3D to Rod 4 for example   *
+Dla przykładu dołączmy pręt 4-3D do pręta 4   *
 
-The objects have a different orientation and the 3D object should have an offset from the 2D object.
+Obiekty mają inną orientację i obiekt 3D powinien być przesunięty względem obiektu 2D.
 
-1.  Put the new object into the base objects Parts container.
-2.  Select two corresponding circles or arcs.
-3.  Press the **<img src="images/Assembly_ConstraintAttachment.svg‎‎" width=16px> [Create "Attachment" constraint](Assembly3_ConstraintAttachment.md)**.
+1.  Umieść nowy obiekt w kontenerze Części obiektu bazowego.
+2.  Wybierz dwa odpowiadające sobie okręgi lub łuki.
+3.  Naciśnij przycisk **<img src="images/Assembly_ConstraintAttachment.svg" width=16px> [Wiązanie umocowania](Assembly3_ConstraintAttachment/pl.md)**.
 
    *   <img alt="" src=images/Assembly3_SketchSkeleton-28.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-29.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-30.png  style="width   *200px;">
 
 
 
-*Rod 4 (locked) and Rod 4-3D → Selected arcs → Relocated Rod 4-3D (both ECSs are in the same place with identical orientation)*
+*Pręt 4 (zablokowany) i pręt 4-3D → Zaznaczone łuki → Ulokowany pręt 4-3D ''(oba układy ECS są w tym samym miejscu z identyczną orientacją)''.*
 
-It is now plain to see that the <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *16px;"> [Assembly3 ConstraintAttachment](Assembly3_ConstraintAttachment.md) tool ignores the offset and orientation between both objects.
+Widać teraz wyraźnie, że narzędzie <img alt="" src=images/Assembly_ConstraintAttachment.svg  style="width   *16px;"> [Wiązanie umocowania](Assembly3_ConstraintAttachment/pl.md) ignoruje odsunięcie i orientację pomiędzy oboma obiektami.
 
-However the position is already defined as we wanted and so we only need to adapt the angle manually and define the desired offset   *
+Jednak pozycja jest już zdefiniowana tak, jak chcieliśmy, więc musimy tylko ręcznie dostosować kąt i zdefiniować pożądane odsunięcie   *
 
--   Set the **Offset, Angle** of the first Element in the Attachment container to match the orientation.
--   Set the **Offset, Position, z** of the same Element to apply an offset.
+-   Ustaw **Odsunięcie, Kąt** pierwszego elementu w kontenerze Dołączenie, aby dopasować orientację.
+-   Ustaw **Odsunięcie, Pozycja, Z** tego samego Elementu, aby zastosować odsunięcie.
 
-In case we set the properties of the second Element, the movement of angle and offset would go in the opposite direction.
+W przypadku, gdy ustawimy właściwości drugiego Elementu, ruch kąta i przesunięcia poszedłby w przeciwnym kierunku.
 
    *   <img alt="" src=images/Assembly3_SketchSkeleton-30.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-31.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-32.png  style="width   *200px;">
 
 
 
-*As attached → Angle adapted → Offset defined*
+*Umocowane → Kąt dostosowany → Przesunięcie zdefiniowane*
 
-If there is a 3D object attached to each 2D object, it could look like this   *
+Gdyby do każdego obiektu 2D był dołączony obiekt 3D, mogłoby to wyglądać następująco   *
 
 <img alt="" src=images/Assembly3_SketchSkeleton-33.gif  style="width   *500px;">
 
-## Notes
+## Uwagi
 
-The section [Attaching 3D geometry](#Attaching_3D_geometry.md) just scratches the surface of extending a sub-assembly, and other constraints or combinations of constraints may be more suitable than the attachment constraint.
+Sekcja [Dołączanie geometrii w przestrzeni 3D](Tutorial_KinematicSkeleton/pl#Do.C5.82.C4.85czanie_geometrii_w_przestrzeni_3D.md) tylko pokazuje zarys możliwości rozbudowy podzespołu, a inne wiązania lub kombinacje wiązań mogą być bardziej odpowiednie niż wiązanie dołączania.
 
-It is important to move such a kinematic assembly in tiny steps or the solver will give up and fail. It is almost impossible to use <img alt="" src=images/Assembly_Move.svg‎‎  style="width   *16px;"> [Move part](Assembly3_MovePart.md) or <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width   *16px;"> [Axial move](Assembly3_AxialMove.md) for this task.
+Ważne jest, aby przesuwać taki zespół kinematyczny w małych krokach, w przeciwnym razie solver podda się i zawiedzie. Prawie niemożliwe jest użycie funkcji <img alt="" src=images/Assembly_Move.svg  style="width   *16px;"> [Przenieś część](Assembly3_MovePart/pl.md) lub <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> [Przesunięcie osiowe](Assembly3_AxialMove/pl.md) dla tego zadania.
 
-The <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Assembly3\_ConstraintCoincidence](Assembly3_ConstraintCoincidence.md) constraint is used to drive the kinematic assembly, its property **Angle** (enabled by the property **Lock Angle**) accepts positive or negative floating point numbers greater than 360 and so could do several full turns.
+Funkcja <img alt="" src=images/Assembly_ConstraintCoincidence.svg  style="width   *16px;"> [Wiązanie zbieżności](Assembly3_ConstraintCoincidence/pl.md) jest używana do sterowania zespołem kinematycznym, jego właściwość **Kat** *(włączona przez właściwość **Kąt blokady**)* przyjmuje dodatnie lub ujemne liczby zmiennoprzecinkowe większe niż 360, więc może wykonać kilka pełnych obrotów.
 
 
 

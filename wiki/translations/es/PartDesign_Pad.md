@@ -131,7 +131,7 @@ Relleno desde la cara en la que terminará la pastilla. Esta opción sólo está
 
 You can select the direction of the extrusion   *
 
--   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
 -   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
 -   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
 

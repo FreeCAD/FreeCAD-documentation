@@ -54,7 +54,7 @@ La protrusion sera prolongée jusqu\'à une face du modèle qui peut être chois
 
 #### Deux dimensions 
 
-Permet de saisir une seconde valeur de longueur pour prolonger la protrusion dans la direction opposée (à travers le support). Les directions peuvent être inversées en cochant l\'option *Inversé*.
+Permet de saisir une seconde valeur de longueur pour prolonger la protrusion dans la direction opposée (à travers le support). Les directions peuvent être inversées en cochant l\'option **Inversé**.
 
 ### Longueur
 
@@ -62,17 +62,17 @@ Définit la longueur de la protrusion. Plusieurs unités peuvent être utilisée
 
 ### Décalage par rapport à la surface 
 
-Décalage de la surface à laquelle la protrusion se terminera. Cette option n\'est disponible que lorsque le *Type* est soit *En dernier*, *En premier* ou *Jusqu\'à la face*.
+Décalage de la surface à laquelle la protrusion se terminera. Cette option n\'est disponible que lorsque le **Type** est soit **Au dernier**, **Au premier** ou **Jusqu\'à la face**.
 
 ### Direction
 
-#### Direction/bord
+#### Direction/arête
 
 Vous pouvez sélectionner la direction de la protrusion    *
 
--   **Face/Sketch normal** L\'esquisse ou la face est extrudée le long de sa normale. Si vous avez sélectionné plusieurs esquisses ou faces à extruder, la normale de la première sera utilisée. {{Version/fr|0.20}}
--   **Select reference\...** L\'esquisse est extrudée le long d\'une arête du modèle 3D. Lorsque cette méthode est sélectionnée, vous pouvez cliquer sur n\'importe quelle arête du modèle 3D. Celle-ci devient alors le vecteur de direction pour la protrusion. {{Version/fr|0.20}}
--   **Custom direction** L\'esquisse est extrudée selon une direction qui peut être spécifiée par des valeurs vectorielles. {{Version/fr|0.19}}
+-   **Normale à l\'esquisse** L\'esquisse ou la face est extrudée le long de sa normale. Si vous avez sélectionné plusieurs esquisses ou faces à extruder, la normale de la première sera utilisée. {{Version/fr|0.20}}
+-   **Sélectionnez une reference\...** L\'esquisse est extrudée le long d\'une arête du modèle 3D. Lorsque cette méthode est sélectionnée, vous pouvez cliquer sur n\'importe quelle arête du modèle 3D. Celle-ci devient alors le vecteur de direction pour la protrusion. {{Version/fr|0.20}}
+-   **Direction personnalisée** L\'esquisse est extrudée selon une direction qui peut être spécifiée par des valeurs vectorielles. {{Version/fr|0.19}}
 
 #### Afficher la direction 
 
@@ -90,12 +90,12 @@ Cochez la case pour extruder la moitié de la longueur donnée de chaque côté 
 
 Inverse la direction de la protrusion.
 
-### Angle de conicité 
+### Angle de dépouille/contre dépouille 
 
 
 {{Version/fr|0.20}}
 
-Génère la protrusion dans le sens de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la protrusion s\'élargit. Cette option n\'est disponible que si le **Type** est mis soit à **Dimension** soit à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle de conicité opposé. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
+Génère la protrusion dans le sens de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la protrusion s\'élargit. Cette option n\'est disponible que si le **Type** est mis soit à **Dimension** soit à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle d\'inclinaison opposé. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
 
 Limitations    *
 
@@ -106,7 +106,7 @@ Limitations    *
 
 Définit la longueur de la protrusion dans le sens d\'extrusion opposé. Plusieurs unités peuvent être utilisées indépendamment des préférences de l\'utilisateur (m, cm, mm, nm, ft ou \', in ou \"). Cette option n\'est disponible que si le **Type** est à **Deux dimensions**.
 
-### 2ème angle de conicité 
+### 2ème angle de dépouille/contre dépouille 
 
 
 {{Version/fr|0.20}}

@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Das **Std Fenster**-Menü ist eines der sieben Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
+Das **Std Menü Fenster** ist eines der sieben Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
 
 
 {{StdMenu
@@ -25,7 +25,7 @@ Das **Std Fenster**-Menü ist eines der sieben Untermenüs im [Standardmenü](St
 [Hilfe](Std_Help_Menu/de.md)
 }}
 
-Das {{StdMenu|[Fenster](Std_Windows_Menu/de.md)}} Menü ermöglicht das Umschalten und Anordnen der geöffneten Fenster der Anwendung. Mit anderen Worten, ein typisches Fensterverwaltungsmenü.
+Das Menü Fenster ermöglicht das Umschalten und Neuanordnen von Fenstern des [Hauptansichtsbereichs](Main_view_area/de.md).
 
 ## Werkzeuge
 

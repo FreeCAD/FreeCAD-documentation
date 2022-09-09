@@ -9,6 +9,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -19,17 +21,19 @@
 
 </div>
 
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 #### Использование
 
 Кликнуть на <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *32px;"> или выбрать в верхнем меню **Робот** → **<img src="images/Robot_CreateTrajectory.svg" width=32px> Создание траектории**.
 
 
-<div class="mw-translate-fuzzy">
-
-#### Примечания
-
-
 </div>
+
+## Примечания
 
 
 

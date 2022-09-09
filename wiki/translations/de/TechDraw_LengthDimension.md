@@ -20,8 +20,8 @@ Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width  
 
 1.  Die Punkte oder die Kante auswählen, die die Messung definieren.
 2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücken der Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)**.
-    -   Auswahl des Menüeintrags **TechDraw → <img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen**.
+    -   Die Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen** auswählen.
 3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
@@ -45,13 +45,31 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
 
 ### Formatierung
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Formatspezifizierer**   * Wie die Maßzahl formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https   *//en.wikipedia.org/wiki/Printf_format_string) (engl.). Es gibt noch ein zusätzliches {{Value|%w}} Format, das die festgelegte Anzahl von Ziffern nach dem Dezimaltrennzeichen ausgibt und die am Ende stehenden Nullen entfernt. Zum Beispiel heißt {{Value|%.2w}}, dass höchstens 2 Dezimalstellen ausgegeben und alle Nullen am Ende abgeschnitten werden.
+
+
+</div>
 
 -   **Beliebiger Text**   * Falls aktiviert, wird die Bemaßung durch den Inhalt des **Formatspezifizierer**-Feldes ersetzt.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Formatspezifizierer für das obere Abmaß**   * Wie das obere Abmaß formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https   *//en.wikipedia.org/wiki/Printf_format_string) (engl.).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   **Formatspezifizierer für das untere Abmaß**   * Wie das untere Abmaß formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https   *//en.wikipedia.org/wiki/Printf_format_string) (engl.).
+
+
+</div>
 
 -   **Beliebiger Toleranztext**   * Falls aktiviert, werden die Toleranzen durch den Inhalt der **Übertoleranz Formatspezifizierer**- und **Untertoleranz Formatspezifizierer**-Felder ersetzt.
 
@@ -87,6 +105,9 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
 
 
 {{Properties_Title/de|Basis}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|X}}   * Horizontale Position des Maßtexts relativ zur Ansicht.
 
@@ -148,7 +169,13 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
         \- der umgekehrte Wert wird verwendet. Für Länge eine negative Zahl, für Winkel der Reflexwert (180° - 360°).
 
 
+</div>
+
+
 {{Properties_Title/de|Format}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|FormatAngabe}}   * Wie die Bemaßung formatiert sein wird. Siehe [Formatierung](#Formatierung.md).
 
@@ -187,7 +214,13 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
 -    **Arbitrary Tolerances**   * Like **Arbitrary**, but for the tolerance.
 
 
+</div>
+
+
 {{Properties_Title/de|Override}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|AngleOverride}}   * Ob die Richtung der Maßlinien und Maßhilfslinien überschrieben wird.
 
@@ -207,10 +240,16 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
 
 -    {{PropertyData/de|ExtensionAngle}}   * Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
 
+
+</div>
+
 ### Ansicht
 
 
 {{Properties_Title/de|Basis}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyView/de|Sichtbarkeit}}   * Setzt, ob das Maß sichtbar ist. `True` - sichtbar, `False` - versteckt.
 
@@ -264,6 +303,9 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
         
         \- Außer Kraft setzen der automatisch gewählten Richtung und erzwingen der entgegengesetzten Richtung.
 
+
+</div>
+
 ## Begrenzungen
 
 Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Das bedeutet, dass bei einer Änderung der 3D Geometrie die Flächen und Kanten des Modells intern umbenannt werden können; wenn ein Maß an eine Kante angehängt wird, die dann geändert wird, kann das Maß brechen. Im Allgemeinen ist es nicht möglich, die projizierten 2D-Bemaßungen mit den tatsächlichen 3D-Objekten synchronisiert zu halten.
@@ -299,9 +341,15 @@ rc = page.addView(dim1)
 
 ## Anmerkungen
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Kantenauswahl**. Die Auswahl von Kanten kann schwierig sein. Du kannst den Auswahlbereich für Kanten mit dem Parameter \"/Mod/TechDraw/General/EdgeFuzz\" anpassen (siehe [Std\_DlgParameter](Std_DlgParameter.md)). Dies ist eine dimensionslose Zahl. Die Voreinstellung ist 10.0. Werte im Bereich von 20-30 erleichtern die Auswahl von Kanten spürbar. Große Zahlen führen zu Überlappungen mit anderen Zeichnungselementen.
 -   **Nachkommastellen**. Bei Bemaßungen wird standardmäßig die globale Einstellung der Dezimalstellen verwendet. Diese kann über [Einstellungen](TechDraw_Preferences#Dimensions/de.md) oder durch Ändern der FormatSpec Eigenschaft geändert werden.
 -   **Mehrfache Objekte**\'. Ansichten können mehrere 3D Objekte als Quelle enthalten. Bemaßungen können auf die Geometrie von jedem Objekt in der Ansicht angewendet werden (z.B. von Objekt1.Vertex0 bis Objekt2.Vertex3).
+
+
+</div>
 
 
 

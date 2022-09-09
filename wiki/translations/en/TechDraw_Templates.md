@@ -19,21 +19,23 @@ Templates are [SVG](SVG.md) files which can be created and modified outside of F
 
 -    **Page Result**   * A copy of the original Template file including all changes to editable texts. This allows users who may not have a copy of the Template file to see the Page as intended. Not typically useful for end users.
 
--    **Template**   * a) A pointer to the copy of the original Template file which is incorporated into this \*.FCSTD file, or b) a filepath to a template accessible on the current machine. Use the file selection ellipsis (\...) to change to a different template.
+-    **Template**   * a) A pointer to the copy of the original Template file which is incorporated into this \*.FCStd file, or b) a filepath to a template accessible on the current machine. Use the file selection ellipsis (\...) to change to a different template.
 
-## Changing Template File 
+## Select a different template file 
 
-To change the template of a drawing
+To select a different template for a drawing   *
 
-1.  click the desired page in the tree
-2.  if not already open the tree should open a small sub-tree with several leaves
-3.  Select the Template leaf
-4.  in the property panel/Data Tab/Template is the path to the template file. To change the file press the ellipsis button (\'\...\'). This will open your default template folder (as set in Preferences/TechDraw).
-5.  select another template file.
+1.  Locate the desired Page object in the [Tree view](Tree_view.md).
+2.  Expand the Page node if necessary.
+3.  Select the Template object.
+4.  In the [Property editor](Property_editor.md) click in the **Template** property field.
+5.  Press the **...** (ellipsis) button that appears.
+6.  A file dialog opens the folder the current template is located in. If the Page was created in the current FreeCAD session this will be the default template folder (as set in the [TechDraw Preferences](TechDraw_Preferences#Files.md)).
+7.  Optionally browse to another folder.
+8.  Select a different template file.
+9.  Press the **OK** button.
 
-The new file will be opened directly.
-
-When you want to update a changed template file note that you have to load another file before you can select the same file again. This is because the selection of the same file is ignored.
+If you have modified a template file and want to update a Page created in the current FreeCAD session that uses this template, temporarily select a different file first, and then select the modified file again.
 
 ## Custom Templates 
 

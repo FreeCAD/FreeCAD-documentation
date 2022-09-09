@@ -13,11 +13,11 @@ Więcej informacji na temat sposobów przyczyniania się do rozwoju programu Fre
 
 {{TOCright}}
 
-**FreeCAD 1.0** was released on **DD MM 2023**, get it from the [Download](Download.md) page. This page lists all new features and changes.
+**FreeCAD 1.0** zostanie wydany w roku *2023*, pobranie będzie możliwe ze strony [Download](Download/pl.md). Ta strona jest podsumowaniem najciekawszych zmian i funkcji.
 
-Older FreeCAD release notes can be found in the [Feature list](Feature_list#Release_notes.md).
+Starsze uwagi na temat wydania FreeCAD można znaleźć na stronie [Lista funkcji](Feature_list/pl#Informacje_o_wydaniu.md).
 
-Placeholder for an eye-catching image selected by the admins from the [user showcases forum](https   *//forum.freecadweb.org/viewforum.php?f=24).
+Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokazowej użytkowników](https   *//forum.freecadweb.org/viewforum.php?f=24).
 
 ## Informacje ogólne 
 
@@ -129,15 +129,15 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ## Kompilacja
 
-Since this release FreeCAD can only be compiled using Qt 5.x and Python 3.x. The lowest supported Python version is 3.8 according to the [FreeCAD 1.0 development goals](FreeCAD_1.0_Development_Cycle.md).
+Od tego wydania FreeCAD może być kompilowany tylko przy użyciu środowiska Qt 5.x i Python 3.x. Najniższa wspierana wersja środowiska Python to 3.8 zgodnie z [FreeCAD 1.0 development goals](FreeCAD_1.0_Development_Cycle.md).
 
-To compile FreeCAD see the instructions for [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) and [MacOS](Compile_on_MacOS.md).
+Aby skompilować program FreeCAD, zapoznaj się z instrukcjami dla systemów   * [Linux](Compile_on_Linux/pl.md), [MacOS](Compile_on_MacOS/pl.md) oraz [Windows](Compile_on_Windows/pl.md).
 
-The supported operating systems are   *
+Obsługiwane systemy operacyjne   *
 
--   Windows 7, 8, 10 and 11
--   Linux Ubuntu Focal Fossa (20.04) and newer
--   MacOS   * 10.12 Sierra or newer
+-   Linux Ubuntu Focal Fossa (20.04) i nowsze,
+-   MacOS   * wersja minimalna 10.12 Sierra lub nowszy,
+-   Windows 7, 8, 10 i 11
 
 ## Znane ograniczenia 
 

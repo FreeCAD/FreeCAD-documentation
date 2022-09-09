@@ -1,24 +1,22 @@
 ---
 - GuiCommand   */ru
-   Name   *PartDesign Mirrored
-   Name/ru   *PartDesign Mirrored
-   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation   *PartDesign → Симметрия
+   Name/ru   *Симметрия
+   Name   *PartDesign_Mirrored
+   MenuLocation   *Part Design → Apply a pattern → Симметрия
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso   *[Множественное преобразование](PartDesign_MultiTransform/ru.md)
 ---
 
 # PartDesign Mirrored/ru
 
-
-</div>
-
-## Description
+## Описание
 
 The <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> **PartDesign Mirrored** tool mirrors one or more features.
 
 ![](images/PartDesign_Mirrored_example.svg ) 
-*A Pocket feature created from a sketch containing a circle (A) is used to create a mirrored feature. The vertical axis of the sketch (B) is used to the define the mirror plane. The result (C) is shown on the right.*
+*Объект для создания отверстия, созданный на основе эскиза, содержащего окружность (A), используется для создания зеркально отраженного объекта. Вертикальная ось эскиза (B) используется для определения оси симметрии. Результат (C) показан справа.*
 
-## Usage
+## Применение
 
 ### Create
 
@@ -40,7 +38,7 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> **Pa
 2.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-## Options
+## Опции
 
 -   To add features   *
     1.  Press the **Add feature** button.
@@ -91,9 +89,9 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> **Pa
            * Select a planar face in the [3D view](3D_view.md).
 -   If the **Update view** checkbox is checked the view will update in real time.
 
-## Limitations
+## Ограничения
 
-See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
+Смотрите [PartDesign Круговой массив](PartDesign_PolarPattern/ru#Ограничения.md).
 
 
 

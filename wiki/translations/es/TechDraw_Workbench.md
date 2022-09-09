@@ -395,6 +395,8 @@ Los instrumentos de anotación sirven para \"marcar\" un dibujo con información
 
 </div>
 
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md)   * adds a surface finish symbol to a page. <small>(v1.0)</small> 
+
 ## Extensions
 
 These are tools to improve your TechDraw drawings.

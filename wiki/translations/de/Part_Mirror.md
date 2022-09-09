@@ -10,7 +10,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 \'Objekt spiegeln\' - Dieses Werkzeug erzeugt ein neues Objekt (Bild), das eine Spiegelung des ursprünglichen Objekts (Quelle) ist. Das Bildobjekt wird hinter einer Spiegelebene erzeugt. Die Spiegelebene kann eine Standardebene (**XY**, **YZ** oder **XZ**) oder eine beliebige Ebene parallel zu einer Standardebene sein.
+
+
+</div>
 
 Ein Beispiel   *
 

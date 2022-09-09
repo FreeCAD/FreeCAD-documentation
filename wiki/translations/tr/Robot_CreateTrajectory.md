@@ -9,6 +9,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -18,6 +20,8 @@ Sahneye yeni bir boş yörünge nesnesi ekler.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

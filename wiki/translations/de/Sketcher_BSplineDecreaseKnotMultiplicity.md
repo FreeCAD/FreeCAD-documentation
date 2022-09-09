@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher BSplineDecreaseKnotMultiplicity
-   Name/de   *Skizzierer BSplineKnotenVielfaltVerringern
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation   *Skizze → Skizzierer B-spline Werkzeuge → Knotenvielfalt verringern
+   Name/de   *Sketcher BSplineKnotenVielfachheitVerringern
+   MenuLocation   *Sketch → B-Spline-Werkzeuge → Vielfachheit eines Spline-Knotens verringern
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.17
-   SeeAlso   *[Erstelle B-spline](Sketcher_CompCreateBSpline/de.md)
+   SeeAlso   *[BSplineKnotenVielfachheit](Sketcher_BSplineKnotMultiplicity/de.md), [BSplineKnotenVielfachheitErhöhen](Sketcher_BSplineIncreaseKnotMultiplicity/de.md)
 ---
 
 # Sketcher BSplineDecreaseKnotMultiplicity/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -68,13 +65,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 **Note   *** Decreasing the multiplicity from 1 to 0 will remove the knot since the result would be a curve with an \"edge\" at the knot position (*C*^0^ continuity) and this is not supported. (To create curves with an \"edge\", you can create two splines and connect them.)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

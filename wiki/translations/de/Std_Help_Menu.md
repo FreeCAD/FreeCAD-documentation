@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Das**Std Menü Hilfe** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
+Das **Std Menü Hilfe** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
 
 
 {{StdMenu

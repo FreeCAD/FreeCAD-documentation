@@ -12,7 +12,7 @@
 
 ## Описание
 
-This tool creates a new sketch, creates a new [PartDesign Body](PartDesign_Body.md) to contain the sketch if one does not exist and automatically opens the [Sketcher workbench](Sketcher_Workbench.md) after creation.
+Данный инструмент создает новый эскиз. Создает новое [PartDesign Тело](PartDesign_Body/ru.md) чтобы разместить в нем эскиз если такового не существует и автоматически открывает [верстак Sketcher](Sketcher_Workbench/ru.md).
 
 When creating models using the [PartDesign workbench](PartDesign_Workbench.md), this tool should be preferred to the **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)** tool found in the [Sketcher workbench](Sketcher_Workbench.md).
 

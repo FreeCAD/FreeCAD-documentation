@@ -9,8 +9,7 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:TutorialInfo/id](wiki/Template_TutorialInfo/id.md) | [Tutorials/id](wiki/Tutorials/id.md) | [Video tutorials/id](wiki/Video tutorials/id.md) |
-|
+| [Tutorials/id](wiki/Tutorials/id.md) | [Video tutorials/id](wiki/Video tutorials/id.md) |
 
 
 

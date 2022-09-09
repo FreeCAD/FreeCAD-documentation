@@ -135,6 +135,8 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width   *32px;"> [Dodaj informacje spawalnicze](TechDraw_WeldSymbol/pl.md)   * Narzędzie dodaje specyfikacje dotyczące spawania do istniejącej linii odniesienia. {{Version/pl|0.19}}
 
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *32px;"> [Dodaj symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbol/pl.md)   * dodaje do strony symbol wykończenia powierzchni. {{Version/pl|1.0}}
+
 ## Pakiet rozszerzeń 
 
 Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysunków technicznych.

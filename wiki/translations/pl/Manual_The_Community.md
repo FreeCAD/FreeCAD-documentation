@@ -33,7 +33,7 @@ Hopefully, we managed to give you a good taste of FreeCAD in this manual, and yo
 -   [The Facebook FreeCAD community](https   *//www.facebook.com/FreeCAD)
 -   [The FreeCAD documentation wiki](http   *//www.freecadweb.org/wiki)
 -   [Translating FreeCAD on crowdin](https   *//crowdin.com/project/freecad)
--   [The FreeCAD bug tracker](http   *//www.freecadweb.org/tracker)
+-   [The FreeCAD bug tracker](https   *//github.com/FreeCAD/FreeCAD/issues)
 
 
 

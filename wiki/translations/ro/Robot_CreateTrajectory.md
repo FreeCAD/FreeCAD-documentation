@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Inserează un nou obiect tip traiectorie vidă în scenă.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

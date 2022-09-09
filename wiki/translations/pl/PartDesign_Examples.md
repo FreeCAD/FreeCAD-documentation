@@ -13,7 +13,7 @@ Jest to zbiór przykładów, które można osiągnąć za pomocą określonych n
 
 Każdy obiekt jest oparty na konturze *(żółtym)*, który określa kształt przekroju *(najlepiej wykonać go za pomocą środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md))*.
 
-Kontur jest przeciągany wzdłuż kierunku (wyciskany), aby nadać obiektowi grubość lub długość.
+Kontur jest przeciągany wzdłuż kierunku *(wyciskany)*, aby nadać obiektowi grubość lub długość.
 Domyślnie jest to normalny kierunek płaszczyzny zawierającej kontur *(płaszczyzny szkicu)*. Kierunek można opcjonalnie zmienić, edytując parametry w panelu właściwości lub wybierając osobną linię prostą *(białą)*.
 
 
@@ -51,7 +51,7 @@ Domyślnie jest to normalny kierunek płaszczyzny zawierającej kontur *(płaszc
 
 <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width   *24px;"> [Wyciągnięcie po ścieżce](PartDesign_AdditivePipe/pl.md) to narzędzie do tworzenia obiektów wyciągnięcia po ścieżce, takich jak obiekty przeciągania, obiekty wytłaczania, obiekty obrotu, cylindry, stożki, sześciany, piramidy, kule \...
 
-Każdy obiekt jest oparty na co najmniej dwóch liniach (najlepiej wykonanych za pomocą środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md))   *
+Każdy obiekt jest oparty na co najmniej dwóch liniach *(najlepiej wykonanych za pomocą środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md))*   *
 
 -   Jeden kontur *(żółty)*, do definiowania kształtu przekroju.
 -   Jedna ścieżka *(biała)*, po której można się poruszać.
@@ -66,169 +66,171 @@ Nietrudno się zorientować, że niektóre obiekty można tworzyć także za pom
 
 <div class="mw-collapsible-content toccolours">
 
-### Circular Sweep Objects 
+### Obiekty koliste 
+
+Proste obiekty utworzone przeciąganiem przez obrót
 
 ++++
-| **Sphere**         | <img alt="Sphere" src=images/PartDesign_ExampleSphere-01.png  style="width   *200px;">                                | -   Outline   * a**180° arc** and a **line** connecting the end points.                                                                      |
-|                    |                                                                                                 | -   Path   * full **circle**.                                                                                                                |
+| **Sfera**         | <img alt="Sfera" src=images/PartDesign_ExampleSphere-01.png  style="width   *200px;">                                    | -   Kontur   * **łuk o kącie 180°** oraz **linia** łącząca punkty końcowe.                                                                                          |
+|                   |                                                                                                   | -   Ścieżka   * pełny **okrąg**.                                                                                                                                    |
 ++++
-| **Sphere Segment** | <img alt="Sphere Segment 240°" src=images/PartDesign_ExampleSphere-02.png  style="width   *200px;">      | -   Outline   * a **180° arc** and a **line** connecting the end points.                                                                     |
-|                    |                                                                                                 | -   Path   * a **240° arc**.                                                                                                                 |
-|                    |                                                                                                 |                                                                                                                                           |
-|                    |                                                                                                 |    *   This function can create segments of any angle except 180° exactly, because it has a problem with start and end plane being coplanar. |
+| **Segment sfery** | <img alt="Segment sfery 240°" src=images/PartDesign_ExampleSphere-02.png  style="width   *200px;">          | -   Kontur   * *\'łuk o kącie 180°* i **linia** łącząca punkty końcowe.                                                                                             |
+|                   |                                                                                                   | -   Ścieżka   * **łuk o kącie 240°**.                                                                                                                               |
+|                   |                                                                                                   |                                                                                                                                                                  |
+|                   |                                                                                                   |    *   Funkcja ta może tworzyć odcinki o dowolnym kącie z wyjątkiem dokładnie 180°, ponieważ ma problem z płaszczyzną początkową i końcową będącą współpłaszczyzną. |
 ++++
-| **Hemisphere**     | <img alt="Hemisphere" src=images/PartDesign_ExampleSphere-03.png  style="width   *200px;">                        | -   Outline   * a **90° arc** and two perpendicular **lines** connecting the end points.                                                     |
-|                    |                                                                                                 | -   Path   * a full **circle**.                                                                                                              |
+| **Połowa sfery**  | <img alt="Połowa sfery" src=images/PartDesign_ExampleSphere-03.png  style="width   *200px;">                      | -   Kontur   * **łuk o kącie 90°** i dwie prostopadłe **linie** łączące punkty końcowe.                                                                             |
+|                   |                                                                                                   | -   Ścieżka   * pełny **okrąg**.                                                                                                                                    |
 ++++
-| **Torus**          | <img alt="Torus" src=images/PartDesign_ExampleTorus-01.png  style="width   *200px;">                                   | -   Outline   * full **circle**.                                                                                                             |
-|                    |                                                                                                 | -   Path   * full **circle**.                                                                                                                |
+| **Torus**         | <img alt="Torus" src=images/PartDesign_ExampleTorus-01.png  style="width   *200px;">                                     | -   Kontur   * pełny **okrąg**.                                                                                                                                     |
+|                   |                                                                                                   | -   Ścieżka   * pełny **okrąg**.                                                                                                                                    |
 ++++
-| **Cone**           | <img alt="Cone" src=images/PartDesign_ExampleTorus-04.png  style="width   *200px;">                                     | -   Outline   * **triangle** with one edge lying on the centreline.                                                                          |
-|                    |                                                                                                 | -   Path   * full **circle**.                                                                                                                |
+| **Stożek**        | <img alt="Stożek" src=images/PartDesign_ExampleTorus-04.png  style="width   *200px;">                                   | -   Kontur   * **trójkąt** z jedną krawędzią leżącą na linii środkowej.                                                                                             |
+|                   |                                                                                                   | -   Ścieżka   * pełny **okrąg**.                                                                                                                                    |
 ++++
-| **Cylinder**       | <img alt="Cylinder" src=images/PartDesign_ExampleTorus-02.png  style="width   *200px;">                             | -   Outline   * **rectangle** with one edge lying on the centreline.                                                                         |
-|                    |                                                                                                 | -   Path   * full **circle**.                                                                                                                |
+| **Walec**         | <img alt="Walec" src=images/PartDesign_ExampleTorus-02.png  style="width   *200px;">                                     | -   Kontur   * **prostokąt** z jedną krawędzią leżącą na linii środkowej.                                                                                           |
+|                   |                                                                                                   | -   Ścieżka   * pełny **okrąg**.                                                                                                                                    |
 ++++
-| **Pipe**           | <img alt="Pipe (Hollow Cylinder)" src=images/PartDesign_ExampleTorus-03.png  style="width   *200px;"> | -   Outline   * **rectangle**.                                                                                                               |
-| Hollow Cylinder    |                                                                                                 | -   Path   * full **circle**.                                                                                                                |
-++++
-
-### Prismatic Objects 
-
-Straight Sweep Objects
-
-++++
-| **Cylinder**      | <img alt="Cylinder" src=images/PartDesign_ExamplePrism-01.png  style="width   *200px;">                   | -   Outline   * **circle**.                                  |
-|                   |                                                                                       | -   Path   * straight **line**.                              |
-++++
-| **Cube**          | <img alt="Cube" src=images/PartDesign_ExamplePrism-02.png  style="width   *200px;">                           | -   Outline   * **square**.                                  |
-|                   |                                                                                       | -   Path   * straight **line**, same length as square edges. |
-++++
-| **Cuboid**        | <img alt="Cuboid" src=images/PartDesign_ExamplePrism-03.png  style="width   *200px;">                       | -   Outline   * **rectangle**.                               |
-|                   |                                                                                       | -   Path   * straight **line**.                              |
-++++
-| **Wedge**         | <img alt="Wedge" src=images/PartDesign_ExamplePrism-04.png  style="width   *200px;">                         | -   Outline   * **triangle**.                                |
-|                   |                                                                                       | -   Path   * straight **line**.                              |
-++++
-| Regular **Prism** | <img alt="Regular Prism" src=images/PartDesign_ExamplePrism-05.png  style="width   *200px;">         | -   Outline   * regular **hexagon**.                         |
-|                   |                                                                                       | -   Path   * straight **line**.                              |
-++++
-| Star-shaped Prism | <img alt="Star-shaped Prism" src=images/PartDesign_ExamplePrism-06.png  style="width   *200px;"> | -   Outline   * regular **star-shape**.                      |
-|                   |                                                                                       | -   Path   * straight **line**.                              |
-++++
-| Double-T Beam     | <img alt="Double-T Beam" src=images/PartDesign_ExamplePrism-07.png  style="width   *200px;">         | -   Outline   * **beam section**.                            |
-|                   |                                                                                       | -   Path   * straight **line**.                              |
+| **Rura**          | <img alt="Rura *(wydrążony walec)*" src=images/PartDesign_ExampleTorus-03.png  style="width   *200px;"> | -   Kontur   * **prostokąt**.                                                                                                                                       |
+| wydrążony walec   |                                                                                                   | -   Ścieżka   * pełny **okrąg**.                                                                                                                                    |
 ++++
 
-### Conical Objects 
+### Obiekty graniastosłupowe 
+
+Proste obiekty utworzone przeciąganiem
 
 ++++
-| **Cone**       | <img alt="Cone" src=images/PartDesign_ExampleConic-01.png  style="width   *200px;">                     | -   Outlines   * Base   * full **circle**, Top   * **point**. |
-|                |                                                                                 | -   Path   * straight **line**.                         |
-|                |                                                                                 |                                                      |
-|                |                                                                                 |    *   (Tip point is an end point of an auxiliary line) |
+| **Walec**                   | <img alt="Walec" src=images/PartDesign_ExamplePrism-01.png  style="width   *200px;">                                           | -   Kontur   * **koło**.                                                    |
+|                             |                                                                                                         | -   Ścieżka   * prosta **linia**.                                           |
 ++++
-| **Pyramid**    | <img alt="Pyramid" src=images/PartDesign_ExampleConic-02.png  style="width   *200px;">               | -   Outlines   * Base   * **square**, Top   * **point**.      |
-|                |                                                                                 | -   Path   * straight **line**.                         |
-|                |                                                                                 |                                                      |
-|                |                                                                                 |    *   (Tip point is an end point of an auxiliary line) |
+| **Sześcian**                | <img alt="Sześcian" src=images/PartDesign_ExamplePrism-02.png  style="width   *200px;">                                     | -   Kontur   * **kwadrat**.                                                 |
+|                             |                                                                                                         | -   Ścieżka   * prosta **linia**, tej samej długości co krawędzie kwadratu. |
 ++++
-| Tilted Pyramid | <img alt="Tilted Pyramid" src=images/PartDesign_ExampleConic-03.png  style="width   *200px;"> | -   Outlines   * Base   * **square**, Top   * **point**.      |
-|                |                                                                                 | -   Path   * straight **line**.                         |
-|                |                                                                                 |                                                      |
-|                |                                                                                 |    *   (Tip point is the end point of the path)         |
+| **Prostopadłościan**        | <img alt="Prostopadłościan" src=images/PartDesign_ExamplePrism-03.png  style="width   *200px;">                     | -   Kontur   * **prostokąt**.                                               |
+|                             |                                                                                                         | -   Ścieżka   * prosta **linia**.                                           |
 ++++
-
-### Curved Sweep Objects 
-
+| **Klin**                    | <img alt="Klin" src=images/PartDesign_ExamplePrism-04.png  style="width   *200px;">                                             | -   Kontur   * **trójkąt**.                                                 |
+|                             |                                                                                                         | -   Ścieżka   * prosta **linia**.                                           |
 ++++
-| **Hose**        | <img alt="Hose" src=images/PartDesign_ExampleSweep-01.png  style="width   *200px;">               | -   Outline   * 2 concentric **circles**.                     |
-| (Pipe)          |                                                                           | -   Path   * curved **line**.                                 |
+| Regularny **Graniastosłup** | <img alt="Regularny Graniastosłup" src=images/PartDesign_ExamplePrism-05.png  style="width   *200px;">       | -   Kontur   * regularny **sześciokąt**.                                    |
+|                             |                                                                                                         | -   Ścieżka   * prosta **linia**.                                           |
 ++++
-| Square **Pipe** | <img alt="Square Pipe" src=images/PartDesign_ExampleSweep-02.png  style="width   *200px;"> | -   Outline   * 2 concentric **squares**.                     |
-|                 |                                                                           | -   Path   * curved **line**.                                 |
+| Graniastosłupy gwiaździste  | <img alt="Graniastosłupy gwiaździste" src=images/PartDesign_ExamplePrism-06.png  style="width   *200px;"> | -   Kontur   * regularny **kształt gwiazdy**.                               |
+|                             |                                                                                                         | -   Ścieżka   * prosta **linia**.                                           |
 ++++
-| **Wire**        | <img alt="Wire" src=images/PartDesign_ExampleSweep-04.png  style="width   *200px;">               | -   Outline   * **circle**.                                   |
-|                 |                                                                           | -   Path   * curved **line**.                                 |
-++++
-| Horn            | <img alt="Horn" src=images/PartDesign_ExampleSweep-03.png  style="width   *200px;">               | -   Outlines   * Base   * **circle**, Top   * (smaller) **circle**. |
-|                 |                                                                           | -   Path   * curved **line**.                                 |
-++++
-| Legendary       | <img alt="Hex-Wrench" src=images/PartDesign_ExampleSweep-05.png  style="width   *200px;">   | -   Outline   * **hexagon**.                                  |
-| **Hex-Wrench**  |                                                                           | -   Path   * curved **line**.                                 |
+| Belka dwuteowa              | <img alt="Belka dwuteowa" src=images/PartDesign_ExamplePrism-07.png  style="width   *200px;">                         | -   Kontur   * **profil belki**                                             |
+|                             |                                                                                                         | -   Ścieżka   * prosta **linia**.                                           |
 ++++
 
-### Spiral and Helical Objects 
+### Obiekty stożkowe 
 
 ++++
-| Coil Spring        | <img alt="Spring" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;">                 | -   Outline   * **circle**.                                                                                          |
-|                    |                                                                                  | -   Path   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Part Helix](Part_Helix.md).               |
+| **Stożek**            | <img alt="Stożek" src=images/PartDesign_ExampleConic-01.png  style="width   *200px;">                               | -   Kontury   * Podstawa   * pełne **koło**, Góra   * **punkt**.            |
+|                       |                                                                                               | -   Ścieżka   * prosta **linia**.                                     |
+|                       |                                                                                               |                                                                    |
+|                       |                                                                                               |    *   *(Punkt wierzchołka jest punktem końcowym linii pomocniczej)*. |
 ++++
-| Hairspring         | <img alt="Balance Spring" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;"> | -   Outline   * **rectangle**.                                                                                       |
-| Balance Spring     |                                                                                  | -   Path   * <img alt="" src=images/Part_Spiral.svg  style="width   *16px;"> [Part Spiral](Part_Spiral.md).           |
+| **Ostrosłup**         | <img alt="Ostrosłup" src=images/PartDesign_ExampleConic-02.png  style="width   *200px;">                         | -   Kontury   * Podstawa   * **kwadrat**, Góra   * **punkt**.               |
+|                       |                                                                                               | -   Ścieżka   * prosta **linia**                                      |
+|                       |                                                                                               |                                                                    |
+|                       |                                                                                               |    *   *(Punkt wierzchołka jest punktem końcowym linii pomocniczej)*. |
 ++++
-| **Volute Spring**, | <img alt="Volute Spring" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">   | -   Outline   * **rectangle**.                                                                                       |
-| Conical Spring     |                                                                                  | -   Path   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Part Helix](Part_Helix.md) with an angle. |
-++++
-
-### Transition Objects 
-
-++++
-| Square to Circle | <img alt="Curvy transition object" src=images/PartDesign_ExampleTrans-01.png  style="width   *200px;">       | -   Outlines   * Base   * **square**, Top   * **circle**.       |
-| via path         |                                                                                                         | -   Path   * curved **line**.                             |
-++++
-| Square to Circle | <img alt="Straight transition object" src=images/PartDesign_ExampleTrans-02.png  style="width   *200px;"> | -   Outlines   * Base   * **square**, Top   * **circle**.       |
-| direct           |                                                                                                         | -   Path   * straight **line**.                           |
-++++
-| Polygon to Star  | <img alt="Polygon to Star" src=images/PartDesign_ExampleTrans-03.png  style="width   *200px;">                       | -   Outlines   * Base   * **pentagon**, Top   * **star shape**. |
-|                  |                                                                                                         | -   Path   * straight **line**.                           |
+| Ostrosłup przechylony | <img alt="Ostrosłup przechylony" src=images/PartDesign_ExampleConic-03.png  style="width   *200px;"> | -   Kontury   * Podstawa   * **kwadrat**, Góra   * **punkt**.               |
+|                       |                                                                                               | -   Ścieżka   * prosta **linia**.                                     |
+|                       |                                                                                               |                                                                    |
+|                       |                                                                                               |    *   *(Punkt wierzchołka jest punktem końcowym ścieżki)*.           |
 ++++
 
-### Options
-
-#### Corner Transition 
-
-A polyline can be used as a path, and the property **Transition** influences the shapes of the corners.
-
-Transformed needs special attention as it can produce flat areas where the thickness is 0.
+### Obiekty zakrzywione 
 
 ++++
-| Parameter        | Iso View                                                                                         | Top View                                                                                         |
-+==================+==================================================================================================+==================================================================================================+
-| **Transformed**  | <img alt="Transformed iso view" src=images/PartDesign_ExampleProperty-01.png  style="width   *200px;">   | <img alt="Transformed top view" src=images/PartDesign_ExampleProperty-02.png  style="width   *200px;">   |
-|                  |                                                                                                  |                                                                                                  |
-|                  |    *   Inner and outer corners are edges.                                                           |    *   The basic shape does not follow the line orientation.                                        |
+| **Wąż**                | <img alt="Wąż" src=images/PartDesign_ExampleSweep-01.png  style="width   *200px;">                               | -   Kontury   * dwa współśrodkowe **okręgi**.                      |
+| (Rura)                 |                                                                                         | -   Ścieżka   * zakrzywiona **linia**.                             |
 ++++
-| **Right corner** | <img alt="Right corner iso view" src=images/PartDesign_ExampleProperty-03.png  style="width   *200px;"> | <img alt="Right corner top view" src=images/PartDesign_ExampleProperty-04.png  style="width   *200px;"> |
-|                  |                                                                                                  |                                                                                                  |
-|                  |    *   Inner and outer corners are edges.                                                           |    *   The basic shape follows the line orientation.                                                |
+| Kwadratowa **rura**    | <img alt="Square Pipe" src=images/PartDesign_ExampleSweep-02.png  style="width   *200px;">               | -   Kontury   * dwa współśrodkowe **kwadraty**.                    |
+|                        |                                                                                         | -   Ścieżka   * zakrzywiona **linia**.                             |
 ++++
-| **Round corner** | <img alt="Round corner iso view" src=images/PartDesign_ExampleProperty-05.png  style="width   *200px;"> | <img alt="Round corner top view" src=images/PartDesign_ExampleProperty-06.png  style="width   *200px;"> |
-|                  |                                                                                                  |                                                                                                  |
-|                  |    *   The corners lying outside the path are rounded.                                              |    *   The basic shape follows the line orientation.                                                |
+| **Polilinia**          | <img alt="Wire" src=images/PartDesign_ExampleSweep-04.png  style="width   *200px;">                             | -   Kontur   * **okrąg**.                                          |
+|                        |                                                                                         | -   Ścieżka   * zakrzywiona **linia**.                             |
+++++
+| Róg                    | <img alt="Róg" src=images/PartDesign_ExampleSweep-03.png  style="width   *200px;">                               | -   Kontury   * Podstawa   * **okrąg**, Góra   * *(mniejszy)* **okrąg**. |
+|                        |                                                                                         | -   Ścieżka   * zakrzywiona **linia**.                             |
+++++
+| Legendarny             | <img alt="Klucz sześciokątny" src=images/PartDesign_ExampleSweep-05.png  style="width   *200px;"> | -   Kontur   * *sześciokąt*.                                       |
+| **Klucz sześciokątny** |                                                                                         | -   Ścieżka   * zakrzywiona **linia**.                             |
 ++++
 
-#### Orientation Mode 
+### Obiekty spiralne i walcowate 
 
 ++++
-| Parameter     | Iso View                                                                                    | Top View                                                                                            |
-+===============+=============================================================================================+=====================================================================================================+
-| **Standard**  | <img alt="Standard iso view" src=images/PartDesign_ExampleProperty-07.png  style="width   *200px;">    | <img alt="Standard top view" src=images/PartDesign_ExampleProperty-08.png  style="width   *200px;">            |
-|               |                                                                                             |                                                                                                     |
-|               |    *   Location and orientation follow the path.                                               |    *   (If the object is twisted in an unexpected way, try Frenet)                                     |
-|               |    *                                                                                           |                                                                                                     |
+| Sprężyna spiralna      | <img alt="Sprężyna" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;">                     | -   Kontur   * **okrąg**.                                                                                                                    |
+|                        |                                                                                          | -   Ścieżka   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Helisa](Part_Helix/pl.md) środowiska Część.                    |
 ++++
-| **Fixed**     | <img alt="Fixed iso view" src=images/PartDesign_ExampleProperty-09.png  style="width   *200px;">          | <img alt="Fixed top view" src=images/PartDesign_ExampleProperty-10.png  style="width   *200px;">                  |
-|               |                                                                                             |                                                                                                     |
-|               |    *   Location follows the path and orientation stays the same as basic shape.                |    *   This tends to cause self intersections which lead to further errors   * a ghost face in this case. |
+| Sprężyna włosowa       | <img alt="Sprężyna balansowa" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;"> | -   Kontur   * **prostokąt**.                                                                                                                |
+| Sprężyna balansowa     |                                                                                          | -   Ścieżka   * <img alt="" src=images/Part_Spiral.svg  style="width   *16px;"> [Spirala](Part_Spiral.md) środowiska Część.                   |
 ++++
-| **Frenet**    | <img alt="Frenet iso view" src=images/PartDesign_ExampleProperty-07.png  style="width   *200px;">        | <img alt="Frenet top view" src=images/PartDesign_ExampleProperty-08.png  style="width   *200px;">                |
-|               |                                                                                             |                                                                                                     |
-|               |    *   Location and orientation follow the path, based on a different algorithm than Standard. |    *   The basic shape follows the line orientation.                                                   |
+| **Sprężyna spiralna**, | <img alt="Sprężyna spiralna" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">   | -   Kontur   * **prostokąt**.                                                                                                                |
+| Sprężyna stożkowa      |                                                                                          | -   Ścieżka   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Helisa](Part_Helix/pl.md) środowiska Część z kątem nachylenia. |
 ++++
-| **Auxiliary** |                                                                                             |                                                                                                     |
+
+### Obiekty przejściowe 
+
 ++++
-| **Binormal**  |                                                                                             |                                                                                                     |
+| Kwadrat w koło           | <img alt="Obiekt przejścia z krzywą" src=images/PartDesign_ExampleTrans-01.png  style="width   *200px;"> | -   Kontury   * Początkowy   * **kwadrat**, Końcowy   * **koło**.     |
+| za pośrednictwem ścieżki |                                                                                                       | -   Ścieżka   * zakrzywiona **linia**.                          |
+++++
+| Kwadrat w koło           | <img alt="Obiekt przejścia prosty" src=images/PartDesign_ExampleTrans-02.png  style="width   *200px;">     | -   Kontury   * Początkowy   * **kwadrat**, Końcowy   * **koło**.     |
+| bezpośrednio             |                                                                                                       | -   Ścieżka   * prosta **linia**.                               |
+++++
+| Wielokąt w gwiazdę       | <img alt="Wielokąt do gwiazdy" src=images/PartDesign_ExampleTrans-03.png  style="width   *200px;">             | -   Kontury   * Początkowy   * **wielokąt**, Końcowy   * **gwiazda**. |
+|                          |                                                                                                       | -   Ścieżka   * prosta **linia**.                               |
+++++
+
+### Opcje
+
+#### Przejścia narożników 
+
+Polilinia może być użyta jako ścieżka, a właściwość **Przejście** wpływa na kształty narożników.
+
+Transformowany wymaga szczególnej uwagi, ponieważ może wytwarzać płaskie obszary, dla których grubość wynosi 0.
+
+++++
+| Parametr                 | Widok Iso                                                                                                                | Widok z góry                                                                                                                   |
++==========================+==========================================================================================================================+================================================================================================================================+
+| **Przekształcony**       | <img alt="Przekształcony widok Iso" src=images/PartDesign_ExampleProperty-01.png  style="width   *200px;">                   | <img alt="Przekształcony widok z góry" src=images/PartDesign_ExampleProperty-02.png  style="width   *200px;">                   |
+|                          |                                                                                                                          |                                                                                                                                |
+|                          |    *   Wewnętrzne i zewnętrzne narożniki są krawędziami.                                                                    |    *   Kształt podstawowy nie jest zgodny z orientacją linii.                                                                     |
+++++
+| **Prawy narożnik**       | <img alt="Widok Iso prawego rogu" src=images/PartDesign_ExampleProperty-03.png  style="width   *200px;">                       | <img alt="Widok z góry prawego narożnika" src=images/PartDesign_ExampleProperty-04.png  style="width   *200px;">             |
+|                          |                                                                                                                          |                                                                                                                                |
+|                          |    *   Wewnętrzne i zewnętrzne narożniki to krawędzie.                                                                      |    *   Podstawowy kształt jest zgodny z orientacją linii.                                                                         |
+++++
+| **Zaokrąglony narożnik** | <img alt="Widok Iso zaokrąglonego narożnika" src=images/PartDesign_ExampleProperty-05.png  style="width   *200px;"> | <img alt="Widok z góry zaokrąglonego narożnika" src=images/PartDesign_ExampleProperty-06.png  style="width   *200px;"> |
+|                          |                                                                                                                          |                                                                                                                                |
+|                          |    *   Narożniki leżące poza ścieżką są zaokrąglone.                                                                        |    *   Podstawowy kształt jest zgodny z orientacją linii.                                                                         |
+++++
+
+#### Tryb orientacji 
+
+++++
+| Parametr        | Widok Iso                                                                                        | Widok z góry                                                                                                                  |
++=================+==================================================================================================+===============================================================================================================================+
+| **Standardowy** | <img alt="Standardowy widok Iso" src=images/PartDesign_ExampleProperty-07.png  style="width   *200px;"> | <img alt="Standardowy widok od góry" src=images/PartDesign_ExampleProperty-08.png  style="width   *200px;">                      |
+|                 |                                                                                                  |                                                                                                                               |
+|                 |    *   Położenie i orientacja podążają za ścieżką.                                                  |    *   *(Jeśli obiekt jest skręcony w nieoczekiwany sposób, wypróbuj parametr \"Frenet\")*                                       |
+|                 |    *                                                                                                |                                                                                                                               |
+++++
+| **Ustalony**    | <img alt="Ustalony widok Iso" src=images/PartDesign_ExampleProperty-09.png  style="width   *200px;">       | <img alt="Ustalony widok z góry" src=images/PartDesign_ExampleProperty-10.png  style="width   *200px;">                              |
+|                 |                                                                                                  |                                                                                                                               |
+|                 |    *   Położenie podąża za ścieżką, a orientacja pozostaje taka sama jak kształt podstawowy.        |    *   Może to prowadzić do samoczynnych przecięć, które prowadzą do dalszych błędów   * w tym przypadku do powstania ściany widmo. |
+++++
+| **Frenet**      | <img alt="Widok Frenet iso" src=images/PartDesign_ExampleProperty-07.png  style="width   *200px;">           | <img alt="Widok Frenet z góry" src=images/PartDesign_ExampleProperty-08.png  style="width   *200px;">                                  |
+|                 |                                                                                                  |                                                                                                                               |
+|                 |    *   Położenie i orientacja podążają za ścieżką, w oparciu o inny algorytm niż Standardowy.       |    *   Podstawowy kształt jest zgodny z orientacją linii.                                                                        |
+++++
+| **Pomocniczy**  |                                                                                                  |                                                                                                                               |
+++++
+| **Binormalny**  |                                                                                                  |                                                                                                                               |
 ++++
 
 

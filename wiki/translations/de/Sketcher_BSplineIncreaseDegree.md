@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher BSplineIncreaseDegree
-   Name/de   *Skizzierer BSplineErhöhungsgrad
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation   *Skizze → Skizzierer B-spline Werkzeuge → Grad der B-spline erhöhen
+   Name/de   *Sketcher BSplineGradErhöhen
+   MenuLocation   *Sketch → B-Spline-Werkzeuge → Grad des B-Splines erhöhen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.17
-   SeeAlso   *[Erstelle  B-spline](Sketcher_CompCreateBSpline/de.md)
+   SeeAlso   *[BSplineGrad](Sketcher_BSplineDegree/de.md), [BSplineGradVerringern](Sketcher_BSplineDecreaseDegree/de.md)
 ---
 
 # Sketcher BSplineIncreaseDegree/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -47,22 +44,10 @@ You can see that now each segment has 2 control points and the knots are coincid
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle eine Kante eines existierenden B-Spline und drücke **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width   *16px"> [B-spline Grad erhöhen](Sketcher_BSplineIncreaseDegree/de.md)**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Eine Kante eines existierenden B-Splines auswählen und die Schaltfläche **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width   *24px"> '''Grad des B-Splines erhöhen''' drücken**.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

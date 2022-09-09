@@ -12,7 +12,7 @@
 
 </div>
 
-## Введение
+## Описание
 
 
 <div class="mw-translate-fuzzy">

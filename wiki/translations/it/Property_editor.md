@@ -98,7 +98,7 @@ Quando l\'opzione **Mostra tutto** è attiva e viene selezionata una proprietà,
 
 -    **NoRecompute**   * se attivo, imposta la proprietà come non ricalcolata quandi il documento viene ricalcolato; è utile quando una proprietà non deve essere influenzata da altri aggiornamenti.
 
--    **ReadOnly**   * se attivo, imposta la proprietà in sola lettura; non sarà più modificabile nell\'editor delle proprietà fino a quando questo interruttore non viene disattivato.La voce di menu **Expression...** non è più disponibile. {{Enfasi|Nota   *}} Potrebbe essere ancora possibile modificare la proprietà tramite una finestra di dialogo che aggiorna la proprietà.
+-    **ReadOnly**   * se attivo, imposta la proprietà in sola lettura; non sarà più modificabile nell\'editor delle proprietà fino a quando questo interruttore non viene disattivato.La voce di menu **Expression...** non è più disponibile. **Nota   *** Potrebbe essere ancora possibile modificare la proprietà tramite una finestra di dialogo che aggiorna la proprietà.
 
 -    **Transient**   * se attivo, imposta la proprietà come transitoria. Il valore di una proprietà transitoria non viene salvato su file. Quando si apre un file, viene istanziata con il suo valore predefinito.
 
@@ -194,20 +194,20 @@ In questo caso osserviamo le proprietà dello strumento [Rivoluzione di PartDesi
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-See [scripted objects](scripted_objects.md) for the full information on adding properties to objects defined through [Python](Python.md).
+Vedere [script di oggetti](scripted_objects/it.md) per le informazioni complete sull\'aggiunta di proprietà agli oggetti definiti tramite [Python](Python/it.md).
 
-Most properties that are visible in the property editor can be accessed from the [Python console](Python_console.md). These properties are just attributes of the class that defines the selected object. For example, if the property editor shows the **Group** property, this means that the object has the `Group` attribute. 
+È possibile accedere alla maggior parte delle proprietà visibili nell\'editor delle proprietà dalla [console Python](Python_console/it.md). Queste proprietà sono solo attributi della classe che definisce l\'oggetto selezionato. Ad esempio, se l\'editor delle proprietà mostra la proprietà **Group**, significa che l\'oggetto ha l\'attributo `Group`. 
 ```python
 print(obj.Group)
 ```
 
-These attributes (properties) are added with the `addProperty` method of the base object. At least it is necessary to specify the type of [property](property.md), and its name. 
+Questi attributi (proprietà) vengono aggiunti con il metodo `addProperty` dell\'oggetto base. È necessario specificare almeno il tipo di [proprietà](proprietà.md), e il suo nome. 
 ```python
 obj.addProperty("App   *   *PropertyFloat", "Custom")
 print(obj.Custom)
 ```
 
-Properties follow the `CapitalCamelCase` or `PascalCase` convention, meaning that each word starts with a capital letter, and there are no underscores. When the property editor displays such names, it leaves a space between each capital letter, making it easier to read.
+Le proprietà seguono la convenzione `CapitalCamelCase` o `PascalCase`, il che significa che ogni parola inizia con una lettera maiuscola e non ci sono trattini bassi. Quando l\'editor di proprietà visualizza tali nomi, lascia uno spazio tra ogni lettera maiuscola, facilitandone la lettura.
 
 
 ```python
@@ -217,9 +217,9 @@ print(obj.CustomCamelProperty)
 ```
 
 ![](images/FreeCAD_Property_editor_Custom.png ) 
-*Property editor showing the Data properties of a [PartDesign Body](PartDesign_Body.md), with two additional properties, "Custom" and "Custom Camel Property".*
+*Editor di proprietà che mostra le proprietà dei dati di un [Corpo PartDesign](PartDesign_Body/it.md), con due proprietà aggiuntive, "Personalizzato" e "Proprietà Camel personalizzata".*
 
-In similar way the **View** properties are added, not to the base object, but to its `ViewObject`. Then, it follows that properties like **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, and others, can be examined and changed from the [Python console](Python_console.md).
+In modo simile vengono aggiunte le proprietà **View**, non all\'oggetto base, ma al suo `ViewObject`. Quindi, ne consegue che proprietà come **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, e altri, possono essere esaminati e modificati dalla [console Python](Python_console/it.md).
 
 
 ```python
@@ -230,7 +230,7 @@ print(obj.ViewObject.DisplayModeBody)
 print(obj.ViewObject.LineColor)
 ```
 
-All public properties of the object, and of its view provider, are contained in the corresponding `PropertiesList` attribute. 
+Tutte le proprietà pubbliche dell\'oggetto e del relativo provider di visualizzazione sono contenute nell\'attributo `PropertiesList` corrispondente. 
 ```python
 print(obj.PropertiesList)
 print(obj.ViewObject.PropertiesList)

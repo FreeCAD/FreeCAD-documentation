@@ -141,6 +141,8 @@ Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width   *32px;"> [Hinzufügen von Schweißinformationen zur Hinweislinie](TechDraw_WeldSymbol/de.md)   * fügt Schweißspezifikationen zu einer vorhandenen Hinweislinie hinzu. {{Version/de|0.19}}
 
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md)   * adds a surface finish symbol to a page. <small>(v1.0)</small> 
+
 ## Erweiterungspaket
 
 Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zeichnungen zu verfeinern.
@@ -267,17 +269,15 @@ Die TechDraw Werkzeuge können in [Makros](macros/de.md) oder aus der [Python](P
 
 ## Tutorien
 
+-   [TechDraw Grundlagentutorium](Basic_TechDraw_Tutorial/de.md)   * Einführung in die Zeichnungserstellung mit dem Arbeitsbereich TechDraw.
+-   [Erstellen einer neuen Vorlage](TechDraw_TemplateHowTo/de.md)   * Anweisungen für die Erstellung einer neuen Seitenvorlage mit Inkscape zur Verwendung im Arbeitsbereich TechDraw.
+-   [TechDraw Vorlagengenerator](TechDraw_TemplateGenerator/de.md)   * Anleitung zum Erstellen eines Makros für die Erstellung einer einfachen Vorlage.
 
-<div class="mw-translate-fuzzy">
+   *   Ein \"paar\" Zeilen Kode, die ein Werkzeug ähnlich dem [Makro TemplateHelper](Macro_TemplateHelper/de.md) ergeben.
 
--   [TechDraw Grundlagentutorium](Basic_TechDraw_Tutorial/de.md)   * Einführung in die Zeichnungserstellung mit dem TechDraw Arbeitsbereich.
--   [Erstellen einer neuen Vorlage](TechDraw_TemplateHowTo/de.md)   * Anweisungen in die Erstellung einer neuen Seitenvorlage in Inkscape zur Benutzung mit dem TechDraw Arbeitsbereich.
--   [Winkelbemaßung an Bohrungen](Measurement_Of_Angles_On_Holes/de.md)   * Anweisungen zum Hinzufügen von Mittellinien und nachfolgenden Winkeldarstellungen auf Bohrungen.
+-   [Maßeintrag für Bohrungswinkel](Measurement_Of_Angles_On_Holes/de.md)   * Anweisungen zum Hinzufügen von Mittellinien und der nachfolgenden Eintragung der Neigungswinkel von Bohrungen.
 -   [Verschiedenes](TechDraw_HowTo_Page/de.md)   * Anweisungen für verschiedene Einstellungen wie Mittelpunktsmarkierungen usw.
--   [Erstellen eines Teilkreises](TechDraw_Pitch_Circle_Tutorial.md)   * Anweisungen zum Hinzufügen eines Teilkreises.
-
-
-</div>
+-   [TechDraw Pitch Circle Tutorial](TechDraw_Pitch_Circle_Tutorial.md)   * Anweisungen zum Hinzufügen eines Teilkreises.
 
 Video Tutorien von sliptonic
 

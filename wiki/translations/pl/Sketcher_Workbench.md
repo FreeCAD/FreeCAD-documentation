@@ -100,15 +100,22 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
    ** <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Rysuje okrąg podając 3 punkty na obwodzie](Sketcher_Create3PointCircle.md)   * Rysuje okrąg z trzech punktów na obwodzie.
 
 -   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *48px;"> [Utwórz krzywą stożkową](Sketcher_CompCreateConic/pl.md)   * Szkicownik oferuje poniższe sekcje o kształcie stożka. W przeciwieństwie do krzywych złożonych mogą być one używane z różnego rodzaju wiązaniami, takimi jak [stycznie](Sketcher_ConstrainTangent/pl.md), [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md), lub [prostopadle](Sketcher_ConstrainPerpendicular.md).
-    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Ellipsa](Sketcher_CreateEllipseByCenter/pl.md)   * Rysuje elipsę według punktu środkowego, głównego promienia i małego promienia.
-    -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipsa przez 3 punkty](Sketcher_CreateEllipseBy3Points/pl.md)   * Rysuje elipsę według średnicy głównej *(2 punkty)* i punktu mniejszego promienia.
-    -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Łuk elipsy przez środek \...](Sketcher_CreateArcOfEllipse/pl.md)   * Rysuje łuk elipsy według punktu środkowego, głównego promienia, punktu początkowego i końcowego.
-    -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Łuk hiperboli przez środek \...](Sketcher_CreateArcOfHyperbola/pl.md)   * Rysuje łuk hiperboli.
-    -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Łuk paraboli](Sketcher_CreateArcOfParabola/pl.md)   * Rysuje łuk paraboli.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width   *32px;"> [Elipsa przez środek](Sketcher_CreateEllipseByCenter/pl.md)   * Rysuje elipsę według punktu środkowego, głównego promienia i małego promienia.
+
+   ** <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width   *32px;"> [Ellipsa przez 3 punkty](Sketcher_CreateEllipseBy3Points/pl.md)   * Rysuje elipsę według średnicy głównej *(2 punkty)* i punktu mniejszego promienia.
+
+   ** <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width   *32px;"> [Łuk elipsy przez środek \...](Sketcher_CreateArcOfEllipse/pl.md)   * Rysuje łuk elipsy według punktu środkowego, głównego promienia, punktu początkowego i końcowego.
+
+   **<img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width   *32px;"> [Łuk hiperboli przez środek \...](Sketcher_CreateArcOfHyperbola/pl.md)   * Rysuje łuk hiperboli.
+
+   **<img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width   *32px;"> [Łuk paraboli](Sketcher_CreateArcOfParabola/pl.md)   * Rysuje łuk paraboli.
 
 -   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width   *48px;"> [Utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)   * Jest to ikona menu na pasku narzędzi Szkicownika, która zawiera następujące polecenia   *
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/pl.md)   * Rysuje krzywą złożoną za pomocą punktów kontrolnych.
-    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Okresowa krzywa złożona przez punkty kontrolne](Sketcher_CreatePeriodicBSpline/pl.md)   * Rysuje okresową *(zamkniętą)* krzywą złożoną za pomocą punktów kontrolnych.
+
+   ** <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/pl.md)   * Rysuje krzywą złożoną za pomocą punktów kontrolnych.
+
+   ** <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Okresowa krzywa złożona przez punkty kontrolne](Sketcher_CreatePeriodicBSpline/pl.md)   * Rysuje okresową *(zamkniętą)* krzywą złożoną za pomocą punktów kontrolnych.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *32px;"> [Utwórz linię łamaną w szkicu](Sketcher_CreatePolyline/pl.md)   * Rysuje linię złożoną z wielu segmentów linii. Naciśnięcie klawisza **M** podczas rysowania polilinii przełącza pomiędzy różnymi trybami.
 
@@ -192,9 +199,14 @@ Są to wiązania ściśle powiązane z danymi liczbowymi, dla których można u�
 
 -   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width   *32px;"> [Wiązanie odległości \...](Sketcher_ConstrainDistance/pl.md)   * Określa odległość wybranej linii przez związanie jej długości, lub określa odległość między dwoma punktami przez związanie odległości między nimi.
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Zwiąż promień](Sketcher_ConstrainRadius/pl.md)   * Określa promień wybranego łuku lub okręgu poprzez związanie promienia.
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Średnica](Sketcher_ConstrainDiameter/pl.md)   * Definiuje średnicę wybranego łuku lub okręgu poprzez związanie średnicy.
--   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam/pl.md)   * Automatycznie definiuje promień / średnicę wybranego łuku lub okręgu *(waga dla bieguna B-spline, średnica dla pełnego okręgu, promień dla łuku)* {{Version/pl|0.20}}.
+-   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width   *48px;"> [Komponent wiązanie promień średnica](Sketcher_CompConstrainRadDia/pl.md)   * Jest to menu ikonek na pasku narzędziowym wiązań Szkicownika, które zawiera następujące polecenia   *
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Zwiąż promień](Sketcher_ConstrainRadius/pl.md)   * Określa promień wybranego łuku lub okręgu poprzez związanie promienia.
+
+   ** <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Średnica](Sketcher_ConstrainDiameter/pl.md)   * Definiuje średnicę wybranego łuku lub okręgu poprzez związanie średnicy.
+
+   ** <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam/pl.md)   * Automatycznie definiuje promień / średnicę wybranego łuku lub okręgu *(waga dla bieguna B-spline, średnica dla pełnego okręgu, promień dla łuku)* {{Version/pl|0.20}}.
+
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *32px;"> [Ustaw kąt linii \...](Sketcher_ConstrainAngle/pl.md)   * Określa kąt wewnętrzny między dwiema wybranymi liniami.
 
 #### Wiązania specjalne 
@@ -295,7 +307,7 @@ Każdy użytkownik CAD z biegiem czasu rozwija swój własny sposób pracy, ale 
 -   Zawsze twórz profil zamknięty, inaczej Twój szkic nie stworzy bryły, ale raczej zestaw otwartych ścian. Jeśli nie chcesz, aby niektóre obiekty zostały włączone do bryły, przekształć je w elementy konstrukcyjne za pomocą narzędzia **Tryb konstrukcji**.
 -   Użyj funkcji automatycznych wiązań, aby ograniczyć liczbę wiązań, które musisz dodać ręcznie.
 -   Z reguły najpierw należy zastosować ograniczenia geometryczne, potem ograniczenia wymiarowe, a następnie zablokować szkic jako ostatni. Ale pamiętaj   * reguły są tworzone po to, aby je łamać. Jeśli masz problemy z manipulowaniem szkicem, przydatne może być związanie najpierw kilku obiektów przed ukończeniem profilu.
--   Jeśli to możliwe, wyśrodkuj szkic do punktu początkowego *(0,0)* z wiązaniem blokady. Jeśli Twój szkic nie jest symetryczny, zlokalizuj jeden z jego punktów w punkcie początkowym lub wybierz ładne okrągłe liczby dla odległości blokady. W wersji **v0.12** nie są zaimplementowane zewnętrzne wiązania *(ograniczające szkic do istniejącej geometrii 3D, takiej jak krawędzie lub inne szkice)*. Oznacza to, że aby zlokalizować kolejne szkice geometrii do pierwszego szkicu, należy ręcznie ustawić odległości względem pierwszego szkicu. Wiązanie blokady *(25,75)* z punktu początkowego jest łatwiejsze do zapamiętania niż *(23,47,73.02)*.
+-   Jeśli to możliwe, wyśrodkuj szkic do punktu początkowego *(0,0)* z wiązaniem blokady. Jeśli Twój szkic nie jest symetryczny, zlokalizuj jeden z jego punktów w punkcie początkowym lub wybierz ładne okrągłe liczby dla odległości blokady.
 -   Jeśli masz możliwość wyboru między wiązaniem długości a wiązaniem poziomym lub pionowym, preferowane są te ostatnie. Ograniczenia odległości poziomej i pionowej są mniej obciążające obliczeniowo.
 -   Ogólnie rzecz biorąc, najlepsze ograniczenia, których należy użyć, to   *
     Wiązania poziome i pionowe; Wiązania poziome i pionowe długości; Styczność punkt-punkt.

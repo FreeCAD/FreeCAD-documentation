@@ -1,4 +1,7 @@
 # Macro FC element selector/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png
@@ -12,9 +15,18 @@
 |SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb.md) [<img src=images/Macro_Mouse_over_cb.png style="width   *24px">
 }}
 
+
+</div>
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questa macro mostra tutti gli elementi sotto il mouse (verranno visualizzati anche tutti gli elementi coperti da altri elementi)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -211,7 +223,13 @@ element_selector()
 
 Discussione sul foro [Selecting internal faces of a pressure vessel](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
 
+
+<div class="mw-translate-fuzzy">
+
 Altra similare macro [Macro Mouse over cb](Macro_Mouse_over_cb.md)
+
+
+</div>
 
 
 

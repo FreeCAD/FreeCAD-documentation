@@ -173,12 +173,12 @@ La boîte de dialogue des dimensions propose les paramètres suivants    *
         
         \- le contenu de **Format Spec** sera affiché sous forme de texte à la place si la valeur de la dimension.
 
--    **Arbitrary Tolerances**   * Comme **Arbitrary**, mais pour la tolérance.
+-    **Arbitrary Tolerances**   * comme **Arbitrary**, mais pour la tolérance.
 
 
 {{Properties_Title|Override}}
 
--    **AngleOverride**   * Indique si la direction des lignes de cote et d\'extension est remplacée.
+-    **AngleOverride**   * indique si la direction des lignes de cote et d\'extension est remplacée.
 
    *   
 
@@ -192,9 +192,9 @@ La boîte de dialogue des dimensions propose les paramètres suivants    *
         
         \- les directions sont remplacées par les valeurs des propriétés LineAngle et ExtensionAngle.
 
--    **LineAngle**   * Angle de la ligne de cote avec l\'axe X de la vue (en degrés).
+-    **LineAngle**   * angle de la ligne de cote avec l\'axe X de la vue (en degrés).
 
--    **ExtensionAngle**   * Angle de la ou des lignes d\'extension avec l\'axe X de la vue (en degrés).
+-    **ExtensionAngle**   * angle de la ou des lignes d\'extension avec l\'axe X de la vue (en degrés).
 
 ### Vue
 
@@ -209,6 +209,10 @@ La boîte de dialogue des dimensions propose les paramètres suivants    *
 -    **Font**   * nom de la police à utiliser pour le texte de cote.
 
 -    **Font Size**   * taille du texte.
+
+-    **Gap Factor ASME**   * ajuste l\'écart entre les points de dimension et le début des lignes d\'extension. L\'écart est égal à cette valeur multipliée par la largeur de la ligne. {{Version/fr|1.0}}
+
+-    **Gap Factor ISO**   * ajuste l\'écart entre les points de dimension et le début des lignes d\'extension. L\'écart est égal à cette valeur multipliée par la largeur de la ligne. {{Version/fr|1.0}}
 
 -    **Line Width**   * épaisseur de la ligne de cote.
 

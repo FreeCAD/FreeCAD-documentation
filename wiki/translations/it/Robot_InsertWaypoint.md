@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Inserisce in una traiettoria il punto della posizione corrente del robot
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -25,6 +29,8 @@ Inserisce in una traiettoria il punto della posizione corrente del robot
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

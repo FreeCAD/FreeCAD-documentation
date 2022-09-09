@@ -24,6 +24,10 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ## User interface 
 
+   
+  <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width   *384px;">   The display style of measurement results created using the Part or PartDesign workbench can now be changed in the [preferences](PartDesign_Preferences.md) in the tab *Measure*. [Pull request \#7148](https   *//github.com/FreeCAD/FreeCAD/pull/7148)
+   
+
 ### Further user interface improvements 
 
 -   It is now possible to set a default transparency for new [Part](Part_Module.md) or [PartDesign](PartDesign_Workbench.md) objects in the [Preferences](PartDesign_Preferences.md). [Pull request \#7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103)
@@ -47,6 +51,9 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 
 <div class="mw-collapsible-content">
+-   *BSplineSurfacePy   *   *scaleKnotsToBounds*   * Scales the U and V knots lists to fit the specified bounds. [PR 7258](https   *//github.com/FreeCAD/FreeCAD/pull/7258) and [PR 7385](https   *//github.com/FreeCAD/FreeCAD/pull/7385)
+-   *BSplineCurvePy   *   *scaleKnotsToBounds*   * Scales the knots list to fit the specified bounds. [PR 7385](https   *//github.com/FreeCAD/FreeCAD/pull/7385)
+
 -   *ShapeFix\_EdgeConnectPy*   * Root class for fixing operations. [commit 4d4adb93](https   *//github.com/FreeCAD/FreeCAD/commit/4d4adb93)
 -   *ShapeFix\_EdgePy*   * Fixing invalid edge. [commit 4089cbfb](https   *//github.com/FreeCAD/FreeCAD/commit/4089cbfb)
 -   *ShapeFix\_FaceConnectPy*   * Rebuilds connectivity between faces in shell. [commit a0eb2e9d](https   *//github.com/FreeCAD/FreeCAD/commit/a0eb2e9d)
@@ -72,7 +79,10 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 
 
-#### Changed Python API 
+#### Removed Python API 
+
+-   *FreeCAD.EndingAdd*   * replaced by *FreeCAD.addImportType*. [PR 7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
+-   *FreeCAD.EndingGet*   * replaced by *FreeCAD.getImportType*. [PR 7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
 
 
 
@@ -85,13 +95,27 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ## Arch Workbench 
 
+### Further Arch improvements 
+
+-   Profile objects now support modification of profile type after creation. [Pull request \#7217](https   *//github.com/FreeCAD/FreeCAD/pull/7217)
+
 ## Draft Workbench 
+
+-   Inaccuracy of [Draft Snap Near](Draft_Snap_Near.md) when snapping to curves was fixed. In addition, [Draft Snap Perpendicular](Draft_Snap_Perpendicular.md) can now snap also to faces and find multiple points. Moreover, to snap to a vertex (e.g. a [Draft Point](Draft_Point.md)) [Draft Snap Endpoint](Draft_Snap_Endpoint.md) must now be used instead of [Draft Snap Near](Draft_Snap_Near.md). [Pull request \#7132](https   *//github.com/FreeCAD/FreeCAD/pull/7132)
 
 ### Further Draft improvements 
 
 ## FEM Workbench 
 
+   
+  <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width   *384px;">Simulation result where 8 mesh regions are visible (one for every CPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) with multiple CPU cores parallel. For more info about the caveats, see [this forum post](https   *//forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request \#7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
+   
+
 ### Further FEM improvements 
+
+-   There is now an <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) to set the initial internal pressure of fluids. [Pull request \#7364](https   *//github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *32px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) has now a task panel and it is possible to set the heat to several bodies or to use several constraints for different bodies in one analysis. [Pull request \#7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
+-   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request \#7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 
 ## Export
 
@@ -134,9 +158,14 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ## TechDraw Workbench 
 
+   
+  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width   *384px;">   A new [SurfaceFinishSymbol](TechDraw_SurfaceFinishSymbol.md) tool was added to allow for the creation of surface finish symbols describing roughness, lay and waviness but also denoting the type of surface treatment. It supports both ISO and ASME style. As shown in the image, the existing [LeaderLine](TechDraw_LeaderLine.md) tool can be used to refer properly oriented symbols to all the edges of an object. [Pull request \#7227](https   *//github.com/FreeCAD/FreeCAD/pull/7227)
+   
+
 ### Further TechDraw improvements 
 
--   Support for adjustable gaps for extension lines was added [Pull request \#7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133).
+-   Support for adjustable gaps for extension lines of [dimensions](TechDraw_Preferences#Dimensions.md) was added. [Pull request \#7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133)
+-   Removed deprecated functions   * DrawViewPart   *   *replaceCenterLine, DrawViewPart   *   *replaceCosmeticEdge, DrawViewPart   *   *replaceCosmeticVertex, DrawViewPart   *   *replaceGeomFormat
 
 ## Web
 

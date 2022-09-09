@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Das**Std Makromenü** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
+Das **Std Menü Makro** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
 
 
 {{StdMenu
@@ -25,7 +25,7 @@ Das**Std Makromenü** ist eines der 7 Untermenüs im [Standardmenü](Standard_Me
 [Hilfe](Std_Help_Menu/de.md)
 }}
 
-Das Makromenü bietet Werkzeuge für die Aufnahme und Ausführung von [Makros](Macros/de.md).
+Das Menü Makro stellt Werkzeuge bereit für die Aufnahme und Ausführung von [Makros](Macros/de.md).
 
 ## Werkzeuge
 

@@ -10,55 +10,46 @@
 
 # PartDesign SubtractiveWedge/ru
 
-
-</div>
-
 ## Описание
 
-Inserts a subtractive wedge in the active Body. Its shape is subtracted from the existing solid.
+Вставляет субтрактивный клин в активное Тело. Его форма вычитается из существующего тела.
 
-![](images/PartDesign_SubtractiveWedge_example.svg ) *On the left   * active body (A) shown in grey and subtractive wedge (B) shown in transparent red; result on the right.*
+![](images/PartDesign_SubtractiveWedge_example.svg ) *Слева   * активное тело (A) отображено серым цветом, к которому добавлен субтрактивный клин (B) отображен прозрачным красным цветом. Справа   * форма полученная в результате преобразования.*
 
 ## Применение
 
-1.  Press the **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Subtractive Wedge'''** button. **Note**   * the Subtractive Wedge is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Wedge, click on the down arrow besides the visible icon and select Subtractive Wedge in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
-3.  Click **OK**.
-4.  A Wedge feature appears under the active Body.
+1.  Нажмите кнопку **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Субтрактивный клин'''**. **Примечание**   * Инструмент Субтрактивный клин входит в состав меню с названием \"Создать субтрактивный примитив\". После запуска FreeCAD на панели инструментов в этом меню по умолчанию отображается инструмент Аддитивный куб. Чтобы перейти к кнопке создания Клина, нажмите на стрелку указывающую вниз рядом со значком и выберите Субтрактивный клин в выпадающем меню.
+2.  Установите параметры геометрической формы и [настройки крепления](Part_EditAttachment/ru.md) к уже существующим конструктивным элементам, если это требуется.
+3.  Нажмите **OK**.
+4.  Конструктивный элемент Клин появится в иерархии документа под активным Телом.
 
 ## Опции
 
-The Wedge can be edited after its creation in two ways   *
+Параметры Клина после его создания можно изменить двумя способами   *
 
--   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
--   Via the [Property editor](Property_editor.md).
+-   Дважды щелкнув по нему в дереве модели или щелкнув правой кнопкой мыши и выбрав **Редактировать примитив** в контекстном меню; это откроет окно параметров примитива.
+-   Через [Редактор свойств](Property_editor/ru.md).
 
 ## Свойства
 
-Using the default placement, the below inputs are   *
+При положении по умолчанию, приведенные ниже входные данные являются   *
 
--    **X min/max**   * Base face X axis span
+-    **X min/max**   * Размеры основания по оси X
 
--    **Y min/max**   * Wedge height span
+-    **Y min/max**   * Высота клина по оси Y
 
--    **Z min/max**   * Base face Z axis span
+-    **Z min/max**   * Размеры основания по оси Z
 
--    **X2 min/max**   * Top face X axis span
+-    **X2 min/max**   * Размеры вершины по оси X
 
--    **Z2 min/max**   * Top face Z axis span
+-    **Z2 min/max**   * Размеры вершины по оси Z
 
-## Pyramids
+## Пирамиды
 
-Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max** each so that min = max.
-
-
-<div class="mw-translate-fuzzy">
+Инструмент Клин можно использовать для создания пирамид, если установить свойства Клина   * **X2 min/max** и **Z2 min/max** так, чтобы min = max.
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

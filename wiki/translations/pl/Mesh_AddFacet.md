@@ -8,11 +8,11 @@
 
 # Mesh AddFacet/pl
 
-## Description
+## Opis
 
-The **Mesh AddFacet** command adds faces along a boundary of an open mesh object. It can be used to fill holes.
+Polecenie Dodaj element środowiska Siatka dodaje powierzchnie wzdłuż granicy otwartego obiektu siatkowego. Można go użyć do wypełnienia otworów.
 
-## Usage
+## Użycie
 
 1.  During the command edit mode will be active. In this mode it is impossible to rotate or pan the [3D view](3D_view.md), although zooming still works. But you can temporarily switch out of edit mode with the [Std ToggleNavigation](Std_ToggleNavigation.md) command should you need to change the view.
 2.  Select a single open mesh object.

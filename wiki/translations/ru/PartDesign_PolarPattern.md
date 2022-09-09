@@ -1,26 +1,24 @@
 ---
 - GuiCommand   */ru
-   Name   *PartDesign PolarPattern
-   Name/ru   *PartDesign PolarPattern
-   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation   *PartDesign -> Круговой массив
+   Name/ru   *Круговой массив
+   Name   *PartDesign_PolarPattern
+   MenuLocation   *Part Design → Apply a pattern → Круговой массив
+   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso   *[Множественное преобразование](PartDesign_MultiTransform/ru.md)
 ---
 
 # PartDesign PolarPattern/ru
 
+## Описание
 
-</div>
-
-## Description
-
-The <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *24px;"> **PartDesign PolarPattern** tool creates a polar pattern of one or more features.
+Инструмент <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *24px;"> **Круговой массив** создаёт круговой массив из одного или нескольких элементов.
 
 ![](images/PartDesign_PolarPattern_example.png ) 
 *A slot-shaped pocket (B) made on top of a base pad (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.*
 
-## Usage
+## Применение
 
-### Create
+### Создание массива 
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
 2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
@@ -32,7 +30,7 @@ The <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *24px;"> 
 6.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
 
-### Edit
+### Изменение
 
 1.  Do one of the following   *
     -   Double-click the PolarPattern object in the [Tree view](Tree_view.md).
@@ -40,7 +38,7 @@ The <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *24px;"> 
 2.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-## Options
+## Опции
 
 -   To add features   *
     1.  Press the **Add feature** button.
@@ -106,7 +104,7 @@ If some of the selected features are additive and others subtractive, their orde
 ![](images/PartDesign_feature-order.gif ) 
 *Effect of the feature order*
 
-## Limitations
+## Ограничения
 
 -   Any shape in the pattern that does not overlap the parent feature will be excluded. This ensures that a PartDesign Body always consists of a single, connected solid.
 -   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a large number of instances you should consider using a [Draft PolarArray](Draft_PolarArray.md) instead, combined with a Part boolean operation. This may require major changes to your model as you are leaving PartDesign and therefore cannot simply continue with further PartDesign features in the same body. An example is shown in [this Forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=55192).

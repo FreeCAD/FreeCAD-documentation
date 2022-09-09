@@ -1,21 +1,22 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Part Measure Clear All
-   MenuLocation   *Measure → Clear All
-   Workbenches   *[Part](Part_Workbench.md)
+   Name/pl   *Część   * Usuń wymiary
+   MenuLocation   *Wymiarowanie → Usuń wymiary
+   Workbenches   *[Część](Part_Workbench/pl.md)
 ---
 
 # Part Measure Clear All/pl
 
-## Description
+## Opis
 
-This tool clears all measurements from the 3D view.
+To narzędzie usuwa wszystkie pomiary z okna widoku 3D.
 
-## Usage
+## Użycie
 
-1.  Invoke the command several ways   *
-    -   Press the **[<img src=images/Part_Measure_Clear_All.svg style="width   *16px"> [Clear All](Part_Measure_Clear_All.md)** button.
-    -   Use the **Measure → Clear All**
+1.  Polecenie to można wywołać na kilka sposobów   *
+    -   Naciśnij przycisk **[<img src=images/Part_Measure_Clear_All.svg style="width   *16px"> '''Usuń wymiary'''**.
+    -   Użyj polecenia z menu **Wymiarowanie → Usuń wymiary**
 
 
 

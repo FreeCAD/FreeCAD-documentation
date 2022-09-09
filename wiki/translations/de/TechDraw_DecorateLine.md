@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */de
    Name   *TechDraw DecorateLine
-   Name/de   *TechDraw AusgestaltenLinie
-   MenuLocation   *TechDraw → Ändern Erscheinung von Linie(n)
+   Name/de   *TechDraw LiniendarstellungÄndern
+   MenuLocation   *TechDraw → Liniendarstellung ändern
    Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Version   *0.19
    SeeAlso   *[TechDraw  Mittelinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw  Kosmetik Radierer](TechDraw_CosmeticEraser/de.md)
@@ -12,36 +12,29 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug AusgestaltenLinie ändert die Darstellung von Kanten.
-
-
-</div>
+Das Werkzeug Liniendarstellung ändern ändert die Darstellung von Kanten.
 
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
 
 
 
-*Beispielkanten vor der Ausgestaltung*
+*Beispielkanten vor der Änderung*
 
 <img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width   *180px;">
 
 
 
-*Beispielkanten nach der Ausgestaltung*
+*Beispielkanten nach der Änderung*
 
 ## Anwendung
 
-1.  Wähle eine oder mehrere Linien in der Ansicht aus.
-2.  Klicke die **<img src="images/TechDraw_DecorateLine.svg" width=16px> [Ändern Darstellung von Linie(n)](TechDraw_DecorateLine/de.md)
-**
-3.  Ein Dialog öffnet sich , in dem du die Farbe, den Stil, die Dicke und die Sichtbarkeit der ausgewählten Kanten ändern kannst.
+1.  Eine oder mehrere Linien in einer Ansicht auswählen.
+2.  Die Schalfläche **<img src="images/TechDraw_DecorateLine.svg" width=16px> [Liniendarstellung ändern](TechDraw_DecorateLine/de.md)** drücken.
+3.  Es öffnet sich Dialog zum Ändern von Farbe, Linienart, Strichstärke und Sichtbarkeit der ausgewählten Kanten.
 
 ## Eigenschaften
 
-Das Werkzeug, welches die Darstellung von Linien ändert ist kein Objekt innerhalb der Zeichnung und hat deshalb keine Eigenschaften.
+Das Werkzeug Liniendarstellung hat keine Eigenschaften, da es kein Dokumentobjekt (App DocumentObject) ist.
 
 ## Skripten
 
@@ -50,7 +43,7 @@ Das Werkzeug, welches die Darstellung von Linien ändert ist kein Objekt innerha
 
 [TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-AusgestaltenLinie ist zur Zeit noch nicht zugänglich aus [Makros](Macros/de.md) oder die [Python](Python/de.md) Konsole.
+Liniendarstellung ändern ist zur Zeit noch nicht aus [Makros](Macros/de.md) oder der [Python](Python/de.md)-Konsole zu erreichen.
 
 
 

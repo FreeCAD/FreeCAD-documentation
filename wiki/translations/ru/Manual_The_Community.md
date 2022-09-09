@@ -37,12 +37,18 @@
 
 **Читать далее**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Форум FreeCAD](http   *//forum.freecadweb.org)
 -   [Исходные коды FreeCAD](https   *//github.com/FreeCAD/FreeCAD)
 -   [Сообщество FreeCAD на Facebook](https   *//www.facebook.com/FreeCAD)
 -   [Вики-документация FreeCAD](http   *//www.freecadweb.org/wiki)
 -   [Перевод FreeCAD на crowdin](https   *//crowdin.com/project/freecad)
 -   [Отслеживание ошибок FreeCAD](http   *//www.freecadweb.org/tracker)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

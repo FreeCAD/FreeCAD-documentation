@@ -5,6 +5,7 @@
    FCVersion   *0.20 et ultérieure
    Time   *40 minutes
    Author   *[FBXL5](User_FBXL5.md)
+   SeeAlso   *[Tutoriel Assemblage cinématique](Tutorial_KinematicAssembly/fr.md), [Tutoriel Contrôleur cinématique](Tutorial_KinematicController/fr.md)
 ---
 
 # Tutorial KinematicSkeleton/fr
@@ -39,7 +40,7 @@ Les corps, et leurs esquisses, qui sont utilisés dans ce montage    *
 <img alt="" src=images/Assembly3_SketchSkeleton-01.png  style="width   *400px;"> 
 *Les huit esquisses sont colorées individuellement et positionnées manuellement en déplaçant leurs corps parents*
 
-La forme peut s\'écarter de celle de la pièce réelle, mais la position du joint définissant la géométrie doit être précise.
+La forme peut s\'écarter de celle de la pièce réelle, mais la position de l\'articulation définissant la géométrie doit être précise.
 
 ### Conteneurs d\'assemblage 
 
@@ -115,7 +116,7 @@ La dernière liaison de cette chaîne cinématique relie deux éléments dont le
 <img alt="" src=images/Assembly3_SketchSkeleton-10.png  style="width   *300px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/Assembly3_SketchSkeleton-11.png  style="width   *300px;"> 
 *Cercles sur la plaque supérieure et la tige 1 sélectionnés → Tige 1 déplacée, manivelle et plaque supérieure inclinées*
 
-Si les 3 liaisons sont co-linéaires (celles qui appartiennent à la manivelle et à la tige 1), le solveur peut échouer à réorganiser les objets. Dans ce cas, nous devons aider le solveur et incliner un objet (par exemple la manivelle) manuellement en utilisant l\'outil <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> [Axial move](Assembly3_AxialMove/fr.md).
+Si les axes Z de trois éléments ou articulations sont parallèles et se trouvent sur le même plan virtuel, le solveur peut échouer à les réarranger dans une étape suivante parce qu\'il est incapable de décider dans quelle direction l\'articulation centrale doit être tournée. Cela peut se produire pour l\'élément tige 1, l\'articulation manivelle - tige 1 et l\'articulation base - manivelle que nous avons ici. Dans ce cas, nous devons aider le solveur et faire tourner un objet (par exemple la manivelle) manuellement en utilisant l\'outil <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> [Axial move](Assembly3_AxialMove/fr.md).
 
 #### Plaque supérieure - tige 2 
 
@@ -173,7 +174,7 @@ L\'assemblage cinématique terminé avec la représentation désactivée des él
 
 Mes attentes concernant l\'attachement d\'un nouvel objet à un objet de base appartenant à un assemblage cinématique étaient quelque chose comme    *
 
--   Placer le nouvel objet dans le conteneur Parts des objets de base.
+-   Placer le nouvel objet dans le conteneur Parts de l\'objet de base.
 -   Positionner le nouvel objet par rapport à l\'objet de base.
 -   Fixer le décalage et l\'orientation relatifs à l\'aide de la contrainte Attachment.
 
@@ -187,7 +188,7 @@ Attachons la tige 4-3D à la tige 4 par exemple    *
 
 Les objets ont une orientation différente et l\'objet 3D doit avoir un décalage par rapport à l\'objet 2D.
 
-1.  Placez le nouvel objet dans le conteneur Parts des objets de base.
+1.  Placez le nouvel objet dans le conteneur Parts de l\'objet de base.
 2.  Sélectionnez deux cercles ou arcs correspondants.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintAttachment.svg‎‎" width=16px> [Create "Attachment" constraint](Assembly3_ConstraintAttachment/fr.md)**.
 

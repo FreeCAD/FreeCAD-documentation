@@ -1,7 +1,7 @@
 # SheetMetal Examples
 ## Introduction
 
-The SheetMetal workbench has grown quite powerful now and it demands an appropriate documentation.
+The <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width   *24px;"> [SheetMetal workbench](SheetMetal_Workbench.md) (an [external workbench](External_workbenches.md) available through the [Addon Manager](Std_AddonMgr.md)) has grown quite powerful and merits to be appropriately documented.
 
 To avoid the overcrowding of the tool pages with examples this page was added to collect parts showing and explaining special SheetMetal features.
 
@@ -358,6 +358,18 @@ The round option will only be applied, if the relief depth is larger than the re
 Switch **Use Relief Factor** from `False` (default) to `True` to set the values of **reliefd** and **reliefw** automatically. Both are set to the object\'s (inherited) thickness multiplied by the value of **Relief Factor**.
 
    *   In this case the round option is useless, since the relief depth is as large as the relief width. (See above)
+
+A new property **Length Spec** <small>(v1.0)</small>  enables us to choose how to measure the length of the Bend object   *
+
+ <img alt="" src=images/SheetMetal_Example-09t.png  style="width   *500px;">  
+*Side view of four 120° flanges with default length (10 mm) and different **Length Spec* values   * <br> {{value|Leg** (default), {{value|Outer Sharp}}, {{value|Inner Sharp}}, {{value|Tangential}}}}
+
+With the {{value|Tangential}} option selected the property **length** is the equivalent of the flange length.
+
+
+{{value|Outer Sharp}}
+
+and {{value|Tangential}} are identical for 90° angles.
 
 
 </div>

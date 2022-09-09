@@ -18,88 +18,88 @@ Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *
 
 ## Użycie
 
-### Create
+### Tworzenie
 
-1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
-2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-3.  There are several ways to invoke the tool   *
-    -   Press the **<img src="images/PartDesign_LinearPattern.svg" width=16px> [LinearPattern](PartDesign_LinearPattern.md)** button.
-    -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_LinearPattern.svg" width=16px> LinearPattern** option from the menu.
-4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
-5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
-6.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-7.  Press the **OK** button to finish.
+1.  Opcjonalnie [aktywuj](PartDesign_Body/pl#Aktywny_status.md) właściwą bryłę.
+2.  Opcjonalnie wybierz jedną lub więcej cech w oknie [widoku](Tree_view/pl.md) lub w [widoku 3D](3D_view/pl.md).
+3.  Istnieje kilka sposobów wywołania narzędzia   *
+    -   Naciśnij przycisk **<img src="images/PartDesign_LinearPattern.svg" width=16px> [Szyk liniowy](PartDesign_LinearPattern/pl.md)**.
+    -   Wybierz z menu **Projekt Części → Zastosuj wzór → <img src="images/PartDesign_LinearPattern.svg" width=16px> Szyk liniowy**.
+4.  Jeśli nie ma aktywnej Zawartości, a w dokumencie są dwie lub więcej Zawartości, otworzy się okno dialogowe **Wymagana jest aktywna Zawartość** i poprosi o uaktywnienie jednej z nich. Jeśli istnieje jedna Zawartość, zostanie ona aktywowana automatycznie.
+5.  Jeśli nie wybrano żadnych cech, zostanie wyświetlone okno dialogowe **Wybierz cechę** otworzy się [panel zadań](Task_panel/pl.md)   * wybierz jedną lub więcej *(przytrzymaj klawisz **Ctrl**)* z listy i naciśnij przycisk **OK**.
+6.  Otwórz [panel zadań](Task_panel/pl.md) Parametry **Szyku liniowego**. Więcej informacji na ten temat można znaleźć w sekcji [Opcje](#Opcje.md).
+7.  Naciśnij przycisk **OK**, aby zakończyć.
 
-### Edit
+### Edycja
 
-1.  Do one of the following   *
-    -   Double-click the LinearPattern object in the [Tree view](Tree_view.md).
-    -   Right-click the LinearPattern object in the [Tree view](Tree_view.md) and select **Edit LinearPattern** from the context menu.
-2.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+1.  Wykonaj jedną z następujących czynności   *
+    -   Kliknij dwukrotnie obiekt Szyk Liniowy w oknie [widoku drzewa](Tree_view/pl.md).
+    -   Kliknij prawym przyciskiem myszy obiekt Szyk Liniowy w oknie [widoku drzewa](Tree_view/pl.md) i wybierz opcję **Edytuj Szyk Liniowy** z menu kontekstowego.
+2.  Otworzy się [panel zadań](Task_panel/pl.md) **Parametry Szyku liniowego**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+3.  Naciśnij przycisk **OK**, aby zakończyć.
 
 ## Opcje
 
--   To add features   *
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features   *
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following   *
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
--   Specify the **Direction** of the pattern   *
+-   Aby dodać cechy   *
+    1.  Naciśnij przycisk **Dodaj cechę**.
+    2.  Wybierz cechę w oknie [Widoku drzewa](Tree_view/pl.md) lub w oknie [Widoku 3D](3D_view/pl.md).
+    3.  Powtórz, aby dodać więcej cech.
+-   Aby usunąć cechy   *
+    1.  Naciśnij przycisk **Usuń cechę**.
+    2.  Wykonaj jedną z następujących czynności   *
+        -   Wybierz cechę w oknie [Widoku drzewa](Tree_view/pl.md) lub w oknie [Widoku 3D](3D_view/pl.md).
+        -   Zaznacz cechę na liście i naciśnij klawisz **Del**.
+        -   Kliknij prawym przyciskiem myszy cechę na liście i wybierz z menu podrzędnego opcję **Usuń**.
+    3.  Powtórz czynność, aby usunąć więcej cech.
+-   Jeśli we wzorcu znajduje się kilka cech, ich kolejność może być ważna. Zobacz stronę [Projekt Części   * Szyk kołowy](PartDesign_PolarPattern/pl#Oczekiwane_funkcje.md).
+-   Określenie **Kierunku** wzorca   *
     -   
-        **Normal sketch axis**
+        **Normalna oś szkicu**
         
-           * The Z axis of the sketch (only available for sketch-based features).
+           * Oś Z szkicu *(dostępna tylko dla cech opartych na szkicu)*.
 
     -   
-        **Vertical sketch axis**
+        **Pionowa oś szkicu**
         
-           * The Y axis of the sketch (idem).
+           * Oś Y szkicu *(analogicznie)*.
 
     -   
-        **Horizontal sketch axis**
+        **Pozioma oś szkicu**
         
-           * The X axis of the sketch (idem).
+           * Oś X szkicu *(analogicznie)*.
 
     -   
-        **Construction line #**
+        **Linia konstrukcyjna #**
         
-           * A separate entry for each construction line in the sketch (idem).
+           * Osobny wpis dla każdej linii konstrukcyjnej w szkicu *(analogicznie)*.
 
     -   
-        **Base X axis**
+        **Podstawowa oś X**
         
-           * The X axis of the Body.
+           * Oś X Zawartości.
 
     -   
-        **Base Y axis**
+        **Podstawowa oś Y**
         
-           * The Y axis of the Body.
+           * Oś Y Zawartości.
 
     -   
-        **Base Z axis**
+        **Podstawowa oś Z**
         
-           * The Z axis of the Body.
+           * Oś Z Zawartości.
 
     -   
-        **Select reference...**
+        **Wybór odniesienia...**
         
-           * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
--   Check the **Reverse direction** checkbox to reverse the pattern.
--   Specify the **Length** to be covered by the pattern.
--   Specify the number of **Occurrences** (including the original feature).
--   If the **Update view** checkbox is checked the view will update in real time.
+           * Wybierz [Linię odniesienia](PartDesign_Line/pl.md) w oknie [Widok drzewa](Tree_view/pl.md) lub [Linię odniesienia](PartDesign_Line/pl.md) lub krawędź w oknie [Widok 3D](3D_view/pl.md).
+-   Zaznacz pole wyboru **Odwróć kierunek**, aby odwrócić wzór.
+-   Określ **Długość**, która ma zostać objęta wzorcem.
+-   Określ liczbę **Wystąpień** *(łącznie z cechą oryginalną)*.
+-   Jeśli zaznaczone jest pole wyboru **Aktualizuj widok**, widok będzie aktualizowany w czasie rzeczywistym.
 
 ## Ograniczenia
 
-See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
+Zobacz stronę o ograniczeniach [Szyku kołowego](PartDesign_PolarPattern/pl#Ograniczenia.md).
 
 
 

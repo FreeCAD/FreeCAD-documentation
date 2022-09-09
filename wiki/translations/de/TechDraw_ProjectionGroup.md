@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */de
    Name   *TechDraw ProjectionGroup
-   Name/de   *TechDraw ProjektionsGruppe
-   MenuLocation   *TechDraw → Projektionsgruppe einfügen
+   Name/de   *TechDraw Ansichtengruppe
+   MenuLocation   *TechDraw → Ansichtengruppe einfügen
    Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso   *[TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Schnitt Ansicht einfügen](TechDraw_SectionView/de.md)
 ---
@@ -11,54 +11,50 @@
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *24px;"> [ProjektionsGruppe](TechDraw_ProjectionGroup/de.md) Werkzeug erstellt eine [Mehrfachansichtsprojektion](https   *//en.wikipedia.org/wiki/Multiview_projection) einer oder mehrerer 3D Objekte. Die isometrischen Ansichten der vier Frontecken können ebenfalls eingeschlossen werden.
+Das Werkzeug <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *24px;"> [Ansichtengruppe](TechDraw_ProjectionGroup/de.md) erstellt eine Mehrtafelprojektion eines oder mehrerer 3D-Objekte (Siehe [Normalprojektion](https   *//de.wikipedia.org/wiki/Normalprojektion)). Die isometrischen Ansichten der vier Frontecken können ebenfalls enthalten sein.
 
-Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, ProjektionsGruppe zu verwenden; nutze statt dessen [Ansicht einfügen](TechDraw_View/de.md). Wenn du nicht die herkömmliche [first-](https   *//en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [1](https   *//en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection) verwenden möchtest, solltest du mehrere *Ansichten* ([Ansichten einfügen](TechDraw_View/de.md)) anstelle von *ProjektionsGruppe* verwenden.
+Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichtengruppe keinen Vorteil; stattdessen sollte man [Ansicht](TechDraw_View/de.md) verwenden. Wenn man nicht die herkömmliche europäische Projektion   * Erster Winkel (engl. [first-angle projection](https   *//en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection)) bzw. amerikanische Projektion   * Dritter Winkel (engl. [third-angle projection](https   *//en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection)) verwenden möchte, sollte man mehrmals [Ansicht](TechDraw_View/de.md) anstelle von *Ansichtengruppe* verwenden.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width   *400px;"> 
 *Drei orthogonale Ansichten und eine isometrische Ansicht eines Festkörperobjekts*
 
 ## Anwendung
 
+1.  Wahlweise die [3D-Ansicht](3D_view/de.md) zurechtdrehen. Die Blickrichtung der Kamera in der [3D-Ansicht](3D_view/de.md) legt den Anfangswert der **Hauptrichtung** der Ansichtengruppe (die {{PropertyData/de|Direction}} der zentralen Ansicht).
+2.  Ein oder mehrere Objekte in der [3D-Ansicht](3D_view/de.md) oder [Baumansicht](Tree_view/de.md) auswählen.
+3.  Wenn das Dokument mehrere Zeichnungsblätter enthält, kann das gewünschte Blatt wahlweise zur Auswahl hinzugefügt werden, indem es in der [Baumansicht](Tree_view/de.md) auswählt wird. Dies ist ein Muss für {{VersionMinus/de|0.19}}.
+4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+    -   Die Schaltfläche **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Ansichtengruppe einfügen** auswählen.
+5.  Wenn das Dokument mehrere Zeichnungsblätter enthält und noch kein Blatt ausgewählt wurde, öffnet sich der **Seitenauswahl**-Dialog {{Version/de|0.20}}   *
+    1.  Die gewünscht Seite auswählen.
+    2.  Die Schaltfläche **OK** drücken.
+6.  Der Aufgabenbereich **Ansichtengruppe** wird geöffnet.
+7.  Die Ansichten, die zur Ansichtengruppe hinzugefügt werden sollen sowie den Maßstab der Ansichtengruppe und andere Parameter auswählen.
+8.  Die Schaltfläche **OK** drücken.
+9.  Wahlweise kann die Ansichtengruppe, durch Ziehen der zentralen Ansicht, bewegt werden.
+10. Wahlweise können die anderen Ansichten der Ansichtengruppe relativ zu der zentralen Ansicht bewegt werden, indem man sie jeweils einzeln zieht.
 
-<div class="mw-translate-fuzzy">
-
-1.  Wähle ein oder mehrere *Körper* und/oder *Part* Objekte im 3D Fenster oder Baum. Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du auch die gewünschte Seite in der Baumstruktur auswählen.
-2.  Drücke die **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)** Schaltfläche
-3.  Ein Dialogfeld wird geöffnet, in dem du auswählen kannst, welche Ansichten in der Gruppe erscheinen sollen, den Maßstab der Gruppe und andere Parameter   *
-
-
-</div>
-
-![](images/TaskProjGroup.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Projektionsgruppe [Aufgabenkonsole](Task_panel/de.md). Das zentrale Feld zeigt die aktuelle Blickrichtung mit Prozentsätzen der x, y und z-Achse an.*
-
-
-</div>
+![](images/TaskProjGroup.png ) 
+*[Aufgabenbereich](Task_panel/de.md) Ansichtengruppe. Das Feld ''Anpassen der Hauptrichtung'' zeigt die aktuelle Blickrichtung an.*
 
 ## Eigenschaften
 
--    {{PropertyData/de|Anker}}   * Die zentrale Ansicht in der Projektionsgruppe. Normalerweise die Vorderansicht.
+-    {{PropertyData/de|Anchor}}   * Die zentrale Ansicht in der Ansichtengruppe. Normalerweise die Vorderansicht.
 
--    {{PropertyData/de|ProjektionsTyp}}   * \"Erster Winkel\" oder \"Dritter Winkel\".
+-    {{PropertyData/de|Projection Type}}   * \"Erster Winkel\" (europäisch) oder \"Dritter Winkel\" (amerikanisch).
 
--    {{PropertyData/de|AutoVerteilung}}   * Wenn true, werden einzelne Ansichten automatisch ausgeblendet. Verwende false zur manuellen Positionierung.
+-    {{PropertyData/de|Auto Distribute}}   * Wenn TRUE, werden die einzelnen Ansichten automatisch positioniert. Zur manuellen Positionierung schaltet man auf FALSE um.
 
--    {{PropertyData/de|AbstandX}}   * Horizontaler Abstand zwischen den Ansichten bei automatischer Positionierung. Beachte, dass auch der Maßstab und die Größe der anderen Ansichten in der Gruppe den Abstand beeinflussen.
+-    {{PropertyData/de|spacing X}}   * Horizontaler Abstand zwischen den Ansichten bei automatischer Positionierung. Man beachte, dass auch der Maßstab und die Größe der anderen Ansichten in der Gruppe den Abstand beeinflussen.
 
--    {{PropertyData/de|AbstandY}}   * Vertikaler Abstand zwischen den Ansichten bei automatischer Anordnung.
+-    {{PropertyData/de|Spacing Y}}   * Vertikaler Abstand zwischen den Ansichten bei automatischer Anordnung.
 
-Die Projektionsgruppe als Ganzes erbt X, Y, MaßstabsTyp, Maßstab und Drehung aus der Basisansicht.
+Die Ansichtengruppe als Ganzes erbt X, Y, Scale Type, Scale und Rotation aus der Basisansicht.
 
-Einzelne Ansichten innerhalb der Gruppe erben alle Teilansichtseigenschaften, aber das ProjektionsGruppen Objekt steuert den Maßstab aller seiner Mitgliedsansichten.
+Einzelne Ansichten innerhalb der Gruppe erben alle Eigenschaften der Part-Ansicht, aber das Proj(ektion)Group-Objekt steuert den Maßstab aller seiner Elementansichten.
 
-Die Eigenschaft des Drehvectors jeder einzelnen Ansicht innerhalb der Gruppe ist veraltet seit v0.19. Verwende stattdessen XRichtung.
+Die Eigenschaft RotationVector einzelner Ansichten innerhalb der Gruppe ist veraltet seit v0.19. Stattdessen wird XDirection verwendet.
 
 Beachte, dass der mittlere Kasten die aktuelle Projektionsrichtung der primären Ansicht anzeigt. Sie kann nicht dazu benutzt werden, die Richtung zu ändern.
 
@@ -104,7 +100,7 @@ Das NeueProjGruppe Werkzeug kann in [Makros](Macros/de.md) und von der [Python](
 
 ```
 
-Programmierhinweis   * Die Projektionsgruppe sollte immer zur Seite hinzugefügt werden (z.B. page.addView(group), bevor Projektionen zur Gruppe hinzugefügt werden. Dies ermöglicht es der Projektionsgruppe, von der übergeordneten Seite abgeleitete Standardparameterwerte zu verwenden.
+Programmierhinweis   * Die Ansichtengruppe sollte immer zum Zeichnungsblatt hinzugefügt werden (z.B. page.addView(group), bevor Ansichten zur Gruppe hinzugefügt werden. Dies ermöglicht es der Ansichtengruppe, von der übergeordneten Seite übernommene Parameterwerte als Vorgaben zu verwenden.
 
 
 

@@ -170,9 +170,9 @@ Les ateliers Part et PartDesign peuvent être utilisés ensemble, avec un peu de
 [Haut](#Top/fr.md)
 
 
-  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/fr

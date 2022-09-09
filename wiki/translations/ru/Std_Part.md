@@ -126,9 +126,9 @@ These are the properties available in the [property editor](Property_editor.md).
 
 -    **Selection Style|Enumeration**   * {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
 
-## Detailed explanation 
+## Подробное описание 
 
-### Active status 
+### Активное состояние 
 
 An open document can contain multiple Parts. But only one Part can be active. The active Part is displayed in the [tree view](Tree_view.md) with the background color specified by the **Active container** value in the [preferences editor](Preferences_Editor#Colors.md) (by default, light blue). It will also be shown with bold text.
 
@@ -143,7 +143,7 @@ To activate or de-activate a Part   *
 
 *Document with two Std Parts, of which the second one is active.*
 
-### Origin
+### Начало координат 
 
 The Origin consists of the three standard axes (X, Y, Z) and three standard planes (XY, XZ and YZ). [Sketches](Sketch.md) and other objects can be attached to these elements when creating them.
 
@@ -183,7 +183,7 @@ The Part\'s visibility supersedes the visibility of any object it contains. If t
 
 </div>
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+Общие сведения о добавлении объектов в документ смотрите в разделе [Конструктивный элемент верстака Part](Part_Feature/ru.md).
 
 A Std Part ([App Part](App_Part.md)) is created with the `addObject()` method of the document. Once a Part exists, other objects can be added to it with the `addObject()` or `addObjects()` methods.
 

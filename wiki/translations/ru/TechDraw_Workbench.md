@@ -309,6 +309,8 @@ TechDraw был официально включен в FreeCAD начиная с
 
 </div>
 
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md)   * adds a surface finish symbol to a page. <small>(v1.0)</small> 
+
 ## Инструменты дополнения 
 
 Данные инструменты предназначены для улучшения TechDraw чертежей.
@@ -454,7 +456,7 @@ TechDraw был официально включен в FreeCAD начиная с
 -   [Группы Линий](TechDraw_LineGroup/ru.md)   * позволяет назначить толщину различным типам линий по умолчанию.
 -   [Шаблоны](TechDraw_Templates/ru.md)   * шаблоны по умолчанию, определенные для страниц чертежей.
 -   [Штриховка](TechDraw_Hatching/ru.md)   * объяснение различных методов штриховки.
--   [геометрические размеры и допуски](TechDraw_Geometric_dimensioning_and_tolerancing/ru.md)   * руководство по обознаению геометрических размеров и допусков.
+-   [Геометрические размеры и допуски](TechDraw_Geometric_dimensioning_and_tolerancing/ru.md)   * руководство по указанию геометрических размеров и допусков.
 
 ## Настройки
 

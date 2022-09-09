@@ -40,11 +40,11 @@ This category lists pages related to the [TechDraw Workbench/pl](TechDraw_Workbe
 | [TechDraw ProjectionGroup/pl](wiki/TechDraw ProjectionGroup/pl.md) | [TechDraw Quadrants/pl](wiki/TechDraw Quadrants/pl.md) | [TechDraw RadiusDimension/pl](wiki/TechDraw RadiusDimension/pl.md) |
 | [TechDraw RedrawPage/pl](wiki/TechDraw RedrawPage/pl.md) | [TechDraw RichTextAnnotation/pl](wiki/TechDraw RichTextAnnotation/pl.md) | [TechDraw SectionView/pl](wiki/TechDraw SectionView/pl.md) |
 | [TechDraw ShareView/pl](wiki/TechDraw ShareView/pl.md) | [TechDraw ShowAll/pl](wiki/TechDraw ShowAll/pl.md) | [TechDraw SpreadsheetView/pl](wiki/TechDraw SpreadsheetView/pl.md) |
-| [TechDraw Symbol/pl](wiki/TechDraw Symbol/pl.md) | [TechDraw TemplateHowTo/pl](wiki/TechDraw TemplateHowTo/pl.md) | [TechDraw Templates/pl](wiki/TechDraw Templates/pl.md) |
-| [TechDraw ToggleFrame/pl](wiki/TechDraw ToggleFrame/pl.md) | [Template:TechDraw Tools navi/pl](wiki/Template_TechDraw Tools navi/pl.md) | [TechDraw VerticalDimension/pl](wiki/TechDraw VerticalDimension/pl.md) |
-| [TechDraw VerticalExtentDimension/pl](wiki/TechDraw VerticalExtentDimension/pl.md) | [TechDraw View/pl](wiki/TechDraw View/pl.md) | [TechDraw WeldSymbol/pl](wiki/TechDraw WeldSymbol/pl.md) |
-| [TechDraw Workbench/pl](wiki/TechDraw Workbench/pl.md) | [TechDrawGui API/pl](wiki/TechDrawGui API/pl.md) | [Topological naming problem/pl](wiki/Topological naming problem/pl.md) |
-| [Tutorial for open windows/pl](wiki/Tutorial for open windows/pl.md) |
+| [TechDraw SurfaceFinishSymbol/pl](wiki/TechDraw SurfaceFinishSymbol/pl.md) | [TechDraw Symbol/pl](wiki/TechDraw Symbol/pl.md) | [TechDraw TemplateHowTo/pl](wiki/TechDraw TemplateHowTo/pl.md) |
+| [TechDraw Templates/pl](wiki/TechDraw Templates/pl.md) | [TechDraw ToggleFrame/pl](wiki/TechDraw ToggleFrame/pl.md) | [Template:TechDraw Tools navi/pl](wiki/Template_TechDraw Tools navi/pl.md) |
+| [TechDraw VerticalDimension/pl](wiki/TechDraw VerticalDimension/pl.md) | [TechDraw VerticalExtentDimension/pl](wiki/TechDraw VerticalExtentDimension/pl.md) | [TechDraw View/pl](wiki/TechDraw View/pl.md) |
+| [TechDraw WeldSymbol/pl](wiki/TechDraw WeldSymbol/pl.md) | [TechDraw Workbench/pl](wiki/TechDraw Workbench/pl.md) | [TechDrawGui API/pl](wiki/TechDrawGui API/pl.md) |
+| [Topological naming problem/pl](wiki/Topological naming problem/pl.md) | [Tutorial for open windows/pl](wiki/Tutorial for open windows/pl.md) |
 
 
 

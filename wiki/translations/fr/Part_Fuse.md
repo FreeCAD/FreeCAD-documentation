@@ -36,7 +36,7 @@ Les composés sont pris en charge ; cependant, il est supposé que les formes co
 
 ## Options
 
-Les éléments peuvent être ajoutés et supprimés à partir de la fusion, en les faisant glisser dans ou hors de la fonction de fusion dans l\'arborescence, avec la souris. Un recalcule manuel (appuyez sur la touche **F5** ou cliquez sur l\'icône de <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Rafraichir/Recalculer](Std_Refresh/fr.md)) est nécessaire pour voir les résultats.
+Les éléments peuvent être ajoutés et retirés d\'une fusion, en les faisant glisser dans ou hors de l\'élément de fusion dans l\'arborescence avec la souris. Pour faire glisser des éléments hors d\'une fusion, vous devez les déposer sur le nœud du document (le nom du fichier) de votre modèle. Un recalcul manuel (appuyez sur la touche **F5** ou cliquez sur l\'icône <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Rafraîchir](Std_Refresh/fr.md)) est nécessaire pour voir les résultats.
 
 Après que cette opération soit complète, il peut être nécessaire de nettoyer la forme avec <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Affiner la forme](Part_RefineShape/fr.md).
 

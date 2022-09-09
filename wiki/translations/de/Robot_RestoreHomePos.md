@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -14,6 +16,8 @@ Lässt den selektierten Roboter zu seiner Ausgangsposition zurückkehren.
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -25,6 +29,8 @@ Lässt den selektierten Roboter zu seiner Ausgangsposition zurückkehren.
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

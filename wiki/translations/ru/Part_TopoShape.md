@@ -21,7 +21,7 @@ Another type of class is that of [meshes](Mesh.md); this class is not very param
 
 *Simplified diagram of the relationships between the core objects in the program. The `Part   *   *TopoShape* class is embedded in the {{incode|Part   *   *Feature` object and from there it is propagated to all objects that are derived from it.}}
 
-## Usage
+## Применение
 
 The Part TopoShape is an object that is assigned to some [App DocumentObjects](App_DocumentObject.md).
 
@@ -35,7 +35,7 @@ Some of the most important objects with Part TopoShape are the following   *
 -   Any [sketch](Sketch.md), that is, [Sketcher SketchObject](Sketcher_SketchObject.md), created with the [Sketcher Workbench](Sketcher_Workbench.md).
 -   Any object created by importing a STEP, BREP, and similar solid format files.
 
-## Scripting
+## Программирование
 
 
 **See also   ***
